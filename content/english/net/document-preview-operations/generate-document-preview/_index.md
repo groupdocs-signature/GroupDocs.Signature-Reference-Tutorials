@@ -29,7 +29,7 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # GeneratePreview : Generate document pages preview\n");
 
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_PDF;
+            string filePath = "sample.pdf";
 
             using (Signature signature = new Signature(filePath))
             {
@@ -45,7 +45,7 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
 
         private static Stream CreatePageStream(int pageNumber)
         {
-            string imageFilePath = Path.Combine(Constants.OutputPath, "GeneratePreviewFolder", "image-" + pageNumber.ToString() + ".jpg");
+            string imageFilePath = Path.Combine("Your Document Directory", "GeneratePreviewFolder", "image-" + pageNumber.ToString() + ".jpg");
             var folder = Path.GetDirectoryName(imageFilePath);
             if (!Directory.Exists(folder))
             {
@@ -57,7 +57,7 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
         private static void ReleasePageStream(int pageNumber, Stream pageStream)
         {
             pageStream.Dispose();
-            string imageFilePath = Path.Combine(Constants.OutputPath, "GeneratePreviewFolder", "image-" + pageNumber.ToString() + ".jpg");
+            string imageFilePath = Path.Combine("Your Document Directory", "GeneratePreviewFolder", "image-" + pageNumber.ToString() + ".jpg");
             Console.WriteLine($"Image file {imageFilePath} is ready for preview");
         }
     }

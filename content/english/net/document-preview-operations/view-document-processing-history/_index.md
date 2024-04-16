@@ -28,7 +28,7 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Advanced Usage] # GetDocumentProcessHistory : Get document process history\n");
 
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_HISTORY;
+            string filePath = "sample_history.docx";
 
             using (Signature signature = new Signature(filePath))
             {

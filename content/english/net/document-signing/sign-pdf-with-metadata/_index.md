@@ -30,8 +30,8 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # SignPdfWithMetadata : Sign pdf document with metadata signature\n");
 
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_PDF;
-            string outputFilePath = Path.Combine(Constants.OutputPath, "SignPdfWithMetadata", "SignedWithMetadata.pdf");
+            string filePath = "sample.pdf";
+            string outputFilePath = Path.Combine("Your Document Directory", "SignPdfWithMetadata", "SignedWithMetadata.pdf");
             // create Signature instance 
             using (Signature signature = new Signature(filePath))
             {

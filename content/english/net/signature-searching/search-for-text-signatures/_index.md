@@ -32,7 +32,7 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # SearchForText : Search document for Text signature \n");
 
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_SIGNED_MULTI;
+            string filePath = "sample_multiple_signatures.docx";
             string fileName = Path.GetFileName(filePath);
             using (Signature signature = new Signature(filePath))
             {

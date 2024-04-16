@@ -30,7 +30,7 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # SearchForMultiple : Search document for multiple signature types \n");
 
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_SIGNED_MULTI;
+            string filePath = "sample_multiple_signatures.docx";
 
             using (Signature signature = new Signature(filePath))
             {

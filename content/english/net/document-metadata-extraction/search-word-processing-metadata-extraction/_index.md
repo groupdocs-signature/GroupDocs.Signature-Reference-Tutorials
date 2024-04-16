@@ -29,7 +29,7 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # SearchWordProcessingForMetadata : Search Word Processing document for metadata signature(s)\n");
 
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_WORDSPROCESSING_SIGNED_METADATA;
+            string filePath = "sample_signed_metadata.docx";
             using (Signature signature = new Signature(filePath))
             {
                 // search for signatures in document

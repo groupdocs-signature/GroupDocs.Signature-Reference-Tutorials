@@ -29,7 +29,7 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # SearchSpreadsheetForMetadata : Search Spreadsheet document for metadata signature(s)\n");
 
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_SPREADSHEET_SIGNED_METADATA;
+            string filePath = "sample.xlsx"_SIGNED_METADATA;
             using (Signature signature = new Signature(filePath))
             {
                 // search for signatures in document

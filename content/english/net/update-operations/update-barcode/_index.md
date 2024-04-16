@@ -32,11 +32,11 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # UpdateBarcode : Update Barcode signature from the document \n");
 
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_SIGNED_MULTI;
+            string filePath = "sample_multiple_signatures.docx";
             // copy source file since Update method works with same Document
             string fileName = Path.GetFileName(filePath);
-            string outputFilePath = Path.Combine(Constants.OutputPath, "UpdateBarcode", fileName);
-            Constants.CheckDir(outputFilePath);
+            string outputFilePath = Path.Combine("Your Document Directory", "UpdateBarcode", fileName);
+            
             File.Copy(filePath, outputFilePath, true);
             // initialize Signature instance
             using (Signature signature = new Signature(outputFilePath))

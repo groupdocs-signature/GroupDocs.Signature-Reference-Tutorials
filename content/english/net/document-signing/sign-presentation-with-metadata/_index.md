@@ -30,8 +30,8 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # SignPresentationWithMetadata : Sign presentation document with metadata signature\n");
 
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_PRESENTATION;            
-            string outputFilePath = Path.Combine(Constants.OutputPath, "SignPresentationWithMetadata", "SignedWithMetadata.pptx");
+            string filePath = "sample.pptx";            
+            string outputFilePath = Path.Combine("Your Document Directory", "SignPresentationWithMetadata", "SignedWithMetadata.pptx");
 
             using (Signature signature = new Signature(filePath))
             {

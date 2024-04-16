@@ -29,7 +29,7 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # SearchPdfForMetadata : Search Pdf document for metadata signature(s)\n");
 
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_PDF_SIGNED_METADATA;
+            string filePath = "sample.pdf"_SIGNED_METADATA;
             using (Signature signature = new Signature(filePath))
             {
                 // search for signatures in document

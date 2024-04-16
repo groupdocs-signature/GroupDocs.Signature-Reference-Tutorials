@@ -30,10 +30,10 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # SignPdfWithFormField : Sign pdf document with form-field signature\n");
 
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_PDF;
+            string filePath = "sample.pdf";
             string fileName = Path.GetFileName(filePath);
 
-            string outputFilePath = Path.Combine(Constants.OutputPath, "SignPdfWithFormField", "SignedWithFormField.pdf");
+            string outputFilePath = Path.Combine("Your Document Directory", "SignPdfWithFormField", "SignedWithFormField.pdf");
 
             using (Signature signature = new Signature(filePath))
             {

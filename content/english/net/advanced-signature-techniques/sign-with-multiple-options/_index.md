@@ -31,8 +31,8 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # SignWithMultipleOptions : Sign document with multiple signature types \n");
 
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_WORDPROCESSING;
-            string outputFilePath = Path.Combine(Constants.OutputPath, "SignWithMultiple", "SignWithMultiple.docx");
+            string filePath = "sample.docx";
+            string outputFilePath = Path.Combine("Your Document Directory", "SignWithMultiple", "SignWithMultiple.docx");
 
             using (Signature signature = new Signature(filePath))
             {
@@ -56,16 +56,16 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
                     Left = 0,
                     Top = 220
                 };
-                DigitalSignOptions digitalOptions = new DigitalSignOptions(Constants.CertificatePfx)
+                DigitalSignOptions digitalOptions = new DigitalSignOptions("YourSignature.pfx")
                 {
-                    ImageFilePath = Constants.ImageHandwrite,
+                    ImageFilePath = "signature_handwrite.jpg",
                     Left = 20,
                     Top = 400,
                     Height = 100,
                     Width = 100,
                     Password = "1234567890"
                 };
-                ImageSignOptions imageOptions = new ImageSignOptions(Constants.ImageStamp)
+                ImageSignOptions imageOptions = new ImageSignOptions("stamp.png")
                 {
                     Left = 20,
                     Top = 550,

@@ -29,11 +29,11 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("--------------------------------------------------------------------------------------------------------------------");
             Console.WriteLine("[Example Basic Usage] # DeleteDigital : Delete Digital signature from the document");
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_PDF_SIGNED_DIGITAL;
+            string filePath = "sample.pdf"_SIGNED_DIGITAL;
             string fileName = Path.GetFileName(filePath);
             // copy source file since Delete method works with same Document
-            string outputFilePath = Path.Combine(Constants.OutputPath, "DeleteDigital", fileName);
-            Constants.CheckDir(outputFilePath);
+            string outputFilePath = Path.Combine("Your Document Directory", "DeleteDigital", fileName);
+            
             File.Copy(filePath, outputFilePath, true);
             using (Signature signature = new Signature(outputFilePath))
             {

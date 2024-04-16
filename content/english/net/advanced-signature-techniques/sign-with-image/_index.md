@@ -30,11 +30,11 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # SignWithImage : Sign document with image\n");
 
             // The path to the documents directory.            
-            string filePath = Constants.SAMPLE_PDF;
+            string filePath = "sample.pdf";
             string fileName = Path.GetFileName(filePath);
-            string imagePath = Constants.ImageHandwrite;
+            string imagePath = "signature_handwrite.jpg";
 
-            string outputFilePath = Path.Combine(Constants.OutputPath, "SignWithImage", fileName);
+            string outputFilePath = Path.Combine("Your Document Directory", "SignWithImage", fileName);
 
             using (Signature signature = new Signature(filePath))
             {

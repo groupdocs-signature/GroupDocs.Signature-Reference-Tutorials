@@ -31,11 +31,11 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # UpdateText : Update Text signature in the document \n");
 
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_SIGNED_MULTI;
+            string filePath = "sample_multiple_signatures.docx";
             // copy source file since Update method works with same Document
             string fileName = Path.GetFileName(filePath);
-            string outputFilePath = Path.Combine(Constants.OutputPath, "UpdateText", fileName);
-            Constants.CheckDir(outputFilePath);
+            string outputFilePath = Path.Combine("Your Document Directory", "UpdateText", fileName);
+            
             File.Copy(filePath, outputFilePath, true);
             // 
             using (Signature signature = new Signature(outputFilePath))

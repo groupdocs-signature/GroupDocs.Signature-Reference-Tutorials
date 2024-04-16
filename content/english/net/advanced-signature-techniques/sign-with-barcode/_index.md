@@ -30,10 +30,10 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # SignWithBarcode : Sign document with Barcode\n");
 
             // The path to the documents directory.
-            string filePath = Constants.SAMPLE_PDF;
+            string filePath = "sample.pdf";
             string fileName = Path.GetFileName(filePath);
 
-            string outputFilePath = Path.Combine(Constants.OutputPath, "SignWithBarcode", fileName);
+            string outputFilePath = Path.Combine("Your Document Directory", "SignWithBarcode", fileName);
 
             using (Signature signature = new Signature(filePath))
             {

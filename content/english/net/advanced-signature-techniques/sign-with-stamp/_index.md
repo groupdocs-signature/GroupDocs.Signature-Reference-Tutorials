@@ -31,10 +31,10 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
             Console.WriteLine("[Example Basic Usage] # SignWithStamp : Sign document with stamp\n");
 
             // The path to the documents directory.            
-            string filePath = Constants.SAMPLE_PDF;
+            string filePath = "sample.pdf";
             string fileName = Path.GetFileName(filePath);
 
-            string outputFilePath = Path.Combine(Constants.OutputPath, "SignWithStamp", fileName);
+            string outputFilePath = Path.Combine("Your Document Directory", "SignWithStamp", fileName);
 
             using (Signature signature = new Signature(filePath))
             {

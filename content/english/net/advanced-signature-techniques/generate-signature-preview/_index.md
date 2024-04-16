@@ -64,7 +64,7 @@ namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
         private static Stream CreateSignatureStream(PreviewSignatureOptions previewOptions)
         {
             SignOptions signOptions = previewOptions.SignOptions;
-            string imageFilePath = Path.Combine(Constants.OutputPath, "GenerateSignaturePreview", $"signature-{previewOptions.SignatureId}-{previewOptions.SignOptions.SignatureType}.jpg");
+            string imageFilePath = Path.Combine("Your Document Directory", "GenerateSignaturePreview", $"signature-{previewOptions.SignatureId}-{previewOptions.SignOptions.SignatureType}.jpg");
             var folder = Path.GetDirectoryName(imageFilePath);
             if (!Directory.Exists(folder))
             {
