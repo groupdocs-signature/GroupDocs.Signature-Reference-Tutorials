@@ -2,61 +2,69 @@
 title: Signing with Digital Signature
 linktitle: Signing with Digital Signature
 second_title: GroupDocs.Signature .NET API
-description: 
+description: Learn how to sign documents digitally in .NET using GroupDocs.Signature. Enhance security and authenticity with this comprehensive tutorial.
 type: docs
 weight: 12
 url: /net/advanced-signature-techniques/sign-with-digital/
 ---
+## Introduction
+Digital signatures play a crucial role in ensuring the authenticity and integrity of electronic documents. In the realm of .NET development, GroupDocs.Signature offers a powerful solution for seamlessly integrating digital signatures into your applications. This tutorial will guide you through the process of signing a document using a digital signature with GroupDocs.Signature for .NET.
+## Prerequisites
+Before we dive into the implementation, make sure you have the following prerequisites in place:
+1. GroupDocs.Signature for .NET: Download and install GroupDocs.Signature for .NET from the [download page](https://releases.groupdocs.com/signature/net/).
+2. Digital Certificate: Obtain a digital certificate (.pfx) that will be used for signing the document. If you don't have one, you can create a self-signed certificate or obtain it from a trusted certificate authority.
+3. Document to Sign: Prepare the document (e.g., PDF) that you want to sign digitally. Ensure that you have the necessary permissions to access and modify the document.
+4. Signature Image: Optionally, you can provide an image of your signature that will be embedded into the document. This adds a personalized touch to the digital signature.
 
-## Complete Source Code
+## Import Namespaces
+First, let's import the necessary namespaces to our C# code:
 ```csharp
 using System;
 using System.IO;
-
-namespace GroupDocs.Signature.Examples.CSharp.BasicUsage
-{
-    using GroupDocs.Signature;
-    using GroupDocs.Signature.Domain;
-    using GroupDocs.Signature.Options;
-
-    public class SignWithDigital
-    {
-        /// <summary>
-        /// Sign document with digital signature
-        /// </summary>
-        public static void Run()
-        {
-            Console.WriteLine("\n--------------------------------------------------------------------------------------------------------------------");
-            Console.WriteLine("[Example Basic Usage] # SignWithDigital : Sign document with digital certificate\n");
-
-            // The path to the documents directory.            
-            string filePath = "sample.pdf";
-            string fileName = Path.GetFileName(filePath);
-            string imagePath = "signature_handwrite.jpg";
-            string certificatePath = "YourSignature.pfx";
-
-            string outputFilePath = Path.Combine("Your Document Directory", "SignWithDigital", fileName);
-
-            using (Signature signature = new Signature(filePath))
-            {
-                DigitalSignOptions options = new DigitalSignOptions(certificatePath)
-                {
-                    // optional: setup image file path
-                    ImageFilePath = imagePath,
-                    //
-                    Left = 50,
-                    Top = 50,
-                    PageNumber = 1,
-                    Password = "1234567890"
-                };
-
-                // sign document to file
-                SignResult result = signature.Sign(outputFilePath, options);
-
-                Console.WriteLine($"\nSource document signed successfully with {result.Succeeded.Count} signature(s).\nFile saved at {outputFilePath}.");
-            }
-        }
-    }
-}
-
+using GroupDocs.Signature;
+using GroupDocs.Signature.Domain;
+using GroupDocs.Signature.Options;
 ```
+## Step 1: Specify File Paths and Options
+Define the file paths for the document to sign, the signature image (if applicable), and the digital certificate.
+```csharp
+string filePath = "sample.pdf";
+string fileName = Path.GetFileName(filePath);
+string imagePath = "signature_handwrite.jpg";
+string certificatePath = "YourSignature.pfx";
+string outputFilePath = Path.Combine("Your Document Directory", "SignWithDigital", fileName);
+```
+## Step 2: Initialize Signature Object
+Create an instance of the `Signature` class by passing the path of the document to sign.
+```csharp
+using (Signature signature = new Signature(filePath))
+{
+    // Define digital signature options
+    DigitalSignOptions options = new DigitalSignOptions(certificatePath)
+    {
+        ImageFilePath = imagePath, // Set image file path (optional)
+        Left = 50,                 // Set X-coordinate of signature position
+        Top = 50,                  // Set Y-coordinate of signature position
+        PageNumber = 1,            // Specify the page number to sign
+        Password = "1234567890"    // Set password for certificate (if required)
+    };
+    // Step 3: Sign the Document
+    SignResult result = signature.Sign(outputFilePath, options);
+    // Step 4: Display Result
+    Console.WriteLine($"\nSource document signed successfully with {result.Succeeded.Count} signature(s).\nFile saved at {outputFilePath}.");
+}
+```
+
+## Conclusion
+In this tutorial, we've explored how to sign a document using a digital signature with GroupDocs.Signature for .NET. By following these simple steps, you can enhance the security and authenticity of your electronic documents, ensuring they remain tamper-proof and legally binding.
+## FAQ's
+### What is a digital signature?
+A digital signature is a cryptographic technique used to verify the authenticity and integrity of digital documents or messages.
+### Can I sign documents with GroupDocs.Signature using a self-signed certificate?
+Yes, you can sign documents using a self-signed certificate generated by tools like OpenSSL or Microsoft's MakeCert.
+### Is GroupDocs.Signature compatible with different document formats?
+Yes, GroupDocs.Signature supports a wide range of document formats, including PDF, Word, Excel, PowerPoint, and more.
+### Can I customize the appearance of my digital signature?
+Absolutely! GroupDocs.Signature allows you to customize various aspects of your digital signature, such as its position, size, and appearance.
+### Is GroupDocs.Signature suitable for enterprise-level applications?
+Yes, GroupDocs.Signature offers robust features and scalability, making it an ideal choice for enterprise-level document signing applications.
