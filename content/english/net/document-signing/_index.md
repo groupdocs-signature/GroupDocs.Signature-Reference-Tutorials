@@ -2,11 +2,33 @@
 title: Document Signing
 linktitle: Document Signing
 second_title: GroupDocs.Signature .NET API
-description: 
+description: Sign images, PDFs, presentations, spreadsheets and Word documents with metadata using GroupDocs.Signature .NET. Enhance document authenticity and integrity.
 type: docs
 weight: 24
 url: /net/document-signing/
 ---
+## Introduction
+
+Learn how to sign various types of documents with metadata using GroupDocs.Signature for .NET. From images to spreadsheets, ensure document authenticity effortlessly.
+
+Document signing is a critical aspect of document management, ensuring traceability, integrity, and authenticity. GroupDocs.Signature for .NET offers a comprehensive solution for signing various types of documents with metadata, enhancing their reliability and trustworthiness.
+
+## Sign Image with Metadata
+Signing images with metadata in .NET has never been easier. With GroupDocs.Signature, you can seamlessly add metadata signatures to your images, enhancing their traceability and authenticity. Learn how to sign images [step-by-step](./sign-image-with-metadata/), ensuring efficient document management.
+
+## Sign PDF with Metadata
+PDF documents are widely used for their portability and security. With GroupDocs.Signature for .NET, you can sign PDFs with metadata, adding valuable information and enhancing document traceability. Follow our tutorial to learn how to sign PDF documents [effortlessly](./sign-pdf-with-metadata/).
+
+## Sign Presentation with Metadata
+Presentations are essential for conveying information effectively. Ensure the integrity of your presentations by signing them with metadata using GroupDocs.Signature for .NET. Our tutorial guides you through the process, enhancing document reliability and authenticity.
+
+## Sign Spreadsheet with Metadata
+Spreadsheets often contain crucial data that requires protection and verification. With GroupDocs.Signature for .NET, you can sign spreadsheets with metadata, ensuring document integrity and verification. Learn how to enhance the reliability of your spreadsheets [here](./sign-spreadsheet-with-metadata/).
+
+## Sign Word Processing with Metadata
+Word Processing documents are commonly used for creating reports, memos, and other textual content. With GroupDocs.Signature for .NET, you can sign Word Processing documents with metadata, enhancing their authenticity and traceability. Follow our tutorial to learn how to ensure document reliability [effortlessly](./sign-word-processing-with-metadata/).
+
+Document signing with metadata adds an extra layer of security and trust to your files, making them more reliable and tamper-proof. With GroupDocs.Signature for .NET, you can easily integrate document signing capabilities into your .NET applications, ensuring seamless document management.
 
 ## Document Signing Tutorials
 ### [Sign Image with Metadata](./sign-image-with-metadata/)
