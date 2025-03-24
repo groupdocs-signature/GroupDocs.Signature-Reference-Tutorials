@@ -6,6 +6,9 @@ description: Scopri come firmare documenti di elaborazione testi con metadati ut
 weight: 14
 url: /it/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# Firma l'elaborazione testi con metadati
+
 ## introduzione
 In questo tutorial ti guideremo attraverso il processo di firma di un documento di elaborazione testi con metadati utilizzando GroupDocs.Signature per .NET. La firma dei metadati ti consente di incorporare informazioni aggiuntive nel tuo documento, come il nome dell'autore, la data di creazione, l'ID del documento e altro.
 ## Prerequisiti

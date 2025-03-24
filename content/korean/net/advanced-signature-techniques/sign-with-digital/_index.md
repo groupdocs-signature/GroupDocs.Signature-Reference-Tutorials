@@ -6,6 +6,9 @@ description: GroupDocs.Signature를 사용하여 .NET에서 문서에 디지털 
 weight: 12
 url: /ko/net/advanced-signature-techniques/sign-with-digital/
 ---
+
+# 디지털 서명으로 서명
+
 ## 소개
 디지털 서명은 전자 문서의 신뢰성과 무결성을 보장하는 데 중요한 역할을 합니다. .NET 개발 영역에서 GroupDocs.Signature는 디지털 서명을 응용 프로그램에 원활하게 통합하기 위한 강력한 솔루션을 제공합니다. 이 자습서에서는 .NET용 GroupDocs.Signature를 사용하여 디지털 서명을 사용하여 문서에 서명하는 과정을 안내합니다.
 ## 전제 조건

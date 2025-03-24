@@ -6,6 +6,9 @@ description: Elimine firmas, códigos de barras y más de documentos .NET con Gr
 weight: 20
 url: /es/net/delete-operations/
 ---
+
+# Eliminar operaciones
+
 ## Introducción
 
 ¿Está buscando optimizar su proceso de gestión de documentos en aplicaciones .NET? Con GroupDocs.Signature, puede eliminar de manera eficiente varios tipos de firmas, incluidos códigos de barras, firmas digitales, firmas de imágenes, firmas de texto y más. Sumérgete en nuestros tutoriales a continuación para aprender cómo realizar operaciones de eliminación sin problemas.

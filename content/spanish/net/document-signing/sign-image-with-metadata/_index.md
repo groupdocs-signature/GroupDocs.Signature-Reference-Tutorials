@@ -6,6 +6,9 @@ description: Aprenda a firmar imágenes con metadatos en .NET usando GroupDocs.S
 weight: 10
 url: /es/net/document-signing/sign-image-with-metadata/
 ---
+
+# Firmar imagen con metadatos
+
 ## Introducción
 GroupDocs.Signature para .NET permite a los desarrolladores firmar imágenes con metadatos de manera eficiente. Este tutorial le guiará a través del proceso paso a paso.
 ## Requisitos previos

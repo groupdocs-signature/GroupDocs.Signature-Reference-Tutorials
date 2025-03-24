@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan törölhet digitális aláírásokat dokumentum
 weight: 13
 url: /hu/net/delete-operations/delete-digital-signature/
 ---
+
+# Törölje a digitális aláírást a dokumentumból
+
 ## Bevezetés
 A digitális dokumentumok világában a hitelesség és a biztonság biztosítása a legfontosabb. A digitális aláírások döntő szerepet játszanak az elektronikus dokumentumok sértetlenségének ellenőrzésében. A GroupDocs.Signature for .NET hatékony eszközöket kínál a digitális aláírások hatékony kezelésére a .NET-alkalmazásokon belül.
 ## Előfeltételek

@@ -6,6 +6,9 @@ description: GroupDocs.Signature を使用して .NET でメタデータを含�
 weight: 10
 url: /ja/net/document-signing/sign-image-with-metadata/
 ---
+
+# メタデータを含む画像に署名する
+
 ## 導入
 GroupDocs.Signature for .NET を使用すると、開発者はメタデータを含むイメージに効率的に署名できます。このチュートリアルでは、プロセスを段階的に説明します。
 ## 前提条件

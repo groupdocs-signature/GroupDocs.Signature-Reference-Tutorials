@@ -6,6 +6,9 @@ description: Tanulja meg, hogyan törölheti könnyedén az aláírásokat típu
 weight: 12
 url: /hu/net/delete-operations/delete-signature-by-type/
 ---
+
+# Aláírás törlése típus szerint
+
 ## Bevezetés
 mai digitális korban a hatékony dokumentumkezelés szükségessége a legfontosabb. Legyen szó akár szerződéseket kezelő üzletemberről, akár jogi dokumentumokat feldolgozó magánszemélyről, a fájljai hitelességének és sértetlenségének biztosítása kulcsfontosságú. A GroupDocs.Signature for .NET hatékony megoldást kínál a dokumentumokon belüli aláírások zökkenőmentes kezelésére. Ebben az oktatóanyagban az aláírások típusonkénti törlésének folyamatát mutatjuk be a GroupDocs.Signature for .NET használatával, amely lépésenkénti útmutatót nyújt a dokumentumkezelési feladatok egyszerűsítéséhez.
 ## Előfeltételek

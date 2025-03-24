@@ -6,6 +6,9 @@ description: Naučte se vyhledávat podpisy metadat obrázků v dokumentech pomo
 weight: 10
 url: /cs/net/document-metadata-extraction/search-image-metadata-extraction/
 ---
+
+# Prohledejte extrakci metadat obrázku pomocí GroupDocs.Signature
+
 ## Úvod
 digitálním věku je prvořadé zajistit integritu a pravost dokumentů. Ať už se jedná o smlouvy, právní dohody nebo důležité záznamy, mít spolehlivou metodu podepisování a ověřování dokumentů je zásadní. GroupDocs.Signature for .NET poskytuje komplexní řešení pro přidávání a ověřování podpisů v různých formátech dokumentů. V tomto tutoriálu se ponoříme do procesu vyhledávání podpisů metadat obrázků pomocí GroupDocs.Signature for .NET. 
 ## Předpoklady

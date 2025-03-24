@@ -6,6 +6,9 @@ description: Découvrez comment ajouter facilement des signatures de tampon à v
 weight: 16
 url: /fr/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# Signature avec Stamp à l'aide de GroupDocs.Signature
+
 ## Introduction
 Dans ce didacticiel, nous vous guiderons tout au long du processus de signature d'un document avec un tampon à l'aide de GroupDocs.Signature pour .NET. En suivant ces instructions étape par étape, vous pourrez facilement ajouter une signature tampon à vos documents.
 ## Conditions préalables

@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan írhat alá dokumentumokat szöveggel a GroupDo
 weight: 17
 url: /hu/net/advanced-signature-techniques/sign-with-text/
 ---
+
+# Aláírás szöveggel a GroupDocs.Signature for .NET használatával
+
 ## Bevezetés
 A digitális korban a dokumentumok elektronikus aláírása általános gyakorlattá vált, ami időt és erőforrásokat takarít meg. A GroupDocs.Signature for .NET átfogó megoldást kínál szöveges aláírások programozott hozzáadására különböző dokumentumformátumokhoz. Ebben az oktatóanyagban végigvezetjük a dokumentum szöveges aláírásának folyamatán a GroupDocs.Signature for .NET használatával.
 ## Előfeltételek

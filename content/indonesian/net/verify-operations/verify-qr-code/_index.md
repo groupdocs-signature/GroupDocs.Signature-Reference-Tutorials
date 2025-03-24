@@ -6,6 +6,9 @@ description: Pelajari cara memverifikasi kode QR dalam dokumen menggunakan Group
 weight: 12
 url: /id/net/verify-operations/verify-qr-code/
 ---
+
+# Verifikasi Kode QR
+
 ## Perkenalan
 Dalam bidang pengelolaan dan autentikasi dokumen, memastikan integritas dan validitas tanda tangan adalah hal yang terpenting. GroupDocs.Signature untuk .NET memberikan solusi komprehensif untuk memverifikasi kode QR yang tertanam dalam dokumen. Dalam tutorial ini, kita akan mempelajari proses langkah demi langkah memverifikasi kode QR menggunakan GroupDocs.Signature untuk .NET.
 ## Prasyarat

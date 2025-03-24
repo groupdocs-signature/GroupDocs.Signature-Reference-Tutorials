@@ -6,6 +6,9 @@ description: Découvrez comment rationaliser la gestion des documents avec les d
 weight: 21
 url: /fr/net/document-preview-operations/
 ---
+
+# Opérations d'aperçu du document
+
 ## Introduction
 
 Cherchez-vous à rationaliser votre processus de gestion de documents au sein de vos applications .NET ? Avec les didacticiels GroupDocs.Signature pour .NET, vous pouvez améliorer sans effort votre flux de travail et augmenter votre productivité. Examinons les principaux didacticiels proposés :

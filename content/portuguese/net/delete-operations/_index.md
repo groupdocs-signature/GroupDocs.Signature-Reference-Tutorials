@@ -6,6 +6,9 @@ description: Exclua assinaturas, códigos de barras e muito mais de documentos .
 weight: 20
 url: /pt/net/delete-operations/
 ---
+
+# Excluir operações
+
 ## Introdução
 
 Você deseja agilizar seu processo de gerenciamento de documentos em aplicativos .NET? Com GroupDocs.Signature, você pode excluir com eficiência vários tipos de assinaturas, incluindo códigos de barras, assinaturas digitais, assinaturas de imagem, assinaturas de texto e muito mais. Mergulhe em nossos tutoriais abaixo para aprender como realizar operações de exclusão perfeitamente.

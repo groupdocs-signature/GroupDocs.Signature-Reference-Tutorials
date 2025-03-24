@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 輕鬆查看文件�
 weight: 12
 url: /zh-hant/net/document-preview-operations/view-document-processing-history/
 ---
+
+# 查看文件處理記錄
+
 ## 介紹
 GroupDocs.Signature for .NET 是一個功能強大的程式庫，它使您能夠在 .NET 應用程式中無縫地管理和操作文件簽名，從而促進文件處理。無論您是處理合約、協議還是任何其他類型的需要簽署的文檔，GroupDocs.Signature 都可以讓您有效率地簡化工作流程。
 ## 先決條件

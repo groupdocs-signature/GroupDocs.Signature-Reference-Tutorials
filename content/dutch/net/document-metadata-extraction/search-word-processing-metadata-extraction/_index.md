@@ -6,6 +6,9 @@ description: Leer hoe u metagegevens voor tekstverwerking kunt zoeken met GroupD
 weight: 14
 url: /nl/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
+
+# Zoek tekstverwerking metagegevensextractie
+
 ## Invoering
 Op het gebied van .NET-ontwikkeling speelt het beheer van documenthandtekeningen en metagegevens een cruciale rol bij het waarborgen van de documentintegriteit en authenticiteit. GroupDocs.Signature voor .NET biedt een robuuste oplossing voor het efficiënt afhandelen van deze taken. Deze tutorial gaat in op het gebruik van GroupDocs.Signature om metagegevens voor tekstverwerking in documenten te doorzoeken, waardoor gebruikers essentiële informatie naadloos kunnen extraheren.
 ## Vereisten

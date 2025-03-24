@@ -6,6 +6,9 @@ description: Firma immagini, PDF, presentazioni, fogli di calcolo e documenti Wo
 weight: 24
 url: /it/net/document-signing/
 ---
+
+# Firma del documento
+
 ## introduzione
 
 Scopri come firmare vari tipi di documenti con metadati utilizzando GroupDocs.Signature per .NET. Dalle immagini ai fogli di calcolo, garantisci l'autenticità dei documenti senza sforzo.

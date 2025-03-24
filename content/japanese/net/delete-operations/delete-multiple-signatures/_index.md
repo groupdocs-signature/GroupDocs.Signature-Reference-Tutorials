@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用して、ドキュメント�
 weight: 15
 url: /ja/net/delete-operations/delete-multiple-signatures/
 ---
+
+# 文書から複数の署名を削除する
+
 ## 導入
 デジタルの世界では、文書管理にはさまざまな署名の処理が含まれることがよくあります。プログラムで文書から複数の署名を削除すると、ワークフローが合理化され、効率が向上します。 GroupDocs.Signature for .NET を使用すると、このタスクがシームレスかつ簡単になります。このチュートリアルでは、文書から複数の署名を削除するプロセスを段階的に説明します。
 ## 前提条件

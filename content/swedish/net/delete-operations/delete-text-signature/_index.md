@@ -6,6 +6,9 @@ description: Ta enkelt bort textsignaturer från dokument med GroupDocs.Signatur
 weight: 17
 url: /sv/net/delete-operations/delete-text-signature/
 ---
+
+# Ta bort textsignatur
+
 ## Introduktion
 GroupDocs.Signature för .NET är ett kraftfullt bibliotek som gör det möjligt för utvecklare att sömlöst integrera elektroniska signaturfunktioner i sina .NET-applikationer. Oavsett om du bygger ett dokumenthanteringssystem, en kontraktssigneringsplattform eller någon annan applikation som kräver signaturfunktionalitet, tillhandahåller GroupDocs.Signature för .NET en omfattande uppsättning verktyg för att förenkla processen.
 ## Förutsättningar

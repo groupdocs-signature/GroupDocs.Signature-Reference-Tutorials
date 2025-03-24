@@ -6,6 +6,9 @@ description: Découvrez comment supprimer le code-barres d'un document à l'aide
 weight: 10
 url: /fr/net/delete-operations/delete-barcode/
 ---
+
+# Supprimer le code-barres du document
+
 ## Introduction
 GroupDocs.Signature for .NET est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des signatures numériques, des tampons et des codes-barres dans les applications .NET. Dans ce didacticiel, nous vous guiderons tout au long du processus de suppression d'un code-barres d'un document à l'aide de GroupDocs.Signature pour .NET.
 ## Conditions préalables

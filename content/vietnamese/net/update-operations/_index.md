@@ -6,6 +6,9 @@ description: Cập nhật mã vạch, hình ảnh, mã QR và chữ ký văn b�
 weight: 26
 url: /vi/net/update-operations/
 ---
+
+# Cập nhật hoạt động
+
 ## Giới thiệu
 
 Bạn đang muốn cập nhật nhiều loại chữ ký khác nhau trong tài liệu .NET của mình? GroupDocs.Signature cho .NET cung cấp hướng dẫn toàn diện về cách cập nhật mã vạch, hình ảnh, mã QR và chữ ký văn bản, đảm bảo tích hợp liền mạch và nâng cao bảo mật tài liệu.

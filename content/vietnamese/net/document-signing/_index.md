@@ -6,6 +6,9 @@ description: Ký hình ảnh, PDF, bản trình bày, bảng tính và tài li�
 weight: 24
 url: /vi/net/document-signing/
 ---
+
+# Ký tài liệu
+
 ## Giới thiệu
 
 Tìm hiểu cách ký nhiều loại tài liệu khác nhau bằng siêu dữ liệu bằng GroupDocs.Signature cho .NET. Từ hình ảnh đến bảng tính, đảm bảo tính xác thực của tài liệu một cách dễ dàng.

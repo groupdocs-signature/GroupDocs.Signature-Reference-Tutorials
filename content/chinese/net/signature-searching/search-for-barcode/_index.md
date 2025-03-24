@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 在文档中搜索�
 weight: 10
 url: /zh/net/signature-searching/search-for-barcode/
 ---
+
+# 搜索条形码
+
 ## 介绍
 GroupDocs.Signature for .NET 是一个功能强大的工具，用于使用 .NET 应用程序添加和验证各种文档格式的数字签名。在本教程中，我们将重点介绍如何使用 GroupDocs.Signature for .NET 在文档中搜索条形码签名。
 ## 先决条件

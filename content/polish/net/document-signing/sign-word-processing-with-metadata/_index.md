@@ -6,6 +6,9 @@ description: Dowiedz się, jak podpisywać dokumenty edytora tekstu przy użyciu
 weight: 14
 url: /pl/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# Podpisuj przetwarzanie tekstu za pomocą metadanych
+
 ## Wstęp
 W tym samouczku przeprowadzimy Cię przez proces podpisywania dokumentu edytora tekstu za pomocą metadanych przy użyciu programu GroupDocs.Signature for .NET. Podpisywanie metadanych umożliwia osadzenie w dokumencie dodatkowych informacji, takich jak imię i nazwisko autora, data utworzenia, identyfikator dokumentu i inne.
 ## Warunki wstępne

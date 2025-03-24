@@ -6,6 +6,9 @@ description: Tìm hiểu cách xác minh văn bản trong tài liệu bằng Gro
 weight: 13
 url: /vi/net/verify-operations/verify-text/
 ---
+
+# Xác minh văn bản
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xác minh văn bản trong tài liệu bằng GroupDocs.Signature cho .NET. Thư viện mạnh mẽ này cho phép bạn tích hợp liền mạch chức năng xác minh văn bản vào các ứng dụng .NET của mình, đảm bảo tính toàn vẹn và xác thực cho tài liệu của bạn.
 ## Điều kiện tiên quyết

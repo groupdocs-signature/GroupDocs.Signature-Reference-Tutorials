@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak belgelerde barkod imzalar
 weight: 10
 url: /tr/net/signature-searching/search-for-barcode/
 ---
+
+# Barkod Ara
+
 ## giriiş
 GroupDocs.Signature for .NET, .NET uygulamalarını kullanarak çeşitli belge formatlarındaki dijital imzaları eklemek ve doğrulamak için güçlü bir araçtır. Bu öğreticide, GroupDocs.Signature for .NET'i kullanarak bir belgede barkod imzalarının nasıl aranacağına odaklanacağız.
 ## Önkoşullar

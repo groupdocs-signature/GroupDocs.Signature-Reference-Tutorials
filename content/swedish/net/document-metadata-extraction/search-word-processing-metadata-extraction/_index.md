@@ -6,6 +6,9 @@ description: Lär dig hur du söker efter ordbehandlingsmetadata med GroupDocs.S
 weight: 14
 url: /sv/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
+
+# Sök i ordbehandlingsmetadataextraktion
+
 ## Introduktion
 När det gäller .NET-utveckling spelar hantering av dokumentsignaturer och metadata en avgörande roll för att säkerställa dokumentintegritet och autenticitet. GroupDocs.Signature för .NET ger en robust lösning för att hantera dessa uppgifter effektivt. Den här handledningen går ut på att utnyttja GroupDocs.Signature för att söka i ordbehandlingsmetadata i dokument, vilket gör det möjligt för användare att extrahera viktig information sömlöst.
 ## Förutsättningar

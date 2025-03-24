@@ -6,6 +6,9 @@ description: Scopri come firmare documenti PDF con metadati utilizzando GroupDoc
 weight: 11
 url: /it/net/document-signing/sign-pdf-with-metadata/
 ---
+
+# Firma PDF con metadati
+
 ## introduzione
 In questo tutorial impareremo come firmare un documento PDF con metadati utilizzando GroupDocs.Signature per .NET. L'aggiunta di metadati a un PDF può fornire ulteriori informazioni sul documento, come paternità, data di creazione, ID documento e altro.
 ## Prerequisiti

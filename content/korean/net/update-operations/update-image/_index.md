@@ -6,6 +6,9 @@ description: GroupDocs.Signature를 사용하여 .NET 문서의 이미지 서명
 weight: 11
 url: /ko/net/update-operations/update-image/
 ---
+
+# 이미지 업데이트
+
 ## 소개
 문서 관리 및 인증 영역에서 디지털 서명은 전자 문서의 무결성과 신뢰성을 보장하는 데 중추적인 역할을 합니다. .NET용 GroupDocs.Signature는 개발자가 서명 기능을 .NET 응용 프로그램에 원활하게 통합할 수 있는 강력한 솔루션을 제공합니다. 다양한 기능 중에서 문서 내 이미지 서명 업데이트는 중요한 기능입니다.
 ## 전제 조건

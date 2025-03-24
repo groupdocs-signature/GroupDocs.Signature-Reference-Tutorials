@@ -6,6 +6,9 @@ description: Tìm hiểu cách ký bảng tính bằng siêu dữ liệu bằng 
 weight: 13
 url: /vi/net/document-signing/sign-spreadsheet-with-metadata/
 ---
+
+# Ký bảng tính với siêu dữ liệu
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình ký bảng tính có siêu dữ liệu bằng Groupdocs.Signature cho .NET. Ký siêu dữ liệu cho phép bạn nhúng thông tin bổ sung vào tài liệu của mình, cung cấp ngữ cảnh hoặc xác minh. Đến cuối hướng dẫn này, bạn sẽ có thể áp dụng chữ ký siêu dữ liệu vào bảng tính của mình một cách dễ dàng.
 ## Điều kiện tiên quyết

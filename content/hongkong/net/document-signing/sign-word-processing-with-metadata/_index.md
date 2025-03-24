@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 使用元資料對�
 weight: 14
 url: /zh-hant/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# 使用元資料進行符號字處理
+
 ## 介紹
 在本教學中，我們將引導您完成使用 GroupDocs.Signature for .NET 使用元資料對字處理文件進行簽署的流程。元資料簽章可讓您將附加資訊嵌入到文件中，例如作者姓名、建立日期、文件 ID 等。
 ## 先決條件

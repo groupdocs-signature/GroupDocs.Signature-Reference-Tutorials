@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 在文件中搜尋�
 weight: 11
 url: /zh-hant/net/signature-searching/search-for-digital-signatures/
 ---
+
+# 搜尋數位簽名
+
 ## 介紹
 在數位時代，確保文件的真實性和完整性至關重要。數位簽章在此過程中發揮關鍵作用，提供了一種安全的方式來簽署和驗證電子文件。 GroupDocs.Signature for .NET 提供了在 .NET 應用程式中使用數位簽章的全面解決方案。在本教程中，我們將深入研究使用 GroupDocs.Signature for .NET 在文件中搜尋數位簽章的基礎知識。
 ## 先決條件

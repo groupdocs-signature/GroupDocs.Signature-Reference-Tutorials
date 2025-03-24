@@ -6,6 +6,9 @@ description: Lär dig hur du tar bort bildsignaturer från dokument med GroupDoc
 weight: 14
 url: /sv/net/delete-operations/delete-image-signature/
 ---
+
+# Ta bort bildsignatur
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur man tar bort bildsignaturer från dokument med GroupDocs.Signature för .NET. GroupDocs.Signature är ett kraftfullt bibliotek som låter utvecklare arbeta med digitala signaturer, stämplar och formulärfält inom olika dokumentformat.
 ## Förutsättningar

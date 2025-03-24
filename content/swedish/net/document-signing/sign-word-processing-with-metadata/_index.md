@@ -6,6 +6,9 @@ description: Lär dig hur du signerar ordbehandlingsdokument med metadata med Gr
 weight: 14
 url: /sv/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# Signera ordbehandling med metadata
+
 ## Introduktion
 I den här självstudien guidar vi dig genom processen att signera ett ordbehandlingsdokument med metadata med GroupDocs.Signature för .NET. Metadatasignering låter dig bädda in ytterligare information i ditt dokument, såsom författarens namn, datum för skapande, dokument-ID och mer.
 ## Förutsättningar

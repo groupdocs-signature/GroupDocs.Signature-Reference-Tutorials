@@ -6,6 +6,9 @@ description: Aprenda como extrair metadados de apresentação usando GroupDocs.S
 weight: 12
 url: /pt/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---
+
+# Extração de metadados de apresentação de pesquisa
+
 ## Introdução
 No domínio da documentação digital, garantir a autenticidade e integridade dos arquivos é fundamental. GroupDocs.Signature for .NET oferece uma solução abrangente para integração de funcionalidades de assinatura em aplicativos .NET. Entre sua gama de recursos, uma capacidade de destaque é a capacidade de extrair metadados de apresentação com precisão e eficiência.
 ## Pré-requisitos

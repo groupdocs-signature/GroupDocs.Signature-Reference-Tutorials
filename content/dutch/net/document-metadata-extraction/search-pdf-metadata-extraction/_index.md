@@ -6,6 +6,9 @@ description: Leer hoe u metagegevenshandtekeningen uit PDF-documenten kunt zoeke
 weight: 11
 url: /nl/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# Zoeken naar PDF-metagegevensextractie
+
 ## Invoering
 Op het gebied van digitaal documentbeheer is het waarborgen van de authenticiteit en integriteit van bestanden van het allergrootste belang. Een essentieel aspect hiervan is de mogelijkheid om PDF-metagegevens efficiënt te doorzoeken. Metagegevenshandtekeningen in PDF-documenten bieden waardevolle informatie over de oorsprong, het auteurschap en de inhoud van het bestand.
 ## Vereisten

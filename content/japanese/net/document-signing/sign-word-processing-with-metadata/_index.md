@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用して、ワード プロセ�
 weight: 14
 url: /ja/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# メタデータを使用したサインワード処理
+
 ## 導入
 このチュートリアルでは、GroupDocs.Signature for .NET を使用して、ワード プロセッサ ドキュメントにメタデータで署名するプロセスについて説明します。メタデータ署名を使用すると、作成者の名前、作成日、ドキュメント ID などの追加情報をドキュメントに埋め込むことができます。
 ## 前提条件

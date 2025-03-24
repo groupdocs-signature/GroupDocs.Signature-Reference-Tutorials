@@ -6,6 +6,9 @@ description: Naučte se generovat náhledy dokumentů pomocí GroupDocs.Signatur
 weight: 10
 url: /cs/net/document-preview-operations/generate-document-preview/
 ---
+
+# Generovat náhled dokumentu
+
 ## Úvod
 dnešní digitální době, kdy jsou dokumenty jádrem komunikace a transakcí, je prvořadé zajistit jejich integritu a autenticitu. GroupDocs.Signature for .NET umožňuje vývojářům bezproblémově začlenit možnosti podepisování dokumentů do jejich aplikací .NET. V tomto tutoriálu se ponoříme do generování náhledů dokumentů pomocí GroupDocs.Signature pro .NET a poskytneme vývojářům podrobné pokyny.
 ## Předpoklady

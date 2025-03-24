@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 문서에서 이미지 
 weight: 10
 url: /ko/net/document-metadata-extraction/search-image-metadata-extraction/
 ---
+
+# GroupDocs.Signature로 이미지 메타데이터 추출 검색
+
 ## 소개
 디지털 시대에는 문서의 무결성과 신뢰성을 보장하는 것이 무엇보다 중요합니다. 계약서, 법적 합의서, 중요한 기록 등 문서에 서명하고 확인하는 신뢰할 수 있는 방법을 갖추는 것이 중요합니다. .NET용 GroupDocs.Signature는 다양한 문서 형식의 서명을 추가하고 확인하기 위한 포괄적인 솔루션을 제공합니다. 이 자습서에서는 .NET용 GroupDocs.Signature를 사용하여 이미지 메타데이터 서명을 검색하는 프로세스를 자세히 살펴보겠습니다. 
 ## 전제 조건

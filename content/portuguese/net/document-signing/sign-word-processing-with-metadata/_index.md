@@ -6,6 +6,9 @@ description: Aprenda como assinar documentos de processamento de texto com metad
 weight: 14
 url: /pt/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# Assinar processamento de texto com metadados
+
 ## Introdução
 Neste tutorial, orientaremos você no processo de assinatura de um documento de processamento de texto com metadados usando GroupDocs.Signature for .NET. A assinatura de metadados permite incorporar informações adicionais ao seu documento, como nome do autor, data de criação, ID do documento e muito mais.
 ## Pré-requisitos

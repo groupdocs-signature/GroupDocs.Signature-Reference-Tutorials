@@ -6,6 +6,9 @@ description: Aprenda técnicas avançadas de assinatura com os tutoriais do Grou
 weight: 25
 url: /pt/net/advanced-signature-techniques/
 ---
+
+# Técnicas Avançadas de Assinatura
+
 ## Introdução
 
 Bem-vindo ao nosso guia completo sobre técnicas avançadas de assinatura usando GroupDocs.Signature for .NET. Quer você seja um desenvolvedor experiente ou esteja apenas começando, estes tutoriais irão equipá-lo com o conhecimento e as habilidades para aprimorar a segurança e a autenticidade dos documentos sem esforço.

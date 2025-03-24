@@ -6,6 +6,9 @@ description: 使用 GroupDocs.Signature for .NET 从电子表格中高效提取�
 weight: 13
 url: /zh/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
+
+# 搜索电子表格元数据提取
+
 ## 介绍
 在文档管理和验证领域，从电子表格中有效提取元数据的能力至关重要。元数据提取不仅有助于理解文档的上下文和属性，还可以简化合规性验证和数据分析等流程。 GroupDocs.Signature for .NET 提供了一个强大的解决方案，用于无缝搜索电子表格元数据，为开发人员提供了强大的工具来增强以文档为中心的应用程序。
 ## 先决条件

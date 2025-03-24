@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用してテキストでドキ�
 weight: 17
 url: /ja/net/advanced-signature-techniques/sign-with-text/
 ---
+
+# GroupDocs.Signature for .NET を使用してテキストで署名する
+
 ## 導入
 デジタル時代では、文書に電子的に署名することが標準的な方法となり、時間とリソースを節約しています。GroupDocs.Signature for .NET は、さまざまな文書形式にプログラムでテキスト署名を追加するための包括的なソリューションを提供します。このチュートリアルでは、GroupDocs.Signature for .NET を使用して文書にテキストで署名するプロセスについて説明します。
 ## 前提条件

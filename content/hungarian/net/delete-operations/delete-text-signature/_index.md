@@ -6,6 +6,9 @@ description: Könnyedén törölheti a szöveges aláírásokat a dokumentumokb�
 weight: 17
 url: /hu/net/delete-operations/delete-text-signature/
 ---
+
+# Szöveges aláírás törlése
+
 ## Bevezetés
 GroupDocs.Signature for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen integrálják az elektronikus aláírás funkcióit .NET-alkalmazásaikba. Függetlenül attól, hogy dokumentumkezelő rendszert, szerződés-aláíró platformot vagy bármilyen más, aláírási funkciókat igénylő alkalmazást épít, a GroupDocs.Signature for .NET átfogó eszközkészletet kínál a folyamat leegyszerűsítésére.
 ## Előfeltételek

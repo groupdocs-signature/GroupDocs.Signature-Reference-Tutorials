@@ -6,6 +6,9 @@ description: Lär dig hur du söker efter bildmetadatasignaturer i dokument med 
 weight: 10
 url: /sv/net/document-metadata-extraction/search-image-metadata-extraction/
 ---
+
+# Sök bildmetadataextraktion med GroupDocs.Signature
+
 ## Introduktion
 den digitala tidsåldern är det av största vikt att säkerställa dokumentens integritet och autenticitet. Oavsett om det är kontrakt, juridiska överenskommelser eller viktiga dokument, är det avgörande att ha en pålitlig metod för att signera och verifiera dokument. GroupDocs.Signature för .NET tillhandahåller en heltäckande lösning för att lägga till och verifiera signaturer i olika dokumentformat. I den här handledningen kommer vi att fördjupa oss i processen att söka efter bildmetadatasignaturer med GroupDocs.Signature för .NET. 
 ## Förutsättningar

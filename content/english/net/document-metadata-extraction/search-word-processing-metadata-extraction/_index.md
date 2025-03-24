@@ -6,6 +6,9 @@ description: Learn how to search word processing metadata using GroupDocs.Signat
 weight: 14
 url: /net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
+
+# Search Word Processing Metadata Extraction
+
 ## Introduction
 In the realm of .NET development, managing document signatures and metadata plays a pivotal role in ensuring document integrity and authenticity. GroupDocs.Signature for .NET provides a robust solution for handling these tasks efficiently. This tutorial delves into leveraging GroupDocs.Signature to search word processing metadata within documents, enabling users to extract essential information seamlessly.
 ## Prerequisites

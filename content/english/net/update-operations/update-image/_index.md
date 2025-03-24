@@ -6,6 +6,9 @@ description: Learn how to update image signatures in .NET documents effortlessly
 weight: 11
 url: /net/update-operations/update-image/
 ---
+
+# Update Image
+
 ## Introduction
 In the realm of document management and authentication, digital signatures play a pivotal role in ensuring the integrity and authenticity of electronic documents. GroupDocs.Signature for .NET offers a robust solution for developers to incorporate signature functionalities seamlessly into their .NET applications. Among its array of features, updating image signatures within documents stands as a crucial capability.
 ## Prerequisites

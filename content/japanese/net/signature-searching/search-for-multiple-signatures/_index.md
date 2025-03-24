@@ -6,6 +6,9 @@ description: 効率的なドキュメントのセキュリティと整合性の�
 weight: 14
 url: /ja/net/signature-searching/search-for-multiple-signatures/
 ---
+
+# 複数の署名の検索
+
 ## 導入
 GroupDocs.Signature for .NET は、開発者が .NET アプリケーションを使用して一般的なドキュメント形式のさまざまな種類の署名を追加、検索、削除できる強力なライブラリです。このチュートリアルでは、GroupDocs.Signature for .NET を使用してドキュメント内の複数の署名を検索することに焦点を当てます。
 ## 前提条件

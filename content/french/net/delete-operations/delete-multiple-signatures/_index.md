@@ -6,6 +6,9 @@ description: Supprimez sans effort plusieurs signatures de documents à l’aide
 weight: 15
 url: /fr/net/delete-operations/delete-multiple-signatures/
 ---
+
+# Supprimer plusieurs signatures du document
+
 ## Introduction
 Dans le monde numérique, la gestion documentaire implique souvent la gestion de diverses signatures. La suppression programmée de plusieurs signatures d'un document peut rationaliser les flux de travail et améliorer l'efficacité. Avec GroupDocs.Signature pour .NET, cette tâche devient transparente et simple. Ce didacticiel vous guidera étape par étape tout au long du processus de suppression de plusieurs signatures d'un document.
 ## Conditions préalables

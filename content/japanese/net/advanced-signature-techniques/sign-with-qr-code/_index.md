@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用してドキュメントに Q
 weight: 15
 url: /ja/net/advanced-signature-techniques/sign-with-qr-code/
 ---
+
+# GroupDocs.Signature を使用して QR コードでドキュメントに署名する
+
 ## 導入
 このチュートリアルでは、GroupDocs.Signature for .NET を使用して、QR コードでドキュメントに署名するプロセスを説明します。 GroupDocs.Signature for .NET は、開発者がさまざまな種類の署名をプログラムでデジタル ドキュメントに追加できる強力な API です。 QR コードを使用してドキュメントに署名すると、ドキュメントに追加のセキュリティ層と認証層を提供できます。
 ## 前提条件

@@ -6,6 +6,9 @@ description: Lär dig hur du signerar dokument med text med GroupDocs.Signature 
 weight: 17
 url: /sv/net/advanced-signature-techniques/sign-with-text/
 ---
+
+# Signering med text med GroupDocs.Signature för .NET
+
 ## Introduktion
 I den digitala tidsåldern har det blivit standard att signera dokument elektroniskt, vilket sparar tid och resurser. GroupDocs.Signature för .NET erbjuder en heltäckande lösning för att lägga till textsignaturer till olika dokumentformat programmatiskt. I den här självstudien går vi igenom processen att signera ett dokument med text med GroupDocs.Signature för .NET.
 ## Förutsättningar

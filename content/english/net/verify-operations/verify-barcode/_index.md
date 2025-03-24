@@ -6,6 +6,9 @@ description: Learn how to verify barcodes within documents using GroupDocs.Signa
 weight: 10
 url: /net/verify-operations/verify-barcode/
 ---
+
+# Verify Barcode
+
 ## Introduction
 In the realm of digital documentation, ensuring authenticity and integrity is paramount. GroupDocs.Signature for .NET provides a robust solution for verifying barcodes within documents. This tutorial delves into the process of verifying barcodes using GroupDocs.Signature for .NET, offering step-by-step guidance for seamless implementation.
 ## Prerequisites

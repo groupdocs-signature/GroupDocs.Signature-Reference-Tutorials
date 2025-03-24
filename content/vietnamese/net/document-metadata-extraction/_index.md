@@ -7,6 +7,9 @@ weight: 22
 url: /vi/net/document-metadata-extraction/
 ---
 
+# Trích xuất siêu dữ liệu tài liệu
+
+
 ## Giới thiệu
 
 Trong bối cảnh kỹ thuật số ngày nay, việc quản lý tính toàn vẹn và xác thực của tài liệu là điều tối quan trọng. GroupDocs.Signature dành cho .NET trao quyền cho các nhà phát triển trích xuất siêu dữ liệu từ nhiều loại tài liệu khác nhau một cách liền mạch, nâng cao khả năng quản lý tài liệu. Hãy cùng đi sâu vào một loạt hướng dẫn khám phá cách khai thác toàn bộ tiềm năng của việc trích xuất siêu dữ liệu trên các định dạng tài liệu khác nhau.

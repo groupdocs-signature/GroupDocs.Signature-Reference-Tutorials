@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 바코드로 문서에 
 weight: 11
 url: /ko/net/advanced-signature-techniques/sign-with-barcode/
 ---
+
+# 바코드로 서명
+
 ## 소개
 오늘날의 디지털 시대에는 서명으로 문서를 보호하는 것이 무엇보다 중요합니다. .NET용 GroupDocs.Signature는 바코드 서명을 응용 프로그램에 통합하기 위한 완벽한 솔루션을 제공합니다. 이 자습서에서는 .NET용 GroupDocs.Signature를 사용하여 바코드로 문서에 서명하는 과정을 안내합니다.
 ## 전제 조건

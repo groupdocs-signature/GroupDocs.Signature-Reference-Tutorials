@@ -6,6 +6,9 @@ description: Aprenda como excluir assinaturas por tipo em documentos .NET sem es
 weight: 12
 url: /pt/net/delete-operations/delete-signature-by-type/
 ---
+
+# Excluir assinatura por tipo
+
 ## Introdução
 Na era digital de hoje, a necessidade de uma gestão documental eficiente é fundamental. Quer você seja um profissional de negócios que lida com contratos ou um indivíduo que processa documentos legais, garantir a autenticidade e a integridade de seus arquivos é crucial. GroupDocs.Signature for .NET oferece uma solução poderosa para gerenciar assinaturas em seus documentos de maneira integrada. Neste tutorial, nos aprofundaremos no processo de exclusão de assinaturas por tipo usando GroupDocs.Signature for .NET, fornecendo um guia passo a passo para agilizar suas tarefas de gerenciamento de documentos.
 ## Pré-requisitos

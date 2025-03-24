@@ -6,6 +6,9 @@ description: Leer hoe u streepjescodes in documenten kunt verifiëren met GroupD
 weight: 10
 url: /nl/net/verify-operations/verify-barcode/
 ---
+
+# Controleer streepjescode
+
 ## Invoering
 Op het gebied van digitale documentatie is het waarborgen van authenticiteit en integriteit van het allergrootste belang. GroupDocs.Signature voor .NET biedt een robuuste oplossing voor het verifiëren van streepjescodes in documenten. Deze tutorial gaat dieper in op het proces van het verifiëren van streepjescodes met GroupDocs.Signature voor .NET en biedt stapsgewijze begeleiding voor een naadloze implementatie.
 ## Vereisten

@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie Barcodes in Dokumenten mit GroupDocs.Signatur
 weight: 10
 url: /de/net/verify-operations/verify-barcode/
 ---
+
+# Barcode überprüfen
+
 ## Einführung
 Im Bereich der digitalen Dokumentation ist die Gewährleistung von Authentizität und Integrität von größter Bedeutung. GroupDocs.Signature für .NET bietet eine robuste Lösung zur Überprüfung von Barcodes in Dokumenten. Dieses Tutorial befasst sich mit dem Prozess der Überprüfung von Barcodes mithilfe von GroupDocs.Signature für .NET und bietet eine Schritt-für-Schritt-Anleitung für eine nahtlose Implementierung.
 ## Voraussetzungen

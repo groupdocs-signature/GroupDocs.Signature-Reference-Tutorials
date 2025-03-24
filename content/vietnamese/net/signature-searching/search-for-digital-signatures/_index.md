@@ -6,6 +6,9 @@ description: Tìm hiểu cách tìm kiếm chữ ký điện tử trong tài li�
 weight: 11
 url: /vi/net/signature-searching/search-for-digital-signatures/
 ---
+
+# Tìm kiếm chữ ký số
+
 ## Giới thiệu
 Trong thời đại kỹ thuật số, việc đảm bảo tính xác thực và toàn vẹn của tài liệu là điều tối quan trọng. Chữ ký số đóng vai trò then chốt trong quá trình này, cung cấp một cách an toàn để ký và xác minh tài liệu điện tử. GroupDocs.Signature cho .NET cung cấp giải pháp toàn diện để làm việc với chữ ký số trong các ứng dụng .NET. Trong hướng dẫn này, chúng ta sẽ đi sâu vào các nguyên tắc cơ bản của việc sử dụng GroupDocs.Signature cho .NET để tìm kiếm chữ ký số trong tài liệu.
 ## Điều kiện tiên quyết

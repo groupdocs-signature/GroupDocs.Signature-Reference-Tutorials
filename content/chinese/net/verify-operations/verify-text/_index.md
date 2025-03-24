@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 验证文档中的�
 weight: 13
 url: /zh/net/verify-operations/verify-text/
 ---
+
+# 验证文本
+
 ## 介绍
 在本教程中，我们将指导您完成使用 GroupDocs.Signature for .NET 验证文档中文本的过程。这个强大的库允许您将文本验证功能无缝集成到您的 .NET 应用程序中，从而确保文档的完整性和真实性。
 ## 先决条件

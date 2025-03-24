@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 從文件中刪除�
 weight: 10
 url: /zh-hant/net/delete-operations/delete-barcode/
 ---
+
+# 從文件中刪除條碼
+
 ## 介紹
 GroupDocs.Signature for .NET 是一個功能強大的程式庫，可讓開發人員在 .NET 應用程式中無縫地使用數位簽章、圖章和條碼。在本教學中，我們將引導您完成使用 GroupDocs.Signature for .NET 從文件中刪除條碼的流程。
 ## 先決條件

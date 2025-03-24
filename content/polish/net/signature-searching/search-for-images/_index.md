@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyszukiwać obrazy w dokumentach przy użyciu Gro
 weight: 13
 url: /pl/net/signature-searching/search-for-images/
 ---
+
+# Wyszukaj obrazy
+
 ## Wstęp
 GroupDocs.Signature dla .NET to potężna biblioteka, która umożliwia programistom płynne dodawanie, wyszukiwanie i weryfikację podpisów cyfrowych w szerokiej gamie formatów dokumentów w aplikacjach .NET. Niezależnie od tego, czy pracujesz z dokumentami programu Word, plikami PDF, arkuszami kalkulacyjnymi czy prezentacjami, ta biblioteka zapewnia wszechstronną funkcjonalność umożliwiającą efektywne zarządzanie podpisami cyfrowymi.
 ## Warunki wstępne

@@ -6,6 +6,9 @@ description: Learn how to sign spreadsheets with metadata using Groupdocs.Signat
 weight: 13
 url: /net/document-signing/sign-spreadsheet-with-metadata/
 ---
+
+# Sign Spreadsheet with Metadata
+
 ## Introduction
 In this tutorial, we'll walk through the process of signing a spreadsheet with metadata using Groupdocs.Signature for .NET. Metadata signing allows you to embed additional information into your documents, providing context or verification. By the end of this guide, you'll be able to apply metadata signatures to your spreadsheets effortlessly.
 ## Prerequisites

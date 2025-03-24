@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak belgelerde dijital imzala
 weight: 11
 url: /tr/net/signature-searching/search-for-digital-signatures/
 ---
+
+# Dijital İmzaları Arayın
+
 ## giriiş
 Dijital çağda belgelerin orijinalliğini ve bütünlüğünü sağlamak çok önemlidir. Dijital imzalar bu süreçte çok önemli bir rol oynar ve elektronik belgeleri imzalamak ve doğrulamak için güvenli bir yol sağlar. GroupDocs.Signature for .NET, .NET uygulamalarında dijital imzalarla çalışmaya yönelik kapsamlı bir çözüm sunar. Bu öğreticide, belgeler içindeki dijital imzaları aramak için GroupDocs.Signature for .NET'i kullanmanın temellerini ele alacağız.
 ## Önkoşullar

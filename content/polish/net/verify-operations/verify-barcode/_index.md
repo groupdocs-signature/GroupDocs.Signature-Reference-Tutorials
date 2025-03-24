@@ -6,6 +6,9 @@ description: Dowiedz się, jak weryfikować kody kreskowe w dokumentach za pomoc
 weight: 10
 url: /pl/net/verify-operations/verify-barcode/
 ---
+
+# Zweryfikuj kod kreskowy
+
 ## Wstęp
 W dziedzinie dokumentacji cyfrowej zapewnienie autentyczności i integralności jest sprawą najwyższej wagi. GroupDocs.Signature dla .NET zapewnia solidne rozwiązanie do weryfikacji kodów kreskowych w dokumentach. W tym samouczku szczegółowo opisano proces weryfikowania kodów kreskowych przy użyciu programu GroupDocs.Signature dla platformy .NET i przedstawiono wskazówki krok po kroku dotyczące bezproblemowej implementacji.
 ## Warunki wstępne

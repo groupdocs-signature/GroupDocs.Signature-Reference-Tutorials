@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan írhat alá dokumentumokat digitálisan .NET-be
 weight: 12
 url: /hu/net/advanced-signature-techniques/sign-with-digital/
 ---
+
+# Aláírás digitális aláírással
+
 ## Bevezetés
 A digitális aláírások döntő szerepet játszanak az elektronikus dokumentumok hitelességének és integritásának biztosításában. A .NET fejlesztés területén a GroupDocs.Signature hatékony megoldást kínál a digitális aláírások zökkenőmentes integrálására az alkalmazásokba. Ez az oktatóanyag végigvezeti Önt egy dokumentum digitális aláírással történő aláírásának folyamatán a GroupDocs.Signature for .NET segítségével.
 ## Előfeltételek

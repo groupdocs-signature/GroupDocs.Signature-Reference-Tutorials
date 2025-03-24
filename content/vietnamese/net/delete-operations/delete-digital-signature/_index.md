@@ -6,6 +6,9 @@ description: Tìm hiểu cách xóa chữ ký điện tử khỏi tài liệu b�
 weight: 13
 url: /vi/net/delete-operations/delete-digital-signature/
 ---
+
+# Xóa chữ ký số khỏi tài liệu
+
 ## Giới thiệu
 Trong thế giới tài liệu kỹ thuật số, việc đảm bảo tính xác thực và bảo mật là điều tối quan trọng. Chữ ký số đóng vai trò quan trọng trong việc xác minh tính toàn vẹn của tài liệu điện tử. GroupDocs.Signature cho .NET cung cấp các công cụ mạnh mẽ để quản lý chữ ký số trong các ứng dụng .NET một cách hiệu quả.
 ## Điều kiện tiên quyết

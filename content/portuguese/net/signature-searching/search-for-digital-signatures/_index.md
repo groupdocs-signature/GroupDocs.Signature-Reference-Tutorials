@@ -6,6 +6,9 @@ description: Aprenda como pesquisar assinaturas digitais em documentos usando Gr
 weight: 11
 url: /pt/net/signature-searching/search-for-digital-signatures/
 ---
+
+# Pesquisar assinaturas digitais
+
 ## Introdução
 Na era digital, garantir a autenticidade e integridade dos documentos é fundamental. As assinaturas digitais desempenham um papel fundamental neste processo, fornecendo uma forma segura de assinar e verificar documentos eletrônicos. GroupDocs.Signature for .NET oferece uma solução abrangente para trabalhar com assinaturas digitais em aplicativos .NET. Neste tutorial, nos aprofundaremos nos fundamentos do uso do GroupDocs.Signature for .NET para pesquisar assinaturas digitais em documentos.
 ## Pré-requisitos

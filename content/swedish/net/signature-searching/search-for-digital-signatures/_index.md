@@ -6,6 +6,9 @@ description: Lär dig hur du söker efter digitala signaturer i dokument med Gro
 weight: 11
 url: /sv/net/signature-searching/search-for-digital-signatures/
 ---
+
+# Sök efter digitala signaturer
+
 ## Introduktion
 I den digitala tidsåldern är det av största vikt att säkerställa dokumentens äkthet och integritet. Digitala signaturer spelar en central roll i denna process, vilket ger ett säkert sätt att signera och verifiera elektroniska dokument. GroupDocs.Signature för .NET erbjuder en heltäckande lösning för att arbeta med digitala signaturer i .NET-applikationer. I den här självstudien kommer vi att fördjupa oss i grunderna för att använda GroupDocs.Signature för .NET för att söka efter digitala signaturer i dokument.
 ## Förutsättningar

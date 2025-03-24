@@ -6,6 +6,9 @@ description: Naučte se vyhledávat a extrahovat podpisy metadat z dokumentů PD
 weight: 11
 url: /cs/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# Prohledejte extrakci metadat PDF
+
 ## Úvod
 oblasti správy digitálních dokumentů je prvořadé zajištění pravosti a integrity souborů. Jedním ze základních aspektů je schopnost efektivně vyhledávat metadata PDF. Podpisy metadat v dokumentech PDF poskytují cenné informace o původu, autorství a obsahu souboru.
 ## Předpoklady

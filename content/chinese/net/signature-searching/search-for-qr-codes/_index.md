@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 在文档中搜索�
 weight: 15
 url: /zh/net/signature-searching/search-for-qr-codes/
 ---
+
+# 搜索二维码
+
 ## 介绍
 
 在数字时代，确保文档的真实性和完整性至关重要。GroupDocs.Signature for .NET 使开发人员能够将高级签名功能无缝集成到他们的 .NET 应用程序中。本综合指南将引导您完成利用 GroupDocs.Signature for .NET 在文档中搜索二维码的过程。最后，您将对如何利用这个强大的工具来增强文档安全性和效率有一个深入的理解。

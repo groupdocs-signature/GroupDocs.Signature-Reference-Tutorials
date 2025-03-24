@@ -6,6 +6,9 @@ description: Dễ dàng xóa nhiều chữ ký khỏi tài liệu bằng GroupDo
 weight: 15
 url: /vi/net/delete-operations/delete-multiple-signatures/
 ---
+
+# Xóa nhiều chữ ký khỏi tài liệu
+
 ## Giới thiệu
 Trong thế giới kỹ thuật số, quản lý tài liệu thường liên quan đến việc xử lý nhiều chữ ký khác nhau. Việc xóa nhiều chữ ký khỏi tài liệu theo chương trình có thể hợp lý hóa quy trình làm việc và nâng cao hiệu quả. Với GroupDocs.Signature dành cho .NET, tác vụ này trở nên liền mạch và đơn giản. Hướng dẫn này sẽ hướng dẫn bạn từng bước trong quá trình xóa nhiều chữ ký khỏi tài liệu.
 ## Điều kiện tiên quyết

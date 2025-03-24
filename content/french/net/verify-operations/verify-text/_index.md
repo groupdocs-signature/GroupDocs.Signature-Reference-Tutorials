@@ -6,6 +6,9 @@ description: Découvrez comment vérifier le texte dans des documents à l'aide 
 weight: 13
 url: /fr/net/verify-operations/verify-text/
 ---
+
+# Vérifier le texte
+
 ## Introduction
 Dans ce didacticiel, nous vous guiderons tout au long du processus de vérification du texte dans des documents à l'aide de GroupDocs.Signature pour .NET. Cette puissante bibliothèque vous permet d'intégrer de manière transparente la fonctionnalité de vérification de texte dans vos applications .NET, garantissant ainsi l'intégrité et l'authenticité de vos documents.
 ## Conditions préalables

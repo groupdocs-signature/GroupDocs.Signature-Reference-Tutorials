@@ -6,6 +6,9 @@ description: Découvrez comment mettre à jour sans effort les signatures d'imag
 weight: 11
 url: /fr/net/update-operations/update-image/
 ---
+
+# Mettre à jour l'image
+
 ## Introduction
 Dans le domaine de la gestion et de l'authentification des documents, les signatures numériques jouent un rôle central pour garantir l'intégrité et l'authenticité des documents électroniques. GroupDocs.Signature for .NET offre une solution robuste permettant aux développeurs d'intégrer de manière transparente des fonctionnalités de signature dans leurs applications .NET. Parmi sa gamme de fonctionnalités, la mise à jour des signatures d’images dans les documents constitue une capacité cruciale.
 ## Conditions préalables

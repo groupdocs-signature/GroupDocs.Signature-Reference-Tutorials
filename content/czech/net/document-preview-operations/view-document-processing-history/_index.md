@@ -6,6 +6,9 @@ description: Objevte, jak snadno zobrazit historii zpracování dokumentů pomoc
 weight: 12
 url: /cs/net/document-preview-operations/view-document-processing-history/
 ---
+
+# Zobrazit historii zpracování dokumentu
+
 ## Úvod
 GroupDocs.Signature for .NET je výkonná knihovna, která usnadňuje zpracování dokumentů tím, že umožňuje bezproblémovou správu a manipulaci s podpisy dokumentů v rámci vašich aplikací .NET. Ať už se zabýváte smlouvami, dohodami nebo jakýmkoli jiným typem dokumentu vyžadujícího podpis, GroupDocs.Signature vám umožňuje efektivně zefektivnit váš pracovní postup.
 ## Předpoklady

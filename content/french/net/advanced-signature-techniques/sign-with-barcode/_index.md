@@ -6,6 +6,9 @@ description: Découvrez comment signer des documents avec un code-barres à l'ai
 weight: 11
 url: /fr/net/advanced-signature-techniques/sign-with-barcode/
 ---
+
+# Signer avec un code-barres
+
 ## Introduction
 À l'ère numérique d'aujourd'hui, la sécurisation des documents avec des signatures est primordiale, et GroupDocs.Signature for .NET offre une solution transparente pour intégrer les signatures de codes-barres dans vos applications. Dans ce didacticiel, nous vous guiderons tout au long du processus de signature d'un document avec un code-barres à l'aide de GroupDocs.Signature pour .NET.
 ## Conditions préalables

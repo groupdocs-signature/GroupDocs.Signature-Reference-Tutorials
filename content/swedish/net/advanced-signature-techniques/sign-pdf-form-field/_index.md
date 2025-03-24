@@ -6,6 +6,9 @@ description: Lär dig hur du signerar PDF-dokument med formulärfält med GroupD
 weight: 10
 url: /sv/net/advanced-signature-techniques/sign-pdf-form-field/
 ---
+
+# Signera PDF med formulärfält
+
 ## Introduktion
 Digitala signaturer ger ett säkert och juridiskt bindande sätt att signera dokument elektroniskt, vilket säkerställer deras äkthet och integritet. I den här självstudien lär vi oss hur du signerar ett PDF-dokument som innehåller formulärfält med hjälp av biblioteket GroupDocs.Signature for .NET.
 ## Förutsättningar

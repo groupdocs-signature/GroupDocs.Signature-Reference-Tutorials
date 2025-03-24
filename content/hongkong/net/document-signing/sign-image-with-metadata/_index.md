@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature 在 .NET 中使用元資料�
 weight: 10
 url: /zh-hant/net/document-signing/sign-image-with-metadata/
 ---
+
+# 使用元資料對影像進行簽名
+
 ## 介紹
 GroupDocs.Signature for .NET 讓開發人員能夠有效地使用元資料對影像進行簽署。本教學將引導您逐步完成流程。
 ## 先決條件

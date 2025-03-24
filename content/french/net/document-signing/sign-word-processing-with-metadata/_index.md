@@ -6,6 +6,9 @@ description: Découvrez comment signer des documents de traitement de texte avec
 weight: 14
 url: /fr/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# Signer le traitement de texte avec des métadonnées
+
 ## Introduction
 Dans ce didacticiel, nous vous guiderons tout au long du processus de signature d'un document de traitement de texte avec des métadonnées à l'aide de GroupDocs.Signature pour .NET. La signature des métadonnées vous permet d'intégrer des informations supplémentaires dans votre document, telles que le nom de l'auteur, la date de création, l'ID du document, etc.
 ## Conditions préalables

@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 从 PDF 文档中�
 weight: 11
 url: /zh/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# 搜索 PDF 元数据提取
+
 ## 介绍
 在数字文档管理领域，确保文件的真实性和完整性至关重要。其中一个重要方面是能够有效搜索 PDF 元数据。 PDF 文档中的元数据签名提供有关文件来源、作者和内容的宝贵信息。
 ## 先决条件

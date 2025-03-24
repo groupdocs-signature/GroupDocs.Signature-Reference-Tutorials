@@ -6,6 +6,9 @@ description: Verwijder moeiteloos meerdere handtekeningen uit documenten met Gro
 weight: 15
 url: /nl/net/delete-operations/delete-multiple-signatures/
 ---
+
+# Meerdere handtekeningen uit document verwijderen
+
 ## Invoering
 In de digitale wereld omvat documentbeheer vaak het verwerken van verschillende handtekeningen. Door meerdere handtekeningen programmatisch uit een document te verwijderen, kunnen de workflows worden gestroomlijnd en de efficiëntie worden verbeterd. Met GroupDocs.Signature voor .NET wordt deze taak naadloos en eenvoudig. Deze tutorial leidt u stap voor stap door het proces van het verwijderen van meerdere handtekeningen uit een document.
 ## Vereisten

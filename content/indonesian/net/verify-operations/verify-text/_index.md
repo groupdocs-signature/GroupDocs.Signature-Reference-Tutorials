@@ -6,6 +6,9 @@ description: Pelajari cara memverifikasi teks dalam dokumen menggunakan GroupDoc
 weight: 13
 url: /id/net/verify-operations/verify-text/
 ---
+
+# Verifikasi Teks
+
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui proses verifikasi teks dalam dokumen menggunakan GroupDocs.Signature untuk .NET. Pustaka canggih ini memungkinkan Anda mengintegrasikan fungsi verifikasi teks dengan lancar ke dalam aplikasi .NET Anda, memastikan integritas dan keaslian dokumen Anda.
 ## Prasyarat

@@ -6,6 +6,9 @@ description: Naučte se podepisovat dokumenty PDF pomocí metadat pomocí GroupD
 weight: 11
 url: /cs/net/document-signing/sign-pdf-with-metadata/
 ---
+
+# Podepište PDF pomocí metadat
+
 ## Úvod
 tomto tutoriálu se naučíme, jak podepsat dokument PDF s metadaty pomocí GroupDocs.Signature for .NET. Přidání metadat do PDF může poskytnout další informace o dokumentu, jako je autorství, datum vytvoření, ID dokumentu a další.
 ## Předpoklady

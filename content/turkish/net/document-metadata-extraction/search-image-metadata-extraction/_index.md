@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak belgelerde görüntü met
 weight: 10
 url: /tr/net/document-metadata-extraction/search-image-metadata-extraction/
 ---
+
+# GroupDocs.Signature ile Arama Görseli Meta Veri Çıkarma
+
 ## giriiş
 Dijital çağda belgelerin bütünlüğünü ve orijinalliğini sağlamak çok önemlidir. Sözleşmeler, yasal anlaşmalar veya önemli kayıtlar olsun, belgeleri imzalamak ve doğrulamak için güvenilir bir yönteme sahip olmak çok önemlidir. GroupDocs.Signature for .NET, çeşitli belge formatlarındaki imzaları eklemek ve doğrulamak için kapsamlı bir çözüm sağlar. Bu öğreticide, GroupDocs.Signature for .NET'i kullanarak görüntü meta veri imzalarını arama sürecini ayrıntılı olarak ele alacağız. 
 ## Önkoşullar

@@ -6,6 +6,9 @@ description: Pelajari cara mengekstrak metadata presentasi menggunakan GroupDocs
 weight: 12
 url: /id/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---
+
+# Ekstraksi Metadata Presentasi Pencarian
+
 ## Perkenalan
 Dalam bidang dokumentasi digital, memastikan keaslian dan integritas file adalah hal yang terpenting. GroupDocs.Signature untuk .NET menawarkan solusi komprehensif untuk mengintegrasikan fungsionalitas tanda tangan ke dalam aplikasi .NET. Di antara berbagai fiturnya, salah satu kemampuan yang menonjol adalah kemampuannya mengekstrak metadata presentasi dengan presisi dan efisiensi.
 ## Prasyarat

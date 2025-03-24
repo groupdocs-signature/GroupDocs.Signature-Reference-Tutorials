@@ -6,6 +6,9 @@ description: Aprenda a firmar archivos de presentación con metadatos usando Gro
 weight: 12
 url: /es/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# Presentación de letreros con metadatos
+
 ## Introducción
 En este tutorial, aprenderemos cómo firmar un archivo de presentación (PPTX) con metadatos usando la biblioteca GroupDocs.Signature para .NET. Firmar presentaciones con metadatos agrega información valiosa al documento, como el nombre del autor, la fecha de creación, el ID del documento, el ID de la firma y varios valores numéricos.
 ## Requisitos previos

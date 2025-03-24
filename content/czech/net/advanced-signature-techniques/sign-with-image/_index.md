@@ -6,6 +6,9 @@ description: Naučte se podepisovat dokumenty pomocí obrázků v aplikacích .N
 weight: 13
 url: /cs/net/advanced-signature-techniques/sign-with-image/
 ---
+
+# Podepisování dokumentů pomocí obrázku pomocí GroupDocs.Signature
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak podepisovat dokumenty pomocí obrázků pomocí Groupdocs.Signature pro .NET. Podepisování dokumentů dodává vašim souborům další vrstvu autenticity a zabezpečení, díky čemuž jsou odolné proti neoprávněné manipulaci a jsou právně závazné. S pomocí Groupdocs.Signature for .NET můžete bezproblémově integrovat funkce podepisování dokumentů do vašich aplikací .NET.
 ## Předpoklady

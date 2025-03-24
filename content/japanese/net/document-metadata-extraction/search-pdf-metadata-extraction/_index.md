@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用して PDF ドキュメント
 weight: 11
 url: /ja/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# PDF メタデータ抽出の検索
+
 ## 導入
 デジタル ドキュメント管理の分野では、ファイルの信頼性と整合性を確保することが最も重要です。この重要な側面の 1 つは、PDF メタデータを効率的に検索できることです。 PDF ドキュメント内のメタデータ署名は、ファイルの出所、作成者、内容に関する貴重な情報を提供します。
 ## 前提条件

@@ -6,6 +6,9 @@ description: Aprenda a firmar documentos de procesamiento de textos con metadato
 weight: 14
 url: /es/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# Firmar procesamiento de textos con metadatos
+
 ## Introducción
 En este tutorial, lo guiaremos a través del proceso de firmar un documento de procesamiento de textos con metadatos usando GroupDocs.Signature para .NET. La firma de metadatos le permite incorporar información adicional en su documento, como el nombre del autor, la fecha de creación, la identificación del documento y más.
 ## Requisitos previos

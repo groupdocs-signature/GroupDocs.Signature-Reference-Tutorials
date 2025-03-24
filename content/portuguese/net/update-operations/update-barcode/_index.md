@@ -6,6 +6,9 @@ description: Aprenda como atualizar assinaturas de código de barras em document
 weight: 10
 url: /pt/net/update-operations/update-barcode/
 ---
+
+# Atualizar código de barras
+
 ## Introdução
 Neste tutorial, aprenderemos como atualizar uma assinatura de código de barras em um documento usando GroupDocs.Signature for .NET. GroupDocs.Signature for .NET é uma API poderosa que permite aos desenvolvedores trabalhar com assinaturas digitais, incluindo vários tipos como código de barras, texto, imagem e muito mais. Seguiremos o processo passo a passo para garantir que você entenda cada parte completamente.
 ## Pré-requisitos

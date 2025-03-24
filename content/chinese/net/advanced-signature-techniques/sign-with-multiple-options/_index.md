@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 通过多个选项�
 weight: 14
 url: /zh/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# 使用多个选项进行签名
+
 ## 介绍
 在本教程中，我们将探讨如何使用 .NET 的 GroupDocs.Signature 库使用多个签名选项对文档进行签名。使用文本、条形码、二维码、数字、图像和元数据签名等各种选项对文档进行签名可以提供多功能性并增强文档安全性。
 ## 先决条件

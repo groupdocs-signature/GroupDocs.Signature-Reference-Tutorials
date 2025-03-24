@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用してバーコードでド�
 weight: 11
 url: /ja/net/advanced-signature-techniques/sign-with-barcode/
 ---
+
+# バーコードによる署名
+
 ## 導入
 今日のデジタル時代では、署名を使用してドキュメントを保護することが最も重要です。GroupDocs.Signature for .NET は、バーコード署名をアプリケーションに統合するためのシームレスなソリューションを提供します。このチュートリアルでは、GroupDocs.Signature for .NET を使用してバーコードでドキュメントに署名するプロセスを説明します。
 ## 前提条件

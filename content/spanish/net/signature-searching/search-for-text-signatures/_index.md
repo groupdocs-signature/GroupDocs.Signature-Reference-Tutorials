@@ -6,6 +6,9 @@ description: Aprenda a buscar firmas de texto en documentos digitales usando Gro
 weight: 16
 url: /es/net/signature-searching/search-for-text-signatures/
 ---
+
+# Buscar firmas de texto
+
 ## Introducción
 En el ámbito de la gestión y autenticación de documentos, la capacidad de buscar de manera eficiente firmas de texto dentro de documentos digitales es primordial. GroupDocs.Signature para .NET ofrece una potente solución a esta necesidad, proporcionando a los desarrolladores un completo conjunto de herramientas para localizar firmas de texto en varios formatos de archivo. En este tutorial, profundizaremos en el proceso de búsqueda de firmas de texto usando GroupDocs.Signature para .NET, desglosando cada paso para garantizar una comprensión clara de la implementación.
 ## Requisitos previos

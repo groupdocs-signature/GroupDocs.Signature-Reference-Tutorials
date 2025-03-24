@@ -6,6 +6,9 @@ description: Dowiedz się, jak podpisywać dokumenty PDF z metadanymi przy użyc
 weight: 11
 url: /pl/net/document-signing/sign-pdf-with-metadata/
 ---
+
+# Podpisz plik PDF za pomocą metadanych
+
 ## Wstęp
 tym samouczku dowiemy się, jak podpisać dokument PDF metadanymi przy użyciu programu GroupDocs.Signature for .NET. Dodanie metadanych do pliku PDF może dostarczyć dodatkowych informacji o dokumencie, takich jak autorstwo, data utworzenia, identyfikator dokumentu i inne.
 ## Warunki wstępne

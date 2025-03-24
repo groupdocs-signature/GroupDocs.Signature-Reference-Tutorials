@@ -6,6 +6,9 @@ description: Tìm hiểu cách xóa chữ ký mã QR khỏi tài liệu bằng G
 weight: 16
 url: /vi/net/delete-operations/delete-qr-code-signature/
 ---
+
+# Xóa chữ ký mã QR khỏi tài liệu
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xóa chữ ký mã QR khỏi tài liệu bằng GroupDocs.Signature cho .NET. Hãy làm theo các hướng dẫn từng bước sau để xóa chữ ký mã QR một cách hiệu quả.
 ## Điều kiện tiên quyết

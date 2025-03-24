@@ -6,6 +6,9 @@ description: Extraia metadados de planilhas com eficiência usando GroupDocs.Sig
 weight: 13
 url: /pt/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
+
+# Extração de metadados de planilha de pesquisa
+
 ## Introdução
 No domínio do gerenciamento e verificação de documentos, a capacidade de extrair metadados de planilhas com eficiência é fundamental. A extração de metadados não apenas ajuda a compreender o contexto e as propriedades de um documento, mas também agiliza processos como verificação de conformidade e análise de dados. GroupDocs.Signature for .NET oferece uma solução robusta para pesquisa contínua de metadados de planilhas, fornecendo aos desenvolvedores uma ferramenta poderosa para aprimorar seus aplicativos centrados em documentos.
 ## Pré-requisitos

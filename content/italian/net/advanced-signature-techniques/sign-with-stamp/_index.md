@@ -6,6 +6,9 @@ description: Scopri come aggiungere facilmente timbri ai tuoi documenti .NET con
 weight: 16
 url: /it/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# Firma con Stamp utilizzando GroupDocs.Signature
+
 ## introduzione
 In questo tutorial ti guideremo attraverso il processo di firma di un documento con un timbro utilizzando GroupDocs.Signature per .NET. Seguendo queste istruzioni passo passo, sarai in grado di aggiungere facilmente un timbro firma ai tuoi documenti.
 ## Prerequisiti

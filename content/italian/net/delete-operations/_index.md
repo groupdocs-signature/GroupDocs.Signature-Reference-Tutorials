@@ -6,6 +6,9 @@ description: Elimina firme, codici a barre e altro dai documenti .NET con GroupD
 weight: 20
 url: /it/net/delete-operations/
 ---
+
+# Elimina operazioni
+
 ## introduzione
 
 Desideri semplificare il processo di gestione dei documenti nelle applicazioni .NET? Con GroupDocs.Signature puoi eliminare in modo efficiente vari tipi di firme, inclusi codici a barre, firme digitali, firme di immagini, firme di testo e altro ancora. Tuffati nei nostri tutorial qui sotto per imparare come eseguire operazioni di eliminazione senza problemi.

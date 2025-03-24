@@ -6,6 +6,9 @@ description: Aprenda como assinar arquivos de apresentação com metadados usand
 weight: 12
 url: /pt/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# Apresentação de assinatura com metadados
+
 ## Introdução
 Neste tutorial, aprenderemos como assinar um arquivo de apresentação (PPTX) com metadados usando a biblioteca GroupDocs.Signature for .NET. Assinar apresentações com metadados adiciona informações valiosas ao documento, como nome do autor, data de criação, ID do documento, ID da assinatura e vários valores numéricos.
 ## Pré-requisitos

@@ -6,6 +6,9 @@ description: Verifikasi tanda tangan digital di .NET dengan mudah menggunakan Gr
 weight: 11
 url: /id/net/verify-operations/verify-digital/
 ---
+
+# Verifikasi Tanda Tangan Digital
+
 ## Perkenalan
 Dalam bidang dokumen digital, memastikan keaslian dan integritas adalah hal yang terpenting. Tanda tangan digital berfungsi setara dengan tanda tangan tulisan tangan, menyediakan cara yang aman untuk memverifikasi asal dan integritas dokumen elektronik. GroupDocs.Signature for .NET menawarkan perangkat canggih untuk bekerja dengan tanda tangan digital di aplikasi .NET, memfasilitasi verifikasi tanda tangan digital dengan mudah.
 ## Prasyarat

@@ -6,6 +6,9 @@ description: 使用 GroupDocs.Signature for .NET 從電子表格中有效提取�
 weight: 13
 url: /zh-hant/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
+
+# 搜尋電子表格元資料擷取
+
 ## 介紹
 在文件管理和驗證領域，從電子表格中有效提取元資料的能力至關重要。元資料提取不僅有助於理解文件的上下文和屬性，還可以簡化合規性驗證和資料分析等流程。 GroupDocs.Signature for .NET 提供了一個強大的解決方案，用於無縫搜尋電子表格元數據，為開發人員提供了強大的工具來增強以文件為中心的應用程式。
 ## 先決條件

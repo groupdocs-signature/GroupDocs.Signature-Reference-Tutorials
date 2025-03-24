@@ -6,6 +6,9 @@ description: Dowiedz się, jak weryfikować kody QR w dokumentach za pomocą Gro
 weight: 12
 url: /pl/net/verify-operations/verify-qr-code/
 ---
+
+# Zweryfikuj kod QR
+
 ## Wstęp
 dziedzinie zarządzania dokumentami i uwierzytelniania zapewnienie integralności i ważności podpisów jest sprawą najwyższej wagi. GroupDocs.Signature for .NET zapewnia kompleksowe rozwiązanie do weryfikacji kodów QR osadzonych w dokumentach. W tym samouczku szczegółowo omówimy proces weryfikacji kodów QR za pomocą programu GroupDocs.Signature for .NET.
 ## Warunki wstępne

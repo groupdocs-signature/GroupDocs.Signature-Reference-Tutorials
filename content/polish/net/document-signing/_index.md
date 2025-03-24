@@ -6,6 +6,9 @@ description: Podpisuj obrazy, pliki PDF, prezentacje, arkusze kalkulacyjne i dok
 weight: 24
 url: /pl/net/document-signing/
 ---
+
+# Podpisanie dokumentu
+
 ## Wstęp
 
 Dowiedz się, jak podpisywać różne typy dokumentów metadanymi przy użyciu GroupDocs.Signature for .NET. Od obrazów po arkusze kalkulacyjne — z łatwością zapewniaj autentyczność dokumentów.

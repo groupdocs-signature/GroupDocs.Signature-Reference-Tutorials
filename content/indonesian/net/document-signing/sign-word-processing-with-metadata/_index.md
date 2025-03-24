@@ -6,6 +6,9 @@ description: Pelajari cara menandatangani dokumen Pemrosesan Kata dengan metadat
 weight: 14
 url: /id/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# Tanda tangani Pemrosesan Kata dengan Metadata
+
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui proses penandatanganan dokumen Pemrosesan Kata dengan metadata menggunakan GroupDocs.Signature untuk .NET. Penandatanganan metadata memungkinkan Anda menyematkan informasi tambahan ke dalam dokumen Anda, seperti nama penulis, tanggal pembuatan, ID dokumen, dan lainnya.
 ## Prasyarat

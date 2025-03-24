@@ -6,6 +6,9 @@ description: Aprenda como pesquisar várias assinaturas em documentos .NET usand
 weight: 14
 url: /pt/net/signature-searching/search-for-multiple-signatures/
 ---
+
+# Pesquise várias assinaturas
+
 ## Introdução
 GroupDocs.Signature for .NET é uma biblioteca poderosa que permite aos desenvolvedores adicionar, pesquisar e remover vários tipos de assinaturas em formatos de documentos populares usando aplicativos .NET. Neste tutorial, nos concentraremos na pesquisa de várias assinaturas em um documento usando GroupDocs.Signature for .NET.
 ## Pré-requisitos

@@ -6,6 +6,9 @@ description: Learn how to sign Word Processing documents with metadata using Gro
 weight: 14
 url: /net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# Sign Word Processing with Metadata
+
 ## Introduction
 In this tutorial, we'll guide you through the process of signing a Word Processing document with metadata using GroupDocs.Signature for .NET. Metadata signing allows you to embed additional information into your document, such as the author's name, creation date, document ID, and more.
 ## Prerequisites

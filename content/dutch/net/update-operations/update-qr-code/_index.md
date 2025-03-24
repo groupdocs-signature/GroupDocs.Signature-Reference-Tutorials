@@ -6,6 +6,9 @@ description: Leer hoe u moeiteloos QR-codes in documenten kunt bijwerken met Gro
 weight: 12
 url: /nl/net/update-operations/update-qr-code/
 ---
+
+# QR-code bijwerken
+
 ## Invoering
 In de digitale wereld van vandaag is de mogelijkheid om documenten veilig elektronisch te ondertekenen essentieel geworden voor zowel bedrijven als particulieren. Of het nu gaat om contracten, overeenkomsten of formulieren, elektronische handtekeningen stroomlijnen het ondertekeningsproces en besparen tijd en middelen. GroupDocs.Signature voor .NET is een krachtige tool waarmee ontwikkelaars moeiteloos robuuste functionaliteit voor elektronische handtekeningen kunnen integreren in hun .NET-applicaties. In deze zelfstudie onderzoeken we hoe u QR-codes in documenten kunt bijwerken met GroupDocs.Signature voor .NET, waarbij we u helder en nauwkeurig door elke stap leiden.
 ## Vereisten

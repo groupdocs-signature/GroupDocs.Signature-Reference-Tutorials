@@ -6,6 +6,9 @@ description: Leer hoe u eenvoudig stempelhandtekeningen aan uw .NET-documenten k
 weight: 16
 url: /nl/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# Ondertekenen met Stamp met GroupDocs.Signature
+
 ## Invoering
 In deze zelfstudie leiden we u door het proces van het ondertekenen van een document met een stempel met GroupDocs.Signature voor .NET. Door deze stapsgewijze instructies te volgen, kunt u eenvoudig een stempelhandtekening aan uw documenten toevoegen.
 ## Vereisten

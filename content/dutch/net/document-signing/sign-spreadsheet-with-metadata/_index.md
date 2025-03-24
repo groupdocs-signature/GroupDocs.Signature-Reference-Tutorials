@@ -6,6 +6,9 @@ description: Leer hoe u spreadsheets met metagegevens kunt ondertekenen met Grou
 weight: 13
 url: /nl/net/document-signing/sign-spreadsheet-with-metadata/
 ---
+
+# Onderteken spreadsheet met metadata
+
 ## Invoering
 In deze zelfstudie doorlopen we het proces van het ondertekenen van een spreadsheet met metagegevens met behulp van Groupdocs.Signature voor .NET. Met het ondertekenen van metagegevens kunt u aanvullende informatie in uw documenten insluiten, waardoor context of verificatie wordt geboden. Aan het einde van deze handleiding kunt u moeiteloos metagegevenshandtekeningen op uw spreadsheets toepassen.
 ## Vereisten

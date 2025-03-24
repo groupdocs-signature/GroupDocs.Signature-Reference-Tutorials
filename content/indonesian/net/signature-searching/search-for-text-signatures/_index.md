@@ -6,6 +6,9 @@ description: Pelajari cara mencari tanda tangan teks dalam dokumen digital mengg
 weight: 16
 url: /id/net/signature-searching/search-for-text-signatures/
 ---
+
+# Cari Tanda Tangan Teks
+
 ## Perkenalan
 Dalam bidang manajemen dan autentikasi dokumen, kemampuan mencari tanda tangan teks dalam dokumen digital secara efisien adalah hal yang terpenting. GroupDocs.Signature for .NET menawarkan solusi ampuh untuk kebutuhan ini, menyediakan perangkat komprehensif bagi pengembang untuk menemukan tanda tangan teks dalam berbagai format file. Dalam tutorial ini, kita akan mempelajari proses pencarian tanda tangan teks menggunakan GroupDocs.Signature untuk .NET, menguraikan setiap langkah untuk memastikan pemahaman yang jelas tentang implementasinya.
 ## Prasyarat

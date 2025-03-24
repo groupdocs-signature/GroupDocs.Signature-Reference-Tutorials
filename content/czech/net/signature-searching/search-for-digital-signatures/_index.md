@@ -6,6 +6,9 @@ description: Naučte se vyhledávat digitální podpisy v dokumentech pomocí Gr
 weight: 11
 url: /cs/net/signature-searching/search-for-digital-signatures/
 ---
+
+# Vyhledejte digitální podpisy
+
 ## Úvod
 V digitálním věku je prvořadé zajistit pravost a integritu dokumentů. Digitální podpisy hrají v tomto procesu klíčovou roli a poskytují bezpečný způsob podepisování a ověřování elektronických dokumentů. GroupDocs.Signature for .NET nabízí komplexní řešení pro práci s digitálními podpisy v aplikacích .NET. V tomto tutoriálu se ponoříme do základů používání GroupDocs.Signature for .NET k vyhledávání digitálních podpisů v dokumentech.
 ## Předpoklady

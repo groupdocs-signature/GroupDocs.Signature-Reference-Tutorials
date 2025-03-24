@@ -6,6 +6,9 @@ description: Snadno ověřte digitální podpisy v .NET pomocí GroupDocs.Signat
 weight: 11
 url: /cs/net/verify-operations/verify-digital/
 ---
+
+# Ověřte digitální podpis
+
 ## Úvod
 V oblasti digitálních dokumentů je prvořadé zajištění pravosti a integrity. Digitální podpisy slouží jako digitální ekvivalent ručně psaných podpisů a poskytují bezpečný způsob ověření původu a integrity elektronických dokumentů. GroupDocs.Signature for .NET nabízí výkonnou sadu nástrojů pro práci s digitálními podpisy v aplikacích .NET, která usnadňuje ověřování digitálních podpisů.
 ## Předpoklady

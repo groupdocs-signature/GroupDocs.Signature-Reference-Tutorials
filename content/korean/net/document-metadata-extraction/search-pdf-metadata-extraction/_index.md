@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 PDF 문서에서 메타
 weight: 11
 url: /ko/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# PDF 메타데이터 추출 검색
+
 ## 소개
 디지털 문서 관리 영역에서는 파일의 신뢰성과 무결성을 보장하는 것이 무엇보다 중요합니다. 이것의 필수적인 측면 중 하나는 PDF 메타데이터를 효율적으로 검색하는 능력입니다. PDF 문서 내의 메타데이터 서명은 파일의 원본, 작성자 및 내용에 대한 귀중한 정보를 제공합니다.
 ## 전제 조건

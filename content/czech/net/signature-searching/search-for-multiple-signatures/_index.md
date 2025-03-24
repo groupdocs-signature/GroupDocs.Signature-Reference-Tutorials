@@ -6,6 +6,9 @@ description: Naučte se vyhledávat více podpisů v dokumentech .NET pomocí Gr
 weight: 14
 url: /cs/net/signature-searching/search-for-multiple-signatures/
 ---
+
+# Vyhledejte více podpisů
+
 ## Úvod
 GroupDocs.Signature for .NET je výkonná knihovna, která umožňuje vývojářům přidávat, vyhledávat a odstraňovat různé typy podpisů v oblíbených formátech dokumentů pomocí aplikací .NET. V tomto tutoriálu se zaměříme na vyhledávání více podpisů v dokumentu pomocí GroupDocs.Signature for .NET.
 ## Předpoklady

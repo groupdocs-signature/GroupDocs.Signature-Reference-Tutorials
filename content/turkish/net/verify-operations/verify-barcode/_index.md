@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki barkodları 
 weight: 10
 url: /tr/net/verify-operations/verify-barcode/
 ---
+
+# Barkodu Doğrula
+
 ## giriiş
 Dijital dokümantasyon alanında özgünlüğün ve bütünlüğün sağlanması çok önemlidir. GroupDocs.Signature for .NET, belgeler içindeki barkodları doğrulamak için güçlü bir çözüm sağlar. Bu eğitimde, sorunsuz uygulama için adım adım rehberlik sunan GroupDocs.Signature for .NET kullanılarak barkodların doğrulanması süreci ayrıntılı olarak ele alınmaktadır.
 ## Önkoşullar

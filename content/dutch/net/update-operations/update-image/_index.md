@@ -6,6 +6,9 @@ description: Leer hoe u afbeeldingshandtekeningen in .NET-documenten moeiteloos 
 weight: 11
 url: /nl/net/update-operations/update-image/
 ---
+
+# Afbeelding bijwerken
+
 ## Invoering
 Op het gebied van documentbeheer en authenticatie spelen digitale handtekeningen een cruciale rol bij het waarborgen van de integriteit en authenticiteit van elektronische documenten. GroupDocs.Signature voor .NET biedt ontwikkelaars een robuuste oplossing om handtekeningfunctionaliteiten naadloos in hun .NET-applicaties te integreren. Onder de vele functies is het bijwerken van afbeeldingshandtekeningen in documenten een cruciale mogelijkheid.
 ## Vereisten

@@ -6,6 +6,9 @@ description: Tìm hiểu cách xác minh mã QR trong tài liệu bằng GroupDo
 weight: 12
 url: /vi/net/verify-operations/verify-qr-code/
 ---
+
+# Xác minh mã QR
+
 ## Giới thiệu
 Trong lĩnh vực quản lý và xác thực tài liệu, việc đảm bảo tính toàn vẹn và hợp lệ của chữ ký là điều tối quan trọng. GroupDocs.Signature cho .NET cung cấp giải pháp toàn diện để xác minh mã QR được nhúng trong tài liệu. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình từng bước xác minh mã QR bằng GroupDocs.Signature cho .NET.
 ## Điều kiện tiên quyết

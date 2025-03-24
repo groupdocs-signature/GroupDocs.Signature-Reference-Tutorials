@@ -6,6 +6,9 @@ description: Tìm hiểu cách thêm chữ ký đóng dấu vào tài liệu .NE
 weight: 16
 url: /vi/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# Ký bằng Stamp bằng GroupDocs.Signature
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình ký tài liệu có đóng dấu bằng GroupDocs.Signature cho .NET. Bằng cách làm theo các hướng dẫn từng bước này, bạn sẽ có thể thêm chữ ký đóng dấu vào tài liệu của mình một cách dễ dàng.
 ## Điều kiện tiên quyết

@@ -6,6 +6,9 @@ description: Découvrez comment mettre à jour les signatures de codes-barres da
 weight: 10
 url: /fr/net/update-operations/update-barcode/
 ---
+
+# Mettre à jour le code-barres
+
 ## Introduction
 Dans ce didacticiel, nous apprendrons comment mettre à jour une signature de code-barres dans un document à l'aide de GroupDocs.Signature pour .NET. GroupDocs.Signature pour .NET est une API puissante qui permet aux développeurs de travailler avec des signatures numériques, y compris divers types tels que des codes-barres, du texte, des images, etc. Nous suivrons le processus étape par étape pour nous assurer que vous comprenez parfaitement chaque partie.
 ## Conditions préalables

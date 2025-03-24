@@ -6,6 +6,9 @@ description: Aprenda como assinar documentos PDF com campos de formulário usand
 weight: 10
 url: /pt/net/advanced-signature-techniques/sign-pdf-form-field/
 ---
+
+# Assinando PDF com campo de formulário
+
 ## Introdução
 As assinaturas digitais fornecem uma forma segura e juridicamente vinculativa de assinar documentos eletronicamente, garantindo sua autenticidade e integridade. Neste tutorial, aprenderemos como assinar um documento PDF que contém campos de formulário usando a biblioteca GroupDocs.Signature for .NET.
 ## Pré-requisitos

@@ -6,6 +6,9 @@ description: Dowiedz się, jak usunąć podpis według identyfikatora w dokument
 weight: 11
 url: /pl/net/delete-operations/delete-signature-by-id/
 ---
+
+# Usuń podpis według identyfikatora
+
 ## Wstęp
 W tym samouczku dowiemy się, jak usunąć podpis według jego identyfikatora za pomocą GroupDocs.Signature for .NET. GroupDocs.Signature for .NET to potężna biblioteka, która umożliwia programistom dodawanie, usuwanie lub weryfikację podpisów cyfrowych w różnych formatach dokumentów przy użyciu aplikacji .NET.
 ## Warunki wstępne

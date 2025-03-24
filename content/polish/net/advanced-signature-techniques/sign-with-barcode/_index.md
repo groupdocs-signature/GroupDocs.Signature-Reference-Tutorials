@@ -6,6 +6,9 @@ description: Dowiedz się, jak podpisywać dokumenty kodem kreskowym przy użyci
 weight: 11
 url: /pl/net/advanced-signature-techniques/sign-with-barcode/
 ---
+
+# Podpisywanie kodem kreskowym
+
 ## Wstęp
 W dzisiejszej epoce cyfrowej zabezpieczanie dokumentów podpisami ma ogromne znaczenie, dlatego GroupDocs.Signature for .NET oferuje płynne rozwiązanie umożliwiające integrację podpisów kodów kreskowych z aplikacjami. W tym samouczku przeprowadzimy Cię przez proces podpisywania dokumentu kodem kreskowym przy użyciu programu GroupDocs.Signature for .NET.
 ## Warunki wstępne

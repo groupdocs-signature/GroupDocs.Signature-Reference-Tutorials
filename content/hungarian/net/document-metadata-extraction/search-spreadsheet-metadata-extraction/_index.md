@@ -6,6 +6,9 @@ description: Hatékonyan kivonhatja a metaadatokat táblázatokból a GroupDocs.
 weight: 13
 url: /hu/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
+
+# Táblázat-metaadat-kinyerés keresése
+
 ## Bevezetés
 dokumentumkezelés és -ellenőrzés területén a metaadatok hatékony kinyerése a táblázatokból a legfontosabb. A metaadatok kinyerése nemcsak a dokumentumok kontextusának és tulajdonságainak megértését segíti elő, hanem olyan folyamatokat is egyszerűsít, mint a megfelelőség ellenőrzése és az adatelemzés. A GroupDocs.Signature for .NET robusztus megoldást kínál a táblázatok metaadatainak zökkenőmentes kereséséhez, hatékony eszközt biztosítva a fejlesztőknek dokumentumközpontú alkalmazásaik fejlesztéséhez.
 ## Előfeltételek

@@ -6,6 +6,9 @@ description: Aprenda como excluir uma assinatura por ID em documentos .NET usand
 weight: 11
 url: /pt/net/delete-operations/delete-signature-by-id/
 ---
+
+# Excluir assinatura por ID
+
 ## Introdução
 Neste tutorial, exploraremos como excluir uma assinatura por seu ID usando GroupDocs.Signature for .NET. GroupDocs.Signature for .NET é uma biblioteca poderosa que permite aos desenvolvedores adicionar, remover ou verificar assinaturas digitais em vários formatos de documentos usando aplicativos .NET.
 ## Pré-requisitos

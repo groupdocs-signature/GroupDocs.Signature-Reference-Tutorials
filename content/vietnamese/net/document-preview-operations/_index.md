@@ -6,6 +6,9 @@ description: Tìm hiểu cách hợp lý hóa việc quản lý tài liệu vớ
 weight: 21
 url: /vi/net/document-preview-operations/
 ---
+
+# Hoạt động xem trước tài liệu
+
 ## Giới thiệu
 
 Bạn đang tìm cách hợp lý hóa quy trình quản lý tài liệu trong các ứng dụng .NET của mình? Với hướng dẫn GroupDocs.Signature cho .NET, bạn có thể dễ dàng nâng cao quy trình làm việc của mình và tăng năng suất. Hãy đi sâu vào các hướng dẫn chính được cung cấp:

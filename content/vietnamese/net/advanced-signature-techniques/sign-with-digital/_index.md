@@ -6,6 +6,9 @@ description: Tìm hiểu cách ký tài liệu kỹ thuật số trong .NET bằ
 weight: 12
 url: /vi/net/advanced-signature-techniques/sign-with-digital/
 ---
+
+# Ký bằng chữ ký số
+
 ## Giới thiệu
 Chữ ký số đóng vai trò quan trọng trong việc đảm bảo tính xác thực và toàn vẹn của tài liệu điện tử. Trong lĩnh vực phát triển .NET, GroupDocs.Signature cung cấp giải pháp mạnh mẽ để tích hợp liền mạch chữ ký số vào ứng dụng của bạn. Hướng dẫn này sẽ hướng dẫn bạn quy trình ký tài liệu bằng chữ ký điện tử với GroupDocs.Signature cho .NET.
 ## Điều kiện tiên quyết

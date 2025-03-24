@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 从文档中删除 
 weight: 16
 url: /zh/net/delete-operations/delete-qr-code-signature/
 ---
+
+# 从文档中删除二维码签名
+
 ## 介绍
 在本教程中，我们将指导您完成使用 GroupDocs.Signature for .NET 从文档中删除 QR 代码签名的过程。按照这些分步说明有效删除 QR 码签名。
 ## 先决条件

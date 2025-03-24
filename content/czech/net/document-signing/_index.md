@@ -6,6 +6,9 @@ description: Podepisujte obrázky, soubory PDF, prezentace, tabulky a dokumenty 
 weight: 24
 url: /cs/net/document-signing/
 ---
+
+# Podepisování dokumentů
+
 ## Úvod
 
 Naučte se podepisovat různé typy dokumentů pomocí metadat pomocí GroupDocs.Signature for .NET. Bez námahy zajistěte pravost dokumentů, od obrázků až po tabulky.

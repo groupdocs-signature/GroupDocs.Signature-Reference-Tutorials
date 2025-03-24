@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 搜尋文字處理�
 weight: 14
 url: /zh-hant/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
+
+# 搜尋文字處理元資料擷取
+
 ## 介紹
 在 .NET 開發領域，管理文件簽章和元資料在確保文件完整性和真實性方面發揮關鍵作用。 GroupDocs.Signature for .NET 提供了一個強大的解決方案來有效地處理這些任務。本教學深入探討利用 GroupDocs.Signature 在文件中搜尋文字處理元數據，使用戶能夠無縫提取重要資訊。
 ## 先決條件

@@ -6,6 +6,9 @@ description: Découvrez comment signer des documents PDF avec des métadonnées 
 weight: 11
 url: /fr/net/document-signing/sign-pdf-with-metadata/
 ---
+
+# Signer un PDF avec des métadonnées
+
 ## Introduction
 Dans ce didacticiel, nous apprendrons comment signer un document PDF avec des métadonnées à l'aide de GroupDocs.Signature pour .NET. L'ajout de métadonnées à un PDF peut fournir des informations supplémentaires sur le document, telles que la paternité, la date de création, l'ID du document, etc.
 ## Conditions préalables

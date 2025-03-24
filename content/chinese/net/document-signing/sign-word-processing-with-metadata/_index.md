@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 使用元数据对�
 weight: 14
 url: /zh/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# 使用元数据进行符号字处理
+
 ## 介绍
 在本教程中，我们将指导您完成使用 GroupDocs.Signature for .NET 使用元数据对字处理文档进行签名的过程。元数据签名允许您将附加信息嵌入到文档中，例如作者姓名、创建日期、文档 ID 等。
 ## 先决条件

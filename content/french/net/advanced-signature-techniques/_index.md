@@ -6,6 +6,9 @@ description: Apprenez les techniques de signature avancées avec les didacticiel
 weight: 25
 url: /fr/net/advanced-signature-techniques/
 ---
+
+# Techniques de signature avancées
+
 ## Introduction
 
 Bienvenue dans notre guide complet sur les techniques de signature avancées utilisant GroupDocs.Signature pour .NET. Que vous soyez un développeur chevronné ou débutant, ces didacticiels vous fourniront les connaissances et les compétences nécessaires pour améliorer sans effort la sécurité et l'authenticité des documents.

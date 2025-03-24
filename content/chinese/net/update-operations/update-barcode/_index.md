@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 更新文档中的�
 weight: 10
 url: /zh/net/update-operations/update-barcode/
 ---
+
+# 更新条形码
+
 ## 介绍
 在本教程中，我们将学习如何使用 GroupDocs.Signature for .NET 更新文档中的条形码签名。 GroupDocs.Signature for .NET 是一个功能强大的 API，允许开发人员使用数字签名，包括条形码、文本、图像等各种类型。我们将逐步完成该过程，以确保您彻底理解每个部分。
 ## 先决条件

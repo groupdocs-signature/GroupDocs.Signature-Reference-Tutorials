@@ -6,6 +6,9 @@ description: Xóa chữ ký, mã vạch, v.v. khỏi tài liệu .NET bằng Gro
 weight: 20
 url: /vi/net/delete-operations/
 ---
+
+# Xóa hoạt động
+
 ## Giới thiệu
 
 Bạn đang tìm cách hợp lý hóa quy trình quản lý tài liệu của mình trong các ứng dụng .NET? Với GroupDocs.Signature, bạn có thể xóa nhiều loại chữ ký một cách hiệu quả, bao gồm mã vạch, chữ ký số, chữ ký hình ảnh, chữ ký văn bản, v.v. Đi sâu vào hướng dẫn của chúng tôi bên dưới để tìm hiểu cách thực hiện các thao tác xóa một cách liền mạch.

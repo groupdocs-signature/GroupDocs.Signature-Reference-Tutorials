@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie PDF-Dokumente mit Metadaten mit GroupDocs.Sig
 weight: 11
 url: /de/net/document-signing/sign-pdf-with-metadata/
 ---
+
+# PDF mit Metadaten signieren
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mithilfe von GroupDocs.Signature für .NET ein PDF-Dokument mit Metadaten signieren. Durch das Hinzufügen von Metadaten zu einer PDF-Datei können zusätzliche Informationen über das Dokument bereitgestellt werden, z. B. Autorschaft, Erstellungsdatum, Dokument-ID und mehr.
 ## Voraussetzungen

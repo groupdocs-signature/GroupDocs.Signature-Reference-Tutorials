@@ -6,6 +6,9 @@ description: Aprenda a firmar hojas de cálculo con metadatos usando Groupdocs.S
 weight: 13
 url: /es/net/document-signing/sign-spreadsheet-with-metadata/
 ---
+
+# Firmar hoja de cálculo con metadatos
+
 ## Introducción
 En este tutorial, recorreremos el proceso de firmar una hoja de cálculo con metadatos usando Groupdocs.Signature para .NET. La firma de metadatos le permite incorporar información adicional en sus documentos, proporcionando contexto o verificación. Al final de esta guía, podrá aplicar firmas de metadatos a sus hojas de cálculo sin esfuerzo.
 ## Requisitos previos

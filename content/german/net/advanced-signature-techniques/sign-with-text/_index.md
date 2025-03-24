@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET Dokumente m
 weight: 17
 url: /de/net/advanced-signature-techniques/sign-with-text/
 ---
+
+# Signieren mit Text mit GroupDocs.Signature für .NET
+
 ## Einführung
 Im digitalen Zeitalter ist die elektronische Unterzeichnung von Dokumenten zur Standardpraxis geworden, was Zeit und Ressourcen spart. GroupDocs.Signature für .NET bietet eine umfassende Lösung zum programmgesteuerten Hinzufügen von Textsignaturen zu verschiedenen Dokumentformaten. In diesem Tutorial führen wir Sie durch den Prozess des Signierens eines Dokuments mit Text mithilfe von GroupDocs.Signature für .NET.
 ## Voraussetzungen

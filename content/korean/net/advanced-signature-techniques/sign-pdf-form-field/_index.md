@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 양식 필드로 PDF �
 weight: 10
 url: /ko/net/advanced-signature-techniques/sign-pdf-form-field/
 ---
+
+# 양식 필드를 사용하여 PDF 서명
+
 ## 소개
 디지털 서명은 문서에 전자적으로 서명하는 안전하고 법적 구속력이 있는 방법을 제공하여 문서의 신뢰성과 무결성을 보장합니다. 이 자습서에서는 .NET용 GroupDocs.Signature 라이브러리를 사용하여 양식 필드가 포함된 PDF 문서에 서명하는 방법을 알아봅니다.
 ## 전제 조건

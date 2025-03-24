@@ -6,6 +6,9 @@ description: Scopri come firmare documenti PDF con campi modulo utilizzando Grou
 weight: 10
 url: /it/net/advanced-signature-techniques/sign-pdf-form-field/
 ---
+
+# Firma PDF con campo modulo
+
 ## introduzione
 Le firme digitali forniscono un modo sicuro e giuridicamente vincolante per firmare elettronicamente i documenti, garantendone l'autenticità e l'integrità. In questo tutorial impareremo come firmare un documento PDF che contiene campi modulo utilizzando la libreria GroupDocs.Signature per .NET.
 ## Prerequisiti

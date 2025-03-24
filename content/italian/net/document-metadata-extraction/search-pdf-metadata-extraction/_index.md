@@ -6,6 +6,9 @@ description: Scopri come cercare ed estrarre firme di metadati da documenti PDF 
 weight: 11
 url: /it/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# Cerca Estrazione metadati PDF
+
 ## introduzione
 Nell’ambito della gestione dei documenti digitali, garantire l’autenticità e l’integrità dei file è fondamentale. Un aspetto essenziale di ciò è la capacità di cercare in modo efficiente i metadati dei PDF. Le firme dei metadati all'interno dei documenti PDF forniscono informazioni preziose sull'origine, la paternità e il contenuto del file.
 ## Prerequisiti

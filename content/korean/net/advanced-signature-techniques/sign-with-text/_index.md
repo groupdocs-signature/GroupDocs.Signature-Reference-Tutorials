@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 텍스트로 문서에 
 weight: 17
 url: /ko/net/advanced-signature-techniques/sign-with-text/
 ---
+
+# .NET용 GroupDocs.Signature를 사용하여 텍스트로 서명
+
 ## 소개
 디지털 시대에는 문서에 전자적으로 서명하는 것이 표준 관행이 되어 시간과 자원을 절약합니다. .NET용 GroupDocs.Signature는 프로그래밍 방식으로 다양한 문서 형식에 텍스트 서명을 추가하기 위한 포괄적인 솔루션을 제공합니다. 이 자습서에서는 .NET용 GroupDocs.Signature를 사용하여 텍스트로 문서에 서명하는 과정을 안내합니다.
 ## 전제 조건

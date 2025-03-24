@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET ganz einfac
 weight: 16
 url: /de/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# Signieren mit Stempel mit GroupDocs.Signature
+
 ## Einführung
 In diesem Tutorial führen wir Sie durch den Prozess des Signierens eines Dokuments mit einem Stempel mithilfe von GroupDocs.Signature für .NET. Wenn Sie diese Schritt-für-Schritt-Anleitung befolgen, können Sie ganz einfach eine Stempelsignatur zu Ihren Dokumenten hinzufügen.
 ## Voraussetzungen

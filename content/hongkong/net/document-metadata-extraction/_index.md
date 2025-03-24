@@ -7,6 +7,9 @@ weight: 22
 url: /zh-hant/net/document-metadata-extraction/
 ---
 
+# 文件元資料擷取
+
+
 ## 介紹
 
 在當今的數位環境中，管理文件的完整性和真實性至關重要。 GroupDocs.Signature for .NET 使開發人員能夠從各種文件類型中無縫提取元數據，從而增強文件管理功能。讓我們深入研究一系列教程，探索如何充分利用跨不同文件格式的元資料擷取的潛力。

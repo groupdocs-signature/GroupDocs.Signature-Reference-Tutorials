@@ -6,6 +6,9 @@ description: Aprenda como verificar códigos de barras em documentos usando Grou
 weight: 10
 url: /pt/net/verify-operations/verify-barcode/
 ---
+
+# Verifique o código de barras
+
 ## Introdução
 No domínio da documentação digital, garantir a autenticidade e a integridade é fundamental. GroupDocs.Signature for .NET fornece uma solução robusta para verificação de códigos de barras em documentos. Este tutorial se aprofunda no processo de verificação de códigos de barras usando GroupDocs.Signature for .NET, oferecendo orientação passo a passo para uma implementação perfeita.
 ## Pré-requisitos

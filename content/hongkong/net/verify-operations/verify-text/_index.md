@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 驗證文件中的�
 weight: 13
 url: /zh-hant/net/verify-operations/verify-text/
 ---
+
+# 驗證文字
+
 ## 介紹
 在本教學中，我們將引導您完成使用 GroupDocs.Signature for .NET 驗證文件中文字的流程。這個強大的程式庫可讓您將文字驗證功能無縫整合到您的 .NET 應用程式中，從而確保文件的完整性和真實性。
 ## 先決條件

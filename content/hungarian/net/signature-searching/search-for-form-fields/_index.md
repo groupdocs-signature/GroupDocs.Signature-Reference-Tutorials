@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan integrálhatja az aláírási funkciókat .NET-
 weight: 12
 url: /hu/net/signature-searching/search-for-form-fields/
 ---
+
+# Űrlapmezők keresése
+
 ## Bevezetés
 A GroupDocs.Signature for .NET egy hatékony eszköz a fejlesztők számára, amellyel aláírási funkciókat adhatnak hozzá .NET-alkalmazásaikhoz. Akár dokumentumkezelő rendszert, szerződés-aláíró platformot vagy más aláíráskezelést igénylő alkalmazást épít, a GroupDocs.Signature for .NET biztosítja az aláírási funkciók zökkenőmentes integrálásához szükséges szolgáltatásokat.
 ## Előfeltételek

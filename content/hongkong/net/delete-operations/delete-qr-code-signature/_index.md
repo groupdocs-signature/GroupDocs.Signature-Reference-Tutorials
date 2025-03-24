@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 從文件中刪除 
 weight: 16
 url: /zh-hant/net/delete-operations/delete-qr-code-signature/
 ---
+
+# 從文件中刪除二維碼簽名
+
 ## 介紹
 在本教學中，我們將引導您完成使用 GroupDocs.Signature for .NET 從文件中刪除 QR 程式碼簽署的過程。請按照這些逐步說明有效刪除 QR 碼簽名。
 ## 先決條件

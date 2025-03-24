@@ -6,6 +6,9 @@ description: Aprenda cómo actualizar fácilmente códigos QR dentro de document
 weight: 12
 url: /es/net/update-operations/update-qr-code/
 ---
+
+# Actualizar código QR
+
 ## Introducción
 En el mundo digital actual, la capacidad de firmar documentos electrónicamente de forma segura se ha vuelto esencial tanto para las empresas como para los particulares. Ya sean contratos, acuerdos o formularios, las firmas electrónicas agilizan el proceso de firma, ahorrando tiempo y recursos. GroupDocs.Signature para .NET es una poderosa herramienta que permite a los desarrolladores integrar una sólida funcionalidad de firma electrónica en sus aplicaciones .NET sin esfuerzo. En este tutorial, exploraremos cómo actualizar códigos QR dentro de documentos usando GroupDocs.Signature para .NET, guiándole por cada paso con claridad y precisión.
 ## Requisitos previos

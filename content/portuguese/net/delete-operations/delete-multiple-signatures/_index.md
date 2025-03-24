@@ -6,6 +6,9 @@ description: Exclua facilmente várias assinaturas de documentos usando GroupDoc
 weight: 15
 url: /pt/net/delete-operations/delete-multiple-signatures/
 ---
+
+# Excluir múltiplas assinaturas do documento
+
 ## Introdução
 No mundo digital, a gestão de documentos envolve frequentemente o tratamento de várias assinaturas. Excluir várias assinaturas de um documento de forma programática pode agilizar os fluxos de trabalho e aumentar a eficiência. Com GroupDocs.Signature for .NET, essa tarefa se torna simples e direta. Este tutorial irá guiá-lo passo a passo pelo processo de exclusão de múltiplas assinaturas de um documento.
 ## Pré-requisitos

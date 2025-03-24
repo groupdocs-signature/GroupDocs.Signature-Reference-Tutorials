@@ -6,6 +6,9 @@ description: Découvrez comment signer des fichiers de présentation avec des m�
 weight: 12
 url: /fr/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# Signer une présentation avec des métadonnées
+
 ## Introduction
 Dans ce didacticiel, nous apprendrons comment signer un fichier de présentation (PPTX) avec des métadonnées à l'aide de la bibliothèque GroupDocs.Signature pour .NET. La signature de présentations avec des métadonnées ajoute des informations précieuses au document, telles que le nom de l'auteur, la date de création, l'ID du document, l'ID de la signature et diverses valeurs numériques.
 ## Conditions préalables

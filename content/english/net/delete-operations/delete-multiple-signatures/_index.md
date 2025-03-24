@@ -6,6 +6,9 @@ description: Effortlessly delete multiple signatures from documents using GroupD
 weight: 15
 url: /net/delete-operations/delete-multiple-signatures/
 ---
+
+# Delete Multiple Signatures from Document
+
 ## Introduction
 In the digital world, document management often involves handling various signatures. Deleting multiple signatures from a document programmatically can streamline workflows and enhance efficiency. With GroupDocs.Signature for .NET, this task becomes seamless and straightforward. This tutorial will guide you through the process of deleting multiple signatures from a document step by step.
 ## Prerequisites

@@ -6,6 +6,9 @@ description: Tìm hiểu cách tạo bản xem trước tài liệu bằng Group
 weight: 10
 url: /vi/net/document-preview-operations/generate-document-preview/
 ---
+
+# Tạo bản xem trước tài liệu
+
 ## Giới thiệu
 Trong kỷ nguyên kỹ thuật số ngày nay, nơi tài liệu là trung tâm của giao tiếp và giao dịch, việc đảm bảo tính toàn vẹn và xác thực của chúng là điều tối quan trọng. GroupDocs.Signature dành cho .NET trao quyền cho các nhà phát triển kết hợp liền mạch khả năng ký tài liệu vào các ứng dụng .NET của họ. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc tạo bản xem trước tài liệu bằng GroupDocs.Signature cho .NET, cung cấp hướng dẫn từng bước cho nhà phát triển.
 ## Điều kiện tiên quyết

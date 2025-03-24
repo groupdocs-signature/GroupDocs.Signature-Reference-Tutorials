@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 使用元資料對�
 weight: 12
 url: /zh-hant/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# 使用元資料簽署簡報
+
 ## 介紹
 在本教程中，我們將學習如何使用 GroupDocs.Signature for .NET 程式庫對簡報檔案 (PPTX) 進行元資料簽署。使用元資料對簡報進行簽名會為文件添加有價值的信息，例如作者姓名、創建日期、文件 ID、簽名 ID 和各種數值。
 ## 先決條件

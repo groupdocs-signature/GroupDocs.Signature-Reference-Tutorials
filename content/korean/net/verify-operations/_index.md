@@ -6,6 +6,9 @@ description: GroupDocs.Signature .NET을 사용하여 문서의 바코드, 디�
 weight: 27
 url: /ko/net/verify-operations/
 ---
+
+# 작업 확인
+
 ## 소개
 
 .NET용 GroupDocs.Signature를 사용하여 문서 검증을 마스터하고 싶으십니까? 당신은 바로 이곳에 있습니다. 문서 내 바코드, 디지털 서명, QR 코드 또는 텍스트의 진위 여부를 확인하는 것이든 당사의 튜토리얼은 원활한 통합을 위한 단계별 지침을 제공합니다.

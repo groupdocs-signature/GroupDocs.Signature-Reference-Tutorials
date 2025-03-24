@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật văn bản trong tài liệu bằng 
 weight: 13
 url: /vi/net/update-operations/update-text/
 ---
+
+# Cập nhật văn bản
+
 ## Giới thiệu
 GroupDocs.Signature for .NET là một thư viện đa năng được thiết kế để hợp lý hóa quy trình làm việc với chữ ký số trong các ứng dụng .NET. Với bộ tính năng toàn diện, nhà phát triển có thể dễ dàng tích hợp chức năng chữ ký số vào ứng dụng của mình, cho phép người dùng ký và cập nhật tài liệu một cách dễ dàng.
 ## Điều kiện tiên quyết

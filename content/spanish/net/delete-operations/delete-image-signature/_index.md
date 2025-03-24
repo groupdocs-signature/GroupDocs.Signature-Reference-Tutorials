@@ -6,6 +6,9 @@ description: Aprenda cómo eliminar firmas de imágenes de documentos usando Gro
 weight: 14
 url: /es/net/delete-operations/delete-image-signature/
 ---
+
+# Eliminar firma de imagen
+
 ## Introducción
 En este tutorial, exploraremos cómo eliminar firmas de imágenes de documentos usando GroupDocs.Signature para .NET. GroupDocs.Signature es una poderosa biblioteca que permite a los desarrolladores trabajar con firmas digitales, sellos y campos de formulario dentro de varios formatos de documentos.
 ## Requisitos previos

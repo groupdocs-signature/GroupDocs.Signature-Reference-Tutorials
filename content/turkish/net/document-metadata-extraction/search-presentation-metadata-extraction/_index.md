@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak sunum meta verilerini nas
 weight: 12
 url: /tr/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---
+
+# Arama Sunumu Meta Veri Çıkarma
+
 ## giriiş
 Dijital dokümantasyon alanında, dosyaların orijinalliğini ve bütünlüğünü sağlamak çok önemlidir. GroupDocs.Signature for .NET, imza işlevlerini .NET uygulamalarına entegre etmek için kapsamlı bir çözüm sunar. Bir dizi özellik arasında öne çıkan yeteneklerden biri, sunum meta verilerini hassas ve verimli bir şekilde çıkarma kapasitesidir.
 ## Önkoşullar

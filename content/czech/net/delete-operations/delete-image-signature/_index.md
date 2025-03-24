@@ -6,6 +6,9 @@ description: Přečtěte si, jak odstranit podpisy obrázků z dokumentů pomoc�
 weight: 14
 url: /cs/net/delete-operations/delete-image-signature/
 ---
+
+# Smazat podpis obrázku
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak odstranit podpisy obrázků z dokumentů pomocí GroupDocs.Signature for .NET. GroupDocs.Signature je výkonná knihovna, která umožňuje vývojářům pracovat s digitálními podpisy, razítky a poli formulářů v rámci různých formátů dokumentů.
 ## Předpoklady

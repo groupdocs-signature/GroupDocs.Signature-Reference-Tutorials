@@ -6,6 +6,9 @@ description: Extraiga eficientemente metadatos de hojas de cálculo utilizando G
 weight: 13
 url: /es/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
+
+# Buscar extracción de metadatos en hojas de cálculo
+
 ## Introducción
 En el ámbito de la gestión y verificación de documentos, la capacidad de extraer metadatos de hojas de cálculo de manera eficiente es primordial. La extracción de metadatos no solo ayuda a comprender el contexto y las propiedades de un documento, sino que también agiliza procesos como la verificación del cumplimiento y el análisis de datos. GroupDocs.Signature para .NET ofrece una solución sólida para buscar sin problemas metadatos en hojas de cálculo, proporcionando a los desarrolladores una poderosa herramienta para mejorar sus aplicaciones centradas en documentos.
 ## Requisitos previos

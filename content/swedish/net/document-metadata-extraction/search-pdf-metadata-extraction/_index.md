@@ -6,6 +6,9 @@ description: Lär dig hur du söker och extraherar metadatasignaturer från PDF-
 weight: 11
 url: /sv/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# Sök PDF Metadata Extraction
+
 ## Introduktion
 Inom området för digital dokumenthantering är det av största vikt att säkerställa äkthet och integritet hos filer. En viktig aspekt av detta är möjligheten att effektivt söka i PDF-metadata. Metadatasignaturer i PDF-dokument ger värdefull information om filens ursprung, författarskap och innehåll.
 ## Förutsättningar

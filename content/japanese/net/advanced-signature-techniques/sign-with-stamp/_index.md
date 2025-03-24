@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用して、.NET ドキュメン
 weight: 16
 url: /ja/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# GroupDocs.Signature を使用したスタンプによる署名
+
 ## 導入
 このチュートリアルでは、GroupDocs.Signature for .NET を使用してスタンプでドキュメントに署名するプロセスを説明します。これらの段階的な手順に従うことで、書類にスタンプ署名を簡単に追加できるようになります。
 ## 前提条件

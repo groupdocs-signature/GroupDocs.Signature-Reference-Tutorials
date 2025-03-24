@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan kereshet QR-kódokat dokumentumokon belül a Gr
 weight: 15
 url: /hu/net/signature-searching/search-for-qr-codes/
 ---
+
+# QR-kódok keresése
+
 ## Bevezetés
 
 A digitális korban a dokumentumok hitelességének és sértetlenségének biztosítása a legfontosabb. A GroupDocs.Signature for .NET lehetővé teszi a fejlesztők számára, hogy a fejlett aláírási funkciókat zökkenőmentesen integrálják .NET-alkalmazásaikba. Ez az átfogó útmutató végigvezeti Önt a GroupDocs.Signature for .NET használatán a QR-kódok dokumentumokon belüli kereséséhez. A végére alapos ismerete lesz arról, hogyan lehet hasznosítani ezt a hatékony eszközt a dokumentumok biztonságának és hatékonyságának növelésére.

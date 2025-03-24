@@ -6,6 +6,9 @@ description: Leer hoe u PDF-documenten kunt ondertekenen met formuliervelden met
 weight: 10
 url: /nl/net/advanced-signature-techniques/sign-pdf-form-field/
 ---
+
+# PDF ondertekenen met formulierveld
+
 ## Invoering
 Digitale handtekeningen bieden een veilige en juridisch bindende manier om documenten elektronisch te ondertekenen, waardoor de authenticiteit en integriteit ervan wordt gegarandeerd. In deze zelfstudie leren we hoe u een PDF-document kunt ondertekenen dat formuliervelden bevat met behulp van de GroupDocs.Signature voor .NET-bibliotheek.
 ## Vereisten

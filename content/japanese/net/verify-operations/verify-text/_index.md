@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用してドキュメント内�
 weight: 13
 url: /ja/net/verify-operations/verify-text/
 ---
+
+# テキストの検証
+
 ## 導入
 このチュートリアルでは、GroupDocs.Signature for .NET を使用してドキュメント内のテキストを検証するプロセスを説明します。この強力なライブラリを使用すると、テキスト検証機能を .NET アプリケーションにシームレスに統合して、ドキュメントの整合性と信頼性を確保できます。
 ## 前提条件

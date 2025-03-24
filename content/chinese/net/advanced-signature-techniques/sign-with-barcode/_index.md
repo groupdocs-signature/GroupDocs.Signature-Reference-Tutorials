@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 用条形码签署�
 weight: 11
 url: /zh/net/advanced-signature-techniques/sign-with-barcode/
 ---
+
+# 使用条形码签名
+
 ## 介绍
 在当今的数字时代，使用签名保护文档至关重要，GroupDocs.Signature for .NET 提供了将条形码签名集成到您的应用程序中的无缝解决方案。在本教程中，我们将引导您完成使用 GroupDocs.Signature for .NET 使用条形码签署文档的过程。
 ## 先决条件

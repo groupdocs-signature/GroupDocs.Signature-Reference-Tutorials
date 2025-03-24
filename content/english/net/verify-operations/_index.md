@@ -6,6 +6,9 @@ description: Learn how to verify barcodes, digital signatures, QR codes, and tex
 weight: 27
 url: /net/verify-operations/
 ---
+
+# Verify Operations
+
 ## Introduction
 
 Looking to master document verification using GroupDocs.Signature for .NET? You're in the right place. Whether it's ensuring the authenticity of barcodes, digital signatures, QR codes, or text within your documents, our tutorials provide step-by-step guidance for seamless integration.

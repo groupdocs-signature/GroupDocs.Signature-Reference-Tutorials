@@ -6,6 +6,9 @@ description: Tìm hiểu cách tìm kiếm và trích xuất chữ ký siêu d�
 weight: 11
 url: /vi/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# Tìm kiếm trích xuất siêu dữ liệu PDF
+
 ## Giới thiệu
 Trong lĩnh vực quản lý tài liệu kỹ thuật số, việc đảm bảo tính xác thực và tính toàn vẹn của tệp là điều tối quan trọng. Một khía cạnh thiết yếu của việc này là khả năng tìm kiếm siêu dữ liệu PDF một cách hiệu quả. Chữ ký siêu dữ liệu trong tài liệu PDF cung cấp thông tin có giá trị về nguồn gốc, quyền tác giả và nội dung của tệp.
 ## Điều kiện tiên quyết

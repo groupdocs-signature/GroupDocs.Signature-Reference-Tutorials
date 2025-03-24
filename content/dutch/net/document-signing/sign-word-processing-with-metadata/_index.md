@@ -6,6 +6,9 @@ description: Leer hoe u tekstverwerkingsdocumenten kunt ondertekenen met metageg
 weight: 14
 url: /nl/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# Teken tekstverwerking met metadata
+
 ## Invoering
 In deze zelfstudie begeleiden we u bij het ondertekenen van een tekstverwerkingsdocument met metagegevens met behulp van GroupDocs.Signature voor .NET. Met het ondertekenen van metagegevens kunt u aanvullende informatie in uw document insluiten, zoals de naam van de auteur, de aanmaakdatum, de document-ID en meer.
 ## Vereisten

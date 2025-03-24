@@ -6,6 +6,9 @@ description: Tìm hiểu cách ký tài liệu với nhiều tùy chọn bằng 
 weight: 14
 url: /vi/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# Ký với nhiều tùy chọn
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách ký một tài liệu bằng nhiều tùy chọn chữ ký bằng thư viện GroupDocs.Signature cho .NET. Việc ký tài liệu với nhiều tùy chọn khác nhau như chữ ký văn bản, mã vạch, mã QR, kỹ thuật số, hình ảnh và siêu dữ liệu có thể mang lại tính linh hoạt và tăng cường bảo mật tài liệu.
 ## Điều kiện tiên quyết

@@ -6,6 +6,9 @@ description: Naučte se podepisovat dokumenty s více možnostmi pomocí GroupDo
 weight: 14
 url: /cs/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# Podepisování s více možnostmi
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak podepsat dokument pomocí více možností podpisu pomocí knihovny GroupDocs.Signature pro .NET. Podepisování dokumentů pomocí různých možností, jako je text, čárový kód, QR kód, digitální podpisy, podpisy obrázků a metadat, může poskytnout všestrannost a zvýšit zabezpečení dokumentů.
 ## Předpoklady

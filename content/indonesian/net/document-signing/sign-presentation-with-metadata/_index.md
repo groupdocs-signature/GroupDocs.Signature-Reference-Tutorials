@@ -6,6 +6,9 @@ description: Pelajari cara menandatangani file presentasi dengan metadata menggu
 weight: 12
 url: /id/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# Tanda Tangani Presentasi dengan Metadata
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menandatangani file presentasi (PPTX) dengan metadata menggunakan pustaka GroupDocs.Signature untuk .NET. Menandatangani presentasi dengan metadata menambahkan informasi berharga pada dokumen, seperti nama penulis, tanggal pembuatan, ID dokumen, ID tanda tangan, dan berbagai nilai numerik.
 ## Prasyarat

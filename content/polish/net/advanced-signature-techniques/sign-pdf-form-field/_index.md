@@ -6,6 +6,9 @@ description: Dowiedz się, jak podpisywać dokumenty PDF z polami formularzy prz
 weight: 10
 url: /pl/net/advanced-signature-techniques/sign-pdf-form-field/
 ---
+
+# Podpisywanie pliku PDF za pomocą pola formularza
+
 ## Wstęp
 Podpisy cyfrowe zapewniają bezpieczny i prawnie wiążący sposób elektronicznego podpisywania dokumentów, zapewniając ich autentyczność i integralność. W tym samouczku dowiemy się, jak podpisać dokument PDF zawierający pola formularzy przy użyciu biblioteki GroupDocs.Signature for .NET.
 ## Warunki wstępne

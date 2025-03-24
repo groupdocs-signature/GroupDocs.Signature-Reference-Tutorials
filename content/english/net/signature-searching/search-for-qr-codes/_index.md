@@ -6,6 +6,9 @@ description: Learn how to search for QR codes within documents using GroupDocs.S
 weight: 15
 url: /net/signature-searching/search-for-qr-codes/
 ---
+
+# Search for QR Codes
+
 ## Introduction
 
 In the digital age, ensuring the authenticity and integrity of documents is paramount. GroupDocs.Signature for .NET empowers developers to integrate advanced signature features seamlessly into their .NET applications. This comprehensive guide will walk you through the process of leveraging GroupDocs.Signature for .NET to search for QR codes within documents. By the end, you'll have a solid understanding of how to harness this powerful tool to enhance document security and efficiency.

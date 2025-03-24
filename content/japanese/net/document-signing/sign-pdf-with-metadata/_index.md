@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用して、メタデータを�
 weight: 11
 url: /ja/net/document-signing/sign-pdf-with-metadata/
 ---
+
+# メタデータを使用して PDF に署名する
+
 ## 導入
 このチュートリアルでは、GroupDocs.Signature for .NET を使用して、メタデータを含む PDF ドキュメントに署名する方法を学習します。 PDF にメタデータを追加すると、作成者、作成日、ドキュメント ID など、ドキュメントに関する追加情報が提供されます。
 ## 前提条件

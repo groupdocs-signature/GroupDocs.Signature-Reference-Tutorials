@@ -6,6 +6,9 @@ description: GroupDocs.Signature kullanarak görüntüleri .NET'te meta verilerl
 weight: 10
 url: /tr/net/document-signing/sign-image-with-metadata/
 ---
+
+# Görüntüyü Meta Verilerle İmzala
+
 ## giriiş
 GroupDocs.Signature for .NET, geliştiricilerin görüntüleri meta verilerle verimli bir şekilde imzalamasına olanak tanır. Bu eğitim, süreç boyunca size adım adım yol gösterir.
 ## Önkoşullar

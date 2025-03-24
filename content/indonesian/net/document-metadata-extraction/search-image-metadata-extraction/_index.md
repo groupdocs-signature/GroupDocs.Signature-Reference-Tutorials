@@ -6,6 +6,9 @@ description: Pelajari cara mencari tanda tangan metadata gambar dalam dokumen me
 weight: 10
 url: /id/net/document-metadata-extraction/search-image-metadata-extraction/
 ---
+
+# Cari Ekstraksi Metadata Gambar dengan GroupDocs.Signature
+
 ## Perkenalan
 Di era digital, memastikan integritas dan keaslian dokumen adalah hal yang terpenting. Baik itu kontrak, perjanjian hukum, atau catatan penting, memiliki metode yang andal untuk menandatangani dan memverifikasi dokumen sangatlah penting. GroupDocs.Signature untuk .NET memberikan solusi komprehensif untuk menambahkan dan memverifikasi tanda tangan dalam berbagai format dokumen. Dalam tutorial ini, kita akan mempelajari proses pencarian tanda tangan metadata gambar menggunakan GroupDocs.Signature untuk .NET. 
 ## Prasyarat

@@ -6,6 +6,9 @@ description: تعرف على كيفية إضافة توقيعات الطوابع
 weight: 16
 url: /ar/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# التوقيع باستخدام Stamp باستخدام GroupDocs.Signature
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال عملية توقيع مستند بختم باستخدام GroupDocs.Signature لـ .NET. باتباع هذه التعليمات خطوة بخطوة، ستتمكن من إضافة توقيع ختم إلى مستنداتك بسهولة.
 ## المتطلبات الأساسية

@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie Tabellenkalkulationen mit Metadaten unter Ver
 weight: 13
 url: /de/net/document-signing/sign-spreadsheet-with-metadata/
 ---
+
+# Tabellenkalkulation mit Metadaten signieren
+
 ## Einführung
 In diesem Tutorial führen wir den Prozess des Signierens einer Tabelle mit Metadaten mithilfe von Groupdocs.Signature für .NET durch. Mit der Metadatensignatur können Sie zusätzliche Informationen in Ihre Dokumente einbetten und so Kontext oder Verifizierung bereitstellen. Am Ende dieses Leitfadens werden Sie in der Lage sein, Metadatensignaturen mühelos auf Ihre Tabellenkalkulationen anzuwenden.
 ## Voraussetzungen

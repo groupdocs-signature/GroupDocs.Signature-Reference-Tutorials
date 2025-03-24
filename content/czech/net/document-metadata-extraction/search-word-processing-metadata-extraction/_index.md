@@ -6,6 +6,9 @@ description: Naučte se vyhledávat metadata textového editoru pomocí GroupDoc
 weight: 14
 url: /cs/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
+
+# Hledání metadat pro zpracování textu
+
 ## Úvod
 oblasti vývoje .NET hraje správa podpisů dokumentů a metadat klíčovou roli při zajišťování integrity a autenticity dokumentů. GroupDocs.Signature for .NET poskytuje robustní řešení pro efektivní zpracování těchto úkolů. Tento výukový program se ponoří do využití GroupDocs.Signature k vyhledávání metadat textového editoru v dokumentech, což uživatelům umožňuje bezproblémově extrahovat základní informace.
 ## Předpoklady

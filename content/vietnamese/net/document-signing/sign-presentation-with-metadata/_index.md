@@ -6,6 +6,9 @@ description: Tìm hiểu cách ký các tệp bản trình bày có siêu dữ l
 weight: 12
 url: /vi/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# Ký bản trình bày với siêu dữ liệu
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách ký vào tệp bản trình bày (PPTX) bằng siêu dữ liệu bằng thư viện GroupDocs.Signature cho .NET. Ký bản trình bày bằng siêu dữ liệu sẽ thêm thông tin có giá trị vào tài liệu, chẳng hạn như tên tác giả, ngày tạo, ID tài liệu, ID chữ ký và các giá trị số khác nhau.
 ## Điều kiện tiên quyết

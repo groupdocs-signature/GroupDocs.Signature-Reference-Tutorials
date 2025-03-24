@@ -6,6 +6,9 @@ description: Pelajari cara mencari tanda tangan digital dalam dokumen menggunaka
 weight: 11
 url: /id/net/signature-searching/search-for-digital-signatures/
 ---
+
+# Cari Tanda Tangan Digital
+
 ## Perkenalan
 Di era digital, memastikan keaslian dan integritas dokumen adalah hal yang terpenting. Tanda tangan digital memainkan peran penting dalam proses ini, menyediakan cara yang aman untuk menandatangani dan memverifikasi dokumen elektronik. GroupDocs.Signature untuk .NET menawarkan solusi komprehensif untuk bekerja dengan tanda tangan digital di aplikasi .NET. Dalam tutorial ini, kita akan mempelajari dasar-dasar penggunaan GroupDocs.Signature untuk .NET untuk mencari tanda tangan digital dalam dokumen.
 ## Prasyarat

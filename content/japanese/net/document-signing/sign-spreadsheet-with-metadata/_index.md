@@ -6,6 +6,9 @@ description: Groupdocs.Signature for .NET を使用して、メタデータを�
 weight: 13
 url: /ja/net/document-signing/sign-spreadsheet-with-metadata/
 ---
+
+# メタデータを含むスプレッドシートに署名する
+
 ## 導入
 このチュートリアルでは、Groupdocs.Signature for .NET を使用して、メタデータを含むスプレッドシートに署名するプロセスを説明します。メタデータ署名を使用すると、ドキュメントに追加情報を埋め込み、コンテキストや検証を提供できます。このガイドを終えると、メタデータ署名をスプレッドシートに簡単に適用できるようになります。
 ## 前提条件

@@ -6,6 +6,9 @@ description: Découvrez comment signer des documents PDF avec des champs de form
 weight: 10
 url: /fr/net/advanced-signature-techniques/sign-pdf-form-field/
 ---
+
+# Signature d'un PDF avec un champ de formulaire
+
 ## Introduction
 Les signatures numériques constituent un moyen sécurisé et juridiquement contraignant de signer électroniquement des documents, garantissant ainsi leur authenticité et leur intégrité. Dans ce didacticiel, nous allons apprendre à signer un document PDF contenant des champs de formulaire à l'aide de la bibliothèque GroupDocs.Signature pour .NET.
 ## Conditions préalables

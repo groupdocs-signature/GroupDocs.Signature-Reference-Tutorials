@@ -6,6 +6,9 @@ description: Découvrez comment rechercher et extraire des signatures de métado
 weight: 11
 url: /fr/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# Rechercher une extraction de métadonnées PDF
+
 ## Introduction
 Dans le domaine de la gestion de documents numériques, garantir l’authenticité et l’intégrité des fichiers est primordial. Un aspect essentiel de ceci est la possibilité de rechercher efficacement les métadonnées PDF. Les signatures de métadonnées dans les documents PDF fournissent des informations précieuses sur l'origine, la paternité et le contenu du fichier.
 ## Conditions préalables

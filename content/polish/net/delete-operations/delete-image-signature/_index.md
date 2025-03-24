@@ -6,6 +6,9 @@ description: Dowiedz się, jak usuwać podpisy obrazów z dokumentów za pomocą
 weight: 14
 url: /pl/net/delete-operations/delete-image-signature/
 ---
+
+# Usuń podpis obrazu
+
 ## Wstęp
 W tym samouczku omówimy, jak usunąć podpisy obrazów z dokumentów przy użyciu programu GroupDocs.Signature for .NET. GroupDocs.Signature to potężna biblioteka, która umożliwia programistom pracę z podpisami cyfrowymi, pieczęciami i polami formularzy w różnych formatach dokumentów.
 ## Warunki wstępne

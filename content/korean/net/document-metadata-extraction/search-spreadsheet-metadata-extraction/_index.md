@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 스프레드시트에�
 weight: 13
 url: /ko/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
+
+# 스프레드시트 메타데이터 추출 검색
+
 ## 소개
 문서 관리 및 검증 영역에서는 스프레드시트에서 메타데이터를 효율적으로 추출하는 능력이 가장 중요합니다. 메타데이터 추출은 문서의 컨텍스트와 속성을 이해하는 데 도움이 될 뿐만 아니라 규정 준수 확인 및 데이터 분석과 같은 프로세스를 간소화합니다. .NET용 GroupDocs.Signature는 스프레드시트 메타데이터를 원활하게 검색할 수 있는 강력한 솔루션을 제공하여 개발자에게 문서 중심 응용 프로그램을 향상시킬 수 있는 강력한 도구를 제공합니다.
 ## 전제 조건

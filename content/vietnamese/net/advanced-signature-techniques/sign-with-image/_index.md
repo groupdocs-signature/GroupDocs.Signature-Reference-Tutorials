@@ -6,6 +6,9 @@ description: Tìm hiểu cách ký tài liệu bằng hình ảnh trong ứng d�
 weight: 13
 url: /vi/net/advanced-signature-techniques/sign-with-image/
 ---
+
+# Ký tài liệu bằng hình ảnh bằng GroupDocs.Signature
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách ký tài liệu bằng hình ảnh với Groupdocs.Signature cho .NET. Việc ký tài liệu sẽ bổ sung thêm một lớp xác thực và bảo mật cho các tệp của bạn, giúp chúng chống giả mạo và ràng buộc về mặt pháp lý. Với sự trợ giúp của Groupdocs.Signature dành cho .NET, bạn có thể tích hợp liền mạch chức năng ký tài liệu vào các ứng dụng .NET của mình.
 ## Điều kiện tiên quyết

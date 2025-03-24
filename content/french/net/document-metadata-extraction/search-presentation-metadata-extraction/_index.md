@@ -6,6 +6,9 @@ description: Découvrez comment extraire les métadonnées de présentation à l
 weight: 12
 url: /fr/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---
+
+# Extraction de métadonnées de présentation de recherche
+
 ## Introduction
 Dans le domaine de la documentation numérique, garantir l’authenticité et l’intégrité des fichiers est primordial. GroupDocs.Signature for .NET offre une solution complète pour intégrer des fonctionnalités de signature dans les applications .NET. Parmi sa gamme de fonctionnalités, une capacité remarquable est sa capacité à extraire les métadonnées de présentation avec précision et efficacité.
 ## Conditions préalables

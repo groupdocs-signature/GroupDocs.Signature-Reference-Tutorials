@@ -6,6 +6,9 @@ description: Tìm hiểu cách tích hợp chức năng chữ ký vào các ứn
 weight: 12
 url: /vi/net/signature-searching/search-for-form-fields/
 ---
+
+# Tìm kiếm trường biểu mẫu
+
 ## Giới thiệu
 GroupDocs.Signature cho .NET là một công cụ mạnh mẽ dành cho các nhà phát triển để thêm chức năng chữ ký vào các ứng dụng .NET của họ. Cho dù bạn đang xây dựng hệ thống quản lý tài liệu, nền tảng ký hợp đồng hay bất kỳ ứng dụng nào khác yêu cầu xử lý chữ ký, GroupDocs.Signature cho .NET đều cung cấp các tính năng bạn cần để tích hợp chức năng chữ ký một cách liền mạch.
 ## Điều kiện tiên quyết

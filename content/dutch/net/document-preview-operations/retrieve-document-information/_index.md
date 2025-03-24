@@ -6,6 +6,9 @@ description: Verbeter documentbeheer in .NET met GroupDocs.Signature. Haal stap 
 weight: 11
 url: /nl/net/document-preview-operations/retrieve-document-information/
 ---
+
+# Documentinformatie ophalen
+
 ## Invoering
 Op het gebied van digitale documentatie is het waarborgen van authenticiteit en integriteit van het allergrootste belang. GroupDocs.Signature voor .NET biedt een robuuste oplossing voor het beheren van documenthandtekeningen binnen de .NET-omgeving. In deze zelfstudie verdiepen we ons in het proces van het ophalen van documentinformatie met behulp van GroupDocs.Signature voor .NET, waarbij we elke stap opsplitsen voor een uitgebreid begrip.
 ## Vereisten

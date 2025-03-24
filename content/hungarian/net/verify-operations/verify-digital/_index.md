@@ -6,6 +6,9 @@ description: A GroupDocs.Signature segítségével könnyedén ellenőrizheti a 
 weight: 11
 url: /hu/net/verify-operations/verify-digital/
 ---
+
+# Digitális aláírás ellenőrzése
+
 ## Bevezetés
 A digitális dokumentumok területén a hitelesség és az integritás biztosítása a legfontosabb. A digitális aláírások a kézzel írt aláírások digitális megfelelőjeként szolgálnak, biztonságos módot biztosítva az elektronikus dokumentumok eredetének és sértetlenségének ellenőrzésére. A GroupDocs.Signature for .NET hatékony eszközkészletet kínál a digitális aláírásokkal való munkavégzéshez .NET-alkalmazásokban, megkönnyítve a digitális aláírások ellenőrzését.
 ## Előfeltételek

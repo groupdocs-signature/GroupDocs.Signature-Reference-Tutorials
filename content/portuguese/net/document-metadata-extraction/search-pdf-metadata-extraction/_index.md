@@ -6,6 +6,9 @@ description: Aprenda como pesquisar e extrair assinaturas de metadados de docume
 weight: 11
 url: /pt/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# Extração de metadados de PDF de pesquisa
+
 ## Introdução
 No domínio do gerenciamento de documentos digitais, garantir a autenticidade e integridade dos arquivos é fundamental. Um aspecto essencial disso é a capacidade de pesquisar metadados PDF de forma eficiente. Assinaturas de metadados em documentos PDF fornecem informações valiosas sobre a origem, autoria e conteúdo do arquivo.
 ## Pré-requisitos

@@ -6,6 +6,9 @@ description: Scopri come visualizzare facilmente la cronologia di elaborazione d
 weight: 12
 url: /it/net/document-preview-operations/view-document-processing-history/
 ---
+
+# Visualizza la cronologia di elaborazione dei documenti
+
 ## introduzione
 GroupDocs.Signature per .NET è una potente libreria che facilita l'elaborazione dei documenti consentendoti di gestire e manipolare le firme dei documenti senza problemi all'interno delle tue applicazioni .NET. Che tu abbia a che fare con contratti, accordi o qualsiasi altro tipo di documento che richiede firme, GroupDocs.Signature ti consente di semplificare il tuo flusso di lavoro in modo efficiente.
 ## Prerequisiti

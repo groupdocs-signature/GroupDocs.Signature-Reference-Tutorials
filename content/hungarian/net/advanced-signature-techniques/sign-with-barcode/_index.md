@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan írhat alá dokumentumokat vonalkóddal a Group
 weight: 11
 url: /hu/net/advanced-signature-techniques/sign-with-barcode/
 ---
+
+# Aláírás vonalkóddal
+
 ## Bevezetés
 Napjaink digitális korában a dokumentumok aláírásokkal történő védelme a legfontosabb, és a GroupDocs.Signature for .NET zökkenőmentes megoldást kínál a vonalkód-aláírások alkalmazásaiba való integrálására. Ebben az oktatóanyagban végigvezetjük egy dokumentum vonalkóddal történő aláírásának folyamatán a GroupDocs.Signature for .NET használatával.
 ## Előfeltételek

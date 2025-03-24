@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan kereshet vonalkód-aláírásokat a dokumentumo
 weight: 10
 url: /hu/net/signature-searching/search-for-barcode/
 ---
+
+# Vonalkód keresése
+
 ## Bevezetés
 A GroupDocs.Signature for .NET egy hatékony eszköz digitális aláírások hozzáadására és ellenőrzésére különféle dokumentumformátumokban .NET-alkalmazások segítségével. Ebben az oktatóanyagban arra összpontosítunk, hogyan kereshetünk vonalkód-aláírásokat egy dokumentumon belül a GroupDocs.Signature for .NET segítségével.
 ## Előfeltételek

@@ -6,6 +6,9 @@ description: Könnyedén törölhet több aláírást a dokumentumokból a Group
 weight: 15
 url: /hu/net/delete-operations/delete-multiple-signatures/
 ---
+
+# Több aláírás törlése a dokumentumból
+
 ## Bevezetés
 A digitális világban a dokumentumkezelés gyakran magában foglalja a különféle aláírások kezelését. Több aláírás programozott törlése egy dokumentumból leegyszerűsítheti a munkafolyamatokat és növelheti a hatékonyságot. A GroupDocs.Signature for .NET segítségével ez a feladat zökkenőmentessé és egyszerűvé válik. Ez az oktatóanyag lépésről lépésre végigvezeti Önt a több aláírás törlésének folyamatán egy dokumentumból.
 ## Előfeltételek

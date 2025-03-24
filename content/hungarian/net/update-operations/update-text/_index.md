@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti a dokumentumok szövegét a GroupD
 weight: 13
 url: /hu/net/update-operations/update-text/
 ---
+
+# Szöveg frissítése
+
 ## Bevezetés
 A GroupDocs.Signature for .NET egy sokoldalú könyvtár, amelyet arra terveztek, hogy egyszerűsítse a digitális aláírásokkal való munkafolyamatot a .NET-alkalmazásokban. Átfogó szolgáltatáskészletével a fejlesztők könnyedén integrálhatják alkalmazásaikba a digitális aláírás funkcióit, lehetővé téve a felhasználók számára a dokumentumok egyszerű aláírását és frissítését.
 ## Előfeltételek

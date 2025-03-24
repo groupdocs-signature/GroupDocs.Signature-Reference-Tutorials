@@ -6,6 +6,9 @@ description: Naučte se podepisovat tabulky pomocí metadat pomocí Groupdocs.Si
 weight: 13
 url: /cs/net/document-signing/sign-spreadsheet-with-metadata/
 ---
+
+# Podepište tabulku pomocí metadat
+
 ## Úvod
 tomto tutoriálu si projdeme procesem podepisování tabulky s metadaty pomocí Groupdocs.Signature for .NET. Podepisování metadat vám umožňuje vkládat do dokumentů další informace, které poskytují kontext nebo ověření. Na konci této příručky budete moci bez námahy aplikovat podpisy metadat na své tabulky.
 ## Předpoklady

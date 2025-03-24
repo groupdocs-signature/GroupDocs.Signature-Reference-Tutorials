@@ -6,6 +6,9 @@ description: Learn how to update barcode signatures in documents using GroupDocs
 weight: 10
 url: /net/update-operations/update-barcode/
 ---
+
+# Update Barcode
+
 ## Introduction
 In this tutorial, we'll learn how to update a barcode signature within a document using GroupDocs.Signature for .NET. GroupDocs.Signature for .NET is a powerful API that allows developers to work with digital signatures, including various types like barcode, text, image, and more. We'll go through the process step by step to ensure you understand each part thoroughly.
 ## Prerequisites

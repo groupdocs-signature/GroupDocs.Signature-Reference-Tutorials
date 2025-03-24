@@ -6,6 +6,9 @@ description: Leer hoe u documenten met streepjescode kunt ondertekenen met Group
 weight: 11
 url: /nl/net/advanced-signature-techniques/sign-with-barcode/
 ---
+
+# Ondertekenen met streepjescode
+
 ## Invoering
 In het huidige digitale tijdperk is het beveiligen van documenten met handtekeningen van cruciaal belang, en GroupDocs.Signature voor .NET biedt een naadloze oplossing voor het integreren van barcodehandtekeningen in uw toepassingen. In deze zelfstudie leiden we u door het proces van het ondertekenen van een document met een streepjescode met behulp van GroupDocs.Signature voor .NET.
 ## Vereisten

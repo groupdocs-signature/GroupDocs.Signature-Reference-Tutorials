@@ -6,6 +6,9 @@ description: Scopri come firmare file di presentazione con metadati utilizzando 
 weight: 12
 url: /it/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# Firma la presentazione con metadati
+
 ## introduzione
 In questo tutorial impareremo come firmare un file di presentazione (PPTX) con metadati utilizzando la libreria GroupDocs.Signature per .NET. Firmare le presentazioni con metadati aggiunge informazioni preziose al documento, come il nome dell'autore, la data di creazione, l'ID del documento, l'ID della firma e vari valori numerici.
 ## Prerequisiti

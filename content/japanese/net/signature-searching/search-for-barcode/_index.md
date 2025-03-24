@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用してドキュメント内�
 weight: 10
 url: /ja/net/signature-searching/search-for-barcode/
 ---
+
+# バーコードの検索
+
 ## 導入
 GroupDocs.Signature for .NET は、.NET アプリケーションを使用してさまざまなドキュメント形式でデジタル署名を追加および検証するための強力なツールです。このチュートリアルでは、GroupDocs.Signature for .NET を使用してドキュメント内のバーコード署名を検索する方法に焦点を当てます。
 ## 前提条件

@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan írhat alá dokumentumokat több lehetőséggel
 weight: 14
 url: /hu/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# Aláírás több opcióval
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan írhat alá egy dokumentumot több aláírási lehetőség használatával a .NET GroupDocs.Signature könyvtárával. A dokumentumok aláírása különféle lehetőségekkel, például szöveges, vonalkódos, QR-kódos, digitális, képi és metaadat-aláírásokkal sokoldalúságot biztosíthat és fokozhatja a dokumentumok biztonságát.
 ## Előfeltételek

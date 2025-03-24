@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用してドキュメント内�
 weight: 12
 url: /ja/net/verify-operations/verify-qr-code/
 ---
+
+# QRコードを認証する
+
 ## 導入
 文書管理と認証の分野では、署名の整合性と有効性を確保することが最も重要です。 GroupDocs.Signature for .NET は、ドキュメント内に埋め込まれた QR コードを検証するための包括的なソリューションを提供します。このチュートリアルでは、GroupDocs.Signature for .NET を使用して QR コードを検証するプロセスを段階的に詳しく説明します。
 ## 前提条件

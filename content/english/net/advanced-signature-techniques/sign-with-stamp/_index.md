@@ -6,6 +6,9 @@ description: Learn how to add stamp signatures to your .NET documents easily wit
 weight: 16
 url: /net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# Signing with Stamp using GroupDocs.Signature
+
 ## Introduction
 In this tutorial, we'll walk you through the process of signing a document with a stamp using GroupDocs.Signature for .NET. By following these step-by-step instructions, you'll be able to add a stamp signature to your documents with ease.
 ## Prerequisites

@@ -6,6 +6,9 @@ description: Aprenda como adicionar assinaturas de carimbo aos seus documentos .
 weight: 16
 url: /pt/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# Assinando com Stamp usando GroupDocs.Signature
+
 ## Introdução
 Neste tutorial, orientaremos você no processo de assinatura de um documento com carimbo usando GroupDocs.Signature for .NET. Seguindo estas instruções passo a passo, você poderá adicionar uma assinatura de carimbo aos seus documentos com facilidade.
 ## Pré-requisitos

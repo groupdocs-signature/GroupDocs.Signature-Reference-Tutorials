@@ -6,6 +6,9 @@ description: Aprenda como assinar planilhas com metadados usando Groupdocs.Signa
 weight: 13
 url: /pt/net/document-signing/sign-spreadsheet-with-metadata/
 ---
+
+# Assinar planilha com metadados
+
 ## Introdução
 Neste tutorial, percorreremos o processo de assinatura de uma planilha com metadados usando Groupdocs.Signature for .NET. A assinatura de metadados permite incorporar informações adicionais em seus documentos, fornecendo contexto ou verificação. Ao final deste guia, você poderá aplicar assinaturas de metadados às suas planilhas sem esforço.
 ## Pré-requisitos

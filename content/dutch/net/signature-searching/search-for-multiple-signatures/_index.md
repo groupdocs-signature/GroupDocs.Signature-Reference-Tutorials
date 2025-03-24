@@ -6,6 +6,9 @@ description: Leer hoe u naar meerdere handtekeningen in .NET-documenten kunt zoe
 weight: 14
 url: /nl/net/signature-searching/search-for-multiple-signatures/
 ---
+
+# Zoek naar meerdere handtekeningen
+
 ## Invoering
 GroupDocs.Signature voor .NET is een krachtige bibliotheek waarmee ontwikkelaars verschillende soorten handtekeningen in populaire documentformaten kunnen toevoegen, zoeken en verwijderen met behulp van .NET-toepassingen. In deze zelfstudie concentreren we ons op het zoeken naar meerdere handtekeningen binnen een document met behulp van GroupDocs.Signature voor .NET.
 ## Vereisten

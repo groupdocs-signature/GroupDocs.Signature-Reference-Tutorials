@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature 輕鬆更新 .NET 文件中�
 weight: 11
 url: /zh-hant/net/update-operations/update-image/
 ---
+
+# 更新圖片
+
 ## 介紹
 在文件管理和身分驗證領域，數位簽章在確保電子文件的完整性和真實性方面發揮關鍵作用。 GroupDocs.Signature for .NET 為開發人員提供了一個強大的解決方案，將簽章功能無縫地整合到他們的 .NET 應用程式中。在其一系列功能中，更新文件中的影像簽名是至關重要的功能。
 ## 先決條件

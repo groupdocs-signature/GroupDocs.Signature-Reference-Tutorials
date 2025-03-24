@@ -6,6 +6,9 @@ description: .NET용 Groupdocs.Signature를 사용하여 .NET 응용 프로그�
 weight: 13
 url: /ko/net/advanced-signature-techniques/sign-with-image/
 ---
+
+# GroupDocs.Signature를 사용하여 이미지로 문서 서명
+
 ## 소개
 이 자습서에서는 .NET용 Groupdocs.Signature를 사용하여 이미지를 사용하여 문서에 서명하는 방법을 살펴보겠습니다. 문서에 서명하면 파일의 신뢰성과 보안이 한층 더 강화되어 변조 방지 및 법적 구속력을 갖게 됩니다. .NET용 Groupdocs.Signature를 사용하면 문서 서명 기능을 .NET 응용 프로그램에 원활하게 통합할 수 있습니다.
 ## 전제 조건

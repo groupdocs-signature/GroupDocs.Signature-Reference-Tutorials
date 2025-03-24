@@ -6,6 +6,9 @@ description: Scopri come cercare firme digitali nei documenti utilizzando GroupD
 weight: 11
 url: /it/net/signature-searching/search-for-digital-signatures/
 ---
+
+# Cerca firme digitali
+
 ## introduzione
 Nell’era digitale, garantire l’autenticità e l’integrità dei documenti è fondamentale. Le firme digitali svolgono un ruolo fondamentale in questo processo, fornendo un modo sicuro per firmare e verificare i documenti elettronici. GroupDocs.Signature per .NET offre una soluzione completa per lavorare con le firme digitali nelle applicazioni .NET. In questo tutorial approfondiremo i fondamenti dell'utilizzo di GroupDocs.Signature per .NET per cercare firme digitali all'interno dei documenti.
 ## Prerequisiti

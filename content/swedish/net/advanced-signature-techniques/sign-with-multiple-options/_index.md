@@ -6,6 +6,9 @@ description: Lär dig hur du signerar dokument med flera alternativ med GroupDoc
 weight: 14
 url: /sv/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# Signering med flera alternativ
+
 ## Introduktion
 den här självstudien kommer vi att utforska hur man signerar ett dokument med flera signaturalternativ med hjälp av GroupDocs.Signature-biblioteket för .NET. Att signera dokument med olika alternativ som text, streckkod, QR-kod, digital, bild och metadatasignaturer kan ge mångsidighet och förbättra dokumentsäkerheten.
 ## Förutsättningar

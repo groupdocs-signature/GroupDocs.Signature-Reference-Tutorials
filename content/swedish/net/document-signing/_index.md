@@ -6,6 +6,9 @@ description: Signera bilder, PDF-filer, presentationer, kalkylblad och Word-doku
 weight: 24
 url: /sv/net/document-signing/
 ---
+
+# Dokumentsignering
+
 ## Introduktion
 
 Lär dig hur du signerar olika typer av dokument med metadata med GroupDocs.Signature för .NET. Från bilder till kalkylblad, säkerställ dokumentets äkthet utan ansträngning.

@@ -6,6 +6,9 @@ description: Aprenda cómo eliminar una firma por ID en documentos .NET usando l
 weight: 11
 url: /es/net/delete-operations/delete-signature-by-id/
 ---
+
+# Eliminar firma por ID
+
 ## Introducción
 En este tutorial, exploraremos cómo eliminar una firma por su ID usando GroupDocs.Signature para .NET. GroupDocs.Signature para .NET es una potente biblioteca que permite a los desarrolladores agregar, eliminar o verificar firmas digitales en varios formatos de documentos utilizando aplicaciones .NET.
 ## Requisitos previos

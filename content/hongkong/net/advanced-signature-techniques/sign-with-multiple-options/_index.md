@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 透過多個選項�
 weight: 14
 url: /zh-hant/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# 使用多個選項進行簽名
+
 ## 介紹
 在本教學中，我們將探討如何使用 .NET 的 GroupDocs.Signature 函式庫使用多個簽章選項來簽署文件。使用文字、條碼、二維碼、數位、圖像和元資料簽名等各種選項對文件進行簽名可以提供多功能性並增強文件安全性。
 ## 先決條件

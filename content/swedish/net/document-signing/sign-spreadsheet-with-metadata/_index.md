@@ -6,6 +6,9 @@ description: Lär dig hur du signerar kalkylblad med metadata med Groupdocs.Sign
 weight: 13
 url: /sv/net/document-signing/sign-spreadsheet-with-metadata/
 ---
+
+# Signera kalkylblad med metadata
+
 ## Introduktion
 den här handledningen går vi igenom processen att signera ett kalkylblad med metadata med Groupdocs.Signature för .NET. Metadatasignering låter dig bädda in ytterligare information i dina dokument, vilket ger sammanhang eller verifiering. I slutet av den här guiden kommer du att kunna använda metadatasignaturer på dina kalkylark utan ansträngning.
 ## Förutsättningar

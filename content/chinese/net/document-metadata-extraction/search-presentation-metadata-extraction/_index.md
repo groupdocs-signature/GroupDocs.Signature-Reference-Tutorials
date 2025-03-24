@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 提取演示文稿�
 weight: 12
 url: /zh/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---
+
+# 搜索呈现元数据提取
+
 ## 介绍
 在数字文档领域，确保文件的真实性和完整性至关重要。 GroupDocs.Signature for .NET 提供了将签名功能集成到 .NET 应用程序中的全面解决方案。在其一系列功能中，一项突出的功能是能够精确高效地提取演示元数据。
 ## 先决条件

@@ -6,6 +6,9 @@ description: Upptäck hur du enkelt visar dokumentbearbetningshistorik med Group
 weight: 12
 url: /sv/net/document-preview-operations/view-document-processing-history/
 ---
+
+# Visa dokumentbearbetningshistorik
+
 ## Introduktion
 GroupDocs.Signature för .NET är ett kraftfullt bibliotek som underlättar dokumentbehandling genom att du kan hantera och manipulera dokumentsignaturer sömlöst i dina .NET-applikationer. Oavsett om du har att göra med kontrakt, avtal eller någon annan typ av dokument som kräver signaturer, ger GroupDocs.Signature dig möjlighet att effektivisera ditt arbetsflöde.
 ## Förutsättningar

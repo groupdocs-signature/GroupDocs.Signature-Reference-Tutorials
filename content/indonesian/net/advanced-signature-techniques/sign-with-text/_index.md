@@ -6,6 +6,9 @@ description: Pelajari cara menandatangani dokumen dengan teks menggunakan GroupD
 weight: 17
 url: /id/net/advanced-signature-techniques/sign-with-text/
 ---
+
+# Menandatangani dengan Teks menggunakan GroupDocs.Signature untuk .NET
+
 ## Perkenalan
 Di era digital, menandatangani dokumen secara elektronik telah menjadi praktik standar, sehingga menghemat waktu dan sumber daya. GroupDocs.Signature untuk .NET menawarkan solusi komprehensif untuk menambahkan tanda tangan teks ke berbagai format dokumen secara terprogram. Dalam tutorial ini, kami akan memandu Anda melalui proses penandatanganan dokumen dengan teks menggunakan GroupDocs.Signature untuk .NET.
 ## Prasyarat

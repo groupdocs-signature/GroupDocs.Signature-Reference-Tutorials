@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki birden çok 
 weight: 15
 url: /tr/net/delete-operations/delete-multiple-signatures/
 ---
+
+# Belgeden Birden Çok İmzayı Sil
+
 ## giriiş
 Dijital dünyada belge yönetimi genellikle çeşitli imzaların işlenmesini içerir. Bir belgeden birden fazla imzanın programlı olarak silinmesi iş akışlarını kolaylaştırabilir ve verimliliği artırabilir. GroupDocs.Signature for .NET ile bu görev kusursuz ve basit hale gelir. Bu eğitim, bir belgeden birden fazla imzayı adım adım silme sürecinde size rehberlik edecektir.
 ## Önkoşullar

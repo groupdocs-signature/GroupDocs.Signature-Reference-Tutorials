@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak belgeleri barkodla nasıl
 weight: 11
 url: /tr/net/advanced-signature-techniques/sign-with-barcode/
 ---
+
+# Barkodla İmzalama
+
 ## giriiş
 Günümüzün dijital çağında, belgelerin imzalarla güvence altına alınması son derece önemlidir ve GroupDocs.Signature for .NET, barkod imzalarını uygulamalarınıza entegre etmek için kusursuz bir çözüm sunar. Bu öğreticide, GroupDocs.Signature for .NET'i kullanarak bir belgeyi barkodla imzalama sürecinde size yol göstereceğiz.
 ## Önkoşullar

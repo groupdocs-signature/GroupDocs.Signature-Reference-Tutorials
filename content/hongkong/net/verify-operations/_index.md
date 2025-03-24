@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature .NET 驗證文件中的條�
 weight: 27
 url: /zh-hant/net/verify-operations/
 ---
+
+# 驗證操作
+
 ## 介紹
 
 希望使用 GroupDocs.Signature for .NET 掌握文件驗證？您來對地方了。無論是確保文件中條碼、數位簽名、QR 碼還是文字的真實性，我們的教程都提供了無縫整合的逐步指導。

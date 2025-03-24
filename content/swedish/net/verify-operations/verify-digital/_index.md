@@ -6,6 +6,9 @@ description: Verifiera digitala signaturer i .NET enkelt med GroupDocs.Signature
 weight: 11
 url: /sv/net/verify-operations/verify-digital/
 ---
+
+# Verifiera digital signatur
+
 ## Introduktion
 När det gäller digitala dokument är det av största vikt att säkerställa autenticitet och integritet. Digitala signaturer fungerar som den digitala motsvarigheten till handskrivna signaturer, vilket ger ett säkert sätt att verifiera ursprung och integritet för elektroniska dokument. GroupDocs.Signature för .NET erbjuder en kraftfull verktygslåda för att arbeta med digitala signaturer i .NET-applikationer, vilket underlättar verifieringen av digitala signaturer med lätthet.
 ## Förutsättningar

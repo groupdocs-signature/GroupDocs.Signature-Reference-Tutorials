@@ -6,6 +6,9 @@ description: Learn how to delete QR code signatures from documents using GroupDo
 weight: 16
 url: /net/delete-operations/delete-qr-code-signature/
 ---
+
+# Delete QR Code Signature from Document
+
 ## Introduction
 In this tutorial, we'll guide you through the process of removing a QR code signature from a document using GroupDocs.Signature for .NET. Follow these step-by-step instructions to effectively delete QR code signatures.
 ## Prerequisites

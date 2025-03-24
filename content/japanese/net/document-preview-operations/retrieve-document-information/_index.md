@@ -6,6 +6,9 @@ description: GroupDocs.Signature を使用して .NET でのドキュメント�
 weight: 11
 url: /ja/net/document-preview-operations/retrieve-document-information/
 ---
+
+# 文書情報の取得
+
 ## 導入
 デジタル文書の分野では、信頼性と完全性を確保することが最も重要です。 GroupDocs.Signature for .NET は、.NET 環境内でドキュメントの署名を管理するための堅牢なソリューションを提供します。このチュートリアルでは、GroupDocs.Signature for .NET を使用してドキュメント情報を取得するプロセスを詳しく説明し、包括的な理解を得るために各ステップに分けて説明します。
 ## 前提条件

@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用してドキュメント内�
 weight: 12
 url: /ja/net/update-operations/update-qr-code/
 ---
+
+# QRコードを更新する
+
 ## 導入
 今日のデジタル世界では、文書に電子的に安全に署名する機能は、企業にとっても個人にとっても同様に不可欠なものとなっています。契約書、同意書、フォームのいずれであっても、電子署名は署名プロセスを合理化し、時間とリソースを節約します。 GroupDocs.Signature for .NET は、開発者が堅牢な電子署名機能を .NET アプリケーションに簡単に統合できるようにする強力なツールです。このチュートリアルでは、GroupDocs.Signature for .NET を使用してドキュメント内の QR コードを更新する方法を説明し、各ステップを明確かつ正確に説明します。
 ## 前提条件

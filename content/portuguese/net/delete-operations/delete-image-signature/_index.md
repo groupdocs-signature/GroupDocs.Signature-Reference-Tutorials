@@ -6,6 +6,9 @@ description: Aprenda como excluir assinaturas de imagens de documentos usando Gr
 weight: 14
 url: /pt/net/delete-operations/delete-image-signature/
 ---
+
+# Excluir assinatura de imagem
+
 ## Introdução
 Neste tutorial, exploraremos como excluir assinaturas de imagens de documentos usando GroupDocs.Signature for .NET. GroupDocs.Signature é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com assinaturas digitais, carimbos e campos de formulário em vários formatos de documentos.
 ## Pré-requisitos

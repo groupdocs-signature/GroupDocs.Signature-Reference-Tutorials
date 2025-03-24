@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 使用元数据对 
 weight: 11
 url: /zh/net/document-signing/sign-pdf-with-metadata/
 ---
+
+# 使用元数据签署 PDF
+
 ## 介绍
 在本教程中，我们将学习如何使用 GroupDocs.Signature for .NET 使用元数据对 PDF 文档进行签名。向 PDF 添加元数据可以提供有关文档的附加信息，例如作者身份、创建日期、文档 ID 等。
 ## 先决条件

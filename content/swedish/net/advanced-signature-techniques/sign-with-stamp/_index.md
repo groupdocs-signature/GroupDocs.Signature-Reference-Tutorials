@@ -6,6 +6,9 @@ description: Lär dig hur du enkelt lägger till stämpelsignaturer till dina .N
 weight: 16
 url: /sv/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# Signering med stämpel med GroupDocs.Signature
+
 ## Introduktion
 I den här handledningen går vi igenom processen att signera ett dokument med en stämpel med GroupDocs.Signature för .NET. Genom att följa dessa steg-för-steg-instruktioner kommer du att kunna lägga till en stämpelsignatur till dina dokument med lätthet.
 ## Förutsättningar

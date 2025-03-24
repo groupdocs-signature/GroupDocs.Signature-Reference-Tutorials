@@ -6,6 +6,9 @@ description: Leer hoe u afbeeldingshandtekeningen uit documenten verwijdert met 
 weight: 14
 url: /nl/net/delete-operations/delete-image-signature/
 ---
+
+# Afbeeldingshandtekening verwijderen
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u afbeeldingshandtekeningen uit documenten verwijdert met GroupDocs.Signature voor .NET. GroupDocs.Signature is een krachtige bibliotheek waarmee ontwikkelaars kunnen werken met digitale handtekeningen, stempels en formuliervelden binnen verschillende documentformaten.
 ## Vereisten

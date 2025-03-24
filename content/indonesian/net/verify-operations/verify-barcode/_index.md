@@ -6,6 +6,9 @@ description: Pelajari cara memverifikasi kode batang dalam dokumen menggunakan G
 weight: 10
 url: /id/net/verify-operations/verify-barcode/
 ---
+
+# Verifikasi Kode Batang
+
 ## Perkenalan
 Dalam bidang dokumentasi digital, memastikan keaslian dan integritas adalah hal yang terpenting. GroupDocs.Signature untuk .NET memberikan solusi tangguh untuk memverifikasi kode batang dalam dokumen. Tutorial ini mempelajari proses verifikasi kode batang menggunakan GroupDocs.Signature untuk .NET, menawarkan panduan langkah demi langkah untuk penerapan yang lancar.
 ## Prasyarat

@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 在文件中搜尋�
 weight: 10
 url: /zh-hant/net/document-metadata-extraction/search-image-metadata-extraction/
 ---
+
+# 使用 GroupDocs.Signature 提取搜尋圖像元數據
+
 ## 介紹
 在數位時代，確保文件的完整性和真實性至關重要。無論是合約、法律協議或重要記錄，擁有可靠的方法來簽署和驗證文件至關重要。 GroupDocs.Signature for .NET 提供了用於新增和驗證各種文件格式的簽章的全面解決方案。在本教程中，我們將深入研究使用 GroupDocs.Signature for .NET 搜尋圖像元資料簽章的過程。 
 ## 先決條件

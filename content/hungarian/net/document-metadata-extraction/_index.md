@@ -7,6 +7,9 @@ weight: 22
 url: /hu/net/document-metadata-extraction/
 ---
 
+# Dokumentum metaadat kinyerése
+
+
 ## Bevezetés
 
 mai digitális környezetben a dokumentumok integritásának és hitelességének kezelése a legfontosabb. A GroupDocs.Signature for .NET lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen nyerjenek ki metaadatokat különböző dokumentumtípusokból, javítva ezzel a dokumentumkezelési képességeket. Vessünk egy sor oktatóanyagot, amelyek feltárják, hogyan lehet kihasználni a metaadatok kinyerésében rejlő lehetőségeket a különböző dokumentumformátumok között.

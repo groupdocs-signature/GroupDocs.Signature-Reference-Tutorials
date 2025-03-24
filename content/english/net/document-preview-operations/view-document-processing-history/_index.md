@@ -6,6 +6,9 @@ description: Discover how to effortlessly view document processing history using
 weight: 12
 url: /net/document-preview-operations/view-document-processing-history/
 ---
+
+# View Document Processing History
+
 ## Introduction
 GroupDocs.Signature for .NET is a powerful library that facilitates document processing by enabling you to manage and manipulate document signatures seamlessly within your .NET applications. Whether you're dealing with contracts, agreements, or any other type of document requiring signatures, GroupDocs.Signature empowers you to streamline your workflow efficiently.
 ## Prerequisites

@@ -6,6 +6,9 @@ description: Update barcode, image, QR code, and text signatures in .NET documen
 weight: 26
 url: /net/update-operations/
 ---
+
+# Update Operations
+
 ## Introduction
 
 Are you looking to update various types of signatures within your .NET documents? GroupDocs.Signature for .NET provides comprehensive tutorials on updating barcode, image, QR code, and text signatures, ensuring seamless integration and enhanced document security.

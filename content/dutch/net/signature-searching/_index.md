@@ -6,6 +6,9 @@ description: Leer handtekeningen zoeken in .NET-documenten met GroupDocs.Signatu
 weight: 23
 url: /nl/net/signature-searching/
 ---
+
+# Handtekening zoeken
+
 ## Invoering
 
 Bent u klaar om de documentbeveiliging en integriteit van uw .NET-applicatie te verbeteren? Duik in onze uitgebreide tutorials over het zoeken naar handtekeningen met GroupDocs.Signature voor .NET. Of u nu een doorgewinterde ontwikkelaar bent of net begint, met onze stapsgewijze handleidingen kunt u moeiteloos geavanceerde zoekfuncties voor handtekeningen implementeren.

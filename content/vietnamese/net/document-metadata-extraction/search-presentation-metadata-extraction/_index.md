@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất siêu dữ liệu bản trình bày
 weight: 12
 url: /vi/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---
+
+# Tìm kiếm trích xuất siêu dữ liệu bản trình bày
+
 ## Giới thiệu
 Trong lĩnh vực tài liệu kỹ thuật số, việc đảm bảo tính xác thực và tính toàn vẹn của tệp là điều tối quan trọng. GroupDocs.Signature cho .NET cung cấp giải pháp toàn diện để tích hợp các chức năng chữ ký vào các ứng dụng .NET. Trong số các tính năng của nó, một khả năng nổi bật là khả năng trích xuất siêu dữ liệu bản trình bày với độ chính xác và hiệu quả.
 ## Điều kiện tiên quyết

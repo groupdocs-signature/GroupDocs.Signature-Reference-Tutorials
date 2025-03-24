@@ -6,6 +6,9 @@ description: Aprenda a eliminar firmas por tipo en documentos .NET sin esfuerzo 
 weight: 12
 url: /es/net/delete-operations/delete-signature-by-type/
 ---
+
+# Eliminar firma por tipo
+
 ## Introducción
 En la era digital actual, la necesidad de una gestión documental eficiente es primordial. Ya sea que sea un profesional de negocios que maneja contratos o un individuo que procesa documentos legales, garantizar la autenticidad e integridad de sus archivos es crucial. GroupDocs.Signature para .NET ofrece una poderosa solución para administrar firmas dentro de sus documentos sin problemas. En este tutorial, profundizaremos en el proceso de eliminación de firmas por tipo usando GroupDocs.Signature para .NET, brindándole una guía paso a paso para optimizar sus tareas de administración de documentos.
 ## Requisitos previos

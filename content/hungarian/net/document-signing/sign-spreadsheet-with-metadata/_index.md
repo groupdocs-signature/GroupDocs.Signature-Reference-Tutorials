@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan írhat alá táblázatokat metaadatokkal a Grou
 weight: 13
 url: /hu/net/document-signing/sign-spreadsheet-with-metadata/
 ---
+
+# Táblázat aláírása metaadatokkal
+
 ## Bevezetés
 Ebben az oktatóanyagban egy metaadatokat tartalmazó táblázat aláírásának folyamatát mutatjuk be a Groupdocs.Signature for .NET használatával. A metaadat-aláírás lehetővé teszi további információk beágyazását a dokumentumokba, amelyek kontextust vagy ellenőrzést biztosítanak. Ennek az útmutatónak a végére könnyedén alkalmazhatja a metaadat-aláírásokat a táblázatokon.
 ## Előfeltételek

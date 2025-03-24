@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 문서 처리 기록을
 weight: 12
 url: /ko/net/document-preview-operations/view-document-processing-history/
 ---
+
+# 문서 처리 내역 보기
+
 ## 소개
 .NET용 GroupDocs.Signature는 .NET 응용 프로그램 내에서 문서 서명을 원활하게 관리하고 조작할 수 있도록 하여 문서 처리를 용이하게 하는 강력한 라이브러리입니다. 계약서, 합의서 또는 서명이 필요한 기타 유형의 문서를 처리하는 경우 GroupDocs.Signature를 사용하면 작업 흐름을 효율적으로 간소화할 수 있습니다.
 ## 전제 조건

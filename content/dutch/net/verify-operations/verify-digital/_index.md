@@ -6,6 +6,9 @@ description: Verifieer eenvoudig digitale handtekeningen in .NET met GroupDocs.S
 weight: 11
 url: /nl/net/verify-operations/verify-digital/
 ---
+
+# Controleer digitale handtekening
+
 ## Invoering
 Op het gebied van digitale documenten is het waarborgen van authenticiteit en integriteit van het allergrootste belang. Digitale handtekeningen dienen als het digitale equivalent van handgeschreven handtekeningen en bieden een veilige manier om de oorsprong en integriteit van elektronische documenten te verifiëren. GroupDocs.Signature voor .NET biedt een krachtige toolkit voor het werken met digitale handtekeningen in .NET-toepassingen, waardoor de verificatie van digitale handtekeningen eenvoudig wordt vergemakkelijkt.
 ## Vereisten

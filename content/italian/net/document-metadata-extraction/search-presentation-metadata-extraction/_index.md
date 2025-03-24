@@ -6,6 +6,9 @@ description: Scopri come estrarre i metadati della presentazione utilizzando Gro
 weight: 12
 url: /it/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---
+
+# Cerca l'estrazione dei metadati della presentazione
+
 ## introduzione
 Nel campo della documentazione digitale, garantire l'autenticità e l'integrità dei file è fondamentale. GroupDocs.Signature per .NET offre una soluzione completa per l'integrazione delle funzionalità di firma nelle applicazioni .NET. Tra la sua gamma di funzionalità, una caratteristica straordinaria è la capacità di estrarre metadati di presentazione con precisione ed efficienza.
 ## Prerequisiti

@@ -6,6 +6,9 @@ description: Leer hoe u naar afbeeldingen in documenten kunt zoeken met GroupDoc
 weight: 13
 url: /nl/net/signature-searching/search-for-images/
 ---
+
+# Zoek naar afbeeldingen
+
 ## Invoering
 GroupDocs.Signature voor .NET is een krachtige bibliotheek waarmee ontwikkelaars binnen hun .NET-applicaties naadloos digitale handtekeningen kunnen toevoegen, zoeken en verifiëren aan een breed scala aan documentformaten. Of u nu werkt met Word-documenten, PDF's, spreadsheets of presentaties, deze bibliotheek biedt uitgebreide functionaliteit om digitale handtekeningen efficiënt te beheren.
 ## Vereisten

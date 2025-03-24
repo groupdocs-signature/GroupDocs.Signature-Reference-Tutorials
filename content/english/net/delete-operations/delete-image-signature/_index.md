@@ -6,6 +6,9 @@ description: Learn how to delete image signatures from documents using GroupDocs
 weight: 14
 url: /net/delete-operations/delete-image-signature/
 ---
+
+# Delete Image Signature
+
 ## Introduction
 In this tutorial, we'll explore how to delete image signatures from documents using GroupDocs.Signature for .NET. GroupDocs.Signature is a powerful library that allows developers to work with digital signatures, stamps, and form fields within various document formats.
 ## Prerequisites

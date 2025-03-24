@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyszukiwać wiele podpisów w dokumentach .NET pr
 weight: 14
 url: /pl/net/signature-searching/search-for-multiple-signatures/
 ---
+
+# Wyszukaj wiele podpisów
+
 ## Wstęp
 GroupDocs.Signature dla .NET to potężna biblioteka, która umożliwia programistom dodawanie, wyszukiwanie i usuwanie różnych typów podpisów w popularnych formatach dokumentów przy użyciu aplikacji .NET. W tym samouczku skupimy się na wyszukiwaniu wielu podpisów w dokumencie przy użyciu programu GroupDocs.Signature for .NET.
 ## Warunki wstępne

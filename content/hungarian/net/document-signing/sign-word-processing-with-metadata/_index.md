@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan írhat alá szövegszerkesztő dokumentumokat m
 weight: 14
 url: /hu/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# Szövegfeldolgozás aláírása metaadatokkal
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük egy szövegszerkesztő dokumentum metaadatokkal történő aláírásának folyamatán a GroupDocs.Signature for .NET használatával. A metaadat-aláírás lehetővé teszi további információk beágyazását a dokumentumba, például a szerző nevét, létrehozásának dátumát, dokumentumazonosítóját stb.
 ## Előfeltételek

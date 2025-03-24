@@ -6,6 +6,9 @@ description: Naučte se ověřovat text v dokumentech pomocí GroupDocs.Signatur
 weight: 13
 url: /cs/net/verify-operations/verify-text/
 ---
+
+# Ověřit text
+
 ## Úvod
 tomto tutoriálu vás provedeme procesem ověřování textu v dokumentech pomocí GroupDocs.Signature for .NET. Tato výkonná knihovna vám umožňuje bezproblémově integrovat funkci ověřování textu do vašich aplikací .NET a zajistit integritu a autentičnost vašich dokumentů.
 ## Předpoklady

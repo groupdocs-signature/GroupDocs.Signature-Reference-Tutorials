@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan kereshet szövegfeldolgozási metaadatokban a G
 weight: 14
 url: /hu/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
+
+# Search Word Processing Metaadat Extraction
+
 ## Bevezetés
 .NET fejlesztés területén a dokumentumaláírások és metaadatok kezelése kulcsfontosságú szerepet játszik a dokumentumok integritásának és hitelességének biztosításában. A GroupDocs.Signature for .NET robusztus megoldást kínál ezeknek a feladatoknak a hatékony kezelésére. Ez az oktatóanyag a GroupDocs.Signature kihasználásával foglalkozik a dokumentumokon belüli szövegfeldolgozási metaadatok kereséséhez, lehetővé téve a felhasználók számára a lényeges információk zökkenőmentes kinyerését.
 ## Előfeltételek

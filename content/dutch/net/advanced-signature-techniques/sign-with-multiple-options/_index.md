@@ -6,6 +6,9 @@ description: Leer hoe u documenten met meerdere opties kunt ondertekenen met Gro
 weight: 14
 url: /nl/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# Ondertekenen met meerdere opties
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u een document kunt ondertekenen met meerdere handtekeningopties met behulp van de GroupDocs.Signature-bibliotheek voor .NET. Het ondertekenen van documenten met verschillende opties, zoals handtekeningen met tekst, streepjescode, QR-code, digitale handtekeningen, afbeeldingen en metagegevens, kan veelzijdigheid bieden en de documentbeveiliging verbeteren.
 ## Vereisten

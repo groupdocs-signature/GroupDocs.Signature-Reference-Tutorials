@@ -6,6 +6,9 @@ description: Aprenda como assinar documentos digitalmente em .NET usando GroupDo
 weight: 12
 url: /pt/net/advanced-signature-techniques/sign-with-digital/
 ---
+
+# Assinando com Assinatura Digital
+
 ## Introdução
 As assinaturas digitais desempenham um papel crucial na garantia da autenticidade e integridade dos documentos eletrónicos. No domínio do desenvolvimento .NET, GroupDocs.Signature oferece uma solução poderosa para integrar perfeitamente assinaturas digitais em seus aplicativos. Este tutorial irá guiá-lo através do processo de assinatura de um documento usando uma assinatura digital com GroupDocs.Signature for .NET.
 ## Pré-requisitos

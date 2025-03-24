@@ -6,6 +6,9 @@ description: Sign images, PDFs, presentations, spreadsheets and Word documents w
 weight: 24
 url: /net/document-signing/
 ---
+
+# Document Signing
+
 ## Introduction
 
 Learn how to sign various types of documents with metadata using GroupDocs.Signature for .NET. From images to spreadsheets, ensure document authenticity effortlessly.

@@ -6,6 +6,9 @@ description: Learn how to search for digital signatures in documents using Group
 weight: 11
 url: /net/signature-searching/search-for-digital-signatures/
 ---
+
+# Search for Digital Signatures
+
 ## Introduction
 In the digital age, ensuring the authenticity and integrity of documents is paramount. Digital signatures play a pivotal role in this process, providing a secure way to sign and verify electronic documents. GroupDocs.Signature for .NET offers a comprehensive solution for working with digital signatures in .NET applications. In this tutorial, we'll delve into the fundamentals of using GroupDocs.Signature for .NET to search for digital signatures within documents.
 ## Prerequisites

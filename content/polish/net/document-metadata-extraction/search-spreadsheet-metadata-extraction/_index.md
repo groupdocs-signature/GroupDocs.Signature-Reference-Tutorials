@@ -6,6 +6,9 @@ description: Efektywnie wyodrębniaj metadane z arkuszy kalkulacyjnych za pomoc�
 weight: 13
 url: /pl/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
+
+# Wyszukaj ekstrakcję metadanych arkusza kalkulacyjnego
+
 ## Wstęp
 obszarze zarządzania i weryfikacji dokumentów najważniejsza jest umiejętność skutecznego wydobywania metadanych z arkuszy kalkulacyjnych. Ekstrakcja metadanych nie tylko pomaga w zrozumieniu kontekstu i właściwości dokumentu, ale także usprawnia procesy, takie jak weryfikacja zgodności i analiza danych. GroupDocs.Signature dla .NET oferuje solidne rozwiązanie do płynnego przeszukiwania metadanych arkuszy kalkulacyjnych, zapewniając programistom potężne narzędzie do ulepszania ich aplikacji zorientowanych na dokumenty.
 ## Warunki wstępne

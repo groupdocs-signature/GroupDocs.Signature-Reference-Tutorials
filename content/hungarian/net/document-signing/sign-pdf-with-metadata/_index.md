@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan írhat alá PDF-dokumentumokat metaadatokkal a 
 weight: 11
 url: /hu/net/document-signing/sign-pdf-with-metadata/
 ---
+
+# PDF aláírása metaadatokkal
+
 ## Bevezetés
 Ebből az oktatóanyagból megtudjuk, hogyan írhat alá egy PDF-dokumentumot metaadatokkal a GroupDocs.Signature for .NET használatával. Ha metaadatokat ad hozzá a PDF-hez, további információkkal szolgálhat a dokumentumról, például szerzőségről, létrehozási dátumról, dokumentumazonosítóról stb.
 ## Előfeltételek

@@ -6,6 +6,9 @@ description: Naučte se podepisovat prezentační soubory pomocí metadat pomoc�
 weight: 12
 url: /cs/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# Podepsat prezentaci s metadaty
+
 ## Úvod
 tomto tutoriálu se naučíme, jak podepsat prezentační soubor (PPTX) s metadaty pomocí knihovny GroupDocs.Signature for .NET. Podepisování prezentací pomocí metadat dodává dokumentu cenné informace, jako je jméno autora, datum vytvoření, ID dokumentu, ID podpisu a různé číselné hodnoty.
 ## Předpoklady

@@ -6,6 +6,9 @@ description: Javítsa a dokumentumkezelést a .NET-ben a GroupDocs.Signature seg
 weight: 11
 url: /hu/net/document-preview-operations/retrieve-document-information/
 ---
+
+# Dokumentuminformációk lekérése
+
 ## Bevezetés
 A digitális dokumentáció területén a hitelesség és az integritás biztosítása a legfontosabb. A GroupDocs.Signature for .NET robusztus megoldást kínál a dokumentumok aláírásainak kezelésére a .NET környezetben. Ebben az oktatóanyagban a GroupDocs.Signature for .NET használatával történő dokumentuminformációk lekérésének folyamatát mutatjuk be, az egyes lépéseket lebontva az átfogó megértés érdekében.
 ## Előfeltételek

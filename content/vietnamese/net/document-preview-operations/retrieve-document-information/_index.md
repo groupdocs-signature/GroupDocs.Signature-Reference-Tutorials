@@ -6,6 +6,9 @@ description: Tăng cường quản lý tài liệu trong .NET với GroupDocs.Si
 weight: 11
 url: /vi/net/document-preview-operations/retrieve-document-information/
 ---
+
+# Truy xuất thông tin tài liệu
+
 ## Giới thiệu
 Trong lĩnh vực tài liệu kỹ thuật số, việc đảm bảo tính xác thực và toàn vẹn là điều tối quan trọng. GroupDocs.Signature cho .NET cung cấp giải pháp mạnh mẽ để quản lý chữ ký tài liệu trong môi trường .NET. Trong hướng dẫn này, chúng tôi đi sâu vào quy trình truy xuất thông tin tài liệu bằng GroupDocs.Signature cho .NET, chia nhỏ từng bước để hiểu toàn diện.
 ## Điều kiện tiên quyết

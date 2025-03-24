@@ -6,6 +6,9 @@ description: Découvrez comment rechercher des métadonnées de traitement de te
 weight: 14
 url: /fr/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
+
+# Recherche Extraction de métadonnées de traitement de texte
+
 ## Introduction
 Dans le domaine du développement .NET, la gestion des signatures et des métadonnées des documents joue un rôle central pour garantir l'intégrité et l'authenticité des documents. GroupDocs.Signature pour .NET fournit une solution robuste pour gérer efficacement ces tâches. Ce didacticiel explique comment exploiter GroupDocs.Signature pour rechercher des métadonnées de traitement de texte dans les documents, permettant ainsi aux utilisateurs d'extraire des informations essentielles de manière transparente.
 ## Conditions préalables

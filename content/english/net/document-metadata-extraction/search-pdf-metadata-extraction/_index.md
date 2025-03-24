@@ -6,6 +6,9 @@ description: Learn how to search and extract metadata signatures from PDF docume
 weight: 11
 url: /net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# Search PDF Metadata Extraction
+
 ## Introduction
 In the realm of digital document management, ensuring the authenticity and integrity of files is paramount. One essential aspect of this is the ability to search PDF metadata efficiently. Metadata signatures within PDF documents provide valuable information about the file's origin, authorship, and content.
 ## Prerequisites

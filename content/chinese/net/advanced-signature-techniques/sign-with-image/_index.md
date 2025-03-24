@@ -6,6 +6,9 @@ description: 了解如何通过 Groupdocs.Signature for .NET 在 .NET 应用程�
 weight: 13
 url: /zh/net/advanced-signature-techniques/sign-with-image/
 ---
+
+# 使用 GroupDocs.Signature 使用图像签署文档
+
 ## 介绍
 在本教程中，我们将探讨如何使用适用于 .NET 的 Groupdocs.Signature 图像来签署文档。签署文档可以为您的文件增加一层额外的真实性和安全性，使其防篡改并具有法律约束力。借助 Groupdocs.Signature for .NET，您可以将文档签名功能无缝集成到您的 .NET 应用程序中。
 ## 先决条件

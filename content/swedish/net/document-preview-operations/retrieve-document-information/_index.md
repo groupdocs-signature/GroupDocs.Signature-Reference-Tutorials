@@ -6,6 +6,9 @@ description: Förbättra dokumenthanteringen i .NET med GroupDocs.Signature. Hä
 weight: 11
 url: /sv/net/document-preview-operations/retrieve-document-information/
 ---
+
+# Hämta dokumentinformation
+
 ## Introduktion
 När det gäller digital dokumentation är det av största vikt att säkerställa autenticitet och integritet. GroupDocs.Signature för .NET tillhandahåller en robust lösning för att hantera dokumentsignaturer inom .NET-miljön. I den här handledningen går vi in i processen att hämta dokumentinformation med GroupDocs.Signature för .NET, och bryta ner varje steg för en heltäckande förståelse.
 ## Förutsättningar

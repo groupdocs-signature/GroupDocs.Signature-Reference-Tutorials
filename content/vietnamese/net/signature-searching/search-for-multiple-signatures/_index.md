@@ -6,6 +6,9 @@ description: Tìm hiểu cách tìm kiếm nhiều chữ ký trong tài liệu .
 weight: 14
 url: /vi/net/signature-searching/search-for-multiple-signatures/
 ---
+
+# Tìm kiếm nhiều chữ ký
+
 ## Giới thiệu
 GroupDocs.Signature for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thêm, tìm kiếm và xóa nhiều loại chữ ký khác nhau ở các định dạng tài liệu phổ biến bằng ứng dụng .NET. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc tìm kiếm nhiều chữ ký trong tài liệu bằng GroupDocs.Signature cho .NET.
 ## Điều kiện tiên quyết

@@ -6,6 +6,9 @@ description: Découvrez comment supprimer les signatures de code QR des document
 weight: 16
 url: /fr/net/delete-operations/delete-qr-code-signature/
 ---
+
+# Supprimer la signature du code QR du document
+
 ## Introduction
 Dans ce didacticiel, nous vous guiderons tout au long du processus de suppression d'une signature de code QR d'un document à l'aide de GroupDocs.Signature pour .NET. Suivez ces instructions étape par étape pour supprimer efficacement les signatures de code QR.
 ## Conditions préalables

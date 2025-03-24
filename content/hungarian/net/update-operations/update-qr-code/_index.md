@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti könnyedén a QR-kódokat a dokume
 weight: 12
 url: /hu/net/update-operations/update-qr-code/
 ---
+
+# Frissítse a QR-kódot
+
 ## Bevezetés
 mai digitális világban a dokumentumok biztonságos elektronikus aláírásának lehetősége a vállalkozások és magánszemélyek számára egyaránt elengedhetetlenné vált. Legyen szó szerződésekről, megállapodásokról vagy űrlapokról, az elektronikus aláírás leegyszerűsíti az aláírási folyamatot, időt és erőforrásokat takarít meg. A GroupDocs.Signature for .NET egy hatékony eszköz, amellyel a fejlesztők könnyedén integrálhatják a robusztus elektronikus aláírási funkciókat .NET-alkalmazásaikba. Ebben az oktatóanyagban megvizsgáljuk, hogyan frissítheti a QR-kódokat a dokumentumokon belül a GroupDocs.Signature for .NET segítségével, így világosan és pontosan végigvezeti az egyes lépéseken.
 ## Előfeltételek

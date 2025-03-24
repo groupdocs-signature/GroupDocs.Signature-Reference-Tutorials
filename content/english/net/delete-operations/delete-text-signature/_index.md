@@ -6,6 +6,9 @@ description: Effortlessly delete text signatures from documents using GroupDocs.
 weight: 17
 url: /net/delete-operations/delete-text-signature/
 ---
+
+# Delete Text Signature
+
 ## Introduction
 GroupDocs.Signature for .NET is a powerful library that enables developers to seamlessly integrate electronic signature functionality into their .NET applications. Whether you're building a document management system, a contract signing platform, or any other application that requires signature functionality, GroupDocs.Signature for .NET provides a comprehensive set of tools to simplify the process.
 ## Prerequisites

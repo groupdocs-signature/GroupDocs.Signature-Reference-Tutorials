@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki QR kodların
 weight: 12
 url: /tr/net/verify-operations/verify-qr-code/
 ---
+
+# QR Kodunu Doğrulayın
+
 ## giriiş
 Belge yönetimi ve kimlik doğrulama alanında imzaların bütünlüğünün ve geçerliliğinin sağlanması çok önemlidir. GroupDocs.Signature for .NET, belgelere gömülü QR kodlarını doğrulamak için kapsamlı bir çözüm sunar. Bu öğreticide, GroupDocs.Signature for .NET'i kullanarak QR kodlarını doğrulama sürecini adım adım ele alacağız.
 ## Önkoşullar

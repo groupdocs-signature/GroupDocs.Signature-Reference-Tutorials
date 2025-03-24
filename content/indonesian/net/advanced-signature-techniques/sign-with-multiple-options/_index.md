@@ -6,6 +6,9 @@ description: Pelajari cara menandatangani dokumen dengan beberapa opsi menggunak
 weight: 14
 url: /id/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# Menandatangani dengan Banyak Pilihan
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menandatangani dokumen menggunakan beberapa opsi tanda tangan menggunakan perpustakaan GroupDocs.Signature untuk .NET. Menandatangani dokumen dengan berbagai opsi seperti tanda tangan teks, kode batang, kode QR, digital, gambar, dan metadata dapat memberikan keserbagunaan dan meningkatkan keamanan dokumen.
 ## Prasyarat

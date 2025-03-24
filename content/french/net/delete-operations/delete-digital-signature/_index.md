@@ -6,6 +6,9 @@ description: Découvrez comment supprimer les signatures numériques des documen
 weight: 13
 url: /fr/net/delete-operations/delete-digital-signature/
 ---
+
+# Supprimer la signature numérique du document
+
 ## Introduction
 Dans le monde des documents numériques, garantir l’authenticité et la sécurité est primordial. Les signatures numériques jouent un rôle crucial dans la vérification de l'intégrité des documents électroniques. GroupDocs.Signature for .NET offre des outils puissants pour gérer efficacement les signatures numériques au sein des applications .NET.
 ## Conditions préalables

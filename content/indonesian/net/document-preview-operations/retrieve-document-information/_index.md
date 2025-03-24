@@ -6,6 +6,9 @@ description: Tingkatkan manajemen dokumen di .NET dengan GroupDocs.Signature. Am
 weight: 11
 url: /id/net/document-preview-operations/retrieve-document-information/
 ---
+
+# Ambil Informasi Dokumen
+
 ## Perkenalan
 Dalam bidang dokumentasi digital, memastikan keaslian dan integritas adalah hal yang terpenting. GroupDocs.Signature untuk .NET memberikan solusi tangguh untuk mengelola tanda tangan dokumen dalam lingkungan .NET. Dalam tutorial ini, kami mempelajari proses mengambil informasi dokumen menggunakan GroupDocs.Signature untuk .NET, menguraikan setiap langkah untuk pemahaman yang komprehensif.
 ## Prasyarat

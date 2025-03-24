@@ -6,6 +6,9 @@ description: Découvrez comment signer numériquement des documents dans .NET à
 weight: 12
 url: /fr/net/advanced-signature-techniques/sign-with-digital/
 ---
+
+# Signature avec signature numérique
+
 ## Introduction
 Les signatures numériques jouent un rôle crucial pour garantir l'authenticité et l'intégrité des documents électroniques. Dans le domaine du développement .NET, GroupDocs.Signature offre une solution puissante pour intégrer de manière transparente les signatures numériques dans vos applications. Ce didacticiel vous guidera tout au long du processus de signature d'un document à l'aide d'une signature numérique avec GroupDocs.Signature pour .NET.
 ## Conditions préalables

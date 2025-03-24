@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 从文档中删除�
 weight: 14
 url: /zh/net/delete-operations/delete-image-signature/
 ---
+
+# 删除图像签名
+
 ## 介绍
 在本教程中，我们将探讨如何使用 GroupDocs.Signature for .NET 从文档中删除图像签名。GroupDocs.Signature 是一个功能强大的库，允许开发人员处理各种文档格式中的数字签名、印章和表单字段。
 ## 先决条件

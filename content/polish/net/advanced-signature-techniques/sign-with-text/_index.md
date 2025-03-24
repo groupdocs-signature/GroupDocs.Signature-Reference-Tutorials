@@ -6,6 +6,9 @@ description: Dowiedz się, jak podpisywać dokumenty tekstem za pomocą GroupDoc
 weight: 17
 url: /pl/net/advanced-signature-techniques/sign-with-text/
 ---
+
+# Podpisywanie tekstowe przy użyciu GroupDocs.Signature dla .NET
+
 ## Wstęp
 W epoce cyfrowej podpisywanie dokumentów drogą elektroniczną stało się standardową praktyką, oszczędzając czas i zasoby. GroupDocs.Signature dla .NET oferuje kompleksowe rozwiązanie do programowego dodawania podpisów tekstowych do różnych formatów dokumentów. W tym samouczku przeprowadzimy Cię przez proces podpisywania dokumentu tekstem przy użyciu programu GroupDocs.Signature for .NET.
 ## Warunki wstępne

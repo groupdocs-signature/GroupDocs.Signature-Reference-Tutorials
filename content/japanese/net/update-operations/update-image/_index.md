@@ -6,6 +6,9 @@ description: GroupDocs.Signature を使用して、.NET ドキュメント内の
 weight: 11
 url: /ja/net/update-operations/update-image/
 ---
+
+# 画像を更新
+
 ## 導入
 文書管理と認証の分野では、デジタル署名は電子文書の完全性と信頼性を保証する上で極めて重要な役割を果たします。 GroupDocs.Signature for .NET は、開発者が署名機能を .NET アプリケーションにシームレスに組み込むための堅牢なソリューションを提供します。さまざまな機能の中でも、ドキュメント内の画像署名の更新は重要な機能です。
 ## 前提条件

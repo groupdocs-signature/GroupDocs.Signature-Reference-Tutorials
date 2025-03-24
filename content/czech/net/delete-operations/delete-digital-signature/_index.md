@@ -6,6 +6,9 @@ description: Přečtěte si, jak odstranit digitální podpisy z dokumentů pomo
 weight: 13
 url: /cs/net/delete-operations/delete-digital-signature/
 ---
+
+# Odstranit digitální podpis z dokumentu
+
 ## Úvod
 Ve světě digitálních dokumentů je zajištění pravosti a bezpečnosti prvořadé. Digitální podpisy hrají klíčovou roli při ověřování integrity elektronických dokumentů. GroupDocs.Signature for .NET nabízí výkonné nástroje pro efektivní správu digitálních podpisů v aplikacích .NET.
 ## Předpoklady

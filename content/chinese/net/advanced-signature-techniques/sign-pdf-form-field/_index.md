@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 通过表单字段�
 weight: 10
 url: /zh/net/advanced-signature-techniques/sign-pdf-form-field/
 ---
+
+# 使用表单字段签署 PDF
+
 ## 介绍
 数字签名提供了一种安全且具有法律约束力的电子签名方式，确保其真实性和完整性。在本教程中，我们将学习如何使用 GroupDocs.Signature for .NET 库对包含表单字段的 PDF 文档进行签名。
 ## 先决条件

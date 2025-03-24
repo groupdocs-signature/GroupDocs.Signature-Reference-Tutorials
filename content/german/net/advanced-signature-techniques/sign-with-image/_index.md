@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit Groupdocs.Signature für .NET Dokumente m
 weight: 13
 url: /de/net/advanced-signature-techniques/sign-with-image/
 ---
+
+# Signieren von Dokumenten mit Bildern mithilfe von GroupDocs.Signature
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Groupdocs.Signature für .NET Dokumente mithilfe von Bildern signieren. Das Signieren von Dokumenten verleiht Ihren Dateien eine zusätzliche Ebene der Authentizität und Sicherheit und macht sie manipulationssicher und rechtsverbindlich. Mithilfe von Groupdocs.Signature für .NET können Sie die Funktionalität zum Signieren von Dokumenten nahtlos in Ihre .NET-Anwendungen integrieren.
 ## Voraussetzungen

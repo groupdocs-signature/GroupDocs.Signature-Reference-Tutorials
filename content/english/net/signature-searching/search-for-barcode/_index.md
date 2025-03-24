@@ -6,6 +6,9 @@ description: Learn how to search for barcode signatures in documents using Group
 weight: 10
 url: /net/signature-searching/search-for-barcode/
 ---
+
+# Search for Barcode
+
 ## Introduction
 GroupDocs.Signature for .NET is a powerful tool for adding and verifying digital signatures in various document formats using .NET applications. In this tutorial, we'll focus on how to search for barcode signatures within a document using GroupDocs.Signature for .NET.
 ## Prerequisites

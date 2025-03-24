@@ -6,6 +6,9 @@ description: Odstraňte podpisy, čárové kódy a další z dokumentů .NET pom
 weight: 20
 url: /cs/net/delete-operations/
 ---
+
+# Smazat operace
+
 ## Úvod
 
 Chcete zefektivnit proces správy dokumentů v aplikacích .NET? Pomocí GroupDocs.Signature můžete efektivně odstraňovat různé typy podpisů, včetně čárových kódů, digitálních podpisů, obrazových podpisů, textových podpisů a dalších. Ponořte se do našich výukových programů níže a zjistěte, jak bezproblémově provádět operace odstranění.

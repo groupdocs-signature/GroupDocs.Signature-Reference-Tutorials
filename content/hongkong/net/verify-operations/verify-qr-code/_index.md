@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 驗證文件中的 
 weight: 12
 url: /zh-hant/net/verify-operations/verify-qr-code/
 ---
+
+# 驗證二維碼
+
 ## 介紹
 在文件管理和身份驗證領域，確保簽名的完整性和有效性至關重要。 GroupDocs.Signature for .NET 提供了驗證文件中嵌入的 QR 程式碼的全面解決方案。在本教程中，我們將深入研究使用 GroupDocs.Signature for .NET 驗證 QR 碼的逐步流程。
 ## 先決條件
