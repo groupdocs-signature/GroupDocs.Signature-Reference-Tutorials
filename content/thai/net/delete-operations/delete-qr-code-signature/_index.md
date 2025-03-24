@@ -3,7 +3,6 @@ title: ลบลายเซ็น QR Code จากเอกสาร
 linktitle: ลบลายเซ็น QR Code จากเอกสาร
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีลบลายเซ็นโค้ด QR ออกจากเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการลายเซ็นที่มีประสิทธิภาพ
-type: docs
 weight: 16
 url: /th/net/delete-operations/delete-qr-code-signature/
 ---

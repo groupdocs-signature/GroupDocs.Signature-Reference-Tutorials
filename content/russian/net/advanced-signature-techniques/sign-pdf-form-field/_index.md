@@ -3,7 +3,6 @@ title: Подписание PDF с помощью поля формы
 linktitle: Подписание PDF с помощью поля формы
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как подписывать PDF-документы с полями формы с помощью GroupDocs.Signature для .NET. Обеспечьте подлинность и целостность документа без особых усилий.
-type: docs
 weight: 10
 url: /ru/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

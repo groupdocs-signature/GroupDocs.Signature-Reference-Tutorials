@@ -3,7 +3,6 @@ title: Excluir assinatura por ID
 linktitle: Excluir assinatura por ID
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como excluir uma assinatura por ID em documentos .NET usando a biblioteca GroupDocs.Signature. Guia passo a passo fácil.
-type: docs
 weight: 11
 url: /pt/net/delete-operations/delete-signature-by-id/
 ---

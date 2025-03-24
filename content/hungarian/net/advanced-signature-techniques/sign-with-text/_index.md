@@ -3,7 +3,6 @@ title: Aláírás szöveggel a GroupDocs.Signature for .NET használatával
 linktitle: Aláírás szöveggel
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan írhat alá dokumentumokat szöveggel a GroupDocs.Signature for .NET használatával. Lépésről lépésre szóló útmutató szöveges aláírások programozott hozzáadásához.
-type: docs
 weight: 17
 url: /hu/net/advanced-signature-techniques/sign-with-text/
 ---

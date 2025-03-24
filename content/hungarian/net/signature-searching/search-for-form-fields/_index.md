@@ -3,7 +3,6 @@ title: Űrlapmezők keresése
 linktitle: Űrlapmezők keresése
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan integrálhatja az aláírási funkciókat .NET-alkalmazásaiba a GroupDocs.Signature for .NET segítségével. Kövesse lépésről lépésre a zökkenőmentes dokumentumkezeléshez.
-type: docs
 weight: 12
 url: /hu/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ A GroupDocs.Signature for .NET egy hatékony eszköz a fejlesztők számára, am
 Mielőtt belevágna a GroupDocs.Signature for .NET használatába, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 1. Visual Studio: Telepítse a Visual Studio-t a fejlesztőgépére.
 2.  GroupDocs.Signature for .NET: Töltse le és telepítse a GroupDocs.Signature for .NET könyvtárat innen[itt](https://releases.groupdocs.com/signature/net/).
-3.  Hozzáférés a dokumentációhoz: Ismerkedjen meg a következő címen elérhető dokumentációval[GroupDocs.Ssignature for .NET Documentation](https://reference.groupdocs.com/signature/net/).
+3.  Hozzáférés a dokumentációhoz: Ismerkedjen meg a következő címen elérhető dokumentációval[GroupDocs.Ssignature for .NET Documentation](https://tutorials.groupdocs.com/signature/net/).
 4.  Hozzáférés a támogatáshoz: Bármilyen probléma vagy kérdés esetén keresse fel a támogatási fórumot a címen[GroupDocs.Signature Forum](https://forum.groupdocs.com/c/signature/13).
 
 ## Névterek importálása
@@ -63,6 +62,6 @@ Igen, a GroupDocs.Signature for .NET a dokumentumformátumok széles skáláját
 ### Hogyan szerezhetek ideiglenes licenceket a GroupDocs.Signature for .NET számára?
  Ideiglenes engedélyek szerezhetők be[itt](https://purchase.groupdocs.com/temporary-license/).
 ### Hol találom a GroupDocs.Signature for .NET részletes dokumentációját?
- A részletes dokumentáció elérhető[itt](https://reference.groupdocs.com/signature/net/).
+ A részletes dokumentáció elérhető[itt](https://tutorials.groupdocs.com/signature/net/).
 ### A GroupDocs.Signature for .NET támogatja a fejlesztőket?
  Igen, elérheti a fejlesztői támogatást a következőn keresztül[GroupDocs.Signature Forum](https://forum.groupdocs.com/c/signature/13).

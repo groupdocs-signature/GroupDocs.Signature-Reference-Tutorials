@@ -3,7 +3,6 @@ title: Ověřte digitální podpis
 linktitle: Ověřte digitální podpis
 second_title: GroupDocs.Signature .NET API
 description: Snadno ověřte digitální podpisy v .NET pomocí GroupDocs.Signature. Zajistěte bez námahy pravost a integritu dokumentu.
-type: docs
 weight: 11
 url: /cs/net/verify-operations/verify-digital/
 ---

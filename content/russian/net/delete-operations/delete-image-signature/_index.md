@@ -3,7 +3,6 @@ title: Удалить подпись изображения
 linktitle: Удалить подпись изображения
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как удалять подписи изображений из документов с помощью GroupDocs.Signature для .NET. Следуйте нашему пошаговому руководству для эффективного управления подписями.
-type: docs
 weight: 14
 url: /ru/net/delete-operations/delete-image-signature/
 ---

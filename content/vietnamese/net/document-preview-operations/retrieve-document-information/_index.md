@@ -3,7 +3,6 @@ title: Truy xuất thông tin tài liệu
 linktitle: Truy xuất thông tin tài liệu
 second_title: API GroupDocs.Signature .NET
 description: Tăng cường quản lý tài liệu trong .NET với GroupDocs.Signature. Truy xuất thông tin tài liệu từng bước. Hỗ trợ các định dạng khác nhau.
-type: docs
 weight: 11
 url: /vi/net/document-preview-operations/retrieve-document-information/
 ---
@@ -75,6 +74,6 @@ Có, GroupDocs.Signature hỗ trợ nhiều định dạng tài liệu, bao gồ
 ### GroupDocs.Signature cho .NET có hỗ trợ chữ ký số không?
 Hoàn toàn có thể, GroupDocs.Signature cung cấp sự hỗ trợ mạnh mẽ cho chữ ký số, đảm bảo tính xác thực và toàn vẹn của tài liệu.
 ### Tôi có thể tìm tài liệu bổ sung và hỗ trợ cho GroupDocs.Signature cho .NET ở đâu?
- Bạn có thể tham khảo tài liệu đầy đủ[đây](https://reference.groupdocs.com/signature/net/) và để được hỗ trợ, hãy truy cập diễn đàn GroupDocs[đây](https://forum.groupdocs.com/c/signature/13).
+ Bạn có thể tham khảo tài liệu đầy đủ[đây](https://tutorials.groupdocs.com/signature/net/) và để được hỗ trợ, hãy truy cập diễn đàn GroupDocs[đây](https://forum.groupdocs.com/c/signature/13).
 ### Có thể lấy giấy phép tạm thời cho GroupDocs.Signature cho .NET không?
  Có, giấy phép tạm thời có sẵn để mua[đây](https://purchase.groupdocs.com/temporary-license/).

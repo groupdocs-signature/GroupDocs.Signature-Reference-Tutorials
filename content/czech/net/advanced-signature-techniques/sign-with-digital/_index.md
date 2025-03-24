@@ -3,7 +3,6 @@ title: Podepisování digitálním podpisem
 linktitle: Podepisování digitálním podpisem
 second_title: GroupDocs.Signature .NET API
 description: Naučte se, jak digitálně podepisovat dokumenty v .NET pomocí GroupDocs.Signature. Zvyšte bezpečnost a autenticitu pomocí tohoto komplexního návodu.
-type: docs
 weight: 12
 url: /cs/net/advanced-signature-techniques/sign-with-digital/
 ---

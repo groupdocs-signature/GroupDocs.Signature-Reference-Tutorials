@@ -3,7 +3,6 @@ title: Aláírja a képet metaadatokkal
 linktitle: Aláírja a képet metaadatokkal
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan írhat alá képeket metaadatokkal a .NET-ben a GroupDocs.Signature használatával. Egyszerű, hatékony és testreszabható metaadat-aláírási megoldás.
-type: docs
 weight: 10
 url: /hu/net/document-signing/sign-image-with-metadata/
 ---

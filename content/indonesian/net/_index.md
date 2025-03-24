@@ -1,7 +1,6 @@
 ---
 title: Tutorial dan Contoh GroupDocs.Signature untuk .NET
 linktitle: GroupDocs.Signature untuk Tutorial .NET
-type: docs
 weight: 10
 url: /id/net/
 description: Buka kunci manajemen dokumen yang efisien dengan tutorial GroupDocs.Signature untuk .NET. Hapus, pratinjau, ekstrak metadata, tandatangani, perbarui, dan verifikasi dokumen dengan lancar.

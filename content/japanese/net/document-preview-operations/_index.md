@@ -3,7 +3,6 @@ title: ドキュメントのプレビュー操作
 linktitle: ドキュメントのプレビュー操作
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET チュートリアルを使用してドキュメント管理を合理化する方法を学びます。タスクを簡素化し、ワークフローを強化し、生産性を簡単に向上させます。
-type: docs
 weight: 21
 url: /ja/net/document-preview-operations/
 ---

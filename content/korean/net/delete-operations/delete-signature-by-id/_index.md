@@ -3,7 +3,6 @@ title: ID별 서명 삭제
 linktitle: ID별 서명 삭제
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature 라이브러리를 사용하여 .NET 문서에서 ID별로 서명을 삭제하는 방법을 알아보세요. 쉬운 단계별 가이드.
-type: docs
 weight: 11
 url: /ko/net/delete-operations/delete-signature-by-id/
 ---

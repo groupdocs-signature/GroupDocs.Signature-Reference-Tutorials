@@ -3,7 +3,6 @@ title: Táblázat-metaadat-kinyerés keresése
 linktitle: Táblázat-metaadat-kinyerés keresése
 second_title: GroupDocs.Signature .NET API
 description: Hatékonyan kivonhatja a metaadatokat táblázatokból a GroupDocs.Signature for .NET segítségével. Fokozza a dokumentumkezelést és -elemzést könnyedén.
-type: docs
 weight: 13
 url: /hu/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ dokumentumkezelés és -ellenőrzés területén a metaadatok hatékony kinyeré
 ## Előfeltételek
 Mielőtt belemerülne a táblázatok metaadataiban való keresés bonyolultságába a GroupDocs.Signature for .NET használatával, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 ### 1. A GroupDocs.Signature telepítése .NET-hez
- Mindenekelőtt töltse le és telepítse a GroupDocs.Signature for .NET fájlt a[dokumentáció](https://reference.groupdocs.com/signature/net/). Ez a lépés kulcsfontosságú a könyvtár .NET-környezetébe való zökkenőmentes integrálásához.
+ Mindenekelőtt töltse le és telepítse a GroupDocs.Signature for .NET fájlt a[dokumentáció](https://tutorials.groupdocs.com/signature/net/). Ez a lépés kulcsfontosságú a könyvtár .NET-környezetébe való zökkenőmentes integrálásához.
 ### 2. Hozzáférés a Minta Táblázathoz
 Készítsen egy mintatáblázatot (pl.`sample.xlsx`), amely a kivonni kívánt metaadatokat tartalmazza. Győződjön meg arról, hogy a táblázat elérhető a fejlesztői környezetben.
 

@@ -3,7 +3,6 @@ title: Ký bằng Stamp bằng GroupDocs.Signature
 linktitle: Ký bằng tem
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách thêm chữ ký đóng dấu vào tài liệu .NET của bạn một cách dễ dàng với GroupDocs.Signature cho .NET. Tăng cường bảo mật tài liệu.
-type: docs
 weight: 16
 url: /vi/net/advanced-signature-techniques/sign-with-stamp/
 ---

@@ -3,7 +3,6 @@ title: Επαλήθευση λειτουργιών
 linktitle: Επαλήθευση λειτουργιών
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να επαληθεύετε γραμμικούς κώδικες, ψηφιακές υπογραφές, κωδικούς QR και κείμενο σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature .NET. Βήμα προς βήμα σεμινάρια για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 27
 url: /el/net/verify-operations/
 ---

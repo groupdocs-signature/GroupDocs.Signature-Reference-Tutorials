@@ -3,7 +3,6 @@ title: Просмотр истории обработки документов
 linktitle: Просмотр истории обработки документов
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как легко просмотреть историю обработки документов с помощью GroupDocs.Signature для .NET. Следуйте нашему пошаговому руководству для эффективного управления рабочим процессом.
-type: docs
 weight: 12
 url: /ru/net/document-preview-operations/view-document-processing-history/
 ---

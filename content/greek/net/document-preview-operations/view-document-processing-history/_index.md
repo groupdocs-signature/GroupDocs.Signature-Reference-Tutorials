@@ -3,7 +3,6 @@ title: Προβολή ιστορικού επεξεργασίας εγγράφω
 linktitle: Προβολή ιστορικού επεξεργασίας εγγράφων
 second_title: GroupDocs.Signature .NET API
 description: Ανακαλύψτε πώς μπορείτε να προβάλλετε αβίαστα το ιστορικό επεξεργασίας εγγράφων χρησιμοποιώντας το GroupDocs.Signature για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη διαχείριση ροής εργασιών.
-type: docs
 weight: 12
 url: /el/net/document-preview-operations/view-document-processing-history/
 ---

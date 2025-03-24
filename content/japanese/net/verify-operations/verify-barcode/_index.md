@@ -3,7 +3,6 @@ title: バーコードの検証
 linktitle: バーコードの検証
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してドキュメント内のバーコードを検証する方法を学びます。シームレスな実装については、段階的なチュートリアルに従ってください。
-type: docs
 weight: 10
 url: /ja/net/verify-operations/verify-barcode/
 ---

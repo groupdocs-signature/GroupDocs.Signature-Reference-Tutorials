@@ -3,7 +3,6 @@ title: التوقيع باستخدام الباركود
 linktitle: التوقيع باستخدام الباركود
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية توقيع المستندات باستخدام الرمز الشريطي باستخدام GroupDocs.Signature لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 11
 url: /ar/net/advanced-signature-techniques/sign-with-barcode/
 ---

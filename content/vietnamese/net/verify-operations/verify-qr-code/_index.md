@@ -3,7 +3,6 @@ title: Xác minh mã QR
 linktitle: Xác minh mã QR
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách xác minh mã QR trong tài liệu bằng GroupDocs.Signature cho .NET. Hướng dẫn toàn diện với hướng dẫn từng bước.
-type: docs
 weight: 12
 url: /vi/net/verify-operations/verify-qr-code/
 ---
@@ -79,4 +78,4 @@ Có, GroupDocs.Signature for .NET hỗ trợ nhiều định dạng tài liệu 
 ### Tôi có thể mua giấy phép tạm thời cho GroupDocs.Signature cho .NET không?
  Có, giấy phép tạm thời có sẵn để mua từ[Trang mua GroupDocs](https://purchase.groupdocs.com/temporary-license/).
 ### Có sẵn tài liệu mở rộng về GroupDocs.Signature cho .NET không?
- Hoàn toàn có thể tham khảo tài liệu chi tiết được cung cấp[đây](https://reference.groupdocs.com/signature/net/) để có hướng dẫn toàn diện về cách sử dụng các chức năng của GroupDocs.Signature cho .NET.
+ Hoàn toàn có thể tham khảo tài liệu chi tiết được cung cấp[đây](https://tutorials.groupdocs.com/signature/net/) để có hướng dẫn toàn diện về cách sử dụng các chức năng của GroupDocs.Signature cho .NET.

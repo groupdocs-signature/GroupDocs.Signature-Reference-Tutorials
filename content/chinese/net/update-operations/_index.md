@@ -3,7 +3,6 @@ title: 更新操作
 linktitle: 更新操作
 second_title: GroupDocs.Signature .NET API
 description: 使用 GroupDocs.Signature for .NET 教程更新 .NET 文档中的条形码、图像、QR 码和文本签名。加强文档安全和管理。
-type: docs
 weight: 26
 url: /zh/net/update-operations/
 ---

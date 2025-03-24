@@ -3,7 +3,6 @@ title: Ekstraksi Metadata Spreadsheet Pencarian
 linktitle: Ekstraksi Metadata Spreadsheet Pencarian
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Ekstrak metadata dari spreadsheet secara efisien menggunakan GroupDocs.Signature untuk .NET. Tingkatkan manajemen dan analisis dokumen dengan mudah.
-type: docs
 weight: 13
 url: /id/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ Dalam bidang manajemen dan verifikasi dokumen, kemampuan mengekstrak metadata da
 ## Prasyarat
 Sebelum mendalami seluk-beluk pencarian metadata spreadsheet menggunakan GroupDocs.Signature untuk .NET, pastikan Anda memiliki prasyarat berikut:
 ### 1. Instalasi GroupDocs.Signature untuk .NET
- Pertama dan terpenting, unduh dan instal GroupDocs.Signature untuk .NET dengan mengikuti instruksi yang disediakan di[dokumentasi](https://reference.groupdocs.com/signature/net/). Langkah ini penting untuk mengintegrasikan perpustakaan ke dalam lingkungan .NET Anda dengan lancar.
+ Pertama dan terpenting, unduh dan instal GroupDocs.Signature untuk .NET dengan mengikuti instruksi yang disediakan di[dokumentasi](https://tutorials.groupdocs.com/signature/net/). Langkah ini penting untuk mengintegrasikan perpustakaan ke dalam lingkungan .NET Anda dengan lancar.
 ### 2. Akses ke Contoh Spreadsheet
 Siapkan contoh spreadsheet (misalnya,`sample.xlsx`) yang berisi metadata yang ingin Anda ekstrak. Pastikan spreadsheet dapat diakses dalam lingkungan pengembangan Anda.
 

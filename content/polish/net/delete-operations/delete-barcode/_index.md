@@ -3,7 +3,6 @@ title: Usuń kod kreskowy z dokumentu
 linktitle: Usuń kod kreskowy z dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak usunąć kod kreskowy z dokumentu za pomocą GroupDocs.Signature for .NET. Przewodnik krok po kroku z przykładami kodu.
-type: docs
 weight: 10
 url: /pl/net/delete-operations/delete-barcode/
 ---

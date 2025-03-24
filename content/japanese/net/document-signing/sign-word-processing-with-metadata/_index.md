@@ -3,7 +3,6 @@ title: メタデータを使用したサインワード処理
 linktitle: メタデータを使用したサインワード処理
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用して、ワード プロセッサ ドキュメントにメタデータで署名する方法を学びます。ドキュメントの信頼性と追跡可能性を強化します。
-type: docs
 weight: 14
 url: /ja/net/document-signing/sign-word-processing-with-metadata/
 ---

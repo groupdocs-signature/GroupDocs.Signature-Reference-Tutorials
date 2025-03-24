@@ -3,7 +3,6 @@ title: Firmar procesamiento de textos con metadatos
 linktitle: Firmar procesamiento de textos con metadatos
 second_title: API GroupDocs.Signature .NET
 description: Aprenda a firmar documentos de procesamiento de textos con metadatos usando GroupDocs.Signature para .NET. Mejore la autenticidad y trazabilidad de los documentos.
-type: docs
 weight: 14
 url: /es/net/document-signing/sign-word-processing-with-metadata/
 ---

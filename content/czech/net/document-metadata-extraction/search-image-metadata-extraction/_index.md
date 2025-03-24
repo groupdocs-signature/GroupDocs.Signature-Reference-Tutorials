@@ -3,7 +3,6 @@ title: Prohledejte extrakci metadat obrázku pomocí GroupDocs.Signature
 linktitle: Prohledejte extrakci metadat obrázku
 second_title: GroupDocs.Signature .NET API
 description: Naučte se vyhledávat podpisy metadat obrázků v dokumentech pomocí GroupDocs.Signature for .NET. Vylepšete integritu a autenticitu dokumentu bez námahy.
-type: docs
 weight: 10
 url: /cs/net/document-metadata-extraction/search-image-metadata-extraction/
 ---

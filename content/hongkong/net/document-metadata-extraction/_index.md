@@ -3,7 +3,6 @@ title: 文件元資料擷取
 linktitle: 文件元資料擷取
 second_title: GroupDocs.Signature .NET API
 description: 使用 GroupDocs.Signature for .NET 釋放元資料擷取的強大功能。了解輕鬆搜尋和提取文件元資料以增強管理。
-type: docs
 weight: 22
 url: /zh-hant/net/document-metadata-extraction/
 ---

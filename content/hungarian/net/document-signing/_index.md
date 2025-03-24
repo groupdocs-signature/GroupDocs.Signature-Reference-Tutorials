@@ -3,7 +3,6 @@ title: Dokumentum aláírása
 linktitle: Dokumentum aláírása
 second_title: GroupDocs.Signature .NET API
 description: A GroupDocs.Signature .NET segítségével aláírhat képeket, PDF-eket, prezentációkat, táblázatokat és Word-dokumentumokat metaadatokkal. Növelje a dokumentumok hitelességét és integritását.
-type: docs
 weight: 24
 url: /hu/net/document-signing/
 ---

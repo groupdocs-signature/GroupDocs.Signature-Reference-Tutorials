@@ -3,7 +3,6 @@ title: İmza Arama
 linktitle: İmza Arama
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET eğitimleriyle .NET belgelerinde imza aramayı öğrenin. Barkod, dijital, resim, metin ve QR kodu aramalarıyla güvenliği artırın.
-type: docs
 weight: 23
 url: /tr/net/signature-searching/
 ---

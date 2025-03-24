@@ -3,7 +3,6 @@ title: Usuń operacje
 linktitle: Usuń operacje
 second_title: GroupDocs.Signature .NET API
 description: Usuń podpisy, kody kreskowe i inne dane z dokumentów .NET za pomocą GroupDocs.Signature. Już teraz zapoznaj się z samouczkami dotyczącymi wydajnego zarządzania dokumentami!
-type: docs
 weight: 20
 url: /pl/net/delete-operations/
 ---

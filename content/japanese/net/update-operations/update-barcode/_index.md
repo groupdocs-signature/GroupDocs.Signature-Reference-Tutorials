@@ -3,7 +3,6 @@ title: バーコードを更新する
 linktitle: バーコードを更新する
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してドキュメント内のバーコード署名を更新する方法を学びます。シームレスな統合のためのステップバイステップのガイド。
-type: docs
 weight: 10
 url: /ja/net/update-operations/update-barcode/
 ---

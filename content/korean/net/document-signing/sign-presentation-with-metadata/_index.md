@@ -3,7 +3,6 @@ title: 메타데이터로 프레젠테이션에 서명
 linktitle: 메타데이터로 프레젠테이션에 서명
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 메타데이터로 프레젠테이션 파일에 서명하는 방법을 알아보세요. 문서 무결성을 강화하고 귀중한 정보를 추가하세요.
-type: docs
 weight: 12
 url: /ko/net/document-signing/sign-presentation-with-metadata/
 ---

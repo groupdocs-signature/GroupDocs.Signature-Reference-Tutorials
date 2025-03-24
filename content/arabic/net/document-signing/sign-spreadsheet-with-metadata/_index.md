@@ -3,7 +3,6 @@ title: قم بتوقيع جدول البيانات بالبيانات الوصف
 linktitle: قم بتوقيع جدول البيانات بالبيانات الوصفية
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية توقيع جداول البيانات باستخدام بيانات التعريف باستخدام Groupdocs.Signature لـ .NET. تعزيز سلامة المستندات والتحقق منها باستخدام توقيعات البيانات التعريفية.
-type: docs
 weight: 13
 url: /ar/net/document-signing/sign-spreadsheet-with-metadata/
 ---

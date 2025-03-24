@@ -3,7 +3,6 @@ title: Aggiorna codice a barre
 linktitle: Aggiorna codice a barre
 second_title: API GroupDocs.Signature .NET
 description: Scopri come aggiornare le firme dei codici a barre nei documenti utilizzando GroupDocs.Signature per .NET. Guida passo passo per un'integrazione perfetta.
-type: docs
 weight: 10
 url: /it/net/update-operations/update-barcode/
 ---

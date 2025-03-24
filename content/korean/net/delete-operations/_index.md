@@ -3,7 +3,6 @@ title: 삭제 작업
 linktitle: 삭제 작업
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature를 사용하여 .NET 문서에서 서명, 바코드 등을 삭제하세요. 지금 효율적인 문서 관리를 위한 튜토리얼을 살펴보세요!
-type: docs
 weight: 20
 url: /ko/net/delete-operations/
 ---

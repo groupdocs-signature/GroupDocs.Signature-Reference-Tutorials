@@ -3,7 +3,6 @@ title: Извлечение метаданных презентации поис
 linktitle: Извлечение метаданных презентации поиска
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как извлечь метаданные презентации с помощью GroupDocs.Signature для .NET. Расширьте свои возможности управления документами без особых усилий.
-type: docs
 weight: 12
 url: /ru/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

@@ -3,7 +3,6 @@ title: Signer le traitement de texte avec des métadonnées
 linktitle: Signer le traitement de texte avec des métadonnées
 second_title: API GroupDocs.Signature .NET
 description: Découvrez comment signer des documents de traitement de texte avec des métadonnées à l'aide de GroupDocs.Signature pour .NET. Améliorez l’authenticité et la traçabilité des documents.
-type: docs
 weight: 14
 url: /fr/net/document-signing/sign-word-processing-with-metadata/
 ---

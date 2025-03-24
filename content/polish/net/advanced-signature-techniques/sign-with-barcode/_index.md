@@ -3,7 +3,6 @@ title: Podpisywanie kodem kreskowym
 linktitle: Podpisywanie kodem kreskowym
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak podpisywać dokumenty kodem kreskowym przy użyciu GroupDocs.Signature for .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 11
 url: /pl/net/advanced-signature-techniques/sign-with-barcode/
 ---

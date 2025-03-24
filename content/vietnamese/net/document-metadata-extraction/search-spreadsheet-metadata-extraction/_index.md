@@ -3,7 +3,6 @@ title: Tìm kiếm trích xuất siêu dữ liệu bảng tính
 linktitle: Tìm kiếm trích xuất siêu dữ liệu bảng tính
 second_title: API GroupDocs.Signature .NET
 description: Trích xuất siêu dữ liệu từ bảng tính một cách hiệu quả bằng GroupDocs.Signature cho .NET. Tăng cường quản lý và phân tích tài liệu một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ Trong lĩnh vực quản lý và xác minh tài liệu, khả năng trích xuấ
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào sự phức tạp của việc tìm kiếm siêu dữ liệu bảng tính bằng GroupDocs.Signature cho .NET, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 ### 1. Cài đặt GroupDocs.Signature cho .NET
- Trước hết, hãy tải xuống và cài đặt GroupDocs.Signature cho .NET bằng cách làm theo hướng dẫn được cung cấp trong[tài liệu](https://reference.groupdocs.com/signature/net/). Bước này rất quan trọng để tích hợp thư viện vào môi trường .NET của bạn một cách liền mạch.
+ Trước hết, hãy tải xuống và cài đặt GroupDocs.Signature cho .NET bằng cách làm theo hướng dẫn được cung cấp trong[tài liệu](https://tutorials.groupdocs.com/signature/net/). Bước này rất quan trọng để tích hợp thư viện vào môi trường .NET của bạn một cách liền mạch.
 ### 2. Truy cập vào Bảng tính mẫu
 Chuẩn bị một bảng tính mẫu (ví dụ:`sample.xlsx`) có chứa siêu dữ liệu bạn muốn trích xuất. Đảm bảo rằng bảng tính có thể truy cập được trong môi trường phát triển của bạn.
 

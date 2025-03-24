@@ -3,7 +3,6 @@ title: 搜尋圖片
 linktitle: 搜尋圖片
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 在文件中搜尋圖片。輕鬆增強文件的安全性和完整性。
-type: docs
 weight: 13
 url: /zh-hant/net/signature-searching/search-for-images/
 ---
@@ -69,4 +68,4 @@ foreach (ImageSignature imageSignature in signatures)
 ### 我可以自訂使用 GroupDocs.Signature for .NET 新增的數位簽章的外觀嗎？
 當然！ GroupDocs.Signature 提供廣泛的自訂選項，可讓您根據您的特定要求自訂數位簽章的外觀。
 ### 在哪裡可以找到 GroupDocs.Signature for .NET 的支援或其他資源？
-您可以造訪 GroupDocs.Signature 論壇：[這個連結](https://forum.groupdocs.com/c/signature/13)如需協助，或參閱可用的綜合文檔[這裡](https://reference.groupdocs.com/signature/net/).
+您可以造訪 GroupDocs.Signature 論壇：[這個連結](https://forum.groupdocs.com/c/signature/13)如需協助，或參閱可用的綜合文檔[這裡](https://tutorials.groupdocs.com/signature/net/).

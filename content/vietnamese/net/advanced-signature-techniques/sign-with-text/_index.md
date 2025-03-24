@@ -3,7 +3,6 @@ title: Ký bằng văn bản bằng GroupDocs.Signature cho .NET
 linktitle: Ký bằng văn bản
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách ký tài liệu bằng văn bản bằng GroupDocs.Signature cho .NET. Hướng dẫn từng bước để thêm chữ ký văn bản theo chương trình.
-type: docs
 weight: 17
 url: /vi/net/advanced-signature-techniques/sign-with-text/
 ---

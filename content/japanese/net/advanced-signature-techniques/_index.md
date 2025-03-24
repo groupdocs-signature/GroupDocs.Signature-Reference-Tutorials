@@ -3,7 +3,6 @@ title: 高度な署名技術
 linktitle: 高度な署名技術
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET チュートリアルで高度な署名テクニックを学習します。 PDF、画像、ドキュメントにバーコードやデジタルなどを使用してシームレスに署名します。
-type: docs
 weight: 25
 url: /ja/net/advanced-signature-techniques/
 ---

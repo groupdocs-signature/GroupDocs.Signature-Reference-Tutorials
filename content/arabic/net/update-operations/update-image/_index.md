@@ -3,7 +3,6 @@ title: تحديث الصورة
 linktitle: تحديث الصورة
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية تحديث توقيعات الصور في مستندات .NET بسهولة باستخدام GroupDocs.Signature. تعزيز أمان المستندات وسلامتها بسلاسة.
-type: docs
 weight: 11
 url: /ar/net/update-operations/update-image/
 ---

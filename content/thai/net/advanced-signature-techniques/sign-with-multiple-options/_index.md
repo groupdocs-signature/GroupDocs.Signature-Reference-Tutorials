@@ -3,7 +3,6 @@ title: การลงนามด้วยหลายตัวเลือก
 linktitle: การลงนามด้วยหลายตัวเลือก
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีเซ็นเอกสารด้วยหลายตัวเลือกโดยใช้ GroupDocs.Signature สำหรับ .NET เพิ่มความปลอดภัยให้กับเอกสารด้วยข้อความ บาร์โค้ด รหัส QR ดิจิทัล และรูปภาพ
-type: docs
 weight: 14
 url: /th/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

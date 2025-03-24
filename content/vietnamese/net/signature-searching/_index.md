@@ -3,7 +3,6 @@ title: Tìm kiếm chữ ký
 linktitle: Tìm kiếm chữ ký
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách tìm kiếm chữ ký trong tài liệu .NET với hướng dẫn GroupDocs.Signature for .NET. Tăng cường bảo mật với tìm kiếm mã vạch, kỹ thuật số, hình ảnh, văn bản và mã QR.
-type: docs
 weight: 23
 url: /vi/net/signature-searching/
 ---

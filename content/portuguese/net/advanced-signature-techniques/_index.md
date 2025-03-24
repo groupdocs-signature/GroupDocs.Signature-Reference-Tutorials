@@ -3,7 +3,6 @@ title: Técnicas Avançadas de Assinatura
 linktitle: Técnicas Avançadas de Assinatura
 second_title: API GroupDocs.Signature .NET
 description: Aprenda técnicas avançadas de assinatura com os tutoriais do GroupDocs.Signature for .NET. Assine PDFs, imagens e documentos perfeitamente com código de barras, digital e muito mais.
-type: docs
 weight: 25
 url: /pt/net/advanced-signature-techniques/
 ---

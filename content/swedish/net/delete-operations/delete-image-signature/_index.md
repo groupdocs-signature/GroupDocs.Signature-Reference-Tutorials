@@ -3,7 +3,6 @@ title: Ta bort bildsignatur
 linktitle: Ta bort bildsignatur
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du tar bort bildsignaturer från dokument med GroupDocs.Signature för .NET. Följ vår steg-för-steg-guide för effektiv signaturhantering.
-type: docs
 weight: 14
 url: /sv/net/delete-operations/delete-image-signature/
 ---

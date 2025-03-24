@@ -3,7 +3,6 @@ title: 搜索文字处理元数据提取
 linktitle: 搜索文字处理元数据提取
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 搜索文字处理元数据。轻松增强文档管理。
-type: docs
 weight: 14
 url: /zh/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
@@ -56,7 +55,7 @@ GroupDocs.Signature for .NET 提供了强大的解决方案，用于在文档中
 ### GroupDocs.Signature适合企业级文档管理吗？
 当然，GroupDocs.Signature 提供针对企业环境量身定制的强大功能，确保安全可靠的文档管理解决方案。
 ### GroupDocs.Signature 是否为开发人员提供全面的文档？
-是的，开发人员可以在以下位置找到详细的文档，包括 API 参考和代码示例[文档页](https://reference.groupdocs.com/signature/net/).
+是的，开发人员可以在以下位置找到详细的文档，包括 API 参考和代码示例[文档页](https://tutorials.groupdocs.com/signature/net/).
 ### 我可以在购买前试用 GroupDocs.Signature 吗？
 是的，感兴趣的用户可以免费试用 GroupDocs.Signature[网站](https://releases.groupdocs.com/).
 ### 我可以在哪里寻求 GroupDocs.Signature 的支持？

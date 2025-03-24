@@ -3,7 +3,6 @@ title: Ellenőrizze a QR-kódot
 linktitle: Ellenőrizze a QR-kódot
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan ellenőrizheti a QR-kódokat dokumentumokon belül a GroupDocs.Signature for .NET segítségével. Átfogó oktatóanyag lépésről lépésre.
-type: docs
 weight: 12
 url: /hu/net/verify-operations/verify-qr-code/
 ---
@@ -79,4 +78,4 @@ Igen, a GroupDocs.Signature for .NET a dokumentumformátumok széles skáláját
 ### Vásárolhatok ideiglenes licencet a GroupDocs.Signature for .NET számára?
  Igen, az ideiglenes licencek megvásárolhatók a[GroupDocs vásárlási oldal](https://purchase.groupdocs.com/temporary-license/).
 ### Elérhető-e kiterjedt dokumentáció a GroupDocs.Signature for .NET-hez?
- Feltétlenül hivatkozhat a mellékelt részletes dokumentációra[itt](https://reference.groupdocs.com/signature/net/) átfogó útmutatásért a GroupDocs.Signature for .NET funkcióinak használatához.
+ Feltétlenül hivatkozhat a mellékelt részletes dokumentációra[itt](https://tutorials.groupdocs.com/signature/net/) átfogó útmutatásért a GroupDocs.Signature for .NET funkcióinak használatához.

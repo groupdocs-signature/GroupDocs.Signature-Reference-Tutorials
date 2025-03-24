@@ -3,7 +3,6 @@ title: Cari Gambar
 linktitle: Cari Gambar
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara mencari gambar dalam dokumen menggunakan GroupDocs.Signature untuk .NET. Tingkatkan keamanan dan integritas dokumen dengan mudah.
-type: docs
 weight: 13
 url: /id/net/signature-searching/search-for-images/
 ---
@@ -69,4 +68,4 @@ Ya, GroupDocs.Signature menyediakan fitur-fitur canggih, termasuk dukungan untuk
 ### Bisakah saya menyesuaikan tampilan tanda tangan digital yang ditambahkan menggunakan GroupDocs.Signature untuk .NET?
 Tentu! GroupDocs.Signature menawarkan opsi penyesuaian yang luas, memungkinkan Anda menyesuaikan tampilan tanda tangan digital sesuai dengan kebutuhan spesifik Anda.
 ### Di mana saya dapat menemukan dukungan atau sumber daya tambahan untuk GroupDocs.Signature untuk .NET?
- Anda dapat mengunjungi forum GroupDocs.Signature di[Link ini](https://forum.groupdocs.com/c/signature/13) untuk bantuan, atau lihat dokumentasi komprehensif yang tersedia[Di Sini](https://reference.groupdocs.com/signature/net/).
+ Anda dapat mengunjungi forum GroupDocs.Signature di[Link ini](https://forum.groupdocs.com/c/signature/13) untuk bantuan, atau lihat dokumentasi komprehensif yang tersedia[Di Sini](https://tutorials.groupdocs.com/signature/net/).

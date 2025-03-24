@@ -3,7 +3,6 @@ title: 양식 필드 검색
 linktitle: 양식 필드 검색
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 서명 기능을 .NET 응용 프로그램에 통합하는 방법을 알아보세요. 원활한 문서 관리를 위해 단계별로 따라해보세요.
-type: docs
 weight: 12
 url: /ko/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ url: /ko/net/signature-searching/search-for-form-fields/
 .NET용 GroupDocs.Signature를 사용하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1. Visual Studio: 개발 컴퓨터에 Visual Studio를 설치합니다.
 2.  .NET용 GroupDocs.Signature: 다음 위치에서 .NET용 GroupDocs.Signature 라이브러리를 다운로드하고 설치합니다.[여기](https://releases.groupdocs.com/signature/net/).
-3.  문서에 대한 액세스: 다음에서 제공되는 문서를 숙지하십시오.[.NET 문서용 GroupDocs.Signature](https://reference.groupdocs.com/signature/net/).
+3.  문서에 대한 액세스: 다음에서 제공되는 문서를 숙지하십시오.[.NET 문서용 GroupDocs.Signature](https://tutorials.groupdocs.com/signature/net/).
 4.  지원 이용: 문제나 질문이 있는 경우 지원 포럼에 액세스하세요.[GroupDocs.Signature 포럼](https://forum.groupdocs.com/c/signature/13).
 
 ## 네임스페이스 가져오기
@@ -63,6 +62,6 @@ foreach (var FormFieldSignature in signatures)
 ### .NET용 GroupDocs.Signature에 대한 임시 라이센스를 얻으려면 어떻게 해야 합니까?
  임시 라이센스는 다음에서 얻을 수 있습니다.[여기](https://purchase.groupdocs.com/temporary-license/).
 ### .NET용 GroupDocs.Signature에 대한 자세한 설명서는 어디서 찾을 수 있나요?
- 자세한 문서가 제공됩니다.[여기](https://reference.groupdocs.com/signature/net/).
+ 자세한 문서가 제공됩니다.[여기](https://tutorials.groupdocs.com/signature/net/).
 ### .NET용 GroupDocs.Signature는 개발자를 지원합니까?
  예, 다음을 통해 개발자 지원에 액세스할 수 있습니다.[GroupDocs.Signature 포럼](https://forum.groupdocs.com/c/signature/13).

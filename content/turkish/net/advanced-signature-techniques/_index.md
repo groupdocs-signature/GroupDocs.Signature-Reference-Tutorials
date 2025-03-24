@@ -3,7 +3,6 @@ title: Gelişmiş İmza Teknikleri
 linktitle: Gelişmiş İmza Teknikleri
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET eğitimleriyle gelişmiş imza tekniklerini öğrenin. PDF'leri, görüntüleri ve belgeleri barkod, dijital ve daha fazlasıyla sorunsuz bir şekilde imzalayın.
-type: docs
 weight: 25
 url: /tr/net/advanced-signature-techniques/
 ---

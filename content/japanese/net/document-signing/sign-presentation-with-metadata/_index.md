@@ -3,7 +3,6 @@ title: メタデータを使用してプレゼンテーションに署名する
 linktitle: メタデータを使用してプレゼンテーションに署名する
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用して、メタデータを含むプレゼンテーション ファイルに署名する方法を学びます。文書の整合性を強化し、貴重な情報を追加します。
-type: docs
 weight: 12
 url: /ja/net/document-signing/sign-presentation-with-metadata/
 ---

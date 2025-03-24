@@ -3,7 +3,6 @@ title: 種類ごとに署名を削除
 linktitle: 種類ごとに署名を削除
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature を使用して、.NET ドキュメント内の署名をタイプ別に簡単に削除し、ドキュメント管理の効率を高める方法を学びます。
-type: docs
 weight: 12
 url: /ja/net/delete-operations/delete-signature-by-type/
 ---

@@ -3,7 +3,6 @@ title: 바코드 업데이트
 linktitle: 바코드 업데이트
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 문서의 바코드 서명을 업데이트하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드입니다.
-type: docs
 weight: 10
 url: /ko/net/update-operations/update-barcode/
 ---

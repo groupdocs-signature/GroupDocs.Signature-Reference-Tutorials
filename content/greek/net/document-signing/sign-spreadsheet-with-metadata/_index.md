@@ -3,7 +3,6 @@ title: Υπογραφή υπολογιστικού φύλλου με μεταδ�
 linktitle: Υπογραφή υπολογιστικού φύλλου με μεταδεδομένα
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να υπογράφετε υπολογιστικά φύλλα με μεταδεδομένα χρησιμοποιώντας το Groupdocs.Signature για .NET. Βελτιώστε την ακεραιότητα και την επαλήθευση του εγγράφου με υπογραφές μεταδεδομένων.
-type: docs
 weight: 13
 url: /el/net/document-signing/sign-spreadsheet-with-metadata/
 ---

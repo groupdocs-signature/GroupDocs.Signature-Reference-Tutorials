@@ -3,7 +3,6 @@ title: Extração de metadados de PDF de pesquisa
 linktitle: Extração de metadados de PDF de pesquisa
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como pesquisar e extrair assinaturas de metadados de documentos PDF usando GroupDocs.Signature for .NET. Aumente seus recursos de gerenciamento de documentos.
-type: docs
 weight: 11
 url: /pt/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---

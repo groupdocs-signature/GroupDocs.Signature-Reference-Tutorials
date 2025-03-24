@@ -3,7 +3,6 @@ title: Görüntüyü Meta Verilerle İmzala
 linktitle: Görüntüyü Meta Verilerle İmzala
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature kullanarak görüntüleri .NET'te meta verilerle nasıl imzalayacağınızı öğrenin. Kolay, verimli ve özelleştirilebilir meta veri imzalama çözümü.
-type: docs
 weight: 10
 url: /tr/net/document-signing/sign-image-with-metadata/
 ---

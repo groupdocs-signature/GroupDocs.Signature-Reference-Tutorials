@@ -3,7 +3,6 @@ title: Расширенные методы подписи
 linktitle: Расширенные методы подписи
 second_title: GroupDocs.Signature .NET API
 description: Изучите расширенные методы подписи с помощью учебных пособий GroupDocs.Signature for .NET. Легко подписывайте PDF-файлы, изображения и документы с помощью штрих-кода, цифрового кода и т. д.
-type: docs
 weight: 25
 url: /ru/net/advanced-signature-techniques/
 ---

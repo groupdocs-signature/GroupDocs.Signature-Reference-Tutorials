@@ -3,7 +3,6 @@ title: Αναζήτηση για Ψηφιακές Υπογραφές
 linktitle: Αναζήτηση για Ψηφιακές Υπογραφές
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να αναζητάτε ψηφιακές υπογραφές σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET. Βελτιώστε την ασφάλεια και την ακεραιότητα των εγγράφων με αυτήν την ολοκληρωμένη έκδοση.
-type: docs
 weight: 11
 url: /el/net/signature-searching/search-for-digital-signatures/
 ---
@@ -58,7 +57,7 @@ using (Signature signature = new Signature(filePath))
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το GroupDocs.Signature για .NET;
 Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμή του GroupDocs.Signature για .NET από[εδώ](https://releases.groupdocs.com/).
 ### Πού μπορώ να βρω τεκμηρίωση για το GroupDocs.Signature για .NET;
- Μπορείτε να βρείτε λεπτομερή τεκμηρίωση για το GroupDocs.Signature για .NET[εδώ](https://reference.groupdocs.com/signature/net/).
+ Μπορείτε να βρείτε λεπτομερή τεκμηρίωση για το GroupDocs.Signature για .NET[εδώ](https://tutorials.groupdocs.com/signature/net/).
 ### Πώς μπορώ να λάβω προσωρινές άδειες για το GroupDocs.Signature για .NET;
  Μπορείτε να αποκτήσετε προσωρινές άδειες χρήσης για GroupDocs.Signature για .NET[εδώ](https://purchase.groupdocs.com/temporary-license/).
 ### Πού μπορώ να αναζητήσω υποστήριξη για το GroupDocs.Signature για .NET;

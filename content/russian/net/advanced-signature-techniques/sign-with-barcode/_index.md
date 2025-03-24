@@ -3,7 +3,6 @@ title: Подписание с помощью штрих-кода
 linktitle: Подписание с помощью штрих-кода
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как подписывать документы с помощью штрих-кода с помощью GroupDocs.Signature для .NET. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 11
 url: /ru/net/advanced-signature-techniques/sign-with-barcode/
 ---

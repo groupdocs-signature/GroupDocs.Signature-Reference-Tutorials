@@ -3,7 +3,6 @@ title: Αναζήτηση για Πεδία Φόρμας
 linktitle: Αναζήτηση για Πεδία Φόρμας
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να ενσωματώνετε τη λειτουργία υπογραφής στις εφαρμογές σας .NET με το GroupDocs.Signature για .NET. Ακολουθήστε βήμα προς βήμα για απρόσκοπτη διαχείριση εγγράφων.
-type: docs
 weight: 12
 url: /el/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ url: /el/net/signature-searching/search-for-form-fields/
 Πριν ξεκινήσετε τη χρήση του GroupDocs.Signature για .NET, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 1. Visual Studio: Εγκαταστήστε το Visual Studio στο μηχάνημα ανάπτυξης.
 2.  GroupDocs.Signature για .NET: Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη GroupDocs.Signature για .NET από[εδώ](https://releases.groupdocs.com/signature/net/).
-3.  Πρόσβαση στην τεκμηρίωση: Εξοικειωθείτε με την τεκμηρίωση που είναι διαθέσιμη στη διεύθυνση[GroupDocs.Signature για .NET Documentation](https://reference.groupdocs.com/signature/net/).
+3.  Πρόσβαση στην τεκμηρίωση: Εξοικειωθείτε με την τεκμηρίωση που είναι διαθέσιμη στη διεύθυνση[GroupDocs.Signature για .NET Documentation](https://tutorials.groupdocs.com/signature/net/).
 4.  Πρόσβαση στην υποστήριξη: Σε περίπτωση οποιουδήποτε ζητήματος ή απορίας, μεταβείτε στο φόρουμ υποστήριξης στη διεύθυνση[GroupDocs.Signature Forum](https://forum.groupdocs.com/c/signature/13).
 
 ## Εισαγωγή χώρων ονομάτων
@@ -63,6 +62,6 @@ foreach (var FormFieldSignature in signatures)
 ### Πώς μπορώ να λάβω προσωρινές άδειες για το GroupDocs.Signature για .NET;
  Οι προσωρινές άδειες μπορούν να ληφθούν από[εδώ](https://purchase.groupdocs.com/temporary-license/).
 ### Πού μπορώ να βρω αναλυτική τεκμηρίωση για το GroupDocs.Signature για .NET;
- Λεπτομερής τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.groupdocs.com/signature/net/).
+ Λεπτομερής τεκμηρίωση είναι διαθέσιμη[εδώ](https://tutorials.groupdocs.com/signature/net/).
 ### Το GroupDocs.Signature για .NET προσφέρει υποστήριξη για προγραμματιστές;
  Ναι, μπορείτε να έχετε πρόσβαση στην υποστήριξη προγραμματιστών μέσω του[GroupDocs.Signature Forum](https://forum.groupdocs.com/c/signature/13).

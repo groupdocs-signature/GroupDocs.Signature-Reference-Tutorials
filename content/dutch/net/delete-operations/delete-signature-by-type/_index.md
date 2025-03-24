@@ -3,7 +3,6 @@ title: Handtekening op type verwijderen
 linktitle: Handtekening op type verwijderen
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u handtekeningen per type in .NET-documenten moeiteloos kunt verwijderen met behulp van GroupDocs.Signature, waardoor de efficiëntie van documentbeheer wordt verbeterd.
-type: docs
 weight: 12
 url: /nl/net/delete-operations/delete-signature-by-type/
 ---

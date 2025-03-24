@@ -3,7 +3,6 @@ title: Podepsat prezentaci s metadaty
 linktitle: Podepsat prezentaci s metadaty
 second_title: GroupDocs.Signature .NET API
 description: Naučte se podepisovat prezentační soubory pomocí metadat pomocí GroupDocs.Signature for .NET. Vylepšete integritu dokumentů a přidejte cenné informace.
-type: docs
 weight: 12
 url: /cs/net/document-signing/sign-presentation-with-metadata/
 ---

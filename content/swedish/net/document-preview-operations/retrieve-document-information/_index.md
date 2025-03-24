@@ -3,7 +3,6 @@ title: Hämta dokumentinformation
 linktitle: Hämta dokumentinformation
 second_title: GroupDocs.Signature .NET API
 description: Förbättra dokumenthanteringen i .NET med GroupDocs.Signature. Hämta dokumentinformation steg för steg. Stöder olika format.
-type: docs
 weight: 11
 url: /sv/net/document-preview-operations/retrieve-document-information/
 ---
@@ -75,6 +74,6 @@ Ja, GroupDocs.Signature stöder ett brett utbud av dokumentformat, inklusive men
 ### Ger GroupDocs.Signature för .NET stöd för digitala signaturer?
 Absolut, GroupDocs.Signature erbjuder robust stöd för digitala signaturer, vilket säkerställer dokumentets autenticitet och integritet.
 ### Var kan jag hitta ytterligare dokumentation och support för GroupDocs.Signature för .NET?
- Du kan hänvisa till den omfattande dokumentationen[här](https://reference.groupdocs.com/signature/net/) , och för support, besök GroupDocs-forumet[här](https://forum.groupdocs.com/c/signature/13).
+ Du kan hänvisa till den omfattande dokumentationen[här](https://tutorials.groupdocs.com/signature/net/) , och för support, besök GroupDocs-forumet[här](https://forum.groupdocs.com/c/signature/13).
 ### Kan temporära licenser erhållas för GroupDocs.Signature för .NET?
  Ja, tillfälliga licenser finns att köpa[här](https://purchase.groupdocs.com/temporary-license/).

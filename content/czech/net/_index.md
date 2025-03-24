@@ -1,7 +1,6 @@
 ---
 title: Návody a příklady GroupDocs.Signature pro .NET
 linktitle: GroupDocs.Signature pro .NET výukové programy
-type: docs
 weight: 10
 url: /cs/net/
 description: Odemkněte efektivní správu dokumentů s GroupDocs.Signature pro .NET tutoriály. Bezproblémově odstraňte, prohlížejte, extrahujte metadata, podepisujte, aktualizujte a ověřujte dokumenty.

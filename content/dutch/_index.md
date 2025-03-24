@@ -3,7 +3,6 @@ title: Uitgebreide GroupDocs.Signature-tutorials
 linktitle: GroupDocs.Signature-tutorials
 additionalTitle: GroupDocs API-referenties
 description: Beheers documentbeheer in .NET en Java met GroupDocs.Signature-tutorials. Metagegevens maken, verifiëren, extraheren en meer. Duik erin voor een naadloze workflow!
-type: docs
 weight: 11
 url: /nl/
 is_root: true

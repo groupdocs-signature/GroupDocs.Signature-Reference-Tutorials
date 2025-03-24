@@ -3,7 +3,6 @@ title: 메타데이터로 스프레드시트 서명
 linktitle: 메타데이터로 스프레드시트 서명
 second_title: GroupDocs.Signature .NET API
 description: .NET용 Groupdocs.Signature를 사용하여 메타데이터로 스프레드시트에 서명하는 방법을 알아보세요. 메타데이터 서명을 통해 문서 무결성 및 검증을 강화합니다.
-type: docs
 weight: 13
 url: /ko/net/document-signing/sign-spreadsheet-with-metadata/
 ---

@@ -3,7 +3,6 @@ title: Ta bort textsignatur
 linktitle: Ta bort textsignatur
 second_title: GroupDocs.Signature .NET API
 description: Ta enkelt bort textsignaturer från dokument med GroupDocs.Signature för .NET. Förenkla dina dokumenthanteringsuppgifter.
-type: docs
 weight: 17
 url: /sv/net/delete-operations/delete-text-signature/
 ---

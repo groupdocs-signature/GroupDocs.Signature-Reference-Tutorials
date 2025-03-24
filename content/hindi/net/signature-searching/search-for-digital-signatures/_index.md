@@ -3,7 +3,6 @@ title: डिजिटल हस्ताक्षर खोजें
 linktitle: डिजिटल हस्ताक्षर खोजें
 second_title: GroupDocs.Signature .NET API
 description: जानें कि .NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में डिजिटल हस्ताक्षर कैसे खोजें। इस व्यापक के साथ दस्तावेज़ सुरक्षा और अखंडता बढ़ाएँ।
-type: docs
 weight: 11
 url: /hi/net/signature-searching/search-for-digital-signatures/
 ---
@@ -58,7 +57,7 @@ using (Signature signature = new Signature(filePath))
 ### क्या .NET के लिए GroupDocs.Signature के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
 हां, आप .NET के लिए GroupDocs.Signature के निःशुल्क परीक्षण तक पहुंच सकते हैं[यहाँ](https://releases.groupdocs.com/).
 ### मुझे .NET के लिए GroupDocs.Signature के लिए दस्तावेज़ कहाँ मिल सकते हैं?
- आप .NET के लिए GroupDocs.Signature के लिए विस्तृत दस्तावेज़ पा सकते हैं[यहाँ](https://reference.groupdocs.com/signature/net/).
+ आप .NET के लिए GroupDocs.Signature के लिए विस्तृत दस्तावेज़ पा सकते हैं[यहाँ](https://tutorials.groupdocs.com/signature/net/).
 ### मैं .NET के लिए GroupDocs.Signature के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
  .NET के लिए GroupDocs.Signature के लिए अस्थायी लाइसेंस प्राप्त किया जा सकता है[यहाँ](https://purchase.groupdocs.com/temporary-license/).
 ### मैं .NET के लिए GroupDocs.Signature के लिए समर्थन कहाँ से प्राप्त कर सकता हूँ?

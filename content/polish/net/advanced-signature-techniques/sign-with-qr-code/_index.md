@@ -3,7 +3,6 @@ title: Podpisywanie dokumentów kodem QR za pomocą GroupDocs.Signature
 linktitle: Podpisywanie za pomocą kodu QR
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak dodawać podpisy kodem QR do swoich dokumentów za pomocą GroupDocs.Signature for .NET. Bez wysiłku zwiększ bezpieczeństwo i uwierzytelnianie.
-type: docs
 weight: 15
 url: /pl/net/advanced-signature-techniques/sign-with-qr-code/
 ---

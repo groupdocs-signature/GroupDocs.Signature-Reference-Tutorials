@@ -3,7 +3,6 @@ title: Обновить текст
 linktitle: Обновить текст
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как обновить текст в документах с помощью GroupDocs.Signature для .NET. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 13
 url: /ru/net/update-operations/update-text/
 ---

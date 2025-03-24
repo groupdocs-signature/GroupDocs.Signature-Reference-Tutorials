@@ -3,7 +3,6 @@ title: Podepisování dokumentů
 linktitle: Podepisování dokumentů
 second_title: GroupDocs.Signature .NET API
 description: Podepisujte obrázky, soubory PDF, prezentace, tabulky a dokumenty Word pomocí metadat pomocí GroupDocs.Signature .NET. Zvyšte autenticitu a integritu dokumentů.
-type: docs
 weight: 24
 url: /cs/net/document-signing/
 ---

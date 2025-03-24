@@ -3,7 +3,6 @@ title: Firma la presentazione con metadati
 linktitle: Firma la presentazione con metadati
 second_title: API GroupDocs.Signature .NET
 description: Scopri come firmare file di presentazione con metadati utilizzando GroupDocs.Signature per .NET. Migliora l'integrità del documento e aggiungi informazioni preziose.
-type: docs
 weight: 12
 url: /it/net/document-signing/sign-presentation-with-metadata/
 ---

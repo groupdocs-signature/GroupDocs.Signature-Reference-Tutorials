@@ -3,7 +3,6 @@ title: Firmar PDF con metadatos
 linktitle: Firmar PDF con metadatos
 second_title: API GroupDocs.Signature .NET
 description: Aprenda a firmar documentos PDF con metadatos usando GroupDocs.Signature para .NET. Mejore la trazabilidad y autenticidad de los documentos fácilmente.
-type: docs
 weight: 11
 url: /es/net/document-signing/sign-pdf-with-metadata/
 ---

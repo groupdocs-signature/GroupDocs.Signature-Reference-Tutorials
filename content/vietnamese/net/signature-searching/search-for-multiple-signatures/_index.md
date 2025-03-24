@@ -3,7 +3,6 @@ title: Tìm kiếm nhiều chữ ký
 linktitle: Tìm kiếm nhiều chữ ký
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách tìm kiếm nhiều chữ ký trong tài liệu .NET bằng GroupDocs.Signature để bảo mật và toàn vẹn tài liệu hiệu quả.
-type: docs
 weight: 14
 url: /vi/net/signature-searching/search-for-multiple-signatures/
 ---

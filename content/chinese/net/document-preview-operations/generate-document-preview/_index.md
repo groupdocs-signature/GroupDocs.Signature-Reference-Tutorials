@@ -3,7 +3,6 @@ title: 生成文档预览
 linktitle: 生成文档预览
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 生成文档预览。简化 .NET 应用程序中的文档管理。
-type: docs
 weight: 10
 url: /zh/net/document-preview-operations/generate-document-preview/
 ---

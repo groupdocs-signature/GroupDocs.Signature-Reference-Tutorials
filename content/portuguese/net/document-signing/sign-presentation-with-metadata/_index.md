@@ -3,7 +3,6 @@ title: Apresentação de assinatura com metadados
 linktitle: Apresentação de assinatura com metadados
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como assinar arquivos de apresentação com metadados usando GroupDocs.Signature for .NET. Melhore a integridade dos documentos e adicione informações valiosas.
-type: docs
 weight: 12
 url: /pt/net/document-signing/sign-presentation-with-metadata/
 ---

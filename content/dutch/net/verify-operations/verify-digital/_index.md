@@ -3,7 +3,6 @@ title: Controleer digitale handtekening
 linktitle: Controleer digitale handtekening
 second_title: GroupDocs.Signature .NET API
 description: Verifieer eenvoudig digitale handtekeningen in .NET met GroupDocs.Signature. Garandeer moeiteloos de authenticiteit en integriteit van documenten.
-type: docs
 weight: 11
 url: /nl/net/verify-operations/verify-digital/
 ---

@@ -3,7 +3,6 @@ title: 先进的签名技术
 linktitle: 先进的签名技术
 second_title: GroupDocs.Signature .NET API
 description: 通过 GroupDocs.Signature for .NET 教程学习高级签名技术。使用条形码、数字等方式无缝签署 PDF、图像和文档。
-type: docs
 weight: 25
 url: /zh/net/advanced-signature-techniques/
 ---

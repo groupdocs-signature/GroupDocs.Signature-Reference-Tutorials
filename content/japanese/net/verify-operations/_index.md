@@ -3,7 +3,6 @@ title: 動作の検証
 linktitle: 動作の検証
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature .NET を使用してドキュメント内のバーコード、デジタル署名、QR コード、テキストを検証する方法を学びます。シームレスな統合のためのステップバイステップのチュートリアル。
-type: docs
 weight: 27
 url: /ja/net/verify-operations/
 ---

@@ -3,7 +3,6 @@ title: Ver histórico de processamento de documentos
 linktitle: Ver histórico de processamento de documentos
 second_title: API GroupDocs.Signature .NET
 description: Descubra como visualizar facilmente o histórico de processamento de documentos usando GroupDocs.Signature for .NET. Siga nosso guia passo a passo para um gerenciamento contínuo do fluxo de trabalho.
-type: docs
 weight: 12
 url: /pt/net/document-preview-operations/view-document-processing-history/
 ---

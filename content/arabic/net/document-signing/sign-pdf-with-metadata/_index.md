@@ -3,7 +3,6 @@ title: قم بتوقيع ملف PDF باستخدام البيانات الوصف
 linktitle: قم بتوقيع ملف PDF باستخدام البيانات الوصفية
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية توقيع مستندات PDF باستخدام بيانات التعريف باستخدام GroupDocs.Signature لـ .NET. تعزيز إمكانية تتبع المستندات وأصالتها بسهولة.
-type: docs
 weight: 11
 url: /ar/net/document-signing/sign-pdf-with-metadata/
 ---

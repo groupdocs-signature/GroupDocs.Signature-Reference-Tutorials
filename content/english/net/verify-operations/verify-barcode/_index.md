@@ -3,7 +3,6 @@ title: Verify Barcode
 linktitle: Verify Barcode
 second_title: GroupDocs.Signature .NET API
 description: Learn how to verify barcodes within documents using GroupDocs.Signature for .NET. Follow our step-by-step tutorial for seamless implementation.
-type: docs
 weight: 10
 url: /net/verify-operations/verify-barcode/
 ---

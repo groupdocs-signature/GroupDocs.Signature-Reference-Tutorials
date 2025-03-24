@@ -3,7 +3,6 @@ title: Speciális aláírási technikák
 linktitle: Speciális aláírási technikák
 second_title: GroupDocs.Signature .NET API
 description: Tanuljon meg fejlett aláírási technikákat a GroupDocs.Signature for .NET oktatóanyaggal. A PDF-fájlokat, képeket és dokumentumokat zökkenőmentesen írhatja alá vonalkóddal, digitálisan és egyebekkel.
-type: docs
 weight: 25
 url: /hu/net/advanced-signature-techniques/
 ---

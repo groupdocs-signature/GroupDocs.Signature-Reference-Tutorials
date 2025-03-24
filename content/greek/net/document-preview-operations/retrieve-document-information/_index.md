@@ -3,7 +3,6 @@ title: Ανάκτηση πληροφοριών εγγράφου
 linktitle: Ανάκτηση πληροφοριών εγγράφου
 second_title: GroupDocs.Signature .NET API
 description: Βελτιώστε τη διαχείριση εγγράφων στο .NET με το GroupDocs.Signature. Ανάκτηση πληροφοριών εγγράφου βήμα προς βήμα. Υποστηρίζει διάφορες μορφές.
-type: docs
 weight: 11
 url: /el/net/document-preview-operations/retrieve-document-information/
 ---
@@ -75,6 +74,6 @@ foreach (PageInfo pageInfo in documentInfo.Pages)
 ### Το GroupDocs.Signature για .NET παρέχει υποστήριξη για ψηφιακές υπογραφές;
 Οπωσδήποτε, το GroupDocs.Signature προσφέρει ισχυρή υποστήριξη για ψηφιακές υπογραφές, διασφαλίζοντας τη γνησιότητα και την ακεραιότητα του εγγράφου.
 ### Πού μπορώ να βρω πρόσθετη τεκμηρίωση και υποστήριξη για το GroupDocs.Signature για .NET;
- Μπορείτε να ανατρέξετε στην πλήρη τεκμηρίωση[εδώ](https://reference.groupdocs.com/signature/net/) και για υποστήριξη, επισκεφτείτε το φόρουμ του GroupDocs[εδώ](https://forum.groupdocs.com/c/signature/13).
+ Μπορείτε να ανατρέξετε στην πλήρη τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/signature/net/) και για υποστήριξη, επισκεφτείτε το φόρουμ του GroupDocs[εδώ](https://forum.groupdocs.com/c/signature/13).
 ### Μπορούν να ληφθούν προσωρινές άδειες για το GroupDocs.Signature για .NET;
  Ναι, οι προσωρινές άδειες είναι διαθέσιμες για αγορά[εδώ](https://purchase.groupdocs.com/temporary-license/).

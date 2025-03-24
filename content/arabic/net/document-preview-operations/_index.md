@@ -3,7 +3,6 @@ title: عمليات معاينة المستند
 linktitle: عمليات معاينة المستند
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية تبسيط إدارة المستندات باستخدام GroupDocs.Signature لبرامج .NET التعليمية. قم بتبسيط المهام وتحسين سير العمل وزيادة الإنتاجية دون عناء.
-type: docs
 weight: 21
 url: /ar/net/document-preview-operations/
 ---

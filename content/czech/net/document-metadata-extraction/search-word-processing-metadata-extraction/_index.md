@@ -3,7 +3,6 @@ title: Hledání metadat pro zpracování textu
 linktitle: Hledání metadat pro zpracování textu
 second_title: GroupDocs.Signature .NET API
 description: Naučte se vyhledávat metadata textového editoru pomocí GroupDocs.Signature for .NET. Snadno vylepšete správu dokumentů.
-type: docs
 weight: 14
 url: /cs/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
@@ -56,7 +55,7 @@ Ano, GroupDocs.Signature podporuje širokou škálu formátů dokumentů, včetn
 ### Je GroupDocs.Signature vhodný pro správu dokumentů na podnikové úrovni?
 GroupDocs.Signature rozhodně nabízí robustní funkce šité na míru podnikovým prostředím a zajišťují bezpečná a spolehlivá řešení správy dokumentů.
 ### Poskytuje GroupDocs.Signature komplexní dokumentaci pro vývojáře?
- Ano, vývojáři mohou najít podrobnou dokumentaci, včetně odkazů na API a příkladů kódu, na[dokumentační stránku](https://reference.groupdocs.com/signature/net/).
+ Ano, vývojáři mohou najít podrobnou dokumentaci, včetně odkazů na API a příkladů kódu, na[dokumentační stránku](https://tutorials.groupdocs.com/signature/net/).
 ### Mohu vyzkoušet GroupDocs.Signature před nákupem?
  Ano, zájemci mohou využít bezplatnou zkušební verzi GroupDocs.Signature od[webová stránka](https://releases.groupdocs.com/).
 ### Kde mohu hledat podporu pro GroupDocs.Signature?

@@ -3,7 +3,6 @@ title: Excluir assinatura de texto
 linktitle: Excluir assinatura de texto
 second_title: API GroupDocs.Signature .NET
 description: Exclua facilmente assinaturas de texto de documentos usando GroupDocs.Signature for .NET. Simplifique suas tarefas de gerenciamento de documentos.
-type: docs
 weight: 17
 url: /pt/net/delete-operations/delete-text-signature/
 ---

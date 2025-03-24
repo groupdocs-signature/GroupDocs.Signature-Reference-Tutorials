@@ -3,7 +3,6 @@ title: Search Spreadsheet Metadata Extraction
 linktitle: Search Spreadsheet Metadata Extraction
 second_title: GroupDocs.Signature .NET API
 description: Efficiently extract metadata from spreadsheets using GroupDocs.Signature for .NET. Enhance document management and analysis effortlessly.
-type: docs
 weight: 13
 url: /net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ In the realm of document management and verification, the ability to efficiently
 ## Prerequisites
 Before diving into the intricacies of searching spreadsheet metadata using GroupDocs.Signature for .NET, ensure you have the following prerequisites in place:
 ### 1. Installation of GroupDocs.Signature for .NET
-First and foremost, download and install GroupDocs.Signature for .NET by following the instructions provided in the [documentation](https://reference.groupdocs.com/signature/net/). This step is crucial for integrating the library into your .NET environment seamlessly.
+First and foremost, download and install GroupDocs.Signature for .NET by following the instructions provided in the [documentation](https://tutorials.groupdocs.com/signature/net/). This step is crucial for integrating the library into your .NET environment seamlessly.
 ### 2. Access to Sample Spreadsheet
 Prepare a sample spreadsheet (e.g., `sample.xlsx`) that contains metadata you wish to extract. Ensure that the spreadsheet is accessible within your development environment.
 

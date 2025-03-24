@@ -3,7 +3,6 @@ title: Extractie van metagegevens van documenten
 linktitle: Extractie van metagegevens van documenten
 second_title: GroupDocs.Signature .NET API
 description: Ontgrendel de kracht van metadata-extractie met GroupDocs.Signature voor .NET. Leer moeiteloos metagegevens van documenten zoeken en extraheren voor beter beheer.
-type: docs
 weight: 22
 url: /nl/net/document-metadata-extraction/
 ---

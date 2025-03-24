@@ -3,7 +3,6 @@ title: Dokumentumok aláírása képpel a GroupDocs.Signature segítségével
 linktitle: Aláírás képpel
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan írhat alá dokumentumokat képek használatával .NET-alkalmazásokban a Groupdocs.Signature for .NET segítségével. Fokozatmentesen fokozza a dokumentumok biztonságát és hitelességét.
-type: docs
 weight: 13
 url: /hu/net/advanced-signature-techniques/sign-with-image/
 ---

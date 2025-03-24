@@ -3,7 +3,6 @@ title: قم بتوقيع معالجة الكلمات باستخدام البيا
 linktitle: قم بتوقيع معالجة الكلمات باستخدام البيانات الوصفية
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية توقيع مستندات معالجة الكلمات باستخدام بيانات التعريف باستخدام GroupDocs.Signature لـ .NET. تعزيز صحة الوثيقة وإمكانية التتبع.
-type: docs
 weight: 14
 url: /ar/net/document-signing/sign-word-processing-with-metadata/
 ---

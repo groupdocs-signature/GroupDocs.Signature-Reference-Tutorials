@@ -3,7 +3,6 @@ title: Delete Operations
 linktitle: Delete Operations
 second_title: GroupDocs.Signature .NET API
 description: Delete signatures, barcodes, and more from .NET documents with GroupDocs.Signature. Explore tutorials for efficient document management now!
-type: docs
 weight: 20
 url: /net/delete-operations/
 ---

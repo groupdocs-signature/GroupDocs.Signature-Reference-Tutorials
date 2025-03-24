@@ -3,7 +3,6 @@ title: 更新文字
 linktitle: 更新文字
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 更新文件中的文字。請按照我們的逐步教學進行無縫整合。
-type: docs
 weight: 13
 url: /zh-hant/net/update-operations/update-text/
 ---

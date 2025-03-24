@@ -3,7 +3,6 @@ title: Document Preview Operations
 linktitle: Document Preview Operations
 second_title: GroupDocs.Signature .NET API
 description: Learn how to streamline document management with GroupDocs.Signature for .NET tutorials. Simplify tasks, enhance workflow, and boost productivity effortlessly.
-type: docs
 weight: 21
 url: /net/document-preview-operations/
 ---

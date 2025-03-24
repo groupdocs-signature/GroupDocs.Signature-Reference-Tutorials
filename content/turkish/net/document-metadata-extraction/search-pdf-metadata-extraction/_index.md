@@ -3,7 +3,6 @@ title: PDF Meta Veri Çıkarma'da Ara
 linktitle: PDF Meta Veri Çıkarma'da Ara
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak PDF belgelerinden meta veri imzalarını nasıl arayacağınızı ve çıkaracağınızı öğrenin. Belge yönetimi yeteneklerinizi artırın.
-type: docs
 weight: 11
 url: /tr/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---

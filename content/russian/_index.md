@@ -3,7 +3,6 @@ title: Комплексные руководства по GroupDocs.Signature
 linktitle: Учебные пособия по GroupDocs.Signature
 additionalTitle: Ссылки на API GroupDocs
 description: Освойте управление документами в .NET и Java с помощью учебных пособий GroupDocs.Signature. Создавайте, проверяйте, извлекайте метаданные и многое другое. Погрузитесь в безупречный рабочий процесс!
-type: docs
 weight: 11
 url: /ru/
 is_root: true

@@ -3,7 +3,6 @@ title: 更新条形码
 linktitle: 更新条形码
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 更新文档中的条形码签名。无缝集成的分步指南。
-type: docs
 weight: 10
 url: /zh/net/update-operations/update-barcode/
 ---

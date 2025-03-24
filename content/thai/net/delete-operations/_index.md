@@ -3,7 +3,6 @@ title: ลบการดำเนินการ
 linktitle: ลบการดำเนินการ
 second_title: GroupDocs.Signature .NET API
 description: ลบลายเซ็น บาร์โค้ด และอื่นๆ จากเอกสาร .NET ด้วย GroupDocs.Signature สำรวจบทช่วยสอนเพื่อการจัดการเอกสารอย่างมีประสิทธิภาพทันที!
-type: docs
 weight: 20
 url: /th/net/delete-operations/
 ---

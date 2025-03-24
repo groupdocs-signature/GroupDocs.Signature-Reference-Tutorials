@@ -3,7 +3,6 @@ title: Sök Presentation Metadata Extraction
 linktitle: Sök Presentation Metadata Extraction
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du extraherar presentationsmetadata med GroupDocs.Signature för .NET. Förbättra dina dokumenthanteringsmöjligheter utan ansträngning.
-type: docs
 weight: 12
 url: /sv/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

@@ -3,7 +3,6 @@ title: Excluir assinatura por tipo
 linktitle: Excluir assinatura por tipo
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como excluir assinaturas por tipo em documentos .NET sem esforço usando GroupDocs.Signature, aumentando a eficiência do gerenciamento de documentos.
-type: docs
 weight: 12
 url: /pt/net/delete-operations/delete-signature-by-type/
 ---

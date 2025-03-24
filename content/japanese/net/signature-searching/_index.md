@@ -3,7 +3,6 @@ title: 署名検索
 linktitle: 署名検索
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET チュートリアルを使用して、.NET ドキュメント内の署名を検索する方法を学習します。バーコード、デジタル、画像、テキスト、QR コードの検索でセキュリティを強化します。
-type: docs
 weight: 23
 url: /ja/net/signature-searching/
 ---

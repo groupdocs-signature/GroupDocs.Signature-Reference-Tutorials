@@ -3,7 +3,6 @@ title: Műveletek ellenőrzése
 linktitle: Műveletek ellenőrzése
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan ellenőrizheti a vonalkódokat, digitális aláírásokat, QR-kódokat és szövegeket a dokumentumokban a GroupDocs.Signature .NET segítségével. Lépésről lépésre oktatóanyagok a zökkenőmentes integráció érdekében.
-type: docs
 weight: 27
 url: /hu/net/verify-operations/
 ---

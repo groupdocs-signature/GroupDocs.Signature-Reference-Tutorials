@@ -1,7 +1,6 @@
 ---
 title: Tutoriales y ejemplos de GroupDocs.Signature para .NET
 linktitle: Tutoriales de GroupDocs.Signature para .NET
-type: docs
 weight: 10
 url: /es/net/
 description: Desbloquee una gestión de documentos eficiente con los tutoriales de GroupDocs.Signature para .NET. Elimine, obtenga una vista previa, extraiga metadatos, firme, actualice y verifique documentos sin problemas.

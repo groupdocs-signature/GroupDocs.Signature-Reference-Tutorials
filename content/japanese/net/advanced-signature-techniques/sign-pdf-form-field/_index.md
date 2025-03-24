@@ -3,7 +3,6 @@ title: フォームフィールドを使用した PDF への署名
 linktitle: フォームフィールドを使用した PDF への署名
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用して、フォーム フィールドを含む PDF ドキュメントに署名する方法を学びます。文書の信頼性と整合性を簡単に確保します。
-type: docs
 weight: 10
 url: /ja/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

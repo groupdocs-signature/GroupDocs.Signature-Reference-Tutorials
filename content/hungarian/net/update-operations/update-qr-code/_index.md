@@ -3,7 +3,6 @@ title: Frissítse a QR-kódot
 linktitle: Frissítse a QR-kódot
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan frissítheti könnyedén a QR-kódokat a dokumentumokon belül a GroupDocs.Signature for .NET segítségével. Fokozza a dokumentumkezelést könnyedén.
-type: docs
 weight: 12
 url: /hu/net/update-operations/update-qr-code/
 ---

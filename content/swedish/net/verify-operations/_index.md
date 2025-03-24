@@ -3,7 +3,6 @@ title: Verifiera verksamheten
 linktitle: Verifiera verksamheten
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du verifierar streckkoder, digitala signaturer, QR-koder och text i dokument med GroupDocs.Signature .NET. Steg-för-steg tutorials för sömlös integration.
-type: docs
 weight: 27
 url: /sv/net/verify-operations/
 ---

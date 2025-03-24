@@ -3,7 +3,6 @@ title: Dokumentsignering
 linktitle: Dokumentsignering
 second_title: GroupDocs.Signature .NET API
 description: Signera bilder, PDF-filer, presentationer, kalkylblad och Word-dokument med metadata med GroupDocs.Signature .NET. Förbättra dokumentets äkthet och integritet.
-type: docs
 weight: 24
 url: /sv/net/document-signing/
 ---

@@ -3,7 +3,6 @@ title: 문서 처리 내역 보기
 linktitle: 문서 처리 내역 보기
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 문서 처리 기록을 손쉽게 보는 방법을 알아보세요. 원활한 워크플로 관리를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 12
 url: /ko/net/document-preview-operations/view-document-processing-history/
 ---

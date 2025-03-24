@@ -3,7 +3,6 @@ title: Подписание PDF с метаданными
 linktitle: Подписание PDF с метаданными
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как подписывать PDF-документы с метаданными с помощью GroupDocs.Signature для .NET. Легко улучшите отслеживаемость и подлинность документов.
-type: docs
 weight: 11
 url: /ru/net/document-signing/sign-pdf-with-metadata/
 ---

@@ -3,7 +3,6 @@ title: Wygeneruj podgląd dokumentu
 linktitle: Wygeneruj podgląd dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak generować podglądy dokumentów przy użyciu GroupDocs.Signature dla .NET. Uprość zarządzanie dokumentami w aplikacjach .NET.
-type: docs
 weight: 10
 url: /pl/net/document-preview-operations/generate-document-preview/
 ---

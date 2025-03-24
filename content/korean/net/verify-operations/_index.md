@@ -3,7 +3,6 @@ title: 작업 확인
 linktitle: 작업 확인
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature .NET을 사용하여 문서의 바코드, 디지털 서명, QR 코드 및 텍스트를 확인하는 방법을 알아보세요. 원활한 통합을 위한 단계별 튜토리얼.
-type: docs
 weight: 27
 url: /ko/net/verify-operations/
 ---

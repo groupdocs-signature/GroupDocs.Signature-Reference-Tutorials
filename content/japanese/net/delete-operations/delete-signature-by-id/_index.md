@@ -3,7 +3,6 @@ title: IDによる署名の削除
 linktitle: IDによる署名の削除
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature ライブラリを使用して .NET ドキュメント内の ID によって署名を削除する方法を学習します。簡単なステップバイステップのガイド。
-type: docs
 weight: 11
 url: /ja/net/delete-operations/delete-signature-by-id/
 ---

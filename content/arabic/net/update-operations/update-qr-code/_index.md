@@ -3,7 +3,6 @@ title: تحديث رمز الاستجابة السريعة
 linktitle: تحديث رمز الاستجابة السريعة
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية تحديث رموز QR بسهولة داخل المستندات باستخدام GroupDocs.Signature لـ .NET. تعزيز إدارة المستندات بسهولة.
-type: docs
 weight: 12
 url: /ar/net/update-operations/update-qr-code/
 ---

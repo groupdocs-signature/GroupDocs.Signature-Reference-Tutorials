@@ -3,7 +3,6 @@ title: Vyhledávání podpisů
 linktitle: Vyhledávání podpisů
 second_title: GroupDocs.Signature .NET API
 description: Naučte se vyhledávat podpisy v dokumentech .NET pomocí výukových programů GroupDocs.Signature for .NET. Vylepšete zabezpečení pomocí vyhledávání čárových kódů, digitálních kódů, obrázků, textů a QR kódů.
-type: docs
 weight: 23
 url: /cs/net/signature-searching/
 ---

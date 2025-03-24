@@ -3,7 +3,6 @@ title: Barkodu Güncelle
 linktitle: Barkodu Güncelle
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki barkod imzalarını nasıl güncelleyeceğinizi öğrenin. Kusursuz entegrasyon için adım adım kılavuz.
-type: docs
 weight: 10
 url: /tr/net/update-operations/update-barcode/
 ---

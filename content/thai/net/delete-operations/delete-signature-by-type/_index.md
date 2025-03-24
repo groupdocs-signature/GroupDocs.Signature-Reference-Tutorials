@@ -3,7 +3,6 @@ title: ลบลายเซ็นตามประเภท
 linktitle: ลบลายเซ็นตามประเภท
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีลบลายเซ็นตามประเภทในเอกสาร .NET ได้อย่างง่ายดายโดยใช้ GroupDocs.Signature ช่วยเพิ่มประสิทธิภาพในการจัดการเอกสาร
-type: docs
 weight: 12
 url: /th/net/delete-operations/delete-signature-by-type/
 ---

@@ -3,7 +3,6 @@ title: Perbarui Operasi
 linktitle: Perbarui Operasi
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Perbarui kode batang, gambar, kode QR, dan tanda tangan teks di dokumen .NET dengan tutorial GroupDocs.Signature untuk .NET. Meningkatkan keamanan dan manajemen dokumen.
-type: docs
 weight: 26
 url: /id/net/update-operations/
 ---

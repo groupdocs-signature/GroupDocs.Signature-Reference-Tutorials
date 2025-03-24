@@ -3,7 +3,6 @@ title: Διαγραφή υπογραφής κειμένου
 linktitle: Διαγραφή υπογραφής κειμένου
 second_title: GroupDocs.Signature .NET API
 description: Διαγράψτε εύκολα υπογραφές κειμένου από έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET. Απλοποιήστε τις εργασίες διαχείρισης εγγράφων σας.
-type: docs
 weight: 17
 url: /el/net/delete-operations/delete-text-signature/
 ---

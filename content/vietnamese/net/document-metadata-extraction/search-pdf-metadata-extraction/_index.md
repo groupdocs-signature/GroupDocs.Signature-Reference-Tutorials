@@ -3,7 +3,6 @@ title: Tìm kiếm trích xuất siêu dữ liệu PDF
 linktitle: Tìm kiếm trích xuất siêu dữ liệu PDF
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách tìm kiếm và trích xuất chữ ký siêu dữ liệu từ tài liệu PDF bằng GroupDocs.Signature cho .NET. Tăng cường khả năng quản lý tài liệu của bạn.
-type: docs
 weight: 11
 url: /vi/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---

@@ -3,7 +3,6 @@ title: Signatursuche
 linktitle: Signatursuche
 second_title: GroupDocs.Signature .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET-Tutorials nach Signaturen in .NET-Dokumenten suchen. Erhöhen Sie die Sicherheit mit Barcode-, Digital-, Bild-, Text- und QR-Code-Suchen.
-type: docs
 weight: 23
 url: /de/net/signature-searching/
 ---

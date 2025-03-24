@@ -3,7 +3,6 @@ title: Excluir assinatura do código QR do documento
 linktitle: Excluir assinatura do código QR do documento
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como excluir assinaturas de código QR de documentos usando GroupDocs.Signature for .NET. Siga nosso guia passo a passo para um gerenciamento eficiente de assinaturas.
-type: docs
 weight: 16
 url: /pt/net/delete-operations/delete-qr-code-signature/
 ---

@@ -3,7 +3,6 @@ title: एकाधिक विकल्पों के साथ हस्त
 linktitle: एकाधिक विकल्पों के साथ हस्ताक्षर करना
 second_title: GroupDocs.Signature .NET API
 description: .NET के लिए GroupDocs.Signature का उपयोग करके कई विकल्पों के साथ दस्तावेज़ों पर हस्ताक्षर करना सीखें। टेक्स्ट, बारकोड, क्यूआर कोड, डिजिटल और छवि के साथ दस्तावेज़ सुरक्षा बढ़ाएँ।
-type: docs
 weight: 14
 url: /hi/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

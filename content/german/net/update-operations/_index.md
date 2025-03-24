@@ -3,7 +3,6 @@ title: Aktualisierungsvorgänge
 linktitle: Aktualisierungsvorgänge
 second_title: GroupDocs.Signature .NET-API
 description: Aktualisieren Sie Barcode-, Bild-, QR-Code- und Textsignaturen in .NET-Dokumenten mit GroupDocs.Signature für .NET-Tutorials. Verbessern Sie die Dokumentensicherheit und -verwaltung.
-type: docs
 weight: 26
 url: /de/net/update-operations/
 ---

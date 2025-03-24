@@ -3,7 +3,6 @@ title: التحقق من الباركود
 linktitle: التحقق من الباركود
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية التحقق من الرموز الشريطية داخل المستندات باستخدام GroupDocs.Signature لـ .NET. اتبع برنامجنا التعليمي خطوة بخطوة للتنفيذ السلس.
-type: docs
 weight: 10
 url: /ar/net/verify-operations/verify-barcode/
 ---

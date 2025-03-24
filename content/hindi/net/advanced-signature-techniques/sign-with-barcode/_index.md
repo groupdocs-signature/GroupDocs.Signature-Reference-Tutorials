@@ -3,7 +3,6 @@ title: बारकोड से हस्ताक्षर करना
 linktitle: बारकोड से हस्ताक्षर करना
 second_title: GroupDocs.Signature .NET API
 description: .NET के लिए GroupDocs.Signature का उपयोग करके बारकोड के साथ दस्तावेज़ों पर हस्ताक्षर करना सीखें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 11
 url: /hi/net/advanced-signature-techniques/sign-with-barcode/
 ---

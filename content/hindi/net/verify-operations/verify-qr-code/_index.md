@@ -3,7 +3,6 @@ title: QR कोड सत्यापित करें
 linktitle: QR कोड सत्यापित करें
 second_title: GroupDocs.Signature .NET API
 description: .NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में QR कोड सत्यापित करना सीखें। चरण-दर-चरण मार्गदर्शिका के साथ व्यापक ट्यूटोरियल।
-type: docs
 weight: 12
 url: /hi/net/verify-operations/verify-qr-code/
 ---
@@ -79,4 +78,4 @@ else
 ### क्या मैं .NET के लिए GroupDocs.Signature का अस्थायी लाइसेंस खरीद सकता हूँ?
  हाँ, अस्थायी लाइसेंस खरीद के लिए उपलब्ध हैं[ग्रुपडॉक्स खरीद पृष्ठ](https://purchase.groupdocs.com/temporary-license/).
 ### क्या .NET के लिए GroupDocs.Signature के लिए व्यापक दस्तावेज़ उपलब्ध हैं?
- बिल्कुल, आप दिए गए विस्तृत दस्तावेज़ का संदर्भ ले सकते हैं[यहाँ](https://reference.groupdocs.com/signature/net/) .NET के लिए GroupDocs.Signature की कार्यक्षमताओं के उपयोग पर व्यापक मार्गदर्शन के लिए।
+ बिल्कुल, आप दिए गए विस्तृत दस्तावेज़ का संदर्भ ले सकते हैं[यहाँ](https://tutorials.groupdocs.com/signature/net/) .NET के लिए GroupDocs.Signature की कार्यक्षमताओं के उपयोग पर व्यापक मार्गदर्शन के लिए।

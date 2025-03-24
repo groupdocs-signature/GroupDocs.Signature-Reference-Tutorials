@@ -3,7 +3,6 @@ title: Zobrazit historii zpracování dokumentu
 linktitle: Zobrazit historii zpracování dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Objevte, jak snadno zobrazit historii zpracování dokumentů pomocí GroupDocs.Signature pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou správu pracovních postupů.
-type: docs
 weight: 12
 url: /cs/net/document-preview-operations/view-document-processing-history/
 ---

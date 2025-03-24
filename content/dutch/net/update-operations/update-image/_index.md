@@ -3,7 +3,6 @@ title: Afbeelding bijwerken
 linktitle: Afbeelding bijwerken
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u afbeeldingshandtekeningen in .NET-documenten moeiteloos kunt bijwerken met GroupDocs.Signature. Verbeter de documentbeveiliging en -integriteit naadloos.
-type: docs
 weight: 11
 url: /nl/net/update-operations/update-image/
 ---

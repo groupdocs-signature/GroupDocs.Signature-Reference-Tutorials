@@ -3,7 +3,6 @@ title: Keresés a prezentáció metaadatainak kinyerése
 linktitle: Keresés a prezentáció metaadatainak kinyerése
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan bonthatja ki a prezentáció metaadatait a GroupDocs.Signature for .NET segítségével. Fokozatmentesen fokozza dokumentumkezelési képességeit.
-type: docs
 weight: 12
 url: /hu/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

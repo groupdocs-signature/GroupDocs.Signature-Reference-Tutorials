@@ -3,7 +3,6 @@ title: Sign Presentation with Metadata
 linktitle: Sign Presentation with Metadata
 second_title: GroupDocs.Signature .NET API
 description: Learn how to sign presentation files with metadata using GroupDocs.Signature for .NET. Enhance document integrity and add valuable information.
-type: docs
 weight: 12
 url: /net/document-signing/sign-presentation-with-metadata/
 ---

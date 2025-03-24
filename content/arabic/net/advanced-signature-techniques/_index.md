@@ -3,7 +3,6 @@ title: تقنيات التوقيع المتقدمة
 linktitle: تقنيات التوقيع المتقدمة
 second_title: GroupDocs.Signature .NET API
 description: تعلم تقنيات التوقيع المتقدمة باستخدام GroupDocs.Signature لبرامج .NET التعليمية. قم بتوقيع ملفات PDF والصور والمستندات بسلاسة باستخدام الرمز الشريطي والرقمي والمزيد.
-type: docs
 weight: 25
 url: /ar/net/advanced-signature-techniques/
 ---

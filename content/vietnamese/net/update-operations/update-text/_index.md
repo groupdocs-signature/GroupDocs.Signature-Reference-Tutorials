@@ -3,7 +3,6 @@ title: Cập nhật văn bản
 linktitle: Cập nhật văn bản
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách cập nhật văn bản trong tài liệu bằng GroupDocs.Signature cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 13
 url: /vi/net/update-operations/update-text/
 ---

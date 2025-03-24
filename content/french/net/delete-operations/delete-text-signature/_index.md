@@ -3,7 +3,6 @@ title: Supprimer la signature textuelle
 linktitle: Supprimer la signature textuelle
 second_title: API GroupDocs.Signature .NET
 description: Supprimez sans effort les signatures de texte des documents à l'aide de GroupDocs.Signature pour .NET. Simplifiez vos tâches de gestion documentaire.
-type: docs
 weight: 17
 url: /fr/net/delete-operations/delete-text-signature/
 ---

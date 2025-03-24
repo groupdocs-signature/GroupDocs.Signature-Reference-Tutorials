@@ -3,7 +3,6 @@ title: Podpisywanie dokumentów obrazem przy użyciu GroupDocs.Signature
 linktitle: Podpisywanie obrazem
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak podpisywać dokumenty przy użyciu obrazów w aplikacjach .NET za pomocą Groupdocs.Signature for .NET. Bez wysiłku zwiększ bezpieczeństwo i autentyczność dokumentów.
-type: docs
 weight: 13
 url: /pl/net/advanced-signature-techniques/sign-with-image/
 ---

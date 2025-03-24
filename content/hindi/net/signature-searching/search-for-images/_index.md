@@ -3,7 +3,6 @@ title: छवियाँ खोजें
 linktitle: छवियाँ खोजें
 second_title: GroupDocs.Signature .NET API
 description: .NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में छवियों को खोजना सीखें। दस्तावेज़ सुरक्षा और अखंडता को सहजता से बढ़ाएँ।
-type: docs
 weight: 13
 url: /hi/net/signature-searching/search-for-images/
 ---
@@ -69,4 +68,4 @@ foreach (ImageSignature imageSignature in signatures)
 ### क्या मैं .NET के लिए GroupDocs.Signature का उपयोग करके जोड़े गए डिजिटल हस्ताक्षरों के स्वरूप को अनुकूलित कर सकता हूँ?
 निश्चित रूप से! GroupDocs.Signature व्यापक अनुकूलन विकल्प प्रदान करता है, जिससे आप अपनी विशिष्ट आवश्यकताओं के अनुसार डिजिटल हस्ताक्षर की उपस्थिति को अनुकूलित कर सकते हैं।
 ### मुझे .NET के लिए GroupDocs.Signature के लिए समर्थन या अतिरिक्त संसाधन कहां मिल सकते हैं?
- आप GroupDocs.Signature फोरम पर जा सकते हैं[इस लिंक](https://forum.groupdocs.com/c/signature/13) सहायता के लिए, या उपलब्ध व्यापक दस्तावेज़ देखें[यहाँ](https://reference.groupdocs.com/signature/net/).
+ आप GroupDocs.Signature फोरम पर जा सकते हैं[इस लिंक](https://forum.groupdocs.com/c/signature/13) सहायता के लिए, या उपलब्ध व्यापक दस्तावेज़ देखें[यहाँ](https://tutorials.groupdocs.com/signature/net/).

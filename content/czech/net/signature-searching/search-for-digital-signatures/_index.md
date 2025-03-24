@@ -3,7 +3,6 @@ title: Vyhledejte digitální podpisy
 linktitle: Vyhledejte digitální podpisy
 second_title: GroupDocs.Signature .NET API
 description: Naučte se vyhledávat digitální podpisy v dokumentech pomocí GroupDocs.Signature for .NET. Vylepšete zabezpečení a integritu dokumentů pomocí tohoto komplexního řešení.
-type: docs
 weight: 11
 url: /cs/net/signature-searching/search-for-digital-signatures/
 ---
@@ -58,7 +57,7 @@ Ano, GroupDocs.Signature for .NET podporuje různé formáty dokumentů, včetn�
 ### Je k dispozici bezplatná zkušební verze pro GroupDocs.Signature pro .NET?
 Ano, máte přístup k bezplatné zkušební verzi GroupDocs.Signature for .NET z[tady](https://releases.groupdocs.com/).
 ### Kde najdu dokumentaci k GroupDocs.Signature pro .NET?
- Můžete najít podrobnou dokumentaci k GroupDocs.Signature pro .NET[tady](https://reference.groupdocs.com/signature/net/).
+ Můžete najít podrobnou dokumentaci k GroupDocs.Signature pro .NET[tady](https://tutorials.groupdocs.com/signature/net/).
 ### Jak mohu získat dočasné licence pro GroupDocs.Signature pro .NET?
  Lze získat dočasné licence pro GroupDocs.Signature for .NET[tady](https://purchase.groupdocs.com/temporary-license/).
 ### Kde mohu hledat podporu pro GroupDocs.Signature pro .NET?

@@ -3,7 +3,6 @@ title: QR 코드 업데이트
 linktitle: QR 코드 업데이트
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 문서 내의 QR 코드를 손쉽게 업데이트하는 방법을 알아보세요. 문서 관리를 쉽게 강화하세요.
-type: docs
 weight: 12
 url: /ko/net/update-operations/update-qr-code/
 ---

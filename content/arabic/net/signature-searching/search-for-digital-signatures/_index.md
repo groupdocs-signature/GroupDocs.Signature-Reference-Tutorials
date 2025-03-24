@@ -3,7 +3,6 @@ title: البحث عن التوقيعات الرقمية
 linktitle: البحث عن التوقيعات الرقمية
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية البحث عن التوقيعات الرقمية في المستندات باستخدام GroupDocs.Signature لـ .NET. قم بتعزيز أمان المستندات وسلامتها باستخدام هذا البرنامج الشامل.
-type: docs
 weight: 11
 url: /ar/net/signature-searching/search-for-digital-signatures/
 ---
@@ -58,7 +57,7 @@ using (Signature signature = new Signature(filePath))
 ### هل هناك نسخة تجريبية مجانية متاحة لـ GroupDocs.Signature لـ .NET؟
 نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من GroupDocs.Signature لـ .NET من[هنا](https://releases.groupdocs.com/).
 ### أين يمكنني العثور على وثائق GroupDocs.Signature لـ .NET؟
- يمكنك العثور على وثائق مفصلة عن GroupDocs.Signature لـ .NET[هنا](https://reference.groupdocs.com/signature/net/).
+ يمكنك العثور على وثائق مفصلة عن GroupDocs.Signature لـ .NET[هنا](https://tutorials.groupdocs.com/signature/net/).
 ### كيف يمكنني الحصول على تراخيص مؤقتة لـ GroupDocs.Signature لـ .NET؟
  يمكن الحصول على تراخيص مؤقتة لـ GroupDocs.Signature لـ .NET[هنا](https://purchase.groupdocs.com/temporary-license/).
 ### أين يمكنني طلب الدعم بخصوص GroupDocs.Signature لـ .NET؟

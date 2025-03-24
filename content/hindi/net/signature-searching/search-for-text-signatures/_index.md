@@ -3,7 +3,6 @@ title: पाठ हस्ताक्षर खोजें
 linktitle: पाठ हस्ताक्षर खोजें
 second_title: GroupDocs.Signature .NET API
 description: .NET के लिए GroupDocs.Signature का उपयोग करके डिजिटल दस्तावेज़ों में टेक्स्ट हस्ताक्षरों की खोज करना सीखें। कुशल कार्यान्वयन के लिए चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 16
 url: /hi/net/signature-searching/search-for-text-signatures/
 ---

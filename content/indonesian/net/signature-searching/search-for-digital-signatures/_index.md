@@ -3,7 +3,6 @@ title: Cari Tanda Tangan Digital
 linktitle: Cari Tanda Tangan Digital
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara mencari tanda tangan digital dalam dokumen menggunakan GroupDocs.Signature untuk .NET. Tingkatkan keamanan dan integritas dokumen dengan komprehensif ini.
-type: docs
 weight: 11
 url: /id/net/signature-searching/search-for-digital-signatures/
 ---
@@ -58,7 +57,7 @@ Ya, GroupDocs.Signature untuk .NET mendukung berbagai format dokumen, termasuk P
 ### Apakah ada uji coba gratis yang tersedia untuk GroupDocs.Signature untuk .NET?
 Ya, Anda dapat mengakses uji coba gratis GroupDocs.Signature untuk .NET dari[Di Sini](https://releases.groupdocs.com/).
 ### Di mana saya dapat menemukan dokumentasi untuk GroupDocs.Signature untuk .NET?
- Anda dapat menemukan dokumentasi terperinci untuk GroupDocs.Signature untuk .NET[Di Sini](https://reference.groupdocs.com/signature/net/).
+ Anda dapat menemukan dokumentasi terperinci untuk GroupDocs.Signature untuk .NET[Di Sini](https://tutorials.groupdocs.com/signature/net/).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk GroupDocs.Signature untuk .NET?
  Lisensi sementara untuk GroupDocs.Signature untuk .NET dapat diperoleh[Di Sini](https://purchase.groupdocs.com/temporary-license/).
 ### Di mana saya dapat mencari dukungan untuk GroupDocs.Signature untuk .NET?

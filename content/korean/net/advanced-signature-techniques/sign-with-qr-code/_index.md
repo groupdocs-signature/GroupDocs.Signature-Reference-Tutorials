@@ -3,7 +3,6 @@ title: GroupDocs.Signature를 사용하여 QR 코드로 문서 서명
 linktitle: QR 코드로 서명
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 문서에 QR 코드 서명을 추가하는 방법을 알아보세요. 보안과 인증을 손쉽게 강화하세요.
-type: docs
 weight: 15
 url: /ko/net/advanced-signature-techniques/sign-with-qr-code/
 ---

@@ -3,7 +3,6 @@ title: छवि अपडेट करें
 linktitle: छवि अपडेट करें
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature का उपयोग करके .NET दस्तावेज़ों में छवि हस्ताक्षरों को आसानी से अपडेट करना सीखें। दस्तावेज़ सुरक्षा और अखंडता को सहजता से बढ़ाएँ।
-type: docs
 weight: 11
 url: /hi/net/update-operations/update-image/
 ---

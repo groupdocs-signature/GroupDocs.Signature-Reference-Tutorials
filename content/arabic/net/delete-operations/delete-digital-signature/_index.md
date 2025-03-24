@@ -3,7 +3,6 @@ title: حذف التوقيع الرقمي من المستند
 linktitle: حذف التوقيع الرقمي من المستند
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية حذف التوقيعات الرقمية من المستندات باستخدام GroupDocs.Signature لـ .NET. اتبع دليلنا خطوة بخطوة للإدارة الفعالة.
-type: docs
 weight: 13
 url: /ar/net/delete-operations/delete-digital-signature/
 ---

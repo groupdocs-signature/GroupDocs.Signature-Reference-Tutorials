@@ -3,7 +3,6 @@ title: Görselleri Ara
 linktitle: Görselleri Ara
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki görselleri nasıl arayacağınızı öğrenin. Belge güvenliğini ve bütünlüğünü zahmetsizce geliştirin.
-type: docs
 weight: 13
 url: /tr/net/signature-searching/search-for-images/
 ---
@@ -69,4 +68,4 @@ Evet, GroupDocs.Signature, biyometrik imza desteği de dahil olmak üzere geliş
 ### GroupDocs.Signature for .NET kullanılarak eklenen dijital imzaların görünümünü özelleştirebilir miyim?
 Kesinlikle! GroupDocs.Signature, dijital imzaların görünümünü özel gereksinimlerinize göre uyarlamanıza olanak tanıyan kapsamlı özelleştirme seçenekleri sunar.
 ### GroupDocs.Signature for .NET için desteği veya ek kaynakları nerede bulabilirim?
- GroupDocs.Signature forumunu şu adreste ziyaret edebilirsiniz:[bu bağlantı](https://forum.groupdocs.com/c/signature/13) yardım için veya mevcut kapsamlı belgelere bakın[Burada](https://reference.groupdocs.com/signature/net/).
+ GroupDocs.Signature forumunu şu adreste ziyaret edebilirsiniz:[bu bağlantı](https://forum.groupdocs.com/c/signature/13) yardım için veya mevcut kapsamlı belgelere bakın[Burada](https://tutorials.groupdocs.com/signature/net/).

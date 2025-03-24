@@ -3,7 +3,6 @@ title: Tạo bản xem trước tài liệu
 linktitle: Tạo bản xem trước tài liệu
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách tạo bản xem trước tài liệu bằng GroupDocs.Signature cho .NET. Đơn giản hóa việc quản lý tài liệu trong các ứng dụng .NET của bạn.
-type: docs
 weight: 10
 url: /vi/net/document-preview-operations/generate-document-preview/
 ---

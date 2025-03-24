@@ -3,7 +3,6 @@ title: Zoek spreadsheet-metagegevensextractie
 linktitle: Zoek spreadsheet-metagegevensextractie
 second_title: GroupDocs.Signature .NET API
 description: Extraheer metagegevens efficiënt uit spreadsheets met GroupDocs.Signature voor .NET. Verbeter moeiteloos documentbeheer en -analyse.
-type: docs
 weight: 13
 url: /nl/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ Op het gebied van documentbeheer en -verificatie is de mogelijkheid om op effici
 ## Vereisten
 Voordat u zich verdiept in de fijne kneepjes van het zoeken naar metagegevens in spreadsheets met GroupDocs.Signature voor .NET, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 ### 1. Installatie van GroupDocs.Signature voor .NET
- Download en installeer eerst en vooral GroupDocs.Signature voor .NET door de instructies in de handleiding te volgen[documentatie](https://reference.groupdocs.com/signature/net/). Deze stap is cruciaal voor een naadloze integratie van de bibliotheek in uw .NET-omgeving.
+ Download en installeer eerst en vooral GroupDocs.Signature voor .NET door de instructies in de handleiding te volgen[documentatie](https://tutorials.groupdocs.com/signature/net/). Deze stap is cruciaal voor een naadloze integratie van de bibliotheek in uw .NET-omgeving.
 ### 2. Toegang tot voorbeeldspreadsheet
 Maak een voorbeeldspreadsheet (bijv.`sample.xlsx`) die metagegevens bevat die u wilt extraheren. Zorg ervoor dat de spreadsheet toegankelijk is binnen uw ontwikkelomgeving.
 

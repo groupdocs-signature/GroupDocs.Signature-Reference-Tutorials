@@ -3,7 +3,6 @@ title: Eliminar firma de texto
 linktitle: Eliminar firma de texto
 second_title: API GroupDocs.Signature .NET
 description: Elimine sin esfuerzo firmas de texto de documentos utilizando GroupDocs.Signature para .NET. Simplifique sus tareas de gestión de documentos.
-type: docs
 weight: 17
 url: /es/net/delete-operations/delete-text-signature/
 ---

@@ -3,7 +3,6 @@ title: Rechercher un code-barres
 linktitle: Rechercher un code-barres
 second_title: API GroupDocs.Signature .NET
 description: Découvrez comment rechercher des signatures de codes-barres dans des documents à l'aide de GroupDocs.Signature pour .NET. Suivez notre guide étape par étape et intégrez efficacement la signature.
-type: docs
 weight: 10
 url: /fr/net/signature-searching/search-for-barcode/
 ---

@@ -3,7 +3,6 @@ title: Törölje a digitális aláírást a dokumentumból
 linktitle: Törölje a digitális aláírást a dokumentumból
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan törölhet digitális aláírásokat dokumentumokból a GroupDocs.Signature for .NET használatával. Kövesse lépésenkénti útmutatónkat a hatékony kezelés érdekében.
-type: docs
 weight: 13
 url: /hu/net/delete-operations/delete-digital-signature/
 ---

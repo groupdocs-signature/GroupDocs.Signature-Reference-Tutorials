@@ -3,7 +3,6 @@ title: Αναζήτηση Εξαγωγή Μεταδεδομένων Επεξερ
 linktitle: Αναζήτηση Εξαγωγή Μεταδεδομένων Επεξεργασίας Κειμένου
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να αναζητάτε μεταδεδομένα επεξεργασίας κειμένου χρησιμοποιώντας το GroupDocs.Signature για .NET. Βελτιώστε τη διαχείριση εγγράφων με ευκολία.
-type: docs
 weight: 14
 url: /el/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
@@ -56,7 +55,7 @@ foreach (WordProcessingMetadataSignature mdSignature in signatures)
 ### Είναι το GroupDocs.Signature κατάλληλο για διαχείριση εγγράφων σε επίπεδο επιχείρησης;
 Οπωσδήποτε, το GroupDocs.Signature προσφέρει ισχυρές δυνατότητες προσαρμοσμένες σε εταιρικά περιβάλλοντα, διασφαλίζοντας ασφαλείς και αξιόπιστες λύσεις διαχείρισης εγγράφων.
 ### Το GroupDocs.Signature παρέχει ολοκληρωμένη τεκμηρίωση για προγραμματιστές;
- Ναι, οι προγραμματιστές μπορούν να βρουν λεπτομερή τεκμηρίωση, συμπεριλαμβανομένων αναφορών API και παραδειγμάτων κώδικα, στο[σελίδα τεκμηρίωσης](https://reference.groupdocs.com/signature/net/).
+ Ναι, οι προγραμματιστές μπορούν να βρουν λεπτομερή τεκμηρίωση, συμπεριλαμβανομένων αναφορών API και παραδειγμάτων κώδικα, στο[σελίδα τεκμηρίωσης](https://tutorials.groupdocs.com/signature/net/).
 ### Μπορώ να δοκιμάσω το GroupDocs.Signature πριν από την αγορά;
  Ναι, οι ενδιαφερόμενοι χρήστες μπορούν να επωφεληθούν από μια δωρεάν δοκιμή του GroupDocs.Signature από το[δικτυακός τόπος](https://releases.groupdocs.com/).
 ### Πού μπορώ να αναζητήσω υποστήριξη για το GroupDocs.Signature;

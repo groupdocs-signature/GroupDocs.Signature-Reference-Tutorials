@@ -3,7 +3,6 @@ title: 使用元数据签署演示文稿
 linktitle: 使用元数据签署演示文稿
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 使用元数据对演示文稿文件进行签名。增强文档完整性并添加有价值的信息。
-type: docs
 weight: 12
 url: /zh/net/document-signing/sign-presentation-with-metadata/
 ---

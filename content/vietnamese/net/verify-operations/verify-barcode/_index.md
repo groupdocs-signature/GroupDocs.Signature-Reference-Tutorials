@@ -3,7 +3,6 @@ title: Xác minh mã vạch
 linktitle: Xác minh mã vạch
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách xác minh mã vạch trong tài liệu bằng GroupDocs.Signature cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để triển khai liền mạch.
-type: docs
 weight: 10
 url: /vi/net/verify-operations/verify-barcode/
 ---

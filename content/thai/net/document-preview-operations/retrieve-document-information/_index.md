@@ -3,7 +3,6 @@ title: ดึงข้อมูลเอกสาร
 linktitle: ดึงข้อมูลเอกสาร
 second_title: GroupDocs.Signature .NET API
 description: ปรับปรุงการจัดการเอกสารใน .NET ด้วย GroupDocs.Signature ดึงข้อมูลเอกสารทีละขั้นตอน รองรับรูปแบบต่างๆ
-type: docs
 weight: 11
 url: /th/net/document-preview-operations/retrieve-document-information/
 ---
@@ -75,6 +74,6 @@ GroupDocs.Signature สำหรับ .NET นำเสนอชุดเคร
 ### GroupDocs.Signature สำหรับ .NET ให้การสนับสนุนลายเซ็นดิจิทัลหรือไม่
 GroupDocs.Signature ให้การสนับสนุนลายเซ็นดิจิทัลอย่างมีประสิทธิภาพ ช่วยให้มั่นใจในความถูกต้องและความสมบูรณ์ของเอกสาร
 ### ฉันจะหาเอกสารและการสนับสนุนเพิ่มเติมสำหรับ GroupDocs.Signature สำหรับ .NET ได้ที่ไหน
- คุณสามารถดูเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://reference.groupdocs.com/signature/net/) และหากต้องการการสนับสนุน โปรดไปที่ฟอรัม GroupDocs[ที่นี่](https://forum.groupdocs.com/c/signature/13).
+ คุณสามารถดูเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://tutorials.groupdocs.com/signature/net/) และหากต้องการการสนับสนุน โปรดไปที่ฟอรัม GroupDocs[ที่นี่](https://forum.groupdocs.com/c/signature/13).
 ### สามารถรับใบอนุญาตชั่วคราวสำหรับ GroupDocs.Signature สำหรับ .NET ได้หรือไม่
  ใช่ ใบอนุญาตชั่วคราวพร้อมสำหรับการซื้อ[ที่นี่](https://purchase.groupdocs.com/temporary-license/).

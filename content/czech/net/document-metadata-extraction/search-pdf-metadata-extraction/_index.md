@@ -3,7 +3,6 @@ title: Prohledejte extrakci metadat PDF
 linktitle: Prohledejte extrakci metadat PDF
 second_title: GroupDocs.Signature .NET API
 description: Naučte se vyhledávat a extrahovat podpisy metadat z dokumentů PDF pomocí GroupDocs.Signature for .NET. Zvyšte své možnosti správy dokumentů.
-type: docs
 weight: 11
 url: /cs/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---

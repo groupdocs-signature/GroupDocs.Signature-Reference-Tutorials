@@ -3,7 +3,6 @@ title: Διαγράψτε την υπογραφή κωδικού QR από το 
 linktitle: Διαγράψτε την υπογραφή κωδικού QR από το έγγραφο
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να διαγράφετε υπογραφές κώδικα QR από έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική διαχείριση υπογραφών.
-type: docs
 weight: 16
 url: /el/net/delete-operations/delete-qr-code-signature/
 ---

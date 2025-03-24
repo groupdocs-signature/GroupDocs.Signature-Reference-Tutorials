@@ -3,7 +3,6 @@ title: ยืนยันข้อความ
 linktitle: ยืนยันข้อความ
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีตรวจสอบข้อความในเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 13
 url: /th/net/verify-operations/verify-text/
 ---

@@ -3,7 +3,6 @@ title: Υπογραφή με Barcode
 linktitle: Υπογραφή με Barcode
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να υπογράφετε έγγραφα με γραμμωτό κώδικα χρησιμοποιώντας το GroupDocs.Signature για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 11
 url: /el/net/advanced-signature-techniques/sign-with-barcode/
 ---

@@ -3,7 +3,6 @@ title: बारकोड सत्यापित करें
 linktitle: बारकोड सत्यापित करें
 second_title: GroupDocs.Signature .NET API
 description: .NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में बारकोड को सत्यापित करना सीखें। निर्बाध कार्यान्वयन के लिए हमारे चरण-दर-चरण ट्यूटोरियल का पालन करें।
-type: docs
 weight: 10
 url: /hi/net/verify-operations/verify-barcode/
 ---

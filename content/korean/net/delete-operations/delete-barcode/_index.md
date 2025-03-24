@@ -3,7 +3,6 @@ title: 문서에서 바코드 삭제
 linktitle: 문서에서 바코드 삭제
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 문서에서 바코드를 삭제하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 10
 url: /ko/net/delete-operations/delete-barcode/
 ---

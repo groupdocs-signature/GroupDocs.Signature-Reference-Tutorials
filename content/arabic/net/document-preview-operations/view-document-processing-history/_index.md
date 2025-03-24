@@ -3,7 +3,6 @@ title: عرض سجل معالجة المستندات
 linktitle: عرض سجل معالجة المستندات
 second_title: GroupDocs.Signature .NET API
 description: اكتشف كيفية عرض سجل معالجة المستندات بسهولة باستخدام GroupDocs.Signature لـ .NET. اتبع دليلنا خطوة بخطوة لإدارة سير العمل بسلاسة.
-type: docs
 weight: 12
 url: /ar/net/document-preview-operations/view-document-processing-history/
 ---

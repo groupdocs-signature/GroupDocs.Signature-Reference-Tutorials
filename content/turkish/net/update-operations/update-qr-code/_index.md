@@ -3,7 +3,6 @@ title: QR Kodunu Güncelle
 linktitle: QR Kodunu Güncelle
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki QR kodlarını zahmetsizce nasıl güncelleyeceğinizi öğrenin. Belge yönetimini kolaylıkla geliştirin.
-type: docs
 weight: 12
 url: /tr/net/update-operations/update-qr-code/
 ---

@@ -3,7 +3,6 @@ title: Cari Tanda Tangan Teks
 linktitle: Cari Tanda Tangan Teks
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara mencari tanda tangan teks dalam dokumen digital menggunakan GroupDocs.Signature untuk .NET. Panduan langkah demi langkah untuk implementasi yang efisien.
-type: docs
 weight: 16
 url: /id/net/signature-searching/search-for-text-signatures/
 ---

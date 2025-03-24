@@ -3,7 +3,6 @@ title: Prezentáció aláírása metaadatokkal
 linktitle: Prezentáció aláírása metaadatokkal
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan írhat alá prezentációs fájlokat metaadatokkal a GroupDocs.Signature for .NET használatával. Növelje a dokumentum integritását és adjon hozzá értékes információkat.
-type: docs
 weight: 12
 url: /hu/net/document-signing/sign-presentation-with-metadata/
 ---

@@ -3,7 +3,6 @@ title: Поиск подписи
 linktitle: Поиск подписи
 second_title: GroupDocs.Signature .NET API
 description: Научитесь искать подписи в документах .NET с помощью руководств GroupDocs.Signature для .NET. Повысьте безопасность с помощью поиска по штрих-коду, цифровому коду, изображению, тексту и QR-коду.
-type: docs
 weight: 23
 url: /ru/net/signature-searching/
 ---

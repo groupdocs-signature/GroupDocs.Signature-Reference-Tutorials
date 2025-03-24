@@ -3,7 +3,6 @@ title: 驗證文字
 linktitle: 驗證文字
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 驗證文件中的文字。請按照我們的逐步教學進行無縫整合。
-type: docs
 weight: 13
 url: /zh-hant/net/verify-operations/verify-text/
 ---

@@ -3,7 +3,6 @@ title: GroupDocs.Signature Kullanarak Belgeleri QR Koduyla İmzalama
 linktitle: QR Kod ile İmzalama
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET ile belgelerinize QR kodu imzalarını nasıl ekleyeceğinizi öğrenin. Güvenliği ve kimlik doğrulamayı zahmetsizce geliştirin.
-type: docs
 weight: 15
 url: /tr/net/advanced-signature-techniques/sign-with-qr-code/
 ---

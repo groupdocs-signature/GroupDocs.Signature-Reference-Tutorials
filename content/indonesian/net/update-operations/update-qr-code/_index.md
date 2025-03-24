@@ -3,7 +3,6 @@ title: Perbarui Kode QR
 linktitle: Perbarui Kode QR
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara memperbarui kode QR dalam dokumen dengan mudah menggunakan GroupDocs.Signature untuk .NET. Tingkatkan manajemen dokumen dengan mudah.
-type: docs
 weight: 12
 url: /id/net/update-operations/update-qr-code/
 ---

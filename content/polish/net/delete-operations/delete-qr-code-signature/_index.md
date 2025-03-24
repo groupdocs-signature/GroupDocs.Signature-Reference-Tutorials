@@ -3,7 +3,6 @@ title: Usuń podpis kodu QR z dokumentu
 linktitle: Usuń podpis kodu QR z dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak usunąć podpisy kodów QR z dokumentów za pomocą GroupDocs.Signature for .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie zarządzać podpisami.
-type: docs
 weight: 16
 url: /pl/net/delete-operations/delete-qr-code-signature/
 ---

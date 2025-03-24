@@ -3,7 +3,6 @@ title: 搜尋電子表格元資料擷取
 linktitle: 搜尋電子表格元資料擷取
 second_title: GroupDocs.Signature .NET API
 description: 使用 GroupDocs.Signature for .NET 從電子表格中有效提取元資料。輕鬆增強文件管理和分析。
-type: docs
 weight: 13
 url: /zh-hant/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ url: /zh-hant/net/document-metadata-extraction/search-spreadsheet-metadata-extra
 ## 先決條件
 在深入研究使用 GroupDocs.Signature for .NET 搜尋電子表格元資料的複雜性之前，請確保您具備以下先決條件：
 ### 1.安裝.NET的GroupDocs.Signature
-首先也是最重要的，請按照以下中提供的說明下載並安裝 GroupDocs.Signature for .NET[文件](https://reference.groupdocs.com/signature/net/)。此步驟對於將程式庫無縫整合到 .NET 環境中至關重要。
+首先也是最重要的，請按照以下中提供的說明下載並安裝 GroupDocs.Signature for .NET[文件](https://tutorials.groupdocs.com/signature/net/)。此步驟對於將程式庫無縫整合到 .NET 環境中至關重要。
 ### 2. 存取範例電子表格
 準備一個範例電子表格（例如，`sample.xlsx`）包含您想要提取的元資料。確保電子表格可在您的開發環境中存取。
 

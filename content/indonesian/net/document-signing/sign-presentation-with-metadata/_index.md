@@ -3,7 +3,6 @@ title: Tanda Tangani Presentasi dengan Metadata
 linktitle: Tanda Tangani Presentasi dengan Metadata
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menandatangani file presentasi dengan metadata menggunakan GroupDocs.Signature untuk .NET. Tingkatkan integritas dokumen dan tambahkan informasi berharga.
-type: docs
 weight: 12
 url: /id/net/document-signing/sign-presentation-with-metadata/
 ---

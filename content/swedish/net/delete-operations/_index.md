@@ -3,7 +3,6 @@ title: Ta bort operationer
 linktitle: Ta bort operationer
 second_title: GroupDocs.Signature .NET API
 description: Ta bort signaturer, streckkoder och mer från .NET-dokument med GroupDocs.Signature. Utforska handledningar för effektiv dokumenthantering nu!
-type: docs
 weight: 20
 url: /sv/net/delete-operations/
 ---

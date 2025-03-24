@@ -3,7 +3,6 @@ title: ตรวจสอบลายเซ็นดิจิทัล
 linktitle: ตรวจสอบลายเซ็นดิจิทัล
 second_title: GroupDocs.Signature .NET API
 description: ตรวจสอบลายเซ็นดิจิทัลใน .NET ได้อย่างง่ายดายโดยใช้ GroupDocs.Signature รับประกันความถูกต้องและความสมบูรณ์ของเอกสารได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/net/verify-operations/verify-digital/
 ---

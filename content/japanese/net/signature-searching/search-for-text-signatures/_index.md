@@ -3,7 +3,6 @@ title: テキスト署名の検索
 linktitle: テキスト署名の検索
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してデジタル ドキュメント内のテキスト署名を検索する方法を学びます。効率的な実装のためのステップ バイ ステップ ガイド。
-type: docs
 weight: 16
 url: /ja/net/signature-searching/search-for-text-signatures/
 ---

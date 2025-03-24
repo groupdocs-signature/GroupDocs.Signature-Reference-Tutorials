@@ -3,7 +3,6 @@ title: Extraction de métadonnées de présentation de recherche
 linktitle: Extraction de métadonnées de présentation de recherche
 second_title: API GroupDocs.Signature .NET
 description: Découvrez comment extraire les métadonnées de présentation à l’aide de GroupDocs.Signature pour .NET. Améliorez vos capacités de gestion de documents sans effort.
-type: docs
 weight: 12
 url: /fr/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

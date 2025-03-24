@@ -3,7 +3,6 @@ title: Διαγραφή ψηφιακής υπογραφής από το έγγρ
 linktitle: Διαγραφή ψηφιακής υπογραφής από το έγγραφο
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να διαγράφετε ψηφιακές υπογραφές από έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική διαχείριση.
-type: docs
 weight: 13
 url: /el/net/delete-operations/delete-digital-signature/
 ---

@@ -3,7 +3,6 @@ title: Xác minh hoạt động
 linktitle: Xác minh hoạt động
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách xác minh mã vạch, chữ ký số, mã QR và văn bản trong tài liệu bằng GroupDocs.Signature .NET. Hướng dẫn từng bước để tích hợp liền mạch.
-type: docs
 weight: 27
 url: /vi/net/verify-operations/
 ---

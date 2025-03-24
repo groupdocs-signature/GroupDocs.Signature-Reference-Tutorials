@@ -3,7 +3,6 @@ title: 搜索数字签名
 linktitle: 搜索数字签名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 在文档中搜索数字签名。通过此综合功能增强文档安全性和完整性。
-type: docs
 weight: 11
 url: /zh/net/signature-searching/search-for-digital-signatures/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Signature for .NET 提供了一个强大的框架，用于在 .NET 应
 ### GroupDocs.Signature for .NET 是否有免费试用版？
 是的，您可以访问 GroupDocs.Signature for .NET 的免费试用版：[这里](https://releases.groupdocs.com/).
 ### 在哪里可以找到适用于 .NET 的 GroupDocs.Signature 文档？
-您可以找到 GroupDocs.Signature for .NET 的详细文档[这里](https://reference.groupdocs.com/signature/net/).
+您可以找到 GroupDocs.Signature for .NET 的详细文档[这里](https://tutorials.groupdocs.com/signature/net/).
 ### 如何获得 GroupDocs.Signature for .NET 的临时许可证？
 可以获得 GroupDocs.Signature for .NET 的临时许可证[这里](https://purchase.groupdocs.com/temporary-license/).
 ### 在哪里可以寻求对 GroupDocs.Signature for .NET 的支持？

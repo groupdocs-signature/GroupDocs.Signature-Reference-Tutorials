@@ -3,7 +3,6 @@ title: البحث عن حقول النموذج
 linktitle: البحث عن حقول النموذج
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية دمج وظيفة التوقيع في تطبيقات .NET الخاصة بك باستخدام GroupDocs.Signature لـ .NET. اتبع خطواتنا خطوة بخطوة لإدارة المستندات بسلاسة.
-type: docs
 weight: 12
 url: /ar/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ url: /ar/net/signature-searching/search-for-form-fields/
 قبل الغوص في استخدام GroupDocs.Signature لـ .NET، تأكد من توفر المتطلبات الأساسية التالية:
 1. Visual Studio: قم بتثبيت Visual Studio على جهاز التطوير الخاص بك.
 2.  GroupDocs.Signature لـ .NET: قم بتنزيل وتثبيت GroupDocs.Signature لمكتبة .NET من[هنا](https://releases.groupdocs.com/signature/net/).
-3.  الوصول إلى الوثائق: تعرف على الوثائق المتوفرة في[GroupDocs.Signature لتوثيق .NET](https://reference.groupdocs.com/signature/net/).
+3.  الوصول إلى الوثائق: تعرف على الوثائق المتوفرة في[GroupDocs.Signature لتوثيق .NET](https://tutorials.groupdocs.com/signature/net/).
 4.  الوصول إلى الدعم: في حالة وجود أي مشاكل أو استفسارات، قم بالوصول إلى منتدى الدعم على[GroupDocs.منتدى التوقيع](https://forum.groupdocs.com/c/signature/13).
 
 ## استيراد مساحات الأسماء
@@ -63,6 +62,6 @@ foreach (var FormFieldSignature in signatures)
 ### كيف يمكنني الحصول على تراخيص مؤقتة لـ GroupDocs.Signature لـ .NET؟
  يمكن الحصول على التراخيص المؤقتة من[هنا](https://purchase.groupdocs.com/temporary-license/).
 ### أين يمكنني العثور على الوثائق التفصيلية لـ GroupDocs.Signature لـ .NET؟
- الوثائق التفصيلية متاحة[هنا](https://reference.groupdocs.com/signature/net/).
+ الوثائق التفصيلية متاحة[هنا](https://tutorials.groupdocs.com/signature/net/).
 ### هل يقدم GroupDocs.Signature for .NET الدعم للمطورين؟
  نعم، يمكنك الوصول إلى دعم المطورين من خلال[GroupDocs.منتدى التوقيع](https://forum.groupdocs.com/c/signature/13).

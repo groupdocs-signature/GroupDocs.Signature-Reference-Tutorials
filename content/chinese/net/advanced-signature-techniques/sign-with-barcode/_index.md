@@ -3,7 +3,6 @@ title: 使用条形码签名
 linktitle: 使用条形码签名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 用条形码签署文档。按照我们的分步指南进行无缝集成。
-type: docs
 weight: 11
 url: /zh/net/advanced-signature-techniques/sign-with-barcode/
 ---

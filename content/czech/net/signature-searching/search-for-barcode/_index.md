@@ -3,7 +3,6 @@ title: Vyhledejte čárový kód
 linktitle: Vyhledejte čárový kód
 second_title: GroupDocs.Signature .NET API
 description: Naučte se vyhledávat podpisy čárových kódů v dokumentech pomocí GroupDocs.Signature for .NET. Postupujte podle našeho podrobného průvodce a efektivně integrujte podpis.
-type: docs
 weight: 10
 url: /cs/net/signature-searching/search-for-barcode/
 ---

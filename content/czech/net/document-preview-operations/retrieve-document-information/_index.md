@@ -3,7 +3,6 @@ title: Načíst informace o dokumentu
 linktitle: Načíst informace o dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Vylepšete správu dokumentů v .NET pomocí GroupDocs.Signature. Získejte informace o dokumentu krok za krokem. Podporuje různé formáty.
-type: docs
 weight: 11
 url: /cs/net/document-preview-operations/retrieve-document-information/
 ---
@@ -75,6 +74,6 @@ Ano, GroupDocs.Signature podporuje širokou škálu formátů dokumentů, včetn
 ### Poskytuje GroupDocs.Signature for .NET podporu pro digitální podpisy?
 GroupDocs.Signature rozhodně nabízí robustní podporu pro digitální podpisy, což zajišťuje pravost a integritu dokumentu.
 ### Kde najdu další dokumentaci a podporu pro GroupDocs.Signature pro .NET?
- Můžete se podívat na komplexní dokumentaci[tady](https://reference.groupdocs.com/signature/net/) a pro podporu navštivte fórum GroupDocs[tady](https://forum.groupdocs.com/c/signature/13).
+ Můžete se podívat na komplexní dokumentaci[tady](https://tutorials.groupdocs.com/signature/net/) a pro podporu navštivte fórum GroupDocs[tady](https://forum.groupdocs.com/c/signature/13).
 ### Lze získat dočasné licence pro GroupDocs.Signature for .NET?
  Ano, dočasné licence je možné zakoupit[tady](https://purchase.groupdocs.com/temporary-license/).

@@ -3,7 +3,6 @@ title: Assinando com Stamp usando GroupDocs.Signature
 linktitle: Assinando com Carimbo
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como adicionar assinaturas de carimbo aos seus documentos .NET facilmente com GroupDocs.Signature for .NET. Aumente a segurança dos documentos.
-type: docs
 weight: 16
 url: /pt/net/advanced-signature-techniques/sign-with-stamp/
 ---

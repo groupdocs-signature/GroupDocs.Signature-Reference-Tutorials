@@ -3,7 +3,6 @@ title: Zaawansowane techniki podpisu
 linktitle: Zaawansowane techniki podpisu
 second_title: GroupDocs.Signature .NET API
 description: Poznaj zaawansowane techniki podpisu dzięki samouczkom GroupDocs.Signature for .NET. Bezproblemowo podpisuj pliki PDF, obrazy i dokumenty za pomocą kodów kreskowych, cyfrowych i nie tylko.
-type: docs
 weight: 25
 url: /pl/net/advanced-signature-techniques/
 ---

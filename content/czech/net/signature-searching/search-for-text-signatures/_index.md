@@ -3,7 +3,6 @@ title: Vyhledejte textové podpisy
 linktitle: Vyhledejte textové podpisy
 second_title: GroupDocs.Signature .NET API
 description: Naučte se vyhledávat textové podpisy v digitálních dokumentech pomocí GroupDocs.Signature for .NET. Návod krok za krokem pro efektivní implementaci.
-type: docs
 weight: 16
 url: /cs/net/signature-searching/search-for-text-signatures/
 ---

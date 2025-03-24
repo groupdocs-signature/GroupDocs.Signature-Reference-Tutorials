@@ -3,7 +3,6 @@ title: バーコードの検索
 linktitle: バーコードの検索
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してドキュメント内のバーコード署名を検索する方法を学習します。ステップバイステップのガイドに従って、署名を効率的に統合します。
-type: docs
 weight: 10
 url: /ja/net/signature-searching/search-for-barcode/
 ---

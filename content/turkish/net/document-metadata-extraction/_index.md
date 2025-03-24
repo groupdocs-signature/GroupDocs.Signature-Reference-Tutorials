@@ -3,7 +3,6 @@ title: Belge Meta Veri Çıkarma
 linktitle: Belge Meta Veri Çıkarma
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET ile meta veri çıkarmanın gücünün kilidini açın. Gelişmiş yönetim için belge meta verilerini zahmetsizce aramayı ve çıkarmayı öğrenin.
-type: docs
 weight: 22
 url: /tr/net/document-metadata-extraction/
 ---

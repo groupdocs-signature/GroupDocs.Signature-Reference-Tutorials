@@ -3,7 +3,6 @@ title: Komplexní GroupDocs.Signature výukové programy
 linktitle: Výukové programy GroupDocs.Signature
 additionalTitle: Reference API GroupDocs
 description: Ovládněte správu dokumentů v .NET & Java pomocí GroupDocs.Signature tutoriálů. Vytvářejte, ověřujte, extrahujte metadata a další. Ponořte se do bezproblémového pracovního postupu!
-type: docs
 weight: 11
 url: /cs/
 is_root: true

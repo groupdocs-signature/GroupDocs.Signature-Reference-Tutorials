@@ -3,7 +3,6 @@ title: Verify QR Code
 linktitle: Verify QR Code
 second_title: GroupDocs.Signature .NET API
 description: Learn how to verify QR codes within documents using GroupDocs.Signature for .NET. Comprehensive tutorial with step-by-step guide.
-type: docs
 weight: 12
 url: /net/verify-operations/verify-qr-code/
 ---
@@ -79,4 +78,4 @@ Users can access support via the [forum](https://forum.groupdocs.com/c/signature
 ### Can I purchase a temporary license for GroupDocs.Signature for .NET?
 Yes, temporary licenses are available for purchase from the [GroupDocs purchase page](https://purchase.groupdocs.com/temporary-license/).
 ### Is there extensive documentation available for GroupDocs.Signature for .NET?
-Absolutely, you can refer to the detailed documentation provided [here](https://reference.groupdocs.com/signature/net/) for comprehensive guidance on utilizing the functionalities of GroupDocs.Signature for .NET.
+Absolutely, you can refer to the detailed documentation provided [here](https://tutorials.groupdocs.com/signature/net/) for comprehensive guidance on utilizing the functionalities of GroupDocs.Signature for .NET.

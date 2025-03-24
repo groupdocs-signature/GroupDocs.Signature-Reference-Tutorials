@@ -3,7 +3,6 @@ title: Onderteken PDF met metadata
 linktitle: Onderteken PDF met metadata
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u PDF-documenten met metagegevens kunt ondertekenen met GroupDocs.Signature voor .NET. Verbeter eenvoudig de traceerbaarheid en authenticiteit van documenten.
-type: docs
 weight: 11
 url: /nl/net/document-signing/sign-pdf-with-metadata/
 ---

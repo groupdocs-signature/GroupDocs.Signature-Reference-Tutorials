@@ -3,7 +3,6 @@ title: Zaktualizuj kod kreskowy
 linktitle: Zaktualizuj kod kreskowy
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak aktualizować podpisy kodów kreskowych w dokumentach za pomocą GroupDocs.Signature for .NET. Przewodnik krok po kroku dotyczący bezproblemowej integracji.
-type: docs
 weight: 10
 url: /pl/net/update-operations/update-barcode/
 ---

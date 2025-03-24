@@ -3,7 +3,6 @@ title: Hướng dẫn toàn diện về GroupDocs.Signature
 linktitle: Hướng dẫn về GroupDocs.Signature
 additionalTitle: Tài liệu tham khảo API GroupDocs
 description: Quản lý tài liệu thành thạo trong .NET & Java với hướng dẫn GroupDocs.Signature. Tạo, xác minh, trích xuất siêu dữ liệu và hơn thế nữa. Đi sâu vào để có quy trình làm việc liền mạch!
-type: docs
 weight: 11
 url: /vi/
 is_root: true

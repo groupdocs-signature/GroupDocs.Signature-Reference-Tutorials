@@ -3,7 +3,6 @@ title: Bekijk de documentverwerkingsgeschiedenis
 linktitle: Bekijk de documentverwerkingsgeschiedenis
 second_title: GroupDocs.Signature .NET API
 description: Ontdek hoe u moeiteloos de geschiedenis van documentverwerking kunt bekijken met GroupDocs.Signature voor .NET. Volg onze stapsgewijze handleiding voor naadloos workflowbeheer.
-type: docs
 weight: 12
 url: /nl/net/document-preview-operations/view-document-processing-history/
 ---

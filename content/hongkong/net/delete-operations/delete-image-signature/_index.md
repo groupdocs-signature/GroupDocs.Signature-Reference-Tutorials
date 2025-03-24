@@ -3,7 +3,6 @@ title: 刪除影像簽名
 linktitle: 刪除影像簽名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 從文件中刪除映像簽章。請按照我們的逐步指南進行高效率的簽名管理。
-type: docs
 weight: 14
 url: /zh-hant/net/delete-operations/delete-image-signature/
 ---

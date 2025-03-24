@@ -3,7 +3,6 @@ title: 使用 GroupDocs.Signature 使用图像签署文档
 linktitle: 图片签名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何通过 Groupdocs.Signature for .NET 在 .NET 应用程序中使用图像来签署文档。轻松增强文档的安全性和真实性。
-type: docs
 weight: 13
 url: /zh/net/advanced-signature-techniques/sign-with-image/
 ---

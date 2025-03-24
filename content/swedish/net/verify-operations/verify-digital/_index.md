@@ -3,7 +3,6 @@ title: Verifiera digital signatur
 linktitle: Verifiera digital signatur
 second_title: GroupDocs.Signature .NET API
 description: Verifiera digitala signaturer i .NET enkelt med GroupDocs.Signature. Säkerställ dokumentets autenticitet och integritet utan ansträngning.
-type: docs
 weight: 11
 url: /sv/net/verify-operations/verify-digital/
 ---

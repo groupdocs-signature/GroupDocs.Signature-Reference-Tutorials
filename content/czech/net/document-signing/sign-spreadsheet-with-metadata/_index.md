@@ -3,7 +3,6 @@ title: Podepište tabulku pomocí metadat
 linktitle: Podepište tabulku pomocí metadat
 second_title: GroupDocs.Signature .NET API
 description: Naučte se podepisovat tabulky pomocí metadat pomocí Groupdocs.Signature for .NET. Vylepšete integritu a ověřování dokumentů pomocí metadatových podpisů.
-type: docs
 weight: 13
 url: /cs/net/document-signing/sign-spreadsheet-with-metadata/
 ---

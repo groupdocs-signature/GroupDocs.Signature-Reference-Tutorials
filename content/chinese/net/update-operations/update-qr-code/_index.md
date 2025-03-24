@@ -3,7 +3,6 @@ title: 更新二维码
 linktitle: 更新二维码
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 轻松更新文档中的 QR 代码。轻松增强文档管理。
-type: docs
 weight: 12
 url: /zh/net/update-operations/update-qr-code/
 ---

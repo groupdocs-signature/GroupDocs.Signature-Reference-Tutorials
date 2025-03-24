@@ -3,7 +3,6 @@ title: 검색 프레젠테이션 메타데이터 추출
 linktitle: 검색 프레젠테이션 메타데이터 추출
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 프레젠테이션 메타데이터를 추출하는 방법을 알아보세요. 문서 관리 기능을 손쉽게 향상하세요.
-type: docs
 weight: 12
 url: /ko/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

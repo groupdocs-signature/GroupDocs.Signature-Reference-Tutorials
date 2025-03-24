@@ -1,7 +1,6 @@
 ---
 title: .NET için GroupDocs.Signature Öğreticileri ve Örnekleri
 linktitle: .NET Eğitimleri için GroupDocs.Signature
-type: docs
 weight: 10
 url: /tr/net/
 description: GroupDocs.Signature for .NET eğitimleriyle verimli belge yönetiminin kilidini açın. Belgeleri sorunsuz bir şekilde silin, önizleyin, meta verileri çıkarın, imzalayın, güncelleyin ve doğrulayın.

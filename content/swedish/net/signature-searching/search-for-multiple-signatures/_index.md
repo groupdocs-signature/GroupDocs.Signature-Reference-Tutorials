@@ -3,7 +3,6 @@ title: Sök efter flera signaturer
 linktitle: Sök efter flera signaturer
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du söker efter flera signaturer i .NET-dokument med GroupDocs.Signature för effektiv dokumentsäkerhet och integritet.
-type: docs
 weight: 14
 url: /sv/net/signature-searching/search-for-multiple-signatures/
 ---

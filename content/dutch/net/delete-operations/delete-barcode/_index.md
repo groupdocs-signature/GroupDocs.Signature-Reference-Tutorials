@@ -3,7 +3,6 @@ title: Streepjescode uit document verwijderen
 linktitle: Streepjescode uit document verwijderen
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u streepjescodes uit een document verwijdert met GroupDocs.Signature voor .NET. Stapsgewijze handleiding met codevoorbeelden.
-type: docs
 weight: 10
 url: /nl/net/delete-operations/delete-barcode/
 ---

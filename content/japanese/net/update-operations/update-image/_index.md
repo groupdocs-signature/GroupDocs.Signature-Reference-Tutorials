@@ -3,7 +3,6 @@ title: 画像を更新
 linktitle: 画像を更新
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature を使用して、.NET ドキュメント内の画像署名を簡単に更新する方法を学びます。ドキュメントのセキュリティと整合性をシームレスに強化します。
-type: docs
 weight: 11
 url: /ja/net/update-operations/update-image/
 ---

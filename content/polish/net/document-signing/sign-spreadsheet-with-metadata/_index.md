@@ -3,7 +3,6 @@ title: Podpisz arkusz kalkulacyjny metadanymi
 linktitle: Podpisz arkusz kalkulacyjny metadanymi
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak podpisywać arkusze kalkulacyjne metadanymi przy użyciu Groupdocs.Signature for .NET. Zwiększ integralność i weryfikację dokumentów dzięki podpisom metadanych.
-type: docs
 weight: 13
 url: /pl/net/document-signing/sign-spreadsheet-with-metadata/
 ---

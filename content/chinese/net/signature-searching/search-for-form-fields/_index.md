@@ -3,7 +3,6 @@ title: 搜索表单字段
 linktitle: 搜索表单字段
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 将签名功能集成到 .NET 应用程序中。请按照我们的步骤进行无缝文档管理。
-type: docs
 weight: 12
 url: /zh/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ GroupDocs.Signature for .NET 是开发人员向其 .NET 应用程序添加签名
 在深入使用 GroupDocs.Signature for .NET 之前，请确保您已满足以下先决条件：
 1. Visual Studio：在您的开发机器上安装 Visual Studio。
 2.  GroupDocs.Signature for .NET：从以下位置下载并安装 GroupDocs.Signature for .NET 库[这里](https://releases.groupdocs.com/signature/net/).
-3. 访问文档：熟悉以下位置提供的文档[GroupDocs.Signature for .NET 文档](https://reference.groupdocs.com/signature/net/).
+3. 访问文档：熟悉以下位置提供的文档[GroupDocs.Signature for .NET 文档](https://tutorials.groupdocs.com/signature/net/).
 4. 获得支持：如有任何问题或疑问，请访问支持论坛[GroupDocs.Signature 论坛](https://forum.groupdocs.com/c/signature/13).
 
 ## 导入命名空间
@@ -63,6 +62,6 @@ foreach (var FormFieldSignature in signatures)
 ### 如何获得 GroupDocs.Signature for .NET 的临时许可证？
 临时许可证可以从[这里](https://purchase.groupdocs.com/temporary-license/).
 ### 在哪里可以找到 GroupDocs.Signature for .NET 的详细文档？
-提供详细文档[这里](https://reference.groupdocs.com/signature/net/).
+提供详细文档[这里](https://tutorials.groupdocs.com/signature/net/).
 ### GroupDocs.Signature for .NET 是否为开发人员提供支持？
 是的，您可以通过以下方式获得开发人员支持[GroupDocs.Signature 论坛](https://forum.groupdocs.com/c/signature/13).

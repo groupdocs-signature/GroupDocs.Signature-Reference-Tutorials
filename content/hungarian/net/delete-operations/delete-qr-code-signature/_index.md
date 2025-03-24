@@ -3,7 +3,6 @@ title: Törölje a QR-kód aláírását a dokumentumból
 linktitle: Törölje a QR-kód aláírását a dokumentumból
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan törölhet QR-kód aláírásokat dokumentumokból a GroupDocs.Signature for .NET segítségével. Kövesse lépésenkénti útmutatónkat a hatékony aláíráskezeléshez.
-type: docs
 weight: 16
 url: /hu/net/delete-operations/delete-qr-code-signature/
 ---

@@ -3,7 +3,6 @@ title: Elimina la firma del codice QR dal documento
 linktitle: Elimina la firma del codice QR dal documento
 second_title: API GroupDocs.Signature .NET
 description: Scopri come eliminare le firme dei codici QR dai documenti utilizzando GroupDocs.Signature per .NET. Segui la nostra guida passo passo per una gestione efficiente delle firme.
-type: docs
 weight: 16
 url: /it/net/delete-operations/delete-qr-code-signature/
 ---

@@ -3,7 +3,6 @@ title: デジタル署名の検証
 linktitle: デジタル署名の検証
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature を使用すると、.NET でデジタル署名を簡単に検証できます。文書の信頼性と整合性を簡単に確保します。
-type: docs
 weight: 11
 url: /ja/net/verify-operations/verify-digital/
 ---

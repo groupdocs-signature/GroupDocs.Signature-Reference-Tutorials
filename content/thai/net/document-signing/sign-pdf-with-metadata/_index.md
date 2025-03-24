@@ -3,7 +3,6 @@ title: ลงนาม PDF ด้วยข้อมูลเมตา
 linktitle: ลงนาม PDF ด้วยข้อมูลเมตา
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีลงนามในเอกสาร PDF ด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ .NET เพิ่มความสามารถในการตรวจสอบย้อนกลับและความถูกต้องของเอกสารได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/net/document-signing/sign-pdf-with-metadata/
 ---

@@ -3,7 +3,6 @@ title: Omfattande GroupDocs.Signature självstudier
 linktitle: GroupDocs.Signature Tutorials
 additionalTitle: GroupDocs API-referenser
 description: Bemästra dokumenthantering i .NET & Java med GroupDocs.Signature-tutorials. Skapa, verifiera, extrahera metadata och mer. Dyk in för sömlöst arbetsflöde!
-type: docs
 weight: 11
 url: /sv/
 is_root: true

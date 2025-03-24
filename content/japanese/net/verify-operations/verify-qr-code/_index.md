@@ -3,7 +3,6 @@ title: QRコードを認証する
 linktitle: QRコードを認証する
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してドキュメント内の QR コードを検証する方法を学びます。ステップバイステップのガイドを備えた包括的なチュートリアル。
-type: docs
 weight: 12
 url: /ja/net/verify-operations/verify-qr-code/
 ---
@@ -79,4 +78,4 @@ else
 ### GroupDocs.Signature for .NET の一時ライセンスを購入できますか?
 はい、一時ライセンスは以下から購入できます。[GroupDocs 購入ページ](https://purchase.groupdocs.com/temporary-license/).
 ### GroupDocs.Signature for .NET について利用可能な広範なドキュメントはありますか?
-もちろん、提供されている詳細なドキュメントを参照してください。[ここ](https://reference.groupdocs.com/signature/net/) GroupDocs.Signature for .NET の機能を利用するための包括的なガイダンスを参照してください。
+もちろん、提供されている詳細なドキュメントを参照してください。[ここ](https://tutorials.groupdocs.com/signature/net/) GroupDocs.Signature for .NET の機能を利用するための包括的なガイダンスを参照してください。

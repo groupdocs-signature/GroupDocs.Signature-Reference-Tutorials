@@ -3,7 +3,6 @@ title: التحقق من رمز الاستجابة السريعة
 linktitle: التحقق من رمز الاستجابة السريعة
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية التحقق من رموز QR داخل المستندات باستخدام GroupDocs.Signature لـ .NET. برنامج تعليمي شامل مع دليل خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/net/verify-operations/verify-qr-code/
 ---
@@ -79,4 +78,4 @@ else
 ### هل يمكنني شراء ترخيص مؤقت لـ GroupDocs.Signature لـ .NET؟
  نعم، التراخيص المؤقتة متاحة للشراء من[صفحة شراء GroupDocs](https://purchase.groupdocs.com/temporary-license/).
 ### هل تتوفر وثائق شاملة لـ GroupDocs.Signature لـ .NET؟
- بالتأكيد، يمكنك الرجوع إلى الوثائق التفصيلية المقدمة[هنا](https://reference.groupdocs.com/signature/net/) للحصول على إرشادات شاملة حول استخدام وظائف GroupDocs.Signature لـ .NET.
+ بالتأكيد، يمكنك الرجوع إلى الوثائق التفصيلية المقدمة[هنا](https://tutorials.groupdocs.com/signature/net/) للحصول على إرشادات شاملة حول استخدام وظائف GroupDocs.Signature لـ .NET.

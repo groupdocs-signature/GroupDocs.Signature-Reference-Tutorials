@@ -3,7 +3,6 @@ title: Λειτουργίες ενημέρωσης
 linktitle: Λειτουργίες ενημέρωσης
 second_title: GroupDocs.Signature .NET API
 description: Ενημερώστε τον γραμμωτό κώδικα, την εικόνα, τον κώδικα QR και τις υπογραφές κειμένου σε έγγραφα .NET με το GroupDocs.Signature για εκπαιδευτικά προγράμματα .NET. Βελτιώστε την ασφάλεια και τη διαχείριση των εγγράφων.
-type: docs
 weight: 26
 url: /el/net/update-operations/
 ---

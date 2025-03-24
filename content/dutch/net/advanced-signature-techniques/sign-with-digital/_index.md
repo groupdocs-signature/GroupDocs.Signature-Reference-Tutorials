@@ -3,7 +3,6 @@ title: Ondertekenen met digitale handtekening
 linktitle: Ondertekenen met digitale handtekening
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u documenten digitaal kunt ondertekenen in .NET met behulp van GroupDocs.Signature. Verbeter de beveiliging en authenticiteit met deze uitgebreide tutorial.
-type: docs
 weight: 12
 url: /nl/net/advanced-signature-techniques/sign-with-digital/
 ---

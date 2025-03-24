@@ -3,7 +3,6 @@ title: Usuń podpis cyfrowy z dokumentu
 linktitle: Usuń podpis cyfrowy z dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak usuwać podpisy cyfrowe z dokumentów przy użyciu programu GroupDocs.Signature for .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie zarządzać.
-type: docs
 weight: 13
 url: /pl/net/delete-operations/delete-digital-signature/
 ---

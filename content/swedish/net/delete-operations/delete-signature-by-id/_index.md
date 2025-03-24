@@ -3,7 +3,6 @@ title: Ta bort signatur med ID
 linktitle: Ta bort signatur med ID
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du tar bort en signatur med ID i .NET-dokument med hjälp av GroupDocs.Signature-biblioteket. Enkel steg-för-steg guide.
-type: docs
 weight: 11
 url: /sv/net/delete-operations/delete-signature-by-id/
 ---

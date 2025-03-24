@@ -3,7 +3,6 @@ title: Wyświetl historię przetwarzania dokumentów
 linktitle: Wyświetl historię przetwarzania dokumentów
 second_title: GroupDocs.Signature .NET API
 description: Odkryj, jak bez wysiłku przeglądać historię przetwarzania dokumentów za pomocą GroupDocs.Signature dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynne zarządzanie przepływem pracy.
-type: docs
 weight: 12
 url: /pl/net/document-preview-operations/view-document-processing-history/
 ---

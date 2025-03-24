@@ -3,7 +3,6 @@ title: Extractie van metagegevens van presentaties
 linktitle: Extractie van metagegevens van presentaties
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u metagegevens van presentaties kunt extraheren met GroupDocs.Signature voor .NET. Verbeter moeiteloos uw mogelijkheden voor documentbeheer.
-type: docs
 weight: 12
 url: /nl/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

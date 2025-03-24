@@ -3,7 +3,6 @@ title: Zoek naar digitale handtekeningen
 linktitle: Zoek naar digitale handtekeningen
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u naar digitale handtekeningen in documenten kunt zoeken met GroupDocs.Signature voor .NET. Verbeter de documentbeveiliging en -integriteit met dit uitgebreide programma.
-type: docs
 weight: 11
 url: /nl/net/signature-searching/search-for-digital-signatures/
 ---
@@ -58,7 +57,7 @@ Ja, GroupDocs.Signature voor .NET ondersteunt verschillende documentformaten, wa
 ### Is er een gratis proefversie beschikbaar voor GroupDocs.Signature voor .NET?
 Ja, u heeft toegang tot een gratis proefversie van GroupDocs.Signature voor .NET vanaf[hier](https://releases.groupdocs.com/).
 ### Waar kan ik documentatie vinden voor GroupDocs.Signature voor .NET?
- U kunt gedetailleerde documentatie vinden voor GroupDocs.Signature voor .NET[hier](https://reference.groupdocs.com/signature/net/).
+ U kunt gedetailleerde documentatie vinden voor GroupDocs.Signature voor .NET[hier](https://tutorials.groupdocs.com/signature/net/).
 ### Hoe kan ik tijdelijke licenties krijgen voor GroupDocs.Signature voor .NET?
  Tijdelijke licenties voor GroupDocs.Signature voor .NET kunnen worden verkregen[hier](https://purchase.groupdocs.com/temporary-license/).
 ### Waar kan ik ondersteuning zoeken voor GroupDocs.Signature voor .NET?

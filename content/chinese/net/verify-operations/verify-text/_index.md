@@ -3,7 +3,6 @@ title: 验证文本
 linktitle: 验证文本
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 验证文档中的文本。按照我们的分步教程进行无缝集成。
-type: docs
 weight: 13
 url: /zh/net/verify-operations/verify-text/
 ---

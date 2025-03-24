@@ -3,7 +3,6 @@ title: İmzayı kimliğe göre sil
 linktitle: İmzayı kimliğe göre sil
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature kitaplığını kullanarak .NET belgelerinde kimliğe göre imzayı nasıl sileceğinizi öğrenin. Kolay adım adım kılavuz.
-type: docs
 weight: 11
 url: /tr/net/delete-operations/delete-signature-by-id/
 ---

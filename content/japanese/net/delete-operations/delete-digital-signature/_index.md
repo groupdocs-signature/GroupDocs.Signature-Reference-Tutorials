@@ -3,7 +3,6 @@ title: ドキュメントからデジタル署名を削除
 linktitle: ドキュメントからデジタル署名を削除
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してドキュメントからデジタル署名を削除する方法を学びます。効率的に管理するには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 13
 url: /ja/net/delete-operations/delete-digital-signature/
 ---

@@ -3,7 +3,6 @@ title: Signatur nach ID löschen
 linktitle: Signatur nach ID löschen
 second_title: GroupDocs.Signature .NET-API
 description: Erfahren Sie, wie Sie mithilfe der GroupDocs.Signature-Bibliothek eine Signatur nach ID in .NET-Dokumenten löschen. Einfache Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 11
 url: /de/net/delete-operations/delete-signature-by-id/
 ---

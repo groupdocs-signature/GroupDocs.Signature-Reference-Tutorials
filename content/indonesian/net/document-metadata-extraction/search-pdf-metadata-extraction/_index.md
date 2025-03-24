@@ -3,7 +3,6 @@ title: Cari Ekstraksi Metadata PDF
 linktitle: Cari Ekstraksi Metadata PDF
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara mencari dan mengekstrak tanda tangan metadata dari dokumen PDF menggunakan GroupDocs.Signature untuk .NET. Tingkatkan kemampuan manajemen dokumen Anda.
-type: docs
 weight: 11
 url: /id/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---

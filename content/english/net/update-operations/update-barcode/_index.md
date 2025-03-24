@@ -3,7 +3,6 @@ title: Update Barcode
 linktitle: Update Barcode
 second_title: GroupDocs.Signature .NET API
 description: Learn how to update barcode signatures in documents using GroupDocs.Signature for .NET. Step-by-step guide for seamless integration.
-type: docs
 weight: 10
 url: /net/update-operations/update-barcode/
 ---

@@ -3,7 +3,6 @@ title: Resim İmzasını Sil
 linktitle: Resim İmzasını Sil
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki resim imzalarını nasıl sileceğinizi öğrenin. Etkin imza yönetimi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 14
 url: /tr/net/delete-operations/delete-image-signature/
 ---

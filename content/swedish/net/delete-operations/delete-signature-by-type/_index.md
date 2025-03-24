@@ -3,7 +3,6 @@ title: Ta bort signatur efter typ
 linktitle: Ta bort signatur efter typ
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du raderar signaturer genom att skriva in .NET-dokument utan ansträngning med GroupDocs.Signature, vilket förbättrar effektiviteten i dokumenthanteringen.
-type: docs
 weight: 12
 url: /sv/net/delete-operations/delete-signature-by-type/
 ---

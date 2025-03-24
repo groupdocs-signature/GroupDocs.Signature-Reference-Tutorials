@@ -3,7 +3,6 @@ title: Διαγραφή Λειτουργιών
 linktitle: Διαγραφή Λειτουργιών
 second_title: GroupDocs.Signature .NET API
 description: Διαγράψτε υπογραφές, γραμμωτούς κώδικες και άλλα από έγγραφα .NET με το GroupDocs.Signature. Εξερευνήστε μαθήματα για αποτελεσματική διαχείριση εγγράφων τώρα!
-type: docs
 weight: 20
 url: /el/net/delete-operations/
 ---

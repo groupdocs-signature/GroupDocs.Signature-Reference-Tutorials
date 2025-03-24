@@ -3,7 +3,6 @@ title: Wyszukaj kod kreskowy
 linktitle: Wyszukaj kod kreskowy
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak wyszukiwać podpisy kodów kreskowych w dokumentach za pomocą GroupDocs.Signature for .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku i skutecznie integruj podpis.
-type: docs
 weight: 10
 url: /pl/net/signature-searching/search-for-barcode/
 ---

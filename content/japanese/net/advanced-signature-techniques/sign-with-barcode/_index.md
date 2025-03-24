@@ -3,7 +3,6 @@ title: バーコードによる署名
 linktitle: バーコードによる署名
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してバーコードでドキュメントに署名する方法を学びます。シームレスな統合については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 11
 url: /ja/net/advanced-signature-techniques/sign-with-barcode/
 ---

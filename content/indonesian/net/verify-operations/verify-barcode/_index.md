@@ -3,7 +3,6 @@ title: Verifikasi Kode Batang
 linktitle: Verifikasi Kode Batang
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara memverifikasi kode batang dalam dokumen menggunakan GroupDocs.Signature untuk .NET. Ikuti tutorial langkah demi langkah kami untuk penerapan yang lancar.
-type: docs
 weight: 10
 url: /id/net/verify-operations/verify-barcode/
 ---

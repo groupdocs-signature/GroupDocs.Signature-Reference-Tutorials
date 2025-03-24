@@ -3,7 +3,6 @@ title: Fortgeschrittene Signaturtechniken
 linktitle: Fortgeschrittene Signaturtechniken
 second_title: GroupDocs.Signature .NET-API
 description: Lernen Sie fortgeschrittene Signaturtechniken mit GroupDocs.Signature für .NET-Tutorials. Unterschreiben Sie PDFs, Bilder und Dokumente nahtlos mit Barcode, digital und mehr.
-type: docs
 weight: 25
 url: /de/net/advanced-signature-techniques/
 ---

@@ -3,7 +3,6 @@ title: Aláírás törlése típus szerint
 linktitle: Aláírás törlése típus szerint
 second_title: GroupDocs.Signature .NET API
 description: Tanulja meg, hogyan törölheti könnyedén az aláírásokat típus szerint a .NET-dokumentumokban a GroupDocs.Signature segítségével, ami javítja a dokumentumkezelés hatékonyságát.
-type: docs
 weight: 12
 url: /hu/net/delete-operations/delete-signature-by-type/
 ---

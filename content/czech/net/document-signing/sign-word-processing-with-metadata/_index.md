@@ -3,7 +3,6 @@ title: Podepsat textový procesor s metadaty
 linktitle: Podepsat textový procesor s metadaty
 second_title: GroupDocs.Signature .NET API
 description: Naučte se podepisovat dokumenty textového zpracování pomocí metadat pomocí GroupDocs.Signature for .NET. Zvyšte autenticitu a sledovatelnost dokumentů.
-type: docs
 weight: 14
 url: /cs/net/document-signing/sign-word-processing-with-metadata/
 ---

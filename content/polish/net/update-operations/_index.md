@@ -3,7 +3,6 @@ title: Aktualizuj operacje
 linktitle: Aktualizuj operacje
 second_title: GroupDocs.Signature .NET API
 description: Aktualizuj kod kreskowy, obraz, kod QR i podpisy tekstowe w dokumentach .NET za pomocą samouczków GroupDocs.Signature for .NET. Zwiększ bezpieczeństwo dokumentów i zarządzanie nimi.
-type: docs
 weight: 26
 url: /pl/net/update-operations/
 ---

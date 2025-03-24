@@ -3,7 +3,6 @@ title: Ekstrakcja metadanych dokumentu
 linktitle: Ekstrakcja metadanych dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Odblokuj moc ekstrakcji metadanych dzięki GroupDocs.Signature dla .NET. Dowiedz się, jak bez wysiłku wyszukiwać i wyodrębniać metadane dokumentów, aby usprawnić zarządzanie.
-type: docs
 weight: 22
 url: /pl/net/document-metadata-extraction/
 ---

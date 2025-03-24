@@ -3,7 +3,6 @@ title: Generovat náhled dokumentu
 linktitle: Generovat náhled dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Naučte se generovat náhledy dokumentů pomocí GroupDocs.Signature for .NET. Zjednodušte správu dokumentů ve svých aplikacích .NET.
-type: docs
 weight: 10
 url: /cs/net/document-preview-operations/generate-document-preview/
 ---

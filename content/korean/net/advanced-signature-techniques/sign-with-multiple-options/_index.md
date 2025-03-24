@@ -3,7 +3,6 @@ title: 여러 옵션으로 서명
 linktitle: 여러 옵션으로 서명
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 다양한 옵션으로 문서에 서명하는 방법을 알아보세요. 텍스트, 바코드, QR 코드, 디지털 및 이미지로 문서 보안을 강화하세요.
-type: docs
 weight: 14
 url: /ko/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

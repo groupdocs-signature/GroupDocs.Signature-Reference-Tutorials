@@ -3,7 +3,6 @@ title: Aktualizovat operace
 linktitle: Aktualizovat operace
 second_title: GroupDocs.Signature .NET API
 description: Aktualizujte čárové kódy, obrázky, QR kódy a textové podpisy v dokumentech .NET pomocí výukových programů GroupDocs.Signature pro .NET. Vylepšete zabezpečení a správu dokumentů.
-type: docs
 weight: 26
 url: /cs/net/update-operations/
 ---

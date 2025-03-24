@@ -3,7 +3,6 @@ title: दस्तावेज़ पर हस्ताक्षर
 linktitle: दस्तावेज़ पर हस्ताक्षर
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature .NET का उपयोग करके मेटाडेटा के साथ छवियों, पीडीएफ, प्रस्तुतियों, स्प्रेडशीट और वर्ड दस्तावेज़ों पर हस्ताक्षर करें। दस्तावेज़ की प्रामाणिकता और अखंडता बढ़ाएँ।
-type: docs
 weight: 24
 url: /hi/net/document-signing/
 ---

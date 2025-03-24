@@ -3,7 +3,6 @@ title: Güncelleme İşlemleri
 linktitle: Güncelleme İşlemleri
 second_title: GroupDocs.Signature .NET API'si
 description: .NET belgelerindeki barkodu, görüntüyü, QR kodunu ve metin imzalarını GroupDocs.Signature for .NET eğitimleriyle güncelleyin. Belge güvenliğini ve yönetimini geliştirin.
-type: docs
 weight: 26
 url: /tr/net/update-operations/
 ---

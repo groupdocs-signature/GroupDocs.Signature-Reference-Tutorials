@@ -3,7 +3,6 @@ title: 바코드 검색
 linktitle: 바코드 검색
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 문서에서 바코드 서명을 검색하는 방법을 알아보세요. 단계별 가이드에 따라 서명을 효율적으로 통합하세요.
-type: docs
 weight: 10
 url: /ko/net/signature-searching/search-for-barcode/
 ---

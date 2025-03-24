@@ -3,7 +3,6 @@ title: Signer avec un code-barres
 linktitle: Signer avec un code-barres
 second_title: API GroupDocs.Signature .NET
 description: Découvrez comment signer des documents avec un code-barres à l'aide de GroupDocs.Signature pour .NET. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 11
 url: /fr/net/advanced-signature-techniques/sign-with-barcode/
 ---

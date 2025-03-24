@@ -3,7 +3,6 @@ title: 바코드 확인
 linktitle: 바코드 확인
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 문서 내 바코드를 확인하는 방법을 알아보세요. 원활한 구현을 위해 단계별 튜토리얼을 따르십시오.
-type: docs
 weight: 10
 url: /ko/net/verify-operations/verify-barcode/
 ---

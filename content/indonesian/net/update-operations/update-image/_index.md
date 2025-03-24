@@ -3,7 +3,6 @@ title: Perbarui Gambar
 linktitle: Perbarui Gambar
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara memperbarui tanda tangan gambar di dokumen .NET dengan mudah menggunakan GroupDocs.Signature. Tingkatkan keamanan dan integritas dokumen dengan lancar.
-type: docs
 weight: 11
 url: /id/net/update-operations/update-image/
 ---

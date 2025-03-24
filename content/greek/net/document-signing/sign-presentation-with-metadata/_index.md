@@ -3,7 +3,6 @@ title: Υπογραφή Παρουσίαση με Μεταδεδομένα
 linktitle: Υπογραφή Παρουσίαση με Μεταδεδομένα
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να υπογράφετε αρχεία παρουσίασης με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για .NET. Βελτιώστε την ακεραιότητα του εγγράφου και προσθέστε πολύτιμες πληροφορίες.
-type: docs
 weight: 12
 url: /el/net/document-signing/sign-presentation-with-metadata/
 ---

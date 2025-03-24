@@ -3,7 +3,6 @@ title: Επαλήθευση κειμένου
 linktitle: Επαλήθευση κειμένου
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να επαληθεύετε κείμενο σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET. Ακολουθήστε το βήμα προς βήμα σεμινάριο μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 13
 url: /el/net/verify-operations/verify-text/
 ---

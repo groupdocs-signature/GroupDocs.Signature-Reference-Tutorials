@@ -3,7 +3,6 @@ title: Hapus Banyak Tanda Tangan dari Dokumen
 linktitle: Hapus Banyak Tanda Tangan dari Dokumen
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Hapus beberapa tanda tangan dari dokumen dengan mudah menggunakan GroupDocs.Signature untuk .NET. Sederhanakan alur kerja manajemen dokumen Anda.
-type: docs
 weight: 15
 url: /id/net/delete-operations/delete-multiple-signatures/
 ---

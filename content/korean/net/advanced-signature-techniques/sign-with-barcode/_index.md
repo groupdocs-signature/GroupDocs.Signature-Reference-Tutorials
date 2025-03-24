@@ -3,7 +3,6 @@ title: 바코드로 서명
 linktitle: 바코드로 서명
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 바코드로 문서에 서명하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/net/advanced-signature-techniques/sign-with-barcode/
 ---

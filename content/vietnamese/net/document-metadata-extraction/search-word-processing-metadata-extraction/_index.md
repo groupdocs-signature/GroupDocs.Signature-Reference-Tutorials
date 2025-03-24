@@ -3,7 +3,6 @@ title: Tìm kiếm trích xuất siêu dữ liệu xử lý văn bản
 linktitle: Tìm kiếm trích xuất siêu dữ liệu xử lý văn bản
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách tìm kiếm siêu dữ liệu xử lý văn bản bằng GroupDocs.Signature cho .NET. Tăng cường quản lý tài liệu một cách dễ dàng.
-type: docs
 weight: 14
 url: /vi/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
@@ -56,7 +55,7 @@ Có, GroupDocs.Signature hỗ trợ nhiều định dạng tài liệu, bao gồ
 ### GroupDocs.Signature có phù hợp để quản lý tài liệu cấp doanh nghiệp không?
 Hoàn toàn có thể, GroupDocs.Signature cung cấp các tính năng mạnh mẽ phù hợp với môi trường doanh nghiệp, đảm bảo các giải pháp quản lý tài liệu an toàn và đáng tin cậy.
 ### GroupDocs.Signature có cung cấp tài liệu toàn diện cho nhà phát triển không?
- Có, nhà phát triển có thể tìm thấy tài liệu chi tiết, bao gồm tài liệu tham khảo API và ví dụ về mã, trên[trang tài liệu](https://reference.groupdocs.com/signature/net/).
+ Có, nhà phát triển có thể tìm thấy tài liệu chi tiết, bao gồm tài liệu tham khảo API và ví dụ về mã, trên[trang tài liệu](https://tutorials.groupdocs.com/signature/net/).
 ### Tôi có thể dùng thử GroupDocs.Signature trước khi mua không?
  Có, những người dùng quan tâm có thể tận dụng bản dùng thử miễn phí của GroupDocs.Signature từ[trang mạng](https://releases.groupdocs.com/).
 ### Tôi có thể tìm kiếm sự hỗ trợ cho GroupDocs.Signature ở đâu?

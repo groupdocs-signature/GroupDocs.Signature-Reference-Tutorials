@@ -3,7 +3,6 @@ title: 搜尋二維碼
 linktitle: 搜尋二維碼
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 在文件中搜尋 QR 碼。輕鬆增強文件安全性。
-type: docs
 weight: 15
 url: /zh-hant/net/signature-searching/search-for-qr-codes/
 ---

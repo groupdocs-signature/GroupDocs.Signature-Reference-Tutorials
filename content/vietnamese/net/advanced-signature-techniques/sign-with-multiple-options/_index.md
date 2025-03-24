@@ -3,7 +3,6 @@ title: Ký với nhiều tùy chọn
 linktitle: Ký với nhiều tùy chọn
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách ký tài liệu với nhiều tùy chọn bằng GroupDocs.Signature cho .NET. Tăng cường bảo mật tài liệu bằng văn bản, mã vạch, mã QR, kỹ thuật số và hình ảnh.
-type: docs
 weight: 14
 url: /vi/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

@@ -3,7 +3,6 @@ title: 문서 미리보기 작업
 linktitle: 문서 미리보기 작업
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature 튜토리얼을 통해 문서 관리를 간소화하는 방법을 알아보세요. 작업을 단순화하고 작업 흐름을 개선하며 생산성을 손쉽게 향상시키세요.
-type: docs
 weight: 21
 url: /ko/net/document-preview-operations/
 ---

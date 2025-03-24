@@ -3,7 +3,6 @@ title: Barkodla İmzalama
 linktitle: Barkodla İmzalama
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgeleri barkodla nasıl imzalayacağınızı öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/net/advanced-signature-techniques/sign-with-barcode/
 ---

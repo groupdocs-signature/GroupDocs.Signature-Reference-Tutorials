@@ -3,7 +3,6 @@ title: Επαληθεύστε τον γραμμωτό κώδικα
 linktitle: Επαληθεύστε τον γραμμωτό κώδικα
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να επαληθεύετε γραμμικούς κώδικες σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET. Ακολουθήστε το βήμα προς βήμα σεμινάριο μας για απρόσκοπτη εφαρμογή.
-type: docs
 weight: 10
 url: /el/net/verify-operations/verify-barcode/
 ---

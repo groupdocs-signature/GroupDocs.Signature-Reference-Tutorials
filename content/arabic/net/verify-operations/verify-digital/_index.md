@@ -3,7 +3,6 @@ title: التحقق من التوقيع الرقمي
 linktitle: التحقق من التوقيع الرقمي
 second_title: GroupDocs.Signature .NET API
 description: تحقق من التوقيعات الرقمية في .NET بسهولة باستخدام GroupDocs.Signature. ضمان صحة الوثيقة وسلامتها دون عناء.
-type: docs
 weight: 11
 url: /ar/net/verify-operations/verify-digital/
 ---

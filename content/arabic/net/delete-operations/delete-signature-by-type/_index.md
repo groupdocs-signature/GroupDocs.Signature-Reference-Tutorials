@@ -3,7 +3,6 @@ title: حذف التوقيع حسب النوع
 linktitle: حذف التوقيع حسب النوع
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية حذف التوقيعات حسب الكتابة في مستندات .NET دون عناء باستخدام GroupDocs.Signature، مما يعزز كفاءة إدارة المستندات.
-type: docs
 weight: 12
 url: /ar/net/delete-operations/delete-signature-by-type/
 ---

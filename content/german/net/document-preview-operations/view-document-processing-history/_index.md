@@ -3,7 +3,6 @@ title: Dokumentverarbeitungsverlauf anzeigen
 linktitle: Dokumentverarbeitungsverlauf anzeigen
 second_title: GroupDocs.Signature .NET-API
 description: Entdecken Sie, wie Sie mit GroupDocs.Signature für .NET mühelos den Dokumentverarbeitungsverlauf anzeigen können. Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Workflow-Management.
-type: docs
 weight: 12
 url: /de/net/document-preview-operations/view-document-processing-history/
 ---

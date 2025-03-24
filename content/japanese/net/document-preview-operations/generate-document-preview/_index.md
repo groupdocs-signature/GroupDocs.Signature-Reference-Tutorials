@@ -3,7 +3,6 @@ title: ドキュメントプレビューの生成
 linktitle: ドキュメントプレビューの生成
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してドキュメント プレビューを生成する方法を学びます。 .NET アプリケーションでのドキュメント管理を簡素化します。
-type: docs
 weight: 10
 url: /ja/net/document-preview-operations/generate-document-preview/
 ---

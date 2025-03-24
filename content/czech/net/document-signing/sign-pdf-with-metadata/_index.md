@@ -3,7 +3,6 @@ title: Podepište PDF pomocí metadat
 linktitle: Podepište PDF pomocí metadat
 second_title: GroupDocs.Signature .NET API
 description: Naučte se podepisovat dokumenty PDF pomocí metadat pomocí GroupDocs.Signature for .NET. Snadno vylepšete sledovatelnost a pravost dokumentů.
-type: docs
 weight: 11
 url: /cs/net/document-signing/sign-pdf-with-metadata/
 ---

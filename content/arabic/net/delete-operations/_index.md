@@ -3,7 +3,6 @@ title: حذف العمليات
 linktitle: حذف العمليات
 second_title: GroupDocs.Signature .NET API
 description: احذف التوقيعات والرموز الشريطية والمزيد من مستندات .NET باستخدام GroupDocs.Signature. استكشف البرامج التعليمية لإدارة المستندات بكفاءة الآن!
-type: docs
 weight: 20
 url: /ar/net/delete-operations/
 ---

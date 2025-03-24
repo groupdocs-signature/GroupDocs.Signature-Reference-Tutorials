@@ -3,7 +3,6 @@ title: การค้นหาลายเซ็น
 linktitle: การค้นหาลายเซ็น
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้การค้นหาลายเซ็นในเอกสาร .NET ด้วยบทช่วยสอน GroupDocs.Signature สำหรับ .NET เพิ่มความปลอดภัยด้วยการค้นหาบาร์โค้ด ดิจิทัล รูปภาพ ข้อความ และ QR โค้ด
-type: docs
 weight: 23
 url: /th/net/signature-searching/
 ---

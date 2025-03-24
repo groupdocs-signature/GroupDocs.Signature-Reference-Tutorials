@@ -3,7 +3,6 @@ title: 從文件中刪除數位簽名
 linktitle: 從文件中刪除數位簽名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 從文件中刪除數位簽章。遵循我們的逐步指南進行高效管理。
-type: docs
 weight: 13
 url: /zh-hant/net/delete-operations/delete-digital-signature/
 ---

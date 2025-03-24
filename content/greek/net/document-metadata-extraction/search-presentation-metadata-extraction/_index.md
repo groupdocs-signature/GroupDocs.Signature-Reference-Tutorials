@@ -3,7 +3,6 @@ title: Εξαγωγή μεταδεδομένων παρουσίασης αναζ
 linktitle: Εξαγωγή μεταδεδομένων παρουσίασης αναζήτησης
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να εξαγάγετε μεταδεδομένα παρουσίασης χρησιμοποιώντας το GroupDocs.Signature για .NET. Βελτιώστε τις δυνατότητες διαχείρισης εγγράφων σας χωρίς κόπο.
-type: docs
 weight: 12
 url: /el/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

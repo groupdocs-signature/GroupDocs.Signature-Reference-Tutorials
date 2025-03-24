@@ -3,7 +3,6 @@ title: การลงนามเอกสาร
 linktitle: การลงนามเอกสาร
 second_title: GroupDocs.Signature .NET API
 description: ลงนามรูปภาพ, PDF, งานนำเสนอ, สเปรดชีตและเอกสาร Word ด้วยเมตาดาต้าโดยใช้ GroupDocs.Signature .NET ปรับปรุงความถูกต้องและความสมบูรณ์ของเอกสาร
-type: docs
 weight: 24
 url: /th/net/document-signing/
 ---

@@ -3,7 +3,6 @@ title: Táblázat aláírása metaadatokkal
 linktitle: Táblázat aláírása metaadatokkal
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan írhat alá táblázatokat metaadatokkal a Groupdocs.Signature for .NET használatával. Növelje a dokumentumok integritását és ellenőrzését metaadat-aláírásokkal.
-type: docs
 weight: 13
 url: /hu/net/document-signing/sign-spreadsheet-with-metadata/
 ---

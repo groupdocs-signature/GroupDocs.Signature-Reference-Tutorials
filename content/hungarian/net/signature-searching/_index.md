@@ -3,7 +3,6 @@ title: Aláírás keresése
 linktitle: Aláírás keresése
 second_title: GroupDocs.Signature .NET API
 description: Tanuljon meg aláírásokat keresni a .NET dokumentumokban a GroupDocs.Signature for .NET oktatóanyagaival. Növelje a biztonságot vonalkódos, digitális, kép-, szöveg- és QR-kódos keresésekkel.
-type: docs
 weight: 23
 url: /hu/net/signature-searching/
 ---

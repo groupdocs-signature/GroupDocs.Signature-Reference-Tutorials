@@ -3,7 +3,6 @@ title: PDF ondertekenen met formulierveld
 linktitle: PDF ondertekenen met formulierveld
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u PDF-documenten kunt ondertekenen met formuliervelden met GroupDocs.Signature voor .NET. Garandeer moeiteloos de authenticiteit en integriteit van documenten.
-type: docs
 weight: 10
 url: /nl/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

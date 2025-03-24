@@ -3,7 +3,6 @@ title: Afficher l'historique du traitement des documents
 linktitle: Afficher l'historique du traitement des documents
 second_title: API GroupDocs.Signature .NET
 description: Découvrez comment afficher facilement l'historique du traitement des documents à l'aide de GroupDocs.Signature pour .NET. Suivez notre guide étape par étape pour une gestion transparente des flux de travail.
-type: docs
 weight: 12
 url: /fr/net/document-preview-operations/view-document-processing-history/
 ---

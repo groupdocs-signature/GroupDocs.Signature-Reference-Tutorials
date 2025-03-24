@@ -3,7 +3,6 @@ title: استرداد معلومات الوثيقة
 linktitle: استرداد معلومات الوثيقة
 second_title: GroupDocs.Signature .NET API
 description: قم بتحسين إدارة المستندات في .NET باستخدام GroupDocs.Signature. استرداد معلومات الوثيقة خطوة بخطوة. يدعم صيغ مختلفة.
-type: docs
 weight: 11
 url: /ar/net/document-preview-operations/retrieve-document-information/
 ---
@@ -75,6 +74,6 @@ foreach (PageInfo pageInfo in documentInfo.Pages)
 ### هل يوفر GroupDocs.Signature for .NET الدعم للتوقيعات الرقمية؟
 بالتأكيد، يوفر GroupDocs.Signature دعمًا قويًا للتوقيعات الرقمية، مما يضمن صحة الوثيقة وسلامتها.
 ### أين يمكنني العثور على وثائق ودعم إضافيين لـ GroupDocs.Signature لـ .NET؟
- يمكنك الرجوع إلى الوثائق الشاملة[هنا](https://reference.groupdocs.com/signature/net/) وللحصول على الدعم، تفضل بزيارة منتدى GroupDocs[هنا](https://forum.groupdocs.com/c/signature/13).
+ يمكنك الرجوع إلى الوثائق الشاملة[هنا](https://tutorials.groupdocs.com/signature/net/) وللحصول على الدعم، تفضل بزيارة منتدى GroupDocs[هنا](https://forum.groupdocs.com/c/signature/13).
 ### هل يمكن الحصول على تراخيص مؤقتة لـ GroupDocs.Signature لـ .NET؟
  نعم، التراخيص المؤقتة متاحة للشراء[هنا](https://purchase.groupdocs.com/temporary-license/).

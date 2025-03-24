@@ -3,7 +3,6 @@ title: スプレッドシートのメタデータ抽出の検索
 linktitle: スプレッドシートのメタデータ抽出の検索
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用して、スプレッドシートからメタデータを効率的に抽出します。ドキュメントの管理と分析を簡単に強化します。
-type: docs
 weight: 13
 url: /ja/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ url: /ja/net/document-metadata-extraction/search-spreadsheet-metadata-extraction
 ## 前提条件
 GroupDocs.Signature for .NET を使用してスプレッドシートのメタデータを検索する複雑な作業に入る前に、次の前提条件が満たされていることを確認してください。
 ### 1. GroupDocs.Signature for .NET のインストール
-まず、次の手順に従って、GroupDocs.Signature for .NET をダウンロードしてインストールします。[ドキュメンテーション](https://reference.groupdocs.com/signature/net/)。この手順は、ライブラリを .NET 環境にシームレスに統合するために重要です。
+まず、次の手順に従って、GroupDocs.Signature for .NET をダウンロードしてインストールします。[ドキュメンテーション](https://tutorials.groupdocs.com/signature/net/)。この手順は、ライブラリを .NET 環境にシームレスに統合するために重要です。
 ### 2. サンプル スプレッドシートへのアクセス
 サンプル スプレッドシートを準備します (例:`sample.xlsx`) 抽出したいメタデータが含まれています。開発環境内でスプレッドシートにアクセスできることを確認してください。
 

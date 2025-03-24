@@ -3,7 +3,6 @@ title: Tìm kiếm mã vạch
 linktitle: Tìm kiếm mã vạch
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách tìm kiếm chữ ký mã vạch trong tài liệu bằng GroupDocs.Signature cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi và tích hợp chữ ký một cách hiệu quả.
-type: docs
 weight: 10
 url: /vi/net/signature-searching/search-for-barcode/
 ---

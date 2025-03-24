@@ -3,7 +3,6 @@ title: ค้นหาการแยกข้อมูลเมตา PDF
 linktitle: ค้นหาการแยกข้อมูลเมตา PDF
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีค้นหาและแยกลายเซ็นข้อมูลเมตาจากเอกสาร PDF โดยใช้ GroupDocs.Signature สำหรับ .NET เพิ่มความสามารถในการจัดการเอกสารของคุณ
-type: docs
 weight: 11
 url: /th/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---

@@ -3,7 +3,6 @@ title: Extrakce metadat dokumentu
 linktitle: Extrakce metadat dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Odemkněte sílu extrakce metadat s GroupDocs.Signature pro .NET. Naučte se snadno vyhledávat a extrahovat metadata dokumentů pro lepší správu.
-type: docs
 weight: 22
 url: /cs/net/document-metadata-extraction/
 ---

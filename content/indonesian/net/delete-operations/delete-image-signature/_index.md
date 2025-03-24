@@ -3,7 +3,6 @@ title: Hapus Tanda Tangan Gambar
 linktitle: Hapus Tanda Tangan Gambar
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menghapus tanda tangan gambar dari dokumen menggunakan GroupDocs.Signature untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengelolaan tanda tangan yang efisien.
-type: docs
 weight: 14
 url: /id/net/delete-operations/delete-image-signature/
 ---

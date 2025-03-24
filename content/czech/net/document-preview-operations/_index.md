@@ -3,7 +3,6 @@ title: Operace náhledu dokumentu
 linktitle: Operace náhledu dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Naučte se, jak zefektivnit správu dokumentů pomocí výukových programů GroupDocs.Signature for .NET. Zjednodušte úkoly, vylepšete pracovní postup a zvyšte produktivitu bez námahy.
-type: docs
 weight: 21
 url: /cs/net/document-preview-operations/
 ---

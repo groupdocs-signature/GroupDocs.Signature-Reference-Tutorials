@@ -3,7 +3,6 @@ title: Zoek naar afbeeldingen
 linktitle: Zoek naar afbeeldingen
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u naar afbeeldingen in documenten kunt zoeken met GroupDocs.Signature voor .NET. Verbeter moeiteloos de beveiliging en integriteit van documenten.
-type: docs
 weight: 13
 url: /nl/net/signature-searching/search-for-images/
 ---
@@ -69,4 +68,4 @@ Ja, GroupDocs.Signature biedt geavanceerde functies, waaronder ondersteuning voo
 ### Kan ik het uiterlijk aanpassen van digitale handtekeningen die zijn toegevoegd met GroupDocs.Signature voor .NET?
 Zeker! GroupDocs.Signature biedt uitgebreide aanpassingsmogelijkheden, waardoor u het uiterlijk van digitale handtekeningen kunt aanpassen aan uw specifieke vereisten.
 ### Waar kan ik ondersteuning of aanvullende bronnen vinden voor GroupDocs.Signature voor .NET?
- U kunt het GroupDocs.Signature-forum bezoeken op[deze link](https://forum.groupdocs.com/c/signature/13) voor hulp, of raadpleeg de uitgebreide beschikbare documentatie[hier](https://reference.groupdocs.com/signature/net/).
+ U kunt het GroupDocs.Signature-forum bezoeken op[deze link](https://forum.groupdocs.com/c/signature/13) voor hulp, of raadpleeg de uitgebreide beschikbare documentatie[hier](https://tutorials.groupdocs.com/signature/net/).

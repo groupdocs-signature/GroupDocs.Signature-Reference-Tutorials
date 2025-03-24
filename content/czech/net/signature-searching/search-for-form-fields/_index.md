@@ -3,7 +3,6 @@ title: Vyhledejte pole formuláře
 linktitle: Vyhledejte pole formuláře
 second_title: GroupDocs.Signature .NET API
 description: Naučte se, jak integrovat funkci podpisu do vašich aplikací .NET pomocí GroupDocs.Signature for .NET. Postupujte podle našich kroků krok za krokem pro bezproblémovou správu dokumentů.
-type: docs
 weight: 12
 url: /cs/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ GroupDocs.Signature for .NET je výkonný nástroj pro vývojáře k přidáván
 Než se pustíte do používání GroupDocs.Signature pro .NET, ujistěte se, že máte splněny následující předpoklady:
 1. Visual Studio: Nainstalujte Visual Studio na vývojový stroj.
 2.  GroupDocs.Signature for .NET: Stáhněte si a nainstalujte knihovnu GroupDocs.Signature for .NET z[tady](https://releases.groupdocs.com/signature/net/).
-3.  Přístup k dokumentaci: Seznamte se s dokumentací dostupnou na[GroupDocs.Signature pro dokumentaci .NET](https://reference.groupdocs.com/signature/net/).
+3.  Přístup k dokumentaci: Seznamte se s dokumentací dostupnou na[GroupDocs.Signature pro dokumentaci .NET](https://tutorials.groupdocs.com/signature/net/).
 4.  Přístup k podpoře: V případě jakýchkoli problémů nebo dotazů navštivte fórum podpory na adrese[GroupDocs.Signature Forum](https://forum.groupdocs.com/c/signature/13).
 
 ## Import jmenných prostorů
@@ -63,6 +62,6 @@ Ano, GroupDocs.Signature for .NET podporuje širokou škálu formátů dokument�
 ### Jak mohu získat dočasné licence pro GroupDocs.Signature pro .NET?
  Dočasné licence lze získat od[tady](https://purchase.groupdocs.com/temporary-license/).
 ### Kde najdu podrobnou dokumentaci k GroupDocs.Signature pro .NET?
- K dispozici je podrobná dokumentace[tady](https://reference.groupdocs.com/signature/net/).
+ K dispozici je podrobná dokumentace[tady](https://tutorials.groupdocs.com/signature/net/).
 ### Nabízí GroupDocs.Signature for .NET podporu pro vývojáře?
  Ano, k podpoře pro vývojáře můžete přistupovat prostřednictvím[GroupDocs.Signature Forum](https://forum.groupdocs.com/c/signature/13).

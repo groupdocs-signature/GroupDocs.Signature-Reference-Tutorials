@@ -3,7 +3,6 @@ title: Keresés a kép metaadatainak kinyerésében a GroupDocs.Signature segít
 linktitle: Search Image Metadata Extraction
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan kereshet képek metaadat-aláírásai között dokumentumokban a GroupDocs.Signature for .NET segítségével. Fokozatmentesen fokozza a dokumentumok integritását és hitelességét.
-type: docs
 weight: 10
 url: /hu/net/document-metadata-extraction/search-image-metadata-extraction/
 ---

@@ -3,7 +3,6 @@ title: Generera förhandsgranskning av dokument
 linktitle: Generera förhandsgranskning av dokument
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du genererar dokumentförhandsvisningar med GroupDocs.Signature för .NET. Förenkla dokumenthanteringen i dina .NET-applikationer.
-type: docs
 weight: 10
 url: /sv/net/document-preview-operations/generate-document-preview/
 ---

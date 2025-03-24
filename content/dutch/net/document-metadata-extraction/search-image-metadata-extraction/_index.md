@@ -3,7 +3,6 @@ title: Zoek metagegevensextractie van afbeeldingen met GroupDocs.Signature
 linktitle: Zoek metagegevensextractie van afbeeldingen
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u metagegevens van afbeeldingen kunt zoeken in documenten met GroupDocs.Signature voor .NET. Verbeter moeiteloos de integriteit en authenticiteit van documenten.
-type: docs
 weight: 10
 url: /nl/net/document-metadata-extraction/search-image-metadata-extraction/
 ---

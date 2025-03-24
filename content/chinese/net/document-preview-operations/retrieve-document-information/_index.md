@@ -3,7 +3,6 @@ title: 检索文档信息
 linktitle: 检索文档信息
 second_title: GroupDocs.Signature .NET API
 description: 使用 GroupDocs.Signature 增强 .NET 中的文档管理。逐步检索文档信息。支持各种格式。
-type: docs
 weight: 11
 url: /zh/net/document-preview-operations/retrieve-document-information/
 ---
@@ -75,6 +74,6 @@ GroupDocs.Signature for .NET 提供了一套功能强大的工具，用于在 .N
 ### GroupDocs.Signature for .NET 是否提供对数字签名的支持？
 当然，GroupDocs.Signature 为数字签名提供强大的支持，确保文档的真实性和完整性。
 ### 在哪里可以找到针对 .NET 的 GroupDocs.Signature 的其他文档和支持？
-您可以参考综合文档[这里](https://reference.groupdocs.com/signature/net/)，如需支持，请访问 GroupDocs 论坛[这里](https://forum.groupdocs.com/c/signature/13).
+您可以参考综合文档[这里](https://tutorials.groupdocs.com/signature/net/)，如需支持，请访问 GroupDocs 论坛[这里](https://forum.groupdocs.com/c/signature/13).
 ### 能否为 .NET 获得 GroupDocs.Signature 的临时许可证？
 是的，可以购买临时许可证[这里](https://purchase.groupdocs.com/temporary-license/).

@@ -3,7 +3,6 @@ title: Hapus Tanda Tangan berdasarkan Jenis
 linktitle: Hapus Tanda Tangan berdasarkan Jenis
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menghapus tanda tangan berdasarkan jenis dokumen .NET dengan mudah menggunakan GroupDocs.Signature, sehingga meningkatkan efisiensi manajemen dokumen.
-type: docs
 weight: 12
 url: /id/net/delete-operations/delete-signature-by-type/
 ---

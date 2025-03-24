@@ -3,7 +3,6 @@ title: Überprüfen Sie die digitale Signatur
 linktitle: Überprüfen Sie die digitale Signatur
 second_title: GroupDocs.Signature .NET-API
 description: Überprüfen Sie digitale Signaturen in .NET ganz einfach mit GroupDocs.Signature. Stellen Sie mühelos die Authentizität und Integrität von Dokumenten sicher.
-type: docs
 weight: 11
 url: /de/net/verify-operations/verify-digital/
 ---

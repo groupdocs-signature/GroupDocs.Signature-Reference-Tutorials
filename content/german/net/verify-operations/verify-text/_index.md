@@ -3,7 +3,6 @@ title: Text überprüfen
 linktitle: Text überprüfen
 second_title: GroupDocs.Signature .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET Text in Dokumenten überprüfen. Folgen Sie unserem Schritt-für-Schritt-Tutorial für eine nahtlose Integration.
-type: docs
 weight: 13
 url: /de/net/verify-operations/verify-text/
 ---

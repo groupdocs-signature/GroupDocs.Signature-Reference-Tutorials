@@ -3,7 +3,6 @@ title: ドキュメント処理履歴の表示
 linktitle: ドキュメント処理履歴の表示
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してドキュメント処理履歴を簡単に表示する方法を説明します。シームレスなワークフロー管理については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 12
 url: /ja/net/document-preview-operations/view-document-processing-history/
 ---

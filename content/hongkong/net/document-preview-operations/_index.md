@@ -3,7 +3,6 @@ title: 文件預覽操作
 linktitle: 文件預覽操作
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 教學簡化文件管理。輕鬆簡化任務、增強工作流程並提高生產力。
-type: docs
 weight: 21
 url: /zh-hant/net/document-preview-operations/
 ---

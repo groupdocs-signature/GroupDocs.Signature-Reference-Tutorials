@@ -3,7 +3,6 @@ title: Ekstraksi Metadata Pemrosesan Kata Pencarian
 linktitle: Ekstraksi Metadata Pemrosesan Kata Pencarian
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara mencari metadata pemrosesan kata menggunakan GroupDocs.Signature untuk .NET. Tingkatkan manajemen dokumen dengan mudah.
-type: docs
 weight: 14
 url: /id/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
@@ -56,7 +55,7 @@ Ya, GroupDocs.Signature mendukung berbagai format dokumen, termasuk DOCX, PDF, d
 ### Apakah GroupDocs.Signature cocok untuk manajemen dokumen tingkat perusahaan?
 Tentu saja, GroupDocs.Signature menawarkan fitur canggih yang disesuaikan untuk lingkungan perusahaan, memastikan solusi manajemen dokumen yang aman dan andal.
 ### Apakah GroupDocs.Signature menyediakan dokumentasi komprehensif untuk pengembang?
- Ya, pengembang dapat menemukan dokumentasi terperinci, termasuk referensi API dan contoh kode, di[halaman dokumentasi](https://reference.groupdocs.com/signature/net/).
+ Ya, pengembang dapat menemukan dokumentasi terperinci, termasuk referensi API dan contoh kode, di[halaman dokumentasi](https://tutorials.groupdocs.com/signature/net/).
 ### Bisakah saya mencoba GroupDocs.Signature sebelum membeli?
  Ya, pengguna yang tertarik dapat memanfaatkan uji coba gratis GroupDocs.Signature dari[situs web](https://releases.groupdocs.com/).
 ### Di mana saya dapat mencari dukungan untuk GroupDocs.Signature?

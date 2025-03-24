@@ -1,7 +1,6 @@
 ---
 title: Hướng dẫn và ví dụ về GroupDocs.Signature cho .NET
 linktitle: Hướng dẫn GroupDocs.Signature cho .NET
-type: docs
 weight: 10
 url: /vi/net/
 description: Mở khóa khả năng quản lý tài liệu hiệu quả với hướng dẫn GroupDocs.Signature for .NET. Xóa, xem trước, trích xuất siêu dữ liệu, ký, cập nhật và xác minh tài liệu một cách liền mạch.

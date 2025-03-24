@@ -3,7 +3,6 @@ title: Hoạt động xem trước tài liệu
 linktitle: Hoạt động xem trước tài liệu
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách hợp lý hóa việc quản lý tài liệu với hướng dẫn GroupDocs.Signature cho .NET. Đơn giản hóa nhiệm vụ, nâng cao quy trình làm việc và tăng năng suất một cách dễ dàng.
-type: docs
 weight: 21
 url: /vi/net/document-preview-operations/
 ---

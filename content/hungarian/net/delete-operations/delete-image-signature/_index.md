@@ -3,7 +3,6 @@ title: Képaláírás törlése
 linktitle: Képaláírás törlése
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan törölhet képaláírásokat dokumentumokból a GroupDocs.Signature for .NET segítségével. Kövesse lépésenkénti útmutatónkat a hatékony aláíráskezeléshez.
-type: docs
 weight: 14
 url: /hu/net/delete-operations/delete-image-signature/
 ---

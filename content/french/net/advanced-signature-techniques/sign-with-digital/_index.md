@@ -3,7 +3,6 @@ title: Signature avec signature numérique
 linktitle: Signature avec signature numérique
 second_title: API GroupDocs.Signature .NET
 description: Découvrez comment signer numériquement des documents dans .NET à l'aide de GroupDocs.Signature. Améliorez la sécurité et l’authenticité avec ce didacticiel complet.
-type: docs
 weight: 12
 url: /fr/net/advanced-signature-techniques/sign-with-digital/
 ---

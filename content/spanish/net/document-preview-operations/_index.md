@@ -3,7 +3,6 @@ title: Operaciones de vista previa de documentos
 linktitle: Operaciones de vista previa de documentos
 second_title: API GroupDocs.Signature .NET
 description: Aprenda a optimizar la gestión de documentos con los tutoriales de GroupDocs.Signature para .NET. Simplifique las tareas, mejore el flujo de trabajo y aumente la productividad sin esfuerzo.
-type: docs
 weight: 21
 url: /es/net/document-preview-operations/
 ---

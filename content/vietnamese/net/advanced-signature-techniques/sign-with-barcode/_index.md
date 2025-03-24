@@ -3,7 +3,6 @@ title: Ký bằng mã vạch
 linktitle: Ký bằng mã vạch
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách ký tài liệu bằng mã vạch bằng GroupDocs.Signature cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 11
 url: /vi/net/advanced-signature-techniques/sign-with-barcode/
 ---

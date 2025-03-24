@@ -3,7 +3,6 @@ title: QR Kodunu Doğrulayın
 linktitle: QR Kodunu Doğrulayın
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki QR kodlarını nasıl doğrulayacağınızı öğrenin. Adım adım kılavuzla kapsamlı eğitim.
-type: docs
 weight: 12
 url: /tr/net/verify-operations/verify-qr-code/
 ---
@@ -79,4 +78,4 @@ Evet, GroupDocs.Signature for .NET, QR kodu doğrulaması için DOCX, PDF ve dah
 ### GroupDocs.Signature for .NET için geçici bir lisans satın alabilir miyim?
  Evet, geçici lisanslar şu adresten satın alınabilir:[GroupDocs satın alma sayfası](https://purchase.groupdocs.com/temporary-license/).
 ### GroupDocs.Signature for .NET'e yönelik kapsamlı belgeler mevcut mu?
- Kesinlikle, sağlanan ayrıntılı belgelere başvurabilirsiniz.[Burada](https://reference.groupdocs.com/signature/net/) GroupDocs.Signature for .NET işlevlerinin kullanımına ilişkin kapsamlı rehberlik için.
+ Kesinlikle, sağlanan ayrıntılı belgelere başvurabilirsiniz.[Burada](https://tutorials.groupdocs.com/signature/net/) GroupDocs.Signature for .NET işlevlerinin kullanımına ilişkin kapsamlı rehberlik için.

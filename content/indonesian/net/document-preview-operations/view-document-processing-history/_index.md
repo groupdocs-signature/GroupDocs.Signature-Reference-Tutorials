@@ -3,7 +3,6 @@ title: Lihat Riwayat Pemrosesan Dokumen
 linktitle: Lihat Riwayat Pemrosesan Dokumen
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Temukan cara melihat riwayat pemrosesan dokumen dengan mudah menggunakan GroupDocs.Signature untuk .NET. Ikuti panduan langkah demi langkah kami untuk manajemen alur kerja yang lancar.
-type: docs
 weight: 12
 url: /id/net/document-preview-operations/view-document-processing-history/
 ---

@@ -3,7 +3,6 @@ title: Tìm kiếm mã QR
 linktitle: Tìm kiếm mã QR
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách tìm kiếm mã QR trong tài liệu bằng GroupDocs.Signature cho .NET. Tăng cường bảo mật tài liệu một cách dễ dàng.
-type: docs
 weight: 15
 url: /vi/net/signature-searching/search-for-qr-codes/
 ---

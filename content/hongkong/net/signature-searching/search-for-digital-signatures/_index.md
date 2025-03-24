@@ -3,7 +3,6 @@ title: 搜尋數位簽名
 linktitle: 搜尋數位簽名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 在文件中搜尋數位簽章。透過此綜合功能增強文件的安全性和完整性。
-type: docs
 weight: 11
 url: /zh-hant/net/signature-searching/search-for-digital-signatures/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Signature for .NET 提供了一個強大的框架，可在 .NET 應用
 ### GroupDocs.Signature for .NET 是否有免費試用版？
 是的，您可以存取 GroupDocs.Signature for .NET 的免費試用版：[這裡](https://releases.groupdocs.com/).
 ### 在哪裡可以找到適用於 .NET 的 GroupDocs.Signature 文件？
-您可以找到 GroupDocs.Signature for .NET 的詳細文檔[這裡](https://reference.groupdocs.com/signature/net/).
+您可以找到 GroupDocs.Signature for .NET 的詳細文檔[這裡](https://tutorials.groupdocs.com/signature/net/).
 ### 如何取得 GroupDocs.Signature for .NET 的臨時授權？
 可取得 GroupDocs.Signature for .NET 的臨時許可證[這裡](https://purchase.groupdocs.com/temporary-license/).
 ### 在哪裡可以尋求對 GroupDocs.Signature for .NET 的支援？

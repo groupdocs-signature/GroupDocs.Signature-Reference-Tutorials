@@ -3,7 +3,6 @@ title: Unterzeichnen von Dokumenten
 linktitle: Unterzeichnen von Dokumenten
 second_title: GroupDocs.Signature .NET-API
 description: Signieren Sie Bilder, PDFs, Präsentationen, Tabellenkalkulationen und Word-Dokumente mit Metadaten mit GroupDocs.Signature .NET. Verbessern Sie die Authentizität und Integrität von Dokumenten.
-type: docs
 weight: 24
 url: /de/net/document-signing/
 ---

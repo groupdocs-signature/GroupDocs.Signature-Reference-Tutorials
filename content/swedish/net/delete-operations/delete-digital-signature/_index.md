@@ -3,7 +3,6 @@ title: Ta bort digital signatur från dokument
 linktitle: Ta bort digital signatur från dokument
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du tar bort digitala signaturer från dokument med GroupDocs.Signature för .NET. Följ vår steg-för-steg-guide för effektiv hantering.
-type: docs
 weight: 13
 url: /sv/net/delete-operations/delete-digital-signature/
 ---

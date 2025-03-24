@@ -3,7 +3,6 @@ title: 按 ID 刪除簽名
 linktitle: 按 ID 刪除簽名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature 函式庫按 ID 刪除 .NET 文件中的簽章。簡單的逐步指南。
-type: docs
 weight: 11
 url: /zh-hant/net/delete-operations/delete-signature-by-id/
 ---

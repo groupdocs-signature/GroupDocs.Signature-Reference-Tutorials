@@ -3,7 +3,6 @@ title: Xác minh chữ ký số
 linktitle: Xác minh chữ ký số
 second_title: API GroupDocs.Signature .NET
 description: Xác minh chữ ký số trong .NET một cách dễ dàng bằng GroupDocs.Signature. Đảm bảo tính xác thực và tính toàn vẹn của tài liệu một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/verify-operations/verify-digital/
 ---

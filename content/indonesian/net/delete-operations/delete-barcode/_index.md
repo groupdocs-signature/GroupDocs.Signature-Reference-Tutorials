@@ -3,7 +3,6 @@ title: Hapus Barcode dari Dokumen
 linktitle: Hapus Barcode dari Dokumen
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menghapus kode batang dari dokumen menggunakan GroupDocs.Signature untuk .NET. Panduan langkah demi langkah dengan contoh kode.
-type: docs
 weight: 10
 url: /id/net/delete-operations/delete-barcode/
 ---

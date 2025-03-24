@@ -3,7 +3,6 @@ title: Signing Documents with Image using GroupDocs.Signature
 linktitle: Signing with Image
 second_title: GroupDocs.Signature .NET API
 description: Learn how to sign documents using images in .NET applications with Groupdocs.Signature for .NET. Enhance document security and authenticity effortlessly.
-type: docs
 weight: 13
 url: /net/advanced-signature-techniques/sign-with-image/
 ---

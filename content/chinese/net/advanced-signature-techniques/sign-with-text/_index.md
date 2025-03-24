@@ -3,7 +3,6 @@ title: 使用 GroupDocs.Signature for .NET 进行文本签名
 linktitle: 用文字签名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 对带有文本的文档进行签名。以编程方式添加文本签名的分步指南。
-type: docs
 weight: 17
 url: /zh/net/advanced-signature-techniques/sign-with-text/
 ---

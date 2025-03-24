@@ -3,7 +3,6 @@ title: Wyszukaj podpisy cyfrowe
 linktitle: Wyszukaj podpisy cyfrowe
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak wyszukiwać podpisy cyfrowe w dokumentach przy użyciu programu GroupDocs.Signature for .NET. Zwiększ bezpieczeństwo i integralność dokumentów dzięki temu kompleksowemu rozwiązaniu.
-type: docs
 weight: 11
 url: /pl/net/signature-searching/search-for-digital-signatures/
 ---
@@ -58,7 +57,7 @@ Tak, GroupDocs.Signature for .NET obsługuje różne formaty dokumentów, w tym 
 ### Czy dostępna jest bezpłatna wersja próbna programu GroupDocs.Signature for .NET?
 Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej GroupDocs.Signature for .NET z[Tutaj](https://releases.groupdocs.com/).
 ### Gdzie mogę znaleźć dokumentację GroupDocs.Signature dla .NET?
- Możesz znaleźć szczegółową dokumentację GroupDocs.Signature for .NET[Tutaj](https://reference.groupdocs.com/signature/net/).
+ Możesz znaleźć szczegółową dokumentację GroupDocs.Signature for .NET[Tutaj](https://tutorials.groupdocs.com/signature/net/).
 ### Jak mogę uzyskać tymczasowe licencje dla GroupDocs.Signature dla .NET?
  Można uzyskać tymczasowe licencje dla GroupDocs.Signature for .NET[Tutaj](https://purchase.groupdocs.com/temporary-license/).
 ### Gdzie mogę uzyskać pomoc dotyczącą GroupDocs.Signature for .NET?

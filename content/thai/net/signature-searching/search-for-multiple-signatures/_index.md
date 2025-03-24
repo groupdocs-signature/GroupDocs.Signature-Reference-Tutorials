@@ -3,7 +3,6 @@ title: ค้นหาลายเซ็นหลายรายการ
 linktitle: ค้นหาลายเซ็นหลายรายการ
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีค้นหาลายเซ็นหลายรายการในเอกสาร .NET โดยใช้ GroupDocs.Signature เพื่อความปลอดภัยและความสมบูรณ์ของเอกสารที่มีประสิทธิภาพ
-type: docs
 weight: 14
 url: /th/net/signature-searching/search-for-multiple-signatures/
 ---

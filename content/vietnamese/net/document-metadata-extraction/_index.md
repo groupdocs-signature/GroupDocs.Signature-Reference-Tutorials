@@ -3,7 +3,6 @@ title: Trích xuất siêu dữ liệu tài liệu
 linktitle: Trích xuất siêu dữ liệu tài liệu
 second_title: API GroupDocs.Signature .NET
 description: Khai phá sức mạnh của việc trích xuất siêu dữ liệu bằng GroupDocs.Signature cho .NET. Tìm hiểu cách tìm kiếm và trích xuất siêu dữ liệu tài liệu một cách dễ dàng để nâng cao khả năng quản lý.
-type: docs
 weight: 22
 url: /vi/net/document-metadata-extraction/
 ---

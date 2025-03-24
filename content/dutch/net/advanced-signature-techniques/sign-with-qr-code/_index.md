@@ -3,7 +3,6 @@ title: Documenten ondertekenen met QR-code met GroupDocs.Signature
 linktitle: Ondertekenen met QR-code
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u QR-codehandtekeningen aan uw documenten kunt toevoegen met GroupDocs.Signature voor .NET. Verbeter moeiteloos de beveiliging en authenticatie.
-type: docs
 weight: 15
 url: /nl/net/advanced-signature-techniques/sign-with-qr-code/
 ---

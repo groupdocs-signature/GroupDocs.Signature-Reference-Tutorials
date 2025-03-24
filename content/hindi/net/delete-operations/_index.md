@@ -3,7 +3,6 @@ title: परिचालन हटाएँ
 linktitle: परिचालन हटाएँ
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature के साथ .NET दस्तावेज़ों से हस्ताक्षर, बारकोड और बहुत कुछ हटाएं। कुशल दस्तावेज़ प्रबंधन के लिए अभी ट्यूटोरियल देखें!
-type: docs
 weight: 20
 url: /hi/net/delete-operations/
 ---

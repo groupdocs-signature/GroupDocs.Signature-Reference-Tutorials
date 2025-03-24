@@ -3,7 +3,6 @@ title: Διαγραφή υπογραφής με ταυτότητα
 linktitle: Διαγραφή υπογραφής με ταυτότητα
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς μπορείτε να διαγράψετε μια υπογραφή κατά αναγνωριστικό σε έγγραφα .NET χρησιμοποιώντας τη βιβλιοθήκη GroupDocs.Signature. Εύκολος οδηγός βήμα προς βήμα.
-type: docs
 weight: 11
 url: /el/net/delete-operations/delete-signature-by-id/
 ---

@@ -3,7 +3,6 @@ title: Controleer bewerkingen
 linktitle: Controleer bewerkingen
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u streepjescodes, digitale handtekeningen, QR-codes en tekst in documenten kunt verifiëren met GroupDocs.Signature .NET. Stapsgewijze tutorials voor naadloze integratie.
-type: docs
 weight: 27
 url: /nl/net/verify-operations/
 ---

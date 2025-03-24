@@ -3,7 +3,6 @@ title: Hapus Tanda Tangan Digital dari Dokumen
 linktitle: Hapus Tanda Tangan Digital dari Dokumen
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menghapus tanda tangan digital dari dokumen menggunakan GroupDocs.Signature untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengelolaan yang efisien.
-type: docs
 weight: 13
 url: /id/net/delete-operations/delete-digital-signature/
 ---

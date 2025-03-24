@@ -3,7 +3,6 @@ title: Controleer tekst
 linktitle: Controleer tekst
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u tekst in documenten kunt verifiëren met GroupDocs.Signature voor .NET. Volg onze stap-voor-stap handleiding voor een naadloze integratie.
-type: docs
 weight: 13
 url: /nl/net/verify-operations/verify-text/
 ---

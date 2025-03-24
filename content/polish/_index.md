@@ -3,7 +3,6 @@ title: Kompleksowe samouczki GroupDocs.Signature
 linktitle: Poradniki GroupDocs.Signature
 additionalTitle: Referencje API GroupDocs
 description: Opanuj zarządzanie dokumentami w .NET i Javie dzięki samouczkom GroupDocs.Signature. Twórz, weryfikuj, wyodrębniaj metadane i nie tylko. Zanurz się w płynny przepływ pracy!
-type: docs
 weight: 11
 url: /pl/
 is_root: true

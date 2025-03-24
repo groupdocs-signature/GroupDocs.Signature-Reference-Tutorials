@@ -3,7 +3,6 @@ title: Documentinformatie ophalen
 linktitle: Documentinformatie ophalen
 second_title: GroupDocs.Signature .NET API
 description: Verbeter documentbeheer in .NET met GroupDocs.Signature. Haal stap voor stap documentinformatie op. Ondersteunt verschillende formaten.
-type: docs
 weight: 11
 url: /nl/net/document-preview-operations/retrieve-document-information/
 ---
@@ -75,6 +74,6 @@ Ja, GroupDocs.Signature ondersteunt een breed scala aan documentformaten, inclus
 ### Biedt GroupDocs.Signature voor .NET ondersteuning voor digitale handtekeningen?
 Absoluut, GroupDocs.Signature biedt robuuste ondersteuning voor digitale handtekeningen, waardoor de authenticiteit en integriteit van documenten wordt gegarandeerd.
 ### Waar kan ik aanvullende documentatie en ondersteuning vinden voor GroupDocs.Signature voor .NET?
- U kunt de uitgebreide documentatie raadplegen[hier](https://reference.groupdocs.com/signature/net/) en ga voor ondersteuning naar het GroupDocs-forum[hier](https://forum.groupdocs.com/c/signature/13).
+ U kunt de uitgebreide documentatie raadplegen[hier](https://tutorials.groupdocs.com/signature/net/) en ga voor ondersteuning naar het GroupDocs-forum[hier](https://forum.groupdocs.com/c/signature/13).
 ### Kunnen tijdelijke licenties worden verkregen voor GroupDocs.Signature voor .NET?
  Ja, tijdelijke licenties zijn te koop[hier](https://purchase.groupdocs.com/temporary-license/).

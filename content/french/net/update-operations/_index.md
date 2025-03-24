@@ -3,7 +3,6 @@ title: Opérations de mise à jour
 linktitle: Opérations de mise à jour
 second_title: API GroupDocs.Signature .NET
 description: Mettez à jour les signatures de codes-barres, d'images, de codes QR et de texte dans les documents .NET avec les didacticiels GroupDocs.Signature pour .NET. Améliorez la sécurité et la gestion des documents.
-type: docs
 weight: 26
 url: /fr/net/update-operations/
 ---

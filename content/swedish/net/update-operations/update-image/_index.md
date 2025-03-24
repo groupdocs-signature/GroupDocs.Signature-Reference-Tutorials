@@ -3,7 +3,6 @@ title: Uppdatera bild
 linktitle: Uppdatera bild
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du uppdaterar bildsignaturer i .NET-dokument utan ansträngning med GroupDocs.Signature. Förbättra dokumentsäkerhet och integritet sömlöst.
-type: docs
 weight: 11
 url: /sv/net/update-operations/update-image/
 ---

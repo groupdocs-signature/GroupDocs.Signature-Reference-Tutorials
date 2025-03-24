@@ -3,7 +3,6 @@ title: Képek keresése
 linktitle: Képek keresése
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan kereshet képeket a dokumentumokon belül a GroupDocs.Signature for .NET segítségével. Fokozatmentesen fokozza a dokumentumok biztonságát és integritását.
-type: docs
 weight: 13
 url: /hu/net/signature-searching/search-for-images/
 ---
@@ -69,4 +68,4 @@ Igen, a GroupDocs.Signature fejlett szolgáltatásokat biztosít, beleértve a b
 ### Testreszabhatom a GroupDocs.Signature for .NET segítségével hozzáadott digitális aláírások megjelenését?
 Biztosan! A GroupDocs.Signature kiterjedt testreszabási lehetőségeket kínál, amelyek lehetővé teszik a digitális aláírások megjelenésének testreszabását az Ön egyedi igényei szerint.
 ### Hol találok támogatást vagy további forrásokat a GroupDocs.Signature for .NET számára?
- Látogassa meg a GroupDocs.Signature fórumot a címen[ez a link](https://forum.groupdocs.com/c/signature/13) segítségért, vagy tekintse meg a rendelkezésre álló átfogó dokumentációt[itt](https://reference.groupdocs.com/signature/net/).
+ Látogassa meg a GroupDocs.Signature fórumot a címen[ez a link](https://forum.groupdocs.com/c/signature/13) segítségért, vagy tekintse meg a rendelkezésre álló átfogó dokumentációt[itt](https://tutorials.groupdocs.com/signature/net/).

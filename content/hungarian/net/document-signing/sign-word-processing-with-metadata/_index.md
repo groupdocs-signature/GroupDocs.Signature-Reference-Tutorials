@@ -3,7 +3,6 @@ title: Szövegfeldolgozás aláírása metaadatokkal
 linktitle: Szövegfeldolgozás aláírása metaadatokkal
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan írhat alá szövegszerkesztő dokumentumokat metaadatokkal a GroupDocs.Signature for .NET segítségével. A dokumentumok hitelességének és nyomon követhetőségének javítása.
-type: docs
 weight: 14
 url: /hu/net/document-signing/sign-word-processing-with-metadata/
 ---

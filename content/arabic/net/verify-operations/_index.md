@@ -3,7 +3,6 @@ title: التحقق من العمليات
 linktitle: التحقق من العمليات
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية التحقق من الرموز الشريطية والتوقيعات الرقمية ورموز QR والنص في المستندات باستخدام GroupDocs.Signature .NET. برامج تعليمية خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 27
 url: /ar/net/verify-operations/
 ---

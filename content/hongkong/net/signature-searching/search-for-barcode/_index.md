@@ -3,7 +3,6 @@ title: 搜尋條碼
 linktitle: 搜尋條碼
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 在文件中搜尋條碼簽章。遵循我們的逐步指南並有效地整合簽名。
-type: docs
 weight: 10
 url: /zh-hant/net/signature-searching/search-for-barcode/
 ---

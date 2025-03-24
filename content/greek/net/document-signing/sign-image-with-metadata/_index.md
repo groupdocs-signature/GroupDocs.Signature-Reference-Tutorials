@@ -3,7 +3,6 @@ title: Υπογραφή εικόνας με μεταδεδομένα
 linktitle: Υπογραφή εικόνας με μεταδεδομένα
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να υπογράφετε εικόνες με μεταδεδομένα στο .NET χρησιμοποιώντας GroupDocs.Signature. Εύκολη, αποτελεσματική και προσαρμόσιμη λύση υπογραφής μεταδεδομένων.
-type: docs
 weight: 10
 url: /el/net/document-signing/sign-image-with-metadata/
 ---

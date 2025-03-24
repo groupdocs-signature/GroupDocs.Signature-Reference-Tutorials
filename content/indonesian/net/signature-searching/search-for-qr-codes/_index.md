@@ -3,7 +3,6 @@ title: Cari Kode QR
 linktitle: Cari Kode QR
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara mencari kode QR dalam dokumen menggunakan GroupDocs.Signature untuk .NET. Tingkatkan keamanan dokumen dengan mudah.
-type: docs
 weight: 15
 url: /id/net/signature-searching/search-for-qr-codes/
 ---

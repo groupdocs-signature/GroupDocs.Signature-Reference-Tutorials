@@ -3,7 +3,6 @@ title: Ký bản trình bày với siêu dữ liệu
 linktitle: Ký bản trình bày với siêu dữ liệu
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách ký các tệp bản trình bày có siêu dữ liệu bằng GroupDocs.Signature cho .NET. Tăng cường tính toàn vẹn của tài liệu và thêm thông tin có giá trị.
-type: docs
 weight: 12
 url: /vi/net/document-signing/sign-presentation-with-metadata/
 ---

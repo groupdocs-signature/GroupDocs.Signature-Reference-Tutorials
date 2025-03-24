@@ -3,7 +3,6 @@ title: Ondertekenen met Stamp met GroupDocs.Signature
 linktitle: Ondertekenen met stempel
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u eenvoudig stempelhandtekeningen aan uw .NET-documenten kunt toevoegen met GroupDocs.Signature voor .NET. Verbeter de documentbeveiliging.
-type: docs
 weight: 16
 url: /nl/net/advanced-signature-techniques/sign-with-stamp/
 ---

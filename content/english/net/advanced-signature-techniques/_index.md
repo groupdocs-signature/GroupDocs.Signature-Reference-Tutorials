@@ -3,7 +3,6 @@ title: Advanced Signature Techniques
 linktitle: Advanced Signature Techniques
 second_title: GroupDocs.Signature .NET API
 description: Learn advanced signature techniques with GroupDocs.Signature for .NET tutorials. Sign PDFs, images, and documents seamlessly with barcode, digital, and more.
-type: docs
 weight: 25
 url: /net/advanced-signature-techniques/
 ---

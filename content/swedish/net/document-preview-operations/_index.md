@@ -3,7 +3,6 @@ title: Dokumentförhandsgranskning
 linktitle: Dokumentförhandsgranskning
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du effektiviserar dokumenthanteringen med självstudier för GroupDocs.Signature för .NET. Förenkla uppgifter, förbättra arbetsflödet och öka produktiviteten utan ansträngning.
-type: docs
 weight: 21
 url: /sv/net/document-preview-operations/
 ---

@@ -3,7 +3,6 @@ title: Xóa chữ ký theo ID
 linktitle: Xóa chữ ký theo ID
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách xóa chữ ký theo ID trong tài liệu .NET bằng thư viện GroupDocs.Signature. Hướng dẫn từng bước dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/delete-operations/delete-signature-by-id/
 ---

@@ -3,7 +3,6 @@ title: Ενημέρωση Barcode
 linktitle: Ενημέρωση Barcode
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να ενημερώνετε τις υπογραφές γραμμικού κώδικα σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET. Οδηγός βήμα προς βήμα για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 10
 url: /el/net/update-operations/update-barcode/
 ---

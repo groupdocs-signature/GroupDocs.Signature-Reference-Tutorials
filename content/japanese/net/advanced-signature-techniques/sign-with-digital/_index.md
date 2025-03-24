@@ -3,7 +3,6 @@ title: デジタル署名による署名
 linktitle: デジタル署名による署名
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature を使用して .NET でドキュメントにデジタル署名する方法を学びます。この包括的なチュートリアルでセキュリティと信頼性を強化します。
-type: docs
 weight: 12
 url: /ja/net/advanced-signature-techniques/sign-with-digital/
 ---

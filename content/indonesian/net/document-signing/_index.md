@@ -3,7 +3,6 @@ title: Penandatanganan Dokumen
 linktitle: Penandatanganan Dokumen
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Tanda tangani gambar, PDF, presentasi, spreadsheet, dan dokumen Word dengan metadata menggunakan GroupDocs.Signature .NET. Meningkatkan keaslian dan integritas dokumen.
-type: docs
 weight: 24
 url: /id/net/document-signing/
 ---

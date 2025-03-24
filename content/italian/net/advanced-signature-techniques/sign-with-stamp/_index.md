@@ -3,7 +3,6 @@ title: Firma con Stamp utilizzando GroupDocs.Signature
 linktitle: Firma con timbro
 second_title: API GroupDocs.Signature .NET
 description: Scopri come aggiungere facilmente timbri ai tuoi documenti .NET con GroupDocs.Signature per .NET. Migliora la sicurezza dei documenti.
-type: docs
 weight: 16
 url: /it/net/advanced-signature-techniques/sign-with-stamp/
 ---

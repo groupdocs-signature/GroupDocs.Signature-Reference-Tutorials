@@ -3,7 +3,6 @@ title: Signering med stämpel med GroupDocs.Signature
 linktitle: Signering med stämpel
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du enkelt lägger till stämpelsignaturer till dina .NET-dokument med GroupDocs.Signature for .NET. Förbättra dokumentsäkerheten.
-type: docs
 weight: 16
 url: /sv/net/advanced-signature-techniques/sign-with-stamp/
 ---

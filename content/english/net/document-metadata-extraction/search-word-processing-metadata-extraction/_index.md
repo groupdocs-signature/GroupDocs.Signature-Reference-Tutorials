@@ -3,7 +3,6 @@ title: Search Word Processing Metadata Extraction
 linktitle: Search Word Processing Metadata Extraction
 second_title: GroupDocs.Signature .NET API
 description: Learn how to search word processing metadata using GroupDocs.Signature for .NET. Enhance document management with ease.
-type: docs
 weight: 14
 url: /net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
@@ -56,7 +55,7 @@ Yes, GroupDocs.Signature supports a wide range of document formats, including DO
 ### Is GroupDocs.Signature suitable for enterprise-level document management?
 Absolutely, GroupDocs.Signature offers robust features tailored for enterprise environments, ensuring secure and reliable document management solutions.
 ### Does GroupDocs.Signature provide comprehensive documentation for developers?
-Yes, developers can find detailed documentation, including API references and code examples, on the [documentation page](https://reference.groupdocs.com/signature/net/).
+Yes, developers can find detailed documentation, including API tutorialss and code examples, on the [documentation page](https://tutorials.groupdocs.com/signature/net/).
 ### Can I try GroupDocs.Signature before purchasing?
 Yes, interested users can avail of a free trial of GroupDocs.Signature from the [website](https://releases.groupdocs.com/).
 ### Where can I seek support for GroupDocs.Signature?

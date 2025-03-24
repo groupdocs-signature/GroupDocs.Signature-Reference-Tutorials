@@ -3,7 +3,6 @@ title: 从文档中删除多个签名
 linktitle: 从文档中删除多个签名
 second_title: GroupDocs.Signature .NET API
 description: 使用 GroupDocs.Signature for .NET 轻松删除文档中的多个签名。简化您的文档管理工作流程。
-type: docs
 weight: 15
 url: /zh/net/delete-operations/delete-multiple-signatures/
 ---

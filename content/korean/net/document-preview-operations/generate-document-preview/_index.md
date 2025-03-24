@@ -3,7 +3,6 @@ title: 문서 미리보기 생성
 linktitle: 문서 미리보기 생성
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 문서 미리보기를 생성하는 방법을 알아보세요. .NET 애플리케이션에서 문서 관리를 단순화합니다.
-type: docs
 weight: 10
 url: /ko/net/document-preview-operations/generate-document-preview/
 ---

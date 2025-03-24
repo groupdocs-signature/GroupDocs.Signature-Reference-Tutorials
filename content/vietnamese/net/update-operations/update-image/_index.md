@@ -3,7 +3,6 @@ title: Cập nhật hình ảnh
 linktitle: Cập nhật hình ảnh
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách cập nhật chữ ký hình ảnh trong tài liệu .NET một cách dễ dàng bằng GroupDocs.Signature. Tăng cường bảo mật tài liệu và tính toàn vẹn một cách liền mạch.
-type: docs
 weight: 11
 url: /vi/net/update-operations/update-image/
 ---

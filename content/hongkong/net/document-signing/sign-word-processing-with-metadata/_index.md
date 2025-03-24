@@ -3,7 +3,6 @@ title: 使用元資料進行符號字處理
 linktitle: 使用元資料進行符號字處理
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 使用元資料對字處理文件進行簽署。增強文件的真實性和可追溯性。
-type: docs
 weight: 14
 url: /zh-hant/net/document-signing/sign-word-processing-with-metadata/
 ---

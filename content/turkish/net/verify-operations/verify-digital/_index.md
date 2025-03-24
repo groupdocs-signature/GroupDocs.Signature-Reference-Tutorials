@@ -3,7 +3,6 @@ title: Dijital İmzayı Doğrulayın
 linktitle: Dijital İmzayı Doğrulayın
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature'ı kullanarak .NET'teki dijital imzaları kolaylıkla doğrulayın. Belgenin orijinalliğini ve bütünlüğünü zahmetsizce sağlayın.
-type: docs
 weight: 11
 url: /tr/net/verify-operations/verify-digital/
 ---

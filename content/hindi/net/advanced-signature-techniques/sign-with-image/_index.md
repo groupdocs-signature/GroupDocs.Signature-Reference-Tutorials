@@ -3,7 +3,6 @@ title: GroupDocs.Signature का उपयोग करके छवि के 
 linktitle: छवि के साथ हस्ताक्षर
 second_title: GroupDocs.Signature .NET API
 description: .NET के लिए Groupdocs.Signature के साथ .NET अनुप्रयोगों में छवियों का उपयोग करके दस्तावेज़ों पर हस्ताक्षर करना सीखें। दस्तावेज़ सुरक्षा और प्रामाणिकता को सहजता से बढ़ाएँ।
-type: docs
 weight: 13
 url: /hi/net/advanced-signature-techniques/sign-with-image/
 ---

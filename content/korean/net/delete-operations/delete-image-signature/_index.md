@@ -3,7 +3,6 @@ title: 이미지 서명 삭제
 linktitle: 이미지 서명 삭제
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 문서에서 이미지 서명을 삭제하는 방법을 알아보세요. 효율적인 서명 관리를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 14
 url: /ko/net/delete-operations/delete-image-signature/
 ---

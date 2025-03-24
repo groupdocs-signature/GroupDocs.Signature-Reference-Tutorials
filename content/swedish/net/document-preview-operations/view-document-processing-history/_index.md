@@ -3,7 +3,6 @@ title: Visa dokumentbearbetningshistorik
 linktitle: Visa dokumentbearbetningshistorik
 second_title: GroupDocs.Signature .NET API
 description: Upptäck hur du enkelt visar dokumentbearbetningshistorik med GroupDocs.Signature för .NET. Följ vår steg-för-steg-guide för sömlös arbetsflödeshantering.
-type: docs
 weight: 12
 url: /sv/net/document-preview-operations/view-document-processing-history/
 ---

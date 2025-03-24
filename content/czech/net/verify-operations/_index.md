@@ -3,7 +3,6 @@ title: Ověřte operace
 linktitle: Ověřte operace
 second_title: GroupDocs.Signature .NET API
 description: Naučte se ověřovat čárové kódy, digitální podpisy, QR kódy a text v dokumentech pomocí GroupDocs.Signature .NET. Výukové programy krok za krokem pro bezproblémovou integraci.
-type: docs
 weight: 27
 url: /cs/net/verify-operations/
 ---

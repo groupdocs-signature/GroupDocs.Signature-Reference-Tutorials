@@ -3,7 +3,6 @@ title: GroupDocs.Tutorial Tanda Tangan yang Komprehensif
 linktitle: GroupDocs.Tutorial Tanda Tangan
 additionalTitle: Referensi API GroupDocs
 description: Kuasai manajemen dokumen di .NET & Java dengan tutorial GroupDocs.Signature. Membuat, memverifikasi, mengekstrak metadata, dan banyak lagi. Selami alur kerja yang lancar!
-type: docs
 weight: 11
 url: /id/
 is_root: true

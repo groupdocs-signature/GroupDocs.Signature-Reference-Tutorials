@@ -3,7 +3,6 @@ title: Aláírás bélyegzővel a GroupDocs.Signature használatával
 linktitle: Aláírás bélyegzővel
 second_title: GroupDocs.Signature .NET API
 description: Tanulja meg, hogyan adhat hozzá egyszerűen bélyegzőaláírásokat .NET-dokumentumaihoz a GroupDocs.Signature for .NET segítségével. Növelje a dokumentumok biztonságát.
-type: docs
 weight: 16
 url: /hu/net/advanced-signature-techniques/sign-with-stamp/
 ---

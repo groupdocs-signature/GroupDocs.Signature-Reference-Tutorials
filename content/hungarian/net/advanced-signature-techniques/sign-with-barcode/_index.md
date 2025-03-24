@@ -3,7 +3,6 @@ title: Aláírás vonalkóddal
 linktitle: Aláírás vonalkóddal
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan írhat alá dokumentumokat vonalkóddal a GroupDocs.Signature for .NET használatával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 11
 url: /hu/net/advanced-signature-techniques/sign-with-barcode/
 ---

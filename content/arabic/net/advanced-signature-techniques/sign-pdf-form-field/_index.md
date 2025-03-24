@@ -3,7 +3,6 @@ title: توقيع PDF مع حقل النموذج
 linktitle: توقيع PDF مع حقل النموذج
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية توقيع مستندات PDF مع حقول النموذج باستخدام GroupDocs.Signature لـ .NET. ضمان صحة الوثيقة وسلامتها دون عناء.
-type: docs
 weight: 10
 url: /ar/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

@@ -3,7 +3,6 @@ title: Search for Form Fields
 linktitle: Search for Form Fields
 second_title: GroupDocs.Signature .NET API
 description: Learn how to integrate signature functionality into your .NET applications with GroupDocs.Signature for .NET. Follow our step-by-step for seamless document management.
-type: docs
 weight: 12
 url: /net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ GroupDocs.Signature for .NET is a powerful tool for developers to add signature 
 Before diving into using GroupDocs.Signature for .NET, ensure you have the following prerequisites in place:
 1. Visual Studio: Install Visual Studio on your development machine.
 2. GroupDocs.Signature for .NET: Download and install the GroupDocs.Signature for .NET library from [here](https://releases.groupdocs.com/signature/net/).
-3. Access to Documentation: Familiarize yourself with the documentation available at [GroupDocs.Signature for .NET Documentation](https://reference.groupdocs.com/signature/net/).
+3. Access to Documentation: Familiarize yourself with the documentation available at [GroupDocs.Signature for .NET Documentation](https://tutorials.groupdocs.com/signature/net/).
 4. Access to Support: In case of any issues or queries, access the support forum at [GroupDocs.Signature Forum](https://forum.groupdocs.com/c/signature/13).
 
 ## Import Namespaces
@@ -63,6 +62,6 @@ Yes, you can access a free trial of GroupDocs.Signature for .NET [here](https://
 ### How can I get temporary licenses for GroupDocs.Signature for .NET?
 Temporary licenses can be obtained from [here](https://purchase.groupdocs.com/temporary-license/).
 ### Where can I find detailed documentation for GroupDocs.Signature for .NET?
-Detailed documentation is available [here](https://reference.groupdocs.com/signature/net/).
+Detailed documentation is available [here](https://tutorials.groupdocs.com/signature/net/).
 ### Does GroupDocs.Signature for .NET offer support for developers?
 Yes, you can access developer support through the [GroupDocs.Signature Forum](https://forum.groupdocs.com/c/signature/13).

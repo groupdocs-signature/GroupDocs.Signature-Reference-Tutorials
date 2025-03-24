@@ -3,7 +3,6 @@ title: GroupDocs.Signature kullanarak Stamp ile imzalama
 linktitle: Damgayla İmzalama
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET ile .NET belgelerinize damga imzalarını nasıl kolayca ekleyeceğinizi öğrenin. Belge güvenliğini geliştirin.
-type: docs
 weight: 16
 url: /tr/net/advanced-signature-techniques/sign-with-stamp/
 ---

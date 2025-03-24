@@ -3,7 +3,6 @@ title: 从文档中删除条形码
 linktitle: 从文档中删除条形码
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 从文档中删除条形码。带有代码示例的分步指南。
-type: docs
 weight: 10
 url: /zh/net/delete-operations/delete-barcode/
 ---

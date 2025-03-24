@@ -3,7 +3,6 @@ title: Extraction de métadonnées de feuille de calcul de recherche
 linktitle: Extraction de métadonnées de feuille de calcul de recherche
 second_title: API GroupDocs.Signature .NET
 description: Extrayez efficacement les métadonnées des feuilles de calcul à l’aide de GroupDocs.Signature pour .NET. Améliorez la gestion et l’analyse des documents sans effort.
-type: docs
 weight: 13
 url: /fr/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ Dans le domaine de la gestion et de la vérification des documents, la capacité
 ## Conditions préalables
 Avant de plonger dans les subtilités de la recherche de métadonnées de feuille de calcul à l'aide de GroupDocs.Signature pour .NET, assurez-vous d'avoir les conditions préalables suivantes en place :
 ### 1. Installation de GroupDocs.Signature pour .NET
- Tout d'abord, téléchargez et installez GroupDocs.Signature pour .NET en suivant les instructions fournies dans le[Documentation](https://reference.groupdocs.com/signature/net/). Cette étape est cruciale pour intégrer la bibliothèque dans votre environnement .NET de manière transparente.
+ Tout d'abord, téléchargez et installez GroupDocs.Signature pour .NET en suivant les instructions fournies dans le[Documentation](https://tutorials.groupdocs.com/signature/net/). Cette étape est cruciale pour intégrer la bibliothèque dans votre environnement .NET de manière transparente.
 ### 2. Accès à un exemple de feuille de calcul
 Préparez un exemple de feuille de calcul (par exemple,`sample.xlsx`) qui contient les métadonnées que vous souhaitez extraire. Assurez-vous que la feuille de calcul est accessible dans votre environnement de développement.
 

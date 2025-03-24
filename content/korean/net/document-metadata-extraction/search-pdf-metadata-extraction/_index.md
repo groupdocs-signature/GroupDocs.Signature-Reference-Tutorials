@@ -3,7 +3,6 @@ title: PDF 메타데이터 추출 검색
 linktitle: PDF 메타데이터 추출 검색
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 PDF 문서에서 메타데이터 서명을 검색하고 추출하는 방법을 알아보세요. 문서 관리 역량을 강화하세요.
-type: docs
 weight: 11
 url: /ko/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---

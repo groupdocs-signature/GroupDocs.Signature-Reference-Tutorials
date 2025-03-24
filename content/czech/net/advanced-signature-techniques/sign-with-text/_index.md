@@ -3,7 +3,6 @@ title: Podepisování pomocí textu pomocí GroupDocs.Signature for .NET
 linktitle: Podepisování textem
 second_title: GroupDocs.Signature .NET API
 description: Naučte se podepisovat dokumenty textem pomocí GroupDocs.Signature for .NET. Podrobný průvodce programovým přidáváním textových podpisů.
-type: docs
 weight: 17
 url: /cs/net/advanced-signature-techniques/sign-with-text/
 ---

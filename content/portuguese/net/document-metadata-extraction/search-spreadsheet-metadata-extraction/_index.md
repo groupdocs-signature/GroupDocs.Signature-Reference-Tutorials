@@ -3,7 +3,6 @@ title: Extração de metadados de planilha de pesquisa
 linktitle: Extração de metadados de planilha de pesquisa
 second_title: API GroupDocs.Signature .NET
 description: Extraia metadados de planilhas com eficiência usando GroupDocs.Signature for .NET. Aprimore o gerenciamento e a análise de documentos sem esforço.
-type: docs
 weight: 13
 url: /pt/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ No domínio do gerenciamento e verificação de documentos, a capacidade de extr
 ## Pré-requisitos
 Antes de mergulhar nas complexidades da pesquisa de metadados de planilhas usando GroupDocs.Signature for .NET, certifique-se de ter os seguintes pré-requisitos em vigor:
 ### 1. Instalação de GroupDocs.Signature para .NET
- Em primeiro lugar, baixe e instale GroupDocs.Signature for .NET seguindo as instruções fornecidas no[documentação](https://reference.groupdocs.com/signature/net/). Esta etapa é crucial para integrar perfeitamente a biblioteca ao seu ambiente .NET.
+ Em primeiro lugar, baixe e instale GroupDocs.Signature for .NET seguindo as instruções fornecidas no[documentação](https://tutorials.groupdocs.com/signature/net/). Esta etapa é crucial para integrar perfeitamente a biblioteca ao seu ambiente .NET.
 ### 2. Acesso à planilha de exemplo
 Prepare uma planilha de exemplo (por exemplo,`sample.xlsx`) que contém metadados que você deseja extrair. Certifique-se de que a planilha esteja acessível em seu ambiente de desenvolvimento.
 

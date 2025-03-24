@@ -3,7 +3,6 @@ title: Search for Barcode
 linktitle: Search for Barcode
 second_title: GroupDocs.Signature .NET API
 description: Learn how to search for barcode signatures in documents using GroupDocs.Signature for .NET. Follow our step-by-step guide and efficiently integrate signature.
-type: docs
 weight: 10
 url: /net/signature-searching/search-for-barcode/
 ---

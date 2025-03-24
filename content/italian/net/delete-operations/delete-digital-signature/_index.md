@@ -3,7 +3,6 @@ title: Elimina la firma digitale dal documento
 linktitle: Elimina la firma digitale dal documento
 second_title: API GroupDocs.Signature .NET
 description: Scopri come eliminare le firme digitali dai documenti utilizzando GroupDocs.Signature per .NET. Segui la nostra guida passo passo per una gestione efficiente.
-type: docs
 weight: 13
 url: /it/net/delete-operations/delete-digital-signature/
 ---

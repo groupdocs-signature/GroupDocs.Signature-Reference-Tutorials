@@ -3,7 +3,6 @@ title: Tìm kiếm trích xuất siêu dữ liệu bản trình bày
 linktitle: Tìm kiếm trích xuất siêu dữ liệu bản trình bày
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách trích xuất siêu dữ liệu bản trình bày bằng GroupDocs.Signature cho .NET. Nâng cao khả năng quản lý tài liệu của bạn một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

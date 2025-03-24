@@ -3,7 +3,6 @@ title: Ký tài liệu bằng mã QR bằng GroupDocs.Signature
 linktitle: Ký bằng mã QR
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách thêm chữ ký mã QR vào tài liệu của bạn bằng GroupDocs.Signature cho .NET. Tăng cường bảo mật và xác thực dễ dàng.
-type: docs
 weight: 15
 url: /vi/net/advanced-signature-techniques/sign-with-qr-code/
 ---

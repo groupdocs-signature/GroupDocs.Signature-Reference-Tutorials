@@ -1,7 +1,6 @@
 ---
 title: GroupDocs.Signature for .NET のチュートリアルと例
 linktitle: GroupDocs.Signature for .NET チュートリアル
-type: docs
 weight: 10
 url: /ja/net/
 description: GroupDocs.Signature for .NET チュートリアルを使用して効率的なドキュメント管理を実現します。ドキュメントの削除、プレビュー、メタデータの抽出、署名、更新、検証をシームレスに実行します。

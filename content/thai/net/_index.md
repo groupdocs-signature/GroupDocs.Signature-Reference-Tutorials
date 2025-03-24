@@ -1,7 +1,6 @@
 ---
 title: บทช่วยสอนและตัวอย่าง GroupDocs.Signature สำหรับ .NET
 linktitle: GroupDocs.Signature สำหรับบทช่วยสอน .NET
-type: docs
 weight: 10
 url: /th/net/
 description: ปลดล็อกการจัดการเอกสารที่มีประสิทธิภาพด้วย GroupDocs.Signature สำหรับบทช่วยสอน .NET ลบ ดูตัวอย่าง แยกข้อมูลเมตา ลงนาม อัปเดต และตรวจสอบเอกสารได้อย่างราบรื่น

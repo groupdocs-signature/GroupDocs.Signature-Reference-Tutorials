@@ -3,7 +3,6 @@ title: Signer une feuille de calcul avec des métadonnées
 linktitle: Signer une feuille de calcul avec des métadonnées
 second_title: API GroupDocs.Signature .NET
 description: Découvrez comment signer des feuilles de calcul avec des métadonnées à l'aide de Groupdocs.Signature pour .NET. Améliorez l’intégrité et la vérification des documents grâce aux signatures de métadonnées.
-type: docs
 weight: 13
 url: /fr/net/document-signing/sign-spreadsheet-with-metadata/
 ---

@@ -3,7 +3,6 @@ title: التوقيع باستخدام Stamp باستخدام GroupDocs.Signatur
 linktitle: التوقيع بالختم
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية إضافة توقيعات الطوابع إلى مستندات .NET الخاصة بك بسهولة باستخدام GroupDocs.Signature لـ .NET. تعزيز أمان المستندات.
-type: docs
 weight: 16
 url: /ar/net/advanced-signature-techniques/sign-with-stamp/
 ---

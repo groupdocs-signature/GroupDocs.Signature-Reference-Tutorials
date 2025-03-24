@@ -3,7 +3,6 @@ title: Zoeken naar PDF-metagegevensextractie
 linktitle: Zoeken naar PDF-metagegevensextractie
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u metagegevenshandtekeningen uit PDF-documenten kunt zoeken en extraheren met GroupDocs.Signature voor .NET. Vergroot uw mogelijkheden voor documentbeheer.
-type: docs
 weight: 11
 url: /nl/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---

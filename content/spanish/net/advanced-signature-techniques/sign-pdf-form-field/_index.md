@@ -3,7 +3,6 @@ title: Firmar PDF con campo de formulario
 linktitle: Firmar PDF con campo de formulario
 second_title: API GroupDocs.Signature .NET
 description: Aprenda a firmar documentos PDF con campos de formulario usando GroupDocs.Signature para .NET. Garantice la autenticidad y la integridad de los documentos sin esfuerzo.
-type: docs
 weight: 10
 url: /es/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

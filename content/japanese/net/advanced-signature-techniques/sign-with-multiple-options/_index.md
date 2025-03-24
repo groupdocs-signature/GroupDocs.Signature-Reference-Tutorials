@@ -3,7 +3,6 @@ title: 複数のオプションを使用した署名
 linktitle: 複数のオプションを使用した署名
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用して、複数のオプションでドキュメントに署名する方法を学びます。テキスト、バーコード、QR コード、デジタル、画像を使用してドキュメントのセキュリティを強化します。
-type: docs
 weight: 14
 url: /ja/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

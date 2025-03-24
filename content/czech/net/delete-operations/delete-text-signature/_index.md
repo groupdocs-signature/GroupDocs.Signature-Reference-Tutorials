@@ -3,7 +3,6 @@ title: Smazat textový podpis
 linktitle: Smazat textový podpis
 second_title: GroupDocs.Signature .NET API
 description: Bez námahy odstraňte textové podpisy z dokumentů pomocí GroupDocs.Signature for .NET. Zjednodušte si úkoly správy dokumentů.
-type: docs
 weight: 17
 url: /cs/net/delete-operations/delete-text-signature/
 ---

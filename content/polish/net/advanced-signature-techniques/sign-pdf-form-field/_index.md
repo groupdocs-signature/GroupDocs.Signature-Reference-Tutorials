@@ -3,7 +3,6 @@ title: Podpisywanie pliku PDF za pomocą pola formularza
 linktitle: Podpisywanie pliku PDF za pomocą pola formularza
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak podpisywać dokumenty PDF z polami formularzy przy użyciu GroupDocs.Signature dla .NET. Zapewniaj autentyczność i integralność dokumentów bez wysiłku.
-type: docs
 weight: 10
 url: /pl/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

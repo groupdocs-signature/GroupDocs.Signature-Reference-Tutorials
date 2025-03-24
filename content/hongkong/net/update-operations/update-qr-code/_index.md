@@ -3,7 +3,6 @@ title: 更新二維碼
 linktitle: 更新二維碼
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 輕鬆更新文件中的 QR 程式碼。輕鬆增強文件管理。
-type: docs
 weight: 12
 url: /zh-hant/net/update-operations/update-qr-code/
 ---

@@ -3,7 +3,6 @@ title: Αναζήτηση εξαγωγής μεταδεδομένων PDF
 linktitle: Αναζήτηση εξαγωγής μεταδεδομένων PDF
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να αναζητάτε και να εξάγετε υπογραφές μεταδεδομένων από έγγραφα PDF χρησιμοποιώντας το GroupDocs.Signature για .NET. Ενισχύστε τις δυνατότητες διαχείρισης εγγράφων σας.
-type: docs
 weight: 11
 url: /el/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---

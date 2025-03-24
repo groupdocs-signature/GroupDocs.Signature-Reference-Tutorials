@@ -3,7 +3,6 @@ title: Ký hiệu Xử lý văn bản bằng siêu dữ liệu
 linktitle: Ký hiệu Xử lý văn bản bằng siêu dữ liệu
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách ký các tài liệu Xử lý văn bản bằng siêu dữ liệu bằng GroupDocs.Signature cho .NET. Tăng cường tính xác thực của tài liệu và khả năng truy xuất nguồn gốc.
-type: docs
 weight: 14
 url: /vi/net/document-signing/sign-word-processing-with-metadata/
 ---

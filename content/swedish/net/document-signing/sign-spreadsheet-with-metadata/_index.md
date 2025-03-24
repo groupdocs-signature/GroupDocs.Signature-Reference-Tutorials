@@ -3,7 +3,6 @@ title: Signera kalkylblad med metadata
 linktitle: Signera kalkylblad med metadata
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du signerar kalkylblad med metadata med Groupdocs.Signature för .NET. Förbättra dokumentintegritet och verifiering med metadatasignaturer.
-type: docs
 weight: 13
 url: /sv/net/document-signing/sign-spreadsheet-with-metadata/
 ---

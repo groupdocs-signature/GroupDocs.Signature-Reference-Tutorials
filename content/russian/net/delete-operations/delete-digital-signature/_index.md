@@ -3,7 +3,6 @@ title: Удалить цифровую подпись из документа
 linktitle: Удалить цифровую подпись из документа
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как удалять цифровые подписи из документов с помощью GroupDocs.Signature для .NET. Следуйте нашему пошаговому руководству для эффективного управления.
-type: docs
 weight: 13
 url: /ru/net/delete-operations/delete-digital-signature/
 ---

@@ -3,7 +3,6 @@ title: بحث التوقيع
 linktitle: بحث التوقيع
 second_title: GroupDocs.Signature .NET API
 description: تعلم كيفية البحث عن التوقيعات في مستندات .NET باستخدام GroupDocs.Signature لبرامج .NET التعليمية. تعزيز الأمان من خلال عمليات البحث عن الباركود والرقمية والصور والنص ورمز الاستجابة السريعة.
-type: docs
 weight: 23
 url: /ar/net/signature-searching/
 ---

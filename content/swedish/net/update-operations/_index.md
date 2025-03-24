@@ -3,7 +3,6 @@ title: Uppdatera operationer
 linktitle: Uppdatera operationer
 second_title: GroupDocs.Signature .NET API
 description: Uppdatera streckkod, bild, QR-kod och textsignaturer i .NET-dokument med GroupDocs.Signature för .NET-självstudier. Förbättra dokumentsäkerhet och hantering.
-type: docs
 weight: 26
 url: /sv/net/update-operations/
 ---

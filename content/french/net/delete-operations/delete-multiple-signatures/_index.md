@@ -3,7 +3,6 @@ title: Supprimer plusieurs signatures du document
 linktitle: Supprimer plusieurs signatures du document
 second_title: API GroupDocs.Signature .NET
 description: Supprimez sans effort plusieurs signatures de documents à l’aide de GroupDocs.Signature pour .NET. Rationalisez votre flux de gestion de documents.
-type: docs
 weight: 15
 url: /fr/net/delete-operations/delete-multiple-signatures/
 ---

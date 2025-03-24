@@ -3,7 +3,6 @@ title: Handtekening op ID verwijderen
 linktitle: Handtekening op ID verwijderen
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u een handtekening op ID in .NET-documenten verwijdert met behulp van de GroupDocs.Signature-bibliotheek. Gemakkelijke stap-voor-stap handleiding.
-type: docs
 weight: 11
 url: /nl/net/delete-operations/delete-signature-by-id/
 ---

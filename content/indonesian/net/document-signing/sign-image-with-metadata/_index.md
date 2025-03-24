@@ -3,7 +3,6 @@ title: Tanda Tangani Gambar dengan Metadata
 linktitle: Tanda Tangani Gambar dengan Metadata
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menandatangani gambar dengan metadata di .NET menggunakan GroupDocs.Signature. Solusi penandatanganan metadata yang mudah, efisien, dan dapat disesuaikan.
-type: docs
 weight: 10
 url: /id/net/document-signing/sign-image-with-metadata/
 ---

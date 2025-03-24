@@ -3,7 +3,6 @@ title: ابحث عن استخراج البيانات التعريفية للصو
 linktitle: البحث عن استخراج البيانات الوصفية للصورة
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية البحث عن توقيعات بيانات تعريف الصور في المستندات باستخدام GroupDocs.Signature لـ .NET. تعزيز سلامة الوثيقة والأصالة دون عناء.
-type: docs
 weight: 10
 url: /ar/net/document-metadata-extraction/search-image-metadata-extraction/
 ---

@@ -3,7 +3,6 @@ title: Проверить штрих-код
 linktitle: Проверить штрих-код
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как проверять штрих-коды в документах с помощью GroupDocs.Signature для .NET. Следуйте нашему пошаговому руководству для беспрепятственного внедрения.
-type: docs
 weight: 10
 url: /ru/net/verify-operations/verify-barcode/
 ---

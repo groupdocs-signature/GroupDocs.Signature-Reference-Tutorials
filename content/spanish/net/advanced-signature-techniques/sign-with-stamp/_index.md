@@ -3,7 +3,6 @@ title: Firmar con Stamp usando GroupDocs.Signature
 linktitle: Firmar con sello
 second_title: API GroupDocs.Signature .NET
 description: Aprenda cómo agregar firmas de sello a sus documentos .NET fácilmente con GroupDocs.Signature para .NET. Mejorar la seguridad de los documentos.
-type: docs
 weight: 16
 url: /es/net/advanced-signature-techniques/sign-with-stamp/
 ---

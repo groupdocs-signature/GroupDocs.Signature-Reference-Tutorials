@@ -3,7 +3,6 @@ title: ตรวจสอบบาร์โค้ด
 linktitle: ตรวจสอบบาร์โค้ด
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีตรวจสอบบาร์โค้ดภายในเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อการใช้งานที่ราบรื่น
-type: docs
 weight: 10
 url: /th/net/verify-operations/verify-barcode/
 ---

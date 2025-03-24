@@ -3,7 +3,6 @@ title: อัพเดตการดำเนินงาน
 linktitle: อัพเดตการดำเนินงาน
 second_title: GroupDocs.Signature .NET API
 description: อัปเดตบาร์โค้ด รูปภาพ รหัส QR และลายเซ็นข้อความในเอกสาร .NET ด้วยบทเรียน GroupDocs.Signature สำหรับ .NET ปรับปรุงความปลอดภัยและการจัดการเอกสาร
-type: docs
 weight: 26
 url: /th/net/update-operations/
 ---

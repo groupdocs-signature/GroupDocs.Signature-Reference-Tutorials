@@ -3,7 +3,6 @@ title: Operazioni di anteprima del documento
 linktitle: Operazioni di anteprima del documento
 second_title: API GroupDocs.Signature .NET
 description: Scopri come semplificare la gestione dei documenti con i tutorial di GroupDocs.Signature per .NET. Semplifica le attività, migliora il flusso di lavoro e aumenta la produttività senza sforzo.
-type: docs
 weight: 21
 url: /it/net/document-preview-operations/
 ---

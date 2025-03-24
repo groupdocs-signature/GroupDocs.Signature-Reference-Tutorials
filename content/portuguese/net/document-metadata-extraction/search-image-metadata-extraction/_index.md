@@ -3,7 +3,6 @@ title: Extração de metadados de imagem de pesquisa com GroupDocs.Signature
 linktitle: Extração de metadados de imagem de pesquisa
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como pesquisar assinaturas de metadados de imagens em documentos usando GroupDocs.Signature for .NET. Melhore a integridade e a autenticidade dos documentos sem esforço.
-type: docs
 weight: 10
 url: /pt/net/document-metadata-extraction/search-image-metadata-extraction/
 ---

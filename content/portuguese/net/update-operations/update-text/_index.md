@@ -3,7 +3,6 @@ title: Atualizar texto
 linktitle: Atualizar texto
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como atualizar texto em documentos usando GroupDocs.Signature for .NET. Siga nosso tutorial passo a passo para uma integração perfeita.
-type: docs
 weight: 13
 url: /pt/net/update-operations/update-text/
 ---

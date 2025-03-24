@@ -3,7 +3,6 @@ title: Xóa chữ ký theo loại
 linktitle: Xóa chữ ký theo loại
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách xóa chữ ký theo loại trong tài liệu .NET một cách dễ dàng bằng GroupDocs.Signature, nâng cao hiệu quả quản lý tài liệu.
-type: docs
 weight: 12
 url: /vi/net/delete-operations/delete-signature-by-type/
 ---

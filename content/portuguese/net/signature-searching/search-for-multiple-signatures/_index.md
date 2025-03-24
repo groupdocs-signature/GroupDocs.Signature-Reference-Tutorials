@@ -3,7 +3,6 @@ title: Pesquise várias assinaturas
 linktitle: Pesquise várias assinaturas
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como pesquisar várias assinaturas em documentos .NET usando GroupDocs.Signature para segurança e integridade eficientes de documentos.
-type: docs
 weight: 14
 url: /pt/net/signature-searching/search-for-multiple-signatures/
 ---

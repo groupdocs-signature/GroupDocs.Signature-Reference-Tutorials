@@ -3,7 +3,6 @@ title: Cari Banyak Tanda Tangan
 linktitle: Cari Banyak Tanda Tangan
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara mencari beberapa tanda tangan di dokumen .NET menggunakan GroupDocs.Signature untuk keamanan dan integritas dokumen yang efisien.
-type: docs
 weight: 14
 url: /id/net/signature-searching/search-for-multiple-signatures/
 ---

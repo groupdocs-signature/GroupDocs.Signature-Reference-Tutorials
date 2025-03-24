@@ -3,7 +3,6 @@ title: อัปเดตรูปภาพ
 linktitle: อัปเดตรูปภาพ
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีอัปเดตลายเซ็นรูปภาพในเอกสาร .NET ได้อย่างง่ายดายโดยใช้ GroupDocs.Signature เพิ่มความปลอดภัยและความสมบูรณ์ของเอกสารได้อย่างราบรื่น
-type: docs
 weight: 11
 url: /th/net/update-operations/update-image/
 ---

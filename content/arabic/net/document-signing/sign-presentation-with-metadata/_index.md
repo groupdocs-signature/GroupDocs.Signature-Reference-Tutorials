@@ -3,7 +3,6 @@ title: قم بالتوقيع على العرض التقديمي باستخدام
 linktitle: قم بالتوقيع على العرض التقديمي باستخدام البيانات الوصفية
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية توقيع ملفات العرض التقديمي باستخدام بيانات التعريف باستخدام GroupDocs.Signature لـ .NET. تعزيز سلامة الوثيقة وإضافة معلومات قيمة.
-type: docs
 weight: 12
 url: /ar/net/document-signing/sign-presentation-with-metadata/
 ---

@@ -3,7 +3,6 @@ title: 驗證操作
 linktitle: 驗證操作
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature .NET 驗證文件中的條碼、數位簽章、QR 碼和文字。無縫整合的分步教程。
-type: docs
 weight: 27
 url: /zh-hant/net/verify-operations/
 ---

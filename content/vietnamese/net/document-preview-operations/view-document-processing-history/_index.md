@@ -3,7 +3,6 @@ title: Xem lịch sử xử lý tài liệu
 linktitle: Xem lịch sử xử lý tài liệu
 second_title: API GroupDocs.Signature .NET
 description: Khám phá cách xem lịch sử xử lý tài liệu một cách dễ dàng bằng GroupDocs.Signature cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để quản lý quy trình làm việc liền mạch.
-type: docs
 weight: 12
 url: /vi/net/document-preview-operations/view-document-processing-history/
 ---

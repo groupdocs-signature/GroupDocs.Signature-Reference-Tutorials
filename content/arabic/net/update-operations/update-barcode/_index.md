@@ -3,7 +3,6 @@ title: تحديث الباركود
 linktitle: تحديث الباركود
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية تحديث توقيعات الرمز الشريطي في المستندات باستخدام GroupDocs.Signature لـ .NET. دليل خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 10
 url: /ar/net/update-operations/update-barcode/
 ---

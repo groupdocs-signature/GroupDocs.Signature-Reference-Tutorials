@@ -1,7 +1,6 @@
 ---
 title: Учебники и примеры GroupDocs.Signature для .NET
 linktitle: GroupDocs.Signature для учебных пособий по .NET
-type: docs
 weight: 10
 url: /ru/net/
 description: Разблокируйте эффективное управление документами с помощью учебных пособий GroupDocs.Signature для .NET. Легко удаляйте, просматривайте, извлекайте метаданные, подписывайте, обновляйте и проверяйте документы.

@@ -3,7 +3,6 @@ title: Odstraňte čárový kód z dokumentu
 linktitle: Odstraňte čárový kód z dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Přečtěte si, jak odstranit čárový kód z dokumentu pomocí GroupDocs.Signature for .NET. Podrobný průvodce s příklady kódu.
-type: docs
 weight: 10
 url: /cs/net/delete-operations/delete-barcode/
 ---

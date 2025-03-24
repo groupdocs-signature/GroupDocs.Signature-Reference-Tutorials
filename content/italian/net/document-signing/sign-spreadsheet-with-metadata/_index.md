@@ -3,7 +3,6 @@ title: Firma il foglio di calcolo con metadati
 linktitle: Firma il foglio di calcolo con metadati
 second_title: API GroupDocs.Signature .NET
 description: Scopri come firmare fogli di calcolo con metadati utilizzando Groupdocs.Signature per .NET. Migliora l'integrità e la verifica dei documenti con le firme dei metadati.
-type: docs
 weight: 13
 url: /it/net/document-signing/sign-spreadsheet-with-metadata/
 ---

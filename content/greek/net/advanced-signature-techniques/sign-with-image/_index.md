@@ -3,7 +3,6 @@ title: Υπογραφή εγγράφων με εικόνα χρησιμοποι�
 linktitle: Υπογραφή με εικόνα
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να υπογράφετε έγγραφα χρησιμοποιώντας εικόνες σε εφαρμογές .NET με το Groupdocs.Signature για .NET. Βελτιώστε την ασφάλεια και την αυθεντικότητα των εγγράφων χωρίς κόπο.
-type: docs
 weight: 13
 url: /el/net/advanced-signature-techniques/sign-with-image/
 ---

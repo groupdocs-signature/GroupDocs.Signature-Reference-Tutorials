@@ -3,7 +3,6 @@ title: ค้นหาบาร์โค้ด
 linktitle: ค้นหาบาร์โค้ด
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีค้นหาลายเซ็นบาร์โค้ดในเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราและผสานรวมลายเซ็นอย่างมีประสิทธิภาพ
-type: docs
 weight: 10
 url: /th/net/signature-searching/search-for-barcode/
 ---

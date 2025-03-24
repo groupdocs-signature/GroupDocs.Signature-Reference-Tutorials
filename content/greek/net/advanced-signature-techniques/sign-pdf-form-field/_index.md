@@ -3,7 +3,6 @@ title: Υπογραφή PDF με πεδίο φόρμας
 linktitle: Υπογραφή PDF με πεδίο φόρμας
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να υπογράφετε έγγραφα PDF με πεδία φόρμας χρησιμοποιώντας το GroupDocs.Signature για .NET. Διασφαλίστε τη γνησιότητα και την ακεραιότητα του εγγράφου χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

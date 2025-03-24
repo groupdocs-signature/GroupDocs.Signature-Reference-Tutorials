@@ -3,7 +3,6 @@ title: Подписание с несколькими вариантами
 linktitle: Подписание с несколькими вариантами
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как подписывать документы с несколькими вариантами, используя GroupDocs.Signature для .NET. Повысьте безопасность документов с помощью текста, штрих-кода, QR-кода, цифровых изображений и изображений.
-type: docs
 weight: 14
 url: /ru/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

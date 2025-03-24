@@ -3,7 +3,6 @@ title: Atualizar operações
 linktitle: Atualizar operações
 second_title: API GroupDocs.Signature .NET
 description: Atualize códigos de barras, imagens, códigos QR e assinaturas de texto em documentos .NET com tutoriais do GroupDocs.Signature for .NET. Melhore a segurança e o gerenciamento de documentos.
-type: docs
 weight: 26
 url: /pt/net/update-operations/
 ---

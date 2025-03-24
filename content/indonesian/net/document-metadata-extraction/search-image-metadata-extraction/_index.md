@@ -3,7 +3,6 @@ title: Cari Ekstraksi Metadata Gambar dengan GroupDocs.Signature
 linktitle: Ekstraksi Metadata Gambar Pencarian
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara mencari tanda tangan metadata gambar dalam dokumen menggunakan GroupDocs.Signature untuk .NET. Tingkatkan integritas dan keaslian dokumen dengan mudah.
-type: docs
 weight: 10
 url: /id/net/document-metadata-extraction/search-image-metadata-extraction/
 ---

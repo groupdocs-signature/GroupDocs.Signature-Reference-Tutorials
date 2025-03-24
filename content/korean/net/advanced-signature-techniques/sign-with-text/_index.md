@@ -3,7 +3,6 @@ title: .NET용 GroupDocs.Signature를 사용하여 텍스트로 서명
 linktitle: 텍스트로 서명
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 텍스트로 문서에 서명하는 방법을 알아보세요. 프로그래밍 방식으로 텍스트 서명을 추가하기 위한 단계별 가이드입니다.
-type: docs
 weight: 17
 url: /ko/net/advanced-signature-techniques/sign-with-text/
 ---

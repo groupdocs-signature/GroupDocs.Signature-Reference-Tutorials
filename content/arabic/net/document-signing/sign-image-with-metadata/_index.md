@@ -3,7 +3,6 @@ title: توقيع الصورة مع البيانات الوصفية
 linktitle: توقيع الصورة مع البيانات الوصفية
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية توقيع الصور باستخدام بيانات التعريف في .NET باستخدام GroupDocs.Signature. حل توقيع البيانات الوصفية سهل وفعال وقابل للتخصيص.
-type: docs
 weight: 10
 url: /ar/net/document-signing/sign-image-with-metadata/
 ---

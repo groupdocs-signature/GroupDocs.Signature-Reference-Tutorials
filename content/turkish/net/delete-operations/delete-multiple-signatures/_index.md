@@ -3,7 +3,6 @@ title: Belgeden Birden Çok İmzayı Sil
 linktitle: Belgeden Birden Çok İmzayı Sil
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki birden çok imzayı zahmetsizce silin. Belge yönetimi iş akışınızı kolaylaştırın.
-type: docs
 weight: 15
 url: /tr/net/delete-operations/delete-multiple-signatures/
 ---

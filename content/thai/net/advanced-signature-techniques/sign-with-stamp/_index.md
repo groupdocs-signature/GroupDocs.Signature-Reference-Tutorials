@@ -3,7 +3,6 @@ title: การลงนามด้วย Stamp โดยใช้ GroupDocs.S
 linktitle: ลงนามกับแสตมป์
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีเพิ่มลายเซ็นตราประทับลงในเอกสาร .NET ของคุณอย่างง่ายดายด้วย GroupDocs.Signature สำหรับ .NET เพิ่มความปลอดภัยให้กับเอกสาร
-type: docs
 weight: 16
 url: /th/net/advanced-signature-techniques/sign-with-stamp/
 ---

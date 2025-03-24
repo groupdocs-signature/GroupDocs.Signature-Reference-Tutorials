@@ -3,7 +3,6 @@ title: Smazat podpis podle ID
 linktitle: Smazat podpis podle ID
 second_title: GroupDocs.Signature .NET API
 description: Přečtěte si, jak odstranit podpis podle ID v dokumentech .NET pomocí knihovny GroupDocs.Signature. Snadný průvodce krok za krokem.
-type: docs
 weight: 11
 url: /cs/net/delete-operations/delete-signature-by-id/
 ---

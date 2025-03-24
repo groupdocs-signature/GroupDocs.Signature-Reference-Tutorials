@@ -3,7 +3,6 @@ title: 여러 서명 검색
 linktitle: 여러 서명 검색
 second_title: GroupDocs.Signature .NET API
 description: 효율적인 문서 보안 및 무결성을 위해 GroupDocs.Signature를 사용하여 .NET 문서에서 여러 서명을 검색하는 방법을 알아보세요.
-type: docs
 weight: 14
 url: /ko/net/signature-searching/search-for-multiple-signatures/
 ---

@@ -3,7 +3,6 @@ title: Verifikasi Teks
 linktitle: Verifikasi Teks
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara memverifikasi teks dalam dokumen menggunakan GroupDocs.Signature untuk .NET. Ikuti tutorial langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 13
 url: /id/net/verify-operations/verify-text/
 ---

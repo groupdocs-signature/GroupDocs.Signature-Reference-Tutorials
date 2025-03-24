@@ -3,7 +3,6 @@ title: Bewerkingen bijwerken
 linktitle: Bewerkingen bijwerken
 second_title: GroupDocs.Signature .NET API
 description: Update streepjescodes, afbeeldingen, QR-codes en teksthandtekeningen in .NET-documenten met GroupDocs.Signature voor .NET-tutorials. Verbeter de documentbeveiliging en het beheer.
-type: docs
 weight: 26
 url: /nl/net/update-operations/
 ---

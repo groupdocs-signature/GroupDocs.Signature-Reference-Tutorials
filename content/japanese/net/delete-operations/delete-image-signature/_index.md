@@ -3,7 +3,6 @@ title: 画像署名の削除
 linktitle: 画像署名の削除
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してドキュメントからイメージ署名を削除する方法を学習します。効率的な署名管理については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 14
 url: /ja/net/delete-operations/delete-image-signature/
 ---

@@ -3,7 +3,6 @@ title: 验证条形码
 linktitle: 验证条形码
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 验证文档中的条形码。按照我们的分步教程进行无缝实施。
-type: docs
 weight: 10
 url: /zh/net/verify-operations/verify-barcode/
 ---

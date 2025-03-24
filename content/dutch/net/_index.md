@@ -1,7 +1,6 @@
 ---
 title: Zelfstudies en voorbeelden van GroupDocs.Signature voor .NET
 linktitle: GroupDocs.Signature voor .NET-zelfstudies
-type: docs
 weight: 10
 url: /nl/net/
 description: Ontgrendel efficiënt documentbeheer met GroupDocs.Signature voor .NET-tutorials. Metagegevens verwijderen, bekijken, extraheren, documenten naadloos ondertekenen, bijwerken en verifiëren.

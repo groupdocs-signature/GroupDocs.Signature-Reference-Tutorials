@@ -3,7 +3,6 @@ title: Elimina operazioni
 linktitle: Elimina operazioni
 second_title: API GroupDocs.Signature .NET
 description: Elimina firme, codici a barre e altro dai documenti .NET con GroupDocs.Signature. Esplora subito i tutorial per una gestione efficiente dei documenti!
-type: docs
 weight: 20
 url: /it/net/delete-operations/
 ---
