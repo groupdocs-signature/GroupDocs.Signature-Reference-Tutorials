@@ -3,7 +3,6 @@ title: التوقيع بالتوقيع الرقمي
 linktitle: التوقيع بالتوقيع الرقمي
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية توقيع المستندات رقميًا في .NET باستخدام GroupDocs.Signature. عزز الأمان والأصالة من خلال هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 12
 url: /ar/net/advanced-signature-techniques/sign-with-digital/
 ---

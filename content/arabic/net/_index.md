@@ -1,7 +1,6 @@
 ---
 title: دروس وأمثلة على GroupDocs.Signature لـ .NET
 linktitle: GroupDocs.Signature لبرامج .NET التعليمية
-type: docs
 weight: 10
 url: /ar/net/
 description: أطلق العنان لإدارة المستندات الفعالة باستخدام GroupDocs.Signature لبرامج .NET التعليمية. يمكنك حذف البيانات التعريفية ومعاينتها واستخراجها وتوقيعها وتحديثها والتحقق منها بسلاسة.

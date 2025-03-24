@@ -3,7 +3,6 @@ title: Ondertekenen met streepjescode
 linktitle: Ondertekenen met streepjescode
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u documenten met streepjescode kunt ondertekenen met GroupDocs.Signature voor .NET. Volg onze stapsgewijze handleiding voor een naadloze integratie.
-type: docs
 weight: 11
 url: /nl/net/advanced-signature-techniques/sign-with-barcode/
 ---

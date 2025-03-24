@@ -3,7 +3,6 @@ title: Verify Operations
 linktitle: Verify Operations
 second_title: GroupDocs.Signature .NET API
 description: Learn how to verify barcodes, digital signatures, QR codes, and text in documents using GroupDocs.Signature .NET. Step-by-step tutorials for seamless integration.
-type: docs
 weight: 27
 url: /net/verify-operations/
 ---

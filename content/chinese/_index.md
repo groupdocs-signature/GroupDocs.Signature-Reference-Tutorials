@@ -3,7 +3,6 @@ title: 全面的 GroupDocs.Signature 教程
 linktitle: GroupDocs.Signature 教程
 additionalTitle: GroupDocs API 参考
 description: 通过 GroupDocs.Signature 教程掌握 .NET 和 Java 中的文档管理。创建、验证、提取元数据等等。深入了解无缝工作流程！
-type: docs
 weight: 11
 url: /zh/
 is_root: true

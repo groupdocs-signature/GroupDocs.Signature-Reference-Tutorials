@@ -3,7 +3,6 @@ title: PDF aláírása űrlapmezővel
 linktitle: PDF aláírása űrlapmezővel
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan írhat alá PDF-dokumentumokat űrlapmezőkkel a GroupDocs.Signature for .NET használatával. Gondoskodjon a dokumentumok hitelességéről és sértetlenségéről erőfeszítés nélkül.
-type: docs
 weight: 10
 url: /hu/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

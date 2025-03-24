@@ -3,7 +3,6 @@ title: Rechercher des champs de formulaire
 linktitle: Rechercher des champs de formulaire
 second_title: API GroupDocs.Signature .NET
 description: Découvrez comment intégrer la fonctionnalité de signature dans vos applications .NET avec GroupDocs.Signature pour .NET. Suivez nos étapes étape par étape pour une gestion transparente des documents.
-type: docs
 weight: 12
 url: /fr/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ GroupDocs.Signature for .NET est un outil puissant permettant aux développeurs 
 Avant de vous lancer dans l'utilisation de GroupDocs.Signature pour .NET, assurez-vous que les conditions préalables suivantes sont remplies :
 1. Visual Studio : installez Visual Studio sur votre machine de développement.
 2.  GroupDocs.Signature pour .NET : téléchargez et installez la bibliothèque GroupDocs.Signature pour .NET à partir de[ici](https://releases.groupdocs.com/signature/net/).
-3.  Accès à la documentation : Familiarisez-vous avec la documentation disponible sur[Documentation GroupDocs.Signature pour .NET](https://reference.groupdocs.com/signature/net/).
+3.  Accès à la documentation : Familiarisez-vous avec la documentation disponible sur[Documentation GroupDocs.Signature pour .NET](https://tutorials.groupdocs.com/signature/net/).
 4.  Accès au support : en cas de problème ou de questions, accédez au forum d'assistance à l'adresse[Forum GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13).
 
 ## Importer des espaces de noms
@@ -63,6 +62,6 @@ Oui, GroupDocs.Signature pour .NET prend en charge un large éventail de formats
 ### Comment puis-je obtenir des licences temporaires pour GroupDocs.Signature pour .NET ?
  Des licences temporaires peuvent être obtenues auprès de[ici](https://purchase.groupdocs.com/temporary-license/).
 ### Où puis-je trouver une documentation détaillée pour GroupDocs.Signature pour .NET ?
- Une documentation détaillée est disponible[ici](https://reference.groupdocs.com/signature/net/).
+ Une documentation détaillée est disponible[ici](https://tutorials.groupdocs.com/signature/net/).
 ### GroupDocs.Signature pour .NET offre-t-il une assistance aux développeurs ?
  Oui, vous pouvez accéder à l'assistance aux développeurs via le[Forum GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13).

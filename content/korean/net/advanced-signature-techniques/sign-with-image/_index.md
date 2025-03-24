@@ -3,7 +3,6 @@ title: GroupDocs.Signature를 사용하여 이미지로 문서 서명
 linktitle: 이미지로 서명
 second_title: GroupDocs.Signature .NET API
 description: .NET용 Groupdocs.Signature를 사용하여 .NET 응용 프로그램의 이미지를 사용하여 문서에 서명하는 방법을 알아보세요. 손쉽게 문서 보안과 신뢰성을 강화하세요.
-type: docs
 weight: 13
 url: /ko/net/advanced-signature-techniques/sign-with-image/
 ---

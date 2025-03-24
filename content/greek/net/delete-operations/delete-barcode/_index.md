@@ -3,7 +3,6 @@ title: Διαγραφή γραμμωτού κώδικα από το έγγραφ
 linktitle: Διαγραφή γραμμωτού κώδικα από το έγγραφο
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να διαγράφετε τον γραμμωτό κώδικα από ένα έγγραφο χρησιμοποιώντας το GroupDocs.Signature για .NET. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα.
-type: docs
 weight: 10
 url: /el/net/delete-operations/delete-barcode/
 ---

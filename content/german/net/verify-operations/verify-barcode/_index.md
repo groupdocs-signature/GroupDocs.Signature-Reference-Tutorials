@@ -3,7 +3,6 @@ title: Barcode überprüfen
 linktitle: Barcode überprüfen
 second_title: GroupDocs.Signature .NET-API
 description: Erfahren Sie, wie Sie Barcodes in Dokumenten mit GroupDocs.Signature für .NET überprüfen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine nahtlose Implementierung.
-type: docs
 weight: 10
 url: /de/net/verify-operations/verify-barcode/
 ---

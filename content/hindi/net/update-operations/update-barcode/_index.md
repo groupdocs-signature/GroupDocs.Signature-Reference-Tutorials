@@ -3,7 +3,6 @@ title: बारकोड अपडेट करें
 linktitle: बारकोड अपडेट करें
 second_title: GroupDocs.Signature .NET API
 description: .NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में बारकोड हस्ताक्षरों को अपडेट करने का तरीका जानें। निर्बाध एकीकरण के लिए चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 10
 url: /hi/net/update-operations/update-barcode/
 ---

@@ -3,7 +3,6 @@ title: Cerca codice a barre
 linktitle: Cerca codice a barre
 second_title: API GroupDocs.Signature .NET
 description: Scopri come cercare firme con codici a barre nei documenti utilizzando GroupDocs.Signature per .NET. Segui la nostra guida passo passo e integra la firma in modo efficiente.
-type: docs
 weight: 10
 url: /it/net/signature-searching/search-for-barcode/
 ---

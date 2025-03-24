@@ -3,7 +3,6 @@ title: Zweryfikuj podpis cyfrowy
 linktitle: Zweryfikuj podpis cyfrowy
 second_title: GroupDocs.Signature .NET API
 description: Z łatwością weryfikuj podpisy cyfrowe w .NET za pomocą GroupDocs.Signature. Zapewniaj autentyczność i integralność dokumentów bez wysiłku.
-type: docs
 weight: 11
 url: /pl/net/verify-operations/verify-digital/
 ---

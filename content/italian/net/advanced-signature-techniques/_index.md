@@ -3,7 +3,6 @@ title: Tecniche avanzate di firma
 linktitle: Tecniche avanzate di firma
 second_title: API GroupDocs.Signature .NET
 description: Apprendi tecniche di firma avanzate con i tutorial di GroupDocs.Signature per .NET. Firma PDF, immagini e documenti senza problemi con codici a barre, digitale e altro ancora.
-type: docs
 weight: 25
 url: /it/net/advanced-signature-techniques/
 ---

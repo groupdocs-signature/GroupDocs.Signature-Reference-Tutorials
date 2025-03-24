@@ -3,7 +3,6 @@ title: Cerca campi modulo
 linktitle: Cerca campi modulo
 second_title: API GroupDocs.Signature .NET
 description: Scopri come integrare la funzionalità di firma nelle tue applicazioni .NET con GroupDocs.Signature per .NET. Segui la nostra guida passo passo per una gestione dei documenti senza problemi.
-type: docs
 weight: 12
 url: /it/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ GroupDocs.Signature per .NET è un potente strumento che consente agli sviluppat
 Prima di immergerti nell'utilizzo di GroupDocs.Signature per .NET, assicurati di disporre dei seguenti prerequisiti:
 1. Visual Studio: installa Visual Studio nel tuo computer di sviluppo.
 2.  GroupDocs.Signature per .NET: scaricare e installare la libreria GroupDocs.Signature per .NET da[Qui](https://releases.groupdocs.com/signature/net/).
-3.  Accesso alla documentazione: acquisire familiarità con la documentazione disponibile su[GroupDocs.Signature per la documentazione .NET](https://reference.groupdocs.com/signature/net/).
+3.  Accesso alla documentazione: acquisire familiarità con la documentazione disponibile su[GroupDocs.Signature per la documentazione .NET](https://tutorials.groupdocs.com/signature/net/).
 4.  Accesso al supporto: in caso di problemi o domande, accedere al forum di supporto all'indirizzo[Forum GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13).
 
 ## Importa spazi dei nomi
@@ -63,6 +62,6 @@ Sì, GroupDocs.Signature per .NET supporta un'ampia gamma di formati di document
 ### Come posso ottenere licenze temporanee per GroupDocs.Signature per .NET?
  È possibile ottenere licenze temporanee da[Qui](https://purchase.groupdocs.com/temporary-license/).
 ### Dove posso trovare la documentazione dettagliata per GroupDocs.Signature per .NET?
- È disponibile la documentazione dettagliata[Qui](https://reference.groupdocs.com/signature/net/).
+ È disponibile la documentazione dettagliata[Qui](https://tutorials.groupdocs.com/signature/net/).
 ### GroupDocs.Signature per .NET offre supporto per gli sviluppatori?
  Sì, puoi accedere al supporto per gli sviluppatori tramite[Forum GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13).

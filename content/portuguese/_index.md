@@ -3,7 +3,6 @@ title: Tutoriais abrangentes de GroupDocs.Signature
 linktitle: Tutoriais de GroupDocs.Signature
 additionalTitle: Referências da API GroupDocs
 description: Domine o gerenciamento de documentos em .NET e Java com tutoriais GroupDocs.Signature. Crie, verifique, extraia metadados e muito mais. Mergulhe em um fluxo de trabalho perfeito!
-type: docs
 weight: 11
 url: /pt/
 is_root: true

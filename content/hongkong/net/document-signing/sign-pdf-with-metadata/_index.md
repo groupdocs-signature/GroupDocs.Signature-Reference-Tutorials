@@ -3,7 +3,6 @@ title: 使用元資料簽署 PDF
 linktitle: 使用元資料簽署 PDF
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 使用元資料對 PDF 文件進行簽署。輕鬆增強文件的可追溯性和真實性。
-type: docs
 weight: 11
 url: /zh-hant/net/document-signing/sign-pdf-with-metadata/
 ---

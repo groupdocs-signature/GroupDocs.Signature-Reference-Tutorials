@@ -3,7 +3,6 @@ title: Проверка цифровой подписи
 linktitle: Проверка цифровой подписи
 second_title: GroupDocs.Signature .NET API
 description: С легкостью проверяйте цифровые подписи в .NET с помощью GroupDocs.Signature. Обеспечьте подлинность и целостность документа без особых усилий.
-type: docs
 weight: 11
 url: /ru/net/verify-operations/verify-digital/
 ---

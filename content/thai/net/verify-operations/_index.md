@@ -3,7 +3,6 @@ title: ตรวจสอบการดำเนินงาน
 linktitle: ตรวจสอบการดำเนินงาน
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีตรวจสอบบาร์โค้ด ลายเซ็นดิจิทัล รหัส QR และข้อความในเอกสารโดยใช้ GroupDocs.Signature .NET บทช่วยสอนทีละขั้นตอนเพื่อการผสานรวมที่ราบรื่น
-type: docs
 weight: 27
 url: /th/net/verify-operations/
 ---

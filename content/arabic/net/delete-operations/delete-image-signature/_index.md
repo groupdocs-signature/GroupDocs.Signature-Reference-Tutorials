@@ -3,7 +3,6 @@ title: حذف توقيع الصورة
 linktitle: حذف توقيع الصورة
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية حذف توقيعات الصور من المستندات باستخدام GroupDocs.Signature لـ .NET. اتبع دليلنا خطوة بخطوة لإدارة التوقيع بكفاءة.
-type: docs
 weight: 14
 url: /ar/net/delete-operations/delete-image-signature/
 ---

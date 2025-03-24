@@ -3,7 +3,6 @@ title: Удалить текстовую подпись
 linktitle: Удалить текстовую подпись
 second_title: GroupDocs.Signature .NET API
 description: Легко удаляйте текстовые подписи из документов с помощью GroupDocs.Signature для .NET. Упростите задачи управления документами.
-type: docs
 weight: 17
 url: /ru/net/delete-operations/delete-text-signature/
 ---

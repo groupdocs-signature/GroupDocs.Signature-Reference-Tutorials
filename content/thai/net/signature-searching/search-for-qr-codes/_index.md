@@ -3,7 +3,6 @@ title: ค้นหารหัส QR
 linktitle: ค้นหารหัส QR
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีค้นหารหัส QR ภายในเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET เพิ่มความปลอดภัยให้กับเอกสารได้อย่างง่ายดาย
-type: docs
 weight: 15
 url: /th/net/signature-searching/search-for-qr-codes/
 ---

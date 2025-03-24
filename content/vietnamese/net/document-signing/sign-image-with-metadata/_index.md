@@ -3,7 +3,6 @@ title: Hình ảnh ký hiệu với siêu dữ liệu
 linktitle: Hình ảnh ký hiệu với siêu dữ liệu
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách ký hình ảnh bằng siêu dữ liệu trong .NET bằng GroupDocs.Signature. Giải pháp ký siêu dữ liệu dễ dàng, hiệu quả và có thể tùy chỉnh.
-type: docs
 weight: 10
 url: /vi/net/document-signing/sign-image-with-metadata/
 ---

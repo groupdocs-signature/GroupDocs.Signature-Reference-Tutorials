@@ -3,7 +3,6 @@ title: Verifica codice a barre
 linktitle: Verifica codice a barre
 second_title: API GroupDocs.Signature .NET
 description: Scopri come verificare i codici a barre all'interno dei documenti utilizzando GroupDocs.Signature per .NET. Segui il nostro tutorial passo passo per un'implementazione senza problemi.
-type: docs
 weight: 10
 url: /it/net/verify-operations/verify-barcode/
 ---

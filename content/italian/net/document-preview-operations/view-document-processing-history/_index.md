@@ -3,7 +3,6 @@ title: Visualizza la cronologia di elaborazione dei documenti
 linktitle: Visualizza la cronologia di elaborazione dei documenti
 second_title: API GroupDocs.Signature .NET
 description: Scopri come visualizzare facilmente la cronologia di elaborazione dei documenti utilizzando GroupDocs.Signature per .NET. Segui la nostra guida passo passo per una gestione fluida del flusso di lavoro.
-type: docs
 weight: 12
 url: /it/net/document-preview-operations/view-document-processing-history/
 ---

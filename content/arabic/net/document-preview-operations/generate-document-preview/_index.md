@@ -3,7 +3,6 @@ title: إنشاء معاينة المستند
 linktitle: إنشاء معاينة المستند
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية إنشاء معاينات للمستندات باستخدام GroupDocs.Signature لـ .NET. تبسيط إدارة المستندات في تطبيقات .NET الخاصة بك.
-type: docs
 weight: 10
 url: /ar/net/document-preview-operations/generate-document-preview/
 ---

@@ -3,7 +3,6 @@ title: 更新文本
 linktitle: 更新文本
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 更新文档中的文本。请按照我们的分步教程进行无缝集成。
-type: docs
 weight: 13
 url: /zh/net/update-operations/update-text/
 ---

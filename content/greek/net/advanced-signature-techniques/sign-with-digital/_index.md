@@ -3,7 +3,6 @@ title: Υπογραφή με ψηφιακή υπογραφή
 linktitle: Υπογραφή με ψηφιακή υπογραφή
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να υπογράφετε έγγραφα ψηφιακά στο .NET χρησιμοποιώντας GroupDocs.Signature. Βελτιώστε την ασφάλεια και την αυθεντικότητα με αυτό το ολοκληρωμένο σεμινάριο.
-type: docs
 weight: 12
 url: /el/net/advanced-signature-techniques/sign-with-digital/
 ---

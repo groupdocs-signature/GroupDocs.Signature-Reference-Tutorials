@@ -3,7 +3,6 @@ title: Szöveges aláírás keresése
 linktitle: Szöveges aláírás keresése
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan kereshet szöveges aláírásokat digitális dokumentumokban a GroupDocs.Signature for .NET segítségével. Lépésről lépésre útmutató a hatékony megvalósításhoz.
-type: docs
 weight: 16
 url: /hu/net/signature-searching/search-for-text-signatures/
 ---

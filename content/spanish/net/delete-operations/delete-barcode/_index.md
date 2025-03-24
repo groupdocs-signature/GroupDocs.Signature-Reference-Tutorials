@@ -3,7 +3,6 @@ title: Eliminar código de barras del documento
 linktitle: Eliminar código de barras del documento
 second_title: API GroupDocs.Signature .NET
 description: Aprenda cómo eliminar el código de barras de un documento usando GroupDocs.Signature para .NET. Guía paso a paso con ejemplos de código.
-type: docs
 weight: 10
 url: /es/net/delete-operations/delete-barcode/
 ---

@@ -3,7 +3,6 @@ title: Podepisování razítkem pomocí GroupDocs.Signature
 linktitle: Podepisování razítkem
 second_title: GroupDocs.Signature .NET API
 description: Naučte se, jak snadno přidat podpisy razítek do dokumentů .NET pomocí GroupDocs.Signature pro .NET. Zvyšte zabezpečení dokumentů.
-type: docs
 weight: 16
 url: /cs/net/advanced-signature-techniques/sign-with-stamp/
 ---

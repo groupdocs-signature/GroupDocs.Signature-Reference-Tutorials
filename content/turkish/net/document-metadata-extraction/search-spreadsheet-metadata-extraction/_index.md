@@ -3,7 +3,6 @@ title: Arama E-Tablosu Meta Veri Çıkarma
 linktitle: Arama E-Tablosu Meta Veri Çıkarma
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak meta verileri elektronik tablolardan verimli bir şekilde çıkarın. Belge yönetimini ve analizini zahmetsizce geliştirin.
-type: docs
 weight: 13
 url: /tr/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ Belge yönetimi ve doğrulama alanında, meta verileri elektronik tablolardan ve
 ## Önkoşullar
 GroupDocs.Signature for .NET'i kullanarak e-tablo meta verilerini aramanın inceliklerine dalmadan önce, aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 ### 1. .NET için GroupDocs.Signature Kurulumu
- Öncelikle ve en önemlisi, şurada verilen talimatları izleyerek GroupDocs.Signature for .NET'i indirip yükleyin.[dokümantasyon](https://reference.groupdocs.com/signature/net/). Bu adım, kitaplığı .NET ortamınıza sorunsuz bir şekilde entegre etmek için çok önemlidir.
+ Öncelikle ve en önemlisi, şurada verilen talimatları izleyerek GroupDocs.Signature for .NET'i indirip yükleyin.[dokümantasyon](https://tutorials.groupdocs.com/signature/net/). Bu adım, kitaplığı .NET ortamınıza sorunsuz bir şekilde entegre etmek için çok önemlidir.
 ### 2. Örnek Elektronik Tabloya Erişim
 Örnek bir e-tablo hazırlayın (ör.`sample.xlsx`) çıkarmak istediğiniz meta verileri içeren. Elektronik tablonun geliştirme ortamınızda erişilebilir olduğundan emin olun.
 

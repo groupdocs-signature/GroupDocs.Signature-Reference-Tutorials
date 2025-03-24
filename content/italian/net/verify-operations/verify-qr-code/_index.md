@@ -3,7 +3,6 @@ title: Verifica il codice QR
 linktitle: Verifica il codice QR
 second_title: API GroupDocs.Signature .NET
 description: Scopri come verificare i codici QR all'interno dei documenti utilizzando GroupDocs.Signature per .NET. Tutorial completo con guida passo passo.
-type: docs
 weight: 12
 url: /it/net/verify-operations/verify-qr-code/
 ---
@@ -79,4 +78,4 @@ Sì, GroupDocs.Signature per .NET supporta un'ampia gamma di formati di document
 ### Posso acquistare una licenza temporanea per GroupDocs.Signature per .NET?
  Sì, è possibile acquistare licenze temporanee da[Pagina di acquisto di GroupDocs](https://purchase.groupdocs.com/temporary-license/).
 ### È disponibile un'ampia documentazione per GroupDocs.Signature per .NET?
- Assolutamente sì, potete fare riferimento alla documentazione dettagliata fornita[Qui](https://reference.groupdocs.com/signature/net/) per una guida completa sull'utilizzo delle funzionalità di GroupDocs.Signature per .NET.
+ Assolutamente sì, potete fare riferimento alla documentazione dettagliata fornita[Qui](https://tutorials.groupdocs.com/signature/net/) per una guida completa sull'utilizzo delle funzionalità di GroupDocs.Signature per .NET.

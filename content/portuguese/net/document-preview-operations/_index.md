@@ -3,7 +3,6 @@ title: Operações de visualização de documentos
 linktitle: Operações de visualização de documentos
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como agilizar o gerenciamento de documentos com os tutoriais do GroupDocs.Signature for .NET. Simplifique tarefas, melhore o fluxo de trabalho e aumente a produtividade sem esforço.
-type: docs
 weight: 21
 url: /pt/net/document-preview-operations/
 ---

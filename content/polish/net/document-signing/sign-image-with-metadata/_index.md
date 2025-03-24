@@ -3,7 +3,6 @@ title: Podpisz obraz metadanymi
 linktitle: Podpisz obraz metadanymi
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak podpisywać obrazy z metadanymi w platformie .NET przy użyciu GroupDocs.Signature. Łatwe, wydajne i konfigurowalne rozwiązanie do podpisywania metadanych.
-type: docs
 weight: 10
 url: /pl/net/document-signing/sign-image-with-metadata/
 ---

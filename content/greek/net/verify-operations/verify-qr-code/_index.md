@@ -3,7 +3,6 @@ title: Επαληθεύστε τον κωδικό QR
 linktitle: Επαληθεύστε τον κωδικό QR
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να επαληθεύετε κωδικούς QR μέσα σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET. Ολοκληρωμένο σεμινάριο με οδηγό βήμα προς βήμα.
-type: docs
 weight: 12
 url: /el/net/verify-operations/verify-qr-code/
 ---
@@ -79,4 +78,4 @@ else
 ### Μπορώ να αγοράσω μια προσωρινή άδεια χρήσης για το GroupDocs.Signature για .NET;
  Ναι, οι προσωρινές άδειες είναι διαθέσιμες για αγορά από το[Σελίδα αγοράς GroupDocs](https://purchase.groupdocs.com/temporary-license/).
 ### Υπάρχει διαθέσιμη εκτενής τεκμηρίωση για το GroupDocs.Signature για .NET;
- Οπωσδήποτε, μπορείτε να ανατρέξετε στη λεπτομερή τεκμηρίωση που παρέχεται[εδώ](https://reference.groupdocs.com/signature/net/) για ολοκληρωμένη καθοδήγηση σχετικά με τη χρήση των λειτουργιών του GroupDocs.Signature για .NET.
+ Οπωσδήποτε, μπορείτε να ανατρέξετε στη λεπτομερή τεκμηρίωση που παρέχεται[εδώ](https://tutorials.groupdocs.com/signature/net/) για ολοκληρωμένη καθοδήγηση σχετικά με τη χρήση των λειτουργιών του GroupDocs.Signature για .NET.

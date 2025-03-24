@@ -3,7 +3,6 @@ title: 使用元数据对图像进行签名
 linktitle: 使用元数据对图像进行签名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature 在 .NET 中使用元数据对图像进行签名。简单、高效且可定制的元数据签名解决方案。
-type: docs
 weight: 10
 url: /zh/net/document-signing/sign-image-with-metadata/
 ---

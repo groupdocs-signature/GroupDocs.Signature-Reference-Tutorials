@@ -3,7 +3,6 @@ title: Signera PDF med metadata
 linktitle: Signera PDF med metadata
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du signerar PDF-dokument med metadata med GroupDocs.Signature för .NET. Förbättra dokumentspårbarhet och äkthet enkelt.
-type: docs
 weight: 11
 url: /sv/net/document-signing/sign-pdf-with-metadata/
 ---

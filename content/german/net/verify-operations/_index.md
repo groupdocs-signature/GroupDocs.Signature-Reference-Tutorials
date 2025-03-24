@@ -3,7 +3,6 @@ title: Überprüfen Sie den Betrieb
 linktitle: Überprüfen Sie den Betrieb
 second_title: GroupDocs.Signature .NET-API
 description: Erfahren Sie, wie Sie Barcodes, digitale Signaturen, QR-Codes und Text in Dokumenten mit GroupDocs.Signature .NET überprüfen. Schritt-für-Schritt-Anleitungen für eine nahtlose Integration.
-type: docs
 weight: 27
 url: /de/net/verify-operations/
 ---

@@ -3,7 +3,6 @@ title: Dokumentvorschau generieren
 linktitle: Dokumentvorschau generieren
 second_title: GroupDocs.Signature .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET Dokumentvorschauen erstellen. Vereinfachen Sie die Dokumentenverwaltung in Ihren .NET-Anwendungen.
-type: docs
 weight: 10
 url: /de/net/document-preview-operations/generate-document-preview/
 ---

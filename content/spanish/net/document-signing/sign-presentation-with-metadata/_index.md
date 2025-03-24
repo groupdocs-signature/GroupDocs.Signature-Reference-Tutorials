@@ -3,7 +3,6 @@ title: Presentación de letreros con metadatos
 linktitle: Presentación de letreros con metadatos
 second_title: API GroupDocs.Signature .NET
 description: Aprenda a firmar archivos de presentación con metadatos usando GroupDocs.Signature para .NET. Mejore la integridad de los documentos y agregue información valiosa.
-type: docs
 weight: 12
 url: /es/net/document-signing/sign-presentation-with-metadata/
 ---

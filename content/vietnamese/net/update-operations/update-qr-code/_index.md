@@ -3,7 +3,6 @@ title: Cập nhật mã QR
 linktitle: Cập nhật mã QR
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách cập nhật dễ dàng mã QR trong tài liệu bằng GroupDocs.Signature cho .NET. Tăng cường quản lý tài liệu một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/net/update-operations/update-qr-code/
 ---

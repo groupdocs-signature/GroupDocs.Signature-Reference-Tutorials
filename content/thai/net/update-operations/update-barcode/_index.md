@@ -3,7 +3,6 @@ title: อัพเดตบาร์โค้ด
 linktitle: อัพเดตบาร์โค้ด
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีอัปเดตลายเซ็นบาร์โค้ดในเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET คำแนะนำทีละขั้นตอนเพื่อการผสานรวมที่ราบรื่น
-type: docs
 weight: 10
 url: /th/net/update-operations/update-barcode/
 ---

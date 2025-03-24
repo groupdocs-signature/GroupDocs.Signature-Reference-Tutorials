@@ -3,7 +3,6 @@ title: 디지털 서명으로 서명
 linktitle: 디지털 서명으로 서명
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature를 사용하여 .NET에서 문서에 디지털 방식으로 서명하는 방법을 알아보세요. 이 포괄적인 튜토리얼을 통해 보안과 신뢰성을 강화하세요.
-type: docs
 weight: 12
 url: /ko/net/advanced-signature-techniques/sign-with-digital/
 ---

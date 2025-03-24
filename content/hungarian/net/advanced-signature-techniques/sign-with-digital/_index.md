@@ -3,7 +3,6 @@ title: Aláírás digitális aláírással
 linktitle: Aláírás digitális aláírással
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan írhat alá dokumentumokat digitálisan .NET-ben a GroupDocs.Signature használatával. Növelje a biztonságot és a hitelességet ezzel az átfogó oktatóanyaggal.
-type: docs
 weight: 12
 url: /hu/net/advanced-signature-techniques/sign-with-digital/
 ---

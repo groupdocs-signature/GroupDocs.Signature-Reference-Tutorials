@@ -3,7 +3,6 @@ title: Tekenpresentatie met metadata
 linktitle: Tekenpresentatie met metadata
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u presentatiebestanden met metagegevens kunt ondertekenen met GroupDocs.Signature voor .NET. Verbeter de documentintegriteit en voeg waardevolle informatie toe.
-type: docs
 weight: 12
 url: /nl/net/document-signing/sign-presentation-with-metadata/
 ---

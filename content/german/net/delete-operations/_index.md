@@ -3,7 +3,6 @@ title: Vorgänge löschen
 linktitle: Vorgänge löschen
 second_title: GroupDocs.Signature .NET-API
 description: Löschen Sie Signaturen, Barcodes und mehr aus .NET-Dokumenten mit GroupDocs.Signature. Entdecken Sie jetzt Tutorials für effizientes Dokumentenmanagement!
-type: docs
 weight: 20
 url: /de/net/delete-operations/
 ---

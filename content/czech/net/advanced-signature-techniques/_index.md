@@ -3,7 +3,6 @@ title: Pokročilé podpisové techniky
 linktitle: Pokročilé podpisové techniky
 second_title: GroupDocs.Signature .NET API
 description: Naučte se pokročilé techniky podpisu s GroupDocs.Signature pro .NET tutoriály. Podepisujte PDF, obrázky a dokumenty bez problémů pomocí čárových kódů, digitálních a dalších.
-type: docs
 weight: 25
 url: /cs/net/advanced-signature-techniques/
 ---

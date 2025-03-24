@@ -3,7 +3,6 @@ title: Handtekening zoeken
 linktitle: Handtekening zoeken
 second_title: GroupDocs.Signature .NET API
 description: Leer handtekeningen zoeken in .NET-documenten met GroupDocs.Signature voor .NET-tutorials. Verbeter de beveiliging met zoekopdrachten op streepjescodes, digitaal, afbeeldingen, tekst en QR-codes.
-type: docs
 weight: 23
 url: /nl/net/signature-searching/
 ---

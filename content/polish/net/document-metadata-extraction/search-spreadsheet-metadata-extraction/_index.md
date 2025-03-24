@@ -3,7 +3,6 @@ title: Wyszukaj ekstrakcję metadanych arkusza kalkulacyjnego
 linktitle: Wyszukaj ekstrakcję metadanych arkusza kalkulacyjnego
 second_title: GroupDocs.Signature .NET API
 description: Efektywnie wyodrębniaj metadane z arkuszy kalkulacyjnych za pomocą GroupDocs.Signature for .NET. Ulepsz zarządzanie dokumentami i analizę bez wysiłku.
-type: docs
 weight: 13
 url: /pl/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ obszarze zarządzania i weryfikacji dokumentów najważniejsza jest umiejętnoś
 ## Warunki wstępne
 Zanim zagłębisz się w zawiłości wyszukiwania metadanych arkusza kalkulacyjnego za pomocą GroupDocs.Signature for .NET, upewnij się, że spełnione są następujące wymagania wstępne:
 ### 1. Instalacja GroupDocs.Signature dla .NET
- Przede wszystkim pobierz i zainstaluj GroupDocs.Signature dla .NET, postępując zgodnie z instrukcjami zawartymi w pliku[dokumentacja](https://reference.groupdocs.com/signature/net/). Ten krok jest kluczowy dla bezproblemowej integracji biblioteki ze środowiskiem .NET.
+ Przede wszystkim pobierz i zainstaluj GroupDocs.Signature dla .NET, postępując zgodnie z instrukcjami zawartymi w pliku[dokumentacja](https://tutorials.groupdocs.com/signature/net/). Ten krok jest kluczowy dla bezproblemowej integracji biblioteki ze środowiskiem .NET.
 ### 2. Dostęp do przykładowego arkusza kalkulacyjnego
 Przygotuj przykładowy arkusz kalkulacyjny (np.`sample.xlsx`) zawierający metadane, które chcesz wyodrębnić. Upewnij się, że arkusz kalkulacyjny jest dostępny w Twoim środowisku programistycznym.
 

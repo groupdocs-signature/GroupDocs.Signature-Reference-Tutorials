@@ -3,7 +3,6 @@ title: प्रकार के अनुसार हस्ताक्षर 
 linktitle: प्रकार के अनुसार हस्ताक्षर हटाएँ
 second_title: GroupDocs.Signature .NET API
 description: दस्तावेज़ प्रबंधन दक्षता को बढ़ाते हुए, GroupDocs.Signature का उपयोग करके आसानी से .NET दस्तावेज़ों में टाइप के अनुसार हस्ताक्षर हटाना सीखें।
-type: docs
 weight: 12
 url: /hi/net/delete-operations/delete-signature-by-type/
 ---

@@ -3,7 +3,6 @@ title: البحث عن رموز QR
 linktitle: البحث عن رموز QR
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية البحث عن رموز QR داخل المستندات باستخدام GroupDocs.Signature لـ .NET. تعزيز أمان المستندات دون عناء.
-type: docs
 weight: 15
 url: /ar/net/signature-searching/search-for-qr-codes/
 ---

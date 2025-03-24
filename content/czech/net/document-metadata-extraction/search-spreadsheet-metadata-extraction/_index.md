@@ -3,7 +3,6 @@ title: Prohledejte extrakce metadat tabulky
 linktitle: Prohledejte extrakce metadat tabulky
 second_title: GroupDocs.Signature .NET API
 description: Efektivně extrahujte metadata z tabulek pomocí GroupDocs.Signature pro .NET. Vylepšete správu a analýzu dokumentů bez námahy.
-type: docs
 weight: 13
 url: /cs/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ oblasti správy a ověřování dokumentů je schopnost efektivně extrahovat me
 ## Předpoklady
 Než se ponoříte do složitosti vyhledávání metadat tabulek pomocí GroupDocs.Signature for .NET, ujistěte se, že máte splněny následující předpoklady:
 ### 1. Instalace GroupDocs.Signature pro .NET
- Nejprve a především stáhněte a nainstalujte GroupDocs.Signature for .NET podle pokynů uvedených v souboru[dokumentace](https://reference.groupdocs.com/signature/net/). Tento krok je zásadní pro bezproblémovou integraci knihovny do vašeho prostředí .NET.
+ Nejprve a především stáhněte a nainstalujte GroupDocs.Signature for .NET podle pokynů uvedených v souboru[dokumentace](https://tutorials.groupdocs.com/signature/net/). Tento krok je zásadní pro bezproblémovou integraci knihovny do vašeho prostředí .NET.
 ### 2. Přístup k ukázkové tabulce
 Připravte si vzorovou tabulku (např.`sample.xlsx`), který obsahuje metadata, která chcete extrahovat. Ujistěte se, že tabulka je přístupná ve vašem vývojovém prostředí.
 

@@ -3,7 +3,6 @@ title: 搜索 PDF 元数据提取
 linktitle: 搜索 PDF 元数据提取
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 从 PDF 文档中搜索和提取元数据签名。提高您的文档管理能力。
-type: docs
 weight: 11
 url: /zh/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---

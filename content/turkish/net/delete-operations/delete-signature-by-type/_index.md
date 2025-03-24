@@ -3,7 +3,6 @@ title: İmzayı Türe Göre Sil
 linktitle: İmzayı Türe Göre Sil
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature'ı kullanarak .NET belgelerini zahmetsizce yazarak imzaları nasıl sileceğinizi öğrenin ve belge yönetimi verimliliğini artırın.
-type: docs
 weight: 12
 url: /tr/net/delete-operations/delete-signature-by-type/
 ---

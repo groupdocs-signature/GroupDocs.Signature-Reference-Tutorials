@@ -3,7 +3,6 @@ title: Ekstraksi Metadata Presentasi Pencarian
 linktitle: Ekstraksi Metadata Presentasi Pencarian
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara mengekstrak metadata presentasi menggunakan GroupDocs.Signature untuk .NET. Tingkatkan kemampuan manajemen dokumen Anda dengan mudah.
-type: docs
 weight: 12
 url: /id/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

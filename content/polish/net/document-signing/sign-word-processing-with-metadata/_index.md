@@ -3,7 +3,6 @@ title: Podpisuj przetwarzanie tekstu za pomocą metadanych
 linktitle: Podpisuj przetwarzanie tekstu za pomocą metadanych
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak podpisywać dokumenty edytora tekstu przy użyciu metadanych przy użyciu programu GroupDocs.Signature for .NET. Zwiększ autentyczność i identyfikowalność dokumentów.
-type: docs
 weight: 14
 url: /pl/net/document-signing/sign-word-processing-with-metadata/
 ---

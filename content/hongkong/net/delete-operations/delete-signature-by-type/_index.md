@@ -3,7 +3,6 @@ title: 按類型刪除簽名
 linktitle: 按類型刪除簽名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature 輕鬆刪除 .NET 文件中的類型簽名，從而提高文件管理效率。
-type: docs
 weight: 12
 url: /zh-hant/net/delete-operations/delete-signature-by-type/
 ---

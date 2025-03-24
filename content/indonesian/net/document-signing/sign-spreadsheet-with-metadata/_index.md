@@ -3,7 +3,6 @@ title: Tandatangani Spreadsheet dengan Metadata
 linktitle: Tandatangani Spreadsheet dengan Metadata
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menandatangani spreadsheet dengan metadata menggunakan Groupdocs.Signature untuk .NET. Tingkatkan integritas dan verifikasi dokumen dengan tanda tangan metadata.
-type: docs
 weight: 13
 url: /id/net/document-signing/sign-spreadsheet-with-metadata/
 ---

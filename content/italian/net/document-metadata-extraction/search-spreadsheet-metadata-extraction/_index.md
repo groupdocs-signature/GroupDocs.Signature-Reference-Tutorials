@@ -3,7 +3,6 @@ title: Cerca Estrazione dei metadati del foglio di calcolo
 linktitle: Cerca Estrazione dei metadati del foglio di calcolo
 second_title: API GroupDocs.Signature .NET
 description: Estrai in modo efficiente i metadati dai fogli di calcolo utilizzando GroupDocs.Signature per .NET. Migliora la gestione e l'analisi dei documenti senza sforzo.
-type: docs
 weight: 13
 url: /it/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ Nell’ambito della gestione e verifica dei documenti, la capacità di estrarre 
 ## Prerequisiti
 Prima di immergerti nella complessità della ricerca dei metadati dei fogli di calcolo utilizzando GroupDocs.Signature per .NET, assicurati di disporre dei seguenti prerequisiti:
 ### 1. Installazione di GroupDocs.Signature per .NET
- Innanzitutto, scarica e installa GroupDocs.Signature per .NET seguendo le istruzioni fornite nel file[documentazione](https://reference.groupdocs.com/signature/net/). Questo passaggio è fondamentale per integrare perfettamente la libreria nel tuo ambiente .NET.
+ Innanzitutto, scarica e installa GroupDocs.Signature per .NET seguendo le istruzioni fornite nel file[documentazione](https://tutorials.groupdocs.com/signature/net/). Questo passaggio è fondamentale per integrare perfettamente la libreria nel tuo ambiente .NET.
 ### 2. Accesso al foglio di calcolo di esempio
 Preparare un foglio di calcolo di esempio (ad es.`sample.xlsx`) che contiene i metadati che desideri estrarre. Assicurati che il foglio di calcolo sia accessibile all'interno del tuo ambiente di sviluppo.
 

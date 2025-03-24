@@ -3,7 +3,6 @@ title: Cerca l'estrazione dei metadati delle immagini con GroupDocs.Signature
 linktitle: Cerca l'estrazione dei metadati delle immagini
 second_title: API GroupDocs.Signature .NET
 description: Scopri come cercare firme di metadati di immagini nei documenti utilizzando GroupDocs.Signature per .NET. Migliora l'integrità e l'autenticità dei documenti senza sforzo.
-type: docs
 weight: 10
 url: /it/net/document-metadata-extraction/search-image-metadata-extraction/
 ---

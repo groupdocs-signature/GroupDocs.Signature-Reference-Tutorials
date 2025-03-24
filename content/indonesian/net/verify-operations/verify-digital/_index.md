@@ -3,7 +3,6 @@ title: Verifikasi Tanda Tangan Digital
 linktitle: Verifikasi Tanda Tangan Digital
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Verifikasi tanda tangan digital di .NET dengan mudah menggunakan GroupDocs.Signature. Pastikan keaslian dan integritas dokumen dengan mudah.
-type: docs
 weight: 11
 url: /id/net/verify-operations/verify-digital/
 ---

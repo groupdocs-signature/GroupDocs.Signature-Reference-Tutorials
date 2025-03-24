@@ -3,7 +3,6 @@ title: Törölje a vonalkódot a dokumentumból
 linktitle: Törölje a vonalkódot a dokumentumból
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan törölhet vonalkódot egy dokumentumból a GroupDocs.Signature for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
-type: docs
 weight: 10
 url: /hu/net/delete-operations/delete-barcode/
 ---

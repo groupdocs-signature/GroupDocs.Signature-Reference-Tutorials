@@ -3,7 +3,6 @@ title: Digitale handtekening uit document verwijderen
 linktitle: Digitale handtekening uit document verwijderen
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u digitale handtekeningen uit documenten verwijdert met GroupDocs.Signature voor .NET. Volg onze stapsgewijze handleiding voor efficiënt beheer.
-type: docs
 weight: 13
 url: /nl/net/delete-operations/delete-digital-signature/
 ---

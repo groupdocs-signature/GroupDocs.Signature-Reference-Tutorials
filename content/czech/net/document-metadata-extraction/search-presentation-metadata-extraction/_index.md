@@ -3,7 +3,6 @@ title: Vyhledání prezentace metadat Extrakce
 linktitle: Vyhledání prezentace metadat Extrakce
 second_title: GroupDocs.Signature .NET API
 description: Naučte se extrahovat metadata prezentace pomocí GroupDocs.Signature for .NET. Vylepšete své možnosti správy dokumentů bez námahy.
-type: docs
 weight: 12
 url: /cs/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

@@ -3,7 +3,6 @@ title: 文書への署名
 linktitle: 文書への署名
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature .NET を使用して、メタデータを含む画像、PDF、プレゼンテーション、スプレッドシート、および Word ドキュメントに署名します。文書の信頼性と完全性を強化します。
-type: docs
 weight: 24
 url: /ja/net/document-signing/
 ---

@@ -3,7 +3,6 @@ title: 고급 서명 기술
 linktitle: 고급 서명 기술
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature 튜토리얼을 통해 고급 서명 기술을 알아보세요. 바코드, 디지털 등을 사용하여 PDF, 이미지, 문서에 원활하게 서명하세요.
-type: docs
 weight: 25
 url: /ko/net/advanced-signature-techniques/
 ---

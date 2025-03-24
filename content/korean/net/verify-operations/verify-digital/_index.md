@@ -3,7 +3,6 @@ title: 디지털 서명 확인
 linktitle: 디지털 서명 확인
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature를 사용하여 .NET에서 디지털 서명을 쉽게 확인하세요. 문서의 진위성과 무결성을 손쉽게 보장하세요.
-type: docs
 weight: 11
 url: /ko/net/verify-operations/verify-digital/
 ---

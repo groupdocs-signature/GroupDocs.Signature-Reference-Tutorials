@@ -3,7 +3,6 @@ title: 使用 GroupDocs.Signature 进行 Stamp 签名
 linktitle: 盖章签名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 轻松将图章签名添加到 .NET 文档中。增强文档安全性。
-type: docs
 weight: 16
 url: /zh/net/advanced-signature-techniques/sign-with-stamp/
 ---

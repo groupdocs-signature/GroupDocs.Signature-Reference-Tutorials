@@ -3,7 +3,6 @@ title: Vyhledejte více podpisů
 linktitle: Vyhledejte více podpisů
 second_title: GroupDocs.Signature .NET API
 description: Naučte se vyhledávat více podpisů v dokumentech .NET pomocí GroupDocs.Signature pro efektivní zabezpečení a integritu dokumentů.
-type: docs
 weight: 14
 url: /cs/net/signature-searching/search-for-multiple-signatures/
 ---

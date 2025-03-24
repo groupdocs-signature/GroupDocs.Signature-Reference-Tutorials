@@ -3,7 +3,6 @@ title: Sign Spreadsheet with Metadata
 linktitle: Sign Spreadsheet with Metadata
 second_title: GroupDocs.Signature .NET API
 description: Learn how to sign spreadsheets with metadata using Groupdocs.Signature for .NET. Enhance document integrity and verification with metadata signatures.
-type: docs
 weight: 13
 url: /net/document-signing/sign-spreadsheet-with-metadata/
 ---

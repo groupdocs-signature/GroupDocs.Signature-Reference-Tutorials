@@ -3,7 +3,6 @@ title: Ενημερώστε τον κωδικό QR
 linktitle: Ενημερώστε τον κωδικό QR
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να ενημερώνετε εύκολα τους κωδικούς QR μέσα σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET. Βελτιώστε τη διαχείριση εγγράφων με ευκολία.
-type: docs
 weight: 12
 url: /el/net/update-operations/update-qr-code/
 ---

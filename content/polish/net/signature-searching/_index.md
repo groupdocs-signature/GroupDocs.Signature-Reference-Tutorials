@@ -3,7 +3,6 @@ title: Wyszukiwanie podpisu
 linktitle: Wyszukiwanie podpisu
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak wyszukiwać podpisy w dokumentach platformy .NET dzięki samouczkom GroupDocs.Signature for .NET. Zwiększ bezpieczeństwo dzięki wyszukiwaniu kodów kreskowych, cyfrowych, obrazów, tekstu i kodów QR.
-type: docs
 weight: 23
 url: /pl/net/signature-searching/
 ---

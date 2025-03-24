@@ -3,7 +3,6 @@ title: 使用元資料簽署簡報
 linktitle: 使用元資料簽署簡報
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 使用元資料對簡報文件進行簽署。增強文件完整性並添加有價值的資訊。
-type: docs
 weight: 12
 url: /zh-hant/net/document-signing/sign-presentation-with-metadata/
 ---

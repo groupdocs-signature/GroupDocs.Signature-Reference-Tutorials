@@ -3,7 +3,6 @@ title: Szöveg frissítése
 linktitle: Szöveg frissítése
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan frissítheti a dokumentumok szövegét a GroupDocs.Signature for .NET segítségével. Kövesse lépésről lépésre bemutató oktatóanyagunkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 13
 url: /hu/net/update-operations/update-text/
 ---

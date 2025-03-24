@@ -3,7 +3,6 @@ title: Tabellenkalkulation mit Metadaten signieren
 linktitle: Tabellenkalkulation mit Metadaten signieren
 second_title: GroupDocs.Signature .NET-API
 description: Erfahren Sie, wie Sie Tabellenkalkulationen mit Metadaten unter Verwendung von Groupdocs.Signature für .NET signieren. Verbessern Sie die Dokumentintegrität und -überprüfung mit Metadatensignaturen.
-type: docs
 weight: 13
 url: /de/net/document-signing/sign-spreadsheet-with-metadata/
 ---

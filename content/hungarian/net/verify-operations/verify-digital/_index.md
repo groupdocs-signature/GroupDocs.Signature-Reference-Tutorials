@@ -3,7 +3,6 @@ title: Digitális aláírás ellenőrzése
 linktitle: Digitális aláírás ellenőrzése
 second_title: GroupDocs.Signature .NET API
 description: A GroupDocs.Signature segítségével könnyedén ellenőrizheti a digitális aláírásokat .NET-ben. Gondoskodjon a dokumentumok hitelességéről és sértetlenségéről erőfeszítés nélkül.
-type: docs
 weight: 11
 url: /hu/net/verify-operations/verify-digital/
 ---

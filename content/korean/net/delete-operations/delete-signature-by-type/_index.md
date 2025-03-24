@@ -3,7 +3,6 @@ title: 유형별 서명 삭제
 linktitle: 유형별 서명 삭제
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature를 사용하여 .NET 문서에서 유형별 서명을 손쉽게 삭제하여 문서 관리 효율성을 높이는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/net/delete-operations/delete-signature-by-type/
 ---

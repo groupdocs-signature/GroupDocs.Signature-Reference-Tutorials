@@ -3,7 +3,6 @@ title: Ký bằng chữ ký số
 linktitle: Ký bằng chữ ký số
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách ký tài liệu kỹ thuật số trong .NET bằng GroupDocs.Signature. Tăng cường tính bảo mật và tính xác thực với hướng dẫn toàn diện này.
-type: docs
 weight: 12
 url: /vi/net/advanced-signature-techniques/sign-with-digital/
 ---

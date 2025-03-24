@@ -3,7 +3,6 @@ title: Frissítési műveletek
 linktitle: Frissítési műveletek
 second_title: GroupDocs.Signature .NET API
 description: Frissítse a vonalkódot, a képet, a QR-kódot és a szöveges aláírásokat a .NET dokumentumokban a GroupDocs.Signature for .NET oktatóanyaggal. Növelje a dokumentumok biztonságát és kezelését.
-type: docs
 weight: 26
 url: /hu/net/update-operations/
 ---

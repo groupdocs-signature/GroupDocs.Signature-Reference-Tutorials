@@ -3,7 +3,6 @@ title: Rechercher des images
 linktitle: Rechercher des images
 second_title: API GroupDocs.Signature .NET
 description: Découvrez comment rechercher des images dans des documents à l’aide de GroupDocs.Signature pour .NET. Améliorez la sécurité et l’intégrité des documents sans effort.
-type: docs
 weight: 13
 url: /fr/net/signature-searching/search-for-images/
 ---
@@ -69,4 +68,4 @@ Oui, GroupDocs.Signature fournit des fonctionnalités avancées, notamment la pr
 ### Puis-je personnaliser l’apparence des signatures numériques ajoutées à l’aide de GroupDocs.Signature pour .NET ?
 Certainement! GroupDocs.Signature offre des options de personnalisation étendues, vous permettant d'adapter l'apparence des signatures numériques en fonction de vos besoins spécifiques.
 ### Où puis-je trouver une assistance ou des ressources supplémentaires pour GroupDocs.Signature pour .NET ?
- Vous pouvez visiter le forum GroupDocs.Signature à l'adresse[ce lien](https://forum.groupdocs.com/c/signature/13) pour obtenir de l'aide, ou reportez-vous à la documentation complète disponible[ici](https://reference.groupdocs.com/signature/net/).
+ Vous pouvez visiter le forum GroupDocs.Signature à l'adresse[ce lien](https://forum.groupdocs.com/c/signature/13) pour obtenir de l'aide, ou reportez-vous à la documentation complète disponible[ici](https://tutorials.groupdocs.com/signature/net/).

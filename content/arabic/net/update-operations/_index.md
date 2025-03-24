@@ -3,7 +3,6 @@ title: عمليات التحديث
 linktitle: عمليات التحديث
 second_title: GroupDocs.Signature .NET API
 description: قم بتحديث الرمز الشريطي والصورة ورمز الاستجابة السريعة والتوقيعات النصية في مستندات .NET باستخدام GroupDocs.Signature لبرامج .NET التعليمية. تعزيز أمن المستندات وإدارتها.
-type: docs
 weight: 26
 url: /ar/net/update-operations/
 ---

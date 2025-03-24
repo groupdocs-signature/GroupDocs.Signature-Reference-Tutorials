@@ -3,7 +3,6 @@ title: Kỹ thuật chữ ký nâng cao
 linktitle: Kỹ thuật chữ ký nâng cao
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu các kỹ thuật chữ ký nâng cao với hướng dẫn GroupDocs.Signature for .NET. Ký các tệp PDF, hình ảnh và tài liệu một cách liền mạch bằng mã vạch, kỹ thuật số, v.v.
-type: docs
 weight: 25
 url: /vi/net/advanced-signature-techniques/
 ---

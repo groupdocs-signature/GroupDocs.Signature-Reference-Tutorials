@@ -3,7 +3,6 @@ title: 搜索文本签名
 linktitle: 搜索文本签名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 在数字文档中搜索文本签名。高效实施的分步指南。
-type: docs
 weight: 16
 url: /zh/net/signature-searching/search-for-text-signatures/
 ---

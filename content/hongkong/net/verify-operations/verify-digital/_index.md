@@ -3,7 +3,6 @@ title: 驗證數位簽名
 linktitle: 驗證數位簽名
 second_title: GroupDocs.Signature .NET API
 description: 使用 GroupDocs.Signature 輕鬆驗證 .NET 中的數位簽章。輕鬆確保文件的真實性和完整性。
-type: docs
 weight: 11
 url: /zh-hant/net/verify-operations/verify-digital/
 ---

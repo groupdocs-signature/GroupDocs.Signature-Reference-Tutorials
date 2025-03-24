@@ -3,7 +3,6 @@ title: Sign Word Processing with Metadata
 linktitle: Sign Word Processing with Metadata
 second_title: GroupDocs.Signature .NET API
 description: Learn how to sign Word Processing documents with metadata using GroupDocs.Signature for .NET. Enhance document authenticity and traceability.
-type: docs
 weight: 14
 url: /net/document-signing/sign-word-processing-with-metadata/
 ---

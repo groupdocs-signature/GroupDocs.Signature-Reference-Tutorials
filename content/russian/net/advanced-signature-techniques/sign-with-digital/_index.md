@@ -3,7 +3,6 @@ title: Подписание цифровой подписью
 linktitle: Подписание цифровой подписью
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как подписывать документы цифровой подписью в .NET с помощью GroupDocs.Signature. Повысьте безопасность и подлинность с помощью этого подробного руководства.
-type: docs
 weight: 12
 url: /ru/net/advanced-signature-techniques/sign-with-digital/
 ---

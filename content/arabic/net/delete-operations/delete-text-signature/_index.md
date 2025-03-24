@@ -3,7 +3,6 @@ title: حذف التوقيع النصي
 linktitle: حذف التوقيع النصي
 second_title: GroupDocs.Signature .NET API
 description: يمكنك حذف التوقيعات النصية من المستندات بسهولة باستخدام GroupDocs.Signature لـ .NET. تبسيط مهام إدارة المستندات الخاصة بك.
-type: docs
 weight: 17
 url: /ar/net/delete-operations/delete-text-signature/
 ---

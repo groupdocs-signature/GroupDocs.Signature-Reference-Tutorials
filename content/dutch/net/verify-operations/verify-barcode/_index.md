@@ -3,7 +3,6 @@ title: Controleer streepjescode
 linktitle: Controleer streepjescode
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u streepjescodes in documenten kunt verifiëren met GroupDocs.Signature voor .NET. Volg onze stap-voor-stap handleiding voor een naadloze implementatie.
-type: docs
 weight: 10
 url: /nl/net/verify-operations/verify-barcode/
 ---

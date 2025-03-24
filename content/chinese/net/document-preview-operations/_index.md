@@ -3,7 +3,6 @@ title: 文档预览操作
 linktitle: 文档预览操作
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 教程简化文档管理。轻松简化任务、增强工作流程并提高生产力。
-type: docs
 weight: 21
 url: /zh/net/document-preview-operations/
 ---

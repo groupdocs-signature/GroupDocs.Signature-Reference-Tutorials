@@ -3,7 +3,6 @@ title: Поиск штрих-кода
 linktitle: Поиск штрих-кода
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как искать подписи в виде штрих-кода в документах с помощью GroupDocs.Signature для .NET. Следуйте нашему пошаговому руководству и эффективно интегрируйте подпись.
-type: docs
 weight: 10
 url: /ru/net/signature-searching/search-for-barcode/
 ---

@@ -3,7 +3,6 @@ title: 텍스트 확인
 linktitle: 텍스트 확인
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 문서의 텍스트를 확인하는 방법을 알아보세요. 원활한 통합을 위해 단계별 튜토리얼을 따르세요.
-type: docs
 weight: 13
 url: /ko/net/verify-operations/verify-text/
 ---

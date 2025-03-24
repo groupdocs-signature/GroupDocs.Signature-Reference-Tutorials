@@ -3,7 +3,6 @@ title: Podepisování dokumentů pomocí QR kódu pomocí GroupDocs.Signature
 linktitle: Podepisování pomocí QR kódu
 second_title: GroupDocs.Signature .NET API
 description: Naučte se přidávat podpisy QR kódů do dokumentů pomocí GroupDocs.Signature pro .NET. Zvyšte zabezpečení a ověřování bez námahy.
-type: docs
 weight: 15
 url: /cs/net/advanced-signature-techniques/sign-with-qr-code/
 ---

@@ -3,7 +3,6 @@ title: Dijital İmza ile İmzalama
 linktitle: Dijital İmza ile İmzalama
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature kullanarak belgeleri .NET'te dijital olarak nasıl imzalayacağınızı öğrenin. Bu kapsamlı eğitimle güvenliği ve özgünlüğü artırın.
-type: docs
 weight: 12
 url: /tr/net/advanced-signature-techniques/sign-with-digital/
 ---

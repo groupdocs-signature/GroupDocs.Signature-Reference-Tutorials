@@ -3,7 +3,6 @@ title: Átfogó GroupDocs.Signature oktatóanyagok
 linktitle: GroupDocs.Signature oktatóanyagok
 additionalTitle: GroupDocs API referenciák
 description: Sajátítsa el a dokumentumkezelést .NET-ben és Java-ban a GroupDocs.Signature oktatóanyagokkal. Metaadatok létrehozása, ellenőrzése, kibontása stb. Merüljön el a zökkenőmentes munkafolyamatban!
-type: docs
 weight: 11
 url: /hu/
 is_root: true

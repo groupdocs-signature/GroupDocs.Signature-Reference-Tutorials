@@ -3,7 +3,6 @@ title: Perbarui Teks
 linktitle: Perbarui Teks
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara memperbarui teks dalam dokumen menggunakan GroupDocs.Signature untuk .NET. Ikuti tutorial langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 13
 url: /id/net/update-operations/update-text/
 ---

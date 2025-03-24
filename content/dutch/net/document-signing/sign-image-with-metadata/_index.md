@@ -3,7 +3,6 @@ title: Onderteken afbeelding met metadata
 linktitle: Onderteken afbeelding met metadata
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u afbeeldingen kunt ondertekenen met metagegevens in .NET met behulp van GroupDocs.Signature. Eenvoudige, efficiënte en aanpasbare oplossing voor het ondertekenen van metagegevens.
-type: docs
 weight: 10
 url: /nl/net/document-signing/sign-image-with-metadata/
 ---

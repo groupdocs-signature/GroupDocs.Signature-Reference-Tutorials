@@ -3,7 +3,6 @@ title: Zoek naar formuliervelden
 linktitle: Zoek naar formuliervelden
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u handtekeningfunctionaliteit kunt integreren in uw .NET-applicaties met GroupDocs.Signature voor .NET. Volg ons stap-voor-stap voor naadloos documentbeheer.
-type: docs
 weight: 12
 url: /nl/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ GroupDocs.Signature voor .NET is een krachtig hulpmiddel waarmee ontwikkelaars h
 Voordat u GroupDocs.Signature voor .NET gaat gebruiken, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 1. Visual Studio: Installeer Visual Studio op uw ontwikkelmachine.
 2.  GroupDocs.Signature voor .NET: Download en installeer de GroupDocs.Signature voor .NET-bibliotheek van[hier](https://releases.groupdocs.com/signature/net/).
-3.  Toegang tot documentatie: maak uzelf vertrouwd met de documentatie die beschikbaar is op[GroupDocs.Signature voor .NET-documentatie](https://reference.groupdocs.com/signature/net/).
+3.  Toegang tot documentatie: maak uzelf vertrouwd met de documentatie die beschikbaar is op[GroupDocs.Signature voor .NET-documentatie](https://tutorials.groupdocs.com/signature/net/).
 4.  Toegang tot ondersteuning: In geval van problemen of vragen kunt u terecht op het ondersteuningsforum op[GroupDocs.Signature-forum](https://forum.groupdocs.com/c/signature/13).
 
 ## Naamruimten importeren
@@ -63,6 +62,6 @@ Ja, GroupDocs.Signature voor .NET ondersteunt een breed scala aan documentformat
 ### Hoe kan ik tijdelijke licenties krijgen voor GroupDocs.Signature voor .NET?
  Tijdelijke licenties zijn verkrijgbaar bij[hier](https://purchase.groupdocs.com/temporary-license/).
 ### Waar kan ik gedetailleerde documentatie vinden voor GroupDocs.Signature voor .NET?
- Gedetailleerde documentatie is beschikbaar[hier](https://reference.groupdocs.com/signature/net/).
+ Gedetailleerde documentatie is beschikbaar[hier](https://tutorials.groupdocs.com/signature/net/).
 ### Biedt GroupDocs.Signature voor .NET ondersteuning voor ontwikkelaars?
  Ja, u kunt toegang krijgen tot ondersteuning voor ontwikkelaars via de[GroupDocs.Signature-forum](https://forum.groupdocs.com/c/signature/13).

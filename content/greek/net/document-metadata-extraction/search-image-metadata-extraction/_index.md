@@ -3,7 +3,6 @@ title: Αναζήτηση εξαγωγής μεταδεδομένων εικόν
 linktitle: Αναζήτηση εξαγωγής μεταδεδομένων εικόνας
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να αναζητάτε υπογραφές μεταδεδομένων εικόνας σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET. Βελτιώστε την ακεραιότητα και την αυθεντικότητα του εγγράφου χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/net/document-metadata-extraction/search-image-metadata-extraction/
 ---

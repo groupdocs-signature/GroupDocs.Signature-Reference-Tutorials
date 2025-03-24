@@ -3,7 +3,6 @@ title: Ověřit text
 linktitle: Ověřit text
 second_title: GroupDocs.Signature .NET API
 description: Naučte se ověřovat text v dokumentech pomocí GroupDocs.Signature for .NET. Postupujte podle našeho podrobného návodu pro bezproblémovou integraci.
-type: docs
 weight: 13
 url: /cs/net/verify-operations/verify-text/
 ---

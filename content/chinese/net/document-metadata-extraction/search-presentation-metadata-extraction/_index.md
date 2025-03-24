@@ -3,7 +3,6 @@ title: 搜索呈现元数据提取
 linktitle: 搜索呈现元数据提取
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 提取演示文稿元数据。轻松增强您的文档管理能力。
-type: docs
 weight: 12
 url: /zh/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

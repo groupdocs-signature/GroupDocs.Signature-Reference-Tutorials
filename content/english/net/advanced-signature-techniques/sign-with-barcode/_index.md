@@ -3,7 +3,6 @@ title: Signing with Barcode
 linktitle: Signing with Barcode
 second_title: GroupDocs.Signature .NET API
 description: Learn how to sign documents with barcode using GroupDocs.Signature for .NET. Follow our step-by-step guide for seamless integration.
-type: docs
 weight: 11
 url: /net/advanced-signature-techniques/sign-with-barcode/
 ---

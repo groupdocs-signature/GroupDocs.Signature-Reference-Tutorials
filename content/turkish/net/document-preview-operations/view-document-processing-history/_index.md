@@ -3,7 +3,6 @@ title: Belge İşleme Geçmişini Görüntüle
 linktitle: Belge İşleme Geçmişini Görüntüle
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belge işleme geçmişini nasıl zahmetsizce görüntüleyeceğinizi keşfedin. Kusursuz iş akışı yönetimi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 12
 url: /tr/net/document-preview-operations/view-document-processing-history/
 ---

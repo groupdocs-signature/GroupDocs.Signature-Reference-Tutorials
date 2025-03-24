@@ -3,7 +3,6 @@ title: Αναζήτηση για πολλαπλές υπογραφές
 linktitle: Αναζήτηση για πολλαπλές υπογραφές
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να αναζητάτε πολλές υπογραφές σε έγγραφα .NET χρησιμοποιώντας το GroupDocs.Signature για αποτελεσματική ασφάλεια και ακεραιότητα εγγράφων.
-type: docs
 weight: 14
 url: /el/net/signature-searching/search-for-multiple-signatures/
 ---

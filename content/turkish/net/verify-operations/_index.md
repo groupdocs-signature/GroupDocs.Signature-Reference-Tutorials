@@ -3,7 +3,6 @@ title: İşlemleri Doğrulayın
 linktitle: İşlemleri Doğrulayın
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature .NET'i kullanarak belgelerdeki barkodları, dijital imzaları, QR kodlarını ve metinleri nasıl doğrulayacağınızı öğrenin. Kusursuz entegrasyon için adım adım eğitimler.
-type: docs
 weight: 27
 url: /tr/net/verify-operations/
 ---

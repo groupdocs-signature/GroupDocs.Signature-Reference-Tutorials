@@ -3,7 +3,6 @@ title: Проверка операций
 linktitle: Проверка операций
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как проверять штрих-коды, цифровые подписи, QR-коды и текст в документах с помощью GroupDocs.Signature .NET. Пошаговые руководства для плавной интеграции.
-type: docs
 weight: 27
 url: /ru/net/verify-operations/
 ---

@@ -3,7 +3,6 @@ title: GroupDocs.Signature를 사용하여 Stamp로 서명
 linktitle: 스탬프로 서명하기
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 .NET 문서에 스탬프 서명을 쉽게 추가하는 방법을 알아보세요. 문서 보안을 강화하세요.
-type: docs
 weight: 16
 url: /ko/net/advanced-signature-techniques/sign-with-stamp/
 ---

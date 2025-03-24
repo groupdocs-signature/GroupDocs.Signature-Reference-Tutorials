@@ -3,7 +3,6 @@ title: Excluir operações
 linktitle: Excluir operações
 second_title: API GroupDocs.Signature .NET
 description: Exclua assinaturas, códigos de barras e muito mais de documentos .NET com GroupDocs.Signature. Explore tutoriais para gerenciamento eficiente de documentos agora!
-type: docs
 weight: 20
 url: /pt/net/delete-operations/
 ---

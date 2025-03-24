@@ -3,7 +3,6 @@ title: Documentondertekening
 linktitle: Documentondertekening
 second_title: GroupDocs.Signature .NET API
 description: Onderteken afbeeldingen, PDF's, presentaties, spreadsheets en Word-documenten met metadata met behulp van GroupDocs.Signature .NET. Verbeter de authenticiteit en integriteit van documenten.
-type: docs
 weight: 24
 url: /nl/net/document-signing/
 ---

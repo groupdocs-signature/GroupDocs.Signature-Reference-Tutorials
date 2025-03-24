@@ -3,7 +3,6 @@ title: ลบลายเซ็นด้วย ID
 linktitle: ลบลายเซ็นด้วย ID
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีลบลายเซ็นด้วย ID ในเอกสาร .NET โดยใช้ไลบรารี GroupDocs.Signature คำแนะนำทีละขั้นตอนง่าย ๆ
-type: docs
 weight: 11
 url: /th/net/delete-operations/delete-signature-by-id/
 ---

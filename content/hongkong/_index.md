@@ -3,7 +3,6 @@ title: 全面的 GroupDocs.Signature 教程
 linktitle: GroupDocs.Signature 教程
 additionalTitle: GroupDocs API 參考
 description: 透過 GroupDocs.Signature 教學掌握 .NET 和 Java 中的文件管理。創建、驗證、提取元資料等等。深入了解無縫工作流程！
-type: docs
 weight: 11
 url: /zh-hant/
 is_root: true

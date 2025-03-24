@@ -3,7 +3,6 @@ title: Çoklu İmza Ara
 linktitle: Çoklu İmza Ara
 second_title: GroupDocs.Signature .NET API'si
 description: Verimli belge güvenliği ve bütünlüğü için GroupDocs.Signature'ı kullanarak .NET belgelerinde birden çok imzayı nasıl arayacağınızı öğrenin.
-type: docs
 weight: 14
 url: /tr/net/signature-searching/search-for-multiple-signatures/
 ---

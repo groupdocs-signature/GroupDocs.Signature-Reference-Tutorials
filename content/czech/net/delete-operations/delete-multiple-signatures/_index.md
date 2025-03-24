@@ -3,7 +3,6 @@ title: Odstranit více podpisů z dokumentu
 linktitle: Odstranit více podpisů z dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Bez námahy odstraňte více podpisů z dokumentů pomocí GroupDocs.Signature for .NET. Zjednodušte svůj pracovní postup při správě dokumentů.
-type: docs
 weight: 15
 url: /cs/net/delete-operations/delete-multiple-signatures/
 ---

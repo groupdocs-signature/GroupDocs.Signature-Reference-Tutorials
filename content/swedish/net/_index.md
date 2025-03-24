@@ -1,7 +1,6 @@
 ---
 title: Handledningar och exempel på GroupDocs.Signature för .NET
 linktitle: GroupDocs.Signature för .NET självstudier
-type: docs
 weight: 10
 url: /sv/net/
 description: Lås upp effektiv dokumenthantering med GroupDocs.Signature för .NET tutorials. Radera, förhandsgranska, extrahera metadata, signera, uppdatera och verifiera dokument sömlöst.

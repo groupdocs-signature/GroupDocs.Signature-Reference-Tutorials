@@ -3,7 +3,6 @@ title: البحث عن التوقيعات النصية
 linktitle: البحث عن التوقيعات النصية
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية البحث عن التوقيعات النصية في المستندات الرقمية باستخدام GroupDocs.Signature لـ .NET. دليل خطوة بخطوة للتنفيذ الفعال.
-type: docs
 weight: 16
 url: /ar/net/signature-searching/search-for-text-signatures/
 ---

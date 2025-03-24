@@ -3,7 +3,6 @@ title: Penandatanganan dengan Tanda Tangan Digital
 linktitle: Penandatanganan dengan Tanda Tangan Digital
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menandatangani dokumen secara digital di .NET menggunakan GroupDocs.Signature. Tingkatkan keamanan dan keaslian dengan tutorial komprehensif ini.
-type: docs
 weight: 12
 url: /id/net/advanced-signature-techniques/sign-with-digital/
 ---

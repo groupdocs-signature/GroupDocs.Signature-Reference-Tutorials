@@ -3,7 +3,6 @@ title: Υπογραφή εγγράφου
 linktitle: Υπογραφή εγγράφου
 second_title: GroupDocs.Signature .NET API
 description: Υπογράψτε εικόνες, PDF, παρουσιάσεις, υπολογιστικά φύλλα και έγγραφα Word με μεταδεδομένα χρησιμοποιώντας GroupDocs.Signature .NET. Βελτιώστε τη γνησιότητα και την ακεραιότητα του εγγράφου.
-type: docs
 weight: 24
 url: /el/net/document-signing/
 ---

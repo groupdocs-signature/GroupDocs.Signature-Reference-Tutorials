@@ -3,7 +3,6 @@ title: Διαγραφή υπογραφής κατά τύπο
 linktitle: Διαγραφή υπογραφής κατά τύπο
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να διαγράφετε υπογραφές ανά τύπο σε έγγραφα .NET χωρίς κόπο χρησιμοποιώντας GroupDocs.Signature, βελτιώνοντας την αποτελεσματικότητα της διαχείρισης εγγράφων.
-type: docs
 weight: 12
 url: /el/net/delete-operations/delete-signature-by-type/
 ---

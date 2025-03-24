@@ -3,7 +3,6 @@ title: 使用多个选项进行签名
 linktitle: 使用多个选项进行签名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 通过多个选项签署文档。通过文本、条形码、QR 码、数字和图像增强文档安全性。
-type: docs
 weight: 14
 url: /zh/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

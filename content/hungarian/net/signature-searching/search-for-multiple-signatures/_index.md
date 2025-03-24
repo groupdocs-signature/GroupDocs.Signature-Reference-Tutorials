@@ -3,7 +3,6 @@ title: Több aláírás keresése
 linktitle: Több aláírás keresése
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan kereshet több aláírást .NET-dokumentumokban a GroupDocs.Signature segítségével a hatékony dokumentumbiztonság és -integritás érdekében.
-type: docs
 weight: 14
 url: /hu/net/signature-searching/search-for-multiple-signatures/
 ---

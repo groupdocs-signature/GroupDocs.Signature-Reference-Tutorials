@@ -3,7 +3,6 @@ title: การลงนามด้วยบาร์โค้ด
 linktitle: การลงนามด้วยบาร์โค้ด
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีเซ็นเอกสารด้วยบาร์โค้ดโดยใช้ GroupDocs.Signature สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 11
 url: /th/net/advanced-signature-techniques/sign-with-barcode/
 ---

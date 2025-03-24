@@ -3,7 +3,6 @@ title: Ověřte QR kód
 linktitle: Ověřte QR kód
 second_title: GroupDocs.Signature .NET API
 description: Naučte se ověřovat QR kódy v dokumentech pomocí GroupDocs.Signature for .NET. Komplexní tutoriál s průvodcem krok za krokem.
-type: docs
 weight: 12
 url: /cs/net/verify-operations/verify-qr-code/
 ---
@@ -79,4 +78,4 @@ Ano, GroupDocs.Signature for .NET podporuje širokou škálu formátů dokument�
 ### Mohu si zakoupit dočasnou licenci pro GroupDocs.Signature pro .NET?
  Ano, dočasné licence jsou k dispozici ke koupi od[Nákupní stránka GroupDocs](https://purchase.groupdocs.com/temporary-license/).
 ### Je k dispozici rozsáhlá dokumentace pro GroupDocs.Signature pro .NET?
- Rozhodně se můžete obrátit na podrobnou poskytnutou dokumentaci[tady](https://reference.groupdocs.com/signature/net/) pro komplexní návod k využití funkcí GroupDocs.Signature pro .NET.
+ Rozhodně se můžete obrátit na podrobnou poskytnutou dokumentaci[tady](https://tutorials.groupdocs.com/signature/net/) pro komplexní návod k využití funkcí GroupDocs.Signature pro .NET.

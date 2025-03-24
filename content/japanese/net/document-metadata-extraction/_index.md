@@ -3,7 +3,6 @@ title: ドキュメントのメタデータの抽出
 linktitle: ドキュメントのメタデータの抽出
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してメタデータ抽出の能力を解放します。管理を強化するために、ドキュメントのメタデータを簡単に検索および抽出する方法を学びます。
-type: docs
 weight: 22
 url: /ja/net/document-metadata-extraction/
 ---

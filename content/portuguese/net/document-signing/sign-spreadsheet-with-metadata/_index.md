@@ -3,7 +3,6 @@ title: Assinar planilha com metadados
 linktitle: Assinar planilha com metadados
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como assinar planilhas com metadados usando Groupdocs.Signature for .NET. Melhore a integridade e verificação de documentos com assinaturas de metadados.
-type: docs
 weight: 13
 url: /pt/net/document-signing/sign-spreadsheet-with-metadata/
 ---

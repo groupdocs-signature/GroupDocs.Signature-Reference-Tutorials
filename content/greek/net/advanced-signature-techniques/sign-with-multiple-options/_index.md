@@ -3,7 +3,6 @@ title: Υπογραφή με πολλαπλές επιλογές
 linktitle: Υπογραφή με πολλαπλές επιλογές
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να υπογράφετε έγγραφα με πολλές επιλογές χρησιμοποιώντας το GroupDocs.Signature για .NET. Βελτιώστε την ασφάλεια των εγγράφων με κείμενο, γραμμωτό κώδικα, κωδικό QR, ψηφιακό και εικόνα.
-type: docs
 weight: 14
 url: /el/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

@@ -3,7 +3,6 @@ title: 文档元数据提取
 linktitle: 文档元数据提取
 second_title: GroupDocs.Signature .NET API
 description: 使用 GroupDocs.Signature for .NET 释放元数据提取的强大功能。了解轻松搜索和提取文档元数据以增强管理。
-type: docs
 weight: 22
 url: /zh/net/document-metadata-extraction/
 ---

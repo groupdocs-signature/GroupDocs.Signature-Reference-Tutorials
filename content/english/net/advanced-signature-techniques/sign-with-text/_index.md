@@ -3,7 +3,6 @@ title: Signing with Text using GroupDocs.Signature for .NET
 linktitle: Signing with Text
 second_title: GroupDocs.Signature .NET API
 description: Learn how to sign documents with text using GroupDocs.Signature for .NET. Step-by-step guide for adding text signatures programmatically.
-type: docs
 weight: 17
 url: /net/advanced-signature-techniques/sign-with-text/
 ---
@@ -65,7 +64,7 @@ using (Signature signature = new Signature(filePath))
 In this tutorial, we've learned how to sign a document with text using GroupDocs.Signature for .NET. By following these steps, you can efficiently add text signatures to your documents programmatically, enhancing security and authenticity.
 ## FAQ's
 ### Can I customize the appearance of the text signature?
-Yes, you can customize various parameters such as color, font, size, and position of the text signature according to your preferences.
+Yes, you can customize various parameters such as color, font, size, and position of the text signature according to your ptutorialss.
 ### Is GroupDocs.Signature compatible with multiple document formats?
 Yes, GroupDocs.Signature supports various document formats including PDF, Word, Excel, PowerPoint, and more.
 ### Can I add multiple text signatures to a single document?

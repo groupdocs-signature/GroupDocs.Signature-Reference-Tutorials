@@ -3,7 +3,6 @@ title: मेटाडेटा के साथ वर्ड प्रोसे
 linktitle: मेटाडेटा के साथ वर्ड प्रोसेसिंग पर हस्ताक्षर करें
 second_title: GroupDocs.Signature .NET API
 description: .NET के लिए GroupDocs.Signature का उपयोग करके मेटाडेटा के साथ Word Processing दस्तावेज़ों पर हस्ताक्षर करना सीखें। दस्तावेज़ की प्रामाणिकता और पता लगाने की क्षमता बढ़ाएँ।
-type: docs
 weight: 14
 url: /hi/net/document-signing/sign-word-processing-with-metadata/
 ---

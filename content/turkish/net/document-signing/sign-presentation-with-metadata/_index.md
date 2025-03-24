@@ -3,7 +3,6 @@ title: Sunumu Meta Verilerle İmzalayın
 linktitle: Sunumu Meta Verilerle İmzalayın
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak sunum dosyalarını meta verilerle nasıl imzalayacağınızı öğrenin. Belge bütünlüğünü geliştirin ve değerli bilgiler ekleyin.
-type: docs
 weight: 12
 url: /tr/net/document-signing/sign-presentation-with-metadata/
 ---

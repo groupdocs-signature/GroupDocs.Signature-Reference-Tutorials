@@ -3,7 +3,6 @@ title: Υπογραφή PDF με Μεταδεδομένα
 linktitle: Υπογραφή PDF με Μεταδεδομένα
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να υπογράφετε έγγραφα PDF με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για .NET. Βελτιώστε την ιχνηλασιμότητα και την αυθεντικότητα των εγγράφων εύκολα.
-type: docs
 weight: 11
 url: /el/net/document-signing/sign-pdf-with-metadata/
 ---

@@ -3,7 +3,6 @@ title: Podepisování dokumentů pomocí obrázku pomocí GroupDocs.Signature
 linktitle: Podepisování pomocí obrázku
 second_title: GroupDocs.Signature .NET API
 description: Naučte se podepisovat dokumenty pomocí obrázků v aplikacích .NET pomocí Groupdocs.Signature for .NET. Zvyšte bezpečnost a autenticitu dokumentů bez námahy.
-type: docs
 weight: 13
 url: /cs/net/advanced-signature-techniques/sign-with-image/
 ---

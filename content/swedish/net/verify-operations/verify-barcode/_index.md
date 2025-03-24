@@ -3,7 +3,6 @@ title: Verifiera streckkoden
 linktitle: Verifiera streckkoden
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du verifierar streckkoder i dokument med GroupDocs.Signature för .NET. Följ vår steg-för-steg handledning för sömlös implementering.
-type: docs
 weight: 10
 url: /sv/net/verify-operations/verify-barcode/
 ---

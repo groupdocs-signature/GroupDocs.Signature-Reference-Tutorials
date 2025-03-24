@@ -3,7 +3,6 @@ title: Υπογραφή εγγράφων με κωδικό QR χρησιμοπο
 linktitle: Υπογραφή με QR Code
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να προσθέτετε υπογραφές κώδικα QR στα έγγραφά σας με το GroupDocs.Signature για .NET. Βελτιώστε την ασφάλεια και τον έλεγχο ταυτότητας χωρίς κόπο.
-type: docs
 weight: 15
 url: /el/net/advanced-signature-techniques/sign-with-qr-code/
 ---

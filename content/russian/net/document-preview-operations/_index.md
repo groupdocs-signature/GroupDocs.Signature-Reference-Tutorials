@@ -3,7 +3,6 @@ title: Операции предварительного просмотра до
 linktitle: Операции предварительного просмотра документа
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как оптимизировать управление документами с помощью руководств GroupDocs.Signature для .NET. Упростите задачи, улучшите рабочий процесс и повысьте производительность без особых усилий.
-type: docs
 weight: 21
 url: /ru/net/document-preview-operations/
 ---

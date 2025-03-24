@@ -3,7 +3,6 @@ title: Hapus Tanda Tangan Teks
 linktitle: Hapus Tanda Tangan Teks
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Hapus tanda tangan teks dari dokumen dengan mudah menggunakan GroupDocs.Signature untuk .NET. Sederhanakan tugas manajemen dokumen Anda.
-type: docs
 weight: 17
 url: /id/net/delete-operations/delete-text-signature/
 ---

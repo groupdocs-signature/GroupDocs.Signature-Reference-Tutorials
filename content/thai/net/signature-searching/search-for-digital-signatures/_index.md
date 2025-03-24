@@ -3,7 +3,6 @@ title: ค้นหาลายเซ็นดิจิทัล
 linktitle: ค้นหาลายเซ็นดิจิทัล
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีค้นหาลายเซ็นดิจิทัลในเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET เพิ่มความปลอดภัยและความสมบูรณ์ของเอกสารด้วยความครอบคลุมนี้
-type: docs
 weight: 11
 url: /th/net/signature-searching/search-for-digital-signatures/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Signature สำหรับ .NET มอบเฟรมเวิร์
 ### GroupDocs.Signature สำหรับ .NET มีรุ่นทดลองใช้ฟรีหรือไม่
 ใช่ คุณสามารถเข้าถึง GroupDocs.Signature สำหรับ .NET รุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.groupdocs.com/).
 ### ฉันจะหาเอกสารสำหรับ GroupDocs.Signature สำหรับ .NET ได้ที่ไหน
- คุณสามารถดูเอกสารประกอบโดยละเอียดสำหรับ GroupDocs.Signature สำหรับ .NET ได้[ที่นี่](https://reference.groupdocs.com/signature/net/).
+ คุณสามารถดูเอกสารประกอบโดยละเอียดสำหรับ GroupDocs.Signature สำหรับ .NET ได้[ที่นี่](https://tutorials.groupdocs.com/signature/net/).
 ### ฉันจะรับใบอนุญาตชั่วคราวสำหรับ GroupDocs.Signature สำหรับ .NET ได้อย่างไร
  สามารถรับใบอนุญาตชั่วคราวสำหรับ GroupDocs.Signature สำหรับ .NET ได้[ที่นี่](https://purchase.groupdocs.com/temporary-license/).
 ### ฉันจะขอรับการสนับสนุนสำหรับ GroupDocs.Signature สำหรับ .NET ได้ที่ไหน

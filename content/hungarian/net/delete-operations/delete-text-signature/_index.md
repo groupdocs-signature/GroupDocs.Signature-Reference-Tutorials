@@ -3,7 +3,6 @@ title: Szöveges aláírás törlése
 linktitle: Szöveges aláírás törlése
 second_title: GroupDocs.Signature .NET API
 description: Könnyedén törölheti a szöveges aláírásokat a dokumentumokból a GroupDocs.Signature for .NET segítségével. Egyszerűsítse dokumentumkezelési feladatait.
-type: docs
 weight: 17
 url: /hu/net/delete-operations/delete-text-signature/
 ---

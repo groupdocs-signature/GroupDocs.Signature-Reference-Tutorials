@@ -3,7 +3,6 @@ title: Barkodu Doğrula
 linktitle: Barkodu Doğrula
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki barkodları nasıl doğrulayacağınızı öğrenin. Sorunsuz uygulama için adım adım eğitimimizi izleyin.
-type: docs
 weight: 10
 url: /tr/net/verify-operations/verify-barcode/
 ---

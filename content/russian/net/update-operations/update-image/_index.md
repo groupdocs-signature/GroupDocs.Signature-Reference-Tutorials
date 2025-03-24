@@ -3,7 +3,6 @@ title: Обновить изображение
 linktitle: Обновить изображение
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как легко обновлять подписи изображений в документах .NET с помощью GroupDocs.Signature. Легко повышайте безопасность и целостность документов.
-type: docs
 weight: 11
 url: /ru/net/update-operations/update-image/
 ---

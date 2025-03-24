@@ -3,7 +3,6 @@ title: Aláírás több opcióval
 linktitle: Aláírás több opcióval
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan írhat alá dokumentumokat több lehetőséggel a GroupDocs.Signature for .NET használatával. Fokozza a dokumentumok biztonságát szöveggel, vonalkóddal, QR-kóddal, digitális és képpel.
-type: docs
 weight: 14
 url: /hu/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

@@ -3,7 +3,6 @@ title: Elektronik Tabloyu Meta Verilerle İmzalayın
 linktitle: Elektronik Tabloyu Meta Verilerle İmzalayın
 second_title: GroupDocs.Signature .NET API'si
 description: Groupdocs.Signature for .NET'i kullanarak e-tabloları meta verilerle nasıl imzalayacağınızı öğrenin. Meta veri imzalarıyla belge bütünlüğünü ve doğrulamayı geliştirin.
-type: docs
 weight: 13
 url: /tr/net/document-signing/sign-spreadsheet-with-metadata/
 ---

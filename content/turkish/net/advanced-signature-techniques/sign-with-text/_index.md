@@ -3,7 +3,6 @@ title: .NET için GroupDocs.Signature kullanarak Metin ile İmzalama
 linktitle: Metinle İmzalama
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgeleri metinle nasıl imzalayacağınızı öğrenin. Program aracılığıyla metin imzaları eklemek için adım adım kılavuz.
-type: docs
 weight: 17
 url: /tr/net/advanced-signature-techniques/sign-with-text/
 ---

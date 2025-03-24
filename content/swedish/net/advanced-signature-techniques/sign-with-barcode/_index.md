@@ -3,7 +3,6 @@ title: Signering med streckkod
 linktitle: Signering med streckkod
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du signerar dokument med streckkod med GroupDocs.Signature för .NET. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 11
 url: /sv/net/advanced-signature-techniques/sign-with-barcode/
 ---

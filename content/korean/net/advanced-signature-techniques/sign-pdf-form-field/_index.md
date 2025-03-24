@@ -3,7 +3,6 @@ title: 양식 필드를 사용하여 PDF 서명
 linktitle: 양식 필드를 사용하여 PDF 서명
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 양식 필드로 PDF 문서에 서명하는 방법을 알아보세요. 문서의 진위성과 무결성을 손쉽게 보장하세요.
-type: docs
 weight: 10
 url: /ko/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

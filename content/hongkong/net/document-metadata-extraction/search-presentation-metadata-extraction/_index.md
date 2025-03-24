@@ -3,7 +3,6 @@ title: 搜尋呈現元資料擷取
 linktitle: 搜尋呈現元資料擷取
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 擷取簡報元資料。輕鬆增強您的文件管理能力。
-type: docs
 weight: 12
 url: /zh-hant/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

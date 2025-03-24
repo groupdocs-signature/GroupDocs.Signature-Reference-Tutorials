@@ -3,7 +3,6 @@ title: Sök efter digitala signaturer
 linktitle: Sök efter digitala signaturer
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du söker efter digitala signaturer i dokument med GroupDocs.Signature för .NET. Förbättra dokumentsäkerhet och integritet med detta omfattande dokument.
-type: docs
 weight: 11
 url: /sv/net/signature-searching/search-for-digital-signatures/
 ---
@@ -58,7 +57,7 @@ Ja, GroupDocs.Signature för .NET stöder olika dokumentformat, inklusive PDF, X
 ### Finns det en gratis testversion tillgänglig för GroupDocs.Signature för .NET?
 Ja, du kan få tillgång till en gratis provversion av GroupDocs.Signature för .NET från[här](https://releases.groupdocs.com/).
 ### Var kan jag hitta dokumentation för GroupDocs.Signature för .NET?
- Du kan hitta detaljerad dokumentation för GroupDocs.Signature för .NET[här](https://reference.groupdocs.com/signature/net/).
+ Du kan hitta detaljerad dokumentation för GroupDocs.Signature för .NET[här](https://tutorials.groupdocs.com/signature/net/).
 ### Hur kan jag få tillfälliga licenser för GroupDocs.Signature för .NET?
  Tillfälliga licenser för GroupDocs.Signature för .NET kan erhållas[här](https://purchase.groupdocs.com/temporary-license/).
 ### Var kan jag söka support för GroupDocs.Signature för .NET?

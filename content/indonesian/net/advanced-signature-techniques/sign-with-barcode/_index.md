@@ -3,7 +3,6 @@ title: Menandatangani dengan Barcode
 linktitle: Menandatangani dengan Barcode
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menandatangani dokumen dengan kode batang menggunakan GroupDocs.Signature untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 11
 url: /id/net/advanced-signature-techniques/sign-with-barcode/
 ---

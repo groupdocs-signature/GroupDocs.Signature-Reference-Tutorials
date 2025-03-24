@@ -3,7 +3,6 @@ title: Создать предварительный просмотр докум
 linktitle: Создать предварительный просмотр документа
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как создавать предварительные просмотры документов с помощью GroupDocs.Signature для .NET. Упростите управление документами в своих приложениях .NET.
-type: docs
 weight: 10
 url: /ru/net/document-preview-operations/generate-document-preview/
 ---

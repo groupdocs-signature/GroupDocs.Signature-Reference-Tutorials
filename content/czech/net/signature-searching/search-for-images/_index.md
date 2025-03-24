@@ -3,7 +3,6 @@ title: Hledat obrázky
 linktitle: Hledat obrázky
 second_title: GroupDocs.Signature .NET API
 description: Naučte se vyhledávat obrázky v dokumentech pomocí GroupDocs.Signature for .NET. Bez námahy vylepšete zabezpečení a integritu dokumentů.
-type: docs
 weight: 13
 url: /cs/net/signature-searching/search-for-images/
 ---
@@ -69,4 +68,4 @@ Ano, GroupDocs.Signature poskytuje pokročilé funkce, včetně podpory biometri
 ### Mohu upravit vzhled digitálních podpisů přidaných pomocí GroupDocs.Signature for .NET?
 Rozhodně! GroupDocs.Signature nabízí rozsáhlé možnosti přizpůsobení, které vám umožní upravit vzhled digitálních podpisů podle vašich specifických požadavků.
 ### Kde najdu podporu nebo další zdroje pro GroupDocs.Signature for .NET?
- Fórum GroupDocs.Signature můžete navštívit na adrese[tento odkaz](https://forum.groupdocs.com/c/signature/13) vyhledejte pomoc nebo se podívejte do dostupné komplexní dokumentace[tady](https://reference.groupdocs.com/signature/net/).
+ Fórum GroupDocs.Signature můžete navštívit na adrese[tento odkaz](https://forum.groupdocs.com/c/signature/13) vyhledejte pomoc nebo se podívejte do dostupné komplexní dokumentace[tady](https://tutorials.groupdocs.com/signature/net/).

@@ -3,7 +3,6 @@ title: Search Word Processing Metaadat Extraction
 linktitle: Search Word Processing Metaadat Extraction
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan kereshet szövegfeldolgozási metaadatokban a GroupDocs.Signature for .NET használatával. Fokozza a dokumentumkezelést könnyedén.
-type: docs
 weight: 14
 url: /hu/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
@@ -56,7 +55,7 @@ Igen, a GroupDocs.Signature a dokumentumformátumok széles skáláját támogat
 ### Alkalmas-e a GroupDocs.Signature vállalati szintű dokumentumkezelésre?
 GroupDocs.Signature határozottan robusztus, vállalati környezetre szabott szolgáltatásokat kínál, biztonságos és megbízható dokumentumkezelési megoldásokat biztosítva.
 ### A GroupDocs.Signature átfogó dokumentációt biztosít a fejlesztők számára?
- Igen, a fejlesztők részletes dokumentációt találhatnak, beleértve az API hivatkozásokat és kódpéldákat a webhelyen[dokumentációs oldal](https://reference.groupdocs.com/signature/net/).
+ Igen, a fejlesztők részletes dokumentációt találhatnak, beleértve az API hivatkozásokat és kódpéldákat a webhelyen[dokumentációs oldal](https://tutorials.groupdocs.com/signature/net/).
 ### Kipróbálhatom a GroupDocs.Signature alkalmazást vásárlás előtt?
  Igen, az érdeklődő felhasználók igénybe vehetik a GroupDocs.Signature ingyenes próbaverzióját[weboldal](https://releases.groupdocs.com/).
 ### Hol kérhetek támogatást a GroupDocs.Signature-hez?

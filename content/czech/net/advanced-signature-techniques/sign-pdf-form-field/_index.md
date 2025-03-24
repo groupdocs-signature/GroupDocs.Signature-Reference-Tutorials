@@ -3,7 +3,6 @@ title: Podepisování PDF pomocí pole formuláře
 linktitle: Podepisování PDF pomocí pole formuláře
 second_title: GroupDocs.Signature .NET API
 description: Naučte se podepisovat dokumenty PDF pomocí polí formuláře pomocí GroupDocs.Signature for .NET. Zajistěte bez námahy pravost a integritu dokumentu.
-type: docs
 weight: 10
 url: /cs/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

@@ -3,7 +3,6 @@ title: Ověřte čárový kód
 linktitle: Ověřte čárový kód
 second_title: GroupDocs.Signature .NET API
 description: Naučte se ověřovat čárové kódy v dokumentech pomocí GroupDocs.Signature for .NET. Pro bezproblémovou implementaci postupujte podle našeho podrobného návodu.
-type: docs
 weight: 10
 url: /cs/net/verify-operations/verify-barcode/
 ---

@@ -3,7 +3,6 @@ title: Sök i kalkylbladsmetadataextraktion
 linktitle: Sök i kalkylbladsmetadataextraktion
 second_title: GroupDocs.Signature .NET API
 description: Extrahera metadata effektivt från kalkylblad med GroupDocs.Signature för .NET. Förbättra dokumenthantering och analys utan ansträngning.
-type: docs
 weight: 13
 url: /sv/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ När det gäller dokumenthantering och verifiering är förmågan att effektivt 
 ## Förutsättningar
 Innan du dyker in i krångligheterna med att söka i kalkylbladsmetadata med GroupDocs.Signature för .NET, se till att du har följande förutsättningar:
 ### 1. Installation av GroupDocs.Signature för .NET
- Först och främst, ladda ner och installera GroupDocs.Signature för .NET genom att följa instruktionerna i[dokumentation](https://reference.groupdocs.com/signature/net/). Detta steg är avgörande för att integrera biblioteket i din .NET-miljö sömlöst.
+ Först och främst, ladda ner och installera GroupDocs.Signature för .NET genom att följa instruktionerna i[dokumentation](https://tutorials.groupdocs.com/signature/net/). Detta steg är avgörande för att integrera biblioteket i din .NET-miljö sömlöst.
 ### 2. Tillgång till exempelkalkylblad
 Förbered ett exempelkalkylblad (t.ex.`sample.xlsx`) som innehåller metadata som du vill extrahera. Se till att kalkylarket är tillgängligt i din utvecklingsmiljö.
 

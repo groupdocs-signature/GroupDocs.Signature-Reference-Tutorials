@@ -3,7 +3,6 @@ title: التوقيع بالنص باستخدام GroupDocs.Signature لـ .NET
 linktitle: التوقيع بالنص
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية توقيع المستندات التي تحتوي على نص باستخدام GroupDocs.Signature لـ .NET. دليل خطوة بخطوة لإضافة التوقيعات النصية برمجياً.
-type: docs
 weight: 17
 url: /ar/net/advanced-signature-techniques/sign-with-text/
 ---

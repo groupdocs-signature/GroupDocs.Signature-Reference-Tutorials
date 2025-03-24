@@ -3,7 +3,6 @@ title: Удалить подпись по типу
 linktitle: Удалить подпись по типу
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как легко удалять подписи по типу в документах .NET с помощью GroupDocs.Signature, что повышает эффективность управления документами.
-type: docs
 weight: 12
 url: /ru/net/delete-operations/delete-signature-by-type/
 ---

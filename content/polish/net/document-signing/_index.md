@@ -3,7 +3,6 @@ title: Podpisanie dokumentu
 linktitle: Podpisanie dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Podpisuj obrazy, pliki PDF, prezentacje, arkusze kalkulacyjne i dokumenty programu Word za pomocą metadanych za pomocą GroupDocs.Signature .NET. Zwiększ autentyczność i integralność dokumentów.
-type: docs
 weight: 24
 url: /pl/net/document-signing/
 ---

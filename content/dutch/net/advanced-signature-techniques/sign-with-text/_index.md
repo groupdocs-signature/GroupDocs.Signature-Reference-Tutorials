@@ -3,7 +3,6 @@ title: Ondertekenen met tekst met GroupDocs.Signature voor .NET
 linktitle: Ondertekenen met tekst
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u documenten met tekst kunt ondertekenen met GroupDocs.Signature voor .NET. Stapsgewijze handleiding voor het programmatisch toevoegen van teksthandtekeningen.
-type: docs
 weight: 17
 url: /nl/net/advanced-signature-techniques/sign-with-text/
 ---

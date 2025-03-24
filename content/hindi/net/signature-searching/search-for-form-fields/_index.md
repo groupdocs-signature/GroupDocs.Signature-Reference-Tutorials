@@ -3,7 +3,6 @@ title: प्रपत्र फ़ील्ड खोजें
 linktitle: प्रपत्र फ़ील्ड खोजें
 second_title: GroupDocs.Signature .NET API
 description: जानें कि .NET के लिए GroupDocs.Signature के साथ अपने .NET अनुप्रयोगों में हस्ताक्षर कार्यक्षमता को कैसे एकीकृत किया जाए। निर्बाध दस्तावेज़ प्रबंधन के लिए हमारे चरण-दर-चरण का पालन करें।
-type: docs
 weight: 12
 url: /hi/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ url: /hi/net/signature-searching/search-for-form-fields/
 .NET के लिए GroupDocs.Signature का उपयोग करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
 1. विजुअल स्टूडियो: अपनी विकास मशीन पर विजुअल स्टूडियो स्थापित करें।
 2.  .NET के लिए GroupDocs.Signature: .NET लाइब्रेरी के लिए GroupDocs.Signature को यहां से डाउनलोड और इंस्टॉल करें।[यहाँ](https://releases.groupdocs.com/signature/net/).
-3.  दस्तावेज़ीकरण तक पहुंच: यहां उपलब्ध दस्तावेज़ों से स्वयं को परिचित कराएं[.NET दस्तावेज़ीकरण के लिए GroupDocs.Signature](https://reference.groupdocs.com/signature/net/).
+3.  दस्तावेज़ीकरण तक पहुंच: यहां उपलब्ध दस्तावेज़ों से स्वयं को परिचित कराएं[.NET दस्तावेज़ीकरण के लिए GroupDocs.Signature](https://tutorials.groupdocs.com/signature/net/).
 4.  सहायता तक पहुंच: किसी भी समस्या या प्रश्न के मामले में, सहायता मंच पर पहुंचें[GroupDocs.हस्ताक्षर फ़ोरम](https://forum.groupdocs.com/c/signature/13).
 
 ## नामस्थान आयात करें
@@ -63,6 +62,6 @@ foreach (var FormFieldSignature in signatures)
 ### मैं .NET के लिए GroupDocs.Signature के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
  अस्थायी लाइसेंस प्राप्त किया जा सकता है[यहाँ](https://purchase.groupdocs.com/temporary-license/).
 ### मुझे .NET के लिए GroupDocs.Signature के लिए विस्तृत दस्तावेज़ कहाँ मिल सकते हैं?
- विस्तृत दस्तावेज़ उपलब्ध है[यहाँ](https://reference.groupdocs.com/signature/net/).
+ विस्तृत दस्तावेज़ उपलब्ध है[यहाँ](https://tutorials.groupdocs.com/signature/net/).
 ### क्या .NET के लिए GroupDocs.Signature डेवलपर्स को समर्थन प्रदान करता है?
  हां, आप इसके माध्यम से डेवलपर सहायता तक पहुंच सकते हैं[GroupDocs.हस्ताक्षर फ़ोरम](https://forum.groupdocs.com/c/signature/13).

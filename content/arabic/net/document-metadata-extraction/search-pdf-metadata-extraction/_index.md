@@ -3,7 +3,6 @@ title: البحث في استخراج البيانات الوصفية لملفا
 linktitle: البحث في استخراج البيانات الوصفية لملفات PDF
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية البحث عن توقيعات البيانات التعريفية واستخراجها من مستندات PDF باستخدام GroupDocs.Signature لـ .NET. تعزيز قدرات إدارة المستندات الخاصة بك.
-type: docs
 weight: 11
 url: /ar/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---

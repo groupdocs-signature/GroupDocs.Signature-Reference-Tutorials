@@ -3,7 +3,6 @@ title: Поиск полей формы
 linktitle: Поиск полей формы
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как интегрировать функцию подписи в ваши приложения .NET с помощью GroupDocs.Signature для .NET. Следуйте нашим шаг за шагом, чтобы обеспечить бесперебойное управление документами.
-type: docs
 weight: 12
 url: /ru/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ GroupDocs.Signature для .NET — это мощный инструмент, п
 Прежде чем приступить к использованию GroupDocs.Signature для .NET, убедитесь, что у вас есть следующие предварительные условия:
 1. Visual Studio: установите Visual Studio на свой компьютер для разработки.
 2.  GroupDocs.Signature для .NET: загрузите и установите библиотеку GroupDocs.Signature для .NET с сайта[здесь](https://releases.groupdocs.com/signature/net/).
-3.  Доступ к документации: ознакомьтесь с документацией, доступной по адресу[GroupDocs.Signature для документации .NET](https://reference.groupdocs.com/signature/net/).
+3.  Доступ к документации: ознакомьтесь с документацией, доступной по адресу[GroupDocs.Signature для документации .NET](https://tutorials.groupdocs.com/signature/net/).
 4.  Доступ к поддержке. В случае возникновения каких-либо проблем или вопросов посетите форум поддержки по адресу[Форум GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13).
 
 ## Импортировать пространства имен
@@ -63,6 +62,6 @@ foreach (var FormFieldSignature in signatures)
 ### Как получить временные лицензии для GroupDocs.Signature для .NET?
  Временные лицензии можно получить[здесь](https://purchase.groupdocs.com/temporary-license/).
 ### Где я могу найти подробную документацию по GroupDocs.Signature для .NET?
- Подробная документация доступна[здесь](https://reference.groupdocs.com/signature/net/).
+ Подробная документация доступна[здесь](https://tutorials.groupdocs.com/signature/net/).
 ### Предлагает ли GroupDocs.Signature для .NET поддержку для разработчиков?
  Да, вы можете получить доступ к поддержке разработчиков через[Форум GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13).

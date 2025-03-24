@@ -3,7 +3,6 @@ title: Kép frissítése
 linktitle: Kép frissítése
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan frissítheti könnyedén a .NET-dokumentumok képaláírásait a GroupDocs.Signature segítségével. Zökkenőmentesen fokozza a dokumentumok biztonságát és integritását.
-type: docs
 weight: 11
 url: /hu/net/update-operations/update-image/
 ---

@@ -3,7 +3,6 @@ title: Ricerca della firma
 linktitle: Ricerca della firma
 second_title: API GroupDocs.Signature .NET
 description: Impara a cercare firme nei documenti .NET con i tutorial GroupDocs.Signature per .NET. Migliora la sicurezza con le ricerche di codici a barre, digitali, di immagini, di testo e di codici QR.
-type: docs
 weight: 23
 url: /it/net/signature-searching/
 ---

@@ -3,7 +3,6 @@ title: Menandatangani dengan Banyak Pilihan
 linktitle: Menandatangani dengan Banyak Pilihan
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menandatangani dokumen dengan beberapa opsi menggunakan GroupDocs.Signature untuk .NET. Tingkatkan keamanan dokumen dengan teks, barcode, kode QR, digital dan gambar.
-type: docs
 weight: 14
 url: /id/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

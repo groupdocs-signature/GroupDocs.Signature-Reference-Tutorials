@@ -3,7 +3,6 @@ title: Sök efter streckkod
 linktitle: Sök efter streckkod
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du söker efter streckkodssignaturer i dokument med GroupDocs.Signature för .NET. Följ vår steg-för-steg-guide och integrera signaturen effektivt.
-type: docs
 weight: 10
 url: /sv/net/signature-searching/search-for-barcode/
 ---

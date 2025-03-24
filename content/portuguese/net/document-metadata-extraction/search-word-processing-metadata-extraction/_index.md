@@ -3,7 +3,6 @@ title: Extração de metadados de processamento de texto de pesquisa
 linktitle: Extração de metadados de processamento de texto de pesquisa
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como pesquisar metadados de processamento de texto usando GroupDocs.Signature for .NET. Aprimore o gerenciamento de documentos com facilidade.
-type: docs
 weight: 14
 url: /pt/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
@@ -56,7 +55,7 @@ Sim, GroupDocs.Signature oferece suporte a uma ampla variedade de formatos de do
 ### O GroupDocs.Signature é adequado para gerenciamento de documentos de nível empresarial?
 Com certeza, GroupDocs.Signature oferece recursos robustos adaptados para ambientes corporativos, garantindo soluções de gerenciamento de documentos seguras e confiáveis.
 ### O GroupDocs.Signature fornece documentação abrangente para desenvolvedores?
- Sim, os desenvolvedores podem encontrar documentação detalhada, incluindo referências de API e exemplos de código, no site[página de documentação](https://reference.groupdocs.com/signature/net/).
+ Sim, os desenvolvedores podem encontrar documentação detalhada, incluindo referências de API e exemplos de código, no site[página de documentação](https://tutorials.groupdocs.com/signature/net/).
 ### Posso experimentar GroupDocs.Signature antes de comprar?
  Sim, os usuários interessados podem aproveitar uma avaliação gratuita do GroupDocs.Signature no[local na rede Internet](https://releases.groupdocs.com/).
 ### Onde posso procurar suporte para GroupDocs.Signature?

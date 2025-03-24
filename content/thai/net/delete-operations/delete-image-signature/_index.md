@@ -3,7 +3,6 @@ title: ลบลายเซ็นรูปภาพ
 linktitle: ลบลายเซ็นรูปภาพ
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีลบลายเซ็นรูปภาพออกจากเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการลายเซ็นที่มีประสิทธิภาพ
-type: docs
 weight: 14
 url: /th/net/delete-operations/delete-image-signature/
 ---

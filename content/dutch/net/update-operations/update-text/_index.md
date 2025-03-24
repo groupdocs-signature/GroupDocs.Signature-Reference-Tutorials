@@ -3,7 +3,6 @@ title: Tekst bijwerken
 linktitle: Tekst bijwerken
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u tekst in documenten kunt bijwerken met GroupDocs.Signature voor .NET. Volg onze stap-voor-stap handleiding voor een naadloze integratie.
-type: docs
 weight: 13
 url: /nl/net/update-operations/update-text/
 ---

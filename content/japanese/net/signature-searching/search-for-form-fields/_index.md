@@ -3,7 +3,6 @@ title: フォームフィールドの検索
 linktitle: フォームフィールドの検索
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用して、署名機能を .NET アプリケーションに統合する方法を学びます。シームレスなドキュメント管理のために、ステップバイステップの手順に従ってください。
-type: docs
 weight: 12
 url: /ja/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ GroupDocs.Signature for .NET は、開発者が .NET アプリケーションに
 GroupDocs.Signature for .NET の使用に入る前に、次の前提条件が満たされていることを確認してください。
 1. Visual Studio: 開発マシンに Visual Studio をインストールします。
 2.  GroupDocs.Signature for .NET: GroupDocs.Signature for .NET ライブラリを次の場所からダウンロードしてインストールします。[ここ](https://releases.groupdocs.com/signature/net/).
-3. ドキュメントへのアクセス: 次の場所で入手可能なドキュメントをよく理解してください。[GroupDocs.Signature for .NET ドキュメント](https://reference.groupdocs.com/signature/net/).
+3. ドキュメントへのアクセス: 次の場所で入手可能なドキュメントをよく理解してください。[GroupDocs.Signature for .NET ドキュメント](https://tutorials.groupdocs.com/signature/net/).
 4. サポートへのアクセス: 問題や質問がある場合は、次のサポート フォーラムにアクセスしてください。[GroupDocs.Signature フォーラム](https://forum.groupdocs.com/c/signature/13).
 
 ## 名前空間のインポート
@@ -63,6 +62,6 @@ foreach (var FormFieldSignature in signatures)
 ### GroupDocs.Signature for .NET の一時ライセンスを取得するにはどうすればよいですか?
 一時ライセンスは以下から取得できます。[ここ](https://purchase.groupdocs.com/temporary-license/).
 ### GroupDocs.Signature for .NET の詳細なドキュメントはどこで見つけられますか?
-詳細なドキュメントが利用可能です[ここ](https://reference.groupdocs.com/signature/net/).
+詳細なドキュメントが利用可能です[ここ](https://tutorials.groupdocs.com/signature/net/).
 ### GroupDocs.Signature for .NET は開発者にサポートを提供しますか?
 はい、次から開発者サポートにアクセスできます。[GroupDocs.Signature フォーラム](https://forum.groupdocs.com/c/signature/13).

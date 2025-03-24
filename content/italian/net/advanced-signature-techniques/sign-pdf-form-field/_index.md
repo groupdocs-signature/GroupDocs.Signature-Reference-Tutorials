@@ -3,7 +3,6 @@ title: Firma PDF con campo modulo
 linktitle: Firma PDF con campo modulo
 second_title: API GroupDocs.Signature .NET
 description: Scopri come firmare documenti PDF con campi modulo utilizzando GroupDocs.Signature per .NET. Garantisci l'autenticità e l'integrità dei documenti senza sforzo.
-type: docs
 weight: 10
 url: /it/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

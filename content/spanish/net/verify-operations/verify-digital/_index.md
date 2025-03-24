@@ -3,7 +3,6 @@ title: Verificar firma digital
 linktitle: Verificar firma digital
 second_title: API GroupDocs.Signature .NET
 description: Verifique firmas digitales en .NET con facilidad utilizando GroupDocs.Signature. Garantice la autenticidad y la integridad de los documentos sin esfuerzo.
-type: docs
 weight: 11
 url: /es/net/verify-operations/verify-digital/
 ---

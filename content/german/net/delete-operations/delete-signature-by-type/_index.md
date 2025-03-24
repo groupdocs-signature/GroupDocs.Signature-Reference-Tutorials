@@ -3,7 +3,6 @@ title: Signatur nach Typ löschen
 linktitle: Signatur nach Typ löschen
 second_title: GroupDocs.Signature .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Signature mühelos Signaturen nach Typ in .NET-Dokumenten löschen und so die Effizienz der Dokumentenverwaltung steigern.
-type: docs
 weight: 12
 url: /de/net/delete-operations/delete-signature-by-type/
 ---

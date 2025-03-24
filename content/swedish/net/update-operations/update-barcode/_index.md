@@ -3,7 +3,6 @@ title: Uppdatera streckkoden
 linktitle: Uppdatera streckkoden
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du uppdaterar streckkodssignaturer i dokument med GroupDocs.Signature för .NET. Steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 10
 url: /sv/net/update-operations/update-barcode/
 ---

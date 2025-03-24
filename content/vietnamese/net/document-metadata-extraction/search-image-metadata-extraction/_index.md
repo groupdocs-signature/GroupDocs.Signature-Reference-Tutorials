@@ -3,7 +3,6 @@ title: Tìm kiếm trích xuất siêu dữ liệu hình ảnh bằng GroupDocs.
 linktitle: Tìm kiếm trích xuất siêu dữ liệu hình ảnh
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách tìm kiếm chữ ký siêu dữ liệu hình ảnh trong tài liệu bằng GroupDocs.Signature cho .NET. Nâng cao tính toàn vẹn và xác thực của tài liệu một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/document-metadata-extraction/search-image-metadata-extraction/
 ---

@@ -3,7 +3,6 @@ title: Wyszukaj podpisy tekstowe
 linktitle: Wyszukaj podpisy tekstowe
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak wyszukiwać podpisy tekstowe w dokumentach cyfrowych przy użyciu programu GroupDocs.Signature for .NET. Przewodnik krok po kroku dotyczący skutecznego wdrożenia.
-type: docs
 weight: 16
 url: /pl/net/signature-searching/search-for-text-signatures/
 ---

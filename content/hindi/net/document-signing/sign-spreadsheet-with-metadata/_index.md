@@ -3,7 +3,6 @@ title: मेटाडेटा के साथ स्प्रेडशीट 
 linktitle: मेटाडेटा के साथ स्प्रेडशीट पर हस्ताक्षर करें
 second_title: GroupDocs.Signature .NET API
 description: .NET के लिए Groupdocs.Signature का उपयोग करके मेटाडेटा के साथ स्प्रेडशीट पर हस्ताक्षर करना सीखें। मेटाडेटा हस्ताक्षरों के साथ दस्तावेज़ की अखंडता और सत्यापन बढ़ाएँ।
-type: docs
 weight: 13
 url: /hi/net/document-signing/sign-spreadsheet-with-metadata/
 ---

@@ -3,7 +3,6 @@ title: Zoek naar teksthandtekeningen
 linktitle: Zoek naar teksthandtekeningen
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u naar teksthandtekeningen in digitale documenten kunt zoeken met GroupDocs.Signature voor .NET. Stap-voor-stap handleiding voor een efficiënte implementatie.
-type: docs
 weight: 16
 url: /nl/net/signature-searching/search-for-text-signatures/
 ---

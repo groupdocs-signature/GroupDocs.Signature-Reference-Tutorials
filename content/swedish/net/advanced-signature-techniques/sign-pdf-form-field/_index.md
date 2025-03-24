@@ -3,7 +3,6 @@ title: Signera PDF med formulärfält
 linktitle: Signera PDF med formulärfält
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du signerar PDF-dokument med formulärfält med GroupDocs.Signature för .NET. Säkerställ dokumentets autenticitet och integritet utan ansträngning.
-type: docs
 weight: 10
 url: /sv/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

@@ -3,7 +3,6 @@ title: Vonalkód ellenőrzése
 linktitle: Vonalkód ellenőrzése
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan ellenőrizheti a dokumentumokon belüli vonalkódokat a GroupDocs.Signature for .NET segítségével. Kövesse lépésről lépésre bemutató oktatóanyagunkat a zökkenőmentes megvalósítás érdekében.
-type: docs
 weight: 10
 url: /hu/net/verify-operations/verify-barcode/
 ---

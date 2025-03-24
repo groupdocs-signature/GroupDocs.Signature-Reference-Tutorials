@@ -3,7 +3,6 @@ title: Générer un aperçu du document
 linktitle: Générer un aperçu du document
 second_title: API GroupDocs.Signature .NET
 description: Découvrez comment générer des aperçus de documents à l'aide de GroupDocs.Signature pour .NET. Simplifiez la gestion des documents dans vos applications .NET.
-type: docs
 weight: 10
 url: /fr/net/document-preview-operations/generate-document-preview/
 ---

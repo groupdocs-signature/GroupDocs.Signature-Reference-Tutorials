@@ -3,7 +3,6 @@ title: Document Signing
 linktitle: Document Signing
 second_title: GroupDocs.Signature .NET API
 description: Sign images, PDFs, presentations, spreadsheets and Word documents with metadata using GroupDocs.Signature .NET. Enhance document authenticity and integrity.
-type: docs
 weight: 24
 url: /net/document-signing/
 ---

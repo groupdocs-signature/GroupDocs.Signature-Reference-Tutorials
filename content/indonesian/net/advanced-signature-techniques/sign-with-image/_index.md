@@ -3,7 +3,6 @@ title: Menandatangani Dokumen dengan Gambar menggunakan GroupDocs.Signature
 linktitle: Menandatangani dengan Gambar
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menandatangani dokumen menggunakan gambar di aplikasi .NET dengan Groupdocs.Signature untuk .NET. Tingkatkan keamanan dan keaslian dokumen dengan mudah.
-type: docs
 weight: 13
 url: /id/net/advanced-signature-techniques/sign-with-image/
 ---

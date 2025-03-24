@@ -3,7 +3,6 @@ title: 搜尋多重簽名
 linktitle: 搜尋多重簽名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature 在 .NET 文件中搜尋多個簽名，以實現高效的文件安全性和完整性。
-type: docs
 weight: 14
 url: /zh-hant/net/signature-searching/search-for-multiple-signatures/
 ---

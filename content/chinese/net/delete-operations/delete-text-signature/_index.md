@@ -3,7 +3,6 @@ title: 删除文本签名
 linktitle: 删除文本签名
 second_title: GroupDocs.Signature .NET API
 description: 使用 GroupDocs.Signature for .NET 轻松删除文档中的文本签名。简化您的文档管理任务。
-type: docs
 weight: 17
 url: /zh/net/delete-operations/delete-text-signature/
 ---

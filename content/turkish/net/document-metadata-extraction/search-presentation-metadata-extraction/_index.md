@@ -3,7 +3,6 @@ title: Arama Sunumu Meta Veri Çıkarma
 linktitle: Arama Sunumu Meta Veri Çıkarma
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak sunum meta verilerini nasıl çıkaracağınızı öğrenin. Belge yönetimi yeteneklerinizi zahmetsizce geliştirin.
-type: docs
 weight: 12
 url: /tr/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

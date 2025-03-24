@@ -3,7 +3,6 @@ title: Buscar firmas de texto
 linktitle: Buscar firmas de texto
 second_title: API GroupDocs.Signature .NET
 description: Aprenda a buscar firmas de texto en documentos digitales usando GroupDocs.Signature para .NET. Guía paso a paso para una implementación eficiente.
-type: docs
 weight: 16
 url: /es/net/signature-searching/search-for-text-signatures/
 ---

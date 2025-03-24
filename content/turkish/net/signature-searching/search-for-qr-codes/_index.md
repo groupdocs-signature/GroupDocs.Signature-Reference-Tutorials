@@ -3,7 +3,6 @@ title: QR Kodlarını arayın
 linktitle: QR Kodlarını arayın
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki QR kodlarını nasıl arayacağınızı öğrenin. Belge güvenliğini zahmetsizce artırın.
-type: docs
 weight: 15
 url: /tr/net/signature-searching/search-for-qr-codes/
 ---

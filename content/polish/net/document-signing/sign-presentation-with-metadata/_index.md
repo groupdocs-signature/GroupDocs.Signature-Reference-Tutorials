@@ -3,7 +3,6 @@ title: Podpisz prezentację metadanymi
 linktitle: Podpisz prezentację metadanymi
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak podpisywać pliki prezentacji metadanymi przy użyciu programu GroupDocs.Signature for .NET. Zwiększ integralność dokumentów i dodaj cenne informacje.
-type: docs
 weight: 12
 url: /pl/net/document-signing/sign-presentation-with-metadata/
 ---

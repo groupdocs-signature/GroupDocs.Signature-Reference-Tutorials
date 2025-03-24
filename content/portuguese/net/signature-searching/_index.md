@@ -3,7 +3,6 @@ title: Pesquisa de assinatura
 linktitle: Pesquisa de assinatura
 second_title: API GroupDocs.Signature .NET
 description: Aprenda a pesquisar assinaturas em documentos .NET com os tutoriais GroupDocs.Signature for .NET. Aumente a segurança com pesquisas de código de barras, digital, imagem, texto e código QR.
-type: docs
 weight: 23
 url: /pt/net/signature-searching/
 ---

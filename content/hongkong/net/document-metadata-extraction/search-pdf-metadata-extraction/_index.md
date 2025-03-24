@@ -3,7 +3,6 @@ title: 搜尋 PDF 元資料擷取
 linktitle: 搜尋 PDF 元資料擷取
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 從 PDF 文件中搜尋和提取元資料簽章。提高您的文件管理能力。
-type: docs
 weight: 11
 url: /zh-hant/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---

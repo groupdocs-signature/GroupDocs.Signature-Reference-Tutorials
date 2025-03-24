@@ -3,7 +3,6 @@ title: حذف الباركود من المستند
 linktitle: حذف الباركود من المستند
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية حذف الرمز الشريطي من مستند باستخدام GroupDocs.Signature لـ .NET. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 10
 url: /ar/net/delete-operations/delete-barcode/
 ---

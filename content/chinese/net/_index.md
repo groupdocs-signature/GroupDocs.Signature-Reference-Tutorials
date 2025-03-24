@@ -1,7 +1,6 @@
 ---
 title: .NET 的 GroupDocs.Signature 教程和示例
 linktitle: .NET 教程的 GroupDocs.Signature
-type: docs
 weight: 10
 url: /zh/net/
 description: 使用 GroupDocs.Signature for .NET 教程解锁高效的文档管理。无缝删除、预览、提取元数据、签名、更新和验证文档。

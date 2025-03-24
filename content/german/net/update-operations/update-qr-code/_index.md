@@ -3,7 +3,6 @@ title: QR-Code aktualisieren
 linktitle: QR-Code aktualisieren
 second_title: GroupDocs.Signature .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET mühelos QR-Codes in Dokumenten aktualisieren. Verbessern Sie die Dokumentenverwaltung ganz einfach.
-type: docs
 weight: 12
 url: /de/net/update-operations/update-qr-code/
 ---

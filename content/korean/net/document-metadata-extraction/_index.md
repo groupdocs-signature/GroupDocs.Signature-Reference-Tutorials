@@ -3,7 +3,6 @@ title: 문서 메타데이터 추출
 linktitle: 문서 메타데이터 추출
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 메타데이터 추출 기능을 활용하세요. 향상된 관리를 위해 문서 메타데이터를 쉽게 검색하고 추출하는 방법을 알아보세요.
-type: docs
 weight: 22
 url: /ko/net/document-metadata-extraction/
 ---

@@ -3,7 +3,6 @@ title: حذف التوقيع عن طريق الهوية
 linktitle: حذف التوقيع عن طريق الهوية
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية حذف التوقيع بواسطة المعرف في مستندات .NET باستخدام مكتبة GroupDocs.Signature. دليل سهل خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/net/delete-operations/delete-signature-by-id/
 ---

@@ -3,7 +3,6 @@ title: Metni Doğrula
 linktitle: Metni Doğrula
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki metni nasıl doğrulayacağınızı öğrenin. Sorunsuz entegrasyon için adım adım eğitimimizi izleyin.
-type: docs
 weight: 13
 url: /tr/net/verify-operations/verify-text/
 ---

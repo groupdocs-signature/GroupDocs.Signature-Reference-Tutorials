@@ -3,7 +3,6 @@ title: Elimina firma per ID
 linktitle: Elimina firma per ID
 second_title: API GroupDocs.Signature .NET
 description: Scopri come eliminare una firma in base all'ID nei documenti .NET utilizzando la libreria GroupDocs.Signature. Facile guida passo passo.
-type: docs
 weight: 11
 url: /it/net/delete-operations/delete-signature-by-id/
 ---

@@ -3,7 +3,6 @@ title: Dijital İmzaları Arayın
 linktitle: Dijital İmzaları Arayın
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgelerde dijital imzaları nasıl arayacağınızı öğrenin. Bu kapsamlı ürünle belge güvenliğini ve bütünlüğünü artırın.
-type: docs
 weight: 11
 url: /tr/net/signature-searching/search-for-digital-signatures/
 ---
@@ -58,7 +57,7 @@ Evet, GroupDocs.Signature for .NET, PDF, XLSX, PPTX ve daha fazlası dahil olmak
 ### GroupDocs.Signature for .NET'in ücretsiz deneme sürümü var mı?
 Evet, GroupDocs.Signature for .NET'in ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[Burada](https://releases.groupdocs.com/).
 ### GroupDocs.Signature for .NET belgelerini nerede bulabilirim?
- GroupDocs.Signature for .NET'e ilişkin ayrıntılı belgeleri bulabilirsiniz.[Burada](https://reference.groupdocs.com/signature/net/).
+ GroupDocs.Signature for .NET'e ilişkin ayrıntılı belgeleri bulabilirsiniz.[Burada](https://tutorials.groupdocs.com/signature/net/).
 ### GroupDocs.Signature for .NET için geçici lisansları nasıl alabilirim?
  GroupDocs.Signature for .NET için geçici lisanslar alınabilir[Burada](https://purchase.groupdocs.com/temporary-license/).
 ### .NET için GroupDocs.Signature desteğine nereden ulaşabilirim?

@@ -3,7 +3,6 @@ title: Uppdatera QR-koden
 linktitle: Uppdatera QR-koden
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du enkelt uppdaterar QR-koder i dokument med GroupDocs.Signature för .NET. Förbättra dokumenthanteringen med lätthet.
-type: docs
 weight: 12
 url: /sv/net/update-operations/update-qr-code/
 ---

@@ -3,7 +3,6 @@ title: Firma con codice a barre
 linktitle: Firma con codice a barre
 second_title: API GroupDocs.Signature .NET
 description: Scopri come firmare documenti con codice a barre utilizzando GroupDocs.Signature per .NET. Segui la nostra guida passo passo per un'integrazione perfetta.
-type: docs
 weight: 11
 url: /it/net/advanced-signature-techniques/sign-with-barcode/
 ---

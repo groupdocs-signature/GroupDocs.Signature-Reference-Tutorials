@@ -3,7 +3,6 @@ title: Elimina firma per tipo
 linktitle: Elimina firma per tipo
 second_title: API GroupDocs.Signature .NET
 description: Scopri come eliminare facilmente le firme per tipo nei documenti .NET utilizzando GroupDocs.Signature, migliorando l'efficienza della gestione dei documenti.
-type: docs
 weight: 12
 url: /it/net/delete-operations/delete-signature-by-type/
 ---

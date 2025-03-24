@@ -3,7 +3,6 @@ title: Aktualizujte QR kód
 linktitle: Aktualizujte QR kód
 second_title: GroupDocs.Signature .NET API
 description: Naučte se, jak snadno aktualizovat QR kódy v dokumentech pomocí GroupDocs.Signature pro .NET. Snadno vylepšete správu dokumentů.
-type: docs
 weight: 12
 url: /cs/net/update-operations/update-qr-code/
 ---

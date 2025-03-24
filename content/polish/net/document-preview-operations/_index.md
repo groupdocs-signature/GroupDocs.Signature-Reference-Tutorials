@@ -3,7 +3,6 @@ title: Operacje podglądu dokumentu
 linktitle: Operacje podglądu dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak usprawnić zarządzanie dokumentami dzięki samouczkom GroupDocs.Signature for .NET. Uprość zadania, usprawnij przepływ pracy i zwiększ produktywność bez wysiłku.
-type: docs
 weight: 21
 url: /pl/net/document-preview-operations/
 ---

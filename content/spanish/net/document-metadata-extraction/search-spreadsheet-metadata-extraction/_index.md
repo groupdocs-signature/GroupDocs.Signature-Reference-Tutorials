@@ -3,7 +3,6 @@ title: Buscar extracción de metadatos en hojas de cálculo
 linktitle: Buscar extracción de metadatos en hojas de cálculo
 second_title: API GroupDocs.Signature .NET
 description: Extraiga eficientemente metadatos de hojas de cálculo utilizando GroupDocs.Signature para .NET. Mejore la gestión y el análisis de documentos sin esfuerzo.
-type: docs
 weight: 13
 url: /es/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ En el ámbito de la gestión y verificación de documentos, la capacidad de extr
 ## Requisitos previos
 Antes de profundizar en las complejidades de la búsqueda de metadatos de hojas de cálculo utilizando GroupDocs.Signature para .NET, asegúrese de cumplir con los siguientes requisitos previos:
 ### 1. Instalación de GroupDocs.Signature para .NET
- En primer lugar, descargue e instale GroupDocs.Signature para .NET siguiendo las instrucciones proporcionadas en el[documentación](https://reference.groupdocs.com/signature/net/). Este paso es crucial para integrar la biblioteca en su entorno .NET sin problemas.
+ En primer lugar, descargue e instale GroupDocs.Signature para .NET siguiendo las instrucciones proporcionadas en el[documentación](https://tutorials.groupdocs.com/signature/net/). Este paso es crucial para integrar la biblioteca en su entorno .NET sin problemas.
 ### 2. Acceso a una hoja de cálculo de muestra
 Prepare una hoja de cálculo de muestra (p. ej.,`sample.xlsx`) que contiene metadatos que desea extraer. Asegúrese de que la hoja de cálculo sea accesible dentro de su entorno de desarrollo.
 

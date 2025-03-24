@@ -3,7 +3,6 @@ title: Υπογραφή με σφραγίδα χρησιμοποιώντας Gro
 linktitle: Υπογραφή με γραμματόσημο
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να προσθέτετε υπογραφές σφραγίδας στα έγγραφά σας .NET εύκολα με το GroupDocs.Signature για .NET. Βελτιώστε την ασφάλεια των εγγράφων.
-type: docs
 weight: 16
 url: /el/net/advanced-signature-techniques/sign-with-stamp/
 ---

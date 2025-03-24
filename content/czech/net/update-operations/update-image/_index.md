@@ -3,7 +3,6 @@ title: Aktualizovat obrázek
 linktitle: Aktualizovat obrázek
 second_title: GroupDocs.Signature .NET API
 description: Naučte se, jak snadno aktualizovat podpisy obrázků v dokumentech .NET pomocí GroupDocs.Signature. Bezproblémově vylepšete zabezpečení a integritu dokumentů.
-type: docs
 weight: 11
 url: /cs/net/update-operations/update-image/
 ---

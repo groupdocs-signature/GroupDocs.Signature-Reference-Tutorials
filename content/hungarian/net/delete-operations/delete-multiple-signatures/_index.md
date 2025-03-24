@@ -3,7 +3,6 @@ title: Több aláírás törlése a dokumentumból
 linktitle: Több aláírás törlése a dokumentumból
 second_title: GroupDocs.Signature .NET API
 description: Könnyedén törölhet több aláírást a dokumentumokból a GroupDocs.Signature for .NET segítségével. Egyszerűsítse a dokumentumkezelési munkafolyamatot.
-type: docs
 weight: 15
 url: /hu/net/delete-operations/delete-multiple-signatures/
 ---

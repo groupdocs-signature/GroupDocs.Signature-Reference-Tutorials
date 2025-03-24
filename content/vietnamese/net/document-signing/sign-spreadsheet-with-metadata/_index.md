@@ -3,7 +3,6 @@ title: Ký bảng tính với siêu dữ liệu
 linktitle: Ký bảng tính với siêu dữ liệu
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách ký bảng tính bằng siêu dữ liệu bằng Groupdocs.Signature cho .NET. Tăng cường tính toàn vẹn và xác minh tài liệu bằng chữ ký siêu dữ liệu.
-type: docs
 weight: 13
 url: /vi/net/document-signing/sign-spreadsheet-with-metadata/
 ---

@@ -3,7 +3,6 @@ title: Zoek naar QR-codes
 linktitle: Zoek naar QR-codes
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u naar QR-codes in documenten kunt zoeken met GroupDocs.Signature voor .NET. Verbeter moeiteloos de documentbeveiliging.
-type: docs
 weight: 15
 url: /nl/net/signature-searching/search-for-qr-codes/
 ---

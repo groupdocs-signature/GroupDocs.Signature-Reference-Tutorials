@@ -3,7 +3,6 @@ title: Ta bort streckkod från dokument
 linktitle: Ta bort streckkod från dokument
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du tar bort streckkoder från ett dokument med GroupDocs.Signature för .NET. Steg-för-steg guide med kodexempel.
-type: docs
 weight: 10
 url: /sv/net/delete-operations/delete-barcode/
 ---

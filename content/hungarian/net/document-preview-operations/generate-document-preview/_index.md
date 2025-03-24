@@ -3,7 +3,6 @@ title: Dokumentum előnézetének létrehozása
 linktitle: Dokumentum előnézetének létrehozása
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan hozhat létre dokumentum-előnézeteket a GroupDocs.Signature for .NET használatával. Egyszerűsítse a dokumentumkezelést .NET-alkalmazásaiban.
-type: docs
 weight: 10
 url: /hu/net/document-preview-operations/generate-document-preview/
 ---

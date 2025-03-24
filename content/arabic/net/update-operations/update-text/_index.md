@@ -3,7 +3,6 @@ title: تحديث النص
 linktitle: تحديث النص
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية تحديث النص في المستندات باستخدام GroupDocs.Signature لـ .NET. اتبع البرنامج التعليمي خطوة بخطوة لتحقيق التكامل السلس.
-type: docs
 weight: 13
 url: /ar/net/update-operations/update-text/
 ---

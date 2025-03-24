@@ -3,7 +3,6 @@ title: 메타데이터를 사용한 서명 워드 처리
 linktitle: 메타데이터를 사용한 서명 워드 처리
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 메타데이터로 워드 프로세싱 문서에 서명하는 방법을 알아보세요. 문서의 신뢰성과 추적성을 강화합니다.
-type: docs
 weight: 14
 url: /ko/net/document-signing/sign-word-processing-with-metadata/
 ---

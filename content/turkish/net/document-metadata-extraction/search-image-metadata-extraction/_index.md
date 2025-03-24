@@ -3,7 +3,6 @@ title: GroupDocs.Signature ile Arama Görseli Meta Veri Çıkarma
 linktitle: Arama Görseli Meta Veri Çıkarma
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgelerde görüntü meta veri imzalarını nasıl arayacağınızı öğrenin. Belge bütünlüğünü ve orijinalliğini zahmetsizce geliştirin.
-type: docs
 weight: 10
 url: /tr/net/document-metadata-extraction/search-image-metadata-extraction/
 ---

@@ -3,7 +3,6 @@ title: Smazat operace
 linktitle: Smazat operace
 second_title: GroupDocs.Signature .NET API
 description: Odstraňte podpisy, čárové kódy a další z dokumentů .NET pomocí GroupDocs.Signature. Prozkoumejte výukové programy pro efektivní správu dokumentů hned teď!
-type: docs
 weight: 20
 url: /cs/net/delete-operations/
 ---

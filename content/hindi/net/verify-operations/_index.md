@@ -3,7 +3,6 @@ title: संचालन सत्यापित करें
 linktitle: संचालन सत्यापित करें
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature .NET का उपयोग करके दस्तावेज़ों में बारकोड, डिजिटल हस्ताक्षर, क्यूआर कोड और टेक्स्ट को सत्यापित करना सीखें। निर्बाध एकीकरण के लिए चरण-दर-चरण ट्यूटोरियल।
-type: docs
 weight: 27
 url: /hi/net/verify-operations/
 ---

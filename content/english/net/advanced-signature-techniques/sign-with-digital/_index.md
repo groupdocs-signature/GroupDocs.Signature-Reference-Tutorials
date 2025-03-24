@@ -3,7 +3,6 @@ title: Signing with Digital Signature
 linktitle: Signing with Digital Signature
 second_title: GroupDocs.Signature .NET API
 description: Learn how to sign documents digitally in .NET using GroupDocs.Signature. Enhance security and authenticity with this comprehensive tutorial.
-type: docs
 weight: 12
 url: /net/advanced-signature-techniques/sign-with-digital/
 ---

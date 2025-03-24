@@ -3,7 +3,6 @@ title: Signature avec Stamp à l'aide de GroupDocs.Signature
 linktitle: Signature avec tampon
 second_title: API GroupDocs.Signature .NET
 description: Découvrez comment ajouter facilement des signatures de tampon à vos documents .NET avec GroupDocs.Signature pour .NET. Améliorez la sécurité des documents.
-type: docs
 weight: 16
 url: /fr/net/advanced-signature-techniques/sign-with-stamp/
 ---

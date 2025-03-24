@@ -3,7 +3,6 @@ title: Podpisywanie z wieloma opcjami
 linktitle: Podpisywanie z wieloma opcjami
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak podpisywać dokumenty przy użyciu wielu opcji przy użyciu GroupDocs.Signature dla .NET. Zwiększ bezpieczeństwo dokumentów za pomocą tekstu, kodu kreskowego, kodu QR, danych cyfrowych i obrazów.
-type: docs
 weight: 14
 url: /pl/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

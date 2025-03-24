@@ -3,7 +3,6 @@ title: Menandatangani PDF dengan Bidang Formulir
 linktitle: Menandatangani PDF dengan Bidang Formulir
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menandatangani dokumen PDF dengan bidang formulir menggunakan GroupDocs.Signature untuk .NET. Pastikan keaslian dan integritas dokumen dengan mudah.
-type: docs
 weight: 10
 url: /id/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

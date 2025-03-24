@@ -3,7 +3,6 @@ title: 削除操作
 linktitle: 削除操作
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature を使用して、.NET ドキュメントから署名やバーコードなどを削除します。効率的なドキュメント管理のためのチュートリアルを今すぐ試してください。
-type: docs
 weight: 20
 url: /ja/net/delete-operations/
 ---

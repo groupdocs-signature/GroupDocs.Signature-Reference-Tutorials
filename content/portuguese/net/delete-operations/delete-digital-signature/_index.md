@@ -3,7 +3,6 @@ title: Excluir assinatura digital do documento
 linktitle: Excluir assinatura digital do documento
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como excluir assinaturas digitais de documentos usando GroupDocs.Signature for .NET. Siga nosso guia passo a passo para um gerenciamento eficiente.
-type: docs
 weight: 13
 url: /pt/net/delete-operations/delete-digital-signature/
 ---

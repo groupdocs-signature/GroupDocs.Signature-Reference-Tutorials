@@ -3,7 +3,6 @@ title: Barkod Ara
 linktitle: Barkod Ara
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgelerde barkod imzalarını nasıl arayacağınızı öğrenin. Adım adım kılavuzumuzu takip edin ve imzayı verimli bir şekilde entegre edin.
-type: docs
 weight: 10
 url: /tr/net/signature-searching/search-for-barcode/
 ---

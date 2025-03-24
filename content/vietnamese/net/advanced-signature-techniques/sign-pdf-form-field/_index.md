@@ -3,7 +3,6 @@ title: Ký PDF bằng trường biểu mẫu
 linktitle: Ký PDF bằng trường biểu mẫu
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách ký tài liệu PDF với các trường biểu mẫu bằng GroupDocs.Signature cho .NET. Đảm bảo tính xác thực và tính toàn vẹn của tài liệu một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

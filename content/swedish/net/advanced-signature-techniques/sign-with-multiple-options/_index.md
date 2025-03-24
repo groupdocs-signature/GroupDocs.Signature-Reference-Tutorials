@@ -3,7 +3,6 @@ title: Signering med flera alternativ
 linktitle: Signering med flera alternativ
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du signerar dokument med flera alternativ med GroupDocs.Signature för .NET. Förbättra dokumentsäkerheten med text, streckkod, QR-kod, digital och bild.
-type: docs
 weight: 14
 url: /sv/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

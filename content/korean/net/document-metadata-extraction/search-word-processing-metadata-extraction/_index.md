@@ -3,7 +3,6 @@ title: 검색 워드 프로세싱 메타데이터 추출
 linktitle: 검색 워드 프로세싱 메타데이터 추출
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 워드 프로세싱 메타데이터를 검색하는 방법을 알아보세요. 문서 관리를 쉽게 강화하세요.
-type: docs
 weight: 14
 url: /ko/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
@@ -56,7 +55,7 @@ foreach (WordProcessingMetadataSignature mdSignature in signatures)
 ### GroupDocs.Signature는 기업 수준의 문서 관리에 적합합니까?
 물론, GroupDocs.Signature는 기업 환경에 맞춰진 강력한 기능을 제공하여 안전하고 안정적인 문서 관리 솔루션을 보장합니다.
 ### GroupDocs.Signature는 개발자를 위한 포괄적인 문서를 제공합니까?
- 예, 개발자는 API 참조 및 코드 예제를 포함한 자세한 문서를 다음에서 찾을 수 있습니다.[문서 페이지](https://reference.groupdocs.com/signature/net/).
+ 예, 개발자는 API 참조 및 코드 예제를 포함한 자세한 문서를 다음에서 찾을 수 있습니다.[문서 페이지](https://tutorials.groupdocs.com/signature/net/).
 ### 구매하기 전에 GroupDocs.Signature를 사용해 볼 수 있나요?
  예, 관심 있는 사용자는 다음 사이트에서 GroupDocs.Signature 무료 평가판을 이용할 수 있습니다.[웹사이트](https://releases.groupdocs.com/).
 ### GroupDocs.Signature에 대한 지원은 어디서 구할 수 있나요?

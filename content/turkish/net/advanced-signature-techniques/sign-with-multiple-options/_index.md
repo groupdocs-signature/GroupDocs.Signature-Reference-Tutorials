@@ -3,7 +3,6 @@ title: Çoklu Seçeneklerle İmzalama
 linktitle: Çoklu Seçeneklerle İmzalama
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET kullanarak belgeleri birden çok seçenekle nasıl imzalayacağınızı öğrenin. Metin, barkod, QR kodu, dijital ve görsel ile belge güvenliğini artırın.
-type: docs
 weight: 14
 url: /tr/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

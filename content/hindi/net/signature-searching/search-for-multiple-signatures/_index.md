@@ -3,7 +3,6 @@ title: एकाधिक हस्ताक्षर खोजें
 linktitle: एकाधिक हस्ताक्षर खोजें
 second_title: GroupDocs.Signature .NET API
 description: कुशल दस्तावेज़ सुरक्षा और अखंडता के लिए GroupDocs.Signature का उपयोग करके .NET दस्तावेज़ों में एकाधिक हस्ताक्षरों की खोज करना सीखें।
-type: docs
 weight: 14
 url: /hi/net/signature-searching/search-for-multiple-signatures/
 ---

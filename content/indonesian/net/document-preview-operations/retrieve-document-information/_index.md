@@ -3,7 +3,6 @@ title: Ambil Informasi Dokumen
 linktitle: Ambil Informasi Dokumen
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Tingkatkan manajemen dokumen di .NET dengan GroupDocs.Signature. Ambil info dokumen langkah demi langkah. Mendukung berbagai format.
-type: docs
 weight: 11
 url: /id/net/document-preview-operations/retrieve-document-information/
 ---
@@ -75,6 +74,6 @@ Ya, GroupDocs.Signature mendukung berbagai format dokumen, termasuk namun tidak 
 ### Apakah GroupDocs.Signature untuk .NET menyediakan dukungan untuk tanda tangan digital?
 Tentu saja, GroupDocs.Signature menawarkan dukungan kuat untuk tanda tangan digital, memastikan keaslian dan integritas dokumen.
 ### Di mana saya dapat menemukan dokumentasi dan dukungan tambahan untuk GroupDocs.Signature untuk .NET?
- Anda dapat merujuk ke dokumentasi komprehensif[Di Sini](https://reference.groupdocs.com/signature/net/) , dan untuk dukungan, kunjungi forum GroupDocs[Di Sini](https://forum.groupdocs.com/c/signature/13).
+ Anda dapat merujuk ke dokumentasi komprehensif[Di Sini](https://tutorials.groupdocs.com/signature/net/) , dan untuk dukungan, kunjungi forum GroupDocs[Di Sini](https://forum.groupdocs.com/c/signature/13).
 ### Bisakah lisensi sementara diperoleh untuk GroupDocs.Signature untuk .NET?
  Ya, lisensi sementara tersedia untuk dibeli[Di Sini](https://purchase.groupdocs.com/temporary-license/).

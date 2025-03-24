@@ -3,7 +3,6 @@ title: Verifikasi Operasi
 linktitle: Verifikasi Operasi
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara memverifikasi kode batang, tanda tangan digital, kode QR, dan teks dalam dokumen menggunakan GroupDocs.Signature .NET. Tutorial langkah demi langkah untuk integrasi yang lancar.
-type: docs
 weight: 27
 url: /id/net/verify-operations/
 ---

@@ -3,7 +3,6 @@ title: ค้นหาช่องแบบฟอร์ม
 linktitle: ค้นหาช่องแบบฟอร์ม
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีรวมฟังก์ชันลายเซ็นเข้ากับแอปพลิเคชัน .NET ของคุณด้วย GroupDocs.Signature สำหรับ .NET ปฏิบัติตามทีละขั้นตอนของเราเพื่อการจัดการเอกสารที่ราบรื่น
-type: docs
 weight: 12
 url: /th/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ GroupDocs.Signature สำหรับ .NET เป็นเครื่องม
 ก่อนที่จะเริ่มใช้ GroupDocs.Signature สำหรับ .NET ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
 1. Visual Studio: ติดตั้ง Visual Studio บนเครื่องพัฒนาของคุณ
 2.  GroupDocs.Signature สำหรับ .NET: ดาวน์โหลดและติดตั้งไลบรารี GroupDocs.Signature สำหรับ .NET จาก[ที่นี่](https://releases.groupdocs.com/signature/net/).
-3.  การเข้าถึงเอกสารประกอบ: ทำความคุ้นเคยกับเอกสารที่มีอยู่ใน[GroupDocs.Signature สำหรับเอกสาร .NET](https://reference.groupdocs.com/signature/net/).
+3.  การเข้าถึงเอกสารประกอบ: ทำความคุ้นเคยกับเอกสารที่มีอยู่ใน[GroupDocs.Signature สำหรับเอกสาร .NET](https://tutorials.groupdocs.com/signature/net/).
 4.  การเข้าถึงการสนับสนุน: ในกรณีที่มีปัญหาหรือข้อสงสัยใด ๆ เข้าถึงฟอรัมการสนับสนุนได้ที่[GroupDocs.Signature ฟอรั่ม](https://forum.groupdocs.com/c/signature/13).
 
 ## นำเข้าเนมสเปซ
@@ -63,6 +62,6 @@ foreach (var FormFieldSignature in signatures)
 ### ฉันจะรับใบอนุญาตชั่วคราวสำหรับ GroupDocs.Signature สำหรับ .NET ได้อย่างไร
  สามารถรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.groupdocs.com/temporary-license/).
 ### ฉันจะหาเอกสารโดยละเอียดสำหรับ GroupDocs.Signature for .NET ได้ที่ไหน
- มีเอกสารรายละเอียดให้[ที่นี่](https://reference.groupdocs.com/signature/net/).
+ มีเอกสารรายละเอียดให้[ที่นี่](https://tutorials.groupdocs.com/signature/net/).
 ### GroupDocs.Signature สำหรับ .NET ให้การสนับสนุนสำหรับนักพัฒนาหรือไม่
  ใช่ คุณสามารถเข้าถึงการสนับสนุนนักพัฒนาผ่านทาง[GroupDocs.Signature ฟอรั่ม](https://forum.groupdocs.com/c/signature/13).

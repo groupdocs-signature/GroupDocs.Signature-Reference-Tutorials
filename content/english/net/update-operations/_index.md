@@ -3,7 +3,6 @@ title: Update Operations
 linktitle: Update Operations
 second_title: GroupDocs.Signature .NET API
 description: Update barcode, image, QR code, and text signatures in .NET documents with GroupDocs.Signature for .NET tutorials. Enhance document security and management.
-type: docs
 weight: 26
 url: /net/update-operations/
 ---

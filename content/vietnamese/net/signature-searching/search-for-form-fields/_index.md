@@ -3,7 +3,6 @@ title: Tìm kiếm trường biểu mẫu
 linktitle: Tìm kiếm trường biểu mẫu
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách tích hợp chức năng chữ ký vào các ứng dụng .NET của bạn với GroupDocs.Signature cho .NET. Hãy làm theo từng bước của chúng tôi để quản lý tài liệu liền mạch.
-type: docs
 weight: 12
 url: /vi/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ GroupDocs.Signature cho .NET là một công cụ mạnh mẽ dành cho các nh�
 Trước khi đi sâu vào sử dụng GroupDocs.Signature cho .NET, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 1. Visual Studio: Cài đặt Visual Studio trên máy phát triển của bạn.
 2.  GroupDocs.Signature cho .NET: Tải xuống và cài đặt thư viện GroupDocs.Signature cho .NET từ[đây](https://releases.groupdocs.com/signature/net/).
-3.  Truy cập tài liệu: Làm quen với các tài liệu có sẵn tại[GroupDocs.Signature cho Tài liệu .NET](https://reference.groupdocs.com/signature/net/).
+3.  Truy cập tài liệu: Làm quen với các tài liệu có sẵn tại[GroupDocs.Signature cho Tài liệu .NET](https://tutorials.groupdocs.com/signature/net/).
 4.  Truy cập Hỗ trợ: Trong trường hợp có bất kỳ vấn đề hoặc thắc mắc nào, hãy truy cập diễn đàn hỗ trợ tại[Diễn đàn GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13).
 
 ## Nhập không gian tên
@@ -63,6 +62,6 @@ Có, GroupDocs.Signature for .NET hỗ trợ nhiều định dạng tài liệu,
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho GroupDocs.Signature cho .NET?
  Giấy phép tạm thời có thể được lấy từ[đây](https://purchase.groupdocs.com/temporary-license/).
 ### Tôi có thể tìm tài liệu chi tiết về GroupDocs.Signature cho .NET ở đâu?
- Tài liệu chi tiết có sẵn[đây](https://reference.groupdocs.com/signature/net/).
+ Tài liệu chi tiết có sẵn[đây](https://tutorials.groupdocs.com/signature/net/).
 ### GroupDocs.Signature cho .NET có cung cấp hỗ trợ cho các nhà phát triển không?
  Có, bạn có thể truy cập hỗ trợ nhà phát triển thông qua[Diễn đàn GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13).

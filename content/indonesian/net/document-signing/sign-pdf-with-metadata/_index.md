@@ -3,7 +3,6 @@ title: Tanda tangani PDF dengan Metadata
 linktitle: Tanda tangani PDF dengan Metadata
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menandatangani dokumen PDF dengan metadata menggunakan GroupDocs.Signature untuk .NET. Tingkatkan ketertelusuran dan keaslian dokumen dengan mudah.
-type: docs
 weight: 11
 url: /id/net/document-signing/sign-pdf-with-metadata/
 ---

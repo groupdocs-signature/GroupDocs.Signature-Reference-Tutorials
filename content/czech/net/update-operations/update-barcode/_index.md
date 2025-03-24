@@ -3,7 +3,6 @@ title: Aktualizujte čárový kód
 linktitle: Aktualizujte čárový kód
 second_title: GroupDocs.Signature .NET API
 description: Naučte se aktualizovat podpisy čárových kódů v dokumentech pomocí GroupDocs.Signature for .NET. Podrobný průvodce pro bezproblémovou integraci.
-type: docs
 weight: 10
 url: /cs/net/update-operations/update-barcode/
 ---

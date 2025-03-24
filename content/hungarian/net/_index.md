@@ -1,7 +1,6 @@
 ---
 title: Oktatóanyagok és példák a GroupDocs.Signature for .NET-hez
 linktitle: GroupDocs.Signature for .NET Tutorials
-type: docs
 weight: 10
 url: /hu/net/
 description: Oldja fel a hatékony dokumentumkezelést a GroupDocs.Signature for .NET oktatóanyaggal. A dokumentumok zökkenőmentes törlése, előnézete, metaadatok kibontása, aláírása, frissítése és ellenőrzése.

@@ -3,7 +3,6 @@ title: Hapus Operasi
 linktitle: Hapus Operasi
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Hapus tanda tangan, kode batang, dan lainnya dari dokumen .NET dengan GroupDocs.Signature. Jelajahi tutorial untuk manajemen dokumen yang efisien sekarang!
-type: docs
 weight: 20
 url: /id/net/delete-operations/
 ---

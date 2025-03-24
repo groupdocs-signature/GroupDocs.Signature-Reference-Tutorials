@@ -3,7 +3,6 @@ title: 查看文件處理記錄
 linktitle: 查看文件處理記錄
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 輕鬆查看文件處理記錄。請按照我們的逐步指南進行無縫工作流程管理。
-type: docs
 weight: 12
 url: /zh-hant/net/document-preview-operations/view-document-processing-history/
 ---

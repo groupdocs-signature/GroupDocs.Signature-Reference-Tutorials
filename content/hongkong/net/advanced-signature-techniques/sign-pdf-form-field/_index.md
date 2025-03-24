@@ -3,7 +3,6 @@ title: 使用表單欄位簽署 PDF
 linktitle: 使用表單欄位簽署 PDF
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 透過表單欄位簽署 PDF 文件。輕鬆確保文件的真實性和完整性。
-type: docs
 weight: 10
 url: /zh-hant/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

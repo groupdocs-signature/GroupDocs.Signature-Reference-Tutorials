@@ -3,7 +3,6 @@ title: GroupDocs.Signature を使用した画像付きドキュメントへの�
 linktitle: 画像による署名
 second_title: GroupDocs.Signature .NET API
 description: Groupdocs.Signature for .NET を使用して、.NET アプリケーションで画像を使用してドキュメントに署名する方法を学びます。ドキュメントのセキュリティと信頼性を簡単に強化します。
-type: docs
 weight: 13
 url: /ja/net/advanced-signature-techniques/sign-with-image/
 ---

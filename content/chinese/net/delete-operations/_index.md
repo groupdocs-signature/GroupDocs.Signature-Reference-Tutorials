@@ -3,7 +3,6 @@ title: 删除操作
 linktitle: 删除操作
 second_title: GroupDocs.Signature .NET API
 description: 使用 GroupDocs.Signature 从 .NET 文档中删除签名、条形码等。立即探索高效文档管理教程！
-type: docs
 weight: 20
 url: /zh/net/delete-operations/
 ---

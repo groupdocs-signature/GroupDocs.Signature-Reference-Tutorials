@@ -3,7 +3,6 @@ title: Buscar múltiples firmas
 linktitle: Buscar múltiples firmas
 second_title: API GroupDocs.Signature .NET
 description: Aprenda a buscar varias firmas en documentos .NET utilizando GroupDocs.Signature para lograr una seguridad e integridad eficientes en los documentos.
-type: docs
 weight: 14
 url: /es/net/signature-searching/search-for-multiple-signatures/
 ---

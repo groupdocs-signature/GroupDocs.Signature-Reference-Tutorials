@@ -3,7 +3,6 @@ title: Zoek naar streepjescode
 linktitle: Zoek naar streepjescode
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u naar streepjescodehandtekeningen in documenten kunt zoeken met GroupDocs.Signature voor .NET. Volg onze stapsgewijze handleiding en integreer handtekening efficiënt.
-type: docs
 weight: 10
 url: /nl/net/signature-searching/search-for-barcode/
 ---

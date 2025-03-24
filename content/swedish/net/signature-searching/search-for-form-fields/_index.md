@@ -3,7 +3,6 @@ title: Sök efter formulärfält
 linktitle: Sök efter formulärfält
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du integrerar signaturfunktioner i dina .NET-applikationer med GroupDocs.Signature for .NET. Följ vårt steg-för-steg för sömlös dokumenthantering.
-type: docs
 weight: 12
 url: /sv/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ GroupDocs.Signature för .NET är ett kraftfullt verktyg för utvecklare att lä
 Innan du börjar använda GroupDocs.Signature för .NET, se till att du har följande förutsättningar:
 1. Visual Studio: Installera Visual Studio på din utvecklingsmaskin.
 2.  GroupDocs.Signature for .NET: Ladda ner och installera GroupDocs.Signature for .NET-biblioteket från[här](https://releases.groupdocs.com/signature/net/).
-3.  Tillgång till dokumentation: Bekanta dig med dokumentationen som finns på[GroupDocs.Signature för .NET-dokumentation](https://reference.groupdocs.com/signature/net/).
+3.  Tillgång till dokumentation: Bekanta dig med dokumentationen som finns på[GroupDocs.Signature för .NET-dokumentation](https://tutorials.groupdocs.com/signature/net/).
 4.  Tillgång till support: Vid eventuella problem eller frågor, gå till supportforumet på[GroupDocs.Signature Forum](https://forum.groupdocs.com/c/signature/13).
 
 ## Importera namnområden
@@ -63,6 +62,6 @@ Ja, GroupDocs.Signature för .NET stöder ett brett utbud av dokumentformat, ink
 ### Hur kan jag få tillfälliga licenser för GroupDocs.Signature för .NET?
  Tillfälliga licenser kan erhållas från[här](https://purchase.groupdocs.com/temporary-license/).
 ### Var kan jag hitta detaljerad dokumentation för GroupDocs.Signature för .NET?
- Detaljerad dokumentation finns tillgänglig[här](https://reference.groupdocs.com/signature/net/).
+ Detaljerad dokumentation finns tillgänglig[här](https://tutorials.groupdocs.com/signature/net/).
 ### Erbjuder GroupDocs.Signature för .NET stöd för utvecklare?
  Ja, du kan få tillgång till utvecklarsupport via[GroupDocs.Signature Forum](https://forum.groupdocs.com/c/signature/13).

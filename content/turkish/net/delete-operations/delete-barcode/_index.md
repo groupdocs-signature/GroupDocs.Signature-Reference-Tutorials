@@ -3,7 +3,6 @@ title: Barkodu Belgeden Sil
 linktitle: Barkodu Belgeden Sil
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak bir belgeden barkodu nasıl sileceğinizi öğrenin. Kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 10
 url: /tr/net/delete-operations/delete-barcode/
 ---

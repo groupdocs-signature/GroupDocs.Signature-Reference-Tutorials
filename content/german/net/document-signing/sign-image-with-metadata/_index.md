@@ -3,7 +3,6 @@ title: Bild mit Metadaten signieren
 linktitle: Bild mit Metadaten signieren
 second_title: GroupDocs.Signature .NET-API
 description: Erfahren Sie, wie Sie mithilfe von GroupDocs.Signature Bilder mit Metadaten in .NET signieren. Einfache, effiziente und anpassbare Metadaten-Signaturlösung.
-type: docs
 weight: 10
 url: /de/net/document-signing/sign-image-with-metadata/
 ---

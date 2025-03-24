@@ -3,7 +3,6 @@ title: 文件簽署
 linktitle: 文件簽署
 second_title: GroupDocs.Signature .NET API
 description: 使用 GroupDocs.Signature .NET 使用元資料對影像、PDF、簡報、電子表格和 Word 文件進行簽署。增強文件的真實性和完整性。
-type: docs
 weight: 24
 url: /zh-hant/net/document-signing/
 ---

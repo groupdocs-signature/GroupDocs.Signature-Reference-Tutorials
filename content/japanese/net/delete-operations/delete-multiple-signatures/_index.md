@@ -3,7 +3,6 @@ title: 文書から複数の署名を削除する
 linktitle: 文書から複数の署名を削除する
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用して、ドキュメントから複数の署名を簡単に削除します。ドキュメント管理ワークフローを合理化します。
-type: docs
 weight: 15
 url: /ja/net/delete-operations/delete-multiple-signatures/
 ---

@@ -3,7 +3,6 @@ title: مستندات المجموعة الشاملة. دروس التوقيع
 linktitle: GroupDocs. دروس التوقيع
 additionalTitle: مراجع واجهة برمجة تطبيقات GroupDocs
 description: إتقان إدارة المستندات في .NET وJava باستخدام البرامج التعليمية GroupDocs.Signature. إنشاء البيانات الوصفية والتحقق منها واستخراجها والمزيد. انغمس في سير العمل السلس!
-type: docs
 weight: 11
 url: /ar/
 is_root: true

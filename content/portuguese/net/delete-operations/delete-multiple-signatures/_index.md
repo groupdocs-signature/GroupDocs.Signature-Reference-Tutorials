@@ -3,7 +3,6 @@ title: Excluir múltiplas assinaturas do documento
 linktitle: Excluir múltiplas assinaturas do documento
 second_title: API GroupDocs.Signature .NET
 description: Exclua facilmente várias assinaturas de documentos usando GroupDocs.Signature for .NET. Simplifique seu fluxo de trabalho de gerenciamento de documentos.
-type: docs
 weight: 15
 url: /pt/net/delete-operations/delete-multiple-signatures/
 ---

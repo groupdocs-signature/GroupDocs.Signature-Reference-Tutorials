@@ -3,7 +3,6 @@ title: توقيع المستندات بالصورة باستخدام GroupDocs.S
 linktitle: التوقيع بالصورة
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية توقيع المستندات باستخدام الصور في تطبيقات .NET باستخدام Groupdocs.Signature لـ .NET. تعزيز أمان المستندات وأصالتها دون عناء.
-type: docs
 weight: 13
 url: /ar/net/advanced-signature-techniques/sign-with-image/
 ---

@@ -3,7 +3,6 @@ title: Διαγραφή υπογραφής εικόνας
 linktitle: Διαγραφή υπογραφής εικόνας
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να διαγράφετε υπογραφές εικόνων από έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική διαχείριση υπογραφών.
-type: docs
 weight: 14
 url: /el/net/delete-operations/delete-image-signature/
 ---

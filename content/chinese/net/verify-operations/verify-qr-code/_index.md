@@ -3,7 +3,6 @@ title: 验证二维码
 linktitle: 验证二维码
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 验证文档中的 QR 码。带有分步指南的综合教程。
-type: docs
 weight: 12
 url: /zh/net/verify-operations/verify-qr-code/
 ---
@@ -79,4 +78,4 @@ else
 ### 我可以购买 GroupDocs.Signature for .NET 的临时许可证吗？
 是的，可以从[GroupDocs 购买页面](https://purchase.groupdocs.com/temporary-license/).
 ### 是否有关于 GroupDocs.Signature for .NET 的详尽文档？
-当然，你可以参考提供的详细文档[这里](https://reference.groupdocs.com/signature/net/)提供有关如何利用 GroupDocs.Signature for .NET 功能的全面指导。
+当然，你可以参考提供的详细文档[这里](https://tutorials.groupdocs.com/signature/net/)提供有关如何利用 GroupDocs.Signature for .NET 功能的全面指导。

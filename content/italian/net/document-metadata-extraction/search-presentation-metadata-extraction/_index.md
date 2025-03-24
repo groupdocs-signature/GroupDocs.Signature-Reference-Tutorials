@@ -3,7 +3,6 @@ title: Cerca l'estrazione dei metadati della presentazione
 linktitle: Cerca l'estrazione dei metadati della presentazione
 second_title: API GroupDocs.Signature .NET
 description: Scopri come estrarre i metadati della presentazione utilizzando GroupDocs.Signature per .NET. Migliora le tue capacità di gestione dei documenti senza sforzo.
-type: docs
 weight: 12
 url: /it/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

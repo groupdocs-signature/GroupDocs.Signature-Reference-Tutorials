@@ -3,7 +3,6 @@ title: Podepisování s více možnostmi
 linktitle: Podepisování s více možnostmi
 second_title: GroupDocs.Signature .NET API
 description: Naučte se podepisovat dokumenty s více možnostmi pomocí GroupDocs.Signature for .NET. Zvyšte zabezpečení dokumentů pomocí textu, čárového kódu, QR kódu, digitálního a obrazového kódu.
-type: docs
 weight: 14
 url: /cs/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

@@ -3,7 +3,6 @@ title: Подписание с помощью штампа с использов
 linktitle: Подписание печатью
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как легко добавлять штампы в документы .NET с помощью GroupDocs.Signature для .NET. Повысьте безопасность документов.
-type: docs
 weight: 16
 url: /ru/net/advanced-signature-techniques/sign-with-stamp/
 ---

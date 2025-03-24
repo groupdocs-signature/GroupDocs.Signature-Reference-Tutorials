@@ -3,7 +3,6 @@ title: Hapus Tanda Tangan berdasarkan ID
 linktitle: Hapus Tanda Tangan berdasarkan ID
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menghapus tanda tangan berdasarkan ID di dokumen .NET menggunakan pustaka GroupDocs.Signature. Panduan langkah demi langkah yang mudah.
-type: docs
 weight: 11
 url: /id/net/delete-operations/delete-signature-by-id/
 ---

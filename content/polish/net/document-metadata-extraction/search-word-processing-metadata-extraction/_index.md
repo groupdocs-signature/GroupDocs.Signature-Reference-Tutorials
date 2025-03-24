@@ -3,7 +3,6 @@ title: Wyszukaj ekstrakcję metadanych edytora tekstu
 linktitle: Wyszukaj ekstrakcję metadanych edytora tekstu
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak wyszukiwać metadane edytora tekstu przy użyciu programu GroupDocs.Signature dla platformy .NET. Ulepsz zarządzanie dokumentami z łatwością.
-type: docs
 weight: 14
 url: /pl/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
@@ -56,7 +55,7 @@ Tak, GroupDocs.Signature obsługuje szeroką gamę formatów dokumentów, w tym 
 ### Czy GroupDocs.Signature nadaje się do zarządzania dokumentami na poziomie przedsiębiorstwa?
 Absolutnie GroupDocs.Signature oferuje solidne funkcje dostosowane do środowisk korporacyjnych, zapewniając bezpieczne i niezawodne rozwiązania do zarządzania dokumentami.
 ### Czy GroupDocs.Signature zapewnia kompleksową dokumentację dla programistów?
- Tak, programiści mogą znaleźć szczegółową dokumentację, w tym odniesienia do API i przykłady kodu, na stronie[strona z dokumentacją](https://reference.groupdocs.com/signature/net/).
+ Tak, programiści mogą znaleźć szczegółową dokumentację, w tym odniesienia do API i przykłady kodu, na stronie[strona z dokumentacją](https://tutorials.groupdocs.com/signature/net/).
 ### Czy mogę wypróbować GroupDocs.Signature przed zakupem?
  Tak, zainteresowani użytkownicy mogą skorzystać z bezpłatnej wersji próbnej GroupDocs.Signature w witrynie[strona internetowa](https://releases.groupdocs.com/).
 ### Gdzie mogę uzyskać pomoc dotyczącą GroupDocs.Signature?

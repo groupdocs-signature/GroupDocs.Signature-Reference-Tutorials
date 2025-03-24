@@ -3,7 +3,6 @@ title: Cari Bidang Formulir
 linktitle: Cari Bidang Formulir
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara mengintegrasikan fungsionalitas tanda tangan ke dalam aplikasi .NET Anda dengan GroupDocs.Signature untuk .NET. Ikuti langkah demi langkah kami untuk pengelolaan dokumen yang lancar.
-type: docs
 weight: 12
 url: /id/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ GroupDocs.Signature untuk .NET adalah alat yang ampuh bagi pengembang untuk mena
 Sebelum mulai menggunakan GroupDocs.Signature untuk .NET, pastikan Anda memiliki prasyarat berikut:
 1. Visual Studio: Instal Visual Studio di mesin pengembangan Anda.
 2.  GroupDocs.Signature untuk .NET: Unduh dan instal perpustakaan GroupDocs.Signature untuk .NET dari[Di Sini](https://releases.groupdocs.com/signature/net/).
-3.  Akses ke Dokumentasi: Biasakan diri Anda dengan dokumentasi yang tersedia di[GroupDocs.Signature untuk Dokumentasi .NET](https://reference.groupdocs.com/signature/net/).
+3.  Akses ke Dokumentasi: Biasakan diri Anda dengan dokumentasi yang tersedia di[GroupDocs.Signature untuk Dokumentasi .NET](https://tutorials.groupdocs.com/signature/net/).
 4.  Akses ke Dukungan: Jika ada masalah atau pertanyaan, akses forum dukungan di[GroupDocs.Forum Tanda Tangan](https://forum.groupdocs.com/c/signature/13).
 
 ## Impor Namespace
@@ -63,6 +62,6 @@ Ya, GroupDocs.Signature untuk .NET mendukung berbagai format dokumen, termasuk P
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk GroupDocs.Signature untuk .NET?
  Lisensi sementara dapat diperoleh dari[Di Sini](https://purchase.groupdocs.com/temporary-license/).
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk GroupDocs.Signature untuk .NET?
- Dokumentasi terperinci tersedia[Di Sini](https://reference.groupdocs.com/signature/net/).
+ Dokumentasi terperinci tersedia[Di Sini](https://tutorials.groupdocs.com/signature/net/).
 ### Apakah GroupDocs.Signature untuk .NET menawarkan dukungan untuk pengembang?
  Ya, Anda dapat mengakses dukungan pengembang melalui[GroupDocs.Forum Tanda Tangan](https://forum.groupdocs.com/c/signature/13).

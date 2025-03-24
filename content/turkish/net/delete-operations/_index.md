@@ -3,7 +3,6 @@ title: İşlemleri Sil
 linktitle: İşlemleri Sil
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature ile .NET belgelerinden imzaları, barkodları ve daha fazlasını silin. Etkin belge yönetimine yönelik eğitimleri hemen keşfedin!
-type: docs
 weight: 20
 url: /tr/net/delete-operations/
 ---

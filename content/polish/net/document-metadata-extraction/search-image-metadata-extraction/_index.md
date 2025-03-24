@@ -3,7 +3,6 @@ title: Wyszukaj ekstrakcję metadanych obrazu za pomocą GroupDocs.Signature
 linktitle: Wyszukaj ekstrakcję metadanych obrazu
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak wyszukiwać podpisy metadanych obrazów w dokumentach przy użyciu programu GroupDocs.Signature for .NET. Bez wysiłku zwiększ integralność i autentyczność dokumentów.
-type: docs
 weight: 10
 url: /pl/net/document-metadata-extraction/search-image-metadata-extraction/
 ---

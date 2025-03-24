@@ -3,7 +3,6 @@ title: البحث في استخراج البيانات التعريفية للع
 linktitle: البحث في استخراج البيانات التعريفية للعرض التقديمي
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية استخراج بيانات تعريف العرض التقديمي باستخدام GroupDocs.Signature لـ .NET. تعزيز قدرات إدارة المستندات الخاصة بك دون عناء.
-type: docs
 weight: 12
 url: /ar/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---

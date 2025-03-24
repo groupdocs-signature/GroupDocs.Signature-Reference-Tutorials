@@ -3,7 +3,6 @@ title: Teksthandtekening verwijderen
 linktitle: Teksthandtekening verwijderen
 second_title: GroupDocs.Signature .NET API
 description: Verwijder moeiteloos teksthandtekeningen uit documenten met GroupDocs.Signature voor .NET. Vereenvoudig uw documentbeheertaken.
-type: docs
 weight: 17
 url: /nl/net/delete-operations/delete-text-signature/
 ---

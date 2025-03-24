@@ -3,7 +3,6 @@ title: 서명 검색
 linktitle: 서명 검색
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature 튜토리얼을 통해 .NET 문서에서 서명을 검색하는 방법을 알아보세요. 바코드, 디지털, 이미지, 텍스트, QR 코드 검색으로 보안을 강화하세요.
-type: docs
 weight: 23
 url: /ko/net/signature-searching/
 ---

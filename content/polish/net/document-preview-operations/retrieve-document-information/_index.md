@@ -3,7 +3,6 @@ title: Pobierz informacje o dokumencie
 linktitle: Pobierz informacje o dokumencie
 second_title: GroupDocs.Signature .NET API
 description: Usprawnij zarządzanie dokumentami w .NET dzięki GroupDocs.Signature. Pobieraj informacje o dokumencie krok po kroku. Obsługuje różne formaty.
-type: docs
 weight: 11
 url: /pl/net/document-preview-operations/retrieve-document-information/
 ---
@@ -75,6 +74,6 @@ Tak, GroupDocs.Signature obsługuje szeroką gamę formatów dokumentów, w tym 
 ### Czy GroupDocs.Signature for .NET zapewnia obsługę podpisów cyfrowych?
 Absolutnie GroupDocs.Signature oferuje solidną obsługę podpisów cyfrowych, zapewniając autentyczność i integralność dokumentów.
 ### Gdzie mogę znaleźć dodatkową dokumentację i wsparcie dla GroupDocs.Signature dla .NET?
- Możesz zapoznać się z obszerną dokumentacją[Tutaj](https://reference.groupdocs.com/signature/net/) i aby uzyskać pomoc, odwiedź forum GroupDocs[Tutaj](https://forum.groupdocs.com/c/signature/13).
+ Możesz zapoznać się z obszerną dokumentacją[Tutaj](https://tutorials.groupdocs.com/signature/net/) i aby uzyskać pomoc, odwiedź forum GroupDocs[Tutaj](https://forum.groupdocs.com/c/signature/13).
 ### Czy można uzyskać licencje tymczasowe dla GroupDocs.Signature for .NET?
  Tak, można kupić licencje tymczasowe[Tutaj](https://purchase.groupdocs.com/temporary-license/).

@@ -3,7 +3,6 @@ title: Bewerkingen verwijderen
 linktitle: Bewerkingen verwijderen
 second_title: GroupDocs.Signature .NET API
 description: Verwijder handtekeningen, streepjescodes en meer uit .NET-documenten met GroupDocs.Signature. Ontdek nu tutorials voor efficiënt documentbeheer!
-type: docs
 weight: 20
 url: /nl/net/delete-operations/
 ---

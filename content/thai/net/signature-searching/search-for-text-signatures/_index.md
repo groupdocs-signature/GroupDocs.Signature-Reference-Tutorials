@@ -3,7 +3,6 @@ title: ค้นหาลายเซ็นข้อความ
 linktitle: ค้นหาลายเซ็นข้อความ
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีค้นหาลายเซ็นข้อความในเอกสารดิจิทัลโดยใช้ GroupDocs.Signature สำหรับ .NET คำแนะนำทีละขั้นตอนเพื่อการใช้งานที่มีประสิทธิภาพ
-type: docs
 weight: 16
 url: /th/net/signature-searching/search-for-text-signatures/
 ---

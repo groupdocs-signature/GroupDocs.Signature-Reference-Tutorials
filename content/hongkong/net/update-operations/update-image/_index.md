@@ -3,7 +3,6 @@ title: 更新圖片
 linktitle: 更新圖片
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature 輕鬆更新 .NET 文件中的映像簽章。無縫增強文件的安全性和完整性。
-type: docs
 weight: 11
 url: /zh-hant/net/update-operations/update-image/
 ---

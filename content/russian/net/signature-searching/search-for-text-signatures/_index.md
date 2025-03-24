@@ -3,7 +3,6 @@ title: Поиск текстовых подписей
 linktitle: Поиск текстовых подписей
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как искать текстовые подписи в цифровых документах с помощью GroupDocs.Signature для .NET. Пошаговое руководство для эффективного внедрения.
-type: docs
 weight: 16
 url: /ru/net/signature-searching/search-for-text-signatures/
 ---

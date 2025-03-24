@@ -3,7 +3,6 @@ title: Cari Kode Batang
 linktitle: Cari Kode Batang
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara mencari tanda tangan kode batang di dokumen menggunakan GroupDocs.Signature untuk .NET. Ikuti panduan langkah demi langkah kami dan integrasikan tanda tangan secara efisien.
-type: docs
 weight: 10
 url: /id/net/signature-searching/search-for-barcode/
 ---

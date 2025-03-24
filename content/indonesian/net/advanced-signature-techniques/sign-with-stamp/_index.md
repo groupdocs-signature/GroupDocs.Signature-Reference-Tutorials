@@ -3,7 +3,6 @@ title: Menandatangani dengan Stempel menggunakan GroupDocs.Signature
 linktitle: Menandatangani dengan Stempel
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menambahkan tanda tangan stempel ke dokumen .NET Anda dengan mudah menggunakan GroupDocs.Signature untuk .NET. Meningkatkan keamanan dokumen.
-type: docs
 weight: 16
 url: /id/net/advanced-signature-techniques/sign-with-stamp/
 ---

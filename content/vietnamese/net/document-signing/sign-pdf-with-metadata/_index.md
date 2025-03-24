@@ -3,7 +3,6 @@ title: Ký PDF bằng siêu dữ liệu
 linktitle: Ký PDF bằng siêu dữ liệu
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách ký tài liệu PDF có siêu dữ liệu bằng GroupDocs.Signature cho .NET. Tăng cường khả năng truy xuất nguồn gốc và tính xác thực của tài liệu một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/document-signing/sign-pdf-with-metadata/
 ---

@@ -3,7 +3,6 @@ title: Delete Signature by Type
 linktitle: Delete Signature by Type
 second_title: GroupDocs.Signature .NET API
 description: Learn how to delete signatures by type in .NET documents effortlessly using GroupDocs.Signature, enhancing document management efficiency.
-type: docs
 weight: 12
 url: /net/delete-operations/delete-signature-by-type/
 ---

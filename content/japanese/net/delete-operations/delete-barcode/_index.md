@@ -3,7 +3,6 @@ title: 文書からバーコードを削除
 linktitle: 文書からバーコードを削除
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してドキュメントからバーコードを削除する方法を学習します。コード例を含むステップバイステップのガイド。
-type: docs
 weight: 10
 url: /ja/net/delete-operations/delete-barcode/
 ---

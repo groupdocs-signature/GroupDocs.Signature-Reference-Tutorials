@@ -3,7 +3,6 @@ title: Verifikasi Kode QR
 linktitle: Verifikasi Kode QR
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara memverifikasi kode QR dalam dokumen menggunakan GroupDocs.Signature untuk .NET. Tutorial komprehensif dengan panduan langkah demi langkah.
-type: docs
 weight: 12
 url: /id/net/verify-operations/verify-qr-code/
 ---
@@ -79,4 +78,4 @@ Ya, GroupDocs.Signature untuk .NET mendukung berbagai format dokumen termasuk DO
 ### Bisakah saya membeli lisensi sementara untuk GroupDocs.Signature untuk .NET?
  Ya, lisensi sementara tersedia untuk dibeli dari[Halaman pembelian GroupDocs](https://purchase.groupdocs.com/temporary-license/).
 ### Apakah ada dokumentasi ekstensif yang tersedia untuk GroupDocs.Signature untuk .NET?
- Tentu saja, Anda dapat merujuk pada dokumentasi terperinci yang disediakan[Di Sini](https://reference.groupdocs.com/signature/net/) untuk panduan komprehensif dalam memanfaatkan fungsi GroupDocs.Signature untuk .NET.
+ Tentu saja, Anda dapat merujuk pada dokumentasi terperinci yang disediakan[Di Sini](https://tutorials.groupdocs.com/signature/net/) untuk panduan komprehensif dalam memanfaatkan fungsi GroupDocs.Signature untuk .NET.

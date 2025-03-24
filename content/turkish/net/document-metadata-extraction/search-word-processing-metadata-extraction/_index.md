@@ -3,7 +3,6 @@ title: Arama Kelime İşleme Meta Veri Çıkarma
 linktitle: Arama Kelime İşleme Meta Veri Çıkarma
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak kelime işlem meta verilerini nasıl arayacağınızı öğrenin. Belge yönetimini kolaylıkla geliştirin.
-type: docs
 weight: 14
 url: /tr/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
@@ -56,7 +55,7 @@ Evet, GroupDocs.Signature, DOCX, PDF ve daha fazlası dahil olmak üzere çok ç
 ### GroupDocs.Signature kurumsal düzeyde belge yönetimi için uygun mu?
 GroupDocs.Signature kesinlikle kurumsal ortamlar için özel olarak tasarlanmış güçlü özellikler sunarak güvenli ve güvenilir belge yönetimi çözümleri sağlar.
 ### GroupDocs.Signature, geliştiriciler için kapsamlı belgeler sağlıyor mu?
- Evet, geliştiriciler API referansları ve kod örnekleri de dahil olmak üzere ayrıntılı belgeleri şu adreste bulabilir:[dokümantasyon sayfası](https://reference.groupdocs.com/signature/net/).
+ Evet, geliştiriciler API referansları ve kod örnekleri de dahil olmak üzere ayrıntılı belgeleri şu adreste bulabilir:[dokümantasyon sayfası](https://tutorials.groupdocs.com/signature/net/).
 ### Satın almadan önce GroupDocs.Signature'ı deneyebilir miyim?
  Evet, ilgilenen kullanıcılar GroupDocs.Signature'ın ücretsiz deneme sürümünden yararlanabilirler.[İnternet sitesi](https://releases.groupdocs.com/).
 ### GroupDocs.Signature için nereden destek alabilirim?

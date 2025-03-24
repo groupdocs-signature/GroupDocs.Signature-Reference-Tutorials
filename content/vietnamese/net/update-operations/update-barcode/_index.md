@@ -3,7 +3,6 @@ title: Cập nhật mã vạch
 linktitle: Cập nhật mã vạch
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách cập nhật chữ ký mã vạch trong tài liệu bằng GroupDocs.Signature cho .NET. Hướng dẫn từng bước để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/net/update-operations/update-barcode/
 ---

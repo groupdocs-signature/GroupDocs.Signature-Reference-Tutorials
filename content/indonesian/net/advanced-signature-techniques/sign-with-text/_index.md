@@ -3,7 +3,6 @@ title: Menandatangani dengan Teks menggunakan GroupDocs.Signature untuk .NET
 linktitle: Menandatangani dengan Teks
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menandatangani dokumen dengan teks menggunakan GroupDocs.Signature untuk .NET. Panduan langkah demi langkah untuk menambahkan tanda tangan teks secara terprogram.
-type: docs
 weight: 17
 url: /id/net/advanced-signature-techniques/sign-with-text/
 ---

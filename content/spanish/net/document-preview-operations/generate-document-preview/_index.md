@@ -3,7 +3,6 @@ title: Generar vista previa del documento
 linktitle: Generar vista previa del documento
 second_title: API GroupDocs.Signature .NET
 description: Aprenda a generar vistas previas de documentos utilizando GroupDocs.Signature para .NET. Simplifique la gestión de documentos en sus aplicaciones .NET.
-type: docs
 weight: 10
 url: /es/net/document-preview-operations/generate-document-preview/
 ---

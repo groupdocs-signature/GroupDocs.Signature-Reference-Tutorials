@@ -3,7 +3,6 @@ title: 搜索二维码
 linktitle: 搜索二维码
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 在文档中搜索二维码。轻松增强文档安全性。
-type: docs
 weight: 15
 url: /zh/net/signature-searching/search-for-qr-codes/
 ---

@@ -3,7 +3,6 @@ title: 使用 GroupDocs.Signature 提取搜索图像元数据
 linktitle: 搜索图像元数据提取
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 在文档中搜索图像元数据签名。轻松增强文档的完整性和真实性。
-type: docs
 weight: 10
 url: /zh/net/document-metadata-extraction/search-image-metadata-extraction/
 ---

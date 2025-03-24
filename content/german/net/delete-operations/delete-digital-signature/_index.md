@@ -3,7 +3,6 @@ title: Digitale Signatur aus Dokument löschen
 linktitle: Digitale Signatur aus Dokument löschen
 second_title: GroupDocs.Signature .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET digitale Signaturen aus Dokumenten löschen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Verwaltung.
-type: docs
 weight: 13
 url: /de/net/delete-operations/delete-digital-signature/
 ---

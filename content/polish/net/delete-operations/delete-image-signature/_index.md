@@ -3,7 +3,6 @@ title: Usuń podpis obrazu
 linktitle: Usuń podpis obrazu
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak usuwać podpisy obrazów z dokumentów za pomocą GroupDocs.Signature for .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie zarządzać podpisami.
-type: docs
 weight: 14
 url: /pl/net/delete-operations/delete-image-signature/
 ---

@@ -3,7 +3,6 @@ title: Perbarui Kode Batang
 linktitle: Perbarui Kode Batang
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara memperbarui tanda tangan kode batang di dokumen menggunakan GroupDocs.Signature untuk .NET. Panduan langkah demi langkah untuk integrasi yang lancar.
-type: docs
 weight: 10
 url: /id/net/update-operations/update-barcode/
 ---

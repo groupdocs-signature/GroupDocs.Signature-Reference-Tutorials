@@ -3,7 +3,6 @@ title: テキストの検証
 linktitle: テキストの検証
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してドキュメント内のテキストを検証する方法を学びます。シームレスな統合については、段階的なチュートリアルに従ってください。
-type: docs
 weight: 13
 url: /ja/net/verify-operations/verify-text/
 ---

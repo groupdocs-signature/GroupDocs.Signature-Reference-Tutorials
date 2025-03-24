@@ -3,7 +3,6 @@ title: อัปเดตรหัส QR
 linktitle: อัปเดตรหัส QR
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีอัปเดตโค้ด QR ภายในเอกสารได้อย่างง่ายดายโดยใช้ GroupDocs.Signature สำหรับ .NET เพิ่มประสิทธิภาพการจัดการเอกสารได้อย่างง่ายดาย
-type: docs
 weight: 12
 url: /th/net/update-operations/update-qr-code/
 ---

@@ -3,7 +3,6 @@ title: Podpisywanie za pomocą podpisu cyfrowego
 linktitle: Podpisywanie za pomocą podpisu cyfrowego
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak podpisywać dokumenty cyfrowo w .NET przy użyciu GroupDocs.Signature. Zwiększ bezpieczeństwo i autentyczność dzięki temu wszechstronnemu samouczkowi.
-type: docs
 weight: 12
 url: /pl/net/advanced-signature-techniques/sign-with-digital/
 ---

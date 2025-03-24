@@ -3,7 +3,6 @@ title: Keresés a PDF metaadat-kivonásban
 linktitle: Keresés a PDF metaadat-kivonásban
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan kereshet és nyerhet ki metaadat-aláírásokat PDF-dokumentumokból a GroupDocs.Signature for .NET segítségével. Növelje dokumentumkezelési képességeit.
-type: docs
 weight: 11
 url: /hu/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---

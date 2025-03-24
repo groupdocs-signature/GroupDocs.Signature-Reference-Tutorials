@@ -3,7 +3,6 @@ title: Αναζήτηση για κωδικούς QR
 linktitle: Αναζήτηση για κωδικούς QR
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να αναζητάτε κωδικούς QR μέσα σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET. Βελτιώστε την ασφάλεια των εγγράφων χωρίς κόπο.
-type: docs
 weight: 15
 url: /el/net/signature-searching/search-for-qr-codes/
 ---

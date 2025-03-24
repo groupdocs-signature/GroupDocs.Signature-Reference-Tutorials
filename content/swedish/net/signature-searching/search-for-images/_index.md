@@ -3,7 +3,6 @@ title: Sök efter bilder
 linktitle: Sök efter bilder
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du söker efter bilder i dokument med GroupDocs.Signature för .NET. Förbättra dokumentsäkerhet och integritet utan ansträngning.
-type: docs
 weight: 13
 url: /sv/net/signature-searching/search-for-images/
 ---
@@ -69,4 +68,4 @@ Ja, GroupDocs.Signature tillhandahåller avancerade funktioner, inklusive stöd 
 ### Kan jag anpassa utseendet på digitala signaturer som lagts till med GroupDocs.Signature för .NET?
 Säkert! GroupDocs.Signature erbjuder omfattande anpassningsalternativ, så att du kan skräddarsy utseendet på digitala signaturer efter dina specifika krav.
 ### Var kan jag hitta support eller ytterligare resurser för GroupDocs.Signature för .NET?
- Du kan besöka forumet GroupDocs.Signature på[den här länken](https://forum.groupdocs.com/c/signature/13) för hjälp, eller hänvisa till den omfattande dokumentationen som finns tillgänglig[här](https://reference.groupdocs.com/signature/net/).
+ Du kan besöka forumet GroupDocs.Signature på[den här länken](https://forum.groupdocs.com/c/signature/13) för hjälp, eller hänvisa till den omfattande dokumentationen som finns tillgänglig[här](https://tutorials.groupdocs.com/signature/net/).

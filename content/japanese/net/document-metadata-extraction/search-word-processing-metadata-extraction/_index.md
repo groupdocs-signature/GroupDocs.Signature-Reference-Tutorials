@@ -3,7 +3,6 @@ title: 検索ワードプロセッサのメタデータ抽出
 linktitle: 検索ワードプロセッサのメタデータ抽出
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してワードプロセッサのメタデータを検索する方法を学びます。ドキュメント管理を簡単に強化します。
-type: docs
 weight: 14
 url: /ja/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
@@ -56,7 +55,7 @@ GroupDocs.Signature for .NET は、ドキュメント内のワード プロセ�
 ### GroupDocs.Signature はエンタープライズ レベルのドキュメント管理に適していますか?
 もちろん、GroupDocs.Signature はエンタープライズ環境に合わせた堅牢な機能を提供し、安全で信頼性の高い文書管理ソリューションを保証します。
 ### GroupDocs.Signature は開発者向けに包括的なドキュメントを提供しますか?
-はい、開発者は、API リファレンスやコード例を含む詳細なドキュメントを次の場所で見つけることができます。[ドキュメントページ](https://reference.groupdocs.com/signature/net/).
+はい、開発者は、API リファレンスやコード例を含む詳細なドキュメントを次の場所で見つけることができます。[ドキュメントページ](https://tutorials.groupdocs.com/signature/net/).
 ### 購入する前に GroupDocs.Signature を試すことはできますか?
 はい、興味のあるユーザーは、以下から GroupDocs.Signature の無料トライアルを利用できます。[Webサイト](https://releases.groupdocs.com/).
 ### GroupDocs.Signature のサポートはどこに問い合わせればよいですか?

@@ -3,7 +3,6 @@ title: 先進的簽名技術
 linktitle: 先進的簽名技術
 second_title: GroupDocs.Signature .NET API
 description: 透過 GroupDocs.Signature for .NET 教學學習進階簽章技術。使用條碼、數位等方式無縫簽署 PDF、影像和文件。
-type: docs
 weight: 25
 url: /zh-hant/net/advanced-signature-techniques/
 ---

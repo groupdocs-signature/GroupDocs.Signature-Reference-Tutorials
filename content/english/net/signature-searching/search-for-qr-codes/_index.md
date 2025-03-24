@@ -3,7 +3,6 @@ title: Search for QR Codes
 linktitle: Search for QR Codes
 second_title: GroupDocs.Signature .NET API
 description: Learn how to search for QR codes within documents using GroupDocs.Signature for .NET. Enhance document security effortlessly.
-type: docs
 weight: 15
 url: /net/signature-searching/search-for-qr-codes/
 ---

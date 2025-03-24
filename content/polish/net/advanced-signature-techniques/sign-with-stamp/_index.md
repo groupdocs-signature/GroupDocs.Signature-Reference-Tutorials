@@ -3,7 +3,6 @@ title: Podpisywanie za pomocą stempla przy użyciu GroupDocs.Signature
 linktitle: Podpisanie pieczątką
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak łatwo dodawać podpisy pieczęci do dokumentów .NET za pomocą GroupDocs.Signature for .NET. Zwiększ bezpieczeństwo dokumentów.
-type: docs
 weight: 16
 url: /pl/net/advanced-signature-techniques/sign-with-stamp/
 ---

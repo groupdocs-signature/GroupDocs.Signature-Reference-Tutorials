@@ -3,7 +3,6 @@ title: Genera anteprima del documento
 linktitle: Genera anteprima del documento
 second_title: API GroupDocs.Signature .NET
 description: Scopri come generare anteprime di documenti utilizzando GroupDocs.Signature per .NET. Semplifica la gestione dei documenti nelle tue applicazioni .NET.
-type: docs
 weight: 10
 url: /it/net/document-preview-operations/generate-document-preview/
 ---

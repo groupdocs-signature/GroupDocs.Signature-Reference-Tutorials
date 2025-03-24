@@ -3,7 +3,6 @@ title: Hledejte QR kódy
 linktitle: Hledejte QR kódy
 second_title: GroupDocs.Signature .NET API
 description: Naučte se vyhledávat QR kódy v dokumentech pomocí GroupDocs.Signature for .NET. Vylepšete zabezpečení dokumentů bez námahy.
-type: docs
 weight: 15
 url: /cs/net/signature-searching/search-for-qr-codes/
 ---

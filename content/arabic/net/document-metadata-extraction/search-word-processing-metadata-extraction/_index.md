@@ -3,7 +3,6 @@ title: بحث استخراج البيانات الوصفية لمعالجة ال
 linktitle: بحث استخراج البيانات الوصفية لمعالجة الكلمات
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية البحث في البيانات التعريفية لمعالجة الكلمات باستخدام GroupDocs.Signature لـ .NET. تعزيز إدارة المستندات بسهولة.
-type: docs
 weight: 14
 url: /ar/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
@@ -56,7 +55,7 @@ foreach (WordProcessingMetadataSignature mdSignature in signatures)
 ### هل GroupDocs.Signature مناسب لإدارة المستندات على مستوى المؤسسة؟
 بالتأكيد، يوفر GroupDocs.Signature ميزات قوية مصممة خصيصًا لبيئات المؤسسات، مما يضمن حلول إدارة المستندات الآمنة والموثوقة.
 ### هل يوفر GroupDocs.Signature وثائق شاملة للمطورين؟
- نعم، يمكن للمطورين العثور على وثائق مفصلة، بما في ذلك مراجع واجهة برمجة التطبيقات وأمثلة التعليمات البرمجية، على الموقع[صفحة التوثيق](https://reference.groupdocs.com/signature/net/).
+ نعم، يمكن للمطورين العثور على وثائق مفصلة، بما في ذلك مراجع واجهة برمجة التطبيقات وأمثلة التعليمات البرمجية، على الموقع[صفحة التوثيق](https://tutorials.groupdocs.com/signature/net/).
 ### هل يمكنني تجربة GroupDocs.Signature قبل الشراء؟
  نعم، يمكن للمستخدمين المهتمين الاستفادة من النسخة التجريبية المجانية من GroupDocs.Signature من[موقع إلكتروني](https://releases.groupdocs.com/).
 ### أين يمكنني طلب الدعم بخصوص GroupDocs.Signature؟

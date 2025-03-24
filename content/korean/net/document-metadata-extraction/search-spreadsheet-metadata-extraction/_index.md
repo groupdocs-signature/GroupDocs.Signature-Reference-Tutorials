@@ -3,7 +3,6 @@ title: 스프레드시트 메타데이터 추출 검색
 linktitle: 스프레드시트 메타데이터 추출 검색
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 스프레드시트에서 메타데이터를 효율적으로 추출합니다. 문서 관리 및 분석을 손쉽게 향상할 수 있습니다.
-type: docs
 weight: 13
 url: /ko/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ url: /ko/net/document-metadata-extraction/search-spreadsheet-metadata-extraction
 ## 전제 조건
 .NET용 GroupDocs.Signature를 사용하여 스프레드시트 메타데이터를 검색하는 복잡한 과정을 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 ### 1. .NET용 GroupDocs.Signature 설치
- 무엇보다도 다음에 제공된 지침에 따라 .NET용 GroupDocs.Signature를 다운로드하고 설치합니다.[선적 서류 비치](https://reference.groupdocs.com/signature/net/). 이 단계는 라이브러리를 .NET 환경에 원활하게 통합하는 데 중요합니다.
+ 무엇보다도 다음에 제공된 지침에 따라 .NET용 GroupDocs.Signature를 다운로드하고 설치합니다.[선적 서류 비치](https://tutorials.groupdocs.com/signature/net/). 이 단계는 라이브러리를 .NET 환경에 원활하게 통합하는 데 중요합니다.
 ### 2. 샘플 스프레드시트에 대한 액세스
 샘플 스프레드시트를 준비합니다(예:`sample.xlsx`)에는 추출하려는 메타데이터가 포함되어 있습니다. 개발 환경 내에서 스프레드시트에 액세스할 수 있는지 확인하세요.
 

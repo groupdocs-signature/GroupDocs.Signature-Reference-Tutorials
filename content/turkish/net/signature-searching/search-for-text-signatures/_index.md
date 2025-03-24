@@ -3,7 +3,6 @@ title: Metin İmzalarını Ara
 linktitle: Metin İmzalarını Ara
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak dijital belgelerde metin imzalarını nasıl arayacağınızı öğrenin. Etkili uygulama için adım adım kılavuz.
-type: docs
 weight: 16
 url: /tr/net/signature-searching/search-for-text-signatures/
 ---

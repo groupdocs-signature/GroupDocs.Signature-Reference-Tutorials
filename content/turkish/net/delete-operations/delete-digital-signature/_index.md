@@ -3,7 +3,6 @@ title: Belgeden Dijital İmzayı Sil
 linktitle: Belgeden Dijital İmzayı Sil
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgelerden dijital imzaları nasıl sileceğinizi öğrenin. Verimli yönetim için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/net/delete-operations/delete-digital-signature/
 ---

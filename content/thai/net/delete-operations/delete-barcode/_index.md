@@ -3,7 +3,6 @@ title: ลบบาร์โค้ดออกจากเอกสาร
 linktitle: ลบบาร์โค้ดออกจากเอกสาร
 second_title: GroupDocs.Signature .NET API
 description: เรียนรู้วิธีลบบาร์โค้ดออกจากเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
-type: docs
 weight: 10
 url: /th/net/delete-operations/delete-barcode/
 ---

@@ -3,7 +3,6 @@ title: Usuń podpis według typu
 linktitle: Usuń podpis według typu
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak bez wysiłku usuwać podpisy według typu w dokumentach .NET za pomocą GroupDocs.Signature, zwiększając efektywność zarządzania dokumentami.
-type: docs
 weight: 12
 url: /pl/net/delete-operations/delete-signature-by-type/
 ---

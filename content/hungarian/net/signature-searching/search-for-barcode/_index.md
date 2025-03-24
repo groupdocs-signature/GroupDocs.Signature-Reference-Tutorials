@@ -3,7 +3,6 @@ title: Vonalkód keresése
 linktitle: Vonalkód keresése
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan kereshet vonalkód-aláírásokat a dokumentumokban a GroupDocs.Signature for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat, és hatékonyan integrálja az aláírást.
-type: docs
 weight: 10
 url: /hu/net/signature-searching/search-for-barcode/
 ---

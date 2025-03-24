@@ -3,7 +3,6 @@ title: Resmi Güncelle
 linktitle: Resmi Güncelle
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature'ı kullanarak .NET belgelerindeki görüntü imzalarını zahmetsizce nasıl güncelleyeceğinizi öğrenin. Belge güvenliğini ve bütünlüğünü sorunsuz bir şekilde geliştirin.
-type: docs
 weight: 11
 url: /tr/net/update-operations/update-image/
 ---

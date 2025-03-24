@@ -3,7 +3,6 @@ title: استخراج البيانات الوصفية للوثيقة
 linktitle: استخراج البيانات الوصفية للوثيقة
 second_title: GroupDocs.Signature .NET API
 description: أطلق العنان لقوة استخراج بيانات التعريف باستخدام GroupDocs.Signature لـ .NET. تعلم كيفية البحث عن البيانات التعريفية للمستندات واستخراجها بسهولة لتحسين الإدارة.
-type: docs
 weight: 22
 url: /ar/net/document-metadata-extraction/
 ---

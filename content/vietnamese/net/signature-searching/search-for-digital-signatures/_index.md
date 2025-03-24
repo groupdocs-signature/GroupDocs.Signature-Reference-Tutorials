@@ -3,7 +3,6 @@ title: Tìm kiếm chữ ký số
 linktitle: Tìm kiếm chữ ký số
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách tìm kiếm chữ ký điện tử trong tài liệu bằng GroupDocs.Signature cho .NET. Tăng cường tính bảo mật và tính toàn vẹn của tài liệu với tính năng toàn diện này.
-type: docs
 weight: 11
 url: /vi/net/signature-searching/search-for-digital-signatures/
 ---
@@ -58,7 +57,7 @@ Có, GroupDocs.Signature for .NET hỗ trợ nhiều định dạng tài liệu 
 ### Có bản dùng thử miễn phí GroupDocs.Signature cho .NET không?
 Có, bạn có thể truy cập bản dùng thử miễn phí GroupDocs.Signature cho .NET từ[đây](https://releases.groupdocs.com/).
 ### Tôi có thể tìm tài liệu về GroupDocs.Signature cho .NET ở đâu?
- Bạn có thể tìm tài liệu chi tiết về GroupDocs.Signature for .NET[đây](https://reference.groupdocs.com/signature/net/).
+ Bạn có thể tìm tài liệu chi tiết về GroupDocs.Signature for .NET[đây](https://tutorials.groupdocs.com/signature/net/).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho GroupDocs.Signature cho .NET?
  Có thể lấy giấy phép tạm thời cho GroupDocs.Signature cho .NET[đây](https://purchase.groupdocs.com/temporary-license/).
 ### Tôi có thể tìm kiếm sự hỗ trợ cho GroupDocs.Signature cho .NET ở đâu?

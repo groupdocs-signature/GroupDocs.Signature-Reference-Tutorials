@@ -3,7 +3,6 @@ title: Gerar visualização do documento
 linktitle: Gerar visualização do documento
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como gerar visualizações de documentos usando GroupDocs.Signature for .NET. Simplifique o gerenciamento de documentos em seus aplicativos .NET.
-type: docs
 weight: 10
 url: /pt/net/document-preview-operations/generate-document-preview/
 ---

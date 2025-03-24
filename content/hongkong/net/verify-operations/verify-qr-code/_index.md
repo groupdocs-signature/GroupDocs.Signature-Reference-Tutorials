@@ -3,7 +3,6 @@ title: 驗證二維碼
 linktitle: 驗證二維碼
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 驗證文件中的 QR 碼。帶有逐步指南的綜合教程。
-type: docs
 weight: 12
 url: /zh-hant/net/verify-operations/verify-qr-code/
 ---
@@ -79,4 +78,4 @@ else
 ### 我可以購買適用於 .NET 的 GroupDocs.Signature 臨時授權嗎？
 是的，臨時許可證可以從[GroupDocs 購買頁面](https://purchase.groupdocs.com/temporary-license/).
 ### 是否有適用於 .NET 的 GroupDocs.Signature 的大量文件？
-完全可以，你可以參考提供的詳細文檔[這裡](https://reference.groupdocs.com/signature/net/)使用 GroupDocs.Signature for .NET 功能的綜合指南。
+完全可以，你可以參考提供的詳細文檔[這裡](https://tutorials.groupdocs.com/signature/net/)使用 GroupDocs.Signature for .NET 功能的綜合指南。

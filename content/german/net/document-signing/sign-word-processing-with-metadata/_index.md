@@ -3,7 +3,6 @@ title: Textverarbeitung mit Metadaten signieren
 linktitle: Textverarbeitung mit Metadaten signieren
 second_title: GroupDocs.Signature .NET-API
 description: Erfahren Sie, wie Sie Textverarbeitungsdokumente mit Metadaten mit GroupDocs.Signature für .NET signieren. Verbessern Sie die Authentizität und Rückverfolgbarkeit von Dokumenten.
-type: docs
 weight: 14
 url: /de/net/document-signing/sign-word-processing-with-metadata/
 ---

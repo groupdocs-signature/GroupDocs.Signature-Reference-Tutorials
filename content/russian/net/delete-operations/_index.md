@@ -3,7 +3,6 @@ title: Удаление операций
 linktitle: Удаление операций
 second_title: GroupDocs.Signature .NET API
 description: Удаляйте подписи, штрих-коды и многое другое из документов .NET с помощью GroupDocs.Signature. Изучите руководства по эффективному управлению документами прямо сейчас!
-type: docs
 weight: 20
 url: /ru/net/delete-operations/
 ---

@@ -3,7 +3,6 @@ title: 簽名搜尋
 linktitle: 簽名搜尋
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 教學課程在 .NET 文件中搜尋簽章。透過條碼、數字、圖像、文字和二維碼搜尋增強安全性。
-type: docs
 weight: 23
 url: /zh-hant/net/signature-searching/
 ---

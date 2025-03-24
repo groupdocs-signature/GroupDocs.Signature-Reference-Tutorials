@@ -3,7 +3,6 @@ title: Zweryfikuj kod kreskowy
 linktitle: Zweryfikuj kod kreskowy
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak weryfikować kody kreskowe w dokumentach za pomocą GroupDocs.Signature dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby zapewnić bezproblemową implementację.
-type: docs
 weight: 10
 url: /pl/net/verify-operations/verify-barcode/
 ---

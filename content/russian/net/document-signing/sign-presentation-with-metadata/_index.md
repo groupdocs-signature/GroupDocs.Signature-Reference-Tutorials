@@ -3,7 +3,6 @@ title: Подписать презентацию с метаданными
 linktitle: Подписать презентацию с метаданными
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как подписывать файлы презентаций метаданными с помощью GroupDocs.Signature для .NET. Повысьте целостность документа и добавьте ценную информацию.
-type: docs
 weight: 12
 url: /ru/net/document-signing/sign-presentation-with-metadata/
 ---

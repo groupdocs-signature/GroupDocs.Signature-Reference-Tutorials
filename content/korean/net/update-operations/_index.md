@@ -3,7 +3,6 @@ title: 업데이트 작업
 linktitle: 업데이트 작업
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature 자습서를 사용하여 .NET 문서의 바코드, 이미지, QR 코드 및 텍스트 서명을 업데이트하세요. 문서 보안 및 관리를 강화합니다.
-type: docs
 weight: 26
 url: /ko/net/update-operations/
 ---

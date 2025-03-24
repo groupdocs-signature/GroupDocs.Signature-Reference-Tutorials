@@ -3,7 +3,6 @@ title: 使用元数据签署电子表格
 linktitle: 使用元数据签署电子表格
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 Groupdocs.Signature for .NET 对带有元数据的电子表格进行签名。通过元数据签名增强文档完整性和验证。
-type: docs
 weight: 13
 url: /zh/net/document-signing/sign-spreadsheet-with-metadata/
 ---

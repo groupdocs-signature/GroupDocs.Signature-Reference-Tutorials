@@ -3,7 +3,6 @@ title: Supprimer la signature par ID
 linktitle: Supprimer la signature par ID
 second_title: API GroupDocs.Signature .NET
 description: Découvrez comment supprimer une signature par ID dans des documents .NET à l'aide de la bibliothèque GroupDocs.Signature. Guide facile étape par étape.
-type: docs
 weight: 11
 url: /fr/net/delete-operations/delete-signature-by-id/
 ---

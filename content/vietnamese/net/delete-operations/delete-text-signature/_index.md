@@ -3,7 +3,6 @@ title: Xóa chữ ký văn bản
 linktitle: Xóa chữ ký văn bản
 second_title: API GroupDocs.Signature .NET
 description: Dễ dàng xóa chữ ký văn bản khỏi tài liệu bằng GroupDocs.Signature cho .NET. Đơn giản hóa nhiệm vụ quản lý tài liệu của bạn.
-type: docs
 weight: 17
 url: /vi/net/delete-operations/delete-text-signature/
 ---

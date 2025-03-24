@@ -3,7 +3,6 @@ title: Belge Önizlemesi Oluştur
 linktitle: Belge Önizlemesi Oluştur
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belge önizlemelerini nasıl oluşturacağınızı öğrenin. .NET uygulamalarınızda belge yönetimini basitleştirin.
-type: docs
 weight: 10
 url: /tr/net/document-preview-operations/generate-document-preview/
 ---

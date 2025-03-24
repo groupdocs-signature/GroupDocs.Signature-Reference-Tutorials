@@ -3,7 +3,6 @@ title: Hasilkan Pratinjau Dokumen
 linktitle: Hasilkan Pratinjau Dokumen
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara membuat pratinjau dokumen menggunakan GroupDocs.Signature untuk .NET. Sederhanakan manajemen dokumen di aplikasi .NET Anda.
-type: docs
 weight: 10
 url: /id/net/document-preview-operations/generate-document-preview/
 ---

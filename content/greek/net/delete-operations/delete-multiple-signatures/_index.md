@@ -3,7 +3,6 @@ title: Διαγραφή πολλαπλών υπογραφών από το έγγ
 linktitle: Διαγραφή πολλαπλών υπογραφών από το έγγραφο
 second_title: GroupDocs.Signature .NET API
 description: Διαγράψτε χωρίς κόπο πολλές υπογραφές από έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET. Βελτιώστε τη ροή εργασιών διαχείρισης εγγράφων.
-type: docs
 weight: 15
 url: /el/net/delete-operations/delete-multiple-signatures/
 ---

@@ -3,7 +3,6 @@ title: 包括的な GroupDocs.Signature チュートリアル
 linktitle: GroupDocs.Signature のチュートリアル
 additionalTitle: GroupDocs API リファレンス
 description: GroupDocs.Signature チュートリアルを使用して、.NET および Java でのドキュメント管理をマスターします。メタデータの作成、検証、抽出などを行います。シームレスなワークフローを体験してください。
-type: docs
 weight: 11
 url: /ja/
 is_root: true

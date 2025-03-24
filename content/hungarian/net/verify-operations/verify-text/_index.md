@@ -3,7 +3,6 @@ title: Szöveg ellenőrzése
 linktitle: Szöveg ellenőrzése
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan ellenőrizheti a dokumentumok szövegét a GroupDocs.Signature for .NET segítségével. Kövesse lépésről lépésre bemutató oktatóanyagunkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 13
 url: /hu/net/verify-operations/verify-text/
 ---

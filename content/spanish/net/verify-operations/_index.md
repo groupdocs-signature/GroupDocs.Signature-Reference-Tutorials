@@ -3,7 +3,6 @@ title: Verificar operaciones
 linktitle: Verificar operaciones
 second_title: API GroupDocs.Signature .NET
 description: Aprenda a verificar códigos de barras, firmas digitales, códigos QR y texto en documentos usando GroupDocs.Signature .NET. Tutoriales paso a paso para una integración perfecta.
-type: docs
 weight: 27
 url: /es/net/verify-operations/
 ---

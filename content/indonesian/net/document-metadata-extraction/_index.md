@@ -3,7 +3,6 @@ title: Ekstraksi Metadata Dokumen
 linktitle: Ekstraksi Metadata Dokumen
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Buka kekuatan ekstraksi metadata dengan GroupDocs.Signature untuk .NET. Pelajari cara mencari dan mengekstrak metadata dokumen dengan mudah untuk meningkatkan pengelolaan.
-type: docs
 weight: 22
 url: /id/net/document-metadata-extraction/
 ---

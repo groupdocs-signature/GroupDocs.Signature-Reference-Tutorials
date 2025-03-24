@@ -3,7 +3,6 @@ title: Удалить штрих-код из документа
 linktitle: Удалить штрих-код из документа
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как удалить штрих-код из документа с помощью GroupDocs.Signature для .NET. Пошаговое руководство с примерами кода.
-type: docs
 weight: 10
 url: /ru/net/delete-operations/delete-barcode/
 ---

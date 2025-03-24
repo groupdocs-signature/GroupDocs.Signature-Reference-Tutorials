@@ -3,7 +3,6 @@ title: 验证数字签名
 linktitle: 验证数字签名
 second_title: GroupDocs.Signature .NET API
 description: 使用 GroupDocs.Signature 轻松验证 .NET 中的数字签名。轻松确保文件的真实性和完整性。
-type: docs
 weight: 11
 url: /zh/net/verify-operations/verify-digital/
 ---

@@ -3,7 +3,6 @@ title: Assinando com texto usando GroupDocs.Signature for .NET
 linktitle: Assinando com Texto
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como assinar documentos com texto usando GroupDocs.Signature for .NET. Guia passo a passo para adicionar assinaturas de texto programaticamente.
-type: docs
 weight: 17
 url: /pt/net/advanced-signature-techniques/sign-with-text/
 ---

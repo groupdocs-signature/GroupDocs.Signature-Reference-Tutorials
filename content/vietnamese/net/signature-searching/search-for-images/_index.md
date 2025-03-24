@@ -3,7 +3,6 @@ title: Tìm kiếm hình ảnh
 linktitle: Tìm kiếm hình ảnh
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách tìm kiếm hình ảnh trong tài liệu bằng GroupDocs.Signature cho .NET. Tăng cường bảo mật tài liệu và tính toàn vẹn một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/signature-searching/search-for-images/
 ---
@@ -69,4 +68,4 @@ Có, GroupDocs.Signature cung cấp các tính năng nâng cao, bao gồm hỗ t
 ### Tôi có thể tùy chỉnh giao diện của chữ ký điện tử được thêm bằng GroupDocs.Signature cho .NET không?
 Chắc chắn! GroupDocs.Signature cung cấp các tùy chọn tùy chỉnh mở rộng, cho phép bạn điều chỉnh giao diện của chữ ký điện tử theo yêu cầu cụ thể của mình.
 ### Tôi có thể tìm hỗ trợ hoặc tài nguyên bổ sung cho GroupDocs.Signature cho .NET ở đâu?
- Bạn có thể truy cập diễn đàn GroupDocs.Signature tại[liên kết này](https://forum.groupdocs.com/c/signature/13) để được hỗ trợ hoặc tham khảo tài liệu toàn diện có sẵn[đây](https://reference.groupdocs.com/signature/net/).
+ Bạn có thể truy cập diễn đàn GroupDocs.Signature tại[liên kết này](https://forum.groupdocs.com/c/signature/13) để được hỗ trợ hoặc tham khảo tài liệu toàn diện có sẵn[đây](https://tutorials.groupdocs.com/signature/net/).

@@ -3,7 +3,6 @@ title: التحقق من النص
 linktitle: التحقق من النص
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية التحقق من النص في المستندات باستخدام GroupDocs.Signature لـ .NET. اتبع البرنامج التعليمي خطوة بخطوة لتحقيق التكامل السلس.
-type: docs
 weight: 13
 url: /ar/net/verify-operations/verify-text/
 ---

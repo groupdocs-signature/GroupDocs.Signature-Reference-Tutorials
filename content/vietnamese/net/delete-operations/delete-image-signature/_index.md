@@ -3,7 +3,6 @@ title: Xóa chữ ký hình ảnh
 linktitle: Xóa chữ ký hình ảnh
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách xóa chữ ký hình ảnh khỏi tài liệu bằng GroupDocs.Signature cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để quản lý chữ ký hiệu quả.
-type: docs
 weight: 14
 url: /vi/net/delete-operations/delete-image-signature/
 ---

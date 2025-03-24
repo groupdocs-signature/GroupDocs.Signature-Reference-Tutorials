@@ -3,7 +3,6 @@ title: Υπογραφή με κείμενο χρησιμοποιώντας Group
 linktitle: Υπογραφή με κείμενο
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να υπογράφετε έγγραφα με κείμενο χρησιμοποιώντας το GroupDocs.Signature για .NET. Οδηγός βήμα προς βήμα για την προσθήκη υπογραφών κειμένου μέσω προγραμματισμού.
-type: docs
 weight: 17
 url: /el/net/advanced-signature-techniques/sign-with-text/
 ---

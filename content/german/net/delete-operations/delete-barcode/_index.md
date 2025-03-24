@@ -3,7 +3,6 @@ title: Barcode aus Dokument löschen
 linktitle: Barcode aus Dokument löschen
 second_title: GroupDocs.Signature .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET Barcodes aus einem Dokument löschen. Schritt-für-Schritt-Anleitung mit Codebeispielen.
-type: docs
 weight: 10
 url: /de/net/delete-operations/delete-barcode/
 ---

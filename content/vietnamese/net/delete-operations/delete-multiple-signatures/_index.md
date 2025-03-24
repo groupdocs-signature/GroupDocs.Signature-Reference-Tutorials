@@ -3,7 +3,6 @@ title: Xóa nhiều chữ ký khỏi tài liệu
 linktitle: Xóa nhiều chữ ký khỏi tài liệu
 second_title: API GroupDocs.Signature .NET
 description: Dễ dàng xóa nhiều chữ ký khỏi tài liệu bằng GroupDocs.Signature cho .NET. Hợp lý hóa quy trình quản lý tài liệu của bạn.
-type: docs
 weight: 15
 url: /vi/net/delete-operations/delete-multiple-signatures/
 ---

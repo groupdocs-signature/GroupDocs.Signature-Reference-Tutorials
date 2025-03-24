@@ -3,7 +3,6 @@ title: Estrazione dei metadati del documento
 linktitle: Estrazione dei metadati del documento
 second_title: API GroupDocs.Signature .NET
 description: Sfrutta la potenza dell'estrazione dei metadati con GroupDocs.Signature per .NET. Impara a cercare ed estrarre facilmente i metadati dei documenti per una gestione migliorata.
-type: docs
 weight: 22
 url: /it/net/document-metadata-extraction/
 ---

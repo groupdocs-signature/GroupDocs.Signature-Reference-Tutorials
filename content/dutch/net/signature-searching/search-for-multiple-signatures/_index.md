@@ -3,7 +3,6 @@ title: Zoek naar meerdere handtekeningen
 linktitle: Zoek naar meerdere handtekeningen
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u naar meerdere handtekeningen in .NET-documenten kunt zoeken met behulp van GroupDocs.Signature voor efficiënte documentbeveiliging en -integriteit.
-type: docs
 weight: 14
 url: /nl/net/signature-searching/search-for-multiple-signatures/
 ---

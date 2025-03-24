@@ -3,7 +3,6 @@ title: Firma l'elaborazione testi con metadati
 linktitle: Firma l'elaborazione testi con metadati
 second_title: API GroupDocs.Signature .NET
 description: Scopri come firmare documenti di elaborazione testi con metadati utilizzando GroupDocs.Signature per .NET. Migliorare l'autenticità e la tracciabilità dei documenti.
-type: docs
 weight: 14
 url: /it/net/document-signing/sign-word-processing-with-metadata/
 ---

@@ -3,7 +3,6 @@ title: Belge Bilgilerini Al
 linktitle: Belge Bilgilerini Al
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature ile .NET'te belge yönetimini geliştirin. Belge bilgilerini adım adım alın. Çeşitli formatları destekler.
-type: docs
 weight: 11
 url: /tr/net/document-preview-operations/retrieve-document-information/
 ---
@@ -75,6 +74,6 @@ Evet, GroupDocs.Signature, DOCX, PDF, PNG ve JPEG dahil ancak bunlarla sınırl�
 ### GroupDocs.Signature for .NET dijital imzalar için destek sağlıyor mu?
 GroupDocs.Signature kesinlikle dijital imzalar için güçlü bir destek sunarak belgenin orijinalliğini ve bütünlüğünü garanti eder.
 ### GroupDocs.Signature for .NET için ek belgeleri ve desteği nerede bulabilirim?
- Kapsamlı belgelere başvurabilirsiniz[Burada](https://reference.groupdocs.com/signature/net/) ve destek için GroupDocs forumunu ziyaret edin[Burada](https://forum.groupdocs.com/c/signature/13).
+ Kapsamlı belgelere başvurabilirsiniz[Burada](https://tutorials.groupdocs.com/signature/net/) ve destek için GroupDocs forumunu ziyaret edin[Burada](https://forum.groupdocs.com/c/signature/13).
 ### GroupDocs.Signature for .NET için geçici lisanslar alınabilir mi?
  Evet, geçici lisanslar satın alınabilir[Burada](https://purchase.groupdocs.com/temporary-license/).

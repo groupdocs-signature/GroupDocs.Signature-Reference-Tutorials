@@ -3,7 +3,6 @@ title: Dokumentumfeldolgozási előzmények megtekintése
 linktitle: Dokumentumfeldolgozási előzmények megtekintése
 second_title: GroupDocs.Signature .NET API
 description: Fedezze fel, hogyan tekintheti meg könnyedén a dokumentumfeldolgozási előzményeket a GroupDocs.Signature for .NET segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes munkafolyamatok kezeléséhez.
-type: docs
 weight: 12
 url: /hu/net/document-preview-operations/view-document-processing-history/
 ---

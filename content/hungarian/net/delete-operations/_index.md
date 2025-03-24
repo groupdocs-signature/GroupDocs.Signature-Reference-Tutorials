@@ -3,7 +3,6 @@ title: Műveletek törlése
 linktitle: Műveletek törlése
 second_title: GroupDocs.Signature .NET API
 description: A GroupDocs.Signature segítségével törölheti az aláírásokat, vonalkódokat és egyebeket a .NET-dokumentumokból. Fedezze fel az oktatóanyagokat a hatékony dokumentumkezeléshez most!
-type: docs
 weight: 20
 url: /hu/net/delete-operations/
 ---

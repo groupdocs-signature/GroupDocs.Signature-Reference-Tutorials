@@ -3,7 +3,6 @@ title: 验证操作
 linktitle: 验证操作
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature .NET 验证文档中的条形码、数字签名、QR 码和文本。无缝集成的分步教程。
-type: docs
 weight: 27
 url: /zh/net/verify-operations/
 ---

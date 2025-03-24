@@ -3,7 +3,6 @@ title: Signera ordbehandling med metadata
 linktitle: Signera ordbehandling med metadata
 second_title: GroupDocs.Signature .NET API
 description: Lär dig hur du signerar ordbehandlingsdokument med metadata med GroupDocs.Signature för .NET. Förbättra dokumentets äkthet och spårbarhet.
-type: docs
 weight: 14
 url: /sv/net/document-signing/sign-word-processing-with-metadata/
 ---

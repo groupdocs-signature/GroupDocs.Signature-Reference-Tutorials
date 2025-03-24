@@ -3,7 +3,6 @@ title: QR-kódok keresése
 linktitle: QR-kódok keresése
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan kereshet QR-kódokat dokumentumokon belül a GroupDocs.Signature for .NET segítségével. Fokozatmentesen fokozza a dokumentumok biztonságát.
-type: docs
 weight: 15
 url: /hu/net/signature-searching/search-for-qr-codes/
 ---

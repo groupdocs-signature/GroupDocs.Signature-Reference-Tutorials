@@ -3,7 +3,6 @@ title: Metin İmzasını Sil
 linktitle: Metin İmzasını Sil
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki metin imzalarını zahmetsizce silin. Belge yönetimi görevlerinizi basitleştirin.
-type: docs
 weight: 17
 url: /tr/net/delete-operations/delete-text-signature/
 ---

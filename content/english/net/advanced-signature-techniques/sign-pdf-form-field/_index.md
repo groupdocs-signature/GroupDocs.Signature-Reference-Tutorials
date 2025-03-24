@@ -3,7 +3,6 @@ title: Signing PDF with Form Field
 linktitle: Signing PDF with Form Field
 second_title: GroupDocs.Signature .NET API
 description: Learn how to sign PDF documents with form fields using GroupDocs.Signature for .NET. Ensure document authenticity and integrity effortlessly.
-type: docs
 weight: 10
 url: /net/advanced-signature-techniques/sign-pdf-form-field/
 ---

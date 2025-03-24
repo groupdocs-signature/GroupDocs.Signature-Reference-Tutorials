@@ -3,7 +3,6 @@ title: Ký tài liệu
 linktitle: Ký tài liệu
 second_title: API GroupDocs.Signature .NET
 description: Ký hình ảnh, PDF, bản trình bày, bảng tính và tài liệu Word bằng siêu dữ liệu bằng GroupDocs.Signature .NET. Nâng cao tính xác thực và toàn vẹn của tài liệu.
-type: docs
 weight: 24
 url: /vi/net/document-signing/
 ---

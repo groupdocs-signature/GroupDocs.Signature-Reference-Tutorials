@@ -3,7 +3,6 @@ title: Dokumentum metaadat kinyerése
 linktitle: Dokumentum metaadat kinyerése
 second_title: GroupDocs.Signature .NET API
 description: A GroupDocs.Signature for .NET segítségével felszabadíthatja a metaadat-kinyerés erejét. Tanuljon meg könnyedén keresni és kivonni a dokumentumok metaadatait a továbbfejlesztett kezelés érdekében.
-type: docs
 weight: 22
 url: /hu/net/document-metadata-extraction/
 ---

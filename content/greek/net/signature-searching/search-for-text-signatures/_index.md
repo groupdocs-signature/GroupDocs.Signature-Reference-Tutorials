@@ -3,7 +3,6 @@ title: Αναζήτηση για υπογραφές κειμένου
 linktitle: Αναζήτηση για υπογραφές κειμένου
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να αναζητάτε υπογραφές κειμένου σε ψηφιακά έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET. Οδηγός βήμα προς βήμα για αποτελεσματική εφαρμογή.
-type: docs
 weight: 16
 url: /el/net/signature-searching/search-for-text-signatures/
 ---

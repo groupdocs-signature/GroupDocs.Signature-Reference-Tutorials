@@ -3,7 +3,6 @@ title: Обновить штрих-код
 linktitle: Обновить штрих-код
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как обновить подписи штрих-кодов в документах с помощью GroupDocs.Signature для .NET. Пошаговое руководство по плавной интеграции.
-type: docs
 weight: 10
 url: /ru/net/update-operations/update-barcode/
 ---

@@ -3,7 +3,6 @@ title: Ondertekenen met meerdere opties
 linktitle: Ondertekenen met meerdere opties
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u documenten met meerdere opties kunt ondertekenen met GroupDocs.Signature voor .NET. Verbeter de documentbeveiliging met tekst, barcode, QR-code, digitaal en beeld.
-type: docs
 weight: 14
 url: /nl/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

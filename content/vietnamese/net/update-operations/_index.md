@@ -3,7 +3,6 @@ title: Cập nhật hoạt động
 linktitle: Cập nhật hoạt động
 second_title: API GroupDocs.Signature .NET
 description: Cập nhật mã vạch, hình ảnh, mã QR và chữ ký văn bản trong tài liệu .NET với hướng dẫn GroupDocs.Signature for .NET. Tăng cường bảo mật và quản lý tài liệu.
-type: docs
 weight: 26
 url: /vi/net/update-operations/
 ---

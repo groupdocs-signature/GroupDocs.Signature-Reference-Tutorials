@@ -3,7 +3,6 @@ title: ลบลายเซ็นข้อความ
 linktitle: ลบลายเซ็นข้อความ
 second_title: GroupDocs.Signature .NET API
 description: ลบลายเซ็นข้อความออกจากเอกสารได้อย่างง่ายดายโดยใช้ GroupDocs.Signature สำหรับ .NET ลดความซับซ้อนของงานการจัดการเอกสารของคุณ
-type: docs
 weight: 17
 url: /th/net/delete-operations/delete-text-signature/
 ---

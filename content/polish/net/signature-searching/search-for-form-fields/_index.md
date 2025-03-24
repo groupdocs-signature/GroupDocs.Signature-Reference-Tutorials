@@ -3,7 +3,6 @@ title: Wyszukaj pola formularza
 linktitle: Wyszukaj pola formularza
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak zintegrować funkcję podpisu z aplikacjami .NET za pomocą GroupDocs.Signature for .NET. Postępuj zgodnie z naszymi instrukcjami krok po kroku, aby bezproblemowo zarządzać dokumentami.
-type: docs
 weight: 12
 url: /pl/net/signature-searching/search-for-form-fields/
 ---
@@ -13,7 +12,7 @@ GroupDocs.Signature for .NET to potężne narzędzie dla programistów, umożliw
 Zanim zaczniesz korzystać z GroupDocs.Signature dla .NET, upewnij się, że spełnione są następujące wymagania wstępne:
 1. Visual Studio: Zainstaluj program Visual Studio na komputerze programistycznym.
 2.  GroupDocs.Signature for .NET: Pobierz i zainstaluj bibliotekę GroupDocs.Signature for .NET ze strony[Tutaj](https://releases.groupdocs.com/signature/net/).
-3.  Dostęp do dokumentacji: Zapoznaj się z dokumentacją dostępną pod adresem[GroupDocs.Signature dla dokumentacji .NET](https://reference.groupdocs.com/signature/net/).
+3.  Dostęp do dokumentacji: Zapoznaj się z dokumentacją dostępną pod adresem[GroupDocs.Signature dla dokumentacji .NET](https://tutorials.groupdocs.com/signature/net/).
 4.  Dostęp do wsparcia: W przypadku jakichkolwiek problemów lub pytań skorzystaj z forum wsparcia pod adresem[Forum GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13).
 
 ## Importuj przestrzenie nazw
@@ -63,6 +62,6 @@ Tak, GroupDocs.Signature for .NET obsługuje szeroką gamę formatów dokumentó
 ### Jak mogę uzyskać tymczasowe licencje dla GroupDocs.Signature dla .NET?
  Licencje tymczasowe można uzyskać od[Tutaj](https://purchase.groupdocs.com/temporary-license/).
 ### Gdzie mogę znaleźć szczegółową dokumentację GroupDocs.Signature for .NET?
- Dostępna jest szczegółowa dokumentacja[Tutaj](https://reference.groupdocs.com/signature/net/).
+ Dostępna jest szczegółowa dokumentacja[Tutaj](https://tutorials.groupdocs.com/signature/net/).
 ### Czy GroupDocs.Signature for .NET oferuje wsparcie dla programistów?
  Tak, możesz uzyskać dostęp do pomocy programistycznej poprzez[Forum GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13).

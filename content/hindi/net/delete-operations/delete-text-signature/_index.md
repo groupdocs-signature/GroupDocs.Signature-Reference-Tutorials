@@ -3,7 +3,6 @@ title: पाठ हस्ताक्षर हटाएँ
 linktitle: पाठ हस्ताक्षर हटाएँ
 second_title: GroupDocs.Signature .NET API
 description: .NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों से टेक्स्ट हस्ताक्षरों को आसानी से हटाएं। अपने दस्तावेज़ प्रबंधन कार्यों को सरल बनाएं.
-type: docs
 weight: 17
 url: /hi/net/delete-operations/delete-text-signature/
 ---

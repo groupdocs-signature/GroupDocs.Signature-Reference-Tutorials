@@ -3,7 +3,6 @@ title: Doküman Önizleme İşlemleri
 linktitle: Doküman Önizleme İşlemleri
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature for .NET eğitimleriyle belge yönetimini nasıl kolaylaştıracağınızı öğrenin. Görevleri basitleştirin, iş akışını geliştirin ve verimliliği zahmetsizce artırın.
-type: docs
 weight: 21
 url: /tr/net/document-preview-operations/
 ---

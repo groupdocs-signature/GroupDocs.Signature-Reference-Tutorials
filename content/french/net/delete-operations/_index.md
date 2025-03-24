@@ -3,7 +3,6 @@ title: Supprimer les opérations
 linktitle: Supprimer les opérations
 second_title: API GroupDocs.Signature .NET
 description: Supprimez les signatures, les codes-barres et bien plus encore des documents .NET avec GroupDocs.Signature. Explorez dès maintenant des tutoriels pour une gestion efficace des documents !
-type: docs
 weight: 20
 url: /fr/net/delete-operations/
 ---

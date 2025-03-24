@@ -3,7 +3,6 @@ title: Meerdere handtekeningen uit document verwijderen
 linktitle: Meerdere handtekeningen uit document verwijderen
 second_title: GroupDocs.Signature .NET API
 description: Verwijder moeiteloos meerdere handtekeningen uit documenten met GroupDocs.Signature voor .NET. Stroomlijn uw workflow voor documentbeheer.
-type: docs
 weight: 15
 url: /nl/net/delete-operations/delete-multiple-signatures/
 ---

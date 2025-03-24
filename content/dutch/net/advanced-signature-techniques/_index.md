@@ -3,7 +3,6 @@ title: Geavanceerde handtekeningtechnieken
 linktitle: Geavanceerde handtekeningtechnieken
 second_title: GroupDocs.Signature .NET API
 description: Leer geavanceerde handtekeningtechnieken met GroupDocs.Signature voor .NET-tutorials. Onderteken PDF's, afbeeldingen en documenten naadloos met barcode, digitaal en meer.
-type: docs
 weight: 25
 url: /nl/net/advanced-signature-techniques/
 ---

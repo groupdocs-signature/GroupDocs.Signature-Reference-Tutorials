@@ -3,7 +3,6 @@ title: Search for Text Signatures
 linktitle: Search for Text Signatures
 second_title: GroupDocs.Signature .NET API
 description: Learn how to search for text signatures in digital documents using GroupDocs.Signature for .NET. Step-by-step guide for efficient implementation.
-type: docs
 weight: 16
 url: /net/signature-searching/search-for-text-signatures/
 ---

@@ -3,7 +3,6 @@ title: توقيع المستندات باستخدام رمز الاستجابة 
 linktitle: التوقيع باستخدام رمز الاستجابة السريعة
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية إضافة توقيعات رمز الاستجابة السريعة إلى مستنداتك باستخدام GroupDocs.Signature لـ .NET. تعزيز الأمن والمصادقة دون عناء.
-type: docs
 weight: 15
 url: /ar/net/advanced-signature-techniques/sign-with-qr-code/
 ---

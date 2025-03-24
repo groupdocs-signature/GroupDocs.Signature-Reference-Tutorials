@@ -3,7 +3,6 @@ title: Xóa mã vạch khỏi tài liệu
 linktitle: Xóa mã vạch khỏi tài liệu
 second_title: API GroupDocs.Signature .NET
 description: Tìm hiểu cách xóa mã vạch khỏi tài liệu bằng GroupDocs.Signature cho .NET. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 10
 url: /vi/net/delete-operations/delete-barcode/
 ---

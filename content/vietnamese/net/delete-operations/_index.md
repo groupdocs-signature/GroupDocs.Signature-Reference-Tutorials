@@ -3,7 +3,6 @@ title: Xóa hoạt động
 linktitle: Xóa hoạt động
 second_title: API GroupDocs.Signature .NET
 description: Xóa chữ ký, mã vạch, v.v. khỏi tài liệu .NET bằng GroupDocs.Signature. Khám phá các hướng dẫn để quản lý tài liệu hiệu quả ngay bây giờ!
-type: docs
 weight: 20
 url: /vi/net/delete-operations/
 ---

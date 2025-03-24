@@ -3,7 +3,6 @@ title: 从文档中删除数字签名
 linktitle: 从文档中删除数字签名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 从文档中删除数字签名。遵循我们的分步指南进行高效管理。
-type: docs
 weight: 13
 url: /zh/net/delete-operations/delete-digital-signature/
 ---

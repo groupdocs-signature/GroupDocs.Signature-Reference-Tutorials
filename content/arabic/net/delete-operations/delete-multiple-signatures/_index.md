@@ -3,7 +3,6 @@ title: حذف التوقيعات المتعددة من المستند
 linktitle: حذف التوقيعات المتعددة من المستند
 second_title: GroupDocs.Signature .NET API
 description: قم بحذف التوقيعات المتعددة من المستندات بسهولة باستخدام GroupDocs.Signature لـ .NET. تبسيط سير عمل إدارة المستندات الخاصة بك.
-type: docs
 weight: 15
 url: /ar/net/delete-operations/delete-multiple-signatures/
 ---

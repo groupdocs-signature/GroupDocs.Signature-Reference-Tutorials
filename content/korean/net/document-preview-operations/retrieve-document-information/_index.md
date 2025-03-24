@@ -3,7 +3,6 @@ title: 문서 정보 검색
 linktitle: 문서 정보 검색
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature를 사용하여 .NET에서 문서 관리를 강화하세요. 문서 정보를 단계별로 검색합니다. 다양한 형식을 지원합니다.
-type: docs
 weight: 11
 url: /ko/net/document-preview-operations/retrieve-document-information/
 ---
@@ -75,6 +74,6 @@ foreach (PageInfo pageInfo in documentInfo.Pages)
 ### .NET용 GroupDocs.Signature는 디지털 서명을 지원합니까?
 물론, GroupDocs.Signature는 디지털 서명에 대한 강력한 지원을 제공하여 문서 신뢰성과 무결성을 보장합니다.
 ### .NET용 GroupDocs.Signature에 대한 추가 문서와 지원은 어디서 찾을 수 있나요?
- 종합 문서를 참조할 수 있습니다.[여기](https://reference.groupdocs.com/signature/net/) , 지원을 받으려면 GroupDocs 포럼을 방문하세요.[여기](https://forum.groupdocs.com/c/signature/13).
+ 종합 문서를 참조할 수 있습니다.[여기](https://tutorials.groupdocs.com/signature/net/) , 지원을 받으려면 GroupDocs 포럼을 방문하세요.[여기](https://forum.groupdocs.com/c/signature/13).
 ### .NET용 GroupDocs.Signature에 대한 임시 라이센스를 얻을 수 있습니까?
  예, 임시 라이선스를 구매할 수 있습니다.[여기](https://purchase.groupdocs.com/temporary-license/).

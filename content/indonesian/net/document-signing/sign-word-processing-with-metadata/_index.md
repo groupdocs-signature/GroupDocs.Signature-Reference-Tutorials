@@ -3,7 +3,6 @@ title: Tanda tangani Pemrosesan Kata dengan Metadata
 linktitle: Tanda tangani Pemrosesan Kata dengan Metadata
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari cara menandatangani dokumen Pemrosesan Kata dengan metadata menggunakan GroupDocs.Signature untuk .NET. Meningkatkan keaslian dan ketertelusuran dokumen.
-type: docs
 weight: 14
 url: /id/net/document-signing/sign-word-processing-with-metadata/
 ---

@@ -3,7 +3,6 @@ title: PDF aláírása metaadatokkal
 linktitle: PDF aláírása metaadatokkal
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan írhat alá PDF-dokumentumokat metaadatokkal a GroupDocs.Signature for .NET használatával. Egyszerűen javíthatja a dokumentumok nyomon követhetőségét és hitelességét.
-type: docs
 weight: 11
 url: /hu/net/document-signing/sign-pdf-with-metadata/
 ---

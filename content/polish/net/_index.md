@@ -1,7 +1,6 @@
 ---
 title: Poradniki i przykłady GroupDocs.Signature dla .NET
 linktitle: GroupDocs.Signature dla samouczków .NET
-type: docs
 weight: 10
 url: /pl/net/
 description: Odblokuj wydajne zarządzanie dokumentami dzięki samouczkom GroupDocs.Signature for .NET. Bezproblemowo usuwaj, przeglądaj, wyodrębniaj metadane, podpisuj, aktualizuj i weryfikuj dokumenty.

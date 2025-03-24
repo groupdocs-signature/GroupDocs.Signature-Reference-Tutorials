@@ -3,7 +3,6 @@ title: Elimina firma immagine
 linktitle: Elimina firma immagine
 second_title: API GroupDocs.Signature .NET
 description: Scopri come eliminare le firme delle immagini dai documenti utilizzando GroupDocs.Signature per .NET. Segui la nostra guida passo passo per una gestione efficiente delle firme.
-type: docs
 weight: 14
 url: /it/net/delete-operations/delete-image-signature/
 ---

@@ -3,7 +3,6 @@ title: التوقيع مع خيارات متعددة
 linktitle: التوقيع مع خيارات متعددة
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية توقيع المستندات ذات الخيارات المتعددة باستخدام GroupDocs.Signature لـ .NET. تعزيز أمان المستندات باستخدام النص والرمز الشريطي ورمز الاستجابة السريعة والرقمي والصورة.
-type: docs
 weight: 14
 url: /ar/net/advanced-signature-techniques/sign-with-multiple-options/
 ---

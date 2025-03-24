@@ -3,7 +3,6 @@ title: 문서 서명
 linktitle: 문서 서명
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature .NET을 사용하여 메타데이터로 이미지, PDF, 프리젠테이션, 스프레드시트 및 Word 문서에 서명합니다. 문서의 신뢰성과 무결성을 강화합니다.
-type: docs
 weight: 24
 url: /ko/net/document-signing/
 ---

@@ -3,7 +3,6 @@ title: GroupDocs.Signature Kullanarak Belgeleri Görüntüyle İmzalama
 linktitle: Resimle İmzalama
 second_title: GroupDocs.Signature .NET API'si
 description: Groupdocs.Signature for .NET ile .NET uygulamalarındaki görüntüleri kullanarak belgeleri nasıl imzalayacağınızı öğrenin. Belge güvenliğini ve orijinalliğini zahmetsizce geliştirin.
-type: docs
 weight: 13
 url: /tr/net/advanced-signature-techniques/sign-with-image/
 ---

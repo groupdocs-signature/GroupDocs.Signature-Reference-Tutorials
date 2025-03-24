@@ -3,7 +3,6 @@ title: 文書情報の取得
 linktitle: 文書情報の取得
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature を使用して .NET でのドキュメント管理を強化します。ドキュメント情報を段階的に取得します。さまざまな形式をサポートします。
-type: docs
 weight: 11
 url: /ja/net/document-preview-operations/retrieve-document-information/
 ---
@@ -75,6 +74,6 @@ GroupDocs.Signature for .NET は、.NET フレームワーク内でドキュメ�
 ### GroupDocs.Signature for .NET はデジタル署名をサポートしていますか?
 はい、GroupDocs.Signature はデジタル署名を強力にサポートし、ドキュメントの信頼性と整合性を保証します。
 ### GroupDocs.Signature for .NET に関する追加のドキュメントとサポートはどこで入手できますか?
-包括的なドキュメントを参照できます[ここ](https://reference.groupdocs.com/signature/net/)サポートについては、GroupDocsフォーラムをご覧ください。[ここ](https://forum.groupdocs.com/c/signature/13).
+包括的なドキュメントを参照できます[ここ](https://tutorials.groupdocs.com/signature/net/)サポートについては、GroupDocsフォーラムをご覧ください。[ここ](https://forum.groupdocs.com/c/signature/13).
 ### GroupDocs.Signature for .NET の一時ライセンスを取得できますか?
 はい、一時ライセンスは購入できます[ここ](https://purchase.groupdocs.com/temporary-license/).

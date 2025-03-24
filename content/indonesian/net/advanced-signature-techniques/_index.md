@@ -3,7 +3,6 @@ title: Teknik Tanda Tangan Tingkat Lanjut
 linktitle: Teknik Tanda Tangan Tingkat Lanjut
 second_title: GroupDocs.Tanda Tangan .NET API
 description: Pelajari teknik tanda tangan tingkat lanjut dengan tutorial GroupDocs.Signature untuk .NET. Tanda tangani PDF, gambar, dan dokumen secara lancar dengan kode batang, digital, dan lainnya.
-type: docs
 weight: 25
 url: /id/net/advanced-signature-techniques/
 ---

@@ -3,7 +3,6 @@ title: توقيع الوثيقة
 linktitle: توقيع الوثيقة
 second_title: GroupDocs.Signature .NET API
 description: قم بتوقيع الصور وملفات PDF والعروض التقديمية وجداول البيانات ومستندات Word باستخدام بيانات التعريف باستخدام GroupDocs.Signature .NET. تعزيز صحة الوثيقة وسلامتها.
-type: docs
 weight: 24
 url: /ar/net/document-signing/
 ---

@@ -3,7 +3,6 @@ title: テキストを更新
 linktitle: テキストを更新
 second_title: GroupDocs.Signature .NET API
 description: GroupDocs.Signature for .NET を使用してドキュメント内のテキストを更新する方法を学びます。シームレスな統合のために、ステップバイステップのチュートリアルに従ってください。
-type: docs
 weight: 13
 url: /ja/net/update-operations/update-text/
 ---

@@ -3,7 +3,6 @@ title: البحث عن الصور
 linktitle: البحث عن الصور
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية البحث عن الصور داخل المستندات باستخدام GroupDocs.Signature لـ .NET. تعزيز أمن المستندات وسلامتها دون عناء.
-type: docs
 weight: 13
 url: /ar/net/signature-searching/search-for-images/
 ---
@@ -69,4 +68,4 @@ foreach (ImageSignature imageSignature in signatures)
 ### هل يمكنني تخصيص مظهر التوقيعات الرقمية المضافة باستخدام GroupDocs.Signature لـ .NET؟
 بالتأكيد! يوفر GroupDocs.Signature خيارات تخصيص واسعة النطاق، مما يسمح لك بتخصيص مظهر التوقيعات الرقمية وفقًا لمتطلباتك المحددة.
 ### أين يمكنني العثور على الدعم أو الموارد الإضافية لـ GroupDocs.Signature لـ .NET؟
- يمكنك زيارة منتدى GroupDocs.Signature على[هذا الرابط](https://forum.groupdocs.com/c/signature/13) للحصول على المساعدة، أو الرجوع إلى الوثائق الشاملة المتاحة[هنا](https://reference.groupdocs.com/signature/net/).
+ يمكنك زيارة منتدى GroupDocs.Signature على[هذا الرابط](https://forum.groupdocs.com/c/signature/13) للحصول على المساعدة، أو الرجوع إلى الوثائق الشاملة المتاحة[هنا](https://tutorials.groupdocs.com/signature/net/).

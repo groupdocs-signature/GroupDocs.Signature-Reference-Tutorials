@@ -3,7 +3,6 @@ title: QR-code bijwerken
 linktitle: QR-code bijwerken
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u moeiteloos QR-codes in documenten kunt bijwerken met GroupDocs.Signature voor .NET. Verbeter eenvoudig het documentbeheer.
-type: docs
 weight: 12
 url: /nl/net/update-operations/update-qr-code/
 ---

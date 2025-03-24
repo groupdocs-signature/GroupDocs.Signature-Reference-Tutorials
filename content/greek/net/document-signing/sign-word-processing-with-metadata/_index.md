@@ -3,7 +3,6 @@ title: Επεξεργασία κειμένου υπογραφής με μετα�
 linktitle: Επεξεργασία κειμένου υπογραφής με μεταδεδομένα
 second_title: GroupDocs.Signature .NET API
 description: Μάθετε πώς να υπογράφετε έγγραφα επεξεργασίας κειμένου με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για .NET. Βελτιώστε την αυθεντικότητα και την ιχνηλασιμότητα των εγγράφων.
-type: docs
 weight: 14
 url: /el/net/document-signing/sign-word-processing-with-metadata/
 ---

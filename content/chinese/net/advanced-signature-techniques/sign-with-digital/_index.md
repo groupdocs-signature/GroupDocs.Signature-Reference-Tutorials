@@ -3,7 +3,6 @@ title: 使用数字签名进行签名
 linktitle: 使用数字签名进行签名
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature 在 .NET 中以数字方式签署文档。通过本综合教程增强安全性和真实性。
-type: docs
 weight: 12
 url: /zh/net/advanced-signature-techniques/sign-with-digital/
 ---

@@ -3,7 +3,6 @@ title: Dokumentuminformációk lekérése
 linktitle: Dokumentuminformációk lekérése
 second_title: GroupDocs.Signature .NET API
 description: Javítsa a dokumentumkezelést a .NET-ben a GroupDocs.Signature segítségével. A dokumentumadatok lekérése lépésről lépésre. Különféle formátumokat támogat.
-type: docs
 weight: 11
 url: /hu/net/document-preview-operations/retrieve-document-information/
 ---
@@ -75,6 +74,6 @@ Igen, a GroupDocs.Signature a dokumentumformátumok széles skáláját támogat
 ### A GroupDocs.Signature for .NET támogatja a digitális aláírásokat?
 A GroupDocs.Signature határozottan támogatja a digitális aláírásokat, biztosítva a dokumentumok hitelességét és integritását.
 ### Hol találok további dokumentációt és támogatást a GroupDocs.Signature for .NET-hez?
- Olvassa el az átfogó dokumentációt[itt](https://reference.groupdocs.com/signature/net/) , támogatásért pedig látogassa meg a GroupDocs fórumot[itt](https://forum.groupdocs.com/c/signature/13).
+ Olvassa el az átfogó dokumentációt[itt](https://tutorials.groupdocs.com/signature/net/) , támogatásért pedig látogassa meg a GroupDocs fórumot[itt](https://forum.groupdocs.com/c/signature/13).
 ### Kaphatók-e ideiglenes licencek a GroupDocs.Signature for .NET számára?
  Igen, az ideiglenes licencek megvásárolhatók[itt](https://purchase.groupdocs.com/temporary-license/).

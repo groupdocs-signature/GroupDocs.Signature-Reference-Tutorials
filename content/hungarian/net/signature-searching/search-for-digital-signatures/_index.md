@@ -3,7 +3,6 @@ title: Digitális aláírás keresése
 linktitle: Digitális aláírás keresése
 second_title: GroupDocs.Signature .NET API
 description: Ismerje meg, hogyan kereshet digitális aláírásokat dokumentumokban a GroupDocs.Signature for .NET használatával. Növelje a dokumentumok biztonságát és integritását ezzel az átfogóval.
-type: docs
 weight: 11
 url: /hu/net/signature-searching/search-for-digital-signatures/
 ---
@@ -58,7 +57,7 @@ Igen, a GroupDocs.Signature for .NET különféle dokumentumformátumokat támog
 ### Létezik ingyenes próbaverzió a GroupDocs.Signature for .NET számára?
 Igen, elérheti a GroupDocs.Signature for .NET ingyenes próbaverzióját innen[itt](https://releases.groupdocs.com/).
 ### Hol találom a GroupDocs.Signature for .NET dokumentációját?
- A GroupDocs.Signature for .NET részletes dokumentációja megtalálható[itt](https://reference.groupdocs.com/signature/net/).
+ A GroupDocs.Signature for .NET részletes dokumentációja megtalálható[itt](https://tutorials.groupdocs.com/signature/net/).
 ### Hogyan szerezhetek ideiglenes licenceket a GroupDocs.Signature for .NET számára?
  Ideiglenes licencek szerezhetők be a GroupDocs.Signature for .NET-hez[itt](https://purchase.groupdocs.com/temporary-license/).
 ### Hol kérhetek támogatást a GroupDocs.Signature for .NET-hez?

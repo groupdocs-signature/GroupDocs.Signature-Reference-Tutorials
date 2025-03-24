@@ -3,7 +3,6 @@ title: Firmar con firma digital
 linktitle: Firmar con firma digital
 second_title: API GroupDocs.Signature .NET
 description: Aprenda a firmar documentos digitalmente en .NET usando GroupDocs.Signature. Mejore la seguridad y la autenticidad con este completo tutorial.
-type: docs
 weight: 12
 url: /es/net/advanced-signature-techniques/sign-with-digital/
 ---

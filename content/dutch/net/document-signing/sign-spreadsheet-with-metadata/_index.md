@@ -3,7 +3,6 @@ title: Onderteken spreadsheet met metadata
 linktitle: Onderteken spreadsheet met metadata
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u spreadsheets met metagegevens kunt ondertekenen met Groupdocs.Signature voor .NET. Verbeter de documentintegriteit en -verificatie met handtekeningen met metadata.
-type: docs
 weight: 13
 url: /nl/net/document-signing/sign-spreadsheet-with-metadata/
 ---

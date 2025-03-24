@@ -3,7 +3,6 @@ title: Sprawdź operacje
 linktitle: Sprawdź operacje
 second_title: GroupDocs.Signature .NET API
 description: Dowiedz się, jak weryfikować kody kreskowe, podpisy cyfrowe, kody QR i tekst w dokumentach za pomocą GroupDocs.Signature .NET. Samouczki krok po kroku umożliwiające bezproblemową integrację.
-type: docs
 weight: 27
 url: /pl/net/verify-operations/
 ---

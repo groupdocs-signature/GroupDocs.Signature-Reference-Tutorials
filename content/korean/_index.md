@@ -3,7 +3,6 @@ title: 종합적인 GroupDocs.Signature 튜토리얼
 linktitle: GroupDocs.Signature 튜토리얼
 additionalTitle: GroupDocs API 참조
 description: GroupDocs.Signature 튜토리얼을 통해 .NET 및 Java의 마스터 문서 관리. 메타데이터 등을 생성, 확인, 추출합니다. 원활한 작업흐름을 위해 뛰어드세요!
-type: docs
 weight: 11
 url: /ko/
 is_root: true

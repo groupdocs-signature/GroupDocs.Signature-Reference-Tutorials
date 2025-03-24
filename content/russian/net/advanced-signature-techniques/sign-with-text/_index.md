@@ -3,7 +3,6 @@ title: Подписание с помощью текста с использов
 linktitle: Подписание с помощью текста
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как подписывать документы с помощью текста с помощью GroupDocs.Signature для .NET. Пошаговое руководство по программному добавлению текстовых подписей.
-type: docs
 weight: 17
 url: /ru/net/advanced-signature-techniques/sign-with-text/
 ---

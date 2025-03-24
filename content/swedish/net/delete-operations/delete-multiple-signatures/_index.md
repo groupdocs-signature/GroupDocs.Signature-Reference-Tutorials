@@ -3,7 +3,6 @@ title: Ta bort flera signaturer från dokument
 linktitle: Ta bort flera signaturer från dokument
 second_title: GroupDocs.Signature .NET API
 description: Ta enkelt bort flera signaturer från dokument med GroupDocs.Signature för .NET. Effektivisera ditt arbetsflöde för dokumenthantering.
-type: docs
 weight: 15
 url: /sv/net/delete-operations/delete-multiple-signatures/
 ---

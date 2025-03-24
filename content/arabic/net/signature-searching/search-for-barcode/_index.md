@@ -3,7 +3,6 @@ title: البحث عن الباركود
 linktitle: البحث عن الباركود
 second_title: GroupDocs.Signature .NET API
 description: تعرف على كيفية البحث عن توقيعات الرمز الشريطي في المستندات باستخدام GroupDocs.Signature لـ .NET. اتبع دليلنا خطوة بخطوة وقم بدمج التوقيع بكفاءة.
-type: docs
 weight: 10
 url: /ar/net/signature-searching/search-for-barcode/
 ---

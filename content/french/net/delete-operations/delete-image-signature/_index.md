@@ -3,7 +3,6 @@ title: Supprimer la signature de l'image
 linktitle: Supprimer la signature de l'image
 second_title: API GroupDocs.Signature .NET
 description: Découvrez comment supprimer des signatures d'image de documents à l'aide de GroupDocs.Signature pour .NET. Suivez notre guide étape par étape pour une gestion efficace des signatures.
-type: docs
 weight: 14
 url: /fr/net/delete-operations/delete-image-signature/
 ---

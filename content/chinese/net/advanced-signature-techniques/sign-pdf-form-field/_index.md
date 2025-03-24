@@ -3,7 +3,6 @@ title: 使用表单字段签署 PDF
 linktitle: 使用表单字段签署 PDF
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 通过表单字段签署 PDF 文档。轻松确保文件的真实性和完整性。
-type: docs
 weight: 10
 url: /zh/net/advanced-signature-techniques/sign-pdf-form-field/
 ---

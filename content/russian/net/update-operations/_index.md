@@ -3,7 +3,6 @@ title: Операции обновления
 linktitle: Операции обновления
 second_title: GroupDocs.Signature .NET API
 description: Обновите штрих-код, изображение, QR-код и текстовые подписи в документах .NET с помощью руководств GroupDocs.Signature для .NET. Повышение безопасности и управления документами.
-type: docs
 weight: 26
 url: /ru/net/update-operations/
 ---

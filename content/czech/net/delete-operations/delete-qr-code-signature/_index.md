@@ -3,7 +3,6 @@ title: Odstraňte podpis QR kódu z dokumentu
 linktitle: Odstraňte podpis QR kódu z dokumentu
 second_title: GroupDocs.Signature .NET API
 description: Přečtěte si, jak odstranit podpisy QR kódu z dokumentů pomocí GroupDocs.Signature for .NET. Postupujte podle našeho podrobného průvodce pro efektivní správu podpisů.
-type: docs
 weight: 16
 url: /cs/net/delete-operations/delete-qr-code-signature/
 ---

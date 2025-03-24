@@ -3,7 +3,6 @@ title: البحث في استخراج البيانات التعريفية لجد
 linktitle: البحث في استخراج البيانات التعريفية لجدول البيانات
 second_title: GroupDocs.Signature .NET API
 description: يمكنك استخراج بيانات التعريف بكفاءة من جداول البيانات باستخدام GroupDocs.Signature لـ .NET. تعزيز إدارة الوثائق وتحليلها دون عناء.
-type: docs
 weight: 13
 url: /ar/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ url: /ar/net/document-metadata-extraction/search-spreadsheet-metadata-extraction
 ## المتطلبات الأساسية
 قبل الغوص في تعقيدات البحث في بيانات تعريف جداول البيانات باستخدام GroupDocs.Signature for .NET، تأكد من توفر المتطلبات الأساسية التالية:
 ### 1. تثبيت GroupDocs.Signature لـ .NET
- أولاً وقبل كل شيء، قم بتنزيل وتثبيت GroupDocs.Signature لـ .NET باتباع الإرشادات الواردة في ملف[توثيق](https://reference.groupdocs.com/signature/net/). تعتبر هذه الخطوة ضرورية لدمج المكتبة في بيئة .NET الخاصة بك بسلاسة.
+ أولاً وقبل كل شيء، قم بتنزيل وتثبيت GroupDocs.Signature لـ .NET باتباع الإرشادات الواردة في ملف[توثيق](https://tutorials.groupdocs.com/signature/net/). تعتبر هذه الخطوة ضرورية لدمج المكتبة في بيئة .NET الخاصة بك بسلاسة.
 ### 2. الوصول إلى نموذج جدول البيانات
 قم بإعداد نموذج جدول بيانات (على سبيل المثال،`sample.xlsx`) الذي يحتوي على البيانات الوصفية التي ترغب في استخراجها. تأكد من إمكانية الوصول إلى جدول البيانات داخل بيئة التطوير الخاصة بك.
 

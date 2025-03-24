@@ -3,7 +3,6 @@ title: 從文件中刪除條碼
 linktitle: 從文件中刪除條碼
 second_title: GroupDocs.Signature .NET API
 description: 了解如何使用 GroupDocs.Signature for .NET 從文件中刪除條碼。帶有程式碼範例的分步指南。
-type: docs
 weight: 10
 url: /zh-hant/net/delete-operations/delete-barcode/
 ---

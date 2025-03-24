@@ -3,7 +3,6 @@ title: Textsignatur löschen
 linktitle: Textsignatur löschen
 second_title: GroupDocs.Signature .NET-API
 description: Löschen Sie mühelos Textsignaturen aus Dokumenten mit GroupDocs.Signature für .NET. Vereinfachen Sie Ihre Dokumentenverwaltungsaufgaben.
-type: docs
 weight: 17
 url: /de/net/delete-operations/delete-text-signature/
 ---

@@ -3,7 +3,6 @@ title: Επαλήθευση ψηφιακής υπογραφής
 linktitle: Επαλήθευση ψηφιακής υπογραφής
 second_title: GroupDocs.Signature .NET API
 description: Επαληθεύστε τις ψηφιακές υπογραφές στο .NET εύκολα χρησιμοποιώντας το GroupDocs.Signature. Διασφαλίστε τη γνησιότητα και την ακεραιότητα του εγγράφου χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/net/verify-operations/verify-digital/
 ---

@@ -3,7 +3,6 @@ title: Excluir assinatura de imagem
 linktitle: Excluir assinatura de imagem
 second_title: API GroupDocs.Signature .NET
 description: Aprenda como excluir assinaturas de imagens de documentos usando GroupDocs.Signature for .NET. Siga nosso guia passo a passo para um gerenciamento eficiente de assinaturas.
-type: docs
 weight: 14
 url: /pt/net/delete-operations/delete-image-signature/
 ---

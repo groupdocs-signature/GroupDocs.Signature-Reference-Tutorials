@@ -3,7 +3,6 @@ title: Belge İmzalama
 linktitle: Belge İmzalama
 second_title: GroupDocs.Signature .NET API'si
 description: GroupDocs.Signature .NET'i kullanarak görüntüleri, PDF'leri, sunumları, elektronik tabloları ve Word belgelerini meta verilerle imzalayın. Belgenin orijinalliğini ve bütünlüğünü geliştirin.
-type: docs
 weight: 24
 url: /tr/net/document-signing/
 ---

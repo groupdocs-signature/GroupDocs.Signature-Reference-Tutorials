@@ -3,7 +3,6 @@ title: Smazat podpis podle typu
 linktitle: Smazat podpis podle typu
 second_title: GroupDocs.Signature .NET API
 description: Naučte se, jak odstranit podpisy podle typu v dokumentech .NET bez námahy pomocí GroupDocs.Signature, což zvyšuje efektivitu správy dokumentů.
-type: docs
 weight: 12
 url: /cs/net/delete-operations/delete-signature-by-type/
 ---

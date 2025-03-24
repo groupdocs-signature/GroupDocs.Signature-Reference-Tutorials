@@ -3,7 +3,6 @@ title: QR 코드 확인
 linktitle: QR 코드 확인
 second_title: GroupDocs.Signature .NET API
 description: .NET용 GroupDocs.Signature를 사용하여 문서 내의 QR 코드를 확인하는 방법을 알아보세요. 단계별 가이드가 포함된 종합 튜토리얼입니다.
-type: docs
 weight: 12
 url: /ko/net/verify-operations/verify-qr-code/
 ---
@@ -79,4 +78,4 @@ else
 ### .NET용 GroupDocs.Signature의 임시 라이센스를 구입할 수 있습니까?
  예, 임시 라이센스는 다음 사이트에서 구입할 수 있습니다.[GroupDocs 구매 페이지](https://purchase.groupdocs.com/temporary-license/).
 ### .NET용 GroupDocs.Signature에 사용할 수 있는 광범위한 문서가 있습니까?
- 물론, 제공된 자세한 설명서를 참조할 수 있습니다.[여기](https://reference.groupdocs.com/signature/net/) .NET용 GroupDocs.Signature 기능 활용에 대한 포괄적인 지침을 보려면
+ 물론, 제공된 자세한 설명서를 참조할 수 있습니다.[여기](https://tutorials.groupdocs.com/signature/net/) .NET용 GroupDocs.Signature 기능 활용에 대한 포괄적인 지침을 보려면

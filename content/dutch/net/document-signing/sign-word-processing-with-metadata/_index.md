@@ -3,7 +3,6 @@ title: Teken tekstverwerking met metadata
 linktitle: Teken tekstverwerking met metadata
 second_title: GroupDocs.Signature .NET API
 description: Leer hoe u tekstverwerkingsdocumenten kunt ondertekenen met metagegevens met behulp van GroupDocs.Signature voor .NET. Verbeter de authenticiteit en traceerbaarheid van documenten.
-type: docs
 weight: 14
 url: /nl/net/document-signing/sign-word-processing-with-metadata/
 ---

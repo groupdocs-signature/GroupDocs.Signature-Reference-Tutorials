@@ -3,7 +3,6 @@ title: Удалить подпись по идентификатору
 linktitle: Удалить подпись по идентификатору
 second_title: GroupDocs.Signature .NET API
 description: Узнайте, как удалить подпись по идентификатору в документах .NET с помощью библиотеки GroupDocs.Signature. Простое пошаговое руководство.
-type: docs
 weight: 11
 url: /ru/net/delete-operations/delete-signature-by-id/
 ---

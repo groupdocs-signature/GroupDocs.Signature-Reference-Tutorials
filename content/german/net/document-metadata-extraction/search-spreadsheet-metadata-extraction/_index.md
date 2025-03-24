@@ -3,7 +3,6 @@ title: Extraktion von Metadaten aus Suchtabellen
 linktitle: Extraktion von Metadaten aus Suchtabellen
 second_title: GroupDocs.Signature .NET-API
 description: Extrahieren Sie effizient Metadaten aus Tabellenkalkulationen mit GroupDocs.Signature für .NET. Verbessern Sie mühelos die Dokumentenverwaltung und -analyse.
-type: docs
 weight: 13
 url: /de/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
@@ -12,7 +11,7 @@ Im Bereich der Dokumentenverwaltung und -verifizierung ist die Fähigkeit, Metad
 ## Voraussetzungen
 Bevor Sie sich mit den Feinheiten der Suche nach Tabellenkalkulationsmetadaten mithilfe von GroupDocs.Signature für .NET befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 ### 1. Installation von GroupDocs.Signature für .NET
- Laden Sie zunächst GroupDocs.Signature für .NET herunter und installieren Sie es, indem Sie den Anweisungen im folgen[Dokumentation](https://reference.groupdocs.com/signature/net/). Dieser Schritt ist entscheidend für die nahtlose Integration der Bibliothek in Ihre .NET-Umgebung.
+ Laden Sie zunächst GroupDocs.Signature für .NET herunter und installieren Sie es, indem Sie den Anweisungen im folgen[Dokumentation](https://tutorials.groupdocs.com/signature/net/). Dieser Schritt ist entscheidend für die nahtlose Integration der Bibliothek in Ihre .NET-Umgebung.
 ### 2. Zugriff auf eine Beispieltabelle
 Bereiten Sie eine Beispieltabelle vor (z. B.`sample.xlsx`), die Metadaten enthält, die Sie extrahieren möchten. Stellen Sie sicher, dass die Tabelle in Ihrer Entwicklungsumgebung zugänglich ist.
 
