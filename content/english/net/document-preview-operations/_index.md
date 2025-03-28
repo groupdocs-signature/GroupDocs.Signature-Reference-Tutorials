@@ -1,5 +1,5 @@
 ---
-title:  Comprehensive Document Preview & Management Operations
+title: Comprehensive Document Preview & Management Operations
 linktitle: Document Preview Operations
 second_title: GroupDocs.Signature .NET API
 description: Master document preview and information retrieval with GroupDocs.Signature for .NET. Learn to generate previews, extract metadata, and track document history in your applications.
