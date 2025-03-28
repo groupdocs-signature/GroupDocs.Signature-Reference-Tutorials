@@ -6,6 +6,9 @@ description: GroupDocs.Signature का उपयोग करके .NET मे
 weight: 10
 url: /hi/net/document-signing/sign-image-with-metadata/
 ---
+
+# मेटाडेटा के साथ छवि पर हस्ताक्षर करें
+
 ## परिचय
 .NET के लिए GroupDocs.Signature डेवलपर्स को मेटाडेटा के साथ छवियों पर कुशलतापूर्वक हस्ताक्षर करने में सक्षम बनाता है। यह ट्यूटोरियल चरण दर चरण प्रक्रिया में आपका मार्गदर्शन करता है।
 ## आवश्यक शर्तें

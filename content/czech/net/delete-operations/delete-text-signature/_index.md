@@ -6,6 +6,9 @@ description: Bez námahy odstraňte textové podpisy z dokumentů pomocí GroupD
 weight: 17
 url: /cs/net/delete-operations/delete-text-signature/
 ---
+
+# Smazat textový podpis
+
 ## Úvod
 GroupDocs.Signature for .NET je výkonná knihovna, která umožňuje vývojářům bezproblémově integrovat funkce elektronického podpisu do jejich aplikací .NET. Ať už vytváříte systém správy dokumentů, platformu pro podepisování smluv nebo jakoukoli jinou aplikaci, která vyžaduje funkci podpisu, GroupDocs.Signature for .NET poskytuje komplexní sadu nástrojů pro zjednodušení procesu.
 ## Předpoklady

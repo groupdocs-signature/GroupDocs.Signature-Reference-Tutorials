@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 從文件中刪除�
 weight: 13
 url: /zh-hant/net/delete-operations/delete-digital-signature/
 ---
+
+# 從文件中刪除數位簽名
+
 ## 介紹
 在數位文件的世界中，確保真實性和安全性至關重要。數位簽章在驗證電子文件的完整性方面發揮著至關重要的作用。 GroupDocs.Signature for .NET 提供了強大的工具來有效管理 .NET 應用程式中的數位簽章。
 ## 先決條件

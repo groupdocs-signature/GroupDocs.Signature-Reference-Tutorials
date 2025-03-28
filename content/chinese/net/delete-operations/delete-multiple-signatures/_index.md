@@ -6,6 +6,9 @@ description: 使用 GroupDocs.Signature for .NET 轻松删除文档中的多个�
 weight: 15
 url: /zh/net/delete-operations/delete-multiple-signatures/
 ---
+
+# 从文档中删除多个签名
+
 ## 介绍
 在数字世界中，文档管理通常涉及处理各种签名。以编程方式从文档中删除多个签名可以简化工作流程并提高效率。借助 GroupDocs.Signature for .NET，此任务变得无缝且简单。本教程将指导您逐步完成从文档中删除多个签名的过程。
 ## 先决条件

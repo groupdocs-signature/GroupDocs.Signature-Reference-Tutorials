@@ -6,6 +6,9 @@ description: Dowiedz się, jak weryfikować tekst w dokumentach za pomocą Group
 weight: 13
 url: /pl/net/verify-operations/verify-text/
 ---
+
+# Zweryfikuj tekst
+
 ## Wstęp
 tym samouczku przeprowadzimy Cię przez proces weryfikowania tekstu w dokumentach przy użyciu programu GroupDocs.Signature for .NET. Ta potężna biblioteka umożliwia bezproblemową integrację funkcji weryfikacji tekstu z aplikacjami .NET, zapewniając integralność i autentyczność dokumentów.
 ## Warunki wstępne

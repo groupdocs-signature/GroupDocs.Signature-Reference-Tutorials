@@ -6,6 +6,9 @@ description: Leer hoe u tekst in documenten kunt bijwerken met GroupDocs.Signatu
 weight: 13
 url: /nl/net/update-operations/update-text/
 ---
+
+# Tekst bijwerken
+
 ## Invoering
 GroupDocs.Signature voor .NET is een veelzijdige bibliotheek die is ontworpen om het proces van het werken met digitale handtekeningen in .NET-toepassingen te stroomlijnen. Dankzij de uitgebreide reeks functies kunnen ontwikkelaars eenvoudig de functionaliteit voor digitale handtekeningen in hun applicaties integreren, zodat gebruikers documenten gemakkelijk kunnen ondertekenen en bijwerken.
 ## Vereisten

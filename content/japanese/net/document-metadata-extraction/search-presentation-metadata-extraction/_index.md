@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用してプレゼンテーシ�
 weight: 12
 url: /ja/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---
+
+# プレゼンテーションのメタデータ抽出の検索
+
 ## 導入
 デジタル ドキュメントの分野では、ファイルの信頼性と整合性を確保することが最も重要です。 GroupDocs.Signature for .NET は、署名機能を .NET アプリケーションに統合するための包括的なソリューションを提供します。さまざまな機能の中で、際立った機能の 1 つは、プレゼンテーションのメタデータを正確かつ効率的に抽出する機能です。
 ## 前提条件

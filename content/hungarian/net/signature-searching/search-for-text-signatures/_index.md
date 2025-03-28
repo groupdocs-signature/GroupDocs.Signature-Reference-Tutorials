@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan kereshet szöveges aláírásokat digitális do
 weight: 16
 url: /hu/net/signature-searching/search-for-text-signatures/
 ---
+
+# Szöveges aláírás keresése
+
 ## Bevezetés
 A dokumentumkezelés és -hitelesítés területén a digitális dokumentumokon belüli szöveges aláírások hatékony keresésének képessége a legfontosabb. A GroupDocs.Signature for .NET hatékony megoldást kínál erre az igényre, átfogó eszközkészletet biztosítva a fejlesztőknek a szöveges aláírások különböző fájlformátumokon belüli megtalálásához. Ebben az oktatóanyagban a GroupDocs.Signature for .NET használatával történő szöveges aláírások keresésének folyamatába fogunk belemenni, az egyes lépéseket lebontva a megvalósítás egyértelmű megértése érdekében.
 ## Előfeltételek

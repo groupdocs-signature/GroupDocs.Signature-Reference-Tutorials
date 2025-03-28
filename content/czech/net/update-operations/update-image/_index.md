@@ -6,6 +6,9 @@ description: Naučte se, jak snadno aktualizovat podpisy obrázků v dokumentech
 weight: 11
 url: /cs/net/update-operations/update-image/
 ---
+
+# Aktualizovat obrázek
+
 ## Úvod
 V oblasti správy a ověřování dokumentů hrají digitální podpisy klíčovou roli při zajišťování integrity a pravosti elektronických dokumentů. GroupDocs.Signature for .NET nabízí vývojářům robustní řešení pro bezproblémové začlenění funkcí podpisu do jejich aplikací .NET. Mezi jeho řadou funkcí je aktualizace obrazových podpisů v dokumentech klíčovou schopností.
 ## Předpoklady

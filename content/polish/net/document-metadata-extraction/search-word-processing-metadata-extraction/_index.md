@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyszukiwać metadane edytora tekstu przy użyciu 
 weight: 14
 url: /pl/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
+
+# Wyszukaj ekstrakcję metadanych edytora tekstu
+
 ## Wstęp
 obszarze rozwoju .NET zarządzanie podpisami dokumentów i metadanymi odgrywa kluczową rolę w zapewnianiu integralności i autentyczności dokumentów. GroupDocs.Signature dla .NET zapewnia solidne rozwiązanie do wydajnej obsługi tych zadań. W tym samouczku szczegółowo opisano wykorzystanie narzędzia GroupDocs.Signature do wyszukiwania metadanych edytora tekstu w dokumentach, umożliwiając użytkownikom bezproblemowe wyodrębnianie niezbędnych informacji.
 ## Warunki wstępne

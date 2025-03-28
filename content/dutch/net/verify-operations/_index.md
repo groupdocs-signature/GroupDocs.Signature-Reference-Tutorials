@@ -6,6 +6,9 @@ description: Leer hoe u streepjescodes, digitale handtekeningen, QR-codes en tek
 weight: 27
 url: /nl/net/verify-operations/
 ---
+
+# Controleer bewerkingen
+
 ## Invoering
 
 Wilt u de documentverificatie beheersen met GroupDocs.Signature voor .NET? U bent op de juiste plaats. Of het nu gaat om het garanderen van de authenticiteit van streepjescodes, digitale handtekeningen, QR-codes of tekst in uw documenten, onze tutorials bieden stapsgewijze begeleiding voor een naadloze integratie.

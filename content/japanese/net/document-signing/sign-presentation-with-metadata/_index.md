@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用して、メタデータを�
 weight: 12
 url: /ja/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# メタデータを使用してプレゼンテーションに署名する
+
 ## 導入
 このチュートリアルでは、GroupDocs.Signature for .NET ライブラリを使用して、メタデータでプレゼンテーション ファイル (PPTX) に署名する方法を学習します。メタデータでプレゼンテーションに署名すると、作成者の名前、作成日、ドキュメント ID、署名 ID、さまざまな数値などの貴重な情報がドキュメントに追加されます。
 ## 前提条件

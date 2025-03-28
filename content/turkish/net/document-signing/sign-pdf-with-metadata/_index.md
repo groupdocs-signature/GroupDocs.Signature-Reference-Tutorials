@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak PDF belgelerini meta veri
 weight: 11
 url: /tr/net/document-signing/sign-pdf-with-metadata/
 ---
+
+# PDF'yi Meta Verilerle İmzalayın
+
 ## giriiş
 Bu öğreticide, GroupDocs.Signature for .NET'i kullanarak meta veriler içeren bir PDF belgesinin nasıl imzalanacağını öğreneceğiz. PDF'ye meta veriler eklemek, belge hakkında yazarlık, oluşturulma tarihi, belge kimliği ve daha fazlası gibi ek bilgiler sağlayabilir.
 ## Önkoşullar

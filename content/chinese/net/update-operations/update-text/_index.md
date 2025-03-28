@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 更新文档中的�
 weight: 13
 url: /zh/net/update-operations/update-text/
 ---
+
+# 更新文本
+
 ## 介绍
 GroupDocs.Signature for .NET 是一个多功能库，旨在简化在 .NET 应用程序中使用数字签名的过程。凭借其全面的功能，开发人员可以轻松地将数字签名功能集成到他们的应用程序中，从而使用户能够轻松签署和更新文档。
 ## 先决条件

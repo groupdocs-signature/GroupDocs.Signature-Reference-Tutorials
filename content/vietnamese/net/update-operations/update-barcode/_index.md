@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật chữ ký mã vạch trong tài li�
 weight: 10
 url: /vi/net/update-operations/update-barcode/
 ---
+
+# Cập nhật mã vạch
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách cập nhật chữ ký mã vạch trong tài liệu bằng GroupDocs.Signature cho .NET. GroupDocs.Signature cho .NET là một API mạnh mẽ cho phép các nhà phát triển làm việc với chữ ký số, bao gồm nhiều loại khác nhau như mã vạch, văn bản, hình ảnh, v.v. Chúng tôi sẽ thực hiện từng bước quy trình để đảm bảo bạn hiểu kỹ từng phần.
 ## Điều kiện tiên quyết

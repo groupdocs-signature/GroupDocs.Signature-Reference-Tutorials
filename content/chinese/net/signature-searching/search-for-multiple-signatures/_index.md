@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature 在 .NET 文档中搜索多�
 weight: 14
 url: /zh/net/signature-searching/search-for-multiple-signatures/
 ---
+
+# 搜索多重签名
+
 ## 介绍
 GroupDocs.Signature for .NET 是一个功能强大的库，使开发人员能够使用 .NET 应用程序添加、搜索和删除流行文档格式中的各种类型的签名。在本教程中，我们将重点介绍使用 GroupDocs.Signature for .NET 在文档中搜索多个签名。
 ## 先决条件

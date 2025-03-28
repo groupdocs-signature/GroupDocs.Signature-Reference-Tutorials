@@ -6,6 +6,9 @@ description: Leer hoe u naar QR-codes in documenten kunt zoeken met GroupDocs.Si
 weight: 15
 url: /nl/net/signature-searching/search-for-qr-codes/
 ---
+
+# Zoek naar QR-codes
+
 ## Invoering
 
 In het digitale tijdperk is het waarborgen van de authenticiteit en integriteit van documenten van cruciaal belang. GroupDocs.Signature voor .NET stelt ontwikkelaars in staat geavanceerde handtekeningfuncties naadloos te integreren in hun .NET-applicaties. Deze uitgebreide gids begeleidt u bij het gebruik van GroupDocs.Signature voor .NET om te zoeken naar QR-codes in documenten. Aan het eind heeft u een goed inzicht in hoe u deze krachtige tool kunt gebruiken om de documentbeveiliging en efficiëntie te verbeteren.

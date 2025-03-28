@@ -6,6 +6,9 @@ description: Pelajari cara menandatangani dokumen PDF dengan metadata menggunaka
 weight: 11
 url: /id/net/document-signing/sign-pdf-with-metadata/
 ---
+
+# Tanda tangani PDF dengan Metadata
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menandatangani dokumen PDF dengan metadata menggunakan GroupDocs.Signature untuk .NET. Menambahkan metadata ke PDF dapat memberikan informasi tambahan tentang dokumen, seperti penulis, tanggal pembuatan, ID dokumen, dan lainnya.
 ## Prasyarat

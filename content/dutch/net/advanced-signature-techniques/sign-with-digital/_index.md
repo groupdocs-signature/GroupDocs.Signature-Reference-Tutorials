@@ -6,6 +6,9 @@ description: Leer hoe u documenten digitaal kunt ondertekenen in .NET met behulp
 weight: 12
 url: /nl/net/advanced-signature-techniques/sign-with-digital/
 ---
+
+# Ondertekenen met digitale handtekening
+
 ## Invoering
 Digitale handtekeningen spelen een cruciale rol bij het waarborgen van de authenticiteit en integriteit van elektronische documenten. Op het gebied van .NET-ontwikkeling biedt GroupDocs.Signature een krachtige oplossing voor het naadloos integreren van digitale handtekeningen in uw toepassingen. Deze tutorial leidt u door het proces van het ondertekenen van een document met behulp van een digitale handtekening met GroupDocs.Signature voor .NET.
 ## Vereisten

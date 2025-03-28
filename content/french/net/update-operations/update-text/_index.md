@@ -6,6 +6,9 @@ description: Découvrez comment mettre à jour le texte dans des documents à l'
 weight: 13
 url: /fr/net/update-operations/update-text/
 ---
+
+# Mettre à jour le texte
+
 ## Introduction
 GroupDocs.Signature pour .NET est une bibliothèque polyvalente conçue pour rationaliser le processus d'utilisation des signatures numériques dans les applications .NET. Grâce à son ensemble complet de fonctionnalités, les développeurs peuvent facilement intégrer la fonctionnalité de signature numérique dans leurs applications, permettant ainsi aux utilisateurs de signer et de mettre à jour des documents en toute simplicité.
 ## Conditions préalables

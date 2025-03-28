@@ -6,6 +6,9 @@ description: Lär dig hur du söker efter streckkodssignaturer i dokument med Gr
 weight: 10
 url: /sv/net/signature-searching/search-for-barcode/
 ---
+
+# Sök efter streckkod
+
 ## Introduktion
 GroupDocs.Signature för .NET är ett kraftfullt verktyg för att lägga till och verifiera digitala signaturer i olika dokumentformat med .NET-applikationer. I den här handledningen kommer vi att fokusera på hur man söker efter streckkodssignaturer i ett dokument med GroupDocs.Signature för .NET.
 ## Förutsättningar

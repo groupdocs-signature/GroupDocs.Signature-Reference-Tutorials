@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature 在 .NET 中對文件進行�
 weight: 12
 url: /zh-hant/net/advanced-signature-techniques/sign-with-digital/
 ---
+
+# 使用數位簽名進行簽名
+
 ## 介紹
 數位簽章在確保電子文件的真實性和完整性方面發揮著至關重要的作用。在 .NET 開發領域，GroupDocs.Signature 提供了強大的解決方案，可將數位簽章無縫整合到您的應用程式中。本教學將引導您完成使用 GroupDocs.Signature for .NET 的數位簽章對文件進行簽署的流程。
 ## 先決條件

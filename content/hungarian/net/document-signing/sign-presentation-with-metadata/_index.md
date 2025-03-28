@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan írhat alá prezentációs fájlokat metaadatok
 weight: 12
 url: /hu/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# Prezentáció aláírása metaadatokkal
+
 ## Bevezetés
 Ebben az oktatóanyagban megtanuljuk, hogyan írhatunk alá egy prezentációs fájlt (PPTX) metaadatokkal a GroupDocs.Signature for .NET könyvtár használatával. A prezentációk metaadatokkal történő aláírása értékes információkat ad a dokumentumhoz, például a szerző nevét, létrehozásának dátumát, dokumentumazonosítóját, aláírási azonosítóját és különféle számértékeket.
 ## Előfeltételek

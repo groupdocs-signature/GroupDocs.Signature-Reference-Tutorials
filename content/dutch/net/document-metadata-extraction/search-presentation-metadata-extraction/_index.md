@@ -6,6 +6,9 @@ description: Leer hoe u metagegevens van presentaties kunt extraheren met GroupD
 weight: 12
 url: /nl/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---
+
+# Extractie van metagegevens van presentaties
+
 ## Invoering
 Op het gebied van digitale documentatie is het waarborgen van de authenticiteit en integriteit van bestanden van het allergrootste belang. GroupDocs.Signature voor .NET biedt een uitgebreide oplossing voor het integreren van handtekeningfunctionaliteiten in .NET-applicaties. Een van de vele functies die het meest opvalt, is het vermogen om metagegevens van presentaties nauwkeurig en efficiënt te extraheren.
 ## Vereisten

@@ -6,6 +6,9 @@ description: Bez wysiłku usuwaj podpisy tekstowe z dokumentów za pomocą Group
 weight: 17
 url: /pl/net/delete-operations/delete-text-signature/
 ---
+
+# Usuń podpis tekstowy
+
 ## Wstęp
 GroupDocs.Signature dla .NET to potężna biblioteka, która umożliwia programistom bezproblemową integrację funkcji podpisu elektronicznego z aplikacjami .NET. Niezależnie od tego, czy tworzysz system zarządzania dokumentami, platformę do podpisywania umów, czy jakąkolwiek inną aplikację wymagającą funkcjonalności podpisu, GroupDocs.Signature dla .NET zapewnia kompleksowy zestaw narzędzi upraszczających ten proces.
 ## Warunki wstępne

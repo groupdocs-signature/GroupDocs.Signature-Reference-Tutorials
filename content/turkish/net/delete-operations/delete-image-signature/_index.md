@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki resim imzala
 weight: 14
 url: /tr/net/delete-operations/delete-image-signature/
 ---
+
+# Resim İmzasını Sil
+
 ## giriiş
 Bu öğreticide, GroupDocs.Signature for .NET kullanarak belgelerdeki görüntü imzalarının nasıl silineceğini inceleyeceğiz. GroupDocs.Signature, geliştiricilerin çeşitli belge formatlarındaki dijital imzalar, damgalar ve form alanlarıyla çalışmasına olanak tanıyan güçlü bir kitaplıktır.
 ## Önkoşullar

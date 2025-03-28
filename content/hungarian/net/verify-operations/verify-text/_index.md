@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan ellenőrizheti a dokumentumok szövegét a Grou
 weight: 13
 url: /hu/net/verify-operations/verify-text/
 ---
+
+# Szöveg ellenőrzése
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a dokumentumokban lévő szövegek ellenőrzésének folyamatán a GroupDocs.Signature for .NET használatával. Ez a nagy teljesítményű könyvtár lehetővé teszi a szövegellenőrzési funkciók zökkenőmentes integrálását .NET-alkalmazásaiba, így biztosítva a dokumentumok integritását és hitelességét.
 ## Előfeltételek

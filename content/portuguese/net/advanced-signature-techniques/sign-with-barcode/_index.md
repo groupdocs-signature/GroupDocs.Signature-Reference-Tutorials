@@ -6,6 +6,9 @@ description: Aprenda como assinar documentos com código de barras usando GroupD
 weight: 11
 url: /pt/net/advanced-signature-techniques/sign-with-barcode/
 ---
+
+# Assinando com código de barras
+
 ## Introdução
 Na era digital de hoje, proteger documentos com assinaturas é fundamental, e o GroupDocs.Signature for .NET oferece uma solução perfeita para integrar assinaturas de código de barras em seus aplicativos. Neste tutorial, orientaremos você no processo de assinatura de um documento com código de barras usando GroupDocs.Signature for .NET.
 ## Pré-requisitos

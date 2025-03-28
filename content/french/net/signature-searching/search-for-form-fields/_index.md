@@ -6,6 +6,9 @@ description: Découvrez comment intégrer la fonctionnalité de signature dans v
 weight: 12
 url: /fr/net/signature-searching/search-for-form-fields/
 ---
+
+# Rechercher des champs de formulaire
+
 ## Introduction
 GroupDocs.Signature for .NET est un outil puissant permettant aux développeurs d'ajouter une fonctionnalité de signature à leurs applications .NET. Que vous construisiez un système de gestion de documents, une plateforme de signature de contrats ou toute autre application nécessitant une gestion des signatures, GroupDocs.Signature pour .NET fournit les fonctionnalités dont vous avez besoin pour intégrer la fonctionnalité de signature de manière transparente.
 ## Conditions préalables

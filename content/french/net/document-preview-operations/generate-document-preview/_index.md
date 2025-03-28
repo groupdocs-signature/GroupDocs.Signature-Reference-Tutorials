@@ -6,6 +6,9 @@ description: Découvrez comment générer des aperçus de documents à l'aide de
 weight: 10
 url: /fr/net/document-preview-operations/generate-document-preview/
 ---
+
+# Générer un aperçu du document
+
 ## Introduction
 À l’ère numérique d’aujourd’hui, où les documents sont au cœur de la communication et des transactions, garantir leur intégrité et leur authenticité est primordial. GroupDocs.Signature for .NET permet aux développeurs d'intégrer de manière transparente des fonctionnalités de signature de documents dans leurs applications .NET. Dans ce didacticiel, nous aborderons la génération d'aperçus de documents à l'aide de GroupDocs.Signature pour .NET, en fournissant des conseils étape par étape aux développeurs.
 ## Conditions préalables

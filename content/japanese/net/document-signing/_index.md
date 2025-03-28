@@ -6,6 +6,9 @@ description: GroupDocs.Signature .NET を使用して、メタデータを含む
 weight: 24
 url: /ja/net/document-signing/
 ---
+
+# 文書への署名
+
 ## 導入
 
 GroupDocs.Signature for .NET を使用して、メタデータを含むさまざまな種類のドキュメントに署名する方法を学びます。画像からスプレッドシートまで、文書の信頼性を簡単に確保します。

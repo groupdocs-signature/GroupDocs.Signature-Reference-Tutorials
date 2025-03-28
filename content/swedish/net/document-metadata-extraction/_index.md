@@ -7,6 +7,9 @@ weight: 22
 url: /sv/net/document-metadata-extraction/
 ---
 
+# Extrahering av dokumentmetadata
+
+
 ## Introduktion
 
 dagens digitala landskap är hantering av dokumentintegritet och autenticitet av största vikt. GroupDocs.Signature för .NET ger utvecklare möjlighet att sömlöst extrahera metadata från olika dokumenttyper, vilket förbättrar dokumenthanteringsmöjligheterna. Låt oss dyka in i en serie självstudiekurser som utforskar hur man kan utnyttja den fulla potentialen av extrahering av metadata i olika dokumentformat.

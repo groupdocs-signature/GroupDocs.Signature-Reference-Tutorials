@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 문서에서 여러 서
 weight: 15
 url: /ko/net/delete-operations/delete-multiple-signatures/
 ---
+
+# 문서에서 여러 서명 삭제
+
 ## 소개
 디지털 세계에서 문서 관리에는 다양한 서명 처리가 포함되는 경우가 많습니다. 문서에서 여러 서명을 프로그래밍 방식으로 삭제하면 작업 흐름을 간소화하고 효율성을 높일 수 있습니다. .NET용 GroupDocs.Signature를 사용하면 이 작업이 원활하고 간단해집니다. 이 튜토리얼은 문서에서 여러 서명을 삭제하는 과정을 단계별로 안내합니다.
 ## 전제 조건

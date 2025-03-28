@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 메타데이터로 워�
 weight: 14
 url: /ko/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# 메타데이터를 사용한 서명 워드 처리
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Signature를 사용하여 메타데이터로 워드 프로세싱 문서에 서명하는 과정을 안내합니다. 메타데이터 서명을 사용하면 작성자 이름, 생성 날짜, 문서 ID 등과 같은 추가 정보를 문서에 포함할 수 있습니다.
 ## 전제 조건

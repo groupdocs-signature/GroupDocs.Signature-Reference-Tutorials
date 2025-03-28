@@ -6,6 +6,9 @@ description: Leer hoe u documenten met tekst kunt ondertekenen met GroupDocs.Sig
 weight: 17
 url: /nl/net/advanced-signature-techniques/sign-with-text/
 ---
+
+# Ondertekenen met tekst met GroupDocs.Signature voor .NET
+
 ## Invoering
 In het digitale tijdperk is het elektronisch ondertekenen van documenten een standaardpraktijk geworden, waardoor tijd en middelen worden bespaard. GroupDocs.Signature voor .NET biedt een uitgebreide oplossing voor het programmatisch toevoegen van teksthandtekeningen aan verschillende documentformaten. In deze zelfstudie begeleiden we u bij het ondertekenen van een document met tekst met GroupDocs.Signature voor .NET.
 ## Vereisten

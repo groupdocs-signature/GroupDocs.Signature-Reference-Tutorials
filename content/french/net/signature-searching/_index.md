@@ -6,6 +6,9 @@ description: Apprenez à rechercher des signatures dans des documents .NET avec 
 weight: 23
 url: /fr/net/signature-searching/
 ---
+
+# Recherche de signature
+
 ## Introduction
 
 Êtes-vous prêt à renforcer la sécurité et l'intégrité des documents de votre application .NET ? Plongez dans nos didacticiels complets sur la recherche de signatures avec GroupDocs.Signature pour .NET. Que vous soyez un développeur chevronné ou tout juste débutant, nos guides étape par étape vous permettront de mettre en œuvre sans effort des fonctionnalités avancées de recherche de signatures.

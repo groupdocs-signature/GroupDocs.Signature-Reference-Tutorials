@@ -6,6 +6,9 @@ description: Pelajari cara mencari tanda tangan kode batang di dokumen menggunak
 weight: 10
 url: /id/net/signature-searching/search-for-barcode/
 ---
+
+# Cari Kode Batang
+
 ## Perkenalan
 GroupDocs.Signature for .NET adalah alat yang ampuh untuk menambahkan dan memverifikasi tanda tangan digital dalam berbagai format dokumen menggunakan aplikasi .NET. Dalam tutorial ini, kita akan fokus pada cara mencari tanda tangan barcode dalam dokumen menggunakan GroupDocs.Signature untuk .NET.
 ## Prasyarat

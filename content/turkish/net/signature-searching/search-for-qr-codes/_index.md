@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki QR kodların
 weight: 15
 url: /tr/net/signature-searching/search-for-qr-codes/
 ---
+
+# QR Kodlarını arayın
+
 ## giriiş
 
 Dijital çağda belgelerin orijinalliğini ve bütünlüğünü sağlamak çok önemlidir. GroupDocs.Signature for .NET, geliştiricilerin gelişmiş imza özelliklerini .NET uygulamalarına sorunsuz bir şekilde entegre etmelerine olanak tanır. Bu kapsamlı kılavuz, belgeler içindeki QR kodlarını aramak için GroupDocs.Signature for .NET'ten yararlanma sürecinde size yol gösterecektir. Sonunda, belge güvenliğini ve verimliliğini artırmak için bu güçlü araçtan nasıl yararlanacağınız konusunda sağlam bir anlayışa sahip olacaksınız.

@@ -6,6 +6,9 @@ description: Aprenda a pesquisar assinaturas em documentos .NET com os tutoriais
 weight: 23
 url: /pt/net/signature-searching/
 ---
+
+# Pesquisa de assinatura
+
 ## Introdução
 
 Você está pronto para aumentar a segurança e a integridade dos documentos do seu aplicativo .NET? Mergulhe em nossos tutoriais abrangentes sobre pesquisa de assinaturas com GroupDocs.Signature for .NET. Quer você seja um desenvolvedor experiente ou esteja apenas começando, nossos guias passo a passo permitirão que você implemente funcionalidades avançadas de pesquisa de assinaturas sem esforço.

@@ -6,6 +6,9 @@ description: Pelajari cara mencari beberapa tanda tangan di dokumen .NET menggun
 weight: 14
 url: /id/net/signature-searching/search-for-multiple-signatures/
 ---
+
+# Cari Banyak Tanda Tangan
+
 ## Perkenalan
 GroupDocs.Signature untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang menambahkan, mencari, dan menghapus berbagai jenis tanda tangan dalam format dokumen populer menggunakan aplikasi .NET. Dalam tutorial ini, kita akan fokus mencari beberapa tanda tangan dalam dokumen menggunakan GroupDocs.Signature untuk .NET.
 ## Prasyarat

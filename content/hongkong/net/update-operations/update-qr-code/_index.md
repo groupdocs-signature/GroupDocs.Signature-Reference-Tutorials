@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 輕鬆更新文件�
 weight: 12
 url: /zh-hant/net/update-operations/update-qr-code/
 ---
+
+# 更新二維碼
+
 ## 介紹
 在當今的數位世界中，安全地以電子方式簽署文件的能力對於企業和個人來說已經變得至關重要。無論是合約、協議或表格，電子簽名都簡化了簽署流程，節省了時間和資源。 GroupDocs.Signature for .NET 是一個功能強大的工具，使開發人員能夠輕鬆地將強大的電子簽名功能整合到他們的 .NET 應用程式中。在本教學中，我們將探討如何使用適用於 .NET 的 GroupDocs.Signature 更新文件中的 QR 程式碼，引導您清晰且準確地完成每個步驟。
 ## 先決條件

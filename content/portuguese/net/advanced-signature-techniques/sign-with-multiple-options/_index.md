@@ -6,6 +6,9 @@ description: Aprenda como assinar documentos com múltiplas opções usando Grou
 weight: 14
 url: /pt/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# Assinando com múltiplas opções
+
 ## Introdução
 Neste tutorial, exploraremos como assinar um documento usando várias opções de assinatura usando a biblioteca GroupDocs.Signature para .NET. Assinar documentos com várias opções, como texto, código de barras, código QR, assinatura digital, imagem e metadados, pode fornecer versatilidade e aumentar a segurança dos documentos.
 ## Pré-requisitos

@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 메타데이터로 프�
 weight: 12
 url: /ko/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# 메타데이터로 프레젠테이션에 서명
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Signature 라이브러리를 사용하여 메타데이터로 프레젠테이션 파일(PPTX)에 서명하는 방법을 알아봅니다. 메타데이터로 프레젠테이션에 서명하면 작성자 이름, 생성 날짜, 문서 ID, 서명 ID 및 다양한 숫자 값과 같은 중요한 정보가 문서에 추가됩니다.
 ## 전제 조건

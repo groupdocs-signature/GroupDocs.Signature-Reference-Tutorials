@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET nach Bildme
 weight: 10
 url: /de/net/document-metadata-extraction/search-image-metadata-extraction/
 ---
+
+# Suchen Sie nach Bildmetadatenextraktion mit GroupDocs.Signature
+
 ## Einführung
 Im digitalen Zeitalter ist die Gewährleistung der Integrität und Authentizität von Dokumenten von größter Bedeutung. Ganz gleich, ob es sich um Verträge, rechtliche Vereinbarungen oder wichtige Unterlagen handelt, eine zuverlässige Methode zum Unterzeichnen und Überprüfen von Dokumenten ist von entscheidender Bedeutung. GroupDocs.Signature für .NET bietet eine umfassende Lösung zum Hinzufügen und Überprüfen von Signaturen in verschiedenen Dokumentformaten. In diesem Tutorial befassen wir uns mit der Suche nach Bildmetadatensignaturen mithilfe von GroupDocs.Signature für .NET. 
 ## Voraussetzungen

@@ -6,6 +6,9 @@ description: Aprenda cómo agregar firmas de sello a sus documentos .NET fácilm
 weight: 16
 url: /es/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# Firmar con Stamp usando GroupDocs.Signature
+
 ## Introducción
 En este tutorial, lo guiaremos a través del proceso de firmar un documento con un sello usando GroupDocs.Signature para .NET. Si sigue estas instrucciones paso a paso, podrá agregar un sello de firma a sus documentos con facilidad.
 ## Requisitos previos

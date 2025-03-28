@@ -6,6 +6,9 @@ description: Aprenda como adicionar assinaturas de código QR aos seus documento
 weight: 15
 url: /pt/net/advanced-signature-techniques/sign-with-qr-code/
 ---
+
+# Assinando documentos com código QR usando GroupDocs.Signature
+
 ## Introdução
 Neste tutorial, percorreremos o processo de assinatura de documentos com um código QR usando GroupDocs.Signature for .NET. GroupDocs.Signature for .NET é uma API poderosa que permite aos desenvolvedores adicionar vários tipos de assinaturas a documentos digitais de forma programática. Assinar documentos com códigos QR pode fornecer uma camada adicional de segurança e autenticação aos seus documentos.
 ## Pré-requisitos

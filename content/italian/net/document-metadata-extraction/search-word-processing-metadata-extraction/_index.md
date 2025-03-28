@@ -6,6 +6,9 @@ description: Scopri come eseguire ricerche nei metadati di elaborazione testi ut
 weight: 14
 url: /it/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
+
+# Cerca Estrazione di metadati di elaborazione testi
+
 ## introduzione
 Nell'ambito dello sviluppo .NET, la gestione delle firme e dei metadati dei documenti svolge un ruolo fondamentale nel garantire l'integrità e l'autenticità dei documenti. GroupDocs.Signature per .NET fornisce una soluzione solida per gestire queste attività in modo efficiente. Questo tutorial approfondisce l'utilizzo di GroupDocs.Signature per cercare metadati di elaborazione testi all'interno dei documenti, consentendo agli utenti di estrarre facilmente le informazioni essenziali.
 ## Prerequisiti

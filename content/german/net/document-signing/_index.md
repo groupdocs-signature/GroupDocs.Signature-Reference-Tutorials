@@ -6,6 +6,9 @@ description: Signieren Sie Bilder, PDFs, Präsentationen, Tabellenkalkulationen 
 weight: 24
 url: /de/net/document-signing/
 ---
+
+# Unterzeichnen von Dokumenten
+
 ## Einführung
 
 Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET verschiedene Arten von Dokumenten mit Metadaten signieren. Stellen Sie von Bildern bis hin zu Tabellenkalkulationen mühelos die Authentizität von Dokumenten sicher.

@@ -6,6 +6,9 @@ description: 使用 GroupDocs.Signature 轻松验证 .NET 中的数字签名。�
 weight: 11
 url: /zh/net/verify-operations/verify-digital/
 ---
+
+# 验证数字签名
+
 ## 介绍
 在数字文档领域，确保真实性和完整性至关重要。数字签名相当于手写签名的数字形式，提供了一种验证电子文档的来源和完整性的安全方法。 GroupDocs.Signature for .NET 提供了一个强大的工具包，用于在 .NET 应用程序中处理数字签名，从而轻松地促进数字签名的验证。
 ## 先决条件

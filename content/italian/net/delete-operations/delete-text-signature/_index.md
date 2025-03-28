@@ -6,6 +6,9 @@ description: Elimina facilmente le firme di testo dai documenti utilizzando Grou
 weight: 17
 url: /it/net/delete-operations/delete-text-signature/
 ---
+
+# Elimina firma testo
+
 ## introduzione
 GroupDocs.Signature per .NET è una potente libreria che consente agli sviluppatori di integrare perfettamente funzionalità di firma elettronica nelle loro applicazioni .NET. Che tu stia creando un sistema di gestione dei documenti, una piattaforma per la firma di contratti o qualsiasi altra applicazione che richieda funzionalità di firma, GroupDocs.Signature per .NET fornisce un set completo di strumenti per semplificare il processo.
 ## Prerequisiti

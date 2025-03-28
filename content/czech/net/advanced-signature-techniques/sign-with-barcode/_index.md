@@ -6,6 +6,9 @@ description: Naučte se podepisovat dokumenty pomocí čárového kódu pomocí 
 weight: 11
 url: /cs/net/advanced-signature-techniques/sign-with-barcode/
 ---
+
+# Podepisování pomocí čárového kódu
+
 ## Úvod
 V dnešní digitální době je zabezpečení dokumentů pomocí podpisů prvořadé a GroupDocs.Signature for .NET nabízí bezproblémové řešení pro integraci podpisů čárových kódů do vašich aplikací. V tomto tutoriálu vás provedeme procesem podepisování dokumentu čárovým kódem pomocí GroupDocs.Signature for .NET.
 ## Předpoklady

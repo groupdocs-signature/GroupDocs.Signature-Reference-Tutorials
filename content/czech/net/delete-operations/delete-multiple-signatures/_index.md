@@ -6,6 +6,9 @@ description: Bez námahy odstraňte více podpisů z dokumentů pomocí GroupDoc
 weight: 15
 url: /cs/net/delete-operations/delete-multiple-signatures/
 ---
+
+# Odstranit více podpisů z dokumentu
+
 ## Úvod
 V digitálním světě správa dokumentů často zahrnuje manipulaci s různými podpisy. Programové odstranění více podpisů z dokumentu může zefektivnit pracovní postupy a zvýšit efektivitu. S GroupDocs.Signature pro .NET se tento úkol stává bezproblémovým a přímočarým. Tento tutoriál vás krok za krokem provede procesem odstranění více podpisů z dokumentu.
 ## Předpoklady

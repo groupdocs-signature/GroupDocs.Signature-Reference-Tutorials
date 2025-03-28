@@ -6,6 +6,9 @@ description: Tìm hiểu cách xóa chữ ký theo loại trong tài liệu .NET
 weight: 12
 url: /vi/net/delete-operations/delete-signature-by-type/
 ---
+
+# Xóa chữ ký theo loại
+
 ## Giới thiệu
 Trong thời đại kỹ thuật số ngày nay, nhu cầu quản lý tài liệu hiệu quả là điều tối quan trọng. Cho dù bạn là một chuyên gia kinh doanh xử lý các hợp đồng hay một cá nhân đang xử lý các tài liệu pháp lý thì việc đảm bảo tính xác thực và tính toàn vẹn của các tệp của bạn là rất quan trọng. GroupDocs.Signature cho .NET cung cấp giải pháp mạnh mẽ để quản lý chữ ký trong tài liệu của bạn một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào quy trình xóa chữ ký theo loại bằng GroupDocs.Signature cho .NET, cung cấp cho bạn hướng dẫn từng bước để hợp lý hóa các tác vụ quản lý tài liệu của bạn.
 ## Điều kiện tiên quyết

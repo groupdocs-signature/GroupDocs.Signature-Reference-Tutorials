@@ -6,6 +6,9 @@ description: Tìm hiểu cách ký tài liệu PDF có siêu dữ liệu bằng 
 weight: 11
 url: /vi/net/document-signing/sign-pdf-with-metadata/
 ---
+
+# Ký PDF bằng siêu dữ liệu
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách ký tài liệu PDF có siêu dữ liệu bằng GroupDocs.Signature cho .NET. Việc thêm siêu dữ liệu vào tệp PDF có thể cung cấp thông tin bổ sung về tài liệu, chẳng hạn như quyền tác giả, ngày tạo, ID tài liệu, v.v.
 ## Điều kiện tiên quyết

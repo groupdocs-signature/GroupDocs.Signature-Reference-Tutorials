@@ -6,6 +6,9 @@ description: Z łatwością weryfikuj podpisy cyfrowe w .NET za pomocą GroupDoc
 weight: 11
 url: /pl/net/verify-operations/verify-digital/
 ---
+
+# Zweryfikuj podpis cyfrowy
+
 ## Wstęp
 W dziedzinie dokumentów cyfrowych zapewnienie autentyczności i integralności jest sprawą najwyższej wagi. Podpisy cyfrowe służą jako cyfrowy odpowiednik podpisów odręcznych, zapewniając bezpieczny sposób weryfikacji pochodzenia i integralności dokumentów elektronicznych. GroupDocs.Signature for .NET oferuje potężny zestaw narzędzi do pracy z podpisami cyfrowymi w aplikacjach .NET, ułatwiający weryfikację podpisów cyfrowych.
 ## Warunki wstępne

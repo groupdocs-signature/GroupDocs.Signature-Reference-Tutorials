@@ -6,6 +6,9 @@ description: Dowiedz się, jak podpisywać pliki prezentacji metadanymi przy uż
 weight: 12
 url: /pl/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# Podpisz prezentację metadanymi
+
 ## Wstęp
 tym samouczku dowiemy się, jak podpisać plik prezentacji (PPTX) metadanymi przy użyciu biblioteki GroupDocs.Signature for .NET. Podpisywanie prezentacji metadanymi dodaje do dokumentu cenne informacje, takie jak imię i nazwisko autora, data utworzenia, identyfikator dokumentu, identyfikator podpisu i różne wartości liczbowe.
 ## Warunki wstępne

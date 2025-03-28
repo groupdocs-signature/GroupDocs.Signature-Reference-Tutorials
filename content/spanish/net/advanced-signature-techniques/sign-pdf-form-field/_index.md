@@ -6,6 +6,9 @@ description: Aprenda a firmar documentos PDF con campos de formulario usando Gro
 weight: 10
 url: /es/net/advanced-signature-techniques/sign-pdf-form-field/
 ---
+
+# Firmar PDF con campo de formulario
+
 ## Introducción
 Las firmas digitales proporcionan una forma segura y legalmente vinculante de firmar documentos electrónicamente, garantizando su autenticidad e integridad. En este tutorial, aprenderemos cómo firmar un documento PDF que contiene campos de formulario usando la biblioteca GroupDocs.Signature para .NET.
 ## Requisitos previos

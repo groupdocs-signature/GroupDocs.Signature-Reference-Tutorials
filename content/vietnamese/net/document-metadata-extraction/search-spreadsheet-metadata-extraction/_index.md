@@ -6,6 +6,9 @@ description: Trích xuất siêu dữ liệu từ bảng tính một cách hiệ
 weight: 13
 url: /vi/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
+
+# Tìm kiếm trích xuất siêu dữ liệu bảng tính
+
 ## Giới thiệu
 Trong lĩnh vực quản lý và xác minh tài liệu, khả năng trích xuất siêu dữ liệu từ bảng tính một cách hiệu quả là điều tối quan trọng. Trích xuất siêu dữ liệu không chỉ hỗ trợ hiểu ngữ cảnh và thuộc tính của tài liệu mà còn hợp lý hóa các quy trình như xác minh tuân thủ và phân tích dữ liệu. GroupDocs.Signature dành cho .NET cung cấp một giải pháp mạnh mẽ để tìm kiếm siêu dữ liệu bảng tính một cách liền mạch, cung cấp cho các nhà phát triển một công cụ mạnh mẽ để nâng cao các ứng dụng tập trung vào tài liệu của họ.
 ## Điều kiện tiên quyết

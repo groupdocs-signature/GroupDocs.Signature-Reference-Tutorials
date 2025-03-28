@@ -6,6 +6,9 @@ description: A GroupDocs.Signature .NET segítségével aláírhat képeket, PDF
 weight: 24
 url: /hu/net/document-signing/
 ---
+
+# Dokumentum aláírása
+
 ## Bevezetés
 
 Ismerje meg, hogyan írhat alá különféle típusú dokumentumokat metaadatokkal a GroupDocs.Signature for .NET segítségével. A képektől a táblázatokig könnyedén biztosíthatja a dokumentumok hitelességét.

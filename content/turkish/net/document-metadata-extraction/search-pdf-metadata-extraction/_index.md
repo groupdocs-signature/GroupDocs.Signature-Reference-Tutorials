@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak PDF belgelerinden meta ve
 weight: 11
 url: /tr/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# PDF Meta Veri Çıkarma'da Ara
+
 ## giriiş
 Dijital belge yönetimi alanında, dosyaların orijinalliğini ve bütünlüğünü sağlamak çok önemlidir. Bunun önemli bir yönü, PDF meta verilerini verimli bir şekilde arama yeteneğidir. PDF belgelerindeki meta veri imzaları, dosyanın kaynağı, yazarlığı ve içeriği hakkında değerli bilgiler sağlar.
 ## Önkoşullar

@@ -6,6 +6,9 @@ description: Pelajari cara mencari dan mengekstrak tanda tangan metadata dari do
 weight: 11
 url: /id/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# Cari Ekstraksi Metadata PDF
+
 ## Perkenalan
 Dalam bidang pengelolaan dokumen digital, memastikan keaslian dan integritas file adalah hal yang terpenting. Salah satu aspek penting dari hal ini adalah kemampuan untuk mencari metadata PDF secara efisien. Tanda tangan metadata dalam dokumen PDF memberikan informasi berharga tentang asal file, penulis, dan konten.
 ## Prasyarat

@@ -6,6 +6,9 @@ description: Aprenda a verificar códigos de barras, firmas digitales, códigos 
 weight: 27
 url: /es/net/verify-operations/
 ---
+
+# Verificar operaciones
+
 ## Introducción
 
 ¿Quiere dominar la verificación de documentos utilizando GroupDocs.Signature para .NET? Estás en el lugar correcto. Ya sea para garantizar la autenticidad de códigos de barras, firmas digitales, códigos QR o texto dentro de sus documentos, nuestros tutoriales brindan orientación paso a paso para una integración perfecta.

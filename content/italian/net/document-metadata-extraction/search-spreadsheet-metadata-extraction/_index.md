@@ -6,6 +6,9 @@ description: Estrai in modo efficiente i metadati dai fogli di calcolo utilizzan
 weight: 13
 url: /it/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
+
+# Cerca Estrazione dei metadati del foglio di calcolo
+
 ## introduzione
 Nell’ambito della gestione e verifica dei documenti, la capacità di estrarre in modo efficiente i metadati dai fogli di calcolo è fondamentale. L'estrazione dei metadati non solo aiuta a comprendere il contesto e le proprietà di un documento, ma semplifica anche processi come la verifica della conformità e l'analisi dei dati. GroupDocs.Signature per .NET offre una soluzione solida per la ricerca continua dei metadati dei fogli di calcolo, fornendo agli sviluppatori un potente strumento per migliorare le loro applicazioni incentrate sui documenti.
 ## Prerequisiti

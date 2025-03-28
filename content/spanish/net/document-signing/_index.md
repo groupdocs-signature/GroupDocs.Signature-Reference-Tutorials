@@ -6,6 +6,9 @@ description: Firme imágenes, archivos PDF, presentaciones, hojas de cálculo y 
 weight: 24
 url: /es/net/document-signing/
 ---
+
+# Firma de documentos
+
 ## Introducción
 
 Aprenda a firmar varios tipos de documentos con metadatos utilizando GroupDocs.Signature para .NET. Desde imágenes hasta hojas de cálculo, garantice la autenticidad de los documentos sin esfuerzo.

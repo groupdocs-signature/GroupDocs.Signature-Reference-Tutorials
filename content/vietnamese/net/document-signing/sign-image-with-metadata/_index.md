@@ -6,6 +6,9 @@ description: Tìm hiểu cách ký hình ảnh bằng siêu dữ liệu trong .N
 weight: 10
 url: /vi/net/document-signing/sign-image-with-metadata/
 ---
+
+# Hình ảnh ký hiệu với siêu dữ liệu
+
 ## Giới thiệu
 GroupDocs.Signature for .NET cho phép các nhà phát triển ký hình ảnh bằng siêu dữ liệu một cách hiệu quả. Hướng dẫn này hướng dẫn bạn từng bước thực hiện quy trình.
 ## Điều kiện tiên quyết

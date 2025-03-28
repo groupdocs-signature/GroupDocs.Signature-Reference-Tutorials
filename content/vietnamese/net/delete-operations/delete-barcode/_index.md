@@ -6,6 +6,9 @@ description: Tìm hiểu cách xóa mã vạch khỏi tài liệu bằng GroupDo
 weight: 10
 url: /vi/net/delete-operations/delete-barcode/
 ---
+
+# Xóa mã vạch khỏi tài liệu
+
 ## Giới thiệu
 GroupDocs.Signature cho .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với chữ ký số, tem và mã vạch trong các ứng dụng .NET. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xóa mã vạch khỏi tài liệu bằng GroupDocs.Signature cho .NET.
 ## Điều kiện tiên quyết

@@ -6,6 +6,9 @@ description: Efektivně extrahujte metadata z tabulek pomocí GroupDocs.Signatur
 weight: 13
 url: /cs/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
+
+# Prohledejte extrakce metadat tabulky
+
 ## Úvod
 oblasti správy a ověřování dokumentů je schopnost efektivně extrahovat metadata z tabulek prvořadá. Extrakce metadat nejen pomáhá porozumět kontextu a vlastnostem dokumentu, ale také zjednodušuje procesy, jako je ověřování souladu a analýza dat. GroupDocs.Signature for .NET nabízí robustní řešení pro bezproblémové vyhledávání metadat tabulek a poskytuje vývojářům výkonný nástroj pro vylepšení jejich aplikací zaměřených na dokumenty.
 ## Předpoklady

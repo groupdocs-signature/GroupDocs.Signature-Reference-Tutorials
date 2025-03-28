@@ -6,6 +6,9 @@ description: Scopri come aggiungere firme di codici QR ai tuoi documenti con Gro
 weight: 15
 url: /it/net/advanced-signature-techniques/sign-with-qr-code/
 ---
+
+# Firma di documenti con codice QR utilizzando GroupDocs.Signature
+
 ## introduzione
 In questo tutorial, esamineremo il processo di firma dei documenti con un codice QR utilizzando GroupDocs.Signature per .NET. GroupDocs.Signature per .NET è una potente API che consente agli sviluppatori di aggiungere vari tipi di firme ai documenti digitali in modo programmatico. La firma di documenti con codici QR può fornire un ulteriore livello di sicurezza e autenticazione ai tuoi documenti.
 ## Prerequisiti

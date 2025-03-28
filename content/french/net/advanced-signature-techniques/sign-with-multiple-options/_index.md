@@ -6,6 +6,9 @@ description: Découvrez comment signer des documents avec plusieurs options à l
 weight: 14
 url: /fr/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# Signature avec plusieurs options
+
 ## Introduction
 Dans ce didacticiel, nous allons explorer comment signer un document à l'aide de plusieurs options de signature à l'aide de la bibliothèque GroupDocs.Signature pour .NET. La signature de documents avec diverses options telles que les signatures de texte, de code-barres, de code QR, numérique, d'image et de métadonnées peut offrir une polyvalence et améliorer la sécurité des documents.
 ## Conditions préalables

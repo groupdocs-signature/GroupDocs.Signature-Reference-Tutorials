@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 將 QR 程式碼簽
 weight: 15
 url: /zh-hant/net/advanced-signature-techniques/sign-with-qr-code/
 ---
+
+# 使用 GroupDocs.Signature 透過 QR 碼簽署文檔
+
 ## 介紹
 在本教學中，我們將演練使用 GroupDocs.Signature for .NET 透過 QR 程式碼簽署文件的流程。 GroupDocs.Signature for .NET 是一個功能強大的 API，可讓開發人員以程式設計方式為數位文件添加各種類型的簽章。使用二維碼簽署文件可以為您的文件提供額外的安全性和驗證層。
 ## 先決條件

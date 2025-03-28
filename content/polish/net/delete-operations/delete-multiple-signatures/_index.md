@@ -6,6 +6,9 @@ description: Bez wysiłku usuwaj wiele podpisów z dokumentów za pomocą GroupD
 weight: 15
 url: /pl/net/delete-operations/delete-multiple-signatures/
 ---
+
+# Usuń wiele podpisów z dokumentu
+
 ## Wstęp
 W cyfrowym świecie zarządzanie dokumentami często wiąże się z obsługą różnych podpisów. Programowe usunięcie wielu podpisów z dokumentu może usprawnić przepływ pracy i zwiększyć wydajność. Dzięki GroupDocs.Signature dla .NET zadanie to staje się płynne i proste. Ten samouczek przeprowadzi Cię krok po kroku przez proces usuwania wielu podpisów z dokumentu.
 ## Warunki wstępne

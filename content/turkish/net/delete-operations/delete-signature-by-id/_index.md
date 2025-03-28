@@ -6,6 +6,9 @@ description: GroupDocs.Signature kitaplığını kullanarak .NET belgelerinde ki
 weight: 11
 url: /tr/net/delete-operations/delete-signature-by-id/
 ---
+
+# İmzayı kimliğe göre sil
+
 ## giriiş
 Bu öğreticide, GroupDocs.Signature for .NET kullanarak bir imzanın kimliğine göre nasıl silineceğini inceleyeceğiz. GroupDocs.Signature for .NET, geliştiricilerin .NET uygulamalarını kullanarak çeşitli belge formatlarındaki dijital imzaları eklemesine, kaldırmasına veya doğrulamasına olanak tanıyan güçlü bir kitaplıktır.
 ## Önkoşullar

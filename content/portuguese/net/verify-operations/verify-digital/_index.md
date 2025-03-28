@@ -6,6 +6,9 @@ description: Verifique assinaturas digitais em .NET com facilidade usando GroupD
 weight: 11
 url: /pt/net/verify-operations/verify-digital/
 ---
+
+# Verifique a assinatura digital
+
 ## Introdução
 No domínio dos documentos digitais, garantir a autenticidade e a integridade é fundamental. As assinaturas digitais funcionam como o equivalente digital das assinaturas manuscritas, fornecendo uma forma segura de verificar a origem e a integridade dos documentos eletrônicos. GroupDocs.Signature for .NET oferece um kit de ferramentas poderoso para trabalhar com assinaturas digitais em aplicativos .NET, facilitando a verificação de assinaturas digitais com facilidade.
 ## Pré-requisitos

@@ -6,6 +6,9 @@ description: Lär dig hur du signerar dokument med bilder i .NET-program med Gro
 weight: 13
 url: /sv/net/advanced-signature-techniques/sign-with-image/
 ---
+
+# Signera dokument med bild med GroupDocs.Signature
+
 ## Introduktion
 den här självstudien kommer vi att utforska hur du signerar dokument med bilder med Groupdocs.Signature för .NET. Att signera dokument lägger till ett extra lager av äkthet och säkerhet till dina filer, vilket gör dem manipuleringssäkra och juridiskt bindande. Med hjälp av Groupdocs.Signature för .NET kan du sömlöst integrera dokumentsigneringsfunktioner i dina .NET-applikationer.
 ## Förutsättningar

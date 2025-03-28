@@ -6,6 +6,9 @@ description: Aprenda como pesquisar metadados de processamento de texto usando G
 weight: 14
 url: /pt/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
+
+# Extração de metadados de processamento de texto de pesquisa
+
 ## Introdução
 No domínio do desenvolvimento .NET, o gerenciamento de assinaturas e metadados de documentos desempenha um papel fundamental na garantia da integridade e autenticidade dos documentos. GroupDocs.Signature for .NET fornece uma solução robusta para lidar com essas tarefas com eficiência. Este tutorial se aprofunda no aproveitamento do GroupDocs.Signature para pesquisar metadados de processamento de texto em documentos, permitindo que os usuários extraiam informações essenciais de maneira integrada.
 ## Pré-requisitos

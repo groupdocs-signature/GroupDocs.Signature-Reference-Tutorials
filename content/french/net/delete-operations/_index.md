@@ -6,6 +6,9 @@ description: Supprimez les signatures, les codes-barres et bien plus encore des 
 weight: 20
 url: /fr/net/delete-operations/
 ---
+
+# Supprimer les opérations
+
 ## Introduction
 
 Cherchez-vous à rationaliser votre processus de gestion de documents dans les applications .NET ? Avec GroupDocs.Signature, vous pouvez supprimer efficacement différents types de signatures, notamment les codes-barres, les signatures numériques, les signatures d'images, les signatures de texte, etc. Plongez dans nos didacticiels ci-dessous pour apprendre à effectuer des opérations de suppression de manière transparente.

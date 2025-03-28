@@ -6,6 +6,9 @@ description: Extrayez efficacement les métadonnées des feuilles de calcul à l
 weight: 13
 url: /fr/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
+
+# Extraction de métadonnées de feuille de calcul de recherche
+
 ## Introduction
 Dans le domaine de la gestion et de la vérification des documents, la capacité à extraire efficacement les métadonnées des feuilles de calcul est primordiale. L'extraction de métadonnées aide non seulement à comprendre le contexte et les propriétés d'un document, mais rationalise également les processus tels que la vérification de la conformité et l'analyse des données. GroupDocs.Signature pour .NET offre une solution robuste pour rechercher de manière transparente les métadonnées des feuilles de calcul, offrant ainsi aux développeurs un outil puissant pour améliorer leurs applications centrées sur les documents.
 ## Conditions préalables

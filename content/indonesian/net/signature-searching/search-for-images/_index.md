@@ -6,6 +6,9 @@ description: Pelajari cara mencari gambar dalam dokumen menggunakan GroupDocs.Si
 weight: 13
 url: /id/net/signature-searching/search-for-images/
 ---
+
+# Cari Gambar
+
 ## Perkenalan
 GroupDocs.Signature for .NET adalah perpustakaan canggih yang memungkinkan pengembang menambahkan, mencari, dan memverifikasi tanda tangan digital ke berbagai format dokumen dengan lancar dalam aplikasi .NET mereka. Baik Anda bekerja dengan dokumen Word, PDF, spreadsheet, atau presentasi, perpustakaan ini menyediakan fungsionalitas komprehensif untuk mengelola tanda tangan digital secara efisien.
 ## Prasyarat

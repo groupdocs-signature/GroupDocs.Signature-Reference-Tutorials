@@ -6,6 +6,9 @@ description: Vylepšete správu dokumentů v .NET pomocí GroupDocs.Signature. Z
 weight: 11
 url: /cs/net/document-preview-operations/retrieve-document-information/
 ---
+
+# Načíst informace o dokumentu
+
 ## Úvod
 V oblasti digitální dokumentace je prvořadé zajištění autenticity a integrity. GroupDocs.Signature for .NET poskytuje robustní řešení pro správu podpisů dokumentů v prostředí .NET. V tomto tutoriálu se ponoříme do procesu získávání informací o dokumentech pomocí GroupDocs.Signature for .NET a rozebereme každý krok pro komplexní pochopení.
 ## Předpoklady

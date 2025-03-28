@@ -6,6 +6,9 @@ description: Tìm hiểu cách ký tài liệu bằng mã vạch bằng GroupDoc
 weight: 11
 url: /vi/net/advanced-signature-techniques/sign-with-barcode/
 ---
+
+# Ký bằng mã vạch
+
 ## Giới thiệu
 Trong thời đại kỹ thuật số ngày nay, việc bảo mật tài liệu bằng chữ ký là điều tối quan trọng và GroupDocs.Signature dành cho .NET cung cấp giải pháp liền mạch để tích hợp chữ ký mã vạch vào ứng dụng của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình ký tài liệu bằng mã vạch bằng GroupDocs.Signature cho .NET.
 ## Điều kiện tiên quyết

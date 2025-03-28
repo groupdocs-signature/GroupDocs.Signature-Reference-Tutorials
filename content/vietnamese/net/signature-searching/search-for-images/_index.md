@@ -6,6 +6,9 @@ description: Tìm hiểu cách tìm kiếm hình ảnh trong tài liệu bằng 
 weight: 13
 url: /vi/net/signature-searching/search-for-images/
 ---
+
+# Tìm kiếm hình ảnh
+
 ## Giới thiệu
 GroupDocs.Signature cho .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thêm, tìm kiếm và xác minh chữ ký số cho nhiều định dạng tài liệu một cách liền mạch trong các ứng dụng .NET của họ. Cho dù bạn đang làm việc với tài liệu Word, PDF, bảng tính hay bản trình bày, thư viện này đều cung cấp chức năng toàn diện để quản lý chữ ký số một cách hiệu quả.
 ## Điều kiện tiên quyết

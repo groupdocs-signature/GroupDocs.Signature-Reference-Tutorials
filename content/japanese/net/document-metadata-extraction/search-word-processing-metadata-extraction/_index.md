@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用してワードプロセッ�
 weight: 14
 url: /ja/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
+
+# 検索ワードプロセッサのメタデータ抽出
+
 ## 導入
 .NET 開発の領域では、ドキュメントの署名とメタデータの管理は、ドキュメントの整合性と信頼性を確保する上で極めて重要な役割を果たします。 GroupDocs.Signature for .NET は、これらのタスクを効率的に処理するための堅牢なソリューションを提供します。このチュートリアルでは、GroupDocs.Signature を活用してドキュメント内のワード プロセッシング メタデータを検索し、ユーザーが重要な情報をシームレスに抽出できるようにする方法について詳しく説明します。
 ## 前提条件

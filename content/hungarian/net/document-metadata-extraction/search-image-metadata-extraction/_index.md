@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan kereshet képek metaadat-aláírásai között 
 weight: 10
 url: /hu/net/document-metadata-extraction/search-image-metadata-extraction/
 ---
+
+# Keresés a kép metaadatainak kinyerésében a GroupDocs.Signature segítségével
+
 ## Bevezetés
 digitális korban a dokumentumok integritásának és hitelességének biztosítása a legfontosabb. Legyen szó szerződésekről, jogi megállapodásokról vagy fontos feljegyzésekről, a dokumentumok aláírásának és ellenőrzésének megbízható módszere kulcsfontosságú. A GroupDocs.Signature for .NET átfogó megoldást kínál az aláírások hozzáadására és ellenőrzésére különféle dokumentumformátumokban. Ebben az oktatóanyagban a kép metaadat-aláírásainak keresési folyamatát mutatjuk be a GroupDocs.Signature for .NET használatával. 
 ## Előfeltételek

@@ -6,6 +6,9 @@ description: Temukan cara melihat riwayat pemrosesan dokumen dengan mudah menggu
 weight: 12
 url: /id/net/document-preview-operations/view-document-processing-history/
 ---
+
+# Lihat Riwayat Pemrosesan Dokumen
+
 ## Perkenalan
 GroupDocs.Signature untuk .NET adalah perpustakaan canggih yang memfasilitasi pemrosesan dokumen dengan memungkinkan Anda mengelola dan memanipulasi tanda tangan dokumen dengan lancar dalam aplikasi .NET Anda. Baik Anda berurusan dengan kontrak, perjanjian, atau jenis dokumen lain apa pun yang memerlukan tanda tangan, GroupDocs.Signature memberdayakan Anda untuk menyederhanakan alur kerja Anda secara efisien.
 ## Prasyarat

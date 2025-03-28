@@ -6,6 +6,9 @@ description: 使用 GroupDocs.Signature for .NET 轻松删除文档中的文本�
 weight: 17
 url: /zh/net/delete-operations/delete-text-signature/
 ---
+
+# 删除文本签名
+
 ## 介绍
 GroupDocs.Signature for .NET 是一个功能强大的库，使开发人员能够将电子签名功能无缝集成到他们的 .NET 应用程序中。无论您是构建文档管理系统、合同签署平台还是任何其他需要签名功能的应用程序，GroupDocs.Signature for .NET 都提供了一套全面的工具来简化流程。
 ## 先决条件

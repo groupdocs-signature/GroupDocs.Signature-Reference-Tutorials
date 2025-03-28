@@ -6,6 +6,9 @@ description: Aprimore o gerenciamento de documentos em .NET com GroupDocs.Signat
 weight: 11
 url: /pt/net/document-preview-operations/retrieve-document-information/
 ---
+
+# Recuperar informações do documento
+
 ## Introdução
 No domínio da documentação digital, garantir a autenticidade e a integridade é fundamental. GroupDocs.Signature for .NET fornece uma solução robusta para gerenciar assinaturas de documentos no ambiente .NET. Neste tutorial, nos aprofundamos no processo de recuperação de informações de documentos usando GroupDocs.Signature for .NET, detalhando cada etapa para uma compreensão abrangente.
 ## Pré-requisitos

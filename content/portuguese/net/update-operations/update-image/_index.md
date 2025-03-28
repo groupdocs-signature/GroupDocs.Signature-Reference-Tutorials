@@ -6,6 +6,9 @@ description: Aprenda como atualizar assinaturas de imagens em documentos .NET se
 weight: 11
 url: /pt/net/update-operations/update-image/
 ---
+
+# Actualizar imagem
+
 ## Introdução
 No domínio da gestão e autenticação de documentos, as assinaturas digitais desempenham um papel fundamental na garantia da integridade e autenticidade dos documentos eletrónicos. GroupDocs.Signature for .NET oferece uma solução robusta para desenvolvedores incorporarem funcionalidades de assinatura perfeitamente em seus aplicativos .NET. Entre sua gama de recursos, a atualização de assinaturas de imagens em documentos é um recurso crucial.
 ## Pré-requisitos

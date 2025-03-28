@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 디지털 문서에서 
 weight: 16
 url: /ko/net/signature-searching/search-for-text-signatures/
 ---
+
+# 텍스트 서명 검색
+
 ## 소개
 문서 관리 및 인증 영역에서는 디지털 문서 내의 텍스트 서명을 효율적으로 검색하는 기능이 가장 중요합니다. .NET용 GroupDocs.Signature는 이러한 요구에 대한 강력한 솔루션을 제공하여 개발자에게 다양한 파일 형식 내에서 텍스트 서명을 찾을 수 있는 포괄적인 도구 키트를 제공합니다. 이 자습서에서는 .NET용 GroupDocs.Signature를 사용하여 텍스트 서명을 검색하는 프로세스를 자세히 살펴보고 구현에 대한 명확한 이해를 보장하기 위해 각 단계를 세분화합니다.
 ## 전제 조건

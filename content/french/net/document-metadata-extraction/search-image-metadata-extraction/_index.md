@@ -6,6 +6,9 @@ description: Découvrez comment rechercher des signatures de métadonnées d’i
 weight: 10
 url: /fr/net/document-metadata-extraction/search-image-metadata-extraction/
 ---
+
+# Rechercher l'extraction de métadonnées d'image avec GroupDocs.Signature
+
 ## Introduction
 À l’ère du numérique, garantir l’intégrité et l’authenticité des documents est primordial. Qu'il s'agisse de contrats, d'accords juridiques ou de documents importants, il est essentiel de disposer d'une méthode fiable pour signer et vérifier les documents. GroupDocs.Signature pour .NET fournit une solution complète pour ajouter et vérifier des signatures dans différents formats de documents. Dans ce didacticiel, nous approfondirons le processus de recherche de signatures de métadonnées d'image à l'aide de GroupDocs.Signature pour .NET. 
 ## Conditions préalables

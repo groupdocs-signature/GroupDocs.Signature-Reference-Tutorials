@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki QR kodların
 weight: 12
 url: /tr/net/update-operations/update-qr-code/
 ---
+
+# QR Kodunu Güncelle
+
 ## giriiş
 Günümüzün dijital dünyasında belgeleri elektronik olarak güvenli bir şekilde imzalama yeteneği hem işletmeler hem de bireyler için vazgeçilmez hale geldi. İster sözleşmeler, anlaşmalar veya formlar olsun, elektronik imzalar imzalama sürecini kolaylaştırarak zamandan ve kaynaklardan tasarruf sağlar. GroupDocs.Signature for .NET, geliştiricilerin güçlü elektronik imza işlevselliğini .NET uygulamalarına zahmetsizce entegre etmelerini sağlayan güçlü bir araçtır. Bu eğitimde, GroupDocs.Signature for .NET'i kullanarak belgelerdeki QR kodlarını nasıl güncelleyeceğinizi keşfederek her adımda net ve kesin bir şekilde ilerlemenizi sağlayacağız.
 ## Önkoşullar

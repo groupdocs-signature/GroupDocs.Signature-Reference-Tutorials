@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 验证文档中的 
 weight: 12
 url: /zh/net/verify-operations/verify-qr-code/
 ---
+
+# 验证二维码
+
 ## 介绍
 在文档管理和身份验证领域，确保签名的完整性和有效性至关重要。 GroupDocs.Signature for .NET 提供了用于验证文档中嵌入的 QR 代码的全面解决方案。在本教程中，我们将深入研究使用 GroupDocs.Signature for .NET 验证 QR 码的分步过程。
 ## 先决条件

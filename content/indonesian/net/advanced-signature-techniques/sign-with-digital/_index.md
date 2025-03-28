@@ -6,6 +6,9 @@ description: Pelajari cara menandatangani dokumen secara digital di .NET menggun
 weight: 12
 url: /id/net/advanced-signature-techniques/sign-with-digital/
 ---
+
+# Penandatanganan dengan Tanda Tangan Digital
+
 ## Perkenalan
 Tanda tangan digital memainkan peran penting dalam memastikan keaslian dan integritas dokumen elektronik. Dalam bidang pengembangan .NET, GroupDocs.Signature menawarkan solusi canggih untuk mengintegrasikan tanda tangan digital ke dalam aplikasi Anda dengan lancar. Tutorial ini akan memandu Anda melalui proses penandatanganan dokumen menggunakan tanda tangan digital dengan GroupDocs.Signature untuk .NET.
 ## Prasyarat

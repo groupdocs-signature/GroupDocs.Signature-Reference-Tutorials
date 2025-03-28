@@ -6,6 +6,9 @@ description: Aprenda como atualizar texto em documentos usando GroupDocs.Signatu
 weight: 13
 url: /pt/net/update-operations/update-text/
 ---
+
+# Atualizar texto
+
 ## Introdução
 GroupDocs.Signature for .NET é uma biblioteca versátil projetada para agilizar o processo de trabalho com assinaturas digitais em aplicativos .NET. Com seu conjunto abrangente de recursos, os desenvolvedores podem integrar facilmente a funcionalidade de assinatura digital em seus aplicativos, permitindo que os usuários assinem e atualizem documentos com facilidade.
 ## Pré-requisitos

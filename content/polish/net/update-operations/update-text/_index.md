@@ -6,6 +6,9 @@ description: Dowiedz się, jak aktualizować tekst w dokumentach za pomocą Grou
 weight: 13
 url: /pl/net/update-operations/update-text/
 ---
+
+# Aktualizuj tekst
+
 ## Wstęp
 GroupDocs.Signature for .NET to wszechstronna biblioteka zaprojektowana w celu usprawnienia procesu pracy z podpisami cyfrowymi w aplikacjach .NET. Dzięki wszechstronnemu zestawowi funkcji programiści mogą z łatwością zintegrować funkcję podpisu cyfrowego ze swoimi aplikacjami, umożliwiając użytkownikom łatwe podpisywanie i aktualizowanie dokumentów.
 ## Warunki wstępne

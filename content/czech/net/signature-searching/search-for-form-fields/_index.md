@@ -6,6 +6,9 @@ description: Naučte se, jak integrovat funkci podpisu do vašich aplikací .NET
 weight: 12
 url: /cs/net/signature-searching/search-for-form-fields/
 ---
+
+# Vyhledejte pole formuláře
+
 ## Úvod
 GroupDocs.Signature for .NET je výkonný nástroj pro vývojáře k přidávání funkcí podpisu do jejich aplikací .NET. Ať už vytváříte systém správy dokumentů, platformu pro podepisování smluv nebo jakoukoli jinou aplikaci, která vyžaduje zpracování podpisů, GroupDocs.Signature for .NET poskytuje funkce, které potřebujete k bezproblémové integraci funkcí podpisu.
 ## Předpoklady

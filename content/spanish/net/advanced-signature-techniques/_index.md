@@ -6,6 +6,9 @@ description: Aprenda técnicas de firma avanzadas con los tutoriales de GroupDoc
 weight: 25
 url: /es/net/advanced-signature-techniques/
 ---
+
+# Técnicas avanzadas de firma
+
 ## Introducción
 
 Bienvenido a nuestra guía completa sobre técnicas de firma avanzadas utilizando GroupDocs.Signature para .NET. Ya sea que sea un desarrollador experimentado o recién esté comenzando, estos tutoriales lo equiparán con el conocimiento y las habilidades para mejorar la seguridad y autenticidad de los documentos sin esfuerzo.

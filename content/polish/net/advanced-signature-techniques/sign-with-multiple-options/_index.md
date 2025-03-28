@@ -6,6 +6,9 @@ description: Dowiedz się, jak podpisywać dokumenty przy użyciu wielu opcji pr
 weight: 14
 url: /pl/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# Podpisywanie z wieloma opcjami
+
 ## Wstęp
 tym samouczku omówimy, jak podpisać dokument przy użyciu wielu opcji podpisu przy użyciu biblioteki GroupDocs.Signature dla platformy .NET. Podpisywanie dokumentów za pomocą różnych opcji, takich jak podpisy tekstowe, kody kreskowe, kody QR, podpisy cyfrowe, obrazy i metadane, może zapewnić wszechstronność i zwiększyć bezpieczeństwo dokumentów.
 ## Warunki wstępne

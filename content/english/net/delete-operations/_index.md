@@ -6,6 +6,9 @@ description: Delete signatures, barcodes, and more from .NET documents with Grou
 weight: 20
 url: /net/delete-operations/
 ---
+
+# Delete Operations
+
 ## Introduction
 
 Are you looking to streamline your document management process in .NET applications? With GroupDocs.Signature, you can efficiently delete various types of signatures, including barcodes, digital signatures, image signatures, text signatures, and more. Dive into our tutorials below to learn how to perform delete operations seamlessly.

@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET Metadatensi
 weight: 11
 url: /de/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# Suche nach PDF-Metadatenextraktion
+
 ## Einführung
 Im Bereich des digitalen Dokumentenmanagements ist die Sicherstellung der Authentizität und Integrität von Dateien von größter Bedeutung. Ein wesentlicher Aspekt dabei ist die Möglichkeit, PDF-Metadaten effizient durchsuchen zu können. Metadatensignaturen in PDF-Dokumenten liefern wertvolle Informationen über den Ursprung, die Urheberschaft und den Inhalt der Datei.
 ## Voraussetzungen

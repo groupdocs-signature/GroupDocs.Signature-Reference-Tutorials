@@ -6,6 +6,9 @@ description: Lär dig hur du signerar PDF-dokument med metadata med GroupDocs.Si
 weight: 11
 url: /sv/net/document-signing/sign-pdf-with-metadata/
 ---
+
+# Signera PDF med metadata
+
 ## Introduktion
 den här handledningen lär vi oss hur du signerar ett PDF-dokument med metadata med GroupDocs.Signature för .NET. Att lägga till metadata till en PDF-fil kan ge ytterligare information om dokumentet, såsom författarskap, skapelsedatum, dokument-ID och mer.
 ## Förutsättningar

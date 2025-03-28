@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 문서의 텍스트를 
 weight: 13
 url: /ko/net/verify-operations/verify-text/
 ---
+
+# 텍스트 확인
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Signature를 사용하여 문서의 텍스트를 확인하는 과정을 안내합니다. 이 강력한 라이브러리를 사용하면 텍스트 확인 기능을 .NET 애플리케이션에 원활하게 통합하여 문서의 무결성과 신뢰성을 보장할 수 있습니다.
 ## 전제 조건

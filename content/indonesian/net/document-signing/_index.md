@@ -6,6 +6,9 @@ description: Tanda tangani gambar, PDF, presentasi, spreadsheet, dan dokumen Wor
 weight: 24
 url: /id/net/document-signing/
 ---
+
+# Penandatanganan Dokumen
+
 ## Perkenalan
 
 Pelajari cara menandatangani berbagai tipe dokumen dengan metadata menggunakan GroupDocs.Signature untuk .NET. Dari gambar hingga spreadsheet, pastikan keaslian dokumen dengan mudah.

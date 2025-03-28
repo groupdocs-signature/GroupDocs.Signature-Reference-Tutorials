@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用してドキュメント内�
 weight: 10
 url: /ja/net/document-metadata-extraction/search-image-metadata-extraction/
 ---
+
+# GroupDocs.Signature を使用した検索画像メタデータ抽出
+
 ## 導入
 デジタル時代では、文書の完全性と信頼性を確保することが最も重要です。契約書、法的合意、重要な記録のいずれであっても、文書に署名して検証するための信頼できる方法を確立することが重要です。 GroupDocs.Signature for .NET は、さまざまなドキュメント形式で署名を追加および検証するための包括的なソリューションを提供します。このチュートリアルでは、GroupDocs.Signature for .NET を使用して画像メタデータ署名を検索するプロセスを詳しく説明します。 
 ## 前提条件

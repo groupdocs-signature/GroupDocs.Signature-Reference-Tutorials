@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET kullanarak belgeleri birden çok seçe
 weight: 14
 url: /tr/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# Çoklu Seçeneklerle İmzalama
+
 ## giriiş
 Bu öğreticide, .NET için GroupDocs.Signature kitaplığını kullanarak birden çok imza seçeneğini kullanarak bir belgenin nasıl imzalanacağını inceleyeceğiz. Belgeleri metin, barkod, QR kodu, dijital, resim ve meta veri imzaları gibi çeşitli seçeneklerle imzalamak çok yönlülük sağlayabilir ve belge güvenliğini artırabilir.
 ## Önkoşullar

@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET Bildsignatu
 weight: 14
 url: /de/net/delete-operations/delete-image-signature/
 ---
+
+# Bildsignatur löschen
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit GroupDocs.Signature für .NET Bildsignaturen aus Dokumenten löschen. GroupDocs.Signature ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, mit digitalen Signaturen, Stempeln und Formularfeldern in verschiedenen Dokumentformaten zu arbeiten.
 ## Voraussetzungen

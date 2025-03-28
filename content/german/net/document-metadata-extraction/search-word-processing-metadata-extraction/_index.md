@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET nach Metada
 weight: 14
 url: /de/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
+
+# Suche Textverarbeitung Metadaten-Extraktion
+
 ## Einführung
 Im Bereich der .NET-Entwicklung spielt die Verwaltung von Dokumentsignaturen und Metadaten eine entscheidende Rolle bei der Gewährleistung der Dokumentintegrität und -authentizität. GroupDocs.Signature für .NET bietet eine robuste Lösung zur effizienten Erledigung dieser Aufgaben. In diesem Tutorial erfahren Sie, wie Sie GroupDocs.Signature nutzen können, um Textverarbeitungsmetadaten in Dokumenten zu suchen und so Benutzern das nahtlose Extrahieren wichtiger Informationen zu ermöglichen.
 ## Voraussetzungen

@@ -6,6 +6,9 @@ description: Aprenda como agilizar o gerenciamento de documentos com os tutoriai
 weight: 21
 url: /pt/net/document-preview-operations/
 ---
+
+# Operações de visualização de documentos
+
 ## Introdução
 
 Você deseja agilizar seu processo de gerenciamento de documentos em seus aplicativos .NET? Com os tutoriais do GroupDocs.Signature for .NET, você pode aprimorar facilmente seu fluxo de trabalho e aumentar a produtividade. Vamos nos aprofundar nos principais tutoriais oferecidos:

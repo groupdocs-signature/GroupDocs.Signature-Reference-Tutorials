@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan kereshet több aláírást .NET-dokumentumokban
 weight: 14
 url: /hu/net/signature-searching/search-for-multiple-signatures/
 ---
+
+# Több aláírás keresése
+
 ## Bevezetés
 A GroupDocs.Signature for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy .NET-alkalmazásokkal különféle típusú aláírásokat adjanak hozzá, keressenek és távolítsanak el népszerű dokumentumformátumokban. Ebben az oktatóanyagban arra összpontosítunk, hogy egy dokumentumon belül több aláírást keressünk a GroupDocs.Signature for .NET használatával.
 ## Előfeltételek

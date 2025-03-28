@@ -6,6 +6,9 @@ description: Découvrez comment afficher facilement l'historique du traitement d
 weight: 12
 url: /fr/net/document-preview-operations/view-document-processing-history/
 ---
+
+# Afficher l'historique du traitement des documents
+
 ## Introduction
 GroupDocs.Signature for .NET est une bibliothèque puissante qui facilite le traitement des documents en vous permettant de gérer et de manipuler les signatures de documents de manière transparente au sein de vos applications .NET. Que vous traitiez de contrats, d'accords ou de tout autre type de document nécessitant des signatures, GroupDocs.Signature vous permet de rationaliser efficacement votre flux de travail.
 ## Conditions préalables

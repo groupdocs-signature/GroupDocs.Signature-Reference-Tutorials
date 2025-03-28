@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie Textverarbeitungsdokumente mit Metadaten mit 
 weight: 14
 url: /de/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# Textverarbeitung mit Metadaten signieren
+
 ## Einführung
 In diesem Tutorial führen wir Sie durch den Prozess des Signierens eines Textverarbeitungsdokuments mit Metadaten mithilfe von GroupDocs.Signature für .NET. Mit der Metadatensignatur können Sie zusätzliche Informationen in Ihr Dokument einbetten, beispielsweise den Namen des Autors, das Erstellungsdatum, die Dokument-ID und mehr.
 ## Voraussetzungen

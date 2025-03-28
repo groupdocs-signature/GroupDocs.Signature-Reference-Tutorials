@@ -6,6 +6,9 @@ description: Naučte se podepisovat obrázky pomocí metadat v .NET pomocí Grou
 weight: 10
 url: /cs/net/document-signing/sign-image-with-metadata/
 ---
+
+# Podepsat obrázek s metadaty
+
 ## Úvod
 GroupDocs.Signature for .NET umožňuje vývojářům efektivně podepisovat obrázky pomocí metadat. Tento tutoriál vás provede procesem krok za krokem.
 ## Předpoklady

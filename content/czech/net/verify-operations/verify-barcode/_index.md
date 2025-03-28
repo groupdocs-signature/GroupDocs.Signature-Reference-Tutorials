@@ -6,6 +6,9 @@ description: Naučte se ověřovat čárové kódy v dokumentech pomocí GroupDo
 weight: 10
 url: /cs/net/verify-operations/verify-barcode/
 ---
+
+# Ověřte čárový kód
+
 ## Úvod
 V oblasti digitální dokumentace je prvořadé zajištění autenticity a integrity. GroupDocs.Signature for .NET poskytuje robustní řešení pro ověřování čárových kódů v dokumentech. Tento tutoriál se ponoří do procesu ověřování čárových kódů pomocí GroupDocs.Signature for .NET a nabízí podrobné pokyny pro bezproblémovou implementaci.
 ## Předpoklady

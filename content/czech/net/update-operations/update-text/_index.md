@@ -6,6 +6,9 @@ description: Přečtěte si, jak aktualizovat text v dokumentech pomocí GroupDo
 weight: 13
 url: /cs/net/update-operations/update-text/
 ---
+
+# Aktualizovat text
+
 ## Úvod
 GroupDocs.Signature for .NET je všestranná knihovna navržená tak, aby zjednodušila proces práce s digitálními podpisy v aplikacích .NET. Díky komplexní sadě funkcí mohou vývojáři snadno integrovat funkce digitálního podpisu do svých aplikací, což uživatelům umožňuje snadno podepisovat a aktualizovat dokumenty.
 ## Předpoklady

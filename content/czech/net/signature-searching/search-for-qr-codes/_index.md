@@ -6,6 +6,9 @@ description: Naučte se vyhledávat QR kódy v dokumentech pomocí GroupDocs.Sig
 weight: 15
 url: /cs/net/signature-searching/search-for-qr-codes/
 ---
+
+# Hledejte QR kódy
+
 ## Úvod
 
 V digitálním věku je prvořadé zajistit pravost a integritu dokumentů. GroupDocs.Signature for .NET umožňuje vývojářům bezproblémově integrovat funkce pokročilého podpisu do jejich aplikací .NET. Tento komplexní průvodce vás provede procesem využití GroupDocs.Signature pro .NET k vyhledávání QR kódů v dokumentech. Nakonec budete dobře rozumět tomu, jak využít tento výkonný nástroj ke zvýšení zabezpečení a efektivity dokumentů.

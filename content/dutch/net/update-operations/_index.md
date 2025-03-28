@@ -6,6 +6,9 @@ description: Update streepjescodes, afbeeldingen, QR-codes en teksthandtekeninge
 weight: 26
 url: /nl/net/update-operations/
 ---
+
+# Bewerkingen bijwerken
+
 ## Invoering
 
 Wilt u verschillende soorten handtekeningen in uw .NET-documenten bijwerken? GroupDocs.Signature voor .NET biedt uitgebreide tutorials over het bijwerken van streepjescodes, afbeeldingen, QR-codes en teksthandtekeningen, waardoor een naadloze integratie en verbeterde documentbeveiliging wordt gegarandeerd.

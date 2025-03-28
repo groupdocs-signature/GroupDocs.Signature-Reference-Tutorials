@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用して、スプレッドシ�
 weight: 13
 url: /ja/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/
 ---
+
+# スプレッドシートのメタデータ抽出の検索
+
 ## 導入
 ドキュメントの管理と検証の領域では、スプレッドシートからメタデータを効率的に抽出する機能が最も重要です。メタデータの抽出は、ドキュメントのコンテキストやプロパティを理解するのに役立つだけでなく、コンプライアンス検証やデータ分析などのプロセスを合理化します。 GroupDocs.Signature for .NET は、スプレッドシートのメタデータをシームレスに検索するための堅牢なソリューションを提供し、ドキュメント中心のアプリケーションを強化するための強力なツールを開発者に提供します。
 ## 前提条件

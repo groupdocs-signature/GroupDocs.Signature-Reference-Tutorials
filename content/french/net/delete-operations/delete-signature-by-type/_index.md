@@ -6,6 +6,9 @@ description: Découvrez comment supprimer facilement des signatures par type dan
 weight: 12
 url: /fr/net/delete-operations/delete-signature-by-type/
 ---
+
+# Supprimer la signature par type
+
 ## Introduction
 À l’ère numérique d’aujourd’hui, la nécessité d’une gestion efficace des documents est primordiale. Que vous soyez un professionnel gérant des contrats ou un particulier traitant des documents juridiques, il est crucial de garantir l'authenticité et l'intégrité de vos fichiers. GroupDocs.Signature for .NET offre une solution puissante pour gérer de manière transparente les signatures dans vos documents. Dans ce didacticiel, nous aborderons le processus de suppression des signatures par type à l'aide de GroupDocs.Signature pour .NET, vous fournissant un guide étape par étape pour rationaliser vos tâches de gestion de documents.
 ## Conditions préalables

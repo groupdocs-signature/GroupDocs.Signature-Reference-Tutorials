@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan törölhet aláírást azonosító alapján .NE
 weight: 11
 url: /hu/net/delete-operations/delete-signature-by-id/
 ---
+
+# Aláírás törlése azonosító alapján
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan törölhet aláírást az azonosítója alapján a GroupDocs.Signature for .NET segítségével. A GroupDocs.Signature for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára digitális aláírások hozzáadását, eltávolítását vagy ellenőrzését különféle dokumentumformátumokban .NET-alkalmazások segítségével.
 ## Előfeltételek

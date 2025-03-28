@@ -6,6 +6,9 @@ description: Xác minh chữ ký số trong .NET một cách dễ dàng bằng G
 weight: 11
 url: /vi/net/verify-operations/verify-digital/
 ---
+
+# Xác minh chữ ký số
+
 ## Giới thiệu
 Trong lĩnh vực tài liệu kỹ thuật số, việc đảm bảo tính xác thực và toàn vẹn là điều tối quan trọng. Chữ ký số đóng vai trò tương đương với chữ ký số viết tay, cung cấp một cách an toàn để xác minh nguồn gốc và tính toàn vẹn của tài liệu điện tử. GroupDocs.Signature for .NET cung cấp bộ công cụ mạnh mẽ để làm việc với chữ ký số trong các ứng dụng .NET, tạo điều kiện thuận lợi cho việc xác minh chữ ký số một cách dễ dàng.
 ## Điều kiện tiên quyết

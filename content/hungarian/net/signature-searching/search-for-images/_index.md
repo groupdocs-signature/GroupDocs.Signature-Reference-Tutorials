@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan kereshet képeket a dokumentumokon belül a Gro
 weight: 13
 url: /hu/net/signature-searching/search-for-images/
 ---
+
+# Képek keresése
+
 ## Bevezetés
 A GroupDocs.Signature for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy .NET-alkalmazásaikon belül zökkenőmentesen adjanak hozzá, keressenek és ellenőrizzenek digitális aláírásokat számos dokumentumformátumhoz. Akár Word-dokumentumokkal, PDF-ekkel, táblázatokkal vagy prezentációkkal dolgozik, ez a könyvtár átfogó funkciókat kínál a digitális aláírások hatékony kezeléséhez.
 ## Előfeltételek

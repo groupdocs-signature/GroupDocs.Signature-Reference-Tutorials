@@ -6,6 +6,9 @@ description: Découvrez comment signer des feuilles de calcul avec des métadonn
 weight: 13
 url: /fr/net/document-signing/sign-spreadsheet-with-metadata/
 ---
+
+# Signer une feuille de calcul avec des métadonnées
+
 ## Introduction
 Dans ce didacticiel, nous allons parcourir le processus de signature d'une feuille de calcul avec des métadonnées à l'aide de Groupdocs.Signature pour .NET. La signature des métadonnées vous permet d'intégrer des informations supplémentaires dans vos documents, fournissant ainsi un contexte ou une vérification. À la fin de ce guide, vous serez en mesure d'appliquer facilement des signatures de métadonnées à vos feuilles de calcul.
 ## Conditions préalables

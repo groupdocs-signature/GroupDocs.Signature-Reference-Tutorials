@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan írhat alá PDF-dokumentumokat űrlapmezőkkel 
 weight: 10
 url: /hu/net/advanced-signature-techniques/sign-pdf-form-field/
 ---
+
+# PDF aláírása űrlapmezővel
+
 ## Bevezetés
 A digitális aláírás biztonságos és jogilag kötelező érvényű módot biztosít a dokumentumok elektronikus aláírására, biztosítva azok hitelességét és integritását. Ebben az oktatóanyagban megtudjuk, hogyan írhat alá űrlapmezőket tartalmazó PDF-dokumentumot a GroupDocs.Signature for .NET könyvtár használatával.
 ## Előfeltételek

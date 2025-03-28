@@ -6,6 +6,9 @@ description: Scopri come firmare documenti con più opzioni utilizzando GroupDoc
 weight: 14
 url: /it/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# Firma con più opzioni
+
 ## introduzione
 In questo tutorial esploreremo come firmare un documento utilizzando più opzioni di firma utilizzando la libreria GroupDocs.Signature per .NET. La firma di documenti con varie opzioni come testo, codice a barre, codice QR, firme digitali, immagini e metadati può fornire versatilità e migliorare la sicurezza dei documenti.
 ## Prerequisiti

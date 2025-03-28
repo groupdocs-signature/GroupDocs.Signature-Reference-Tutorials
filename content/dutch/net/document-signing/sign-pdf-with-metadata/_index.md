@@ -6,6 +6,9 @@ description: Leer hoe u PDF-documenten met metagegevens kunt ondertekenen met Gr
 weight: 11
 url: /nl/net/document-signing/sign-pdf-with-metadata/
 ---
+
+# Onderteken PDF met metadata
+
 ## Invoering
 In deze zelfstudie leren we hoe u een PDF-document met metagegevens kunt ondertekenen met GroupDocs.Signature voor .NET. Het toevoegen van metagegevens aan een PDF kan aanvullende informatie over het document opleveren, zoals auteurschap, aanmaakdatum, document-ID en meer.
 ## Vereisten

@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie Barcode-Signaturen in Dokumenten mit GroupDoc
 weight: 10
 url: /de/net/update-operations/update-barcode/
 ---
+
+# Barcode aktualisieren
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit GroupDocs.Signature für .NET eine Barcode-Signatur in einem Dokument aktualisieren. GroupDocs.Signature für .NET ist eine leistungsstarke API, die es Entwicklern ermöglicht, mit digitalen Signaturen zu arbeiten, einschließlich verschiedener Typen wie Barcode, Text, Bild und mehr. Wir gehen den Prozess Schritt für Schritt durch, um sicherzustellen, dass Sie jeden Teil vollständig verstehen.
 ## Voraussetzungen

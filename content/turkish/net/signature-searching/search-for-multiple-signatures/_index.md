@@ -6,6 +6,9 @@ description: Verimli belge güvenliği ve bütünlüğü için GroupDocs.Signatu
 weight: 14
 url: /tr/net/signature-searching/search-for-multiple-signatures/
 ---
+
+# Çoklu İmza Ara
+
 ## giriiş
 GroupDocs.Signature for .NET, geliştiricilerin .NET uygulamalarını kullanarak popüler belge formatlarındaki çeşitli imza türlerini eklemesine, aramasına ve kaldırmasına olanak tanıyan güçlü bir kitaplıktır. Bu öğreticide, GroupDocs.Signature for .NET'i kullanarak bir belge içinde birden çok imzayı aramaya odaklanacağız.
 ## Önkoşullar

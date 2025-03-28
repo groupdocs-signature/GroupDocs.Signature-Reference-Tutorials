@@ -6,6 +6,9 @@ description: Scopri come cercare firme di metadati di immagini nei documenti uti
 weight: 10
 url: /it/net/document-metadata-extraction/search-image-metadata-extraction/
 ---
+
+# Cerca l'estrazione dei metadati delle immagini con GroupDocs.Signature
+
 ## introduzione
 Nell’era digitale, garantire l’integrità e l’autenticità dei documenti è fondamentale. Che si tratti di contratti, accordi legali o documenti importanti, disporre di un metodo affidabile per firmare e verificare i documenti è fondamentale. GroupDocs.Signature per .NET fornisce una soluzione completa per l'aggiunta e la verifica delle firme in vari formati di documenti. In questo tutorial, approfondiremo il processo di ricerca delle firme dei metadati delle immagini utilizzando GroupDocs.Signature per .NET. 
 ## Prerequisiti

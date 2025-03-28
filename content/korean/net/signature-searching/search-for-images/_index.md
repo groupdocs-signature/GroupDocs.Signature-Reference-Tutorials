@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 문서 내에서 이미
 weight: 13
 url: /ko/net/signature-searching/search-for-images/
 ---
+
+# 이미지 검색
+
 ## 소개
 .NET용 GroupDocs.Signature는 개발자가 .NET 응용 프로그램 내에서 다양한 문서 형식에 디지털 서명을 원활하게 추가, 검색 및 확인할 수 있도록 하는 강력한 라이브러리입니다. Word 문서, PDF, 스프레드시트 또는 프레젠테이션으로 작업하는 경우 이 라이브러리는 디지털 서명을 효율적으로 관리할 수 있는 포괄적인 기능을 제공합니다.
 ## 전제 조건

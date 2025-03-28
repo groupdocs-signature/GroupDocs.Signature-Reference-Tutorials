@@ -6,6 +6,9 @@ description: Dowiedz się, jak podpisywać dokumenty przy użyciu obrazów w apl
 weight: 13
 url: /pl/net/advanced-signature-techniques/sign-with-image/
 ---
+
+# Podpisywanie dokumentów obrazem przy użyciu GroupDocs.Signature
+
 ## Wstęp
 tym samouczku omówimy, jak podpisywać dokumenty przy użyciu obrazów za pomocą Groupdocs.Signature for .NET. Podpisywanie dokumentów zapewnia dodatkową warstwę autentyczności i bezpieczeństwa Twoim plikom, czyniąc je odpornymi na manipulacje i prawnie wiążącymi. Za pomocą Groupdocs.Signature for .NET możesz bezproblemowo zintegrować funkcję podpisywania dokumentów z aplikacjami .NET.
 ## Warunki wstępne

@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak belgelerden QR kodu imzal
 weight: 16
 url: /tr/net/delete-operations/delete-qr-code-signature/
 ---
+
+# Belgeden QR Kod İmzasını Sil
+
 ## giriiş
 Bu öğreticide, GroupDocs.Signature for .NET'i kullanarak bir belgeden QR kod imzasını kaldırma sürecinde size yol göstereceğiz. QR kodu imzalarını etkili bir şekilde silmek için bu adım adım talimatları izleyin.
 ## Önkoşullar

@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET nach Bilder
 weight: 13
 url: /de/net/signature-searching/search-for-images/
 ---
+
+# Suchen Sie nach Bildern
+
 ## Einführung
 GroupDocs.Signature for .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, digitale Signaturen zu einer Vielzahl von Dokumentformaten nahtlos in ihren .NET-Anwendungen hinzuzufügen, zu durchsuchen und zu überprüfen. Unabhängig davon, ob Sie mit Word-Dokumenten, PDFs, Tabellenkalkulationen oder Präsentationen arbeiten, bietet diese Bibliothek umfassende Funktionen zur effizienten Verwaltung digitaler Signaturen.
 ## Voraussetzungen

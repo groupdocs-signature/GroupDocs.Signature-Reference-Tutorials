@@ -6,6 +6,9 @@ description: Atualize códigos de barras, imagens, códigos QR e assinaturas de 
 weight: 26
 url: /pt/net/update-operations/
 ---
+
+# Atualizar operações
+
 ## Introdução
 
 Você deseja atualizar vários tipos de assinaturas em seus documentos .NET? GroupDocs.Signature for .NET fornece tutoriais abrangentes sobre atualização de códigos de barras, imagens, códigos QR e assinaturas de texto, garantindo integração perfeita e maior segurança de documentos.

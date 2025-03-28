@@ -6,6 +6,9 @@ description: Aprenda a firmar documentos digitalmente en .NET usando GroupDocs.S
 weight: 12
 url: /es/net/advanced-signature-techniques/sign-with-digital/
 ---
+
+# Firmar con firma digital
+
 ## Introducción
 Las firmas digitales desempeñan un papel crucial a la hora de garantizar la autenticidad y la integridad de los documentos electrónicos. En el ámbito del desarrollo .NET, GroupDocs.Signature ofrece una potente solución para integrar perfectamente firmas digitales en sus aplicaciones. Este tutorial lo guiará a través del proceso de firmar un documento utilizando una firma digital con GroupDocs.Signature para .NET.
 ## Requisitos previos

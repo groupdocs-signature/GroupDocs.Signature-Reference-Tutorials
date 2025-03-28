@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan kereshet és nyerhet ki metaadat-aláírásokat
 weight: 11
 url: /hu/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# Keresés a PDF metaadat-kivonásban
+
 ## Bevezetés
 digitális dokumentumkezelés területén a fájlok hitelességének és integritásának biztosítása a legfontosabb. Ennek egyik lényeges szempontja a PDF-metaadatok hatékony keresésének képessége. A PDF-dokumentumokban található metaadat-aláírások értékes információkat szolgáltatnak a fájl eredetéről, szerzőjéről és tartalmáról.
 ## Előfeltételek

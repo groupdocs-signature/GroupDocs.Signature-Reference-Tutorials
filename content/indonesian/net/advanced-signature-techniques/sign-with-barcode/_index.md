@@ -6,6 +6,9 @@ description: Pelajari cara menandatangani dokumen dengan kode batang menggunakan
 weight: 11
 url: /id/net/advanced-signature-techniques/sign-with-barcode/
 ---
+
+# Menandatangani dengan Barcode
+
 ## Perkenalan
 Di era digital saat ini, mengamankan dokumen dengan tanda tangan adalah hal yang terpenting, dan GroupDocs.Signature untuk .NET menawarkan solusi sempurna untuk mengintegrasikan tanda tangan kode batang ke dalam aplikasi Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses penandatanganan dokumen dengan kode batang menggunakan GroupDocs.Signature untuk .NET.
 ## Prasyarat

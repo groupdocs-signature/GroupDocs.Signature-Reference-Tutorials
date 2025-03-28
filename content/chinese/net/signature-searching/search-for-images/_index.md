@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 在文档中搜索�
 weight: 13
 url: /zh/net/signature-searching/search-for-images/
 ---
+
+# 搜索图片
+
 ## 介绍
 GroupDocs.Signature for .NET 是一个功能强大的库，使开发人员能够在其 .NET 应用程序中无缝地添加、搜索和验证各种文档格式的数字签名。无论您使用的是 Word 文档、PDF、电子表格还是演示文稿，该库都提供了全面的功能来有效管理数字签名。
 ## 先决条件

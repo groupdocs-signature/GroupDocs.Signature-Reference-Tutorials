@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 문서 내의 QR 코드
 weight: 12
 url: /ko/net/verify-operations/verify-qr-code/
 ---
+
+# QR 코드 확인
+
 ## 소개
 문서 관리 및 인증 영역에서는 서명의 무결성과 유효성을 보장하는 것이 가장 중요합니다. .NET용 GroupDocs.Signature는 문서에 포함된 QR 코드를 확인하기 위한 포괄적인 솔루션을 제공합니다. 이 자습서에서는 .NET용 GroupDocs.Signature를 사용하여 QR 코드를 확인하는 단계별 프로세스를 살펴보겠습니다.
 ## 전제 조건

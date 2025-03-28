@@ -6,6 +6,9 @@ description: Hapus beberapa tanda tangan dari dokumen dengan mudah menggunakan G
 weight: 15
 url: /id/net/delete-operations/delete-multiple-signatures/
 ---
+
+# Hapus Banyak Tanda Tangan dari Dokumen
+
 ## Perkenalan
 Di dunia digital, pengelolaan dokumen seringkali melibatkan penanganan berbagai tanda tangan. Menghapus banyak tanda tangan dari dokumen secara terprogram dapat menyederhanakan alur kerja dan meningkatkan efisiensi. Dengan GroupDocs.Signature untuk .NET, tugas ini menjadi lancar dan mudah. Tutorial ini akan memandu Anda melalui proses menghapus banyak tanda tangan dari dokumen langkah demi langkah.
 ## Prasyarat

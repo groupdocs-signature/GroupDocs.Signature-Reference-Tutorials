@@ -6,6 +6,9 @@ description: Khám phá cách xem lịch sử xử lý tài liệu một cách d
 weight: 12
 url: /vi/net/document-preview-operations/view-document-processing-history/
 ---
+
+# Xem lịch sử xử lý tài liệu
+
 ## Giới thiệu
 GroupDocs.Signature dành cho .NET là một thư viện mạnh mẽ hỗ trợ xử lý tài liệu bằng cách cho phép bạn quản lý và thao tác liền mạch với chữ ký tài liệu trong các ứng dụng .NET của mình. Cho dù bạn đang xử lý các hợp đồng, thỏa thuận hay bất kỳ loại tài liệu nào khác cần có chữ ký, GroupDocs.Signature đều cho phép bạn hợp lý hóa quy trình làm việc của mình một cách hiệu quả.
 ## Điều kiện tiên quyết

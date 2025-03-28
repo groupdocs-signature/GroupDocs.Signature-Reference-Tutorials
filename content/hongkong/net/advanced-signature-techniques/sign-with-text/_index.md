@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 對帶有文字的�
 weight: 17
 url: /zh-hant/net/advanced-signature-techniques/sign-with-text/
 ---
+
+# 使用 GroupDocs.Signature for .NET 進行文字簽名
+
 ## 介紹
 在數位時代，電子簽名文件已成為一種標準做法，節省了時間和資源。 GroupDocs.Signature for .NET 提供了一個全面的解決方案，以程式設計方式將文字簽章新增至各種文件格式。在本教學中，我們將引導您完成使用 GroupDocs.Signature for .NET 對文字文件進行簽署的過程。
 ## 先決條件

@@ -6,6 +6,9 @@ description: Leer hoe u streepjescodes uit een document verwijdert met GroupDocs
 weight: 10
 url: /nl/net/delete-operations/delete-barcode/
 ---
+
+# Streepjescode uit document verwijderen
+
 ## Invoering
 GroupDocs.Signature voor .NET is een krachtige bibliotheek waarmee ontwikkelaars naadloos kunnen werken met digitale handtekeningen, stempels en streepjescodes binnen .NET-toepassingen. In deze zelfstudie begeleiden we u bij het verwijderen van een streepjescode uit een document met GroupDocs.Signature voor .NET.
 ## Vereisten

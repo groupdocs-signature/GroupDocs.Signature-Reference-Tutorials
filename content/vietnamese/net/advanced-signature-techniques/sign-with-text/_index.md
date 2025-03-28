@@ -6,6 +6,9 @@ description: Tìm hiểu cách ký tài liệu bằng văn bản bằng GroupDoc
 weight: 17
 url: /vi/net/advanced-signature-techniques/sign-with-text/
 ---
+
+# Ký bằng văn bản bằng GroupDocs.Signature cho .NET
+
 ## Giới thiệu
 Trong thời đại kỹ thuật số, việc ký các văn bản điện tử đã trở thành thông lệ tiêu chuẩn, tiết kiệm thời gian và nguồn lực. GroupDocs.Signature cho .NET cung cấp giải pháp toàn diện để thêm chữ ký văn bản vào các định dạng tài liệu khác nhau theo chương trình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình ký tài liệu có văn bản bằng GroupDocs.Signature cho .NET.
 ## Điều kiện tiên quyết

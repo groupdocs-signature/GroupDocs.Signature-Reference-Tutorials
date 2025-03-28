@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak sunum dosyalarını meta 
 weight: 12
 url: /tr/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# Sunumu Meta Verilerle İmzalayın
+
 ## giriiş
 Bu öğreticide, GroupDocs.Signature for .NET kitaplığını kullanarak meta veriler içeren bir sunum dosyasının (PPTX) nasıl imzalanacağını öğreneceğiz. Sunumların meta verilerle imzalanması, belgeye yazarın adı, oluşturulma tarihi, belge kimliği, imza kimliği ve çeşitli sayısal değerler gibi değerli bilgiler ekler.
 ## Önkoşullar

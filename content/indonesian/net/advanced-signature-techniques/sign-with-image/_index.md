@@ -6,6 +6,9 @@ description: Pelajari cara menandatangani dokumen menggunakan gambar di aplikasi
 weight: 13
 url: /id/net/advanced-signature-techniques/sign-with-image/
 ---
+
+# Menandatangani Dokumen dengan Gambar menggunakan GroupDocs.Signature
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menandatangani dokumen menggunakan gambar dengan Groupdocs.Signature untuk .NET. Menandatangani dokumen menambah lapisan keaslian dan keamanan ekstra pada file Anda, menjadikannya anti-rusak dan mengikat secara hukum. Dengan bantuan Groupdocs.Signature untuk .NET, Anda dapat dengan mudah mengintegrasikan fungsionalitas penandatanganan dokumen ke dalam aplikasi .NET Anda.
 ## Prasyarat

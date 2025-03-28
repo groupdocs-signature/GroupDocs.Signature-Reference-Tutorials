@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 使用元数据对�
 weight: 12
 url: /zh/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# 使用元数据签署演示文稿
+
 ## 介绍
 在本教程中，我们将学习如何使用 GroupDocs.Signature for .NET 库对演示文稿文件 (PPTX) 进行元数据签名。使用元数据对演示文稿进行签名会向文档添加有价值的信息，例如作者姓名、创建日期、文档 ID、签名 ID 和各种数值。
 ## 先决条件

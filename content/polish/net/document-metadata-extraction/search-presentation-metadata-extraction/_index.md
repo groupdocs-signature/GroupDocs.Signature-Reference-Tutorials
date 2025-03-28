@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębnić metadane prezentacji za pomocą Grou
 weight: 12
 url: /pl/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---
+
+# Wyszukaj ekstrakcję metadanych prezentacji
+
 ## Wstęp
 dziedzinie dokumentacji cyfrowej zapewnienie autentyczności i integralności plików jest sprawą najwyższej wagi. GroupDocs.Signature dla .NET oferuje kompleksowe rozwiązanie do integracji funkcji podpisów z aplikacjami .NET. Wśród szeregu funkcji wyróżniającą się możliwością jest możliwość wyodrębniania metadanych prezentacji z precyzją i wydajnością.
 ## Warunki wstępne

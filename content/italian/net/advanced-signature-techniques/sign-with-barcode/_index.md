@@ -6,6 +6,9 @@ description: Scopri come firmare documenti con codice a barre utilizzando GroupD
 weight: 11
 url: /it/net/advanced-signature-techniques/sign-with-barcode/
 ---
+
+# Firma con codice a barre
+
 ## introduzione
 Nell'era digitale di oggi, proteggere i documenti con le firme è fondamentale e GroupDocs.Signature per .NET offre una soluzione perfetta per integrare le firme dei codici a barre nelle tue applicazioni. In questo tutorial ti guideremo attraverso il processo di firma di un documento con un codice a barre utilizzando GroupDocs.Signature per .NET.
 ## Prerequisiti

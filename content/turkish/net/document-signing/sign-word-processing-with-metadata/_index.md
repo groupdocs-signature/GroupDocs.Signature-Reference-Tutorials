@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET'i kullanarak Kelime İşleme belgeleri
 weight: 14
 url: /tr/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# Meta Verilerle Kelime İşleme İmzalayın
+
 ## giriiş
 Bu öğreticide, GroupDocs.Signature for .NET'i kullanarak meta veriler içeren bir Kelime İşleme belgesini imzalama sürecinde size yol göstereceğiz. Meta veri imzalama, belgenize yazarın adı, oluşturulma tarihi, belge kimliği ve daha fazlası gibi ek bilgiler eklemenize olanak tanır.
 ## Önkoşullar

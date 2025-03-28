@@ -6,6 +6,9 @@ description: GroupDocs.Signature'ı kullanarak .NET'teki dijital imzaları kolay
 weight: 11
 url: /tr/net/verify-operations/verify-digital/
 ---
+
+# Dijital İmzayı Doğrulayın
+
 ## giriiş
 Dijital belgeler alanında özgünlüğün ve bütünlüğün sağlanması çok önemlidir. Dijital imzalar, el yazısı imzaların dijital eşdeğeri olarak hizmet ederek elektronik belgelerin kökenini ve bütünlüğünü doğrulamak için güvenli bir yol sağlar. GroupDocs.Signature for .NET, .NET uygulamalarında dijital imzalarla çalışmak için güçlü bir araç seti sunarak dijital imzaların kolaylıkla doğrulanmasını kolaylaştırır.
 ## Önkoşullar

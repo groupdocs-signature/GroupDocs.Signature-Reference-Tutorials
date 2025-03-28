@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用してドキュメント処�
 weight: 12
 url: /ja/net/document-preview-operations/view-document-processing-history/
 ---
+
+# ドキュメント処理履歴の表示
+
 ## 導入
 GroupDocs.Signature for .NET は、.NET アプリケーション内でドキュメント署名をシームレスに管理および操作できるようにすることで、ドキュメント処理を容易にする強力なライブラリです。契約書、合意書、または署名を必要とするその他の種類のドキュメントを扱う場合でも、GroupDocs.Signature を使用すると、ワークフローを効率的に合理化できます。
 ## 前提条件

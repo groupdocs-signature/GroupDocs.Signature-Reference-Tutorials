@@ -6,6 +6,9 @@ description: Lär dig hur du signerar presentationsfiler med metadata med GroupD
 weight: 12
 url: /sv/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# Sign presentation med metadata
+
 ## Introduktion
 den här handledningen kommer vi att lära oss hur man signerar en presentationsfil (PPTX) med metadata med hjälp av GroupDocs.Signature for .NET-biblioteket. Att signera presentationer med metadata lägger till värdefull information till dokumentet, såsom författarens namn, skapelsedatum, dokument-ID, signatur-ID och olika numeriska värden.
 ## Förutsättningar

@@ -6,6 +6,9 @@ description: Naučte se, jak digitálně podepisovat dokumenty v .NET pomocí Gr
 weight: 12
 url: /cs/net/advanced-signature-techniques/sign-with-digital/
 ---
+
+# Podepisování digitálním podpisem
+
 ## Úvod
 Digitální podpisy hrají klíčovou roli při zajišťování pravosti a integrity elektronických dokumentů. V oblasti vývoje .NET nabízí GroupDocs.Signature výkonné řešení pro bezproblémovou integraci digitálních podpisů do vašich aplikací. Tento tutoriál vás provede procesem podepisování dokumentu pomocí digitálního podpisu pomocí GroupDocs.Signature for .NET.
 ## Předpoklady

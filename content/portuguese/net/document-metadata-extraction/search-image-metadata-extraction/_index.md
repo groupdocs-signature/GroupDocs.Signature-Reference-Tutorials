@@ -6,6 +6,9 @@ description: Aprenda como pesquisar assinaturas de metadados de imagens em docum
 weight: 10
 url: /pt/net/document-metadata-extraction/search-image-metadata-extraction/
 ---
+
+# Extração de metadados de imagem de pesquisa com GroupDocs.Signature
+
 ## Introdução
 Na era digital, garantir a integridade e autenticidade dos documentos é fundamental. Quer se trate de contratos, acordos legais ou registros importantes, é crucial ter um método confiável para assinar e verificar documentos. GroupDocs.Signature for .NET fornece uma solução abrangente para adicionar e verificar assinaturas em vários formatos de documentos. Neste tutorial, nos aprofundaremos no processo de pesquisa de assinaturas de metadados de imagem usando GroupDocs.Signature for .NET. 
 ## Pré-requisitos

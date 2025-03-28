@@ -7,6 +7,9 @@ weight: 22
 url: /id/net/document-metadata-extraction/
 ---
 
+# Ekstraksi Metadata Dokumen
+
+
 ## Perkenalan
 
 Dalam lanskap digital saat ini, mengelola integritas dan keaslian dokumen adalah hal yang terpenting. GroupDocs.Signature untuk .NET memberdayakan pengembang untuk mengekstrak metadata dari berbagai jenis dokumen dengan lancar, sehingga meningkatkan kemampuan manajemen dokumen. Mari selami serangkaian tutorial yang mengeksplorasi cara memanfaatkan potensi penuh ekstraksi metadata di berbagai format dokumen.

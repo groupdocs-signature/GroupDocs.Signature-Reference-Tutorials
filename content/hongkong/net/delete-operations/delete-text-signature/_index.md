@@ -6,6 +6,9 @@ description: 使用 GroupDocs.Signature for .NET 輕鬆刪除文件中的文字�
 weight: 17
 url: /zh-hant/net/delete-operations/delete-text-signature/
 ---
+
+# 刪除文字簽名
+
 ## 介紹
 GroupDocs.Signature for .NET 是一個功能強大的程式庫，使開發人員能夠將電子簽名功能無縫整合到他們的 .NET 應用程式中。無論您是建立文件管理系統、合約簽署平台或任何其他需要簽名功能的應用程序，GroupDocs.Signature for .NET 都提供了一套全面的工具來簡化流程。
 ## 先決條件

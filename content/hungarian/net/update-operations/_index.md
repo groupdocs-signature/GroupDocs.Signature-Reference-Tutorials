@@ -6,6 +6,9 @@ description: Frissítse a vonalkódot, a képet, a QR-kódot és a szöveges al�
 weight: 26
 url: /hu/net/update-operations/
 ---
+
+# Frissítési műveletek
+
 ## Bevezetés
 
 Frissíteni szeretné a különböző típusú aláírásokat .NET-dokumentumaiban? A GroupDocs.Signature for .NET átfogó oktatóanyagokat kínál a vonalkód, kép, QR-kód és szöveges aláírások frissítéséhez, biztosítva a zökkenőmentes integrációt és a fokozott dokumentumbiztonságot.

@@ -6,6 +6,9 @@ description: Dowiedz się, jak podpisywać arkusze kalkulacyjne metadanymi przy 
 weight: 13
 url: /pl/net/document-signing/sign-spreadsheet-with-metadata/
 ---
+
+# Podpisz arkusz kalkulacyjny metadanymi
+
 ## Wstęp
 tym samouczku omówimy proces podpisywania arkusza kalkulacyjnego metadanymi przy użyciu narzędzia Groupdocs.Signature for .NET. Podpisywanie metadanych umożliwia osadzenie w dokumentach dodatkowych informacji, zapewniających kontekst lub weryfikację. Po przeczytaniu tego przewodnika będziesz mógł bez wysiłku stosować podpisy metadanych w swoich arkuszach kalkulacyjnych.
 ## Warunki wstępne

@@ -6,6 +6,9 @@ description: Scopri come verificare i codici a barre all'interno dei documenti u
 weight: 10
 url: /it/net/verify-operations/verify-barcode/
 ---
+
+# Verifica codice a barre
+
 ## introduzione
 Nel campo della documentazione digitale, garantire l'autenticità e l'integrità è fondamentale. GroupDocs.Signature per .NET fornisce una soluzione solida per la verifica dei codici a barre all'interno dei documenti. Questo tutorial approfondisce il processo di verifica dei codici a barre utilizzando GroupDocs.Signature per .NET, offrendo una guida passo passo per un'implementazione senza problemi.
 ## Prerequisiti

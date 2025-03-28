@@ -6,6 +6,9 @@ description: Scopri come firmare fogli di calcolo con metadati utilizzando Group
 weight: 13
 url: /it/net/document-signing/sign-spreadsheet-with-metadata/
 ---
+
+# Firma il foglio di calcolo con metadati
+
 ## introduzione
 In questo tutorial esamineremo il processo di firma di un foglio di calcolo con metadati utilizzando Groupdocs.Signature per .NET. La firma dei metadati ti consente di incorporare informazioni aggiuntive nei tuoi documenti, fornendo contesto o verifica. Al termine di questa guida sarai in grado di applicare facilmente le firme dei metadati ai tuoi fogli di calcolo.
 ## Prerequisiti

@@ -6,6 +6,9 @@ description: Ta enkelt bort flera signaturer från dokument med GroupDocs.Signat
 weight: 15
 url: /sv/net/delete-operations/delete-multiple-signatures/
 ---
+
+# Ta bort flera signaturer från dokument
+
 ## Introduktion
 I den digitala världen innebär dokumenthantering ofta att hantera olika signaturer. Att ta bort flera signaturer från ett dokument programmatiskt kan effektivisera arbetsflöden och förbättra effektiviteten. Med GroupDocs.Signature för .NET blir denna uppgift sömlös och enkel. Denna handledning guidar dig genom processen att ta bort flera signaturer från ett dokument steg för steg.
 ## Förutsättningar

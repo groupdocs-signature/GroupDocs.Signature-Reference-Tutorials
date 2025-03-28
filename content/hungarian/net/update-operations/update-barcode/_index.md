@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti a dokumentumok vonalkód-aláírá
 weight: 10
 url: /hu/net/update-operations/update-barcode/
 ---
+
+# Vonalkód frissítése
+
 ## Bevezetés
 Ebből az oktatóanyagból megtudjuk, hogyan frissíthet vonalkód-aláírást egy dokumentumon belül a GroupDocs.Signature for .NET segítségével. A GroupDocs.Signature for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy digitális aláírásokkal dolgozzanak, beleértve a különféle típusokat, például vonalkódot, szöveget, képet és egyebeket. Lépésről lépésre megyünk végig a folyamaton, hogy biztosan megértse az egyes részeket.
 ## Előfeltételek

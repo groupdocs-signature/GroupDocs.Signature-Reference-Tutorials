@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature 轻松删除 .NET 文档中�
 weight: 12
 url: /zh/net/delete-operations/delete-signature-by-type/
 ---
+
+# 按类型删除签名
+
 ## 介绍
 在当今的数字时代，高效文档管理的需求至关重要。无论您是处理合同的商业专业人士还是处理法律文件的个人，确保文件的真实性和完整性都至关重要。 GroupDocs.Signature for .NET 提供了一个强大的解决方案来无缝管理文档中的签名。在本教程中，我们将深入研究使用 GroupDocs.Signature for .NET 按类型删除签名的过程，为您提供简化文档管理任务的分步指南。
 ## 先决条件

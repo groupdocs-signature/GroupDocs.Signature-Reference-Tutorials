@@ -6,6 +6,9 @@ description: Naučte se extrahovat metadata prezentace pomocí GroupDocs.Signatu
 weight: 12
 url: /cs/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---
+
+# Vyhledání prezentace metadat Extrakce
+
 ## Úvod
 oblasti digitální dokumentace je prvořadé zajištění pravosti a integrity souborů. GroupDocs.Signature for .NET nabízí komplexní řešení pro integraci funkcí podpisu do aplikací .NET. Jednou z jeho výjimečných funkcí je schopnost extrahovat prezentační metadata s přesností a účinností.
 ## Předpoklady

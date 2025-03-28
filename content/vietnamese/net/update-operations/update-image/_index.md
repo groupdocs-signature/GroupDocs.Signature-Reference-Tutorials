@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật chữ ký hình ảnh trong tài li�
 weight: 11
 url: /vi/net/update-operations/update-image/
 ---
+
+# Cập nhật hình ảnh
+
 ## Giới thiệu
 Trong lĩnh vực quản lý và xác thực tài liệu, chữ ký số đóng vai trò then chốt trong việc đảm bảo tính toàn vẹn và xác thực của tài liệu điện tử. GroupDocs.Signature dành cho .NET cung cấp một giải pháp mạnh mẽ cho các nhà phát triển để kết hợp các chức năng chữ ký một cách liền mạch vào các ứng dụng .NET của họ. Trong số các tính năng của nó, việc cập nhật chữ ký hình ảnh trong tài liệu là một khả năng quan trọng.
 ## Điều kiện tiên quyết

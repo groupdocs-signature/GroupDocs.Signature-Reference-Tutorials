@@ -6,6 +6,9 @@ description: Naučte se vyhledávat obrázky v dokumentech pomocí GroupDocs.Sig
 weight: 13
 url: /cs/net/signature-searching/search-for-images/
 ---
+
+# Hledat obrázky
+
 ## Úvod
 GroupDocs.Signature for .NET je výkonná knihovna, která umožňuje vývojářům bezproblémově přidávat, vyhledávat a ověřovat digitální podpisy k široké škále formátů dokumentů v rámci jejich aplikací .NET. Ať už pracujete s dokumenty Word, PDF, tabulkami nebo prezentacemi, tato knihovna poskytuje komplexní funkce pro efektivní správu digitálních podpisů.
 ## Předpoklady

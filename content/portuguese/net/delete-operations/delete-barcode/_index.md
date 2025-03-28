@@ -6,6 +6,9 @@ description: Aprenda como excluir código de barras de um documento usando Group
 weight: 10
 url: /pt/net/delete-operations/delete-barcode/
 ---
+
+# Excluir código de barras do documento
+
 ## Introdução
 GroupDocs.Signature for .NET é uma biblioteca poderosa que permite aos desenvolvedores trabalhar perfeitamente com assinaturas digitais, carimbos e códigos de barras em aplicativos .NET. Neste tutorial, orientaremos você no processo de exclusão de um código de barras de um documento usando GroupDocs.Signature for .NET.
 ## Pré-requisitos

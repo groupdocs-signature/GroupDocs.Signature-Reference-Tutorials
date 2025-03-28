@@ -6,6 +6,9 @@ description: 使用 GroupDocs.Signature 輕鬆驗證 .NET 中的數位簽章。�
 weight: 11
 url: /zh-hant/net/verify-operations/verify-digital/
 ---
+
+# 驗證數位簽名
+
 ## 介紹
 在數位文件領域，確保真實性和完整性至關重要。數位簽章相當於手寫簽名的數位形式，提供了一種驗證電子文件的來源和完整性的安全方法。 GroupDocs.Signature for .NET 提供了一個強大的工具包，可在 .NET 應用程式中處理數位簽名，從而輕鬆促進數位簽名的驗證。
 ## 先決條件

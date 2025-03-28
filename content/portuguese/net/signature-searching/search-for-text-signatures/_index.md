@@ -6,6 +6,9 @@ description: Aprenda como pesquisar assinaturas de texto em documentos digitais 
 weight: 16
 url: /pt/net/signature-searching/search-for-text-signatures/
 ---
+
+# Pesquisar assinaturas de texto
+
 ## Introdução
 No domínio do gerenciamento e autenticação de documentos, a capacidade de pesquisar com eficiência assinaturas de texto em documentos digitais é fundamental. GroupDocs.Signature for .NET oferece uma solução poderosa para essa necessidade, fornecendo aos desenvolvedores um kit de ferramentas abrangente para localizar assinaturas de texto em vários formatos de arquivo. Neste tutorial, nos aprofundaremos no processo de busca de assinaturas de texto usando GroupDocs.Signature for .NET, detalhando cada etapa para garantir uma compreensão clara da implementação.
 ## Pré-requisitos

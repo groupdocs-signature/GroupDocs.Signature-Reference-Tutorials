@@ -6,6 +6,9 @@ description: GroupDocs.Signature を使用して .NET でドキュメントに�
 weight: 12
 url: /ja/net/advanced-signature-techniques/sign-with-digital/
 ---
+
+# デジタル署名による署名
+
 ## 導入
 デジタル署名は、電子文書の信頼性と完全性を保証する上で重要な役割を果たします。 .NET 開発の領域では、GroupDocs.Signature はデジタル署名をアプリケーションにシームレスに統合するための強力なソリューションを提供します。このチュートリアルでは、GroupDocs.Signature for .NET を使用してデジタル署名を使用してドキュメントに署名するプロセスについて説明します。
 ## 前提条件

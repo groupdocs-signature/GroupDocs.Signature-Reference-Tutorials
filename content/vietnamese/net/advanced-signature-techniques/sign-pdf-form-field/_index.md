@@ -6,6 +6,9 @@ description: Tìm hiểu cách ký tài liệu PDF với các trường biểu m
 weight: 10
 url: /vi/net/advanced-signature-techniques/sign-pdf-form-field/
 ---
+
+# Ký PDF bằng trường biểu mẫu
+
 ## Giới thiệu
 Chữ ký số cung cấp một cách an toàn và ràng buộc về mặt pháp lý để ký các tài liệu điện tử, đảm bảo tính xác thực và tính toàn vẹn của chúng. Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách ký một tài liệu PDF có chứa các trường biểu mẫu bằng thư viện GroupDocs.Signature cho .NET.
 ## Điều kiện tiên quyết

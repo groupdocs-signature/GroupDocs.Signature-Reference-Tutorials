@@ -6,6 +6,9 @@ description: Leer hoe u QR-codehandtekeningen uit documenten verwijdert met Grou
 weight: 16
 url: /nl/net/delete-operations/delete-qr-code-signature/
 ---
+
+# Verwijder de QR-codehandtekening uit het document
+
 ## Invoering
 In deze zelfstudie begeleiden we u bij het verwijderen van een QR-codehandtekening uit een document met behulp van GroupDocs.Signature voor .NET. Volg deze stapsgewijze instructies om QR-codehandtekeningen effectief te verwijderen.
 ## Vereisten

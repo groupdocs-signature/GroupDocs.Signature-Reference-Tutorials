@@ -6,6 +6,9 @@ description: GroupDocs.Signature를 사용하여 .NET 문서에서 유형별 서
 weight: 12
 url: /ko/net/delete-operations/delete-signature-by-type/
 ---
+
+# 유형별 서명 삭제
+
 ## 소개
 오늘날 디지털 시대에는 효율적인 문서 관리의 필요성이 무엇보다 중요합니다. 계약을 처리하는 비즈니스 전문가이든 법률 문서를 처리하는 개인이든 파일의 신뢰성과 무결성을 보장하는 것이 중요합니다. .NET용 GroupDocs.Signature는 문서 내의 서명을 원활하게 관리할 수 있는 강력한 솔루션을 제공합니다. 이 자습서에서는 .NET용 GroupDocs.Signature를 사용하여 유형별로 서명을 삭제하는 프로세스를 자세히 살펴보고 문서 관리 작업을 간소화하기 위한 단계별 가이드를 제공합니다.
 ## 전제 조건

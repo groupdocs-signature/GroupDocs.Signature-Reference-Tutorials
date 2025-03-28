@@ -6,6 +6,9 @@ description: Přečtěte si, jak odstranit podpis podle ID v dokumentech .NET po
 weight: 11
 url: /cs/net/delete-operations/delete-signature-by-id/
 ---
+
+# Smazat podpis podle ID
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak odstranit podpis podle jeho ID pomocí GroupDocs.Signature for .NET. GroupDocs.Signature for .NET je výkonná knihovna, která umožňuje vývojářům přidávat, odebírat nebo ověřovat digitální podpisy v různých formátech dokumentů pomocí aplikací .NET.
 ## Předpoklady

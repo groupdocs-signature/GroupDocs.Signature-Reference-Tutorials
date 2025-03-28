@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 從文件中刪除�
 weight: 14
 url: /zh-hant/net/delete-operations/delete-image-signature/
 ---
+
+# 刪除影像簽名
+
 ## 介紹
 在本教學中，我們將探討如何使用 GroupDocs.Signature for .NET 從文件中刪除影像簽章。 GroupDocs.Signature 是一個功能強大的程式庫，可讓開發人員使用各種文件格式中的數位簽章、圖章和表單欄位。
 ## 先決條件

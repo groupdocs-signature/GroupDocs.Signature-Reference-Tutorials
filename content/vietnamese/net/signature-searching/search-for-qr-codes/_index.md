@@ -6,6 +6,9 @@ description: Tìm hiểu cách tìm kiếm mã QR trong tài liệu bằng Group
 weight: 15
 url: /vi/net/signature-searching/search-for-qr-codes/
 ---
+
+# Tìm kiếm mã QR
+
 ## Giới thiệu
 
 Trong thời đại kỹ thuật số, việc đảm bảo tính xác thực và toàn vẹn của tài liệu là điều tối quan trọng. GroupDocs.Signature dành cho .NET trao quyền cho các nhà phát triển tích hợp các tính năng chữ ký nâng cao một cách liền mạch vào các ứng dụng .NET của họ. Hướng dẫn toàn diện này sẽ hướng dẫn bạn quy trình tận dụng GroupDocs.Signature cho .NET để tìm kiếm mã QR trong tài liệu. Cuối cùng, bạn sẽ hiểu rõ về cách khai thác công cụ mạnh mẽ này để nâng cao tính bảo mật và hiệu quả của tài liệu.

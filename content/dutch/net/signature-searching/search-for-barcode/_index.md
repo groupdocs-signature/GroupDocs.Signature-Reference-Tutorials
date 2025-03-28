@@ -6,6 +6,9 @@ description: Leer hoe u naar streepjescodehandtekeningen in documenten kunt zoek
 weight: 10
 url: /nl/net/signature-searching/search-for-barcode/
 ---
+
+# Zoek naar streepjescode
+
 ## Invoering
 GroupDocs.Signature voor .NET is een krachtig hulpmiddel voor het toevoegen en verifiëren van digitale handtekeningen in verschillende documentformaten met behulp van .NET-toepassingen. In deze zelfstudie concentreren we ons op het zoeken naar streepjescodehandtekeningen in een document met behulp van GroupDocs.Signature voor .NET.
 ## Vereisten

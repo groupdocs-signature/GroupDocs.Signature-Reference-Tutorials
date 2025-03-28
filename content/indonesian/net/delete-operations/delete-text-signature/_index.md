@@ -6,6 +6,9 @@ description: Hapus tanda tangan teks dari dokumen dengan mudah menggunakan Group
 weight: 17
 url: /id/net/delete-operations/delete-text-signature/
 ---
+
+# Hapus Tanda Tangan Teks
+
 ## Perkenalan
 GroupDocs.Signature for .NET adalah perpustakaan canggih yang memungkinkan pengembang mengintegrasikan fungsionalitas tanda tangan elektronik ke dalam aplikasi .NET mereka dengan lancar. Baik Anda sedang membangun sistem manajemen dokumen, platform penandatanganan kontrak, atau aplikasi lain apa pun yang memerlukan fungsionalitas tanda tangan, GroupDocs.Signature untuk .NET menyediakan seperangkat alat komprehensif untuk menyederhanakan proses.
 ## Prasyarat

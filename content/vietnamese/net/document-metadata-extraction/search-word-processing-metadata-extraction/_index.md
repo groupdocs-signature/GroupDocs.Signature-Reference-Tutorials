@@ -6,6 +6,9 @@ description: Tìm hiểu cách tìm kiếm siêu dữ liệu xử lý văn bản
 weight: 14
 url: /vi/net/document-metadata-extraction/search-word-processing-metadata-extraction/
 ---
+
+# Tìm kiếm trích xuất siêu dữ liệu xử lý văn bản
+
 ## Giới thiệu
 Trong lĩnh vực phát triển .NET, việc quản lý chữ ký tài liệu và siêu dữ liệu đóng vai trò then chốt trong việc đảm bảo tính toàn vẹn và xác thực của tài liệu. GroupDocs.Signature cho .NET cung cấp giải pháp mạnh mẽ để xử lý các tác vụ này một cách hiệu quả. Hướng dẫn này đi sâu vào việc tận dụng GroupDocs.Signature để tìm kiếm siêu dữ liệu xử lý văn bản trong tài liệu, cho phép người dùng trích xuất thông tin cần thiết một cách liền mạch.
 ## Điều kiện tiên quyết

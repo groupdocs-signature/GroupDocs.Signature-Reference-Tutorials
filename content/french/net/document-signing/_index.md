@@ -6,6 +6,9 @@ description: Signez des images, des PDF, des présentations, des feuilles de cal
 weight: 24
 url: /fr/net/document-signing/
 ---
+
+# Signature de documents
+
 ## Introduction
 
 Découvrez comment signer différents types de documents avec des métadonnées à l'aide de GroupDocs.Signature pour .NET. Des images aux feuilles de calcul, garantissez l’authenticité des documents sans effort.

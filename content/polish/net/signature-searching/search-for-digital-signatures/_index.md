@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyszukiwać podpisy cyfrowe w dokumentach przy u�
 weight: 11
 url: /pl/net/signature-searching/search-for-digital-signatures/
 ---
+
+# Wyszukaj podpisy cyfrowe
+
 ## Wstęp
 W epoce cyfrowej zapewnienie autentyczności i integralności dokumentów jest sprawą najwyższej wagi. Podpisy cyfrowe odgrywają kluczową rolę w tym procesie, zapewniając bezpieczny sposób podpisywania i weryfikacji dokumentów elektronicznych. GroupDocs.Signature for .NET oferuje kompleksowe rozwiązanie do pracy z podpisami cyfrowymi w aplikacjach .NET. W tym samouczku omówimy podstawy używania programu GroupDocs.Signature for .NET do wyszukiwania podpisów cyfrowych w dokumentach.
 ## Warunki wstępne

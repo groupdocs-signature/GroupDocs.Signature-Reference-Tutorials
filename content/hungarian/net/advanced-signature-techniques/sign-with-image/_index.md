@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan írhat alá dokumentumokat képek használatáv
 weight: 13
 url: /hu/net/advanced-signature-techniques/sign-with-image/
 ---
+
+# Dokumentumok aláírása képpel a GroupDocs.Signature segítségével
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan írhat alá dokumentumokat képek használatával a Groupdocs.Signature for .NET segítségével. A dokumentumok aláírása további hitelességi és biztonsági réteget ad a fájlokhoz, így azok hamisításmentesek és jogilag kötelező érvényűek. A Groupdocs.Signature for .NET segítségével zökkenőmentesen integrálhatja a dokumentum-aláíró funkciókat .NET-alkalmazásaiba.
 ## Előfeltételek

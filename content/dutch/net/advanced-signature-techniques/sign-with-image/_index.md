@@ -6,6 +6,9 @@ description: Leer hoe u documenten kunt ondertekenen met afbeeldingen in .NET-to
 weight: 13
 url: /nl/net/advanced-signature-techniques/sign-with-image/
 ---
+
+# Documenten met afbeelding ondertekenen met GroupDocs.Signature
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u documenten kunt ondertekenen met behulp van afbeeldingen met Groupdocs.Signature voor .NET. Het ondertekenen van documenten voegt een extra laag authenticiteit en veiligheid toe aan uw bestanden, waardoor ze fraudebestendig en juridisch bindend worden. Met behulp van Groupdocs.Signature voor .NET kunt u de functionaliteit voor documentondertekening naadloos integreren in uw .NET-applicaties.
 ## Vereisten

@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 輕鬆將圖章簽�
 weight: 16
 url: /zh-hant/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# 使用 GroupDocs.Signature 進行 Stamp 簽名
+
 ## 介紹
 在本教學中，我們將引導您完成使用 GroupDocs.Signature for .NET 使用圖章簽署文件的流程。透過遵循這些逐步說明，您將能夠輕鬆地在文件中添加印章簽名。
 ## 先決條件

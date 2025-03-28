@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 将 QR 代码签名
 weight: 15
 url: /zh/net/advanced-signature-techniques/sign-with-qr-code/
 ---
+
+# 使用 GroupDocs.Signature 通过 QR 码签署文档
+
 ## 介绍
 在本教程中，我们将介绍使用 GroupDocs.Signature for .NET 使用二维码签署文档的过程。GroupDocs.Signature for .NET 是一个功能强大的 API，允许开发人员以编程方式向数字文档添加各种类型的签名。使用二维码签署文档可以为您的文档提供额外的安全性和身份验证。
 ## 先决条件

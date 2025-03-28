@@ -6,6 +6,9 @@ description: GroupDocs.Signature를 사용하여 .NET에서 디지털 서명을 
 weight: 11
 url: /ko/net/verify-operations/verify-digital/
 ---
+
+# 디지털 서명 확인
+
 ## 소개
 디지털 문서 영역에서는 신뢰성과 무결성을 보장하는 것이 무엇보다 중요합니다. 디지털 서명은 자필 서명과 동등한 디지털 역할을 하며 전자 문서의 출처와 무결성을 확인하는 안전한 방법을 제공합니다. .NET용 GroupDocs.Signature는 .NET 응용 프로그램에서 디지털 서명 작업을 위한 강력한 도구 키트를 제공하여 디지털 서명 확인을 쉽게 해줍니다.
 ## 전제 조건

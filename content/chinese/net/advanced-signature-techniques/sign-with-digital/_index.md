@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature 在 .NET 中以数字方式�
 weight: 12
 url: /zh/net/advanced-signature-techniques/sign-with-digital/
 ---
+
+# 使用数字签名进行签名
+
 ## 介绍
 数字签名在确保电子文档的真实性和完整性方面发挥着至关重要的作用。在 .NET 开发领域，GroupDocs.Signature 提供了一种强大的解决方案，可将数字签名无缝集成到您的应用程序中。本教程将指导您完成使用 GroupDocs.Signature for .NET 进行数字签名签署文档的过程。
 ## 先决条件

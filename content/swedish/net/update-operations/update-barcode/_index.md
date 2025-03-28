@@ -6,6 +6,9 @@ description: Lär dig hur du uppdaterar streckkodssignaturer i dokument med Grou
 weight: 10
 url: /sv/net/update-operations/update-barcode/
 ---
+
+# Uppdatera streckkoden
+
 ## Introduktion
 den här självstudien kommer vi att lära oss hur du uppdaterar en streckkodsignatur i ett dokument med GroupDocs.Signature för .NET. GroupDocs.Signature för .NET är ett kraftfullt API som låter utvecklare arbeta med digitala signaturer, inklusive olika typer som streckkoder, text, bild och mer. Vi går igenom processen steg för steg för att säkerställa att du förstår varje del grundligt.
 ## Förutsättningar

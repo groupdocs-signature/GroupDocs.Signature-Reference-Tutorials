@@ -6,6 +6,9 @@ description: 使用 GroupDocs.Signature 增强 .NET 中的文档管理。逐步�
 weight: 11
 url: /zh/net/document-preview-operations/retrieve-document-information/
 ---
+
+# 检索文档信息
+
 ## 介绍
 在数字文档领域，确保真实性和完整性至关重要。 GroupDocs.Signature for .NET 提供了一个强大的解决方案，用于在 .NET 环境中管理文档签名。在本教程中，我们将深入研究使用 GroupDocs.Signature for .NET 检索文档信息的过程，分解每个步骤以便全面理解。
 ## 先决条件

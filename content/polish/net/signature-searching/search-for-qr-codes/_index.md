@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyszukiwać kody QR w dokumentach za pomocą Grou
 weight: 15
 url: /pl/net/signature-searching/search-for-qr-codes/
 ---
+
+# Wyszukaj kody QR
+
 ## Wstęp
 
 W epoce cyfrowej zapewnienie autentyczności i integralności dokumentów jest sprawą najwyższej wagi. GroupDocs.Signature dla .NET umożliwia programistom bezproblemową integrację zaawansowanych funkcji podpisów z aplikacjami .NET. Ten obszerny przewodnik przeprowadzi Cię przez proces wykorzystania GroupDocs.Signature for .NET do wyszukiwania kodów QR w dokumentach. Na koniec będziesz mieć solidną wiedzę, jak wykorzystać to potężne narzędzie do zwiększenia bezpieczeństwa i wydajności dokumentów.

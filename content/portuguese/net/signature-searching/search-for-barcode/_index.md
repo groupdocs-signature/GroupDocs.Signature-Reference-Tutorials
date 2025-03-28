@@ -6,6 +6,9 @@ description: Aprenda como pesquisar assinaturas de código de barras em document
 weight: 10
 url: /pt/net/signature-searching/search-for-barcode/
 ---
+
+# Pesquisar código de barras
+
 ## Introdução
 GroupDocs.Signature for .NET é uma ferramenta poderosa para adicionar e verificar assinaturas digitais em vários formatos de documentos usando aplicativos .NET. Neste tutorial, vamos nos concentrar em como pesquisar assinaturas de código de barras em um documento usando GroupDocs.Signature for .NET.
 ## Pré-requisitos

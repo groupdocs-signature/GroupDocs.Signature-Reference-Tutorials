@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan törölhet képaláírásokat dokumentumokból 
 weight: 14
 url: /hu/net/delete-operations/delete-image-signature/
 ---
+
+# Képaláírás törlése
+
 ## Bevezetés
 Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan törölhetők képaláírások a dokumentumokból a GroupDocs.Signature for .NET segítségével. A GroupDocs.Signature egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy digitális aláírásokkal, bélyegzőkkel és űrlapmezőkkel dolgozzanak különféle dokumentumformátumokon belül.
 ## Előfeltételek

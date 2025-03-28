@@ -6,6 +6,9 @@ description: Naučte se, jak snadno přidat podpisy razítek do dokumentů .NET 
 weight: 16
 url: /cs/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# Podepisování razítkem pomocí GroupDocs.Signature
+
 ## Úvod
 V tomto tutoriálu vás provedeme procesem podepisování dokumentu razítkem pomocí GroupDocs.Signature for .NET. Podle těchto podrobných pokynů budete moci snadno přidat podpis razítka do svých dokumentů.
 ## Předpoklady

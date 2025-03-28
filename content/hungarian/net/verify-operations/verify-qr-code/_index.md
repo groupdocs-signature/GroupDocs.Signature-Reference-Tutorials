@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan ellenőrizheti a QR-kódokat dokumentumokon bel
 weight: 12
 url: /hu/net/verify-operations/verify-qr-code/
 ---
+
+# Ellenőrizze a QR-kódot
+
 ## Bevezetés
 dokumentumkezelés és hitelesítés területén az aláírások integritásának és érvényességének biztosítása a legfontosabb. A GroupDocs.Signature for .NET átfogó megoldást kínál a dokumentumokba ágyazott QR-kódok ellenőrzésére. Ebben az oktatóanyagban a QR-kódok GroupDocs.Signature for .NET használatával történő ellenőrzésének lépésről lépésre történő folyamatába fogunk bele.
 ## Előfeltételek

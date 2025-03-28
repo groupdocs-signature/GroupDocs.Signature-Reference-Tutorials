@@ -6,6 +6,9 @@ description: Pelajari cara menambahkan tanda tangan stempel ke dokumen .NET Anda
 weight: 16
 url: /id/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# Menandatangani dengan Stempel menggunakan GroupDocs.Signature
+
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui proses penandatanganan dokumen dengan stempel menggunakan GroupDocs.Signature untuk .NET. Dengan mengikuti petunjuk langkah demi langkah ini, Anda akan dapat menambahkan tanda tangan stempel ke dokumen Anda dengan mudah.
 ## Prasyarat

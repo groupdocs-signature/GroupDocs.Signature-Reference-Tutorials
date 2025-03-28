@@ -6,6 +6,9 @@ description: Aprenda como gerar visualizações de documentos usando GroupDocs.S
 weight: 10
 url: /pt/net/document-preview-operations/generate-document-preview/
 ---
+
+# Gerar visualização do documento
+
 ## Introdução
 Na era digital de hoje, onde os documentos estão no centro da comunicação e das transações, garantir a sua integridade e autenticidade é fundamental. GroupDocs.Signature for .NET capacita os desenvolvedores a incorporar perfeitamente recursos de assinatura de documentos em seus aplicativos .NET. Neste tutorial, nos aprofundaremos na geração de visualizações de documentos usando GroupDocs.Signature for .NET, fornecendo orientação passo a passo para desenvolvedores.
 ## Pré-requisitos

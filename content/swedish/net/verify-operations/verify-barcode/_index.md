@@ -6,6 +6,9 @@ description: Lär dig hur du verifierar streckkoder i dokument med GroupDocs.Sig
 weight: 10
 url: /sv/net/verify-operations/verify-barcode/
 ---
+
+# Verifiera streckkoden
+
 ## Introduktion
 När det gäller digital dokumentation är det av största vikt att säkerställa autenticitet och integritet. GroupDocs.Signature för .NET tillhandahåller en robust lösning för att verifiera streckkoder i dokument. Denna handledning fördjupar sig i processen att verifiera streckkoder med GroupDocs.Signature för .NET, och erbjuder steg-för-steg-guide för sömlös implementering.
 ## Förutsättningar

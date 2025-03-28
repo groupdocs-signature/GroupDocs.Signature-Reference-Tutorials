@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyszukiwać podpisy tekstowe w dokumentach cyfrow
 weight: 16
 url: /pl/net/signature-searching/search-for-text-signatures/
 ---
+
+# Wyszukaj podpisy tekstowe
+
 ## Wstęp
 W dziedzinie zarządzania dokumentami i uwierzytelniania najważniejsza jest możliwość skutecznego wyszukiwania podpisów tekstowych w dokumentach cyfrowych. GroupDocs.Signature dla .NET oferuje potężne rozwiązanie tej potrzeby, udostępniając programistom kompleksowy zestaw narzędzi do lokalizowania podpisów tekstowych w różnych formatach plików. W tym samouczku zagłębimy się w proces wyszukiwania podpisów tekstowych przy użyciu GroupDocs.Signature dla .NET, dzieląc każdy krok, aby zapewnić jasne zrozumienie implementacji.
 ## Warunki wstępne

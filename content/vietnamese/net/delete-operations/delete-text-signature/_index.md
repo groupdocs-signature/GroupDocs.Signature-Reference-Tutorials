@@ -6,6 +6,9 @@ description: Dễ dàng xóa chữ ký văn bản khỏi tài liệu bằng Grou
 weight: 17
 url: /vi/net/delete-operations/delete-text-signature/
 ---
+
+# Xóa chữ ký văn bản
+
 ## Giới thiệu
 GroupDocs.Signature cho .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tích hợp liền mạch chức năng chữ ký điện tử vào các ứng dụng .NET của họ. Cho dù bạn đang xây dựng hệ thống quản lý tài liệu, nền tảng ký hợp đồng hay bất kỳ ứng dụng nào khác yêu cầu chức năng chữ ký, GroupDocs.Signature cho .NET đều cung cấp một bộ công cụ toàn diện để đơn giản hóa quy trình.
 ## Điều kiện tiên quyết

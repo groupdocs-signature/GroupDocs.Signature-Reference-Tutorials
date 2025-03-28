@@ -6,6 +6,9 @@ description: Lär dig hur du verifierar QR-koder i dokument med GroupDocs.Signat
 weight: 12
 url: /sv/net/verify-operations/verify-qr-code/
 ---
+
+# Verifiera QR-koden
+
 ## Introduktion
 När det gäller dokumenthantering och autentisering är det av största vikt att säkerställa signaturernas integritet och giltighet. GroupDocs.Signature för .NET tillhandahåller en heltäckande lösning för att verifiera QR-koder inbäddade i dokument. I den här handledningen kommer vi att fördjupa oss i processen steg-för-steg för att verifiera QR-koder med GroupDocs.Signature för .NET.
 ## Förutsättningar

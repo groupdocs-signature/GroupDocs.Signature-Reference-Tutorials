@@ -6,6 +6,9 @@ description: Pelajari cara menandatangani gambar dengan metadata di .NET menggun
 weight: 10
 url: /id/net/document-signing/sign-image-with-metadata/
 ---
+
+# Tanda Tangani Gambar dengan Metadata
+
 ## Perkenalan
 GroupDocs.Signature untuk .NET memungkinkan pengembang menandatangani gambar dengan metadata secara efisien. Tutorial ini memandu Anda melalui proses langkah demi langkah.
 ## Prasyarat

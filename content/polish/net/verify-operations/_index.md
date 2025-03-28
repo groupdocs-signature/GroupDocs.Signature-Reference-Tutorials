@@ -6,6 +6,9 @@ description: Dowiedz się, jak weryfikować kody kreskowe, podpisy cyfrowe, kody
 weight: 27
 url: /pl/net/verify-operations/
 ---
+
+# Sprawdź operacje
+
 ## Wstęp
 
 Chcesz opanować weryfikację dokumentów przy użyciu GroupDocs.Signature dla .NET? Jesteś we właściwym miejscu. Niezależnie od tego, czy chodzi o zapewnienie autentyczności kodów kreskowych, podpisów cyfrowych, kodów QR czy tekstu w dokumentach, nasze samouczki zawierają szczegółowe wskazówki dotyczące bezproblemowej integracji.

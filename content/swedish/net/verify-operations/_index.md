@@ -6,6 +6,9 @@ description: Lär dig hur du verifierar streckkoder, digitala signaturer, QR-kod
 weight: 27
 url: /sv/net/verify-operations/
 ---
+
+# Verifiera verksamheten
+
 ## Introduktion
 
 Vill du behärska dokumentverifiering med GroupDocs.Signature för .NET? Du är på rätt plats. Oavsett om det gäller att säkerställa äktheten av streckkoder, digitala signaturer, QR-koder eller text i dina dokument, ger våra handledningar steg-för-steg-vägledning för sömlös integration.

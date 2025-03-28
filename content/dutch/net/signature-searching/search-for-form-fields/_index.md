@@ -6,6 +6,9 @@ description: Leer hoe u handtekeningfunctionaliteit kunt integreren in uw .NET-a
 weight: 12
 url: /nl/net/signature-searching/search-for-form-fields/
 ---
+
+# Zoek naar formuliervelden
+
 ## Invoering
 GroupDocs.Signature voor .NET is een krachtig hulpmiddel waarmee ontwikkelaars handtekeningfunctionaliteit aan hun .NET-applicaties kunnen toevoegen. Of u nu een documentbeheersysteem bouwt, een platform voor het ondertekenen van contracten of een andere toepassing waarvoor handtekeningverwerking vereist is, GroupDocs.Signature voor .NET biedt de functies die u nodig hebt om de handtekeningfunctionaliteit naadloos te integreren.
 ## Vereisten

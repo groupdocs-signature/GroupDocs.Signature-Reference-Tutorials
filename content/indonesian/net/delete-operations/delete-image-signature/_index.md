@@ -6,6 +6,9 @@ description: Pelajari cara menghapus tanda tangan gambar dari dokumen menggunaka
 weight: 14
 url: /id/net/delete-operations/delete-image-signature/
 ---
+
+# Hapus Tanda Tangan Gambar
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menghapus tanda tangan gambar dari dokumen menggunakan GroupDocs.Signature untuk .NET. GroupDocs.Signature adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan tanda tangan digital, stempel, dan bidang formulir dalam berbagai format dokumen.
 ## Prasyarat

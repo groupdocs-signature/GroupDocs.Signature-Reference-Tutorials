@@ -6,6 +6,9 @@ description: Naučte se ověřovat čárové kódy, digitální podpisy, QR kód
 weight: 27
 url: /cs/net/verify-operations/
 ---
+
+# Ověřte operace
+
 ## Úvod
 
 Hledáte ověření hlavního dokumentu pomocí GroupDocs.Signature pro .NET? Jste na správném místě. Ať už jde o zajištění pravosti čárových kódů, digitálních podpisů, QR kódů nebo textu ve vašich dokumentech, naše výukové programy poskytují podrobné pokyny pro bezproblémovou integraci.

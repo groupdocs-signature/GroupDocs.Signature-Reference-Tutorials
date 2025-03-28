@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 다양한 옵션으로 
 weight: 14
 url: /ko/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# 여러 옵션으로 서명
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Signature 라이브러리를 사용하여 여러 서명 옵션을 사용하여 문서에 서명하는 방법을 살펴보겠습니다. 텍스트, 바코드, QR 코드, 디지털, 이미지, 메타데이터 서명과 같은 다양한 옵션을 사용하여 문서에 서명하면 다양성을 제공하고 문서 보안을 강화할 수 있습니다.
 ## 전제 조건

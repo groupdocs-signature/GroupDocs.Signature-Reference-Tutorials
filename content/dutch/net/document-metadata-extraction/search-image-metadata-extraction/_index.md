@@ -6,6 +6,9 @@ description: Leer hoe u metagegevens van afbeeldingen kunt zoeken in documenten 
 weight: 10
 url: /nl/net/document-metadata-extraction/search-image-metadata-extraction/
 ---
+
+# Zoek metagegevensextractie van afbeeldingen met GroupDocs.Signature
+
 ## Invoering
 In het digitale tijdperk is het waarborgen van de integriteit en authenticiteit van documenten van cruciaal belang. Of het nu gaat om contracten, juridische overeenkomsten of belangrijke documenten: het hebben van een betrouwbare methode om documenten te ondertekenen en te verifiëren is van cruciaal belang. GroupDocs.Signature voor .NET biedt een uitgebreide oplossing voor het toevoegen en verifiëren van handtekeningen in verschillende documentformaten. In deze zelfstudie gaan we in op het proces van het zoeken naar handtekeningen van metagegevens van afbeeldingen met behulp van GroupDocs.Signature voor .NET. 
 ## Vereisten

@@ -6,6 +6,9 @@ description: Onderteken afbeeldingen, PDF's, presentaties, spreadsheets en Word-
 weight: 24
 url: /nl/net/document-signing/
 ---
+
+# Documentondertekening
+
 ## Invoering
 
 Leer hoe u verschillende soorten documenten met metagegevens kunt ondertekenen met GroupDocs.Signature voor .NET. Van afbeeldingen tot spreadsheets: zorg moeiteloos voor de authenticiteit van documenten.

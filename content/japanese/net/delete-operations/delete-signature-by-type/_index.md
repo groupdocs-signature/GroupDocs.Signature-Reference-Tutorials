@@ -6,6 +6,9 @@ description: GroupDocs.Signature を使用して、.NET ドキュメント内の
 weight: 12
 url: /ja/net/delete-operations/delete-signature-by-type/
 ---
+
+# 種類ごとに署名を削除
+
 ## 導入
 今日のデジタル時代では、効率的な文書管理の必要性が最も重要です。契約書を扱うビジネスプロフェッショナルであっても、法的文書を処理する個人であっても、ファイルの信頼性と整合性を確保することは非常に重要です。 GroupDocs.Signature for .NET は、ドキュメント内の署名をシームレスに管理するための強力なソリューションを提供します。このチュートリアルでは、GroupDocs.Signature for .NET を使用して署名をタイプ別に削除するプロセスを詳しく説明し、ドキュメント管理タスクを効率化するためのステップバイステップのガイドを提供します。
 ## 前提条件

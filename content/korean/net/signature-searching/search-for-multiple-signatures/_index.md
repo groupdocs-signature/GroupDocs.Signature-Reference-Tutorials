@@ -6,6 +6,9 @@ description: 효율적인 문서 보안 및 무결성을 위해 GroupDocs.Signat
 weight: 14
 url: /ko/net/signature-searching/search-for-multiple-signatures/
 ---
+
+# 여러 서명 검색
+
 ## 소개
 .NET용 GroupDocs.Signature는 개발자가 .NET 응용 프로그램을 사용하여 널리 사용되는 문서 형식의 다양한 유형의 서명을 추가, 검색 및 제거할 수 있게 해주는 강력한 라이브러리입니다. 이 자습서에서는 .NET용 GroupDocs.Signature를 사용하여 문서 내에서 여러 서명을 검색하는 데 중점을 둡니다.
 ## 전제 조건

@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan törölhet QR-kód aláírásokat dokumentumokb
 weight: 16
 url: /hu/net/delete-operations/delete-qr-code-signature/
 ---
+
+# Törölje a QR-kód aláírását a dokumentumból
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a QR-kód aláírásának a dokumentumból való eltávolításának folyamatán a GroupDocs.Signature for .NET segítségével. Kövesse ezeket a lépésenkénti utasításokat a QR-kód aláírások hatékony törléséhez.
 ## Előfeltételek

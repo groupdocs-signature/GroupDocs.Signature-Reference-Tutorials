@@ -6,6 +6,9 @@ description: Aprenda como excluir assinaturas digitais de documentos usando Grou
 weight: 13
 url: /pt/net/delete-operations/delete-digital-signature/
 ---
+
+# Excluir assinatura digital do documento
+
 ## Introdução
 No mundo dos documentos digitais, garantir autenticidade e segurança é fundamental. As assinaturas digitais desempenham um papel crucial na verificação da integridade dos documentos eletrônicos. GroupDocs.Signature for .NET oferece ferramentas poderosas para gerenciar assinaturas digitais em aplicativos .NET com eficiência.
 ## Pré-requisitos

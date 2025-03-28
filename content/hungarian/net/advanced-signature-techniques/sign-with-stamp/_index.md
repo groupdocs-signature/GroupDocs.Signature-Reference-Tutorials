@@ -6,6 +6,9 @@ description: Tanulja meg, hogyan adhat hozzá egyszerűen bélyegzőaláírások
 weight: 16
 url: /hu/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# Aláírás bélyegzővel a GroupDocs.Signature használatával
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a dokumentumok pecséttel történő aláírásának folyamatán a GroupDocs.Signature for .NET használatával. Ha követi ezeket a lépésenkénti utasításokat, akkor könnyedén hozzáadhat bélyegzőaláírást a dokumentumokhoz.
 ## Előfeltételek

@@ -6,6 +6,9 @@ description: GroupDocs.Signature for .NET を使用して、複数のオプシ�
 weight: 14
 url: /ja/net/advanced-signature-techniques/sign-with-multiple-options/
 ---
+
+# 複数のオプションを使用した署名
+
 ## 導入
 このチュートリアルでは、.NET 用の GroupDocs.Signature ライブラリを使用して、複数の署名オプションを使用してドキュメントに署名する方法を説明します。テキスト、バーコード、QR コード、デジタル、画像、メタデータ署名などのさまざまなオプションを使用してドキュメントに署名すると、汎用性が高まり、ドキュメントのセキュリティが強化されます。
 ## 前提条件

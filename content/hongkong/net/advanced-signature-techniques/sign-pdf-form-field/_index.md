@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 透過表單欄位�
 weight: 10
 url: /zh-hant/net/advanced-signature-techniques/sign-pdf-form-field/
 ---
+
+# 使用表單欄位簽署 PDF
+
 ## 介紹
 數位簽章提供了一種安全且具有法律約束力的電子簽章方式，確保其真實性和完整性。在本教學中，我們將學習如何使用 GroupDocs.Signature for .NET 程式庫對包含表單欄位的 PDF 文件進行簽署。
 ## 先決條件

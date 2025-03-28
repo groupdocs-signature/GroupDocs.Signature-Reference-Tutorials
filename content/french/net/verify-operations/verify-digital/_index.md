@@ -6,6 +6,9 @@ description: Vérifiez facilement les signatures numériques dans .NET à l’ai
 weight: 11
 url: /fr/net/verify-operations/verify-digital/
 ---
+
+# Vérifier la signature numérique
+
 ## Introduction
 Dans le domaine des documents numériques, garantir l’authenticité et l’intégrité est primordial. Les signatures numériques sont l'équivalent numérique des signatures manuscrites, offrant un moyen sécurisé de vérifier l'origine et l'intégrité des documents électroniques. GroupDocs.Signature for .NET offre une boîte à outils puissante pour travailler avec des signatures numériques dans les applications .NET, facilitant ainsi la vérification des signatures numériques.
 ## Conditions préalables

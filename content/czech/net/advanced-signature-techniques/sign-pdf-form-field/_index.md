@@ -6,6 +6,9 @@ description: Naučte se podepisovat dokumenty PDF pomocí polí formuláře pomo
 weight: 10
 url: /cs/net/advanced-signature-techniques/sign-pdf-form-field/
 ---
+
+# Podepisování PDF pomocí pole formuláře
+
 ## Úvod
 Digitální podpisy poskytují bezpečný a právně závazný způsob elektronického podepisování dokumentů a zajišťují jejich pravost a integritu. V tomto tutoriálu se naučíme, jak podepsat dokument PDF, který obsahuje pole formuláře, pomocí knihovny GroupDocs.Signature for .NET.
 ## Předpoklady

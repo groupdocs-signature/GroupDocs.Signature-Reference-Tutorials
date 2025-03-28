@@ -6,6 +6,9 @@ description: 使用 GroupDocs.Signature .NET 使用元数据对图像、PDF、�
 weight: 24
 url: /zh/net/document-signing/
 ---
+
+# 文件签署
+
 ## 介绍
 
 了解如何使用 GroupDocs.Signature for .NET 使用元数据对各种类型的文档进行签名。从图像到电子表格，轻松确保文档的真实性。

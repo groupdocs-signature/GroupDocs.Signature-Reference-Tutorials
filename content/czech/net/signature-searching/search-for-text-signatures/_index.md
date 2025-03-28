@@ -6,6 +6,9 @@ description: Naučte se vyhledávat textové podpisy v digitálních dokumentech
 weight: 16
 url: /cs/net/signature-searching/search-for-text-signatures/
 ---
+
+# Vyhledejte textové podpisy
+
 ## Úvod
 V oblasti správy dokumentů a ověřování je schopnost efektivně vyhledávat textové podpisy v digitálních dokumentech prvořadá. GroupDocs.Signature for .NET nabízí výkonné řešení této potřeby a poskytuje vývojářům komplexní sadu nástrojů pro vyhledávání textových podpisů v různých formátech souborů. V tomto tutoriálu se ponoříme do procesu vyhledávání textových podpisů pomocí GroupDocs.Signature for .NET a rozebereme každý krok, abychom zajistili jasné pochopení implementace.
 ## Předpoklady

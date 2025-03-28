@@ -6,6 +6,9 @@ description: Tìm hiểu cách tìm kiếm chữ ký siêu dữ liệu hình ả
 weight: 10
 url: /vi/net/document-metadata-extraction/search-image-metadata-extraction/
 ---
+
+# Tìm kiếm trích xuất siêu dữ liệu hình ảnh bằng GroupDocs.Signature
+
 ## Giới thiệu
 Trong thời đại kỹ thuật số, việc đảm bảo tính toàn vẹn và xác thực của tài liệu là điều tối quan trọng. Cho dù đó là hợp đồng, thỏa thuận pháp lý hay hồ sơ quan trọng, việc có một phương pháp đáng tin cậy để ký và xác minh tài liệu là rất quan trọng. GroupDocs.Signature cho .NET cung cấp giải pháp toàn diện để thêm và xác minh chữ ký ở nhiều định dạng tài liệu khác nhau. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình tìm kiếm chữ ký siêu dữ liệu hình ảnh bằng GroupDocs.Signature cho .NET. 
 ## Điều kiện tiên quyết

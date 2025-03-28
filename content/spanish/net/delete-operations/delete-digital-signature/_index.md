@@ -6,6 +6,9 @@ description: Aprenda cómo eliminar firmas digitales de documentos usando GroupD
 weight: 13
 url: /es/net/delete-operations/delete-digital-signature/
 ---
+
+# Eliminar firma digital del documento
+
 ## Introducción
 En el mundo de los documentos digitales, garantizar la autenticidad y la seguridad es primordial. Las firmas digitales desempeñan un papel crucial en la verificación de la integridad de los documentos electrónicos. GroupDocs.Signature para .NET ofrece potentes herramientas para gestionar firmas digitales dentro de aplicaciones .NET de manera eficiente.
 ## Requisitos previos

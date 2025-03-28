@@ -6,6 +6,9 @@ description: Mettez à jour les signatures de codes-barres, d'images, de codes Q
 weight: 26
 url: /fr/net/update-operations/
 ---
+
+# Opérations de mise à jour
+
 ## Introduction
 
 Cherchez-vous à mettre à jour différents types de signatures dans vos documents .NET ? GroupDocs.Signature pour .NET fournit des didacticiels complets sur la mise à jour des signatures de codes-barres, d'images, de codes QR et de texte, garantissant une intégration transparente et une sécurité améliorée des documents.

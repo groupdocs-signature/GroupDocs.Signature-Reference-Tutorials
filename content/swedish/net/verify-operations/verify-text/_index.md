@@ -6,6 +6,9 @@ description: Lär dig hur du verifierar text i dokument med GroupDocs.Signature 
 weight: 13
 url: /sv/net/verify-operations/verify-text/
 ---
+
+# Verifiera text
+
 ## Introduktion
 den här självstudien guidar vi dig genom processen att verifiera text i dokument med GroupDocs.Signature för .NET. Detta kraftfulla bibliotek låter dig sömlöst integrera textverifieringsfunktioner i dina .NET-applikationer, vilket säkerställer integriteten och äktheten hos dina dokument.
 ## Förutsättningar

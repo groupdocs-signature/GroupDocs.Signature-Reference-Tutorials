@@ -6,6 +6,9 @@ description: Exclua facilmente assinaturas de texto de documentos usando GroupDo
 weight: 17
 url: /pt/net/delete-operations/delete-text-signature/
 ---
+
+# Excluir assinatura de texto
+
 ## Introdução
 GroupDocs.Signature for .NET é uma biblioteca poderosa que permite aos desenvolvedores integrar perfeitamente a funcionalidade de assinatura eletrônica em seus aplicativos .NET. Esteja você construindo um sistema de gerenciamento de documentos, uma plataforma de assinatura de contrato ou qualquer outro aplicativo que exija funcionalidade de assinatura, o GroupDocs.Signature for .NET fornece um conjunto abrangente de ferramentas para simplificar o processo.
 ## Pré-requisitos

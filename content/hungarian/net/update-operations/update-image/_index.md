@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti könnyedén a .NET-dokumentumok k�
 weight: 11
 url: /hu/net/update-operations/update-image/
 ---
+
+# Kép frissítése
+
 ## Bevezetés
 A dokumentumkezelés és hitelesítés területén a digitális aláírás kulcsszerepet játszik az elektronikus dokumentumok integritásának és hitelességének biztosításában. A GroupDocs.Signature for .NET robusztus megoldást kínál a fejlesztők számára, hogy az aláírási funkciókat zökkenőmentesen építsék be .NET-alkalmazásaikba. Funkciói közül a dokumentumokon belüli képaláírások frissítése kulcsfontosságú lehetőség.
 ## Előfeltételek

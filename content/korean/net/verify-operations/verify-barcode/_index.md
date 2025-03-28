@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 문서 내 바코드를
 weight: 10
 url: /ko/net/verify-operations/verify-barcode/
 ---
+
+# 바코드 확인
+
 ## 소개
 디지털 문서 영역에서는 신뢰성과 무결성을 보장하는 것이 무엇보다 중요합니다. .NET용 GroupDocs.Signature는 문서 내의 바코드를 확인하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 .NET용 GroupDocs.Signature를 사용하여 바코드를 확인하는 과정을 자세히 살펴보고 원활한 구현을 위한 단계별 지침을 제공합니다.
 ## 전제 조건

@@ -6,6 +6,9 @@ description: Naučte se podepisovat dokumenty textového zpracování pomocí me
 weight: 14
 url: /cs/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# Podepsat textový procesor s metadaty
+
 ## Úvod
 V tomto tutoriálu vás provedeme procesem podepisování dokumentu textového editoru s metadaty pomocí GroupDocs.Signature for .NET. Podepisování metadat vám umožňuje vložit do dokumentu další informace, jako je jméno autora, datum vytvoření, ID dokumentu a další.
 ## Předpoklady

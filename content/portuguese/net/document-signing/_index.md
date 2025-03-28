@@ -6,6 +6,9 @@ description: Assine imagens, PDFs, apresentações, planilhas e documentos do Wo
 weight: 24
 url: /pt/net/document-signing/
 ---
+
+# Assinatura de documentos
+
 ## Introdução
 
 Aprenda como assinar vários tipos de documentos com metadados usando GroupDocs.Signature for .NET. De imagens a planilhas, garanta a autenticidade dos documentos sem esforço.

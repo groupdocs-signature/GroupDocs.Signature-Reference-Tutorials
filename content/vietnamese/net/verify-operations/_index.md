@@ -6,6 +6,9 @@ description: Tìm hiểu cách xác minh mã vạch, chữ ký số, mã QR và 
 weight: 27
 url: /vi/net/verify-operations/
 ---
+
+# Xác minh hoạt động
+
 ## Giới thiệu
 
 Bạn đang tìm cách xác minh tài liệu chính bằng GroupDocs.Signature cho .NET? Bạn đang ở đúng nơi. Cho dù đó là việc đảm bảo tính xác thực của mã vạch, chữ ký số, mã QR hay văn bản trong tài liệu của bạn, hướng dẫn của chúng tôi đều cung cấp hướng dẫn từng bước để tích hợp liền mạch.

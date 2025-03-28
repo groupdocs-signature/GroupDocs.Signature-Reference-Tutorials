@@ -6,6 +6,9 @@ description: Elimine sin esfuerzo varias firmas de documentos utilizando GroupDo
 weight: 15
 url: /es/net/delete-operations/delete-multiple-signatures/
 ---
+
+# Eliminar varias firmas del documento
+
 ## Introducción
 En el mundo digital, la gestión documental suele implicar la manipulación de varias firmas. Eliminar varias firmas de un documento mediante programación puede optimizar los flujos de trabajo y mejorar la eficiencia. Con GroupDocs.Signature para .NET, esta tarea se vuelve sencilla y sencilla. Este tutorial lo guiará paso a paso a través del proceso de eliminar múltiples firmas de un documento.
 ## Requisitos previos

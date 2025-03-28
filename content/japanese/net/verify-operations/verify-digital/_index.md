@@ -6,6 +6,9 @@ description: GroupDocs.Signature を使用すると、.NET でデジタル署名
 weight: 11
 url: /ja/net/verify-operations/verify-digital/
 ---
+
+# デジタル署名の検証
+
 ## 導入
 デジタル ドキュメントの分野では、信頼性と完全性を確保することが最も重要です。デジタル署名は、手書き署名と同等のデジタル機能を備え、電子文書の出所と完全性を検証するための安全な方法を提供します。 GroupDocs.Signature for .NET は、.NET アプリケーションでデジタル署名を操作するための強力なツールキットを提供し、デジタル署名の検証を容易にします。
 ## 前提条件

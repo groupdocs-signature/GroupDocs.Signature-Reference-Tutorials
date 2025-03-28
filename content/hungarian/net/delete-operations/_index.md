@@ -6,6 +6,9 @@ description: A GroupDocs.Signature segítségével törölheti az aláírásokat
 weight: 20
 url: /hu/net/delete-operations/
 ---
+
+# Műveletek törlése
+
 ## Bevezetés
 
 Egyszerűsíteni szeretné dokumentumkezelési folyamatát a .NET-alkalmazásokban? A GroupDocs.Signature segítségével hatékonyan törölheti a különféle típusú aláírásokat, beleértve a vonalkódokat, digitális aláírásokat, képaláírásokat, szöveges aláírásokat stb. Merüljön el az alábbi oktatóanyagainkban, hogy megtudja, hogyan kell zökkenőmentesen végrehajtani a törlési műveleteket.

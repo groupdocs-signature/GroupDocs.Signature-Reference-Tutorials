@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan ellenőrizheti a dokumentumokon belüli vonalk�
 weight: 10
 url: /hu/net/verify-operations/verify-barcode/
 ---
+
+# Vonalkód ellenőrzése
+
 ## Bevezetés
 A digitális dokumentáció területén a hitelesség és az integritás biztosítása a legfontosabb. A GroupDocs.Signature for .NET robusztus megoldást kínál a dokumentumokon belüli vonalkódok ellenőrzésére. Ez az oktatóanyag a vonalkódok GroupDocs.Signature for .NET használatával történő ellenőrzésének folyamatát mutatja be, és lépésről lépésre útmutatást nyújt a zökkenőmentes megvalósításhoz.
 ## Előfeltételek

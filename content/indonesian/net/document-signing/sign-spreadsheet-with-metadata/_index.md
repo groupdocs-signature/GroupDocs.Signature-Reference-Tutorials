@@ -6,6 +6,9 @@ description: Pelajari cara menandatangani spreadsheet dengan metadata menggunaka
 weight: 13
 url: /id/net/document-signing/sign-spreadsheet-with-metadata/
 ---
+
+# Tandatangani Spreadsheet dengan Metadata
+
 ## Perkenalan
 Dalam tutorial ini, kita akan memandu proses penandatanganan spreadsheet dengan metadata menggunakan Groupdocs.Signature untuk .NET. Penandatanganan metadata memungkinkan Anda menyematkan informasi tambahan ke dalam dokumen Anda, memberikan konteks atau verifikasi. Di akhir panduan ini, Anda akan dapat menerapkan tanda tangan metadata ke spreadsheet Anda dengan mudah.
 ## Prasyarat

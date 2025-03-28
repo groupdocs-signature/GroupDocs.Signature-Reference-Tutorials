@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 在文件中搜尋 
 weight: 15
 url: /zh-hant/net/signature-searching/search-for-qr-codes/
 ---
+
+# 搜尋二維碼
+
 ## 介紹
 
 在數位時代，確保文件的真實性和完整性至關重要。 GroupDocs.Signature for .NET 讓開發人員能夠將高級簽章功能無縫整合到他們的 .NET 應用程式中。本綜合指南將引導您完成利用 GroupDocs.Signature for .NET 在文件中搜尋 QR 程式碼的流程。最後，您將深入了解如何利用這個強大的工具來增強文件的安全性和效率。

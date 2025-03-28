@@ -6,6 +6,9 @@ description: Dowiedz się, jak łatwo dodawać podpisy pieczęci do dokumentów 
 weight: 16
 url: /pl/net/advanced-signature-techniques/sign-with-stamp/
 ---
+
+# Podpisywanie za pomocą stempla przy użyciu GroupDocs.Signature
+
 ## Wstęp
 W tym samouczku przeprowadzimy Cię przez proces podpisywania dokumentu pieczątką przy użyciu programu GroupDocs.Signature for .NET. Postępując zgodnie z tymi szczegółowymi instrukcjami, będziesz mógł z łatwością dodać podpis pieczątki do swoich dokumentów.
 ## Warunki wstępne

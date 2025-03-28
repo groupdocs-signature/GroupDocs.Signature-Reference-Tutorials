@@ -6,6 +6,9 @@ description: Naučte se ověřovat QR kódy v dokumentech pomocí GroupDocs.Sign
 weight: 12
 url: /cs/net/verify-operations/verify-qr-code/
 ---
+
+# Ověřte QR kód
+
 ## Úvod
 oblasti správy dokumentů a ověřování je prvořadé zajištění integrity a platnosti podpisů. GroupDocs.Signature for .NET poskytuje komplexní řešení pro ověřování QR kódů vložených do dokumentů. V tomto tutoriálu se ponoříme do procesu ověřování QR kódů krok za krokem pomocí GroupDocs.Signature for .NET.
 ## Předpoklady

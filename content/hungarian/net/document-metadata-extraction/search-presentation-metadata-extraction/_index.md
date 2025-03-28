@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan bonthatja ki a prezentáció metaadatait a Grou
 weight: 12
 url: /hu/net/document-metadata-extraction/search-presentation-metadata-extraction/
 ---
+
+# Keresés a prezentáció metaadatainak kinyerése
+
 ## Bevezetés
 digitális dokumentáció területén a fájlok hitelességének és integritásának biztosítása a legfontosabb. A GroupDocs.Signature for .NET átfogó megoldást kínál az aláírási funkciók .NET-alkalmazásokba való integrálására. Funkciói közül az egyik kiemelkedő képesség a prezentációs metaadatok pontos és hatékony kinyerésére való képessége.
 ## Előfeltételek

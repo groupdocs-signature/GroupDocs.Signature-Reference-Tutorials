@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET Dokumente m
 weight: 11
 url: /de/net/advanced-signature-techniques/sign-with-barcode/
 ---
+
+# Unterschreiben mit Barcode
+
 ## Einführung
 Im heutigen digitalen Zeitalter ist die Sicherung von Dokumenten mit Signaturen von größter Bedeutung, und GroupDocs.Signature für .NET bietet eine nahtlose Lösung für die Integration von Barcode-Signaturen in Ihre Anwendungen. In diesem Tutorial führen wir Sie durch den Prozess des Signierens eines Dokuments mit einem Barcode mithilfe von GroupDocs.Signature für .NET.
 ## Voraussetzungen

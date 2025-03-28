@@ -6,6 +6,9 @@ description: Tìm hiểu cách ký các tài liệu Xử lý văn bản bằng s
 weight: 14
 url: /vi/net/document-signing/sign-word-processing-with-metadata/
 ---
+
+# Ký hiệu Xử lý văn bản bằng siêu dữ liệu
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình ký tài liệu Xử lý văn bản có siêu dữ liệu bằng GroupDocs.Signature cho .NET. Ký siêu dữ liệu cho phép bạn nhúng thông tin bổ sung vào tài liệu của mình, chẳng hạn như tên tác giả, ngày tạo, ID tài liệu, v.v.
 ## Điều kiện tiên quyết

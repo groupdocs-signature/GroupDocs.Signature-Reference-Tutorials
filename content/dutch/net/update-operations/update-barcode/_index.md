@@ -6,6 +6,9 @@ description: Leer hoe u streepjescodehandtekeningen in documenten kunt bijwerken
 weight: 10
 url: /nl/net/update-operations/update-barcode/
 ---
+
+# Streepjescode bijwerken
+
 ## Invoering
 In deze zelfstudie leren we hoe u een streepjescodehandtekening in een document kunt bijwerken met behulp van GroupDocs.Signature voor .NET. GroupDocs.Signature voor .NET is een krachtige API waarmee ontwikkelaars kunnen werken met digitale handtekeningen, waaronder verschillende typen zoals streepjescodes, tekst, afbeeldingen en meer. We doorlopen het proces stap voor stap om ervoor te zorgen dat u elk onderdeel grondig begrijpt.
 ## Vereisten

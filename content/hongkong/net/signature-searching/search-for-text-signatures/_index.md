@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 在數位文件中�
 weight: 16
 url: /zh-hant/net/signature-searching/search-for-text-signatures/
 ---
+
+# 搜尋文字簽名
+
 ## 介紹
 在文件管理和身份驗證領域，有效搜尋數位文件中文字簽名的能力至關重要。 GroupDocs.Signature for .NET 為滿足此需求提供了強大的解決方案，為開發人員提供了用於在各種文件格式中定位文字簽章的綜合工具包。在本教程中，我們將深入研究使用 GroupDocs.Signature for .NET 搜尋文字簽署的過程，分解每個步驟以確保清楚地了解實作。
 ## 先決條件

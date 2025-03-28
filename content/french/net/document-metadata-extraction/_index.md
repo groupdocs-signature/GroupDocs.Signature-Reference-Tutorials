@@ -7,6 +7,9 @@ weight: 22
 url: /fr/net/document-metadata-extraction/
 ---
 
+# Extraction de métadonnées de documents
+
+
 ## Introduction
 
 Dans le paysage numérique actuel, la gestion de l'intégrité et de l'authenticité des documents est primordiale. GroupDocs.Signature pour .NET permet aux développeurs d'extraire de manière transparente les métadonnées de divers types de documents, améliorant ainsi les capacités de gestion des documents. Passons à une série de didacticiels explorant comment exploiter tout le potentiel de l'extraction de métadonnées dans différents formats de documents.

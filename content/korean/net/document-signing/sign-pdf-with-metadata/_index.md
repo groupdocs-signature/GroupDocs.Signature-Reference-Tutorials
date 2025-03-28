@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Signature를 사용하여 메타데이터로 PDF 
 weight: 11
 url: /ko/net/document-signing/sign-pdf-with-metadata/
 ---
+
+# 메타데이터로 PDF에 서명
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Signature를 사용하여 메타데이터로 PDF 문서에 서명하는 방법을 알아봅니다. PDF에 메타데이터를 추가하면 작성자, 생성 날짜, 문서 ID 등과 같은 문서에 대한 추가 정보를 제공할 수 있습니다.
 ## 전제 조건

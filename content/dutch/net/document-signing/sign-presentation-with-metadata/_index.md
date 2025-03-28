@@ -6,6 +6,9 @@ description: Leer hoe u presentatiebestanden met metagegevens kunt ondertekenen 
 weight: 12
 url: /nl/net/document-signing/sign-presentation-with-metadata/
 ---
+
+# Tekenpresentatie met metadata
+
 ## Invoering
 In deze zelfstudie leren we hoe u een presentatiebestand (PPTX) met metagegevens kunt ondertekenen met behulp van de GroupDocs.Signature voor .NET-bibliotheek. Het ondertekenen van presentaties met metagegevens voegt waardevolle informatie toe aan het document, zoals de naam van de auteur, de aanmaakdatum, de document-ID, de handtekening-ID en verschillende numerieke waarden.
 ## Vereisten

@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyszukiwać i wyodrębniać podpisy metadanych z 
 weight: 11
 url: /pl/net/document-metadata-extraction/search-pdf-metadata-extraction/
 ---
+
+# Wyszukaj ekstrakcję metadanych PDF
+
 ## Wstęp
 dziedzinie zarządzania dokumentami cyfrowymi zapewnienie autentyczności i integralności plików jest sprawą najwyższej wagi. Jednym z istotnych aspektów tego jest możliwość wydajnego wyszukiwania metadanych PDF. Podpisy metadanych w dokumentach PDF dostarczają cennych informacji o pochodzeniu pliku, autorze i zawartości.
 ## Warunki wstępne

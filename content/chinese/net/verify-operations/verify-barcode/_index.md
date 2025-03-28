@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Signature for .NET 验证文档中的�
 weight: 10
 url: /zh/net/verify-operations/verify-barcode/
 ---
+
+# 验证条形码
+
 ## 介绍
 在数字文档领域，确保真实性和完整性至关重要。 GroupDocs.Signature for .NET 提供了一个强大的解决方案来验证文档中的条形码。本教程深入探讨使用 GroupDocs.Signature for .NET 验证条形码的过程，为无缝实施提供分步指导。
 ## 先决条件

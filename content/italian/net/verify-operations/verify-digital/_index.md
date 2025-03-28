@@ -6,6 +6,9 @@ description: Verifica facilmente le firme digitali in .NET utilizzando GroupDocs
 weight: 11
 url: /it/net/verify-operations/verify-digital/
 ---
+
+# Verifica firma digitale
+
 ## introduzione
 Nel regno dei documenti digitali, garantire l’autenticità e l’integrità è fondamentale. Le firme digitali fungono da equivalente digitale delle firme scritte a mano, fornendo un modo sicuro per verificare l'origine e l'integrità dei documenti elettronici. GroupDocs.Signature per .NET offre un potente toolkit per lavorare con le firme digitali nelle applicazioni .NET, facilitando la verifica delle firme digitali con facilità.
 ## Prerequisiti

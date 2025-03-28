@@ -6,6 +6,9 @@ description: Tìm hiểu cách xác minh mã vạch trong tài liệu bằng Gro
 weight: 10
 url: /vi/net/verify-operations/verify-barcode/
 ---
+
+# Xác minh mã vạch
+
 ## Giới thiệu
 Trong lĩnh vực tài liệu kỹ thuật số, việc đảm bảo tính xác thực và toàn vẹn là điều tối quan trọng. GroupDocs.Signature cho .NET cung cấp giải pháp mạnh mẽ để xác minh mã vạch trong tài liệu. Hướng dẫn này đi sâu vào quy trình xác minh mã vạch bằng GroupDocs.Signature cho .NET, cung cấp hướng dẫn từng bước để triển khai liền mạch.
 ## Điều kiện tiên quyết
