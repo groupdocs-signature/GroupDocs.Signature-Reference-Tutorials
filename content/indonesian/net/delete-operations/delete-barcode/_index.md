@@ -1,25 +1,33 @@
 ---
-title: Hapus Barcode dari Dokumen
-linktitle: Hapus Barcode dari Dokumen
-second_title: GroupDocs.Tanda Tangan .NET API
-description: Pelajari cara menghapus kode batang dari dokumen menggunakan GroupDocs.Signature untuk .NET. Panduan langkah demi langkah dengan contoh kode.
-weight: 10
-url: /id/net/delete-operations/delete-barcode/
+"description": "Pelajari cara mudah mendeteksi dan menghapus kode batang dari dokumen menggunakan GroupDocs.Signature untuk .NET. Contoh kode C# lengkap dengan petunjuk langkah demi langkah."
+"linktitle": "Hapus Kode Batang dari Dokumen"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Cara Menghapus Kode Batang dari Dokumen dengan .NET"
+"url": "/id/net/delete-operations/delete-barcode/"
+"weight": 10
 ---
 
-# Hapus Barcode dari Dokumen
+# Cara Menghapus Kode Batang dari Dokumen dengan .NET
 
-## Perkenalan
-GroupDocs.Signature for .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan lancar dengan tanda tangan digital, stempel, dan kode batang dalam aplikasi .NET. Dalam tutorial ini, kami akan memandu Anda melalui proses menghapus kode batang dari dokumen menggunakan GroupDocs.Signature untuk .NET.
-## Prasyarat
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
-- Pengetahuan dasar bahasa pemrograman C#.
-- Visual Studio diinstal pada sistem Anda.
--  GroupDocs.Signature untuk perpustakaan .NET diinstal. Anda dapat mengunduhnya dari[Di Sini](https://releases.groupdocs.com/signature/net/).
-- Contoh dokumen dengan kode batang yang ingin Anda hapus.
+## Mengapa Anda Perlu Menghapus Kode Batang?
 
-## Impor Namespace
-Pertama, pastikan untuk mengimpor namespace yang diperlukan ke dalam kode C# Anda:
+Pernahkah Anda menerima dokumen dengan kode batang yang tidak diinginkan dan perlu dihapus? Mungkin Anda sedang memproses formulir yang dipindai atau membersihkan dokumen untuk didistribusikan ulang. Apa pun alasannya, GroupDocs.Signature untuk .NET membuat tugas ini sangat mudah.
+
+Dalam panduan ini, kami akan memandu Anda melalui seluruh proses menemukan dan menghapus kode batang dari dokumen Anda menggunakan kode C#. Anda akan dapat menerapkan fungsi ini di aplikasi .NET Anda sendiri dengan mudah.
+
+## Apa yang Anda Butuhkan Sebelum Memulai
+
+Sebelum kita masuk ke kode, mari pastikan Anda telah menyiapkan semuanya:
+
+Pengetahuan dasar tentang pemrograman C# (jangan khawatir, kami akan menjelaskan semuanya dengan jelas)
+Visual Studio terinstal di komputer Anda
+GroupDocs.Signature untuk pustaka .NET (Anda dapat mengunduhnya [Di Sini](https://releases.groupdocs.com/signature/net/))
+Dokumen yang berisi kode batang yang ingin Anda hapus
+
+## Menyiapkan Proyek Anda
+
+Pertama, kita perlu menyertakan namespace yang diperlukan dalam kode C# kita. Ini menyediakan akses ke semua fungsi yang kita butuhkan:
+
 ```csharp
 using System;
 using System.IO;
@@ -29,34 +37,50 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
-Mari kita uraikan proses menghapus kode batang dari dokumen menjadi langkah-langkah sederhana:
-## Langkah 1: Tentukan Jalur File
+Sekarang setelah impor kita disiapkan, mari kita uraikan prosesnya menjadi beberapa langkah yang sederhana dan mudah dikelola.
+
+## Cara Menghapus Kode Batang: Panduan Langkah demi Langkah
+
+### Langkah 1: Tentukan Lokasi File Anda
+
 ```csharp
 string filePath = "sample_multiple_signatures.docx";
 string fileName = Path.GetFileName(filePath);
 string outputFilePath = Path.Combine("Your Document Directory", "DeleteBarcode", fileName);
 ```
- Pastikan untuk mengganti`"sample_multiple_signatures.docx"` dengan jalur ke dokumen Anda yang berisi kode batang.
-## Langkah 2: Salin File Sumber
+
+Pada langkah ini, kita akan menyiapkan jalur untuk dokumen sumber dan tempat kita akan menyimpan versi yang dimodifikasi. Pastikan untuk mengganti `"sample_multiple_signatures.docx"` dengan jalur ke dokumen Anda sendiri, dan `"Your Document Directory"` dengan folder tempat Anda ingin menyimpan hasilnya.
+
+### Langkah 2: Buat Salinan Kerja Dokumen Anda
+
 ```csharp
 File.Copy(filePath, outputFilePath, true);
 ```
-Langkah ini memastikan bahwa kita bekerja dengan salinan dokumen asli untuk melestarikan file asli.
-## Langkah 3: Inisialisasi GroupDocs.Signature
+
+Ini membuat salinan dokumen asli Anda untuk digunakan, memastikan kami tidak secara tidak sengaja mengubah berkas asli. `true` Parameter ini memperbolehkan penimpaan berkas yang sudah ada jika berkas tersebut sudah ada di tujuan.
+
+### Langkah 3: Inisialisasi Objek Tanda Tangan
+
 ```csharp
 using (Signature signature = new Signature(outputFilePath))
 {
-    // Kode Anda ada di sini
+    // Sisa kode kita akan berada di sini
 }
 ```
-Inisialisasi objek Tanda Tangan dengan meneruskan jalur ke salinan dokumen yang dibuat pada langkah sebelumnya.
-## Langkah 4: Cari Tanda Tangan Barcode
+
+Di sini, kita membuat instance baru dari kelas Signature, yang akan menangani semua operasi dokumen untuk kita. `using` pernyataan memastikan sumber daya dibuang dengan benar saat kami selesai.
+
+### Langkah 4: Cari Kode Batang di Dokumen Anda
+
 ```csharp
 BarcodeSearchOptions options = new BarcodeSearchOptions();
 List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
 ```
-Buat instance BarcodeSearchOptions dan gunakan untuk mencari tanda tangan barcode di dalam dokumen.
-## Langkah 5: Hapus Tanda Tangan Barcode
+
+Pada langkah ini, kami akan menyiapkan pencarian kode batang di dokumen. `BarcodeSearchOptions` kelas memberi kita fleksibilitas untuk menyesuaikan pencarian kita jika diperlukan, meskipun opsi default berfungsi dengan baik untuk sebagian besar kasus.
+
+### Langkah 5: Hapus Kode Batang dari Dokumen Anda
+
 ```csharp
 if (signatures.Count > 0)
 {
@@ -68,22 +92,76 @@ if (signatures.Count > 0)
     }
     else
     {
-        Helper.WriteError($"Signature was not deleted from the document! Signature with Barcode '{barcodeSignature.Text}' and encode type '{barcodeSignature.EncodeType.TypeName}' was not found!");
+        Console.WriteLine($"Signature was not deleted from the document! Signature with Barcode '{barcodeSignature.Text}' and encode type '{barcodeSignature.EncodeType.TypeName}' was not found!");
     }
 }
 ```
-Periksa apakah tanda tangan kode batang ditemukan di dokumen. Jika ditemukan, hapus tanda tangan barcode pertama yang ditemukan.
 
-## Kesimpulan
-Dalam tutorial ini, kita telah mempelajari cara menghapus kode batang dari dokumen menggunakan GroupDocs.Signature untuk .NET. Dengan mengikuti panduan langkah demi langkah, Anda dapat dengan mudah mengintegrasikan fungsi penghapusan kode batang ke dalam aplikasi .NET Anda.
-## FAQ
-### Bisakah saya menghapus beberapa tanda tangan kode batang dari sebuah dokumen?
-Ya, Anda dapat mengubah kode untuk menghapus beberapa tanda tangan kode batang dengan mengulangi daftar tanda tangan.
-### Apakah GroupDocs.Signature untuk .NET mendukung jenis tanda tangan lainnya?
-Ya, GroupDocs.Signature untuk .NET mendukung berbagai jenis tanda tangan, termasuk tanda tangan digital, stempel, dan tanda tangan teks.
-### Bisakah saya menyesuaikan opsi pencarian untuk tanda tangan kode batang?
-Ya, Anda dapat menyesuaikan opsi pencarian sesuai kebutuhan Anda, seperti menentukan jenis kode batang atau area pencarian dalam dokumen.
-### Apakah GroupDocs.Signature untuk .NET kompatibel dengan berbagai format dokumen?
-Ya, GroupDocs.Signature untuk .NET mendukung berbagai format dokumen, termasuk Word, Excel, PDF, dan banyak lagi.
-### Di mana saya dapat menemukan dukungan atau sumber daya tambahan untuk GroupDocs.Signature untuk .NET?
- Anda dapat mengunjungi forum GroupDocs.Signature[Di Sini](https://forum.groupdocs.com/c/signature/13) untuk pertanyaan atau bantuan apa pun mengenai perpustakaan.
+Sekarang kami sedang memeriksa apakah ada kode batang yang ditemukan. Jika setidaknya ada satu kode batang, kami mengambil kode batang pertama dan mencoba menghapusnya. Setelah dihapus, kami akan menampilkan pesan yang menunjukkan keberhasilan atau kegagalan.
+
+## Aplikasi Penghapusan Kode Batang di Dunia Nyata
+
+Anda mungkin bertanya-tanya kapan Anda benar-benar akan menggunakan fungsi ini. Berikut beberapa skenario umum:
+
+Membersihkan dokumen digital yang berisi kode batang pelacakan
+Menghapus kode QR yang kedaluwarsa dari materi pemasaran
+Memperbarui dokumen dengan kode batang baru dengan menghapus kode batang lama terlebih dahulu
+Memproses pengiriman formulir yang kode batangnya digunakan untuk penyortiran tetapi tidak diperlukan dalam arsip akhir
+
+## Melampaui Dasar-Dasar
+
+Sekarang setelah Anda memahami proses mendasarnya, berikut adalah beberapa cara Anda dapat memperluas fungsionalitas ini:
+
+### Cara Menghapus Beberapa Barcode Sekaligus
+
+Jika dokumen Anda berisi beberapa kode batang yang ingin Anda hapus, Anda cukup mengulangi daftar tanda tangan kode batang yang ditemukan:
+
+```csharp
+foreach (BarcodeSignature barcodeSignature in signatures)
+{
+    signature.Delete(barcodeSignature);
+    Console.WriteLine($"Deleted barcode: {barcodeSignature.Text}");
+}
+```
+
+### Cara Menargetkan Jenis Kode Batang Tertentu
+
+Anda mungkin hanya ingin menghapus jenis kode batang tertentu dan membiarkan kode batang lainnya tetap utuh. Anda dapat menyesuaikan opsi pencarian seperti ini:
+
+```csharp
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+options.AllPages = true;  // Cari semua halaman
+options.EncodeType = BarcodeTypes.QR;  // Hanya mencari kode QR
+
+List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
+```
+
+## Penutup: Jalan Anda Menuju Dokumen Bebas Barcode
+
+Dalam panduan ini, kami telah memandu Anda melalui proses penghapusan kode batang dari dokumen menggunakan GroupDocs.Signature untuk .NET. Hanya dengan beberapa baris kode, Anda dapat mendeteksi dan menghapus kode batang yang tidak diinginkan dari berbagai format dokumen.
+
+Ingatlah bahwa GroupDocs.Signature mendukung banyak jenis dokumen, termasuk Word, Excel, PDF, dan lainnya, menjadikannya solusi serbaguna untuk semua kebutuhan pemrosesan dokumen Anda.
+
+Siap menerapkan penghapusan kode batang di aplikasi Anda sendiri? Unduh pustaka GroupDocs.Signature untuk .NET dan mulai hari ini! Jika Anda mengalami masalah atau memiliki pertanyaan, [Forum GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13) merupakan sumber dukungan yang sangat baik.
+
+## Pertanyaan yang Sering Diajukan
+
+### Bisakah saya menghapus semua kode batang dari dokumen multi-halaman sekaligus?
+
+Ya, Anda dapat menghapus semua kode batang dari dokumen multi-halaman dengan mengatur `options.AllPages = true` dalam pilihan pencarian Anda dan kemudian menghapus setiap kode batang dalam daftar yang dikembalikan.
+
+### Apakah metode ini berfungsi untuk semua jenis kode batang?
+
+GroupDocs.Signature mendukung beragam format kode batang, termasuk kode QR, Kode 128, EAN, UPC, dan masih banyak lagi. Pustaka ini dapat mendeteksi dan menghapus hampir semua jenis kode batang standar.
+
+### Apakah menghapus kode batang akan memengaruhi konten lain dalam dokumen saya?
+
+Tidak, GroupDocs.Signature hanya menargetkan elemen kode batang secara tepat, dan tidak menyentuh konten dokumen lainnya.
+
+### Dapatkah saya mencari kode batang di area tertentu pada dokumen saya?
+
+Tentu saja! Anda dapat mengatur area pencarian tertentu menggunakan `Rectangle` properti opsi pencarian untuk hanya mencari kode batang di bagian tertentu dokumen Anda.
+
+### Apakah mungkin untuk melihat pratinjau dokumen sebelum menghapus kode batang secara permanen?
+
+Ya, Anda dapat menggunakan metode Pencarian terlebih dahulu untuk menemukan semua kode batang, menampilkan informasinya kepada pengguna, lalu melanjutkan penghapusan hanya setelah konfirmasi.

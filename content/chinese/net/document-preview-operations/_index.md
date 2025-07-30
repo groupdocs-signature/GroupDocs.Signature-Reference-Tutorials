@@ -1,41 +1,72 @@
 ---
-title: 文档预览操作
-linktitle: 文档预览操作
-second_title: GroupDocs.Signature .NET API
-description: 了解如何使用 GroupDocs.Signature for .NET 教程简化文档管理。轻松简化任务、增强工作流程并提高生产力。
-weight: 21
-url: /zh/net/document-preview-operations/
+"description": "使用 GroupDocs.Signature for .NET 掌握文档预览和信息检索。学习如何在应用程序中生成预览、提取元数据以及跟踪文档历史记录。"
+"linktitle": "文档预览操作"
+"second_title": "GroupDocs.签名 .NET API"
+"title": "全面的文档预览和管理操作"
+"url": "/zh/net/document-preview-operations/"
+"weight": 21
 ---
 
 # 文档预览操作
 
 ## 介绍
 
-您是否希望简化 .NET 应用程序中的文档管理流程？借助 GroupDocs.Signature for .NET 教程，您可以轻松增强工作流程并提高工作效率。让我们深入研究提供的关键教程：
+高效的文档管理对于现代商业应用程序至关重要。GroupDocs.Signature for .NET 提供了强大的工具，用于生成文档预览、信息检索和处理历史记录跟踪，可显著增强应用程序的文档处理能力。
+
+本综合指南探讨了通过 GroupDocs.Signature 提供的基本文档预览操作，帮助您以最小的努力在 .NET 应用程序中实现强大的文档管理功能。
 
 ## 生成文档预览
 
-生成文档预览对于高效的文档管理至关重要。通过 GroupDocs.Signature for .NET，您可以了解如何简化此过程。我们的教程提供了有关在 .NET 应用程序中无缝生成文档预览的分步指导。告别复杂的文档管理并采用更简化的方法。
+文档预览使用户无需打开原始应用程序即可快速查看文件内容。GroupDocs.Signature for .NET 凭借其先进的预览生成功能，使此过程无缝衔接。
+
+### 主要优点：
+- 多格式支持：生成各种文档格式的预览，包括 PDF、Word、Excel、PowerPoint 和图像
+- 可定制的输出：控制预览大小、质量和格式（JPG、PNG 等）
+- 页面选择：生成特定页面或页面范围的预览
+- 水印选项：在预览中添加文本或图像水印以增强安全性
+- 渲染优化：利用缓存机制提高性能
+
+我们的详细教程将通过代码示例和最佳实践引导您完成完整的实施过程，以帮助您将文档预览功能集成到您的 .NET 应用程序中。
 
 [阅读更多](./generate-document-preview/)
 
 ## 检索文档信息
 
-高效的文档管理涉及及时检索准确的文档信息。 GroupDocs.Signature for .NET 为此任务提供全面支持。深入研究我们的教程，了解如何逐步有效地检索文档信息。无论您正在处理各种文档格式，我们的教程都能满足您的需求。
+访问文档元数据和属性对于妥善管理文档至关重要。GroupDocs.Signature 提供全面的 API，可帮助您从文档中提取有价值的信息。
+
+### 可用信息：
+- 基本属性：文件格式、大小、创建/修改日期
+- 内容详情：页数、尺寸和结构
+- 安全信息：加密状态、权限和数字签名
+- 元数据：作者、标题、关键字和自定义属性
+- 特定格式数据：字体信息、嵌入对象和注释
+
+通过我们的分步指南，学习如何在您的应用程序中以编程方式访问和利用这些信息。本教程涵盖了所有受支持文档格式的提取技术，并提供了实际示例。
 
 [阅读更多](./retrieve-document-information/)
 
 ## 查看文档处理历史记录
 
-跟踪文档处理历史对于维持无缝工作流程至关重要。借助 GroupDocs.Signature for .NET，您可以通过我们的分步指南轻松查看文档处理历史记录。告别繁琐流程，轻松拥抱高效的工作流程管理。
+维护文档操作的完整审计追踪对于合规性和工作流管理至关重要。GroupDocs.Signature 可以追踪所有文档处理活动。
+
+### 追踪能力：
+- 签名操作：监控文档的签名时间和方式
+- 验证事件：跟踪签名验证尝试和结果
+- 修改历史：记录对文档内容和属性所做的更改
+- 用户活动：跟踪哪些用户执行了特定操作
+- 时间戳验证：确保文档时间线的完整性
+
+我们的综合指南演示了如何在您的应用程序中实现文档历史跟踪，包括设置监听器、存储历史数据以及生成审计报告以进行完整的文档生命周期管理。
 
 [阅读更多](./view-document-processing-history/)
 
-总之，GroupDocs.Signature for .NET 教程为简化 .NET 应用程序中的文档管理提供了宝贵的见解。通过简单易懂的教程，您可以轻松增强工作流程、简化任务并提高工作效率。立即开始探索这些教程并提升您的文档管理体验。
 ## 文档预览操作教程
+
 ### [生成文档预览](./generate-document-preview/)
 了解如何使用 GroupDocs.Signature for .NET 生成文档预览。简化 .NET 应用程序中的文档管理。
+
 ### [检索文档信息](./retrieve-document-information/)
-使用 GroupDocs.Signature 增强 .NET 中的文档管理。逐步检索文档信息。支持各种格式。
+使用 GroupDocs.Signature 增强 .NET 中的文档管理。逐步检索文档信息。支持多种格式。
+
 ### [查看文档处理历史记录](./view-document-processing-history/)
-了解如何使用 GroupDocs.Signature for .NET 轻松查看文档处理历史记录。请按照我们的分步指南进行无缝工作流程管理。
+了解如何使用 GroupDocs.Signature for .NET 轻松查看文档处理历史记录。按照我们的分步指南，实现无缝工作流程管理。

@@ -1,24 +1,29 @@
 ---
-title: Suchen Sie nach Barcode
-linktitle: Suchen Sie nach Barcode
-second_title: GroupDocs.Signature .NET-API
-description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET nach Barcode-Signaturen in Dokumenten suchen. Folgen Sie unserer Schritt-für-Schritt-Anleitung und integrieren Sie die Signatur effizient.
-weight: 10
-url: /de/net/signature-searching/search-for-barcode/
+"description": "Erfahren Sie mit unserer umfassenden Schritt-für-Schritt-Anleitung und Codebeispielen, wie Sie mit GroupDocs.Signature für .NET effizient nach Barcode-Signaturen in Dokumenten suchen."
+"linktitle": "Suche nach Barcode"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Suche nach Barcode-Signaturen in Dokumenten"
+"url": "/de/net/signature-searching/search-for-barcode/"
+"weight": 10
 ---
 
-# Suchen Sie nach Barcode
-
 ## Einführung
-GroupDocs.Signature für .NET ist ein leistungsstarkes Tool zum Hinzufügen und Überprüfen digitaler Signaturen in verschiedenen Dokumentformaten mithilfe von .NET-Anwendungen. In diesem Tutorial konzentrieren wir uns auf die Suche nach Barcode-Signaturen in einem Dokument mit GroupDocs.Signature für .NET.
+
+Im heutigen digitalen Dokumentenmanagement ist die Suche und Validierung von Signaturen in Dokumenten entscheidend für die Authentizität und Sicherheit. GroupDocs.Signature für .NET bietet eine leistungsstarke Lösung für die Arbeit mit verschiedenen Signaturtypen, einschließlich Barcodes, in unterschiedlichen Dokumentformaten. Dieses Tutorial führt Sie durch die Implementierung der Barcode-Signatursuche in Ihren .NET-Anwendungen mit GroupDocs.Signature.
+
 ## Voraussetzungen
-Bevor Sie beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
-1.  GroupDocs.Signature für .NET: Stellen Sie sicher, dass Sie GroupDocs.Signature für .NET heruntergeladen und installiert haben. Sie können es herunterladen unter[Hier](https://releases.groupdocs.com/signature/net/).
-2. Entwicklungsumgebung: Richten Sie eine Arbeitsumgebung für die .NET-Entwicklung ein.
-3. Beispieldokument: Bereiten Sie zu Testzwecken ein Beispieldokument mit Barcode-Signaturen vor.
+
+Bevor Sie mit diesem Lernprogramm beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+
+1. GroupDocs.Signature für .NET: Laden Sie die neueste Version herunter und installieren Sie sie von [Hier](https://releases.groupdocs.com/signature/net/).
+2. Entwicklungsumgebung: Richten Sie eine funktionierende .NET-Entwicklungsumgebung ein (z. B. Visual Studio).
+3. Grundlegende C#-Kenntnisse: Vertrautheit mit der Programmiersprache C# und den Konzepten des .NET-Frameworks.
+4. Beispieldokumente: Bereiten Sie zu Testzwecken Dokumente mit Barcode-Signaturen vor.
 
 ## Namespaces importieren
-Bevor Sie GroupDocs.Signature in Ihrem Code verwenden können, müssen Sie die erforderlichen Namespaces importieren:
+
+Um mit der Implementierung der Barcode-Signatursuchfunktion zu beginnen, müssen Sie die erforderlichen Namespaces in Ihren C#-Code importieren:
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -27,44 +32,143 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
+Lassen Sie uns nun den Prozess der Suche nach Barcode-Signaturen in einfache, überschaubare Schritte mit ausführlichen Erklärungen unterteilen:
+
 ## Schritt 1: Dokumentpfad definieren
-Geben Sie zunächst den Pfad zum Dokument an, das die Barcode-Signaturen enthält:
+
+Geben Sie zunächst den Pfad zu dem Dokument an, in dem Sie nach Barcode-Signaturen suchen möchten:
+
 ```csharp
 string filePath = "sample_multiple_signatures.docx";
 ```
+
 ## Schritt 2: Signaturobjekt initialisieren
- Erstellen Sie eine Instanz von`Signature` Klasse durch Übergabe des Dokumentpfads:
+
+Erstellen Sie eine Instanz des `Signature` Klasse durch Übergabe des Dokumentpfads. Mit einem `using` Erklärung sorgt für eine ordnungsgemäße Ressourcenentsorgung:
+
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    // Hier finden Sie den Code für die Signatursuche
-}
-```
-## Schritt 3: Suchen Sie nach Barcode-Signaturen
-Suchen Sie nach Barcode-Signaturen im Dokument:
-```csharp
-List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(SignatureType.Barcode);
-```
-## Schritt 4: Ergebnisse anzeigen
-Durchlaufen Sie die gefundenen Barcode-Signaturen und zeigen Sie deren Details an:
-```csharp
-Console.WriteLine($"\nSource document ['{filePath}'] contains the following signatures.");
-foreach (var barcodeSignature in signatures)
-{
-    Console.WriteLine($"Barcode signature found at page {barcodeSignature.PageNumber} with type {barcodeSignature.EncodeType.TypeName} and text {barcodeSignature.Text}");
+    // Der Code für die Signatursuche wird hier eingefügt
 }
 ```
 
+## Schritt 3: Suche nach Barcode-Signaturen
+
+Suchen Sie nun nach Barcode-Signaturen im Dokument, indem Sie den `Search` -Methode und Angabe des Signaturtyps als `BarcodeSignature`:
+
+```csharp
+List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(SignatureType.Barcode);
+```
+
+## Schritt 4: Ergebnisse anzeigen
+
+Durchlaufen Sie die gefundenen Barcode-Signaturen und zeigen Sie deren Details an:
+
+```csharp
+Console.WriteLine($"\nSource document ['{filePath}'] contains the following barcode signatures:");
+foreach (var barcodeSignature in signatures)
+{
+    Console.WriteLine($"Barcode signature found at page {barcodeSignature.PageNumber} with type {barcodeSignature.EncodeType.TypeName} and text '{barcodeSignature.Text}'");
+}
+```
+
+## Umfassendes Beispiel
+
+Hier ist ein vollständiges funktionierendes Beispiel, das alle Schritte zusammenfasst:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using GroupDocs.Signature;
+using GroupDocs.Signature.Domain;
+using GroupDocs.Signature.Options;
+
+namespace BarcodeSignatureSearch
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Dokumentpfad
+            string filePath = "sample_multiple_signatures.docx";
+            
+            // Signaturinstanz initialisieren
+            using (Signature signature = new Signature(filePath))
+            {
+                // Suche nach Barcode-Signaturen im Dokument
+                List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(SignatureType.Barcode);
+                
+                // Suchergebnisse anzeigen
+                Console.WriteLine($"\nSource document ['{filePath}'] contains the following barcode signatures:");
+                foreach (var barcodeSignature in signatures)
+                {
+                    Console.WriteLine($"Barcode signature found at page {barcodeSignature.PageNumber} with type {barcodeSignature.EncodeType.TypeName} and text '{barcodeSignature.Text}'");
+                }
+            }
+        }
+    }
+}
+```
+
+## Erweiterte Suchoptionen
+
+Für eine präzisere Suche nach Barcode-Signaturen können Sie `BarcodeSearchOptions` So passen Sie Ihre Suchkriterien an:
+
+```csharp
+// Suchoptionen erstellen
+BarcodeSearchOptions options = new BarcodeSearchOptions
+{
+    // Suche auf allen Seiten
+    AllPages = true,
+    
+    // Geben Sie den abzugleichenden Text an
+    Text = "Invoice",
+    
+    // Geben Sie den Übereinstimmungstyp an (Enthält, Genau, Beginnt mit, Endet mit).
+    MatchType = TextMatchType.Contains,
+    
+    // Geben Sie bestimmte Barcodetypen an, nach denen gesucht werden soll
+    EncodeType = BarcodeTypes.Code128
+};
+
+// Suche mit spezifischen Optionen
+List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
+```
+
 ## Abschluss
-In diesem Tutorial haben wir gelernt, wie man mit GroupDocs.Signature für .NET nach Barcode-Signaturen in einem Dokument sucht. Indem Sie der Schritt-für-Schritt-Anleitung folgen und die bereitgestellten Codebeispiele verwenden, können Sie die Signatursuchfunktion effizient in Ihre .NET-Anwendungen integrieren.
-### Häufig gestellte Fragen
-### Kann GroupDocs.Signature gleichzeitig nach mehreren Arten von Signaturen suchen?
-Ja, GroupDocs.Signature unterstützt die Suche nach mehreren Arten von Signaturen, einschließlich Barcode-Signaturen, Textsignaturen und mehr.
-### Gibt es eine Testversion für GroupDocs.Signature für .NET?
- Ja, Sie können über auf die Testversion zugreifen[Hier](https://releases.groupdocs.com/).
-### Kann ich GroupDocs.Signature für .NET mit jedem Dokumentformat verwenden?
-GroupDocs.Signature unterstützt eine Vielzahl von Dokumentformaten, darunter PDF, Word, Excel und PowerPoint.
-### Wie kann ich eine temporäre Lizenz für GroupDocs.Signature für .NET erhalten?
- Eine temporäre Lizenz erhalten Sie bei[Hier](https://purchase.groupdocs.com/temporary-license/).
-### Wo finde ich Unterstützung für GroupDocs.Signature für .NET?
-Im GroupDocs.Signature-Forum finden Sie Unterstützung und können Fragen stellen[Hier](https://forum.groupdocs.com/c/signature/13).
+
+In diesem Tutorial haben wir die Suche nach Barcode-Signaturen in Dokumenten mit GroupDocs.Signature für .NET untersucht. Mit der Schritt-für-Schritt-Anleitung und den bereitgestellten Codebeispielen können Sie diese Funktion problemlos in Ihre .NET-Anwendungen integrieren und so die Dokumentensicherheit und Verifizierungsprozesse verbessern. GroupDocs.Signature bietet ein robustes Framework für die Arbeit mit verschiedenen Signaturtypen und eignet sich daher hervorragend für Dokumentenmanagementsysteme, bei denen Authentizität und Integrität oberste Priorität haben.
+
+## Häufig gestellte Fragen
+
+### Kann GroupDocs.Signature gleichzeitig nach mehreren Signaturtypen suchen?
+
+Ja, GroupDocs.Signature kann in einem einzigen Vorgang nach mehreren Signaturtypen (Barcode, QR-Code, Text, digitale Signaturen usw.) suchen, indem es die `Search` Methode mit einer Liste verschiedener Suchoptionen.
+
+### Welche Dokumentformate werden für die Barcode-Signatursuche unterstützt?
+
+GroupDocs.Signature unterstützt eine Vielzahl von Dokumentformaten, darunter PDF, Word (DOC, DOCX), Excel (XLS, XLSX), PowerPoint (PPT, PPTX), Bilder und viele mehr.
+
+### Kann ich die Suchkriterien für Barcodes anpassen?
+
+Ja, Sie können die Suchkriterien anpassen mit `BarcodeSearchOptions` um Parameter wie den abzugleichenden Text, den Übereinstimmungstyp, bestimmte Barcodetypen und die Frage, ob auf allen Seiten oder auf bestimmten Seiten gesucht werden soll, anzugeben.
+
+### Gibt es eine Begrenzung für die Anzahl der Barcode-Signaturen, die erkannt werden können?
+
+Es gibt keine bestimmte Begrenzung für die Anzahl der Barcode-Signaturen, die erkannt werden können. GroupDocs.Signature findet alle Barcode-Signaturen, die Ihren Suchkriterien entsprechen.
+
+### Kann ich in passwortgeschützten Dokumenten nach Barcode-Signaturen suchen?
+
+Ja, GroupDocs.Signature ermöglicht Ihnen die Suche nach Barcode-Signaturen in passwortgeschützten Dokumenten, indem Sie das Passwort bei der Initialisierung des `Signature` Objekt.
+
+## Siehe auch
+
+* [API-Referenz](https://reference.groupdocs.com/signature/net/)
+* [Codebeispiele](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/tree/master/Examples)
+* [Produktdokumentation](https://docs.groupdocs.com/signature/net/)
+* [Produktseite](https://products.groupdocs.com/signature/net/)
+* [Blogartikel](https://blog.groupdocs.com/categories/groupdocs.signature-product-family/)
+* [Kostenloses Support-Forum](https://forum.groupdocs.com/c/signature/13)
+* [Temporäre Lizenz](https://purchase.groupdocs.com/temporary-license/)
+* [Lade die neueste Version herunter](https://releases.groupdocs.com/signature/net/)

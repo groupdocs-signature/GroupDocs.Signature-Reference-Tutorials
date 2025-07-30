@@ -1,24 +1,34 @@
 ---
-title: Zoek naar meerdere handtekeningen
-linktitle: Zoek naar meerdere handtekeningen
-second_title: GroupDocs.Signature .NET API
-description: Leer hoe u naar meerdere handtekeningen in .NET-documenten kunt zoeken met behulp van GroupDocs.Signature voor efficiënte documentbeveiliging en -integriteit.
-weight: 14
-url: /nl/net/signature-searching/search-for-multiple-signatures/
+"description": "Leer hoe u met GroupDocs.Signature voor .NET naar meerdere handtekeningtypen in documenten kunt zoeken. Uitgebreide handleiding met codevoorbeelden voor verbeterde documentbeveiliging."
+"linktitle": "Zoeken naar meerdere handtekeningen"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Zoeken naar meerdere handtekeningtypen in documenten"
+"url": "/nl/net/signature-searching/search-for-multiple-signatures/"
+"weight": 14
 ---
 
-# Zoek naar meerdere handtekeningen
-
 ## Invoering
-GroupDocs.Signature voor .NET is een krachtige bibliotheek waarmee ontwikkelaars verschillende soorten handtekeningen in populaire documentformaten kunnen toevoegen, zoeken en verwijderen met behulp van .NET-toepassingen. In deze zelfstudie concentreren we ons op het zoeken naar meerdere handtekeningen binnen een document met behulp van GroupDocs.Signature voor .NET.
+
+In moderne documentmanagementsystemen wordt de mogelijkheid om meerdere handtekeningtypen binnen één document te zoeken en te valideren steeds belangrijker. Organisaties gebruiken vaak verschillende handtekeningtypen – zoals digitale handtekeningen, teksthandtekeningen, barcodes, QR-codes en meer – om de documentbeveiliging te verbeteren en verificatieprocessen te stroomlijnen. GroupDocs.Signature voor .NET biedt een krachtig framework waarmee ontwikkelaars uitgebreide zoekfunctionaliteit voor handtekeningen kunnen implementeren in verschillende documentformaten.
+
+In deze tutorial wordt u door het proces van het zoeken naar meerdere handtekeningtypen in documenten met behulp van GroupDocs.Signature voor .NET geleid. De tutorial biedt gedetailleerde uitleg en praktische codevoorbeelden.
+
 ## Vereisten
-Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
-- Visual Studio is op uw systeem geïnstalleerd.
-- Basiskennis van de programmeertaal C#.
-- GroupDocs.Signature voor .NET-bibliotheek geïnstalleerd in uw project. Je kunt het downloaden van[hier](https://releases.groupdocs.com/signature/net/).
+
+Voordat u begint met het implementeren van de functionaliteit voor zoeken met meerdere handtekeningen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+
+1. Ontwikkelomgeving: Visual Studio of een andere gewenste .NET-ontwikkelomgeving die op uw systeem is geïnstalleerd.
+  
+2. GroupDocs.Signature voor .NET: Download en installeer de GroupDocs.Signature voor .NET-bibliotheek van [hier](https://releases.groupdocs.com/signature/net/).
+
+3. Basiskennis van C#: Kennis van de programmeertaal C# en concepten van het .NET Framework.
+
+4. Voorbeelddocumenten: bereid testdocumenten voor met verschillende typen handtekeningen voor testdoeleinden.
 
 ## Naamruimten importeren
-Eerst moet u de benodigde naamruimten importeren om toegang te krijgen tot de klassen en methoden die door GroupDocs.Signature voor .NET worden geleverd.
+
+Begin met het importeren van de benodigde naamruimten om toegang te krijgen tot de GroupDocs.Signature-functionaliteit:
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -26,81 +36,384 @@ using GroupDocs.Signature;
 using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
-## Stap 1: Laad het document
-Laad het document waarin u naar meerdere handtekeningen wilt zoeken. Zorg ervoor dat u het juiste bestandspad opgeeft.
+
+Laten we het proces van het zoeken naar meerdere handtekeningtypen opsplitsen in duidelijke, beheersbare stappen:
+
+## Stap 1: Het document laden
+
+Laad eerst het document met de handtekeningen die u wilt doorzoeken:
+
 ```csharp
 string filePath = "sample_multiple_signatures.docx";
 using (Signature signature = new Signature(filePath))
 {
-    // Je code komt hier
+    // Hier wordt een zoekcode voor meerdere handtekeningen toegevoegd
 }
 ```
-## Stap 2: Zoekopties definiëren
-Definieer zoekopties voor verschillende soorten handtekeningen, zoals tekst, digitaal, barcode, QR-code en metadata. U kunt zoekcriteria opgeven, zoals overeenkomende tekst, zoektype en zoeken op alle pagina's.
+
+## Stap 2: Zoekopties definiëren voor verschillende handtekeningtypen
+
+Maak zoekopties voor elk type handtekening waarnaar u wilt zoeken:
+
 ```csharp
-// Zoekopties definiëren
-TextSearchOptions textOptions = new TextSearchOptions()
+// Zoekopties voor teksthandtekeningen definiëren
+TextSearchOptions textOptions = new TextSearchOptions
+{
+    AllPages = true,  // Zoeken op alle pagina's
+    Text = "Signature",  // Optioneel: tekst om te vinden
+    MatchType = TextMatchType.Contains  // Overeenkomende criteria
+};
+
+// Zoekopties voor digitale handtekeningen definiëren
+DigitalSearchOptions digitalOptions = new DigitalSearchOptions
 {
     AllPages = true
 };
-DigitalSearchOptions digitalOptions = new DigitalSearchOptions()
-{
-    AllPages = true
-};
-BarcodeSearchOptions barcodeOptions = new BarcodeSearchOptions()
+
+// Zoekopties voor barcodehandtekeningen definiëren
+BarcodeSearchOptions barcodeOptions = new BarcodeSearchOptions
 {
     AllPages = true,
-    Text = "123456",
-    MatchType = TextMatchType.Exact
+    Text = "123456",  // Optioneel: barcodetekst om te matchen
+    MatchType = TextMatchType.Exact  // Overeenkomende criteria
 };
-QrCodeSearchOptions qrCodeOptions = new QrCodeSearchOptions()
+
+// Zoekopties voor QR-codehandtekeningen definiëren
+QrCodeSearchOptions qrCodeOptions = new QrCodeSearchOptions
 {
     AllPages = true,
-    Text = "John",
-    MatchType = TextMatchType.Contains
+    Text = "John",  // Optioneel: QR-codetekst om te matchen
+    MatchType = TextMatchType.Contains  // Overeenkomende criteria
 };
+
+// Zoekopties voor metadatahandtekeningen definiëren
 MetadataSearchOptions metadataOptions = new MetadataSearchOptions();
 ```
-## Stap 3: Voeg zoekopties toe aan de lijst
-Voeg de gedefinieerde zoekopties toe aan een lijst.
+
+## Stap 3: Opties toevoegen aan een collectie
+
+Voeg alle zoekopties toe aan een verzameling:
+
 ```csharp
-// Voeg opties toe aan de lijst
-List<SearchOptions> listOptions = new List<SearchOptions>();
-listOptions.Add(textOptions);
-listOptions.Add(barcodeOptions);
-listOptions.Add(qrCodeOptions);
-listOptions.Add(metadataOptions);
-listOptions.Add(digitalOptions);
+// Maak een lijst om alle zoekopties in op te slaan
+List<SearchOptions> searchOptions = new List<SearchOptions>
+{
+    textOptions,
+    digitalOptions,
+    barcodeOptions,
+    qrCodeOptions,
+    metadataOptions
+};
 ```
-## Stap 4: Zoek naar handtekeningen
-Zoek naar handtekeningen in het document met behulp van de gedefinieerde zoekopties.
+
+## Stap 4: Zoekopdracht uitvoeren en resultaten verwerken
+
+Voer de zoekopdracht uit met behulp van de gecombineerde zoekopties en verwerk de resultaten:
+
 ```csharp
-// Zoeken naar handtekeningen in document
-SearchResult result = signature.Search(listOptions);
+// Zoek naar alle handtekeningtypen met behulp van de gedefinieerde opties
+SearchResult result = signature.Search(searchOptions);
+
+// Controleer of er handtekeningen zijn gevonden
 if (result.Signatures.Count > 0)
 {
-    Console.WriteLine($"\nSource document ['{filePath}'] contains following signatures.");
-    foreach (var resSignature in result.Signatures)
+    Console.WriteLine($"\nSource document ['{filePath}'] contains {result.Signatures.Count} signature(s):");
+    
+    // Herhaal de gevonden handtekeningen
+    foreach (var foundSignature in result.Signatures)
     {
-        Console.WriteLine($"Signature found at page {resSignature.PageNumber} with type {resSignature.SignatureType} and Id#: {resSignature.SignatureId}");
+        Console.WriteLine($"Signature found: Type: {foundSignature.SignatureType}, Page: {foundSignature.PageNumber}, ID: {foundSignature.SignatureId}");
+        
+        // Processpecifieke handtekeningtypen
+        if (foundSignature is TextSignature textSignature)
+        {
+            Console.WriteLine($"Text: '{textSignature.Text}'");
+        }
+        else if (foundSignature is BarcodeSignature barcodeSignature)
+        {
+            Console.WriteLine($"Barcode Type: {barcodeSignature.EncodeType.TypeName}, Text: '{barcodeSignature.Text}'");
+        }
+        else if (foundSignature is QrCodeSignature qrCodeSignature)
+        {
+            Console.WriteLine($"QR Code Type: {qrCodeSignature.EncodeType.TypeName}, Text: '{qrCodeSignature.Text}'");
+        }
+        else if (foundSignature is DigitalSignature digitalSignature)
+        {
+            Console.WriteLine($"Certificate: {digitalSignature.Certificate?.SubjectName}, Valid: {digitalSignature.IsValid}");
+        }
+        else if (foundSignature is MetadataSignature metadataSignature)
+        {
+            Console.WriteLine($"Metadata: Name: {metadataSignature.Name}, Value: {metadataSignature.Value}");
+        }
     }
 }
 else
 {
-    Helper.WriteError("No one signature was found.");
+    Console.WriteLine("No signatures were found in the document.");
 }
 ```
 
+## Volledig voorbeeld
+
+Hier is een volledig, werkend voorbeeld dat laat zien hoe u naar meerdere handtekeningtypen in een document kunt zoeken:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using GroupDocs.Signature;
+using GroupDocs.Signature.Domain;
+using GroupDocs.Signature.Options;
+
+namespace MultiSignatureSearch
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Documentpad
+            string filePath = "sample_multiple_signatures.docx";
+            
+            // Initialiseer Signature-instantie
+            using (Signature signature = new Signature(filePath))
+            {
+                try
+                {
+                    // Zoekopties voor teksthandtekeningen definiëren
+                    TextSearchOptions textOptions = new TextSearchOptions
+                    {
+                        AllPages = true,
+                        MatchType = TextMatchType.Contains
+                    };
+
+                    // Zoekopties voor digitale handtekeningen definiëren
+                    DigitalSearchOptions digitalOptions = new DigitalSearchOptions
+                    {
+                        AllPages = true
+                    };
+
+                    // Zoekopties voor barcodehandtekeningen definiëren
+                    BarcodeSearchOptions barcodeOptions = new BarcodeSearchOptions
+                    {
+                        AllPages = true
+                    };
+
+                    // Zoekopties voor QR-codehandtekeningen definiëren
+                    QrCodeSearchOptions qrCodeOptions = new QrCodeSearchOptions
+                    {
+                        AllPages = true
+                    };
+
+                    // Zoekopties voor metadatahandtekeningen definiëren
+                    MetadataSearchOptions metadataOptions = new MetadataSearchOptions();
+
+                    // Maak een lijst om alle zoekopties in op te slaan
+                    List<SearchOptions> searchOptions = new List<SearchOptions>
+                    {
+                        textOptions,
+                        digitalOptions,
+                        barcodeOptions,
+                        qrCodeOptions,
+                        metadataOptions
+                    };
+
+                    // Zoeken naar alle handtekeningtypen
+                    SearchResult result = signature.Search(searchOptions);
+
+                    // Controleer of er handtekeningen zijn gevonden
+                    if (result.Signatures.Count > 0)
+                    {
+                        Console.WriteLine($"\nSource document ['{filePath}'] contains {result.Signatures.Count} signature(s):");
+                        
+                        // Resultaten verwerken op handtekeningtype
+                        foreach (var foundSignature in result.Signatures)
+                        {
+                            Console.WriteLine($"Signature found: Type: {foundSignature.SignatureType}, Page: {foundSignature.PageNumber}");
+                            
+                            // Processpecifieke handtekeningtypen
+                            switch (foundSignature.SignatureType)
+                            {
+                                case SignatureType.Text:
+                                    var textSignature = foundSignature as TextSignature;
+                                    Console.WriteLine($"Text: '{textSignature.Text}'");
+                                    break;
+                                    
+                                case SignatureType.Barcode:
+                                    var barcodeSignature = foundSignature as BarcodeSignature;
+                                    Console.WriteLine($"Barcode Type: {barcodeSignature.EncodeType.TypeName}, Text: '{barcodeSignature.Text}'");
+                                    break;
+                                    
+                                case SignatureType.QrCode:
+                                    var qrCodeSignature = foundSignature as QrCodeSignature;
+                                    Console.WriteLine($"QR Code Type: {qrCodeSignature.EncodeType.TypeName}, Text: '{qrCodeSignature.Text}'");
+                                    break;
+                                    
+                                case SignatureType.Digital:
+                                    var digitalSignature = foundSignature as DigitalSignature;
+                                    Console.WriteLine($"Certificate: {digitalSignature.Certificate?.SubjectName}, Valid: {digitalSignature.IsValid}");
+                                    break;
+                                    
+                                case SignatureType.Metadata:
+                                    var metadataSignature = foundSignature as MetadataSignature;
+                                    Console.WriteLine($"Metadata: Name: {metadataSignature.Name}, Value: {metadataSignature.Value}");
+                                    break;
+                            }
+                            
+                            Console.WriteLine(); // Regeleinde tussen handtekeningen toevoegen
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("No signatures were found in the document.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error occurred: {ex.Message}");
+                }
+            }
+            
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
+    }
+}
+```
+
+## Geavanceerde multi-signature zoektechnieken
+
+### Zoekresultaten filteren
+
+U kunt geavanceerde filtering implementeren om de zoekresultaten te verfijnen:
+
+```csharp
+// Filter resultaten op paginanummer
+var signaturesOnFirstPage = result.Signatures.FindAll(s => s.PageNumber == 1);
+
+// Filter resultaten op handtekeningtype
+var digitalSignatures = result.Signatures.FindAll(s => s.SignatureType == SignatureType.Digital);
+var qrCodeSignatures = result.Signatures.FindAll(s => s.SignatureType == SignatureType.QrCode);
+
+// Filter teksthandtekeningen met specifieke inhoud
+var approvalSignatures = result.Signatures
+    .FindAll(s => s is TextSignature && ((TextSignature)s).Text.Contains("Approved"));
+```
+
+### Validatie van meerdere handtekeningen
+
+Validatielogica implementeren voor verschillende handtekeningtypen:
+
+```csharp
+bool ValidateAllSignatures(SearchResult result)
+{
+    bool isDocumentValid = true;
+    
+    // Controleren of het document een geldige digitale handtekening heeft
+    bool hasValidDigitalSignature = result.Signatures
+        .Any(s => s is DigitalSignature && ((DigitalSignature)s).IsValid);
+    
+    if (!hasValidDigitalSignature)
+    {
+        Console.WriteLine("Warning: Document does not contain a valid digital signature");
+        isDocumentValid = false;
+    }
+    
+    // Controleren of het document een QR-code vereist
+    bool hasRequiredQRCode = result.Signatures
+        .Any(s => s is QrCodeSignature && ((QrCodeSignature)s).Text.Contains("Auth-Code"));
+    
+    if (!hasRequiredQRCode)
+    {
+        Console.WriteLine("Warning: Document does not contain the required authentication QR code");
+        isDocumentValid = false;
+    }
+    
+    return isDocumentValid;
+}
+```
+
+### Zoeken met aangepaste verwerking
+
+kunt aangepaste verwerkingslogica voor zoekopdrachten definiëren:
+
+```csharp
+// Zoekopties creëren met aangepaste verwerking
+TextSearchOptions textOptions = new TextSearchOptions
+{
+    AllPages = true,
+    
+    // Aangepaste verwerking definiëren met behulp van een gedelegeerde
+    ProcessCompleted = (signature) =>
+    {
+        // Aangepaste validatielogica: accepteer alleen handtekeningen op opgegeven pagina's
+        TextSignature textSignature = signature as TextSignature;
+        return textSignature != null && (textSignature.PageNumber == 1 || textSignature.PageNumber == 2);
+    }
+};
+```
+
 ## Conclusie
-In deze zelfstudie hebben we geleerd hoe u naar meerdere handtekeningen binnen een document kunt zoeken met behulp van GroupDocs.Signature voor .NET. Door de aangegeven stappen te volgen, kunt u op efficiënte wijze verschillende soorten handtekeningen in uw documenten lokaliseren, waardoor de documentbeveiliging en -integriteit wordt verbeterd.
+
+In deze uitgebreide handleiding hebben we uitgelegd hoe u met GroupDocs.Signature voor .NET naar meerdere handtekeningtypen in documenten kunt zoeken. Van het instellen van zoekopties voor verschillende handtekeningtypen tot het verwerken en valideren van de resultaten: u beschikt nu over de kennis om robuuste handtekeningzoekfunctionaliteit te implementeren in uw .NET-applicaties.
+
+De mogelijkheid om tegelijkertijd naar meerdere handtekeningtypen te zoeken, verbetert documentverificatieprocessen, versterkt beveiligingsmaatregelen en stroomlijnt documentvalidatieworkflows. GroupDocs.Signature biedt een krachtig, flexibel raamwerk voor het werken met verschillende handtekeningtypen in verschillende documentformaten, waardoor het een uitstekende keuze is voor documentverwerkingstoepassingen.
+
 ## Veelgestelde vragen
-### Kan ik naar handtekeningen in verschillende documentformaten zoeken?
-Ja, GroupDocs.Signature voor .NET ondersteunt een breed scala aan documentformaten, waaronder Word, PDF, Excel en meer.
-### Is het mogelijk om zoekcriteria voor handtekeningen aan te passen?
-Absoluut, u kunt zoekcriteria aanpassen aan uw vereisten, zoals het opgeven van exacte tekstovereenkomsten of zoeken op alle pagina's.
-### Biedt GroupDocs.Signature voor .NET ondersteuning voor digitale handtekeningen?
-Ja, u kunt zoeken naar digitale handtekeningen en andere typen handtekeningen, zoals handtekeningen met tekst, streepjescodes en QR-codes.
-### Kan ik de functionaliteit voor het zoeken naar handtekeningen eenvoudig integreren in mijn .NET-applicaties?
-Ja, GroupDocs.Signature voor .NET biedt een eenvoudige API die het integratieproces vereenvoudigt.
-### Waar kan ik aanvullende ondersteuning of hulp vinden?
- U kunt het GroupDocs.Signature-forum bezoeken[hier](https://forum.groupdocs.com/c/signature/13) voor eventuele vragen of hulp.
+
+### Kan ik zoeken naar handtekeningen in documenten die met een wachtwoord zijn beveiligd?
+
+Ja, GroupDocs.Signature ondersteunt het zoeken naar handtekeningen in wachtwoordbeveiligde documenten. U kunt het wachtwoord opgeven bij het initialiseren van de `Signature` voorwerp:
+
+```csharp
+LoadOptions loadOptions = new LoadOptions { Password = "your_password" };
+using (Signature signature = new Signature(filePath, loadOptions))
+{
+    // Zoeken naar handtekeningen
+}
+```
+
+### Welke documentformaten worden ondersteund voor het zoeken naar handtekeningen?
+
+GroupDocs.Signature ondersteunt een breed scala aan documentformaten, waaronder PDF, Microsoft Office-documenten (Word, Excel, PowerPoint), OpenOffice-formaten, afbeeldingen en meer.
+
+### Kan ik de zoekopdracht beperken tot specifieke pagina's in een document?
+
+Ja, elk type zoekoptie heeft eigenschappen waarmee u kunt aangeven welke pagina's u wilt doorzoeken:
+
+```csharp
+TextSearchOptions options = new TextSearchOptions
+{
+    AllPages = false,  // Zoek niet op alle pagina's
+    PageNumber = 1,    // Zoek alleen op pagina 1
+    
+    // Of geef meerdere pagina's op
+    PagesSetup = new PagesSetup { Pages = new List<int> { 1, 3, 5 } }
+};
+```
+
+### Hoe kan ik de prestaties optimaliseren bij het zoeken in grote documenten?
+
+Voor grote documenten kunt u de prestaties als volgt optimaliseren:
+
+1. Beperk de zoekopdracht tot specifieke pagina's of paginabereiken
+2. Door specifiekere zoekcriteria te gebruiken om het aantal potentiële matches te verminderen
+3. Paginering implementeren in uw resultatenweergave
+4. Zoeken naar één handtekeningtype tegelijk als u geen gelijktijdige resultaten nodig hebt
+
+### Kan ik GroupDocs.Signature uitbreiden zodat het aangepaste handtekeningtypen ondersteunt?
+
+Hoewel GroupDocs.Signature ingebouwde ondersteuning biedt voor veelgebruikte handtekeningtypen, kunt u de functionaliteit ervan uitbreiden door:
+
+1. Het creëren van aangepaste zoekoptiesklassen afgeleid van `SearchOptions`
+2. Implementatie van aangepaste verwerkingslogica met behulp van de `ProcessCompleted` delegeren
+3. Het ontwikkelen van wrapperklassen die meerdere handtekeningzoekopdrachten combineren met geavanceerde bedrijfslogica
+
+## Zie ook
+
+* [API-referentie](https://reference.groupdocs.com/signature/net/)
+* [Codevoorbeelden op GitHub](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/tree/master/Examples)
+* [Productdocumentatie](https://docs.groupdocs.com/signature/net/)
+* [Productpagina](https://products.groupdocs.com/signature/net/)
+* [Download de nieuwste versie](https://releases.groupdocs.com/signature/net/)
+* [Blogartikelen](https://blog.groupdocs.com/categories/groupdocs.signature-product-family/)
+* [Gratis ondersteuningsforum](https://forum.groupdocs.com/c/signature/13)
+* [Tijdelijke licentie](https://purchase.groupdocs.com/temporary-license/)

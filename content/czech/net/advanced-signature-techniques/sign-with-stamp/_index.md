@@ -1,24 +1,30 @@
 ---
-title: Podepisování razítkem pomocí GroupDocs.Signature
-linktitle: Podepisování razítkem
-second_title: GroupDocs.Signature .NET API
-description: Naučte se, jak snadno přidat podpisy razítek do dokumentů .NET pomocí GroupDocs.Signature pro .NET. Zvyšte zabezpečení dokumentů.
-weight: 16
-url: /cs/net/advanced-signature-techniques/sign-with-stamp/
+"description": "Naučte se, jak zvýšit zabezpečení dokumentů přidáním profesionálních razítkových podpisů do dokumentů .NET pomocí výkonných funkcí GroupDocs.Signature."
+"linktitle": "Podepisování razítkem"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Jak přidat podpisy razítek do dokumentů pomocí GroupDocs.Signature"
+"url": "/cs/net/advanced-signature-techniques/sign-with-stamp/"
+"weight": 16
 ---
 
-# Podepisování razítkem pomocí GroupDocs.Signature
+# Jak přidat profesionální razítkové podpisy do dokumentů .NET
 
-## Úvod
-V tomto tutoriálu vás provedeme procesem podepisování dokumentu razítkem pomocí GroupDocs.Signature for .NET. Podle těchto podrobných pokynů budete moci snadno přidat podpis razítka do svých dokumentů.
-## Předpoklady
-Než začneme, ujistěte se, že máte následující předpoklady:
-1.  GroupDocs.Signature for .NET SDK: Stáhněte a nainstalujte SDK z[webová stránka](https://releases.groupdocs.com/signature/net/).
-2. Vývojové prostředí: Ujistěte se, že máte pro vývoj .NET nastaveno vhodné vývojové prostředí.
-3. Dokument k podpisu: Připravte dokument (např. PDF), který chcete podepsat razítkem.
+## Čeho můžete dosáhnout s razítkovými podpisy?
 
-## Import jmenných prostorů
-Začněte importováním potřebných jmenných prostorů do vašeho projektu:
+Potřebovali jste někdy do svých obchodních dokumentů přidat oficiálně vypadající razítko? Ať už uzavíráte smlouvy, ověřujete dokumenty nebo jednoduše dodáváte svým dokumentům profesionální nádech, razítkové podpisy mohou výrazně vylepšit vzhled i zabezpečení vašich dokumentů. V této příručce vás provedeme přesným postupem implementace razítkových podpisů do vašich .NET aplikací pomocí GroupDocs.Signature.
+
+## Než začnete: Co budete potřebovat
+
+Abyste mohli pokračovat v tomto tutoriálu, budete si chtít připravit tyto položky:
+
+1. GroupDocs.Signature pro .NET SDK: Tuto výkonnou knihovnu si můžete stáhnout přímo z [Webové stránky GroupDocs](https://releases.groupdocs.com/signature/net/).
+2. Vaše vývojové prostředí: Ujistěte se, že máte správně nakonfigurované Visual Studio nebo jiné vývojové prostředí .NET.
+3. Dokument k podpisu: Mějte připravený PDF nebo jiný podporovaný dokument, který chcete vylepšit razítkem a podpisem.
+
+## Začínáme: Nastavení projektu
+
+Nejdříve si do projektu přidejme potřebné jmenné prostory. Ty ti umožní přístup ke všem funkcím, které budeme používat:
+
 ```csharp
 using System;
 using System.IO;
@@ -27,15 +33,23 @@ using GroupDocs.Signature;
 using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
-## Krok 1: Vložte dokument
+
+## Jak vložit dokument k razítkování
+
+Prvním krokem našeho procesu je načtení dokumentu, který chcete podepsat. S GroupDocs.Signature je to jednoduché:
+
 ```csharp
 string filePath = "sample.pdf";
 using (Signature signature = new Signature(filePath))
 {
-    // Váš kód je zde
+    // Váš kód bude zde (přidáme ho v dalších krocích)
 }
 ```
-## Krok 2: Nastavte možnosti znaku razítka
+
+## Vytvoření vlastního razítka: Možnosti konfigurace
+
+A teď přichází ta zábavná část! Pojďme si nastavit základní vlastnosti vašeho razítkového podpisu:
+
 ```csharp
 StampSignOptions options = new StampSignOptions()
 {
@@ -45,8 +59,13 @@ StampSignOptions options = new StampSignOptions()
     Height = 200
 };
 ```
-## Krok 3: Nakonfigurujte vzhled razítka
+
+## Jak navrhnout profesionálně vypadající razítko
+
+Pojďme vašemu razítku dodat profesionálnější vzhled nastavením jeho vzhledu:
+
 ```csharp
+// Nejprve si vytvořme vnější kroužek našeho razítka.
 StampLine outerLine = new StampLine();
 outerLine.Text = " * European Union ";
 outerLine.TextRepeatType = StampTextRepeatType.FullTextRepeat;
@@ -56,6 +75,8 @@ outerLine.TextBottomIntent = 6;
 outerLine.TextColor = Color.WhiteSmoke;
 outerLine.BackgroundColor = Color.DarkSlateBlue;
 options.OuterLines.Add(outerLine);
+
+// Nyní přidejme vnitřní obsah se jménem podepisujícího.
 StampLine innerLine = new StampLine();
 innerLine.Text = "John Smith";
 innerLine.TextColor = Color.MediumVioletRed;
@@ -64,23 +85,41 @@ innerLine.Font.Bold = true;
 innerLine.Height = 40;
 options.InnerLines.Add(innerLine);
 ```
-## Krok 4: Podepište dokument
+
+## Použití razítka na dokument
+
+Jakmile je vše nastaveno, je čas přidat na dokument razítko:
+
 ```csharp
 string outputFilePath = Path.Combine("Your Document Directory", "SignWithStamp", fileName);
 SignResult result = signature.Sign(outputFilePath, options);
 Console.WriteLine($"\nSource document signed successfully with {result.Succeeded.Count} signature(s).\nFile saved at {outputFilePath}.");
 ```
 
-## Závěr
-Přidávání podpisů razítek do vašich dokumentů pomocí GroupDocs.Signature for .NET je jednoduchý proces, jak je ukázáno v tomto tutoriálu. Pomocí uvedených kroků můžete snadno zvýšit zabezpečení a autenticitu svých dokumentů.
-## FAQ
-### Mohu upravit vzhled podpisu razítka?
-Ano, různé aspekty, jako je text, písmo, barva a umístění podpisu razítka, si můžete přizpůsobit podle svých požadavků.
-### Podporuje GroupDocs.Signature podepisování více formátů dokumentů?
-Ano, GroupDocs.Signature podporuje širokou škálu formátů dokumentů včetně PDF, Microsoft Word, Excel, PowerPoint a dalších.
-### Je k dispozici zkušební verze pro GroupDocs.Signature?
- Ano, máte přístup k bezplatné zkušební verzi z[webová stránka](https://releases.groupdocs.com/).
-### Mohu k jednomu dokumentu přidat více podpisů?
-Rozhodně, GroupDocs.Signature umožňuje přidat více podpisů, včetně razítek, textu, obrázků a digitálních podpisů, do jednoho dokumentu.
-### Kde najdu podporu, pokud během implementace narazím na nějaké problémy?
- Podporu a pomoc můžete najít na fóru komunity GroupDocs.Signature[tady](https://forum.groupdocs.com/c/signature/13).
+## Proč používat GroupDocs.Signature pro razítkové podpisy?
+
+GroupDocs.Signature neuvěřitelně zjednodušuje celý proces přidávání podpisů k razítku. Můžete si přizpůsobit každý aspekt svých razítek, od barev a písem až po velikost a umístění. Tato flexibilita vám umožňuje vytvářet razítka, která odpovídají brandingu vaší organizace nebo splňují specifické regulační požadavky.
+
+Například pokud pracujete v právních službách, můžete si vytvořit razítko s názvem vaší firmy na vnějším kroužku a konkrétním stavem dokumentu uprostřed. Nebo pro vzdělávací instituce můžete navrhnout razítko, které napodobuje vaši pečeť pro přepisy a certifikáty.
+
+## Časté otázky o podpisech na razítkách
+
+### Mohu vytvářet razítka s vícebarevnými kroužky?
+
+Ano! Do vnitřní i vnější části razítka můžete přidat více řádků přidáním dalších `StampLine` objekty do příslušných kolekcí ve vašich možnostech.
+
+### Budou mé podpisy s razítkem fungovat na různých typech dokumentů?
+
+Rozhodně. Jednou z velkých výhod používání GroupDocs.Signature je široká podpora formátů. Ať už pracujete s PDF, dokumenty Word, tabulkami Excel nebo prezentacemi PowerPoint, můžete použít stejný proces podpisu razítkem.
+
+### Mohu kombinovat podpisy s razítkem s jinými typy podpisů?
+
+Jistě můžete! GroupDocs.Signature je navržen tak, aby podporoval více typů podpisů v jednom dokumentu. Pro maximální zabezpečení můžete k digitálnímu podpisu přidat i podpis s razítkem, nebo jej zkombinovat s ručně psaným podpisem pro osobní dojem.
+
+### Existuje snadný způsob, jak přesně umístit razítka?
+
+Pro přesnější polohování můžete použít `HorizontalAlignment` a `VerticalAlignment` vlastnosti místo absolutních souřadnic. Díky tomu je snazší zajistit, aby se vaše razítka zobrazovala na konzistentních místech v různých velikostech a formátech dokumentů.
+
+### Kde mohu získat pomoc, pokud mám potíže s implementací razítkových podpisů?
+
+Komunita GroupDocs je velmi aktivní a vstřícná. Navštivte [Fórum GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13) kde můžete klást otázky a získat pomoc jak od vývojového týmu, tak od ostatních uživatelů.

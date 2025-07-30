@@ -1,24 +1,34 @@
 ---
-title: Ondertekenen met streepjescode
-linktitle: Ondertekenen met streepjescode
-second_title: GroupDocs.Signature .NET API
-description: Leer hoe u documenten met streepjescode kunt ondertekenen met GroupDocs.Signature voor .NET. Volg onze stapsgewijze handleiding voor een naadloze integratie.
-weight: 11
-url: /nl/net/advanced-signature-techniques/sign-with-barcode/
+"description": "Ontdek hoe u eenvoudig barcodehandtekeningen kunt implementeren in uw .NET-applicaties met GroupDocs.Signature. Stapsgewijze tutorial met codevoorbeelden."
+"linktitle": "Ondertekenen met barcode"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Veilige barcodehandtekeningen toevoegen aan .NET-documenten | Volledige handleiding"
+"url": "/nl/net/advanced-signature-techniques/sign-with-barcode/"
+"weight": 11
 ---
 
-# Ondertekenen met streepjescode
+## Hoe kunnen barcodehandtekeningen de beveiliging van uw documenten verbeteren?
 
-## Invoering
-In het huidige digitale tijdperk is het beveiligen van documenten met handtekeningen van cruciaal belang, en GroupDocs.Signature voor .NET biedt een naadloze oplossing voor het integreren van barcodehandtekeningen in uw toepassingen. In deze zelfstudie leiden we u door het proces van het ondertekenen van een document met een streepjescode met behulp van GroupDocs.Signature voor .NET.
-## Vereisten
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-1.  GroupDocs.Signature voor .NET: Download en installeer GroupDocs.Signature voor .NET vanaf de[website](https://releases.groupdocs.com/signature/net/).
-2. .NET-ontwikkelomgeving: Zorg ervoor dat u een werkende .NET-ontwikkelomgeving hebt ingesteld.
-3. Te ondertekenen document: Bereid het document (bijvoorbeeld PDF) voor dat u wilt ondertekenen met een streepjescode.
+In de digitale wereld van vandaag is documentbeveiliging niet alleen leuk, maar ook essentieel. Barcodehandtekeningen bieden een unieke manier om uw belangrijke bestanden te verifiëren en te beveiligen. Met GroupDocs.Signature voor .NET is de implementatie van deze krachtige beveiligingsfuncties verrassend eenvoudig.
 
-## Naamruimten importeren
-Eerst moet u de benodigde naamruimten importeren om toegang te krijgen tot de functionaliteit van GroupDocs.Signature voor .NET.
+Deze handleiding legt precies uit hoe u barcodehandtekeningen aan uw documenten toevoegt met behulp van overzichtelijke, eenvoudige C#-code. Of u nu een documentbeheersysteem bouwt of gewoon gevoelige bestanden wilt beveiligen, hier vindt u alles wat u nodig hebt om aan de slag te gaan.
+
+## Wat heb je nodig voordat je begint?
+
+Voordat we in de code duiken, zorgen we ervoor dat alles klaar is:
+
+1. GroupDocs.Signature voor .NET: Nog niet geïnstalleerd? Je kunt het direct downloaden van de [GroupDocs-website](https://releases.groupdocs.com/signature/net/).
+
+2. .NET-ontwikkelomgeving: Je hebt een werkende .NET-omgeving nodig. Visual Studio werkt prima, maar elke .NET-compatibele IDE is voldoende.
+
+3. Een document ondertekenen: houd een PDF, Word-document of ander bestand bij de hand dat u wilt beveiligen met een streepjescodehandtekening.
+
+Klaar om te beginnen? Laten we beginnen met coderen!
+
+## Uw project instellen met de juiste naamruimten
+
+Laten we beginnen met het eerste: we moeten de juiste naamruimten importeren om toegang te krijgen tot alle barcodefunctionaliteit:
+
 ```csharp
 using System;
 using System.IO;
@@ -26,59 +36,109 @@ using GroupDocs.Signature;
 using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
-## Stap 1: Geef het documentpad en de bestandsnaam op
-Begin met het opgeven van het pad naar het document dat u wilt ondertekenen met een streepjescode. Extraheer ook de bestandsnaam uit het pad.
+
+Met deze imports krijgt u toegang tot de kernfunctionaliteit die u in deze tutorial nodig hebt. Laten we nu verdergaan met het werken met uw document.
+
+## Hoe u uw document voorbereidt voor ondertekening
+
+Laten we onze documentpaden correct instellen. Dit is een belangrijke basis voor de rest van het proces:
+
 ```csharp
-string filePath = "sample.pdf";
+string filePath = "sample.pdf";  // Het document dat u wilt ondertekenen
 string fileName = Path.GetFileName(filePath);
-```
-## Stap 2: Stel het uitvoerbestandspad in
-Definieer het uitvoerbestandspad waar het ondertekende document zal worden opgeslagen.
-```csharp
+
+// Waar moeten we het ondertekende document opslaan?
 string outputFilePath = Path.Combine("Your Document Directory", "SignWithBarcode", fileName);
 ```
-## Stap 3: Initialiseer het handtekeningobject
-Instantieer een Signature-object door het pad van het te ondertekenen document door te geven.
+
+Deze code identificeert uw brondocument en creëert een pad voor de ondertekende versie. U kunt deze paden eenvoudig aanpassen aan uw projectstructuur.
+
+## Uw eerste barcodehandtekening maken
+
+En nu komt het spannende gedeelte: we gaan een barcodehandtekening maken en toepassen:
+
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    // Hier vindt u uw code voor het ondertekenen van streepjescodes
+    // Configureer uw barcode-opties
+    BarcodeSignOptions options = new BarcodeSignOptions("JohnSmith")
+    {
+        // Kies Code128 voor uitstekende datadichtheid en betrouwbaarheid
+        EncodeType = BarcodeTypes.Code128,
+        
+        // Plaats de barcode op een plek waar deze zichtbaar is, maar niet opdringerig
+        Left = 50,
+        Top = 150,
+        
+        // Zorg ervoor dat de barcode leesbaar is, maar niet overweldigend
+        Width = 200,
+        Height = 50
+    };
+
+    // De handtekening op uw document toepassen
+    SignResult result = signature.Sign(outputFilePath, options);
+    
+    Console.WriteLine($"Document signed successfully! Output file: {outputFilePath}");
 }
 ```
-## Stap 4: Maak opties voor streepjescodetekens
-Maak een exemplaar van BarcodeSignOptions en configureer het volgens uw vereisten.
+
+Wat gebeurt hier? We maken een Code128-barcode met "JohnSmith" als gecodeerde gegevens. De barcode verschijnt 50 pixels vanaf de linkerkant en 150 pixels vanaf de bovenkant van de pagina, met afmetingen van 200 × 50 pixels.
+
+U kunt al deze parameters eenvoudig aanpassen. Als u bijvoorbeeld andere informatie wilt coderen of de barcode ergens anders op de pagina wilt plaatsen, past u eenvoudig de bijbehorende eigenschappen aan.
+
+## Meer opties voor barcode-aanpassing verkennen
+
+Het bovenstaande voorbeeld is nog maar het begin. GroupDocs.Signature biedt u ongelooflijke flexibiliteit om uw barcodehandtekeningen aan te passen:
+
 ```csharp
-BarcodeSignOptions options = new BarcodeSignOptions("JohnSmith")
+BarcodeSignOptions advancedOptions = new BarcodeSignOptions("Employee ID: 123456")
 {
-	// Geef het type streepjescodecodering op
-	
-    EncodeType = BarcodeTypes.Code128,
-    // Handtekeningpositie instellen (links)
-	Left = 50,
-	// Handtekeningpositie instellen (boven)
-    Top = 150,
-	// Streepjescodebreedte instellen
-    Width = 200,
-	//Stel de hoogte van de streepjescode in
-    Height = 50
+    EncodeType = BarcodeTypes.QR,  // Probeer QR-codes voor meer datacapaciteit
+    Page = 1,  // Op welke pagina moet de barcode worden weergegeven?
+    Left = 100,
+    Top = 200,
+    Width = 150,
+    Height = 150,
+    ForeColor = System.Drawing.Color.Black,
+    BackColor = System.Drawing.Color.White,
+    Rotate = 0,  // Rotatie in graden
+    Opacity = 1.0  // Volledig ondoorzichtig
 };
 ```
-## Stap 5: Onderteken het document
-Roep de Sign-methode van het Signature-object aan, waarbij u het pad voor het uitvoerbestand en de handtekeningopties voor streepjescodes doorgeeft.
-```csharp
-SignResult result = signature.Sign(outputFilePath, options);
-```
 
-## Conclusie
-Concluderend vereenvoudigt GroupDocs.Signature voor .NET het proces van het ondertekenen van documenten met streepjescodes, waardoor de documentbeveiliging en -integriteit wordt verbeterd. Door de stapsgewijze handleiding in deze zelfstudie te volgen, kunt u streepjescodehandtekeningen naadloos integreren in uw .NET-toepassingen.
-## Veelgestelde vragen
-### Kan ik het uiterlijk van de barcodehandtekening aanpassen?
-Ja, GroupDocs.Signature voor .NET biedt verschillende opties om de streepjescode aan te passen, inclusief coderingstype, positie, breedte en hoogte.
-### Ondersteunt GroupDocs.Signature voor .NET andere handtekeningtypen?
-Absoluut, GroupDocs.Signature voor .NET ondersteunt een breed scala aan handtekeningtypen, waaronder handtekeningen met tekst, afbeeldingen, digitale handtekeningen en streepjescodes.
-### Is er een proefversie beschikbaar voor GroupDocs.Signature voor .NET?
- Ja, u kunt een gratis proefversie downloaden van de[website](https://releases.groupdocs.com/).
-### Kan ik tijdelijke licenties krijgen voor testdoeleinden?
-Ja, er zijn tijdelijke licenties beschikbaar voor testdoeleinden. U kunt ze verkrijgen bij de[GroupDocs-aankoop](https://purchase.groupdocs.com/temporary-license/) bladzijde.
-### Waar kan ik ondersteuning vinden voor GroupDocs.Signature voor .NET?
- U kunt hulp vinden en in contact komen met de gemeenschap op de[GroupDocs.Signature-forum](https://forum.groupdocs.com/c/signature/13).
+Hiermee hebt u niet alleen nauwkeurige controle over de inhoud van de streepjescode, maar ook over het uiterlijk en de plaatsing ervan in uw document.
+
+## Wat maakt barcodehandtekeningen bijzonder?
+
+Barcodehandtekeningen bieden verschillende unieke voordelen:
+
+1. Machineleesbaarheid: Ze kunnen snel worden gescand en geverifieerd met standaardhardware.
+2. Gegevenscapaciteit: Afhankelijk van het barcodetype kunt u aanzienlijke informatie coderen.
+3. Visuele afschrikking: De zichtbare barcode geeft aan dat het document beveiligd is.
+4. Aanpasbaar: Van eenvoudige 1D-barcodes tot complexe QR-codes: u kunt het juiste formaat voor uw behoeften kiezen.
+
+## Hoe nu verder?
+
+Nu u hebt geleerd hoe u streepjescodehandtekeningen in uw .NET-toepassingen kunt implementeren, kunt u de volgende stappen overwegen:
+
+- Experimenteer met verschillende barcodetypen (QR, DataMatrix, PDF417) voor verschillende toepassingsgevallen
+- Implementeer batchverwerking om meerdere documenten tegelijk te ondertekenen
+- Combineer barcodehandtekeningen met andere handtekeningtypen voor gelaagde beveiliging
+- Creëer een verificatieproces om documenten te valideren aan de hand van hun barcodehandtekeningen
+
+## FAQ: Veelgestelde vragen over barcodehandtekeningen
+
+### Kan ik het uiterlijk van mijn barcodehandtekening aanpassen?
+Absoluut! Je kunt het type, de grootte, de positie, de kleuren en zelfs de rotatie van de barcode aanpassen. Zo heb je volledige controle over hoe de barcode in je document verschijnt.
+
+### Ondersteunt GroupDocs.Signature andere handtekeningtypen dan barcodes?
+Ja, de bibliotheek ondersteunt vele soorten handtekeningen, waaronder tekst, afbeeldingen, digitale certificaten en QR-codes. U kunt zelfs meerdere soorten handtekeningen in één document combineren.
+
+### Is er een gratis manier om GroupDocs.Signature uit te proberen voordat ik het koop?
+Zeker! Je kunt een gratis proefversie downloaden van de [GroupDocs-website](https://releases.groupdocs.com/) om de functionaliteit in uw specifieke use case te testen.
+
+### Hoe kan ik een tijdelijke licentie krijgen om te testen in mijn ontwikkelomgeving?
+Tijdelijke licenties zijn specifiek beschikbaar voor test- en evaluatiedoeleinden. Bezoek de [GroupDocs-aankooppagina](https://purchase.groupdocs.com/temporary-license/) om er een aan te vragen.
+
+### Waar kan ik terecht als ik hulp nodig heb of vragen heb?
+De [GroupDocs.Signature-forum](https://forum.groupdocs.com/c/signature/13) is een geweldige bron. De community en het supportteam zijn actief en staan klaar om al je vragen te beantwoorden.

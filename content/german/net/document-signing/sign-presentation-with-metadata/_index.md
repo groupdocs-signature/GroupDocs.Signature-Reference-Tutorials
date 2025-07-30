@@ -1,92 +1,250 @@
 ---
-title: Präsentation mit Metadaten signieren
-linktitle: Präsentation mit Metadaten signieren
-second_title: GroupDocs.Signature .NET-API
-description: Erfahren Sie, wie Sie Präsentationsdateien mit Metadaten mit GroupDocs.Signature für .NET signieren. Verbessern Sie die Dokumentenintegrität und fügen Sie wertvolle Informationen hinzu.
-weight: 12
-url: /de/net/document-signing/sign-presentation-with-metadata/
+"description": "Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET Metadatensignaturen in PowerPoint-Präsentationen einbetten. Fügen Sie Autorendetails, Zeitstempel und benutzerdefinierte Eigenschaften hinzu, um die Authentizität und Rückverfolgbarkeit der Präsentation zu verbessern."
+"linktitle": "Präsentation mit Metadaten signieren"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Verbessern Sie PowerPoint-Präsentationen mit Metadatensignaturen in C# .NET"
+"url": "/de/net/document-signing/sign-presentation-with-metadata/"
+"weight": 12
 ---
 
-# Präsentation mit Metadaten signieren
-
 ## Einführung
-In diesem Tutorial erfahren Sie, wie Sie mithilfe der GroupDocs.Signature for .NET-Bibliothek eine Präsentationsdatei (PPTX) mit Metadaten signieren. Durch das Signieren von Präsentationen mit Metadaten werden dem Dokument wertvolle Informationen hinzugefügt, z. B. der Name des Autors, das Erstellungsdatum, die Dokument-ID, die Signatur-ID und verschiedene numerische Werte.
+
+In der heutigen digitalen Arbeitswelt sind Präsentationen wichtige Werkzeuge für die Kommunikation und den Informationsaustausch. Die Gewährleistung der Authentizität und Integrität dieser Präsentationsdateien wird zunehmend wichtiger, insbesondere in Unternehmens- und Bildungsumgebungen. Eine effektive Möglichkeit, die Sicherheit und Rückverfolgbarkeit von Präsentationen zu verbessern, ist die Einbettung von Metadatensignaturen.
+
+Dieses umfassende Tutorial führt Sie durch den Prozess der Signatur von PowerPoint-Präsentationen (PPTX, PPT) mit Metadaten mithilfe von GroupDocs.Signature für .NET. Durch das Hinzufügen von Metadatensignaturen können Sie wertvolle Informationen wie Autorendetails, Erstellungszeitstempel, Dokumentkennungen und andere benutzerdefinierte Eigenschaften direkt in die Präsentationsdateistruktur einbetten.
+
 ## Voraussetzungen
-Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
-1.  GroupDocs.Signature für .NET-Bibliothek: Laden Sie die Bibliothek herunter und installieren Sie sie von[Hier](https://releases.groupdocs.com/signature/net/).
-2. Entwicklungsumgebung: Stellen Sie sicher, dass Sie eine .NET-Entwicklungsumgebung eingerichtet haben.
-3. Präsentationsdatei: Halten Sie eine Beispielpräsentationsdatei (PPTX-Format) zum Signieren bereit.
-4. Grundkenntnisse von C#: Vertrautheit mit der Programmiersprache C# ist von Vorteil.
+
+Bevor Sie mit diesem Lernprogramm fortfahren, stellen Sie sicher, dass Sie über Folgendes verfügen:
+
+1. [GroupDocs.Signature für .NET](https://releases.groupdocs.com/signature/net/) - Laden Sie die Bibliothek herunter und installieren Sie sie
+2. Entwicklungsumgebung – Visual Studio oder eine andere .NET-kompatible IDE
+3. PowerPoint-Präsentation – Eine Beispiel-Präsentationsdatei (PPTX- oder PPT-Format)
+4. Grundlegende C#-Kenntnisse – Vertrautheit mit der Programmiersprache C#
 
 ## Namespaces importieren
-Bevor wir uns mit dem Code befassen, importieren wir die erforderlichen Namespaces:
+
+Beginnen Sie mit dem Importieren der erforderlichen Namespaces, um auf die GroupDocs.Signature-Funktionalität zuzugreifen:
+
 ```csharp
 using System;
 using System.IO;
-    using GroupDocs.Signature;
-    using GroupDocs.Signature.Domain;
-    using GroupDocs.Signature.Options;
+using GroupDocs.Signature;
+using GroupDocs.Signature.Domain;
+using GroupDocs.Signature.Options;
 ```
-## Schritt 1: Präsentationsdatei laden
+
+## Schritt 1: Dateipfade einrichten
+
+Definieren Sie die Pfade für Ihre Quellpräsentation und wo die signierte Ausgabe gespeichert werden soll:
+
 ```csharp
+// Geben Sie den Pfad zu Ihrer Präsentationsdatei an
 string filePath = "sample.pptx";
+
+// Definieren Sie das Ausgabeverzeichnis und den Dateinamen für die signierte Präsentation
+string outputDirectory = "Your Document Directory";
+string outputFilePath = Path.Combine(outputDirectory, "SignPresentationWithMetadata", "SignedWithMetadata.pptx");
+
+// Stellen Sie sicher, dass das Ausgabeverzeichnis vorhanden ist
+Directory.CreateDirectory(Path.GetDirectoryName(outputFilePath));
 ```
- Ersetzen`"sample.pptx"` mit dem Pfad zu Ihrer Präsentationsdatei.
-## Schritt 2: Geben Sie den Pfad der Ausgabedatei an
-```csharp
-string outputFilePath = Path.Combine("Your Document Directory", "SignPresentationWithMetadata", "SignedWithMetadata.pptx");
-```
-Geben Sie das Verzeichnis, in dem Sie die signierte Präsentationsdatei speichern möchten, zusammen mit dem Dateinamen an.
-## Schritt 3: Signaturobjekt initialisieren
+
+## Schritt 2: Initialisieren des Signaturobjekts
+
+Erstellen Sie eine Instanz der Signature-Klasse mit Ihrer Quellpräsentationsdatei:
+
 ```csharp
 using (Signature signature = new Signature(filePath))
+{
+    // Der Rest des Codes kommt hierhin
+}
 ```
-Initialisieren Sie ein Signature-Objekt, indem Sie den Pfad zur Präsentationsdatei angeben.
-## Schritt 4: Definieren Sie Metadaten-Signierungsoptionen
+
+## Schritt 3: Erstellen und Konfigurieren von Metadatensignaturen
+
+Definieren Sie als Nächstes die Metadatenoptionen und erstellen Sie ein Array von Präsentationsmetadatensignaturen:
+
 ```csharp
+// Metadatenoptionsobjekt erstellen
 MetadataSignOptions options = new MetadataSignOptions();
-```
-Erstellen Sie eine Instanz von MetadataSignOptions, um Metadatensignaturoptionen zu definieren.
-## Schritt 5: Metadatensignaturen erstellen
-```csharp
+
+// Erstellen Sie ein Array von Präsentationsmetadatensignaturen mit unterschiedlichen Datentypen
 PresentationMetadataSignature[] signatures = new PresentationMetadataSignature[]
 {
-    new PresentationMetadataSignature("Author", "Mr.Scherlock Holmes"),
-    new PresentationMetadataSignature("CreatedOn", DateTime.Now),
-    new PresentationMetadataSignature("DocumentId", 123456),
-    new PresentationMetadataSignature("SignatureId", 123.456D),
-    new PresentationMetadataSignature("Amount", 123.456M),
-    new PresentationMetadataSignature("Total", 123.456F)
+    new PresentationMetadataSignature("Author", "Mr.Sherlock Holmes"), // Zeichenfolgenwert
+    new PresentationMetadataSignature("CreatedOn", DateTime.Now),      // DateTime-Wert
+    new PresentationMetadataSignature("DocumentId", 123456),           // Ganzzahliger Wert
+    new PresentationMetadataSignature("SignatureId", 123.456D),        // Doppelter Wert
+    new PresentationMetadataSignature("Amount", 123.456M),             // Dezimalwert
+    new PresentationMetadataSignature("Total", 123.456F)               // Gleitkommawert
 };
-```
-Erstellen Sie ein Array von PresentationMetadataSignature-Objekten, die jeweils eine Metadatensignatur darstellen. Sie können verschiedene Metadatentypen hinzufügen, darunter Zeichenfolge, DateTime, Ganzzahl, Double, Dezimalzahl und Gleitkommazahl.
-## Schritt 6: Signaturen zu Optionen hinzufügen
-```csharp
+
+// Signatursammlung zu Optionen hinzufügen
 options.Signatures.AddRange(signatures);
 ```
-Fügen Sie die erstellten Metadatensignaturen dem MetadataSignOptions-Objekt hinzu.
-## Schritt 7: Dokument unterzeichnen
+
+## Schritt 4: Signieren Sie die Präsentation mit Metadaten
+
+Wenden Sie die Metadatensignaturen auf die Präsentation an und speichern Sie das Ergebnis:
+
 ```csharp
+// Signieren Sie das Dokument und speichern Sie es im Ausgabedateipfad
 SignResult result = signature.Sign(outputFilePath, options);
+
+// Erfolgsmeldung anzeigen
+Console.WriteLine($"\nSource presentation signed successfully with {result.Succeeded.Count} metadata signature(s).");
+Console.WriteLine($"Signed presentation saved at: {outputFilePath}");
 ```
-Signieren Sie die Präsentationsdatei mit Metadaten unter Verwendung der angegebenen Optionen und speichern Sie die signierte Datei im Ausgabepfad.
-## Schritt 8: Ergebnis anzeigen
+
+## Vollständiges Beispiel
+
+Hier ist das vollständige Codebeispiel, das alle Schritte zusammenfasst:
+
 ```csharp
-Console.WriteLine($"\nSource document signed successfully with {result.Succeeded.Count} signature(s).\nFile saved at {outputFilePath}.");
+using System;
+using System.IO;
+using GroupDocs.Signature;
+using GroupDocs.Signature.Domain;
+using GroupDocs.Signature.Options;
+
+namespace SignPresentationWithMetadataExample
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Dateipfade angeben
+            string filePath = "sample.pptx";
+            string outputFilePath = Path.Combine("Your Document Directory", "SignPresentationWithMetadata", "SignedWithMetadata.pptx");
+            
+            // Stellen Sie sicher, dass das Ausgabeverzeichnis vorhanden ist
+            Directory.CreateDirectory(Path.GetDirectoryName(outputFilePath));
+
+            // Signieren Sie die Präsentation mit Metadaten
+            using (Signature signature = new Signature(filePath))
+            {
+                // Metadatenoptionsobjekt erstellen
+                MetadataSignOptions options = new MetadataSignOptions();
+                
+                // Erstellen Sie ein Array von Präsentationsmetadatensignaturen mit unterschiedlichen Datentypen
+                PresentationMetadataSignature[] signatures = new PresentationMetadataSignature[]
+                {
+                    new PresentationMetadataSignature("Author", "Mr.Sherlock Holmes"), // Zeichenfolgenwert
+                    new PresentationMetadataSignature("CreatedOn", DateTime.Now),      // DateTime-Wert
+                    new PresentationMetadataSignature("DocumentId", 123456),           // Ganzzahliger Wert
+                    new PresentationMetadataSignature("SignatureId", 123.456D),        // Doppelter Wert
+                    new PresentationMetadataSignature("Amount", 123.456M),             // Dezimalwert
+                    new PresentationMetadataSignature("Total", 123.456F)               // Gleitkommawert
+                };
+                
+                // Signatursammlung zu Optionen hinzufügen
+                options.Signatures.AddRange(signatures);
+                
+                // Dokument signieren und in Datei speichern
+                SignResult result = signature.Sign(outputFilePath, options);
+                
+                // Ergebnisse anzeigen
+                Console.WriteLine($"\nSource presentation signed successfully with {result.Succeeded.Count} signature(s).");
+                Console.WriteLine($"File saved at {outputFilePath}.");
+            }
+        }
+    }
+}
 ```
-Zeigen Sie eine Erfolgsmeldung zusammen mit der Anzahl der angewendeten Signaturen und dem Pfad an, in dem die signierte Datei gespeichert ist.
+
+## Erweiterte Präsentationsmetadatentechniken
+
+### Arbeiten mit benutzerdefinierten und integrierten Präsentationseigenschaften
+
+PowerPoint-Präsentationen verfügen über integrierte und benutzerdefinierte Eigenschaften, auf die über den Dateieigenschaftendialog zugegriffen werden kann. GroupDocs.Signature ermöglicht Ihnen die Arbeit mit beiden:
+
+```csharp
+// Integrierte Eigenschaften hinzufügen
+signatures = new PresentationMetadataSignature[]
+{
+    new PresentationMetadataSignature("Company", "Sherlock Holmes Consulting"),
+    new PresentationMetadataSignature("Category", "Presentation"),
+    new PresentationMetadataSignature("Keywords", "metadata,signing,groupdocs"),
+    new PresentationMetadataSignature("Comments", "This document was signed with GroupDocs.Signature"),
+    new PresentationMetadataSignature("Manager", "John Watson")
+};
+options.Signatures.AddRange(signatures);
+
+// Hinzufügen benutzerdefinierter Eigenschaften
+options.Signatures.Add(new PresentationMetadataSignature("CustomProperty1", "Custom Value 1"));
+options.Signatures.Add(new PresentationMetadataSignature("CustomProperty2", "Custom Value 2"));
+```
+
+### Suchen nach Metadaten in signierten Präsentationen
+
+Nach der Signierung möchten Sie möglicherweise die Metadaten überprüfen oder extrahieren:
+
+```csharp
+// Suchoptionen für Metadaten erstellen
+MetadataSearchOptions searchOptions = new MetadataSearchOptions();
+
+// Suche nach Metadatensignaturen
+SearchResult searchResult = signature.Search(searchOptions);
+
+// Gefundene Signaturen anzeigen
+Console.WriteLine($"Found {searchResult.Signatures.Count} metadata signatures:");
+foreach (var foundSignature in searchResult.Signatures)
+{
+    MetadataSignature metadataSignature = foundSignature as MetadataSignature;
+    if (metadataSignature != null)
+    {
+        Console.WriteLine($"- {metadataSignature.Name}: {metadataSignature.Value} ({metadataSignature.Value.GetType().Name})");
+    }
+}
+```
+
+### Aktualisieren vorhandener Metadaten
+
+Sie können vorhandene Metadaten in Präsentationen aktualisieren, indem Sie dieselben Eigenschaftsnamen verwenden:
+
+```csharp
+// Aktualisieren vorhandener Metadaten
+options.Signatures.Add(new PresentationMetadataSignature("Author", "Updated Author Name"));
+```
 
 ## Abschluss
-In diesem Tutorial haben wir gelernt, wie man eine Präsentationsdatei mit Metadaten unter Verwendung der Bibliothek GroupDocs.Signature für .NET signiert. Das Hinzufügen von Metadatensignaturen verbessert die Integrität des Dokuments und liefert wertvolle Informationen über seinen Inhalt.
+
+In diesem umfassenden Tutorial haben Sie gelernt, wie Sie PowerPoint-Präsentationen mit GroupDocs.Signature für .NET mit Metadaten signieren. Das Einbetten von Metadaten in Präsentationsdateien verbessert die Rückverfolgbarkeit von Dokumenten, liefert wertvollen Kontext und trägt zur Authentizität bei.
+
+Metadatensignaturen in Präsentationen sind besonders in Geschäfts- und Bildungsumgebungen nützlich, in denen Dokumentherkunft, Autorschaft und Versionsverfolgung wichtig sind. Die eingebetteten Metadaten können Informationen über den Autor, den Erstellungszeitpunkt, Dokumentkennungen und benutzerdefinierte Eigenschaften enthalten, die für die Anforderungen Ihres Unternehmens relevant sind.
+
+Durch die Implementierung von Metadatensignaturen mit GroupDocs.Signature können Sie sicherstellen, dass Ihre PowerPoint-Präsentationen ihre Integrität bewahren und während ihres gesamten Lebenszyklus überprüfbare Informationen bereitstellen.
 
 ## Häufig gestellte Fragen
-### Kann ich mit GroupDocs.Signature für .NET auch andere Dokumentformate außer PPTX mit Metadaten signieren?
-Ja, GroupDocs.Signature unterstützt verschiedene Dokumentformate, darunter Word, Excel, PDF und mehr, zum Signieren mit Metadaten.
-### Ist GroupDocs.Signature für .NET mit .NET Core kompatibel?
-Ja, die Bibliothek ist sowohl mit .NET Framework als auch mit .NET Core kompatibel.
-### Kann ich das Erscheinungsbild von Metadatensignaturen anpassen?
-Ja, Sie können das Aussehen, die Position und andere Eigenschaften von Metadatensignaturen Ihren Anforderungen entsprechend anpassen.
-### Bietet GroupDocs.Signature für .NET Verschlüsselung für signierte Dokumente?
-Ja, GroupDocs.Signature bietet Verschlüsselungsoptionen, um signierte Dokumente vor unbefugtem Zugriff zu schützen.
-### Gibt es eine Testversion zum Testen vor dem Kauf?
- Ja, Sie können eine kostenlose Testversion von GroupDocs.Signature für .NET nutzen von[Hier](https://releases.groupdocs.com/).
+
+### Kann ich Präsentationen Metadaten hinzufügen, für die bereits einige Eigenschaften definiert sind?
+
+Ja, Sie können in Präsentationen neue Metadaten hinzufügen oder vorhandene Metadaten aktualisieren. GroupDocs.Signature übernimmt die Integration, indem entweder neue Eigenschaften hinzugefügt oder vorhandene mit denselben Namen aktualisiert werden.
+
+### Welche Präsentationsformate werden für die Metadatensignatur unterstützt?
+
+GroupDocs.Signature für .NET unterstützt die Metadatensignatur für PowerPoint-Präsentationen in PPT, PPTX, PPTM, PPS, PPSX und anderen PowerPoint-Formaten. Eine vollständige Liste finden Sie im [offizielle Dokumentation](https://docs.groupdocs.com/signature/net/).
+
+### Sind Metadatensignaturen in Präsentationen für die Zuschauer sichtbar?
+
+Metadatensignaturen sind in den Präsentationsfolien selbst nicht sichtbar. Sie können jedoch über das Dokumenteigenschaftenfenster in PowerPoint oder anderen kompatiblen Anwendungen angezeigt werden.
+
+### Kann ich vertrauliche Metadaten in Präsentationen verschlüsseln?
+
+Einzelne Metadateneigenschaften können nicht verschlüsselt werden. GroupDocs.Signature bietet jedoch Optionen zum Schutz des gesamten Dokuments. Sie können den Zugriff auf die Präsentation und ihre Metadaten mit einem Kennwortschutz einschränken.
+
+### Beeinträchtigt das Hinzufügen von Metadaten die Präsentationsleistung?
+
+Das Hinzufügen von Metadaten hat nur minimale Auswirkungen auf die Dateigröße und keine Auswirkungen auf die Präsentationsleistung. Es ist eine einfache Möglichkeit, Dokumenteigenschaften zu verbessern, ohne die Benutzererfahrung zu beeinträchtigen.
+
+### Wo finde ich weitere Ressourcen und Unterstützung?
+
+- [API-Referenz](https://reference.groupdocs.com/signature/net/)
+- [Downloads](https://releases.groupdocs.com/signature/net/)
+- [Beispiele](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/tree/master/Examples)
+- [Dokumentation](https://docs.groupdocs.com/signature/net/)
+- [Produktseite](https://products.groupdocs.com/signature/net/)
+- [Der Blog](https://blog.groupdocs.com/categories/groupdocs.signature-product-family/)
+- [Support-Forum](https://forum.groupdocs.com/c/signature/13)
+- [Temporäre Lizenz](https://purchase.groupdocs.com/temporary-license/)

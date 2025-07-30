@@ -1,24 +1,29 @@
 ---
-title: Wyszukaj kod kreskowy
-linktitle: Wyszukaj kod kreskowy
-second_title: GroupDocs.Signature .NET API
-description: Dowiedz się, jak wyszukiwać podpisy kodów kreskowych w dokumentach za pomocą GroupDocs.Signature for .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku i skutecznie integruj podpis.
-weight: 10
-url: /pl/net/signature-searching/search-for-barcode/
+"description": "Dowiedz się, jak skutecznie wyszukiwać podpisy kodów kreskowych w dokumentach przy użyciu narzędzia GroupDocs.Signature dla platformy .NET, korzystając z naszego kompleksowego przewodnika krok po kroku i przykładów kodu."
+"linktitle": "Wyszukaj kod kreskowy"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Wyszukaj podpisy kodów kreskowych w dokumentach"
+"url": "/pl/net/signature-searching/search-for-barcode/"
+"weight": 10
 ---
 
-# Wyszukaj kod kreskowy
-
 ## Wstęp
-GroupDocs.Signature for .NET to potężne narzędzie do dodawania i weryfikowania podpisów cyfrowych w różnych formatach dokumentów przy użyciu aplikacji .NET. W tym samouczku skupimy się na wyszukiwaniu podpisów kodów kreskowych w dokumencie przy użyciu programu GroupDocs.Signature for .NET.
-## Warunki wstępne
-Przed rozpoczęciem upewnij się, że spełnione są następujące wymagania wstępne:
-1.  GroupDocs.Signature dla .NET: Upewnij się, że pobrałeś i zainstalowałeś GroupDocs.Signature dla .NET. Można go pobrać z[Tutaj](https://releases.groupdocs.com/signature/net/).
-2. Środowisko programistyczne: Przygotuj środowisko pracy do programowania .NET.
-3. Przykładowy dokument: Przygotuj przykładowy dokument zawierający podpisy z kodem kreskowym do celów testowych.
+
+W dzisiejszym cyfrowym środowisku zarządzania dokumentami, możliwość wyszukiwania i weryfikacji podpisów w dokumentach ma kluczowe znaczenie dla zachowania autentyczności i bezpieczeństwa. GroupDocs.Signature for .NET to potężne rozwiązanie do pracy z różnymi typami podpisów, w tym kodami kreskowymi, w różnych formatach dokumentów. Ten samouczek przeprowadzi Cię przez proces wdrażania funkcji wyszukiwania podpisów na podstawie kodów kreskowych w aplikacjach .NET za pomocą GroupDocs.Signature.
+
+## Wymagania wstępne
+
+Zanim rozpoczniesz korzystanie z tego samouczka, upewnij się, że spełnione są następujące wymagania wstępne:
+
+1. GroupDocs.Signature dla .NET: Pobierz i zainstaluj najnowszą wersję z [Tutaj](https://releases.groupdocs.com/signature/net/).
+2. Środowisko programistyczne: skonfiguruj działające środowisko programistyczne .NET (np. Visual Studio).
+3. Podstawowa wiedza z zakresu języka C#: Znajomość języka programowania C# i koncepcji .NET Framework.
+4. Przykładowe dokumenty: Przygotuj dokumenty zawierające podpisy z kodem kreskowym na potrzeby testowania.
 
 ## Importowanie przestrzeni nazw
-Zanim będziesz mógł użyć GroupDocs.Signature w swoim kodzie, musisz zaimportować niezbędne przestrzenie nazw:
+
+Aby rozpocząć wdrażanie funkcji wyszukiwania podpisów kodów kreskowych, należy zaimportować niezbędne przestrzenie nazw do kodu C#:
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -27,44 +32,143 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
+Teraz omówmy proces wyszukiwania podpisów kodów kreskowych na proste, łatwe do opanowania kroki wraz ze szczegółowymi wyjaśnieniami:
+
 ## Krok 1: Zdefiniuj ścieżkę dokumentu
-Najpierw określ ścieżkę do dokumentu zawierającego podpisy kodem kreskowym:
+
+Najpierw określ ścieżkę do dokumentu, w którym chcesz wyszukiwać podpisy kodów kreskowych:
+
 ```csharp
 string filePath = "sample_multiple_signatures.docx";
 ```
+
 ## Krok 2: Zainicjuj obiekt podpisu
- Utwórz instancję`Signature` class, przekazując ścieżkę dokumentu:
+
+Utwórz instancję `Signature` klasę, przekazując ścieżkę dokumentu. Używając `using` oświadczenie zapewnia właściwą utylizację zasobów:
+
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    // Tutaj będzie umieszczony kod wyszukiwania podpisów
-}
-```
-## Krok 3: Wyszukaj podpisy kodów kreskowych
-Wyszukaj podpisy kodów kreskowych w dokumencie:
-```csharp
-List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(SignatureType.Barcode);
-```
-## Krok 4: Wyświetl wyniki
-Iteruj znalezione podpisy kodów kreskowych i wyświetl ich szczegóły:
-```csharp
-Console.WriteLine($"\nSource document ['{filePath}'] contains the following signatures.");
-foreach (var barcodeSignature in signatures)
-{
-    Console.WriteLine($"Barcode signature found at page {barcodeSignature.PageNumber} with type {barcodeSignature.EncodeType.TypeName} and text {barcodeSignature.Text}");
+    // Kod do wyszukiwania podpisów będzie tutaj
 }
 ```
 
+## Krok 3: Wyszukaj podpisy kodów kreskowych
+
+Teraz wyszukaj podpisy kodów kreskowych w dokumencie, dzwoniąc pod numer `Search` metodę i określenie typu podpisu jako `BarcodeSignature`:
+
+```csharp
+List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(SignatureType.Barcode);
+```
+
+## Krok 4: Wyświetl wyniki
+
+Przejrzyj znalezione podpisy kodów kreskowych i wyświetl ich szczegóły:
+
+```csharp
+Console.WriteLine($"\nSource document ['{filePath}'] contains the following barcode signatures:");
+foreach (var barcodeSignature in signatures)
+{
+    Console.WriteLine($"Barcode signature found at page {barcodeSignature.PageNumber} with type {barcodeSignature.EncodeType.TypeName} and text '{barcodeSignature.Text}'");
+}
+```
+
+## Kompleksowy przykład
+
+Oto kompletny przykład działania łączący wszystkie kroki:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using GroupDocs.Signature;
+using GroupDocs.Signature.Domain;
+using GroupDocs.Signature.Options;
+
+namespace BarcodeSignatureSearch
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Ścieżka dokumentu
+            string filePath = "sample_multiple_signatures.docx";
+            
+            // Zainicjuj instancję podpisu
+            using (Signature signature = new Signature(filePath))
+            {
+                // Wyszukaj podpisy kodów kreskowych w dokumencie
+                List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(SignatureType.Barcode);
+                
+                // Wyświetl wyniki wyszukiwania
+                Console.WriteLine($"\nSource document ['{filePath}'] contains the following barcode signatures:");
+                foreach (var barcodeSignature in signatures)
+                {
+                    Console.WriteLine($"Barcode signature found at page {barcodeSignature.PageNumber} with type {barcodeSignature.EncodeType.TypeName} and text '{barcodeSignature.Text}'");
+                }
+            }
+        }
+    }
+}
+```
+
+## Zaawansowane opcje wyszukiwania
+
+Aby uzyskać dokładniejsze wyszukiwanie podpisów kodów kreskowych, możesz użyć `BarcodeSearchOptions` aby dostosować kryteria wyszukiwania:
+
+```csharp
+// Utwórz opcje wyszukiwania
+BarcodeSearchOptions options = new BarcodeSearchOptions
+{
+    // Szukaj na wszystkich stronach
+    AllPages = true,
+    
+    // Podaj tekst do dopasowania
+    Text = "Invoice",
+    
+    // Określ typ dopasowania (Zawiera, Dokładne, Zaczyna się od, Kończy się na)
+    MatchType = TextMatchType.Contains,
+    
+    // Określ konkretne typy kodów kreskowych, których chcesz szukać
+    EncodeType = BarcodeTypes.Code128
+};
+
+// Szukaj z konkretnymi opcjami
+List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
+```
+
 ## Wniosek
-W tym samouczku dowiedzieliśmy się, jak wyszukiwać podpisy kodów kreskowych w dokumencie za pomocą programu GroupDocs.Signature for .NET. Postępując zgodnie z przewodnikiem krok po kroku i korzystając z dostarczonych przykładów kodu, można skutecznie zintegrować funkcję wyszukiwania podpisów z aplikacjami .NET.
-### Często zadawane pytania
+
+tym samouczku pokażemy, jak wyszukiwać podpisy kodów kreskowych w dokumentach za pomocą GroupDocs.Signature dla platformy .NET. Postępując zgodnie z instrukcją krok po kroku i korzystając z podanych przykładów kodu, można łatwo zintegrować tę funkcjonalność z aplikacjami .NET, zwiększając bezpieczeństwo dokumentów i procesy weryfikacji. GroupDocs.Signature zapewnia solidne środowisko do pracy z różnymi typami podpisów, co czyni je doskonałym wyborem dla systemów zarządzania dokumentami, w których autentyczność i integralność są priorytetem.
+
+## Najczęściej zadawane pytania
+
 ### Czy GroupDocs.Signature może wyszukiwać wiele typów podpisów jednocześnie?
-Tak, GroupDocs.Signature obsługuje wyszukiwanie wielu typów podpisów, w tym podpisów z kodem kreskowym, podpisów tekstowych i innych.
-### Czy dostępna jest wersja próbna programu GroupDocs.Signature for .NET?
- Tak, możesz uzyskać dostęp do wersji próbnej z[Tutaj](https://releases.groupdocs.com/).
-### Czy mogę używać GroupDocs.Signature for .NET z dowolnym formatem dokumentu?
-GroupDocs.Signature obsługuje szeroką gamę formatów dokumentów, w tym PDF, Word, Excel i PowerPoint.
-### Jak mogę uzyskać tymczasową licencję na GroupDocs.Signature dla .NET?
- Licencję tymczasową można uzyskać od[Tutaj](https://purchase.groupdocs.com/temporary-license/).
-### Gdzie mogę znaleźć pomoc dotyczącą GroupDocs.Signature dla .NET?
-Pomoc i pytania można znaleźć na forum GroupDocs.Signature[Tutaj](https://forum.groupdocs.com/c/signature/13).
+
+Tak, GroupDocs.Signature może wyszukiwać wiele typów podpisów (kod kreskowy, kod QR, tekst, podpisy cyfrowe itp.) w jednej operacji za pomocą `Search` metoda z listą różnych opcji wyszukiwania.
+
+### Które formaty dokumentów są obsługiwane w przypadku wyszukiwania podpisów na podstawie kodów kreskowych?
+
+GroupDocs.Signature obsługuje szeroką gamę formatów dokumentów, w tym PDF, Word (DOC, DOCX), Excel (XLS, XLSX), PowerPoint (PPT, PPTX), obrazy i wiele innych.
+
+### Czy mogę dostosować kryteria wyszukiwania kodów kreskowych?
+
+Tak, możesz dostosować kryteria wyszukiwania za pomocą `BarcodeSearchOptions` aby określić parametry, takie jak tekst do dopasowania, typ dopasowania, konkretne typy kodów kreskowych oraz czy przeszukiwać wszystkie strony czy tylko wybrane.
+
+### Czy istnieje ograniczenie liczby wykrywanych kodów kreskowych?
+
+Nie ma konkretnego limitu liczby wykrywanych podpisów kodów kreskowych. GroupDocs.Signature znajdzie wszystkie podpisy kodów kreskowych, które spełniają Twoje kryteria wyszukiwania.
+
+### Czy mogę wyszukiwać podpisy na podstawie kodów kreskowych w dokumentach chronionych hasłem?
+
+Tak, GroupDocs.Signature umożliwia wyszukiwanie podpisów kodów kreskowych w dokumentach chronionych hasłem poprzez podanie hasła podczas inicjalizacji. `Signature` obiekt.
+
+## Zobacz także
+
+* [Odniesienie do API](https://reference.groupdocs.com/signature/net/)
+* [Przykłady kodu](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/tree/master/Examples)
+* [Dokumentacja produktu](https://docs.groupdocs.com/signature/net/)
+* [Strona produktu](https://products.groupdocs.com/signature/net/)
+* [Artykuły blogowe](https://blog.groupdocs.com/categories/groupdocs.signature-product-family/)
+* [Bezpłatne forum wsparcia](https://forum.groupdocs.com/c/signature/13)
+* [Licencja tymczasowa](https://purchase.groupdocs.com/temporary-license/)
+* [Pobierz najnowszą wersję](https://releases.groupdocs.com/signature/net/)

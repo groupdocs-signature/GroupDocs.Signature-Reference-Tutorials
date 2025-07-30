@@ -1,23 +1,31 @@
 ---
-title: ลงนามสเปรดชีตด้วยข้อมูลเมตา
-linktitle: ลงนามสเปรดชีตด้วยข้อมูลเมตา
-second_title: GroupDocs.Signature .NET API
-description: เรียนรู้วิธีลงนามสเปรดชีตด้วยข้อมูลเมตาโดยใช้ Groupdocs.Signature สำหรับ .NET ปรับปรุงความสมบูรณ์ของเอกสารและการตรวจสอบด้วยลายเซ็นเมตาดาต้า
-weight: 13
-url: /th/net/document-signing/sign-spreadsheet-with-metadata/
+"description": "ปกป้องและปรับปรุงสเปรดชีต Excel ด้วยการฝังลายเซ็นเมตาดาต้าโดยใช้ GroupDocs.Signature สำหรับ .NET เพิ่มข้อมูลผู้เขียน ประทับเวลา และข้อมูลที่กำหนดเองเพื่อปรับปรุงการตรวจสอบย้อนกลับและความถูกต้องของเอกสาร"
+"linktitle": "ลงนามในสเปรดชีตพร้อมข้อมูลเมตา"
+"second_title": "API ของ GroupDocs.Signature .NET"
+"title": "เพิ่มลายเซ็นข้อมูลเมตาลงในสเปรดชีต Excel ใน C# .NET"
+"url": "/th/net/document-signing/sign-spreadsheet-with-metadata/"
+"weight": 13
 ---
 
-# ลงนามสเปรดชีตด้วยข้อมูลเมตา
-
 ## การแนะนำ
-ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการลงนามสเปรดชีตด้วยข้อมูลเมตาโดยใช้ Groupdocs.Signature สำหรับ .NET การลงนามข้อมูลเมตาทำให้คุณสามารถฝังข้อมูลเพิ่มเติมลงในเอกสารของคุณ โดยให้บริบทหรือการยืนยัน เมื่อสิ้นสุดคู่มือนี้ คุณจะสามารถใช้ลายเซ็นข้อมูลเมตากับสเปรดชีตของคุณได้อย่างง่ายดาย
+
+สเปรดชีต Excel มักประกอบด้วยข้อมูลทางธุรกิจที่สำคัญ ข้อมูลทางการเงิน และการคำนวณที่สำคัญ การตรวจสอบความถูกต้อง การติดตามแหล่งที่มา และการปกป้องความสมบูรณ์ของข้อมูลเป็นสิ่งสำคัญอย่างยิ่งในสภาพแวดล้อมการทำงานที่หลากหลาย แนวทางหนึ่งที่มีประสิทธิภาพในการเพิ่มความปลอดภัยและความสามารถในการตรวจสอบย้อนกลับของสเปรดชีตคือการฝังลายเซ็นเมตาเดตา
+
+บทช่วยสอนที่ครอบคลุมนี้จะแนะนำคุณตลอดกระบวนการลงนามในสเปรดชีต Excel ด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ .NET การเพิ่มลายเซ็นข้อมูลเมตาช่วยให้คุณสามารถฝังข้อมูลสำคัญ เช่น รายละเอียดผู้เขียน ตราประทับเวลาที่สร้าง รหัสประจำตัวเอกสาร และคุณสมบัติแบบกำหนดเองอื่นๆ ลงในโครงสร้างไฟล์สเปรดชีตได้โดยตรง
+
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
-1.  Groupdocs.Signature สำหรับ .NET: ติดตั้งไลบรารี Groupdocs.Signature สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.groupdocs.com/signature/net/).
-2. สภาพแวดล้อม .NET: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อม .NET บนระบบของคุณแล้ว
-3. เอกสารสเปรดชีต: เตรียมเอกสารสเปรดชีตตัวอย่างที่คุณต้องการเซ็นชื่อด้วยเมตาดาต้าให้พร้อม
+
+ก่อนที่จะดำเนินการตามบทช่วยสอนนี้ โปรดแน่ใจว่าคุณมีสิ่งต่อไปนี้:
+
+1. [GroupDocs.Signature สำหรับ .NET](https://releases.groupdocs.com/signature/net/) - ดาวน์โหลดและติดตั้งไลบรารี
+2. สภาพแวดล้อมการพัฒนา - Visual Studio หรือ IDE อื่นๆ ที่เข้ากันได้กับ .NET
+3. Excel Spreadsheet - ไฟล์ตัวอย่างสเปรดชีต (XLSX, XLS เป็นต้น)
+4. ความรู้พื้นฐานเกี่ยวกับ C# - ความคุ้นเคยกับภาษาการเขียนโปรแกรม C#
+
 ## นำเข้าเนมสเปซ
-ก่อนที่จะใช้โค้ด ให้นำเข้าเนมสเปซที่จำเป็นเพื่อเข้าถึงคลาสและวิธีการที่จำเป็น:
+
+เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นเพื่อเข้าถึงฟังก์ชันการทำงานของ GroupDocs.Signature:
+
 ```csharp
 using System;
 using System.IO;
@@ -25,50 +33,218 @@ using GroupDocs.Signature;
 using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
-ตอนนี้ เรามาแบ่งโค้ดตัวอย่างออกเป็นหลายขั้นตอนเพื่อความเข้าใจที่ชัดเจนยิ่งขึ้น:
-## ขั้นตอนที่ 1: โหลดเอกสารสเปรดชีต
+
+## ขั้นตอนที่ 1: ตั้งค่าเส้นทางไฟล์
+
+กำหนดเส้นทางสำหรับสเปรดชีตแหล่งที่มาของคุณและตำแหน่งที่จะบันทึกเอาต์พุตที่ลงนาม:
+
 ```csharp
+// ระบุเส้นทางไปยังไฟล์ Excel ของคุณ
 string filePath = "sample.xlsx";
-string outputFilePath = Path.Combine("Your Document Directory", "SignSpreadsheetWithMetadata", "SignedWithMetadata.xlsx");
+
+// กำหนดไดเรกทอรีเอาต์พุตและชื่อไฟล์สำหรับสเปรดชีตที่ลงนาม
+string outputDirectory = "Your Document Directory";
+string outputFilePath = Path.Combine(outputDirectory, "SignSpreadsheetWithMetadata", "SignedWithMetadata.xlsx");
+
+// ตรวจสอบให้แน่ใจว่ามีไดเร็กทอรีเอาท์พุตอยู่
+Directory.CreateDirectory(Path.GetDirectoryName(outputFilePath));
+```
+
+## ขั้นตอนที่ 2: เริ่มต้นวัตถุลายเซ็น
+
+สร้างอินสแตนซ์ของคลาส Signature ด้วยไฟล์สเปรดชีตต้นฉบับของคุณ:
+
+```csharp
 using (Signature signature = new Signature(filePath))
 {
-```
-## ขั้นตอนที่ 2: กำหนดตัวเลือกเครื่องหมายข้อมูลเมตา
-```csharp
-	// สร้างตัวเลือก Metadata ด้วยข้อความ Metadata ที่กำหนดไว้ล่วงหน้า
-	MetadataSignOptions options = new MetadataSignOptions();
-```
-## ขั้นตอนที่ 3: สร้างลายเซ็นข้อมูลเมตา
-```csharp
-	// สร้างลายเซ็นข้อมูลเมตาของสเปรดชีตไม่กี่รายการ
-	SpreadsheetMetadataSignature[] signatures = new SpreadsheetMetadataSignature[]
-	{
-		new SpreadsheetMetadataSignature("Author", "Mr.Scherlock Holmes"), // ค่าสตริง
-		new SpreadsheetMetadataSignature("CreatedOn", DateTime.Now), // ค่าวันที่และเวลา
-		new SpreadsheetMetadataSignature("DocumentId", 123456), // ค่าจำนวนเต็ม
-		new SpreadsheetMetadataSignature("SignatureId", 123.456D), // ค่าสองเท่า
-		new SpreadsheetMetadataSignature("Amount", 123.456M), // ค่าทศนิยม
-		new SpreadsheetMetadataSignature("Total", 123.456F) // มูลค่าลอยตัว
-	};
-	options.Signatures.AddRange(signatures);
-```
-## ขั้นตอนที่ 4: ลงนามในเอกสาร
-```csharp
-	// ลงนามในเอกสารเพื่อยื่น
-	SignResult result = signature.Sign(outputFilePath, options);
-	Console.WriteLine($"\nSource document signed successfully with {result.Succeeded.Count} signature(s).\nFile saved at {outputFilePath}.");
+    // ส่วนที่เหลือของโค้ดจะอยู่ที่นี่
 }
 ```
+
+## ขั้นตอนที่ 3: สร้างและกำหนดค่าลายเซ็นข้อมูลเมตา
+
+ขั้นตอนต่อไป กำหนดตัวเลือกเมตาข้อมูลและสร้างอาร์เรย์ของลายเซ็นเมตาข้อมูลของสเปรดชีต:
+
+```csharp
+// สร้างวัตถุตัวเลือกเมตาข้อมูล
+MetadataSignOptions options = new MetadataSignOptions();
+
+// สร้างอาร์เรย์ของลายเซ็นข้อมูลเมตาของสเปรดชีตที่มีประเภทข้อมูลที่แตกต่างกัน
+SpreadsheetMetadataSignature[] signatures = new SpreadsheetMetadataSignature[]
+{
+    new SpreadsheetMetadataSignature("Author", "Mr.Sherlock Holmes"), // ค่าสตริง
+    new SpreadsheetMetadataSignature("CreatedOn", DateTime.Now),      // ค่าวันที่และเวลา
+    new SpreadsheetMetadataSignature("DocumentId", 123456),           // ค่าจำนวนเต็ม
+    new SpreadsheetMetadataSignature("SignatureId", 123.456D),        // ค่าสองเท่า
+    new SpreadsheetMetadataSignature("Amount", 123.456M),             // ค่าทศนิยม
+    new SpreadsheetMetadataSignature("Total", 123.456F)               // ค่าลอยตัว
+};
+
+// เพิ่มคอลเลกชันลายเซ็นให้กับตัวเลือก
+options.Signatures.AddRange(signatures);
+```
+
+## ขั้นตอนที่ 4: ลงนามในสเปรดชีตด้วยข้อมูลเมตา
+
+ใช้ลายเซ็นข้อมูลเมตาลงในสเปรดชีตและบันทึกผลลัพธ์:
+
+```csharp
+// ลงนามในเอกสารและบันทึกลงในเส้นทางไฟล์เอาต์พุต
+SignResult result = signature.Sign(outputFilePath, options);
+
+// แสดงข้อความแสดงความสำเร็จ
+Console.WriteLine($"\nSource spreadsheet signed successfully with {result.Succeeded.Count} metadata signature(s).");
+Console.WriteLine($"Signed spreadsheet saved at: {outputFilePath}");
+```
+
+## ตัวอย่างที่สมบูรณ์
+
+นี่คือตัวอย่างโค้ดที่สมบูรณ์ซึ่งรวบรวมขั้นตอนทั้งหมดเข้าด้วยกัน:
+
+```csharp
+using System;
+using System.IO;
+using GroupDocs.Signature;
+using GroupDocs.Signature.Domain;
+using GroupDocs.Signature.Options;
+
+namespace SignSpreadsheetWithMetadataExample
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // ระบุเส้นทางไฟล์
+            string filePath = "sample.xlsx";
+            string outputFilePath = Path.Combine("Your Document Directory", "SignSpreadsheetWithMetadata", "SignedWithMetadata.xlsx");
+            
+            // ตรวจสอบให้แน่ใจว่ามีไดเร็กทอรีเอาท์พุตอยู่
+            Directory.CreateDirectory(Path.GetDirectoryName(outputFilePath));
+
+            // ลงนามในสเปรดชีตด้วยข้อมูลเมตา
+            using (Signature signature = new Signature(filePath))
+            {
+                // สร้างวัตถุตัวเลือกเมตาข้อมูล
+                MetadataSignOptions options = new MetadataSignOptions();
+                
+                // สร้างอาร์เรย์ของลายเซ็นข้อมูลเมตาของสเปรดชีตที่มีประเภทข้อมูลที่แตกต่างกัน
+                SpreadsheetMetadataSignature[] signatures = new SpreadsheetMetadataSignature[]
+                {
+                    new SpreadsheetMetadataSignature("Author", "Mr.Sherlock Holmes"), // ค่าสตริง
+                    new SpreadsheetMetadataSignature("CreatedOn", DateTime.Now),      // ค่าวันที่และเวลา
+                    new SpreadsheetMetadataSignature("DocumentId", 123456),           // ค่าจำนวนเต็ม
+                    new SpreadsheetMetadataSignature("SignatureId", 123.456D),        // ค่าสองเท่า
+                    new SpreadsheetMetadataSignature("Amount", 123.456M),             // ค่าทศนิยม
+                    new SpreadsheetMetadataSignature("Total", 123.456F)               // ค่าลอยตัว
+                };
+                
+                // เพิ่มคอลเลกชันลายเซ็นให้กับตัวเลือก
+                options.Signatures.AddRange(signatures);
+                
+                // ลงนามเอกสารและบันทึกลงในไฟล์
+                SignResult result = signature.Sign(outputFilePath, options);
+                
+                // แสดงผลลัพธ์
+                Console.WriteLine($"\nSource spreadsheet signed successfully with {result.Succeeded.Count} signature(s).");
+                Console.WriteLine($"File saved at {outputFilePath}.");
+            }
+        }
+    }
+}
+```
+
+## เทคนิคเมตาดาต้าสเปรดชีตขั้นสูง
+
+### การทำงานกับคุณสมบัติสเปรดชีตแบบกำหนดเองและแบบในตัว
+
+สเปรดชีต Excel มีทั้งคุณสมบัติในตัวและคุณสมบัติแบบกำหนดเอง ซึ่งสามารถเข้าถึงได้ผ่านกล่องโต้ตอบคุณสมบัติไฟล์ GroupDocs.Signature ช่วยให้คุณทำงานกับทั้งสองอย่าง:
+
+```csharp
+// เพิ่มคุณสมบัติในตัว
+signatures = new SpreadsheetMetadataSignature[]
+{
+    new SpreadsheetMetadataSignature("Company", "Sherlock Holmes Consulting"),
+    new SpreadsheetMetadataSignature("Category", "Financial"),
+    new SpreadsheetMetadataSignature("Keywords", "budget,forecast,analysis"),
+    new SpreadsheetMetadataSignature("Comments", "This spreadsheet contains confidential information"),
+    new SpreadsheetMetadataSignature("Manager", "John Watson")
+};
+options.Signatures.AddRange(signatures);
+
+// เพิ่มคุณสมบัติที่กำหนดเอง
+options.Signatures.Add(new SpreadsheetMetadataSignature("Department", "Finance"));
+options.Signatures.Add(new SpreadsheetMetadataSignature("SecurityLevel", "Confidential"));
+```
+
+### การค้นหาข้อมูลเมตาในสเปรดชีตที่ลงนาม
+
+หลังจากลงนามแล้ว คุณอาจต้องการตรวจสอบหรือแยกข้อมูลเมตา:
+
+```csharp
+// สร้างตัวเลือกการค้นหาสำหรับข้อมูลเมตา
+MetadataSearchOptions searchOptions = new MetadataSearchOptions();
+
+// ค้นหาลายเซ็นข้อมูลเมตา
+SearchResult searchResult = signature.Search(searchOptions);
+
+// แสดงลายเซ็นที่พบ
+Console.WriteLine($"Found {searchResult.Signatures.Count} metadata signatures:");
+foreach (var foundSignature in searchResult.Signatures)
+{
+    MetadataSignature metadataSignature = foundSignature as MetadataSignature;
+    if (metadataSignature != null)
+    {
+        Console.WriteLine($"- {metadataSignature.Name}: {metadataSignature.Value} ({metadataSignature.Value.GetType().Name})");
+    }
+}
+```
+
+### การอัปเดตข้อมูลเมตาที่มีอยู่
+
+คุณสามารถอัปเดตข้อมูลเมตาที่มีอยู่ในสเปรดชีตได้โดยใช้ชื่อคุณสมบัติเดียวกัน:
+
+```csharp
+// อัปเดตข้อมูลเมตาที่มีอยู่
+options.Signatures.Add(new SpreadsheetMetadataSignature("Author", "Updated Author Name"));
+```
+
 ## บทสรุป
-ยินดีด้วย! คุณได้เรียนรู้วิธีลงนามในสเปรดชีตด้วยข้อมูลเมตาโดยใช้ Groupdocs.Signature สำหรับ .NET การลงนามข้อมูลเมตาช่วยเพิ่มความสมบูรณ์ของเอกสารและให้ข้อมูลเพิ่มเติมเพื่อวัตถุประสงค์ในการตรวจสอบ เริ่มใช้ลายเซ็นข้อมูลเมตากับสเปรดชีตของคุณวันนี้ และรับรองความถูกต้องและบริบทของเอกสารของคุณ
+
+ในบทช่วยสอนที่ครอบคลุมนี้ คุณจะได้เรียนรู้วิธีการลงนามในสเปรดชีต Excel ด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ .NET การฝังข้อมูลเมตาลงในไฟล์สเปรดชีตช่วยเพิ่มความสามารถในการติดตามเอกสาร ให้บริบทที่มีคุณค่า และช่วยยืนยันความถูกต้อง
+
+ลายเซ็นเมตาดาต้าในสเปรดชีตมีประโยชน์อย่างยิ่งในสภาพแวดล้อมทางธุรกิจที่แหล่งที่มาของเอกสาร ผู้เขียน และการติดตามเวอร์ชันมีความสำคัญ เมตาดาต้าที่ฝังไว้สามารถประกอบด้วยข้อมูลเกี่ยวกับผู้เขียน เวลาที่สร้าง รหัสประจำตัวเอกสาร และคุณสมบัติแบบกำหนดเองที่เกี่ยวข้องกับความต้องการขององค์กรของคุณ
+
+การนำลายเซ็นเมตาข้อมูลมาใช้กับ GroupDocs.Signature จะช่วยให้คุณมั่นใจได้ว่าสเปรดชีต Excel ของคุณยังคงความสมบูรณ์และให้ข้อมูลที่ตรวจสอบได้ตลอดวงจรชีวิต
+
 ## คำถามที่พบบ่อย
-### การลงนามข้อมูลเมตาคืออะไร
-การลงนามข้อมูลเมตาเกี่ยวข้องกับการฝังข้อมูลเพิ่มเติม เช่น ชื่อผู้เขียน วันที่สร้าง หรือ ID เอกสาร ลงในเอกสารเพื่อวัตถุประสงค์ในการตรวจสอบ
-### ฉันสามารถปรับแต่งลายเซ็นข้อมูลเมตาได้หรือไม่
-ใช่ คุณสามารถปรับแต่งลายเซ็นเมตาดาต้าได้ตามความต้องการของคุณ รวมถึงข้อความ วันที่ จำนวนเต็ม สองเท่า ทศนิยม และทศนิยม
-### Groupdocs.Signature สำหรับ .NET เข้ากันได้กับรูปแบบเอกสารอื่นๆ หรือไม่
-ใช่ Groupdocs.Signature สำหรับ .NET รองรับรูปแบบเอกสารที่หลากหลาย รวมถึงสเปรดชีต การนำเสนอ PDF และอื่นๆ
-### ฉันจะตรวจสอบลายเซ็นข้อมูลเมตาได้อย่างไร
-คุณสามารถตรวจสอบลายเซ็นข้อมูลเมตาได้โดยใช้ Groupdocs.Signature หรือซอฟต์แวร์อื่นๆ ที่เข้ากันได้ซึ่งรองรับการแยกข้อมูลเมตา
-### ฉันสามารถใช้ลายเซ็นข้อมูลเมตาโดยทางโปรแกรมได้หรือไม่
-ได้ คุณสามารถใช้ลายเซ็นข้อมูลเมตาโดยทางโปรแกรมโดยใช้ไลบรารี Groupdocs.Signature สำหรับ .NET ภายในแอปพลิเคชัน .NET ของคุณ
+
+### ฉันสามารถเพิ่มข้อมูลเมตาลงในสเปรดชีตที่มีคุณสมบัติบางอย่างที่กำหนดไว้แล้วได้หรือไม่
+
+ใช่ คุณสามารถเพิ่มเมตาดาต้าใหม่หรืออัปเดตเมตาดาต้าที่มีอยู่ในสเปรดชีตได้ GroupDocs.Signature จะจัดการการผสานรวม ไม่ว่าจะโดยการเพิ่มคุณสมบัติใหม่หรืออัปเดตคุณสมบัติที่มีอยู่แล้วด้วยชื่อเดียวกัน
+
+### รูปแบบสเปรดชีตใดบ้างที่รองรับการลงนามเมตาเดตา?
+
+GroupDocs.Signature สำหรับ .NET รองรับการลงนามเมตาดาต้าสำหรับรูปแบบสเปรดชีตต่างๆ รวมถึง XLSX, XLS, XLSM, ODS และอื่นๆ สำหรับรายการทั้งหมด โปรดดูที่ [เอกสารอย่างเป็นทางการ](https://docs-groupdocs.com/signature/net/).
+
+### ลายเซ็นเมตาข้อมูลในสเปรดชีตจะมองเห็นได้โดยผู้ใช้หรือไม่
+
+ลายเซ็นเมตาดาต้าจะไม่ปรากฏในเนื้อหาของสเปรดชีต อย่างไรก็ตาม สามารถดูได้ผ่านแผงคุณสมบัติเอกสารใน Excel หรือแอปพลิเคชันอื่นๆ ที่เข้ากันได้
+
+### ฉันสามารถตรวจสอบด้วยโปรแกรมได้หรือไม่ว่าสเปรดชีตถูกเปลี่ยนแปลงหรือไม่หลังจากเพิ่มข้อมูลเมตาแล้ว
+
+ใช่ GroupDocs.Signature มีความสามารถในการตรวจสอบที่ช่วยตรวจจับว่าเอกสารได้รับการแก้ไขหรือไม่หลังจากการลงนาม รวมถึงการเปลี่ยนแปลงข้อมูลเมตา
+
+### การเพิ่มข้อมูลเมตาจะส่งผลต่อการทำงานของสเปรดชีตหรือไม่
+
+การเพิ่มเมตาดาต้ามีผลกระทบต่อขนาดไฟล์เพียงเล็กน้อยและไม่มีผลกระทบต่อฟังก์ชันการทำงานของสเปรดชีต เป็นวิธีง่ายๆ ในการปรับปรุงคุณสมบัติของเอกสารโดยไม่กระทบต่อการคำนวณ สูตร หรือฟีเจอร์อื่นๆ ของ Excel
+
+### ฉันสามารถหาทรัพยากรและการสนับสนุนเพิ่มเติมได้ที่ไหน
+
+- [ข้อมูลอ้างอิง API](https://reference.groupdocs.com/signature/net/)
+- [ดาวน์โหลด](https://releases.groupdocs.com/signature/net/)
+- [ตัวอย่าง](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/tree/master/Examples)
+- [เอกสารประกอบ](https://docs.groupdocs.com/signature/net/)
+- [หน้าผลิตภัณฑ์](https://products.groupdocs.com/signature/net/)
+- [บล็อก](https://blog.groupdocs.com/categories/groupdocs.signature-product-family/)
+- [ฟอรั่มสนับสนุน](https://forum.groupdocs.com/c/signature/13)
+- [ใบอนุญาตชั่วคราว](https://purchase.groupdocs.com/temporary-license/)

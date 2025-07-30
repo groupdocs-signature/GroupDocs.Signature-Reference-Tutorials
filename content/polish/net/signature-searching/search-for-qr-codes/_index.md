@@ -1,28 +1,33 @@
 ---
-title: Wyszukaj kody QR
-linktitle: Wyszukaj kody QR
-second_title: GroupDocs.Signature .NET API
-description: Dowiedz się, jak wyszukiwać kody QR w dokumentach za pomocą GroupDocs.Signature dla .NET. Zwiększ bezpieczeństwo dokumentów bez wysiłku.
-weight: 15
-url: /pl/net/signature-searching/search-for-qr-codes/
+"description": "Dowiedz się, jak skutecznie wyszukiwać kody QR w dokumentach przy użyciu GroupDocs.Signature dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku i przykładom kodu."
+"linktitle": "Wyszukaj kody QR"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Wyszukaj podpisy w postaci kodu QR w dokumentach"
+"url": "/pl/net/signature-searching/search-for-qr-codes/"
+"weight": 15
 ---
-
-# Wyszukaj kody QR
 
 ## Wstęp
 
-W epoce cyfrowej zapewnienie autentyczności i integralności dokumentów jest sprawą najwyższej wagi. GroupDocs.Signature dla .NET umożliwia programistom bezproblemową integrację zaawansowanych funkcji podpisów z aplikacjami .NET. Ten obszerny przewodnik przeprowadzi Cię przez proces wykorzystania GroupDocs.Signature for .NET do wyszukiwania kodów QR w dokumentach. Na koniec będziesz mieć solidną wiedzę, jak wykorzystać to potężne narzędzie do zwiększenia bezpieczeństwa i wydajności dokumentów.
+W dzisiejszym ekosystemie dokumentów cyfrowych podpisy kodami QR stały się nieocenionym narzędziem do osadzania informacji, uwierzytelniania i zwiększania bezpieczeństwa dokumentów. GroupDocs.Signature for .NET oferuje programistom zaawansowane API do wyszukiwania i wyodrębniania kodów QR z różnych formatów dokumentów, umożliwiając zaawansowaną analizę i weryfikację dokumentów w aplikacjach .NET.
 
-## Warunki wstępne
+Ten kompleksowy samouczek przeprowadzi Cię przez proces wdrażania funkcji wyszukiwania kodów QR przy użyciu GroupDocs.Signature dla .NET, zapewniając przejrzyste wyjaśnienia, instrukcje krok po kroku i praktyczne przykłady kodu, które możesz zintegrować we własnych aplikacjach.
 
-Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
+## Wymagania wstępne
 
-1.  GroupDocs.Signature for .NET SDK: Pobierz i zainstaluj zestaw SDK z[strona pobierania](https://releases.groupdocs.com/signature/net/).
+Zanim zaczniesz szukać podpisów za pomocą kodu QR, upewnij się, że spełniasz następujące wymagania wstępne:
+
+1. GroupDocs.Signature dla .NET SDK: Pobierz i zainstaluj SDK z [strona pobierania](https://releases.groupdocs.com/signature/net/).
+
 2. Środowisko programistyczne: skonfiguruj środowisko programistyczne .NET, takie jak Visual Studio, z zainstalowanym .NET Framework lub .NET Core.
+
+3. Wiedza podstawowa: Znajomość programowania w języku C# i koncepcji rozwoju .NET.
+
+4. Przykładowe dokumenty: Przygotuj dokumenty testowe zawierające kody QR do weryfikacji i testowania.
 
 ## Importuj przestrzenie nazw
 
-Aby rozpocząć, zaimportuj niezbędne przestrzenie nazw do swojego projektu:
+Zacznij od zaimportowania niezbędnych przestrzeni nazw, aby uzyskać dostęp do funkcjonalności GroupDocs.Signature:
 
 ```csharp
 using GroupDocs.Signature;
@@ -32,63 +37,292 @@ using System;
 using System.Collections.Generic;
 ```
 
-Podzielmy przykład na wiele kroków:
+Teraz omówmy proces wyszukiwania kodów QR na jasne i łatwe do wykonania kroki:
 
-## Krok 1: Zdefiniuj ścieżkę pliku
+## Krok 1: Zdefiniuj ścieżkę dokumentu
+
+Najpierw określ ścieżkę do dokumentu zawierającego kody QR, które chcesz przeszukać:
 
 ```csharp
 string filePath = "sample_multiple_signatures.docx";
 ```
 
-W tym kroku określamy ścieżkę pliku dokumentu zawierającego kody QR, które chcesz wyszukać. Upewnij się, że ścieżka pliku jest poprawna i dostępna w aplikacji.
-
 ## Krok 2: Zainicjuj obiekt podpisu
+
+Utwórz instancję `Signature` klasę przekazując ścieżkę dokumentu:
 
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    // Twój kod tutaj
+    // Tutaj zostanie dodany kod wyszukiwania kodu QR
 }
 ```
 
- Tutaj inicjujemy a`Signature` obiekt, przekazując jako parametr ścieżkę pliku dokumentu. The`using` oświadczenie zapewnia właściwą utylizację zasobów po ich użyciu.
+## Krok 3: Wyszukaj podpisy w postaci kodu QR
 
-## Krok 3: Wyszukaj podpisy
+Użyj `Search` metoda z odpowiednim typem podpisu do znajdowania kodów QR w dokumencie:
 
 ```csharp
+// Wyszukaj podpisy w postaci kodu QR w dokumencie
 List<QrCodeSignature> signatures = signature.Search<QrCodeSignature>(SignatureType.QrCode);
 ```
 
- Ten krok polega na wyszukiwaniu podpisów kodów QR w dokumencie za pomocą`Search` metoda`Signature` obiekt. Typ podpisu określamy jako`QrCodeSignature` i pobierz wyniki na liście.
+## Krok 4: Przetwarzanie i wyświetlanie wyników
 
-## Krok 4: Iteruj po wynikach
+Przejrzyj znalezione podpisy kodów QR i uzyskaj dostęp do ich właściwości:
 
 ```csharp
+// Wyświetl informacje o znalezionych kodach QR
+Console.WriteLine($"\nSource document contains {signatures.Count} QR code signature(s):");
+
 foreach (var qrCodeSignature in signatures)
 {
-    Console.WriteLine($"QRCode signature found at page {qrCodeSignature.PageNumber} with type {qrCodeSignature.EncodeType.TypeName} and text {qrCodeSignature.Text}");
+    Console.WriteLine($"QR Code found at page {qrCodeSignature.PageNumber} with type {qrCodeSignature.EncodeType.TypeName}");
+    Console.WriteLine($"Content: {qrCodeSignature.Text}");
+    Console.WriteLine($"Location: X={qrCodeSignature.Left}, Y={qrCodeSignature.Top}, Width={qrCodeSignature.Width}, Height={qrCodeSignature.Height}");
+    Console.WriteLine();
 }
 ```
 
-W tym ostatnim kroku przeglądamy listę podpisów kodów QR znajdujących się w dokumencie. Dla każdego znalezionego podpisu drukujemy odpowiednie informacje, takie jak numer strony, typ kodowania i tekst powiązany z kodem QR.
+## Pełny przykład
+
+Oto kompleksowy przykład działania, który demonstruje cały proces wyszukiwania kodów QR w dokumencie:
+
+```csharp
+using GroupDocs.Signature;
+using GroupDocs.Signature.Domain;
+using GroupDocs.Signature.Options;
+using System;
+using System.Collections.Generic;
+
+namespace QrCodeSignatureSearch
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Ścieżka dokumentu – zaktualizuj ją, wpisując ścieżkę do pliku
+            string filePath = "sample_multiple_signatures.docx";
+            
+            // Zainicjuj instancję podpisu
+            using (Signature signature = new Signature(filePath))
+            {
+                try
+                {
+                    // Wyszukaj podpisy w postaci kodu QR w dokumencie
+                    List<QrCodeSignature> signatures = signature.Search<QrCodeSignature>(SignatureType.QrCode);
+                    
+                    // Wyświetl wyniki wyszukiwania
+                    Console.WriteLine($"\nSource document ['{filePath}'] contains {signatures.Count} QR code signature(s):");
+                    
+                    foreach (var qrCodeSignature in signatures)
+                    {
+                        Console.WriteLine($"QR Code found at page {qrCodeSignature.PageNumber} with type {qrCodeSignature.EncodeType.TypeName}");
+                        Console.WriteLine($"Content: {qrCodeSignature.Text}");
+                        Console.WriteLine($"Location: X={qrCodeSignature.Left}, Y={qrCodeSignature.Top}, Width={qrCodeSignature.Width}, Height={qrCodeSignature.Height}");
+                        Console.WriteLine();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error occurred: {ex.Message}");
+                }
+            }
+            
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
+    }
+}
+```
+
+## Zaawansowane techniki wyszukiwania kodów QR
+
+### Wyszukiwanie według określonych kryteriów
+
+Aby uzyskać bardziej szczegółowe wyszukiwania, możesz użyć `QrCodeSearchOptions` aby dostosować kryteria wyszukiwania:
+
+```csharp
+// Utwórz opcje wyszukiwania kodów QR z określonymi kryteriami
+QrCodeSearchOptions options = new QrCodeSearchOptions
+{
+    // Szukaj tylko na określonych stronach
+    AllPages = false,
+    PageNumber = 1,
+    PagesSetup = new PagesSetup { Pages = new List<int> { 1, 3, 5 } },
+    
+    // Filtruj według zawartości kodu QR
+    Text = "Invoice",
+    MatchType = TextMatchType.Contains,
+    
+    // Filtruj według określonych typów kodów QR
+    EncodeType = QrCodeTypes.QR,
+    
+    // Zdefiniuj konkretny obszar, w którym chcesz przeprowadzić wyszukiwanie
+    Rectangle = new Rectangle(100, 100, 400, 400)
+};
+
+// Szukaj z konkretnymi opcjami
+List<QrCodeSignature> filteredSignatures = signature.Search<QrCodeSignature>(options);
+```
+
+### Przetwarzanie danych kodu QR
+
+Możesz wdrożyć niestandardowe przetwarzanie danych z kodu QR w oparciu o wymagania swojej aplikacji:
+
+```csharp
+foreach (var qrCode in signatures)
+{
+    // Ekstrakcja i przetwarzanie danych z kodu QR na podstawie treści
+    string qrContent = qrCode.Text;
+    
+    if (qrContent.StartsWith("URL:"))
+    {
+        // Przetwarzaj dane URL
+        string url = qrContent.Substring(4);
+        Console.WriteLine($"Found URL in QR code: {url}");
+    }
+    else if (qrContent.StartsWith("CONTACT:"))
+    {
+        // Przetwarzaj informacje kontaktowe
+        string contact = qrContent.Substring(8);
+        Console.WriteLine($"Found contact information in QR code: {contact}");
+    }
+    else if (qrContent.StartsWith("INVOICE:"))
+    {
+        // Przetwarzaj informacje o fakturze
+        string invoiceData = qrContent.Substring(8);
+        Console.WriteLine($"Found invoice information in QR code: {invoiceData}");
+        
+        // Analizuj i weryfikuj dane faktur
+        if (ValidateInvoiceData(invoiceData))
+        {
+            Console.WriteLine("Invoice data is valid!");
+        }
+        else
+        {
+            Console.WriteLine("Warning: Invalid invoice data detected!");
+        }
+    }
+}
+
+// Przykładowa metoda walidacji
+static bool ValidateInvoiceData(string data)
+{
+    // Wdróż swoją logikę walidacji
+    return !string.IsNullOrEmpty(data) && data.Contains("ID") && data.Contains("Amount");
+}
+```
+
+### Wdrażanie weryfikacji bezpieczeństwa
+
+Kody QR są często wykorzystywane do uwierzytelniania. Oto jak wdrożyć podstawową weryfikację bezpieczeństwa:
+
+```csharp
+// Sprawdź, czy dokument zawiera prawidłowy kod QR uwierzytelniający
+bool hasValidAuthQrCode = false;
+
+foreach (var qrCode in signatures)
+{
+    if (qrCode.Text.StartsWith("AUTH:"))
+    {
+        string authCode = qrCode.Text.Substring(5);
+        
+        // Zweryfikuj kod uwierzytelniający (np. w oparciu o bazę danych lub wstępnie zdefiniowaną listę)
+        if (VerifyAuthCode(authCode))
+        {
+            hasValidAuthQrCode = true;
+            Console.WriteLine("Document contains valid authentication QR code!");
+            break;
+        }
+    }
+}
+
+if (!hasValidAuthQrCode)
+{
+    Console.WriteLine("Warning: Document does not contain a valid authentication QR code!");
+}
+
+// Przykładowa metoda weryfikacji
+static bool VerifyAuthCode(string code)
+{
+    // Wdróż swoją logikę weryfikacji
+    // Może to być wyszukiwanie w bazie danych, wywołanie API lub porównanie z predefiniowanymi wartościami
+    return code == "A7B82C3D" || code == "X9Y8Z7W6";
+}
+```
+
+### Wyodrębnianie obrazów kodów QR
+
+Możesz wyodrębnić obrazy kodów QR z dokumentów w celu dalszego przetwarzania lub wyświetlania:
+
+```csharp
+// Zapisz obrazy kodów QR na dysku
+foreach (var qrCode in signatures)
+{
+    if (qrCode.Content != null)
+    {
+        // Utwórz unikalną nazwę pliku na podstawie numeru strony i pozycji
+        string outputPath = $"QrCode_P{qrCode.PageNumber}_X{qrCode.Left}_Y{qrCode.Top}.png";
+        
+        // Zapisz dane obrazu
+        File.WriteAllBytes(outputPath, qrCode.Content);
+        Console.WriteLine($"Saved QR code image to {outputPath}");
+    }
+}
+```
 
 ## Wniosek
 
-GroupDocs.Signature dla .NET oferuje solidne rozwiązanie umożliwiające integrację funkcji podpisu z aplikacjami .NET. Postępując zgodnie z tym przewodnikiem, nauczyłeś się, jak z łatwością wyszukiwać kody QR w dokumentach, zwiększając bezpieczeństwo dokumentów i produktywność.
+W tym kompleksowym przewodniku omówimy wyszukiwanie podpisów w postaci kodów QR w dokumentach za pomocą GroupDocs.Signature dla platformy .NET. Od podstawowego wyszukiwania po zaawansowane techniki – teraz posiadasz wiedzę niezbędną do wdrożenia sprawnej obsługi kodów QR w aplikacjach .NET. Interfejs API GroupDocs.Signature zapewnia wydajne i elastyczne środowisko do pracy z różnymi typami podpisów, w tym kodami QR, w różnych formatach dokumentów.
 
-## Często zadawane pytania
+Wykorzystując te możliwości, możesz usprawnić procesy weryfikacji dokumentów, wdrożyć systemy uwierzytelniania i wyodrębnić cenne informacje osadzone w kodach QR — wszystko w aplikacjach .NET.
 
-### P: Czy GroupDocs.Signature for .NET obsługuje inne typy podpisów oprócz kodów QR?
-O: Tak, GroupDocs.Signature for .NET obsługuje różne typy podpisów, w tym podpisy cyfrowe, podpisy z kodów kreskowych i inne.
+## Najczęściej zadawane pytania
 
-### P: Czy dostępna jest wersja próbna programu GroupDocs.Signature for .NET?
- O: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej GroupDocs.Signature dla .NET z poziomu[strona z wydaniami](https://releases.groupdocs.com/).
+### Jakie formaty kodów QR są obsługiwane przez GroupDocs.Signature?
 
-### P: Jak mogę uzyskać pomoc dotyczącą GroupDocs.Signature dla .NET?
- O: Możesz szukać pomocy i nawiązać kontakt ze społecznością na stronie[Forum GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13).
+GroupDocs.Signature obsługuje różne formaty kodów QR, w tym standardowy kod QR, mikrokod QR i inne popularne standardy kodów QR. Dostęp do konkretnego formatu można uzyskać za pomocą `EncodeType` własność `QrCodeSignature` obiekt.
 
-### P: Czy dostępne są licencje tymczasowe dla GroupDocs.Signature for .NET?
- Odpowiedź: Tak, możesz nabyć licencje tymczasowe w witrynie[strona zakupu](https://purchase.groupdocs.com/temporary-license/) do celów testowania i oceny.
+### Czy mogę wyszukiwać kody QR w dokumentach chronionych hasłem?
 
-### P: Gdzie mogę kupić licencję na GroupDocs.Signature dla .NET?
- O: Licencje na GroupDocs.Signature for .NET można kupić w witrynie[strona zakupu](https://purchase.groupdocs.com/buy).
+Tak, GroupDocs.Signature obsługuje wyszukiwanie kodów QR w dokumentach chronionych hasłem poprzez podanie hasła podczas inicjowania. `Signature` obiekt:
+
+```csharp
+LoadOptions loadOptions = new LoadOptions { Password = "your_password" };
+using (Signature signature = new Signature(filePath, loadOptions))
+{
+    // Wyszukaj kody QR
+}
+```
+
+### Jak mogę filtrować kody QR na podstawie ich zawartości?
+
+Możesz filtrować kody QR na podstawie ich zawartości, korzystając z `Text` I `MatchType` właściwości `QrCodeSearchOptions`:
+
+```csharp
+QrCodeSearchOptions options = new QrCodeSearchOptions
+{
+    Text = "Invoice",
+    MatchType = TextMatchType.Contains // Inne opcje: Dokładny, Zaczyna się od, Kończy się od
+};
+```
+
+### Czy GroupDocs.Signature może wykryć uszkodzone lub częściowo widoczne kody QR?
+
+GroupDocs.Signature ma pewną zdolność wykrywania częściowo widocznych kodów QR, ale mocno uszkodzone kody QR mogą nie zostać rozpoznane. Dokładność wykrywania zależy od jakości i widoczności kodu QR w dokumencie.
+
+### Jakie formaty dokumentów są obsługiwane w przypadku wyszukiwania kodów QR?
+
+GroupDocs.Signature obsługuje wyszukiwanie kodów QR w różnych formatach dokumentów, w tym PDF, dokumentach Microsoft Office (Word, Excel, PowerPoint), obrazach (JPEG, PNG, TIFF) i wielu innych.
+
+## Zobacz także
+
+* [Odniesienie do API](https://reference.groupdocs.com/signature/net/)
+* [Przykłady kodu na GitHubie](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/tree/master/Examples)
+* [Dokumentacja produktu](https://docs.groupdocs.com/signature/net/)
+* [Strona produktu](https://products.groupdocs.com/signature/net/)
+* [Pobierz najnowszą wersję](https://releases.groupdocs.com/signature/net/)
+* [Artykuły blogowe](https://blog.groupdocs.com/categories/groupdocs.signature-product-family/)
+* [Bezpłatne forum wsparcia](https://forum.groupdocs.com/c/signature/13)
+* [Licencja tymczasowa](https://purchase.groupdocs.com/temporary-license/)

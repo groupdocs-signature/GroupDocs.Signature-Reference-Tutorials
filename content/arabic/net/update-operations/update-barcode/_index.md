@@ -1,24 +1,28 @@
 ---
-title: تحديث الباركود
-linktitle: تحديث الباركود
-second_title: GroupDocs.Signature .NET API
-description: تعرف على كيفية تحديث توقيعات الرمز الشريطي في المستندات باستخدام GroupDocs.Signature لـ .NET. دليل خطوة بخطوة للتكامل السلس.
-weight: 10
-url: /ar/net/update-operations/update-barcode/
+"description": "تعرّف على كيفية تحديث توقيعات الباركود برمجيًا في تنسيقات مستندات متعددة باستخدام GroupDocs.Signature لـ .NET. دليل شامل للمطورين الذين يبنون حلول إدارة المستندات."
+"linktitle": "تحديث الباركود"
+"second_title": "واجهة برمجة تطبيقات GroupDocs.Signature .NET"
+"title": "تحديث توقيعات الباركود في المستندات"
+"url": "/ar/net/update-operations/update-barcode/"
+"weight": 10
 ---
 
-# تحديث الباركود
-
 ## مقدمة
-في هذا البرنامج التعليمي، سوف نتعلم كيفية تحديث توقيع الرمز الشريطي داخل مستند باستخدام GroupDocs.Signature لـ .NET. GroupDocs.Signature for .NET عبارة عن واجهة برمجة تطبيقات قوية تسمح للمطورين بالعمل مع التوقيعات الرقمية، بما في ذلك أنواع مختلفة مثل الرمز الشريطي والنص والصورة والمزيد. سنتابع العملية خطوة بخطوة للتأكد من أنك تفهم كل جزء بدقة.
+تُستخدم توقيعات الباركود على نطاق واسع في سير عمل المستندات الرقمية لتشفير البيانات المنظمة، مما يُمكّن من تتبعها وتحديد هويتها والتحقق من صحتها بكفاءة. GroupDocs.Signature for .NET هو حل شامل لتوقيع المستندات، يُمكّن المطورين من دمج وظائف التوقيع المتقدمة في تطبيقاتهم، بما في ذلك إمكانية تحديث توقيعات الباركود الموجودة داخل المستندات.
+
+يركز هذا البرنامج التعليمي تحديدًا على تحديث توقيعات الباركود في المستندات باستخدام GroupDocs.Signature لـ .NET. سواءً كنتَ بحاجة إلى تعديل موضع الباركود الحالي أو حجمه أو بياناته المشفرة، سيرشدك هذا الدليل خلال العملية بأمثلة توضيحية واضحة.
+
 ## المتطلبات الأساسية
-قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
-- المعرفة الأساسية بلغة البرمجة C#.
-- تم تثبيت Visual Studio على نظامك.
--  تم تثبيت GroupDocs.Signature لـ .NET. يمكنك تنزيله من[هنا](https://releases.groupdocs.com/signature/net/).
-- نموذج مستند يحتوي على توقيع الباركود الذي تريد تحديثه.
+قبل تنفيذ تحديثات توقيع الباركود باستخدام GroupDocs.Signature لـ .NET، تأكد من توفر المتطلبات الأساسية التالية:
+
+1. بيئة التطوير: بيئة تطوير .NET عاملة مثل Visual Studio 2017 أو أحدث.
+2. مكتبة GroupDocs.Signature: مكتبة GroupDocs.Signature لـ .NET، والتي يمكنك تنزيلها من [صفحة التحميل](https://releases.groupdocs.com/signature/net/).
+3. المعرفة الأساسية بلغة C#: الإلمام بمفاهيم برمجة C#.
+4. المستندات النموذجية: المستندات التي تحتوي على توقيعات الباركود التي ترغب في تحديثها.
+
 ## استيراد مساحات الأسماء
-أولاً، نحتاج إلى استيراد مساحات الأسماء الضرورية إلى كود C# الخاص بنا. توفر مساحات الأسماء هذه الفئات والأساليب المطلوبة للعمل مع التوقيعات الرقمية.
+ابدأ باستيراد المساحات الأساسية اللازمة للوصول إلى وظيفة GroupDocs.Signature:
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -27,81 +31,255 @@ using GroupDocs.Signature;
 using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
-الآن، دعونا نقسم مثال الكود إلى خطوات متعددة ونشرح كل خطوة بالتفصيل:
-## الخطوة 1: تحديد مسارات الملفات
+
+الآن، دعونا نقسم عملية تحديث توقيعات الباركود إلى خطوات قابلة للإدارة:
+
+## الخطوة 1: إعداد مسارات المستندات
+أولاً، قم بتحديد المسارات للمستند المصدر والمكان الذي سيتم حفظ المستند المحدث فيه:
+
 ```csharp
+// المسار إلى المستند المصدر مع توقيعات الباركود
 string filePath = "sample_multiple_signatures.docx";
-string outputFilePath = Path.Combine("Your Document Directory", "UpdateBarcode", Path.GetFileName(filePath));
+
+// احصل على اسم الملف للإخراج
+string fileName = Path.GetFileName(filePath);
+
+// تحديد دليل الإخراج ومسار الملف
+string outputDirectory = Path.Combine("Your Document Directory", "UpdateBarcode");
+string outputFilePath = Path.Combine(outputDirectory, fileName);
+
+// تأكد من وجود دليل الإخراج
+Directory.CreateDirectory(outputDirectory);
 ```
- هنا،`filePath` يمثل المسار إلى مستند الإدخال الذي يحتوي على توقيع الرمز الشريطي، و`outputFilePath` هو المسار الذي سيتم حفظ المستند المحدث فيه.
-## الخطوة 2: انسخ الملف المصدر
+
+## الخطوة 2: نسخ المستند المصدر
+نظرًا لأن عملية التحديث تعدل المستند بشكل مباشر، قم بإنشاء نسخة من المستند الأصلي للحفاظ عليه:
+
 ```csharp
+// إنشاء نسخة من المستند الأصلي
 File.Copy(filePath, outputFilePath, true);
 ```
-تقوم هذه الخطوة بنسخ الملف المصدر إلى دليل الإخراج للتأكد من أن الملف`Update` تعمل الطريقة مع نفس المستند.
+
 ## الخطوة 3: تهيئة مثيل التوقيع
+إنشاء مثيل لـ `Signature` الفئة للعمل مع المستند:
+
 ```csharp
+// قم بتهيئة مثيل التوقيع باستخدام مسار ملف الإخراج
 using (Signature signature = new Signature(outputFilePath))
 {
-    // يتم وضع مقتطف الكود هنا...
+    // سيتم تنفيذ عمليات التوقيع هنا
 }
 ```
- نقوم بتهيئة أ`Signature` مثال باستخدام مسار ملف الإخراج، والذي يسمح لنا بالعمل مع توقيعات المستند.
-## الخطوة 4: البحث عن توقيعات الباركود
+
+## الخطوة 4: تكوين خيارات البحث عن الباركود
+قم بإعداد خيارات البحث للعثور على توقيعات الباركود الموجودة في المستند:
+
 ```csharp
+// تكوين خيارات البحث لتوقيعات الباركود
 BarcodeSearchOptions options = new BarcodeSearchOptions()
 {
+    // يمكنك التصفية حسب محتوى النص
     Text = "12345",
     MatchType = TextMatchType.Contains
+    
+    // إلغاء التعليق للبحث في جميع الصفحات
+    // جميع الصفحات = صحيح
 };
+```
+
+## الخطوة 5: البحث عن توقيعات الباركود
+استخدم خيارات البحث المخصصة للعثور على توقيعات الباركود في المستند:
+
+```csharp
+// البحث عن توقيعات الباركود
 List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
 ```
- هنا نخلق`BarcodeSearchOptions` مع النص المطلوب البحث عنه ضمن توقيعات الباركود. نستخدم بعد ذلك`Search` طريقة للعثور على جميع توقيعات الباركود المطابقة للمعايير المحددة.
-## الخطوة 5: تحديث توقيع الباركود
+
+## الخطوة 6: تحديث خصائص توقيع الباركود
+إذا تم العثور على توقيعات الباركود، قم بتحديث خصائصها حسب الحاجة:
+
 ```csharp
+// التحقق من وجود توقيعات
 if (signatures.Count > 0)
 {
+    // احصل على أول توقيع للرمز الشريطي
     BarcodeSignature barcodeSignature = signatures[0];
-    // يتم وضع مقتطف الكود هنا...
-}
-```
-إذا تم العثور على توقيعات الباركود، فإننا ننتقل إلى تحديث التوقيع الأول الذي تم العثور عليه.
-## الخطوة 6: تعديل خصائص التوقيع
-```csharp
-barcodeSignature.Left = 100;
-barcodeSignature.Top = 100;
-barcodeSignature.Width = 400;
-barcodeSignature.Height = 100;
-```
-هنا، نقوم بتعديل موضع وحجم توقيع الباركود حسب الحاجة.
-## الخطوة 7: تحديث التوقيع
-```csharp
-bool result = signature.Update(barcodeSignature);
-```
- نحن نسمي`Update` الطريقة مع توقيع الباركود المعدل لتحديثه داخل المستند.
-## الخطوة 8: التعامل مع النتيجة
-```csharp
-if (result)
-{
-    Console.WriteLine($"Signature with Barcode '{barcodeSignature.Text}' and encode type '{barcodeSignature.EncodeType.TypeName}' was updated in the document ['{fileName}'].");
+    
+    // تحديث الموقف
+    barcodeSignature.Left = 100;
+    barcodeSignature.Top = 100;
+    
+    // حجم التحديث
+    barcodeSignature.Width = 400;
+    barcodeSignature.Height = 100;
+    
+    // تطبيق التحديثات
+    bool result = signature.Update(barcodeSignature);
+    
+    // التحقق من النتيجة
+    if (result)
+    {
+        Console.WriteLine($"Signature with Barcode '{barcodeSignature.Text}' and encode type '{barcodeSignature.EncodeType.TypeName}' was updated in the document ['{fileName}'].");
+    }
+    else
+    {
+        Console.WriteLine($"Signature was not updated in the document! Signature with Barcode '{barcodeSignature.Text}' and encode type '{barcodeSignature.EncodeType.TypeName}' was not found!");
+    }
 }
 else
 {
-    Helper.WriteError($"Signature was not updated in the document! Signature with Barcode '{barcodeSignature.Text}' and encode type '{barcodeSignature.EncodeType.TypeName}' was not found!");
+    Console.WriteLine("No barcode signatures found in the document.");
 }
 ```
-أخيرًا، نقوم بالتحقق من نتيجة عملية التحديث وتقديم الملاحظات المناسبة بناءً على ما إذا كانت ناجحة أم لا.
+
+## مثال كامل
+فيما يلي مثال كامل وعملي يوضح كيفية تحديث توقيع الرمز الشريطي في مستند:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
+using GroupDocs.Signature;
+using GroupDocs.Signature.Domain;
+using GroupDocs.Signature.Options;
+
+namespace UpdateBarcodeSignatureExample
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // مسار المستند
+            string filePath = "sample_multiple_signatures.docx";
+            
+            // تحديد مسار الإخراج
+            string fileName = Path.GetFileName(filePath);
+            string outputDirectory = Path.Combine(Environment.CurrentDirectory, "UpdateBarcode");
+            string outputFilePath = Path.Combine(outputDirectory, fileName);
+            
+            // تأكد من وجود دليل الإخراج
+            Directory.CreateDirectory(outputDirectory);
+            
+            // إنشاء نسخة من المستند الأصلي
+            File.Copy(filePath, outputFilePath, true);
+            
+            // تهيئة مثيل التوقيع
+            using (Signature signature = new Signature(outputFilePath))
+            {
+                // تكوين خيارات البحث
+                BarcodeSearchOptions options = new BarcodeSearchOptions
+                {
+                    Text = "12345",
+                    MatchType = TextMatchType.Contains
+                };
+                
+                // البحث عن توقيعات الباركود
+                List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
+                
+                // التحقق من وجود توقيعات
+                if (signatures.Count > 0)
+                {
+                    // احصل على التوقيع الأول
+                    BarcodeSignature barcodeSignature = signatures[0];
+                    
+                    // تحديث الموضع والحجم
+                    barcodeSignature.Left = 100;
+                    barcodeSignature.Top = 100;
+                    barcodeSignature.Width = 400;
+                    barcodeSignature.Height = 100;
+                    
+                    // تطبيق التحديثات
+                    bool result = signature.Update(barcodeSignature);
+                    
+                    // تحقق من النتيجة
+                    if (result)
+                    {
+                        Console.WriteLine($"Barcode signature was successfully updated in document '{fileName}'.");
+                        Console.WriteLine($"Barcode text: {barcodeSignature.Text}");
+                        Console.WriteLine($"Encode type: {barcodeSignature.EncodeType.TypeName}");
+                        Console.WriteLine($"New position: {barcodeSignature.Left}x{barcodeSignature.Top}");
+                        Console.WriteLine($"New size: {barcodeSignature.Width}x{barcodeSignature.Height}");
+                        Console.WriteLine($"Output file path: {outputFilePath}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Failed to update barcode signature!");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No barcode signatures found in the document.");
+                }
+            }
+            
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey();
+        }
+    }
+}
+```
+
+## تخصيص توقيع الباركود المتقدم
+يوفر GroupDocs.Signature خيارات إضافية لتخصيص توقيعات الباركود بما يتجاوز الموضع والحجم الأساسيين:
+
+### ضبط خصائص المظهر
+تخصيص الجوانب المرئية للرمز الشريطي:
+
+```csharp
+// تعيين لون المقدمة (لون الباركود)
+barcodeSignature.ForeColor = System.Drawing.Color.Blue;
+
+// تعيين لون الخلفية
+barcodeSignature.BackgroundColor = System.Drawing.Color.LightYellow;
+
+// ضبط الشفافية
+barcodeSignature.Opacity = 0.8;
+```
+
+### إضافة الحدود
+تعزيز الباركود باستخدام الحدود المخصصة:
+
+```csharp
+barcodeSignature.Border.Color = System.Drawing.Color.Red;
+barcodeSignature.Border.DashStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+barcodeSignature.Border.Weight = 2;
+barcodeSignature.Border.Visible = true;
+```
+
+### تدوير الباركود
+تدوير توقيع الباركود إلى زاوية محددة:
+
+```csharp
+barcodeSignature.Angle = 30; // تدوير 30 درجة
+```
+
 ## خاتمة
-في هذا البرنامج التعليمي، تعلمنا كيفية تحديث توقيع الرمز الشريطي داخل مستند باستخدام GroupDocs.Signature لـ .NET. باتباع الدليل الموضح خطوة بخطوة، يمكنك بسهولة دمج هذه الوظيفة في تطبيقات C# الخاصة بك لمعالجة التوقيعات الرقمية حسب الحاجة.
+يوفر GroupDocs.Signature لـ .NET حلاً فعالاً ومرنًا لتحديث توقيعات الباركود داخل المستندات. باتباع الخطوات الموضحة في هذا البرنامج التعليمي، يمكن للمطورين تنفيذ وظيفة تحديث توقيعات الباركود بكفاءة في تطبيقات .NET الخاصة بهم، مما يُحسّن إدارة المستندات وأتمتتها.
+
+بفضل مجموعة الميزات الشاملة وواجهة برمجة التطبيقات البديهية، يتيح GroupDocs.Signature للمطورين إنشاء حلول توقيع مستندات متطورة تلبي متطلبات تطبيقات الأعمال الحديثة مع ضمان سلامة المستندات وإمكانية الوصول إليها.
 
 ## الأسئلة الشائعة
-### هل يمكنني تحديث توقيعات باركود متعددة في نفس الوثيقة؟
-نعم، يمكنك تحديث العديد من توقيعات الباركود من خلال مراجعة قائمة التوقيعات التي تم العثور عليها وتحديث كل توقيع على حدة.
-### هل يدعم GroupDocs.Signature أنواعًا أخرى من التوقيعات الرقمية إلى جانب الرمز الشريطي؟
-نعم، يدعم GroupDocs.Signature أنواعًا مختلفة من التوقيعات الرقمية، بما في ذلك النص والصورة ورمز الاستجابة السريعة والمزيد.
-### هل هناك إصدار تجريبي متاح لـ GroupDocs.Signature لـ .NET؟
- نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.groupdocs.com/).
-### هل يمكنني تخصيص معايير البحث للعثور على توقيعات الباركود؟
- نعم يمكنك ضبط`BarcodeSearchOptions` لتحديد معايير بحث مختلفة مثل نص الباركود ونوع المطابقة وما إلى ذلك.
-### أين يمكنني العثور على الدعم إذا واجهت أية مشكلات أو كانت لدي أسئلة؟
- يمكنك زيارة منتدى GroupDocs.Signature[هنا](https://forum.groupdocs.com/c/signature/13) للحصول على الدعم والمساعدة.
+### هل يمكنني تحديث توقيعات الباركود المتعددة ضمن مستند واحد؟
+نعم، يتيح لك GroupDocs.Signature تحديث عدة توقيعات باركود داخل المستند نفسه. بعد البحث عن التوقيعات، يمكنك استعراض القائمة الناتجة وتحديث كل توقيع باركود على حدة.
+
+### هل يدعم GroupDocs.Signature تنسيقات الباركود المختلفة؟
+نعم، يدعم GroupDocs.Signature مجموعة كبيرة ومتنوعة من تنسيقات الباركود، بما في ذلك الباركود الخطي (الرمز 128، والرمز 39، وEAN، وUPC، وما إلى ذلك) والباركود ثنائي الأبعاد (رمز الاستجابة السريعة، ومصفوفة البيانات، وPDF417، وما إلى ذلك).
+
+### هل هناك نسخة تجريبية متاحة لـ GroupDocs.Signature لـ .NET؟
+نعم، يمكنك تنزيل نسخة تجريبية مجانية من [موقع GroupDocs](https://releases.groupdocs.com/signature/net/) لتقييم مميزات المكتبة قبل الشراء.
+
+### هل يمكنني تحويل نوع الباركود إلى نوع آخر عند التحديث؟
+التحويل المباشر بين أنواع الباركود غير مدعوم أثناء التحديثات. مع ذلك، يمكنك القيام بذلك بحذف الباركود الحالي وإضافة باركود جديد بالتنسيق المطلوب.
+
+### هل يؤثر تحديث الباركود على قدرته على المسح الضوئي؟
+عند تحديث خصائص الباركود، مثل الحجم والموضع، يحافظ GroupDocs.Signature على سلامة مسح الباركود. مع ذلك، قد تؤثر الأحجام الصغيرة جدًا أو زوايا الدوران الكبيرة على أداء المسح مع بعض أجهزة القراءة.
+
+### أين يمكنني العثور على دعم إضافي لـ GroupDocs.Signature لـ .NET؟
+يمكنك العثور على الدعم الشامل من خلال الموارد التالية:
+- [وثائق واجهة برمجة التطبيقات](https://docs.groupdocs.com/signature/net/)
+- [مرجع واجهة برمجة التطبيقات](https://reference.groupdocs.com/signature/net/)
+- [أمثلة على GitHub](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/tree/master/Examples)
+- [منتدى الدعم](https://forum.groupdocs.com/c/signature/13)
+- [مدونة](https://blog.groupdocs.com/categories/groupdocs.signature-product-family/)
+- [دعم مجاني](https://forum.groupdocs.com/c/signature)
+- [رخصة مؤقتة](https://purchase.groupdocs.com/temporary-license/)

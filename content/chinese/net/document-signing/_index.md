@@ -1,45 +1,88 @@
 ---
-title: 文件签署
-linktitle: 文件签署
-second_title: GroupDocs.Signature .NET API
-description: 使用 GroupDocs.Signature .NET 使用元数据对图像、PDF、演示文稿、电子表格和 Word 文档进行签名。增强文件的真实性和完整性。
-weight: 24
-url: /zh/net/document-signing/
+"description": "了解如何使用 GroupDocs.Signature for .NET 将元数据签名嵌入各种文件格式，从而增强文档安全性和可追溯性。我们提供 PDF、Word、Excel、PowerPoint 和图像文件的综合教程。"
+"linktitle": "文件签名"
+"second_title": "GroupDocs.签名 .NET API"
+"title": "使用 .NET 中的元数据进行文档签名"
+"url": "/zh/net/document-signing/"
+"weight": 24
 ---
-
-# 文件签署
 
 ## 介绍
 
-了解如何使用 GroupDocs.Signature for .NET 使用元数据对各种类型的文档进行签名。从图像到电子表格，轻松确保文档的真实性。
+在当今的数字世界中，确保文档的真实性、来源追踪和完整性对于企业和组织至关重要。元数据签名提供了一种强大而又不显眼的方式，可以将身份信息直接嵌入文档文件，从而在不改变文档外观的情况下增强安全性。
 
-文档签名是文档管理的一个重要方面，可确保可追溯性、完整性和真实性。 GroupDocs.Signature for .NET 提供了一个全面的解决方案，用于使用元数据签署各种类型的文档，从而增强其可靠性和可信度。
+GroupDocs.Signature for .NET 提供了一个全面的解决方案，可使用元数据对各种文档类型进行签名，从而帮助开发人员将强大的文档验证功能集成到其 .NET 应用程序中。本文概述了不同文档格式的元数据签名功能，并提供了每种文档类型的详细教程链接。
+
+## 什么是元数据签名？
+
+元数据签名涉及将附加信息（元数据）直接嵌入到文档的文件结构中。这些信息可以包括：
+
+- 作者详细信息
+- 创建和修改时间戳
+- 文档标识符
+- 版本信息
+- 自定义特定于应用程序的数据
+- 数字指纹
+
+与可见签名不同，元数据签名嵌入在文档的内部结构中，不会改变其外观，因此非常适合保持文档的美观性，同时还能增加验证功能。
+
+## 元数据签名的优势
+
+- 非侵入式：不会改变文档的外观
+- 多功能：可以存储各种数据类型（文本、日期、数字）
+- 可追溯：增强文档谱系和来源验证
+- 可定制：支持特定于业务需求的自定义属性
+- 可搜索：使文档更易于分类和查找
+- 轻量级：对文件大小的影响最小
 
 ## 使用元数据对图像进行签名
-使用 .NET 中的元数据对图像进行签名从未如此简单。借助 GroupDocs.Signature，您可以将元数据签名无缝添加到图像中，从而增强其可追溯性和真实性。了解如何对图像进行签名[一步步](./sign-image-with-metadata/)，确保高效的文档管理。
+
+数字图像通常需要身份验证和来源验证，尤其是在摄影、新闻和数字媒体等行业。GroupDocs.Signature 允许您将元数据直接嵌入到各种图像格式中，包括所有权详细信息、捕获信息和版权声明。
+
+我们的 [综合指南](./sign-image-with-metadata/) 引导您完成使用 C# 对图像进行元数据签名的过程，确保您的视觉资产在其整个生命周期内保持可追踪和可验证。
 
 ## 使用元数据签署 PDF
- PDF 文档因其便携性和安全性而被广泛使用。借助 GroupDocs.Signature for .NET，您可以使用元数据对 PDF 进行签名，添加有价值的信息并增强文档的可追溯性。按照我们的教程学习如何签署 PDF 文档[毫不费力地](./sign-pdf-with-metadata/).
 
-## 使用元数据签署演示文稿
-演示对于有效传达信息至关重要。使用 GroupDocs.Signature for .NET 使用元数据对演示文稿进行签名，确保演示文稿的完整性。我们的教程将指导您完成整个过程，提高文档的可靠性和真实性。
+PDF 文档因其跨平台的一致性，已成为业务关键信息交换的标准。使用元数据签名增强 PDF 功能，可进一步提升安全性和可追溯性。
+
+了解如何 [将元数据嵌入 PDF 文档](./sign-pdf-with-metadata/) 使用 GroupDocs.Signature for .NET，添加有价值的信息，例如作者详细信息、创建时间戳、文档类别和自定义属性，同时保持文档的视觉完整性。
+
+## 使用元数据进行签名演示
+
+PowerPoint 演示文稿通常包含宝贵的知识产权和机密信息。元数据签名有助于确定这些重要视觉资产的所有权并追踪其来源。
+
+我们的 [分步教程](./sign-presentation-with-metadata/) 演示如何向演示文稿添加元数据签名，使用嵌入的验证信息保护幻灯片，而不影响其外观或功能。
 
 ## 使用元数据签署电子表格
-电子表格通常包含需要保护和验证的关键数据。使用 GroupDocs.Signature for .NET，您可以使用元数据对电子表格进行签名，确保文档的完整性和验证。了解如何增强电子表格的可靠性[这里](./sign-spreadsheet-with-metadata/).
+
+Excel 电子表格通常包含敏感的财务数据、复杂的计算以及需要保护和验证的业务关键信息。元数据签名提供了一种在不破坏公式或数据呈现的情况下确认真实性的方法。
+
+关注我们的 [详细指南](./sign-spreadsheet-with-metadata/) 了解如何使用元数据签名、嵌入作者信息、创建详细信息以及在文档整个生命周期中随文档传输的自定义属性来增强 Excel 电子表格。
 
 ## 使用元数据进行符号文字处理
-文字处理文档通常用于创建报告、备忘录和其他文本内容。使用 GroupDocs.Signature for .NET，您可以使用元数据对文字处理文档进行签名，从而增强其真实性和可追溯性。按照我们的教程学习如何确保文档的可靠性[毫不费力地](./sign-word-processing-with-metadata/).
 
-使用元数据进行文档签名可为您的文件增加一层额外的安全性和信任度，使其更加可靠且防篡改。借助 GroupDocs.Signature for .NET，您可以轻松地将文档签名功能集成到您的 .NET 应用程序中，确保无缝文档管理。
+Word文档是商务沟通、合同和正式信函的支柱。在许多专业环境中，确保其真实性并建立保管链至关重要。
+
+我们的 [完整教程](./sign-word-processing-with-metadata/) 向您展示如何使用 GroupDocs.Signature for .NET 向 Word 文档添加元数据签名，增强文档安全性，同时保持完整的文档功能和外观。
+
+## 结论
+
+元数据签名是一种强大且不显眼的增强文档安全性、可追溯性和验证能力的方法。GroupDocs.Signature for .NET 提供了一个全面的工具包，用于将元数据签名嵌入到各种文档类型中，使开发人员能够在其 .NET 应用程序中实现强大的文档验证系统。
+
+通过遵循我们的详细教程，您可以快速将元数据签名功能集成到您的文档管理工作流程中，确保您的文档在整个生命周期内保持可验证和可追溯。
 
 ## 文档签名教程
 ### [使用元数据对图像进行签名](./sign-image-with-metadata/)
-了解如何使用 GroupDocs.Signature 在 .NET 中使用元数据对图像进行签名。简单、高效且可自定义的元数据签名解决方案。
+了解如何使用 GroupDocs.Signature 在 .NET 中为图像添加元数据签名。添加作者信息、时间戳和自定义数据，以增强图像的真实性和可追溯性。
+
 ### [使用元数据签署 PDF](./sign-pdf-with-metadata/)
-了解如何使用 GroupDocs.Signature for .NET 使用元数据签署 PDF 文档。轻松增强文档的可追溯性和真实性。
-### [使用元数据签署演示文稿](./sign-presentation-with-metadata/)
-了解如何使用 GroupDocs.Signature for .NET 使用元数据对演示文稿文件进行签名。增强文档完整性并添加有价值的信息。
+使用 GroupDocs.Signature for .NET 将元数据签名集成到 PDF 文档中。学习如何嵌入作者信息、时间戳和自定义数据，以增强 PDF 的真实性和可追溯性。
+
+### [使用元数据进行签名演示](./sign-presentation-with-metadata/)
+使用 GroupDocs.Signature for .NET 的元数据签名增强 PowerPoint 演示文稿。添加作者详细信息、时间戳和自定义属性，以提高演示文稿的真实性和可追溯性。
+
 ### [使用元数据签署电子表格](./sign-spreadsheet-with-metadata/)
-了解如何使用 Groupdocs.Signature for .NET 为电子表格签名元数据。使用元数据签名增强文档完整性和验证。
+使用 GroupDocs.Signature for .NET 嵌入元数据签名，保护并增强 Excel 电子表格的功能。添加作者信息、时间戳和自定义数据，以提高文档的可追溯性和真实性。
+
 ### [使用元数据进行符号文字处理](./sign-word-processing-with-metadata/)
-了解如何使用 GroupDocs.Signature for .NET 使用元数据对文字处理文档进行签名。增强文档的真实性和可追溯性。
+使用 GroupDocs.Signature for .NET 向 Word 文档添加元数据签名。嵌入作者详细信息、时间戳和自定义属性，以增强文档安全性和可追溯性。

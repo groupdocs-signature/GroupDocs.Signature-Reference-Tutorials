@@ -1,24 +1,34 @@
 ---
-title: 從文件中刪除多個簽名
-linktitle: 從文件中刪除多個簽名
-second_title: GroupDocs.Signature .NET API
-description: 使用 GroupDocs.Signature for .NET 輕鬆刪除文件中的多個簽章。簡化您的文件管理工作流程。
-weight: 15
-url: /zh-hant/net/delete-operations/delete-multiple-signatures/
+"description": "了解如何使用 GroupDocs.Signature for .NET 以程式設計方式從文件中刪除多個簽章。簡單、有效率且功能強大的文件管理。"
+"linktitle": "從文件中刪除多個簽名"
+"second_title": "GroupDocs.簽署 .NET API"
+"title": "如何輕鬆刪除文件中的多個簽名"
+"url": "/zh-hant/net/delete-operations/delete-multiple-signatures/"
+"weight": 15
 ---
 
-# 從文件中刪除多個簽名
+# 如何在 .NET 中從文件中刪除多個簽名
 
-## 介紹
-在數位世界中，文件管理通常涉及處理各種簽名。以程式設計方式從文件中刪除多個簽名可以簡化工作流程並提高效率。透過 GroupDocs.Signature for .NET，此任務變得無縫且簡單。本教學將引導您逐步完成從文件中刪除多個簽名的過程。
-## 先決條件
-在深入學習本教程之前，請確保您具備以下先決條件：
-- 對 C# 程式語言有基本了解。
-- 為 .NET 程式庫安裝了 GroupDocs.Signature。
-- 用於測試的具有多個簽名的範例文件。
+## 為什麼管理文件簽章很重要
 
-## 導入命名空間
-首先匯入必要的命名空間以存取 GroupDocs.Signature for .NET 的功能：
+您是否曾經需要一次刪除多個簽名來清理文件？在當今的數位化工作空間中，高效管理文件簽名可以為您節省大量時間並簡化工作流程。無論您是更新法律合約、刷新模板，還是準備待審批的文檔，以程式設計方式刪除多個簽名的功能都至關重要。
+
+GroupDocs.Signature for .NET 讓這個過程變得非常簡單。在本指南中，我們將指導您如何僅用幾行程式碼從文件中刪除多個簽名。
+
+## 開始之前你需要什麼
+
+在深入研究程式碼之前，請確保一切準備就緒：
+
+* 熟悉 C# 程式設計的基本知識（別擔心，我們會清楚地解釋每個步驟）
+* 專案中安裝了 GroupDocs.Signature for .NET 程式庫
+* 包含多個您想要刪除的簽名的測試文檔
+
+如果您缺少任何一項，請花點時間完成設定後再繼續。未來的您會感謝您的！
+
+## 設定專案環境
+
+首先，讓我們匯入必要的命名空間來存取 GroupDocs.Signature 的所有強大功能：
+
 ```csharp
 using System;
 using System.IO;
@@ -27,63 +37,84 @@ using GroupDocs.Signature;
 using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
-## 第 1 步：定義文件路徑和文件名
-設定包含多個簽署的文件的文件路徑。確保您具有適當的檔案路徑和檔案名稱：
+
+這些匯入功能可讓您存取管理文件中的簽名所需的核心功能。
+
+## 您如何準備您的文件？
+
+讓我們先設定文件路徑並建立文件的工作副本：
+
 ```csharp
 string filePath = "sample_multiple_signatures.docx";
 string fileName = Path.GetFileName(filePath);
 ```
-## 第 2 步：複製文件進行處理
-為了避免修改原始文檔，請建立副本進行處理：
+
+我們始終建議您使用原始文件的副本。這可以防止來源檔案被意外更改：
+
 ```csharp
 string outputFilePath = Path.Combine("Your Document Directory", "DeleteMultiple", fileName);
 File.Copy(filePath, outputFilePath, true);
 ```
-## 第三步：初始化簽名對象
-使用輸出檔案路徑實例化 Signature 物件：
+
+## 建立您的簽章處理引擎
+
+現在，讓我們初始化處理所有文件操作的簽章物件：
+
 ```csharp
 using (Signature signature = new Signature(outputFilePath))
 {
-    //簽名處理程式碼放在這裡
+    // 我們很快就會在這裡添加我們的簽名處理程式碼
 }
 ```
-## 第 4 步：定義搜尋選項
-定義各種搜尋選項來識別文件中的簽名。選項包括文字搜尋、圖像搜尋、條碼搜尋和二維碼搜尋：
+
+這會創建一個強大的處理引擎，它可以理解文件的結構並可以識別和操作其中的簽名。
+
+## 如何查找文件中的所有簽名？
+
+要刪除簽名，我們首先需要找到它們。 GroupDocs.Signature 可以辨識文件中各種類型的簽章：
+
 ```csharp
 TextSearchOptions textSearchOptions = new TextSearchOptions();
 ImageSearchOptions imageSearchOptions = new ImageSearchOptions();
 BarcodeSearchOptions barcodeOptions = new BarcodeSearchOptions();
 QrCodeSearchOptions qrCodeOptions = new QrCodeSearchOptions();
-//將選項新增至列表
+
+// 結合我們所有的搜尋選項
 List<SearchOptions> listOptions = new List<SearchOptions>();
 listOptions.Add(textSearchOptions);
 listOptions.Add(imageSearchOptions);
 listOptions.Add(barcodeOptions);
 listOptions.Add(qrCodeOptions);
 ```
-## 第 5 步：搜尋簽名
-執行搜尋操作，根據定義的搜尋選項尋找文件中的所有簽名：
+
+配置這些選項後，我們現在可以搜尋文件中的所有簽名：
+
 ```csharp
 SearchResult result = signature.Search(listOptions);
 ```
-## 步驟6：刪除簽名
-如果找到簽名，請繼續刪除它們：
+
+## 透過一次操作刪除簽名
+
+一旦我們找到了所有簽名，刪除它們就很簡單了：
+
 ```csharp
 if (result.Signatures.Count > 0)
 {
-    //嘗試刪除所有簽名
+    // 嘗試一次刪除所有簽名
     DeleteResult deleteResult = signature.Delete(result.Signatures);
-    //檢查是否刪除成功
+    
+    // 讓我們檢查一下我們有多成功
     if(deleteResult.Succeeded.Count == result.Signatures.Count)
     {
         Console.WriteLine("\nAll signatures were successfully deleted!");                        
     }
     else
     {
-        Console.WriteLine($"Successfully deleted signatures : {deleteResult.Succeeded.Count}");
-        Helper.WriteError($"Not deleted signatures : {deleteResult.Failed.Count}");
+        Console.WriteLine($"Successfully deleted signatures: {deleteResult.Succeeded.Count}");
+        Console.WriteLine($"Signatures not deleted: {deleteResult.Failed.Count}");
     }
-    //顯示有關已刪除已簽署的信息
+    
+    // 顯示有關我們刪除的內容的詳細信息
     Console.WriteLine("\nList of deleted signatures:");
     int number = 1;
     foreach(BaseSignature temp in deleteResult.Succeeded)
@@ -93,20 +124,38 @@ if (result.Signatures.Count > 0)
 }
 else
 {
-    Helper.WriteError("No one signature was found.");
+    Console.WriteLine("No signatures were found in the document.");
 }
 ```
 
-## 結論
-以程式設計方式從文件中刪除多個簽章是文件管理中的關鍵任務。透過 GroupDocs.Signature for .NET，此流程變得有效率且可靠。透過遵循本教學中概述的步驟，您可以輕鬆地將簽章刪除功能整合到您的 .NET 應用程式中。
-## 常見問題解答
-### GroupDocs.Signature for .NET 可以處理各種文件格式嗎？
-是的，GroupDocs.Signature for .NET 支援多種文件格式，包括 DOCX、PDF、PPTX、XLSX 等。
-### 是否可以自訂簽名檢測的搜尋選項？
-當然，您可以定製文字搜尋、圖像搜尋、條碼搜尋和二維碼搜尋等搜尋選項來滿足您的特定要求。
-### GroupDocs.Signature for .NET 是否提供錯誤處理機制？
-是的，該程式庫提供強大的錯誤處理功能，以確保文件處理任務的順利執行。
-### 我可以將 GroupDocs.Signature for .NET 與其他第三方程式庫整合嗎？
-當然，GroupDocs.Signature for .NET 旨在與其他 .NET 程式庫無縫集成，提供靈活性和可擴展性。
-### 在哪裡可以找到針對 .NET 的 GroupDocs.Signature 的其他支援和資源？
-您可以存取 GroupDocs[論壇](https://forum.groupdocs.com/c/signature/13)致力於簽署相關的討論並尋求社群和專家的協助。
+此程式碼不僅可以刪除簽名，還可以提供有關刪除的內容以及這些簽名在文件中的位置的有用回饋。
+
+## 我們學到了什麼？
+
+管理文件簽名並非易事。使用 GroupDocs.Signature for .NET，您可以：
+
+1. 輕鬆識別文件中不同類型的簽名
+2. 透過一次操作刪除多個簽名
+3. 追蹤哪些簽章已成功刪除
+4. 獲取有關每個簽名的屬性的詳細信息
+
+這種方法可以使您免於繁瑣的手動編輯，並有助於在整個工作流程中保持文件的完整性。
+
+透過將此功能合併到您的應用程式中，您將為使用者提供無縫的文件管理體驗，輕鬆處理簽名刪除。
+
+## 關於簽名刪除的常見問題
+
+### GroupDocs.Signature 可以處理不同應用程式的文件嗎？
+當然！該程式庫支援多種文件格式，包括 PDF、DOCX、PPTX、XLSX 等等。您的用戶可以處理文檔，無論其來源應用程式是什麼。
+
+### 是否可以更有選擇性地刪除哪些簽章？
+是的，您可以自訂搜尋選項，以定位特定類型的簽名或具有特定特徵的簽名。這樣您就可以精確控制要移除的簽章。
+
+### 刪除簽章時錯誤處理如何進行？
+GroupDocs.Signature 提供全面的錯誤處理功能，清楚區分成功與失敗的操作。您將始終清楚知道哪些簽名已被刪除，哪些簽名無法處理。
+
+### 我可以將此功能與我現有的文件管理系統整合嗎？
+當然！ GroupDocs.Signature for .NET 旨在與其他 .NET 程式庫和框架無縫協作，從而輕鬆增強您目前的文件處理流程。
+
+### 如果我遇到問題，可以在哪裡尋求協助？
+GroupDocs 社群隨時準備好提供協助！訪問 [GroupDocs 論壇](https://forum.groupdocs.com/c/signature/13) 與可以回答您與簽名相關的問題的其他開發人員和專家聯繫。

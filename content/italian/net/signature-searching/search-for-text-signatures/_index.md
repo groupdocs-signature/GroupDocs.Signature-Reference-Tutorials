@@ -1,25 +1,34 @@
 ---
-title: Cerca firme di testo
-linktitle: Cerca firme di testo
-second_title: API GroupDocs.Signature .NET
-description: Scopri come cercare firme di testo nei documenti digitali utilizzando GroupDocs.Signature per .NET. Guida passo passo per un'implementazione efficiente.
-weight: 16
-url: /it/net/signature-searching/search-for-text-signatures/
+"description": "Scopri come cercare in modo efficiente le firme di testo nei documenti utilizzando GroupDocs.Signature per .NET con la nostra guida completa passo passo e gli esempi di codice."
+"linktitle": "Cerca firme di testo"
+"second_title": "API .NET GroupDocs.Signature"
+"title": "Cerca firme di testo nei documenti"
+"url": "/it/net/signature-searching/search-for-text-signatures/"
+"weight": 16
 ---
 
-# Cerca firme di testo
+## Introduzione
 
-## introduzione
-Nell'ambito della gestione e dell'autenticazione dei documenti, la capacità di cercare in modo efficiente le firme di testo all'interno dei documenti digitali è fondamentale. GroupDocs.Signature per .NET offre una potente soluzione a questa esigenza, fornendo agli sviluppatori un kit di strumenti completo per individuare le firme di testo all'interno di vari formati di file. In questo tutorial approfondiremo il processo di ricerca delle firme di testo utilizzando GroupDocs.Signature per .NET, suddividendo ogni passaggio per garantire una chiara comprensione dell'implementazione.
+Le firme testuali sono un metodo comune per indicare la paternità, l'approvazione o la verifica di un documento. Nella gestione dei documenti digitali, la possibilità di cercare ed estrarre le firme testuali a livello di codice è fondamentale per la convalida dei documenti, l'automazione del flusso di lavoro e la verifica della conformità. GroupDocs.Signature per .NET offre una soluzione completa per implementare la funzionalità di ricerca delle firme testuali nelle applicazioni .NET, supportando vari formati di documento e funzionalità di ricerca avanzate.
+
+Questo tutorial ti guiderà attraverso il processo di ricerca di firme di testo nei documenti utilizzando GroupDocs.Signature per .NET, fornendo spiegazioni dettagliate, istruzioni passo passo ed esempi di codice pratici.
+
 ## Prerequisiti
-Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
-1.  Libreria GroupDocs.Signature per .NET: scaricare e installare la libreria GroupDocs.Signature per .NET dalla[pagina delle uscite](https://releases.groupdocs.com/signature/net/).
-2. Ambiente di sviluppo: configura un ambiente di sviluppo adatto, come Visual Studio o qualsiasi IDE compatibile.
-3. Documento di esempio: preparare un documento di esempio contenente firme di testo a scopo di test.
-4. Conoscenza di base di C#: per seguire il tutorial è necessaria la familiarità con il linguaggio di programmazione C#.
+
+Prima di iniziare a cercare firme testuali, assicurati di disporre dei seguenti prerequisiti:
+
+1. GroupDocs.Signature per la libreria .NET: scarica e installa la libreria da [pagina delle versioni](https://releases.groupdocs.com/signature/net/).
+
+2. Ambiente di sviluppo: impostare un ambiente di sviluppo adatto, come Visual Studio o qualsiasi IDE compatibile con supporto .NET.
+
+3. Documenti campione: preparare documenti di prova contenenti firme di testo per la verifica e il test.
+
+4. Conoscenza di base di C#: familiarità con il linguaggio di programmazione C# e i concetti del framework .NET.
 
 ## Importa spazi dei nomi
-Per avviare il processo, importa gli spazi dei nomi necessari nel tuo progetto C#:
+
+Per iniziare, importare gli spazi dei nomi necessari per accedere alla funzionalità GroupDocs.Signature:
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -29,48 +38,301 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
+Ora, scomponiamo il processo di ricerca delle firme testuali in passaggi chiari e gestibili:
+
 ## Passaggio 1: caricare il documento
+
+Per prima cosa, definisci il percorso del documento e inizializza un `Signature` oggetto:
+
 ```csharp
 string filePath = "sample_multiple_signatures.docx";
 string fileName = Path.GetFileName(filePath);
+
 using (Signature signature = new Signature(filePath))
 {
+    // Il codice di ricerca della firma del testo verrà aggiunto qui
+}
 ```
- In questo passaggio specifichiamo il percorso del file del documento di esempio contenente le firme di testo e inizializziamo una nuova istanza del file`Signature` classe.
+
 ## Passaggio 2: configura le opzioni di ricerca
+
+Crea e configura `TextSearchOptions` per specificare come devono essere ricercate le firme di testo:
+
 ```csharp
-    TextSearchOptions options = new TextSearchOptions()
-    {
-        AllPages = true, // questo valore è impostato per impostazione predefinita
-    };
+// Configurare le opzioni di ricerca di testo
+TextSearchOptions options = new TextSearchOptions
+{
+    // Cerca in tutte le pagine
+    AllPages = true,
+    
+    // Facoltativo: specificare il testo da abbinare
+    // Testo = "Approvato",
+    
+    // Facoltativo: specificare il tipo di corrispondenza
+    // MatchType = TextMatchType.Contiene
+};
 ```
- Qui configuriamo le opzioni di ricerca per le firme di testo. In questo esempio, impostiamo`AllPages` proprietà a`true` per eseguire la ricerca in tutte le pagine del documento.
+
 ## Passaggio 3: eseguire la ricerca della firma del testo
+
+Eseguire l'operazione di ricerca utilizzando le opzioni configurate:
+
 ```csharp
-    List<TextSignature> signatures = signature.Search<TextSignature>(options);
+// Cerca firme di testo
+List<TextSignature> signatures = signature.Search<TextSignature>(options);
 ```
- Questo passaggio esegue l'operazione di ricerca utilizzando le opzioni specificate e recupera un elenco di`TextSignature` oggetti contenenti le firme di testo trovate.
-## Passaggio 4: risultati di output
+
+## Fase 4: Elaborazione e visualizzazione dei risultati
+
+Scorri le firme di testo trovate e visualizza i loro dettagli:
+
 ```csharp
-    Console.WriteLine($"\nSource document ['{fileName}'] contains following text signature(s).");
-    foreach (TextSignature textSignature in signatures)
+// Visualizza i risultati della ricerca
+Console.WriteLine($"\nSource document '{fileName}' contains {signatures.Count} text signature(s):");
+
+foreach (TextSignature textSignature in signatures)
+{
+    Console.WriteLine($"Text signature found at page {textSignature.PageNumber} with text '{textSignature.Text}'");
+    Console.WriteLine($"Location: X={textSignature.Left}, Y={textSignature.Top}, Width={textSignature.Width}, Height={textSignature.Height}");
+    Console.WriteLine($"Signature type: {textSignature.SignatureImplementation}");
+    Console.WriteLine();
+}
+```
+
+## Esempio completo
+
+Ecco un esempio completo e funzionante che mostra come cercare firme di testo in un documento:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
+using GroupDocs.Signature;
+using GroupDocs.Signature.Domain;
+using GroupDocs.Signature.Options;
+
+namespace TextSignatureSearch
+{
+    class Program
     {
-        Console.WriteLine($"Found Text signature at page {textSignature.PageNumber} with type [{textSignature.SignatureImplementation}] and text '{textSignature.Text}'.");
+        static void Main(string[] args)
+        {
+            // Percorso del documento: aggiorna con il percorso del tuo file
+            string filePath = "sample_multiple_signatures.docx";
+            string fileName = Path.GetFileName(filePath);
+            
+            // Inizializza l'istanza della firma
+            using (Signature signature = new Signature(filePath))
+            {
+                try
+                {
+                    // Configurare le opzioni di ricerca di testo
+                    TextSearchOptions options = new TextSearchOptions
+                    {
+                        // Cerca in tutte le pagine
+                        AllPages = true
+                    };
+                    
+                    // Cerca firme di testo
+                    List<TextSignature> signatures = signature.Search<TextSignature>(options);
+                    
+                    // Visualizza i risultati della ricerca
+                    Console.WriteLine($"\nSource document '{fileName}' contains {signatures.Count} text signature(s):");
+                    
+                    foreach (TextSignature textSignature in signatures)
+                    {
+                        Console.WriteLine($"Text signature found at page {textSignature.PageNumber} with text '{textSignature.Text}'");
+                        Console.WriteLine($"Location: X={textSignature.Left}, Y={textSignature.Top}, Width={textSignature.Width}, Height={textSignature.Height}");
+                        Console.WriteLine($"Signature type: {textSignature.SignatureImplementation}");
+                        Console.WriteLine();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error occurred: {ex.Message}");
+                }
+            }
+            
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
     }
 }
 ```
-Infine, visualizziamo i risultati della ricerca della firma di testo, scorrendo ciascuna firma trovata e visualizzandone il numero di pagina, il tipo di firma e il contenuto del testo.
+
+## Tecniche avanzate di ricerca della firma del testo
+
+### Ricerca con criteri di testo specifici
+
+Per ricerche più mirate, puoi personalizzare il `TextSearchOptions` per filtrare in base a contenuti di testo specifici:
+
+```csharp
+// Crea opzioni di ricerca con criteri di testo specifici
+TextSearchOptions options = new TextSearchOptions
+{
+    // Cerca in tutte le pagine
+    AllPages = true,
+    
+    // Cerca un testo specifico
+    Text = "Approved",
+    
+    // Specificare il tipo di corrispondenza (Contiene, Esatto, Inizia con, Termina con)
+    MatchType = TextMatchType.Contains,
+    
+    // Ricerca con distinzione tra maiuscole e minuscole
+    MatchCase = true
+};
+```
+
+### Ricerca in aree specifiche del documento
+
+È possibile limitare la ricerca ad aree specifiche del documento:
+
+```csharp
+// Crea opzioni di ricerca per un'area specifica del documento
+TextSearchOptions options = new TextSearchOptions
+{
+    // Cerca solo su pagine specifiche
+    AllPages = false,
+    PageNumber = 1,
+    
+    // Oppure specifica più pagine
+    PagesSetup = new PagesSetup { Pages = new List<int> { 1, 3, 5 } },
+    
+    // Definisci un'area specifica in cui effettuare la ricerca
+    Rectangle = new Rectangle(100, 100, 400, 200)
+};
+```
+
+### Filtraggio avanzato del testo
+
+Implementare una logica di filtraggio personalizzata per requisiti di ricerca più complessi:
+
+```csharp
+// Crea opzioni di ricerca con elaborazione personalizzata
+TextSearchOptions options = new TextSearchOptions
+{
+    AllPages = true,
+    
+    // Definisci l'elaborazione personalizzata utilizzando un delegato
+    ProcessCompleted = (TextSignature signature) =>
+    {
+        // Logica di convalida personalizzata
+        bool isValid = signature.Text.Length > 5 && 
+                      (signature.Text.Contains("Approved") || signature.Text.Contains("Verified"));
+        
+        return isValid;
+    }
+};
+```
+
+### Ricerca di diversi stili di testo
+
+Utilizzare le proprietà del carattere e dello stile per filtrare le firme di testo:
+
+```csharp
+// Crea opzioni di ricerca mirate all'aspetto specifico del testo
+TextSearchOptions options = new TextSearchOptions
+{
+    // Filtra per nome del font
+    FontName = "Arial",
+    
+    // Filtra per intervallo di dimensioni del carattere
+    MinFontSize = 10,
+    MaxFontSize = 14,
+    
+    // Filtra per colore del carattere
+    ForeColor = System.Drawing.Color.Blue
+};
+```
+
+### Estrazione dei metadati della firma
+
+Estrarre ed elaborare i metadati associati alle firme di testo:
+
+```csharp
+foreach (TextSignature signature in signatures)
+{
+    // Accedi ai metadati della firma
+    if (signature.Metadata != null && signature.Metadata.Count > 0)
+    {
+        Console.WriteLine("Signature Metadata:");
+        
+        foreach (var item in signature.Metadata)
+        {
+            Console.WriteLine($"  {item.Key}: {item.Value}");
+        }
+    }
+    
+    // Controllare le date di creazione e modifica della firma
+    if (signature.CreatedOn.HasValue)
+    {
+        Console.WriteLine($"Created on: {signature.CreatedOn.Value}");
+    }
+    
+    if (signature.ModifiedOn.HasValue)
+    {
+        Console.WriteLine($"Modified on: {signature.ModifiedOn.Value}");
+    }
+}
+```
 
 ## Conclusione
-In questo tutorial abbiamo esplorato il processo di ricerca delle firme di testo all'interno dei documenti digitali utilizzando GroupDocs.Signature per .NET. Seguendo la guida passo passo e sfruttando gli esempi di codice forniti, gli sviluppatori possono integrare in modo efficiente la funzionalità di ricerca delle firme di testo nelle loro applicazioni .NET, migliorando la gestione dei documenti e le capacità di autenticazione.
+
+In questa guida completa, abbiamo esplorato come cercare firme testuali nei documenti utilizzando GroupDocs.Signature per .NET. Dalle operazioni di ricerca di base alle tecniche avanzate, ora hai le conoscenze necessarie per implementare solide funzionalità di firma testuale nelle tue applicazioni .NET.
+
+GroupDocs.Signature fornisce un framework potente e flessibile per lavorare con le firme di testo, consentendo di creare sistemi sofisticati di verifica dei documenti, soluzioni di flusso di lavoro automatizzate e strumenti di convalida della conformità.
+
 ## Domande frequenti
-### GroupDocs.Signature per .NET è compatibile con tutti i formati di file?
-GroupDocs.Signature per .NET supporta un'ampia gamma di formati di file, inclusi formati popolari come PDF, Word, Excel e altri.
-### Posso personalizzare le opzioni di ricerca per le firme di testo?
-Sì, gli sviluppatori possono personalizzare varie opzioni di ricerca come l'ambito di ricerca, i criteri di corrispondenza del testo e altro in base alle proprie esigenze.
-### GroupDocs.Signature per .NET fornisce supporto per le firme digitali?
-Sì, GroupDocs.Signature per .NET offre un solido supporto per le firme digitali, consentendo agli sviluppatori di firmare digitalmente i documenti con facilità.
-### È disponibile una versione di prova a scopo di valutazione?
- Sì, gli sviluppatori possono accedere a una versione di prova gratuita di GroupDocs.Signature per .NET da[pagina delle uscite](https://releases.groupdocs.com/).
-### Dove posso trovare ulteriore assistenza o supporto per GroupDocs.Signature per .NET?
- Per qualsiasi domanda o assistenza relativa a GroupDocs.Signature per .NET, è possibile visitare il sito[Forum di assistenza](https://forum.groupdocs.com/c/signature/13).
+
+### Posso cercare firme testuali in documenti protetti da password?
+
+Sì, GroupDocs.Signature supporta la ricerca di firme testuali nei documenti protetti da password. È possibile specificare la password durante l'inizializzazione. `Signature` oggetto:
+
+```csharp
+LoadOptions loadOptions = new LoadOptions { Password = "your_password" };
+using (Signature signature = new Signature(filePath, loadOptions))
+{
+    // Cerca firme di testo
+}
+```
+
+### Quali formati di documento sono supportati per la ricerca di firme testuali?
+
+GroupDocs.Signature supporta un'ampia gamma di formati di documenti, tra cui PDF, documenti Microsoft Office (Word, Excel, PowerPoint), formati OpenOffice, immagini e altro ancora.
+
+### Posso cercare firme di testo con formattazioni specifiche, come grassetto o corsivo?
+
+Sì, puoi cercare firme di testo con formattazione specifica utilizzando `FontBold` E `FontItalic` proprietà in `TextSearchOptions`:
+
+```csharp
+TextSearchOptions options = new TextSearchOptions
+{
+    FontBold = true,
+    FontItalic = true
+};
+```
+
+### Come posso migliorare le prestazioni di ricerca per documenti di grandi dimensioni?
+
+Per i documenti di grandi dimensioni, puoi ottimizzare le prestazioni di ricerca:
+
+1. Limitare la ricerca a pagine specifiche anziché cercare nell'intero documento
+2. Utilizzo di criteri di ricerca più specifici per ridurre il numero di corrispondenze
+3. Specificare un'area di ricerca utilizzando `Rectangle` proprietà se sai dove si trovano in genere le firme
+4. Implementazione della paginazione nella tua applicazione per elaborare i risultati della ricerca in batch
+
+### Posso verificare se una firma testuale è stata aggiunta elettronicamente o fa parte del contenuto del documento originale?
+
+GroupDocs.Signature può distinguere tra diversi tipi di elementi di testo nei documenti. `SignatureImplementation` proprietà di `TextSignature` Indica se il testo è una firma formale o il normale contenuto di un documento. Tuttavia, la determinazione definitiva può dipendere da come il testo è stato originariamente aggiunto al documento.
+
+## Vedi anche
+
+* [Riferimento API](https://reference.groupdocs.com/signature/net/)
+* [Esempi di codice su GitHub](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/tree/master/Examples)
+* [Documentazione del prodotto](https://docs.groupdocs.com/signature/net/)
+* [Pagina del prodotto](https://products.groupdocs.com/signature/net/)
+* [Scarica l'ultima versione](https://releases.groupdocs.com/signature/net/)
+* [Articoli del blog](https://blog.groupdocs.com/categories/groupdocs.signature-product-family/)
+* [Forum di supporto gratuito](https://forum.groupdocs.com/c/signature/13)
+* [Licenza temporanea](https://purchase.groupdocs.com/temporary-license/)

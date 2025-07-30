@@ -1,24 +1,29 @@
 ---
-title: Barkod Ara
-linktitle: Barkod Ara
-second_title: GroupDocs.Signature .NET API'si
-description: GroupDocs.Signature for .NET'i kullanarak belgelerde barkod imzalarını nasıl arayacağınızı öğrenin. Adım adım kılavuzumuzu takip edin ve imzayı verimli bir şekilde entegre edin.
-weight: 10
-url: /tr/net/signature-searching/search-for-barcode/
+"description": ".NET için GroupDocs.Signature'ı kullanarak belgelerdeki barkod imzalarını nasıl etkili bir şekilde arayacağınızı kapsamlı adım adım kılavuzumuz ve kod örneklerimizle öğrenin."
+"linktitle": "Barkod Ara"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Belgelerde Barkod İmzalarını Arayın"
+"url": "/tr/net/signature-searching/search-for-barcode/"
+"weight": 10
 ---
 
-# Barkod Ara
-
 ## giriiş
-GroupDocs.Signature for .NET, .NET uygulamalarını kullanarak çeşitli belge formatlarındaki dijital imzaları eklemek ve doğrulamak için güçlü bir araçtır. Bu öğreticide, GroupDocs.Signature for .NET'i kullanarak bir belgede barkod imzalarının nasıl aranacağına odaklanacağız.
-## Önkoşullar
-Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-1.  GroupDocs.Signature for .NET: GroupDocs.Signature for .NET'i indirip yüklediğinizden emin olun. Şuradan indirebilirsiniz[Burada](https://releases.groupdocs.com/signature/net/).
-2. Geliştirme Ortamı: .NET geliştirme için ayarlanmış bir çalışma ortamına sahip olun.
-3. Örnek Belge: Test amaçlı barkod imzalarını içeren örnek bir belge hazırlayın.
+
+Günümüzün dijital belge yönetimi ortamında, belgelerdeki imzaları arayıp doğrulayabilmek, özgünlük ve güvenliği korumak için hayati önem taşımaktadır. GroupDocs.Signature for .NET, barkodlar da dahil olmak üzere çeşitli imza türleriyle ve farklı belge formatlarıyla çalışmak için güçlü bir çözüm sunar. Bu eğitim, GroupDocs.Signature kullanarak .NET uygulamalarınızda barkod imza arama işlevini uygulama sürecinde size rehberlik edecektir.
+
+## Ön koşullar
+
+Bu eğitime başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
+
+1. GroupDocs.Signature for .NET: En son sürümü şu adresten indirin ve yükleyin: [Burada](https://releases.groupdocs.com/signature/net/).
+2. Geliştirme Ortamı: Çalışan bir .NET geliştirme ortamı (Visual Studio gibi) kurun.
+3. Temel C# Bilgisi: C# programlama dili ve .NET framework kavramlarına aşinalık.
+4. Örnek Belgeler: Test amaçlı barkod imzaları içeren belgeleri hazırlayın.
 
 ## Ad Alanlarını İçe Aktarma
-GroupDocs.Signature'ı kodunuzda kullanabilmeniz için gerekli ad alanlarını içe aktarmanız gerekir:
+
+Barkod imza arama işlevselliğini uygulamaya başlamak için, C# kodunuza gerekli ad alanlarını içe aktarmanız gerekir:
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -27,44 +32,143 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
-## 1. Adım: Belge Yolunu Tanımlayın
-Öncelikle barkod imzalarını içeren belgenin yolunu belirtin:
+Şimdi barkod imzalarını arama sürecini detaylı açıklamalarla basit, yönetilebilir adımlara bölelim:
+
+## Adım 1: Belge Yolunu Tanımlayın
+
+Öncelikle barkod imzalarını aramak istediğiniz belgenin yolunu belirtin:
+
 ```csharp
 string filePath = "sample_multiple_signatures.docx";
 ```
+
 ## Adım 2: İmza Nesnesini Başlatın
- Bir örneğini oluşturun`Signature` belge yolunu ileterek sınıf:
+
+Bir örneğini oluşturun `Signature` Belge yolunu geçirerek sınıf. Bir `using` Açıklama kaynakların uygun şekilde bertaraf edilmesini sağlar:
+
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    // İmza arama kodu buraya gelecek
-}
-```
-## 3. Adım: Barkod İmzalarını Arayın
-Belgedeki barkod imzalarını arayın:
-```csharp
-List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(SignatureType.Barcode);
-```
-## Adım 4: Sonuçları Görüntüleyin
-Bulunan barkod imzalarını yineleyin ve ayrıntılarını görüntüleyin:
-```csharp
-Console.WriteLine($"\nSource document ['{filePath}'] contains the following signatures.");
-foreach (var barcodeSignature in signatures)
-{
-    Console.WriteLine($"Barcode signature found at page {barcodeSignature.PageNumber} with type {barcodeSignature.EncodeType.TypeName} and text {barcodeSignature.Text}");
+    // İmza araması için kod buraya gelecek
 }
 ```
 
+## Adım 3: Barkod İmzalarını Arayın
+
+Şimdi, belgenin içindeki barkod imzalarını aramak için şunu çağırın: `Search` yöntem ve imza türünü belirterek `BarcodeSignature`:
+
+```csharp
+List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(SignatureType.Barcode);
+```
+
+## Adım 4: Sonuçları Görüntüle
+
+Bulunan barkod imzalarını inceleyin ve ayrıntılarını görüntüleyin:
+
+```csharp
+Console.WriteLine($"\nSource document ['{filePath}'] contains the following barcode signatures:");
+foreach (var barcodeSignature in signatures)
+{
+    Console.WriteLine($"Barcode signature found at page {barcodeSignature.PageNumber} with type {barcodeSignature.EncodeType.TypeName} and text '{barcodeSignature.Text}'");
+}
+```
+
+## Kapsamlı Örnek
+
+İşte tüm adımları bir araya getiren eksiksiz bir çalışma örneği:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using GroupDocs.Signature;
+using GroupDocs.Signature.Domain;
+using GroupDocs.Signature.Options;
+
+namespace BarcodeSignatureSearch
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Belge yolu
+            string filePath = "sample_multiple_signatures.docx";
+            
+            // İmza örneğini başlat
+            using (Signature signature = new Signature(filePath))
+            {
+                // Belgede barkod imzalarını arayın
+                List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(SignatureType.Barcode);
+                
+                // Arama sonuçlarını görüntüle
+                Console.WriteLine($"\nSource document ['{filePath}'] contains the following barcode signatures:");
+                foreach (var barcodeSignature in signatures)
+                {
+                    Console.WriteLine($"Barcode signature found at page {barcodeSignature.PageNumber} with type {barcodeSignature.EncodeType.TypeName} and text '{barcodeSignature.Text}'");
+                }
+            }
+        }
+    }
+}
+```
+
+## Gelişmiş Arama Seçenekleri
+
+Daha hassas barkod imzası aramaları için şunu kullanabilirsiniz: `BarcodeSearchOptions` arama kriterlerinizi özelleştirmek için:
+
+```csharp
+// Arama seçenekleri oluşturun
+BarcodeSearchOptions options = new BarcodeSearchOptions
+{
+    // Tüm sayfalarda ara
+    AllPages = true,
+    
+    // Eşleşecek metni belirtin
+    Text = "Invoice",
+    
+    // Eşleşme türünü belirtin (İçerir, Tam, Başlangıç, Bitiş)
+    MatchType = TextMatchType.Contains,
+    
+    // Aranacak belirli barkod türlerini belirtin
+    EncodeType = BarcodeTypes.Code128
+};
+
+// Belirli seçeneklerle arama yapın
+List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
+```
+
 ## Çözüm
-Bu eğitimde, GroupDocs.Signature for .NET'i kullanarak bir belgedeki barkod imzalarını nasıl arayacağımızı öğrendik. Adım adım kılavuzu takip ederek ve sağlanan kod örneklerini kullanarak imza arama işlevini .NET uygulamalarınıza verimli bir şekilde entegre edebilirsiniz.
-### SSS'ler
+
+Bu eğitimde, .NET için GroupDocs.Signature kullanarak belgelerde barkod imzalarının nasıl aranacağını inceledik. Adım adım kılavuzu izleyerek ve sunulan kod örneklerinden yararlanarak, bu işlevi .NET uygulamalarınıza kolayca entegre edebilir, belge güvenliğini ve doğrulama süreçlerini geliştirebilirsiniz. GroupDocs.Signature, farklı imza türleriyle çalışmak için sağlam bir çerçeve sunarak, özgünlük ve bütünlüğün ön planda olduğu belge yönetim sistemleri için mükemmel bir seçimdir.
+
+## SSS
+
 ### GroupDocs.Signature aynı anda birden fazla imza türünü arayabilir mi?
-Evet, GroupDocs.Signature, barkod imzaları, metin imzaları ve daha fazlasını içeren birden çok imza türünün aranmasını destekler.
-### GroupDocs.Signature for .NET'in deneme sürümü mevcut mu?
- Evet, deneme sürümüne şuradan ulaşabilirsiniz:[Burada](https://releases.groupdocs.com/).
-### GroupDocs.Signature for .NET'i herhangi bir belge formatında kullanabilir miyim?
-GroupDocs.Signature, PDF, Word, Excel ve PowerPoint dahil çok çeşitli belge formatlarını destekler.
-### GroupDocs.Signature for .NET için nasıl geçici lisans alabilirim?
- adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.groupdocs.com/temporary-license/).
-### .NET için GroupDocs.Signature desteğini nerede bulabilirim?
-GroupDocs.Signature forumunda destek bulabilir ve soru sorabilirsiniz.[Burada](https://forum.groupdocs.com/c/signature/13).
+
+Evet, GroupDocs.Signature, tek bir işlemde birden fazla imza türünü (barkod, QR kodu, metin, dijital imzalar vb.) arayabilir. `Search` Farklı arama seçeneklerinin listelendiği bir yöntem.
+
+### Barkod imza araması için hangi belge biçimleri destekleniyor?
+
+GroupDocs.Signature, PDF, Word (DOC, DOCX), Excel (XLS, XLSX), PowerPoint (PPT, PPTX), resimler ve daha fazlası dahil olmak üzere çok çeşitli belge biçimlerini destekler.
+
+### Barkod arama kriterlerini özelleştirebilir miyim?
+
+Evet, arama kriterlerini kullanarak özelleştirebilirsiniz `BarcodeSearchOptions` Eşleştirilecek metin, eşleştirme türü, belirli barkod türleri ve tüm sayfalarda mı yoksa belirli sayfalarda mı arama yapılacağı gibi parametreleri belirtmek için.
+
+### Algılanabilecek barkod imzalarının sayısında bir sınır var mıdır?
+
+Algılanabilecek barkod imzalarının sayısında belirli bir sınır yoktur. GroupDocs.Signature, arama kriterlerinize uyan tüm barkod imzalarını bulacaktır.
+
+### Şifreyle korunan belgelerde barkod imzalarını arayabilir miyim?
+
+Evet, GroupDocs.Signature, başlatırken parolayı sağlayarak parola korumalı belgelerde barkod imzalarını aramanıza olanak tanır. `Signature` nesne.
+
+## Ayrıca bakınız
+
+* [API Referansı](https://reference.groupdocs.com/signature/net/)
+* [Kod Örnekleri](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/tree/master/Examples)
+* [Ürün Dokümantasyonu](https://docs.groupdocs.com/signature/net/)
+* [Ürün Sayfası](https://products.groupdocs.com/signature/net/)
+* [Blog Yazıları](https://blog.groupdocs.com/categories/groupdocs.signature-product-family/)
+* [Ücretsiz Destek Forumu](https://forum.groupdocs.com/c/signature/13)
+* [Geçici Lisans](https://purchase.groupdocs.com/temporary-license/)
+* [En Son Sürümü İndirin](https://releases.groupdocs.com/signature/net/)

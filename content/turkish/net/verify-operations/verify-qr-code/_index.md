@@ -1,23 +1,30 @@
 ---
-title: QR Kodunu Doğrulayın
-linktitle: QR Kodunu Doğrulayın
-second_title: GroupDocs.Signature .NET API'si
-description: GroupDocs.Signature for .NET'i kullanarak belgelerdeki QR kodlarını nasıl doğrulayacağınızı öğrenin. Adım adım kılavuzla kapsamlı eğitim.
-weight: 12
-url: /tr/net/verify-operations/verify-qr-code/
+"description": "GroupDocs.Signature for .NET kullanarak belgelerdeki QR kodlarını nasıl doğrulayacağınızı öğrenin. Belge kimlik doğrulaması için kod örnekleri ve en iyi uygulamaları içeren kapsamlı kılavuz."
+"linktitle": "QR Kodunu Doğrula"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Belgelerdeki QR Kodunu Doğrulayın"
+"url": "/tr/net/verify-operations/verify-qr-code/"
+"weight": 12
 ---
 
-# QR Kodunu Doğrulayın
-
 ## giriiş
-Belge yönetimi ve kimlik doğrulama alanında imzaların bütünlüğünün ve geçerliliğinin sağlanması çok önemlidir. GroupDocs.Signature for .NET, belgelere gömülü QR kodlarını doğrulamak için kapsamlı bir çözüm sunar. Bu öğreticide, GroupDocs.Signature for .NET'i kullanarak QR kodlarını doğrulama sürecini adım adım ele alacağız.
-## Önkoşullar
-Doğrulama sürecine dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-1.  GroupDocs.Signature for .NET kurulumu: GroupDocs.Signature for .NET'i şu adresten indirip yükleyin:[İndirme: {link](https://releases.groupdocs.com/signature/net/).
-2. QR Kod İçeren Belgeye Erişim: Doğrulama için QR kod içeren örnek belge hazırlayın. 
+
+Belge güvenliği, modern iş operasyonlarının kritik bir unsurudur. QR kodları, belgelerin içine gerçekliğini doğrulayabilen bilgileri yerleştirmek için giderek daha popüler bir yöntem haline gelmiştir. GroupDocs.Signature for .NET, çeşitli formatlardaki belgelere yerleştirilmiş QR kodlarını doğrulamak için güçlü ve esnek bir çözüm sunar.
+
+Bu kapsamlı eğitim, .NET uygulamalarınızda QR kod doğrulamasını uygulama sürecinde size rehberlik edecek ve belgelerinizin bütünlüğünü ve orijinalliğini korumasını sağlayacaktır.
+
+## Ön koşullar
+
+QR kod doğrulama işlevini uygulamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
+
+1. GroupDocs.Signature for .NET: Kitaplığı şu adresten indirin ve yükleyin: [indirme sayfası](https://releases.groupdocs.com/signature/net/).
+2. Geliştirme Ortamı: Visual Studio veya uyumlu herhangi bir .NET geliştirme ortamı.
+3. Test Belgesi: Doğrulama amaçlı QR kod imzalarını içeren belge.
+4. Temel Bilgi: C# programlama ve .NET framework kavramlarına aşinalık.
 
 ## Ad Alanlarını İçe Aktar
-Öncelikle GroupDocs.Signature for .NET tarafından sağlanan işlevleri kullanmak için gerekli ad alanlarını içe aktarmanız gerekir. Bu adımları takip et:
+
+GroupDocs.Signature işlevine erişmek için gerekli ad alanlarını içe aktararak başlayın:
 
 ```csharp
 using System;
@@ -26,59 +33,214 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
+## Adım Adım QR Kod Doğrulama Süreci
 
-Şimdi GroupDocs.Signature for .NET'i kullanarak bir belgeye gömülü QR kodlarını doğrulama sürecini ayrıntılı olarak inceleyelim:
-## 1. Adım: Belge Yolunu Belirleyin
+Belgelerinizdeki QR kodlarını doğrulamak için şu detaylı adımları izleyin:
+
+### Adım 1: Belge Yolunu Belirleyin
+
 ```csharp
+// QR kod imzalarını içeren belgenin yolunu sağlayın
 string filePath = "sample_multiple_signatures.docx";
 ```
- Değiştirildiğinden emin olun`"sample_multiple_signatures.docx"` belgenizin yolu ile birlikte.
-## Adım 2: İmza Nesnesini Başlatın
+
+Örnek yolu, belgenizin gerçek yoluyla değiştirdiğinizden emin olun.
+
+### Adım 2: İmza Nesnesini Başlatın
+
 ```csharp
+// Belge yolunu ileterek bir İmza örneği oluşturun
 using (Signature signature = new Signature(filePath))
 {
-    //Doğrulama kodu buraya gelecek
+    // Doğrulama kodu burada uygulanacaktır
 }
 ```
- Bir başlat`Signature` belgenin yolunu sağlayarak nesneyi.
-## 3. Adım: Doğrulama Seçeneklerini Belirleyin
+
+Signature sınıfı, GroupDocs.Signature API'sindeki tüm işlemler için ana giriş noktasıdır.
+
+### Adım 3: QR Kod Doğrulama Seçeneklerini Yapılandırın
+
 ```csharp
+// QR kod doğrulama seçeneklerini tanımlayın
 QrCodeVerifyOptions options = new QrCodeVerifyOptions()
 {
-    AllPages = true, // bu değer varsayılan olarak ayarlanmıştır
-    Text = "John",
-    MatchType = TextMatchType.Contains
+    AllPages = true, // Belgenin tüm sayfalarını kontrol edin
+    Text = "John",   // QR kodunda doğrulanacak metin
+    MatchType = TextMatchType.Contains // Metin eşleştirme kriterlerini belirtin
 };
 ```
- Aşağıdaki gibi doğrulama seçeneklerini tanımlayın:`AllPages` tüm sayfaları doğrulamak için,`Text` QR kodunda eşleştirilecek metni belirtmek için ve`MatchType` Eşleştirme kriterlerini tanımlamak için.
-## 4. Adım: Belge İmzalarını Doğrulayın
+
+Doğrulama seçenekleri, doğrulama süreci için belirli kriterleri tanımlamanıza olanak tanır:
+- `AllPages`: Tüm belge sayfalarını kontrol etmek için doğru olarak ayarlayın (varsayılan davranış)
+- `Text`: QR kodunda eşleşecek metin içeriği
+- `MatchType`: Metin eşleştirme yöntemi (İçerir, Tam, Başlar, vb.)
+
+### Adım 4: Doğrulama İşlemini Gerçekleştirin
+
 ```csharp
+// Doğrulamayı gerçekleştirin
 VerificationResult result = signature.Verify(options);
 ```
- Çağır`Verify` yöntemi`Signature` doğrulama seçeneklerini geçerek nesne.
-## 5. Adım: Doğrulama Sonuçlarını İşleyin
+
+Bu, belirttiğiniz seçeneklere göre doğrulama işlemini gerçekleştirir.
+
+### Adım 5: İşlem Doğrulama Sonuçları
+
 ```csharp
+// Doğrulama sonucunu kontrol edin ve buna göre işlem yapın
 if (result.IsValid)
 {
-    // Geçerli imza bulundu
+    Console.WriteLine($"Document {filePath} contains valid QR code signature!");
+    
+    // Başarılı imzalar hakkında bilgi görüntüle
+    foreach (QrCodeSignature signature in result.Succeeded)
+    {
+        Console.WriteLine($"Found valid QR Code signature with text: {signature.Text}");
+        Console.WriteLine($"QR Code type: {signature.EncodeType.TypeName}");
+        Console.WriteLine($"Location: Page {signature.PageNumber}, {signature.Left}x{signature.Top}");
+    }
 }
 else
 {
-    // Geçersiz imza bulundu
+    Console.WriteLine($"Document {filePath} failed verification process.");
+    Console.WriteLine($"Number of failed signatures: {result.Failed.Count}");
 }
 ```
-Doğrulama sonucuna göre başarı veya başarısızlık senaryolarını buna göre ele alın.
+
+Doğrulama sonucunun doğru bir şekilde işlenmesi, uygulamanızın doğrulama sonucuna göre uygun eylemleri gerçekleştirmesini sağlar.
+
+## Tam Örnek
+
+İşte QR kod doğrulamasını gösteren eksiksiz, çalışan bir örnek:
+
+```csharp
+using System;
+using GroupDocs.Signature;
+using GroupDocs.Signature.Domain;
+using GroupDocs.Signature.Options;
+
+namespace GroupDocs.Signature.Examples
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Belge yolu
+            string filePath = "sample_multiple_signatures.docx";
+            
+            // İmza örneğini başlat
+            using (Signature signature = new Signature(filePath))
+            {
+                // Kurulum doğrulama seçenekleri
+                QrCodeVerifyOptions options = new QrCodeVerifyOptions()
+                {
+                    AllPages = true,
+                    Text = "John",
+                    MatchType = TextMatchType.Contains
+                };
+                
+                // Belge imzalarını doğrulayın
+                VerificationResult result = signature.Verify(options);
+                
+                // İşlem doğrulama sonuçları
+                if (result.IsValid)
+                {
+                    Console.WriteLine($"Document {filePath} contains valid QR code signature!");
+                    
+                    foreach (QrCodeSignature qrSignature in result.Succeeded)
+                    {
+                        Console.WriteLine($"Found valid QR Code with text: {qrSignature.Text}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"Document {filePath} failed verification process.");
+                }
+            }
+        }
+    }
+}
+```
+
+## Gelişmiş Doğrulama Seçenekleri
+
+GroupDocs.Signature, daha karmaşık doğrulama senaryoları için ek seçenekler sunar:
+
+### Belirli QR Kod Türlerini Doğrulama
+
+```csharp
+QrCodeVerifyOptions options = new QrCodeVerifyOptions()
+{
+    EncodeType = QrCodeTypes.QR,  // Yalnızca standart QR kodlarını doğrulayın
+    Text = "Confidential",
+    MatchType = TextMatchType.Exact
+};
+```
+
+### Belirli Sayfalarda Doğrulama
+
+```csharp
+QrCodeVerifyOptions options = new QrCodeVerifyOptions()
+{
+    AllPages = false,
+    PageNumber = 2,  // Yalnızca 2. sayfada doğrulayın
+    Text = "Approved"
+};
+```
+
+### Doğrulama İçin Düzenli İfadelerin Kullanımı
+
+```csharp
+QrCodeVerifyOptions options = new QrCodeVerifyOptions()
+{
+    Text = "INV-\\d{6}",  // Fatura numaralarını eşleştirin (örneğin, INV-123456)
+    MatchType = TextMatchType.Regex
+};
+```
+
+## QR Kod Doğrulaması için En İyi Uygulamalar
+
+1. Girişleri her zaman doğrulayın: İşleme başlamadan önce belge yollarının ve doğrulama kriterlerinin geçerli olduğundan emin olun.
+2. Hata işlemeyi uygulayın: Doğrulama sırasında olası istisnaları işlemek için try-catch bloklarını kullanın.
+3. Performansı göz önünde bulundurun: Büyük belgeler için tüm belgeyi doğrulamak yerine belirli sayfaları doğrulamayı düşünün.
+4. Doğrulama sonuçlarını kaydedin: Denetim amacıyla doğrulama süreçlerinin kayıtlarını tutun.
+5. Çeşitli belge formatlarıyla test edin: Doğrulamanızın tüm gerekli belge formatlarında çalıştığından emin olun.
 
 ## Çözüm
-Bu öğreticide, GroupDocs.Signature for .NET'i kullanarak belgelerdeki QR kodlarını doğrulama sürecini inceledik. Bu adımları izleyerek, QR kodu doğrulama işlevini .NET uygulamalarınıza sorunsuz bir şekilde entegre ederek belge bütünlüğünü ve orijinalliğini sağlayabilirsiniz.
-## SSS'ler
-### GroupDocs.Signature for .NET farklı belge formatlarındaki QR kodlarını doğrulayabilir mi?
-Evet, GroupDocs.Signature for .NET, QR kodu doğrulaması için DOCX, PDF ve daha fazlasını içeren çok çeşitli belge formatlarını destekler.
-### GroupDocs.Signature for .NET'in ücretsiz deneme sürümü var mı?
- Evet, ücretsiz deneme sürümünden yararlanabilirsiniz.[sürümler sayfası](https://releases.groupdocs.com/).
-### .NET kullanıcıları için GroupDocs.Signature'a yönelik hangi destek seçenekleri mevcuttur?
- Kullanıcılar desteğe şu adresten erişebilir:[forum](https://forum.groupdocs.com/c/signature/13) GroupDocs.Signature için.
-### GroupDocs.Signature for .NET için geçici bir lisans satın alabilir miyim?
- Evet, geçici lisanslar şu adresten satın alınabilir:[GroupDocs satın alma sayfası](https://purchase.groupdocs.com/temporary-license/).
-### GroupDocs.Signature for .NET'e yönelik kapsamlı belgeler mevcut mu?
- Kesinlikle, sağlanan ayrıntılı belgelere başvurabilirsiniz.[Burada](https://tutorials.groupdocs.com/signature/net/) GroupDocs.Signature for .NET işlevlerinin kullanımına ilişkin kapsamlı rehberlik için.
+
+Belgelerdeki QR kodlarını doğrulamak, belgenin gerçekliğini ve bütünlüğünü sağlamanın önemli bir parçasıdır. GroupDocs.Signature for .NET, .NET uygulamalarınızda QR kod doğrulamasını uygulamak için kapsamlı ve kullanıcı dostu bir API sağlar.
+
+Bu eğitimi takip ederek şunları öğrendiniz:
+- Doğrulama sürecini yapılandırın ve başlatın
+- Çeşitli doğrulama kriterlerini belirtin
+- Doğrulama sonuçlarını işleyin ve yorumlayın
+- Gelişmiş doğrulama seçeneklerini uygulayın
+
+Bu bilgi, belge yönetim sistemlerinizin güvenliğini ve güvenilirliğini artırmanıza olanak tanır.
+
+## SSS
+
+### GroupDocs.Signature tek bir belgedeki birden fazla QR kodunu doğrulayabilir mi?
+Evet, GroupDocs.Signature tek bir belgedeki birden fazla QR kodunu doğrulayabilir. Doğrulama sonuçları, eşleşen tüm QR kodlarını içerecektir.
+
+### QR kod doğrulaması için hangi belge formatları destekleniyor?
+GroupDocs.Signature, PDF, Word (DOC, DOCX), Excel (XLS, XLSX), PowerPoint (PPT, PPTX), resimler ve daha fazlası dahil olmak üzere çok çeşitli belge biçimlerini destekler.
+
+### Belirli bir şifreleme veya biçimlendirme ile QR kodlarını doğrulayabilir miyim?
+Evet, GroupDocs.Signature, QR kodlarını belirli kodlama türleri ve içerik biçimlendirme desenleriyle doğrulamak için seçenekler sunar.
+
+### Üçüncü parti uygulamalar tarafından oluşturulan QR kodlarının doğrulanması mümkün müdür?
+Evet, GroupDocs.Signature, standart QR kod formatlarını takip ettikleri sürece çoğu uygulama tarafından oluşturulan standart QR kodlarını doğrulayabilir.
+
+### Metin yerine ikili veri içeren QR kodlarını nasıl işlerim?
+GroupDocs.Signature, ikili verilerle QR kodlarını doğrulamak için seçenekler sunar `BinaryData` Doğrulama seçeneklerinin özelliği.
+
+### İlgili Kaynaklar
+* [GroupDocs.Signature API Referansı](https://reference.groupdocs.com/signature/net/)
+* [GroupDocs.Signature İndirmeleri](https://releases.groupdocs.com/signature/net/)
+* [GitHub'daki Kod Örnekleri](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/tree/master/Examples)
+* [Belgeleme](https://docs.groupdocs.com/signature/net/)
+* [Ürün Sayfası](https://products.groupdocs.com/signature/net/)
+* [Blog Yazıları](https://blog.groupdocs.com/categories/groupdocs.signature-product-family/)
+* [Destek Forumu](https://forum.groupdocs.com/c/signature/13)
+* [Geçici Lisans](https://purchase.groupdocs.com/temporary-license/)

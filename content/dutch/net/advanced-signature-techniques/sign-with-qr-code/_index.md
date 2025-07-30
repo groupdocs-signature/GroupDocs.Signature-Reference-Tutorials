@@ -1,24 +1,43 @@
 ---
-title: Documenten ondertekenen met QR-code met GroupDocs.Signature
-linktitle: Ondertekenen met QR-code
-second_title: GroupDocs.Signature .NET API
-description: Leer hoe u QR-codehandtekeningen aan uw documenten kunt toevoegen met GroupDocs.Signature voor .NET. Verbeter moeiteloos de beveiliging en authenticatie.
-weight: 15
-url: /nl/net/advanced-signature-techniques/sign-with-qr-code/
+"description": "Leer hoe u de beveiliging van documenten kunt verbeteren door QR-codehandtekeningen toe te voegen met GroupDocs.Signature voor .NET. Eenvoudige implementatie met complete codevoorbeelden."
+"linktitle": "Ondertekenen met QR-code"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Documenten ondertekenen met QR-codes met GroupDocs.Signature"
+"url": "/nl/net/advanced-signature-techniques/sign-with-qr-code/"
+"weight": 15
 ---
 
-# Documenten ondertekenen met QR-code met GroupDocs.Signature
+# QR-codehandtekeningen toevoegen aan documenten met GroupDocs.Signature
 
-## Invoering
-In deze zelfstudie doorlopen we het proces van het ondertekenen van documenten met een QR-code met behulp van GroupDocs.Signature voor .NET. GroupDocs.Signature voor .NET is een krachtige API waarmee ontwikkelaars programmatisch verschillende soorten handtekeningen aan digitale documenten kunnen toevoegen. Het ondertekenen van documenten met QR-codes kan een extra beveiligings- en authenticatielaag voor uw documenten bieden.
-## Vereisten
-Voordat we beginnen, zorg ervoor dat de volgende vereisten zijn geïnstalleerd:
-1.  GroupDocs.Signature voor .NET: u kunt de bibliotheek downloaden van de[website](https://releases.groupdocs.com/signature/net/).
-2. Ontwikkelomgeving: Zorg ervoor dat er een .NET-ontwikkelomgeving op uw computer is geïnstalleerd.
-3. Voorbeelddocument: bereid een voorbeelddocument voor (bijvoorbeeld PDF) dat u wilt ondertekenen met een QR-code.
+Heb je je ooit afgevraagd hoe je een extra beveiligings- en authenticatielaag aan je digitale documenten kunt toevoegen? QR-codehandtekeningen zijn misschien precies wat je zoekt. In deze gebruiksvriendelijke handleiding leiden we je door het hele proces van het implementeren van QR-codehandtekeningen met GroupDocs.Signature voor .NET.
 
-## Noodzakelijke naamruimten importeren
-Laten we, voordat we in de code duiken, de benodigde naamruimten importeren:
+## Waarom zou u QR-codes in documenten willen gebruiken?
+
+QR-codes zijn niet alleen bedoeld voor restaurantmenu's en marketingmateriaal. Wanneer ze geïntegreerd zijn in uw documentworkflow, kunnen ze:
+
+- Zorg voor onmiddellijke verificatie van de authenticiteit van documenten
+- Sla belangrijke metagegevens op die uw document visueel niet rommelig maken
+- Snelle toegang tot gerelateerde digitale bronnen mogelijk maken
+- Creëer een brug tussen uw fysieke en digitale documentatiesystemen
+
+Laten we eens kijken hoe u deze krachtige functie in uw .NET-toepassingen kunt implementeren!
+
+## Wat u nodig hebt voordat u begint
+
+Voordat we met de code aan de slag gaan, zorg ervoor dat je alles klaar hebt:
+
+1. GroupDocs.Signature voor .NET: U kunt deze krachtige bibliotheek rechtstreeks downloaden van de [GroupDocs-website](https://releases.groupdocs.com/signature/net/).
+
+2. Een .NET-ontwikkelomgeving: Elke recente versie van Visual Studio is perfect voor onze doeleinden.
+
+3. Een testdocument: pak een PDF, Word of ander ondersteund document waarmee u wilt experimenteren.
+
+Zodra u deze essentiële zaken op orde hebt, bent u klaar om QR-codehandtekeningen te implementeren!
+
+## Uw project instellen met de juiste naamruimten
+
+Allereerst moeten we de benodigde naamruimten importeren om toegang te krijgen tot alle functionaliteit die we nodig hebben:
+
 ```csharp
 using System;
 using System.IO;
@@ -27,22 +46,37 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
-## Stap 1: Definieer bestandspaden
+Deze naamruimten geven ons toegang tot de kernfunctionaliteit van de GroupDocs.Signature-bibliotheek, inclusief de specifieke opties voor QR-codehandtekeningen.
+
+## Hoe definieert u uw documentpaden?
+
+Laten we de bestandspaden voor ons brondocument instellen en waar we de ondertekende versie willen opslaan:
+
 ```csharp
 string filePath = "sample.pdf";
 string fileName = Path.GetFileName(filePath);
 string outputFilePath = Path.Combine("Your Document Directory", "SignWithQRCode", fileName);
 ```
- Zorg ervoor dat u deze vervangt`"Your Document Directory"` met het pad naar de map waar u het ondertekende document wilt opslaan.
-## Stap 2: Initialiseer het handtekeningobject
+
+Vergeet niet te vervangen `"Your Document Directory"` met het daadwerkelijke pad waar u uw ondertekende document wilt opslaan. Een goede bestandsorganisatie bespaart u later hoofdpijn!
+
+## Uw handtekeningobject maken
+
+Nu gaan we een initialiseren `Signature` object dat al onze documentondertekeningsbehoeften zal afhandelen:
+
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    //Code voor ondertekening vindt u hier
+    // We zullen hier in de volgende stappen onze ondertekeningscode toevoegen
 }
 ```
- Initialiseer een`Signature` object met het pad naar het document dat u wilt ondertekenen.
-## Stap 3: Maak QRCodeSignOptions
+
+Dit object dient als onze hoofdinterface voor het document dat we willen wijzigen. `using` Met deze verklaring zorgen we ervoor dat alle bronnen op de juiste manier worden afgevoerd als we klaar zijn.
+
+## Hoe u uw QR-codehandtekening configureert
+
+Hier gebeurt de magie: we maken en personaliseren onze QR-codehandtekening:
+
 ```csharp
 QrCodeSignOptions options = new QrCodeSignOptions("JohnSmith")
 {
@@ -53,29 +87,70 @@ QrCodeSignOptions options = new QrCodeSignOptions("JohnSmith")
     Height = 200
 };
 ```
- Maak een`QrCodeSignOptions` object met de gewenste instellingen voor de QR-codehandtekening. U kunt parameters aanpassen, zoals de te coderen tekst, de positie en de afmetingen van de QR-code.
-## Stap 4: Onderteken het document
+
+In dit voorbeeld coderen we "JohnSmith" in onze QR-code, maar u kunt elke gewenste tekst toevoegen - bijvoorbeeld een verificatie-URL, een digitale handtekening of documentmetadata. We positioneren de QR-code ook 50 pixels vanaf de linkerkant en 150 pixels vanaf de bovenkant van de pagina, met afmetingen van 200x200 pixels.
+
+## De QR-code op uw document toepassen
+
+Nadat u uw opties hebt geconfigureerd, is het toepassen van de handtekening verrassend eenvoudig:
+
 ```csharp
 SignResult result = signature.Sign(outputFilePath, options);
 ```
- Gebruik de`Sign` werkwijze van de`Signature` bezwaar maken om het document met de opgegeven opties te ondertekenen. Deze methode retourneert a`SignResult` object dat informatie bevat over het ondertekenproces.
-## Stap 5: Resultaat weergeven
+
+Met deze ene regel code wordt de QR-code op uw document toegepast en wordt het resultaat opgeslagen in het door u opgegeven uitvoerpad. `SignResult` Het object geeft ons informatie over hoe het proces is verlopen.
+
+## Hoe u kunt controleren of alles correct werkt
+
+Tot slot willen we nog wat feedback geven om te bevestigen dat ons ondertekeningsproces succesvol was:
+
 ```csharp
 Console.WriteLine($"\nSource document signed successfully with {result.Succeeded.Count} signature(s).\nFile saved at {outputFilePath}.");
 ```
-Geef een bericht weer dat het succes van het ondertekeningsproces aangeeft en de locatie waar het ondertekende document is opgeslagen.
 
-## Conclusie
-In deze zelfstudie hebben we geleerd hoe u documenten kunt ondertekenen met een QR-code met behulp van GroupDocs.Signature voor .NET. Door deze eenvoudige stappen te volgen, kunt u QR-codehandtekeningen aan uw digitale documenten toevoegen, waardoor de beveiliging en authenticatie worden verbeterd.
+Er wordt een handig bericht weergegeven waarin staat hoeveel handtekeningen er zijn toegevoegd en waar u het nieuw ondertekende document kunt vinden.
 
-## Veelgestelde vragen
-### Kan ik het uiterlijk van de QR-code aanpassen?
-Ja, u kunt verschillende parameters, zoals grootte, positie en coderingstype van de QR-code, aanpassen aan uw vereisten.
-### Welke documentformaten worden ondersteund voor ondertekening met QR-codes?
-GroupDocs.Signature voor .NET ondersteunt een breed scala aan documentformaten, waaronder PDF, Word, Excel, PowerPoint en meer.
-### Is het mogelijk om meerdere documenten in een batchproces te ondertekenen?
-Absoluut, u kunt GroupDocs.Signature voor .NET gebruiken om meerdere documenten tegelijkertijd te ondertekenen, waardoor uw workflow wordt gestroomlijnd.
-### Kan ik de authenticiteit verifiëren van een document dat is ondertekend met een QR-code?
-Ja, GroupDocs.Signature voor .NET biedt verificatiemechanismen om de integriteit en authenticiteit van ondertekende documenten te garanderen.
-### Is er een proefversie beschikbaar om de functionaliteit te testen voordat u deze aanschaft?
- Ja, u kunt een gratis proefversie downloaden van de[website](https://releases.groupdocs.com/) om de functies en mogelijkheden van GroupDocs.Signature voor .NET te evalueren.
+## Toepassingen in de praktijk voor QR-codehandtekeningen
+
+Je vraagt je misschien af hoe je dit in jouw specifieke context kunt gebruiken. Hier zijn enkele praktische toepassingen:
+
+- Juridische documenten: voeg QR-codes toe die linken naar verificatiewebsites of gecodeerde verificatiegegevens bevatten
+- Bedrijfsrapporten: voeg QR-codes toe die linken naar aanvullende online bronnen of bijgewerkte informatie
+- Onderwijsmaterialen: sluit QR-codes in die verbinding maken met videotutorials of interactieve leermiddelen
+- Medische documentatie: gebruik QR-codes om snel toegang te krijgen tot de patiëntgeschiedenis of medicatiegegevens
+
+## Wat is de volgende stap na de implementatie van QR-codehandtekeningen?
+
+Nu u QR-codehandtekeningen aan uw documenten kunt toevoegen, wilt u wellicht andere functies van de GroupDocs.Signature-bibliotheek verkennen, zoals:
+
+- Implementatie van meerdere handtekeningtypen in één document
+- Het creëren van batchverwerkingsworkflows voor het ondertekenen van grote hoeveelheden documenten
+- Het ontwikkelen van verificatiemechanismen om ondertekende documenten te valideren
+- Het verkennen van meer geavanceerde QR-codeopties zoals gecodeerde metagegevens en aangepaste weergaven
+
+## Veelgestelde vragen over QR-code-documenthandtekeningen
+
+### Kan ik aanpassen hoe mijn QR-code in het document wordt weergegeven?
+
+Absoluut! Je hebt volledige controle over het uiterlijk van je QR-code. Naast de positionering en grootte die we hebben laten zien, kun je ook kleuren aanpassen, randen toevoegen en het coderingstype aanpassen aan je specifieke behoeften.
+
+### Welke documentformaten ondersteunen QR-codehandtekeningen?
+
+De GroupDocs.Signature voor .NET-bibliotheek ondersteunt een breed scala aan documentindelingen, waaronder:
+- PDF-documenten
+- Microsoft Word-documenten (.docx, .doc)
+- Excel-spreadsheets
+- PowerPoint-presentaties
+- En nog veel meer
+
+### Is er een manier om meerdere documenten in batch te verwerken?
+
+Jazeker! GroupDocs.Signature maakt batchverwerking eenvoudig. U kunt een eenvoudige lus creëren of geavanceerdere parallelle verwerking gebruiken om meerdere documenten efficiënt te ondertekenen, wat perfect is voor scenario's met een hoog volume.
+
+### Hoe kan ik controleren of een QR-codehandtekening authentiek is?
+
+GroupDocs.Signature biedt uitgebreide verificatiemechanismen waarmee u de integriteit en authenticiteit van documenten die met QR-codes zijn ondertekend, kunt controleren. Zo weet u zeker dat er na ondertekening niet met uw documenten is geknoeid.
+
+### Kan ik deze functionaliteit uitproberen voordat ik tot aankoop overga?
+
+Natuurlijk! GroupDocs biedt een gratis proefversie aan die u kunt downloaden van hun [website](https://releases.groupdocs.com/)Zo kunt u alle functies uitgebreid evalueren en controleren of ze aan uw eisen voldoen voordat u een toezegging doet.

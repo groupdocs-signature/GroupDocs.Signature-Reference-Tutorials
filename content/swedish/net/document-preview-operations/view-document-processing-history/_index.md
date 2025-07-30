@@ -1,65 +1,127 @@
 ---
-title: Visa dokumentbearbetningshistorik
-linktitle: Visa dokumentbearbetningshistorik
-second_title: GroupDocs.Signature .NET API
-description: Upptäck hur du enkelt visar dokumentbearbetningshistorik med GroupDocs.Signature för .NET. Följ vår steg-för-steg-guide för sömlös arbetsflödeshantering.
-weight: 12
-url: /sv/net/document-preview-operations/view-document-processing-history/
+"description": "Spåra dokumenthistorik i .NET med GroupDocs.Signature. Vår steg-för-steg-guide hjälper dig att övervaka signaturprocesser och optimera arbetsflödeshanteringen."
+"linktitle": "Visa dokumentbehandlingshistorik"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Spåra dokumentsignaturhistorik enkelt i .NET"
+"url": "/sv/net/document-preview-operations/view-document-processing-history/"
+"weight": 12
 ---
 
-# Visa dokumentbearbetningshistorik
+# Så här spårar du ditt dokuments signaturhistorik i .NET
 
-## Introduktion
-GroupDocs.Signature för .NET är ett kraftfullt bibliotek som underlättar dokumentbehandling genom att du kan hantera och manipulera dokumentsignaturer sömlöst i dina .NET-applikationer. Oavsett om du har att göra med kontrakt, avtal eller någon annan typ av dokument som kräver signaturer, ger GroupDocs.Signature dig möjlighet att effektivisera ditt arbetsflöde.
-## Förutsättningar
-Innan du börjar använda GroupDocs.Signature för .NET för att se dokumentbearbetningshistorik, se till att du har ställt in följande förutsättningar:
-1.  Installation: Se till att du har installerat GroupDocs.Signature for .NET-biblioteket. Du kan ladda ner den från[släpper sida](https://releases.groupdocs.com/signature/net/).
-2. Dokumentförberedelse: Ha ett dokument redo för bearbetning. Se till att det är i ett format som stöds som DOCX, PDF eller andra.
-3. Grundläggande förståelse för C#: Bekanta dig med grunderna i programmeringsspråket C# eftersom vi kommer att använda det för att interagera med GroupDocs.Signature-biblioteket.
+## Vad kan GroupDocs.Signature göra för dig?
 
-## Importera namnområden
-Först måste du importera de nödvändiga namnområdena för att komma åt funktionerna som tillhandahålls av GroupDocs.Signature för .NET. Så här kan du göra det:
+Har du någonsin undrat vad som hände med det där kontraktet efter att du skickat ut det för signering? Med GroupDocs.Signature för .NET tappar du aldrig greppet igen. Det här kraftfulla biblioteket förändrar hur du hanterar dokumentsignaturer i dina .NET-applikationer, vilket ger dig fullständig insyn i dokumentets resa.
+
+Oavsett om du hanterar kontrakt, avtal eller andra papper som kräver signaturer, hjälper GroupDocs.Signature dig att hålla koll på varje åtgärd som vidtas. Låt oss utforska hur du enkelt kan komma åt och förstå ditt dokuments bearbetningshistorik.
+
+## Komma igång: Vad du behöver
+
+Innan vi börjar, låt oss se till att du har allt klart:
+
+1. Installera biblioteket: Ladda ner och installera GroupDocs.Signature för .NET från [utgivningssida](https://releases.groupdocs.com/signature/net/).
+2. Förbered ditt dokument: Ha ett dokument redo i ett format som stöds, som PDF, DOCX eller andra.
+3. Grundläggande C#-kunskaper: Du behöver förstå grunderna i C# för att kunna följa våra exempel.
+
+När du har markerat dessa rutor är du redo att börja spåra ditt dokuments historik!
+
+## Viktiga namnrymder för ditt projekt
+
+Först och främst – du måste importera rätt namnrymder för att komma åt alla funktioner:
+
 ```csharp
 using System;
 using System.IO;
 using GroupDocs.Signature;
 using GroupDocs.Signature.Domain;
 ```
-## Steg 1: Definiera filsökväg
+
+Dessa importer ger dig tillgång till de kärnfunktioner som vi kommer att använda i den här guiden.
+
+## Steg 1: Var är ditt dokument?
+
+Låt oss börja med att ange vilket dokument du vill granska:
+
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string filePath = "sample_history.docx";
 ```
- I det här steget anger du sökvägen till dokumentet som du vill visa bearbetningshistoriken för. Se till att byta ut`"sample_history.docx"` med den faktiska sökvägen till ditt dokument.
-## Steg 2: Initiera signaturobjekt
+
+Kom ihåg att ersätta "sample_history.docx" med sökvägen till ditt faktiska dokument. Det kan vara ett kontrakt du har skickat ut eller något annat dokument som har gått igenom signaturprocessen.
+
+## Steg 2: Anslut till ditt dokument
+
+Nu ska vi upprätta en koppling till ditt dokument:
+
 ```csharp
 using (Signature signature = new Signature(filePath))
 ```
- Här initierar du en ny instans av`Signature` klass genom att skicka dokumentets sökväg som en parameter. De`using` uttalandet säkerställer korrekt resursförfogande efter att uppgiften är slutförd.
-## Steg 3: Få dokumentinformation
+
+Den här raden skapar ett nytt Signature-objekt som länkar till ditt dokument. "using"-satsen säkerställer att allt rensas upp ordentligt när du är klar.
+
+## Steg 3: Vad finns i ditt dokument?
+
+Dags att kika in och hämta dokumentets information:
+
 ```csharp
 IDocumentInfo documentInfo = signature.GetDocumentInfo();
 ```
- Detta steg hämtar information om dokumentet, inklusive dess bearbetningshistorik, med hjälp av`GetDocumentInfo()` metod för`Signature` objekt.
-## Steg 4: Visa bearbetningshistorik
+
+Det här enkla kommandot hämtar all tillgänglig information om ditt dokument, inklusive dess fullständiga bearbetningshistorik.
+
+## Steg 4: Avslöja dokumentets resa
+
+Nu till den spännande delen – att se exakt vad som har hänt med ditt dokument:
+
 ```csharp
 foreach (ProcessLog processLog in documentInfo.ProcessLogs)
 {
     Console.WriteLine($" - operation [{processLog.Type}] on {processLog.Date.ToShortDateString()}. Succeeded/Failed {processLog.Succeeded}/{processLog.Failed}. Message: {processLog.Message}");
 }
 ```
-I detta sista steg går du igenom bearbetningsloggarna som erhållits från dokumentinformationen och visar dem i ett läsbart format. Varje loggpost innehåller detaljer som typen av utförd operation, operationsdatum, status för framgång/misslyckande och eventuella associerade meddelanden.
 
-## Slutsats
-GroupDocs.Signature för .NET förenklar dokumentbearbetningsuppgifter genom att tillhandahålla robusta funktioner för att hantera dokumentsignaturer effektivt. Med möjligheten att se dokumentbearbetningshistorik kan användare spåra driftens framsteg och säkerställa smidig arbetsflödeshantering.
-## FAQ's
-### Kan GroupDocs.Signature för .NET fungera med krypterade dokument?
-Ja, GroupDocs.Signature stöder arbete med krypterade dokument, vilket ger sömlös integration med krypterade filformat.
-### Finns det en gratis testversion tillgänglig för GroupDocs.Signature för .NET?
- Ja, du kan utforska funktionerna i GroupDocs.Signature genom att komma åt den kostnadsfria provperioden som finns på[den här länken](https://releases.groupdocs.com/).
-### Stöder GroupDocs.Signature flera dokumentformat?
-Absolut, GroupDocs.Signature stöder ett brett utbud av dokumentformat inklusive DOCX, PDF, PPTX och mer, vilket säkerställer flexibilitet vid dokumentbehandling.
-### Hur kan jag få tillfälliga licenser för GroupDocs.Signature för .NET?
- Tillfälliga licenser för GroupDocs.Signature kan erhållas från[den här länken](https://purchase.groupdocs.com/temporary-license/), så att du kan utvärdera produktens fulla potential.
-### Var kan jag söka support för GroupDocs.Signature för .NET?
- För eventuella frågor eller hjälp angående GroupDocs.Signature kan du besöka supportforumet på[den här länken](https://forum.groupdocs.com/c/signature/13).
+Den här koden loopar igenom varje post i dokumentets bearbetningshistorik och visar den i ett läsbart format. Du kommer att se:
+- Vilken typ av operation utfördes
+- När det hände
+- Om det lyckades eller misslyckades
+- Alla meddelanden som är kopplade till åtgärden
+
+Tänk dig att kunna se att John signerade dokumentet på tisdagen, men Marys signatur misslyckades på onsdagen på grund av ett autentiseringsproblem. Det är den typen av insikt du kommer att få!
+
+## Varför använda GroupDocs.Signature för historikspårning?
+
+GroupDocs.Signature för .NET visar inte bara ett dokuments historik – det ger dig möjlighet att ta kontroll över dina dokumentarbetsflöden. Genom att förstå vad som har hänt med dina dokument kan du:
+
+- Identifiera flaskhalsar i era godkännandeprocesser
+- Följ upp med specifika personer när signaturer väntar
+- Felsök misslyckade signeringsförsök
+- Upprätthåll bättre efterlevnadsregister
+- Bygg förtroende hos kunder genom transparens
+
+## Redo att ta kontroll över dina dokumentarbetsflöden?
+
+Med GroupDocs.Signature för .NET behöver du inte längre vara osäker på dina dokuments färd. Du har ett kraftfullt verktyg som ger dig fullständig insyn i varje steg i signeringsprocessen.
+
+Börja implementera den här lösningen idag, så sparar du inte bara tid utan får också värdefulla insikter som kan hjälpa dig att optimera hela ditt dokumenthanteringssystem.
+
+## Vanliga frågor
+
+### Kan jag spåra krypterade dokument med GroupDocs.Signature?
+
+Absolut! GroupDocs.Signature fungerar sömlöst med krypterade dokument, vilket upprätthåller säkerheten samtidigt som det ger dig den insyn du behöver.
+
+### Finns det något sätt att prova GroupDocs.Signature innan man köper?
+
+Ja, du kan utforska alla funktioner med vår kostnadsfria provperiod som finns tillgänglig på [den här länken](https://releases.groupdocs.com/).
+
+### Vilka dokumentformat stöds av GroupDocs.Signature?
+
+Vi stöder ett brett utbud av format, inklusive DOCX, PDF, PPTX och många fler, vilket ger dig flexibilitet mellan dina dokumenttyper.
+
+### Hur kan jag få en tillfällig licens för att utvärdera hela produkten?
+
+Tillfälliga licenser finns tillgängliga på [den här länken](https://purchase.groupdocs.com/temporary-license/), så att du kan testa alla funktioner utan begränsning.
+
+### Var kan jag få hjälp om jag stöter på problem?
+
+Vårt aktiva supportforum på [den här länken](https://forum.groupdocs.com/c/signature/13) är redo att hjälpa till med alla frågor eller utmaningar du stöter på.

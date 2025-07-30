@@ -28,8 +28,10 @@ GroupDocs.Signature provides a comprehensive document signing solution that enab
 - **Batch Processing** - Sign multiple documents efficiently in batch operations
 
 ## GroupDocs.Signature for .NET Tutorials
+
 {{% alert color="primary" %}}
 Master GroupDocs.Signature for .NET with our comprehensive step-by-step guides and ready-to-use code examples. From basic implementation to advanced security workflows, our tutorials cover the complete signature lifecycle including creating, applying, verifying, and managing digital signatures in C# applications.
+
 {{% /alert %}}
 
 Explore these essential GroupDocs.Signature for .NET implementation topics:
@@ -110,8 +112,10 @@ Modify existing signatures with support for property changes, metadata updates, 
 Build robust verification workflows with certificate validation, timestamp verification, and tamper detection.
 
 ## GroupDocs.Signature for Java Tutorials
+
 {{% alert color="primary" %}}
 Explore our comprehensive Java guides for implementing secure digital signatures in your applications. Our tutorials provide detailed implementation steps, practical examples, and best practices for creating robust document signing solutions across all major platforms including Android.
+
 {{% /alert %}}
 
 Discover these essential GroupDocs.Signature for Java development resources:

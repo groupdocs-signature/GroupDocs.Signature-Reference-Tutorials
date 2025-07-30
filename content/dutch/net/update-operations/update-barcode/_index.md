@@ -1,24 +1,28 @@
 ---
-title: Streepjescode bijwerken
-linktitle: Streepjescode bijwerken
-second_title: GroupDocs.Signature .NET API
-description: Leer hoe u streepjescodehandtekeningen in documenten kunt bijwerken met GroupDocs.Signature voor .NET. Stapsgewijze handleiding voor naadloze integratie.
-weight: 10
-url: /nl/net/update-operations/update-barcode/
+"description": "Leer hoe u barcodehandtekeningen in meerdere documentformaten programmatisch kunt bijwerken met GroupDocs.Signature voor .NET. Uitgebreide tutorial voor ontwikkelaars die oplossingen voor documentbeheer bouwen."
+"linktitle": "Barcode bijwerken"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Barcodehandtekeningen in documenten bijwerken"
+"url": "/nl/net/update-operations/update-barcode/"
+"weight": 10
 ---
 
-# Streepjescode bijwerken
-
 ## Invoering
-In deze zelfstudie leren we hoe u een streepjescodehandtekening in een document kunt bijwerken met behulp van GroupDocs.Signature voor .NET. GroupDocs.Signature voor .NET is een krachtige API waarmee ontwikkelaars kunnen werken met digitale handtekeningen, waaronder verschillende typen zoals streepjescodes, tekst, afbeeldingen en meer. We doorlopen het proces stap voor stap om ervoor te zorgen dat u elk onderdeel grondig begrijpt.
+Barcodehandtekeningen worden veel gebruikt in digitale documentworkflows om gestructureerde gegevens te coderen, wat efficiënte tracking, identificatie en validatie mogelijk maakt. GroupDocs.Signature voor .NET is een uitgebreide oplossing voor het ondertekenen van documenten waarmee ontwikkelaars geavanceerde handtekeningfunctionaliteit in hun applicaties kunnen integreren, inclusief de mogelijkheid om bestaande barcodehandtekeningen in documenten bij te werken.
+
+Deze tutorial richt zich specifiek op het bijwerken van barcodehandtekeningen in documenten met GroupDocs.Signature voor .NET. Of u nu de positie, grootte of gecodeerde gegevens van bestaande barcodes wilt wijzigen, deze handleiding begeleidt u door het proces met duidelijke codevoorbeelden en uitleg.
+
 ## Vereisten
-Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
-- Basiskennis van de programmeertaal C#.
-- Visual Studio is op uw systeem geïnstalleerd.
--  GroupDocs.Signature voor .NET geïnstalleerd. Je kunt het downloaden van[hier](https://releases.groupdocs.com/signature/net/).
-- Een voorbeelddocument met de streepjescodehandtekening die u wilt bijwerken.
+Voordat u updates voor streepjescodehandtekeningen implementeert met GroupDocs.Signature voor .NET, moet u ervoor zorgen dat aan de volgende vereisten is voldaan:
+
+1. Ontwikkelomgeving: Een werkende .NET-ontwikkelomgeving, zoals Visual Studio 2017 of later.
+2. GroupDocs.Signature-bibliotheek: de GroupDocs.Signature voor .NET-bibliotheek, die u kunt downloaden van de [downloadpagina](https://releases.groupdocs.com/signature/net/).
+3. Basiskennis van C#: Kennis van C#-programmeerconcepten.
+4. Voorbeelddocumenten: Document(en) met streepjescodehandtekeningen die u wilt bijwerken.
+
 ## Naamruimten importeren
-Eerst moeten we de benodigde naamruimten in onze C#-code importeren. Deze naamruimten bieden de vereiste klassen en methoden om met digitale handtekeningen te werken.
+Begin met het importeren van de benodigde naamruimten om toegang te krijgen tot de GroupDocs.Signature-functionaliteit:
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -27,81 +31,255 @@ using GroupDocs.Signature;
 using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
-Laten we het codevoorbeeld nu in meerdere stappen opsplitsen en elke stap in detail uitleggen:
-## Stap 1: Definieer bestandspaden
+
+Laten we het proces voor het bijwerken van barcodehandtekeningen opsplitsen in beheersbare stappen:
+
+## Stap 1: Documentpaden instellen
+Definieer eerst de paden voor uw brondocument en waar het bijgewerkte document wordt opgeslagen:
+
 ```csharp
+// Pad naar het brondocument met barcodehandtekeningen
 string filePath = "sample_multiple_signatures.docx";
-string outputFilePath = Path.Combine("Your Document Directory", "UpdateBarcode", Path.GetFileName(filePath));
+
+// Haal de bestandsnaam op voor de uitvoer
+string fileName = Path.GetFileName(filePath);
+
+// Definieer de uitvoermap en het bestandspad
+string outputDirectory = Path.Combine("Your Document Directory", "UpdateBarcode");
+string outputFilePath = Path.Combine(outputDirectory, fileName);
+
+// Zorg ervoor dat de uitvoermap bestaat
+Directory.CreateDirectory(outputDirectory);
 ```
- Hier,`filePath` vertegenwoordigt het pad naar het invoerdocument dat de streepjescodehandtekening bevat, en`outputFilePath` is het pad waar het bijgewerkte document zal worden opgeslagen.
-## Stap 2: Kopieer het bronbestand
+
+## Stap 2: Kopieer het brondocument
+Omdat de updatebewerking het document rechtstreeks wijzigt, maakt u een kopie van het originele document om het te behouden:
+
 ```csharp
+// Maak een kopie van het originele document
 File.Copy(filePath, outputFilePath, true);
 ```
-Met deze stap kopieert u het bronbestand naar de uitvoermap om ervoor te zorgen dat de`Update` methode werkt met hetzelfde document.
+
 ## Stap 3: Initialiseer de handtekeninginstantie
+Maak een exemplaar van de `Signature` klasse om met het document te werken:
+
 ```csharp
+// Initialiseer het Signature-exemplaar met het pad naar het uitvoerbestand
 using (Signature signature = new Signature(outputFilePath))
 {
-    // Het codefragment komt hier...
+    // Hier worden handtekeningbewerkingen uitgevoerd
 }
 ```
- Wij initialiseren a`Signature` instance met behulp van het uitvoerbestandspad, waardoor we met de handtekeningen van het document kunnen werken.
-## Stap 4: Zoek naar barcodehandtekeningen
+
+## Stap 4: Configureer de opties voor barcode zoeken
+Stel de zoekopties in om bestaande streepjescodehandtekeningen in het document te vinden:
+
 ```csharp
+// Zoekopties voor barcodehandtekeningen configureren
 BarcodeSearchOptions options = new BarcodeSearchOptions()
 {
+    // U kunt filteren op tekstinhoud
     Text = "12345",
     MatchType = TextMatchType.Contains
+    
+    // Verwijder commentaar om op alle pagina's te zoeken
+    // AllePagina's = waar
 };
+```
+
+## Stap 5: Zoeken naar barcodehandtekeningen
+Gebruik de geconfigureerde zoekopties om streepjescodehandtekeningen in het document te vinden:
+
+```csharp
+// Zoeken naar barcodehandtekeningen
 List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
 ```
- Hier creëren wij`BarcodeSearchOptions` met de tekst waarnaar moet worden gezocht in de handtekeningen van streepjescodes. Wij gebruiken dan de`Search` methode om alle barcodehandtekeningen te vinden die aan de opgegeven criteria voldoen.
-## Stap 5: Update streepjescodehandtekening
+
+## Stap 6: Barcode-handtekeningeigenschappen bijwerken
+Als er streepjescodehandtekeningen worden gevonden, werk dan indien nodig hun eigenschappen bij:
+
 ```csharp
+// Controleer of er handtekeningen zijn gevonden
 if (signatures.Count > 0)
 {
+    // Ontvang de eerste barcodehandtekening
     BarcodeSignature barcodeSignature = signatures[0];
-    // Het codefragment komt hier...
-}
-```
-Als er streepjescodehandtekeningen worden gevonden, gaan we verder met het bijwerken van de eerste gevonden handtekening.
-## Stap 6: Wijzig handtekeningeigenschappen
-```csharp
-barcodeSignature.Left = 100;
-barcodeSignature.Top = 100;
-barcodeSignature.Width = 400;
-barcodeSignature.Height = 100;
-```
-Hier passen we de positie en grootte van de streepjescodehandtekening indien nodig aan.
-## Stap 7: Update de handtekening
-```csharp
-bool result = signature.Update(barcodeSignature);
-```
- Wij noemen de`Update` methode met de gewijzigde streepjescodehandtekening om deze in het document bij te werken.
-## Stap 8: Behandel het resultaat
-```csharp
-if (result)
-{
-    Console.WriteLine($"Signature with Barcode '{barcodeSignature.Text}' and encode type '{barcodeSignature.EncodeType.TypeName}' was updated in the document ['{fileName}'].");
+    
+    // Positie bijwerken
+    barcodeSignature.Left = 100;
+    barcodeSignature.Top = 100;
+    
+    // Grootte bijwerken
+    barcodeSignature.Width = 400;
+    barcodeSignature.Height = 100;
+    
+    // Pas de updates toe
+    bool result = signature.Update(barcodeSignature);
+    
+    // Controleer het resultaat
+    if (result)
+    {
+        Console.WriteLine($"Signature with Barcode '{barcodeSignature.Text}' and encode type '{barcodeSignature.EncodeType.TypeName}' was updated in the document ['{fileName}'].");
+    }
+    else
+    {
+        Console.WriteLine($"Signature was not updated in the document! Signature with Barcode '{barcodeSignature.Text}' and encode type '{barcodeSignature.EncodeType.TypeName}' was not found!");
+    }
 }
 else
 {
-    Helper.WriteError($"Signature was not updated in the document! Signature with Barcode '{barcodeSignature.Text}' and encode type '{barcodeSignature.EncodeType.TypeName}' was not found!");
+    Console.WriteLine("No barcode signatures found in the document.");
 }
 ```
-Ten slotte controleren we het resultaat van de updatebewerking en geven we passende feedback op basis van de vraag of deze succesvol was of niet.
+
+## Volledig voorbeeld
+Hier is een volledig, functioneel voorbeeld dat laat zien hoe u een streepjescodehandtekening in een document kunt bijwerken:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
+using GroupDocs.Signature;
+using GroupDocs.Signature.Domain;
+using GroupDocs.Signature.Options;
+
+namespace UpdateBarcodeSignatureExample
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Documentpad
+            string filePath = "sample_multiple_signatures.docx";
+            
+            // Definieer uitvoerpad
+            string fileName = Path.GetFileName(filePath);
+            string outputDirectory = Path.Combine(Environment.CurrentDirectory, "UpdateBarcode");
+            string outputFilePath = Path.Combine(outputDirectory, fileName);
+            
+            // Zorg ervoor dat de uitvoermap bestaat
+            Directory.CreateDirectory(outputDirectory);
+            
+            // Maak een kopie van het originele document
+            File.Copy(filePath, outputFilePath, true);
+            
+            // Initialiseer Signature-instantie
+            using (Signature signature = new Signature(outputFilePath))
+            {
+                // Zoekopties configureren
+                BarcodeSearchOptions options = new BarcodeSearchOptions
+                {
+                    Text = "12345",
+                    MatchType = TextMatchType.Contains
+                };
+                
+                // Zoeken naar barcodehandtekeningen
+                List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
+                
+                // Controleer of er handtekeningen zijn gevonden
+                if (signatures.Count > 0)
+                {
+                    // Ontvang de eerste handtekening
+                    BarcodeSignature barcodeSignature = signatures[0];
+                    
+                    // Positie en grootte bijwerken
+                    barcodeSignature.Left = 100;
+                    barcodeSignature.Top = 100;
+                    barcodeSignature.Width = 400;
+                    barcodeSignature.Height = 100;
+                    
+                    // Pas de updates toe
+                    bool result = signature.Update(barcodeSignature);
+                    
+                    // Controleer resultaat
+                    if (result)
+                    {
+                        Console.WriteLine($"Barcode signature was successfully updated in document '{fileName}'.");
+                        Console.WriteLine($"Barcode text: {barcodeSignature.Text}");
+                        Console.WriteLine($"Encode type: {barcodeSignature.EncodeType.TypeName}");
+                        Console.WriteLine($"New position: {barcodeSignature.Left}x{barcodeSignature.Top}");
+                        Console.WriteLine($"New size: {barcodeSignature.Width}x{barcodeSignature.Height}");
+                        Console.WriteLine($"Output file path: {outputFilePath}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Failed to update barcode signature!");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No barcode signatures found in the document.");
+                }
+            }
+            
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey();
+        }
+    }
+}
+```
+
+## Geavanceerde aanpassing van barcodehandtekeningen
+GroupDocs.Signature biedt extra opties voor het aanpassen van barcodehandtekeningen die verder gaan dan de basispositie en -grootte:
+
+### Uiterlijke eigenschappen aanpassen
+Pas de visuele aspecten van de barcode aan:
+
+```csharp
+// Voorgrondkleur instellen (barcodekleur)
+barcodeSignature.ForeColor = System.Drawing.Color.Blue;
+
+// Achtergrondkleur instellen
+barcodeSignature.BackgroundColor = System.Drawing.Color.LightYellow;
+
+// Transparantie aanpassen
+barcodeSignature.Opacity = 0.8;
+```
+
+### Randen toevoegen
+Verbeter de barcode met aangepaste randen:
+
+```csharp
+barcodeSignature.Border.Color = System.Drawing.Color.Red;
+barcodeSignature.Border.DashStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+barcodeSignature.Border.Weight = 2;
+barcodeSignature.Border.Visible = true;
+```
+
+### De barcode roteren
+Draai de streepjescodehandtekening naar een specifieke hoek:
+
+```csharp
+barcodeSignature.Angle = 30; // 30 graden draaien
+```
+
 ## Conclusie
-In deze zelfstudie hebben we geleerd hoe u een streepjescodehandtekening in een document kunt bijwerken met behulp van GroupDocs.Signature voor .NET. Door de stapsgewijze handleiding te volgen, kunt u deze functionaliteit eenvoudig integreren in uw C#-applicaties om indien nodig digitale handtekeningen te manipuleren.
+GroupDocs.Signature voor .NET biedt een krachtige en flexibele oplossing voor het bijwerken van barcodehandtekeningen in documenten. Door de stappen in deze tutorial te volgen, kunnen ontwikkelaars efficiënt functionaliteit voor het bijwerken van barcodehandtekeningen implementeren in hun .NET-applicaties, waardoor documentbeheer en automatiseringsmogelijkheden worden verbeterd.
+
+Dankzij de uitgebreide functieset en intuïtieve API kunnen ontwikkelaars met GroupDocs.Signature geavanceerde oplossingen voor het ondertekenen van documenten bouwen die voldoen aan de vereisten van moderne zakelijke toepassingen en tegelijkertijd de integriteit en toegankelijkheid van documenten garanderen.
 
 ## Veelgestelde vragen
-### Kan ik meerdere barcodehandtekeningen binnen hetzelfde document bijwerken?
-Ja, u kunt meerdere barcodehandtekeningen bijwerken door de lijst met gevonden handtekeningen te doorlopen en elke handtekening afzonderlijk bij te werken.
-### Ondersteunt GroupDocs.Signature naast streepjescodes ook andere soorten digitale handtekeningen?
-Ja, GroupDocs.Signature ondersteunt verschillende soorten digitale handtekeningen, waaronder tekst, afbeeldingen, QR-code en meer.
+### Kan ik meerdere barcodehandtekeningen in één document bijwerken?
+Ja, met GroupDocs.Signature kunt u meerdere barcodehandtekeningen in hetzelfde document bijwerken. Nadat u naar handtekeningen hebt gezocht, kunt u door de resulterende lijst bladeren en elke barcodehandtekening afzonderlijk bijwerken.
+
+### Ondersteunt GroupDocs.Signature verschillende barcodeformaten?
+Ja, GroupDocs.Signature ondersteunt een groot aantal barcodeformaten, waaronder lineaire barcodes (Code 128, Code 39, EAN, UPC, enz.) en 2D-barcodes (QR-code, Data Matrix, PDF417, enz.).
+
 ### Is er een proefversie beschikbaar voor GroupDocs.Signature voor .NET?
- Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.groupdocs.com/).
-### Kan ik de zoekcriteria voor het vinden van barcodehandtekeningen aanpassen?
- Ja, u kunt de`BarcodeSearchOptions` om verschillende zoekcriteria op te geven, zoals streepjescodetekst, overeenkomsttype, enz.
-### Waar kan ik ondersteuning vinden als ik problemen ondervind of vragen heb?
- U kunt het GroupDocs.Signature-forum bezoeken[hier](https://forum.groupdocs.com/c/signature/13) voor ondersteuning en hulp.
+Ja, u kunt een gratis proefversie downloaden van de [GroupDocs-website](https://releases.groupdocs.com/signature/net/) om de functies van de bibliotheek te evalueren voordat u tot aankoop overgaat.
+
+### Kan ik bij het updaten één barcodetype naar een ander type converteren?
+Directe conversie tussen barcodetypen wordt niet ondersteund tijdens updates. U kunt dit echter wel doen door de bestaande barcode te verwijderen en een nieuwe toe te voegen met het gewenste formaat.
+
+### Heeft het bijwerken van een streepjescode invloed op de scancapaciteit?
+Bij het bijwerken van barcode-eigenschappen zoals grootte en positie, behoudt GroupDocs.Signature de scanintegriteit van de barcode. Extreem kleine formaten of grote rotatiehoeken kunnen echter de scanprestaties bij sommige scanners beïnvloeden.
+
+### Waar kan ik aanvullende ondersteuning vinden voor GroupDocs.Signature voor .NET?
+kunt uitgebreide ondersteuning krijgen via de volgende bronnen:
+- [API-documentatie](https://docs.groupdocs.com/signature/net/)
+- [API-referentie](https://reference.groupdocs.com/signature/net/)
+- [GitHub-voorbeelden](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/tree/master/Examples)
+- [Ondersteuningsforum](https://forum.groupdocs.com/c/signature/13)
+- [Blog](https://blog.groupdocs.com/categories/groupdocs.signature-product-family/)
+- [Gratis ondersteuning](https://forum.groupdocs.com/c/signature)
+- [Tijdelijke licentie](https://purchase.groupdocs.com/temporary-license/)
