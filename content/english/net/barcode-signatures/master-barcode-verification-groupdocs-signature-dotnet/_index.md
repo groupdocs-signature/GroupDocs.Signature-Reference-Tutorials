@@ -1,5 +1,5 @@
 ---
-title: "Barcode Signature Verification .NET - Complete Tutorial with C#
+title: Barcode Signature Verification .NET - Complete Tutorial with C#
 linktitle: "Barcode Verification .NET Guide"
 description: "Master barcode signature verification in .NET with step-by-step C# examples. Learn troubleshooting, best practices, and real-world implementation tips."
 keywords: "barcode signature verification .NET, verify barcode signatures C#, document integrity barcode .NET, GroupDocs barcode verification tutorial, C# barcode authentication"
