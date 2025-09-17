@@ -1,5 +1,5 @@
 ---
-title: "Add Text Signature .NET - Complete Implementation Guide
+title: Add Text Signature .NET - Complete Implementation Guide
 linktitle: "Add Text Signature .NET"
 description: "Learn how to add text signature .NET applications with GroupDocs.Signature. Complete guide with code examples, troubleshooting, and best practices for developers."
 keywords: "add text signature .NET, GroupDocs.Signature tutorial, programmatic document signing, .NET electronic signature, customize text signature appearance .NET"
