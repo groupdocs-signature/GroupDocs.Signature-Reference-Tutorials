@@ -1,4 +1,4 @@
---
+---
 title: "Digital Signature Search .NET - Complete GroupDocs.Signature"
 linktitle: "Digital Signature Search .NET Guide"
 description: "Learn how to implement digital signature search in .NET applications using GroupDocs.Signature. Step-by-step tutorial with code examples and troubleshooting tips."
@@ -11,7 +11,7 @@ categories: ["Digital Signatures"]
 tags: ["dotnet", "groupdocs", "document-security", "digital-signatures", "csharp"]
 ---
 
-# Digital Signature Search .NET: Complete Implementation Guide with GroupDocs.Signature
+# Digital Signature Search .NET - Complete Implementation Guide with GroupDocs.Signature
 
 ## Introduction
 
