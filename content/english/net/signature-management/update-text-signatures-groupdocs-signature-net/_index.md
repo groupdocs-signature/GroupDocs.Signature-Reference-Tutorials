@@ -1,5 +1,5 @@
 ---
-title: "How to Update Signatures in Documents Programmatically
+title: How to Update Signatures in Documents Programmatically
 linktitle: "Update Document Signatures in .NET"
 description: "Learn how to modify existing signatures in documents without re-signing. Complete C# tutorial for updating text signatures programmatically using GroupDocs.Signature."
 keywords: "update signatures in documents programmatically, edit text signatures .NET, modify document signatures, change signature text without resigning, GroupDocs.Signature C# tutorial"
