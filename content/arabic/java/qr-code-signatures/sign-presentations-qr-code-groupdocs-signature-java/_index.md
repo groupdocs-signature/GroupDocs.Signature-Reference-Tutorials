@@ -4,8 +4,8 @@
 "title": "توقيع العروض التقديمية باستخدام رموز الاستجابة السريعة في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/qr-code-signatures/sign-presentations-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع عرض تقديمي باستخدام رمز الاستجابة السريعة (QR Code) مع GroupDocs.Signature لـ Java
 
 ## مقدمة

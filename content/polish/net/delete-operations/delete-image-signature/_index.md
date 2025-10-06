@@ -5,8 +5,8 @@
 "title": "Jak usunąć podpisy graficzne z dokumentów w .NET"
 "url": "/pl/net/delete-operations/delete-image-signature/"
 "weight": 14
+type: docs
 ---
-
 # Jak usunąć podpisy graficzne z dokumentów za pomocą GroupDocs.Signature
 
 ## Wstęp

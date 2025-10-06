@@ -4,8 +4,8 @@
 "title": "PDF-documenten ondertekenen met metagegevens met GroupDocs.Signature voor .NET | Een uitgebreide handleiding"
 "url": "/nl/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF-documenten ondertekenen met metagegevens met GroupDocs.Signature voor .NET
 
 In de huidige digitale wereld is efficiënt documentbeheer essentieel voor zowel bedrijven als particulieren. Het veilig ondertekenen en verifiëren van documenten is cruciaal geworden, vooral bij het verwerken van contracten of officiële documenten. Deze uitgebreide handleiding laat zien hoe u GroupDocs.Signature voor .NET kunt gebruiken om PDF-documenten te ondertekenen met metadatahandtekeningen, waardoor de documentintegriteit wordt verbeterd.

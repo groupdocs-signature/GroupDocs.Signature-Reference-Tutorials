@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["groupdocs-signature", "text-verification", "dotnet-security", "document-authentication"]
+type: docs
 ---
-
 # Text Signature Verification .NET: Complete GroupDocs.Signature Tutorial
 
 ## Why Text Signature Verification Matters (And How to Get It Right)

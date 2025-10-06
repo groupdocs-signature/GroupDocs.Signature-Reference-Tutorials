@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε υπογραφές κειμένου σε .NET με το GroupDocs.Signature&#58; Ένας ολοκληρωμένος οδηγός"
 "url": "/el/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε υπογραφές κειμένου σε .NET με το GroupDocs.Signature: Ένας ολοκληρωμένος οδηγός
 
 ## Εισαγωγή

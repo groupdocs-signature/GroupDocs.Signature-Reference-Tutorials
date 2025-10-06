@@ -5,8 +5,8 @@
 "title": "تتبع تاريخ توقيع المستندات بسهولة في .NET"
 "url": "/ar/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # كيفية تتبع سجل توقيع مستندك في .NET
 
 ## ماذا يمكن لـ GroupDocs.Signature أن يفعل من أجلك؟

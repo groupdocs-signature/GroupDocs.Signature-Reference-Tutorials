@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature
 - Java
 - Document Processing
-
+type: docs
 ---
-
-
 # How to Sign Excel VBA Projects Using GroupDocs.Signature for Java
 
 ## Introduction

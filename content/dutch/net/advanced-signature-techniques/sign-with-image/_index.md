@@ -5,8 +5,8 @@
 "title": "Voeg eenvoudig afbeeldingshandtekeningen toe aan documenten met GroupDocs.Signature"
 "url": "/nl/net/advanced-signature-techniques/sign-with-image/"
 "weight": 13
+type: docs
 ---
-
 ## Inleiding: Transformeer uw documentbeveiliging met beeldhandtekeningen
 
 Heeft u zich ooit afgevraagd hoe u uw digitale documenten veiliger en rechtsgeldiger kunt maken? Het toevoegen van afbeeldingshandtekeningen is een van de meest effectieve manieren om uw documenten te verifiëren en te beschermen tegen manipulatie. In deze gebruiksvriendelijke handleiding begeleiden we u bij het implementeren van afbeeldingsgebaseerde documentondertekening in uw .NET-applicaties met behulp van GroupDocs.Signature.

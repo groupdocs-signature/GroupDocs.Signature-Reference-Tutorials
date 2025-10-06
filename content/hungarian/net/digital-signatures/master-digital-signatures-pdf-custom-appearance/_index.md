@@ -4,8 +4,8 @@
 "title": "PDF-fájlok digitális aláírásainak mesteri beállításai egyéni megjelenéssel a GroupDocs.Signature for .NET segítségével"
 "url": "/hu/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírások elsajátítása PDF-ekben egyéni megjelenéssel a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

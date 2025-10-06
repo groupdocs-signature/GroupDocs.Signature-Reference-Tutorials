@@ -8,10 +8,8 @@ keywords:
 - Java GroupDocs.Signature
 - retrieve document history
 - display document logs
-
+type: docs
 ---
-
-
 # How to Implement Java GroupDocs.Signature: Retrieve and Display Document Process History
 
 ## Introduction

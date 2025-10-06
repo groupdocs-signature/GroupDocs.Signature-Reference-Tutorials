@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके PDF में QR-कोड हस्ताक्षर कैसे खोजें और VCard डेटा कैसे निकालें"
 "url": "/hi/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके QR-कोड हस्ताक्षरों के लिए दस्तावेज़ PDF कैसे खोजें और VCard डेटा निकालें
 
 ## परिचय

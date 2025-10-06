@@ -4,8 +4,8 @@
 "title": "Applicazione di firme con filigrana di testo tramite GroupDocs.Signature per Java"
 "url": "/it/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Come applicare una firma con filigrana di testo utilizzando GroupDocs.Signature per Java
 
 ## Introduzione

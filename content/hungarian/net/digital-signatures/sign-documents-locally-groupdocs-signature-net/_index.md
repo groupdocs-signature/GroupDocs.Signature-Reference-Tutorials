@@ -4,8 +4,8 @@
 "title": "Dokumentumok helyi aláírása a GroupDocs.Signature for .NET használatával – Átfogó útmutató"
 "url": "/hu/net/digital-signatures/sign-documents-locally-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumok helyi aláírása a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

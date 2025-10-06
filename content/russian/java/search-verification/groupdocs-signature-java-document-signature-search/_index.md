@@ -4,8 +4,8 @@
 "title": "Освоение поиска по подписи документа с помощью GroupDocs.Signature для Java&#58; подробное руководство"
 "url": "/ru/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # Освоение поиска подписей документов с помощью GroupDocs.Signature для Java
 
 ## Введение

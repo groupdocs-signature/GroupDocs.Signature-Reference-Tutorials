@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met tekststickers met GroupDocs.Signature voor Java&#58; een complete handleiding"
 "url": "/nl/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # PDF's ondertekenen met tekststickers met GroupDocs.Signature voor Java: een complete handleiding
 
 ## Invoering

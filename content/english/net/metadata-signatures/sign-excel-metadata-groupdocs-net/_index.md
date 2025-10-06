@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["excel-signing", "metadata-signatures", "groupdocs", "dotnet"]
+type: docs
 ---
-
 # Excel Metadata Signature .NET
 
 ## Why Your Excel Files Need Metadata Signatures (And How to Add Them)

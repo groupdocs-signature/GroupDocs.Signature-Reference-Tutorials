@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile .NET'te Ana Belge İşleme ve İmza Yönetimi"
 "url": "/tr/net/signature-management/master-document-handling-signature-management-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile .NET'te Belge İşleme ve İmza Yönetiminde Uzmanlaşma
 
 ## giriiş

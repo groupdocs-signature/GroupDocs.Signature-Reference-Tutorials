@@ -4,8 +4,8 @@
 "title": "Nastavení licenčního souboru pro GroupDocs.Signature v .NET – Podrobný návod"
 "url": "/cs/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # Nastavení licenčního souboru pro GroupDocs.Signature v .NET: Podrobný návod
 
 ## Zavedení

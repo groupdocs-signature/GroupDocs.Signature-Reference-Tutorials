@@ -4,8 +4,8 @@
 "title": "Java ve GroupDocs.Signature Kullanarak QR Koduyla Belgeleri İmzalayın - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/qr-code-signatures/sign-documents-with-qr-code-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java ve GroupDocs.Signature Kullanarak QR Koduyla Belgeleri İmzalayın
 
 Belge yönetim sisteminize ekstra bir güvenlik ve verimlilik katmanı eklemek mi istiyorsunuz? Belgeleri elektronik olarak imzalamak, günümüzün dijital çağında olmazsa olmaz bir özelliktir ve QR kodlu imzalar hem kolaylık hem de sağlamlık sunar. Bu kapsamlı kılavuzda, GroupDocs.Signature for Java kullanarak görüntülü belgeleri QR kodlarıyla nasıl imzalayacağınızı inceleyeceğiz. Bu eğitimin sonunda, bu özellikleri sorunsuz bir şekilde uygulayabileceksiniz.

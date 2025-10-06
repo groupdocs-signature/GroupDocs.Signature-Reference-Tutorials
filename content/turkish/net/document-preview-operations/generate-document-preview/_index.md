@@ -5,8 +5,8 @@
 "title": ".NET Uygulamalarında Belge Önizlemeleri Nasıl Oluşturulur | Hızlı Eğitim"
 "url": "/tr/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # .NET Uygulamalarınızda Belge Önizlemeleri Nasıl Oluşturulur?
 
 ## giriiş

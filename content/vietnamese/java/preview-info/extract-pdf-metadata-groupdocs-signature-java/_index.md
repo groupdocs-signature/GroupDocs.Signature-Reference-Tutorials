@@ -4,8 +4,8 @@
 "title": "Trích xuất siêu dữ liệu PDF bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/preview-info/extract-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Trích xuất siêu dữ liệu PDF bằng GroupDocs.Signature cho Java: Hướng dẫn toàn diện
 
 ## Giới thiệu

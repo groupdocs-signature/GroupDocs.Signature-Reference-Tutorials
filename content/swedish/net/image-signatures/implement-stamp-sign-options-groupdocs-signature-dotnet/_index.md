@@ -4,8 +4,8 @@
 "title": "Så här implementerar du stämpelsigneringsalternativ med GroupDocs.Signature för .NET - En omfattande guide"
 "url": "/sv/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar stämpelsigneringsalternativ med GroupDocs.Signature för .NET
 
 ## Introduktion

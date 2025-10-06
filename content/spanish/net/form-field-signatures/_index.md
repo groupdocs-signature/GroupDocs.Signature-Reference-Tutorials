@@ -3,8 +3,8 @@
 "title": "Tutoriales de firma de campos de formulario para GroupDocs.Signature .NET"
 "url": "/es/net/form-field-signatures/"
 "weight": 8
+type: docs
 ---
-
 # Tutoriales de firma de campos de formulario para GroupDocs.Signature .NET
 
 Domine las firmas de campos de formulario PDF con nuestros detallados tutoriales de GroupDocs.Signature para desarrolladores .NET. Estas guías paso a paso muestran cómo trabajar con campos de formulario estándar, crear y administrar campos de cuadro combinado, implementar grupos de botones de opción y usar campos de formulario para firmar documentos. Cada tutorial proporciona ejemplos prácticos de código C# para operaciones con campos de formulario, lo que le ayuda a crear documentos PDF interactivos con campos rellenables que recopilan y validan la información del usuario, manteniendo la integridad del documento.

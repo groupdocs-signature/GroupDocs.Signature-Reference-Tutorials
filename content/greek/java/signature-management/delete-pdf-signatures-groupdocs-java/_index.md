@@ -4,8 +4,8 @@
 "title": "Πώς να διαγράψετε υπογραφές PDF χρησιμοποιώντας το GroupDocs.Signature για Java - Ένας πλήρης οδηγός"
 "url": "/el/java/signature-management/delete-pdf-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να διαγράψετε υπογραφές PDF χρησιμοποιώντας το GroupDocs.Signature για Java: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

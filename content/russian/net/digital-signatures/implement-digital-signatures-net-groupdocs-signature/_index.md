@@ -4,8 +4,8 @@
 "title": "Как реализовать цифровые подписи в .NET с помощью GroupDocs.Signature&#58; пошаговое руководство"
 "url": "/ru/net/digital-signatures/implement-digital-signatures-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать цифровые подписи в .NET с помощью GroupDocs.Signature: пошаговое руководство
 
 ## Введение

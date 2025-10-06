@@ -4,8 +4,8 @@
 "title": "อัปเดตลายเซ็นข้อความในเอกสาร .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/signature-management/update-text-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # อัปเดตลายเซ็นข้อความในเอกสาร .NET โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

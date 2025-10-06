@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu cục bộ bằng GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/digital-signatures/sign-documents-locally-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu cục bộ bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

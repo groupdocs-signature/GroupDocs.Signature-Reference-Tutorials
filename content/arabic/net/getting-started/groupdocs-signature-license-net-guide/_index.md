@@ -4,8 +4,8 @@
 "title": "إعداد ملف ترخيص لـ GroupDocs.Signature في .NET - دليل خطوة بخطوة"
 "url": "/ar/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # إعداد ملف ترخيص لـ GroupDocs.Signature في .NET: دليل خطوة بخطوة
 
 ## مقدمة

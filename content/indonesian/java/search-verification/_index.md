@@ -3,8 +3,8 @@
 "title": "Tutorial Pencarian dan Verifikasi Tanda Tangan untuk GroupDocs.Signature Java"
 "url": "/id/java/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # Tutorial Pencarian dan Verifikasi Tanda Tangan untuk GroupDocs.Signature Java
 
 Tutorial pencarian dan verifikasi kami menyediakan panduan komprehensif untuk memvalidasi tanda tangan dokumen menggunakan GroupDocs.Signature di Java. Panduan praktis ini menunjukkan cara mencari tanda tangan dari berbagai jenis (digital, kode batang, kode QR, teks, gambar, dan metadata), menerapkan verifikasi untuk pengecekan keaslian, menangani pengecualian selama verifikasi, dan memproses dokumen kompleks. Setiap tutorial mencakup contoh kode Java lengkap untuk skenario verifikasi umum, membantu Anda membangun aplikasi yang dapat secara efektif menentukan apakah dokumen telah diubah sejak penandatanganan.

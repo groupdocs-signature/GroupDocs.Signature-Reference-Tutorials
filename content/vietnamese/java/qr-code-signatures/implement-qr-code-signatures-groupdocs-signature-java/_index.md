@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký mã QR trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/qr-code-signatures/implement-qr-code-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký mã QR với GroupDocs.Signature cho Java
 
 ## Giới thiệu

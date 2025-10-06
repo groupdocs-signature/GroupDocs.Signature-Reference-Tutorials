@@ -4,8 +4,8 @@
 "title": "Tìm kiếm chữ ký số chuyên nghiệp trong PDF bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ việc tìm kiếm chữ ký số trong PDF bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

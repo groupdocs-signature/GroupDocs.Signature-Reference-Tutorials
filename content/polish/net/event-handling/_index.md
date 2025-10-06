@@ -3,8 +3,8 @@
 "title": "Samouczki dotyczące obsługi zdarzeń i zarządzania procesami dla GroupDocs.Signature .NET"
 "url": "/pl/net/event-handling/"
 "weight": 15
+type: docs
 ---
-
 # Samouczki dotyczące obsługi zdarzeń i zarządzania procesami dla GroupDocs.Signature .NET
 
 Nasze samouczki dotyczące obsługi zdarzeń i zarządzania procesami pokazują, jak tworzyć responsywne aplikacje podpisujące za pomocą GroupDocs.Signature dla .NET. Te przewodniki krok po kroku obejmują subskrybowanie zdarzeń podpisu, implementację anulowania operacji wyszukiwania i podpisywania, obsługę wyjątków oraz monitorowanie stanu przetwarzania. Każdy samouczek zawiera szczegółowe przykłady kodu w języku C# do implementacji prawidłowej obsługi zdarzeń, pomagając w tworzeniu niezawodnych aplikacji, które zapewniają lepszą obsługę zwrotną dla użytkowników, obsługę błędów i kontrolę nad operacjami podpisu.

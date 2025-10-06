@@ -4,8 +4,8 @@
 "title": "Implementar una firma de texto con pincel sólido en Java usando GroupDocs.Signature"
 "url": "/es/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # Implementar una firma de texto con pincel sólido en Java
 
 ## Introducción

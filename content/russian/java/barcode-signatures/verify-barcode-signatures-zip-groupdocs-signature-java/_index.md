@@ -4,8 +4,8 @@
 "title": "Проверка подписей штрихкодов в ZIP-файлах с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Проверка подписей штрихкодов в ZIP-файлах с помощью GroupDocs.Signature для Java
 
 ## Введение

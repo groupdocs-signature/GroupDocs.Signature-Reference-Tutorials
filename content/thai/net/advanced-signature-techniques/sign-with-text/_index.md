@@ -5,8 +5,8 @@
 "title": "เพิ่มลายเซ็นข้อความลงในเอกสารด้วย GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # วิธีการเพิ่มลายเซ็นข้อความลงในเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## บทนำ: ปรับปรุงกระบวนการลงนามเอกสารของคุณให้ทันสมัย

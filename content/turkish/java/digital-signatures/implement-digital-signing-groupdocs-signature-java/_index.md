@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da Dijital Belge İmzalama Nasıl Uygulanır?"
 "url": "/tr/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java'da Dijital Belge İmzalama Nasıl Uygulanır?
 
 ## giriiş

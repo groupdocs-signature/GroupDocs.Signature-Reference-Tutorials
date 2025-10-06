@@ -5,8 +5,8 @@
 "title": "Menambahkan Tanda Tangan Metadata ke Spreadsheet Excel di C# .NET"
 "url": "/id/net/document-signing/sign-spreadsheet-with-metadata/"
 "weight": 13
+type: docs
 ---
-
 ## Perkenalan
 
 Lembar kerja Excel sering kali berisi data bisnis penting, informasi keuangan, dan perhitungan penting. Memastikan keaslian, melacak asal-usul, dan melindungi integritasnya sangat penting di banyak lingkungan profesional. Salah satu pendekatan efektif untuk meningkatkan keamanan dan ketertelusuran lembar kerja adalah dengan menyematkan tanda tangan metadata.

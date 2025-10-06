@@ -4,8 +4,8 @@
 "title": "كيفية حذف توقيعات رمز الاستجابة السريعة من ملفات PDF باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/signature-management/delete-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية حذف توقيعات رمز الاستجابة السريعة من ملف PDF باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

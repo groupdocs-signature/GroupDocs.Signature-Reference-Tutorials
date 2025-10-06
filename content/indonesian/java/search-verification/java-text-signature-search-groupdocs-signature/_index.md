@@ -4,8 +4,8 @@
 "title": "Menerapkan Pencarian Tanda Tangan Teks Java dengan GroupDocs.Signature untuk Manajemen dan Verifikasi Dokumen"
 "url": "/id/java/search-verification/java-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Pencarian Tanda Tangan Teks Java dengan GroupDocs.Signature
 
 ## Perkenalan

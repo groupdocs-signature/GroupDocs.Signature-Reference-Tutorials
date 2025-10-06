@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 .NET 中使用图像签名对 PDF 进行签名"
 "url": "/zh/net/image-signatures/professional-pdf-signature-image-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 .NET 中使用图像签名对 PDF 进行签名
 
 ## 介绍

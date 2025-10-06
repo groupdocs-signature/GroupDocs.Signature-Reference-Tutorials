@@ -5,8 +5,8 @@
 "title": "Képaláírások hozzáadása dokumentumokhoz egyszerűen a GroupDocs.Signature segítségével"
 "url": "/hu/net/advanced-signature-techniques/sign-with-image/"
 "weight": 13
+type: docs
 ---
-
 ## Bevezetés: Alakítsa át dokumentumbiztonságát képaláírásokkal
 
 Elgondolkodott már azon, hogyan teheti digitális dokumentumait biztonságosabbá és jogilag érvényesebbé? A képaláírások hozzáadása az egyik leghatékonyabb módja a dokumentumok hitelesítésének és a jogosulatlan hozzáférés elleni védelemnek. Ebben a felhasználóbarát útmutatóban végigvezetjük Önt a képalapú dokumentumaláírás megvalósításának folyamatán .NET alkalmazásaiban a GroupDocs.Signature használatával.

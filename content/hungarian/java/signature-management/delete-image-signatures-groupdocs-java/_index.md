@@ -4,8 +4,8 @@
 "title": "Hogyan távolíthatunk el képaláírásokat dokumentumokból a GroupDocs.Signature for Java használatával?"
 "url": "/hu/java/signature-management/delete-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan távolíthatunk el képaláírásokat dokumentumokból a GroupDocs.Signature for Java használatával?
 
 digitális aláírások kezelése kulcsfontosságú a dokumentumok integritásának és hitelességének megőrzése érdekében. Akár szerződéseket kezelő vállalatról, akár számlákat kezelő kisvállalkozásról van szó, az elavult vagy helytelen képes aláírások eltávolítása egyszerűsítheti a dokumentumkezelést. Ez az oktatóanyag végigvezeti Önt azon, hogyan törölheti a képes aláírásokat ismert azonosítók alapján a GroupDocs.Signature for Java használatával.

@@ -4,8 +4,8 @@
 "title": "كيفية إزالة توقيعات الصور من المستندات باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/signature-management/delete-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية إزالة توقيعات الصور من المستندات باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

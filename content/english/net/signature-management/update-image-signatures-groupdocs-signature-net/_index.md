@@ -9,8 +9,8 @@ weight: 1
 url: "/net/signature-management/update-image-signatures-groupdocs-signature-net/"
 categories: ["Document Management"]
 tags: ["signatures", "dotnet", "GroupDocs", "document-processing"]
+type: docs
 ---
-
 # Update Document Signatures in .NET
 
 ## Introduction

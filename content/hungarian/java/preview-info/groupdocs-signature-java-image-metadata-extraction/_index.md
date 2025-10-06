@@ -4,8 +4,8 @@
 "title": "Master Image metaadatok kinyerése Java-ban a GroupDocs.Signature könyvtár használatával"
 "url": "/hu/java/preview-info/groupdocs-signature-java-image-metadata-extraction/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature elsajátítása Java-ban: Kép metaadatok kinyerése
 
 ## Bevezetés

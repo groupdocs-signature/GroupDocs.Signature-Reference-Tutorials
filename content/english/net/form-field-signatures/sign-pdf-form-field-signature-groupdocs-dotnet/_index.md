@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing"]
 tags: ["csharp", "pdf-signing", "digital-signatures", "groupdocs"]
+type: docs
 ---
-
 # PDF Signature C# .NET: Complete Guide to Digital Signing with GroupDocs.Signature
 
 ## Introduction

@@ -5,8 +5,8 @@
 "title": "Verifiera textsignaturer i dokument"
 "url": "/sv/net/verify-operations/verify-text/"
 "weight": 13
+type: docs
 ---
-
 ## Introduktion
 
 Textsignaturer, även om de ofta är enklare än digitala eller elektroniska signaturer, spelar en avgörande roll i dokumenthantering och verifiering. Oavsett om det är vattenstämplar, sidfotstext eller specifika innehållsmönster, är validering av textsignaturers närvaro och integritet en viktig aspekt av dokumentverifieringsprocesser.

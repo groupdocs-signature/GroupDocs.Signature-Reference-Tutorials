@@ -4,8 +4,8 @@
 "title": "Firme digitali sicure in Java - Guida alla crittografia GroupDocs.Signature e alla ricerca di codici QR"
 "url": "/it/java/digital-signatures/groupdocs-signature-java-encryption-qr-code-search/"
 "weight": 1
+type: docs
 ---
-
 # Firme digitali sicure in Java utilizzando GroupDocs.Signature
 ## Introduzione
 Nel panorama digitale odierno, la protezione dei documenti è fondamentale. Che si tratti di gestire contratti aziendali sensibili o dati personali, l'applicazione di una crittografia avanzata e di funzionalità di ricerca efficienti può proteggere i dati da accessi non autorizzati. Questa guida vi guiderà nell'implementazione di opzioni di crittografia personalizzata e di ricerca tramite firma tramite codice QR in Java utilizzando GroupDocs.Signature.

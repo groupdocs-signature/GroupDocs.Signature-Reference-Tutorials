@@ -4,8 +4,8 @@
 "title": "Jak detekovat podpisy QR kódů MeCard v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/qr-code-signatures/detect-qr-code-mecard-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak detekovat podpisy QR kódů MeCard pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Assinatura de PDF em Java com código de barras usando GroupDocs - Um guia completo"
 "url": "/pt/java/barcode-signatures/java-pdf-signing-barcode-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar assinatura de PDF em Java com opções de código de barras usando GroupDocs.Signature para Java
 
 ## Introdução

@@ -4,8 +4,8 @@
 "title": "Triển khai tìm kiếm chữ ký mã QR trong PDF bằng Java và GroupDocs.Signature"
 "url": "/vi/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai tìm kiếm chữ ký mã QR trong PDF bằng Java
 
 ## Giới thiệu

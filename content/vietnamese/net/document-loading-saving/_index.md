@@ -3,8 +3,8 @@
 "title": "Hướng dẫn tải và lưu tài liệu với GroupDocs.Signature cho .NET"
 "url": "/vi/net/document-loading-saving/"
 "weight": 2
+type: docs
 ---
-
 # Hướng dẫn tải và lưu tài liệu với GroupDocs.Signature cho .NET
 
 Hướng dẫn tải và lưu tài liệu của chúng tôi cung cấp hướng dẫn toàn diện về cách xử lý tài liệu theo chương trình trong .NET. Hãy làm theo các hướng dẫn từng bước này để tìm hiểu cách tải tài liệu từ ổ đĩa cục bộ, luồng, URL, nhà cung cấp lưu trữ đám mây như Amazon S3 và Azure Blob Storage, và FTP. Các hướng dẫn này cũng đề cập đến nhiều tình huống lưu tài liệu khác nhau, bao gồm lưu với mật khẩu bảo vệ, các định dạng đầu ra khác nhau và các tùy chọn lưu chuyên biệt cho từng loại tài liệu.

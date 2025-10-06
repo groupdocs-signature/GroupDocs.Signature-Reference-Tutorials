@@ -5,8 +5,8 @@
 "title": "Cách trích xuất chữ ký siêu dữ liệu PDF trong .NET"
 "url": "/vi/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # Cách trích xuất và tìm kiếm chữ ký siêu dữ liệu PDF
 
 ## Tại sao siêu dữ liệu PDF lại quan trọng đối với tài liệu của bạn

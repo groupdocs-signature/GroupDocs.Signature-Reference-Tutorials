@@ -4,8 +4,8 @@
 "title": "Quản lý chữ ký hình ảnh trong tài liệu bằng GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/image-signatures/manage-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Quản lý chữ ký hình ảnh trong tài liệu bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

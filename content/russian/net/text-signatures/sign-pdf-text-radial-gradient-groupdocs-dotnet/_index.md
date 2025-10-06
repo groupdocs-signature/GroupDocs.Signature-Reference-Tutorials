@@ -4,8 +4,8 @@
 "title": "Как подписать PDF-файлы текстовой подписью и радиальным градиентом в .NET с помощью GroupDocs.Signature"
 "url": "/ru/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать PDF-файлы текстовой подписью и радиальным градиентом в .NET с помощью GroupDocs.Signature
 
 ## Введение

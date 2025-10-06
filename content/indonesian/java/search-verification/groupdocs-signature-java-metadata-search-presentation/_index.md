@@ -4,8 +4,8 @@
 "title": "Pencarian Tanda Tangan Metadata Master di PowerPoint menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # Pencarian Tanda Tangan Metadata Master di PowerPoint menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

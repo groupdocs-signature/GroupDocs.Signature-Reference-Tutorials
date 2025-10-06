@@ -4,8 +4,8 @@
 "title": "Java でのマスタードキュメント署名 - GroupDocs.Signature を使用したプレーンテキストとリッチテキストフィールドの実装"
 "url": "/ja/java/digital-signatures/groupdocs-signature-java-plain-rich-text-fields/"
 "weight": 1
+type: docs
 ---
-
 # Java でドキュメント署名をマスターする: GroupDocs.Signature を使用したプレーンテキスト フィールドとリッチテキスト フィールドの実装
 
 活用に関する包括的なガイドへようこそ **Java 用 GroupDocs.Signature** プレーンテキストフィールドとリッチテキストフィールドを使用して文書に署名する方法。契約承認の自動化やワークフローの合理化など、このチュートリアルではこれらの機能を効率的に実装する方法を解説します。

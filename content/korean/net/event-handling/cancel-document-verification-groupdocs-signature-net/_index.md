@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 문서 검증을 취소하는 방법&#58; 이벤트 처리 가이드"
 "url": "/ko/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 문서 검증을 취소하는 방법: 이벤트 처리 가이드
 
 ## 소개

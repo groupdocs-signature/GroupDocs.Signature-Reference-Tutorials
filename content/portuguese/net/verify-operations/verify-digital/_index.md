@@ -5,8 +5,8 @@
 "title": "Verificar assinaturas digitais em documentos"
 "url": "/pt/net/verify-operations/verify-digital/"
 "weight": 11
+type: docs
 ---
-
 ## Introdução
 
 As assinaturas digitais desempenham um papel crucial para garantir a autenticidade, a integridade e a não-repúdio de documentos nos processos empresariais modernos. Ao contrário das assinaturas manuscritas tradicionais, as assinaturas digitais utilizam técnicas criptográficas para verificar a identidade do signatário e garantir que o documento não tenha sido alterado desde a sua assinatura.

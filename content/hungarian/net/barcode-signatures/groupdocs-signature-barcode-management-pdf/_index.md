@@ -4,8 +4,8 @@
 "title": "Hatékony vonalkód-aláírás-kezelés PDF-ekben a GroupDocs.Signature for .NET segítségével"
 "url": "/hu/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Hatékony vonalkód-aláírás-kezelés PDF-ekben a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

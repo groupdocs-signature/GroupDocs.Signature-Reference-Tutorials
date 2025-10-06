@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET のマスター&#58; バーコード検索イベントのサブスクライブと構成"
 "url": "/ja/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET のマスター: バーコード検索イベントのサブスクライブと構成
 
 ## 導入

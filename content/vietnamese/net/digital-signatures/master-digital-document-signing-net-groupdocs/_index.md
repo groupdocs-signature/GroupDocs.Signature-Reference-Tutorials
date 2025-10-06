@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu số trong .NET bằng API GroupDocs.Signature"
 "url": "/vi/net/digital-signatures/master-digital-document-signing-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu số trong .NET bằng GroupDocs.Signature API
 ## Giới thiệu
 Trong môi trường kỹ thuật số phát triển nhanh chóng ngày nay, việc đảm bảo tính xác thực của tài liệu đồng thời duy trì hiệu quả là vô cùng quan trọng. Cho dù bạn là nhà phát triển đang tự động hóa quy trình làm việc hay một tổ chức muốn nâng cao hiệu quả hoạt động, việc tích hợp chữ ký số có thể mang lại những thay đổi đột phá. Hướng dẫn này sẽ hướng dẫn bạn cách sử dụng **GroupDocs.Signature cho .NET** để ký tài liệu bằng chữ ký văn bản ở định dạng trường biểu mẫu. Sau khi hoàn thành hướng dẫn này, bạn sẽ biết cách tích hợp chữ ký số vào các ứng dụng .NET của mình một cách liền mạch.

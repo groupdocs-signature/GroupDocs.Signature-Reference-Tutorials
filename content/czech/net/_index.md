@@ -5,8 +5,8 @@
 "title": "Komplexní návody a příklady pro GroupDocs.Signature pro .NET"
 "url": "/cs/net/"
 "weight": 10
+type: docs
 ---
-
 ## Zavedení
 
 Vítejte v komplexním průvodci pro GroupDocs.Signature pro .NET – výkonné řešení pro podepisování dokumentů, které vývojářům umožňuje implementovat zabezpečené digitální podpisy v různých formátech dokumentů. Tato kolekce podrobných tutoriálů a praktických příkladů vám pomůže plně využít potenciál API pro vaše .NET aplikace.

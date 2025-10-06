@@ -4,8 +4,8 @@
 "title": "Эффективное управление подписями документов&#58; поиск подписей в полях форм с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Эффективное управление подписями документов с помощью GroupDocs.Signature для .NET
 
 ## Введение

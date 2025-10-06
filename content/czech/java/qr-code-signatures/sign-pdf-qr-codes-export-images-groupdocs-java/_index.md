@@ -4,8 +4,8 @@
 "title": "Podepisování PDF souborů pomocí QR kódů a export jako obrázků pomocí GroupDocs pro Javu"
 "url": "/cs/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Komplexní průvodce podepisováním a exportem PDF souborů jako obrázků s QR kódy pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

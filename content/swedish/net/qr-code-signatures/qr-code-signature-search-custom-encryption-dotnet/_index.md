@@ -4,8 +4,8 @@
 "title": "Implementera QR-kodsignatursökning med anpassad kryptering i .NET med GroupDocs.Signature"
 "url": "/sv/net/qr-code-signatures/qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Implementera QR-kodsignatursökning med anpassad kryptering i .NET
 
 ## Introduktion

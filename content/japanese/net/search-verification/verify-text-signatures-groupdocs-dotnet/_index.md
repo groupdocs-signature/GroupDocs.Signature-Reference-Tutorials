@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してドキュメント内のテキスト署名を検証する方法"
 "url": "/ja/net/search-verification/verify-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してドキュメント内のテキスト署名を検証する方法
 
 ## 導入

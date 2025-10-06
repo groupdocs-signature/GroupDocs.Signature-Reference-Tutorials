@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["document-history", "groupdocs", "dotnet", "signature-tracking"]
+type: docs
 ---
-
 # Document Process History .NET - Track Document Changes Easily
 
 ## Why Document History Matters (And How to Get It Right)

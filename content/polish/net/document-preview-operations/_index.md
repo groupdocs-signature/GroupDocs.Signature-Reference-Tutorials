@@ -5,8 +5,8 @@
 "title": "Kompleksowe operacje podglądu i zarządzania dokumentami"
 "url": "/pl/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # Operacje podglądu dokumentu
 
 ## Wstęp

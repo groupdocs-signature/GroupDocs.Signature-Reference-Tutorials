@@ -4,8 +4,8 @@
 "title": "Dominio de las firmas digitales PDF en Java&#58; uso de GroupDocs.Signature para texto, casillas de verificación y campos digitales"
 "url": "/es/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Dominio de las firmas digitales PDF en Java: uso de GroupDocs.Signature para texto, casillas de verificación y campos digitales
 
 ## Introducción

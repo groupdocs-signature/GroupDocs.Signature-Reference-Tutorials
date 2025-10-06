@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java ile PDF'lerdeki QR Kod İmzalarını Güncelleyin - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/qr-code-signatures/update-qr-code-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile PDF'lerdeki QR Kod İmzalarını Güncelleyin: Kapsamlı Bir Kılavuz
 
 ## giriiş

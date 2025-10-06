@@ -4,8 +4,8 @@
 "title": "Onderteken presentaties met QR-codes in Java met GroupDocs.Signature"
 "url": "/nl/java/qr-code-signatures/sign-presentations-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Een presentatie ondertekenen met een QR-code met GroupDocs.Signature voor Java
 
 ## Invoering

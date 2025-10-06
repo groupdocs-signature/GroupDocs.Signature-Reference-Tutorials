@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में छवि हस्ताक्षर कैसे अपडेट करें - एक चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/net/image-signatures/update-image-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में छवि हस्ताक्षर कैसे अपडेट करें
 
 ## परिचय

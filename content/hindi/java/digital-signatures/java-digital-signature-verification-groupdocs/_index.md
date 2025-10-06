@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ जावा डिजिटल हस्ताक्षर सत्यापन एक चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/java/digital-signatures/java-digital-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके जावा डिजिटल हस्ताक्षर सत्यापन को कार्यान्वित करने के लिए व्यापक मार्गदर्शिका
 
 ## परिचय

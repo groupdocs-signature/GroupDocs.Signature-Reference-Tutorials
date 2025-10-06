@@ -9,8 +9,8 @@ weight: 1
 url: "/net/qr-code-signatures/groupdocs-signature-dotnet-qr-code-pdf-signing/"
 categories: ["Document Processing"]
 tags: ["qr-code-signing", "pdf-processing", "dotnet-development", "groupdocs"]
+type: docs
 ---
-
 # QR Code PDF Signing .NET
 
 ## Why QR Code PDF Signing Matters for .NET Developers

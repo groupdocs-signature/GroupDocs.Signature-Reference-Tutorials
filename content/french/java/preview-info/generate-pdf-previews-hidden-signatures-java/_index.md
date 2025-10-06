@@ -4,8 +4,8 @@
 "title": "Générer des aperçus PDF avec des signatures masquées à l'aide de Java et de GroupDocs.Signature"
 "url": "/fr/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Générer des aperçus PDF avec des signatures masquées à l'aide de Java et de GroupDocs.Signature
 
 ## Introduction

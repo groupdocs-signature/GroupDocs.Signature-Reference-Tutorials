@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs 進行條碼 Java PDF 簽名的綜合指南"
 "url": "/zh-hant/java/barcode-signatures/java-pdf-signing-barcode-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 實作帶有條碼選項的 Java PDF 簽名
 
 ## 介紹

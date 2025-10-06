@@ -4,8 +4,8 @@
 "title": "Hoe u de GroupDocs-licentie via InputStream in Java instelt voor verbeterde flexibiliteit en naleving"
 "url": "/nl/java/getting-started/set-groupdocs-license-java-input-stream/"
 "weight": 1
+type: docs
 ---
-
 # Java implementeren: GroupDocs-licentie instellen via InputStream in GroupDocs.Signature voor Java
 
 Welkom bij deze uitgebreide handleiding voor het instellen van uw GroupDocs-licentie met behulp van een invoerstroom met GroupDocs.Signature voor Java. Deze functionaliteit stelt u in staat licenties efficiënt te beheren, naleving te garanderen en volledige toegang tot GroupDocs-functies te ontgrendelen.

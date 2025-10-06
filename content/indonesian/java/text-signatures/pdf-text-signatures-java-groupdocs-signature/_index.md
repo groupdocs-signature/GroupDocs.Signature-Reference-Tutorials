@@ -4,8 +4,8 @@
 "title": "Implementasi Tanda Tangan Teks PDF di Java Menggunakan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/java/text-signatures/pdf-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Tanda Tangan Teks PDF di Java dengan GroupDocs.Signature
 
 Dalam lanskap digital saat ini, penandatanganan dokumen yang aman sangat penting untuk proses bisnis seperti mengonfirmasi kontrak atau memverifikasi perjanjian. Menambahkan tanda tangan teks memastikan keaslian dan integritas. Panduan komprehensif ini akan memandu Anda dalam menerapkan tanda tangan teks PDF menggunakan **GroupDocs.Signature untuk Java**, menawarkan fungsionalitas dan penyesuaian.

@@ -4,8 +4,8 @@
 "title": "Bemästra sökningar efter digitala signaturer i Java med GroupDocs.Signature – en omfattande guide"
 "url": "/sv/java/search-verification/mastering-digital-signature-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra digitala signatursökningar i Java med GroupDocs.Signature: En omfattande guide
 
 **Upptäck kraften i att söka efter digitala signaturer med GroupDocs.Signature för Java!**

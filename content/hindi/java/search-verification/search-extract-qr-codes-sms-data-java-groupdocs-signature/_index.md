@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ जावा का उपयोग करके PDF में QR कोड हस्ताक्षरों से SMS डेटा कैसे खोजें और निकालें"
 "url": "/hi/java/search-verification/search-extract-qr-codes-sms-data-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ जावा का उपयोग करके PDF में QR कोड हस्ताक्षरों से SMS डेटा कैसे खोजें और निकालें
 
 ## परिचय

@@ -5,8 +5,8 @@
 "title": "GroupDocs를 사용하여 .NET에서 이미지 메타데이터 추출 및 검색"
 "url": "/ko/net/document-metadata-extraction/search-image-metadata-extraction/"
 "weight": 10
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 문서에서 이미지 메타데이터를 검색하는 방법
 
 ## 소개

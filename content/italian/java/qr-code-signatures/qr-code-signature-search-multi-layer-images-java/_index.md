@@ -4,8 +4,8 @@
 "title": "Implementare la ricerca della firma del codice QR nelle immagini multistrato utilizzando Java e GroupDocs.Signature"
 "url": "/it/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare la ricerca della firma del codice QR nei documenti di immagini multistrato utilizzando GroupDocs.Signature per Java
 
 ## Introduzione

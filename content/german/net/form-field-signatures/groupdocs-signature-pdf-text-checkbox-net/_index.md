@@ -4,8 +4,8 @@
 "title": "Implementieren Sie eine PDF-Signatur mit Text und Kontrollkästchen mithilfe von GroupDocs.Signature für .NET"
 "url": "/de/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren Sie eine PDF-Signatur mit Text und Kontrollkästchen mithilfe von GroupDocs.Signature für .NET
 
 ## Formularfeldsignaturen

@@ -5,8 +5,8 @@
 "title": "C# .NET'te Meta Veri İmzalarıyla Word Belgelerini Geliştirin"
 "url": "/tr/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## giriiş
 
 Kelime işlemci belgeleri, iş, eğitim ve kişisel iletişimde en yaygın kullanılan dosya türleri arasındadır. Bu belgelerin gerçekliğini sağlamak, kaynağını takip etmek ve bütünlüğünü korumak birçok profesyonel ortamda hayati önem taşır. Belge güvenliğini ve izlenebilirliğini artırmanın etkili bir yolu, meta veri imzaları yerleştirmektir.

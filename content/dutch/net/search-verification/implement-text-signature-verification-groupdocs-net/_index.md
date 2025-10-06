@@ -4,8 +4,8 @@
 "title": "Implementeer teksthandtekeningverificatie in .NET met behulp van GroupDocs.Signature voor veilig documentbeheer"
 "url": "/nl/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementeer teksthandtekeningverificatie in .NET met behulp van GroupDocs.Signature
 ## Zoeken en verifiëren
 **SEO-URL**: implement-text-handtekening-verificatie-groupdocs-net

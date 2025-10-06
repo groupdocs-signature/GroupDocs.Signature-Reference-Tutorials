@@ -4,8 +4,8 @@
 "title": "การลงนามเมตาดาต้า PDF ด้วยการสร้างซีเรียลไลเซชันแบบกำหนดเองใน .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # การนำการลงนามเมตาดาต้า PDF ไปใช้งานด้วยการสร้างซีเรียลไลเซชันแบบกำหนดเองโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

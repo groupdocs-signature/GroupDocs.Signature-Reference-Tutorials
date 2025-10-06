@@ -4,8 +4,8 @@
 "title": "Come firmare i PDF con adesivi di testo utilizzando GroupDocs.Signature per Java&#58; una guida completa"
 "url": "/it/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare i PDF con adesivi di testo utilizzando GroupDocs.Signature per Java: una guida completa
 
 ## Introduzione

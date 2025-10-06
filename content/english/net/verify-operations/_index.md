@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Verification", ".NET Development"]
 tags: ["signature-verification", "document-security", "GroupDocs", "dotnet", "authentication"]
+type: docs
 ---
-
 ## Introduction
 
 Let's be honest - implementing document verification in your .NET application can feel overwhelming. You're dealing with multiple signature types (barcodes, digital signatures, QR codes, text), each with its own verification logic, security requirements, and potential pitfalls. And if you get it wrong? That's not just a code bug - it's a security vulnerability that could compromise your entire document workflow.

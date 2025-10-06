@@ -9,8 +9,8 @@ url: "/net/search-verification/retrieve-digital-certificates-groupdocs-signature
 keywords: "extract digital certificates .NET, GroupDocs Signature tutorial, archive certificate extraction, digital certificate retrieval C#, automated certificate extraction"
 categories: ["Digital Signatures", ".NET Development"]
 tags: ["groupdocs", "digital-certificates", "csharp", "archive-processing", "document-management"]
+type: docs
 ---
-
 # How to Extract Digital Certificates from Archive Files in .NET
 
 ## Introduction

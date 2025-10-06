@@ -4,8 +4,8 @@
 "title": "Szöveges aláírások frissítése PDF-ekben a GroupDocs.Signature for Java használatával – Átfogó útmutató"
 "url": "/hu/java/signature-management/update-text-signatures-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF-fájlok szöveges aláírásainak frissítése a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

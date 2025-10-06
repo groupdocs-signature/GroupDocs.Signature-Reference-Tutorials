@@ -4,8 +4,8 @@
 "title": "Как установить лимитированную лицензию для GroupDocs.Signature в .NET? Подробное руководство"
 "url": "/ru/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как установить лимитированную лицензию для GroupDocs.Signature в .NET: подробное руководство
 
 ## Введение

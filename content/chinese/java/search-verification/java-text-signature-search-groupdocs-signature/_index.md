@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 实现 Java 文本签名搜索，用于文档管理和验证"
 "url": "/zh/java/search-verification/java-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 实现 Java 文本签名搜索
 
 ## 介绍

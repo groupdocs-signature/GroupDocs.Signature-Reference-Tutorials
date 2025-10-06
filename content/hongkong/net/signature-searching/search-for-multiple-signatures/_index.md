@@ -5,8 +5,8 @@
 "title": "在文件中搜尋多種簽名類型"
 "url": "/zh-hant/net/signature-searching/search-for-multiple-signatures/"
 "weight": 14
+type: docs
 ---
-
 ## 介紹
 
 在現代文件管理系統中，在單一文件中搜尋和驗證多種簽章類型的能力日益重要。組織通常使用各種簽章類型（例如數位簽章、文字簽章、條碼、二維碼等）來增強文件安全性並簡化驗證流程。 GroupDocs.Signature for .NET 提供了一個強大的框架，使開發人員能夠在各種文件格式中實現全面的簽章搜尋功能。

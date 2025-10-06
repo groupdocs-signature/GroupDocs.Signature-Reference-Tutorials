@@ -4,8 +4,8 @@
 "title": "Αυτοματοποίηση εξαγωγής μεταδεδομένων σε υπολογιστικά φύλλα χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Αυτοματοποίηση εξαγωγής μεταδεδομένων σε υπολογιστικά φύλλα με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Comment récupérer les informations d'un document à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/preview-info/retrieve-document-info-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Comment récupérer les informations d'un document avec GroupDocs.Signature pour .NET
 
 ## Introduction

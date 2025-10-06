@@ -5,8 +5,8 @@
 "title": "Πώς να προσθέσετε υπογραφές σφραγίδας σε έγγραφα με το GroupDocs.Signature"
 "url": "/el/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # Πώς να προσθέσετε επαγγελματικές υπογραφές σφραγίδας στα έγγραφά σας .NET
 
 ## Τι μπορείτε να πετύχετε με τις υπογραφές σφραγίδων;

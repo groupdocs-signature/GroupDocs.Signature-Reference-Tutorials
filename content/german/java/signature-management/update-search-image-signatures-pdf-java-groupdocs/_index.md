@@ -4,8 +4,8 @@
 "title": "Aktualisieren und Suchen von Bildsignaturen in PDFs mithilfe von Java mit GroupDocs.Signature"
 "url": "/de/java/signature-management/update-search-image-signatures-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Bildsignaturen in PDFs mit Java aktualisieren und suchen
 
 ## Einführung

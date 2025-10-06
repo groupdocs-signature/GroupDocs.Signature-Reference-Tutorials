@@ -8,10 +8,8 @@ keywords:
 - PDF text signatures in Java
 - GroupDocs.Signature for Java
 - Java PDF signing
-
+type: docs
 ---
-
-
 # Implementing PDF Text Signatures in Java with GroupDocs.Signature
 
 In today's digital landscape, securely signing documents is essential for business processes like confirming contracts or verifying agreements. Adding a text signature ensures authenticity and integrity. This comprehensive guide will take you through implementing PDF text signatures using **GroupDocs.Signature for Java**, offering both functionality and customization.

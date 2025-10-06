@@ -5,8 +5,8 @@
 "title": "Képek aláírása metaadatokkal C# .NET-ben"
 "url": "/hu/net/document-signing/sign-image-with-metadata/"
 "weight": 10
+type: docs
 ---
-
 ## Bevezetés
 
 metaadatokkal ellátott digitális képaláírás egyre fontosabbá válik a hitelesség, a tulajdonjog és a nyomon követhetőség megállapítása szempontjából. A GroupDocs.Signature for .NET egy hatékony, mégis könnyen használható megoldást kínál metaadat-aláírások hozzáadására különféle képformátumokhoz. Ez az oktatóanyag végigvezeti Önt a képek metaadatokkal történő aláírásának teljes folyamatán C# használatával.

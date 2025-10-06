@@ -4,8 +4,8 @@
 "title": "Эффективное удаление подписей по идентификатору с помощью GroupDocs.Signature для .NET&#58; пошаговое руководство"
 "url": "/ru/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Как эффективно удалить подпись по идентификатору с помощью GroupDocs.Signature для .NET
 
 ## Введение

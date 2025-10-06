@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature APIを使用したJava PDFバーコード検索の総合ガイド"
 "url": "/ja/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
 "weight": 1
+type: docs
 ---
-
 # Javaの実装：GroupDocs.Signature APIチュートリアルでPDFバーコードを検索する
 
 ## 導入

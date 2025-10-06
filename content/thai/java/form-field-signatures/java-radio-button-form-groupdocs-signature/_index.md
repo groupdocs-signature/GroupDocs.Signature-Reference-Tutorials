@@ -4,8 +4,8 @@
 "title": "การนำลายเซ็นฟิลด์ฟอร์มปุ่มตัวเลือก Java ไปใช้งานกับ GroupDocs.Signature"
 "url": "/th/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # การนำลายเซ็นฟิลด์ฟอร์มปุ่มตัวเลือก Java ไปใช้งานกับ GroupDocs.Signature
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Làm chủ chữ ký tài liệu Java với mã vạch GS1DotCode bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ việc ký tài liệu bằng Java với mã vạch GS1DotCode bằng GroupDocs.Signature
 
 ## Giới thiệu

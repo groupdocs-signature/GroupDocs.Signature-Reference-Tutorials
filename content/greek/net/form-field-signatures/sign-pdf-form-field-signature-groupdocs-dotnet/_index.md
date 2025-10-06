@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF χρησιμοποιώντας την Υπογραφή Πεδίου Φόρμας σε C# με το GroupDocs.Signature για .NET"
 "url": "/el/net/form-field-signatures/sign-pdf-form-field-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα έγγραφο PDF χρησιμοποιώντας την Υπογραφή Πεδίου Φόρμας με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

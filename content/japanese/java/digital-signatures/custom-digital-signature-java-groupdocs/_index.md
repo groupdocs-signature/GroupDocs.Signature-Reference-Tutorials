@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signatureを使用したJavaでのカスタムデジタル署名の実装：包括的なガイド"
 "url": "/ja/java/digital-signatures/custom-digital-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して Java でカスタムデジタル署名を実装する
 
 今日のデジタル時代において、文書の完全性と真正性を確保することは極めて重要です。従来の署名では、電子的に共有された文書の正当性を検証する上で不十分な場合が多くあります。この包括的なガイドでは、カスタムデジタル署名の実装方法を解説します。 **Java 用 GroupDocs.Signature**デジタル文書のセキュリティと専門性のレベルが向上します。

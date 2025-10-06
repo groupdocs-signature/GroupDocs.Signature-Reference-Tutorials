@@ -5,8 +5,8 @@
 "title": ".NET के लिए GroupDocs.Signature के साथ मास्टर दस्तावेज़ मेटाडेटा निष्कर्षण"
 "url": "/hi/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # GroupDocs.Signature के साथ दस्तावेज़ मेटाडेटा निष्कर्षण के लिए व्यापक मार्गदर्शिका
 
 ## आधुनिक वर्कफ़्लो में दस्तावेज़ मेटाडेटा का रणनीतिक महत्व

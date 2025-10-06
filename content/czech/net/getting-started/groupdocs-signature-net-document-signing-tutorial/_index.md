@@ -4,8 +4,8 @@
 "title": "Jak implementovat elektronické podepisování dokumentů v .NET pomocí GroupDocs.Signature – Podrobný návod"
 "url": "/cs/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat elektronické podepisování dokumentů v .NET pomocí GroupDocs.Signature: Podrobný návod
 
 ## Zavedení

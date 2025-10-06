@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した .NET での例外処理付きデジタル署名"
 "url": "/ja/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した .NET での例外処理付きデジタル署名
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Tanda Tangan Teks di .NET dengan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Tanda Tangan Teks di .NET dengan GroupDocs.Signature: Panduan Lengkap
 
 ## Perkenalan

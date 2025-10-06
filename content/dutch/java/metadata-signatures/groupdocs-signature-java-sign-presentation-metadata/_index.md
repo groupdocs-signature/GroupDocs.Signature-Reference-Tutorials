@@ -4,8 +4,8 @@
 "title": "Presentatiedocumenten ondertekenen met metagegevens met GroupDocs.Signature voor Java&#58; een complete gids"
 "url": "/nl/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # Uitgebreide handleiding voor het ondertekenen van presentatiedocumenten met metagegevens met behulp van GroupDocs.Signature voor Java
 
 ## Invoering

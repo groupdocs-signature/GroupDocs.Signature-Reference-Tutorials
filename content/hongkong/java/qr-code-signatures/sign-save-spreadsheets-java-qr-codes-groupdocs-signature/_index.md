@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中對帶有二維碼的 Excel 電子表格進行簽名和保存"
 "url": "/zh-hant/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中對帶有二維碼的 Excel 電子表格進行簽名和保存
 
 ## 介紹

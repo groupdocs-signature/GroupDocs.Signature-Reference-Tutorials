@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak PDF'leri QR Kodlarıyla Nasıl İmzalayabilirsiniz?"
 "url": "/tr/net/qr-code-signatures/qr-code-signing-pdf-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak PDF'leri QR Kodlarıyla Nasıl İmzalayabilirsiniz?
 
 ## giriiş

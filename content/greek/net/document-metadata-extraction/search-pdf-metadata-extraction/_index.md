@@ -5,8 +5,8 @@
 "title": "Πώς να εξαγάγετε υπογραφές μεταδεδομένων PDF σε .NET"
 "url": "/el/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # Πώς να εξαγάγετε και να αναζητήσετε υπογραφές μεταδεδομένων PDF
 
 ## Γιατί τα μεταδεδομένα PDF έχουν σημασία για τα έγγραφά σας

@@ -5,8 +5,8 @@
 "title": "Verbeter PowerPoint-presentaties met metadatahandtekeningen in C# .NET"
 "url": "/nl/net/document-signing/sign-presentation-with-metadata/"
 "weight": 12
+type: docs
 ---
-
 ## Invoering
 
 Op de huidige digitale werkplek zijn presentaties essentiële hulpmiddelen voor communicatie en het delen van informatie. Het waarborgen van de authenticiteit en integriteit van deze presentatiebestanden wordt steeds belangrijker, vooral in zakelijke en educatieve omgevingen. Een effectieve manier om de beveiliging en traceerbaarheid van presentaties te verbeteren, is door metadatahandtekeningen in te bouwen.

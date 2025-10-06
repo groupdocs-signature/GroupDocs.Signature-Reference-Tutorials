@@ -4,8 +4,8 @@
 "title": "كيفية توقيع المستندات محليًا باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/digital-signatures/sign-documents-locally-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع المستندات محليًا باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

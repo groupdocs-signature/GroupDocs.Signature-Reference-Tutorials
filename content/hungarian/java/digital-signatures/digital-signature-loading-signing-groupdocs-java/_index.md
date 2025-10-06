@@ -4,8 +4,8 @@
 "title": "Digitális aláírás betöltésének és aláírásának megvalósítása a GroupDocs.Signature for Java segítségével"
 "url": "/hu/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírás betöltésének és aláírásának megvalósítása a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

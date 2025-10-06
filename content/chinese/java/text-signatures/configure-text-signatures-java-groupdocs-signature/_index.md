@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 Java 中配置文本签名——完整指南"
 "url": "/zh/java/text-signatures/configure-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 Java 中配置文本签名：综合指南
 
 ## 介绍

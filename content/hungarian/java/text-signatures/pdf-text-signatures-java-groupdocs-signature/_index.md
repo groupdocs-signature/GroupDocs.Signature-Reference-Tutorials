@@ -4,8 +4,8 @@
 "title": "PDF szöveges aláírások megvalósítása Java-ban a GroupDocs.Signature használatával – Átfogó útmutató"
 "url": "/hu/java/text-signatures/pdf-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # PDF szöveges aláírások megvalósítása Java nyelven a GroupDocs.Signature segítségével
 
 mai digitális környezetben a dokumentumok biztonságos aláírása elengedhetetlen az olyan üzleti folyamatokhoz, mint a szerződések megerősítése vagy a megállapodások ellenőrzése. A szöveges aláírás hozzáadása biztosítja a hitelességet és az integritást. Ez az átfogó útmutató végigvezeti Önt a PDF szöveges aláírások megvalósításán... **GroupDocs.Signature Java-hoz**, funkcionalitást és testreszabási lehetőségeket egyaránt kínálva.

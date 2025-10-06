@@ -4,8 +4,8 @@
 "title": "ลงนามในเอกสาร PDF ด้วยบาร์โค้ดโดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # ลงนามในเอกสาร PDF ด้วยบาร์โค้ดโดยใช้ GroupDocs.Signature สำหรับ Java: คู่มือที่ครอบคลุม
 
 ## การแนะนำ

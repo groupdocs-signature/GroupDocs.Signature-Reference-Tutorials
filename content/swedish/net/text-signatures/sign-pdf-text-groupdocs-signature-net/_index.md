@@ -4,8 +4,8 @@
 "title": "Så här signerar du PDF-filer med text med GroupDocs.Signature för .NET - en steg-för-steg-guide"
 "url": "/sv/net/text-signatures/sign-pdf-text-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här signerar du ett dokument med text med GroupDocs.Signature för .NET: En steg-för-steg-guide
 
 ## Introduktion

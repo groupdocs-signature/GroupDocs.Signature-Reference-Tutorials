@@ -5,8 +5,8 @@
 "title": "Beheers geavanceerde documentondertekeningstechnieken in .NET"
 "url": "/nl/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # Geavanceerde handtekeningtechnieken met GroupDocs.Signature voor .NET
 
 ## Invoering

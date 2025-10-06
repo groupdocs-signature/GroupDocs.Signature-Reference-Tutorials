@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 QR 코드 암호화를 통한 보안 PDF 서명 구현"
 "url": "/ko/java/qr-code-signatures/secure-pdf-signing-qr-code-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java에서 QR 코드 암호화를 통한 보안 PDF 서명을 구현하는 방법
 
 오늘날 디지털 시대에는 문서에 담긴 민감한 정보를 보호하는 것이 무엇보다 중요합니다. 사이버 위협의 증가로 인해 데이터 암호화는 문서 관리의 필수적인 부분이 되었습니다. 이 튜토리얼에서는 GroupDocs.Signature for Java를 사용하여 QR 코드 암호화를 활용한 안전한 PDF 서명을 구현하는 방법을 안내합니다. 이 튜토리얼을 마치면 강력한 보안 기능을 애플리케이션에 통합할 수 있는 역량을 갖추게 될 것입니다.

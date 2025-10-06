@@ -4,8 +4,8 @@
 "title": "Ekstraksi Metadata Gambar Master di Java Menggunakan Pustaka GroupDocs.Signature"
 "url": "/id/java/preview-info/groupdocs-signature-java-image-metadata-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai GroupDocs.Signature untuk Java: Ekstraksi Metadata Gambar
 
 ## Perkenalan

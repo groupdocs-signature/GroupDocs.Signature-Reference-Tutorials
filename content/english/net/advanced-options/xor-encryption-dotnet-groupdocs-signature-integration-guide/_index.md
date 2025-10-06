@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Security", "Development"]
 tags: ["encryption", "xor-cipher", "data-protection", "csharp-tutorial"]
+type: docs
 ---
-
 # XOR Encryption .NET Tutorial: Beginner-Friendly Guide with GroupDocs.Signature (2025)
 
 ## Introduction: Why You Need This XOR Encryption .NET Tutorial

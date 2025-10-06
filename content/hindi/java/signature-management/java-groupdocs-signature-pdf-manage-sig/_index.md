@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में PDF हस्ताक्षर प्रबंधन में महारत हासिल करें"
 "url": "/hi/java/signature-management/java-groupdocs-signature-pdf-manage-sig/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ जावा में PDF हस्ताक्षर प्रबंधन में निपुणता
 
 ## परिचय

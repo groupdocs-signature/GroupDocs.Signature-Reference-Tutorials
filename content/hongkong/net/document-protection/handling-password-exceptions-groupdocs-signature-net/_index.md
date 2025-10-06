@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET 中密碼異常處理綜合指南"
 "url": "/zh-hant/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 處理 GroupDocs.Signature for .NET 中的密碼異常
 
 ## 介紹

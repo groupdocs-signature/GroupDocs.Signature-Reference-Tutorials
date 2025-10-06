@@ -5,8 +5,8 @@
 "title": "Hur man genererar dokumentförhandsvisningar i .NET-appar | Snabb handledning"
 "url": "/sv/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # Hur man genererar dokumentförhandsgranskningar i dina .NET-applikationer
 
 ## Introduktion

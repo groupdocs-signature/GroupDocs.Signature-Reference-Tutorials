@@ -4,8 +4,8 @@
 "title": "Java QR-code handtekening zoeken met GroupDocs voor Java-ontwikkelaars"
 "url": "/nl/java/qr-code-signatures/java-qr-code-signature-search-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java QR-code handtekening zoeken met GroupDocs voor Java-ontwikkelaars
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Xác minh chữ ký số Java với GroupDocs.Signature - Hướng dẫn từng bước"
 "url": "/vi/java/digital-signatures/java-digital-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn toàn diện về việc triển khai xác minh chữ ký số Java bằng GroupDocs.Signature
 
 ## Giới thiệu

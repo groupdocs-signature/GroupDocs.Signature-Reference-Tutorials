@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da QR Kod Şifrelemesiyle Güvenli PDF İmzalamayı Uygulama"
 "url": "/tr/java/qr-code-signatures/secure-pdf-signing-qr-code-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java'da QR Kod Şifrelemesiyle Güvenli PDF İmzalama Nasıl Uygulanır?
 
 Günümüzün dijital çağında, belgelerdeki hassas bilgilerin güvenliği son derece önemlidir. Siber tehditlerin artışı, veri şifrelemesini belge yönetiminin vazgeçilmez bir parçası haline getirmiştir. Bu eğitim, GroupDocs.Signature for Java ile QR kod şifrelemesi kullanarak güvenli PDF imzalamayı uygulama konusunda size rehberlik edecektir. Bu makalenin sonunda, güçlü güvenlik özelliklerini uygulamalarınıza entegre edebilecek donanıma sahip olacaksınız.

@@ -4,8 +4,8 @@
 "title": "Azure Blob Depolamayı GroupDocs.Signature for .NET ile Nasıl Entegre Edebilirsiniz? Adım Adım Kılavuz"
 "url": "/tr/net/document-loading-saving/azure-blob-storage-groupdocs-signature-integration/"
 "weight": 1
+type: docs
 ---
-
 # Azure Blob Depolamayı GroupDocs.Signature for .NET ile Entegre Etme: Adım Adım Kılavuz
 
 ## giriiş

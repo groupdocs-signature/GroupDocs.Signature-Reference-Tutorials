@@ -5,8 +5,8 @@
 "title": "Tìm kiếm chữ ký số trong tài liệu"
 "url": "/vi/net/signature-searching/search-for-digital-signatures/"
 "weight": 11
+type: docs
 ---
-
 ## Giới thiệu
 
 Trong bối cảnh kỹ thuật số ngày nay, việc đảm bảo tính xác thực và toàn vẹn của tài liệu là vô cùng quan trọng đối với các doanh nghiệp và tổ chức. Chữ ký số cung cấp một cơ chế mạnh mẽ để xác minh tính xác thực của tài liệu và phát hiện các sửa đổi trái phép. GroupDocs.Signature for .NET cung cấp giải pháp toàn diện để làm việc với chữ ký số ở nhiều định dạng tài liệu khác nhau, cho phép các nhà phát triển tích hợp liền mạch chức năng chữ ký vào các ứng dụng .NET của họ.

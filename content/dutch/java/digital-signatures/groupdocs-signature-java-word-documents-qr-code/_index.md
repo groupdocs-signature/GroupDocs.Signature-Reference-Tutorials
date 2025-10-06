@@ -4,8 +4,8 @@
 "title": "Hoe u Word-documenten veilig kunt ondertekenen met QR-codes met GroupDocs.Signature voor Java"
 "url": "/nl/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u Word-documenten veilig kunt ondertekenen met QR-codes met GroupDocs.Signature voor Java
 
 In de digitale wereld van vandaag is het veilig ondertekenen van documenten cruciaal voor zowel bedrijven als particulieren. Of het nu gaat om contracten, juridische overeenkomsten of officiële brieven, de authenticiteit van uw documenten is van het grootste belang. Met elektronische handtekeningen hebben we dit proces gestroomlijnd en tegelijkertijd een extra beveiligingslaag en gebruiksgemak toegevoegd. GroupDocs.Signature voor Java biedt een krachtige oplossing om Word-documenten te ondertekenen met QR-codes – een moderne en veilige digitale handtekening.

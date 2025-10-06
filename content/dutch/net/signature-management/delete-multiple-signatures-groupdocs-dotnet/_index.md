@@ -4,8 +4,8 @@
 "title": "Meerdere handtekeningen in documenten verwijderen met GroupDocs.Signature voor .NET"
 "url": "/nl/net/signature-management/delete-multiple-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Meerdere handtekeningen in een document verwijderen met GroupDocs.Signature voor .NET
 
 ## Invoering

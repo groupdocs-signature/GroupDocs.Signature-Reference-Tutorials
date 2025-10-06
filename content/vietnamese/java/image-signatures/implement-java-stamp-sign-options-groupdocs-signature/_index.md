@@ -4,8 +4,8 @@
 "title": "Triển khai tùy chọn ký hiệu Java Stamp với GroupDocs.Signature để xác thực tài liệu"
 "url": "/vi/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai tùy chọn ký hiệu Java Stamp với GroupDocs.Signature để xác thực tài liệu
 ## Cách triển khai tùy chọn ký hiệu dấu Java với GroupDocs.Signature cho Java
 Trong thời đại kỹ thuật số ngày nay, việc đảm bảo tính xác thực của tài liệu là vô cùng quan trọng. Cho dù bạn là chuyên gia kinh doanh hay cá nhân cần xác thực hợp đồng và thỏa thuận, việc thêm chữ ký đóng dấu có thể mang lại uy tín và bảo mật. Hướng dẫn này sẽ hướng dẫn bạn thiết lập các tùy chọn đóng dấu bằng GroupDocs.Signature for Java — một thư viện mạnh mẽ được thiết kế riêng để đáp ứng nhu cầu ký tài liệu của bạn một cách dễ dàng.

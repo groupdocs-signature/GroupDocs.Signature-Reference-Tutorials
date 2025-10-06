@@ -4,8 +4,8 @@
 "title": "Initialiseer een handtekeninginstantie met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Initialiseer Signature Instance met GroupDocs.Signature voor .NET
 
 ## Invoering

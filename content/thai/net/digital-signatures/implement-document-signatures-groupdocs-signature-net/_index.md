@@ -4,8 +4,8 @@
 "title": "การใช้งานและแสดงลายเซ็นเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/digital-signatures/implement-document-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # การใช้งานและการแสดงลายเซ็นเอกสารด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

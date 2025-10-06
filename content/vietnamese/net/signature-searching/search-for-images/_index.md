@@ -5,8 +5,8 @@
 "title": "Tìm kiếm chữ ký hình ảnh trong tài liệu"
 "url": "/vi/net/signature-searching/search-for-images/"
 "weight": 13
+type: docs
 ---
-
 ## Giới thiệu
 
 Trong hệ sinh thái tài liệu kỹ thuật số ngày nay, chữ ký hình ảnh đóng vai trò là dấu hiệu trực quan mạnh mẽ cho việc xây dựng thương hiệu, ủy quyền và xác thực tài liệu. GroupDocs.Signature for .NET cung cấp một khuôn khổ toàn diện cho các nhà phát triển để dễ dàng tìm kiếm, nhận dạng và xử lý chữ ký hình ảnh trong các tài liệu ở nhiều định dạng khác nhau. Khả năng này rất cần thiết cho các ứng dụng yêu cầu xác minh tài liệu, phân tích nội dung hoặc xử lý tự động các tài liệu đã ký.

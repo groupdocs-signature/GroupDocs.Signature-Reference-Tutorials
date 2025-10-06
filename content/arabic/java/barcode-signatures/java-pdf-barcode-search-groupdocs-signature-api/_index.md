@@ -4,8 +4,8 @@
 "title": "البحث عن الباركود في ملفات PDF بلغة Java باستخدام واجهة برمجة تطبيقات GroupDocs.Signature - دليل شامل"
 "url": "/ar/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ Java: البحث عن رموز PDF الشريطية باستخدام GroupDocs.Signature API التعليمي
 
 ## مقدمة

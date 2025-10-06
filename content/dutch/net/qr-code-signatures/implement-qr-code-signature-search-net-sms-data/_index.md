@@ -4,8 +4,8 @@
 "title": "Implementeer QR-codehandtekeningzoekopdracht in .NET voor SMS-gegevensextractie met GroupDocs.Signature"
 "url": "/nl/net/qr-code-signatures/implement-qr-code-signature-search-net-sms-data/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van QR-code handtekening zoeken in .NET met behulp van GroupDocs.Signature
 
 ## Invoering

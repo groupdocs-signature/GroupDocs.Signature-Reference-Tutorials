@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 預覽二維碼簽章－綜合指南"
 "url": "/zh-hant/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 實作二維碼簽章預覽
 
 ## 介紹

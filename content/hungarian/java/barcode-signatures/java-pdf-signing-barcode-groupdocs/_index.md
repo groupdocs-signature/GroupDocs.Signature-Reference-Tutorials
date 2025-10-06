@@ -4,8 +4,8 @@
 "title": "Java PDF aláírás vonalkóddal a GroupDocs használatával – Átfogó útmutató"
 "url": "/hu/java/barcode-signatures/java-pdf-signing-barcode-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Java PDF aláírás megvalósítása vonalkód-opciókkal a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

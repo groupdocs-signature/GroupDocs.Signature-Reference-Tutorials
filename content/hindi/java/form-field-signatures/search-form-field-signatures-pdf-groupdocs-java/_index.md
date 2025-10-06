@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature का उपयोग करके PDF में फ़ॉर्म फ़ील्ड हस्ताक्षर खोजें और निकालें"
 "url": "/hi/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके PDF दस्तावेज़ों में फ़ॉर्म फ़ील्ड हस्ताक्षर कैसे खोजें और निकालें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature 라이브러리를 사용하여 Java에서 마스터 이미지 메타데이터 추출"
 "url": "/ko/java/preview-info/groupdocs-signature-java-image-metadata-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature 마스터하기: 이미지 메타데이터 추출
 
 ## 소개

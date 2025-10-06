@@ -4,8 +4,8 @@
 "title": "Domine as assinaturas de texto em Java - Guia completo para GroupDocs.Signature para Java"
 "url": "/pt/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Dominando a assinatura de documentos em Java: um guia completo para usar o GroupDocs.Signature para assinaturas de texto
 
 ## Introdução

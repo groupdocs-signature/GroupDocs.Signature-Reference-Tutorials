@@ -8,10 +8,8 @@ keywords:
 - Update QR Code Signatures in PDFs
 - GroupDocs.Signature for Java
 - QR Code Signature Management
-
+type: docs
 ---
-
-
 # Update QR Code Signatures in PDFs with GroupDocs.Signature for Java: A Comprehensive Guide
 
 ## Introduction

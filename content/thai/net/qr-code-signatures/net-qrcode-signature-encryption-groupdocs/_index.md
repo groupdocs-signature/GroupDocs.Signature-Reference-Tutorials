@@ -4,8 +4,8 @@
 "title": "การลงนาม PDF อย่างปลอดภัยด้วยรหัส QR ที่เข้ารหัสใน .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/qr-code-signatures/net-qrcode-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # คู่มือครอบคลุม: การนำการลงนาม PDF ที่ปลอดภัยด้วยรหัส QR ที่เข้ารหัสใน .NET โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

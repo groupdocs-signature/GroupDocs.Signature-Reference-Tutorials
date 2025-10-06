@@ -4,8 +4,8 @@
 "title": "การเรียนรู้ GroupDocs.Signature สำหรับการสมัครใช้งานและการกำหนดค่าเหตุการณ์การค้นหาบาร์โค้ดของ .NET"
 "url": "/th/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้ GroupDocs.Signature สำหรับ .NET: การสมัครและการกำหนดค่าเหตุการณ์การค้นหาบาร์โค้ด
 
 ## การแนะนำ

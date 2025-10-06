@@ -5,8 +5,8 @@
 "title": "Wyszukaj podpisy tekstowe w dokumentach"
 "url": "/pl/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## Wstęp
 
 Podpisy tekstowe są powszechną metodą potwierdzania autorstwa, zatwierdzenia lub weryfikacji dokumentu. W cyfrowym zarządzaniu dokumentami możliwość programowego wyszukiwania i wyodrębniania podpisów tekstowych ma kluczowe znaczenie dla walidacji dokumentów, automatyzacji przepływu pracy i weryfikacji zgodności. GroupDocs.Signature for .NET oferuje kompleksowe rozwiązanie do implementacji funkcji wyszukiwania podpisów tekstowych w aplikacjach .NET, obsługując różne formaty dokumentów i zaawansowane funkcje wyszukiwania.

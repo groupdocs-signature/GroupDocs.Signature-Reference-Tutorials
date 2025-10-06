@@ -4,8 +4,8 @@
 "title": "QR-codes bijwerken in .NET met behulp van GroupDocs.Signature&#58; een stapsgewijze handleiding"
 "url": "/nl/net/signature-management/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Een QR-code bijwerken met GroupDocs.Signature voor .NET
 
 Welkom bij onze uitgebreide handleiding voor het bijwerken van QR-codes met behulp van de krachtige GroupDocs.Signature-bibliotheek in .NET! Deze tutorial is ideaal voor ontwikkelaars die hun documentbeheerworkflows willen verbeteren door handtekeningupdates te automatiseren. Door GroupDocs.Signature voor .NET te gebruiken, kunt u digitale handtekeningfunctionaliteit naadloos integreren in uw applicaties.

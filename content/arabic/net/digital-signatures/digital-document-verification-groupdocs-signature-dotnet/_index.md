@@ -4,8 +4,8 @@
 "title": "التحقق من المستندات الرقمية باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/digital-signatures/digital-document-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # التحقق من المستندات الرقمية باستخدام GroupDocs.Signature لـ .NET: دليل شامل
 
 ## مقدمة

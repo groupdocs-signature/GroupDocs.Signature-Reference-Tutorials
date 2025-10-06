@@ -4,8 +4,8 @@
 "title": "توقيعات المستندات الرئيسية في Java باستخدام GroupDocs.Signature&#58; دليل توقيع الباركود"
 "url": "/ar/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # إتقان توقيعات المستندات في Java باستخدام GroupDocs.Signature
 
 **قم بتبسيط سير عمل المستندات الرقمية الخاصة بك عن طريق التوقيع والتحقق والبحث والتحديث وحذف توقيعات الباركود باستخدام GroupDocs.Signature لـ Java.**

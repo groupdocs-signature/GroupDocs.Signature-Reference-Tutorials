@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 實作數位簽章載入和簽名"
 "url": "/zh-hant/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 實作數位簽章載入和簽名
 
 ## 介紹

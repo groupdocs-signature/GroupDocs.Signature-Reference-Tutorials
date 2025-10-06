@@ -4,8 +4,8 @@
 "title": "Αποτελεσματική διαχείριση υπογραφών PDF σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/signature-management/mastering-pdf-signature-management-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Αποτελεσματική διαχείριση υπογραφών PDF σε Java με το GroupDocs.Signature
 
 ## Εισαγωγή

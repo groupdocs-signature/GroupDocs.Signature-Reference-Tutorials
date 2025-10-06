@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 签署受密码保护的 PDF（数字签名教程）"
 "url": "/zh/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 签署受密码保护的 PDF
 ## 数字签名教程
 

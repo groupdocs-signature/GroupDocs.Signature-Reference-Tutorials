@@ -4,8 +4,8 @@
 "title": "Zabezpiecz swoje pliki PDF podpisami QR i hasłem dzięki GroupDocs.Signature dla Java"
 "url": "/pl/java/document-protection/groupdocs-signature-java-pdf-security-guide/"
 "weight": 1
+type: docs
 ---
-
 # Zabezpiecz swoje pliki PDF: podpisy kodem QR i ochrona hasłem dzięki GroupDocs.Signature dla Java
 
 W dzisiejszej erze cyfrowej zabezpieczanie dokumentów PDF jest niezbędne do zarządzania poufnymi informacjami i zapewnienia autentyczności plików. Ten przewodnik pokaże Ci, jak używać GroupDocs.Signature for Java do dodawania podpisów w postaci kodów QR i ochrony hasłem do plików PDF.

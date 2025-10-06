@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature에서 잘못된 비밀번호 예외를 처리하는 방법"
 "url": "/ko/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 잘못된 비밀번호 예외를 처리하는 방법
 
 ## 소개

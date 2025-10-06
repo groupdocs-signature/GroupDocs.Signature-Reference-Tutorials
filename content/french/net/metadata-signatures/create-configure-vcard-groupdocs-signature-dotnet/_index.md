@@ -4,8 +4,8 @@
 "title": "Comment créer et configurer des objets VCard à l'aide de GroupDocs.Signature pour .NET - Guide du développeur"
 "url": "/fr/net/metadata-signatures/create-configure-vcard-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Comment créer et configurer des objets VCard à l'aide de GroupDocs.Signature pour .NET : Guide du développeur
 
 ## Introduction

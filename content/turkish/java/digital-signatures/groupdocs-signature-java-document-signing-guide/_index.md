@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Belgeler Nasıl İmzalanır? Eksiksiz Bir Kılavuz"
 "url": "/tr/java/digital-signatures/groupdocs-signature-java-document-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Belgeler Nasıl İmzalanır: Eksiksiz Bir Kılavuz
 
 ## giriiş

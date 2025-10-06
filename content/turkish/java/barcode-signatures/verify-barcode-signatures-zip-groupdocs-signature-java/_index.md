@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak ZIP Dosyalarındaki Barkod İmzalarını Doğrulayın"
 "url": "/tr/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak ZIP Dosyalarındaki Barkod İmzalarını Doğrulayın
 
 ## giriiş

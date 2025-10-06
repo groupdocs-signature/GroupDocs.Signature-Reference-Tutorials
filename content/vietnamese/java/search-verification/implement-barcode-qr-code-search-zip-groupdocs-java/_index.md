@@ -4,8 +4,8 @@
 "title": "Triển khai tìm kiếm mã vạch và mã QR trong kho lưu trữ ZIP bằng GroupDocs dành cho nhà phát triển Java"
 "url": "/vi/java/search-verification/implement-barcode-qr-code-search-zip-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai tìm kiếm mã vạch và mã QR trong kho lưu trữ ZIP với GroupDocs cho Java
 ## Giới thiệu
 Trong thế giới số ngày nay, việc quản lý và xác minh tính xác thực của tài liệu một cách hiệu quả là vô cùng quan trọng. Cho dù bạn đang xử lý các tài liệu pháp lý, hóa đơn hay hợp đồng được lưu trữ trong kho lưu trữ ZIP, việc tìm kiếm mã vạch và mã QR cụ thể có thể trở nên khó khăn nếu không có công cụ phù hợp. Hướng dẫn này sẽ hướng dẫn bạn sử dụng GroupDocs.Signature for Java để tìm kiếm chữ ký mã vạch và mã QR trong các tệp ZIP một cách liền mạch.

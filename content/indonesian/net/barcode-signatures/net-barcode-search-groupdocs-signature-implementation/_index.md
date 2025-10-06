@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Pencarian Kode Batang .NET Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pencarian Kode Batang .NET Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

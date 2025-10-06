@@ -4,8 +4,8 @@
 "title": "Java ve GroupDocs.Signature Kullanarak Gizli İmzalı PDF Önizlemeleri Oluşturun"
 "url": "/tr/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Java ve GroupDocs.Signature Kullanarak Gizli İmzalı PDF Önizlemeleri Oluşturun
 
 ## giriiş

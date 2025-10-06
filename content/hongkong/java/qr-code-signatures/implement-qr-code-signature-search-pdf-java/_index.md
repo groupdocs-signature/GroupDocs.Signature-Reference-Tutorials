@@ -4,8 +4,8 @@
 "title": "使用 Java 和 GroupDocs.Signature 在 PDF 中實現二維碼簽名搜索"
 "url": "/zh-hant/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 Java 在 PDF 中實現二維碼簽名搜索
 
 ## 介紹

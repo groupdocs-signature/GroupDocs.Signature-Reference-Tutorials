@@ -4,8 +4,8 @@
 "title": "Vyhledávání digitálních podpisů pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat vyhledávání digitálního podpisu v dokumentu pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

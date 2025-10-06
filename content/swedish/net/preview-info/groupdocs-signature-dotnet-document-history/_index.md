@@ -4,8 +4,8 @@
 "title": "Bemästra dokumentprocesshistorik med GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra dokumentprocesshistorik med GroupDocs.Signature för .NET: En omfattande guide
 
 ## Introduktion

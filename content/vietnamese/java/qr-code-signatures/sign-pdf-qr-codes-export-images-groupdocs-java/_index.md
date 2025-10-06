@@ -4,8 +4,8 @@
 "title": "Ký PDF bằng chữ ký mã QR và xuất dưới dạng hình ảnh bằng GroupDocs cho Java"
 "url": "/vi/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn toàn diện về cách ký và xuất PDF dưới dạng hình ảnh có mã QR bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "So signieren Sie PDFs mit Textsignatur und radialem Farbverlauf in .NET mithilfe von GroupDocs.Signature"
 "url": "/de/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie PDFs mit Textsignatur und radialem Farbverlauf in .NET mithilfe von GroupDocs.Signature
 
 ## Einführung

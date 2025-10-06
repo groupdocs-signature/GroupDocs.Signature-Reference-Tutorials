@@ -4,8 +4,8 @@
 "title": "Πώς να φορτώσετε έγγραφα κατά τύπο αρχείου στο GroupDocs.Signature για .NET™; Ένας πλήρης οδηγός"
 "url": "/el/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να φορτώσετε έγγραφα κατά τύπο αρχείου στο GroupDocs.Signature για .NET
 
 ## Εισαγωγή

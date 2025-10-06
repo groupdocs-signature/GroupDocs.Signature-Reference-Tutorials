@@ -4,8 +4,8 @@
 "title": "Ekstrak Tanda Tangan Kode QR dengan Data Alamat Menggunakan GroupDocs.Signature untuk .NET | Otomatisasi Tanda Tangan Digital"
 "url": "/id/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # Mengekstrak Tanda Tangan Kode QR dengan Data Alamat Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -3,8 +3,8 @@
 "title": "Tutorial Tanda Tangan Teks untuk GroupDocs.Signature Java"
 "url": "/id/java/text-signatures/"
 "weight": 7
+type: docs
 ---
-
 # Tutorial Tanda Tangan Teks untuk GroupDocs.Signature Java
 
 Tutorial tanda tangan teks kami menunjukkan cara mengimplementasikan berbagai jenis tanda tangan berbasis teks menggunakan GroupDocs.Signature di Java. Panduan praktis ini memandu Anda dalam pembuatan tanda tangan teks, tanda air, anotasi, stiker, kolom formulir, dan stempel dengan opsi pemformatan yang dapat disesuaikan. Setiap tutorial mencakup contoh kode Java yang detail untuk skenario implementasi tanda tangan teks, membantu Anda membangun aplikasi yang dapat menandai dokumen secara efektif dengan informasi tekstual sekaligus menyediakan berbagai opsi gaya dan pemosisian.

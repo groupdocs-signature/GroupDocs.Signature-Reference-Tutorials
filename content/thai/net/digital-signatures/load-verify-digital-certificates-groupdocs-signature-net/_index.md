@@ -4,8 +4,8 @@
 "title": "โหลดและตรวจสอบใบรับรองดิจิทัลด้วย GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/digital-signatures/load-verify-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # โหลดและตรวจสอบใบรับรองดิจิทัลด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

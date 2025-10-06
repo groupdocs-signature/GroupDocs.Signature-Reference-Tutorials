@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 高效删除二维码签名 | 签名管理指南"
 "url": "/zh/net/signature-management/delete-qr-code-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 删除二维码签名
 
 ## 介绍

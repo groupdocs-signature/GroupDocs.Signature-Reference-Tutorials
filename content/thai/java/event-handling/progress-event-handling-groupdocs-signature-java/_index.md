@@ -4,8 +4,8 @@
 "title": "การนำการจัดการเหตุการณ์ความคืบหน้าไปใช้ในการลงนามเอกสารด้วย GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # การนำการจัดการเหตุการณ์ความคืบหน้าไปใช้ในการลงนามเอกสารด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

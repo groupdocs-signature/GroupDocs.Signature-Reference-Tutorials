@@ -4,8 +4,8 @@
 "title": "Cách xử lý ngoại lệ mật khẩu không đúng trong GroupDocs.Signature cho .NET"
 "url": "/vi/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách xử lý ngoại lệ mật khẩu không đúng bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

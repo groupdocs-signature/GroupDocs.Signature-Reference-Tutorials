@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 搜尋圖像元資料—綜合指南"
 "url": "/zh-hant/java/search-verification/search-image-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 搜尋圖片元數據
 
 ## 介紹

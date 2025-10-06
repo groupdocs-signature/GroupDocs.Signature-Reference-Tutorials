@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF χρησιμοποιώντας πεδία φόρμας με κουμπιά ραδιοφώνου με το GroupDocs.Signature για .NET"
 "url": "/el/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα PDF χρησιμοποιώντας πεδία φόρμας με το κουμπί ραδιοφώνου με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

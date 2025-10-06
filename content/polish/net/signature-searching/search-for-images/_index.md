@@ -5,8 +5,8 @@
 "title": "Wyszukaj podpisy obrazkowe w dokumentach"
 "url": "/pl/net/signature-searching/search-for-images/"
 "weight": 13
+type: docs
 ---
-
 ## Wstęp
 
 dzisiejszym ekosystemie dokumentów cyfrowych podpisy graficzne pełnią funkcję silnych znaczników wizualnych do brandingu, autoryzacji i walidacji dokumentów. GroupDocs.Signature for .NET zapewnia programistom kompleksowe środowisko do bezproblemowego wyszukiwania, identyfikowania i przetwarzania podpisów graficznych w dokumentach w różnych formatach. Ta funkcja jest niezbędna w aplikacjach wymagających weryfikacji dokumentów, analizy treści lub automatycznego przetwarzania podpisanych dokumentów.

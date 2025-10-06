@@ -4,8 +4,8 @@
 "title": "วิธีดาวน์โหลดและลงนามเอกสาร Amazon S3 ด้วยรหัส QR โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/qr-code-signatures/download-sign-s3-documents-qr-code-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีดาวน์โหลดและลงนามเอกสาร Amazon S3 ด้วยรหัส QR โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

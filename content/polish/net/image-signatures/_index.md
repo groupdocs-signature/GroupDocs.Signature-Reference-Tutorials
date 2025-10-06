@@ -3,8 +3,8 @@
 "title": "Samouczki dotyczące podpisów obrazkowych dla GroupDocs.Signature .NET"
 "url": "/pl/net/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Samouczki dotyczące podpisów obrazkowych dla GroupDocs.Signature .NET
 
 Dowiedz się, jak wzbogacić dokumenty o wizualne podpisy, korzystając z naszych samouczków dotyczących podpisów graficznych w programie GroupDocs.Signature .NET. Te szczegółowe przewodniki pokazują, jak dodawać obrazy jako podpisy, tworzyć podpisy w formie pieczątek, wdrażać znaki wodne, dostosowywać ustawienia wyglądu oraz korzystać z opcji wyrównania i rozmiaru obrazów. Każdy samouczek zawiera działające przykłady kodu w języku C#, które pokazują, jak tworzyć atrakcyjne wizualnie podpisy, skutecznie komunikujące autentyczność lub markę, zachowując jednocześnie integralność dokumentu.

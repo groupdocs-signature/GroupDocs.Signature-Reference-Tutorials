@@ -4,8 +4,8 @@
 "title": "Hoe u metadata-handtekeningversleuteling in .NET implementeert met GroupDocs.Signature voor beveiligde PDF's"
 "url": "/nl/net/metadata-signatures/groupdocs-signature-net-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u metadata-handtekeningversleuteling in .NET implementeert met GroupDocs.Signature voor beveiligde PDF's
 
 ## Invoering

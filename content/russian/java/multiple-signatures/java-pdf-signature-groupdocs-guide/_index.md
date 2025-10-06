@@ -4,8 +4,8 @@
 "title": "Руководство по подписи в Java PDF&#58; добавление текста, штрихкода, QR-кода и цифровых подписей с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # Руководство по внедрению подписи в PDF-файлы Java: добавление текста, штрихкода, QR-кода и цифровых подписей с помощью GroupDocs.Signature для Java
 
 ## Введение

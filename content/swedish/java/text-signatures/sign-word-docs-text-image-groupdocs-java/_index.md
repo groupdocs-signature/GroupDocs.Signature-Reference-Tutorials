@@ -4,8 +4,8 @@
 "title": "Så här signerar du Word-dokument digitalt med text som bild med GroupDocs.Signature för Java"
 "url": "/sv/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Så här signerar du Word-dokument digitalt med text som bild med GroupDocs.Signature för Java
 
 ## Introduktion

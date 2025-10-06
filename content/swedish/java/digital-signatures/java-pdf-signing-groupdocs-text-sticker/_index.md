@@ -4,8 +4,8 @@
 "title": "Bemästra Java PDF-signering &#50; textetikettsignaturer med GroupDocs.Signature för Java"
 "url": "/sv/java/digital-signatures/java-pdf-signing-groupdocs-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra Java PDF-signering: Skapa textklistermärken med GroupDocs.Signature
 
 dagens digitala tidsålder är det viktigt att signera dokument elektroniskt. Oavsett om du är en affärsproffs eller en individ som hanterar kontrakt och avtal är säkra och visuellt tilltalande signaturer avgörande. Den här handledningen guidar dig genom processen att signera PDF-dokument med hjälp av textetiketter med GroupDocs.Signature för Java. Att behärska denna färdighet kommer att effektivisera dokumentarbetsflöden och göra det möjligt för dig att presentera professionellt signerade dokument i ett unikt format.

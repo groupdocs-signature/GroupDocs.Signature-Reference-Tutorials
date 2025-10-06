@@ -4,8 +4,8 @@
 "title": "Maak verbluffende radiale gradiënthandtekeningen in Java met GroupDocs.Signature"
 "url": "/nl/java/document-loading-saving/groupdocs-signature-java-radial-gradient-sig/"
 "weight": 1
+type: docs
 ---
-
 # Maak een visueel aantrekkelijke radiale gradiënthandtekening met GroupDocs.Signature voor Java
 
 In de digitale wereld van vandaag is de esthetiek van elektronische documentondertekening net zo belangrijk als functionaliteit. Een visueel aantrekkelijke handtekening kan zowel de professionaliteit als de geloofwaardigheid van uw werk verhogen. Deze tutorial begeleidt u bij het implementeren van een handtekening met een radiaal verlooppenseel met behulp van GroupDocs.Signature voor Java.

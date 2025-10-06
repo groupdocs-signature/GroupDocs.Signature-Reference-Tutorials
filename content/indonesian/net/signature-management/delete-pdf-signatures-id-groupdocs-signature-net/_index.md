@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Tanda Tangan PDF berdasarkan ID Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/signature-management/delete-pdf-signatures-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan PDF berdasarkan ID Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

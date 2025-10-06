@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć cyfrowe podpisywanie dokumentów w Javie za pomocą GroupDocs.Signature"
 "url": "/pl/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć cyfrowe podpisywanie dokumentów w Javie za pomocą GroupDocs.Signature
 
 ## Wstęp

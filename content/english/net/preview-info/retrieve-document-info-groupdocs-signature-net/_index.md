@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["GroupDocs", "Digital Signatures", "Document Metadata", ".NET"]
+type: docs
 ---
-
 # GroupDocs Signature Document Info - Complete Guide to Extracting File Details
 
 ## Why Document Information Extraction Matters for Your Applications

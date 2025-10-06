@@ -4,8 +4,8 @@
 "title": "Meistern Sie die Barcode-Verifizierung in .NET mit GroupDocs.Signature für Dokumentenintegrität"
 "url": "/de/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Meistern Sie die Barcode-Verifizierung in .NET mit GroupDocs.Signature
 
 ## Einführung

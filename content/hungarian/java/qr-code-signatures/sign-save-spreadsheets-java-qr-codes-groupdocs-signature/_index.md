@@ -4,8 +4,8 @@
 "title": "Excel-táblázatok aláírása és mentése QR-kódokkal Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Excel-táblázatok aláírása és mentése QR-kódokkal Java-ban a GroupDocs.Signature használatával
 
 ## Bevezetés

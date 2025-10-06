@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Word Belgelerini Metin Filigranlarıyla Nasıl İmzalayabilirsiniz?"
 "url": "/tr/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Word Belgelerini Metin Filigranlarıyla Nasıl İmzalayabilirsiniz?
 
 ## giriiş

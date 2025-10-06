@@ -9,8 +9,8 @@ weight: 1
 url: "/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 categories: ["Digital Signatures"]
 tags: ["dotnet", "excel", "pdf-conversion", "digital-signatures", "groupdocs"]
+type: docs
 ---
-
 # Digital Signature Spreadsheet .NET - Sign Excel & Convert to PDF
 
 ## Introduction

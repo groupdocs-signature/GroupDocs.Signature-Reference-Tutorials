@@ -4,8 +4,8 @@
 "title": "掌握 .NET 条形码签名与 GroupDocs.Signature 的集成，以增强文档安全性"
 "url": "/zh/net/barcode-signatures/net-barcode-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 掌握文档管理：使用 GroupDocs.Signature 实现 .NET 条形码签名集成
 
 在当今的数字时代，确保文档的真实性和完整性对各行各业都至关重要。本指南演示了如何使用条形码签名集成到您的文档工作流程中 **适用于 .NET 的 GroupDocs.Signature**。无论您需要在文档中签署、验证、搜索、更新或删除条形码签名，本教程都会涵盖所有必要的方面。

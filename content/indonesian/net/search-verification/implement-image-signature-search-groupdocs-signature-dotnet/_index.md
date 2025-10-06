@@ -4,8 +4,8 @@
 "title": "Menerapkan Pencarian Tanda Tangan Gambar di .NET dengan GroupDocs.Signature&#58; Panduan Langkah demi Langkah"
 "url": "/id/net/search-verification/implement-image-signature-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pencarian Tanda Tangan Gambar Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

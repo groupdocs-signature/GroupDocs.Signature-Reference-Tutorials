@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 在 PDF 中進行二維碼搜尋－完整指南"
 "url": "/zh-hant/net/search-verification/master-qr-code-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 掌握 PDF 中的二維碼搜尋
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "Effektiv hantering av dokumentsignaturer - Sökning efter formulärfältsignaturer med GroupDocs.Signature för .NET"
 "url": "/sv/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Effektiv hantering av dokumentsignaturer med GroupDocs.Signature för .NET
 
 ## Introduktion

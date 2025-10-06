@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory pomocí podpisu formulářového pole v Javě s GroupDocs.Signature"
 "url": "/cs/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF pomocí podpisu formulářového pole v Javě s GroupDocs.Signature
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "تحديث توقيعات النص في مستندات .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/signature-management/update-text-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # تحديث توقيعات النص في مستندات .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

@@ -10,10 +10,8 @@ keywords:
 - Java
 - Document Signing
 - Digital Security
-
+type: docs
 ---
-
-
 "# How to Implement QR Code Signatures with GroupDocs.Signature for Java
 
 ## Introduction

@@ -3,8 +3,8 @@
 "title": "Java 개발자를 위한 GroupDocs.Signature 시작 튜토리얼"
 "url": "/ko/java/getting-started/"
 "weight": 1
+type: docs
 ---
-
 # Java 개발자를 위한 GroupDocs.Signature 시작 튜토리얼
 
 설치, 라이선스 구성, 그리고 Java로 첫 디지털 서명 구현을 안내하는 필수 GroupDocs.Signature 튜토리얼로 여정을 시작하세요. 초보자를 위한 가이드는 개발 환경 설정, GroupDocs.Signature 라이브러리 초기화, 그리고 기본적인 서명 작업 수행 방법을 보여줍니다. 이 튜토리얼을 따라 기본 사항을 빠르게 익히고 Java 애플리케이션에서 고급 문서 서명 작업을 준비하세요.

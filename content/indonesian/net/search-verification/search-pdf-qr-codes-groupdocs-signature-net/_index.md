@@ -4,8 +4,8 @@
 "title": "Cara Mencari Tanda Tangan Kode QR di PDF dan Mengekstrak Data VCard Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mencari Tanda Tangan Kode QR dalam PDF Dokumen dan Mengekstrak Data VCard Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

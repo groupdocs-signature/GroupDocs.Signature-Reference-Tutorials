@@ -4,8 +4,8 @@
 "title": "Veilige Word-metadatahandtekeningen in Java met GroupDocs&#58; een uitgebreide handleiding"
 "url": "/nl/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Veilige Word-metadatahandtekeningen in Java met GroupDocs
 
 ## Invoering

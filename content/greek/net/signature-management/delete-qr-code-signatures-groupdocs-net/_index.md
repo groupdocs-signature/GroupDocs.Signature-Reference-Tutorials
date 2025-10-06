@@ -4,8 +4,8 @@
 "title": "Διαγραφή υπογραφών QR Code με το GroupDocs.Signature σε .NET™ Ένας πλήρης οδηγός"
 "url": "/el/net/signature-management/delete-qr-code-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Διαγραφή υπογραφών QR Code με το GroupDocs.Signature σε .NET: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

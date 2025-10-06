@@ -4,8 +4,8 @@
 "title": "Cách lấy lại lịch sử xử lý tài liệu với GroupDocs.Signature cho .NET - Hướng dẫn từng bước"
 "url": "/vi/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # Cách lấy lại lịch sử xử lý tài liệu bằng GroupDocs.Signature cho .NET: Hướng dẫn từng bước
 
 ## Giới thiệu

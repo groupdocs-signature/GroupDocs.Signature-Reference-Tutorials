@@ -4,8 +4,8 @@
 "title": "Base64 이미지를 사용하여 Java 문서에 서명하기 위한 Master GroupDocs.Signature"
 "url": "/ko/java/image-signatures/groupdocs-signature-java-base64-image/"
 "weight": 1
+type: docs
 ---
-
 # Base64로 인코딩된 이미지를 사용하여 Java용 GroupDocs.Signature로 마스터 문서 서명
 
 ## 소개

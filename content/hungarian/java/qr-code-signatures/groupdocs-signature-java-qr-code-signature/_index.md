@@ -4,8 +4,8 @@
 "title": "QR-kód aláírások megvalósítása Java dokumentumokban a GroupDocs.Signature használatával"
 "url": "/hu/java/qr-code-signatures/groupdocs-signature-java-qr-code-signature/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírások megvalósítása Java dokumentumokban a GroupDocs.Signature használatával
 
 ## Bevezetés

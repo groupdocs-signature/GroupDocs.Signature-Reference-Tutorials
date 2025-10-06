@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak Belgelerden QR Kodlarını Etkili Şekilde Kaldırın"
 "url": "/tr/net/signature-management/delete-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Belgelerden QR Kodlarını Etkili Bir Şekilde Kaldırın
 
 ## giriiş

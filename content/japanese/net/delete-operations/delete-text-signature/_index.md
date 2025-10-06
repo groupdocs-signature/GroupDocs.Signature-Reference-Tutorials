@@ -5,8 +5,8 @@
 "title": ".NET でドキュメントからテキスト署名を削除する方法"
 "url": "/ja/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # GroupDocs.Signature を使って文書からテキスト署名を削除する方法
 
 ## テキスト署名を削除する必要があるのはなぜですか?

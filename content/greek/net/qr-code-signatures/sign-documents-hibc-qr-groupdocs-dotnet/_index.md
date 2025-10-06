@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε έγγραφα με κωδικούς QR HIBC χρησιμοποιώντας το GroupDocs.Signature για .NET™; Ένας πλήρης οδηγός"
 "url": "/el/net/qr-code-signatures/sign-documents-hibc-qr-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε έγγραφα με κωδικούς QR HIBC χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

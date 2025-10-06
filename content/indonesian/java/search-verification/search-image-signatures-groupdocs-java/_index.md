@@ -4,8 +4,8 @@
 "title": "Panduan Implementasi Pencarian Tanda Tangan Gambar di Java dengan GroupDocs.Signature"
 "url": "/id/java/search-verification/search-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Implementasi Pencarian Tanda Tangan Gambar di Java dengan GroupDocs.Signature
 
 ## Perkenalan

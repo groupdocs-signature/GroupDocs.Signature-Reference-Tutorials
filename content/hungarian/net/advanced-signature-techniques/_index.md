@@ -5,8 +5,8 @@
 "title": "Sajátítsa el a haladó dokumentumaláírási technikákat .NET-ben"
 "url": "/hu/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # Speciális aláírási technikák a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

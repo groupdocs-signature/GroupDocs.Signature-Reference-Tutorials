@@ -4,8 +4,8 @@
 "title": "Come eliminare le firme PDF utilizzando GroupDocs.Signature per Java&#58; una guida completa"
 "url": "/it/java/signature-management/delete-pdf-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Come eliminare le firme PDF utilizzando GroupDocs.Signature per Java: una guida completa
 
 ## Introduzione

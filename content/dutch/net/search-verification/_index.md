@@ -3,8 +3,8 @@
 "title": "Zelfstudies voor het zoeken en verifiëren van handtekeningen voor GroupDocs.Signature .NET"
 "url": "/nl/net/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # Zelfstudies voor het zoeken en verifiëren van handtekeningen voor GroupDocs.Signature .NET
 
 Onze zoek- en verificatiehandleidingen bieden uitgebreide richtlijnen voor het valideren van documenthandtekeningen met GroupDocs.Signature in .NET. Deze praktische handleidingen laten zien hoe u kunt zoeken naar handtekeningen van verschillende typen (digitaal, barcode, QR-code, tekst, afbeelding en metadata), verificatie kunt implementeren voor authenticiteitscontrole, uitzonderingen tijdens verificatie kunt afhandelen en complexe documenten kunt verwerken. Elke handleiding bevat complete C#-codevoorbeelden voor veelvoorkomende verificatiescenario's, waarmee u applicaties kunt bouwen die effectief kunnen bepalen of documenten zijn gewijzigd sinds de ondertekening.

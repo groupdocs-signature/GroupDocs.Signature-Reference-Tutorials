@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して Amazon S3 ドキュメントを QR コードでダウンロードおよび署名する方法"
 "url": "/ja/net/qr-code-signatures/download-sign-s3-documents-qr-code-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して Amazon S3 ドキュメントを QR コードでダウンロードおよび署名する方法
 
 ## 導入

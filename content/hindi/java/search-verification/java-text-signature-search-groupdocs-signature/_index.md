@@ -4,8 +4,8 @@
 "title": "दस्तावेज़ प्रबंधन और सत्यापन के लिए GroupDocs.Signature के साथ जावा टेक्स्ट हस्ताक्षर खोज को कार्यान्वित करना"
 "url": "/hi/java/search-verification/java-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ जावा टेक्स्ट हस्ताक्षर खोज को कार्यान्वित करना
 
 ## परिचय

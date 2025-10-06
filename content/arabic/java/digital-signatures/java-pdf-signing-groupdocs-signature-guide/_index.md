@@ -4,8 +4,8 @@
 "title": "تنفيذ توقيع PDF في Java باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ توقيع PDF في Java باستخدام GroupDocs.Signature
 
 ## اكتشف قوة GroupDocs.Signature لـ Java: توقيع مستندات PDF بسلاسة

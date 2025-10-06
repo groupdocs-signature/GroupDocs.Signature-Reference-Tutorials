@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 QR 코드 업데이트하기 - 단계별 가이드"
 "url": "/ko/net/signature-management/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 QR 코드를 업데이트하는 방법
 
 .NET에서 강력한 GroupDocs.Signature 라이브러리를 사용하여 QR 코드를 업데이트하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다! 이 튜토리얼은 서명 업데이트를 자동화하여 문서 관리 워크플로를 개선하려는 개발자에게 이상적입니다. .NET용 GroupDocs.Signature를 활용하면 디지털 서명 기능을 애플리케이션에 원활하게 통합할 수 있습니다.

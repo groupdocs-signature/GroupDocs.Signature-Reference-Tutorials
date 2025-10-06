@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Pencarian Tanda Tangan Teks di PDF Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/search-verification/implement-search-text-signatures-groupdocs-java-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pencarian Tanda Tangan Teks di PDF Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

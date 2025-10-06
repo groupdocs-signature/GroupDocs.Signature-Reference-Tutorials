@@ -4,8 +4,8 @@
 "title": "Java用GroupDocs.Signatureを使用してアーカイブファイル情報を取得する方法"
 "url": "/ja/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # Java用GroupDocs.Signatureを使用してアーカイブファイル情報を取得する方法
 
 ## 導入

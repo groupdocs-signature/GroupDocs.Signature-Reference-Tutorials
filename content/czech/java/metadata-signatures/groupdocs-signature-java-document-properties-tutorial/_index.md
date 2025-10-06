@@ -4,8 +4,8 @@
 "title": "Zvládnutí načítání vlastností dokumentů pomocí GroupDocs.Signature pro Javu&#58; Komplexní průvodce"
 "url": "/cs/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí načítání vlastností dokumentů pomocí GroupDocs.Signature pro Javu
 Odemkněte sílu správy dokumentů využitím GroupDocs.Signature for Java k snadnému načítání a tisku vlastností dokumentů, jako je formát, velikost, počet stránek a další. Tento komplexní tutoriál vás provede nastavením vašeho prostředí, implementací různých funkcí a aplikací těchto možností v reálných scénářích.
 

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용한 문서 서명에서 이벤트 구독 마스터하기 | 단계별 가이드"
 "url": "/ko/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용한 문서 서명에서 이벤트 구독 마스터링
 
 ## 소개

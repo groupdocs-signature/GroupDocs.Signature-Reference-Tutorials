@@ -5,8 +5,8 @@
 "title": "Εξαγωγή μεταδεδομένων επεξεργασίας κειμένου εύκολα με το .NET"
 "url": "/el/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # Πώς να αναζητήσετε και να εξαγάγετε μεταδεδομένα επεξεργασίας κειμένου στο .NET
 
 ## Εισαγωγή

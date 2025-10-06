@@ -4,8 +4,8 @@
 "title": "Bemästra digitala dokumentsignaturer med GroupDocs för Java – en omfattande guide"
 "url": "/sv/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra digitala dokumentsignaturer med GroupDocs för Java
 
 ## Introduktion

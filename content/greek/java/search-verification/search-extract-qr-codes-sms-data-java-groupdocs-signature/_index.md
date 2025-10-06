@@ -4,8 +4,8 @@
 "title": "Πώς να αναζητήσετε και να εξαγάγετε δεδομένα SMS από υπογραφές QR Code σε PDF χρησιμοποιώντας Java με το GroupDocs.Signature"
 "url": "/el/java/search-verification/search-extract-qr-codes-sms-data-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αναζητήσετε και να εξαγάγετε δεδομένα SMS από υπογραφές QR Code σε PDF χρησιμοποιώντας Java με GroupDocs.Signature
 
 ## Εισαγωγή

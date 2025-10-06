@@ -8,10 +8,8 @@ keywords:
 - document signing
 - GroupDocs.Signature for Java
 - metadata sign options
-
+type: docs
 ---
-
-
 # How to Sign Documents Using GroupDocs.Signature for Java: A Complete Guide
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "วิธีการลบลายเซ็นดิจิทัลออกจาก PDF โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/signature-management/delete-digital-signature-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลบลายเซ็นดิจิทัลออกจาก PDF โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

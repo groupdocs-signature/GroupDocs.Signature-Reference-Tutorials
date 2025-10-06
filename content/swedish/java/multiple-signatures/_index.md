@@ -3,8 +3,8 @@
 "title": "Handledningar för flera signaturer för GroupDocs.Signature Java"
 "url": "/sv/java/multiple-signatures/"
 "weight": 10
+type: docs
 ---
-
 # Handledningar för flera signaturer för GroupDocs.Signature Java
 
 Lär dig hur du skapar sofistikerade signeringsarbetsflöden med våra GroupDocs.Signature-handledningar för flera signaturer i Java. Dessa omfattande guider visar hur du kombinerar olika signaturtyper i en enda process, implementerar ordnade signeringssekvenser, hanterar komplexa signaturarrangemang och arbetar med flersidiga dokument. Varje handledning ger detaljerade Java-kodexempel för avancerade signeringsscenarier, vilket hjälper dig att bygga robusta dokumentbehandlingsprogram som stöder komplexa signeringskrav för företags- och juridiska användningsområden.

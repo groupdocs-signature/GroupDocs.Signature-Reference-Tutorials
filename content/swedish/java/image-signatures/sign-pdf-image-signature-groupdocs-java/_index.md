@@ -4,8 +4,8 @@
 "title": "Så här signerar du PDF-filer med bildsignaturer med GroupDocs.Signature för Java - en steg-för-steg-guide"
 "url": "/sv/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar ett PDF-dokument med en bildsignatur med GroupDocs.Signature för Java
 
 ## Introduktion

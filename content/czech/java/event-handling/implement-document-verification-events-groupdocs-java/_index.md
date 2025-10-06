@@ -4,8 +4,8 @@
 "title": "Implementace ověřování dokumentů s odběrem událostí v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementace ověřování dokumentů s odběrem událostí pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

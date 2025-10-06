@@ -4,8 +4,8 @@
 "title": "ลายเซ็นข้อความหลักใน Java และคู่มือครอบคลุมสำหรับ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การลงนามเอกสารใน Java: คู่มือฉบับสมบูรณ์สำหรับการใช้ GroupDocs ลายเซ็นสำหรับลายเซ็นข้อความ
 
 ## การแนะนำ

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["PDF", "C#", "GroupDocs", "Digital Signing", ".NET"]
+type: docs
 ---
-
 # PDF Signature .NET: Complete Implementation Guide with GroupDocs.Signature
 
 ## Introduction

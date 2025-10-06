@@ -4,8 +4,8 @@
 "title": "Cách xóa chữ ký PDF bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/signature-management/delete-pdf-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa chữ ký PDF bằng GroupDocs.Signature cho Java: Hướng dẫn toàn diện
 
 ## Giới thiệu

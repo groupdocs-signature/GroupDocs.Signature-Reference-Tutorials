@@ -4,8 +4,8 @@
 "title": "Efficiënt handtekeningenbeheer&#58; digitale handtekeningen zoeken en verwijderen met GroupDocs.Signature voor Java"
 "url": "/nl/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Efficiënt handtekeningenbeheer: digitale handtekeningen zoeken en verwijderen met GroupDocs.Signature voor Java
 
 ## Invoering

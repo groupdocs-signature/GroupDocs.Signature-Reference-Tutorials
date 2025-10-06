@@ -4,8 +4,8 @@
 "title": "掌握 GroupDocs.Signature for Java 文件簽章搜尋的綜合指南"
 "url": "/zh-hant/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 掌握文件簽章搜尋
 
 ## 介紹

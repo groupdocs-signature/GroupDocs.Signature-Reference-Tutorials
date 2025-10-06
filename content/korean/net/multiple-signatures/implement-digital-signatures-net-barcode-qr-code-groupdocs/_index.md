@@ -4,8 +4,8 @@
 "title": ".NET에서 디지털 서명 구현&#58; 바코드 및 QR 코드 통합 가이드"
 "url": "/ko/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET에서 디지털 서명을 구현하는 방법: GroupDocs.Signature를 사용한 바코드 및 QR 코드 서명
 
 오늘날의 디지털 시대에는 문서를 빠르고 안전하게 인증하는 것이 그 어느 때보다 중요합니다. 엔터프라이즈 애플리케이션을 개발하는 개발자든 문서 관리 프로세스를 간소화하려는 개발자든, 서명을 추가하는 것은 획기적인 변화를 가져올 수 있습니다. 이 튜토리얼에서는 **.NET용 GroupDocs.Signature** 바코드와 QR 코드 서명을 모두 사용하여 문서에 디지털 서명을 하고, 보안이 강화된 문서 작성을 위한 강력한 솔루션을 제공합니다.

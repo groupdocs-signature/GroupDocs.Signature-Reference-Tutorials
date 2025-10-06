@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["NET Development"]
 tags: ["barcode-search", "groupdocs-signature", "document-automation", "csharp-tutorial"]
+type: docs
 ---
-
 # Barcode Search .NET Tutorial - Complete GroupDocs.Signature
 
 ## Introduction

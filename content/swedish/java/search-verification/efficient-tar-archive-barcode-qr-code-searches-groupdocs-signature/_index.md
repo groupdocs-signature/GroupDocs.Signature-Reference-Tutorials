@@ -4,8 +4,8 @@
 "title": "Sökning av streckkoder och QR-koder i Master TAR-arkiv med GroupDocs.Signature för Java"
 "url": "/sv/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra TAR-arkivsökningar med streckkod och QR-kod med GroupDocs.Signature för Java
 
 ## Introduktion

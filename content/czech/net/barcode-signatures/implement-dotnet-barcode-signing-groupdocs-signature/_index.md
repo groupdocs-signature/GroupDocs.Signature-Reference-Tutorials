@@ -4,8 +4,8 @@
 "title": "Jak implementovat podepisování čárových kódů v .NET pomocí GroupDocs.Signature – Kompletní průvodce pro vývojáře"
 "url": "/cs/net/barcode-signatures/implement-dotnet-barcode-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat podepisování čárových kódů v .NET pomocí GroupDocs.Signature: Kompletní průvodce pro vývojáře
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Цифровая подпись с обработкой исключений в .NET с использованием GroupDocs.Signature"
 "url": "/ru/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Цифровая подпись с обработкой исключений в .NET с использованием GroupDocs.Signature
 
 ## Введение

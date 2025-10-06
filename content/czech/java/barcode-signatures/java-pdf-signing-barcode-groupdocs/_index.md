@@ -4,8 +4,8 @@
 "title": "Podepisování PDF v Javě pomocí čárového kódu pomocí GroupDocs – Komplexní průvodce"
 "url": "/cs/java/barcode-signatures/java-pdf-signing-barcode-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat podepisování PDF v Javě s možnostmi čárového kódu pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

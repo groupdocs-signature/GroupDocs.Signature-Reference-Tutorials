@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 签署图像文档——综合指南"
 "url": "/zh/net/image-signatures/sign-image-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 签署图像文档
 
 ## 介绍

@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature'da Özel Günlük Kaydını Uygulama Kapsamlı Bir Kılavuz"
 "url": "/tr/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature'da Özel Günlük Kaydını Uygulama: Kapsamlı Bir Kılavuz
 
 ## giriiş

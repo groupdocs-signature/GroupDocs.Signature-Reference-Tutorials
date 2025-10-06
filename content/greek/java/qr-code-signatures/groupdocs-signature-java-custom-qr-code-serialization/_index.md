@@ -4,8 +4,8 @@
 "title": "Υλοποίηση προσαρμοσμένης σειριοποίησης και κρυπτογράφησης κωδικού QR σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε προσαρμοσμένη σειριοποίηση και κρυπτογράφηση κωδικού QR σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

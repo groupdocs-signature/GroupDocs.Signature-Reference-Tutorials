@@ -4,8 +4,8 @@
 "title": "Java를 사용하여 GroupDocs.Signature를 사용하여 PDF의 QR 코드 서명에서 SMS 데이터를 검색하고 추출하는 방법"
 "url": "/ko/java/search-verification/search-extract-qr-codes-sms-data-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java를 사용하여 GroupDocs.Signature를 사용하여 PDF의 QR 코드 서명에서 SMS 데이터를 검색하고 추출하는 방법
 
 ## 소개

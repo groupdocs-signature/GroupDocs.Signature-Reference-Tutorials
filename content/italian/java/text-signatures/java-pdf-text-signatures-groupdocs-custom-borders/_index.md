@@ -4,8 +4,8 @@
 "title": "Firme di testo PDF Java con bordi personalizzati utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/text-signatures/java-pdf-text-signatures-groupdocs-custom-borders/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare le firme di testo PDF Java con bordi personalizzati utilizzando GroupDocs.Signature
 
 Nell'era digitale odierna, garantire l'autenticità dei documenti è fondamentale sia per le aziende che per i privati. Con l'avvento dei documenti elettronici, i metodi di firma tradizionali vengono sostituiti da soluzioni più efficienti e sicure, come le firme testuali nei PDF. Se desideri aggiungere un tocco professionale ai tuoi documenti PDF con firme testuali personalizzate utilizzando GroupDocs.Signature per Java, sei nel posto giusto.

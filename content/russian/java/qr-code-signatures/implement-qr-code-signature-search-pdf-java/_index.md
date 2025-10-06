@@ -4,8 +4,8 @@
 "title": "Реализуйте поиск подписи по QR-коду в PDF-файлах с помощью Java и GroupDocs.Signature"
 "url": "/ru/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Реализация поиска по QR-коду в PDF-файлах с использованием Java
 
 ## Введение

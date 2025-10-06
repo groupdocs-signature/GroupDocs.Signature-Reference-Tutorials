@@ -4,8 +4,8 @@
 "title": "Υλοποίηση Άδειας Ογκομετρικής Χρήσης στο GroupDocs.Signature για Java - Οδηγός βήμα προς βήμα"
 "url": "/el/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε μια άδεια χρήσης με μετρητή στο GroupDocs.Signature για Java
 
 ## Εισαγωγή

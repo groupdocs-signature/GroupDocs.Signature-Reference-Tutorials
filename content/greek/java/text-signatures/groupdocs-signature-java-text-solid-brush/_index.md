@@ -4,8 +4,8 @@
 "title": "Υλοποίηση υπογραφής κειμένου με Solid Brush σε Java χρησιμοποιώντας GroupDocs.Signature"
 "url": "/el/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση υπογραφής κειμένου με το Solid Brush σε Java
 
 ## Εισαγωγή

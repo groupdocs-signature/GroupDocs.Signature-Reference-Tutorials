@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 進行 .NET 主文檔簽章搜尋及二維碼及 WiFi 資料擷取"
 "url": "/zh-hant/net/search-verification/master-document-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 掌握文件簽章搜尋
 
 在當今的數位時代，高效的文件管理和驗證對於各行各業的企業都至關重要。一個常見的挑戰是在文件中搜尋特定簽名，例如包含 WiFi 資料的二維碼簽名。本指南將指導您使用 GroupDocs.Signature for .NET 實作一項功能，用於搜尋嵌入 WiFi 資訊的二維碼簽章。

@@ -4,8 +4,8 @@
 "title": "Inisialisasi Instansi Tanda Tangan dengan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Inisialisasi Instansi Tanda Tangan dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

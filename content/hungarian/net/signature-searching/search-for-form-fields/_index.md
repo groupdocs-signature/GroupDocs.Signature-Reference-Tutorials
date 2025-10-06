@@ -5,8 +5,8 @@
 "title": "Űrlapmezők keresése dokumentumokban"
 "url": "/hu/net/signature-searching/search-for-form-fields/"
 "weight": 12
+type: docs
 ---
-
 ## Bevezetés
 
 A modern dokumentumkezelő rendszerekben az űrlapmezők kulcsszerepet játszanak az adatgyűjtésben, a felhasználói interakcióban és a dokumentumautomatizálásban. A GroupDocs.Signature for .NET hatékony eszközkészletet biztosít a fejlesztők számára, hogy különböző dokumentumformátumokban lévő űrlapmezőket kezelhessenek, beleértve ezen elemek programozott keresését, lekérését és feldolgozását.

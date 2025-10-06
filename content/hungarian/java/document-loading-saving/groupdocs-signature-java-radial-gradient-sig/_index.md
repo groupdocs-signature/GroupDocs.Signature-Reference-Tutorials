@@ -4,8 +4,8 @@
 "title": "Lenyűgöző radiális színátmenetes aláírások létrehozása Java-ban a GroupDocs.Signature segítségével"
 "url": "/hu/java/document-loading-saving/groupdocs-signature-java-radial-gradient-sig/"
 "weight": 1
+type: docs
 ---
-
 # Hozz létre egy vizuálisan vonzó radiális színátmenetes aláírást a GroupDocs.Signature for Java használatával
 
 mai digitális világban az elektronikus dokumentumaláírás esztétikája ugyanolyan fontos, mint a funkcionalitás. Egy vizuálisan lenyűgöző aláírás növelheti munkája professzionalizmusát és hitelességét. Ez az oktatóanyag végigvezeti Önt egy radiális színátmenetes ecset aláírás megvalósításán a GroupDocs.Signature for Java használatával.

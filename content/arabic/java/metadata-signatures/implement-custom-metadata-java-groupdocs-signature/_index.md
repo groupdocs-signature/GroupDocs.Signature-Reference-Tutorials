@@ -4,8 +4,8 @@
 "title": "تنفيذ بيانات التعريف المخصصة في Java باستخدام GroupDocs.Signature لتحسين توقيع المستندات"
 "url": "/ar/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ البيانات الوصفية المخصصة في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

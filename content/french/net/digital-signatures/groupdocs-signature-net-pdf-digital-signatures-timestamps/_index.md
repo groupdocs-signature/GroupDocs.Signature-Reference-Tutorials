@@ -4,8 +4,8 @@
 "title": "Comment implémenter des signatures numériques PDF avec horodatage à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter des signatures numériques PDF avec horodatage à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Guide avancé de maîtrise de la sérialisation des données personnalisées dans .NET avec GroupDocs.Signature"
 "url": "/fr/net/advanced-options/master-custom-data-serialization-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser la sérialisation des données personnalisées dans .NET avec GroupDocs.Signature
 ## Introduction
 Dans le domaine de la gestion des documents numériques, garantir l'intégrité des données grâce à une sérialisation précise est crucial. Ce guide avancé explique comment implémenter une sérialisation personnalisée des données à l'aide d'attributs dans GroupDocs.Signature pour .NET, une solution robuste qui simplifie l'ajout de signatures aux documents. En exploitant des règles de sérialisation spécifiques avec des attributs personnalisés, vous pouvez rationaliser votre flux de travail et renforcer la sécurité des données.

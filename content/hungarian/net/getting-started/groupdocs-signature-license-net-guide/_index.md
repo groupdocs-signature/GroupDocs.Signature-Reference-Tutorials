@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature licencfájl beállítása .NET-ben – lépésről lépésre útmutató"
 "url": "/hu/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature licencfájl beállítása .NET-ben: lépésről lépésre útmutató
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "كيفية توقيع العروض التقديمية وتحويلها باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/digital-signatures/sign-and-convert-presentations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع العروض التقديمية وتحويلها باستخدام GroupDocs.Signature لـ .NET: دليل شامل
 
 ## مقدمة

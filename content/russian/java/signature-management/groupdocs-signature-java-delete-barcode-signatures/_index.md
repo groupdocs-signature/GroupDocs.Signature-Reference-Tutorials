@@ -4,8 +4,8 @@
 "title": "Как удалить подписи штрихкодов в Java с помощью GroupDocs.Signature&#58; подробное руководство"
 "url": "/ru/java/signature-management/groupdocs-signature-java-delete-barcode-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Как использовать GroupDocs.Signature для Java для удаления подписей штрихкодов по идентификатору
 
 ## Введение

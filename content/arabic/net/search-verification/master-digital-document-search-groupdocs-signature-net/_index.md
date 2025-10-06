@@ -4,8 +4,8 @@
 "title": "إتقان البحث في المستندات الرقمية باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/search-verification/master-digital-document-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # إتقان البحث عن المستندات الرقمية باستخدام GroupDocs.Signature لـ .NET
 
 قد يكون البحث عن التوقيعات الرقمية داخل المستندات أمرًا صعبًا، خاصةً عند التعامل مع ملفات محمية. يُبسط GroupDocs.Signature لـ .NET هذه العملية من خلال توفير آليات معالجة استثناءات فعّالة. سيرشدك هذا الدليل خلال عملية البحث عن التوقيعات الرقمية في ملفات PDF باستخدام هذه المكتبة الفعّالة.

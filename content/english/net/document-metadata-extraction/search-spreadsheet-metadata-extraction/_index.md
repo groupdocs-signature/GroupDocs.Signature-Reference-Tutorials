@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["metadata-extraction", "spreadsheet-processing", "groupdocs-signature", "csharp-tutorial"]
+type: docs
 ---
-
 # How to Extract Spreadsheet Metadata in C#
 
 ## Why You Need to Extract Spreadsheet Metadata (And How It Saves Time)

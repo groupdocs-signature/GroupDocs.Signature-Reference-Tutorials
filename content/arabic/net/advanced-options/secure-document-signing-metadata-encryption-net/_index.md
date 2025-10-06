@@ -4,8 +4,8 @@
 "title": "إتقان التوقيع الآمن للمستندات باستخدام البيانات الوصفية والتشفير المخصص في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # إتقان التوقيع الآمن للمستندات باستخدام البيانات الوصفية والتشفير المخصص في .NET
 
 ## مقدمة

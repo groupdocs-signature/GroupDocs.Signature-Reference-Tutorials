@@ -4,8 +4,8 @@
 "title": "วิธีการตรวจสอบลายเซ็นดิจิทัลใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java พร้อมคำแนะนำทีละขั้นตอน"
 "url": "/th/java/digital-signatures/verify-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการตรวจสอบลายเซ็นดิจิทัลใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java: คู่มือทีละขั้นตอน
 
 ## การแนะนำ

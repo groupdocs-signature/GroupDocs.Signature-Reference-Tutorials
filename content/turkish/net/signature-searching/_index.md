@@ -5,8 +5,8 @@
 "title": "Kapsamlı Belge İmza Araması"
 "url": "/tr/net/signature-searching/"
 "weight": 23
+type: docs
 ---
-
 ## giriiş
 
 Belge güvenliği ve bütünlük doğrulaması, modern iş süreçlerinin kritik unsurlarıdır. GroupDocs.Signature for .NET, çeşitli belge formatlarında kapsamlı imza arama işlevselliğini uygulamak için güçlü bir çözüm sunar. İster belgenin gerçekliğini doğrulamanız, ister imza bilgilerini çıkarmanız veya otomatik doğrulama iş akışları oluşturmanız gereksin, GroupDocs.Signature, birden fazla imza türünü verimli bir şekilde aramanız ve işlemeniz için ihtiyacınız olan araçları sağlar.

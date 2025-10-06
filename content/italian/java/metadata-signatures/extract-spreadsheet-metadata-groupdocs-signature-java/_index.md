@@ -4,8 +4,8 @@
 "title": "Estrarre i metadati del foglio di calcolo utilizzando GroupDocs.Signature per Java&#58; una guida completa"
 "url": "/it/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Estrazione dei metadati del foglio di calcolo con GroupDocs.Signature per Java
 
 ## Introduzione

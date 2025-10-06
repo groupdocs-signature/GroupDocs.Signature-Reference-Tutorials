@@ -4,8 +4,8 @@
 "title": "Руководство по поиску штрихкодов и QR-кодов Java с GroupDocs.Signature для безопасной проверки документов"
 "url": "/ru/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Реализация Java для поиска подписей по штрихкодам, QR-кодам и метаданным с помощью GroupDocs.Signature
 
 ## Введение

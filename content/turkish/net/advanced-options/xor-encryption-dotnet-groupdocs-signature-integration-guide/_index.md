@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak .NET'te XOR Şifrelemesini Uygulama - Kapsamlı Bir Kılavuz"
 "url": "/tr/net/advanced-options/xor-encryption-dotnet-groupdocs-signature-integration-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak .NET'te XOR Şifrelemesini Uygulama: Kapsamlı Bir Kılavuz
 
 ## giriiş

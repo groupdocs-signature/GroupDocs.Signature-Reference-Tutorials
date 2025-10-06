@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε έγγραφα με το XAdES σε Java χρησιμοποιώντας το GroupDocs.Signature&#58; Οδηγός βήμα προς βήμα"
 "url": "/el/java/digital-signatures/sign-documents-xades-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε έγγραφα με το XAdES σε Java χρησιμοποιώντας το GroupDocs.Signature: Οδηγός βήμα προς βήμα
 
 ## Εισαγωγή

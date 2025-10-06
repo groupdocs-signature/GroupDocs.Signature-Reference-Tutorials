@@ -3,8 +3,8 @@
 "title": "Výukové programy pro začátečníky v GroupDocs.Signature pro vývojáře v Javě"
 "url": "/cs/java/getting-started/"
 "weight": 1
+type: docs
 ---
-
 # Výukové programy pro začátečníky v GroupDocs.Signature pro vývojáře v Javě
 
 Začněte svou cestu s těmito základními tutoriály o GroupDocs.Signature, které vás provedou instalací, konfigurací licencování a vytvořením vašich prvních implementací digitálního podpisu v Javě. Naše průvodce pro začátečníky ukazují, jak nastavit vývojové prostředí, inicializovat knihovnu GroupDocs.Signature a provádět základní operace s podpisem. Postupujte podle těchto tutoriálů, abyste si rychle osvojili základy a připravili se na pokročilejší úlohy podepisování dokumentů ve vašich aplikacích Java.

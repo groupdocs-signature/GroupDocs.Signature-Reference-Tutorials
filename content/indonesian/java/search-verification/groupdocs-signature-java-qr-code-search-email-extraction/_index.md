@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature untuk Pencarian Tanda Tangan Kode QR dan Ekstraksi Email yang Efisien di Java"
 "url": "/id/java/search-verification/groupdocs-signature-java-qr-code-search-email-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai GroupDocs.Signature untuk Java: Pencarian Tanda Tangan Kode QR & Ekstraksi Email
 
 ## Perkenalan

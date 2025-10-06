@@ -8,10 +8,8 @@ keywords:
 - digital signatures in PDFs
 - apply digital signature PDF
 - GroupDocs.Signature for Java setup
-
+type: docs
 ---
-
-
 # How to Implement Digital Signatures in PDFs Using GroupDocs.Signature for Java
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Χειρισμός εξαιρέσεων κωδικών πρόσβασης στο GroupDocs.Signature για .NET™ - Ένας πλήρης οδηγός"
 "url": "/el/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Χειρισμός εξαιρέσεων κωδικών πρόσβασης στο GroupDocs.Signature για .NET
 
 ## Εισαγωγή

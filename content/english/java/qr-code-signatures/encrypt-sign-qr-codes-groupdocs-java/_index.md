@@ -8,10 +8,8 @@ keywords:
 - encrypt QR codes Java
 - GroupDocs.Signature for Java
 - QR code encryption tutorial
-
+type: docs
 ---
-
-
 # Encrypt & Sign QR Codes with GroupDocs.Signature for Java
 
 ## Introduction

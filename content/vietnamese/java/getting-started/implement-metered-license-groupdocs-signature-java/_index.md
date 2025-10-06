@@ -4,8 +4,8 @@
 "title": "Triển khai Giấy phép đo lường trong GroupDocs.Signature cho Java - Hướng dẫn từng bước"
 "url": "/vi/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai Giấy phép định mức trong GroupDocs.Signature cho Java
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "تنفيذ تسجيل مخصص في GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ تسجيل مخصص في GroupDocs.Signature لـ .NET: دليل شامل
 
 ## مقدمة

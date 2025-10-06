@@ -5,8 +5,8 @@
 "title": "Képaláírások frissítése dokumentumokban"
 "url": "/hu/net/update-operations/update-image/"
 "weight": 11
+type: docs
 ---
-
 ## Bevezetés
 A digitális dokumentumkezelés robusztus aláírási képességeket igényel a hitelesség és az integritás biztosítása érdekében. A képaláírások kulcsszerepet játszanak ebben az ökoszisztémában, vizuális ellenőrzést és márkaelemeket biztosítva a dokumentumokon belül. A GroupDocs.Signature for .NET egy hatékony keretrendszert kínál a fejlesztők számára, hogy átfogó aláírási funkciókat valósítsanak meg .NET alkalmazásaikban, beleértve a meglévő képaláírások frissítésének lehetőségét is.
 

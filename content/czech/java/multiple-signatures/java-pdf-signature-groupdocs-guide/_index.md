@@ -4,8 +4,8 @@
 "title": "Průvodce podpisem PDF v Javě&#58; Přidávání textu, čárových kódů, QR kódů a digitálních podpisů pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # Průvodce implementací podpisu PDF v Javě: Přidávání textu, čárových kódů, QR kódů a digitálních podpisů pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

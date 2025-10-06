@@ -4,8 +4,8 @@
 "title": "Načtení a zobrazení podporovaných formátů souborů pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Načtení a zobrazení podporovaných formátů souborů pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

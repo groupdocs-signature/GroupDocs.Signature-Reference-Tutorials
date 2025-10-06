@@ -4,8 +4,8 @@
 "title": "Πώς να επαληθεύσετε ψηφιακά πιστοποιητικά χρησιμοποιώντας το Aspose.Signature για .NET | Οδηγός βήμα προς βήμα"
 "url": "/el/net/search-verification/verify-digital-certificates-aspose-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να επαληθεύσετε ψηφιακά πιστοποιητικά χρησιμοποιώντας το Aspose.Signature για .NET
 
 ## Εισαγωγή

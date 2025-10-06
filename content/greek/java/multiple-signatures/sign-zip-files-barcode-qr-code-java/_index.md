@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε αρχεία ZIP με γραμμωτούς κώδικες και κωδικούς QR σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε αρχεία ZIP με γραμμωτούς κώδικες και κωδικούς QR σε Java χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

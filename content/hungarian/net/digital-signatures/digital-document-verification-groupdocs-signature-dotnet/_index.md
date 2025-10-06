@@ -4,8 +4,8 @@
 "title": "Digitális dokumentum-ellenőrzés a GroupDocs.Signature for .NET segítségével – Átfogó útmutató"
 "url": "/hu/net/digital-signatures/digital-document-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Digitális dokumentum-ellenőrzés a GroupDocs.Signature for .NET segítségével: Átfogó útmutató
 
 ## Bevezetés

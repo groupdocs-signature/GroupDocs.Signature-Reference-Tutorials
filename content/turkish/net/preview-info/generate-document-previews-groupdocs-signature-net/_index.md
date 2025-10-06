@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Arşivlerde Belge Önizlemeleri Oluşturma - Eksiksiz Bir Kılavuz"
 "url": "/tr/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Arşivlerden Belge Önizlemeleri Oluşturun
 
 ## giriiş

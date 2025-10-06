@@ -4,8 +4,8 @@
 "title": "Hogyan implementáljuk a Java GroupDocs.Signature&#58; dokumentumfeldolgozási előzmények lekérése és megjelenítése"
 "url": "/hu/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # A Java GroupDocs.Signature implementálása: Dokumentumfeldolgozási előzmények lekérése és megjelenítése
 
 ## Bevezetés

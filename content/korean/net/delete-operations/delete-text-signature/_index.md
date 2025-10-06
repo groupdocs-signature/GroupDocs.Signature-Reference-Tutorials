@@ -5,8 +5,8 @@
 "title": ".NET에서 문서의 텍스트 서명을 제거하는 방법"
 "url": "/ko/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 문서에서 텍스트 서명을 제거하는 방법
 
 ## 텍스트 서명을 삭제해야 하는 이유는 무엇입니까?

@@ -4,8 +4,8 @@
 "title": "Implementeer Java Radio Button Form Field Signature met GroupDocs.Signature"
 "url": "/nl/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementeer Java Radio Button Form Field Signature met GroupDocs.Signature
 
 ## Invoering

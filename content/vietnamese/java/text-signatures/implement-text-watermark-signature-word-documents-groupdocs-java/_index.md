@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký hình mờ văn bản trong tài liệu Word bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký hình mờ văn bản trong tài liệu Word bằng GroupDocs.Signature cho Java
 
 ## Cách thêm chữ ký hình mờ văn bản vào tài liệu Word bằng GroupDocs.Signature cho Java

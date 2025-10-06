@@ -4,8 +4,8 @@
 "title": "Så här signerar du presentationsdokument med metadata med GroupDocs.Signature för Java - En komplett guide"
 "url": "/sv/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # Omfattande guide till att signera presentationsdokument med metadata med GroupDocs.Signature för Java
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": ".NET में ग्रुपडॉक्स का उपयोग करके पीडीएफ मेटाडेटा हस्ताक्षर खोजें और निकालें"
 "url": "/hi/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET में ग्रुपडॉक्स का उपयोग करके पीडीएफ मेटाडेटा हस्ताक्षर खोजें और निकालें
 
 ## परिचय

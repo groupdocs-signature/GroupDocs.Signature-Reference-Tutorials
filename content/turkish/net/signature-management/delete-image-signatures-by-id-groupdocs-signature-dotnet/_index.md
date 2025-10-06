@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Kimliğe Göre Görüntü İmzaları Nasıl Silinir"
 "url": "/tr/net/signature-management/delete-image-signatures-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Kimliğe Göre Görüntü İmzalarını Silme Hakkında Kapsamlı Kılavuz
 
 ## giriiş

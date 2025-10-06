@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["GroupDocs.Signature", "document-metadata", "NET-API", "document-management"]
+type: docs
 ---
-
 # How to Retrieve Document Information in .NET
 
 ## Introduction

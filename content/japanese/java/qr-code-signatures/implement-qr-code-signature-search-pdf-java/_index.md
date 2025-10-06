@@ -4,8 +4,8 @@
 "title": "JavaとGroupDocs.Signatureを使用してPDFにQRコード署名検索を実装する"
 "url": "/ja/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Javaを使用してPDFにQRコード署名検索を実装する
 
 ## 導入

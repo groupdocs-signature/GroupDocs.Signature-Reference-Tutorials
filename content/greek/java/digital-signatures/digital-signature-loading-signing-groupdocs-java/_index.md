@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε τη φόρτωση και υπογραφή ψηφιακής υπογραφής με το GroupDocs.Signature για Java"
 "url": "/el/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε τη φόρτωση και υπογραφή ψηφιακής υπογραφής με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

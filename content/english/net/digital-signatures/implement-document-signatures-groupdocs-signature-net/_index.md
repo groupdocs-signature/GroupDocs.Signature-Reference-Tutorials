@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["GroupDocs", "Digital Signatures", "NET", "Document Verification"]
+type: docs
 ---
-
 # GroupDocs.Signature .NET Tutorial: Complete Document Signature Implementation Guide
 
 ## Why Document Signature Verification Matters (And Why You're Here)

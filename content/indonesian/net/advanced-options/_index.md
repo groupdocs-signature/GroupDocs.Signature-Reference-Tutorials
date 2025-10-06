@@ -3,8 +3,8 @@
 "title": "Tutorial Opsi Tanda Tangan Lanjutan untuk GroupDocs.Signature .NET"
 "url": "/id/net/advanced-options/"
 "weight": 14
+type: docs
 ---
-
 # Tutorial Opsi Tanda Tangan Lanjutan untuk GroupDocs.Signature .NET
 
 Jelajahi kemampuan tanda tangan tingkat lanjut dengan tutorial GroupDocs.Signature kami yang komprehensif untuk pengembang .NET. Panduan detail ini mencakup penerapan enkripsi khusus, serialisasi khusus, pengaturan tampilan kompleks, kuas dan gradien khusus, pemosisian dengan berbagai unit pengukuran, opsi penyelarasan, dan mode peregangan. Setiap tutorial menyediakan contoh kode C# yang berfungsi untuk fungsionalitas tanda tangan yang canggih, membantu Anda membangun solusi dokumen yang memanfaatkan sepenuhnya kemampuan canggih GroupDocs.Signature untuk implementasi penandatanganan dokumen yang sangat kustom dan aman.

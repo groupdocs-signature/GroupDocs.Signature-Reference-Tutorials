@@ -4,8 +4,8 @@
 "title": "Fődokumentumok aláírása Java nyelven a GroupDocs.Signature vonalkód-aláírási útmutatójával"
 "url": "/hu/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum aláírások elsajátítása Java nyelven a GroupDocs.Signature segítségével
 
 **Egyszerűsítse digitális dokumentumkezelési munkafolyamatait vonalkód-aláírások aláírásával, ellenőrzésével, keresésével, frissítésével és törlésével a GroupDocs.Signature for Java segítségével.**

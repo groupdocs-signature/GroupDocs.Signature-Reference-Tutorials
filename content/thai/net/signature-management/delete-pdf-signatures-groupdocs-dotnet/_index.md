@@ -4,8 +4,8 @@
 "title": "ลบลายเซ็น PDF อย่างมีประสิทธิภาพโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/signature-management/delete-pdf-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีใช้ GroupDocs.Signature สำหรับ .NET เพื่อลบลายเซ็น PDF ตาม ID
 
 ## การแนะนำ

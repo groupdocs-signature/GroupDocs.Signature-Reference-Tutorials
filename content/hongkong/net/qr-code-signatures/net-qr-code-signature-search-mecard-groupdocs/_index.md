@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 MeCard 中實現 .NET QR 碼簽章搜索"
 "url": "/zh-hant/net/qr-code-signatures/net-qr-code-signature-search-mecard-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 MeCard 中實現 .NET QR 碼簽章搜索
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "كيفية التحقق من التوقيعات الرقمية في ملفات PDF باستخدام GroupDocs.Signature لـ Java - دليل خطوة بخطوة"
 "url": "/ar/java/digital-signatures/verify-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية التحقق من التوقيعات الرقمية في ملفات PDF باستخدام GroupDocs.Signature لـ Java: دليل خطوة بخطوة
 
 ## مقدمة

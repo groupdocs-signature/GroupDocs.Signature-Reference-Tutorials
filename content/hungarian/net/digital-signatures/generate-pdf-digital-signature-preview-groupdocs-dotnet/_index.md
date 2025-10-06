@@ -4,8 +4,8 @@
 "title": "PDF digitális aláírás előnézetének generálása a GroupDocs.Signature for .NET segítségével | Átfogó útmutató"
 "url": "/hu/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF digitális aláírás előnézetének létrehozása a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

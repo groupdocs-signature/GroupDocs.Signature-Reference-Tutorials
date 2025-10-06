@@ -4,8 +4,8 @@
 "title": "Hoe u afbeeldingshandtekeningen uit documenten verwijdert met GroupDocs.Signature voor Java"
 "url": "/nl/java/signature-management/delete-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u afbeeldingshandtekeningen uit documenten verwijdert met GroupDocs.Signature voor Java
 
 Het beheren van digitale handtekeningen is cruciaal voor het behoud van de integriteit en authenticiteit van documenten. Of u nu een grote onderneming bent die contracten beheert of een klein bedrijf dat facturen verwerkt, het verwijderen van verouderde of onjuiste handtekeningen kan het documentbeheer stroomlijnen. Deze tutorial begeleidt u bij het verwijderen van handtekeningen met bekende ID's met behulp van GroupDocs.Signature voor Java.

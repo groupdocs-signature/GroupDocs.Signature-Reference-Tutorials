@@ -4,8 +4,8 @@
 "title": "Jak tworzyć i podpisywać pliki PDF kodami kreskowymi za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak tworzyć i podpisywać pliki PDF kodami kreskowymi za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

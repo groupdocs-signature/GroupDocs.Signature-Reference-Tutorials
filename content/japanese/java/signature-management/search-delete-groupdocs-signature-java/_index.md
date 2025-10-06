@@ -4,8 +4,8 @@
 "title": "効率的な署名管理&#58; GroupDocs.Signature for Java を使用してデジタル署名を検索および削除する方法"
 "url": "/ja/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 効率的な署名管理: GroupDocs.Signature for Java を使用してデジタル署名を検索および削除する方法
 
 ## 導入

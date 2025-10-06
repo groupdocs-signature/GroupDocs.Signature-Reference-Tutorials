@@ -4,8 +4,8 @@
 "title": "การเขียนซีเรียลไลเซชัน JSON แบบกำหนดเองใน .NET ด้วย Newtonsoft.Json และ GroupDocs.Signature&#58; คู่มือฉบับสมบูรณ์"
 "url": "/th/net/advanced-options/custom-json-serialization-newtonsoft-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # คู่มือครอบคลุมสำหรับการสร้างซีเรียลไลเซชัน JSON แบบกำหนดเองใน .NET โดยใช้ Newtonsoft.Json และ GroupDocs.Signature
 
 ## การแนะนำ

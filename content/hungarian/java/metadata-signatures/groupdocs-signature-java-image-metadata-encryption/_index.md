@@ -4,8 +4,8 @@
 "title": "Képmetaadatok aláírásának és titkosításának megvalósítása Java-ban a GroupDocs.Signature segítségével"
 "url": "/hu/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Kép metaadat-aláírás titkosítással megvalósítása Java-ban a GroupDocs.Signature használatával
 
 ## Bevezetés

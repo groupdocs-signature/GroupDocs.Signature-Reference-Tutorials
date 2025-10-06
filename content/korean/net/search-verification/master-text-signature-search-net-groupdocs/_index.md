@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 마스터 텍스트 서명 검색"
 "url": "/ko/net/search-verification/master-text-signature-search-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 텍스트 서명 검색 마스터하기
 
 문서 내 텍스트 서명 식별을 자동화하고 싶으신가요? 계약 진위 확인이나 공식 승인 추적 등 문서 서명을 효율적으로 관리하는 것은 쉽지 않습니다. **.NET용 GroupDocs.Signature**애플리케이션에서 직접 텍스트 서명을 검색하고 필터링하여 이 프로세스를 간소화하세요. 이 튜토리얼에서는 GroupDocs.Signature를 설정하고 활용하여 외부 서명을 건너뛰고 텍스트 서명만 검색하는 방법을 안내합니다.

@@ -4,8 +4,8 @@
 "title": "Panduan Pencarian Kode Batang & Kode QR Java dengan GroupDocs.Signature untuk Verifikasi Dokumen yang Aman"
 "url": "/id/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Java untuk Pencarian Tanda Tangan Barcode, QR Code, dan Metadata dengan GroupDocs.Signature
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Biztonságos Word metaadat-aláírások Java-ban a GroupDocs segítségével – Átfogó útmutató"
 "url": "/hu/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Biztonságos Word metaadat-aláírások Java-ban a GroupDocs segítségével
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Поиск основных документов с помощью GroupDocs.Signature для .NET&#58; Руководство по проверке подписи штрихкода"
 "url": "/ru/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Освоение поиска документов с помощью GroupDocs.Signature для .NET
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "Освоение подписывания документов в .NET&#58; Подписи штрих-кодов и QR-кодов с помощью GroupDocs.Signature"
 "url": "/ru/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Освоение подписания документов в .NET: реализация подписей штрих-кодами и QR-кодами с помощью GroupDocs.Signature
 
 ## Введение

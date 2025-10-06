@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs for Java 掌握文件中的圖片簽名搜尋－綜合指南"
 "url": "/zh-hant/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs for Java 掌握文件中的圖像簽名搜尋：綜合指南
 
 ## 介紹

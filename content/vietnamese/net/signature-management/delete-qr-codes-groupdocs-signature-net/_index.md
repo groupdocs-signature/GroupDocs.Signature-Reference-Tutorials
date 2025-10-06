@@ -4,8 +4,8 @@
 "title": "Xóa mã QR khỏi tài liệu hiệu quả bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/signature-management/delete-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Xóa mã QR khỏi tài liệu hiệu quả với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

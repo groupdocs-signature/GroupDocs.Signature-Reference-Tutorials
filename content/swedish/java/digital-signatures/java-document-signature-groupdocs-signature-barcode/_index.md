@@ -4,8 +4,8 @@
 "title": "Signaturer för huvuddokument i Java med GroupDocs.Signature's guide till streckkodssignaturer"
 "url": "/sv/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra dokumentsignaturer i Java med GroupDocs.Signature
 
 **Effektivisera dina digitala dokumentarbetsflöden genom att signera, verifiera, söka, uppdatera och ta bort streckkodssignaturer med GroupDocs.Signature för Java.**

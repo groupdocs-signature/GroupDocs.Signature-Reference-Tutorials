@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Belge Doğrulamasını Uygulama - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/search-verification/implement-document-verification-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanılarak Belge Doğrulaması Nasıl Uygulanır?
 
 **giriiş**

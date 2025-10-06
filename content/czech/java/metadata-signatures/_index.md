@@ -3,8 +3,8 @@
 "title": "Výukové programy pro metadatové podpisy v GroupDocs.Signature v Javě"
 "url": "/cs/java/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Výukové programy pro metadatové podpisy v GroupDocs.Signature v Javě
 
 Naše tutoriály o podpisech metadat ukazují, jak používat metadata dokumentů pro bezpečné podepisování pomocí GroupDocs.Signature v Javě. Tyto podrobné návody pokrývají implementaci podpisů metadat v různých formátech dokumentů, včetně PDF, obrázků, prezentací, tabulek a textových editorů. Každý tutoriál obsahuje funkční příklady kódu Java pro operace s metadaty, které vám pomohou vytvářet aplikace, které mohou do dokumentů přidávat neviditelné informace o podpisu, a tím zvyšovat zabezpečení bez změny vizuálního vzhledu.

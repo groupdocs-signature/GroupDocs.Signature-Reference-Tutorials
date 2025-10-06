@@ -4,8 +4,8 @@
 "title": "Wdrażanie licencji licznikowej w GroupDocs.Signature dla Java – przewodnik krok po kroku"
 "url": "/pl/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć licencję licznikową w GroupDocs.Signature dla Java
 
 ## Wstęp

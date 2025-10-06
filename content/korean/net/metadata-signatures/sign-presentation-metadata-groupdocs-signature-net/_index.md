@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 메타데이터가 포함된 프레젠테이션 문서에 서명"
 "url": "/ko/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 메타데이터가 포함된 프레젠테이션 문서에 서명하는 방법
 
 ## 소개

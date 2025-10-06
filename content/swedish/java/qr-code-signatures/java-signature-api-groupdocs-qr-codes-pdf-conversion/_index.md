@@ -4,8 +4,8 @@
 "title": "Implementera QR-kodsignering och PDF-konvertering i Java med GroupDocs.Signature API"
 "url": "/sv/java/qr-code-signatures/java-signature-api-groupdocs-qr-codes-pdf-conversion/"
 "weight": 1
+type: docs
 ---
-
 # Implementera QR-kodsignering och PDF-konvertering i Java med GroupDocs.Signature API
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 掌握數位文件搜尋－綜合指南"
 "url": "/zh-hant/net/search-verification/master-digital-document-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 掌握數位文件搜尋
 
 在文件中搜尋數位簽章可能頗具挑戰性，尤其是在處理受保護的文件時。 GroupDocs.Signature for .NET 透過提供強大的異常處理機制簡化了此流程。本指南將指導您如何使用這個強大的程式庫在 PDF 中搜尋數位簽章。

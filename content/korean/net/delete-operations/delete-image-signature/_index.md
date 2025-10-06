@@ -5,8 +5,8 @@
 "title": ".NET에서 문서의 이미지 서명을 제거하는 방법"
 "url": "/ko/net/delete-operations/delete-image-signature/"
 "weight": 14
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 문서에서 이미지 서명을 제거하는 방법
 
 ## 소개

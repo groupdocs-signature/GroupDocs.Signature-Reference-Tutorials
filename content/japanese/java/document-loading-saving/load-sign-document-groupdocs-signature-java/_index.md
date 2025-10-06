@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使って Java でドキュメントを読み込み、署名する包括的なガイド"
 "url": "/ja/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # JavaでGroupDocs.Signatureを使用してドキュメントを読み込み、署名する
 
 ## 導入

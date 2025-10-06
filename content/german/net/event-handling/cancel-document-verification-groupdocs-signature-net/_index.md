@@ -4,8 +4,8 @@
 "title": "So brechen Sie die Dokumentüberprüfung mithilfe von GroupDocs.Signature für .NET ab – Leitfaden zur Ereignisbehandlung"
 "url": "/de/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # So brechen Sie die Dokumentüberprüfung mit GroupDocs.Signature für .NET ab: Leitfaden zur Ereignisbehandlung
 
 ## Einführung

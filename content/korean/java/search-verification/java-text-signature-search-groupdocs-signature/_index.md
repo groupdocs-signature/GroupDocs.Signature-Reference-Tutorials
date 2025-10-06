@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 문서 관리 및 검증을 위한 Java 텍스트 서명 검색 구현"
 "url": "/ko/java/search-verification/java-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java 텍스트 서명 검색 구현
 
 ## 소개

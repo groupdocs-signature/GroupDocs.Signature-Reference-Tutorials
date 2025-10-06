@@ -4,8 +4,8 @@
 "title": "Получение истории обработки документа с помощью GroupDocs.Signature для Java&#58; подробное руководство"
 "url": "/ru/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Получение истории обработки документа с помощью GroupDocs.Signature для Java
 
 ## Введение

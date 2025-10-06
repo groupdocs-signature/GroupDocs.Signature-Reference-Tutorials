@@ -4,8 +4,8 @@
 "title": "توقيع ملفات PDF باستخدام رمز الاستجابة السريعة وبيانات الحدث باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # توقيع ملفات PDF باستخدام رمز الاستجابة السريعة وبيانات الحدث باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

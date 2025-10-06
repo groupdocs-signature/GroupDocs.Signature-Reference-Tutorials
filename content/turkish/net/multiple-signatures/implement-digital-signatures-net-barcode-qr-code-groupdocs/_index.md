@@ -4,8 +4,8 @@
 "title": ".NET Barkod ve QR Kod Entegrasyon Kılavuzunda Dijital İmzaların Uygulanması"
 "url": "/tr/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET'te Dijital İmzalar Nasıl Uygulanır: GroupDocs.Signature ile Barkod ve QR Kod İmzalama
 
 Günümüzün dijital çağında, belgeleri hızlı ve güvenli bir şekilde doğrulamak her zamankinden daha önemli. İster kurumsal bir uygulama üzerinde çalışan bir geliştirici olun, ister sadece belge yönetim sürecinizi kolaylaştırmak isteyin, imza eklemek dönüştürücü olabilir. Bu eğitim, belgeleri nasıl kullanacağınız konusunda size rehberlik edecektir. **.NET için GroupDocs.Signature** Belgeleri hem barkod hem de QR kod imzalarıyla dijital olarak imzalamak, güvenli dokümantasyon için sağlam çözümler sunmak.

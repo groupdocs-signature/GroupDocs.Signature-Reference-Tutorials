@@ -4,8 +4,8 @@
 "title": "كيفية توقيع المستندات باستخدام ملصق النص في GroupDocs.Signature لـ .NET"
 "url": "/ar/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع المستندات باستخدام ملصقات نصية في GroupDocs.Signature لـ .NET
 
 ## مقدمة

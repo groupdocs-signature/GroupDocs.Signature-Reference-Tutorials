@@ -4,8 +4,8 @@
 "title": "วิธีการลบลายเซ็นภาพจากเอกสารโดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/signature-management/delete-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลบลายเซ็นภาพจากเอกสารโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

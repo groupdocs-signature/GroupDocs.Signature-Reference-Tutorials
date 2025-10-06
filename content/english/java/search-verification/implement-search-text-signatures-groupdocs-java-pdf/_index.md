@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - text signature search in PDFs
 - implement text signature search
-
+type: docs
 ---
-
-
 # How to Implement Text Signature Search in PDFs Using GroupDocs.Signature for Java
 
 ## Introduction

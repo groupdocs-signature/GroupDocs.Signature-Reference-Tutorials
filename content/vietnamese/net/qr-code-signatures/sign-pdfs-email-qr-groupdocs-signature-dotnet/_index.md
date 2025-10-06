@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng mã QR email bằng GroupDocs.Signature cho .NET | Hướng dẫn từng bước"
 "url": "/vi/net/qr-code-signatures/sign-pdfs-email-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng mã QR email bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

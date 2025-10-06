@@ -4,8 +4,8 @@
 "title": "Java bélyegző aláírás oktatóanyag - PDF-ek aláírása a GroupDocs.Signature API-val"
 "url": "/hu/java/image-signatures/java-groupdocs-signature-stamp-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Java bélyegző aláírás oktatóanyag: PDF dokumentumok aláírása a GroupDocs.Signature API-val
 
 mai digitális környezetben a hatékony és biztonságos dokumentumaláírás létfontosságú mind a vállalkozások, mind a magánszemélyek számára. Akár szerződéseket engedélyez, akár dokumentumokat ellenőriz, a hitelesség digitális biztosítása időt és erőforrásokat takaríthat meg. Ez az átfogó oktatóanyag végigvezeti Önt a GroupDocs.Signature for Java API használatán, amellyel egyéni bélyegzőaláírással írhat alá PDF dokumentumokat. A lépésről lépésre haladva megtanulhatja, hogyan adhat hozzá külső és belső sorokat adott szöveggel, betűtípusokkal, színekkel és elhelyezéssel.

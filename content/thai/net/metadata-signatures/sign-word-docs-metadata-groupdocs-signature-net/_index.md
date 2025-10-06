@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในเอกสาร Word ด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ .NET | คำแนะนำทีละขั้นตอน"
 "url": "/th/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร Word ด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

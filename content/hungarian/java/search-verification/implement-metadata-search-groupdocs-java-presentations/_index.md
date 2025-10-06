@@ -4,8 +4,8 @@
 "title": "Hogyan valósítsunk meg metaadat-keresést Java prezentációkban a GroupDocs.Signature segítségével?"
 "url": "/hu/java/search-verification/implement-metadata-search-groupdocs-java-presentations/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan valósítsunk meg metaadat-keresést Java prezentációkban a GroupDocs.Signature segítségével?
 
 ## Bevezetés

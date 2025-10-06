@@ -4,8 +4,8 @@
 "title": "كيفية التحقق من توقيعات المستندات في الأرشيفات باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية التحقق من توقيعات المستندات في الأرشيفات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

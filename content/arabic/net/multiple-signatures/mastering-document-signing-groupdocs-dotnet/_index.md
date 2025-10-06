@@ -4,8 +4,8 @@
 "title": "إتقان توقيع المستندات باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # إتقان توقيع المستندات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

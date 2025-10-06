@@ -4,8 +4,8 @@
 "title": "Hasilkan Pratinjau Halaman PDF Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Membuat Pratinjau Halaman PDF Menggunakan GroupDocs.Signature untuk .NET: Panduan Lengkap
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 实现 PDF 中 HIBC LIC 数据的二维码签名搜索"
 "url": "/zh/java/qr-code-signatures/implement-qr-code-signature-search-hibc-primary-data-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 实现 PDF 中 HIBC LIC 数据的二维码签名搜索
 
 ## 介绍

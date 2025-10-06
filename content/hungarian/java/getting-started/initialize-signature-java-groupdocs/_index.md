@@ -4,8 +4,8 @@
 "title": "Hogyan inicializáljunk aláíráspéldányt Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan inicializáljunk aláíráspéldányt Java-ban a GroupDocs.Signature használatával
 
 ## Bevezetés

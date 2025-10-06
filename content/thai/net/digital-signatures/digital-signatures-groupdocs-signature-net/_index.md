@@ -4,8 +4,8 @@
 "title": "การนำลายเซ็นดิจิทัลไปใช้ใน .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/digital-signatures/digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # การนำการลงนามเอกสารด้วยลายเซ็นดิจิทัลมาใช้โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

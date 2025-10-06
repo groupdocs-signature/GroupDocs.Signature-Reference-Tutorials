@@ -4,8 +4,8 @@
 "title": "Automatisera dokumentförhandsgranskningar med dolda signaturer med GroupDocs.Signature för .NET"
 "url": "/sv/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Automatisera dokumentförhandsgranskningar med dolda signaturer med GroupDocs.Signature för .NET
 
 ## Introduktion

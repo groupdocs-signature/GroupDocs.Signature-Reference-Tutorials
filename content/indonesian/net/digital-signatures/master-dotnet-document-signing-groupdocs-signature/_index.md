@@ -4,8 +4,8 @@
 "title": "Kuasai Penandatanganan Dokumen .NET dengan GroupDocs.Signature untuk Tanda Tangan Digital yang Aman"
 "url": "/id/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Penandatanganan Dokumen .NET dengan GroupDocs.Signature
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Cách triển khai tùy chọn ký hiệu tem bằng GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai tùy chọn ký hiệu tem bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

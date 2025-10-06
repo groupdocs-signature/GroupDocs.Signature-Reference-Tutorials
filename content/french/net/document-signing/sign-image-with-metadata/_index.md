@@ -5,8 +5,8 @@
 "title": "Signer des images avec des métadonnées en C# .NET"
 "url": "/fr/net/document-signing/sign-image-with-metadata/"
 "weight": 10
+type: docs
 ---
-
 ## Introduction
 
 La signature d'images numériques avec métadonnées devient de plus en plus importante pour établir l'authenticité, la propriété et la traçabilité. GroupDocs.Signature pour .NET offre une solution puissante et simple d'utilisation pour ajouter des signatures de métadonnées à différents formats d'images. Ce tutoriel vous guide tout au long du processus de signature d'images avec métadonnées en C#.

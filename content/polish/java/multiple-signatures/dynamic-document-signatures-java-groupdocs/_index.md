@@ -4,8 +4,8 @@
 "title": "Dynamiczne podpisy dokumentów w Javie – Mastering GroupDocs.Signature for Electronic Signature"
 "url": "/pl/java/multiple-signatures/dynamic-document-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Tworzenie dynamicznych podpisów dokumentów w Javie za pomocą GroupDocs
 
 W dzisiejszym, dynamicznym, cyfrowym świecie, potrzeba sprawnego podpisywania dokumentów elektronicznie jest ważniejsza niż kiedykolwiek. Niezależnie od tego, czy jesteś profesjonalistą biznesowym, który chce usprawnić proces zatwierdzania umów, czy osobą zarządzającą dokumentacją osobistą, podpisy elektroniczne zapewniają szybkość i wygodę. Ten samouczek przeprowadzi Cię przez proces tworzenia dynamicznych podpisów tekstowych i graficznych z kodem kreskowym za pomocą GroupDocs.Signature for Java. Dzięki trybom rozciągania, Twoje podpisy mogą płynnie dostosowywać się do całych stron, zapewniając spójność i czytelność.

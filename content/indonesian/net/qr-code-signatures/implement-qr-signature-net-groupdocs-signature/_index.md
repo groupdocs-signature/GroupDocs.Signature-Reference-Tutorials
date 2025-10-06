@@ -4,8 +4,8 @@
 "title": "Menerapkan Tanda Tangan Kode QR di .NET Menggunakan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/net/qr-code-signatures/implement-qr-signature-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan dan Mencari Tanda Tangan Kode QR di .NET menggunakan GroupDocs.Signature
 
 ## Perkenalan

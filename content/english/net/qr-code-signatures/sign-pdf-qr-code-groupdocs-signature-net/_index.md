@@ -9,8 +9,8 @@ weight: 1
 url: "/net/qr-code-signatures/sign-pdf-qr-code-groupdocs-signature-net/"
 categories: ["Digital Signatures"]
 tags: ["PDF", "QR-Code", "Digital-Signature", "GroupDocs", "NET", "HIBC"]
+type: docs
 ---
-
 # PDF QR Code Signature .NET - Complete Tutorial
 
 ## Introduction

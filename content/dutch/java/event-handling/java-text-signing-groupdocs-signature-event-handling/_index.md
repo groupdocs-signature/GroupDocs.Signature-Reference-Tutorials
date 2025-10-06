@@ -4,8 +4,8 @@
 "title": "Implementatie van tekstondertekening in Java&#58; gebeurtenisafhandeling met GroupDocs.Signature"
 "url": "/nl/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van tekstondertekening met gebeurtenisafhandeling met behulp van GroupDocs.Signature voor Java
 
 ## Invoering

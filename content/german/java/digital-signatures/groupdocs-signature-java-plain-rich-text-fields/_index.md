@@ -4,8 +4,8 @@
 "title": "Master-Dokumentsignatur in Java&#58; Implementieren von einfachen und Rich-Text-Feldern mit GroupDocs.Signature"
 "url": "/de/java/digital-signatures/groupdocs-signature-java-plain-rich-text-fields/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentsignatur in Java meistern: Implementierung von einfachen und Rich-Text-Feldern mit GroupDocs.Signature
 
 Willkommen zum umfassenden Leitfaden zur Hebelwirkung **GroupDocs.Signature für Java** Dokumente mithilfe von einfachen und Rich-Text-Feldern zu signieren. Ob Sie Vertragsgenehmigungen automatisieren oder Arbeitsabläufe optimieren – dieses Tutorial zeigt Ihnen, wie Sie diese Funktionen effizient implementieren.

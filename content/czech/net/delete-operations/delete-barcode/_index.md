@@ -5,8 +5,8 @@
 "title": "Jak odstranit čárové kódy z dokumentů pomocí .NET"
 "url": "/cs/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # Jak odstranit čárové kódy z dokumentů pomocí .NET
 
 ## Proč byste měli mazat čárové kódy?

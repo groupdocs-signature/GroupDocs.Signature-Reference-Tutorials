@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Medical Imaging"]
 tags: ["dicom", "authentication", "qr-codes", "medical-security", "dotnet"]
+type: docs
 ---
-
 # DICOM Image Authentication with QR Codes - Complete .NET Implementation Guide
 
 Working with medical imaging data? You're probably dealing with strict compliance requirements and the constant need to prove your DICOM files haven't been tampered with. That's where QR code signatures come in – they're like a digital fingerprint for your medical images.

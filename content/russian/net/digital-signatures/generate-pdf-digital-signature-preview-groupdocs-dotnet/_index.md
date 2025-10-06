@@ -4,8 +4,8 @@
 "title": "Создание предварительного просмотра цифровой подписи PDF-файла с помощью GroupDocs.Signature для .NET | Подробное руководство"
 "url": "/ru/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как создать предварительный просмотр цифровой подписи PDF-файла с помощью GroupDocs.Signature для .NET
 
 ## Введение

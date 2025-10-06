@@ -4,8 +4,8 @@
 "title": "Mesterkép-aláírás-keresések dokumentumokban a GroupDocs for Java segítségével – Átfogó útmutató"
 "url": "/hu/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # Mesterkép-aláírás-keresések dokumentumokban a GroupDocs for Java segítségével: Átfogó útmutató
 
 ## Bevezetés

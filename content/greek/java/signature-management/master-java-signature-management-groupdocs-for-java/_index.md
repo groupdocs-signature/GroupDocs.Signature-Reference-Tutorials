@@ -4,8 +4,8 @@
 "title": "Master Java Signature Management με το GroupDocs.Signature για Java"
 "url": "/el/java/signature-management/master-java-signature-management-groupdocs-for-java/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με τη Διαχείριση Υπογραφών Java με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

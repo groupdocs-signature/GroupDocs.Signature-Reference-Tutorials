@@ -3,8 +3,8 @@ title: "GroupDocs.Signature Getting Started Tutorials for Java Developers"
 description: "Step-by-step tutorials for GroupDocs.Signature installation, licensing, setup, and creating your first signature project in Java applications."
 weight: 1
 url: "/java/getting-started/"
+type: docs
 ---
-
 # GroupDocs.Signature Getting Started Tutorials for Java Developers
 
 Begin your journey with these essential GroupDocs.Signature tutorials that walk you through installation, licensing configuration, and creating your first digital signature implementations in Java. Our beginner-friendly guides demonstrate how to set up your development environment, initialize the GroupDocs.Signature library, and perform fundamental signature operations. Follow these tutorials to quickly master the basics and prepare for more advanced document signing tasks in your Java applications.

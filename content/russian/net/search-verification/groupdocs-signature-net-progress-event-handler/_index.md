@@ -4,8 +4,8 @@
 "title": "Оптимизируйте поиск документов с помощью GroupDocs.Signature для .NET&#58; Реализуйте обработчики событий хода выполнения"
 "url": "/ru/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # Оптимизируйте поиск документов с помощью GroupDocs.Signature для .NET: реализуйте обработчики событий прогресса
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용한 .NET에서의 문서 무결성을 위한 마스터 바코드 검증"
 "url": "/ko/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 바코드 검증 마스터하기
 
 ## 소개

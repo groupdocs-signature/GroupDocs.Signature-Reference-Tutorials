@@ -4,8 +4,8 @@
 "title": "Crie assinaturas de gradiente radial impressionantes em Java com GroupDocs.Signature"
 "url": "/pt/java/document-loading-saving/groupdocs-signature-java-radial-gradient-sig/"
 "weight": 1
+type: docs
 ---
-
 # Crie uma assinatura de gradiente radial visualmente atraente usando GroupDocs.Signature para Java
 
 No mundo digital de hoje, a estética da assinatura eletrônica de documentos é tão importante quanto a funcionalidade. Uma assinatura visualmente impressionante pode elevar o profissionalismo e a credibilidade do seu trabalho. Este tutorial mostrará como implementar uma assinatura com pincel de gradiente radial usando o GroupDocs.Signature para Java.

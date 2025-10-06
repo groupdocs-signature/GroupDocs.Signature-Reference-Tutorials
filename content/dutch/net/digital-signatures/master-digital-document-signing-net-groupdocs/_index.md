@@ -4,8 +4,8 @@
 "title": "Digitale documenten ondertekenen in .NET met behulp van de GroupDocs.Signature API"
 "url": "/nl/net/digital-signatures/master-digital-document-signing-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Digitale documenten ondertekenen in .NET met GroupDocs.Signature API
 ## Invoering
 In de huidige snelle digitale omgeving is het cruciaal om de authenticiteit van documenten te garanderen en tegelijkertijd de efficiëntie te behouden. Of u nu een ontwikkelaar bent die workflows automatiseert of een organisatie die de operationele efficiëntie wil verbeteren, het integreren van digitale handtekeningen kan een transformatieve ervaring zijn. Deze tutorial begeleidt u bij het gebruik ervan. **GroupDocs.Signature voor .NET** Documenten ondertekenen met teksthandtekeningen in formulierveldformaten. Aan het einde van deze walkthrough weet u hoe u digitale handtekeningen naadloos kunt integreren in uw .NET-applicaties.

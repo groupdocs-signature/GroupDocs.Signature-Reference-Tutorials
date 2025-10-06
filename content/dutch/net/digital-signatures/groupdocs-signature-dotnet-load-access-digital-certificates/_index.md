@@ -4,8 +4,8 @@
 "title": "Laad en open digitale certificaten in .NET met GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/net/digital-signatures/groupdocs-signature-dotnet-load-access-digital-certificates/"
 "weight": 1
+type: docs
 ---
-
 # Laad en open digitale certificaten in .NET met GroupDocs.Signature
 ## Een uitgebreide gids
 

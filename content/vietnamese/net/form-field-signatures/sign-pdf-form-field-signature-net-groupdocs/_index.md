@@ -4,8 +4,8 @@
 "title": "Ký PDF bằng Chữ ký Form-Field trong .NET bằng GroupDocs.Signature"
 "url": "/vi/net/form-field-signatures/sign-pdf-form-field-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng chữ ký Form-Field sử dụng GroupDocs.Signature cho .NET
 ## Giới thiệu
 Bạn đang gặp khó khăn khi ký số tài liệu PDF trong các ứng dụng .NET? Tự động hóa quy trình này sẽ giúp tiết kiệm thời gian đồng thời đảm bảo tính chính xác và bảo mật. Hướng dẫn này sẽ hướng dẫn bạn cách ký tài liệu PDF một cách liền mạch bằng chữ ký trường biểu mẫu với GroupDocs.Signature cho .NET.

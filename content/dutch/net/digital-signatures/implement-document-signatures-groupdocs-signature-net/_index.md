@@ -4,8 +4,8 @@
 "title": "Documenthandtekeningen implementeren en weergeven met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/digital-signatures/implement-document-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Documenthandtekeningen implementeren en weergeven met GroupDocs.Signature voor .NET
 
 ## Invoering

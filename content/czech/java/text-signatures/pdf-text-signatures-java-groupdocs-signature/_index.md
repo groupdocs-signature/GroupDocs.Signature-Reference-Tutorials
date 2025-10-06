@@ -4,8 +4,8 @@
 "title": "Implementace textových podpisů PDF v Javě pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/java/text-signatures/pdf-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementace textových podpisů PDF v Javě pomocí GroupDocs.Signature
 
 dnešní digitální krajině je bezpečné podepisování dokumentů nezbytné pro obchodní procesy, jako je potvrzování smluv nebo ověřování dohod. Přidání textového podpisu zajišťuje autenticitu a integritu. Tato komplexní příručka vás provede implementací textových podpisů PDF pomocí **GroupDocs.Signature pro Javu**, který nabízí jak funkčnost, tak i možnosti přizpůsobení.

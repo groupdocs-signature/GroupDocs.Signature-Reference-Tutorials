@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da Barkodlar ve QR Kodlarıyla TAR Arşivlerini İmzalayın"
 "url": "/tr/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak Barkodlar ve QR Kodlarıyla TAR Arşivleri Nasıl İmzalanır?
 
 ## giriiş

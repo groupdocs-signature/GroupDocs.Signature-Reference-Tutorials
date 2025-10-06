@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing"]
 tags: ["csharp", "pdf-signature", "dotnet", "groupdocs", "document-automation"]
+type: docs
 ---
-
 # Add Text Signature to PDF in C# with Custom Gradients
 
 ## Introduction

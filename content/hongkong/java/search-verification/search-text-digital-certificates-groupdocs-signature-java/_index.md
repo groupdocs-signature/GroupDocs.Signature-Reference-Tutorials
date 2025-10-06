@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 掌握數位憑證搜索"
 "url": "/zh-hant/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 掌握數位憑證搜索
 
 ## 介紹

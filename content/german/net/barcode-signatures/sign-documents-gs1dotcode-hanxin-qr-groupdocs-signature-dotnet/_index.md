@@ -4,8 +4,8 @@
 "title": "Sichere Dokumentensignierung mit GS1DotCode- und HanXin-QR-Codes unter Verwendung von GroupDocs.Signature für .NET"
 "url": "/de/net/barcode-signatures/sign-documents-gs1dotcode-hanxin-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Sichere Dokumentensignierung mit GS1DotCode- und HanXin-QR-Codes unter Verwendung von GroupDocs.Signature für .NET
 ## So signieren Sie Dokumente mit GS1DotCode- und HanXin-QR-Codes mithilfe von GroupDocs.Signature für .NET
 Im digitalen Zeitalter ist die sichere elektronische Signatur von Dokumenten unerlässlich. Ob Sie nun im Geschäftsleben tätig sind oder als Entwickler Workflows automatisieren möchten: Die Integration von Barcode- und QR-Code-Signaturen erhöht die Sicherheit und optimiert Prozesse. Dieses Tutorial führt Sie durch die Verwendung von GroupDocs.Signature für .NET zur Implementierung von GS1DotCode- und HanXin-QR-Code-Signaturen in Ihren Anwendungen.

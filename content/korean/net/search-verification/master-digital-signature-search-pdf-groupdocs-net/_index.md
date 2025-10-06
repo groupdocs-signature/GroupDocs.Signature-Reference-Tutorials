@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 PDF에서 디지털 서명 검색 마스터하기"
 "url": "/ko/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 PDF에서 디지털 서명 검색 마스터하기
 
 ## 소개

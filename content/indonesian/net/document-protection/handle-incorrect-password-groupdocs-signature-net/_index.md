@@ -4,8 +4,8 @@
 "title": "Cara Menangani Pengecualian Kata Sandi yang Salah di GroupDocs.Signature untuk .NET"
 "url": "/id/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menangani Pengecualian Kata Sandi yang Salah Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

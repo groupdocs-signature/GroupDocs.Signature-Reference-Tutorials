@@ -4,8 +4,8 @@
 "title": "Hur man implementerar Java GroupDocs.Signature&#50; Hämta och visa dokumentprocesshistorik"
 "url": "/sv/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar Java GroupDocs.Signature: Hämta och visa dokumentprocesshistorik
 
 ## Introduktion

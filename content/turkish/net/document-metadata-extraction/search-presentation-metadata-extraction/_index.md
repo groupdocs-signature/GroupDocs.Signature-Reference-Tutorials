@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature ile Sunum Meta Verilerini Kolayca Çıkarın"
 "url": "/tr/net/document-metadata-extraction/search-presentation-metadata-extraction/"
 "weight": 12
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Sunumlardan Meta Veri Nasıl Çıkarılır?
 
 ## Sunum Meta Verilerinin Projeleriniz İçin Önemi

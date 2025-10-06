@@ -4,8 +4,8 @@
 "title": "Как интегрировать хранилище BLOB-объектов Azure с GroupDocs.Signature для .NET&#58; пошаговое руководство"
 "url": "/ru/net/document-loading-saving/azure-blob-storage-groupdocs-signature-integration/"
 "weight": 1
+type: docs
 ---
-
 # Как интегрировать хранилище BLOB-объектов Azure с GroupDocs.Signature для .NET: пошаговое руководство
 
 ## Введение

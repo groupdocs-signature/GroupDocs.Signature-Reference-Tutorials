@@ -4,8 +4,8 @@
 "title": "Pratinjau Tanda Tangan Kode QR dengan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Pratinjau Tanda Tangan Kode QR dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

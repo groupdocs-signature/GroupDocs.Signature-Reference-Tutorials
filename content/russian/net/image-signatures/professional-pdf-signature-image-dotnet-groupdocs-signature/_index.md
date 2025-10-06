@@ -4,8 +4,8 @@
 "title": "Как подписывать PDF-файлы с помощью изображений-подписей в .NET с помощью GroupDocs.Signature"
 "url": "/ru/net/image-signatures/professional-pdf-signature-image-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Как подписывать PDF-файлы с помощью изображений-подписей в .NET с помощью GroupDocs.Signature
 
 ## Введение

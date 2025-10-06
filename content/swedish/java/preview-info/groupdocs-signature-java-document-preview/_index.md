@@ -4,8 +4,8 @@
 "title": "Implementera generering av dokumentförhandsgranskning i Java med GroupDocs.Signature – en omfattande guide"
 "url": "/sv/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # Implementera generering av dokumentförhandsgranskning i Java med GroupDocs.Signature
 
 ## Introduktion

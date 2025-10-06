@@ -4,8 +4,8 @@
 "title": "Hogyan távolíthatunk el képaláírásokat dokumentumokból a GroupDocs.Signature for .NET használatával?"
 "url": "/hu/net/signature-management/remove-image-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan távolíthatunk el képaláírásokat egy dokumentumból a GroupDocs.Signature for .NET használatával?
 
 ## Bevezetés

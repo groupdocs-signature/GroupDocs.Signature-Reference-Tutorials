@@ -4,8 +4,8 @@
 "title": "Penandatanganan dan Optimalisasi Gambar Master dengan GroupDocs.Signature untuk Java"
 "url": "/id/java/image-signatures/groupdocs-signature-java-image-optimization/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Penandatanganan dan Optimalisasi Gambar dengan GroupDocs.Signature untuk Java
 
 Di era digital saat ini, penandatanganan dokumen yang aman sangatlah penting. Baik Anda seorang profesional bisnis yang mengautentikasi kontrak maupun individu yang melindungi gambar, kemampuan penandatanganan yang andal sangatlah penting. **GroupDocs.Signature untuk Java** Menawarkan fitur-fitur canggih untuk membuat tanda tangan kode QR dan mengoptimalkan opsi penyimpanan gambar dengan mudah. Tutorial ini akan memandu Anda memanfaatkan fungsi-fungsi ini untuk manajemen dokumen yang efektif.

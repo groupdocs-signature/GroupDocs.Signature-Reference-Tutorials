@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile .NET Barkod ve QR Kod İmzalarında Belge İmzalamada Ustalaşma"
 "url": "/tr/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET'te Belge İmzalamada Ustalaşma: GroupDocs.Signature ile Barkod ve QR Kod İmzalarını Uygulama
 
 ## giriiş

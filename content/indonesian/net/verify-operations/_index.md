@@ -5,8 +5,8 @@
 "title": "Operasi Verifikasi Dokumen di .NET"
 "url": "/id/net/verify-operations/"
 "weight": 27
+type: docs
 ---
-
 ## Perkenalan
 
 Verifikasi dokumen merupakan komponen penting dari setiap sistem manajemen dokumen yang aman. Baik Anda sedang membangun aplikasi perusahaan, solusi alur kerja dokumen, atau sistem yang berfokus pada keamanan, kemampuan untuk memverifikasi berbagai jenis tanda tangan dalam dokumen sangatlah penting. GroupDocs.Signature untuk .NET menyediakan alat dan API canggih yang memungkinkan pengembang .NET menerapkan fungsionalitas verifikasi yang andal untuk kode batang, tanda tangan digital, kode QR, dan tanda tangan teks.

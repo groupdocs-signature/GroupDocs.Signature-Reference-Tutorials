@@ -4,8 +4,8 @@
 "title": "Αναζήτηση υπογραφής κώδικα QR σε Java με το GroupDocs για προγραμματιστές Java"
 "url": "/el/java/qr-code-signatures/java-qr-code-signature-search-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Αναζήτηση υπογραφής κώδικα QR σε Java με το GroupDocs για προγραμματιστές Java
 
 ## Εισαγωγή

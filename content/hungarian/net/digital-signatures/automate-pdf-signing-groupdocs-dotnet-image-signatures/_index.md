@@ -4,8 +4,8 @@
 "title": "PDF-aláírás automatizálása a GroupDocs.Signature for .NET segítségével – Képaláírások útmutatója"
 "url": "/hu/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # PDF-aláírás automatizálása a GroupDocs.Signature for .NET segítségével: Képaláírások útmutatója
 
 ## Bevezetés

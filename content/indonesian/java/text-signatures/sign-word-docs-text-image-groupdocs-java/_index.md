@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen Word Secara Digital dengan Teks sebagai Gambar Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen Word Secara Digital dengan Teks sebagai Gambar Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

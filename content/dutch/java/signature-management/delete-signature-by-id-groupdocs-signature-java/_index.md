@@ -4,8 +4,8 @@
 "title": "Een handtekening verwijderen via ID met GroupDocs.Signature voor Java"
 "url": "/nl/java/signature-management/delete-signature-by-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Een handtekening verwijderen via ID met GroupDocs.Signature voor Java
 
 ## Invoering

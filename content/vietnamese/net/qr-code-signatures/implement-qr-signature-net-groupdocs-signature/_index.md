@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký mã QR trong .NET bằng GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/net/qr-code-signatures/implement-qr-signature-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai và tìm kiếm chữ ký mã QR trong .NET bằng GroupDocs.Signature
 
 ## Giới thiệu

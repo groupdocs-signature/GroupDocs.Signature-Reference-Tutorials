@@ -4,8 +4,8 @@
 "title": "GroupDocs for Javaでデジタル文書署名をマスターする - 総合ガイド"
 "url": "/ja/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs for Javaでデジタル文書署名をマスターする
 
 ## 導入

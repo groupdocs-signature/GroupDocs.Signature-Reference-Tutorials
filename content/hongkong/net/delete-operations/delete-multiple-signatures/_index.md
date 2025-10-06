@@ -5,8 +5,8 @@
 "title": "如何輕鬆刪除文件中的多個簽名"
 "url": "/zh-hant/net/delete-operations/delete-multiple-signatures/"
 "weight": 15
+type: docs
 ---
-
 # 如何在 .NET 中從文件中刪除多個簽名
 
 ## 為什麼管理文件簽章很重要

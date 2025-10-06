@@ -4,8 +4,8 @@
 "title": "Manajemen Tanda Tangan yang Efisien&#58; Cara Mencari dan Menghapus Tanda Tangan Digital Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Manajemen Tanda Tangan yang Efisien: Cara Mencari dan Menghapus Tanda Tangan Digital Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

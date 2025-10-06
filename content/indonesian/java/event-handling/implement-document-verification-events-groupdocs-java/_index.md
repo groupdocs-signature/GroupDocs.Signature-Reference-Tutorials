@@ -4,8 +4,8 @@
 "title": "Implementasi Verifikasi Dokumen dengan Langganan Acara di Java menggunakan GroupDocs.Signature"
 "url": "/id/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementasi Verifikasi Dokumen dengan Langganan Acara Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

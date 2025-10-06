@@ -4,8 +4,8 @@
 "title": "كيفية إزالة توقيعات الصور من المستندات باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/signature-management/remove-image-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية إزالة توقيعات الصور من مستند باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

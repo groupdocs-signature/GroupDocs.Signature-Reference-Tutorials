@@ -4,8 +4,8 @@
 "title": "Πώς να ανακτήσετε πληροφορίες εγγράφου χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/preview-info/retrieve-document-info-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να ανακτήσετε πληροφορίες εγγράφου με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

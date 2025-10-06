@@ -4,8 +4,8 @@
 "title": "Υλοποίηση Υπογραφής Πεδίου Φόρμας Κουμπιού Ραδιοφώνου Java με το GroupDocs.Signature"
 "url": "/el/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση Υπογραφής Πεδίου Φόρμας Κουμπιού Ραδιοφώνου Java με το GroupDocs.Signature
 
 ## Εισαγωγή

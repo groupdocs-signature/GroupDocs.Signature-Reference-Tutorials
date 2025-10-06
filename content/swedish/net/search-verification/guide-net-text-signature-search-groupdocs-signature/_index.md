@@ -4,8 +4,8 @@
 "title": "Bemästra .NET-textsignatursökning med GroupDocs.Signature – en steg-för-steg-guide"
 "url": "/sv/net/search-verification/guide-net-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra .NET-textsignatursökning med GroupDocs.Signature
 
 ## Introduktion

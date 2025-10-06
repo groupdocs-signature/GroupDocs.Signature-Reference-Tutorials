@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["GroupDocs", "NET", "Signatures", "Document Processing"]
+type: docs
 ---
-
 # Delete Multiple Signatures .NET - Complete GroupDocs Tutorial
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Hapus Tanda Tangan Digital di PDF Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/signature-management/delete-digital-signature-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hapus Tanda Tangan Digital di PDF Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

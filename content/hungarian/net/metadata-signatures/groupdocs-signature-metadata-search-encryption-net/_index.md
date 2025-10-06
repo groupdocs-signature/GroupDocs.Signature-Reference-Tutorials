@@ -4,8 +4,8 @@
 "title": "Metaadat-aláírás-keresés megvalósítása titkosítással GroupDocs for .NET használatával"
 "url": "/hu/net/metadata-signatures/groupdocs-signature-metadata-search-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Átfogó útmutató: Metaadat-aláírás-keresés megvalósítása titkosítással a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

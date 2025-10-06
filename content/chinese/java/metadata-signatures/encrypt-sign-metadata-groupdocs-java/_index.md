@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 加密和签名文档元数据——综合指南"
 "url": "/zh/java/metadata-signatures/encrypt-sign-metadata-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 加密和签名文档元数据：综合指南
 
 ## 介绍

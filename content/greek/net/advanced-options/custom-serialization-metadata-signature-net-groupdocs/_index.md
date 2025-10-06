@@ -4,8 +4,8 @@
 "title": "Προσαρμοσμένη σειριοποίηση και αναζήτηση μεταδεδομένων στο .NET χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση Προσαρμοσμένης Σειριακής Αρχικοποίησης και Αναζήτησης Υπογραφής Μεταδεδομένων με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

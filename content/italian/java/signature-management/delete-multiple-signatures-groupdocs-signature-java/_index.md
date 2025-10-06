@@ -4,8 +4,8 @@
 "title": "Come eliminare più firme dai PDF utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/signature-management/delete-multiple-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Come eliminare più firme dai PDF utilizzando GroupDocs.Signature per Java
 
 ## Introduzione

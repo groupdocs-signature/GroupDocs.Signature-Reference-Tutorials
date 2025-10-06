@@ -4,8 +4,8 @@
 "title": "Barcodehandtekeningen bijwerken op basis van ID met GroupDocs.Signature voor .NET"
 "url": "/nl/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Barcodehandtekeningen bijwerken op basis van ID met GroupDocs.Signature voor .NET
 
 ## Invoering

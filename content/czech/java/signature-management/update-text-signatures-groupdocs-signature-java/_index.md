@@ -4,8 +4,8 @@
 "title": "Jak aktualizovat textové podpisy v PDF pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/signature-management/update-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak aktualizovat textové podpisy v PDF pomocí GroupDocs.Signature pro Javu
 ## Zavedení
 Programová aktualizace textových podpisů v dokumentech může být náročná, zejména pokud chcete zefektivnit pracovní postupy s dokumenty nebo automatizovat správu podpisů. **GroupDocs.Signature pro Javu** nabízí pro tento účel výkonné řešení. Tato komplexní příručka vás provede inicializací a vyhledáváním textových podpisů, úpravou jejich vlastností a jejich aktualizací v souborech PDF.

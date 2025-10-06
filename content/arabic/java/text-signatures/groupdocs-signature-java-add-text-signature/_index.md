@@ -4,8 +4,8 @@
 "title": "كيفية إضافة توقيع نصي إلى ملفات PDF باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/text-signatures/groupdocs-signature-java-add-text-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية إضافة توقيع نصي إلى المستندات باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "توقيع البيانات الوصفية الرئيسية في مستندات Word باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/metadata-signatures/master-metadata-signing-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # إتقان توقيع البيانات الوصفية في مستندات Word باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

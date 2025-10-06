@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature voor .NET&#58; Documenthandtekeningen beheren en verwijderen"
 "url": "/nl/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 "weight": 1
+type: docs
 ---
-
 # Handtekeningbeheer in .NET onder de knie krijgen met GroupDocs.Signature
 
 ## Invoering

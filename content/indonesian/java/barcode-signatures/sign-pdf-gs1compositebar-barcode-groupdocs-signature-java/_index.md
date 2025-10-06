@@ -4,8 +4,8 @@
 "title": "Menandatangani PDF dengan Kode Batang Komposit GS1 Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF dengan Kode Batang Komposit GS1 Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

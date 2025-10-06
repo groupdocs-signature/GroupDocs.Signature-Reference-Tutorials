@@ -5,8 +5,8 @@
 "title": "Mencari Tanda Tangan Barcode di Dokumen"
 "url": "/id/net/signature-searching/search-for-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Perkenalan
 
 Dalam lanskap manajemen dokumen digital saat ini, kemampuan untuk mencari dan memvalidasi tanda tangan dalam dokumen sangat penting untuk menjaga keaslian dan keamanan. GroupDocs.Signature untuk .NET menyediakan solusi canggih untuk bekerja dengan berbagai jenis tanda tangan, termasuk kode batang, di berbagai format dokumen. Tutorial ini akan memandu Anda melalui proses penerapan fungsi pencarian tanda tangan kode batang di aplikasi .NET Anda menggunakan GroupDocs.Signature.

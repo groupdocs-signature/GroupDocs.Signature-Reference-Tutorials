@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["powerpoint-metadata", "net-library", "document-properties", "file-analysis"]
+type: docs
 ---
-
 # How to Extract Metadata from PowerPoint Files Using .NET
 
 ## Why Every Developer Needs PowerPoint Metadata Extraction

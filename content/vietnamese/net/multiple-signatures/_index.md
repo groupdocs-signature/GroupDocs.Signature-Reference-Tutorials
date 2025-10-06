@@ -3,8 +3,8 @@
 "title": "Hướng dẫn nhiều chữ ký cho GroupDocs.Signature .NET"
 "url": "/vi/net/multiple-signatures/"
 "weight": 10
+type: docs
 ---
-
 # Hướng dẫn nhiều chữ ký cho GroupDocs.Signature .NET
 
 Tìm hiểu cách tạo quy trình ký kết phức tạp với hướng dẫn GroupDocs.Signature của chúng tôi dành cho nhiều chữ ký trong .NET. Những hướng dẫn toàn diện này trình bày cách kết hợp các loại chữ ký khác nhau trong một quy trình duy nhất, triển khai các chuỗi ký kết có thứ tự, quản lý các sắp xếp chữ ký phức tạp và làm việc với các tài liệu nhiều trang. Mỗi hướng dẫn đều cung cấp các ví dụ mã C# chi tiết cho các tình huống chữ ký nâng cao, giúp bạn xây dựng các ứng dụng xử lý tài liệu mạnh mẽ, hỗ trợ các yêu cầu ký kết phức tạp cho các trường hợp sử dụng doanh nghiệp và pháp lý.

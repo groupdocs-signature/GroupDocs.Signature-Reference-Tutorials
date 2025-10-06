@@ -4,8 +4,8 @@
 "title": "Hoe u ZIP-bestanden met barcodes en QR-codes in Java ondertekent met GroupDocs.Signature"
 "url": "/nl/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u ZIP-bestanden met barcodes en QR-codes in Java ondertekent met GroupDocs.Signature
 
 ## Invoering

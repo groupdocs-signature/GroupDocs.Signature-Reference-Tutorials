@@ -4,8 +4,8 @@
 "title": "Ładowanie i podpisywanie dokumentów chronionych hasłem za pomocą kodów QR w Javie za pomocą GroupDocs.Signature"
 "url": "/pl/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Ładuj i podpisuj dokumenty chronione hasłem za pomocą kodu QR w Javie
 
 ## Jak załadować i podpisać dokument chroniony hasłem za pomocą GroupDocs.Signature dla Java

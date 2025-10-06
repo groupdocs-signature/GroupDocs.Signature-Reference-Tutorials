@@ -4,8 +4,8 @@
 "title": "如何在 GroupDocs.Signature for .NET 中使用文字貼圖簽署文檔"
 "url": "/zh-hant/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何在 GroupDocs.Signature for .NET 中使用文字貼圖簽署文檔
 
 ## 介紹

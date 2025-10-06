@@ -4,8 +4,8 @@
 "title": "Podpisywanie plików PDF w Javie z metadanymi i szyfrowaniem za pomocą GroupDocs™ — kompleksowy przewodnik"
 "url": "/pl/java/digital-signatures/java-pdf-signing-metadata-encryption-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie podpisywania plików PDF w Javie za pomocą metadanych i szyfrowania przy użyciu GroupDocs
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "تحميل الشهادات الرقمية والوصول إليها في .NET باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/net/digital-signatures/groupdocs-signature-dotnet-load-access-digital-certificates/"
 "weight": 1
+type: docs
 ---
-
 # تحميل الشهادات الرقمية والوصول إليها في .NET باستخدام GroupDocs.Signature
 ## دليل شامل
 

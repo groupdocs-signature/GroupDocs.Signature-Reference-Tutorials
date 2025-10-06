@@ -4,8 +4,8 @@
 "title": "Implementacja niestandardowych metadanych w Javie przy użyciu GroupDocs.Signature w celu ulepszonego podpisywania dokumentów"
 "url": "/pl/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja niestandardowych metadanych w Javie za pomocą GroupDocs.Signature
 
 ## Wstęp

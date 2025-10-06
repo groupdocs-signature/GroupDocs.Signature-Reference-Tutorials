@@ -4,8 +4,8 @@
 "title": "Hur man signerar och konverterar presentationer med GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/digital-signatures/sign-and-convert-presentations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här signerar och konverterar du presentationer med GroupDocs.Signature för .NET: En omfattande guide
 
 ## Introduktion

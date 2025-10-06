@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["text-signatures", "document-validation", "signature-search", "dotnet"]
+type: docs
 ---
-
 ## Introduction
 
 Ever needed to verify who approved a document or find all instances where someone's name appears as a signature? You're not alone. Whether you're building a document management system, automating compliance checks, or just trying to track down approvals in a sea of paperwork, being able to programmatically find text signatures is a game-changer.

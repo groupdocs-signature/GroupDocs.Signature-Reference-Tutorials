@@ -4,8 +4,8 @@
 "title": "Как искать метаданные в электронных таблицах с помощью GroupDocs.Signature для Java&#58; подробное руководство"
 "url": "/ru/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Как искать метаданные в электронных таблицах с помощью GroupDocs.Signature для Java: подробное руководство
 
 ## Введение

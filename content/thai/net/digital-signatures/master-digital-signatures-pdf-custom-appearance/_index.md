@@ -4,8 +4,8 @@
 "title": "เชี่ยวชาญลายเซ็นดิจิทัลใน PDF ด้วยรูปลักษณ์ที่กำหนดเองโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้ลายเซ็นดิจิทัลใน PDF ด้วยรูปลักษณ์ที่กำหนดเองโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

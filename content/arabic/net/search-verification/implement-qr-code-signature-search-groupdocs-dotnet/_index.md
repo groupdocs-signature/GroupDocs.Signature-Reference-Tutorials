@@ -4,8 +4,8 @@
 "title": "تنفيذ بحث توقيع رمز الاستجابة السريعة في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/search-verification/implement-qr-code-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ البحث عن توقيع رمز الاستجابة السريعة في المستندات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

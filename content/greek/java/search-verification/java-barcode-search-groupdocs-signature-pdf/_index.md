@@ -4,8 +4,8 @@
 "title": "Αναζήτηση γραμμωτού κώδικα Java σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/search-verification/java-barcode-search-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την αναζήτηση γραμμωτού κώδικα Java σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

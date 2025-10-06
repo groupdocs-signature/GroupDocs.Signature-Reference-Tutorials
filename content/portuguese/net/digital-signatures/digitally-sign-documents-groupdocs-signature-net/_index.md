@@ -4,8 +4,8 @@
 "title": "Assine documentos digitalmente usando o GroupDocs.Signature para .NET - Um guia completo"
 "url": "/pt/net/digital-signatures/digitally-sign-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Como assinar documentos digitalmente usando o GroupDocs.Signature para .NET
 
 ## Introdução

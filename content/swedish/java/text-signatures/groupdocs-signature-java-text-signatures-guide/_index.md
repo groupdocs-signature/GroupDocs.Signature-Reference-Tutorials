@@ -4,8 +4,8 @@
 "title": "Huvudtextsignaturer i Java – omfattande guide till GroupDocs.Signature för Java"
 "url": "/sv/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Mastering Document Signature in Java: En omfattande guide till att använda GroupDocs.Signature för textsignaturer
 
 ## Introduktion

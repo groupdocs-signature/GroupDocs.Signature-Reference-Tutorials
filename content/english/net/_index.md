@@ -10,8 +10,8 @@ lastmod: "2025-01-02"
 is_root: true
 categories: ["Document Signing", ".NET Development"]
 tags: ["digital-signatures", "document-security", "csharp-tutorials", "pdf-signing", "electronic-signatures"]
+type: docs
 ---
-
 ## Introduction
 
 Need to add digital signatures to documents in your .NET application? You're not alone. Whether you're building a contract management system, an invoice approval workflow, or a document tracking solution, secure signatures are essential—and they're not always straightforward to implement.

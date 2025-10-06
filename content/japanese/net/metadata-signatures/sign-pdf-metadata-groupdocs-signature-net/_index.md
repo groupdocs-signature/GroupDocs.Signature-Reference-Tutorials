@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してメタデータで PDF ドキュメントに署名する方法 | 総合ガイド"
 "url": "/ja/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してメタデータで PDF ドキュメントに署名する方法
 
 今日のデジタル世界において、文書の効率的な管理は企業にとっても個人にとっても不可欠です。特に契約書や公的記録を扱う際には、文書への安全な署名と検証が不可欠となっています。この包括的なガイドでは、GroupDocs.Signature for .NETを使用してメタデータ署名でPDF文書に署名し、文書の整合性を高める方法を説明します。

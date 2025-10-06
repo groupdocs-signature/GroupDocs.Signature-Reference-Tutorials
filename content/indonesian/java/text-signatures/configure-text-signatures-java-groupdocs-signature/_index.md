@@ -4,8 +4,8 @@
 "title": "Cara Mengonfigurasi Tanda Tangan Teks di Java Menggunakan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/java/text-signatures/configure-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mengonfigurasi Tanda Tangan Teks di Java Menggunakan GroupDocs.Signature: Panduan Lengkap
 
 ## Perkenalan

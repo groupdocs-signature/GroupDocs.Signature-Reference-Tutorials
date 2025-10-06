@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में विशिष्ट हस्ताक्षर कैसे हटाएँ | हस्ताक्षर प्रबंधन ट्यूटोरियल"
 "url": "/hi/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में विशिष्ट हस्ताक्षर कैसे हटाएं
 
 ## परिचय

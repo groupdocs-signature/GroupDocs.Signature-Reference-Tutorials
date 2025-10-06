@@ -5,8 +5,8 @@
 "title": "문서에서 바코드 서명 검색"
 "url": "/ko/net/signature-searching/search-for-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## 소개
 
 오늘날의 디지털 문서 관리 환경에서 문서 내 서명을 검색하고 검증하는 기능은 진위성과 보안을 유지하는 데 매우 중요합니다. GroupDocs.Signature for .NET은 다양한 문서 형식에서 바코드를 포함한 다양한 유형의 서명을 처리할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 GroupDocs.Signature를 사용하여 .NET 애플리케이션에서 바코드 서명 검색 기능을 구현하는 과정을 안내합니다.

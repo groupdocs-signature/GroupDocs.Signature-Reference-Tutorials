@@ -4,8 +4,8 @@
 "title": "توقيع مستندات PDF باستخدام توقيع النص في C# باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/text-signatures/sign-pdf-text-signature-csharp-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # توقيع مستندات PDF باستخدام توقيع النص في C# باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

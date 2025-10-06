@@ -4,8 +4,8 @@
 "title": "تشفير بيانات التعريف XOR المتقدم باستخدام GroupDocs.Signature لـ .NET - دليل كامل"
 "url": "/ar/net/advanced-options/custom-xor-metadata-encryption-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # تشفير بيانات التعريف XOR المتقدم باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

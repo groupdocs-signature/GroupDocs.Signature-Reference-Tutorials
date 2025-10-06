@@ -4,8 +4,8 @@
 "title": "QR-codehandtekeningvoorbeelden met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van QR-codehandtekeningvoorbeelden met GroupDocs.Signature voor .NET
 
 ## Invoering

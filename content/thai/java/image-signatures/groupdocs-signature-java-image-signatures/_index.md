@@ -4,8 +4,8 @@
 "title": "วิธีการค้นหาและอัปเดตลายเซ็นภาพในเอกสารโดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการค้นหาและอัปเดตลายเซ็นภาพในเอกสารโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

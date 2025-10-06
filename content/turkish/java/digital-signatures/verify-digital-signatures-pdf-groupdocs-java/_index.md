@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak PDF'lerdeki Dijital İmzalar Nasıl Doğrulanır? Adım Adım Kılavuz"
 "url": "/tr/java/digital-signatures/verify-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak PDF'lerdeki Dijital İmzalar Nasıl Doğrulanır: Adım Adım Kılavuz
 
 ## giriiş

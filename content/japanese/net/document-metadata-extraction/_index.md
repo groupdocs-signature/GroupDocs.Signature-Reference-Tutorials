@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature for .NET によるマスター ドキュメントのメタデータ抽出"
 "url": "/ja/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # GroupDocs.Signature を使用したドキュメント メタデータ抽出の包括的なガイド
 
 ## 現代のワークフローにおけるドキュメントメタデータの戦略的重要性

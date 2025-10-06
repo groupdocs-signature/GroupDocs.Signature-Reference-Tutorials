@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Javaを使用してQRコードアドレスデータを抽出する包括的なガイド"
 "url": "/ja/java/qr-code-signatures/extract-qr-code-address-data-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Javaを使用してQRコードアドレスデータを抽出する方法
 
 ## 導入

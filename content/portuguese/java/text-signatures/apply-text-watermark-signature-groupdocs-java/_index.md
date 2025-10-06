@@ -4,8 +4,8 @@
 "title": "Aplicando assinaturas de marca d'água de texto usando GroupDocs.Signature para Java"
 "url": "/pt/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Como aplicar uma assinatura de marca d'água de texto usando GroupDocs.Signature para Java
 
 ## Introdução

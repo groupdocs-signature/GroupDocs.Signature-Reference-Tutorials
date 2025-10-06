@@ -5,8 +5,8 @@
 "title": "포괄적인 문서 미리보기 및 관리 작업"
 "url": "/ko/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # 문서 미리보기 작업
 
 ## 소개

@@ -5,8 +5,8 @@
 "title": "Adicione assinaturas de imagem a documentos facilmente com GroupDocs.Signature"
 "url": "/pt/net/advanced-signature-techniques/sign-with-image/"
 "weight": 13
+type: docs
 ---
-
 ## Introdução: Transforme a segurança dos seus documentos com assinaturas de imagem
 
 Você já se perguntou como tornar seus documentos digitais mais seguros e juridicamente válidos? Adicionar assinaturas de imagem é uma das maneiras mais eficazes de autenticar seus documentos e protegê-los contra adulterações. Neste guia prático, mostraremos o processo de implementação da assinatura de documentos baseada em imagem em seus aplicativos .NET usando o GroupDocs.Signature.

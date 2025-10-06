@@ -4,8 +4,8 @@
 "title": "GroupDocs में मास्टर फ़ाइल स्वरूप समर्थन.Java के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/java/advanced-options/groupdocs-signature-java-file-format-support/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs में मास्टर फ़ाइल प्रारूप समर्थन.Java के लिए हस्ताक्षर: एक व्यापक मार्गदर्शिका
 
 ## परिचय

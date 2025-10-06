@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 對帶有 GS1 複合條碼的 PDF 進行簽名"
 "url": "/zh-hant/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 為 PDF 簽署 GS1 複合條碼
 
 ## 介紹

@@ -5,8 +5,8 @@
 "title": "Trích xuất siêu dữ liệu bảng tính dễ dàng với GroupDocs.Signature"
 "url": "/vi/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # Cách trích xuất siêu dữ liệu từ bảng tính bằng GroupDocs.Signature
 
 ## Tại sao siêu dữ liệu bảng tính lại quan trọng

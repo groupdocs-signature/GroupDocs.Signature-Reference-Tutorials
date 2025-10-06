@@ -4,8 +4,8 @@
 "title": "Ladda och signera lösenordsskyddade dokument med QR-koder i Java med GroupDocs.Signature"
 "url": "/sv/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Ladda och signera lösenordsskyddade dokument med QR-kod i Java
 
 ## Så här laddar och signerar du ett lösenordsskyddat dokument med GroupDocs.Signature för Java

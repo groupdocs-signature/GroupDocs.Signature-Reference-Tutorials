@@ -4,8 +4,8 @@
 "title": "Opanuj podpisywanie i optymalizację obrazów za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/image-signatures/groupdocs-signature-java-image-optimization/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie podpisywania obrazów i optymalizacji za pomocą GroupDocs.Signature dla języka Java
 
 dzisiejszym cyfrowym świecie bezpieczne podpisywanie dokumentów jest niezbędne. Niezależnie od tego, czy jesteś profesjonalistą uwierzytelniającym umowy, czy osobą prywatną chroniącą obrazy, solidne funkcje podpisywania są kluczowe. **GroupDocs.Signature dla Java** Oferuje zaawansowane funkcje do tworzenia podpisów z kodem QR i optymalizacji opcji zapisywania obrazów. Ten samouczek przeprowadzi Cię przez proces wykorzystania tych funkcji do efektywnego zarządzania dokumentami.

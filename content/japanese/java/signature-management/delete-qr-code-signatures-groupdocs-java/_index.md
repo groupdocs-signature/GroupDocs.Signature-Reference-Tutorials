@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Javaを使用してPDFからQRコード署名を削除する方法"
 "url": "/ja/java/signature-management/delete-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して PDF から QR コード署名を削除する方法
 
 ## 導入

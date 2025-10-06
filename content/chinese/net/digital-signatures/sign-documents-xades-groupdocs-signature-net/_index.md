@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 的 XAdES 签名文档指南"
 "url": "/zh/net/digital-signatures/sign-documents-xades-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 的 XAdES 签名文档指南
 
 ## 介绍

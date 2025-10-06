@@ -4,8 +4,8 @@
 "title": "Hogyan ellenőrizhetjük a szöveges aláírásokat dokumentumokban a GroupDocs.Signature for .NET használatával?"
 "url": "/hu/net/search-verification/verify-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan ellenőrizhető egy szöveges aláírás dokumentumokban a GroupDocs.Signature for .NET használatával?
 
 ## Bevezetés

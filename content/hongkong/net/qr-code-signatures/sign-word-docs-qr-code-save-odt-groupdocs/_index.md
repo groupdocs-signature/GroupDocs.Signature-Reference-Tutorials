@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 使用二維碼簽署 Word 文件並將其儲存為 ODT"
 "url": "/zh-hant/net/qr-code-signatures/sign-word-docs-qr-code-save-odt-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 使用二維碼簽署 Word 文件並將其儲存為 ODT
 
 ## 介紹

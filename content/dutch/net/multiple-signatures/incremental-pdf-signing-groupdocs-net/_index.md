@@ -4,8 +4,8 @@
 "title": "PDF's stapsgewijs ondertekenen met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF-document stapsgewijs ondertekenen met GroupDocs.Signature voor .NET
 
 ## Invoering

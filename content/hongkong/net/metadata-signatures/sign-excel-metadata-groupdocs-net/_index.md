@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 對包含元資料的 Excel 電子表格進行簽名"
 "url": "/zh-hant/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 對包含元資料的 Excel 電子表格進行簽名
 
 ## 介紹

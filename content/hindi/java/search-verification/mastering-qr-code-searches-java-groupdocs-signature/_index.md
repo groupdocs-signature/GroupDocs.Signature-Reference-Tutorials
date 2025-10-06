@@ -4,8 +4,8 @@
 "title": "जावा में क्यूआर कोड खोज में महारत हासिल करना - ग्रुपडॉक्स.सिग्नेचर का उपयोग करके एक संपूर्ण गाइड"
 "url": "/hi/java/search-verification/mastering-qr-code-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # जावा में क्यूआर कोड खोज में महारत हासिल करना: GroupDocs.Signature का उपयोग करके एक संपूर्ण मार्गदर्शिका
 
 ## परिचय

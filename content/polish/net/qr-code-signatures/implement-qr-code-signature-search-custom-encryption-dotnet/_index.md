@@ -4,8 +4,8 @@
 "title": "Implementacja wyszukiwania podpisów kodów QR z niestandardowym szyfrowaniem w .NET przy użyciu GroupDocs.Signature"
 "url": "/pl/net/qr-code-signatures/implement-qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Wdrażanie wyszukiwania podpisów kodów QR z niestandardowym szyfrowaniem przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

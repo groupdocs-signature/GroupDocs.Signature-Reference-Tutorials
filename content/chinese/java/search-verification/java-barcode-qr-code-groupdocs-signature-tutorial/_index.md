@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 进行安全文档验证的 Java 条形码和二维码搜索指南"
 "url": "/zh/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 实现 Java 条形码、二维码和元数据签名搜索
 
 ## 介绍

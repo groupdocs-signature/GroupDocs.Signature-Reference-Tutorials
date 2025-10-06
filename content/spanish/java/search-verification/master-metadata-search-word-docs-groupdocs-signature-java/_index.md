@@ -4,8 +4,8 @@
 "title": "Búsqueda de metadatos maestros en documentos de Word con GroupDocs.Signature para Java"
 "url": "/es/java/search-verification/master-metadata-search-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Dominar la búsqueda de metadatos en documentos de Word con GroupDocs.Signature para Java
 
 La extracción de metadatos de documentos de Word se simplifica con la potente biblioteca GroupDocs.Signature. Este tutorial le guía en la implementación de una función que busca firmas de metadatos en un documento de Word mediante Java.

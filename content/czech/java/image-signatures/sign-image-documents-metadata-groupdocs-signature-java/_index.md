@@ -4,8 +4,8 @@
 "title": "Podepisování obrazových dokumentů metadaty pomocí GroupDocs.Signature pro Javu – kompletní průvodce"
 "url": "/cs/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat obrazové dokumenty metadaty pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

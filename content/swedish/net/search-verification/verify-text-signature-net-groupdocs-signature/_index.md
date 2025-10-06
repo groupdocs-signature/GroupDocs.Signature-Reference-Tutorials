@@ -4,8 +4,8 @@
 "title": "Hur man verifierar textsignaturer i .NET med GroupDocs.Signature – en omfattande guide"
 "url": "/sv/net/search-verification/verify-text-signature-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar verifiera textsignatur i .NET med GroupDocs.Signature
 
 ## Introduktion

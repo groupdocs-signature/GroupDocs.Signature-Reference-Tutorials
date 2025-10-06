@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing"]
 tags: ["digital-signatures", "pdf-automation", "groupdocs", "form-fields"]
+type: docs
 ---
-
 # PDF Form Field Signature .NET - Complete GroupDocs Tutorial
 
 ## Why PDF Form Field Signatures Matter for .NET Developers

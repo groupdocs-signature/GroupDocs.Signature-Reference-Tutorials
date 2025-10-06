@@ -4,8 +4,8 @@
 "title": "توقيع ملفات PDF باستخدام البيانات الوصفية باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # توقيع ملفات PDF باستخدام البيانات الوصفية باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

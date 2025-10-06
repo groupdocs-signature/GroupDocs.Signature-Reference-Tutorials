@@ -4,8 +4,8 @@
 "title": "استخراج بيانات جدول البيانات باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # استخراج بيانات جدول البيانات باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

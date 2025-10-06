@@ -4,8 +4,8 @@
 "title": "Panduan Tanda Tangan Gambar Otomatisasi Penandatanganan PDF dengan GroupDocs.Signature untuk .NET"
 "url": "/id/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Otomatiskan Penandatanganan PDF dengan GroupDocs.Signature untuk .NET: Panduan Tanda Tangan Gambar
 
 ## Perkenalan

@@ -5,8 +5,8 @@
 "title": "QR-code in documenten verifiëren"
 "url": "/nl/net/verify-operations/verify-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## Invoering
 
 Documentbeveiliging is een cruciaal aspect van moderne bedrijfsvoering. QR-codes zijn een steeds populairdere methode geworden om informatie in documenten te integreren die op authenticiteit kan worden geverifieerd. GroupDocs.Signature voor .NET biedt een krachtige en flexibele oplossing voor het verifiëren van QR-codes die in documenten in verschillende formaten zijn opgenomen.

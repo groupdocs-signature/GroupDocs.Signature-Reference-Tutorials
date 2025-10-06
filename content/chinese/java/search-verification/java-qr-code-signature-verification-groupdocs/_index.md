@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中验证带有二维码签名的文档"
 "url": "/zh/java/search-verification/java-qr-code-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中验证带有二维码签名的文档
 
 在当今的数字环境中，验证文档以确保其真实性和完整性至关重要。GroupDocs.Signature for Java 能够轻松使用 Java 验证包含二维码签名的文档，从而简化了这一流程。本教程将指导您使用二维码签名进行文档验证，从而提高工作流程的安全性和效率。

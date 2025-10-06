@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Tanda Tangan Teks Menggunakan GroupDocs.Signature untuk Java (Panduan Langkah demi Langkah)"
 "url": "/id/java/text-signatures/implement-text-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Tanda Tangan Teks Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

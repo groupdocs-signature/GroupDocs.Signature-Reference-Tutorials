@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ توقيع المستندات الرقمية في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ توقيع المستندات الرقمية في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

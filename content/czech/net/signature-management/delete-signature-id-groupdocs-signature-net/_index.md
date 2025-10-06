@@ -4,8 +4,8 @@
 "title": "Efektivní mazání podpisů podle ID pomocí GroupDocs.Signature pro .NET – podrobný návod"
 "url": "/cs/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak efektivně odstranit podpis podle ID pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

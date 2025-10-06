@@ -4,8 +4,8 @@
 "title": "Een teksthandtekening toevoegen aan PDF's met GroupDocs.Signature voor Java"
 "url": "/nl/java/text-signatures/groupdocs-signature-java-add-text-signature/"
 "weight": 1
+type: docs
 ---
-
 # Een teksthandtekening toevoegen aan documenten met GroupDocs.Signature voor Java
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ توقيع الباركود .NET باستخدام GroupDocs.Signature - دليل شامل للمطورين"
 "url": "/ar/net/barcode-signatures/implement-dotnet-barcode-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ توقيع الباركود .NET باستخدام GroupDocs.Signature: دليل كامل للمطورين
 
 ## مقدمة

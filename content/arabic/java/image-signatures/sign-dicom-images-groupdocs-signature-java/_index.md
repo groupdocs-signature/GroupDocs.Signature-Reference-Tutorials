@@ -4,8 +4,8 @@
 "title": "توقيع صور DICOM باستخدام رموز QR والبيانات الوصفية باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/image-signatures/sign-dicom-images-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع صور DICOM باستخدام رموز الاستجابة السريعة والبيانات الوصفية باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "文件记录和二维码签名——GroupDocs.Signature for .NET 完整指南"
 "url": "/zh/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # 文件记录和二维码签名：GroupDocs.Signature for .NET 完整指南
 
 ## 介绍

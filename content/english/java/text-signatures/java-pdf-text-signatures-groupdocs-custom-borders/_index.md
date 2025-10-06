@@ -8,10 +8,8 @@ keywords:
 - Java PDF text signatures
 - custom borders GroupDocs.Signature
 - text signature customization Java
-
+type: docs
 ---
-
-
 # Mastering Java PDF Text Signatures with Custom Borders Using GroupDocs.Signature
 
 In today's digital age, ensuring the authenticity of documents is crucial for businesses and individuals alike. With the rise of electronic documents, traditional signing methods are being replaced by more efficient and secure solutions like text signatures in PDFs. If you're looking to add a professional touch to your PDF documents with custom-styled text signatures using GroupDocs.Signature for Java, you've come to the right place.

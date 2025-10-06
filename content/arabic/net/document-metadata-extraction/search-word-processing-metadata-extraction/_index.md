@@ -5,8 +5,8 @@
 "title": "استخراج بيانات معالجة النصوص بسهولة باستخدام .NET"
 "url": "/ar/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # كيفية البحث عن بيانات معالجة النصوص واستخراجها في .NET
 
 ## مقدمة

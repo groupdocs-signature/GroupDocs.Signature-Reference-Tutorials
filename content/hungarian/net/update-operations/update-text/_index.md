@@ -5,8 +5,8 @@
 "title": "Szöveges aláírások frissítése dokumentumokban"
 "url": "/hu/net/update-operations/update-text/"
 "weight": 13
+type: docs
 ---
-
 ## Bevezetés
 A GroupDocs.Signature for .NET egy átfogó dokumentum-aláírási megoldás, amely lehetővé teszi a fejlesztők számára, hogy hatékony aláírási funkciókat integráljanak .NET alkalmazásaikba. Ezzel a sokoldalú könyvtárral könnyedén hozzáadhat, kereshet, ellenőrizhet és frissíthet különféle típusú aláírásokat, beleértve a szöveges aláírásokat is, számos dokumentumformátumban. Ez az oktatóanyag kifejezetten a dokumentumok szöveges aláírásainak frissítésére összpontosít, lépésről lépésre útmutatást nyújtva a zökkenőmentes megvalósításhoz.
 

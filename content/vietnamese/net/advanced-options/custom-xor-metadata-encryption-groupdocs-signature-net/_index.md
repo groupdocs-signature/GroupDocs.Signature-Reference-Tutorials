@@ -4,8 +4,8 @@
 "title": "Mã hóa siêu dữ liệu XOR nâng cao với GroupDocs.Signature cho .NET - Hướng dẫn đầy đủ"
 "url": "/vi/net/advanced-options/custom-xor-metadata-encryption-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Mã hóa siêu dữ liệu XOR nâng cao với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 Excel 스프레드시트 및 VBA 프로젝트에 디지털 서명"
 "url": "/ko/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 Excel 스프레드시트 및 VBA 프로젝트에 디지털 서명하기
 
 오늘날 디지털 시대에는 Excel 파일의 신뢰성을 보장하는 것이 매우 중요합니다. 재무 스프레드시트를 관리하든 프로젝트 계획을 관리하든, 디지털 서명을 추가하면 무단 변경을 방지할 수 있습니다. 이 튜토리얼에서는 스프레드시트 문서와 VBA 프로젝트에 디지털 서명을 추가하는 방법을 안내합니다. **.NET용 GroupDocs.Signature**.

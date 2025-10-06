@@ -4,8 +4,8 @@
 "title": "วิธีการลบลายเซ็นข้อความโดยใช้ ID โดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/signature-management/delete-text-signature-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลบลายเซ็นข้อความโดยใช้ ID โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

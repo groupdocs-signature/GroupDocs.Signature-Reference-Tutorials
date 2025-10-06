@@ -4,8 +4,8 @@
 "title": "Извлечение метаданных PDF с помощью GroupDocs.Signature для Java&#58; подробное руководство"
 "url": "/ru/java/preview-info/extract-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Извлечение метаданных PDF с помощью GroupDocs.Signature для Java: подробное руководство
 
 ## Введение

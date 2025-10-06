@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature에서 사용자 정의 로깅 구현하기&#58; 종합 가이드"
 "url": "/ko/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature에서 사용자 정의 로깅 구현: 포괄적인 가이드
 
 ## 소개

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java로 이미지 서명 구현하기 - 포괄적인 가이드"
 "url": "/ko/java/image-signatures/mastering-image-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java로 이미지 서명 구현: 종합 가이드
 
 오늘날의 디지털 시대에 효율적인 문서 서명은 기업과 개인 모두에게 매우 중요합니다. 기존 서명 방식은 현대 기술이 제공하는 속도와 편의성을 제공하지 못하는 경우가 많습니다. **Java용 GroupDocs.Signature**—이미지 서명과 같은 고급 기능을 통해 전자 문서 관리를 간소화하도록 설계된 강력한 라이브러리입니다. 이 종합 가이드는 GroupDocs.Signature for Java를 사용하여 문서에 이미지 서명을 구현하는 방법을 안내하며, 문서의 보안을 강화하고 전문적인 서명을 보장합니다.

@@ -4,8 +4,8 @@
 "title": "Cómo implementar firmas de texto con GroupDocs.Signature para Java (guía paso a paso)"
 "url": "/es/java/text-signatures/implement-text-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cómo implementar firmas de texto con GroupDocs.Signature para Java
 
 ## Introducción

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak Word Belgelerinde Metin Filigran İmzalarını Uygulama"
 "url": "/tr/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak Word Belgelerinde Metin Filigran İmzalarını Uygulama
 
 ## GroupDocs.Signature for Java ile Word Belgelerine Metin Filigran İmzaları Nasıl Eklenir?

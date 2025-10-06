@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके पासवर्ड-संरक्षित PDF पर हस्ताक्षर कैसे करें (डिजिटल हस्ताक्षर ट्यूटोरियल)"
 "url": "/hi/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके पासवर्ड-संरक्षित PDF पर हस्ताक्षर कैसे करें
 ## डिजिटल हस्ताक्षर ट्यूटोरियल
 

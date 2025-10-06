@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 암호로 보호된 PDF에 서명하는 방법(디지털 서명 튜토리얼)"
 "url": "/ko/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 암호로 보호된 PDF에 서명하는 방법
 ## 디지털 서명 튜토리얼
 

@@ -5,8 +5,8 @@
 "title": "Buscar múltiples tipos de firmas en documentos"
 "url": "/es/net/signature-searching/search-for-multiple-signatures/"
 "weight": 14
+type: docs
 ---
-
 ## Introducción
 
 En los sistemas modernos de gestión documental, la capacidad de buscar y validar múltiples tipos de firmas dentro de un mismo documento es cada vez más importante. Las organizaciones suelen emplear diversos tipos de firmas (como firmas digitales, firmas de texto, códigos de barras, códigos QR, etc.) para mejorar la seguridad de los documentos y agilizar los procesos de verificación. GroupDocs.Signature para .NET ofrece un potente marco que permite a los desarrolladores implementar una completa funcionalidad de búsqueda de firmas en diversos formatos de documentos.

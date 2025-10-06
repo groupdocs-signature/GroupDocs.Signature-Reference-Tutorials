@@ -4,8 +4,8 @@
 "title": "Cara Memverifikasi Tanda Tangan Teks di .NET Menggunakan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/net/search-verification/verify-text-signature-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Verifikasi Tanda Tangan Teks di .NET Menggunakan GroupDocs.Signature
 
 ## Perkenalan

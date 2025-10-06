@@ -5,8 +5,8 @@
 "title": "在文档中搜索条形码签名"
 "url": "/zh/net/signature-searching/search-for-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## 介绍
 
 在当今的数字文档管理领域，能够在文档中搜索和验证签名对于维护真实性和安全性至关重要。GroupDocs.Signature for .NET 提供了一个强大的解决方案，用于处理各种类型的签名（包括条形码），涵盖不同的文档格式。本教程将指导您如何使用 GroupDocs.Signature 在 .NET 应用程序中实现条形码签名搜索功能。

@@ -4,8 +4,8 @@
 "title": "Ký tài liệu PDF bằng mã vạch bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Ký tài liệu PDF bằng mã vạch bằng GroupDocs.Signature cho Java: Hướng dẫn toàn diện
 
 ## Giới thiệu

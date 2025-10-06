@@ -5,8 +5,8 @@
 "title": "Amankan Dokumen .NET Anda dengan Tanda Tangan Digital | Panduan Lengkap"
 "url": "/id/net/advanced-signature-techniques/sign-with-digital/"
 "weight": 12
+type: docs
 ---
-
 ## Mengapa Tanda Tangan Digital Penting dalam Manajemen Dokumen Modern
 
 Di dunia digital saat ini, memastikan keaslian dan integritas dokumen elektronik Anda bukan sekadar praktik yang baik—melainkan penting. Tanda tangan digital menyediakan lapisan keamanan yang krusial, memberi tahu penerima bahwa dokumen Anda sah dan belum dirusak sejak ditandatangani.

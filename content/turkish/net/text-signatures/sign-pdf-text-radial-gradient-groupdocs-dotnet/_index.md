@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak .NET'te PDF'leri Metin İmzası ve Radyal Gradyanla Nasıl İmzalayabilirsiniz?"
 "url": "/tr/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak .NET'te PDF'leri Metin İmzası ve Radyal Gradyanla Nasıl İmzalayabilirsiniz?
 
 ## giriiş

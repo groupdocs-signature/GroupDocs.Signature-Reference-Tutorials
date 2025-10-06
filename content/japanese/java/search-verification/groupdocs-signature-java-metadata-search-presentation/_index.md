@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して PowerPoint でメタデータ署名検索をマスターする"
 "url": "/ja/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して PowerPoint でメタデータ署名検索をマスターする
 
 ## 導入

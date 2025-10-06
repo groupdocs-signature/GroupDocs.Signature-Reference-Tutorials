@@ -4,8 +4,8 @@
 "title": "Poznaj bezpieczne podpisywanie dokumentów za pomocą metadanych i niestandardowego szyfrowania w środowisku .NET przy użyciu GroupDocs.Signature"
 "url": "/pl/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Poznaj bezpieczne podpisywanie dokumentów za pomocą metadanych i niestandardowego szyfrowania w środowisku .NET
 
 ## Wstęp

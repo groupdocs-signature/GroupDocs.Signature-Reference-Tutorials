@@ -4,8 +4,8 @@
 "title": "Quản lý chữ ký PDF chuyên nghiệp bằng Java bằng GroupDocs.Signature"
 "url": "/vi/java/signature-management/java-groupdocs-signature-pdf-manage-sig/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ Quản lý Chữ ký PDF trong Java với GroupDocs.Signature
 
 ## Giới thiệu

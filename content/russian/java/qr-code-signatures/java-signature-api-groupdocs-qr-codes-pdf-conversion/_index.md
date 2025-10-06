@@ -4,8 +4,8 @@
 "title": "Реализуйте подписание QR-кодов и преобразование PDF-файлов в Java с помощью API GroupDocs.Signature"
 "url": "/ru/java/qr-code-signatures/java-signature-api-groupdocs-qr-codes-pdf-conversion/"
 "weight": 1
+type: docs
 ---
-
 # Реализуйте подписание QR-кодов и преобразование PDF-файлов в Java с помощью API GroupDocs.Signature
 
 ## Введение

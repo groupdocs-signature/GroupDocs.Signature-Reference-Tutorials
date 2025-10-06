@@ -4,8 +4,8 @@
 "title": "Implementace podepisování QR kódů a konverze PDF v Javě pomocí GroupDocs.Signature API"
 "url": "/cs/java/qr-code-signatures/java-signature-api-groupdocs-qr-codes-pdf-conversion/"
 "weight": 1
+type: docs
 ---
-
 # Implementace podepisování QR kódů a konverze PDF v Javě pomocí GroupDocs.Signature API
 
 ## Zavedení

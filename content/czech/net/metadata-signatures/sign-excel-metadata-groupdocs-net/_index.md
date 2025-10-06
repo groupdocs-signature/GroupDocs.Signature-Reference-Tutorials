@@ -4,8 +4,8 @@
 "title": "Jak podepisovat excelové tabulky metadaty pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat excelové tabulky metadaty pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

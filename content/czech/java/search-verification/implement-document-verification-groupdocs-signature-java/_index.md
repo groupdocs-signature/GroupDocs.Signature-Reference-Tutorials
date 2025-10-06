@@ -4,8 +4,8 @@
 "title": "Implementace ověřování dokumentů pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/search-verification/implement-document-verification-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat ověřování dokumentů pomocí GroupDocs.Signature pro Javu
 
 **Zavedení**

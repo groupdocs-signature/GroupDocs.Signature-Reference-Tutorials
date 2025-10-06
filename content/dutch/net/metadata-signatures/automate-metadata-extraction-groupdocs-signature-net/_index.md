@@ -4,8 +4,8 @@
 "title": "Automatiseer metadata-extractie in spreadsheets met GroupDocs.Signature voor .NET"
 "url": "/nl/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Automatisering van metadata-extractie in spreadsheets met GroupDocs.Signature voor .NET
 
 ## Invoering

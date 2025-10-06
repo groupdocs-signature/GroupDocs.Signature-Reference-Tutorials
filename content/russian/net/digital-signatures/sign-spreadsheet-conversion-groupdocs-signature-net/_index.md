@@ -4,8 +4,8 @@
 "title": "Эффективное подписывание и преобразование электронных таблиц в PDF с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Эффективное подписывание и преобразование электронных таблиц в PDF с помощью GroupDocs.Signature для .NET
 
 ## Введение

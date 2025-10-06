@@ -4,8 +4,8 @@
 "title": "Verwijder QR-codes efficiënt uit documenten met GroupDocs.Signature voor .NET"
 "url": "/nl/net/signature-management/delete-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Verwijder QR-codes efficiënt uit documenten met GroupDocs.Signature voor .NET
 
 ## Invoering

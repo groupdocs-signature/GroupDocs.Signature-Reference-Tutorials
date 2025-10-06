@@ -5,8 +5,8 @@
 "title": "Theo dõi lịch sử chữ ký tài liệu dễ dàng trong .NET"
 "url": "/vi/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # Cách theo dõi lịch sử chữ ký của tài liệu trong .NET
 
 ## GroupDocs.Signature có thể giúp gì cho bạn?

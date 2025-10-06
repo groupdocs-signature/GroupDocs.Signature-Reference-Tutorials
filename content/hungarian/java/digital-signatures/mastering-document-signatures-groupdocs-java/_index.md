@@ -4,8 +4,8 @@
 "title": "Digitális dokumentumaláírások elsajátítása GroupDocs for Java segítségével – Átfogó útmutató"
 "url": "/hu/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Digitális dokumentumaláírások elsajátítása GroupDocs for Java segítségével
 
 ## Bevezetés

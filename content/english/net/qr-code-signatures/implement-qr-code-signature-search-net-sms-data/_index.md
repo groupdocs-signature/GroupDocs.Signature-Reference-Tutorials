@@ -9,8 +9,8 @@ url: "/net/qr-code-signatures/implement-qr-code-signature-search-net-sms-data/"
 keywords: "QR Code Signature Search .NET, GroupDocs.Signature for .NET, SMS Data Extraction, document signature verification, QR code search tutorial"
 categories: ["Document Processing"]
 tags: ["groupdocs", "qr-codes", "signature-search", "sms-extraction", "dotnet"]
+type: docs
 ---
-
 # QR Code Signature Search in .NET: Extract SMS Data Like a Pro
 
 ## Why QR Code Signature Search Matters (And How It'll Save Your Sanity)

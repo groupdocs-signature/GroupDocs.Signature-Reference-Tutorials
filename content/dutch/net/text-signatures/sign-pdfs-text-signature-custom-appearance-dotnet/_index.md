@@ -4,8 +4,8 @@
 "title": "Onderteken PDF's met teksthandtekening en aangepast uiterlijk in .NET met GroupDocs.Signature"
 "url": "/nl/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF-documenten ondertekenen met een teksthandtekening en aangepast uiterlijk met GroupDocs.Signature voor .NET
 
 ## Invoering

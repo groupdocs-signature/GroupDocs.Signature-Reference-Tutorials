@@ -4,8 +4,8 @@
 "title": "توقيع بيانات تعريف PDF باستخدام التسلسل المخصص في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ توقيع بيانات تعريف PDF باستخدام التسلسل المخصص باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Automatisieren Sie die Metadatenextraktion in Tabellenkalkulationen mit GroupDocs.Signature für .NET"
 "url": "/de/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Automatisieren der Metadatenextraktion in Tabellenkalkulationen mit GroupDocs.Signature für .NET
 
 ## Einführung

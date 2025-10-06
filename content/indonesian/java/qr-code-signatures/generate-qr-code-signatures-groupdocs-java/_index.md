@@ -4,8 +4,8 @@
 "title": "Hasilkan Tanda Tangan Kode QR dengan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/qr-code-signatures/generate-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hasilkan Tanda Tangan Kode QR dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

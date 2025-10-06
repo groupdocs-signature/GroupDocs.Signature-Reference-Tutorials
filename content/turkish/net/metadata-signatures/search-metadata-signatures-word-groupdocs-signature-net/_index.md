@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Word Belgelerindeki Meta Veri İmzaları Nasıl Aranır?"
 "url": "/tr/net/metadata-signatures/search-metadata-signatures-word-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Word Belgelerindeki Meta Veri İmzaları Nasıl Aranır?
 
 ## giriiş

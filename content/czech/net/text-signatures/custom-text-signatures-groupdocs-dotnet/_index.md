@@ -4,8 +4,8 @@
 "title": "Implementace vlastních textových podpisů v .NET pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/net/text-signatures/custom-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Implementace vlastních textových podpisů v .NET pomocí GroupDocs.Signature
 
 V dnešní digitální době je zajištění pravosti a integrity dokumentů klíčové. Ať už se jedná o smlouvy, dohody nebo oficiální dopisy, podpis může mít zásadní význam. Tato komplexní příručka vám ukáže, jak implementovat přizpůsobitelné textové podpisy pomocí **GroupDocs.Signature pro .NET**, což vám umožní vylepšit váš pracovní postup s dokumenty s přesností a stylem.

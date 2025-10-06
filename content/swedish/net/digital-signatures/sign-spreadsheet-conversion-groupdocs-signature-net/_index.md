@@ -4,8 +4,8 @@
 "title": "Signera och konvertera kalkylblad till PDF effektivt med GroupDocs.Signature för .NET"
 "url": "/sv/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Signera och konvertera kalkylblad till PDF effektivt med GroupDocs.Signature för .NET
 
 ## Introduktion

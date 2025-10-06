@@ -4,8 +4,8 @@
 "title": "Zvládněte digitální podpisy v PDF s vlastním vzhledem pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí digitálních podpisů v PDF s vlastním vzhledem pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

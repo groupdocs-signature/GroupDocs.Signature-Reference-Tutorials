@@ -5,8 +5,8 @@
 "title": "Zoeken naar digitale handtekeningen in documenten"
 "url": "/nl/net/signature-searching/search-for-digital-signatures/"
 "weight": 11
+type: docs
 ---
-
 ## Invoering
 
 In het huidige digitale landschap is het garanderen van de authenticiteit en integriteit van documenten cruciaal voor bedrijven en organisaties. Digitale handtekeningen bieden een robuust mechanisme om de authenticiteit van documenten te verifiëren en ongeautoriseerde wijzigingen te detecteren. GroupDocs.Signature voor .NET biedt een uitgebreide oplossing voor het werken met digitale handtekeningen in verschillende documentformaten, waardoor ontwikkelaars handtekeningfunctionaliteit naadloos kunnen integreren in hun .NET-applicaties.

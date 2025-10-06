@@ -4,8 +4,8 @@
 "title": "Pencarian Tanda Tangan Dokumen Master di .NET dengan Tanda Tangan Teks dan Digital GroupDocs.Signature"
 "url": "/id/net/search-verification/master-document-signature-searches-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pencarian Tanda Tangan Dokumen di .NET
 
 Di era digital saat ini, verifikasi keaslian dokumen sangat penting bagi bisnis di seluruh dunia. Baik untuk kontrak, dokumen hukum, maupun catatan resmi, pencarian tanda tangan yang efisien dapat menghemat waktu dan meningkatkan keamanan. Tutorial ini memandu Anda dalam menerapkan pencarian tanda tangan teks dan digital menggunakan GroupDocs.Signature untuk .NET—pustaka canggih yang dirancang untuk menangani berbagai jenis tanda tangan elektronik dalam aplikasi .NET.

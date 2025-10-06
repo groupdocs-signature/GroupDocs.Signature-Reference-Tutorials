@@ -4,8 +4,8 @@
 "title": "掌握 Java 中的数字签名——GroupDocs.Signature 完整指南"
 "url": "/zh/java/digital-signatures/mastering-digital-signatures-java-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 Java 中的数字签名：综合指南
 
 在现代数字环境中，数字签名对于确保文档的真实性和完整性至关重要。无论您是致力于实现安全文档签名解决方案的开发人员，还是寻求优化文档工作流程的组织，掌握如何使用 GroupDocs.Signature for Java 来签名、搜索、更新和删除图像签名都至关重要。本指南提供了分步说明和实用技巧，帮助您充分利用数字签名的强大功能。

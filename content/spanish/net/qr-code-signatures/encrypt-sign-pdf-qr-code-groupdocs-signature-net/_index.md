@@ -4,8 +4,8 @@
 "title": "Cifre y firme archivos PDF con códigos QR utilizando GroupDocs.Signature para .NET"
 "url": "/es/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cifrar y firmar archivos PDF con códigos QR usando GroupDocs.Signature para .NET
 
 ## Introducción

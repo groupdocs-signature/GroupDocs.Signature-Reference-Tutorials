@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 更新文件簽名"
 "url": "/zh-hant/java/signature-management/update-document-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 更新文件簽名
 
 ## 介紹

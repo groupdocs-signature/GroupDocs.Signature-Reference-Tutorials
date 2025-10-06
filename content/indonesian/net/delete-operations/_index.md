@@ -5,8 +5,8 @@
 "title": "Panduan Lengkap untuk Operasi Penghapusan Tanda Tangan Dokumen"
 "url": "/id/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # Hapus Operasi di GroupDocs.Signature untuk .NET
 
 ## Perkenalan

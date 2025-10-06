@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java Radyo Düğmesi Form Alanı İmzasını Uygulama"
 "url": "/tr/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Java Radyo Düğmesi Form Alanı İmzasını Uygulama
 
 ## giriiş

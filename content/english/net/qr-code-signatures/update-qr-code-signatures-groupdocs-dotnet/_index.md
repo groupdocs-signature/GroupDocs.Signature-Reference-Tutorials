@@ -9,8 +9,8 @@ weight: 1
 url: "/net/qr-code-signatures/update-qr-code-signatures-groupdocs-dotnet/"
 categories: ["Document Processing"]
 tags: ["qr-codes", "digital-signatures", "dotnet", "groupdocs", "automation"]
+type: docs
 ---
-
 # How to Update QR Code Signatures Programmatically in .NET
 
 ## Introduction

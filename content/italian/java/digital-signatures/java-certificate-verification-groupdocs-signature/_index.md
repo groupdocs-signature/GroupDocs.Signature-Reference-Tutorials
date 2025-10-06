@@ -4,8 +4,8 @@
 "title": "Guida alla verifica del certificato Java tramite GroupDocs.Signature per l'autenticazione sicura dei documenti"
 "url": "/it/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementazione della verifica dei certificati Java con GroupDocs.Signature per Java
 
 ## Introduzione

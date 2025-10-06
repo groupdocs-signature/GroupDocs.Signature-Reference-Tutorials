@@ -4,8 +4,8 @@
 "title": "أتمتة توقيع ملفات PDF باستخدام GroupDocs.Signature لـ .NET - دليل توقيعات الصور"
 "url": "/ar/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # أتمتة توقيع ملفات PDF باستخدام GroupDocs.Signature لـ .NET: دليل توقيعات الصور
 
 ## مقدمة

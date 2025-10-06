@@ -4,8 +4,8 @@
 "title": "Behärska dynamiska dokumentsignaturer med GroupDocs.Signature för Java QR-kodsigneringstekniker"
 "url": "/sv/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Behärska dynamiska dokumentsignaturer med GroupDocs.Signature för Java: Tekniker för QR-kodsignering
 
 I dagens digitala värld är det viktigt att effektivt säkra och autentisera elektroniska dokument. **GroupDocs.Signature för Java** erbjuder en kraftfull lösning för att snabbt signera PDF-filer samtidigt som deras äkthet säkerställs med hjälp av QR-kodsignaturer på olika positioner.

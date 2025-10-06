@@ -4,8 +4,8 @@
 "title": "Implementeer tekstwatermerkhandtekeningen in Word-documenten met GroupDocs.Signature voor Java"
 "url": "/nl/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementeer tekstwatermerkhandtekeningen in Word-documenten met GroupDocs.Signature voor Java
 
 ## Hoe u tekstwatermerkhandtekeningen toevoegt aan Word-documenten met GroupDocs.Signature voor Java

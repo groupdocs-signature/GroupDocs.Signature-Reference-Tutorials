@@ -4,8 +4,8 @@
 "title": "Maîtrisez la recherche de signature numérique en Java avec GroupDocs.Signature – Un guide complet"
 "url": "/fr/java/search-verification/groupdocs-signature-java-digital-search-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser la recherche de signature numérique avec GroupDocs.Signature pour Java
 
 ## Introduction

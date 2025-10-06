@@ -4,8 +4,8 @@
 "title": "So suchen Sie mit GroupDocs.Signature für .NET nach Metadatensignaturen in Präsentationen"
 "url": "/de/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So suchen Sie mit GroupDocs.Signature für .NET nach Metadatensignaturen in Präsentationen
 
 ## Einführung

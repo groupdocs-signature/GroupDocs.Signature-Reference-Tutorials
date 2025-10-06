@@ -4,8 +4,8 @@
 "title": "Onderteken PDF en converteer naar DOCX met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/digital-signatures/sign-pdf-convert-docx-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF ondertekenen en converteren naar DOCX met GroupDocs.Signature voor .NET: een uitgebreide handleiding
 
 In het huidige digitale landschap is het veilig ondertekenen van documenten cruciaal in diverse sectoren, zoals de juridische, financiële en administratieve sector. GroupDocs.Signature voor .NET vereenvoudigt dit proces door u in staat te stellen PDF's moeiteloos te ondertekenen en te converteren naar verschillende formaten, zoals DOCX. Deze uitgebreide handleiding leidt u door de stappen die nodig zijn om uw documentbeheerworkflow te verbeteren.

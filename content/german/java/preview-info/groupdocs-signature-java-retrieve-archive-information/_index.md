@@ -4,8 +4,8 @@
 "title": "So rufen Sie Archivdateiinformationen mit GroupDocs.Signature für Java ab"
 "url": "/de/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # So rufen Sie Archivdateiinformationen mit GroupDocs.Signature für Java ab
 
 ## Einführung

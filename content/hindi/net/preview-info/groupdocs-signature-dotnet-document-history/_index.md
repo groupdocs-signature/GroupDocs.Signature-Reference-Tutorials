@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature के साथ दस्तावेज़ प्रक्रिया इतिहास में महारत हासिल करना एक व्यापक गाइड"
 "url": "/hi/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ दस्तावेज़ प्रक्रिया इतिहास में महारत हासिल करना: एक व्यापक गाइड
 
 ## परिचय

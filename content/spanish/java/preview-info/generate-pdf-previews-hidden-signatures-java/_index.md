@@ -4,8 +4,8 @@
 "title": "Generar vistas previas de PDF con firmas ocultas mediante Java y GroupDocs.Signature"
 "url": "/es/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Generar vistas previas de PDF con firmas ocultas mediante Java y GroupDocs.Signature
 
 ## Introducción

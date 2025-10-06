@@ -4,8 +4,8 @@
 "title": "วิธีการนำการค้นหาข้อมูลเมตาไปใช้งานในงานนำเสนอ Java ด้วย GroupDocs.Signature"
 "url": "/th/java/search-verification/implement-metadata-search-groupdocs-java-presentations/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำการค้นหาข้อมูลเมตาไปใช้งานในงานนำเสนอ Java ด้วย GroupDocs.Signature
 
 ## การแนะนำ

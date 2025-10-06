@@ -5,8 +5,8 @@
 "title": "在文件中搜尋條碼簽名"
 "url": "/zh-hant/net/signature-searching/search-for-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## 介紹
 
 在當今的數位文件管理領域，能夠在文件中搜尋和驗證簽名對於維護真實性和安全性至關重要。 GroupDocs.Signature for .NET 提供了一個強大的解決方案，用於處理各種類型的簽章（包括條碼），涵蓋不同的文件格式。本教學將指導您如何使用 GroupDocs.Signature 在 .NET 應用程式中實作條碼簽章搜尋功能。

@@ -4,8 +4,8 @@
 "title": "Hoe u .NET-barcodezoekopdrachten implementeert met behulp van GroupDocs.Signature voor .NET"
 "url": "/nl/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u .NET-barcodezoekopdrachten implementeert met behulp van GroupDocs.Signature voor .NET
 
 ## Invoering

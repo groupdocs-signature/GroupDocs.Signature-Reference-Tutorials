@@ -4,8 +4,8 @@
 "title": "Как подписывать PDF-файлы с помощью полей формы с переключателями с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать PDF-файл, используя поля формы с переключателями с помощью GroupDocs.Signature для .NET
 
 ## Введение

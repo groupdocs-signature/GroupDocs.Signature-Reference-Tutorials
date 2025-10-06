@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 Java 中初始化签名实例"
 "url": "/zh/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 Java 中初始化签名实例
 
 ## 介绍

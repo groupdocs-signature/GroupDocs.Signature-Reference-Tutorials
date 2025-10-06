@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature API 在 .NET 中簽署數位文檔"
 "url": "/zh-hant/net/digital-signatures/master-digital-document-signing-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature API 在 .NET 中簽署數位文檔
 ## 介紹
 在當今快節奏的數位環境中，確保文件真實性並保持高效至關重要。無論您是致力於工作流程自動化的開發人員，還是致力於提升營運效率的組織，整合數位簽章都能帶來改變。本教學將指導您如何使用 **適用於 .NET 的 GroupDocs.Signature** 使用表單欄位格式的文字簽名對文件進行簽名。完成本演練後，您將了解如何將數位簽章無縫整合到您的 .NET 應用程式中。

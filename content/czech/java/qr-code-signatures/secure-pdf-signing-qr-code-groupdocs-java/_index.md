@@ -4,8 +4,8 @@
 "title": "Implementace zabezpečeného podepisování PDF pomocí šifrování QR kódu v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/qr-code-signatures/secure-pdf-signing-qr-code-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat bezpečné podepisování PDF pomocí šifrování QR kódu v Javě pomocí GroupDocs.Signature
 
 dnešní digitální době je zabezpečení citlivých informací v dokumentech prvořadé. Nárůst kybernetických hrozeb učinil ze šifrování dat nezbytnou součást správy dokumentů. Tento tutoriál vás provede implementací bezpečného podepisování PDF pomocí šifrování QR kódu s GroupDocs.Signature pro Javu. Po dokončení tohoto článku budete vybaveni k integraci robustních bezpečnostních funkcí do svých aplikací.

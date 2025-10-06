@@ -4,8 +4,8 @@
 "title": "การลงนาม PDF แบบดิจิทัลใน .NET พร้อมคู่มือการใช้ GroupDocs.Signature"
 "url": "/th/net/digital-signatures/sign-pdf-digital-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # การลงนาม PDF แบบดิจิทัลใน .NET: คู่มือการใช้ GroupDocs.Signature
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Κύρια αναζήτηση μεταδεδομένων σε έγγραφα Word με το GroupDocs.Signature για Java"
 "url": "/el/java/search-verification/master-metadata-search-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την αναζήτηση μεταδεδομένων σε έγγραφα του Word χρησιμοποιώντας το GroupDocs.Signature για Java
 
 Η εξαγωγή μεταδεδομένων από έγγραφα του Word μπορεί να απλοποιηθεί με την ισχυρή βιβλιοθήκη GroupDocs.Signature. Αυτό το σεμινάριο σας καθοδηγεί στην εφαρμογή μιας λειτουργίας που αναζητά υπογραφές μεταδεδομένων μέσα σε ένα έγγραφο του Word χρησιμοποιώντας Java.

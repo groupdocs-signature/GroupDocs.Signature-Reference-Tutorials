@@ -4,8 +4,8 @@
 "title": "PDF dokumentumok aláírása szöveges megjegyzésekkel a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/text-signatures/sign-pdf-text-annotations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentumok aláírása szöveges megjegyzésekkel a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

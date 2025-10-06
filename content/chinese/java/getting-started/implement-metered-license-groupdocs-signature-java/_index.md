@@ -4,8 +4,8 @@
 "title": "在 GroupDocs.Signature for Java 中实现计量许可证——分步指南"
 "url": "/zh/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何在 GroupDocs.Signature for Java 中实现计量许可证
 
 ## 介绍

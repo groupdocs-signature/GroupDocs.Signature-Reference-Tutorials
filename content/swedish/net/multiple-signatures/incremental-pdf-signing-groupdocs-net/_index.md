@@ -4,8 +4,8 @@
 "title": "Så här signerar du PDF-filer stegvis med GroupDocs.Signature för .NET - En omfattande guide"
 "url": "/sv/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar ett PDF-dokument stegvis med GroupDocs.Signature för .NET
 
 ## Introduktion

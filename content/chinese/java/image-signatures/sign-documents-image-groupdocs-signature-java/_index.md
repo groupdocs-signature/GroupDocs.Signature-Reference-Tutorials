@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 为带图像的文档签名——分步指南"
 "url": "/zh/java/image-signatures/sign-documents-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 对带有图像的文档进行签名
 
 在当今的数字时代，使用电子签名保护文档安全对企业和个人都至关重要。无论您是要敲定合同还是审批设计方案，快速可靠的数字签名方法都能节省时间并增强安全性。本教程将指导您如何使用 **GroupDocs.Signature for Java** 使用图像签名来签署文件。

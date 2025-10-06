@@ -4,8 +4,8 @@
 "title": "Jak odstranit textový podpis z dokumentu pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/signature-management/delete-text-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit textový podpis z dokumentu pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

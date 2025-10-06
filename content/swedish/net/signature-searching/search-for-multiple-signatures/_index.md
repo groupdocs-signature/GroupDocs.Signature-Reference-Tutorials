@@ -5,8 +5,8 @@
 "title": "Sök efter flera signaturtyper i dokument"
 "url": "/sv/net/signature-searching/search-for-multiple-signatures/"
 "weight": 14
+type: docs
 ---
-
 ## Introduktion
 
 moderna dokumenthanteringssystem blir möjligheten att söka efter och validera flera signaturtyper inom ett enda dokument allt viktigare. Organisationer använder ofta olika signaturtyper – såsom digitala signaturer, textsignaturer, streckkoder, QR-koder med mera – för att förbättra dokumentsäkerheten och effektivisera verifieringsprocesser. GroupDocs.Signature för .NET tillhandahåller ett kraftfullt ramverk som gör det möjligt för utvecklare att implementera omfattande sökfunktioner för signaturer i olika dokumentformat.

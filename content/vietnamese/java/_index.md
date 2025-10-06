@@ -5,8 +5,8 @@
 "title": "Hướng dẫn và ví dụ toàn diện về GroupDocs.Signature cho Java"
 "url": "/vi/java/"
 "weight": 10
+type: docs
 ---
-
 # GroupDocs.Signature cho Hướng dẫn & Ví dụ về Java
 
 Chào mừng bạn đến với bộ sưu tập hướng dẫn toàn diện của chúng tôi về GroupDocs.Signature cho Java. Những hướng dẫn từng bước này sẽ giúp bạn triển khai các giải pháp ký tài liệu an toàn trong các ứng dụng Java của mình. Từ thiết lập cơ bản đến quản lý chữ ký nâng cao, các hướng dẫn của chúng tôi cung cấp tất cả thông tin bạn cần để bảo vệ tài liệu của mình với nhiều loại chữ ký.

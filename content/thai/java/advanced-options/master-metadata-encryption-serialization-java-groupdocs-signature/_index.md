@@ -4,8 +4,8 @@
 "title": "การเข้ารหัสข้อมูลเมตาและการสร้างซีเรียลไลเซชันระดับมาสเตอร์ใน Java ด้วย GroupDocs.Signature"
 "url": "/th/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การเข้ารหัสข้อมูลเมตาและการสร้างซีเรียลไลเซชันใน Java ด้วย GroupDocs.Signature
 
 ## การแนะนำ

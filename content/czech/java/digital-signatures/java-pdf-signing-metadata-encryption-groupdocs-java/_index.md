@@ -4,8 +4,8 @@
 "title": "Podepisování PDF v Javě s metadaty a šifrováním pomocí GroupDocs – Komplexní průvodce"
 "url": "/cs/java/digital-signatures/java-pdf-signing-metadata-encryption-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí podepisování PDF v Javě s metadaty a šifrováním pomocí GroupDocs
 
 ## Zavedení

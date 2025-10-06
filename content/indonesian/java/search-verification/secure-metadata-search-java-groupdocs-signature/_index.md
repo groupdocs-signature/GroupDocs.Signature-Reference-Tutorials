@@ -4,8 +4,8 @@
 "title": "Pencarian Metadata Aman di Java Menggunakan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/java/search-verification/secure-metadata-search-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Pencarian Metadata Aman di Java Menggunakan GroupDocs.Signature
 
 ## Perkenalan

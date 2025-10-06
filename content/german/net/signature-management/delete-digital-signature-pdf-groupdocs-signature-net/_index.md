@@ -4,8 +4,8 @@
 "title": "Löschen Sie digitale Signaturen in PDFs mit GroupDocs.Signature für .NET – Ein umfassender Leitfaden"
 "url": "/de/net/signature-management/delete-digital-signature-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Löschen Sie digitale Signaturen in PDFs mit GroupDocs.Signature für .NET
 
 ## Einführung

@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 開發人員入門教學"
 "url": "/zh-hant/java/getting-started/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Java 開發人員入門教學
 
 從這些 GroupDocs.Signature 基礎教學開始您的旅程，這些教學將引導您完成安裝、授權配置以及如何使用 Java 建立您的首個數位簽章實作。我們針對初學者的指南示範如何設定開發環境、初始化 GroupDocs.Signature 函式庫以及執行基本的簽章操作。遵循這些教程，您可以快速掌握基礎知識，並為在 Java 應用程式中執行更高級的文件簽署任務做好準備。

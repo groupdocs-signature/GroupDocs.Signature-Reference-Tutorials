@@ -5,8 +5,8 @@
 "title": "Cập nhật chữ ký mã QR trong tài liệu"
 "url": "/vi/net/update-operations/update-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## Giới thiệu
 Trong môi trường kinh doanh ưu tiên kỹ thuật số ngày nay, mã QR đã trở thành một yếu tố thiết yếu trong hệ thống quản lý và xác thực tài liệu. Chúng cung cấp một cách thuận tiện để mã hóa và truy cập thông tin, từ các URL đơn giản đến dữ liệu có cấu trúc phức tạp. GroupDocs.Signature for .NET cung cấp một bộ công cụ toàn diện cho phép các nhà phát triển tích hợp các tính năng chữ ký điện tử tiên tiến vào ứng dụng của họ, bao gồm khả năng cập nhật chữ ký mã QR hiện có trong tài liệu.
 

@@ -4,8 +4,8 @@
 "title": "Průvodce zpracováním událostí GroupDocs.Signature pro .NET&#58; Jak zrušit ověření dokumentu"
 "url": "/cs/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak zrušit ověření dokumentu pomocí GroupDocs.Signature pro .NET: Průvodce zpracováním událostí
 
 ## Zavedení

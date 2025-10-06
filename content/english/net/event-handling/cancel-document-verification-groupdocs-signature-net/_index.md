@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["GroupDocs.Signature"]
 tags: ["document-verification", "progress-events", "cancellation", "dotnet", "csharp"]
+type: docs
 ---
-
 # How to Cancel Document Verification in .NET - GroupDocs.Signature
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 在 PDF 中进行 Java 条形码搜索"
 "url": "/zh/java/search-verification/java-barcode-search-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 在 PDF 中实现 Java 条形码搜索
 
 ## 介绍

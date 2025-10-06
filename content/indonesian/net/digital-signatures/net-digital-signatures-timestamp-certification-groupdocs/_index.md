@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Tanda Tangan Digital .NET dengan Stempel Waktu & Sertifikasi Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Tanda Tangan Digital .NET dengan Stempel Waktu & Sertifikasi Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

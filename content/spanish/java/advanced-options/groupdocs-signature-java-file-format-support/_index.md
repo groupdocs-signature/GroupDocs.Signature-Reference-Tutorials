@@ -4,8 +4,8 @@
 "title": "Compatibilidad con formatos de archivo maestros en GroupDocs.Signature para Java&#58; una guía completa"
 "url": "/es/java/advanced-options/groupdocs-signature-java-file-format-support/"
 "weight": 1
+type: docs
 ---
-
 # Compatibilidad con formatos de archivo maestros en GroupDocs.Signature para Java: una guía completa
 
 ## Introducción

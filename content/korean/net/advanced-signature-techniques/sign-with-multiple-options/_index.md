@@ -5,8 +5,8 @@
 "title": ".NET에서 다중 문서 서명 마스터하기 - 전체 가이드"
 "url": "/ko/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## 다양한 서명 유형으로 문서 보호
 
 하나의 문서에 여러 유형의 서명을 적용해야 했던 적이 있으신가요? 민감한 계약서, 법률 문서, 기업 문서 등 어떤 문서를 다루든 여러 서명 유형을 결합하면 보안과 신뢰성을 크게 강화할 수 있습니다. 이 가이드에서는 GroupDocs.Signature for .NET을 사용하여 이 강력한 기능을 구현하는 방법을 자세히 살펴보겠습니다.

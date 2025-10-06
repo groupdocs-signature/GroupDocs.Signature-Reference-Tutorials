@@ -5,8 +5,8 @@
 "title": "如何从 .NET 文档中删除二维码签名"
 "url": "/zh/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # 如何从文档中删除二维码签名
 
 ## 介绍

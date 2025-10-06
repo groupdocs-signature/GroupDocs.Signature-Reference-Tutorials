@@ -4,8 +4,8 @@
 "title": "إتقان تشفير البيانات الوصفية وتسلسلها في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # إتقان تشفير البيانات الوصفية وتسلسلها في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

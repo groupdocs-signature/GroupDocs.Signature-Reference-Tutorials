@@ -4,8 +4,8 @@
 "title": "Implementera bildsignatursökning i .NET med GroupDocs.Signature – en steg-för-steg-guide"
 "url": "/sv/net/search-verification/implement-image-signature-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar bildsignatursökning med GroupDocs.Signature för .NET
 
 ## Introduktion

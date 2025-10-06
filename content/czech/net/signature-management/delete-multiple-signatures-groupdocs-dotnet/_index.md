@@ -4,8 +4,8 @@
 "title": "Jak odstranit více podpisů v dokumentech pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/signature-management/delete-multiple-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit více podpisů v dokumentu pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Maîtriser les abonnements aux événements dans la signature de documents avec GroupDocs.Signature pour .NET | Guide étape par étape"
 "url": "/fr/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser l'abonnement aux événements dans la signature de documents avec GroupDocs.Signature pour .NET
 
 ## Introduction

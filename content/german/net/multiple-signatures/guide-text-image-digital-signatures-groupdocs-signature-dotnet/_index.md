@@ -4,8 +4,8 @@
 "title": "Umfassender Leitfaden zu Text-, Bild- und digitalen Signaturen mit GroupDocs.Signature für .NET"
 "url": "/de/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Umfassender Leitfaden zur Implementierung von Text-, Bild- und digitalen Signaturen mit GroupDocs.Signature für .NET
 
 ## Einführung

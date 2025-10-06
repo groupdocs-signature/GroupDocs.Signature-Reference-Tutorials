@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した Java QR コード署名抽出の総合ガイド"
 "url": "/ja/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した Java QR コード署名抽出の実装
 
 ## 導入

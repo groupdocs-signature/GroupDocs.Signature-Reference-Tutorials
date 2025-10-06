@@ -4,8 +4,8 @@
 "title": "Hapus Tanda Tangan Berdasarkan ID Secara Efisien Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Langkah demi Langkah"
 "url": "/id/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Berdasarkan ID Secara Efisien Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

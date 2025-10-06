@@ -4,8 +4,8 @@
 "title": "Opanuj wyszukiwanie podpisów cyfrowych w plikach PDF za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie wyszukiwania podpisów cyfrowych w plikach PDF przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

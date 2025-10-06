@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 문서 검색 최적화&#58; 진행률 이벤트 핸들러 구현"
 "url": "/ko/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 문서 검색 최적화: 진행률 이벤트 핸들러 구현
 
 ## 소개

@@ -4,8 +4,8 @@
 "title": "Quản lý tài liệu và chữ ký chuyên nghiệp trong .NET với GroupDocs.Signature"
 "url": "/vi/net/signature-management/master-document-handling-signature-management-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ việc xử lý tài liệu và quản lý chữ ký trong .NET với GroupDocs.Signature
 
 ## Giới thiệu

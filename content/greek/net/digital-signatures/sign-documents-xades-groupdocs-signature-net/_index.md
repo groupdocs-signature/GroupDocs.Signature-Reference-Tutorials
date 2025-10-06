@@ -4,8 +4,8 @@
 "title": "Οδηγός για την υπογραφή εγγράφων με το XAdES χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/digital-signatures/sign-documents-xades-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Οδηγός για την υπογραφή εγγράφων με το XAdES χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

@@ -5,8 +5,8 @@
 "title": ".NET 문서에서 ID로 서명을 삭제하는 방법"
 "url": "/ko/net/delete-operations/delete-signature-by-id/"
 "weight": 11
+type: docs
 ---
-
 # .NET 문서에서 ID로 서명을 삭제하는 방법
 
 ## 문서에서 서명을 제거해야 하는 이유는 무엇입니까?

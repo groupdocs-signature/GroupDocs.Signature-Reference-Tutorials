@@ -5,8 +5,8 @@
 "title": "Come eliminare le firme per ID nei documenti .NET"
 "url": "/it/net/delete-operations/delete-signature-by-id/"
 "weight": 11
+type: docs
 ---
-
 # Come eliminare le firme per ID nei documenti .NET
 
 ## Perché dovresti rimuovere le firme dai documenti?

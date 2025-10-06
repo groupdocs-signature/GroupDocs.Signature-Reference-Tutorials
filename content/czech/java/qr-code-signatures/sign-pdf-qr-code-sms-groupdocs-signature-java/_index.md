@@ -4,8 +4,8 @@
 "title": "Podepisujte PDF dokumenty pomocí QR kódu a SMS pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF dokument pomocí QR kódu pomocí SMS objektu v Javě s GroupDocs.Signature
 
 ## Zavedení

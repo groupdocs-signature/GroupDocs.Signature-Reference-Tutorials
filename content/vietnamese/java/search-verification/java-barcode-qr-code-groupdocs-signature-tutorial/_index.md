@@ -4,8 +4,8 @@
 "title": "Hướng dẫn tìm kiếm mã vạch và mã QR Java với GroupDocs.Signature để xác minh tài liệu an toàn"
 "url": "/vi/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai Java để tìm kiếm mã vạch, mã QR và chữ ký siêu dữ liệu với GroupDocs.Signature
 
 ## Giới thiệu

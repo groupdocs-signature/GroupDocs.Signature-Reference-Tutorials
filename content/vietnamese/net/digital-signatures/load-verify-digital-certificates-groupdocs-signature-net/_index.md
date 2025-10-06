@@ -4,8 +4,8 @@
 "title": "Tải và xác minh chứng chỉ số với GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/digital-signatures/load-verify-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Tải và xác minh chứng chỉ số với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

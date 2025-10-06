@@ -5,8 +5,8 @@
 "title": "Dokumentuminformációk lekérése a GroupDocs.Signature segítségével"
 "url": "/hu/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # Dokumentuminformációk lekérése a GroupDocs.Signature használatával
 
 ## Bevezetés

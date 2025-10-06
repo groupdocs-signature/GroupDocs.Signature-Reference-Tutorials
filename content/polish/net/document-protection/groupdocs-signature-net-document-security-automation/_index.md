@@ -4,8 +4,8 @@
 "title": "Bezpieczne i automatyzowane podpisywanie dokumentów za pomocą GroupDocs.Signature dla .NET™. Kompleksowy przewodnik"
 "url": "/pl/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # Bezpieczne i zautomatyzowane podpisywanie dokumentów dzięki GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Panduan Lengkap untuk Teks, Gambar, dan Tanda Tangan Digital dengan GroupDocs.Signature untuk .NET"
 "url": "/id/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Lengkap Implementasi Teks, Gambar, dan Tanda Tangan Digital dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

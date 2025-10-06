@@ -4,8 +4,8 @@
 "title": "تنفيذ تشفير XOR مخصص في Java باستخدام GroupDocs.Signature - دليل خطوة بخطوة"
 "url": "/ar/java/advanced-options/implement-custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ تشفير XOR مخصص في Java باستخدام GroupDocs.Signature: دليل خطوة بخطوة
 
 ## مقدمة

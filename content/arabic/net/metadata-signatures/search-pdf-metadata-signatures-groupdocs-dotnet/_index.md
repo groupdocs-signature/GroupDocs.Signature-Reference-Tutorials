@@ -4,8 +4,8 @@
 "title": "البحث عن توقيعات بيانات PDF واستخراجها باستخدام GroupDocs في .NET"
 "url": "/ar/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # البحث عن توقيعات بيانات PDF واستخراجها باستخدام GroupDocs في .NET
 
 ## مقدمة

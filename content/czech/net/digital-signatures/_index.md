@@ -3,8 +3,8 @@
 "title": "Výukové programy pro digitální podpisy v GroupDocs.Signature .NET"
 "url": "/cs/net/digital-signatures/"
 "weight": 3
+type: docs
 ---
-
 # Výukové programy pro digitální podpisy v GroupDocs.Signature .NET
 
 Zvládněte implementaci digitálního podpisu s našimi podrobnými tutoriály GroupDocs.Signature .NET. Tyto podrobné návody ukazují, jak podepisovat dokumenty digitálními certifikáty, implementovat pokročilé možnosti vzhledu digitálního podpisu, pracovat s typy XAdES, používat inkrementální ukládání PDF, přistupovat k úložišti certifikátů, spravovat časová razítka a další. Každý tutoriál obsahuje funkční příklady kódu C#, poznámky k implementaci a osvědčené postupy, které vám pomohou vytvářet aplikace, které bezpečně podepisují a ověřují dokumenty pomocí digitálních kryptografických podpisů.

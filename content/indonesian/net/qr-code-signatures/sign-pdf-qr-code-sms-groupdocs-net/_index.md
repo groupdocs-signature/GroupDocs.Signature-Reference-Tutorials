@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan Kode QR Berisi SMS Menggunakan GroupDocs di .NET"
 "url": "/id/net/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF dengan Kode QR yang Berisi Objek SMS Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

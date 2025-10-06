@@ -4,8 +4,8 @@
 "title": "Manejo de excepciones de contraseña en GroupDocs.Signature para .NET&#58; una guía completa"
 "url": "/es/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Manejo de excepciones de contraseña en GroupDocs.Signature para .NET
 
 ## Introducción

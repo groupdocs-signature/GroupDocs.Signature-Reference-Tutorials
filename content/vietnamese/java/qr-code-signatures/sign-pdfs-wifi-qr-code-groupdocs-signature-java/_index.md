@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng mã QR WiFi bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/qr-code-signatures/sign-pdfs-wifi-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF bằng mã QR WiFi bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

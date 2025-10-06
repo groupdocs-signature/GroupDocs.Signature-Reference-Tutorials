@@ -4,8 +4,8 @@
 "title": "Så här signerar du Excel-kalkylblad med metadata med GroupDocs.Signature för .NET"
 "url": "/sv/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här signerar du Excel-kalkylblad med metadata med GroupDocs.Signature för .NET
 
 ## Introduktion

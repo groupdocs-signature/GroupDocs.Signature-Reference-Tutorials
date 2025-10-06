@@ -4,8 +4,8 @@
 "title": "Jak usunąć podpisy cyfrowe z plików PDF za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/signature-management/remove-digital-signatures-groupdocs-dotnet-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Jak usunąć podpisy cyfrowe z plików PDF za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

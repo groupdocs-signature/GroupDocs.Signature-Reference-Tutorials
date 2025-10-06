@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 Java 演示文稿中实现元数据搜索"
 "url": "/zh/java/search-verification/implement-metadata-search-groupdocs-java-presentations/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 Java 演示文稿中实现元数据搜索
 
 ## 介绍

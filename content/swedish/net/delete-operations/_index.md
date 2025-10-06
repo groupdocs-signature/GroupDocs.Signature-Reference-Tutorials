@@ -5,8 +5,8 @@
 "title": "Komplett guide till borttagning av dokumentsignaturer"
 "url": "/sv/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # Ta bort operationer i GroupDocs.Signature för .NET
 
 ## Introduktion

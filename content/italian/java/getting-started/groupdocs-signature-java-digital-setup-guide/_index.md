@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature - Guida completa all'impostazione delle firme digitali Java"
 "url": "/it/java/getting-started/groupdocs-signature-java-digital-setup-guide/"
 "weight": 1
+type: docs
 ---
-
 # Implementazione della configurazione della firma digitale Java con GroupDocs.Signature: guida per sviluppatori
 
 Nell'era digitale odierna, garantire l'autenticità e l'integrità dei documenti è fondamentale. Le firme digitali offrono un modo sicuro per verificare che un documento non abbia subito alterazioni dopo la firma. Questa guida completa vi guiderà nella configurazione e nell'implementazione delle opzioni di firma digitale utilizzando la potente libreria GroupDocs.Signature per Java.

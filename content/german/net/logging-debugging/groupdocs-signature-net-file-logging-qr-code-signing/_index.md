@@ -4,8 +4,8 @@
 "title": "Dateiprotokollierung und QR-Code-Signatur&#58; Eine vollständige Anleitung zur Verwendung von GroupDocs.Signature für .NET"
 "url": "/de/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Dateiprotokollierung und QR-Code-Signatur: Eine vollständige Anleitung zur Verwendung von GroupDocs.Signature für .NET
 
 ## Einführung

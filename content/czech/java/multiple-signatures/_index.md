@@ -3,8 +3,8 @@
 "title": "Výukové programy pro více podpisů v GroupDocs.Signature v Javě"
 "url": "/cs/java/multiple-signatures/"
 "weight": 10
+type: docs
 ---
-
 # Výukové programy pro více podpisů v GroupDocs.Signature v Javě
 
 Naučte se, jak vytvářet sofistikované pracovní postupy pro podepisování s našimi tutoriály GroupDocs.Signature pro více podpisů v Javě. Tyto komplexní průvodci ukazují, jak kombinovat různé typy podpisů v jednom procesu, implementovat uspořádané sekvence podpisů, spravovat složité uspořádání podpisů a pracovat s vícestránkovými dokumenty. Každý tutoriál poskytuje podrobné příklady kódu Java pro pokročilé scénáře podpisů, které vám pomohou vytvářet robustní aplikace pro zpracování dokumentů, které podporují komplexní požadavky na podepisování pro podnikové a právní případy použití.

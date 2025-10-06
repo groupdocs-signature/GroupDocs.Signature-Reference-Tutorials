@@ -4,8 +4,8 @@
 "title": "Como implementar assinaturas digitais .NET com carimbo de data/hora e certificação usando GroupDocs.Signature para .NET"
 "url": "/pt/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar assinaturas digitais .NET com carimbo de data/hora e certificação usando GroupDocs.Signature para .NET
 
 ## Introdução

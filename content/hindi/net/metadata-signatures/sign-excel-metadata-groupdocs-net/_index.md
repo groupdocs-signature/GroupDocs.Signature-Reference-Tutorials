@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके मेटाडेटा के साथ Excel स्प्रेडशीट पर हस्ताक्षर कैसे करें"
 "url": "/hi/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके मेटाडेटा के साथ Excel स्प्रेडशीट पर हस्ताक्षर कैसे करें
 
 ## परिचय

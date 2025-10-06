@@ -4,8 +4,8 @@
 "title": "Signatures numériques sécurisées dans Java – GroupDocs. Guide de recherche de codes QR et de chiffrement de signatures"
 "url": "/fr/java/digital-signatures/groupdocs-signature-java-encryption-qr-code-search/"
 "weight": 1
+type: docs
 ---
-
 # Signatures numériques sécurisées en Java avec GroupDocs.Signature
 ## Introduction
 Dans le paysage numérique actuel, la sécurisation des documents est primordiale. Que vous gériez des contrats commerciaux sensibles ou des dossiers personnels, un chiffrement robuste et des fonctionnalités de recherche efficaces peuvent protéger vos données contre tout accès non autorisé. Ce guide vous guidera dans la mise en œuvre d'options de chiffrement personnalisé et de recherche de signature par code QR en Java avec GroupDocs.Signature.

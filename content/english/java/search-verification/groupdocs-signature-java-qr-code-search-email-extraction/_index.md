@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature Java
 - QR code signature search
 - email extraction from QR codes
-
+type: docs
 ---
-
-
 # Mastering GroupDocs.Signature for Java: QR Code Signature Search & Email Extraction
 
 ## Introduction

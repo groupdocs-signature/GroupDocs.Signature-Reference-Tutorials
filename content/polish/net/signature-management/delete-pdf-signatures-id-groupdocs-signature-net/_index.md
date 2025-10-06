@@ -4,8 +4,8 @@
 "title": "Jak usunąć podpisy PDF według identyfikatora za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/signature-management/delete-pdf-signatures-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak usunąć podpisy PDF według identyfikatora za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

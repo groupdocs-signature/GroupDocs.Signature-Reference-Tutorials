@@ -4,8 +4,8 @@
 "title": "Java로 문서 서명 마스터하기&#58; GroupDocs.Signature를 사용하여 일반 텍스트 필드와 서식 있는 텍스트 필드 구현"
 "url": "/ko/java/digital-signatures/groupdocs-signature-java-plain-rich-text-fields/"
 "weight": 1
+type: docs
 ---
-
 # Java로 문서 서명 마스터하기: GroupDocs.Signature를 사용하여 일반 텍스트 필드와 서식 있는 텍스트 필드 구현
 
 활용에 대한 포괄적인 가이드에 오신 것을 환영합니다. **Java용 GroupDocs.Signature** 일반 텍스트 필드와 서식 있는 텍스트 필드를 사용하여 문서에 서명하는 방법을 알아보세요. 계약 승인을 자동화하거나 워크플로를 간소화하는 경우, 이 튜토리얼을 통해 이러한 기능을 효율적으로 구현할 수 있습니다.

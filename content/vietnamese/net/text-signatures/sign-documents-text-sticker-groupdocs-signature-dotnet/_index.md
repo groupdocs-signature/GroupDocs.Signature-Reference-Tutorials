@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu bằng nhãn dán văn bản trong GroupDocs.Signature cho .NET"
 "url": "/vi/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu bằng nhãn dán văn bản trong GroupDocs.Signature cho .NET
 
 ## Giới thiệu

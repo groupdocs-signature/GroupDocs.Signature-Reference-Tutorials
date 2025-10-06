@@ -4,8 +4,8 @@
 "title": "Jak weryfikować kody kreskowe i kody QR w dokumentach za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/search-verification/verify-barcode-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć weryfikację kodów kreskowych i kodów QR za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

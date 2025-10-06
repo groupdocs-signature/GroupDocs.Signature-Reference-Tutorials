@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 在 PDF 上实现印章签名"
 "url": "/zh/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在 PDF 上实现印章签名
 
 ## 介绍

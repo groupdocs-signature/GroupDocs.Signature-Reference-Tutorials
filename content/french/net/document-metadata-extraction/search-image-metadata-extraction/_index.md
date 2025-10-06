@@ -5,8 +5,8 @@
 "title": "Extraire et rechercher des métadonnées d'image dans .NET avec GroupDocs"
 "url": "/fr/net/document-metadata-extraction/search-image-metadata-extraction/"
 "weight": 10
+type: docs
 ---
-
 # Comment rechercher des métadonnées d'image dans des documents à l'aide de GroupDocs.Signature
 
 ## Introduction

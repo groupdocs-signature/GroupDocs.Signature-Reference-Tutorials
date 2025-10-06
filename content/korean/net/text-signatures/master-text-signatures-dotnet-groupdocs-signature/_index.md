@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 텍스트 서명을 구현하는 방법 - 포괄적인 가이드"
 "url": "/ko/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 텍스트 서명을 구현하는 방법: 포괄적인 가이드
 
 ## 소개

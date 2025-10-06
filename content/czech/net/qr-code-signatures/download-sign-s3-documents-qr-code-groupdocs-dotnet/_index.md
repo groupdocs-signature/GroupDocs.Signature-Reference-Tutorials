@@ -4,8 +4,8 @@
 "title": "Jak stahovat a podepisovat dokumenty Amazon S3 pomocí QR kódů pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/qr-code-signatures/download-sign-s3-documents-qr-code-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak stahovat a podepisovat dokumenty Amazon S3 pomocí QR kódů pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

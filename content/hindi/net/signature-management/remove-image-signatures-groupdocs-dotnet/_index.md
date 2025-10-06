@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों से छवि हस्ताक्षर कैसे निकालें"
 "url": "/hi/net/signature-management/remove-image-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके किसी दस्तावेज़ से छवि हस्ताक्षर कैसे निकालें
 
 ## परिचय

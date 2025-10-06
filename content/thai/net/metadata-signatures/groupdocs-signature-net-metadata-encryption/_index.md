@@ -4,8 +4,8 @@
 "title": "วิธีการนำการเข้ารหัสลายเซ็นข้อมูลเมตาไปใช้ใน .NET ด้วย GroupDocs.Signature สำหรับ PDF ที่ปลอดภัย"
 "url": "/th/net/metadata-signatures/groupdocs-signature-net-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำการเข้ารหัสลายเซ็นข้อมูลเมตาไปใช้ใน .NET ด้วย GroupDocs.Signature สำหรับ PDF ที่ปลอดภัย
 
 ## การแนะนำ

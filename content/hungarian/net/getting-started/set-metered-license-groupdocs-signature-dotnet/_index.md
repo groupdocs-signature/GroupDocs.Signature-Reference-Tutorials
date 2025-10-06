@@ -4,8 +4,8 @@
 "title": "Hogyan állítsunk be mért licencet a GroupDocs.Signature-höz .NET-ben? Átfogó útmutató"
 "url": "/hu/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan állítsunk be mért licencet a GroupDocs.Signature-höz .NET-ben: Átfogó útmutató
 
 ## Bevezetés

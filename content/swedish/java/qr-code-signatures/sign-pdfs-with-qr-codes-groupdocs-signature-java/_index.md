@@ -4,8 +4,8 @@
 "title": "Hur man signerar PDF-filer med QR-koder med GroupDocs.Signature för Java"
 "url": "/sv/java/qr-code-signatures/sign-pdfs-with-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar PDF-dokument med QR-koder med GroupDocs.Signature för Java
 
 I dagens digitala tidsålder är det viktigare än någonsin att signera dokument på ett säkert sätt. Oavsett om du är en affärsperson eller en privatperson som vill autentisera dina filer, kan rätt verktyg göra hela skillnaden. Den här handledningen guidar dig genom hur du använder **GroupDocs.Signature för Java** att signera PDF-dokument med QR-koder som innehåller komplex data som Mailmark2D-objekt. Vi täcker allt från att konfigurera din miljö till att implementera avancerade funktioner.

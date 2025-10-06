@@ -4,8 +4,8 @@
 "title": "Konfigurera en licensfil för GroupDocs.Signature i .NET - En steg-för-steg-guide"
 "url": "/sv/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # Konfigurera en licensfil för GroupDocs.Signature i .NET: En steg-för-steg-guide
 
 ## Introduktion

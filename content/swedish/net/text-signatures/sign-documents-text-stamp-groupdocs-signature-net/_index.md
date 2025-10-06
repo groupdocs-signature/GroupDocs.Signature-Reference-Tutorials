@@ -4,8 +4,8 @@
 "title": "Hur man signerar dokument med en textstämpel med GroupDocs.Signature för .NET"
 "url": "/sv/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar dokument med en textstämpel med GroupDocs.Signature för .NET
 
 ## Introduktion

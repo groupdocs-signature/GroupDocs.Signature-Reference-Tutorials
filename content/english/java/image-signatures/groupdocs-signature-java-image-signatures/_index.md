@@ -10,10 +10,8 @@ keywords:
 - Java digital signatures
 - update image signatures
 - search image signatures
-
+type: docs
 ---
-
-
 # How to Search and Update Image Signatures in Documents Using GroupDocs.Signature for Java
 
 ## Introduction

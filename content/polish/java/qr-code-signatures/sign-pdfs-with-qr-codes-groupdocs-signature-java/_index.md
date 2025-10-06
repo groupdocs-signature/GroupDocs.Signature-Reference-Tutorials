@@ -4,8 +4,8 @@
 "title": "Jak podpisywać pliki PDF kodami QR za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/qr-code-signatures/sign-pdfs-with-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać dokumenty PDF kodami QR za pomocą GroupDocs.Signature dla Java
 
 W dzisiejszej erze cyfrowej bezpieczne podpisywanie dokumentów jest ważniejsze niż kiedykolwiek. Niezależnie od tego, czy jesteś profesjonalistą biznesowym, czy osobą prywatną, która chce uwierzytelnić swoje pliki, odpowiednie narzędzia mogą zdziałać cuda. Ten samouczek przeprowadzi Cię przez proces korzystania z… **GroupDocs.Signature dla Java** Podpisywanie dokumentów PDF kodami QR zawierającymi złożone dane, takie jak obiekty Mailmark2D. Omówimy wszystko, od konfiguracji środowiska po wdrażanie zaawansowanych funkcji.

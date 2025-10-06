@@ -4,8 +4,8 @@
 "title": "Säkra dina dokument Implementera QR-kodsignaturer i Java med GroupDocs.Signature"
 "url": "/sv/java/qr-code-signatures/qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Säkra dina dokument: Implementera QR-kodsignaturer i Java med GroupDocs.Signature
 
 dagens digitala landskap är det avgörande att säkerställa säkerheten för dokument som kontrakt, fakturor eller känslig personlig information. En innovativ metod för att förbättra dokumentsäkerheten och förenkla verifieringsprocesser är att använda QR-kodsignaturer. Den här handledningen guidar dig genom implementering och verifiering av QR-kodsignaturer för dina dokument i Java med GroupDocs.Signature.

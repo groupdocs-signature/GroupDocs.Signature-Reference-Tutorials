@@ -4,8 +4,8 @@
 "title": "Jak wyszukiwać podpisy metadanych w plikach PDF za pomocą GroupDocs.Signature dla języka Java"
 "url": "/pl/java/search-verification/search-metadata-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wyszukiwać podpisy metadanych w dokumentach PDF za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

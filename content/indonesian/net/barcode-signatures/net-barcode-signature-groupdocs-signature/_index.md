@@ -4,8 +4,8 @@
 "title": "Integrasi Tanda Tangan Kode Batang .NET dengan GroupDocs.Signature untuk Keamanan Dokumen yang Lebih Baik"
 "url": "/id/net/barcode-signatures/net-barcode-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Manajemen Dokumen: Menerapkan Integrasi Tanda Tangan Kode Batang .NET dengan GroupDocs.Signature
 
 Di era digital saat ini, memastikan keaslian dan integritas dokumen sangatlah penting di berbagai industri. Panduan ini menunjukkan cara mengintegrasikan tanda tangan kode batang ke dalam alur kerja dokumen Anda menggunakan **GroupDocs.Signature untuk .NET**Baik Anda perlu menandatangani, memverifikasi, mencari, memperbarui, atau menghapus tanda tangan kode batang dalam dokumen, tutorial ini akan mencakup semua aspek penting.

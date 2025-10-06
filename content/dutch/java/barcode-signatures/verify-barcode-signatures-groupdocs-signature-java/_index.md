@@ -4,8 +4,8 @@
 "title": "Barcodehandtekeningen in Java verifiëren met GroupDocs.Signature"
 "url": "/nl/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u Verify Barcode Signatures implementeert met GroupDocs.Signature voor Java
 
 ## Invoering

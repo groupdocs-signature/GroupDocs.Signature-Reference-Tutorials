@@ -5,8 +5,8 @@
 "title": "Podpisywanie obrazów metadanymi w C# .NET"
 "url": "/pl/net/document-signing/sign-image-with-metadata/"
 "weight": 10
+type: docs
 ---
-
 ## Wstęp
 
 Cyfrowe podpisywanie obrazów metadanymi staje się coraz ważniejsze dla potwierdzenia autentyczności, własności i możliwości śledzenia. GroupDocs.Signature for .NET to potężne, a jednocześnie łatwe w użyciu rozwiązanie do dodawania podpisów metadanych do różnych formatów obrazów. Ten samouczek przeprowadzi Cię przez cały proces podpisywania obrazów metadanymi za pomocą języka C#.

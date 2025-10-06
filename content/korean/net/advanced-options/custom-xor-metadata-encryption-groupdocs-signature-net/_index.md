@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용한 고급 XOR 메타데이터 암호화 - 완벽한 가이드"
 "url": "/ko/net/advanced-options/custom-xor-metadata-encryption-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용한 고급 XOR 메타데이터 암호화
 
 ## 소개

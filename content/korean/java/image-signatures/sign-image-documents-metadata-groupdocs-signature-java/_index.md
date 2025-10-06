@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java를 사용하여 메타데이터가 포함된 이미지 문서에 서명하기&#58; 완벽한 가이드"
 "url": "/ko/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 메타데이터가 포함된 이미지 문서에 서명하는 방법
 
 ## 소개

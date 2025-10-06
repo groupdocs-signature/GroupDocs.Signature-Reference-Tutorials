@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات PDF باستخدام رموز HIBC LIC باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع ملفات PDF باستخدام رموز HIBC LIC باستخدام GroupDocs.Signature لـ Java: دليل شامل
 
 في ظل التطور الرقمي السريع، يُعد ضمان صحة المستندات أمرًا بالغ الأهمية، لا سيما في قطاعي الأدوية والخدمات اللوجستية للرعاية الصحية. من خلال دمج رموز الباركود عالية المعلومات (HIBC) في مستنداتك، يمكنك تأمين التوقيعات والتحقق منها بفعالية. يوضح لك هذا الدليل كيفية استخدام GroupDocs.Signature لـ Java لتوقيع ملفات PDF باستخدام رموز HIBC LIC QR وAztec وData Matrix.

@@ -4,8 +4,8 @@
 "title": "Ricerche di firme di documenti master in .NET con testo GroupDocs.Signature e firme digitali"
 "url": "/it/net/search-verification/master-document-signature-searches-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare le ricerche delle firme dei documenti in .NET
 
 Nell'attuale era digitale, verificare l'autenticità dei documenti è fondamentale per le aziende di tutto il mondo. Che si tratti di contratti, documenti legali o registri ufficiali, ricerche di firme efficienti possono far risparmiare tempo e migliorare la sicurezza. Questo tutorial vi guiderà nell'implementazione di ricerche di firme digitali e testuali utilizzando GroupDocs.Signature per .NET, una potente libreria progettata per gestire vari tipi di firme elettroniche nelle applicazioni .NET.

@@ -4,8 +4,8 @@
 "title": "Подписание изображений с метаданными с помощью GroupDocs.Signature для .NET. Подробное руководство"
 "url": "/ru/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Освоение подписывания изображений с помощью метаданных с использованием GroupDocs.Signature для .NET
 
 ## Введение

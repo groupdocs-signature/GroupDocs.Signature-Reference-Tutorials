@@ -4,8 +4,8 @@
 "title": "Jak podepsat dokumenty textovým razítkem pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat dokumenty textovým razítkem pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

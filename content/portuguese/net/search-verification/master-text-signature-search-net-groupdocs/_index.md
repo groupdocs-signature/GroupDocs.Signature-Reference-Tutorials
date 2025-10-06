@@ -4,8 +4,8 @@
 "title": "Pesquisa de assinatura de texto mestre em .NET usando GroupDocs.Signature"
 "url": "/pt/net/search-verification/master-text-signature-search-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Dominando a pesquisa de assinaturas de texto em .NET com GroupDocs.Signature
 
 Deseja automatizar a identificação de assinaturas de texto em seus documentos? Seja para verificar a autenticidade de contratos ou rastrear aprovações oficiais, gerenciar assinaturas de documentos com eficiência pode ser um desafio. Com **GroupDocs.Signature para .NET**Simplifique esse processo pesquisando e filtrando assinaturas de texto diretamente dos seus aplicativos. Este tutorial o guiará pela configuração e utilização do GroupDocs.Signature para pesquisar assinaturas de texto, ignorando as externas.

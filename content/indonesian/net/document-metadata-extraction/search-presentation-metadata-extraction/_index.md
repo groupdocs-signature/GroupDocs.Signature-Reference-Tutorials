@@ -5,8 +5,8 @@
 "title": "Ekstrak Metadata Presentasi dengan Mudah dengan GroupDocs.Signature"
 "url": "/id/net/document-metadata-extraction/search-presentation-metadata-extraction/"
 "weight": 12
+type: docs
 ---
-
 # Cara Mengekstrak Metadata dari Presentasi Menggunakan GroupDocs.Signature
 
 ## Mengapa Metadata Presentasi Penting untuk Proyek Anda

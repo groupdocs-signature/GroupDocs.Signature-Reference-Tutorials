@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके अभिलेखागार में दस्तावेज़ पूर्वावलोकन उत्पन्न करें एक पूर्ण गाइड"
 "url": "/hi/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ अभिलेखागार से दस्तावेज़ पूर्वावलोकन उत्पन्न करें
 
 ## परिचय

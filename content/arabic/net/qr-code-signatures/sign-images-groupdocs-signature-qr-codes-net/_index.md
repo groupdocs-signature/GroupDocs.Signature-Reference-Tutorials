@@ -4,8 +4,8 @@
 "title": "كيفية توقيع الصور باستخدام رموز الاستجابة السريعة (QR Codes) باستخدام GroupDocs.Signature لـ .NET وحفظها بتنسيقات مختلفة"
 "url": "/ar/net/qr-code-signatures/sign-images-groupdocs-signature-qr-codes-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية استخدام GroupDocs.Signature لـ .NET لتوقيع الصور باستخدام رموز الاستجابة السريعة (QR Codes)
 
 ## مقدمة

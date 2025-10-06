@@ -5,8 +5,8 @@
 "title": "Как добавлять штампы подписей в документы с помощью GroupDocs.Signature"
 "url": "/ru/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # Как добавить профессиональные подписи штампов в ваши документы .NET
 
 ## Чего можно добиться с помощью подписей-печатей?

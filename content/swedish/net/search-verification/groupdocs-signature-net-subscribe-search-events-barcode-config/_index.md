@@ -4,8 +4,8 @@
 "title": "Mastering GroupDocs.Signature för .NET&#50; Prenumeration och konfiguration av streckkodssökningshändelser"
 "url": "/sv/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # Mastering GroupDocs.Signature för .NET: Prenumerera på och konfigurera streckkodssökningshändelser
 
 ## Introduktion

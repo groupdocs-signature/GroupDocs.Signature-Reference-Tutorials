@@ -4,8 +4,8 @@
 "title": "Beheers digitale handtekeningen in PDF's met aangepast uiterlijk met GroupDocs.Signature voor .NET"
 "url": "/nl/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # Digitale handtekeningen in PDF's met een aangepast uiterlijk onder de knie krijgen met GroupDocs.Signature voor .NET
 
 ## Invoering

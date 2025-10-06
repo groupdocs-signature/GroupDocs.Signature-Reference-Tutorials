@@ -5,8 +5,8 @@
 "title": ".NET에서 문서의 QR 코드 서명을 제거하는 방법"
 "url": "/ko/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # 문서에서 QR 코드 서명을 삭제하는 방법
 
 ## 소개

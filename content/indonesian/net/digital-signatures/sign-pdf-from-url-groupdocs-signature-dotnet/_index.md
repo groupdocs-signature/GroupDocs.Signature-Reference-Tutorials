@@ -4,8 +4,8 @@
 "title": "Tandatangani Dokumen PDF Langsung dari URL Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/digital-signatures/sign-pdf-from-url-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF Langsung dari URL dengan GroupDocs.Signature untuk .NET
 
 Di lingkungan digital yang serba cepat saat ini, mengelola dan memproses dokumen daring secara efisien sangatlah penting bagi bisnis di seluruh dunia. Tantangan yang umum dihadapi adalah menandatangani dokumen yang tersimpan daring tanpa mengunduhnya terlebih dahulu—tugas yang rumit dengan metode tradisional. Tutorial ini akan memandu Anda untuk menandatangani dokumen PDF secara mudah langsung dari URL-nya menggunakan pustaka GroupDocs.Signature for .NET yang canggih.

@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 PDF에서 여러 서명을 삭제하는 방법"
 "url": "/ko/java/signature-management/delete-multiple-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 PDF에서 여러 서명을 삭제하는 방법
 
 ## 소개

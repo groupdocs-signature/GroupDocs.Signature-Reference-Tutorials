@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met wifi-QR-codes met GroupDocs.Signature voor Java"
 "url": "/nl/java/qr-code-signatures/sign-pdfs-wifi-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF's ondertekenen met wifi-QR-codes met GroupDocs.Signature voor Java
 
 ## Invoering

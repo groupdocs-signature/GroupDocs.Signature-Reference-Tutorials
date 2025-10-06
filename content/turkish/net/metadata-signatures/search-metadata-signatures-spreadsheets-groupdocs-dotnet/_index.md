@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak E-Tablolardaki Meta Veri İmzaları Nasıl Aranır?"
 "url": "/tr/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Bir Elektronik Tablodaki Meta Veri İmzaları Nasıl Aranır?
 
 ## giriiş

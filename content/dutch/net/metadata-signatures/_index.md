@@ -3,8 +3,8 @@
 "title": "Tutorials over metadata-handtekeningen voor GroupDocs.Signature .NET"
 "url": "/nl/net/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Tutorials over metadata-handtekeningen voor GroupDocs.Signature .NET
 
 Onze tutorials over metadatahandtekeningen laten zien hoe u documentmetadata kunt gebruiken voor veilige ondertekening met GroupDocs.Signature in .NET. Deze stapsgewijze handleidingen behandelen de implementatie van metadatahandtekeningen in verschillende documentformaten, waaronder PDF, afbeeldingen, presentaties, spreadsheets en tekstverwerkingsbestanden. Elke tutorial bevat werkende C#-codevoorbeelden voor metadatabewerkingen, waarmee u applicaties kunt bouwen die onzichtbare handtekeninginformatie aan documenten kunnen toevoegen en zo de beveiliging kunnen verbeteren zonder de visuele weergave te veranderen.

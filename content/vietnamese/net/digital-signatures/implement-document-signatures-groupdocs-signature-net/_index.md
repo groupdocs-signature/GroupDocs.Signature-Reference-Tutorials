@@ -4,8 +4,8 @@
 "title": "Triển khai và hiển thị chữ ký tài liệu bằng GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/digital-signatures/implement-document-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai và hiển thị chữ ký tài liệu với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

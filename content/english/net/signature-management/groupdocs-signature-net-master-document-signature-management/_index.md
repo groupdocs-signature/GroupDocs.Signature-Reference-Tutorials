@@ -9,8 +9,8 @@ weight: 1
 url: "/net/signature-management/groupdocs-signature-net-master-document-signature-management/"
 categories: ["Document Management"]
 tags: ["electronic-signatures", "document-workflow", "signature-automation", "dotnet"]
+type: docs
 ---
-
 # How to Manage Electronic Signatures in .NET
 
 ## Introduction

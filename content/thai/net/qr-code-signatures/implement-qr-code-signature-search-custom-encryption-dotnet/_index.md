@@ -4,8 +4,8 @@
 "title": "นำการค้นหาลายเซ็น QR Code ไปใช้งานด้วยการเข้ารหัสแบบกำหนดเองใน .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/qr-code-signatures/implement-qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # ใช้งานการค้นหาลายเซ็น QR Code ด้วยการเข้ารหัสแบบกำหนดเองโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

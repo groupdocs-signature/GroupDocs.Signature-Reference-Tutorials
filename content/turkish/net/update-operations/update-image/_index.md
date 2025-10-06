@@ -5,8 +5,8 @@
 "title": "Belgelerdeki Görüntü İmzalarını Güncelle"
 "url": "/tr/net/update-operations/update-image/"
 "weight": 11
+type: docs
 ---
-
 ## giriiş
 Dijital belge yönetimi, özgünlük ve bütünlüğü sağlamak için güçlü imza yetenekleri gerektirir. Görüntü imzaları, belgelerde görsel doğrulama ve markalama unsurları sağlayarak bu ekosistemde önemli bir rol oynar. GroupDocs.Signature for .NET, geliştiricilerin .NET uygulamalarında kapsamlı imza işlevlerini hayata geçirmeleri için güçlü bir çerçeve sunar; bu işlevler arasında mevcut görüntü imzalarını güncelleme olanağı da bulunur.
 

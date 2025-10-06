@@ -4,8 +4,8 @@
 "title": "إزالة رموز الاستجابة السريعة (QR Codes) من المستندات بكفاءة باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/signature-management/delete-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # إزالة رموز الاستجابة السريعة (QR Codes) من المستندات بكفاءة باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

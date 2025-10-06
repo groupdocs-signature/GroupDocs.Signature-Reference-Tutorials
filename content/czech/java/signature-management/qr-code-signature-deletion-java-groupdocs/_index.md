@@ -4,8 +4,8 @@
 "title": "Průvodce mazáním podpisů QR kódů v Javě pomocí GroupDocs"
 "url": "/cs/java/signature-management/qr-code-signature-deletion-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Průvodce mazáním podpisů QR kódů v Javě pomocí GroupDocs
 
 ## Zavedení

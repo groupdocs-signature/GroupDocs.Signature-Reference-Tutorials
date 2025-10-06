@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 QR 코드를 사용하여 암호로 보호된 문서 로드 및 서명"
 "url": "/ko/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Java에서 QR 코드를 사용하여 암호로 보호된 문서 로드 및 서명
 
 ## Java용 GroupDocs.Signature를 사용하여 암호로 보호된 문서를 로드하고 서명하는 방법

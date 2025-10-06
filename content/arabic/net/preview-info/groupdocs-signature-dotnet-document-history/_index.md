@@ -4,8 +4,8 @@
 "title": "إتقان تاريخ عملية المستندات باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # إتقان تاريخ عملية المستندات باستخدام GroupDocs.Signature لـ .NET: دليل شامل
 
 ## مقدمة

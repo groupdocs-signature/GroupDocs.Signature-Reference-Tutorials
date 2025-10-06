@@ -4,8 +4,8 @@
 "title": "Implementieren Sie Textwasserzeichensignaturen in Word-Dokumenten mit GroupDocs.Signature für Java"
 "url": "/de/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren Sie Textwasserzeichensignaturen in Word-Dokumenten mit GroupDocs.Signature für Java
 
 ## So fügen Sie mit GroupDocs.Signature für Java Textwasserzeichensignaturen zu Word-Dokumenten hinzu

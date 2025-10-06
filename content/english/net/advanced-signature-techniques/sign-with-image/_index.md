@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["image-signatures", "pdf-signing", "dotnet", "groupdocs", "digital-signatures"]
+type: docs
 ---
-
 ## How to Add Image Signature to PDF .NET Applications (The Easy Way)
 
 Ever struggled with implementing secure document signing in your .NET applications? You're not alone. Adding image signatures to PDFs and other documents used to be a complex, time-consuming process that required extensive cryptography knowledge. But here's the good news: with GroupDocs.Signature for .NET, you can implement professional-grade document signing in just a few lines of code.

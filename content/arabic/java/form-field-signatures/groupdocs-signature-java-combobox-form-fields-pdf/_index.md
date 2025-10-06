@@ -4,8 +4,8 @@
 "title": "تنفيذ حقول نموذج ComboBox في ملفات PDF باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ حقول نموذج ComboBox في ملفات PDF باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

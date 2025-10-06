@@ -4,8 +4,8 @@
 "title": "Мастер-подписи документов в Java с помощью GroupDocs.Signature&#58; Руководство по подписи штрихкодом"
 "url": "/ru/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # Освоение подписей документов в Java с помощью GroupDocs.Signature
 
 **Оптимизируйте процессы работы с цифровыми документами, подписывая, проверяя, ища, обновляя и удаляя подписи штрихкодов с помощью GroupDocs.Signature для Java.**

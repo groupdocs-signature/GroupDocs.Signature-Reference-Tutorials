@@ -8,10 +8,8 @@ keywords:
 - QR Code Signatures
 - GroupDocs.Signature for Java
 - Java Digital Signature
-
+type: docs
 ---
-
-
 # Generate QR Code Signatures with GroupDocs.Signature for Java
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "PDF's digitaal ondertekenen met GroupDocs.Signature voor Java"
 "url": "/nl/java/digital-signatures/digitally-sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF's digitaal ondertekenen met GroupDocs.Signature voor Java
 
 ## Invoering

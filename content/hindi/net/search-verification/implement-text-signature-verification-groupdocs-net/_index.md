@@ -4,8 +4,8 @@
 "title": "सुरक्षित दस्तावेज़ प्रबंधन के लिए GroupDocs.Signature का उपयोग करके .NET में पाठ हस्ताक्षर सत्यापन लागू करें"
 "url": "/hi/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके .NET में पाठ हस्ताक्षर सत्यापन लागू करें
 ## खोज और सत्यापन
 **एसईओ यूआरएल**: implement-text-signature-verification-groupdocs-net

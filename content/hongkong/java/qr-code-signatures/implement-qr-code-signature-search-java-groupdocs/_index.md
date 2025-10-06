@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中實作二維碼簽章搜尋"
 "url": "/zh-hant/java/qr-code-signatures/implement-qr-code-signature-search-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中實作二維碼簽章搜尋
 
 ## 介紹

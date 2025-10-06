@@ -4,8 +4,8 @@
 "title": "Comment implémenter des signatures de tampon sur des fichiers PDF à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter des signatures de tampon sur des fichiers PDF à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

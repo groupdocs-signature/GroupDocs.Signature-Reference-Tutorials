@@ -4,8 +4,8 @@
 "title": "Cómo eliminar firmas digitales de archivos PDF con GroupDocs.Signature para .NET"
 "url": "/es/net/signature-management/remove-digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cómo eliminar firmas digitales de archivos PDF con GroupDocs.Signature para .NET
 
 ## Introducción

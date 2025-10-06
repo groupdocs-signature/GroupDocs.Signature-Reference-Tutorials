@@ -4,8 +4,8 @@
 "title": "Jak pobrać historię przetwarzania dokumentów za pomocą GroupDocs.Signature dla platformy .NET? Przewodnik krok po kroku"
 "url": "/pl/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # Jak pobrać historię przetwarzania dokumentów za pomocą GroupDocs.Signature dla platformy .NET: przewodnik krok po kroku
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Οδηγός επαλήθευσης πιστοποιητικού Java χρησιμοποιώντας το GroupDocs.Signature για ασφαλή έλεγχο ταυτότητας εγγράφων"
 "url": "/el/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση επαλήθευσης πιστοποιητικού Java με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

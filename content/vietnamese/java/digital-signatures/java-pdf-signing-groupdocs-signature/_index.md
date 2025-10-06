@@ -4,8 +4,8 @@
 "title": "Cách ký số PDF trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/digital-signatures/java-pdf-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký số PDF trong Java bằng GroupDocs.Signature
 
 ## Giới thiệu

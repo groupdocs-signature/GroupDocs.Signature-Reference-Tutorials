@@ -4,8 +4,8 @@
 "title": "ใช้งานการสร้างตัวอย่างเอกสารใน Java ด้วย GroupDocs.Signature&#58; คู่มือฉบับสมบูรณ์"
 "url": "/th/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # การนำการสร้างตัวอย่างเอกสารไปใช้ใน Java ด้วย GroupDocs.Signature
 
 ## การแนะนำ

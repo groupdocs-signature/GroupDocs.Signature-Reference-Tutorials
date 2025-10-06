@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 文字簽名教程"
 "url": "/zh-hant/java/text-signatures/"
 "weight": 7
+type: docs
 ---
-
 # GroupDocs.Signature Java 文字簽名教程
 
 我們的文字簽名教學將向您展示如何使用 GroupDocs.Signature 在 Java 中實作各種基於文字的簽章類型。這些實用指南將指導您如何建立文字簽名、浮水印、註釋、貼紙、表單欄位和圖章，並提供可自訂的格式選項。每個教程都包含針對文字簽名實現場景的詳細 Java 程式碼範例，可協助您建立能夠有效地使用文字資訊標記文件的應用程序，同時提供多種樣式和定位選項。

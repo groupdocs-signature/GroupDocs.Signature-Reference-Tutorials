@@ -4,8 +4,8 @@
 "title": "Ασφαλής αναζήτηση μεταδεδομένων σε Java χρησιμοποιώντας το GroupDocs.Signature&#58; Ένας ολοκληρωμένος οδηγός"
 "url": "/el/java/search-verification/secure-metadata-search-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Ασφαλής αναζήτηση μεταδεδομένων σε Java χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

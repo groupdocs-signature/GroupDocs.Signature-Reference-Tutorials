@@ -4,8 +4,8 @@
 "title": "Java vonalkód- és QR-kódkeresési útmutató a GroupDocs.Signature segítségével a biztonságos dokumentum-ellenőrzéshez"
 "url": "/hu/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Java implementáció vonalkód-, QR-kód- és metaadat-aláírás-keresésekhez a GroupDocs.Signature segítségével
 
 ## Bevezetés

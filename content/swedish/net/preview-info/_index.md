@@ -3,8 +3,8 @@
 "title": "Dokumentförhandsvisning och informationshandledningar för GroupDocs.Signature .NET"
 "url": "/sv/net/preview-info/"
 "weight": 13
+type: docs
 ---
-
 # Dokumentförhandsvisning och informationshandledningar för GroupDocs.Signature .NET
 
 Våra förhandsvisnings- och informationshandledningar visar hur du extraherar värdefull dokumentdata med GroupDocs.Signature i .NET. Dessa detaljerade guider visar hur du genererar dokumentförhandsvisningar, hämtar dokumentinformation, får åtkomst till signaturdetaljer, visar dokumentprocesshistorik och undersöker filegenskaper. Varje handledning innehåller praktiska C#-kodexempel för dokumentinspektionsscenarier, vilket hjälper dig att bygga applikationer som ger omfattande dokumenttransparens för bättre användarupplevelse och arbetsflödesspårning.

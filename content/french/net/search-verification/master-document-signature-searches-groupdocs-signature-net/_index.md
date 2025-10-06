@@ -4,8 +4,8 @@
 "title": "Recherches de signatures de documents maîtres dans .NET avec GroupDocs.Signature - Signatures textuelles et numériques"
 "url": "/fr/net/search-verification/master-document-signature-searches-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser les recherches de signatures de documents dans .NET
 
 À l'ère du numérique, vérifier l'authenticité des documents est crucial pour les entreprises du monde entier. Qu'il s'agisse de contrats, de documents juridiques ou de documents officiels, des recherches de signatures efficaces permettent de gagner du temps et d'améliorer la sécurité. Ce tutoriel vous guide dans la mise en œuvre de recherches de texte et de signatures numériques avec GroupDocs.Signature pour .NET, une bibliothèque performante conçue pour gérer différents types de signatures électroniques dans les applications .NET.

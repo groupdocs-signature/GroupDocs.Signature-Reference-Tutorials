@@ -5,8 +5,8 @@
 "title": "การดึงข้อมูลเมตาของเอกสารหลักด้วย GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # คู่มือครอบคลุมสำหรับการดึงข้อมูลเมตาของเอกสารด้วย GroupDocs.Signature
 
 ## ความสำคัญเชิงกลยุทธ์ของข้อมูลเมตาของเอกสารในเวิร์กโฟลว์สมัยใหม่

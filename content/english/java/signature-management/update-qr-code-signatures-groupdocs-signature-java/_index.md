@@ -8,10 +8,8 @@ keywords:
 - update QR code signatures
 - GroupDocs.Signature for Java
 - Java document security
-
+type: docs
 ---
-
-
 # Update QR Code Signatures in Java: A Comprehensive Guide Using GroupDocs.Signature
 
 In today's digital landscape, securing documents is crucial for both businesses and individuals. QR code signatures offer a reliable solution for document security and verification. This tutorial provides step-by-step instructions on updating QR code signatures using GroupDocs.Signature for Java—a powerful tool that simplifies signature management in your applications.

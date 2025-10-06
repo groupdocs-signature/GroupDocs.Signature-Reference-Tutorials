@@ -4,8 +4,8 @@
 "title": "Jak postupně podepisovat PDF soubory pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak postupně podepsat PDF dokument pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

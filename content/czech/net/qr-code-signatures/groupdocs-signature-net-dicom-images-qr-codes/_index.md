@@ -4,8 +4,8 @@
 "title": "Jak podepisovat obrázky DICOM pomocí QR kódů pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/qr-code-signatures/groupdocs-signature-net-dicom-images-qr-codes/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat obrázky DICOM pomocí QR kódů pomocí GroupDocs.Signature pro .NET: Komplexní průvodce
 
 Hledáte bezpečnou metodu pro ověřování souborů DICOM? Tato podrobná příručka vám ukáže, jak pomocí nástroje GroupDocs.Signature for .NET integrovat podpisy QR kódů do obrázků DICOM. Tento tutoriál, ideální pro zdravotnické pracovníky, vývojáře a kohokoli, kdo pracuje s digitálními lékařskými dokumenty, zahrnuje celý proces od nastavení až po implementaci.

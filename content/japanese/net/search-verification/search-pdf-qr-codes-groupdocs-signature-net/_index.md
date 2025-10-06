@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して PDF から QR コード署名を検索し、VCard データを抽出する方法"
 "url": "/ja/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して PDF ドキュメントから QR コード署名を検索し、VCard データを抽出する方法
 
 ## 導入

@@ -5,8 +5,8 @@
 "title": "Mettre à jour les signatures de texte dans les documents"
 "url": "/fr/net/update-operations/update-text/"
 "weight": 13
+type: docs
 ---
-
 ## Introduction
 GroupDocs.Signature pour .NET est une solution complète de signature de documents qui permet aux développeurs d'intégrer de puissantes fonctionnalités de signature à leurs applications .NET. Grâce à cette bibliothèque polyvalente, vous pouvez facilement ajouter, rechercher, vérifier et mettre à jour différents types de signatures, y compris textuelles, dans une grande variété de formats de documents. Ce tutoriel se concentre spécifiquement sur la mise à jour des signatures textuelles dans les documents et vous guide étape par étape pour une mise en œuvre fluide.
 

@@ -5,8 +5,8 @@
 "title": "Suchen nach Formularfeldern in Dokumenten"
 "url": "/de/net/signature-searching/search-for-form-fields/"
 "weight": 12
+type: docs
 ---
-
 ## Einführung
 
 In modernen Dokumentenmanagementsystemen spielen Formularfelder eine entscheidende Rolle bei der Datenerfassung, Benutzerinteraktion und Dokumentenautomatisierung. GroupDocs.Signature für .NET bietet Entwicklern leistungsstarke Tools für die Arbeit mit Formularfeldern in verschiedenen Dokumentformaten, einschließlich der programmgesteuerten Suche, Abfrage und Verarbeitung dieser Elemente.

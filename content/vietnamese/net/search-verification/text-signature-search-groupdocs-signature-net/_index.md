@@ -4,8 +4,8 @@
 "title": "Tìm kiếm chữ ký văn bản chính trong tài liệu .NET bằng GroupDocs.Signature"
 "url": "/vi/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ tìm kiếm chữ ký văn bản trong tài liệu .NET bằng GroupDocs.Signature
 
 ## Giới thiệu

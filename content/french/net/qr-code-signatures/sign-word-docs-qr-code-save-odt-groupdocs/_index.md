@@ -4,8 +4,8 @@
 "title": "Comment signer des documents Word avec un code QR et les enregistrer au format ODT à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/qr-code-signatures/sign-word-docs-qr-code-save-odt-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer des documents Word avec un code QR et les enregistrer au format ODT à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

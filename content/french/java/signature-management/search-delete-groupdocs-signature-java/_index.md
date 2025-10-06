@@ -4,8 +4,8 @@
 "title": "Gestion efficace des signatures &#58; comment rechercher et supprimer des signatures numériques à l'aide de GroupDocs.Signature pour Java"
 "url": "/fr/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Gestion efficace des signatures : comment rechercher et supprimer des signatures numériques à l'aide de GroupDocs.Signature pour Java
 
 ## Introduction

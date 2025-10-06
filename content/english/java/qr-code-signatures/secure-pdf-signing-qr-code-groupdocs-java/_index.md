@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature
 - Java
 - Document Processing
-
+type: docs
 ---
-
-
 # How to Implement Secure PDF Signing with QR Code Encryption in Java Using GroupDocs.Signature
 
 In today's digital age, securing sensitive information in documents is paramount. The rise of cyber threats has made data encryption an essential part of document management. This tutorial guides you through implementing secure PDF signing using QR code encryption with GroupDocs.Signature for Java. By the end of this article, you'll be equipped to integrate robust security features into your applications.

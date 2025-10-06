@@ -3,8 +3,8 @@
 "title": "Hướng dẫn quản lý chữ ký cho GroupDocs.Signature Java"
 "url": "/vi/java/signature-management/"
 "weight": 12
+type: docs
 ---
-
 # Hướng dẫn quản lý chữ ký cho GroupDocs.Signature Java
 
 Nắm vững quản lý vòng đời chữ ký với các hướng dẫn Java chi tiết về GroupDocs.Signature của chúng tôi. Hướng dẫn từng bước này sẽ trình bày cách cập nhật, xóa và quản lý chữ ký thuộc các loại khác nhau sau khi chúng được áp dụng vào tài liệu. Tìm hiểu cách sửa đổi thuộc tính chữ ký, xóa chữ ký theo loại hoặc ID, triển khai các thao tác hàng loạt và xử lý siêu dữ liệu chữ ký. Mỗi hướng dẫn đều bao gồm các ví dụ mã Java thực tế, hướng dẫn cách xây dựng các ứng dụng với khả năng quản lý chữ ký toàn diện, đảm bảo tài liệu của bạn luôn được cập nhật và bảo trì đúng cách trong suốt vòng đời.

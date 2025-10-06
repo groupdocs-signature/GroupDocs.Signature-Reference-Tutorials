@@ -4,8 +4,8 @@
 "title": "QR-kód aláírások frissítése PDF-ekben a GroupDocs.Signature for Java segítségével – Átfogó útmutató"
 "url": "/hu/java/qr-code-signatures/update-qr-code-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírások frissítése PDF-ekben a GroupDocs.Signature for Java segítségével: Átfogó útmutató
 
 ## Bevezetés

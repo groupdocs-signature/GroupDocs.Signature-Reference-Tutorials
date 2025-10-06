@@ -5,8 +5,8 @@
 "title": "如何從 .NET 文件中刪除二維碼簽名"
 "url": "/zh-hant/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # 如何從文件中刪除二維碼簽名
 
 ## 介紹

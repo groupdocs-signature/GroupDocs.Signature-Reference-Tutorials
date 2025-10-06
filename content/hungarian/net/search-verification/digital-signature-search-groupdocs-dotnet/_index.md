@@ -4,8 +4,8 @@
 "title": "Digitális aláírás keresése a GroupDocs.Signature for .NET segítségével – Átfogó útmutató"
 "url": "/hu/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírás keresésének megvalósítása dokumentumban a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

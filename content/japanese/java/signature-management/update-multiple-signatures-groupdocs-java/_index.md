@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して PDF 内の複数の署名を効率的に更新する"
 "url": "/ja/java/signature-management/update-multiple-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して PDF 内の複数の署名を効率的に更新する
 
 電子署名の管理は、特に契約書や正式な書類を扱う場合など、デジタルワークフローに依存する企業にとって非常に重要です。 **Java 用 GroupDocs.Signature** PDF文書内の複数の署名を効率的に更新できます。このチュートリアルでは、その手順を説明します。

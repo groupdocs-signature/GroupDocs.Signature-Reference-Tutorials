@@ -4,8 +4,8 @@
 "title": "Implémenter la journalisation personnalisée dans GroupDocs.Signature pour .NET - Un guide complet"
 "url": "/fr/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implémenter la journalisation personnalisée dans GroupDocs.Signature pour .NET : un guide complet
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Signieren Sie PDFs mit Formularfeldsignatur in .NET mithilfe von GroupDocs.Signature"
 "url": "/de/net/form-field-signatures/sign-pdf-form-field-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie PDF-Dokumente mit einer Formularfeldsignatur mithilfe von GroupDocs.Signature für .NET
 ## Einführung
 Sie haben Probleme mit der digitalen Signatur von PDF-Dokumenten in Ihren .NET-Anwendungen? Die Automatisierung dieses Prozesses spart Zeit und gewährleistet gleichzeitig Genauigkeit und Sicherheit. Dieses Tutorial führt Sie durch die nahtlose Signatur eines PDF-Dokuments mithilfe von Formularfeldsignaturen mit GroupDocs.Signature für .NET.

@@ -4,8 +4,8 @@
 "title": "在 .NET 中為 GroupDocs.Signature 設定許可證文件－逐步指南"
 "url": "/zh-hant/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # 在 .NET 中為 GroupDocs.Signature 設定許可證文件：逐步指南
 
 ## 介紹

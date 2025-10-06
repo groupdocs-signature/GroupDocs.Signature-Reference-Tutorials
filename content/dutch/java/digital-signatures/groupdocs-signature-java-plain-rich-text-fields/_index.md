@@ -4,8 +4,8 @@
 "title": "Master Document Signing in Java&#58; implementatie van platte en rich text-velden met GroupDocs.Signature"
 "url": "/nl/java/digital-signatures/groupdocs-signature-java-plain-rich-text-fields/"
 "weight": 1
+type: docs
 ---
-
 # Documentondertekening in Java onder de knie krijgen: implementatie van platte en rich-textvelden met GroupDocs.Signature
 
 Welkom bij de uitgebreide gids over het benutten van **GroupDocs.Signature voor Java** om documenten te ondertekenen met behulp van platte en RTF-velden. Of u nu contractgoedkeuringen automatiseert of workflows stroomlijnt, deze tutorial helpt u deze functies efficiënt te implementeren.

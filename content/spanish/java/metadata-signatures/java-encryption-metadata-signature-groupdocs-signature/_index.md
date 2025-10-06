@@ -4,8 +4,8 @@
 "title": "Cifrado de Java y firma de metadatos&#58; gestión segura de documentos con GroupDocs.Signature"
 "url": "/es/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementación del cifrado de Java y la búsqueda de firmas de metadatos con GroupDocs.Signature para Java
 
 ## Introducción

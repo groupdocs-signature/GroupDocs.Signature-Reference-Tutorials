@@ -4,8 +4,8 @@
 "title": "Implementeer een teksthandtekening met een solide penseel in Java met behulp van GroupDocs.Signature"
 "url": "/nl/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # Implementeer een teksthandtekening met een solide penseel in Java
 
 ## Invoering

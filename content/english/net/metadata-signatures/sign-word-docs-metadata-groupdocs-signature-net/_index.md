@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["groupdocs", "net", "metadata", "word-documents", "digital-signatures"]
+type: docs
 ---
-
 # GroupDocs Signature .NET Tutorial: Complete Guide to Word Document Metadata Signing
 
 ## Why Every .NET Developer Needs This Guide

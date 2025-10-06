@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε ψηφιακά PDF σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/digital-signatures/java-pdf-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ψηφιακά PDF σε Java χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

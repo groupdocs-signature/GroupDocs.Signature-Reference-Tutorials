@@ -4,8 +4,8 @@
 "title": "Implementieren Sie die Dokumentsignierung mit QR-Codes mithilfe von GroupDocs.Signature für .NET"
 "url": "/de/net/qr-code-signatures/qr-code-signing-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren der Dokumentsignierung mit QR-Codes unter Verwendung von GroupDocs.Signature für .NET
 
 ## Einführung

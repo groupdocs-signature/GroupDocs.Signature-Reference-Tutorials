@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak X.509 Sertifikalarıyla .NET'te Dijital İmzaları Uygulama"
 "url": "/tr/net/digital-signatures/implement-digital-signature-x509-certificate-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak X.509 Sertifikalarıyla .NET'te Dijital İmzaları Uygulama
 
 ## giriiş

@@ -5,8 +5,8 @@
 "title": "在文档中搜索图像签名"
 "url": "/zh/net/signature-searching/search-for-images/"
 "weight": 13
+type: docs
 ---
-
 ## 介绍
 
 在当今的数字文档生态系统中，图像签名是品牌推广、授权和文档验证的强大视觉标记。GroupDocs.Signature for .NET 为开发人员提供了一个全面的框架，使他们能够无缝地搜索、识别和处理各种格式文档中的图像签名。此功能对于需要文档验证、内容分析或自动处理签名文档的应用程序至关重要。

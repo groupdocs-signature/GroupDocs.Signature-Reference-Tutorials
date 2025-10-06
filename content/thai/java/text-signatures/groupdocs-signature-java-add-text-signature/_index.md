@@ -4,8 +4,8 @@
 "title": "วิธีการเพิ่มลายเซ็นข้อความลงใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/text-signatures/groupdocs-signature-java-add-text-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการเพิ่มลายเซ็นข้อความลงในเอกสารโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

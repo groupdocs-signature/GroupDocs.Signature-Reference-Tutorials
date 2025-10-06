@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak PDF Meta Veri İmzalarını Arama ve Doğrulama"
 "url": "/tr/java/search-verification/groupdocs-signature-java-search-pdf-metadata-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanılarak PDF Meta Veri İmza Araması Nasıl Uygulanır?
 
 ## giriiş

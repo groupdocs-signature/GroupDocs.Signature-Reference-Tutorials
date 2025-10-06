@@ -5,8 +5,8 @@
 "title": "Snadná extrakce metadat textového editoru pomocí .NET"
 "url": "/cs/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # Jak vyhledávat a extrahovat metadata pro zpracování textu v .NET
 
 ## Zavedení

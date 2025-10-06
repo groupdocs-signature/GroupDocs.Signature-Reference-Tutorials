@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ SMS डेटा निष्कर्षण के लिए .NET में QR कोड हस्ताक्षर खोज लागू करें"
 "url": "/hi/net/qr-code-signatures/implement-qr-code-signature-search-net-sms-data/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके .NET में QR-कोड हस्ताक्षर खोज को कार्यान्वित करना
 
 ## परिचय

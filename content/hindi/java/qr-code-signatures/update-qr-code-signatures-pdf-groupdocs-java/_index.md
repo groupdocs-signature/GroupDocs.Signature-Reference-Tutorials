@@ -4,8 +4,8 @@
 "title": "GroupDocs के साथ PDF में QR कोड हस्ताक्षर अपडेट करें.Java के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/java/qr-code-signatures/update-qr-code-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs के साथ PDF में QR कोड हस्ताक्षर अपडेट करें.Java के लिए हस्ताक्षर: एक व्यापक गाइड
 
 ## परिचय

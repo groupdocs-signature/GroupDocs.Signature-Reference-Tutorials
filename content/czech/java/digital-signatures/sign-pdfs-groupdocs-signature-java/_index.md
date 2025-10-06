@@ -4,8 +4,8 @@
 "title": "Zvládnutí digitálních podpisů PDF v Javě s využitím GroupDocs.Signature pro text, zaškrtávací políčko a digitální pole"
 "url": "/cs/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí digitálních podpisů PDF v Javě: Použití GroupDocs.Signature pro textová, zaškrtávací a digitální pole
 
 ## Zavedení

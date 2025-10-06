@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して Java でバーコード署名を検証する方法"
 "url": "/ja/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java でバーコード署名の検証を実装する方法
 
 ## 導入

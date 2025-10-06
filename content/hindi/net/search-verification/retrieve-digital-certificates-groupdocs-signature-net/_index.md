@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके अभिलेखागार से डिजिटल प्रमाणपत्र प्राप्त करें | चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके अभिलेखागार से डिजिटल प्रमाणपत्र पुनर्प्राप्त करें
 
 ## परिचय

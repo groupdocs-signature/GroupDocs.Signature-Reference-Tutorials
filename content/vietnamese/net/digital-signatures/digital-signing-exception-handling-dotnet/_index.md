@@ -4,8 +4,8 @@
 "title": "Chữ ký số với xử lý ngoại lệ trong .NET sử dụng GroupDocs.Signature"
 "url": "/vi/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Chữ ký số với Xử lý ngoại lệ trong .NET sử dụng GroupDocs.Signature
 
 ## Giới thiệu

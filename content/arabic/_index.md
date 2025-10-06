@@ -6,8 +6,8 @@
 "title": "GroupDocs.Signature - واجهة برمجة تطبيقات توقيع المستندات الرقمية لـ .NET وJava | دليل تعليمي شامل"
 "url": "/ar/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature: حل شامل لتوقيع المستندات الرقمية للمطورين
 
 ![GroupDocs.لافتة التوقيع](./groupdocs-signature-net.svg)

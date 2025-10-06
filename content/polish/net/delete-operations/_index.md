@@ -5,8 +5,8 @@
 "title": "Kompletny przewodnik po operacjach usuwania podpisów dokumentów"
 "url": "/pl/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # Operacje usuwania w GroupDocs.Signature dla .NET
 
 ## Wstęp

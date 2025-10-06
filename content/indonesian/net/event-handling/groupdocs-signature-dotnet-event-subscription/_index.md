@@ -4,8 +4,8 @@
 "title": "Menguasai Langganan Acara dalam Penandatanganan Dokumen dengan GroupDocs.Signature untuk .NET | Panduan Langkah demi Langkah"
 "url": "/id/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Langganan Acara dalam Penandatanganan Dokumen dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

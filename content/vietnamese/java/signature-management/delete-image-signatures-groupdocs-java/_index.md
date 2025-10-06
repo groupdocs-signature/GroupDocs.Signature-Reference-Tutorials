@@ -4,8 +4,8 @@
 "title": "Cách xóa chữ ký hình ảnh khỏi tài liệu bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/signature-management/delete-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa chữ ký hình ảnh khỏi tài liệu bằng GroupDocs.Signature cho Java
 
 Quản lý chữ ký số là rất quan trọng để duy trì tính toàn vẹn và xác thực của tài liệu. Cho dù bạn là doanh nghiệp quản lý hợp đồng hay doanh nghiệp nhỏ xử lý hóa đơn, việc xóa chữ ký hình ảnh lỗi thời hoặc không chính xác có thể giúp đơn giản hóa việc quản lý tài liệu. Hướng dẫn này sẽ hướng dẫn bạn cách xóa chữ ký hình ảnh theo ID đã biết bằng GroupDocs.Signature cho Java.

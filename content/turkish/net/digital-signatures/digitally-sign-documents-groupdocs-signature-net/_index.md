@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Belgeleri Dijital Olarak İmzalama Kapsamlı Bir Kılavuz"
 "url": "/tr/net/digital-signatures/digitally-sign-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Belgeleri Dijital Olarak Nasıl İmzalayabilirsiniz?
 
 ## giriiş

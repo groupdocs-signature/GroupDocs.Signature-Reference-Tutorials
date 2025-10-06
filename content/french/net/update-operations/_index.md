@@ -5,8 +5,8 @@
 "title": "Opérations de mise à jour de la signature du document"
 "url": "/fr/net/update-operations/"
 "weight": 26
+type: docs
 ---
-
 ## Introduction
 
 Dans l'environnement numérique actuel, la mise à jour des signatures de documents est essentielle pour garantir leur authenticité et leur sécurité. GroupDocs.Signature pour .NET propose une suite complète d'outils permettant de mettre à jour différents types de signatures dans vos documents, vous permettant ainsi de préserver leur intégrité tout en vous adaptant à l'évolution des besoins de votre entreprise.

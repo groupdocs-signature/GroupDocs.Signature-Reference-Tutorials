@@ -4,8 +4,8 @@
 "title": "Cách triển khai chữ ký văn bản trong .NET với GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký văn bản trong .NET với GroupDocs.Signature: Hướng dẫn toàn diện
 
 ## Giới thiệu

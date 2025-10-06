@@ -4,8 +4,8 @@
 "title": "Guide complet de GroupDocs.Signature pour la configuration des signatures numériques Java"
 "url": "/fr/java/getting-started/groupdocs-signature-java-digital-setup-guide/"
 "weight": 1
+type: docs
 ---
-
 # Implémentation de la configuration de signature numérique Java avec GroupDocs.Signature : Guide du développeur
 
 À l'ère du numérique, garantir l'authenticité et l'intégrité des documents est crucial. Les signatures numériques offrent un moyen sécurisé de vérifier qu'un document n'a pas été modifié depuis sa signature. Ce guide complet vous guidera dans la configuration et la mise en œuvre des options de signature numérique grâce à la puissante bibliothèque GroupDocs.Signature pour Java.

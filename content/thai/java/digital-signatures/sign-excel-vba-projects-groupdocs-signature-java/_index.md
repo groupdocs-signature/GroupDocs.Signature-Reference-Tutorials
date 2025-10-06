@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามโครงการ Excel VBA โดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/digital-signatures/sign-excel-vba-projects-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามโครงการ Excel VBA โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

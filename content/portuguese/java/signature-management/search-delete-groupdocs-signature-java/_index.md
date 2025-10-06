@@ -4,8 +4,8 @@
 "title": "Gerenciamento Eficiente de Assinaturas - Como Pesquisar e Excluir Assinaturas Digitais Usando GroupDocs.Signature para Java"
 "url": "/pt/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Gerenciamento Eficiente de Assinaturas: Como Pesquisar e Excluir Assinaturas Digitais Usando GroupDocs.Signature para Java
 
 ## Introdução

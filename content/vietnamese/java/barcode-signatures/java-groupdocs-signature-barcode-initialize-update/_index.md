@@ -4,8 +4,8 @@
 "title": "Cách khởi tạo và cập nhật chữ ký mã vạch trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # Cách khởi tạo và cập nhật chữ ký mã vạch trong Java bằng GroupDocs.Signature
 
 ## Giới thiệu

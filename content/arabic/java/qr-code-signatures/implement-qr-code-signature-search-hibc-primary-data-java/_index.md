@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ البحث عن توقيع رمز الاستجابة السريعة لبيانات HIBC LIC في ملفات PDF باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/qr-code-signatures/implement-qr-code-signature-search-hibc-primary-data-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ البحث عن توقيع رمز الاستجابة السريعة لبيانات HIBC LIC في ملفات PDF باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

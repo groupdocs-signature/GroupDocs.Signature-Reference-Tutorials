@@ -8,10 +8,8 @@ keywords:
 - search image metadata Java
 - GroupDocs.Signature setup
 - metadata signatures extraction
-
+type: docs
 ---
-
-
 # How to Search Image Metadata with GroupDocs.Signature for Java
 
 ## Introduction

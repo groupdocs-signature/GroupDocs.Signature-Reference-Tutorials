@@ -4,8 +4,8 @@
 "title": "Mengatur Posisi Tanda Tangan Menggunakan Persentase di GroupDocs.Signature untuk .NET | Tutorial Lanjutan"
 "url": "/id/net/advanced-options/set-signature-position-percentages-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Mengatur Posisi Tanda Tangan Menggunakan Persentase di GroupDocs.Signature untuk .NET
 ## Perkenalan
 Di era digital saat ini, manajemen dokumen dan otomatisasi yang efisien sangatlah penting. Menambahkan tanda tangan secara terprogram ke dokumen sambil mempertahankan penempatan yang presisi merupakan tantangan umum. Tutorial lanjutan ini akan memandu Anda mengatur posisi tanda tangan menggunakan persentase dengan GroupDocs.Signature untuk .NET.

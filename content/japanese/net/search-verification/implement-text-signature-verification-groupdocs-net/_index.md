@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して .NET でテキスト署名検証を実装し、安全なドキュメント管理を実現する"
 "url": "/ja/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して .NET でテキスト署名検証を実装する
 ## 検索と検証
 **SEO URL**: テキスト署名検証グループドキュメントネットの実装

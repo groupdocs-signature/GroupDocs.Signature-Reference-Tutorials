@@ -4,8 +4,8 @@
 "title": "Как реализовать поиск по подписи штрихкода в Java с помощью GroupDocs.Signature"
 "url": "/ru/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать поиск по подписи штрихкода в Java с помощью GroupDocs.Signature
 
 ## Введение

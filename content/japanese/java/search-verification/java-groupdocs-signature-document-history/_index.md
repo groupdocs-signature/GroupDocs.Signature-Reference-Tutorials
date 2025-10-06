@@ -4,8 +4,8 @@
 "title": "Java GroupDocs.Signature の実装方法&#58; ドキュメント処理履歴の取得と表示"
 "url": "/ja/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Java GroupDocs.Signature の実装方法: ドキュメントのプロセス履歴の取得と表示
 
 ## 導入

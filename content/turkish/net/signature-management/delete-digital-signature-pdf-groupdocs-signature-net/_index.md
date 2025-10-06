@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak PDF'lerdeki Dijital İmzaları Silme - Kapsamlı Bir Kılavuz"
 "url": "/tr/net/signature-management/delete-digital-signature-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak PDF'lerdeki Dijital İmzaları Silme
 
 ## giriiş

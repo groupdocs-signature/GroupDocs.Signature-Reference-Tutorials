@@ -4,8 +4,8 @@
 "title": "การจัดการลายเซ็นอย่างมีประสิทธิภาพ&58; วิธีการค้นหาและลบลายเซ็นดิจิทัลโดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # การจัดการลายเซ็นที่มีประสิทธิภาพ: วิธีการค้นหาและลบลายเซ็นดิจิทัลโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

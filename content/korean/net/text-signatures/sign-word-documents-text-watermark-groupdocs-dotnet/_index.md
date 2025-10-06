@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 텍스트 워터마크가 있는 Word 문서에 서명하는 방법"
 "url": "/ko/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 텍스트 워터마크가 있는 Word 문서에 서명하는 방법
 
 ## 소개

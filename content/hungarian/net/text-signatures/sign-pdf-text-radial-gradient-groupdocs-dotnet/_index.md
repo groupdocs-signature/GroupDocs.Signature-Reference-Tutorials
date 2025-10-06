@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása szöveges aláírással és körkörös színátmenettel .NET-ben a GroupDocs.Signature használatával"
 "url": "/hu/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF-fájlok aláírása szöveges aláírással és körkörös színátmenettel .NET-ben a GroupDocs.Signature használatával
 
 ## Bevezetés

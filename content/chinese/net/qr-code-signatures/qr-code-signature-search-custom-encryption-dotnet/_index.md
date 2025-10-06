@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中实现自定义加密的二维码签名搜索"
 "url": "/zh/net/qr-code-signatures/qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 在.NET中实现自定义加密的二维码签名搜索
 
 ## 介绍

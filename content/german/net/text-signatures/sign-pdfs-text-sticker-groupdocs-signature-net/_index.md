@@ -4,8 +4,8 @@
 "title": "So signieren Sie PDFs mit Textaufklebern mithilfe von GroupDocs.Signature für .NET | Eine Schritt-für-Schritt-Anleitung"
 "url": "/de/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie ein PDF-Dokument mit einem Textaufkleber mithilfe von GroupDocs.Signature für .NET
 
 ## Einführung

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용한 QR 코드 서명 미리보기&#58; 종합 가이드"
 "url": "/ko/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 QR 코드 서명 미리보기 구현
 
 ## 소개

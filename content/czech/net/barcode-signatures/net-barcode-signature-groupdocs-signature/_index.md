@@ -4,8 +4,8 @@
 "title": "Integrace podpisů čárových kódů Master .NET s GroupDocs.Signature pro vylepšené zabezpečení dokumentů"
 "url": "/cs/net/barcode-signatures/net-barcode-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí správy dokumentů: Implementace integrace čárových kódů .NET s GroupDocs.Signature
 
 V dnešní digitální době je zajištění autenticity a integrity dokumentů klíčové v různých odvětvích. Tato příručka ukazuje, jak integrovat podpisy čárovými kódy do vašeho pracovního postupu s dokumenty pomocí **GroupDocs.Signature pro .NET**Ať už potřebujete podepisovat, ověřovat, vyhledávat, aktualizovat nebo mazat podpisy čárových kódů v dokumentech, tento tutoriál se bude zabývat všemi základními aspekty.

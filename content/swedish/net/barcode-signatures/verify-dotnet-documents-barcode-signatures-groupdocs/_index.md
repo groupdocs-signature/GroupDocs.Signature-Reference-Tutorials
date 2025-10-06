@@ -4,8 +4,8 @@
 "title": "Verifiera .NET-dokument med streckkodssignaturer med GroupDocs.Signature"
 "url": "/sv/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar dokumentverifiering med streckkodssignaturer i .NET med GroupDocs.Signature
 
 ## Introduktion

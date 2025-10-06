@@ -4,8 +4,8 @@
 "title": "GroupDocs के साथ QR कोड हस्ताक्षर उत्पन्न करें.Java के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/java/qr-code-signatures/generate-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature के साथ QR कोड हस्ताक्षर उत्पन्न करें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 이미지 문서에서 메타데이터 서명 검색"
 "url": "/ko/net/search-verification/search-metadata-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 이미지 문서에서 메타데이터 서명을 검색하는 방법
 
 ## 소개

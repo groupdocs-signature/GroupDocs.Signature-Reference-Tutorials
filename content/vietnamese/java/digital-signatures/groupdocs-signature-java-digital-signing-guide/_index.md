@@ -4,8 +4,8 @@
 "title": "Hướng dẫn toàn diện về GroupDocs.Signature cho Java - Những điều cần thiết về chữ ký số"
 "url": "/vi/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn toàn diện về GroupDocs.Signature cho Java: Những điều cần thiết về chữ ký số
 
 ## Giới thiệu

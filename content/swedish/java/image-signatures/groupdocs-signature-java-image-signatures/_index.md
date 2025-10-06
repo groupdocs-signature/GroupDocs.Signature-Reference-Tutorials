@@ -4,8 +4,8 @@
 "title": "Så här söker och uppdaterar du bildsignaturer i dokument med GroupDocs.Signature för Java"
 "url": "/sv/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Så här söker och uppdaterar du bildsignaturer i dokument med GroupDocs.Signature för Java
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "使用 Java 和 GroupDocs.Signature 在多層圖像中實現二維碼簽名搜索"
 "url": "/zh-hant/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 在多層圖像文件中實現二維碼簽名搜尋
 
 ## 介紹

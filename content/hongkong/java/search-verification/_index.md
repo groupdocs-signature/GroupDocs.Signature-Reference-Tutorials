@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 簽章搜尋與驗證教學課程"
 "url": "/zh-hant/java/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature Java 簽章搜尋與驗證教學課程
 
 我們的搜尋和驗證教程提供了使用 GroupDocs.Signature 在 Java 中驗證文件簽名的全面指導。這些實用指南示範如何搜尋各種類型的簽名（數字、條碼、二維碼、文字、圖像和元資料）、如何實施真偽驗證、如何處理驗證過程中的異常以及如何處理複雜文件。每個教學課程都包含常見驗證場景的完整 Java 程式碼範例，可協助您建立能夠有效確定文件自簽名以來是否已變更的應用程式。

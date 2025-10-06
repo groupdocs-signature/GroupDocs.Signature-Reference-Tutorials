@@ -4,8 +4,8 @@
 "title": "Comment signer des documents avec une signature texte-image en Java à l'aide de GroupDocs.Signature"
 "url": "/fr/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter la signature de documents avec une signature d'image texte à l'aide de GroupDocs.Signature pour Java
 
 ## Introduction

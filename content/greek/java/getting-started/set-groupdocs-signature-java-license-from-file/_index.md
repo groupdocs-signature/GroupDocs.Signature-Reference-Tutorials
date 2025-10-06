@@ -4,8 +4,8 @@
 "title": "Ορισμός του GroupDocs.Signature για άδεια χρήσης Java από ένα αρχείο&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # Ορισμός του GroupDocs.Signature για Άδεια Χρήσης Java από ένα Αρχείο - Βήμα προς Βήμα Οδηγός
 
 ## Εισαγωγή

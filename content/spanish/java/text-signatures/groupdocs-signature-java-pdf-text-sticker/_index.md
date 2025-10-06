@@ -4,8 +4,8 @@
 "title": "Cómo firmar archivos PDF con etiquetas de texto usando GroupDocs.Signature para Java&#58; una guía completa"
 "url": "/es/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar archivos PDF con etiquetas de texto usando GroupDocs.Signature para Java: una guía completa
 
 ## Introducción

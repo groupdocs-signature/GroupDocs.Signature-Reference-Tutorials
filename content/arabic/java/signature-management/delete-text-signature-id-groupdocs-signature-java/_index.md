@@ -4,8 +4,8 @@
 "title": "كيفية حذف توقيع نصي بالمعرف باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/signature-management/delete-text-signature-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية حذف توقيع نصي بواسطة معرف باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

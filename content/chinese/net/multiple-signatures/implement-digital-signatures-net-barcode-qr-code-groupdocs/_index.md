@@ -4,8 +4,8 @@
 "title": "在 .NET 中实现数字签名及其条形码和二维码集成指南"
 "url": "/zh/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 如何在 .NET 中实现数字签名：使用 GroupDocs.Signature 进行条形码和二维码签名
 
 在当今的数字时代，快速安全地验证文档比以往任何时候都更加重要。无论您是开发企业应用程序的开发人员，还是只想简化文档管理流程，添加签名都能带来革命性的改变。本教程将指导您如何使用 **适用于 .NET 的 GroupDocs.Signature** 使用条形码和二维码签名对文档进行数字签名，为安全文档提供强大的解决方案。

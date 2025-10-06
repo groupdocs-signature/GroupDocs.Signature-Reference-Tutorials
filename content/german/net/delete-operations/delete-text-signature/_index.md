@@ -5,8 +5,8 @@
 "title": "So entfernen Sie Textsignaturen aus Dokumenten in .NET"
 "url": "/de/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # So entfernen Sie Textsignaturen aus Ihren Dokumenten mit GroupDocs.Signature
 
 ## Warum sollten Sie Textsignaturen löschen?

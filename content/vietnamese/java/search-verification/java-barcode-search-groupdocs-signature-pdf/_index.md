@@ -4,8 +4,8 @@
 "title": "Tìm kiếm mã vạch Java trong PDF bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/search-verification/java-barcode-search-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai tìm kiếm mã vạch Java trong tệp PDF bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

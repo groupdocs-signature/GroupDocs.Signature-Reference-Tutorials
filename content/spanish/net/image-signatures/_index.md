@@ -3,8 +3,8 @@
 "title": "Tutoriales de firmas de imagen para GroupDocs.Signature .NET"
 "url": "/es/net/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Tutoriales de firmas de imagen para GroupDocs.Signature .NET
 
 Aprenda a mejorar documentos con firmas visuales con nuestros tutoriales de firmas de imagen .NET de GroupDocs.Signature. Estas guías detalladas muestran cómo agregar imágenes como firmas, crear firmas de sello, implementar marcas de agua, personalizar la configuración de apariencia y trabajar con opciones de alineación y tamaño de imágenes. Cada tutorial incluye ejemplos de código C# que muestran cómo crear firmas visualmente atractivas que comunican eficazmente la autenticidad o la marca, manteniendo la integridad del documento.

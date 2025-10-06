@@ -4,8 +4,8 @@
 "title": "Efektivní vyhledávání podpisů v archivních souborech pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Efektivní vyhledávání podpisů v archivních souborech pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

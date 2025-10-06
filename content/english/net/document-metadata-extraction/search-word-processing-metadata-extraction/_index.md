@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["metadata-extraction", "word-documents", "csharp", "groupdocs"]
+type: docs
 ---
-
 # How to Extract Word Document Metadata in C#
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Ricerca efficiente delle firme nei file di archivio utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Ricerca efficiente delle firme nei file di archivio utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

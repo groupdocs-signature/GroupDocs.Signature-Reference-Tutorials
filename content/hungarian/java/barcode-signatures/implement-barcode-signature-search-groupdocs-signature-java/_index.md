@@ -4,8 +4,8 @@
 "title": "Vonalkód-aláírás-keresés implementálása Java-ban a GroupDocs.Signature segítségével"
 "url": "/hu/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Vonalkód-aláírás-keresés implementálása Java-ban a GroupDocs.Signature segítségével
 
 ## Bevezetés

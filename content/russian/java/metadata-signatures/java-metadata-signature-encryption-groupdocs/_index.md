@@ -4,8 +4,8 @@
 "title": "Защита документов Java с помощью подписи и шифрования метаданных с помощью GroupDocs"
 "url": "/ru/java/metadata-signatures/java-metadata-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Защита документов Java с помощью подписи и шифрования метаданных с помощью GroupDocs
 
 ## Введение

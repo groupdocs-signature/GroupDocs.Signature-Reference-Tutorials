@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して .NET で QR コード署名を検証する方法"
 "url": "/ja/net/qr-code-signatures/verify-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して QR コード署名検証を実装する方法
 
 ## 導入

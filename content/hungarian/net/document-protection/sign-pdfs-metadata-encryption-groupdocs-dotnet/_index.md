@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása metaadatokkal és titkosítással a GroupDocs.Signature for .NET használatával | Biztonságos dokumentumvédelmi útmutató"
 "url": "/hu/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF-ek aláírása metaadatokkal és titkosítással a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

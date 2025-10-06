@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć podpisy cyfrowe .NET za pomocą GroupDocs.Signature? Kompletny przewodnik"
 "url": "/pl/net/digital-signatures/implement-dotnet-digital-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć podpisy cyfrowe .NET przy użyciu GroupDocs.Signature dla .NET
 
 ## Wstęp

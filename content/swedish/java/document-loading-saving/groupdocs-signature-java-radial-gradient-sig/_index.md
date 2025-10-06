@@ -4,8 +4,8 @@
 "title": "Skapa fantastiska radiella gradientsignaturer i Java med GroupDocs.Signature"
 "url": "/sv/java/document-loading-saving/groupdocs-signature-java-radial-gradient-sig/"
 "weight": 1
+type: docs
 ---
-
 # Skapa en visuellt tilltalande radiell gradientsignatur med GroupDocs.Signature för Java
 
 dagens digitala värld är estetiken i elektronisk dokumentsignering lika viktig som funktionalitet. En visuellt imponerande signatur kan höja både professionalismen och trovärdigheten i ditt arbete. Den här handledningen guidar dig genom implementeringen av en radiell gradientpenselsignatur med GroupDocs.Signature för Java.

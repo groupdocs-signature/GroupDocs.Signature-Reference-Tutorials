@@ -4,8 +4,8 @@
 "title": "PDF metaadatok aláírása egyéni szerializációval .NET-ben a GroupDocs.Signature használatával"
 "url": "/hu/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF metaadat-aláírás megvalósítása egyéni szerializációval a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

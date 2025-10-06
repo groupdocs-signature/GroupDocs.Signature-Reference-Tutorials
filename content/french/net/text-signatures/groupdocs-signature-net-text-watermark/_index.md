@@ -4,8 +4,8 @@
 "title": "Documents sécurisés avec filigranes textuels à l'aide de GroupDocs.Signature pour .NET - Un guide complet"
 "url": "/fr/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter des filigranes textuels dans des documents à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "วิธีตั้งค่าใบอนุญาตแบบมิเตอร์สำหรับ GroupDocs.Signature ใน .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีตั้งค่าใบอนุญาตแบบมิเตอร์สำหรับ GroupDocs.Signature ใน .NET: คู่มือฉบับสมบูรณ์
 
 ## การแนะนำ

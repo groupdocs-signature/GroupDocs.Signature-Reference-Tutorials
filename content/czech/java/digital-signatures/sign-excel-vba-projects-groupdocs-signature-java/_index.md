@@ -4,8 +4,8 @@
 "title": "Jak podepisovat projekty Excel VBA pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/digital-signatures/sign-excel-vba-projects-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat projekty Excel VBA pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

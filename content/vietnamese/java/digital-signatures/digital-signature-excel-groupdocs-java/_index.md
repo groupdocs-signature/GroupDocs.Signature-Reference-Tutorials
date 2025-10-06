@@ -4,8 +4,8 @@
 "title": "Cách triển khai chữ ký số trong Excel bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký số trong bảng tính bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

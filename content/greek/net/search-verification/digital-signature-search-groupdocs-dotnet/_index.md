@@ -4,8 +4,8 @@
 "title": "Αναζήτηση ψηφιακής υπογραφής με το GroupDocs.Signature για .NET™ Ένας πλήρης οδηγός"
 "url": "/el/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την αναζήτηση ψηφιακής υπογραφής σε ένα έγγραφο χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

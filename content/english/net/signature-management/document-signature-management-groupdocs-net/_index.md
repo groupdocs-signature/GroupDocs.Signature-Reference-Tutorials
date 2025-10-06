@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["GroupDocs", "Signatures", "Form Fields", ".NET", "Tutorial"]
+type: docs
 ---
-
 # How to Search Form Field Signatures in .NET Documents
 
 ## Introduction

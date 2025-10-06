@@ -8,10 +8,8 @@ keywords:
 - search form field signatures PDF
 - extract form field signatures Java
 - form field signature GroupDocs
-
+type: docs
 ---
-
-
 # How to Search and Extract Form Field Signatures in PDF Documents Using GroupDocs.Signature for Java
 
 ## Introduction

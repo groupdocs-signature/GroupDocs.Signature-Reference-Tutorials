@@ -4,8 +4,8 @@
 "title": "Průvodce šifrováním a vyhledáváním QR kódů pro zabezpečené digitální podpisy v Javě v GroupDocs.Signature"
 "url": "/cs/java/digital-signatures/groupdocs-signature-java-encryption-qr-code-search/"
 "weight": 1
+type: docs
 ---
-
 # Bezpečné digitální podpisy v Javě pomocí GroupDocs.Signature
 ## Zavedení
 V dnešní digitální krajině je zabezpečení dokumentů prvořadé. Ať už spravujete citlivé obchodní smlouvy nebo osobní záznamy, použití robustního šifrování a efektivních vyhledávacích funkcí může ochránit vaše data před neoprávněným přístupem. Tato příručka vás provede implementací vlastního šifrování a možností vyhledávání pomocí QR kódů v Javě pomocí GroupDocs.Signature.

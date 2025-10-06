@@ -4,8 +4,8 @@
 "title": "วิธีอัปเดตลายเซ็นเอกสารโดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/signature-management/update-document-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีอัปเดตลายเซ็นเอกสารด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

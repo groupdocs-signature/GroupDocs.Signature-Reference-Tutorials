@@ -4,8 +4,8 @@
 "title": "Мастер поиска QR-кодов в PDF-файлах с помощью GroupDocs.Signature для .NET. Полное руководство"
 "url": "/ru/net/search-verification/master-qr-code-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Освоение поиска QR-кодов в PDF-файлах с использованием GroupDocs.Signature для .NET
 
 ## Введение

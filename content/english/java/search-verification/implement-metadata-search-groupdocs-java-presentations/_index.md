@@ -8,10 +8,8 @@ keywords:
 - metadata search in Java presentations
 - GroupDocs.Signature for Java
 - search metadata signatures
-
+type: docs
 ---
-
-
 # How to Implement Metadata Search in Java Presentations with GroupDocs.Signature
 
 ## Introduction

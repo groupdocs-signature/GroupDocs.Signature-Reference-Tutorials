@@ -9,8 +9,8 @@ weight: 1
 url: "/net/signature-management/master-text-signature-management-dotnet-groupdocs/"
 categories: ["Document Management"]
 tags: ["dotnet", "csharp", "document-signatures", "groupdocs", "automation"]
+type: docs
 ---
-
 # How to Delete Text Signatures from Documents in .NET
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Implementera digitala signaturer med tidsstämplar på PDF-filer med Java och GroupDocs.Signature"
 "url": "/sv/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementera digitala signaturer med tidsstämplar på PDF-filer med hjälp av Java och GroupDocs.Signature
 
 ## Introduktion

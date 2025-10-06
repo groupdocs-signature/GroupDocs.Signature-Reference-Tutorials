@@ -4,8 +4,8 @@
 "title": "Podpisuj pliki PDF za pomocą podpisów kodów QR i eksportuj je jako obrazy za pomocą GroupDocs dla Java"
 "url": "/pl/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Kompleksowy przewodnik po podpisywaniu i eksportowaniu plików PDF jako obrazów z kodami QR przy użyciu GroupDocs.Signature dla języka Java
 
 ## Wstęp

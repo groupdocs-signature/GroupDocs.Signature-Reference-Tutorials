@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET 바코드 서명을 구현하는 방법&#58; 개발자를 위한 완벽한 가이드"
 "url": "/ko/net/barcode-signatures/implement-dotnet-barcode-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET 바코드 서명을 구현하는 방법: 개발자를 위한 완벽한 가이드
 
 ## 소개

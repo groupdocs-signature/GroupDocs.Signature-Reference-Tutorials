@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 应用文本水印签名"
 "url": "/zh/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 应用文本水印签名
 
 ## 介绍

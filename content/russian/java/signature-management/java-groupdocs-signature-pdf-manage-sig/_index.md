@@ -4,8 +4,8 @@
 "title": "Мастер управления подписями PDF-файлов на Java с помощью GroupDocs.Signature"
 "url": "/ru/java/signature-management/java-groupdocs-signature-pdf-manage-sig/"
 "weight": 1
+type: docs
 ---
-
 # Освоение управления подписями PDF-файлов на Java с помощью GroupDocs.Signature
 
 ## Введение

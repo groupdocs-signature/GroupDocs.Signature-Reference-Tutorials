@@ -5,8 +5,8 @@
 "title": "Domine múltiplas assinaturas de documentos no .NET - Guia completo"
 "url": "/pt/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## Proteja seus documentos com vários tipos de assinatura
 
 Você já precisou aplicar diferentes tipos de assinaturas a um único documento? Seja lidando com contratos confidenciais, documentos jurídicos ou documentos corporativos, combinar vários tipos de assinatura pode aumentar significativamente a segurança e a autenticidade. Neste guia, mostraremos exatamente como implementar essa poderosa funcionalidade usando o GroupDocs.Signature para .NET.

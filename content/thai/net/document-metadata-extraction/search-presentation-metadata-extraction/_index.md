@@ -5,8 +5,8 @@
 "title": "ดึงข้อมูลเมตาของงานนำเสนอได้อย่างง่ายดายด้วย GroupDocs.Signature"
 "url": "/th/net/document-metadata-extraction/search-presentation-metadata-extraction/"
 "weight": 12
+type: docs
 ---
-
 # วิธีการแยกข้อมูลเมตาจากงานนำเสนอโดยใช้ GroupDocs.Signature
 
 ## เหตุใดข้อมูลเมตาของการนำเสนอจึงมีความสำคัญต่อโครงการของคุณ

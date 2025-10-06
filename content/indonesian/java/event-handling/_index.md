@@ -3,8 +3,8 @@
 "title": "Tutorial Penanganan Peristiwa dan Manajemen Proses untuk GroupDocs.Signature Java"
 "url": "/id/java/event-handling/"
 "weight": 15
+type: docs
 ---
-
 # Tutorial Penanganan Peristiwa dan Manajemen Proses untuk GroupDocs.Signature Java
 
 Tutorial penanganan peristiwa dan manajemen proses kami menunjukkan cara membuat aplikasi penandatanganan responsif menggunakan GroupDocs.Signature di Java. Panduan langkah demi langkah ini mencakup berlangganan peristiwa tanda tangan, menerapkan pembatalan untuk operasi pencarian dan penandatanganan, menangani pengecualian, dan memantau status pemrosesan. Setiap tutorial mencakup contoh kode Java yang detail untuk menerapkan penanganan peristiwa yang tepat, membantu Anda membangun aplikasi tangguh yang memberikan umpan balik pengguna yang lebih baik, penanganan kesalahan, dan kontrol atas operasi tanda tangan.

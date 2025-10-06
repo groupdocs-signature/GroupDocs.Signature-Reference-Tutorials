@@ -4,8 +4,8 @@
 "title": "คู่มือครอบคลุมในการตั้งค่าลายเซ็นข้อความด้วย GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # คู่มือครอบคลุมในการตั้งค่าลายเซ็นข้อความด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

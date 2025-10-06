@@ -4,8 +4,8 @@
 "title": "Implementace vlastního šifrování XOR v Javě pomocí GroupDocs.Signature – Podrobný návod"
 "url": "/cs/java/advanced-options/implement-custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat vlastní XOR šifrování v Javě pomocí GroupDocs.Signature: Podrobný návod
 
 ## Zavedení

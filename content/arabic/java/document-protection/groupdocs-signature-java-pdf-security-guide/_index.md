@@ -4,8 +4,8 @@
 "title": "تأمين توقيعات رمز الاستجابة السريعة (QR-Code) لملفات PDF الخاصة بك وحمايتها بكلمة مرور باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/document-protection/groupdocs-signature-java-pdf-security-guide/"
 "weight": 1
+type: docs
 ---
-
 # تأمين ملفات PDF الخاصة بك: توقيعات رمز الاستجابة السريعة وحماية كلمة المرور باستخدام GroupDocs.Signature لـ Java
 
 في عصرنا الرقمي، يُعدّ تأمين مستندات PDF أمرًا بالغ الأهمية لإدارة المعلومات الحساسة وضمان مصداقية الملفات. سيوضح لك هذا الدليل كيفية استخدام GroupDocs.Signature لجافا لإضافة توقيعات رمز الاستجابة السريعة (QR Code) وحماية ملفات PDF بكلمة مرور.

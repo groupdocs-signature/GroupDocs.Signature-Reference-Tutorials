@@ -4,8 +4,8 @@
 "title": "Zvládnutí digitálních podpisů v Javě&#58; Komplexní průvodce pomocí GroupDocs.Signature"
 "url": "/cs/java/digital-signatures/mastering-digital-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí digitálních podpisů v Javě: Komplexní průvodce s GroupDocs.Signature
 
 ## Zavedení

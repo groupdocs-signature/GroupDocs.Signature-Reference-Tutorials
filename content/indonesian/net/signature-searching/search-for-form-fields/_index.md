@@ -5,8 +5,8 @@
 "title": "Mencari Bidang Formulir di Dokumen"
 "url": "/id/net/signature-searching/search-for-form-fields/"
 "weight": 12
+type: docs
 ---
-
 ## Perkenalan
 
 Dalam sistem manajemen dokumen modern, kolom formulir memainkan peran penting dalam pengumpulan data, interaksi pengguna, dan otomatisasi dokumen. GroupDocs.Signature untuk .NET menyediakan seperangkat alat canggih bagi pengembang untuk bekerja dengan kolom formulir dalam berbagai format dokumen, termasuk mencari, mengambil, dan memproses elemen-elemen ini secara terprogram.

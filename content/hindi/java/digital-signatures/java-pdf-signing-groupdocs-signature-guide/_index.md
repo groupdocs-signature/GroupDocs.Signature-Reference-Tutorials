@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में PDF हस्ताक्षर लागू करें - एक व्यापक मार्गदर्शिका"
 "url": "/hi/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके जावा में PDF हस्ताक्षर लागू करें
 
 ## Java के लिए GroupDocs.Signature की शक्ति अनलॉक करें: निर्बाध PDF दस्तावेज़ हस्ताक्षर

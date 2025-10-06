@@ -4,8 +4,8 @@
 "title": "التوقيع الآمن على المستندات باستخدام رموز QR الخاصة بـ GS1DotCode و HanXin باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/barcode-signatures/sign-documents-gs1dotcode-hanxin-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # التوقيع الآمن على المستندات باستخدام رموز QR الخاصة بـ GS1DotCode و HanXin باستخدام GroupDocs.Signature لـ .NET
 ## كيفية توقيع المستندات باستخدام GS1DotCode ورموز QR HanXin باستخدام GroupDocs.Signature لـ .NET
 في عصرنا الرقمي، يُعدّ التوقيع الإلكتروني الآمن للمستندات أمرًا بالغ الأهمية. سواء كنتَ خبيرًا في مجال الأعمال أو مطوّرًا يسعى إلى أتمتة سير العمل، فإن دمج توقيعات الباركود ورمز الاستجابة السريعة (QR) يُحسّن الأمان ويُبسّط العمليات. يُرشدك هذا البرنامج التعليمي إلى كيفية استخدام GroupDocs.Signature لـ .NET لتطبيق توقيعات GS1DotCode ورمز الاستجابة السريعة HanXin في تطبيقاتك.

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs for Java 掌握数字文档签名——综合指南"
 "url": "/zh/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs for Java 掌握数字文档签名
 
 ## 介绍

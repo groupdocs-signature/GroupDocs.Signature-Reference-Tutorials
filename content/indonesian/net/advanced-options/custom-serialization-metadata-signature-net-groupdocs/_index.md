@@ -4,8 +4,8 @@
 "title": "Serialisasi Kustom & Pencarian Metadata di .NET menggunakan GroupDocs.Signature"
 "url": "/id/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Serialisasi Kustom dan Pencarian Tanda Tangan Metadata dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

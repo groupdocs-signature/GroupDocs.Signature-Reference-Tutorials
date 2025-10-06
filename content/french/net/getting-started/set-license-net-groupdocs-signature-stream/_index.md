@@ -4,8 +4,8 @@
 "title": "Définition de la licence dans .NET à l'aide de GroupDocs.Signature et FileStream - Un guide complet"
 "url": "/fr/net/getting-started/set-license-net-groupdocs-signature-stream/"
 "weight": 1
+type: docs
 ---
-
 # Définition de la licence dans .NET avec GroupDocs.Signature et FileStream
 ## Commencer
 ### Implémentation d'une licence définie via un flux dans .NET à l'aide de GroupDocs.Signature

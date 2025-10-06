@@ -4,8 +4,8 @@
 "title": "Υλοποίηση υπογραφής PDF σε Java χρησιμοποιώντας το GroupDocs.Signature&#58; Ένας ολοκληρωμένος οδηγός"
 "url": "/el/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση υπογραφής PDF σε Java χρησιμοποιώντας το GroupDocs.Signature
 
 ## Ξεκλειδώστε τη δύναμη του GroupDocs.Signature για Java: Απρόσκοπτη υπογραφή εγγράφων PDF

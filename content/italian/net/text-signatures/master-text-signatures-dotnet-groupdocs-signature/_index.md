@@ -4,8 +4,8 @@
 "title": "Come implementare le firme di testo in .NET con GroupDocs.Signature&#58; una guida completa"
 "url": "/it/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare le firme di testo in .NET con GroupDocs.Signature: una guida completa
 
 ## Introduzione

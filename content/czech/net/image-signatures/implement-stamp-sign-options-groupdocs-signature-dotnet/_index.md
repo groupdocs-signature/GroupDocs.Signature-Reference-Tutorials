@@ -4,8 +4,8 @@
 "title": "Jak implementovat možnosti podpisu razítkem pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat možnosti podpisu razítkem pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

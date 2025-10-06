@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράφετε σταδιακά PDF με το GroupDocs.Signature για .NET™; Ένας πλήρης οδηγός"
 "url": "/el/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα έγγραφο PDF σταδιακά χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

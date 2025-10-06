@@ -4,8 +4,8 @@
 "title": "Αναζήτηση υπογραφών μεταδεδομένων σε έγγραφα εικόνας χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/search-verification/search-metadata-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αναζητήσετε υπογραφές μεταδεδομένων σε έγγραφα εικόνας χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

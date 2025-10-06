@@ -4,8 +4,8 @@
 "title": "Wdrażanie bezpiecznego podpisywania plików PDF z szyfrowaniem kodu QR w Javie przy użyciu GroupDocs.Signature"
 "url": "/pl/java/qr-code-signatures/secure-pdf-signing-qr-code-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć bezpieczne podpisywanie plików PDF z szyfrowaniem kodu QR w Javie przy użyciu GroupDocs.Signature
 
 dzisiejszej erze cyfrowej zabezpieczenie poufnych informacji w dokumentach jest kwestią priorytetową. Wzrost liczby cyberzagrożeń sprawił, że szyfrowanie danych stało się niezbędnym elementem zarządzania dokumentami. Ten samouczek przeprowadzi Cię przez proces wdrażania bezpiecznego podpisywania plików PDF za pomocą szyfrowania kodem QR w GroupDocs.Signature for Java. Po przeczytaniu tego artykułu będziesz w stanie zintegrować solidne funkcje bezpieczeństwa ze swoimi aplikacjami.

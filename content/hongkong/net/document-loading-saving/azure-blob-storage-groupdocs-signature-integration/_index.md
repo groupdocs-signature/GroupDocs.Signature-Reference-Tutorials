@@ -4,8 +4,8 @@
 "title": "如何將 Azure Blob 儲存體與 GroupDocs.Signature for .NET 整合－逐步指南"
 "url": "/zh-hant/net/document-loading-saving/azure-blob-storage-groupdocs-signature-integration/"
 "weight": 1
+type: docs
 ---
-
 # 如何將 Azure Blob 儲存體與 GroupDocs.Signature for .NET 整合：逐步指南
 
 ## 介紹

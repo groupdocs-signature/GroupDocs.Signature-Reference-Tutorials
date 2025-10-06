@@ -4,8 +4,8 @@
 "title": "Προηγμένη κρυπτογράφηση μεταδεδομένων XOR με GroupDocs.Signature για .NET™ Ένας πλήρης οδηγός"
 "url": "/el/net/advanced-options/custom-xor-metadata-encryption-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Προηγμένη κρυπτογράφηση μεταδεδομένων XOR με GroupDocs.Signature για .NET
 
 ## Εισαγωγή

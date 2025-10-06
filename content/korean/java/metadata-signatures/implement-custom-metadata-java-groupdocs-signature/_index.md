@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 사용자 정의 메타데이터 구현하여 향상된 문서 서명"
 "url": "/ko/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java로 사용자 정의 메타데이터 구현
 
 ## 소개

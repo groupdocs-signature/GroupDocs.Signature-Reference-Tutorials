@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 텍스트 서명을 삭제하는 방법"
 "url": "/ko/java/signature-management/delete-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java에서 텍스트 서명을 삭제하는 방법
 
 ## 소개

@@ -4,8 +4,8 @@
 "title": "Mért licenc implementálása a GroupDocs.Signature for Java-ban – lépésről lépésre útmutató"
 "url": "/hu/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan implementáljunk mért licencet a GroupDocs.Signature for Java-ban?
 
 ## Bevezetés

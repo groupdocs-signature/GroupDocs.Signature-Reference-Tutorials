@@ -4,8 +4,8 @@
 "title": "Implementera QR-kodsignatursökning med GroupDocs.Signature för Java"
 "url": "/sv/java/search-verification/groupdocs-signature-java-qr-code-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Implementera QR-kodsignatursökning med GroupDocs.Signature för Java
 
 I dagens digitala landskap är det avgörande att effektivt verifiera elektroniska signaturer inom olika branscher. **GroupDocs.Signature för Java** erbjuder en robust lösning, särskilt för att söka och hantera QR-kodsignaturer i dokument. Den här handledningen guidar dig genom implementeringen av QR-kodsignatursökning med GroupDocs.Signature i Java.

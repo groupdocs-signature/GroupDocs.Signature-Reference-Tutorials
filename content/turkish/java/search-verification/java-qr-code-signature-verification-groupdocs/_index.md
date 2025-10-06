@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da QR Kod İmzalarıyla Belgeleri Doğrulayın"
 "url": "/tr/java/search-verification/java-qr-code-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java'da QR Kod İmzalarıyla Belgeleri Doğrulayın
 
 Günümüzün dijital dünyasında, belgelerin gerçekliğini ve bütünlüğünü doğrulamak hayati önem taşımaktadır. Java kullanarak QR kod imzaları içeren belgeleri zahmetsizce doğrulama olanağı sunan GroupDocs.Signature for Java, bu süreci kolaylaştırır. Bu kapsamlı eğitim, QR kod imzalarıyla belge doğrulama sürecinde size rehberlik ederek iş akışınızın güvenliğini ve verimliliğini artıracaktır.

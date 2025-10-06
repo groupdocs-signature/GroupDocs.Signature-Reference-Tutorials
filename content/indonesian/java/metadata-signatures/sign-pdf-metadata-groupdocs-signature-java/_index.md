@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan Metadata Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/metadata-signatures/sign-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF dengan Metadata Menggunakan GroupDocs.Signature untuk Java
 
 Dalam lanskap digital saat ini, memastikan integritas dan keaslian dokumen sangatlah penting. Jika Anda berurusan dengan PDF yang memerlukan lapisan keamanan melalui tanda tangan, tutorial ini akan memandu Anda dalam menandatangani dokumen PDF menggunakan metadata seperti nama penulis, tanggal pembuatan, ID dokumen, dan ID tanda tangan dengan GroupDocs.Signature untuk Java.

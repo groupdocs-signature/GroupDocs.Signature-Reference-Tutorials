@@ -4,8 +4,8 @@
 "title": "Anwenden von Textwasserzeichensignaturen mit GroupDocs.Signature für Java"
 "url": "/de/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # So wenden Sie eine Textwasserzeichensignatur mit GroupDocs.Signature für Java an
 
 ## Einführung

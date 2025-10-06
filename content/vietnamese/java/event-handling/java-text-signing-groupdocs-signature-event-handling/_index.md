@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký văn bản trong Java - Xử lý sự kiện với GroupDocs.Signature"
 "url": "/vi/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký văn bản với xử lý sự kiện bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

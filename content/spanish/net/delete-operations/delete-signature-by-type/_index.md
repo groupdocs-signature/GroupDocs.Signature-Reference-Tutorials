@@ -5,8 +5,8 @@
 "title": "Cómo eliminar firmas de documentos por tipo en .NET"
 "url": "/es/net/delete-operations/delete-signature-by-type/"
 "weight": 12
+type: docs
 ---
-
 # Cómo eliminar firmas de documentos por tipo en .NET
 
 ## Por qué es importante la gestión de firmas en el procesamiento de documentos

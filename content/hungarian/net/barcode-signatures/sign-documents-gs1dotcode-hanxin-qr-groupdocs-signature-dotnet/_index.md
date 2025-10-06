@@ -4,8 +4,8 @@
 "title": "Biztonságos dokumentumaláírás GS1DotCode és HanXin QR-kódokkal a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/barcode-signatures/sign-documents-gs1dotcode-hanxin-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Biztonságos dokumentumaláírás GS1DotCode és HanXin QR-kódokkal a GroupDocs.Signature for .NET használatával
 ## Dokumentumok aláírása GS1DotCode és HanXin QR-kódokkal a GroupDocs.Signature for .NET használatával
 A mai digitális korban a dokumentumok biztonságos elektronikus aláírása kulcsfontosságú. Akár üzleti szakember, akár fejlesztő, aki automatizálni szeretné a munkafolyamatokat, a vonalkód- és QR-kód-aláírások integrálása fokozza a biztonságot és egyszerűsíti a folyamatokat. Ez az oktatóanyag végigvezeti Önt a GroupDocs.Signature for .NET használatán, amellyel GS1DotCode és HanXin QR-kód-aláírásokat valósíthat meg alkalmazásaiban.

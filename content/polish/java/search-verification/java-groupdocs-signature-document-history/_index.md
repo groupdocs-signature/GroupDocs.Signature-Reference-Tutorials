@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć funkcję Java GroupDocs.Signature? Pobieranie i wyświetlanie historii procesu dokumentu"
 "url": "/pl/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć Java GroupDocs.Signature: pobieranie i wyświetlanie historii procesu dokumentu
 
 ## Wstęp

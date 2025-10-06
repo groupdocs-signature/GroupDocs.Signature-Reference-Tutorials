@@ -4,8 +4,8 @@
 "title": "การเรียนรู้การตรวจสอบเอกสารด้วย GroupDocs.Signature สำหรับ .NET พร้อมคู่มือฉบับสมบูรณ์"
 "url": "/th/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การตรวจสอบเอกสารด้วย GroupDocs.Signature สำหรับ .NET: คู่มือฉบับสมบูรณ์
 
 ## การแนะนำ

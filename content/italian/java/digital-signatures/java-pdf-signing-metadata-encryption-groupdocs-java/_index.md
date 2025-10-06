@@ -4,8 +4,8 @@
 "title": "Firma PDF Java con metadati e crittografia tramite GroupDocs&#58; una guida completa"
 "url": "/it/java/digital-signatures/java-pdf-signing-metadata-encryption-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la firma PDF Java con metadati e crittografia utilizzando GroupDocs
 
 ## Introduzione

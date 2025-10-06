@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके दस्तावेज़ों में छवि हस्ताक्षर प्रबंधित करें. .NET के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/net/image-signatures/manage-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में छवि हस्ताक्षर प्रबंधित करें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Beveilig uw documenten&#58; implementeer QR-codehandtekeningen in Java met GroupDocs.Signature"
 "url": "/nl/java/qr-code-signatures/qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Beveilig uw documenten: implementeer QR-codehandtekeningen in Java met GroupDocs.Signature
 
 In het huidige digitale landschap is het cruciaal om de beveiliging van documenten zoals contracten, facturen of gevoelige persoonlijke informatie te waarborgen. Een innovatieve aanpak om de documentbeveiliging te verbeteren en verificatieprocessen te vereenvoudigen, is het gebruik van QR-codehandtekeningen. Deze tutorial begeleidt u bij het implementeren en verifiëren van QR-codehandtekeningen voor uw documenten in Java met behulp van GroupDocs.Signature.

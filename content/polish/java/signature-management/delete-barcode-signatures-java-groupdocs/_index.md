@@ -4,8 +4,8 @@
 "title": "Jak usunąć podpisy kodów kreskowych w Javie za pomocą GroupDocs.Signature"
 "url": "/pl/java/signature-management/delete-barcode-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak usunąć podpisy kodów kreskowych w Javie za pomocą GroupDocs.Signature
 
 ## Wstęp

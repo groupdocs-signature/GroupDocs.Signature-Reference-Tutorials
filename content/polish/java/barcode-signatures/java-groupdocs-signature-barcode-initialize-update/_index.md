@@ -4,8 +4,8 @@
 "title": "Jak inicjować i aktualizować podpisy kodów kreskowych w Javie za pomocą GroupDocs.Signature"
 "url": "/pl/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # Jak inicjować i aktualizować podpisy kodów kreskowych w Javie za pomocą GroupDocs.Signature
 
 ## Wstęp

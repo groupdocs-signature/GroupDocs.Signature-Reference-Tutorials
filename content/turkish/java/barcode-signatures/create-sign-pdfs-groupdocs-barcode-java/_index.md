@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java'yı kullanarak Barkodlu PDF'ler Nasıl Oluşturulur ve İmzalanır"
 "url": "/tr/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Barkodlu PDF'ler Nasıl Oluşturulur ve İmzalanır
 
 ## giriiş

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["signature-removal", "groupdocs", "document-management", "csharp"]
+type: docs
 ---
-
 # How to Remove Signatures from Documents in C# - Complete GroupDocs.Signature
 
 ## Introduction

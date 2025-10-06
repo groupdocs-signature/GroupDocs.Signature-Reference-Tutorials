@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature สำหรับ .NET&#58; จัดการและลบลายเซ็นเอกสาร"
 "url": "/th/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 "weight": 1
+type: docs
 ---
-
 # เรียนรู้การจัดการลายเซ็นใน .NET ด้วย GroupDocs.Signature
 
 ## การแนะนำ

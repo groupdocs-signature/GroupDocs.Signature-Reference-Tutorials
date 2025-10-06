@@ -4,8 +4,8 @@
 "title": "Beheers .NET-documentondertekening met GroupDocs.Signature voor veilige digitale handtekeningen"
 "url": "/nl/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # .NET-documentondertekening onder de knie krijgen met GroupDocs.Signature
 
 ## Invoering

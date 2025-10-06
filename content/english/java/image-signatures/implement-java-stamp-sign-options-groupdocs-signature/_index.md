@@ -9,10 +9,8 @@ keywords:
 - GroupDocs.Signature for Java
 - Document Authenticity
 - Stamp Sign Configuration
-
+type: docs
 ---
-
-
 # Implement Java Stamp Sign Options with GroupDocs.Signature for Document Authenticity
 ## How to Implement Java Stamp Sign Options with GroupDocs.Signature for Java
 In today's digital age, ensuring the authenticity of documents is paramount. Whether you're a business professional or an individual needing to validate contracts and agreements, adding a stamp signature can lend credibility and security. This tutorial will guide you through setting up stamp sign options using GroupDocs.Signature for Java—a powerful library tailored to meet your document signing needs with ease.

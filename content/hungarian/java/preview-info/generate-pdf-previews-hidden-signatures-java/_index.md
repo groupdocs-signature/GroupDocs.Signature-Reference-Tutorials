@@ -4,8 +4,8 @@
 "title": "PDF előnézetek generálása rejtett aláírásokkal Java és GroupDocs.Signature használatával"
 "url": "/hu/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF előnézetek generálása rejtett aláírásokkal Java és GroupDocs.Signature használatával
 
 ## Bevezetés

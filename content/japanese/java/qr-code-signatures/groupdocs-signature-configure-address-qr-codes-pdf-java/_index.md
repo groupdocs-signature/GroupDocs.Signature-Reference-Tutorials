@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して住所 QR コードで PDF に署名する方法"
 "url": "/ja/java/qr-code-signatures/groupdocs-signature-configure-address-qr-codes-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して住所 QR コードで PDF に署名する方法
 
 今日のデジタル世界では、文書に安全に署名することは不可欠です。ビジネスプロフェッショナルでも、契約書を管理する個人でも、署名の追加を自動化することで時間を節約し、文書のセキュリティを強化できます。このチュートリアルでは、署名の自動化の使い方を説明します。 **Java 用 GroupDocs.Signature** Addressオブジェクトを作成・設定し、PDFのQRコード署名オプションに統合します。このガイドに従うことで、住所データをQRコードとしてドキュメントにシームレスに埋め込む方法を習得できます。

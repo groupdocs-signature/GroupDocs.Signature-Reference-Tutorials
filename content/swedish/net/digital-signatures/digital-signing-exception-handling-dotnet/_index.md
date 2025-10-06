@@ -4,8 +4,8 @@
 "title": "Digital signering med undantagshantering i .NET med GroupDocs.Signature"
 "url": "/sv/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Digital signering med undantagshantering i .NET med GroupDocs.Signature
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "Cara Memverifikasi Tanda Tangan Digital dalam PDF Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Langkah demi Langkah"
 "url": "/id/java/digital-signatures/verify-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Memverifikasi Tanda Tangan Digital dalam PDF Menggunakan GroupDocs.Signature untuk Java: Panduan Langkah demi Langkah
 
 ## Perkenalan

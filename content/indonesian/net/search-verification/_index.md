@@ -3,8 +3,8 @@
 "title": "Tutorial Pencarian dan Verifikasi Tanda Tangan untuk GroupDocs.Signature .NET"
 "url": "/id/net/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # Tutorial Pencarian dan Verifikasi Tanda Tangan untuk GroupDocs.Signature .NET
 
 Tutorial pencarian dan verifikasi kami menyediakan panduan komprehensif untuk memvalidasi tanda tangan dokumen menggunakan GroupDocs.Signature di .NET. Panduan praktis ini menunjukkan cara mencari tanda tangan dari berbagai jenis (digital, kode batang, kode QR, teks, gambar, dan metadata), menerapkan verifikasi untuk pengecekan keaslian, menangani pengecualian selama verifikasi, dan memproses dokumen kompleks. Setiap tutorial mencakup contoh kode C# lengkap untuk skenario verifikasi umum, membantu Anda membangun aplikasi yang dapat secara efektif menentukan apakah dokumen telah diubah sejak penandatanganan.

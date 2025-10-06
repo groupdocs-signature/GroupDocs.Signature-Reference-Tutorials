@@ -4,8 +4,8 @@
 "title": "Så här implementerar du digitala .NET-signaturer med GroupDocs.Signature – en komplett guide"
 "url": "/sv/net/digital-signatures/implement-dotnet-digital-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar digitala .NET-signaturer med GroupDocs.Signature för .NET
 
 ## Introduktion

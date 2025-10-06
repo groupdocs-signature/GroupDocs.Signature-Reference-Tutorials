@@ -4,8 +4,8 @@
 "title": "Podpisuj pliki PDF za pomocą złożonych kodów kreskowych GS1 przy użyciu GroupDocs.Signature dla Java"
 "url": "/pl/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisać plik PDF kodami kreskowymi GS1 Composite przy użyciu GroupDocs.Signature dla Java
 
 ## Wstęp

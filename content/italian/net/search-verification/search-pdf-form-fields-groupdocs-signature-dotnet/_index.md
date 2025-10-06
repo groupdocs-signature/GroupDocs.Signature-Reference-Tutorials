@@ -4,8 +4,8 @@
 "title": "Cerca in modo efficiente i campi dei moduli PDF utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cerca in modo efficiente i campi dei moduli PDF utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

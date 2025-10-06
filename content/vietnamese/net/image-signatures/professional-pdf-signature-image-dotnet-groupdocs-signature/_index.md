@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng chữ ký hình ảnh trong .NET bằng GroupDocs.Signature"
 "url": "/vi/net/image-signatures/professional-pdf-signature-image-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF bằng chữ ký hình ảnh trong .NET bằng GroupDocs.Signature
 
 ## Giới thiệu

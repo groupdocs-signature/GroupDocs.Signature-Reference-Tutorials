@@ -4,8 +4,8 @@
 "title": "Como implementar assinaturas digitais em PDFs usando o GroupDocs.Signature para Java - Um guia completo"
 "url": "/pt/java/digital-signatures/implement-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar assinaturas digitais em PDFs usando GroupDocs.Signature para Java
 
 ## Introdução

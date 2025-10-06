@@ -4,8 +4,8 @@
 "title": "Onderteken PDF-documenten rechtstreeks vanaf een URL met GroupDocs.Signature voor .NET"
 "url": "/nl/net/digital-signatures/sign-pdf-from-url-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF-document rechtstreeks vanaf een URL ondertekenen met GroupDocs.Signature voor .NET
 
 In de huidige snelle digitale omgeving is het efficiënt beheren en verwerken van online documenten cruciaal voor bedrijven wereldwijd. Een veelvoorkomende uitdaging is het ondertekenen van online opgeslagen documenten zonder ze eerst te downloaden – een omslachtige taak met traditionele methoden. Deze tutorial begeleidt je bij het naadloos ondertekenen van een PDF-document rechtstreeks vanaf de URL met behulp van de krachtige GroupDocs.Signature voor .NET-bibliotheek.

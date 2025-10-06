@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs 通过元数据签名和加密保护 Java 文档"
 "url": "/zh/java/metadata-signatures/java-metadata-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs 通过元数据签名和加密保护 Java 文档
 
 ## 介绍

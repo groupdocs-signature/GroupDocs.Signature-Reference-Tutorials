@@ -5,8 +5,8 @@
 "title": "Cải thiện bài thuyết trình PowerPoint bằng chữ ký siêu dữ liệu trong C# .NET"
 "url": "/vi/net/document-signing/sign-presentation-with-metadata/"
 "weight": 12
+type: docs
 ---
-
 ## Giới thiệu
 
 Trong môi trường làm việc kỹ thuật số ngày nay, thuyết trình là công cụ thiết yếu để giao tiếp và chia sẻ thông tin. Việc đảm bảo tính xác thực và toàn vẹn của các tệp thuyết trình này ngày càng trở nên quan trọng, đặc biệt là trong môi trường doanh nghiệp và giáo dục. Một cách hiệu quả để tăng cường bảo mật và khả năng truy xuất nguồn gốc cho bài thuyết trình là nhúng chữ ký siêu dữ liệu.

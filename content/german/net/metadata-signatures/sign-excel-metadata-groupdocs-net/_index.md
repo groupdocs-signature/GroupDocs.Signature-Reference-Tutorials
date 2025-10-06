@@ -4,8 +4,8 @@
 "title": "So signieren Sie Excel-Tabellen mit Metadaten mithilfe von GroupDocs.Signature für .NET"
 "url": "/de/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie Excel-Tabellen mit Metadaten mithilfe von GroupDocs.Signature für .NET
 
 ## Einführung

@@ -4,8 +4,8 @@
 "title": "So signieren Sie PDFs digital mit GroupDocs.Signature für Java"
 "url": "/de/java/digital-signatures/digitally-sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie PDFs digital mit GroupDocs.Signature für Java
 
 ## Einführung

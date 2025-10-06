@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 在 PDF 中搜尋二維碼簽名並提取 VCard 數據"
 "url": "/zh-hant/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在 PDF 文件中搜尋二維碼簽名並提取電子名片數據
 
 ## 介紹

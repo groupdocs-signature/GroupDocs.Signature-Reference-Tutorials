@@ -8,10 +8,8 @@ keywords:
 - sign presentation documents with metadata
 - GroupDocs.Signature for Java tutorial
 - metadata signature in Java
-
+type: docs
 ---
-
-
 # Comprehensive Guide to Signing Presentation Documents with Metadata Using GroupDocs.Signature for Java
 
 ## Introduction

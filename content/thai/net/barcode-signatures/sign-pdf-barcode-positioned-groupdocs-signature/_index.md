@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามใน PDF ด้วยบาร์โค้ดที่จัดวางอย่างแม่นยำโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร PDF ที่มีบาร์โค้ดที่จัดวางอย่างแม่นยำโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

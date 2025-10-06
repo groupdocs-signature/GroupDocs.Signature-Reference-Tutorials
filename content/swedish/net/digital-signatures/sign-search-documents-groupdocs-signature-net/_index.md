@@ -4,8 +4,8 @@
 "title": "Bemästra digitala signaturer i .NET – Hur man använder GroupDocs.Signature för att signera och söka i dokument"
 "url": "/sv/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra digitala signaturer i .NET: Hur man använder GroupDocs.Signature för att signera och söka i dokument
 
 ## Introduktion

@@ -5,8 +5,8 @@
 "title": "Agregar firmas de metadatos a hojas de cálculo de Excel en C# .NET"
 "url": "/es/net/document-signing/sign-spreadsheet-with-metadata/"
 "weight": 13
+type: docs
 ---
-
 ## Introducción
 
 Las hojas de cálculo de Excel suelen contener datos empresariales críticos, información financiera y cálculos importantes. Garantizar su autenticidad, rastrear su origen y proteger su integridad es crucial en muchos entornos profesionales. Una estrategia eficaz para mejorar la seguridad y la trazabilidad de las hojas de cálculo es integrar firmas de metadatos.

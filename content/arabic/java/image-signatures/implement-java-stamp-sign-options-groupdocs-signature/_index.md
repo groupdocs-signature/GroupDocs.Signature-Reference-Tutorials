@@ -4,8 +4,8 @@
 "title": "تنفيذ خيارات Java Stamp Sign باستخدام GroupDocs.Signature للتحقق من صحة المستندات"
 "url": "/ar/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ خيارات Java Stamp Sign باستخدام GroupDocs.Signature للتحقق من صحة المستندات
 ## كيفية تنفيذ خيارات Java Stamp Sign باستخدام GroupDocs.Signature لـ Java
 في عصرنا الرقمي، يُعدّ ضمان صحة المستندات أمرًا بالغ الأهمية. سواء كنتَ خبيرًا في مجال الأعمال أو فردًا يرغب في التحقق من صحة العقود والاتفاقيات، فإن إضافة توقيع ختم يُضفي مصداقيةً وأمانًا على المستندات. سيرشدك هذا البرنامج التعليمي إلى كيفية إعداد خيارات توقيع الختم باستخدام GroupDocs.Signature لجافا، وهي مكتبة فعّالة مُصمّمة خصيصًا لتلبية احتياجاتك في توقيع المستندات بسهولة.

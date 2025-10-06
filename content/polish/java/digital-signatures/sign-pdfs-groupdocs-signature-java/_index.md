@@ -4,8 +4,8 @@
 "title": "Opanowanie cyfrowych podpisów PDF w języku Java przy użyciu GroupDocs.Signature dla tekstu, pól wyboru i pól cyfrowych"
 "url": "/pl/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie cyfrowych podpisów PDF w Javie: Korzystanie z GroupDocs.Signature dla tekstu, pól wyboru i pól cyfrowych
 
 ## Wstęp

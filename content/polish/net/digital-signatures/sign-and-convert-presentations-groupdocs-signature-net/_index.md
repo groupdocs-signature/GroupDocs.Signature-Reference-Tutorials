@@ -4,8 +4,8 @@
 "title": "Jak podpisywać i konwertować prezentacje za pomocą GroupDocs.Signature dla platformy .NET? – kompleksowy przewodnik"
 "url": "/pl/net/digital-signatures/sign-and-convert-presentations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać i konwertować prezentacje za pomocą GroupDocs.Signature dla platformy .NET: kompleksowy przewodnik
 
 ## Wstęp

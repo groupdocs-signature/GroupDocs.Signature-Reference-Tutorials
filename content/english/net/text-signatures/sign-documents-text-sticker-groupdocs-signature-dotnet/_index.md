@@ -9,8 +9,8 @@ weight: 1
 url: "/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 categories: ["Digital Signatures"]
 tags: ["GroupDocs.Signature", ".NET", "PDF Signatures", "C# Tutorial"]
+type: docs
 ---
-
 # Text Sticker Signatures in .NET - Add Professional PDF Annotations
 
 ## Introduction

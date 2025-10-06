@@ -4,8 +4,8 @@
 "title": "Υπογράψτε έγγραφα PDF με κωδικό QR και SMS χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα έγγραφο PDF με κωδικό QR χρησιμοποιώντας αντικείμενο SMS σε Java με το GroupDocs.Signature
 
 ## Εισαγωγή

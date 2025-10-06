@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して PDF にコンボボックス フォーム フィールドを実装する"
 "url": "/ja/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して PDF にコンボボックス フォーム フィールドを実装する
 
 ## 導入

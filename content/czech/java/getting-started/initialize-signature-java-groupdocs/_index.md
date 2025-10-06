@@ -4,8 +4,8 @@
 "title": "Jak inicializovat instanci podpisu v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak inicializovat instanci podpisu v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

@@ -5,8 +5,8 @@
 "title": "Cómo añadir firmas de sello a documentos con GroupDocs.Signature"
 "url": "/es/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # Cómo añadir firmas de sello profesionales a sus documentos .NET
 
 ## ¿Qué se puede lograr con las firmas de sellos?

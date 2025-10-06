@@ -4,8 +4,8 @@
 "title": "วิธีการตรวจสอบลายเซ็นเอกสารในคลังข้อมูลโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการตรวจสอบลายเซ็นเอกสารในคลังข้อมูลด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

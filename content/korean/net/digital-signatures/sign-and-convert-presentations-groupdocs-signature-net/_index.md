@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 프레젠테이션에 서명하고 변환하는 방법&#58; 종합 가이드"
 "url": "/ko/net/digital-signatures/sign-and-convert-presentations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 프레젠테이션에 서명하고 변환하는 방법: 포괄적인 가이드
 
 ## 소개

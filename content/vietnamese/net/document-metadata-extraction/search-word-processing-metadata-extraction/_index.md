@@ -5,8 +5,8 @@
 "title": "Trích xuất siêu dữ liệu xử lý văn bản dễ dàng với .NET"
 "url": "/vi/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # Cách tìm kiếm và trích xuất siêu dữ liệu xử lý văn bản trong .NET
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "วิธีการลบลายเซ็นข้อความจากเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/signature-management/delete-text-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลบลายเซ็นข้อความจากเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

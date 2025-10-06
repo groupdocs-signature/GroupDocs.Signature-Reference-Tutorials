@@ -4,8 +4,8 @@
 "title": "التوقيع على جداول البيانات وتحويلها إلى PDF بكفاءة باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # التوقيع على جداول البيانات وتحويلها إلى PDF بكفاءة باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

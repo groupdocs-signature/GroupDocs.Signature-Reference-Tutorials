@@ -4,8 +4,8 @@
 "title": "Cara Memuat Dokumen Berdasarkan Jenis File di GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 "weight": 1
+type: docs
 ---
-
 # Cara Memuat Dokumen Berdasarkan Jenis File di GroupDocs.Signature untuk .NET
 
 ## Perkenalan

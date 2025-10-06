@@ -4,8 +4,8 @@
 "title": "วิธีการใช้ลายเซ็นข้อความใน PDF โดยใช้ GroupDocs ลายเซ็นสำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/text-signatures/groupdocs-signature-java-text-signatures-pdf/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำลายเซ็นข้อความไปใช้ใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java
 
 **การปรับปรุงเวิร์กโฟลว์เอกสาร: คู่มือที่ครอบคลุมสำหรับการค้นหาและการจัดการลายเซ็นข้อความใน PDF ด้วย GroupDocs.Signature สำหรับ Java**

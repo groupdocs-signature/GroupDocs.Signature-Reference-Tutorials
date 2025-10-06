@@ -4,8 +4,8 @@
 "title": "Ondertekening van afbeeldingen met metagegevens met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Het onder de knie krijgen van het ondertekenen van afbeeldingsdocumenten met metagegevens met behulp van GroupDocs.Signature voor .NET
 
 ## Invoering

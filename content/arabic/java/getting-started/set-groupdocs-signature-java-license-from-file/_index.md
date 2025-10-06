@@ -4,8 +4,8 @@
 "title": "إعداد GroupDocs.Signature لترخيص Java من ملف - دليل شامل"
 "url": "/ar/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # إعداد GroupDocs.Signature لترخيص Java من ملف - دليل خطوة بخطوة
 
 ## مقدمة

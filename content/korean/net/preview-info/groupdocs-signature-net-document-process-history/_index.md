@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 문서 처리 기록을 검색하는 방법 - 단계별 가이드"
 "url": "/ko/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 문서 처리 기록을 검색하는 방법: 단계별 가이드
 
 ## 소개

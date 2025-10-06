@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása QR-kóddal és eseménymetaadatokkal a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # PDF-ek aláírása QR-kóddal és eseménymetaadatokkal a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

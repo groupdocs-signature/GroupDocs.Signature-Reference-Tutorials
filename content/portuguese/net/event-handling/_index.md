@@ -3,8 +3,8 @@
 "title": "Tutoriais de gerenciamento de processos e tratamento de eventos para GroupDocs.Signature .NET"
 "url": "/pt/net/event-handling/"
 "weight": 15
+type: docs
 ---
-
 # Tutoriais de gerenciamento de processos e tratamento de eventos para GroupDocs.Signature .NET
 
 Nossos tutoriais de gerenciamento de processos e tratamento de eventos demonstram como criar aplicativos de assinatura responsivos usando o GroupDocs.Signature para .NET. Estes guias passo a passo abordam a assinatura de eventos de assinatura, a implementação do cancelamento para operações de pesquisa e assinatura, o tratamento de exceções e o monitoramento do status do processamento. Cada tutorial inclui exemplos detalhados de código C# para implementar o tratamento adequado de eventos, ajudando você a construir aplicativos robustos que fornecem melhor feedback do usuário, tratamento de erros e controle sobre as operações de assinatura.

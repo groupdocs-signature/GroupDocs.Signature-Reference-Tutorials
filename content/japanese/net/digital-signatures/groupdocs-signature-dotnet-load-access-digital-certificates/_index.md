@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して .NET でデジタル証明書を読み込み、アクセスする包括的なガイド"
 "url": "/ja/net/digital-signatures/groupdocs-signature-dotnet-load-access-digital-certificates/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して .NET でデジタル証明書を読み込み、アクセスする
 ## 包括的なガイド
 

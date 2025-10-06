@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da Bir İmza Örneğini Nasıl Başlatılır"
 "url": "/tr/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java'da Bir İmza Örneğini Nasıl Başlatılır
 
 ## giriiş

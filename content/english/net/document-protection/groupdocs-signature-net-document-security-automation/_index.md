@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["automation", "digital-signatures", "pdf-signing", "workflow-integration"]
+type: docs
 ---
-
 # Document Signing Automation with GroupDocs.Signature for .NET
 
 ## Why Automate Document Signing?

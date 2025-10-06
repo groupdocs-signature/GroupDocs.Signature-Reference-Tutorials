@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak PDF'leri Görüntü İmzalarıyla Nasıl İmzalarsınız? Adım Adım Kılavuz"
 "url": "/tr/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Bir PDF Belgesini Görüntü İmzasıyla Nasıl İmzalarsınız?
 
 ## giriiş

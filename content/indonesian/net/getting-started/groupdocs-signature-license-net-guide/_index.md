@@ -4,8 +4,8 @@
 "title": "Menyiapkan File Lisensi untuk GroupDocs.Signature di .NET&#58; Panduan Langkah demi Langkah"
 "url": "/id/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # Menyiapkan File Lisensi untuk GroupDocs.Signature di .NET: Panduan Langkah demi Langkah
 
 ## Perkenalan

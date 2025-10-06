@@ -4,8 +4,8 @@
 "title": "使用 .NET 中的 GroupDocs 搜尋和提取 PDF 元資料簽名"
 "url": "/zh-hant/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 .NET 中的 GroupDocs 搜尋和提取 PDF 元資料簽名
 
 ## 介紹

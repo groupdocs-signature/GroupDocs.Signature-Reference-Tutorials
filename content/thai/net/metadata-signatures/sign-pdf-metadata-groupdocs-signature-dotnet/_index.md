@@ -4,8 +4,8 @@
 "title": "ลงนามใน PDF ด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # ลงนาม PDF ด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

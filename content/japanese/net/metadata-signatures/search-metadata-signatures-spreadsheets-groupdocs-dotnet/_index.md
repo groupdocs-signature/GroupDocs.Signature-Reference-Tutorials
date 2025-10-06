@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してスプレッドシート内のメタデータ署名を検索する方法"
 "url": "/ja/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してスプレッドシート内のメタデータ署名を検索する方法
 
 ## 導入

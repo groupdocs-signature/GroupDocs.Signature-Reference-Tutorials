@@ -4,8 +4,8 @@
 "title": "Správa podpisů obrázků v dokumentech pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/image-signatures/manage-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Správa podpisů obrázků v dokumentech pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

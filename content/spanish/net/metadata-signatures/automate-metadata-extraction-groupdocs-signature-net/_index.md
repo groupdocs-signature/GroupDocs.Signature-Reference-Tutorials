@@ -4,8 +4,8 @@
 "title": "Automatizar la extracción de metadatos en hojas de cálculo con GroupDocs.Signature para .NET"
 "url": "/es/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Automatización de la extracción de metadatos en hojas de cálculo con GroupDocs.Signature para .NET
 
 ## Introducción

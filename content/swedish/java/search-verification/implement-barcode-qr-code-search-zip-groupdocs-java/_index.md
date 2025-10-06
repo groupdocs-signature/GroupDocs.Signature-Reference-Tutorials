@@ -4,8 +4,8 @@
 "title": "Implementera streckkods- och QR-kodsökning i postnummerarkiv med GroupDocs för Java-utvecklare"
 "url": "/sv/java/search-verification/implement-barcode-qr-code-search-zip-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementera streckkods- och QR-kodsökning i postnummerarkiv med GroupDocs för Java
 ## Introduktion
 dagens digitala värld är det avgörande att effektivt hantera och verifiera dokuments äkthet. Oavsett om du hanterar juridiska dokument, fakturor eller kontrakt som lagras i ZIP-arkiv kan det vara svårt att hitta specifika streckkoder och QR-koder utan rätt verktyg. Den här handledningen guidar dig genom att använda GroupDocs.Signature för Java för att smidigt söka efter streckkods- och QR-kodsignaturer i ZIP-filer.

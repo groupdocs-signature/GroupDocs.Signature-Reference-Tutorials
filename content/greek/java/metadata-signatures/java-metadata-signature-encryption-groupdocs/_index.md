@@ -4,8 +4,8 @@
 "title": "Ασφαλίστε έγγραφα Java με υπογραφή μεταδεδομένων και κρυπτογράφηση χρησιμοποιώντας το GroupDocs"
 "url": "/el/java/metadata-signatures/java-metadata-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Ασφαλίστε έγγραφα Java με υπογραφή μεταδεδομένων και κρυπτογράφηση χρησιμοποιώντας το GroupDocs
 
 ## Εισαγωγή

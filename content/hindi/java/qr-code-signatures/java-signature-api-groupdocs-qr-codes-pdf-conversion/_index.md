@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature API का उपयोग करके जावा में QR कोड हस्ताक्षर और PDF रूपांतरण लागू करें"
 "url": "/hi/java/qr-code-signatures/java-signature-api-groupdocs-qr-codes-pdf-conversion/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature API का उपयोग करके जावा में QR कोड हस्ताक्षर और PDF रूपांतरण लागू करें
 
 ## परिचय

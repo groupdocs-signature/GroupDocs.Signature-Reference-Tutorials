@@ -4,8 +4,8 @@
 "title": "Υπογραφή κύριων μεταδεδομένων σε έγγραφα Word χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/metadata-signatures/master-metadata-signing-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την υπογραφή μεταδεδομένων σε έγγραφα Word με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

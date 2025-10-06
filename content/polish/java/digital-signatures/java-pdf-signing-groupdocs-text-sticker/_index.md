@@ -4,8 +4,8 @@
 "title": "Opanowanie podpisywania plików PDF w Javie i podpisów na naklejkach tekstowych za pomocą GroupDocs.Signature dla Javy"
 "url": "/pl/java/digital-signatures/java-pdf-signing-groupdocs-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie podpisywania plików PDF w Javie: Tworzenie wyglądu naklejek tekstowych za pomocą GroupDocs.Signature
 
 dzisiejszej erze cyfrowej elektroniczne podpisywanie dokumentów jest niezbędne. Niezależnie od tego, czy jesteś profesjonalistą biznesowym, czy osobą prywatną zarządzającą umowami i porozumieniami, bezpieczne i atrakcyjne wizualnie podpisy są kluczowe. Ten samouczek przeprowadzi Cię przez proces podpisywania dokumentów PDF za pomocą naklejek tekstowych w GroupDocs.Signature for Java. Opanowanie tej umiejętności usprawni obieg dokumentów i umożliwi prezentowanie profesjonalnie podpisanych dokumentów w unikalnym formacie.

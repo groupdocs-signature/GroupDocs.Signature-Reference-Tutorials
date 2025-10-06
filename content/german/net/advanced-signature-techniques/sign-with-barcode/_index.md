@@ -5,8 +5,8 @@
 "title": "Sichere Barcode-Signaturen zu .NET-Dokumenten hinzufügen | Vollständige Anleitung"
 "url": "/de/net/advanced-signature-techniques/sign-with-barcode/"
 "weight": 11
+type: docs
 ---
-
 ## Wie können Barcode-Signaturen Ihre Dokumentensicherheit verbessern?
 
 In der heutigen digitalen Welt ist Dokumentensicherheit nicht nur praktisch, sondern unerlässlich. Barcode-Signaturen bieten eine einzigartige Möglichkeit, Ihre wichtigen Dateien zu authentifizieren und zu sichern. Mit GroupDocs.Signature für .NET ist die Implementierung dieser leistungsstarken Sicherheitsfunktionen überraschend einfach.

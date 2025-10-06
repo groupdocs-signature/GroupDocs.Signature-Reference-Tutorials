@@ -4,8 +4,8 @@
 "title": "Quản lý chữ ký tài liệu hiệu quả - Tìm kiếm chữ ký trong trường biểu mẫu với GroupDocs.Signature cho .NET"
 "url": "/vi/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Quản lý chữ ký tài liệu hiệu quả với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

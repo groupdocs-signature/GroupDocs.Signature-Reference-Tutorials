@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した .NET でのカスタム シリアル化による PDF メタデータ署名"
 "url": "/ja/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してカスタムシリアル化による PDF メタデータ署名を実装する
 
 ## 導入

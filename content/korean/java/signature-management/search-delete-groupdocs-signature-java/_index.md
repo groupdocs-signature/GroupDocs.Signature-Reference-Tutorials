@@ -4,8 +4,8 @@
 "title": "효율적인 서명 관리&#58; Java용 GroupDocs.Signature를 사용하여 디지털 서명을 검색하고 삭제하는 방법"
 "url": "/ko/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 효율적인 서명 관리: Java용 GroupDocs.Signature를 사용하여 디지털 서명을 검색하고 삭제하는 방법
 
 ## 소개

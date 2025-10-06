@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して Java でバーコードと QR コードで TAR アーカイブに署名する"
 "url": "/ja/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用してバーコードと QR コードで TAR アーカイブに署名する方法
 
 ## 導入

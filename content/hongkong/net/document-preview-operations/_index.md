@@ -5,8 +5,8 @@
 "title": "全面的文件預覽和管理操作"
 "url": "/zh-hant/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # 文件預覽操作
 
 ## 介紹

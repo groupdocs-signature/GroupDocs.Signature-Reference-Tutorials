@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 自动执行隐藏签名的文档预览"
 "url": "/zh/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 自动执行隐藏签名的文档预览
 
 ## 介绍

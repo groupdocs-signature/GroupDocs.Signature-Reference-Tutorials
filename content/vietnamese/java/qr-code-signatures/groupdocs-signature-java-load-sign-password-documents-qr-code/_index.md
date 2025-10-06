@@ -4,8 +4,8 @@
 "title": "Tải và ký tài liệu được bảo vệ bằng mật khẩu bằng mã QR trong Java với GroupDocs.Signature"
 "url": "/vi/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Tải và ký tài liệu được bảo vệ bằng mật khẩu bằng mã QR trong Java
 
 ## Cách tải và ký tài liệu được bảo vệ bằng mật khẩu bằng GroupDocs.Signature cho Java

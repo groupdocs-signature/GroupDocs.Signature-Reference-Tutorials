@@ -4,8 +4,8 @@
 "title": "Menerapkan Tanda Tangan Digital di .NET Menggunakan GroupDocs.Signature"
 "url": "/id/net/digital-signatures/digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Penandatanganan Dokumen dengan Tanda Tangan Digital Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

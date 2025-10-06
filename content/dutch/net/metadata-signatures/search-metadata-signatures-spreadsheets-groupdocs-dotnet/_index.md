@@ -4,8 +4,8 @@
 "title": "Metadatahandtekeningen in spreadsheets zoeken met GroupDocs.Signature voor .NET"
 "url": "/nl/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Metadatahandtekeningen zoeken in een spreadsheet met GroupDocs.Signature voor .NET
 
 ## Invoering

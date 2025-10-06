@@ -4,8 +4,8 @@
 "title": "Como excluir assinaturas de código de barras em Java usando GroupDocs.Signature"
 "url": "/pt/java/signature-management/delete-barcode-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Como excluir assinaturas de código de barras em Java usando GroupDocs.Signature
 
 ## Introdução

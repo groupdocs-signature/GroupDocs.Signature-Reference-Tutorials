@@ -4,8 +4,8 @@
 "title": "Recupera la cronologia dei processi dei documenti con GroupDocs.Signature per Java&#58; una guida completa"
 "url": "/it/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Recupera la cronologia dei processi dei documenti con GroupDocs.Signature per Java
 
 ## Introduzione

@@ -4,8 +4,8 @@
 "title": "PDF-metadatahandtekeningen zoeken en extraheren met GroupDocs in .NET"
 "url": "/nl/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF-metadatahandtekeningen zoeken en extraheren met GroupDocs in .NET
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Newtonsoft.Json ve GroupDocs.Signature ile .NET'te Özel JSON Serileştirmesi - Eksiksiz Bir Kılavuz"
 "url": "/tr/net/advanced-options/custom-json-serialization-newtonsoft-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Newtonsoft.Json ve GroupDocs.Signature Kullanarak .NET'te Özel JSON Serileştirmeye Yönelik Kapsamlı Kılavuz
 
 ## giriiş

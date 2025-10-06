@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ التوقيع الإلكتروني للمستندات في .NET باستخدام GroupDocs.Signature - دليل خطوة بخطوة"
 "url": "/ar/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التوقيع الإلكتروني للمستندات في .NET باستخدام GroupDocs.Signature: دليل خطوة بخطوة
 
 ## مقدمة

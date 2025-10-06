@@ -4,8 +4,8 @@
 "title": "Word-documenten ondertekenen met een QR-code en opslaan als ODT met GroupDocs.Signature voor .NET"
 "url": "/nl/net/qr-code-signatures/sign-word-docs-qr-code-save-odt-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Word-documenten ondertekenen met een QR-code en opslaan als ODT met GroupDocs.Signature voor .NET
 
 ## Invoering

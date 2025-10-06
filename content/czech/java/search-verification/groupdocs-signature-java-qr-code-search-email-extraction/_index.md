@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature pro Javu – efektivní vyhledávání podpisů QR kódů a extrakce e-mailů"
 "url": "/cs/java/search-verification/groupdocs-signature-java-qr-code-search-email-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí GroupDocs.Signature pro Javu: Vyhledávání podpisů QR kódů a extrakce e-mailů
 
 ## Zavedení

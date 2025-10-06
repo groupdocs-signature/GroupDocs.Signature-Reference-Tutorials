@@ -9,8 +9,8 @@ weight: 1
 url: "/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 categories: ["PDF Processing"]
 tags: ["csharp", "pdf-manipulation", "document-automation", "text-stamps"]
+type: docs
 ---
-
 # How to Add Text Stamp to PDF in C#
 
 ## Introduction

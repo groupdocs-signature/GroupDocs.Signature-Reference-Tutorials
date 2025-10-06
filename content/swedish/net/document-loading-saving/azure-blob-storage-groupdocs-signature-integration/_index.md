@@ -4,8 +4,8 @@
 "title": "Så här integrerar du Azure Blob Storage med GroupDocs.Signature för .NET - En steg-för-steg-guide"
 "url": "/sv/net/document-loading-saving/azure-blob-storage-groupdocs-signature-integration/"
 "weight": 1
+type: docs
 ---
-
 # Så här integrerar du Azure Blob Storage med GroupDocs.Signature för .NET: En steg-för-steg-guide
 
 ## Introduktion

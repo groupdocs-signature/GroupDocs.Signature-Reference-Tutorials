@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da Görüntü İmzaları Nasıl Özelleştirilir"
 "url": "/tr/java/image-signatures/customize-image-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanılarak Özelleştirilmiş Görüntü İmzaları Nasıl Uygulanır?
 
 ## giriiş

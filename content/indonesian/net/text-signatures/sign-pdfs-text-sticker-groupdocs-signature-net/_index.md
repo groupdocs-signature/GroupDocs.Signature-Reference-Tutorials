@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan Stiker Teks Menggunakan GroupDocs.Signature untuk .NET | Panduan Langkah demi Langkah"
 "url": "/id/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF dengan Stiker Teks Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

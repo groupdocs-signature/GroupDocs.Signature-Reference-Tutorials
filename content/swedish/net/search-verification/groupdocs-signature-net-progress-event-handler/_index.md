@@ -4,8 +4,8 @@
 "title": "Optimera dokumentsökningar med GroupDocs.Signature för .NET-implementeringshanteringsprocesser"
 "url": "/sv/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # Optimera dokumentsökningar med GroupDocs.Signature för .NET: Implementera Progress-händelsehanterare
 
 ## Introduktion

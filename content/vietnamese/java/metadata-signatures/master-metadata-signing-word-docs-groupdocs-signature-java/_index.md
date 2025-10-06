@@ -4,8 +4,8 @@
 "title": "Ký siêu dữ liệu chính trong tài liệu Word bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/metadata-signatures/master-metadata-signing-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ việc ký siêu dữ liệu trong tài liệu Word với GroupDocs.Signature cho Java
 
 ## Giới thiệu

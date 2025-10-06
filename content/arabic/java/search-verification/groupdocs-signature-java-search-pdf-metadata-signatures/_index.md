@@ -4,8 +4,8 @@
 "title": "كيفية البحث عن توقيعات بيانات PDF والتحقق منها باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/search-verification/groupdocs-signature-java-search-pdf-metadata-signatures/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ البحث عن توقيعات بيانات PDF باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

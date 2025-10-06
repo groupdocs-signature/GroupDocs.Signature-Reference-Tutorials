@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak Zaman Damgalı PDF Dijital İmzaları Nasıl Uygulanır?"
 "url": "/tr/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak Zaman Damgalı PDF Dijital İmzaları Nasıl Uygulanır?
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 刪除 PDF 中的數位簽章－綜合指南"
 "url": "/zh-hant/net/signature-management/delete-digital-signature-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 刪除 PDF 中的數位簽名
 
 ## 介紹

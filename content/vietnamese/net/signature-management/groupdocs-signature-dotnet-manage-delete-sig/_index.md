@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature cho .NET - Quản lý và xóa chữ ký tài liệu"
 "url": "/vi/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ Quản lý Chữ ký trong .NET với GroupDocs.Signature
 
 ## Giới thiệu

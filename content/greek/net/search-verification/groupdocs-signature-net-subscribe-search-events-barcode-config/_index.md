@@ -4,8 +4,8 @@
 "title": "Mastering GroupDocs.Signature για .NET Εγγραφή και Ρύθμιση Συμβάντων Αναζήτησης Barcode"
 "url": "/el/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # Mastering GroupDocs.Signature για .NET: Εγγραφή και διαμόρφωση συμβάντων αναζήτησης γραμμωτού κώδικα
 
 ## Εισαγωγή

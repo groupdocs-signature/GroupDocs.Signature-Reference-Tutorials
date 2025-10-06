@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile Dijital İmza Araması - Kapsamlı Bir Kılavuz"
 "url": "/tr/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Bir Belgede Dijital İmza Araması Nasıl Uygulanır?
 
 ## giriiş

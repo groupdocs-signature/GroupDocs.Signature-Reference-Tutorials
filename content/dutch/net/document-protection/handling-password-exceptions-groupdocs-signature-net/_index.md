@@ -4,8 +4,8 @@
 "title": "Omgaan met wachtwoorduitzonderingen in GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Omgaan met wachtwoorduitzonderingen in GroupDocs.Signature voor .NET
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Efektivní správa PDF podpisů v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/signature-management/mastering-pdf-signature-management-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Efektivní správa PDF podpisů v Javě s GroupDocs.Signature
 
 ## Zavedení

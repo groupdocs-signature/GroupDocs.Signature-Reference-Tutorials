@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用してバーコード署名付きの .NET ドキュメントを検証する"
 "url": "/ja/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して .NET でバーコード署名によるドキュメント検証を実装する方法
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": "Cách triển khai chữ ký điện tử trong .NET với GroupDocs.Signature - Hướng dẫn từng bước"
 "url": "/vi/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký điện tử trong .NET với GroupDocs.Signature: Hướng dẫn từng bước
 
 ## Giới thiệu

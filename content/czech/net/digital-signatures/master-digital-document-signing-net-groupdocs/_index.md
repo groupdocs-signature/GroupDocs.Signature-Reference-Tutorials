@@ -4,8 +4,8 @@
 "title": "Jak podepisovat digitální dokumenty v .NET pomocí GroupDocs.Signature API"
 "url": "/cs/net/digital-signatures/master-digital-document-signing-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat digitální dokumenty v .NET pomocí GroupDocs.Signature API
 ## Zavedení
 dnešním rychle se měnícím digitálním prostředí je zajištění pravosti dokumentů a zároveň zachování efektivity klíčové. Ať už jste vývojář automatizující pracovní postupy, nebo organizace usilující o zvýšení provozní efektivity, integrace digitálních podpisů může být transformační. Tento tutoriál vás provede používáním... **GroupDocs.Signature pro .NET** podepisovat dokumenty textovými podpisy ve formátech formulářových polí. Po absolvování tohoto návodu budete vědět, jak bezproblémově integrovat digitální podpisy do vašich aplikací .NET.

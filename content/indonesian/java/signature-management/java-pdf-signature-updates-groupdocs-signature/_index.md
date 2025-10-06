@@ -4,8 +4,8 @@
 "title": "Pembaruan Tanda Tangan PDF Java dengan GroupDocs.Signature&#58; Panduan Lengkap untuk Pengembang"
 "url": "/id/java/signature-management/java-pdf-signature-updates-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pembaruan Tanda Tangan PDF Java dengan GroupDocs.Signature
 Di dunia digital, memastikan keamanan dokumen sangatlah penting. Baik Anda seorang pengembang yang mengelola kontrak maupun organisasi yang menangani informasi sensitif, mengamankan dokumen Anda melalui tanda tangan sangatlah penting. **GroupDocs.Signature untuk Java** Menawarkan solusi andal untuk menambahkan, memodifikasi, dan memverifikasi tanda tangan dalam PDF dan format lainnya. Tutorial ini akan memandu Anda dalam menerapkan pembaruan tanda tangan PDF menggunakan GroupDocs.Signature untuk Java.
 

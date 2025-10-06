@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 更新 PDF 中的二維碼簽章－綜合指南"
 "url": "/zh-hant/java/qr-code-signatures/update-qr-code-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 更新 PDF 中的二維碼簽章：綜合指南
 
 ## 介紹

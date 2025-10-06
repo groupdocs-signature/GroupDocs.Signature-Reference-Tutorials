@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["GroupDocs.Signature"]
 tags: ["custom-logging", "document-signing", "dotnet", "debugging"]
+type: docs
 ---
-
 # GroupDocs.Signature Custom Logging .NET
 
 ## Introduction

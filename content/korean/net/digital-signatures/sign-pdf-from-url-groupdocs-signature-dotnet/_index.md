@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 URL에서 직접 PDF 문서에 서명"
 "url": "/ko/net/digital-signatures/sign-pdf-from-url-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 URL에서 직접 PDF 문서에 서명하는 방법
 
 오늘날처럼 빠르게 변화하는 디지털 환경에서 온라인 문서를 효율적으로 관리하고 처리하는 것은 전 세계 기업에 매우 중요합니다. 온라인에 저장된 문서를 다운로드하지 않고 서명하는 것은 일반적인 과제이며, 기존 방식으로는 번거로운 작업입니다. 이 튜토리얼에서는 강력한 GroupDocs.Signature for .NET 라이브러리를 사용하여 URL에서 바로 PDF 문서에 서명하는 방법을 안내합니다.

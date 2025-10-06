@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature สำหรับ .NET&#58; แยกและแสดงข้อมูลเอกสารอย่างมีประสิทธิภาพ"
 "url": "/th/net/preview-info/groupdocs-signature-net-document-info-extraction/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้ GroupDocs.Signature สำหรับ .NET: แยกและแสดงข้อมูลเอกสารอย่างมีประสิทธิภาพ
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ التوقيعات الرقمية في Excel باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التوقيع الرقمي في جدول بيانات باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

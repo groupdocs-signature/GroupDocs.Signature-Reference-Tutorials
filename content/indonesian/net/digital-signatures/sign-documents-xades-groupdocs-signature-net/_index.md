@@ -4,8 +4,8 @@
 "title": "Panduan Menandatangani Dokumen dengan XAdES Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/digital-signatures/sign-documents-xades-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Menandatangani Dokumen dengan XAdES Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

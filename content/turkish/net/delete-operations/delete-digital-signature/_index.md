@@ -5,8 +5,8 @@
 "title": ".NET'te Belgelerden Dijital İmzalar Nasıl Kaldırılır?"
 "url": "/tr/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # GroupDocs.Signature ile Belgelerinizden Dijital İmzaları Nasıl Kaldırabilirsiniz?
 
 ## Dijital İmza Yönetimi Neden Önemlidir?

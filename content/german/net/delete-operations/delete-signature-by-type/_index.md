@@ -5,8 +5,8 @@
 "title": "So entfernen Sie Dokumentsignaturen nach Typ in .NET"
 "url": "/de/net/delete-operations/delete-signature-by-type/"
 "weight": 12
+type: docs
 ---
-
 # So entfernen Sie Dokumentsignaturen nach Typ in .NET
 
 ## Warum Signaturmanagement bei der Dokumentenverarbeitung wichtig ist

@@ -4,8 +4,8 @@
 "title": "Menerapkan Pencatatan Kustom di GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Pencatatan Kustom di GroupDocs.Signature untuk .NET: Panduan Lengkap
 
 ## Perkenalan

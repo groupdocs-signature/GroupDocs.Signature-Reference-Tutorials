@@ -5,8 +5,8 @@
 "title": "Ověření QR kódu v dokumentech"
 "url": "/cs/net/verify-operations/verify-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## Zavedení
 
 Zabezpečení dokumentů je klíčovým aspektem moderních obchodních operací. QR kódy se staly stále populárnější metodou pro vkládání informací do dokumentů, u kterých lze ověřit jejich pravost. GroupDocs.Signature for .NET poskytuje výkonné a flexibilní řešení pro ověřování QR kódů vložených do dokumentů v různých formátech.

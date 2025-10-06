@@ -3,8 +3,8 @@
 "title": "Zelfstudies voor handtekeningbeheer voor GroupDocs.Signature .NET"
 "url": "/nl/net/signature-management/"
 "weight": 12
+type: docs
 ---
-
 # Zelfstudies voor handtekeningbeheer voor GroupDocs.Signature .NET
 
 Beheers het levenscyclusbeheer van handtekeningen met onze gedetailleerde GroupDocs.Signature .NET-tutorials. Deze stapsgewijze handleidingen laten zien hoe u handtekeningen van verschillende typen kunt bijwerken, verwijderen en beheren nadat ze op documenten zijn toegepast. Leer hoe u handtekeningeigenschappen kunt wijzigen, handtekeningen kunt verwijderen op basis van type of ID, batchbewerkingen kunt implementeren en metadata van handtekeningen kunt verwerken. Elke tutorial bevat werkende C#-codevoorbeelden die laten zien hoe u applicaties bouwt met uitgebreide mogelijkheden voor handtekeningbeheer, zodat uw documenten actueel blijven en gedurende hun hele levenscyclus correct worden onderhouden.

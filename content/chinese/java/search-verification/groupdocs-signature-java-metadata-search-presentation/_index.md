@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 在 PowerPoint 中掌握元数据签名搜索"
 "url": "/zh/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 在 PowerPoint 中掌握元数据签名搜索
 
 ## 介绍

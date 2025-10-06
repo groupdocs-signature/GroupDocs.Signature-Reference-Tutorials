@@ -4,8 +4,8 @@
 "title": ".NET에서 GroupDocs를 사용하여 PDF 메타데이터 서명 검색 및 추출"
 "url": "/ko/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET에서 GroupDocs를 사용하여 PDF 메타데이터 서명 검색 및 추출
 
 ## 소개

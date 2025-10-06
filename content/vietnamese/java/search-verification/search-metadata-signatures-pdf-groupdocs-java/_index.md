@@ -4,8 +4,8 @@
 "title": "Cách tìm kiếm chữ ký siêu dữ liệu trong tệp PDF bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/search-verification/search-metadata-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách tìm kiếm chữ ký siêu dữ liệu trong tài liệu PDF bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

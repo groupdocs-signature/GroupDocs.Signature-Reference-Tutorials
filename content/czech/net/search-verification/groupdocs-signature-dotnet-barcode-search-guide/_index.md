@@ -4,8 +4,8 @@
 "title": "Průvodce ověřováním podpisu čárovým kódem v GroupDocs.Signature pro .NET – vyhledávání hlavních dokumentů"
 "url": "/cs/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vyhledávání dokumentů pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

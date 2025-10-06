@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 掌握 Word 文件中的元資料搜索"
 "url": "/zh-hant/java/search-verification/master-metadata-search-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 掌握 Word 文件中的元資料搜索
 
 強大的 GroupDocs.Signature 庫可以簡化從 Word 文件中提取元資料的過程。本教學將指導您使用 Java 實作在 Word 文件中搜尋元資料簽名的功能。

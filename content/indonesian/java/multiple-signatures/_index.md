@@ -3,8 +3,8 @@
 "title": "Tutorial Tanda Tangan Ganda untuk GroupDocs.Signature Java"
 "url": "/id/java/multiple-signatures/"
 "weight": 10
+type: docs
 ---
-
 # Tutorial Tanda Tangan Ganda untuk GroupDocs.Signature Java
 
 Pelajari cara membuat alur kerja penandatanganan yang canggih dengan tutorial GroupDocs.Signature kami untuk beberapa tanda tangan di Java. Panduan komprehensif ini menunjukkan cara menggabungkan berbagai jenis tanda tangan dalam satu proses, menerapkan urutan penandatanganan yang berurutan, mengelola pengaturan tanda tangan yang kompleks, dan bekerja dengan dokumen multi-halaman. Setiap tutorial menyediakan contoh kode Java yang detail untuk skenario tanda tangan tingkat lanjut, membantu Anda membangun aplikasi pemrosesan dokumen yang andal dan mendukung persyaratan penandatanganan yang kompleks untuk kasus penggunaan perusahaan dan hukum.

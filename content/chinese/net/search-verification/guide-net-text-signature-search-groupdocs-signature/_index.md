@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 掌握 .NET 文本签名搜索——分步指南"
 "url": "/zh/net/search-verification/guide-net-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 .NET 文本签名搜索
 
 ## 介绍

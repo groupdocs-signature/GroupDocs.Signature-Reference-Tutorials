@@ -4,8 +4,8 @@
 "title": "كيفية استرداد سجل معالجة المستندات باستخدام GroupDocs.Signature لـ .NET - دليل خطوة بخطوة"
 "url": "/ar/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # كيفية استرداد سجل عملية المستند باستخدام GroupDocs.Signature لـ .NET: دليل خطوة بخطوة
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Beheers dynamische documenthandtekeningen met GroupDocs.Signature voor Java's QR-code-ondertekeningstechnieken"
 "url": "/nl/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Beheers dynamische documenthandtekeningen met GroupDocs.Signature voor Java: QR-code-ondertekeningstechnieken
 
 In de huidige digitale wereld is het efficiënt beveiligen en authenticeren van elektronische documenten essentieel. **GroupDocs.Signature voor Java** biedt een krachtige oplossing om snel PDF's te ondertekenen en tegelijkertijd de authenticiteit ervan te garanderen met behulp van QR-codehandtekeningen op verschillende posities.

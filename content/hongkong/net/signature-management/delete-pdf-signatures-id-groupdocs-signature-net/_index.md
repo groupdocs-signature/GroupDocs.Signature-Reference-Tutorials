@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 按 ID 刪除 PDF 簽名"
 "url": "/zh-hant/net/signature-management/delete-pdf-signatures-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 按 ID 刪除 PDF 簽名
 
 ## 介紹

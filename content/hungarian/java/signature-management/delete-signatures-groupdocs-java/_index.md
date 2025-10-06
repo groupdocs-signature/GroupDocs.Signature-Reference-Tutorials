@@ -4,8 +4,8 @@
 "title": "Hogyan törölhetünk meghatározott aláírásokat egy dokumentumból a GroupDocs.Signature for Java használatával?"
 "url": "/hu/java/signature-management/delete-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan törölhetünk bizonyos típusú aláírásokat egy dokumentumból a GroupDocs.Signature for Java használatával?
 
 ## Bevezetés

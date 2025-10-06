@@ -4,8 +4,8 @@
 "title": "Implementar assinaturas de texto PDF em Java usando GroupDocs.Signature - Um guia completo"
 "url": "/pt/java/text-signatures/pdf-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementando assinaturas de texto PDF em Java com GroupDocs.Signature
 
 No cenário digital atual, assinar documentos com segurança é essencial para processos empresariais como a confirmação de contratos ou a verificação de acordos. Adicionar uma assinatura de texto garante autenticidade e integridade. Este guia completo o guiará pela implementação de assinaturas de texto em PDF usando **GroupDocs.Signature para Java**, oferecendo funcionalidade e personalização.

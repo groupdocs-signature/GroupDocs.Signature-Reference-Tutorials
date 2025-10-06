@@ -5,8 +5,8 @@
 "title": "So löschen Sie Signaturen nach ID in .NET-Dokumenten"
 "url": "/de/net/delete-operations/delete-signature-by-id/"
 "weight": 11
+type: docs
 ---
-
 # So löschen Sie Signaturen nach ID in .NET-Dokumenten
 
 ## Warum sollten Sie Unterschriften aus Dokumenten entfernen?

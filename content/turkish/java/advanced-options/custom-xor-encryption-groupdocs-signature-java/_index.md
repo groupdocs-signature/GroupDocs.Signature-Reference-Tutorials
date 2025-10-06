@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature ile Özel XOR Şifrelemesi - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature ile Özel XOR Şifrelemesini Uygulamaya Yönelik Kapsamlı Kılavuz
 
 ## giriiş

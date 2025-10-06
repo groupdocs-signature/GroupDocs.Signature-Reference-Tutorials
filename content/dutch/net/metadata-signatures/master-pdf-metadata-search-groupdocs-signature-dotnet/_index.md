@@ -4,8 +4,8 @@
 "title": "PDF-metadatahandtekeningen zoeken met GroupDocs.Signature voor .NET"
 "url": "/nl/net/metadata-signatures/master-pdf-metadata-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF-metadatahandtekeningen zoeken met GroupDocs.Signature voor .NET
 
 ## Invoering

@@ -5,8 +5,8 @@
 "title": "Dodawanie bezpiecznych podpisów kodem kreskowym do dokumentów .NET | Kompletny przewodnik"
 "url": "/pl/net/advanced-signature-techniques/sign-with-barcode/"
 "weight": 11
+type: docs
 ---
-
 ## W jaki sposób podpisy kodem kreskowym mogą zwiększyć bezpieczeństwo Twoich dokumentów?
 
 dzisiejszym cyfrowym świecie bezpieczeństwo dokumentów to nie tylko miły dodatek – to konieczność. Podpisy kodem kreskowym oferują unikalny sposób uwierzytelniania i zabezpieczania ważnych plików. Dzięki GroupDocs.Signature for .NET wdrożenie tych zaawansowanych funkcji bezpieczeństwa jest zaskakująco proste.

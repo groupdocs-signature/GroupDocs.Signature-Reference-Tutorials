@@ -4,8 +4,8 @@
 "title": "Optimalkan Pencarian Dokumen dengan GroupDocs.Signature untuk .NET; Terapkan Penangan Peristiwa Progress"
 "url": "/id/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # Optimalkan Pencarian Dokumen dengan GroupDocs.Signature untuk .NET: Terapkan Penangan Peristiwa Progress
 
 ## Perkenalan

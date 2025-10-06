@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 驗證 .NET 中的數位簽章－完整指南"
 "url": "/zh-hant/net/digital-signatures/digital-signature-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 驗證 .NET 中的數位簽章：完整指南
 
 ## 介紹

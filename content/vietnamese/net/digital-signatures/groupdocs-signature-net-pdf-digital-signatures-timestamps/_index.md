@@ -4,8 +4,8 @@
 "title": "Cách triển khai chữ ký số PDF có dấu thời gian bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký số PDF có dấu thời gian bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

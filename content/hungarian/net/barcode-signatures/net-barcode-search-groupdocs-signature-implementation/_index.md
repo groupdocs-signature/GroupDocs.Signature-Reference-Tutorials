@@ -4,8 +4,8 @@
 "title": ".NET vonalkódkeresés megvalósítása a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # .NET vonalkódkeresés megvalósítása a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

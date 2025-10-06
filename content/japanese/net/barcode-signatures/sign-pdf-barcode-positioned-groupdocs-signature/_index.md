@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して、正確に配置されたバーコードで PDF に署名する方法"
 "url": "/ja/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して、正確に配置されたバーコードで PDF ドキュメントに署名する方法
 
 ## 導入

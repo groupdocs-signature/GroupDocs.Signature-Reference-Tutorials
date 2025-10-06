@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da Metin İmzaları Nasıl Silinir?"
 "url": "/tr/java/signature-management/delete-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java'da Metin İmzaları Nasıl Silinir?
 
 ## giriiş

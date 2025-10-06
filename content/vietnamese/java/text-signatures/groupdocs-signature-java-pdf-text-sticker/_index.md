@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng nhãn dán văn bản sử dụng GroupDocs.Signature cho Java - Hướng dẫn đầy đủ"
 "url": "/vi/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF bằng nhãn dán văn bản sử dụng GroupDocs.Signature cho Java: Hướng dẫn đầy đủ
 
 ## Giới thiệu

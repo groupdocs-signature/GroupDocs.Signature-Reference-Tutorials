@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Beberapa Tanda Tangan dari PDF Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/signature-management/delete-multiple-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Beberapa Tanda Tangan dari PDF Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

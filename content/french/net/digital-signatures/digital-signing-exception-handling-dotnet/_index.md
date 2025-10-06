@@ -4,8 +4,8 @@
 "title": "Signature numérique avec gestion des exceptions dans .NET à l'aide de GroupDocs.Signature"
 "url": "/fr/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Signature numérique avec gestion des exceptions dans .NET à l'aide de GroupDocs.Signature
 
 ## Introduction

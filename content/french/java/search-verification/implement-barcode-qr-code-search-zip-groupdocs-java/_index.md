@@ -4,8 +4,8 @@
 "title": "Implémenter la recherche par codes-barres et codes QR dans les archives ZIP à l'aide de GroupDocs pour les développeurs Java"
 "url": "/fr/java/search-verification/implement-barcode-qr-code-search-zip-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Implémenter la recherche par codes-barres et codes QR dans les archives ZIP avec GroupDocs pour Java
 ## Introduction
 Dans le monde numérique actuel, gérer et vérifier efficacement l'authenticité des documents est crucial. Qu'il s'agisse de documents juridiques, de factures ou de contrats stockés dans des archives ZIP, trouver des codes-barres et des codes QR spécifiques peut s'avérer complexe sans les outils appropriés. Ce tutoriel vous guide dans l'utilisation de GroupDocs.Signature pour Java pour rechercher facilement des signatures de codes-barres et de codes QR dans des fichiers ZIP.

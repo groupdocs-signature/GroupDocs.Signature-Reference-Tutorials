@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 验证档案中的文档签名"
 "url": "/zh/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 验证档案中的文档签名
 
 ## 介绍

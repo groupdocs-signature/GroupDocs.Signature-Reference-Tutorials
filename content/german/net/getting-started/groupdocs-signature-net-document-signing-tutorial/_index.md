@@ -4,8 +4,8 @@
 "title": "So implementieren Sie die elektronische Dokumentsignatur in .NET mit GroupDocs.Signature – Eine Schritt-für-Schritt-Anleitung"
 "url": "/de/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie die elektronische Dokumentensignatur in .NET mit GroupDocs.Signature: Eine Schritt-für-Schritt-Anleitung
 
 ## Einführung

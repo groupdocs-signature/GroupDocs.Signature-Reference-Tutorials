@@ -4,8 +4,8 @@
 "title": "So überprüfen Sie Textsignaturen in Dokumenten mit GroupDocs.Signature für .NET"
 "url": "/de/net/search-verification/verify-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So überprüfen Sie eine Textsignatur in Dokumenten mit GroupDocs.Signature für .NET
 
 ## Einführung

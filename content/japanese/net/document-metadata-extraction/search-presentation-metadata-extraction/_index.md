@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature でプレゼンテーションのメタデータを簡単に抽出"
 "url": "/ja/net/document-metadata-extraction/search-presentation-metadata-extraction/"
 "weight": 12
+type: docs
 ---
-
 # GroupDocs.Signature を使用してプレゼンテーションからメタデータを抽出する方法
 
 ## プレゼンテーションメタデータがプロジェクトにとって重要な理由

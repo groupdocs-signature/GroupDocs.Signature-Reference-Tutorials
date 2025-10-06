@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng chữ ký trường biểu mẫu trong C# với GroupDocs.Signature cho .NET"
 "url": "/vi/net/form-field-signatures/sign-pdf-form-field-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng chữ ký trường biểu mẫu với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

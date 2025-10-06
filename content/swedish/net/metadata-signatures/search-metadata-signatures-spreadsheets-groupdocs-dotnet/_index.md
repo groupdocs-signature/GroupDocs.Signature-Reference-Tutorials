@@ -4,8 +4,8 @@
 "title": "Så här söker du efter metadatasignaturer i kalkylblad med GroupDocs.Signature för .NET"
 "url": "/sv/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Så här söker du efter metadatasignaturer i ett kalkylblad med GroupDocs.Signature för .NET
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "Java 证书验证指南使用 GroupDocs.Signature 进行安全文档认证"
 "url": "/zh/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 实现 Java 证书验证
 
 ## 介绍

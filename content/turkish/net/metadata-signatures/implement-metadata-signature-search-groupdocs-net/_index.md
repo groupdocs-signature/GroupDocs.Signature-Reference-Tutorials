@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak PowerPoint Sunumlarında Meta Veri İmza Araması Nasıl Uygulanır?"
 "url": "/tr/net/metadata-signatures/implement-metadata-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile PowerPoint'te Meta Veri İmza Araması Nasıl Uygulanır?
 
 ## giriiş

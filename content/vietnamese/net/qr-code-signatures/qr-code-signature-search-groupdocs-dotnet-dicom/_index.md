@@ -4,8 +4,8 @@
 "title": "Tìm kiếm chữ ký mã QR trong DICOM với GroupDocs.Signature cho .NET - Hướng dẫn đầy đủ"
 "url": "/vi/net/qr-code-signatures/qr-code-signature-search-groupdocs-dotnet-dicom/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai tìm kiếm chữ ký mã QR trong hình ảnh nhiều lớp bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["GroupDocs.Signature", ".NET", "signature verification", "digital signatures", "document security"]
+type: docs
 ---
-
 # GroupDocs.Signature .NET Tutorial - Complete Guide to Document Signature Verification
 
 Document signature verification is crucial for maintaining data integrity and ensuring authentic communications in today's digital landscape. Whether you're building enterprise document management systems, legal compliance tools, or security-focused applications, you need reliable ways to validate that documents haven't been tampered with after signing.

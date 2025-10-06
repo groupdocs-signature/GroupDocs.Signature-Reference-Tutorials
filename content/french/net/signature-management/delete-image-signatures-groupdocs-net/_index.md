@@ -4,8 +4,8 @@
 "title": "Comment supprimer des signatures d'image dans .NET à l'aide de GroupDocs.Signature – Guide étape par étape"
 "url": "/fr/net/signature-management/delete-image-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Comment supprimer des signatures d'image dans .NET à l'aide de GroupDocs.Signature : guide étape par étape
 
 Dans le paysage numérique actuel, la gestion des signatures de documents est essentielle pour garantir la sécurité et l'authenticité des opérations commerciales. Si vous traitez des documents contenant plusieurs signatures d'image, une gestion efficace peut vous faire gagner du temps et des ressources. Ce guide complet vous guidera dans leur utilisation. **GroupDocs.Signature pour .NET** Pour initialiser une instance de signature, rechercher des signatures d'image et en supprimer certaines selon certaines conditions. À la fin de ce tutoriel, vous maîtriserez la rationalisation efficace de ce processus.

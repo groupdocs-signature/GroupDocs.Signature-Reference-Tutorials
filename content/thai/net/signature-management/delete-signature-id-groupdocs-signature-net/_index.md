@@ -4,8 +4,8 @@
 "title": "ลบลายเซ็นอย่างมีประสิทธิภาพโดยใช้ ID โดยใช้ GroupDocs.Signature สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน"
 "url": "/th/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลบลายเซ็นอย่างมีประสิทธิภาพโดยใช้ ID โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

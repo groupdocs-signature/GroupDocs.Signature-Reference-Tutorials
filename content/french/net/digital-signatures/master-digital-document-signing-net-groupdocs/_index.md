@@ -4,8 +4,8 @@
 "title": "Comment signer des documents numériques dans .NET à l'aide de l'API GroupDocs.Signature"
 "url": "/fr/net/digital-signatures/master-digital-document-signing-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer des documents numériques dans .NET avec l'API GroupDocs.Signature
 ## Introduction
 Dans l'environnement numérique actuel en constante évolution, garantir l'authenticité des documents tout en préservant l'efficacité est crucial. Que vous soyez un développeur automatisant ses workflows ou une organisation cherchant à améliorer son efficacité opérationnelle, l'intégration des signatures numériques peut être transformatrice. Ce tutoriel vous guidera dans leur utilisation. **GroupDocs.Signature pour .NET** Pour signer des documents avec des signatures textuelles dans des formats de champs de formulaire. À la fin de cette procédure pas à pas, vous saurez intégrer facilement des signatures numériques à vos applications .NET.

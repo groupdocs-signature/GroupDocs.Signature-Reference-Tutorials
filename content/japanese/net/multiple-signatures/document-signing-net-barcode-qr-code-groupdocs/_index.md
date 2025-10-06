@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した .NET でのドキュメント署名のマスター&#58; バーコードと QR コード署名"
 "url": "/ja/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET でのドキュメント署名のマスター: GroupDocs.Signature を使用したバーコードおよび QR コード署名の実装
 
 ## 導入

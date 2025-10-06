@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["qr-code", "digital-signatures", "dotnet", "groupdocs", "document-verification"]
+type: docs
 ---
-
 # QR Code Signature .NET Tutorial - Complete Implementation
 
 ## Why QR Code Signatures Matter in Modern Development

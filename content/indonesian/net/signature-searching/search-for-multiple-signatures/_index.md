@@ -5,8 +5,8 @@
 "title": "Mencari Beberapa Jenis Tanda Tangan dalam Dokumen"
 "url": "/id/net/signature-searching/search-for-multiple-signatures/"
 "weight": 14
+type: docs
 ---
-
 ## Perkenalan
 
 Dalam sistem manajemen dokumen modern, kemampuan untuk mencari dan memvalidasi berbagai jenis tanda tangan dalam satu dokumen semakin penting. Organisasi sering menggunakan berbagai jenis tanda tangan—seperti tanda tangan digital, tanda tangan teks, kode batang, kode QR, dan lainnya—untuk meningkatkan keamanan dokumen dan menyederhanakan proses verifikasi. GroupDocs.Signature untuk .NET menyediakan kerangka kerja canggih yang memungkinkan pengembang untuk menerapkan fungsionalitas pencarian tanda tangan yang komprehensif di berbagai format dokumen.

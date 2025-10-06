@@ -4,8 +4,8 @@
 "title": "كيفية اكتشاف توقيعات رمز الاستجابة السريعة لبطاقة MeCard في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/qr-code-signatures/detect-qr-code-mecard-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية اكتشاف توقيعات رمز الاستجابة السريعة لبطاقة MeCard باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

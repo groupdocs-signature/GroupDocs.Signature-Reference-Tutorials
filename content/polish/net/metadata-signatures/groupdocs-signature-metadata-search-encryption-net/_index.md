@@ -4,8 +4,8 @@
 "title": "Wdrażanie wyszukiwania podpisów metadanych z szyfrowaniem przy użyciu GroupDocs dla platformy .NET"
 "url": "/pl/net/metadata-signatures/groupdocs-signature-metadata-search-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Kompleksowy przewodnik: Implementacja wyszukiwania podpisów metadanych z szyfrowaniem przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

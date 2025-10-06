@@ -4,8 +4,8 @@
 "title": "Implémenter la vérification de signature de texte dans .NET à l'aide de GroupDocs.Signature pour la gestion sécurisée des documents"
 "url": "/fr/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Implémenter la vérification de signature de texte dans .NET à l'aide de GroupDocs.Signature
 ## Recherche et vérification
 **URL SEO**:implémenter-le-groupe-de-vérification-de-signature-de-texte-docs-net

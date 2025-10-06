@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory pomocí QR kódů pomocí GroupDocs.Signature v Javě – podrobný návod"
 "url": "/cs/java/qr-code-signatures/sign-pdf-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat knihovnu podpisů Java: Načtení a podepsání PDF s možnostmi QR kódu pomocí GroupDocs.Signature
 
 dnešní digitální krajině je zajištění integrity dokumentů klíčové, zejména při práci s citlivými informacemi. Přidání elektronických podpisů nejen zvyšuje bezpečnost, ale také zvyšuje efektivitu. Tento podrobný návod vás provede používáním **GroupDocs.Signature pro Javu** načíst a podepsat soubory PDF s možnostmi QR kódu.

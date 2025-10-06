@@ -4,8 +4,8 @@
 "title": "Metaadat-aláírások keresése prezentációkban a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Metaadat-aláírások keresése prezentációkban a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

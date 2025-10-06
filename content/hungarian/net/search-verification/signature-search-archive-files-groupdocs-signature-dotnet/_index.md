@@ -4,8 +4,8 @@
 "title": "Hatékony aláírás-keresés archív fájlokban a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hatékony aláírás-keresés archív fájlokban a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Cara Membatalkan Verifikasi Dokumen Menggunakan GroupDocs.Signature untuk Panduan Penanganan Peristiwa .NET"
 "url": "/id/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Membatalkan Verifikasi Dokumen Menggunakan GroupDocs.Signature untuk .NET: Panduan Penanganan Peristiwa
 
 ## Perkenalan

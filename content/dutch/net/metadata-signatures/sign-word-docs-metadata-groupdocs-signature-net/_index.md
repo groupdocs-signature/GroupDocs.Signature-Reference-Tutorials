@@ -4,8 +4,8 @@
 "title": "Word-documenten ondertekenen met metadata met GroupDocs.Signature voor .NET | Stapsgewijze handleiding"
 "url": "/nl/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Word-documenten ondertekenen met metagegevens met GroupDocs.Signature voor .NET
 
 ## Invoering

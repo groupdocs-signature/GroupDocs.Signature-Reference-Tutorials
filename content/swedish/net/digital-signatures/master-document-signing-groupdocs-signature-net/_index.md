@@ -4,8 +4,8 @@
 "title": "Signering och verifiering av huvuddokument med GroupDocs.Signature för .NET"
 "url": "/sv/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Signering och verifiering av huvuddokument med GroupDocs.Signature för .NET
 
 ## Hur man bemästrar dokumentsignering och verifiering med GroupDocs.Signature för .NET

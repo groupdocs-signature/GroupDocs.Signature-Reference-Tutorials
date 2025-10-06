@@ -4,8 +4,8 @@
 "title": "Mengamankan Dokumen dengan Tanda Air Teks Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Tanda Air Teks dalam Dokumen Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

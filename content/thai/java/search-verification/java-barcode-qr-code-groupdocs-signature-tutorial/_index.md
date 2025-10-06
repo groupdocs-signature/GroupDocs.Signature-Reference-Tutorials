@@ -4,8 +4,8 @@
 "title": "คู่มือการค้นหาบาร์โค้ดและรหัส QR ของ Java พร้อม GroupDocs.Signature เพื่อการตรวจสอบเอกสารอย่างปลอดภัย"
 "url": "/th/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # การนำ Java ไปใช้กับการค้นหาบาร์โค้ด, QR Code และลายเซ็นข้อมูลเมตาด้วย GroupDocs.Signature
 
 ## การแนะนำ

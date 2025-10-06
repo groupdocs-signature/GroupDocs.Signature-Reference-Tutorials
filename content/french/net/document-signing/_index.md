@@ -5,8 +5,8 @@
 "title": "Signature de documents avec métadonnées dans .NET"
 "url": "/fr/net/document-signing/"
 "weight": 24
+type: docs
 ---
-
 ## Introduction
 
 Dans le monde numérique actuel, garantir l'authenticité, la traçabilité et l'intégrité des documents est devenu essentiel pour les entreprises et les organisations. Les signatures de métadonnées offrent un moyen puissant et discret d'intégrer des informations d'identification directement dans les documents, renforçant ainsi la sécurité sans altérer leur apparence visuelle.

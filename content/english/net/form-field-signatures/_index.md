@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing"]
 tags: ["form-fields", "pdf-signatures", "groupdocs", "csharp-tutorial"]
+type: docs
 ---
-
 # PDF Form Field Signatures .NET
 
 Building secure, interactive PDF documents with form field signatures can be tricky. You're dealing with user input validation, signature placement, and ensuring document integrity—all while maintaining a smooth user experience. That's where **PDF form field signatures .NET** solutions become essential for modern applications.

@@ -4,8 +4,8 @@
 "title": "Több aláírás hatékony frissítése PDF-ekben a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/signature-management/update-multiple-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Több aláírás hatékony frissítése PDF-ekben a GroupDocs.Signature for Java használatával
 
 Az elektronikus aláírások kezelése kulcsfontosságú a digitális munkafolyamatokra támaszkodó vállalkozások számára, különösen a szerződések vagy a hivatalos papírmunka feldolgozása során. **GroupDocs.Signature Java-hoz** leegyszerűsíti több aláírás hatékony frissítését egy PDF dokumentumban. Ez az oktatóanyag végigvezeti Önt a folyamaton.

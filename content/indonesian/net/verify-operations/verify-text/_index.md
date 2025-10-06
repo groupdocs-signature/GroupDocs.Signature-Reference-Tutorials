@@ -5,8 +5,8 @@
 "title": "Verifikasi Tanda Tangan Teks dalam Dokumen"
 "url": "/id/net/verify-operations/verify-text/"
 "weight": 13
+type: docs
 ---
-
 ## Perkenalan
 
 Tanda tangan teks, meskipun seringkali lebih sederhana daripada tanda tangan digital atau elektronik, memainkan peran penting dalam manajemen dan verifikasi dokumen. Baik itu tanda air, teks footer, atau pola konten tertentu, validasi keberadaan dan integritas tanda tangan teks merupakan aspek penting dalam proses verifikasi dokumen.

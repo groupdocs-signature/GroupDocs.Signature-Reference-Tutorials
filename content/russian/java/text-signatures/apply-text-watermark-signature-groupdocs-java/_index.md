@@ -4,8 +4,8 @@
 "title": "Применение текстовых водяных знаков с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Как применить подпись в виде текстового водяного знака с помощью GroupDocs.Signature для Java
 
 ## Введение

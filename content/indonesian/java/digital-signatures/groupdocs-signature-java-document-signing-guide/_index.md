@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/digital-signatures/groupdocs-signature-java-document-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen Menggunakan GroupDocs.Signature untuk Java: Panduan Lengkap
 
 ## Perkenalan

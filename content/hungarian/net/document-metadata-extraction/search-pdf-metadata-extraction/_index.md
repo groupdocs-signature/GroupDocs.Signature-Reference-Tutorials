@@ -5,8 +5,8 @@
 "title": "PDF metaadat-aláírások kinyerése .NET-ben"
 "url": "/hu/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # PDF metaadat-aláírások kinyerése és keresése
 
 ## Miért fontosak a PDF metaadatok a dokumentumok szempontjából

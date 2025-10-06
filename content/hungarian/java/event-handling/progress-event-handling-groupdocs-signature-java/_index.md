@@ -4,8 +4,8 @@
 "title": "Folyamat eseménykezelésének megvalósítása dokumentumaláírásban GroupDocs.Signature for Java segítségével"
 "url": "/hu/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Folyamat eseménykezelésének megvalósítása dokumentumaláírásban GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

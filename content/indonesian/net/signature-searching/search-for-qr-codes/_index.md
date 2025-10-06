@@ -5,8 +5,8 @@
 "title": "Cari Tanda Tangan Kode QR di Dokumen"
 "url": "/id/net/signature-searching/search-for-qr-codes/"
 "weight": 15
+type: docs
 ---
-
 ## Perkenalan
 
 Dalam ekosistem dokumen digital saat ini, tanda tangan kode QR telah menjadi alat yang sangat berharga untuk mengintegrasikan informasi, autentikasi, dan meningkatkan keamanan dokumen. GroupDocs.Signature untuk .NET menyediakan API canggih bagi pengembang untuk mencari dan mengekstrak kode QR dari berbagai format dokumen, yang memungkinkan analisis dokumen tingkat lanjut dan kemampuan verifikasi dalam aplikasi .NET.

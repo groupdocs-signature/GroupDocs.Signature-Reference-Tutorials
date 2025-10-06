@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ जावा में छवि हस्ताक्षर खोज को कार्यान्वित करने के लिए मार्गदर्शिका"
 "url": "/hi/java/search-verification/search-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ जावा में छवि हस्ताक्षर खोज को कार्यान्वित करने के लिए मार्गदर्शिका
 
 ## परिचय

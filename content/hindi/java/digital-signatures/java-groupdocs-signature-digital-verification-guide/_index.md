@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ Java डिजिटल दस्तावेज़ सत्यापन एक व्यापक गाइड"
 "url": "/hi/java/digital-signatures/java-groupdocs-signature-digital-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके Java डिजिटल दस्तावेज़ सत्यापन कैसे लागू करें
 
 ## परिचय

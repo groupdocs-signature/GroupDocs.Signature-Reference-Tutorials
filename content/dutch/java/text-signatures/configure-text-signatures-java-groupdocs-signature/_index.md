@@ -4,8 +4,8 @@
 "title": "Hoe u teksthandtekeningen in Java configureert met behulp van GroupDocs.Signature&#58; een complete handleiding"
 "url": "/nl/java/text-signatures/configure-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Teksthandtekeningen configureren in Java met GroupDocs.Signature: een uitgebreide handleiding
 
 ## Invoering

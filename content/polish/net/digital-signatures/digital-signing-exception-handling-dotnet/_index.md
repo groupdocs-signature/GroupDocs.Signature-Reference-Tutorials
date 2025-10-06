@@ -4,8 +4,8 @@
 "title": "Podpisywanie cyfrowe z obsługą wyjątków w środowisku .NET przy użyciu GroupDocs.Signature"
 "url": "/pl/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Podpis cyfrowy z obsługą wyjątków w .NET przy użyciu GroupDocs.Signature
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用した Word ドキュメントのメタデータ検索のマスター"
 "url": "/ja/java/search-verification/master-metadata-search-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用した Word 文書のメタデータ検索の習得
 
 強力なGroupDocs.Signatureライブラリを使えば、Word文書からのメタデータ抽出を効率化できます。このチュートリアルでは、Javaを使ってWord文書内のメタデータ署名を検索する機能を実装する方法を説明します。

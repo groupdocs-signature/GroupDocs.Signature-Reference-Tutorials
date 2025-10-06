@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Kimliğe Göre Metin İmzası Nasıl Silinir?"
 "url": "/tr/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Kimliğe Göre Metin İmzası Nasıl Silinir?
 
 ## giriiş

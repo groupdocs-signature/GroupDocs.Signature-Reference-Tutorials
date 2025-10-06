@@ -4,8 +4,8 @@
 "title": "Ψηφιακή υπογραφή εγγράφων χρησιμοποιώντας το GroupDocs.Signature για .NET™&#58; Ένας πλήρης οδηγός"
 "url": "/el/net/digital-signatures/digitally-sign-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ψηφιακά έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

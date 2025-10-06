@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용한 Java QR 코드 서명 추출 종합 가이드"
 "url": "/ko/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java QR 코드 서명 추출 구현
 
 ## 소개

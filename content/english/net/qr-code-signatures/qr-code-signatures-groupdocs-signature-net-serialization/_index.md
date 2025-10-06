@@ -9,8 +9,8 @@ weight: 1
 url: "/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 categories: [".NET Development"]
 tags: ["GroupDocs.Signature", "QR-Codes", "Document-Security", "Serialization"]
+type: docs
 ---
-
 # QR Code Signatures .NET Custom Serialization
 
 ## Introduction

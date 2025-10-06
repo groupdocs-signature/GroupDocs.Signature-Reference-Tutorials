@@ -4,8 +4,8 @@
 "title": "Zvládnutí ověřování dokumentů pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí ověřování dokumentů pomocí GroupDocs.Signature pro .NET: Komplexní průvodce
 
 ## Zavedení

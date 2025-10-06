@@ -4,8 +4,8 @@
 "title": "Làm chủ Đăng ký Sự kiện trong Ký tài liệu với GroupDocs.Signature cho .NET | Hướng dẫn từng bước"
 "url": "/vi/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ Đăng ký sự kiện trong Ký tài liệu với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

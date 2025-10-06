@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Belgelerde QR Kod İmza Aramada Ustalaşma"
 "url": "/tr/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Belge Aramada Ustalaşma: .NET için GroupDocs.Signature Kullanarak EPC Verileriyle QR Kod İmzalarını Bulma
 
 ## giriiş

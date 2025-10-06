@@ -4,8 +4,8 @@
 "title": "Tekstwatermerkhandtekeningen toepassen met GroupDocs.Signature voor Java"
 "url": "/nl/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Een tekstwatermerkhandtekening toepassen met GroupDocs.Signature voor Java
 
 ## Invoering

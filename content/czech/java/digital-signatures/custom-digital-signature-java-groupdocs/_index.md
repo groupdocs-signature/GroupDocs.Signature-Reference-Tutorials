@@ -4,8 +4,8 @@
 "title": "Implementace vlastních digitálních podpisů v Javě pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/java/digital-signatures/custom-digital-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementace vlastních digitálních podpisů v Javě pomocí GroupDocs.Signature
 
 V dnešní digitální době je zajištění integrity a autenticity dokumentů klíčové. Tradiční podpisy často selhávají, pokud jde o ověřování legitimity dokumentů sdílených elektronicky. Tato komplexní příručka vás provede implementací vlastního digitálního podpisu pomocí... **GroupDocs.Signature pro Javu**, což poskytuje zvýšenou úroveň zabezpečení a profesionality vašich digitálních dokumentů.

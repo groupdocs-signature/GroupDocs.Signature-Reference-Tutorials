@@ -4,8 +4,8 @@
 "title": "Támogatott fájlformátumok lekérése és megjelenítése a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Támogatott fájlformátumok lekérése és megjelenítése a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

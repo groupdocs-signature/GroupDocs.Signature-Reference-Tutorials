@@ -4,8 +4,8 @@
 "title": "Поиск штрихкодов Java в PDF-файлах с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/search-verification/java-barcode-search-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать поиск штрихкодов Java в PDF-файлах с помощью GroupDocs.Signature для Java
 
 ## Введение

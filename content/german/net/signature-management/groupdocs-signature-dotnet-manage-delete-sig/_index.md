@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature für .NET&#58; Verwalten und Löschen von Dokumentsignaturen"
 "url": "/de/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 "weight": 1
+type: docs
 ---
-
 # Signaturverwaltung in .NET mit GroupDocs.Signature meistern
 
 ## Einführung

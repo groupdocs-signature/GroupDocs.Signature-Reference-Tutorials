@@ -4,8 +4,8 @@
 "title": "รักษาความปลอดภัยลายเซ็นเมตาข้อมูล Word ใน Java ด้วย GroupDocs คู่มือฉบับสมบูรณ์"
 "url": "/th/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # การรักษาความปลอดภัยลายเซ็นข้อมูลเมตาของ Word ใน Java ด้วย GroupDocs
 
 ## การแนะนำ

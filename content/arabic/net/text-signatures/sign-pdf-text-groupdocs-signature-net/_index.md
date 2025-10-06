@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات PDF مع نص باستخدام GroupDocs.Signature لـ .NET - دليل خطوة بخطوة"
 "url": "/ar/net/text-signatures/sign-pdf-text-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستند بنص باستخدام GroupDocs.Signature لـ .NET: دليل خطوة بخطوة
 
 ## مقدمة

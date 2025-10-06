@@ -4,8 +4,8 @@
 "title": "Cách triển khai tìm kiếm chữ ký mã QR cho dữ liệu HIBC LIC trong PDF bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/qr-code-signatures/implement-qr-code-signature-search-hibc-primary-data-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai tìm kiếm chữ ký mã QR cho dữ liệu HIBC LIC trong PDF bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

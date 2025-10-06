@@ -3,8 +3,8 @@
 "title": "Tutorial sulla firma dei metadati per GroupDocs.Signature .NET"
 "url": "/it/net/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Tutorial sulla firma dei metadati per GroupDocs.Signature .NET
 
 nostri tutorial sulla firma dei metadati illustrano come utilizzare i metadati dei documenti per la firma sicura tramite GroupDocs.Signature in .NET. Queste guide dettagliate illustrano l'implementazione di firme basate su metadati in diversi formati di documento, tra cui PDF, immagini, presentazioni, fogli di calcolo e file di elaborazione testi. Ogni tutorial include esempi di codice C# funzionante per le operazioni sui metadati, aiutandovi a creare applicazioni in grado di aggiungere informazioni di firma invisibili ai documenti, migliorando la sicurezza senza alterarne l'aspetto visivo.

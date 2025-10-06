@@ -5,8 +5,8 @@
 "title": "Ajouter des signatures de métadonnées aux feuilles de calcul Excel en C# .NET"
 "url": "/fr/net/document-signing/sign-spreadsheet-with-metadata/"
 "weight": 13
+type: docs
 ---
-
 ## Introduction
 
 Les feuilles de calcul Excel contiennent souvent des données commerciales critiques, des informations financières et des calculs importants. Garantir leur authenticité, retracer leur origine et protéger leur intégrité est crucial dans de nombreux environnements professionnels. Une approche efficace pour renforcer la sécurité et la traçabilité des feuilles de calcul consiste à intégrer des signatures de métadonnées.

@@ -5,8 +5,8 @@
 "title": "문서의 바코드 서명 확인"
 "url": "/ko/net/verify-operations/verify-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## 소개
 
 바코드는 현대 문서 관리 시스템의 필수적인 부분으로 자리 잡았으며, 인코딩된 정보에 빠르게 접근할 수 있도록 하는 동시에 보안 기능도 제공합니다. GroupDocs.Signature for .NET은 문서 내 바코드 서명을 검증하여 진위성과 무결성을 보장하는 강력한 API를 제공합니다.

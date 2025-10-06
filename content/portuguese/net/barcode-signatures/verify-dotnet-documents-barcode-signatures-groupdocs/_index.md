@@ -4,8 +4,8 @@
 "title": "Verificar documentos .NET com assinaturas de código de barras usando GroupDocs.Signature"
 "url": "/pt/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar a verificação de documentos com assinaturas de código de barras no .NET usando GroupDocs.Signature
 
 ## Introdução

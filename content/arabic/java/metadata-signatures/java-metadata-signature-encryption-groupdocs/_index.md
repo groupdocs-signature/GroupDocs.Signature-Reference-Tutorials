@@ -4,8 +4,8 @@
 "title": "تأمين مستندات Java باستخدام توقيع البيانات الوصفية والتشفير باستخدام GroupDocs"
 "url": "/ar/java/metadata-signatures/java-metadata-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # تأمين مستندات Java باستخدام توقيع البيانات الوصفية والتشفير باستخدام GroupDocs
 
 ## مقدمة

@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 數位簽章教學"
 "url": "/zh-hant/java/digital-signatures/"
 "weight": 3
+type: docs
 ---
-
 # GroupDocs.Signature Java 數位簽章教學
 
 透過我們詳細的 GroupDocs.Signature Java 教學掌握數位簽章的實作。這些逐步指南示範如何使用數位憑證對文件進行簽署、實現高級數位簽章外觀選項、使用 XAdES 類型、對 PDF 進行增量保存、存取憑證儲存、管理時間戳記等等。每個教學課程都包含 Java 程式碼範例、實作說明和最佳實踐，可協助您建立使用數位加密簽章安全地對文件進行簽署和驗證的應用程式。

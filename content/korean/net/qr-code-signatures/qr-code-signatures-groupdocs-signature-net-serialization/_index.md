@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 사용자 정의 직렬화를 통해 .NET에서 QR 코드 서명 구현"
 "url": "/ko/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 사용자 지정 직렬화를 통해 QR 코드 서명 구현
 
 ## 소개

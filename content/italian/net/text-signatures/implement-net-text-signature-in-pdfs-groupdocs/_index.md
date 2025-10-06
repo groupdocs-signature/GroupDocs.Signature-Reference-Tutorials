@@ -4,8 +4,8 @@
 "title": "Implementare la firma di testo .NET nei PDF utilizzando GroupDocs.Signature&#58; una guida completa"
 "url": "/it/net/text-signatures/implement-net-text-signature-in-pdfs-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementare la firma di testo .NET nei PDF utilizzando GroupDocs.Signature
 ## Introduzione
 Nel mondo digitale odierno, garantire l'autenticità e l'integrità dei documenti è fondamentale in tutti i settori. Aggiungere firme elettroniche sicure ai documenti PDF in modo efficiente può essere difficile. **GroupDocs.Signature per .NET**—una potente libreria progettata per semplificare questo processo. In questa guida completa, ti guideremo nell'aggiunta di una firma testuale ai tuoi PDF in modo rapido e sicuro.

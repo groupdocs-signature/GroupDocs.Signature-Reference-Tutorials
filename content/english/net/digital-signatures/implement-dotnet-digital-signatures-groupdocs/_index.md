@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["GroupDocs.Signature", ".NET", "PDF-signing", "digital-certificates"]
+type: docs
 ---
-
 # GroupDocs.Signature .NET Tutorial: Your Complete Guide to Digital Document Signing
 
 ## Why Digital Signatures Matter (And Why You're Here)

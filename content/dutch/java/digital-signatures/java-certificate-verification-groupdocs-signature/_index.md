@@ -4,8 +4,8 @@
 "title": "Handleiding voor Java-certificaatverificatie met GroupDocs.Signature voor veilige documentauthenticatie"
 "url": "/nl/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van Java-certificaatverificatie met GroupDocs.Signature voor Java
 
 ## Invoering

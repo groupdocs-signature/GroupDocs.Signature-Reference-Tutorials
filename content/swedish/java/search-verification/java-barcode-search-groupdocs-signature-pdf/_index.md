@@ -4,8 +4,8 @@
 "title": "Java-streckkodssökning i PDF-filer med GroupDocs.Signature för Java"
 "url": "/sv/java/search-verification/java-barcode-search-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar Java-streckkodssökning i PDF-filer med GroupDocs.Signature för Java
 
 ## Introduktion

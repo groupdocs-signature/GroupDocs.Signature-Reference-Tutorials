@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके टेक्स्ट वॉटरमार्क के साथ दस्तावेज़ों को सुरक्षित करें एक व्यापक गाइड"
 "url": "/hi/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में टेक्स्ट वॉटरमार्क कैसे लागू करें
 
 ## परिचय

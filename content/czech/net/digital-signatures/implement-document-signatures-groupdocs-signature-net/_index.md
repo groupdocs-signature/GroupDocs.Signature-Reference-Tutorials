@@ -4,8 +4,8 @@
 "title": "Implementace a zobrazení podpisů dokumentů pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/digital-signatures/implement-document-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementace a zobrazení podpisů dokumentů pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

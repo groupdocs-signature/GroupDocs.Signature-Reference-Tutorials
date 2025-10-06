@@ -4,8 +4,8 @@
 "title": "วิธีการสร้างและลงนาม PDF ด้วยบาร์โค้ดโดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการสร้างและลงนาม PDF ด้วยบาร์โค้ดโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

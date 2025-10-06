@@ -4,8 +4,8 @@
 "title": "Så här tar du bort en signatur med ID med GroupDocs.Signature för Java"
 "url": "/sv/java/signature-management/delete-signature-by-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man tar bort en signatur med ID med GroupDocs.Signature för Java
 
 ## Introduktion

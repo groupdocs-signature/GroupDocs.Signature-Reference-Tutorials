@@ -4,8 +4,8 @@
 "title": "วิธีการนำลายเซ็น QR-Code ไปใช้งานในเอกสาร Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/qr-code-signatures/groupdocs-signature-java-qr-code-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำลายเซ็น QR-Code ไปใช้งานในเอกสาร Java โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

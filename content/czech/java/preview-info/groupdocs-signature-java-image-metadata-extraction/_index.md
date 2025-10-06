@@ -4,8 +4,8 @@
 "title": "Extrakce metadat hlavního obrázku v Javě pomocí knihovny GroupDocs.Signature"
 "url": "/cs/java/preview-info/groupdocs-signature-java-image-metadata-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí GroupDocs.Signature pro Javu: Extrakce metadat z obrázků
 
 ## Zavedení

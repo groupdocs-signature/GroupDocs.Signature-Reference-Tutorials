@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में छवि हस्ताक्षरों को कैसे अनुकूलित करें"
 "url": "/hi/java/image-signatures/customize-image-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके अनुकूलित छवि हस्ताक्षर कैसे लागू करें
 
 ## परिचय

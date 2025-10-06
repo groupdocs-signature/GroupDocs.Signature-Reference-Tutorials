@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["GroupDocs", "Digital Signatures", "Document Stamps", "NET Development"]
+type: docs
 ---
-
 # GroupDocs Signature Stamp Options .NET
 
 ## Introduction

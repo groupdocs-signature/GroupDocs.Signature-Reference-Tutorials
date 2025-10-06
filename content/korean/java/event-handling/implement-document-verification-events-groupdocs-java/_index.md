@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 이벤트 구독을 통한 문서 검증 구현"
 "url": "/ko/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 이벤트 구독으로 문서 검증 구현
 
 ## 소개

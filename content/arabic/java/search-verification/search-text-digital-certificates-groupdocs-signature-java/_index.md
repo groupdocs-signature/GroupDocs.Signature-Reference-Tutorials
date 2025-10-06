@@ -4,8 +4,8 @@
 "title": "إتقان البحث عن الشهادات الرقمية باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # إتقان البحث عن الشهادات الرقمية باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

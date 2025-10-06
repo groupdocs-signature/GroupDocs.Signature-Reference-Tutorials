@@ -4,8 +4,8 @@
 "title": "تسجيل الملفات وتوقيع رمز الاستجابة السريعة - دليل كامل باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # تسجيل الملفات وتوقيع رمز الاستجابة السريعة: دليل كامل باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

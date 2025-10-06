@@ -4,8 +4,8 @@
 "title": "QR-kódok titkosítása és aláírása Java-ban a GroupDocs.Signature használatával – Átfogó útmutató"
 "url": "/hu/java/qr-code-signatures/encrypt-sign-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # QR-kódok titkosítása és aláírása a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

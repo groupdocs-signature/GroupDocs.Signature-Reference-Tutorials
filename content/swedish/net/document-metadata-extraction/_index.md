@@ -5,8 +5,8 @@
 "title": "Extraktion av metadata från huvuddokument med GroupDocs.Signature för .NET"
 "url": "/sv/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # Omfattande guide till extraktion av dokumentmetadata med GroupDocs.Signature
 
 ## Den strategiska betydelsen av dokumentmetadata i moderna arbetsflöden

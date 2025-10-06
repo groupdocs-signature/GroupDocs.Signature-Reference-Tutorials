@@ -5,8 +5,8 @@
 "title": "Ekstrak Metadata Spreadsheet dengan Mudah dengan GroupDocs.Signature"
 "url": "/id/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # Cara Mengekstrak Metadata dari Spreadsheet Menggunakan GroupDocs.Signature
 
 ## Mengapa Metadata Spreadsheet Penting

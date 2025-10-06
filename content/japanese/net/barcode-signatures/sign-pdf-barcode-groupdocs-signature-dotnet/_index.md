@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してバーコードで PDF 文書に署名する方法"
 "url": "/ja/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してバーコードで PDF 文書に署名する方法
 
 今日のデジタル世界において、電子署名は利便性だけでなく、セキュリティと効率性の向上にもつながります。しかし、多くの企業は、これらの署名の安全性と検証可能性を確保するという課題に直面しています。 **.NET 用 GroupDocs.Signature**これは、PDFドキュメントにプログラム的にバーコード署名を追加できるようにすることで、このプロセスを簡素化するために設計された強力なライブラリです。このチュートリアルでは、GroupDocs.Signature for .NETを実装して、バーコード署名を使用してPDFドキュメントに署名する方法を説明します。

@@ -4,8 +4,8 @@
 "title": "Jak ověřit podpisy čárových kódů v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat ověřování podpisů čárových kódů pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

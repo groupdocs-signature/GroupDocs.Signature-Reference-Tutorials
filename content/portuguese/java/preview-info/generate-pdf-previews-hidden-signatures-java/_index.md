@@ -4,8 +4,8 @@
 "title": "Gere visualizações de PDF com assinaturas ocultas usando Java e GroupDocs.Signature"
 "url": "/pt/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Gere visualizações de PDF com assinaturas ocultas usando Java e GroupDocs.Signature
 
 ## Introdução

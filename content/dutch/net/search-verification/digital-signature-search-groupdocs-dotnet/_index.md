@@ -4,8 +4,8 @@
 "title": "Digitaal handtekening zoeken met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u een digitale handtekeningzoekopdracht in een document implementeert met GroupDocs.Signature voor .NET
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Tanda Tangan Teks Berdasarkan ID Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Teks Berdasarkan ID Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -5,8 +5,8 @@
 "title": "Több dokumentum aláírásának elsajátítása .NET-ben - Teljes útmutató"
 "url": "/hu/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## Biztosítsa dokumentumait többféle aláírástípussal
 
 Előfordult már, hogy különböző típusú aláírásokat kellett alkalmaznia egyetlen dokumentumon? Akár bizalmas szerződéseket, jogi papírokat vagy vállalati dokumentumokat kezel, több aláírástípus kombinálása jelentősen növelheti mind a biztonságot, mind a hitelességet. Ebben az útmutatóban bemutatjuk, hogyan valósíthatja meg ezt a hatékony funkciót a GroupDocs.Signature for .NET használatával.

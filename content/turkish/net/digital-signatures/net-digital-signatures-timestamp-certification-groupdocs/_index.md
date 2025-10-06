@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak Zaman Damgası ve Sertifikasyon ile .NET Dijital İmzaları Nasıl Uygulanır?"
 "url": "/tr/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak Zaman Damgası ve Sertifikasyon ile .NET Dijital İmzaları Nasıl Uygulanır?
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "โหลดและเข้าถึงใบรับรองดิจิทัลใน .NET ด้วย GroupDocs.Signature&#58; คู่มือที่ครอบคลุม"
 "url": "/th/net/digital-signatures/groupdocs-signature-dotnet-load-access-digital-certificates/"
 "weight": 1
+type: docs
 ---
-
 # โหลดและเข้าถึงใบรับรองดิจิทัลใน .NET ด้วย GroupDocs.Signature
 ## คู่มือที่ครอบคลุม
 

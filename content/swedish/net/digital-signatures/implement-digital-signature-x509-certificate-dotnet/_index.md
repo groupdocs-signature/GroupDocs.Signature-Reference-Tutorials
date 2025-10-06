@@ -4,8 +4,8 @@
 "title": "Implementera digitala signaturer i .NET med X.509-certifikat med hjälp av GroupDocs.Signature"
 "url": "/sv/net/digital-signatures/implement-digital-signature-x509-certificate-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Implementera digitala signaturer i .NET med X.509-certifikat med hjälp av GroupDocs.Signature
 
 ## Introduktion

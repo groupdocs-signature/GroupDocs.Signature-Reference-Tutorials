@@ -4,8 +4,8 @@
 "title": "Inicializar instância de assinatura com GroupDocs.Signature para .NET - Um guia completo"
 "url": "/pt/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Inicializar instância de assinatura com GroupDocs.Signature para .NET
 
 ## Introdução

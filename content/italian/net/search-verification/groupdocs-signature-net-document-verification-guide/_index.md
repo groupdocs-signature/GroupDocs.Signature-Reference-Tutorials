@@ -4,8 +4,8 @@
 "title": "Padroneggiare la verifica dei documenti con GroupDocs.Signature per .NET&#58; una guida completa"
 "url": "/it/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la verifica dei documenti con GroupDocs.Signature per .NET: una guida completa
 
 ## Introduzione

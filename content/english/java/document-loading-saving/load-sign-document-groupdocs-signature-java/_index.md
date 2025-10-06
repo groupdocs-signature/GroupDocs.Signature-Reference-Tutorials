@@ -8,10 +8,8 @@ keywords:
 - load and sign documents in Java
 - GroupDocs.Signature setup
 - digital signatures Java
-
+type: docs
 ---
-
-
 # Load and Sign Documents Using GroupDocs.Signature in Java
 
 ## Introduction

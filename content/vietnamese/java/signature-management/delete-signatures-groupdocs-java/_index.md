@@ -4,8 +4,8 @@
 "title": "Cách xóa chữ ký cụ thể khỏi tài liệu bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/signature-management/delete-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa các loại chữ ký cụ thể khỏi tài liệu bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

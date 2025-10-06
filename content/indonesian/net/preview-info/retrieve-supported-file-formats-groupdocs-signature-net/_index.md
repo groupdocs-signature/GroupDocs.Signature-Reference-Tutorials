@@ -4,8 +4,8 @@
 "title": "Mengambil dan Menampilkan Format File yang Didukung Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Mengambil dan Menampilkan Format File yang Didukung Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

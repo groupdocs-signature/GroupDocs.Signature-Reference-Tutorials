@@ -4,8 +4,8 @@
 "title": "Dokumentumok aláírásának ellenőrzése archívumokban a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumok aláírásának ellenőrzése archívumokban a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Zvládněte podepisování dokumentů v .NET pomocí GroupDocs.Signature pro zabezpečené digitální podpisy"
 "url": "/cs/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí podepisování dokumentů v .NET pomocí GroupDocs.Signature
 
 ## Zavedení

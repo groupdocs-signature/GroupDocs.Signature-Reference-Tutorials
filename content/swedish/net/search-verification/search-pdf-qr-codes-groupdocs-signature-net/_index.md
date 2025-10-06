@@ -4,8 +4,8 @@
 "title": "Så här söker du i PDF-filer efter QR-kodsignaturer och extraherar VCard-data med GroupDocs.Signature för .NET"
 "url": "/sv/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här söker du i PDF-dokument efter QR-kodsignaturer och extraherar VCard-data med GroupDocs.Signature för .NET
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET でパーセンテージを使用して署名の位置を設定する | 上級チュートリアル"
 "url": "/ja/net/advanced-options/set-signature-position-percentages-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でパーセンテージを使用して署名の位置を設定する
 ## 導入
 今日のデジタル時代において、効率的なドキュメント管理と自動化は不可欠です。正確な位置を維持しながら、プログラムでドキュメントに署名を追加することは、よくある課題です。この上級チュートリアルでは、GroupDocs.Signature for .NET を用いて、パーセンテージを使って署名の位置を設定する方法を説明します。

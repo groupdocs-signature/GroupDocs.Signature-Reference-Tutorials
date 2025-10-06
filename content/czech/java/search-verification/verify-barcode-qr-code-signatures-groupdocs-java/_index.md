@@ -4,8 +4,8 @@
 "title": "Jak ověřovat čárové kódy a QR kódy v dokumentech pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/search-verification/verify-barcode-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat ověřování čárových a QR kódů pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 在 PDF 中搜尋數位簽名"
 "url": "/zh-hant/java/search-verification/search-pdfs-digital-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 在 PDF 中搜尋數位簽名
 
 ## 介紹

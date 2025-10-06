@@ -4,8 +4,8 @@
 "title": "Meistern Sie die Verschlüsselung und Serialisierung von Metadaten in Java mit GroupDocs.Signature"
 "url": "/de/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Beherrschen der Metadatenverschlüsselung und -serialisierung in Java mit GroupDocs.Signature
 
 ## Einführung

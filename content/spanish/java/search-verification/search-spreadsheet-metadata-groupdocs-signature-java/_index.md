@@ -4,8 +4,8 @@
 "title": "Cómo buscar metadatos en hojas de cálculo con GroupDocs.Signature para Java&#58; una guía completa"
 "url": "/es/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cómo buscar metadatos en hojas de cálculo con GroupDocs.Signature para Java: una guía completa
 
 ## Introducción

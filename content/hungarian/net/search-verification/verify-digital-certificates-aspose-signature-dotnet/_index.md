@@ -4,8 +4,8 @@
 "title": "Digitális tanúsítványok ellenőrzése az Aspose.Signature for .NET használatával | Lépésről lépésre útmutató"
 "url": "/hu/net/search-verification/verify-digital-certificates-aspose-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Digitális tanúsítványok ellenőrzése az Aspose.Signature for .NET használatával
 
 ## Bevezetés

@@ -6,8 +6,8 @@
 "title": "GroupDocs.Signature - API ký tài liệu số cho .NET & Java | Hướng dẫn đầy đủ"
 "url": "/vi/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature: Giải pháp ký tài liệu kỹ thuật số hoàn chỉnh dành cho nhà phát triển
 
 ![Biểu ngữ GroupDocs.Signature](./groupdocs-signature-net.svg)

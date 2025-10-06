@@ -4,8 +4,8 @@
 "title": "البحث بكفاءة في حقول نماذج PDF باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # البحث بكفاءة في حقول نماذج PDF باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

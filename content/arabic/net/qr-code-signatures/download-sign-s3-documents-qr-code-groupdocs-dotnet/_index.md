@@ -4,8 +4,8 @@
 "title": "كيفية تنزيل مستندات Amazon S3 وتوقيعها باستخدام رموز QR باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/qr-code-signatures/download-sign-s3-documents-qr-code-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنزيل مستندات Amazon S3 وتوقيعها باستخدام رموز QR باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

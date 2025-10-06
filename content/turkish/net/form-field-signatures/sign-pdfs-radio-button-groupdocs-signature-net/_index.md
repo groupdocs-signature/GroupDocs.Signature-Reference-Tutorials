@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature ile Radyo Düğmesi Form Alanlarını Kullanarak PDF'leri Nasıl İmzalayabilirsiniz?"
 "url": "/tr/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature ile Radyo Düğmesi Form Alanlarını Kullanarak PDF Nasıl İmzalanır
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Bezpieczne podpisy cyfrowe w Java&#58; GroupDocs.Signature Encryption i przewodnik wyszukiwania kodów QR"
 "url": "/pl/java/digital-signatures/groupdocs-signature-java-encryption-qr-code-search/"
 "weight": 1
+type: docs
 ---
-
 # Bezpieczne podpisy cyfrowe w Javie przy użyciu GroupDocs.Signature
 ## Wstęp
 W dzisiejszym cyfrowym świecie bezpieczeństwo dokumentów jest priorytetem. Niezależnie od tego, czy zarządzasz poufnymi umowami biznesowymi, czy dokumentami osobistymi, zastosowanie solidnego szyfrowania i wydajnych funkcji wyszukiwania może chronić Twoje dane przed nieautoryzowanym dostępem. Ten przewodnik przeprowadzi Cię przez proces implementacji niestandardowego szyfrowania i wyszukiwania podpisów kodem QR w Javie za pomocą GroupDocs.Signature.

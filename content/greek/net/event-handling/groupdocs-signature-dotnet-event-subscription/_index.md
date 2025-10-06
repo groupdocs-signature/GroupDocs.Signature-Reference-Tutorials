@@ -4,8 +4,8 @@
 "title": "Εξοικείωση με τις Συνδρομές σε Συμβάντα στην Υπογραφή Εγγράφων με το GroupDocs.Signature για .NET | Οδηγός Βήμα προς Βήμα"
 "url": "/el/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # Mastering Event Subscription στην Υπογραφή Εγγράφων με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

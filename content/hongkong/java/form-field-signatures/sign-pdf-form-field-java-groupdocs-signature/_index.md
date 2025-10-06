@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 Java 中使用表單欄位簽章對 PDF 進行簽名"
 "url": "/zh-hant/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 Java 中使用表單欄位簽章對 PDF 進行簽名
 
 ## 介紹

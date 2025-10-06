@@ -4,8 +4,8 @@
 "title": "Aangepaste serialisatie en metadata zoeken in .NET met behulp van GroupDocs.Signature"
 "url": "/nl/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van aangepaste serialisatie en metadata-handtekeningzoekopdrachten met GroupDocs.Signature voor .NET
 
 ## Invoering

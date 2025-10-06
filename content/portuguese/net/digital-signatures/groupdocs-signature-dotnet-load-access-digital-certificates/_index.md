@@ -4,8 +4,8 @@
 "title": "Carregar e acessar certificados digitais em .NET com GroupDocs.Signature - Um guia completo"
 "url": "/pt/net/digital-signatures/groupdocs-signature-dotnet-load-access-digital-certificates/"
 "weight": 1
+type: docs
 ---
-
 # Carregar e acessar certificados digitais em .NET com GroupDocs.Signature
 ## Um guia abrangente
 

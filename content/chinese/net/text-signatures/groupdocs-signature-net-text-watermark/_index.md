@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 的文本水印保护文档——综合指南"
 "url": "/zh/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在文档中实现文本水印
 
 ## 介绍

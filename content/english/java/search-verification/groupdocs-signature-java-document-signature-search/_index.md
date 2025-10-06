@@ -8,10 +8,8 @@ keywords:
 - document signature search
 - GroupDocs.Signature for Java
 - form-field signature configuration
-
+type: docs
 ---
-
-
 # Mastering Document Signature Search with GroupDocs.Signature for Java
 
 ## Introduction

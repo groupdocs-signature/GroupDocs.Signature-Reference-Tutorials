@@ -4,8 +4,8 @@
 "title": "Implementare le firme digitali in .NET - Guida all'integrazione di codici a barre e codici QR"
 "url": "/it/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare le firme digitali in .NET: firma di codici a barre e codici QR con GroupDocs.Signature
 
 Nell'era digitale odierna, autenticare i documenti in modo rapido e sicuro è più importante che mai. Che tu sia uno sviluppatore che lavora su un'applicazione aziendale o che tu voglia semplicemente semplificare il processo di gestione dei documenti, l'aggiunta di firme può rivelarsi una svolta. Questo tutorial ti guiderà nell'utilizzo di **GroupDocs.Signature per .NET** per firmare digitalmente i documenti con firme tramite codice a barre e codice QR, offrendo soluzioni solide per una documentazione sicura.

@@ -4,8 +4,8 @@
 "title": "วิธีการค้นหาลายเซ็น QR-Code ใน PDF และดึงข้อมูล VCard โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการค้นหาเอกสาร PDF เพื่อหาลายเซ็น QR-Code และดึงข้อมูล VCard โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

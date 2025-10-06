@@ -4,8 +4,8 @@
 "title": "Barcodehandtekeningen initialiseren en bijwerken in Java met behulp van GroupDocs.Signature"
 "url": "/nl/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # Barcodehandtekeningen initialiseren en bijwerken in Java met behulp van GroupDocs.Signature
 
 ## Invoering

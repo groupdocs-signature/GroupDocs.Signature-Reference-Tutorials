@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 对带有二维码和事件元数据的 PDF 进行签名"
 "url": "/zh/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 对带有二维码和事件元数据的 PDF 进行签名
 
 ## 介绍

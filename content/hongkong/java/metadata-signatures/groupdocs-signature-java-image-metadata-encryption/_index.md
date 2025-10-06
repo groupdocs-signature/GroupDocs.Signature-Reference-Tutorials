@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中實現圖像元資料簽章和加密"
 "url": "/zh-hant/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中實現圖像元資料加密簽名
 
 ## 介紹

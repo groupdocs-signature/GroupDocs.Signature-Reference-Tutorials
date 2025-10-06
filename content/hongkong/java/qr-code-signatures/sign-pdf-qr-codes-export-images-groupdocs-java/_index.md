@@ -4,8 +4,8 @@
 "title": "使用 QR 碼簽名對 PDF 進行簽名並使用 GroupDocs for Java 匯出為影像"
 "url": "/zh-hant/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 簽署 PDF 並將其匯出為帶有二維碼的圖像的綜合指南
 
 ## 介紹

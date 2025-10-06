@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature for .NET 的综合教程和示例"
 "url": "/zh/net/"
 "weight": 10
+type: docs
 ---
-
 ## 介绍
 
 欢迎阅读 GroupDocs.Signature for .NET 的综合指南。这是一款强大的文档签名解决方案，可帮助开发人员跨多种文档格式实现安全的数字签名。本指南包含详细的教程和实际示例，将帮助您充分发挥该 API 在 .NET 应用程序中的潜力。

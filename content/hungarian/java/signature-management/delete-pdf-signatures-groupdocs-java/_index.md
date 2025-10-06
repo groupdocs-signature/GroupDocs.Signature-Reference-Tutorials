@@ -4,8 +4,8 @@
 "title": "PDF aláírások törlése a GroupDocs.Signature for Java használatával – Átfogó útmutató"
 "url": "/hu/java/signature-management/delete-pdf-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF aláírások törlése a GroupDocs.Signature for Java használatával: Átfogó útmutató
 
 ## Bevezetés

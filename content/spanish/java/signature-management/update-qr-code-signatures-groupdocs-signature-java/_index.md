@@ -4,8 +4,8 @@
 "title": "Actualizar firmas de códigos QR en Java&#58; una guía completa con GroupDocs.Signature"
 "url": "/es/java/signature-management/update-qr-code-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Actualizar firmas de códigos QR en Java: una guía completa con GroupDocs.Signature
 
 En el panorama digital actual, proteger los documentos es crucial tanto para empresas como para particulares. Las firmas con código QR ofrecen una solución fiable para la seguridad y verificación de documentos. Este tutorial proporciona instrucciones paso a paso para actualizar las firmas con código QR mediante GroupDocs.Signature para Java, una potente herramienta que simplifica la gestión de firmas en sus aplicaciones.

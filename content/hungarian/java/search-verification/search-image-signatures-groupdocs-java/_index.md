@@ -4,8 +4,8 @@
 "title": "Útmutató a képaláírás-keresés Java nyelven történő megvalósításához a GroupDocs.Signature segítségével"
 "url": "/hu/java/search-verification/search-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Útmutató a képaláírás-keresés Java nyelven történő megvalósításához a GroupDocs.Signature segítségével
 
 ## Bevezetés

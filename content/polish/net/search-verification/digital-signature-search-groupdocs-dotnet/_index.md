@@ -4,8 +4,8 @@
 "title": "Wyszukiwanie podpisów cyfrowych za pomocą GroupDocs.Signature dla .NET&#58; Kompleksowy przewodnik"
 "url": "/pl/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć wyszukiwanie podpisów cyfrowych w dokumencie za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

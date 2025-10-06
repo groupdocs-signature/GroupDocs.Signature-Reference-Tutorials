@@ -4,8 +4,8 @@
 "title": "Verifikasi Dokumen Master Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Langkah demi Langkah"
 "url": "/id/java/search-verification/groupdocs-signature-java-document-verification/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Verifikasi Dokumen dengan GroupDocs.Signature untuk Java
 
 Di era digital saat ini, memastikan keaslian dan integritas dokumen sangat penting di berbagai industri. Baik Anda seorang profesional hukum yang memverifikasi kontrak atau bisnis yang mengautentikasi faktur, verifikasi dokumen sangatlah penting. Masukkan **GroupDocs.Signature untuk Java**: pustaka canggih yang menyederhanakan proses ini dengan mengaktifkan verifikasi tanda tangan kode batang dengan mudah.

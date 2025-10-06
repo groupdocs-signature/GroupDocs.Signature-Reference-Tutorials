@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 掌握图像签名和优化"
 "url": "/zh/java/image-signatures/groupdocs-signature-java-image-optimization/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 掌握图像签名和优化
 
 在当今的数字时代，安全地签署文档至关重要。无论您是负责验证合同的商业人士，还是保护图像的个人，强大的签名功能都至关重要。 **GroupDocs.Signature for Java** 提供强大的功能，可无缝创建二维码签名并优化图像保存选项。本教程将指导您如何利用这些功能进行有效的文档管理。

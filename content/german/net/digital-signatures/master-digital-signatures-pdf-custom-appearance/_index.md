@@ -4,8 +4,8 @@
 "title": "Beherrschen Sie digitale Signaturen in PDFs mit benutzerdefiniertem Erscheinungsbild mit GroupDocs.Signature für .NET"
 "url": "/de/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # Digitale Signaturen in PDFs mit benutzerdefiniertem Erscheinungsbild mithilfe von GroupDocs.Signature für .NET beherrschen
 
 ## Einführung

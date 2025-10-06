@@ -4,8 +4,8 @@
 "title": "Hur man signerar PDF-filer digitalt i Java med GroupDocs.Signature"
 "url": "/sv/java/digital-signatures/java-pdf-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar PDF-filer digitalt i Java med GroupDocs.Signature
 
 ## Introduktion

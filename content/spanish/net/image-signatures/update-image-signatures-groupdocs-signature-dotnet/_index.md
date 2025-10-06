@@ -4,8 +4,8 @@
 "title": "Cómo actualizar firmas de imágenes en documentos con GroupDocs.Signature para .NET&#58; guía paso a paso"
 "url": "/es/net/image-signatures/update-image-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cómo actualizar una firma de imagen en documentos usando GroupDocs.Signature para .NET
 
 ## Introducción

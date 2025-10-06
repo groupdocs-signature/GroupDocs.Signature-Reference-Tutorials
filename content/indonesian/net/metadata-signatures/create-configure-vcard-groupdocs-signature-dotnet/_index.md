@@ -4,8 +4,8 @@
 "title": "Cara Membuat dan Mengonfigurasi Objek VCard Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Pengembang"
 "url": "/id/net/metadata-signatures/create-configure-vcard-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Membuat dan Mengonfigurasi Objek VCard Menggunakan GroupDocs.Signature untuk .NET: Panduan Pengembang
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "QR-codehandtekeningen met adresgegevens extraheren met GroupDocs.Signature voor .NET | Automatisering van digitale handtekeningen"
 "url": "/nl/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # QR-codehandtekeningen met adresgegevens extraheren met GroupDocs.Signature voor .NET
 
 ## Invoering

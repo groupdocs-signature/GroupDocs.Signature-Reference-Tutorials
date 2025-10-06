@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して QR コードで画像ドキュメントに署名する方法"
 "url": "/ja/net/qr-code-signatures/sign-image-document-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して QR コードで画像ドキュメントに署名する方法
 
 ## 導入

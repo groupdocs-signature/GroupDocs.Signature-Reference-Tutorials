@@ -8,10 +8,8 @@ keywords:
 - Sign PDF with QR Code
 - GroupDocs Signature for Java
 - Electronic Signatures with SMS
-
+type: docs
 ---
-
-
 # How to Sign a PDF Document with a QR Code Using SMS Object in Java with GroupDocs.Signature
 
 ## Introduction

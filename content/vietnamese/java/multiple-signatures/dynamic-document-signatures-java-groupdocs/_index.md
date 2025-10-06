@@ -4,8 +4,8 @@
 "title": "Chữ ký tài liệu động trong Java - Nắm vững GroupDocs.Signature để ký điện tử"
 "url": "/vi/java/multiple-signatures/dynamic-document-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Tạo chữ ký tài liệu động trong Java với GroupDocs
 
 Trong thế giới số phát triển nhanh chóng ngày nay, nhu cầu ký tài liệu điện tử hiệu quả trở nên cấp thiết hơn bao giờ hết. Cho dù bạn là chuyên gia kinh doanh muốn đơn giản hóa việc phê duyệt hợp đồng hay cá nhân quản lý tài liệu cá nhân, chữ ký điện tử đều mang lại tốc độ và sự tiện lợi. Hướng dẫn này sẽ hướng dẫn bạn cách tạo chữ ký văn bản động và hình ảnh mã vạch bằng GroupDocs.Signature for Java. Bằng cách tận dụng chế độ kéo giãn, chữ ký của bạn có thể tự động điều chỉnh trên toàn bộ trang, đảm bảo tính nhất quán và dễ đọc.

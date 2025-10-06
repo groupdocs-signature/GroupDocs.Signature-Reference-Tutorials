@@ -4,8 +4,8 @@
 "title": "Bestandsregistratie en QR-codeondertekening&#58; een complete handleiding voor het gebruik van GroupDocs.Signature voor .NET"
 "url": "/nl/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Bestandsregistratie en QR-codeondertekening: een complete handleiding voor het gebruik van GroupDocs.Signature voor .NET
 
 ## Invoering

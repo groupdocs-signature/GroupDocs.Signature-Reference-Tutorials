@@ -4,8 +4,8 @@
 "title": "Pencarian Tanda Tangan Teks Utama di Dokumen .NET Menggunakan GroupDocs.Signature"
 "url": "/id/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pencarian Tanda Tangan Teks di Dokumen .NET Menggunakan GroupDocs.Signature
 
 ## Perkenalan

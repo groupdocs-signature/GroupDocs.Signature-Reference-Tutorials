@@ -5,8 +5,8 @@
 "title": "Adicionar assinaturas de metadados a planilhas do Excel em C# .NET"
 "url": "/pt/net/document-signing/sign-spreadsheet-with-metadata/"
 "weight": 13
+type: docs
 ---
-
 ## Introdução
 
 Planilhas do Excel geralmente contêm dados comerciais críticos, informações financeiras e cálculos importantes. Garantir sua autenticidade, rastrear sua origem e proteger sua integridade é crucial em muitos ambientes profissionais. Uma abordagem eficaz para aumentar a segurança e a rastreabilidade das planilhas é incorporar assinaturas de metadados.

@@ -4,8 +4,8 @@
 "title": "Java için Master GroupDocs.Signature&#58;ın Verimli QR Kod İmza Arama ve E-posta Çıkarımı"
 "url": "/tr/java/search-verification/groupdocs-signature-java-qr-code-search-email-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature'da Uzmanlaşma: QR Kod İmza Arama ve E-posta Çıkarma
 
 ## giriiş

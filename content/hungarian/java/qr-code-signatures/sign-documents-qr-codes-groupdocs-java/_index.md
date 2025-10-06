@@ -4,8 +4,8 @@
 "title": "Dokumentumok aláírása QR-kódokkal a GroupDocs.Signature for Java használatával – Teljes körű útmutató"
 "url": "/hu/java/qr-code-signatures/sign-documents-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumok aláírása QR-kódokkal a GroupDocs.Signature for Java használatával: Átfogó útmutató
 
 A mai digitális világban a dokumentumok védelme kulcsfontosságú. Akár üzleti szakember, akár magánszemély, aki bizalmas információkat kezel, a dokumentumok integritásának és hitelességének biztosítása kiemelkedő fontosságú. **GroupDocs.Signature Java-hoz**– egy hatékony könyvtár – lehetővé teszi a dokumentumok aláírását különféle módszerekkel, beleértve a QR-kódokat is. Ez az útmutató végigvezeti Önt a dokumentumok Azure Blob Storage-ból történő letöltésén és QR-kódokkal történő aláírásán a GroupDocs.Signature használatával.

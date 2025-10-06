@@ -4,8 +4,8 @@
 "title": "Hur man signerar bilder med QR-koder med GroupDocs.Signature för .NET och sparar dem i olika format"
 "url": "/sv/net/qr-code-signatures/sign-images-groupdocs-signature-qr-codes-net/"
 "weight": 1
+type: docs
 ---
-
 # Hur man använder GroupDocs.Signature för .NET för att signera bilder med QR-koder
 
 ## Introduktion

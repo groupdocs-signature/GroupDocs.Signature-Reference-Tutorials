@@ -4,8 +4,8 @@
 "title": "Pencarian Dokumen Master dengan GroupDocs.Signature untuk Panduan Verifikasi Tanda Tangan Kode Batang .NET"
 "url": "/id/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pencarian Dokumen dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

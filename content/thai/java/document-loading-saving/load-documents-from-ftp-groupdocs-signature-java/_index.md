@@ -4,8 +4,8 @@
 "title": "โหลดเอกสารจากเซิร์ฟเวอร์ FTP ด้วย GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/document-loading-saving/load-documents-from-ftp-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # โหลดเอกสารจากเซิร์ฟเวอร์ FTP โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

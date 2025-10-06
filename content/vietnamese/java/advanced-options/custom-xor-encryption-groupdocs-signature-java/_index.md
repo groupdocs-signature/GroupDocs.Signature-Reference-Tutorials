@@ -4,8 +4,8 @@
 "title": "Mã hóa XOR tùy chỉnh với GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn toàn diện về cách triển khai mã hóa XOR tùy chỉnh với GroupDocs.Signature cho Java
 
 ## Giới thiệu

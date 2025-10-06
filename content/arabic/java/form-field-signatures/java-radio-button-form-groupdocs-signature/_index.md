@@ -4,8 +4,8 @@
 "title": "تنفيذ توقيع حقل نموذج زر الراديو Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ توقيع حقل نموذج زر الراديو Java باستخدام GroupDocs.Signature
 
 ## مقدمة

@@ -3,8 +3,8 @@
 "title": "Tutorial Tanda Tangan Metadata untuk GroupDocs.Signature Java"
 "url": "/id/java/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Tutorial Tanda Tangan Metadata untuk GroupDocs.Signature Java
 
 Tutorial tanda tangan metadata kami menunjukkan cara menggunakan metadata dokumen untuk penandatanganan aman menggunakan GroupDocs.Signature di Java. Panduan langkah demi langkah ini mencakup penerapan tanda tangan metadata dalam berbagai format dokumen, termasuk PDF, gambar, presentasi, spreadsheet, dan berkas pengolah kata. Setiap tutorial menyertakan contoh kode Java yang berfungsi untuk operasi metadata, membantu Anda membangun aplikasi yang dapat menambahkan informasi tanda tangan tak terlihat ke dokumen, meningkatkan keamanan tanpa mengubah tampilan visual.

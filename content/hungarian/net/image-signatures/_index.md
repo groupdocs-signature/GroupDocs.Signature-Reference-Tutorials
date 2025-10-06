@@ -3,8 +3,8 @@
 "title": "Képaláírási oktatóanyagok a GroupDocs.Signature .NET-hez"
 "url": "/hu/net/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Képaláírási oktatóanyagok a GroupDocs.Signature .NET-hez
 
 Ismerje meg, hogyan teheti vizuális aláírásokkal dokumentumait gazdagabbá a GroupDocs.Signature .NET képaláírás-oktatóanyagaink segítségével. Ezek a részletes útmutatók bemutatják, hogyan adhat hozzá képeket aláírásként, hogyan hozhat létre bélyegzőaláírásokat, hogyan valósíthat meg vízjeleket, hogyan szabhatja testre a megjelenési beállításokat, valamint hogyan használhatja a képigazítási és méretezési lehetőségeket. Minden oktatóanyag működő C# kódpéldákat tartalmaz, amelyek bemutatják, hogyan hozhat létre vizuálisan vonzó aláírásokat, amelyek hatékonyan közvetítik a hitelességet vagy a márkajelzést, miközben megőrzik a dokumentum integritását.

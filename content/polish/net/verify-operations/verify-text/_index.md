@@ -5,8 +5,8 @@
 "title": "Weryfikacja podpisów tekstowych w dokumentach"
 "url": "/pl/net/verify-operations/verify-text/"
 "weight": 13
+type: docs
 ---
-
 ## Wstęp
 
 Podpisy tekstowe, choć często prostsze niż podpisy cyfrowe lub elektroniczne, odgrywają kluczową rolę w zarządzaniu dokumentami i ich weryfikacji. Niezależnie od tego, czy chodzi o znaki wodne, tekst stopki, czy konkretne wzorce treści, weryfikacja obecności i integralności podpisów tekstowych jest ważnym aspektem procesów weryfikacji dokumentów.

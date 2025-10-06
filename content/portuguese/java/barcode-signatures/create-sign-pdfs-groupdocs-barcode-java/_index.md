@@ -4,8 +4,8 @@
 "title": "Como criar e assinar PDFs com códigos de barras usando GroupDocs.Signature para Java"
 "url": "/pt/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/"
 "weight": 1
+type: docs
 ---
-
 # Como criar e assinar PDFs com códigos de barras usando GroupDocs.Signature para Java
 
 ## Introdução

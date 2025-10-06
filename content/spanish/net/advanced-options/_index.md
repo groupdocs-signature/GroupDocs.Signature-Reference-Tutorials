@@ -3,8 +3,8 @@
 "title": "Tutoriales de opciones de firma avanzadas para GroupDocs.Signature .NET"
 "url": "/es/net/advanced-options/"
 "weight": 14
+type: docs
 ---
-
 # Tutoriales de opciones de firma avanzadas para GroupDocs.Signature .NET
 
 Explore las funciones avanzadas de firma con nuestros completos tutoriales de GroupDocs.Signature para desarrolladores .NET. Estas guías detalladas abarcan la implementación de cifrado personalizado, serialización especializada, configuraciones de apariencia complejas, pinceles y degradados personalizados, posicionamiento con diversas unidades de medida, opciones de alineación y modos de estiramiento. Cada tutorial proporciona ejemplos de código C# funcionales para funciones de firma sofisticadas, lo que le ayudará a crear soluciones documentales que aprovechen al máximo las funciones avanzadas de GroupDocs.Signature para implementaciones de firma de documentos altamente personalizadas y seguras.

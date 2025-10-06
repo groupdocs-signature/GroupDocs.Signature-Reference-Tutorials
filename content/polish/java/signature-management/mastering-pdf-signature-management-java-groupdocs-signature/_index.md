@@ -4,8 +4,8 @@
 "title": "Efektywne zarządzanie podpisami PDF w Javie przy użyciu GroupDocs.Signature"
 "url": "/pl/java/signature-management/mastering-pdf-signature-management-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Efektywne zarządzanie podpisami PDF w Javie z GroupDocs.Signature
 
 ## Wstęp

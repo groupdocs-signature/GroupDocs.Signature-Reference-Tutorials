@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature के साथ आसानी से स्प्रेडशीट मेटाडेटा निकालें"
 "url": "/hi/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके स्प्रेडशीट से मेटाडेटा कैसे निकालें
 
 ## स्प्रेडशीट मेटाडेटा क्यों महत्वपूर्ण है

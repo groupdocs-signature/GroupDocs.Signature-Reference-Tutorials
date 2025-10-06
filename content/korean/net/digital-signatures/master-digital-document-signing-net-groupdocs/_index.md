@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature API를 사용하여 .NET에서 디지털 문서에 서명하는 방법"
 "url": "/ko/net/digital-signatures/master-digital-document-signing-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature API를 사용하여 .NET에서 디지털 문서에 서명하는 방법
 ## 소개
 오늘날처럼 빠르게 변화하는 디지털 환경에서는 효율성을 유지하면서 문서의 진위성을 보장하는 것이 매우 중요합니다. 워크플로를 자동화하는 개발자든 운영 효율성 향상을 목표로 하는 조직이든, 디지털 서명 통합은 혁신을 가져올 수 있습니다. 이 튜토리얼에서는 **.NET용 GroupDocs.Signature** 양식 필드 형식의 텍스트 서명으로 문서에 서명하는 방법을 알아봅니다. 이 연습을 마치면 디지털 서명을 .NET 애플리케이션에 원활하게 통합하는 방법을 알게 될 것입니다.

@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Arşivlerdeki Belge İmzaları Nasıl Doğrulanır?"
 "url": "/tr/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature ile Arşivlerdeki Belge İmzaları Nasıl Doğrulanır?
 
 ## giriiş

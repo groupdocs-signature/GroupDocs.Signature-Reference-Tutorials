@@ -5,8 +5,8 @@
 "title": "Padroneggia le firme multiple dei documenti in .NET - Guida completa"
 "url": "/it/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## Proteggi i tuoi documenti con più tipi di firma
 
 Hai mai avuto bisogno di applicare diversi tipi di firme a un singolo documento? Che si tratti di contratti riservati, documenti legali o documenti aziendali, combinare più tipi di firme può migliorare significativamente sia la sicurezza che l'autenticità. In questa guida, spiegheremo nel dettaglio come implementare questa potente funzionalità utilizzando GroupDocs.Signature per .NET.

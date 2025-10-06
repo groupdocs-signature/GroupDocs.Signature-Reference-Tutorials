@@ -5,8 +5,8 @@
 "title": "验证文档中的条形码签名"
 "url": "/zh/net/verify-operations/verify-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## 介绍
 
 条形码已成为现代文档管理系统不可或缺的一部分，它不仅能够快速访问编码信息，还能起到安全保护的作用。GroupDocs.Signature for .NET 提供了强大的 API，用于验证文档中的条形码签名，确保其真实性和完整性。

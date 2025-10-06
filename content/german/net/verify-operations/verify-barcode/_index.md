@@ -5,8 +5,8 @@
 "title": "Überprüfen von Barcode-Signaturen in Dokumenten"
 "url": "/de/net/verify-operations/verify-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Einführung
 
 Barcodes sind aus modernen Dokumentenmanagementsystemen nicht mehr wegzudenken. Sie ermöglichen schnellen Zugriff auf verschlüsselte Informationen und dienen gleichzeitig als Sicherheitsmerkmal. GroupDocs.Signature für .NET bietet eine leistungsstarke API zur Überprüfung von Barcode-Signaturen in Dokumenten und stellt so deren Authentizität und Integrität sicher.

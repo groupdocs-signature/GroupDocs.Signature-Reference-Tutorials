@@ -4,8 +4,8 @@
 "title": "Zoek efficiënt naar PDF-formuliervelden met GroupDocs.Signature voor .NET"
 "url": "/nl/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Zoek efficiënt naar PDF-formuliervelden met GroupDocs.Signature voor .NET
 
 ## Invoering

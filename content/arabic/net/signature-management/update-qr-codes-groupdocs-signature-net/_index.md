@@ -4,8 +4,8 @@
 "title": "تحديث رموز الاستجابة السريعة (QR Codes) في .NET باستخدام GroupDocs.Signature - دليل خطوة بخطوة"
 "url": "/ar/net/signature-management/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تحديث رمز الاستجابة السريعة QR باستخدام GroupDocs.Signature لـ .NET
 
 أهلاً بكم في دليلنا الشامل لتحديث رموز الاستجابة السريعة (QR Codes) باستخدام مكتبة GroupDocs.Signature القوية في .NET! هذا البرنامج التعليمي مثالي للمطورين الذين يتطلعون إلى تحسين سير عمل إدارة مستنداتهم من خلال أتمتة تحديثات التوقيعات. باستخدام GroupDocs.Signature لـ .NET، يمكنك دمج وظائف التوقيع الرقمي بسلاسة في تطبيقاتك.

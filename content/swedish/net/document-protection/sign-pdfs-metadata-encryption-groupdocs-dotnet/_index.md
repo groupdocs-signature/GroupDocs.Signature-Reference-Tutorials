@@ -4,8 +4,8 @@
 "title": "Så här signerar du PDF-filer med metadata och kryptering med GroupDocs.Signature för .NET | Guide till säkert dokumentskydd"
 "url": "/sv/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Så här signerar du PDF-filer med metadata och kryptering med GroupDocs.Signature för .NET
 
 ## Introduktion

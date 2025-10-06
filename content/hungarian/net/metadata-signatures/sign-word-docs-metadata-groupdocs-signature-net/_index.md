@@ -4,8 +4,8 @@
 "title": "Word dokumentumok metaadatokkal történő aláírása a GroupDocs.Signature for .NET használatával | Lépésről lépésre útmutató"
 "url": "/hu/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Word dokumentumok metaadatokkal történő aláírása a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Как подписать ZIP-файлы штрихкодами и QR-кодами в Java с помощью GroupDocs.Signature"
 "url": "/ru/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать ZIP-файлы штрихкодами и QR-кодами в Java с помощью GroupDocs.Signature
 
 ## Введение

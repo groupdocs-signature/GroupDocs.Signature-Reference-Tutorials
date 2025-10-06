@@ -4,8 +4,8 @@
 "title": "Náhledy podpisů QR kódů s GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementace náhledů podpisů QR kódů pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

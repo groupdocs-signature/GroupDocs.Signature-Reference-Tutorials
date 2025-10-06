@@ -4,8 +4,8 @@
 "title": "Signera presentationsdokument med metadata med GroupDocs.Signature för .NET"
 "url": "/sv/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här signerar du ett presentationsdokument med metadata med GroupDocs.Signature för .NET
 
 ## Introduktion

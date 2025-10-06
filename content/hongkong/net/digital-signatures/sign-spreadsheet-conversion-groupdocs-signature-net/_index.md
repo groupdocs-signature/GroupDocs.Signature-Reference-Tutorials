@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 有效地簽署電子表格並將其轉換為 PDF"
 "url": "/zh-hant/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 有效地簽署電子表格並將其轉換為 PDF
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu PDF có siêu dữ liệu bằng GroupDocs.Signature cho .NET | Hướng dẫn toàn diện"
 "url": "/vi/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng siêu dữ liệu bằng GroupDocs.Signature cho .NET
 
 Trong thế giới số ngày nay, việc quản lý tài liệu hiệu quả là điều cần thiết cho cả doanh nghiệp và cá nhân. Việc ký và xác minh tài liệu an toàn đã trở nên vô cùng quan trọng, đặc biệt là khi xử lý hợp đồng hoặc hồ sơ chính thức. Hướng dẫn toàn diện này sẽ trình bày cách sử dụng GroupDocs.Signature cho .NET để ký tài liệu PDF bằng chữ ký siêu dữ liệu, nâng cao tính toàn vẹn của tài liệu.

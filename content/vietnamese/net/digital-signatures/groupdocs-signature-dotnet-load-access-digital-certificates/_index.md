@@ -4,8 +4,8 @@
 "title": "Tải và truy cập chứng chỉ số trong .NET với GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/net/digital-signatures/groupdocs-signature-dotnet-load-access-digital-certificates/"
 "weight": 1
+type: docs
 ---
-
 # Tải và truy cập chứng chỉ số trong .NET với GroupDocs.Signature
 ## Hướng dẫn toàn diện
 

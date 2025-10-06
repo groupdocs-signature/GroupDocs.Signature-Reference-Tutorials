@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 表单字段签名教程"
 "url": "/zh/java/form-field-signatures/"
 "weight": 8
+type: docs
 ---
-
 # GroupDocs.Signature Java 表单字段签名教程
 
 通过我们为 Java 开发者提供的详细 GroupDocs.Signature 教程，掌握 PDF 表单字段签名。这些分步指南演示了如何使用标准表单字段、创建和管理组合框字段、实现单选按钮组以及如何使用表单字段进行文档签名。每个教程都提供了表单字段操作的实用 Java 代码示例，帮助您构建包含可填写表单字段的交互式 PDF 文档，这些表单字段可以收集和验证用户输入，同时保持文档的完整性。

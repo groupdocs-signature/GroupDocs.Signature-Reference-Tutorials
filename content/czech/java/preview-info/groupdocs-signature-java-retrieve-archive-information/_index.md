@@ -4,8 +4,8 @@
 "title": "Jak načíst informace o archivním souboru pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # Jak načíst informace o archivním souboru pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

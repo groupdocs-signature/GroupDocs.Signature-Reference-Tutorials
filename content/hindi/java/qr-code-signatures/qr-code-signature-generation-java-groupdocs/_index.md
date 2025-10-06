@@ -4,8 +4,8 @@
 "title": "जावा में क्यूआर कोड हस्ताक्षर निर्माण - ग्रुपडॉक्स का उपयोग करके एक व्यापक गाइड"
 "url": "/hi/java/qr-code-signatures/qr-code-signature-generation-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # ग्रुपडॉक्स का उपयोग करके जावा में क्यूआर कोड हस्ताक्षर निर्माण कैसे कार्यान्वित करें
 
 ## परिचय

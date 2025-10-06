@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε έγγραφα του Word με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για .NET | Οδηγός βήμα προς βήμα"
 "url": "/el/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε έγγραφα του Word με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

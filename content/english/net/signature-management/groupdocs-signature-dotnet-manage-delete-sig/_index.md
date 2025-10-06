@@ -9,8 +9,8 @@ weight: 1
 url: "/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 categories: ["Document Management"]
 tags: ["dotnet-signature-management", "groupdocs-tutorial", "document-automation", "signature-deletion"]
+type: docs
 ---
-
 # How to Delete Digital Signatures in .NET
 
 ## Introduction

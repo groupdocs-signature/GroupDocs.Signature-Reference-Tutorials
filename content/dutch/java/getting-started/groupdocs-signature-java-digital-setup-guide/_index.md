@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58; Uitgebreide handleiding voor het instellen van Java digitale handtekeningen"
 "url": "/nl/java/getting-started/groupdocs-signature-java-digital-setup-guide/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van Java Digital Signature Setup met GroupDocs.Signature: een handleiding voor ontwikkelaars
 
 In het huidige digitale tijdperk is het cruciaal om de authenticiteit en integriteit van documenten te garanderen. Digitale handtekeningen bieden een veilige manier om te verifiëren dat een document niet is gewijzigd sinds de ondertekening. Deze uitgebreide handleiding begeleidt u bij het instellen en implementeren van digitale handtekeningopties met behulp van de krachtige GroupDocs.Signature-bibliotheek voor Java.

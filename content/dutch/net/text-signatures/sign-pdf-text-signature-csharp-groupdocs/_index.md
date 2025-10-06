@@ -4,8 +4,8 @@
 "title": "Onderteken PDF-documenten met een teksthandtekening in C# met GroupDocs.Signature voor .NET"
 "url": "/nl/net/text-signatures/sign-pdf-text-signature-csharp-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Onderteken PDF-documenten met een teksthandtekening in C# met GroupDocs.Signature voor .NET
 
 ## Invoering

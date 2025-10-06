@@ -4,8 +4,8 @@
 "title": "Pencarian Metadata Master di Dokumen Word dengan GroupDocs.Signature untuk Java"
 "url": "/id/java/search-verification/master-metadata-search-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pencarian Metadata dalam Dokumen Word Menggunakan GroupDocs.Signature untuk Java
 
 Ekstraksi metadata dari dokumen Word dapat disederhanakan dengan pustaka GroupDocs.Signature yang canggih. Tutorial ini memandu Anda dalam mengimplementasikan fitur pencarian tanda tangan metadata dalam dokumen Word menggunakan Java.

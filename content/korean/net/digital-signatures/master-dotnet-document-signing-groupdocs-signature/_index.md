@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용한 안전한 디지털 서명을 위한 .NET 문서 서명 마스터하기"
 "url": "/ko/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용한 .NET 문서 서명 마스터하기
 
 ## 소개

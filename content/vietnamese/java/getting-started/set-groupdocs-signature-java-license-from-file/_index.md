@@ -4,8 +4,8 @@
 "title": "Thiết lập GroupDocs.Signature cho Giấy phép Java từ Tệp - Hướng dẫn Toàn diện"
 "url": "/vi/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # Thiết lập GroupDocs.Signature cho Giấy phép Java từ Tệp - Hướng dẫn từng bước
 
 ## Giới thiệu

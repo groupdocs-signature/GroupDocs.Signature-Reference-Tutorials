@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["qr-code", "signatures", "encryption", "dotnet", "security"]
+type: docs
 ---
-
 # QR Code Signature .NET Tutorial - Complete Guide with Custom Encryption
 
 ## Introduction

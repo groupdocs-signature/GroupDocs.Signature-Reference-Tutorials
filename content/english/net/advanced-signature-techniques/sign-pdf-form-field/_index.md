@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing"]
 tags: ["digital-signatures", "pdf-forms", "dotnet", "groupdocs"]
+type: docs
 ---
-
 # How to Sign PDF Form Fields in .NET
 
 Struggling with PDF form field signatures in your .NET applications? You're not alone. Many developers find themselves wrestling with complex signature libraries or dealing with documents that just won't cooperate. But here's the good news: signing PDF form fields in .NET doesn't have to be a headache.

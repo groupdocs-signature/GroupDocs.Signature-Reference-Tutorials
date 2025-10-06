@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ जावा में QR-कोड हस्ताक्षर खोज को कार्यान्वित करें"
 "url": "/hi/java/qr-code-signatures/implement-qr-code-signature-search-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ जावा में QR-कोड हस्ताक्षर खोज को कार्यान्वित करें
 
 ## परिचय

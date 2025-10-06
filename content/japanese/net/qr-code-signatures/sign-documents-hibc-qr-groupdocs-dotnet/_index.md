@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して HIBC QR コードでドキュメントに署名する方法 - 包括的なガイド"
 "url": "/ja/net/qr-code-signatures/sign-documents-hibc-qr-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して HIBC QR コードでドキュメントに署名する方法
 
 ## 導入

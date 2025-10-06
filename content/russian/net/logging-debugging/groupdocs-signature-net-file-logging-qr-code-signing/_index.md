@@ -4,8 +4,8 @@
 "title": "Ведение журнала файлов и подпись QR-кода&#58; полное руководство по использованию GroupDocs.Signature для .NET"
 "url": "/ru/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Ведение журнала файлов и подпись QR-кода: полное руководство по использованию GroupDocs.Signature для .NET
 
 ## Введение

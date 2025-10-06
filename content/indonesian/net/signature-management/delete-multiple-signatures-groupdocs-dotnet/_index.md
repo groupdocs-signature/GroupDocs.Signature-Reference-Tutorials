@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Beberapa Tanda Tangan dalam Dokumen Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/signature-management/delete-multiple-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Beberapa Tanda Tangan dalam Dokumen Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

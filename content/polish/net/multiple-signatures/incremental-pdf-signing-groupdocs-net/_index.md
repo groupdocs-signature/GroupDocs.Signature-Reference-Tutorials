@@ -4,8 +4,8 @@
 "title": "Jak przyrostowo podpisywać pliki PDF za pomocą GroupDocs.Signature dla platformy .NET? — kompleksowy przewodnik"
 "url": "/pl/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisać dokument PDF przyrostowo za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

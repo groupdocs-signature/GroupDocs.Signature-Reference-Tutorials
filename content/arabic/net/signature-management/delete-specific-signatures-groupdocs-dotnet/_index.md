@@ -4,8 +4,8 @@
 "title": "كيفية حذف توقيعات محددة من المستندات باستخدام GroupDocs.Signature لـ .NET | دورة تدريبية لإدارة التوقيعات"
 "url": "/ar/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية حذف توقيعات محددة في المستندات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

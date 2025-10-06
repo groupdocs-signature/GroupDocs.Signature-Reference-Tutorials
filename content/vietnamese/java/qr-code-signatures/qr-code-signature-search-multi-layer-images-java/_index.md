@@ -4,8 +4,8 @@
 "title": "Triển khai tìm kiếm chữ ký mã QR trong hình ảnh nhiều lớp bằng Java và GroupDocs.Signature"
 "url": "/vi/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai tìm kiếm chữ ký mã QR trong tài liệu hình ảnh nhiều lớp bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

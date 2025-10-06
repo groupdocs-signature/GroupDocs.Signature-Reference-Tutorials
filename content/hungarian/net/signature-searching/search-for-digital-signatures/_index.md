@@ -5,8 +5,8 @@
 "title": "Digitális aláírások keresése dokumentumokban"
 "url": "/hu/net/signature-searching/search-for-digital-signatures/"
 "weight": 11
+type: docs
 ---
-
 ## Bevezetés
 
 A mai digitális környezetben a dokumentumok hitelességének és integritásának biztosítása kritikus fontosságú a vállalkozások és szervezetek számára. A digitális aláírások robusztus mechanizmust biztosítanak a dokumentumok hitelességének ellenőrzésére és a jogosulatlan módosítások észlelésére. A GroupDocs.Signature for .NET átfogó megoldást kínál a digitális aláírások kezelésére különféle dokumentumformátumokban, lehetővé téve a fejlesztők számára, hogy zökkenőmentesen integrálják az aláírási funkciókat .NET alkalmazásaikba.

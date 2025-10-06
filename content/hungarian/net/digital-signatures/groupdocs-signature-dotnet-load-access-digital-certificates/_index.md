@@ -4,8 +4,8 @@
 "title": "Digitális tanúsítványok betöltése és elérése .NET-ben a GroupDocs.Signature segítségével – Átfogó útmutató"
 "url": "/hu/net/digital-signatures/groupdocs-signature-dotnet-load-access-digital-certificates/"
 "weight": 1
+type: docs
 ---
-
 # Digitális tanúsítványok betöltése és elérése .NET-ben a GroupDocs.Signature segítségével
 ## Átfogó útmutató
 

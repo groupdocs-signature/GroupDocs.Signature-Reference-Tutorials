@@ -5,8 +5,8 @@
 "title": "Wyszukaj podpisy cyfrowe w dokumentach"
 "url": "/pl/net/signature-searching/search-for-digital-signatures/"
 "weight": 11
+type: docs
 ---
-
 ## Wstęp
 
 W dzisiejszym cyfrowym świecie zapewnienie autentyczności i integralności dokumentów ma kluczowe znaczenie dla firm i organizacji. Podpisy cyfrowe zapewniają niezawodny mechanizm weryfikacji autentyczności dokumentów i wykrywania nieautoryzowanych modyfikacji. GroupDocs.Signature for .NET oferuje kompleksowe rozwiązanie do pracy z podpisami cyfrowymi w różnych formatach dokumentów, umożliwiając programistom bezproblemową integrację funkcji podpisu z aplikacjami .NET.

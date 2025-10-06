@@ -4,8 +4,8 @@
 "title": "Jak podpisać plik PDF metadanymi za pomocą GroupDocs.Signature dla języka Java"
 "url": "/pl/java/metadata-signatures/sign-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisać plik PDF metadanymi za pomocą GroupDocs.Signature dla języka Java
 
 W dzisiejszym cyfrowym świecie zapewnienie integralności i autentyczności dokumentów ma kluczowe znaczenie. Jeśli masz do czynienia z plikami PDF wymagającymi dodatkowej warstwy zabezpieczeń w postaci podpisów, ten samouczek przeprowadzi Cię przez proces podpisywania dokumentu PDF za pomocą metadanych, takich jak nazwisko autora, data utworzenia, identyfikator dokumentu i identyfikator podpisu, za pomocą GroupDocs.Signature for Java.

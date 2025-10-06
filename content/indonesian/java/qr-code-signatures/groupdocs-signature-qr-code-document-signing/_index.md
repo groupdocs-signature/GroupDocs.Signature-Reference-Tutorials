@@ -4,8 +4,8 @@
 "title": "Penandatanganan Dokumen Master dengan Kode QR Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/qr-code-signatures/groupdocs-signature-qr-code-document-signing/"
 "weight": 1
+type: docs
 ---
-
 # Penandatanganan Dokumen Master dengan Kode QR Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

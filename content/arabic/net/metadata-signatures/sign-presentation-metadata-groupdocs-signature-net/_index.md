@@ -4,8 +4,8 @@
 "title": "توقيع مستندات العرض التقديمي باستخدام البيانات الوصفية باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستند عرض تقديمي باستخدام البيانات الوصفية باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

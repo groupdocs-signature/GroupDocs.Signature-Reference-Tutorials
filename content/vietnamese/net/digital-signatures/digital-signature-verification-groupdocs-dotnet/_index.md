@@ -4,8 +4,8 @@
 "title": "Hướng dẫn xác minh chữ ký số bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/digital-signatures/digital-signature-verification-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn xác minh chữ ký số bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

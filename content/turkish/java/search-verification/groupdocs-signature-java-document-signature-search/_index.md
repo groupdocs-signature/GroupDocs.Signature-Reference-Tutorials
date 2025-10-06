@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java ile Belge İmza Aramada Ustalaşma - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile Belge İmza Aramada Ustalaşma
 
 ## giriiş

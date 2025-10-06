@@ -3,8 +3,8 @@
 "title": "Hướng dẫn chữ ký văn bản cho GroupDocs.Signature .NET"
 "url": "/vi/net/text-signatures/"
 "weight": 7
+type: docs
 ---
-
 # Hướng dẫn chữ ký văn bản cho GroupDocs.Signature .NET
 
 Hướng dẫn về chữ ký văn bản của chúng tôi sẽ hướng dẫn bạn cách triển khai các loại chữ ký văn bản khác nhau bằng GroupDocs.Signature trong .NET. Những hướng dẫn thực tế này sẽ hướng dẫn bạn cách tạo chữ ký văn bản, hình mờ, chú thích, nhãn dán, trường biểu mẫu và tem với các tùy chọn định dạng tùy chỉnh. Mỗi hướng dẫn đều bao gồm các ví dụ mã C# chi tiết cho các tình huống triển khai chữ ký văn bản, giúp bạn xây dựng các ứng dụng có thể đánh dấu tài liệu bằng thông tin văn bản một cách hiệu quả, đồng thời cung cấp nhiều tùy chọn định dạng và định vị.

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 检索文档处理历史记录——分步指南"
 "url": "/zh/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 检索文档处理历史记录：分步指南
 
 ## 介绍

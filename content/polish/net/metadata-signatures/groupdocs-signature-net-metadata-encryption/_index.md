@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć szyfrowanie podpisów metadanych w .NET za pomocą GroupDocs.Signature dla bezpiecznych plików PDF"
 "url": "/pl/net/metadata-signatures/groupdocs-signature-net-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć szyfrowanie podpisów metadanych w .NET za pomocą GroupDocs.Signature dla bezpiecznych plików PDF
 
 ## Wstęp

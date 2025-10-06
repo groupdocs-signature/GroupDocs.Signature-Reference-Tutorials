@@ -4,8 +4,8 @@
 "title": "Operace s hlavními soubory a aktualizace podpisů pomocí GroupDocs.Signature pro .NET | Průvodce efektivní správou dokumentů"
 "url": "/cs/net/signature-management/master-file-operations-update-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Operace s hlavními soubory a aktualizace podpisů pomocí GroupDocs.Signature pro .NET | Průvodce efektivní správou dokumentů
 
 Efektivní správa pracovních postupů s dokumenty je v dnešním obchodním prostředí klíčová. Ať už provádíte operace se soubory nebo potřebujete programově aktualizovat podpisy, **GroupDocs.Signature pro .NET** poskytuje výkonná řešení. Tento tutoriál vás provede implementací operací se soubory a aktualizací textových podpisů pomocí této všestranné knihovny.

@@ -4,8 +4,8 @@
 "title": "Carica e verifica i certificati digitali con GroupDocs.Signature per .NET&#58; una guida completa"
 "url": "/it/net/digital-signatures/load-verify-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Carica e verifica i certificati digitali con GroupDocs.Signature per .NET
 
 ## Introduzione

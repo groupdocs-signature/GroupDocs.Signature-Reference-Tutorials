@@ -5,8 +5,8 @@
 "title": "Veilige barcodehandtekeningen toevoegen aan .NET-documenten | Volledige handleiding"
 "url": "/nl/net/advanced-signature-techniques/sign-with-barcode/"
 "weight": 11
+type: docs
 ---
-
 ## Hoe kunnen barcodehandtekeningen de beveiliging van uw documenten verbeteren?
 
 In de digitale wereld van vandaag is documentbeveiliging niet alleen leuk, maar ook essentieel. Barcodehandtekeningen bieden een unieke manier om uw belangrijke bestanden te verifiëren en te beveiligen. Met GroupDocs.Signature voor .NET is de implementatie van deze krachtige beveiligingsfuncties verrassend eenvoudig.

@@ -4,8 +4,8 @@
 "title": "Cách tải xuống và ký tài liệu Amazon S3 bằng mã QR bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/qr-code-signatures/download-sign-s3-documents-qr-code-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách tải xuống và ký tài liệu Amazon S3 bằng mã QR bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak PDF Belgelerini Meta Verilerle Nasıl İmzalayabilirsiniz? | Kapsamlı Bir Kılavuz"
 "url": "/tr/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak PDF Belgelerini Meta Verilerle Nasıl İmzalayabilirsiniz?
 
 Günümüzün dijital dünyasında, belgeleri verimli bir şekilde yönetmek hem işletmeler hem de bireyler için hayati önem taşımaktadır. Belgeleri güvenli bir şekilde imzalamak ve doğrulamak, özellikle sözleşmeler veya resmi kayıtlar söz konusu olduğunda hayati önem taşımaktadır. Bu kapsamlı kılavuz, PDF belgelerini meta veri imzalarıyla imzalamak ve belge bütünlüğünü artırmak için GroupDocs.Signature for .NET'in nasıl kullanılacağını gösterecektir.

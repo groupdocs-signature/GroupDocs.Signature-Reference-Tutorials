@@ -4,8 +4,8 @@
 "title": "Masterdocumentverificatie met GroupDocs.Signature voor Java&#58; een stapsgewijze handleiding"
 "url": "/nl/java/search-verification/groupdocs-signature-java-document-verification/"
 "weight": 1
+type: docs
 ---
-
 # Documentverificatie onder de knie krijgen met GroupDocs.Signature voor Java
 
 In het huidige digitale tijdperk is het garanderen van de authenticiteit en integriteit van documenten cruciaal in diverse sectoren. Of u nu een jurist bent die contracten controleert of een bedrijf dat facturen authenticeert, documentverificatie is onmisbaar. **GroupDocs.Signature voor Java**: een krachtige bibliotheek die dit proces vereenvoudigt door eenvoudige verificatie van barcodehandtekeningen mogelijk te maken.

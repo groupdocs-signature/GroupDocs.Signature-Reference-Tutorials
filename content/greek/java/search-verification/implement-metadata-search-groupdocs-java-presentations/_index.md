@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε την αναζήτηση μεταδεδομένων σε παρουσιάσεις Java με το GroupDocs.Signature"
 "url": "/el/java/search-verification/implement-metadata-search-groupdocs-java-presentations/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την αναζήτηση μεταδεδομένων σε παρουσιάσεις Java με το GroupDocs.Signature
 
 ## Εισαγωγή

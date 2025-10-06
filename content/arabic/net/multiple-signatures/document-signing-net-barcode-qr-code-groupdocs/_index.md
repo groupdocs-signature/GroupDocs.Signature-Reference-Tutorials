@@ -4,8 +4,8 @@
 "title": "إتقان توقيع المستندات في .NET باستخدام توقيعات الباركود ورمز الاستجابة السريعة باستخدام GroupDocs.Signature"
 "url": "/ar/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # إتقان توقيع المستندات في .NET: تنفيذ توقيعات الباركود ورمز الاستجابة السريعة باستخدام GroupDocs.Signature
 
 ## مقدمة

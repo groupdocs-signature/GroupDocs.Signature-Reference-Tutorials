@@ -4,8 +4,8 @@
 "title": "Οδηγός για την Υλοποίηση της Αναζήτησης Υπογραφής Εικόνας σε Java με το GroupDocs.Signature"
 "url": "/el/java/search-verification/search-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Οδηγός για την Υλοποίηση της Αναζήτησης Υπογραφής Εικόνας σε Java με το GroupDocs.Signature
 
 ## Εισαγωγή

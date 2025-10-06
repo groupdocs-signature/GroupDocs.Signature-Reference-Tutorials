@@ -4,8 +4,8 @@
 "title": "Maîtriser les signatures de codes-barres dans .NET avec GroupDocs.Signature – Un guide complet"
 "url": "/fr/net/barcode-signatures/master-barcode-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser la gestion des signatures de codes-barres dans .NET avec GroupDocs.Signature
 
 Dans le contexte économique actuel en constante évolution, une gestion efficace des signatures électroniques est essentielle pour optimiser les opérations et renforcer la sécurité des documents. Que vous souhaitiez automatiser l'approbation des contrats ou garantir la conformité grâce à des signatures vérifiables, GroupDocs.Signature pour .NET offre une solution robuste et adaptée à vos besoins. Ce guide complet vous guidera dans l'initialisation, la recherche et la mise à jour des signatures de codes-barres grâce à cette puissante bibliothèque.

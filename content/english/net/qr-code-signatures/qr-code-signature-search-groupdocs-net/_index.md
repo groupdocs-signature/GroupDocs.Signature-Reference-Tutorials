@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["QR-codes", "digital-signatures", "document-verification", "dotnet"]
+type: docs
 ---
-
 # QR Code Signature Search .NET - Extract Event Data Tutorial
 
 ## Introduction

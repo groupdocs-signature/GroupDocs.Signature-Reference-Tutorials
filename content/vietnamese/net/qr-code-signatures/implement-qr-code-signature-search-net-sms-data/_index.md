@@ -4,8 +4,8 @@
 "title": "Triển khai Tìm kiếm chữ ký mã QR trong .NET để trích xuất dữ liệu SMS với GroupDocs.Signature"
 "url": "/vi/net/qr-code-signatures/implement-qr-code-signature-search-net-sms-data/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai Tìm kiếm chữ ký mã QR trong .NET bằng GroupDocs.Signature
 
 ## Giới thiệu

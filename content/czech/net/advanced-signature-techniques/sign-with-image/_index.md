@@ -5,8 +5,8 @@
 "title": "Snadno přidávejte obrazové podpisy do dokumentů pomocí GroupDocs.Signature"
 "url": "/cs/net/advanced-signature-techniques/sign-with-image/"
 "weight": 13
+type: docs
 ---
-
 ## Úvod: Transformujte zabezpečení svých dokumentů pomocí obrazových podpisů
 
 Přemýšleli jste někdy, jak zabezpečit a zvýšit právnou platnost vašich digitálních dokumentů? Přidání obrazových podpisů je jedním z nejúčinnějších způsobů, jak ověřit vaše dokumenty a chránit je před neoprávněnou manipulací. V tomto přehledném průvodci vás provedeme procesem implementace podepisování dokumentů na základě obrázků ve vašich .NET aplikacích pomocí GroupDocs.Signature.

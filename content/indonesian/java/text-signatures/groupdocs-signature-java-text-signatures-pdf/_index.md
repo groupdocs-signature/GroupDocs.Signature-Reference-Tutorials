@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Tanda Tangan Teks di PDF Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/text-signatures/groupdocs-signature-java-text-signatures-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Tanda Tangan Teks dalam PDF Menggunakan GroupDocs.Signature untuk Java
 
 **Merampingkan Alur Kerja Dokumen: Panduan Lengkap untuk Mencari dan Mengelola Tanda Tangan Teks dalam PDF dengan GroupDocs.Signature untuk Java**

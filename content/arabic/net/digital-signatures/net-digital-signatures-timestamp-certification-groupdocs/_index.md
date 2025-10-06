@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ التوقيعات الرقمية .NET مع الطابع الزمني والشهادة باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التوقيعات الرقمية .NET مع الطابع الزمني والشهادة باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

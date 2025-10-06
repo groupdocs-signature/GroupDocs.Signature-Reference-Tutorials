@@ -4,8 +4,8 @@
 "title": "Vonalkód-aláírással rendelkező .NET dokumentumok ellenőrzése a GroupDocs.Signature használatával"
 "url": "/hu/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan valósíthatunk meg dokumentum-ellenőrzést vonalkód-aláírásokkal .NET-ben a GroupDocs.Signature használatával?
 
 ## Bevezetés

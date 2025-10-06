@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory textem pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/text-signatures/sign-pdf-text-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF textem pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

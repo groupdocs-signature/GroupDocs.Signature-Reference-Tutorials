@@ -4,8 +4,8 @@
 "title": "Podpisuj dokumenty kodem QR za pomocą Java i GroupDocs.Signature&#58; – kompleksowy przewodnik"
 "url": "/pl/java/qr-code-signatures/sign-documents-with-qr-code-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Podpisuj dokumenty kodem QR za pomocą Java i GroupDocs.Signature
 
 Chcesz dodać dodatkową warstwę bezpieczeństwa i zwiększyć wydajność swojego systemu zarządzania dokumentami? Elektroniczne podpisywanie dokumentów to niezbędna funkcja w dzisiejszej erze cyfrowej, a podpisy kodami QR oferują wygodę i niezawodność. W tym kompleksowym przewodniku pokażemy, jak podpisywać dokumenty graficzne kodami QR za pomocą GroupDocs.Signature for Java. Po ukończeniu tego samouczka będziesz w stanie bezproblemowo wdrożyć te funkcje.

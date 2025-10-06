@@ -4,8 +4,8 @@
 "title": "Implémentation des signatures numériques dans le guide d'intégration des codes-barres et des codes QR .NET"
 "url": "/fr/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter des signatures numériques dans .NET : signature de codes-barres et de codes QR avec GroupDocs.Signature
 
 À l'ère du numérique, authentifier des documents rapidement et en toute sécurité est plus important que jamais. Que vous soyez développeur sur une application d'entreprise ou que vous cherchiez simplement à optimiser votre processus de gestion documentaire, l'ajout de signatures peut être une véritable révolution. Ce tutoriel vous guide dans son utilisation. **GroupDocs.Signature pour .NET** pour signer numériquement des documents avec des signatures de codes-barres et de codes QR, offrant des solutions robustes pour une documentation sécurisée.

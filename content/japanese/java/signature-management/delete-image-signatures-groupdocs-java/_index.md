@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用してドキュメントから画像署名を削除する方法"
 "url": "/ja/java/signature-management/delete-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用してドキュメントから画像署名を削除する方法
 
 デジタル署名の管理は、文書の整合性と真正性を維持するために不可欠です。契約書を管理する大企業でも、請求書を扱う中小企業でも、古くなった画像署名や不正確な画像署名を削除することで、文書管理を効率化できます。このチュートリアルでは、GroupDocs.Signature for Javaを使用して、既知のIDで画像署名を削除する方法について説明します。

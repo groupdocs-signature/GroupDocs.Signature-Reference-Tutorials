@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中實現高效的 PDF 簽章管理"
 "url": "/zh-hant/java/signature-management/mastering-pdf-signature-management-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中實現高效的 PDF 簽章管理
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "Vonalkódok és QR-kódok ellenőrzése dokumentumokban a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/search-verification/verify-barcode-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Vonalkód- és QR-kód-ellenőrzés megvalósítása a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

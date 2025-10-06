@@ -4,8 +4,8 @@
 "title": "Assinaturas de texto em PDF Java com bordas personalizadas usando GroupDocs.Signature para Java"
 "url": "/pt/java/text-signatures/java-pdf-text-signatures-groupdocs-custom-borders/"
 "weight": 1
+type: docs
 ---
-
 # Dominando assinaturas de texto em PDF em Java com bordas personalizadas usando GroupDocs.Signature
 
 Na era digital atual, garantir a autenticidade de documentos é crucial para empresas e indivíduos. Com o surgimento dos documentos eletrônicos, os métodos tradicionais de assinatura estão sendo substituídos por soluções mais eficientes e seguras, como assinaturas de texto em PDFs. Se você deseja adicionar um toque profissional aos seus documentos PDF com assinaturas de texto personalizadas usando o GroupDocs.Signature para Java, você veio ao lugar certo.

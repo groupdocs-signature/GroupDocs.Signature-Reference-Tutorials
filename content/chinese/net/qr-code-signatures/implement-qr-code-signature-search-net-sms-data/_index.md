@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中实现二维码签名搜索以提取短信数据"
 "url": "/zh/net/qr-code-signatures/implement-qr-code-signature-search-net-sms-data/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 .NET 中实现二维码签名搜索
 
 ## 介绍

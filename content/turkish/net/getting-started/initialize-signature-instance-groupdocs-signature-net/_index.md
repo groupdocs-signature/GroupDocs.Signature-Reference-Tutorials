@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature ile İmza Örneğini Başlatma Kapsamlı Bir Kılavuz"
 "url": "/tr/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature ile İmza Örneğini Başlatma
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": ".NET QR Kodu ve WiFi Veri Çıkarımı için GroupDocs.Signature ile Ana Belge İmza Arama"
 "url": "/tr/net/search-verification/master-document-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Belge İmza Aramalarında Ustalaşma
 
 Günümüzün dijital dünyasında, verimli belge yönetimi ve doğrulaması, farklı sektörlerdeki işletmeler için hayati önem taşımaktadır. Yaygın bir zorluk, WiFi verileri içeren QR kod imzaları gibi belirli imzalar için belgelerde arama yapmaktır. Bu kapsamlı kılavuz, GroupDocs.Signature for .NET kullanarak WiFi bilgilerini içeren QR kod imzalarını arama özelliğini uygulamada size yol gösterecektir.

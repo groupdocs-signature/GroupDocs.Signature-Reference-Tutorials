@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature का उपयोग करके ZIP फ़ाइलों में बारकोड हस्ताक्षर सत्यापित करें"
 "url": "/hi/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके ZIP फ़ाइलों में बारकोड हस्ताक्षर सत्यापित करें
 
 ## परिचय

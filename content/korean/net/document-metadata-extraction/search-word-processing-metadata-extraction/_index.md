@@ -5,8 +5,8 @@
 "title": ".NET을 사용하여 워드 프로세싱 메타데이터를 쉽게 추출하세요"
 "url": "/ko/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # .NET에서 워드 프로세싱 메타데이터를 검색하고 추출하는 방법
 
 ## 소개

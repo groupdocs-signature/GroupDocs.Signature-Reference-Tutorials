@@ -5,8 +5,8 @@
 "title": "文書から複数の署名を簡単に削除する方法"
 "url": "/ja/net/delete-operations/delete-multiple-signatures/"
 "weight": 15
+type: docs
 ---
-
 # .NET でドキュメントから複数の署名を削除する方法
 
 ## 文書署名の管理が重要な理由

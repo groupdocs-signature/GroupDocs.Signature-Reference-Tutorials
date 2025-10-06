@@ -4,8 +4,8 @@
 "title": "Wyszukiwanie głównych metadanych w dokumentach Word za pomocą GroupDocs.Signature dla języka Java"
 "url": "/pl/java/search-verification/master-metadata-search-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie wyszukiwania metadanych w dokumentach Word za pomocą GroupDocs.Signature dla języka Java
 
 Wyodrębnianie metadanych z dokumentów Word można usprawnić dzięki zaawansowanej bibliotece GroupDocs.Signature. Ten samouczek przeprowadzi Cię przez proces implementacji funkcji, która wyszukuje podpisy metadanych w dokumencie Word za pomocą Javy.

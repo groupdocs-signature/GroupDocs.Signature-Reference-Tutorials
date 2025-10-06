@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing", ".NET Development"]
 tags: ["qr-code", "pdf-signing", "groupdocs", "digital-signature", "csharp"]
+type: docs
 ---
-
 # PDF QR Code Signature .NET - Complete Developer Guide (2025)
 
 ## Why QR Code Signatures Matter for Your .NET Applications

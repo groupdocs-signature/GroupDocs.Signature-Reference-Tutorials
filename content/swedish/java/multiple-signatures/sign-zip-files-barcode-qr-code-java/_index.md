@@ -4,8 +4,8 @@
 "title": "Hur man signerar ZIP-filer med streckkoder och QR-koder i Java med GroupDocs.Signature"
 "url": "/sv/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar ZIP-filer med streckkoder och QR-koder i Java med GroupDocs.Signature
 
 ## Introduktion

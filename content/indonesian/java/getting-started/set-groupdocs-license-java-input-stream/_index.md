@@ -4,8 +4,8 @@
 "title": "Cara Mengatur Lisensi GroupDocs melalui InputStream di Java untuk Meningkatkan Fleksibilitas dan Kepatuhan"
 "url": "/id/java/getting-started/set-groupdocs-license-java-input-stream/"
 "weight": 1
+type: docs
 ---
-
 # Cara Implementasi Java: Mengatur Lisensi GroupDocs melalui InputStream di GroupDocs.Signature untuk Java
 
 Selamat datang di panduan komprehensif ini tentang cara mengatur lisensi GroupDocs Anda menggunakan aliran input dengan GroupDocs.Signature untuk Java. Fungsionalitas ini memungkinkan Anda mengelola lisensi secara efisien, memastikan kepatuhan, dan membuka akses penuh ke fitur-fitur GroupDocs.

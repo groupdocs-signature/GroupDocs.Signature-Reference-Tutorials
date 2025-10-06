@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 实现 .NET 条形码签名——开发人员完整指南"
 "url": "/zh/net/barcode-signatures/implement-dotnet-barcode-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 实现 .NET 条形码签名：开发人员完整指南
 
 ## 介绍

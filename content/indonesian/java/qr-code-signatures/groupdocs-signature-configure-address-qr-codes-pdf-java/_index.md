@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan Kode QR Alamat Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/qr-code-signatures/groupdocs-signature-configure-address-qr-codes-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF dengan Kode QR Alamat Menggunakan GroupDocs.Signature untuk Java
 
 Di dunia digital saat ini, penandatanganan dokumen yang aman sangatlah penting. Baik Anda seorang profesional bisnis maupun individu yang mengelola kontrak, mengotomatiskan penambahan tanda tangan dapat menghemat waktu dan meningkatkan keamanan dokumen. Tutorial ini memandu Anda dalam menggunakan **GroupDocs.Signature untuk Java** untuk membuat dan mengonfigurasi objek Alamat, lalu mengintegrasikannya ke dalam opsi penandatanganan Kode QR di PDF. Dengan mengikuti panduan ini, Anda akan mempelajari cara menyematkan data alamat sebagai kode QR ke dalam dokumen Anda dengan mudah.

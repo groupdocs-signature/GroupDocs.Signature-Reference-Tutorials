@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET による PDF 署名の自動化&#58; 画像署名ガイド"
 "url": "/ja/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET で PDF 署名を自動化: 画像署名ガイド
 
 ## 導入

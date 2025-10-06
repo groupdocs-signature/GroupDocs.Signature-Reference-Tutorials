@@ -4,8 +4,8 @@
 "title": "การเรียนรู้การค้นหาใบรับรองดิจิทัลด้วย GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การค้นหาใบรับรองดิจิทัลด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

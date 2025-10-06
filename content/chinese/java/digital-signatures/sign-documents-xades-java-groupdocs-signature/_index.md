@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 Java 中使用 XAdES 签名文档——分步指南"
 "url": "/zh/java/digital-signatures/sign-documents-xades-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 Java 中使用 XAdES 签署文档：分步指南
 
 ## 介绍

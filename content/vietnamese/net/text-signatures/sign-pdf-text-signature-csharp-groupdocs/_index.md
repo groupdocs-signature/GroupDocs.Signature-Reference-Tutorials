@@ -4,8 +4,8 @@
 "title": "Ký tài liệu PDF bằng chữ ký văn bản trong C# bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/text-signatures/sign-pdf-text-signature-csharp-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Ký tài liệu PDF bằng chữ ký văn bản trong C# bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

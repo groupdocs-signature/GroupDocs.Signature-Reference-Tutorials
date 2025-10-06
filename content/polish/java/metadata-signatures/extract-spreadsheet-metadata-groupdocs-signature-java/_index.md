@@ -4,8 +4,8 @@
 "title": "Wyodrębnij metadane z arkusza kalkulacyjnego za pomocą GroupDocs.Signature dla Java – kompleksowy przewodnik"
 "url": "/pl/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Wyodrębnianie metadanych arkusza kalkulacyjnego za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

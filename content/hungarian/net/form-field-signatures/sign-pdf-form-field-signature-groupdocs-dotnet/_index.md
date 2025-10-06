@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása űrlapmező-aláírással C#-ban a GroupDocs.Signature for .NET segítségével"
 "url": "/hu/net/form-field-signatures/sign-pdf-form-field-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentum aláírása űrlapmező-aláírással a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

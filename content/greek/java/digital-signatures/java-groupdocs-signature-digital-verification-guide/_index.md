@@ -4,8 +4,8 @@
 "title": "Ψηφιακή επαλήθευση εγγράφων Java με το GroupDocs.Signature&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/digital-signatures/java-groupdocs-signature-digital-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την επαλήθευση ψηφιακών εγγράφων Java χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

@@ -3,8 +3,8 @@
 "title": "Výukové programy pro pokročilé možnosti podpisu v GroupDocs.Signature .NET"
 "url": "/cs/net/advanced-options/"
 "weight": 14
+type: docs
 ---
-
 # Výukové programy pro pokročilé možnosti podpisu v GroupDocs.Signature .NET
 
 Prozkoumejte pokročilé možnosti podepisování s našimi komplexními tutoriály GroupDocs.Signature pro vývojáře .NET. Tyto podrobné průvodce pokrývají implementaci vlastního šifrování, specializované serializace, komplexního nastavení vzhledu, vlastních štětců a přechodů, umisťování s různými měrnými jednotkami, možností zarovnání a režimů roztažení. Každý tutoriál poskytuje funkční příklady kódu C# pro sofistikované funkce podepisování a pomáhá vám vytvářet řešení pro dokumenty, která plně využívají pokročilé funkce GroupDocs.Signature pro vysoce přizpůsobené a bezpečné implementace podepisování dokumentů.

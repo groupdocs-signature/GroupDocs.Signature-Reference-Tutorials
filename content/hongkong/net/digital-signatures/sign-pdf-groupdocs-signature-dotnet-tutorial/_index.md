@@ -4,8 +4,8 @@
 "title": "輕鬆簽署 PDF — 使用 GroupDocs.Signature for .NET 的逐步指南"
 "url": "/zh-hant/net/digital-signatures/sign-pdf-groupdocs-signature-dotnet-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 簽署 PDF 文檔
 
 ## 介紹

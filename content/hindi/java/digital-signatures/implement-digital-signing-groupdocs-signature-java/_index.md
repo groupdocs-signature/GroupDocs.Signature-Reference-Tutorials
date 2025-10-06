@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में डिजिटल दस्तावेज़ हस्ताक्षर कैसे लागू करें"
 "url": "/hi/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके जावा में डिजिटल दस्तावेज़ हस्ताक्षर कैसे लागू करें
 
 ## परिचय

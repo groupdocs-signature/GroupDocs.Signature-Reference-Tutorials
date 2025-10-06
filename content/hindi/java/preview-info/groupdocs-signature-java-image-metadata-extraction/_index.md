@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature लाइब्रेरी का उपयोग करके जावा में मास्टर इमेज मेटाडेटा निष्कर्षण"
 "url": "/hi/java/preview-info/groupdocs-signature-java-image-metadata-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature में महारत हासिल करना: छवि मेटाडेटा निष्कर्षण
 
 ## परिचय

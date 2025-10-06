@@ -6,8 +6,8 @@
 "title": "GroupDocs.Signature - .NET और Java के लिए डिजिटल दस्तावेज़ हस्ताक्षर API | पूर्ण ट्यूटोरियल गाइड"
 "url": "/hi/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature: डेवलपर्स के लिए पूर्ण डिजिटल दस्तावेज़ हस्ताक्षर समाधान
 
 ![GroupDocs.हस्ताक्षर बैनर](./groupdocs-signature-net.svg)

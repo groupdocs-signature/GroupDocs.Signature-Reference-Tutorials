@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java ile Dijital İmza Yükleme ve İmzalama Nasıl Uygulanır?"
 "url": "/tr/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile Dijital İmza Yükleme ve İmzalama Nasıl Uygulanır?
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในเอกสารโดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/digital-signatures/groupdocs-signature-java-document-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสารโดยใช้ GroupDocs.Signature สำหรับ Java: คู่มือฉบับสมบูรณ์
 
 ## การแนะนำ

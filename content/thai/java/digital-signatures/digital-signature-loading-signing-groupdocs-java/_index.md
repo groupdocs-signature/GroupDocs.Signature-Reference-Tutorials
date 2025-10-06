@@ -4,8 +4,8 @@
 "title": "วิธีการนำการโหลดและการลงนามลายเซ็นดิจิทัลไปใช้งานกับ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำการโหลดและการลงนามลายเซ็นดิจิทัลไปใช้งานกับ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

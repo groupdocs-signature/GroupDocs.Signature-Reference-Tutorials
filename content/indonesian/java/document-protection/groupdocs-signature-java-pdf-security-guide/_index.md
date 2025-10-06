@@ -4,8 +4,8 @@
 "title": "Amankan Tanda Tangan Kode QR dan Proteksi Kata Sandi PDF Anda dengan GroupDocs.Signature untuk Java"
 "url": "/id/java/document-protection/groupdocs-signature-java-pdf-security-guide/"
 "weight": 1
+type: docs
 ---
-
 # Amankan PDF Anda: Tanda Tangan Kode QR dan Perlindungan Kata Sandi dengan GroupDocs.Signature untuk Java
 
 Di era digital saat ini, mengamankan dokumen PDF sangat penting untuk mengelola informasi sensitif dan memastikan keaslian berkas. Panduan ini akan menunjukkan cara menggunakan GroupDocs.Signature untuk Java untuk menambahkan tanda tangan kode QR dan perlindungan kata sandi ke PDF Anda.

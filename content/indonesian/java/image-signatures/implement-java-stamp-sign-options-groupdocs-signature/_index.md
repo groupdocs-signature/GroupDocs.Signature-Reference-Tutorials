@@ -4,8 +4,8 @@
 "title": "Implementasikan Opsi Tanda Tangan Java Stamp dengan GroupDocs.Signature untuk Keaslian Dokumen"
 "url": "/id/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementasikan Opsi Tanda Tangan Java Stamp dengan GroupDocs.Signature untuk Keaslian Dokumen
 ## Cara Menerapkan Opsi Tanda Tangan Java Stamp dengan GroupDocs.Signature untuk Java
 Di era digital saat ini, memastikan keaslian dokumen sangatlah penting. Baik Anda seorang profesional bisnis maupun individu yang perlu memvalidasi kontrak dan perjanjian, menambahkan tanda tangan stempel dapat memberikan kredibilitas dan keamanan. Tutorial ini akan memandu Anda dalam menyiapkan opsi tanda tangan stempel menggunakan GroupDocs.Signature untuk Java—pustaka canggih yang dirancang untuk memenuhi kebutuhan penandatanganan dokumen Anda dengan mudah.

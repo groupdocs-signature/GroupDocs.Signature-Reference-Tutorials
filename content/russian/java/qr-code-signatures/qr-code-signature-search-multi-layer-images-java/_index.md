@@ -4,8 +4,8 @@
 "title": "Реализуйте поиск подписи QR-кода в многослойных изображениях с помощью Java и GroupDocs.Signature"
 "url": "/ru/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать поиск подписи QR-кода в многослойных документах изображений с помощью GroupDocs.Signature для Java
 
 ## Введение

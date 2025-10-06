@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 在 Word 文件中實作文字浮水印簽名"
 "url": "/zh-hant/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 在 Word 文件中實作文字浮水印簽名
 
 ## 如何使用 GroupDocs.Signature for Java 為 Word 文件新增文字浮水印簽名

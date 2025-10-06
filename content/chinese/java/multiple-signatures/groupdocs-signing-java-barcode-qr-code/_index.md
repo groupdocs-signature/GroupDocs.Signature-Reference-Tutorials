@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中实现条形码和二维码签名——综合指南"
 "url": "/zh/java/multiple-signatures/groupdocs-signing-java-barcode-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中实现条形码和二维码签名
 
 在当今的数字时代，确保文档的完整性至关重要。无论是管理法律合同、发票还是货运标签，维护真实性都至关重要。 **GroupDocs.Signature for Java** 通过将条形码和二维码无缝集成到文档中，简化了此流程。本指南将指导您使用 GroupDocs.Signature for Java 实现条形码和二维码签名。

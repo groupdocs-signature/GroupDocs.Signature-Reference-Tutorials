@@ -4,8 +4,8 @@
 "title": "Verifikasi Dokumen dengan Tanda Tangan Kode QR di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/search-verification/java-qr-code-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Verifikasi Dokumen dengan Tanda Tangan Kode QR di Java Menggunakan GroupDocs.Signature
 
 Dalam lanskap digital saat ini, verifikasi dokumen untuk memastikan keaslian dan integritasnya sangatlah penting. Dengan kemampuan untuk memverifikasi dokumen yang berisi tanda tangan kode QR dengan mudah menggunakan Java, GroupDocs.Signature untuk Java menyederhanakan proses ini. Tutorial komprehensif ini akan memandu Anda melalui verifikasi dokumen dengan tanda tangan kode QR, yang akan meningkatkan keamanan dan efisiensi alur kerja Anda.

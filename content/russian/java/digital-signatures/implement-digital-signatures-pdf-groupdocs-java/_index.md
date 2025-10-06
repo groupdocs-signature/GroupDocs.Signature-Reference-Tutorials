@@ -4,8 +4,8 @@
 "title": "Как реализовать цифровые подписи в PDF-файлах с помощью GroupDocs.Signature для Java&#58; подробное руководство"
 "url": "/ru/java/digital-signatures/implement-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать цифровые подписи в PDF-файлах с помощью GroupDocs.Signature для Java
 
 ## Введение

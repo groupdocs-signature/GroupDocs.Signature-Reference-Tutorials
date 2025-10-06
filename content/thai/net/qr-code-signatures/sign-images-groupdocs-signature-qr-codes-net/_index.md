@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามภาพด้วยรหัส QR โดยใช้ GroupDocs.Signature สำหรับ .NET และบันทึกในรูปแบบต่างๆ"
 "url": "/th/net/qr-code-signatures/sign-images-groupdocs-signature-qr-codes-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีใช้ GroupDocs.Signature สำหรับ .NET เพื่อลงนามภาพด้วยรหัส QR
 
 ## การแนะนำ

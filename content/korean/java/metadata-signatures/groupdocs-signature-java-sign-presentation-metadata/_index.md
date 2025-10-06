@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java를 사용하여 메타데이터가 포함된 프레젠테이션 문서에 서명하는 방법 - 완벽한 가이드"
 "url": "/ko/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 메타데이터가 포함된 프레젠테이션 문서에 서명하는 방법에 대한 포괄적인 가이드
 
 ## 소개

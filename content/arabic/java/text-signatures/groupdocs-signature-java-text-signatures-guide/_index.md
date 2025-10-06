@@ -4,8 +4,8 @@
 "title": "توقيعات النصوص الرئيسية في Java - دليل شامل لـ GroupDocs.Signature لـ Java"
 "url": "/ar/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # إتقان توقيع المستندات في Java: دليل شامل لاستخدام GroupDocs.Signature للتوقيعات النصية
 
 ## مقدمة

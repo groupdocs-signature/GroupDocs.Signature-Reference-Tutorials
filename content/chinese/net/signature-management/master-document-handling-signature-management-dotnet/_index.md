@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 掌握 .NET 中的文档处理和签名管理"
 "url": "/zh/net/signature-management/master-document-handling-signature-management-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 .NET 中的文档处理和签名管理
 
 ## 介绍

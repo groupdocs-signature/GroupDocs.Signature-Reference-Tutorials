@@ -4,8 +4,8 @@
 "title": "การค้นหาลายเซ็นภาพใน .NET โดยใช้ GroupDocs.Signature&#58; คู่มือที่ครอบคลุม"
 "url": "/th/net/search-verification/image-signature-search-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # คู่มือครอบคลุมการใช้งานการค้นหาลายเซ็นภาพใน .NET ด้วย GroupDocs.Signature
 
 ## การแนะนำ

@@ -5,8 +5,8 @@
 "title": "Come rimuovere le firme digitali dai documenti in .NET"
 "url": "/it/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # Come rimuovere le firme digitali dai documenti con GroupDocs.Signature
 
 ## Perché la gestione della firma digitale è importante

@@ -9,8 +9,8 @@ url: "/net/search-verification/master-digital-document-search-groupdocs-signatur
 keywords: "GroupDocs.Signature .NET tutorial, digital signature search .NET, PDF signature verification C#, .NET document authentication, C# PDF signature verification tutorial"
 categories: [".NET Development"]
 tags: ["groupdocs", "digital-signatures", "pdf-processing", "csharp", "document-verification"]
+type: docs
 ---
-
 # GroupDocs.Signature .NET Tutorial - Your Complete Guide to Digital Document Search
 
 Ever struggled with verifying digital signatures in PDF documents programmatically? You're not alone. Many .NET developers find themselves wrestling with complex signature verification processes, especially when dealing with protected files or handling exceptions gracefully.

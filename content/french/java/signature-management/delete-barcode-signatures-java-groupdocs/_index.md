@@ -4,8 +4,8 @@
 "title": "Comment supprimer les signatures de codes-barres en Java à l'aide de GroupDocs.Signature"
 "url": "/fr/java/signature-management/delete-barcode-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Comment supprimer les signatures de codes-barres en Java à l'aide de GroupDocs.Signature
 
 ## Introduction

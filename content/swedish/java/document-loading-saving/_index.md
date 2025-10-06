@@ -3,8 +3,8 @@
 "title": "Handledningar för dokumentinläsning och -sparning med GroupDocs.Signature för Java"
 "url": "/sv/java/document-loading-saving/"
 "weight": 2
+type: docs
 ---
-
 # Handledningar för dokumentinläsning och -sparning med GroupDocs.Signature för Java
 
 Våra handledningar för dokumentinläsning och -sparning ger omfattande vägledning för att hantera dokument programmatiskt i Java. Följ dessa steg-för-steg-guider för att lära dig hur du laddar dokument från lokala diskar, strömmar, URL:er, molnlagringsleverantörer som Amazon S3 och Azure Blob Storage, och FTP. Dessa handledningar täcker också olika scenarier för dokumentsparning, inklusive att spara med lösenordsskydd, olika utdataformat och specialiserade sparalternativ för olika dokumenttyper.

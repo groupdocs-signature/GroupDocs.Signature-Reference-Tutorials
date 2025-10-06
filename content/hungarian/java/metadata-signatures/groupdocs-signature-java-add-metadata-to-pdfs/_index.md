@@ -4,8 +4,8 @@
 "title": "Metaadat-aláírások hozzáadása PDF-ekhez a GroupDocs.Signature for Java használatával – Teljes körű útmutató"
 "url": "/hu/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/"
 "weight": 1
+type: docs
 ---
-
 # Metaadat-aláírások hozzáadása PDF-ekhez a GroupDocs.Signature for Java használatával
 ## Bevezetés
 A mai digitális korban kulcsfontosságú a PDF-dokumentumok hitelességének és integritásának biztosítása. Akár szerződéseket kezelő jogi szakember, akár érzékeny adatokat kezelő vállalkozás, a metaadat-aláírások hozzáadása extra biztonsági és nyomon követhetőségi réteget biztosíthat. Ez az útmutató bemutatja, hogyan használhatja a GroupDocs.Signature for Java-t a PDF-fájlokhoz való zökkenőmentes szabványos metaadat-aláírások hozzáadásához.

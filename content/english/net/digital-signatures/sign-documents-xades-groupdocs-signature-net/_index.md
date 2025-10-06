@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["XAdES", "GroupDocs.Signature", "Electronic Signatures", "C#", ".NET"]
+type: docs
 ---
-
 # XAdES Digital Signature .NET - Complete Implementation
 
 ## Why Electronic Document Signing Matters More Than Ever

@@ -4,8 +4,8 @@
 "title": "Chữ ký văn bản PDF Java với đường viền tùy chỉnh bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/text-signatures/java-pdf-text-signatures-groupdocs-custom-borders/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký văn bản PDF Java với đường viền tùy chỉnh bằng GroupDocs.Signature
 
 Trong thời đại kỹ thuật số ngày nay, việc đảm bảo tính xác thực của tài liệu là vô cùng quan trọng đối với cả doanh nghiệp và cá nhân. Với sự phát triển của tài liệu điện tử, các phương pháp ký tên truyền thống đang được thay thế bằng các giải pháp hiệu quả và an toàn hơn như chữ ký văn bản trong PDF. Nếu bạn đang muốn thêm nét chuyên nghiệp cho tài liệu PDF của mình với chữ ký văn bản tùy chỉnh bằng GroupDocs.Signature for Java, bạn đã đến đúng nơi.

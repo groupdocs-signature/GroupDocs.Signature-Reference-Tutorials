@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["document-preview", "net-api", "groupdocs", "document-metadata"]
+type: docs
 ---
-
 # Document Preview .NET Operations with GroupDocs.Signature
 
 ## Introduction

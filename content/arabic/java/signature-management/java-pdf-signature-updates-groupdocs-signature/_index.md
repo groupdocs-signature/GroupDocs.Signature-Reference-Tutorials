@@ -4,8 +4,8 @@
 "title": "تحديثات توقيع PDF في Java باستخدام GroupDocs.Signature&#58; دليل شامل للمطورين"
 "url": "/ar/java/signature-management/java-pdf-signature-updates-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # إتقان تحديثات توقيع PDF في Java باستخدام GroupDocs.Signature
 في العالم الرقمي، يُعدّ ضمان أمن المستندات أمرًا بالغ الأهمية. سواء كنتَ مطورًا تُدير عقودًا أو مؤسسةً تتعامل مع معلوماتٍ حساسة، فإن تأمين مستنداتك عبر التوقيعات أمرٌ أساسي. **GroupDocs.Signature لـ Java** يقدم حلاً فعالاً لإضافة وتعديل والتحقق من التوقيعات في ملفات PDF وغيرها من التنسيقات. سيرشدك هذا البرنامج التعليمي إلى كيفية تنفيذ تحديثات توقيع PDF باستخدام GroupDocs.Signature لـ Java.
 

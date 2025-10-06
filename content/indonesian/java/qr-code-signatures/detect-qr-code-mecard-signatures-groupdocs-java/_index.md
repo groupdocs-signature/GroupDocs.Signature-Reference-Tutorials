@@ -4,8 +4,8 @@
 "title": "Cara Mendeteksi Tanda Tangan Kode QR MeCard di Java menggunakan GroupDocs.Signature"
 "url": "/id/java/qr-code-signatures/detect-qr-code-mecard-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mendeteksi Tanda Tangan Kode QR MeCard dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

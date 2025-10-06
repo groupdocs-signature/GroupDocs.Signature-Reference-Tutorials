@@ -3,8 +3,8 @@
 "title": "Hướng dẫn về chữ ký mã vạch cho GroupDocs.Signature Java"
 "url": "/vi/java/barcode-signatures/"
 "weight": 4
+type: docs
 ---
-
 # Hướng dẫn về chữ ký mã vạch cho GroupDocs.Signature Java
 
 Hướng dẫn về chữ ký mã vạch của chúng tôi cung cấp hướng dẫn chi tiết về cách triển khai chữ ký mã vạch trong các ứng dụng Java của bạn. Hãy làm theo các hướng dẫn thực tế này để tìm hiểu cách ký tài liệu với nhiều loại mã vạch khác nhau, tùy chỉnh giao diện mã vạch, tìm kiếm mã vạch trong tài liệu hiện có, cập nhật hoặc xóa chữ ký mã vạch và xác minh nội dung mã vạch. Các hướng dẫn này bao gồm các ví dụ mã Java đầy đủ cho các thao tác mã vạch phổ biến, giúp bạn xây dựng các ứng dụng có thể mã hóa và xác minh thông tin trong tài liệu một cách an toàn thông qua công nghệ mã vạch.

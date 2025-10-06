@@ -4,8 +4,8 @@
 "title": "GroupDocs를 사용한 메타데이터 및 암호화를 통한 Java PDF 서명 - 포괄적인 가이드"
 "url": "/ko/java/digital-signatures/java-pdf-signing-metadata-encryption-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs를 사용하여 메타데이터 및 암호화를 사용한 Java PDF 서명 마스터하기
 
 ## 소개

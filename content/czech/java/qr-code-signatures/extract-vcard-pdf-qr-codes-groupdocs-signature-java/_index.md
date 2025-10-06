@@ -4,8 +4,8 @@
 "title": "Extrakce VCard z PDF QR kódů pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/qr-code-signatures/extract-vcard-pdf-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Extrahování dat VCard z QR kódů PDF pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

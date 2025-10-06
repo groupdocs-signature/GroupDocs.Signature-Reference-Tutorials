@@ -4,8 +4,8 @@
 "title": "Panduan Lengkap Tanda Tangan Teks Master di Java untuk GroupDocs.Signature untuk Java"
 "url": "/id/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Penandatanganan Dokumen di Java: Panduan Lengkap Penggunaan GroupDocs.Signature untuk Tanda Tangan Teks
 
 ## Perkenalan

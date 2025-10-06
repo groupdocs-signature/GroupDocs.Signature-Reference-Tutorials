@@ -5,8 +5,8 @@
 "title": "Firma di documenti con metadati in .NET"
 "url": "/it/net/document-signing/"
 "weight": 24
+type: docs
 ---
-
 ## Introduzione
 
 Nel mondo digitale odierno, garantire l'autenticità, la tracciabilità e l'integrità dei documenti è diventato essenziale per aziende e organizzazioni. Le firme basate su metadati offrono un modo potente ma discreto per incorporare informazioni identificative direttamente nei file dei documenti, migliorandone la sicurezza senza alterarne l'aspetto visivo.

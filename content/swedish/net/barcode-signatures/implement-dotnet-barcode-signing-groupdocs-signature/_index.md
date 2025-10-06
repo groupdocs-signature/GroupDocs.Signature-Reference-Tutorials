@@ -4,8 +4,8 @@
 "title": "Så här implementerar du .NET-streckkodssignering med GroupDocs.Signature – en komplett guide för utvecklare"
 "url": "/sv/net/barcode-signatures/implement-dotnet-barcode-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Så här implementerar du .NET-streckkodssignering med GroupDocs.Signature: En komplett guide för utvecklare
 
 ## Introduktion

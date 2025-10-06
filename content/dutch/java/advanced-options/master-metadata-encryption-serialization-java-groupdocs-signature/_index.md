@@ -4,8 +4,8 @@
 "title": "Beheers metadata-encryptie en serialisatie in Java met GroupDocs.Signature"
 "url": "/nl/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Metadata-encryptie en serialisatie in Java onder de knie krijgen met GroupDocs.Signature
 
 ## Invoering

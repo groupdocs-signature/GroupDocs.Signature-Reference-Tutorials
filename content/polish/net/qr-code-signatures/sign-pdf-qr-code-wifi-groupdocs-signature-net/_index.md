@@ -4,8 +4,8 @@
 "title": "Jak podpisywać pliki PDF kodami QR z osadzonymi informacjami o sieci Wi-Fi za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać pliki PDF kodami QR z osadzonymi informacjami o sieci Wi-Fi za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

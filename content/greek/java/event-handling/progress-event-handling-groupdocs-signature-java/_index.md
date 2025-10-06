@@ -4,8 +4,8 @@
 "title": "Υλοποίηση Χειρισμού Συμβάντων Προόδου στην Υπογραφή Εγγράφων με το GroupDocs.Signature για Java"
 "url": "/el/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση Χειρισμού Συμβάντων Προόδου στην Υπογραφή Εγγράφων με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

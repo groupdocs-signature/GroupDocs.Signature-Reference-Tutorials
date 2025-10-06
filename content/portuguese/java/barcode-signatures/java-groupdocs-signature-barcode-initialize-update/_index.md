@@ -4,8 +4,8 @@
 "title": "Como inicializar e atualizar assinaturas de código de barras em Java usando GroupDocs.Signature"
 "url": "/pt/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # Como inicializar e atualizar assinaturas de código de barras em Java usando GroupDocs.Signature
 
 ## Introdução

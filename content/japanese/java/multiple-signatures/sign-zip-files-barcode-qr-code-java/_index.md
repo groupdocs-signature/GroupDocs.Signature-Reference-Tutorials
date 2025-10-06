@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して Java でバーコードと QR コードで ZIP ファイルに署名する方法"
 "url": "/ja/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して Java でバーコードと QR コードで ZIP ファイルに署名する方法
 
 ## 導入

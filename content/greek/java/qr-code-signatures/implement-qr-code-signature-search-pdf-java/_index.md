@@ -4,8 +4,8 @@
 "title": "Υλοποίηση αναζήτησης υπογραφής QR Code σε PDF χρησιμοποιώντας Java και GroupDocs.Signature"
 "url": "/el/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση αναζήτησης υπογραφής κώδικα QR σε PDF χρησιμοποιώντας Java
 
 ## Εισαγωγή

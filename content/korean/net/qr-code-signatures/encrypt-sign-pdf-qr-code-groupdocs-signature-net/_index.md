@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 QR 코드로 PDF 암호화 및 서명"
 "url": "/ko/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 QR 코드로 PDF 암호화 및 서명
 
 ## 소개

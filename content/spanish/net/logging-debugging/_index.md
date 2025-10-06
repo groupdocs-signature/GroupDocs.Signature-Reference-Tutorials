@@ -3,8 +3,8 @@
 "title": "Tutoriales de registro y depuración para GroupDocs.Signature .NET"
 "url": "/es/net/logging-debugging/"
 "weight": 17
+type: docs
 ---
-
 # Tutoriales de registro y depuración para GroupDocs.Signature .NET
 
 Nuestros tutoriales de registro y depuración ofrecen una guía detallada para supervisar las operaciones de GroupDocs.Signature en aplicaciones .NET. Estas guías paso a paso muestran cómo implementar el registro de consola, el registro de archivos, los controladores de registro personalizados y la integración con sistemas de registro de toda la aplicación. Cada tutorial incluye ejemplos completos de código C# para una implementación eficaz del registro, lo que le ayudará a crear aplicaciones con funciones de diagnóstico y resolución de problemas adecuadas que agilizan el desarrollo y simplifican la resolución de problemas en producción.

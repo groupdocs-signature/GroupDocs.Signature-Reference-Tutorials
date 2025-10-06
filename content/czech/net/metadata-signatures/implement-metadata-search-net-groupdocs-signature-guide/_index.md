@@ -4,8 +4,8 @@
 "title": "Jak implementovat vyhledávání metadat v .NET pomocí GroupDocs.Signature – Podrobný návod"
 "url": "/cs/net/metadata-signatures/implement-metadata-search-net-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat vyhledávání metadat v .NET pomocí GroupDocs.Signature: Podrobný návod
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 按 ID 删除签名"
 "url": "/zh/java/signature-management/delete-signature-by-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 按 ID 删除签名
 
 ## 介绍

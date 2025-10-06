@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature .NET için Meta Veri İmza Eğitimleri"
 "url": "/tr/net/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # GroupDocs.Signature .NET için Meta Veri İmza Eğitimleri
 
 Meta veri imza eğitimlerimiz, .NET'te GroupDocs.Signature kullanarak belge meta verilerinin güvenli imzalama için nasıl kullanılacağını göstermektedir. Bu adım adım kılavuzlar, PDF, resimler, sunumlar, elektronik tablolar ve kelime işlem dosyaları dahil olmak üzere farklı belge biçimlerinde meta veri imzalarının nasıl uygulanacağını ele almaktadır. Her eğitim, meta veri işlemleri için çalışan C# kod örnekleri içererek, belgelere görünmez imza bilgileri ekleyebilen ve görsel görünümü değiştirmeden güvenliği artıran uygulamalar oluşturmanıza yardımcı olur.

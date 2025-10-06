@@ -4,8 +4,8 @@
 "title": "Przewodnik weryfikacji podpisu kodem kreskowym w programie GroupDocs.Signature dla platformy .NET&#58;"
 "url": "/pl/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie wyszukiwania dokumentów za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Comment implémenter les options de signature de tampon à l'aide de GroupDocs.Signature pour .NET ? Un guide complet"
 "url": "/fr/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter les options de signature de tampon à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

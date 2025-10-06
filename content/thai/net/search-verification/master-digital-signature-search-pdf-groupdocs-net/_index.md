@@ -4,8 +4,8 @@
 "title": "การค้นหาลายเซ็นดิจิทัลอย่างมืออาชีพใน PDF โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การค้นหาลายเซ็นดิจิทัลใน PDF โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

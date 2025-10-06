@@ -4,8 +4,8 @@
 "title": "Så här tar du bort bildsignaturer i .NET med GroupDocs.Signature – en steg-för-steg-guide"
 "url": "/sv/net/signature-management/delete-image-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här tar du bort bildsignaturer i .NET med GroupDocs.Signature: En steg-för-steg-guide
 
 dagens digitala landskap är hantering av dokumentsignaturer avgörande för att upprätthålla säkerhet och autenticitet i affärsverksamheten. Om du hanterar dokument som innehåller flera bildsignaturer kan effektiv hantering spara både tid och resurser. Den här omfattande guiden guidar dig genom hur du använder **GroupDocs.Signature för .NET** för att initiera en signaturinstans, söka efter bildsignaturer och ta bort specifika baserat på vissa villkor. I slutet av den här handledningen har du bemästrat hur du effektiviserar den här processen.

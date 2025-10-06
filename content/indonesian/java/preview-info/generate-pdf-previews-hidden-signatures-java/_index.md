@@ -4,8 +4,8 @@
 "title": "Hasilkan Pratinjau PDF dengan Tanda Tangan Tersembunyi Menggunakan Java dan GroupDocs.Signature"
 "url": "/id/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Hasilkan Pratinjau PDF dengan Tanda Tangan Tersembunyi Menggunakan Java dan GroupDocs.Signature
 
 ## Perkenalan

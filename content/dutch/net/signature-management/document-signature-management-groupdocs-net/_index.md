@@ -4,8 +4,8 @@
 "title": "Efficiënt beheer van documenthandtekeningen&#58; zoeken naar handtekeningen in formuliervelden met GroupDocs.Signature voor .NET"
 "url": "/nl/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Efficiënt documenthandtekeningbeheer met GroupDocs.Signature voor .NET
 
 ## Invoering

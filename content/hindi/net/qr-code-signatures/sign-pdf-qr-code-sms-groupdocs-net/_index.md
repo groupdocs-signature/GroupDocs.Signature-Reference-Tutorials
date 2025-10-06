@@ -4,8 +4,8 @@
 "title": ".NET में ग्रुपडॉक्स का उपयोग करके SMS युक्त QR कोड वाले PDF पर हस्ताक्षर कैसे करें"
 "url": "/hi/net/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके एक SMS ऑब्जेक्ट वाले QR कोड के साथ एक PDF दस्तावेज़ पर हस्ताक्षर कैसे करें
 
 ## परिचय

@@ -5,8 +5,8 @@
 "title": "Cách lấy thông tin tài liệu bằng GroupDocs.Signature"
 "url": "/vi/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # Cách lấy thông tin tài liệu bằng GroupDocs.Signature
 
 ## Giới thiệu

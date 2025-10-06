@@ -4,8 +4,8 @@
 "title": "Kuasai Pencarian Tanda Tangan Digital dalam PDF Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pencarian Tanda Tangan Digital dalam PDF Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

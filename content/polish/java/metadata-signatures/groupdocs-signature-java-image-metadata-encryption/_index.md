@@ -4,8 +4,8 @@
 "title": "Implementacja podpisywania i szyfrowania metadanych obrazów w Javie za pomocą GroupDocs.Signature"
 "url": "/pl/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja podpisywania metadanych obrazu za pomocą szyfrowania w Javie przy użyciu GroupDocs.Signature
 
 ## Wstęp

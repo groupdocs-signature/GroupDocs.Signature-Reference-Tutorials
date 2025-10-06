@@ -5,8 +5,8 @@
 "title": "Szöveges aláírások ellenőrzése dokumentumokban"
 "url": "/hu/net/verify-operations/verify-text/"
 "weight": 13
+type: docs
 ---
-
 ## Bevezetés
 
 A szöveges aláírások, bár gyakran egyszerűbbek, mint a digitális vagy elektronikus aláírások, kulcsszerepet játszanak a dokumentumkezelésben és -ellenőrzésben. Legyen szó vízjelekről, láblécszövegről vagy meghatározott tartalommintákról, a szöveges aláírások meglétének és integritásának ellenőrzése a dokumentumellenőrzési folyamatok fontos aspektusa.

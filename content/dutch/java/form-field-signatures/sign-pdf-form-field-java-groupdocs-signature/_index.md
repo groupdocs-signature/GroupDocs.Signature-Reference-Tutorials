@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met behulp van Form-Field Signature in Java met GroupDocs.Signature"
 "url": "/nl/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF ondertekenen met behulp van Form-Field Signature in Java met GroupDocs.Signature
 
 ## Invoering

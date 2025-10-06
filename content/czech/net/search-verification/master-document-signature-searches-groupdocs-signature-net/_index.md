@@ -4,8 +4,8 @@
 "title": "Vyhledávání podpisů hlavních dokumentů v .NET pomocí textových a digitálních podpisů GroupDocs.Signature"
 "url": "/cs/net/search-verification/master-document-signature-searches-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vyhledávání podpisů dokumentů v .NET
 
 V dnešní digitální době je ověřování pravosti dokumentů pro firmy po celém světě klíčové. Ať už se jedná o smlouvy, právní dokumenty nebo úřední záznamy, efektivní vyhledávání podpisů může ušetřit čas a zvýšit zabezpečení. Tento tutoriál vás provede implementací vyhledávání textu a digitálních podpisů pomocí GroupDocs.Signature for .NET – výkonné knihovny určené pro práci s různými typy elektronických podpisů v aplikacích .NET.

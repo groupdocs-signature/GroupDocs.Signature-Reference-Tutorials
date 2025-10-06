@@ -4,8 +4,8 @@
 "title": "Cara Memperbarui Tanda Tangan Kode QR di Dokumen .NET Menggunakan GroupDocs.Signature"
 "url": "/id/net/qr-code-signatures/update-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Memperbarui Tanda Tangan Kode QR di Dokumen .NET Menggunakan GroupDocs.Signature
 
 ## Perkenalan

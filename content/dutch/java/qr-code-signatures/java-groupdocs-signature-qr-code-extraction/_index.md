@@ -4,8 +4,8 @@
 "title": "Java QR-code handtekening extractie met GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van Java QR-code handtekening extractie met GroupDocs.Signature
 
 ## Invoering

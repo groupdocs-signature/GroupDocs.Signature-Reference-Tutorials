@@ -5,8 +5,8 @@
 "title": "Omfattande handledningar och exempel för GroupDocs.Signature för Java"
 "url": "/sv/java/"
 "weight": 10
+type: docs
 ---
-
 # GroupDocs.Signature för Java-handledningar och exempel
 
 Välkommen till vår omfattande samling handledningar för GroupDocs.Signature för Java. Dessa steg-för-steg-guider hjälper dig att implementera säkra lösningar för dokumentsignering i dina Java-applikationer. Från grundläggande installation till avancerad signaturhantering ger våra handledningar all information du behöver för att skydda dina dokument med flera signaturtyper.

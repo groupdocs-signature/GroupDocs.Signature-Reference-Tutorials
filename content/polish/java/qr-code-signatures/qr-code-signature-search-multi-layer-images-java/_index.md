@@ -4,8 +4,8 @@
 "title": "Implementacja wyszukiwania podpisów za pomocą kodu QR w obrazach wielowarstwowych przy użyciu języka Java i narzędzia GroupDocs.Signature"
 "url": "/pl/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć wyszukiwanie podpisów za pomocą kodu QR w dokumentach graficznych wielowarstwowych przy użyciu GroupDocs.Signature dla Java
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Κύρια αναζήτηση ψηφιακής υπογραφής σε Java με το GroupDocs.Signature&#58; Ένας ολοκληρωμένος οδηγός"
 "url": "/el/java/search-verification/groupdocs-signature-java-digital-search-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την αναζήτηση ψηφιακής υπογραφής με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

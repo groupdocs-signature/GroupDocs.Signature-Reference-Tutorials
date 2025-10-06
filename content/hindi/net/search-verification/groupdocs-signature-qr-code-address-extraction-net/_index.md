@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके पता डेटा के साथ QR कोड हस्ताक्षर निकालें | डिजिटल हस्ताक्षर स्वचालन"
 "url": "/hi/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके पता डेटा के साथ QR कोड हस्ताक्षर निकालना
 
 ## परिचय

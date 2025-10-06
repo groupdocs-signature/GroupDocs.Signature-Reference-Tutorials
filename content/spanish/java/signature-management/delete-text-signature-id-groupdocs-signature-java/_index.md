@@ -4,8 +4,8 @@
 "title": "Cómo eliminar una firma de texto por ID con GroupDocs.Signature para Java&#58; una guía completa"
 "url": "/es/java/signature-management/delete-text-signature-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cómo eliminar una firma de texto por ID usando GroupDocs.Signature para Java
 
 ## Introducción

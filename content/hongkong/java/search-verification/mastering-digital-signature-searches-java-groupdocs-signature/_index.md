@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 掌握 Java 中的數位簽章搜尋－綜合指南"
 "url": "/zh-hant/java/search-verification/mastering-digital-signature-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 Java 中的數位簽章搜尋：綜合指南
 
 **探索使用 GroupDocs.Signature for Java 搜尋數位簽章的強大功能！**

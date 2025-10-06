@@ -4,8 +4,8 @@
 "title": "Použití textových vodoznaků jako podpisů pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak použít textový vodoznak do podpisu pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में बारकोड हस्ताक्षरों को कैसे आरंभ और अद्यतन करें"
 "url": "/hi/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके जावा में बारकोड हस्ताक्षरों को कैसे आरंभ और अद्यतन करें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Wyszukiwanie kodów kreskowych i kodów QR w archiwum TAR za pomocą GroupDocs.Signature dla języka Java"
 "url": "/pl/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie wyszukiwania kodów kreskowych i kodów QR w archiwum TAR za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

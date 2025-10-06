@@ -4,8 +4,8 @@
 "title": "Memuat dan Menandatangani Dokumen di Java dengan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Memuat dan Menandatangani Dokumen Menggunakan GroupDocs.Signature di Java
 
 ## Perkenalan

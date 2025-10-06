@@ -4,8 +4,8 @@
 "title": "Ενημέρωση υπογραφών κειμένου σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/signature-management/update-text-signatures-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Ενημέρωση υπογραφών κειμένου σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

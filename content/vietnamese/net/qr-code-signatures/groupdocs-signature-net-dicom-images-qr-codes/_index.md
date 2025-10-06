@@ -4,8 +4,8 @@
 "title": "Cách ký hình ảnh DICOM bằng mã QR sử dụng GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/qr-code-signatures/groupdocs-signature-net-dicom-images-qr-codes/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký hình ảnh DICOM bằng mã QR bằng GroupDocs.Signature cho .NET: Hướng dẫn toàn diện
 
 Bạn đang tìm kiếm một phương pháp an toàn để xác thực tệp DICOM của mình? Hướng dẫn chi tiết này sẽ chỉ cho bạn cách sử dụng GroupDocs.Signature cho .NET để tích hợp chữ ký mã QR vào hình ảnh DICOM. Lý tưởng cho các chuyên gia chăm sóc sức khỏe, nhà phát triển và bất kỳ ai làm việc với tài liệu y tế kỹ thuật số, hướng dẫn này bao gồm từ thiết lập đến triển khai.

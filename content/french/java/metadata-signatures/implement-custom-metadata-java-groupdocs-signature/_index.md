@@ -4,8 +4,8 @@
 "title": "Implémenter des métadonnées personnalisées en Java à l'aide de GroupDocs.Signature pour une signature de documents améliorée"
 "url": "/fr/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implémentation de métadonnées personnalisées en Java avec GroupDocs.Signature
 
 ## Introduction

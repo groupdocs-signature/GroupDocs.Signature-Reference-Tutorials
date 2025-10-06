@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して Java ラジオボタンフォームフィールド署名を実装する"
 "url": "/ja/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して Java ラジオボタンフォームフィールド署名を実装する
 
 ## 導入

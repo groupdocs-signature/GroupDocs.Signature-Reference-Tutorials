@@ -4,8 +4,8 @@
 "title": "إتقان GroupDocs.Signature لـ .NET - الاشتراك في أحداث البحث عن الباركود وتكوينها"
 "url": "/ar/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # إتقان GroupDocs.Signature لـ .NET: الاشتراك في أحداث بحث الباركود وتكوينها
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "การนำการบันทึกข้อมูลแบบกำหนดเองไปใช้ใน GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # การนำการบันทึกข้อมูลแบบกำหนดเองไปใช้ใน GroupDocs.Signature สำหรับ .NET: คู่มือที่ครอบคลุม
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Hantera lösenordsundantag i GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hantera lösenordsundantag i GroupDocs.Signature för .NET
 
 ## Introduktion

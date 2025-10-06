@@ -4,8 +4,8 @@
 "title": "Panduan Tanda Tangan Barcode GroupDocs.Signature untuk Dokumen Master di Java"
 "url": "/id/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Tanda Tangan Dokumen di Java dengan GroupDocs.Signature
 
 **Sederhanakan alur kerja dokumen digital Anda dengan menandatangani, memverifikasi, mencari, memperbarui, dan menghapus tanda tangan kode batang menggunakan GroupDocs.Signature untuk Java.**

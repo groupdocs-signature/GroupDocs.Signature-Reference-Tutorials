@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 掌握 GS1DotCode 条形码的 Java 文档签名"
 "url": "/zh/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 Java 中 GS1DotCode 条形码的文档签名
 
 ## 介绍

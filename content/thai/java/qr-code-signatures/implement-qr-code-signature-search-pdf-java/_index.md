@@ -4,8 +4,8 @@
 "title": "ใช้งานการค้นหาลายเซ็น QR Code ใน PDF โดยใช้ Java และ GroupDocs.Signature"
 "url": "/th/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # การนำการค้นหาลายเซ็น QR Code ไปใช้งานใน PDF โดยใช้ Java
 
 ## การแนะนำ

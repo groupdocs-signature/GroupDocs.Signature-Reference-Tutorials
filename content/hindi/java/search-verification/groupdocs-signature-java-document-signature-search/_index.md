@@ -4,8 +4,8 @@
 "title": "GroupDocs के साथ दस्तावेज़ हस्ताक्षर खोज में महारत हासिल करना.Java के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature के साथ दस्तावेज़ हस्ताक्षर खोज में महारत हासिल करना
 
 ## परिचय

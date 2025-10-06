@@ -4,8 +4,8 @@
 "title": "Generování náhledů dokumentů v archivech pomocí GroupDocs.Signature pro .NET – kompletní průvodce"
 "url": "/cs/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Generování náhledů dokumentů z archivů pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

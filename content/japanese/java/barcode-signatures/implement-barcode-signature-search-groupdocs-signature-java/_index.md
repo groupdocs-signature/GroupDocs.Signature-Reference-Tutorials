@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して Java でバーコード署名検索を実装する方法"
 "url": "/ja/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して Java でバーコード署名検索を実装する方法
 
 ## 導入

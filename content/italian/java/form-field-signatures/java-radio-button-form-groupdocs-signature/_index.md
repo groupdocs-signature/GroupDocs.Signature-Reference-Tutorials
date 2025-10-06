@@ -4,8 +4,8 @@
 "title": "Implementare la firma del campo del modulo del pulsante di opzione Java con GroupDocs.Signature"
 "url": "/it/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementare la firma del campo del modulo del pulsante di opzione Java con GroupDocs.Signature
 
 ## Introduzione

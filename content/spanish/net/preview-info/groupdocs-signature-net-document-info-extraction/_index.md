@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature para .NET&#58; extrae y muestra información de documentos de manera eficiente"
 "url": "/es/net/preview-info/groupdocs-signature-net-document-info-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Dominando GroupDocs.Signature para .NET: Extraiga y muestre información de documentos de manera eficiente
 
 ## Introducción

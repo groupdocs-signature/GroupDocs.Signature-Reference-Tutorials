@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký số trong .NET bằng GroupDocs.Signature"
 "url": "/vi/net/digital-signatures/digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai ký tài liệu bằng chữ ký số bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

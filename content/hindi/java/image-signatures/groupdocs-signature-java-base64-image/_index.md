@@ -4,8 +4,8 @@
 "title": "मास्टर ग्रुपडॉक्स. जावा के लिए हस्ताक्षर&#58; बेस64 छवियों का उपयोग करके दस्तावेज़ों पर हस्ताक्षर करें"
 "url": "/hi/java/image-signatures/groupdocs-signature-java-base64-image/"
 "weight": 1
+type: docs
 ---
-
 # बेस64 एनकोडेड छवियों का उपयोग करके जावा के लिए GroupDocs.Signature के साथ मास्टर दस्तावेज़ हस्ताक्षर
 
 ## परिचय

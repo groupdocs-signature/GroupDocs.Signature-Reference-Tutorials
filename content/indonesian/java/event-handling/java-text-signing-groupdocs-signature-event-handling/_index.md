@@ -4,8 +4,8 @@
 "title": "Menerapkan Penandatanganan Teks dalam Penanganan Peristiwa Java dengan GroupDocs.Signature"
 "url": "/id/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Penandatanganan Teks dengan Penanganan Peristiwa Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

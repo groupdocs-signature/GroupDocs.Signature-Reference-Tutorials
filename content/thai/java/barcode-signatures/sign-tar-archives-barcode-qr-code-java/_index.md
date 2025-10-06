@@ -4,8 +4,8 @@
 "title": "ลงชื่อใน TAR Archives ด้วยบาร์โค้ดและรหัส QR ใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในไฟล์ TAR ด้วยบาร์โค้ดและรหัส QR โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

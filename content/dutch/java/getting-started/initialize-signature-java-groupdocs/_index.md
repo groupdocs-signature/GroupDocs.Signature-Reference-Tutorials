@@ -4,8 +4,8 @@
 "title": "Een Signature-instantie initialiseren in Java met behulp van GroupDocs.Signature"
 "url": "/nl/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Een Signature-instantie initialiseren in Java met behulp van GroupDocs.Signature
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Автоматизируйте предварительный просмотр документов со скрытыми подписями с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Автоматизируйте предварительный просмотр документов со скрытыми подписями с помощью GroupDocs.Signature для .NET
 
 ## Введение

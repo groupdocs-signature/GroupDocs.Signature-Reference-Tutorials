@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 사용자 정의 텍스트 서명 구현하기&#58; 종합 가이드"
 "url": "/ko/net/text-signatures/custom-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 사용자 정의 텍스트 서명 구현
 
 오늘날 디지털 시대에는 문서의 진위성과 무결성을 보장하는 것이 매우 중요합니다. 계약서, 합의서, 공식 서한 등 어떤 문서든 서명은 매우 중요합니다. 이 종합 가이드에서는 사용자 지정 가능한 텍스트 서명을 구현하는 방법을 보여줍니다. **.NET용 GroupDocs.Signature**이를 통해 정확하고 스타일리시하게 문서 워크플로를 향상시킬 수 있습니다.

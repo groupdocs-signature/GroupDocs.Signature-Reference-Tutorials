@@ -4,8 +4,8 @@
 "title": "Как реализовать подписи QR-кода в документах Java с помощью GroupDocs.Signature"
 "url": "/ru/java/qr-code-signatures/groupdocs-signature-java-qr-code-signature/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать подписи QR-кода в документах Java с помощью GroupDocs.Signature
 
 ## Введение

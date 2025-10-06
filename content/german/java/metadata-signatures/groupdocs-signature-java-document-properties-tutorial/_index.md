@@ -4,8 +4,8 @@
 "title": "Beherrschen des Abrufs von Dokumenteigenschaften mit GroupDocs.Signature für Java – Ein umfassender Leitfaden"
 "url": "/de/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Beherrschen des Abrufs von Dokumenteigenschaften mit GroupDocs.Signature für Java
 Nutzen Sie die Möglichkeiten des Dokumentenmanagements mit GroupDocs.Signature für Java, um Dokumenteigenschaften wie Format, Größe, Seitenzahl und mehr mühelos abzurufen und zu drucken. Dieses umfassende Tutorial führt Sie durch die Einrichtung Ihrer Umgebung, die Implementierung verschiedener Funktionen und deren Anwendung in realen Szenarien.
 

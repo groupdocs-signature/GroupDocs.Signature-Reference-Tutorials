@@ -4,8 +4,8 @@
 "title": "Jak aktualizovat podpisy čárových kódů podle ID pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak aktualizovat podpisy čárových kódů podle ID pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -5,8 +5,8 @@
 "title": "Pesquisar assinaturas de texto em documentos"
 "url": "/pt/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## Introdução
 
 Assinaturas de texto são um método comum para indicar autoria, aprovação ou verificação de documentos. Na gestão de documentos digitais, a capacidade de pesquisar e extrair assinaturas de texto programaticamente é crucial para a validação de documentos, automação do fluxo de trabalho e verificação de conformidade. O GroupDocs.Signature para .NET oferece uma solução abrangente para implementar a funcionalidade de pesquisa de assinaturas de texto em seus aplicativos .NET, com suporte a diversos formatos de documentos e recursos avançados de pesquisa.

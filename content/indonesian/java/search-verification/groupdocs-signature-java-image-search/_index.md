@@ -4,8 +4,8 @@
 "title": "Pencarian Tanda Tangan Gambar Master dalam Dokumen dengan GroupDocs untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # Pencarian Tanda Tangan Gambar Master dalam Dokumen dengan GroupDocs untuk Java: Panduan Lengkap
 
 ## Perkenalan

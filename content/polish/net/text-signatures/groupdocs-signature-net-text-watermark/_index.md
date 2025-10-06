@@ -4,8 +4,8 @@
 "title": "Zabezpieczanie dokumentów znakami wodnymi za pomocą GroupDocs.Signature dla .NET – kompleksowy przewodnik"
 "url": "/pl/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrażać znaki wodne w dokumentach za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

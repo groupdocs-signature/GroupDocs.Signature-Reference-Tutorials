@@ -4,8 +4,8 @@
 "title": "Padroneggiare le firme digitali PDF in Java - Utilizzo di GroupDocs.Signature per campi di testo, caselle di controllo e campi digitali"
 "url": "/it/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare le firme digitali PDF in Java: utilizzo di GroupDocs.Signature per campi di testo, caselle di controllo e campi digitali
 
 ## Introduzione

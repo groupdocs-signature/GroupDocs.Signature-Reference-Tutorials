@@ -4,8 +4,8 @@
 "title": "Vyhledávání čárových a QR kódů v archivu Master TAR pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vyhledávání čárových a QR kódů v archivu TAR pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

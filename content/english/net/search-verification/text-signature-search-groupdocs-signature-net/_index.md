@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["GroupDocs.Signature", "NET", "Document-Security", "Digital-Signatures"]
+type: docs
 ---
-
 # Text Signature Search .NET: Complete GroupDocs.Signature
 
 ## Introduction

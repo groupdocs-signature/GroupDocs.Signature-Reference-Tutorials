@@ -4,8 +4,8 @@
 "title": "Zvládněte bezpečné podepisování dokumentů s metadaty a vlastním šifrováním v .NET pomocí GroupDocs.Signature"
 "url": "/cs/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Zvládněte bezpečné podepisování dokumentů s metadaty a vlastním šifrováním v .NET
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 從 FTP 伺服器載入文檔"
 "url": "/zh-hant/java/document-loading-saving/load-documents-from-ftp-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 從 FTP 伺服器載入文檔
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 實作二維碼文件簽名"
 "url": "/zh-hant/net/qr-code-signatures/qr-code-signing-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 實作二維碼文件簽名
 
 ## 介紹

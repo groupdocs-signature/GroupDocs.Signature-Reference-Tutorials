@@ -8,10 +8,8 @@ keywords:
 - extract VCard from PDF QR codes
 - GroupDocs.Signature for Java
 - QR code signatures in PDFs
-
+type: docs
 ---
-
-
 # Extract VCard Data from PDF QR Codes Using GroupDocs.Signature for Java
 
 ## Introduction

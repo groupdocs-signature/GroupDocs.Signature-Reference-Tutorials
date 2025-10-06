@@ -4,8 +4,8 @@
 "title": "Padroneggiare le firme digitali in .NET&#58; come utilizzare GroupDocs.Signature per firmare e cercare documenti"
 "url": "/it/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare le firme digitali in .NET: come utilizzare GroupDocs.Signature per firmare e cercare documenti
 
 ## Introduzione

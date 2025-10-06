@@ -4,8 +4,8 @@
 "title": "De documentprocesgeschiedenis onder de knie krijgen met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Documentprocesgeschiedenis onder de knie krijgen met GroupDocs.Signature voor .NET: een uitgebreide handleiding
 
 ## Invoering

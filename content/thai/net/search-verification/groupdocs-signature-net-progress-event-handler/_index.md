@@ -4,8 +4,8 @@
 "title": "เพิ่มประสิทธิภาพการค้นหาเอกสารด้วย GroupDocs.Signature สำหรับ .NET&#58; ใช้ตัวจัดการเหตุการณ์ความคืบหน้า"
 "url": "/th/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # เพิ่มประสิทธิภาพการค้นหาเอกสารด้วย GroupDocs.Signature สำหรับ .NET: นำตัวจัดการเหตุการณ์ความคืบหน้าไปใช้
 
 ## การแนะนำ

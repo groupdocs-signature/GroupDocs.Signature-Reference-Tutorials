@@ -4,8 +4,8 @@
 "title": "Implementar el registro personalizado en GroupDocs.Signature para .NET&#58; una guía completa"
 "url": "/es/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementar el registro personalizado en GroupDocs.Signature para .NET: una guía completa
 
 ## Introducción

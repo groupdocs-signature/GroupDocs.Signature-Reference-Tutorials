@@ -5,8 +5,8 @@
 "title": "Zoeken naar barcodehandtekeningen in documenten"
 "url": "/nl/net/signature-searching/search-for-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Invoering
 
 In het huidige digitale documentbeheer is het kunnen zoeken naar en valideren van handtekeningen in documenten cruciaal voor het behoud van authenticiteit en veiligheid. GroupDocs.Signature voor .NET biedt een krachtige oplossing voor het werken met verschillende soorten handtekeningen, waaronder barcodes, in verschillende documentformaten. Deze tutorial begeleidt u bij het implementeren van zoekfunctionaliteit voor barcodehandtekeningen in uw .NET-applicaties met behulp van GroupDocs.Signature.

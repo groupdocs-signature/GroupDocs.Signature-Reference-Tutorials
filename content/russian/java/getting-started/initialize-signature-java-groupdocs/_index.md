@@ -4,8 +4,8 @@
 "title": "Как инициализировать экземпляр подписи в Java с помощью GroupDocs.Signature"
 "url": "/ru/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Как инициализировать экземпляр подписи в Java с помощью GroupDocs.Signature
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java でデジタル署名の読み込みと署名を実装する方法"
 "url": "/ja/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java でデジタル署名の読み込みと署名を実装する方法
 
 ## 導入

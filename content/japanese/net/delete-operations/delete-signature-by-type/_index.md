@@ -5,8 +5,8 @@
 "title": ".NETでドキュメント署名を種類別に削除する方法"
 "url": "/ja/net/delete-operations/delete-signature-by-type/"
 "weight": 12
+type: docs
 ---
-
 # .NETでドキュメント署名を種類別に削除する方法
 
 ## 文書処理において署名管理が重要な理由

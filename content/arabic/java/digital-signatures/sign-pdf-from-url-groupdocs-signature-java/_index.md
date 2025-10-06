@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملف PDF من عنوان URL باستخدام GroupDocs.Signature for Java - دليل التوقيع الرقمي"
 "url": "/ar/java/digital-signatures/sign-pdf-from-url-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع ملف PDF من عنوان URL باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 安全地對帶有二維碼的 Word 文件進行簽名"
 "url": "/zh-hant/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 安全地對帶有二維碼的 Word 文件進行簽名
 
 在當今的數位世界中，安全地簽署文件對企業和個人都至關重要。無論是合約、法律協議或正式信函，確保文件的真實性至關重要。借助電子簽名，我們簡化了這個流程，同時增加了額外的安全性和便利性。 GroupDocs.Signature for Java 提供了一個強大的解決方案，可以使用二維碼簽署 Word 文件——一種現代且安全的數位簽章。

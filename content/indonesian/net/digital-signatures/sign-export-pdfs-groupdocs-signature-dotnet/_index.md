@@ -4,8 +4,8 @@
 "title": "Tandatangani dan Ekspor PDF Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/digital-signatures/sign-export-pdfs-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Tandatangani dan Ekspor PDF Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["metadata", "groupdocs", "dotnet", "document-search"]
+type: docs
 ---
-
 # Metadata Search .NET GroupDocs
 
 ## Introduction

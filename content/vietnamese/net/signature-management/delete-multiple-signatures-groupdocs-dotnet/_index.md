@@ -4,8 +4,8 @@
 "title": "Cách xóa nhiều chữ ký trong tài liệu bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/signature-management/delete-multiple-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa nhiều chữ ký trong một tài liệu bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

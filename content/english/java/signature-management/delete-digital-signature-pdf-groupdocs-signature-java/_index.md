@@ -8,10 +8,8 @@ keywords:
 - remove digital signature PDF
 - manage digital signatures Java
 - delete digital signature GroupDocs
-
+type: docs
 ---
-
-
 # How to Remove a Digital Signature from a PDF Using GroupDocs.Signature for Java
 
 ## Introduction

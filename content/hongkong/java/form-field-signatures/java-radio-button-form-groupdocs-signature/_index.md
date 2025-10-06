@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 實作 Java 單選按鈕表單欄位簽名"
 "url": "/zh-hant/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 實作 Java 單選按鈕表單欄位簽名
 
 ## 介紹

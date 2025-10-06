@@ -4,8 +4,8 @@
 "title": "Documenten ondertekenen met GroupDocs.Signature voor Java&#58; een complete handleiding"
 "url": "/nl/java/digital-signatures/groupdocs-signature-java-document-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Documenten ondertekenen met GroupDocs.Signature voor Java: een complete handleiding
 
 ## Invoering

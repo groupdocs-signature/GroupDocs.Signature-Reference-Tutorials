@@ -4,8 +4,8 @@
 "title": "วิธีการค้นหาลายเซ็น QR Code ใน .NET ด้วย GroupDocs.Signature"
 "url": "/th/net/qr-code-signatures/qr-code-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้งานการค้นหาลายเซ็น QR Code ด้วยข้อมูลเหตุการณ์โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

@@ -5,8 +5,8 @@
 "title": "QR-codehandtekeningen in documenten bijwerken"
 "url": "/nl/net/update-operations/update-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## Invoering
 In de huidige, digitaal georiënteerde bedrijfsomgeving zijn QR-codes een essentieel onderdeel geworden van documentbeheer- en authenticatiesystemen. Ze bieden een handige manier om informatie te coderen en te openen, van eenvoudige URL's tot complexe gestructureerde gegevens. GroupDocs.Signature voor .NET biedt een uitgebreide toolkit waarmee ontwikkelaars geavanceerde mogelijkheden voor elektronische handtekeningen in hun applicaties kunnen integreren, inclusief de mogelijkheid om bestaande QR-codehandtekeningen in documenten bij te werken.
 

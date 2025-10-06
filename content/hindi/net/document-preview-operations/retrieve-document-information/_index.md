@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature के साथ दस्तावेज़ जानकारी कैसे प्राप्त करें"
 "url": "/hi/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके दस्तावेज़ जानकारी कैसे प्राप्त करें
 
 ## परिचय

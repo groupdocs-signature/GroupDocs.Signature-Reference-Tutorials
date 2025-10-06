@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 Java 中检测 MeCard QR 码签名"
 "url": "/zh/java/qr-code-signatures/detect-qr-code-mecard-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 检测 MeCard 二维码签名
 
 ## 介绍

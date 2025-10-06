@@ -4,8 +4,8 @@
 "title": "Cách xóa chữ ký mã vạch trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/signature-management/delete-barcode-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa chữ ký mã vạch trong Java bằng GroupDocs.Signature
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Как реализовать цифровые подписи PDF-файлов с временными метками с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать цифровые подписи PDF-файлов с временными метками с помощью GroupDocs.Signature для .NET
 
 ## Введение

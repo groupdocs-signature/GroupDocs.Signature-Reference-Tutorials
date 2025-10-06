@@ -4,8 +4,8 @@
 "title": "QR-kód aláírások keresése PDF-fájlokban és VCard adatok kinyerése a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírások keresése PDF dokumentumokban és VCard adatok kinyerése a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

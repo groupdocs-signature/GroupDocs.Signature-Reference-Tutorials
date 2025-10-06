@@ -4,8 +4,8 @@
 "title": "Jak podepsat PDF z URL adresy pomocí GroupDocs.Signature pro Javu – tutoriál k digitálnímu podpisu"
 "url": "/cs/java/digital-signatures/sign-pdf-from-url-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF z URL adresy pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

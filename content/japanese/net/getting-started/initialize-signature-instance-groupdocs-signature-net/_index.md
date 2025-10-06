@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET で署名インスタンスを初期化する包括的なガイド"
 "url": "/ja/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して署名インスタンスを初期化する
 
 ## 導入

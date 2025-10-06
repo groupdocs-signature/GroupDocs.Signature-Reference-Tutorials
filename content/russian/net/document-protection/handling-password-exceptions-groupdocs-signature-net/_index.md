@@ -4,8 +4,8 @@
 "title": "Обработка исключений паролей в GroupDocs.Signature для .NET&#58; Полное руководство"
 "url": "/ru/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Обработка исключений паролей в GroupDocs.Signature для .NET
 
 ## Введение

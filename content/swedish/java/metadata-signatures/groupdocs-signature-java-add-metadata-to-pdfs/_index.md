@@ -4,8 +4,8 @@
 "title": "Lägg till metadatasignaturer till PDF-filer med GroupDocs.Signature för Java – en komplett guide"
 "url": "/sv/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/"
 "weight": 1
+type: docs
 ---
-
 # Lägg till metadatasignaturer till PDF-filer med GroupDocs.Signature för Java
 ## Introduktion
 I dagens digitala tidsålder är det avgörande att säkerställa dina PDF-dokuments äkthet och integritet. Oavsett om du är en jurist som hanterar avtal eller ett företag som hanterar känsliga uppgifter, kan metadatasignaturer ge ett extra lager av säkerhet och spårbarhet. Den här guiden visar dig hur du använder GroupDocs.Signature för Java för att smidigt lägga till standardmetadatasignaturer i dina PDF-filer.

@@ -4,8 +4,8 @@
 "title": "Come cercare le firme dei metadati nei PDF utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/search-verification/search-metadata-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Come cercare firme di metadati nei documenti PDF utilizzando GroupDocs.Signature per Java
 
 ## Introduzione

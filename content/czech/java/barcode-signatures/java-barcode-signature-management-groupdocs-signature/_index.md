@@ -4,8 +4,8 @@
 "title": "Efektivní správa podpisů čárových kódů v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/barcode-signatures/java-barcode-signature-management-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Efektivní správa podpisů čárových kódů v Javě pomocí GroupDocs.Signature
 
 V digitální éře je efektivní správa elektronických podpisů klíčová jak pro firmy, tak pro jednotlivce. Ať už ověřujete smlouvy nebo zabezpečujete dokumenty, používání správných nástrojů může výrazně zvýšit produktivitu. **GroupDocs.Signature pro Javu** je výkonná knihovna navržená pro zefektivnění těchto procesů. Tento tutoriál vás provede inicializací objektu Signature, vyhledáváním podpisů čárových kódů a jejich odstraňováním z dokumentů.

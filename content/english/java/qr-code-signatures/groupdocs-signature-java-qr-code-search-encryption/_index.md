@@ -8,10 +8,8 @@ keywords:
 - QR Code Search in Java
 - Document Encryption with GroupDocs.Signature
 - Java QR Code Implementation
-
+type: docs
 ---
-
-
 # QR Code Search & Encryption in Java: Master GroupDocs.Signature for Secure Document Handling
 
 ## Introduction

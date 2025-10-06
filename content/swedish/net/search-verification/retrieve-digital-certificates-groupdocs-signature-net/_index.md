@@ -4,8 +4,8 @@
 "title": "Hämta digitala certifikat från arkiv med GroupDocs.Signature för .NET | Steg-för-steg-guide"
 "url": "/sv/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hämta digitala certifikat från arkiv med GroupDocs.Signature för .NET
 
 ## Introduktion

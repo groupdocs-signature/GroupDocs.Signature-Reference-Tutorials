@@ -4,8 +4,8 @@
 "title": "Dokumentum aláírás elsajátítása .NET-ben vonalkód- és QR-kód-aláírásokkal a GroupDocs.Signature segítségével"
 "url": "/hu/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum aláírás elsajátítása .NET-ben: Vonalkód- és QR-kód-aláírások megvalósítása a GroupDocs.Signature segítségével
 
 ## Bevezetés

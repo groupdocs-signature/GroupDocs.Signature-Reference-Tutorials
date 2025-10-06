@@ -4,8 +4,8 @@
 "title": "Gerenciamento eficiente de assinaturas de código de barras em PDFs com GroupDocs.Signature para .NET"
 "url": "/pt/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Gerenciamento eficiente de assinaturas de código de barras em PDFs com GroupDocs.Signature para .NET
 
 ## Introdução

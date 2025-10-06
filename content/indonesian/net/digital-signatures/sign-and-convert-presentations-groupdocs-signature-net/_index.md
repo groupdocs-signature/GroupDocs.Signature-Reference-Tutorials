@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani dan Mengonversi Presentasi dengan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/digital-signatures/sign-and-convert-presentations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani dan Mengonversi Presentasi dengan GroupDocs.Signature untuk .NET: Panduan Lengkap
 
 ## Perkenalan

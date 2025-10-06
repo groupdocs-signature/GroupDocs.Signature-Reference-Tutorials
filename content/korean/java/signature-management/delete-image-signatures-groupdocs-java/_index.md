@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 문서에서 이미지 서명을 제거하는 방법"
 "url": "/ko/java/signature-management/delete-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 문서에서 이미지 서명을 제거하는 방법
 
 디지털 서명 관리는 문서의 무결성과 신뢰성을 유지하는 데 매우 중요합니다. 계약서를 관리하는 대기업이든 송장을 처리하는 중소기업이든, 오래되었거나 잘못된 이미지 서명을 제거하면 문서 관리가 간소화될 수 있습니다. 이 튜토리얼에서는 Java용 GroupDocs.Signature를 사용하여 알려진 ID로 이미지 서명을 삭제하는 방법을 안내합니다.

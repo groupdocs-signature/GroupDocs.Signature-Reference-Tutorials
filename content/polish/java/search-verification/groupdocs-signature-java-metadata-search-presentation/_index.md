@@ -4,8 +4,8 @@
 "title": "Wyszukiwanie podpisu głównego metadanych w programie PowerPoint przy użyciu GroupDocs.Signature dla języka Java"
 "url": "/pl/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # Wyszukiwanie podpisu głównego metadanych w programie PowerPoint przy użyciu GroupDocs.Signature dla języka Java
 
 ## Wstęp

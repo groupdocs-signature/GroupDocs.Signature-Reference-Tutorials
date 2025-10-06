@@ -4,8 +4,8 @@
 "title": "Implementace vyhledávání čárových a QR kódů v ZIP archivech pomocí GroupDocs pro vývojáře v Javě"
 "url": "/cs/java/search-verification/implement-barcode-qr-code-search-zip-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementujte vyhledávání čárových kódů a QR kódů v ZIP archivech pomocí GroupDocs pro Javu
 ## Zavedení
 dnešním digitálním světě je efektivní správa a ověřování pravosti dokumentů klíčové. Ať už pracujete s právními dokumenty, fakturami nebo smlouvami uloženými v ZIP archivech, může být nalezení konkrétních čárových kódů a QR kódů bez správných nástrojů náročné. Tento tutoriál vás provede používáním GroupDocs.Signature for Java k bezproblémovému vyhledávání podpisů čárových kódů a QR kódů v ZIP souborech.

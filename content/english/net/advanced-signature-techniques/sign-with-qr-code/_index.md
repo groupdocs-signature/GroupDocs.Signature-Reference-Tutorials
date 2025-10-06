@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["qr-code", "document-security", "csharp", "pdf-signature"]
+type: docs
 ---
-
 # How to Add QR Code to Document Files Using C#
 
 Ever needed to make your documents more secure and interactive, but didn't want to clutter them with visible text? Adding QR codes to documents is becoming the go-to solution for modern document management. Whether you're handling contracts, reports, or certificates, QR code signatures can transform how people interact with your documents.

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके बारकोड हस्ताक्षरों के साथ .NET दस्तावेज़ों को सत्यापित करें"
 "url": "/hi/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके .NET में बारकोड हस्ताक्षर के साथ दस्तावेज़ सत्यापन कैसे लागू करें
 
 ## परिचय

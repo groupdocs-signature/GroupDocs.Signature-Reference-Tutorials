@@ -4,8 +4,8 @@
 "title": "การเข้ารหัสข้อมูลเมตา XOR ขั้นสูงด้วย GroupDocs.Signature สำหรับ .NET&#58; คู่มือฉบับสมบูรณ์"
 "url": "/th/net/advanced-options/custom-xor-metadata-encryption-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # การเข้ารหัสข้อมูลเมตา XOR ขั้นสูงด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Verimli Belge İmza Yönetimi - .NET için GroupDocs.Signature ile Form Alanı İmzalarını Arama"
 "url": "/tr/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Verimli Belge İmza Yönetimi
 
 ## giriiş

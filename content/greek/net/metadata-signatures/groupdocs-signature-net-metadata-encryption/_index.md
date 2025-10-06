@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε κρυπτογράφηση υπογραφής μεταδεδομένων σε .NET με το GroupDocs.Signature για ασφαλή PDF"
 "url": "/el/net/metadata-signatures/groupdocs-signature-net-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε κρυπτογράφηση υπογραφής μεταδεδομένων σε .NET με το GroupDocs.Signature για ασφαλή PDF
 
 ## Εισαγωγή

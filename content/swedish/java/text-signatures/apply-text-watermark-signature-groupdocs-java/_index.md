@@ -4,8 +4,8 @@
 "title": "Använda textvattenstämpelsignaturer med GroupDocs.Signature för Java"
 "url": "/sv/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Så här använder du en textvattenstämpel för signatur med GroupDocs.Signature för Java
 
 ## Introduktion

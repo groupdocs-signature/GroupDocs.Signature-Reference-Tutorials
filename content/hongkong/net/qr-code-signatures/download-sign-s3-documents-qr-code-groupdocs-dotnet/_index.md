@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 下載並簽署帶有二維碼的 Amazon S3 文檔"
 "url": "/zh-hant/net/qr-code-signatures/download-sign-s3-documents-qr-code-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 下載並簽署帶有二維碼的 Amazon S3 文檔
 
 ## 介紹

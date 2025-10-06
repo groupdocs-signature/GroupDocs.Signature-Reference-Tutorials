@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java ile QR Kod İmza Aramasını Uygulayın"
 "url": "/tr/java/search-verification/groupdocs-signature-java-qr-code-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile QR Kod İmza Aramasını Uygulama
 
 Günümüzün dijital dünyasında, elektronik imzaların etkin bir şekilde doğrulanması çeşitli sektörlerde hayati önem taşımaktadır. **Java için GroupDocs.Signature** Özellikle belgelerdeki QR kod imzalarını aramak ve yönetmek için sağlam bir çözüm sunar. Bu eğitim, Java'da GroupDocs.Signature kullanarak QR kod imza aramasını uygulama konusunda size rehberlik eder.

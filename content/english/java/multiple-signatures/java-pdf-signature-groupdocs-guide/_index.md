@@ -8,10 +8,8 @@ keywords:
 - Java PDF Signature Guide
 - GroupDocs.Signature for Java
 - text, barcode, QR & digital signatures
-
+type: docs
 ---
-
-
 # How to Implement Java PDF Signature Guide: Adding Text, Barcode, QR & Digital Signatures Using GroupDocs.Signature for Java
 
 ## Introduction

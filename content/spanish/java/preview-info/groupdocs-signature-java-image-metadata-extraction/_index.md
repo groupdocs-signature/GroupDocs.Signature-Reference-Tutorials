@@ -4,8 +4,8 @@
 "title": "Extracción de metadatos de imágenes maestras en Java mediante la biblioteca GroupDocs.Signature"
 "url": "/es/java/preview-info/groupdocs-signature-java-image-metadata-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Dominando GroupDocs.Signature para Java: Extracción de metadatos de imágenes
 
 ## Introducción

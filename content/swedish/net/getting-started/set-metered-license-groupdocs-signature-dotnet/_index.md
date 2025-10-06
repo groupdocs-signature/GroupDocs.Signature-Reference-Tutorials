@@ -4,8 +4,8 @@
 "title": "Så här ställer du in en mätlicens för GroupDocs.Signature i .NET - En omfattande guide"
 "url": "/sv/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Så här ställer du in en uppmätt licens för GroupDocs.Signature i .NET: En omfattande guide
 
 ## Introduktion

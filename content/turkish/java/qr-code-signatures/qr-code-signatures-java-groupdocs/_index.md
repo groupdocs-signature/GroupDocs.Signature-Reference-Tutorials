@@ -4,8 +4,8 @@
 "title": "Belgelerinizi Güvence Altına Alın ve GroupDocs.Signature Kullanarak Java'da QR Kod İmzalarını Uygulayın"
 "url": "/tr/java/qr-code-signatures/qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Belgelerinizi Güvence Altına Alın: GroupDocs.Signature Kullanarak Java'da QR Kod İmzalarını Uygulayın
 
 Günümüzün dijital dünyasında, sözleşmeler, faturalar veya hassas kişisel bilgiler gibi belgelerin güvenliğini sağlamak hayati önem taşımaktadır. Belge güvenliğini artırmak ve doğrulama süreçlerini basitleştirmek için yenilikçi bir yaklaşım, QR kod imzalarını kullanmaktır. Bu eğitim, GroupDocs.Signature kullanarak Java'da belgeleriniz için QR kod imzalarını uygulama ve doğrulama konusunda size rehberlik edecektir.

@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký mã QR trong .NET với tính năng tuần tự hóa tùy chỉnh bằng GroupDocs.Signature"
 "url": "/vi/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký mã QR với tính năng tuần tự hóa tùy chỉnh trong .NET bằng GroupDocs.Signature
 
 ## Giới thiệu

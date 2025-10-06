@@ -8,10 +8,8 @@ keywords:
 - metadata signing in Word documents
 - GroupDocs.Signature for Java
 - document metadata security
-
+type: docs
 ---
-
-
 # Mastering Metadata Signing in Word Documents with GroupDocs.Signature for Java
 
 ## Introduction

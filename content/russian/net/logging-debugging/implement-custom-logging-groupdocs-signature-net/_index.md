@@ -4,8 +4,8 @@
 "title": "Реализация пользовательского ведения журнала в GroupDocs.Signature для .NET. Подробное руководство."
 "url": "/ru/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Реализация пользовательского ведения журнала в GroupDocs.Signature для .NET: подробное руководство
 
 ## Введение

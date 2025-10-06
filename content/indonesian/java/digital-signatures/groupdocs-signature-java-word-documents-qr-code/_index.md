@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen Word dengan Kode QR dengan Aman menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen Word dengan Kode QR dengan Aman menggunakan GroupDocs.Signature untuk Java
 
 Di dunia digital saat ini, penandatanganan dokumen yang aman sangatlah penting, baik bagi bisnis maupun individu. Baik itu kontrak, perjanjian hukum, maupun surat resmi, memastikan keaslian dokumen Anda sangatlah penting. Dengan tanda tangan elektronik, kami telah menyederhanakan proses ini sekaligus menambahkan lapisan keamanan dan kenyamanan ekstra. GroupDocs.Signature untuk Java menawarkan solusi canggih untuk menandatangani dokumen Word menggunakan kode QR—sebuah tanda tangan digital yang modern dan aman.

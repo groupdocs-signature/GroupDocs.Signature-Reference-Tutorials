@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Spreadsheet Excel dengan Metadata Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Spreadsheet Excel dengan Metadata Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -5,8 +5,8 @@
 "title": "Dokumentverifieringsåtgärder i .NET"
 "url": "/sv/net/verify-operations/"
 "weight": 27
+type: docs
 ---
-
 ## Introduktion
 
 Dokumentverifiering är en viktig del av alla säkra dokumenthanteringssystem. Oavsett om du bygger företagsapplikationer, dokumentarbetsflödeslösningar eller säkerhetsfokuserade system är det viktigt att kunna verifiera olika typer av signaturer i dokument. GroupDocs.Signature för .NET tillhandahåller kraftfulla verktyg och API:er som gör det möjligt för .NET-utvecklare att implementera robust verifieringsfunktionalitet för streckkoder, digitala signaturer, QR-koder och textsignaturer.

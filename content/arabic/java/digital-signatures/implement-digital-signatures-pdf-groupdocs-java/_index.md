@@ -4,8 +4,8 @@
 "title": "كيفية تطبيق التوقيعات الرقمية في ملفات PDF باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/digital-signatures/implement-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التوقيعات الرقمية في ملفات PDF باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

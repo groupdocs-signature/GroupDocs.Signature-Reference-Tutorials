@@ -4,8 +4,8 @@
 "title": "Ověření podpisu QR kódu v Javě pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/java/qr-code-signatures/verify-qr-code-signature-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Ověření podpisu QR kódu v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

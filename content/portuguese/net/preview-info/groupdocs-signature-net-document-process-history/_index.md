@@ -4,8 +4,8 @@
 "title": "Como recuperar o histórico de processos de documentos com o GroupDocs.Signature para .NET - Um guia passo a passo"
 "url": "/pt/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # Como recuperar o histórico de processos de documentos com o GroupDocs.Signature para .NET: um guia passo a passo
 
 ## Introdução

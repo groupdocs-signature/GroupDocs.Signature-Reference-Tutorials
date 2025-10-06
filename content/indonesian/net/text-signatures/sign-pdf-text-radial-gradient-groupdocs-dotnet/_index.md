@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan Tanda Tangan Teks & Gradien Radial di .NET menggunakan GroupDocs.Signature"
 "url": "/id/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF dengan Tanda Tangan Teks & Gradien Radial di .NET Menggunakan GroupDocs.Signature
 
 ## Perkenalan

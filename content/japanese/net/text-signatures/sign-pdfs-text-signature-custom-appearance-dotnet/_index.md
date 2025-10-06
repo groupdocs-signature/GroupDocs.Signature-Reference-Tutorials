@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して .NET でテキスト署名とカスタム外観で PDF に署名する"
 "url": "/ja/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して、テキスト署名とカスタム外観で PDF ドキュメントに署名する方法
 
 ## 導入

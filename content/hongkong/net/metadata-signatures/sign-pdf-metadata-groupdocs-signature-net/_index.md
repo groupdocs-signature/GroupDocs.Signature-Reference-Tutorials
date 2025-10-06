@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 對包含元資料的 PDF 文件進行簽署 | 綜合指南"
 "url": "/zh-hant/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 對具有元資料的 PDF 文件進行簽名
 
 在當今的數位世界中，高效管理文件對於企業和個人都至關重要。安全地簽署和驗證文件已變得至關重要，尤其是在處理合約或官方記錄時。本指南將示範如何使用 GroupDocs.Signature for .NET 對 PDF 文件進行元資料簽名，從而增強文件的完整性。

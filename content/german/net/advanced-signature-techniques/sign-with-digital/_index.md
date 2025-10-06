@@ -5,8 +5,8 @@
 "title": "Sichern Sie Ihre .NET-Dokumente mit digitalen Signaturen | Vollständige Anleitung"
 "url": "/de/net/advanced-signature-techniques/sign-with-digital/"
 "weight": 12
+type: docs
 ---
-
 ## Warum digitale Signaturen im modernen Dokumentenmanagement wichtig sind
 
 In der heutigen digitalen Welt ist die Gewährleistung der Authentizität und Integrität Ihrer elektronischen Dokumente nicht nur eine gute Praxis, sondern unerlässlich. Digitale Signaturen bieten diese entscheidende Sicherheitsebene und zeigen den Empfängern, dass Ihr Dokument legitim ist und seit der Unterzeichnung nicht manipuliert wurde.

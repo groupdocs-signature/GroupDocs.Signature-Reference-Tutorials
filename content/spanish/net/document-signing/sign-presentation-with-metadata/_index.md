@@ -5,8 +5,8 @@
 "title": "Mejore las presentaciones de PowerPoint con firmas de metadatos en C# .NET"
 "url": "/es/net/document-signing/sign-presentation-with-metadata/"
 "weight": 12
+type: docs
 ---
-
 ## Introducción
 
 En el entorno laboral digital actual, las presentaciones son herramientas esenciales para la comunicación y el intercambio de información. Garantizar la autenticidad e integridad de estos archivos de presentación es cada vez más importante, especialmente en entornos corporativos y educativos. Una forma eficaz de mejorar la seguridad y la trazabilidad de las presentaciones es integrar firmas de metadatos.

@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 스프레드시트에서 메타데이터 추출 자동화"
 "url": "/ko/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 스프레드시트에서 메타데이터 추출 자동화
 
 ## 소개

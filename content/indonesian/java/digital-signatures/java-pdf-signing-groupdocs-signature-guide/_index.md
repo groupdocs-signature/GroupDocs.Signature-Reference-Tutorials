@@ -4,8 +4,8 @@
 "title": "Implementasi Penandatanganan PDF di Java Menggunakan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # Implementasi Penandatanganan PDF di Java Menggunakan GroupDocs.Signature
 
 ## Buka Kekuatan GroupDocs.Signature untuk Java: Penandatanganan Dokumen PDF yang Lancar

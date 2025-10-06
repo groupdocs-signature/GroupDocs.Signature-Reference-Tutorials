@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 簽署和轉換簡報－綜合指南"
 "url": "/zh-hant/net/digital-signatures/sign-and-convert-presentations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 簽署和轉換簡報：綜合指南
 
 ## 介紹

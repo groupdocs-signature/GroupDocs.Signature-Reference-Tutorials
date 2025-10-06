@@ -4,8 +4,8 @@
 "title": "JavaでPDFデジタル署名をマスターする - GroupDocs.Signatureを使用してテキスト、チェックボックス、デジタルフィールドを作成する"
 "url": "/ja/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # JavaでPDFデジタル署名をマスターする：テキスト、チェックボックス、デジタルフィールドにGroupDocs.Signatureを使用する
 
 ## 導入

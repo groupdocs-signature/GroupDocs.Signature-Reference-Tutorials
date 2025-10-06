@@ -3,8 +3,8 @@
 "title": "Java için GroupDocs.Signature ile Belge Yükleme ve Kaydetme Eğitimleri"
 "url": "/tr/java/document-loading-saving/"
 "weight": 2
+type: docs
 ---
-
 # Java için GroupDocs.Signature ile Belge Yükleme ve Kaydetme Eğitimleri
 
 Belge yükleme ve kaydetme eğitimlerimiz, Java'da belgeleri programatik olarak işleme konusunda kapsamlı bir rehberlik sunar. Yerel diskten, akışlardan, URL'lerden, Amazon S3 ve Azure Blob Storage gibi bulut depolama sağlayıcılarından ve FTP'den belgeleri nasıl yükleyeceğinizi öğrenmek için bu adım adım kılavuzları izleyin. Bu eğitimler ayrıca parola korumalı kaydetme, farklı çıktı biçimleri ve çeşitli belge türleri için özelleştirilmiş kaydetme seçenekleri gibi çeşitli belge kaydetme senaryolarını da kapsar.

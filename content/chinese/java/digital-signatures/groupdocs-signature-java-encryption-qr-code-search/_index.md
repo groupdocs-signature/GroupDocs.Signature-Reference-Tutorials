@@ -4,8 +4,8 @@
 "title": "Java 中的安全数字签名&#58; GroupDocs.Signature 加密和二维码搜索指南"
 "url": "/zh/java/digital-signatures/groupdocs-signature-java-encryption-qr-code-search/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中实现安全数字签名
 ## 介绍
 在当今的数字环境中，文档安全至关重要。无论您管理的是敏感的商业合同还是个人记录，应用强大的加密和高效的搜索功能都可以保护您的数据免遭未经授权的访问。本指南将指导您使用 GroupDocs.Signature 在 Java 中实现自定义加密和二维码签名搜索选项。

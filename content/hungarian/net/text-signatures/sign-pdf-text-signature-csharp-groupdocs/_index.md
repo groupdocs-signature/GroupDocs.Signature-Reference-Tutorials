@@ -4,8 +4,8 @@
 "title": "PDF dokumentumok aláírása szöveges aláírással C#-ban a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/text-signatures/sign-pdf-text-signature-csharp-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentumok aláírása szöveges aláírással C#-ban a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

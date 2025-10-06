@@ -9,8 +9,8 @@ url: "/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-
 keywords: "GroupDocs.Signature .NET tutorial, barcode signature implementation .NET, QR code digital signing C#, document authentication .NET, .NET barcode signature library"
 categories: ["Digital Signatures"]
 tags: ["GroupDocs", ".NET", "barcode", "QR-code", "digital-signatures"]
+type: docs
 ---
-
 # GroupDocs.Signature .NET Tutorial: Master Barcode & QR Code Digital Signatures
 
 Are you struggling to add secure, professional digital signatures to your .NET applications? You're not alone. Many developers find document authentication complex and time-consuming – but it doesn't have to be.

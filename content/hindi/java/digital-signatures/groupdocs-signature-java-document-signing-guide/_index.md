@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके दस्तावेज़ों पर हस्ताक्षर कैसे करें. Java के लिए हस्ताक्षर एक संपूर्ण गाइड"
 "url": "/hi/java/digital-signatures/groupdocs-signature-java-document-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों पर हस्ताक्षर कैसे करें: एक संपूर्ण मार्गदर्शिका
 
 ## परिचय

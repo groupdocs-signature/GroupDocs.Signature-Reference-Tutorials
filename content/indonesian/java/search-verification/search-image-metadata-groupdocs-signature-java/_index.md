@@ -4,8 +4,8 @@
 "title": "Cara Mencari Metadata Gambar Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/search-verification/search-image-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mencari Metadata Gambar dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

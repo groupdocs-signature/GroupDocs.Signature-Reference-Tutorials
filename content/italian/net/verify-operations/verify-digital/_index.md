@@ -5,8 +5,8 @@
 "title": "Verificare le firme digitali nei documenti"
 "url": "/it/net/verify-operations/verify-digital/"
 "weight": 11
+type: docs
 ---
-
 ## Introduzione
 
 Le firme digitali svolgono un ruolo cruciale nel garantire l'autenticità, l'integrità e la non ripudiabilità dei documenti nei moderni processi aziendali. A differenza delle tradizionali firme autografe, le firme digitali utilizzano tecniche crittografiche per verificare l'identità del firmatario e garantire che il documento non sia stato alterato dopo la firma.

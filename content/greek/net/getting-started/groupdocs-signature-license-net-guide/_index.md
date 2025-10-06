@@ -4,8 +4,8 @@
 "title": "Ρύθμιση αρχείου άδειας χρήσης για το GroupDocs.Signature σε .NET™ - Οδηγός βήμα προς βήμα"
 "url": "/el/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # Ρύθμιση αρχείου άδειας χρήσης για το GroupDocs.Signature σε .NET: Οδηγός βήμα προς βήμα
 
 ## Εισαγωγή

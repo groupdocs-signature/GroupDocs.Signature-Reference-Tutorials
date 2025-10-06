@@ -4,8 +4,8 @@
 "title": "Реализация и отображение подписей документов с помощью GroupDocs.Signature для .NET. Подробное руководство"
 "url": "/ru/net/digital-signatures/implement-document-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Реализация и отображение подписей документов с помощью GroupDocs.Signature для .NET
 
 ## Введение

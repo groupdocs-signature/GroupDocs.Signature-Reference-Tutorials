@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da Güvenli Meta Veri Araması Kapsamlı Bir Kılavuz"
 "url": "/tr/java/search-verification/secure-metadata-search-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java'da Güvenli Meta Veri Araması
 
 ## giriiş

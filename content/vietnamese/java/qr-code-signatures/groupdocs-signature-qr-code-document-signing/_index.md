@@ -4,8 +4,8 @@
 "title": "Hướng dẫn toàn diện về ký tài liệu bằng mã QR sử dụng GroupDocs.Signature cho Java"
 "url": "/vi/java/qr-code-signatures/groupdocs-signature-qr-code-document-signing/"
 "weight": 1
+type: docs
 ---
-
 # Chữ ký tài liệu chính bằng mã QR sử dụng GroupDocs.Signature cho Java
 
 ## Giới thiệu

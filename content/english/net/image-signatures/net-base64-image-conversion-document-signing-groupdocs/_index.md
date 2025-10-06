@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: [".NET Development"]
 tags: ["base64", "digital-signature", "groupdocs", "csharp", "pdf-signing"]
+type: docs
 ---
-
 # How to Convert Base64 Images to Digital Signatures in .NET
 
 ## Why This Matters for Your .NET Projects

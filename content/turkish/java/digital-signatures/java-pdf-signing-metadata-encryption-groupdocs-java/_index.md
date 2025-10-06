@@ -4,8 +4,8 @@
 "title": "GroupDocs Kullanarak Meta Veri ve Şifreleme ile Java PDF İmzalama - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/digital-signatures/java-pdf-signing-metadata-encryption-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs Kullanarak Meta Veri ve Şifreleme ile Java PDF İmzalamada Ustalaşma
 
 ## giriiş

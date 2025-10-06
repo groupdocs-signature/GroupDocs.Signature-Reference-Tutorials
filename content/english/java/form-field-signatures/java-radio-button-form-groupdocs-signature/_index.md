@@ -8,10 +8,8 @@ keywords:
 - Java Radio Button Form Signature
 - RadioButtonFormFieldSignature Java
 - digital signatures GroupDocs
-
+type: docs
 ---
-
-
 # Implement Java Radio Button Form Field Signature with GroupDocs.Signature
 
 ## Introduction

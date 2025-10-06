@@ -4,8 +4,8 @@
 "title": "Firma ed esporta PDF utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/digital-signatures/sign-export-pdfs-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Firma ed esporta PDF utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

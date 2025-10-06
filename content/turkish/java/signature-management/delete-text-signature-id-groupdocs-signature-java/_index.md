@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak Kimliğe Göre Metin İmzası Nasıl Silinir? Kapsamlı Bir Kılavuz"
 "url": "/tr/java/signature-management/delete-text-signature-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Kimliğe Göre Metin İmzası Nasıl Silinir
 
 ## giriiş

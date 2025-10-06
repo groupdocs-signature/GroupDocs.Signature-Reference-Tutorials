@@ -8,10 +8,8 @@ keywords:
 - digital document signing in Java
 - GroupDocs.Signature for Java setup
 - Java digital signatures implementation
-
+type: docs
 ---
-
-
 # How to Implement Digital Document Signing in Java Using GroupDocs.Signature
 
 ## Introduction

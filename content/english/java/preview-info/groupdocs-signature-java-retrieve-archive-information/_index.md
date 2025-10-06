@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - archive file information
 - retrieve document metadata
-
+type: docs
 ---
-
-
 # How to Retrieve Archive File Information Using GroupDocs.Signature for Java
 
 ## Introduction

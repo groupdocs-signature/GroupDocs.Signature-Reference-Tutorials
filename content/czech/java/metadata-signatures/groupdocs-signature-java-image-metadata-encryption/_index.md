@@ -4,8 +4,8 @@
 "title": "Implementace podepisování a šifrování metadat obrázků v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Implementace podepisování metadat obrázků se šifrováním v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

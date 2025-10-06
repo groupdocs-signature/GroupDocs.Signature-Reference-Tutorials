@@ -4,8 +4,8 @@
 "title": "Menguasai GroupDocs.Signature untuk Berlangganan dan Mengonfigurasi Acara Pencarian Kode Batang .NET"
 "url": "/id/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai GroupDocs.Signature untuk .NET: Berlangganan dan Mengonfigurasi Acara Pencarian Kode Batang
 
 ## Perkenalan

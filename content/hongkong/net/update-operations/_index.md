@@ -5,8 +5,8 @@
 "title": "文件簽章更新操作"
 "url": "/zh-hant/net/update-operations/"
 "weight": 26
+type: docs
 ---
-
 ## 介紹
 
 在當今的數位商業環境中，維護最新的文件簽名對於確保文件的真實性和安全性至關重要。 GroupDocs.Signature for .NET 提供了一套全面的工具，用於更新文件中各種類型的簽名，使您能夠在適應不斷變化的業務需求的同時保持文件的完整性。

@@ -4,8 +4,8 @@
 "title": "Aktualizace a vyhledávání podpisů obrázků v PDF pomocí Javy s GroupDocs.Signature"
 "url": "/cs/java/signature-management/update-search-image-signatures-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Aktualizace a vyhledávání podpisů obrázků v PDF pomocí Javy
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용한 Java 디지털 서명 확인 단계별 가이드"
 "url": "/ko/java/digital-signatures/java-digital-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java 디지털 서명 검증을 구현하는 포괄적인 가이드
 
 ## 소개

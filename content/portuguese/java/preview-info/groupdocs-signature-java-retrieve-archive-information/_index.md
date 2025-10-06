@@ -4,8 +4,8 @@
 "title": "Como recuperar informações de arquivo compactado usando GroupDocs.Signature para Java"
 "url": "/pt/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # Como recuperar informações de arquivo compactado usando GroupDocs.Signature para Java
 
 ## Introdução

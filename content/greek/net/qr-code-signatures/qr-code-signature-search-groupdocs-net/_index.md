@@ -4,8 +4,8 @@
 "title": "Πώς να αναζητήσετε υπογραφές κωδικών QR στο .NET με το GroupDocs.Signature"
 "url": "/el/net/qr-code-signatures/qr-code-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την αναζήτηση υπογραφών QR Code με δεδομένα συμβάντων χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

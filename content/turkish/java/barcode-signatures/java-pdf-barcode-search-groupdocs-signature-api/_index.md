@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature API'sini Kullanarak Java PDF Barkod Araması - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
 "weight": 1
+type: docs
 ---
-
 # Java Uygulaması: GroupDocs.Signature API Eğitimi ile PDF Barkodlarını Arama
 
 ## giriiş

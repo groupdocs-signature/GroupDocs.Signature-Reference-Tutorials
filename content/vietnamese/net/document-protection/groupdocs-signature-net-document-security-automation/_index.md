@@ -4,8 +4,8 @@
 "title": "Ký tài liệu an toàn và tự động với GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # Bảo mật và tự động hóa việc ký tài liệu với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

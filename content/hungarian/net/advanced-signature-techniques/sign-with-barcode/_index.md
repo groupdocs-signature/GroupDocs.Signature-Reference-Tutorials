@@ -5,8 +5,8 @@
 "title": "Biztonságos vonalkód-aláírások hozzáadása .NET dokumentumokhoz | Teljes útmutató"
 "url": "/hu/net/advanced-signature-techniques/sign-with-barcode/"
 "weight": 11
+type: docs
 ---
-
 ## Hogyan javíthatják a vonalkódos aláírások a dokumentumok biztonságát?
 
 mai digitális világban a dokumentumbiztonság nem csak jó, ha van – elengedhetetlen. A vonalkódos aláírások egyedülálló módot kínálnak a fontos fájlok hitelesítésére és védelmére. A GroupDocs.Signature for .NET segítségével ezeknek a hatékony biztonsági funkcióknak a megvalósítása meglepően egyszerű.

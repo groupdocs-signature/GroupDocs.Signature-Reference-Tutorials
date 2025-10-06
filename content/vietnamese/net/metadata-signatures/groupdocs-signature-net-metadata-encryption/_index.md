@@ -4,8 +4,8 @@
 "title": "Cách triển khai mã hóa chữ ký siêu dữ liệu trong .NET với GroupDocs.Signature để bảo mật tệp PDF"
 "url": "/vi/net/metadata-signatures/groupdocs-signature-net-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai mã hóa chữ ký siêu dữ liệu trong .NET với GroupDocs.Signature để bảo mật tệp PDF
 
 ## Giới thiệu

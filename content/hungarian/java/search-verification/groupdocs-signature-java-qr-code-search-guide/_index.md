@@ -4,8 +4,8 @@
 "title": "QR-kód aláírás-keresésének megvalósítása a GroupDocs.Signature for Java segítségével"
 "url": "/hu/java/search-verification/groupdocs-signature-java-qr-code-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírás-keresésének megvalósítása GroupDocs.Signature for Java segítségével
 
 A mai digitális környezetben az elektronikus aláírások hatékony ellenőrzése kulcsfontosságú a különböző iparágakban. **GroupDocs.Signature Java-hoz** robusztus megoldást kínál, különösen a QR-kód aláírások dokumentumokban való keresésére és kezelésére. Ez az oktatóanyag végigvezeti Önt a QR-kód aláírás keresésének megvalósításán a GroupDocs.Signature használatával Java nyelven.

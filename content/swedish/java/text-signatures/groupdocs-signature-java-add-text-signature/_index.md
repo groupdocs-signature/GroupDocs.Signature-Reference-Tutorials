@@ -4,8 +4,8 @@
 "title": "Så här lägger du till en textsignatur till PDF-filer med GroupDocs.Signature för Java"
 "url": "/sv/java/text-signatures/groupdocs-signature-java-add-text-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hur man lägger till en textsignatur i dokument med GroupDocs.Signature för Java
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "Recupera certificati digitali dagli archivi utilizzando GroupDocs.Signature per .NET | Guida passo passo"
 "url": "/it/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Recupera certificati digitali dagli archivi utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

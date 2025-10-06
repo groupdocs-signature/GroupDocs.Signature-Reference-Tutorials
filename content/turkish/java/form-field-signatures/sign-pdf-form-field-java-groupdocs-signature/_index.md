@@ -4,8 +4,8 @@
 "title": "Java'da GroupDocs.Signature ile Form Alanı İmzası Kullanarak PDF'leri Nasıl İmzalayabilirsiniz?"
 "url": "/tr/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java'da GroupDocs.Signature ile Form Alanı İmzası Kullanarak PDF Nasıl İmzalanır?
 
 ## giriiş

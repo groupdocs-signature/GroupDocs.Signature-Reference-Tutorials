@@ -4,8 +4,8 @@
 "title": "Ověřování digitálního podpisu v Javě pomocí GroupDocs.Signature – Podrobný návod"
 "url": "/cs/java/digital-signatures/java-digital-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Komplexní průvodce implementací ověřování digitálního podpisu v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

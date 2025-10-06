@@ -5,8 +5,8 @@
 "title": "Sök efter textsignaturer i dokument"
 "url": "/sv/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## Introduktion
 
 Textsignaturer är en vanlig metod för att indikera dokumentförfattarskap, godkännande eller verifiering. Inom digital dokumenthantering är möjligheten att programmatiskt söka efter och extrahera textsignaturer avgörande för dokumentvalidering, arbetsflödesautomation och verifiering av efterlevnad. GroupDocs.Signature för .NET erbjuder en omfattande lösning för att implementera sökfunktioner för textsignaturer i dina .NET-applikationer, med stöd för olika dokumentformat och avancerade sökfunktioner.

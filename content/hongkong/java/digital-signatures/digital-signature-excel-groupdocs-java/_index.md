@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 在 Excel 中實作數位簽名"
 "url": "/zh-hant/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 在電子表格中實現數位簽名
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "كيفية التعامل مع استثناءات كلمة المرور غير الصحيحة في GroupDocs.Signature لـ .NET"
 "url": "/ar/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية التعامل مع استثناءات كلمة المرور غير الصحيحة باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da XAdES ile Belgeleri Nasıl İmzalarsınız? Adım Adım Kılavuz"
 "url": "/tr/java/digital-signatures/sign-documents-xades-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java'da XAdES ile Belgeleri Nasıl İmzalarsınız: Adım Adım Kılavuz
 
 ## giriiş

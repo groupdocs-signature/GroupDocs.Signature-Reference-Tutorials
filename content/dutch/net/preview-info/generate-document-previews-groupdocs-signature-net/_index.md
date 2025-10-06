@@ -4,8 +4,8 @@
 "title": "Genereer documentvoorbeelden in archieven met GroupDocs.Signature voor .NET&#58; een complete handleiding"
 "url": "/nl/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Genereer documentvoorbeelden uit archieven met GroupDocs.Signature voor .NET
 
 ## Invoering

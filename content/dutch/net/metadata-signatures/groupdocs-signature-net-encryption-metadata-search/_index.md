@@ -4,8 +4,8 @@
 "title": "Veilig zoeken naar metadatahandtekeningen in .NET met GroupDocs. Handtekening en encryptie"
 "url": "/nl/net/metadata-signatures/groupdocs-signature-net-encryption-metadata-search/"
 "weight": 1
+type: docs
 ---
-
 # Veilig zoeken naar metadatahandtekeningen in .NET met GroupDocs. Handtekening en encryptie
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Jak wyszukiwać podpisy metadanych w prezentacjach za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak wyszukiwać podpisy metadanych w prezentacjach za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

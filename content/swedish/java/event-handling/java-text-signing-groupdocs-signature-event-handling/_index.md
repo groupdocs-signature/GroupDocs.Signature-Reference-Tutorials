@@ -4,8 +4,8 @@
 "title": "Implementera textsignering i Java-händelsehantering med GroupDocs.Signature"
 "url": "/sv/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # Implementera textsignering med händelsehantering med GroupDocs.Signature för Java
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "Cách tìm kiếm siêu dữ liệu bảng tính bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách tìm kiếm siêu dữ liệu bảng tính bằng GroupDocs.Signature cho Java: Hướng dẫn toàn diện
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Szöveges aláírások frissítése .NET dokumentumokban a GroupDocs.Signature használatával"
 "url": "/hu/net/signature-management/update-text-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Szöveges aláírások frissítése .NET dokumentumokban a GroupDocs.Signature használatával
 
 ## Bevezetés

@@ -9,8 +9,8 @@ weight: 1
 url: "/net/metadata-signatures/groupdocs-signature-metadata-search-encryption-net/"
 categories: ["Document Processing"]
 tags: ["groupdocs-signature", "metadata-search", "encryption", "dotnet", "document-security"]
+type: docs
 ---
-
 # How to Search Encrypted Metadata Signatures with GroupDocs.Signature for .NET
 
 Ever found yourself wrestling with document security requirements where you need to search through encrypted metadata signatures? You're definitely not alone. Managing document metadata securely while keeping it searchable is one of those challenges that can make even experienced .NET developers scratch their heads.

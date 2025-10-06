@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Signing"]
 tags: ["PDF", "Barcode", "Digital Signature", "GroupDocs", "C#"]
+type: docs
 ---
-
 # PDF Barcode Signature .NET: Complete Implementation Guide
 
 Ever wondered how to add that professional touch to your PDF documents while ensuring they're tamper-proof? You're in the right place. PDF barcode signature implementation in .NET isn't just about security—it's about creating a seamless document workflow that your users (and your future self) will thank you for.

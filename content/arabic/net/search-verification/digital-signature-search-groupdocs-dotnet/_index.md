@@ -4,8 +4,8 @@
 "title": "البحث عن التوقيع الرقمي باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ البحث بالتوقيع الرقمي في مستند باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

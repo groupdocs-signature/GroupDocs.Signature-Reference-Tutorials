@@ -4,8 +4,8 @@
 "title": "ファイルログとQRコード署名 - GroupDocs.Signature for .NET を使用した完全ガイド"
 "url": "/ja/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # ファイルログと QR コード署名: GroupDocs.Signature for .NET を使用した完全ガイド
 
 ## 導入

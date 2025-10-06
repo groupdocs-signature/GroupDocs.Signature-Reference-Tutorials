@@ -4,8 +4,8 @@
 "title": "Documenthandtekeningen in archieven verifiëren met GroupDocs.Signature voor .NET"
 "url": "/nl/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Documenthandtekeningen in archieven verifiëren met GroupDocs.Signature voor .NET
 
 ## Invoering

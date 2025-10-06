@@ -5,8 +5,8 @@
 "title": "Aktualizace textových podpisů v dokumentech"
 "url": "/cs/net/update-operations/update-text/"
 "weight": 13
+type: docs
 ---
-
 ## Zavedení
 GroupDocs.Signature pro .NET je komplexní řešení pro podepisování dokumentů, které umožňuje vývojářům integrovat výkonné funkce pro podepisování do jejich .NET aplikací. S touto všestrannou knihovnou můžete snadno přidávat, vyhledávat, ověřovat a aktualizovat různé typy podpisů, včetně textových podpisů, v široké škále formátů dokumentů. Tento tutoriál se zaměřuje konkrétně na aktualizaci textových podpisů v dokumentech a poskytuje vám podrobné pokyny pro bezproblémovou implementaci.
 

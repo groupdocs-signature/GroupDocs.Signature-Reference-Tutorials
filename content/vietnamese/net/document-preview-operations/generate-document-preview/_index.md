@@ -5,8 +5,8 @@
 "title": "Cách tạo bản xem trước tài liệu trong ứng dụng .NET | Hướng dẫn nhanh"
 "url": "/vi/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # Cách tạo bản xem trước tài liệu trong ứng dụng .NET của bạn
 
 ## Giới thiệu

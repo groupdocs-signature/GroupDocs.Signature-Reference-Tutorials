@@ -4,8 +4,8 @@
 "title": "Jak implementovat Java GroupDocs.Signature pro načtení a zobrazení historie zpracování dokumentů"
 "url": "/cs/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat Java GroupDocs.Signature: Načtení a zobrazení historie zpracování dokumentů
 
 ## Zavedení

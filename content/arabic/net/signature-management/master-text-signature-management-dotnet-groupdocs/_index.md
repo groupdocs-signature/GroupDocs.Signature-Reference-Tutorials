@@ -4,8 +4,8 @@
 "title": "إدارة توقيع النص الرئيسي في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/signature-management/master-text-signature-management-dotnet-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # إتقان إدارة توقيع النص في .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Bemästra dokumentverifiering med GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra dokumentverifiering med GroupDocs.Signature för .NET: En omfattande guide
 
 ## Introduktion

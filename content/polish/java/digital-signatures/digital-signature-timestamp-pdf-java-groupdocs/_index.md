@@ -4,8 +4,8 @@
 "title": "Wdrażanie podpisów cyfrowych ze znacznikami czasu w plikach PDF przy użyciu języka Java i narzędzia GroupDocs.Signature"
 "url": "/pl/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Wdrażanie podpisów cyfrowych ze znacznikami czasu w plikach PDF przy użyciu języka Java i biblioteki GroupDocs.Signature
 
 ## Wstęp

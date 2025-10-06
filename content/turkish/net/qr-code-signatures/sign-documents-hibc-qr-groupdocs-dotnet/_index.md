@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak HIBC QR Kodlarıyla Belgeleri Nasıl İmzalayabilirsiniz? Kapsamlı Bir Kılavuz"
 "url": "/tr/net/qr-code-signatures/sign-documents-hibc-qr-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak HIBC QR Kodlarıyla Belgeler Nasıl İmzalanır?
 
 ## giriiş

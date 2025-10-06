@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用してスプレッドシートのメタデータを抽出する包括的なガイド"
 "url": "/ja/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java でスプレッドシートのメタデータを抽出する
 
 ## 導入

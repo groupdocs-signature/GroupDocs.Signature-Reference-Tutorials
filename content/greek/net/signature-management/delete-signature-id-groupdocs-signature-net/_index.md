@@ -4,8 +4,8 @@
 "title": "Αποτελεσματική διαγραφή υπογραφών ανά αναγνωριστικό χρησιμοποιώντας το GroupDocs.Signature για .NET® - Οδηγός βήμα προς βήμα"
 "url": "/el/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να διαγράψετε αποτελεσματικά μια υπογραφή ανά αναγνωριστικό χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

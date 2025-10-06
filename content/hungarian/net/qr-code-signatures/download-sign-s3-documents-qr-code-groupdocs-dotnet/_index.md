@@ -4,8 +4,8 @@
 "title": "Amazon S3 dokumentumok letöltése és aláírása QR-kódokkal a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/qr-code-signatures/download-sign-s3-documents-qr-code-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Amazon S3 dokumentumok letöltése és aláírása QR-kódokkal a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

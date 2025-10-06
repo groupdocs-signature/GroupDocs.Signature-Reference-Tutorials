@@ -5,8 +5,8 @@
 "title": "Ověřování podpisů čárovými kódy v dokumentech"
 "url": "/cs/net/verify-operations/verify-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Zavedení
 
 Čárové kódy se staly nedílnou součástí moderních systémů správy dokumentů, umožňují rychlý přístup ke kódovaným informacím a zároveň slouží jako bezpečnostní prvek. GroupDocs.Signature pro .NET poskytuje výkonné API pro ověřování podpisů čárovými kódy v dokumentech a zajišťuje jejich pravost a integritu.

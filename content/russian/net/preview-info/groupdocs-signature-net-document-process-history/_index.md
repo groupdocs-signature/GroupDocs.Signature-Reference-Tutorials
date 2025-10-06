@@ -4,8 +4,8 @@
 "title": "Как получить историю обработки документа с помощью GroupDocs.Signature для .NET&#58; пошаговое руководство"
 "url": "/ru/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # Как получить историю обработки документа с помощью GroupDocs.Signature для .NET: пошаговое руководство
 
 ## Введение

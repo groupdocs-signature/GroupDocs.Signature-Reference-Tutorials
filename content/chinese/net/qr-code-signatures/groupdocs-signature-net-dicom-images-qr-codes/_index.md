@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 为 DICOM 图像签名（二维码）——综合指南"
 "url": "/zh/net/qr-code-signatures/groupdocs-signature-net-dicom-images-qr-codes/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 对带有二维码的 DICOM 图像进行签名：综合指南
 
 您是否正在寻找一种安全的方法来验证您的 DICOM 文件？本详细指南将向您展示如何使用 GroupDocs.Signature for .NET 将二维码签名集成到 DICOM 图像中。本教程涵盖从设置到实施的整个过程，非常适合医疗专业人士、开发人员以及任何使用数字医疗文档的人员。

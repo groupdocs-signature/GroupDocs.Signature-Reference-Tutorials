@@ -4,8 +4,8 @@
 "title": "Cómo implementar opciones de firma de sellos con GroupDocs.Signature para .NET&#58; una guía completa"
 "url": "/es/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cómo implementar opciones de firma de sellos con GroupDocs.Signature para .NET
 
 ## Introducción

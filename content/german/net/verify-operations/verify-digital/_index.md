@@ -5,8 +5,8 @@
 "title": "Überprüfen digitaler Signaturen in Dokumenten"
 "url": "/de/net/verify-operations/verify-digital/"
 "weight": 11
+type: docs
 ---
-
 ## Einführung
 
 Digitale Signaturen spielen eine entscheidende Rolle bei der Gewährleistung der Authentizität, Integrität und Nichtabstreitbarkeit von Dokumenten in modernen Geschäftsprozessen. Im Gegensatz zu herkömmlichen handschriftlichen Unterschriften verwenden digitale Signaturen kryptografische Techniken, um die Identität des Unterzeichners zu überprüfen und sicherzustellen, dass das Dokument seit der Unterzeichnung nicht verändert wurde.

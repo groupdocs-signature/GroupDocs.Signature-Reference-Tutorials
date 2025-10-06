@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature का उपयोग करके टेक्स्ट हस्ताक्षर कैसे लागू करें (चरण-दर-चरण मार्गदर्शिका)"
 "url": "/hi/java/text-signatures/implement-text-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके टेक्स्ट हस्ताक्षर कैसे लागू करें
 
 ## परिचय

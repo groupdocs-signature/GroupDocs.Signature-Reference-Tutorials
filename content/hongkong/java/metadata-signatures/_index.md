@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 元資料簽章教學"
 "url": "/zh-hant/java/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # GroupDocs.Signature Java 元資料簽章教學
 
 我們的元資料簽章教學示範如何使用 Java 中的 GroupDocs.Signature 實作文件元資料的安全簽章。這些逐步指南涵蓋如何在不同文件格式（包括 PDF、圖像、簡報、電子表格和文字處理文件）中實現元資料簽章。每個教程都包含元資料操作的 Java 程式碼範例，可協助您建立能夠向文件添加不可見簽名資訊的應用程序，從而在不改變文件外觀的情況下增強安全性。

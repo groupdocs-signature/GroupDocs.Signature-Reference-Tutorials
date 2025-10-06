@@ -4,8 +4,8 @@
 "title": "Hur man initierar en signaturinstans i Java med GroupDocs.Signature"
 "url": "/sv/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Hur man initierar en signaturinstans i Java med GroupDocs.Signature
 
 ## Introduktion

@@ -9,8 +9,8 @@ weight: 1
 url: "/net/image-signatures/sign-pdf-base64-image-groupdocs-signature/"
 categories: ["PDF Processing"]
 tags: ["groupdocs-signature", "base64", "pdf-signing", "csharp", "document-automation"]
+type: docs
 ---
-
 # How to Sign PDF with Base64 Image in C# Using GroupDocs.Signature
 
 ## Why Sign PDFs Programmatically with Base64 Images?

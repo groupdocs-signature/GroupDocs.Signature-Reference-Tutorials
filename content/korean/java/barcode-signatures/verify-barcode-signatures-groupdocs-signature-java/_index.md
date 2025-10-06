@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 바코드 서명을 확인하는 방법"
 "url": "/ko/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 바코드 서명 확인을 구현하는 방법
 
 ## 소개

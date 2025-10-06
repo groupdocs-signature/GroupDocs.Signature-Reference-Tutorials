@@ -4,8 +4,8 @@
 "title": "Bestanden downloaden van Amazon S3 met AWS SDK voor Java met GroupDocs.Signature-integratie"
 "url": "/nl/java/advanced-options/download-files-amazon-s3-aws-sdk-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Bestanden downloaden van Amazon S3 met AWS SDK voor Java met GroupDocs.Signature-integratie
 
 ## Invoering

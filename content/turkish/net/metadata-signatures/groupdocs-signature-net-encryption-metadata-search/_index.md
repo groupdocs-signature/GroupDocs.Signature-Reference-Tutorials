@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ve Şifreleme ile .NET'te Güvenli Meta Veri İmza Araması"
 "url": "/tr/net/metadata-signatures/groupdocs-signature-net-encryption-metadata-search/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ve Şifreleme ile .NET'te Güvenli Meta Veri İmza Araması
 
 ## giriiş

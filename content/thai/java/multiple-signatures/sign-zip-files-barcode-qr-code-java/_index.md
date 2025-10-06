@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามไฟล์ ZIP ด้วยบาร์โค้ดและรหัส QR ใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามไฟล์ ZIP ด้วยบาร์โค้ดและรหัส QR ใน Java โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

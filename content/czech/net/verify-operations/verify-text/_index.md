@@ -5,8 +5,8 @@
 "title": "Ověřování textových podpisů v dokumentech"
 "url": "/cs/net/verify-operations/verify-text/"
 "weight": 13
+type: docs
 ---
-
 ## Zavedení
 
 Textové podpisy, ačkoli jsou často jednodušší než digitální nebo elektronické podpisy, hrají klíčovou roli ve správě a ověřování dokumentů. Ať už se jedná o vodoznaky, text zápatí nebo specifické vzory obsahu, ověření přítomnosti a integrity textových podpisů je důležitým aspektem procesů ověřování dokumentů.

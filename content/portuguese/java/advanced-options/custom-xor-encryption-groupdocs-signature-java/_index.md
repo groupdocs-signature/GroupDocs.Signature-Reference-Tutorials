@@ -4,8 +4,8 @@
 "title": "Criptografia XOR personalizada com GroupDocs.Signature para Java - Um guia completo"
 "url": "/pt/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Guia completo para implementar criptografia XOR personalizada com GroupDocs.Signature para Java
 
 ## Introdução

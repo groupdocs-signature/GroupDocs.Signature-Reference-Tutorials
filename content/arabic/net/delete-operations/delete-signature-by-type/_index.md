@@ -5,8 +5,8 @@
 "title": "كيفية إزالة توقيعات المستندات حسب النوع في .NET"
 "url": "/ar/net/delete-operations/delete-signature-by-type/"
 "weight": 12
+type: docs
 ---
-
 # كيفية إزالة توقيعات المستندات حسب النوع في .NET
 
 ## لماذا تعتبر إدارة التوقيع مهمة في معالجة المستندات

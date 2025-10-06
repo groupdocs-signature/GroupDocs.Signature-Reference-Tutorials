@@ -5,8 +5,8 @@
 "title": "Extraheer eenvoudig spreadsheetmetagegevens met GroupDocs.Signature"
 "url": "/nl/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # Metagegevens uit spreadsheets extraheren met GroupDocs.Signature
 
 ## Waarom spreadsheetmetadata belangrijk zijn

@@ -4,8 +4,8 @@
 "title": "การเรียนรู้การลงนามเอกสารในลายเซ็นบาร์โค้ดและรหัส QR ของ .NET ด้วย GroupDocs.Signature"
 "url": "/th/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การลงนามเอกสารใน .NET: การนำลายเซ็นบาร์โค้ดและ QR Code ไปใช้ด้วย GroupDocs.Signature
 
 ## การแนะนำ

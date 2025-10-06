@@ -4,8 +4,8 @@
 "title": "Padroneggiare GroupDocs.Signature per .NET - Sottoscrizione e configurazione di eventi di ricerca di codici a barre"
 "url": "/it/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare GroupDocs.Signature per .NET: sottoscrizione e configurazione di eventi di ricerca di codici a barre
 
 ## Introduzione

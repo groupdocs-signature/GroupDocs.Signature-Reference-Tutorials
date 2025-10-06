@@ -4,8 +4,8 @@
 "title": "Enkripsi Metadata XOR Lanjutan dengan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/advanced-options/custom-xor-metadata-encryption-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Enkripsi Metadata XOR Lanjutan dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 在 PDF 中搜索二维码签名并提取 VCard 数据"
 "url": "/zh/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在 PDF 文档中搜索二维码签名并提取电子名片数据
 
 ## 介绍

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java'da QR Kodlarını Kullanarak Parola Korumalı Belgeleri Yükleme ve İmzalama"
 "url": "/tr/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Java'da QR Kodlu Şifre Korumalı Belgeleri Yükleyin ve İmzalayın
 
 ## Java için GroupDocs.Signature Kullanarak Parola Korumalı Bir Belge Nasıl Yüklenir ve İmzalanır

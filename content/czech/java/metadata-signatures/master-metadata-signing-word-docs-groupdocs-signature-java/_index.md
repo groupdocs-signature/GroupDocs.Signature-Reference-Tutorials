@@ -4,8 +4,8 @@
 "title": "Podepisování hlavních metadat v dokumentech Word pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/metadata-signatures/master-metadata-signing-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí podepisování metadat v dokumentech Wordu pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

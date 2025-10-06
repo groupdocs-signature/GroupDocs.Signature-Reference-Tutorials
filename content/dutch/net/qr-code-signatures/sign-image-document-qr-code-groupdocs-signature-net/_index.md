@@ -4,8 +4,8 @@
 "title": "Hoe u afbeeldingsdocumenten met QR-codes ondertekent met GroupDocs.Signature voor .NET"
 "url": "/nl/net/qr-code-signatures/sign-image-document-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Een afbeeldingsdocument ondertekenen met een QR-code met GroupDocs.Signature voor .NET
 
 ## Invoering

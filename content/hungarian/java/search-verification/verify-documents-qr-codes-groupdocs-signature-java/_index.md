@@ -4,8 +4,8 @@
 "title": "QR-kódos aláírásokkal ellátott dokumentumok ellenőrzése Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/search-verification/verify-documents-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan ellenőrizhetünk dokumentumokat QR-kód aláírásokkal a GroupDocs.Signature használatával Java-ban?
 
 ## Bevezetés

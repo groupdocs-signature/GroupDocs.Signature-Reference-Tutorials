@@ -4,8 +4,8 @@
 "title": "Automatyzacja podglądów dokumentów z ukrytymi podpisami przy użyciu GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Automatyzacja podglądów dokumentów z ukrytymi podpisami przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

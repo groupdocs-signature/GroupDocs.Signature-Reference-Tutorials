@@ -5,8 +5,8 @@
 "title": "Belgelerde QR Kod İmzalarını Arayın"
 "url": "/tr/net/signature-searching/search-for-qr-codes/"
 "weight": 15
+type: docs
 ---
-
 ## giriiş
 
 Günümüzün dijital belge ekosisteminde QR kod imzaları, bilgi yerleştirme, kimlik doğrulama ve belge güvenliğini artırma konusunda paha biçilmez bir araç haline gelmiştir. GroupDocs.Signature for .NET, geliştiricilere çeşitli belge biçimlerinden QR kodlarını arama ve çıkarma konusunda güçlü bir API sunarak, .NET uygulamalarında gelişmiş belge analizi ve doğrulama yetenekleri sağlar.

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中掌握使用元資料和自訂加密的安全文件簽名"
 "url": "/zh-hant/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # 掌握.NET 中利用元資料和自訂加密進行安全文件簽名
 
 ## 介紹

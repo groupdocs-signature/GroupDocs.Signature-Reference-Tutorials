@@ -4,8 +4,8 @@
 "title": "การนำการค้นหาลายเซ็นข้อความ Java ไปใช้กับ GroupDocs.Signature สำหรับการจัดการและการตรวจสอบเอกสาร"
 "url": "/th/java/search-verification/java-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # การนำการค้นหาลายเซ็นข้อความ Java ไปใช้งานกับ GroupDocs.Signature
 
 ## การแนะนำ

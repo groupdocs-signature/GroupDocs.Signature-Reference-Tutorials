@@ -3,8 +3,8 @@
 "title": "Tutorial di anteprima e informazioni sui documenti per GroupDocs.Signature .NET"
 "url": "/it/net/preview-info/"
 "weight": 13
+type: docs
 ---
-
 # Tutorial di anteprima e informazioni sui documenti per GroupDocs.Signature .NET
 
 I nostri tutorial di anteprima e informazione mostrano come estrarre dati preziosi dai documenti utilizzando GroupDocs.Signature in .NET. Queste guide dettagliate illustrano come generare anteprime di documenti, recuperare informazioni sui documenti, accedere ai dettagli delle firme, visualizzare la cronologia dei processi dei documenti ed esaminare le proprietà dei file. Ogni tutorial include esempi pratici di codice C# per scenari di ispezione dei documenti, aiutandoti a creare applicazioni che offrono una trasparenza completa dei documenti per una migliore esperienza utente e un migliore monitoraggio del flusso di lavoro.

@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات PDF باستخدام رموز الاستجابة السريعة للبريد الإلكتروني باستخدام GroupDocs.Signature لـ .NET | دليل خطوة بخطوة"
 "url": "/ar/net/qr-code-signatures/sign-pdfs-email-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستند PDF باستخدام رمز الاستجابة السريعة للبريد الإلكتروني باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

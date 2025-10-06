@@ -4,8 +4,8 @@
 "title": "Cách tải tài liệu theo loại tệp trong GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 "weight": 1
+type: docs
 ---
-
 # Cách tải tài liệu theo loại tệp trong GroupDocs.Signature cho .NET
 
 ## Giới thiệu

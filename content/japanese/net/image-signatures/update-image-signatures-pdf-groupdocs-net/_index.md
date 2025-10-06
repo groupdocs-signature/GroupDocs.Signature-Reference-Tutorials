@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して PDF 内の画像署名を更新する方法"
 "url": "/ja/net/image-signatures/update-image-signatures-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して PDF 内の画像署名を更新する方法
 
 ## 導入

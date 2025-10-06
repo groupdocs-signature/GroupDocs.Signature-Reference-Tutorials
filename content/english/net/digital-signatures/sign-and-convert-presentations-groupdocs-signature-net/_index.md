@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["groupdocs", "presentations", "digital-signatures", "csharp", "dotnet"]
+type: docs
 ---
-
 # How to Sign Presentations Programmatically with .NET
 
 ## Why Sign Presentations Programmatically?

@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak PDF'lerdeki HIBC LIC Verileri için QR Kod İmza Araması Nasıl Uygulanır?"
 "url": "/tr/java/qr-code-signatures/implement-qr-code-signature-search-hibc-primary-data-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak PDF'lerdeki HIBC LIC Verileri için QR Kod İmza Araması Nasıl Uygulanır?
 
 ## giriiş

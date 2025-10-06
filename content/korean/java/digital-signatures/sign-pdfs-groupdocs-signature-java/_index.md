@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 텍스트, 체크박스 및 디지털 필드에 Java로 PDF 디지털 서명 마스터하기"
 "url": "/ko/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java에서 PDF 디지털 서명 마스터하기: 텍스트, 체크박스 및 디지털 필드에 GroupDocs.Signature 사용
 
 ## 소개

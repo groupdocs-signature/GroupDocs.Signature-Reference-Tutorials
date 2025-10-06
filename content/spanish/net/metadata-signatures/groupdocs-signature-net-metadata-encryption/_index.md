@@ -4,8 +4,8 @@
 "title": "Cómo implementar el cifrado de firma de metadatos en .NET con GroupDocs.Signature para archivos PDF seguros"
 "url": "/es/net/metadata-signatures/groupdocs-signature-net-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Cómo implementar el cifrado de firma de metadatos en .NET con GroupDocs.Signature para archivos PDF seguros
 
 ## Introducción

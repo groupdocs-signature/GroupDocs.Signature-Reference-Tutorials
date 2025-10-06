@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET 文字、圖像和數位簽章綜合指南"
 "url": "/zh-hant/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 實作文字、圖像和數位簽章的綜合指南
 
 ## 介紹

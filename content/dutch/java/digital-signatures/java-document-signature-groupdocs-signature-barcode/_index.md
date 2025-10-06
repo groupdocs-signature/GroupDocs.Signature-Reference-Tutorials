@@ -4,8 +4,8 @@
 "title": "Master Document Handtekeningen in Java met GroupDocs.Signature - Barcode Handtekening Gids"
 "url": "/nl/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # Documenthandtekeningen in Java onder de knie krijgen met GroupDocs.Signature
 
 **Stroomlijn uw digitale documentworkflows door barcodehandtekeningen te ondertekenen, verifiëren, zoeken, bijwerken en verwijderen met GroupDocs.Signature voor Java.**

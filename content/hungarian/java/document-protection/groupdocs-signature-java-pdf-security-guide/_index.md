@@ -4,8 +4,8 @@
 "title": "Biztosítsa PDF-fájljai QR-kódos aláírásait és jelszavas védelmét a GroupDocs.Signature for Java segítségével"
 "url": "/hu/java/document-protection/groupdocs-signature-java-pdf-security-guide/"
 "weight": 1
+type: docs
 ---
-
 # PDF-fájlok védelme: QR-kódos aláírások és jelszóvédelem a GroupDocs.Signature for Java segítségével
 
 A mai digitális korban a PDF-dokumentumok védelme elengedhetetlen a bizalmas információk kezeléséhez és a fájlok hitelességének biztosításához. Ez az útmutató bemutatja, hogyan használhatja a GroupDocs.Signature for Java alkalmazást QR-kód aláírások és jelszóvédelem hozzáadásához PDF-fájljaihoz.

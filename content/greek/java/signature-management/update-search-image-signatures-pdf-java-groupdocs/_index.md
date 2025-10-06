@@ -4,8 +4,8 @@
 "title": "Ενημέρωση και αναζήτηση υπογραφών εικόνας σε PDF χρησιμοποιώντας Java με το GroupDocs.Signature"
 "url": "/el/java/signature-management/update-search-image-signatures-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Ενημέρωση και αναζήτηση υπογραφών εικόνας σε PDF με Java
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Chữ ký tài liệu chính trong Java - Triển khai các trường văn bản thuần túy và văn bản phong phú với GroupDocs.Signature"
 "url": "/vi/java/digital-signatures/groupdocs-signature-java-plain-rich-text-fields/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký tài liệu trong Java: Triển khai các trường văn bản thuần túy và văn bản phong phú với GroupDocs.Signature
 
 Chào mừng bạn đến với hướng dẫn toàn diện về đòn bẩy **GroupDocs.Signature cho Java** để ký tài liệu bằng các trường văn bản thuần túy và văn bản đa dạng thức. Cho dù bạn đang tự động hóa việc phê duyệt hợp đồng hay hợp lý hóa quy trình làm việc, hướng dẫn này sẽ giúp bạn triển khai các tính năng này một cách hiệu quả.

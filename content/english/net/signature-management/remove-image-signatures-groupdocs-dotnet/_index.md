@@ -9,8 +9,8 @@ weight: 1
 url: "/net/signature-management/remove-image-signatures-groupdocs-dotnet/"
 categories: ["Document Management"]
 tags: ["signature-removal", "dotnet", "csharp", "document-processing", "automation"]
+type: docs
 ---
-
 # Remove Signature from Document Programmatically with .NET
 
 ## Introduction

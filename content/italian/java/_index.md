@@ -5,8 +5,8 @@
 "title": "Tutorial e esempi completi per GroupDocs.Signature per Java"
 "url": "/it/java/"
 "weight": 10
+type: docs
 ---
-
 # GroupDocs.Signature per Java: tutorial ed esempi
 
 Benvenuti alla nostra completa raccolta di tutorial per GroupDocs.Signature per Java. Queste guide dettagliate vi aiuteranno a implementare soluzioni di firma sicura dei documenti nelle vostre applicazioni Java. Dalla configurazione di base alla gestione avanzata delle firme, i nostri tutorial forniscono tutte le informazioni necessarie per proteggere i vostri documenti con diversi tipi di firma.

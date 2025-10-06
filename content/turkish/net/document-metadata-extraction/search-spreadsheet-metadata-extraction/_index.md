@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature ile Elektronik Tablo Meta Verilerini Kolayca Çıkarın"
 "url": "/tr/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak E-Tablolardan Meta Veri Nasıl Çıkarılır?
 
 ## E-Tablo Meta Verileri Neden Önemlidir?

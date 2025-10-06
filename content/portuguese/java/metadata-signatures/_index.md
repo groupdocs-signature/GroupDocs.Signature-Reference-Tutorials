@@ -3,8 +3,8 @@
 "title": "Tutoriais de Assinatura de Metadados para GroupDocs.Signature Java"
 "url": "/pt/java/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Tutoriais de Assinatura de Metadados para GroupDocs.Signature Java
 
 Nossos tutoriais de assinatura de metadados demonstram como usar metadados de documentos para assinatura segura usando o GroupDocs.Signature em Java. Estes guias passo a passo abordam a implementação de assinaturas de metadados em diferentes formatos de documentos, incluindo PDF, imagens, apresentações, planilhas e arquivos de processamento de texto. Cada tutorial inclui exemplos práticos de código Java para operações de metadados, ajudando você a criar aplicativos que podem adicionar informações de assinatura invisíveis a documentos, aumentando a segurança sem alterar a aparência visual.

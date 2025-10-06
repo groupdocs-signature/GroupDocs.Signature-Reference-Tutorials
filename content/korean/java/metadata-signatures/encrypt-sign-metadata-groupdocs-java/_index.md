@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java를 사용하여 문서 메타데이터를 암호화하고 서명하는 방법 - 포괄적인 가이드"
 "url": "/ko/java/metadata-signatures/encrypt-sign-metadata-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 문서 메타데이터를 암호화하고 서명하는 방법: 종합 가이드
 
 ## 소개

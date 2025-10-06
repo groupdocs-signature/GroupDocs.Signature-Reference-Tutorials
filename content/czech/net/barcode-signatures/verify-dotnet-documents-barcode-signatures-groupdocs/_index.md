@@ -4,8 +4,8 @@
 "title": "Ověřování dokumentů .NET s podpisy čárovými kódy pomocí GroupDocs.Signature"
 "url": "/cs/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat ověřování dokumentů pomocí podpisů čárových kódů v .NET pomocí GroupDocs.Signature
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 库在 Java 中掌握图像元数据提取"
 "url": "/zh/java/preview-info/groupdocs-signature-java-image-metadata-extraction/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 Java 版 GroupDocs.Signature：图像元数据提取
 
 ## 介绍

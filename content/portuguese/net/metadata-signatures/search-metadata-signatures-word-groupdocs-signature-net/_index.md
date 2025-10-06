@@ -4,8 +4,8 @@
 "title": "Como pesquisar assinaturas de metadados em documentos do Word usando GroupDocs.Signature para .NET"
 "url": "/pt/net/metadata-signatures/search-metadata-signatures-word-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Como pesquisar assinaturas de metadados em documentos do Word usando GroupDocs.Signature para .NET
 
 ## Introdução

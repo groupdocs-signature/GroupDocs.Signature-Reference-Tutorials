@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε την αναζήτηση υπογραφής μεταδεδομένων σε παρουσιάσεις PowerPoint χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/metadata-signatures/implement-metadata-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την αναζήτηση υπογραφής μεταδεδομένων στο PowerPoint με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

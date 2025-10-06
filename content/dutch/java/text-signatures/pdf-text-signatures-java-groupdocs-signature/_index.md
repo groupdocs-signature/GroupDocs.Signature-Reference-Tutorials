@@ -4,8 +4,8 @@
 "title": "PDF-teksthandtekeningen implementeren in Java met behulp van GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/java/text-signatures/pdf-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # PDF-teksthandtekeningen implementeren in Java met GroupDocs.Signature
 
 In het huidige digitale landschap is het veilig ondertekenen van documenten essentieel voor bedrijfsprocessen zoals het bevestigen van contracten of verifiëren van overeenkomsten. Het toevoegen van een teksthandtekening garandeert authenticiteit en integriteit. Deze uitgebreide handleiding begeleidt u bij het implementeren van PDF-teksthandtekeningen met behulp van **GroupDocs.Signature voor Java**, die zowel functionaliteit als maatwerk biedt.

@@ -4,8 +4,8 @@
 "title": "Java-Verschlüsselung und Metadatensignatur – Sichere Dokumentenverwaltung mit GroupDocs.Signature"
 "url": "/de/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren der Java-Verschlüsselung und Metadatensignatursuche mit GroupDocs.Signature für Java
 
 ## Einführung

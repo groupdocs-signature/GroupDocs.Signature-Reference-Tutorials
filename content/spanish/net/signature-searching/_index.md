@@ -5,8 +5,8 @@
 "title": "Búsqueda integral de firmas de documentos"
 "url": "/es/net/signature-searching/"
 "weight": 23
+type: docs
 ---
-
 ## Introducción
 
 La seguridad y la verificación de la integridad de los documentos son aspectos cruciales de los procesos empresariales modernos. GroupDocs.Signature para .NET ofrece una potente solución para implementar una funcionalidad completa de búsqueda de firmas en diversos formatos de documentos. Ya sea que necesite validar la autenticidad de documentos, extraer información de firmas o crear flujos de trabajo de verificación automatizados, GroupDocs.Signature le proporciona las herramientas necesarias para buscar y procesar eficientemente múltiples tipos de firmas.

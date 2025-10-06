@@ -4,8 +4,8 @@
 "title": "Kompletny przewodnik po wyszukiwaniu kodów QR w Javie z wykorzystaniem GroupDocs.Signature"
 "url": "/pl/java/search-verification/mastering-qr-code-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie wyszukiwania kodów QR w Javie: kompletny przewodnik po korzystaniu z GroupDocs.Signature
 
 ## Wstęp

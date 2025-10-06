@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して .NET ドキュメントのテキスト署名を更新する"
 "url": "/ja/net/signature-management/update-text-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して .NET ドキュメントのテキスト署名を更新する
 
 ## 導入

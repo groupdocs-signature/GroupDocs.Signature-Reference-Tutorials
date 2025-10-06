@@ -4,8 +4,8 @@
 "title": "كيفية توقيع المستندات باستخدام رموز الاستجابة السريعة HIBC باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/qr-code-signatures/sign-documents-hibc-qr-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع المستندات باستخدام رموز QR الخاصة بـ HIBC باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

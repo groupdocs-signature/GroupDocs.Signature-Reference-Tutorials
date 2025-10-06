@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して QR コードで PDF に署名する方法"
 "url": "/ja/java/qr-code-signatures/sign-pdfs-with-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して QR コードで PDF 文書に署名する方法
 
 今日のデジタル時代において、文書に安全に署名することはこれまで以上に重要です。ビジネスのプロフェッショナルであれ、ファイルの認証を求める個人であれ、適切なツールを使うことで大きな違いが生まれます。このチュートリアルでは、 **Java 用 GroupDocs.Signature** Mailmark2Dオブジェクトのような複雑なデータを含むPDF文書にQRコードで署名する方法をご紹介します。環境設定から高度な機能の実装まで、あらゆる側面を網羅しています。

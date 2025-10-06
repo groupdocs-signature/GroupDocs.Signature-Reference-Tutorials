@@ -4,8 +4,8 @@
 "title": "Hoe u elektronische documentondertekening implementeert in .NET met GroupDocs.Signature&#58; een stapsgewijze handleiding"
 "url": "/nl/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u elektronische documentondertekening implementeert in .NET met GroupDocs.Signature: een stapsgewijze handleiding
 
 ## Invoering

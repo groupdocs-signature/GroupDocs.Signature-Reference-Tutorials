@@ -4,8 +4,8 @@
 "title": "Jak implementovat digitální podpisy v PDF pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/digital-signatures/implement-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat digitální podpisy v PDF pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

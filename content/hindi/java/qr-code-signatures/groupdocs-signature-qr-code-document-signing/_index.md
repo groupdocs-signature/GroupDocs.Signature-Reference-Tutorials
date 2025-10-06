@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके QR कोड के साथ मास्टर दस्तावेज़ हस्ताक्षर. Java के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/java/qr-code-signatures/groupdocs-signature-qr-code-document-signing/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके QR कोड के साथ मास्टर दस्तावेज़ हस्ताक्षर
 
 ## परिचय

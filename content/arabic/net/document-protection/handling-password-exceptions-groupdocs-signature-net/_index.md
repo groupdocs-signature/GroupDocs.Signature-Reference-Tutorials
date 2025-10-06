@@ -4,8 +4,8 @@
 "title": "التعامل مع استثناءات كلمة المرور في GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # معالجة استثناءات كلمة المرور في GroupDocs.Signature لـ .NET
 
 ## مقدمة

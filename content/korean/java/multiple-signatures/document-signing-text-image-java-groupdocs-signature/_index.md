@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 텍스트 이미지 서명으로 문서에 서명하는 방법"
 "url": "/ko/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 텍스트 이미지 서명으로 문서 서명을 구현하는 방법
 
 ## 소개

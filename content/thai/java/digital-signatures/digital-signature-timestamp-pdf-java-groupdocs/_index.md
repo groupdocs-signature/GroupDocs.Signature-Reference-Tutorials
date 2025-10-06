@@ -4,8 +4,8 @@
 "title": "นำลายเซ็นดิจิทัลไปใช้กับไฟล์ PDF โดยใช้ Java และ GroupDocs ลายเซ็น"
 "url": "/th/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # การนำลายเซ็นดิจิทัลไปใช้กับ TimeStamps บน PDF โดยใช้ Java และ GroupDocs.Signature
 
 ## การแนะนำ

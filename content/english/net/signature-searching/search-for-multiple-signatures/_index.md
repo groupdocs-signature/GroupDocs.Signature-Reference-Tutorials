@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["signature-search", "document-validation", "digital-signatures", "barcode-signatures", "qr-codes"]
+type: docs
 ---
-
 ## Introduction
 
 Ever opened a contract or compliance document and wondered, "Does this have all the required signatures?" Maybe you need to verify a digital signature, check for an approval stamp, and validate a QR code—all in the same document. Doing this manually is tedious, error-prone, and honestly, a waste of your time.

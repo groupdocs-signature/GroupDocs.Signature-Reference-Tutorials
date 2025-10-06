@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["xor-encryption", "metadata-security", "groupdocs", "dotnet"]
+type: docs
 ---
-
 # XOR Metadata Encryption .NET - Secure Document Metadata with GroupDocs (2025 Guide)
 
 ## Why Your Document Metadata Needs Better Protection

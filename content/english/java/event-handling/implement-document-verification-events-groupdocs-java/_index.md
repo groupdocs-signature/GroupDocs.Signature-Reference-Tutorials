@@ -8,10 +8,8 @@ keywords:
 - document verification Java
 - event subscription GroupDocs.Signature
 - GroupDocs.Signature for Java tutorial
-
+type: docs
 ---
-
-
 # Implement Document Verification with Event Subscription Using GroupDocs.Signature for Java
 
 ## Introduction

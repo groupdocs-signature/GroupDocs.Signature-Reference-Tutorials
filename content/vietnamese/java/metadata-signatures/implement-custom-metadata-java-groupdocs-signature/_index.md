@@ -4,8 +4,8 @@
 "title": "Triển khai siêu dữ liệu tùy chỉnh trong Java bằng GroupDocs.Signature để nâng cao khả năng ký tài liệu"
 "url": "/vi/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai siêu dữ liệu tùy chỉnh trong Java với GroupDocs.Signature
 
 ## Giới thiệu

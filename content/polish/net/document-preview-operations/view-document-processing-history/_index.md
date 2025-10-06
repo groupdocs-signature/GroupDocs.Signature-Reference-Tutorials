@@ -5,8 +5,8 @@
 "title": "Łatwe śledzenie historii podpisów dokumentów w .NET"
 "url": "/pl/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # Jak śledzić historię podpisów dokumentów w środowisku .NET
 
 ## Co GroupDocs.Signature może dla Ciebie zrobić?

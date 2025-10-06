@@ -4,8 +4,8 @@
 "title": "Masterhantering av dokument och signaturhantering i .NET med GroupDocs.Signature"
 "url": "/sv/net/signature-management/master-document-handling-signature-management-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra dokumenthantering och signaturhantering i .NET med GroupDocs.Signature
 
 ## Introduktion

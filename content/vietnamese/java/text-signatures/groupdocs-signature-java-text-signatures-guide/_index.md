@@ -4,8 +4,8 @@
 "title": "Chữ ký văn bản chính trong Java - Hướng dẫn toàn diện về GroupDocs.Signature cho Java"
 "url": "/vi/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký tài liệu trong Java: Hướng dẫn toàn diện về cách sử dụng GroupDocs.Signature để tạo chữ ký văn bản
 
 ## Giới thiệu

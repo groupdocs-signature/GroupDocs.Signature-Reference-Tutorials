@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["groupdocs-signature", "image-extraction", "document-verification", "dotnet-tutorial"]
+type: docs
 ---
-
 # How to Search Image Signatures in .NET Documents Using GroupDocs.Signature
 
 ## Introduction

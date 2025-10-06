@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してテキストとチェックボックス付きの PDF 署名を実装する"
 "url": "/ja/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してテキストとチェックボックス付きの PDF 署名を実装する
 
 ## フォームフィールド署名

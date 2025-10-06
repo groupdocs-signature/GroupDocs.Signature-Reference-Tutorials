@@ -5,8 +5,8 @@
 "title": "Hur man tar bort streckkoder från dokument med .NET"
 "url": "/sv/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # Hur man tar bort streckkoder från dokument med .NET
 
 ## Varför skulle du behöva ta bort streckkoder?

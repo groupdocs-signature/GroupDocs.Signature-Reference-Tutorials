@@ -5,8 +5,8 @@
 "title": "QR-kód ellenőrzése a dokumentumokban"
 "url": "/hu/net/verify-operations/verify-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## Bevezetés
 
 A dokumentumbiztonság a modern üzleti műveletek kritikus aspektusa. A QR-kódok egyre népszerűbb módszerré váltak az információk dokumentumokba ágyazására, amelyek hitelessége ellenőrizhető. A GroupDocs.Signature for .NET egy hatékony és rugalmas megoldást kínál a különféle formátumú dokumentumokba ágyazott QR-kódok ellenőrzésére.

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 更新 PDF 中的文字簽章－綜合指南"
 "url": "/zh-hant/java/signature-management/update-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 更新 PDF 中的文字簽名
 ## 介紹
 以程式設計方式更新文件中的文字簽名可能是一個挑戰，特別是當您想要簡化文件工作流程或自動化簽章管理時。 **GroupDocs.Signature for Java** 為這一問題提供了強大的解決方案。本指南將指導您初始化和搜尋文字簽名、調整其屬性以及在 PDF 中更新它們。

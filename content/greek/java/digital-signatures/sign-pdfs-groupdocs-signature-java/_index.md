@@ -4,8 +4,8 @@
 "title": "Εξοικείωση με τις ψηφιακές υπογραφές PDF σε Java χρησιμοποιώντας το GroupDocs.Signature για κείμενο, πλαίσιο ελέγχου και ψηφιακά πεδία"
 "url": "/el/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με τις ψηφιακές υπογραφές PDF σε Java: Χρήση του GroupDocs.Signature για κείμενο, πλαίσιο ελέγχου και ψηφιακά πεδία
 
 ## Εισαγωγή

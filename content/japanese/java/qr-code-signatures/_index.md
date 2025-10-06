@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature for Java を使用した QR コード署名チュートリアル"
 "url": "/ja/java/qr-code-signatures/"
 "weight": 5
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用した QR コード署名チュートリアル
 
 GroupDocs.Signatureの包括的なチュートリアルで、JavaアプリケーションでQRコード署名を効果的に活用する方法を学びましょう。これらのステップバイステップガイドでは、QRコード署名の作成、カスタマイズ、検索、検証方法を学習します。vCard、Wi-Fi、SMS、メール、暗号通貨、イベント、EPC決済データなど、様々なデータ形式に対応した専用のQRコードオブジェクトの実装方法も学習できます。各チュートリアルでは、基本的なQRコード実装から高度なQRコード実装まで、実践的なJavaコード例が提供されており、より高度なドキュメント署名ソリューションの構築に役立ちます。

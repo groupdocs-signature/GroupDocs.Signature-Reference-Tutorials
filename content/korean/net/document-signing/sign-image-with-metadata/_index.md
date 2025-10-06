@@ -5,8 +5,8 @@
 "title": "C# .NET에서 메타데이터로 이미지에 서명하기"
 "url": "/ko/net/document-signing/sign-image-with-metadata/"
 "weight": 10
+type: docs
 ---
-
 ## 소개
 
 메타데이터를 이용한 디지털 이미지 서명은 진위성, 소유권 및 추적성을 확립하는 데 점점 더 중요해지고 있습니다. GroupDocs.Signature for .NET은 다양한 이미지 형식에 메타데이터 서명을 추가할 수 있는 강력하면서도 사용하기 쉬운 솔루션을 제공합니다. 이 튜토리얼에서는 C#을 사용하여 메타데이터로 이미지에 서명하는 전체 과정을 안내합니다.

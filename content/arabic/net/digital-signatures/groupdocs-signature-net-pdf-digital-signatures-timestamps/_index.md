@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ التوقيعات الرقمية لملفات PDF مع الطوابع الزمنية باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التوقيعات الرقمية لملفات PDF مع الطوابع الزمنية باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

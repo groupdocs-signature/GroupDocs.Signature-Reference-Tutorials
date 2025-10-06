@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani File ZIP dengan Kode Batang & Kode QR di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani File ZIP dengan Kode Batang & Kode QR di Java Menggunakan GroupDocs.Signature
 
 ## Perkenalan

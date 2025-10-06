@@ -4,8 +4,8 @@
 "title": "توقيع ملفات PDF بلغة Java باستخدام الباركود باستخدام GroupDocs - دليل شامل"
 "url": "/ar/java/barcode-signatures/java-pdf-signing-barcode-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ توقيع PDF بلغة Java مع خيارات الباركود باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

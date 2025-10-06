@@ -5,8 +5,8 @@
 "title": "Extraiga metadatos de hojas de cálculo fácilmente con GroupDocs.Signature"
 "url": "/es/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # Cómo extraer metadatos de hojas de cálculo con GroupDocs.Signature
 
 ## Por qué son importantes los metadatos de las hojas de cálculo

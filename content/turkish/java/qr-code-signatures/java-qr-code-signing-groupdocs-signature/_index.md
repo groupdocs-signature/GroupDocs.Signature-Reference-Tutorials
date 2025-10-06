@@ -4,8 +4,8 @@
 "title": "Java QR Kod İmzalama Kılavuzu - Belgelerinizi GroupDocs.Signature ile Güvence Altına Alın"
 "url": "/tr/java/qr-code-signatures/java-qr-code-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile Java QR Kod İmzalamanın Uygulanması
 
 ## giriiş

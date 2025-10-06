@@ -4,8 +4,8 @@
 "title": "Barcodehandtekeningen verwijderen in Java met behulp van GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/java/signature-management/groupdocs-signature-java-delete-barcode-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u GroupDocs.Signature voor Java kunt gebruiken om barcodehandtekeningen op basis van ID te verwijderen
 
 ## Invoering

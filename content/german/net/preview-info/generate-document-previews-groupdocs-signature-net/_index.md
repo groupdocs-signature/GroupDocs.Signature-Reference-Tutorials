@@ -4,8 +4,8 @@
 "title": "Erstellen Sie Dokumentvorschauen in Archiven mit GroupDocs.Signature für .NET – Eine vollständige Anleitung"
 "url": "/de/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Erstellen Sie Dokumentvorschauen aus Archiven mit GroupDocs.Signature für .NET
 
 ## Einführung

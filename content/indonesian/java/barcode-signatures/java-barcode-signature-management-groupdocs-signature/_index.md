@@ -4,8 +4,8 @@
 "title": "Manajemen Tanda Tangan Barcode Java yang Efisien Menggunakan GroupDocs.Signature"
 "url": "/id/java/barcode-signatures/java-barcode-signature-management-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Manajemen Tanda Tangan Barcode Java yang Efisien Menggunakan GroupDocs.Signature
 
 Di era digital, mengelola tanda tangan elektronik secara efisien sangatlah penting, baik bagi bisnis maupun individu. Baik Anda sedang memvalidasi perjanjian maupun mengamankan dokumen, penggunaan alat yang tepat dapat meningkatkan produktivitas secara signifikan. **GroupDocs.Signature untuk Java** adalah pustaka canggih yang dirancang untuk menyederhanakan proses ini. Tutorial ini akan memandu Anda dalam menginisialisasi objek Tanda Tangan, mencari tanda tangan kode batang, dan menghapusnya dari dokumen Anda.

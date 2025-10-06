@@ -4,8 +4,8 @@
 "title": "Signera PDF med QR-kod för kryptovaluta med GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/qr-code-signatures/sign-pdf-crypto-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar ett PDF-dokument med QR-koder för kryptovaluta med GroupDocs.Signature för .NET
 
 ## Introduktion

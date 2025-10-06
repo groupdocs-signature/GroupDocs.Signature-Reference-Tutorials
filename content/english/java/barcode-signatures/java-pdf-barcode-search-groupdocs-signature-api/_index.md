@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Java Development", "Document Processing"]
 tags: ["barcode-search", "pdf-processing", "groupdocs", "java-tutorial", "document-verification"]
+type: docs
 ---
-
 # How to Search Barcodes in PDF Using Java
 
 ## Introduction

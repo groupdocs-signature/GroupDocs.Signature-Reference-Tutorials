@@ -4,8 +4,8 @@
 "title": "Dokumentumkezelés és aláíráskezelés mesterszinten .NET-ben a GroupDocs.Signature segítségével"
 "url": "/hu/net/signature-management/master-document-handling-signature-management-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumkezelés és aláíráskezelés elsajátítása .NET-ben a GroupDocs.Signature segítségével
 
 ## Bevezetés

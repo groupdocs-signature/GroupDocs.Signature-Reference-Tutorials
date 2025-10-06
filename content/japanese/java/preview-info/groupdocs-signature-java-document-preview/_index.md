@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した Java でのドキュメントプレビュー生成の実装 - 総合ガイド"
 "url": "/ja/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して Java でドキュメントプレビュー生成を実装する
 
 ## 導入

@@ -5,8 +5,8 @@
 "title": "Dokumentum aláírás frissítési műveletek"
 "url": "/hu/net/update-operations/"
 "weight": 26
+type: docs
 ---
-
 ## Bevezetés
 
 A mai digitális üzleti környezetben a naprakész dokumentumaláírások fenntartása kulcsfontosságú a dokumentumok hitelességének és biztonságának biztosítása érdekében. A GroupDocs.Signature for .NET átfogó eszközkészletet biztosít a dokumentumokban található különféle aláírások frissítéséhez, lehetővé téve a dokumentumok integritásának megőrzését, miközben alkalmazkodik a változó üzleti igényekhez.

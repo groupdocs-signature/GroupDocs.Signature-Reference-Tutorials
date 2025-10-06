@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用したデジタルドキュメント検索の完全ガイド"
 "url": "/ja/net/search-verification/master-digital-document-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でデジタル ドキュメント検索をマスターする
 
 ドキュメント内のデジタル署名の検索は、特に保護されたファイルを扱う場合、困難な場合があります。GroupDocs.Signature for .NETは、堅牢な例外処理メカニズムを提供することで、このプロセスを簡素化します。このガイドでは、この強力なライブラリを使用してPDF内のデジタル署名を検索する方法について解説します。

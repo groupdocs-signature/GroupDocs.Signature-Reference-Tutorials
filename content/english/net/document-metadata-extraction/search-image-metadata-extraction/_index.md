@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["metadata-extraction", "image-processing", "document-security", "dotnet"]
+type: docs
 ---
-
 # How to Extract Image Metadata in .NET Documents Using GroupDocs.Signature
 
 ## Introduction

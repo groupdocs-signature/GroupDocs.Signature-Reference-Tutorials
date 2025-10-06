@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58; Java 디지털 서명 설정을 위한 종합 가이드"
 "url": "/ko/java/getting-started/groupdocs-signature-java-digital-setup-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용한 Java 디지털 서명 설정 구현: 개발자 가이드
 
 오늘날의 디지털 시대에는 문서의 진위성과 무결성을 보장하는 것이 매우 중요합니다. 디지털 서명은 서명 이후 문서가 변경되지 않았음을 안전하게 확인할 수 있는 방법을 제공합니다. 이 종합 가이드에서는 Java용 강력한 GroupDocs.Signature 라이브러리를 사용하여 디지털 서명 옵션을 설정하고 구현하는 방법을 안내합니다.

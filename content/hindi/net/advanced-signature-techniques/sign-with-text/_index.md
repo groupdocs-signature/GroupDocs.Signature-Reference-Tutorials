@@ -5,8 +5,8 @@
 "title": ".NET के लिए GroupDocs.Signature के साथ दस्तावेज़ों में टेक्स्ट हस्ताक्षर जोड़ें"
 "url": "/hi/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में टेक्स्ट हस्ताक्षर कैसे जोड़ें
 
 ## परिचय: अपने दस्तावेज़ हस्ताक्षर प्रक्रिया को आधुनिक बनाएँ

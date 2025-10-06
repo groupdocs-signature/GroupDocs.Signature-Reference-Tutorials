@@ -4,8 +4,8 @@
 "title": "Aktualizace podpisů PDF v jazyce Java pomocí GroupDocs.Signature – Komplexní průvodce pro vývojáře"
 "url": "/cs/java/signature-management/java-pdf-signature-updates-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí aktualizací podpisů PDF v Javě pomocí GroupDocs.Signature
 V digitálním světě je zajištění bezpečnosti dokumentů prvořadé. Ať už jste vývojář spravující smlouvy, nebo organizace nakládající s citlivými informacemi, zabezpečení vašich dokumentů pomocí podpisů je nezbytné. **GroupDocs.Signature pro Javu** nabízí robustní řešení pro přidávání, úpravu a ověřování podpisů v PDF a dalších formátech. Tento tutoriál vás provede implementací aktualizací podpisů PDF pomocí GroupDocs.Signature pro Javu.
 

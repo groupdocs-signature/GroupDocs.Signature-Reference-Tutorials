@@ -4,8 +4,8 @@
 "title": "أتمتة معاينات المستندات باستخدام التوقيعات المخفية باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # أتمتة معاينات المستندات باستخدام التوقيعات المخفية باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

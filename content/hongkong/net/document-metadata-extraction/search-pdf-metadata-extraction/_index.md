@@ -5,8 +5,8 @@
 "title": "如何在 .NET 中提取 PDF 元資料簽名"
 "url": "/zh-hant/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # 如何提取和搜尋 PDF 元資料簽名
 
 ## 為什麼 PDF 元資料對您的文件如此重要

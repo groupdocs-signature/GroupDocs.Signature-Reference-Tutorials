@@ -4,8 +4,8 @@
 "title": "تطبيق توقيعات العلامة المائية النصية باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تطبيق توقيع العلامة المائية النصية باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

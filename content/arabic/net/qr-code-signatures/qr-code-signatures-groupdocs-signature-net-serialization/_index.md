@@ -4,8 +4,8 @@
 "title": "تنفيذ توقيعات رمز الاستجابة السريعة (QR Code) في .NET باستخدام التسلسل المخصص باستخدام GroupDocs.Signature"
 "url": "/ar/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ توقيعات رمز الاستجابة السريعة (QR Code) باستخدام التسلسل المخصص في .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

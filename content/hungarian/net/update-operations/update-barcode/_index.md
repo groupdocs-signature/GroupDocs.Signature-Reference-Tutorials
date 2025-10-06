@@ -5,8 +5,8 @@
 "title": "Vonalkód-aláírások frissítése dokumentumokban"
 "url": "/hu/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Bevezetés
 A vonalkód-aláírásokat széles körben használják a digitális dokumentum-munkafolyamatokban strukturált adatok kódolására, lehetővé téve a hatékony nyomon követést, azonosítást és érvényesítést. A GroupDocs.Signature for .NET egy átfogó dokumentum-aláírási megoldás, amely lehetővé teszi a fejlesztők számára, hogy fejlett aláírási funkciókat integráljanak alkalmazásaikba, beleértve a meglévő vonalkód-aláírások frissítésének lehetőségét a dokumentumokon belül.
 

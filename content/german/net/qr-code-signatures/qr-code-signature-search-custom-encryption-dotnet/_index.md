@@ -4,8 +4,8 @@
 "title": "Implementieren Sie die QR-Code-Signatursuche mit benutzerdefinierter Verschlüsselung in .NET mithilfe von GroupDocs.Signature"
 "url": "/de/net/qr-code-signatures/qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren Sie die QR-Code-Signatursuche mit benutzerdefinierter Verschlüsselung in .NET
 
 ## Einführung

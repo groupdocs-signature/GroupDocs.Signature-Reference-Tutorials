@@ -4,8 +4,8 @@
 "title": "Güvenli Belge Doğrulaması için GroupDocs.Signature ile Java Barkod ve QR Kod Arama Kılavuzu"
 "url": "/tr/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Barkod, QR Kod ve Meta Veri İmza Aramaları için Java Uygulaması
 
 ## giriiş

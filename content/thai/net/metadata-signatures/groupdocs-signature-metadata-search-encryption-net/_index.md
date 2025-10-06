@@ -4,8 +4,8 @@
 "title": "ใช้งานการค้นหาลายเซ็นข้อมูลเมตาพร้อมการเข้ารหัสโดยใช้ GroupDocs สำหรับ .NET"
 "url": "/th/net/metadata-signatures/groupdocs-signature-metadata-search-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # คู่มือครอบคลุม: การนำการค้นหาลายเซ็นข้อมูลเมตาไปใช้งานด้วยการเข้ารหัสโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

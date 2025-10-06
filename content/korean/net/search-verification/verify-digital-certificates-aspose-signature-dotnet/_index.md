@@ -4,8 +4,8 @@
 "title": "Aspose.Signature for .NET을 사용하여 디지털 인증서를 확인하는 방법 | 단계별 가이드"
 "url": "/ko/net/search-verification/verify-digital-certificates-aspose-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Aspose.Signature for .NET을 사용하여 디지털 인증서를 확인하는 방법
 
 ## 소개

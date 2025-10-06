@@ -5,8 +5,8 @@
 "title": "Kuasai Beberapa Tanda Tangan Dokumen di .NET - Panduan Lengkap"
 "url": "/id/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## Amankan Dokumen Anda dengan Berbagai Jenis Tanda Tangan
 
 Pernahkah Anda perlu menerapkan berbagai jenis tanda tangan pada satu dokumen? Baik Anda menangani kontrak sensitif, dokumen hukum, atau dokumen perusahaan, menggabungkan beberapa jenis tanda tangan dapat meningkatkan keamanan dan keaslian secara signifikan. Dalam panduan ini, kami akan menjelaskan cara menerapkan fungsi canggih ini menggunakan GroupDocs.Signature untuk .NET.

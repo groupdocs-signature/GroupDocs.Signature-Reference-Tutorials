@@ -3,8 +3,8 @@
 "title": "Handledningar för dokumentskydd för GroupDocs.Signature .NET"
 "url": "/sv/net/document-protection/"
 "weight": 16
+type: docs
 ---
-
 # Handledningar för dokumentskydd för GroupDocs.Signature .NET
 
 Lär dig säkra dokument med våra handledningar om GroupDocs.Signature-skydd för .NET. Dessa omfattande guider visar hur du hanterar lösenordsskyddade dokument, lägger till lösenordsskydd i utdatafiler, hanterar säkerhetsundantag och implementerar lämplig felhantering. Varje handledning ger praktiska C#-kodexempel för vanliga dokumentskyddsscenarier, vilket hjälper dig att bygga applikationer som upprätthåller dokumentkonfidentialitet och integritet under hela signeringsprocessen.

@@ -4,8 +4,8 @@
 "title": "掌握 .NET 中的数字签名——如何使用 GroupDocs.Signature 签名和搜索文档"
 "url": "/zh/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 .NET 中的数字签名：如何使用 GroupDocs.Signature 签名和搜索文档
 
 ## 介绍

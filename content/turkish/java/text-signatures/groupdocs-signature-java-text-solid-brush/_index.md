@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature kullanarak Java'da Katı Fırça ile Metin İmzası Uygulama"
 "url": "/tr/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # Java'da Katı Fırça ile Metin İmzası Uygulama
 
 ## giriiş

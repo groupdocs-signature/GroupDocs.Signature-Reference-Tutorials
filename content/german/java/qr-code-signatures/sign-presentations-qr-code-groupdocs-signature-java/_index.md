@@ -4,8 +4,8 @@
 "title": "Signieren Sie Präsentationen mit QR-Codes in Java mithilfe von GroupDocs.Signature"
 "url": "/de/java/qr-code-signatures/sign-presentations-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie eine Präsentation per QR-Code mit GroupDocs.Signature für Java
 
 ## Einführung

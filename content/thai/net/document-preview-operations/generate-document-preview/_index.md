@@ -5,8 +5,8 @@
 "title": "วิธีสร้างตัวอย่างเอกสารในแอป .NET | บทช่วยสอนฉบับย่อ"
 "url": "/th/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # วิธีการสร้างตัวอย่างเอกสารในแอปพลิเคชัน .NET ของคุณ
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Implementera en mätlicens i GroupDocs.Signature för Java - en steg-för-steg-guide"
 "url": "/sv/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar en mätad licens i GroupDocs.Signature för Java
 
 ## Introduktion

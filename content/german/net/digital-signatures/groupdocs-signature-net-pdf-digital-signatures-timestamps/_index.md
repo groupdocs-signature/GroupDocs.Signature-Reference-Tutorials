@@ -4,8 +4,8 @@
 "title": "So implementieren Sie digitale PDF-Signaturen mit Zeitstempeln mithilfe von GroupDocs.Signature für .NET"
 "url": "/de/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie digitale PDF-Signaturen mit Zeitstempeln mithilfe von GroupDocs.Signature für .NET
 
 ## Einführung

@@ -4,8 +4,8 @@
 "title": "ファイルからJavaライセンスのGroupDocs.Signatureを設定する方法 包括的なガイド"
 "url": "/ja/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # ファイルからJavaライセンスのGroupDocs.Signatureを設定する - ステップバイステップのチュートリアル
 
 ## 導入

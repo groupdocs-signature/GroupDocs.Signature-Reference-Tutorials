@@ -5,8 +5,8 @@
 "title": "Comment ajouter des signatures tamponnées à des documents avec GroupDocs.Signature"
 "url": "/fr/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # Comment ajouter des signatures professionnelles à vos documents .NET
 
 ## Que pouvez-vous réaliser avec des signatures de tampons ?

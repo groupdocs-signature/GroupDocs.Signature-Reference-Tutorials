@@ -4,8 +4,8 @@
 "title": "Průvodce podepisováním dokumentů pomocí XAdES s využitím GroupDocs.Signature pro .NET"
 "url": "/cs/net/digital-signatures/sign-documents-xades-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Průvodce podepisováním dokumentů pomocí XAdES s využitím GroupDocs.Signature pro .NET
 
 ## Zavedení

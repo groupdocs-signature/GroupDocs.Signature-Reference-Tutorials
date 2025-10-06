@@ -4,8 +4,8 @@
 "title": ".NET'te Dijital PDF İmzalama&#58; GroupDocs.Signature Kullanımına Yönelik Bir Kılavuz"
 "url": "/tr/net/digital-signatures/sign-pdf-digital-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET'te Dijital PDF İmzalama: GroupDocs.Signature Kullanımına Yönelik Bir Kılavuz
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Hur man implementerar digitala PDF-signaturer med tidsstämplar med GroupDocs.Signature för .NET"
 "url": "/sv/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar digitala PDF-signaturer med tidsstämplar med GroupDocs.Signature för .NET
 
 ## Introduktion

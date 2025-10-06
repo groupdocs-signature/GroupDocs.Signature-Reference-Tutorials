@@ -4,8 +4,8 @@
 "title": "Ghi nhật ký tệp & Ký mã QR - Hướng dẫn đầy đủ về cách sử dụng GroupDocs.Signature cho .NET"
 "url": "/vi/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Ghi nhật ký tệp và ký mã QR: Hướng dẫn đầy đủ về cách sử dụng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

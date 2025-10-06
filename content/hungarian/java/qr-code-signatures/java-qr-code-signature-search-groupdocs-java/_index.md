@@ -4,8 +4,8 @@
 "title": "Java QR-kód aláírás keresése GroupDocs segítségével Java fejlesztőknek"
 "url": "/hu/java/qr-code-signatures/java-qr-code-signature-search-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java QR-kód aláírás keresése GroupDocs segítségével Java fejlesztőknek
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Ký tài liệu bằng mã QR sử dụng Java và GroupDocs.Signature&#58; Hướng dẫn toàn diện"
 "url": "/vi/java/qr-code-signatures/sign-documents-with-qr-code-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Ký tài liệu bằng mã QR bằng Java và GroupDocs.Signature
 
 Bạn đang tìm cách tăng cường bảo mật và hiệu quả cho hệ thống quản lý tài liệu của mình? Ký tài liệu điện tử là một tính năng không thể thiếu trong thời đại kỹ thuật số ngày nay, và chữ ký mã QR mang lại sự tiện lợi và độ tin cậy cao. Trong hướng dẫn toàn diện này, chúng ta sẽ tìm hiểu cách ký tài liệu hình ảnh bằng mã QR bằng GroupDocs.Signature for Java. Sau khi hoàn thành hướng dẫn này, bạn sẽ có thể triển khai các tính năng này một cách liền mạch.

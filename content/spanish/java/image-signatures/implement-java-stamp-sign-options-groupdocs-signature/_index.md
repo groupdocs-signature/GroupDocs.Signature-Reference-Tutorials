@@ -4,8 +4,8 @@
 "title": "Implementar opciones de firma de sello de Java con GroupDocs.Signature para la autenticidad de documentos"
 "url": "/es/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementar opciones de firma de sello de Java con GroupDocs.Signature para la autenticidad de documentos
 ## Cómo implementar opciones de firma de sellos en Java con GroupDocs.Signature para Java
 En la era digital actual, garantizar la autenticidad de los documentos es fundamental. Tanto si es un profesional como si necesita validar contratos y acuerdos, añadir un sello de firma puede aportar credibilidad y seguridad. Este tutorial le guiará en la configuración de las opciones de sello de firma con GroupDocs.Signature para Java, una potente biblioteca diseñada para satisfacer fácilmente sus necesidades de firma de documentos.

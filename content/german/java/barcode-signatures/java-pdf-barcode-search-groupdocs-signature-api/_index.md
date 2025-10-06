@@ -4,8 +4,8 @@
 "title": "Java PDF Barcode-Suche mit GroupDocs.Signature API – Ein umfassender Leitfaden"
 "url": "/de/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
 "weight": 1
+type: docs
 ---
-
 # Java implementieren: PDF-Barcodes mit dem GroupDocs.Signature-API-Tutorial durchsuchen
 
 ## Einführung

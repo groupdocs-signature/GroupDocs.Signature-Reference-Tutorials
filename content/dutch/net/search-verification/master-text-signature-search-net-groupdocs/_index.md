@@ -4,8 +4,8 @@
 "title": "Masterteksthandtekening zoeken in .NET met behulp van GroupDocs.Signature"
 "url": "/nl/net/search-verification/master-text-signature-search-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Het onder de knie krijgen van het zoeken naar teksthandtekeningen in .NET met GroupDocs.Signature
 
 Wilt u de identificatie van teksthandtekeningen in uw documenten automatiseren? Of het nu gaat om het verifiëren van de authenticiteit van contracten of het volgen van officiële goedkeuringen, het efficiënt beheren van documenthandtekeningen kan een uitdaging zijn. **GroupDocs.Signature voor .NET**Stroomlijn dit proces door teksthandtekeningen rechtstreeks vanuit uw applicaties te zoeken en te filteren. Deze tutorial begeleidt u bij het instellen en gebruiken van GroupDocs.Signature om te zoeken naar teksthandtekeningen en externe handtekeningen over te slaan.

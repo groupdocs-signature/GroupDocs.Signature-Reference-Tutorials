@@ -5,8 +5,8 @@
 "title": "Extrahera enkelt metadata från ordbehandling med .NET"
 "url": "/sv/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # Hur man söker och extraherar metadata i ordbehandlingsprogram i .NET
 
 ## Introduktion

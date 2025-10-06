@@ -4,8 +4,8 @@
 "title": "ग्रुपडॉक्स के साथ जावा में वर्ड मेटाडेटा हस्ताक्षर सुरक्षित करें - एक व्यापक गाइड"
 "url": "/hi/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # ग्रुपडॉक्स के साथ जावा में वर्ड मेटाडेटा हस्ताक्षर सुरक्षित करें
 
 ## परिचय

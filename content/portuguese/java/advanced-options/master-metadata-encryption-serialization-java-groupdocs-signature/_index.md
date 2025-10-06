@@ -4,8 +4,8 @@
 "title": "Criptografia e serialização de metadados mestres em Java com GroupDocs.Signature"
 "url": "/pt/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Dominando a criptografia e serialização de metadados em Java com GroupDocs.Signature
 
 ## Introdução

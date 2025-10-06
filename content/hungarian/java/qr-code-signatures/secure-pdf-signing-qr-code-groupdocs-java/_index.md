@@ -4,8 +4,8 @@
 "title": "Biztonságos PDF-aláírás megvalósítása QR-kód titkosítással Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/qr-code-signatures/secure-pdf-signing-qr-code-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Biztonságos PDF-aláírás megvalósítása QR-kód titkosítással Java-ban a GroupDocs.Signature használatával
 
 mai digitális korban a dokumentumokban található bizalmas információk védelme kiemelkedő fontosságú. A kiberfenyegetések számának növekedése miatt az adattitkosítás a dokumentumkezelés elengedhetetlen részévé vált. Ez az oktatóanyag végigvezeti Önt a biztonságos PDF-aláírás megvalósításán QR-kód titkosítással a GroupDocs.Signature for Java segítségével. A cikk végére felkészült lesz arra, hogy robusztus biztonsági funkciókat integráljon alkalmazásaiba.

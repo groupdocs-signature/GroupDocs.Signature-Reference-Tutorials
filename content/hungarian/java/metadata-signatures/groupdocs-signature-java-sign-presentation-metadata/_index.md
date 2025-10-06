@@ -4,8 +4,8 @@
 "title": "Prezentációs dokumentumok metaadatokkal történő aláírása a GroupDocs.Signature for Java használatával – Teljes körű útmutató"
 "url": "/hu/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # Átfogó útmutató a prezentációs dokumentumok metaadatokkal történő aláírásához a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

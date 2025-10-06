@@ -4,8 +4,8 @@
 "title": "Implementazione di firme digitali personalizzate in Java con GroupDocs.Signature&#58; una guida completa"
 "url": "/it/java/digital-signatures/custom-digital-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementazione di firme digitali personalizzate in Java con GroupDocs.Signature
 
 Nell'era digitale odierna, garantire l'integrità e l'autenticità dei documenti è fondamentale. Le firme tradizionali spesso non sono sufficienti a verificare la legittimità dei documenti condivisi elettronicamente. Questa guida completa vi guiderà nell'implementazione di una firma digitale personalizzata utilizzando **GroupDocs.Signature per Java**, garantendo un livello di sicurezza e professionalità più elevato nei tuoi documenti digitali.

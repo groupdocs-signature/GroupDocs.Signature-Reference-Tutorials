@@ -4,8 +4,8 @@
 "title": "Hoe u .NET-barcodeondertekening implementeert met GroupDocs.Signature&#58; een complete gids voor ontwikkelaars"
 "url": "/nl/net/barcode-signatures/implement-dotnet-barcode-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u .NET-barcodeondertekening implementeert met GroupDocs.Signature: een complete gids voor ontwikkelaars
 
 ## Invoering

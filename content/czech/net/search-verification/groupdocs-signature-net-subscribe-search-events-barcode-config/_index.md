@@ -4,8 +4,8 @@
 "title": "Zvládnutí GroupDocs.Signature pro .NET&#58; Odběr a konfigurace událostí vyhledávání čárových kódů"
 "url": "/cs/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí GroupDocs.Signature pro .NET: Odběr a konfigurace událostí vyhledávání čárových kódů
 
 ## Zavedení

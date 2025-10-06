@@ -4,8 +4,8 @@
 "title": "Jak szyfrować i podpisywać metadane dokumentów za pomocą GroupDocs.Signature dla Java? — kompleksowy przewodnik"
 "url": "/pl/java/metadata-signatures/encrypt-sign-metadata-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak szyfrować i podpisywać metadane dokumentów za pomocą GroupDocs.Signature dla Java: kompleksowy przewodnik
 
 ## Wstęp

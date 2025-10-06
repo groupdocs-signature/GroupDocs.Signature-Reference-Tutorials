@@ -4,8 +4,8 @@
 "title": "Καταγραφή αρχείων και υπογραφή κώδικα QR&#58; Ένας πλήρης οδηγός χρήσης του GroupDocs.Signature για .NET"
 "url": "/el/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Καταγραφή αρχείων και υπογραφή κώδικα QR: Ένας πλήρης οδηγός χρήσης του GroupDocs.Signature για .NET
 
 ## Εισαγωγή

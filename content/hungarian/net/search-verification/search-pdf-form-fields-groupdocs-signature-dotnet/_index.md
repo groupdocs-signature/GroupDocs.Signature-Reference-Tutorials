@@ -4,8 +4,8 @@
 "title": "PDF űrlapmezők hatékony keresése a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF űrlapmezők hatékony keresése a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

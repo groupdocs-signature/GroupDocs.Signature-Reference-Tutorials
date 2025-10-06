@@ -4,8 +4,8 @@
 "title": "Dokumentumok betöltése FTP-kiszolgálóról a GroupDocs.Signature for Java segítségével"
 "url": "/hu/java/document-loading-saving/load-documents-from-ftp-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumok betöltése FTP-kiszolgálóról a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

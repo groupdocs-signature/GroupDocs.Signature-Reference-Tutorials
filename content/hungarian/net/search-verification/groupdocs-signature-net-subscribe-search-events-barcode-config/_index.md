@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET elsajátítása&#58; feliratkozás és vonalkódkeresési események konfigurálása"
 "url": "/hu/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # A GroupDocs.Signature for .NET elsajátítása: Vonalkódkeresési események feliratkozása és konfigurálása
 
 ## Bevezetés

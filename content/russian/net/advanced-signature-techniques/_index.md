@@ -5,8 +5,8 @@
 "title": "Освойте передовые методы подписи документов в .NET"
 "url": "/ru/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # Расширенные методы подписи с помощью GroupDocs.Signature для .NET
 
 ## Введение

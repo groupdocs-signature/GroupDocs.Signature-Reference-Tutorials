@@ -4,8 +4,8 @@
 "title": "Så här tar du bort streckkodssignaturer i Java med GroupDocs.Signature – en omfattande guide"
 "url": "/sv/java/signature-management/groupdocs-signature-java-delete-barcode-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Hur man använder GroupDocs.Signature för Java för att ta bort streckkodssignaturer med ID
 
 ## Introduktion

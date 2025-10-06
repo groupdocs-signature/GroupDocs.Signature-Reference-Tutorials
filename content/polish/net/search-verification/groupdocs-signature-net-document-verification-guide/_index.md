@@ -4,8 +4,8 @@
 "title": "Opanowanie weryfikacji dokumentów za pomocą GroupDocs.Signature dla .NET – kompleksowy przewodnik"
 "url": "/pl/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie weryfikacji dokumentów za pomocą GroupDocs.Signature dla .NET: kompleksowy przewodnik
 
 ## Wstęp

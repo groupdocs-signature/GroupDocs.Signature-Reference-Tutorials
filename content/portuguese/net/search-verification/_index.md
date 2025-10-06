@@ -3,8 +3,8 @@
 "title": "Tutoriais de pesquisa e verificação de assinaturas para GroupDocs.Signature .NET"
 "url": "/pt/net/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # Tutoriais de pesquisa e verificação de assinaturas para GroupDocs.Signature .NET
 
 Nossos tutoriais de busca e verificação oferecem orientações abrangentes para validar assinaturas de documentos usando o GroupDocs.Signature em .NET. Estes guias práticos demonstram como buscar assinaturas de vários tipos (digitais, de código de barras, QR code, texto, imagem e metadados), implementar a verificação para verificação de autenticidade, lidar com exceções durante a verificação e processar documentos complexos. Cada tutorial inclui exemplos completos de código C# para cenários comuns de verificação, ajudando você a criar aplicativos que podem determinar com eficácia se os documentos foram alterados desde a assinatura.

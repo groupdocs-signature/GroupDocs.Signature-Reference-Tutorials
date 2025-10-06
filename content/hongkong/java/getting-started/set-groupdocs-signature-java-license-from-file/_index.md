@@ -4,8 +4,8 @@
 "title": "從文件設定 GroupDocs.Signature 以取得 Java 授權－綜合指南"
 "url": "/zh-hant/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # 從檔案設定 GroupDocs.Signature 的 Java 授權 - 逐步教學
 
 ## 介紹

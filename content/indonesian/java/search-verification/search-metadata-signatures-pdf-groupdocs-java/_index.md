@@ -4,8 +4,8 @@
 "title": "Cara Mencari Tanda Tangan Metadata dalam PDF Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/search-verification/search-metadata-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mencari Tanda Tangan Metadata dalam Dokumen PDF Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

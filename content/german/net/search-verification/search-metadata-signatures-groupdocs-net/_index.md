@@ -4,8 +4,8 @@
 "title": "Suchen Sie mit GroupDocs.Signature für .NET nach Metadatensignaturen in Bilddokumenten"
 "url": "/de/net/search-verification/search-metadata-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # So suchen Sie mit GroupDocs.Signature für .NET nach Metadatensignaturen in Bilddokumenten
 
 ## Einführung

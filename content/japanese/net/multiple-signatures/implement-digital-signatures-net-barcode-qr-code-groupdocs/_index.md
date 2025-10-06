@@ -4,8 +4,8 @@
 "title": ".NET でのデジタル署名の実装 - バーコードと QR コードの統合ガイド"
 "url": "/ja/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET でデジタル署名を実装する方法: GroupDocs.Signature を使用したバーコードと QR コードの署名
 
 今日のデジタル時代において、文書を迅速かつ安全に認証することは、これまで以上に重要です。エンタープライズアプリケーションを開発する開発者であっても、文書管理プロセスを効率化したいと考えている場合でも、署名の追加は大きな変革をもたらす可能性があります。このチュートリアルでは、署名の使用方法について説明します。 **.NET 用 GroupDocs.Signature** バーコードと QR コードの両方の署名を使用して文書にデジタル署名し、安全な文書化のための強力なソリューションを提供します。

@@ -4,8 +4,8 @@
 "title": "Java GroupDocs.Signature&#58;를 구현하여 문서 처리 내역을 검색하고 표시하는 방법"
 "url": "/ko/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Java GroupDocs.Signature 구현 방법: 문서 처리 기록 검색 및 표시
 
 ## 소개

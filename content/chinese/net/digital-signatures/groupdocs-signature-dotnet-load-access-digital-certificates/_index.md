@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中加载和访问数字证书——综合指南"
 "url": "/zh/net/digital-signatures/groupdocs-signature-dotnet-load-access-digital-certificates/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 .NET 中加载和访问数字证书
 ## 综合指南
 

@@ -3,8 +3,8 @@
 "title": "Tutoriels sur la signature de codes QR avec GroupDocs.Signature pour Java"
 "url": "/fr/java/qr-code-signatures/"
 "weight": 5
+type: docs
 ---
-
 # Tutoriels sur la signature de codes QR avec GroupDocs.Signature pour Java
 
 Découvrez comment utiliser efficacement les signatures de codes QR dans vos applications Java grâce à nos tutoriels complets GroupDocs.Signature. Ces guides pas à pas vous expliquent comment créer, personnaliser, rechercher et vérifier des signatures de codes QR. Apprenez à implémenter des objets de codes QR spécialisés pour différents formats de données, notamment vCard, Wi-Fi, SMS, e-mails, cryptomonnaies, événements et données de paiement EPC. Chaque tutoriel fournit des exemples pratiques de code Java pour l'implémentation de codes QR, qu'ils soient basiques ou avancés, afin de vous aider à créer des solutions de signature de documents plus sophistiquées.

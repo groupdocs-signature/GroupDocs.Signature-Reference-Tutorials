@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása e-mailes QR-kódokkal a GroupDocs.Signature for .NET használatával | Lépésről lépésre útmutató"
 "url": "/hu/net/qr-code-signatures/sign-pdfs-email-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentum aláírása e-mailben küldött QR-kóddal a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

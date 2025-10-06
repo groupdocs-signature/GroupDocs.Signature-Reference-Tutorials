@@ -3,8 +3,8 @@
 "title": "Hướng dẫn bảo vệ tài liệu cho GroupDocs.Signature Java"
 "url": "/vi/java/document-protection/"
 "weight": 16
+type: docs
 ---
-
 # Hướng dẫn bảo vệ tài liệu cho GroupDocs.Signature Java
 
 Học cách bảo mật tài liệu bằng hướng dẫn bảo vệ chữ ký GroupDocs.Signature dành cho Java. Những hướng dẫn toàn diện này trình bày cách xử lý tài liệu được bảo vệ bằng mật khẩu, thêm bảo vệ bằng mật khẩu vào tệp đầu ra, quản lý ngoại lệ bảo mật và triển khai xử lý lỗi phù hợp. Mỗi hướng dẫn đều cung cấp các ví dụ mã Java thực tế cho các tình huống bảo vệ tài liệu phổ biến, giúp bạn xây dựng các ứng dụng duy trì tính bảo mật và toàn vẹn của tài liệu trong suốt quá trình ký.

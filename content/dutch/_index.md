@@ -6,8 +6,8 @@
 "title": "GroupDocs.Signature - API voor digitale documentondertekening voor .NET en Java | Complete handleiding"
 "url": "/nl/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature: complete oplossing voor het ondertekenen van digitale documenten voor ontwikkelaars
 
 ![GroupDocs.Handtekeningbanner](./groupdocs-signature-net.svg)

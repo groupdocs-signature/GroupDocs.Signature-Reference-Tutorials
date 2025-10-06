@@ -4,8 +4,8 @@
 "title": "Αρχικοποίηση στιγμιότυπου υπογραφής με το GroupDocs.Signature για .NET™ Ένας πλήρης οδηγός"
 "url": "/el/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Αρχικοποίηση στιγμιότυπου υπογραφής με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

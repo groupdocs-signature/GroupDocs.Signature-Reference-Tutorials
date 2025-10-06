@@ -4,8 +4,8 @@
 "title": "Αποτελεσματική διαχείριση υπογραφών γραμμωτού κώδικα σε PDF με το GroupDocs.Signature για .NET"
 "url": "/el/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Αποτελεσματική διαχείριση υπογραφών γραμμωτού κώδικα σε PDF με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

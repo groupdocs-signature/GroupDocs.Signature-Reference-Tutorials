@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 對帶有二維碼和事件元資料的 PDF 進行簽名"
 "url": "/zh-hant/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 對帶有二維碼和事件元資料的 PDF 進行簽名
 
 ## 介紹

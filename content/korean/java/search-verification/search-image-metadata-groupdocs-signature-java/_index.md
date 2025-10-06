@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 이미지 메타데이터를 검색하는 방법&#58; 종합 가이드"
 "url": "/ko/java/search-verification/search-image-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 이미지 메타데이터를 검색하는 방법
 
 ## 소개

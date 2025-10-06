@@ -4,8 +4,8 @@
 "title": "Java'da GroupDocs.Signature Kullanarak PDF'leri QR Kodlarıyla Nasıl İmzalayabilirsiniz? Adım Adım Kılavuz"
 "url": "/tr/java/qr-code-signatures/sign-pdf-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java İmza Kütüphanesi Nasıl Uygulanır: GroupDocs.Signature Kullanarak QR Kod Seçenekleriyle PDF'i Yükleme ve İmzalama
 
 Günümüzün dijital dünyasında, özellikle hassas bilgilerle uğraşırken belge bütünlüğünün sağlanması hayati önem taşımaktadır. Elektronik imza eklemek yalnızca güvenliği artırmakla kalmaz, aynı zamanda verimliliği de artırır. Bu adım adım eğitim, kullanımınızda size rehberlik edecektir. **Java için GroupDocs.Signature** QR kod seçenekleriyle PDF dosyalarını yüklemek ve imzalamak için.

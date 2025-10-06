@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ البحث عن توقيع النص في ملفات PDF باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/search-verification/implement-search-text-signatures-groupdocs-java-pdf/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ البحث عن توقيع النص في ملفات PDF باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

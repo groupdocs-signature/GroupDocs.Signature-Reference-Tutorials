@@ -8,10 +8,8 @@ keywords:
 - progress event handling in document signing
 - GroupDocs.Signature for Java setup
 - Java document signing process cancellation
-
+type: docs
 ---
-
-
 # Implementing Progress Event Handling in Document Signing with GroupDocs.Signature for Java
 
 ## Introduction

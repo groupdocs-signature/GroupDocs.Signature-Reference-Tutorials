@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके दस्तावेज़ मेटाडेटा को एन्क्रिप्ट और हस्ताक्षरित कैसे करें. Java के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/java/metadata-signatures/encrypt-sign-metadata-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ मेटाडेटा को एन्क्रिप्ट और हस्ताक्षरित कैसे करें: एक व्यापक मार्गदर्शिका
 
 ## परिचय

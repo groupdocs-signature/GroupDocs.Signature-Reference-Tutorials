@@ -5,8 +5,8 @@
 "title": "إضافة توقيعات نصية إلى المستندات باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # كيفية إضافة توقيعات نصية إلى المستندات باستخدام GroupDocs.Signature لـ .NET
 
 ## المقدمة: تحديث عملية توقيع المستندات الخاصة بك

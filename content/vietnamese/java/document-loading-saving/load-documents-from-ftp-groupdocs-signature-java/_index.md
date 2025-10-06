@@ -4,8 +4,8 @@
 "title": "Tải tài liệu từ máy chủ FTP bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/document-loading-saving/load-documents-from-ftp-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Tải tài liệu từ máy chủ FTP bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

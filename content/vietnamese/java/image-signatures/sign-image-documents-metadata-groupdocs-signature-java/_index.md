@@ -4,8 +4,8 @@
 "title": "Ký tài liệu hình ảnh với siêu dữ liệu bằng GroupDocs.Signature cho Java - Hướng dẫn đầy đủ"
 "url": "/vi/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu hình ảnh với siêu dữ liệu bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

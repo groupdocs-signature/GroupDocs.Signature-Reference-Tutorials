@@ -6,8 +6,8 @@
 "title": "GroupDocs.Signature - API Penandatanganan Dokumen Digital untuk .NET & Java | Panduan Tutorial Lengkap"
 "url": "/id/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature: Solusi Penandatanganan Dokumen Digital Lengkap untuk Pengembang
 
 ![GroupDocs.Spanduk Tanda Tangan](./groupdocs-signature-net.svg)

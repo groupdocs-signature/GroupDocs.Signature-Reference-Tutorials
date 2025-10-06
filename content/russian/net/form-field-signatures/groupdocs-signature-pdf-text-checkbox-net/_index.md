@@ -4,8 +4,8 @@
 "title": "Реализация подписи PDF с текстом и флажком с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # Реализация подписи PDF с текстом и флажком с помощью GroupDocs.Signature для .NET
 
 ## Подписи полей формы

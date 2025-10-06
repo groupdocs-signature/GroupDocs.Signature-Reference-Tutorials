@@ -4,8 +4,8 @@
 "title": "如何使用 Java 中的 GroupDocs.Signature 对带有二维码的 PDF 进行签名——分步指南"
 "url": "/zh/java/qr-code-signatures/sign-pdf-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何实现 Java 签名库：使用 GroupDocs.Signature 加载并签名带有二维码选项的 PDF
 
 在当今的数字环境中，确保文档完整性至关重要，尤其是在处理敏感信息时。添加电子签名不仅可以增强安全性，还可以提高效率。本分步教程将指导您如何使用 **GroupDocs.Signature for Java** 使用二维码选项加载和签署 PDF 文件。

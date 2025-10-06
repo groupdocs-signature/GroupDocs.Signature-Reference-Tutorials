@@ -5,8 +5,8 @@
 "title": "Πώς να δημιουργήσετε προεπισκοπήσεις εγγράφων σε εφαρμογές .NET | Γρήγορο σεμινάριο"
 "url": "/el/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # Πώς να δημιουργήσετε προεπισκοπήσεις εγγράφων στις εφαρμογές .NET
 
 ## Εισαγωγή

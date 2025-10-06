@@ -4,8 +4,8 @@
 "title": "Optimice las búsquedas de documentos con GroupDocs.Signature para .NET e implemente controladores de eventos de progreso"
 "url": "/es/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # Optimice las búsquedas de documentos con GroupDocs.Signature para .NET: Implemente controladores de eventos de progreso
 
 ## Introducción

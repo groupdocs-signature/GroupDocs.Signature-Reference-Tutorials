@@ -4,8 +4,8 @@
 "title": "Een PDF ondertekenen met metagegevens met GroupDocs.Signature voor Java"
 "url": "/nl/java/metadata-signatures/sign-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF ondertekenen met metagegevens met GroupDocs.Signature voor Java
 
 In het huidige digitale landschap is het cruciaal om de integriteit en authenticiteit van documenten te waarborgen. Als u werkt met PDF's die een beveiligingslaag via handtekeningen vereisen, begeleidt deze tutorial u bij het ondertekenen van een PDF-document met behulp van metadata zoals auteursnaam, aanmaakdatum, document-ID en handtekening-ID met GroupDocs.Signature voor Java.

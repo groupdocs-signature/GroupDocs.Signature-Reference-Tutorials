@@ -4,8 +4,8 @@
 "title": "Quản lý chữ ký mã vạch Java hiệu quả bằng GroupDocs.Signature"
 "url": "/vi/java/barcode-signatures/java-barcode-signature-management-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Quản lý chữ ký mã vạch Java hiệu quả bằng GroupDocs.Signature
 
 Trong kỷ nguyên số, việc quản lý chữ ký điện tử hiệu quả là vô cùng quan trọng đối với cả doanh nghiệp và cá nhân. Cho dù bạn đang xác thực thỏa thuận hay bảo mật tài liệu, việc sử dụng đúng công cụ có thể nâng cao đáng kể năng suất. **GroupDocs.Signature cho Java** là một thư viện mạnh mẽ được thiết kế để hợp lý hóa các quy trình này. Hướng dẫn này sẽ hướng dẫn bạn cách khởi tạo đối tượng Chữ ký, tìm kiếm chữ ký mã vạch và xóa chúng khỏi tài liệu.

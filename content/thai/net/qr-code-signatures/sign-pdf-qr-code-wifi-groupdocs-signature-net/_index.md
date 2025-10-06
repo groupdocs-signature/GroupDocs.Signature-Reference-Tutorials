@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามใน PDF ด้วยรหัส QR ฝังข้อมูล WiFi โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามใน PDF ด้วยรหัส QR ฝังข้อมูล WiFi โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

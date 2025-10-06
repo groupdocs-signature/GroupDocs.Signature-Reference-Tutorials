@@ -4,8 +4,8 @@
 "title": "การค้นหาข้อมูลเมตาที่ปลอดภัยใน Java โดยใช้ GroupDocs.Signature&#58; คู่มือที่ครอบคลุม"
 "url": "/th/java/search-verification/secure-metadata-search-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # ค้นหาข้อมูลเมตาที่ปลอดภัยใน Java โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

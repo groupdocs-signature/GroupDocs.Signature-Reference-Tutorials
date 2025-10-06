@@ -4,8 +4,8 @@
 "title": "Búsqueda y cifrado de códigos QR en Java® Master GroupDocs.Signature para la gestión segura de documentos"
 "url": "/es/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Búsqueda y cifrado de códigos QR en Java: Master GroupDocs.Signature para la gestión segura de documentos
 
 ## Introducción

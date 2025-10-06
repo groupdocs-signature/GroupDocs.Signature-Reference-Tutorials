@@ -4,8 +4,8 @@
 "title": "Tìm kiếm tài liệu chính với GroupDocs.Signature cho Hướng dẫn xác minh chữ ký mã vạch .NET"
 "url": "/vi/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ tìm kiếm tài liệu với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

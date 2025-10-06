@@ -4,8 +4,8 @@
 "title": "تنفيذ توقيع PDF باستخدام النص ومربع الاختيار باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ توقيع PDF باستخدام النص ومربع الاختيار باستخدام GroupDocs.Signature لـ .NET
 
 ## توقيعات حقول النموذج

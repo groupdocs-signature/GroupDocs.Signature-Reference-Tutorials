@@ -5,8 +5,8 @@
 "title": "如何使用 GroupDocs.Signature 為文件新增印章簽名"
 "url": "/zh-hant/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # 如何為 .NET 文件新增專業印章簽名
 
 ## 使用印章簽名可以達到什麼目的？

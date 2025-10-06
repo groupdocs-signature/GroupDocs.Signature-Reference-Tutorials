@@ -4,8 +4,8 @@
 "title": "Cómo eliminar firmas de códigos de barras en Java con GroupDocs.Signature"
 "url": "/es/java/signature-management/delete-barcode-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cómo eliminar firmas de códigos de barras en Java con GroupDocs.Signature
 
 ## Introducción

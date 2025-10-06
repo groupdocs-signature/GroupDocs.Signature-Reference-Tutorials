@@ -4,8 +4,8 @@
 "title": "สร้างตัวอย่าง PDF พร้อมลายเซ็นที่ซ่อนอยู่โดยใช้ Java และ GroupDocs.Signature"
 "url": "/th/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # สร้างตัวอย่าง PDF พร้อมลายเซ็นที่ซ่อนอยู่โดยใช้ Java และ GroupDocs.Signature
 
 ## การแนะนำ

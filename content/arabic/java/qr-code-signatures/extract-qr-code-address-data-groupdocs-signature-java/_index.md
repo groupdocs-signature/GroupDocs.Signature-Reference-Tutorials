@@ -4,8 +4,8 @@
 "title": "استخراج بيانات عنوان رمز الاستجابة السريعة باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/qr-code-signatures/extract-qr-code-address-data-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية استخراج بيانات عنوان رمز الاستجابة السريعة باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

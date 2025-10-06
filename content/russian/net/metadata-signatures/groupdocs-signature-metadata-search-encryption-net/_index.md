@@ -4,8 +4,8 @@
 "title": "Реализация поиска по сигнатурам метаданных с шифрованием с использованием GroupDocs для .NET"
 "url": "/ru/net/metadata-signatures/groupdocs-signature-metadata-search-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Полное руководство: Реализация поиска по сигнатурам метаданных с шифрованием с использованием GroupDocs.Signature для .NET
 
 ## Введение

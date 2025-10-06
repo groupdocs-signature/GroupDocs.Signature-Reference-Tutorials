@@ -3,8 +3,8 @@
 "title": "Výukové programy pro vyhledávání a ověřování podpisů pro GroupDocs.Signature .NET"
 "url": "/cs/net/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # Výukové programy pro vyhledávání a ověřování podpisů pro GroupDocs.Signature .NET
 
 Naše tutoriály pro vyhledávání a ověřování poskytují komplexní pokyny pro ověřování podpisů dokumentů pomocí GroupDocs.Signature v .NET. Tyto praktické průvodce ukazují, jak vyhledávat podpisy různých typů (digitální, čárové kódy, QR kódy, textové, obrazové a metadata), implementovat ověřování pravosti, zpracovávat výjimky během ověřování a zpracovávat složité dokumenty. Každý tutoriál obsahuje kompletní příklady kódu C# pro běžné scénáře ověřování, které vám pomohou vytvářet aplikace, které dokáží efektivně určit, zda byly dokumenty od podpisu změněny.

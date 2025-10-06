@@ -4,8 +4,8 @@
 "title": "掌握 GroupDocs.Signature for .NET&#58; 高效提取和显示文档信息"
 "url": "/zh/net/preview-info/groupdocs-signature-net-document-info-extraction/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 .NET 的 GroupDocs.Signature：高效提取和显示文档信息
 
 ## 介绍

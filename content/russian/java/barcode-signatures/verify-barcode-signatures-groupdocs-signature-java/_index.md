@@ -4,8 +4,8 @@
 "title": "Как проверить подписи штрихкодов в Java с помощью GroupDocs.Signature"
 "url": "/ru/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать проверку подписей штрихкодов с помощью GroupDocs.Signature для Java
 
 ## Введение

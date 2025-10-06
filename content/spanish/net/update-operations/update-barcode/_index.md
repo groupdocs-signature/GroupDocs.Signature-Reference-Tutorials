@@ -5,8 +5,8 @@
 "title": "Actualizar firmas de código de barras en documentos"
 "url": "/es/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Introducción
 Las firmas de código de barras se utilizan ampliamente en flujos de trabajo de documentos digitales para codificar datos estructurados, lo que permite un seguimiento, una identificación y una validación eficientes. GroupDocs.Signature para .NET es una solución integral de firma de documentos que permite a los desarrolladores integrar funciones avanzadas de firma en sus aplicaciones, incluyendo la posibilidad de actualizar las firmas de código de barras existentes en los documentos.
 

@@ -4,8 +4,8 @@
 "title": "Generování náhledů stránek PDF pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Generování náhledů stránek PDF pomocí GroupDocs.Signature pro .NET: Komplexní průvodce
 
 ## Zavedení

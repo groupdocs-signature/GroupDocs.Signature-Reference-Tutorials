@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 在本地签署文档——综合指南"
 "url": "/zh/net/digital-signatures/sign-documents-locally-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在本地签署文档
 
 ## 介绍

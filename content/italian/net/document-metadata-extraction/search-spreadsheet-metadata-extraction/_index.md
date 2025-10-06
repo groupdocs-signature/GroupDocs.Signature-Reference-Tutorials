@@ -5,8 +5,8 @@
 "title": "Estrai facilmente i metadati del foglio di calcolo con GroupDocs.Signature"
 "url": "/it/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # Come estrarre metadati dai fogli di calcolo utilizzando GroupDocs.Signature
 
 ## Perché i metadati dei fogli di calcolo sono importanti

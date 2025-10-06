@@ -4,8 +4,8 @@
 "title": "Implementeer .NET QR-code handtekening zoeken met MeCard met behulp van GroupDocs.Signature"
 "url": "/nl/net/qr-code-signatures/net-qr-code-signature-search-mecard-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van .NET QR-code handtekening zoeken met MeCard met behulp van GroupDocs.Signature
 
 ## Invoering

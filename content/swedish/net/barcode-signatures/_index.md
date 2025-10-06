@@ -3,8 +3,8 @@
 "title": "Handledningar för streckkodssignaturer för GroupDocs.Signature .NET"
 "url": "/sv/net/barcode-signatures/"
 "weight": 4
+type: docs
 ---
-
 # Handledningar för streckkodssignaturer för GroupDocs.Signature .NET
 
 Våra handledningar om streckkodssignaturer ger detaljerad vägledning för att implementera streckkodsbaserade signaturer i dina .NET-applikationer. Följ dessa praktiska guider för att lära dig hur du signerar dokument med olika streckkodstyper, anpassar streckkodernas utseende, söker efter streckkoder i befintliga dokument, uppdaterar eller tar bort streckkodssignaturer och verifierar streckkodsinnehåll. Dessa handledningar innehåller kompletta C#-kodexempel för vanliga streckkodsoperationer, vilket hjälper dig att bygga applikationer som säkert kan koda och verifiera information i dokument med hjälp av streckkodsteknik.

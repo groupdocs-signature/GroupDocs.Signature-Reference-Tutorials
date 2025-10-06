@@ -5,8 +5,8 @@
 "title": "文書内のバーコード署名を検索する"
 "url": "/ja/net/signature-searching/search-for-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## 導入
 
 今日のデジタル文書管理環境において、文書内の署名を検索・検証できることは、真正性とセキュリティの維持に不可欠です。GroupDocs.Signature for .NETは、バーコードを含む様々な種類の署名を、様々な文書形式で処理するための強力なソリューションを提供します。このチュートリアルでは、GroupDocs.Signatureを使用して、.NETアプリケーションにバーコード署名検索機能を実装する手順を説明します。

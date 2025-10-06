@@ -4,8 +4,8 @@
 "title": "Java GroupDocs.Signature&#58; Belge İşlem Geçmişini Alma ve Görüntüleme Nasıl Uygulanır?"
 "url": "/tr/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Java GroupDocs.Signature Nasıl Uygulanır: Belge İşlem Geçmişini Alma ve Görüntüleme
 
 ## giriiş

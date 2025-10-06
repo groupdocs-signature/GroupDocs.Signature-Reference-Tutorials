@@ -4,8 +4,8 @@
 "title": "Generowanie podglądów dokumentów w archiwach przy użyciu GroupDocs.Signature dla platformy .NET – kompletny przewodnik"
 "url": "/pl/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Generuj podglądy dokumentów z archiwów za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε υπογραφές κειμένου χρησιμοποιώντας το GroupDocs.Signature για Java (Οδηγός βήμα προς βήμα)"
 "url": "/el/java/text-signatures/implement-text-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε υπογραφές κειμένου χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

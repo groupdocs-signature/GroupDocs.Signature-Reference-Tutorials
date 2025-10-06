@@ -4,8 +4,8 @@
 "title": "إدارة توقيعات المستندات الرئيسية باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/signature-management/groupdocs-signature-net-master-document-signature-management/"
 "weight": 1
+type: docs
 ---
-
 # إتقان إدارة توقيع المستندات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

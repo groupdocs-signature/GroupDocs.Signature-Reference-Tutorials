@@ -4,8 +4,8 @@
 "title": ".NET'te GroupDocs.Signature için Lisans Dosyası Kurulumu&#58; Adım Adım Kılavuz"
 "url": "/tr/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # .NET'te GroupDocs.Signature için Lisans Dosyası Kurulumu: Adım Adım Kılavuz
 
 ## giriiş

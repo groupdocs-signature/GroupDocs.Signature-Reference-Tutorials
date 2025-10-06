@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 在 PDF 中實現數位簽章－綜合指南"
 "url": "/zh-hant/java/digital-signatures/implement-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 在 PDF 中實作數位簽名
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して、Java でイベント サブスクリプションによるドキュメント検証を実装する"
 "url": "/ja/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用してイベントサブスクリプションによるドキュメント検証を実装する
 
 ## 導入

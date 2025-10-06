@@ -4,8 +4,8 @@
 "title": "Подписание PDF-файлов с метаданными с помощью GroupDocs.Signature для .NET&#58; подробное руководство"
 "url": "/ru/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Подписание PDF-файлов с метаданными с помощью GroupDocs.Signature для .NET
 
 ## Введение

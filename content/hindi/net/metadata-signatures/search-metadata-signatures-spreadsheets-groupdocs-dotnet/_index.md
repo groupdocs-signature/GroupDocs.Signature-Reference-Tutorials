@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके स्प्रेडशीट में मेटाडेटा हस्ताक्षर कैसे खोजें"
 "url": "/hi/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके स्प्रेडशीट में मेटाडेटा हस्ताक्षर कैसे खोजें
 
 ## परिचय

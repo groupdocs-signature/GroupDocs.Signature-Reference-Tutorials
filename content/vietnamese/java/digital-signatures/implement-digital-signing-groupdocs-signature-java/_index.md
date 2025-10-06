@@ -4,8 +4,8 @@
 "title": "Cách triển khai chữ ký số trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký số trong Java bằng GroupDocs.Signature
 
 ## Giới thiệu

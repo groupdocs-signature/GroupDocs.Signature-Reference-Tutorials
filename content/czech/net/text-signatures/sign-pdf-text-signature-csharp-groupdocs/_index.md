@@ -4,8 +4,8 @@
 "title": "Podepisování PDF dokumentů textovým podpisem v C# pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/text-signatures/sign-pdf-text-signature-csharp-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Podepisování PDF dokumentů textovým podpisem v C# pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

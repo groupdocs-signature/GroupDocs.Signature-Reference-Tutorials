@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs for Java 开发人员在 ZIP 档案中实现条形码和二维码搜索"
 "url": "/zh/java/search-verification/implement-barcode-qr-code-search-zip-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs for Java 在 ZIP 档案中实现条形码和二维码搜索
 ## 介绍
 在当今的数字世界中，高效管理和验证文档真实性至关重要。无论您处理的是法律文件、发票还是存储在 ZIP 压缩包中的合同，如果没有合适的工具，查找特定的条形码和二维码都会非常困难。本教程将指导您使用 GroupDocs.Signature for Java 在 ZIP 压缩包中无缝搜索条形码和二维码签名。

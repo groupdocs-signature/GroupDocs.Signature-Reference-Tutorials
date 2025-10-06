@@ -4,8 +4,8 @@
 "title": "Κατανόηση του ιστορικού διεργασιών εγγράφων με το GroupDocs.Signature για .NET™ Ένας πλήρης οδηγός"
 "url": "/el/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Κατανόηση του ιστορικού διεργασιών εγγράφων με το GroupDocs.Signature για .NET: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

@@ -8,10 +8,8 @@ keywords:
 - Java stamp signature
 - GroupDocs.Signature API
 - digital document signing
-
+type: docs
 ---
-
-
 # Java Stamp Signature Tutorial: Signing PDF Documents with GroupDocs.Signature API
 
 In today's digital landscape, efficient and secure document signing is vital for both businesses and individuals. Whether you're authorizing contracts or verifying documents, ensuring authenticity digitally can save time and resources. This comprehensive tutorial will guide you through using the GroupDocs.Signature for Java API to sign a PDF document with a custom stamp signature. By following this step-by-step process, you'll learn how to add outer and inner lines with specific text, font styles, colors, and positioning.

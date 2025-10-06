@@ -5,8 +5,8 @@
 "title": "使用 C# .NET 中的元資料對影像進行簽名"
 "url": "/zh-hant/net/document-signing/sign-image-with-metadata/"
 "weight": 10
+type: docs
 ---
-
 ## 介紹
 
 使用元資料進行數位影像簽名對於確立真實性、所有權和可追溯性正變得越來越重要。 GroupDocs.Signature for .NET 提供了一個強大且易於使用的解決方案，用於為各種影像格式新增元資料簽章。本教學將引導您使用 C# 完成使用元資料對影像進行簽名的完整過程。

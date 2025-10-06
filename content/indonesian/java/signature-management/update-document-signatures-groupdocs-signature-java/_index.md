@@ -4,8 +4,8 @@
 "title": "Cara Memperbarui Tanda Tangan Dokumen Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/signature-management/update-document-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Memperbarui Tanda Tangan Dokumen dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

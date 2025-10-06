@@ -4,8 +4,8 @@
 "title": "Digitális aláírások törlése PDF-ekben a GroupDocs.Signature for .NET használatával – Átfogó útmutató"
 "url": "/hu/net/signature-management/delete-digital-signature-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírások törlése PDF-ekben a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

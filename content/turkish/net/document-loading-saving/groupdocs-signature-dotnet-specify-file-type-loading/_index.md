@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature'da Dosya Türüne Göre Belgeler Nasıl Yüklenir? Kapsamlı Bir Kılavuz"
 "url": "/tr/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature'da Belgeler Dosya Türüne Göre Nasıl Yüklenir?
 
 ## giriiş

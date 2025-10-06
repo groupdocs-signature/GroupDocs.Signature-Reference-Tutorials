@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanılarak Arşiv Dosyası Bilgileri Nasıl Alınır?"
 "url": "/tr/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanılarak Arşiv Dosyası Bilgileri Nasıl Alınır?
 
 ## giriiş

@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["dotnet", "digital-signatures", "document-security", "groupdocs"]
+type: docs
 ---
-
 ## Why You Need Multiple Document Signatures in .NET
 
 Ever wondered how to make your documents bulletproof? If you're building applications that handle contracts, legal documents, or sensitive business files, you've probably realized that a single signature type just isn't enough anymore. That's where multiple document signatures come in—and trust me, once you see how easy it is to implement with GroupDocs.Signature for .NET, you'll wonder why you waited so long.

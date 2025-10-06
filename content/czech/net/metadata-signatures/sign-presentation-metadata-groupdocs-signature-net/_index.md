@@ -4,8 +4,8 @@
 "title": "Podepisování prezentačních dokumentů metadaty pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat prezentační dokument metadaty pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

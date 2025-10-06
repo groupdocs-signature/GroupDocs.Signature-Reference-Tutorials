@@ -4,8 +4,8 @@
 "title": "Automatisez les aperçus de documents avec des signatures masquées à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Automatisez les aperçus de documents avec des signatures masquées à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

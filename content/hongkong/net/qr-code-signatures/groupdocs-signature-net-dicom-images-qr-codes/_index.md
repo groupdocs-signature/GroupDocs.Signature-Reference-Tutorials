@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 為 DICOM 影像簽署（二維碼）－綜合指南"
 "url": "/zh-hant/net/qr-code-signatures/groupdocs-signature-net-dicom-images-qr-codes/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 對帶有二維碼的 DICOM 影像進行簽署：綜合指南
 
 您是否正在尋找一種安全的方法來驗證您的 DICOM 檔案？本詳細指南將向您展示如何使用 GroupDocs.Signature for .NET 將二維碼簽章整合到 DICOM 影像中。本教學涵蓋從設定到實施的整個流程，非常適合醫療專業人員、開發人員以及任何使用數位醫療文件的人員。

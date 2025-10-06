@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในเอกสาร PDF ด้วยรหัส QR โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/qr-code-signatures/sign-pdf-qr-code-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร PDF ด้วยรหัส QR โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

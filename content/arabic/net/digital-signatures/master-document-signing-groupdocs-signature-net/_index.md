@@ -4,8 +4,8 @@
 "title": "توقيع المستندات الرئيسية والتحقق منها باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # توقيع المستندات الرئيسية والتحقق منها باستخدام GroupDocs.Signature لـ .NET
 
 ## كيفية إتقان توقيع المستندات والتحقق منها باستخدام GroupDocs.Signature لـ .NET

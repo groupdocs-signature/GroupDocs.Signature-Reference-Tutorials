@@ -4,8 +4,8 @@
 "title": "ลงนาม PDF ด้วยบาร์โค้ดคอมโพสิต GS1 โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนาม PDF ด้วยบาร์โค้ดคอมโพสิต GS1 โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

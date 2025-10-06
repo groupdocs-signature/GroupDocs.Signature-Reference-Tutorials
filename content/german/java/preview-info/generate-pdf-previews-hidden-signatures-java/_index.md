@@ -4,8 +4,8 @@
 "title": "Generieren Sie PDF-Vorschauen mit versteckten Signaturen mithilfe von Java und GroupDocs.Signature"
 "url": "/de/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Generieren Sie PDF-Vorschauen mit versteckten Signaturen mithilfe von Java und GroupDocs.Signature
 
 ## Einführung

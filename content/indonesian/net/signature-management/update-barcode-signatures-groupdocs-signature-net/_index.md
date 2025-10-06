@@ -4,8 +4,8 @@
 "title": "Cara Memperbarui Tanda Tangan Barcode berdasarkan ID menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Memperbarui Tanda Tangan Barcode berdasarkan ID Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

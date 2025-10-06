@@ -5,8 +5,8 @@
 "title": "문서에서 디지털 서명 검색"
 "url": "/ko/net/signature-searching/search-for-digital-signatures/"
 "weight": 11
+type: docs
 ---
-
 ## 소개
 
 오늘날의 디지털 환경에서는 기업과 조직에 문서의 진위성과 무결성을 보장하는 것이 매우 중요합니다. 디지털 서명은 문서의 진위성을 확인하고 무단 수정을 감지하는 강력한 메커니즘을 제공합니다. GroupDocs.Signature for .NET은 다양한 문서 형식의 디지털 서명을 처리하는 포괄적인 솔루션을 제공하여 개발자가 서명 기능을 .NET 애플리케이션에 원활하게 통합할 수 있도록 지원합니다.

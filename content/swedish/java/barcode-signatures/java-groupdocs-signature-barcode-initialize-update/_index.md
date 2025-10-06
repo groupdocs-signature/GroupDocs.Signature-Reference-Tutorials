@@ -4,8 +4,8 @@
 "title": "Hur man initierar och uppdaterar streckkodssignaturer i Java med GroupDocs.Signature"
 "url": "/sv/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # Hur man initierar och uppdaterar streckkodssignaturer i Java med GroupDocs.Signature
 
 ## Introduktion

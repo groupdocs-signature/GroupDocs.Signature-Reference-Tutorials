@@ -5,8 +5,8 @@
 "title": "Hur man hämtar dokumentinformation med GroupDocs.Signature"
 "url": "/sv/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # Så här hämtar du dokumentinformation med GroupDocs.Signature
 
 ## Introduktion

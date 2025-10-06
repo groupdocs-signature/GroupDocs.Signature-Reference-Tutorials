@@ -4,8 +4,8 @@
 "title": "Excel-táblázatok és VBA-projektek digitális aláírása a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Excel-táblázatok és VBA-projektjeik digitális aláírása a GroupDocs.Signature for .NET segítségével
 
 A mai digitális korban kulcsfontosságú az Excel-fájlok hitelességének biztosítása. Akár pénzügyi táblázatokat, akár projektterveket kezel, a digitális aláírás védelmet nyújthat a jogosulatlan változtatások ellen. Ez az oktatóanyag végigvezeti Önt a táblázatkezelő dokumentumok és a hozzájuk tartozó VBA-projektek digitális aláírásán. **GroupDocs.Signature .NET-hez**.

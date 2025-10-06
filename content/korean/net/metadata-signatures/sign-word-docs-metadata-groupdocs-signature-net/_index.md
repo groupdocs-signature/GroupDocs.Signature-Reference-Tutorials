@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 메타데이터가 포함된 Word 문서에 서명하는 방법 | 단계별 가이드"
 "url": "/ko/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 메타데이터가 포함된 Word 문서에 서명하는 방법
 
 ## 소개

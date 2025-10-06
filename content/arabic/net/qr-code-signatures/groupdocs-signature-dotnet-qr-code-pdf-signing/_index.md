@@ -4,8 +4,8 @@
 "title": "التوقيع الآمن على المستندات باستخدام رموز QR في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/qr-code-signatures/groupdocs-signature-dotnet-qr-code-pdf-signing/"
 "weight": 1
+type: docs
 ---
-
 # التوقيع الآمن على المستندات باستخدام رموز الاستجابة السريعة في .NET باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

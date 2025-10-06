@@ -4,8 +4,8 @@
 "title": "Firmar y guardar hojas de cálculo de Excel con códigos QR en Java usando GroupDocs.Signature"
 "url": "/es/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Firmar y guardar hojas de cálculo de Excel con códigos QR en Java usando GroupDocs.Signature
 
 ## Introducción

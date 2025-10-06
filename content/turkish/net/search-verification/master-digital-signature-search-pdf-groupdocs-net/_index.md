@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature'ı Kullanarak PDF'lerde Dijital İmza Aramada Ustalaşın"
 "url": "/tr/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak PDF'lerde Dijital İmza Aramalarında Ustalaşma
 
 ## giriiş

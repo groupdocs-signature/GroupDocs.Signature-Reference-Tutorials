@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して Java で QR コード署名検索を実装する"
 "url": "/ja/java/qr-code-signatures/implement-qr-code-signature-search-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して Java で QR コード署名検索を実装する
 
 ## 導入

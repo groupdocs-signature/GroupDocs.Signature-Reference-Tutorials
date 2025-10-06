@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε ψηφιακά έγγραφα του Word με κείμενο ως εικόνα χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ψηφιακά έγγραφα του Word με κείμενο ως εικόνα χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

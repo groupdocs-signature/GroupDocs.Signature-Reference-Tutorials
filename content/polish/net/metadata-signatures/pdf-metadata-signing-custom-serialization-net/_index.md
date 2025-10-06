@@ -4,8 +4,8 @@
 "title": "Podpisywanie metadanych PDF z niestandardową serializacją w .NET przy użyciu GroupDocs.Signature"
 "url": "/pl/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja podpisywania metadanych PDF z niestandardową serializacją przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

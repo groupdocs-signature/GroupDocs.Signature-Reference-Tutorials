@@ -4,8 +4,8 @@
 "title": "Jak implementovat vyhledávání textových podpisů v PDF pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/search-verification/implement-search-text-signatures-groupdocs-java-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat vyhledávání textových podpisů v PDF pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

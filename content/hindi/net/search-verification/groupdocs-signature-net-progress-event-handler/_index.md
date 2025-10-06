@@ -4,8 +4,8 @@
 "title": ".NET के प्रगति इवेंट हैंडलर्स को लागू करने के लिए GroupDocs.Signature के साथ दस्तावेज़ खोजों को अनुकूलित करें"
 "url": "/hi/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ दस्तावेज़ खोजों को अनुकूलित करें: प्रगति इवेंट हैंडलर्स को लागू करें
 
 ## परिचय

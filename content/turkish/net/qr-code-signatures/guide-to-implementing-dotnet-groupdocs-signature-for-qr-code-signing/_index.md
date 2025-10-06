@@ -4,8 +4,8 @@
 "title": "Belgelerde QR Kod İmzalama için .NET GroupDocs.Signature Nasıl Uygulanır?"
 "url": "/tr/net/qr-code-signatures/guide-to-implementing-dotnet-groupdocs-signature-for-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # QR Kod İmzalama için .NET GroupDocs.Signature Nasıl Uygulanır?
 
 ## giriiş

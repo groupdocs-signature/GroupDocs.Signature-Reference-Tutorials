@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen Gambar Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/image-signatures/sign-image-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen Gambar Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

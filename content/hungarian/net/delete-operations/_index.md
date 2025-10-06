@@ -5,8 +5,8 @@
 "title": "Teljes útmutató a dokumentum aláírásának törléséhez"
 "url": "/hu/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # Törlési műveletek a GroupDocs.Signature for .NET fájlban
 
 ## Bevezetés

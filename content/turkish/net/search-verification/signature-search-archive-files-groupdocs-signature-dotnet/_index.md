@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Arşiv Dosyalarında Verimli İmza Araması"
 "url": "/tr/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Arşiv Dosyalarında Verimli İmza Araması
 
 ## giriiş

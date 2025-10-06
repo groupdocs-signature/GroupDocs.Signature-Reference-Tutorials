@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 擷取存檔檔案資訊"
 "url": "/zh-hant/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 擷取存檔檔案資訊
 
 ## 介紹

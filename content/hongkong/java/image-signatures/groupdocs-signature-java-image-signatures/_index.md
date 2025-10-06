@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 搜尋和更新文件中的圖片簽名"
 "url": "/zh-hant/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 搜尋和更新文件中的圖片簽名
 
 ## 介紹

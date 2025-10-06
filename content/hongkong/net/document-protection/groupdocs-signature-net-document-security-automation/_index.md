@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 實現文件簽章安全自動化－綜合指南"
 "url": "/zh-hant/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 實現安全且自動化的文件簽名
 
 ## 介紹

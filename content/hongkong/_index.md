@@ -6,8 +6,8 @@
 "title": "GroupDocs.Signature - .NET 和 Java 的數位文件簽章 API | 完整教學指南"
 "url": "/zh-hant/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature：開發人員的完整數位文件簽章解決方案
 
 ![GroupDocs.簽名橫幅](./groupdocs-signature-net.svg)

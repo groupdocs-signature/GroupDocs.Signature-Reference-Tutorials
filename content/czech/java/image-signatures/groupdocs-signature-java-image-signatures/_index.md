@@ -4,8 +4,8 @@
 "title": "Jak vyhledávat a aktualizovat podpisy obrázků v dokumentech pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Jak vyhledávat a aktualizovat podpisy obrázků v dokumentech pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

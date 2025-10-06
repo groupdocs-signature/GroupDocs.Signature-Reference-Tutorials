@@ -4,8 +4,8 @@
 "title": "Triển khai tính năng ghi nhật ký tùy chỉnh trong GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai tính năng ghi nhật ký tùy chỉnh trong GroupDocs.Signature cho .NET: Hướng dẫn toàn diện
 
 ## Giới thiệu

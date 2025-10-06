@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Java Development"]
 tags: ["digital-signatures", "document-security", "java-libraries", "pdf-signing"]
+type: docs
 ---
-
 # How to Add Digital Signatures to Documents in Java
 
 ## Introduction

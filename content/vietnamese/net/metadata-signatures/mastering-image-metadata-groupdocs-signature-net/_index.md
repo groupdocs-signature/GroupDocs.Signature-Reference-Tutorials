@@ -4,8 +4,8 @@
 "title": "Làm chủ quản lý siêu dữ liệu hình ảnh trong .NET với GroupDocs.Signature"
 "url": "/vi/net/metadata-signatures/mastering-image-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ quản lý siêu dữ liệu hình ảnh trong .NET với GroupDocs.Signature
 
 Trong thế giới số ngày nay, việc quản lý siêu dữ liệu hình ảnh là vô cùng quan trọng trong nhiều ứng dụng khác nhau, chẳng hạn như xác minh tài liệu pháp lý và quản lý tài sản kỹ thuật số. Nếu bạn đang tìm cách đơn giản hóa cách xử lý siêu dữ liệu hình ảnh trong các dự án .NET của mình, hướng dẫn toàn diện này sẽ giúp bạn sử dụng GroupDocs.Signature for .NET — một công cụ mạnh mẽ được thiết kế để nâng cao khả năng tìm kiếm và truy xuất chữ ký siêu dữ liệu từ hình ảnh.

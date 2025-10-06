@@ -4,8 +4,8 @@
 "title": "Triển khai ký tài liệu bằng mã QR bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/qr-code-signatures/qr-code-signing-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai ký tài liệu bằng mã QR bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

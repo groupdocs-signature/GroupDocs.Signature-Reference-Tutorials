@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["pdf-signing", "dotnet", "groupdocs", "metadata", "encryption"]
+type: docs
 ---
-
 # PDF Signing .NET - Complete Guide to Secure Document Signing with Metadata
 
 ## Why PDF Signing with Metadata Matters (And How to Get It Right)

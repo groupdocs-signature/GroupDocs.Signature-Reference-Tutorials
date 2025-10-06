@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके .NET में टेक्स्ट हस्ताक्षर और कस्टम उपस्थिति के साथ PDF पर हस्ताक्षर करें"
 "url": "/hi/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके टेक्स्ट हस्ताक्षर और कस्टम उपस्थिति के साथ PDF दस्तावेज़ों पर हस्ताक्षर कैसे करें
 
 ## परिचय

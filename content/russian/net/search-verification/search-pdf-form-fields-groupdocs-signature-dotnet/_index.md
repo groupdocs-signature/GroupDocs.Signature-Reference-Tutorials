@@ -4,8 +4,8 @@
 "title": "Эффективный поиск полей PDF-форм с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Эффективный поиск полей PDF-форм с помощью GroupDocs.Signature для .NET
 
 ## Введение

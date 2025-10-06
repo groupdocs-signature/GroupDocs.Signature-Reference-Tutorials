@@ -4,8 +4,8 @@
 "title": ".NETでGroupDocs.Signatureの従量制ライセンスを設定する方法 - 包括的なガイド"
 "url": "/ja/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET で GroupDocs.Signature の従量制ライセンスを設定する方法: 包括的なガイド
 
 ## 導入

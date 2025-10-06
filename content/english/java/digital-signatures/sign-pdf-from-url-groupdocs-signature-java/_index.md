@@ -8,10 +8,8 @@ keywords:
 - sign PDF from URL Java
 - GroupDocs.Signature for Java tutorial
 - electronic signatures GroupDocs
-
+type: docs
 ---
-
-
 # How to Sign a PDF from a URL Using GroupDocs.Signature for Java
 
 ## Introduction

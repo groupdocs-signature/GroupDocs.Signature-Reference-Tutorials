@@ -4,8 +4,8 @@
 "title": "วิธีการเข้ารหัสและลงนามข้อมูลเมตาของเอกสารโดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/metadata-signatures/encrypt-sign-metadata-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการเข้ารหัสและลงนามข้อมูลเมตาของเอกสารโดยใช้ GroupDocs.Signature สำหรับ Java: คู่มือที่ครอบคลุม
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Υπογράψτε PDF με σύνθετους γραμμωτούς κώδικες GS1 χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα PDF με σύνθετους γραμμωτούς κώδικες GS1 χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

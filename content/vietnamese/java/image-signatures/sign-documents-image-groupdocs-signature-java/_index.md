@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu bằng hình ảnh bằng GroupDocs.Signature cho Java - Hướng dẫn từng bước"
 "url": "/vi/java/image-signatures/sign-documents-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu bằng hình ảnh bằng GroupDocs.Signature cho Java
 
 Trong thời đại kỹ thuật số ngày nay, việc bảo mật tài liệu bằng chữ ký điện tử là vô cùng quan trọng đối với cả doanh nghiệp và cá nhân. Cho dù bạn đang hoàn thiện hợp đồng hay phê duyệt thiết kế, một phương pháp ký tài liệu kỹ thuật số nhanh chóng và đáng tin cậy có thể tiết kiệm thời gian và tăng cường bảo mật. Hướng dẫn này sẽ hướng dẫn bạn cách sử dụng **GroupDocs.Signature cho Java** để ký tài liệu bằng chữ ký hình ảnh.

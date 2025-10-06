@@ -5,8 +5,8 @@
 "title": "Menandatangani Gambar dengan Metadata di C# .NET"
 "url": "/id/net/document-signing/sign-image-with-metadata/"
 "weight": 10
+type: docs
 ---
-
 ## Perkenalan
 
 Penandatanganan gambar digital dengan metadata semakin penting untuk memastikan keaslian, kepemilikan, dan keterlacakan. GroupDocs.Signature untuk .NET menyediakan solusi yang canggih namun mudah digunakan untuk menambahkan tanda tangan metadata ke berbagai format gambar. Tutorial ini memandu Anda melalui seluruh proses penandatanganan gambar dengan metadata menggunakan C#.

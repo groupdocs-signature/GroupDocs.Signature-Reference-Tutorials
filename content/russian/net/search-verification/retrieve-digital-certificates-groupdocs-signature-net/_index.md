@@ -4,8 +4,8 @@
 "title": "Извлечение цифровых сертификатов из архивов с помощью GroupDocs.Signature для .NET | Пошаговое руководство"
 "url": "/ru/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Извлечение цифровых сертификатов из архивов с помощью GroupDocs.Signature для .NET
 
 ## Введение

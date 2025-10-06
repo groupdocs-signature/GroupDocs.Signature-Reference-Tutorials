@@ -4,8 +4,8 @@
 "title": "Επαλήθευση εγγράφων .NET με υπογραφές γραμμωτού κώδικα χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την επαλήθευση εγγράφων με υπογραφές γραμμωτού κώδικα σε .NET χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

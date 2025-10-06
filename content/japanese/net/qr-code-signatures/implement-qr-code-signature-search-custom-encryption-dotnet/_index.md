@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して .NET でカスタム暗号化による QR コード署名検索を実装する"
 "url": "/ja/net/qr-code-signatures/implement-qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してカスタム暗号化による QR コード署名検索を実装する
 
 ## 導入

@@ -5,8 +5,8 @@
 "title": "QR-codehandtekeningen uit documenten verwijderen in .NET"
 "url": "/nl/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # Hoe u QR-codehandtekeningen uit uw documenten verwijdert
 
 ## Invoering

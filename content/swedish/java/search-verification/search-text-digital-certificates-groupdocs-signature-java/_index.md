@@ -4,8 +4,8 @@
 "title": "Bemästra sökning efter digitala certifikat med GroupDocs.Signature för Java"
 "url": "/sv/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra sökning efter digitala certifikat med GroupDocs.Signature för Java
 
 ## Introduktion

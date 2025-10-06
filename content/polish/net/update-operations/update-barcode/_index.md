@@ -5,8 +5,8 @@
 "title": "Aktualizacja podpisów kodów kreskowych w dokumentach"
 "url": "/pl/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Wstęp
 Podpisy kodami kreskowymi są szeroko stosowane w cyfrowych obiegach dokumentów do kodowania ustrukturyzowanych danych, umożliwiając efektywne śledzenie, identyfikację i walidację. GroupDocs.Signature for .NET to kompleksowe rozwiązanie do podpisywania dokumentów, które umożliwia programistom integrację zaawansowanych funkcji podpisów z aplikacjami, w tym aktualizację istniejących podpisów kodami kreskowymi w dokumentach.
 

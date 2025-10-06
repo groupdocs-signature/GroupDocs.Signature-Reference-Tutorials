@@ -4,8 +4,8 @@
 "title": "تنفيذ بحث توقيع رمز الاستجابة السريعة في الصور متعددة الطبقات باستخدام Java وGroupDocs.Signature"
 "url": "/ar/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ البحث عن توقيع رمز الاستجابة السريعة في مستندات الصور متعددة الطبقات باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

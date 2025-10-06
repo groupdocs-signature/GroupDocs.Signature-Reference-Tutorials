@@ -4,8 +4,8 @@
 "title": "คู่มือการนำการค้นหาลายเซ็นภาพไปใช้ใน Java ด้วย GroupDocs.Signature"
 "url": "/th/java/search-verification/search-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # คู่มือการนำการค้นหาลายเซ็นภาพไปใช้ใน Java ด้วย GroupDocs.Signature
 
 ## การแนะนำ

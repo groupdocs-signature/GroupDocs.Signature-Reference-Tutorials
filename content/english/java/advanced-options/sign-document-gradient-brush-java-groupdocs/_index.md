@@ -9,8 +9,8 @@ weight: 1
 url: "/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 categories: ["Document Processing"]
 tags: ["java", "digital-signature", "groupdocs", "pdf-signing", "document-styling"]
+type: docs
 ---
-
 # Add Gradient Effects to Digital Signatures in Java
 
 Ever noticed how some digitally signed documents look, well... boring? Just plain text on a white background? If you're building an application that needs professional-looking document signatures—think contracts, invoices, or certificates—you'll want something that stands out while still being functional.

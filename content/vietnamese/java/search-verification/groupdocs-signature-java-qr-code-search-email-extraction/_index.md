@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature cho Java - Tìm kiếm chữ ký mã QR hiệu quả và trích xuất email"
 "url": "/vi/java/search-verification/groupdocs-signature-java-qr-code-search-email-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ GroupDocs.Signature cho Java: Tìm kiếm chữ ký mã QR và trích xuất email
 
 ## Giới thiệu

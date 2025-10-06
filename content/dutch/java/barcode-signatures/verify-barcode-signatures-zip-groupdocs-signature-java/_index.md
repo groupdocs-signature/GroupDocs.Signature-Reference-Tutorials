@@ -4,8 +4,8 @@
 "title": "Barcodehandtekeningen in ZIP-bestanden verifiëren met GroupDocs.Signature voor Java"
 "url": "/nl/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Barcodehandtekeningen in ZIP-bestanden verifiëren met GroupDocs.Signature voor Java
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Πώς να αφαιρέσετε ψηφιακές υπογραφές από PDF χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/signature-management/remove-digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αφαιρέσετε ψηφιακές υπογραφές από PDF χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

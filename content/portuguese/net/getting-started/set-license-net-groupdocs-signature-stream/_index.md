@@ -4,8 +4,8 @@
 "title": "Configurando licença no .NET usando GroupDocs.Signature e FileStream - Um guia completo"
 "url": "/pt/net/getting-started/set-license-net-groupdocs-signature-stream/"
 "weight": 1
+type: docs
 ---
-
 # Configurando licença em .NET com GroupDocs.Signature e FileStream
 ## Começando
 ### Implementando Set License via Stream no .NET usando GroupDocs.Signature

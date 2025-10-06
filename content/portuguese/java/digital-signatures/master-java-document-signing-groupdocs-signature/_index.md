@@ -4,8 +4,8 @@
 "title": "Domine a assinatura de documentos Java com códigos de barras GS1DotCode usando GroupDocs.Signature para Java"
 "url": "/pt/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Dominando a assinatura de documentos em Java com códigos de barras GS1DotCode usando GroupDocs.Signature
 
 ## Introdução

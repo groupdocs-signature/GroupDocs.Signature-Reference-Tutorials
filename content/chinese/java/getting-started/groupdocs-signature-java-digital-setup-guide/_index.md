@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58; Java 数字签名设置综合指南"
 "url": "/zh/java/getting-started/groupdocs-signature-java-digital-setup-guide/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 实现 Java 数字签名设置：开发人员指南
 
 在当今的数字时代，确保文档的真实性和完整性至关重要。数字签名提供了一种安全的方式来验证文档自签名以来未被更改。本指南将指导您如何使用强大的 GroupDocs.Signature Java 库来设置和实现数字签名选项。

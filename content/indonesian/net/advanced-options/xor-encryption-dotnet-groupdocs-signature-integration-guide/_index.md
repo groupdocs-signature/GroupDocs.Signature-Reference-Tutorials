@@ -4,8 +4,8 @@
 "title": "Menerapkan Enkripsi XOR di .NET Menggunakan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/net/advanced-options/xor-encryption-dotnet-groupdocs-signature-integration-guide/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Enkripsi XOR di .NET Menggunakan GroupDocs.Signature: Panduan Lengkap
 
 ## Perkenalan

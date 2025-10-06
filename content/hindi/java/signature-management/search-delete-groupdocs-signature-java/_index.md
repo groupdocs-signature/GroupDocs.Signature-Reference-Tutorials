@@ -4,8 +4,8 @@
 "title": "कुशल हस्ताक्षर प्रबंधन&#58; GroupDocs.Signature for Java का उपयोग करके डिजिटल हस्ताक्षर कैसे खोजें और हटाएँ"
 "url": "/hi/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # कुशल हस्ताक्षर प्रबंधन: GroupDocs.Signature for Java का उपयोग करके डिजिटल हस्ताक्षर कैसे खोजें और हटाएँ
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "A Master GroupDocs.Signature for .NET hatékony dokumentuminformáció-kinyerési és -megjelenítési funkciója"
 "url": "/hu/net/preview-info/groupdocs-signature-net-document-info-extraction/"
 "weight": 1
+type: docs
 ---
-
 # A GroupDocs.Signature for .NET elsajátítása: Dokumentuminformációk hatékony kinyerése és megjelenítése
 
 ## Bevezetés

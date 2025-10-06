@@ -4,8 +4,8 @@
 "title": "Κρυπτογράφηση και σειριοποίηση κύριων μεταδεδομένων σε Java με το GroupDocs.Signature"
 "url": "/el/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την κρυπτογράφηση και τη σειριοποίηση μεταδεδομένων σε Java με το GroupDocs.Signature
 
 ## Εισαγωγή

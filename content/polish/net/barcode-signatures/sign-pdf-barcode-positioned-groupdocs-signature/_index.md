@@ -4,8 +4,8 @@
 "title": "Jak podpisywać pliki PDF precyzyjnie umieszczonymi kodami kreskowymi za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisać dokument PDF precyzyjnie umieszczonymi kodami kreskowymi za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

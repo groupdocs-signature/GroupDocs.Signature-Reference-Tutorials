@@ -4,8 +4,8 @@
 "title": "Biztonságos dokumentumaláírás elsajátítása metaadatokkal és egyéni titkosítással .NET-ben a GroupDocs.Signature használatával"
 "url": "/hu/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Biztonságos dokumentumaláírás mesteri szintű elsajátítása metaadatokkal és egyéni titkosítással .NET-ben
 
 ## Bevezetés

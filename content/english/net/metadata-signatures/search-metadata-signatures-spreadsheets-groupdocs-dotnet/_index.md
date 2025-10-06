@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["metadata-signatures", "spreadsheet-processing", "groupdocs", "csharp", "document-verification"]
+type: docs
 ---
-
 # How to Search Metadata Signatures in Spreadsheet Using C#
 
 ## Introduction

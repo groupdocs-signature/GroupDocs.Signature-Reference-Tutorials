@@ -5,8 +5,8 @@
 "title": "Aggiornare le firme di testo nei documenti"
 "url": "/it/net/update-operations/update-text/"
 "weight": 13
+type: docs
 ---
-
 ## Introduzione
 GroupDocs.Signature per .NET è una soluzione completa per la firma dei documenti che consente agli sviluppatori di integrare potenti funzionalità di firma nelle loro applicazioni .NET. Grazie a questa versatile libreria, è possibile aggiungere, cercare, verificare e aggiornare senza problemi vari tipi di firme, incluse le firme testuali, in un'ampia gamma di formati di documento. Questo tutorial si concentra specificamente sull'aggiornamento delle firme testuali nei documenti, fornendo una guida dettagliata per un'implementazione senza problemi.
 

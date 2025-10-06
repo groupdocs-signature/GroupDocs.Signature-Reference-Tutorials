@@ -4,8 +4,8 @@
 "title": "Implémentation de signatures numériques personnalisées en Java avec GroupDocs.Signature - Un guide complet"
 "url": "/fr/java/digital-signatures/custom-digital-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implémentation de signatures numériques personnalisées en Java avec GroupDocs.Signature
 
 À l'ère du numérique, garantir l'intégrité et l'authenticité des documents est crucial. Les signatures traditionnelles sont souvent insuffisantes pour vérifier la légitimité des documents partagés électroniquement. Ce guide complet vous guidera dans la mise en œuvre d'une signature numérique personnalisée grâce à **GroupDocs.Signature pour Java**, offrant un niveau de sécurité et de professionnalisme accru dans vos documents numériques.

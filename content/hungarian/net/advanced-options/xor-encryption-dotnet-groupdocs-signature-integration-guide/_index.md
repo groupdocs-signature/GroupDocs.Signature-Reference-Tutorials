@@ -4,8 +4,8 @@
 "title": "XOR titkosítás implementálása .NET-ben a GroupDocs.Signature használatával – Átfogó útmutató"
 "url": "/hu/net/advanced-options/xor-encryption-dotnet-groupdocs-signature-integration-guide/"
 "weight": 1
+type: docs
 ---
-
 # XOR titkosítás implementálása .NET-ben a GroupDocs.Signature használatával: Átfogó útmutató
 
 ## Bevezetés

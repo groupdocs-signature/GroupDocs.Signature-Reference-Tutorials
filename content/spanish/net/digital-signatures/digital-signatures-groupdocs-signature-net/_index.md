@@ -4,8 +4,8 @@
 "title": "Implementar firmas digitales en .NET usando GroupDocs.Signature"
 "url": "/es/net/digital-signatures/digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementación de la firma de documentos con firmas digitales mediante GroupDocs.Signature para .NET
 
 ## Introducción

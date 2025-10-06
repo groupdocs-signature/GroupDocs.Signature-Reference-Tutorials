@@ -4,8 +4,8 @@
 "title": "Come eliminare le firme delle immagini in .NET utilizzando GroupDocs.Signature&#58; una guida passo passo"
 "url": "/it/net/signature-management/delete-image-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Come eliminare le firme delle immagini in .NET utilizzando GroupDocs.Signature: una guida passo passo
 
 Nel panorama digitale odierno, la gestione delle firme dei documenti è fondamentale per garantire la sicurezza e l'autenticità delle operazioni aziendali. Se si gestiscono documenti che contengono più firme grafiche, una gestione efficiente può far risparmiare tempo e risorse. Questa guida completa vi guiderà nell'utilizzo di... **GroupDocs.Signature per .NET** per inizializzare un'istanza di firma, cercare firme di immagini ed eliminarne di specifiche in base a determinate condizioni. Al termine di questo tutorial, avrai imparato a semplificare questo processo in modo efficace.

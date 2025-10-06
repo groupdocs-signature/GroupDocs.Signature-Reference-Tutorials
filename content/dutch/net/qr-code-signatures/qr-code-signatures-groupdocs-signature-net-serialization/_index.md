@@ -4,8 +4,8 @@
 "title": "Implementeer QR-codehandtekeningen in .NET met aangepaste serialisatie met behulp van GroupDocs.Signature"
 "url": "/nl/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Implementeer QR-codehandtekeningen met aangepaste serialisatie in .NET met behulp van GroupDocs.Signature
 
 ## Invoering

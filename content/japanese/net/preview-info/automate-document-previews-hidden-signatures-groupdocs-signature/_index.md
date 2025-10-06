@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して、隠し署名付きのドキュメント プレビューを自動化する"
 "url": "/ja/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して、隠し署名付きのドキュメント プレビューを自動化する
 
 ## 導入

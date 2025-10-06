@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してメタデータと暗号化で PDF に署名する方法 | 安全なドキュメント保護ガイド"
 "url": "/ja/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してメタデータと暗号化で PDF に署名する方法
 
 ## 導入

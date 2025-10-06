@@ -3,8 +3,8 @@
 "title": "Hướng dẫn về chữ ký trường biểu mẫu cho GroupDocs.Signature .NET"
 "url": "/vi/net/form-field-signatures/"
 "weight": 8
+type: docs
 ---
-
 # Hướng dẫn về chữ ký trường biểu mẫu cho GroupDocs.Signature .NET
 
 Nắm vững chữ ký trường biểu mẫu PDF với hướng dẫn chi tiết về GroupDocs.Signature dành cho nhà phát triển .NET của chúng tôi. Hướng dẫn từng bước này sẽ trình bày cách làm việc với các trường biểu mẫu chuẩn, tạo và quản lý các trường combobox, triển khai các nhóm nút radio và sử dụng trường biểu mẫu để ký tài liệu. Mỗi hướng dẫn đều cung cấp các ví dụ mã C# thực tế cho các thao tác trường biểu mẫu, giúp bạn xây dựng tài liệu PDF tương tác với các trường biểu mẫu có thể điền, có khả năng thu thập và xác thực thông tin đầu vào của người dùng trong khi vẫn duy trì tính toàn vẹn của tài liệu.

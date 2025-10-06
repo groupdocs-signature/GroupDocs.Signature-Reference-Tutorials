@@ -4,8 +4,8 @@
 "title": "Képaláírások frissítése és keresése PDF-ekben Java használatával a GroupDocs.Signature segítségével"
 "url": "/hu/java/signature-management/update-search-image-signatures-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Képaláírások frissítése és keresése PDF-ekben Java segítségével
 
 ## Bevezetés

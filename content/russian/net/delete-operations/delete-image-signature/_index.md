@@ -5,8 +5,8 @@
 "title": "Как удалить подписи изображений из документов в .NET"
 "url": "/ru/net/delete-operations/delete-image-signature/"
 "weight": 14
+type: docs
 ---
-
 # Как удалить подписи изображений из документов с помощью GroupDocs.Signature
 
 ## Введение

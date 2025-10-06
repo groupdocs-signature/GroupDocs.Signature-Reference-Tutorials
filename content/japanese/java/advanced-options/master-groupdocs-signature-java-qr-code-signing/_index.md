@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java の QR コード署名テクニックを使用して、動的ドキュメント署名をマスターしましょう"
 "url": "/ja/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Javaで動的ドキュメント署名をマスターする: QRコード署名テクニック
 
 今日のデジタル世界では、電子文書を効率的に保護し、認証することが不可欠です。 **Java 用 GroupDocs.Signature** さまざまな位置にある QR コード署名を使用して PDF の信頼性を確保しながら、PDF に迅速に署名できる強力なソリューションを提供します。

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中實作文字簽章驗證，實現安全文件管理"
 "url": "/zh-hant/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 .NET 中實作文字簽章驗證
 ## 搜尋與驗證
 **SEO URL**：實作文字簽章驗證-groupdocs-net

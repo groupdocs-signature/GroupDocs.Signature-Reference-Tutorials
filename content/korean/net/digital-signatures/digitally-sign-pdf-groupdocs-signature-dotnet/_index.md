@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 PDF에 디지털 서명하는 방법 - 단계별 가이드"
 "url": "/ko/net/digital-signatures/digitally-sign-pdf-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 PDF 문서에 디지털 서명하는 방법
 
 ## 소개

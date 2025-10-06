@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中实现二维码签名——综合指南"
 "url": "/zh/net/qr-code-signatures/implement-qr-signature-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 .NET 中实现和搜索二维码签名
 
 ## 介绍

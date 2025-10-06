@@ -4,8 +4,8 @@
 "title": "تأمين وأتمتة توقيع المستندات باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # تأمين وأتمتة توقيع المستندات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

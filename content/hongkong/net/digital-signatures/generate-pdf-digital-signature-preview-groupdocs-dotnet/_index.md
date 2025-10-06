@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 產生 PDF 數位簽章預覽 | 綜合指南"
 "url": "/zh-hant/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 產生 PDF 數位簽章預覽
 
 ## 介紹

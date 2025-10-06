@@ -4,8 +4,8 @@
 "title": "Načtení historie zpracování dokumentů pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Načtení historie zpracování dokumentů pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

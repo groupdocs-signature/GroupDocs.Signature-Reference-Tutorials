@@ -4,8 +4,8 @@
 "title": "Het opvragen van documenteigenschappen onder de knie krijgen met GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Het opvragen van documenteigenschappen onder de knie krijgen met GroupDocs.Signature voor Java
 Ontgrendel de kracht van documentbeheer door GroupDocs.Signature voor Java te gebruiken om moeiteloos documenteigenschappen zoals opmaak, grootte, aantal pagina's en meer op te halen en af te drukken. Deze uitgebreide tutorial begeleidt u bij het opzetten van uw omgeving, het implementeren van diverse functionaliteiten en het toepassen van deze mogelijkheden in praktijkscenario's.
 

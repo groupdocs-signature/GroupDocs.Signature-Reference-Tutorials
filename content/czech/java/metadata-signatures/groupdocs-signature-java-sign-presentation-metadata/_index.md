@@ -4,8 +4,8 @@
 "title": "Jak podepisovat prezentační dokumenty metadaty pomocí GroupDocs.Signature pro Javu – kompletní průvodce"
 "url": "/cs/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # Komplexní průvodce podepisováním prezentačních dokumentů metadaty pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

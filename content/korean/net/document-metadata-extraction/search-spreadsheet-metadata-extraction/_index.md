@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature를 사용하여 스프레드시트 메타데이터를 쉽게 추출하세요"
 "url": "/ko/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 스프레드시트에서 메타데이터를 추출하는 방법
 
 ## 스프레드시트 메타데이터가 중요한 이유

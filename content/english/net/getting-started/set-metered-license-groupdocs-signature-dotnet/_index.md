@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["GroupDocs.Signature"]
 tags: ["metered-license", "dotnet", "document-processing", "usage-tracking"]
+type: docs
 ---
-
 # Metered License GroupDocs Signature: Complete Setup Guide for .NET
 
 ## Introduction

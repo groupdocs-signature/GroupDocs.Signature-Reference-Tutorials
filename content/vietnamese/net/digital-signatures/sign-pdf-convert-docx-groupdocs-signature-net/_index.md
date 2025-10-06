@@ -4,8 +4,8 @@
 "title": "Ký PDF và chuyển đổi sang DOCX với GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/digital-signatures/sign-pdf-convert-docx-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Ký PDF và chuyển đổi sang DOCX với GroupDocs.Signature cho .NET: Hướng dẫn toàn diện
 
 Trong bối cảnh kỹ thuật số ngày nay, việc ký tài liệu an toàn là vô cùng quan trọng trong nhiều lĩnh vực như pháp lý, tài chính và hành chính. GroupDocs.Signature for .NET đơn giản hóa quy trình này bằng cách cho phép bạn ký PDF dễ dàng và chuyển đổi chúng sang các định dạng khác nhau như DOCX. Hướng dẫn toàn diện này sẽ hướng dẫn bạn các bước cần thiết để nâng cao quy trình quản lý tài liệu của mình.

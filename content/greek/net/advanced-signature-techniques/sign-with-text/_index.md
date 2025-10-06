@@ -5,8 +5,8 @@
 "title": "Προσθήκη υπογραφών κειμένου σε έγγραφα με το GroupDocs.Signature για .NET"
 "url": "/el/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # Πώς να προσθέσετε υπογραφές κειμένου σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή: Εκσυγχρονίστε τη διαδικασία υπογραφής εγγράφων σας

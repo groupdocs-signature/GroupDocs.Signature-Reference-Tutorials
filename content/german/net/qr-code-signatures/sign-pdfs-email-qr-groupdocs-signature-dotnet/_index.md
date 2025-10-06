@@ -4,8 +4,8 @@
 "title": "So signieren Sie PDFs mit E-Mail-QR-Codes mithilfe von GroupDocs.Signature für .NET | Schritt-für-Schritt-Anleitung"
 "url": "/de/net/qr-code-signatures/sign-pdfs-email-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie ein PDF-Dokument mit einem E-Mail-QR-Code mithilfe von GroupDocs.Signature für .NET
 
 ## Einführung

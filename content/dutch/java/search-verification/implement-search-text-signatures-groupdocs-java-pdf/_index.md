@@ -4,8 +4,8 @@
 "title": "Hoe u zoeken naar teksthandtekeningen in PDF's implementeert met GroupDocs.Signature voor Java"
 "url": "/nl/java/search-verification/implement-search-text-signatures-groupdocs-java-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u zoeken naar teksthandtekeningen in PDF's implementeert met GroupDocs.Signature voor Java
 
 ## Invoering

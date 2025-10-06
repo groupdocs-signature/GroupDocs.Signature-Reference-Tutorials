@@ -5,8 +5,8 @@
 "title": "Aktualizace podpisů čárových kódů v dokumentech"
 "url": "/cs/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Zavedení
 Podpisy čárových kódů se široce používají v digitálních pracovních postupech pro dokumenty ke kódování strukturovaných dat, což umožňuje efektivní sledování, identifikaci a ověřování. GroupDocs.Signature for .NET je komplexní řešení pro podepisování dokumentů, které vývojářům umožňuje integrovat pokročilé funkce podpisu do jejich aplikací, včetně možnosti aktualizovat stávající podpisy čárových kódů v dokumentech.
 

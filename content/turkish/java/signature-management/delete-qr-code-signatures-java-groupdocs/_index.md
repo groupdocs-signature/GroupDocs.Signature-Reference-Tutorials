@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Belgelerden QR Kod İmzaları Nasıl Kaldırılır"
 "url": "/tr/java/signature-management/delete-qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Belgelerden QR Kod İmzaları Nasıl Kaldırılır
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Táblázatkezelő metaadatainak kinyerése a GroupDocs.Signature for Java használatával – Átfogó útmutató"
 "url": "/hu/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Táblázatkezelő metaadatainak kinyerése a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

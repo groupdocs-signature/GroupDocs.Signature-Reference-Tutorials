@@ -4,8 +4,8 @@
 "title": "Meistern Sie die Signierung von .NET-Dokumenten mit GroupDocs.Signature für sichere digitale Signaturen"
 "url": "/de/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # .NET-Dokumentsignierung mit GroupDocs.Signature meistern
 
 ## Einführung

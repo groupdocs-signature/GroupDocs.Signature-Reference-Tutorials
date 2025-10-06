@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してサポートされているファイル形式を取得および表示する"
 "url": "/ja/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してサポートされているファイル形式を取得および表示する
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET 디지털 서명을 구현하는 방법 - 완전한 가이드"
 "url": "/ko/net/digital-signatures/implement-dotnet-digital-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 .NET 디지털 서명을 구현하는 방법
 
 ## 소개

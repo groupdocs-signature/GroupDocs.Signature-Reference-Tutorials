@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 对 PDF 进行元数据和加密签名 | 安全文档保护指南"
 "url": "/zh/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 对 PDF 进行元数据和加密签名
 
 ## 介绍

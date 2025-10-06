@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58; के साथ .NET में छवि हस्ताक्षर खोज लागू करें एक चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/net/search-verification/implement-image-signature-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके छवि हस्ताक्षर खोज कैसे लागू करें
 
 ## परिचय

@@ -5,8 +5,8 @@
 "title": "دليل كامل لعمليات حذف توقيع المستندات"
 "url": "/ar/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # عمليات الحذف في GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "การค้นหาบาร์โค้ด Java ใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/search-verification/java-barcode-search-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้การค้นหาบาร์โค้ด Java ใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

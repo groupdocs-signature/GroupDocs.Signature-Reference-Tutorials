@@ -4,8 +4,8 @@
 "title": "Menerapkan Penanganan Peristiwa Kemajuan dalam Penandatanganan Dokumen dengan GroupDocs.Signature untuk Java"
 "url": "/id/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Penanganan Peristiwa Kemajuan dalam Penandatanganan Dokumen dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

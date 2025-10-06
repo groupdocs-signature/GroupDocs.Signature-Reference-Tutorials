@@ -4,8 +4,8 @@
 "title": "QR-codes versleutelen en ondertekenen in Java met GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/java/qr-code-signatures/encrypt-sign-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Versleutel en onderteken QR-codes met GroupDocs.Signature voor Java
 
 ## Invoering

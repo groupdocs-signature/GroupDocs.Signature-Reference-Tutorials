@@ -4,8 +4,8 @@
 "title": "تنفيذ توقيع المستندات باستخدام رموز الاستجابة السريعة (QR Codes) باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/qr-code-signatures/qr-code-signing-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ توقيع المستندات باستخدام رموز الاستجابة السريعة (QR Codes) باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Dokumentumok aláírása képaláírással a .NET-hez készült GroupDocs.Signature használatával"
 "url": "/hu/net/image-signatures/sign-document-image-signature-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum aláírása képaláírással a .NET GroupDocs.Signature használatával
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Come firmare documenti PDF con annotazioni di testo utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/text-signatures/sign-pdf-text-annotations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare documenti PDF con annotazioni di testo utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

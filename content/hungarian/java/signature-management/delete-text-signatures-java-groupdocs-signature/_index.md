@@ -4,8 +4,8 @@
 "title": "Hogyan törölhetünk szöveges aláírásokat Java-ban a GroupDocs.Signature használatával?"
 "url": "/hu/java/signature-management/delete-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan törölhetünk szöveges aláírásokat Java-ban a GroupDocs.Signature használatával?
 
 ## Bevezetés

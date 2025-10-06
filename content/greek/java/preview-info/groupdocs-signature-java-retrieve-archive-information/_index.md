@@ -4,8 +4,8 @@
 "title": "Πώς να ανακτήσετε πληροφορίες αρχείου αρχειοθέτησης χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να ανακτήσετε πληροφορίες αρχείου αρχειοθέτησης χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

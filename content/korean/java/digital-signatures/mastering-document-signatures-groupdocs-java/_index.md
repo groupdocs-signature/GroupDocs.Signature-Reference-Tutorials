@@ -4,8 +4,8 @@
 "title": "GroupDocs for Java를 활용한 디지털 문서 서명 마스터하기&#58; 종합 가이드"
 "url": "/ko/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs를 사용하여 디지털 문서 서명 마스터하기
 
 ## 소개

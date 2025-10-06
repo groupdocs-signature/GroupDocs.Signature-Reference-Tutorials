@@ -8,10 +8,8 @@ keywords:
 - XAdES signatures
 - GroupDocs.Signature for Java
 - digital certificates
-
+type: docs
 ---
-
-
 # How to Sign Documents with XAdES in Java using GroupDocs.Signature: A Step-by-Step Guide
 
 ## Introduction

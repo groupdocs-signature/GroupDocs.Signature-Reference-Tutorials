@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して Java で QR コード付きの Excel スプレッドシートに署名して保存する"
 "url": "/ja/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して Java で QR コード付きの Excel スプレッドシートに署名して保存する
 
 ## 導入

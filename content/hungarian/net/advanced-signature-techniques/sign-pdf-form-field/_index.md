@@ -5,8 +5,8 @@
 "title": "PDF dokumentumok aláírása űrlapmezőkkel .NET-ben"
 "url": "/hu/net/advanced-signature-techniques/sign-pdf-form-field/"
 "weight": 10
+type: docs
 ---
-
 # PDF dokumentumok aláírása űrlapmezőkkel a GroupDocs.Signature használatával
 
 Megbízható módszert keresel arra, hogy digitális aláírásokat adj PDF dokumentumaidhoz űrlapmezők segítségével? Ebben az átfogó útmutatóban végigvezetünk a folyamaton a GroupDocs.Signature for .NET használatával. Alakítsd át dokumentum-munkafolyamatodat biztonságos, jogilag kötelező érvényű aláírásokkal!

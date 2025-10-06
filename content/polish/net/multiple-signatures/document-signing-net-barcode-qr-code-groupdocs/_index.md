@@ -4,8 +4,8 @@
 "title": "Opanowanie podpisywania dokumentów w .NET&#58; Podpisy kodami kreskowymi i kodami QR za pomocą GroupDocs.Signature"
 "url": "/pl/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie podpisywania dokumentów w .NET: Implementacja podpisów kodami kreskowymi i kodami QR za pomocą GroupDocs.Signature
 
 ## Wstęp

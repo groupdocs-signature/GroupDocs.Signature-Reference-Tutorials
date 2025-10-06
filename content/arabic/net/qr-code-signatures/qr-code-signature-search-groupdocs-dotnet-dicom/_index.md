@@ -4,8 +4,8 @@
 "title": "البحث عن توقيع رمز الاستجابة السريعة في DICOM باستخدام GroupDocs.Signature لـ .NET - دليل كامل"
 "url": "/ar/net/qr-code-signatures/qr-code-signature-search-groupdocs-dotnet-dicom/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ عمليات البحث عن توقيعات رمز الاستجابة السريعة في الصور متعددة الطبقات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

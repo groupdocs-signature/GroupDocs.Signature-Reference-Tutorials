@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Word Belgelerinde Ana Meta Veri İmzalama"
 "url": "/tr/java/metadata-signatures/master-metadata-signing-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile Word Belgelerinde Meta Veri İmzalamada Ustalaşma
 
 ## giriiş

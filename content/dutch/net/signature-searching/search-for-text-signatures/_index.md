@@ -5,8 +5,8 @@
 "title": "Zoeken naar teksthandtekeningen in documenten"
 "url": "/nl/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## Invoering
 
 Teksthandtekeningen zijn een veelgebruikte methode om de auteur, goedkeuring of verificatie van een document aan te geven. Bij digitaal documentbeheer is de mogelijkheid om programmatisch te zoeken naar en teksthandtekeningen te extraheren cruciaal voor documentvalidatie, workflowautomatisering en nalevingscontrole. GroupDocs.Signature voor .NET biedt een uitgebreide oplossing voor het implementeren van zoekfunctionaliteit voor teksthandtekeningen in uw .NET-applicaties, met ondersteuning voor diverse documentformaten en geavanceerde zoekmogelijkheden.

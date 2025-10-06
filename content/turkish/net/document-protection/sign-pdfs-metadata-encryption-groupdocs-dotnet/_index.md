@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak PDF'leri Meta Veri ve Şifrelemeyle Nasıl İmzalayabilirsiniz? | Güvenli Belge Koruma Kılavuzu"
 "url": "/tr/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak PDF'leri Meta Veri ve Şifrelemeyle Nasıl İmzalayabilirsiniz?
 
 ## giriiş

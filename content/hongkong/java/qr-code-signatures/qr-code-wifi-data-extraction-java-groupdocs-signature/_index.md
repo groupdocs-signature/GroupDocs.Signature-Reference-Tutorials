@@ -4,8 +4,8 @@
 "title": "使用 Java 和 GroupDocs.Signature 從 PDF 中的二維碼提取 WiFi 數據"
 "url": "/zh-hant/java/qr-code-signatures/qr-code-wifi-data-extraction-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 Java 和 GroupDocs.Signature 從 PDF 中的二維碼提取 WiFi 數據
 
 ## 介紹

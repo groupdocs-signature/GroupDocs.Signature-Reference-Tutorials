@@ -5,8 +5,8 @@
 "title": "如何使用 GroupDocs.Signature 對二維碼文件進行簽名"
 "url": "/zh-hant/net/advanced-signature-techniques/sign-with-qr-code/"
 "weight": 15
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 將二維碼簽章新增至文檔
 
 您是否想過如何為您的數位文件添加額外的安全保護和身份驗證？二維碼簽名或許正是您所需要的。在本指南中，我們將引導您完成使用 GroupDocs.Signature for .NET 實作二維碼簽章的整個過程。

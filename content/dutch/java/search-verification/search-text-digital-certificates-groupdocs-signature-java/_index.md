@@ -4,8 +4,8 @@
 "title": "Digitaal certificaat zoeken onder de knie krijgen met GroupDocs.Signature voor Java"
 "url": "/nl/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Digitaal certificaat zoeken onder de knie krijgen met GroupDocs.Signature voor Java
 
 ## Invoering

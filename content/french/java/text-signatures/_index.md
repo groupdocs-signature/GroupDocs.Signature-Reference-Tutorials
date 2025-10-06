@@ -3,8 +3,8 @@
 "title": "Tutoriels sur la signature de texte pour GroupDocs.Signature Java"
 "url": "/fr/java/text-signatures/"
 "weight": 7
+type: docs
 ---
-
 # Tutoriels sur la signature de texte pour GroupDocs.Signature Java
 
 Nos tutoriels sur les signatures textuelles vous expliquent comment implémenter différents types de signatures textuelles avec GroupDocs.Signature en Java. Ces guides pratiques expliquent comment créer des signatures textuelles, des filigranes, des annotations, des autocollants, des champs de formulaire et des tampons avec des options de formatage personnalisables. Chaque tutoriel inclut des exemples de code Java détaillés pour des scénarios d'implémentation de signatures textuelles, vous aidant à créer des applications capables de marquer efficacement des documents avec des informations textuelles, tout en offrant de multiples options de style et de positionnement.

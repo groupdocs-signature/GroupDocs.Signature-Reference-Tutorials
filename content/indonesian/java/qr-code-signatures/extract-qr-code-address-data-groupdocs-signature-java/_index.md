@@ -4,8 +4,8 @@
 "title": "Ekstrak Data Alamat Kode QR Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/qr-code-signatures/extract-qr-code-address-data-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mengekstrak Data Alamat Kode QR Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

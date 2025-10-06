@@ -4,8 +4,8 @@
 "title": "Hur man verifierar streckkodssignaturer i Java med GroupDocs.Signature"
 "url": "/sv/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar verifiera streckkodssignaturer med GroupDocs.Signature för Java
 
 ## Introduktion

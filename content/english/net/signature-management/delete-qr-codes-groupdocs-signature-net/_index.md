@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: [".NET Development"]
 tags: ["groupdocs", "document-processing", "qr-codes", "signatures", "csharp"]
+type: docs
 ---
-
 # How to Remove QR Codes from Documents in .NET
 
 ## Introduction

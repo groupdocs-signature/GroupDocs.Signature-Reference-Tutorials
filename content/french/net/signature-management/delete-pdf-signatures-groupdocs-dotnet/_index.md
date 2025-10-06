@@ -4,8 +4,8 @@
 "title": "Supprimer efficacement les signatures PDF avec GroupDocs.Signature pour .NET"
 "url": "/fr/net/signature-management/delete-pdf-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Comment utiliser GroupDocs.Signature pour .NET pour supprimer les signatures PDF par ID
 
 ## Introduction

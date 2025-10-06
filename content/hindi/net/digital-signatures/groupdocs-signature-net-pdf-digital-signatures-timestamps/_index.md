@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके टाइमस्टैम्प के साथ PDF डिजिटल हस्ताक्षर कैसे लागू करें"
 "url": "/hi/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके टाइमस्टैम्प के साथ PDF डिजिटल हस्ताक्षर कैसे लागू करें
 
 ## परिचय

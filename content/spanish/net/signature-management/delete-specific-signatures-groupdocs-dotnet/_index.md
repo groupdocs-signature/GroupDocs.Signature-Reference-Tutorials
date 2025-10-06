@@ -4,8 +4,8 @@
 "title": "Cómo eliminar firmas específicas en documentos con GroupDocs.Signature para .NET | Tutorial de gestión de firmas"
 "url": "/es/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cómo eliminar firmas específicas en documentos usando GroupDocs.Signature para .NET
 
 ## Introducción

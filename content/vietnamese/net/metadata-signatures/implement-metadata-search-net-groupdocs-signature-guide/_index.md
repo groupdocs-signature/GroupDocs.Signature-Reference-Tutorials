@@ -4,8 +4,8 @@
 "title": "Cách triển khai tìm kiếm siêu dữ liệu trong .NET bằng GroupDocs.Signature - Hướng dẫn từng bước"
 "url": "/vi/net/metadata-signatures/implement-metadata-search-net-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai tìm kiếm siêu dữ liệu trong .NET bằng GroupDocs.Signature: Hướng dẫn từng bước
 
 ## Giới thiệu

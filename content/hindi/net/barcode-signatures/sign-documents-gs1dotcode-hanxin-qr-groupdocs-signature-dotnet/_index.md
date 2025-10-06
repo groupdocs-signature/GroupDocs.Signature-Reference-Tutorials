@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके GS1DotCode और HanXin QR कोड के साथ सुरक्षित दस्तावेज़ हस्ताक्षर"
 "url": "/hi/net/barcode-signatures/sign-documents-gs1dotcode-hanxin-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके GS1DotCode और HanXin QR कोड के साथ सुरक्षित दस्तावेज़ हस्ताक्षर
 ## .NET के लिए GroupDocs.Signature का उपयोग करके GS1DotCode और HanXin QR कोड के साथ दस्तावेज़ों पर हस्ताक्षर कैसे करें
 आज के डिजिटल युग में, दस्तावेज़ों पर इलेक्ट्रॉनिक रूप से सुरक्षित हस्ताक्षर करना बेहद ज़रूरी है। चाहे आप एक व्यावसायिक पेशेवर हों या एक डेवलपर जो वर्कफ़्लो को स्वचालित करना चाहता हो, बारकोड और क्यूआर कोड हस्ताक्षरों को एकीकृत करने से सुरक्षा बढ़ती है और प्रक्रियाएँ सरल होती हैं। यह ट्यूटोरियल आपको अपने अनुप्रयोगों में GS1DotCode और HanXin क्यूआर कोड हस्ताक्षरों को लागू करने के लिए .NET के लिए GroupDocs.Signature का उपयोग करने में मार्गदर्शन करता है।

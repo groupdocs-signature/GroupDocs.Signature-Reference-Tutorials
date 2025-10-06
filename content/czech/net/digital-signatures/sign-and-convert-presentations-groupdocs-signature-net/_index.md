@@ -4,8 +4,8 @@
 "title": "Jak podepisovat a převádět prezentace pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/digital-signatures/sign-and-convert-presentations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat a převádět prezentace pomocí GroupDocs.Signature pro .NET: Komplexní průvodce
 
 ## Zavedení

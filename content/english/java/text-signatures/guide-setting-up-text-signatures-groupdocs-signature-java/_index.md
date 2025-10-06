@@ -8,10 +8,8 @@ keywords:
 - GroupDocs Signature for Java
 - text signatures in documents
 - Java signature management
-
+type: docs
 ---
-
-
 # Comprehensive Guide to Setting Up Text Signatures with GroupDocs.Signature for Java
 
 ## Introduction

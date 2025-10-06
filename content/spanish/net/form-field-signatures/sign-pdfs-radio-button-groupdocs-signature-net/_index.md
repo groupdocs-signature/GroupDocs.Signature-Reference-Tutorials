@@ -4,8 +4,8 @@
 "title": "Cómo firmar archivos PDF mediante campos de formulario con botones de opción con GroupDocs.Signature para .NET"
 "url": "/es/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar un PDF mediante campos de formulario con botones de opción con GroupDocs.Signature para .NET
 
 ## Introducción

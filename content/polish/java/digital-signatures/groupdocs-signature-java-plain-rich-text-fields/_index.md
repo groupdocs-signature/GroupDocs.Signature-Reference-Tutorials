@@ -4,8 +4,8 @@
 "title": "Podpisywanie dokumentów głównych w Javie – implementacja pól tekstu zwykłego i sformatowanego za pomocą GroupDocs.Signature"
 "url": "/pl/java/digital-signatures/groupdocs-signature-java-plain-rich-text-fields/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie podpisywania dokumentów w Javie: Implementacja pól tekstu zwykłego i sformatowanego za pomocą GroupDocs.Signature
 
 Witamy w kompleksowym przewodniku dotyczącym wykorzystania **GroupDocs.Signature dla Java** podpisywać dokumenty za pomocą pól zwykłego i sformatowanego tekstu. Niezależnie od tego, czy automatyzujesz zatwierdzanie umów, czy usprawniasz przepływy pracy, ten samouczek pomoże Ci skutecznie wdrożyć te funkcje.

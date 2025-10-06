@@ -4,8 +4,8 @@
 "title": "Képaláírás-keresés .NET-ben a GroupDocs.Signature használatával – Átfogó útmutató"
 "url": "/hu/net/search-verification/image-signature-search-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Átfogó útmutató a képaláírás-keresés megvalósításához .NET-ben a GroupDocs.Signature segítségével
 
 ## Bevezetés

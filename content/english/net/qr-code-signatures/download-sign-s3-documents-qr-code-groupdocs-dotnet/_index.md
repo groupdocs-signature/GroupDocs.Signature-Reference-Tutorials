@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["amazon-s3", "groupdocs-signature", "qr-code-signing", "dotnet", "document-security"]
+type: docs
 ---
-
 # S3 Document Signing .NET - Secure QR Code Integration Tutorial
 
 ## Why This Matters for Your Business

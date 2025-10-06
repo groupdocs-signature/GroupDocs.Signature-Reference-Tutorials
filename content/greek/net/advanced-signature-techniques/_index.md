@@ -5,8 +5,8 @@
 "title": "Εξοικείωση με προηγμένες τεχνικές υπογραφής εγγράφων στο .NET"
 "url": "/el/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # Προηγμένες Τεχνικές Υπογραφής με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

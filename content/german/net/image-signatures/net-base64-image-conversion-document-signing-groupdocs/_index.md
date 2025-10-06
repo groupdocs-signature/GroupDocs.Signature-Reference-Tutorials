@@ -4,8 +4,8 @@
 "title": ".NET Base64-Bildkonvertierung und Dokumentsignierung mit GroupDocs.Signature"
 "url": "/de/net/image-signatures/net-base64-image-conversion-document-signing-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren der .NET Base64-Bildkonvertierung und Dokumentsignierung mit GroupDocs.Signature
 
 ## Einführung

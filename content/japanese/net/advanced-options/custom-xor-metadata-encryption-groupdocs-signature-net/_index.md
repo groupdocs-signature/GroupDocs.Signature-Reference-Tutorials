@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET による高度な XOR メタデータ暗号化の完全ガイド"
 "url": "/ja/net/advanced-options/custom-xor-metadata-encryption-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET による高度な XOR メタデータ暗号化
 
 ## 導入

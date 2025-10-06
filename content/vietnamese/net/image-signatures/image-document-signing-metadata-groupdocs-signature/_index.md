@@ -4,8 +4,8 @@
 "title": "Ký tài liệu hình ảnh với siêu dữ liệu bằng GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký tài liệu hình ảnh với siêu dữ liệu bằng cách sử dụng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

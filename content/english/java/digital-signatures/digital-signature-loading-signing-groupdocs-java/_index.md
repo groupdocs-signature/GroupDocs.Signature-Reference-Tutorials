@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Java Development"]
 tags: ["digital-signature", "java", "pdf-signing", "certificate-management", "document-security"]
+type: docs
 ---
-
 # Digital Signature in Java - Complete Guide to Certificate Loading and Document Signing
 
 ## Introduction

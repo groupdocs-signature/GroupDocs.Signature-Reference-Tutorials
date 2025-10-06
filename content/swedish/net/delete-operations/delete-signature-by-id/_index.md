@@ -5,8 +5,8 @@
 "title": "Så här tar du bort signaturer med ID i .NET-dokument"
 "url": "/sv/net/delete-operations/delete-signature-by-id/"
 "weight": 11
+type: docs
 ---
-
 # Så här tar du bort signaturer med ID i .NET-dokument
 
 ## Varför skulle du behöva ta bort signaturer från dokument?

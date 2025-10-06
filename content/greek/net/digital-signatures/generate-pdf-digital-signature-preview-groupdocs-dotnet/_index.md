@@ -4,8 +4,8 @@
 "title": "Δημιουργία προεπισκόπησης ψηφιακής υπογραφής PDF με το GroupDocs.Signature για .NET | Πλήρης οδηγός"
 "url": "/el/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να δημιουργήσετε μια προεπισκόπηση ψηφιακής υπογραφής PDF χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

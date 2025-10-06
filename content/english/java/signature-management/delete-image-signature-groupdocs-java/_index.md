@@ -8,10 +8,8 @@ keywords:
 - remove image signatures GroupDocs Signature Java
 - delete digital signatures Java
 - manage document signatures Java
-
+type: docs
 ---
-
-
 # How to Remove Image Signatures from Documents Using GroupDocs.Signature for Java
 
 ## Introduction

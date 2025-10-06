@@ -4,8 +4,8 @@
 "title": "Ověření hlavního dokumentu pomocí GroupDocs.Signature pro Javu – Podrobný návod"
 "url": "/cs/java/search-verification/groupdocs-signature-java-document-verification/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí ověřování dokumentů pomocí GroupDocs.Signature pro Javu
 
 V dnešní digitální době je zajištění pravosti a integrity dokumentů klíčové v různých odvětvích. Ať už jste právník ověřující smlouvy, nebo firma ověřující faktury, ověřování dokumentů je nezbytné. Zadejte **GroupDocs.Signature pro Javu**: výkonná knihovna, která tento proces zjednodušuje tím, že umožňuje snadné ověřování podpisů pomocí čárových kódů.

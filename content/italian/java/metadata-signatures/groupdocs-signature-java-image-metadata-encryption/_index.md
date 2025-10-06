@@ -4,8 +4,8 @@
 "title": "Implementare la firma e la crittografia dei metadati delle immagini in Java con GroupDocs.Signature"
 "url": "/it/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Implementare la firma dei metadati delle immagini con crittografia in Java utilizzando GroupDocs.Signature
 
 ## Introduzione

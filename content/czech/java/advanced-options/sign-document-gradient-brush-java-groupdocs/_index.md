@@ -4,8 +4,8 @@
 "title": "Podepisování dokumentů pomocí gradientního štětce v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Podepisování dokumentů pomocí gradientního štětce v Javě pomocí GroupDocs.Signature
 
 dnešní digitální době je bezpečné podepisování dokumentů zásadní pro efektivitu napříč odvětvími. Tento tutoriál vás provede digitálním podepisováním dokumentů s efektem gradientního štětce. **GroupDocs.Signature pro Javu**.

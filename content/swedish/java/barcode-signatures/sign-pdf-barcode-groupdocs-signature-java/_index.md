@@ -4,8 +4,8 @@
 "title": "Signera PDF-dokument med streckkod med GroupDocs.Signature för Java – en omfattande guide"
 "url": "/sv/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Signera PDF-dokument med streckkod med GroupDocs.Signature för Java: En omfattande guide
 
 ## Introduktion

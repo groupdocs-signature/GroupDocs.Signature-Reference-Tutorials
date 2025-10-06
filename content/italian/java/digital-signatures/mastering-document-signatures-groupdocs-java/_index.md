@@ -4,8 +4,8 @@
 "title": "Padroneggiare le firme dei documenti digitali con GroupDocs per Java&#58; una guida completa"
 "url": "/it/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare le firme digitali dei documenti con GroupDocs per Java
 
 ## Introduzione

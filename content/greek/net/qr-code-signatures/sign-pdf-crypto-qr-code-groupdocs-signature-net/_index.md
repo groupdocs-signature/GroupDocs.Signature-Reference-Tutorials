@@ -4,8 +4,8 @@
 "title": "Υπογράψτε PDF με κωδικό QR κρυπτονομισμάτων χρησιμοποιώντας το GroupDocs.Signature για .NET™ Ένας ολοκληρωμένος οδηγός"
 "url": "/el/net/qr-code-signatures/sign-pdf-crypto-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα έγγραφο PDF χρησιμοποιώντας κωδικούς QR κρυπτονομισμάτων με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

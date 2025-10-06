@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: [".NET Development"]
 tags: ["groupdocs", "licensing", "filestream", "digital-signatures"]
+type: docs
 ---
-
 # How to Set License FileStream .NET with GroupDocs.Signature
 
 ## Why FileStream Licensing Matters for Your .NET Applications

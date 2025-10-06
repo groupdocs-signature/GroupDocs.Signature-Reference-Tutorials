@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 掌握 PDF 中的数字签名搜索"
 "url": "/zh/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 掌握 PDF 中的数字签名搜索
 
 ## 介绍

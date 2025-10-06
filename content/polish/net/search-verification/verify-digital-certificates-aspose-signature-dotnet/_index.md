@@ -4,8 +4,8 @@
 "title": "Jak weryfikować certyfikaty cyfrowe za pomocą Aspose.Signature dla .NET | Przewodnik krok po kroku"
 "url": "/pl/net/search-verification/verify-digital-certificates-aspose-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak weryfikować certyfikaty cyfrowe za pomocą Aspose.Signature dla platformy .NET
 
 ## Wstęp

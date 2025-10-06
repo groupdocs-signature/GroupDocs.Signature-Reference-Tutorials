@@ -4,8 +4,8 @@
 "title": "Как реализовать Java GroupDocs.Signature для извлечения и отображения истории обработки документа"
 "url": "/ru/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать Java GroupDocs.Signature: извлечение и отображение истории обработки документа
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "Cập nhật chữ ký mã QR trong tệp PDF bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/qr-code-signatures/update-qr-code-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cập nhật chữ ký mã QR trong tệp PDF bằng GroupDocs.Signature cho Java: Hướng dẫn toàn diện
 
 ## Giới thiệu

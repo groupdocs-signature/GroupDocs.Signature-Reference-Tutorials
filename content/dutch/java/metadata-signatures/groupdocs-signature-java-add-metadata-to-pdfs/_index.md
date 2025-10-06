@@ -4,8 +4,8 @@
 "title": "Metadata-handtekeningen toevoegen aan PDF's met GroupDocs.Signature voor Java&#58; een complete handleiding"
 "url": "/nl/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/"
 "weight": 1
+type: docs
 ---
-
 # Metadata-handtekeningen toevoegen aan PDF's met GroupDocs.Signature voor Java
 ## Invoering
 In het huidige digitale tijdperk is het cruciaal om de authenticiteit en integriteit van uw PDF-documenten te waarborgen. Of u nu een jurist bent die contracten beheert of een bedrijf dat gevoelige gegevens verwerkt, het toevoegen van metadatahandtekeningen kan een extra beveiligings- en traceerbaarheidslaag bieden. Deze handleiding laat u zien hoe u GroupDocs.Signature voor Java kunt gebruiken om naadloos standaard metadatahandtekeningen aan uw PDF-bestanden toe te voegen.

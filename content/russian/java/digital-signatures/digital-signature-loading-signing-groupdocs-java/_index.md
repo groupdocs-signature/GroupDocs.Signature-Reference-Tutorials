@@ -4,8 +4,8 @@
 "title": "Как реализовать загрузку и подписание цифровой подписи с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать загрузку и подписание цифровой подписи с помощью GroupDocs.Signature для Java
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में बारकोड हस्ताक्षरों को कैसे सत्यापित करें"
 "url": "/hi/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature के साथ बारकोड हस्ताक्षर सत्यापन कैसे लागू करें
 
 ## परिचय

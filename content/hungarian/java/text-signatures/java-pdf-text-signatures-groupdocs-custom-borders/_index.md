@@ -4,8 +4,8 @@
 "title": "Java PDF szöveges aláírások egyéni szegélyekkel a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/text-signatures/java-pdf-text-signatures-groupdocs-custom-borders/"
 "weight": 1
+type: docs
 ---
-
 # Java PDF szöveges aláírások elsajátítása egyéni szegélyekkel a GroupDocs.Signature használatával
 
 mai digitális korban a dokumentumok hitelességének biztosítása kulcsfontosságú mind a vállalkozások, mind a magánszemélyek számára. Az elektronikus dokumentumok térnyerésével a hagyományos aláírási módszereket hatékonyabb és biztonságosabb megoldások, például a PDF-ekben található szöveges aláírások váltják fel. Ha professzionális megjelenést szeretne adni PDF-dokumentumainak egyedi stílusú szöveges aláírásokkal a GroupDocs.Signature for Java segítségével, akkor jó helyen jár.

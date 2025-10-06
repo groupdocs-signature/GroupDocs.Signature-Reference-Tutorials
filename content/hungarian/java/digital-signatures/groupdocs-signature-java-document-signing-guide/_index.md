@@ -4,8 +4,8 @@
 "title": "Dokumentumok aláírása a GroupDocs.Signature for Java használatával – Teljes körű útmutató"
 "url": "/hu/java/digital-signatures/groupdocs-signature-java-document-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumok aláírása a GroupDocs.Signature for Java használatával: Teljes körű útmutató
 
 ## Bevezetés

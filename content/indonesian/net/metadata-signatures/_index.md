@@ -3,8 +3,8 @@
 "title": "Tutorial Tanda Tangan Metadata untuk GroupDocs.Signature .NET"
 "url": "/id/net/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Tutorial Tanda Tangan Metadata untuk GroupDocs.Signature .NET
 
 Tutorial tanda tangan metadata kami menunjukkan cara menggunakan metadata dokumen untuk penandatanganan aman menggunakan GroupDocs.Signature di .NET. Panduan langkah demi langkah ini mencakup penerapan tanda tangan metadata dalam berbagai format dokumen, termasuk PDF, gambar, presentasi, spreadsheet, dan berkas pengolah kata. Setiap tutorial menyertakan contoh kode C# yang berfungsi untuk operasi metadata, membantu Anda membangun aplikasi yang dapat menambahkan informasi tanda tangan tak terlihat ke dokumen, meningkatkan keamanan tanpa mengubah tampilan visual.

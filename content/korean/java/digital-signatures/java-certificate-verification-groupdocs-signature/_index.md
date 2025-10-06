@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용한 보안 문서 인증 Java 인증서 확인 가이드"
 "url": "/ko/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 Java 인증서 확인 구현
 
 ## 소개

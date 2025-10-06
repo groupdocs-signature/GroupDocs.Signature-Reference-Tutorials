@@ -4,8 +4,8 @@
 "title": "Jelszóval védett dokumentumok betöltése és aláírása QR-kódok használatával Java-ban a GroupDocs.Signature segítségével"
 "url": "/hu/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Jelszóval védett dokumentumok betöltése és aláírása QR-kóddal Java-ban
 
 ## Jelszóval védett dokumentum betöltése és aláírása a GroupDocs.Signature for Java használatával

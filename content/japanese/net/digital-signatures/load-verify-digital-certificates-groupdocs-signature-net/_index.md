@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET でデジタル証明書を読み込み、検証する包括的なガイド"
 "url": "/ja/net/digital-signatures/load-verify-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でデジタル証明書を読み込み、検証する
 
 ## 導入

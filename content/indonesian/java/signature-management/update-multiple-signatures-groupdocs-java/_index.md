@@ -4,8 +4,8 @@
 "title": "Memperbarui Beberapa Tanda Tangan dalam PDF Secara Efisien Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/signature-management/update-multiple-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Memperbarui Beberapa Tanda Tangan dalam PDF Secara Efisien Menggunakan GroupDocs.Signature untuk Java
 
 Mengelola tanda tangan elektronik sangat penting bagi bisnis yang mengandalkan alur kerja digital, terutama saat menangani kontrak atau dokumen formal. **GroupDocs.Signature untuk Java** Menyederhanakan pembaruan beberapa tanda tangan dalam dokumen PDF secara efisien. Tutorial ini akan memandu Anda melalui prosesnya.

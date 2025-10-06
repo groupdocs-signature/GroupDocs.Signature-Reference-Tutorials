@@ -5,8 +5,8 @@
 "title": "Verifica le firme di testo nei documenti"
 "url": "/it/net/verify-operations/verify-text/"
 "weight": 13
+type: docs
 ---
-
 ## Introduzione
 
 Le firme testuali, sebbene spesso più semplici delle firme digitali o elettroniche, svolgono un ruolo cruciale nella gestione e nella verifica dei documenti. Che si tratti di filigrane, testo a piè di pagina o specifici pattern di contenuto, convalidare la presenza e l'integrità delle firme testuali è un aspetto importante dei processi di verifica dei documenti.

@@ -4,8 +4,8 @@
 "title": "Jak odstranit podpis podle ID pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/signature-management/delete-signature-by-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit podpis podle ID pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

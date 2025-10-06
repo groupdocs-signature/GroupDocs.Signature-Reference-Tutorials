@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके मेटाडेटा के साथ छवि दस्तावेज़ों पर हस्ताक्षर करें. Java के लिए हस्ताक्षर एक संपूर्ण मार्गदर्शिका"
 "url": "/hi/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके मेटाडेटा के साथ छवि दस्तावेज़ों पर हस्ताक्षर कैसे करें
 
 ## परिचय

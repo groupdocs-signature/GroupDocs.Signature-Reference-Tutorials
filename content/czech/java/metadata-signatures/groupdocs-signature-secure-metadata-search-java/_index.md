@@ -4,8 +4,8 @@
 "title": "Bezpečné vyhledávání a extrakce podpisů metadat pomocí GroupDocs pro Javu"
 "url": "/cs/java/metadata-signatures/groupdocs-signature-secure-metadata-search-java/"
 "weight": 1
+type: docs
 ---
-
 # Bezpečné vyhledávání a extrakce podpisů metadat pomocí GroupDocs pro Javu
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Sökningar efter signaturer i huvuddokument i .NET med GroupDocs.Signature-text och digitala signaturer"
 "url": "/sv/net/search-verification/master-document-signature-searches-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra sökningar efter dokumentsignaturer i .NET
 
 I dagens digitala tidsålder är det avgörande för företag världen över att verifiera dokuments äkthet. Oavsett om det gäller kontrakt, juridiska dokument eller officiella handlingar kan effektiva signatursökningar spara tid och förbättra säkerheten. Den här handledningen guidar dig genom implementeringen av text- och digitala signaturersökningar med GroupDocs.Signature för .NET – ett kraftfullt bibliotek utformat för att hantera olika typer av elektroniska signaturer i .NET-applikationer.

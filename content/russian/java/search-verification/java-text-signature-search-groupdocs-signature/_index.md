@@ -4,8 +4,8 @@
 "title": "Реализация поиска по текстовой подписи Java с помощью GroupDocs.Signature для управления документами и их проверки"
 "url": "/ru/java/search-verification/java-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Реализация поиска по текстовой подписи Java с помощью GroupDocs.Signature
 
 ## Введение

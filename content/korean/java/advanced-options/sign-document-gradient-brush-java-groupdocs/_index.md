@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 Gradient Brush로 문서에 서명하기"
 "url": "/ko/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java에서 그라데이션 브러시로 문서에 서명하기
 
 오늘날 디지털 시대에는 산업 전반의 효율성을 위해 문서에 안전하게 서명하는 것이 매우 중요합니다. 이 튜토리얼에서는 그라데이션 브러시 효과를 사용하여 문서에 디지털 서명하는 방법을 안내합니다. **Java용 GroupDocs.Signature**.

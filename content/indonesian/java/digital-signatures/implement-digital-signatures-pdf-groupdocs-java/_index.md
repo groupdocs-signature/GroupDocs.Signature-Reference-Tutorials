@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Tanda Tangan Digital dalam PDF Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/digital-signatures/implement-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Tanda Tangan Digital dalam PDF Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

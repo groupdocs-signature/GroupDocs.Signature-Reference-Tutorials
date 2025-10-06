@@ -5,8 +5,8 @@
 "title": "Rechercher des signatures de texte dans les documents"
 "url": "/fr/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## Introduction
 
 Les signatures textuelles sont une méthode courante pour indiquer la paternité, l'approbation ou la vérification d'un document. Dans la gestion de documents numériques, la possibilité de rechercher et d'extraire des signatures textuelles par programmation est essentielle pour la validation des documents, l'automatisation des flux de travail et la vérification de la conformité. GroupDocs.Signature pour .NET offre une solution complète pour implémenter la recherche de signatures textuelles dans vos applications .NET, prenant en charge divers formats de documents et des fonctionnalités de recherche avancées.

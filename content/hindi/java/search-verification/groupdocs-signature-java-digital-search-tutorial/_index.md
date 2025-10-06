@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58; के साथ जावा में डिजिटल हस्ताक्षर खोज में महारत हासिल करें एक व्यापक गाइड"
 "url": "/hi/java/search-verification/groupdocs-signature-java-digital-search-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # जावा के लिए GroupDocs.Signature के साथ डिजिटल हस्ताक्षर खोज में महारत हासिल करना
 
 ## परिचय

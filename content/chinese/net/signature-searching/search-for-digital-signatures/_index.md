@@ -5,8 +5,8 @@
 "title": "在文档中搜索数字签名"
 "url": "/zh/net/signature-searching/search-for-digital-signatures/"
 "weight": 11
+type: docs
 ---
-
 ## 介绍
 
 在当今的数字环境中，确保文档的真实性和完整性对企业和组织至关重要。数字签名提供了一种强大的机制来验证文档的真实性和检测未经授权的修改。GroupDocs.Signature for .NET 提供了一个全面的解决方案，用于处理各种文档格式的数字签名，使开发人员能够将签名功能无缝集成到他们的 .NET 应用程序中。

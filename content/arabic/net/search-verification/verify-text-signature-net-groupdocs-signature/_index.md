@@ -4,8 +4,8 @@
 "title": "كيفية التحقق من صحة توقيعات النصوص في .NET باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/net/search-verification/verify-text-signature-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التحقق من توقيع النص في .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

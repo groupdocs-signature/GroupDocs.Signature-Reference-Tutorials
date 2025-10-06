@@ -4,8 +4,8 @@
 "title": "การเรียนรู้ลายเซ็นเอกสารดิจิทัลด้วย GroupDocs สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้ลายเซ็นเอกสารดิจิทัลด้วย GroupDocs สำหรับ Java
 
 ## การแนะนำ

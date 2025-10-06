@@ -4,8 +4,8 @@
 "title": "Przewodnik weryfikacji podpisu cyfrowego przy użyciu GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/digital-signatures/digital-signature-verification-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Przewodnik weryfikacji podpisu cyfrowego przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

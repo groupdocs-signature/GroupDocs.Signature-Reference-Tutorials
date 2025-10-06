@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 和條碼簽名指南在 Java 中掌握文件簽名"
 "url": "/zh-hant/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 Java 中的文件簽名
 
 **透過使用 GroupDocs.Signature for Java 簽署、驗證、搜尋、更新和刪除條碼簽章來簡化您的數位文件工作流程。**

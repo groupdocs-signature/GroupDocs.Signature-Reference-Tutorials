@@ -4,8 +4,8 @@
 "title": "Master File Format Support in GroupDocs.Signature for Java – Átfogó útmutató"
 "url": "/hu/java/advanced-options/groupdocs-signature-java-file-format-support/"
 "weight": 1
+type: docs
 ---
-
 # Master File Format támogatás a GroupDocs.Signature-ben Java-hoz: Átfogó útmutató
 
 ## Bevezetés

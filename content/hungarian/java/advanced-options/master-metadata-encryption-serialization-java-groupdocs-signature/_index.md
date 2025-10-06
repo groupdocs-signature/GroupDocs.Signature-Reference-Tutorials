@@ -4,8 +4,8 @@
 "title": "Metaadatok titkosításának és szerializálásának mesterképzése Java nyelven a GroupDocs.Signature segítségével"
 "url": "/hu/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Metaadat-titkosítás és -szerializálás elsajátítása Java nyelven a GroupDocs.Signature segítségével
 
 ## Bevezetés

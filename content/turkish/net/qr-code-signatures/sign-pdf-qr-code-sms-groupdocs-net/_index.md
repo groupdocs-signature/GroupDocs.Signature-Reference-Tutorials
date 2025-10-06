@@ -4,8 +4,8 @@
 "title": ".NET'te GroupDocs Kullanarak SMS İçeren QR Kodlarıyla PDF'leri Nasıl İmzalayabilirsiniz?"
 "url": "/tr/net/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak SMS Nesnesi İçeren Bir QR Koduyla PDF Belgesi Nasıl İmzalanır?
 
 ## giriiş

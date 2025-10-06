@@ -4,8 +4,8 @@
 "title": "Tạo bản xem trước trang PDF bằng GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Tạo bản xem trước trang PDF bằng GroupDocs.Signature cho .NET: Hướng dẫn toàn diện
 
 ## Giới thiệu

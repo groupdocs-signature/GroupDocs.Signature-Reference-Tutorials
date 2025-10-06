@@ -4,8 +4,8 @@
 "title": "Podepisování TAR archivů čárovými a QR kódy v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat archivy TAR pomocí čárových a QR kódů pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

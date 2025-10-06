@@ -4,8 +4,8 @@
 "title": "Xác minh chữ ký mã QR trong Java bằng GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/java/qr-code-signatures/verify-qr-code-signature-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Xác minh chữ ký mã QR trong Java bằng GroupDocs.Signature
 
 ## Giới thiệu

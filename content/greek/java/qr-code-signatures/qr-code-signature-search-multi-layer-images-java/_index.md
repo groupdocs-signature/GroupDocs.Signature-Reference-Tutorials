@@ -4,8 +4,8 @@
 "title": "Υλοποίηση αναζήτησης υπογραφής κώδικα QR σε εικόνες πολλαπλών επιπέδων χρησιμοποιώντας Java και GroupDocs.Signature"
 "url": "/el/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την αναζήτηση υπογραφής κώδικα QR σε έγγραφα εικόνας πολλαπλών επιπέδων χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

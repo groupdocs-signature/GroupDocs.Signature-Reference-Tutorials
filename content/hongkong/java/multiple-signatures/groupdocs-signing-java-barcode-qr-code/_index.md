@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中實作條碼和二維碼簽章－綜合指南"
 "url": "/zh-hant/java/multiple-signatures/groupdocs-signing-java-barcode-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中實作條碼和二維碼簽名
 
 在當今的數位時代，確保文件的完整性至關重要。無論是管理法律合約、發票或貨運標籤，維護真實性至關重要。 **GroupDocs.Signature for Java** 透過將條碼和二維碼無縫整合到文件中，簡化了此流程。本指南將指導您使用 GroupDocs.Signature for Java 實作條碼和二維碼簽章。

@@ -4,8 +4,8 @@
 "title": "Documenten laden op bestandstype in GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 "weight": 1
+type: docs
 ---
-
 # Documenten laden op bestandstype in GroupDocs.Signature voor .NET
 
 ## Invoering

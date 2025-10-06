@@ -4,8 +4,8 @@
 "title": "Jak podepsat PDF dokumenty s metadaty pomocí GroupDocs.Signature pro .NET | Komplexní průvodce"
 "url": "/cs/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF dokumenty metadaty pomocí GroupDocs.Signature pro .NET
 
 V dnešním digitálním světě je efektivní správa dokumentů nezbytná jak pro firmy, tak pro jednotlivce. Bezpečné podepisování a ověřování dokumentů se stalo klíčovým, zejména při zpracování smluv nebo úředních záznamů. Tato komplexní příručka vám ukáže, jak používat GroupDocs.Signature for .NET k podepisování dokumentů PDF s podpisy metadat, čímž se zvýší integrita dokumentů.

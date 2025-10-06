@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ जावा में दस्तावेज़ पूर्वावलोकन निर्माण को कार्यान्वित करें - एक व्यापक मार्गदर्शिका"
 "url": "/hi/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ जावा में दस्तावेज़ पूर्वावलोकन निर्माण को कार्यान्वित करना
 
 ## परिचय

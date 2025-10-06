@@ -4,8 +4,8 @@
 "title": "So löschen Sie eine Textsignatur per ID mit GroupDocs.Signature für Java – Eine umfassende Anleitung"
 "url": "/de/java/signature-management/delete-text-signature-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # So löschen Sie eine Textsignatur nach ID mit GroupDocs.Signature für Java
 
 ## Einführung

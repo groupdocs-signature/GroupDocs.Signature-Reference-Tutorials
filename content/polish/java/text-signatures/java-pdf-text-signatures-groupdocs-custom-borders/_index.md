@@ -4,8 +4,8 @@
 "title": "Podpisy tekstowe w plikach PDF Java z niestandardowymi obramowaniami przy użyciu GroupDocs.Signature dla języka Java"
 "url": "/pl/java/text-signatures/java-pdf-text-signatures-groupdocs-custom-borders/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie podpisów tekstowych w plikach PDF Java z niestandardowymi obramowaniami przy użyciu GroupDocs.Signature
 
 dzisiejszej erze cyfrowej zapewnienie autentyczności dokumentów ma kluczowe znaczenie zarówno dla firm, jak i osób prywatnych. Wraz z rozwojem dokumentów elektronicznych, tradycyjne metody podpisywania są zastępowane przez bardziej wydajne i bezpieczne rozwiązania, takie jak podpisy tekstowe w plikach PDF. Jeśli chcesz nadać swoim dokumentom PDF profesjonalny charakter dzięki niestandardowym podpisom tekstowym w formacie GroupDocs.Signature for Java, trafiłeś we właściwe miejsce.

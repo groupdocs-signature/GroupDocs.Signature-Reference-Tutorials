@@ -4,8 +4,8 @@
 "title": "Come eliminare più firme nei documenti utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/signature-management/delete-multiple-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come eliminare più firme in un documento utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

@@ -5,8 +5,8 @@
 "title": "使用数字签名保护您的 .NET 文档 | 完整指南"
 "url": "/zh/net/advanced-signature-techniques/sign-with-digital/"
 "weight": 12
+type: docs
 ---
-
 ## 为什么数字签名在现代文档管理中如此重要
 
 在当今的数字世界中，确保电子文档的真实性和完整性不仅是良好做法，更是至关重要。数字签名提供了至关重要的安全保障，让收件人知道您的文档合法，并且自签名以来未被篡改。

@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory pomocí obrazových podpisů pomocí GroupDocs.Signature pro Javu – podrobný návod"
 "url": "/cs/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF dokument obrazovým podpisem pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

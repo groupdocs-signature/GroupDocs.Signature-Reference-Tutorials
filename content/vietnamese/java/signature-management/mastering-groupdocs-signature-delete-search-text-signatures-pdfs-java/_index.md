@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature cho Java - Xóa và tìm kiếm chữ ký văn bản trong PDF"
 "url": "/vi/java/signature-management/mastering-groupdocs-signature-delete-search-text-signatures-pdfs-java/"
 "weight": 1
+type: docs
 ---
-
 # Master GroupDocs.Signature cho Java: Xóa và tìm kiếm chữ ký văn bản trong tệp PDF
 
 Trong thời đại kỹ thuật số ngày nay, việc quản lý tài liệu điện tử hiệu quả là vô cùng quan trọng. Một thách thức phổ biến mà các nhà phát triển phải đối mặt là xử lý chữ ký văn bản trong tài liệu PDF—cho dù đó là đảm bảo chúng được áp dụng chính xác hay xóa chúng khi cần thiết. Nhập **GroupDocs.Signature cho Java**: một thư viện mạnh mẽ được thiết kế để xử lý các tác vụ này một cách chính xác và dễ dàng. Hướng dẫn này sẽ hướng dẫn bạn quy trình xóa và tìm kiếm chữ ký văn bản trong tệp PDF bằng GroupDocs.Signature cho Java.

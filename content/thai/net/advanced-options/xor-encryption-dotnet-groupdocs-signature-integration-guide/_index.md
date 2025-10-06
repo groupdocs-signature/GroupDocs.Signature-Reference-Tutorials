@@ -4,8 +4,8 @@
 "title": "การนำการเข้ารหัส XOR ไปใช้งานใน .NET โดยใช้ GroupDocs.Signature คู่มือฉบับสมบูรณ์"
 "url": "/th/net/advanced-options/xor-encryption-dotnet-groupdocs-signature-integration-guide/"
 "weight": 1
+type: docs
 ---
-
 # การนำการเข้ารหัส XOR ไปใช้ใน .NET โดยใช้ GroupDocs.Signature: คู่มือฉบับสมบูรณ์
 
 ## การแนะนำ

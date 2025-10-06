@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen Word dengan Tanda Air Teks Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen Word dengan Tanda Air Teks Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

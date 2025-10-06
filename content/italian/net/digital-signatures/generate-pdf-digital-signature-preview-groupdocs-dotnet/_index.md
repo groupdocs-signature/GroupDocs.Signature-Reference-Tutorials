@@ -4,8 +4,8 @@
 "title": "Genera l'anteprima della firma digitale PDF con GroupDocs.Signature per .NET | Guida completa"
 "url": "/it/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come generare un'anteprima della firma digitale PDF utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

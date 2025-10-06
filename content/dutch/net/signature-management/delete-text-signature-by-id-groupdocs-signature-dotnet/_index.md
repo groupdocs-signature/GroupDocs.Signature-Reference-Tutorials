@@ -4,8 +4,8 @@
 "title": "Een teksthandtekening verwijderen via ID met GroupDocs.Signature voor .NET"
 "url": "/nl/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Een teksthandtekening verwijderen via ID met GroupDocs.Signature voor .NET
 
 ## Invoering

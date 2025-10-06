@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF με αυτοκόλλητα κειμένου χρησιμοποιώντας το GroupDocs.Signature για .NET | Οδηγός βήμα προς βήμα"
 "url": "/el/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα έγγραφο PDF με ένα αυτοκόλλητο κειμένου χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

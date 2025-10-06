@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके टाइमस्टैम्प और प्रमाणन के साथ .NET डिजिटल हस्ताक्षर कैसे लागू करें"
 "url": "/hi/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके टाइमस्टैम्प और प्रमाणन के साथ .NET डिजिटल हस्ताक्षर कैसे लागू करें
 
 ## परिचय

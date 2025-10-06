@@ -5,8 +5,8 @@
 "title": ".NET'te Belge İmza Geçmişini Kolayca İzleyin"
 "url": "/tr/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # .NET'te Belgenizin İmza Geçmişini Nasıl Takip Edebilirsiniz?
 
 ## GroupDocs.Signature Sizin İçin Neler Yapabilir?

@@ -5,8 +5,8 @@
 "title": "Ekstraksi Metadata Dokumen Master dengan GroupDocs.Signature untuk .NET"
 "url": "/id/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # Panduan Lengkap Ekstraksi Metadata Dokumen dengan GroupDocs.Signature
 
 ## Pentingnya Strategis Metadata Dokumen dalam Alur Kerja Modern

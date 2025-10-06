@@ -4,8 +4,8 @@
 "title": "Panduan Lengkap untuk Menyiapkan Tanda Tangan Teks dengan GroupDocs.Signature untuk Java"
 "url": "/id/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Lengkap untuk Menyiapkan Tanda Tangan Teks dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

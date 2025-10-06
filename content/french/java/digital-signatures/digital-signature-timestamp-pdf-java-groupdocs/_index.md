@@ -4,8 +4,8 @@
 "title": "Implémenter des signatures numériques avec horodatage sur les fichiers PDF à l'aide de Java et de GroupDocs.Signature"
 "url": "/fr/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implémentation de signatures numériques avec horodatage sur les fichiers PDF à l'aide de Java et de GroupDocs.Signature
 
 ## Introduction

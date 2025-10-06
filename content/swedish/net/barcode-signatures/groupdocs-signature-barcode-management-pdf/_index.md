@@ -4,8 +4,8 @@
 "title": "Effektiv hantering av streckkodssignaturer i PDF-filer med GroupDocs.Signature för .NET"
 "url": "/sv/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Effektiv hantering av streckkodssignaturer i PDF-filer med GroupDocs.Signature för .NET
 
 ## Introduktion

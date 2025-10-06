@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 的数字签名验证指南"
 "url": "/zh/net/digital-signatures/digital-signature-verification-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 的数字签名验证指南
 
 ## 介绍

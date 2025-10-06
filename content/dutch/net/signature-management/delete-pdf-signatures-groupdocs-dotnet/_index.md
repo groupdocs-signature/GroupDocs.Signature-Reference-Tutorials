@@ -4,8 +4,8 @@
 "title": "PDF-handtekeningen efficiënt verwijderen met GroupDocs.Signature voor .NET"
 "url": "/nl/net/signature-management/delete-pdf-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u GroupDocs.Signature voor .NET gebruikt om PDF-handtekeningen op basis van ID te verwijderen
 
 ## Invoering

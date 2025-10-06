@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - text signatures in Java
 - automate document signing
-
+type: docs
 ---
-
-
 # Mastering Document Signing in Java: A Comprehensive Guide to Using GroupDocs.Signature for Text Signatures
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "향상된 유연성과 규정 준수를 위해 Java에서 InputStream을 통해 GroupDocs 라이선스를 설정하는 방법"
 "url": "/ko/java/getting-started/set-groupdocs-license-java-input-stream/"
 "weight": 1
+type: docs
 ---
-
 # Java 구현 방법: Java용 GroupDocs.Signature에서 InputStream을 통해 GroupDocs 라이선스 설정
 
 Java용 GroupDocs.Signature를 사용하여 입력 스트림을 사용하여 GroupDocs 라이선스를 설정하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 기능을 사용하면 라이선스를 효율적으로 관리하여 규정 준수를 보장하고 GroupDocs 기능에 대한 모든 권한을 확보할 수 있습니다.

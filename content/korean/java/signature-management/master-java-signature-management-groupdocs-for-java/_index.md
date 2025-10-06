@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java를 활용한 Java 서명 관리 마스터하기"
 "url": "/ko/java/signature-management/master-java-signature-management-groupdocs-for-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java를 활용한 Java 서명 관리 마스터하기
 
 ## 소개

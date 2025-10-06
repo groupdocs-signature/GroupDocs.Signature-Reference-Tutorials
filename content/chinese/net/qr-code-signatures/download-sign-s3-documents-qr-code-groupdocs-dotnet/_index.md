@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 下载并签署带有二维码的 Amazon S3 文档"
 "url": "/zh/net/qr-code-signatures/download-sign-s3-documents-qr-code-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 下载并签署带有二维码的 Amazon S3 文档
 
 ## 介绍

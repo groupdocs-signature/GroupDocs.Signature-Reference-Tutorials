@@ -6,8 +6,8 @@
 "title": "GroupDocs.Signature - API de firma digital de documentos para .NET y Java | Guía completa del tutorial"
 "url": "/es/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature: Solución completa de firma digital de documentos para desarrolladores
 
 ![Banner de firma de GroupDocs](./groupdocs-signature-net.svg)

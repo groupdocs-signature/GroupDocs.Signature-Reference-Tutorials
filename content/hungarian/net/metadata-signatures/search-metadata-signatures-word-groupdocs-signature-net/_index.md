@@ -4,8 +4,8 @@
 "title": "Metaadat-aláírások keresése Word-dokumentumokban a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/metadata-signatures/search-metadata-signatures-word-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Metaadat-aláírások keresése Word-dokumentumokban a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Cómo implementar la búsqueda de firmas de metadatos en presentaciones de PowerPoint con GroupDocs.Signature para .NET"
 "url": "/es/net/metadata-signatures/implement-metadata-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cómo implementar la búsqueda de firmas de metadatos en PowerPoint con GroupDocs.Signature para .NET
 
 ## Introducción

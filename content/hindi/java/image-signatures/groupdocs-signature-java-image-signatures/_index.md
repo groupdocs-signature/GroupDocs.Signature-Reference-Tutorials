@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में छवि हस्ताक्षर कैसे खोजें और अपडेट करें"
 "url": "/hi/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में छवि हस्ताक्षर कैसे खोजें और अपडेट करें
 
 ## परिचय

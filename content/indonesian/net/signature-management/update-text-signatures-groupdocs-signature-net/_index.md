@@ -4,8 +4,8 @@
 "title": "Memperbarui Tanda Tangan Teks di Dokumen .NET Menggunakan GroupDocs.Signature"
 "url": "/id/net/signature-management/update-text-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Memperbarui Tanda Tangan Teks di Dokumen .NET Menggunakan GroupDocs.Signature
 
 ## Perkenalan

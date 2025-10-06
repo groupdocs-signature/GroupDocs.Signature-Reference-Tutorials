@@ -5,8 +5,8 @@
 "title": "Lacak Riwayat Tanda Tangan Dokumen dengan Mudah di .NET"
 "url": "/id/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # Cara Melacak Riwayat Tanda Tangan Dokumen Anda di .NET
 
 ## Apa yang Dapat GroupDocs.Signature Lakukan untuk Anda?

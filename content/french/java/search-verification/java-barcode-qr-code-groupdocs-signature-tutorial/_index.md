@@ -4,8 +4,8 @@
 "title": "Guide de recherche de codes-barres et de codes QR Java avec GroupDocs.Signature pour la vérification sécurisée des documents"
 "url": "/fr/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Implémentation de Java pour les recherches de codes-barres, de codes QR et de signatures de métadonnées avec GroupDocs.Signature
 
 ## Introduction

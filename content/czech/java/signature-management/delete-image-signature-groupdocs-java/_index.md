@@ -4,8 +4,8 @@
 "title": "Jak odstranit podpisy obrázků z dokumentů pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/signature-management/delete-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit podpisy obrázků z dokumentů pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

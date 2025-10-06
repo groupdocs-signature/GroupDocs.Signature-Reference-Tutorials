@@ -4,8 +4,8 @@
 "title": "Implementace vyhledávání podpisů QR kódů s vlastním šifrováním v .NET pomocí GroupDocs.Signature"
 "url": "/cs/net/qr-code-signatures/qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Implementace vyhledávání podpisů QR kódů s vlastním šifrováním v .NET
 
 ## Zavedení

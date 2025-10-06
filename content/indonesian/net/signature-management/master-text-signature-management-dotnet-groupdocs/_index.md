@@ -4,8 +4,8 @@
 "title": "Manajemen Tanda Tangan Teks Master di .NET Menggunakan GroupDocs.Signature"
 "url": "/id/net/signature-management/master-text-signature-management-dotnet-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Manajemen Tanda Tangan Teks di .NET dengan GroupDocs.Signature
 
 ## Perkenalan

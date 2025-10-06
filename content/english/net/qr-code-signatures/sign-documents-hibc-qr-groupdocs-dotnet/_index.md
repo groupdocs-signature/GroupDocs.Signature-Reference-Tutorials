@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["HIBC", "QR-codes", "healthcare-compliance", "document-signing"]
+type: docs
 ---
-
 # HIBC QR Code Document Signing with .NET
 
 ## Introduction

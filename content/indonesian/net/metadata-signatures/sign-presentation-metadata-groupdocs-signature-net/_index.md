@@ -4,8 +4,8 @@
 "title": "Menandatangani Dokumen Presentasi dengan Metadata Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen Presentasi dengan Metadata Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

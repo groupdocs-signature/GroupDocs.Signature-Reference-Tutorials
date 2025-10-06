@@ -4,8 +4,8 @@
 "title": "QR-kód aláírás keresése DICOM-ban a GroupDocs.Signature for .NET segítségével – Teljes körű útmutató"
 "url": "/hu/net/qr-code-signatures/qr-code-signature-search-groupdocs-dotnet-dicom/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírás-keresések megvalósítása többrétegű képekben a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

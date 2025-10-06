@@ -4,8 +4,8 @@
 "title": "Verifica i documenti con firme tramite codice QR in Java utilizzando GroupDocs.Signature"
 "url": "/it/java/search-verification/java-qr-code-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Verifica i documenti con firme tramite codice QR in Java utilizzando GroupDocs.Signature
 
 Nell'attuale panorama digitale, verificare i documenti per garantirne l'autenticità e l'integrità è fondamentale. Grazie alla possibilità di verificare senza problemi i documenti contenenti firme tramite codice QR utilizzando Java, GroupDocs.Signature per Java semplifica questo processo. Questo tutorial completo vi guiderà attraverso la verifica dei documenti con firme tramite codice QR, migliorando la sicurezza e l'efficienza del vostro flusso di lavoro.

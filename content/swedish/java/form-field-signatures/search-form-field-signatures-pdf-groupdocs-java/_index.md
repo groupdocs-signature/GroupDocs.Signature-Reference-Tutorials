@@ -4,8 +4,8 @@
 "title": "Sök och extrahera formulärfältsignaturer i PDF-filer med GroupDocs.Signature för Java"
 "url": "/sv/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Så här söker och extraherar du formulärfältsignaturer i PDF-dokument med GroupDocs.Signature för Java
 
 ## Introduktion

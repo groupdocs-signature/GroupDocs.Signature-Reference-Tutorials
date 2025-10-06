@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs Kullanarak Güvenli Meta Veri İmza Arama ve Çıkarma"
 "url": "/tr/java/metadata-signatures/groupdocs-signature-secure-metadata-search-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs Kullanarak Güvenli Meta Veri İmza Arama ve Çıkarma
 
 ## giriiş

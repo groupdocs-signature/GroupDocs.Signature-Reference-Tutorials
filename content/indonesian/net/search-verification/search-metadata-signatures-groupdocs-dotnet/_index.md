@@ -4,8 +4,8 @@
 "title": "Cara Mencari Tanda Tangan Metadata dalam Presentasi Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mencari Tanda Tangan Metadata dalam Presentasi Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

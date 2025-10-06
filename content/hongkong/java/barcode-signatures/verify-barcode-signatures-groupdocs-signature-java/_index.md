@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 Java 中驗證條碼簽名"
 "url": "/zh-hant/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 實作驗證條碼簽名
 
 ## 介紹

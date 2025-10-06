@@ -4,8 +4,8 @@
 "title": "Digitális aláírások törlése PDF-ekből a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/signature-management/delete-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírások eltávolítása PDF-ből a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Как подписывать PDF-файлы текстовыми наклейками с помощью GroupDocs.Signature для Java — полное руководство"
 "url": "/ru/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Как подписывать PDF-файлы текстовыми наклейками с помощью GroupDocs.Signature для Java: полное руководство
 
 ## Введение

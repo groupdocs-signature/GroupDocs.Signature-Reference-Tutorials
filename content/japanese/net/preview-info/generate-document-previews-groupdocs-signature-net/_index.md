@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してアーカイブにドキュメントのプレビューを生成する完全ガイド"
 "url": "/ja/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してアーカイブからドキュメントのプレビューを生成する
 
 ## 導入

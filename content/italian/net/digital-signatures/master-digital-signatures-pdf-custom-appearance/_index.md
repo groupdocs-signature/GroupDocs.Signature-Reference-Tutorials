@@ -4,8 +4,8 @@
 "title": "Padroneggia le firme digitali nei PDF con aspetto personalizzato utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare le firme digitali nei PDF con aspetto personalizzato utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

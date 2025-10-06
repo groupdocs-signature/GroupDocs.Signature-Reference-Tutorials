@@ -4,8 +4,8 @@
 "title": "Πώς να δημιουργήσετε και να υπογράψετε PDF με γραμμωτούς κώδικες χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να δημιουργήσετε και να υπογράψετε PDF με γραμμωτούς κώδικες χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

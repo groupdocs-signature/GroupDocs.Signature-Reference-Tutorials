@@ -4,8 +4,8 @@
 "title": "Menguasai Pencarian Tanda Tangan Digital di Java Menggunakan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/java/search-verification/mastering-digital-signature-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pencarian Tanda Tangan Digital di Java Menggunakan GroupDocs.Signature: Panduan Lengkap
 
 **Temukan kekuatan pencarian tanda tangan digital dengan GroupDocs.Signature untuk Java!**

@@ -4,8 +4,8 @@
 "title": "Υλοποίηση Υπογραφής Κειμένου σε Διαχείριση Συμβάντων Java με το GroupDocs.Signature"
 "url": "/el/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση Υπογραφής Κειμένου με Χειρισμό Συμβάντων Χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

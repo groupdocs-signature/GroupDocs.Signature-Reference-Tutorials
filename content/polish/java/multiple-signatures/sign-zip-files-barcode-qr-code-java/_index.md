@@ -4,8 +4,8 @@
 "title": "Jak podpisywać pliki ZIP kodami kreskowymi i kodami QR w Javie za pomocą GroupDocs.Signature"
 "url": "/pl/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać pliki ZIP kodami kreskowymi i kodami QR w Javie za pomocą GroupDocs.Signature
 
 ## Wstęp

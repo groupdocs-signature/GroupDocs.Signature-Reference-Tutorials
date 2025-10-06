@@ -4,8 +4,8 @@
 "title": "Wyszukiwanie podpisów obrazkowych w dokumentach za pomocą GroupDocs for Java – kompleksowy przewodnik"
 "url": "/pl/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # Wyszukiwanie podpisów graficznych w dokumentach za pomocą GroupDocs for Java: kompleksowy przewodnik
 
 ## Wstęp

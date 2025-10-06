@@ -5,8 +5,8 @@
 "title": "Các hoạt động xác minh tài liệu trong .NET"
 "url": "/vi/net/verify-operations/"
 "weight": 27
+type: docs
 ---
-
 ## Giới thiệu
 
 Xác minh tài liệu là một thành phần quan trọng của bất kỳ hệ thống quản lý tài liệu an toàn nào. Cho dù bạn đang xây dựng các ứng dụng doanh nghiệp, giải pháp quy trình làm việc tài liệu hay hệ thống tập trung vào bảo mật, việc có thể xác minh các loại chữ ký khác nhau trong tài liệu là điều cần thiết. GroupDocs.Signature for .NET cung cấp các công cụ và API mạnh mẽ cho phép các nhà phát triển .NET triển khai chức năng xác minh mạnh mẽ cho mã vạch, chữ ký số, mã QR và chữ ký văn bản.

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 라디오 버튼 양식 필드를 사용하여 PDF에 서명하는 방법"
 "url": "/ko/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 라디오 버튼 양식 필드를 사용하여 PDF에 서명하는 방법
 
 ## 소개

@@ -5,8 +5,8 @@
 "title": "Operace aktualizace podpisu dokumentu"
 "url": "/cs/net/update-operations/"
 "weight": 26
+type: docs
 ---
-
 ## Zavedení
 
 V dnešním digitálním obchodním prostředí je udržování aktuálních podpisů dokumentů klíčové pro zajištění jejich pravosti a zabezpečení. GroupDocs.Signature for .NET poskytuje komplexní sadu nástrojů pro aktualizaci různých typů podpisů ve vašich dokumentech, což vám umožňuje zachovat integritu dokumentů a zároveň se přizpůsobit měnícím se obchodním potřebám.

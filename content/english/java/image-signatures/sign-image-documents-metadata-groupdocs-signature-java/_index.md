@@ -8,10 +8,8 @@ keywords:
 - sign image documents
 - metadata signature Java
 - GroupDocs Signature implementation
-
+type: docs
 ---
-
-
 # How to Sign Image Documents with Metadata using GroupDocs.Signature for Java
 
 ## Introduction

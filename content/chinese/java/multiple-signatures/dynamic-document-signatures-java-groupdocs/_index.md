@@ -4,8 +4,8 @@
 "title": "Java 中的动态文档签名——掌握 GroupDocs.Signature 的电子签名"
 "url": "/zh/java/multiple-signatures/dynamic-document-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs 在 Java 中创建动态文档签名
 
 在当今快节奏的数字世界中，高效地以电子方式签署文档的需求比以往任何时候都更加重要。无论您是希望简化合同审批流程的商务人士，还是管理个人文档的个人，电子签名都能提供快速便捷的服务。本教程将指导您使用 GroupDocs.Signature for Java 创建动态文本和条形码图像签名。通过利用拉伸模式，您的签名可以无缝适应整个页面，从而确保一致性和可读性。

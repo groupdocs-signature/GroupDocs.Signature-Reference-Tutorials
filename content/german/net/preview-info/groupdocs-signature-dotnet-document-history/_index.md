@@ -4,8 +4,8 @@
 "title": "Dokumentprozessverlauf mit GroupDocs.Signature für .NET meistern – Ein umfassender Leitfaden"
 "url": "/de/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Den Dokumentenprozessverlauf mit GroupDocs.Signature für .NET meistern: Ein umfassender Leitfaden
 
 ## Einführung

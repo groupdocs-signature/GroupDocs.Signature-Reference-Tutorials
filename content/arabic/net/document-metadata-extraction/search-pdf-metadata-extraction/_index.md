@@ -5,8 +5,8 @@
 "title": "كيفية استخراج توقيعات البيانات الوصفية لملفات PDF في .NET"
 "url": "/ar/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # كيفية استخراج بيانات التعريف الوصفية لملفات PDF والبحث عنها
 
 ## لماذا تعتبر بيانات PDF التعريفية مهمة لمستنداتك

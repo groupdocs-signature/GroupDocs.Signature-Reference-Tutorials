@@ -4,8 +4,8 @@
 "title": "Java와 GroupDocs.Signature를 사용하여 다중 레이어 이미지에서 QR 코드 서명 검색 구현"
 "url": "/ko/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 다중 레이어 이미지 문서에서 QR 코드 서명 검색을 구현하는 방법
 
 ## 소개

@@ -4,8 +4,8 @@
 "title": "Verifiering av digital signatur i Java med GroupDocs.Signature – en steg-för-steg-guide"
 "url": "/sv/java/digital-signatures/java-digital-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Omfattande guide till implementering av verifiering av digital signatur i Java med GroupDocs.Signature
 
 ## Introduktion

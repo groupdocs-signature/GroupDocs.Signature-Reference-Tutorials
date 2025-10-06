@@ -5,8 +5,8 @@
 "title": "Volg de geschiedenis van documenthandtekeningen eenvoudig in .NET"
 "url": "/nl/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # Hoe u de handtekeninggeschiedenis van uw document in .NET kunt volgen
 
 ## Wat kan GroupDocs.Signature voor u doen?

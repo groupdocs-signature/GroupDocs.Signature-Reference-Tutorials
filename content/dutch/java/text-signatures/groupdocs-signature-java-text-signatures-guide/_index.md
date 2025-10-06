@@ -4,8 +4,8 @@
 "title": "Master Text Signatures in Java - Uitgebreide gids voor GroupDocs.Signature voor Java"
 "url": "/nl/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Het onder de knie krijgen van documentondertekening in Java: een uitgebreide handleiding voor het gebruik van GroupDocs.Signature voor teksthandtekeningen
 
 ## Invoering

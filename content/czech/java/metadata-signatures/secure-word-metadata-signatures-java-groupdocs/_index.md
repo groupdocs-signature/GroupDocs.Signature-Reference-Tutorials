@@ -4,8 +4,8 @@
 "title": "Zabezpečené podpisy metadat slov v Javě s komplexním průvodcem GroupDocs"
 "url": "/cs/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Zabezpečené podpisy metadat slov v Javě s GroupDocs
 
 ## Zavedení

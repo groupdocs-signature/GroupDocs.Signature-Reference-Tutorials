@@ -4,8 +4,8 @@
 "title": "ใช้งานการตรวจสอบเอกสารด้วยการสมัครรับข้อมูลเหตุการณ์ใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # ใช้งานการตรวจสอบเอกสารด้วยการสมัครรับข้อมูลเหตุการณ์โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

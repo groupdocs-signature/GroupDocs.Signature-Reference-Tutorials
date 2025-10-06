@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 在 PDF 中實作文字簽章搜尋"
 "url": "/zh-hant/java/search-verification/implement-search-text-signatures-groupdocs-java-pdf/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 在 PDF 中實作文字簽章搜尋
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "Αναζήτηση υπογραφής κειμένου Master .NET με το GroupDocs.Signature&#58; Οδηγός βήμα προς βήμα"
 "url": "/el/net/search-verification/guide-net-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την αναζήτηση υπογραφής κειμένου .NET με το GroupDocs.Signature
 
 ## Εισαγωγή

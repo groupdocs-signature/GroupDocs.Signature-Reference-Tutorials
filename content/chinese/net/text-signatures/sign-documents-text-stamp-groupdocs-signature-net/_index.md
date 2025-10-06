@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 使用文本戳对文档进行签名"
 "url": "/zh/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 使用文本戳对文档进行签名
 
 ## 介绍

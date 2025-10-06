@@ -9,8 +9,8 @@ weight: 1
 url: "/net/signature-management/delete-image-signatures-groupdocs-net/"
 categories: ["Document Management"]
 tags: ["GroupDocs", "NET", "signatures", "document-processing"]
+type: docs
 ---
-
 # How to Remove Image Signatures in .NET: Complete GroupDocs Tutorial
 
 Ever found yourself staring at a document cluttered with outdated image signatures that need to go? You're not alone. Whether you're dealing with revised contracts, updated legal documents, or simply cleaning up your document management system, knowing how to programmatically remove image signatures can save you hours of manual work.

@@ -4,8 +4,8 @@
 "title": "Comment implémenter le chiffrement des signatures de métadonnées dans .NET avec GroupDocs.Signature pour des PDF sécurisés"
 "url": "/fr/net/metadata-signatures/groupdocs-signature-net-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter le chiffrement des signatures de métadonnées dans .NET avec GroupDocs.Signature pour des PDF sécurisés
 
 ## Introduction

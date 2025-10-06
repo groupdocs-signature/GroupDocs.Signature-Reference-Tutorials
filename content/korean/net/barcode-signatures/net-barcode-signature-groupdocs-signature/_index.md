@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature와 .NET 바코드 서명 통합을 통해 문서 보안 강화"
 "url": "/ko/net/barcode-signatures/net-barcode-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 문서 관리 마스터하기: GroupDocs.Signature를 통한 .NET 바코드 서명 통합 구현
 
 오늘날 디지털 시대에는 다양한 산업 분야에서 문서의 진위성과 무결성을 보장하는 것이 매우 중요합니다. 이 가이드에서는 바코드 서명을 문서 워크플로에 통합하는 방법을 보여줍니다. **.NET용 GroupDocs.Signature**문서의 바코드 서명에 서명, 검증, 검색, 업데이트 또는 삭제가 필요한 경우, 이 튜토리얼에서는 모든 필수 측면을 다룹니다.

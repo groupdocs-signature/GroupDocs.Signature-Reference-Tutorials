@@ -4,8 +4,8 @@
 "title": "Thêm chữ ký siêu dữ liệu vào PDF bằng GroupDocs.Signature cho Java - Hướng dẫn đầy đủ"
 "url": "/vi/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/"
 "weight": 1
+type: docs
 ---
-
 # Thêm chữ ký siêu dữ liệu vào tệp PDF bằng GroupDocs.Signature cho Java
 ## Giới thiệu
 Trong thời đại kỹ thuật số ngày nay, việc đảm bảo tính xác thực và toàn vẹn của tài liệu PDF là vô cùng quan trọng. Cho dù bạn là chuyên gia pháp lý quản lý hợp đồng hay doanh nghiệp xử lý dữ liệu nhạy cảm, việc thêm chữ ký siêu dữ liệu có thể cung cấp thêm một lớp bảo mật và khả năng truy xuất nguồn gốc. Hướng dẫn này sẽ chỉ cho bạn cách sử dụng GroupDocs.Signature for Java để thêm chữ ký siêu dữ liệu tiêu chuẩn vào tệp PDF một cách liền mạch.

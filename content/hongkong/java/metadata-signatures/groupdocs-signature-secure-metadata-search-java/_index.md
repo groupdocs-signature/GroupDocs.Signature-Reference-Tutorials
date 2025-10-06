@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs for Java 進行安全性元資料簽章搜尋與擷取"
 "url": "/zh-hant/java/metadata-signatures/groupdocs-signature-secure-metadata-search-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs for Java 進行安全性元資料簽章搜尋與擷取
 
 ## 介紹

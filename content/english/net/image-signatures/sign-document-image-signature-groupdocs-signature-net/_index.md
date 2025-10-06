@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["csharp", "pdf-signing", "groupdocs", "digital-signature", "image-signature"]
+type: docs
 ---
-
 # How to Add Image Signature to PDF C# - Complete GroupDocs.Signature Guide
 
 ## Introduction

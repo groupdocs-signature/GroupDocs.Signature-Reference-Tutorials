@@ -5,8 +5,8 @@
 "title": "使用 C# .NET 中的元資料簽章增強 Word 文檔"
 "url": "/zh-hant/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## 介紹
 
 文字處理文件是商業、教育和個人通訊中最常用的文件類型之一。在許多專業環境中，確保這些文件的真實性、追蹤來源並維護其完整性至關重要。增強文件安全性和可追溯性的一種有效方法是嵌入元資料簽章。

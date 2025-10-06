@@ -5,8 +5,8 @@
 "title": "So entfernen Sie QR-Code-Signaturen aus Dokumenten in .NET"
 "url": "/de/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # So löschen Sie QR-Code-Signaturen aus Ihren Dokumenten
 
 ## Einführung

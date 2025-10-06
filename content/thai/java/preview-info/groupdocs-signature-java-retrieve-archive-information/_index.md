@@ -4,8 +4,8 @@
 "title": "วิธีการดึงข้อมูลไฟล์เก็บถาวรโดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการดึงข้อมูลไฟล์เก็บถาวรโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

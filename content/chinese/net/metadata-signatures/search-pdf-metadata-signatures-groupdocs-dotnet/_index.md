@@ -4,8 +4,8 @@
 "title": "使用 .NET 中的 GroupDocs 搜索和提取 PDF 元数据签名"
 "url": "/zh/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 .NET 中的 GroupDocs 搜索和提取 PDF 元数据签名
 
 ## 介绍

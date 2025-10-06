@@ -4,8 +4,8 @@
 "title": "إتقان التوقيعات الرقمية في ملفات PDF بمظهر مخصص باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # إتقان التوقيعات الرقمية في ملفات PDF بمظهر مخصص باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

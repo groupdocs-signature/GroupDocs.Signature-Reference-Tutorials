@@ -4,8 +4,8 @@
 "title": "Cập nhật mã QR trong .NET bằng GroupDocs.Signature - Hướng dẫn từng bước"
 "url": "/vi/net/signature-management/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách cập nhật mã QR bằng GroupDocs.Signature cho .NET
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách cập nhật mã QR bằng thư viện GroupDocs.Signature mạnh mẽ trong .NET! Hướng dẫn này lý tưởng cho các nhà phát triển muốn nâng cao quy trình quản lý tài liệu bằng cách tự động cập nhật chữ ký. Bằng cách tận dụng GroupDocs.Signature cho .NET, bạn có thể tích hợp liền mạch các chức năng chữ ký số vào ứng dụng của mình.

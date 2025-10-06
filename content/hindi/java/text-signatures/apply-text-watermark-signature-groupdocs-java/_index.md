@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature का उपयोग करके टेक्स्ट वॉटरमार्क हस्ताक्षर लागू करना"
 "url": "/hi/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके टेक्स्ट वॉटरमार्क हस्ताक्षर कैसे लागू करें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak PDF'leri QR Kodu ve Olay Meta Verileri ile İmzalayın"
 "url": "/tr/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET kullanarak PDF'leri QR Kodu ve Etkinlik Meta Verileri ile imzalayın
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Barkodlu PDF Belgelerini İmzalama - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Barkodlu PDF Belgelerini İmzalama: Kapsamlı Bir Kılavuz
 
 ## giriiş

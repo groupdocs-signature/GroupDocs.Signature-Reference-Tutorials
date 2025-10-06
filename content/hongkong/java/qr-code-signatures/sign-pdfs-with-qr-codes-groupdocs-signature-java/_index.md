@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 為 PDF 簽署二維碼"
 "url": "/zh-hant/java/qr-code-signatures/sign-pdfs-with-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 為 PDF 文件簽署二維碼
 
 在當今的數位時代，安全地簽署文件比以往任何時候都更加重要。無論您是商務人士還是想要驗證文件的個人，合適的工具都能發揮重要作用。本教學將指導您如何使用 **GroupDocs.Signature for Java** 使用包含 Mailmark2D 物件等複雜資料的二維碼對 PDF 文件進行簽署。我們將涵蓋從環境設定到高級功能實現的所有內容。

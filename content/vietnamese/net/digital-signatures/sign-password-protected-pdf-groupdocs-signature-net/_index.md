@@ -4,8 +4,8 @@
 "title": "Cách ký PDF được bảo vệ bằng mật khẩu bằng GroupDocs.Signature cho .NET (Hướng dẫn về chữ ký số)"
 "url": "/vi/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF được bảo vệ bằng mật khẩu bằng GroupDocs.Signature cho .NET
 ## Hướng dẫn chữ ký số
 

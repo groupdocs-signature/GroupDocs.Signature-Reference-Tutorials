@@ -4,8 +4,8 @@
 "title": "Ký bài thuyết trình bằng mã QR trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/qr-code-signatures/sign-presentations-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký bản trình bày bằng mã QR với GroupDocs.Signature cho Java
 
 ## Giới thiệu

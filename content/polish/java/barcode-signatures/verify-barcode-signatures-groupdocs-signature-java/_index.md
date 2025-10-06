@@ -4,8 +4,8 @@
 "title": "Jak weryfikować podpisy kodów kreskowych w Javie za pomocą GroupDocs.Signature"
 "url": "/pl/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć funkcję weryfikacji podpisów kodów kreskowych za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

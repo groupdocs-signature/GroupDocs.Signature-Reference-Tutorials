@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF με υπογραφή κειμένου και ακτινική διαβάθμιση σε .NET χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε PDF με υπογραφή κειμένου και ακτινική διαβάθμιση σε .NET χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

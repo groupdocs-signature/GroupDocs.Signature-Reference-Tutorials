@@ -4,8 +4,8 @@
 "title": "Υλοποίηση υπογραφών QR Code σε .NET χρησιμοποιώντας το GroupDocs.Signature&#58; Ένας ολοκληρωμένος οδηγός"
 "url": "/el/net/qr-code-signatures/implement-qr-signature-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε και να αναζητήσετε υπογραφές κώδικα QR στο .NET χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

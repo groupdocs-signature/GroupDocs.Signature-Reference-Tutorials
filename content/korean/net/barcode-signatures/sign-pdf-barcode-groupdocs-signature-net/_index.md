@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 바코드가 있는 PDF에 서명하기&#58; 완벽한 가이드"
 "url": "/ko/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 바코드 서명으로 PDF 문서에 서명
 
 오늘날의 디지털 환경에서는 문서의 진위성과 무결성을 보장하는 것이 매우 중요합니다. 비즈니스 전문가든 문서 관리 시스템 개발자든 문서에 디지털 서명을 하면 보안과 신뢰도가 한층 높아집니다. GroupDocs.Signature for .NET을 사용하면 바코드를 사용하여 PDF에 서명하는 작업이 훨씬 수월해집니다. 이 다재다능한 기능은 문서 검증 프로세스를 향상시켜 줍니다. 이 포괄적인 가이드에서는 애플리케이션에 바코드 서명을 구현하는 방법을 설명합니다.

@@ -4,8 +4,8 @@
 "title": "Java Damga İmza Eğitimi - GroupDocs.Signature API ile PDF'leri Nasıl İmzalarsınız?"
 "url": "/tr/java/image-signatures/java-groupdocs-signature-stamp-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Java Damga İmza Eğitimi: GroupDocs.Signature API ile PDF Belgelerini İmzalama
 
 Günümüzün dijital dünyasında, verimli ve güvenli belge imzalama hem işletmeler hem de bireyler için hayati önem taşımaktadır. İster sözleşmeleri yetkilendiriyor ister belgeleri doğruluyor olun, dijital olarak orijinalliği sağlamak zamandan ve kaynaklardan tasarruf sağlayabilir. Bu kapsamlı eğitim, GroupDocs.Signature for Java API'sini kullanarak bir PDF belgesini özel bir damga imzasıyla imzalamanıza rehberlik edecektir. Bu adım adım süreci izleyerek, belirli metin, yazı tipi stilleri, renkler ve konumlandırma ile dış ve iç satırları nasıl ekleyeceğinizi öğreneceksiniz.

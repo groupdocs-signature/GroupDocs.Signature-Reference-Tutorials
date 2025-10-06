@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak Meta Verilerle Sunum Belgelerini Nasıl İmzalayabilirsiniz? Eksiksiz Bir Kılavuz"
 "url": "/tr/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Meta Verilerle Sunum Belgelerini İmzalamaya Yönelik Kapsamlı Kılavuz
 
 ## giriiş

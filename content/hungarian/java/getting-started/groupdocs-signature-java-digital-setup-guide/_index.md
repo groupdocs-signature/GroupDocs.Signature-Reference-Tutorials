@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature® Átfogó útmutató a Java digitális aláírások beállításához"
 "url": "/hu/java/getting-started/groupdocs-signature-java-digital-setup-guide/"
 "weight": 1
+type: docs
 ---
-
 # Java digitális aláírás beállításának megvalósítása a GroupDocs.Signature segítségével: Fejlesztői útmutató
 
 A mai digitális korban kulcsfontosságú a dokumentumok hitelességének és integritásának biztosítása. A digitális aláírások biztonságos módot kínálnak annak ellenőrzésére, hogy a dokumentumot nem módosították-e az aláírása óta. Ez az átfogó útmutató végigvezeti Önt a digitális aláírási lehetőségek beállításán és megvalósításán a hatékony GroupDocs.Signature Java könyvtár használatával.

@@ -4,8 +4,8 @@
 "title": "Jak podpisywać pliki PDF za pomocą podpisu tekstowego i gradientu radialnego w środowisku .NET przy użyciu GroupDocs.Signature"
 "url": "/pl/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać pliki PDF za pomocą podpisu tekstowego i gradientu radialnego w środowisku .NET przy użyciu GroupDocs.Signature
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "البحث عن توقيعات البيانات الوصفية في مستندات الصور باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/search-verification/search-metadata-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية البحث عن توقيعات البيانات الوصفية في مستندات الصور باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

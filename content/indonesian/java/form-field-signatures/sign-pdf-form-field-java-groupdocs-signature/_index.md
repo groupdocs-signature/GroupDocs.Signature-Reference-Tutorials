@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF Menggunakan Tanda Tangan Form-Field di Java dengan GroupDocs.Signature"
 "url": "/id/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF Menggunakan Tanda Tangan Form-Field di Java dengan GroupDocs.Signature
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Maîtriser la recherche de certificats numériques avec GroupDocs.Signature pour Java"
 "url": "/fr/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser la recherche de certificats numériques avec GroupDocs.Signature pour Java
 
 ## Introduction

@@ -5,8 +5,8 @@
 "title": ".NET アプリでドキュメントプレビューを生成する方法 | クイックチュートリアル"
 "url": "/ja/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # .NET アプリケーションでドキュメントのプレビューを生成する方法
 
 ## 導入

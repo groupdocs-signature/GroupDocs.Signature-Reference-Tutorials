@@ -4,8 +4,8 @@
 "title": "Xóa chữ ký số trong tệp PDF bằng GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/signature-management/delete-digital-signature-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Xóa chữ ký số trong tệp PDF bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

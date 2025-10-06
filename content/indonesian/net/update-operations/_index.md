@@ -5,8 +5,8 @@
 "title": "Operasi Pembaruan Tanda Tangan Dokumen"
 "url": "/id/net/update-operations/"
 "weight": 26
+type: docs
 ---
-
 ## Perkenalan
 
 Dalam lingkungan bisnis digital saat ini, menjaga tanda tangan dokumen tetap mutakhir sangat penting untuk memastikan keaslian dan keamanan dokumen. GroupDocs.Signature untuk .NET menyediakan serangkaian alat yang komprehensif untuk memperbarui berbagai jenis tanda tangan dalam dokumen Anda, memungkinkan Anda menjaga integritas dokumen sekaligus beradaptasi dengan perubahan kebutuhan bisnis.

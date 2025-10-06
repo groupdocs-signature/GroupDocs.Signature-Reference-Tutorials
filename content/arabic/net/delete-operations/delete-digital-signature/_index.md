@@ -5,8 +5,8 @@
 "title": "كيفية إزالة التوقيعات الرقمية من المستندات في .NET"
 "url": "/ar/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # كيفية إزالة التوقيعات الرقمية من مستنداتك باستخدام GroupDocs.Signature
 
 ## لماذا تعد إدارة التوقيع الرقمي مهمة؟

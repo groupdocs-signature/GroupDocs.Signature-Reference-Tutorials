@@ -4,8 +4,8 @@
 "title": "Jak zpracovat výjimky nesprávného hesla v GroupDocs.Signature pro .NET"
 "url": "/cs/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak zpracovat výjimky nesprávného hesla pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

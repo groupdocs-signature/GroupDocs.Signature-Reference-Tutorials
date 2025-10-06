@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके छवि हस्ताक्षरों के साथ PDF पर हस्ताक्षर कैसे करें. Java के लिए हस्ताक्षर एक चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके एक छवि हस्ताक्षर के साथ एक PDF दस्तावेज़ पर हस्ताक्षर कैसे करें
 
 ## परिचय

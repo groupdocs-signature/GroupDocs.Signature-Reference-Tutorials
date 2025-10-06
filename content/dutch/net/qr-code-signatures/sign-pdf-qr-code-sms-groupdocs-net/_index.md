@@ -4,8 +4,8 @@
 "title": "PDF's met QR-codes die sms-berichten bevatten, ondertekenen met GroupDocs in .NET"
 "url": "/nl/net/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF-document ondertekenen met een QR-code die een SMS-object bevat met GroupDocs.Signature voor .NET
 
 ## Invoering

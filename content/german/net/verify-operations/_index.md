@@ -5,8 +5,8 @@
 "title": "Dokumentüberprüfungsvorgänge in .NET"
 "url": "/de/net/verify-operations/"
 "weight": 27
+type: docs
 ---
-
 ## Einführung
 
 Die Dokumentenprüfung ist ein wichtiger Bestandteil jedes sicheren Dokumentenmanagementsystems. Unabhängig davon, ob Sie Unternehmensanwendungen, Dokumenten-Workflow-Lösungen oder sicherheitsorientierte Systeme erstellen, ist die Überprüfung verschiedener Signaturtypen in Dokumenten unerlässlich. GroupDocs.Signature für .NET bietet leistungsstarke Tools und APIs, mit denen .NET-Entwickler robuste Prüffunktionen für Barcodes, digitale Signaturen, QR-Codes und Textsignaturen implementieren können.

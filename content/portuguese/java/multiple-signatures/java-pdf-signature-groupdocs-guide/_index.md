@@ -4,8 +4,8 @@
 "title": "Guia de assinatura de PDF Java - Adicionando texto, código de barras, QR e assinaturas digitais usando GroupDocs.Signature para Java"
 "url": "/pt/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar o guia de assinatura de PDF em Java: adicionando texto, código de barras, QR e assinaturas digitais usando o GroupDocs.Signature para Java
 
 ## Introdução

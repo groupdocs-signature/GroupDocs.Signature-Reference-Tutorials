@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["QR-codes", "digital-signatures", "GroupDocs", "document-verification"]
+type: docs
 ---
-
 # How to Search QR Code Signatures in .NET Documents
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Menguasai Pencarian Tanda Tangan Dokumen dengan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pencarian Tanda Tangan Dokumen dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Como inicializar uma instância de assinatura em Java usando GroupDocs.Signature"
 "url": "/pt/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Como inicializar uma instância de assinatura em Java usando GroupDocs.Signature
 
 ## Introdução

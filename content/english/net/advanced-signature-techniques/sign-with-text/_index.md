@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["GroupDocs.Signature", "text-signatures", "document-automation", "electronic-signing"]
+type: docs
 ---
-
 # How to Add Text Signature .NET Applications: The Complete Developer's Guide
 
 ## Why Your .NET App Needs Automated Text Signatures (And How to Implement Them)

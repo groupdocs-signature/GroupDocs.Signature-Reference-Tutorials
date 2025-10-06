@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF με κείμενο χρησιμοποιώντας το GroupDocs.Signature για Java&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/text-signatures/sign-pdf-text-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα PDF με κείμενο χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

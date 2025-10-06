@@ -4,8 +4,8 @@
 "title": "PDF-fájlok aláírása QR-kóddal és exportálása képként a GroupDocs for Java használatával"
 "url": "/hu/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Átfogó útmutató PDF-ek aláírásához és QR-kódokkal ellátott képként történő exportálásához a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

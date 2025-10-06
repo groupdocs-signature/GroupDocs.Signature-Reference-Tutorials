@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET でドキュメント署名を安全かつ自動化する包括的なガイド"
 "url": "/ja/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でドキュメント署名を安全かつ自動化
 
 ## 導入

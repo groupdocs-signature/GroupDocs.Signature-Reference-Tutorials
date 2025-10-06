@@ -4,8 +4,8 @@
 "title": "Panduan Lengkap untuk Mengamankan Tanda Tangan Metadata Kata di Java dengan GroupDocs"
 "url": "/id/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Mengamankan Tanda Tangan Metadata Kata di Java dengan GroupDocs
 
 ## Perkenalan

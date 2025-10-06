@@ -4,8 +4,8 @@
 "title": "Průvodce implementací vyhledávání podpisů obrázků v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/search-verification/search-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Průvodce implementací vyhledávání podpisů obrázků v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

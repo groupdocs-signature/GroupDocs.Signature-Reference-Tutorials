@@ -4,8 +4,8 @@
 "title": "掌握 GroupDocs.Signature for .NET 文档验证的综合指南"
 "url": "/zh/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # 掌握使用 GroupDocs.Signature for .NET 进行文档验证：综合指南
 
 ## 介绍

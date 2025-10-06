@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature beállítása Java licenchez fájlból – Átfogó útmutató"
 "url": "/hu/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature beállítása Java licenchez fájlból – lépésről lépésre útmutató
 
 ## Bevezetés

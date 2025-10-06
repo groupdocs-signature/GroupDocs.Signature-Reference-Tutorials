@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中實作自訂數位簽章－綜合指南"
 "url": "/zh-hant/java/digital-signatures/custom-digital-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中實作自訂數位簽名
 
 在當今的數位時代，確保文件的完整性和真實性至關重要。傳統簽名在驗證電子共享文件的合法性方面往往顯得力不從心。本指南將指導您如何使用 **GroupDocs.Signature for Java**，為您的數位文件提供更高級別的安全性和專業性。

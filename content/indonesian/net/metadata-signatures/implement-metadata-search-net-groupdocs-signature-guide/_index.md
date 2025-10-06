@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Pencarian Metadata di .NET menggunakan GroupDocs.Signature&#58; Panduan Langkah demi Langkah"
 "url": "/id/net/metadata-signatures/implement-metadata-search-net-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pencarian Metadata di .NET Menggunakan GroupDocs.Signature: Panduan Langkah demi Langkah
 
 ## Perkenalan

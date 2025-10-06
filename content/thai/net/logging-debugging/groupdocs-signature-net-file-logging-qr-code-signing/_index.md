@@ -4,8 +4,8 @@
 "title": "การบันทึกไฟล์และการลงนาม QR Code คู่มือฉบับสมบูรณ์โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # การบันทึกไฟล์และการลงนาม QR Code: คู่มือฉบับสมบูรณ์โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

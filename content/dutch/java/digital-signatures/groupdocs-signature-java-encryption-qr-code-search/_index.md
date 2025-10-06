@@ -4,8 +4,8 @@
 "title": "Veilige digitale handtekeningen in Java-GroupDocs.Handleiding voor handtekeningenversleuteling en QR-code zoeken"
 "url": "/nl/java/digital-signatures/groupdocs-signature-java-encryption-qr-code-search/"
 "weight": 1
+type: docs
 ---
-
 # Veilige digitale handtekeningen in Java met GroupDocs.Signature
 ## Invoering
 In het huidige digitale landschap is het beveiligen van documenten van het grootste belang. Of u nu gevoelige zakelijke contracten of persoonlijke gegevens beheert, robuuste encryptie en efficiënte zoekmogelijkheden kunnen uw gegevens beschermen tegen ongeautoriseerde toegang. Deze handleiding begeleidt u bij het implementeren van aangepaste encryptie en zoekopties voor QR-codehandtekeningen in Java met behulp van GroupDocs.Signature.

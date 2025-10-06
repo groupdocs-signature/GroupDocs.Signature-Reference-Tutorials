@@ -4,8 +4,8 @@
 "title": "Jak digitálně podepisovat PDF soubory pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/digital-signatures/digitally-sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak digitálně podepisovat PDF soubory pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

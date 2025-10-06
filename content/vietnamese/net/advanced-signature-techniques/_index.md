@@ -5,8 +5,8 @@
 "title": "Nắm vững các kỹ thuật chữ ký tài liệu nâng cao trong .NET"
 "url": "/vi/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # Kỹ thuật chữ ký nâng cao với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

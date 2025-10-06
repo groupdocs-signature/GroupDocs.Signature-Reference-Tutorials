@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET'te Metin Etiketi Kullanarak Belgeler Nasıl İmzalanır?"
 "url": "/tr/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET'te Metin Etiketleri Kullanarak Belgeler Nasıl İmzalanır?
 
 ## giriiş

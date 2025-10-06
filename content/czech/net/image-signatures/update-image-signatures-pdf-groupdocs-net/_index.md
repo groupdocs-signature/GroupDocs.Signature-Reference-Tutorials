@@ -4,8 +4,8 @@
 "title": "Jak aktualizovat podpisy obrázků v PDF pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/image-signatures/update-image-signatures-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak aktualizovat podpisy obrázků v PDF pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Extrahera QR-kodsignaturer med adressdata med GroupDocs.Signature för .NET | Automatisering av digitala signaturer"
 "url": "/sv/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # Extrahera QR-kodsignaturer med adressdata med GroupDocs.Signature för .NET
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "Menandatangani Dokumen Secara Digital Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/digital-signatures/digitally-sign-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen Secara Digital Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Làm chủ tìm kiếm chữ ký mã QR trong tài liệu bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ tìm kiếm tài liệu: Tìm chữ ký mã QR với dữ liệu EPC bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

@@ -5,8 +5,8 @@
 "title": "Extraire facilement les métadonnées de présentation avec GroupDocs.Signature"
 "url": "/fr/net/document-metadata-extraction/search-presentation-metadata-extraction/"
 "weight": 12
+type: docs
 ---
-
 # Comment extraire les métadonnées des présentations à l'aide de GroupDocs.Signature
 
 ## Pourquoi les métadonnées de présentation sont importantes pour vos projets

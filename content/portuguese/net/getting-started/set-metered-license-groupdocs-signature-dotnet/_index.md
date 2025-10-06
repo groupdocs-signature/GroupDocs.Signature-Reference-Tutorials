@@ -4,8 +4,8 @@
 "title": "Como definir uma licença medida para GroupDocs.Signature no .NET - Um guia completo"
 "url": "/pt/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Como definir uma licença medida para GroupDocs.Signature no .NET: um guia completo
 
 ## Introdução

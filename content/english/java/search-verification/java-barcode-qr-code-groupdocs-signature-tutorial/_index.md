@@ -8,10 +8,8 @@ keywords:
 - Java Barcode Search
 - GroupDocs.Signature for Java
 - Digital Document Verification
-
+type: docs
 ---
-
-
 # Implementing Java for Barcode, QR Code, and Metadata Signature Searches with GroupDocs.Signature
 
 ## Introduction

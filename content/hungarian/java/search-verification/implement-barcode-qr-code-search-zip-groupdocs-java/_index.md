@@ -4,8 +4,8 @@
 "title": "Vonalkód- és QR-kódkeresés megvalósítása ZIP-archívumokban GroupDocs használatával Java-fejlesztőknek"
 "url": "/hu/java/search-verification/implement-barcode-qr-code-search-zip-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Vonalkód- és QR-kódkeresés megvalósítása ZIP-archívumokban a GroupDocs for Java segítségével
 ## Bevezetés
 mai digitális világban kulcsfontosságú a dokumentumok hitelességének hatékony kezelése és ellenőrzése. Akár jogi dokumentumokkal, számlákkal vagy ZIP archívumokban tárolt szerződésekkel foglalkozik, a megfelelő eszközök nélkül kihívást jelenthet bizonyos vonalkódok és QR-kódok megtalálása. Ez az oktatóanyag végigvezeti Önt a GroupDocs.Signature for Java használatán, amellyel zökkenőmentesen kereshet vonalkód- és QR-kód-aláírásokat a ZIP fájlokban.

@@ -4,8 +4,8 @@
 "title": "Ekstrak Metadata Spreadsheet Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Mengekstrak Metadata Spreadsheet dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

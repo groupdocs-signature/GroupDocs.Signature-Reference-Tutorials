@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["barcode-verification", "document-authentication", "csharp", "dotnet"]
+type: docs
 ---
-
 ## Introduction
 
 Ever received a document with a barcode and wondered if it's legitimate? You're not alone. In today's digital landscape, document fraud is a real concern, and barcodes have become a critical line of defense. Whether you're managing invoices, shipping labels, certificates, or legal contracts, verifying barcode authenticity is essential to maintaining trust and security in your document workflow.

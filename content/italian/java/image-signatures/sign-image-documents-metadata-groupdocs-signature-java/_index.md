@@ -4,8 +4,8 @@
 "title": "Firma di documenti immagine con metadati utilizzando GroupDocs.Signature per Java&#58; una guida completa"
 "url": "/it/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare documenti immagine con metadati utilizzando GroupDocs.Signature per Java
 
 ## Introduzione

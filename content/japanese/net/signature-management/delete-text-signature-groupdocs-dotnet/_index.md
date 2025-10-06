@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してドキュメントからテキスト署名を削除する方法"
 "url": "/ja/net/signature-management/delete-text-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してドキュメントからテキスト署名を削除する方法
 
 ## 導入

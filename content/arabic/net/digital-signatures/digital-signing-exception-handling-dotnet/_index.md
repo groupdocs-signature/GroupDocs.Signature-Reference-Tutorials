@@ -4,8 +4,8 @@
 "title": "التوقيع الرقمي مع معالجة الاستثناءات في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # التوقيع الرقمي مع معالجة الاستثناءات في .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

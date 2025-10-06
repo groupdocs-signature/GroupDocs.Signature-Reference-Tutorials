@@ -4,8 +4,8 @@
 "title": "Digitális aláírások és időbélyegek megvalósítása PDF-eken Java és GroupDocs.Signature használatával"
 "url": "/hu/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírások időbélyegekkel történő megvalósítása PDF-eken Java és GroupDocs.Signature használatával
 
 ## Bevezetés

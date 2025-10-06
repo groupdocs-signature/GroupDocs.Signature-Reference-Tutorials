@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके .NET में कस्टम एन्क्रिप्शन के साथ QR-कोड हस्ताक्षर खोज लागू करें"
 "url": "/hi/net/qr-code-signatures/qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET में कस्टम एन्क्रिप्शन के साथ QR-कोड हस्ताक्षर खोज को कार्यान्वित करें
 
 ## परिचय

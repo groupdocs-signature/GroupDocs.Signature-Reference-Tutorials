@@ -4,8 +4,8 @@
 "title": "Digitale handtekeningen in .NET onder de knie krijgen&#58; GroupDocs.Signature gebruiken voor het ondertekenen en doorzoeken van documenten"
 "url": "/nl/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Digitale handtekeningen in .NET onder de knie krijgen: GroupDocs.Signature gebruiken voor het ondertekenen en doorzoeken van documenten
 
 ## Invoering

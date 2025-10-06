@@ -5,8 +5,8 @@
 "title": "在文档中搜索文本签名"
 "url": "/zh/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## 介绍
 
 文本签名是指示文档作者身份、批准或验证的常用方法。在数字文档管理中，以编程方式搜索和提取文本签名的能力对于文档验证、工作流自动化和合规性验证至关重要。GroupDocs.Signature for .NET 提供了一个全面的解决方案，用于在 .NET 应用程序中实现文本签名搜索功能，支持各种文档格式和高级搜索功能。

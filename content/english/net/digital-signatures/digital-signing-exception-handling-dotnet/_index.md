@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures", ".NET Development"]
 tags: ["digital-signatures", "dotnet", "groupdocs", "security", "document-authentication"]
+type: docs
 ---
-
 # Complete Digital Signature .NET Tutorial with GroupDocs - Handle Errors Like a Pro
 
 ## Why Digital Signatures Matter More Than Ever

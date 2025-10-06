@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java를 위한 다중 서명 튜토리얼"
 "url": "/ko/java/multiple-signatures/"
 "weight": 10
+type: docs
 ---
-
 # GroupDocs.Signature Java를 위한 다중 서명 튜토리얼
 
 GroupDocs.Signature 튜토리얼을 통해 Java 기반의 다중 서명을 위한 정교한 서명 워크플로를 생성하는 방법을 알아보세요. 이 종합적인 가이드는 다양한 서명 유형을 단일 프로세스로 결합하고, 순차적인 서명 시퀀스를 구현하고, 복잡한 서명 배열을 관리하고, 여러 페이지로 구성된 문서를 처리하는 방법을 보여줍니다. 각 튜토리얼은 고급 서명 시나리오에 대한 자세한 Java 코드 예제를 제공하여 기업 및 법률 관련 사용 사례에서 복잡한 서명 요구 사항을 지원하는 강력한 문서 처리 애플리케이션을 구축하는 데 도움을 줍니다.

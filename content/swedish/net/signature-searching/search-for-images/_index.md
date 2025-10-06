@@ -5,8 +5,8 @@
 "title": "Sök efter bildsignaturer i dokument"
 "url": "/sv/net/signature-searching/search-for-images/"
 "weight": 13
+type: docs
 ---
-
 ## Introduktion
 
 dagens digitala dokumentekosystem fungerar bildsignaturer som kraftfulla visuella markörer för varumärkesbyggande, auktorisering och dokumentvalidering. GroupDocs.Signature för .NET tillhandahåller ett omfattande ramverk för utvecklare att sömlöst söka efter, identifiera och bearbeta bildsignaturer i dokument i olika format. Denna funktion är avgörande för applikationer som kräver dokumentverifiering, innehållsanalys eller automatiserad bearbetning av signerade dokument.

@@ -4,8 +4,8 @@
 "title": "Implémenter la recherche de signature de code QR en Java avec GroupDocs.Signature"
 "url": "/fr/java/qr-code-signatures/implement-qr-code-signature-search-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implémenter la recherche de signature de code QR en Java avec GroupDocs.Signature
 
 ## Introduction

@@ -5,8 +5,8 @@
 "title": ".NET में उन्नत दस्तावेज़ हस्ताक्षर तकनीकों में महारत हासिल करें"
 "url": "/hi/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ उन्नत हस्ताक्षर तकनीकें
 
 ## परिचय

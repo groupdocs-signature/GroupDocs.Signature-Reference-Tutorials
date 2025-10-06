@@ -4,8 +4,8 @@
 "title": "Menguasai Pencarian Sertifikat Digital dengan GroupDocs.Signature untuk Java"
 "url": "/id/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pencarian Sertifikat Digital dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

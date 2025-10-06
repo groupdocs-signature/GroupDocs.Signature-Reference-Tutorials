@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["barcode-signatures", "groupdocs-signature", "document-verification", "pdf-signing"]
+type: docs
 ---
-
 # Complete Barcode Signature .NET Tutorial
 
 Looking to add bulletproof document security to your .NET applications? You've found the right place. Our comprehensive barcode signature tutorials will walk you through everything from basic PDF signing to advanced verification systems using GroupDocs.Signature for .NET.

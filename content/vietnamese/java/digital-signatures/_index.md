@@ -3,8 +3,8 @@
 "title": "Hướng dẫn chữ ký số cho GroupDocs.Signature Java"
 "url": "/vi/java/digital-signatures/"
 "weight": 3
+type: docs
 ---
-
 # Hướng dẫn chữ ký số cho GroupDocs.Signature Java
 
 Nắm vững cách triển khai chữ ký số với hướng dẫn Java chi tiết về GroupDocs.Signature của chúng tôi. Hướng dẫn từng bước này sẽ trình bày cách ký tài liệu bằng chứng chỉ số, triển khai các tùy chọn giao diện chữ ký số nâng cao, làm việc với các kiểu XAdES, sử dụng lưu gia tăng cho PDF, truy cập kho lưu trữ chứng chỉ, quản lý dấu thời gian, v.v. Mỗi hướng dẫn đều bao gồm các ví dụ mã Java thực tế, ghi chú triển khai và các phương pháp hay nhất để giúp bạn xây dựng các ứng dụng ký và xác minh tài liệu an toàn bằng chữ ký số.

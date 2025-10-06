@@ -4,8 +4,8 @@
 "title": "Átfogó útmutató a szöveges, képi és digitális aláírásokhoz a GroupDocs.Signature for .NET segítségével"
 "url": "/hu/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Átfogó útmutató szöveges, képi és digitális aláírások megvalósításához a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

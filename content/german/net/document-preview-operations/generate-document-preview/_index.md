@@ -5,8 +5,8 @@
 "title": "So generieren Sie Dokumentvorschauen in .NET-Apps | Kurzanleitung"
 "url": "/de/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # So generieren Sie Dokumentvorschauen in Ihren .NET-Anwendungen
 
 ## Einführung

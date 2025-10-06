@@ -4,8 +4,8 @@
 "title": "QR-code zoeken in Java onder de knie krijgen&#58; een complete handleiding met GroupDocs.Signature"
 "url": "/nl/java/search-verification/mastering-qr-code-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # QR-codezoekopdrachten in Java onder de knie krijgen: een complete handleiding voor het gebruik van GroupDocs.Signature
 
 ## Invoering

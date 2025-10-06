@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してメタデータで Excel スプレッドシートに署名する方法"
 "url": "/ja/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してメタデータで Excel スプレッドシートに署名する方法
 
 ## 導入

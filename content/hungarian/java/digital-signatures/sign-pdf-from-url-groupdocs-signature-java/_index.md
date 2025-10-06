@@ -4,8 +4,8 @@
 "title": "PDF aláírása URL-címről a GroupDocs.Signature for Java digitális aláírás oktatóanyagával"
 "url": "/hu/java/digital-signatures/sign-pdf-from-url-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF aláírása URL-címről a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

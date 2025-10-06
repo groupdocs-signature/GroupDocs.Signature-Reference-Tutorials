@@ -4,8 +4,8 @@
 "title": "Как поэтапно подписывать PDF-файлы с помощью GroupDocs.Signature для .NET&#58; подробное руководство"
 "url": "/ru/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать PDF-документ поэтапно с помощью GroupDocs.Signature для .NET
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して Java で実線ブラシによるテキスト署名を実装する"
 "url": "/ja/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # Javaでソリッドブラシを使用したテキスト署名を実装する
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": "PDF-digitale handtekeningen met tijdstempels implementeren met GroupDocs.Signature voor .NET"
 "url": "/nl/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # PDF-digitale handtekeningen met tijdstempels implementeren met GroupDocs.Signature voor .NET
 
 ## Invoering

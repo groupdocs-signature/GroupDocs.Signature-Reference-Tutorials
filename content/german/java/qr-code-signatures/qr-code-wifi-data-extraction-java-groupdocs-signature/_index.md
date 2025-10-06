@@ -4,8 +4,8 @@
 "title": "Extrahieren Sie WiFi-Daten aus QR-Codes in PDFs mit Java und GroupDocs.Signature"
 "url": "/de/java/qr-code-signatures/qr-code-wifi-data-extraction-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Extrahieren Sie WiFi-Daten aus QR-Codes in PDFs mit Java und GroupDocs.Signature
 
 ## Einführung

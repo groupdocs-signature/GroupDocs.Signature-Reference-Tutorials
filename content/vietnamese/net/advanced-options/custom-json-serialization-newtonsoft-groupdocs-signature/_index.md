@@ -4,8 +4,8 @@
 "title": "Tuần tự hóa JSON tùy chỉnh trong .NET với Newtonsoft.Json & GroupDocs.Signature - Hướng dẫn đầy đủ"
 "url": "/vi/net/advanced-options/custom-json-serialization-newtonsoft-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn toàn diện về tuần tự hóa JSON tùy chỉnh trong .NET bằng Newtonsoft.Json và GroupDocs.Signature
 
 ## Giới thiệu

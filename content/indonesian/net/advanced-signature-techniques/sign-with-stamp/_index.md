@@ -5,8 +5,8 @@
 "title": "Cara Menambahkan Tanda Tangan Stempel ke Dokumen dengan GroupDocs.Signature"
 "url": "/id/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # Cara Menambahkan Tanda Tangan Stempel Profesional ke Dokumen .NET Anda
 
 ## Apa yang Dapat Anda Capai dengan Tanda Tangan Cap?

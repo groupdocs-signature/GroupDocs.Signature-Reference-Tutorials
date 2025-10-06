@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET에서 백분율을 사용하여 서명 위치 설정 | 고급 튜토리얼"
 "url": "/ko/net/advanced-options/set-signature-position-percentages-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature에서 백분율을 사용하여 서명 위치 설정
 ## 소개
 오늘날의 디지털 시대에는 효율적인 문서 관리와 자동화가 필수적입니다. 정확한 위치를 유지하면서 문서에 프로그래밍 방식으로 서명을 추가하는 것은 흔한 과제입니다. 이 고급 튜토리얼에서는 GroupDocs.Signature for .NET을 사용하여 백분율 단위를 사용하여 서명의 위치를 설정하는 방법을 안내합니다.

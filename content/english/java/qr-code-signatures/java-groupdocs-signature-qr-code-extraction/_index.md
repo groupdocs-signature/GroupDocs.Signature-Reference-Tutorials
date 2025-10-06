@@ -8,10 +8,8 @@ keywords:
 - Java QR-Code Signature Extraction
 - GroupDocs.Signature for Java
 - QR-Code signature verification
-
+type: docs
 ---
-
-
 # Implementing Java QR-Code Signature Extraction with GroupDocs.Signature
 
 ## Introduction

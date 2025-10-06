@@ -4,8 +4,8 @@
 "title": "किसी फ़ाइल से जावा लाइसेंस के लिए GroupDocs.Signature सेट करना एक व्यापक मार्गदर्शिका"
 "url": "/hi/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # किसी फ़ाइल से जावा लाइसेंस के लिए GroupDocs.Signature सेट करना - चरण-दर-चरण ट्यूटोरियल
 
 ## परिचय

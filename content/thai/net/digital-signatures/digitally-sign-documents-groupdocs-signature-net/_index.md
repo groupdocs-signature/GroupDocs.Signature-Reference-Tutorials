@@ -4,8 +4,8 @@
 "title": "ลงนามเอกสารแบบดิจิทัลโดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/digital-signatures/digitally-sign-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามเอกสารแบบดิจิทัลโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

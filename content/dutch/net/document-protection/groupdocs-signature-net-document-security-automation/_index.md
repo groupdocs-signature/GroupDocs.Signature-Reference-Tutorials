@@ -4,8 +4,8 @@
 "title": "Veilig en geautomatiseerd ondertekenen van documenten met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # Veilig en geautomatiseerd ondertekenen van documenten met GroupDocs.Signature voor .NET
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "掌握 GroupDocs.Signature for .NET&#58; 管理與刪除文件簽名"
 "url": "/zh-hant/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 .NET 中的簽章管理
 
 ## 介紹

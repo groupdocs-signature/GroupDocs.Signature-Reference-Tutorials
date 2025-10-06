@@ -5,8 +5,8 @@
 "title": "عمليات معاينة المستندات وإدارتها الشاملة"
 "url": "/ar/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # عمليات معاينة المستندات
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Sökning i huvuddokument med GroupDocs.Signature för .NET-streckkodssignaturverifieringsguide"
 "url": "/sv/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra dokumentsökning med GroupDocs.Signature för .NET
 
 ## Introduktion

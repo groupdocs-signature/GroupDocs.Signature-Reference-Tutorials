@@ -5,8 +5,8 @@
 "title": "Verificar firmas digitales en documentos"
 "url": "/es/net/verify-operations/verify-digital/"
 "weight": 11
+type: docs
 ---
-
 ## Introducción
 
 Las firmas digitales desempeñan un papel crucial para garantizar la autenticidad, integridad y no repudio de los documentos en los procesos empresariales modernos. A diferencia de las firmas manuscritas tradicionales, las firmas digitales utilizan técnicas criptográficas para verificar la identidad del firmante y garantizar que el documento no haya sido alterado desde su firma.

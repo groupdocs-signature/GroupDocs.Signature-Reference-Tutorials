@@ -4,8 +4,8 @@
 "title": "การตั้งค่า GroupDocs.Signature สำหรับใบอนุญาต Java จากไฟล์ - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # การตั้งค่า GroupDocs.Signature สำหรับใบอนุญาต Java จากไฟล์ - บทช่วยสอนทีละขั้นตอน
 
 ## การแนะนำ

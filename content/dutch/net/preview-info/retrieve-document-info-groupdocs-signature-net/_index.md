@@ -4,8 +4,8 @@
 "title": "Documentinformatie ophalen met GroupDocs.Signature voor .NET"
 "url": "/nl/net/preview-info/retrieve-document-info-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Documentinformatie ophalen met GroupDocs.Signature voor .NET
 
 ## Invoering

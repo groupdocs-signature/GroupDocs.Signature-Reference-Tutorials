@@ -4,8 +4,8 @@
 "title": "Implementare firme con filigrana di testo nei documenti Word utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementare firme con filigrana di testo nei documenti Word utilizzando GroupDocs.Signature per Java
 
 ## Come aggiungere firme con filigrana di testo ai documenti Word con GroupDocs.Signature per Java

@@ -4,8 +4,8 @@
 "title": "Aggiorna in modo efficiente più firme nei PDF utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/signature-management/update-multiple-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Aggiorna in modo efficiente più firme nei PDF utilizzando GroupDocs.Signature per Java
 
 La gestione delle firme elettroniche è fondamentale per le aziende che si affidano a flussi di lavoro digitali, soprattutto quando si tratta di contratti o documenti formali. **GroupDocs.Signature per Java** Semplifica in modo efficiente l'aggiornamento di più firme in un documento PDF. Questo tutorial ti guiderà attraverso il processo.

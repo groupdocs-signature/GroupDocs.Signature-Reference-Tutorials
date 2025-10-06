@@ -4,8 +4,8 @@
 "title": "دليل شامل للنصوص والصور والتوقيعات الرقمية مع GroupDocs.Signature لـ .NET"
 "url": "/ar/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # دليل شامل لتنفيذ التوقيعات النصية والصورية والرقمية باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

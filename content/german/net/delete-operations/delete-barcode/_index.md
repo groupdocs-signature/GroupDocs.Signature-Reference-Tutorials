@@ -5,8 +5,8 @@
 "title": "So entfernen Sie Barcodes aus Dokumenten mit .NET"
 "url": "/de/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # So entfernen Sie Barcodes aus Dokumenten mit .NET
 
 ## Warum sollten Sie Barcodes löschen?

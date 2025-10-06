@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 PDF의 이미지 서명을 업데이트하는 방법"
 "url": "/ko/net/image-signatures/update-image-signatures-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 PDF의 이미지 서명을 업데이트하는 방법
 
 ## 소개

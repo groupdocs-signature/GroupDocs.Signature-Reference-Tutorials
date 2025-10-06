@@ -4,8 +4,8 @@
 "title": "Implementera Java-formulärfältsignatur för radioknappar med GroupDocs.Signature"
 "url": "/sv/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementera Java-formulärfältsignatur för radioknappar med GroupDocs.Signature
 
 ## Introduktion

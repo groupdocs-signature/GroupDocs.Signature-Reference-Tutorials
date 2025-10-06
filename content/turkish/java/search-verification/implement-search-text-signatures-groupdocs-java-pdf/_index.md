@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak PDF'lerde Metin İmzası Araması Nasıl Uygulanır?"
 "url": "/tr/java/search-verification/implement-search-text-signatures-groupdocs-java-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak PDF'lerde Metin İmzası Araması Nasıl Uygulanır?
 
 ## giriiş

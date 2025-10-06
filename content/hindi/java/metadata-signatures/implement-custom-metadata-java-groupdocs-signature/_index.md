@@ -4,8 +4,8 @@
 "title": "उन्नत दस्तावेज़ हस्ताक्षर के लिए GroupDocs.Signature का उपयोग करके Java में कस्टम मेटाडेटा लागू करें"
 "url": "/hi/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ जावा में कस्टम मेटाडेटा का कार्यान्वयन
 
 ## परिचय

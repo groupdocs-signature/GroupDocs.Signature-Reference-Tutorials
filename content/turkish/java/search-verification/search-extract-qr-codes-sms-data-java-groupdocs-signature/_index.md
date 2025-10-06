@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java kullanarak PDF'lerdeki QR Kod İmzalarından SMS Verileri Nasıl Aranır ve Çıkarılır"
 "url": "/tr/java/search-verification/search-extract-qr-codes-sms-data-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Java Kullanarak PDF'lerdeki QR Kod İmzalarından SMS Verileri Nasıl Aranır ve Çıkarılır
 
 ## giriiş

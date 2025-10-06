@@ -4,8 +4,8 @@
 "title": "Cập nhật hiệu quả nhiều chữ ký trong PDF bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/signature-management/update-multiple-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cập nhật hiệu quả nhiều chữ ký trong PDF bằng GroupDocs.Signature cho Java
 
 Quản lý chữ ký điện tử rất quan trọng đối với các doanh nghiệp sử dụng quy trình làm việc kỹ thuật số, đặc biệt là khi xử lý hợp đồng hoặc giấy tờ chính thức. **GroupDocs.Signature cho Java** giúp đơn giản hóa việc cập nhật nhiều chữ ký trong tài liệu PDF một cách hiệu quả. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình.

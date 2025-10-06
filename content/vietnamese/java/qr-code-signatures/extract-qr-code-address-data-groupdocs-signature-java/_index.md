@@ -4,8 +4,8 @@
 "title": "Trích xuất dữ liệu địa chỉ mã QR bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/qr-code-signatures/extract-qr-code-address-data-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách trích xuất dữ liệu địa chỉ mã QR bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

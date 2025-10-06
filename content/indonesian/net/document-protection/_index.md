@@ -3,8 +3,8 @@
 "title": "Tutorial Perlindungan Dokumen untuk GroupDocs.Signature .NET"
 "url": "/id/net/document-protection/"
 "weight": 16
+type: docs
 ---
-
 # Tutorial Perlindungan Dokumen untuk GroupDocs.Signature .NET
 
 Pelajari cara mengamankan dokumen menggunakan tutorial perlindungan GroupDocs.Signature kami untuk .NET. Panduan komprehensif ini menunjukkan cara menangani dokumen yang dilindungi kata sandi, menambahkan perlindungan kata sandi ke berkas keluaran, mengelola pengecualian keamanan, dan menerapkan penanganan kesalahan yang tepat. Setiap tutorial menyediakan contoh kode C# praktis untuk skenario perlindungan dokumen umum, membantu Anda membangun aplikasi yang menjaga kerahasiaan dan integritas dokumen selama proses penandatanganan.

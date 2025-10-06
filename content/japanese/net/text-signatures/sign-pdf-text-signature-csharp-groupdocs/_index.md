@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して C# でテキスト署名で PDF ドキュメントに署名する"
 "url": "/ja/net/text-signatures/sign-pdf-text-signature-csharp-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して C# でテキスト署名で PDF ドキュメントに署名する
 
 ## 導入

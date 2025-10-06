@@ -4,8 +4,8 @@
 "title": "Wdrażanie niestandardowych podpisów tekstowych w .NET za pomocą GroupDocs.Signature&#58; – kompleksowy przewodnik"
 "url": "/pl/net/text-signatures/custom-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja niestandardowych podpisów tekstowych w .NET za pomocą GroupDocs.Signature
 
 W dzisiejszej erze cyfrowej zapewnienie autentyczności i integralności dokumentów jest kluczowe. Niezależnie od tego, czy chodzi o umowy, porozumienia, czy oficjalne pisma, podpis może mieć decydujące znaczenie. Ten kompleksowy przewodnik pokaże Ci, jak wdrożyć konfigurowalne podpisy tekstowe za pomocą… **GroupDocs.Signature dla .NET**, umożliwiając udoskonalenie obiegu dokumentów z precyzją i stylem.

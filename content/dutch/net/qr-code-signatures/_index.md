@@ -3,8 +3,8 @@
 "title": "Zelfstudies voor QR-codehandtekeningen met GroupDocs.Signature voor .NET"
 "url": "/nl/net/qr-code-signatures/"
 "weight": 5
+type: docs
 ---
-
 # Zelfstudies voor QR-codehandtekeningen met GroupDocs.Signature voor .NET
 
 Ontdek hoe u effectief met QR-codehandtekeningen in uw .NET-applicaties kunt werken met onze uitgebreide GroupDocs.Signature-tutorials. Deze stapsgewijze handleidingen leren u hoe u QR-codehandtekeningen kunt maken, aanpassen, zoeken en verifiëren. Leer hoe u gespecialiseerde QR-codeobjecten implementeert voor diverse dataformaten, waaronder vCard, wifi, sms, e-mail, cryptocurrency, evenementen en EPC-betalingsgegevens. Elke tutorial biedt praktische C#-codevoorbeelden voor zowel basis- als geavanceerde QR-code-implementatie, zodat u geavanceerdere oplossingen voor documentondertekening kunt bouwen.

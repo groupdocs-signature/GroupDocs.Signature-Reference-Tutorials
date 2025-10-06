@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 擷取並顯示支援的檔案格式"
 "url": "/zh-hant/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 擷取並顯示支援的檔案格式
 
 ## 介紹

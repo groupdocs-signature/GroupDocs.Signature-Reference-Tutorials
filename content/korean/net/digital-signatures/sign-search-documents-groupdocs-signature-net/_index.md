@@ -4,8 +4,8 @@
 "title": ".NET에서 디지털 서명 마스터하기&#58; 문서 서명 및 검색을 위한 GroupDocs.Signature 사용 방법"
 "url": "/ko/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET에서 디지털 서명 마스터하기: GroupDocs.Signature를 사용하여 문서 서명 및 검색하는 방법
 
 ## 소개

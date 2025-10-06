@@ -4,8 +4,8 @@
 "title": "Menandatangani Dokumen PDF Menggunakan Gambar Base64 dan GroupDocs.Signature untuk .NET"
 "url": "/id/net/image-signatures/sign-pdf-base64-image-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF Menggunakan Gambar Base64 dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

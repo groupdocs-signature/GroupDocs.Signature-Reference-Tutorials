@@ -4,8 +4,8 @@
 "title": "Komplexní průvodce nastavením textových podpisů pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Komplexní průvodce nastavením textových podpisů pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

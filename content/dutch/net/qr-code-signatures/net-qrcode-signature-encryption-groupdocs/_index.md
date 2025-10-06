@@ -4,8 +4,8 @@
 "title": "Veilig PDF-ondertekenen met gecodeerde QR-codes in .NET met behulp van GroupDocs.Signature"
 "url": "/nl/net/qr-code-signatures/net-qrcode-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Uitgebreide handleiding: Implementatie van veilige PDF-ondertekening met gecodeerde QR-codes in .NET met behulp van GroupDocs.Signature
 
 ## Invoering

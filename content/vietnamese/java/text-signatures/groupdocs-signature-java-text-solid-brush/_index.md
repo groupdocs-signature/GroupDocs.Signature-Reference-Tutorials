@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký văn bản bằng Solid Brush trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký văn bản bằng Solid Brush trong Java
 
 ## Giới thiệu

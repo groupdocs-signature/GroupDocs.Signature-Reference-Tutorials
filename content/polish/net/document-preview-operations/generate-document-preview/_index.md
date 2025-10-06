@@ -5,8 +5,8 @@
 "title": "Jak generować podglądy dokumentów w aplikacjach .NET | Szybki samouczek"
 "url": "/pl/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # Jak generować podglądy dokumentów w aplikacjach .NET
 
 ## Wstęp

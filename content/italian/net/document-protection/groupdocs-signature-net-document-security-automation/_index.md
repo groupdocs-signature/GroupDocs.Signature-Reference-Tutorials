@@ -4,8 +4,8 @@
 "title": "Firma sicura e automatizzata dei documenti con GroupDocs.Signature per .NET&#58; una guida completa"
 "url": "/it/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # Firma sicura e automatizzata dei documenti con GroupDocs.Signature per .NET
 
 ## Introduzione

@@ -5,8 +5,8 @@
 "title": "QR-kód aláírások eltávolítása dokumentumokból .NET-ben"
 "url": "/hu/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # QR-kód aláírások törlése a dokumentumokból
 
 ## Bevezetés

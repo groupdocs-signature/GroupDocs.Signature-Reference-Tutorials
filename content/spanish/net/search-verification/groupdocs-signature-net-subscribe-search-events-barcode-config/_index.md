@@ -4,8 +4,8 @@
 "title": "Dominio de GroupDocs.Signature para .NET&#58; suscripción y configuración de eventos de búsqueda de códigos de barras"
 "url": "/es/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # Dominio de GroupDocs.Signature para .NET: suscripción y configuración de eventos de búsqueda de códigos de barras
 
 ## Introducción

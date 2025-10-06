@@ -4,8 +4,8 @@
 "title": "เรียนรู้การค้นหา QR Code ใน Java ด้วยคู่มือฉบับสมบูรณ์โดยใช้ GroupDocs.Signature"
 "url": "/th/java/search-verification/mastering-qr-code-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การค้นหา QR Code ใน Java ให้เชี่ยวชาญ: คู่มือฉบับสมบูรณ์โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

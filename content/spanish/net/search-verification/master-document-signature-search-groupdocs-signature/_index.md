@@ -4,8 +4,8 @@
 "title": "Búsqueda de firmas de documentos maestros con GroupDocs.Signature para extracción de datos de WiFi y códigos QR .NET®"
 "url": "/es/net/search-verification/master-document-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Dominar la búsqueda de firmas de documentos con GroupDocs.Signature para .NET
 
 En el panorama digital actual, la gestión y verificación eficiente de documentos es crucial para empresas de todos los sectores. Un desafío común es la búsqueda de firmas específicas en documentos, como firmas de código QR que contienen datos de Wi-Fi. Esta guía completa le guiará en la implementación de una función para buscar firmas de código QR que integren información de Wi-Fi mediante GroupDocs.Signature para .NET.

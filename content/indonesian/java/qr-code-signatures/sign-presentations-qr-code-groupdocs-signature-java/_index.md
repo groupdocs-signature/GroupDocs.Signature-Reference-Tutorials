@@ -4,8 +4,8 @@
 "title": "Menandatangani Presentasi dengan Kode QR di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/qr-code-signatures/sign-presentations-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Presentasi Menggunakan Kode QR dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

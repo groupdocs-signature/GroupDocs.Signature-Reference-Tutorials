@@ -4,8 +4,8 @@
 "title": "Dominar las firmas digitales de documentos con GroupDocs para Java&#58; una guía completa"
 "url": "/es/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Dominando las firmas digitales de documentos con GroupDocs para Java
 
 ## Introducción

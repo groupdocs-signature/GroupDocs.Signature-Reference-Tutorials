@@ -5,8 +5,8 @@
 "title": "Jak snadno odstranit více podpisů z dokumentů"
 "url": "/cs/net/delete-operations/delete-multiple-signatures/"
 "weight": 15
+type: docs
 ---
-
 # Jak odstranit více podpisů z dokumentů v .NET
 
 ## Proč je správa podpisů dokumentů důležitá

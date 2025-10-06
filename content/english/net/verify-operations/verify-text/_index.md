@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Verification"]
 tags: ["text-signatures", "document-verification", "csharp-tutorial", "groupdocs-api"]
+type: docs
 ---
-
 ## Introduction
 
 Ever dealt with a document that's supposed to have "Confidential" stamped on every page, only to find out someone forgot to add it? Or maybe you're building a system that needs to verify invoice numbers follow a specific format before processing payments. That's where text signature verification comes in handy.

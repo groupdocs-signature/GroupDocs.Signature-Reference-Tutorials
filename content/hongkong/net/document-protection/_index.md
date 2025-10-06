@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature .NET 文件保護教學"
 "url": "/zh-hant/net/document-protection/"
 "weight": 16
+type: docs
 ---
-
 # GroupDocs.Signature .NET 文件保護教學
 
 學習如何使用我們適用於 .NET 的 GroupDocs.Signature 保護教學來保護文件。這些全面的指南示範如何處理受密碼保護的文件、為輸出檔案新增密碼保護、管理安全性異常以及實施適當的錯誤處理。每個教學課程都提供了常見文件保護場景的實用 C# 程式碼範例，可協助您建立在整個簽名過程中維護文件機密性和完整性的應用程式。

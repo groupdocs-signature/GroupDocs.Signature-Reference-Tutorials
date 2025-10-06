@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 为 Excel VBA 项目签名——综合指南"
 "url": "/zh/java/digital-signatures/sign-excel-vba-projects-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 签署 Excel VBA 项目
 
 ## 介绍

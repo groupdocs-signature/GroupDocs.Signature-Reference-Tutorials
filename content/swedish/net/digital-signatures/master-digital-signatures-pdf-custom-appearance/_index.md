@@ -4,8 +4,8 @@
 "title": "Bemästra digitala signaturer i PDF-filer med anpassat utseende med GroupDocs.Signature för .NET"
 "url": "/sv/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra digitala signaturer i PDF-filer med anpassat utseende med GroupDocs.Signature för .NET
 
 ## Introduktion

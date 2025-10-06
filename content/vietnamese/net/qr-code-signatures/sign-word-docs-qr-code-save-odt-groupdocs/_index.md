@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu Word bằng mã QR và lưu dưới dạng ODT bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/qr-code-signatures/sign-word-docs-qr-code-save-odt-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu Word bằng mã QR và lưu dưới dạng ODT bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

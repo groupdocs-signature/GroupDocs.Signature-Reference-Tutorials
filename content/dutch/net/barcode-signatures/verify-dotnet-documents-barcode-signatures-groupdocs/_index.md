@@ -4,8 +4,8 @@
 "title": "Verifieer .NET-documenten met barcodehandtekeningen met GroupDocs.Signature"
 "url": "/nl/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u documentverificatie met barcodehandtekeningen in .NET implementeert met behulp van GroupDocs.Signature
 
 ## Invoering

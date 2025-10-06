@@ -4,8 +4,8 @@
 "title": "Podepisování dokumentů pomocí QR kódů pomocí GroupDocs.Signature pro Javu – kompletní průvodce"
 "url": "/cs/java/qr-code-signatures/sign-documents-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Podepisování dokumentů pomocí QR kódů pomocí GroupDocs.Signature pro Javu: Komplexní průvodce
 
 V dnešním digitálním světě je zabezpečení dokumentů klíčové. Ať už jste obchodní profesionál nebo jednotlivec nakládající s citlivými informacemi, zajištění integrity a autenticity dokumentů je prvořadé. **GroupDocs.Signature pro Javu**—výkonná knihovna — umožňuje podepisovat dokumenty pomocí různých metod, včetně QR kódů. Tato příručka vás provede stahováním dokumentů z úložiště Azure Blob Storage a jejich podepisováním pomocí QR kódů pomocí GroupDocs.Signature.

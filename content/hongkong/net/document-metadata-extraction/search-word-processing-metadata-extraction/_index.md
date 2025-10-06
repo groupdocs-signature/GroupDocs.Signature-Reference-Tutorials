@@ -5,8 +5,8 @@
 "title": "使用 .NET 輕鬆提取文字處理元數據"
 "url": "/zh-hant/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # 如何在 .NET 中搜尋和提取文字處理元數據
 
 ## 介紹

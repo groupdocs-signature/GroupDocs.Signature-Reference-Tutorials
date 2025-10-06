@@ -4,8 +4,8 @@
 "title": "Cách xác minh chữ ký văn bản trong tài liệu bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/search-verification/verify-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách xác minh chữ ký văn bản trong tài liệu bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

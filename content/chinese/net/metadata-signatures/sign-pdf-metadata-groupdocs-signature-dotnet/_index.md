@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 签署包含元数据的 PDF —— 综合指南"
 "url": "/zh/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 对带有元数据的 PDF 进行签名
 
 ## 介绍

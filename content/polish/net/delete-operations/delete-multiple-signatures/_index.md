@@ -5,8 +5,8 @@
 "title": "Jak łatwo usunąć wiele podpisów z dokumentów"
 "url": "/pl/net/delete-operations/delete-multiple-signatures/"
 "weight": 15
+type: docs
 ---
-
 # Jak usunąć wiele podpisów z dokumentów w .NET
 
 ## Dlaczego zarządzanie podpisami na dokumentach ma znaczenie

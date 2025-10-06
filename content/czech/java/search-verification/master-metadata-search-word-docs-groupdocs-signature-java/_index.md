@@ -4,8 +4,8 @@
 "title": "Vyhledávání hlavních metadat v dokumentech Word pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/search-verification/master-metadata-search-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vyhledávání metadat v dokumentech Word pomocí GroupDocs.Signature pro Javu
 
 Extrakci metadat z dokumentů Word lze zefektivnit pomocí výkonné knihovny GroupDocs.Signature. Tento tutoriál vás provede implementací funkce, která vyhledává podpisy metadat v dokumentu Word pomocí Javy.

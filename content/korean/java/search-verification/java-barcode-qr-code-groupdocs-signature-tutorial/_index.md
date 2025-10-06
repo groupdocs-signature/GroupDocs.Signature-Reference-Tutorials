@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 활용한 안전한 문서 검증을 위한 Java 바코드 및 QR 코드 검색 가이드"
 "url": "/ko/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 바코드, QR 코드 및 메타데이터 서명 검색을 위한 Java 구현
 
 ## 소개

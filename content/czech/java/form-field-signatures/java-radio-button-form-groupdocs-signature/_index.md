@@ -4,8 +4,8 @@
 "title": "Implementace podpisu pole formuláře přepínače Java pomocí GroupDocs.Signature"
 "url": "/cs/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementace podpisu pole formuláře přepínače Java pomocí GroupDocs.Signature
 
 ## Zavedení

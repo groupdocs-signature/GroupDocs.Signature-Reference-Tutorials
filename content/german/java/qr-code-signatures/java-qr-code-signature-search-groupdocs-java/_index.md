@@ -4,8 +4,8 @@
 "title": "Java QR-Code-Signatursuche mit GroupDocs für Java-Entwickler"
 "url": "/de/java/qr-code-signatures/java-qr-code-signature-search-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java QR-Code-Signatursuche mit GroupDocs für Java-Entwickler
 
 ## Einführung

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak DICOM Görüntülerini QR Kodları ve Meta Verilerle İmzalama"
 "url": "/tr/java/image-signatures/sign-dicom-images-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak DICOM Görüntülerini QR Kodları ve Meta Verilerle Nasıl İmzalayabilirsiniz?
 
 ## giriiş

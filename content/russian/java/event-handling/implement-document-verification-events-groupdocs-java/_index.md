@@ -4,8 +4,8 @@
 "title": "Реализация проверки документов с подпиской на события в Java с использованием GroupDocs.Signature"
 "url": "/ru/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Реализация проверки документов с подпиской на события с использованием GroupDocs.Signature для Java
 
 ## Введение

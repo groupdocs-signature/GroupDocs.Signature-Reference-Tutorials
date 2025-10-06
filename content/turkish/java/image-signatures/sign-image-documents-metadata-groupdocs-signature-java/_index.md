@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java'yı Kullanarak Meta Verilerle Görüntü Belgelerini İmzalama - Eksiksiz Bir Kılavuz"
 "url": "/tr/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Görüntü Belgelerini Meta Verilerle Nasıl İmzalayabilirsiniz?
 
 ## giriiş

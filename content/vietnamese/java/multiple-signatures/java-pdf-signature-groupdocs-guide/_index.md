@@ -4,8 +4,8 @@
 "title": "Hướng dẫn về chữ ký PDF Java - Thêm văn bản, mã vạch, mã QR và chữ ký số bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn triển khai chữ ký PDF Java: Thêm chữ ký văn bản, mã vạch, mã QR và chữ ký số bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

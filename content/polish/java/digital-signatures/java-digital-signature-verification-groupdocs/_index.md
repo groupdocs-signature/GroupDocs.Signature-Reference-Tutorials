@@ -4,8 +4,8 @@
 "title": "Weryfikacja podpisu cyfrowego Java za pomocą GroupDocs.Signature™ – przewodnik krok po kroku"
 "url": "/pl/java/digital-signatures/java-digital-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Kompleksowy przewodnik po wdrażaniu weryfikacji podpisu cyfrowego Java przy użyciu GroupDocs.Signature
 
 ## Wstęp

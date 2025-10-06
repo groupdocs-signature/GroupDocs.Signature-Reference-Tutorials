@@ -3,8 +3,8 @@
 "title": "Űrlapmező-aláírás oktatóanyagok a GroupDocs.Signature .NET-hez"
 "url": "/hu/net/form-field-signatures/"
 "weight": 8
+type: docs
 ---
-
 # Űrlapmező-aláírás oktatóanyagok a GroupDocs.Signature .NET-hez
 
 Sajátítsa el a PDF űrlapmezők aláírásának elsajátítását részletes GroupDocs.Signature oktatóanyagainkkal .NET fejlesztőknek. Ezek a lépésről lépésre bemutatják, hogyan dolgozhat a szabványos űrlapmezőkkel, hogyan hozhat létre és kezelhet kombinált mezőket, hogyan valósíthat meg választógomb-csoportokat, és hogyan használhatja az űrlapmezőket dokumentumaláíráshoz. Minden oktatóanyag gyakorlati C# kódpéldákat tartalmaz az űrlapmezők műveleteihez, segítve az interaktív PDF dokumentumok létrehozását kitölthető űrlapmezőket tartalmazó, felhasználói bevitelt gyűjtő és validáló eszközökkel, miközben megőrzi a dokumentum integritását.

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java におけるマスターファイル形式のサポート - 総合ガイド"
 "url": "/ja/java/advanced-options/groupdocs-signature-java-file-format-support/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java におけるマスター ファイル形式のサポート: 総合ガイド
 
 ## 導入

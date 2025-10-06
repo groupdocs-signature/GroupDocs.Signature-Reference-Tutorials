@@ -9,8 +9,8 @@ weight: 1
 url: "/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 categories: ["Digital Signatures"]
 tags: ["PDF", "digital-signature", "dotnet", "metadata", "GroupDocs"]
+type: docs
 ---
-
 # How to Add Digital Signatures to PDFs in .NET (With Custom Metadata)
 
 ## What You'll Learn in This Guide

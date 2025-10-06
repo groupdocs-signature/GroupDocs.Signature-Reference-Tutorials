@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용한 메타데이터를 포함한 이미지 문서 서명 - 포괄적인 가이드"
 "url": "/ko/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 메타데이터를 포함한 이미지 문서 서명 마스터하기
 
 ## 소개

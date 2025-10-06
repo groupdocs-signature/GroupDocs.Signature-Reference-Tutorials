@@ -4,8 +4,8 @@
 "title": "PDF에 쉽게 서명하기&#58; .NET용 GroupDocs.Signature 사용에 대한 단계별 가이드"
 "url": "/ko/net/digital-signatures/sign-pdf-groupdocs-signature-dotnet-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 PDF 문서에 서명하는 방법
 
 ## 소개

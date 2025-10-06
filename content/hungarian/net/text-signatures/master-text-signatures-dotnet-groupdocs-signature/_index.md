@@ -4,8 +4,8 @@
 "title": "Hogyan implementáljunk szöveges aláírásokat .NET-ben a GroupDocs.Signature segítségével? Átfogó útmutató"
 "url": "/hu/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Szöveges aláírások megvalósítása .NET-ben a GroupDocs.Signature segítségével: Átfogó útmutató
 
 ## Bevezetés

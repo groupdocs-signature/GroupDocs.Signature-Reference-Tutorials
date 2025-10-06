@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Elektronik Tablo Meta Verilerini Çıkarma - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature ile Elektronik Tablo Meta Verilerini Çıkarma
 
 ## giriiş

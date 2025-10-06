@@ -4,8 +4,8 @@
 "title": "So signieren Sie Dokumente mit einem Textstempel mithilfe von GroupDocs.Signature für .NET"
 "url": "/de/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie Dokumente mit einem Textstempel mithilfe von GroupDocs.Signature für .NET
 
 ## Einführung

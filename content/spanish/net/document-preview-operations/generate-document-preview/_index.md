@@ -5,8 +5,8 @@
 "title": "Cómo generar vistas previas de documentos en aplicaciones .NET | Tutorial rápido"
 "url": "/es/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # Cómo generar vistas previas de documentos en sus aplicaciones .NET
 
 ## Introducción

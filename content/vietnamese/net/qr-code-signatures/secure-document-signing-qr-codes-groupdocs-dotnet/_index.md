@@ -4,8 +4,8 @@
 "title": "Ký tài liệu an toàn bằng mã QR sử dụng GroupDocs.Signature cho .NET - Hướng dẫn đầy đủ"
 "url": "/vi/net/qr-code-signatures/secure-document-signing-qr-codes-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Ký tài liệu an toàn bằng mã QR sử dụng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

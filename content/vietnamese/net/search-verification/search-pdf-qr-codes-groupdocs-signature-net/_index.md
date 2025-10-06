@@ -4,8 +4,8 @@
 "title": "Cách tìm kiếm chữ ký mã QR trong tệp PDF và trích xuất dữ liệu VCard bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách tìm kiếm chữ ký mã QR trong tài liệu PDF và trích xuất dữ liệu VCard bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Jak usunąć podpis tekstowy według identyfikatora za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak usunąć podpis tekstowy według identyfikatora za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

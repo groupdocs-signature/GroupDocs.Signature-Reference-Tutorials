@@ -4,8 +4,8 @@
 "title": "Zvládněte vlastní serializaci dat v .NET s pokročilým průvodcem GroupDocs.Signature"
 "url": "/cs/net/advanced-options/master-custom-data-serialization-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vlastní serializace dat v .NET s GroupDocs.Signature
 ## Zavedení
 V oblasti digitálního zpracování dokumentů je zajištění integrity dat prostřednictvím přesné serializace klíčové. Tato pokročilá příručka se zabývá implementací vlastní serializace dat pomocí atributů v rámci GroupDocs.Signature pro .NET – robustního řešení, které zjednodušuje přidávání podpisů do dokumentů. Využitím specifických pravidel serializace s vlastními atributy můžete zefektivnit svůj pracovní postup a zvýšit zabezpečení dat.

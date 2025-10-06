@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して Java で PDF テキスト署名を実装する包括的なガイド"
 "url": "/ja/java/text-signatures/pdf-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して Java で PDF テキスト署名を実装する
 
 今日のデジタル環境において、契約書の確認や合意内容の検証といったビジネスプロセスにおいて、文書への安全な署名は不可欠です。テキスト署名を追加することで、真正性と整合性を確保できます。この包括的なガイドでは、PDFにテキスト署名を導入する方法を解説します。 **Java 用 GroupDocs.Signature**機能性とカスタマイズ性の両方を提供します。

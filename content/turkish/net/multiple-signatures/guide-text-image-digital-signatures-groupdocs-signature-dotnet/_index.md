@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile Metin, Görüntü ve Dijital İmzalara İlişkin Kapsamlı Kılavuz"
 "url": "/tr/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Metin, Görüntü ve Dijital İmzaların Uygulanmasına Yönelik Kapsamlı Kılavuz
 
 ## giriiş

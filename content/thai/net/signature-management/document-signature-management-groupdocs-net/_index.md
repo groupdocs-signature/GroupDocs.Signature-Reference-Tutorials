@@ -4,8 +4,8 @@
 "title": "การจัดการลายเซ็นเอกสารอย่างมีประสิทธิภาพ & การค้นหาลายเซ็นฟอร์มฟิลด์ด้วย GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # การจัดการลายเซ็นเอกสารที่มีประสิทธิภาพด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

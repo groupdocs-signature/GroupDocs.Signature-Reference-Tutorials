@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature
 - Java
 - Document Processing
-
+type: docs
 ---
-
-
 # How to Sign a PDF Using Form-Field Signature in Java with GroupDocs.Signature
 
 ## Introduction

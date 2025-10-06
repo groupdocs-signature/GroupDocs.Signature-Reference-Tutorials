@@ -4,8 +4,8 @@
 "title": "วิธีจัดการข้อยกเว้นรหัสผ่านไม่ถูกต้องใน GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีจัดการข้อยกเว้นรหัสผ่านไม่ถูกต้องโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

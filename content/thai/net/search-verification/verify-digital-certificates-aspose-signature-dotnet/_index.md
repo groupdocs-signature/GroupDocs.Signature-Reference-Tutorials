@@ -4,8 +4,8 @@
 "title": "วิธีการตรวจสอบใบรับรองดิจิทัลโดยใช้ Aspose.Signature สำหรับ .NET | คู่มือทีละขั้นตอน"
 "url": "/th/net/search-verification/verify-digital-certificates-aspose-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการตรวจสอบใบรับรองดิจิทัลโดยใช้ Aspose.Signature สำหรับ .NET
 
 ## การแนะนำ

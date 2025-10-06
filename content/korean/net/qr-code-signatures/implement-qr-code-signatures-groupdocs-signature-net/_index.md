@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 QR 코드 서명을 구현하여 문서 보안 강화"
 "url": "/ko/net/qr-code-signatures/implement-qr-code-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 QR 코드 서명을 구현하여 문서 보안 강화
 
 ## 소개

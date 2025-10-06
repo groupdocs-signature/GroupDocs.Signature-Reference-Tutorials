@@ -4,8 +4,8 @@
 "title": "从文件设置 GroupDocs.Signature 以获取 Java 许可证——综合指南"
 "url": "/zh/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # 从文件设置 GroupDocs.Signature 的 Java 许可证 - 分步教程
 
 ## 介绍

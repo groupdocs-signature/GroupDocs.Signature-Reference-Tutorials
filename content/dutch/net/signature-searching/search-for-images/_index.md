@@ -5,8 +5,8 @@
 "title": "Zoeken naar afbeeldingshandtekeningen in documenten"
 "url": "/nl/net/signature-searching/search-for-images/"
 "weight": 13
+type: docs
 ---
-
 ## Invoering
 
 In het huidige digitale documentecosysteem dienen beeldhandtekeningen als krachtige visuele markeringen voor branding, autorisatie en documentvalidatie. GroupDocs.Signature voor .NET biedt ontwikkelaars een uitgebreid framework waarmee ze naadloos beeldhandtekeningen in documenten van verschillende formaten kunnen zoeken, identificeren en verwerken. Deze functionaliteit is essentieel voor toepassingen die documentverificatie, inhoudsanalyse of geautomatiseerde verwerking van ondertekende documenten vereisen.

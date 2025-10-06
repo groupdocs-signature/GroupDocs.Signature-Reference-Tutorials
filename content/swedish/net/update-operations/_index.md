@@ -5,8 +5,8 @@
 "title": "Uppdateringsåtgärder för dokumentsignaturer"
 "url": "/sv/net/update-operations/"
 "weight": 26
+type: docs
 ---
-
 ## Introduktion
 
 I dagens digitala affärsmiljö är det avgörande att hålla dokumentsignaturer uppdaterade för att säkerställa dokumentäkthet och säkerhet. GroupDocs.Signature för .NET tillhandahåller en omfattande uppsättning verktyg för att uppdatera olika typer av signaturer i dina dokument, vilket gör att du kan bibehålla dokumentintegriteten samtidigt som du anpassar dig till förändrade affärsbehov.

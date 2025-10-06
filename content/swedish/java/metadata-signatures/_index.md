@@ -3,8 +3,8 @@
 "title": "Handledningar för metadatasignaturer för GroupDocs.Signature Java"
 "url": "/sv/java/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Handledningar för metadatasignaturer för GroupDocs.Signature Java
 
 Våra handledningar för metadatasignaturer visar hur man använder dokumentmetadata för säker signering med GroupDocs.Signature i Java. Dessa steg-för-steg-guider täcker implementering av metadatasignaturer i olika dokumentformat, inklusive PDF, bilder, presentationer, kalkylblad och ordbehandlingsfiler. Varje handledning innehåller fungerande Java-kodexempel för metadataoperationer, vilket hjälper dig att bygga applikationer som kan lägga till osynlig signaturinformation i dokument, vilket förbättrar säkerheten utan att ändra det visuella utseendet.

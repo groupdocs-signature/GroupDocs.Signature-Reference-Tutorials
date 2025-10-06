@@ -4,8 +4,8 @@
 "title": "توقيع المستند الرئيسي في Java - تنفيذ حقول النص العادي والغني باستخدام GroupDocs.Signature"
 "url": "/ar/java/digital-signatures/groupdocs-signature-java-plain-rich-text-fields/"
 "weight": 1
+type: docs
 ---
-
 # إتقان توقيع المستندات في Java: تنفيذ حقول النص العادي والنص الغني باستخدام GroupDocs.Signature
 
 مرحبًا بكم في الدليل الشامل حول الاستفادة **GroupDocs.Signature لـ Java** لتوقيع المستندات باستخدام حقول نصية عادية وغنية. سواءً كنت تُؤتمت موافقات العقود أو تُبسّط سير العمل، سيُمكّنك هذا البرنامج التعليمي من تطبيق هذه الميزات بكفاءة.

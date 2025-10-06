@@ -4,8 +4,8 @@
 "title": "Cách ký tệp ZIP bằng mã vạch và mã QR trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tệp ZIP bằng mã vạch và mã QR trong Java bằng GroupDocs.Signature
 
 ## Giới thiệu

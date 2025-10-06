@@ -4,8 +4,8 @@
 "title": "Képaláírások kezelése dokumentumokban a GroupDocs.Signature for .NET használatával – Átfogó útmutató"
 "url": "/hu/net/image-signatures/manage-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Képaláírások kezelése dokumentumokban a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

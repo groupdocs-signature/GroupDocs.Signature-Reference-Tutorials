@@ -4,8 +4,8 @@
 "title": "Meesterlijke documenthandtekeningzoekopdrachten in .NET met GroupDocs.Signature, tekst en digitale handtekeningen"
 "url": "/nl/net/search-verification/master-document-signature-searches-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Documenthandtekeningzoekopdrachten in .NET onder de knie krijgen
 
 In het huidige digitale tijdperk is het verifiëren van de authenticiteit van documenten cruciaal voor bedrijven wereldwijd. Of het nu gaat om contracten, juridische documenten of officiële documenten, efficiënte zoekopdrachten naar handtekeningen kunnen tijd besparen en de beveiliging verbeteren. Deze tutorial begeleidt u bij het implementeren van zoekopdrachten naar tekst- en digitale handtekeningen met GroupDocs.Signature voor .NET – een krachtige bibliotheek die is ontworpen voor het verwerken van diverse soorten elektronische handtekeningen in .NET-applicaties.

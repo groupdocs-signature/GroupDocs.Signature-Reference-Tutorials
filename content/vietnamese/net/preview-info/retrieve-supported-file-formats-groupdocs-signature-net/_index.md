@@ -4,8 +4,8 @@
 "title": "Truy xuất và hiển thị các định dạng tệp được hỗ trợ bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Truy xuất và hiển thị các định dạng tệp được hỗ trợ bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

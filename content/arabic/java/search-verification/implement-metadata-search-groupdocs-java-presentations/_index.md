@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ البحث عن البيانات الوصفية في عروض Java التقديمية باستخدام GroupDocs.Signature"
 "url": "/ar/java/search-verification/implement-metadata-search-groupdocs-java-presentations/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ البحث عن البيانات الوصفية في عروض Java التقديمية باستخدام GroupDocs.Signature
 
 ## مقدمة

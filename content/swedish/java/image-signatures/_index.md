@@ -3,8 +3,8 @@
 "title": "Handledningar för bildsignaturer för GroupDocs.Signature Java"
 "url": "/sv/java/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Handledningar för bildsignaturer för GroupDocs.Signature Java
 
 Lär dig hur du förbättrar dokument med visuella signaturer med hjälp av våra GroupDocs.Signature Java-handledningar för bildsignaturer. Dessa detaljerade guider visar hur du lägger till bilder som signaturer, skapar stämpelsignaturer, implementerar vattenstämplar, anpassar utseendeinställningar och arbetar med bildjustering och storleksalternativ. Varje handledning innehåller fungerande Java-kodexempel som visar hur du skapar visuellt tilltalande signaturer som effektivt kommunicerar autenticitet eller varumärke samtidigt som dokumentets integritet bibehålls.

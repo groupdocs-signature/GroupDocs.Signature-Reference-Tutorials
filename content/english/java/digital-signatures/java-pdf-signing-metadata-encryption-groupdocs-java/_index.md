@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature
 - Java
 - Document Processing
-
+type: docs
 ---
-
-
 # Mastering Java PDF Signing with Metadata and Encryption Using GroupDocs
 
 ## Introduction

@@ -5,8 +5,8 @@
 "title": "Легкое извлечение метаданных текстового процессора с помощью .NET"
 "url": "/ru/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # Как искать и извлекать метаданные текстового процессора в .NET
 
 ## Введение

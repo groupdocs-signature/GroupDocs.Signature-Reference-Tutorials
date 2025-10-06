@@ -5,8 +5,8 @@
 "title": "Cách xóa chữ ký theo ID trong tài liệu .NET"
 "url": "/vi/net/delete-operations/delete-signature-by-id/"
 "weight": 11
+type: docs
 ---
-
 # Cách xóa chữ ký theo ID trong tài liệu .NET
 
 ## Tại sao bạn cần xóa chữ ký khỏi tài liệu?

@@ -4,8 +4,8 @@
 "title": "Digitális aláírások megvalósítása .NET-ben X.509 tanúsítványokkal a GroupDocs.Signature használatával"
 "url": "/hu/net/digital-signatures/implement-digital-signature-x509-certificate-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírások megvalósítása .NET-ben X.509 tanúsítványokkal a GroupDocs.Signature használatával
 
 ## Bevezetés

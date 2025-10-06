@@ -4,8 +4,8 @@
 "title": "Weryfikacja podpisów kodów kreskowych w plikach ZIP za pomocą GroupDocs.Signature dla języka Java"
 "url": "/pl/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Weryfikacja podpisów kodów kreskowych w plikach ZIP za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

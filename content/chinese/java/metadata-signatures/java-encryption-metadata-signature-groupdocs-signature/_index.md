@@ -4,8 +4,8 @@
 "title": "Java 加密和元数据签名——使用 GroupDocs.Signature 进行安全文档处理"
 "url": "/zh/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 实现 Java 加密和元数据签名搜索
 
 ## 介绍

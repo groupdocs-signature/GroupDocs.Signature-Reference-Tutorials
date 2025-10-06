@@ -4,8 +4,8 @@
 "title": "Jak implementovat razítkové podpisy v PDF pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat razítkové podpisy v PDF pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

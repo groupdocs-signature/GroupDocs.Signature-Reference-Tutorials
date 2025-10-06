@@ -8,10 +8,8 @@ keywords:
 - Java digital signatures
 - GroupDocs.Signature setup guide
 - implementing digital signatures in Java
-
+type: docs
 ---
-
-
 # Implementing Java Digital Signature Setup with GroupDocs.Signature: A Developer's Guide
 
 In today’s digital age, ensuring the authenticity and integrity of documents is crucial. Digital signatures provide a secure way to verify that a document has not been altered since it was signed. This comprehensive guide will walk you through setting up and implementing digital signature options using the powerful GroupDocs.Signature library for Java.

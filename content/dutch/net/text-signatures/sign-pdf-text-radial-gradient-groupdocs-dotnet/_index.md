@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met teksthandtekening en radiale gradiënt in .NET met behulp van GroupDocs.Signature"
 "url": "/nl/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF's ondertekenen met teksthandtekening en radiale gradiënt in .NET met behulp van GroupDocs.Signature
 
 ## Invoering

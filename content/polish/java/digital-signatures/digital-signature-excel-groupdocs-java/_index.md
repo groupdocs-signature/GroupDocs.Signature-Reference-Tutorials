@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć podpisy cyfrowe w programie Excel za pomocą GroupDocs.Signature dla języka Java"
 "url": "/pl/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć podpis cyfrowy w arkuszu kalkulacyjnym za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

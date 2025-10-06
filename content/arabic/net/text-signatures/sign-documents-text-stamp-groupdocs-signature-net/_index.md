@@ -4,8 +4,8 @@
 "title": "كيفية توقيع المستندات بختم نصي باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع المستندات بختم نصي باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

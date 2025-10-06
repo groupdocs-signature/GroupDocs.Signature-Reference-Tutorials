@@ -4,8 +4,8 @@
 "title": "كيفية التحقق من التوقيعات النصية في المستندات باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/search-verification/verify-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية التحقق من توقيع النص في المستندات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

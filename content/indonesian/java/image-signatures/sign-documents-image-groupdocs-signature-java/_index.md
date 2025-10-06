@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen dengan Gambar Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Langkah demi Langkah"
 "url": "/id/java/image-signatures/sign-documents-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen dengan Gambar Menggunakan GroupDocs.Signature untuk Java
 
 Di era digital saat ini, mengamankan dokumen dengan tanda tangan elektronik sangatlah penting, baik bagi bisnis maupun individu. Baik Anda sedang menyelesaikan kontrak maupun menyetujui desain, metode penandatanganan dokumen digital yang cepat dan andal dapat menghemat waktu dan meningkatkan keamanan. Tutorial ini akan memandu Anda dalam menggunakan **GroupDocs.Signature untuk Java** untuk menandatangani dokumen dengan tanda tangan gambar.

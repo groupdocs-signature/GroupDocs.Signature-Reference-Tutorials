@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java によるマスターイメージの署名と最適化"
 "url": "/ja/java/image-signatures/groupdocs-signature-java-image-optimization/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java による画像の署名と最適化の習得
 
 今日のデジタル環境において、文書への安全な署名は不可欠です。契約書の認証を行うビジネスプロフェッショナルにとっても、画像を保護する個人にとっても、堅牢な署名機能は不可欠です。 **Java 用 GroupDocs.Signature** QRコード署名の作成や画像保存オプションの最適化など、強力な機能をシームレスに提供します。このチュートリアルでは、これらの機能を活用して効果的なドキュメント管理を行う方法を説明します。

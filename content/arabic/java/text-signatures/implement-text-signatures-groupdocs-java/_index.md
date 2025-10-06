@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ توقيعات النص باستخدام GroupDocs.Signature لـ Java (دليل خطوة بخطوة)"
 "url": "/ar/java/text-signatures/implement-text-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التوقيعات النصية باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

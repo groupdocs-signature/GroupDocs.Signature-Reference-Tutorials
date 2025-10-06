@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak PDF'lerde QR Kod Aramayı Ustalaştırın - Eksiksiz Bir Kılavuz"
 "url": "/tr/net/search-verification/master-qr-code-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak PDF'lerde QR Kod Aramada Ustalaşma
 
 ## giriiş

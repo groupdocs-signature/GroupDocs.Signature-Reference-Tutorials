@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["dotnet", "groupdocs", "document-security", "digital-signatures", "csharp"]
+type: docs
 ---
-
 # Digital Signature Search .NET - Complete Implementation Guide with GroupDocs.Signature
 
 ## Introduction

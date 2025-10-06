@@ -4,8 +4,8 @@
 "title": "Menerapkan Tanda Air Teks di Dokumen Word Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Tanda Air Teks di Dokumen Word Menggunakan GroupDocs.Signature untuk Java
 
 ## Cara Menambahkan Tanda Air Teks ke Dokumen Word dengan GroupDocs.Signature untuk Java

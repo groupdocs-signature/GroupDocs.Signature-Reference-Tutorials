@@ -4,8 +4,8 @@
 "title": "Sökningar efter huvudbildssignaturer i dokument med GroupDocs för Java – en omfattande guide"
 "url": "/sv/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # Sökningar efter huvudbildssignaturer i dokument med GroupDocs för Java: En omfattande guide
 
 ## Introduktion

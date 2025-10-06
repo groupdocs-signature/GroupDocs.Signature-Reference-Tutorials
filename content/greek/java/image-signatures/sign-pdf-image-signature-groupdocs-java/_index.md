@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF με υπογραφές εικόνας χρησιμοποιώντας το GroupDocs.Signature για Java - Οδηγός βήμα προς βήμα"
 "url": "/el/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα έγγραφο PDF με υπογραφή εικόνας χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

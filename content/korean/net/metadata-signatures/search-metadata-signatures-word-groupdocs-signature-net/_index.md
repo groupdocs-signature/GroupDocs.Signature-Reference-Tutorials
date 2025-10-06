@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 Word 문서에서 메타데이터 서명을 검색하는 방법"
 "url": "/ko/net/metadata-signatures/search-metadata-signatures-word-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 Word 문서에서 메타데이터 서명을 검색하는 방법
 
 ## 소개

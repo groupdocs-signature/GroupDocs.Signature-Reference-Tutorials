@@ -9,8 +9,8 @@ weight: 1
 url: "/net/text-signatures/custom-text-signatures-groupdocs-dotnet/"
 categories: ["Document Automation"]
 tags: ["csharp", "document-signing", "groupdocs", "digital-signatures"]
+type: docs
 ---
-
 # Add Text Signature to Document in C#
 
 Are you tired of manually signing documents, dealing with print-scan-email cycles, or struggling with inconsistent signature formatting across your organization? You're not alone. Thousands of developers face the same challenge when building document management systems.

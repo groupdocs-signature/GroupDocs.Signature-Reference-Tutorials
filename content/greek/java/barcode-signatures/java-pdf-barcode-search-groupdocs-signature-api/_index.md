@@ -4,8 +4,8 @@
 "title": "Αναζήτηση γραμμωτού κώδικα PDF σε Java χρησιμοποιώντας το GroupDocs.Signature API&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση Java: Αναζήτηση γραμμωτών κωδικών PDF με το GroupDocs.Signature API Tutorial
 
 ## Εισαγωγή

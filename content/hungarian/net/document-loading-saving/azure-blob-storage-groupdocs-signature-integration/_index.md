@@ -4,8 +4,8 @@
 "title": "Az Azure Blob Storage integrálása a GroupDocs.Signature for .NET-tel – lépésről lépésre útmutató"
 "url": "/hu/net/document-loading-saving/azure-blob-storage-groupdocs-signature-integration/"
 "weight": 1
+type: docs
 ---
-
 # Az Azure Blob Storage integrálása a GroupDocs.Signature for .NET-tel: lépésről lépésre útmutató
 
 ## Bevezetés

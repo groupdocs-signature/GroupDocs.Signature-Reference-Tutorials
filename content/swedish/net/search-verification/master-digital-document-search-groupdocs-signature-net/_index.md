@@ -4,8 +4,8 @@
 "title": "Bemästra digital dokumentsökning med GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/search-verification/master-digital-document-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra digital dokumentsökning med GroupDocs.Signature för .NET
 
 Att söka efter digitala signaturer i dokument kan vara utmanande, särskilt när man hanterar skyddade filer. GroupDocs.Signature för .NET förenklar processen genom att erbjuda robusta mekanismer för undantagshantering. Den här guiden guidar dig genom hur du söker efter digitala signaturer i PDF-filer med hjälp av detta kraftfulla bibliotek.

@@ -4,8 +4,8 @@
 "title": "Master Metadata Signature Search in PowerPoint met GroupDocs.Signature voor Java"
 "url": "/nl/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # Master Metadata Signature Search in PowerPoint met GroupDocs.Signature voor Java
 
 ## Invoering

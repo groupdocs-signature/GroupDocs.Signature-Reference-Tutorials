@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات PDF باستخدام حقول نموذج أزرار الاختيار مع GroupDocs.Signature لـ .NET"
 "url": "/ar/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع ملف PDF باستخدام حقول نموذج أزرار الاختيار مع GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Implémenter la signature et le chiffrement des métadonnées d'image en Java avec GroupDocs.Signature"
 "url": "/fr/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Implémenter la signature des métadonnées d'image avec chiffrement en Java à l'aide de GroupDocs.Signature
 
 ## Introduction

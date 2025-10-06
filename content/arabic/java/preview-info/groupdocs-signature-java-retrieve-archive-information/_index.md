@@ -4,8 +4,8 @@
 "title": "كيفية استرداد معلومات ملف الأرشيف باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # كيفية استرداد معلومات ملف الأرشيف باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

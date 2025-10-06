@@ -4,8 +4,8 @@
 "title": "Digitale handtekeningen implementeren in Excel met GroupDocs.Signature voor Java"
 "url": "/nl/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Digitale handtekening implementeren in een spreadsheet met GroupDocs.Signature voor Java
 
 ## Invoering

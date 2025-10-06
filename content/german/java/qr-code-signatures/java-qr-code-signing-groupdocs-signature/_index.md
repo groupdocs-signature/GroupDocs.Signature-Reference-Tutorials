@@ -4,8 +4,8 @@
 "title": "Java QR Code Signing Guide&#58; Sichern Sie Ihre Dokumente mit GroupDocs.Signature"
 "url": "/de/java/qr-code-signatures/java-qr-code-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementierung der Java QR-Code-Signierung mit GroupDocs.Signature für Java
 
 ## Einführung

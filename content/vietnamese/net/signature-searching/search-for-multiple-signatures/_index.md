@@ -5,8 +5,8 @@
 "title": "Tìm kiếm nhiều loại chữ ký trong tài liệu"
 "url": "/vi/net/signature-searching/search-for-multiple-signatures/"
 "weight": 14
+type: docs
 ---
-
 ## Giới thiệu
 
 Trong các hệ thống quản lý tài liệu hiện đại, khả năng tìm kiếm và xác thực nhiều loại chữ ký trong một tài liệu ngày càng trở nên quan trọng. Các tổ chức thường sử dụng nhiều loại chữ ký khác nhau—chẳng hạn như chữ ký số, chữ ký văn bản, mã vạch, mã QR, v.v.—để tăng cường bảo mật tài liệu và đơn giản hóa quy trình xác minh. GroupDocs.Signature for .NET cung cấp một nền tảng mạnh mẽ cho phép các nhà phát triển triển khai chức năng tìm kiếm chữ ký toàn diện trên nhiều định dạng tài liệu khác nhau.

@@ -4,8 +4,8 @@
 "title": "Implementatie van voortgangsgebeurtenisafhandeling bij het ondertekenen van documenten met GroupDocs.Signature voor Java"
 "url": "/nl/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van voortgangsgebeurtenisafhandeling bij het ondertekenen van documenten met GroupDocs.Signature voor Java
 
 ## Invoering

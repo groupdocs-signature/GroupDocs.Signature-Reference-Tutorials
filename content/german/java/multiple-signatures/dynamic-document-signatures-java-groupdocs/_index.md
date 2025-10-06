@@ -4,8 +4,8 @@
 "title": "Dynamische Dokumentsignaturen in Java – Mastering GroupDocs.Signature für elektronische Signaturen"
 "url": "/de/java/multiple-signatures/dynamic-document-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Erstellen dynamischer Dokumentsignaturen in Java mit GroupDocs
 
 In der heutigen schnelllebigen digitalen Welt ist die effiziente elektronische Signatur von Dokumenten wichtiger denn je. Ob Sie als Geschäftsmann Vertragsgenehmigungen optimieren oder persönliche Dokumente verwalten möchten – elektronische Signaturen bieten Geschwindigkeit und Komfort. Dieses Tutorial führt Sie durch die Erstellung dynamischer Text- und Barcode-Bildsignaturen mit GroupDocs.Signature für Java. Durch die Nutzung von Stretch-Modi passen sich Ihre Signaturen nahtlos über ganze Seiten an und gewährleisten so Konsistenz und Lesbarkeit.

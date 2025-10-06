@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["digital-signatures", "document-automation", "dotnet", "pdf-processing"]
+type: docs
 ---
-
 # How to Update Digital Signatures Programmatically in .NET
 
 Ever signed a document only to realize the signatory's name changed (hello, post-marriage paperwork), their title got updated, or your company went through a rebrand? Manually re-signing hundreds of documents isn't just tedious—it's a productivity nightmare.

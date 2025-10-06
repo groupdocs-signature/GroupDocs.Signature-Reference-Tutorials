@@ -4,8 +4,8 @@
 "title": "Jak integrovat úložiště Azure Blob Storage s GroupDocs.Signature pro .NET – podrobný návod"
 "url": "/cs/net/document-loading-saving/azure-blob-storage-groupdocs-signature-integration/"
 "weight": 1
+type: docs
 ---
-
 # Jak integrovat úložiště objektů BLOB v Azure s GroupDocs.Signature pro .NET: Podrobný návod
 
 ## Zavedení

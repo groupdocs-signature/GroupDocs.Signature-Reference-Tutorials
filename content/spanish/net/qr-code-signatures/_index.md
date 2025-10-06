@@ -3,8 +3,8 @@
 "title": "Tutoriales de firma de código QR con GroupDocs.Signature para .NET"
 "url": "/es/net/qr-code-signatures/"
 "weight": 5
+type: docs
 ---
-
 # Tutoriales de firma de código QR con GroupDocs.Signature para .NET
 
 Descubra cómo trabajar eficazmente con firmas de códigos QR en sus aplicaciones .NET con nuestros completos tutoriales de GroupDocs.Signature. Estas guías paso a paso le enseñan a crear, personalizar, buscar y verificar firmas de códigos QR. Aprenda a implementar objetos de código QR especializados para diversos formatos de datos, como vCard, Wi-Fi, SMS, correo electrónico, criptomonedas, eventos y datos de pago EPC. Cada tutorial proporciona ejemplos prácticos de código C# para la implementación básica y avanzada de códigos QR, lo que le ayudará a crear soluciones de firma de documentos más sofisticadas.

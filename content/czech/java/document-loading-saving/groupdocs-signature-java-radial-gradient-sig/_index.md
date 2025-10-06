@@ -4,8 +4,8 @@
 "title": "Vytvořte úžasné radiální gradientní podpisy v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/document-loading-saving/groupdocs-signature-java-radial-gradient-sig/"
 "weight": 1
+type: docs
 ---
-
 # Vytvořte vizuálně atraktivní radiální gradientní podpis pomocí GroupDocs.Signature pro Javu
 
 dnešním digitálním světě je estetika elektronického podepisování dokumentů stejně důležitá jako funkčnost. Vizuálně ohromující podpis může zvýšit jak profesionalitu, tak důvěryhodnost vaší práce. Tento tutoriál vás provede implementací podpisu s radiálním gradientním štětcem pomocí GroupDocs.Signature pro Javu.

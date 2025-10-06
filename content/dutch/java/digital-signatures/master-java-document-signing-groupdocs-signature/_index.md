@@ -4,8 +4,8 @@
 "title": "Java-documentondertekening met GS1DotCode-barcodes onder de knie krijgen met GroupDocs.Signature voor Java"
 "url": "/nl/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Het onder de knie krijgen van documentondertekening in Java met GS1DotCode-barcodes met behulp van GroupDocs.Signature
 
 ## Invoering

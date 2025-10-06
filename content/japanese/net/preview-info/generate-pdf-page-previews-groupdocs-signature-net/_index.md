@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して PDF ページプレビューを生成する包括的なガイド"
 "url": "/ja/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して PDF ページ プレビューを生成する: 包括的なガイド
 
 ## 導入

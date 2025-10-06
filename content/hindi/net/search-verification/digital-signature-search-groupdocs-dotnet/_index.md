@@ -4,8 +4,8 @@
 "title": "GroupDocs के साथ डिजिटल हस्ताक्षर खोजें..NET के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके किसी दस्तावेज़ में डिजिटल हस्ताक्षर खोज कैसे लागू करें
 
 ## परिचय

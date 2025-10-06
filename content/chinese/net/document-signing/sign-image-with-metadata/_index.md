@@ -5,8 +5,8 @@
 "title": "使用 C# .NET 中的元数据对图像进行签名"
 "url": "/zh/net/document-signing/sign-image-with-metadata/"
 "weight": 10
+type: docs
 ---
-
 ## 介绍
 
 使用元数据进行数字图像签名对于确立真实性、所有权和可追溯性正变得越来越重要。GroupDocs.Signature for .NET 提供了一个强大且易于使用的解决方案，用于为各种图像格式添加元数据签名。本教程将指导您使用 C# 完成使用元数据对图像进行签名的完整过程。

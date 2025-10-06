@@ -4,8 +4,8 @@
 "title": "Ασφαλής υπογραφή εγγράφων με κωδικούς GS1DotCode & HanXin QR χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/barcode-signatures/sign-documents-gs1dotcode-hanxin-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Ασφαλής υπογραφή εγγράφων με κωδικούς GS1DotCode & HanXin QR χρησιμοποιώντας το GroupDocs.Signature για .NET
 ## Πώς να υπογράψετε έγγραφα με κωδικούς GS1DotCode και HanXin QR χρησιμοποιώντας το GroupDocs.Signature για .NET
 Στη σημερινή ψηφιακή εποχή, η ασφαλής ηλεκτρονική υπογραφή εγγράφων είναι ζωτικής σημασίας. Είτε είστε επαγγελματίας είτε προγραμματιστής που θέλει να αυτοματοποιήσει τις ροές εργασίας, η ενσωμάτωση υπογραφών γραμμωτού κώδικα και κωδικού QR ενισχύει την ασφάλεια και βελτιστοποιεί τις διαδικασίες. Αυτό το σεμινάριο σας καθοδηγεί στη χρήση του GroupDocs.Signature για .NET για την εφαρμογή υπογραφών GS1DotCode και HanXin QR Code στις εφαρμογές σας.

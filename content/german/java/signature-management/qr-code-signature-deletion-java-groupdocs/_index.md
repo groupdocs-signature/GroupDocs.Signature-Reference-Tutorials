@@ -4,8 +4,8 @@
 "title": "Anleitung zum Löschen von QR-Code-Signaturen in Java mithilfe von GroupDocs"
 "url": "/de/java/signature-management/qr-code-signature-deletion-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Anleitung zum Löschen von QR-Code-Signaturen in Java mithilfe von GroupDocs
 
 ## Einführung

@@ -4,8 +4,8 @@
 "title": "Как реализовать шифрование подписи метаданных в .NET с помощью GroupDocs.Signature для защиты PDF-файлов"
 "url": "/ru/net/metadata-signatures/groupdocs-signature-net-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать шифрование подписи метаданных в .NET с помощью GroupDocs.Signature для защиты PDF-файлов
 
 ## Введение

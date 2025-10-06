@@ -4,8 +4,8 @@
 "title": "Pesquisa de código de barras Java em PDFs usando GroupDocs.Signature para Java"
 "url": "/pt/java/search-verification/java-barcode-search-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar a pesquisa de código de barras Java em PDFs usando GroupDocs.Signature para Java
 
 ## Introdução

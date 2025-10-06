@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용한 디지털 인증서 검색 마스터하기"
 "url": "/ko/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용한 디지털 인증서 검색 마스터하기
 
 ## 소개

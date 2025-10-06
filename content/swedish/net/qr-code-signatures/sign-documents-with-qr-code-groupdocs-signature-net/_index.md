@@ -4,8 +4,8 @@
 "title": "Hur man signerar dokument med QR-koder med GroupDocs.Signature för .NET – en steg-för-steg-guide"
 "url": "/sv/net/qr-code-signatures/sign-documents-with-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Omfattande handledning: Signera dokument med QR-kod med GroupDocs.Signature för .NET
 
 ## Introduktion

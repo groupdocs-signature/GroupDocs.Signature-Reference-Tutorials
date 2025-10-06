@@ -4,8 +4,8 @@
 "title": "PDF oldal előnézetek generálása a GroupDocs.Signature for .NET használatával – Átfogó útmutató"
 "url": "/hu/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF oldal előnézetek generálása a GroupDocs.Signature for .NET használatával: Átfogó útmutató
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "تنفيذ معالجة أحداث التقدم في توقيع المستندات باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ معالجة أحداث التقدم في توقيع المستندات باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

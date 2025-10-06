@@ -4,8 +4,8 @@
 "title": "Signer des documents image avec des métadonnées à l'aide de GroupDocs.Signature pour Java - Guide complet"
 "url": "/fr/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer des documents image avec des métadonnées à l'aide de GroupDocs.Signature pour Java
 
 ## Introduction

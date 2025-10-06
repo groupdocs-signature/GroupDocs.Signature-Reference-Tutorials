@@ -4,8 +4,8 @@
 "title": "Signieren Sie TAR-Archive mit Barcodes und QR-Codes in Java mithilfe von GroupDocs.Signature"
 "url": "/de/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie TAR-Archive mit Barcodes und QR-Codes mithilfe von GroupDocs.Signature für Java
 
 ## Einführung

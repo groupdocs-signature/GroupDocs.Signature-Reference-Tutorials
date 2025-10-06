@@ -3,8 +3,8 @@
 "title": "Výukové programy pro textové podpisy v GroupDocs.Signature .NET"
 "url": "/cs/net/text-signatures/"
 "weight": 7
+type: docs
 ---
-
 # Výukové programy pro textové podpisy v GroupDocs.Signature .NET
 
 Naše tutoriály pro textové podpisy vám ukážou, jak implementovat různé typy textových podpisů pomocí GroupDocs.Signature v .NET. Tyto praktické průvodce vás provedou vytvářením textových podpisů, vodoznaků, anotací, samolepek, formulářových polí a razítek s přizpůsobitelnými možnostmi formátování. Každý tutoriál obsahuje podrobné příklady kódu C# pro scénáře implementace textových podpisů, které vám pomohou vytvářet aplikace, které dokáží efektivně označovat dokumenty textovými informacemi a zároveň poskytují více možností stylingu a umístění.

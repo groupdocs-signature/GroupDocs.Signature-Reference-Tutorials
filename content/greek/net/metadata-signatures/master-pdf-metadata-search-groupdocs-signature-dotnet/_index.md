@@ -4,8 +4,8 @@
 "title": "Πώς να αναζητήσετε υπογραφές μεταδεδομένων PDF χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/metadata-signatures/master-pdf-metadata-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αναζητήσετε υπογραφές μεταδεδομένων PDF χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

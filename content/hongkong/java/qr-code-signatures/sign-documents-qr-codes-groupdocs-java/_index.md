@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 簽署二維碼文件完整指南"
 "url": "/zh-hant/java/qr-code-signatures/sign-documents-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 簽署二維碼文件：綜合指南
 
 在當今的數位世界中，文件安全至關重要。無論您是商務人士還是處理敏感資訊的個人，確保文件的完整性和真實性都至關重要。 **GroupDocs.Signature for Java**—一個強大的函式庫—支援使用各種方法（包括二維碼）對文件進行簽署。本指南將指導您從 Azure Blob 儲存裝置下載文檔，並使用 GroupDocs.Signature 對其進行二維碼簽章。

@@ -4,8 +4,8 @@
 "title": "Implementeer Java Stamp Sign-opties met GroupDocs.Signature voor documentauthenticiteit"
 "url": "/nl/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementeer Java Stamp Sign-opties met GroupDocs.Signature voor documentauthenticiteit
 ## Hoe u Java Stamp-tekenopties implementeert met GroupDocs.Signature voor Java
 In het huidige digitale tijdperk is het garanderen van de authenticiteit van documenten van het grootste belang. Of u nu een professional bent of een particulier die contracten en overeenkomsten moet valideren, het toevoegen van een stempelhandtekening kan geloofwaardigheid en veiligheid bieden. Deze tutorial begeleidt u bij het instellen van opties voor stempelhandtekeningen met GroupDocs.Signature voor Java – een krachtige bibliotheek die is afgestemd op uw behoeften op het gebied van documentondertekening.

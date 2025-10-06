@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中實作二維碼簽章搜尋"
 "url": "/zh-hant/net/search-verification/implement-qr-code-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在文件中實作二維碼簽章搜尋
 
 ## 介紹

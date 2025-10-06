@@ -4,8 +4,8 @@
 "title": "Meistern Sie die Bildsignatursuche in Dokumenten mit GroupDocs für Java – Ein umfassender Leitfaden"
 "url": "/de/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # Meistern Sie die Bildsignatursuche in Dokumenten mit GroupDocs für Java: Ein umfassender Leitfaden
 
 ## Einführung

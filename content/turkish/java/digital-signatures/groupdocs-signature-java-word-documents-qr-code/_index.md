@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak QR Kodlarıyla Word Belgelerini Güvenli Şekilde Nasıl İmzalayabilirsiniz?"
 "url": "/tr/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak QR Kodlarıyla Word Belgelerini Güvenli Şekilde Nasıl İmzalayabilirsiniz?
 
 Günümüzün dijital dünyasında, belgeleri güvenli bir şekilde imzalamak hem işletmeler hem de bireyler için hayati önem taşıyor. İster sözleşmeler, ister yasal anlaşmalar veya resmi mektuplar olsun, belgelerinizin gerçekliğini sağlamak son derece önemlidir. Elektronik imzalarla bu süreci basitleştirirken, ek bir güvenlik ve kolaylık katmanı ekledik. GroupDocs.Signature for Java, Word belgelerini QR kodları kullanarak imzalamak için güçlü bir çözüm sunar: modern ve güvenli bir dijital imza.

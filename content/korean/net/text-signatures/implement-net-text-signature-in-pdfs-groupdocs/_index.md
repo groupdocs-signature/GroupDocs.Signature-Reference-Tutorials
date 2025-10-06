@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 PDF에 .NET 텍스트 서명 구현하기 - 포괄적인 가이드"
 "url": "/ko/net/text-signatures/implement-net-text-signature-in-pdfs-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 PDF에 .NET 텍스트 서명 구현
 ## 소개
 오늘날의 디지털 세상에서는 모든 산업 분야에서 문서의 진위성과 무결성을 보장하는 것이 매우 중요합니다. PDF 문서에 안전한 전자 서명을 효율적으로 추가하는 것은 어려울 수 있습니다. **.NET용 GroupDocs.Signature**—이 과정을 간소화하도록 설계된 강력한 라이브러리입니다. 이 포괄적인 가이드에서는 PDF에 텍스트 서명을 빠르고 안전하게 추가하는 방법을 안내해 드립니다.

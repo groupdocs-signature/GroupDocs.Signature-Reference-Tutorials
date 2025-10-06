@@ -5,8 +5,8 @@
 "title": "QR-kód aláírások frissítése dokumentumokban"
 "url": "/hu/net/update-operations/update-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## Bevezetés
 mai digitális-központú üzleti környezetben a QR-kódok a dokumentumkezelési és hitelesítési rendszerek alapvető elemévé váltak. Kényelmes módot kínálnak az információk kódolására és elérésére, az egyszerű URL-ektől az összetett strukturált adatokig. A GroupDocs.Signature for .NET egy átfogó eszközkészletet kínál, amely lehetővé teszi a fejlesztők számára, hogy fejlett elektronikus aláírási képességeket integráljanak alkalmazásaikba, beleértve a dokumentumokon belüli meglévő QR-kód-aláírások frissítésének lehetőségét is.
 

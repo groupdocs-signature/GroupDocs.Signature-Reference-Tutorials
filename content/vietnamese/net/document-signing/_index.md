@@ -5,8 +5,8 @@
 "title": "Ký tài liệu bằng siêu dữ liệu trong .NET"
 "url": "/vi/net/document-signing/"
 "weight": 24
+type: docs
 ---
-
 ## Giới thiệu
 
 Trong thế giới số ngày nay, việc đảm bảo tính xác thực, truy xuất nguồn gốc và tính toàn vẹn của tài liệu đã trở nên thiết yếu đối với các doanh nghiệp và tổ chức. Chữ ký siêu dữ liệu cung cấp một phương thức mạnh mẽ nhưng kín đáo để nhúng thông tin nhận dạng trực tiếp vào tệp tài liệu, tăng cường bảo mật mà không làm thay đổi hình thức hiển thị của chúng.

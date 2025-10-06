@@ -4,8 +4,8 @@
 "title": "Opanowanie cyfrowych podpisów dokumentów za pomocą GroupDocs for Java – kompleksowy przewodnik"
 "url": "/pl/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie cyfrowych podpisów dokumentów za pomocą GroupDocs dla Java
 
 ## Wstęp

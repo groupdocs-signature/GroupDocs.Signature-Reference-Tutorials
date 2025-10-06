@@ -4,8 +4,8 @@
 "title": "QR-kód aláírások ellenőrzése .NET-ben a GroupDocs.Signature használatával"
 "url": "/hu/net/qr-code-signatures/verify-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírás-ellenőrzésének megvalósítása a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

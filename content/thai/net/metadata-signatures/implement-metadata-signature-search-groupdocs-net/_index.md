@@ -4,8 +4,8 @@
 "title": "วิธีการนำการค้นหาลายเซ็นข้อมูลเมตาไปใช้ในงานนำเสนอ PowerPoint โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/metadata-signatures/implement-metadata-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำการค้นหาลายเซ็นข้อมูลเมตาไปใช้ใน PowerPoint ด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

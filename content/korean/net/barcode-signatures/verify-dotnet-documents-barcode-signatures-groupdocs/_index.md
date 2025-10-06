@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 바코드 서명이 있는 .NET 문서 확인"
 "url": "/ko/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 바코드 서명으로 문서 검증을 구현하는 방법
 
 ## 소개

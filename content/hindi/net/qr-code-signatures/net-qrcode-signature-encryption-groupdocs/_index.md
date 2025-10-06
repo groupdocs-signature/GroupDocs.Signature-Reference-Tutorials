@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके .NET में एन्क्रिप्टेड QR-कोड के साथ सुरक्षित PDF हस्ताक्षर"
 "url": "/hi/net/qr-code-signatures/net-qrcode-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # व्यापक गाइड: GroupDocs.Signature का उपयोग करके .NET में एन्क्रिप्टेड QR-कोड के साथ सुरक्षित PDF हस्ताक्षर लागू करना
 
 ## परिचय

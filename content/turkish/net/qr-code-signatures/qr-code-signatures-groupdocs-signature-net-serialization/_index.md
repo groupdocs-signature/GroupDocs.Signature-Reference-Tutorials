@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Özel Serileştirme ile .NET'te QR Kod İmzalarını Uygulama"
 "url": "/tr/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak .NET'te Özel Serileştirme ile QR Kod İmzalarını Uygulama
 
 ## giriiş

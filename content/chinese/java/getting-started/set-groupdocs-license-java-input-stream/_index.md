@@ -4,8 +4,8 @@
 "title": "如何在 Java 中通过 InputStream 设置 GroupDocs 许可证以增强灵活性和合规性"
 "url": "/zh/java/getting-started/set-groupdocs-license-java-input-stream/"
 "weight": 1
+type: docs
 ---
-
 # 如何实现 Java：通过 GroupDocs.Signature for Java 中的 InputStream 设置 GroupDocs 许可证
 
 欢迎阅读这份全面的指南，了解如何使用 GroupDocs.Signature for Java 的输入流设置 GroupDocs 许可证。此功能可让您高效管理许可证，确保合规性并解锁 GroupDocs 功能的完全访问权限。

@@ -4,8 +4,8 @@
 "title": "إنشاء معاينات لصفحات PDF باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # إنشاء معاينات لصفحات PDF باستخدام GroupDocs.Signature لـ .NET: دليل شامل
 
 ## مقدمة

@@ -5,8 +5,8 @@
 "title": "Belgelerde Görüntü İmzalarını Ara"
 "url": "/tr/net/signature-searching/search-for-images/"
 "weight": 13
+type: docs
 ---
-
 ## giriiş
 
 Günümüzün dijital belge ekosisteminde, görüntü imzaları markalama, yetkilendirme ve belge doğrulama için güçlü görsel işaretleyiciler olarak hizmet vermektedir. GroupDocs.Signature for .NET, geliştiricilerin çeşitli formatlardaki belgelerdeki görüntü imzalarını sorunsuz bir şekilde aramaları, tanımlamaları ve işlemeleri için kapsamlı bir çerçeve sunar. Bu özellik, belge doğrulaması, içerik analizi veya imzalı belgelerin otomatik işlenmesini gerektiren uygulamalar için olmazsa olmazdır.

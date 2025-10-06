@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中创建令人惊叹的径向渐变签名"
 "url": "/zh/java/document-loading-saving/groupdocs-signature-java-radial-gradient-sig/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 创建具有视觉吸引力的径向渐变签名
 
 在当今的数字世界中，电子文档签名的美观性与功能性同等重要。视觉上令人惊艳的签名可以提升您作品的专业性和可信度。本教程将指导您使用 GroupDocs.Signature for Java 实现径向渐变画笔签名。

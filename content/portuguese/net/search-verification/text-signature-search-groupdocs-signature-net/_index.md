@@ -4,8 +4,8 @@
 "title": "Pesquisa de assinatura de texto mestre em documentos .NET usando GroupDocs.Signature"
 "url": "/pt/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Dominando a pesquisa de assinaturas de texto em documentos .NET usando GroupDocs.Signature
 
 ## Introdução

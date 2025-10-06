@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 PDF에 서명하고 DOCX로 변환하는 포괄적인 가이드"
 "url": "/ko/net/digital-signatures/sign-pdf-convert-docx-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 PDF에 서명하고 DOCX로 변환: 포괄적인 가이드
 
 오늘날의 디지털 환경에서는 법률, 금융, 행정 등 다양한 분야에서 문서에 안전하게 서명하는 것이 매우 중요합니다. GroupDocs.Signature for .NET은 PDF에 손쉽게 서명하고 DOCX와 같은 다양한 형식으로 변환할 수 있도록 지원하여 이 과정을 간소화합니다. 이 종합 가이드는 문서 관리 워크플로를 개선하는 데 필요한 단계를 안내합니다.

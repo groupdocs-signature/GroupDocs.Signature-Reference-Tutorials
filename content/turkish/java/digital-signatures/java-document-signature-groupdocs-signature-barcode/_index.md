@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java'da Ana Belge İmzaları ve Barkod İmza Kılavuzu"
 "url": "/tr/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Java'da Belge İmzalarında Ustalaşma
 
 **GroupDocs.Signature for Java'yı kullanarak barkod imzalarını imzalayarak, doğrulayarak, arayarak, güncelleyerek ve silerek dijital belge iş akışlarınızı kolaylaştırın.**

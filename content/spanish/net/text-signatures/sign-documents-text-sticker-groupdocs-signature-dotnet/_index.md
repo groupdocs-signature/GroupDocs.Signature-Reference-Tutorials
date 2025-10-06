@@ -4,8 +4,8 @@
 "title": "Cómo firmar documentos con etiquetas de texto en GroupDocs.Signature para .NET"
 "url": "/es/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar documentos con etiquetas de texto en GroupDocs.Signature para .NET
 
 ## Introducción

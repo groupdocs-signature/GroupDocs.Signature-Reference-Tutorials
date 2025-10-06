@@ -4,8 +4,8 @@
 "title": "การตรวจสอบเอกสารดิจิทัลด้วย GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/digital-signatures/digital-document-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # การตรวจสอบเอกสารดิจิทัลด้วย GroupDocs.Signature สำหรับ .NET: คู่มือที่ครอบคลุม
 
 ## การแนะนำ

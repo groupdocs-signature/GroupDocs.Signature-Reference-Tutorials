@@ -4,8 +4,8 @@
 "title": "Implementace digitálních podpisů v .NET pomocí GroupDocs.Signature"
 "url": "/cs/net/digital-signatures/digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementace podepisování dokumentů pomocí digitálních podpisů pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

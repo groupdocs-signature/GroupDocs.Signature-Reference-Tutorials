@@ -4,8 +4,8 @@
 "title": "Ενημέρωση υπογραφών κειμένου σε έγγραφα .NET χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/signature-management/update-text-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Ενημέρωση υπογραφών κειμένου σε έγγραφα .NET χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

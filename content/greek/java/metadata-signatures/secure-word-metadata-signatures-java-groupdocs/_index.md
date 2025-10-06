@@ -4,8 +4,8 @@
 "title": "Ασφαλείς υπογραφές μεταδεδομένων Word σε Java με το GroupDocs® Ένας ολοκληρωμένος οδηγός"
 "url": "/el/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Ασφαλείς υπογραφές μεταδεδομένων Word σε Java με το GroupDocs
 
 ## Εισαγωγή

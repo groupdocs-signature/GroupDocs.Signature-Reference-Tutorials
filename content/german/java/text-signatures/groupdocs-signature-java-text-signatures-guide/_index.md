@@ -4,8 +4,8 @@
 "title": "Textsignaturen in Java meistern&#58; Umfassender Leitfaden zu GroupDocs.Signature für Java"
 "url": "/de/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentsignatur in Java meistern: Ein umfassender Leitfaden zur Verwendung von GroupDocs.Signature für Textsignaturen
 
 ## Einführung

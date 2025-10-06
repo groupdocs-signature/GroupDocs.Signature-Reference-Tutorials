@@ -4,8 +4,8 @@
 "title": "Dokumentum-ellenőrzés megvalósítása GroupDocs.Signature for Java használatával – Átfogó útmutató"
 "url": "/hu/java/search-verification/implement-document-verification-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum-ellenőrzés megvalósítása GroupDocs.Signature for Java használatával
 
 **Bevezetés**

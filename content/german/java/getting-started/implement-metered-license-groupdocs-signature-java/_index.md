@@ -4,8 +4,8 @@
 "title": "Implementieren Sie eine gebührenpflichtige Lizenz in GroupDocs.Signature für Java – eine Schritt-für-Schritt-Anleitung"
 "url": "/de/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie eine gebührenpflichtige Lizenz in GroupDocs.Signature für Java
 
 ## Einführung

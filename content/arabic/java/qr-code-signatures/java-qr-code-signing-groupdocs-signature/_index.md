@@ -4,8 +4,8 @@
 "title": "دليل توقيع رمز الاستجابة السريعة بلغة Java - تأمين مستنداتك باستخدام GroupDocs.Signature"
 "url": "/ar/java/qr-code-signatures/java-qr-code-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ توقيع رمز الاستجابة السريعة Java باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

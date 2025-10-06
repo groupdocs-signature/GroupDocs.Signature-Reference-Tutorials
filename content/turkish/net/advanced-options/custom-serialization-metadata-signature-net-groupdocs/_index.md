@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature kullanarak .NET'te Özel Serileştirme ve Meta Veri Arama"
 "url": "/tr/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature ile Özel Serileştirme ve Meta Veri İmza Aramasını Uygulama
 
 ## giriiş

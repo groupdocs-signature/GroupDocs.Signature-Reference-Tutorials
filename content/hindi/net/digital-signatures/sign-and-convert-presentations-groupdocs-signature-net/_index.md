@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature के साथ प्रस्तुतियों पर हस्ताक्षर और रूपांतरण कैसे करें एक व्यापक गाइड"
 "url": "/hi/net/digital-signatures/sign-and-convert-presentations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ प्रस्तुतियों पर हस्ताक्षर और रूपांतरण कैसे करें: एक व्यापक मार्गदर्शिका
 
 ## परिचय

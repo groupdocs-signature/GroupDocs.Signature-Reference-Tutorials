@@ -4,8 +4,8 @@
 "title": "Ký tài liệu an toàn với mã QR GS1DotCode và HanXin sử dụng GroupDocs.Signature cho .NET"
 "url": "/vi/net/barcode-signatures/sign-documents-gs1dotcode-hanxin-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Ký tài liệu an toàn với mã QR GS1DotCode và HanXin sử dụng GroupDocs.Signature cho .NET
 ## Cách ký tài liệu bằng mã QR GS1DotCode và HanXin bằng GroupDocs.Signature cho .NET
 Trong thời đại kỹ thuật số ngày nay, việc ký tài liệu điện tử an toàn là vô cùng quan trọng. Cho dù bạn là chuyên gia kinh doanh hay nhà phát triển đang tìm cách tự động hóa quy trình làm việc, việc tích hợp chữ ký mã vạch và mã QR sẽ giúp tăng cường bảo mật và hợp lý hóa quy trình. Hướng dẫn này sẽ hướng dẫn bạn sử dụng GroupDocs.Signature cho .NET để triển khai chữ ký GS1DotCode và HanXin QR Code trong các ứng dụng của bạn.

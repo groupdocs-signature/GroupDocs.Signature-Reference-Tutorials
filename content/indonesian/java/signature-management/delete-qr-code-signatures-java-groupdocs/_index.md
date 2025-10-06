@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Tanda Tangan Kode QR dari Dokumen Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/signature-management/delete-qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Kode QR dari Dokumen Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

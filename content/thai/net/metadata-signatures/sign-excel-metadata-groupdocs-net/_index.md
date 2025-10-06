@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในสเปรดชีต Excel ด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในสเปรดชีต Excel ด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

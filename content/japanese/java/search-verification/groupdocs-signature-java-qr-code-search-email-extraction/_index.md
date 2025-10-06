@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature for Java の効率的な QR コード署名検索とメール抽出"
 "url": "/ja/java/search-verification/groupdocs-signature-java-qr-code-search-email-extraction/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java のマスター: QR コード署名の検索とメール抽出
 
 ## 導入

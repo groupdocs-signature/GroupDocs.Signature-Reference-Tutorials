@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 和 FileStream 在 .NET 中設定授權—綜合指南"
 "url": "/zh-hant/net/getting-started/set-license-net-groupdocs-signature-stream/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 和 FileStream 在 .NET 中設定許可證
 ## 入門
 ### 使用 GroupDocs.Signature 在 .NET 中透過串流實現設定許可證

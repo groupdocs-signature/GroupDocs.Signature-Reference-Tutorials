@@ -4,8 +4,8 @@
 "title": "Dominando a assinatura de documentos em .NET - Assinaturas de código de barras e QR Code com GroupDocs.Signature"
 "url": "/pt/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Dominando a assinatura de documentos em .NET: implementando assinaturas de código de barras e QR Code com GroupDocs.Signature
 
 ## Introdução

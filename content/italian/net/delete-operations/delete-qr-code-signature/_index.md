@@ -5,8 +5,8 @@
 "title": "Come rimuovere le firme dei codici QR dai documenti in .NET"
 "url": "/it/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # Come eliminare le firme con codice QR dai tuoi documenti
 
 ## Introduzione

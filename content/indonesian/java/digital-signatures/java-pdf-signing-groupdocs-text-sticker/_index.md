@@ -4,8 +4,8 @@
 "title": "Menguasai Tanda Tangan Stiker Teks Penandatanganan PDF Java dengan GroupDocs.Signature untuk Java"
 "url": "/id/java/digital-signatures/java-pdf-signing-groupdocs-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Penandatanganan PDF Java: Membuat Tampilan Stiker Teks dengan GroupDocs.Signature
 
 Di era digital saat ini, menandatangani dokumen secara elektronik sangatlah penting. Baik Anda seorang profesional bisnis maupun individu yang mengelola kontrak dan perjanjian, tanda tangan yang aman dan menarik secara visual sangatlah penting. Tutorial ini memandu Anda melalui proses penandatanganan dokumen PDF menggunakan tampilan stiker teks dengan GroupDocs.Signature untuk Java. Menguasai keterampilan ini akan menyederhanakan alur kerja dokumen dan memungkinkan Anda menyajikan dokumen yang ditandatangani secara profesional dalam format yang unik.

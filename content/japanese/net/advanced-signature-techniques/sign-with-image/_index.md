@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature でドキュメントに画像署名を簡単に追加"
 "url": "/ja/net/advanced-signature-techniques/sign-with-image/"
 "weight": 13
+type: docs
 ---
-
 ## はじめに: 画像署名でドキュメントのセキュリティを変革
 
 デジタル文書をより安全で法的に有効なものにしたいと思ったことはありませんか？画像署名を追加することは、文書の真正性を高め、改ざんから保護する最も効果的な方法の一つです。この分かりやすいガイドでは、GroupDocs.Signatureを使用して、.NETアプリケーションに画像ベースの文書署名を実装するプロセスを詳しく説明します。

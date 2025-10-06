@@ -4,8 +4,8 @@
 "title": "تنفيذ توقيع وتشفير بيانات الصورة في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ توقيع بيانات الصورة باستخدام التشفير في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

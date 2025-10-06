@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Barkodlarla PDF'leri İmzalama - Eksiksiz Bir Kılavuz"
 "url": "/tr/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Barkod İmzalarıyla PDF Belgelerini İmzalayın
 
 Günümüzün dijital ortamında, belgelerin gerçekliğini ve bütünlüğünü sağlamak hayati önem taşır. İster bir iş profesyoneli ister belge yönetim sistemleri üzerinde çalışan bir geliştirici olun, belgeleri dijital olarak imzalamak ekstra bir güvenlik ve güven katmanı sağlar. GroupDocs.Signature for .NET ile barkod kullanarak PDF'leri imzalamak zahmetsiz hale gelir; bu, belge doğrulama süreçlerini geliştiren çok yönlü bir özelliktir. Bu kapsamlı kılavuzda, uygulamalarınızda barkod imzalarını nasıl uygulayacağınızı göstereceğiz.

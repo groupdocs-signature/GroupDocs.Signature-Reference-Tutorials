@@ -4,8 +4,8 @@
 "title": "Ασφαλής αναζήτηση και εξαγωγή υπογραφών μεταδεδομένων χρησιμοποιώντας GroupDocs για Java"
 "url": "/el/java/metadata-signatures/groupdocs-signature-secure-metadata-search-java/"
 "weight": 1
+type: docs
 ---
-
 # Ασφαλής αναζήτηση και εξαγωγή υπογραφών μεταδεδομένων χρησιμοποιώντας GroupDocs για Java
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Générer un aperçu de signature numérique PDF avec GroupDocs.Signature pour .NET | Guide complet"
 "url": "/fr/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Comment générer un aperçu de signature numérique PDF à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

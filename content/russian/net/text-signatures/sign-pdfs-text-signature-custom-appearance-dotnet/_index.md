@@ -4,8 +4,8 @@
 "title": "Подписание PDF-файлов текстовой подписью и настраиваемым внешним видом в .NET с помощью GroupDocs.Signature"
 "url": "/ru/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как подписывать PDF-документы текстовой подписью и настраивать внешний вид с помощью GroupDocs.Signature для .NET
 
 ## Введение

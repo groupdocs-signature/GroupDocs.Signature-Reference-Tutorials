@@ -5,8 +5,8 @@
 "title": "Cara Membuat Pratinjau Dokumen di Aplikasi .NET | Tutorial Singkat"
 "url": "/id/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # Cara Membuat Pratinjau Dokumen di Aplikasi .NET Anda
 
 ## Perkenalan

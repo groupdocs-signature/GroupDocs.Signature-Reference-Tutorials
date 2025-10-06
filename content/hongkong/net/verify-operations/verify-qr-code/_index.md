@@ -5,8 +5,8 @@
 "title": "驗證文檔中的二維碼"
 "url": "/zh-hant/net/verify-operations/verify-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## 介紹
 
 文件安全是現代商業營運的關鍵環節。二維碼已成為一種日益流行的在文件中嵌入可驗證資訊的方法。 GroupDocs.Signature for .NET 提供了一個強大且靈活的解決方案，用於驗證嵌入在各種格式文件中的二維碼。

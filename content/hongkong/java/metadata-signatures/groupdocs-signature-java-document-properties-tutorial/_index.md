@@ -4,8 +4,8 @@
 "title": "掌握 GroupDocs.Signature for Java 文件屬性檢索的綜合指南"
 "url": "/zh-hant/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 掌握文件屬性檢索
 利用 GroupDocs.Signature for Java 輕鬆擷取並列印文件屬性（例如格式、大小、頁數等），釋放文件管理的強大功能。本教學將引導您設定環境、實現各種功能，並在實際場景中應用這些功能。
 

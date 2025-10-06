@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 条形码签名教程"
 "url": "/zh/java/barcode-signatures/"
 "weight": 4
+type: docs
 ---
-
 # GroupDocs.Signature Java 条形码签名教程
 
 我们的条形码签名教程提供了在 Java 应用程序中实现基于条形码的签名的详细指导。遵循这些实用指南，您将学习如何使用各种条形码类型对文档进行签名、自定义条形码外观、在现有文档中搜索条形码、更新或删除条形码签名以及验证条形码内容。这些教程包含常见条形码操作的完整 Java 代码示例，可帮助您构建能够通过条形码技术安全地对文档中的信息进行编码和验证的应用程序。

@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature का उपयोग करके PDF में डिजिटल हस्ताक्षर कैसे खोजें"
 "url": "/hi/java/search-verification/search-pdfs-digital-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java के साथ PDF में डिजिटल हस्ताक्षर कैसे खोजें
 
 ## परिचय

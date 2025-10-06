@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके पुरालेख फ़ाइलों में कुशल हस्ताक्षर खोज"
 "url": "/hi/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके पुरालेख फ़ाइलों में कुशल हस्ताक्षर खोज
 
 ## परिचय

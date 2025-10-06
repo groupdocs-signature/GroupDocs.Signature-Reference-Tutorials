@@ -4,8 +4,8 @@
 "title": "Teksthandtekeningen implementeren met GroupDocs.Signature voor Java (stap-voor-staphandleiding)"
 "url": "/nl/java/text-signatures/implement-text-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Teksthandtekeningen implementeren met GroupDocs.Signature voor Java
 
 ## Invoering

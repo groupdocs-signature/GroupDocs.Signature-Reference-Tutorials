@@ -4,8 +4,8 @@
 "title": "Dokumentumok biztonságossá tétele szöveges vízjelekkel a GroupDocs.Signature for .NET használatával – Átfogó útmutató"
 "url": "/hu/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan implementálhatunk szöveges vízjeleket dokumentumokban a GroupDocs.Signature for .NET használatával?
 
 ## Bevezetés

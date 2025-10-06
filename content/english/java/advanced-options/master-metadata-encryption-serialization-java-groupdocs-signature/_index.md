@@ -9,8 +9,8 @@ url: "/java/advanced-options/master-metadata-encryption-serialization-java-group
 keywords: "encrypt document metadata Java, Java document signature encryption, GroupDocs metadata serialization, secure document metadata Java, custom XOR encryption Java"
 categories: ["Document Security"]
 tags: ["java", "encryption", "metadata", "groupdocs", "document-signing"]
+type: docs
 ---
-
 # How to Encrypt Document Metadata in Java with GroupDocs.Signature
 
 ## Introduction

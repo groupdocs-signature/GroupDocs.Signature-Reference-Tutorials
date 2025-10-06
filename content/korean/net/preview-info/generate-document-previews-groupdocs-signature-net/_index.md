@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 아카이브에서 문서 미리보기 생성하기&#58; 완벽한 가이드"
 "url": "/ko/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 아카이브에서 문서 미리보기 생성
 
 ## 소개

@@ -5,8 +5,8 @@
 "title": "Aláírások törlése azonosító alapján .NET dokumentumokban"
 "url": "/hu/net/delete-operations/delete-signature-by-id/"
 "weight": 11
+type: docs
 ---
-
 # Aláírások törlése azonosító alapján .NET dokumentumokban
 
 ## Miért kellene eltávolítani az aláírásokat a dokumentumokból?

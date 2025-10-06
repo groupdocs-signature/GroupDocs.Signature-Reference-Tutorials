@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak .NET'te Dijital İmzaları Uygulama"
 "url": "/tr/net/digital-signatures/digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Dijital İmzalarla Belge İmzalama Uygulaması
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 實作加密元資料簽章 | 完整指南"
 "url": "/zh-hant/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 實作加密元資料簽名
 
 ## 介紹

@@ -9,8 +9,8 @@ weight: 1
 url: "/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 categories: ["Document Processing"]
 tags: ["groupdocs", "archive-preview", "zip-files", "document-management", "dotnet"]
+type: docs
 ---
-
 # Extract Document Previews from ZIP Files in .NET Without Extracting
 
 ## Why This Matters for Your Application

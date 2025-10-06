@@ -5,8 +5,8 @@
 "title": "Tutorial e esempi completi per GroupDocs.Signature per .NET"
 "url": "/it/net/"
 "weight": 10
+type: docs
 ---
-
 ## Introduzione
 
 Benvenuti alla guida completa di GroupDocs.Signature per .NET, una potente soluzione per la firma di documenti che consente agli sviluppatori di implementare firme digitali sicure in diversi formati di documento. Questa raccolta di tutorial dettagliati ed esempi pratici vi aiuterà a sfruttare appieno il potenziale dell'API per le vostre applicazioni .NET.

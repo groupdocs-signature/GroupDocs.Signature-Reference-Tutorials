@@ -4,8 +4,8 @@
 "title": "Digitális aláírás kivételkezeléssel .NET-ben a GroupDocs.Signature használatával"
 "url": "/hu/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírás kivételkezeléssel .NET-ben a GroupDocs.Signature használatával
 
 ## Bevezetés

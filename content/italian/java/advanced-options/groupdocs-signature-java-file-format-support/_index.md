@@ -4,8 +4,8 @@
 "title": "Supporto del formato file master in GroupDocs.Signature per Java&#58; una guida completa"
 "url": "/it/java/advanced-options/groupdocs-signature-java-file-format-support/"
 "weight": 1
+type: docs
 ---
-
 # Supporto del formato file master in GroupDocs.Signature per Java: una guida completa
 
 ## Introduzione

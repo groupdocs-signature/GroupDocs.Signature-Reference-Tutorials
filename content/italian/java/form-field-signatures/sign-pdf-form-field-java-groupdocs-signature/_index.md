@@ -4,8 +4,8 @@
 "title": "Come firmare i PDF utilizzando la firma del campo modulo in Java con GroupDocs.Signature"
 "url": "/it/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare un PDF utilizzando la firma del campo modulo in Java con GroupDocs.Signature
 
 ## Introduzione

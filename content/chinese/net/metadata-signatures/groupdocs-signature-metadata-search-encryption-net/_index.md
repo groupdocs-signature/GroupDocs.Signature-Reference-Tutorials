@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs for .NET 实现加密元数据签名搜索"
 "url": "/zh/net/metadata-signatures/groupdocs-signature-metadata-search-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # 综合指南：使用 GroupDocs.Signature for .NET 实现带加密的元数据签名搜索
 
 ## 介绍

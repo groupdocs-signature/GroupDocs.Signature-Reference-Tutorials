@@ -4,8 +4,8 @@
 "title": "Extraktion av metadata för huvudbilder i Java med hjälp av GroupDocs.Signature-biblioteket"
 "url": "/sv/java/preview-info/groupdocs-signature-java-image-metadata-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Mastering GroupDocs.Signature för Java: Extraktion av bildmetadata
 
 ## Introduktion

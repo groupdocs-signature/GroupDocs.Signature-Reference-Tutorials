@@ -5,8 +5,8 @@
 "title": ".NET 中的文档验证操作"
 "url": "/zh/net/verify-operations/"
 "weight": 27
+type: docs
 ---
-
 ## 介绍
 
 文档验证是任何安全文档管理系统的关键组成部分。无论您构建的是企业应用程序、文档工作流解决方案还是以安全为中心的系统，能够验证文档中的各种签名都至关重要。GroupDocs.Signature for .NET 提供了强大的工具和 API，使 .NET 开发人员能够为条形码、数字签名、二维码和文本签名实现强大的验证功能。

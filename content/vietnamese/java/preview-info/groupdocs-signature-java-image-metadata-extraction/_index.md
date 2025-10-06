@@ -4,8 +4,8 @@
 "title": "Trích xuất siêu dữ liệu hình ảnh chính trong Java bằng thư viện GroupDocs.Signature"
 "url": "/vi/java/preview-info/groupdocs-signature-java-image-metadata-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ GroupDocs.Signature cho Java: Trích xuất siêu dữ liệu hình ảnh
 
 ## Giới thiệu

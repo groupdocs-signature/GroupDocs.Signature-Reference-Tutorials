@@ -5,8 +5,8 @@
 "title": "Jak odstranit podpisy dokumentů podle typu v .NET"
 "url": "/cs/net/delete-operations/delete-signature-by-type/"
 "weight": 12
+type: docs
 ---
-
 # Jak odstranit podpisy dokumentů podle typu v .NET
 
 ## Proč je správa podpisů důležitá při zpracování dokumentů

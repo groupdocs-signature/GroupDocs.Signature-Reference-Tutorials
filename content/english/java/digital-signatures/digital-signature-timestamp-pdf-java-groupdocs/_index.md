@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Java Development"]
 tags: ["pdf-signing", "digital-signatures", "java-security", "groupdocs"]
+type: docs
 ---
-
 # How to Add Digital Signature to PDF Java with Timestamp
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Java PDF 署名ガイド&#58; GroupDocs.Signature for Java を使用してテキスト、バーコード、QR、デジタル署名を追加する"
 "url": "/ja/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # Java PDF 署名の実装方法ガイド: GroupDocs.Signature for Java を使用してテキスト、バーコード、QR、デジタル署名を追加する
 
 ## 導入

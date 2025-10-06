@@ -4,8 +4,8 @@
 "title": "تحميل المستندات من خادم FTP باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/document-loading-saving/load-documents-from-ftp-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # تحميل المستندات من خادم FTP باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

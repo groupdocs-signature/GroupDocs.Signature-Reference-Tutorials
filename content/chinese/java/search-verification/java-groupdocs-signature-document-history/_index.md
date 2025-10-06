@@ -4,8 +4,8 @@
 "title": "如何实现 Java GroupDocs.Signature&#58; 检索和显示文档处理历史"
 "url": "/zh/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # 如何实现 Java GroupDocs.Signature：检索和显示文档处理历史记录
 
 ## 介绍

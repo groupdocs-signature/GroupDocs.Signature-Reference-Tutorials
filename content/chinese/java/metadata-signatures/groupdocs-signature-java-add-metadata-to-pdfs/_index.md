@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 向 PDF 添加元数据签名——完整指南"
 "url": "/zh/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 向 PDF 添加元数据签名
 ## 介绍
 在当今的数字时代，确保 PDF 文档的真实性和完整性至关重要。无论您是管理合同的法律专业人士，还是处理敏感数据的企业，添加元数据签名都能提供额外的安全性和可追溯性。本指南将向您展示如何使用 GroupDocs.Signature for Java 将标准元数据签名无缝添加到您的 PDF 文件中。

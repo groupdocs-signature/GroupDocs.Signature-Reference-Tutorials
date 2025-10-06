@@ -4,8 +4,8 @@
 "title": "Xử lý ngoại lệ mật khẩu trong GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Xử lý ngoại lệ mật khẩu trong GroupDocs.Signature cho .NET
 
 ## Giới thiệu

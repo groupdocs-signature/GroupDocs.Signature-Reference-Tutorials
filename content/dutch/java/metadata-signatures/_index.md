@@ -3,8 +3,8 @@
 "title": "Tutorials voor metadata-handtekeningen voor GroupDocs.Signature Java"
 "url": "/nl/java/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Tutorials voor metadata-handtekeningen voor GroupDocs.Signature Java
 
 Onze tutorials over metadatahandtekeningen laten zien hoe u documentmetadata kunt gebruiken voor veilige ondertekening met GroupDocs.Signature in Java. Deze stapsgewijze handleidingen behandelen de implementatie van metadatahandtekeningen in verschillende documentformaten, waaronder PDF, afbeeldingen, presentaties, spreadsheets en tekstverwerkingsbestanden. Elke tutorial bevat werkende Java-codevoorbeelden voor metadatabewerkingen, waarmee u applicaties kunt bouwen die onzichtbare handtekeninginformatie aan documenten kunnen toevoegen. Dit verbetert de beveiliging zonder de visuele weergave te veranderen.

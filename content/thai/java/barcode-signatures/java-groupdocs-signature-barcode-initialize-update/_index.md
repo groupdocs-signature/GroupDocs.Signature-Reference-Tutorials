@@ -4,8 +4,8 @@
 "title": "วิธีการเริ่มต้นและอัปเดตลายเซ็นบาร์โค้ดใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการเริ่มต้นและอัปเดตลายเซ็นบาร์โค้ดใน Java โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "保護您的文件 &#58; 使用 GroupDocs.Signature 在 Java 中實作二維碼簽名"
 "url": "/zh-hant/java/qr-code-signatures/qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 保護您的文件：使用 GroupDocs.Signature 在 Java 中實作二維碼簽名
 
 在當今的數位環境中，確保合約、發票或敏感個人資訊等文件的安全至關重要。增強文件安全性並簡化驗證流程的創新方法是使用二維碼簽名。本教學將指導您使用 GroupDocs.Signature 在 Java 中為文件實作和驗證二維碼簽章。

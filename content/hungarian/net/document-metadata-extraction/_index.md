@@ -5,8 +5,8 @@
 "title": "Fődokumentum metaadatainak kinyerése a GroupDocs.Signature for .NET segítségével"
 "url": "/hu/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # Átfogó útmutató a dokumentum metaadatainak kinyeréséhez a GroupDocs.Signature segítségével
 
 ## A dokumentum metaadatok stratégiai jelentősége a modern munkafolyamatokban

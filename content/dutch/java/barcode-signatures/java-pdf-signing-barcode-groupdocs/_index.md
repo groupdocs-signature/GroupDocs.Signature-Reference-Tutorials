@@ -4,8 +4,8 @@
 "title": "Java PDF-ondertekening met barcode met GroupDocs&#58; een uitgebreide handleiding"
 "url": "/nl/java/barcode-signatures/java-pdf-signing-barcode-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Java PDF-ondertekening implementeren met barcode-opties met behulp van GroupDocs.Signature voor Java
 
 ## Invoering

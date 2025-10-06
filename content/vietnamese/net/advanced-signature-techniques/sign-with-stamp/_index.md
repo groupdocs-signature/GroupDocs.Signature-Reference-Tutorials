@@ -5,8 +5,8 @@
 "title": "Cách thêm chữ ký đóng dấu vào tài liệu bằng GroupDocs.Signature"
 "url": "/vi/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # Cách thêm chữ ký đóng dấu chuyên nghiệp vào tài liệu .NET của bạn
 
 ## Bạn có thể đạt được gì với chữ ký đóng dấu?

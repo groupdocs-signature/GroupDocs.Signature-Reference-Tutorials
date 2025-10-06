@@ -4,8 +4,8 @@
 "title": "Tìm kiếm và trích xuất chữ ký siêu dữ liệu an toàn bằng GroupDocs cho Java"
 "url": "/vi/java/metadata-signatures/groupdocs-signature-secure-metadata-search-java/"
 "weight": 1
+type: docs
 ---
-
 # Tìm kiếm và trích xuất chữ ký siêu dữ liệu an toàn bằng GroupDocs cho Java
 
 ## Giới thiệu

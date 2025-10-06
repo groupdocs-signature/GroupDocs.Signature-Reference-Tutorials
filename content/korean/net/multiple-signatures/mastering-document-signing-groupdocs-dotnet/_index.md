@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용한 문서 서명 마스터하기&#58; 종합 가이드"
 "url": "/ko/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용한 문서 서명 마스터하기
 
 ## 소개

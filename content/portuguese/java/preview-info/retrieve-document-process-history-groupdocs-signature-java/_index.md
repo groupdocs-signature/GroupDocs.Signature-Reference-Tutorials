@@ -4,8 +4,8 @@
 "title": "Recuperar o histórico de processos de documentos com GroupDocs.Signature para Java - Um guia completo"
 "url": "/pt/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Recuperar histórico de processos de documentos com GroupDocs.Signature para Java
 
 ## Introdução

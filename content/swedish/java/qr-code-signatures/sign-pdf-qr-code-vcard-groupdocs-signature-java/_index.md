@@ -4,8 +4,8 @@
 "title": "Signera PDF-filer med QR-kod VCard med GroupDocs.Signature för Java - En steg-för-steg-guide"
 "url": "/sv/java/qr-code-signatures/sign-pdf-qr-code-vcard-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man använder GroupDocs.Signature för Java för att signera PDF-filer med QR-koder som innehåller VCards
 
 ## Introduktion

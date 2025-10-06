@@ -5,8 +5,8 @@
 "title": "Tìm kiếm chữ ký tài liệu toàn diện"
 "url": "/vi/net/signature-searching/"
 "weight": 23
+type: docs
 ---
-
 ## Giới thiệu
 
 Bảo mật và xác minh tính toàn vẹn của tài liệu là những khía cạnh quan trọng của quy trình kinh doanh hiện đại. GroupDocs.Signature for .NET cung cấp giải pháp mạnh mẽ để triển khai chức năng tìm kiếm chữ ký toàn diện trên nhiều định dạng tài liệu khác nhau. Cho dù bạn cần xác thực tính xác thực của tài liệu, trích xuất thông tin chữ ký hay xây dựng quy trình xác minh tự động, GroupDocs.Signature đều cung cấp các công cụ cần thiết để tìm kiếm và xử lý hiệu quả nhiều loại chữ ký.

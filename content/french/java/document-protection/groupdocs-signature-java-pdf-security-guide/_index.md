@@ -4,8 +4,8 @@
 "title": "Sécurisez vos PDF, vos signatures par code QR et votre protection par mot de passe avec GroupDocs.Signature pour Java"
 "url": "/fr/java/document-protection/groupdocs-signature-java-pdf-security-guide/"
 "weight": 1
+type: docs
 ---
-
 # Sécurisez vos PDF : signatures par code QR et protection par mot de passe avec GroupDocs.Signature pour Java
 
 À l'ère du numérique, la sécurisation des documents PDF est essentielle pour gérer les informations sensibles et garantir l'authenticité des fichiers. Ce guide vous explique comment utiliser GroupDocs.Signature pour Java pour ajouter des signatures par QR code et une protection par mot de passe à vos PDF.

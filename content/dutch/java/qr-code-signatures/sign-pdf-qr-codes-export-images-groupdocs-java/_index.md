@@ -4,8 +4,8 @@
 "title": "Onderteken PDF's met QR-codehandtekeningen en exporteer ze als afbeeldingen met GroupDocs voor Java"
 "url": "/nl/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Uitgebreide handleiding voor het ondertekenen en exporteren van PDF's als afbeeldingen met QR-codes met GroupDocs.Signature voor Java
 
 ## Invoering

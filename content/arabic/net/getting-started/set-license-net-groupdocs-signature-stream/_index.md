@@ -4,8 +4,8 @@
 "title": "إعداد الترخيص في .NET باستخدام GroupDocs.Signature وFileStream - دليل شامل"
 "url": "/ar/net/getting-started/set-license-net-groupdocs-signature-stream/"
 "weight": 1
+type: docs
 ---
-
 # إعداد الترخيص في .NET باستخدام GroupDocs.Signature وFileStream
 ## ابدء
 ### تنفيذ Set License عبر Stream في .NET باستخدام GroupDocs.Signature

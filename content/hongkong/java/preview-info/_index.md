@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 的文件預覽與資訊教學課程"
 "url": "/zh-hant/java/preview-info/"
 "weight": 13
+type: docs
 ---
-
 # GroupDocs.Signature Java 的文件預覽與資訊教學課程
 
 我們的預覽和資訊教學將向您展示如何使用 Java 中的 GroupDocs.Signature 提取有價值的文件資料。這些詳細的指南示範如何產生文件預覽、檢索文件資訊、存取簽名詳情、查看文件處理歷史記錄以及檢查文件屬性。每個教學課程都包含適用於文件檢查場景的實用 Java 程式碼範例，可協助您建立提供全面文件透明度的應用程序，從而獲得更佳的使用者體驗和工作流程追蹤。

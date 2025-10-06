@@ -3,8 +3,8 @@
 "title": ".NET için GroupDocs.Signature ile QR Kod İmza Eğitimleri"
 "url": "/tr/net/qr-code-signatures/"
 "weight": 5
+type: docs
 ---
-
 # .NET için GroupDocs.Signature ile QR Kod İmza Eğitimleri
 
 Kapsamlı GroupDocs.Signature eğitimlerimizle, .NET uygulamalarınızda QR kod imzalarıyla nasıl etkili bir şekilde çalışacağınızı keşfedin. Bu adım adım kılavuzlar, QR kod imzalarını nasıl oluşturacağınızı, özelleştireceğinizi, arayacağınızı ve doğrulayacağınızı öğretir. vCard, WiFi, SMS, e-posta, kripto para birimi, etkinlikler ve EPC ödeme verileri gibi çeşitli veri biçimleri için özel QR kod nesnelerini nasıl uygulayacağınızı öğrenin. Her eğitim, hem temel hem de gelişmiş QR kod uygulaması için pratik C# kod örnekleri sunarak daha gelişmiş belge imzalama çözümleri oluşturmanıza yardımcı olur.

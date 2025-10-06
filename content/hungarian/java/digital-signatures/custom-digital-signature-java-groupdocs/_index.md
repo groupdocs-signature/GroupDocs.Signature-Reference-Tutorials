@@ -4,8 +4,8 @@
 "title": "Egyéni digitális aláírások megvalósítása Java nyelven a GroupDocs.Signature segítségével – Átfogó útmutató"
 "url": "/hu/java/digital-signatures/custom-digital-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Egyéni digitális aláírások megvalósítása Java nyelven a GroupDocs.Signature segítségével
 
 A mai digitális korban a dokumentumok integritásának és hitelességének biztosítása kulcsfontosságú. A hagyományos aláírások gyakran nem képesek megfelelően ellenőrizni az elektronikusan megosztott dokumentumok hitelességét. Ez az átfogó útmutató végigvezeti Önt egy egyéni digitális aláírás megvalósításán... **GroupDocs.Signature Java-hoz**, fokozott biztonságot és professzionalizmust biztosítva digitális dokumentumai számára.

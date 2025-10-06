@@ -3,8 +3,8 @@
 "title": "Aláírás-keresési és -ellenőrzési oktatóanyagok a GroupDocs.Signature Java-hoz"
 "url": "/hu/java/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # Aláírás-keresési és -ellenőrzési oktatóanyagok a GroupDocs.Signature Java-hoz
 
 Keresési és ellenőrzési oktatóanyagaink átfogó útmutatást nyújtanak a dokumentumaláírások érvényesítéséhez a GroupDocs.Signature segítségével Java nyelven. Ezek a gyakorlati útmutatók bemutatják, hogyan kereshet különféle típusú aláírásokat (digitális, vonalkód, QR-kód, szöveg, kép és metaadat), hogyan valósíthatja meg a hitelesség-ellenőrzést, hogyan kezelheti a kivételeket az ellenőrzés során, és hogyan dolgozhatja fel az összetett dokumentumokat. Minden oktatóanyag teljes Java kódpéldákat tartalmaz a gyakori ellenőrzési forgatókönyvekhez, segítve olyan alkalmazások létrehozásában, amelyek hatékonyan megállapítják, hogy a dokumentumokat módosították-e az aláírás óta.

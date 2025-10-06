@@ -4,8 +4,8 @@
 "title": "Wyszukiwanie i wyodrębnianie podpisów pól formularzy w plikach PDF za pomocą GroupDocs.Signature dla języka Java"
 "url": "/pl/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wyszukiwać i wyodrębniać podpisy pól formularzy w dokumentach PDF za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

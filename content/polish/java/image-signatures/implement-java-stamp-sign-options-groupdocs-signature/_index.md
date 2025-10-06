@@ -4,8 +4,8 @@
 "title": "Wdrażanie opcji podpisu pieczątką Java za pomocą GroupDocs.Signature w celu zapewnienia autentyczności dokumentu"
 "url": "/pl/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Wdrażanie opcji podpisu pieczątką Java za pomocą GroupDocs.Signature w celu zapewnienia autentyczności dokumentu
 ## Jak wdrożyć opcje podpisu pieczątką Java za pomocą GroupDocs.Signature dla Java
 dzisiejszej erze cyfrowej zapewnienie autentyczności dokumentów jest kwestią priorytetową. Niezależnie od tego, czy jesteś profesjonalistą, czy osobą prywatną, która musi weryfikować umowy i porozumienia, dodanie pieczątki może zwiększyć wiarygodność i bezpieczeństwo. Ten samouczek przeprowadzi Cię przez proces konfiguracji opcji podpisu pieczątką za pomocą GroupDocs.Signature for Java — potężnej biblioteki dostosowanej do Twoich potrzeb w zakresie podpisywania dokumentów.

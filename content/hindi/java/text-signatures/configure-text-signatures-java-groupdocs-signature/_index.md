@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में टेक्स्ट हस्ताक्षर कैसे कॉन्फ़िगर करें - एक संपूर्ण गाइड"
 "url": "/hi/java/text-signatures/configure-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके जावा में टेक्स्ट हस्ताक्षर कैसे कॉन्फ़िगर करें: एक व्यापक मार्गदर्शिका
 
 ## परिचय

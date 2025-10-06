@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して Java でカスタム XOR 暗号化を実装するステップバイステップガイド"
 "url": "/ja/java/advanced-options/implement-custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して Java でカスタム XOR 暗号化を実装する方法: ステップバイステップガイド
 
 ## 導入

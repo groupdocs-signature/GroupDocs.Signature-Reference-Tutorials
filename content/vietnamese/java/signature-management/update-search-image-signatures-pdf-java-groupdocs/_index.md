@@ -4,8 +4,8 @@
 "title": "Cập nhật và tìm kiếm chữ ký hình ảnh trong PDF bằng Java với GroupDocs.Signature"
 "url": "/vi/java/signature-management/update-search-image-signatures-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cập nhật & Tìm kiếm Chữ ký Hình ảnh trong PDF bằng Java
 
 ## Giới thiệu

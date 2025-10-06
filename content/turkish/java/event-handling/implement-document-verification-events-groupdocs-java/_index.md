@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature kullanarak Java'da Olay Aboneliğiyle Belge Doğrulamasını Uygulama"
 "url": "/tr/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Olay Aboneliğiyle Belge Doğrulamasını Uygulama
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Hur man implementerar inläsning och signering av digitala signaturer med GroupDocs.Signature för Java"
 "url": "/sv/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar inläsning och signering av digitala signaturer med GroupDocs.Signature för Java
 
 ## Introduktion

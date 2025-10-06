@@ -4,8 +4,8 @@
 "title": "Jak ověřovat digitální podpisy v PDF pomocí GroupDocs.Signature pro Javu – podrobný návod"
 "url": "/cs/java/digital-signatures/verify-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak ověřovat digitální podpisy v PDF pomocí GroupDocs.Signature pro Javu: Podrobný návod
 
 ## Zavedení

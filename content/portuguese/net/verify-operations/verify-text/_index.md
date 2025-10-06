@@ -5,8 +5,8 @@
 "title": "Verificar assinaturas de texto em documentos"
 "url": "/pt/net/verify-operations/verify-text/"
 "weight": 13
+type: docs
 ---
-
 ## Introdução
 
 Assinaturas de texto, embora frequentemente mais simples do que assinaturas digitais ou eletrônicas, desempenham um papel crucial no gerenciamento e verificação de documentos. Sejam marcas d'água, texto de rodapé ou padrões de conteúdo específicos, validar a presença e a integridade das assinaturas de texto é um aspecto importante dos processos de verificação de documentos.

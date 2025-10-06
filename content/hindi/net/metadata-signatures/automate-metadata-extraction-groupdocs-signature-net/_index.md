@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके स्प्रेडशीट में मेटाडेटा निष्कर्षण को स्वचालित करें"
 "url": "/hi/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ स्प्रेडशीट में मेटाडेटा निष्कर्षण को स्वचालित करना
 
 ## परिचय

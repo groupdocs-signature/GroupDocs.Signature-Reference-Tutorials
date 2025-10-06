@@ -3,8 +3,8 @@
 "title": "Zelfstudies over documentbeveiliging voor GroupDocs.Signature .NET"
 "url": "/nl/net/document-protection/"
 "weight": 16
+type: docs
 ---
-
 # Zelfstudies over documentbeveiliging voor GroupDocs.Signature .NET
 
 Leer documenten beveiligen met onze GroupDocs.Signature-beveiligingshandleidingen voor .NET. Deze uitgebreide handleidingen laten zien hoe u met een wachtwoord beveiligde documenten kunt verwerken, wachtwoordbeveiliging kunt toevoegen aan uitvoerbestanden, beveiligingsuitzonderingen kunt beheren en de juiste foutafhandeling kunt implementeren. Elke handleiding biedt praktische C#-codevoorbeelden voor veelvoorkomende scenario's voor documentbeveiliging, waarmee u applicaties kunt bouwen die de vertrouwelijkheid en integriteit van documenten gedurende het hele ondertekeningsproces behouden.

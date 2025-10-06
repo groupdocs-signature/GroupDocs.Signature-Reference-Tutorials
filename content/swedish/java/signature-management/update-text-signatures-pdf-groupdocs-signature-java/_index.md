@@ -4,8 +4,8 @@
 "title": "Uppdatera textsignaturer i PDF-filer med GroupDocs.Signature för Java – en omfattande guide"
 "url": "/sv/java/signature-management/update-text-signatures-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Uppdatera textsignaturer i PDF-filer med GroupDocs.Signature för Java
 
 ## Introduktion

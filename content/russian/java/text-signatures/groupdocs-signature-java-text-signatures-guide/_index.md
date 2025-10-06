@@ -4,8 +4,8 @@
 "title": "Мастер текстовых подписей в Java – полное руководство по GroupDocs.Signature для Java"
 "url": "/ru/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Освоение подписывания документов на Java: подробное руководство по использованию GroupDocs.Signature для текстовых подписей
 
 ## Введение

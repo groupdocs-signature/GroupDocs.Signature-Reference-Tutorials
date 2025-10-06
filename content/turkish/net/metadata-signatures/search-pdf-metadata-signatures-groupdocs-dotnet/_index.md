@@ -4,8 +4,8 @@
 "title": ".NET'te GroupDocs Kullanarak PDF Meta Veri İmzalarını Arama ve Çıkarma"
 "url": "/tr/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET'te GroupDocs Kullanarak PDF Meta Veri İmzalarını Arama ve Çıkarma
 
 ## giriiş

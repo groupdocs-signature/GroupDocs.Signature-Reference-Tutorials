@@ -4,8 +4,8 @@
 "title": "Så här implementerar du sökning efter metadatasignaturer i PowerPoint-presentationer med GroupDocs.Signature för .NET"
 "url": "/sv/net/metadata-signatures/implement-metadata-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här implementerar du sökning efter metadatasignaturer i PowerPoint med GroupDocs.Signature för .NET
 
 ## Introduktion

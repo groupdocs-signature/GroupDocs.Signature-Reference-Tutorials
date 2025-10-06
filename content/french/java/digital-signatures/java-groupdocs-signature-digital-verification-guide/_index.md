@@ -4,8 +4,8 @@
 "title": "Vérification de documents numériques Java avec GroupDocs.Signature &#58; un guide complet"
 "url": "/fr/java/digital-signatures/java-groupdocs-signature-digital-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter la vérification de documents numériques Java à l'aide de GroupDocs.Signature
 
 ## Introduction

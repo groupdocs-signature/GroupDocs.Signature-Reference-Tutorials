@@ -4,8 +4,8 @@
 "title": "Come recuperare le informazioni sui file di archivio utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # Come recuperare le informazioni sui file di archivio utilizzando GroupDocs.Signature per Java
 
 ## Introduzione

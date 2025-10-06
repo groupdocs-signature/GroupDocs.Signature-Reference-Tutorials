@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 Signature 인스턴스 초기화하기&#58; 종합 가이드"
 "url": "/ko/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 Signature 인스턴스 초기화
 
 ## 소개

@@ -4,8 +4,8 @@
 "title": "Kryptera och signera PDF-filer med QR-koder med GroupDocs.Signature för .NET"
 "url": "/sv/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Kryptera och signera PDF-filer med QR-koder med GroupDocs.Signature för .NET
 
 ## Introduktion

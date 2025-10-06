@@ -4,8 +4,8 @@
 "title": "Zpracování výjimek hesel v GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Zpracování výjimek hesel v GroupDocs.Signature pro .NET
 
 ## Zavedení

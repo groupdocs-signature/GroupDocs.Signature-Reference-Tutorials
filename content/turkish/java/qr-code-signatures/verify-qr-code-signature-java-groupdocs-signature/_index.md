@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da QR Kod İmzasını Doğrulama - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/qr-code-signatures/verify-qr-code-signature-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Java'da QR Kod İmzasını Doğrulayın
 
 ## giriiş

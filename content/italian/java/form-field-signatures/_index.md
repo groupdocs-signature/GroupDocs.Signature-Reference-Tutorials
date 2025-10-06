@@ -3,8 +3,8 @@
 "title": "Tutorial sulla firma del campo del modulo per GroupDocs.Signature Java"
 "url": "/it/java/form-field-signatures/"
 "weight": 8
+type: docs
 ---
-
 # Tutorial sulla firma del campo del modulo per GroupDocs.Signature Java
 
 Padroneggia le firme dei campi modulo PDF con i nostri tutorial dettagliati GroupDocs.Signature per sviluppatori Java. Queste guide passo passo mostrano come lavorare con i campi modulo standard, creare e gestire campi combobox, implementare gruppi di pulsanti di opzione e utilizzare i campi modulo per la firma dei documenti. Ogni tutorial fornisce esempi pratici di codice Java per le operazioni sui campi modulo, aiutandoti a creare documenti PDF interattivi con campi modulo compilabili in grado di raccogliere e convalidare l'input dell'utente, mantenendo al contempo l'integrità del documento.

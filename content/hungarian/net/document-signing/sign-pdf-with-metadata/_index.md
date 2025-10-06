@@ -5,8 +5,8 @@
 "title": "Metaadat-aláírások hozzáadása PDF-dokumentumokhoz C# .NET-ben"
 "url": "/hu/net/document-signing/sign-pdf-with-metadata/"
 "weight": 11
+type: docs
 ---
-
 ## Bevezetés
 
 PDF (Portable Document Format) dokumentumokat széles körben használják az iparágakban a konzisztenciájuk és platformfüggetlenségük miatt. Ezen dokumentumok hitelességének és nyomon követhetőségének biztosítása kulcsfontosságú számos szakmai környezetben. Ennek egyik hatékony módja a metaadatok beágyazása magukba a PDF fájlokba.

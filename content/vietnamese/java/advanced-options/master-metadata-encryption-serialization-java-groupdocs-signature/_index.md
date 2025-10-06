@@ -4,8 +4,8 @@
 "title": "Làm chủ mã hóa và tuần tự hóa siêu dữ liệu trong Java với GroupDocs.Signature"
 "url": "/vi/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ mã hóa và tuần tự hóa siêu dữ liệu trong Java với GroupDocs.Signature
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "إتقان البحث عن توقيعات المستندات باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # إتقان البحث عن توقيع المستندات باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Κρυπτογράφηση Java & Υπογραφή Μεταδεδομένων - Ασφαλής Χειρισμός Εγγράφων με το GroupDocs.Signature"
 "url": "/el/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση κρυπτογράφησης Java και αναζήτησης υπογραφής μεταδεδομένων με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

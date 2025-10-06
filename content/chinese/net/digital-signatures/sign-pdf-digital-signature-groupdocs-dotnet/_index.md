@@ -4,8 +4,8 @@
 "title": ".NET 中的数字 PDF 签名——使用 GroupDocs.Signature 的指南"
 "url": "/zh/net/digital-signatures/sign-pdf-digital-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET 中的数字 PDF 签名：使用 GroupDocs.Signature 的指南
 
 ## 介绍

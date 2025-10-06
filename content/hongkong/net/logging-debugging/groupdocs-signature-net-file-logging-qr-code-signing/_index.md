@@ -4,8 +4,8 @@
 "title": "文件記錄與二維碼簽章－GroupDocs.Signature for .NET 完整指南"
 "url": "/zh-hant/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # 文件記錄與二維碼簽章：GroupDocs.Signature for .NET 完整指南
 
 ## 介紹

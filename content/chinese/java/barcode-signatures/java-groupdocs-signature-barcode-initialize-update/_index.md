@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 Java 中初始化和更新条形码签名"
 "url": "/zh/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 Java 中初始化和更新条形码签名
 
 ## 介绍

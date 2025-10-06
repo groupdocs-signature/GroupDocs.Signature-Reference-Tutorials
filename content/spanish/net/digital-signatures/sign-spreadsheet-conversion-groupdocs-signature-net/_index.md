@@ -4,8 +4,8 @@
 "title": "Firme y convierta hojas de cálculo a PDF de forma eficiente con GroupDocs.Signature para .NET"
 "url": "/es/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Firme y convierta hojas de cálculo a PDF de forma eficiente con GroupDocs.Signature para .NET
 
 ## Introducción

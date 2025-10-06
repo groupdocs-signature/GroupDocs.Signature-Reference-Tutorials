@@ -4,8 +4,8 @@
 "title": "Implementacja obsługi zdarzeń postępu w podpisywaniu dokumentów za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja obsługi zdarzeń postępu w podpisywaniu dokumentów za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

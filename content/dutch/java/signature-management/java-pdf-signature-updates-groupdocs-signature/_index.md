@@ -4,8 +4,8 @@
 "title": "Java PDF-handtekeningupdates met GroupDocs.Signature&#58; een uitgebreide handleiding voor ontwikkelaars"
 "url": "/nl/java/signature-management/java-pdf-signature-updates-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java PDF-handtekeningupdates onder de knie krijgen met GroupDocs.Signature
 In de digitale wereld is het waarborgen van documentbeveiliging van het grootste belang. Of u nu een ontwikkelaar bent die contracten beheert of een organisatie die met gevoelige informatie werkt, het beveiligen van uw documenten met handtekeningen is essentieel. **GroupDocs.Signature voor Java** Biedt een robuuste oplossing voor het toevoegen, wijzigen en verifiëren van handtekeningen in PDF's en andere formaten. Deze tutorial begeleidt u bij het implementeren van PDF-handtekeningupdates met behulp van GroupDocs.Signature voor Java.
 

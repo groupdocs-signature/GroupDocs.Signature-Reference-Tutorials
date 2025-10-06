@@ -5,8 +5,8 @@
 "title": "Cara Menghapus Tanda Tangan Dokumen Berdasarkan Jenisnya di .NET"
 "url": "/id/net/delete-operations/delete-signature-by-type/"
 "weight": 12
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Dokumen Berdasarkan Jenisnya di .NET
 
 ## Mengapa Manajemen Tanda Tangan Penting dalam Pemrosesan Dokumen

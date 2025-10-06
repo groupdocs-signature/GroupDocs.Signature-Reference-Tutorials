@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["pdf-signatures", "groupdocs", "dotnet", "signature-management"]
+type: docs
 ---
-
 # Delete PDF Signatures .NET - Remove Digital Signatures Programmatically
 
 ## Introduction

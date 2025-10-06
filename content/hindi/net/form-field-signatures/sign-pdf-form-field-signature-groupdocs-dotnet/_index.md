@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature के साथ C# में फ़ॉर्म फ़ील्ड हस्ताक्षर का उपयोग करके PDF पर हस्ताक्षर कैसे करें"
 "url": "/hi/net/form-field-signatures/sign-pdf-form-field-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ फ़ॉर्म फ़ील्ड हस्ताक्षर का उपयोग करके PDF दस्तावेज़ पर हस्ताक्षर कैसे करें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملف PDF باستخدام عنوان رمز الاستجابة السريعة QR باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/qr-code-signatures/sign-pdf-qr-code-address-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستند PDF باستخدام عنوان رمز الاستجابة السريعة QR باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

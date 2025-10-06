@@ -5,8 +5,8 @@
 "title": "Barcodehandtekeningen in documenten bijwerken"
 "url": "/nl/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Invoering
 Barcodehandtekeningen worden veel gebruikt in digitale documentworkflows om gestructureerde gegevens te coderen, wat efficiënte tracking, identificatie en validatie mogelijk maakt. GroupDocs.Signature voor .NET is een uitgebreide oplossing voor het ondertekenen van documenten waarmee ontwikkelaars geavanceerde handtekeningfunctionaliteit in hun applicaties kunnen integreren, inclusief de mogelijkheid om bestaande barcodehandtekeningen in documenten bij te werken.
 

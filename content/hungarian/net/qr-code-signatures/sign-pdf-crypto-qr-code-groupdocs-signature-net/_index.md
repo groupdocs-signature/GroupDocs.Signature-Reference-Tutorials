@@ -4,8 +4,8 @@
 "title": "PDF aláírása kriptovaluta QR-kóddal a GroupDocs.Signature for .NET használatával – Átfogó útmutató"
 "url": "/hu/net/qr-code-signatures/sign-pdf-crypto-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentum aláírása kriptovaluta QR-kódokkal a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

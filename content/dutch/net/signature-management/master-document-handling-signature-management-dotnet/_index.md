@@ -4,8 +4,8 @@
 "title": "Beheer documentenverwerking en handtekeningenbeheer in .NET met GroupDocs.Signature"
 "url": "/nl/net/signature-management/master-document-handling-signature-management-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Documentverwerking en handtekeningbeheer in .NET onder de knie krijgen met GroupDocs.Signature
 
 ## Invoering

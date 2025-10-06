@@ -4,8 +4,8 @@
 "title": "ลงนามในเอกสาร PDF ด้วยรหัส QR และ SMS โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร PDF ด้วยรหัส QR โดยใช้ SMS Object ใน Java ด้วย GroupDocs.Signature
 
 ## การแนะนำ

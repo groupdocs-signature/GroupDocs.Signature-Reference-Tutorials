@@ -4,8 +4,8 @@
 "title": "Как удалить цифровую подпись из PDF-файла с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/signature-management/delete-digital-signature-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Как удалить цифровую подпись из PDF-файла с помощью GroupDocs.Signature для Java
 
 ## Введение

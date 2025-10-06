@@ -4,8 +4,8 @@
 "title": "Поиск подписей метаданных в документах изображений с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/search-verification/search-metadata-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Как искать сигнатуры метаданных в документах изображений с помощью GroupDocs.Signature для .NET
 
 ## Введение

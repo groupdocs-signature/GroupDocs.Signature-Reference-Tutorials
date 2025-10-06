@@ -4,8 +4,8 @@
 "title": "在 GroupDocs.Signature for .NET 中使用百分比设置签名位置 | 高级教程"
 "url": "/zh/net/advanced-options/set-signature-position-percentages-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 在 GroupDocs.Signature for .NET 中使用百分比设置签名位置
 ## 介绍
 在当今的数字时代，高效的文档管理和自动化至关重要。以编程方式在文档中添加签名并保持精确的位置是一项常见的挑战。本高级教程将指导您使用 GroupDocs.Signature for .NET 以百分比度量设置签名的位置。

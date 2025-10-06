@@ -4,8 +4,8 @@
 "title": "Hur man signerar PDF-filer med hjälp av formulärfältsignatur i Java med GroupDocs.Signature"
 "url": "/sv/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar en PDF med hjälp av formulärfältsignatur i Java med GroupDocs.Signature
 
 ## Introduktion

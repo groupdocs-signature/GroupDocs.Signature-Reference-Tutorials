@@ -4,8 +4,8 @@
 "title": "Onderteken TAR-archieven met barcodes en QR-codes in Java met GroupDocs.Signature"
 "url": "/nl/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u TAR-archieven ondertekent met barcodes en QR-codes met behulp van GroupDocs.Signature voor Java
 
 ## Invoering

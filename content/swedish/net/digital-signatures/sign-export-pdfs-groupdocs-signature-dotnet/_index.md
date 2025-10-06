@@ -4,8 +4,8 @@
 "title": "Signera och exportera PDF-filer med GroupDocs.Signature för .NET"
 "url": "/sv/net/digital-signatures/sign-export-pdfs-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Signera och exportera PDF-filer med GroupDocs.Signature för .NET
 
 ## Introduktion

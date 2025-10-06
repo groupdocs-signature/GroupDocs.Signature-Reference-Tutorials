@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 实现文档验证——综合指南"
 "url": "/zh/java/search-verification/implement-document-verification-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 实现文档验证
 
 **介绍**

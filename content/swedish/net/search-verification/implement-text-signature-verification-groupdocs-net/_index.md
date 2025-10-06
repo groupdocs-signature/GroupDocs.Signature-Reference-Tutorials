@@ -4,8 +4,8 @@
 "title": "Implementera textsignaturverifiering i .NET med GroupDocs.Signature för säker dokumenthantering"
 "url": "/sv/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementera textsignaturverifiering i .NET med GroupDocs.Signature
 ## Sökning och verifiering
 **SEO-URL**implement-text-signaturverifiering-groupdocs-net

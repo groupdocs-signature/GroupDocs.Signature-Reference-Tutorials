@@ -4,8 +4,8 @@
 "title": "Java에서 QR 코드 서명 업데이트&#58; GroupDocs.Signature를 사용한 포괄적인 가이드"
 "url": "/ko/java/signature-management/update-qr-code-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java에서 QR 코드 서명 업데이트: GroupDocs.Signature를 사용한 포괄적인 가이드
 
 오늘날의 디지털 환경에서 문서 보안은 기업과 개인 모두에게 매우 중요합니다. QR 코드 서명은 문서 보안 및 검증을 위한 신뢰할 수 있는 솔루션을 제공합니다. 이 튜토리얼에서는 애플리케이션의 서명 관리를 간소화하는 강력한 도구인 GroupDocs.Signature for Java를 사용하여 QR 코드 서명을 업데이트하는 방법을 단계별로 설명합니다.

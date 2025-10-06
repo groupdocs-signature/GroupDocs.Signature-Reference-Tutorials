@@ -4,8 +4,8 @@
 "title": "Как подписывать документы с помощью текстового стикера в GroupDocs.Signature для .NET"
 "url": "/ru/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как подписывать документы с помощью текстовых наклеек в GroupDocs.Signature для .NET
 
 ## Введение

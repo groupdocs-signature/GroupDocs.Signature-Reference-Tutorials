@@ -4,8 +4,8 @@
 "title": "Zabezpečte své PDF soubory podpisy QR kódy a ochranu heslem pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/document-protection/groupdocs-signature-java-pdf-security-guide/"
 "weight": 1
+type: docs
 ---
-
 # Zabezpečení PDF souborů: Podpisy QR kódy a ochrana heslem s GroupDocs.Signature pro Javu
 
 V dnešní digitální době je zabezpečení dokumentů PDF nezbytné pro správu citlivých informací a zajištění pravosti souborů. Tato příručka vám ukáže, jak pomocí nástroje GroupDocs.Signature pro Javu přidat podpisy QR kódem a ochranu heslem do vašich PDF souborů.

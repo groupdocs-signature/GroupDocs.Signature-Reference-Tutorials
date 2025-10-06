@@ -4,8 +4,8 @@
 "title": "GroupDocs में मीटर्ड लाइसेंस लागू करें. Java के लिए हस्ताक्षर एक चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # जावा के लिए GroupDocs.Signature में मीटर्ड लाइसेंस कैसे लागू करें
 
 ## परिचय

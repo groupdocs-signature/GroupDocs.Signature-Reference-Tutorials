@@ -5,8 +5,8 @@
 "title": "Добавление текстовых подписей к документам с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # Как добавлять текстовые подписи к документам с помощью GroupDocs.Signature для .NET
 
 ## Введение: модернизируйте процесс подписания документов

@@ -4,8 +4,8 @@
 "title": "التحقق من صحة المستندات الرئيسية باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/search-verification/groupdocs-signature-java-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # إتقان التحقق من المستندات باستخدام GroupDocs.Signature لـ Java
 
 في ظلّ العالم الرقميّ الحالي، يُعدّ التحقق من صحة المستندات أمرًا بالغ الأهمية للحفاظ على الأمن والثقة في مختلف القطاعات. يُعلّمك هذا الدليل كيفية دمج عمليات التحقق من صحة النصوص والرموز الشريطية ورموز الاستجابة السريعة (QR) في تطبيقاتك باستخدام GroupDocs.Signature لـ Java.

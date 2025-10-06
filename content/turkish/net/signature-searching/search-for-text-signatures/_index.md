@@ -5,8 +5,8 @@
 "title": "Belgelerde Metin İmzalarını Ara"
 "url": "/tr/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## giriiş
 
 Metin imzaları, belge yazarlığını, onayını veya doğrulamasını göstermenin yaygın bir yöntemidir. Dijital belge yönetiminde, metin imzalarını programatik olarak arama ve çıkarma yeteneği, belge doğrulama, iş akışı otomasyonu ve uyumluluk doğrulaması için çok önemlidir. GroupDocs.Signature for .NET, .NET uygulamalarınızda metin imzası arama işlevini uygulamak için kapsamlı bir çözüm sunar ve çeşitli belge biçimlerini ve gelişmiş arama özelliklerini destekler.

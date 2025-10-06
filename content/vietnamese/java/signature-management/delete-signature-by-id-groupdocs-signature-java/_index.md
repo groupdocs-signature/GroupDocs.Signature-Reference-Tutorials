@@ -4,8 +4,8 @@
 "title": "Cách xóa chữ ký theo ID bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/signature-management/delete-signature-by-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa chữ ký theo ID bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

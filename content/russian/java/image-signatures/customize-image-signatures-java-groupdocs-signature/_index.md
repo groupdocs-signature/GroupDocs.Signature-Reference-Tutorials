@@ -4,8 +4,8 @@
 "title": "Как настроить подписи изображений в Java с помощью GroupDocs.Signature"
 "url": "/ru/java/image-signatures/customize-image-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать настраиваемые подписи изображений с помощью GroupDocs.Signature для Java
 
 ## Введение

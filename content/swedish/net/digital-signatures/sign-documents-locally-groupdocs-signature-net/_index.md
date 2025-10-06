@@ -4,8 +4,8 @@
 "title": "Så här signerar du dokument lokalt med GroupDocs.Signature för .NET - En omfattande guide"
 "url": "/sv/net/digital-signatures/sign-documents-locally-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här signerar du dokument lokalt med GroupDocs.Signature för .NET
 
 ## Introduktion

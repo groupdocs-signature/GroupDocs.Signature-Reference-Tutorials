@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके मेटाडेटा के साथ PDF पर हस्ताक्षर करें. .NET के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके मेटाडेटा के साथ PDF पर हस्ताक्षर करें
 
 ## परिचय

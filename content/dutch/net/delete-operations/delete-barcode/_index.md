@@ -5,8 +5,8 @@
 "title": "Barcodes uit documenten verwijderen met .NET"
 "url": "/nl/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # Barcodes uit documenten verwijderen met .NET
 
 ## Waarom zou u barcodes moeten verwijderen?

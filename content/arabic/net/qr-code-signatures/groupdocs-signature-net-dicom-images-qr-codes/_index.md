@@ -4,8 +4,8 @@
 "title": "كيفية توقيع صور DICOM باستخدام رموز الاستجابة السريعة (QR Codes) باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/qr-code-signatures/groupdocs-signature-net-dicom-images-qr-codes/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع صور DICOM باستخدام رموز QR باستخدام GroupDocs.Signature لـ .NET: دليل شامل
 
 هل تبحث عن طريقة آمنة لمصادقة ملفات DICOM؟ سيوضح لك هذا الدليل المفصل كيفية استخدام GroupDocs.Signature لـ .NET لدمج توقيعات رمز الاستجابة السريعة (QR) في صور DICOM. يُعد هذا الدليل مثاليًا لمتخصصي الرعاية الصحية والمطورين وأي شخص يتعامل مع المستندات الطبية الرقمية، حيث يغطي البرنامج التعليمي من الإعداد إلى التنفيذ.

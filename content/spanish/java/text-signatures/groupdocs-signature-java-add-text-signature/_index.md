@@ -4,8 +4,8 @@
 "title": "Cómo añadir una firma de texto a archivos PDF con GroupDocs.Signature para Java"
 "url": "/es/java/text-signatures/groupdocs-signature-java-add-text-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cómo agregar una firma de texto a documentos usando GroupDocs.Signature para Java
 
 ## Introducción

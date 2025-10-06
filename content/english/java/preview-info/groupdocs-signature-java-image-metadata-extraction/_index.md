@@ -8,10 +8,8 @@ keywords:
 - image metadata extraction
 - GroupDocs.Signature for Java
 - metadata management
-
+type: docs
 ---
-
-
 # Mastering GroupDocs.Signature for Java: Image Metadata Extraction
 
 ## Introduction

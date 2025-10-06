@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs 為 Java 開發人員提供 Java QR 碼簽名搜索"
 "url": "/zh-hant/java/qr-code-signatures/java-qr-code-signature-search-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs 為 Java 開發人員提供 Java QR 碼簽名搜索
 
 ## 介紹

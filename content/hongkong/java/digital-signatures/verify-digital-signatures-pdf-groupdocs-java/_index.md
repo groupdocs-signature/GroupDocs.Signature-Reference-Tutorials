@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 驗證 PDF 中的數位簽章－逐步指南"
 "url": "/zh-hant/java/digital-signatures/verify-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 驗證 PDF 中的數位簽章：逐步指南
 
 ## 介紹

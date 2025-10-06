@@ -4,8 +4,8 @@
 "title": "Πώς να διαγράψετε υπογραφές PDF ανά αναγνωριστικό χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/signature-management/delete-pdf-signatures-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να διαγράψετε υπογραφές PDF ανά αναγνωριστικό χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

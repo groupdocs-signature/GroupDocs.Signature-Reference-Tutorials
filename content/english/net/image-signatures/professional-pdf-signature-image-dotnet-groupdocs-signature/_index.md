@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["pdf-signing", "dotnet", "groupdocs", "digital-signatures", "document-automation"]
+type: docs
 ---
-
 # PDF Image Signature .NET
 
 ## Why Image Signatures Matter for Your .NET Applications

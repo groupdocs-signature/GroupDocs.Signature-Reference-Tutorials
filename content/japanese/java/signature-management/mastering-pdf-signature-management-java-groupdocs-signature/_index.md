@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した Java での効率的な PDF 署名管理"
 "url": "/ja/java/signature-management/mastering-pdf-signature-management-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した Java での効率的な PDF 署名管理
 
 ## 導入

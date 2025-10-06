@@ -4,8 +4,8 @@
 "title": "掌握 GroupDocs.Signature for Java－高效二維碼簽章搜尋與電子郵件擷取"
 "url": "/zh-hant/java/search-verification/groupdocs-signature-java-qr-code-search-email-extraction/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 Java 版 GroupDocs.Signature：二維碼簽章搜尋與電子郵件擷取
 
 ## 介紹

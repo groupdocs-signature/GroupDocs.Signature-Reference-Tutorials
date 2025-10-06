@@ -4,8 +4,8 @@
 "title": "Penandatanganan PDF Aman dengan Kode QR Terenkripsi di .NET Menggunakan GroupDocs.Signature"
 "url": "/id/net/qr-code-signatures/net-qrcode-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Lengkap: Menerapkan Penandatanganan PDF Aman dengan Kode QR Terenkripsi di .NET Menggunakan GroupDocs.Signature
 
 ## Perkenalan

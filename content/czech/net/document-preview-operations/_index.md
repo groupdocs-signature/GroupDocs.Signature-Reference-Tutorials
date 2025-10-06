@@ -5,8 +5,8 @@
 "title": "Komplexní operace náhledu a správy dokumentů"
 "url": "/cs/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # Operace náhledu dokumentu
 
 ## Zavedení

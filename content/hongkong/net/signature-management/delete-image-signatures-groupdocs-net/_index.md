@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 .NET 中刪除映像簽章－逐步指南"
 "url": "/zh-hant/net/signature-management/delete-image-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 .NET 中刪除映像簽章：逐步指南
 
 在當今的數位環境中，管理文件簽章對於維護業務營運的安全性和真實性至關重要。如果您處理的文件包含多個影像簽名，高效率的管理可以節省時間和資源。本指南將指導您如何使用 **適用於 .NET 的 GroupDocs.Signature** 初始化簽名實例、搜尋影像簽名以及根據特定條件刪除特定簽名。完成本教學後，您將掌握如何有效簡化此流程。

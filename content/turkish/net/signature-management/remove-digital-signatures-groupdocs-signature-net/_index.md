@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak PDF'lerden Dijital İmzalar Nasıl Kaldırılır?"
 "url": "/tr/net/signature-management/remove-digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak PDF'lerden Dijital İmzalar Nasıl Kaldırılır?
 
 ## giriiş

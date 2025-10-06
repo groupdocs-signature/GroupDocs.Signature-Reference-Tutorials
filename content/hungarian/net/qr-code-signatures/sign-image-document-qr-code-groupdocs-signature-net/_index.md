@@ -4,8 +4,8 @@
 "title": "Képdokumentumok aláírása QR-kódokkal a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/qr-code-signatures/sign-image-document-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Képdokumentum aláírása QR-kóddal a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

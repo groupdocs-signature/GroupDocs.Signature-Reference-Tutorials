@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile .NET'te Özel Veri Serileştirmede Ustalaşma Gelişmiş Kılavuzu"
 "url": "/tr/net/advanced-options/master-custom-data-serialization-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile .NET'te Özel Veri Serileştirmede Ustalaşma
 ## giriiş
 Dijital belge işleme alanında, hassas serileştirme yoluyla veri bütünlüğünün sağlanması hayati önem taşır. Bu gelişmiş kılavuz, belgelere imza eklemeyi kolaylaştıran güçlü bir çözüm olan GroupDocs.Signature for .NET içindeki öznitelikleri kullanarak özel veri serileştirmenin nasıl uygulanacağını incelemektedir. Özel özniteliklerle belirli serileştirme kurallarından yararlanarak iş akışınızı kolaylaştırabilir ve veri güvenliğini artırabilirsiniz.

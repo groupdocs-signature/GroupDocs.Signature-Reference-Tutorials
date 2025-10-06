@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak Bir URL'den PDF Nasıl İmzalanır? Dijital İmza Eğitimi"
 "url": "/tr/java/digital-signatures/sign-pdf-from-url-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Bir URL'den PDF Nasıl İmzalanır
 
 ## giriiş

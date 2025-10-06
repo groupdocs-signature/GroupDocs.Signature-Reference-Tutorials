@@ -4,8 +4,8 @@
 "title": "การแยกลายเซ็น QR-Code ของ Java ด้วย GroupDocs.Signature&#58; คู่มือฉบับสมบูรณ์"
 "url": "/th/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # การนำการแยกลายเซ็น QR-Code ของ Java ไปใช้งานด้วย GroupDocs.Signature
 
 ## การแนะนำ

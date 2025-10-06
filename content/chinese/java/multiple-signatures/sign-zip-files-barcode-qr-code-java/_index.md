@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 Java 中对带有条形码和二维码的 ZIP 文件进行签名"
 "url": "/zh/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 Java 中对带有条形码和二维码的 ZIP 文件进行签名
 
 ## 介绍

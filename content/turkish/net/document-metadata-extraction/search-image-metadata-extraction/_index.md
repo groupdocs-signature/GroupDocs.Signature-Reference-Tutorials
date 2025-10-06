@@ -5,8 +5,8 @@
 "title": "GroupDocs ile .NET'te Görüntü Meta Verilerini Çıkarın ve Arayın"
 "url": "/tr/net/document-metadata-extraction/search-image-metadata-extraction/"
 "weight": 10
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Belgelerdeki Görüntü Meta Verilerini Arama
 
 ## giriiş

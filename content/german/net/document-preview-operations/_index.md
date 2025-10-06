@@ -5,8 +5,8 @@
 "title": "Umfassende Dokumentvorschau und Verwaltungsvorgänge"
 "url": "/de/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # Dokumentvorschauvorgänge
 
 ## Einführung

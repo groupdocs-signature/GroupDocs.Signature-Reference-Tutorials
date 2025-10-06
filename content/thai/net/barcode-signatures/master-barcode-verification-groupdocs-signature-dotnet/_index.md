@@ -4,8 +4,8 @@
 "title": "การตรวจสอบบาร์โค้ดหลักใน .NET ด้วย GroupDocs.Signature เพื่อความสมบูรณ์ของเอกสาร"
 "url": "/th/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การตรวจสอบบาร์โค้ดใน .NET ด้วย GroupDocs.Signature
 
 ## การแนะนำ

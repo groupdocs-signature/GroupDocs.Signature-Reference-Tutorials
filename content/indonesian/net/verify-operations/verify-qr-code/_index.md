@@ -5,8 +5,8 @@
 "title": "Verifikasi Kode QR dalam Dokumen"
 "url": "/id/net/verify-operations/verify-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## Perkenalan
 
 Keamanan dokumen merupakan aspek penting dalam operasional bisnis modern. Kode QR telah menjadi metode yang semakin populer untuk menyisipkan informasi ke dalam dokumen yang dapat diverifikasi keasliannya. GroupDocs.Signature untuk .NET menyediakan solusi yang andal dan fleksibel untuk memverifikasi kode QR yang tertanam dalam dokumen dalam berbagai format.

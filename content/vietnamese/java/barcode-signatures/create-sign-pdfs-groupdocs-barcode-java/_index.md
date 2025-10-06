@@ -4,8 +4,8 @@
 "title": "Cách tạo và ký PDF có mã vạch bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách tạo và ký PDF bằng mã vạch bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

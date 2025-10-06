@@ -4,8 +4,8 @@
 "title": "Newtonsoft.Json と GroupDocs.Signature を使用した .NET でのカスタム JSON シリアル化の完全ガイド"
 "url": "/ja/net/advanced-options/custom-json-serialization-newtonsoft-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Newtonsoft.Json と GroupDocs.Signature を使用した .NET でのカスタム JSON シリアル化の包括的なガイド
 
 ## 導入

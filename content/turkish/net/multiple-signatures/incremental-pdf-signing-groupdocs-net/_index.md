@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile PDF'leri Kademeli Olarak Nasıl İmzalayabilirsiniz? Kapsamlı Bir Kılavuz"
 "url": "/tr/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak Bir PDF Belgesini Kademeli Olarak Nasıl İmzalayabilirsiniz?
 
 ## giriiş

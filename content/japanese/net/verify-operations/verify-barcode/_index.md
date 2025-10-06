@@ -5,8 +5,8 @@
 "title": "文書内のバーコード署名を検証する"
 "url": "/ja/net/verify-operations/verify-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## 導入
 
 バーコードは現代のドキュメント管理システムに不可欠な要素となり、エンコードされた情報への迅速なアクセスを可能にすると同時に、セキュリティ機能としても機能します。GroupDocs.Signature for .NETは、ドキュメント内のバーコード署名を検証し、その真正性と整合性を保証するための強力なAPIを提供します。

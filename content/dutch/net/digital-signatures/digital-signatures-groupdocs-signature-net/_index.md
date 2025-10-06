@@ -4,8 +4,8 @@
 "title": "Digitale handtekeningen implementeren in .NET met behulp van GroupDocs.Signature"
 "url": "/nl/net/digital-signatures/digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van documentondertekening met digitale handtekeningen met behulp van GroupDocs.Signature voor .NET
 
 ## Invoering

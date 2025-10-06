@@ -4,8 +4,8 @@
 "title": "Überprüfung digitaler Java-Signaturen mit GroupDocs.Signature – Eine Schritt-für-Schritt-Anleitung"
 "url": "/de/java/digital-signatures/java-digital-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Umfassender Leitfaden zur Implementierung der Überprüfung digitaler Java-Signaturen mit GroupDocs.Signature
 
 ## Einführung

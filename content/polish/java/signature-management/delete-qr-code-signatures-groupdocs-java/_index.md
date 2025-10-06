@@ -4,8 +4,8 @@
 "title": "Jak usunąć podpisy w postaci kodu QR z plików PDF za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/signature-management/delete-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak usunąć podpisy w postaci kodu QR z pliku PDF za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Pratinjau Tanda Tangan Digital PDF dengan GroupDocs.Signature untuk .NET | Panduan Lengkap"
 "url": "/id/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Membuat Pratinjau Tanda Tangan Digital PDF Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

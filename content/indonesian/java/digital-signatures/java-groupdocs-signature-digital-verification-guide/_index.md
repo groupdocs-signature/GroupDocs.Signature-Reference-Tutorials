@@ -4,8 +4,8 @@
 "title": "Verifikasi Dokumen Digital Java dengan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/java/digital-signatures/java-groupdocs-signature-digital-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Verifikasi Dokumen Digital Java Menggunakan GroupDocs.Signature
 
 ## Perkenalan

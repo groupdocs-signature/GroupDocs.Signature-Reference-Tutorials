@@ -4,8 +4,8 @@
 "title": "Implementar Licença Medida no GroupDocs.Signature para Java - Um Guia Passo a Passo"
 "url": "/pt/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar uma licença medida no GroupDocs.Signature para Java
 
 ## Introdução

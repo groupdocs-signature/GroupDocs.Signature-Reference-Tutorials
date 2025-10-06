@@ -5,8 +5,8 @@
 "title": "Belgelerde Barkod İmzalarını Arayın"
 "url": "/tr/net/signature-searching/search-for-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## giriiş
 
 Günümüzün dijital belge yönetimi ortamında, belgelerdeki imzaları arayıp doğrulayabilmek, özgünlük ve güvenliği korumak için hayati önem taşımaktadır. GroupDocs.Signature for .NET, barkodlar da dahil olmak üzere çeşitli imza türleriyle ve farklı belge formatlarıyla çalışmak için güçlü bir çözüm sunar. Bu eğitim, GroupDocs.Signature kullanarak .NET uygulamalarınızda barkod imza arama işlevini uygulama sürecinde size rehberlik edecektir.

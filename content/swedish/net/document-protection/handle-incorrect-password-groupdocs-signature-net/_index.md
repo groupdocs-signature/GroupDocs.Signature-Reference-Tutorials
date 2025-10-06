@@ -4,8 +4,8 @@
 "title": "Så här hanterar du felaktiga lösenordsundantag i GroupDocs.Signature för .NET"
 "url": "/sv/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hur man hanterar felaktiga lösenordsundantag med GroupDocs.Signature för .NET
 
 ## Introduktion

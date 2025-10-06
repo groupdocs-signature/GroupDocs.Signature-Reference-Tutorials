@@ -4,8 +4,8 @@
 "title": "วิธีการค้นหาลายเซ็นข้อมูลเมตาในงานนำเสนอโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการค้นหาลายเซ็นข้อมูลเมตาในงานนำเสนอโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

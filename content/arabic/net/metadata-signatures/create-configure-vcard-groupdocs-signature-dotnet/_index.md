@@ -4,8 +4,8 @@
 "title": "كيفية إنشاء وتكوين كائنات VCard باستخدام GroupDocs.Signature لـ .NET - دليل المطور"
 "url": "/ar/net/metadata-signatures/create-configure-vcard-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية إنشاء كائنات VCard وتكوينها باستخدام GroupDocs.Signature لـ .NET: دليل المطور
 
 ## مقدمة

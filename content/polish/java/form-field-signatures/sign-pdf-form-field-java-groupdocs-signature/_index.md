@@ -4,8 +4,8 @@
 "title": "Jak podpisywać pliki PDF za pomocą podpisu pola formularza w Javie za pomocą GroupDocs.Signature"
 "url": "/pl/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisać plik PDF za pomocą podpisu pola formularza w Javie za pomocą GroupDocs.Signature
 
 ## Wstęp

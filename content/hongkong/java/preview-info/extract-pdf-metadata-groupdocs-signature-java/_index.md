@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 擷取 PDF 元資料－綜合指南"
 "url": "/zh-hant/java/preview-info/extract-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 擷取 PDF 元資料：綜合指南
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "Wdrażanie wyszukiwania podpisów obrazów w .NET za pomocą GroupDocs.Signature™ – przewodnik krok po kroku"
 "url": "/pl/net/search-verification/implement-image-signature-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć wyszukiwanie podpisów obrazów za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

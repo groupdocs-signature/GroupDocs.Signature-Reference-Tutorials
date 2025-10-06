@@ -4,8 +4,8 @@
 "title": "Egyéni JSON szerializálás .NET-ben Newtonsoft.Json és GroupDocs.Signature segítségével – Teljes körű útmutató"
 "url": "/hu/net/advanced-options/custom-json-serialization-newtonsoft-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Átfogó útmutató az egyéni JSON szerializáláshoz .NET-ben a Newtonsoft.Json és a GroupDocs.Signature használatával
 
 ## Bevezetés

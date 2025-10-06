@@ -9,8 +9,8 @@ weight: 1
 url: "/net/barcode-signatures/sign-documents-gs1dotcode-hanxin-qr-groupdocs-signature-dotnet/"
 categories: ["Document Management"]
 tags: ["dotnet", "digital-signatures", "barcode", "qr-code", "security"]
+type: docs
 ---
-
 # Document Signing .NET Library Tutorial - Complete Guide with Barcode & QR Signatures
 
 Are you struggling to implement secure document signing in your .NET applications? You're not alone. Many developers face challenges when trying to add professional-grade signature functionality, especially when it comes to barcode and QR code integration.

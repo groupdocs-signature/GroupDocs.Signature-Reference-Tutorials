@@ -4,8 +4,8 @@
 "title": "Как удалить текстовую подпись из документа с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/signature-management/delete-text-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как удалить текстовую подпись из документа с помощью GroupDocs.Signature для .NET
 
 ## Введение

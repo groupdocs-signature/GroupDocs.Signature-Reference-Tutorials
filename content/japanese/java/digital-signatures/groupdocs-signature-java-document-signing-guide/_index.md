@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用してドキュメントに署名する方法 - 完全ガイド"
 "url": "/ja/java/digital-signatures/groupdocs-signature-java-document-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用してドキュメントに署名する方法: 完全ガイド
 
 ## 導入

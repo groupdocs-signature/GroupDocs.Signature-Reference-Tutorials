@@ -4,8 +4,8 @@
 "title": "Pencarian Tanda Tangan Teks Utama di .NET Menggunakan GroupDocs.Signature"
 "url": "/id/net/search-verification/master-text-signature-search-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pencarian Tanda Tangan Teks di .NET dengan GroupDocs.Signature
 
 Apakah Anda ingin mengotomatiskan identifikasi tanda tangan teks dalam dokumen Anda? Baik itu memverifikasi keaslian kontrak atau melacak persetujuan resmi, mengelola tanda tangan dokumen secara efisien bisa menjadi tantangan. Dengan **GroupDocs.Signature untuk .NET**Sederhanakan proses ini dengan mencari dan memfilter tanda tangan teks langsung dari aplikasi Anda. Tutorial ini akan memandu Anda dalam menyiapkan dan menggunakan GroupDocs.Signature untuk mencari tanda tangan teks tanpa perlu tanda tangan eksternal.

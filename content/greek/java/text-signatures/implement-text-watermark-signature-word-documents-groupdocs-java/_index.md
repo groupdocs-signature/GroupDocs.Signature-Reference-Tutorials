@@ -4,8 +4,8 @@
 "title": "Υλοποίηση υπογραφών υδατογραφήματος κειμένου σε έγγραφα του Word χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση υπογραφών υδατογραφήματος κειμένου σε έγγραφα του Word χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Πώς να προσθέσετε υπογραφές υδατογραφήματος κειμένου σε έγγραφα του Word με το GroupDocs.Signature για Java

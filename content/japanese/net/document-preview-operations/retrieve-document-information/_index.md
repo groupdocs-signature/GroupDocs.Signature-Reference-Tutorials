@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signatureでドキュメント情報を取得する方法"
 "url": "/ja/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature を使用してドキュメント情報を取得する方法
 
 ## 導入

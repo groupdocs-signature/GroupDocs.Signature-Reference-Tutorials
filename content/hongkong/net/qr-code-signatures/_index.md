@@ -3,8 +3,8 @@
 "title": "使用 GroupDocs.Signature for .NET 的二維碼簽章教學"
 "url": "/zh-hant/net/qr-code-signatures/"
 "weight": 5
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 的二維碼簽章教學
 
 透過我們全面的 GroupDocs.Signature 教程，了解如何在您的 .NET 應用程式中有效地使用二維碼簽署。這些逐步指南將教您如何建立、自訂、搜尋和驗證二維碼簽名。學習如何為各種資料格式（包括 vCard、WiFi、簡訊、電子郵件、加密貨幣、事件和 EPC 支付資料）實現專用二維碼物件。每個教學課程都提供了用於基本和高級二維碼實現的實用 C# 程式碼範例，以幫助您建立更複雜的文件簽章解決方案。

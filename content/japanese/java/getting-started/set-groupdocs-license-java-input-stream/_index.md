@@ -4,8 +4,8 @@
 "title": "柔軟性とコンプライアンスを強化するために、Java の InputStream 経由で GroupDocs ライセンスを設定する方法"
 "url": "/ja/java/getting-started/set-groupdocs-license-java-input-stream/"
 "weight": 1
+type: docs
 ---
-
 # Java の実装方法: GroupDocs.Signature for Java の InputStream 経由で GroupDocs ライセンスを設定する
 
 GroupDocs.Signature for Javaの入力ストリームを使用してGroupDocsライセンスを設定するための包括的なガイドへようこそ。この機能により、ライセンスを効率的に管理し、コンプライアンスを確保しながら、GroupDocsの全機能にアクセスできるようになります。

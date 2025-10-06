@@ -5,8 +5,8 @@
 "title": ".NET 中的文件驗證操作"
 "url": "/zh-hant/net/verify-operations/"
 "weight": 27
+type: docs
 ---
-
 ## 介紹
 
 文件驗證是任何安全文件管理系統的關鍵組成部分。無論您建立的是企業應用程式、文件工作流程解決方案還是以安全為中心的系統，能夠驗證文件中的各種簽名都至關重要。 GroupDocs.Signature for .NET 提供了強大的工具和 API，使 .NET 開發人員能夠為條碼、數位簽章、二維碼和文字簽章實現強大的驗證功能。

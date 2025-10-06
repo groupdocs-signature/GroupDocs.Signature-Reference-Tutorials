@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके टेक्स्ट और चेकबॉक्स के साथ PDF हस्ताक्षर लागू करें"
 "url": "/hi/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके टेक्स्ट और चेकबॉक्स के साथ PDF हस्ताक्षर लागू करें
 
 ## फ़ॉर्म फ़ील्ड हस्ताक्षर

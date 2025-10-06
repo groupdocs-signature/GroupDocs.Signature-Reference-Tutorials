@@ -4,8 +4,8 @@
 "title": "การค้นหาลายเซ็นที่มีประสิทธิภาพในไฟล์เก็บถาวรโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # การค้นหาลายเซ็นที่มีประสิทธิภาพในไฟล์เก็บถาวรโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

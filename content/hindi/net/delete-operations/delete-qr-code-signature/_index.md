@@ -5,8 +5,8 @@
 "title": ".NET में दस्तावेज़ों से QR कोड हस्ताक्षर कैसे हटाएँ"
 "url": "/hi/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # अपने दस्तावेज़ों से QR कोड हस्ताक्षर कैसे हटाएँ
 
 ## परिचय

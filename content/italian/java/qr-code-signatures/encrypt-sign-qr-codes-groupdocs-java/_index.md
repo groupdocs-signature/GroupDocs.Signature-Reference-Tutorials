@@ -4,8 +4,8 @@
 "title": "Crittografa e firma i codici QR in Java utilizzando GroupDocs.Signature&#58; una guida completa"
 "url": "/it/java/qr-code-signatures/encrypt-sign-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Crittografa e firma i codici QR con GroupDocs.Signature per Java
 
 ## Introduzione

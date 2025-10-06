@@ -8,10 +8,8 @@ keywords:
 - sign DICOM images
 - GroupDocs.Signature for Java
 - QR code signature
-
+type: docs
 ---
-
-
 # How to Sign DICOM Images with QR Codes and Metadata Using GroupDocs.Signature for Java
 
 ## Introduction

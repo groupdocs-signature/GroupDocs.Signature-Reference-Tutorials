@@ -5,8 +5,8 @@
 "title": "Cara Mengekstrak Tanda Tangan Metadata PDF di .NET"
 "url": "/id/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # Cara Mengekstrak dan Mencari Tanda Tangan Metadata PDF
 
 ## Mengapa Metadata PDF Penting untuk Dokumen Anda

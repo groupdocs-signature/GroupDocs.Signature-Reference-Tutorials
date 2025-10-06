@@ -4,8 +4,8 @@
 "title": "Bảo mật tài liệu bằng hình mờ văn bản bằng GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai hình mờ văn bản trong tài liệu bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

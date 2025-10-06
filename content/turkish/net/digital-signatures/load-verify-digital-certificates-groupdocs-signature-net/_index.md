@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile Dijital Sertifikaları Yükleme ve Doğrulama&#58; Kapsamlı Bir Kılavuz"
 "url": "/tr/net/digital-signatures/load-verify-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature ile Dijital Sertifikaları Yükleyin ve Doğrulayın
 
 ## giriiş

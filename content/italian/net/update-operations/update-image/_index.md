@@ -5,8 +5,8 @@
 "title": "Aggiorna le firme delle immagini nei documenti"
 "url": "/it/net/update-operations/update-image/"
 "weight": 11
+type: docs
 ---
-
 ## Introduzione
 La gestione dei documenti digitali richiede solide funzionalità di firma per garantire autenticità e integrità. Le firme digitali svolgono un ruolo cruciale in questo ecosistema, fornendo elementi di verifica visiva ed elementi di branding all'interno dei documenti. GroupDocs.Signature per .NET offre un potente framework che consente agli sviluppatori di implementare funzionalità di firma complete nelle loro applicazioni .NET, inclusa la possibilità di aggiornare le firme digitali esistenti.
 

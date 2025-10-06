@@ -4,8 +4,8 @@
 "title": "تنفيذ توقيعات العلامة المائية النصية في مستندات Word باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ توقيعات العلامة المائية النصية في مستندات Word باستخدام GroupDocs.Signature لـ Java
 
 ## كيفية إضافة توقيعات مائية نصية إلى مستندات Word باستخدام GroupDocs.Signature لـ Java

@@ -4,8 +4,8 @@
 "title": "Podpisywanie dokumentów głównych za pomocą kodów QR przy użyciu GroupDocs.Signature dla Java – kompleksowy przewodnik"
 "url": "/pl/java/qr-code-signatures/groupdocs-signature-qr-code-document-signing/"
 "weight": 1
+type: docs
 ---
-
 # Podpisywanie dokumentu głównego za pomocą kodów QR przy użyciu GroupDocs.Signature dla Java
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "دليل التحقق من شهادة Java باستخدام GroupDocs.Signature لمصادقة المستندات بشكل آمن"
 "url": "/ar/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ التحقق من شهادة Java باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

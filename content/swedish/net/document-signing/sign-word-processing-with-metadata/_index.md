@@ -5,8 +5,8 @@
 "title": "Förbättra Word-dokument med metadatasignaturer i C# .NET"
 "url": "/sv/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## Introduktion
 
 Ordbehandlingsdokument är bland de vanligaste filtyperna som används inom affärsverksamhet, utbildning och personlig kommunikation. Att säkerställa äktheten, spåra ursprunget och upprätthålla integriteten hos dessa dokument är avgörande i många professionella miljöer. En effektiv metod för att förbättra dokumentsäkerhet och spårbarhet är att bädda in metadatasignaturer.

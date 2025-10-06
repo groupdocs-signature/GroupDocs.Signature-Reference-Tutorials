@@ -4,8 +4,8 @@
 "title": "Как реализовать подписи QR-кода в .NET с помощью GroupDocs.Signature"
 "url": "/ru/net/qr-code-signatures/implement-qr-code-signature-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать подпись .NET QR-кода с помощью GroupDocs.Signature
 
 ## Введение

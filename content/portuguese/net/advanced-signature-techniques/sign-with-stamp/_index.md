@@ -5,8 +5,8 @@
 "title": "Como adicionar assinaturas de carimbo a documentos com GroupDocs.Signature"
 "url": "/pt/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # Como adicionar assinaturas de carimbo profissionais aos seus documentos .NET
 
 ## O que você pode conseguir com assinaturas de carimbo?

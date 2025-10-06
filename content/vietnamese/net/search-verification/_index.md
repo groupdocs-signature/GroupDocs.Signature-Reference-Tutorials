@@ -3,8 +3,8 @@
 "title": "Hướng dẫn tìm kiếm và xác minh chữ ký cho GroupDocs.Signature .NET"
 "url": "/vi/net/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # Hướng dẫn tìm kiếm và xác minh chữ ký cho GroupDocs.Signature .NET
 
 Các hướng dẫn tìm kiếm và xác minh của chúng tôi cung cấp hướng dẫn toàn diện về việc xác thực chữ ký tài liệu bằng GroupDocs.Signature trong .NET. Những hướng dẫn thực tế này trình bày cách tìm kiếm chữ ký thuộc nhiều loại khác nhau (kỹ thuật số, mã vạch, mã QR, văn bản, hình ảnh và siêu dữ liệu), triển khai xác minh để kiểm tra tính xác thực, xử lý các ngoại lệ trong quá trình xác minh và xử lý các tài liệu phức tạp. Mỗi hướng dẫn đều bao gồm các ví dụ mã C# hoàn chỉnh cho các tình huống xác minh phổ biến, giúp bạn xây dựng các ứng dụng có thể xác định hiệu quả liệu tài liệu có bị thay đổi hay không kể từ khi ký.

@@ -4,8 +4,8 @@
 "title": "Effiziente Suche in PDF-Formularfeldern mit GroupDocs.Signature für .NET"
 "url": "/de/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Effiziente Suche in PDF-Formularfeldern mit GroupDocs.Signature für .NET
 
 ## Einführung

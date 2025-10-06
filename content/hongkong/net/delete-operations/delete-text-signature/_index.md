@@ -5,8 +5,8 @@
 "title": "如何在 .NET 中從文件中刪除文字簽名"
 "url": "/zh-hant/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 從文件中刪除文字簽名
 
 ## 為什麼需要刪除文字簽名？

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 使用二维码加密和签名 PDF"
 "url": "/zh/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 使用二维码加密和签名 PDF
 
 ## 介绍

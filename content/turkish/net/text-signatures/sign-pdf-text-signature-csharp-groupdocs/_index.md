@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak C#'ta PDF Belgelerini Metin İmzasıyla İmzalama"
 "url": "/tr/net/text-signatures/sign-pdf-text-signature-csharp-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak C#'ta PDF Belgelerini Metin İmzasıyla İmzalama
 
 ## giriiş

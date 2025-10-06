@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε αναζήτηση υπογραφής κώδικα QR για δεδομένα HIBC LIC σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/qr-code-signatures/implement-qr-code-signature-search-hibc-primary-data-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε αναζήτηση υπογραφής κώδικα QR για δεδομένα HIBC LIC σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

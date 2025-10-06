@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してメタデータでプレゼンテーション ドキュメントに署名する"
 "url": "/ja/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してメタデータでプレゼンテーション ドキュメントに署名する方法
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Bir Belgeden Metin İmzası Nasıl Silinir?"
 "url": "/tr/net/signature-management/delete-text-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Bir Belgeden Metin İmzası Nasıl Silinir?
 
 ## giriiş

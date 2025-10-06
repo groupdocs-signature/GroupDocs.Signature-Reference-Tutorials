@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 實作帶有文字和複選框的 PDF 簽名"
 "url": "/zh-hant/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 實作帶有文字和複選框的 PDF 簽名
 
 ## 表單欄位簽名

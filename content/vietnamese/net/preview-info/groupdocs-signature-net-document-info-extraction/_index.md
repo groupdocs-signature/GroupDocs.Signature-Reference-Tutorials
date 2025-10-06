@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature cho .NET - Trích xuất và hiển thị thông tin tài liệu hiệu quả"
 "url": "/vi/net/preview-info/groupdocs-signature-net-document-info-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ GroupDocs.Signature cho .NET: Trích xuất và hiển thị thông tin tài liệu hiệu quả
 
 ## Giới thiệu

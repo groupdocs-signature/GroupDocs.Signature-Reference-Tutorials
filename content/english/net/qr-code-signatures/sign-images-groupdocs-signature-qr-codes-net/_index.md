@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: [".NET Development"]
 tags: ["GroupDocs", "QR-Codes", "Image-Signing", "Digital-Signatures"]
+type: docs
 ---
-
 # QR Code Image Signing .NET
 
 ## Why QR Code Image Signatures Matter (And How to Implement Them)

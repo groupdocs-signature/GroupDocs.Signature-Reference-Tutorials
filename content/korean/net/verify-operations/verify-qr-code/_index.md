@@ -5,8 +5,8 @@
 "title": "문서의 QR 코드 확인"
 "url": "/ko/net/verify-operations/verify-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## 소개
 
 문서 보안은 현대 비즈니스 운영에 있어 매우 중요한 요소입니다. QR 코드는 문서에 정보를 삽입하여 진위 여부를 확인하는 방법으로 점점 더 널리 사용되고 있습니다. GroupDocs.Signature for .NET은 다양한 형식의 문서에 삽입된 QR 코드를 검증하는 강력하고 유연한 솔루션을 제공합니다.

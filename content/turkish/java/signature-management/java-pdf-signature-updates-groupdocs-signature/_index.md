@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java PDF İmza Güncellemeleri - Geliştiriciler İçin Kapsamlı Bir Kılavuz"
 "url": "/tr/java/signature-management/java-pdf-signature-updates-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Java PDF İmza Güncellemelerinde Ustalaşma
 Dijital dünyada belge güvenliğinin sağlanması son derece önemlidir. İster sözleşmeleri yöneten bir geliştirici olun, ister hassas bilgilerle ilgilenen bir kuruluş olun, belgelerinizi imzalarla güvence altına almak hayati önem taşır. **Java için GroupDocs.Signature** PDF'lerde ve diğer formatlarda imza eklemek, değiştirmek ve doğrulamak için sağlam bir çözüm sunar. Bu eğitim, GroupDocs.Signature for Java kullanarak PDF imza güncellemelerini uygulama konusunda size rehberlik edecektir.
 

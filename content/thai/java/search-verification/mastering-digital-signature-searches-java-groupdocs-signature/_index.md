@@ -4,8 +4,8 @@
 "title": "เรียนรู้การค้นหาลายเซ็นดิจิทัลใน Java โดยใช้ GroupDocs คู่มือฉบับสมบูรณ์สำหรับลายเซ็นดิจิทัล"
 "url": "/th/java/search-verification/mastering-digital-signature-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # เรียนรู้การค้นหาลายเซ็นดิจิทัลใน Java โดยใช้ GroupDocs.Signature: คู่มือฉบับสมบูรณ์
 
 **ค้นพบพลังของการค้นหาลายเซ็นดิจิทัลด้วย GroupDocs.Signature สำหรับ Java!**

@@ -4,8 +4,8 @@
 "title": "دليل لتنفيذ البحث عن توقيع الصورة في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/search-verification/search-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # دليل لتنفيذ البحث عن توقيع الصورة في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

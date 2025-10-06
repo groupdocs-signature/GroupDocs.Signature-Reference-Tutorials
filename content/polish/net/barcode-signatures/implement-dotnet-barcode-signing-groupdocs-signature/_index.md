@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć podpisywanie kodów kreskowych .NET za pomocą GroupDocs.Signature? Kompletny przewodnik dla programistów"
 "url": "/pl/net/barcode-signatures/implement-dotnet-barcode-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć podpisywanie kodów kreskowych .NET za pomocą GroupDocs.Signature: kompletny przewodnik dla programistów
 
 ## Wstęp

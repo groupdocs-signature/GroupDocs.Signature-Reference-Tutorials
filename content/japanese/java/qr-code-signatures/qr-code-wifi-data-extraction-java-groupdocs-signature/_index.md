@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature で Java を使用して PDF 内の QR コードから WiFi データを抽出する"
 "url": "/ja/java/qr-code-signatures/qr-code-wifi-data-extraction-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature で Java を使用して PDF 内の QR コードから WiFi データを抽出する
 
 ## 導入

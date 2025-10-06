@@ -5,8 +5,8 @@
 "title": "Améliorez vos documents Word avec des signatures de métadonnées en C# .NET"
 "url": "/fr/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## Introduction
 
 Les documents de traitement de texte comptent parmi les types de fichiers les plus courants dans les domaines des affaires, de l'éducation et des communications personnelles. Garantir l'authenticité, la traçabilité et l'intégrité de ces documents est crucial dans de nombreux environnements professionnels. L'intégration de signatures de métadonnées est une approche efficace pour améliorer la sécurité et la traçabilité des documents.

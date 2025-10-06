@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 高级签名选项教程"
 "url": "/zh/java/advanced-options/"
 "weight": 14
+type: docs
 ---
-
 # GroupDocs.Signature Java 高级签名选项教程
 
 通过我们面向 Java 开发者的全面 GroupDocs.Signature 教程，探索高级签名功能。这些详细的指南涵盖了自定义加密、专业序列化、复杂外观设置、自定义画笔和渐变、使用各种测量单位定位、对齐选项和拉伸模式等内容。每个教程都提供了用于复杂签名功能的 Java 代码示例，帮助您构建充分利用 GroupDocs.Signature 高级功能的文档解决方案，从而实现高度定制且安全的文档签名。

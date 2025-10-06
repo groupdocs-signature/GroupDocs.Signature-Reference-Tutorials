@@ -4,8 +4,8 @@
 "title": "Jak podepsat PDF s metadaty pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/metadata-signatures/sign-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF s metadaty pomocí GroupDocs.Signature pro Javu
 
 V dnešní digitální krajině je zajištění integrity a autenticity dokumentů klíčové. Pokud pracujete s PDF soubory, které vyžadují vrstvu zabezpečení prostřednictvím podpisů, tento tutoriál vás provede podepsáním PDF dokumentu pomocí metadat, jako je jméno autora, datum vytvoření, ID dokumentu a ID podpisu, pomocí GroupDocs.Signature pro Javu.

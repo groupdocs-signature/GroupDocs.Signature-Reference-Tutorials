@@ -4,8 +4,8 @@
 "title": "Java 中的二维码搜索和加密及其 Master GroupDocs.Signature 用于安全文档处理"
 "url": "/zh/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Java 中的二维码搜索和加密：掌握 GroupDocs.Signature 的安全文档处理
 
 ## 介绍

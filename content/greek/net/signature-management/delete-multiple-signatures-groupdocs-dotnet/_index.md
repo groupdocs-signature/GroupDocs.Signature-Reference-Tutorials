@@ -4,8 +4,8 @@
 "title": "Πώς να διαγράψετε πολλαπλές υπογραφές σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/signature-management/delete-multiple-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να διαγράψετε πολλαπλές υπογραφές σε ένα έγγραφο χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

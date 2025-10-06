@@ -5,8 +5,8 @@
 "title": "Extrakce a vyhledávání metadat obrázků v .NET pomocí GroupDocs"
 "url": "/cs/net/document-metadata-extraction/search-image-metadata-extraction/"
 "weight": 10
+type: docs
 ---
-
 # Jak vyhledávat metadata obrázků v dokumentech pomocí GroupDocs.Signature
 
 ## Zavedení

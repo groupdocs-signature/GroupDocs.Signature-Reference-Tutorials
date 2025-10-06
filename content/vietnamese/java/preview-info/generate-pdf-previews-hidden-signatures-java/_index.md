@@ -4,8 +4,8 @@
 "title": "Tạo bản xem trước PDF có chữ ký ẩn bằng Java và GroupDocs.Signature"
 "url": "/vi/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Tạo bản xem trước PDF có chữ ký ẩn bằng Java và GroupDocs.Signature
 
 ## Giới thiệu

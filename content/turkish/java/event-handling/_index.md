@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java için Olay İşleme ve İşlem Yönetimi Eğitimleri"
 "url": "/tr/java/event-handling/"
 "weight": 15
+type: docs
 ---
-
 # GroupDocs.Signature Java için Olay İşleme ve İşlem Yönetimi Eğitimleri
 
 Olay yönetimi ve süreç yönetimi eğitimlerimiz, Java'da GroupDocs.Signature kullanarak duyarlı imzalama uygulamalarının nasıl oluşturulacağını göstermektedir. Bu adım adım kılavuzlar, imza olaylarına abone olmayı, arama ve imzalama işlemleri için iptali uygulamayı, istisnaları yönetmeyi ve işlem durumunu izlemeyi kapsar. Her eğitim, doğru olay yönetimini uygulamak için ayrıntılı Java kod örnekleri içerir ve daha iyi kullanıcı geri bildirimi, hata yönetimi ve imza işlemleri üzerinde kontrol sağlayan sağlam uygulamalar oluşturmanıza yardımcı olur.

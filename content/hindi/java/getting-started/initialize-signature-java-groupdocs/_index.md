@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में हस्ताक्षर इंस्टेंस को कैसे प्रारंभ करें"
 "url": "/hi/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके जावा में हस्ताक्षर इंस्टेंस को कैसे प्रारंभ करें
 
 ## परिचय

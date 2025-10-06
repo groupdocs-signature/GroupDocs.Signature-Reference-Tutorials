@@ -4,8 +4,8 @@
 "title": "Trích xuất siêu dữ liệu bảng tính bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Trích xuất siêu dữ liệu bảng tính bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

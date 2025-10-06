@@ -5,8 +5,8 @@
 "title": "Verfolgen Sie den Signaturverlauf von Dokumenten ganz einfach in .NET"
 "url": "/de/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # So verfolgen Sie den Signaturverlauf Ihres Dokuments in .NET
 
 ## Was kann GroupDocs.Signature für Sie tun?

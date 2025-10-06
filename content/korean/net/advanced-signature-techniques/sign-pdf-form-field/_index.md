@@ -5,8 +5,8 @@
 "title": ".NET에서 양식 필드가 있는 PDF 문서에 서명하는 방법"
 "url": "/ko/net/advanced-signature-techniques/sign-pdf-form-field/"
 "weight": 10
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 양식 필드가 있는 PDF 문서에 서명하는 방법
 
 양식 필드가 있는 PDF 문서에 디지털 서명을 추가하는 안정적인 방법을 찾고 계신가요? 이 종합 가이드에서는 GroupDocs.Signature for .NET을 사용하여 서명 과정을 안내해 드립니다. 안전하고 법적 구속력이 있는 서명으로 문서 워크플로우를 혁신해 보세요!

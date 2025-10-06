@@ -4,8 +4,8 @@
 "title": "PDF-fájlok képaláírásainak frissítése a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/image-signatures/update-image-signatures-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF-fájlok képaláírásainak frissítése a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature for .NET を使用してドキュメントにテキスト署名を追加する"
 "url": "/ja/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してドキュメントにテキスト署名を追加する方法
 
 ## はじめに: 文書署名プロセスの近代化

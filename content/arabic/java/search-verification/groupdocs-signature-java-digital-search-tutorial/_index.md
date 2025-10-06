@@ -4,8 +4,8 @@
 "title": "إتقان البحث عن التوقيعات الرقمية في جافا باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/java/search-verification/groupdocs-signature-java-digital-search-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # إتقان البحث عن التوقيع الرقمي باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

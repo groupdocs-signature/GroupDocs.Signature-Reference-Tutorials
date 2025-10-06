@@ -4,8 +4,8 @@
 "title": "Dokumentumok aláírása képpel a GroupDocs.Signature for Java használatával – lépésről lépésre útmutató"
 "url": "/hu/java/image-signatures/sign-documents-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan írjunk alá dokumentumokat képekkel a GroupDocs.Signature for Java használatával
 
 A mai digitális korban a dokumentumok elektronikus aláírással történő védelme kulcsfontosságú mind a vállalkozások, mind a magánszemélyek számára. Akár szerződéseket véglegesít, akár terveket hagy jóvá, a dokumentumok digitális aláírásának gyors és megbízható módja időt takaríthat meg és növelheti a biztonságot. Ez az oktatóanyag végigvezeti Önt a használatán. **GroupDocs.Signature Java-hoz** dokumentumok képaláírással történő aláírásához.

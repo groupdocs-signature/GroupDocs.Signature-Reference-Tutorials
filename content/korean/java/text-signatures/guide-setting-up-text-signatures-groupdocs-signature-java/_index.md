@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 텍스트 서명을 설정하는 포괄적인 가이드"
 "url": "/ko/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 텍스트 서명을 설정하는 포괄적인 가이드
 
 ## 소개

@@ -4,8 +4,8 @@
 "title": "Java PDF vonalkód keresés GroupDocs.Signature API használatával – Átfogó útmutató"
 "url": "/hu/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
 "weight": 1
+type: docs
 ---
-
 # Java implementálása: PDF vonalkódok keresése GroupDocs.Signature API-val Oktatóanyag
 
 ## Bevezetés

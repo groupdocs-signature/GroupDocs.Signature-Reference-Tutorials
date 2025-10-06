@@ -4,8 +4,8 @@
 "title": "Создание предварительных просмотров PDF-файлов со скрытыми подписями с помощью Java и GroupDocs.Signature"
 "url": "/ru/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Создание предварительных просмотров PDF-файлов со скрытыми подписями с помощью Java и GroupDocs.Signature
 
 ## Введение

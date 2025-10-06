@@ -4,8 +4,8 @@
 "title": "โหลดและลงนามเอกสารใน Java ด้วย GroupDocs.Signature&#58; คู่มือที่ครอบคลุม"
 "url": "/th/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # โหลดและลงนามเอกสารโดยใช้ GroupDocs.Signature ใน Java
 
 ## การแนะนำ

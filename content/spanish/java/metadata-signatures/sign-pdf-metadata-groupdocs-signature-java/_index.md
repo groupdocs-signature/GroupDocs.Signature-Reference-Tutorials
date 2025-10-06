@@ -4,8 +4,8 @@
 "title": "Cómo firmar un PDF con metadatos usando GroupDocs.Signature para Java"
 "url": "/es/java/metadata-signatures/sign-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar un PDF con metadatos usando GroupDocs.Signature para Java
 
 En el panorama digital actual, garantizar la integridad y autenticidad de los documentos es crucial. Si trabaja con archivos PDF que requieren una capa de seguridad mediante firmas, este tutorial le guiará en el proceso de firmar un documento PDF utilizando metadatos como el nombre del autor, la fecha de creación, el ID del documento y el ID de la firma con GroupDocs.Signature para Java.

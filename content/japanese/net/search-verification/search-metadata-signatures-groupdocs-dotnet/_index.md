@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してプレゼンテーション内のメタデータ署名を検索する方法"
 "url": "/ja/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してプレゼンテーション内のメタデータ署名を検索する方法
 
 ## 導入

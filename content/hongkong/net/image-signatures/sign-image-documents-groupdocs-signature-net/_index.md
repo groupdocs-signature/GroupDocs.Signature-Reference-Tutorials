@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 簽署圖像文件－綜合指南"
 "url": "/zh-hant/net/image-signatures/sign-image-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 簽署圖像文檔
 
 ## 介紹

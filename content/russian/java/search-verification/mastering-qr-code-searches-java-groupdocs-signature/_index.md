@@ -4,8 +4,8 @@
 "title": "Освоение поиска QR-кодов в Java&#58; полное руководство с использованием GroupDocs.Signature"
 "url": "/ru/java/search-verification/mastering-qr-code-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Освоение поиска по QR-кодам в Java: полное руководство с использованием GroupDocs.Signature
 
 ## Введение

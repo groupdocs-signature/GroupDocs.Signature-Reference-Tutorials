@@ -4,8 +4,8 @@
 "title": "วิธีการค้นหาลายเซ็นดิจิทัลใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/search-verification/search-pdfs-digital-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการค้นหาลายเซ็นดิจิทัลในไฟล์ PDF ด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

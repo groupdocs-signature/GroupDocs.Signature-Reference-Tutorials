@@ -4,8 +4,8 @@
 "title": "Jak podepsat ZIP soubory čárovými a QR kódy v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat ZIP soubory čárovými a QR kódy v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

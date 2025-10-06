@@ -4,8 +4,8 @@
 "title": "Implementace podepisování PDF v Javě pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # Implementace podepisování PDF v Javě pomocí GroupDocs.Signature
 
 ## Odemkněte sílu GroupDocs.Signature pro Javu: Bezproblémové podepisování PDF dokumentů

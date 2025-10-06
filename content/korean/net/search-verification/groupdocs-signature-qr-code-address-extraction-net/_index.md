@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 주소 데이터가 포함된 QR 코드 서명 추출 | 디지털 서명 자동화"
 "url": "/ko/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 주소 데이터가 포함된 QR 코드 서명 추출
 
 ## 소개

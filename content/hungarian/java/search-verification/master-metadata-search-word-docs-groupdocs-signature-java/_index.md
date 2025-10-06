@@ -4,8 +4,8 @@
 "title": "Fő metaadatok keresése Word-dokumentumokban a GroupDocs.Signature for Java segítségével"
 "url": "/hu/java/search-verification/master-metadata-search-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Metaadat-keresés elsajátítása Word-dokumentumokban a GroupDocs.Signature for Java használatával
 
 A metaadatok kinyerése Word-dokumentumokból egyszerűsíthető a hatékony GroupDocs.Signature könyvtárral. Ez az oktatóanyag végigvezet egy olyan funkció megvalósításán, amely metaadat-aláírásokat keres egy Word-dokumentumban Java használatával.

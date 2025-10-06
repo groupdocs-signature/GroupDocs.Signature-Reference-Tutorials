@@ -8,10 +8,8 @@ keywords:
 - sign PDF with image signature Java
 - digital signatures in Java
 - GroupDocs.Signature for Java
-
+type: docs
 ---
-
-
 # How to Sign a PDF Document with an Image Signature Using GroupDocs.Signature for Java
 
 ## Introduction

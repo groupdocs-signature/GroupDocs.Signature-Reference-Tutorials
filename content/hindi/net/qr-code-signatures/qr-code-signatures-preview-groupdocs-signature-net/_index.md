@@ -4,8 +4,8 @@
 "title": "GroupDocs के साथ QR कोड हस्ताक्षर पूर्वावलोकन..NET के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ QR कोड हस्ताक्षर पूर्वावलोकन लागू करना
 
 ## परिचय

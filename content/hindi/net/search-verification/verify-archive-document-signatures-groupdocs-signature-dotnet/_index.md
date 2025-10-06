@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके अभिलेखागार में दस्तावेज़ हस्ताक्षरों को कैसे सत्यापित करें"
 "url": "/hi/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ अभिलेखागार में दस्तावेज़ हस्ताक्षरों को कैसे सत्यापित करें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Effizientes Signieren und Konvertieren von Tabellenkalkulationen in PDF mit GroupDocs.Signature für .NET"
 "url": "/de/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Effizientes Signieren und Konvertieren von Tabellenkalkulationen in PDF mit GroupDocs.Signature für .NET
 
 ## Einführung

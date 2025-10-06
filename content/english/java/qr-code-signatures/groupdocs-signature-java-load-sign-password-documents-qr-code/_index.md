@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - load password-protected documents in Java
 - QR code signatures in Java
-
+type: docs
 ---
-
-
 # Load & Sign Password-Protected Docs with QR Code in Java
 
 ## How to Load and Sign a Password-Protected Document Using GroupDocs.Signature for Java

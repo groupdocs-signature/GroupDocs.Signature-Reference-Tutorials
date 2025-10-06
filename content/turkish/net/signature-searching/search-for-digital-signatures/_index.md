@@ -5,8 +5,8 @@
 "title": "Belgelerde Dijital İmzaları Arayın"
 "url": "/tr/net/signature-searching/search-for-digital-signatures/"
 "weight": 11
+type: docs
 ---
-
 ## giriiş
 
 Günümüzün dijital dünyasında, belge gerçekliğini ve bütünlüğünü sağlamak işletmeler ve kuruluşlar için kritik öneme sahiptir. Dijital imzalar, belge gerçekliğini doğrulamak ve yetkisiz değişiklikleri tespit etmek için güçlü bir mekanizma sağlar. GroupDocs.Signature for .NET, çeşitli belge biçimlerinde dijital imzalarla çalışmak için kapsamlı bir çözüm sunarak, geliştiricilerin imza işlevlerini .NET uygulamalarına sorunsuz bir şekilde entegre etmelerini sağlar.

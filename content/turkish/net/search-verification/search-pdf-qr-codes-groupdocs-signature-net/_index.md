@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak PDF'lerde QR Kod İmzaları Nasıl Aranır ve VCard Verileri Nasıl Çıkarılır"
 "url": "/tr/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Belge PDF'lerinde QR Kod İmzaları Nasıl Aranır ve VCard Verileri Nasıl Çıkarılır
 
 ## giriiş

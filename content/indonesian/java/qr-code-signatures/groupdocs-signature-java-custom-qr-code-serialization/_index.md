@@ -4,8 +4,8 @@
 "title": "Implementasi Serialisasi & Enkripsi Kode QR Kustom dalam PDF menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Serialisasi dan Enkripsi Kode QR Kustom dalam PDF Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

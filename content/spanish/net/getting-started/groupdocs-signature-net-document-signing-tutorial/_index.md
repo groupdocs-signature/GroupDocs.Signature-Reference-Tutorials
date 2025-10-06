@@ -4,8 +4,8 @@
 "title": "Cómo implementar la firma electrónica de documentos en .NET con GroupDocs.Signature&#58; una guía paso a paso"
 "url": "/es/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Cómo implementar la firma electrónica de documentos en .NET con GroupDocs.Signature: guía paso a paso
 
 ## Introducción

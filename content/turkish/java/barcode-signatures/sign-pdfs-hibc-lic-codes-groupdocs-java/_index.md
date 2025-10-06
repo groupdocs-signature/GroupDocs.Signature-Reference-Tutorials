@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak HIBC LIC Kodlarıyla PDF'leri Nasıl İmzalayabilirsiniz? Kapsamlı Bir Kılavuz"
 "url": "/tr/java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak HIBC LIC Kodlarıyla PDF'leri Nasıl İmzalayabilirsiniz: Kapsamlı Bir Kılavuz
 
 Hızla gelişen dijital dünyada, özellikle ilaç ve sağlık lojistiği sektörlerinde belge gerçekliğini sağlamak hayati önem taşımaktadır. Belgelerinize Yüksek Bilgi Barkodları (HIBC) kodlarını entegre ederek imzaları etkili bir şekilde güvence altına alabilir ve doğrulayabilirsiniz. Bu kılavuz, GroupDocs.Signature for Java'yı kullanarak PDF'leri HIBC LIC QR, Aztec ve Veri Matrisi kodlarıyla nasıl imzalayacağınızı gösterecektir.

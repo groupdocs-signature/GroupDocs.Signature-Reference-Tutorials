@@ -4,8 +4,8 @@
 "title": "Освоение подписывания документов с помощью GroupDocs.Signature для .NET&#58; подробное руководство"
 "url": "/ru/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Освоение подписывания документов с помощью GroupDocs.Signature для .NET
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "Υπογραφή εγγράφου εικόνας με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για .NET™ Ένας πλήρης οδηγός"
 "url": "/el/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Mastering Υπογραφή Εγγράφων Εικόνας με Μεταδεδομένα Χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

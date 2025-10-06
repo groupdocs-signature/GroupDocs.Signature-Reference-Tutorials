@@ -4,8 +4,8 @@
 "title": "Menguasai Penandatanganan Dokumen di .NET™ Barcode & QR Code Signature dengan GroupDocs.Signature"
 "url": "/id/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Penandatanganan Dokumen di .NET: Menerapkan Tanda Tangan Kode Batang dan Kode QR dengan GroupDocs.Signature
 
 ## Perkenalan

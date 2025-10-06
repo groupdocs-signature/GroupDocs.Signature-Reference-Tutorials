@@ -4,8 +4,8 @@
 "title": "PDF dokumentumok aláírása metaadatokkal a GroupDocs.Signature for .NET használatával | Átfogó útmutató"
 "url": "/hu/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentumok aláírása metaadatokkal a GroupDocs.Signature for .NET használatával
 
 A mai digitális világban a dokumentumok hatékony kezelése elengedhetetlen mind a vállalkozások, mind a magánszemélyek számára. A dokumentumok biztonságos aláírása és ellenőrzése kulcsfontosságúvá vált, különösen szerződések vagy hivatalos iratok kezelésekor. Ez az átfogó útmutató bemutatja, hogyan használható a GroupDocs.Signature for .NET PDF dokumentumok metaadat-aláírásokkal történő aláírására, javítva a dokumentumok integritását.

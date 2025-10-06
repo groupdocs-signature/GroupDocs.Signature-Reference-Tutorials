@@ -4,8 +4,8 @@
 "title": "Управление подписями изображений в документах с помощью GroupDocs.Signature для .NET&#58; подробное руководство"
 "url": "/ru/net/image-signatures/manage-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Управление подписями изображений в документах с помощью GroupDocs.Signature для .NET
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "วิธีการโหลดเอกสารตามประเภทไฟล์ใน GroupDocs.Signature สำหรับ .NET&#58; คู่มือฉบับสมบูรณ์"
 "url": "/th/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการโหลดเอกสารตามประเภทไฟล์ใน GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

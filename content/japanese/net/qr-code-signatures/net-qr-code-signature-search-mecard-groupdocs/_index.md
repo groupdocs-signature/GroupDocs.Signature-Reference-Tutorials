@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して MeCard で .NET QR コード署名検索を実装する"
 "url": "/ja/net/qr-code-signatures/net-qr-code-signature-search-mecard-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して MeCard で .NET QR コード署名検索を実装する
 
 ## 導入

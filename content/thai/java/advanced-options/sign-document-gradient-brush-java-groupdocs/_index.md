@@ -4,8 +4,8 @@
 "title": "ลงนามในเอกสารด้วย Gradient Brush ใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # ลงนามในเอกสารด้วย Gradient Brush ใน Java โดยใช้ GroupDocs.Signature
 
 ในยุคดิจิทัลปัจจุบัน การลงนามในเอกสารอย่างปลอดภัยเป็นสิ่งสำคัญอย่างยิ่งต่อประสิทธิภาพในทุกอุตสาหกรรม บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการลงนามในเอกสารแบบดิจิทัลด้วยเอฟเฟกต์แปรงไล่ระดับโดยใช้ **GroupDocs.Signature สำหรับ Java**-

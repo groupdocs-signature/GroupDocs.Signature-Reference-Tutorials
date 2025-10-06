@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات PDF بتوقيعات الصور باستخدام GroupDocs.Signature لـ Java - دليل خطوة بخطوة"
 "url": "/ar/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستند PDF باستخدام توقيع الصورة باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

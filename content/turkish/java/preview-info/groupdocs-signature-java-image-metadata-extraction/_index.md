@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kütüphanesini Kullanarak Java'da Ana Görüntü Meta Verisi Çıkarımı"
 "url": "/tr/java/preview-info/groupdocs-signature-java-image-metadata-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature'da Uzmanlaşma: Görüntü Meta Verisi Çıkarımı
 
 ## giriiş

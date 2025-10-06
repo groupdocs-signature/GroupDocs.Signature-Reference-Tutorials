@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature .NET 文档保护教程"
 "url": "/zh/net/document-protection/"
 "weight": 16
+type: docs
 ---
-
 # GroupDocs.Signature .NET 文档保护教程
 
 学习如何使用我们适用于 .NET 的 GroupDocs.Signature 保护教程来保护文档。这些全面的指南演示了如何处理受密码保护的文档、为输出文件添加密码保护、管理安全异常以及实施适当的错误处理。每个教程都提供了常见文档保护场景的实用 C# 代码示例，帮助您构建在整个签名过程中维护文档机密性和完整性的应用程序。

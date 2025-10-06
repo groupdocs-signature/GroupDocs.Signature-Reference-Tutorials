@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके .NET में मेटाडेटा और कस्टम एन्क्रिप्शन के साथ सुरक्षित दस्तावेज़ हस्ताक्षर में महारत हासिल करें"
 "url": "/hi/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET में मेटाडेटा और कस्टम एन्क्रिप्शन के साथ सुरक्षित दस्तावेज़ हस्ताक्षर में महारत हासिल करें
 
 ## परिचय

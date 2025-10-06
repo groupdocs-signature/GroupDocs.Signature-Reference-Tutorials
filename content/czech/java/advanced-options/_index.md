@@ -3,8 +3,8 @@
 "title": "Návody k pokročilým možnostem podpisu pro GroupDocs.Signature Java"
 "url": "/cs/java/advanced-options/"
 "weight": 14
+type: docs
 ---
-
 # Návody k pokročilým možnostem podpisu pro GroupDocs.Signature Java
 
 Prozkoumejte pokročilé možnosti podepisování s našimi komplexními tutoriály GroupDocs.Signature pro vývojáře v Javě. Tyto podrobné průvodce pokrývají implementaci vlastního šifrování, specializované serializace, komplexního nastavení vzhledu, vlastních štětců a přechodů, umisťování s různými měrnými jednotkami, možností zarovnání a režimů roztažení. Každý tutoriál poskytuje funkční příklady kódu Java pro sofistikované funkce podepisování a pomáhá vám vytvářet řešení pro dokumenty, která plně využívají pokročilé funkce GroupDocs.Signature pro vysoce přizpůsobené a bezpečné implementace podepisování dokumentů.

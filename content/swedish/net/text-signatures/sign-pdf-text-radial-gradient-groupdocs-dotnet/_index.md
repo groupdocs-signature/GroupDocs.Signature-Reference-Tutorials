@@ -4,8 +4,8 @@
 "title": "Hur man signerar PDF-filer med textsignatur och radiell gradient i .NET med GroupDocs.Signature"
 "url": "/sv/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar PDF-filer med textsignatur och radiell gradient i .NET med GroupDocs.Signature
 
 ## Introduktion

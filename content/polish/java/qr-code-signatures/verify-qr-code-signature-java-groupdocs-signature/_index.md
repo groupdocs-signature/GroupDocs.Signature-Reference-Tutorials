@@ -4,8 +4,8 @@
 "title": "Weryfikacja podpisu kodu QR w Javie za pomocą GroupDocs.Signature™ – kompleksowy przewodnik"
 "url": "/pl/java/qr-code-signatures/verify-qr-code-signature-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Weryfikacja podpisu kodu QR w Javie za pomocą GroupDocs.Signature
 
 ## Wstęp

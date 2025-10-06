@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Excel'de Dijital İmzalar Nasıl Uygulanır?"
 "url": "/tr/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Bir Elektronik Tabloda Dijital İmza Nasıl Uygulanır?
 
 ## giriiş

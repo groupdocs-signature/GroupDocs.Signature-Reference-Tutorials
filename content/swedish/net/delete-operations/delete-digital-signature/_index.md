@@ -5,8 +5,8 @@
 "title": "Så här tar du bort digitala signaturer från dokument i .NET"
 "url": "/sv/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # Så här tar du bort digitala signaturer från dina dokument med GroupDocs.Signature
 
 ## Varför hantering av digitala signaturer är viktigt

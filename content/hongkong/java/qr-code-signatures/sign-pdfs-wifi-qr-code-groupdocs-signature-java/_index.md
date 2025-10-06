@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 為 PDF 檔案簽署 WiFi 二維碼"
 "url": "/zh-hant/java/qr-code-signatures/sign-pdfs-wifi-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 為 PDF 檔案簽署 WiFi 二維碼
 
 ## 介紹

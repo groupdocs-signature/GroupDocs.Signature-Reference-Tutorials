@@ -4,8 +4,8 @@
 "title": "Hur man signerar PDF-filer med formulärfältsignatur i C# med GroupDocs.Signature för .NET"
 "url": "/sv/net/form-field-signatures/sign-pdf-form-field-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar ett PDF-dokument med hjälp av formulärfältsignatur med GroupDocs.Signature för .NET
 
 ## Introduktion

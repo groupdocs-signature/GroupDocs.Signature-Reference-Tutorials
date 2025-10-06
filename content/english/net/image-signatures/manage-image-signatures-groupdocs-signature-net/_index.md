@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["groupdocs", "digital-signatures", "dotnet", "image-signatures", "document-automation"]
+type: docs
 ---
-
 # Add Image Signature to Document .NET - Complete GroupDocs Tutorial
 
 ## Introduction

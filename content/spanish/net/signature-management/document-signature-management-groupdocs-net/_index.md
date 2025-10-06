@@ -4,8 +4,8 @@
 "title": "Gestión eficiente de firmas de documentos&#58; búsqueda de firmas en campos de formulario con GroupDocs.Signature para .NET"
 "url": "/es/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Gestión eficiente de firmas de documentos con GroupDocs.Signature para .NET
 
 ## Introducción

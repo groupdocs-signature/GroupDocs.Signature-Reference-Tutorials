@@ -4,8 +4,8 @@
 "title": "Dokumentumok betöltése fájltípus szerint a GroupDocs.Signature for .NET alkalmazásban – Átfogó útmutató"
 "url": "/hu/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumok betöltése fájltípus szerint a GroupDocs.Signature for .NET fájlban
 
 ## Bevezetés

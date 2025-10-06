@@ -5,8 +5,8 @@
 "title": "Operazioni complete di anteprima e gestione dei documenti"
 "url": "/it/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # Operazioni di anteprima del documento
 
 ## Introduzione

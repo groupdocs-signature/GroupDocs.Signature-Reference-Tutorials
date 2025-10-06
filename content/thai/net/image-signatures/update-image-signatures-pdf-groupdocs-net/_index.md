@@ -4,8 +4,8 @@
 "title": "วิธีอัปเดตลายเซ็นภาพใน PDF โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/image-signatures/update-image-signatures-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีอัปเดตลายเซ็นภาพใน PDF โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

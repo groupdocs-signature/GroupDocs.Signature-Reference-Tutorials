@@ -4,8 +4,8 @@
 "title": "Implementacja podpisu tekstowego w obsłudze zdarzeń Java za pomocą GroupDocs.Signature"
 "url": "/pl/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja podpisu tekstowego z obsługą zdarzeń przy użyciu GroupDocs.Signature dla języka Java
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Wdrażanie niestandardowej serializacji i szyfrowania kodu QR w plikach PDF przy użyciu GroupDocs.Signature dla Java"
 "url": "/pl/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć niestandardową serializację i szyfrowanie kodu QR w plikach PDF za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

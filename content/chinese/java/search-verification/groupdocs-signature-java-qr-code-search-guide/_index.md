@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 实现二维码签名搜索"
 "url": "/zh/java/search-verification/groupdocs-signature-java-qr-code-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 实现二维码签名搜索
 
 在当今的数字环境中，有效验证电子签名对于各个行业都至关重要。 **GroupDocs.Signature for Java** 提供了一个强大的解决方案，尤其适用于搜索和管理文档中的二维码签名。本教程将指导您使用 Java 中的 GroupDocs.Signature 实现二维码签名搜索。

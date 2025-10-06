@@ -4,8 +4,8 @@
 "title": "Φόρτωση εγγράφων από διακομιστή FTP με το GroupDocs.Signature για Java"
 "url": "/el/java/document-loading-saving/load-documents-from-ftp-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Φόρτωση εγγράφων από διακομιστή FTP χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

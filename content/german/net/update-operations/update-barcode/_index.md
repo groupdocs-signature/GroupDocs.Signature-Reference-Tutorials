@@ -5,8 +5,8 @@
 "title": "Barcode-Signaturen in Dokumenten aktualisieren"
 "url": "/de/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Einführung
 Barcode-Signaturen werden in digitalen Dokumenten-Workflows häufig verwendet, um strukturierte Daten zu kodieren und so eine effiziente Nachverfolgung, Identifizierung und Validierung zu ermöglichen. GroupDocs.Signature für .NET ist eine umfassende Lösung zur Dokumentensignatur, die Entwicklern die Integration erweiterter Signaturfunktionen in ihre Anwendungen ermöglicht, einschließlich der Möglichkeit, vorhandene Barcode-Signaturen in Dokumenten zu aktualisieren.
 

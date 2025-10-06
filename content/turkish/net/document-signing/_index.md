@@ -5,8 +5,8 @@
 "title": ".NET'te Meta Verilerle Belge İmzalama"
 "url": "/tr/net/document-signing/"
 "weight": 24
+type: docs
 ---
-
 ## giriiş
 
 Günümüzün dijital dünyasında, belge gerçekliğini, kaynak takibini ve bütünlüğünü sağlamak işletmeler ve kuruluşlar için vazgeçilmez hale gelmiştir. Meta veri imzaları, tanımlayıcı bilgileri doğrudan belge dosyalarına yerleştirmenin güçlü ancak göze batmayan bir yolunu sunarak, görsel görünümlerini değiştirmeden güvenliği artırır.

@@ -4,8 +4,8 @@
 "title": "Panduan Lengkap GroupDocs.Signature untuk Menyiapkan Tanda Tangan Digital Java"
 "url": "/id/java/getting-started/groupdocs-signature-java-digital-setup-guide/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Pengaturan Tanda Tangan Digital Java dengan GroupDocs.Signature: Panduan Pengembang
 
 Di era digital saat ini, memastikan keaslian dan integritas dokumen sangatlah penting. Tanda tangan digital menyediakan cara yang aman untuk memverifikasi bahwa dokumen belum diubah sejak ditandatangani. Panduan lengkap ini akan memandu Anda dalam menyiapkan dan menerapkan opsi tanda tangan digital menggunakan pustaka GroupDocs.Signature yang canggih untuk Java.

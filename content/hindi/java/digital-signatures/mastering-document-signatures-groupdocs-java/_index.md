@@ -4,8 +4,8 @@
 "title": "जावा के लिए ग्रुपडॉक्स के साथ डिजिटल दस्तावेज़ हस्ताक्षर में महारत हासिल करना - एक व्यापक गाइड"
 "url": "/hi/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs के साथ डिजिटल दस्तावेज़ हस्ताक्षर में महारत हासिल करना
 
 ## परिचय

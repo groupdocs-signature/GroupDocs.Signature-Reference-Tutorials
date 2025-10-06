@@ -4,8 +4,8 @@
 "title": "Implémenter la signature du champ de formulaire de bouton radio Java avec GroupDocs.Signature"
 "url": "/fr/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implémenter la signature du champ de formulaire de bouton radio Java avec GroupDocs.Signature
 
 ## Introduction

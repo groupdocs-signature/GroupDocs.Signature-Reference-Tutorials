@@ -4,8 +4,8 @@
 "title": "Cómo implementar la búsqueda de metadatos en .NET con GroupDocs.Signature&#58; una guía paso a paso"
 "url": "/es/net/metadata-signatures/implement-metadata-search-net-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # Cómo implementar la búsqueda de metadatos en .NET con GroupDocs.Signature: guía paso a paso
 
 ## Introducción

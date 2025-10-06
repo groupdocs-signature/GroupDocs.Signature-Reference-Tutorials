@@ -4,8 +4,8 @@
 "title": "Κύρια αναζήτηση ψηφιακής υπογραφής σε PDF χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με τις αναζητήσεις ψηφιακής υπογραφής σε PDF χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

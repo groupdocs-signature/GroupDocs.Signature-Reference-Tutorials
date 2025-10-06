@@ -3,8 +3,8 @@
 "title": "Tutoriales de firmas múltiples para GroupDocs.Signature Java"
 "url": "/es/java/multiple-signatures/"
 "weight": 10
+type: docs
 ---
-
 # Tutoriales de firmas múltiples para GroupDocs.Signature Java
 
 Aprenda a crear flujos de trabajo de firma sofisticados con nuestros tutoriales de GroupDocs.Signature para múltiples firmas en Java. Estas completas guías muestran cómo combinar diferentes tipos de firma en un solo proceso, implementar secuencias de firma ordenadas, gestionar configuraciones de firma complejas y trabajar con documentos de varias páginas. Cada tutorial proporciona ejemplos detallados de código Java para escenarios de firma avanzados, lo que le ayudará a crear aplicaciones robustas de procesamiento de documentos que satisfagan los requisitos de firma complejos para casos de uso empresarial y legal.

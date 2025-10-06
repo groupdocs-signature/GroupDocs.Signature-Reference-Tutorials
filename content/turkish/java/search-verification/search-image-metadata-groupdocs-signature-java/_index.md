@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Görüntü Meta Verilerini Arama - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/search-verification/search-image-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature ile Görüntü Meta Verilerini Arama
 
 ## giriiş

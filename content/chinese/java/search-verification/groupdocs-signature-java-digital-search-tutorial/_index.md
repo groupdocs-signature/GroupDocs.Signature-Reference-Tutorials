@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 掌握 Java 中的数字签名搜索——综合指南"
 "url": "/zh/java/search-verification/groupdocs-signature-java-digital-search-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 掌握数字签名搜索
 
 ## 介绍

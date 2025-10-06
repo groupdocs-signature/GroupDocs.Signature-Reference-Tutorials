@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 디지털 서명 로딩 및 서명을 구현하는 방법"
 "url": "/ko/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 디지털 서명 로딩 및 서명을 구현하는 방법
 
 ## 소개

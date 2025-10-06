@@ -5,8 +5,8 @@
 "title": ".NET Belgelerine Güvenli Barkod İmzaları Ekleme | Tam Kılavuz"
 "url": "/tr/net/advanced-signature-techniques/sign-with-barcode/"
 "weight": 11
+type: docs
 ---
-
 ## Barkod İmzaları Belge Güvenliğinizi Nasıl Artırabilir?
 
 Günümüzün dijital dünyasında, belge güvenliği sadece güzel bir özellik değil, aynı zamanda olmazsa olmazdır. Barkod imzaları, önemli dosyalarınızı doğrulamak ve güvence altına almak için benzersiz bir yol sunar. GroupDocs.Signature for .NET ile bu güçlü güvenlik özelliklerini uygulamak şaşırtıcı derecede kolaydır.

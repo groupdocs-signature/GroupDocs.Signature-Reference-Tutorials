@@ -4,8 +4,8 @@
 "title": "دليل توقيع المستندات باستخدام XAdES باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/digital-signatures/sign-documents-xades-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # دليل توقيع المستندات باستخدام XAdES باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

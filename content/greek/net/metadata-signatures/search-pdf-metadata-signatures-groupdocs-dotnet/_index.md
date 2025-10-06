@@ -4,8 +4,8 @@
 "title": "Αναζήτηση και εξαγωγή υπογραφών μεταδεδομένων PDF χρησιμοποιώντας GroupDocs σε .NET"
 "url": "/el/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Αναζήτηση και εξαγωγή υπογραφών μεταδεδομένων PDF χρησιμοποιώντας GroupDocs σε .NET
 
 ## Εισαγωγή

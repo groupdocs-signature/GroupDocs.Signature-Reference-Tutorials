@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 從檔案中擷取數位憑證 | 逐步指南"
 "url": "/zh-hant/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 從檔案中擷取數位憑證
 
 ## 介紹

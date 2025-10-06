@@ -9,8 +9,8 @@ weight: 1
 url: "/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 categories: ["Document Security"]
 tags: ["barcode-verification", "java-security", "zip-archives", "groupdocs"]
+type: docs
 ---
-
 # Barcode Verification in Java ZIP Files
 
 ## Introduction

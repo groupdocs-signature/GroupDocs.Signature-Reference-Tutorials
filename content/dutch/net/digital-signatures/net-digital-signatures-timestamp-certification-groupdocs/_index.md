@@ -4,8 +4,8 @@
 "title": "Hoe u digitale .NET-handtekeningen met tijdstempel en certificering implementeert met GroupDocs.Signature voor .NET"
 "url": "/nl/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u digitale .NET-handtekeningen met tijdstempel en certificering implementeert met GroupDocs.Signature voor .NET
 
 ## Invoering

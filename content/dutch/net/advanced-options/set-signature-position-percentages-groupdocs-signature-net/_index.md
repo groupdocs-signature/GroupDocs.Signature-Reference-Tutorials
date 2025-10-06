@@ -4,8 +4,8 @@
 "title": "Handtekeningpositie instellen met behulp van percentages in GroupDocs.Signature voor .NET | Geavanceerde tutorial"
 "url": "/nl/net/advanced-options/set-signature-position-percentages-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Handtekeningpositie instellen met behulp van percentages in GroupDocs.Signature voor .NET
 ## Invoering
 In het huidige digitale tijdperk zijn efficiënt documentbeheer en automatisering essentieel. Het programmatisch toevoegen van handtekeningen aan documenten met behoud van een nauwkeurige plaatsing is een veelvoorkomende uitdaging. Deze geavanceerde tutorial begeleidt u bij het instellen van de positie van een handtekening met behulp van percentages met GroupDocs.Signature voor .NET.

@@ -4,8 +4,8 @@
 "title": "Master Secure Document Signing with Metadata and Custom Encryption in .NET using GroupDocs.Signature"
 "url": "/el/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Master Secure Document Signing with Metadata and Custom Encryption in .NET
 
 ## Εισαγωγή

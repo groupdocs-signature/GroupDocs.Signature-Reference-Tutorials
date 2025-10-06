@@ -4,8 +4,8 @@
 "title": "การจัดการข้อยกเว้นรหัสผ่านใน GroupDocs.Signature สำหรับ .NET&#58; คู่มือฉบับสมบูรณ์"
 "url": "/th/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # การจัดการข้อยกเว้นรหัสผ่านใน GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

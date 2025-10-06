@@ -4,8 +4,8 @@
 "title": "保护您的文档 &#58; 使用 GroupDocs.Signature 在 Java 中实现二维码签名"
 "url": "/zh/java/qr-code-signatures/qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 保护您的文档：使用 GroupDocs.Signature 在 Java 中实现二维码签名
 
 在当今的数字环境中，确保合同、发票或敏感个人信息等文档的安全至关重要。增强文档安全性并简化验证流程的一种创新方法是使用二维码签名。本教程将指导您使用 GroupDocs.Signature 在 Java 中为文档实现和验证二维码签名。

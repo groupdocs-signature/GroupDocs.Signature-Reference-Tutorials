@@ -4,8 +4,8 @@
 "title": "Aktualizace podpisů QR kódů v PDF pomocí komplexního průvodce GroupDocs.Signature pro Javu"
 "url": "/cs/java/qr-code-signatures/update-qr-code-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Aktualizace podpisů QR kódů v PDF pomocí GroupDocs.Signature pro Javu: Komplexní průvodce
 
 ## Zavedení

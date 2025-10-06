@@ -4,8 +4,8 @@
 "title": "PDF aláíráskezelés elsajátítása Java nyelven a GroupDocs.Signature használatával"
 "url": "/hu/java/signature-management/java-groupdocs-signature-pdf-manage-sig/"
 "weight": 1
+type: docs
 ---
-
 # PDF aláíráskezelés elsajátítása Java nyelven a GroupDocs.Signature segítségével
 
 ## Bevezetés

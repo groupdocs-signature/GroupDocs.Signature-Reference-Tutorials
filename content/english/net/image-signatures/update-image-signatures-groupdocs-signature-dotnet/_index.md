@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["groupdocs", "signatures", "dotnet", "image-signatures", "document-management"]
+type: docs
 ---
-
 # How to Update Image Signatures in .NET Documents
 
 ## Why You'd Need to Update Image Signatures (And How to Do It Right)

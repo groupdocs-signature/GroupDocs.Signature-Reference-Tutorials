@@ -4,8 +4,8 @@
 "title": "Làm chủ chữ ký PDF Java & Chữ ký nhãn dán văn bản với GroupDocs.Signature cho Java"
 "url": "/vi/java/digital-signatures/java-pdf-signing-groupdocs-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký PDF Java: Tạo giao diện nhãn dán văn bản với GroupDocs.Signature
 
 Trong thời đại kỹ thuật số ngày nay, việc ký tài liệu điện tử là vô cùng cần thiết. Cho dù bạn là chuyên gia kinh doanh hay cá nhân quản lý hợp đồng và thỏa thuận, chữ ký an toàn và đẹp mắt là vô cùng quan trọng. Hướng dẫn này sẽ hướng dẫn bạn quy trình ký tài liệu PDF bằng cách sử dụng nhãn dán văn bản với GroupDocs.Signature for Java. Việc thành thạo kỹ năng này sẽ giúp đơn giản hóa quy trình làm việc của tài liệu và cho phép bạn trình bày các tài liệu được ký một cách chuyên nghiệp theo một định dạng độc đáo.

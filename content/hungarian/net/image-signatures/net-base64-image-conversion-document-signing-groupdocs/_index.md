@@ -4,8 +4,8 @@
 "title": ".NET Base64 képfájl-konvertálás és dokumentumaláírás a GroupDocs.Signature segítségével"
 "url": "/hu/net/image-signatures/net-base64-image-conversion-document-signing-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET Base64 képfájl-konverzió és dokumentum-aláírás megvalósítása GroupDocs.Signature használatával
 
 ## Bevezetés

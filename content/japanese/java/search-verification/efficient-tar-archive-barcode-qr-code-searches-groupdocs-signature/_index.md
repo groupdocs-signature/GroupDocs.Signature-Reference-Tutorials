@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for JavaでTARアーカイブのバーコードとQRコード検索をマスター"
 "url": "/ja/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java で TAR アーカイブのバーコードと QR コードの検索をマスターする
 
 ## 導入

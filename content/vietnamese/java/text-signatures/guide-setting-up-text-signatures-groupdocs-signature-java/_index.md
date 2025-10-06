@@ -4,8 +4,8 @@
 "title": "Hướng dẫn toàn diện về cách thiết lập chữ ký văn bản với GroupDocs.Signature cho Java"
 "url": "/vi/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn toàn diện về cách thiết lập chữ ký văn bản với GroupDocs.Signature cho Java
 
 ## Giới thiệu

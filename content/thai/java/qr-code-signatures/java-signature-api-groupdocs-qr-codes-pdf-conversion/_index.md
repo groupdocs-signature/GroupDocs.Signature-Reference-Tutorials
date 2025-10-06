@@ -4,8 +4,8 @@
 "title": "ใช้งานการลงนาม QR Code และการแปลง PDF ใน Java โดยใช้ GroupDocs.Signature API"
 "url": "/th/java/qr-code-signatures/java-signature-api-groupdocs-qr-codes-pdf-conversion/"
 "weight": 1
+type: docs
 ---
-
 # ใช้งานการลงนาม QR Code และการแปลง PDF ใน Java โดยใช้ GroupDocs.Signature API
 
 ## การแนะนำ

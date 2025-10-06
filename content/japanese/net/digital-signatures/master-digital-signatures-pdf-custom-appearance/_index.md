@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して PDF のデジタル署名をカスタマイズする"
 "url": "/ja/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して PDF のデジタル署名をカスタマイズする
 
 ## 導入

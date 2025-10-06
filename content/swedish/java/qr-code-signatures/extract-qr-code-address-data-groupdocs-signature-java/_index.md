@@ -4,8 +4,8 @@
 "title": "Extrahera QR-kodadressdata med GroupDocs.Signature för Java – en omfattande guide"
 "url": "/sv/java/qr-code-signatures/extract-qr-code-address-data-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man extraherar QR-kodadressdata med GroupDocs.Signature för Java
 
 ## Introduktion

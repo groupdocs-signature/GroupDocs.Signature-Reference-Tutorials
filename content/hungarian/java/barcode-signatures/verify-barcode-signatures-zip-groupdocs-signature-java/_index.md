@@ -4,8 +4,8 @@
 "title": "Vonalkód-aláírások ellenőrzése ZIP fájlokban a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Vonalkód-aláírások ellenőrzése ZIP fájlokban a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

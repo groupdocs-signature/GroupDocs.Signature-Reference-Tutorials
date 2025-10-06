@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng mã HIBC LIC sử dụng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF bằng mã HIBC LIC bằng GroupDocs.Signature cho Java: Hướng dẫn toàn diện
 
 Trong bối cảnh kỹ thuật số đang phát triển nhanh chóng, việc đảm bảo tính xác thực của tài liệu là vô cùng quan trọng, đặc biệt là trong lĩnh vực hậu cần dược phẩm và chăm sóc sức khỏe. Bằng cách tích hợp mã vạch thông tin cao (HIBC) vào tài liệu, bạn có thể bảo mật và xác minh chữ ký một cách hiệu quả. Hướng dẫn này sẽ chỉ cho bạn cách sử dụng GroupDocs.Signature for Java để ký PDF bằng mã HIBC LIC QR, Aztec và Data Matrix.

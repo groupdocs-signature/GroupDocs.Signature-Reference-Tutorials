@@ -5,8 +5,8 @@
 "title": "Cara Menandatangani Dokumen dengan Kode QR Menggunakan GroupDocs.Signature"
 "url": "/id/net/advanced-signature-techniques/sign-with-qr-code/"
 "weight": 15
+type: docs
 ---
-
 # Menambahkan Tanda Tangan Kode QR ke Dokumen dengan GroupDocs.Signature
 
 Pernahkah Anda bertanya-tanya bagaimana cara menambahkan lapisan keamanan dan autentikasi ekstra ke dokumen digital Anda? Tanda tangan kode QR mungkin yang Anda cari. Dalam panduan praktis ini, kami akan memandu Anda melalui seluruh proses penerapan tanda tangan kode QR menggunakan GroupDocs.Signature untuk .NET.

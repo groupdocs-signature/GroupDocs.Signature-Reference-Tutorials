@@ -4,8 +4,8 @@
 "title": "QR-kód aláírások frissítése .NET dokumentumokban a GroupDocs.Signature használatával"
 "url": "/hu/net/qr-code-signatures/update-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírások frissítése .NET dokumentumokban a GroupDocs.Signature használatával
 
 ## Bevezetés

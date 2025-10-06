@@ -4,8 +4,8 @@
 "title": "Полное руководство по настройке текстовых подписей с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Полное руководство по настройке текстовых подписей с помощью GroupDocs.Signature для Java
 
 ## Введение

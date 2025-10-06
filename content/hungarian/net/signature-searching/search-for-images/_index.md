@@ -5,8 +5,8 @@
 "title": "Képaláírások keresése dokumentumokban"
 "url": "/hu/net/signature-searching/search-for-images/"
 "weight": 13
+type: docs
 ---
-
 ## Bevezetés
 
 mai digitális dokumentum-ökoszisztémában a képes aláírások hatékony vizuális jelölőkként szolgálnak a márkaépítéshez, az engedélyezéshez és a dokumentumok érvényesítéséhez. A GroupDocs.Signature for .NET átfogó keretrendszert biztosít a fejlesztők számára, hogy zökkenőmentesen kereshessenek, azonosíthassanak és feldolgozhassanak képaláírásokat különböző formátumú dokumentumokban. Ez a képesség elengedhetetlen azokhoz az alkalmazásokhoz, amelyek dokumentum-ellenőrzést, tartalomelemzést vagy aláírt dokumentumok automatizált feldolgozását igénylik.

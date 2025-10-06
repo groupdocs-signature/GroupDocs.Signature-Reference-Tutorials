@@ -4,8 +4,8 @@
 "title": "सुरक्षित दस्तावेज़ सत्यापन के लिए GroupDocs.Signature के साथ जावा बारकोड और QR कोड खोज गाइड"
 "url": "/hi/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ बारकोड, QR कोड और मेटाडेटा हस्ताक्षर खोजों के लिए जावा का कार्यान्वयन
 
 ## परिचय

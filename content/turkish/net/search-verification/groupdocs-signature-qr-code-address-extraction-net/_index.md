@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak Adres Verileriyle QR Kod İmzalarını Çıkarma | Dijital İmza Otomasyonu"
 "url": "/tr/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak Adres Verileriyle QR Kod İmzalarını Çıkarma
 
 ## giriiş

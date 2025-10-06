@@ -5,8 +5,8 @@
 "title": "Document handtekening update bewerkingen"
 "url": "/nl/net/update-operations/"
 "weight": 26
+type: docs
 ---
-
 ## Invoering
 
 In de huidige digitale zakelijke omgeving is het onderhouden van up-to-date documenthandtekeningen cruciaal om de authenticiteit en veiligheid van documenten te waarborgen. GroupDocs.Signature voor .NET biedt een uitgebreide reeks tools voor het bijwerken van verschillende typen handtekeningen in uw documenten, zodat u de integriteit van uw documenten kunt behouden en tegelijkertijd kunt inspelen op veranderende zakelijke behoeften.

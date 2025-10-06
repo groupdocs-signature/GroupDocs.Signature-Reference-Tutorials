@@ -9,8 +9,8 @@ weight: 1
 url: "/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 categories: ["Document Processing"]
 tags: ["GroupDocs.Signature", "PDF Processing", "C#", ".NET", "Document Preview"]
+type: docs
 ---
-
 # PDF Page Preview .NET: Generate Thumbnails with GroupDocs.Signature
 
 ## Introduction

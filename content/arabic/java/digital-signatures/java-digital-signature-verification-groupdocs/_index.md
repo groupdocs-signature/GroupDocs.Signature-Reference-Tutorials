@@ -4,8 +4,8 @@
 "title": "التحقق من التوقيع الرقمي في جافا باستخدام GroupDocs.Signature - دليل خطوة بخطوة"
 "url": "/ar/java/digital-signatures/java-digital-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # دليل شامل لتطبيق التحقق من التوقيع الرقمي في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

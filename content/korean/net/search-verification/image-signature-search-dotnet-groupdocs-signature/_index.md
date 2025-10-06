@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용한 .NET에서의 이미지 서명 검색 - 포괄적인 가이드"
 "url": "/ko/net/search-verification/image-signature-search-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 이미지 서명 검색을 구현하는 포괄적인 가이드
 
 ## 소개

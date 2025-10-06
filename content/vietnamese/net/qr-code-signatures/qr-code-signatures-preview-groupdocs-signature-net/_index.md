@@ -4,8 +4,8 @@
 "title": "Xem trước chữ ký mã QR với GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai bản xem trước chữ ký mã QR với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

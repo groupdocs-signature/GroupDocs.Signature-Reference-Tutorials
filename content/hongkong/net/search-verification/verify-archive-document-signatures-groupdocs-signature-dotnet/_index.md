@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 驗證檔案中的文件簽名"
 "url": "/zh-hant/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 驗證檔案中的文件簽名
 
 ## 介紹

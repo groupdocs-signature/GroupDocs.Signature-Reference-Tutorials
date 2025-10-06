@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 实现高效的 Java 条形码签名管理"
 "url": "/zh/java/barcode-signatures/java-barcode-signature-management-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 实现高效的 Java 条形码签名管理
 
 在数字时代，高效管理电子签名对企业和个人都至关重要。无论您是验证协议还是保护文档，使用合适的工具都能显著提高工作效率。 **GroupDocs.Signature for Java** 是一个功能强大的库，旨在简化这些流程。本教程将指导您初始化签名对象、搜索条形码签名以及从文档中删除它们。

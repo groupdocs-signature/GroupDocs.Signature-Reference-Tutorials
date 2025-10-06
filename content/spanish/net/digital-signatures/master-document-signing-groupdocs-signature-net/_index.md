@@ -4,8 +4,8 @@
 "title": "Firma y verificación de documentos maestros con GroupDocs.Signature para .NET"
 "url": "/es/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Firma y verificación de documentos maestros con GroupDocs.Signature para .NET
 
 ## Cómo dominar la firma y verificación de documentos con GroupDocs.Signature para .NET

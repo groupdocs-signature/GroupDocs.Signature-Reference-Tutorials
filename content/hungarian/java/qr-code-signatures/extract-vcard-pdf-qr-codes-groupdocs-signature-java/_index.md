@@ -4,8 +4,8 @@
 "title": "VCard kinyerése PDF QR-kódokból a GroupDocs.Signature for Java használatával – Átfogó útmutató"
 "url": "/hu/java/qr-code-signatures/extract-vcard-pdf-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # VCard adatok kinyerése PDF QR-kódokból a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

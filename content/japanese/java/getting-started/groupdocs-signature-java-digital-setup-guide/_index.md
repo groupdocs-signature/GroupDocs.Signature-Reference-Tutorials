@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature™ Javaデジタル署名の設定に関する包括的なガイド"
 "url": "/ja/java/getting-started/groupdocs-signature-java-digital-setup-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した Java デジタル署名設定の実装: 開発者ガイド
 
 今日のデジタル時代において、文書の真正性と完全性を確保することは極めて重要です。デジタル署名は、文書が署名後に改ざんされていないことを安全に検証する手段を提供します。この包括的なガイドでは、Java用の強力なGroupDocs.Signatureライブラリを使用して、デジタル署名オプションの設定と実装を段階的に説明します。

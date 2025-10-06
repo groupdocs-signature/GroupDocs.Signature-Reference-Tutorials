@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して QR コードで Word 文書に安全に署名する方法"
 "url": "/ja/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して QR コードで Word 文書に安全に署名する方法
 
 今日のデジタル世界において、文書への安全な署名は、企業にとっても個人にとっても不可欠です。契約書、法的合意書、公式文書など、文書の真正性を確保することは何よりも重要です。電子署名により、このプロセスを効率化し、セキュリティと利便性をさらに高めることができます。GroupDocs.Signature for Javaは、最新かつ安全なデジタル署名であるQRコードを使用してWord文書に署名できる強力なソリューションを提供します。

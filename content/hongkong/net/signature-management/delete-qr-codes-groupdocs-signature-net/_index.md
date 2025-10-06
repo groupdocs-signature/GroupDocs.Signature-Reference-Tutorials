@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 從文件中有效刪除二維碼"
 "url": "/zh-hant/net/signature-management/delete-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 有效率地從文件中刪除二維碼
 
 ## 介紹

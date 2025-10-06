@@ -4,8 +4,8 @@
 "title": "So implementieren Sie Textsignaturen in PDFs mit GroupDocs.Signature für Java – Eine vollständige Anleitung"
 "url": "/de/java/text-signatures/groupdocs-signature-java-text-signatures-pdf/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie Textsignaturen in PDFs mit GroupDocs.Signature für Java
 
 **Rationalisierung von Dokumenten-Workflows: Ein umfassender Leitfaden zum Suchen und Verwalten von Textsignaturen in PDFs mit GroupDocs.Signature für Java**

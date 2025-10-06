@@ -3,8 +3,8 @@
 "title": "Tutoriais de assinatura de código de barras para GroupDocs.Signature .NET"
 "url": "/pt/net/barcode-signatures/"
 "weight": 4
+type: docs
 ---
-
 # Tutoriais de assinatura de código de barras para GroupDocs.Signature .NET
 
 Nossos tutoriais de assinaturas de código de barras fornecem orientações detalhadas para a implementação de assinaturas baseadas em código de barras em seus aplicativos .NET. Siga estes guias práticos para aprender a assinar documentos com vários tipos de código de barras, personalizar a aparência do código de barras, pesquisar códigos de barras em documentos existentes, atualizar ou excluir assinaturas de código de barras e verificar o conteúdo do código de barras. Estes tutoriais incluem exemplos completos de código C# para operações comuns de código de barras, ajudando você a criar aplicativos que podem codificar e verificar informações em documentos com segurança por meio da tecnologia de código de barras.

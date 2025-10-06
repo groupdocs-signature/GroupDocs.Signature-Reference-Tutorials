@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 为 PDF 签名条形码——完整指南"
 "url": "/zh/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 对 PDF 文档进行条形码签名
 
 在当今的数字环境中，确保文档的真实性和完整性至关重要。无论您是商务人士还是从事文档管理系统的开发人员，对文档进行数字签名都能提升安全性和信任度。借助 GroupDocs.Signature for .NET，使用条形码对 PDF 进行签名变得轻而易举——这项功能功能强大，可增强文档验证流程。在本指南中，我们将向您展示如何在应用程序中实现条形码签名。

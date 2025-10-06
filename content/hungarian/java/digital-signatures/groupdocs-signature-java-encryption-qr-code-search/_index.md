@@ -4,8 +4,8 @@
 "title": "Biztonságos digitális aláírások Java-ban&#58; GroupDocs.Signature titkosítás és QR-kód keresési útmutató"
 "url": "/hu/java/digital-signatures/groupdocs-signature-java-encryption-qr-code-search/"
 "weight": 1
+type: docs
 ---
-
 # Biztonságos digitális aláírások Java-ban a GroupDocs.Signature használatával
 ## Bevezetés
 A mai digitális világban a dokumentumok védelme kiemelkedő fontosságú. Akár bizalmas üzleti szerződéseket, akár személyes feljegyzéseket kezel, a robusztus titkosítás és a hatékony keresési funkciók alkalmazása megvédheti adatait a jogosulatlan hozzáféréstől. Ez az útmutató végigvezeti Önt az egyéni titkosítás és a QR-kód aláírás keresési lehetőségeinek megvalósításán Java nyelven a GroupDocs.Signature használatával.

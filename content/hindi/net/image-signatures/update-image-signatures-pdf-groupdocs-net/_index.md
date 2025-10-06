@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके PDF में छवि हस्ताक्षर कैसे अपडेट करें"
 "url": "/hi/net/image-signatures/update-image-signatures-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके PDF में छवि हस्ताक्षर कैसे अपडेट करें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "كيفية تحديث توقيعات الصور في ملفات PDF باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/image-signatures/update-image-signatures-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تحديث توقيعات الصور في ملفات PDF باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

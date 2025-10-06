@@ -4,8 +4,8 @@
 "title": "Como excluir assinaturas de PDF por ID usando GroupDocs.Signature para .NET"
 "url": "/pt/net/signature-management/delete-pdf-signatures-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Como excluir assinaturas de PDF por ID usando GroupDocs.Signature para .NET
 
 ## Introdução

@@ -4,8 +4,8 @@
 "title": "A helytelen jelszókivételek kezelése a GroupDocs.Signature for .NET fájlban"
 "url": "/hu/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan kezeljük a helytelen jelszó-kivételeket a GroupDocs.Signature for .NET használatával?
 
 ## Bevezetés

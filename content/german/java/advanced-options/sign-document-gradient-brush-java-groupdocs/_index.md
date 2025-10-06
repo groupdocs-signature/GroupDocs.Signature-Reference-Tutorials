@@ -4,8 +4,8 @@
 "title": "Signieren Sie Dokumente mit dem Verlaufspinsel in Java mithilfe von GroupDocs.Signature"
 "url": "/de/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Signieren Sie Dokumente mit dem Verlaufspinsel in Java mithilfe von GroupDocs.Signature
 
 Im heutigen digitalen Zeitalter ist die sichere Unterzeichnung von Dokumenten für die Effizienz in allen Branchen unerlässlich. Dieses Tutorial führt Sie durch die digitale Unterzeichnung von Dokumenten mit einem Farbverlaufspinseleffekt. **GroupDocs.Signature für Java**.

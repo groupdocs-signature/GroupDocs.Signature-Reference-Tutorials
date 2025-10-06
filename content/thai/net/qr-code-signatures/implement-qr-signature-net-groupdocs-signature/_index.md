@@ -4,8 +4,8 @@
 "title": "การนำลายเซ็น QR Code ไปใช้งานใน .NET โดยใช้ GroupDocs.Signature คู่มือฉบับสมบูรณ์"
 "url": "/th/net/qr-code-signatures/implement-qr-signature-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำไปใช้และค้นหาลายเซ็น QR Code ใน .NET โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

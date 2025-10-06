@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 전자 문서 서명을 구현하는 방법 - 단계별 가이드"
 "url": "/ko/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 전자 문서 서명을 구현하는 방법: 단계별 가이드
 
 ## 소개

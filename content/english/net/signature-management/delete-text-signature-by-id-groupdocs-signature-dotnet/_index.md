@@ -9,8 +9,8 @@ weight: 1
 url: "/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 categories: ["Document Management"]
 tags: ["groupdocs", "pdf-signatures", "dotnet", "signature-removal"]
+type: docs
 ---
-
 # How to Remove PDF Signatures in .NET
 
 ## Introduction

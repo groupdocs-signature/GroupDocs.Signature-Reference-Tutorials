@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature के साथ दस्तावेज़ हस्ताक्षर में महारत हासिल करना एक व्यापक गाइड"
 "url": "/hi/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ दस्तावेज़ पर हस्ताक्षर करने में महारत हासिल करना
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Cách lấy thông tin tệp lưu trữ bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # Cách lấy thông tin tệp lưu trữ bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

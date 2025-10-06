@@ -6,8 +6,8 @@
 "title": "GroupDocs.Signature - API för digital dokumentsignering för .NET och Java | Komplett handledning"
 "url": "/sv/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature: Komplett digital dokumentsigneringslösning för utvecklare
 
 ![Gruppdokument.Signaturbanner](./groupdocs-signature-net.svg)

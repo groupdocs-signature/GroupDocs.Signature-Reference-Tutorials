@@ -4,8 +4,8 @@
 "title": "Criptografia Java e assinatura de metadados - Manuseio seguro de documentos com GroupDocs.Signature"
 "url": "/pt/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementando criptografia Java e pesquisa de assinatura de metadados com GroupDocs.Signature para Java
 
 ## Introdução

@@ -4,8 +4,8 @@
 "title": "Triển khai ký mã QR và chuyển đổi PDF trong Java bằng API GroupDocs.Signature"
 "url": "/vi/java/qr-code-signatures/java-signature-api-groupdocs-qr-codes-pdf-conversion/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai ký mã QR và chuyển đổi PDF trong Java bằng API GroupDocs.Signature
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 掌握 .NET 中的文档签名及其条形码和二维码签名"
 "url": "/zh/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 .NET 中的文档签名：使用 GroupDocs.Signature 实现条形码和二维码签名
 
 ## 介绍

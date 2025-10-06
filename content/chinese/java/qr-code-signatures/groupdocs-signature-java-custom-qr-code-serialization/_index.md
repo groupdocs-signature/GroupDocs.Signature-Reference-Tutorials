@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 在 PDF 中实现自定义二维码序列化和加密"
 "url": "/zh/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 在 PDF 中实现自定义二维码序列化和加密
 
 ## 介绍

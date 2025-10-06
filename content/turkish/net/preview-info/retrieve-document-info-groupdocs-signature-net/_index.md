@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanılarak Belge Bilgileri Nasıl Alınır?"
 "url": "/tr/net/preview-info/retrieve-document-info-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature ile Belge Bilgileri Nasıl Alınır?
 
 ## giriiş

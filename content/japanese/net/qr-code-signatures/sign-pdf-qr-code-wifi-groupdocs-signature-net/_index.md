@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して WiFi 情報を埋め込んだ QR コードで PDF に署名する方法"
 "url": "/ja/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して WiFi 情報を埋め込んだ QR コードで PDF に署名する方法
 
 ## 導入

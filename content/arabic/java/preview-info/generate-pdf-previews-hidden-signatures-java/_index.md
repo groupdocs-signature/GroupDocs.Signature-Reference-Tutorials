@@ -4,8 +4,8 @@
 "title": "إنشاء معاينات PDF مع التوقيعات المخفية باستخدام Java وGroupDocs.Signature"
 "url": "/ar/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # إنشاء معاينات PDF مع التوقيعات المخفية باستخدام Java وGroupDocs.Signature
 
 ## مقدمة

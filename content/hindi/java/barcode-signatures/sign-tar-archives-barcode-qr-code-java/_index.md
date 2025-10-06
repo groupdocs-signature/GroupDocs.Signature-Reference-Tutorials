@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में बारकोड और QR कोड के साथ TAR अभिलेखागार पर हस्ताक्षर करें"
 "url": "/hi/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके बारकोड और QR कोड के साथ TAR अभिलेखागार पर हस्ताक्षर कैसे करें
 
 ## परिचय

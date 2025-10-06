@@ -4,8 +4,8 @@
 "title": "Implementar campos de formulario de cuadro combinado en archivos PDF con GroupDocs.Signature para Java"
 "url": "/es/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Implementar campos de formulario de cuadro combinado en archivos PDF con GroupDocs.Signature para Java
 
 ## Introducción

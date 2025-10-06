@@ -4,8 +4,8 @@
 "title": "Hoe u afbeeldingshandtekeningen op basis van ID verwijdert met GroupDocs.Signature voor .NET"
 "url": "/nl/net/signature-management/delete-image-signatures-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Uitgebreide handleiding voor het verwijderen van afbeeldingshandtekeningen op basis van ID met GroupDocs.Signature voor .NET
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Opanuj cyfrowe podpisy w .NET i jak używać GroupDocs.Signature do podpisywania i wyszukiwania dokumentów"
 "url": "/pl/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Opanuj podpisy cyfrowe w .NET: jak używać GroupDocs.Signature do podpisywania i wyszukiwania dokumentów
 
 ## Wstęp

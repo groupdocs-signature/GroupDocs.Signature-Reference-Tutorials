@@ -3,8 +3,8 @@
 "title": "Képaláírás-oktatóanyagok a GroupDocs.Signature Java-hoz"
 "url": "/hu/java/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Képaláírás-oktatóanyagok a GroupDocs.Signature Java-hoz
 
 Ismerje meg, hogyan teheti vizuális aláírásokkal gazdagabbá dokumentumait a GroupDocs.Signature Java képaláírás-oktatóanyagaink segítségével. Ezek a részletes útmutatók bemutatják, hogyan adhat hozzá képeket aláírásként, hogyan hozhat létre bélyegzőaláírásokat, hogyan valósíthat meg vízjeleket, hogyan szabhatja testre a megjelenési beállításokat, valamint hogyan használhatja a képigazítási és méretezési lehetőségeket. Minden oktatóanyag működő Java kódpéldákat tartalmaz, amelyek bemutatják, hogyan hozhat létre vizuálisan vonzó aláírásokat, amelyek hatékonyan közvetítik a hitelességet vagy a márkajelzést, miközben megőrzik a dokumentum integritását.

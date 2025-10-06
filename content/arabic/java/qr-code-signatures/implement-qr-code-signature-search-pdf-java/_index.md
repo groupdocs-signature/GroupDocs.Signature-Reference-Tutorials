@@ -4,8 +4,8 @@
 "title": "تنفيذ البحث عن توقيع رمز الاستجابة السريعة في ملفات PDF باستخدام Java وGroupDocs.Signature"
 "url": "/ar/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ البحث عن توقيع رمز الاستجابة السريعة في ملفات PDF باستخدام Java
 
 ## مقدمة

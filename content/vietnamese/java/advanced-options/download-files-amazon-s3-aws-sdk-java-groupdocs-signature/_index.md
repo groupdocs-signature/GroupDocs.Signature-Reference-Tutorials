@@ -4,8 +4,8 @@
 "title": "Cách tải xuống tệp từ Amazon S3 bằng AWS SDK cho Java với tích hợp GroupDocs.Signature"
 "url": "/vi/java/advanced-options/download-files-amazon-s3-aws-sdk-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách tải xuống tệp từ Amazon S3 bằng AWS SDK cho Java với tích hợp GroupDocs.Signature
 
 ## Giới thiệu

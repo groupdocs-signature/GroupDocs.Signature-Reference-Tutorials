@@ -4,8 +4,8 @@
 "title": "Como excluir várias assinaturas de PDFs usando GroupDocs.Signature para Java"
 "url": "/pt/java/signature-management/delete-multiple-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Como excluir várias assinaturas de PDFs usando GroupDocs.Signature para Java
 
 ## Introdução

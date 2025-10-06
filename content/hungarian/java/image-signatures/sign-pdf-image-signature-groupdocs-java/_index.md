@@ -4,8 +4,8 @@
 "title": "PDF-fájlok aláírása képaláírással a GroupDocs.Signature for Java használatával – lépésről lépésre útmutató"
 "url": "/hu/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentum aláírása képaláírással a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "如何使用 Java 和 GroupDocs.Signature 從二維碼中提取 HIBC PAS 數據"
 "url": "/zh-hant/java/qr-code-signatures/extract-hibc-pas-data-qr-codes-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 Java 和 GroupDocs.Signature 從二維碼中提取 HIBC PAS 數據
 
 **介紹**

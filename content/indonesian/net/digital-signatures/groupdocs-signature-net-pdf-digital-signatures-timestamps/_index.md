@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Tanda Tangan Digital PDF dengan Stempel Waktu Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Tanda Tangan Digital PDF dengan Stempel Waktu Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

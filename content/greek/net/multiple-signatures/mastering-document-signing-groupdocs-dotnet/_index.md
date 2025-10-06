@@ -4,8 +4,8 @@
 "title": "Mastering Υπογραφή Εγγράφων με το GroupDocs.Signature για .NET™ Ένας Πλήρης Οδηγός"
 "url": "/el/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Mastering Υπογραφή Εγγράφων με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

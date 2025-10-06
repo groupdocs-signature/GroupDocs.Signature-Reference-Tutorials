@@ -4,8 +4,8 @@
 "title": "Come inizializzare un'istanza di firma in Java utilizzando GroupDocs.Signature"
 "url": "/it/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Come inizializzare un'istanza di firma in Java utilizzando GroupDocs.Signature
 
 ## Introduzione

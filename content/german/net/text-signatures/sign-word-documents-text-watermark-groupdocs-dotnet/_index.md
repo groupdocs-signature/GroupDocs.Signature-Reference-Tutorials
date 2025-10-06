@@ -4,8 +4,8 @@
 "title": "So signieren Sie Word-Dokumente mit Textwasserzeichen mithilfe von GroupDocs.Signature für .NET"
 "url": "/de/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie Word-Dokumente mit Textwasserzeichen mithilfe von GroupDocs.Signature für .NET
 
 ## Einführung

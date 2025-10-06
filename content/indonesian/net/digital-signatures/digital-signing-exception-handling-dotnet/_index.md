@@ -4,8 +4,8 @@
 "title": "Penandatanganan Digital dengan Penanganan Pengecualian di .NET Menggunakan GroupDocs.Signature"
 "url": "/id/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Penandatanganan Digital dengan Penanganan Pengecualian di .NET menggunakan GroupDocs.Signature
 
 ## Perkenalan

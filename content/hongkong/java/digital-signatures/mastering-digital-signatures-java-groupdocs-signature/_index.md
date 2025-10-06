@@ -4,8 +4,8 @@
 "title": "掌握 Java 中的數位簽章－使用 GroupDocs.Signature 的綜合指南"
 "url": "/zh-hant/java/digital-signatures/mastering-digital-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 Java 中的數位簽章：GroupDocs.Signature 綜合指南
 
 ## 介紹

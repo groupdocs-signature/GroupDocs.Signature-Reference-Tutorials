@@ -4,8 +4,8 @@
 "title": "Подписание презентационных документов с метаданными с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать презентационный документ с метаданными с помощью GroupDocs.Signature для .NET
 
 ## Введение

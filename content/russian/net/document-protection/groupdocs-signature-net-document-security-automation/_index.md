@@ -4,8 +4,8 @@
 "title": "Безопасное и автоматическое подписание документов с помощью GroupDocs.Signature для .NET. Подробное руководство"
 "url": "/ru/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # Безопасное и автоматическое подписание документов с помощью GroupDocs.Signature для .NET
 
 ## Введение

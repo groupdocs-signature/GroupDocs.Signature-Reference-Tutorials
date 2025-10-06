@@ -4,8 +4,8 @@
 "title": "Padroneggia la firma dei documenti Java con i codici a barre GS1DotCode utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la firma dei documenti in Java con i codici a barre GS1DotCode utilizzando GroupDocs.Signature
 
 ## Introduzione

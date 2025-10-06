@@ -4,8 +4,8 @@
 "title": "掌握 GroupDocs.Signature for Java&#58; 在 PDF 中删除和搜索文本签名"
 "url": "/zh/java/signature-management/mastering-groupdocs-signature-delete-search-text-signatures-pdfs-java/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 Java 版 GroupDocs.Signature：删除和搜索 PDF 中的文本签名
 
 在当今的数字时代，高效管理电子文档至关重要。开发人员面临的一个常见挑战是处理 PDF 文档中的文本签名——无论是确保签名正确应用，还是在必要时删除签名。输入 **GroupDocs.Signature for Java**：一个功能强大的库，旨在精准轻松地处理这些任务。本教程将指导您使用 GroupDocs.Signature for Java 删除和搜索 PDF 中的文本签名。

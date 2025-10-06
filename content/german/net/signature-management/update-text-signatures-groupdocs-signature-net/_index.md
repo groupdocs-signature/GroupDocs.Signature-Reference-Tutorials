@@ -4,8 +4,8 @@
 "title": "Aktualisieren Sie Textsignaturen in .NET-Dokumenten mit GroupDocs.Signature"
 "url": "/de/net/signature-management/update-text-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Aktualisieren Sie Textsignaturen in .NET-Dokumenten mit GroupDocs.Signature
 
 ## Einführung

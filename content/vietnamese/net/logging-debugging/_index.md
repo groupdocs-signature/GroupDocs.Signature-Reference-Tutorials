@@ -3,8 +3,8 @@
 "title": "Hướng dẫn ghi nhật ký và gỡ lỗi cho GroupDocs.Signature .NET"
 "url": "/vi/net/logging-debugging/"
 "weight": 17
+type: docs
 ---
-
 # Hướng dẫn ghi nhật ký và gỡ lỗi cho GroupDocs.Signature .NET
 
 Hướng dẫn ghi nhật ký và gỡ lỗi của chúng tôi cung cấp hướng dẫn chi tiết về cách giám sát các hoạt động GroupDocs.Signature trong các ứng dụng .NET. Các hướng dẫn từng bước này minh họa cách triển khai ghi nhật ký bảng điều khiển, ghi nhật ký tệp, trình xử lý ghi nhật ký tùy chỉnh và tích hợp với các hệ thống ghi nhật ký trên toàn ứng dụng. Mỗi hướng dẫn đều bao gồm các ví dụ mã C# đầy đủ để triển khai ghi nhật ký hiệu quả, giúp bạn xây dựng các ứng dụng với khả năng chẩn đoán và khắc phục sự cố phù hợp, giúp hợp lý hóa quá trình phát triển và đơn giản hóa việc giải quyết sự cố trong quá trình sản xuất.

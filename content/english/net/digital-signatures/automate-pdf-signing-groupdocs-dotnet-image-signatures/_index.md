@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["pdf-automation", "groupdocs-signature", "dotnet-tutorial", "image-signatures"]
+type: docs
 ---
-
 # PDF Signature Automation .NET - Complete GroupDocs.Signature
 
 ## The Document Signing Challenge Every Developer Faces

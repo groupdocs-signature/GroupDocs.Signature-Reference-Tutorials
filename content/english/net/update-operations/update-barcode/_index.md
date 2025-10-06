@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Signature Management"]
 tags: ["barcode-update", "document-automation", "csharp-tutorial", "groupdocs-signature"]
+type: docs
 ---
-
 ## Introduction
 
 Ever needed to update a barcode in a signed document without recreating the entire file? Maybe you're building a document management system where barcodes track inventory, and you need to adjust positions after a layout change. Or perhaps you're dealing with compliance documents where barcode data needs updating as records change (but the document itself must remain intact).

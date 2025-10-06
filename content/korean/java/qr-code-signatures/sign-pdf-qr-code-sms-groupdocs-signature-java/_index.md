@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 QR 코드와 SMS로 PDF 문서에 서명"
 "url": "/ko/java/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java에서 GroupDocs.Signature를 사용하여 SMS 객체를 사용하여 QR 코드로 PDF 문서에 서명하는 방법
 
 ## 소개

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 XOR 암호화 구현하기 - 포괄적인 가이드"
 "url": "/ko/net/advanced-options/xor-encryption-dotnet-groupdocs-signature-integration-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 XOR 암호화 구현: 포괄적인 가이드
 
 ## 소개

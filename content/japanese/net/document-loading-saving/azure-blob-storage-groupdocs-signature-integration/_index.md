@@ -4,8 +4,8 @@
 "title": "Azure Blob Storage を GroupDocs.Signature for .NET と統合する方法 - ステップバイステップ ガイド"
 "url": "/ja/net/document-loading-saving/azure-blob-storage-groupdocs-signature-integration/"
 "weight": 1
+type: docs
 ---
-
 # Azure Blob Storage を GroupDocs.Signature for .NET と統合する方法: ステップバイステップ ガイド
 
 ## 導入

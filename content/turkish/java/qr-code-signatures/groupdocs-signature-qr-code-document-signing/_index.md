@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak QR Kodlarıyla Ana Belge İmzalama - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/qr-code-signatures/groupdocs-signature-qr-code-document-signing/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak QR Kodlarıyla Ana Belge İmzalama
 
 ## giriiş

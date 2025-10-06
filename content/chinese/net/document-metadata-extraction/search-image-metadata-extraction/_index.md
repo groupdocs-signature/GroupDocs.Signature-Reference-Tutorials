@@ -5,8 +5,8 @@
 "title": "使用 GroupDocs 在 .NET 中提取和搜索图像元数据"
 "url": "/zh/net/document-metadata-extraction/search-image-metadata-extraction/"
 "weight": 10
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 搜索文档中的图像元数据
 
 ## 介绍

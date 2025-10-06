@@ -4,8 +4,8 @@
 "title": "Implementare la firma PDF con testo e casella di controllo utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementare la firma PDF con testo e casella di controllo utilizzando GroupDocs.Signature per .NET
 
 ## Firme dei campi del modulo

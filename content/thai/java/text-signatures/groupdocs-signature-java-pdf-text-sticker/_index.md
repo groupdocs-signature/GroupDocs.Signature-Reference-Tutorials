@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามใน PDF ด้วยสติกเกอร์ข้อความโดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามใน PDF ด้วยสติกเกอร์ข้อความโดยใช้ GroupDocs.Signature สำหรับ Java: คู่มือฉบับสมบูรณ์
 
 ## การแนะนำ

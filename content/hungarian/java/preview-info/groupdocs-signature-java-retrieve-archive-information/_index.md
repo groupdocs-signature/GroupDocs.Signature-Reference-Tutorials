@@ -4,8 +4,8 @@
 "title": "Archív fájlinformációk lekérése a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # Archív fájlinformációk lekérése a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

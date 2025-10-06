@@ -4,8 +4,8 @@
 "title": "Så här laddar du dokument efter filtyp i GroupDocs.Signature för .NET - En omfattande guide"
 "url": "/sv/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 "weight": 1
+type: docs
 ---
-
 # Så här laddar du dokument efter filtyp i GroupDocs.Signature för .NET
 
 ## Introduktion

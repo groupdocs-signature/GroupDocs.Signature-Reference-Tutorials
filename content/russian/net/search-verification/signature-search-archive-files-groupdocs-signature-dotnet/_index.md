@@ -4,8 +4,8 @@
 "title": "Эффективный поиск подписей в архивных файлах с использованием GroupDocs.Signature для .NET"
 "url": "/ru/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Эффективный поиск подписей в архивных файлах с использованием GroupDocs.Signature для .NET
 
 ## Введение

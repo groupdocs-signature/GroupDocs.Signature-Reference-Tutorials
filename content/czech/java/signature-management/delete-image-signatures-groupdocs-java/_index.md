@@ -4,8 +4,8 @@
 "title": "Jak odstranit podpisy obrázků z dokumentů pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/signature-management/delete-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit podpisy obrázků z dokumentů pomocí GroupDocs.Signature pro Javu
 
 Správa digitálních podpisů je klíčová pro zachování integrity a autenticity dokumentů. Ať už jste podnik spravující smlouvy, nebo malá firma zpracovávající faktury, odstranění zastaralých nebo nesprávných obrazových podpisů může zefektivnit správu dokumentů. Tento tutoriál vás provede mazáním obrazových podpisů podle známých ID pomocí nástroje GroupDocs.Signature pro Javu.

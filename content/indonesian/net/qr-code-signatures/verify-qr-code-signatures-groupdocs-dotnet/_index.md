@@ -4,8 +4,8 @@
 "title": "Cara Memverifikasi Tanda Tangan Kode QR di .NET Menggunakan GroupDocs.Signature"
 "url": "/id/net/qr-code-signatures/verify-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Verifikasi Tanda Tangan Kode QR Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

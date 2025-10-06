@@ -5,8 +5,8 @@
 "title": "掌握 .NET 中的多重文件簽章 - 完整指南"
 "url": "/zh-hant/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## 使用多種簽名類型保護您的文檔
 
 您是否曾需要將不同類型的簽章套用至單一文件？無論您處理的是敏感合約、法律文件或公司文件，組合多種簽名類型都能顯著增強安全性和真實性。在本指南中，我們將詳細介紹如何使用 GroupDocs.Signature for .NET 來實現這項強大功能。

@@ -3,8 +3,8 @@
 "title": "Tutoriales de firma de metadatos para GroupDocs.Signature Java"
 "url": "/es/java/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Tutoriales de firma de metadatos para GroupDocs.Signature Java
 
 Nuestros tutoriales de firma de metadatos muestran cómo usar los metadatos de documentos para firmar de forma segura con GroupDocs.Signature en Java. Estas guías paso a paso explican la implementación de firmas de metadatos en diferentes formatos de documento, como PDF, imágenes, presentaciones, hojas de cálculo y archivos de procesamiento de texto. Cada tutorial incluye ejemplos prácticos de código Java para operaciones con metadatos, lo que le ayudará a crear aplicaciones que pueden añadir información de firma invisible a los documentos, mejorando la seguridad sin alterar la apariencia visual.

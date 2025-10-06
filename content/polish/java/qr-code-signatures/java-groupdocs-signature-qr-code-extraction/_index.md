@@ -4,8 +4,8 @@
 "title": "Ekstrakcja podpisu z kodu QR w Javie za pomocą GroupDocs.Signature&#58; – kompleksowy przewodnik"
 "url": "/pl/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja ekstrakcji podpisu z kodu QR w Javie za pomocą GroupDocs.Signature
 
 ## Wstęp

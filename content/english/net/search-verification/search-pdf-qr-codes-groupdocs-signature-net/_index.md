@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["pdf-processing", "qr-codes", "contact-extraction", "dotnet", "document-automation"]
+type: docs
 ---
-
 # Extract Contact Data from PDF QR Codes Using .NET
 
 ## Why Extract QR Code Data from PDFs?

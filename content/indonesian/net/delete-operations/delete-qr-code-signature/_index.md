@@ -5,8 +5,8 @@
 "title": "Cara Menghapus Tanda Tangan Kode QR dari Dokumen di .NET"
 "url": "/id/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Kode QR dari Dokumen Anda
 
 ## Perkenalan

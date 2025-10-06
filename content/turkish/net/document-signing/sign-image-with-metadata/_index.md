@@ -5,8 +5,8 @@
 "title": "C# .NET'te Meta Verilerle Görüntüleri İmzalama"
 "url": "/tr/net/document-signing/sign-image-with-metadata/"
 "weight": 10
+type: docs
 ---
-
 ## giriiş
 
 Dijital görüntü imzalarının meta verilerle imzalanması, özgünlük, mülkiyet ve izlenebilirlik sağlamak için giderek daha önemli hale geliyor. GroupDocs.Signature for .NET, çeşitli görüntü formatlarına meta veri imzaları eklemek için güçlü ve kullanımı kolay bir çözüm sunar. Bu eğitim, C# kullanarak görüntüleri meta verilerle imzalama sürecinin tamamında size rehberlik eder.

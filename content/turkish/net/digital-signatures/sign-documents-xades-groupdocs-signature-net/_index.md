@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak XAdES ile Belge İmzalama Kılavuzu"
 "url": "/tr/net/digital-signatures/sign-documents-xades-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak XAdES ile Belge İmzalama Kılavuzu
 
 ## giriiş

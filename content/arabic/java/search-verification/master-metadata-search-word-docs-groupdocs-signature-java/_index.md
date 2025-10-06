@@ -4,8 +4,8 @@
 "title": "البحث الرئيسي عن البيانات الوصفية في مستندات Word باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/search-verification/master-metadata-search-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # إتقان البحث عن البيانات الوصفية في مستندات Word باستخدام GroupDocs.Signature لـ Java
 
 يمكن تبسيط استخراج البيانات الوصفية من مستندات Word باستخدام مكتبة GroupDocs.Signature القوية. يرشدك هذا البرنامج التعليمي إلى كيفية تطبيق ميزة تبحث عن توقيعات البيانات الوصفية داخل مستند Word باستخدام Java.

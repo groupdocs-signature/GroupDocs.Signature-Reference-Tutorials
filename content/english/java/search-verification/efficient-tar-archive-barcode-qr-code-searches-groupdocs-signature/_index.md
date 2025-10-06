@@ -8,10 +8,8 @@ keywords:
 - TAR archive barcode search
 - QR code verification Java
 - GroupDocs.Signature implementation
-
+type: docs
 ---
-
-
 # Mastering TAR Archive Barcode & QR Code Searches with GroupDocs.Signature for Java
 
 ## Introduction

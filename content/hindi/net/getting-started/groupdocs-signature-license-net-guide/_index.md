@@ -4,8 +4,8 @@
 "title": ".NET में GroupDocs.Signature के लिए लाइसेंस फ़ाइल सेट अप करना एक चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # .NET में GroupDocs.Signature के लिए लाइसेंस फ़ाइल सेट अप करना: एक चरण-दर-चरण मार्गदर्शिका
 
 ## परिचय

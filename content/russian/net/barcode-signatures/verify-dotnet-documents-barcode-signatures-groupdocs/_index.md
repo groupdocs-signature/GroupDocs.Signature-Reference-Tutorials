@@ -4,8 +4,8 @@
 "title": "Проверка документов .NET с помощью подписей штрихкодов с помощью GroupDocs.Signature"
 "url": "/ru/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать проверку документов с помощью штрих-кодов в .NET с помощью GroupDocs.Signature
 
 ## Введение

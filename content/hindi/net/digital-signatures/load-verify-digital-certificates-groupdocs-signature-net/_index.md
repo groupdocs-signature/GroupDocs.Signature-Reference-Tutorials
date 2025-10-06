@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature के साथ डिजिटल प्रमाणपत्र लोड और सत्यापित करें - एक व्यापक गाइड"
 "url": "/hi/net/digital-signatures/load-verify-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ डिजिटल प्रमाणपत्र लोड और सत्यापित करें
 
 ## परिचय

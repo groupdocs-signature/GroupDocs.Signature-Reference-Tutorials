@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Java GroupDocs.Signature untuk Mengambil dan Menampilkan Riwayat Proses Dokumen"
 "url": "/id/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Java GroupDocs.Signature: Mengambil dan Menampilkan Riwayat Proses Dokumen
 
 ## Perkenalan

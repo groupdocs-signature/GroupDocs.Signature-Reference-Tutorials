@@ -4,8 +4,8 @@
 "title": "Como pesquisar metadados em planilhas usando GroupDocs.Signature para Java - Um guia completo"
 "url": "/pt/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Como pesquisar metadados em planilhas usando GroupDocs.Signature para Java: um guia completo
 
 ## Introdução

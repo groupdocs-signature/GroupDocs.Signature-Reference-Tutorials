@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met afbeeldingshandtekeningen in .NET met behulp van GroupDocs.Signature"
 "url": "/nl/net/image-signatures/professional-pdf-signature-image-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # PDF's ondertekenen met afbeeldingshandtekeningen in .NET met behulp van GroupDocs.Signature
 
 ## Invoering

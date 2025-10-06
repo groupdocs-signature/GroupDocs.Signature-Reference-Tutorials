@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký số với dấu thời gian trên tệp PDF bằng Java và GroupDocs.Signature"
 "url": "/vi/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký số với dấu thời gian trên tệp PDF bằng Java và GroupDocs.Signature
 
 ## Giới thiệu

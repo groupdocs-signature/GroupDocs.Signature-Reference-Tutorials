@@ -5,8 +5,8 @@
 "title": "Extraia metadados de planilhas facilmente com GroupDocs.Signature"
 "url": "/pt/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # Como extrair metadados de planilhas usando GroupDocs.Signature
 
 ## Por que os metadados da planilha são importantes

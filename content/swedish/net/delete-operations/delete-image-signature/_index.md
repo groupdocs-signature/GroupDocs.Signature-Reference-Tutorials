@@ -5,8 +5,8 @@
 "title": "Så här tar du bort bildsignaturer från dokument i .NET"
 "url": "/sv/net/delete-operations/delete-image-signature/"
 "weight": 14
+type: docs
 ---
-
 # Så här tar du bort bildsignaturer från dokument med GroupDocs.Signature
 
 ## Introduktion

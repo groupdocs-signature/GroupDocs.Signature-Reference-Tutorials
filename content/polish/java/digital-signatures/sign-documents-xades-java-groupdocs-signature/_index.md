@@ -4,8 +4,8 @@
 "title": "Jak podpisywać dokumenty za pomocą XAdES w Javie przy użyciu GroupDocs.Signature? Przewodnik krok po kroku"
 "url": "/pl/java/digital-signatures/sign-documents-xades-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać dokumenty za pomocą XAdES w Javie przy użyciu GroupDocs.Signature: Przewodnik krok po kroku
 
 ## Wstęp

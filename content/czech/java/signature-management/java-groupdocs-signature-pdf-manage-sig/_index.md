@@ -4,8 +4,8 @@
 "title": "Zvládněte správu podpisů PDF v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/signature-management/java-groupdocs-signature-pdf-manage-sig/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí správy PDF podpisů v Javě s GroupDocs.Signature
 
 ## Zavedení

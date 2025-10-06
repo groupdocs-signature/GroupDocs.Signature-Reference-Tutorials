@@ -4,8 +4,8 @@
 "title": "Carregar e assinar documentos protegidos por senha usando códigos QR em Java com GroupDocs.Signature"
 "url": "/pt/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Carregar e assinar documentos protegidos por senha com código QR em Java
 
 ## Como carregar e assinar um documento protegido por senha usando GroupDocs.Signature para Java

@@ -4,8 +4,8 @@
 "title": "Nastavení pozice podpisu pomocí procent v GroupDocs.Signature pro .NET | Pokročilý tutoriál"
 "url": "/cs/net/advanced-options/set-signature-position-percentages-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Nastavení pozice podpisu pomocí procent v GroupDocs.Signature pro .NET
 ## Zavedení
 V dnešní digitální době je efektivní správa dokumentů a automatizace nezbytná. Programové přidávání podpisů do dokumentů při zachování přesného umístění je běžnou výzvou. Tento pokročilý tutoriál vás provede nastavením pozice podpisu pomocí procentuálních měr v nástroji GroupDocs.Signature pro .NET.

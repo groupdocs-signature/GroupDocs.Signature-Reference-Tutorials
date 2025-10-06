@@ -4,8 +4,8 @@
 "title": "Digitális aláírások mestere .NET-ben – A GroupDocs.Signature használata dokumentumok aláírásához és kereséséhez"
 "url": "/hu/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírások mestere .NET-ben: A GroupDocs.Signature használata dokumentumok aláírásához és kereséséhez
 
 ## Bevezetés

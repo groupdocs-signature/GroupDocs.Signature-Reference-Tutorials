@@ -4,8 +4,8 @@
 "title": "Java PDF 签名指南——使用 GroupDocs.Signature for Java 添加文本、条形码、二维码和数字签名"
 "url": "/zh/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # 如何实现 Java PDF 签名指南：使用 GroupDocs.Signature for Java 添加文本、条形码、二维码和数字签名
 
 ## 介绍

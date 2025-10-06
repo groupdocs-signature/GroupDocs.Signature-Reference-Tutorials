@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 按 ID 刪除文字簽名"
 "url": "/zh-hant/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 按 ID 刪除文字簽名
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "Управление историей процесса обработки документов с помощью GroupDocs.Signature для .NET&#58; подробное руководство"
 "url": "/ru/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Управление историей процесса обработки документов с помощью GroupDocs.Signature для .NET: подробное руководство
 
 ## Введение

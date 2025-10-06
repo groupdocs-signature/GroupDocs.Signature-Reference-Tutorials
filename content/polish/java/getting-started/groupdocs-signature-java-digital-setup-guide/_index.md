@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58; Kompleksowy przewodnik po konfigurowaniu podpisów cyfrowych Java"
 "url": "/pl/java/getting-started/groupdocs-signature-java-digital-setup-guide/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja konfiguracji podpisu cyfrowego Java za pomocą GroupDocs.Signature: Podręcznik programisty
 
 W dzisiejszej erze cyfrowej zapewnienie autentyczności i integralności dokumentów jest kluczowe. Podpisy cyfrowe zapewniają bezpieczny sposób weryfikacji, czy dokument nie został zmieniony od momentu podpisania. Ten kompleksowy przewodnik przeprowadzi Cię przez proces konfiguracji i wdrażania opcji podpisu cyfrowego z wykorzystaniem zaawansowanej biblioteki GroupDocs.Signature dla Javy.

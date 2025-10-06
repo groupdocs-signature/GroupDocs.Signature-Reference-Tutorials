@@ -4,8 +4,8 @@
 "title": "Hoe u afbeeldingshandtekeningen in documenten kunt zoeken en bijwerken met GroupDocs.Signature voor Java"
 "url": "/nl/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u afbeeldingshandtekeningen in documenten kunt zoeken en bijwerken met GroupDocs.Signature voor Java
 
 ## Invoering

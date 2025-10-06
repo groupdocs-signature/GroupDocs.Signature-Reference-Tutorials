@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 擷取二維碼位址資料－綜合指南"
 "url": "/zh-hant/java/qr-code-signatures/extract-qr-code-address-data-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 來擷取二維碼位址數據
 
 ## 介紹

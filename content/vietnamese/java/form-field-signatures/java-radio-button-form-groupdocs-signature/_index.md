@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký trường biểu mẫu nút radio Java với GroupDocs.Signature"
 "url": "/vi/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký trường biểu mẫu nút radio Java với GroupDocs.Signature
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके .NET में QR कोड के साथ सुरक्षित दस्तावेज़ हस्ताक्षर"
 "url": "/hi/net/qr-code-signatures/groupdocs-signature-dotnet-qr-code-pdf-signing/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके .NET में QR कोड के साथ सुरक्षित दस्तावेज़ हस्ताक्षर
 
 ## परिचय

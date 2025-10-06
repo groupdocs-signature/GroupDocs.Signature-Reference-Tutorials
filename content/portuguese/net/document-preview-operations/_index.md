@@ -5,8 +5,8 @@
 "title": "Operações abrangentes de visualização e gerenciamento de documentos"
 "url": "/pt/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # Operações de visualização de documentos
 
 ## Introdução

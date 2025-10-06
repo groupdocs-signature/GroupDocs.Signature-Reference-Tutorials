@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中使用二維碼載入並簽署受密碼保護的文檔"
 "url": "/zh-hant/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # 使用 Java 中的二維碼載入並簽署受密碼保護的文檔
 
 ## 如何使用 GroupDocs.Signature for Java 載入和簽署受密碼保護的文檔

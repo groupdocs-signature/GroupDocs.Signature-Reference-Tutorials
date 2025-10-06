@@ -4,8 +4,8 @@
 "title": "Opanowanie subskrypcji zdarzeń w podpisywaniu dokumentów za pomocą GroupDocs.Signature dla platformy .NET | Przewodnik krok po kroku"
 "url": "/pl/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie funkcji subskrypcji zdarzeń w podpisywaniu dokumentów za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "การจัดการลายเซ็นข้อความหลักใน .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/signature-management/master-text-signature-management-dotnet-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การจัดการลายเซ็นข้อความใน .NET ด้วย GroupDocs.Signature
 
 ## การแนะนำ

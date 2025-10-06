@@ -5,8 +5,8 @@
 "title": "在文件中搜尋文字簽名"
 "url": "/zh-hant/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## 介紹
 
 文字簽名是指示文件作者身份、批准或驗證的常用方法。在數位文件管理中，以程式設計方式搜尋和提取文字簽名的能力對於文件驗證、工作流程自動化和合規性驗證至關重要。 GroupDocs.Signature for .NET 提供了一個全面的解決方案，用於在 .NET 應用程式中實作文字簽章搜尋功能，支援各種文件格式和進階搜尋功能。

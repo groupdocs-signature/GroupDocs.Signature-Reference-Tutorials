@@ -5,8 +5,8 @@
 "title": "Buscar firmas de imágenes en documentos"
 "url": "/es/net/signature-searching/search-for-images/"
 "weight": 13
+type: docs
 ---
-
 ## Introducción
 
 En el ecosistema actual de documentos digitales, las firmas de imagen sirven como potentes marcadores visuales para la marca, la autorización y la validación de documentos. GroupDocs.Signature para .NET ofrece un marco integral para que los desarrolladores busquen, identifiquen y procesen fácilmente firmas de imagen en documentos de diversos formatos. Esta capacidad es esencial para aplicaciones que requieren verificación de documentos, análisis de contenido o procesamiento automatizado de documentos firmados.

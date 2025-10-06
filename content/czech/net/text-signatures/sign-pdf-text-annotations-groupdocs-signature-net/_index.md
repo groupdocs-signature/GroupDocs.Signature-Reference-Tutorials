@@ -4,8 +4,8 @@
 "title": "Jak podepsat PDF dokumenty textovými anotacemi pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/text-signatures/sign-pdf-text-annotations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF dokumenty textovými anotacemi pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

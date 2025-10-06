@@ -4,8 +4,8 @@
 "title": "Hoe Java GroupDocs.Signature te implementeren&#58; de geschiedenis van het documentproces ophalen en weergeven"
 "url": "/nl/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Java GroupDocs.Signature implementeren: documentprocesgeschiedenis ophalen en weergeven
 
 ## Invoering

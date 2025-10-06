@@ -4,8 +4,8 @@
 "title": "Wyszukiwanie kodów kreskowych Java w plikach PDF za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/search-verification/java-barcode-search-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć wyszukiwanie kodów kreskowych Java w plikach PDF za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

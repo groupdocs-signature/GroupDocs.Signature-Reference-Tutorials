@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak PDF'lerdeki Görüntü İmzaları Nasıl Güncellenir?"
 "url": "/tr/net/image-signatures/update-image-signatures-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak PDF'lerdeki Görüntü İmzaları Nasıl Güncellenir?
 
 ## giriiş

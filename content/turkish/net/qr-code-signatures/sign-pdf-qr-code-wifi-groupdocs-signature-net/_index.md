@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak WiFi Bilgilerini Yerleştirerek PDF'leri QR Kodlarıyla Nasıl İmzalayabilirsiniz?"
 "url": "/tr/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak WiFi Bilgilerini Yerleştirerek PDF'leri QR Kodlarıyla Nasıl İmzalayabilirsiniz?
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Как подписывать PDF-файлы с метаданными и шифрованием с помощью GroupDocs.Signature для .NET | Руководство по безопасной защите документов"
 "url": "/ru/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как подписывать PDF-файлы с метаданными и шифрованием с помощью GroupDocs.Signature для .NET
 
 ## Введение

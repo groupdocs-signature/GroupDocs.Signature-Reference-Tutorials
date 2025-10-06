@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 为 PDF 文件签名地址二维码"
 "url": "/zh/java/qr-code-signatures/groupdocs-signature-configure-address-qr-codes-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 为 PDF 文件签名地址二维码
 
 在当今的数字世界中，安全地签署文档至关重要。无论您是商务人士还是管理合同的个人，自动添加签名都可以节省时间并增强文档安全性。本教程将指导您使用 **GroupDocs.Signature for Java** 创建并配置地址对象，然后将其集成到 PDF 中的二维码签名选项中。按照本指南，您将学习如何将地址数据以二维码形式无缝嵌入到您的文档中。

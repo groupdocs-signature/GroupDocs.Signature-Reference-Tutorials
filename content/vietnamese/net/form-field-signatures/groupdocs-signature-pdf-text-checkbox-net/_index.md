@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký PDF với văn bản và hộp kiểm bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký PDF với văn bản và hộp kiểm bằng GroupDocs.Signature cho .NET
 
 ## Chữ ký trường biểu mẫu

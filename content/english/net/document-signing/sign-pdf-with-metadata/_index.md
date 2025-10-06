@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Signing"]
 tags: ["PDF", "Metadata", "Digital Signature", "Authentication", "C#", ".NET"]
+type: docs
 ---
-
 ## Why PDF Metadata Signatures Matter (And How They Solve Real Problems)
 
 If you've ever wondered how to prove that a PDF document is authentic, hasn't been tampered with, or came from a specific source, you're dealing with a common challenge in digital document management. Traditional visual signatures can be easily forged or removed, but **PDF metadata signatures** offer a robust solution that's invisible to the naked eye yet verifiable programmatically.

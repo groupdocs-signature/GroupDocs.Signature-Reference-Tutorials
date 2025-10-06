@@ -4,8 +4,8 @@
 "title": "Comment signer des documents PDF avec un code-barres à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer des documents PDF avec un code-barres à l'aide de GroupDocs.Signature pour .NET
 
 Dans le monde numérique actuel, signer électroniquement des documents est non seulement pratique, mais aussi plus sûr et plus efficace. Cependant, de nombreuses entreprises doivent s'assurer que ces signatures sont à la fois sécurisées et vérifiables. **GroupDocs.Signature pour .NET**— une bibliothèque puissante conçue pour simplifier ce processus en vous permettant d'ajouter des signatures de code-barres aux documents PDF par programmation. Ce tutoriel vous explique comment implémenter GroupDocs.Signature pour .NET afin de signer un document PDF avec une signature de code-barres.

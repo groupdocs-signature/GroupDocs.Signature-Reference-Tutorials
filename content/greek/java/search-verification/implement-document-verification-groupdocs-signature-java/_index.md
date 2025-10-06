@@ -4,8 +4,8 @@
 "title": "Υλοποίηση επαλήθευσης εγγράφων χρησιμοποιώντας το GroupDocs.Signature για Java&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/search-verification/implement-document-verification-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την επαλήθευση εγγράφων χρησιμοποιώντας το GroupDocs.Signature για Java
 
 **Εισαγωγή**

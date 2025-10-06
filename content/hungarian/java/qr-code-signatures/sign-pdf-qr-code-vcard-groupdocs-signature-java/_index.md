@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása QR-kódos VCard-dal a GroupDocs.Signature for Java használatával – lépésről lépésre útmutató"
 "url": "/hu/java/qr-code-signatures/sign-pdf-qr-code-vcard-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # A GroupDocs.Signature használata Java-ban PDF-ek aláírásához QR-kódokkal, amelyek VCard-okat tartalmaznak
 
 ## Bevezetés

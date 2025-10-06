@@ -4,8 +4,8 @@
 "title": "Tutorial de Assinatura Java Stamp - Como Assinar PDFs com a API GroupDocs.Signature"
 "url": "/pt/java/image-signatures/java-groupdocs-signature-stamp-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Tutorial de Assinatura Java Stamp: Assinando Documentos PDF com a API GroupDocs.Signature
 
 No cenário digital atual, a assinatura eficiente e segura de documentos é vital para empresas e indivíduos. Seja para autorizar contratos ou verificar documentos, garantir a autenticidade digitalmente pode economizar tempo e recursos. Este tutorial abrangente guiará você pelo uso da API GroupDocs.Signature para Java para assinar um documento PDF com uma assinatura de carimbo personalizada. Seguindo este processo passo a passo, você aprenderá a adicionar linhas externas e internas com texto, estilos de fonte, cores e posicionamento específicos.

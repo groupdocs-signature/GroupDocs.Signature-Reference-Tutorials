@@ -5,8 +5,8 @@
 "title": "Aggiungere firme con codice a barre sicuro ai documenti .NET | Guida completa"
 "url": "/it/net/advanced-signature-techniques/sign-with-barcode/"
 "weight": 11
+type: docs
 ---
-
 ## In che modo le firme con codice a barre possono migliorare la sicurezza dei documenti?
 
 Nel mondo digitale odierno, la sicurezza dei documenti non è solo un optional, è essenziale. Le firme con codice a barre offrono un modo unico per autenticare e proteggere i file importanti. Con GroupDocs.Signature per .NET, l'implementazione di queste potenti funzionalità di sicurezza è sorprendentemente semplice.

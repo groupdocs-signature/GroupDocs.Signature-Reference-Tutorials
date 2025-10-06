@@ -4,8 +4,8 @@
 "title": "Implementace generování náhledu dokumentů v Javě pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # Implementace generování náhledu dokumentů v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

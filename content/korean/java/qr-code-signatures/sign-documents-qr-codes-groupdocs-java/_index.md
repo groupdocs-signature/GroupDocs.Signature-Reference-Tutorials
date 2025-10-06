@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java를 사용하여 QR 코드로 문서에 서명하기&#58; 완벽한 가이드"
 "url": "/ko/java/qr-code-signatures/sign-documents-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 QR 코드로 문서에 서명하기: 종합 가이드
 
 오늘날의 디지털 세상에서 문서 보안은 매우 중요합니다. 비즈니스 전문가든 민감한 정보를 다루는 개인이든 문서의 무결성과 신뢰성을 보장하는 것은 매우 중요합니다. **Java용 GroupDocs.Signature**강력한 라이브러리인 GroupDocs.Signature를 사용하면 QR 코드를 포함한 다양한 방법으로 문서에 서명할 수 있습니다. 이 가이드에서는 Azure Blob Storage에서 문서를 다운로드하고 GroupDocs.Signature를 사용하여 QR 코드로 서명하는 방법을 안내합니다.

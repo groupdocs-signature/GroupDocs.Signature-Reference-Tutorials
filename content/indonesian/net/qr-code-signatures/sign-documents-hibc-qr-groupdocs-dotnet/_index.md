@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen dengan Kode QR HIBC Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/qr-code-signatures/sign-documents-hibc-qr-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen dengan Kode QR HIBC Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

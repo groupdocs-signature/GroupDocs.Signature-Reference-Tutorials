@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 在本機上簽署文件－綜合指南"
 "url": "/zh-hant/net/digital-signatures/sign-documents-locally-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在本機上簽署文檔
 
 ## 介紹

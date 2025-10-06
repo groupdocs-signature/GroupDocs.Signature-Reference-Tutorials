@@ -4,8 +4,8 @@
 "title": "Comment rechercher des métadonnées dans une feuille de calcul à l'aide de GroupDocs.Signature pour Java ? Un guide complet"
 "url": "/fr/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Comment rechercher des métadonnées dans une feuille de calcul avec GroupDocs.Signature pour Java : guide complet
 
 ## Introduction

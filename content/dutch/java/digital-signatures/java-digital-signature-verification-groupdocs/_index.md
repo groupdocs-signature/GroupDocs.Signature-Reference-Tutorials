@@ -4,8 +4,8 @@
 "title": "Java digitale handtekeningverificatie met GroupDocs.Signature&#58; een stapsgewijze handleiding"
 "url": "/nl/java/digital-signatures/java-digital-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Uitgebreide handleiding voor het implementeren van Java Digital Signature Verification met behulp van GroupDocs.Signature
 
 ## Invoering

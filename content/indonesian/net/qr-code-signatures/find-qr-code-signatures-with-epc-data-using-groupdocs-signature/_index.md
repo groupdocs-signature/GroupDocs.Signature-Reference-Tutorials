@@ -4,8 +4,8 @@
 "title": "Menguasai Pencarian Tanda Tangan Kode QR dalam Dokumen Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pencarian Dokumen: Menemukan Tanda Tangan Kode QR dengan Data EPC Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

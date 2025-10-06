@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile Belge İşlem Geçmişini Nasıl Alırsınız? Adım Adım Kılavuz"
 "url": "/tr/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature ile Belge İşlem Geçmişini Nasıl Alırsınız: Adım Adım Kılavuz
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Загрузка и проверка цифровых сертификатов с помощью GroupDocs.Signature для .NET. Подробное руководство"
 "url": "/ru/net/digital-signatures/load-verify-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Загрузка и проверка цифровых сертификатов с помощью GroupDocs.Signature для .NET
 
 ## Введение

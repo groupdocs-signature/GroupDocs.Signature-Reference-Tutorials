@@ -4,8 +4,8 @@
 "title": "Fájlnaplózás és QR-kód aláírás – Teljes körű útmutató a GroupDocs.Signature for .NET használatához"
 "url": "/hu/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Fájlnaplózás és QR-kód aláírása: Teljes körű útmutató a GroupDocs.Signature for .NET használatához
 
 ## Bevezetés

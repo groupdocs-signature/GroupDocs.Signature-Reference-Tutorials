@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 텍스트 및 체크박스가 있는 PDF 서명 구현"
 "url": "/ko/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 텍스트 및 체크박스가 있는 PDF 서명 구현
 
 ## 양식 필드 서명

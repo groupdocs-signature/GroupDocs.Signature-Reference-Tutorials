@@ -4,8 +4,8 @@
 "title": "Cómo firmar archivos PDF con firmas de imagen usando GroupDocs.Signature para Java&#58; guía paso a paso"
 "url": "/es/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar un documento PDF con una firma de imagen usando GroupDocs.Signature para Java
 
 ## Introducción

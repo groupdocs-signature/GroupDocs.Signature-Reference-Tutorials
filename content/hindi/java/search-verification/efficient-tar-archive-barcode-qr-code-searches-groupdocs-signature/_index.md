@@ -4,8 +4,8 @@
 "title": "जावा के लिए GroupDocs.Signature के साथ TAR संग्रह बारकोड और QR कोड खोज में महारत हासिल करें"
 "url": "/hi/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # जावा के लिए GroupDocs.Signature के साथ TAR संग्रह बारकोड और QR कोड खोज में महारत हासिल करना
 
 ## परिचय

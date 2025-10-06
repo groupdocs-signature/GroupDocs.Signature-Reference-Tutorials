@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات PDF باستخدام رموز الاستجابة السريعة (QR Codes) وتضمين معلومات WiFi باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع ملفات PDF باستخدام رموز الاستجابة السريعة (QR Codes) وتضمين معلومات WiFi باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

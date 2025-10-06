@@ -3,8 +3,8 @@
 "title": "使用 GroupDocs.Signature for Java 的文檔載入和儲存教程"
 "url": "/zh-hant/java/document-loading-saving/"
 "weight": 2
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 的文檔載入和儲存教程
 
 我們的文件載入和保存教學提供了使用 Java 以程式設計方式處理文件的全面指導。請依照這些逐步指南，學習如何從本機磁碟、流、URL、雲端儲存提供者（例如 Amazon S3 和 Azure Blob Storage）以及 FTP 載入文件。這些教學課程還涵蓋了各種文件保存場景，包括使用密碼保護保存、不同的輸出格式以及針對各種文件類型的專用保存選項。

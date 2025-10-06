@@ -4,8 +4,8 @@
 "title": "Kompleksowy przewodnik po tekstach, obrazach i podpisach cyfrowych z GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Kompleksowy przewodnik po wdrażaniu podpisów tekstowych, graficznych i cyfrowych za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

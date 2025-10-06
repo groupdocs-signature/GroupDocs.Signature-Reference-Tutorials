@@ -4,8 +4,8 @@
 "title": "जावा के लिए GroupDocs.Signature का उपयोग करके टेक्स्ट को इमेज के रूप में उपयोग करते हुए Word दस्तावेज़ों पर डिजिटल हस्ताक्षर कैसे करें"
 "url": "/hi/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # जावा के लिए GroupDocs.Signature का उपयोग करके टेक्स्ट को इमेज के रूप में उपयोग करते हुए Word दस्तावेज़ों पर डिजिटल हस्ताक्षर कैसे करें
 
 ## परिचय

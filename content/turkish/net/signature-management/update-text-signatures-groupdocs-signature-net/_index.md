@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak .NET Belgelerindeki Metin İmzalarını Güncelleme"
 "url": "/tr/net/signature-management/update-text-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak .NET Belgelerindeki Metin İmzalarını Güncelleme
 
 ## giriiş

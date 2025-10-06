@@ -4,8 +4,8 @@
 "title": "استخراج توقيعات رمز الاستجابة السريعة (QR) مع بيانات العنوان باستخدام GroupDocs.Signature لـ .NET | أتمتة التوقيع الرقمي"
 "url": "/ar/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # استخراج توقيعات رمز الاستجابة السريعة (QR Code) مع بيانات العنوان باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

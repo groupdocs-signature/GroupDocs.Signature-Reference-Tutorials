@@ -4,8 +4,8 @@
 "title": "Πώς να εντοπίσετε υπογραφές κώδικα QR της MeCard σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/qr-code-signatures/detect-qr-code-mecard-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εντοπίσετε υπογραφές QR-Code της MeCard με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

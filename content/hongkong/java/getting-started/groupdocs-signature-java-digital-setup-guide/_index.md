@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58; Java 數位簽章設定綜合指南"
 "url": "/zh-hant/java/getting-started/groupdocs-signature-java-digital-setup-guide/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 實作 Java 數位簽章設定：開發人員指南
 
 在當今的數位時代，確保文件的真實性和完整性至關重要。數位簽名提供了一種安全的方式來驗證文件自簽名以來未被更改。本指南將指導您如何使用強大的 GroupDocs.Signature Java 程式庫來設定和實作數位簽章選項。

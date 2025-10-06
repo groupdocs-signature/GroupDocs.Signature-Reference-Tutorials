@@ -5,8 +5,8 @@
 "title": "Vonalkódok eltávolítása dokumentumokból .NET segítségével"
 "url": "/hu/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # Vonalkódok eltávolítása dokumentumokból .NET segítségével
 
 ## Miért kellene törölnie a vonalkódokat?

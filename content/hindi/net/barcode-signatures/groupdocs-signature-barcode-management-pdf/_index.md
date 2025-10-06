@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature के साथ PDF में कुशल बारकोड हस्ताक्षर प्रबंधन"
 "url": "/hi/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ PDF में कुशल बारकोड हस्ताक्षर प्रबंधन
 
 ## परिचय

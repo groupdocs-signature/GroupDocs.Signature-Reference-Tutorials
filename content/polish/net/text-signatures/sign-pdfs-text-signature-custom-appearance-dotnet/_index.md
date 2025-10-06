@@ -4,8 +4,8 @@
 "title": "Podpisuj pliki PDF za pomocą podpisu tekstowego i niestandardowego wyglądu w .NET przy użyciu GroupDocs.Signature"
 "url": "/pl/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać dokumenty PDF za pomocą podpisu tekstowego i niestandardowego wyglądu przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

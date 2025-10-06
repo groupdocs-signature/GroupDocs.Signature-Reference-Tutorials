@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 擷取文件處理歷史記錄－綜合指南"
 "url": "/zh-hant/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 擷取文件處理歷史記錄
 
 ## 介紹

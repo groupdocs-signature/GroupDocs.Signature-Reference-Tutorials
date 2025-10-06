@@ -4,8 +4,8 @@
 "title": "PDF metaadatok kinyerése a GroupDocs.Signature for Java használatával – Átfogó útmutató"
 "url": "/hu/java/preview-info/extract-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF metaadatok kinyerése GroupDocs.Signature for Java használatával: Átfogó útmutató
 
 ## Bevezetés

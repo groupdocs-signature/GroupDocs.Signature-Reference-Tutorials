@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć szyfrowane podpisy metadanych za pomocą GroupDocs.Signature dla platformy .NET | Kompletny przewodnik"
 "url": "/pl/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć szyfrowane podpisy metadanych za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

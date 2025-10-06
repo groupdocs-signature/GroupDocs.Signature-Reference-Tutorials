@@ -4,8 +4,8 @@
 "title": "إتقان البحث عن توقيع رمز الاستجابة السريعة في المستندات باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # إتقان البحث عن المستندات: العثور على توقيعات رمز الاستجابة السريعة (QR-Code) باستخدام بيانات EPC باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

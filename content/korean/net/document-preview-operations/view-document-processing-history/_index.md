@@ -5,8 +5,8 @@
 "title": ".NET에서 문서 서명 기록을 쉽게 추적하세요"
 "url": "/ko/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # .NET에서 문서의 서명 기록을 추적하는 방법
 
 ## GroupDocs.Signature가 당신을 위해 무엇을 해줄 수 있나요?

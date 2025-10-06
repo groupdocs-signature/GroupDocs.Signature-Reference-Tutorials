@@ -4,8 +4,8 @@
 "title": "Podepisování hlavních dokumentů v Javě&#58; Implementace polí pro prostý a formátovaný text pomocí GroupDocs.Signature"
 "url": "/cs/java/digital-signatures/groupdocs-signature-java-plain-rich-text-fields/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí podepisování dokumentů v Javě: Implementace polí pro prostý a formátovaný text pomocí GroupDocs.Signature
 
 Vítejte v komplexním průvodci o využití pákového efektu **GroupDocs.Signature pro Javu** podepisovat dokumenty pomocí polí pro prostý i formátovaný text. Ať už automatizujete schvalování smluv nebo zefektivňujete pracovní postupy, tento tutoriál vám umožní tyto funkce efektivně implementovat.

@@ -5,8 +5,8 @@
 "title": "Vonalkódos aláírások ellenőrzése dokumentumokban"
 "url": "/hu/net/verify-operations/verify-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Bevezetés
 
 vonalkódok a modern dokumentumkezelő rendszerek szerves részévé váltak, lehetővé téve a kódolt információkhoz való gyors hozzáférést, miközben biztonsági funkcióként is szolgálnak. A GroupDocs.Signature for .NET egy hatékony API-t biztosít a dokumentumokon belüli vonalkód-aláírások ellenőrzéséhez, biztosítva azok hitelességét és integritását.

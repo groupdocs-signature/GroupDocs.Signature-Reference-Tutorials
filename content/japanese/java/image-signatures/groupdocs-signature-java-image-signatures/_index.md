@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用してドキュメント内の画像署名を検索および更新する方法"
 "url": "/ja/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用してドキュメント内の画像署名を検索および更新する方法
 
 ## 導入

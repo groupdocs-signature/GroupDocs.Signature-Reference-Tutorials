@@ -4,8 +4,8 @@
 "title": "Amankan Dokumen Java dengan Tanda Tangan Metadata dan Enkripsi Menggunakan GroupDocs"
 "url": "/id/java/metadata-signatures/java-metadata-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Amankan Dokumen Java dengan Tanda Tangan Metadata dan Enkripsi Menggunakan GroupDocs
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java를 사용하여 Java PDF 서명 및 텍스트 스티커 서명 마스터하기"
 "url": "/ko/java/digital-signatures/java-pdf-signing-groupdocs-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Java PDF 서명 마스터하기: GroupDocs.Signature를 사용하여 텍스트 스티커 모양 만들기
 
 오늘날 디지털 시대에 전자 문서 서명은 필수적입니다. 비즈니스 전문가든 계약 및 합의를 관리하는 개인이든 안전하고 시각적으로 매력적인 서명은 매우 중요합니다. 이 튜토리얼에서는 GroupDocs.Signature for Java를 사용하여 텍스트 스티커 모양을 사용하여 PDF 문서에 서명하는 과정을 안내합니다. 이 기술을 익히면 문서 워크플로우가 간소화되고 전문적으로 서명된 문서를 고유한 형식으로 제시할 수 있습니다.

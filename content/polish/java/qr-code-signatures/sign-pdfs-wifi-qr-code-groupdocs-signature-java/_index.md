@@ -4,8 +4,8 @@
 "title": "Jak podpisywać pliki PDF kodami QR Wi-Fi za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/qr-code-signatures/sign-pdfs-wifi-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać pliki PDF kodami QR Wi-Fi za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

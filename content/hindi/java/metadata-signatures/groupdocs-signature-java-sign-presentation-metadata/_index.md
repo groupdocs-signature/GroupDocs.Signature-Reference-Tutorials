@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके मेटाडेटा के साथ प्रस्तुति दस्तावेज़ों पर हस्ताक्षर कैसे करें. Java के लिए हस्ताक्षर - एक संपूर्ण मार्गदर्शिका"
 "url": "/hi/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # जावा के लिए GroupDocs.Signature का उपयोग करके मेटाडेटा के साथ प्रस्तुति दस्तावेज़ों पर हस्ताक्षर करने के लिए व्यापक मार्गदर्शिका
 
 ## परिचय

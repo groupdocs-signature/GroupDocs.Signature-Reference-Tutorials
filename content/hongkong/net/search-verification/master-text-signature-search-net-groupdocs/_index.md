@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中主文本簽章搜尋"
 "url": "/zh-hant/net/search-verification/master-text-signature-search-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 .NET 中的文字簽名搜尋
 
 您是否希望自動識別文件中的文字簽名？無論是驗證合約真實性還是追蹤官方審批，高效管理文件簽名可能是一項挑戰。有了 **適用於 .NET 的 GroupDocs.Signature**，透過直接從您的應用程式中搜尋和過濾文字簽名來簡化此過程。本教學將指導您設定和使用 GroupDocs.Signature 來搜尋文字簽名，同時跳過外部簽名。

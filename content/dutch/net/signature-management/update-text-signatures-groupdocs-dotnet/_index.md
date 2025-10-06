@@ -4,8 +4,8 @@
 "title": "Hoe u teksthandtekeningen in documenten kunt bijwerken met GroupDocs.Signature voor .NET&#58; een complete handleiding"
 "url": "/nl/net/signature-management/update-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Teksthandtekeningen in documenten bijwerken met GroupDocs.Signature voor .NET: een complete handleiding
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Implementatie van digitale handtekeningen in .NET - Barcode- en QR-code-integratiegids"
 "url": "/nl/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Digitale handtekeningen implementeren in .NET: barcode- en QR-codeondertekening met GroupDocs.Signature
 
 In het digitale tijdperk van vandaag is het snel en veilig authenticeren van documenten belangrijker dan ooit. Of u nu een ontwikkelaar bent die aan een bedrijfsapplicatie werkt of gewoon uw documentbeheerproces wilt stroomlijnen, het toevoegen van handtekeningen kan een transformatieve verandering zijn. Deze tutorial begeleidt u bij het gebruik ervan. **GroupDocs.Signature voor .NET** om documenten digitaal te ondertekenen met zowel barcode- als QR-codehandtekeningen. Dit biedt robuuste oplossingen voor veilige documentatie.

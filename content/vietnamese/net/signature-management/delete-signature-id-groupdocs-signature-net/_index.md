@@ -4,8 +4,8 @@
 "title": "Xóa chữ ký hiệu quả theo ID bằng GroupDocs.Signature cho .NET - Hướng dẫn từng bước"
 "url": "/vi/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa chữ ký theo ID hiệu quả bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

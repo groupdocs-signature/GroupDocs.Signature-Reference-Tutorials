@@ -4,8 +4,8 @@
 "title": "Как удалить определенные подписи из документа с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/signature-management/delete-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Как удалить определенные типы подписей из документа с помощью GroupDocs.Signature для Java
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 实现 .NET 条形码搜索"
 "url": "/zh/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 实现 .NET 条形码搜索
 
 ## 介绍

@@ -4,8 +4,8 @@
 "title": "Πώς να προσθέσετε μια υπογραφή κειμένου σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/text-signatures/groupdocs-signature-java-add-text-signature/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να προσθέσετε μια υπογραφή κειμένου σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Implementace podpisů textových vodoznaků v dokumentech Word pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementace podpisů textových vodoznaků v dokumentech Word pomocí GroupDocs.Signature pro Javu
 
 ## Jak přidat textový vodoznak a podpisy do dokumentů Word pomocí GroupDocs.Signature pro Javu

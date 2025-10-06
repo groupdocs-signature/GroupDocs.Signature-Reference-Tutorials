@@ -8,10 +8,8 @@ keywords:
 - extract PDF metadata
 - GroupDocs.Signature for Java
 - Java document processing
-
+type: docs
 ---
-
-
 # Extract PDF Metadata Using GroupDocs.Signature for Java: A Comprehensive Guide
 
 ## Introduction

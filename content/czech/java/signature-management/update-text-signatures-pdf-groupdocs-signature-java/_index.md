@@ -4,8 +4,8 @@
 "title": "Aktualizace textových podpisů v PDF pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/signature-management/update-text-signatures-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Aktualizace textových podpisů v PDF pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

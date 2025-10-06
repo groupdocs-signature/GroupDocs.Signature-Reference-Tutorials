@@ -4,8 +4,8 @@
 "title": "Carica e firma documenti in Java con GroupDocs.Signature&#58; una guida completa"
 "url": "/it/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Caricare e firmare documenti utilizzando GroupDocs.Signature in Java
 
 ## Introduzione

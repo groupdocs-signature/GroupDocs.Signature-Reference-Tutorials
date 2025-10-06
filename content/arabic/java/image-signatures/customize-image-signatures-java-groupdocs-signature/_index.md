@@ -4,8 +4,8 @@
 "title": "كيفية تخصيص توقيعات الصور في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/image-signatures/customize-image-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ توقيعات الصور المخصصة باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

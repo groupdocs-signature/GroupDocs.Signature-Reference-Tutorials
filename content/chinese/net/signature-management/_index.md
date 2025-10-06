@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature .NET 签名管理教程"
 "url": "/zh/net/signature-management/"
 "weight": 12
+type: docs
 ---
-
 # GroupDocs.Signature .NET 签名管理教程
 
 通过我们详细的 GroupDocs.Signature .NET 教程，掌握签名生命周期管理。这些分步指南演示了如何在将不同类型的签名应用于文档后对其进行更新、删除和管理。学习如何修改签名属性、按类型或 ID 删除签名、执行批量操作以及处理签名元数据。每个教程都包含可运行的 C# 代码示例，展示如何构建具有全面签名管理功能的应用程序，确保您的文档在整个生命周期内保持最新并得到妥善维护。

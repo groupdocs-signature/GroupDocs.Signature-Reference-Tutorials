@@ -4,8 +4,8 @@
 "title": "Implementace textového podpisu .NET v PDF pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/net/text-signatures/implement-net-text-signature-in-pdfs-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementace textového podpisu .NET v PDF pomocí GroupDocs.Signature
 ## Zavedení
 V dnešním digitálním světě je zajištění autenticity a integrity dokumentů klíčové napříč odvětvími. Efektivní přidávání zabezpečených elektronických podpisů do dokumentů PDF může být náročné. Zadejte **GroupDocs.Signature pro .NET**—výkonná knihovna navržená pro zjednodušení tohoto procesu. V tomto komplexním průvodci vás provedeme rychlým a bezpečným přidáním textového podpisu do vašich PDF souborů.

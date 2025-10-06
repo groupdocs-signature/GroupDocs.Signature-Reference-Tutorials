@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके .NET में कस्टम क्रमांकन और मेटाडेटा खोज"
 "url": "/hi/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ कस्टम क्रमांकन और मेटाडेटा हस्ताक्षर खोज को कार्यान्वित करना
 
 ## परिचय

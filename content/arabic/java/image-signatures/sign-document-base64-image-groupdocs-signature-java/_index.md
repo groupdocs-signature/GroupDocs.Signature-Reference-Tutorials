@@ -4,8 +4,8 @@
 "title": "توقيع المستندات باستخدام صور Base64 في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/image-signatures/sign-document-base64-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستند باستخدام صورة مشفرة بتنسيق Base64 باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

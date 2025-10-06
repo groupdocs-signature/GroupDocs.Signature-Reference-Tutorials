@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในเอกสารด้วยรหัส QR ของ HIBC โดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/qr-code-signatures/sign-documents-hibc-qr-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสารด้วยรหัส QR ของ HIBC โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "เรียนรู้ลายเซ็นดิจิทัลใน .NET วิธีใช้ GroupDocs.Signature สำหรับการลงนามและค้นหาเอกสาร"
 "url": "/th/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # เรียนรู้ลายเซ็นดิจิทัลใน .NET: วิธีใช้ GroupDocs.Signature สำหรับการลงนามและค้นหาเอกสาร
 
 ## การแนะนำ

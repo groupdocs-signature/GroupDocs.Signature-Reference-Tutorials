@@ -4,8 +4,8 @@
 "title": "Przewodnik po podpisach w formacie PDF w Javie — dodawanie tekstu, kodów kreskowych, kodów QR i podpisów cyfrowych za pomocą GroupDocs.Signature dla Javy"
 "url": "/pl/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć podpis PDF w Javie: przewodnik: dodawanie tekstu, kodów kreskowych, kodów QR i podpisów cyfrowych za pomocą GroupDocs.Signature dla Javy
 
 ## Wstęp

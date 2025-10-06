@@ -4,8 +4,8 @@
 "title": "دليل حذف توقيعات رمز الاستجابة السريعة (QR) في Java باستخدام GroupDocs"
 "url": "/ar/java/signature-management/qr-code-signature-deletion-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # دليل حذف توقيعات رمز الاستجابة السريعة (QR) في Java باستخدام GroupDocs
 
 ## مقدمة

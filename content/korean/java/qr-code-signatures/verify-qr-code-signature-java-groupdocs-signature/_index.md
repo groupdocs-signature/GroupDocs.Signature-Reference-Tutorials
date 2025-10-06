@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58;를 사용하여 Java에서 QR 코드 서명 확인하기 - 포괄적인 가이드"
 "url": "/ko/java/qr-code-signatures/verify-qr-code-signature-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java에서 QR 코드 서명 확인
 
 ## 소개

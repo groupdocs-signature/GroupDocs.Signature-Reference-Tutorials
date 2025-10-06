@@ -4,8 +4,8 @@
 "title": "การค้นหาและเข้ารหัส QR Code ใน Java&#58; Master GroupDocs.Signature เพื่อการจัดการเอกสารที่ปลอดภัย"
 "url": "/th/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # การค้นหาและเข้ารหัส QR Code ใน Java: Master GroupDocs.Signature สำหรับการจัดการเอกสารอย่างปลอดภัย
 
 ## การแนะนำ

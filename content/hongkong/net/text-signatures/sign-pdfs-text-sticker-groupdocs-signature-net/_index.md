@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 為 PDF 簽署並新增文字貼紙 | 逐步指南"
 "url": "/zh-hant/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 為 PDF 文件簽署並新增文字貼紙
 
 ## 介紹

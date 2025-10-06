@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके .NET दस्तावेज़ों में टेक्स्ट हस्ताक्षर अपडेट करें"
 "url": "/hi/net/signature-management/update-text-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके .NET दस्तावेज़ों में टेक्स्ट हस्ताक्षर अपडेट करें
 
 ## परिचय

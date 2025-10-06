@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Görüntü İmzasıyla Belgeler Nasıl İmzalanır?"
 "url": "/tr/net/image-signatures/sign-document-image-signature-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Bir Belgeyi Görüntü İmzasıyla Nasıl İmzalarsınız?
 
 ## giriiş

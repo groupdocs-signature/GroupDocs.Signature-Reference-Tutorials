@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Tanda Tangan Teks dari Dokumen Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/signature-management/delete-text-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Teks dari Dokumen Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Digitális aláírások keresése PDF-ekben a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/search-verification/search-pdfs-digital-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírások keresése PDF-fájlokban a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

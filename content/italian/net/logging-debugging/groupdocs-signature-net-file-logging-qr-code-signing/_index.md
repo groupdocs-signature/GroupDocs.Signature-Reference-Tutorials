@@ -4,8 +4,8 @@
 "title": "Registrazione dei file e firma del codice QR&#58; una guida completa all'utilizzo di GroupDocs.Signature per .NET"
 "url": "/it/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Registrazione dei file e firma del codice QR: una guida completa all'utilizzo di GroupDocs.Signature per .NET
 
 ## Introduzione

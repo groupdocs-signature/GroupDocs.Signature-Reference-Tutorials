@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 初始化签名实例——综合指南"
 "url": "/zh/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 初始化签名实例
 
 ## 介绍

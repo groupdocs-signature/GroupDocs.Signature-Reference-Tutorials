@@ -4,8 +4,8 @@
 "title": "Hur man skapar och signerar PDF-filer med streckkoder med GroupDocs.Signature för Java"
 "url": "/sv/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man skapar och signerar PDF-filer med streckkoder med GroupDocs.Signature för Java
 
 ## Introduktion

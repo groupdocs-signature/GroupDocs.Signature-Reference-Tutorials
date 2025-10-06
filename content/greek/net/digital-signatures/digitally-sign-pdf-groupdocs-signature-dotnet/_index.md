@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε ψηφιακά αρχεία PDF χρησιμοποιώντας το GroupDocs.Signature για .NET® - Οδηγός βήμα προς βήμα"
 "url": "/el/net/digital-signatures/digitally-sign-pdf-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ψηφιακά ένα έγγραφο PDF χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

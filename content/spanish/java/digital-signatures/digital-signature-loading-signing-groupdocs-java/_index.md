@@ -4,8 +4,8 @@
 "title": "Cómo implementar la carga y firma de firmas digitales con GroupDocs.Signature para Java"
 "url": "/es/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cómo implementar la carga y firma de firmas digitales con GroupDocs.Signature para Java
 
 ## Introducción

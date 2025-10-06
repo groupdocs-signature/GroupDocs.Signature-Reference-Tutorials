@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature
 - Java
 - Document Processing
-
+type: docs
 ---
-
-
 # Implementing Custom Metadata in Java with GroupDocs.Signature
 
 ## Introduction

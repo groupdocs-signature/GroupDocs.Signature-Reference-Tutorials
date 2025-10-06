@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["document-protection", "password-security", "pdf-encryption", "dotnet-tutorials"]
+type: docs
 ---
-
 # Document Protection .NET - Secure PDF Signing with GroupDocs.Signature
 
 When you're building applications that handle sensitive documents, security isn't just nice to have—it's absolutely critical. Whether you're processing legal contracts, financial reports, or confidential agreements, your users expect their documents to remain protected throughout the signing process.

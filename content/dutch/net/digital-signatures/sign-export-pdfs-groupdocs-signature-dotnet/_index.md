@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen en exporteren met GroupDocs.Signature voor .NET"
 "url": "/nl/net/digital-signatures/sign-export-pdfs-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF's ondertekenen en exporteren met GroupDocs.Signature voor .NET
 
 ## Invoering

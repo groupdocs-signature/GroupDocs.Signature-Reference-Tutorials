@@ -4,8 +4,8 @@
 "title": "Extrakce podpisů QR kódů s adresními údaji pomocí GroupDocs.Signature pro .NET | Automatizace digitálního podpisu"
 "url": "/cs/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # Extrakce podpisů QR kódů s adresními daty pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

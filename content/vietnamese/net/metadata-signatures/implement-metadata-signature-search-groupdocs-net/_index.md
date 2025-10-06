@@ -4,8 +4,8 @@
 "title": "Cách triển khai tìm kiếm chữ ký siêu dữ liệu trong bài thuyết trình PowerPoint bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/metadata-signatures/implement-metadata-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai Tìm kiếm chữ ký siêu dữ liệu trong PowerPoint với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

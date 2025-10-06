@@ -4,8 +4,8 @@
 "title": "Signez des PDF et convertissez-les en DOCX avec GroupDocs.Signature pour .NET - Un guide complet"
 "url": "/fr/net/digital-signatures/sign-pdf-convert-docx-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Signez des PDF et convertissez-les en DOCX avec GroupDocs.Signature pour .NET : un guide complet
 
 Dans le paysage numérique actuel, la signature sécurisée de documents est cruciale dans de nombreux domaines, tels que le droit, la finance et l'administration. GroupDocs.Signature pour .NET simplifie ce processus en vous permettant de signer facilement des PDF et de les convertir dans différents formats, comme DOCX. Ce guide complet vous guidera pas à pas pour optimiser votre flux de travail de gestion documentaire.

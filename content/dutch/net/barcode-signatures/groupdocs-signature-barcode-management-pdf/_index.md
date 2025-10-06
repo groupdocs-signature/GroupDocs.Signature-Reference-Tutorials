@@ -4,8 +4,8 @@
 "title": "Efficiënt beheer van barcodehandtekeningen in PDF's met GroupDocs.Signature voor .NET"
 "url": "/nl/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Efficiënt beheer van barcodehandtekeningen in PDF's met GroupDocs.Signature voor .NET
 
 ## Invoering

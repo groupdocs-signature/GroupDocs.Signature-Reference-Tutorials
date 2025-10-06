@@ -4,8 +4,8 @@
 "title": "Jak ověřit podpisy QR kódů v .NET pomocí GroupDocs.Signature"
 "url": "/cs/net/qr-code-signatures/verify-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat ověřování podpisu QR kódem pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

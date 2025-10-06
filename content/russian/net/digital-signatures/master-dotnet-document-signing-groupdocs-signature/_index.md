@@ -4,8 +4,8 @@
 "title": "Мастер подписывания документов .NET с помощью GroupDocs.Signature для безопасных цифровых подписей"
 "url": "/ru/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Освоение подписывания документов .NET с помощью GroupDocs.Signature
 
 ## Введение

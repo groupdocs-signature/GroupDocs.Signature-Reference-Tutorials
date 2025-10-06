@@ -4,8 +4,8 @@
 "title": "Java QR-kód aláírás kinyerése a GroupDocs.Signature segítségével – Átfogó útmutató"
 "url": "/hu/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Java QR-kód aláírás-kinyerés implementálása GroupDocs.Signature segítségével
 
 ## Bevezetés

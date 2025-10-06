@@ -4,8 +4,8 @@
 "title": "Grupa Master GroupDocs.Signature dla platformy .NET – zarządzanie i usuwanie podpisów dokumentów"
 "url": "/pl/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie zarządzania podpisami w .NET z GroupDocs.Signature
 
 ## Wstęp

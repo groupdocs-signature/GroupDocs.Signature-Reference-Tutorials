@@ -5,8 +5,8 @@
 "title": "Πώς να αφαιρέσετε ψηφιακές υπογραφές από έγγραφα στο .NET"
 "url": "/el/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # Πώς να αφαιρέσετε ψηφιακές υπογραφές από τα έγγραφά σας με το GroupDocs.Signature
 
 ## Γιατί η διαχείριση ψηφιακών υπογραφών έχει σημασία

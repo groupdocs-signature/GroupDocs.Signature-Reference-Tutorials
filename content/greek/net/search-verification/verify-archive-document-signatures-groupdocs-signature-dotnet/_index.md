@@ -4,8 +4,8 @@
 "title": "Πώς να επαληθεύσετε τις υπογραφές εγγράφων σε αρχεία χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να επαληθεύσετε τις υπογραφές εγγράφων σε αρχεία με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

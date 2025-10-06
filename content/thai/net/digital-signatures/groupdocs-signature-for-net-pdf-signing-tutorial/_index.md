@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในไฟล์ PDF ด้วย GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/digital-signatures/groupdocs-signature-for-net-pdf-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร PDF โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

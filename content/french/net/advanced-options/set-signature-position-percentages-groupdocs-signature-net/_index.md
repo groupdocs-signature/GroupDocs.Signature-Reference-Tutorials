@@ -4,8 +4,8 @@
 "title": "Définir la position de la signature à l'aide de pourcentages dans GroupDocs.Signature pour .NET | Tutoriel avancé"
 "url": "/fr/net/advanced-options/set-signature-position-percentages-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Définir la position de la signature à l'aide de pourcentages dans GroupDocs.Signature pour .NET
 ## Introduction
 À l'ère du numérique, une gestion et une automatisation efficaces des documents sont essentielles. Ajouter des signatures par programmation à des documents tout en maintenant un positionnement précis est un défi courant. Ce tutoriel avancé vous guidera dans la définition de la position d'une signature à l'aide de mesures en pourcentage avec GroupDocs.Signature pour .NET.

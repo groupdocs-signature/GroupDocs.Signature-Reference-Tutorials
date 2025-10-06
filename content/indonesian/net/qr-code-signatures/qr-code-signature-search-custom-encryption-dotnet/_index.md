@@ -4,8 +4,8 @@
 "title": "Menerapkan Pencarian Tanda Tangan Kode QR dengan Enkripsi Kustom di .NET Menggunakan GroupDocs.Signature"
 "url": "/id/net/qr-code-signatures/qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Implementasi Pencarian Tanda Tangan Kode QR dengan Enkripsi Kustom di .NET
 
 ## Perkenalan

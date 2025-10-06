@@ -5,8 +5,8 @@
 "title": "Buscar firmas de texto en documentos"
 "url": "/es/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## Introducción
 
 Las firmas de texto son un método común para indicar la autoría, aprobación o verificación de documentos. En la gestión de documentos digitales, la capacidad de buscar y extraer firmas de texto mediante programación es crucial para la validación de documentos, la automatización del flujo de trabajo y la verificación del cumplimiento normativo. GroupDocs.Signature para .NET ofrece una solución integral para implementar la función de búsqueda de firmas de texto en sus aplicaciones .NET, compatible con diversos formatos de documentos y funciones de búsqueda avanzadas.

@@ -4,8 +4,8 @@
 "title": "ตรวจสอบเอกสาร .NET ด้วยลายเซ็นบาร์โค้ดโดยใช้ GroupDocs.Signature"
 "url": "/th/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำการตรวจสอบเอกสารด้วยลายเซ็นบาร์โค้ดไปใช้ใน .NET โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

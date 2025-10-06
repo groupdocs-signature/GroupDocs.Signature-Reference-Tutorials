@@ -3,8 +3,8 @@
 "title": "Tutoriels sur les signatures d'images pour GroupDocs.Signature .NET"
 "url": "/fr/net/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Tutoriels sur les signatures d'images pour GroupDocs.Signature .NET
 
 Découvrez comment enrichir vos documents avec des signatures visuelles grâce à nos tutoriels GroupDocs.Signature .NET sur les signatures d'images. Ces guides détaillés expliquent comment ajouter des images comme signatures, créer des signatures tamponnées, implémenter des filigranes, personnaliser les paramètres d'apparence et utiliser les options d'alignement et de dimensionnement des images. Chaque tutoriel inclut des exemples de code C# concrets qui montrent comment créer des signatures visuellement attrayantes, véhiculant efficacement l'authenticité ou l'image de marque tout en préservant l'intégrité du document.

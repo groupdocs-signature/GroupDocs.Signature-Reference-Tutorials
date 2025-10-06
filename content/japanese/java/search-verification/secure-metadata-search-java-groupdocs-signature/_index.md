@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signatureを使用したJavaでの安全なメタデータ検索：総合ガイド"
 "url": "/ja/java/search-verification/secure-metadata-search-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した Java での安全なメタデータ検索
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": "Űrlapmező-aláírások keresése és kinyerése PDF-ekben a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Űrlapmező-aláírások keresése és kinyerése PDF-dokumentumokban a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

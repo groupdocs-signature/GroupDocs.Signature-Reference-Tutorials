@@ -4,8 +4,8 @@
 "title": "Comment signer des feuilles de calcul Excel avec des métadonnées à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer des feuilles de calcul Excel avec des métadonnées à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

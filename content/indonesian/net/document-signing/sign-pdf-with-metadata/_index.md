@@ -5,8 +5,8 @@
 "title": "Menambahkan Tanda Tangan Metadata ke Dokumen PDF di C# .NET"
 "url": "/id/net/document-signing/sign-pdf-with-metadata/"
 "weight": 11
+type: docs
 ---
-
 ## Perkenalan
 
 Dokumen PDF (Portable Document Format) banyak digunakan di berbagai industri karena konsistensi dan independensi platformnya. Memastikan keaslian dan keterlacakan dokumen-dokumen ini sangat penting di banyak lingkungan profesional. Salah satu cara efektif untuk mencapai hal ini adalah dengan menyematkan metadata ke dalam berkas PDF itu sendiri.

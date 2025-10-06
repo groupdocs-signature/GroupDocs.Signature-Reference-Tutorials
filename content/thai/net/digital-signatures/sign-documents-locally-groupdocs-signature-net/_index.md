@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในเอกสารในเครื่องโดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/digital-signatures/sign-documents-locally-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามเอกสารในเครื่องโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

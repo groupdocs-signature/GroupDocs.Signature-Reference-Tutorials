@@ -4,8 +4,8 @@
 "title": "Gerar visualização de assinatura digital em PDF com o GroupDocs.Signature para .NET | Guia completo"
 "url": "/pt/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Como gerar uma visualização de assinatura digital em PDF usando o GroupDocs.Signature para .NET
 
 ## Introdução

@@ -4,8 +4,8 @@
 "title": "Extrakce metadat PDF pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/preview-info/extract-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Extrakce metadat PDF pomocí GroupDocs.Signature pro Javu: Komplexní průvodce
 
 ## Zavedení

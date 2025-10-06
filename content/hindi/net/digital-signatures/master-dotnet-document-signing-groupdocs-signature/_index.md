@@ -4,8 +4,8 @@
 "title": "सुरक्षित डिजिटल हस्ताक्षर के लिए GroupDocs.Signature के साथ मास्टर .NET दस्तावेज़ हस्ताक्षर"
 "url": "/hi/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ .NET दस्तावेज़ पर हस्ताक्षर करने में महारत हासिल करना
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Cách triển khai tìm kiếm mã vạch .NET bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai tìm kiếm mã vạch .NET bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

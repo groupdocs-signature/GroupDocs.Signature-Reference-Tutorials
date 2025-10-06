@@ -4,8 +4,8 @@
 "title": "كيفية توقيع مستندات Word باستخدام رمز الاستجابة السريعة وحفظها بتنسيق ODT باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/qr-code-signatures/sign-word-docs-qr-code-save-odt-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستندات Word باستخدام رمز الاستجابة السريعة وحفظها بتنسيق ODT باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

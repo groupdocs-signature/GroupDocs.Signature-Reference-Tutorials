@@ -5,8 +5,8 @@
 "title": "Suche nach Textsignaturen in Dokumenten"
 "url": "/de/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## Einführung
 
 Textsignaturen sind eine gängige Methode, um die Urheberschaft, Freigabe oder Verifizierung von Dokumenten zu kennzeichnen. Im digitalen Dokumentenmanagement ist die Möglichkeit, Textsignaturen programmgesteuert zu suchen und zu extrahieren, entscheidend für die Dokumentenvalidierung, Workflow-Automatisierung und Compliance-Verifizierung. GroupDocs.Signature für .NET bietet eine umfassende Lösung für die Implementierung der Textsignatur-Suchfunktion in Ihren .NET-Anwendungen und unterstützt verschiedene Dokumentformate und erweiterte Suchfunktionen.

@@ -4,8 +4,8 @@
 "title": "Chuyển đổi hình ảnh .NET Base64 và ký tài liệu với GroupDocs.Signature"
 "url": "/vi/net/image-signatures/net-base64-image-conversion-document-signing-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai Chuyển đổi hình ảnh .NET Base64 và Ký tài liệu bằng GroupDocs.Signature
 
 ## Giới thiệu

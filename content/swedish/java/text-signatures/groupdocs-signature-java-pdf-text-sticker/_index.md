@@ -4,8 +4,8 @@
 "title": "Hur man signerar PDF-filer med textklistermärken med GroupDocs.Signature för Java – en komplett guide"
 "url": "/sv/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Så här signerar du PDF-filer med textklistermärken med GroupDocs.Signature för Java: En komplett guide
 
 ## Introduktion

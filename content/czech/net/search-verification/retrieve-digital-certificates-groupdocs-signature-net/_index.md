@@ -4,8 +4,8 @@
 "title": "Načtení digitálních certifikátů z archivů pomocí GroupDocs.Signature pro .NET | Podrobný návod"
 "url": "/cs/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Načtení digitálních certifikátů z archivů pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

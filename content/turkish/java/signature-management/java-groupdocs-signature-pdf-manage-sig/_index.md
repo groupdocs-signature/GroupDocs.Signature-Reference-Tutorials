@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da PDF İmza Yönetiminde Ustalaşın"
 "url": "/tr/java/signature-management/java-groupdocs-signature-pdf-manage-sig/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Java'da PDF İmza Yönetiminde Ustalaşma
 
 ## giriiş

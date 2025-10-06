@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java Sunumlarında Meta Veri Araması Nasıl Uygulanır?"
 "url": "/tr/java/search-verification/implement-metadata-search-groupdocs-java-presentations/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Java Sunumlarında Meta Veri Araması Nasıl Uygulanır?
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Hur man laddar ner filer från Amazon S3 med hjälp av AWS SDK för Java med GroupDocs.Signature-integration"
 "url": "/sv/java/advanced-options/download-files-amazon-s3-aws-sdk-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hur man laddar ner filer från Amazon S3 med hjälp av AWS SDK för Java med GroupDocs.Signature-integration
 
 ## Introduktion

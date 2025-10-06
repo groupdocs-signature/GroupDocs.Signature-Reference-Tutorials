@@ -4,8 +4,8 @@
 "title": "掌握 GroupDocs.Signature for .NET&#58; 訂閱與設定條碼搜尋事件"
 "url": "/zh-hant/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 .NET 的 GroupDocs.Signature：訂閱與設定條碼搜尋事件
 
 ## 介紹

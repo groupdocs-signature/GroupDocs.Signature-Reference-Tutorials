@@ -4,8 +4,8 @@
 "title": "Tutorial sulla firma Java Stamp&#58; come firmare i PDF con l'API GroupDocs.Signature"
 "url": "/it/java/image-signatures/java-groupdocs-signature-stamp-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Tutorial sulla firma Java Stamp: firma di documenti PDF con l'API GroupDocs.Signature
 
 Nell'attuale panorama digitale, la firma efficiente e sicura dei documenti è fondamentale sia per le aziende che per i privati. Che si tratti di autorizzare contratti o verificare documenti, garantirne l'autenticità digitalmente può far risparmiare tempo e risorse. Questo tutorial completo ti guiderà nell'utilizzo dell'API GroupDocs.Signature per Java per firmare un documento PDF con una firma con timbro personalizzato. Seguendo questa procedura dettagliata, imparerai come aggiungere linee esterne e interne con testo, stili di carattere, colori e posizionamento specifici.

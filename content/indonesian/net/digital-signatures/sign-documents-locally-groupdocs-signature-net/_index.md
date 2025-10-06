@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen Secara Lokal Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/digital-signatures/sign-documents-locally-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen Secara Lokal Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -5,8 +5,8 @@
 "title": "如何在 .NET 中按类型删除文档签名"
 "url": "/zh/net/delete-operations/delete-signature-by-type/"
 "weight": 12
+type: docs
 ---
-
 # 如何在 .NET 中按类型删除文档签名
 
 ## 为什么签名管理在文档处理中如此重要

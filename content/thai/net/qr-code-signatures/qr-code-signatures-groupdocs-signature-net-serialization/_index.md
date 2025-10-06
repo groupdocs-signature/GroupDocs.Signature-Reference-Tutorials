@@ -4,8 +4,8 @@
 "title": "นำลายเซ็น QR Code ไปใช้ใน .NET พร้อมการสร้างซีเรียลไลเซชันแบบกำหนดเองโดยใช้ GroupDocs.Signature"
 "url": "/th/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # นำลายเซ็น QR Code ไปใช้งานด้วยการสร้างซีเรียลไลเซชันแบบกำหนดเองใน .NET โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Jak implementovat textové podpisy v .NET pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat textové podpisy v .NET pomocí GroupDocs.Signature: Komplexní průvodce
 
 ## Zavedení

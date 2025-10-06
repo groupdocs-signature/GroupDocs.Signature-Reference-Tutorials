@@ -4,8 +4,8 @@
 "title": "Cómo firmar un PDF desde una URL con GroupDocs.Signature para Java&#58; Tutorial de firma digital"
 "url": "/es/java/digital-signatures/sign-pdf-from-url-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar un PDF desde una URL con GroupDocs.Signature para Java
 
 ## Introducción

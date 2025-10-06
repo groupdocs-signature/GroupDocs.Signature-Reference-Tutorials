@@ -5,8 +5,8 @@
 "title": "วิธีการเพิ่มลายเซ็นแสตมป์ลงในเอกสารด้วย GroupDocs.Signature"
 "url": "/th/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # วิธีการเพิ่มลายเซ็นสแตมป์มืออาชีพลงในเอกสาร .NET ของคุณ
 
 ## คุณสามารถทำอะไรได้บ้างด้วยการประทับตราลายเซ็น?

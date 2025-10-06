@@ -4,8 +4,8 @@
 "title": "GroupDocs for Java を使用して、QR コード署名で PDF に署名し、画像としてエクスポートする"
 "url": "/ja/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して PDF に署名し、QR コード付きの画像としてエクスポートするための包括的なガイド
 
 ## 導入

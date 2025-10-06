@@ -4,8 +4,8 @@
 "title": "Digitale certificaten verifiëren met Aspose.Signature voor .NET | Stapsgewijze handleiding"
 "url": "/nl/net/search-verification/verify-digital-certificates-aspose-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Digitale certificaten verifiëren met Aspose.Signature voor .NET
 
 ## Invoering

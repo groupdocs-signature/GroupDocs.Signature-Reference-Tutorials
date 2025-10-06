@@ -4,8 +4,8 @@
 "title": "Implementace možností podpisu razítkem v Javě pomocí GroupDocs.Signature pro autenticitu dokumentů"
 "url": "/cs/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementace možností podpisu razítkem v Javě pomocí GroupDocs.Signature pro autenticitu dokumentů
 ## Jak implementovat možnosti podpisu razítkem v Javě pomocí GroupDocs.Signature pro Javu
 dnešní digitální době je zajištění pravosti dokumentů prvořadé. Ať už jste obchodní profesionál nebo jednotlivec, který potřebuje ověřovat smlouvy a dohody, přidání podpisu razítkem může dodat důvěryhodnost a bezpečnost. Tento tutoriál vás provede nastavením možností podpisu razítkem pomocí GroupDocs.Signature pro Javu – výkonné knihovny přizpůsobené tak, aby snadno splňovala vaše potřeby v oblasti podepisování dokumentů.

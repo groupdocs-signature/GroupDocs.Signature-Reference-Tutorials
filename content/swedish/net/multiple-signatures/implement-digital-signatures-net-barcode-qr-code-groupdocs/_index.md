@@ -4,8 +4,8 @@
 "title": "Implementera digitala signaturer i .NET &#50; Guide för integration av streckkoder och QR-koder"
 "url": "/sv/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar digitala signaturer i .NET: Streckkods- och QR-kodsignering med GroupDocs.Signature
 
 dagens digitala tidsålder är det viktigare än någonsin att autentisera dokument snabbt och säkert. Oavsett om du är en utvecklare som arbetar med en företagsapplikation eller bara vill effektivisera din dokumenthanteringsprocess, kan det vara omvälvande att lägga till signaturer. Den här handledningen guidar dig genom hur du använder **GroupDocs.Signature för .NET** att digitalt signera dokument med både streckkods- och QR-kodsignaturer, vilket erbjuder robusta lösningar för säker dokumentation.

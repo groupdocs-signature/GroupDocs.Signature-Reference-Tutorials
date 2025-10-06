@@ -4,8 +4,8 @@
 "title": "GroupDocs Kullanarak Java'da QR Kod İmzalarını Silme Kılavuzu"
 "url": "/tr/java/signature-management/qr-code-signature-deletion-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs Kullanarak Java'da QR Kod İmzalarını Silme Kılavuzu
 
 ## giriiş

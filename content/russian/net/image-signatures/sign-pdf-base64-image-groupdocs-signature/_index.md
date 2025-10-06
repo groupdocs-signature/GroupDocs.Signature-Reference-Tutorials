@@ -4,8 +4,8 @@
 "title": "Подписание PDF-документов с использованием изображений Base64 и GroupDocs.Signature для .NET"
 "url": "/ru/net/image-signatures/sign-pdf-base64-image-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать PDF-документ, используя изображения Base64 с помощью GroupDocs.Signature для .NET
 
 ## Введение

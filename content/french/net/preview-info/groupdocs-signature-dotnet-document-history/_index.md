@@ -4,8 +4,8 @@
 "title": "Maîtriser l'historique des processus documentaires avec GroupDocs.Signature pour .NET - Un guide complet"
 "url": "/fr/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser l'historique des processus documentaires avec GroupDocs.Signature pour .NET : un guide complet
 
 ## Introduction

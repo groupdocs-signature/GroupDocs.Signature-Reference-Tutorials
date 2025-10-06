@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dari URL Menggunakan GroupDocs.Signature untuk Tutorial Tanda Tangan Digital Java"
 "url": "/id/java/digital-signatures/sign-pdf-from-url-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF dari URL Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

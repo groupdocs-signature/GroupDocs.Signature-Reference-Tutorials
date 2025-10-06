@@ -4,8 +4,8 @@
 "title": "كيفية حذف توقيعات متعددة في المستندات باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/signature-management/delete-multiple-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية حذف توقيعات متعددة في مستند باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

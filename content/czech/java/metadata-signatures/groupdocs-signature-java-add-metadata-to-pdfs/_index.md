@@ -4,8 +4,8 @@
 "title": "Přidání podpisů metadat do PDF pomocí GroupDocs.Signature pro Javu – kompletní průvodce"
 "url": "/cs/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/"
 "weight": 1
+type: docs
 ---
-
 # Přidání podpisů metadat do PDF pomocí GroupDocs.Signature pro Javu
 ## Zavedení
 V dnešní digitální době je zajištění autenticity a integrity vašich PDF dokumentů klíčové. Ať už jste právník spravující smlouvy, nebo firma nakládající s citlivými daty, přidání podpisů metadat může poskytnout další vrstvu zabezpečení a sledovatelnosti. Tato příručka vám ukáže, jak používat GroupDocs.Signature pro Javu k bezproblémovému přidání standardních podpisů metadat do vašich PDF souborů.

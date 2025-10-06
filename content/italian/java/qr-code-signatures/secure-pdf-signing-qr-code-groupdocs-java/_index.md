@@ -4,8 +4,8 @@
 "title": "Implementare la firma PDF sicura con crittografia del codice QR in Java utilizzando GroupDocs.Signature"
 "url": "/it/java/qr-code-signatures/secure-pdf-signing-qr-code-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare la firma PDF sicura con crittografia del codice QR in Java utilizzando GroupDocs.Signature
 
 Nell'era digitale odierna, proteggere le informazioni sensibili contenute nei documenti è fondamentale. L'aumento delle minacce informatiche ha reso la crittografia dei dati una componente essenziale della gestione dei documenti. Questo tutorial vi guiderà nell'implementazione della firma PDF sicura utilizzando la crittografia tramite codice QR con GroupDocs.Signature per Java. Al termine di questo articolo, sarete in grado di integrare solide funzionalità di sicurezza nelle vostre applicazioni.

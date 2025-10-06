@@ -5,8 +5,8 @@
 "title": "Wyszukaj pola formularza w dokumentach"
 "url": "/pl/net/signature-searching/search-for-form-fields/"
 "weight": 12
+type: docs
 ---
-
 ## Wstęp
 
 W nowoczesnych systemach zarządzania dokumentami pola formularzy odgrywają kluczową rolę w gromadzeniu danych, interakcji z użytkownikiem i automatyzacji dokumentów. GroupDocs.Signature for .NET oferuje programistom zaawansowany zestaw narzędzi do pracy z polami formularzy w różnych formatach dokumentów, w tym do wyszukiwania, pobierania i przetwarzania tych elementów programowo.

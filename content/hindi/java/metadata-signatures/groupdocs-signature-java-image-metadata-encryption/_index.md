@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ जावा में छवि मेटाडेटा हस्ताक्षर और एन्क्रिप्शन लागू करें"
 "url": "/hi/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके जावा में एन्क्रिप्शन के साथ छवि मेटाडेटा हस्ताक्षर को कार्यान्वित करें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Zabezpečení dokumentů Java s podpisem metadat a šifrováním pomocí GroupDocs"
 "url": "/cs/java/metadata-signatures/java-metadata-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Zabezpečení dokumentů Java s podpisem metadat a šifrováním pomocí GroupDocs
 
 ## Zavedení

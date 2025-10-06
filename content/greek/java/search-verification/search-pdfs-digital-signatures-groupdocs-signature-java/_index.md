@@ -4,8 +4,8 @@
 "title": "Πώς να αναζητήσετε ψηφιακές υπογραφές σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/search-verification/search-pdfs-digital-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αναζητήσετε ψηφιακές υπογραφές σε PDF με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

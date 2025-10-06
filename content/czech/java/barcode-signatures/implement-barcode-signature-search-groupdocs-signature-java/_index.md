@@ -4,8 +4,8 @@
 "title": "Jak implementovat vyhledávání podpisů čárových kódů v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat vyhledávání podpisů čárových kódů v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

@@ -3,8 +3,8 @@
 "title": "Tutorial sulla firma del codice a barre per GroupDocs.Signature .NET"
 "url": "/it/net/barcode-signatures/"
 "weight": 4
+type: docs
 ---
-
 # Tutorial sulla firma del codice a barre per GroupDocs.Signature .NET
 
 I nostri tutorial sulle firme basate su codici a barre forniscono indicazioni dettagliate per l'implementazione di firme basate su codici a barre nelle applicazioni .NET. Segui queste guide pratiche per imparare a firmare documenti con diversi tipi di codici a barre, personalizzare l'aspetto dei codici a barre, cercare codici a barre nei documenti esistenti, aggiornare o eliminare firme basate su codici a barre e verificarne il contenuto. Questi tutorial includono esempi completi di codice C# per le operazioni più comuni con i codici a barre, aiutandoti a creare applicazioni in grado di codificare e verificare in modo sicuro le informazioni nei documenti tramite la tecnologia dei codici a barre.

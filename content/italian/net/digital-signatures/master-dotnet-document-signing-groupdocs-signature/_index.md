@@ -4,8 +4,8 @@
 "title": "Firma di documenti .NET con GroupDocs.Signature per firme digitali sicure"
 "url": "/it/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la firma dei documenti .NET con GroupDocs.Signature
 
 ## Introduzione

@@ -4,8 +4,8 @@
 "title": "Αναζήτηση και κρυπτογράφηση κωδικού QR σε Java Master GroupDocs.Signature για ασφαλή χειρισμό εγγράφων"
 "url": "/el/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Αναζήτηση και κρυπτογράφηση κωδικού QR σε Java: Master GroupDocs.Signature για ασφαλή χειρισμό εγγράφων
 
 ## Εισαγωγή

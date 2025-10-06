@@ -5,8 +5,8 @@
 "title": "วิธีการดึงข้อมูลเอกสารด้วย GroupDocs.Signature"
 "url": "/th/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # วิธีการดึงข้อมูลเอกสารโดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

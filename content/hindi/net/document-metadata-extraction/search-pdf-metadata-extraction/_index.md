@@ -5,8 +5,8 @@
 "title": ".NET में PDF मेटाडेटा हस्ताक्षर कैसे निकालें"
 "url": "/hi/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # पीडीएफ मेटाडेटा हस्ताक्षर कैसे निकालें और खोजें
 
 ## आपके दस्तावेज़ों के लिए PDF मेटाडेटा क्यों महत्वपूर्ण है

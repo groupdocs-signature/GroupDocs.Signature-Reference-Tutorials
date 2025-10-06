@@ -4,8 +4,8 @@
 "title": "Dokumentum aláírás keresésének elsajátítása a GroupDocs.Signature for Java segítségével – Átfogó útmutató"
 "url": "/hu/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum aláírás keresésének elsajátítása a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

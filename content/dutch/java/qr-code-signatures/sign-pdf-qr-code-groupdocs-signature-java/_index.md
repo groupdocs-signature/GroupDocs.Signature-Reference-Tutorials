@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met QR-codes met GroupDocs.Signature in Java&#58; een stapsgewijze handleiding"
 "url": "/nl/java/qr-code-signatures/sign-pdf-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java Signature Library implementeren: PDF laden en ondertekenen met QR-code-opties met GroupDocs.Signature
 
 In het huidige digitale landschap is het waarborgen van de integriteit van documenten cruciaal, vooral bij het werken met gevoelige informatie. Het toevoegen van elektronische handtekeningen verbetert niet alleen de beveiliging, maar ook de efficiëntie. Deze stapsgewijze handleiding begeleidt u bij het gebruik ervan. **GroupDocs.Signature voor Java** om PDF-bestanden met QR-code-opties te laden en te ondertekenen.

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して PDF にテキスト署名を実装する方法 - 完全ガイド"
 "url": "/ja/java/text-signatures/groupdocs-signature-java-text-signatures-pdf/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して PDF にテキスト署名を実装する方法
 
 **ドキュメントワークフローの合理化: GroupDocs.Signature for Java を使用した PDF 内のテキスト署名の検索と管理に関する包括的なガイド**

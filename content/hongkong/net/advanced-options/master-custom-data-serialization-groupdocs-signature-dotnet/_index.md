@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 進階指南掌握 .NET 中的自訂資料序列化"
 "url": "/zh-hant/net/advanced-options/master-custom-data-serialization-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 .NET 中的自訂資料序列化
 ## 介紹
 在數位文件處理領域，透過精確的序列化來確保資料完整性至關重要。本進階指南探討如何使用 GroupDocs.Signature for .NET 中的屬性實現自訂資料序列化—這是一個強大的解決方案，可簡化新增簽署至文件的過程。透過利用具有自訂屬性的特定序列化規則，您可以簡化工作流程並增強資料安全性。

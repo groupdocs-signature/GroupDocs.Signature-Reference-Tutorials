@@ -5,8 +5,8 @@
 "title": "Łatwe wyodrębnianie metadanych prezentacji za pomocą GroupDocs.Signature"
 "url": "/pl/net/document-metadata-extraction/search-presentation-metadata-extraction/"
 "weight": 12
+type: docs
 ---
-
 # Jak wyodrębnić metadane z prezentacji za pomocą GroupDocs.Signature
 
 ## Dlaczego metadane prezentacji mają znaczenie dla Twoich projektów

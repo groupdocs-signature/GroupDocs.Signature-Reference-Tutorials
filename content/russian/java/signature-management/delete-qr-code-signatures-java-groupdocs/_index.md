@@ -4,8 +4,8 @@
 "title": "Как удалить подписи QR-кодов из документов с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/signature-management/delete-qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Как удалить подписи QR-кодов из документов с помощью GroupDocs.Signature для Java
 
 ## Введение

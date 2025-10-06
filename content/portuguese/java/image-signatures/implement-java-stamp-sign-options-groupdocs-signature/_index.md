@@ -4,8 +4,8 @@
 "title": "Implementar opções de assinatura Java Stamp com GroupDocs.Signature para autenticidade de documentos"
 "url": "/pt/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementar opções de assinatura Java Stamp com GroupDocs.Signature para autenticidade de documentos
 ## Como implementar opções de assinatura Java Stamp com GroupDocs.Signature para Java
 Na era digital atual, garantir a autenticidade dos documentos é fundamental. Seja você um profissional da área de negócios ou um indivíduo que precisa validar contratos e acordos, adicionar uma assinatura com carimbo pode conferir credibilidade e segurança. Este tutorial guiará você pela configuração de opções de assinatura com carimbo usando o GroupDocs.Signature para Java — uma biblioteca poderosa, feita sob medida para atender às suas necessidades de assinatura de documentos com facilidade.

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 从文档中删除图像签名"
 "url": "/zh/java/signature-management/delete-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 从文档中删除图像签名
 
 管理数字签名对于维护文档的完整性和真实性至关重要。无论您是管理合同的企业，还是处理发票的小型企业，删除过期或错误的图像签名都可以简化文档管理。本教程将指导您使用 GroupDocs.Signature for Java 删除已知 ID 的图像签名。

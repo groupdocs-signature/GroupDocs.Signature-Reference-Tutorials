@@ -4,8 +4,8 @@
 "title": "Υπογραφή και αποθήκευση υπολογιστικών φύλλων Excel με κωδικούς QR σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Υπογραφή και αποθήκευση υπολογιστικών φύλλων Excel με κωδικούς QR σε Java χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

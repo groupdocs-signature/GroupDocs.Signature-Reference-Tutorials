@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 自動擷取電子表格中的元數據"
 "url": "/zh-hant/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 自動擷取電子表格中的元數據
 
 ## 介紹

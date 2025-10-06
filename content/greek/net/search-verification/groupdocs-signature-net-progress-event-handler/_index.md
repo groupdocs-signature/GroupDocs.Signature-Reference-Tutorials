@@ -4,8 +4,8 @@
 "title": "Βελτιστοποιήστε τις αναζητήσεις εγγράφων με το GroupDocs.Signature για .NET® Υλοποιήστε τους χειριστές συμβάντων προόδου"
 "url": "/el/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # Βελτιστοποίηση αναζητήσεων εγγράφων με το GroupDocs.Signature για .NET: Υλοποίηση χειριστών συμβάντων προόδου
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Implementeer QR-codehandtekeningzoekopdracht met aangepaste encryptie in .NET met behulp van GroupDocs.Signature"
 "url": "/nl/net/qr-code-signatures/implement-qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Implementeer QR-codehandtekeningzoekopdracht met aangepaste encryptie met behulp van GroupDocs.Signature voor .NET
 
 ## Invoering

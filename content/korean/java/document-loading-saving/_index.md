@@ -3,8 +3,8 @@
 "title": "Java용 GroupDocs.Signature를 사용한 문서 로드 및 저장 튜토리얼"
 "url": "/ko/java/document-loading-saving/"
 "weight": 2
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용한 문서 로드 및 저장 튜토리얼
 
 문서 로딩 및 저장 튜토리얼은 Java에서 프로그래밍 방식으로 문서를 처리하는 방법에 대한 포괄적인 지침을 제공합니다. 로컬 디스크, 스트림, URL, Amazon S3 및 Azure Blob Storage와 같은 클라우드 스토리지 제공업체, FTP에서 문서를 로드하는 방법을 단계별 가이드를 통해 알아보세요. 또한, 암호 보호 기능을 사용한 저장, 다양한 출력 형식, 다양한 문서 유형에 대한 특수 저장 옵션 등 다양한 문서 저장 시나리오도 다룹니다.

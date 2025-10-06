@@ -4,8 +4,8 @@
 "title": "Tutoriel sur la signature Java Stamp &#58; Comment signer des fichiers PDF avec l'API GroupDocs.Signature"
 "url": "/fr/java/image-signatures/java-groupdocs-signature-stamp-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Tutoriel sur la signature Java Stamp : Signature de documents PDF avec l'API GroupDocs.Signature
 
 Dans le paysage numérique actuel, la signature efficace et sécurisée des documents est essentielle pour les entreprises comme pour les particuliers. Qu'il s'agisse d'autoriser des contrats ou de vérifier des documents, garantir l'authenticité numériquement permet de gagner du temps et de l'argent. Ce tutoriel complet vous guidera dans l'utilisation de l'API GroupDocs.Signature pour Java pour signer un document PDF avec une signature personnalisée. En suivant ce processus étape par étape, vous apprendrez à ajouter des lignes extérieures et intérieures avec du texte, des styles de police, des couleurs et un positionnement spécifiques.

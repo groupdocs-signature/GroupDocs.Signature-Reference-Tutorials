@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके टेक्स्ट स्टैम्प के साथ दस्तावेज़ों पर हस्ताक्षर कैसे करें"
 "url": "/hi/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके टेक्स्ट स्टैम्प के साथ दस्तावेज़ों पर हस्ताक्षर कैसे करें
 
 ## परिचय

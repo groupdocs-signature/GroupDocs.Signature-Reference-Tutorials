@@ -4,8 +4,8 @@
 "title": "如何使用 .NET 中的 GroupDocs 对包含短信的二维码 PDF 进行签名"
 "url": "/zh/net/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 对包含 SMS 对象的二维码 PDF 文档进行签名
 
 ## 介绍

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java ile Java İmza Yönetiminde Ustalaşın"
 "url": "/tr/java/signature-management/master-java-signature-management-groupdocs-for-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile Java İmza Yönetiminde Ustalaşma
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "在 .NET 中實作數位簽章及其條碼和二維碼整合指南"
 "url": "/zh-hant/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 如何在 .NET 中實作數位簽章：使用 GroupDocs.Signature 進行條碼和二維碼簽名
 
 在當今的數位時代，快速且安全地驗證文件比以往任何時候都更加重要。無論您是開發企業應用程式的開發人員，還是只想簡化文件管理流程，添加簽名都能帶來革命性的改變。本教學將指導您如何使用 **適用於 .NET 的 GroupDocs.Signature** 使用條碼和二維碼簽名對文件進行數位簽名，為安全文件提供強大的解決方案。

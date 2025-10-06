@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Belgelerdeki Birden Fazla İmza Nasıl Silinir?"
 "url": "/tr/net/signature-management/delete-multiple-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanılarak Bir Belgedeki Birden Fazla İmza Nasıl Silinir?
 
 ## giriiş

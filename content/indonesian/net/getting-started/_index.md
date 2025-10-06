@@ -3,8 +3,8 @@
 "title": "Tutorial Memulai GroupDocs.Signature untuk Pengembang .NET"
 "url": "/id/net/getting-started/"
 "weight": 1
+type: docs
 ---
-
 # Tutorial Memulai GroupDocs.Signature untuk Pengembang .NET
 
 Mulailah perjalanan Anda dengan tutorial penting GroupDocs.Signature ini yang akan memandu Anda melalui proses instalasi, konfigurasi lisensi, dan pembuatan implementasi tanda tangan digital pertama Anda di .NET. Panduan ramah pemula kami akan menunjukkan cara menyiapkan lingkungan pengembangan, menginisialisasi pustaka GroupDocs.Signature, dan menjalankan operasi tanda tangan dasar. Ikuti tutorial ini untuk menguasai dasar-dasarnya dengan cepat dan mempersiapkan diri untuk tugas penandatanganan dokumen tingkat lanjut di aplikasi .NET Anda.

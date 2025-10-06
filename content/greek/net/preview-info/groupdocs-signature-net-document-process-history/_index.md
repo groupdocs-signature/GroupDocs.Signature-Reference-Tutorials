@@ -4,8 +4,8 @@
 "title": "Πώς να ανακτήσετε το ιστορικό διεργασιών εγγράφων με το GroupDocs.Signature για .NET® - Ένας οδηγός βήμα προς βήμα"
 "url": "/el/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να ανακτήσετε το ιστορικό διεργασιών εγγράφων με το GroupDocs.Signature για .NET: Οδηγός βήμα προς βήμα
 
 ## Εισαγωγή

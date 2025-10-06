@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs 進行元資料和加密的 Java PDF 簽章—綜合指南"
 "url": "/zh-hant/java/digital-signatures/java-pdf-signing-metadata-encryption-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 掌握使用 GroupDocs 進行元資料和加密的 Java PDF 簽名
 
 ## 介紹

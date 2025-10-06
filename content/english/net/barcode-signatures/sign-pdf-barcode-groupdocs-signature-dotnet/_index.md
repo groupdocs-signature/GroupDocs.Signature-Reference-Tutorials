@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing"]
 tags: ["barcode-signature", "pdf-signing", "groupdocs", "csharp", "document-security"]
+type: docs
 ---
-
 # PDF Barcode Signature C# - Complete Implementation Guide
 
 Looking to add secure, verifiable barcode signatures to your PDF documents programmatically? You're in the right place. While traditional digital signatures work great, barcode signatures offer unique advantages for document tracking, quick verification, and automated processing workflows.

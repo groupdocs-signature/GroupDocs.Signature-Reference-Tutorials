@@ -4,8 +4,8 @@
 "title": "Implementar firmas digitales con marcas de tiempo en archivos PDF usando Java y GroupDocs.Signature"
 "url": "/es/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementación de firmas digitales con marcas de tiempo en archivos PDF mediante Java y GroupDocs.Signature
 
 ## Introducción

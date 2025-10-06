@@ -4,8 +4,8 @@
 "title": "Implementasi Tanda Tangan PDF dengan Teks & Kotak Centang Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementasi Tanda Tangan PDF dengan Teks & Kotak Centang Menggunakan GroupDocs.Signature untuk .NET
 
 ## Tanda Tangan Bidang Formulir

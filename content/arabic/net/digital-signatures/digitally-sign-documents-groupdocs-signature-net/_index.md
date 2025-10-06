@@ -4,8 +4,8 @@
 "title": "التوقيع الرقمي على المستندات باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/digital-signatures/digitally-sign-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية التوقيع الرقمي على المستندات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Panduan Lengkap Menguasai Tanda Tangan Digital di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/digital-signatures/mastering-digital-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Tanda Tangan Digital di Java: Panduan Lengkap dengan GroupDocs.Signature
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Jak podepisovat dokumenty textovým a obrazovým podpisem v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat podepisování dokumentů pomocí textového a obrazového podpisu pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

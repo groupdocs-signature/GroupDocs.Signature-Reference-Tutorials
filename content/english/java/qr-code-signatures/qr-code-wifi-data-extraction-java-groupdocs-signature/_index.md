@@ -8,10 +8,8 @@ keywords:
 - extract WiFi data from QR codes
 - GroupDocs.Signature for Java
 - QR code signatures in PDFs
-
+type: docs
 ---
-
-
 # Extract WiFi Data from QR Codes in PDFs Using Java with GroupDocs.Signature
 
 ## Introduction

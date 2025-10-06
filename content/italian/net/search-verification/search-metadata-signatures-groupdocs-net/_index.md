@@ -4,8 +4,8 @@
 "title": "Cerca firme di metadati nei documenti immagine utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/search-verification/search-metadata-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Come cercare le firme dei metadati nei documenti immagine utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

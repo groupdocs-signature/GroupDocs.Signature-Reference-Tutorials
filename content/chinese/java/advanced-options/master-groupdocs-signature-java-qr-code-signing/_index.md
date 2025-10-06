@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 掌握 Java 动态文档签名及其二维码签名技术"
 "url": "/zh/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 掌握动态文档签名：二维码签名技术
 
 在当今的数字世界中，有效地保护和验证电子文档至关重要。 **GroupDocs.Signature for Java** 提供了一个强大的解决方案，可以快速签署 PDF，同时使用各个位置的二维码签名确保其真实性。

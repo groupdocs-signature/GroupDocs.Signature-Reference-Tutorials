@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して PDF に署名してエクスポートする"
 "url": "/ja/net/digital-signatures/sign-export-pdfs-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して PDF に署名してエクスポートする
 
 ## 導入

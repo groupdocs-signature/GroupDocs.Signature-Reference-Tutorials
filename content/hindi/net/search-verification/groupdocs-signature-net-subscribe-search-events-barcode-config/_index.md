@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature में महारत हासिल करना, बारकोड खोज ईवेंट की सदस्यता लेना और कॉन्फ़िगर करना"
 "url": "/hi/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature में महारत हासिल करना: बारकोड खोज इवेंट की सदस्यता लेना और कॉन्फ़िगर करना
 
 ## परिचय

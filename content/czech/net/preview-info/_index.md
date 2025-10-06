@@ -3,8 +3,8 @@
 "title": "Náhled dokumentu a návody k informacím pro GroupDocs.Signature .NET"
 "url": "/cs/net/preview-info/"
 "weight": 13
+type: docs
 ---
-
 # Náhled dokumentu a návody k informacím pro GroupDocs.Signature .NET
 
 Naše návody s ukázkami a informacemi vám ukážou, jak extrahovat cenná data z dokumentů pomocí nástroje GroupDocs.Signature v .NET. Tyto podrobné návody ukazují, jak generovat náhledy dokumentů, načítat informace o dokumentech, přistupovat k podrobnostem o podpisu, zobrazovat historii zpracování dokumentů a zkoumat vlastnosti souborů. Každý návod obsahuje praktické příklady kódu C# pro scénáře kontroly dokumentů, které vám pomohou vytvářet aplikace, jež poskytují komplexní transparentnost dokumentů pro lepší uživatelský zážitek a sledování pracovních postupů.

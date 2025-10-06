@@ -4,8 +4,8 @@
 "title": "如何使用 Aspose.Signature for .NET 验证数字证书 | 分步指南"
 "url": "/zh/net/search-verification/verify-digital-certificates-aspose-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 Aspose.Signature for .NET 验证数字证书
 
 ## 介绍

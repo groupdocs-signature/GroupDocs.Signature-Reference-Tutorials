@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके Excel VBA प्रोजेक्ट्स पर हस्ताक्षर कैसे करें. Java के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/java/digital-signatures/sign-excel-vba-projects-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके Excel VBA प्रोजेक्ट्स पर हस्ताक्षर कैसे करें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak PDF'lerde Java Barkod Arama"
 "url": "/tr/java/search-verification/java-barcode-search-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak PDF'lerde Java Barkod Araması Nasıl Uygulanır?
 
 ## giriiş

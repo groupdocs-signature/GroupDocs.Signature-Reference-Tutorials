@@ -4,8 +4,8 @@
 "title": "ดึงประวัติกระบวนการเอกสารด้วย GroupDocs.Signature สำหรับ Java คู่มือฉบับสมบูรณ์"
 "url": "/th/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # ดึงประวัติกระบวนการเอกสารด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

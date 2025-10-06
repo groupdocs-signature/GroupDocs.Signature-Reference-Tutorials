@@ -4,8 +4,8 @@
 "title": "التحقق من المستندات الرقمية باستخدام Java باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/java/digital-signatures/java-groupdocs-signature-digital-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التحقق من المستندات الرقمية في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

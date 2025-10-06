@@ -4,8 +4,8 @@
 "title": "Cómo firmar de forma segura documentos de Word con códigos QR usando GroupDocs.Signature para Java"
 "url": "/es/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar de forma segura documentos de Word con códigos QR usando GroupDocs.Signature para Java
 
 En el mundo digital actual, firmar documentos de forma segura es crucial tanto para empresas como para particulares. Ya sean contratos, acuerdos legales o cartas oficiales, garantizar la autenticidad de sus documentos es fundamental. Con las firmas electrónicas, hemos simplificado este proceso, añadiendo una capa adicional de seguridad y comodidad. GroupDocs.Signature para Java ofrece una potente solución para firmar documentos de Word con códigos QR: una firma digital moderna y segura.

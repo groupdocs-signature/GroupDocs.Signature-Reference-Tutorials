@@ -4,8 +4,8 @@
 "title": "Java-PDF-Textsignaturen mit benutzerdefinierten Rändern unter Verwendung von GroupDocs.Signature für Java"
 "url": "/de/java/text-signatures/java-pdf-text-signatures-groupdocs-custom-borders/"
 "weight": 1
+type: docs
 ---
-
 # Java-PDF-Textsignaturen mit benutzerdefinierten Rändern mithilfe von GroupDocs.Signature meistern
 
 Im digitalen Zeitalter ist die Authentizität von Dokumenten für Unternehmen und Privatpersonen gleichermaßen entscheidend. Mit der zunehmenden Verbreitung elektronischer Dokumente werden traditionelle Signaturmethoden durch effizientere und sicherere Lösungen wie Textsignaturen in PDFs ersetzt. Wenn Sie Ihren PDF-Dokumenten mit individuell gestalteten Textsignaturen mithilfe von GroupDocs.Signature für Java einen professionellen Touch verleihen möchten, sind Sie hier genau richtig.

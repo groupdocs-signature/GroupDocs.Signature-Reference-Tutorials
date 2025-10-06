@@ -5,8 +5,8 @@
 "title": "Operace ověřování dokumentů v .NET"
 "url": "/cs/net/verify-operations/"
 "weight": 27
+type: docs
 ---
-
 ## Zavedení
 
 Ověřování dokumentů je klíčovou součástí každého zabezpečeného systému správy dokumentů. Ať už vytváříte podnikové aplikace, řešení pro práci s dokumenty nebo systémy zaměřené na zabezpečení, je nezbytné mít možnost ověřovat různé typy podpisů v dokumentech. GroupDocs.Signature pro .NET poskytuje výkonné nástroje a API, které vývojářům v .NET umožňují implementovat robustní funkce ověřování čárových kódů, digitálních podpisů, QR kódů a textových podpisů.

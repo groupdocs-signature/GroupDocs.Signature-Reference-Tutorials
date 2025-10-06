@@ -4,8 +4,8 @@
 "title": "Aangepaste XOR-encryptie met GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Uitgebreide handleiding voor het implementeren van aangepaste XOR-encryptie met GroupDocs.Signature voor Java
 
 ## Invoering

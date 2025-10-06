@@ -4,8 +4,8 @@
 "title": "Jak implementovat digitální podpisy .NET s časovým razítkem a certifikací pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat digitální podpisy .NET s časovým razítkem a certifikací pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

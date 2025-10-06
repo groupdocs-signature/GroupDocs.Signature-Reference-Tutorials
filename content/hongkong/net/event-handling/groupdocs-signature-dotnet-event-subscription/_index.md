@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 掌握文件簽章中的事件訂閱 | 逐步指南"
 "url": "/zh-hant/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 掌握文件簽章中的事件訂閱
 
 ## 介紹

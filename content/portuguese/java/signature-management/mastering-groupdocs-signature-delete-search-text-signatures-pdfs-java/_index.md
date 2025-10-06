@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature para Java - Excluir e pesquisar assinaturas de texto em PDFs"
 "url": "/pt/java/signature-management/mastering-groupdocs-signature-delete-search-text-signatures-pdfs-java/"
 "weight": 1
+type: docs
 ---
-
 # Master GroupDocs.Signature para Java: Excluir e Pesquisar Assinaturas de Texto em PDFs
 
 Na era digital atual, gerenciar documentos eletrônicos com eficiência é crucial. Um desafio comum que os desenvolvedores enfrentam é lidar com assinaturas de texto em documentos PDF — seja garantindo que sejam aplicadas corretamente ou removendo-as quando necessário. **GroupDocs.Signature para Java**: uma biblioteca poderosa projetada para lidar com essas tarefas com precisão e facilidade. Este tutorial guiará você pelo processo de exclusão e busca de assinaturas de texto em PDFs usando o GroupDocs.Signature para Java.

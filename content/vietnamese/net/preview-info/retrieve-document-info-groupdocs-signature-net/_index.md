@@ -4,8 +4,8 @@
 "title": "Cách lấy thông tin tài liệu bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/preview-info/retrieve-document-info-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách lấy thông tin tài liệu bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 通过 ID 更新条形码签名"
 "url": "/zh/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 通过 ID 更新条形码签名
 
 ## 介绍

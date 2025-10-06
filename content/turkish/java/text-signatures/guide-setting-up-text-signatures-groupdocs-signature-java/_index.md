@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature ile Metin İmzaları Ayarlamaya Yönelik Kapsamlı Kılavuz"
 "url": "/tr/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature ile Metin İmzaları Ayarlamaya Yönelik Kapsamlı Kılavuz
 
 ## giriiş

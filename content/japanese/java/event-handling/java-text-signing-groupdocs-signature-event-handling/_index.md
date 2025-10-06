@@ -4,8 +4,8 @@
 "title": "Javaでテキスト署名を実装する&#58; GroupDocs.Signatureを使用したイベント処理"
 "url": "/ja/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用したイベント処理によるテキスト署名の実装
 
 ## 導入

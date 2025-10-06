@@ -4,8 +4,8 @@
 "title": "Sökning efter signatur i huvudtext i .NET med GroupDocs.Signature"
 "url": "/sv/net/search-verification/master-text-signature-search-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra textsignatursökning i .NET med GroupDocs.Signature
 
 Vill du automatisera identifieringen av textsignaturer i dina dokument? Oavsett om det gäller att verifiera kontrakts äkthet eller spåra officiella godkännanden kan det vara en utmaning att hantera dokumentsignaturer effektivt. **GroupDocs.Signature för .NET**effektivisera processen genom att söka och filtrera textsignaturer direkt från dina applikationer. Den här handledningen guidar dig genom att konfigurera och använda GroupDocs.Signature för att söka efter textsignaturer utan att använda externa.

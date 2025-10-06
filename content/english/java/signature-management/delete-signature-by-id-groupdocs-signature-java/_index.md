@@ -8,10 +8,8 @@ keywords:
 - delete signature by ID
 - GroupDocs.Signature for Java
 - manage digital signatures
-
+type: docs
 ---
-
-
 # How to Delete a Signature by ID with GroupDocs.Signature for Java
 
 ## Introduction

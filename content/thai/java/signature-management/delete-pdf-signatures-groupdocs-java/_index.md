@@ -4,8 +4,8 @@
 "title": "วิธีการลบลายเซ็น PDF โดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/signature-management/delete-pdf-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลบลายเซ็น PDF โดยใช้ GroupDocs.Signature สำหรับ Java: คู่มือฉบับสมบูรณ์
 
 ## การแนะนำ

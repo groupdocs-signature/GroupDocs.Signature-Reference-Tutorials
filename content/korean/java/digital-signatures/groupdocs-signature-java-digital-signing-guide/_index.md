@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature 디지털 서명 기본 사항에 대한 종합 가이드"
 "url": "/ko/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature에 대한 포괄적인 가이드: 디지털 서명 필수 사항
 
 ## 소개

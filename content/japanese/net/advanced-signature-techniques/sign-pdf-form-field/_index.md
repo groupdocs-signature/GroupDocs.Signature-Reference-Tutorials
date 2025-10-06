@@ -5,8 +5,8 @@
 "title": ".NET でフォームフィールドを使用して PDF ドキュメントに署名する方法"
 "url": "/ja/net/advanced-signature-techniques/sign-pdf-form-field/"
 "weight": 10
+type: docs
 ---
-
 # GroupDocs.Signature を使用してフォームフィールドを含む PDF ドキュメントに署名する方法
 
 フォームフィールド付きのPDFドキュメントにデジタル署名を追加する確実な方法をお探しですか？この包括的なガイドでは、GroupDocs.Signature for .NETを使ったプロセスを詳しく説明します。安全で法的拘束力のある署名で、ドキュメントワークフローを変革しましょう！

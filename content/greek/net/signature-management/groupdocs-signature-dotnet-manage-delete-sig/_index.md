@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature για .NET Διαχείριση και διαγραφή υπογραφών εγγράφων"
 "url": "/el/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με τη Διαχείριση Υπογραφών σε .NET με το GroupDocs.Signature
 
 ## Εισαγωγή

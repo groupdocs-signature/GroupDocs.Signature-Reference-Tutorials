@@ -5,8 +5,8 @@
 "title": "Meningkatkan Dokumen Word dengan Tanda Tangan Metadata di C# .NET"
 "url": "/id/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## Perkenalan
 
 Dokumen pengolah kata merupakan salah satu jenis berkas yang paling umum digunakan dalam bisnis, pendidikan, dan komunikasi pribadi. Memastikan keaslian, melacak asal usul, dan menjaga integritas dokumen-dokumen ini sangat penting dalam banyak lingkungan profesional. Salah satu pendekatan efektif untuk meningkatkan keamanan dan ketertelusuran dokumen adalah dengan menyematkan tanda tangan metadata.

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 사용자 지정 암호화를 사용한 QR 코드 서명 검색 구현"
 "url": "/ko/net/qr-code-signatures/qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET에서 사용자 정의 암호화를 사용한 QR 코드 서명 검색 구현
 
 ## 소개

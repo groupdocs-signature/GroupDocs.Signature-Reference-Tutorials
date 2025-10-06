@@ -8,10 +8,8 @@ keywords:
 - Verify QR Code Signature
 - QR Code Signatures
 - GroupDocs.Signature for Java
-
+type: docs
 ---
-
-
 # Verify a QR Code Signature in Java with GroupDocs.Signature
 
 ## Introduction

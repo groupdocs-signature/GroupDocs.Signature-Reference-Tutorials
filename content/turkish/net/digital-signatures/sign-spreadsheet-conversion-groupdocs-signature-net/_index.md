@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak Elektronik Tabloları Verimli Şekilde İmzalayın ve PDF'ye Dönüştürün"
 "url": "/tr/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak Elektronik Tabloları Verimli Şekilde İmzalayın ve PDF'ye Dönüştürün
 
 ## giriiş

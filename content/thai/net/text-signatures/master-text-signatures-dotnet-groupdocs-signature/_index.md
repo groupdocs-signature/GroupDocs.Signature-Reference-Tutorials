@@ -4,8 +4,8 @@
 "title": "วิธีการใช้ลายเซ็นข้อความใน .NET ด้วย GroupDocs.Signature&#58; คู่มือฉบับสมบูรณ์"
 "url": "/th/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้ลายเซ็นข้อความใน .NET ด้วย GroupDocs.Signature: คู่มือฉบับสมบูรณ์
 
 ## การแนะนำ

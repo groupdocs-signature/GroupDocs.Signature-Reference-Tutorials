@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 簽署帶有 HIBC 二維碼的文件－綜合指南"
 "url": "/zh-hant/net/qr-code-signatures/sign-documents-hibc-qr-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 簽署帶有 HIBC QR 碼的文檔
 
 ## 介紹

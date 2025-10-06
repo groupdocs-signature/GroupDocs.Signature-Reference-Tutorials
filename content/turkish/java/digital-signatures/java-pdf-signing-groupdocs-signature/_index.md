@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da PDF'leri Dijital Olarak Nasıl İmzalayabilirsiniz?"
 "url": "/tr/java/digital-signatures/java-pdf-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java'da PDF'leri Dijital Olarak Nasıl İmzalayabilirsiniz?
 
 ## giriiş

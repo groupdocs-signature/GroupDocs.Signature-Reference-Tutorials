@@ -4,8 +4,8 @@
 "title": "So suchen Sie mit GroupDocs.Signature in .NET nach QR-Code-Signaturen"
 "url": "/de/net/qr-code-signatures/qr-code-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie die Suche nach QR-Code-Signaturen mit Ereignisdaten mithilfe von GroupDocs.Signature für .NET
 
 ## Einführung

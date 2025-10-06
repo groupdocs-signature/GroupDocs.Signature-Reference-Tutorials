@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 문서 서명을 안전하게 보호하고 자동화하세요&#58; 포괄적인 가이드"
 "url": "/ko/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 문서 서명을 보호하고 자동화하세요
 
 ## 소개

@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature ile FTP Sunucusundan Belgeleri Yükleme"
 "url": "/tr/java/document-loading-saving/load-documents-from-ftp-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Bir FTP Sunucusundan Belgeleri Yükleme
 
 ## giriiş

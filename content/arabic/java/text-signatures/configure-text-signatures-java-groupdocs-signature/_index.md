@@ -4,8 +4,8 @@
 "title": "كيفية تكوين توقيعات النص في جافا باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/java/text-signatures/configure-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تكوين توقيعات النص في Java باستخدام GroupDocs.Signature: دليل شامل
 
 ## مقدمة

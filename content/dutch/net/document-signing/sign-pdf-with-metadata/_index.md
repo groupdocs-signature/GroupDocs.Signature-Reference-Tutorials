@@ -5,8 +5,8 @@
 "title": "Metadata-handtekeningen toevoegen aan PDF-documenten in C# .NET"
 "url": "/nl/net/document-signing/sign-pdf-with-metadata/"
 "weight": 11
+type: docs
 ---
-
 ## Invoering
 
 PDF-documenten (Portable Document Format) worden veel gebruikt in verschillende sectoren vanwege hun consistentie en platformonafhankelijkheid. Het waarborgen van de authenticiteit en traceerbaarheid van deze documenten is cruciaal in veel professionele omgevingen. Een effectieve manier om dit te bereiken, is door metadata in de PDF-bestanden zelf in te sluiten.

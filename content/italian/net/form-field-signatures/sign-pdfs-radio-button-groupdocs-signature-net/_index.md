@@ -4,8 +4,8 @@
 "title": "Come firmare i PDF utilizzando i campi modulo dei pulsanti di opzione con GroupDocs.Signature per .NET"
 "url": "/it/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare un PDF utilizzando i campi modulo dei pulsanti di opzione con GroupDocs.Signature per .NET
 
 ## Introduzione

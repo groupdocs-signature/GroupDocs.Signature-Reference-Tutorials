@@ -4,8 +4,8 @@
 "title": "So implementieren Sie Textsignaturen in .NET mit GroupDocs.Signature – Ein umfassender Leitfaden"
 "url": "/de/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie Textsignaturen in .NET mit GroupDocs.Signature: Ein umfassender Leitfaden
 
 ## Einführung

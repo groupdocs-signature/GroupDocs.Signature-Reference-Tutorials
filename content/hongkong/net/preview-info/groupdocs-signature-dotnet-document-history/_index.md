@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 掌握文件處理歷史－綜合指南"
 "url": "/zh-hant/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 掌握文件處理歷史：綜合指南
 
 ## 介紹

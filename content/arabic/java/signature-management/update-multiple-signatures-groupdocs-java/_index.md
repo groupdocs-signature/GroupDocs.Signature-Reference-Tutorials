@@ -4,8 +4,8 @@
 "title": "تحديث التوقيعات المتعددة بكفاءة في ملفات PDF باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/signature-management/update-multiple-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # تحديث التوقيعات المتعددة بكفاءة في ملفات PDF باستخدام GroupDocs.Signature لـ Java
 
 تعد إدارة التوقيعات الإلكترونية أمرًا بالغ الأهمية للشركات التي تعتمد على سير العمل الرقمي، وخاصة عند التعامل مع العقود أو المستندات الرسمية. **GroupDocs.Signature لـ Java** يُبسّط تحديث التوقيعات المتعددة في مستند PDF بكفاءة. سيرشدك هذا البرنامج التعليمي خلال العملية.

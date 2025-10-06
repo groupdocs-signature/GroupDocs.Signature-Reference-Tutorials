@@ -4,8 +4,8 @@
 "title": "Προσαρμοσμένη κρυπτογράφηση XOR με GroupDocs.Signature για Java&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πλήρης οδηγός για την εφαρμογή προσαρμοσμένης κρυπτογράφησης XOR με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

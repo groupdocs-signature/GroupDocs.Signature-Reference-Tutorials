@@ -4,8 +4,8 @@
 "title": "Как подписывать PDF-файлы с помощью подписи в поле формы в Java с помощью GroupDocs.Signature"
 "url": "/ru/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать PDF-файл с помощью подписи поля формы в Java с помощью GroupDocs.Signature
 
 ## Введение

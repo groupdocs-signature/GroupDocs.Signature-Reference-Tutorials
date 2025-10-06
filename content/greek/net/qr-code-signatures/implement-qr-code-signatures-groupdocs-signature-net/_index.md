@@ -4,8 +4,8 @@
 "title": "Υλοποίηση υπογραφών QR Code σε .NET χρησιμοποιώντας το GroupDocs.Signature για βελτιωμένη ασφάλεια εγγράφων"
 "url": "/el/net/qr-code-signatures/implement-qr-code-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση υπογραφών QR Code σε .NET χρησιμοποιώντας το GroupDocs.Signature για βελτιωμένη ασφάλεια εγγράφων
 
 ## Εισαγωγή

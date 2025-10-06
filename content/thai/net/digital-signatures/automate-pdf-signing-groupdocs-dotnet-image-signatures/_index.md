@@ -4,8 +4,8 @@
 "title": "การลงนาม PDF แบบอัตโนมัติด้วย GroupDocs.Signature สำหรับคู่มือลายเซ็นรูปภาพ .NET"
 "url": "/th/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # การลงนาม PDF แบบอัตโนมัติด้วย GroupDocs.Signature สำหรับ .NET: คำแนะนำการลงนามภาพ
 
 ## การแนะนำ

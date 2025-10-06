@@ -4,8 +4,8 @@
 "title": "كيفية توقيع مستندات الصور باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/image-signatures/sign-image-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستند صورة باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

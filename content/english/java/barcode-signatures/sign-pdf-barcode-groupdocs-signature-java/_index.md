@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing"]
 tags: ["java", "pdf-signature", "barcode", "document-security", "groupdocs"]
+type: docs
 ---
-
 # How to Add Barcode to PDF Java - Complete 2025 Guide with GroupDocs.Signature
 
 ## Introduction

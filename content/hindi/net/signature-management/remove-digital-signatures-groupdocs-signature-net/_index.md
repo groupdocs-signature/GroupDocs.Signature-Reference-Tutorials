@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके PDF से डिजिटल हस्ताक्षर कैसे निकालें"
 "url": "/hi/net/signature-management/remove-digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके PDF से डिजिटल हस्ताक्षर कैसे निकालें
 
 ## परिचय

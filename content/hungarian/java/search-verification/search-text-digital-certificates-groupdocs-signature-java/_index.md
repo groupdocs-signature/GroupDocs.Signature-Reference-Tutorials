@@ -4,8 +4,8 @@
 "title": "Digitális tanúsítványkeresés elsajátítása a GroupDocs.Signature for Java segítségével"
 "url": "/hu/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Digitális tanúsítványkeresés elsajátítása a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

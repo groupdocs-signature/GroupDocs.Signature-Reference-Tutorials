@@ -4,8 +4,8 @@
 "title": "Gestione della firma del testo principale in .NET tramite GroupDocs.Signature"
 "url": "/it/net/signature-management/master-text-signature-management-dotnet-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la gestione delle firme di testo in .NET con GroupDocs.Signature
 
 ## Introduzione

@@ -4,8 +4,8 @@
 "title": "Zoeken naar afbeeldingshandtekeningen in .NET met behulp van GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/net/search-verification/image-signature-search-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Uitgebreide handleiding voor het implementeren van zoeken naar afbeeldingshandtekeningen in .NET met GroupDocs.Signature
 
 ## Invoering

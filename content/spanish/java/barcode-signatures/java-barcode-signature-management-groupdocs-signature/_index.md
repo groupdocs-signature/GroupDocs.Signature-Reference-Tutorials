@@ -4,8 +4,8 @@
 "title": "Gestión eficiente de firmas de códigos de barras Java mediante GroupDocs.Signature"
 "url": "/es/java/barcode-signatures/java-barcode-signature-management-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Gestión eficiente de firmas de códigos de barras Java mediante GroupDocs.Signature
 
 En la era digital, gestionar las firmas electrónicas de forma eficiente es crucial tanto para empresas como para particulares. Ya sea para validar acuerdos o proteger documentos, usar las herramientas adecuadas puede mejorar significativamente la productividad. **GroupDocs.Signature para Java** Es una potente biblioteca diseñada para optimizar estos procesos. Este tutorial le guiará en la inicialización de un objeto Signature, la búsqueda de firmas de código de barras y su eliminación de sus documentos.

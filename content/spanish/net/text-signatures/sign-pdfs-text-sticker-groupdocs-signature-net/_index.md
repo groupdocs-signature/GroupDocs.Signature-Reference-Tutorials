@@ -4,8 +4,8 @@
 "title": "Cómo firmar archivos PDF con etiquetas de texto usando GroupDocs.Signature para .NET | Guía paso a paso"
 "url": "/es/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar un documento PDF con una etiqueta de texto usando GroupDocs.Signature para .NET
 
 ## Introducción

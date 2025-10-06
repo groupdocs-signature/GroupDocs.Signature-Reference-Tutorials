@@ -4,8 +4,8 @@
 "title": "Créez de superbes signatures de dégradé radial en Java avec GroupDocs.Signature"
 "url": "/fr/java/document-loading-saving/groupdocs-signature-java-radial-gradient-sig/"
 "weight": 1
+type: docs
 ---
-
 # Créez une signature à dégradé radial visuellement attrayante à l'aide de GroupDocs.Signature pour Java
 
 Dans le monde numérique d'aujourd'hui, l'esthétique de la signature électronique est tout aussi importante que sa fonctionnalité. Une signature visuellement attrayante peut rehausser le professionnalisme et la crédibilité de votre travail. Ce tutoriel vous guidera dans la mise en œuvre d'une signature à dégradé radial avec GroupDocs.Signature pour Java.

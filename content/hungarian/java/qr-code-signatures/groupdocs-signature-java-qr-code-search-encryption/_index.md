@@ -4,8 +4,8 @@
 "title": "QR-kód keresés és titkosítás Java-ban&#58; Master GroupDocs.Signature a biztonságos dokumentumkezeléshez"
 "url": "/hu/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód keresés és titkosítás Java nyelven: Master GroupDocs.Signature a biztonságos dokumentumkezeléshez
 
 ## Bevezetés

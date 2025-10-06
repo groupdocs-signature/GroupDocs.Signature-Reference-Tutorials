@@ -5,8 +5,8 @@
 "title": "如何在 .NET 中从文档中删除数字签名"
 "url": "/zh/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 从文档中删除数字签名
 
 ## 数字签名管理为何重要

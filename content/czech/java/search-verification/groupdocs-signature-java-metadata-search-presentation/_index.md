@@ -4,8 +4,8 @@
 "title": "Vyhledávání podpisu hlavních metadat v PowerPointu pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # Vyhledávání podpisu hlavních metadat v PowerPointu pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

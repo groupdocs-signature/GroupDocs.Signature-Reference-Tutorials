@@ -5,8 +5,8 @@
 "title": "Maîtriser les techniques avancées de signature de documents en .NET"
 "url": "/fr/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # Techniques de signature avancées avec GroupDocs.Signature pour .NET
 
 ## Introduction

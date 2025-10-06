@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature API 在 Java 中實作二維碼簽章和 PDF 轉換"
 "url": "/zh-hant/java/qr-code-signatures/java-signature-api-groupdocs-qr-codes-pdf-conversion/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature API 在 Java 中實作二維碼簽章和 PDF 轉換
 
 ## 介紹

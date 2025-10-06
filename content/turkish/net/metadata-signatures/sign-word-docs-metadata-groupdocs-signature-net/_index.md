@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Word Belgelerini Meta Verilerle Nasıl İmzalarsınız? | Adım Adım Kılavuz"
 "url": "/tr/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Word Belgelerini Meta Verilerle Nasıl İmzalayabilirsiniz?
 
 ## giriiş

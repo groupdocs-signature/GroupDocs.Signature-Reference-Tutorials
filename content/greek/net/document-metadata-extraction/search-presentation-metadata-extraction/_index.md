@@ -5,8 +5,8 @@
 "title": "Εξαγωγή μεταδεδομένων παρουσίασης εύκολα με το GroupDocs.Signature"
 "url": "/el/net/document-metadata-extraction/search-presentation-metadata-extraction/"
 "weight": 12
+type: docs
 ---
-
 # Πώς να εξαγάγετε μεταδεδομένα από παρουσιάσεις χρησιμοποιώντας το GroupDocs.Signature
 
 ## Γιατί τα μεταδεδομένα παρουσίασης έχουν σημασία για τα έργα σας

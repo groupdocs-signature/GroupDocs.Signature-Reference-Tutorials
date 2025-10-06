@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용한 .NET Base64 이미지 변환 및 문서 서명"
 "url": "/ko/net/image-signatures/net-base64-image-conversion-document-signing-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET Base64 이미지 변환 및 문서 서명 구현
 
 ## 소개

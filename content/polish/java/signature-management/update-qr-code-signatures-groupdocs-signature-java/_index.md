@@ -4,8 +4,8 @@
 "title": "Aktualizacja podpisów kodów QR w Javie – kompleksowy przewodnik z wykorzystaniem GroupDocs.Signature"
 "url": "/pl/java/signature-management/update-qr-code-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Aktualizacja podpisów kodów QR w Javie: kompleksowy przewodnik z wykorzystaniem GroupDocs.Signature
 
 W dzisiejszym cyfrowym świecie zabezpieczanie dokumentów jest kluczowe zarówno dla firm, jak i osób prywatnych. Podpisy kodem QR oferują niezawodne rozwiązanie w zakresie bezpieczeństwa i weryfikacji dokumentów. Ten samouczek zawiera instrukcje krok po kroku dotyczące aktualizacji podpisów kodem QR za pomocą GroupDocs.Signature for Java — potężnego narzędzia, które upraszcza zarządzanie podpisami w aplikacjach.

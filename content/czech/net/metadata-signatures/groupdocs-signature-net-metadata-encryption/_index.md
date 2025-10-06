@@ -4,8 +4,8 @@
 "title": "Jak implementovat šifrování podpisu metadat v .NET pomocí GroupDocs.Signature pro zabezpečené PDF soubory"
 "url": "/cs/net/metadata-signatures/groupdocs-signature-net-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat šifrování podpisu metadat v .NET pomocí GroupDocs.Signature pro zabezpečené PDF soubory
 
 ## Zavedení

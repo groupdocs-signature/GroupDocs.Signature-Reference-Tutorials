@@ -5,8 +5,8 @@
 "title": "Zoeken naar formuliervelden in documenten"
 "url": "/nl/net/signature-searching/search-for-form-fields/"
 "weight": 12
+type: docs
 ---
-
 ## Invoering
 
 In moderne documentbeheersystemen spelen formuliervelden een cruciale rol bij het verzamelen van gegevens, gebruikersinteractie en documentautomatisering. GroupDocs.Signature voor .NET biedt ontwikkelaars een krachtige set tools waarmee ze met formuliervelden in verschillende documentformaten kunnen werken, inclusief het programmatisch zoeken, ophalen en verwerken van deze elementen.

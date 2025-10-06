@@ -4,8 +4,8 @@
 "title": "Automatizace podepisování PDF pomocí GroupDocs.Signature pro .NET – Průvodce podpisy obrázků"
 "url": "/cs/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Automatizace podepisování PDF pomocí GroupDocs.Signature pro .NET: Průvodce podpisy obrázků
 
 ## Zavedení

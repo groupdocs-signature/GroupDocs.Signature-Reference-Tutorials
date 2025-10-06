@@ -4,8 +4,8 @@
 "title": "Hogyan írjunk alá ZIP fájlokat vonalkódokkal és QR-kódokkal Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan írjunk alá ZIP fájlokat vonalkódokkal és QR-kódokkal Java-ban a GroupDocs.Signature használatával
 
 ## Bevezetés

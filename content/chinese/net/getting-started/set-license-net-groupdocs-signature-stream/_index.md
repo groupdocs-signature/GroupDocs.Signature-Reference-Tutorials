@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 和 FileStream 在 .NET 中设置许可证——综合指南"
 "url": "/zh/net/getting-started/set-license-net-groupdocs-signature-stream/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 和 FileStream 在 .NET 中设置许可证
 ## 入门
 ### 使用 GroupDocs.Signature 在 .NET 中通过流实现设置许可证

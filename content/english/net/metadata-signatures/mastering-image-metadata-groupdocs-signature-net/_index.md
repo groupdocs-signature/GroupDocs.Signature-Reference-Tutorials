@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["NET Development"]
 tags: ["image-metadata", "groupdocs", "csharp", "dotnet"]
+type: docs
 ---
-
 # Image Metadata Extraction .NET - Complete GroupDocs.Signature
 
 Struggling with image metadata extraction in your .NET applications? You're not alone. Whether you're building a digital asset management system, working on legal document verification, or simply need to read EXIF data from images programmatically, extracting image metadata can be more complex than it seems.

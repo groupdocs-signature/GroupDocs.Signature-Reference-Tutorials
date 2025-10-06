@@ -4,8 +4,8 @@
 "title": "Cách tìm kiếm siêu dữ liệu hình ảnh bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/search-verification/search-image-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách tìm kiếm siêu dữ liệu hình ảnh bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Cara Mencari Metadata Spreadsheet Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mencari Metadata Spreadsheet Menggunakan GroupDocs.Signature untuk Java: Panduan Lengkap
 
 ## Perkenalan

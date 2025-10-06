@@ -4,8 +4,8 @@
 "title": "Java GroupDocs.Signature&#58; को कार्यान्वित करने के लिए दस्तावेज़ प्रक्रिया इतिहास को पुनः प्राप्त और प्रदर्शित कैसे करें"
 "url": "/hi/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Java GroupDocs.Signature को कैसे कार्यान्वित करें: दस्तावेज़ प्रक्रिया इतिहास को पुनः प्राप्त करें और प्रदर्शित करें
 
 ## परिचय

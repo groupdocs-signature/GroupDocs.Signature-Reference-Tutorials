@@ -5,8 +5,8 @@
 "title": "Komplexní vyhledávání podpisů dokumentů"
 "url": "/cs/net/signature-searching/"
 "weight": 23
+type: docs
 ---
-
 ## Zavedení
 
 Zabezpečení a ověřování integrity dokumentů jsou klíčovými aspekty moderních obchodních procesů. GroupDocs.Signature pro .NET nabízí výkonné řešení pro implementaci komplexní funkce vyhledávání podpisů v různých formátech dokumentů. Ať už potřebujete ověřit pravost dokumentu, extrahovat informace o podpisu nebo vytvořit automatizované ověřovací pracovní postupy, GroupDocs.Signature poskytuje nástroje, které potřebujete k efektivnímu vyhledávání a zpracování více typů podpisů.

@@ -4,8 +4,8 @@
 "title": "Ανάκτηση ψηφιακών πιστοποιητικών από αρχεία χρησιμοποιώντας το GroupDocs.Signature για .NET | Οδηγός βήμα προς βήμα"
 "url": "/el/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Ανάκτηση ψηφιακών πιστοποιητικών από αρχεία χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

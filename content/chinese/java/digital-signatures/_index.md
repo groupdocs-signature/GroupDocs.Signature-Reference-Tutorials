@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 数字签名教程"
 "url": "/zh/java/digital-signatures/"
 "weight": 3
+type: docs
 ---
-
 # GroupDocs.Signature Java 数字签名教程
 
 通过我们详细的 GroupDocs.Signature Java 教程掌握数字签名的实现。这些分步指南演示了如何使用数字证书对文档进行签名、实现高级数字签名外观选项、使用 XAdES 类型、对 PDF 进行增量保存、访问证书存储、管理时间戳等等。每个教程都包含 Java 代码示例、实现说明和最佳实践，帮助您构建使用数字加密签名安全地对文档进行签名和验证的应用程序。

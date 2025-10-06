@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 문서 서명을 업데이트하는 방법"
 "url": "/ko/java/signature-management/update-document-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 문서 서명을 업데이트하는 방법
 
 ## 소개

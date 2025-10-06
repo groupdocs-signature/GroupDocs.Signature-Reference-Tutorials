@@ -4,8 +4,8 @@
 "title": "Dosya Günlüğü ve QR Kod İmzalama - .NET için GroupDocs.Signature Kullanımına Yönelik Eksiksiz Bir Kılavuz"
 "url": "/tr/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Dosya Kaydı ve QR Kod İmzalama: .NET için GroupDocs.Signature Kullanımına Yönelik Eksiksiz Bir Kılavuz
 
 ## giriiş

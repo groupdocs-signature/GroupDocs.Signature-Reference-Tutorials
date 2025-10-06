@@ -4,8 +4,8 @@
 "title": "Cargar documentos desde un servidor FTP con GroupDocs.Signature para Java"
 "url": "/es/java/document-loading-saving/load-documents-from-ftp-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cargar documentos desde un servidor FTP con GroupDocs.Signature para Java
 
 ## Introducción

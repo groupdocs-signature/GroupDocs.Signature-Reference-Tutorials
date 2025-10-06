@@ -4,8 +4,8 @@
 "title": "Hur man signerar PDF-filer med HIBC LIC-koder med GroupDocs.Signature för Java – en omfattande guide"
 "url": "/sv/java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar PDF-filer med HIBC LIC-koder med GroupDocs.Signature för Java: En omfattande guide
 
 det snabbt föränderliga digitala landskapet är det avgörande att säkerställa dokumentäkthet, särskilt inom läkemedels- och hälsovårdslogistiksektorerna. Genom att integrera HIBC-koder (High-Information Barcodes) i dina dokument kan du säkra och verifiera signaturer effektivt. Den här guiden visar hur du använder GroupDocs.Signature för Java för att signera PDF-filer med HIBC LIC QR-, Aztec- och Data Matrix-koder.

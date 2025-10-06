@@ -4,8 +4,8 @@
 "title": "البحث عن توقيع النص الرئيسي في مستندات .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # إتقان البحث عن توقيع النص في مستندات .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

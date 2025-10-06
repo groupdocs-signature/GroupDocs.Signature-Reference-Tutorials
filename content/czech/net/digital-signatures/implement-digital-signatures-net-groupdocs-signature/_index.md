@@ -4,8 +4,8 @@
 "title": "Jak implementovat digitální podpisy v .NET pomocí GroupDocs.Signature – Podrobný návod"
 "url": "/cs/net/digital-signatures/implement-digital-signatures-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat digitální podpisy v .NET pomocí GroupDocs.Signature: Podrobný návod
 
 ## Zavedení

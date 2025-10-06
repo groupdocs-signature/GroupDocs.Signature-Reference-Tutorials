@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF Secara Digital di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/digital-signatures/java-pdf-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF Secara Digital di Java Menggunakan GroupDocs.Signature
 
 ## Perkenalan

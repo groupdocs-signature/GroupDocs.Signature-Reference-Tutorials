@@ -5,8 +5,8 @@
 "title": "كيفية استرداد معلومات المستند باستخدام GroupDocs.Signature"
 "url": "/ar/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # كيفية استرداد معلومات المستند باستخدام GroupDocs.Signature
 
 ## مقدمة

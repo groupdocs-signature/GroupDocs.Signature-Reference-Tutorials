@@ -4,8 +4,8 @@
 "title": "Java 기반 QR 코드 검색 및 암호화, 안전한 문서 처리를 위한 Master GroupDocs.Signature"
 "url": "/ko/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Java에서 QR 코드 검색 및 암호화: 안전한 문서 처리를 위한 Master GroupDocs.Signature
 
 ## 소개

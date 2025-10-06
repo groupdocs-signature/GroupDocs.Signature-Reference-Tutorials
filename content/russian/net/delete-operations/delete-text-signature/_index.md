@@ -5,8 +5,8 @@
 "title": "Как удалить текстовые подписи из документов в .NET"
 "url": "/ru/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # Как удалить текстовые подписи из документов с помощью GroupDocs.Signature
 
 ## Зачем нужно удалять текстовые подписи?

@@ -4,8 +4,8 @@
 "title": "使用 Java 和 GroupDocs.Signature 產生帶有隱藏簽名的 PDF 預覽"
 "url": "/zh-hant/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 Java 和 GroupDocs.Signature 產生帶有隱藏簽名的 PDF 預覽
 
 ## 介紹

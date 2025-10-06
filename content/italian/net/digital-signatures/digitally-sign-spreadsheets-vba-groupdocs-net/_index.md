@@ -4,8 +4,8 @@
 "title": "Firma digitale di fogli di calcolo Excel e progetti VBA utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Firma digitale di fogli di calcolo Excel e dei relativi progetti VBA con GroupDocs.Signature per .NET
 
 Nell'era digitale odierna, garantire l'autenticità dei file Excel è fondamentale. Che si tratti di gestire fogli di calcolo finanziari o piani di progetto, l'aggiunta di una firma digitale può proteggere da modifiche non autorizzate. Questo tutorial vi guiderà nella firma digitale sia dei documenti di fogli di calcolo che dei relativi progetti VBA utilizzando **GroupDocs.Signature per .NET**.

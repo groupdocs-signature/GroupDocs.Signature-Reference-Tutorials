@@ -4,8 +4,8 @@
 "title": "Como atualizar assinaturas de texto em documentos usando GroupDocs.Signature para .NET - Um guia completo"
 "url": "/pt/net/signature-management/update-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Como atualizar assinaturas de texto em documentos usando GroupDocs.Signature para .NET: um guia completo
 
 ## Introdução

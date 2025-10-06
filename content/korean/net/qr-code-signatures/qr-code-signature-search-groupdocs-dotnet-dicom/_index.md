@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용한 DICOM QR 코드 서명 검색 - 완벽한 가이드"
 "url": "/ko/net/qr-code-signatures/qr-code-signature-search-groupdocs-dotnet-dicom/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 다중 레이어 이미지에서 QR 코드 서명 검색을 구현하는 방법
 
 ## 소개

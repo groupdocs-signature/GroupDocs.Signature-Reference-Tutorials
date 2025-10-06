@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET によるドキュメント検証のマスター 包括的なガイド"
 "url": "/ja/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET によるドキュメント検証のマスター: 総合ガイド
 
 ## 導入

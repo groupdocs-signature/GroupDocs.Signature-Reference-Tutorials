@@ -5,8 +5,8 @@
 "title": "Dokumentsignering med metadata i .NET"
 "url": "/sv/net/document-signing/"
 "weight": 24
+type: docs
 ---
-
 ## Introduktion
 
 dagens digitala värld har det blivit avgörande för företag och organisationer att säkerställa dokumentäkthet, spårning av ursprung och integritet. Metadatasignaturer ger ett kraftfullt men diskret sätt att bädda in identifierande information direkt i dokumentfiler, vilket förbättrar säkerheten utan att ändra deras visuella utseende.

@@ -5,8 +5,8 @@
 "title": "Verifiera streckkodssignaturer i dokument"
 "url": "/sv/net/verify-operations/verify-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Introduktion
 
 Streckkoder har blivit en integrerad del av moderna dokumenthanteringssystem, vilket möjliggör snabb åtkomst till kodad information samtidigt som de fungerar som en säkerhetsfunktion. GroupDocs.Signature för .NET tillhandahåller ett kraftfullt API för att verifiera streckkodssignaturer i dokument, vilket säkerställer deras äkthet och integritet.

@@ -4,8 +4,8 @@
 "title": "PDF digitális aláírások elsajátítása Java nyelven&#58; GroupDocs.Signature használata szöveghez, jelölőnégyzetekhez és digitális mezőkhöz"
 "url": "/hu/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF digitális aláírások elsajátítása Java nyelven: GroupDocs.Signature használata szövegekhez, jelölőnégyzetekhez és digitális mezőkhöz
 
 ## Bevezetés

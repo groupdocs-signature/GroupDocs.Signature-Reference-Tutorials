@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása QR-kódokkal, SMS-t tartalmazó GroupDocs használatával .NET-ben"
 "url": "/hu/net/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentum aláírása SMS-objektumot tartalmazó QR-kóddal a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

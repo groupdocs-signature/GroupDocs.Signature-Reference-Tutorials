@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 在 Word 文档中搜索元数据签名"
 "url": "/zh/net/metadata-signatures/search-metadata-signatures-word-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在 Word 文档中搜索元数据签名
 
 ## 介绍

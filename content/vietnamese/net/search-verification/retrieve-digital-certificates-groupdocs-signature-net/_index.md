@@ -4,8 +4,8 @@
 "title": "Truy xuất chứng chỉ số từ kho lưu trữ bằng GroupDocs.Signature cho .NET | Hướng dẫn từng bước"
 "url": "/vi/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Truy xuất chứng chỉ số từ kho lưu trữ bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

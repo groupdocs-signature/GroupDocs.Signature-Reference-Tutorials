@@ -5,8 +5,8 @@
 "title": "Lägg enkelt till bildsignaturer i dokument med GroupDocs.Signature"
 "url": "/sv/net/advanced-signature-techniques/sign-with-image/"
 "weight": 13
+type: docs
 ---
-
 ## Introduktion: Förvandla din dokumentsäkerhet med bildsignaturer
 
 Har du någonsin undrat hur du kan göra dina digitala dokument säkrare och juridiskt giltiga? Att lägga till bildsignaturer är ett av de mest effektiva sätten att autentisera dina dokument och skydda dem från manipulation. I den här användarvänliga guiden guidar vi dig genom processen att implementera bildbaserad dokumentsignering i dina .NET-applikationer med GroupDocs.Signature.

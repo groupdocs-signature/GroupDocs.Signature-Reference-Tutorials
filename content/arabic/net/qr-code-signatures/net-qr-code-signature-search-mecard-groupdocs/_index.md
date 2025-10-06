@@ -4,8 +4,8 @@
 "title": "تنفيذ بحث توقيع رمز الاستجابة السريعة .NET باستخدام MeCard باستخدام GroupDocs.Signature"
 "url": "/ar/net/qr-code-signatures/net-qr-code-signature-search-mecard-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ بحث توقيع رمز الاستجابة السريعة .NET باستخدام MeCard باستخدام GroupDocs.Signature
 
 ## مقدمة

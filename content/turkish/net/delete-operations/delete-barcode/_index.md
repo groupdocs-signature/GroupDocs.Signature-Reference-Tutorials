@@ -5,8 +5,8 @@
 "title": ".NET ile Belgelerden Barkodlar Nasıl Kaldırılır?"
 "url": "/tr/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # .NET ile Belgelerden Barkodlar Nasıl Kaldırılır?
 
 ## Barkodları Neden Silmeniz Gerekir?

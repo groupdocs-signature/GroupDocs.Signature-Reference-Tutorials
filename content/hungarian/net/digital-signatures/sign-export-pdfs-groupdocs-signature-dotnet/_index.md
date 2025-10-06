@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása és exportálása a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/digital-signatures/sign-export-pdfs-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF-ek aláírása és exportálása a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

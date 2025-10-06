@@ -8,10 +8,8 @@ keywords:
 - metered license GroupDocs.Signature Java
 - implement metered licensing Java
 - GroupDocs Signature metered licensing setup
-
+type: docs
 ---
-
-
 # How to Implement a Metered License in GroupDocs.Signature for Java
 
 ## Introduction

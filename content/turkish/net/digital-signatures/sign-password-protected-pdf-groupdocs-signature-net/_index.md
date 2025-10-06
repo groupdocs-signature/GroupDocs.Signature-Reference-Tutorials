@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak Parola Korumalı Bir PDF Nasıl İmzalanır (Dijital İmza Eğitimi)"
 "url": "/tr/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Parola Korumalı Bir PDF Nasıl İmzalanır?
 ## Dijital İmza Eğitimi
 

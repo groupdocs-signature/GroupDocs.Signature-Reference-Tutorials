@@ -4,8 +4,8 @@
 "title": "Proteggi i documenti Java con la firma dei metadati e la crittografia utilizzando GroupDocs"
 "url": "/it/java/metadata-signatures/java-metadata-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Proteggi i documenti Java con la firma dei metadati e la crittografia utilizzando GroupDocs
 
 ## Introduzione

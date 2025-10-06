@@ -8,10 +8,8 @@ keywords:
 - Sign PDFs with WiFi QR Codes
 - GroupDocs.Signature for Java
 - Digital Signatures with QR Codes
-
+type: docs
 ---
-
-
 # How to Sign PDFs with WiFi QR Codes Using GroupDocs.Signature for Java
 
 ## Introduction

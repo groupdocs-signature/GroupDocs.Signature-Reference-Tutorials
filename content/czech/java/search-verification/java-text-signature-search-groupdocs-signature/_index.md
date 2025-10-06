@@ -4,8 +4,8 @@
 "title": "Implementace vyhledávání textových podpisů v jazyce Java pomocí GroupDocs.Signature pro správu a ověřování dokumentů"
 "url": "/cs/java/search-verification/java-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementace vyhledávání textových podpisů v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

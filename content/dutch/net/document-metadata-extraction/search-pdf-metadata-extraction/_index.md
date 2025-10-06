@@ -5,8 +5,8 @@
 "title": "PDF-metadatahandtekeningen extraheren in .NET"
 "url": "/nl/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # PDF-metadatahandtekeningen extraheren en doorzoeken
 
 ## Waarom PDF-metadata belangrijk zijn voor uw documenten

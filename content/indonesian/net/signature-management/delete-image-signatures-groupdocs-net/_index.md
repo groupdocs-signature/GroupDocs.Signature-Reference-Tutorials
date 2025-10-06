@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Tanda Tangan Gambar di .NET Menggunakan GroupDocs.Signature&#58; Panduan Langkah demi Langkah"
 "url": "/id/net/signature-management/delete-image-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Gambar di .NET Menggunakan GroupDocs.Signature: Panduan Langkah demi Langkah
 
 Dalam lanskap digital saat ini, mengelola tanda tangan dokumen sangat penting untuk menjaga keamanan dan keaslian dalam operasional bisnis. Jika Anda menangani dokumen yang berisi banyak tanda tangan gambar, manajemen yang efisien dapat menghemat waktu dan sumber daya. Panduan komprehensif ini akan memandu Anda dalam menggunakan **GroupDocs.Signature untuk .NET** untuk menginisialisasi instans tanda tangan, mencari tanda tangan gambar, dan menghapus tanda tangan tertentu berdasarkan kondisi tertentu. Di akhir tutorial ini, Anda akan menguasai cara menyederhanakan proses ini secara efektif.

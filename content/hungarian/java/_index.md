@@ -5,8 +5,8 @@
 "title": "Átfogó oktatóanyagok és példák a GroupDocs.Signature Java-hoz"
 "url": "/hu/java/"
 "weight": 10
+type: docs
 ---
-
 # GroupDocs.Signature Java-hoz – Oktatóanyagok és példák
 
 Üdvözöljük a GroupDocs.Signature for Java átfogó oktatóanyag-gyűjteményünkben. Ezek a lépésről lépésre bemutatott útmutatók segítenek biztonságos dokumentumaláírási megoldások megvalósításában Java-alkalmazásaiban. Az alapvető beállításoktól a haladó aláírás-kezelésig oktatóanyagaink minden szükséges információt tartalmaznak a dokumentumok többféle aláírástípussal történő védelméhez.

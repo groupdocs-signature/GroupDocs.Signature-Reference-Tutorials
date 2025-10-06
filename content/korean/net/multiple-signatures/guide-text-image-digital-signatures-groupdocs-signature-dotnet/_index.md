@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용한 텍스트, 이미지 및 디지털 서명에 대한 포괄적인 가이드"
 "url": "/ko/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 텍스트, 이미지 및 디지털 서명을 구현하는 방법에 대한 포괄적인 가이드
 
 ## 소개

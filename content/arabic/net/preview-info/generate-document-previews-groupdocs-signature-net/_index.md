@@ -4,8 +4,8 @@
 "title": "إنشاء معاينات للمستندات في الأرشيفات باستخدام GroupDocs.Signature لـ .NET - دليل كامل"
 "url": "/ar/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # إنشاء معاينات المستندات من الأرشيفات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

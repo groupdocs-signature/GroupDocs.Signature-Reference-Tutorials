@@ -4,8 +4,8 @@
 "title": "วิธีการนำการลงนามเอกสารอิเล็กทรอนิกส์ไปใช้ใน .NET ด้วย GroupDocs.Signature&#58; คำแนะนำทีละขั้นตอน"
 "url": "/th/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำการลงนามเอกสารอิเล็กทรอนิกส์ไปใช้ใน .NET ด้วย GroupDocs.Signature: คำแนะนำทีละขั้นตอน
 
 ## การแนะนำ

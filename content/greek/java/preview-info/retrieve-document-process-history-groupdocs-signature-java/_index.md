@@ -4,8 +4,8 @@
 "title": "Ανάκτηση ιστορικού διεργασιών εγγράφων με το GroupDocs.Signature για Java - Ένας πλήρης οδηγός"
 "url": "/el/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Ανάκτηση ιστορικού διεργασιών εγγράφων με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

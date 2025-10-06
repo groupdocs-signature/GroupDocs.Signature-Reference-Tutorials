@@ -4,8 +4,8 @@
 "title": "Tutorial Tanda Tangan Java Stamp&#58; Cara Menandatangani PDF dengan API GroupDocs.Signature"
 "url": "/id/java/image-signatures/java-groupdocs-signature-stamp-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Tutorial Tanda Tangan Java Stamp: Menandatangani Dokumen PDF dengan API GroupDocs.Signature
 
 Dalam lanskap digital saat ini, penandatanganan dokumen yang efisien dan aman sangat penting bagi bisnis maupun individu. Baik Anda mengotorisasi kontrak maupun memverifikasi dokumen, memastikan keaslian secara digital dapat menghemat waktu dan sumber daya. Tutorial komprehensif ini akan memandu Anda menggunakan GroupDocs.Signature untuk Java API untuk menandatangani dokumen PDF dengan tanda tangan stempel khusus. Dengan mengikuti proses langkah demi langkah ini, Anda akan mempelajari cara menambahkan garis luar dan dalam dengan teks, gaya font, warna, dan posisi tertentu.

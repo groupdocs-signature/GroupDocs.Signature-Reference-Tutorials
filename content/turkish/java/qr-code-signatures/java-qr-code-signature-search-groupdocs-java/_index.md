@@ -4,8 +4,8 @@
 "title": "Java Geliştiricileri için GroupDocs ile Java QR Kod İmza Arama"
 "url": "/tr/java/qr-code-signatures/java-qr-code-signature-search-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java Geliştiricileri için GroupDocs ile Java QR Kod İmza Arama
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Jak wykrywać podpisy w kodzie QR MeCard w Javie za pomocą GroupDocs.Signature"
 "url": "/pl/java/qr-code-signatures/detect-qr-code-mecard-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wykrywać podpisy w kodzie QR MeCard za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

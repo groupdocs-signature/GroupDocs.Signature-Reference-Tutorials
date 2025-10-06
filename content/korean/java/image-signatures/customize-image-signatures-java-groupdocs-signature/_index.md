@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 이미지 서명을 사용자 지정하는 방법"
 "url": "/ko/java/image-signatures/customize-image-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 사용자 지정 이미지 서명을 구현하는 방법
 
 ## 소개

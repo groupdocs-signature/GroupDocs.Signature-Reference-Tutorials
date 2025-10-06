@@ -8,10 +8,8 @@ keywords:
 - search digital signatures PDF
 - verify digital signatures Java
 - GroupDocs.Signature for Java tutorial
-
+type: docs
 ---
-
-
 # How to Search for Digital Signatures in PDFs with GroupDocs.Signature for Java
 
 ## Introduction

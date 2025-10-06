@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 정확하게 배치된 바코드로 PDF에 서명하는 방법"
 "url": "/ko/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 정확한 위치에 바코드가 있는 PDF 문서에 서명하는 방법
 
 ## 소개

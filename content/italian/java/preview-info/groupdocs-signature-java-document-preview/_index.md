@@ -4,8 +4,8 @@
 "title": "Implementare la generazione di anteprime di documenti in Java con GroupDocs.Signature&#58; una guida completa"
 "url": "/it/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # Implementazione della generazione di anteprima di documenti in Java con GroupDocs.Signature
 
 ## Introduzione

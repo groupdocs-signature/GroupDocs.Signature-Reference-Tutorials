@@ -5,8 +5,8 @@
 "title": "Proteggi i tuoi documenti .NET con le firme digitali | Guida completa"
 "url": "/it/net/advanced-signature-techniques/sign-with-digital/"
 "weight": 12
+type: docs
 ---
-
 ## Perché le firme digitali sono importanti nella moderna gestione dei documenti
 
 Nel mondo digitale odierno, garantire l'autenticità e l'integrità dei documenti elettronici non è solo una buona pratica, ma è essenziale. Le firme digitali forniscono quel fondamentale livello di sicurezza, consentendo ai destinatari di sapere che il documento è legittimo e non è stato manomesso dopo la firma.

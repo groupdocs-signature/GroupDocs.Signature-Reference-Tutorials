@@ -4,8 +4,8 @@
 "title": "Cómo buscar firmas digitales en archivos PDF con GroupDocs.Signature para Java"
 "url": "/es/java/search-verification/search-pdfs-digital-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cómo buscar firmas digitales en archivos PDF con GroupDocs.Signature para Java
 
 ## Introducción

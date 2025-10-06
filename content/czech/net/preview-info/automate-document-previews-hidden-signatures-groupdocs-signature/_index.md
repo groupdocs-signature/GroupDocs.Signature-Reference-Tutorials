@@ -4,8 +4,8 @@
 "title": "Automatizace náhledů dokumentů se skrytými podpisy pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Automatizace náhledů dokumentů se skrytými podpisy pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

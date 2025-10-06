@@ -5,8 +5,8 @@
 "title": "Belgelerde Çoklu İmza Türlerini Arama"
 "url": "/tr/net/signature-searching/search-for-multiple-signatures/"
 "weight": 14
+type: docs
 ---
-
 ## giriiş
 
 Modern belge yönetim sistemlerinde, tek bir belge içinde birden fazla imza türünü arama ve doğrulama yeteneği giderek daha önemli hale geliyor. Kuruluşlar, belge güvenliğini artırmak ve doğrulama süreçlerini kolaylaştırmak için genellikle dijital imzalar, metin imzaları, barkodlar, QR kodları ve daha fazlası gibi çeşitli imza türleri kullanır. GroupDocs.Signature for .NET, geliştiricilerin çeşitli belge formatlarında kapsamlı imza arama işlevselliği uygulamasına olanak tanıyan güçlü bir çerçeve sunar.

@@ -4,8 +4,8 @@
 "title": "Cómo implementar la búsqueda de firmas de texto en archivos PDF con GroupDocs.Signature para Java"
 "url": "/es/java/search-verification/implement-search-text-signatures-groupdocs-java-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Cómo implementar la búsqueda de firmas de texto en archivos PDF con GroupDocs.Signature para Java
 
 ## Introducción

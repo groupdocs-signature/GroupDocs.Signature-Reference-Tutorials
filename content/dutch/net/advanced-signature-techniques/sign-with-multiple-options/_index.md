@@ -5,8 +5,8 @@
 "title": "Meerdere documenthandtekeningen in .NET onder de knie krijgen - Complete handleiding"
 "url": "/nl/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## Beveilig uw documenten met meerdere handtekeningtypen
 
 Heb je ooit verschillende soorten handtekeningen op één document moeten toepassen? Of je nu gevoelige contracten, juridische documenten of bedrijfsdocumenten verwerkt, het combineren van meerdere handtekeningtypen kan zowel de beveiliging als de authenticiteit aanzienlijk verbeteren. In deze handleiding leggen we precies uit hoe je deze krachtige functionaliteit implementeert met GroupDocs.Signature voor .NET.

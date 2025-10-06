@@ -4,8 +4,8 @@
 "title": "Documentos Java seguros com assinatura de metadados e criptografia usando GroupDocs"
 "url": "/pt/java/metadata-signatures/java-metadata-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Documentos Java seguros com assinatura de metadados e criptografia usando GroupDocs
 
 ## Introdução

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET でドキュメント検索を最適化し、進行状況イベント ハンドラーを実装する"
 "url": "/ja/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でドキュメント検索を最適化する: 進行状況イベント ハンドラーを実装する
 
 ## 導入

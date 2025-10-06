@@ -4,8 +4,8 @@
 "title": "ลงนามในเอกสารโดยใช้รูปภาพ Base64 ใน Java ด้วย GroupDocs.Signature"
 "url": "/th/java/image-signatures/sign-document-base64-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสารโดยใช้รูปภาพที่เข้ารหัส Base64 ด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

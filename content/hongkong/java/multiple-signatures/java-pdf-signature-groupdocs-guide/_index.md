@@ -4,8 +4,8 @@
 "title": "Java PDF 簽名指南－使用 GroupDocs.Signature for Java 新增文字、條碼、二維碼和數位簽名"
 "url": "/zh-hant/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # 如何實作 Java PDF 簽名指南：使用 GroupDocs.Signature for Java 新增文字、條碼、二維碼和數位簽名
 
 ## 介紹

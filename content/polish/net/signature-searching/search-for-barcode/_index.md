@@ -5,8 +5,8 @@
 "title": "Wyszukaj podpisy kodów kreskowych w dokumentach"
 "url": "/pl/net/signature-searching/search-for-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Wstęp
 
 W dzisiejszym cyfrowym środowisku zarządzania dokumentami, możliwość wyszukiwania i weryfikacji podpisów w dokumentach ma kluczowe znaczenie dla zachowania autentyczności i bezpieczeństwa. GroupDocs.Signature for .NET to potężne rozwiązanie do pracy z różnymi typami podpisów, w tym kodami kreskowymi, w różnych formatach dokumentów. Ten samouczek przeprowadzi Cię przez proces wdrażania funkcji wyszukiwania podpisów na podstawie kodów kreskowych w aplikacjach .NET za pomocą GroupDocs.Signature.

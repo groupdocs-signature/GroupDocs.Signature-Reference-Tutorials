@@ -4,8 +4,8 @@
 "title": "كيفية التوقيع رقميًا على مستندات Word مع النص كصورة باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية التوقيع رقميًا على مستندات Word مع النص كصورة باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

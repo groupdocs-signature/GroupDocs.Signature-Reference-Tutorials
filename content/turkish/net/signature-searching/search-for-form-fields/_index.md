@@ -5,8 +5,8 @@
 "title": "Belgelerde Form Alanlarını Arama"
 "url": "/tr/net/signature-searching/search-for-form-fields/"
 "weight": 12
+type: docs
 ---
-
 ## giriiş
 
 Modern belge yönetim sistemlerinde form alanları, veri toplama, kullanıcı etkileşimi ve belge otomasyonunda önemli bir rol oynar. GroupDocs.Signature for .NET, geliştiricilerin çeşitli belge formatlarındaki form alanlarıyla çalışabilmeleri için güçlü bir araç seti sunar. Bu araçlar, bu öğeleri programatik olarak arama, alma ve işleme gibi işlevleri de içerir.

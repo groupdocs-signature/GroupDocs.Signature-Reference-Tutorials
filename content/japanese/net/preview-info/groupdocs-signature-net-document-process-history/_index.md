@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET でドキュメント処理履歴を取得する方法 - ステップバイステップガイド"
 "url": "/ja/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でドキュメント処理履歴を取得する方法: ステップバイステップガイド
 
 ## 導入

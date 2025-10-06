@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 在演示文稿中搜索元数据签名"
 "url": "/zh/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在演示文稿中搜索元数据签名
 
 ## 介绍

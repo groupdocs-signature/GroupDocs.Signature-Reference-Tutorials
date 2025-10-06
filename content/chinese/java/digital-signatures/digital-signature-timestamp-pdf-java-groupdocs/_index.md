@@ -4,8 +4,8 @@
 "title": "使用 Java 和 GroupDocs.Signature 在 PDF 上实现带有时间戳的数字签名"
 "url": "/zh/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 Java 和 GroupDocs.Signature 在 PDF 上实现带有时间戳的数字签名
 
 ## 介绍

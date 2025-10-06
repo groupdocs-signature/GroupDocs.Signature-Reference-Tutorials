@@ -4,8 +4,8 @@
 "title": "Come firmare i PDF con testo utilizzando GroupDocs.Signature per .NET&#58; una guida passo passo"
 "url": "/it/net/text-signatures/sign-pdf-text-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare un documento con testo utilizzando GroupDocs.Signature per .NET: una guida passo passo
 
 ## Introduzione

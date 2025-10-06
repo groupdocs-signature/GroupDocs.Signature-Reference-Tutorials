@@ -4,8 +4,8 @@
 "title": "Comment signer des documents avec une image à l'aide de GroupDocs.Signature pour Java – Guide étape par étape"
 "url": "/fr/java/image-signatures/sign-documents-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer des documents avec des images à l'aide de GroupDocs.Signature pour Java
 
 À l'ère du numérique, sécuriser les documents par signature électronique est crucial pour les entreprises comme pour les particuliers. Qu'il s'agisse de finaliser des contrats ou d'approuver des conceptions, une méthode rapide et fiable de signature numérique de documents permet de gagner du temps et d'améliorer la sécurité. Ce tutoriel vous guidera dans son utilisation. **GroupDocs.Signature pour Java** signer des documents avec une signature d'image.

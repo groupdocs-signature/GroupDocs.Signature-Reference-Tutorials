@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Java PDF Processing"]
 tags: ["barcode-generation", "pdf-signing", "document-automation", "groupdocs"]
+type: docs
 ---
-
 # How to Add Barcode to PDF Java Documents
 
 ## Introduction

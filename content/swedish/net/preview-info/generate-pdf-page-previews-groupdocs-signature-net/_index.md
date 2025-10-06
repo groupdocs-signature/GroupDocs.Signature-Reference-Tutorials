@@ -4,8 +4,8 @@
 "title": "Generera PDF-sidförhandsvisningar med GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Generera PDF-sidförhandsvisningar med GroupDocs.Signature för .NET: En omfattande guide
 
 ## Introduktion

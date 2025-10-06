@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["excel-signing", "metadata-signatures", "document-authentication", "groupdocs-signature"]
+type: docs
 ---
-
 ## Why Excel Metadata Signatures Matter More Than You Think
 
 Picture this: you're working with financial spreadsheets containing sensitive budget data, and you need to prove who created them and when. Or maybe you're in compliance where document authenticity isn't just nice-to-have—it's legally required. That's where Excel metadata signatures become your secret weapon.

@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ بحث البيانات الوصفية في .NET باستخدام GroupDocs.Signature - دليل خطوة بخطوة"
 "url": "/ar/net/metadata-signatures/implement-metadata-search-net-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ البحث عن البيانات الوصفية في .NET باستخدام GroupDocs.Signature: دليل خطوة بخطوة
 
 ## مقدمة

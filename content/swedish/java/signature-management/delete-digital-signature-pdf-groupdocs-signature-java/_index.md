@@ -4,8 +4,8 @@
 "title": "Så här tar du bort en digital signatur från en PDF med GroupDocs.Signature för Java"
 "url": "/sv/java/signature-management/delete-digital-signature-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Så här tar du bort en digital signatur från en PDF med GroupDocs.Signature för Java
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile PDF Dijital İmza Önizlemesi Oluşturun | Kapsamlı Kılavuz"
 "url": "/tr/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanılarak PDF Dijital İmza Önizlemesi Nasıl Oluşturulur
 
 ## giriiş

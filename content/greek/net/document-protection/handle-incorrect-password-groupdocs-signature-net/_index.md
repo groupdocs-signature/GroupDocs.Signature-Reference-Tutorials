@@ -4,8 +4,8 @@
 "title": "Πώς να χειριστείτε εξαιρέσεις λανθασμένου κωδικού πρόσβασης στο GroupDocs.Signature για .NET"
 "url": "/el/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να χειριστείτε εξαιρέσεις λανθασμένου κωδικού πρόσβασης χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

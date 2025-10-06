@@ -4,8 +4,8 @@
 "title": "Как подписать таблицы Excel с метаданными с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать таблицы Excel с метаданными с помощью GroupDocs.Signature для .NET
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature™ バーコード署名ガイドを使用した Java でのマスタードキュメント署名"
 "url": "/ja/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使って Java でドキュメント署名をマスターする
 
 **GroupDocs.Signature for Java を使用してバーコード署名の署名、検証、検索、更新、削除を行うことで、デジタル ドキュメントのワークフローを効率化します。**

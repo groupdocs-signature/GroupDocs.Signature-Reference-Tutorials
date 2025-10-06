@@ -4,8 +4,8 @@
 "title": "Αναζήτηση υπογραφής κύριων μεταδεδομένων στο PowerPoint χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # Αναζήτηση υπογραφής κύριων μεταδεδομένων στο PowerPoint χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

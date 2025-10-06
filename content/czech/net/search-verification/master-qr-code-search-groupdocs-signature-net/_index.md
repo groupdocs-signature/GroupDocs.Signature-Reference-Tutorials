@@ -4,8 +4,8 @@
 "title": "Vyhledávání QR kódů v PDF pomocí GroupDocs.Signature pro .NET – kompletní průvodce"
 "url": "/cs/net/search-verification/master-qr-code-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vyhledávání QR kódů v PDF pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามดิจิทัลใน PDF ใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/digital-signatures/java-pdf-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามดิจิทัลใน PDF ใน Java โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

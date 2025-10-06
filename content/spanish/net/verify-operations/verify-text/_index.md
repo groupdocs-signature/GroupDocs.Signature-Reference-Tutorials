@@ -5,8 +5,8 @@
 "title": "Verificar firmas de texto en documentos"
 "url": "/es/net/verify-operations/verify-text/"
 "weight": 13
+type: docs
 ---
-
 ## Introducción
 
 Las firmas de texto, aunque suelen ser más sencillas que las firmas digitales o electrónicas, desempeñan un papel crucial en la gestión y verificación de documentos. Ya sean marcas de agua, texto de pie de página o patrones de contenido específicos, validar la presencia e integridad de las firmas de texto es un aspecto importante de los procesos de verificación de documentos.

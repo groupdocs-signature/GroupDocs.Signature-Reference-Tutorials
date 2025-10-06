@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java QR-Kod İmza Çıkarımı - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Java QR-Kod İmza Çıkarımının Uygulanması
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Hapus Kode QR dari Dokumen Secara Efisien Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/signature-management/delete-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hapus Kode QR dari Dokumen secara Efisien dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

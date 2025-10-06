@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58; Umfassender Leitfaden zum Einrichten digitaler Java-Signaturen"
 "url": "/de/java/getting-started/groupdocs-signature-java-digital-setup-guide/"
 "weight": 1
+type: docs
 ---
-
 # Implementierung der Einrichtung digitaler Java-Signaturen mit GroupDocs.Signature: Ein Entwicklerhandbuch
 
 Im digitalen Zeitalter ist die Gewährleistung der Authentizität und Integrität von Dokumenten entscheidend. Digitale Signaturen bieten eine sichere Möglichkeit, zu überprüfen, ob ein Dokument seit der Unterzeichnung verändert wurde. Dieser umfassende Leitfaden führt Sie durch die Einrichtung und Implementierung digitaler Signaturoptionen mit der leistungsstarken GroupDocs.Signature-Bibliothek für Java.

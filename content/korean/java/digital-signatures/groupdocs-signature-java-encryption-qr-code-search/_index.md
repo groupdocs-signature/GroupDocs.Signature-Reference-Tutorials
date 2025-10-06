@@ -4,8 +4,8 @@
 "title": "Java에서의 보안 디지털 서명&#58; GroupDocs.Signature 암호화 및 QR 코드 검색 가이드"
 "url": "/ko/java/digital-signatures/groupdocs-signature-java-encryption-qr-code-search/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java에서 보안 디지털 서명
 ## 소개
 오늘날의 디지털 환경에서는 문서 보안이 무엇보다 중요합니다. 민감한 비즈니스 계약이나 개인 기록을 관리하든, 강력한 암호화와 효율적인 검색 기능을 적용하면 무단 접근으로부터 데이터를 보호할 수 있습니다. 이 가이드에서는 GroupDocs.Signature를 사용하여 Java에서 사용자 지정 암호화 및 QR 코드 서명 검색 옵션을 구현하는 방법을 안내합니다.

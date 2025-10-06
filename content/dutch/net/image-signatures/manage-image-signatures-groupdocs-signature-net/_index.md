@@ -4,8 +4,8 @@
 "title": "Beheer afbeeldingshandtekeningen in documenten met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/image-signatures/manage-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Beheer afbeeldinghandtekeningen in documenten met GroupDocs.Signature voor .NET
 
 ## Invoering

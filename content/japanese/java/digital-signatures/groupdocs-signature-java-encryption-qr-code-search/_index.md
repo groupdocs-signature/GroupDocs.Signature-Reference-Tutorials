@@ -4,8 +4,8 @@
 "title": "Javaでのセキュアデジタル署名 - GroupDocs.Signatureの暗号化とQRコード検索ガイド"
 "url": "/ja/java/digital-signatures/groupdocs-signature-java-encryption-qr-code-search/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した Java での安全なデジタル署名
 ## 導入
 今日のデジタル環境において、文書のセキュリティ保護は極めて重要です。機密性の高いビジネス契約書や個人記録を管理する場合でも、強力な暗号化と効率的な検索機能を適用することで、不正アクセスからデータを保護できます。このガイドでは、GroupDocs.Signatureを使用して、Javaでカスタム暗号化とQRコード署名検索オプションを実装する方法について説明します。

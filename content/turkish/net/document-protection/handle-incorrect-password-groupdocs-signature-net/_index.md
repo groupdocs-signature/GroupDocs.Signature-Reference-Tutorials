@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature'da Hatalı Parola İstisnalarının Nasıl Ele Alınacağı"
 "url": "/tr/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanılarak Hatalı Parola İstisnaları Nasıl Ele Alınır?
 
 ## giriiş

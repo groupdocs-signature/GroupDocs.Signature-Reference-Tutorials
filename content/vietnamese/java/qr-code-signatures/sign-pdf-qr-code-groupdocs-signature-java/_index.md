@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng mã QR bằng GroupDocs.Signature trong Java - Hướng dẫn từng bước"
 "url": "/vi/java/qr-code-signatures/sign-pdf-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai Thư viện chữ ký Java: Tải và ký PDF bằng tùy chọn mã QR bằng GroupDocs.Signature
 
 Trong bối cảnh kỹ thuật số ngày nay, việc đảm bảo tính toàn vẹn của tài liệu là vô cùng quan trọng, đặc biệt là khi xử lý thông tin nhạy cảm. Việc thêm chữ ký điện tử không chỉ tăng cường bảo mật mà còn cải thiện hiệu quả. Hướng dẫn từng bước này sẽ hướng dẫn bạn cách sử dụng **GroupDocs.Signature cho Java** để tải và ký các tệp PDF bằng tùy chọn mã QR.

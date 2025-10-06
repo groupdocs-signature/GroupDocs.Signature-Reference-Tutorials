@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása űrlapmező-aláírással .NET-ben a GroupDocs.Signature használatával"
 "url": "/hu/net/form-field-signatures/sign-pdf-form-field-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentumok aláírása űrlapmező-aláírással a GroupDocs.Signature for .NET használatával
 ## Bevezetés
 Nehezen tudja digitálisan aláírni a PDF-eket a .NET-alkalmazásaiban? A folyamat automatizálása időt takarít meg, miközben biztosítja a pontosságot és a biztonságot. Ez az oktatóanyag végigvezeti Önt azon, hogyan írhat zökkenőmentesen alá egy PDF-dokumentumot űrlapmező-aláírások segítségével a GroupDocs.Signature for .NET segítségével.

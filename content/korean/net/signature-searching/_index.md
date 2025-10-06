@@ -5,8 +5,8 @@
 "title": "포괄적인 문서 서명 검색"
 "url": "/ko/net/signature-searching/"
 "weight": 23
+type: docs
 ---
-
 ## 소개
 
 문서 보안 및 무결성 검증은 현대 비즈니스 프로세스의 핵심 요소입니다. GroupDocs.Signature for .NET은 다양한 문서 형식에 대한 포괄적인 서명 검색 기능을 구현하는 강력한 솔루션을 제공합니다. 문서 진위 검증, 서명 정보 추출, 자동화된 검증 워크플로 구축 등 어떤 작업을 수행하든 GroupDocs.Signature는 여러 서명 유형을 효율적으로 검색하고 처리하는 데 필요한 도구를 제공합니다.

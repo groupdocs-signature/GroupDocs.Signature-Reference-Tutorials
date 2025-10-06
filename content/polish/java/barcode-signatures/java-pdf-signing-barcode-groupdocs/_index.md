@@ -4,8 +4,8 @@
 "title": "Podpisywanie plików PDF w Javie kodem kreskowym za pomocą GroupDocs™ — kompleksowy przewodnik"
 "url": "/pl/java/barcode-signatures/java-pdf-signing-barcode-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć podpisywanie plików PDF w Javie z opcjami kodu kreskowego przy użyciu GroupDocs.Signature dla Javy
 
 ## Wstęp

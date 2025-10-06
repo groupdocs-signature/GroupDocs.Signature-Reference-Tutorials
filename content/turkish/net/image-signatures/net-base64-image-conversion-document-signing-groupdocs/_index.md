@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile .NET Base64 Görüntü Dönüştürme ve Belge İmzalama"
 "url": "/tr/net/image-signatures/net-base64-image-conversion-document-signing-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak .NET Base64 Görüntü Dönüştürme ve Belge İmzalama İşlemini Uygulama
 
 ## giriiş

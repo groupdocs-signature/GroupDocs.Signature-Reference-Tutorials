@@ -5,8 +5,8 @@
 "title": "Suche nach digitalen Signaturen in Dokumenten"
 "url": "/de/net/signature-searching/search-for-digital-signatures/"
 "weight": 11
+type: docs
 ---
-
 ## Einführung
 
 In der heutigen digitalen Landschaft ist die Gewährleistung der Authentizität und Integrität von Dokumenten für Unternehmen und Organisationen von entscheidender Bedeutung. Digitale Signaturen bieten einen robusten Mechanismus zur Überprüfung der Dokumentauthentizität und zur Erkennung nicht autorisierter Änderungen. GroupDocs.Signature für .NET bietet eine umfassende Lösung für die Arbeit mit digitalen Signaturen in verschiedenen Dokumentformaten und ermöglicht Entwicklern die nahtlose Integration von Signaturfunktionen in ihre .NET-Anwendungen.

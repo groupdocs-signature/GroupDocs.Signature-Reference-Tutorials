@@ -4,8 +4,8 @@
 "title": "Поиск и извлечение подписей полей форм в PDF-файлах с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Как искать и извлекать подписи полей форм в PDF-документах с помощью GroupDocs.Signature для Java
 
 ## Введение

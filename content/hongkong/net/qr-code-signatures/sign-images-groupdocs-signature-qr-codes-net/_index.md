@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 對二維碼影像進行簽署並以各種格式儲存"
 "url": "/zh-hant/net/qr-code-signatures/sign-images-groupdocs-signature-qr-codes-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 對帶有二維碼的圖像進行簽名
 
 ## 介紹

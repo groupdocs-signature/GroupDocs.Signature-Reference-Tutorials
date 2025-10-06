@@ -4,8 +4,8 @@
 "title": "توقيع ملفات PDF باستخدام توقيع حقل النموذج في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/form-field-signatures/sign-pdf-form-field-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستندات PDF باستخدام توقيع حقل النموذج باستخدام GroupDocs.Signature لـ .NET
 ## مقدمة
 هل تواجه صعوبة في التوقيع الرقمي لملفات PDF في تطبيقات .NET؟ أتمتة هذه العملية توفر الوقت مع ضمان الدقة والأمان. يرشدك هذا البرنامج التعليمي إلى كيفية توقيع مستند PDF بسلاسة باستخدام توقيعات حقول النموذج مع GroupDocs.Signature لـ .NET.

@@ -8,7 +8,7 @@ keywords:
 - digital PDF signature
 - GroupDocs.Signature for .NET
 - customizing digital signatures
-
+type: docs
 ---
 ---
 title: "Digital PDF Signing .NET - Complete GroupDocs.Signature"

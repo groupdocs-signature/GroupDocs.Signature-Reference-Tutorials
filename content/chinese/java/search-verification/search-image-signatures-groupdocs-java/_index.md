@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中实现图像签名搜索的指南"
 "url": "/zh/java/search-verification/search-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中实现图像签名搜索的指南
 
 ## 介绍

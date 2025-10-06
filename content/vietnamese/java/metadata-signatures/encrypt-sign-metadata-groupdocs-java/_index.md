@@ -4,8 +4,8 @@
 "title": "Cách mã hóa và ký siêu dữ liệu tài liệu bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/metadata-signatures/encrypt-sign-metadata-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách mã hóa và ký siêu dữ liệu tài liệu bằng GroupDocs.Signature cho Java: Hướng dẫn toàn diện
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Como assinar PDFs usando a assinatura de campo de formulário em C# com GroupDocs.Signature para .NET"
 "url": "/pt/net/form-field-signatures/sign-pdf-form-field-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Como assinar um documento PDF usando a assinatura de campo de formulário com GroupDocs.Signature para .NET
 
 ## Introdução

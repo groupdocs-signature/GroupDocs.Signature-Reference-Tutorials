@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET でプレゼンテーションに署名および変換する方法 - 総合ガイド"
 "url": "/ja/net/digital-signatures/sign-and-convert-presentations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でプレゼンテーションに署名および変換する方法: 包括的なガイド
 
 ## 導入

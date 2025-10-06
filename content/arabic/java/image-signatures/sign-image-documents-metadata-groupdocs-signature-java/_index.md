@@ -4,8 +4,8 @@
 "title": "توقيع مستندات الصور باستخدام البيانات الوصفية باستخدام GroupDocs.Signature for Java - دليل كامل"
 "url": "/ar/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستندات الصور باستخدام البيانات الوصفية باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

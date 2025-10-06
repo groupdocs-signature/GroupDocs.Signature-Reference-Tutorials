@@ -5,8 +5,8 @@
 "title": "Word-dokumentumok fejlesztése metaadat-aláírásokkal C# .NET-ben"
 "url": "/hu/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## Bevezetés
 
 A szövegszerkesztési dokumentumok a leggyakrabban használt fájltípusok közé tartoznak az üzleti életben, az oktatásban és a személyes kommunikációban. Ezen dokumentumok hitelességének biztosítása, eredetük nyomon követése és integritásuk megőrzése számos szakmai környezetben kulcsfontosságú. A dokumentumok biztonságának és nyomon követhetőségének fokozásának egyik hatékony módja a metaadat-aláírások beágyazása.

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 检索文档信息"
 "url": "/zh/net/preview-info/retrieve-document-info-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 检索文档信息
 
 ## 介绍

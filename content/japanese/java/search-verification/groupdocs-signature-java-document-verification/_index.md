@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Javaを使用したマスタードキュメント検証 - ステップバイステップガイド"
 "url": "/ja/java/search-verification/groupdocs-signature-java-document-verification/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java によるドキュメント検証の習得
 
 今日のデジタル時代において、文書の真正性と完全性を確保することは、様々な業界で不可欠です。契約書を検証する法律専門家であれ、請求書を認証する企業であれ、文書検証は不可欠です。 **Java 用 GroupDocs.Signature**: バーコード署名の検証を簡単に可能にすることで、このプロセスを簡素化する強力なライブラリです。

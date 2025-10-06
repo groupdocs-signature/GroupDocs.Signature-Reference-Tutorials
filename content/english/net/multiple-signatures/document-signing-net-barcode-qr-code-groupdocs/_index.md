@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: [".NET Development"]
 tags: ["document-signing", "barcode", "qr-code", "groupdocs"]
+type: docs
 ---
-
 # Document Signing .NET: Complete Barcode & QR Code Tutorial with GroupDocs.Signature
 
 ## Introduction

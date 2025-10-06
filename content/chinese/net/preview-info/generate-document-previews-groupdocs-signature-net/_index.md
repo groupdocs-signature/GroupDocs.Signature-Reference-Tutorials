@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 在档案中生成文档预览——完整指南"
 "url": "/zh/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 从档案生成文档预览
 
 ## 介绍

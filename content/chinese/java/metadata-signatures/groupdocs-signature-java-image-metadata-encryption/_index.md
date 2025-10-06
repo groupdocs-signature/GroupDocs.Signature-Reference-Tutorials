@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中实现图像元数据签名和加密"
 "url": "/zh/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中实现图像元数据加密签名
 
 ## 介绍

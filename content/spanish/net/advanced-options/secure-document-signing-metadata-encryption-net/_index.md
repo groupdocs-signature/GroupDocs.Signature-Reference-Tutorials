@@ -4,8 +4,8 @@
 "title": "Domine la firma segura de documentos con metadatos y cifrado personalizado en .NET usando GroupDocs.Signature"
 "url": "/es/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Domine la firma segura de documentos con metadatos y cifrado personalizado en .NET
 
 ## Introducción

@@ -3,8 +3,8 @@
 "title": "Tutoriales de firma digital para GroupDocs.Signature .NET"
 "url": "/es/net/digital-signatures/"
 "weight": 3
+type: docs
 ---
-
 # Tutoriales de firma digital para GroupDocs.Signature .NET
 
 Domine la implementación de firmas digitales con nuestros detallados tutoriales de GroupDocs.Signature .NET. Estas guías paso a paso muestran cómo firmar documentos con certificados digitales, implementar opciones avanzadas de apariencia de firma digital, trabajar con tipos XAdES, usar el guardado incremental para PDF, acceder al almacén de certificados, administrar marcas de tiempo y mucho más. Cada tutorial incluye ejemplos de código C# funcionales, notas de implementación y prácticas recomendadas para ayudarle a crear aplicaciones que firmen y verifiquen documentos de forma segura con firmas criptográficas digitales.

@@ -4,8 +4,8 @@
 "title": "Как подписать PDF-файлы цифровой подписью с помощью GroupDocs.Signature для .NET&#58; пошаговое руководство"
 "url": "/ru/net/digital-signatures/digitally-sign-pdf-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать PDF-документ цифровой подписью с помощью GroupDocs.Signature для .NET
 
 ## Введение

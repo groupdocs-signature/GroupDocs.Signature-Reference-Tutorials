@@ -4,8 +4,8 @@
 "title": "Hoe u digitale handtekeningen in PDF's kunt zoeken met GroupDocs.Signature voor Java"
 "url": "/nl/java/search-verification/search-pdfs-digital-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u met GroupDocs.Signature voor Java naar digitale handtekeningen in PDF's kunt zoeken
 
 ## Invoering

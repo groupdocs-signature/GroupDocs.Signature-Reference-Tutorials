@@ -4,8 +4,8 @@
 "title": "Signieren Sie DICOM-Bilder mit QR-Codes und Metadaten mithilfe von GroupDocs.Signature für Java"
 "url": "/de/java/image-signatures/sign-dicom-images-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie DICOM-Bilder mit QR-Codes und Metadaten mithilfe von GroupDocs.Signature für Java
 
 ## Einführung

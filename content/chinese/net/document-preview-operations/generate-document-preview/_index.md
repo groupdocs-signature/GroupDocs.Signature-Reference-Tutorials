@@ -5,8 +5,8 @@
 "title": "如何在 .NET 应用中生成文档预览 | 快速教程"
 "url": "/zh/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # 如何在 .NET 应用程序中生成文档预览
 
 ## 介绍

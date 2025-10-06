@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용한 PDF의 효율적인 바코드 서명 관리"
 "url": "/ko/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용한 PDF의 효율적인 바코드 서명 관리
 
 ## 소개

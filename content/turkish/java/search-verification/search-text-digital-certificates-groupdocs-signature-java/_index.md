@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java ile Dijital Sertifika Aramada Ustalaşma"
 "url": "/tr/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile Dijital Sertifika Aramada Ustalaşma
 
 ## giriiş

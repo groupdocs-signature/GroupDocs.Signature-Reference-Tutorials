@@ -4,8 +4,8 @@
 "title": "Zvládněte podepisování dokumentů v Javě s čárovými kódy GS1DotCode pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí podepisování dokumentů v Javě s čárovými kódy GS1DotCode pomocí GroupDocs.Signature
 
 ## Zavedení

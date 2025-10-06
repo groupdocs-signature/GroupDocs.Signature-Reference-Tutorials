@@ -4,8 +4,8 @@
 "title": "Οδηγός αναζήτησης Java Barcode & QR Code με το GroupDocs.Signature για ασφαλή επαλήθευση εγγράφων"
 "url": "/el/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση Java για αναζητήσεις με υπογραφή Barcode, QR Code και Metadata με το GroupDocs.Signature
 
 ## Εισαγωγή

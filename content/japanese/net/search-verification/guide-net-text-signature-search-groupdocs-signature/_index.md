@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature で .NET テキスト署名検索をマスターする - ステップバイステップガイド"
 "url": "/ja/net/search-verification/guide-net-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した .NET テキスト署名検索の習得
 
 ## 導入

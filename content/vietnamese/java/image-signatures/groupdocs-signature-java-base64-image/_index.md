@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature cho Java - Ký tài liệu bằng hình ảnh Base64"
 "url": "/vi/java/image-signatures/groupdocs-signature-java-base64-image/"
 "weight": 1
+type: docs
 ---
-
 # Chữ ký tài liệu chính với GroupDocs.Signature cho Java sử dụng hình ảnh được mã hóa Base64
 
 ## Giới thiệu

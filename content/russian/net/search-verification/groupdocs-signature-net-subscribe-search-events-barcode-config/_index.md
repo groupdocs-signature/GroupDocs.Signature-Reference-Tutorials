@@ -4,8 +4,8 @@
 "title": "Освоение GroupDocs.Signature для .NET&#58; Подписка и настройка событий поиска штрихкодов"
 "url": "/ru/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # Освоение GroupDocs.Signature для .NET: подписка и настройка событий поиска штрихкодов
 
 ## Введение

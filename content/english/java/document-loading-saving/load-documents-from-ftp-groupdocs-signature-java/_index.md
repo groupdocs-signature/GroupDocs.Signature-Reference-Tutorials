@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature Java
 - load documents from FTP
 - Java document signing
-
+type: docs
 ---
-
-
 # Load Documents from an FTP Server Using GroupDocs.Signature for Java
 
 ## Introduction

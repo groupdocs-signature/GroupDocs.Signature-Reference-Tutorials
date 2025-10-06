@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java로 문서 미리보기 생성 구현하기&#58; 종합 가이드"
 "url": "/ko/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java로 문서 미리보기 생성 구현
 
 ## 소개

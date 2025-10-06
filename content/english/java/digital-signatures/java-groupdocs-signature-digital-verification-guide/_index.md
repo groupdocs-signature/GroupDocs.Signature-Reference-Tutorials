@@ -8,10 +8,8 @@ keywords:
 - Java digital document verification
 - GroupDocs.Signature for Java
 - digital signatures in PDFs
-
+type: docs
 ---
-
-
 # How to Implement Java Digital Document Verification Using GroupDocs.Signature
 
 ## Introduction

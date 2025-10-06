@@ -4,8 +4,8 @@
 "title": "Så här skapar och konfigurerar du VCard-objekt med GroupDocs.Signature för .NET - En utvecklarguide"
 "url": "/sv/net/metadata-signatures/create-configure-vcard-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Så här skapar och konfigurerar du VCard-objekt med GroupDocs.Signature för .NET: En utvecklarguide
 
 ## Introduktion

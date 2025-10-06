@@ -5,8 +5,8 @@
 "title": "Hledání polí formuláře v dokumentech"
 "url": "/cs/net/signature-searching/search-for-form-fields/"
 "weight": 12
+type: docs
 ---
-
 ## Zavedení
 
 V moderních systémech správy dokumentů hrají formulářová pole klíčovou roli při shromažďování dat, interakci s uživatelem a automatizaci dokumentů. GroupDocs.Signature pro .NET poskytuje vývojářům výkonnou sadu nástrojů pro práci s formulářovými poli v různých formátech dokumentů, včetně programového vyhledávání, načítání a zpracování těchto prvků.

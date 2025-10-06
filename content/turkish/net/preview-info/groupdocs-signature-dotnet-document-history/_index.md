@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile Belge İşlem Geçmişinde Ustalaşma Kapsamlı Bir Kılavuz"
 "url": "/tr/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Belge İşlem Geçmişine Hakim Olma: Kapsamlı Bir Kılavuz
 
 ## giriiş

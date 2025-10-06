@@ -4,8 +4,8 @@
 "title": "Načítání a přístup k digitálním certifikátům v .NET pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/net/digital-signatures/groupdocs-signature-dotnet-load-access-digital-certificates/"
 "weight": 1
+type: docs
 ---
-
 # Načítání a přístup k digitálním certifikátům v .NET pomocí GroupDocs.Signature
 ## Komplexní průvodce
 

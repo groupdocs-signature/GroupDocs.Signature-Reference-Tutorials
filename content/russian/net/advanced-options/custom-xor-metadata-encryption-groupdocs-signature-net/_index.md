@@ -4,8 +4,8 @@
 "title": "Расширенное шифрование метаданных XOR с помощью GroupDocs.Signature для .NET. Полное руководство"
 "url": "/ru/net/advanced-options/custom-xor-metadata-encryption-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Расширенное шифрование метаданных XOR с помощью GroupDocs.Signature для .NET
 
 ## Введение

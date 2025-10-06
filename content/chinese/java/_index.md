@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature for Java 的综合教程和示例"
 "url": "/zh/java/"
 "weight": 10
+type: docs
 ---
-
 # GroupDocs.Signature Java 教程和示例
 
 欢迎阅读我们全面的 GroupDocs.Signature Java 版教程合集。这些分步指南将帮助您在 Java 应用程序中实现安全的文档签名解决方案。从基本设置到高级签名管理，我们的教程涵盖了您使用多种签名类型保护文档所需的所有信息。

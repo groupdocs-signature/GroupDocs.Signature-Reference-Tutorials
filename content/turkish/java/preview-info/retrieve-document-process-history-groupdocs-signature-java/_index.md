@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java ile Belge İşlem Geçmişini Alın - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature ile Belge İşlem Geçmişini Alın
 
 ## giriiş

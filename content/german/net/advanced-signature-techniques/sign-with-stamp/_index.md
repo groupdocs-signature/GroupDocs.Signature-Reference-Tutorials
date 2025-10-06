@@ -5,8 +5,8 @@
 "title": "So fügen Sie Dokumenten mit GroupDocs.Signature Stempelsignaturen hinzu"
 "url": "/de/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # So fügen Sie Ihren .NET-Dokumenten professionelle Stempelsignaturen hinzu
 
 ## Was können Sie mit Stempelunterschriften erreichen?

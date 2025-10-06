@@ -5,8 +5,8 @@
 "title": "PowerPoint prezentációk javítása metaadat-aláírásokkal C# .NET-ben"
 "url": "/hu/net/document-signing/sign-presentation-with-metadata/"
 "weight": 12
+type: docs
 ---
-
 ## Bevezetés
 
 A mai digitális munkahelyeken a prezentációk kritikus fontosságú eszközök a kommunikációhoz és az információmegosztáshoz. Ezen prezentációs fájlok hitelességének és integritásának biztosítása egyre fontosabbá válik, különösen a vállalati és oktatási környezetekben. A prezentációk biztonságának és nyomon követhetőségének fokozásának egyik hatékony módja a metaadat-aláírások beágyazása.

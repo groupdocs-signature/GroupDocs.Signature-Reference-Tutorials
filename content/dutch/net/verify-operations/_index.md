@@ -5,8 +5,8 @@
 "title": "Documentverificatiebewerkingen in .NET"
 "url": "/nl/net/verify-operations/"
 "weight": 27
+type: docs
 ---
-
 ## Invoering
 
 Documentverificatie is een cruciaal onderdeel van elk veilig documentbeheersysteem. Of u nu bedrijfsapplicaties, documentworkflowoplossingen of beveiligingsgerichte systemen bouwt, het is essentieel om verschillende soorten handtekeningen in documenten te kunnen verifiëren. GroupDocs.Signature voor .NET biedt krachtige tools en API's waarmee .NET-ontwikkelaars robuuste verificatiefunctionaliteit kunnen implementeren voor barcodes, digitale handtekeningen, QR-codes en teksthandtekeningen.

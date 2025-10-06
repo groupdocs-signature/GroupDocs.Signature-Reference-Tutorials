@@ -4,8 +4,8 @@
 "title": "Padroneggiare la firma PDF in Java&#58; firme di testo con GroupDocs.Signature per Java"
 "url": "/it/java/digital-signatures/java-pdf-signing-groupdocs-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la firma PDF in Java: creazione di adesivi di testo con GroupDocs.Signature
 
 Nell'era digitale odierna, firmare elettronicamente i documenti è essenziale. Che siate professionisti o singoli individui che gestiscono contratti e accordi, firme sicure e visivamente accattivanti sono fondamentali. Questo tutorial vi guiderà attraverso il processo di firma di documenti PDF utilizzando l'aspetto degli adesivi di testo con GroupDocs.Signature per Java. Padroneggiare questa competenza semplificherà i flussi di lavoro documentali e vi consentirà di presentare documenti firmati professionalmente in un formato unico.

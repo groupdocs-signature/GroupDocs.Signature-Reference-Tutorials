@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak PDF'leri Meta Verilerle İmzalama Kapsamlı Bir Kılavuz"
 "url": "/tr/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak PDF'leri Meta Verilerle İmzalayın
 
 ## giriiş

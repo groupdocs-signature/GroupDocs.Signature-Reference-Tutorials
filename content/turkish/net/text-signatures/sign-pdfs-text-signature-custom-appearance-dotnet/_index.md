@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature kullanarak .NET'te PDF'leri Metin İmzası ve Özel Görünümle İmzalayın"
 "url": "/tr/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak PDF Belgelerini Metin İmzası ve Özel Görünümle Nasıl İmzalayabilirsiniz?
 
 ## giriiş

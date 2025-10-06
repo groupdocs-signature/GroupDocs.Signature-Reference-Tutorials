@@ -4,8 +4,8 @@
 "title": "Menguasai Penandatanganan Dokumen dengan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Penandatanganan Dokumen dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

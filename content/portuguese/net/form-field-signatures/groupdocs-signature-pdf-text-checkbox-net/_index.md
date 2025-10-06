@@ -4,8 +4,8 @@
 "title": "Implementar assinatura de PDF com texto e caixa de seleção usando GroupDocs.Signature para .NET"
 "url": "/pt/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementar assinatura de PDF com texto e caixa de seleção usando GroupDocs.Signature para .NET
 
 ## Assinaturas de campos de formulário

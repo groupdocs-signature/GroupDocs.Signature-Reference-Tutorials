@@ -4,8 +4,8 @@
 "title": "Jelszókivételek kezelése a GroupDocs.Signature for .NET-ben&#58; Átfogó útmutató"
 "url": "/hu/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jelszókivételek kezelése a GroupDocs.Signature for .NET fájlban
 
 ## Bevezetés

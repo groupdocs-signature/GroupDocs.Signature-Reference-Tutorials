@@ -4,8 +4,8 @@
 "title": "जावा में मास्टर टेक्स्ट हस्ताक्षर&#58; ग्रुपडॉक्स के लिए व्यापक गाइड.जावा के लिए हस्ताक्षर"
 "url": "/hi/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # जावा में दस्तावेज़ हस्ताक्षर में निपुणता: पाठ हस्ताक्षरों के लिए GroupDocs.Signature का उपयोग करने हेतु एक व्यापक मार्गदर्शिका
 
 ## परिचय

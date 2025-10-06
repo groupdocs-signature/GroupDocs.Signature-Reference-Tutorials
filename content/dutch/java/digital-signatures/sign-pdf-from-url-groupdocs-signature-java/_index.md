@@ -4,8 +4,8 @@
 "title": "Hoe u een PDF ondertekent vanaf een URL met GroupDocs.Signature voor Java&#58; tutorial over digitale handtekeningen"
 "url": "/nl/java/digital-signatures/sign-pdf-from-url-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF ondertekenen vanaf een URL met GroupDocs.Signature voor Java
 
 ## Invoering

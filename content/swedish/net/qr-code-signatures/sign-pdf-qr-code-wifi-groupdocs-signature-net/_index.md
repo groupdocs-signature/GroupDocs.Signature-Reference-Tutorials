@@ -4,8 +4,8 @@
 "title": "Hur man signerar PDF-filer med QR-koder och bäddar in WiFi-information med GroupDocs.Signature för .NET"
 "url": "/sv/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar PDF-filer med QR-koder och bäddar in WiFi-information med GroupDocs.Signature för .NET
 
 ## Introduktion

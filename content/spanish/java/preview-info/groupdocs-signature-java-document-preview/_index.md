@@ -4,8 +4,8 @@
 "title": "Implemente la generación de vista previa de documentos en Java con GroupDocs.Signature&#58; una guía completa"
 "url": "/es/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # Implementación de la generación de vista previa de documentos en Java con GroupDocs.Signature
 
 ## Introducción

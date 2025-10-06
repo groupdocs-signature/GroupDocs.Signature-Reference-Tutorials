@@ -4,8 +4,8 @@
 "title": "Onderteken PDF-documenten met Base64-afbeeldingen en GroupDocs.Signature voor .NET"
 "url": "/nl/net/image-signatures/sign-pdf-base64-image-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF-document ondertekenen met Base64-afbeeldingen met GroupDocs.Signature voor .NET
 
 ## Invoering

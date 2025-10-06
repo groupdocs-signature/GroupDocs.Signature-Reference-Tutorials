@@ -4,8 +4,8 @@
 "title": "JavaとGroupDocs.Signatureを使用してQRコードからHIBC PASデータを抽出する方法"
 "url": "/ja/java/qr-code-signatures/extract-hibc-pas-data-qr-codes-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # JavaとGroupDocs.Signatureを使用してQRコードからHIBC PASデータを抽出する方法
 
 **導入**

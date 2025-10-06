@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET によるドキュメント処理履歴の習得 - 総合ガイド"
 "url": "/ja/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET によるドキュメント処理履歴の習得: 総合ガイド
 
 ## 導入

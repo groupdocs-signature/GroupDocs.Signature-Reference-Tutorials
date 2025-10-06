@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu PDF có chú thích văn bản bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/text-signatures/sign-pdf-text-annotations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF có chú thích văn bản bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

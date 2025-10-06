@@ -4,8 +4,8 @@
 "title": "Αποτελεσματική διαγραφή υπογραφών PDF χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/signature-management/delete-pdf-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να χρησιμοποιήσετε το GroupDocs.Signature για .NET για να καταργήσετε υπογραφές PDF ανά αναγνωριστικό
 
 ## Εισαγωγή

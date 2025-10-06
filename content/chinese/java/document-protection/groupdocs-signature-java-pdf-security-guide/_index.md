@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 保护您的 PDF 二维码签名和密码"
 "url": "/zh/java/document-protection/groupdocs-signature-java-pdf-security-guide/"
 "weight": 1
+type: docs
 ---
-
 # 保护您的 PDF：使用 GroupDocs.Signature for Java 进行二维码签名和密码保护
 
 在当今的数字时代，保护 PDF 文档的安全对于管理敏感信息和确保文件真实性至关重要。本指南将向您展示如何使用 GroupDocs.Signature for Java 为您的 PDF 添加二维码签名和密码保护。

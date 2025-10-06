@@ -4,8 +4,8 @@
 "title": "Eseményfeliratkozások elsajátítása dokumentumaláírásban a GroupDocs.Signature for .NET segítségével | Lépésről lépésre útmutató"
 "url": "/hu/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # Eseményfeliratkozás elsajátítása dokumentumaláírásban a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

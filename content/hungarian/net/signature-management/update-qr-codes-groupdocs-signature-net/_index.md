@@ -4,8 +4,8 @@
 "title": "QR-kódok frissítése .NET-ben a GroupDocs.Signature használatával – lépésről lépésre útmutató"
 "url": "/hu/net/signature-management/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód frissítése a GroupDocs.Signature for .NET használatával
 
 Üdvözöljük átfogó útmutatónkban, amely bemutatja a QR-kódok frissítését a .NET hatékony GroupDocs.Signature könyvtárának használatával! Ez az oktatóanyag ideális azoknak a fejlesztőknek, akik az aláírás-frissítések automatizálásával szeretnék javítani dokumentumkezelési munkafolyamataikat. A GroupDocs.Signature for .NET kihasználásával zökkenőmentesen integrálhatja a digitális aláírás funkcióit alkalmazásaiba.

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 驗證 ZIP 檔案中的條碼簽名"
 "url": "/zh-hant/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 驗證 ZIP 檔案中的條碼簽名
 
 ## 介紹

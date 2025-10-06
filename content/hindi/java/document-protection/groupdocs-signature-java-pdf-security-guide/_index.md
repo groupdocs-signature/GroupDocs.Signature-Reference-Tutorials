@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature के साथ अपने PDFs के QR-कोड हस्ताक्षर और पासवर्ड सुरक्षा को सुरक्षित करें"
 "url": "/hi/java/document-protection/groupdocs-signature-java-pdf-security-guide/"
 "weight": 1
+type: docs
 ---
-
 # अपने PDF को सुरक्षित करें: Java के लिए GroupDocs.Signature के साथ QR-कोड हस्ताक्षर और पासवर्ड सुरक्षा
 
 आज के डिजिटल युग में, संवेदनशील जानकारी के प्रबंधन और फ़ाइल की प्रामाणिकता सुनिश्चित करने के लिए PDF दस्तावेज़ों की सुरक्षा ज़रूरी है। यह मार्गदर्शिका आपको बताएगी कि अपने PDF में QR-कोड हस्ताक्षर और पासवर्ड सुरक्षा जोड़ने के लिए GroupDocs.Signature for Java का उपयोग कैसे करें।

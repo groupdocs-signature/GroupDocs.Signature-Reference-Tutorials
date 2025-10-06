@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET によるマスター ドキュメントの署名と検証"
 "url": "/ja/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET によるマスター ドキュメントの署名と検証
 
 ## GroupDocs.Signature for .NET でドキュメントの署名と検証をマスターする方法

@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng mã vạch được định vị chính xác bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng mã vạch được định vị chính xác bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

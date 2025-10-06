@@ -4,8 +4,8 @@
 "title": "Comment implémenter des signatures numériques .NET avec horodatage et certification à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter des signatures numériques .NET avec horodatage et certification à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

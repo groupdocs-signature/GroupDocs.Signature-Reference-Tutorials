@@ -4,8 +4,8 @@
 "title": "Tải và ký tài liệu trong Java với GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Tải và ký tài liệu bằng GroupDocs.Signature trong Java
 
 ## Giới thiệu

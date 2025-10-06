@@ -4,8 +4,8 @@
 "title": "Vyhledávání podpisu hlavního textu v dokumentech .NET pomocí GroupDocs.Signature"
 "url": "/cs/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vyhledávání textových podpisů v dokumentech .NET pomocí GroupDocs.Signature
 
 ## Zavedení

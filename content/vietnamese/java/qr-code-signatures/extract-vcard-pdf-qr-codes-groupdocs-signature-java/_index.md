@@ -4,8 +4,8 @@
 "title": "Trích xuất VCard từ mã QR PDF bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/qr-code-signatures/extract-vcard-pdf-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Trích xuất dữ liệu VCard từ mã QR PDF bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

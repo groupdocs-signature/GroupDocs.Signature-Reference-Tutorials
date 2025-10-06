@@ -4,8 +4,8 @@
 "title": "Szöveges aláírás törlése azonosító alapján a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Szöveges aláírás törlése azonosító alapján a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

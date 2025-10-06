@@ -4,8 +4,8 @@
 "title": "إتقان عمليات البحث باستخدام رمز الاستجابة السريعة في جافا - دليل كامل باستخدام GroupDocs.Signature"
 "url": "/ar/java/search-verification/mastering-qr-code-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # إتقان عمليات البحث باستخدام رمز الاستجابة السريعة في Java: دليل كامل باستخدام GroupDocs.Signature
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 사용자 정의 직렬화를 통한 PDF 메타데이터 서명"
 "url": "/ko/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 사용자 지정 직렬화를 통한 PDF 메타데이터 서명 구현
 
 ## 소개

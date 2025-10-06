@@ -3,8 +3,8 @@ title: "QR Code Signature Tutorials with GroupDocs.Signature for Java"
 description: "Learn to implement QR code signatures, including specialized QR code objects, encryption, and custom formatting with these GroupDocs.Signature Java tutorials."
 weight: 5
 url: "/java/qr-code-signatures/"
+type: docs
 ---
-
 # QR Code Signature Tutorials with GroupDocs.Signature for Java
 
 Discover how to effectively work with QR code signatures in your Java applications with our comprehensive GroupDocs.Signature tutorials. These step-by-step guides teach you how to create, customize, search for, and verify QR code signatures. Learn to implement specialized QR code objects for various data formats including vCard, WiFi, SMS, email, cryptocurrency, events, and EPC payment data. Each tutorial provides practical Java code examples for both basic and advanced QR code implementation, helping you build more sophisticated document signing solutions.

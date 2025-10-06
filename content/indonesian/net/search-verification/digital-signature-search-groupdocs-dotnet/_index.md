@@ -4,8 +4,8 @@
 "title": "Pencarian Tanda Tangan Digital dengan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pencarian Tanda Tangan Digital dalam Dokumen Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

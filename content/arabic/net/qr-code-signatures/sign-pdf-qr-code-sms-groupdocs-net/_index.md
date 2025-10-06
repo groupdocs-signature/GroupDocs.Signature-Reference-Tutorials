@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات PDF باستخدام رموز QR التي تحتوي على رسائل نصية قصيرة باستخدام GroupDocs في .NET"
 "url": "/ar/net/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستند PDF باستخدام رمز الاستجابة السريعة QR الذي يحتوي على كائن SMS باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

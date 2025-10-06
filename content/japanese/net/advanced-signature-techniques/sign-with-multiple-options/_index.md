@@ -5,8 +5,8 @@
 "title": ".NET で複数のドキュメント署名をマスターする - 完全ガイド"
 "url": "/ja/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## 複数の署名タイプで文書を保護
 
 1つの文書に異なる種類の署名を適用したいと思ったことはありませんか？機密性の高い契約書、法的書類、企業文書など、複数の署名を組み合わせることで、セキュリティと信頼性を大幅に向上させることができます。このガイドでは、GroupDocs.Signature for .NETを使用して、この強力な機能を実装する方法を詳しく説明します。

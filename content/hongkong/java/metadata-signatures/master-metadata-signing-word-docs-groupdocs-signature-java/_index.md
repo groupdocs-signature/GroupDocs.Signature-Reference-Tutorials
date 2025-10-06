@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 掌握 Word 文件中的元資料簽名"
 "url": "/zh-hant/java/metadata-signatures/master-metadata-signing-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 掌握 Word 文件中的元資料簽名
 
 ## 介紹

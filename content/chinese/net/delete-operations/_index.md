@@ -5,8 +5,8 @@
 "title": "文档签名删除操作完全指南"
 "url": "/zh/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # GroupDocs.Signature for .NET 中的删除操作
 
 ## 介绍

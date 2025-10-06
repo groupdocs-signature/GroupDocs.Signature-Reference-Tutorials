@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature&#58; 文字和數位簽章在 .NET 中掌握文件簽章搜尋"
 "url": "/zh-hant/net/search-verification/master-document-signature-searches-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 掌握.NET 中的文件簽章搜尋
 
 在當今的數位時代，驗證文件的真實性對全球企業至關重要。無論是處理合約、法律文件或官方記錄，高效的簽名搜尋都能節省時間並增強安全性。本教學將引導您使用 GroupDocs.Signature for .NET 實作文字和數位簽章搜尋。 GroupDocs.Signature for .NET 是一個功能強大的函式庫，專為處理 .NET 應用程式中的各種類型的電子簽章而設計。

@@ -4,8 +4,8 @@
 "title": "Jak podepisovat dokumenty pomocí obrázku pomocí GroupDocs.Signature pro Javu – podrobný návod"
 "url": "/cs/java/image-signatures/sign-documents-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat dokumenty obrázky pomocí GroupDocs.Signature pro Javu
 
 V dnešní digitální době je zabezpečení dokumentů elektronickými podpisy klíčové pro firmy i jednotlivce. Ať už uzavíráte smlouvy nebo schvalujete návrhy, rychlá a spolehlivá metoda digitálního podepisování dokumentů může ušetřit čas a zvýšit zabezpečení. Tento tutoriál vás provede používáním... **GroupDocs.Signature pro Javu** podepisovat dokumenty obrazovým podpisem.

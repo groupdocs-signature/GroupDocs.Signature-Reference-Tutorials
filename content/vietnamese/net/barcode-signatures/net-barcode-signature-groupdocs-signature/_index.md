@@ -4,8 +4,8 @@
 "title": "Tích hợp chữ ký mã vạch .NET Master với GroupDocs.Signature để tăng cường bảo mật tài liệu"
 "url": "/vi/net/barcode-signatures/net-barcode-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ quản lý tài liệu: Triển khai tích hợp chữ ký mã vạch .NET với GroupDocs.Signature
 
 Trong thời đại kỹ thuật số ngày nay, việc đảm bảo tính xác thực và toàn vẹn của tài liệu là vô cùng quan trọng trong nhiều ngành nghề. Hướng dẫn này sẽ hướng dẫn bạn cách tích hợp chữ ký mã vạch vào quy trình làm việc tài liệu của bạn bằng cách sử dụng **GroupDocs.Signature cho .NET**. Cho dù bạn cần ký, xác minh, tìm kiếm, cập nhật hay xóa chữ ký mã vạch trong tài liệu, hướng dẫn này sẽ đề cập đến mọi khía cạnh cần thiết.

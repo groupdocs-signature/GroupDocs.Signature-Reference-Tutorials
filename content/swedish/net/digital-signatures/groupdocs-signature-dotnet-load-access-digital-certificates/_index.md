@@ -4,8 +4,8 @@
 "title": "Ladda och få åtkomst till digitala certifikat i .NET med GroupDocs.Signature – en omfattande guide"
 "url": "/sv/net/digital-signatures/groupdocs-signature-dotnet-load-access-digital-certificates/"
 "weight": 1
+type: docs
 ---
-
 # Ladda och få åtkomst till digitala certifikat i .NET med GroupDocs.Signature
 ## En omfattande guide
 

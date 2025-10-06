@@ -4,8 +4,8 @@
 "title": "วิธีลงนามใน PDF ด้วยสติกเกอร์ข้อความโดยใช้ GroupDocs.Signature สำหรับ .NET | คู่มือทีละขั้นตอน"
 "url": "/th/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร PDF ด้วยสติกเกอร์ข้อความโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

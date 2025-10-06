@@ -4,8 +4,8 @@
 "title": "QR-kód aláírások frissítése Java-ban – Átfogó útmutató a GroupDocs.Signature használatával"
 "url": "/hu/java/signature-management/update-qr-code-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírások frissítése Java-ban: Átfogó útmutató a GroupDocs.Signature használatával
 
 A mai digitális környezetben a dokumentumok védelme kulcsfontosságú mind a vállalkozások, mind a magánszemélyek számára. A QR-kód aláírások megbízható megoldást kínálnak a dokumentumok biztonságára és ellenőrzésére. Ez az oktatóanyag lépésről lépésre bemutatja a QR-kód aláírások frissítését a GroupDocs.Signature for Java segítségével – ez egy hatékony eszköz, amely leegyszerűsíti az aláírások kezelését az alkalmazásaiban.

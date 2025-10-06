@@ -4,8 +4,8 @@
 "title": "كيفية التحقق من توقيعات الباركود في جافا باستخدام GroupDocs.Signature"
 "url": "/ar/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التحقق من توقيعات الباركود باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

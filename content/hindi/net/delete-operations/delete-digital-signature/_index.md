@@ -5,8 +5,8 @@
 "title": ".NET में दस्तावेज़ों से डिजिटल हस्ताक्षर कैसे हटाएँ"
 "url": "/hi/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # GroupDocs.Signature के साथ अपने दस्तावेज़ों से डिजिटल हस्ताक्षर कैसे हटाएँ
 
 ## डिजिटल हस्ताक्षर प्रबंधन क्यों महत्वपूर्ण है

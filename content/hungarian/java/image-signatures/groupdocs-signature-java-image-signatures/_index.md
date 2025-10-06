@@ -4,8 +4,8 @@
 "title": "Hogyan kereshetünk és frissíthetünk képaláírásokat dokumentumokban a GroupDocs.Signature for Java használatával?"
 "url": "/hu/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan kereshetünk és frissíthetünk képaláírásokat dokumentumokban a GroupDocs.Signature for Java használatával?
 
 ## Bevezetés

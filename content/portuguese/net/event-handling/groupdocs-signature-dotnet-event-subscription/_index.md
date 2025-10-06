@@ -4,8 +4,8 @@
 "title": "Dominando Assinaturas de Eventos na Assinatura de Documentos com o GroupDocs.Signature para .NET | Guia Passo a Passo"
 "url": "/pt/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # Dominando a assinatura de eventos na assinatura de documentos com GroupDocs.Signature para .NET
 
 ## Introdução

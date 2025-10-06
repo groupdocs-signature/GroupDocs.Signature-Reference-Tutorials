@@ -5,8 +5,8 @@
 "title": ".NET ऐप्स में दस्तावेज़ पूर्वावलोकन कैसे बनाएँ | त्वरित ट्यूटोरियल"
 "url": "/hi/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # अपने .NET अनुप्रयोगों में दस्तावेज़ पूर्वावलोकन कैसे उत्पन्न करें
 
 ## परिचय

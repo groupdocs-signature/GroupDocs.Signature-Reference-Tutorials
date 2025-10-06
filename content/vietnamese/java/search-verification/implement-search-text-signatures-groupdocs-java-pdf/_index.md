@@ -4,8 +4,8 @@
 "title": "Cách triển khai tìm kiếm chữ ký văn bản trong PDF bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/search-verification/implement-search-text-signatures-groupdocs-java-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai tìm kiếm chữ ký văn bản trong PDF bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

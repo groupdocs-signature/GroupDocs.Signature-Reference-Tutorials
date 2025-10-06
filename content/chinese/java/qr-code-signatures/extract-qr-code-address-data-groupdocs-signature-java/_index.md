@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 提取二维码地址数据——综合指南"
 "url": "/zh/java/qr-code-signatures/extract-qr-code-address-data-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 提取二维码地址数据
 
 ## 介绍

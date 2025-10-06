@@ -4,8 +4,8 @@
 "title": "Memperbarui dan Mencari Tanda Tangan Gambar di PDF Menggunakan Java dengan GroupDocs.Signature"
 "url": "/id/java/signature-management/update-search-image-signatures-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Perbarui & Cari Tanda Tangan Gambar di PDF dengan Java
 
 ## Perkenalan

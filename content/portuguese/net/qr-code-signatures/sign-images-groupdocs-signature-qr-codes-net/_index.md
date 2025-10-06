@@ -4,8 +4,8 @@
 "title": "Como assinar imagens com códigos QR usando o GroupDocs.Signature para .NET e salvá-las em vários formatos"
 "url": "/pt/net/qr-code-signatures/sign-images-groupdocs-signature-qr-codes-net/"
 "weight": 1
+type: docs
 ---
-
 # Como usar o GroupDocs.Signature for .NET para assinar imagens com códigos QR
 
 ## Introdução

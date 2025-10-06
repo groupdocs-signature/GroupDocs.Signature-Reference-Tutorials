@@ -4,8 +4,8 @@
 "title": "Como verificar assinaturas digitais em PDFs usando o GroupDocs.Signature para Java - um guia passo a passo"
 "url": "/pt/java/digital-signatures/verify-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Como verificar assinaturas digitais em PDFs usando o GroupDocs.Signature para Java: um guia passo a passo
 
 ## Introdução

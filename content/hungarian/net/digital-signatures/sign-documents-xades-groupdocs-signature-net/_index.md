@@ -4,8 +4,8 @@
 "title": "Útmutató dokumentumok aláírásához XAdES-sel a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/digital-signatures/sign-documents-xades-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Útmutató dokumentumok aláírásához XAdES-sel a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

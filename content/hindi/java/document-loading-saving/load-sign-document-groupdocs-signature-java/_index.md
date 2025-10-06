@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ जावा में दस्तावेज़ लोड और हस्ताक्षरित करें - एक व्यापक मार्गदर्शिका"
 "url": "/hi/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java में GroupDocs.Signature का उपयोग करके दस्तावेज़ लोड और हस्ताक्षरित करें
 
 ## परिचय

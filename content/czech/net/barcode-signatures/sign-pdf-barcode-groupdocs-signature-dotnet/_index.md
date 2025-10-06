@@ -4,8 +4,8 @@
 "title": "Jak podepsat PDF dokumenty čárovým kódem pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF dokumenty čárovým kódem pomocí GroupDocs.Signature pro .NET
 
 V dnešním digitálním světě je elektronické podepisování dokumentů nejen pohodlné, ale také zvyšuje bezpečnost a efektivitu. Mnoho firem však čelí výzvě, jak zajistit, aby tyto podpisy byly bezpečné a ověřitelné. Zadejte **GroupDocs.Signature pro .NET**—výkonná knihovna navržená pro zjednodušení tohoto procesu tím, že umožňuje programově přidávat podpisy čárovými kódy do dokumentů PDF. Tento tutoriál vás provede implementací GroupDocs.Signature for .NET pro podepsání dokumentu PDF pomocí podpisu čárovým kódem.

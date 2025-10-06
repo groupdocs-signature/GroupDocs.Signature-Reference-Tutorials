@@ -4,8 +4,8 @@
 "title": "Domine o manuseio de documentos e o gerenciamento de assinaturas em .NET com GroupDocs.Signature"
 "url": "/pt/net/signature-management/master-document-handling-signature-management-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Dominando o manuseio de documentos e gerenciamento de assinaturas em .NET com GroupDocs.Signature
 
 ## Introdução

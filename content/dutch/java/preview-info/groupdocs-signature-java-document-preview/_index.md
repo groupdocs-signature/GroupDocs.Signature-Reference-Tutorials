@@ -4,8 +4,8 @@
 "title": "Implementeer documentvoorvertoningen in Java met GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van documentvoorvertoninggeneratie in Java met GroupDocs.Signature
 
 ## Invoering

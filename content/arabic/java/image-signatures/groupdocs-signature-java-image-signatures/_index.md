@@ -4,8 +4,8 @@
 "title": "كيفية البحث عن توقيعات الصور وتحديثها في المستندات باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # كيفية البحث عن توقيعات الصور وتحديثها في المستندات باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 예외 처리를 포함한 디지털 서명"
 "url": "/ko/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 예외 처리를 포함한 디지털 서명
 
 ## 소개

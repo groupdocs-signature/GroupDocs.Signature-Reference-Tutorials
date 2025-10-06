@@ -9,8 +9,8 @@ weight: 1
 url: "/java/advanced-options/groupdocs-signature-java-file-format-support/"
 categories: ["Java Document Processing"]
 tags: ["file-validation", "java-libraries", "document-management", "format-detection"]
+type: docs
 ---
-
 # Java File Format Detection: Validate and Check Document Types
 
 ## Introduction

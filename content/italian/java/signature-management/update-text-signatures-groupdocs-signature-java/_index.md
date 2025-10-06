@@ -4,8 +4,8 @@
 "title": "Come aggiornare le firme di testo nei PDF utilizzando GroupDocs.Signature per Java&#58; una guida completa"
 "url": "/it/java/signature-management/update-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Come aggiornare le firme di testo nei PDF utilizzando GroupDocs.Signature per Java
 ## Introduzione
 Aggiornare le firme testuali nei documenti a livello di programmazione può rappresentare una sfida, soprattutto se si desidera semplificare i flussi di lavoro dei documenti o automatizzare la gestione delle firme. **GroupDocs.Signature per Java** offre una soluzione efficace a questo problema. Questa guida completa ti guiderà attraverso l'inizializzazione e la ricerca delle firme testuali, la modifica delle loro proprietà e il loro aggiornamento nei PDF.

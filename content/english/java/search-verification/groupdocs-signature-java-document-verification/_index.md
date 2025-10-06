@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature
 - Java
 - Document Processing
-
+type: docs
 ---
-
-
 # Mastering Document Verification with GroupDocs.Signature for Java
 
 In today's digital age, ensuring the authenticity and integrity of documents is crucial across various industries. Whether you're a legal professional verifying contracts or a business authenticating invoices, document verification is indispensable. Enter **GroupDocs.Signature for Java**: a powerful library that simplifies this process by enabling barcode signature verifications with ease.

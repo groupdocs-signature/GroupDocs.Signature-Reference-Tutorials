@@ -4,8 +4,8 @@
 "title": "Jak aktualizovat podpisy obrázků v dokumentech pomocí GroupDocs.Signature pro .NET – Podrobný návod"
 "url": "/cs/net/image-signatures/update-image-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak aktualizovat podpis obrázku v dokumentech pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

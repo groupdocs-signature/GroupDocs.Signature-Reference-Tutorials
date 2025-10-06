@@ -4,8 +4,8 @@
 "title": "Signieren Sie PDF-Dokumente mit einer Textsignatur in C# mithilfe von GroupDocs.Signature für .NET"
 "url": "/de/net/text-signatures/sign-pdf-text-signature-csharp-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Signieren Sie PDF-Dokumente mit einer Textsignatur in C# mithilfe von GroupDocs.Signature für .NET
 
 ## Einführung

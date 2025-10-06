@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中透過自訂序列化實現二維碼簽名"
 "url": "/zh-hant/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 .NET 中實作自訂序列化的二維碼簽名
 
 ## 介紹

@@ -5,8 +5,8 @@
 "title": "Weryfikacja podpisów kodem kreskowym w dokumentach"
 "url": "/pl/net/verify-operations/verify-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Wstęp
 
 Kody kreskowe stały się integralną częścią nowoczesnych systemów zarządzania dokumentami, umożliwiając szybki dostęp do zakodowanych informacji, a jednocześnie pełniąc funkcję zabezpieczenia. GroupDocs.Signature for .NET oferuje zaawansowane API do weryfikacji podpisów kodami kreskowymi w dokumentach, gwarantując ich autentyczność i integralność.

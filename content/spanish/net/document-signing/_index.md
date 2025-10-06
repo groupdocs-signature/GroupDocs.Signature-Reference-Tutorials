@@ -5,8 +5,8 @@
 "title": "Firma de documentos con metadatos en .NET"
 "url": "/es/net/document-signing/"
 "weight": 24
+type: docs
 ---
-
 ## Introducción
 
 En el mundo digital actual, garantizar la autenticidad, el rastreo del origen y la integridad de los documentos se ha vuelto esencial para empresas y organizaciones. Las firmas de metadatos ofrecen una forma eficaz y discreta de integrar información de identificación directamente en los archivos de documentos, mejorando la seguridad sin alterar su apariencia visual.

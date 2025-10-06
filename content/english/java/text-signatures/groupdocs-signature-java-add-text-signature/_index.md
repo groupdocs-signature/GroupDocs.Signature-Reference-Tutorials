@@ -8,10 +8,8 @@ keywords:
 - add text signature PDF
 - GroupDocs.Signature for Java setup
 - Java text signature customization
-
+type: docs
 ---
-
-
 # How to Add a Text Signature to Documents Using GroupDocs.Signature for Java
 
 ## Introduction

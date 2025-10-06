@@ -4,8 +4,8 @@
 "title": "Hantera bildsignaturer i dokument med GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/image-signatures/manage-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hantera bildsignaturer i dokument med GroupDocs.Signature för .NET
 
 ## Introduktion

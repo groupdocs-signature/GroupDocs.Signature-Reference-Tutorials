@@ -4,8 +4,8 @@
 "title": "Metadatahandtekeningen in presentaties zoeken met GroupDocs.Signature voor .NET"
 "url": "/nl/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Metadatahandtekeningen in presentaties zoeken met GroupDocs.Signature voor .NET
 
 ## Invoering

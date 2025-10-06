@@ -4,8 +4,8 @@
 "title": "Maîtriser GroupDocs.Signature pour .NET &#58; Abonnement et configuration des événements de recherche de codes-barres"
 "url": "/fr/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser GroupDocs.Signature pour .NET : Abonnement et configuration des événements de recherche de codes-barres
 
 ## Introduction

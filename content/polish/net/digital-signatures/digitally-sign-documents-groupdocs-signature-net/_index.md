@@ -4,8 +4,8 @@
 "title": "Podpisuj cyfrowo dokumenty za pomocą GroupDocs.Signature dla .NET&#58; – kompleksowy przewodnik"
 "url": "/pl/net/digital-signatures/digitally-sign-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak cyfrowo podpisywać dokumenty za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

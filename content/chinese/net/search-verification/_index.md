@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature .NET 签名搜索和验证教程"
 "url": "/zh/net/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature .NET 签名搜索和验证教程
 
 我们的搜索和验证教程提供了使用 .NET 中的 GroupDocs.Signature 验证文档签名的全面指导。这些实用指南演示了如何搜索各种类型的签名（数字、条形码、二维码、文本、图像和元数据）、如何实施真伪验证、如何处理验证过程中的异常以及如何处理复杂文档。每个教程都包含常见验证场景的完整 C# 代码示例，帮助您构建能够有效确定文档自签名以来是否被更改的应用程序。

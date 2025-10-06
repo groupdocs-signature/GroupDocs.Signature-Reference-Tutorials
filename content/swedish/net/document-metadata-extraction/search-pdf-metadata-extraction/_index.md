@@ -5,8 +5,8 @@
 "title": "Hur man extraherar PDF-metadatasignaturer i .NET"
 "url": "/sv/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # Hur man extraherar och söker i PDF-metadatasignaturer
 
 ## Varför PDF-metadata är viktigt för dina dokument

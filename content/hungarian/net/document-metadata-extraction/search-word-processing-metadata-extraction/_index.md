@@ -5,8 +5,8 @@
 "title": "Szövegszerkesztési metaadatok egyszerű kinyerése .NET segítségével"
 "url": "/hu/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # Hogyan kereshetünk és kinyerhetünk szövegszerkesztő metaadatokat .NET-ben?
 
 ## Bevezetés

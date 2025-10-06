@@ -4,8 +4,8 @@
 "title": "Làm chủ chữ ký tài liệu bằng mã vạch và mã QR .NET với GroupDocs.Signature"
 "url": "/vi/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký tài liệu trong .NET: Triển khai chữ ký mã vạch và mã QR với GroupDocs.Signature
 
 ## Giới thiệu

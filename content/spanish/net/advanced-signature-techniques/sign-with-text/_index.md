@@ -5,8 +5,8 @@
 "title": "Agregue firmas de texto a documentos con GroupDocs.Signature para .NET"
 "url": "/es/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # Cómo agregar firmas de texto a documentos usando GroupDocs.Signature para .NET
 
 ## Introducción: Modernice su proceso de firma de documentos

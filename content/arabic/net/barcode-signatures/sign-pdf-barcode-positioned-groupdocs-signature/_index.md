@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات PDF باستخدام الرموز الشريطية الموضوعة بدقة باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستند PDF باستخدام الرموز الشريطية الموضوعة بدقة باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

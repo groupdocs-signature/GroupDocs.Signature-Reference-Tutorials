@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng chữ ký Form-Field trong Java với GroupDocs.Signature"
 "url": "/vi/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF bằng chữ ký Form-Field trong Java với GroupDocs.Signature
 
 ## Giới thiệu

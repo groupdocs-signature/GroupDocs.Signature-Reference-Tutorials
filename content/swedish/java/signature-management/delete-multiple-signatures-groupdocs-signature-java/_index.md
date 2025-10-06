@@ -4,8 +4,8 @@
 "title": "Så här tar du bort flera signaturer från PDF-filer med GroupDocs.Signature för Java"
 "url": "/sv/java/signature-management/delete-multiple-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Så här tar du bort flera signaturer från PDF-filer med GroupDocs.Signature för Java
 
 ## Introduktion

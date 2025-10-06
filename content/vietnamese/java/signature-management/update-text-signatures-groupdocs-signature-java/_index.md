@@ -4,8 +4,8 @@
 "title": "Cách cập nhật chữ ký văn bản trong tệp PDF bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/signature-management/update-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách cập nhật chữ ký văn bản trong tệp PDF bằng GroupDocs.Signature cho Java
 ## Giới thiệu
 Việc cập nhật chữ ký văn bản trong tài liệu theo chương trình có thể là một thách thức, đặc biệt nếu bạn muốn hợp lý hóa quy trình làm việc của tài liệu hoặc tự động hóa việc quản lý chữ ký. **GroupDocs.Signature cho Java** cung cấp một giải pháp mạnh mẽ cho vấn đề này. Hướng dẫn toàn diện này sẽ hướng dẫn bạn cách khởi tạo và tìm kiếm chữ ký văn bản, điều chỉnh thuộc tính và cập nhật chúng trong tệp PDF.

@@ -4,8 +4,8 @@
 "title": "ตรวจสอบลายเซ็น QR Code ใน Java โดยใช้ GroupDocs.Signature คู่มือฉบับสมบูรณ์"
 "url": "/th/java/qr-code-signatures/verify-qr-code-signature-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # ตรวจสอบลายเซ็น QR Code ใน Java ด้วย GroupDocs.Signature
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Extração de Assinatura de Código QR Java com GroupDocs.Signature - Um Guia Completo"
 "url": "/pt/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Implementando Extração de Assinatura de Código QR Java com GroupDocs.Signature
 
 ## Introdução

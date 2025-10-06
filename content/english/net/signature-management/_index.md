@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Signature Management"]
 tags: ["document-signatures", "digital-signatures", "signature-deletion", "signature-updates", "dotnet", "csharp"]
+type: docs
 ---
-
 # How to Delete Signatures from Documents in .NET: Complete Signature Management Guide
 
 Ever signed a document, only to realize later you need to remove or update that signature? Whether you're dealing with outdated approvals, correcting mistakes, or managing document revisions, knowing how to programmatically manage signatures after they've been applied is crucial. This guide shows you exactly how to delete signatures from documents, update existing signatures, and handle the complete signature lifecycle using GroupDocs.Signature for .NET.

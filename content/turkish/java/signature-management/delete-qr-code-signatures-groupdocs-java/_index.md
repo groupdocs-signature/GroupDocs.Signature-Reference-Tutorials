@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak PDF'lerden QR Kod İmzaları Nasıl Silinir?"
 "url": "/tr/java/signature-management/delete-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak PDF'den QR Kod İmzaları Nasıl Silinir?
 
 ## giriiş

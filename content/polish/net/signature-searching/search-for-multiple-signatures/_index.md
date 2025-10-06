@@ -5,8 +5,8 @@
 "title": "Wyszukaj wiele typów podpisów w dokumentach"
 "url": "/pl/net/signature-searching/search-for-multiple-signatures/"
 "weight": 14
+type: docs
 ---
-
 ## Wstęp
 
 nowoczesnych systemach zarządzania dokumentami coraz ważniejsza staje się możliwość wyszukiwania i weryfikacji wielu typów podpisów w jednym dokumencie. Organizacje często stosują różne typy podpisów – takie jak podpisy cyfrowe, podpisy tekstowe, kody kreskowe, kody QR i inne – w celu zwiększenia bezpieczeństwa dokumentów i usprawnienia procesów weryfikacji. GroupDocs.Signature for .NET zapewnia zaawansowane środowisko, które umożliwia programistom implementację kompleksowej funkcji wyszukiwania podpisów w różnych formatach dokumentów.

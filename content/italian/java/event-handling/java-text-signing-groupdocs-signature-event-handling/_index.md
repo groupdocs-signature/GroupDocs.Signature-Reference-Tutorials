@@ -4,8 +4,8 @@
 "title": "Implementazione della firma del testo in Java - Gestione degli eventi con GroupDocs.Signature"
 "url": "/it/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # Implementazione della firma del testo con gestione degli eventi tramite GroupDocs.Signature per Java
 
 ## Introduzione

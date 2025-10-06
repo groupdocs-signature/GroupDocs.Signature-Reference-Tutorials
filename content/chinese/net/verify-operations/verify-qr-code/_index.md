@@ -5,8 +5,8 @@
 "title": "验证文档中的二维码"
 "url": "/zh/net/verify-operations/verify-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## 介绍
 
 文档安全是现代商业运营的关键环节。二维码已成为一种日益流行的在文档中嵌入可验证信息的方法。GroupDocs.Signature for .NET 提供了一个强大而灵活的解决方案，用于验证嵌入在各种格式文档中的二维码。

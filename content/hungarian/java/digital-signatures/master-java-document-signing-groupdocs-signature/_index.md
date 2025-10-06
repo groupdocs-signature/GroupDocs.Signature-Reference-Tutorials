@@ -4,8 +4,8 @@
 "title": "Master Java dokumentum aláírás GS1DotCode vonalkódokkal a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum aláírás elsajátítása Java nyelven GS1DotCode vonalkódokkal a GroupDocs.Signature használatával
 
 ## Bevezetés

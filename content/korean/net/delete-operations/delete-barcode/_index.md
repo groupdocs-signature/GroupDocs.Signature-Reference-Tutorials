@@ -5,8 +5,8 @@
 "title": ".NET을 사용하여 문서에서 바코드를 제거하는 방법"
 "url": "/ko/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # .NET을 사용하여 문서에서 바코드를 제거하는 방법
 
 ## 바코드를 삭제해야 하는 이유는 무엇입니까?

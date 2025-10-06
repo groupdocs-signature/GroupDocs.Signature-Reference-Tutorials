@@ -4,8 +4,8 @@
 "title": "Come firmare digitalmente documenti Word con testo come immagine utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare digitalmente documenti Word con testo come immagine utilizzando GroupDocs.Signature per Java
 
 ## Introduzione

@@ -4,8 +4,8 @@
 "title": "Как реализовать текстовые подписи в .NET с помощью GroupDocs.Signature&#58; Подробное руководство"
 "url": "/ru/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать текстовые подписи в .NET с помощью GroupDocs.Signature: подробное руководство
 
 ## Введение

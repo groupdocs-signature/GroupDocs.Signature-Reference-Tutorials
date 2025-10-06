@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature pour Java &#58; Supprimer et rechercher des signatures textuelles dans les fichiers PDF"
 "url": "/fr/java/signature-management/mastering-groupdocs-signature-delete-search-text-signatures-pdfs-java/"
 "weight": 1
+type: docs
 ---
-
 # Master GroupDocs.Signature pour Java : supprimer et rechercher des signatures textuelles dans les fichiers PDF
 
 À l'ère du numérique, gérer efficacement les documents électroniques est crucial. L'un des défis courants des développeurs est la gestion des signatures textuelles dans les documents PDF, qu'il s'agisse de s'assurer qu'elles sont correctement appliquées ou de les supprimer si nécessaire. **GroupDocs.Signature pour Java**: une bibliothèque puissante conçue pour gérer ces tâches avec précision et simplicité. Ce tutoriel vous guidera dans la suppression et la recherche de signatures textuelles dans les PDF à l'aide de GroupDocs.Signature pour Java.

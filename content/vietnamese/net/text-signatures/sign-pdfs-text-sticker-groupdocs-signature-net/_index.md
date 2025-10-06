@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng nhãn dán văn bản bằng GroupDocs.Signature cho .NET | Hướng dẫn từng bước"
 "url": "/vi/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng nhãn dán văn bản sử dụng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

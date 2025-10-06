@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Verification"]
 tags: ["GroupDocs", "NET", "Archives", "Digital Signatures", "Document Security"]
+type: docs
 ---
-
 # How to Verify Signatures in Archives
 
 ## Why Archive Signature Verification Matters (And How to Do It Right)

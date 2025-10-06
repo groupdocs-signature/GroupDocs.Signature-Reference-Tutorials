@@ -4,8 +4,8 @@
 "title": "Поиск штрихкодов Java PDF с использованием GroupDocs.Signature API&#58; подробное руководство"
 "url": "/ru/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
 "weight": 1
+type: docs
 ---
-
 # Реализация Java: поиск штрихкодов PDF с помощью API GroupDocs.Signature
 
 ## Введение

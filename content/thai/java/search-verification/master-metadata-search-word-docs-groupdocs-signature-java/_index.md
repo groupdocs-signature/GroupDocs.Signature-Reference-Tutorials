@@ -4,8 +4,8 @@
 "title": "ค้นหาข้อมูลเมตาหลักใน Word Docs ด้วย GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/search-verification/master-metadata-search-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การค้นหาข้อมูลเมตาในเอกสาร Word โดยใช้ GroupDocs.Signature สำหรับ Java
 
 การดึงข้อมูลเมตาดาต้าจากเอกสาร Word สามารถทำได้อย่างสะดวกรวดเร็วด้วยไลบรารี GroupDocs.Signature อันทรงพลัง บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการใช้งานฟีเจอร์ที่ค้นหาลายเซ็นเมตาดาต้าภายในเอกสาร Word โดยใช้ Java

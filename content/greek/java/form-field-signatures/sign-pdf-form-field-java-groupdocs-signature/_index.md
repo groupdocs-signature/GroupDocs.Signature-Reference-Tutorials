@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF χρησιμοποιώντας την υπογραφή πεδίου φόρμας σε Java με το GroupDocs.Signature"
 "url": "/el/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα PDF χρησιμοποιώντας την υπογραφή πεδίου φόρμας σε Java με το GroupDocs.Signature
 
 ## Εισαγωγή

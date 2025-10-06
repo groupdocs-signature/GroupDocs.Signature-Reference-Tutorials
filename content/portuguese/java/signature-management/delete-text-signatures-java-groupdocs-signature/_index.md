@@ -4,8 +4,8 @@
 "title": "Como excluir assinaturas de texto em Java usando GroupDocs.Signature"
 "url": "/pt/java/signature-management/delete-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Como excluir assinaturas de texto em Java usando GroupDocs.Signature
 
 ## Introdução

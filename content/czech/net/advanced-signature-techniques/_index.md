@@ -5,8 +5,8 @@
 "title": "Zvládněte pokročilé techniky podepisování dokumentů v .NET"
 "url": "/cs/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # Pokročilé techniky podpisu s GroupDocs.Signature pro .NET
 
 ## Zavedení

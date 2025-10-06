@@ -4,8 +4,8 @@
 "title": "Hogyan testreszabhatjuk a képaláírásokat Java-ban a GroupDocs.Signature használatával?"
 "url": "/hu/java/image-signatures/customize-image-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Testreszabott képaláírások megvalósítása a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

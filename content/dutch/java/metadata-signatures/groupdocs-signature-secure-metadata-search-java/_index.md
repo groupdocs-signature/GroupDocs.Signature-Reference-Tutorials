@@ -4,8 +4,8 @@
 "title": "Veilig zoeken en extraheren van metadata-handtekeningen met GroupDocs voor Java"
 "url": "/nl/java/metadata-signatures/groupdocs-signature-secure-metadata-search-java/"
 "weight": 1
+type: docs
 ---
-
 # Veilig zoeken en extraheren van metadata-handtekeningen met GroupDocs voor Java
 
 ## Invoering

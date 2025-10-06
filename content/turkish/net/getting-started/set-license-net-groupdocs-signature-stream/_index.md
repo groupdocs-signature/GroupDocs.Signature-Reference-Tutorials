@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ve FileStream Kullanarak .NET'te Lisans Ayarlama - Kapsamlı Bir Kılavuz"
 "url": "/tr/net/getting-started/set-license-net-groupdocs-signature-stream/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ve FileStream ile .NET'te Lisans Ayarlama
 ## Başlarken
 ### GroupDocs.Signature kullanarak .NET'te Stream aracılığıyla Set Lisansı Uygulama

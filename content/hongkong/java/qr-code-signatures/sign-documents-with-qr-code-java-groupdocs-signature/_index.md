@@ -4,8 +4,8 @@
 "title": "使用 Java 和 GroupDocs.Signature 透過二維碼簽署文件－綜合指南"
 "url": "/zh-hant/java/qr-code-signatures/sign-documents-with-qr-code-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 Java 和 GroupDocs.Signature 透過二維碼簽署文檔
 
 您是否希望為您的文件管理系統增添額外的安全性和效率？在當今的數位時代，電子簽名文件是一項必備功能，而二維碼簽名兼具便利性和可靠性。在本指南中，我們將探索如何使用 GroupDocs.Signature for Java 為影像文件新增二維碼簽章。完成本教學後，您將能夠無縫地實現這些功能。

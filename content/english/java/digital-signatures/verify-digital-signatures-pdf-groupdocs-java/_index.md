@@ -8,10 +8,8 @@ keywords:
 - verify digital signatures PDF
 - GroupDocs Signature Java tutorial
 - Java digital signature verification
-
+type: docs
 ---
-
-
 # How to Verify Digital Signatures in PDFs Using GroupDocs.Signature for Java: A Step-by-Step Guide
 
 ## Introduction

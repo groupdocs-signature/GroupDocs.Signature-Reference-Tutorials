@@ -4,8 +4,8 @@
 "title": "Så här signerar du PDF-filer med hjälp av radioknappsfält med GroupDocs.Signature för .NET"
 "url": "/sv/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här signerar du en PDF med hjälp av radioknappsfält i GroupDocs.Signature för .NET
 
 ## Introduktion

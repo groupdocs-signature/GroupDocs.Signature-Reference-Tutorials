@@ -9,8 +9,8 @@ weight: 1
 url: "/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 categories: ["Document Processing"]
 tags: ["GroupDocs.Signature", "Archive Processing", "Signature Verification", "C# Tutorial"]
+type: docs
 ---
-
 # How to Search Signatures in Archive Files with .NET
 
 ## Why Archive Signature Search Matters for .NET Developers

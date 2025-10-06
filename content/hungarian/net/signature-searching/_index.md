@@ -5,8 +5,8 @@
 "title": "Átfogó dokumentumaláírás-keresés"
 "url": "/hu/net/signature-searching/"
 "weight": 23
+type: docs
 ---
-
 ## Bevezetés
 
 dokumentumok biztonsága és integritásának ellenőrzése a modern üzleti folyamatok kritikus aspektusai. A GroupDocs.Signature for .NET hatékony megoldást kínál átfogó aláírás-keresési funkciók megvalósítására különféle dokumentumformátumokban. Akár dokumentum hitelességét kell ellenőriznie, aláírási információkat kell kinyernie, akár automatizált ellenőrzési munkafolyamatokat kell létrehoznia, a GroupDocs.Signature biztosítja azokat az eszközöket, amelyekre szüksége van a többféle aláírástípus hatékony kereséséhez és feldolgozásához.

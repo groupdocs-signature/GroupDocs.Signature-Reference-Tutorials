@@ -4,8 +4,8 @@
 "title": "Vonalkód-aláírások törlése Java-ban a GroupDocs.Signature használatával – Átfogó útmutató"
 "url": "/hu/java/signature-management/groupdocs-signature-java-delete-barcode-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan használható a GroupDocs.Signature Java-ban vonalkód-aláírások törléséhez azonosító alapján?
 
 ## Bevezetés

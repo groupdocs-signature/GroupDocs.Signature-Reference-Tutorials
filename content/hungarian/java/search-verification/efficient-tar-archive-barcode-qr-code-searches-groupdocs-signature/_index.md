@@ -4,8 +4,8 @@
 "title": "Master TAR Archívum Vonalkód és QR-kód keresések GroupDocs.Signature for Java segítségével"
 "url": "/hu/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # TAR Archívum Vonalkód és QR-kód keresésének elsajátítása GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

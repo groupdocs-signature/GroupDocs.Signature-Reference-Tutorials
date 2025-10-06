@@ -5,8 +5,8 @@
 "title": "Rechercher des signatures de codes-barres dans les documents"
 "url": "/fr/net/signature-searching/search-for-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Introduction
 
 Dans le contexte actuel de gestion de documents numériques, la recherche et la validation de signatures au sein de documents sont essentielles pour garantir leur authenticité et leur sécurité. GroupDocs.Signature pour .NET offre une solution performante pour gérer différents types de signatures, dont les codes-barres, dans différents formats de documents. Ce tutoriel vous guidera dans l'implémentation de la fonctionnalité de recherche de signatures par code-barres dans vos applications .NET grâce à GroupDocs.Signature.

@@ -4,8 +4,8 @@
 "title": "Hogyan titkosítsuk és írjuk alá a dokumentumok metaadatait a GroupDocs.Signature for Java használatával? Átfogó útmutató"
 "url": "/hu/java/metadata-signatures/encrypt-sign-metadata-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentummetaadatok titkosítása és aláírása a GroupDocs.Signature for Java használatával: Átfogó útmutató
 
 ## Bevezetés

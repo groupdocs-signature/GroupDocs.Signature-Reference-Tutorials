@@ -4,8 +4,8 @@
 "title": "เรียนรู้การค้นหาลายเซ็น QR-Code ในเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การค้นหาเอกสาร: การค้นหาลายเซ็น QR-Code ด้วยข้อมูล EPC โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

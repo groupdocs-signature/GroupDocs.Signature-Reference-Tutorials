@@ -4,8 +4,8 @@
 "title": "Dokumentum-ellenőrzés elsajátítása a GroupDocs.Signature for .NET segítségével – Átfogó útmutató"
 "url": "/hu/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum-ellenőrzés elsajátítása a GroupDocs.Signature for .NET segítségével: Átfogó útmutató
 
 ## Bevezetés

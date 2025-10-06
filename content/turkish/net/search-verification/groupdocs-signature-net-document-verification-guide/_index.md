@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile Belge Doğrulamada Ustalaşma&#58; Kapsamlı Bir Kılavuz"
 "url": "/tr/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Belge Doğrulamada Uzmanlaşma: Kapsamlı Bir Kılavuz
 
 ## giriiş

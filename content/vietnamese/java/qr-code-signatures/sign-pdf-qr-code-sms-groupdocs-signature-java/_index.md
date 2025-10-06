@@ -4,8 +4,8 @@
 "title": "Ký tài liệu PDF bằng mã QR và tin nhắn SMS bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng mã QR sử dụng đối tượng SMS trong Java với GroupDocs.Signature
 
 ## Giới thiệu

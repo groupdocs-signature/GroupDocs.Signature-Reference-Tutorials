@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε έγγραφα Word με κωδικό QR και να τα αποθηκεύσετε ως ODT χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/qr-code-signatures/sign-word-docs-qr-code-save-odt-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε έγγραφα Word με κωδικό QR και να τα αποθηκεύσετε ως ODT χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

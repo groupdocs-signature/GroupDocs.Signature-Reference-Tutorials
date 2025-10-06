@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met behulp van Form Field Signature in C# met GroupDocs.Signature voor .NET"
 "url": "/nl/net/form-field-signatures/sign-pdf-form-field-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF-document ondertekenen met behulp van een formulierveldhandtekening met GroupDocs.Signature voor .NET
 
 ## Invoering

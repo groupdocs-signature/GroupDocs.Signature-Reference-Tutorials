@@ -4,8 +4,8 @@
 "title": "Recherche de signature de métadonnées principales dans PowerPoint à l'aide de GroupDocs.Signature pour Java"
 "url": "/fr/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # Recherche de signature de métadonnées principales dans PowerPoint à l'aide de GroupDocs.Signature pour Java
 
 ## Introduction

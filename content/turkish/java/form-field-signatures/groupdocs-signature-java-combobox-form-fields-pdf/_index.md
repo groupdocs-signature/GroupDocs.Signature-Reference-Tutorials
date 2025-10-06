@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak PDF'lerde ComboBox Form Alanlarını Uygulama"
 "url": "/tr/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak PDF'lerde ComboBox Form Alanlarını Uygulama
 
 ## giriiş

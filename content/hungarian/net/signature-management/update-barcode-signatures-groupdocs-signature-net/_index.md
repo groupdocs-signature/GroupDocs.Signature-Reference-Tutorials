@@ -4,8 +4,8 @@
 "title": "Vonalkód-aláírások frissítése azonosító alapján a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Vonalkód-aláírások frissítése azonosító alapján a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

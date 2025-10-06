@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 從 PDF 二維碼中擷取 VCard 的綜合指南"
 "url": "/zh-hant/java/qr-code-signatures/extract-vcard-pdf-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 從 PDF QR 碼中提取 VCard 數據
 
 ## 介紹

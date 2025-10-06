@@ -4,8 +4,8 @@
 "title": "Comment détecter les signatures de codes QR MeCard en Java avec GroupDocs.Signature"
 "url": "/fr/java/qr-code-signatures/detect-qr-code-mecard-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Comment détecter les signatures de codes QR MeCard avec GroupDocs.Signature pour Java
 
 ## Introduction

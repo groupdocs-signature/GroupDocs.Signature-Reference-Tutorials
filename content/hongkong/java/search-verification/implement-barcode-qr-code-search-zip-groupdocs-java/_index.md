@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs for Java 開發人員在 ZIP 檔案中實作條碼和二維碼搜尋"
 "url": "/zh-hant/java/search-verification/implement-barcode-qr-code-search-zip-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs for Java 在 ZIP 檔案中實現條碼和二維碼搜尋
 ## 介紹
 在當今的數位世界中，高效管理和驗證文件真實性至關重要。無論您處理的是法律文件、發票還是儲存在 ZIP 壓縮包中的合同，如果沒有合適的工具，查找特定的條碼和二維碼都會非常困難。本教學將指導您使用 GroupDocs.Signature for Java 在 ZIP 壓縮套件中無縫搜尋條碼和二維碼簽章。

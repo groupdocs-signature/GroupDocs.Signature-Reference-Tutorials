@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 텍스트 워터마크가 있는 문서 보안 - 포괄적인 가이드"
 "url": "/ko/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 문서에 텍스트 워터마크를 구현하는 방법
 
 ## 소개

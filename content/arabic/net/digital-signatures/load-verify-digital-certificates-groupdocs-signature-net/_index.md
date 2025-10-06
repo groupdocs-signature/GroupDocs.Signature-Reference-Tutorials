@@ -4,8 +4,8 @@
 "title": "تحميل الشهادات الرقمية والتحقق منها باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/digital-signatures/load-verify-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # تحميل الشهادات الرقمية والتحقق منها باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

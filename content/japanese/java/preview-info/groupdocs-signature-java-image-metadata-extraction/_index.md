@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ライブラリを使用した Java でのマスター画像メタデータ抽出"
 "url": "/ja/java/preview-info/groupdocs-signature-java-image-metadata-extraction/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java のマスター: 画像メタデータ抽出
 
 ## 導入

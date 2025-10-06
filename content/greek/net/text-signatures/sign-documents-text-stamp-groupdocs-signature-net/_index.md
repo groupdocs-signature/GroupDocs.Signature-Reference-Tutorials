@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε έγγραφα με σφραγίδα κειμένου χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε έγγραφα με σφραγίδα κειμένου χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

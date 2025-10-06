@@ -4,8 +4,8 @@
 "title": "Bảo mật tài liệu của bạn & Triển khai chữ ký mã QR trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/qr-code-signatures/qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Bảo mật tài liệu của bạn: Triển khai chữ ký mã QR trong Java bằng GroupDocs.Signature
 
 Trong bối cảnh kỹ thuật số ngày nay, việc đảm bảo an toàn cho các tài liệu như hợp đồng, hóa đơn hoặc thông tin cá nhân nhạy cảm là vô cùng quan trọng. Một phương pháp sáng tạo để tăng cường bảo mật tài liệu và đơn giản hóa quy trình xác minh là sử dụng chữ ký mã QR. Hướng dẫn này sẽ hướng dẫn bạn triển khai và xác minh chữ ký mã QR cho tài liệu của mình trong Java bằng GroupDocs.Signature.

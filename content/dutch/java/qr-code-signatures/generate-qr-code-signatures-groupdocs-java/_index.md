@@ -4,8 +4,8 @@
 "title": "Genereer QR-codehandtekeningen met GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/qr-code-signatures/generate-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Genereer QR-codehandtekeningen met GroupDocs.Signature voor Java
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Jak implementovat textové podpisy v PDF pomocí GroupDocs.Signature pro Javu – kompletní průvodce"
 "url": "/cs/java/text-signatures/groupdocs-signature-java-text-signatures-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat textové podpisy v PDF pomocí GroupDocs.Signature pro Javu
 
 **Zjednodušení pracovních postupů s dokumenty: Komplexní průvodce vyhledáváním a správou textových podpisů v PDF pomocí GroupDocs.Signature pro Javu**

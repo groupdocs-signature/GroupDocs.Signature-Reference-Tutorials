@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε ψηφιακές υπογραφές .NET με χρονική σήμανση και πιστοποίηση χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε ψηφιακές υπογραφές .NET με χρονική σήμανση και πιστοποίηση χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

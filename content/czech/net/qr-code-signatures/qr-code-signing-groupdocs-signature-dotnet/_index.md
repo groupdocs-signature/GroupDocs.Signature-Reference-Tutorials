@@ -4,8 +4,8 @@
 "title": "Implementace podepisování dokumentů pomocí QR kódů pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/qr-code-signatures/qr-code-signing-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Implementace podepisování dokumentů pomocí QR kódů pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

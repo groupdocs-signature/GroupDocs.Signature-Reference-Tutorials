@@ -5,8 +5,8 @@
 "title": "Guida completa alle operazioni di eliminazione della firma del documento"
 "url": "/it/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # Operazioni di eliminazione in GroupDocs.Signature per .NET
 
 ## Introduzione

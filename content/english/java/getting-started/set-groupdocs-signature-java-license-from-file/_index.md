@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java license setup
 - set license file GroupDocs.Signature
 - Java document signing library configuration
-
+type: docs
 ---
-
-
 # Setting GroupDocs.Signature for Java License from a File - Step-by-Step Tutorial
 
 ## Introduction

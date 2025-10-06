@@ -4,8 +4,8 @@
 "title": "Implementar assinaturas digitais com carimbos de data/hora em PDFs usando Java e GroupDocs.Signature"
 "url": "/pt/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementando Assinaturas Digitais com Carimbos de Tempo em PDFs Usando Java e GroupDocs.Signature
 
 ## Introdução

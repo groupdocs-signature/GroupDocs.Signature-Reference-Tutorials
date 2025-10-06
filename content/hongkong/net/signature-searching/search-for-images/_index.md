@@ -5,8 +5,8 @@
 "title": "在文件中搜尋圖像簽名"
 "url": "/zh-hant/net/signature-searching/search-for-images/"
 "weight": 13
+type: docs
 ---
-
 ## 介紹
 
 在當今的數位文件生態系統中，影像簽名是品牌推廣、授權和文件驗證的強大視覺標記。 GroupDocs.Signature for .NET 為開發人員提供了一個全面的框架，使他們能夠無縫地搜尋、識別和處理各種格式文件中的圖像簽名。此功能對於需要文件驗證、內容分析或自動處理簽署文件的應用程式至關重要。

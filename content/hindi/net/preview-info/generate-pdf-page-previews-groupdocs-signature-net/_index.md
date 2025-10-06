@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके PDF पृष्ठ पूर्वावलोकन उत्पन्न करें एक व्यापक गाइड"
 "url": "/hi/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके PDF पृष्ठ पूर्वावलोकन उत्पन्न करें: एक व्यापक गाइड
 
 ## परिचय

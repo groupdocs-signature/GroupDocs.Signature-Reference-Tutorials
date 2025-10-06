@@ -4,8 +4,8 @@
 "title": "Подписывайте PDF-файлы с помощью составных штрихкодов GS1 с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать PDF-файл с помощью составных штрихкодов GS1 с помощью GroupDocs.Signature для Java
 
 ## Введение

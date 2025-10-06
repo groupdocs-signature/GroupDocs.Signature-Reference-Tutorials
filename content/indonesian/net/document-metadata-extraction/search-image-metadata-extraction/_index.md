@@ -5,8 +5,8 @@
 "title": "Ekstrak & Cari Metadata Gambar di .NET dengan GroupDocs"
 "url": "/id/net/document-metadata-extraction/search-image-metadata-extraction/"
 "weight": 10
+type: docs
 ---
-
 # Cara Mencari Metadata Gambar dalam Dokumen Menggunakan GroupDocs.Signature
 
 ## Perkenalan

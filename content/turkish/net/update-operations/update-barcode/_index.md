@@ -5,8 +5,8 @@
 "title": "Belgelerdeki Barkod İmzalarını Güncelleyin"
 "url": "/tr/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## giriiş
 Barkod imzaları, yapılandırılmış verileri kodlamak ve verimli izleme, tanımlama ve doğrulama sağlamak için dijital belge iş akışlarında yaygın olarak kullanılır. GroupDocs.Signature for .NET, geliştiricilerin gelişmiş imza işlevlerini uygulamalarına entegre etmelerini sağlayan kapsamlı bir belge imzalama çözümüdür. Bu işlevler arasında, belgelerdeki mevcut barkod imzalarını güncelleme yeteneği de yer alır.
 

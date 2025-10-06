@@ -4,8 +4,8 @@
 "title": ".NET szövegaláírás-keresés mesteri elsajátítása a GroupDocs.Signature segítségével – lépésről lépésre útmutató"
 "url": "/hu/net/search-verification/guide-net-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # .NET szöveges aláírás-keresés elsajátítása a GroupDocs.Signature segítségével
 
 ## Bevezetés

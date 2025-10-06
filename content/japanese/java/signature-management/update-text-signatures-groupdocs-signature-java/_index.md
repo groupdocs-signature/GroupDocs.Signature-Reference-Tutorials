@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Javaを使用してPDFのテキスト署名を更新する方法 - 包括的なガイド"
 "url": "/ja/java/signature-management/update-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して PDF 内のテキスト署名を更新する方法
 ## 導入
 ドキュメント内のテキスト署名をプログラムで更新することは、特にドキュメント ワークフローの合理化や署名管理の自動化を目的としている場合には、困難な場合があります。 **Java 用 GroupDocs.Signature** この問題に対する強力なソリューションを提供します。この包括的なガイドでは、テキスト署名の初期化と検索、プロパティの調整、PDF内での更新方法について詳しく説明します。

@@ -4,8 +4,8 @@
 "title": "Triển khai Tìm kiếm chữ ký mã QR với mã hóa tùy chỉnh trong .NET bằng GroupDocs.Signature"
 "url": "/vi/net/qr-code-signatures/implement-qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai Tìm kiếm chữ ký mã QR với mã hóa tùy chỉnh bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Opanowanie wyszukiwania podpisów kodów QR w dokumentach przy użyciu GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie wyszukiwania dokumentów: znajdowanie podpisów w kodzie QR za pomocą danych EPC przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

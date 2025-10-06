@@ -4,8 +4,8 @@
 "title": "Java और GroupDocs.Signature का उपयोग करके छिपे हुए हस्ताक्षरों के साथ PDF पूर्वावलोकन उत्पन्न करें"
 "url": "/hi/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Java और GroupDocs.Signature का उपयोग करके छिपे हुए हस्ताक्षरों के साथ PDF पूर्वावलोकन उत्पन्न करें
 
 ## परिचय

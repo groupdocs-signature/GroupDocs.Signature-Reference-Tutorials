@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 掌握影像簽章與最佳化"
 "url": "/zh-hant/java/image-signatures/groupdocs-signature-java-image-optimization/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 掌握影像簽章與最佳化
 
 在當今的數位時代，安全地簽署文件至關重要。無論您是負責驗證合約的商業人士，還是保護圖像的個人，強大的簽名功能都至關重要。 **GroupDocs.Signature for Java** 提供強大的功能，可無縫建立二維碼簽名並最佳化影像保存選項。本教學將指導您如何利用這些功能進行有效的文件管理。

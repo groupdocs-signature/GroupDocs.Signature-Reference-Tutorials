@@ -9,8 +9,8 @@ weight: 1
 url: "/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 categories: ["Document Security"]
 tags: ["groupdocs", "password-handling", "document-signing", "exception-handling", "dotnet"]
+type: docs
 ---
-
 # GroupDocs Signature Password Exception Handling
 
 ## Introduction

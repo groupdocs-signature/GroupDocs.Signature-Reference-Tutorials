@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中實現 PDF 文字簽名－綜合指南"
 "url": "/zh-hant/java/text-signatures/pdf-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中實作 PDF 文字簽名
 
 在當今的數位環境中，安全地簽署文件對於確認合約或驗證協議等業務流程至關重要。新增文字簽名可確保文件的真實性和完整性。本指南將指導您如何使用 **GroupDocs.Signature for Java**，提供功能性和客製化。

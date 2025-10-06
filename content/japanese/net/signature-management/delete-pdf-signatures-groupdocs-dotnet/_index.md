@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して PDF 署名を効率的に削除する"
 "url": "/ja/net/signature-management/delete-pdf-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して ID で PDF 署名を削除する方法
 
 ## 導入

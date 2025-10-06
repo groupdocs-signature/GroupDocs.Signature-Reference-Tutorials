@@ -4,8 +4,8 @@
 "title": "Excel-spreadsheets ondertekenen met metagegevens met GroupDocs.Signature voor .NET"
 "url": "/nl/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Excel-spreadsheets ondertekenen met metagegevens met GroupDocs.Signature voor .NET
 
 ## Invoering

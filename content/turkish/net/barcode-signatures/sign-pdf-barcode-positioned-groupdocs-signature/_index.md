@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanılarak PDF'ler Hassas Konumlandırılmış Barkodlarla Nasıl İmzalanır?"
 "url": "/tr/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak Hassas Konumlandırılmış Barkodlarla PDF Belgesi Nasıl İmzalanır?
 
 ## giriiş

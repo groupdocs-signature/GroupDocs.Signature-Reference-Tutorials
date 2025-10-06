@@ -4,8 +4,8 @@
 "title": "Fődokumentum aláírása és ellenőrzése a GroupDocs.Signature for .NET segítségével"
 "url": "/hu/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Fődokumentum aláírása és ellenőrzése a GroupDocs.Signature for .NET segítségével
 
 ## Hogyan sajátíthatja el a dokumentumaláírás és -ellenőrzés elsajátítását a GroupDocs.Signature for .NET segítségével?

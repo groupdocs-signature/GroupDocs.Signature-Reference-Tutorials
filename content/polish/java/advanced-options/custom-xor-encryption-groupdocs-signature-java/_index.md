@@ -4,8 +4,8 @@
 "title": "Niestandardowe szyfrowanie XOR z GroupDocs.Signature dla Java – kompleksowy przewodnik"
 "url": "/pl/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Kompleksowy przewodnik po implementacji niestandardowego szyfrowania XOR za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

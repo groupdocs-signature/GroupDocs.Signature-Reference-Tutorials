@@ -4,8 +4,8 @@
 "title": "Leer digitaal documenten zoeken met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/search-verification/master-digital-document-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Digitale documentzoekopdrachten onder de knie krijgen met GroupDocs.Signature voor .NET
 
 Het zoeken naar digitale handtekeningen in documenten kan een uitdaging zijn, vooral wanneer het om beveiligde bestanden gaat. GroupDocs.Signature voor .NET vereenvoudigt dit proces door robuuste mechanismen voor uitzonderingsafhandeling te bieden. Deze handleiding begeleidt u bij het zoeken naar digitale handtekeningen in PDF's met behulp van deze krachtige bibliotheek.

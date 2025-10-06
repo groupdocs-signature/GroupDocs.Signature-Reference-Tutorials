@@ -4,8 +4,8 @@
 "title": "Atualize múltiplas assinaturas em PDFs com eficiência usando GroupDocs.Signature para Java"
 "url": "/pt/java/signature-management/update-multiple-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Atualize múltiplas assinaturas em PDFs com eficiência usando GroupDocs.Signature para Java
 
 Gerenciar assinaturas eletrônicas é crucial para empresas que dependem de fluxos de trabalho digitais, especialmente ao lidar com contratos ou papelada formal. **GroupDocs.Signature para Java** simplifica a atualização de múltiplas assinaturas em um documento PDF de forma eficiente. Este tutorial guiará você pelo processo.

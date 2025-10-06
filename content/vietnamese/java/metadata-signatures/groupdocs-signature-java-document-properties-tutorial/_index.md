@@ -4,8 +4,8 @@
 "title": "Làm chủ việc truy xuất thuộc tính tài liệu với GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ việc truy xuất thuộc tính tài liệu với GroupDocs.Signature cho Java
 Khám phá sức mạnh của quản lý tài liệu bằng cách tận dụng GroupDocs.Signature for Java để dễ dàng truy xuất và in các thuộc tính tài liệu như định dạng, kích thước, số trang, v.v. Hướng dẫn toàn diện này sẽ hướng dẫn bạn thiết lập môi trường, triển khai các chức năng khác nhau và áp dụng chúng vào các tình huống thực tế.
 

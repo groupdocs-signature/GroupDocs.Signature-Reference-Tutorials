@@ -4,8 +4,8 @@
 "title": "Recherche de signatures de texte maître dans les documents .NET à l'aide de GroupDocs.Signature"
 "url": "/fr/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser la recherche de signatures textuelles dans les documents .NET à l'aide de GroupDocs.Signature
 
 ## Introduction

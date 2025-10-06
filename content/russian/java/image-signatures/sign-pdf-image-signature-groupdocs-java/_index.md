@@ -4,8 +4,8 @@
 "title": "Как подписывать PDF-файлы с помощью изображений-подписей с помощью GroupDocs.Signature для Java&#58; пошаговое руководство"
 "url": "/ru/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать PDF-документ с помощью изображения-подписи с помощью GroupDocs.Signature для Java
 
 ## Введение

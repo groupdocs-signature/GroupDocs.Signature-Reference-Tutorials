@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 為 PDF 簽署電子郵件二維碼 | 逐步指南"
 "url": "/zh-hant/net/qr-code-signatures/sign-pdfs-email-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 使用電子郵件二維碼簽署 PDF 文檔
 
 ## 介紹

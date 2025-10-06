@@ -4,8 +4,8 @@
 "title": "Menerapkan Pencarian Tanda Tangan Metadata dengan Enkripsi Menggunakan GroupDocs untuk .NET"
 "url": "/id/net/metadata-signatures/groupdocs-signature-metadata-search-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Lengkap: Menerapkan Pencarian Tanda Tangan Metadata dengan Enkripsi Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

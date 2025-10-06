@@ -5,8 +5,8 @@
 "title": "使用 GroupDocs.Signature 輕鬆擷取簡報元數據"
 "url": "/zh-hant/net/document-metadata-extraction/search-presentation-metadata-extraction/"
 "weight": 12
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 從簡報中提取元數據
 
 ## 為什麼演示元資料對您的專案很重要

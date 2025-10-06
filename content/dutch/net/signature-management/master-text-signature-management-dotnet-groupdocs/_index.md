@@ -4,8 +4,8 @@
 "title": "Beheer van masterteksthandtekeningen in .NET met behulp van GroupDocs.Signature"
 "url": "/nl/net/signature-management/master-text-signature-management-dotnet-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Beheersing van teksthandtekeningen in .NET met GroupDocs.Signature
 
 ## Invoering

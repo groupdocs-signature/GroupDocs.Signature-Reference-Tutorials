@@ -5,8 +5,8 @@
 "title": "Trích xuất và tìm kiếm siêu dữ liệu hình ảnh trong .NET với GroupDocs"
 "url": "/vi/net/document-metadata-extraction/search-image-metadata-extraction/"
 "weight": 10
+type: docs
 ---
-
 # Cách tìm kiếm siêu dữ liệu hình ảnh trong tài liệu bằng GroupDocs.Signature
 
 ## Giới thiệu

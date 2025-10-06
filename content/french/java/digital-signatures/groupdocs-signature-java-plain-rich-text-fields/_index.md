@@ -4,8 +4,8 @@
 "title": "Signature de documents maîtres en Java &#58; implémentation de champs de texte brut et enrichi avec GroupDocs.Signature"
 "url": "/fr/java/digital-signatures/groupdocs-signature-java-plain-rich-text-fields/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser la signature de documents en Java : implémentation de champs de texte brut et enrichi avec GroupDocs.Signature
 
 Bienvenue dans le guide complet sur l'effet de levier **GroupDocs.Signature pour Java** Pour signer des documents à l'aide de champs de texte brut et enrichi. Que vous souhaitiez automatiser l'approbation des contrats ou rationaliser les flux de travail, ce tutoriel vous permettra d'implémenter efficacement ces fonctionnalités.

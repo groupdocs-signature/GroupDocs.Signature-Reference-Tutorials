@@ -4,8 +4,8 @@
 "title": "QR-kód aláírások törlése PDF-ekből a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/signature-management/delete-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírások törlése PDF-ből a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

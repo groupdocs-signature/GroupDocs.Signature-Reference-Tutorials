@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da Barkod İmzaları Nasıl Silinir? Kapsamlı Bir Kılavuz"
 "url": "/tr/java/signature-management/groupdocs-signature-java-delete-barcode-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Barkod İmzalarını Kimliğe Göre Silmek İçin GroupDocs.Signature for Java Nasıl Kullanılır
 
 ## giriiş

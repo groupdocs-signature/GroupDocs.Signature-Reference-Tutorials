@@ -5,8 +5,8 @@
 "title": "استخراج بيانات الصورة والبحث عنها في .NET باستخدام GroupDocs"
 "url": "/ar/net/document-metadata-extraction/search-image-metadata-extraction/"
 "weight": 10
+type: docs
 ---
-
 # كيفية البحث عن بيانات تعريف الصور في المستندات باستخدام GroupDocs.Signature
 
 ## مقدمة

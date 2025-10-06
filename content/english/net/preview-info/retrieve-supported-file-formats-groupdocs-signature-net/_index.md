@@ -9,8 +9,8 @@ weight: 1
 url: "/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 categories: ["GroupDocs.Signature"]
 tags: ["file-formats", "digital-signatures", "dotnet", "document-processing"]
+type: docs
 ---
-
 # GroupDocs Signature .NET Supported File Formats
 
 ## Why Checking Supported File Formats Matters (And How to Do It Right)

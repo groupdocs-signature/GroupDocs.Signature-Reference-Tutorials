@@ -5,8 +5,8 @@
 "title": "Belgelerdeki Dijital İmzaları Doğrulayın"
 "url": "/tr/net/verify-operations/verify-digital/"
 "weight": 11
+type: docs
 ---
-
 ## giriiş
 
 Dijital imzalar, modern iş süreçlerinde belgenin gerçekliğini, bütünlüğünü ve reddedilemezliğini sağlamada önemli bir rol oynar. Geleneksel el yazısı imzaların aksine, dijital imzalar imzalayanın kimliğini doğrulamak ve belgenin imzalandıktan sonra değiştirilmediğinden emin olmak için kriptografik teknikler kullanır.

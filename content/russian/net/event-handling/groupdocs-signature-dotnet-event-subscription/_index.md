@@ -4,8 +4,8 @@
 "title": "Освоение подписок на события при подписании документов с помощью GroupDocs.Signature для .NET | Пошаговое руководство"
 "url": "/ru/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # Освоение подписки на события при подписании документов с помощью GroupDocs.Signature для .NET
 
 ## Введение

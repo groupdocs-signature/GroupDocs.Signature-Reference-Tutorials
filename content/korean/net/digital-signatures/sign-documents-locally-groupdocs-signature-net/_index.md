@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 로컬로 문서에 서명하는 방법&#58; 종합 가이드"
 "url": "/ko/net/digital-signatures/sign-documents-locally-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 로컬로 문서에 서명하는 방법
 
 ## 소개

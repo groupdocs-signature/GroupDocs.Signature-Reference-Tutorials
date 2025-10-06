@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["NET-Development", "Document-Verification", "GroupDocs", "Digital-Signatures"]
+type: docs
 ---
-
 # Text Signature Verification .NET - Complete Implementation Guide with GroupDocs
 
 ## Why Text Signature Verification Matters in Modern .NET Applications

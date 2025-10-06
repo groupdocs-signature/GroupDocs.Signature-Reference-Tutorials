@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Getting Started"]
 tags: ["license-setup", "configuration", "troubleshooting", "security"]
+type: docs
 ---
-
 # GroupDocs Signature License Setup: Complete .NET Configuration Guide
 
 ## Introduction

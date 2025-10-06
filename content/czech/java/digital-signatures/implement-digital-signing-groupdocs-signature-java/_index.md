@@ -4,8 +4,8 @@
 "title": "Jak implementovat digitální podepisování dokumentů v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat digitální podepisování dokumentů v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

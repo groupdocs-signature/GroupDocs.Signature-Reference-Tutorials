@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 .NET 中實現電子文檔簽章－逐步指南"
 "url": "/zh-hant/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 .NET 中實現電子文檔簽章：逐步指南
 
 ## 介紹

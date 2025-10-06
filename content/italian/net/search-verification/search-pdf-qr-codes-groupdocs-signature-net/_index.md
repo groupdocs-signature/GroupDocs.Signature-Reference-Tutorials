@@ -4,8 +4,8 @@
 "title": "Come cercare firme con codice QR nei PDF ed estrarre dati VCard utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Come cercare firme QR-Code nei documenti PDF ed estrarre dati VCard utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

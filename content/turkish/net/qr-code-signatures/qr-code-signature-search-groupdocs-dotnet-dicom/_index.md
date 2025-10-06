@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile DICOM'da QR Kod İmza Araması - Eksiksiz Bir Kılavuz"
 "url": "/tr/net/qr-code-signatures/qr-code-signature-search-groupdocs-dotnet-dicom/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanılarak Çok Katmanlı Görüntülerde QR Kod İmza Aramaları Nasıl Uygulanır?
 
 ## giriiş

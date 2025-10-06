@@ -5,8 +5,8 @@
 "title": "Extrahera enkelt metadata från kalkylblad med GroupDocs.Signature"
 "url": "/sv/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # Hur man extraherar metadata från kalkylblad med GroupDocs.Signature
 
 ## Varför kalkylbladsmetadata är viktiga

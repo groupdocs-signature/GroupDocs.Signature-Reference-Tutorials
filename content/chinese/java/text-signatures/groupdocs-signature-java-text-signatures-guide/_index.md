@@ -4,8 +4,8 @@
 "title": "掌握 Java 中的文本签名 — Java 版 GroupDocs.Signature 综合指南"
 "url": "/zh/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 Java 文档签名：使用 GroupDocs.Signature 进行文本签名的综合指南
 
 ## 介绍

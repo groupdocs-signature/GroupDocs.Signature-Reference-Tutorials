@@ -4,8 +4,8 @@
 "title": "Menandatangani Dokumen PDF dengan Tanda Tangan Teks di C# Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/text-signatures/sign-pdf-text-signature-csharp-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Menandatangani Dokumen PDF dengan Tanda Tangan Teks di C# Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

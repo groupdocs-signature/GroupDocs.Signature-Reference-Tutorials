@@ -4,8 +4,8 @@
 "title": "Szyfruj i podpisuj pliki PDF kodami QR za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Szyfruj i podpisuj pliki PDF kodami QR za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

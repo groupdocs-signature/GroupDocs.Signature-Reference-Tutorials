@@ -4,8 +4,8 @@
 "title": "Hur man verifierar digitala signaturer i PDF-filer med GroupDocs.Signature för Java – en steg-för-steg-guide"
 "url": "/sv/java/digital-signatures/verify-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Så här verifierar du digitala signaturer i PDF-filer med GroupDocs.Signature för Java: En steg-för-steg-guide
 
 ## Introduktion

@@ -5,8 +5,8 @@
 "title": "C# .NET'te PDF Belgelerine Meta Veri İmzaları Ekleme"
 "url": "/tr/net/document-signing/sign-pdf-with-metadata/"
 "weight": 11
+type: docs
 ---
-
 ## giriiş
 
 PDF (Taşınabilir Belge Biçimi) belgeleri, tutarlılıkları ve platform bağımsızlıkları nedeniyle sektörler arasında yaygın olarak kullanılmaktadır. Bu belgelerin gerçekliğini ve izlenebilirliğini sağlamak birçok profesyonel ortamda hayati önem taşır. Bunu başarmanın etkili bir yolu, meta verileri PDF dosyalarının kendilerine yerleştirmektir.

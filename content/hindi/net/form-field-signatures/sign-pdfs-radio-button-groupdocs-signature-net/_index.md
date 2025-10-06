@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature के साथ रेडियो बटन फ़ॉर्म फ़ील्ड का उपयोग करके PDF पर हस्ताक्षर कैसे करें"
 "url": "/hi/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ रेडियो बटन फ़ॉर्म फ़ील्ड का उपयोग करके PDF पर हस्ताक्षर कैसे करें
 
 ## परिचय

@@ -5,8 +5,8 @@
 "title": "Meningkatkan Presentasi PowerPoint dengan Tanda Tangan Metadata di C# .NET"
 "url": "/id/net/document-signing/sign-presentation-with-metadata/"
 "weight": 12
+type: docs
 ---
-
 ## Perkenalan
 
 Di dunia kerja digital saat ini, presentasi merupakan alat penting untuk berkomunikasi dan berbagi informasi. Memastikan keaslian dan integritas berkas presentasi ini menjadi semakin penting, terutama di lingkungan perusahaan dan pendidikan. Salah satu cara efektif untuk meningkatkan keamanan dan ketertelusuran presentasi adalah dengan menyematkan tanda tangan metadata.

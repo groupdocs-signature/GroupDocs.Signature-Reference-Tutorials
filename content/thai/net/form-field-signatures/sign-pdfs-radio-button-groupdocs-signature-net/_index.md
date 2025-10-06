@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามใน PDF โดยใช้ช่องฟอร์มปุ่มตัวเลือกด้วย GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามใน PDF โดยใช้ฟิลด์ฟอร์มปุ่มตัวเลือกด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

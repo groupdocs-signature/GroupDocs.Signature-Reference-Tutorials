@@ -4,8 +4,8 @@
 "title": "Hur man signerar PDF-dokument med streckkod med GroupDocs.Signature för .NET"
 "url": "/sv/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar PDF-dokument med streckkod med GroupDocs.Signature för .NET
 
 I dagens digitala värld är det inte bara bekvämt att signera dokument elektroniskt, utan det ökar också säkerheten och effektiviteten. Många företag står dock inför utmaningen att säkerställa att dessa signaturer är både säkra och verifierbara. **GroupDocs.Signature för .NET**—ett kraftfullt bibliotek utformat för att förenkla den här processen genom att låta dig lägga till streckkodssignaturer i PDF-dokument programmatiskt. Den här handledningen visar hur du implementerar GroupDocs.Signature för .NET för att signera ett PDF-dokument med en streckkodssignatur.

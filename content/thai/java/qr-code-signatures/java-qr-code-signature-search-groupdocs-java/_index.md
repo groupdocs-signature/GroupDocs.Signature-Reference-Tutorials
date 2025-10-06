@@ -4,8 +4,8 @@
 "title": "การค้นหาลายเซ็น QR Code ของ Java ด้วย GroupDocs สำหรับนักพัฒนา Java"
 "url": "/th/java/qr-code-signatures/java-qr-code-signature-search-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # การค้นหาลายเซ็น QR Code ของ Java ด้วย GroupDocs สำหรับนักพัฒนา Java
 
 ## การแนะนำ

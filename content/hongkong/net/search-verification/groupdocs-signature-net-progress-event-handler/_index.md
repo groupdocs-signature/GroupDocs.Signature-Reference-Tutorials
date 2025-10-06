@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 最佳化文件搜尋並實作進度事件處理程序"
 "url": "/zh-hant/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 最佳化文件搜尋：實作進度事件處理程序
 
 ## 介紹

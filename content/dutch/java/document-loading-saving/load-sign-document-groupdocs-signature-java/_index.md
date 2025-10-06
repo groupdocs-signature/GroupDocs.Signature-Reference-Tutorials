@@ -4,8 +4,8 @@
 "title": "Documenten laden en ondertekenen in Java met GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Documenten laden en ondertekenen met GroupDocs.Signature in Java
 
 ## Invoering

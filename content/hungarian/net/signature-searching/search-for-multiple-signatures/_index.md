@@ -5,8 +5,8 @@
 "title": "Több aláírástípus keresése dokumentumokban"
 "url": "/hu/net/signature-searching/search-for-multiple-signatures/"
 "weight": 14
+type: docs
 ---
-
 ## Bevezetés
 
 modern dokumentumkezelő rendszerekben egyre fontosabbá válik, hogy egyetlen dokumentumon belül több aláírástípus is kereshető és validálható legyen. A szervezetek gyakran alkalmaznak különféle aláírástípusokat – például digitális aláírásokat, szöveges aláírásokat, vonalkódokat, QR-kódokat és egyebeket – a dokumentumok biztonságának fokozása és az ellenőrzési folyamatok egyszerűsítése érdekében. A GroupDocs.Signature for .NET egy hatékony keretrendszert biztosít, amely lehetővé teszi a fejlesztők számára, hogy átfogó aláírás-keresési funkciókat valósítsanak meg különböző dokumentumformátumokban.

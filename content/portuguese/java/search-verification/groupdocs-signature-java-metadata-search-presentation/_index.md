@@ -4,8 +4,8 @@
 "title": "Pesquisa de Assinatura de Metadados Mestre no PowerPoint usando GroupDocs.Signature para Java"
 "url": "/pt/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # Pesquisa de Assinatura de Metadados Mestre no PowerPoint usando GroupDocs.Signature para Java
 
 ## Introdução

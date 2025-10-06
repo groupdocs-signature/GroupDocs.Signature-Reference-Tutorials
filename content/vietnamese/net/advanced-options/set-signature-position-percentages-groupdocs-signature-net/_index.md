@@ -4,8 +4,8 @@
 "title": "Đặt vị trí chữ ký bằng phần trăm trong GroupDocs.Signature cho .NET | Hướng dẫn nâng cao"
 "url": "/vi/net/advanced-options/set-signature-position-percentages-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Đặt vị trí chữ ký bằng cách sử dụng phần trăm trong GroupDocs.Signature cho .NET
 ## Giới thiệu
 Trong kỷ nguyên số ngày nay, việc quản lý và tự động hóa tài liệu hiệu quả là vô cùng quan trọng. Việc thêm chữ ký theo chương trình vào tài liệu mà vẫn đảm bảo vị trí chính xác là một thách thức phổ biến. Hướng dẫn nâng cao này sẽ hướng dẫn bạn cách thiết lập vị trí chữ ký bằng cách sử dụng tỷ lệ phần trăm với GroupDocs.Signature cho .NET.

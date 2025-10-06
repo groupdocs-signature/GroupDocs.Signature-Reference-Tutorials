@@ -4,8 +4,8 @@
 "title": ".NET के लिए मास्टर ग्रुपडॉक्स.हस्ताक्षर दस्तावेज़ जानकारी को कुशलतापूर्वक निकालें और प्रदर्शित करें"
 "url": "/hi/net/preview-info/groupdocs-signature-net-document-info-extraction/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature में महारत हासिल करना: दस्तावेज़ जानकारी को कुशलतापूर्वक निकालना और प्रदर्शित करना
 
 ## परिचय

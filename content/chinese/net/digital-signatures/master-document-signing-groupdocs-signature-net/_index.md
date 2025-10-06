@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 进行主文档签名和验证"
 "url": "/zh/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 进行主文档签名和验证
 
 ## 如何使用 GroupDocs.Signature for .NET 掌握文档签名和验证

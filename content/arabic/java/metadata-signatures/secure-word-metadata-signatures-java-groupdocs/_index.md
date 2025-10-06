@@ -4,8 +4,8 @@
 "title": "تأمين توقيعات بيانات Word الوصفية في Java باستخدام GroupDocs - دليل شامل"
 "url": "/ar/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # تأمين توقيعات بيانات Word الوصفية في Java باستخدام GroupDocs
 
 ## مقدمة

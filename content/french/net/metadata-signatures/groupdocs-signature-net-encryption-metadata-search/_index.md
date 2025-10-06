@@ -4,8 +4,8 @@
 "title": "Recherche sécurisée de signatures de métadonnées dans .NET avec GroupDocs.Signature et chiffrement"
 "url": "/fr/net/metadata-signatures/groupdocs-signature-net-encryption-metadata-search/"
 "weight": 1
+type: docs
 ---
-
 # Recherche sécurisée de signatures de métadonnées dans .NET avec GroupDocs.Signature et chiffrement
 
 ## Introduction

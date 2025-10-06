@@ -4,8 +4,8 @@
 "title": "Ondersteunde bestandsindelingen ophalen en weergeven met GroupDocs.Signature voor .NET"
 "url": "/nl/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Ondersteunde bestandsindelingen ophalen en weergeven met GroupDocs.Signature voor .NET
 
 ## Invoering

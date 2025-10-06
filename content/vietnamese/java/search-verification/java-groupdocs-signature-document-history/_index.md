@@ -4,8 +4,8 @@
 "title": "Cách triển khai Java GroupDocs.Signature&#58; Truy xuất và hiển thị lịch sử quy trình tài liệu"
 "url": "/vi/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai Java GroupDocs.Signature: Truy xuất và hiển thị lịch sử xử lý tài liệu
 
 ## Giới thiệu

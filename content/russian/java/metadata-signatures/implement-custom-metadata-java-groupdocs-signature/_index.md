@@ -4,8 +4,8 @@
 "title": "Реализация пользовательских метаданных в Java с использованием GroupDocs.Signature для улучшенной подписи документов"
 "url": "/ru/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Реализация пользовательских метаданных в Java с помощью GroupDocs.Signature
 
 ## Введение

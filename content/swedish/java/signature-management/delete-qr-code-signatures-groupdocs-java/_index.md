@@ -4,8 +4,8 @@
 "title": "Så här tar du bort QR-kodsignaturer från PDF-filer med GroupDocs.Signature för Java"
 "url": "/sv/java/signature-management/delete-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Så här tar du bort QR-kodsignaturer från en PDF med GroupDocs.Signature för Java
 
 ## Introduktion

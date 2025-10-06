@@ -4,8 +4,8 @@
 "title": "تحميل وتوقيع المستندات في Java باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # تحميل المستندات وتوقيعها باستخدام GroupDocs.Signature في Java
 
 ## مقدمة

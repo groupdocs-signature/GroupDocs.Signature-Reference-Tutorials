@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature for Java 的綜合教學與範例"
 "url": "/zh-hant/java/"
 "weight": 10
+type: docs
 ---
-
 # GroupDocs.Signature Java 教學與範例
 
 歡迎閱讀我們全面的 GroupDocs.Signature Java 版教學合集。這些逐步指南將幫助您在 Java 應用程式中實現安全的文件簽章解決方案。從基本設定到進階簽名管理，我們的教學涵蓋了您使用多種簽名類型來保護文件所需的所有資訊。

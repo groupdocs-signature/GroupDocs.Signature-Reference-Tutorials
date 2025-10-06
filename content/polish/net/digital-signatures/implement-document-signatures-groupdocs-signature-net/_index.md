@@ -4,8 +4,8 @@
 "title": "Wdrażanie i wyświetlanie podpisów dokumentów za pomocą GroupDocs.Signature dla .NET™. Kompleksowy przewodnik"
 "url": "/pl/net/digital-signatures/implement-document-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Wdrażanie i wyświetlanie podpisów dokumentów za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

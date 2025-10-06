@@ -4,8 +4,8 @@
 "title": "So behandeln Sie Ausnahmen bei falschen Kennwörtern in GroupDocs.Signature für .NET"
 "url": "/de/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # So behandeln Sie Ausnahmen bei falschen Passwörtern mit GroupDocs.Signature für .NET
 
 ## Einführung

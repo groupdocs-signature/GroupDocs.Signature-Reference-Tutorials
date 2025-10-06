@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 對 PDF 進行二維碼簽名－逐步指南"
 "url": "/zh-hant/java/qr-code-signatures/pdf-signing-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 實作二維碼 PDF 簽名
 
 在當今的數位環境中，安全的文件簽名至關重要。本教學將指導您使用 GroupDocs.Signature for Java 實作一項獨特功能：使用包含加密貨幣轉移資料的二維碼對 PDF 文件進行簽署。對於希望簡化數位貨幣相關操作的企業來說，此解決方案兼具安全性、效率和創新性，是理想之選。

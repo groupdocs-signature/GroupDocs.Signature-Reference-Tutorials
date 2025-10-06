@@ -5,8 +5,8 @@
 "title": "เชี่ยวชาญเทคนิคการลงนามเอกสารขั้นสูงใน .NET"
 "url": "/th/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # เทคนิคลายเซ็นขั้นสูงด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

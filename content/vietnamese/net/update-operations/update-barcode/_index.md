@@ -5,8 +5,8 @@
 "title": "Cập nhật chữ ký mã vạch trong tài liệu"
 "url": "/vi/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Giới thiệu
 Chữ ký mã vạch được sử dụng rộng rãi trong quy trình làm việc tài liệu kỹ thuật số để mã hóa dữ liệu có cấu trúc, cho phép theo dõi, nhận dạng và xác thực hiệu quả. GroupDocs.Signature for .NET là giải pháp ký tài liệu toàn diện, cho phép các nhà phát triển tích hợp chức năng chữ ký nâng cao vào ứng dụng của họ, bao gồm khả năng cập nhật chữ ký mã vạch hiện có trong tài liệu.
 

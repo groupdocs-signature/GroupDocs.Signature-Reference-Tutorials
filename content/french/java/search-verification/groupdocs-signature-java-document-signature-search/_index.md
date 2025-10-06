@@ -4,8 +4,8 @@
 "title": "Maîtriser la recherche de signatures de documents avec GroupDocs.Signature pour Java &#58; un guide complet"
 "url": "/fr/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser la recherche de signatures de documents avec GroupDocs.Signature pour Java
 
 ## Introduction

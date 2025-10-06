@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용한 .NET에서의 사용자 정의 직렬화 및 메타데이터 검색"
 "url": "/ko/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 사용자 지정 직렬화 및 메타데이터 서명 검색 구현
 
 ## 소개

@@ -4,8 +4,8 @@
 "title": "Tandatangani PDF dengan Tanda Tangan Kode QR dan Ekspor sebagai Gambar Menggunakan GroupDocs untuk Java"
 "url": "/id/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Lengkap untuk Menandatangani dan Mengekspor PDF sebagai Gambar dengan Kode QR menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

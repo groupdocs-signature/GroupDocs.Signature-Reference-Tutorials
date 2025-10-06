@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java로 QR 코드 서명 구현"
 "url": "/ko/java/qr-code-signatures/implement-qr-code-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 "# Java용 GroupDocs.Signature를 사용하여 QR 코드 서명을 구현하는 방법
 
 ## 소개

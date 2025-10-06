@@ -4,8 +4,8 @@
 "title": "파일 로깅 및 QR 코드 서명&#58; .NET용 GroupDocs.Signature를 사용한 완벽한 가이드"
 "url": "/ko/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # 파일 로깅 및 QR 코드 서명: .NET용 GroupDocs.Signature를 사용한 완벽한 가이드
 
 ## 소개

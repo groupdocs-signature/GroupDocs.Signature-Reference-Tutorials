@@ -4,8 +4,8 @@
 "title": "Effektiv signaturhantering – hur man söker och tar bort digitala signaturer med GroupDocs.Signature för Java"
 "url": "/sv/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Effektiv signaturhantering: Så här söker och tar du bort digitala signaturer med GroupDocs.Signature för Java
 
 ## Introduktion

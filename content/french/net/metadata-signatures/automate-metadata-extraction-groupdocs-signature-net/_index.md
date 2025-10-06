@@ -4,8 +4,8 @@
 "title": "Automatiser l'extraction des métadonnées dans les feuilles de calcul à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Automatisation de l'extraction de métadonnées dans les feuilles de calcul avec GroupDocs.Signature pour .NET
 
 ## Introduction

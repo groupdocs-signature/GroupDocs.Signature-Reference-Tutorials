@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Tanda Tangan Gambar dari Dokumen menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/signature-management/remove-image-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Gambar dari Dokumen Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

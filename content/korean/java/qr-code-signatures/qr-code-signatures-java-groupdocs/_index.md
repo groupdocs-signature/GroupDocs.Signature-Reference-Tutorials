@@ -4,8 +4,8 @@
 "title": "문서 보안&#58; GroupDocs.Signature를 사용하여 Java로 QR 코드 서명 구현"
 "url": "/ko/java/qr-code-signatures/qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 문서 보안: GroupDocs.Signature를 사용하여 Java로 QR 코드 서명 구현
 
 오늘날의 디지털 환경에서는 계약서, 송장 또는 민감한 개인 정보와 같은 문서의 보안을 유지하는 것이 매우 중요합니다. 문서 보안을 강화하고 검증 절차를 간소화하는 혁신적인 방법 중 하나는 QR 코드 서명을 사용하는 것입니다. 이 튜토리얼에서는 GroupDocs.Signature를 사용하여 Java에서 문서의 QR 코드 서명을 구현하고 검증하는 방법을 안내합니다.

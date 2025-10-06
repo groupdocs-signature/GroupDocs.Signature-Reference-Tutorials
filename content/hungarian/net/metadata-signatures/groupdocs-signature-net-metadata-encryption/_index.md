@@ -4,8 +4,8 @@
 "title": "Hogyan valósíthatunk meg metaadat-aláírás-titkosítást .NET-ben a GroupDocs.Signature for Secure PDFs segítségével?"
 "url": "/hu/net/metadata-signatures/groupdocs-signature-net-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan valósíthatunk meg metaadat-aláírás-titkosítást .NET-ben a GroupDocs.Signature for Secure PDFs segítségével?
 
 ## Bevezetés

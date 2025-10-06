@@ -4,8 +4,8 @@
 "title": "Automatizace extrakce metadat v tabulkách pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Automatizace extrakce metadat v tabulkách pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

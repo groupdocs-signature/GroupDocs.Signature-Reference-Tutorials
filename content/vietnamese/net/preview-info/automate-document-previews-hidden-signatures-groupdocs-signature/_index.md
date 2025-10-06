@@ -4,8 +4,8 @@
 "title": "Tự động xem trước tài liệu với chữ ký ẩn bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Tự động xem trước tài liệu với chữ ký ẩn bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

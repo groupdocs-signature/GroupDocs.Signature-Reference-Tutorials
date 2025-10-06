@@ -4,8 +4,8 @@
 "title": "Cập nhật chữ ký mã QR trong Java - Hướng dẫn toàn diện sử dụng GroupDocs.Signature"
 "url": "/vi/java/signature-management/update-qr-code-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cập nhật chữ ký mã QR trong Java: Hướng dẫn toàn diện sử dụng GroupDocs.Signature
 
 Trong bối cảnh kỹ thuật số ngày nay, việc bảo mật tài liệu là vô cùng quan trọng đối với cả doanh nghiệp và cá nhân. Chữ ký mã QR cung cấp một giải pháp đáng tin cậy cho việc bảo mật và xác minh tài liệu. Hướng dẫn này cung cấp hướng dẫn từng bước về cách cập nhật chữ ký mã QR bằng GroupDocs.Signature for Java—một công cụ mạnh mẽ giúp đơn giản hóa việc quản lý chữ ký trong ứng dụng của bạn.

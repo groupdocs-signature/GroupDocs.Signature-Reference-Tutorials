@@ -4,8 +4,8 @@
 "title": "Jak podepisovat dokumenty Wordu metadaty pomocí GroupDocs.Signature pro .NET | Podrobný návod"
 "url": "/cs/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat dokumenty Wordu metadaty pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Güvenli Belge Yönetimi için GroupDocs.Signature Kullanarak .NET'te Metin İmza Doğrulamasını Uygulama"
 "url": "/tr/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak .NET'te Metin İmza Doğrulamasını Uygulama
 ## Arama ve Doğrulama
 **SEO URL**: implement-text-signature-verification-groupdocs-net

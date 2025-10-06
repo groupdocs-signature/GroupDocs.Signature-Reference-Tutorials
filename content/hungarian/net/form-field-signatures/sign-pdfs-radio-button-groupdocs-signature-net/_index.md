@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása választógomb űrlapmezők használatával a GroupDocs.Signature for .NET segítségével"
 "url": "/hu/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF aláírása rádiógomb űrlapmezők használatával a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

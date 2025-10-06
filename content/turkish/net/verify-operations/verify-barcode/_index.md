@@ -5,8 +5,8 @@
 "title": "Belgelerdeki Barkod İmzalarını Doğrulayın"
 "url": "/tr/net/verify-operations/verify-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## giriiş
 
 Barkodlar, modern belge yönetim sistemlerinin ayrılmaz bir parçası haline gelmiş olup, kodlanmış bilgilere hızlı erişim sağlamanın yanı sıra bir güvenlik özelliği de sunmaktadır. GroupDocs.Signature for .NET, belgelerdeki barkod imzalarını doğrulamak, bunların gerçekliğini ve bütünlüğünü garanti altına almak için güçlü bir API sağlar.

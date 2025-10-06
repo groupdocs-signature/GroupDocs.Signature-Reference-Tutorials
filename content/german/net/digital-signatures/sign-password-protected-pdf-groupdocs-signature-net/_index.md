@@ -4,8 +4,8 @@
 "title": "So signieren Sie eine passwortgeschützte PDF-Datei mit GroupDocs.Signature für .NET (Tutorial zur digitalen Signatur)"
 "url": "/de/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie eine passwortgeschützte PDF-Datei mit GroupDocs.Signature für .NET
 ## Tutorial zur digitalen Signatur
 

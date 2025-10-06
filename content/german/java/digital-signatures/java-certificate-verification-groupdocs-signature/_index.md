@@ -4,8 +4,8 @@
 "title": "Leitfaden zur Java-Zertifikatüberprüfung mit GroupDocs.Signature zur sicheren Dokumentauthentifizierung"
 "url": "/de/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren der Java-Zertifikatsüberprüfung mit GroupDocs.Signature für Java
 
 ## Einführung

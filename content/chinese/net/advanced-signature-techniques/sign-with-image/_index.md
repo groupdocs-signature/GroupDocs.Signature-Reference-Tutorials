@@ -5,8 +5,8 @@
 "title": "使用 GroupDocs.Signature 轻松为文档添加图像签名"
 "url": "/zh/net/advanced-signature-techniques/sign-with-image/"
 "weight": 13
+type: docs
 ---
-
 ## 简介：使用图像签名提高文档安全性
 
 您是否想过如何让您的数字文档更安全、更具法律效力？添加图像签名是验证文档真实性并防止其被篡改的最有效方法之一。在本指南中，我们将引导您完成使用 GroupDocs.Signature 在 .NET 应用程序中实现基于图像的文档签名的过程。

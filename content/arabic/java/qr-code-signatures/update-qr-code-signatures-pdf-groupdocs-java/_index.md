@@ -4,8 +4,8 @@
 "title": "تحديث توقيعات رمز الاستجابة السريعة في ملفات PDF باستخدام GroupDocs.Signature for Java - دليل شامل"
 "url": "/ar/java/qr-code-signatures/update-qr-code-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # تحديث توقيعات رمز الاستجابة السريعة في ملفات PDF باستخدام GroupDocs.Signature لـ Java: دليل شامل
 
 ## مقدمة

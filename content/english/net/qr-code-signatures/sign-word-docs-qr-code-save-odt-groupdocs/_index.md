@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["digital-signatures", "qr-codes", "groupdocs", "word-documents", "dotnet"]
+type: docs
 ---
-
 # Sign Word Documents with QR Code .NET
 
 ## Introduction

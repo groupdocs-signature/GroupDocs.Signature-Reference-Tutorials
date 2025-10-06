@@ -4,8 +4,8 @@
 "title": "البحث الآمن عن توقيعات البيانات الوصفية في .NET باستخدام GroupDocs.Signature والتشفير"
 "url": "/ar/net/metadata-signatures/groupdocs-signature-net-encryption-metadata-search/"
 "weight": 1
+type: docs
 ---
-
 # البحث الآمن عن توقيعات البيانات الوصفية في .NET باستخدام GroupDocs.Signature والتشفير
 
 ## مقدمة

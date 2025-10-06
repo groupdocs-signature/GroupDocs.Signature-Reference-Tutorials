@@ -4,8 +4,8 @@
 "title": ".NET için Master GroupDocs.Signature&#58; Belge İmzalarını Yönetin ve Silin"
 "url": "/tr/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile .NET'te İmza Yönetiminde Uzmanlaşma
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Implementace podepisování textu v Javě - zpracování událostí pomocí GroupDocs.Signature"
 "url": "/cs/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # Implementace podepisování textu s obsluhou událostí pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

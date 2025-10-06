@@ -5,8 +5,8 @@
 "title": "วิธีการลบลายเซ็นตาม ID ในเอกสาร .NET"
 "url": "/th/net/delete-operations/delete-signature-by-id/"
 "weight": 11
+type: docs
 ---
-
 # วิธีการลบลายเซ็นตาม ID ในเอกสาร .NET
 
 ## เหตุใดคุณจึงต้องลบลายเซ็นออกจากเอกสาร?

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing"]
 tags: ["qr-code", "pdf-signature", "email-integration", "groupdocs", "csharp"]
+type: docs
 ---
-
 # PDF Email QR Code Signature Tutorial - Easy C# Implementation
 
 ## What You'll Build Today

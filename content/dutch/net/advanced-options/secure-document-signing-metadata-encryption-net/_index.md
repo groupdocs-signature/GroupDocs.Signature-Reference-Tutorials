@@ -4,8 +4,8 @@
 "title": "Beheers het veilig ondertekenen van documenten met metagegevens en aangepaste encryptie in .NET met GroupDocs.Signature"
 "url": "/nl/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Beheers het veilig ondertekenen van documenten met metagegevens en aangepaste encryptie in .NET
 
 ## Invoering

@@ -5,8 +5,8 @@
 "title": "Come rimuovere le firme di testo dai documenti in .NET"
 "url": "/it/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # Come rimuovere le firme di testo dai documenti con GroupDocs.Signature
 
 ## Perché dovresti eliminare le firme di testo?

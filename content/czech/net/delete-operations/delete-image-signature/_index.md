@@ -5,8 +5,8 @@
 "title": "Jak odstranit podpisy obrázků z dokumentů v .NET"
 "url": "/cs/net/delete-operations/delete-image-signature/"
 "weight": 14
+type: docs
 ---
-
 # Jak odstranit podpisy obrázků z dokumentů pomocí GroupDocs.Signature
 
 ## Zavedení

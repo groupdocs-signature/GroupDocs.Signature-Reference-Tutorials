@@ -4,8 +4,8 @@
 "title": "Cree impresionantes firmas de degradado radial en Java con GroupDocs.Signature"
 "url": "/es/java/document-loading-saving/groupdocs-signature-java-radial-gradient-sig/"
 "weight": 1
+type: docs
 ---
-
 # Cree una firma con degradado radial visualmente atractiva con GroupDocs.Signature para Java
 
 En el mundo digital actual, la estética de la firma electrónica de documentos es tan importante como la funcionalidad. Una firma visualmente impactante puede realzar tanto la profesionalidad como la credibilidad de su trabajo. Este tutorial le guiará en la implementación de una firma con pincel de degradado radial usando GroupDocs.Signature para Java.

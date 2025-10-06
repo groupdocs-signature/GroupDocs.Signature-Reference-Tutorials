@@ -4,8 +4,8 @@
 "title": "استخراج توقيع رمز الاستجابة السريعة (QR) في Java باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ استخراج توقيع رمز الاستجابة السريعة في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

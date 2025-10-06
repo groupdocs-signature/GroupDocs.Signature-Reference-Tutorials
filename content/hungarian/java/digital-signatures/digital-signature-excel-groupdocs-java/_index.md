@@ -4,8 +4,8 @@
 "title": "Digitális aláírások implementálása Excelben a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírás megvalósítása táblázatban a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

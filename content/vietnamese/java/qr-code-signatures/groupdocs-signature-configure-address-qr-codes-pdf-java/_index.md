@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng mã QR địa chỉ bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/qr-code-signatures/groupdocs-signature-configure-address-qr-codes-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF bằng mã QR địa chỉ bằng GroupDocs.Signature cho Java
 
 Trong thế giới số ngày nay, việc ký tài liệu một cách an toàn là vô cùng quan trọng. Cho dù bạn là chuyên gia kinh doanh hay cá nhân quản lý hợp đồng, việc tự động thêm chữ ký có thể tiết kiệm thời gian và tăng cường bảo mật tài liệu. Hướng dẫn này sẽ hướng dẫn bạn cách sử dụng **GroupDocs.Signature cho Java** để tạo và cấu hình đối tượng Địa chỉ, sau đó tích hợp nó vào các tùy chọn ký Mã QR trong PDF. Bằng cách làm theo hướng dẫn này, bạn sẽ học cách nhúng dữ liệu địa chỉ dưới dạng mã QR vào tài liệu của mình một cách liền mạch.

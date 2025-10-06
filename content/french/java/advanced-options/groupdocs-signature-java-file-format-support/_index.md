@@ -4,8 +4,8 @@
 "title": "Prise en charge du format de fichier maître dans GroupDocs.Signature pour Java &#58; un guide complet"
 "url": "/fr/java/advanced-options/groupdocs-signature-java-file-format-support/"
 "weight": 1
+type: docs
 ---
-
 # Prise en charge du format de fichier maître dans GroupDocs.Signature pour Java : guide complet
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Sichern Sie Dokumente mit Textwasserzeichen mithilfe von GroupDocs.Signature für .NET – Ein umfassender Leitfaden"
 "url": "/de/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie Textwasserzeichen in Dokumenten mit GroupDocs.Signature für .NET
 
 ## Einführung

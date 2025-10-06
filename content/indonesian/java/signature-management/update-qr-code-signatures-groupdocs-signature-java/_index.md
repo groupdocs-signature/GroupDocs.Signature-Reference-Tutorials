@@ -4,8 +4,8 @@
 "title": "Memperbarui Tanda Tangan Kode QR di Java&#58; Panduan Lengkap Menggunakan GroupDocs.Signature"
 "url": "/id/java/signature-management/update-qr-code-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Memperbarui Tanda Tangan Kode QR di Java: Panduan Lengkap Menggunakan GroupDocs.Signature
 
 Di lanskap digital saat ini, pengamanan dokumen sangat penting bagi bisnis maupun individu. Tanda tangan kode QR menawarkan solusi andal untuk keamanan dan verifikasi dokumen. Tutorial ini memberikan petunjuk langkah demi langkah tentang cara memperbarui tanda tangan kode QR menggunakan GroupDocs.Signature untuk Java—alat canggih yang menyederhanakan pengelolaan tanda tangan di aplikasi Anda.

@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในเอกสารการนำเสนอด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # คู่มือครอบคลุมในการลงนามเอกสารการนำเสนอด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

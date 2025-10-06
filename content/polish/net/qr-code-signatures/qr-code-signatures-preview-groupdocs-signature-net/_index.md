@@ -4,8 +4,8 @@
 "title": "Podgląd podpisu kodu QR z GroupDocs.Signature dla .NET&#58; Kompleksowy przewodnik"
 "url": "/pl/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Wdrażanie podglądów podpisów kodów QR za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

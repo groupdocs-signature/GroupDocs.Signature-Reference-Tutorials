@@ -4,8 +4,8 @@
 "title": "Como implementar o carregamento e a assinatura de assinatura digital com GroupDocs.Signature para Java"
 "url": "/pt/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar o carregamento e a assinatura de assinatura digital com GroupDocs.Signature para Java
 
 ## Introdução

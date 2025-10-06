@@ -4,8 +4,8 @@
 "title": "Afbeeldingshandtekeningen in PDF's bijwerken en zoeken met Java met GroupDocs.Signature"
 "url": "/nl/java/signature-management/update-search-image-signatures-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Afbeeldingshandtekeningen in PDF's bijwerken en zoeken met Java
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 掌握 TAR 檔案條碼和二維碼搜尋"
 "url": "/zh-hant/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 掌握 TAR 檔案條碼和二維碼搜尋
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Meta Verilerle Sunum Belgelerini İmzalama"
 "url": "/tr/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Bir Sunum Belgesini Meta Verilerle Nasıl İmzalayabilirsiniz?
 
 ## giriiş

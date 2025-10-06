@@ -4,8 +4,8 @@
 "title": "Automatize visualizações de documentos com assinaturas ocultas usando GroupDocs.Signature para .NET"
 "url": "/pt/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Automatize visualizações de documentos com assinaturas ocultas usando GroupDocs.Signature para .NET
 
 ## Introdução

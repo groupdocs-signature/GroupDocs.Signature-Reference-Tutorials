@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java kullanarak PowerPoint'te Ana Meta Veri İmza Araması"
 "url": "/tr/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java kullanarak PowerPoint'te Ana Meta Veri İmza Araması
 
 ## giriiş

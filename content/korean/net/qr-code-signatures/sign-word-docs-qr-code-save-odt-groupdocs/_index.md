@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 QR 코드로 Word 문서에 서명하고 ODT로 저장하는 방법"
 "url": "/ko/net/qr-code-signatures/sign-word-docs-qr-code-save-odt-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 QR 코드로 Word 문서에 서명하고 ODT로 저장하는 방법
 
 ## 소개

@@ -4,8 +4,8 @@
 "title": "Så här implementerar du textsignaturer i PDF-filer med GroupDocs.Signature för Java - en komplett guide"
 "url": "/sv/java/text-signatures/groupdocs-signature-java-text-signatures-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar textsignaturer i PDF-filer med GroupDocs.Signature för Java
 
 **Effektivisera dokumentarbetsflöden: En omfattande guide till att söka och hantera textsignaturer i PDF-filer med GroupDocs.Signature för Java**

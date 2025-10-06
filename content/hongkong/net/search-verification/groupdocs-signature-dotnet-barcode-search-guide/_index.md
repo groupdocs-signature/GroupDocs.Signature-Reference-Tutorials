@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 進行主文檔搜尋&#58;條碼簽署驗證指南"
 "url": "/zh-hant/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 掌握文件搜尋
 
 ## 介紹

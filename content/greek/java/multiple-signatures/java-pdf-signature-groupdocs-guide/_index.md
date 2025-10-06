@@ -4,8 +4,8 @@
 "title": "Οδηγός Υπογραφής PDF σε Java - Προσθήκη Κειμένου, Barcode, QR και Ψηφιακών Υπογραφών με Χρήση του GroupDocs.Signature για Java"
 "url": "/el/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε έναν οδηγό υπογραφής PDF σε Java: Προσθήκη κειμένου, γραμμωτού κώδικα, QR και ψηφιακών υπογραφών χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

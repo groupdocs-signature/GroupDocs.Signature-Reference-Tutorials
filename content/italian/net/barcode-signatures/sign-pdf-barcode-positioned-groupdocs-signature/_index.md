@@ -4,8 +4,8 @@
 "title": "Come firmare PDF con codici a barre posizionati con precisione utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare un documento PDF con codici a barre posizionati con precisione utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

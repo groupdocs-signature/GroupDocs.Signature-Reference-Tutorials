@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["multiple-signatures", "enterprise-signing", "document-workflows", "signature-automation"]
+type: docs
 ---
-
 # Multiple Signature .NET Tutorial: Complete Guide for Complex Document Signing
 
 Ever struggled with implementing multiple signature types in a single document? You're not alone. Whether you're building an enterprise contract system, legal document processor, or compliance platform, handling multiple signatures efficiently can make or break your application's success.

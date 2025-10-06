@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中使用加密二維碼進行安全 PDF 簽名"
 "url": "/zh-hant/net/qr-code-signatures/net-qrcode-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 綜合指南：使用 GroupDocs.Signature 在 .NET 中實現加密二維碼的安全 PDF 簽名
 
 ## 介紹

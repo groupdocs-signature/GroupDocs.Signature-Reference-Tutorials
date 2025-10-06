@@ -3,8 +3,8 @@
 "title": "Tutorial Memuat dan Menyimpan Dokumen dengan GroupDocs.Signature untuk Java"
 "url": "/id/java/document-loading-saving/"
 "weight": 2
+type: docs
 ---
-
 # Tutorial Memuat dan Menyimpan Dokumen dengan GroupDocs.Signature untuk Java
 
 Tutorial pemuatan dan penyimpanan dokumen kami menyediakan panduan komprehensif untuk menangani dokumen secara terprogram di Java. Ikuti panduan langkah demi langkah ini untuk mempelajari cara memuat dokumen dari disk lokal, aliran data, URL, penyedia penyimpanan cloud seperti Amazon S3 dan Azure Blob Storage, serta FTP. Tutorial ini juga mencakup berbagai skenario penyimpanan dokumen, termasuk penyimpanan dengan proteksi kata sandi, berbagai format keluaran, dan opsi penyimpanan khusus untuk berbagai jenis dokumen.

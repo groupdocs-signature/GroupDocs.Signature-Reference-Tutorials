@@ -9,8 +9,8 @@ weight: 1
 url: "/java/digital-signatures/digitally-sign-pdfs-groupdocs-signature-java/"
 categories: ["Java Development", "PDF Processing"]
 tags: ["digital-signature", "pdf-signing", "java-library", "document-security"]
+type: docs
 ---
-
 # How to Sign PDF Digitally in Java
 
 ## Introduction

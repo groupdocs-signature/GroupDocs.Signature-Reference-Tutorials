@@ -4,8 +4,8 @@
 "title": "Как удалить текстовые подписи в Java с помощью GroupDocs.Signature"
 "url": "/ru/java/signature-management/delete-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Как удалить текстовые подписи в Java с помощью GroupDocs.Signature
 
 ## Введение

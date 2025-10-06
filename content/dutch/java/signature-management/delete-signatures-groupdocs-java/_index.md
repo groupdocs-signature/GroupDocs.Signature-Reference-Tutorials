@@ -4,8 +4,8 @@
 "title": "Specifieke handtekeningen uit een document verwijderen met GroupDocs.Signature voor Java"
 "url": "/nl/java/signature-management/delete-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Specifieke typen handtekeningen uit een document verwijderen met GroupDocs.Signature voor Java
 
 ## Invoering

@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature – Első lépések – Oktatóanyagok .NET fejlesztőknek"
 "url": "/hu/net/getting-started/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature – Első lépések – Oktatóanyagok .NET fejlesztőknek
 
 Kezdje el utazását ezekkel a nélkülözhetetlen GroupDocs.Signature oktatóanyagokkal, amelyek végigvezetik a telepítésen, a licencelés konfigurálásán és az első digitális aláírás-implementációk létrehozásán .NET-ben. Kezdőknek szóló útmutatóink bemutatják, hogyan állíthatja be fejlesztői környezetét, hogyan inicializálhatja a GroupDocs.Signature könyvtárat, és hogyan hajthatja végre az alapvető aláírási műveleteket. Kövesse ezeket az oktatóanyagokat az alapok gyors elsajátításához, és felkészülhet a haladóbb dokumentum-aláírási feladatokra .NET-alkalmazásaiban.

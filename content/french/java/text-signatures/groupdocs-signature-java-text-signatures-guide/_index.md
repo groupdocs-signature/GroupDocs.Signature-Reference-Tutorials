@@ -4,8 +4,8 @@
 "title": "Maîtriser les signatures de texte en Java – Guide complet de GroupDocs.Signature pour Java"
 "url": "/fr/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser la signature de documents en Java : Guide complet sur l'utilisation de GroupDocs.Signature pour les signatures de texte
 
 ## Introduction

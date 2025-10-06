@@ -4,8 +4,8 @@
 "title": "Cara Mencari dan Memperbarui Tanda Tangan Gambar dalam Dokumen Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mencari dan Memperbarui Tanda Tangan Gambar dalam Dokumen Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

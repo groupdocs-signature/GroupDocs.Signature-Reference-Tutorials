@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して QR コードで PDF を暗号化および署名する"
 "url": "/ja/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して QR コードで PDF を暗号化および署名する
 
 ## 導入

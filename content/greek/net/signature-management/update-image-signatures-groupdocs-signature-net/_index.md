@@ -4,8 +4,8 @@
 "title": "Πώς να ενημερώσετε τις υπογραφές εικόνων στο .NET χρησιμοποιώντας το GroupDocs.Signature&#58; Ένας πλήρης οδηγός"
 "url": "/el/net/signature-management/update-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να ενημερώσετε τις υπογραφές εικόνων στο .NET με το GroupDocs.Signature
 
 ## Εισαγωγή

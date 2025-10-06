@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 实现带有时间戳的 PDF 数字签名"
 "url": "/zh/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 实现带有时间戳的 PDF 数字签名
 
 ## 介绍

@@ -4,8 +4,8 @@
 "title": "Tandatangani PDF dengan Kode QR Cryptocurrency Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/qr-code-signatures/sign-pdf-crypto-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF Menggunakan Kode QR Cryptocurrency dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

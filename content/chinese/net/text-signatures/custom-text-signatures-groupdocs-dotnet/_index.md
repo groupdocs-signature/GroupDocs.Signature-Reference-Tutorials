@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中实现自定义文本签名——综合指南"
 "url": "/zh/net/text-signatures/custom-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 .NET 中实现自定义文本签名
 
 在当今的数字时代，确保文件的真实性和完整性至关重要。无论是合同、协议还是正式信函，签名都至关重要。本指南将向您展示如何使用 **适用于 .NET 的 GroupDocs.Signature**，让您能够精确而时尚地增强文档工作流程。

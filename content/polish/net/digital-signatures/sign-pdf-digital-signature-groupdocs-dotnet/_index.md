@@ -4,8 +4,8 @@
 "title": "Podpisywanie plików PDF w formacie cyfrowym w środowisku .NET. Przewodnik po korzystaniu z GroupDocs.Signature"
 "url": "/pl/net/digital-signatures/sign-pdf-digital-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cyfrowe podpisywanie plików PDF w .NET: przewodnik po korzystaniu z GroupDocs.Signature
 
 ## Wstęp

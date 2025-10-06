@@ -4,8 +4,8 @@
 "title": "توقيع مستند الصورة باستخدام البيانات الوصفية باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # إتقان توقيع مستندات الصور باستخدام البيانات الوصفية باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

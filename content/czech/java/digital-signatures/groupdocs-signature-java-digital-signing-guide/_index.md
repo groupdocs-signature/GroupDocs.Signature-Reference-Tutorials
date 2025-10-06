@@ -4,8 +4,8 @@
 "title": "Komplexní průvodce GroupDocs.Signature pro základy digitálního podepisování v Javě"
 "url": "/cs/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Komplexní průvodce GroupDocs.Signature pro Javu: Základy digitálního podepisování
 
 ## Zavedení

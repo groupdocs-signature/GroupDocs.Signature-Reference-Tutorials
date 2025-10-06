@@ -4,8 +4,8 @@
 "title": "كيفية توقيع مستندات PDF مع التعليقات النصية باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/text-signatures/sign-pdf-text-annotations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستندات PDF مع التعليقات النصية باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

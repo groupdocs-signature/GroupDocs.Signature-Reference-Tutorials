@@ -4,8 +4,8 @@
 "title": "Comment signer un PDF protégé par mot de passe avec GroupDocs.Signature pour .NET (tutoriel sur la signature numérique)"
 "url": "/fr/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer un PDF protégé par mot de passe avec GroupDocs.Signature pour .NET
 ## Tutoriel sur la signature numérique
 

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して .NET で QR コード署名検索を実装する"
 "url": "/ja/net/search-verification/implement-qr-code-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してドキュメントに QR コード署名検索を実装する方法
 
 ## 導入

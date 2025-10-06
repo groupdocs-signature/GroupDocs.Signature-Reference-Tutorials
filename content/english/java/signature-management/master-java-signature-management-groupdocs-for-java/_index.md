@@ -8,10 +8,8 @@ keywords:
 - GroupDocs Signature Java
 - Java electronic signatures
 - update digital signatures in Java
-
+type: docs
 ---
-
-
 # Mastering Java Signature Management with GroupDocs.Signature for Java
 
 ## Introduction

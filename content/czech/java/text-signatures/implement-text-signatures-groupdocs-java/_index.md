@@ -4,8 +4,8 @@
 "title": "Jak implementovat textové podpisy pomocí GroupDocs.Signature pro Javu (podrobný návod)"
 "url": "/cs/java/text-signatures/implement-text-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat textové podpisy pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

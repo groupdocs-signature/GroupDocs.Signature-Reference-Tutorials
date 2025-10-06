@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["digital-signatures", "dotnet", "groupdocs", "document-security"]
+type: docs
 ---
-
 ## Why Every .NET Developer Needs to Know Digital Signature Implementation
 
 Here's the thing—if you're building any kind of document management system in 2025, you can't ignore digital signatures. They're not just a "nice-to-have" feature anymore; they're absolutely essential for maintaining document integrity and meeting compliance requirements.

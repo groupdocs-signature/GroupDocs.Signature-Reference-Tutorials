@@ -4,8 +4,8 @@
 "title": "Cómo eliminar una firma de texto por ID usando GroupDocs.Signature para .NET"
 "url": "/es/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cómo eliminar una firma de texto por ID usando GroupDocs.Signature para .NET
 
 ## Introducción

@@ -4,8 +4,8 @@
 "title": "Υλοποίηση κρυπτογράφησης XOR σε .NET χρησιμοποιώντας το GroupDocs.Signature&#58; Ένας πλήρης οδηγός"
 "url": "/el/net/advanced-options/xor-encryption-dotnet-groupdocs-signature-integration-guide/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση κρυπτογράφησης XOR σε .NET χρησιμοποιώντας το GroupDocs.Signature: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

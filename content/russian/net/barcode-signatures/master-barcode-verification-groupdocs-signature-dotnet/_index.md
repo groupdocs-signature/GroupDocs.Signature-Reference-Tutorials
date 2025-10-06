@@ -4,8 +4,8 @@
 "title": "Проверка мастер-штрихкода в .NET с помощью GroupDocs.Signature для обеспечения целостности документа"
 "url": "/ru/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Освоение проверки штрихкодов в .NET с помощью GroupDocs.Signature
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中實作自訂加密的二維碼簽章搜尋"
 "url": "/zh-hant/net/qr-code-signatures/implement-qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 實作自訂加密的二維碼簽章搜尋
 
 ## 介紹

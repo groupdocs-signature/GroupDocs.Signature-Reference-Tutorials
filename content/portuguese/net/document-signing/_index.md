@@ -5,8 +5,8 @@
 "title": "Assinatura de documentos com metadados em .NET"
 "url": "/pt/net/document-signing/"
 "weight": 24
+type: docs
 ---
-
 ## Introdução
 
 No mundo digital atual, garantir a autenticidade, o rastreamento da origem e a integridade dos documentos tornou-se essencial para empresas e organizações. As assinaturas de metadados oferecem uma maneira poderosa e discreta de incorporar informações de identificação diretamente em arquivos de documentos, aumentando a segurança sem alterar sua aparência visual.

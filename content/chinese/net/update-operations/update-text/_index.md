@@ -5,8 +5,8 @@
 "title": "更新文档中的文本签名"
 "url": "/zh/net/update-operations/update-text/"
 "weight": 13
+type: docs
 ---
-
 ## 介绍
 GroupDocs.Signature for .NET 是一款全面的文档签名解决方案，使开发人员能够将强大的签名功能集成到他们的 .NET 应用程序中。借助这个功能强大的库，您可以轻松添加、搜索、验证和更新各种文档格式的各种类型的签名，包括文本签名。本教程重点介绍如何更新文档中的文本签名，并为您提供无缝实施的分步指导。
 

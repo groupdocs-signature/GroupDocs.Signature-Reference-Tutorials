@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 바코드 서명을 초기화하고 업데이트하는 방법"
 "url": "/ko/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java에서 바코드 서명을 초기화하고 업데이트하는 방법
 
 ## 소개

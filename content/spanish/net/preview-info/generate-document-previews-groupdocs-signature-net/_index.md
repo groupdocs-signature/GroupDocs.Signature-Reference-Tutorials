@@ -4,8 +4,8 @@
 "title": "Generar vistas previas de documentos en archivos con GroupDocs.Signature para .NET&#58; una guía completa"
 "url": "/es/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Genere vistas previas de documentos a partir de archivos con GroupDocs.Signature para .NET
 
 ## Introducción

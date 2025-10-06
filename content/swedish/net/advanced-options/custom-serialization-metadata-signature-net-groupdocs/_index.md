@@ -4,8 +4,8 @@
 "title": "Anpassad serialisering och metadatasökning i .NET med GroupDocs.Signature"
 "url": "/sv/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementera anpassad serialisering och sökning efter metadatasignaturer med GroupDocs.Signature för .NET
 
 ## Introduktion

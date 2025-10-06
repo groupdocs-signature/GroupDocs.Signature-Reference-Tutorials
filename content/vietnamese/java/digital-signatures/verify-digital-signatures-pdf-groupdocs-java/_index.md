@@ -4,8 +4,8 @@
 "title": "Cách xác minh chữ ký số trong tệp PDF bằng GroupDocs.Signature cho Java - Hướng dẫn từng bước"
 "url": "/vi/java/digital-signatures/verify-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách xác minh chữ ký số trong tệp PDF bằng GroupDocs.Signature cho Java: Hướng dẫn từng bước
 
 ## Giới thiệu

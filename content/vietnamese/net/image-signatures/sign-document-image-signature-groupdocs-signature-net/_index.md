@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu bằng chữ ký hình ảnh bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/image-signatures/sign-document-image-signature-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu bằng chữ ký hình ảnh bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

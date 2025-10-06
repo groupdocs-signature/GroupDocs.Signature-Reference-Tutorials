@@ -5,8 +5,8 @@
 "title": "Hoe u teksthandtekeningen uit documenten in .NET verwijdert"
 "url": "/nl/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # Hoe u teksthandtekeningen uit uw documenten verwijdert met GroupDocs.Signature
 
 ## Waarom zou u teksthandtekeningen moeten verwijderen?

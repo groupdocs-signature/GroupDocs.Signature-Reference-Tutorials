@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["barcode-search", "signature-verification", "document-security", "csharp-tutorial"]
+type: docs
 ---
-
 ## Introduction
 
 Ever needed to verify whether your invoices, contracts, or shipping documents contain valid barcode signatures? If you're building document management systems or automating verification workflows, you've probably run into this challenge. Manually checking each document isn't scalable, and you need a reliable way to programmatically search and validate barcode signatures across different file formats.

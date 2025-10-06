@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký PDF trong Java bằng GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký PDF trong Java bằng GroupDocs.Signature
 
 ## Mở khóa sức mạnh của GroupDocs.Signature cho Java: Ký tài liệu PDF liền mạch

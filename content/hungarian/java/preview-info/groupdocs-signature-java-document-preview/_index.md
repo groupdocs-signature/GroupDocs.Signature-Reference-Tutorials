@@ -4,8 +4,8 @@
 "title": "Dokumentum előnézeti generálásának megvalósítása Java nyelven a GroupDocs.Signature segítségével – Átfogó útmutató"
 "url": "/hu/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum előnézeti generálásának megvalósítása Java-ban a GroupDocs.Signature segítségével
 
 ## Bevezetés

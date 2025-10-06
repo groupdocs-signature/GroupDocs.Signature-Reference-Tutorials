@@ -4,8 +4,8 @@
 "title": "Säkra dokument med textvattenstämplar med GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # Så här implementerar du textvattenstämplar i dokument med GroupDocs.Signature för .NET
 
 ## Introduktion

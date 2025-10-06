@@ -4,8 +4,8 @@
 "title": "QR-Codes in Java mit GroupDocs.Signature verschlüsseln und signieren – Ein umfassender Leitfaden"
 "url": "/de/java/qr-code-signatures/encrypt-sign-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # QR-Codes mit GroupDocs.Signature für Java verschlüsseln und signieren
 
 ## Einführung

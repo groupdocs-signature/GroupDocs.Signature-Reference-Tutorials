@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["PDF", "Digital-Signature", "DOCX", "C#", "GroupDocs"]
+type: docs
 ---
-
 # PDF Digital Signature .NET: Sign & Convert to DOCX with C# (2025 Guide)
 
 Need to digitally sign PDFs in your .NET application and convert them to DOCX format? You're in the right place. Managing document workflows can be tricky, especially when you need to maintain security while ensuring compatibility across different file formats.

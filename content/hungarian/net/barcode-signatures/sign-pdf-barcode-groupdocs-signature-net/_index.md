@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása vonalkódokkal a GroupDocs.Signature for .NET használatával – Teljes körű útmutató"
 "url": "/hu/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentumok aláírása vonalkódos aláírással a GroupDocs.Signature for .NET használatával
 
 mai digitális környezetben a dokumentumok hitelességének és integritásának biztosítása kulcsfontosságú. Akár üzleti szakember, akár dokumentumkezelő rendszereken dolgozó fejlesztő, a dokumentumok digitális aláírása extra biztonsági és bizalmi réteget biztosít. A GroupDocs.Signature for .NET segítségével a PDF-ek vonalkódokkal történő aláírása egyszerűvé válik – ez egy sokoldalú funkció, amely javítja a dokumentum-ellenőrzési folyamatokat. Ebben az átfogó útmutatóban bemutatjuk, hogyan valósíthat meg vonalkódos aláírásokat az alkalmazásaiban.

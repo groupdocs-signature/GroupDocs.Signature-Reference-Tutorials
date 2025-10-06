@@ -4,8 +4,8 @@
 "title": "البحث عن توقيعات الصور الرئيسية في المستندات باستخدام GroupDocs for Java - دليل شامل"
 "url": "/ar/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # البحث عن توقيعات الصور الرئيسية في المستندات باستخدام GroupDocs لـ Java: دليل شامل
 
 ## مقدمة

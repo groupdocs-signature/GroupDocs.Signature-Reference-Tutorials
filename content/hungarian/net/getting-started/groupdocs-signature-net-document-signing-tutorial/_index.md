@@ -4,8 +4,8 @@
 "title": "Elektronikus dokumentumaláírás megvalósítása .NET-ben a GroupDocs.Signature segítségével – lépésről lépésre útmutató"
 "url": "/hu/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Elektronikus dokumentumaláírás megvalósítása .NET-ben a GroupDocs.Signature segítségével: lépésről lépésre útmutató
 
 ## Bevezetés

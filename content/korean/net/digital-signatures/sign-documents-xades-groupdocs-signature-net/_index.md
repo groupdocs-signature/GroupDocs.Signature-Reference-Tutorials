@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 XAdES로 문서 서명하기 가이드"
 "url": "/ko/net/digital-signatures/sign-documents-xades-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 XAdES로 문서 서명하기 가이드
 
 ## 소개

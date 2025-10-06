@@ -4,8 +4,8 @@
 "title": "Guide till Java PDF-signaturer – Lägga till text, streckkod, QR-kod och digitala signaturer med GroupDocs.Signature för Java"
 "url": "/sv/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # Guide till hur man implementerar Java PDF-signaturer: Lägga till text, streckkod, QR-kod och digitala signaturer med GroupDocs.Signature för Java
 
 ## Introduktion

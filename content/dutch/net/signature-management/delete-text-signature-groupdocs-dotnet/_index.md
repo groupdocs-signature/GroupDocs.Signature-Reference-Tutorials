@@ -4,8 +4,8 @@
 "title": "Een teksthandtekening uit een document verwijderen met GroupDocs.Signature voor .NET"
 "url": "/nl/net/signature-management/delete-text-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Een teksthandtekening uit een document verwijderen met GroupDocs.Signature voor .NET
 
 ## Invoering

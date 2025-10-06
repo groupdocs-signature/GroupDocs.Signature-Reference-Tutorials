@@ -4,8 +4,8 @@
 "title": "如何在 .NET 中为 GroupDocs.Signature 设置计量许可证——综合指南"
 "url": "/zh/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何在 .NET 中为 GroupDocs.Signature 设置计量许可证：综合指南
 
 ## 介绍

@@ -4,8 +4,8 @@
 "title": "إتقان توقيعات المستندات الرقمية باستخدام GroupDocs لـ Java - دليل شامل"
 "url": "/ar/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # إتقان توقيعات المستندات الرقمية باستخدام GroupDocs لـ Java
 
 ## مقدمة

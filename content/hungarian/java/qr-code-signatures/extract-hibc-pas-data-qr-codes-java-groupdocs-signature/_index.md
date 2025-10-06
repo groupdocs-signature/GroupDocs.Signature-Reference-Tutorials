@@ -4,8 +4,8 @@
 "title": "Hogyan lehet kinyerni a HIBC PAS adatokat QR-kódokból Java és GroupDocs.Signature használatával"
 "url": "/hu/java/qr-code-signatures/extract-hibc-pas-data-qr-codes-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan lehet kinyerni a HIBC PAS adatokat QR-kódokból Java és GroupDocs.Signature használatával
 
 **Bevezetés**

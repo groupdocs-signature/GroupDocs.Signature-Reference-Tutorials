@@ -4,8 +4,8 @@
 "title": "Implementazione di firme di testo personalizzate in .NET con GroupDocs.Signature&#58; una guida completa"
 "url": "/it/net/text-signatures/custom-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Implementazione di firme di testo personalizzate in .NET con GroupDocs.Signature
 
 Nell'era digitale odierna, garantire l'autenticità e l'integrità dei documenti è fondamentale. Che si tratti di contratti, accordi o lettere ufficiali, una firma può fare la differenza. Questa guida completa vi mostrerà come implementare firme testuali personalizzabili utilizzando **GroupDocs.Signature per .NET**, consentendoti di migliorare il flusso di lavoro dei tuoi documenti con precisione e stile.

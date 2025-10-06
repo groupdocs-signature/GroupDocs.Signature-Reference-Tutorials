@@ -4,8 +4,8 @@
 "title": "高效的文档签名管理——使用 GroupDocs.Signature for .NET 搜索表单字段签名"
 "url": "/zh/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 实现高效的文档签名管理
 
 ## 介绍

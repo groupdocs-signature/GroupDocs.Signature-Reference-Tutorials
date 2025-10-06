@@ -4,8 +4,8 @@
 "title": "تنفيذ بحث توقيع رمز الاستجابة السريعة في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/qr-code-signatures/implement-qr-code-signature-search-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ بحث توقيع رمز الاستجابة السريعة في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

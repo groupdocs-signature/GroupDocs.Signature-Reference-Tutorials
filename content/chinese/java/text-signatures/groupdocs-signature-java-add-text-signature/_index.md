@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 向 PDF 添加文本签名"
 "url": "/zh/java/text-signatures/groupdocs-signature-java-add-text-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 向文档添加文本签名
 
 ## 介绍

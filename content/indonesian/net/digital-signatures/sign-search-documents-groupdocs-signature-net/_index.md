@@ -4,8 +4,8 @@
 "title": "Menguasai Tanda Tangan Digital di .NET&#58; Cara Menggunakan GroupDocs.Signature untuk Menandatangani dan Mencari Dokumen"
 "url": "/id/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Tanda Tangan Digital di .NET: Cara Menggunakan GroupDocs.Signature untuk Menandatangani dan Mencari Dokumen
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Så här tar du bort bildsignaturer efter ID med GroupDocs.Signature för .NET"
 "url": "/sv/net/signature-management/delete-image-signatures-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Omfattande guide till att ta bort bildsignaturer efter ID med GroupDocs.Signature för .NET
 
 ## Introduktion

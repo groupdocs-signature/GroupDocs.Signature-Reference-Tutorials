@@ -4,8 +4,8 @@
 "title": "Пользовательская сериализация JSON в .NET с помощью Newtonsoft.Json и GroupDocs.Signature&#58; Полное руководство"
 "url": "/ru/net/advanced-options/custom-json-serialization-newtonsoft-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Полное руководство по пользовательской сериализации JSON в .NET с использованием Newtonsoft.Json и GroupDocs.Signature
 
 ## Введение

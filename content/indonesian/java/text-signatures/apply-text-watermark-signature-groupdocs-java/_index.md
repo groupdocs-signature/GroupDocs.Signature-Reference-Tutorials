@@ -4,8 +4,8 @@
 "title": "Menerapkan Tanda Air Teks Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Tanda Air Teks Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

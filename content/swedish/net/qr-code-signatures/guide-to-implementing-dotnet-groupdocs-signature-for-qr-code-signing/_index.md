@@ -4,8 +4,8 @@
 "title": "Hur man implementerar .NET GroupDocs.Signature för QR-kodsignering i dokument"
 "url": "/sv/net/qr-code-signatures/guide-to-implementing-dotnet-groupdocs-signature-for-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar .NET GroupDocs.Signature för QR-kodsignering
 
 ## Introduktion

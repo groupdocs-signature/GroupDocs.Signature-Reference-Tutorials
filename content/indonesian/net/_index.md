@@ -5,8 +5,8 @@
 "title": "Tutorial & Contoh Lengkap untuk GroupDocs.Signature untuk .NET"
 "url": "/id/net/"
 "weight": 10
+type: docs
 ---
-
 ## Perkenalan
 
 Selamat datang di panduan lengkap GroupDocs.Signature untuk .NET - solusi penandatanganan dokumen canggih yang memungkinkan pengembang menerapkan tanda tangan digital yang aman di berbagai format dokumen. Kumpulan tutorial mendetail dan contoh praktis ini akan membantu Anda memaksimalkan potensi API untuk aplikasi .NET Anda.

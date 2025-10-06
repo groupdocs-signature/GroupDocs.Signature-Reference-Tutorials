@@ -4,8 +4,8 @@
 "title": "เรียนรู้ประวัติกระบวนการเอกสารด้วย GroupDocs.Signature สำหรับ .NET พร้อมคู่มือฉบับสมบูรณ์"
 "url": "/th/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้ประวัติกระบวนการเอกสารด้วย GroupDocs.Signature สำหรับ .NET: คู่มือฉบับสมบูรณ์
 
 ## การแนะนำ

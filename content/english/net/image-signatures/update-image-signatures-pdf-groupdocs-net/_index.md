@@ -9,8 +9,8 @@ weight: 1
 url: "/net/image-signatures/update-image-signatures-pdf-groupdocs-net/"
 categories: ["PDF Processing"]
 tags: ["GroupDocs.Signature", "PDF Management", ".NET Development", "Electronic Signatures"]
+type: docs
 ---
-
 # PDF Signature Management .NET - Update & Modify Image Signatures
 
 ## Introduction

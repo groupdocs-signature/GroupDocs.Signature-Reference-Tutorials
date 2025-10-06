@@ -5,8 +5,8 @@
 "title": "كيفية إزالة توقيعات الصور من المستندات في .NET"
 "url": "/ar/net/delete-operations/delete-image-signature/"
 "weight": 14
+type: docs
 ---
-
 # كيفية إزالة توقيعات الصور من المستندات باستخدام GroupDocs.Signature
 
 ## مقدمة

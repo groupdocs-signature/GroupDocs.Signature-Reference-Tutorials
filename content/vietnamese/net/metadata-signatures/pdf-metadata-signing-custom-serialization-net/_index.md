@@ -4,8 +4,8 @@
 "title": "Ký siêu dữ liệu PDF với tính năng tuần tự hóa tùy chỉnh trong .NET bằng GroupDocs.Signature"
 "url": "/vi/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký siêu dữ liệu PDF với tuần tự hóa tùy chỉnh bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

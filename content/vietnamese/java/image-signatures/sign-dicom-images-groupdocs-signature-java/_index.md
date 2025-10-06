@@ -4,8 +4,8 @@
 "title": "Ký hình ảnh DICOM bằng mã QR và siêu dữ liệu bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/image-signatures/sign-dicom-images-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký hình ảnh DICOM bằng mã QR và siêu dữ liệu bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

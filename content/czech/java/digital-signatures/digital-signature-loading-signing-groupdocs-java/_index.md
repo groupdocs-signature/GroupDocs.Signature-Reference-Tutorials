@@ -4,8 +4,8 @@
 "title": "Jak implementovat načítání a podepisování digitálního podpisu pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat načítání a podepisování digitálního podpisu pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

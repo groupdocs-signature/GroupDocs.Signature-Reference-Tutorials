@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 문서에서 QR 코드 서명 검색 마스터하기"
 "url": "/ko/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 문서 검색 마스터하기: .NET용 GroupDocs.Signature를 사용하여 EPC 데이터로 QR 코드 서명 찾기
 
 ## 소개

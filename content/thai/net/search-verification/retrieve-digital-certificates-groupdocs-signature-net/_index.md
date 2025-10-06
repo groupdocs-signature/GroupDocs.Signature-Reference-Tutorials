@@ -4,8 +4,8 @@
 "title": "ดึงข้อมูลใบรับรองดิจิทัลจากคลังข้อมูลโดยใช้ GroupDocs.Signature สำหรับ .NET | คู่มือทีละขั้นตอน"
 "url": "/th/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # ดึงข้อมูลใบรับรองดิจิทัลจากไฟล์เก็บถาวรโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

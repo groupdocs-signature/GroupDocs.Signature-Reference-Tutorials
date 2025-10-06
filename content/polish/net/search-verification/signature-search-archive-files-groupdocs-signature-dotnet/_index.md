@@ -4,8 +4,8 @@
 "title": "Efektywne wyszukiwanie podpisów w plikach archiwalnych przy użyciu GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Efektywne wyszukiwanie podpisów w plikach archiwalnych przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

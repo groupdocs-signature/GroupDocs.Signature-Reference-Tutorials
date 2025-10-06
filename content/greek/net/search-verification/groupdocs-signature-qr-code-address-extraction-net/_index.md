@@ -4,8 +4,8 @@
 "title": "Εξαγωγή υπογραφών QR Code με δεδομένα διευθύνσεων χρησιμοποιώντας το GroupDocs.Signature για .NET | Αυτοματοποίηση ψηφιακών υπογραφών"
 "url": "/el/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # Εξαγωγή υπογραφών κώδικα QR με δεδομένα διευθύνσεων χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

@@ -5,8 +5,8 @@
 "title": "Extrahieren Sie Präsentationsmetadaten einfach mit GroupDocs.Signature"
 "url": "/de/net/document-metadata-extraction/search-presentation-metadata-extraction/"
 "weight": 12
+type: docs
 ---
-
 # So extrahieren Sie Metadaten aus Präsentationen mit GroupDocs.Signature
 
 ## Warum Präsentationsmetadaten für Ihre Projekte wichtig sind

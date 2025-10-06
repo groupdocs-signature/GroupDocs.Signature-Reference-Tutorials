@@ -5,8 +5,8 @@
 "title": "Thêm chữ ký siêu dữ liệu vào bảng tính Excel trong C# .NET"
 "url": "/vi/net/document-signing/sign-spreadsheet-with-metadata/"
 "weight": 13
+type: docs
 ---
-
 ## Giới thiệu
 
 Bảng tính Excel thường chứa dữ liệu kinh doanh quan trọng, thông tin tài chính và các phép tính quan trọng. Việc đảm bảo tính xác thực, truy xuất nguồn gốc và bảo vệ tính toàn vẹn của chúng là rất quan trọng trong nhiều môi trường chuyên nghiệp. Một cách tiếp cận hiệu quả để tăng cường bảo mật và khả năng truy xuất nguồn gốc của bảng tính là nhúng chữ ký siêu dữ liệu.

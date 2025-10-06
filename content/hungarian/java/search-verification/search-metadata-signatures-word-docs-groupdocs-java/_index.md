@@ -4,8 +4,8 @@
 "title": "Metaadat-aláírások keresése Word-dokumentumokban a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/search-verification/search-metadata-signatures-word-docs-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Metaadat-aláírások keresése Word-dokumentumokban a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

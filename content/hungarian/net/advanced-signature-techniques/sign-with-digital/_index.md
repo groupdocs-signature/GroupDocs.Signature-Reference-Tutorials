@@ -5,8 +5,8 @@
 "title": ".NET-dokumentumok digitális aláírással való védelme | Teljes útmutató"
 "url": "/hu/net/advanced-signature-techniques/sign-with-digital/"
 "weight": 12
+type: docs
 ---
-
 ## Miért fontosak a digitális aláírások a modern dokumentumkezelésben?
 
 mai digitális világban az elektronikus dokumentumok hitelességének és integritásának biztosítása nem csupán bevált gyakorlat, hanem elengedhetetlen. A digitális aláírások biztosítják a biztonság kulcsfontosságú rétegét, tudatva a címzettekkel, hogy a dokumentum legitimitását az aláírás óta nem módosították.

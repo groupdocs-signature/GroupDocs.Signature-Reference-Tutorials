@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Javaを使用してテキストステッカーでPDFに署名する方法 - 完全ガイド"
 "url": "/ja/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用してテキストステッカーで PDF に署名する方法: 完全ガイド
 
 ## 導入

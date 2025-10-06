@@ -4,8 +4,8 @@
 "title": "ลงนามใน PDF ด้วยรหัส QR และข้อมูลเมตาเหตุการณ์โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # ลงนาม PDF ด้วยรหัส QR และเมตาข้อมูลเหตุการณ์โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

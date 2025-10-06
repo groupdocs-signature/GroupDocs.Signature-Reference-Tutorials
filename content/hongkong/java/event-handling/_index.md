@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 事件處理與流程管理教程"
 "url": "/zh-hant/java/event-handling/"
 "weight": 15
+type: docs
 ---
-
 # GroupDocs.Signature Java 事件處理與流程管理教程
 
 我們的事件處理和流程管理教學課程示範如何使用 GroupDocs.Signature 在 Java 中建立響應式簽章應用程式。這些逐步指南涵蓋了訂閱簽章事件、實現搜尋和簽章操作的取消、處理異常以及監控處理狀態。每個教程都包含詳細的 Java 程式碼範例，用於實現正確的事件處理，幫助您建立強大的應用程序，提供更好的用戶回饋、錯誤處理和對簽名操作的控制。

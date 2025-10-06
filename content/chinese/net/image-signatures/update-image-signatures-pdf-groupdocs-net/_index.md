@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 更新 PDF 中的图像签名"
 "url": "/zh/net/image-signatures/update-image-signatures-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 更新 PDF 中的图像签名
 
 ## 介绍

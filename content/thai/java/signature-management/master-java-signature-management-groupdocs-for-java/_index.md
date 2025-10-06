@@ -4,8 +4,8 @@
 "title": "เชี่ยวชาญการจัดการลายเซ็น Java ด้วย GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/signature-management/master-java-signature-management-groupdocs-for-java/"
 "weight": 1
+type: docs
 ---
-
 # เรียนรู้การจัดการลายเซ็น Java ด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

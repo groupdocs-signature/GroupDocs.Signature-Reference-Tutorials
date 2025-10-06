@@ -4,8 +4,8 @@
 "title": "Průvodce ověřováním certifikátů Java pomocí GroupDocs.Signature pro bezpečné ověřování dokumentů"
 "url": "/cs/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementace ověřování certifikátů Java pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

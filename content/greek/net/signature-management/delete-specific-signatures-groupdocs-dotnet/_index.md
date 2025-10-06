@@ -4,8 +4,8 @@
 "title": "Πώς να διαγράψετε συγκεκριμένες υπογραφές σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET | Οδηγός διαχείρισης υπογραφών"
 "url": "/el/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να διαγράψετε συγκεκριμένες υπογραφές σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Comment signer des documents avec un tampon texte à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer des documents avec un tampon texte à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

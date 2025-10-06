@@ -4,8 +4,8 @@
 "title": "Så här signerar du PDF-filer digitalt med GroupDocs.Signature för Java"
 "url": "/sv/java/digital-signatures/digitally-sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Så här signerar du PDF-filer digitalt med GroupDocs.Signature för Java
 
 ## Introduktion

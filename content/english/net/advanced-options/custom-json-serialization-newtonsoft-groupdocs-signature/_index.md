@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["NET Development"]
 tags: ["json-serialization", "newtonsoft-json", "groupdocs-signature", "dotnet-tutorial"]
+type: docs
 ---
-
 # How to Create Custom JSON Serialization Attributes in .NET Using Newtonsoft.Json and GroupDocs.Signature
 
 ## Why Custom JSON Serialization Matters in .NET Development

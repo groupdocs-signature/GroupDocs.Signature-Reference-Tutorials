@@ -3,8 +3,8 @@
 "title": "Tutoriels sur la protection des documents pour GroupDocs.Signature Java"
 "url": "/fr/java/document-protection/"
 "weight": 16
+type: docs
 ---
-
 # Tutoriels sur la protection des documents pour GroupDocs.Signature Java
 
 Apprenez à sécuriser vos documents grâce à nos tutoriels GroupDocs.Signature pour Java. Ces guides complets expliquent comment gérer les documents protégés par mot de passe, ajouter une protection par mot de passe aux fichiers de sortie, gérer les exceptions de sécurité et mettre en œuvre une gestion des erreurs appropriée. Chaque tutoriel fournit des exemples pratiques de code Java pour des scénarios courants de protection de documents, vous aidant à créer des applications qui préservent la confidentialité et l'intégrité des documents tout au long du processus de signature.

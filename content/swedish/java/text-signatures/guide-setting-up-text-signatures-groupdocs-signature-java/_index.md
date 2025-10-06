@@ -4,8 +4,8 @@
 "title": "Omfattande guide för att konfigurera textsignaturer med GroupDocs.Signature för Java"
 "url": "/sv/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Omfattande guide för att konfigurera textsignaturer med GroupDocs.Signature för Java
 
 ## Introduktion

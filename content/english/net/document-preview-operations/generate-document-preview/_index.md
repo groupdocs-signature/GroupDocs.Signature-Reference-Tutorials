@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["document-preview", "dotnet-api", "pdf-thumbnails", "document-management"]
+type: docs
 ---
-
 # Document Preview .NET: How to Generate Thumbnails That Actually Work
 
 ## Stop Making Users Wait - Show Document Previews Instantly

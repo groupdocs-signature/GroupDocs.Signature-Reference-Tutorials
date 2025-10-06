@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 實作和顯示文件簽章－綜合指南"
 "url": "/zh-hant/net/digital-signatures/implement-document-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 實作和顯示文件簽名
 
 ## 介紹

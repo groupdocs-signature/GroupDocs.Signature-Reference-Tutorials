@@ -4,8 +4,8 @@
 "title": "Opanuj zarządzanie podpisami Java dzięki GroupDocs.Signature dla Java"
 "url": "/pl/java/signature-management/master-java-signature-management-groupdocs-for-java/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie zarządzania podpisami Java za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "マスター GroupDocs.Signature for .NET&#58; ドキュメント署名の管理と削除"
 "url": "/ja/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した .NET での署名管理の習得
 
 ## 導入

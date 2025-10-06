@@ -3,8 +3,8 @@
 "title": "Tutoriais de opções avançadas de assinatura para GroupDocs.Signature Java"
 "url": "/pt/java/advanced-options/"
 "weight": 14
+type: docs
 ---
-
 # Tutoriais de opções avançadas de assinatura para GroupDocs.Signature Java
 
 Explore recursos avançados de assinatura com nossos tutoriais abrangentes do GroupDocs.Signature para desenvolvedores Java. Estes guias detalhados abordam a implementação de criptografia personalizada, serialização especializada, configurações complexas de aparência, pincéis e gradientes personalizados, posicionamento com diversas unidades de medida, opções de alinhamento e modos de alongamento. Cada tutorial fornece exemplos práticos de código Java para funcionalidades sofisticadas de assinatura, ajudando você a criar soluções de documentos que aproveitam ao máximo os recursos avançados do GroupDocs.Signature para implementações de assinatura de documentos altamente personalizadas e seguras.

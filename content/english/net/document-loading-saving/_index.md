@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["groupdocs-signature", "document-loading", "dotnet", "azure-storage", "file-processing"]
+type: docs
 ---
-
 # GroupDocs Signature .NET Document Loading - Complete Tutorial
 
 When you're building document management applications in .NET, one of the biggest challenges you'll face is handling documents from various sources efficiently. Whether you need to load files from local storage, cloud platforms like Azure Blob Storage, or even remote FTP servers, GroupDocs.Signature for .NET provides the flexibility you need to streamline your document processing workflow.

@@ -4,8 +4,8 @@
 "title": "تأمين المستندات باستخدام العلامات المائية النصية باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ العلامات المائية النصية في المستندات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

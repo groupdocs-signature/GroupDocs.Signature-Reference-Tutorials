@@ -4,8 +4,8 @@
 "title": "Generera förhandsvisning av digitala PDF-signaturer med GroupDocs.Signature för .NET | Omfattande guide"
 "url": "/sv/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man genererar en förhandsvisning av en digital PDF-signatur med GroupDocs.Signature för .NET
 
 ## Introduktion

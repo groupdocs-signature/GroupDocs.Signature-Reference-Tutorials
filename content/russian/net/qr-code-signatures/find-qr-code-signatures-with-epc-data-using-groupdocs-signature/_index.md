@@ -4,8 +4,8 @@
 "title": "Освоение поиска подписей по QR-коду в документах с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Освоение поиска документов: поиск подписей QR-кодов с данными EPC с помощью GroupDocs.Signature для .NET
 
 ## Введение

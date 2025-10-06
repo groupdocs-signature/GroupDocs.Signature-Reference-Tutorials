@@ -5,8 +5,8 @@
 "title": "Handtekeningen verwijderen op basis van ID in .NET-documenten"
 "url": "/nl/net/delete-operations/delete-signature-by-id/"
 "weight": 11
+type: docs
 ---
-
 # Handtekeningen verwijderen op basis van ID in .NET-documenten
 
 ## Waarom zou u handtekeningen uit documenten moeten verwijderen?

@@ -8,10 +8,8 @@ keywords:
 - sign Excel spreadsheets with QR codes in Java
 - GroupDocs.Signature for Java
 - QR code signatures
-
+type: docs
 ---
-
-
 # Sign & Save Excel Spreadsheets with QR Codes in Java Using GroupDocs.Signature
 
 ## Introduction

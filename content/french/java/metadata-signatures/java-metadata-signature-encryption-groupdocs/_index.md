@@ -4,8 +4,8 @@
 "title": "Sécuriser les documents Java avec signature et cryptage des métadonnées à l'aide de GroupDocs"
 "url": "/fr/java/metadata-signatures/java-metadata-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Sécuriser les documents Java avec signature et cryptage des métadonnées à l'aide de GroupDocs
 
 ## Introduction

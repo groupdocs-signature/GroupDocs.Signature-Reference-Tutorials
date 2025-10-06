@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके .NET में मेटाडेटा खोज कैसे लागू करें - एक चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/net/metadata-signatures/implement-metadata-search-net-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके .NET में मेटाडेटा खोज कैसे लागू करें: एक चरण-दर-चरण मार्गदर्शिका
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "掌握 GroupDocs.Signature for Java&#58; 使用 Base64 影像簽署文檔"
 "url": "/zh-hant/java/image-signatures/groupdocs-signature-java-base64-image/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 和 Base64 編碼影像對主文檔進行簽名
 
 ## 介紹

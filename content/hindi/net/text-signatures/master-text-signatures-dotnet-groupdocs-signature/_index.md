@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ .NET में टेक्स्ट हस्ताक्षर कैसे लागू करें - एक व्यापक गाइड"
 "url": "/hi/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ .NET में टेक्स्ट हस्ताक्षर कैसे लागू करें: एक व्यापक मार्गदर्शिका
 
 ## परिचय

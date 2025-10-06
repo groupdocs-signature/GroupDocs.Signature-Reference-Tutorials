@@ -4,8 +4,8 @@
 "title": "Implementasi Penandatanganan Dokumen dengan Kode QR Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/qr-code-signatures/qr-code-signing-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Penandatanganan Dokumen dengan Kode QR Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

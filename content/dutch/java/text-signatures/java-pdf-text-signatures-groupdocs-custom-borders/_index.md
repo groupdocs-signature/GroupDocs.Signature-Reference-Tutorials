@@ -4,8 +4,8 @@
 "title": "Java PDF-teksthandtekeningen met aangepaste randen met GroupDocs.Signature voor Java"
 "url": "/nl/java/text-signatures/java-pdf-text-signatures-groupdocs-custom-borders/"
 "weight": 1
+type: docs
 ---
-
 # Java PDF-teksthandtekeningen met aangepaste randen onder de knie krijgen met GroupDocs.Signature
 
 In het huidige digitale tijdperk is het garanderen van de authenticiteit van documenten cruciaal voor zowel bedrijven als particulieren. Met de opkomst van elektronische documenten worden traditionele ondertekeningsmethoden vervangen door efficiëntere en veiligere oplossingen zoals teksthandtekeningen in pdf's. Wilt u uw pdf-documenten een professionele uitstraling geven met teksthandtekeningen in een aangepaste stijl met GroupDocs.Signature voor Java? Dan bent u bij ons aan het juiste adres.

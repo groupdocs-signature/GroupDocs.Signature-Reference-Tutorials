@@ -4,8 +4,8 @@
 "title": "Excluir assinaturas digitais em PDFs usando o GroupDocs.Signature para .NET - Um guia completo"
 "url": "/pt/net/signature-management/delete-digital-signature-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Excluir assinaturas digitais em PDFs usando GroupDocs.Signature para .NET
 
 ## Introdução

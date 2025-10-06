@@ -4,8 +4,8 @@
 "title": "كيفية توقيع المستندات باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/digital-signatures/groupdocs-signature-java-document-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع المستندات باستخدام GroupDocs.Signature لـ Java: دليل شامل
 
 ## مقدمة

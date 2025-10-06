@@ -4,8 +4,8 @@
 "title": "QR-codes bijwerken in .NET met GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/net/qr-code-signatures/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # QR-codes bijwerken in .NET met GroupDocs.Signature: een uitgebreide handleiding
 
 ## Invoering

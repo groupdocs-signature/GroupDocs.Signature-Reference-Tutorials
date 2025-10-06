@@ -4,8 +4,8 @@
 "title": "Digitális aláírások megvalósítása PDF-ekben a GroupDocs.Signature for Java használatával – Átfogó útmutató"
 "url": "/hu/java/digital-signatures/implement-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírások megvalósítása PDF-ekben a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

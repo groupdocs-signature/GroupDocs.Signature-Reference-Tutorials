@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng siêu dữ liệu và mã hóa bằng GroupDocs.Signature cho .NET | Hướng dẫn bảo vệ tài liệu an toàn"
 "url": "/vi/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF bằng siêu dữ liệu và mã hóa bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

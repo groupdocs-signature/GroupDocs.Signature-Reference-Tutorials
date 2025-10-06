@@ -4,8 +4,8 @@
 "title": "Wyodrębnianie metadanych PDF za pomocą GroupDocs.Signature dla Java – kompleksowy przewodnik"
 "url": "/pl/java/preview-info/extract-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Wyodrębnianie metadanych PDF za pomocą GroupDocs.Signature dla Java: kompleksowy przewodnik
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Implementar assinaturas digitais no .NET - Guia de integração de código de barras e código QR"
 "url": "/pt/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar assinaturas digitais em .NET: assinatura de código de barras e código QR com GroupDocs.Signature
 
 Na era digital atual, autenticar documentos com rapidez e segurança é mais importante do que nunca. Seja você um desenvolvedor trabalhando em um aplicativo corporativo ou apenas buscando otimizar seu processo de gerenciamento de documentos, adicionar assinaturas pode ser transformador. Este tutorial orienta você no uso **GroupDocs.Signature para .NET** para assinar documentos digitalmente com assinaturas de código de barras e QR code, oferecendo soluções robustas para documentação segura.

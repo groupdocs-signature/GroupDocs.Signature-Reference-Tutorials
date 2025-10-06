@@ -4,8 +4,8 @@
 "title": "Jak usunąć podpisy obrazów według identyfikatora za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/signature-management/delete-image-signatures-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Kompleksowy przewodnik usuwania podpisów obrazów według identyfikatora za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

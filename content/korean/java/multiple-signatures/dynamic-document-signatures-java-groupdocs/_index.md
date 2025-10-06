@@ -4,8 +4,8 @@
 "title": "Java에서 동적 문서 서명 사용하기&#58; 전자 서명을 위한 GroupDocs.Signature 마스터하기"
 "url": "/ko/java/multiple-signatures/dynamic-document-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs를 사용하여 Java로 동적 문서 서명 만들기
 
 오늘날처럼 빠르게 변화하는 디지털 세상에서 효율적인 전자 서명의 필요성은 그 어느 때보다 중요합니다. 계약 승인을 간소화하려는 비즈니스 전문가든 개인 문서를 관리하는 개인이든, 전자 서명은 속도와 편의성을 제공합니다. 이 튜토리얼에서는 GroupDocs.Signature for Java를 사용하여 동적 텍스트 및 바코드 이미지 서명을 만드는 방법을 안내합니다. 스트레치 모드를 활용하면 서명이 전체 페이지에 걸쳐 자연스럽게 조정되어 일관성과 가독성을 보장합니다.

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: [".NET Development"]
 tags: ["barcode-signing", "document-security", "groupdocs", "pdf-automation"]
+type: docs
 ---
-
 # Complete .NET Barcode Signing Tutorial with GroupDocs.Signature
 
 Ever wondered how major companies secure their digital documents with those tiny, data-packed barcodes? You're about to discover the exact process. This **dotnet barcode signing tutorial** will walk you through implementing professional-grade barcode authentication using GroupDocs.Signature for .NET.

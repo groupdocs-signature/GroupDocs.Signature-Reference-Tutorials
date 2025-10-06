@@ -4,8 +4,8 @@
 "title": "PDF-digitale handtekeningen in Java onder de knie krijgen met GroupDocs. Handtekening voor tekst, selectievakjes en digitale velden"
 "url": "/nl/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF-digitale handtekeningen in Java onder de knie krijgen: GroupDocs.Signature gebruiken voor tekst, selectievakjes en digitale velden
 
 ## Invoering

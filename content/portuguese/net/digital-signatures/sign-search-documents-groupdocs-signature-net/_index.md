@@ -4,8 +4,8 @@
 "title": "Domine as assinaturas digitais no .NET - Como usar o GroupDocs.Signature para assinar e pesquisar documentos"
 "url": "/pt/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Domine as assinaturas digitais no .NET: como usar o GroupDocs.Signature para assinar e pesquisar documentos
 
 ## Introdução

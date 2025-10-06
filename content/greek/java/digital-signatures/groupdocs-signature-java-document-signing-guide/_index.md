@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για Java - Ένας πλήρης οδηγός"
 "url": "/el/java/digital-signatures/groupdocs-signature-java-document-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για Java: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

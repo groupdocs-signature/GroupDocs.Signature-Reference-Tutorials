@@ -4,8 +4,8 @@
 "title": "تنفيذ توقيع رمز الاستجابة السريعة وتحويل PDF في Java باستخدام واجهة برمجة تطبيقات GroupDocs.Signature"
 "url": "/ar/java/qr-code-signatures/java-signature-api-groupdocs-qr-codes-pdf-conversion/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ توقيع رمز الاستجابة السريعة وتحويل PDF في Java باستخدام واجهة برمجة تطبيقات GroupDocs.Signature
 
 ## مقدمة

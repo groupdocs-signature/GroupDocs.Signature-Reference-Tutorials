@@ -4,8 +4,8 @@
 "title": "使用 Newtonsoft.Json 和 GroupDocs.Signature 在 .NET 中自定义 JSON 序列化——完整指南"
 "url": "/zh/net/advanced-options/custom-json-serialization-newtonsoft-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 Newtonsoft.Json 和 GroupDocs.Signature 在 .NET 中自定义 JSON 序列化的综合指南
 
 ## 介绍

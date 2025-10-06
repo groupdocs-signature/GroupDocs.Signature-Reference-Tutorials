@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した .NET でのカスタム テキスト署名の実装 - 総合ガイド"
 "url": "/ja/net/text-signatures/custom-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して .NET でカスタム テキスト署名を実装する
 
 今日のデジタル時代において、文書の真正性と完全性を確保することは極めて重要です。契約書、合意書、公文書など、署名は文書の真正性と完全性を大きく左右します。この包括的なガイドでは、カスタマイズ可能なテキスト署名を実装する方法をご紹介します。 **.NET 用 GroupDocs.Signature**ドキュメントのワークフローを正確かつスタイリッシュに強化できます。

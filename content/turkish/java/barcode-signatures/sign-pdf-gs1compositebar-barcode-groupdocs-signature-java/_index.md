@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak GS1 Kompozit Barkodlarla PDF'leri İmzalayın"
 "url": "/tr/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak GS1 Kompozit Barkodlarıyla PDF Nasıl İmzalanır?
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Hướng dẫn về chữ ký Java Stamp - Cách ký PDF bằng API GroupDocs.Signature"
 "url": "/vi/java/image-signatures/java-groupdocs-signature-stamp-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn về chữ ký Java Stamp: Ký tài liệu PDF bằng API GroupDocs.Signature
 
 Trong bối cảnh kỹ thuật số ngày nay, việc ký tài liệu hiệu quả và an toàn là vô cùng quan trọng đối với cả doanh nghiệp và cá nhân. Cho dù bạn đang ủy quyền hợp đồng hay xác minh tài liệu, việc đảm bảo tính xác thực kỹ thuật số có thể giúp tiết kiệm thời gian và nguồn lực. Hướng dẫn toàn diện này sẽ hướng dẫn bạn sử dụng GroupDocs.Signature for Java API để ký tài liệu PDF bằng chữ ký đóng dấu tùy chỉnh. Bằng cách làm theo quy trình từng bước này, bạn sẽ học cách thêm dòng ngoài và dòng trong với văn bản, kiểu phông chữ, màu sắc và vị trí cụ thể.

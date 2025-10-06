@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 對包含元資料的 Word 文件進行簽署 | 逐步指南"
 "url": "/zh-hant/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 對具有元資料的 Word 文件進行簽名
 
 ## 介紹

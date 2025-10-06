@@ -3,8 +3,8 @@
 "title": "Tutorial sulla firma dei campi modulo per GroupDocs.Signature .NET"
 "url": "/it/net/form-field-signatures/"
 "weight": 8
+type: docs
 ---
-
 # Tutorial sulla firma dei campi modulo per GroupDocs.Signature .NET
 
 Padroneggia le firme dei campi modulo PDF con i nostri tutorial dettagliati GroupDocs.Signature per sviluppatori .NET. Queste guide dettagliate illustrano come lavorare con i campi modulo standard, creare e gestire campi combobox, implementare gruppi di pulsanti di opzione e utilizzare i campi modulo per la firma dei documenti. Ogni tutorial fornisce esempi pratici di codice C# per le operazioni sui campi modulo, aiutandoti a creare documenti PDF interattivi con campi modulo compilabili in grado di raccogliere e convalidare l'input dell'utente, mantenendo al contempo l'integrità del documento.

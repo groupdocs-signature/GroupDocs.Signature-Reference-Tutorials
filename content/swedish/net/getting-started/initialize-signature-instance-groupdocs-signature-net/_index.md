@@ -4,8 +4,8 @@
 "title": "Initiera signaturinstans med GroupDocs.Signature för .NET - En omfattande guide"
 "url": "/sv/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Initiera signaturinstans med GroupDocs.Signature för .NET
 
 ## Introduktion

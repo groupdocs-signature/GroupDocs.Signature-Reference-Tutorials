@@ -8,10 +8,8 @@ keywords:
 - sign Word documents with text as image
 - digital signature in Java
 - GroupDocs.Signature for Java setup
-
+type: docs
 ---
-
-
 # How to Digitally Sign Word Documents with Text as an Image Using GroupDocs.Signature for Java
 
 ## Introduction

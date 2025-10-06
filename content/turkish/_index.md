@@ -6,8 +6,8 @@
 "title": "GroupDocs.Signature - .NET ve Java için Dijital Belge İmzalama API'si | Eksiksiz Eğitim Kılavuzu"
 "url": "/tr/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature: Geliştiriciler için Eksiksiz Dijital Belge İmzalama Çözümü
 
 ![GroupDocs.Signature Banner](./groupdocs-signature-net.svg)

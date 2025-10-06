@@ -4,8 +4,8 @@
 "title": "Como implementar assinaturas de código QR em documentos Java usando GroupDocs.Signature"
 "url": "/pt/java/qr-code-signatures/groupdocs-signature-java-qr-code-signature/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar assinaturas de código QR em documentos Java usando GroupDocs.Signature
 
 ## Introdução

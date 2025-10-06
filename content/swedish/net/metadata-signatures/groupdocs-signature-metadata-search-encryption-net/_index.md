@@ -4,8 +4,8 @@
 "title": "Implementera metadatasignatursökning med kryptering med GroupDocs för .NET"
 "url": "/sv/net/metadata-signatures/groupdocs-signature-metadata-search-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Omfattande guide: Implementera metadatasignatursökning med kryptering med GroupDocs.Signature för .NET
 
 ## Introduktion

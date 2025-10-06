@@ -4,8 +4,8 @@
 "title": "Java 中的二維碼搜尋和加密及其 Master GroupDocs.Signature 用於安全文件處理"
 "url": "/zh-hant/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Java 中的二維碼搜尋與加密：掌握 GroupDocs.Signature 的安全文件處理
 
 ## 介紹

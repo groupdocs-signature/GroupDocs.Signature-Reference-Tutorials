@@ -4,8 +4,8 @@
 "title": "Onderteken PDF's met QR-code en gebeurtenismetagegevens met GroupDocs.Signature voor .NET"
 "url": "/nl/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Onderteken PDF's met QR-code en gebeurtenismetagegevens met GroupDocs.Signature voor .NET
 
 ## Invoering

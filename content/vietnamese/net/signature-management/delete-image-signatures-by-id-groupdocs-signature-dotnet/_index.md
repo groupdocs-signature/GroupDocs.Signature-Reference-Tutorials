@@ -4,8 +4,8 @@
 "title": "Cách xóa chữ ký hình ảnh theo ID bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/signature-management/delete-image-signatures-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn toàn diện về cách xóa chữ ký hình ảnh theo ID bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

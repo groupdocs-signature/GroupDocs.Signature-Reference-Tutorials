@@ -4,8 +4,8 @@
 "title": "QR-kód aláírás-keresésének megvalósítása többrétegű képekben Java és GroupDocs.Signature használatával"
 "url": "/hu/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírás-keresés megvalósítása többrétegű képdokumentumokban a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

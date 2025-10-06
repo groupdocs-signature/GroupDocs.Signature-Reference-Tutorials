@@ -4,8 +4,8 @@
 "title": "Hogyan valósítsunk meg szöveges aláíráskeresést PDF-ekben a GroupDocs.Signature for Java használatával?"
 "url": "/hu/java/search-verification/implement-search-text-signatures-groupdocs-java-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan valósítsunk meg szöveges aláíráskeresést PDF-ekben a GroupDocs.Signature for Java használatával?
 
 ## Bevezetés

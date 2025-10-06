@@ -4,8 +4,8 @@
 "title": "Cómo firmar documentos con códigos QR HIBC usando GroupDocs.Signature para .NET&#58; una guía completa"
 "url": "/es/net/qr-code-signatures/sign-documents-hibc-qr-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar documentos con códigos QR HIBC usando GroupDocs.Signature para .NET
 
 ## Introducción

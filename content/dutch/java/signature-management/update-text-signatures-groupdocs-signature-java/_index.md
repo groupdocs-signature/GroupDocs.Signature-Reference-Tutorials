@@ -4,8 +4,8 @@
 "title": "Hoe u teksthandtekeningen in PDF's kunt bijwerken met GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/signature-management/update-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Teksthandtekeningen in PDF's bijwerken met GroupDocs.Signature voor Java
 ## Invoering
 Het programmatisch bijwerken van teksthandtekeningen in documenten kan een uitdaging zijn, vooral als u documentworkflows wilt stroomlijnen of het beheer van handtekeningen wilt automatiseren. **GroupDocs.Signature voor Java** biedt hiervoor een krachtige oplossing. Deze uitgebreide handleiding begeleidt u bij het initialiseren en zoeken naar teksthandtekeningen, het aanpassen van hun eigenschappen en het bijwerken ervan in PDF's.

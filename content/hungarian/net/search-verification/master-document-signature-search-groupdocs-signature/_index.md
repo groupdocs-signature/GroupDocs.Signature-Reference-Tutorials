@@ -4,8 +4,8 @@
 "title": "Fődokumentum-aláírás-keresés a GroupDocs.Signature segítségével .NET QR-kód és WiFi-adatok kinyeréséhez"
 "url": "/hu/net/search-verification/master-document-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum aláírás keresésének elsajátítása a GroupDocs.Signature for .NET segítségével
 
 A mai digitális környezetben a hatékony dokumentumkezelés és -ellenőrzés kulcsfontosságú a vállalkozások számára a különböző ágazatokban. Gyakori kihívás a dokumentumokban adott aláírások, például WiFi-adatokat tartalmazó QR-kód aláírások keresése. Ez az átfogó útmutató végigvezeti Önt egy olyan funkció megvalósításán, amely WiFi-információkat tartalmazó QR-kód aláírások keresésére szolgál a GroupDocs.Signature for .NET használatával.

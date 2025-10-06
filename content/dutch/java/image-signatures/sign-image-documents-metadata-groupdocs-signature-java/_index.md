@@ -4,8 +4,8 @@
 "title": "Onderteken afbeeldingen van documenten met metagegevens met GroupDocs.Signature voor Java&#58; een complete gids"
 "url": "/nl/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u afbeeldingsdocumenten met metagegevens ondertekent met GroupDocs.Signature voor Java
 
 ## Invoering

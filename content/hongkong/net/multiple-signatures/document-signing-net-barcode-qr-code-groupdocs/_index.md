@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 掌握 .NET 中的文件簽名及其條碼和二維碼簽名"
 "url": "/zh-hant/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 .NET 中的文件簽章：使用 GroupDocs.Signature 實作條碼和二維碼簽名
 
 ## 介紹

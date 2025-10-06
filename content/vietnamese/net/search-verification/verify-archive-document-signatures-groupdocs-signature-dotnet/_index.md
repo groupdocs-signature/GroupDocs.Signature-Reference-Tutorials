@@ -4,8 +4,8 @@
 "title": "Cách xác minh chữ ký tài liệu trong kho lưu trữ bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách xác minh chữ ký tài liệu trong kho lưu trữ bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

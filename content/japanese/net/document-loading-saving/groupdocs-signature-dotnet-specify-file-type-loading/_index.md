@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET でファイルタイプ別にドキュメントを読み込む方法 包括的なガイド"
 "url": "/ja/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でファイルの種類別にドキュメントを読み込む方法
 
 ## 導入

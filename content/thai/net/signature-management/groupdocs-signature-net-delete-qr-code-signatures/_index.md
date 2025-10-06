@@ -4,8 +4,8 @@
 "title": "วิธีการลบลายเซ็น QR-Code ตาม ID โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/signature-management/groupdocs-signature-net-delete-qr-code-signatures/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลบลายเซ็น QR-Code ตาม ID โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

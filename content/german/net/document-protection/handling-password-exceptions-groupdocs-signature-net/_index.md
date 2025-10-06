@@ -4,8 +4,8 @@
 "title": "Umgang mit Kennwortausnahmen in GroupDocs.Signature für .NET – Ein umfassender Leitfaden"
 "url": "/de/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Umgang mit Kennwortausnahmen in GroupDocs.Signature für .NET
 
 ## Einführung

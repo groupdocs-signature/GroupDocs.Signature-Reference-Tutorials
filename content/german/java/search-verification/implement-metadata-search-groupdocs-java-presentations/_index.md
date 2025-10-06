@@ -4,8 +4,8 @@
 "title": "So implementieren Sie die Metadatensuche in Java-Präsentationen mit GroupDocs.Signature"
 "url": "/de/java/search-verification/implement-metadata-search-groupdocs-java-presentations/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie die Metadatensuche in Java-Präsentationen mit GroupDocs.Signature
 
 ## Einführung

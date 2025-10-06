@@ -4,8 +4,8 @@
 "title": "Optimalizace vyhledávání dokumentů pomocí GroupDocs.Signature pro .NET a implementace obslužných rutin událostí průběhu"
 "url": "/cs/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # Optimalizace vyhledávání dokumentů pomocí GroupDocs.Signature pro .NET: Implementace obslužných rutin událostí průběhu
 
 ## Zavedení

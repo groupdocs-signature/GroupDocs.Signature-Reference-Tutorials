@@ -4,8 +4,8 @@
 "title": "ドキュメントを保護する - GroupDocs.Signature を使用して Java で QR コード署名を実装する"
 "url": "/ja/java/qr-code-signatures/qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # ドキュメントのセキュリティ確保: GroupDocs.Signature を使用して Java で QR コード署名を実装する
 
 今日のデジタル環境において、契約書、請求書、個人情報といった文書のセキュリティ確保は極めて重要です。文書のセキュリティを強化し、検証プロセスを簡素化する革新的なアプローチの一つが、QRコード署名の利用です。このチュートリアルでは、GroupDocs.Signatureを用いてJavaで文書にQRコード署名を実装し、検証する方法を説明します。

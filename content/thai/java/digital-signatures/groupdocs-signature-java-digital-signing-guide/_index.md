@@ -4,8 +4,8 @@
 "title": "คู่มือครอบคลุมสำหรับ GroupDocs.Signature สำหรับ Java และ Digital Signing Essentials"
 "url": "/th/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # คู่มือครอบคลุมสำหรับ GroupDocs.Signature สำหรับ Java: สิ่งสำคัญในการลงนามดิจิทัล
 
 ## การแนะนำ

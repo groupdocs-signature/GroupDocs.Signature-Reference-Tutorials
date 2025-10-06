@@ -4,8 +4,8 @@
 "title": "Charger et signer des documents en Java avec GroupDocs.Signature - Un guide complet"
 "url": "/fr/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Charger et signer des documents à l'aide de GroupDocs.Signature en Java
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Aggiornamenti delle firme PDF Java con GroupDocs.Signature&#58; una guida completa per gli sviluppatori"
 "url": "/it/java/signature-management/java-pdf-signature-updates-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare gli aggiornamenti delle firme PDF Java con GroupDocs.Signature
 Nel mondo digitale, garantire la sicurezza dei documenti è fondamentale. Che tu sia uno sviluppatore che gestisce contratti o un'organizzazione che gestisce informazioni sensibili, proteggere i tuoi documenti tramite firme è essenziale. **GroupDocs.Signature per Java** Offre una soluzione affidabile per aggiungere, modificare e verificare le firme nei PDF e in altri formati. Questo tutorial ti guiderà nell'implementazione degli aggiornamenti delle firme PDF utilizzando GroupDocs.Signature per Java.
 

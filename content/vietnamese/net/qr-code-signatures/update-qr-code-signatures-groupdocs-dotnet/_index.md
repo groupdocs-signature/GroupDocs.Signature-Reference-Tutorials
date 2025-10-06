@@ -4,8 +4,8 @@
 "title": "Cách cập nhật chữ ký mã QR trong tài liệu .NET bằng GroupDocs.Signature"
 "url": "/vi/net/qr-code-signatures/update-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách cập nhật chữ ký mã QR trong tài liệu .NET bằng GroupDocs.Signature
 
 ## Giới thiệu

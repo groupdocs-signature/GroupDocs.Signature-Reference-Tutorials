@@ -4,8 +4,8 @@
 "title": "Guide complet sur les signatures textuelles, visuelles et numériques avec GroupDocs.Signature pour .NET"
 "url": "/fr/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Guide complet pour la mise en œuvre de signatures textuelles, d'images et numériques avec GroupDocs.Signature pour .NET
 
 ## Introduction

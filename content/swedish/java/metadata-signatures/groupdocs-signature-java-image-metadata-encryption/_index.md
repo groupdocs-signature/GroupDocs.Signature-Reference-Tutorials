@@ -4,8 +4,8 @@
 "title": "Implementera signering och kryptering av bildmetadata i Java med GroupDocs.Signature"
 "url": "/sv/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Implementera signering av bildmetadata med kryptering i Java med GroupDocs.Signature
 
 ## Introduktion

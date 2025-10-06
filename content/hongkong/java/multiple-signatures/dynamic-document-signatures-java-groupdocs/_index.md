@@ -4,8 +4,8 @@
 "title": "Java 中的動態文件簽名－掌握 GroupDocs.Signature 的電子簽名"
 "url": "/zh-hant/java/multiple-signatures/dynamic-document-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs 在 Java 中建立動態文件簽名
 
 在當今快節奏的數位世界中，高效地以電子方式簽署文件的需求比以往任何時候都更加重要。無論您是希望簡化合約審批流程的商務人士，還是管理個人文件的個人，電子簽名都能提供快速便捷的服務。本教學將指導您使用 GroupDocs.Signature for Java 建立動態文字和條碼圖像簽章。透過利用伸展模式，您的簽名可以無縫適應整個頁面，從而確保一致性和可讀性。

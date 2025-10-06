@@ -5,8 +5,8 @@
 "title": "在 C# .NET 中向 Excel 电子表格添加元数据签名"
 "url": "/zh/net/document-signing/sign-spreadsheet-with-metadata/"
 "weight": 13
+type: docs
 ---
-
 ## 介绍
 
 Excel 电子表格通常包含关键业务数据、财务信息和重要计算。在许多专业环境中，确保其真实性、追踪其来源并保护其完整性至关重要。增强电子表格安全性和可追溯性的一种有效方法是嵌入元数据签名。

@@ -4,8 +4,8 @@
 "title": "QR-kód aláírások megvalósítása .NET-ben egyéni szerializációval a GroupDocs.Signature használatával"
 "url": "/hu/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírások megvalósítása egyéni szerializációval .NET-ben a GroupDocs.Signature használatával
 
 ## Bevezetés

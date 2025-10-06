@@ -4,8 +4,8 @@
 "title": "Δημιουργήστε προεπισκοπήσεις PDF με κρυφές υπογραφές χρησιμοποιώντας Java και GroupDocs.Signature"
 "url": "/el/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Δημιουργήστε προεπισκοπήσεις PDF με κρυφές υπογραφές χρησιμοποιώντας Java και GroupDocs.Signature
 
 ## Εισαγωγή

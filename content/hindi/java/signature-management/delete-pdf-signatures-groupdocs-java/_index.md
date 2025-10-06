@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके PDF हस्ताक्षर कैसे हटाएँ. Java के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/java/signature-management/delete-pdf-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs का उपयोग करके PDF हस्ताक्षर कैसे हटाएँ। Java के लिए हस्ताक्षर: एक व्यापक मार्गदर्शिका
 
 ## परिचय

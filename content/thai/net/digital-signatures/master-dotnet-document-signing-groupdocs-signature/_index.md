@@ -4,8 +4,8 @@
 "title": "เชี่ยวชาญการลงนามเอกสาร .NET ด้วย GroupDocs.Signature เพื่อลายเซ็นดิจิทัลที่ปลอดภัย"
 "url": "/th/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การลงนามเอกสาร .NET ด้วย GroupDocs.Signature
 
 ## การแนะนำ

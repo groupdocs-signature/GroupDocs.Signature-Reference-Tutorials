@@ -4,8 +4,8 @@
 "title": "Képaláírás és optimalizálás mesterszintű használata GroupDocs.Signature for Java segítségével"
 "url": "/hu/java/image-signatures/groupdocs-signature-java-image-optimization/"
 "weight": 1
+type: docs
 ---
-
 # Képaláírás és optimalizálás elsajátítása a GroupDocs.Signature for Java segítségével
 
 mai digitális világban elengedhetetlen a dokumentumok biztonságos aláírása. Akár üzleti szakemberként hitelesít szerződéseket, akár magánszemélyként védi a képeket, a robusztus aláírási képességek kulcsfontosságúak. **GroupDocs.Signature Java-hoz** hatékony funkciókat kínál QR-kód aláírások létrehozásához és a képmentési beállítások zökkenőmentes optimalizálásához. Ez az oktatóanyag végigvezeti Önt ezen funkciók hatékony dokumentumkezeléshez való kihasználásán.

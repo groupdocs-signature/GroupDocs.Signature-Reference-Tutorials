@@ -5,8 +5,8 @@
 "title": "Dokumentum előnézetek generálása .NET alkalmazásokban | Gyors útmutató"
 "url": "/hu/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # Dokumentum előnézetek létrehozása .NET alkalmazásokban
 
 ## Bevezetés

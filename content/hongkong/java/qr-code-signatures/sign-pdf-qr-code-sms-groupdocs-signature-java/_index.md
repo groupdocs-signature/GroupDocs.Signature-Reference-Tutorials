@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 透過二維碼和簡訊對 PDF 文件進行簽名"
 "url": "/zh-hant/java/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 Java 中使用 SMS 物件對帶有二維碼的 PDF 文件進行簽名
 
 ## 介紹

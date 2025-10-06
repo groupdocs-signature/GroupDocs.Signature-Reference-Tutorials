@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Automation"]
 tags: ["PDF-signing", "digital-signatures", "document-workflow", "csharp-tutorial"]
+type: docs
 ---
-
 # Add Text Signature to PDF C# - Automate Document Signing in .NET
 
 ## Introduction

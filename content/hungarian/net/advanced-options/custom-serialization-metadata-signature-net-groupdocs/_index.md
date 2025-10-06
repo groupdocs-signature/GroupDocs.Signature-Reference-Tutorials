@@ -4,8 +4,8 @@
 "title": "Egyéni szerializálás és metaadat-keresés .NET-ben a GroupDocs.Signature használatával"
 "url": "/hu/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Egyéni szerializálás és metaadat-aláírás-keresés megvalósítása a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

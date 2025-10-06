@@ -4,8 +4,8 @@
 "title": "Tìm kiếm chữ ký số với GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai tìm kiếm chữ ký số trong tài liệu bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

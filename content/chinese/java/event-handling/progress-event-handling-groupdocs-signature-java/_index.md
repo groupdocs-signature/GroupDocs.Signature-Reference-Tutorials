@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 在文档签名中实现进度事件处理"
 "url": "/zh/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 在文档签名中实现进度事件处理
 
 ## 介绍

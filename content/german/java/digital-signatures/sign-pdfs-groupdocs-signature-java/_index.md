@@ -4,8 +4,8 @@
 "title": "Beherrschen digitaler PDF-Signaturen in Java – Verwenden von GroupDocs.Signature für Text-, Kontrollkästchen- und digitale Felder"
 "url": "/de/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Beherrschen digitaler PDF-Signaturen in Java: Verwenden von GroupDocs.Signature für Text-, Kontrollkästchen- und digitale Felder
 
 ## Einführung

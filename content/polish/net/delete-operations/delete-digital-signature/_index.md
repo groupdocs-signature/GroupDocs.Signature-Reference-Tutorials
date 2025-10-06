@@ -5,8 +5,8 @@
 "title": "Jak usunąć podpisy cyfrowe z dokumentów w .NET"
 "url": "/pl/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # Jak usunąć podpisy cyfrowe z dokumentów za pomocą GroupDocs.Signature
 
 ## Dlaczego zarządzanie podpisem cyfrowym jest ważne

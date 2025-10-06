@@ -4,8 +4,8 @@
 "title": "Comment signer des PDF avec des autocollants de texte à l'aide de GroupDocs.Signature pour Java ? Un guide complet"
 "url": "/fr/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer des PDF avec des autocollants textuels à l'aide de GroupDocs.Signature pour Java : guide complet
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Onderteken Excel-spreadsheets en VBA-projecten digitaal met GroupDocs.Signature voor .NET"
 "url": "/nl/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Excel-spreadsheets en hun VBA-projecten digitaal ondertekenen met GroupDocs.Signature voor .NET
 
 In het huidige digitale tijdperk is het cruciaal om de authenticiteit van uw Excel-bestanden te garanderen. Of u nu financiële spreadsheets of projectplannen beheert, het toevoegen van een digitale handtekening kan bescherming bieden tegen ongeautoriseerde wijzigingen. Deze tutorial begeleidt u bij het digitaal ondertekenen van zowel spreadsheetdocumenten als bijbehorende VBA-projecten met behulp van **GroupDocs.Signature voor .NET**.

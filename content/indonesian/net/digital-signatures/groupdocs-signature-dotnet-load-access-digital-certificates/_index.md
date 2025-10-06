@@ -4,8 +4,8 @@
 "title": "Memuat dan Mengakses Sertifikat Digital di .NET dengan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/net/digital-signatures/groupdocs-signature-dotnet-load-access-digital-certificates/"
 "weight": 1
+type: docs
 ---
-
 # Memuat dan Mengakses Sertifikat Digital di .NET dengan GroupDocs.Signature
 ## Panduan Lengkap
 

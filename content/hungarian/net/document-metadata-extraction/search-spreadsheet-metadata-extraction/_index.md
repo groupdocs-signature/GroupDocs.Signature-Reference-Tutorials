@@ -5,8 +5,8 @@
 "title": "Táblázat metaadatainak egyszerű kinyerése a GroupDocs.Signature segítségével"
 "url": "/hu/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # Metaadatok kinyerése táblázatokból a GroupDocs.Signature használatával
 
 ## Miért fontosak a táblázatkezelő metaadatai?

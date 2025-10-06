@@ -4,8 +4,8 @@
 "title": "Teksthandtekeningen in documenten verifiëren met GroupDocs.Signature voor .NET"
 "url": "/nl/net/search-verification/verify-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Een teksthandtekening in documenten verifiëren met GroupDocs.Signature voor .NET
 
 ## Invoering

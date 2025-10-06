@@ -9,8 +9,8 @@ weight: 1
 url: "/net/metadata-signatures/groupdocs-signature-net-encryption-metadata-search/"
 categories: ["Document Security"]
 tags: ["encryption", "metadata", "signatures", "security", "dotnet"]
+type: docs
 ---
-
 # Encrypted Metadata Search .NET - Secure Document Signatures
 
 ## Introduction

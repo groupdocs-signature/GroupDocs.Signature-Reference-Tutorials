@@ -5,8 +5,8 @@
 "title": "Přidání textových podpisů do dokumentů pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # Jak přidat textové podpisy do dokumentů pomocí GroupDocs.Signature pro .NET
 
 ## Úvod: Modernizujte proces podepisování dokumentů

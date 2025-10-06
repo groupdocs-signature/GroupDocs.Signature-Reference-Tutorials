@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 產生 PDF 頁面預覽－綜合指南"
 "url": "/zh-hant/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 產生 PDF 頁面預覽：綜合指南
 
 ## 介紹

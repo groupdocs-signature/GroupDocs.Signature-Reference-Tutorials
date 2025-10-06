@@ -4,8 +4,8 @@
 "title": "Jak přizpůsobit podpisy obrázků v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/image-signatures/customize-image-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat vlastní podpisy obrázků pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

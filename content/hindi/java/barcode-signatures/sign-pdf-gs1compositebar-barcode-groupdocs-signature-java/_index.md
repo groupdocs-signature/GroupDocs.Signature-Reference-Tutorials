@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature का उपयोग करके GS1 कम्पोजिट बारकोड के साथ PDF पर हस्ताक्षर करें"
 "url": "/hi/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके GS1 कम्पोजिट बारकोड के साथ PDF पर हस्ताक्षर कैसे करें
 
 ## परिचय

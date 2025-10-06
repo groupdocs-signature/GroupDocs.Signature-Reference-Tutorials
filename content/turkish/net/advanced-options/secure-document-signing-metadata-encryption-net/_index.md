@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature kullanarak .NET'te Meta Veri ve Özel Şifreleme ile Güvenli Belge İmzalamada Ustalaşın"
 "url": "/tr/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET'te Meta Veri ve Özel Şifreleme ile Güvenli Belge İmzalamada Ustalaşın
 
 ## giriiş

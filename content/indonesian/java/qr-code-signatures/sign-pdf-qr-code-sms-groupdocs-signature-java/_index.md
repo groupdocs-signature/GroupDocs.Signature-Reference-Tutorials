@@ -4,8 +4,8 @@
 "title": "Tandatangani Dokumen PDF dengan Kode QR dan SMS menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF dengan Kode QR Menggunakan Objek SMS di Java dengan GroupDocs.Signature
 
 ## Perkenalan

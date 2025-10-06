@@ -3,8 +3,8 @@ title: "Event Handling and Process Management Tutorials for GroupDocs.Signature 
 description: "Complete tutorials for implementing event handling, cancellation, and process monitoring in GroupDocs.Signature for Java."
 weight: 15
 url: "/java/event-handling/"
+type: docs
 ---
-
 # Event Handling and Process Management Tutorials for GroupDocs.Signature Java
 
 Our event handling and process management tutorials demonstrate how to create responsive signing applications using GroupDocs.Signature in Java. These step-by-step guides cover subscribing to signature events, implementing cancellation for search and signing operations, handling exceptions, and monitoring processing status. Each tutorial includes detailed Java code examples for implementing proper event handling, helping you build robust applications that provide better user feedback, error handling, and control over signature operations.

@@ -4,8 +4,8 @@
 "title": "Padroneggiare la firma dei documenti in .NET - Firme con codici a barre e codici QR con GroupDocs.Signature"
 "url": "/it/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la firma dei documenti in .NET: implementazione di firme con codici a barre e codici QR con GroupDocs.Signature
 
 ## Introduzione

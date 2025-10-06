@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Bir Belgeden Belirli İmzalar Nasıl Silinir?"
 "url": "/tr/java/signature-management/delete-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Bir Belgeden Belirli İmza Türleri Nasıl Silinir?
 
 ## giriiş

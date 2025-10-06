@@ -4,8 +4,8 @@
 "title": ".NET için Master GroupDocs.Signature&#58; Belge Bilgilerini Verimli Şekilde Ayıklayın ve Görüntüleyin"
 "url": "/tr/net/preview-info/groupdocs-signature-net-document-info-extraction/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature'da Uzmanlaşma: Belge Bilgilerini Verimli Şekilde Ayıklama ve Görüntüleme
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Hur man söker efter QR-kodsignaturer i .NET med GroupDocs.Signature"
 "url": "/sv/net/qr-code-signatures/qr-code-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar sökning efter QR-kodsignaturer med händelsedata med GroupDocs.Signature för .NET
 
 ## Introduktion

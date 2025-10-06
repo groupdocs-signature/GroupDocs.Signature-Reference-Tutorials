@@ -4,8 +4,8 @@
 "title": "Wdrożenie podpisywania kodem QR i konwersji plików PDF w Javie przy użyciu interfejsu API GroupDocs.Signature"
 "url": "/pl/java/qr-code-signatures/java-signature-api-groupdocs-qr-codes-pdf-conversion/"
 "weight": 1
+type: docs
 ---
-
 # Wdrożenie podpisywania kodem QR i konwersji plików PDF w Javie przy użyciu interfejsu API GroupDocs.Signature
 
 ## Wstęp

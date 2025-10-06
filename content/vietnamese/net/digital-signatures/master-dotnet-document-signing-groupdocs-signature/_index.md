@@ -4,8 +4,8 @@
 "title": "Làm chủ chữ ký tài liệu .NET với GroupDocs.Signature để có chữ ký số an toàn"
 "url": "/vi/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký tài liệu .NET với GroupDocs.Signature
 
 ## Giới thiệu

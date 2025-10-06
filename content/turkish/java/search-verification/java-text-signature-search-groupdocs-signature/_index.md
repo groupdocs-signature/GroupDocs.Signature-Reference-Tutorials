@@ -4,8 +4,8 @@
 "title": "Belge Yönetimi ve Doğrulaması için GroupDocs.Signature ile Java Metin İmza Aramasını Uygulama"
 "url": "/tr/java/search-verification/java-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Java Metin İmza Aramasını Uygulama
 
 ## giriiş

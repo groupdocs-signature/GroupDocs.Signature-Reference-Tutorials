@@ -4,8 +4,8 @@
 "title": "Предварительный просмотр подписи QR-кода с помощью GroupDocs.Signature для .NET&#58; подробное руководство"
 "url": "/ru/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Реализация предварительного просмотра подписи QR-кода с помощью GroupDocs.Signature для .NET
 
 ## Введение

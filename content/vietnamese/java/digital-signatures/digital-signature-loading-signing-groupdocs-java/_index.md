@@ -4,8 +4,8 @@
 "title": "Cách triển khai tải và ký chữ ký số với GroupDocs.Signature cho Java"
 "url": "/vi/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai tải và ký chữ ký số với GroupDocs.Signature cho Java
 
 ## Giới thiệu

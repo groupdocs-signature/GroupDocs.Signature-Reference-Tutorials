@@ -4,8 +4,8 @@
 "title": "So signieren Sie PDFs mit QR-Codes, die SMS enthalten, mithilfe von GroupDocs in .NET"
 "url": "/de/net/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie ein PDF-Dokument mit einem QR-Code, der ein SMS-Objekt enthält, mithilfe von GroupDocs.Signature für .NET
 
 ## Einführung

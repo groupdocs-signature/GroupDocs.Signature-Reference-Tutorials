@@ -4,8 +4,8 @@
 "title": "Jak vyhledávat metadata obrázků pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/search-verification/search-image-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak vyhledávat metadata obrázků pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

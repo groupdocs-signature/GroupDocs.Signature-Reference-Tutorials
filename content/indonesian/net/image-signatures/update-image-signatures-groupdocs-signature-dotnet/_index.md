@@ -4,8 +4,8 @@
 "title": "Cara Memperbarui Tanda Tangan Gambar dalam Dokumen Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Langkah demi Langkah"
 "url": "/id/net/image-signatures/update-image-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Memperbarui Tanda Tangan Gambar di Dokumen Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

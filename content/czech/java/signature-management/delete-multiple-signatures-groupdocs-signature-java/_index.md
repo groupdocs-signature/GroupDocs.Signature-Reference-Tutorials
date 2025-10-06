@@ -4,8 +4,8 @@
 "title": "Jak odstranit více podpisů z PDF pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/signature-management/delete-multiple-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit více podpisů z PDF pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "تشفير جافا وتوقيع البيانات الوصفية - التعامل الآمن مع المستندات باستخدام GroupDocs.Signature"
 "url": "/ar/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ تشفير Java والبحث عن توقيع البيانات الوصفية باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

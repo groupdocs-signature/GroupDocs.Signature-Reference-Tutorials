@@ -4,8 +4,8 @@
 "title": "Penandatanganan PDF Digital di .NET&#58; Panduan Menggunakan GroupDocs.Signature"
 "url": "/id/net/digital-signatures/sign-pdf-digital-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Penandatanganan PDF Digital di .NET: Panduan Menggunakan GroupDocs.Signature
 
 ## Perkenalan

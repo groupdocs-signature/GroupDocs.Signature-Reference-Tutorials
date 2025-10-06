@@ -4,8 +4,8 @@
 "title": "如何在 Java 中透過 InputStream 設定 GroupDocs 授權以增強靈活性和合規性"
 "url": "/zh-hant/java/getting-started/set-groupdocs-license-java-input-stream/"
 "weight": 1
+type: docs
 ---
-
 # 如何實作 Java：透過 GroupDocs.Signature for Java 中的 InputStream 設定 GroupDocs 許可證
 
 歡迎閱讀這份全面的指南，了解如何使用 GroupDocs.Signature for Java 的輸入流設定 GroupDocs 授權。此功能可讓您有效率地管理許可證，確保合規性並解鎖 GroupDocs 功能的完全存取權限。

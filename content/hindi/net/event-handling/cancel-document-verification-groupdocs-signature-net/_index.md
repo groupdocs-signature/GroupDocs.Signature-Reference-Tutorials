@@ -4,8 +4,8 @@
 "title": ".NET इवेंट हैंडलिंग गाइड के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ सत्यापन कैसे रद्द करें"
 "url": "/hi/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ सत्यापन कैसे रद्द करें: इवेंट हैंडलिंग गाइड
 
 ## परिचय

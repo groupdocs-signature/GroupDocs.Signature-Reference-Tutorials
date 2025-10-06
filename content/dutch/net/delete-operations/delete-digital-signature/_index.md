@@ -5,8 +5,8 @@
 "title": "Digitale handtekeningen uit documenten verwijderen in .NET"
 "url": "/nl/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # Hoe u digitale handtekeningen uit uw documenten verwijdert met GroupDocs.Signature
 
 ## Waarom digitaal handtekeningbeheer belangrijk is

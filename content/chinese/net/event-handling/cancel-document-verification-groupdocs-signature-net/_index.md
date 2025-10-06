@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 取消文档验证&#58; 事件处理指南"
 "url": "/zh/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 取消文档验证：事件处理指南
 
 ## 介绍

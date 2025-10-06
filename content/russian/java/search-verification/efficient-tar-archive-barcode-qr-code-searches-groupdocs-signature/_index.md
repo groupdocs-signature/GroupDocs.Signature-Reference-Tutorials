@@ -4,8 +4,8 @@
 "title": "Мастер поиска штрихкодов и QR-кодов в архиве TAR с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Освоение поиска штрихкодов и QR-кодов в архивах TAR с помощью GroupDocs.Signature для Java
 
 ## Введение

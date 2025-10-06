@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 对带有精确定位条形码的 PDF 进行签名"
 "url": "/zh/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 对带有精确定位条形码的 PDF 文档进行签名
 
 ## 介绍

@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Enkripsi Tanda Tangan Metadata di .NET dengan GroupDocs.Signature untuk PDF Aman"
 "url": "/id/net/metadata-signatures/groupdocs-signature-net-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Enkripsi Tanda Tangan Metadata di .NET dengan GroupDocs.Signature untuk PDF Aman
 
 ## Perkenalan

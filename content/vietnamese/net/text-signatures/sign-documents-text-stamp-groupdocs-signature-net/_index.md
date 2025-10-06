@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu bằng dấu văn bản sử dụng GroupDocs.Signature cho .NET"
 "url": "/vi/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu bằng dấu văn bản sử dụng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

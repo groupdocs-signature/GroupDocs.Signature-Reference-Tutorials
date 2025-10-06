@@ -4,8 +4,8 @@
 "title": "Het beheersen van gebeurtenisabonnementen bij het ondertekenen van documenten met GroupDocs.Signature voor .NET | Stapsgewijze handleiding"
 "url": "/nl/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # Het beheersen van gebeurtenisabonnementen bij het ondertekenen van documenten met GroupDocs.Signature voor .NET
 
 ## Invoering

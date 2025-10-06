@@ -4,8 +4,8 @@
 "title": "So implementieren Sie die Barcode-Signatursuche in Java mit GroupDocs.Signature"
 "url": "/de/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie die Barcode-Signatursuche in Java mit GroupDocs.Signature
 
 ## Einführung

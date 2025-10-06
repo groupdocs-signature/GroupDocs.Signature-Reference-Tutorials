@@ -4,8 +4,8 @@
 "title": "Hoe u afbeeldingshandtekeningen in Java kunt aanpassen met behulp van GroupDocs.Signature"
 "url": "/nl/java/image-signatures/customize-image-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u aangepaste afbeeldingshandtekeningen implementeert met GroupDocs.Signature voor Java
 
 ## Invoering

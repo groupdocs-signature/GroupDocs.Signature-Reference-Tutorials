@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java ile Dinamik Belge İmzalarında Ustalaşın ve QR Kod İmzalama Teknikleri"
 "url": "/tr/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile Dinamik Belge İmzalarında Ustalaşın: QR Kod İmzalama Teknikleri
 
 Günümüzün dijital dünyasında elektronik belgelerin etkin bir şekilde güvence altına alınması ve doğrulanması hayati önem taşımaktadır. **Java için GroupDocs.Signature** PDF'leri çeşitli konumlarda QR kod imzaları kullanarak hızlı bir şekilde imzalamak ve orijinalliklerini garantilemek için güçlü bir çözüm sunar.

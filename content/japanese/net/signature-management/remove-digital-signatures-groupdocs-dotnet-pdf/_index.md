@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して PDF からデジタル署名を削除する方法"
 "url": "/ja/net/signature-management/remove-digital-signatures-groupdocs-dotnet-pdf/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して PDF からデジタル署名を削除する方法
 
 ## 導入

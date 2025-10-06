@@ -4,8 +4,8 @@
 "title": "Pencarian Tanda Tangan Kode QR di DICOM dengan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/qr-code-signatures/qr-code-signature-search-groupdocs-dotnet-dicom/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pencarian Tanda Tangan Kode QR pada Gambar Multi-Layer Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

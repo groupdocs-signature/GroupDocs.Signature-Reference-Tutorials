@@ -4,8 +4,8 @@
 "title": "在 GroupDocs.Signature for .NET 中实现自定义日志记录——综合指南"
 "url": "/zh/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 在 GroupDocs.Signature for .NET 中实现自定义日志记录：综合指南
 
 ## 介绍

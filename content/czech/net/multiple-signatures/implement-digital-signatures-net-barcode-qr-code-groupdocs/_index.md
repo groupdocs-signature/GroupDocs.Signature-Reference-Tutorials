@@ -4,8 +4,8 @@
 "title": "Průvodce integrací čárových a QR kódů v .NET a implementací digitálních podpisů"
 "url": "/cs/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat digitální podpisy v .NET: Podepisování čárových a QR kódů pomocí GroupDocs.Signature
 
 dnešní digitální době je rychlé a bezpečné ověřování dokumentů důležitější než kdy dříve. Ať už jste vývojář pracující na podnikové aplikaci, nebo jen chcete zefektivnit proces správy dokumentů, přidání podpisů může být transformativní. Tento tutoriál vás provede používáním... **GroupDocs.Signature pro .NET** digitálně podepisovat dokumenty pomocí čárových kódů i QR kódů a nabízet tak robustní řešení pro bezpečnou dokumentaci.

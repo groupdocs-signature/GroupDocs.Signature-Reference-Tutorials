@@ -4,8 +4,8 @@
 "title": "GroupDocs for Java Kullanarak PDF'leri QR Kod İmzalarıyla İmzalayın ve Görüntü Olarak Dışa Aktarın"
 "url": "/tr/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak PDF'leri QR Kodlarıyla Resim Olarak İmzalama ve Dışa Aktarmaya İlişkin Kapsamlı Kılavuz
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "تنفيذ التحقق من توقيع النص في .NET باستخدام GroupDocs.Signature لإدارة المستندات بشكل آمن"
 "url": "/ar/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ التحقق من توقيع النص في .NET باستخدام GroupDocs.Signature
 ## البحث والتحقق
 **عنوان URL لتحسين محركات البحث**: implement-text-signature-verification-groupdocs-net

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["GroupDocs.Signature", "NET", "Document History", "Audit Trail", "C#"]
+type: docs
 ---
-
 # GroupDocs.Signature .NET Document History
 
 ## Introduction

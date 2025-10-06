@@ -5,8 +5,8 @@
 "title": "Xác minh chữ ký văn bản trong tài liệu"
 "url": "/vi/net/verify-operations/verify-text/"
 "weight": 13
+type: docs
 ---
-
 ## Giới thiệu
 
 Chữ ký văn bản, mặc dù thường đơn giản hơn chữ ký số hoặc chữ ký điện tử, đóng vai trò quan trọng trong việc quản lý và xác minh tài liệu. Cho dù đó là hình mờ, văn bản chân trang hay các mẫu nội dung cụ thể, việc xác thực sự hiện diện và tính toàn vẹn của chữ ký văn bản là một khía cạnh quan trọng của quy trình xác minh tài liệu.

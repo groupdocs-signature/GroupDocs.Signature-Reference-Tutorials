@@ -5,8 +5,8 @@
 "title": "Aktualizace podpisů obrázků v dokumentech"
 "url": "/cs/net/update-operations/update-image/"
 "weight": 11
+type: docs
 ---
-
 ## Zavedení
 Správa digitálních dokumentů vyžaduje robustní funkce pro práci s podpisy, aby byla zajištěna autenticita a integrita. Obrazové podpisy hrají v tomto ekosystému klíčovou roli, protože poskytují vizuální ověřování a prvky brandingu v dokumentech. GroupDocs.Signature pro .NET nabízí vývojářům výkonný rámec pro implementaci komplexních funkcí podpisů v jejich .NET aplikacích, včetně možnosti aktualizace stávajících obrazových podpisů.
 

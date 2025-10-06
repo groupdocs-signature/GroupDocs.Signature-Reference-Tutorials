@@ -9,8 +9,8 @@ weight: 1
 url: "/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 categories: ["Java Development"]
 tags: ["digital-signature", "excel-automation", "document-security", "java-api"]
+type: docs
 ---
-
 # Add Digital Signature to Excel Java
 
 ## Introduction

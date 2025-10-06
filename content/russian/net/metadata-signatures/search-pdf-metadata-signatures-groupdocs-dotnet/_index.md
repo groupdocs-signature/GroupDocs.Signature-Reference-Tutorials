@@ -4,8 +4,8 @@
 "title": "Поиск и извлечение подписей метаданных PDF с помощью GroupDocs в .NET"
 "url": "/ru/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Поиск и извлечение подписей метаданных PDF с помощью GroupDocs в .NET
 
 ## Введение

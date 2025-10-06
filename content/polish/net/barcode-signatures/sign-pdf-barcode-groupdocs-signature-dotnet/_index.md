@@ -4,8 +4,8 @@
 "title": "Jak podpisywać dokumenty PDF kodem kreskowym za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać dokumenty PDF kodem kreskowym za pomocą GroupDocs.Signature dla platformy .NET
 
 W dzisiejszym cyfrowym świecie elektroniczne podpisywanie dokumentów jest nie tylko wygodne, ale także zwiększa bezpieczeństwo i wydajność. Wiele firm stoi jednak przed wyzwaniem zapewnienia bezpieczeństwa i weryfikowalności tych podpisów. **GroupDocs.Signature dla .NET**— potężna biblioteka zaprojektowana w celu uproszczenia tego procesu poprzez umożliwienie programowego dodawania podpisów kodem kreskowym do dokumentów PDF. Ten samouczek przeprowadzi Cię przez proces implementacji GroupDocs.Signature dla platformy .NET w celu podpisywania dokumentów PDF za pomocą podpisu kodem kreskowym.

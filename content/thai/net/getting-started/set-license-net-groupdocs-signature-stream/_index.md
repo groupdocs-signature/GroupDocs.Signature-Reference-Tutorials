@@ -4,8 +4,8 @@
 "title": "การตั้งค่าใบอนุญาตใน .NET โดยใช้ GroupDocs.Signature และ FileStream คู่มือฉบับสมบูรณ์"
 "url": "/th/net/getting-started/set-license-net-groupdocs-signature-stream/"
 "weight": 1
+type: docs
 ---
-
 # การตั้งค่าใบอนุญาตใน .NET ด้วย GroupDocs.Signature และ FileStream
 ## การเริ่มต้น
 ### การนำใบอนุญาตชุดไปใช้ผ่าน Stream ใน .NET โดยใช้ GroupDocs.Signature

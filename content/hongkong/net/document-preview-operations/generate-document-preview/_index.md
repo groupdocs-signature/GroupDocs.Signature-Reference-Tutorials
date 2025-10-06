@@ -5,8 +5,8 @@
 "title": "如何在 .NET 應用程式中產生文件預覽 | 快速教學課程"
 "url": "/zh-hant/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # 如何在 .NET 應用程式中產生文件預覽
 
 ## 介紹

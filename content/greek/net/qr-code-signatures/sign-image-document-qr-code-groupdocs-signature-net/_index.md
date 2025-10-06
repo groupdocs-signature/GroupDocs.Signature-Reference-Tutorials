@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε έγγραφα εικόνας με κωδικούς QR χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/qr-code-signatures/sign-image-document-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα έγγραφο εικόνας με έναν κωδικό QR χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

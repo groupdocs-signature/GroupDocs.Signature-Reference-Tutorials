@@ -4,8 +4,8 @@
 "title": "Domine as pesquisas de assinaturas de imagens em documentos com o GroupDocs para Java - Um guia completo"
 "url": "/pt/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # Domine as pesquisas de assinaturas de imagens em documentos com o GroupDocs para Java: um guia completo
 
 ## Introdução

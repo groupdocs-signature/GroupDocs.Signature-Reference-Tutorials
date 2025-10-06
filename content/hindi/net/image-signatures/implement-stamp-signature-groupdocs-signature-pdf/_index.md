@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके PDF पर स्टाम्प हस्ताक्षर कैसे लागू करें"
 "url": "/hi/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके PDF पर स्टाम्प हस्ताक्षर कैसे लागू करें
 
 ## परिचय

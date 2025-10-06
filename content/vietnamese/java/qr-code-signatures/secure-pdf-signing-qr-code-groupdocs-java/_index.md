@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký PDF an toàn với mã hóa mã QR trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/qr-code-signatures/secure-pdf-signing-qr-code-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký PDF an toàn với mã hóa mã QR trong Java bằng GroupDocs.Signature
 
 Trong thời đại kỹ thuật số ngày nay, việc bảo mật thông tin nhạy cảm trong tài liệu là vô cùng quan trọng. Sự gia tăng của các mối đe dọa an ninh mạng đã khiến mã hóa dữ liệu trở thành một phần thiết yếu trong quản lý tài liệu. Hướng dẫn này sẽ hướng dẫn bạn cách triển khai chữ ký PDF an toàn bằng mã hóa mã QR với GroupDocs.Signature for Java. Sau khi hoàn thành bài viết này, bạn sẽ được trang bị đầy đủ để tích hợp các tính năng bảo mật mạnh mẽ vào ứng dụng của mình.

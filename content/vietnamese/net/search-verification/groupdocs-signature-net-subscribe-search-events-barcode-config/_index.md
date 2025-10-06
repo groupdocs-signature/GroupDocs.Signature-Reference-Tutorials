@@ -4,8 +4,8 @@
 "title": "Làm chủ GroupDocs.Signature cho .NET Đăng ký và cấu hình sự kiện tìm kiếm mã vạch"
 "url": "/vi/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ GroupDocs.Signature cho .NET: Đăng ký và cấu hình sự kiện tìm kiếm mã vạch
 
 ## Giới thiệu

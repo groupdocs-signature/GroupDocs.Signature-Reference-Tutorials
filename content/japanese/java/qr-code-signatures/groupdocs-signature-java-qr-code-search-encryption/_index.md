@@ -4,8 +4,8 @@
 "title": "JavaでのQRコード検索と暗号化&#58; 安全なドキュメント処理のためのGroupDocs.Signatureのマスター"
 "url": "/ja/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # JavaでのQRコード検索と暗号化：安全なドキュメント処理のためのGroupDocs.Signatureのマスター
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": "Hogyan frissíthetjük a képaláírásokat .NET-ben a GroupDocs.Signature használatával? Átfogó útmutató"
 "url": "/hu/net/signature-management/update-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan frissíthetjük a képaláírásokat .NET-ben a GroupDocs.Signature segítségével?
 
 ## Bevezetés

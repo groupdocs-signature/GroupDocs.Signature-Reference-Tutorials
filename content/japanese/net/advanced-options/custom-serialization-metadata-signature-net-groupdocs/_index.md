@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した .NET でのカスタムシリアル化とメタデータ検索"
 "url": "/ja/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用したカスタム シリアル化とメタデータ署名検索の実装
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": "Mastering GroupDocs.Signature voor .NET&#58; barcodezoekgebeurtenissen abonneren en configureren"
 "url": "/nl/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature voor .NET onder de knie krijgen: barcodezoekgebeurtenissen abonneren en configureren
 
 ## Invoering

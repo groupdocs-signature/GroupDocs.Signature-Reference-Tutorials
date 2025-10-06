@@ -8,10 +8,8 @@ keywords:
 - delete barcode signatures java
 - groupdocs.signature for java
 - manage electronic documents
-
+type: docs
 ---
-
-
 # How to Delete Barcode Signatures in Java Using GroupDocs.Signature
 
 ## Introduction

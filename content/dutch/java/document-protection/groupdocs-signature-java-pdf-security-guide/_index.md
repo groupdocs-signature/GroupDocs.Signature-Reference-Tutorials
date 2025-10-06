@@ -4,8 +4,8 @@
 "title": "Beveilig uw PDF's, QR-codehandtekeningen en wachtwoordbeveiliging met GroupDocs.Signature voor Java"
 "url": "/nl/java/document-protection/groupdocs-signature-java-pdf-security-guide/"
 "weight": 1
+type: docs
 ---
-
 # Beveilig uw PDF's: QR-codehandtekeningen en wachtwoordbeveiliging met GroupDocs.Signature voor Java
 
 In het digitale tijdperk van vandaag is het beveiligen van PDF-documenten essentieel om gevoelige informatie te beheren en de authenticiteit van bestanden te waarborgen. Deze handleiding laat u zien hoe u GroupDocs.Signature voor Java kunt gebruiken om QR-codehandtekeningen en wachtwoordbeveiliging aan uw PDF's toe te voegen.

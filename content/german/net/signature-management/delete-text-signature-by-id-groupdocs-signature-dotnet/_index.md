@@ -4,8 +4,8 @@
 "title": "So löschen Sie eine Textsignatur nach ID mit GroupDocs.Signature für .NET"
 "url": "/de/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So löschen Sie eine Textsignatur nach ID mit GroupDocs.Signature für .NET
 
 ## Einführung

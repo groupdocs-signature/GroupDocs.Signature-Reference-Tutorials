@@ -4,8 +4,8 @@
 "title": "Quản lý chữ ký tài liệu chính với GroupDocs.Signature cho .NET"
 "url": "/vi/net/signature-management/groupdocs-signature-net-master-document-signature-management/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ Quản lý Chữ ký Tài liệu với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

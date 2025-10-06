@@ -4,8 +4,8 @@
 "title": "Zvládnutí historie zpracování dokumentů pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí historie zpracování dokumentů pomocí GroupDocs.Signature pro .NET: Komplexní průvodce
 
 ## Zavedení

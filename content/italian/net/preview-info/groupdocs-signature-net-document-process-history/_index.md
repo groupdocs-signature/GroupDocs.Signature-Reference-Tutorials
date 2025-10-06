@@ -4,8 +4,8 @@
 "title": "Come recuperare la cronologia dei processi dei documenti con GroupDocs.Signature per .NET&#58; una guida passo passo"
 "url": "/it/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # Come recuperare la cronologia dei processi dei documenti con GroupDocs.Signature per .NET: una guida passo passo
 
 ## Introduzione

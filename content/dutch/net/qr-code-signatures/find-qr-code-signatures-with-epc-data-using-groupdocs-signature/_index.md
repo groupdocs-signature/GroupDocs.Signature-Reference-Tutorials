@@ -4,8 +4,8 @@
 "title": "Het onder de knie krijgen van het zoeken naar QR-codehandtekeningen in documenten met GroupDocs.Signature voor .NET"
 "url": "/nl/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Document zoeken onder de knie krijgen: QR-codehandtekeningen vinden met EPC-gegevens met behulp van GroupDocs.Signature voor .NET
 
 ## Invoering

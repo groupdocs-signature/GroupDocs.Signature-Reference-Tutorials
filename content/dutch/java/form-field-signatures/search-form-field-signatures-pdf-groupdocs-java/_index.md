@@ -4,8 +4,8 @@
 "title": "Zoeken en extraheren van handtekeningen in formuliervelden in PDF's met GroupDocs.Signature voor Java"
 "url": "/nl/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u formulierveldhandtekeningen in PDF-documenten kunt zoeken en extraheren met GroupDocs.Signature voor Java
 
 ## Invoering

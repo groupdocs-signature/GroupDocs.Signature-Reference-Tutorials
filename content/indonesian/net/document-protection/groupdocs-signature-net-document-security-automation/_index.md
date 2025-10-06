@@ -4,8 +4,8 @@
 "title": "Penandatanganan Dokumen Aman & Otomatis dengan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # Penandatanganan Dokumen yang Aman & Otomatis dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Digitales Signieren mit Ausnahmebehandlung in .NET mithilfe von GroupDocs.Signature"
 "url": "/de/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Digitale Signatur mit Ausnahmebehandlung in .NET unter Verwendung von GroupDocs.Signature
 
 ## Einführung

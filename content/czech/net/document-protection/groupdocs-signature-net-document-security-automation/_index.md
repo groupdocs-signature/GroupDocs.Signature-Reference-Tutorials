@@ -4,8 +4,8 @@
 "title": "Zabezpečené a automatizované podepisování dokumentů s GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # Zabezpečené a automatizované podepisování dokumentů s GroupDocs.Signature pro .NET
 
 ## Zavedení

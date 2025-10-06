@@ -4,8 +4,8 @@
 "title": "Java と GroupDocs.Signature を使用して PDF にタイムスタンプ付きのデジタル署名を実装する"
 "url": "/ja/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # JavaとGroupDocs.Signatureを使用してPDFにタイムスタンプ付きデジタル署名を実装する
 
 ## 導入

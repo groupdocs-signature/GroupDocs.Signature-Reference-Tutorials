@@ -5,8 +5,8 @@
 "title": "Digitális aláírások ellenőrzése dokumentumokban"
 "url": "/hu/net/verify-operations/verify-digital/"
 "weight": 11
+type: docs
 ---
-
 ## Bevezetés
 
 A digitális aláírások kulcsszerepet játszanak a dokumentumok hitelességének, integritásának és letagadhatatlanságának biztosításában a modern üzleti folyamatokban. A hagyományos kézzel írott aláírásokkal ellentétben a digitális aláírások kriptográfiai technikákat alkalmaznak az aláíró személyazonosságának ellenőrzésére, és annak biztosítására, hogy a dokumentumot az aláírása óta nem módosították.

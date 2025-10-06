@@ -5,8 +5,8 @@
 "title": "Tìm kiếm chữ ký mã QR trong tài liệu"
 "url": "/vi/net/signature-searching/search-for-qr-codes/"
 "weight": 15
+type: docs
 ---
-
 ## Giới thiệu
 
 Trong hệ sinh thái tài liệu số ngày nay, chữ ký mã QR đã trở thành một công cụ vô giá để nhúng thông tin, xác thực và tăng cường bảo mật tài liệu. GroupDocs.Signature for .NET cung cấp cho các nhà phát triển một API mạnh mẽ để tìm kiếm và trích xuất mã QR từ nhiều định dạng tài liệu khác nhau, cho phép phân tích và xác minh tài liệu nâng cao trong các ứng dụng .NET.

@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature ile Belge İmzalamada Etkinlik Aboneliklerinde Ustalaşma | Adım Adım Kılavuz"
 "url": "/tr/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Belge İmzalamada Olay Aboneliğinde Ustalaşma
 
 ## giriiş

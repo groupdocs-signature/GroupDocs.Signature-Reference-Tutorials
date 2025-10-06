@@ -4,8 +4,8 @@
 "title": "Управление подписями основных документов с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/signature-management/groupdocs-signature-net-master-document-signature-management/"
 "weight": 1
+type: docs
 ---
-
 # Освоение управления подписями документов с помощью GroupDocs.Signature для .NET
 
 ## Введение

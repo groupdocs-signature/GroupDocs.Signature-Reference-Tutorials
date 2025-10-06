@@ -4,8 +4,8 @@
 "title": "PDF-ondertekening implementeren in Java met behulp van GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # PDF-ondertekening implementeren in Java met behulp van GroupDocs.Signature
 
 ## Ontdek de kracht van GroupDocs.Signature voor Java: naadloos ondertekenen van PDF-documenten

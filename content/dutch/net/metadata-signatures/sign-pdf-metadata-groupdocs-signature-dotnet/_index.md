@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met metagegevens met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF's ondertekenen met metagegevens met GroupDocs.Signature voor .NET
 
 ## Invoering

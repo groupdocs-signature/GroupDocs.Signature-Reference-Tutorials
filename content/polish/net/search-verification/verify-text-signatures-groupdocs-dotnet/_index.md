@@ -4,8 +4,8 @@
 "title": "Jak weryfikować podpisy tekstowe w dokumentach za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/search-verification/verify-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak zweryfikować podpis tekstowy w dokumentach za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

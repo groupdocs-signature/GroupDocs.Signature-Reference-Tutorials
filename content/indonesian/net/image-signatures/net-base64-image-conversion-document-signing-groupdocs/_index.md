@@ -4,8 +4,8 @@
 "title": "Konversi Gambar .NET Base64 & Penandatanganan Dokumen dengan GroupDocs.Signature"
 "url": "/id/net/image-signatures/net-base64-image-conversion-document-signing-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Konversi Gambar .NET Base64 dan Penandatanganan Dokumen Menggunakan GroupDocs.Signature
 
 ## Perkenalan

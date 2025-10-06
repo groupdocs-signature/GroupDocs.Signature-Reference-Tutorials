@@ -5,8 +5,8 @@
 "title": "全面的文档预览和管理操作"
 "url": "/zh/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # 文档预览操作
 
 ## 介绍

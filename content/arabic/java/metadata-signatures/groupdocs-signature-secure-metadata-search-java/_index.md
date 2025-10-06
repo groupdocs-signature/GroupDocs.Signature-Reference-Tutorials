@@ -4,8 +4,8 @@
 "title": "البحث الآمن عن توقيعات البيانات الوصفية واستخراجها باستخدام GroupDocs لـ Java"
 "url": "/ar/java/metadata-signatures/groupdocs-signature-secure-metadata-search-java/"
 "weight": 1
+type: docs
 ---
-
 # البحث الآمن عن توقيعات البيانات الوصفية واستخراجها باستخدام GroupDocs لـ Java
 
 ## مقدمة

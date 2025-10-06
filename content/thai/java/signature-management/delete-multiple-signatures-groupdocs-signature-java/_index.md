@@ -4,8 +4,8 @@
 "title": "วิธีการลบลายเซ็นหลายรายการจาก PDF โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/signature-management/delete-multiple-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลบลายเซ็นหลายรายการจาก PDF โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

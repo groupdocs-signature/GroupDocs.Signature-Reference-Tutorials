@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 掌握 .NET 文档签名，实现安全数字签名"
 "url": "/zh/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 .NET 文档签名
 
 ## 介绍

@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - metadata signature search
 - PowerPoint presentation verification
-
+type: docs
 ---
-
-
 # Master Metadata Signature Search in PowerPoint using GroupDocs.Signature for Java
 
 ## Introduction

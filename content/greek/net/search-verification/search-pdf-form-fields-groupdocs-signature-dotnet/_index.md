@@ -4,8 +4,8 @@
 "title": "Αποτελεσματική αναζήτηση πεδίων φόρμας PDF χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Αποτελεσματική αναζήτηση πεδίων φόρμας PDF χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

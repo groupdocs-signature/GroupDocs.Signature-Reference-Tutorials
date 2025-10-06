@@ -4,8 +4,8 @@
 "title": "Cara Mencari Tanda Tangan Metadata di Spreadsheet Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mencari Tanda Tangan Metadata di Spreadsheet Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

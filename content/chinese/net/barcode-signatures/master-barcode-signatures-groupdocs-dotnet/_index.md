@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 掌握 .NET 中的条形码签名——综合指南"
 "url": "/zh/net/barcode-signatures/master-barcode-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 .NET 中的条形码签名管理
 
 在当今快节奏的商业环境中，高效的电子签名管理对于简化运营和增强文档安全性至关重要。无论您是要自动化合同审批，还是通过可验证签名确保合规性，GroupDocs.Signature for .NET 都能提供根据您的需求定制的强大解决方案。本指南将指导您如何使用这个强大的库初始化、搜索和更新条形码签名。

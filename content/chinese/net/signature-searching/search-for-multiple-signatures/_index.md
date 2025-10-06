@@ -5,8 +5,8 @@
 "title": "在文档中搜索多种签名类型"
 "url": "/zh/net/signature-searching/search-for-multiple-signatures/"
 "weight": 14
+type: docs
 ---
-
 ## 介绍
 
 在现代文档管理系统中，在单个文档中搜索和验证多种签名类型的能力日益重要。组织通常使用各种签名类型（例如数字签名、文本签名、条形码、二维码等）来增强文档安全性并简化验证流程。GroupDocs.Signature for .NET 提供了一个强大的框架，使开发人员能够跨各种文档格式实现全面的签名搜索功能。

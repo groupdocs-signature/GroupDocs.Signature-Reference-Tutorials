@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen Presentasi dengan Metadata Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Lengkap Menandatangani Dokumen Presentasi dengan Metadata Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

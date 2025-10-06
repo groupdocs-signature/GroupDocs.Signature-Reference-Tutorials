@@ -4,8 +4,8 @@
 "title": "Java と GroupDocs.Signature を使用して、非表示の署名付きの PDF プレビューを生成する"
 "url": "/ja/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Java と GroupDocs.Signature を使用して、非表示の署名付きの PDF プレビューを生成する
 
 ## 導入

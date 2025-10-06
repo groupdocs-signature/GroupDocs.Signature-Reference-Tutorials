@@ -3,8 +3,8 @@
 "title": "Tutorial Tanda Tangan Bidang Formulir untuk GroupDocs.Signature Java"
 "url": "/id/java/form-field-signatures/"
 "weight": 8
+type: docs
 ---
-
 # Tutorial Tanda Tangan Bidang Formulir untuk GroupDocs.Signature Java
 
 Kuasai tanda tangan kolom formulir PDF dengan tutorial GroupDocs.Signature kami yang detail untuk pengembang Java. Panduan langkah demi langkah ini menunjukkan cara bekerja dengan kolom formulir standar, membuat dan mengelola kolom kotak kombo, menerapkan grup tombol radio, dan menggunakan kolom formulir untuk penandatanganan dokumen. Setiap tutorial menyediakan contoh kode Java praktis untuk operasi kolom formulir, membantu Anda membangun dokumen PDF interaktif dengan kolom formulir yang dapat diisi, yang dapat mengumpulkan dan memvalidasi input pengguna sambil menjaga integritas dokumen.

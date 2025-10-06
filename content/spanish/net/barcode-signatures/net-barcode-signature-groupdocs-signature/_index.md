@@ -4,8 +4,8 @@
 "title": "Domine la integración de firmas de código de barras .NET con GroupDocs.Signature para una mayor seguridad de los documentos"
 "url": "/es/net/barcode-signatures/net-barcode-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Dominio de la gestión de documentos: Implementación de la integración de firmas de código de barras .NET con GroupDocs.Signature
 
 En la era digital actual, garantizar la autenticidad e integridad de los documentos es crucial en diversas industrias. Esta guía muestra cómo integrar firmas de código de barras en su flujo de trabajo documental. **GroupDocs.Signature para .NET**Ya sea que necesite firmar, verificar, buscar, actualizar o eliminar firmas de código de barras en documentos, este tutorial cubrirá todos los aspectos esenciales.

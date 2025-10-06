@@ -4,8 +4,8 @@
 "title": "Opanowanie podpisywania dokumentów za pomocą GroupDocs.Signature dla platformy .NET. Kompleksowy przewodnik"
 "url": "/pl/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie podpisywania dokumentów za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

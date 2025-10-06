@@ -5,8 +5,8 @@
 "title": "วิธีการลบบาร์โค้ดออกจากเอกสารด้วย .NET"
 "url": "/th/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # วิธีการลบบาร์โค้ดออกจากเอกสารด้วย .NET
 
 ## เหตุใดคุณจึงต้องลบบาร์โค้ด?

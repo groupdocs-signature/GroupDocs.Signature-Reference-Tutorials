@@ -4,8 +4,8 @@
 "title": "Υπογραφή και εξαγωγή PDF χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/digital-signatures/sign-export-pdfs-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Υπογραφή και εξαγωγή PDF χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Triển khai Tìm kiếm chữ ký siêu dữ liệu với mã hóa bằng GroupDocs cho .NET"
 "url": "/vi/net/metadata-signatures/groupdocs-signature-metadata-search-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn toàn diện: Triển khai tìm kiếm chữ ký siêu dữ liệu với mã hóa bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

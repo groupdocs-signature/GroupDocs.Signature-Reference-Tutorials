@@ -6,8 +6,8 @@
 "title": "GroupDocs.Signature – API do cyfrowego podpisywania dokumentów dla .NET i Java | Kompletny przewodnik"
 "url": "/pl/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature: kompletne rozwiązanie do cyfrowego podpisywania dokumentów dla programistów
 
 ![GroupDocs.Signature Banner](./groupdocs-signature-net.svg)

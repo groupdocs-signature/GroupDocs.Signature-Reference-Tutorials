@@ -8,10 +8,8 @@ keywords:
 - Sign Documents with QR Code using Java and GroupDocs.Signature
 - QR Code Signatures with Java
 - GroupDocs Signature Implementation
-
+type: docs
 ---
-
-
 # Sign Documents with QR Code Using Java and GroupDocs.Signature
 
 Are you looking to add an extra layer of security and efficiency to your document management system? Signing documents electronically is a must-have feature in today's digital age, and QR-code signatures offer both convenience and robustness. In this comprehensive guide, we'll explore how to sign image documents with QR codes using GroupDocs.Signature for Java. By the end of this tutorial, you’ll be able to implement these features seamlessly.

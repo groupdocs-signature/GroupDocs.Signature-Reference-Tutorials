@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak PDF'lerde Dijital İmzalar Nasıl Aranır?"
 "url": "/tr/java/search-verification/search-pdfs-digital-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile PDF'lerde Dijital İmzalar Nasıl Aranır?
 
 ## giriiş

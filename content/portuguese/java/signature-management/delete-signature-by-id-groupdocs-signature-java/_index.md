@@ -4,8 +4,8 @@
 "title": "Como excluir uma assinatura por ID usando GroupDocs.Signature para Java"
 "url": "/pt/java/signature-management/delete-signature-by-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Como excluir uma assinatura por ID com GroupDocs.Signature para Java
 
 ## Introdução

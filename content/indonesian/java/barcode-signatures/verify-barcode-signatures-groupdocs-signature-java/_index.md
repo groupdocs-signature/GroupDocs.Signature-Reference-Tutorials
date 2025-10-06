@@ -4,8 +4,8 @@
 "title": "Cara Memverifikasi Tanda Tangan Barcode di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Verifikasi Tanda Tangan Barcode dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

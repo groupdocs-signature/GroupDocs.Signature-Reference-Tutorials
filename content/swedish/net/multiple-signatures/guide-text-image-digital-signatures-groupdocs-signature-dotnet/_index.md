@@ -4,8 +4,8 @@
 "title": "Omfattande guide till text-, bild- och digitala signaturer med GroupDocs.Signature för .NET"
 "url": "/sv/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Omfattande guide till implementering av text-, bild- och digitala signaturer med GroupDocs.Signature för .NET
 
 ## Introduktion

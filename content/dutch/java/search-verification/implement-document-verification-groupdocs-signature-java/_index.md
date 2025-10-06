@@ -4,8 +4,8 @@
 "title": "Implementeer documentverificatie met behulp van GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/search-verification/implement-document-verification-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Documentverificatie implementeren met GroupDocs.Signature voor Java
 
 **Invoering**

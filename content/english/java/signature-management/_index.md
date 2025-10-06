@@ -3,8 +3,8 @@ title: "Signature Management Tutorials for GroupDocs.Signature Java"
 description: "Complete tutorials for updating, deleting, and managing existing signatures in documents using GroupDocs.Signature for Java."
 weight: 12
 url: "/java/signature-management/"
+type: docs
 ---
-
 # Signature Management Tutorials for GroupDocs.Signature Java
 
 Master signature lifecycle management with our detailed GroupDocs.Signature Java tutorials. These step-by-step guides demonstrate how to update, delete, and manage signatures of different types after they've been applied to documents. Learn how to modify signature properties, remove signatures by type or ID, implement batch operations, and handle signature metadata. Each tutorial includes working Java code examples that show how to build applications with comprehensive signature management capabilities, ensuring your documents remain current and properly maintained throughout their lifecycle.

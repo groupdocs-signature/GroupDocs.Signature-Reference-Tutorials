@@ -4,8 +4,8 @@
 "title": "Διαγραφή ψηφιακών υπογραφών σε PDF χρησιμοποιώντας το GroupDocs.Signature για .NET™ Ένας πλήρης οδηγός"
 "url": "/el/net/signature-management/delete-digital-signature-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Διαγραφή ψηφιακών υπογραφών σε PDF χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

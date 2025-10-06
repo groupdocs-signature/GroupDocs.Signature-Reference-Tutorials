@@ -4,8 +4,8 @@
 "title": "Como remover uma assinatura digital de um PDF usando o GroupDocs.Signature para Java"
 "url": "/pt/java/signature-management/delete-digital-signature-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Como remover uma assinatura digital de um PDF usando o GroupDocs.Signature para Java
 
 ## Introdução

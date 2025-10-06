@@ -4,8 +4,8 @@
 "title": "Tanda Tangan Teks PDF Java dengan Batas Kustom Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/text-signatures/java-pdf-text-signatures-groupdocs-custom-borders/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Tanda Tangan Teks PDF Java dengan Batas Kustom Menggunakan GroupDocs.Signature
 
 Di era digital saat ini, memastikan keaslian dokumen sangatlah penting bagi bisnis maupun individu. Dengan maraknya dokumen elektronik, metode penandatanganan tradisional tergantikan oleh solusi yang lebih efisien dan aman seperti tanda tangan teks dalam PDF. Jika Anda ingin menambahkan sentuhan profesional pada dokumen PDF Anda dengan tanda tangan teks bergaya khusus menggunakan GroupDocs.Signature untuk Java, Anda telah datang ke tempat yang tepat.

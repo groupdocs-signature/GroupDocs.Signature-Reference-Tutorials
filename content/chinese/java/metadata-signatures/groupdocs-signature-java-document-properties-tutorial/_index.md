@@ -4,8 +4,8 @@
 "title": "掌握 GroupDocs.Signature for Java 文档属性检索的综合指南"
 "url": "/zh/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 掌握文档属性检索
 利用 GroupDocs.Signature for Java 轻松检索和打印文档属性（例如格式、大小、页数等），释放文档管理的强大功能。本教程将指导您设置环境、实现各种功能，并在实际场景中应用这些功能。
 

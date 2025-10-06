@@ -9,8 +9,8 @@ weight: 1
 url: "/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 categories: [".NET Development"]
 tags: ["GroupDocs.Signature", "digital-signatures", "C#", "document-signing", "electronic-signatures"]
+type: docs
 ---
-
 # GroupDocs.Signature .NET Tutorial: Complete Guide to Digital Document Signing
 
 ## Introduction

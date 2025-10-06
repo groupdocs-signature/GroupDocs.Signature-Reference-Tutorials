@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met QR-codes met GroupDocs.Signature voor Java"
 "url": "/nl/java/qr-code-signatures/sign-pdfs-with-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF-documenten ondertekenen met QR-codes met GroupDocs.Signature voor Java
 
 In het digitale tijdperk van vandaag is het veilig ondertekenen van documenten belangrijker dan ooit. Of u nu een professional bent of een particulier die uw bestanden wilt verifiëren, de juiste tools kunnen het verschil maken. Deze tutorial begeleidt u bij het gebruik ervan. **GroupDocs.Signature voor Java** PDF-documenten ondertekenen met QR-codes die complexe gegevens bevatten, zoals Mailmark2D-objecten. We behandelen alles, van het instellen van uw omgeving tot het implementeren van geavanceerde functies.

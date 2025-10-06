@@ -4,8 +4,8 @@
 "title": "Hur man signerar dokument med hjälp av textklistermärken i GroupDocs.Signature för .NET"
 "url": "/sv/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar dokument med textklistermärken i GroupDocs.Signature för .NET
 
 ## Introduktion

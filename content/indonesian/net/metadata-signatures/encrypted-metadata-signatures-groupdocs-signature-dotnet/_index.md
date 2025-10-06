@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Tanda Tangan Metadata Terenkripsi dengan GroupDocs.Signature untuk .NET | Panduan Lengkap"
 "url": "/id/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Tanda Tangan Metadata Terenkripsi dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

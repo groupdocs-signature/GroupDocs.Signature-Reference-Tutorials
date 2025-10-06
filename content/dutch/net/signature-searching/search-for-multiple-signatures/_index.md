@@ -5,8 +5,8 @@
 "title": "Zoeken naar meerdere handtekeningtypen in documenten"
 "url": "/nl/net/signature-searching/search-for-multiple-signatures/"
 "weight": 14
+type: docs
 ---
-
 ## Invoering
 
 In moderne documentmanagementsystemen wordt de mogelijkheid om meerdere handtekeningtypen binnen één document te zoeken en te valideren steeds belangrijker. Organisaties gebruiken vaak verschillende handtekeningtypen – zoals digitale handtekeningen, teksthandtekeningen, barcodes, QR-codes en meer – om de documentbeveiliging te verbeteren en verificatieprocessen te stroomlijnen. GroupDocs.Signature voor .NET biedt een krachtig framework waarmee ontwikkelaars uitgebreide zoekfunctionaliteit voor handtekeningen kunnen implementeren in verschillende documentformaten.

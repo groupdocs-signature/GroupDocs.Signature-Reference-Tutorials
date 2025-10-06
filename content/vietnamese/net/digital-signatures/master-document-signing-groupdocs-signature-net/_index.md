@@ -4,8 +4,8 @@
 "title": "Chữ ký và xác minh tài liệu chính với GroupDocs.Signature cho .NET"
 "url": "/vi/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Chữ ký và xác minh tài liệu chính với GroupDocs.Signature cho .NET
 
 ## Cách thành thạo việc ký và xác minh tài liệu với GroupDocs.Signature cho .NET

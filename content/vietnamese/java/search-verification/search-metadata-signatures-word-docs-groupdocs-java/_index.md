@@ -4,8 +4,8 @@
 "title": "Cách tìm kiếm chữ ký siêu dữ liệu trong tài liệu Word bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/search-verification/search-metadata-signatures-word-docs-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách tìm kiếm chữ ký siêu dữ liệu trong tài liệu Word bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

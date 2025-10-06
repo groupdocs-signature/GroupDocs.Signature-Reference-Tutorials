@@ -4,8 +4,8 @@
 "title": "Dokumentumtulajdonságok lekérésének elsajátítása a GroupDocs.Signature for Java segítségével – Átfogó útmutató"
 "url": "/hu/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumtulajdonságok lekérésének elsajátítása a GroupDocs.Signature for Java segítségével
 Használja ki a dokumentumkezelés erejét a GroupDocs.Signature for Java segítségével, amellyel könnyedén lekérheti és kinyomtathatja a dokumentumtulajdonságokat, például a formátumot, a méretet, az oldalszámot és egyebeket. Ez az átfogó oktatóanyag végigvezeti Önt a környezet beállításán, a különböző funkciók megvalósításán és ezen képességek valós helyzetekben történő alkalmazásán.
 

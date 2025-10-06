@@ -4,8 +4,8 @@
 "title": "Firma i documenti di presentazione con metadati utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare un documento di presentazione con metadati utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

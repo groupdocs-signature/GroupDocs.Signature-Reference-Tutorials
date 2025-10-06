@@ -4,8 +4,8 @@
 "title": "Newtonsoft.Json 및 GroupDocs.Signature를 사용한 .NET에서의 사용자 지정 JSON 직렬화 완전 가이드"
 "url": "/ko/net/advanced-options/custom-json-serialization-newtonsoft-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Newtonsoft.Json 및 GroupDocs.Signature를 사용한 .NET에서의 사용자 지정 JSON 직렬화에 대한 포괄적인 가이드
 
 ## 소개

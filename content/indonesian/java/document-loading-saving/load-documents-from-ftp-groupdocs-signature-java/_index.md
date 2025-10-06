@@ -4,8 +4,8 @@
 "title": "Memuat Dokumen dari Server FTP dengan GroupDocs.Signature untuk Java"
 "url": "/id/java/document-loading-saving/load-documents-from-ftp-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Memuat Dokumen dari Server FTP Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

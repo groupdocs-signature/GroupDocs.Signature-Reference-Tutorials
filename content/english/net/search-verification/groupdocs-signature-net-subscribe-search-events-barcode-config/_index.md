@@ -9,8 +9,8 @@ weight: 1
 url: "/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 categories: ["NET Development"]
 tags: ["groupdocs", "digital-signatures", "document-processing", "barcode-search"]
+type: docs
 ---
-
 # GroupDocs Signature NET Tutorial - Complete Event Handling Guide
 
 ## Introduction

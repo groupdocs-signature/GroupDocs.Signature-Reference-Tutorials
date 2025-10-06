@@ -4,8 +4,8 @@
 "title": "Mastering Retrieving Property Document Retriever με το GroupDocs.Signature for Java - Ένας πλήρης οδηγός"
 "url": "/el/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Mastering Retrieving Property Document Retriever με το GroupDocs.Signature για Java
 Ξεκλειδώστε τη δύναμη της διαχείρισης εγγράφων αξιοποιώντας το GroupDocs.Signature για Java για να ανακτήσετε και να εκτυπώσετε εύκολα ιδιότητες εγγράφων, όπως μορφή, μέγεθος, αριθμό σελίδων και άλλα. Αυτό το ολοκληρωμένο σεμινάριο θα σας καθοδηγήσει στη ρύθμιση του περιβάλλοντός σας, στην υλοποίηση διαφόρων λειτουργιών και στην εφαρμογή αυτών των δυνατοτήτων σε πραγματικά σενάρια.
 

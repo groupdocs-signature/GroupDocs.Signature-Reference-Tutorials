@@ -4,8 +4,8 @@
 "title": "كيفية إنشاء ملفات PDF وتوقيعها باستخدام الباركود باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية إنشاء ملفات PDF وتوقيعها باستخدام الباركود باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

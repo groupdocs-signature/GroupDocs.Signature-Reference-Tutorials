@@ -4,8 +4,8 @@
 "title": "Menerapkan Penandatanganan PDF Aman dengan Enkripsi Kode QR di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/qr-code-signatures/secure-pdf-signing-qr-code-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Penandatanganan PDF Aman dengan Enkripsi Kode QR di Java Menggunakan GroupDocs.Signature
 
 Di era digital saat ini, mengamankan informasi sensitif dalam dokumen sangatlah penting. Maraknya ancaman siber telah menjadikan enkripsi data sebagai bagian penting dari manajemen dokumen. Tutorial ini memandu Anda dalam menerapkan penandatanganan PDF yang aman menggunakan enkripsi kode QR dengan GroupDocs.Signature untuk Java. Di akhir artikel ini, Anda akan siap untuk mengintegrasikan fitur keamanan yang tangguh ke dalam aplikasi Anda.

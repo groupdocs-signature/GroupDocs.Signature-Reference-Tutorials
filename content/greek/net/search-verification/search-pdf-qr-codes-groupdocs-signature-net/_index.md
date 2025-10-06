@@ -4,8 +4,8 @@
 "title": "Πώς να αναζητήσετε PDF για υπογραφές QR-Code και να εξαγάγετε δεδομένα VCard χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αναζητήσετε PDF εγγράφων για υπογραφές QR-Code και να εξαγάγετε δεδομένα VCard χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature でスプレッドシートのメタデータを簡単に抽出"
 "url": "/ja/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # GroupDocs.Signature を使用してスプレッドシートからメタデータを抽出する方法
 
 ## スプレッドシートのメタデータが重要な理由

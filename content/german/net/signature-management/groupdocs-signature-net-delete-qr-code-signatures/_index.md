@@ -4,8 +4,8 @@
 "title": "So löschen Sie QR-Code-Signaturen nach ID mit GroupDocs.Signature für .NET"
 "url": "/de/net/signature-management/groupdocs-signature-net-delete-qr-code-signatures/"
 "weight": 1
+type: docs
 ---
-
 # So löschen Sie QR-Code-Signaturen nach ID mit GroupDocs.Signature für .NET
 
 ## Einführung

@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature para Java&#58; Eliminar y buscar firmas de texto en archivos PDF"
 "url": "/es/java/signature-management/mastering-groupdocs-signature-delete-search-text-signatures-pdfs-java/"
 "weight": 1
+type: docs
 ---
-
 # Master GroupDocs.Signature para Java: Eliminar y buscar firmas de texto en archivos PDF
 
 En la era digital actual, la gestión eficiente de documentos electrónicos es crucial. Un desafío común para los desarrolladores es la gestión de firmas de texto en documentos PDF, ya sea para garantizar que se apliquen correctamente o para eliminarlas cuando sea necesario. **GroupDocs.Signature para Java**Una potente biblioteca diseñada para gestionar estas tareas con precisión y facilidad. Este tutorial le guiará en el proceso de eliminación y búsqueda de firmas de texto en archivos PDF con GroupDocs.Signature para Java.

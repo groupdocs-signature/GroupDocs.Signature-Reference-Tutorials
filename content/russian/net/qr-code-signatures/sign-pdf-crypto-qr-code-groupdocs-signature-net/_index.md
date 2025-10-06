@@ -4,8 +4,8 @@
 "title": "Подпишите PDF-файл с помощью QR-кода криптовалюты с помощью GroupDocs.Signature для .NET&#58; подробное руководство"
 "url": "/ru/net/qr-code-signatures/sign-pdf-crypto-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать PDF-документ с помощью QR-кодов криптовалюты с помощью GroupDocs.Signature для .NET
 
 ## Введение

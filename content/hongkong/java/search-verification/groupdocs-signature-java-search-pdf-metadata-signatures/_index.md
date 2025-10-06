@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 搜尋和驗證 PDF 元資料簽名"
 "url": "/zh-hant/java/search-verification/groupdocs-signature-java-search-pdf-metadata-signatures/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 實作 PDF 元資料簽章搜尋
 
 ## 介紹

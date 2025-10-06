@@ -4,8 +4,8 @@
 "title": "การค้นหาลายเซ็นเมตาดาต้าที่ปลอดภัยใน .NET ด้วย GroupDocs.Signature และการเข้ารหัส"
 "url": "/th/net/metadata-signatures/groupdocs-signature-net-encryption-metadata-search/"
 "weight": 1
+type: docs
 ---
-
 # การค้นหาลายเซ็นเมตาดาต้าที่ปลอดภัยใน .NET ด้วย GroupDocs.Signature และการเข้ารหัส
 
 ## การแนะนำ

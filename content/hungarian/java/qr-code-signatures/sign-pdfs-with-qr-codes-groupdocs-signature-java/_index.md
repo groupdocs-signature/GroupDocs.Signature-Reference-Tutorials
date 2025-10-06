@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása QR-kódokkal a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/qr-code-signatures/sign-pdfs-with-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentumok aláírása QR-kódokkal a GroupDocs.Signature for Java használatával
 
 A mai digitális korban a dokumentumok biztonságos aláírása minden eddiginél fontosabb. Akár üzleti szakember, akár magánszemély, aki hitelesíteni szeretné fájljait, a megfelelő eszközök mindent megváltoztathatnak. Ez az oktatóanyag végigvezeti Önt a használatán. **GroupDocs.Signature Java-hoz** PDF dokumentumok aláírásához QR-kódokkal, amelyek összetett adatokat, például Mailmark2D objektumokat tartalmaznak. Mindent lefedünk a környezet beállításától a fejlett funkciók megvalósításáig.

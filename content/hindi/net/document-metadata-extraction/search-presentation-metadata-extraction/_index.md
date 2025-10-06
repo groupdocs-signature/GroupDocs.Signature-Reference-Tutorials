@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature के साथ आसानी से प्रस्तुति मेटाडेटा निकालें"
 "url": "/hi/net/document-metadata-extraction/search-presentation-metadata-extraction/"
 "weight": 12
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके प्रस्तुतियों से मेटाडेटा कैसे निकालें
 
 ## आपकी परियोजनाओं के लिए प्रस्तुति मेटाडेटा क्यों महत्वपूर्ण है

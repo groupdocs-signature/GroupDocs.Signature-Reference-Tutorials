@@ -4,8 +4,8 @@
 "title": "Implementieren Sie eine Textsignatur mit Solid Brush in Java mithilfe von GroupDocs.Signature"
 "url": "/de/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren Sie eine Textsignatur mit Solid Brush in Java
 
 ## Einführung

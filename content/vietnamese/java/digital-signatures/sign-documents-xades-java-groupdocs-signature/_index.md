@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu bằng XAdES trong Java bằng GroupDocs.Signature - Hướng dẫn từng bước"
 "url": "/vi/java/digital-signatures/sign-documents-xades-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu bằng XAdES trong Java bằng GroupDocs.Signature: Hướng dẫn từng bước
 
 ## Giới thiệu

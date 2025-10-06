@@ -4,8 +4,8 @@
 "title": "Dominando o gerenciamento de metadados de imagem em .NET com GroupDocs.Signature"
 "url": "/pt/net/metadata-signatures/mastering-image-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Dominando o gerenciamento de metadados de imagem em .NET com GroupDocs.Signature
 
 No mundo digital de hoje, o gerenciamento de metadados de imagens é crucial em diversas aplicações, como verificação de documentos legais e gerenciamento de ativos digitais. Se você busca otimizar o gerenciamento de metadados de imagens em seus projetos .NET, este guia abrangente ajudará você a utilizar o GroupDocs.Signature para .NET — uma ferramenta poderosa projetada para aprimorar sua capacidade de pesquisar e recuperar assinaturas de metadados de imagens.

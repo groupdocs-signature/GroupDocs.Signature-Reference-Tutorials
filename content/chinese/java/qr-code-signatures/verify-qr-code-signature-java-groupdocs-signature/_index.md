@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中验证二维码签名——综合指南"
 "url": "/zh/java/qr-code-signatures/verify-qr-code-signature-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中验证二维码签名
 
 ## 介绍

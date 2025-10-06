@@ -4,8 +4,8 @@
 "title": "Αποτελεσματική αναζήτηση υπογραφών σε αρχεία αρχειοθέτησης χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Αποτελεσματική αναζήτηση υπογραφών σε αρχεία αρχειοθέτησης χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

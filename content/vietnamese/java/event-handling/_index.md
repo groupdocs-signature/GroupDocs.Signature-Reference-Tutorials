@@ -3,8 +3,8 @@
 "title": "Hướng dẫn xử lý sự kiện và quản lý quy trình cho GroupDocs.Signature Java"
 "url": "/vi/java/event-handling/"
 "weight": 15
+type: docs
 ---
-
 # Hướng dẫn xử lý sự kiện và quản lý quy trình cho GroupDocs.Signature Java
 
 Hướng dẫn xử lý sự kiện và quản lý quy trình của chúng tôi trình bày cách tạo các ứng dụng ký đáp ứng bằng GroupDocs.Signature trong Java. Các hướng dẫn từng bước này bao gồm việc đăng ký sự kiện chữ ký, triển khai hủy cho các hoạt động tìm kiếm và ký, xử lý ngoại lệ và giám sát trạng thái xử lý. Mỗi hướng dẫn đều bao gồm các ví dụ mã Java chi tiết để triển khai xử lý sự kiện phù hợp, giúp bạn xây dựng các ứng dụng mạnh mẽ, cung cấp phản hồi người dùng tốt hơn, xử lý lỗi và kiểm soát các hoạt động chữ ký.

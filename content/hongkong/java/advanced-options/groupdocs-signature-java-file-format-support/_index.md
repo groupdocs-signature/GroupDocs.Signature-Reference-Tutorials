@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java 中的主文件格式支援－綜合指南"
 "url": "/zh-hant/java/advanced-options/groupdocs-signature-java-file-format-support/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java 中的主文件格式支援：綜合指南
 
 ## 介紹

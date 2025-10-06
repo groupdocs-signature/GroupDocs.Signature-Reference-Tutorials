@@ -4,8 +4,8 @@
 "title": "التحقق من المستندات باستخدام توقيعات رمز الاستجابة السريعة في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/search-verification/verify-documents-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية التحقق من صحة المستندات باستخدام توقيعات رمز الاستجابة السريعة (QR Code) باستخدام GroupDocs.Signature في Java
 
 ## مقدمة

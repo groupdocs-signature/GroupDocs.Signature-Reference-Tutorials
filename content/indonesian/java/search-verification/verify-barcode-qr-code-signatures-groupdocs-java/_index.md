@@ -4,8 +4,8 @@
 "title": "Cara Memverifikasi Kode Batang & Kode QR dalam Dokumen Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/search-verification/verify-barcode-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Verifikasi Kode Batang dan Kode QR dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

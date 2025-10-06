@@ -3,8 +3,8 @@
 "title": "Zelfstudies voor afbeeldinghandtekeningen voor GroupDocs.Signature .NET"
 "url": "/nl/net/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Zelfstudies voor afbeeldinghandtekeningen voor GroupDocs.Signature .NET
 
 Leer hoe u documenten kunt verbeteren met visuele handtekeningen met behulp van onze GroupDocs.Signature .NET-zelfstudies over beeldhandtekeningen. Deze gedetailleerde handleidingen laten zien hoe u afbeeldingen als handtekeningen kunt toevoegen, stempelhandtekeningen kunt maken, watermerken kunt implementeren, weergave-instellingen kunt aanpassen en kunt werken met opties voor de uitlijning en grootte van afbeeldingen. Elke zelfstudie bevat werkende C#-codevoorbeelden die laten zien hoe u visueel aantrekkelijke handtekeningen kunt maken die authenticiteit of branding effectief communiceren en tegelijkertijd de integriteit van het document behouden.

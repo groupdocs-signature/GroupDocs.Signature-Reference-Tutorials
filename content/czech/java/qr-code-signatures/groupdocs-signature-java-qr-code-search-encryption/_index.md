@@ -4,8 +4,8 @@
 "title": "Vyhledávání a šifrování QR kódů v Javě – Master GroupDocs.Signature pro bezpečnou manipulaci s dokumenty"
 "url": "/cs/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Vyhledávání a šifrování QR kódů v Javě: Zvládněte GroupDocs.Signature pro bezpečnou manipulaci s dokumenty
 
 ## Zavedení

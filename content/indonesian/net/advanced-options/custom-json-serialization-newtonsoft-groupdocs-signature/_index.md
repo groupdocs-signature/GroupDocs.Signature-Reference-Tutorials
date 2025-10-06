@@ -4,8 +4,8 @@
 "title": "Serialisasi JSON Kustom di .NET dengan Newtonsoft.Json & GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/net/advanced-options/custom-json-serialization-newtonsoft-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Lengkap Serialisasi JSON Kustom di .NET Menggunakan Newtonsoft.Json dan GroupDocs.Signature
 
 ## Perkenalan

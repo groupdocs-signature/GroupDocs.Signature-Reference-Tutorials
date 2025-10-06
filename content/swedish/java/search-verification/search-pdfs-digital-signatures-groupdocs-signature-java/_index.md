@@ -4,8 +4,8 @@
 "title": "Så här söker du efter digitala signaturer i PDF-filer med GroupDocs.Signature för Java"
 "url": "/sv/java/search-verification/search-pdfs-digital-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Så här söker du efter digitala signaturer i PDF-filer med GroupDocs.Signature för Java
 
 ## Introduktion

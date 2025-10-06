@@ -4,8 +4,8 @@
 "title": "Podpisuj i zapisuj arkusze kalkulacyjne programu Excel za pomocą kodów QR w języku Java przy użyciu GroupDocs.Signature"
 "url": "/pl/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Podpisuj i zapisuj arkusze kalkulacyjne programu Excel za pomocą kodów QR w języku Java przy użyciu GroupDocs.Signature
 
 ## Wstęp

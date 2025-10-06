@@ -4,8 +4,8 @@
 "title": "Aktualizowanie i wyszukiwanie podpisów obrazkowych w plikach PDF za pomocą języka Java z funkcją GroupDocs.Signature"
 "url": "/pl/java/signature-management/update-search-image-signatures-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Aktualizuj i przeszukuj podpisy obrazów w plikach PDF za pomocą Java
 
 ## Wstęp

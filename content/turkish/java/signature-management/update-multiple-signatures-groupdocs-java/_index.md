@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak PDF'lerdeki Birden Çok İmzayı Verimli Şekilde Güncelleyin"
 "url": "/tr/java/signature-management/update-multiple-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak PDF'lerdeki Birden Çok İmzayı Verimli Şekilde Güncelleyin
 
 Özellikle sözleşmeler veya resmi evraklarla uğraşırken dijital iş akışlarına güvenen işletmeler için elektronik imzaları yönetmek hayati önem taşıyor. **Java için GroupDocs.Signature** Bir PDF belgesindeki birden fazla imzayı verimli bir şekilde güncellemeyi kolaylaştırır. Bu eğitim, süreç boyunca size rehberlik edecektir.

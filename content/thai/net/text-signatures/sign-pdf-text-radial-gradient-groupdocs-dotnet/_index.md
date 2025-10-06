@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามใน PDF ด้วยลายเซ็นข้อความและการไล่ระดับแบบรัศมีใน .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามใน PDF ด้วยลายเซ็นข้อความและการไล่ระดับแบบรัศมีใน .NET โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

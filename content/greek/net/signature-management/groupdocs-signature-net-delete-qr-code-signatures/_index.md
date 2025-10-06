@@ -4,8 +4,8 @@
 "title": "Πώς να διαγράψετε υπογραφές QR-Code ανά ID χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/signature-management/groupdocs-signature-net-delete-qr-code-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να διαγράψετε υπογραφές QR-Code ανά ID χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

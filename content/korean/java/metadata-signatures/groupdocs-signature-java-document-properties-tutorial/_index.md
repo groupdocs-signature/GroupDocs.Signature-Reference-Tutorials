@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java를 활용한 문서 속성 검색 마스터하기&#58; 종합 가이드"
 "url": "/ko/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용한 문서 속성 검색 마스터하기
 Java용 GroupDocs.Signature를 활용하여 형식, 크기, 페이지 수 등의 문서 속성을 손쉽게 검색하고 인쇄하여 문서 관리의 힘을 경험해 보세요. 이 포괄적인 튜토리얼은 환경 설정, 다양한 기능 구현, 그리고 실제 상황에 적용하는 방법을 안내합니다.
 

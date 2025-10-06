@@ -5,8 +5,8 @@
 "title": "如何在 .NET 中使用表單欄位簽署 PDF 文檔"
 "url": "/zh-hant/net/advanced-signature-techniques/sign-pdf-form-field/"
 "weight": 10
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 對包含表單欄位的 PDF 文件進行簽名
 
 您是否正在尋找一種可靠的方法，為包含表單欄位的 PDF 文件添加數位簽章？在本指南中，我們將引導您使用 GroupDocs.Signature for .NET 完成整個過程。讓我們用安全且具有法律約束力的簽名來革新您的文件工作流程！

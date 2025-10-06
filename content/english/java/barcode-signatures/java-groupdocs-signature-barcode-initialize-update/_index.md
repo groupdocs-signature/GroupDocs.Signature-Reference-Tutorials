@@ -9,8 +9,8 @@ weight: 1
 url: "/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 categories: ["Java Document Processing"]
 tags: ["barcode-signatures", "pdf-automation", "groupdocs-java", "document-management"]
+type: docs
 ---
-
 # Update Barcode Signature Java: Complete Guide to PDF Document Automation
 
 ## Introduction

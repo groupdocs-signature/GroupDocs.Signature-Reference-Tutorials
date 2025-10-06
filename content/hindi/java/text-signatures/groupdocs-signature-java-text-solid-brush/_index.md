@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में सॉलिड ब्रश के साथ टेक्स्ट सिग्नेचर लागू करें"
 "url": "/hi/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # जावा में सॉलिड ब्रश के साथ टेक्स्ट सिग्नेचर लागू करें
 
 ## परिचय

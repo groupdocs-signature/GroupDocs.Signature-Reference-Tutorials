@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing"]
 tags: ["PDF-metadata", "dotnet", "document-security", "GroupDocs"]
+type: docs
 ---
-
 # How to Extract PDF Metadata .NET
 
 ## Why Extract PDF Metadata? (And Why You Should Care)

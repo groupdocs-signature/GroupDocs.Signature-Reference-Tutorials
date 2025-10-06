@@ -5,8 +5,8 @@
 "title": "Jak usunąć podpisy według identyfikatora w dokumentach .NET"
 "url": "/pl/net/delete-operations/delete-signature-by-id/"
 "weight": 11
+type: docs
 ---
-
 # Jak usunąć podpisy według identyfikatora w dokumentach .NET
 
 ## Dlaczego warto usuwać podpisy z dokumentów?

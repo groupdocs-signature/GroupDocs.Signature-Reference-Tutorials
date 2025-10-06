@@ -4,8 +4,8 @@
 "title": "So aktualisieren Sie Dokumentsignaturen mit GroupDocs.Signature für Java"
 "url": "/de/java/signature-management/update-document-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # So aktualisieren Sie Dokumentsignaturen mit GroupDocs.Signature für Java
 
 ## Einführung

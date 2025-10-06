@@ -4,8 +4,8 @@
 "title": "Como assinar planilhas do Excel com metadados usando GroupDocs.Signature para .NET"
 "url": "/pt/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Como assinar planilhas do Excel com metadados usando GroupDocs.Signature para .NET
 
 ## Introdução

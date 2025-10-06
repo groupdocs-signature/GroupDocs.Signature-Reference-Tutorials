@@ -4,8 +4,8 @@
 "title": "كيفية البحث عن توقيعات بيانات تعريف PDF باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/metadata-signatures/master-pdf-metadata-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية البحث عن توقيعات بيانات تعريف PDF باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

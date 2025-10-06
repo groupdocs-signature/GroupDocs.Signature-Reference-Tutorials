@@ -4,8 +4,8 @@
 "title": "Κατανόηση των ψηφιακών υπογραφών εγγράφων με το GroupDocs για Java - Ένας πλήρης οδηγός"
 "url": "/el/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με τις ψηφιακές υπογραφές εγγράφων με το GroupDocs για Java
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Java ve GroupDocs.Signature Kullanarak PDF'lerde QR Kod İmza Aramasını Uygulama"
 "url": "/tr/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Java Kullanarak PDF'lerde QR Kod İmza Aramasını Uygulama
 
 ## giriiş

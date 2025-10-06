@@ -4,8 +4,8 @@
 "title": "Master-Textsignaturverwaltung in .NET mit GroupDocs.Signature"
 "url": "/de/net/signature-management/master-text-signature-management-dotnet-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Textsignaturverwaltung in .NET mit GroupDocs.Signature meistern
 
 ## Einführung

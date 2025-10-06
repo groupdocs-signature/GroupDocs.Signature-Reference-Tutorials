@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Belgelerdeki Görüntü İmzalarını Arama ve Güncelleme"
 "url": "/tr/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Belgelerdeki Görüntü İmzalarını Arama ve Güncelleme
 
 ## giriiş

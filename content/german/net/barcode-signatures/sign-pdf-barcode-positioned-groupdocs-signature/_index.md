@@ -4,8 +4,8 @@
 "title": "So signieren Sie PDFs mit präzise positionierten Barcodes mithilfe von GroupDocs.Signature für .NET"
 "url": "/de/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie ein PDF-Dokument mit präzise positionierten Barcodes mithilfe von GroupDocs.Signature für .NET
 
 ## Einführung

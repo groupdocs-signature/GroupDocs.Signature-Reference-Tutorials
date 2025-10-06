@@ -4,8 +4,8 @@
 "title": "Documentmetadata versleutelen en ondertekenen met GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/metadata-signatures/encrypt-sign-metadata-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Documentmetadata versleutelen en ondertekenen met GroupDocs.Signature voor Java: een uitgebreide handleiding
 
 ## Invoering

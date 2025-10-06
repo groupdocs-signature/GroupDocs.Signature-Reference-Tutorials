@@ -4,8 +4,8 @@
 "title": "Jak odstranit podpisy čárových kódů v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/signature-management/delete-barcode-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit podpisy čárových kódů v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Memperbarui Tanda Tangan Kode QR dalam PDF dengan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/qr-code-signatures/update-qr-code-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Memperbarui Tanda Tangan Kode QR dalam PDF dengan GroupDocs.Signature untuk Java: Panduan Lengkap
 
 ## Perkenalan

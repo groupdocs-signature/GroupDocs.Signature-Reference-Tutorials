@@ -4,8 +4,8 @@
 "title": "Zvládnutí podepisování dokumentů v .NET&#58; Podpisy čárovými a QR kódy s GroupDocs.Signature"
 "url": "/cs/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí podepisování dokumentů v .NET: Implementace podpisů čárovými a QR kódy pomocí GroupDocs.Signature
 
 ## Zavedení

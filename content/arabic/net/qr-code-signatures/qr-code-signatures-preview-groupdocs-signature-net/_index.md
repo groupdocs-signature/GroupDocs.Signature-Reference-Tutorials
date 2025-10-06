@@ -4,8 +4,8 @@
 "title": "معاينات توقيع رمز الاستجابة السريعة (QR Code) باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ معاينات توقيع رمز الاستجابة السريعة (QR Code) باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

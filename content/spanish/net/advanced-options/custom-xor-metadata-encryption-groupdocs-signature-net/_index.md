@@ -4,8 +4,8 @@
 "title": "Cifrado avanzado de metadatos XOR con GroupDocs.Signature para .NET&#58; una guía completa"
 "url": "/es/net/advanced-options/custom-xor-metadata-encryption-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cifrado avanzado de metadatos XOR con GroupDocs.Signature para .NET
 
 ## Introducción

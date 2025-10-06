@@ -4,8 +4,8 @@
 "title": "Bezpečné vyhledávání podpisů metadat v .NET pomocí GroupDocs.Signature a šifrování"
 "url": "/cs/net/metadata-signatures/groupdocs-signature-net-encryption-metadata-search/"
 "weight": 1
+type: docs
 ---
-
 # Bezpečné vyhledávání podpisů metadat v .NET pomocí GroupDocs.Signature a šifrování
 
 ## Zavedení

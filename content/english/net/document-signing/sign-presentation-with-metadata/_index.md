@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Signing"]
 tags: ["powerpoint", "metadata", "csharp", "dotnet", "groupdocs"]
+type: docs
 ---
-
 ## Why Your PowerPoint Presentations Need Metadata (And How to Add It)
 
 Ever wondered who created that important presentation floating around your company? Or when it was last updated? You're not alone. In today's digital workplace, tracking presentation authenticity and ownership has become crucial—especially when dealing with sensitive business content or educational materials.

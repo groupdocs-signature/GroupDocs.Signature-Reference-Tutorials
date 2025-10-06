@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中进行安全元数据搜索——综合指南"
 "url": "/zh/java/search-verification/secure-metadata-search-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中进行安全元数据搜索
 
 ## 介绍

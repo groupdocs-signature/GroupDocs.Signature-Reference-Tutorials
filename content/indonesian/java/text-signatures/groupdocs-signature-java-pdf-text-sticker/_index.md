@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan Stiker Teks Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF dengan Stiker Teks Menggunakan GroupDocs.Signature untuk Java: Panduan Lengkap
 
 ## Perkenalan

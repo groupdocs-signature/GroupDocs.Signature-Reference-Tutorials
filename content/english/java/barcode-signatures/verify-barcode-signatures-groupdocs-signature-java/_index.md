@@ -9,8 +9,8 @@ weight: 1
 url: "/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 categories: ["Java Tutorials"]
 tags: ["barcode-verification", "document-security", "java-libraries", "digital-signatures"]
+type: docs
 ---
-
 # How to Verify Barcode Signatures in Java Using GroupDocs.Signature
 
 ## Introduction

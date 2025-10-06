@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF με υπογραφές εικόνας στο .NET χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/image-signatures/professional-pdf-signature-image-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε PDF με υπογραφές εικόνας στο .NET χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

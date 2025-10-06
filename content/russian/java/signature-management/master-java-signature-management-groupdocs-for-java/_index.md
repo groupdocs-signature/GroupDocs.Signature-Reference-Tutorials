@@ -4,8 +4,8 @@
 "title": "Освойте управление подписями Java с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/signature-management/master-java-signature-management-groupdocs-for-java/"
 "weight": 1
+type: docs
 ---
-
 # Освоение управления подписями Java с помощью GroupDocs.Signature для Java
 
 ## Введение

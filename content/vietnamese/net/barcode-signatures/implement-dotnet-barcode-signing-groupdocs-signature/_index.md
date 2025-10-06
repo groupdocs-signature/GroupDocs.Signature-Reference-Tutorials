@@ -4,8 +4,8 @@
 "title": "Cách triển khai chữ ký mã vạch .NET với GroupDocs.Signature - Hướng dẫn đầy đủ dành cho nhà phát triển"
 "url": "/vi/net/barcode-signatures/implement-dotnet-barcode-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký mã vạch .NET với GroupDocs.Signature: Hướng dẫn đầy đủ dành cho nhà phát triển
 
 ## Giới thiệu

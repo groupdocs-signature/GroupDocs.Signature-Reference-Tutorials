@@ -4,8 +4,8 @@
 "title": "Bemästra hämtning av dokumentegenskaper med GroupDocs.Signature för Java - En omfattande guide"
 "url": "/sv/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Behärska hämtning av dokumentegenskaper med GroupDocs.Signature för Java
 Lås upp kraften i dokumenthantering genom att utnyttja GroupDocs.Signature för Java för att enkelt hämta och skriva ut dokumentegenskaper som format, storlek, sidantal med mera. Den här omfattande handledningen guidar dig genom att konfigurera din miljö, implementera olika funktioner och tillämpa dessa funktioner i verkliga scenarier.
 

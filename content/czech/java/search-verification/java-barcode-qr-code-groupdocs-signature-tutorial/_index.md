@@ -4,8 +4,8 @@
 "title": "Průvodce vyhledáváním čárových a QR kódů v Javě s GroupDocs.Signature pro bezpečné ověřování dokumentů"
 "url": "/cs/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Implementace Javy pro vyhledávání čárových kódů, QR kódů a metadatových podpisů pomocí GroupDocs.Signature
 
 ## Zavedení

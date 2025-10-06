@@ -4,8 +4,8 @@
 "title": "Jak stahovat soubory z Amazonu S3 pomocí AWS SDK pro Javu s integrací GroupDocs.Signature"
 "url": "/cs/java/advanced-options/download-files-amazon-s3-aws-sdk-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak stahovat soubory z Amazonu S3 pomocí AWS SDK pro Javu s integrací GroupDocs.Signature
 
 ## Zavedení

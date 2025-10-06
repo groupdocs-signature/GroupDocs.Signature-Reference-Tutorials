@@ -4,8 +4,8 @@
 "title": "Υπογραφή εγγράφων χρησιμοποιώντας εικόνες Base64 σε Java με το GroupDocs.Signature"
 "url": "/el/java/image-signatures/sign-document-base64-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα έγγραφο χρησιμοποιώντας μια εικόνα κωδικοποιημένη με Base64 με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

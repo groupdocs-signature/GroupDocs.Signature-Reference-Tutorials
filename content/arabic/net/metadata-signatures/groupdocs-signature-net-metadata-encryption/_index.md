@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ تشفير توقيع البيانات الوصفية في .NET باستخدام GroupDocs.Signature لتأمين ملفات PDF"
 "url": "/ar/net/metadata-signatures/groupdocs-signature-net-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ تشفير توقيع البيانات الوصفية في .NET باستخدام GroupDocs.Signature لتأمين ملفات PDF
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Xác minh tài liệu bằng chữ ký mã QR trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/search-verification/java-qr-code-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Xác minh tài liệu bằng chữ ký mã QR trong Java bằng GroupDocs.Signature
 
 Trong bối cảnh kỹ thuật số ngày nay, việc xác minh tài liệu để đảm bảo tính xác thực và toàn vẹn của chúng là vô cùng quan trọng. Với khả năng xác minh tài liệu chứa chữ ký mã QR một cách dễ dàng bằng Java, GroupDocs.Signature for Java giúp đơn giản hóa quy trình này. Hướng dẫn toàn diện này sẽ hướng dẫn bạn cách xác minh tài liệu bằng chữ ký mã QR, nâng cao tính bảo mật và hiệu quả quy trình làm việc của bạn.

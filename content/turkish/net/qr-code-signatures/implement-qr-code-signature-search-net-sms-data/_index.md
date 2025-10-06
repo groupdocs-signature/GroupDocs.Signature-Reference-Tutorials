@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile SMS Veri Çıkarımı için .NET'te QR Kod İmza Aramasını Uygulama"
 "url": "/tr/net/qr-code-signatures/implement-qr-code-signature-search-net-sms-data/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak .NET'te QR Kod İmza Aramasını Uygulama
 
 ## giriiş

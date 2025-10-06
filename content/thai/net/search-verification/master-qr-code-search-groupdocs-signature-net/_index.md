@@ -4,8 +4,8 @@
 "title": "การค้นหา QR Code ขั้นสูงใน PDF โดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/search-verification/master-qr-code-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # เรียนรู้การค้นหา QR Code ใน PDF โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

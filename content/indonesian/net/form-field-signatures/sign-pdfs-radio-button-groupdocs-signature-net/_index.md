@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF Menggunakan Kolom Formulir Tombol Radio dengan GroupDocs.Signature untuk .NET"
 "url": "/id/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF Menggunakan Kolom Formulir Tombol Radio dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

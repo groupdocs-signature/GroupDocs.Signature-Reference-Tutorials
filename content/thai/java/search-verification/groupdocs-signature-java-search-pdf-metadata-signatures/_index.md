@@ -4,8 +4,8 @@
 "title": "วิธีการค้นหาและตรวจสอบลายเซ็นข้อมูลเมตาของ PDF โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/search-verification/groupdocs-signature-java-search-pdf-metadata-signatures/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้การค้นหาลายเซ็นเมตาดาต้า PDF โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

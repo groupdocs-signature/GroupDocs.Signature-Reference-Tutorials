@@ -4,8 +4,8 @@
 "title": "Zoek QR-codes in PDF's met GroupDocs.Signature voor .NET&#58; een complete handleiding"
 "url": "/nl/net/search-verification/master-qr-code-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # QR-code zoeken in PDF's onder de knie krijgen met GroupDocs.Signature voor .NET
 
 ## Invoering

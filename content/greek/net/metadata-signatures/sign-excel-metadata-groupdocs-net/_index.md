@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε υπολογιστικά φύλλα Excel με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε υπολογιστικά φύλλα Excel με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

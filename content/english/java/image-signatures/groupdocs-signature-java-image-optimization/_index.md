@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - QR code signatures on images
 - image optimization with GroupDocs
-
+type: docs
 ---
-
-
 # Mastering Image Signing and Optimization with GroupDocs.Signature for Java
 
 In today's digital landscape, securely signing documents is essential. Whether you're a business professional authenticating contracts or an individual protecting images, robust signing capabilities are crucial. **GroupDocs.Signature for Java** offers powerful features to create QR code signatures and optimize image save options seamlessly. This tutorial will guide you through harnessing these functionalities for effective document management.

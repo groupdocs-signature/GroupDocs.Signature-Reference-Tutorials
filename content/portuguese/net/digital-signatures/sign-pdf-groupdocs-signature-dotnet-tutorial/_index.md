@@ -4,8 +4,8 @@
 "title": "Assine PDFs facilmente - Guia passo a passo para usar o GroupDocs.Signature para .NET"
 "url": "/pt/net/digital-signatures/sign-pdf-groupdocs-signature-dotnet-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Como assinar um documento PDF usando o GroupDocs.Signature para .NET
 
 ## Introdução

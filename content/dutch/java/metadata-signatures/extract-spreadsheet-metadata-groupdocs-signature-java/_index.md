@@ -4,8 +4,8 @@
 "title": "Spreadsheetmetagegevens extraheren met GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Spreadsheetmetagegevens extraheren met GroupDocs.Signature voor Java
 
 ## Invoering

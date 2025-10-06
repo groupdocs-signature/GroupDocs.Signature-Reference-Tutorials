@@ -4,8 +4,8 @@
 "title": "Πώς να ακυρώσετε την επαλήθευση εγγράφου χρησιμοποιώντας το GroupDocs.Signature για Οδηγό χειρισμού συμβάντων .NET"
 "url": "/el/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να ακυρώσετε την επαλήθευση εγγράφου χρησιμοποιώντας το GroupDocs.Signature για .NET: Οδηγός χειρισμού συμβάντων
 
 ## Εισαγωγή

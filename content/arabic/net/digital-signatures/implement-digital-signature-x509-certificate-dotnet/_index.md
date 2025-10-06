@@ -4,8 +4,8 @@
 "title": "تنفيذ التوقيعات الرقمية في .NET باستخدام شهادات X.509 باستخدام GroupDocs.Signature"
 "url": "/ar/net/digital-signatures/implement-digital-signature-x509-certificate-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ التوقيعات الرقمية في .NET باستخدام شهادات X.509 باستخدام GroupDocs.Signature
 
 ## مقدمة

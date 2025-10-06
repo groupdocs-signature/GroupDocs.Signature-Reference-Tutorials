@@ -4,8 +4,8 @@
 "title": "Mesterszöveges aláírás keresése .NET-ben a GroupDocs.Signature használatával"
 "url": "/hu/net/search-verification/master-text-signature-search-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Szöveges aláíráskeresés elsajátítása .NET-ben a GroupDocs.Signature segítségével
 
 Szeretné automatizálni a dokumentumokban található szöveges aláírások azonosítását? Akár szerződések hitelességének ellenőrzéséről, akár hivatalos jóváhagyások nyomon követéséről van szó, a dokumentumok aláírásainak hatékony kezelése kihívást jelenthet. **GroupDocs.Signature .NET-hez**egyszerűsítse ezt a folyamatot a szöveges aláírások közvetlenül az alkalmazásaiból történő keresésével és szűrésével. Ez az oktatóanyag végigvezeti Önt a GroupDocs.Signature beállításán és használatán, hogy szöveges aláírásokat keressen a külső aláírások kihagyásával.

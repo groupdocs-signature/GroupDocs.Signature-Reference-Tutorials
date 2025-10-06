@@ -8,10 +8,8 @@ keywords:
 - delete multiple signatures
 - manage PDF signatures
 - GroupDocs.Signature for Java
-
+type: docs
 ---
-
-
 # How to Delete Multiple Signatures from PDFs Using GroupDocs.Signature for Java
 
 ## Introduction

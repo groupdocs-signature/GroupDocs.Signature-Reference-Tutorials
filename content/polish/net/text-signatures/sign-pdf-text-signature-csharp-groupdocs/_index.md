@@ -4,8 +4,8 @@
 "title": "Podpisywanie dokumentów PDF za pomocą podpisu tekstowego w języku C# przy użyciu GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/text-signatures/sign-pdf-text-signature-csharp-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Podpisywanie dokumentów PDF za pomocą podpisu tekstowego w języku C# przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

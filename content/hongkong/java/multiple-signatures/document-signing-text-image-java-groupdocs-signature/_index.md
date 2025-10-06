@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 Java 中對文字影像簽名文件進行簽名"
 "url": "/zh-hant/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 實作文字影像簽名的文件簽名
 
 ## 介紹

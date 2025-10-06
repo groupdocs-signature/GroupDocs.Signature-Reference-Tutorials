@@ -4,8 +4,8 @@
 "title": "Biztonságos és automatizált dokumentumaláírás a GroupDocs.Signature for .NET segítségével – Átfogó útmutató"
 "url": "/hu/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # Biztonságos és automatizált dokumentumaláírás a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

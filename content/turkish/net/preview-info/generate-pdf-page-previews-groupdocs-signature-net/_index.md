@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak PDF Sayfa Önizlemeleri Oluşturma Kapsamlı Bir Kılavuz"
 "url": "/tr/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak PDF Sayfa Önizlemeleri Oluşturma: Kapsamlı Bir Kılavuz
 
 ## giriiş

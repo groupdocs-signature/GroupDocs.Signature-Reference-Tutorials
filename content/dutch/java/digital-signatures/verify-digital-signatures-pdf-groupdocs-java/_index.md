@@ -4,8 +4,8 @@
 "title": "Digitale handtekeningen in PDF's verifiëren met GroupDocs.Signature voor Java&#58; een stapsgewijze handleiding"
 "url": "/nl/java/digital-signatures/verify-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Digitale handtekeningen in PDF's verifiëren met GroupDocs.Signature voor Java: een stapsgewijze handleiding
 
 ## Invoering

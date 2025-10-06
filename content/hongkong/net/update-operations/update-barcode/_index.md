@@ -5,8 +5,8 @@
 "title": "更新文件中的條碼簽名"
 "url": "/zh-hant/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## 介紹
 條碼簽章廣泛用於數位文件工作流程，用於對結構化資料進行編碼，從而實現高效的追蹤、識別和驗證。 GroupDocs.Signature for .NET 是一款全面的文件簽章解決方案，可協助開發人員將進階簽章功能整合到其應用程式中，包括更新文件中現有條碼簽章的功能。
 

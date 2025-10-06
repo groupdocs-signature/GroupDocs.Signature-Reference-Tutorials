@@ -4,8 +4,8 @@
 "title": "Cách tìm kiếm và cập nhật chữ ký hình ảnh trong tài liệu bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Cách tìm kiếm và cập nhật chữ ký hình ảnh trong tài liệu bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

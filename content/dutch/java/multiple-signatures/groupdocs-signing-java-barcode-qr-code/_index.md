@@ -4,8 +4,8 @@
 "title": "Implementeer barcode- en QR-codeondertekening in Java met behulp van GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/java/multiple-signatures/groupdocs-signing-java-barcode-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van barcode- en QR-codeondertekening in Java met GroupDocs.Signature
 
 In het huidige digitale landschap is het waarborgen van documentintegriteit essentieel. Of het nu gaat om het beheren van juridische contracten, facturen of verzendlabels, het behouden van authenticiteit is essentieel. **GroupDocs.Signature voor Java** Stroomlijnt dit proces door naadloze integratie van barcodes en QR-codes in documenten mogelijk te maken. Deze uitgebreide handleiding begeleidt u bij het implementeren van barcode- en QR-codeondertekening met GroupDocs.Signature voor Java.

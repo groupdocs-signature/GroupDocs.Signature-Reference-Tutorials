@@ -8,10 +8,8 @@ keywords:
 - text signatures in java
 - GroupDocs Signature API
 - Java electronic document signing
-
+type: docs
 ---
-
-
 # How to Implement Text Signatures Using GroupDocs.Signature for Java
 
 ## Introduction

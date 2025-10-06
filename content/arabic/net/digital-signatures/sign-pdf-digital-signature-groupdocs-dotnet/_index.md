@@ -4,8 +4,8 @@
 "title": "التوقيع الرقمي على ملفات PDF في .NET - دليل استخدام GroupDocs.Signature"
 "url": "/ar/net/digital-signatures/sign-pdf-digital-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # التوقيع الرقمي على ملفات PDF في .NET: دليل باستخدام GroupDocs.Signature
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 바코드 서명을 삭제하는 방법 - 포괄적인 가이드"
 "url": "/ko/java/signature-management/groupdocs-signature-java-delete-barcode-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 활용하여 ID로 바코드 서명을 삭제하는 방법
 
 ## 소개

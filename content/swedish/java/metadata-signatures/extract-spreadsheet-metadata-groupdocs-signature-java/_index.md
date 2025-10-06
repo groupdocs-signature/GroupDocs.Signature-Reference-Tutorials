@@ -4,8 +4,8 @@
 "title": "Extrahera kalkylbladsmetadata med GroupDocs.Signature för Java - En omfattande guide"
 "url": "/sv/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Extrahera kalkylbladsmetadata med GroupDocs.Signature för Java
 
 ## Introduktion

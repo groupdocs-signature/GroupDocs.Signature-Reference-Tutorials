@@ -5,8 +5,8 @@
 "title": "Verifikasi Tanda Tangan Digital dalam Dokumen"
 "url": "/id/net/verify-operations/verify-digital/"
 "weight": 11
+type: docs
 ---
-
 ## Perkenalan
 
 Tanda tangan digital memainkan peran penting dalam memastikan keaslian, integritas, dan nir-penyangkalan dokumen dalam proses bisnis modern. Tidak seperti tanda tangan tradisional, tanda tangan digital menggunakan teknik kriptografi untuk memverifikasi identitas penanda tangan dan memastikan bahwa dokumen tersebut tidak diubah sejak ditandatangani.

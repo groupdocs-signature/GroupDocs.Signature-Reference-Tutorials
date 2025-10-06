@@ -6,8 +6,8 @@
 "title": "GroupDocs.Signature - .NET 和 Java 的数字文档签名 API | 完整教程指南"
 "url": "/zh/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature：面向开发人员的完整数字文档签名解决方案
 
 ![GroupDocs.签名横幅](./groupdocs-signature-net.svg)

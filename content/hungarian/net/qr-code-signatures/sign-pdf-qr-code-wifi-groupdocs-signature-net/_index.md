@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása QR-kódokkal, WiFi-információk beágyazása a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF-ek aláírása QR-kódokkal, WiFi-információk beágyazása a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

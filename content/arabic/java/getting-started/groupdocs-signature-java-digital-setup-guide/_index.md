@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature - دليل شامل لإعداد التوقيعات الرقمية في Java"
 "url": "/ar/java/getting-started/groupdocs-signature-java-digital-setup-guide/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ إعداد التوقيع الرقمي في Java باستخدام GroupDocs.Signature: دليل المطور
 
 في عصرنا الرقمي، يُعدّ ضمان صحة وسلامة المستندات أمرًا بالغ الأهمية. تُوفّر التوقيعات الرقمية وسيلةً آمنةً للتحقق من عدم تعديل المستند منذ توقيعه. سيُرشدك هذا الدليل الشامل إلى كيفية إعداد خيارات التوقيع الرقمي وتطبيقها باستخدام مكتبة GroupDocs.Signature القوية للغة Java.

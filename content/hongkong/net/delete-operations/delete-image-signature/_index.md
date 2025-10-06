@@ -5,8 +5,8 @@
 "title": "如何在 .NET 中從文件中刪除影像簽名"
 "url": "/zh-hant/net/delete-operations/delete-image-signature/"
 "weight": 14
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 從文件中刪除圖片簽名
 
 ## 介紹

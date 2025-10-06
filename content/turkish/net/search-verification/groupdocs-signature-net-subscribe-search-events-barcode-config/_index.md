@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature'da Uzmanlaşma ve Barkod Arama Olaylarına Abone Olma ve Yapılandırma"
 "url": "/tr/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature'da Uzmanlaşma: Barkod Arama Olaylarına Abone Olma ve Yapılandırma
 
 ## giriiş

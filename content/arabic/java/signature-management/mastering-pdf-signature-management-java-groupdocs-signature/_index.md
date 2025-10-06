@@ -4,8 +4,8 @@
 "title": "إدارة توقيعات PDF بكفاءة في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/signature-management/mastering-pdf-signature-management-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # إدارة توقيعات PDF بكفاءة في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

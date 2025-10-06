@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中更新二維碼－逐步指南"
 "url": "/zh-hant/net/signature-management/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 更新二維碼
 
 歡迎閱讀我們關於如何使用強大的 .NET 函式庫 GroupDocs.Signature 更新二維碼的全面指南！本教學非常適合希望透過自動化簽章更新來增強文件管理工作流程的開發人員。利用 GroupDocs.Signature for .NET，您可以將數位簽章功能無縫整合到您的應用程式中。

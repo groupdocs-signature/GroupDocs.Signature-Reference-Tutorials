@@ -8,10 +8,8 @@ keywords:
 - Java text signing
 - GroupDocs.Signature event handling
 - document signing Java
-
+type: docs
 ---
-
-
 # Implementing Text Signing with Event Handling Using GroupDocs.Signature for Java
 
 ## Introduction

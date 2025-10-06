@@ -5,8 +5,8 @@
 "title": "Så här tar du bort QR-kodsignaturer från dokument i .NET"
 "url": "/sv/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # Så här tar du bort QR-kodsignaturer från dina dokument
 
 ## Introduktion

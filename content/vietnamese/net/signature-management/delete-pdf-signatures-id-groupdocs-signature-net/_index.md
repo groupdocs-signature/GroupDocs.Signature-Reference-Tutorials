@@ -4,8 +4,8 @@
 "title": "Cách xóa chữ ký PDF theo ID bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/signature-management/delete-pdf-signatures-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa chữ ký PDF theo ID bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

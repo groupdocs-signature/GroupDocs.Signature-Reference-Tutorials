@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Kimliğe Göre PDF İmzaları Nasıl Silinir"
 "url": "/tr/net/signature-management/delete-pdf-signatures-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Kimliğe Göre PDF İmzaları Nasıl Silinir
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "คู่มือการลงนามรหัส QR ของ Java และรักษาความปลอดภัยเอกสารของคุณด้วย GroupDocs.Signature"
 "url": "/th/java/qr-code-signatures/java-qr-code-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # การนำ Java QR Code Signing ไปใช้กับ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF με κωδικούς QR WiFi χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/qr-code-signatures/sign-pdfs-wifi-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε PDF με κωδικούς QR WiFi χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

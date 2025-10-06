@@ -4,8 +4,8 @@
 "title": "Tìm kiếm hiệu quả các trường biểu mẫu PDF bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Tìm kiếm hiệu quả các trường biểu mẫu PDF bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

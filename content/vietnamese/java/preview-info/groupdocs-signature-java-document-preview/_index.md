@@ -4,8 +4,8 @@
 "title": "Triển khai tính năng Tạo bản xem trước tài liệu trong Java với GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai tính năng Tạo bản xem trước tài liệu trong Java với GroupDocs.Signature
 
 ## Giới thiệu

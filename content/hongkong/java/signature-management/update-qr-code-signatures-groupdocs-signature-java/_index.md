@@ -4,8 +4,8 @@
 "title": "使用 Java 更新二維碼簽章－GroupDocs.Signature 使用指南"
 "url": "/zh-hant/java/signature-management/update-qr-code-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 Java 更新二維碼簽章：GroupDocs.Signature 綜合指南
 
 在當今的數位環境中，文件安全對於企業和個人都至關重要。二維碼簽名為文件安全和驗證提供了可靠的解決方案。本教學將逐步指導您如何使用 GroupDocs.Signature for Java 更新二維碼簽章－這是一款功能強大的工具，可簡化應用程式中的簽章管理。

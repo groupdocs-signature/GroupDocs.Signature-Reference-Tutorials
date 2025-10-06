@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके ID द्वारा हस्ताक्षरों को कुशलतापूर्वक हटाएं एक चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके ID द्वारा हस्ताक्षर को कुशलतापूर्वक कैसे हटाएं
 
 ## परिचय

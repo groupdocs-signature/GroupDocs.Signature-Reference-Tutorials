@@ -4,8 +4,8 @@
 "title": "Πώς να αφαιρέσετε υπογραφές εικόνας από έγγραφα χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/signature-management/delete-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αφαιρέσετε υπογραφές εικόνας από έγγραφα χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "توقيع ملفات PDF باستخدام رموز GS1 المركبة باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع ملف PDF باستخدام رموز الباركود المركبة GS1 باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

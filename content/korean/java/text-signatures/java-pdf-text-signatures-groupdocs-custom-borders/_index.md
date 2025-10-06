@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 사용자 정의 테두리가 있는 Java PDF 텍스트 서명 만들기"
 "url": "/ko/java/text-signatures/java-pdf-text-signatures-groupdocs-custom-borders/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 사용자 정의 테두리가 있는 Java PDF 텍스트 서명 마스터하기
 
 오늘날 디지털 시대에는 기업과 개인 모두에게 문서의 진위성 보장이 매우 중요합니다. 전자 문서의 증가로 인해 기존 서명 방식은 PDF의 텍스트 서명처럼 더욱 효율적이고 안전한 솔루션으로 대체되고 있습니다. GroupDocs.Signature for Java를 사용하여 PDF 문서에 맞춤형 텍스트 서명을 추가하여 전문적인 느낌을 더하고 싶다면, 바로 여기가 정답입니다.

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature で安全なデジタル署名を実現する .NET ドキュメント署名をマスターする"
 "url": "/ja/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した .NET ドキュメント署名の習得
 
 ## 導入

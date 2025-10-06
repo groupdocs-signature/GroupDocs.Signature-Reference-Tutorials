@@ -4,8 +4,8 @@
 "title": "كيفية توقيع جداول بيانات Excel باستخدام البيانات الوصفية باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع جداول بيانات Excel باستخدام البيانات الوصفية باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Tanda Tangan Teks Berdasarkan ID Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/signature-management/delete-text-signature-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Teks Berdasarkan ID Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

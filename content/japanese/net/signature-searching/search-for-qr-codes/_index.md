@@ -5,8 +5,8 @@
 "title": "ドキュメント内のQRコード署名を検索する"
 "url": "/ja/net/signature-searching/search-for-qr-codes/"
 "weight": 15
+type: docs
 ---
-
 ## 導入
 
 今日のデジタルドキュメントエコシステムにおいて、QRコード署名は情報の埋め込み、認証、そしてドキュメントセキュリティの強化に欠かせないツールとなっています。GroupDocs.Signature for .NETは、様々な形式のドキュメントからQRコードを検索・抽出するための強力なAPIを開発者に提供し、.NETアプリケーションにおける高度なドキュメント分析・検証機能を実現します。

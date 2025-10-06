@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása űrlapmező-aláírással Java-ban a GroupDocs.Signature segítségével"
 "url": "/hu/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # PDF-fájl aláírása űrlapmező-aláírással Java-ban a GroupDocs.Signature segítségével
 
 ## Bevezetés

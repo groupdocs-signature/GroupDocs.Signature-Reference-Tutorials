@@ -4,8 +4,8 @@
 "title": "Panduan Tanda Tangan PDF Java&#58; Menambahkan Teks, Kode Batang, QR & Tanda Tangan Digital Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Cara Menerapkan Tanda Tangan PDF Java: Menambahkan Teks, Kode Batang, QR & Tanda Tangan Digital Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

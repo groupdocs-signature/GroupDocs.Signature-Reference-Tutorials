@@ -5,8 +5,8 @@
 "title": "Přidání zabezpečených podpisů čárovými kódy do dokumentů .NET | Kompletní průvodce"
 "url": "/cs/net/advanced-signature-techniques/sign-with-barcode/"
 "weight": 11
+type: docs
 ---
-
 ## Jak mohou podpisy čárových kódů zvýšit zabezpečení vašich dokumentů?
 
 dnešním digitálním světě není zabezpečení dokumentů jen příjemné – je to nezbytné. Podpisy čárovými kódy nabízejí jedinečný způsob ověřování a zabezpečení důležitých souborů. S GroupDocs.Signature pro .NET je implementace těchto výkonných bezpečnostních funkcí překvapivě jednoduchá.

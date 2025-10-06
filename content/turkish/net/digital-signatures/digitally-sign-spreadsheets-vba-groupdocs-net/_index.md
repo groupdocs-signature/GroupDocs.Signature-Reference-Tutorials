@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak Excel Elektronik Tablolarını ve VBA Projelerini Dijital Olarak İmzalayın"
 "url": "/tr/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Excel Elektronik Tablolarını ve VBA Projelerini Dijital Olarak İmzalama
 
 Günümüzün dijital çağında, Excel dosyalarınızın güvenilirliğini sağlamak hayati önem taşır. İster finansal elektronik tabloları ister proje planlarını yönetin, dijital imza eklemek yetkisiz değişikliklere karşı koruma sağlayabilir. Bu eğitim, hem elektronik tablo belgelerini hem de VBA projelerini dijital olarak imzalama konusunda size rehberlik eder. **.NET için GroupDocs.Signature**.

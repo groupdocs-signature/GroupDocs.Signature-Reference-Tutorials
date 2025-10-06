@@ -4,8 +4,8 @@
 "title": "توقيع ملفات PDF باستخدام توقيع النص والمظهر المخصص في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستندات PDF باستخدام توقيع نصي ومظهر مخصص باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -5,8 +5,8 @@
 "title": ".NET में दस्तावेज़ों से छवि हस्ताक्षर कैसे हटाएँ"
 "url": "/hi/net/delete-operations/delete-image-signature/"
 "weight": 14
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके दस्तावेज़ों से छवि हस्ताक्षर कैसे हटाएँ
 
 ## परिचय

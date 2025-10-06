@@ -5,8 +5,8 @@
 "title": "Aprimore documentos do Word com assinaturas de metadados em C# .NET"
 "url": "/pt/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## Introdução
 
 Documentos de processamento de texto estão entre os tipos de arquivo mais comuns usados em negócios, educação e comunicação pessoal. Garantir a autenticidade, rastrear a origem e manter a integridade desses documentos é crucial em muitos ambientes profissionais. Uma abordagem eficaz para aumentar a segurança e a rastreabilidade dos documentos é incorporar assinaturas de metadados.

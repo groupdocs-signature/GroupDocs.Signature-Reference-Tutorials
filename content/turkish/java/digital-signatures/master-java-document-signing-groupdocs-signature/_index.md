@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak GS1DotCode Barkodlarıyla Java Belge İmzalamada Ustalaşın"
 "url": "/tr/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak GS1DotCode Barkodlarıyla Java'da Belge İmzalamada Ustalaşma
 
 ## giriiş

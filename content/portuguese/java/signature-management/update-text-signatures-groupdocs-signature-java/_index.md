@@ -4,8 +4,8 @@
 "title": "Como atualizar assinaturas de texto em PDFs usando o GroupDocs.Signature para Java - Um guia completo"
 "url": "/pt/java/signature-management/update-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Como atualizar assinaturas de texto em PDFs usando GroupDocs.Signature para Java
 ## Introdução
 Atualizar assinaturas de texto em documentos programaticamente pode ser um desafio, especialmente se seu objetivo é otimizar fluxos de trabalho de documentos ou automatizar o gerenciamento de assinaturas. **GroupDocs.Signature para Java** oferece uma solução poderosa para isso. Este guia abrangente orientará você na inicialização e busca de assinaturas de texto, ajustando suas propriedades e atualizando-as em PDFs.

@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Belgeleri Metin Damgasıyla Nasıl İmzalayabilirsiniz?"
 "url": "/tr/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Belgeleri Metin Damgasıyla Nasıl İmzalayabilirsiniz?
 
 ## giriiş

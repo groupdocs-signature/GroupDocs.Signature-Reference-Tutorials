@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して QR コードでドキュメントに署名する完全ガイド"
 "url": "/ja/java/qr-code-signatures/sign-documents-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して QR コードでドキュメントに署名する: 総合ガイド
 
 今日のデジタル世界では、文書のセキュリティ確保は極めて重要です。ビジネスパーソンであれ、機密情報を扱う個人であれ、文書の完全性と真正性を確保することは何よりも重要です。 **Java 用 GroupDocs.Signature**強力なライブラリであるGroupDocs.Signatureを使えば、QRコードを含む様々な方法でドキュメントに署名できます。このガイドでは、Azure Blob Storageからドキュメントをダウンロードし、GroupDocs.Signatureを使ってQRコードで署名する手順を説明します。

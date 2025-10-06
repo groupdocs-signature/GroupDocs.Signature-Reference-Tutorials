@@ -4,8 +4,8 @@
 "title": "Maîtrisez les signatures numériques dans les PDF avec une apparence personnalisée grâce à GroupDocs.Signature pour .NET"
 "url": "/fr/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser les signatures numériques dans les PDF avec une apparence personnalisée à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

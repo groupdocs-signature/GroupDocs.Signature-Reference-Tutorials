@@ -4,8 +4,8 @@
 "title": "Podepisování a ověřování hlavních dokumentů pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Podepisování a ověřování hlavních dokumentů pomocí GroupDocs.Signature pro .NET
 
 ## Jak zvládnout podepisování a ověřování dokumentů pomocí GroupDocs.Signature pro .NET

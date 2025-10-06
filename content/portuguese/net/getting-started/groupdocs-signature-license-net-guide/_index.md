@@ -4,8 +4,8 @@
 "title": "Configurando um arquivo de licença para GroupDocs.Signature no .NET - Um guia passo a passo"
 "url": "/pt/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # Configurando um arquivo de licença para GroupDocs.Signature no .NET: um guia passo a passo
 
 ## Introdução

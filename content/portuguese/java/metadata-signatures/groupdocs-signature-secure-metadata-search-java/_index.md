@@ -4,8 +4,8 @@
 "title": "Pesquisa e extração segura de assinaturas de metadados usando GroupDocs para Java"
 "url": "/pt/java/metadata-signatures/groupdocs-signature-secure-metadata-search-java/"
 "weight": 1
+type: docs
 ---
-
 # Pesquisa e extração segura de assinaturas de metadados usando GroupDocs para Java
 
 ## Introdução

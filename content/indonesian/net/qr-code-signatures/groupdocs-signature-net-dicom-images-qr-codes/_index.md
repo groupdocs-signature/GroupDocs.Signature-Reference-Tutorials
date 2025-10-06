@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Gambar DICOM dengan Kode QR Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/qr-code-signatures/groupdocs-signature-net-dicom-images-qr-codes/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Gambar DICOM dengan Kode QR Menggunakan GroupDocs.Signature untuk .NET: Panduan Lengkap
 
 Mencari metode aman untuk mengautentikasi berkas DICOM Anda? Panduan lengkap ini akan menunjukkan cara menggunakan GroupDocs.Signature for .NET untuk mengintegrasikan tanda tangan kode QR ke dalam citra DICOM. Ideal untuk tenaga kesehatan profesional, pengembang, dan siapa pun yang bekerja dengan dokumen medis digital, tutorial ini mencakup pengaturan hingga implementasi.

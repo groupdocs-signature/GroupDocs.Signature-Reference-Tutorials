@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してスプレッドシートのメタデータ抽出を自動化する"
 "url": "/ja/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用したスプレッドシートのメタデータ抽出の自動化
 
 ## 導入

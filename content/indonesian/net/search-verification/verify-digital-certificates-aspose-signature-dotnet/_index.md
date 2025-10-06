@@ -4,8 +4,8 @@
 "title": "Cara Memverifikasi Sertifikat Digital Menggunakan Aspose.Signature untuk .NET | Panduan Langkah demi Langkah"
 "url": "/id/net/search-verification/verify-digital-certificates-aspose-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Memverifikasi Sertifikat Digital Menggunakan Aspose.Signature untuk .NET
 
 ## Perkenalan

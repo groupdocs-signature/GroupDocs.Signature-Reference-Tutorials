@@ -5,8 +5,8 @@
 "title": "在 .NET 文件中新增安全條碼簽章 | 完整指南"
 "url": "/zh-hant/net/advanced-signature-techniques/sign-with-barcode/"
 "weight": 11
+type: docs
 ---
-
 ## 條碼簽名如何增強文件安全性？
 
 在當今的數位世界中，文件安全並非錦上添花，而是至關重要。條碼簽名提供了一種獨特的方式，可以驗證和保護您的重要文件。透過 GroupDocs.Signature for .NET，實現這些強大的安全功能變得異常簡單。

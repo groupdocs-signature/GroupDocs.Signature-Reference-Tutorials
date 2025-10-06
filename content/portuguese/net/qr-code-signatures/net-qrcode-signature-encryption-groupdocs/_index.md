@@ -4,8 +4,8 @@
 "title": "Assinatura segura de PDF com códigos QR criptografados no .NET usando GroupDocs.Signature"
 "url": "/pt/net/qr-code-signatures/net-qrcode-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Guia Completo: Implementando Assinatura Segura de PDF com QR-Codes Criptografados no .NET Usando GroupDocs.Signature
 
 ## Introdução

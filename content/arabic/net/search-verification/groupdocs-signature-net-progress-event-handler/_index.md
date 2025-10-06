@@ -4,8 +4,8 @@
 "title": "تحسين عمليات البحث في المستندات باستخدام GroupDocs.Signature لـ .NET - تنفيذ معالجات أحداث التقدم"
 "url": "/ar/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # تحسين عمليات البحث في المستندات باستخدام GroupDocs.Signature لـ .NET: تنفيذ معالجات أحداث التقدم
 
 ## مقدمة

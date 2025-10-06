@@ -4,8 +4,8 @@
 "title": "Panduan Verifikasi Tanda Tangan Digital Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/digital-signatures/digital-signature-verification-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Verifikasi Tanda Tangan Digital Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

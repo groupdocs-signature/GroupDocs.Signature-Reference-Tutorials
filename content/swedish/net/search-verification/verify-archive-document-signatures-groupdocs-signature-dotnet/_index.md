@@ -4,8 +4,8 @@
 "title": "Hur man verifierar dokumentsignaturer i arkiv med GroupDocs.Signature för .NET"
 "url": "/sv/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man verifierar dokumentsignaturer i arkiv med GroupDocs.Signature för .NET
 
 ## Introduktion

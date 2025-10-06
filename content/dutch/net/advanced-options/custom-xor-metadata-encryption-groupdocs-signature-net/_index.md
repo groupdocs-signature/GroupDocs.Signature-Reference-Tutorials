@@ -4,8 +4,8 @@
 "title": "Geavanceerde XOR-metadata-encryptie met GroupDocs.Signature voor .NET&#58; een complete gids"
 "url": "/nl/net/advanced-options/custom-xor-metadata-encryption-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Geavanceerde XOR-metadataversleuteling met GroupDocs.Signature voor .NET
 
 ## Invoering

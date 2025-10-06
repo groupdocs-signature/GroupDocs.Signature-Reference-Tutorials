@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して、Java で QR コードを使用してパスワード保護されたドキュメントを読み込み、署名する"
 "url": "/ja/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # JavaでQRコードを使ってパスワード保護されたドキュメントを読み込み、署名する
 
 ## GroupDocs.Signature for Java を使用してパスワード保護されたドキュメントを読み込み、署名する方法

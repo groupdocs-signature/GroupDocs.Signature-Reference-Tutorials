@@ -3,8 +3,8 @@
 "title": "Tutoriais de carregamento e salvamento de documentos com GroupDocs.Signature para Java"
 "url": "/pt/java/document-loading-saving/"
 "weight": 2
+type: docs
 ---
-
 # Tutoriais de carregamento e salvamento de documentos com GroupDocs.Signature para Java
 
 Nossos tutoriais de carregamento e salvamento de documentos oferecem orientações abrangentes para o processamento programático de documentos em Java. Siga estes guias passo a passo para aprender a carregar documentos de disco local, fluxos, URLs, provedores de armazenamento em nuvem como Amazon S3 e Azure Blob Storage, e FTP. Estes tutoriais também abordam diversos cenários de salvamento de documentos, incluindo salvamento com proteção por senha, diferentes formatos de saída e opções de salvamento especializadas para diversos tipos de documentos.

@@ -4,8 +4,8 @@
 "title": "Maîtrisez les signatures dynamiques de documents avec GroupDocs.Signature pour Java et les techniques de signature de codes QR"
 "url": "/fr/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Maîtrisez les signatures dynamiques de documents avec GroupDocs.Signature pour Java : techniques de signature de codes QR
 
 Dans le monde numérique d’aujourd’hui, sécuriser et authentifier efficacement les documents électroniques est essentiel. **GroupDocs.Signature pour Java** offre une solution puissante pour signer rapidement des PDF tout en garantissant leur authenticité à l'aide de signatures de code QR à différentes positions.

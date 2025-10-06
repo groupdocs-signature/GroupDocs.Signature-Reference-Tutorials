@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory pomocí QR kódů přes WiFi pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/qr-code-signatures/sign-pdfs-wifi-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat PDF soubory pomocí QR kódů přes WiFi pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

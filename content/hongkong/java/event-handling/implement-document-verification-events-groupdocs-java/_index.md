@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中透過事件訂閱實現文件驗證"
 "url": "/zh-hant/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 實作事件訂閱文件驗證
 
 ## 介紹

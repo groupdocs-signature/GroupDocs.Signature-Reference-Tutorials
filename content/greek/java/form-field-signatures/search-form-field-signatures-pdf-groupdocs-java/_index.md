@@ -4,8 +4,8 @@
 "title": "Αναζήτηση και εξαγωγή υπογραφών πεδίων φόρμας σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αναζητήσετε και να εξαγάγετε υπογραφές πεδίων φόρμας σε έγγραφα PDF χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

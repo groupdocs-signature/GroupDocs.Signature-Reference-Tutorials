@@ -4,8 +4,8 @@
 "title": "Penandatanganan Dokumen Aman dengan GS1DotCode & Kode QR HanXin menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/barcode-signatures/sign-documents-gs1dotcode-hanxin-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Penandatanganan Dokumen Aman dengan GS1DotCode & Kode QR HanXin menggunakan GroupDocs.Signature untuk .NET
 ## Cara Menandatangani Dokumen dengan GS1DotCode dan Kode QR HanXin Menggunakan GroupDocs.Signature untuk .NET
 Di era digital saat ini, menandatangani dokumen secara elektronik dengan aman sangatlah penting. Baik Anda seorang profesional bisnis maupun pengembang yang ingin mengotomatiskan alur kerja, mengintegrasikan tanda tangan kode batang dan kode QR dapat meningkatkan keamanan dan menyederhanakan proses. Tutorial ini memandu Anda dalam penggunaan GroupDocs.Signature untuk .NET untuk mengimplementasikan tanda tangan GS1DotCode dan Kode QR HanXin di aplikasi Anda.

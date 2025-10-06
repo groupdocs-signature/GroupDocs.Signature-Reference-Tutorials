@@ -4,8 +4,8 @@
 "title": "Освоение поиска цифровых сертификатов с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Освоение поиска цифровых сертификатов с помощью GroupDocs.Signature для Java
 
 ## Введение

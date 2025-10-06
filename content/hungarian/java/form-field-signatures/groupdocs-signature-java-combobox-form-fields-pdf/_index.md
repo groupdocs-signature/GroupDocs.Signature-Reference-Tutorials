@@ -4,8 +4,8 @@
 "title": "ComboBox űrlapmezők implementálása PDF-ekben GroupDocs.Signature for Java használatával"
 "url": "/hu/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # ComboBox űrlapmezők implementálása PDF-ekben GroupDocs.Signature for Java használatával
 
 ## Bevezetés

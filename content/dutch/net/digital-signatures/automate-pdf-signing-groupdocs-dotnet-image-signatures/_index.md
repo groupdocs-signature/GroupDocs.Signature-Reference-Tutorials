@@ -4,8 +4,8 @@
 "title": "PDF-ondertekening automatiseren met GroupDocs.Signature voor .NET - Handleiding voor afbeeldingshandtekeningen"
 "url": "/nl/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # PDF-ondertekening automatiseren met GroupDocs.Signature voor .NET: handleiding voor afbeeldingshandtekeningen
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Ricerca della firma dei metadati master in PowerPoint utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # Ricerca della firma dei metadati master in PowerPoint utilizzando GroupDocs.Signature per Java
 
 ## Introduzione

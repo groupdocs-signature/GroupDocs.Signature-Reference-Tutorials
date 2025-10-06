@@ -4,8 +4,8 @@
 "title": "การค้นหาและการแยกลายเซ็นเมตาดาต้าที่ปลอดภัยโดยใช้ GroupDocs สำหรับ Java"
 "url": "/th/java/metadata-signatures/groupdocs-signature-secure-metadata-search-java/"
 "weight": 1
+type: docs
 ---
-
 # การค้นหาและการแยกลายเซ็นเมตาดาต้าที่ปลอดภัยโดยใช้ GroupDocs สำหรับ Java
 
 ## การแนะนำ

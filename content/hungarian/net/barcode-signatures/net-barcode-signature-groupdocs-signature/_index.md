@@ -4,8 +4,8 @@
 "title": "Master .NET vonalkód aláírás integráció a GroupDocs.Signature-rel a fokozott dokumentumbiztonság érdekében"
 "url": "/hu/net/barcode-signatures/net-barcode-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumkezelés elsajátítása: .NET vonalkód-aláírás integrációjának megvalósítása a GroupDocs.Signature segítségével
 
 A mai digitális korban a dokumentumok hitelességének és integritásának biztosítása kulcsfontosságú a különböző iparágakban. Ez az útmutató bemutatja, hogyan integrálhatja a vonalkódos aláírásokat a dokumentum-munkafolyamatba a következők segítségével: **GroupDocs.Signature .NET-hez**Akár dokumentumokban kell vonalkód-aláírásokat aláírnia, ellenőriznie, keresnie, frissítenie vagy törölnie, ez az oktatóanyag minden lényeges szempontot lefed.

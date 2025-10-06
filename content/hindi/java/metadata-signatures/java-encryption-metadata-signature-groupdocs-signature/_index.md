@@ -4,8 +4,8 @@
 "title": "जावा एन्क्रिप्शन और मेटाडेटा हस्ताक्षर&#58; GroupDocs.Signature के साथ सुरक्षित दस्तावेज़ हैंडलिंग"
 "url": "/hi/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # जावा के लिए GroupDocs.Signature के साथ जावा एन्क्रिप्शन और मेटाडेटा हस्ताक्षर खोज को कार्यान्वित करना
 
 ## परिचय

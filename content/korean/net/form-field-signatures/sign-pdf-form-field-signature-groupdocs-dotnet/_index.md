@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 C#에서 양식 필드 서명을 사용하여 PDF에 서명하는 방법"
 "url": "/ko/net/form-field-signatures/sign-pdf-form-field-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 양식 필드 서명을 사용하여 PDF 문서에 서명하는 방법
 
 ## 소개

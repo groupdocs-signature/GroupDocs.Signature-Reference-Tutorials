@@ -5,8 +5,8 @@
 "title": "Tutorial & Contoh Lengkap untuk GroupDocs.Signature untuk Java"
 "url": "/id/java/"
 "weight": 10
+type: docs
 ---
-
 # GroupDocs.Signature untuk Tutorial & Contoh Java
 
 Selamat datang di koleksi tutorial lengkap kami untuk GroupDocs.Signature untuk Java. Panduan langkah demi langkah ini akan membantu Anda menerapkan solusi penandatanganan dokumen yang aman di aplikasi Java Anda. Dari pengaturan dasar hingga manajemen tanda tangan tingkat lanjut, tutorial kami menyediakan semua informasi yang Anda butuhkan untuk melindungi dokumen Anda dengan berbagai jenis tanda tangan.

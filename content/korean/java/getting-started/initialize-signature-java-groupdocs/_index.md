@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 서명 인스턴스를 초기화하는 방법"
 "url": "/ko/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java에서 서명 인스턴스를 초기화하는 방법
 
 ## 소개

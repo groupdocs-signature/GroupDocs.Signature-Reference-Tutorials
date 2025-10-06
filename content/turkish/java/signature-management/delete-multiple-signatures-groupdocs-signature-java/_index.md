@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak PDF'lerden Birden Fazla İmza Nasıl Silinir?"
 "url": "/tr/java/signature-management/delete-multiple-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak PDF'lerden Birden Fazla İmza Nasıl Silinir?
 
 ## giriiş

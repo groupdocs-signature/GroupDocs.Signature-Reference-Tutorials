@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature के साथ टेक्स्ट हस्ताक्षर सेट अप करने के लिए व्यापक मार्गदर्शिका"
 "url": "/hi/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature के साथ टेक्स्ट हस्ताक्षर सेट अप करने के लिए व्यापक मार्गदर्शिका
 
 ## परिचय

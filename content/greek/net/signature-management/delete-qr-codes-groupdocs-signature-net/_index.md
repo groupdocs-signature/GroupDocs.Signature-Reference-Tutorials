@@ -4,8 +4,8 @@
 "title": "Αποτελεσματική αφαίρεση κωδικών QR από έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/signature-management/delete-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Αποτελεσματική αφαίρεση κωδικών QR από έγγραφα με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

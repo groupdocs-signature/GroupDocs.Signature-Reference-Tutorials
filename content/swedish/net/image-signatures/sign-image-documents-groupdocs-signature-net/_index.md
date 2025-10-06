@@ -4,8 +4,8 @@
 "title": "Så här signerar du bilddokument med GroupDocs.Signature för .NET - En omfattande guide"
 "url": "/sv/net/image-signatures/sign-image-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar ett bilddokument med GroupDocs.Signature för .NET
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "Cách triển khai chữ ký số .NET với dấu thời gian và chứng nhận bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký số .NET với dấu thời gian và chứng nhận bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

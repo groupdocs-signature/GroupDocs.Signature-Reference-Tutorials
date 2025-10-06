@@ -5,8 +5,8 @@
 "title": "Så här tar du bort textsignaturer från dokument i .NET"
 "url": "/sv/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # Så här tar du bort textsignaturer från dina dokument med GroupDocs.Signature
 
 ## Varför skulle du behöva ta bort textsignaturer?

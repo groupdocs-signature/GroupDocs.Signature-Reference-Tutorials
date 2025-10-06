@@ -4,8 +4,8 @@
 "title": "Comment mettre à jour les signatures de codes-barres par ID à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Comment mettre à jour les signatures de codes-barres par ID à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

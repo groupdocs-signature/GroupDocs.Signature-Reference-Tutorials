@@ -3,8 +3,8 @@
 "title": "Tutorial sulla firma delle immagini per GroupDocs.Signature Java"
 "url": "/it/java/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Tutorial sulla firma delle immagini per GroupDocs.Signature Java
 
 Scopri come migliorare i documenti con firme visive utilizzando i nostri tutorial Java GroupDocs.Signature per la firma di immagini. Queste guide dettagliate illustrano come aggiungere immagini come firme, creare firme con timbro, implementare filigrane, personalizzare le impostazioni di aspetto e utilizzare le opzioni di allineamento e ridimensionamento delle immagini. Ogni tutorial include esempi di codice Java funzionante che mostrano come creare firme visivamente accattivanti che comunichino efficacemente autenticità o branding, mantenendo al contempo l'integrità del documento.

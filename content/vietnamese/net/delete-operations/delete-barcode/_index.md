@@ -5,8 +5,8 @@
 "title": "Cách xóa mã vạch khỏi tài liệu bằng .NET"
 "url": "/vi/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # Cách xóa mã vạch khỏi tài liệu bằng .NET
 
 ## Tại sao bạn cần xóa mã vạch?

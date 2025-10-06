@@ -4,8 +4,8 @@
 "title": "Documenten lokaal ondertekenen met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/digital-signatures/sign-documents-locally-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Documenten lokaal ondertekenen met GroupDocs.Signature voor .NET
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory pomocí obrazových podpisů v .NET pomocí GroupDocs.Signature"
 "url": "/cs/net/image-signatures/professional-pdf-signature-image-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat PDF soubory pomocí obrazových podpisů v .NET pomocí GroupDocs.Signature
 
 ## Zavedení

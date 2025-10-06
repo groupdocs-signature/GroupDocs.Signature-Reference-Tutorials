@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing"]
 tags: ["csharp", "pdf-signatures", "groupdocs", "document-signing", "dotnet"]
+type: docs
 ---
-
 # How to Add Text Signature to PDF in C# Using GroupDocs.Signature
 
 ## Introduction

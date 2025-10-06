@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 Excel에서 디지털 서명을 구현하는 방법"
 "url": "/ko/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 스프레드시트에 디지털 서명을 구현하는 방법
 
 ## 소개

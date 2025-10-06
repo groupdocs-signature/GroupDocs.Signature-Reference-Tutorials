@@ -4,8 +4,8 @@
 "title": "Assine documentos com pincel de gradiente em Java usando GroupDocs.Signature"
 "url": "/pt/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Assine documentos com pincel de gradiente em Java usando GroupDocs.Signature
 
 Na era digital atual, assinar documentos com segurança é vital para a eficiência em todos os setores. Este tutorial o guiará pela assinatura digital de documentos com um efeito de pincel de gradiente usando **GroupDocs.Signature para Java**.

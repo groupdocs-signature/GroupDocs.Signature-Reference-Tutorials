@@ -5,8 +5,8 @@
 "title": "Как получить информацию о документе с помощью GroupDocs.Signature"
 "url": "/ru/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # Как получить информацию о документе с помощью GroupDocs.Signature
 
 ## Введение

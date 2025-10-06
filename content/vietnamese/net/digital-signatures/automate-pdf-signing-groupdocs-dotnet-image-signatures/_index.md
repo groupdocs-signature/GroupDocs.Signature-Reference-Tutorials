@@ -4,8 +4,8 @@
 "title": "Tự động ký PDF với GroupDocs.Signature cho Hướng dẫn chữ ký hình ảnh .NET"
 "url": "/vi/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Tự động ký PDF với GroupDocs.Signature cho .NET: Hướng dẫn chữ ký hình ảnh
 
 ## Giới thiệu

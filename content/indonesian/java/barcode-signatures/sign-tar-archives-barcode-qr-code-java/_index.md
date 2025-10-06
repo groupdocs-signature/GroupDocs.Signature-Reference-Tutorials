@@ -4,8 +4,8 @@
 "title": "Menandatangani Arsip TAR dengan Barcode & Kode QR di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Arsip TAR dengan Kode Batang dan Kode QR Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

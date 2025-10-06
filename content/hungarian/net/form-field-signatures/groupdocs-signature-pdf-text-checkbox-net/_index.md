@@ -4,8 +4,8 @@
 "title": "PDF aláírás megvalósítása szöveggel és jelölőnégyzettel a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF aláírás megvalósítása szöveggel és jelölőnégyzettel a GroupDocs.Signature for .NET használatával
 
 ## Űrlapmező-aláírások

@@ -4,8 +4,8 @@
 "title": "Menandatangani Gambar DICOM dengan Kode QR dan Metadata Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/image-signatures/sign-dicom-images-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Gambar DICOM dengan Kode QR dan Metadata Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

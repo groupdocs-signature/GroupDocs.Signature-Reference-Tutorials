@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Tanda Tangan Stempel pada PDF Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Tanda Tangan Stempel pada PDF Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

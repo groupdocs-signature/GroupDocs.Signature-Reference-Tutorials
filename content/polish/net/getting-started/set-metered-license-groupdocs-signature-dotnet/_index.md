@@ -4,8 +4,8 @@
 "title": "Jak ustawić licencję licznikową dla GroupDocs.Signature w .NET? Kompleksowy przewodnik"
 "url": "/pl/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak ustawić licencję licznikową dla GroupDocs.Signature w .NET: kompleksowy przewodnik
 
 ## Wstęp

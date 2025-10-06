@@ -4,8 +4,8 @@
 "title": "Implémenter des signatures de code QR dans .NET à l'aide de GroupDocs.Signature - Un guide complet"
 "url": "/fr/net/qr-code-signatures/implement-qr-signature-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter et rechercher des signatures de codes QR dans .NET à l'aide de GroupDocs.Signature
 
 ## Introduction

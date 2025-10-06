@@ -4,8 +4,8 @@
 "title": "Képmetaadatok kezelésének elsajátítása .NET-ben a GroupDocs.Signature segítségével"
 "url": "/hu/net/metadata-signatures/mastering-image-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Képmetaadatok kezelésének elsajátítása .NET-ben a GroupDocs.Signature segítségével
 
 A mai digitális világban a képmetaadatok kezelése kulcsfontosságú a különféle alkalmazásokban, például a jogi dokumentumok ellenőrzésében és a digitális eszközkezelésben. Ha szeretné egyszerűsíteni a képmetaadatok kezelését a .NET-projektjeiben, ez az átfogó útmutató segít a GroupDocs.Signature for .NET használatában – ez egy hatékony eszköz, amelyet a képek metaadat-aláírásainak keresésének és lekérésének képességének javítására terveztek.

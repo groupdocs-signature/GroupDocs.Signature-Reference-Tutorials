@@ -4,8 +4,8 @@
 "title": "Hatékony PDF aláíráskezelés Java nyelven a GroupDocs.Signature használatával"
 "url": "/hu/java/signature-management/mastering-pdf-signature-management-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hatékony PDF aláíráskezelés Java nyelven a GroupDocs.Signature segítségével
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Cách triển khai tìm kiếm chữ ký mã vạch trong Java với GroupDocs.Signature"
 "url": "/vi/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai tìm kiếm chữ ký mã vạch trong Java với GroupDocs.Signature
 
 ## Giới thiệu

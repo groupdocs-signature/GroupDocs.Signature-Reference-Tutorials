@@ -4,8 +4,8 @@
 "title": "Cara Mencari dan Mengekstrak Data SMS dari Tanda Tangan Kode QR dalam PDF menggunakan Java dengan GroupDocs.Signature"
 "url": "/id/java/search-verification/search-extract-qr-codes-sms-data-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mencari dan Mengekstrak Data SMS dari Tanda Tangan Kode QR di PDF Menggunakan Java dengan GroupDocs.Signature
 
 ## Perkenalan

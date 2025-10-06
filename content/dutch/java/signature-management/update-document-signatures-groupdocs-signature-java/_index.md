@@ -4,8 +4,8 @@
 "title": "Documenthandtekeningen bijwerken met GroupDocs.Signature voor Java"
 "url": "/nl/java/signature-management/update-document-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Documenthandtekeningen bijwerken met GroupDocs.Signature voor Java
 
 ## Invoering

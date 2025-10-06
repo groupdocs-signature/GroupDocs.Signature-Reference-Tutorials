@@ -3,8 +3,8 @@
 "title": "Výukové programy pro textové podpisy v GroupDocs.Signature v Javě"
 "url": "/cs/java/text-signatures/"
 "weight": 7
+type: docs
 ---
-
 # Výukové programy pro textové podpisy v GroupDocs.Signature v Javě
 
 Naše tutoriály o textových podpisech vám ukážou, jak implementovat různé typy textových podpisů pomocí GroupDocs.Signature v Javě. Tyto praktické průvodce vás provedou vytvářením textových podpisů, vodoznaků, anotací, samolepek, polí formulářů a razítek s přizpůsobitelnými možnostmi formátování. Každý tutoriál obsahuje podrobné příklady kódu Java pro scénáře implementace textových podpisů, které vám pomohou vytvářet aplikace, které dokáží efektivně označovat dokumenty textovými informacemi a zároveň poskytují více možností stylingu a umístění.

@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng chữ ký văn bản và hiệu ứng chuyển sắc xuyên tâm trong .NET bằng GroupDocs.Signature"
 "url": "/vi/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF bằng chữ ký văn bản và gradient xuyên tâm trong .NET bằng GroupDocs.Signature
 
 ## Giới thiệu

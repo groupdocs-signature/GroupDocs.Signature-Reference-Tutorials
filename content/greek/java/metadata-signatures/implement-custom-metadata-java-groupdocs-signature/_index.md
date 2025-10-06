@@ -4,8 +4,8 @@
 "title": "Υλοποίηση προσαρμοσμένων μεταδεδομένων σε Java χρησιμοποιώντας το GroupDocs.Signature για βελτιωμένη υπογραφή εγγράφων"
 "url": "/el/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση προσαρμοσμένων μεταδεδομένων σε Java με το GroupDocs.Signature
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Hur man implementerar textsignaturer med GroupDocs.Signature för Java (steg-för-steg-guide)"
 "url": "/sv/java/text-signatures/implement-text-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar textsignaturer med GroupDocs.Signature för Java
 
 ## Introduktion

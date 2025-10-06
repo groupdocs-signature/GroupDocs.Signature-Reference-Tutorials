@@ -4,8 +4,8 @@
 "title": "Gerenciar assinaturas de imagem em documentos usando GroupDocs.Signature para .NET - Um guia completo"
 "url": "/pt/net/image-signatures/manage-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Gerenciar assinaturas de imagem em documentos usando GroupDocs.Signature para .NET
 
 ## Introdução

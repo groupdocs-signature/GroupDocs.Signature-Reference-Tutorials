@@ -4,8 +4,8 @@
 "title": "So signieren Sie Dokumente mit Textaufklebern in GroupDocs.Signature für .NET"
 "url": "/de/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie Dokumente mit Textaufklebern in GroupDocs.Signature für .NET
 
 ## Einführung

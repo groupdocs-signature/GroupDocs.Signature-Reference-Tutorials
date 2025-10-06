@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 进行元数据图像文档签名——综合指南"
 "url": "/zh/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 掌握元数据图像文档签名
 
 ## 介绍

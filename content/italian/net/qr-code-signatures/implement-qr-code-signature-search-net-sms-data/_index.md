@@ -4,8 +4,8 @@
 "title": "Implementare la ricerca della firma del codice QR in .NET per l'estrazione dei dati SMS con GroupDocs.Signature"
 "url": "/it/net/qr-code-signatures/implement-qr-code-signature-search-net-sms-data/"
 "weight": 1
+type: docs
 ---
-
 # Implementazione della ricerca della firma del codice QR in .NET utilizzando GroupDocs.Signature
 
 ## Introduzione

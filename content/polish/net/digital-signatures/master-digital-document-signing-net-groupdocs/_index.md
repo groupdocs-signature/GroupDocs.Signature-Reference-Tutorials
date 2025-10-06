@@ -4,8 +4,8 @@
 "title": "Jak podpisywać dokumenty cyfrowe w środowisku .NET za pomocą interfejsu API GroupDocs.Signature"
 "url": "/pl/net/digital-signatures/master-digital-document-signing-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać dokumenty cyfrowe w .NET za pomocą interfejsu API GroupDocs.Signature
 ## Wstęp
 dzisiejszym dynamicznym środowisku cyfrowym zapewnienie autentyczności dokumentów przy jednoczesnym zachowaniu wydajności jest kluczowe. Niezależnie od tego, czy jesteś programistą automatyzującym przepływy pracy, czy organizacją dążącą do zwiększenia efektywności operacyjnej, integracja podpisów cyfrowych może być przełomowa. Ten samouczek przeprowadzi Cię przez proces korzystania z podpisów cyfrowych. **GroupDocs.Signature dla .NET** Podpisywać dokumenty podpisami tekstowymi w formatach pól formularzy. Po ukończeniu tego przewodnika będziesz wiedzieć, jak bezproblemowo zintegrować podpisy cyfrowe z aplikacjami .NET.

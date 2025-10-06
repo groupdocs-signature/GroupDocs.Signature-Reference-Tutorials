@@ -4,8 +4,8 @@
 "title": "Αυτοματοποιήστε την υπογραφή PDF με το GroupDocs.Signature για Οδηγό Υπογραφών Εικόνας .NET"
 "url": "/el/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Αυτοματοποιήστε την υπογραφή PDF με το GroupDocs.Signature για .NET: Οδηγός υπογραφών εικόνας
 
 ## Εισαγωγή

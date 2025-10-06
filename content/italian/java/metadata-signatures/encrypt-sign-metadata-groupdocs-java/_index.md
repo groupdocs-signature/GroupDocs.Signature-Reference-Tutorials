@@ -4,8 +4,8 @@
 "title": "Come crittografare e firmare i metadati dei documenti utilizzando GroupDocs.Signature per Java&#58; una guida completa"
 "url": "/it/java/metadata-signatures/encrypt-sign-metadata-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Come crittografare e firmare i metadati dei documenti utilizzando GroupDocs.Signature per Java: una guida completa
 
 ## Introduzione

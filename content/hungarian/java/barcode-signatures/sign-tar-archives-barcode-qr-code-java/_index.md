@@ -4,8 +4,8 @@
 "title": "TAR archívumok aláírása vonalkódokkal és QR-kódokkal Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan írhatunk alá TAR archívumokat vonalkódokkal és QR-kódokkal a GroupDocs.Signature for Java használatával?
 
 ## Bevezetés

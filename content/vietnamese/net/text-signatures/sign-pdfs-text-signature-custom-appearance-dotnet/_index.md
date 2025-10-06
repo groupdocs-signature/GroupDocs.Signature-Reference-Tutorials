@@ -4,8 +4,8 @@
 "title": "Ký PDF bằng Chữ ký văn bản và Giao diện tùy chỉnh trong .NET bằng GroupDocs.Signature"
 "url": "/vi/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng chữ ký văn bản và giao diện tùy chỉnh bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

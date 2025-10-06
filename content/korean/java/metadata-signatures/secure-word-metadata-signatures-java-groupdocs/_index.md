@@ -4,8 +4,8 @@
 "title": "GroupDocs를 사용한 Java 보안 Word 메타데이터 서명&#58; 종합 가이드"
 "url": "/ko/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs를 사용하여 Java로 보안 Word 메타데이터 서명 만들기
 
 ## 소개

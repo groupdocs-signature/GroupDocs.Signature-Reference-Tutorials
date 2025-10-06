@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε ψηφιακές υπογραφές σε .NET χρησιμοποιώντας το GroupDocs.Signature® - Ένας οδηγός βήμα προς βήμα"
 "url": "/el/net/digital-signatures/implement-digital-signatures-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε ψηφιακές υπογραφές στο .NET χρησιμοποιώντας το GroupDocs.Signature: Ένας οδηγός βήμα προς βήμα
 
 ## Εισαγωγή

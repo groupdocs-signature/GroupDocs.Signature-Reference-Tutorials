@@ -4,8 +4,8 @@
 "title": "Verifikasi Tanda Tangan Barcode dalam File ZIP Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Verifikasi Tanda Tangan Barcode dalam File ZIP Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

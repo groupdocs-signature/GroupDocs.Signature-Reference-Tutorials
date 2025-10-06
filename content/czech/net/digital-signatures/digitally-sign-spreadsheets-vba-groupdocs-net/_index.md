@@ -4,8 +4,8 @@
 "title": "Digitální podepisování tabulek Excelu a projektů VBA pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Digitální podepisování tabulek Excelu a jejich projektů VBA pomocí GroupDocs.Signature pro .NET
 
 V dnešní digitální době je zajištění pravosti vašich excelových souborů klíčové. Ať už spravujete finanční tabulky nebo projektové plány, přidání digitálního podpisu může chránit před neoprávněnými změnami. Tento tutoriál vás provede digitálním podepisováním jak tabulkových dokumentů, tak i jejich projektů VBA pomocí... **GroupDocs.Signature pro .NET**.

@@ -4,8 +4,8 @@
 "title": "如何在 GroupDocs.Signature for .NET 中按文件类型加载文档——综合指南"
 "url": "/zh/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 "weight": 1
+type: docs
 ---
-
 # 如何在 GroupDocs.Signature for .NET 中按文件类型加载文档
 
 ## 介绍

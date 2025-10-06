@@ -4,8 +4,8 @@
 "title": "Jak vyhledávat digitální podpisy v PDF pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/search-verification/search-pdfs-digital-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak vyhledávat digitální podpisy v PDF souborech pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

@@ -5,8 +5,8 @@
 "title": "Dodawanie podpisów tekstowych do dokumentów za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # Jak dodawać podpisy tekstowe do dokumentów za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wprowadzenie: Zmodernizuj proces podpisywania dokumentów

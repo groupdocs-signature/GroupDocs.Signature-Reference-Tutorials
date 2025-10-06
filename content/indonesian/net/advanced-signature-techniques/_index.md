@@ -5,8 +5,8 @@
 "title": "Kuasai Teknik Tanda Tangan Dokumen Tingkat Lanjut di .NET"
 "url": "/id/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # Teknik Tanda Tangan Lanjutan dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

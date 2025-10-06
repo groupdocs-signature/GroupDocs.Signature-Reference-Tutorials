@@ -4,8 +4,8 @@
 "title": "Cómo firmar archivos PDF con códigos QR de dirección usando GroupDocs.Signature para Java"
 "url": "/es/java/qr-code-signatures/groupdocs-signature-configure-address-qr-codes-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar archivos PDF con códigos QR de dirección usando GroupDocs.Signature para Java
 
 En el mundo digital actual, firmar documentos de forma segura es crucial. Tanto si eres un profesional como si gestionas contratos, automatizar la adición de firmas puede ahorrar tiempo y mejorar la seguridad de los documentos. Este tutorial te guía en el uso de... **GroupDocs.Signature para Java** Para crear y configurar un objeto de dirección e integrarlo en las opciones de firma de código QR en archivos PDF. Siguiendo esta guía, aprenderá a integrar fácilmente datos de dirección como código QR en sus documentos.

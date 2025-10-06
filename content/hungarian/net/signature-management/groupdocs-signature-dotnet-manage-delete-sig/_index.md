@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature for .NET&#58; Dokumentumaláírások kezelése és törlése"
 "url": "/hu/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 "weight": 1
+type: docs
 ---
-
 # Aláírás-kezelés elsajátítása .NET-ben a GroupDocs.Signature segítségével
 
 ## Bevezetés

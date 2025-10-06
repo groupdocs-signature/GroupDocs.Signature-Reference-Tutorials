@@ -4,8 +4,8 @@
 "title": "Hoe u stempeltekenopties implementeert met behulp van GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u stempeltekenopties implementeert met GroupDocs.Signature voor .NET
 
 ## Invoering

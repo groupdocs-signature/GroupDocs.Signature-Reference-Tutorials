@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 QR 코드로 이미지에 서명하고 다양한 형식으로 저장하는 방법"
 "url": "/ko/net/qr-code-signatures/sign-images-groupdocs-signature-qr-codes-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 QR 코드가 있는 이미지에 서명하는 방법
 
 ## 소개

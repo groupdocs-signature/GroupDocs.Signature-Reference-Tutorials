@@ -9,8 +9,8 @@ weight: 1
 url: "/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 categories: ["Getting Started"]
 tags: ["groupdocs", "digital-signatures", "dotnet", "initialization", "setup"]
+type: docs
 ---
-
 # How to Initialize Signature GroupDocs .NET
 
 ## Introduction

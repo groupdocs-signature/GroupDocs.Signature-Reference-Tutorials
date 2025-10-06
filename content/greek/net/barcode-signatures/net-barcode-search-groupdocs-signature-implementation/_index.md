@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε την αναζήτηση γραμμωτού κώδικα .NET χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την αναζήτηση γραμμωτού κώδικα .NET χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

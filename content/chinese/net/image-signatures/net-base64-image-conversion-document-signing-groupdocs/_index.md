@@ -4,8 +4,8 @@
 "title": ".NET Base64 图像转换和使用 GroupDocs.Signature 进行文档签名"
 "url": "/zh/net/image-signatures/net-base64-image-conversion-document-signing-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 实现 .NET Base64 图像转换和文档签名
 
 ## 介绍

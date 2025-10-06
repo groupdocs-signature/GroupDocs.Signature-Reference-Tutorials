@@ -4,8 +4,8 @@
 "title": "Assinatura de PDF em Java com metadados e criptografia usando GroupDocs - Um guia abrangente"
 "url": "/pt/java/digital-signatures/java-pdf-signing-metadata-encryption-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Dominando a assinatura de PDF em Java com metadados e criptografia usando o GroupDocs
 
 ## Introdução

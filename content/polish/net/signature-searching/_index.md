@@ -5,8 +5,8 @@
 "title": "Kompleksowe wyszukiwanie podpisów dokumentów"
 "url": "/pl/net/signature-searching/"
 "weight": 23
+type: docs
 ---
-
 ## Wstęp
 
 Bezpieczeństwo i weryfikacja integralności dokumentów to kluczowe aspekty nowoczesnych procesów biznesowych. GroupDocs.Signature for .NET oferuje potężne rozwiązanie do implementacji kompleksowej funkcji wyszukiwania podpisów w różnych formatach dokumentów. Niezależnie od tego, czy potrzebujesz zweryfikować autentyczność dokumentu, wyodrębnić informacje o podpisie, czy zbudować zautomatyzowane przepływy pracy weryfikacyjne, GroupDocs.Signature zapewnia narzędzia niezbędne do efektywnego wyszukiwania i przetwarzania wielu typów podpisów.

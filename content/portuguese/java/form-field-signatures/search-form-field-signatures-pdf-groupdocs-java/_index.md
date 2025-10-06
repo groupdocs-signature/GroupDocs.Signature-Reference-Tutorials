@@ -4,8 +4,8 @@
 "title": "Pesquisar e extrair assinaturas de campos de formulário em PDFs usando GroupDocs.Signature para Java"
 "url": "/pt/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Como pesquisar e extrair assinaturas de campos de formulário em documentos PDF usando GroupDocs.Signature para Java
 
 ## Introdução

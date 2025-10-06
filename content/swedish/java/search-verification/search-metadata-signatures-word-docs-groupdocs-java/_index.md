@@ -4,8 +4,8 @@
 "title": "Så här söker du efter metadatasignaturer i Word-dokument med GroupDocs.Signature för Java"
 "url": "/sv/java/search-verification/search-metadata-signatures-word-docs-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Så här söker du efter metadatasignaturer i Word-dokument med GroupDocs.Signature för Java
 
 ## Introduktion

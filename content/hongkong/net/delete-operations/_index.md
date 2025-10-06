@@ -5,8 +5,8 @@
 "title": "文件簽章刪除操作完全指南"
 "url": "/zh-hant/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # GroupDocs.Signature for .NET 中的刪除操作
 
 ## 介紹

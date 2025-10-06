@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 刪除文件中的多個簽名"
 "url": "/zh-hant/net/signature-management/delete-multiple-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 刪除文件中的多個簽名
 
 ## 介紹

@@ -8,10 +8,8 @@ keywords:
 - update text signatures pdf
 - GroupDocs.Signature for Java
 - text signature management
-
+type: docs
 ---
-
-
 # Update Text Signatures in PDFs Using GroupDocs.Signature for Java
 
 ## Introduction

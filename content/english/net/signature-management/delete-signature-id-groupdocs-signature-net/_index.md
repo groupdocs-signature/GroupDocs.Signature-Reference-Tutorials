@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Signature Management"]
 tags: ["groupdocs", "signature-deletion", "dotnet-tutorial", "electronic-signatures"]
+type: docs
 ---
-
 # Delete Signature by ID in .NET
 
 ## Introduction

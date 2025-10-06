@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile .NET'te Elektronik Belge İmzalama Nasıl Uygulanır? Adım Adım Kılavuz"
 "url": "/tr/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile .NET'te Elektronik Belge İmzalama Nasıl Uygulanır: Adım Adım Kılavuz
 
 ## giriiş

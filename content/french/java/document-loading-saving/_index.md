@@ -3,8 +3,8 @@
 "title": "Tutoriels de chargement et d'enregistrement de documents avec GroupDocs.Signature pour Java"
 "url": "/fr/java/document-loading-saving/"
 "weight": 2
+type: docs
 ---
-
 # Tutoriels de chargement et d'enregistrement de documents avec GroupDocs.Signature pour Java
 
 Nos tutoriels de chargement et d'enregistrement de documents fournissent des conseils complets pour gérer vos documents par programmation en Java. Suivez ces guides étape par étape pour apprendre à charger des documents depuis un disque local, des flux, des URL, des fournisseurs de stockage cloud comme Amazon S3 et Azure Blob Storage, et un FTP. Ces tutoriels abordent également divers scénarios d'enregistrement de documents, notamment l'enregistrement avec protection par mot de passe, les différents formats de sortie et les options d'enregistrement spécifiques à différents types de documents.

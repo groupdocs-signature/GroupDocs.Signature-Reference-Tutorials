@@ -4,8 +4,8 @@
 "title": "Implementar assinaturas de marca d'água de texto em documentos do Word usando GroupDocs.Signature para Java"
 "url": "/pt/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementar assinaturas de marca d'água de texto em documentos do Word usando GroupDocs.Signature para Java
 
 ## Como adicionar assinaturas de marca d'água de texto a documentos do Word com GroupDocs.Signature para Java

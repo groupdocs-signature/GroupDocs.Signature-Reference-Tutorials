@@ -9,8 +9,8 @@ weight: 1
 url: "/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 categories: ["PDF Processing"]
 tags: ["pdf-metadata", "dotnet", "groupdocs", "document-processing", "csharp"]
+type: docs
 ---
-
 # PDF Metadata Extraction .NET
 
 Ever wondered what's hidden inside your PDF files? Beyond the visible content, PDFs contain a treasure trove of metadata - creation dates, author information, software details, and much more. If you're building document management systems or need to audit PDF files programmatically, extracting this metadata is crucial.

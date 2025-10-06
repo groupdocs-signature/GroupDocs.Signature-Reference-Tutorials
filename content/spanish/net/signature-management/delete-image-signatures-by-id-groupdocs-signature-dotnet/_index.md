@@ -4,8 +4,8 @@
 "title": "Cómo eliminar firmas de imágenes por ID usando GroupDocs.Signature para .NET"
 "url": "/es/net/signature-management/delete-image-signatures-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Guía completa para eliminar firmas de imágenes por ID con GroupDocs.Signature para .NET
 
 ## Introducción

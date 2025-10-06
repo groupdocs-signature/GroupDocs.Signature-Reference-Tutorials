@@ -4,8 +4,8 @@
 "title": "Come firmare i PDF con adesivi di testo utilizzando GroupDocs.Signature per .NET | Guida passo passo"
 "url": "/it/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare un documento PDF con un adesivo di testo utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

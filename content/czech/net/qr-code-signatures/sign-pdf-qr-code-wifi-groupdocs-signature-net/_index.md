@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory pomocí QR kódů s vkládáním informací o WiFi pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat PDF soubory pomocí QR kódů s vkládáním informací o WiFi pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

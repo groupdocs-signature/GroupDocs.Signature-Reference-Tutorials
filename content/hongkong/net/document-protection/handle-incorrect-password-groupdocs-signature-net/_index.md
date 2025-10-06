@@ -4,8 +4,8 @@
 "title": "如何在 GroupDocs.Signature for .NET 中處理密碼錯誤異常"
 "url": "/zh-hant/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 處理密碼錯誤異常
 
 ## 介紹

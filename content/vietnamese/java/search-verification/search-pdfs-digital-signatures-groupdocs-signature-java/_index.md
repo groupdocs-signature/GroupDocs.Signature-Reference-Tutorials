@@ -4,8 +4,8 @@
 "title": "Cách tìm kiếm chữ ký số trong tệp PDF bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/search-verification/search-pdfs-digital-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách tìm kiếm chữ ký số trong tệp PDF bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

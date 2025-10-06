@@ -4,8 +4,8 @@
 "title": "Cách tùy chỉnh chữ ký hình ảnh trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/image-signatures/customize-image-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký hình ảnh tùy chỉnh bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

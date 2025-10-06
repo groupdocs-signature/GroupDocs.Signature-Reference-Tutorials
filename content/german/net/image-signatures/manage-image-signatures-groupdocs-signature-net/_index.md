@@ -4,8 +4,8 @@
 "title": "Verwalten von Bildsignaturen in Dokumenten mit GroupDocs.Signature für .NET – Ein umfassender Leitfaden"
 "url": "/de/net/image-signatures/manage-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Verwalten von Bildsignaturen in Dokumenten mit GroupDocs.Signature für .NET
 
 ## Einführung

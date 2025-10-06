@@ -4,8 +4,8 @@
 "title": "Bemästra hantering av bildmetadata i .NET med GroupDocs.Signature"
 "url": "/sv/net/metadata-signatures/mastering-image-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra hantering av bildmetadata i .NET med GroupDocs.Signature
 
 I dagens digitala värld är det avgörande att hantera bildmetadata i olika tillämpningar, som verifiering av juridiska dokument och hantering av digitala tillgångar. Om du vill effektivisera hur du hanterar bildmetadata i dina .NET-projekt, hjälper den här omfattande guiden dig att använda GroupDocs.Signature för .NET – ett kraftfullt verktyg utformat för att förbättra din förmåga att söka och hämta metadatasignaturer från bilder.

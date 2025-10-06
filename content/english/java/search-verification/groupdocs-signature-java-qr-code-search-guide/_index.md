@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature
 - Java
 - Document Processing
-
+type: docs
 ---
-
-
 # Implementing QR Code Signature Search with GroupDocs.Signature for Java
 
 In today's digital landscape, verifying electronic signatures efficiently is crucial across various industries. **GroupDocs.Signature for Java** offers a robust solution, especially for searching and managing QR code signatures in documents. This tutorial guides you through implementing QR code signature search using GroupDocs.Signature in Java.

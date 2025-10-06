@@ -4,8 +4,8 @@
 "title": "Εξαγωγή μεταδεδομένων κύριας εικόνας σε Java χρησιμοποιώντας τη βιβλιοθήκη GroupDocs.Signature"
 "url": "/el/java/preview-info/groupdocs-signature-java-image-metadata-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Mastering GroupDocs.Signature για Java: Εξαγωγή μεταδεδομένων εικόνας
 
 ## Εισαγωγή

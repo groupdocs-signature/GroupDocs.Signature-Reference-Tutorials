@@ -4,8 +4,8 @@
 "title": "Word-documenten digitaal ondertekenen met tekst als afbeelding met GroupDocs.Signature voor Java"
 "url": "/nl/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Word-documenten digitaal ondertekenen met tekst als afbeelding met GroupDocs.Signature voor Java
 
 ## Invoering

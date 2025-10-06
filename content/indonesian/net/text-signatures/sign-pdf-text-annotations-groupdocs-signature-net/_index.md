@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen PDF dengan Anotasi Teks Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/text-signatures/sign-pdf-text-annotations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF dengan Anotasi Teks Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

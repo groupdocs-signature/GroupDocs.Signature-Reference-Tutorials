@@ -4,8 +4,8 @@
 "title": "QR-kód aláírások kinyerése címadatokkal a GroupDocs.Signature for .NET használatával | Digitális aláírás automatizálás"
 "url": "/hu/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírások kinyerése címadatokkal a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Assine PDF com código QR de criptomoeda usando GroupDocs.Signature para .NET - Um guia completo"
 "url": "/pt/net/qr-code-signatures/sign-pdf-crypto-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Como assinar um documento PDF usando códigos QR de criptomoeda com GroupDocs.Signature para .NET
 
 ## Introdução

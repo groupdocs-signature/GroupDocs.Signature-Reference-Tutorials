@@ -4,8 +4,8 @@
 "title": "Digitális dokumentumkeresés elsajátítása a GroupDocs.Signature for .NET használatával – Átfogó útmutató"
 "url": "/hu/net/search-verification/master-digital-document-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Digitális dokumentumkeresés elsajátítása a GroupDocs.Signature for .NET segítségével
 
 A digitális aláírások keresése a dokumentumokban kihívást jelenthet, különösen védett fájlok esetén. A GroupDocs.Signature for .NET leegyszerűsíti ezt a folyamatot azáltal, hogy robusztus kivételkezelési mechanizmusokat kínál. Ez az útmutató végigvezeti Önt a digitális aláírások PDF-fájlokban való keresésén ennek a hatékony könyvtárnak a használatával.

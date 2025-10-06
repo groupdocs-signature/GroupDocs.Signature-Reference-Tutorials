@@ -9,8 +9,8 @@ weight: 1
 url: "/net/digital-signatures/master-digital-document-signing-net-groupdocs/"
 categories: [".NET Development"]
 tags: ["digital-signatures", "groupdocs", "document-automation", "csharp"]
+type: docs
 ---
-
 # Digital Signature .NET: Complete GroupDocs.Signature Integration Guide
 
 ## Why Digital Signatures Matter for .NET Developers

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["GroupDocs", "document-analysis", "signature-extraction", "dotnet"]
+type: docs
 ---
-
 # Extract Document Information with GroupDocs.Signature .NET
 
 ## Introduction

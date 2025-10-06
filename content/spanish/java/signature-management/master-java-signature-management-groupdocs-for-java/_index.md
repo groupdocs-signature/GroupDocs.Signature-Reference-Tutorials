@@ -4,8 +4,8 @@
 "title": "Domine la gestión de firmas en Java con GroupDocs.Signature para Java"
 "url": "/es/java/signature-management/master-java-signature-management-groupdocs-for-java/"
 "weight": 1
+type: docs
 ---
-
 # Domine la gestión de firmas en Java con GroupDocs.Signature para Java
 
 ## Introducción

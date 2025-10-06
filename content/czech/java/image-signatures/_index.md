@@ -3,8 +3,8 @@
 "title": "Výukové programy pro podpisy obrázků v GroupDocs.Signature v Javě"
 "url": "/cs/java/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Výukové programy pro podpisy obrázků v GroupDocs.Signature v Javě
 
 Naučte se, jak vylepšit dokumenty vizuálními podpisy pomocí našich tutoriálů o obrazových podpisech v Javě v GroupDocs.Signature. Tyto podrobné návody ukazují, jak přidávat obrázky jako podpisy, vytvářet razítkové podpisy, implementovat vodoznaky, upravovat nastavení vzhledu a pracovat s možnostmi zarovnání a změny velikosti obrázků. Každý tutoriál obsahuje funkční příklady kódu v Javě, které ukazují, jak vytvářet vizuálně přitažlivé podpisy, které efektivně komunikují autenticitu nebo branding a zároveň zachovávají integritu dokumentu.

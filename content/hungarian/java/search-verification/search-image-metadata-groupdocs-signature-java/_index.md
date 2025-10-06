@@ -4,8 +4,8 @@
 "title": "Képmetaadatok keresése a GroupDocs.Signature for Java használatával – Átfogó útmutató"
 "url": "/hu/java/search-verification/search-image-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Kép metaadatok keresése a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

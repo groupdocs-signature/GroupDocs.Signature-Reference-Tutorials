@@ -3,8 +3,8 @@ title: "Metadata Signature Tutorials for GroupDocs.Signature Java"
 description: "Complete tutorials for implementing hidden metadata signatures in various document formats using GroupDocs.Signature for Java."
 weight: 9
 url: "/java/metadata-signatures/"
+type: docs
 ---
-
 # Metadata Signature Tutorials for GroupDocs.Signature Java
 
 Our metadata signature tutorials demonstrate how to use document metadata for secure signing using GroupDocs.Signature in Java. These step-by-step guides cover implementing metadata signatures in different document formats, including PDF, images, presentations, spreadsheets, and word processing files. Each tutorial includes working Java code examples for metadata operations, helping you build applications that can add invisible signature information to documents, enhancing security without altering the visual appearance.

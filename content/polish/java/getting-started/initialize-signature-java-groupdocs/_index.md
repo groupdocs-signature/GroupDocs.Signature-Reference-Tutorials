@@ -4,8 +4,8 @@
 "title": "Jak zainicjować instancję podpisu w Javie za pomocą GroupDocs.Signature"
 "url": "/pl/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak zainicjować instancję podpisu w Javie za pomocą GroupDocs.Signature
 
 ## Wstęp

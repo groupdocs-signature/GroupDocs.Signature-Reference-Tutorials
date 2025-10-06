@@ -4,8 +4,8 @@
 "title": "Comment supprimer les signatures d'image des documents à l'aide de GroupDocs.Signature pour Java"
 "url": "/fr/java/signature-management/delete-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Comment supprimer les signatures d'image des documents à l'aide de GroupDocs.Signature pour Java
 
 ## Introduction

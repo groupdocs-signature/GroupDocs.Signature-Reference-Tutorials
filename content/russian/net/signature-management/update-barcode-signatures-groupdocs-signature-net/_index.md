@@ -4,8 +4,8 @@
 "title": "Как обновить подписи штрихкодов по идентификатору с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Как обновить подписи штрихкодов по идентификатору с помощью GroupDocs.Signature для .NET
 
 ## Введение

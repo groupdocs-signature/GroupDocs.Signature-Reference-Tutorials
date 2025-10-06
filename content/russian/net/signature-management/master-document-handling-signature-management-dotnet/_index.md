@@ -4,8 +4,8 @@
 "title": "Обработка основных документов и управление подписями в .NET с помощью GroupDocs.Signature"
 "url": "/ru/net/signature-management/master-document-handling-signature-management-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Освоение обработки документов и управления подписями в .NET с помощью GroupDocs.Signature
 
 ## Введение

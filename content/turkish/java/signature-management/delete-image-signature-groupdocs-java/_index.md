@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Belgelerden Görüntü İmzaları Nasıl Kaldırılır"
 "url": "/tr/java/signature-management/delete-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Belgelerden Görüntü İmzaları Nasıl Kaldırılır
 
 ## giriiş

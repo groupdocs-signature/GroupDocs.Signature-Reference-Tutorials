@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak PDF'leri Metin Etiketleriyle Nasıl İmzalayabilirsiniz? | Adım Adım Kılavuz"
 "url": "/tr/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak Bir PDF Belgesini Metin Etiketiyle Nasıl İmzalayabilirsiniz?
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Как искать сигнатуры метаданных в документах Word с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/metadata-signatures/search-metadata-signatures-word-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Как искать сигнатуры метаданных в документах Word с помощью GroupDocs.Signature для .NET
 
 ## Введение

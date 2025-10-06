@@ -4,8 +4,8 @@
 "title": "Come scaricare e firmare documenti Amazon S3 con codici QR utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/qr-code-signatures/download-sign-s3-documents-qr-code-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come scaricare e firmare documenti Amazon S3 con codici QR utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

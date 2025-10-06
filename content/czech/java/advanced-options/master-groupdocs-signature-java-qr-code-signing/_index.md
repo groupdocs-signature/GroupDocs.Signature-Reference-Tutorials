@@ -4,8 +4,8 @@
 "title": "Zvládněte dynamické podpisy dokumentů s GroupDocs.Signature pro techniky podepisování QR kódů v Javě"
 "url": "/cs/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Zvládněte dynamické podpisy dokumentů pomocí GroupDocs.Signature pro Javu: Techniky podepisování QR kódů
 
 V dnešním digitálním světě je efektivní zabezpečení a ověřování elektronických dokumentů zásadní. **GroupDocs.Signature pro Javu** nabízí výkonné řešení pro rychlé podepisování PDF souborů a zároveň zajišťuje jejich autenticitu pomocí podpisů QR kódem na různých místech.

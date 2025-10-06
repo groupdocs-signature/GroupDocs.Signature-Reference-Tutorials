@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java'da Barkod İmza Araması Nasıl Uygulanır?"
 "url": "/tr/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Java'da Barkod İmza Araması Nasıl Uygulanır?
 
 ## giriiş

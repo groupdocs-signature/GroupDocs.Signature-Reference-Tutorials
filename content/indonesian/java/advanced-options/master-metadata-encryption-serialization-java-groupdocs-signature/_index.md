@@ -4,8 +4,8 @@
 "title": "Enkripsi Metadata Master & Serialisasi di Java dengan GroupDocs.Signature"
 "url": "/id/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Enkripsi dan Serialisasi Metadata di Java dengan GroupDocs.Signature
 
 ## Perkenalan

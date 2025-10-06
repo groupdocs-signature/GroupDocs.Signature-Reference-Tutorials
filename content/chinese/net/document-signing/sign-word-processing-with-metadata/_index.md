@@ -5,8 +5,8 @@
 "title": "使用 C# .NET 中的元数据签名增强 Word 文档"
 "url": "/zh/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## 介绍
 
 文字处理文档是商业、教育和个人通信中最常用的文件类型之一。在许多专业环境中，确保这些文档的真实性、追踪来源并维护其完整性至关重要。增强文档安全性和可追溯性的一种有效方法是嵌入元数据签名。

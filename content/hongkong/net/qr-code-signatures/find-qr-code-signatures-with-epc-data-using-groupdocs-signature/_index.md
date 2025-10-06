@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 掌握文件中的二維碼簽章搜尋"
 "url": "/zh-hant/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 掌握文件搜尋：使用 GroupDocs.Signature for .NET 尋找帶有 EPC 資料的二維碼簽名
 
 ## 介紹

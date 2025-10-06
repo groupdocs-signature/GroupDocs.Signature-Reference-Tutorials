@@ -4,8 +4,8 @@
 "title": "إدارة توقيعات الباركود بكفاءة في ملفات PDF باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # إدارة توقيعات الباركود بكفاءة في ملفات PDF باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

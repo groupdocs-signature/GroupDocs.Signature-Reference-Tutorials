@@ -4,8 +4,8 @@
 "title": "إتقان البحث عن رمز الاستجابة السريعة في ملفات PDF باستخدام GroupDocs.Signature لـ .NET - دليل كامل"
 "url": "/ar/net/search-verification/master-qr-code-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # إتقان البحث عن رمز الاستجابة السريعة في ملفات PDF باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

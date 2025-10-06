@@ -4,8 +4,8 @@
 "title": "Handleiding voor het verwijderen van QR-codehandtekeningen in Java met behulp van GroupDocs"
 "url": "/nl/java/signature-management/qr-code-signature-deletion-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Handleiding voor het verwijderen van QR-codehandtekeningen in Java met behulp van GroupDocs
 
 ## Invoering

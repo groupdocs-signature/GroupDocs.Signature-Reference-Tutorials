@@ -4,8 +4,8 @@
 "title": "การลงนามเอกสารที่ปลอดภัยและอัตโนมัติด้วย GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # การลงนามเอกสารที่ปลอดภัยและอัตโนมัติด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

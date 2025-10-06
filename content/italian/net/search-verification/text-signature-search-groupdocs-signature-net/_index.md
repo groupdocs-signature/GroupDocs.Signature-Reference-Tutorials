@@ -4,8 +4,8 @@
 "title": "Ricerca della firma del testo principale nei documenti .NET tramite GroupDocs.Signature"
 "url": "/it/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la ricerca della firma del testo nei documenti .NET utilizzando GroupDocs.Signature
 
 ## Introduzione

@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen Word dengan Kode QR dan Menyimpannya sebagai ODT Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/qr-code-signatures/sign-word-docs-qr-code-save-odt-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen Word dengan Kode QR dan Menyimpannya sebagai ODT Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "QR-codehandtekeningen efficiënt verwijderen met GroupDocs.Signature voor .NET | Handleiding voor handtekeningbeheer"
 "url": "/nl/net/signature-management/delete-qr-code-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # QR-codehandtekeningen verwijderen met GroupDocs.Signature voor .NET
 
 ## Invoering

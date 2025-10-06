@@ -4,8 +4,8 @@
 "title": "Implementar e exibir assinaturas de documentos usando GroupDocs.Signature para .NET - Um guia abrangente"
 "url": "/pt/net/digital-signatures/implement-document-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementando e exibindo assinaturas de documentos com GroupDocs.Signature para .NET
 
 ## Introdução

@@ -4,8 +4,8 @@
 "title": "Πώς να διαγράψετε μια υπογραφή κειμένου με αναγνωριστικό χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να διαγράψετε μια υπογραφή κειμένου με αναγνωριστικό χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

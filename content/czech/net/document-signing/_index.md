@@ -5,8 +5,8 @@
 "title": "Podepisování dokumentů pomocí metadat v .NET"
 "url": "/cs/net/document-signing/"
 "weight": 24
+type: docs
 ---
-
 ## Zavedení
 
 dnešním digitálním světě se zajištění pravosti, sledování původu a integrity dokumentů stalo pro firmy a organizace zásadním. Podpisy metadat poskytují účinný, ale nenápadný způsob, jak vkládat identifikační informace přímo do souborů dokumentů, čímž zvyšují zabezpečení bez změny jejich vizuálního vzhledu.

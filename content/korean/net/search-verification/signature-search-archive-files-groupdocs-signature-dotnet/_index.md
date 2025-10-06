@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 보관 파일에서 효율적인 서명 검색"
 "url": "/ko/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 보관 파일에서 효율적인 서명 검색
 
 ## 소개

@@ -4,8 +4,8 @@
 "title": "Proteja documentos com marcas d'água de texto usando GroupDocs.Signature para .NET - Um guia completo"
 "url": "/pt/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar marcas d'água de texto em documentos usando GroupDocs.Signature para .NET
 
 ## Introdução

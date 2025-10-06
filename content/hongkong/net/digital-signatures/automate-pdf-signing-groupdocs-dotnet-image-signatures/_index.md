@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 自動執行 PDF 簽章&#58; 影像簽章指南"
 "url": "/zh-hant/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 自動執行 PDF 簽章：影像簽章指南
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "Как обновить подписи изображений в PDF-файлах с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/image-signatures/update-image-signatures-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Как обновить подписи изображений в PDF-файлах с помощью GroupDocs.Signature для .NET
 
 ## Введение

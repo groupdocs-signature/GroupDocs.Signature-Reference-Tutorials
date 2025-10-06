@@ -4,8 +4,8 @@
 "title": "Java PDF aláírás frissítések a GroupDocs.Signature segítségével – Átfogó útmutató fejlesztőknek"
 "url": "/hu/java/signature-management/java-pdf-signature-updates-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java PDF aláírásfrissítések elsajátítása a GroupDocs.Signature segítségével
 A digitális világban a dokumentumok biztonsága kiemelkedő fontosságú. Akár szerződéseket kezelő fejlesztő, akár érzékeny információkat kezelő szervezet, a dokumentumok aláírással történő védelme elengedhetetlen. **GroupDocs.Signature Java-hoz** robusztus megoldást kínál PDF-ek és más formátumok aláírásainak hozzáadására, módosítására és ellenőrzésére. Ez az oktatóanyag végigvezeti Önt a PDF-aláírás-frissítések GroupDocs.Signature for Java használatával történő megvalósításán.
 

@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng trường biểu mẫu nút radio với GroupDocs.Signature cho .NET"
 "url": "/vi/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF bằng trường biểu mẫu nút radio với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

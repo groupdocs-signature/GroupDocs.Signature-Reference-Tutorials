@@ -4,8 +4,8 @@
 "title": "Обновление и поиск подписей изображений в PDF-файлах с помощью Java с GroupDocs.Signature"
 "url": "/ru/java/signature-management/update-search-image-signatures-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Обновление и поиск подписей изображений в PDF-файлах с помощью Java
 
 ## Введение

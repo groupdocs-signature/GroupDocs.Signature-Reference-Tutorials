@@ -4,8 +4,8 @@
 "title": "วิธีการค้นหาลายเซ็นข้อมูลเมตาในสเปรดชีตโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการค้นหาลายเซ็นข้อมูลเมตาในสเปรดชีตโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Hướng dẫn xóa chữ ký mã QR trong Java bằng GroupDocs"
 "url": "/vi/java/signature-management/qr-code-signature-deletion-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn xóa chữ ký mã QR trong Java bằng GroupDocs
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε ψηφιακές υπογραφές στο Excel χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε ψηφιακή υπογραφή σε ένα υπολογιστικό φύλλο χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

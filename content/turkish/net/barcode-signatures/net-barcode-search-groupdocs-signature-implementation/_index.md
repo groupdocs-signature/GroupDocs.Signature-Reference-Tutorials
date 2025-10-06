@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanılarak .NET Barkod Araması Nasıl Uygulanır?"
 "url": "/tr/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanılarak .NET Barkod Araması Nasıl Uygulanır?
 
 ## giriiş

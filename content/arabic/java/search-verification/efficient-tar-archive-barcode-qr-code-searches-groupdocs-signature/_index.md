@@ -4,8 +4,8 @@
 "title": "البحث في أرشيف TAR الرئيسي عن الباركود ورمز الاستجابة السريعة باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # إتقان عمليات البحث عن الباركود ورمز الاستجابة السريعة في أرشيف TAR باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

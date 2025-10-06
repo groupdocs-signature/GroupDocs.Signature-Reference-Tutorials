@@ -4,8 +4,8 @@
 "title": "Como lidar com exceções de senha incorretas no GroupDocs.Signature para .NET"
 "url": "/pt/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Como lidar com exceções de senha incorretas usando GroupDocs.Signature para .NET
 
 ## Introdução

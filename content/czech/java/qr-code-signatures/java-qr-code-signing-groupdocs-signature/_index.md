@@ -4,8 +4,8 @@
 "title": "Průvodce podepisováním QR kódů v Javě&#58; Zabezpečte své dokumenty pomocí GroupDocs.Signature"
 "url": "/cs/java/qr-code-signatures/java-qr-code-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementace podepisování QR kódů v Javě pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

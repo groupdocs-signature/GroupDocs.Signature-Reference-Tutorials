@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Pencarian Tanda Tangan Barcode di Java dengan GroupDocs.Signature"
 "url": "/id/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pencarian Tanda Tangan Barcode di Java dengan GroupDocs.Signature
 
 ## Perkenalan

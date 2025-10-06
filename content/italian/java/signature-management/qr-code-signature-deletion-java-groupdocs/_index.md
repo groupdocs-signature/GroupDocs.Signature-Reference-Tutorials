@@ -4,8 +4,8 @@
 "title": "Guida all'eliminazione delle firme dei codici QR in Java utilizzando GroupDocs"
 "url": "/it/java/signature-management/qr-code-signature-deletion-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Guida all'eliminazione delle firme dei codici QR in Java utilizzando GroupDocs
 
 ## Introduzione

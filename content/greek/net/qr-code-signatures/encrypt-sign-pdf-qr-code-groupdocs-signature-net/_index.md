@@ -4,8 +4,8 @@
 "title": "Κρυπτογράφηση και υπογραφή PDF με κωδικούς QR χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Κρυπτογράφηση και υπογραφή PDF με κωδικούς QR χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

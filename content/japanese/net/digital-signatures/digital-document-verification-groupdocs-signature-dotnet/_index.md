@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET によるデジタル文書検証 総合ガイド"
 "url": "/ja/net/digital-signatures/digital-document-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET によるデジタル文書検証: 総合ガイド
 
 ## 導入

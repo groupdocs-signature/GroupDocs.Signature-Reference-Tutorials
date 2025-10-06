@@ -5,8 +5,8 @@
 "title": "Thêm chữ ký văn bản vào tài liệu với GroupDocs.Signature cho .NET"
 "url": "/vi/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # Cách thêm chữ ký văn bản vào tài liệu bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu: Hiện đại hóa quy trình ký tài liệu của bạn

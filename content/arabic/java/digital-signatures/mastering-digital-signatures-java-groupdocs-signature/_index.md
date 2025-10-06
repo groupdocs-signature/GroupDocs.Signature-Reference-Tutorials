@@ -4,8 +4,8 @@
 "title": "إتقان التوقيعات الرقمية في جافا - دليل شامل باستخدام GroupDocs.Signature"
 "url": "/ar/java/digital-signatures/mastering-digital-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # إتقان التوقيعات الرقمية في جافا: دليل شامل مع GroupDocs.Signature
 
 ## مقدمة

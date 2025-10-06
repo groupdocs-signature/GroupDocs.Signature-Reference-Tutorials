@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature per Java&#58; firma i documenti utilizzando immagini Base64"
 "url": "/it/java/image-signatures/groupdocs-signature-java-base64-image/"
 "weight": 1
+type: docs
 ---
-
 # Firma di documenti master con GroupDocs.Signature per Java utilizzando immagini codificate in Base64
 
 ## Introduzione

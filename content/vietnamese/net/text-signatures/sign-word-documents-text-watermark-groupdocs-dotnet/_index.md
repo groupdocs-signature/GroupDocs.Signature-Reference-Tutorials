@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu Word có hình mờ văn bản bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu Word có hình mờ văn bản bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

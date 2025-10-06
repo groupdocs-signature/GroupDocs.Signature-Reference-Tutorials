@@ -5,8 +5,8 @@
 "title": "Ověřování digitálních podpisů v dokumentech"
 "url": "/cs/net/verify-operations/verify-digital/"
 "weight": 11
+type: docs
 ---
-
 ## Zavedení
 
 Digitální podpisy hrají klíčovou roli v zajištění autenticity, integrity a nepopiratelnosti dokumentů v moderních obchodních procesech. Na rozdíl od tradičních ručně psaných podpisů používají digitální podpisy kryptografické techniky k ověření identity podepisujícího a k zajištění toho, aby dokument nebyl od svého podpisu změněn.

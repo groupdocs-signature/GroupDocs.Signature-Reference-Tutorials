@@ -4,8 +4,8 @@
 "title": "Мастер управления текстовой подписью в .NET с помощью GroupDocs.Signature"
 "url": "/ru/net/signature-management/master-text-signature-management-dotnet-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Освоение управления текстовыми подписями в .NET с помощью GroupDocs.Signature
 
 ## Введение

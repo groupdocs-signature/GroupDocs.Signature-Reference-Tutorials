@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Tanda Tangan Digital dari PDF Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/signature-management/remove-digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Digital dari PDF Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

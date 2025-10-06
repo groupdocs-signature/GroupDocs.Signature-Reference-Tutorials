@@ -4,8 +4,8 @@
 "title": "Dominando la firma de documentos en .NET&#58; Firmas de códigos de barras y códigos QR con GroupDocs.Signature"
 "url": "/es/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Dominio de la firma de documentos en .NET: Implementación de firmas de código de barras y código QR con GroupDocs.Signature
 
 ## Introducción

@@ -4,8 +4,8 @@
 "title": "Signering av huvuddokument i Java - Implementering av vanliga och rikt textfält med GroupDocs.Signature"
 "url": "/sv/java/digital-signatures/groupdocs-signature-java-plain-rich-text-fields/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra dokumentsignering i Java: Implementera vanliga och rika textfält med GroupDocs.Signature
 
 Välkommen till den omfattande guiden om utnyttjande **GroupDocs.Signature för Java** att signera dokument med hjälp av vanliga och RTF-fält. Oavsett om du automatiserar kontraktsgodkännanden eller effektiviserar arbetsflöden, kommer den här handledningen att ge dig möjlighet att implementera dessa funktioner effektivt.

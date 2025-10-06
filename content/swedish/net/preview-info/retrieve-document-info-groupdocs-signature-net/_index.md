@@ -4,8 +4,8 @@
 "title": "Så här hämtar du dokumentinformation med GroupDocs.Signature för .NET"
 "url": "/sv/net/preview-info/retrieve-document-info-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här hämtar du dokumentinformation med GroupDocs.Signature för .NET
 
 ## Introduktion

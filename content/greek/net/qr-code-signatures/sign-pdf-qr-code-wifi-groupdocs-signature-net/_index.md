@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF με κωδικούς QR Ενσωματώνοντας πληροφορίες WiFi χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε PDF με κωδικούς QR Ενσωματώνοντας πληροφορίες WiFi χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Come firmare in modo incrementale i PDF con GroupDocs.Signature per .NET&#58; una guida completa"
 "url": "/it/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare un documento PDF in modo incrementale utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

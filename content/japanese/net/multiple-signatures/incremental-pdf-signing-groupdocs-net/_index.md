@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET で PDF に増分署名する方法 - 総合ガイド"
 "url": "/ja/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して PDF ドキュメントに増分署名する方法
 
 ## 導入

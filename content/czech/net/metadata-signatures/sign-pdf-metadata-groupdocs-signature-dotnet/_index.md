@@ -4,8 +4,8 @@
 "title": "Podepisování PDF souborů metadaty pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Podepisování PDF souborů metadaty pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

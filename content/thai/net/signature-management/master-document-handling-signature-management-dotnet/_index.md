@@ -4,8 +4,8 @@
 "title": "การจัดการเอกสารและการจัดการลายเซ็นระดับปรมาจารย์ใน .NET ด้วย GroupDocs.Signature"
 "url": "/th/net/signature-management/master-document-handling-signature-management-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การจัดการเอกสารและการจัดการลายเซ็นใน .NET ด้วย GroupDocs.Signature
 
 ## การแนะนำ

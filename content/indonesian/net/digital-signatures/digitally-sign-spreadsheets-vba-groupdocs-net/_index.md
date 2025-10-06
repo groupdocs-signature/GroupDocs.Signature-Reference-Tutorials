@@ -4,8 +4,8 @@
 "title": "Tanda Tangani Spreadsheet Excel dan Proyek VBA Secara Digital Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Menandatangani Spreadsheet Excel dan Proyek VBA secara Digital dengan GroupDocs.Signature untuk .NET
 
 Di era digital saat ini, memastikan keaslian file Excel Anda sangatlah penting. Baik Anda mengelola spreadsheet keuangan maupun rencana proyek, menambahkan tanda tangan digital dapat melindungi Anda dari perubahan yang tidak sah. Tutorial ini memandu Anda untuk menandatangani dokumen spreadsheet dan proyek VBA secara digital menggunakan **GroupDocs.Signature untuk .NET**.

@@ -8,10 +8,8 @@ keywords:
 - Java PDF signing
 - GroupDocs.Signature Java
 - certificate-based digital signatures
-
+type: docs
 ---
-
-
 # How to Digitally Sign PDFs in Java Using GroupDocs.Signature
 
 ## Introduction

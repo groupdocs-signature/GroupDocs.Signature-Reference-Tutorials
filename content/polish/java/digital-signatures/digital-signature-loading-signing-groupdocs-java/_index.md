@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć ładowanie i podpisywanie podpisów cyfrowych za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć ładowanie i podpisywanie podpisów cyfrowych za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

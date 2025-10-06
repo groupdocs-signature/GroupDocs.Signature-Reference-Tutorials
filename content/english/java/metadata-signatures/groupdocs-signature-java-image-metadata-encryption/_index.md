@@ -8,10 +8,8 @@ keywords:
 - Image Metadata Signing Java
 - GroupDocs.Signature for Java encryption
 - Java image metadata protection
-
+type: docs
 ---
-
-
 # Implement Image Metadata Signing with Encryption in Java Using GroupDocs.Signature
 
 ## Introduction

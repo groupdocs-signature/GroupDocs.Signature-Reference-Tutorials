@@ -4,8 +4,8 @@
 "title": "Υλοποίηση Υπογραφής και Κρυπτογράφησης Μεταδεδομένων Εικόνας σε Java με το GroupDocs.Signature"
 "url": "/el/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση υπογραφής μεταδεδομένων εικόνας με κρυπτογράφηση σε Java χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "So signieren Sie DICOM-Bilder mit QR-Codes mithilfe von GroupDocs.Signature für .NET – Ein umfassender Leitfaden"
 "url": "/de/net/qr-code-signatures/groupdocs-signature-net-dicom-images-qr-codes/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie DICOM-Bilder mit QR-Codes mithilfe von GroupDocs.Signature für .NET: Ein umfassender Leitfaden
 
 Suchen Sie nach einer sicheren Methode zur Authentifizierung Ihrer DICOM-Dateien? Diese ausführliche Anleitung zeigt Ihnen, wie Sie mit GroupDocs.Signature für .NET QR-Code-Signaturen in DICOM-Bilder integrieren. Dieses Tutorial ist ideal für medizinisches Fachpersonal, Entwickler und alle, die mit digitalen medizinischen Dokumenten arbeiten. Es deckt die gesamte Einrichtung und Implementierung ab.

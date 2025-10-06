@@ -4,8 +4,8 @@
 "title": "Penandatanganan Dokumen Gambar dengan Metadata Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Penandatanganan Dokumen Gambar dengan Metadata Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

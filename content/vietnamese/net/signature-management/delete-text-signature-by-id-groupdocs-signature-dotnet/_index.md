@@ -4,8 +4,8 @@
 "title": "Cách xóa chữ ký văn bản theo ID bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa chữ ký văn bản theo ID bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

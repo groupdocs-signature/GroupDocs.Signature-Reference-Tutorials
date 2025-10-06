@@ -4,8 +4,8 @@
 "title": "Ký tài liệu bằng Gradient Brush trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Ký tài liệu bằng cọ Gradient trong Java bằng GroupDocs.Signature
 
 Trong thời đại kỹ thuật số ngày nay, việc ký tài liệu an toàn là vô cùng quan trọng để đảm bảo hiệu quả trong mọi ngành nghề. Hướng dẫn này sẽ hướng dẫn bạn cách ký tài liệu kỹ thuật số với hiệu ứng cọ chuyển màu bằng cách sử dụng **GroupDocs.Signature cho Java**.

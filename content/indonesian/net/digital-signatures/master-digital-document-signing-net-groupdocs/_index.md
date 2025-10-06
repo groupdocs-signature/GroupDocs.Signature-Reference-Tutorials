@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen Digital di .NET Menggunakan API GroupDocs.Signature"
 "url": "/id/net/digital-signatures/master-digital-document-signing-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen Digital di .NET dengan API GroupDocs.Signature
 ## Perkenalan
 Di lingkungan digital yang serba cepat saat ini, memastikan keaslian dokumen sekaligus menjaga efisiensi sangatlah penting. Baik Anda seorang pengembang yang mengotomatiskan alur kerja atau organisasi yang ingin meningkatkan efisiensi operasional, mengintegrasikan tanda tangan digital dapat menjadi hal yang transformatif. Tutorial ini akan memandu Anda dalam menggunakan **GroupDocs.Signature untuk .NET** untuk menandatangani dokumen dengan tanda tangan teks dalam format kolom formulir. Di akhir panduan ini, Anda akan mengetahui cara mengintegrasikan tanda tangan digital dengan lancar ke dalam aplikasi .NET Anda.

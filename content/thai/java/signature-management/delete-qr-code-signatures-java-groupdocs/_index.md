@@ -4,8 +4,8 @@
 "title": "วิธีลบลายเซ็น QR Code ออกจากเอกสารโดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/signature-management/delete-qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # วิธีลบลายเซ็น QR Code ออกจากเอกสารโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

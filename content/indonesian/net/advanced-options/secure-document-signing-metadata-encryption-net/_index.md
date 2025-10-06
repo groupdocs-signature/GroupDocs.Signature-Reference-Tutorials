@@ -4,8 +4,8 @@
 "title": "Kuasai Penandatanganan Dokumen Aman dengan Metadata dan Enkripsi Kustom di .NET menggunakan GroupDocs.Signature"
 "url": "/id/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Kuasai Penandatanganan Dokumen Aman dengan Metadata dan Enkripsi Kustom di .NET
 
 ## Perkenalan

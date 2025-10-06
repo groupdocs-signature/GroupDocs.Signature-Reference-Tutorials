@@ -4,8 +4,8 @@
 "title": "Κύριες ψηφιακές υπογραφές σε .NET&#58; Πώς να χρησιμοποιήσετε το GroupDocs.Signature για υπογραφή και αναζήτηση εγγράφων"
 "url": "/el/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Κύριες ψηφιακές υπογραφές στο .NET: Πώς να χρησιμοποιήσετε το GroupDocs.Signature για υπογραφή και αναζήτηση εγγράφων
 
 ## Εισαγωγή

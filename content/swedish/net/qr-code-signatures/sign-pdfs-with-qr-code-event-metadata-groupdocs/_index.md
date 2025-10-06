@@ -4,8 +4,8 @@
 "title": "Signera PDF-filer med QR-kod och händelsemetadata med GroupDocs.Signature för .NET"
 "url": "/sv/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Signera PDF-filer med QR-kod och händelsemetadata med GroupDocs.Signature för .NET
 
 ## Introduktion

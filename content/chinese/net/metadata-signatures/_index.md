@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature .NET 元数据签名教程"
 "url": "/zh/net/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # GroupDocs.Signature .NET 元数据签名教程
 
 我们的元数据签名教程演示了如何在 .NET 中使用 GroupDocs.Signature 实现文档元数据的安全签名。这些分步指南涵盖了如何在不同文档格式（包括 PDF、图像、演示文稿、电子表格和文字处理文件）中实现元数据签名。每个教程都包含用于元数据操作的 C# 代码示例，帮助您构建能够向文档添加不可见签名信息的应用程序，从而在不改变文档外观的情况下增强安全性。

@@ -5,8 +5,8 @@
 "title": "更新文档中的图像签名"
 "url": "/zh/net/update-operations/update-image/"
 "weight": 11
+type: docs
 ---
-
 ## 介绍
 数字文档管理需要强大的签名功能来确保其真实性和完整性。图像签名在这个生态系统中发挥着至关重要的作用，它为文档提供视觉验证和品牌元素。GroupDocs.Signature for .NET 为开发人员提供了一个强大的框架，使他们能够在 .NET 应用程序中实现全面的签名功能，包括更新现有图像签名的功能。
 

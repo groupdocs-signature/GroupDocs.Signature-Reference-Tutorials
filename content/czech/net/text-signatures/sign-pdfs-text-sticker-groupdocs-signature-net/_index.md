@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory textovými samolepkami pomocí GroupDocs.Signature pro .NET | Podrobný návod"
 "url": "/cs/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF dokument textovou nálepkou pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

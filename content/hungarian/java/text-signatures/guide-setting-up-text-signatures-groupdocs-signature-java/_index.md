@@ -4,8 +4,8 @@
 "title": "Átfogó útmutató a szöveges aláírások beállításához a GroupDocs.Signature for Java segítségével"
 "url": "/hu/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Átfogó útmutató a szöveges aláírások beállításához a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

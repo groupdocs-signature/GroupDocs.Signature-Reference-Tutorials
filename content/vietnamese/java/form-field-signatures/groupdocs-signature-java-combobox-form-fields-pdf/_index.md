@@ -4,8 +4,8 @@
 "title": "Triển khai các trường biểu mẫu ComboBox trong PDF bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai các trường biểu mẫu ComboBox trong PDF bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

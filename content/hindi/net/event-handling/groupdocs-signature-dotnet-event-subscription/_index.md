@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature के साथ दस्तावेज़ हस्ताक्षर में ईवेंट सदस्यता में महारत हासिल करना | चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ दस्तावेज़ पर हस्ताक्षर करने में इवेंट सदस्यता में महारत हासिल करना
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Реализация цифровых подписей с отметками времени в PDF-файлах с помощью Java и GroupDocs.Signature"
 "url": "/ru/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Реализация цифровых подписей с отметками времени в PDF-файлах с использованием Java и GroupDocs.Signature
 
 ## Введение

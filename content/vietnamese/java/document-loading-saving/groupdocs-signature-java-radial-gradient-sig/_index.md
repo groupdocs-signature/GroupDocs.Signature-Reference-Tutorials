@@ -4,8 +4,8 @@
 "title": "Tạo chữ ký Radial Gradient tuyệt đẹp trong Java với GroupDocs.Signature"
 "url": "/vi/java/document-loading-saving/groupdocs-signature-java-radial-gradient-sig/"
 "weight": 1
+type: docs
 ---
-
 # Tạo chữ ký Radial Gradient hấp dẫn trực quan bằng GroupDocs.Signature cho Java
 
 Trong thế giới kỹ thuật số ngày nay, tính thẩm mỹ của việc ký tài liệu điện tử cũng quan trọng như tính năng. Một chữ ký đẹp mắt có thể nâng cao tính chuyên nghiệp và uy tín cho tác phẩm của bạn. Hướng dẫn này sẽ hướng dẫn bạn cách triển khai chữ ký cọ gradient xuyên tâm bằng GroupDocs.Signature cho Java.

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java를 사용하여 텍스트 스티커로 PDF에 서명하는 방법&#58; 완벽한 가이드"
 "url": "/ko/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 텍스트 스티커로 PDF에 서명하는 방법: 완전한 가이드
 
 ## 소개

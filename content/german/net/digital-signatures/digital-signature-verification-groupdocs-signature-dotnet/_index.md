@@ -4,8 +4,8 @@
 "title": "Überprüfen Sie digitale Signaturen in .NET mit GroupDocs.Signature – Ein vollständiger Leitfaden"
 "url": "/de/net/digital-signatures/digital-signature-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Überprüfen Sie digitale Signaturen in .NET mit GroupDocs.Signature: Ein vollständiger Leitfaden
 
 ## Einführung

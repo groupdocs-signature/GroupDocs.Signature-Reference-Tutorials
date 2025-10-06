@@ -4,8 +4,8 @@
 "title": "Digitális tanúsítványok lekérése archívumokból a GroupDocs.Signature for .NET használatával | Lépésről lépésre útmutató"
 "url": "/hu/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Digitális tanúsítványok lekérése archívumokból a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

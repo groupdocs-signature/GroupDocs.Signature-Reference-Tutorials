@@ -4,8 +4,8 @@
 "title": "Versleutel en onderteken PDF's met QR-codes met GroupDocs.Signature voor .NET"
 "url": "/nl/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF's versleutelen en ondertekenen met QR-codes met GroupDocs.Signature voor .NET
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Master .NET-dokumentsignering med GroupDocs.Signature för säkra digitala signaturer"
 "url": "/sv/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra .NET-dokumentsignering med GroupDocs.Signature
 
 ## Introduktion

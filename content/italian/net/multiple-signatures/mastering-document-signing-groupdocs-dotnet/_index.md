@@ -4,8 +4,8 @@
 "title": "Padroneggiare la firma dei documenti con GroupDocs.Signature per .NET&#58; una guida completa"
 "url": "/it/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la firma dei documenti con GroupDocs.Signature per .NET
 
 ## Introduzione

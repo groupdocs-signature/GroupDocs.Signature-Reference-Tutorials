@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature ile Belge Aramalarını Optimize Edin ve İlerleme Olay İşleyicilerini Uygulayın"
 "url": "/tr/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature ile Belge Aramalarını Optimize Edin: İlerleme Olay İşleyicilerini Uygulayın
 
 ## giriiş

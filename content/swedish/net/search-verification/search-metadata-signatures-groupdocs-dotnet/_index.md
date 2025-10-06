@@ -4,8 +4,8 @@
 "title": "Så här söker du efter metadatasignaturer i presentationer med GroupDocs.Signature för .NET"
 "url": "/sv/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Så här söker du efter metadatasignaturer i presentationer med GroupDocs.Signature för .NET
 
 ## Introduktion

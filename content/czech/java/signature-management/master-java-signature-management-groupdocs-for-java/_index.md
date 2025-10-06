@@ -4,8 +4,8 @@
 "title": "Zvládněte správu podpisů v Javě pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/signature-management/master-java-signature-management-groupdocs-for-java/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí správy podpisů v Javě s GroupDocs.Signature pro Javu
 
 ## Zavedení

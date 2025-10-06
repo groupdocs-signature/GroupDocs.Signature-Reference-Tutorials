@@ -4,8 +4,8 @@
 "title": "Gere visualizações de páginas em PDF usando o GroupDocs.Signature para .NET - Um guia completo"
 "url": "/pt/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Gerar visualizações de páginas em PDF usando o GroupDocs.Signature para .NET: um guia completo
 
 ## Introdução

@@ -4,8 +4,8 @@
 "title": "Mã hóa và ký mã QR trong Java bằng GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/java/qr-code-signatures/encrypt-sign-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Mã hóa và ký mã QR với GroupDocs.Signature cho Java
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Wyodrębnianie danych WiFi z kodów QR w plikach PDF za pomocą języka Java z funkcją GroupDocs.Signature"
 "url": "/pl/java/qr-code-signatures/qr-code-wifi-data-extraction-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Wyodrębnianie danych WiFi z kodów QR w plikach PDF za pomocą języka Java z funkcją GroupDocs.Signature
 
 ## Wstęp

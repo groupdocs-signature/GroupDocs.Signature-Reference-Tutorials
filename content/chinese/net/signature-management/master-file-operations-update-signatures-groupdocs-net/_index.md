@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 控制文件操作和签名更新 | 高效文档管理指南"
 "url": "/zh/net/signature-management/master-file-operations-update-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 控制文件操作和签名更新 | 高效文档管理指南
 
 在当今的商业环境中，高效管理文档工作流程至关重要。无论您是执行文件操作，还是需要以编程方式更新签名， **适用于 .NET 的 GroupDocs.Signature** 提供强大的解决方案。本教程将指导您使用这个多功能库实现文件操作和更新文本签名。

@@ -4,8 +4,8 @@
 "title": "Implementace zpracování událostí průběhu v podepisování dokumentů pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementace zpracování událostí průběhu v podepisování dokumentů pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

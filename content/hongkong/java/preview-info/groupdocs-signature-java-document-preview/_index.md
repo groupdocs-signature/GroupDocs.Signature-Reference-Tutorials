@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中實作文件預覽產生－綜合指南"
 "url": "/zh-hant/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中實作文件預覽生成
 
 ## 介紹

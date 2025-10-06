@@ -4,8 +4,8 @@
 "title": "Hoe u stempelhandtekeningen op PDF's implementeert met GroupDocs.Signature voor .NET"
 "url": "/nl/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u stempelhandtekeningen op PDF's implementeert met GroupDocs.Signature voor .NET
 
 ## Invoering

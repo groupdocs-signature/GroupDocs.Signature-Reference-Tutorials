@@ -4,8 +4,8 @@
 "title": "Wdrożenie wyszukiwania podpisów w kodzie QR w .NET za pomocą GroupDocs.Signature"
 "url": "/pl/net/search-verification/implement-qr-code-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć wyszukiwanie podpisów w kodzie QR w dokumentach za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

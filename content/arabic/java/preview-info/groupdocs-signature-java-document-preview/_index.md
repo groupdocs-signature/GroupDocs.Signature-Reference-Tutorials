@@ -4,8 +4,8 @@
 "title": "تنفيذ إنشاء معاينة المستندات في Java باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ إنشاء معاينة المستندات في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

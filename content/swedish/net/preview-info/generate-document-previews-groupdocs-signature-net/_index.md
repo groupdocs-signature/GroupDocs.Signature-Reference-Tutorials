@@ -4,8 +4,8 @@
 "title": "Generera dokumentförhandsvisningar i arkiv med GroupDocs.Signature för .NET – en komplett guide"
 "url": "/sv/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Generera dokumentförhandsvisningar från arkiv med GroupDocs.Signature för .NET
 
 ## Introduktion

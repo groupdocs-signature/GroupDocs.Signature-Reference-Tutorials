@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký văn bản .NET trong PDF bằng GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/net/text-signatures/implement-net-text-signature-in-pdfs-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký văn bản .NET trong tệp PDF bằng GroupDocs.Signature
 ## Giới thiệu
 Trong thế giới số ngày nay, việc đảm bảo tính xác thực và toàn vẹn của tài liệu là vô cùng quan trọng trong mọi ngành nghề. Việc thêm chữ ký điện tử an toàn vào tài liệu PDF một cách hiệu quả có thể là một thách thức. Nhập **GroupDocs.Signature cho .NET**—một thư viện mạnh mẽ được thiết kế để đơn giản hóa quy trình này. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn cách thêm chữ ký văn bản vào tệp PDF một cách nhanh chóng và an toàn.

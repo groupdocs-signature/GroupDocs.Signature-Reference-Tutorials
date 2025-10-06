@@ -4,8 +4,8 @@
 "title": "Digitális tanúsítványok betöltése és ellenőrzése a GroupDocs.Signature for .NET segítségével – Átfogó útmutató"
 "url": "/hu/net/digital-signatures/load-verify-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Digitális tanúsítványok betöltése és ellenőrzése a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

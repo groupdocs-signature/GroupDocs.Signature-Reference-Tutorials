@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε την αναζήτηση υπογραφής γραμμωτού κώδικα σε Java με το GroupDocs.Signature"
 "url": "/el/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την αναζήτηση υπογραφής γραμμωτού κώδικα σε Java με το GroupDocs.Signature
 
 ## Εισαγωγή

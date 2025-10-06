@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 提取带有地址数据的二维码签名 | 数字签名自动化"
 "url": "/zh/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 提取带有地址数据的二维码签名
 
 ## 介绍

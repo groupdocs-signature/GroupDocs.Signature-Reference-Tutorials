@@ -4,8 +4,8 @@
 "title": "Efektivní mazání podpisů PDF pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/signature-management/delete-pdf-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak používat GroupDocs.Signature pro .NET k odstranění podpisů PDF podle ID
 
 ## Zavedení

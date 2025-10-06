@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["groupdocs", "metadata", "signatures", "dotnet", "presentations"]
+type: docs
 ---
-
 # Search Metadata Signatures .NET - Complete GroupDocs Tutorial
 
 ## Why Searching Metadata Signatures Matters (And How to Do It Right)

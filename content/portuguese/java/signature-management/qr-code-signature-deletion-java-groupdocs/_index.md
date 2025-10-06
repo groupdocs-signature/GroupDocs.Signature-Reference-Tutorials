@@ -4,8 +4,8 @@
 "title": "Guia para excluir assinaturas de código QR em Java usando GroupDocs"
 "url": "/pt/java/signature-management/qr-code-signature-deletion-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Guia para excluir assinaturas de código QR em Java usando GroupDocs
 
 ## Introdução

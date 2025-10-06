@@ -3,8 +3,8 @@
 "title": "Tutoriais de múltiplas assinaturas para GroupDocs.Signature Java"
 "url": "/pt/java/multiple-signatures/"
 "weight": 10
+type: docs
 ---
-
 # Tutoriais de múltiplas assinaturas para GroupDocs.Signature Java
 
 Aprenda a criar fluxos de trabalho de assinatura sofisticados com nossos tutoriais do GroupDocs.Signature para múltiplas assinaturas em Java. Estes guias abrangentes demonstram como combinar diferentes tipos de assinatura em um único processo, implementar sequências de assinatura ordenadas, gerenciar arranjos complexos de assinatura e trabalhar com documentos de várias páginas. Cada tutorial fornece exemplos detalhados de código Java para cenários avançados de assinatura, ajudando você a criar aplicativos robustos de processamento de documentos que suportam requisitos complexos de assinatura para casos de uso corporativo e jurídico.

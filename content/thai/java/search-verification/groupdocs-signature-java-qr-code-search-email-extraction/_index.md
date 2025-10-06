@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature สำหรับการค้นหาลายเซ็น QR Code ที่มีประสิทธิภาพและการดึงอีเมลของ Java"
 "url": "/th/java/search-verification/groupdocs-signature-java-qr-code-search-email-extraction/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้ GroupDocs.Signature สำหรับ Java: การค้นหาลายเซ็น QR Code และการดึงอีเมล
 
 ## การแนะนำ

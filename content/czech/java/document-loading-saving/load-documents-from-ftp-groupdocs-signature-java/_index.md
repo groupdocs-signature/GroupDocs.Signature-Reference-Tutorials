@@ -4,8 +4,8 @@
 "title": "Načítání dokumentů z FTP serveru pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/document-loading-saving/load-documents-from-ftp-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Načítání dokumentů z FTP serveru pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

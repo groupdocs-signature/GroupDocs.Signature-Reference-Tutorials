@@ -8,10 +8,8 @@ keywords:
 - Java Barcode Search PDFs
 - GroupDocs.Signature Java
 - PDF barcode management
-
+type: docs
 ---
-
-
 # How to Implement Java Barcode Search in PDFs Using GroupDocs.Signature for Java
 
 ## Introduction

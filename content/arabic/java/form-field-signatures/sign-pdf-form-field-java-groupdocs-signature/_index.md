@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات PDF باستخدام توقيع حقل النموذج في Java مع GroupDocs.Signature"
 "url": "/ar/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع ملف PDF باستخدام توقيع الحقل النموذجي في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Как искать сигнатуры метаданных в документах Word с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/search-verification/search-metadata-signatures-word-docs-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Как искать сигнатуры метаданных в документах Word с помощью GroupDocs.Signature для Java
 
 ## Введение

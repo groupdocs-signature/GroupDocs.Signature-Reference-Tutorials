@@ -4,8 +4,8 @@
 "title": "फ़ाइल लॉगिंग और क्यूआर कोड साइनिंग&#58; .NET के लिए GroupDocs.Signature का उपयोग करके एक संपूर्ण गाइड"
 "url": "/hi/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # फ़ाइल लॉगिंग और क्यूआर कोड साइनिंग: .NET के लिए GroupDocs.Signature का उपयोग करके एक संपूर्ण गाइड
 
 ## परिचय

@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature .NET 文字簽章教學"
 "url": "/zh-hant/net/text-signatures/"
 "weight": 7
+type: docs
 ---
-
 # GroupDocs.Signature .NET 文字簽章教學
 
 我們的文字簽名教學向您展示如何使用 .NET 中的 GroupDocs.Signature 實作各種基於文字的簽章類型。這些實用指南將指導您如何建立文字簽名、浮水印、批註、貼紙、表單欄位和圖章，並提供可自訂的格式選項。每個教學課程都包含針對文字簽名實現場景的詳細 C# 程式碼範例，可協助您建立能夠有效地使用文字資訊標記文件的應用程序，同時提供多種樣式和定位選項。

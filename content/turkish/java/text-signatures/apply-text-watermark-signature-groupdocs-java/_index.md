@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Metin Filigran İmzaları Uygulama"
 "url": "/tr/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Metin Filigran İmzası Nasıl Uygulanır?
 
 ## giriiş

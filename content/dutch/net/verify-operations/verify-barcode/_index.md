@@ -5,8 +5,8 @@
 "title": "Barcodehandtekeningen in documenten verifiëren"
 "url": "/nl/net/verify-operations/verify-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Invoering
 
 Barcodes zijn een integraal onderdeel geworden van moderne documentbeheersystemen en bieden snelle toegang tot gecodeerde informatie. Ze dienen tegelijkertijd als beveiligingsfunctie. GroupDocs.Signature voor .NET biedt een krachtige API voor het verifiëren van barcodehandtekeningen in documenten, waardoor hun authenticiteit en integriteit worden gegarandeerd.

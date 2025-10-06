@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 在圖像文件中搜尋元資料簽名"
 "url": "/zh-hant/net/search-verification/search-metadata-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在影像文件中搜尋元資料簽名
 
 ## 介紹

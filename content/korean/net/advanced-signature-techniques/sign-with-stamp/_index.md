@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature를 사용하여 문서에 스탬프 서명을 추가하는 방법"
 "url": "/ko/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # .NET 문서에 전문 스탬프 서명을 추가하는 방법
 
 ## 스탬프 서명으로 무엇을 할 수 있나요?

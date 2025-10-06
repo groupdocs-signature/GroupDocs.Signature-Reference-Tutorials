@@ -4,8 +4,8 @@
 "title": "Podepisování PDF souborů pomocí QR kódu a metadat událostí pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Podepisování PDF souborů pomocí QR kódu a metadat událostí pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Обновление текстовых подписей в документах .NET с помощью GroupDocs.Signature"
 "url": "/ru/net/signature-management/update-text-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Обновление текстовых подписей в документах .NET с помощью GroupDocs.Signature
 
 ## Введение

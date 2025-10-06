@@ -3,8 +3,8 @@
 "title": "Tutorial Opsi Tanda Tangan Lanjutan untuk GroupDocs.Signature Java"
 "url": "/id/java/advanced-options/"
 "weight": 14
+type: docs
 ---
-
 # Tutorial Opsi Tanda Tangan Lanjutan untuk GroupDocs.Signature Java
 
 Jelajahi kemampuan tanda tangan tingkat lanjut dengan tutorial GroupDocs.Signature kami yang komprehensif untuk pengembang Java. Panduan detail ini mencakup penerapan enkripsi khusus, serialisasi khusus, pengaturan tampilan yang kompleks, kuas dan gradien khusus, pemosisian dengan berbagai unit pengukuran, opsi penyelarasan, dan mode peregangan. Setiap tutorial menyediakan contoh kode Java yang berfungsi untuk fungsionalitas tanda tangan yang canggih, membantu Anda membangun solusi dokumen yang memanfaatkan sepenuhnya kemampuan canggih GroupDocs.Signature untuk implementasi penandatanganan dokumen yang sangat khusus dan aman.

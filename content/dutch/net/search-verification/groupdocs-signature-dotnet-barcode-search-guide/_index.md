@@ -4,8 +4,8 @@
 "title": "Hoofddocument zoeken met GroupDocs.Signature voor .NET&#58; handleiding voor het verifiëren van barcodehandtekeningen"
 "url": "/nl/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Document zoeken onder de knie krijgen met GroupDocs.Signature voor .NET
 
 ## Invoering

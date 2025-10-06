@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके कुशलतापूर्वक PDF फ़ॉर्म फ़ील्ड खोजें"
 "url": "/hi/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके कुशलतापूर्वक PDF फ़ॉर्म फ़ील्ड खोजें
 
 ## परिचय

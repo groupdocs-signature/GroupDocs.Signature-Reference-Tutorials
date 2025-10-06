@@ -5,8 +5,8 @@
 "title": "Extraheer en zoek afbeeldingsmetadata in .NET met GroupDocs"
 "url": "/nl/net/document-metadata-extraction/search-image-metadata-extraction/"
 "weight": 10
+type: docs
 ---
-
 # Hoe u metagegevens van afbeeldingen in documenten kunt zoeken met behulp van GroupDocs.Signature
 
 ## Invoering

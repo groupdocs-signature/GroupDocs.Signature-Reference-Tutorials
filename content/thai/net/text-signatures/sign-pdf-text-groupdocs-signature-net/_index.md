@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามใน PDF ด้วยข้อความโดยใช้ GroupDocs.Signature สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน"
 "url": "/th/net/text-signatures/sign-pdf-text-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสารด้วยข้อความโดยใช้ GroupDocs.Signature สำหรับ .NET: คำแนะนำทีละขั้นตอน
 
 ## การแนะนำ

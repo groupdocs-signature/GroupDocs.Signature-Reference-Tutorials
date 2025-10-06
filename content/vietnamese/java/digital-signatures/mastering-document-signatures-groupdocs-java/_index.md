@@ -4,8 +4,8 @@
 "title": "Làm chủ chữ ký tài liệu số với GroupDocs cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký tài liệu số với GroupDocs cho Java
 
 ## Giới thiệu

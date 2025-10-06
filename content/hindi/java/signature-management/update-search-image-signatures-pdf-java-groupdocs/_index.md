@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ Java का उपयोग करके PDF में छवि हस्ताक्षर अपडेट करें और खोजें"
 "url": "/hi/java/signature-management/update-search-image-signatures-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # जावा के साथ PDF में छवि हस्ताक्षर अपडेट करें और खोजें
 
 ## परिचय

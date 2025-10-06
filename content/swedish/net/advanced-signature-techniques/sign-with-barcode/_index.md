@@ -5,8 +5,8 @@
 "title": "Lägg till säkra streckkodssignaturer i .NET-dokument | Komplett guide"
 "url": "/sv/net/advanced-signature-techniques/sign-with-barcode/"
 "weight": 11
+type: docs
 ---
-
 ## Hur kan streckkodssignaturer förbättra din dokumentsäkerhet?
 
 dagens digitala värld är dokumentsäkerhet inte bara bra att ha – det är viktigt. Streckkodssignaturer erbjuder ett unikt sätt att autentisera och säkra dina viktiga filer. Med GroupDocs.Signature för .NET är det förvånansvärt enkelt att implementera dessa kraftfulla säkerhetsfunktioner.

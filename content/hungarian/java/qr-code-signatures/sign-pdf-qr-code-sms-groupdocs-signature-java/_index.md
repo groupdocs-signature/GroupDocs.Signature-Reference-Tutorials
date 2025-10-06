@@ -4,8 +4,8 @@
 "title": "PDF dokumentumok aláírása QR-kóddal és SMS-ben a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentum aláírása QR-kóddal SMS-objektum használatával Java-ban a GroupDocs.Signature segítségével
 
 ## Bevezetés

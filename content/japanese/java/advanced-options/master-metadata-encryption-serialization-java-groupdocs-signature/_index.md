@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した Java でのマスターメタデータの暗号化とシリアル化"
 "url": "/ja/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した Java でのメタデータ暗号化とシリアル化の習得
 
 ## 導入

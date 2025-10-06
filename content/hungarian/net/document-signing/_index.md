@@ -5,8 +5,8 @@
 "title": "Dokumentum aláírása metaadatokkal .NET-ben"
 "url": "/hu/net/document-signing/"
 "weight": 24
+type: docs
 ---
-
 ## Bevezetés
 
 mai digitális világban a dokumentumok hitelességének, eredetének nyomon követésének és integritásának biztosítása elengedhetetlenné vált a vállalkozások és szervezetek számára. A metaadat-aláírások hatékony, mégis diszkrét módot kínálnak az azonosító információk közvetlen beágyazására a dokumentumfájlokba, növelve a biztonságot azok vizuális megjelenésének megváltoztatása nélkül.

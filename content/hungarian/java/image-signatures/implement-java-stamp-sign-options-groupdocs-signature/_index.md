@@ -4,8 +4,8 @@
 "title": "Java bélyegzőaláírási opciók megvalósítása a GroupDocs.Signature segítségével a dokumentumhitelesség érdekében"
 "url": "/hu/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java bélyegzőaláírási opciók megvalósítása a GroupDocs.Signature segítségével a dokumentumhitelesség érdekében
 ## Java bélyegzőaláírási beállítások megvalósítása a GroupDocs.Signature for Java segítségével
 mai digitális korban a dokumentumok hitelességének biztosítása kiemelkedő fontosságú. Akár üzleti szakember, akár magánszemély, akinek szerződéseket és megállapodásokat kell érvényesítenie, a bélyegzőaláírás hitelességet és biztonságot nyújthat. Ez az oktatóanyag végigvezeti Önt a bélyegzőaláírási lehetőségek beállításán a GroupDocs.Signature for Java használatával – ez egy hatékony könyvtár, amely könnyedén megfelel a dokumentumaláírási igényeinek.

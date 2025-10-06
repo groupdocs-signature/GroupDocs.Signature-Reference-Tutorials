@@ -4,8 +4,8 @@
 "title": "Dokumentenüberprüfung mit GroupDocs.Signature für .NET meistern – Ein umfassender Leitfaden"
 "url": "/de/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentenüberprüfung mit GroupDocs.Signature für .NET meistern: Ein umfassender Leitfaden
 
 ## Einführung

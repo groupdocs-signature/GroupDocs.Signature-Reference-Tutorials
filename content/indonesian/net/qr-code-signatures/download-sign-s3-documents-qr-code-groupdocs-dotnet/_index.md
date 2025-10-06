@@ -4,8 +4,8 @@
 "title": "Cara Mengunduh dan Menandatangani Dokumen Amazon S3 dengan Kode QR Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/qr-code-signatures/download-sign-s3-documents-qr-code-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mengunduh dan Menandatangani Dokumen Amazon S3 dengan Kode QR Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

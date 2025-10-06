@@ -4,8 +4,8 @@
 "title": "Implementare e visualizzare le firme dei documenti utilizzando GroupDocs.Signature per .NET&#58; una guida completa"
 "url": "/it/net/digital-signatures/implement-document-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementazione e visualizzazione delle firme dei documenti con GroupDocs.Signature per .NET
 
 ## Introduzione

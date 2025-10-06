@@ -4,8 +4,8 @@
 "title": "Word dokumentumok aláírása QR-kóddal és mentése ODT-ként a .NET GroupDocs.Signature használatával"
 "url": "/hu/net/qr-code-signatures/sign-word-docs-qr-code-save-odt-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Word dokumentumok aláírása QR-kóddal és mentése ODT-ként a .NET GroupDocs.Signature használatával
 
 ## Bevezetés

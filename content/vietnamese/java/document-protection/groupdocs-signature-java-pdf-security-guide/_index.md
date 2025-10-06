@@ -4,8 +4,8 @@
 "title": "Bảo mật chữ ký mã QR và bảo vệ bằng mật khẩu cho tệp PDF của bạn với GroupDocs.Signature cho Java"
 "url": "/vi/java/document-protection/groupdocs-signature-java-pdf-security-guide/"
 "weight": 1
+type: docs
 ---
-
 # Bảo mật tệp PDF của bạn: Chữ ký mã QR và bảo vệ bằng mật khẩu với GroupDocs.Signature cho Java
 
 Trong thời đại kỹ thuật số ngày nay, việc bảo mật tài liệu PDF là điều cần thiết để quản lý thông tin nhạy cảm và đảm bảo tính xác thực của tệp. Hướng dẫn này sẽ chỉ cho bạn cách sử dụng GroupDocs.Signature cho Java để thêm chữ ký mã QR và bảo vệ bằng mật khẩu vào tệp PDF của bạn.

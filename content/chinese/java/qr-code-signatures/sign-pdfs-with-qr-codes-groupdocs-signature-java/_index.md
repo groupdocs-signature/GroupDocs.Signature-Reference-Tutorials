@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 为 PDF 签名二维码"
 "url": "/zh/java/qr-code-signatures/sign-pdfs-with-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 为 PDF 文档签名二维码
 
 在当今的数字时代，安全地签署文件比以往任何时候都更加重要。无论您是商务人士还是想要验证文件的个人，合适的工具都能发挥重要作用。本教程将指导您如何使用 **GroupDocs.Signature for Java** 使用包含 Mailmark2D 对象等复杂数据的二维码对 PDF 文档进行签名。我们将涵盖从环境设置到高级功能实现的所有内容。

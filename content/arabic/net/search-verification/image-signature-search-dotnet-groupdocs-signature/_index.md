@@ -4,8 +4,8 @@
 "title": "البحث عن توقيع الصورة في .NET باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/net/search-verification/image-signature-search-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # دليل شامل لتنفيذ البحث عن توقيع الصورة في .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

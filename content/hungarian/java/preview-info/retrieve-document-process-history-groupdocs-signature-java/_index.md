@@ -4,8 +4,8 @@
 "title": "Dokumentumfeldolgozási előzmények lekérése a GroupDocs.Signature for Java segítségével – Átfogó útmutató"
 "url": "/hu/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumfeldolgozási előzmények lekérése a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

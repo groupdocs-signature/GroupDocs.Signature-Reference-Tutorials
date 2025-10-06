@@ -4,8 +4,8 @@
 "title": "Jak implementovat digitální podpisy PDF s časovými razítky pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat digitální podpisy PDF s časovými razítky pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

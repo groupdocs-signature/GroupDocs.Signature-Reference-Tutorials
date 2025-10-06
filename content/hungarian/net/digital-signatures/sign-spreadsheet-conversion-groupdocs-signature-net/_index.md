@@ -4,8 +4,8 @@
 "title": "Táblázatok hatékony aláírása és PDF-formátumba konvertálása a GroupDocs.Signature for .NET segítségével"
 "url": "/hu/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Táblázatok hatékony aláírása és PDF-formátumba konvertálása a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

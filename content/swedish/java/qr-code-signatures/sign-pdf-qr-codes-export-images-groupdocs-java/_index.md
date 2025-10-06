@@ -4,8 +4,8 @@
 "title": "Signera PDF-filer med QR-kodsignaturer och exportera som bilder med GroupDocs för Java"
 "url": "/sv/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Omfattande guide till att signera och exportera PDF-filer som bilder med QR-koder med GroupDocs.Signature för Java
 
 ## Introduktion

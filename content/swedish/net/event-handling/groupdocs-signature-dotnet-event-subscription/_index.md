@@ -4,8 +4,8 @@
 "title": "Bemästra händelseprenumerationer i dokumentsignering med GroupDocs.Signature för .NET | Steg-för-steg-guide"
 "url": "/sv/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra händelseprenumeration i dokumentsignering med GroupDocs.Signature för .NET
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "Jak šifrovat a podepisovat metadata dokumentů pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/metadata-signatures/encrypt-sign-metadata-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak šifrovat a podepisovat metadata dokumentů pomocí GroupDocs.Signature pro Javu: Komplexní průvodce
 
 ## Zavedení

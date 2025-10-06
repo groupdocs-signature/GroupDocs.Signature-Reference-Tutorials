@@ -5,8 +5,8 @@
 "title": "Kapsamlı Belge Önizleme ve Yönetim İşlemleri"
 "url": "/tr/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # Belge Önizleme İşlemleri
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak QR Kod İmzalarını Etkili Şekilde Kaldırma | İmza Yönetimi Kılavuzu"
 "url": "/tr/net/signature-management/delete-qr-code-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanılarak QR Kod İmzaları Nasıl Silinir?
 
 ## giriiş

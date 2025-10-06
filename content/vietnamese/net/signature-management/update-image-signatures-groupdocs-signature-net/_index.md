@@ -4,8 +4,8 @@
 "title": "Cách cập nhật chữ ký hình ảnh trong .NET bằng GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/net/signature-management/update-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách cập nhật chữ ký hình ảnh trong .NET bằng GroupDocs.Signature
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "जावा डेवलपर्स के लिए ग्रुपडॉक्स के साथ जावा क्यूआर कोड हस्ताक्षर खोज"
 "url": "/hi/java/qr-code-signatures/java-qr-code-signature-search-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # जावा डेवलपर्स के लिए ग्रुपडॉक्स के साथ जावा क्यूआर कोड हस्ताक्षर खोज
 
 ## परिचय

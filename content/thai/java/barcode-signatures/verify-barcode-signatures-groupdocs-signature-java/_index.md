@@ -4,8 +4,8 @@
 "title": "วิธีการตรวจสอบลายเซ็นบาร์โค้ดใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำลายเซ็นบาร์โค้ดมาใช้งานกับ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

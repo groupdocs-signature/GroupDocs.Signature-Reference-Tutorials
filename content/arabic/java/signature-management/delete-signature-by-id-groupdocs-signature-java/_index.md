@@ -4,8 +4,8 @@
 "title": "كيفية حذف التوقيع حسب المعرف باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/signature-management/delete-signature-by-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية حذف التوقيع بواسطة المعرف باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

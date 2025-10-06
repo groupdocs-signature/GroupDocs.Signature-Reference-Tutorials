@@ -4,8 +4,8 @@
 "title": "Как реализовать подпись штрихкода .NET с помощью GroupDocs.Signature&#58; полное руководство для разработчиков"
 "url": "/ru/net/barcode-signatures/implement-dotnet-barcode-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать подпись штрихкода .NET с помощью GroupDocs.Signature: полное руководство для разработчиков
 
 ## Введение

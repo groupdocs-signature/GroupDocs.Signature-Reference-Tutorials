@@ -4,8 +4,8 @@
 "title": "Jak podepsat dokumenty Wordu pomocí QR kódu a uložit je jako ODT pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/qr-code-signatures/sign-word-docs-qr-code-save-odt-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat dokumenty Wordu pomocí QR kódu a uložit je jako ODT pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

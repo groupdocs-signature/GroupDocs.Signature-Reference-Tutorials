@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature में गलत पासवर्ड अपवादों को कैसे संभालें"
 "url": "/hi/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके गलत पासवर्ड अपवादों को कैसे संभालें
 
 ## परिचय

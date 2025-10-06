@@ -4,8 +4,8 @@
 "title": "توقيع مستندات PDF باستخدام الرمز الشريطي باستخدام GroupDocs.Signature for Java - دليل شامل"
 "url": "/ar/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # توقيع مستندات PDF باستخدام الرمز الشريطي باستخدام GroupDocs.Signature لـ Java: دليل شامل
 
 ## مقدمة

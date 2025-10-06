@@ -8,10 +8,8 @@ keywords:
 - update text signatures in PDFs
 - GroupDocs.Signature for Java
 - Java signature management
-
+type: docs
 ---
-
-
 # How to Update Text Signatures in PDFs Using GroupDocs.Signature for Java
 ## Introduction
 Updating text signatures in documents programmatically can be a challenge, especially if you're aiming to streamline document workflows or automate signature management. **GroupDocs.Signature for Java** offers a powerful solution for this. This comprehensive guide will walk you through initializing and searching for text signatures, adjusting their properties, and updating them within PDFs.

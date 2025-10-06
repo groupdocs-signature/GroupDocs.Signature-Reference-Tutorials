@@ -5,8 +5,8 @@
 "title": "Thêm chữ ký hình ảnh vào tài liệu dễ dàng với GroupDocs.Signature"
 "url": "/vi/net/advanced-signature-techniques/sign-with-image/"
 "weight": 13
+type: docs
 ---
-
 ## Giới thiệu: Chuyển đổi bảo mật tài liệu của bạn bằng chữ ký hình ảnh
 
 Bạn đã bao giờ tự hỏi làm thế nào để bảo mật tài liệu kỹ thuật số của mình và tăng tính hợp pháp chưa? Thêm chữ ký hình ảnh là một trong những cách hiệu quả nhất để xác thực tài liệu và bảo vệ chúng khỏi bị giả mạo. Trong hướng dẫn dễ hiểu này, chúng tôi sẽ hướng dẫn bạn quy trình triển khai chữ ký tài liệu dựa trên hình ảnh trong các ứng dụng .NET của bạn bằng GroupDocs.Signature.

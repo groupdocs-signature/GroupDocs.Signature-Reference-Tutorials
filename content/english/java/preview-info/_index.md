@@ -3,8 +3,8 @@ title: "Document Preview and Information Tutorials for GroupDocs.Signature Java"
 description: "Step-by-step tutorials for generating document previews and retrieving document and signature information with GroupDocs.Signature for Java."
 weight: 13
 url: "/java/preview-info/"
+type: docs
 ---
-
 # Document Preview and Information Tutorials for GroupDocs.Signature Java
 
 Our preview and information tutorials show you how to extract valuable document data using GroupDocs.Signature in Java. These detailed guides demonstrate how to generate document previews, retrieve document information, access signature details, view document process history, and examine file properties. Each tutorial includes practical Java code examples for document inspection scenarios, helping you build applications that provide comprehensive document transparency for better user experience and workflow tracking.

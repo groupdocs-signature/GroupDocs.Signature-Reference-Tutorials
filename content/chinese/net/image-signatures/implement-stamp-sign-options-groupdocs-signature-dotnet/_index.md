@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 实现印章签名选项——综合指南"
 "url": "/zh/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 实现印章签名选项
 
 ## 介绍

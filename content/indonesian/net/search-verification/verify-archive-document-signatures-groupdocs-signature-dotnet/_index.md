@@ -4,8 +4,8 @@
 "title": "Cara Memverifikasi Tanda Tangan Dokumen di Arsip menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Memverifikasi Tanda Tangan Dokumen di Arsip dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

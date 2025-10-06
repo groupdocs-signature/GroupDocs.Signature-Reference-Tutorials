@@ -4,8 +4,8 @@
 "title": "การลงนามเอกสารภาพด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การลงนามเอกสารภาพด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

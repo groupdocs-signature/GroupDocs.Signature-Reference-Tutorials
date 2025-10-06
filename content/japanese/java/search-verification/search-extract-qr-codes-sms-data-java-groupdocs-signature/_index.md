@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature で Java を使用して PDF 内の QR コード署名から SMS データを検索および抽出する方法"
 "url": "/ja/java/search-verification/search-extract-qr-codes-sms-data-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # JavaとGroupDocs.Signatureを使用してPDF内のQRコード署名からSMSデータを検索・抽出する方法
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": "Hướng dẫn hủy xác minh tài liệu bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách hủy xác minh tài liệu bằng GroupDocs.Signature cho .NET: Hướng dẫn xử lý sự kiện
 
 ## Giới thiệu

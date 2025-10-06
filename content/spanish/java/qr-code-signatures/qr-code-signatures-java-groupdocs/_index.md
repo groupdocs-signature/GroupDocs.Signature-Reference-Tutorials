@@ -4,8 +4,8 @@
 "title": "Proteja sus documentos&#58; Implemente firmas de código QR en Java con GroupDocs.Signature"
 "url": "/es/java/qr-code-signatures/qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Proteja sus documentos: Implemente firmas de código QR en Java con GroupDocs.Signature
 
 En el panorama digital actual, garantizar la seguridad de documentos como contratos, facturas o información personal confidencial es crucial. Un enfoque innovador para mejorar la seguridad de los documentos y simplificar los procesos de verificación es el uso de firmas de código QR. Este tutorial le guiará en la implementación y verificación de firmas de código QR para sus documentos en Java con GroupDocs.Signature.

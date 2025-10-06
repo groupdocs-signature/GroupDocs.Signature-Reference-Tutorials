@@ -5,8 +5,8 @@
 "title": "문서에서 텍스트 서명 검색"
 "url": "/ko/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## 소개
 
 텍스트 서명은 문서 작성, 승인 또는 검증을 나타내는 일반적인 방법입니다. 디지털 문서 관리에서 텍스트 서명을 프로그래밍 방식으로 검색하고 추출하는 기능은 문서 유효성 검사, 워크플로 자동화 및 규정 준수 검증에 매우 중요합니다. GroupDocs.Signature for .NET은 .NET 애플리케이션에서 텍스트 서명 검색 기능을 구현하기 위한 포괄적인 솔루션을 제공하며, 다양한 문서 형식과 고급 검색 기능을 지원합니다.

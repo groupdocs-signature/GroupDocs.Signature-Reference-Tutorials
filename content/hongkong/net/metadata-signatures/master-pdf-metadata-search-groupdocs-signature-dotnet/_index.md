@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 搜尋 PDF 元資料簽名"
 "url": "/zh-hant/net/metadata-signatures/master-pdf-metadata-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 搜尋 PDF 元資料簽名
 
 ## 介紹

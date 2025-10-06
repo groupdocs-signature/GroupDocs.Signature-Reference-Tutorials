@@ -4,8 +4,8 @@
 "title": "เรียนรู้การค้นหาลายเซ็นเอกสารด้วย GroupDocs.Signature สำหรับ Java พร้อมคู่มือฉบับสมบูรณ์"
 "url": "/th/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การค้นหาลายเซ็นเอกสารด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

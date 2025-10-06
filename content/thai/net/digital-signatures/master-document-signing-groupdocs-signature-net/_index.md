@@ -4,8 +4,8 @@
 "title": "การลงนามและการยืนยันเอกสารหลักด้วย GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # การลงนามและการยืนยันเอกสารหลักด้วย GroupDocs.Signature สำหรับ .NET
 
 ## วิธีการลงนามและยืนยันเอกสารอย่างเชี่ยวชาญด้วย GroupDocs.Signature สำหรับ .NET

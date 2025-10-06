@@ -4,8 +4,8 @@
 "title": "Come verificare le firme dei codici a barre in Java utilizzando GroupDocs.Signature"
 "url": "/it/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare la verifica delle firme dei codici a barre con GroupDocs.Signature per Java
 
 ## Introduzione

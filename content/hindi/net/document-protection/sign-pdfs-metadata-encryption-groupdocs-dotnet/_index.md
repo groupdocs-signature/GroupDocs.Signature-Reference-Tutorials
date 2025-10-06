@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके मेटाडेटा और एन्क्रिप्शन के साथ PDF पर हस्ताक्षर कैसे करें | सुरक्षित दस्तावेज़ सुरक्षा मार्गदर्शिका"
 "url": "/hi/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके मेटाडेटा और एन्क्रिप्शन के साथ PDF पर हस्ताक्षर कैसे करें
 
 ## परिचय

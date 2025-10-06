@@ -4,8 +4,8 @@
 "title": "Generuj podglądy plików PDF z ukrytymi podpisami za pomocą języka Java i biblioteki GroupDocs.Signature"
 "url": "/pl/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Generuj podglądy plików PDF z ukrytymi podpisami za pomocą języka Java i biblioteki GroupDocs.Signature
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Verifica le firme dei codici a barre nei file ZIP utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Verifica le firme dei codici a barre nei file ZIP utilizzando GroupDocs.Signature per Java
 
 ## Introduzione

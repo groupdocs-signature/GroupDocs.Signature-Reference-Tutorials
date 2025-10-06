@@ -4,8 +4,8 @@
 "title": "Triển khai xác minh chữ ký văn bản trong .NET bằng GroupDocs.Signature để quản lý tài liệu an toàn"
 "url": "/vi/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai xác minh chữ ký văn bản trong .NET bằng GroupDocs.Signature
 ## Tìm kiếm & Xác minh
 **URL SEO**: implement-text-signature-verification-groupdocs-net

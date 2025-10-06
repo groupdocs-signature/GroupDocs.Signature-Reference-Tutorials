@@ -4,8 +4,8 @@
 "title": "Hogyan lehet felismerni a MeCard QR-kód aláírásait Java-ban a GroupDocs.Signature használatával?"
 "url": "/hu/java/qr-code-signatures/detect-qr-code-mecard-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan lehet felismerni a MeCard QR-kód aláírásait a GroupDocs.Signature for Java segítségével?
 
 ## Bevezetés

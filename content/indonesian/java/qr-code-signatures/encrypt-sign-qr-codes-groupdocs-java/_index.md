@@ -4,8 +4,8 @@
 "title": "Enkripsi & Tandatangani Kode QR di Java menggunakan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/java/qr-code-signatures/encrypt-sign-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Enkripsi & Tandatangani Kode QR dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

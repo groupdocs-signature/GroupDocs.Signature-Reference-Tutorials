@@ -4,8 +4,8 @@
 "title": "Pembuatan Tanda Tangan Kode QR di Java&#58; Panduan Lengkap Menggunakan GroupDocs"
 "url": "/id/java/qr-code-signatures/qr-code-signature-generation-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pembuatan Tanda Tangan Kode QR di Java Menggunakan GroupDocs
 
 ## Perkenalan

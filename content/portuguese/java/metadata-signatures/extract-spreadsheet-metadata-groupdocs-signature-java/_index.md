@@ -4,8 +4,8 @@
 "title": "Extrair metadados de planilhas usando GroupDocs.Signature para Java - Um guia completo"
 "url": "/pt/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Extraindo metadados de planilha com GroupDocs.Signature para Java
 
 ## Introdução

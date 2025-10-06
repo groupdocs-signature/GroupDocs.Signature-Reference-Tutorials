@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 掌握 .NET 中的映像元資料管理"
 "url": "/zh-hant/net/metadata-signatures/mastering-image-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 .NET 中的映像元資料管理
 
 在當今的數位世界中，管理影像元資料對於法律文件驗證和數位資產管理等各種應用至關重要。如果您希望簡化 .NET 專案中影像元資料的處理方式，本指南將協助您使用 GroupDocs.Signature for .NET—一款功能強大的工具，旨在增強您從影像中搜尋和擷取元資料簽章的能力。

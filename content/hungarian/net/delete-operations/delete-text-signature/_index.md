@@ -5,8 +5,8 @@
 "title": "Hogyan távolítsunk el szöveges aláírásokat a .NET dokumentumokból?"
 "url": "/hu/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # Hogyan távolíthat el szöveges aláírásokat a dokumentumokból a GroupDocs.Signature segítségével
 
 ## Miért kellene törölnie a szöveges aláírásokat?

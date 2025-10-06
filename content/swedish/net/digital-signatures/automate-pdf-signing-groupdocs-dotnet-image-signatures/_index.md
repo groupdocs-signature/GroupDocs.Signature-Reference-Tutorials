@@ -4,8 +4,8 @@
 "title": "Automatisera PDF-signering med GroupDocs.Signature för .NET-bildsignaturer - guide"
 "url": "/sv/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Automatisera PDF-signering med GroupDocs.Signature för .NET: Guide till bildsignaturer
 
 ## Introduktion

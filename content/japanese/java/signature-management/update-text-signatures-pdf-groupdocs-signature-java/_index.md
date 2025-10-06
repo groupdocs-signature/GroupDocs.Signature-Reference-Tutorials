@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して PDF のテキスト署名を更新する - 総合ガイド"
 "url": "/ja/java/signature-management/update-text-signatures-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して PDF 内のテキスト署名を更新する
 
 ## 導入

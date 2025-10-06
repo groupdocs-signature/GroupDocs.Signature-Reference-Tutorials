@@ -4,8 +4,8 @@
 "title": "Hur man signerar Word-dokument med textvattenstämplar med GroupDocs.Signature för .NET"
 "url": "/sv/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar Word-dokument med textvattenstämplar med GroupDocs.Signature för .NET
 
 ## Introduktion

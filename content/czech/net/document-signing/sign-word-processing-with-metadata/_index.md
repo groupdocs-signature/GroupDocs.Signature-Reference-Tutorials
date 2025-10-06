@@ -5,8 +5,8 @@
 "title": "Vylepšení dokumentů Wordu pomocí metadatových podpisů v C# .NET"
 "url": "/cs/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## Zavedení
 
 Textové editory patří mezi nejběžnější typy souborů používané v podnikání, vzdělávání a osobní komunikaci. Zajištění autenticity, sledování původu a zachování integrity těchto dokumentů je v mnoha profesních prostředích klíčové. Jedním z účinných přístupů ke zvýšení zabezpečení a sledovatelnosti dokumentů je vložení podpisů s metadaty.

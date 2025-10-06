@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature でドキュメントの信頼性を確保するための Java スタンプ署名オプションを実装する"
 "url": "/ja/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature でドキュメントの信頼性を確保するための Java スタンプ署名オプションを実装する
 ## GroupDocs.Signature for Java を使用して Java スタンプ署名オプションを実装する方法
 今日のデジタル時代において、文書の真正性を確保することは極めて重要です。ビジネスパーソンであれ、契約書や合意書の検証を必要とする個人であれ、印鑑署名を追加することで信頼性とセキュリティを高めることができます。このチュートリアルでは、GroupDocs.Signature for Javaを使用して印鑑署名オプションを設定する方法について説明します。GroupDocs.Signatureは、文書署名のニーズに簡単に対応できる強力なライブラリです。

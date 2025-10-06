@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات PDF مع النص باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/text-signatures/sign-pdf-text-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع ملف PDF مع نص باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

@@ -5,8 +5,8 @@
 "title": "ดึงข้อมูลเมตาการประมวลผลคำอย่างง่ายดายด้วย .NET"
 "url": "/th/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # วิธีการค้นหาและแยกข้อมูลเมตาการประมวลผลคำใน .NET
 
 ## การแนะนำ

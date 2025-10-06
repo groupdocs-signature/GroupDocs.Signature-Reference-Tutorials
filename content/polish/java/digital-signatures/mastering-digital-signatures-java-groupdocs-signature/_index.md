@@ -4,8 +4,8 @@
 "title": "Kompleksowy przewodnik po opanowywaniu podpisów cyfrowych w Javie przy użyciu GroupDocs.Signature"
 "url": "/pl/java/digital-signatures/mastering-digital-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie podpisów cyfrowych w Javie: kompleksowy przewodnik z GroupDocs.Signature
 
 ## Wstęp

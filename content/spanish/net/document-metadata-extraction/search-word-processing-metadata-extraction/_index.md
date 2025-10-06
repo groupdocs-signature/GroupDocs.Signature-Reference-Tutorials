@@ -5,8 +5,8 @@
 "title": "Extraiga metadatos de procesamiento de texto fácilmente con .NET"
 "url": "/es/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # Cómo buscar y extraer metadatos de procesamiento de texto en .NET
 
 ## Introducción

@@ -4,8 +4,8 @@
 "title": "Bezpieczne podpisywanie plików PDF za pomocą szyfrowanych kodów QR w środowisku .NET przy użyciu GroupDocs.Signature"
 "url": "/pl/net/qr-code-signatures/net-qrcode-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Kompleksowy przewodnik: Wdrażanie bezpiecznego podpisywania plików PDF za pomocą szyfrowanych kodów QR w środowisku .NET przy użyciu GroupDocs.Signature
 
 ## Wstęp

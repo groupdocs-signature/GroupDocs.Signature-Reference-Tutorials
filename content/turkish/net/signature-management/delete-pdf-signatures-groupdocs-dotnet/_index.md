@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak PDF İmzalarını Verimli Şekilde Silin"
 "url": "/tr/net/signature-management/delete-pdf-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Kimliğe Göre PDF İmzalarını Kaldırma
 
 ## giriiş

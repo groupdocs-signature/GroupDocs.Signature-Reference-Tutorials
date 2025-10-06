@@ -4,8 +4,8 @@
 "title": "استرداد الشهادات الرقمية من الأرشيفات باستخدام GroupDocs.Signature لـ .NET | دليل خطوة بخطوة"
 "url": "/ar/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # استرداد الشهادات الرقمية من الأرشيفات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

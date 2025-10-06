@@ -4,8 +4,8 @@
 "title": "كيفية البحث عن توقيعات البيانات الوصفية في جداول البيانات باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية البحث عن توقيعات البيانات الوصفية في جدول بيانات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

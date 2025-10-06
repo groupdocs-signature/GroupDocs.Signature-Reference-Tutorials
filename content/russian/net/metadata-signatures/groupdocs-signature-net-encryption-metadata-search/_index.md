@@ -4,8 +4,8 @@
 "title": "Безопасный поиск сигнатур метаданных в .NET с помощью GroupDocs.Signature и шифрования"
 "url": "/ru/net/metadata-signatures/groupdocs-signature-net-encryption-metadata-search/"
 "weight": 1
+type: docs
 ---
-
 # Безопасный поиск сигнатур метаданных в .NET с помощью GroupDocs.Signature и шифрования
 
 ## Введение

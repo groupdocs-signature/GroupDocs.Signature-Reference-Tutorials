@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory přesně umístěnými čárovými kódy pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF dokument s přesně umístěnými čárovými kódy pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

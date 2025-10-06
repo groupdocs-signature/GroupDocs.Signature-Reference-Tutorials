@@ -4,8 +4,8 @@
 "title": "जावा के लिए ग्रुपडॉक्स का उपयोग करके सुरक्षित मेटाडेटा हस्ताक्षर खोज और निष्कर्षण"
 "url": "/hi/java/metadata-signatures/groupdocs-signature-secure-metadata-search-java/"
 "weight": 1
+type: docs
 ---
-
 # जावा के लिए ग्रुपडॉक्स का उपयोग करके सुरक्षित मेटाडेटा हस्ताक्षर खोज और निष्कर्षण
 
 ## परिचय

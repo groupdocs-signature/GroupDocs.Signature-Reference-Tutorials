@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["GroupDocs.Signature"]
 tags: ["metadata", "encryption", "document-signing", "dotnet"]
+type: docs
 ---
-
 # Metadata Signatures in .NET - Complete GroupDocs.Signature
 
 ## Why Metadata Signatures Matter (And How They'll Save You Time)

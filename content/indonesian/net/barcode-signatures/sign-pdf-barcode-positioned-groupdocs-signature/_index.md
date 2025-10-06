@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan Kode Batang yang Tepat Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF dengan Kode Batang yang Tepat Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

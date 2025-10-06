@@ -4,8 +4,8 @@
 "title": "Extrahieren von Tabellenkalkulationsmetadaten mit GroupDocs.Signature für Java – Ein umfassender Leitfaden"
 "url": "/de/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Extrahieren von Tabellenkalkulationsmetadaten mit GroupDocs.Signature für Java
 
 ## Einführung

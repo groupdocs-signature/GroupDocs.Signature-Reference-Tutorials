@@ -4,8 +4,8 @@
 "title": "Cari Kolom Formulir PDF Secara Efisien Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cari Kolom Formulir PDF Secara Efisien Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

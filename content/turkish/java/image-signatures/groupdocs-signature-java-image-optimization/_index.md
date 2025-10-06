@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java ile Görüntü İmzalama ve Optimizasyonunda Ustalaşın"
 "url": "/tr/java/image-signatures/groupdocs-signature-java-image-optimization/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile Görüntü İmzalama ve Optimizasyonunda Ustalaşma
 
 Günümüzün dijital dünyasında, belgeleri güvenli bir şekilde imzalamak hayati önem taşımaktadır. İster sözleşmeleri onaylayan bir iş profesyoneli olun, ister görüntüleri koruyan bir birey olun, güçlü imzalama yetenekleri hayati önem taşır. **Java için GroupDocs.Signature** QR kod imzaları oluşturmak ve görüntü kaydetme seçeneklerini sorunsuz bir şekilde optimize etmek için güçlü özellikler sunar. Bu eğitim, bu işlevleri etkili belge yönetimi için nasıl kullanacağınız konusunda size rehberlik edecektir.

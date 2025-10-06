@@ -4,8 +4,8 @@
 "title": "Bir Dosyadan Java Lisansı için GroupDocs.Signature'ı Ayarlama&#58; Kapsamlı Bir Kılavuz"
 "url": "/tr/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # Bir Dosyadan Java Lisansı için GroupDocs.Signature Ayarlama - Adım Adım Eğitim
 
 ## giriiş

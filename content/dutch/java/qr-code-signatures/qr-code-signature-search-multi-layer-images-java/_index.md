@@ -4,8 +4,8 @@
 "title": "Implementeer QR-codehandtekeningzoekopdrachten in afbeeldingen met meerdere lagen met behulp van Java en GroupDocs.Signature"
 "url": "/nl/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u QR-codehandtekeningzoekopdrachten implementeert in documenten met meerdere lagen afbeeldingen met behulp van GroupDocs.Signature voor Java
 
 ## Invoering

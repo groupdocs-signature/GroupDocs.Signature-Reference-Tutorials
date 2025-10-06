@@ -4,8 +4,8 @@
 "title": "Metadata-handtekeningzoekopdrachten implementeren in PowerPoint-presentaties met behulp van GroupDocs.Signature voor .NET"
 "url": "/nl/net/metadata-signatures/implement-metadata-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u metadata-handtekeningzoekopdrachten in PowerPoint implementeert met GroupDocs.Signature voor .NET
 
 ## Invoering

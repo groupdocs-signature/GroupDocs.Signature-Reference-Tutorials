@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java でデジタル証明書検索をマスターする"
 "url": "/ja/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java でデジタル証明書検索をマスターする
 
 ## 導入

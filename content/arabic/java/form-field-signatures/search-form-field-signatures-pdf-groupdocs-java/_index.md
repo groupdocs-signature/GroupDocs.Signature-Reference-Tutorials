@@ -4,8 +4,8 @@
 "title": "البحث عن توقيعات حقول النماذج واستخراجها في ملفات PDF باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية البحث عن توقيعات حقول النماذج واستخراجها في مستندات PDF باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε έγγραφα PDF με σχολιασμούς κειμένου χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/text-signatures/sign-pdf-text-annotations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε έγγραφα PDF με σχολιασμούς κειμένου χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

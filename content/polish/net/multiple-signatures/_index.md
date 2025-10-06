@@ -3,8 +3,8 @@
 "title": "Samouczki dotyczące wielu podpisów dla GroupDocs.Signature .NET"
 "url": "/pl/net/multiple-signatures/"
 "weight": 10
+type: docs
 ---
-
 # Samouczki dotyczące wielu podpisów dla GroupDocs.Signature .NET
 
 Dowiedz się, jak tworzyć zaawansowane przepływy pracy związane z podpisami, korzystając z naszych samouczków GroupDocs.Signature dla wielu podpisów w .NET. Te kompleksowe przewodniki pokazują, jak łączyć różne typy podpisów w jednym procesie, wdrażać uporządkowane sekwencje podpisów, zarządzać złożonymi procedurami podpisów i pracować z dokumentami wielostronicowymi. Każdy samouczek zawiera szczegółowe przykłady kodu w języku C# dla zaawansowanych scenariuszy podpisów, pomagając w tworzeniu niezawodnych aplikacji do przetwarzania dokumentów, które obsługują złożone wymagania dotyczące podpisów w przedsiębiorstwach i w przypadkach prawnych.

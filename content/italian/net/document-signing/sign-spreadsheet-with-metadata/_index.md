@@ -5,8 +5,8 @@
 "title": "Aggiungere firme di metadati ai fogli di calcolo Excel in C# .NET"
 "url": "/it/net/document-signing/sign-spreadsheet-with-metadata/"
 "weight": 13
+type: docs
 ---
-
 ## Introduzione
 
 I fogli di calcolo Excel contengono spesso dati aziendali critici, informazioni finanziarie e calcoli importanti. Garantirne l'autenticità, tracciarne l'origine e proteggerne l'integrità è fondamentale in molti ambienti professionali. Un approccio efficace per migliorare la sicurezza e la tracciabilità dei fogli di calcolo è l'integrazione di firme di metadati.

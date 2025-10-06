@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58; बारकोड हस्ताक्षर गाइड के साथ जावा में मास्टर दस्तावेज़ हस्ताक्षर"
 "url": "/hi/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ जावा में दस्तावेज़ हस्ताक्षरों में निपुणता
 
 **Java के लिए GroupDocs.Signature का उपयोग करके बारकोड हस्ताक्षरों पर हस्ताक्षर, सत्यापन, खोज, अद्यतन और हटाकर अपने डिजिटल दस्तावेज़ वर्कफ़्लो को सुव्यवस्थित करें।**

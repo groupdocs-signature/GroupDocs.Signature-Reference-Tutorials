@@ -5,8 +5,8 @@
 "title": "Nắm vững nhiều chữ ký tài liệu trong .NET - Hướng dẫn đầy đủ"
 "url": "/vi/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## Bảo mật tài liệu của bạn bằng nhiều loại chữ ký
 
 Bạn đã bao giờ cần áp dụng nhiều loại chữ ký khác nhau cho một tài liệu chưa? Cho dù bạn đang xử lý các hợp đồng nhạy cảm, giấy tờ pháp lý hay tài liệu doanh nghiệp, việc kết hợp nhiều loại chữ ký có thể tăng cường đáng kể cả tính bảo mật và tính xác thực. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn chi tiết cách triển khai chức năng mạnh mẽ này bằng GroupDocs.Signature cho .NET.

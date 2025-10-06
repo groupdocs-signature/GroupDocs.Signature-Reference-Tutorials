@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملف PDF محمي بكلمة مرور باستخدام GroupDocs.Signature لـ .NET (دليل التوقيع الرقمي)"
 "url": "/ar/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع ملف PDF محمي بكلمة مرور باستخدام GroupDocs.Signature لـ .NET
 ## دورة التوقيع الرقمي
 

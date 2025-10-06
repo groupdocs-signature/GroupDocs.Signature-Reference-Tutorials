@@ -4,8 +4,8 @@
 "title": "Jak usunąć podpisy graficzne z dokumentów za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/signature-management/delete-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak usunąć podpisy graficzne z dokumentów za pomocą GroupDocs.Signature dla Java
 
 Zarządzanie podpisami cyfrowymi ma kluczowe znaczenie dla zachowania integralności i autentyczności dokumentów. Niezależnie od tego, czy jesteś przedsiębiorstwem zarządzającym umowami, czy małą firmą obsługującą faktury, usuwanie nieaktualnych lub nieprawidłowych podpisów graficznych może usprawnić zarządzanie dokumentami. Ten samouczek przeprowadzi Cię przez proces usuwania podpisów graficznych według znanych identyfikatorów za pomocą GroupDocs.Signature for Java.

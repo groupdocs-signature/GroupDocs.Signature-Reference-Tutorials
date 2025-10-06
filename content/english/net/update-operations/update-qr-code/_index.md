@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Signatures"]
 tags: ["qr-code", "document-management", "dotnet", "pdf", "word-documents"]
+type: docs
 ---
-
 ## Introduction
 
 Ever added a QR code to a document, only to realize later that it's in the wrong spot or needs different data? You're not alone. Whether it's a client change request, a rebranding initiative, or just fixing a positioning mistake, updating QR codes after they're embedded in documents is a common challenge for developers.

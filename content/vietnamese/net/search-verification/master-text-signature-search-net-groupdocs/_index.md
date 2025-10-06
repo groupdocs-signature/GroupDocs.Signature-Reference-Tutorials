@@ -4,8 +4,8 @@
 "title": "Tìm kiếm chữ ký văn bản chính trong .NET bằng GroupDocs.Signature"
 "url": "/vi/net/search-verification/master-text-signature-search-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ tìm kiếm chữ ký văn bản trong .NET với GroupDocs.Signature
 
 Bạn đang tìm cách tự động hóa việc nhận dạng chữ ký văn bản trong tài liệu của mình? Cho dù đó là xác minh tính xác thực của hợp đồng hay theo dõi phê duyệt chính thức, việc quản lý chữ ký tài liệu một cách hiệu quả có thể là một thách thức. Với **GroupDocs.Signature cho .NET**đơn giản hóa quy trình này bằng cách tìm kiếm và lọc chữ ký văn bản trực tiếp từ ứng dụng của bạn. Hướng dẫn này sẽ hướng dẫn bạn thiết lập và sử dụng GroupDocs.Signature để tìm kiếm chữ ký văn bản mà không cần dùng đến chữ ký bên ngoài.

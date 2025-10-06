@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan Metadata dan Enkripsi menggunakan GroupDocs.Signature untuk .NET | Panduan Perlindungan Dokumen Aman"
 "url": "/id/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF dengan Metadata dan Enkripsi Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

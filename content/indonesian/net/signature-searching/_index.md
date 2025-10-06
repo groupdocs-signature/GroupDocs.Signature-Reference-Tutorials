@@ -5,8 +5,8 @@
 "title": "Pencarian Tanda Tangan Dokumen Komprehensif"
 "url": "/id/net/signature-searching/"
 "weight": 23
+type: docs
 ---
-
 ## Perkenalan
 
 Keamanan dan verifikasi integritas dokumen merupakan aspek krusial dalam proses bisnis modern. GroupDocs.Signature untuk .NET menawarkan solusi canggih untuk menerapkan fungsionalitas pencarian tanda tangan yang komprehensif di berbagai format dokumen. Baik Anda perlu memvalidasi keaslian dokumen, mengekstrak informasi tanda tangan, atau membangun alur kerja verifikasi otomatis, GroupDocs.Signature menyediakan alat yang Anda butuhkan untuk mencari dan memproses berbagai jenis tanda tangan secara efisien.

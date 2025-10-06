@@ -4,8 +4,8 @@
 "title": "كيفية تهيئة مثيل التوقيع في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تهيئة مثيل التوقيع في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

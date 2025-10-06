@@ -4,8 +4,8 @@
 "title": "Hogyan írjunk digitálisan alá Word dokumentumokat képként használva a GroupDocs.Signature for Java használatával?"
 "url": "/hu/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan írjunk digitálisan alá Word dokumentumokat képként használva a GroupDocs.Signature for Java használatával?
 
 ## Bevezetés

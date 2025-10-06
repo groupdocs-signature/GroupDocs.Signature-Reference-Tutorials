@@ -4,8 +4,8 @@
 "title": "如何使用 .NET 中的 GroupDocs 對包含簡訊的二維碼 PDF 進行簽名"
 "url": "/zh-hant/net/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 對包含 SMS 物件的二維碼 PDF 文件進行簽名
 
 ## 介紹

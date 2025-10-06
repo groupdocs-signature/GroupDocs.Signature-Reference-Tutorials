@@ -4,8 +4,8 @@
 "title": "PDF dokumentumok aláírása Base64 képek és GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/image-signatures/sign-pdf-base64-image-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentum aláírása Base64 képek használatával a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

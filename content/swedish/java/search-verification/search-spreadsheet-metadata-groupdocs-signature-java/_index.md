@@ -4,8 +4,8 @@
 "title": "Så här söker du i kalkylbladsmetadata med GroupDocs.Signature för Java - En omfattande guide"
 "url": "/sv/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Så här söker du i kalkylbladsmetadata med GroupDocs.Signature för Java: En omfattande guide
 
 ## Introduktion

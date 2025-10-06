@@ -4,8 +4,8 @@
 "title": "Ondertekenen van hoofddocumenten met QR-codes met GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/qr-code-signatures/groupdocs-signature-qr-code-document-signing/"
 "weight": 1
+type: docs
 ---
-
 # Ondertekenen van hoofddocumenten met QR-codes met GroupDocs.Signature voor Java
 
 ## Invoering

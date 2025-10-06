@@ -4,8 +4,8 @@
 "title": "Как проверить подписи документов в архивах с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как проверить подписи документов в архивах с помощью GroupDocs.Signature для .NET
 
 ## Введение

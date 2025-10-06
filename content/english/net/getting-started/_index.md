@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Getting Started"]
 tags: ["tutorial", "setup", "licensing", "beginner-guide"]
+type: docs
 ---
-
 # GroupDocs.Signature .NET Tutorial - Complete Guide to Electronic Document Signing
 
 Are you struggling to implement electronic document signing in your .NET applications? You're not alone. Many developers face challenges when trying to add digital signature capabilities to their projects - from complex setup procedures to licensing confusion and integration hurdles.

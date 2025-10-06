@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing", ".NET Development"]
 tags: ["pdf-signing", "qr-codes", "groupdocs", "csharp", "digital-signatures"]
+type: docs
 ---
-
 # Sign PDF with QR Code .NET
 
 ## Introduction

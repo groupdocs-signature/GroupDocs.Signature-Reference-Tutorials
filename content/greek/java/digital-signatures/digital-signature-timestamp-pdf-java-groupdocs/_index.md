@@ -4,8 +4,8 @@
 "title": "Υλοποίηση ψηφιακών υπογραφών με χρονικές σημάνσεις σε PDF χρησιμοποιώντας Java και GroupDocs.Signature"
 "url": "/el/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση ψηφιακών υπογραφών με χρονικές σημάνσεις σε PDF χρησιμοποιώντας Java και GroupDocs.Signature
 
 ## Εισαγωγή

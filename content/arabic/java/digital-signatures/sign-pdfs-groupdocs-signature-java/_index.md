@@ -4,8 +4,8 @@
 "title": "إتقان التوقيعات الرقمية لملفات PDF في Java - باستخدام GroupDocs.Signature للنص ومربع الاختيار والحقول الرقمية"
 "url": "/ar/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # إتقان التوقيعات الرقمية لملفات PDF في Java: استخدام GroupDocs.Signature للنص ومربع الاختيار والحقول الرقمية
 
 ## مقدمة

@@ -5,8 +5,8 @@
 "title": "Aktualizace podpisů QR kódů v dokumentech"
 "url": "/cs/net/update-operations/update-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## Zavedení
 dnešním digitálním obchodním prostředí se QR kódy staly nezbytným prvkem v systémech správy dokumentů a ověřování. Poskytují pohodlný způsob kódování a přístupu k informacím, od jednoduchých URL adres až po složitá strukturovaná data. GroupDocs.Signature for .NET nabízí komplexní sadu nástrojů, která umožňuje vývojářům integrovat pokročilé funkce elektronického podpisu do jejich aplikací, včetně možnosti aktualizovat stávající podpisy QR kódů v dokumentech.
 

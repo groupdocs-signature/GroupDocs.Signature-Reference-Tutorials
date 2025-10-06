@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures", ".NET Development"]
 tags: ["digital-signatures", "document-security", "pdf-signing", "groupdocs", "dotnet-tutorial"]
+type: docs
 ---
-
 # Digital Signature .NET Tutorial - Complete GroupDocs.Signature Guide
 
 If you're building .NET applications that handle sensitive documents, you've probably wondered how to implement secure digital signatures without getting lost in cryptographic complexity. That's where GroupDocs.Signature for .NET comes in – it's like having a digital signature expert built right into your application.

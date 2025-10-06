@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して URL から PDF に署名する方法 - デジタル署名チュートリアル"
 "url": "/ja/java/digital-signatures/sign-pdf-from-url-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して URL から PDF に署名する方法
 
 ## 導入

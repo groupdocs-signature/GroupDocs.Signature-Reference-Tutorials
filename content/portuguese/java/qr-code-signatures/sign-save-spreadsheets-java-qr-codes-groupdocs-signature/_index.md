@@ -4,8 +4,8 @@
 "title": "Assine e salve planilhas do Excel com códigos QR em Java usando GroupDocs.Signature"
 "url": "/pt/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Assine e salve planilhas do Excel com códigos QR em Java usando GroupDocs.Signature
 
 ## Introdução

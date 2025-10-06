@@ -4,8 +4,8 @@
 "title": "Dokumentum aláírások frissítése a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/signature-management/update-document-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum aláírások frissítése a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

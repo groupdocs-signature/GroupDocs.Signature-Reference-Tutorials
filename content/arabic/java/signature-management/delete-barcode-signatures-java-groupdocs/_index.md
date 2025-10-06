@@ -4,8 +4,8 @@
 "title": "كيفية حذف توقيعات الباركود في جافا باستخدام GroupDocs.Signature"
 "url": "/ar/java/signature-management/delete-barcode-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # كيفية حذف توقيعات الباركود في جافا باستخدام GroupDocs.Signature
 
 ## مقدمة

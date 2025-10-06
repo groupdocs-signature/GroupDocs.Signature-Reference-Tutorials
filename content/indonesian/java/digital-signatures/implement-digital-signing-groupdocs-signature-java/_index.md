@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Penandatanganan Dokumen Digital di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Penandatanganan Dokumen Digital di Java Menggunakan GroupDocs.Signature
 
 ## Perkenalan

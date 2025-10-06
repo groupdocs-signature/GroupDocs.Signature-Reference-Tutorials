@@ -4,8 +4,8 @@
 "title": "อัปเดตลายเซ็น QR Code ใน PDF ด้วย GroupDocs.Signature สำหรับ Java คู่มือฉบับสมบูรณ์"
 "url": "/th/java/qr-code-signatures/update-qr-code-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # อัปเดตลายเซ็น QR Code ใน PDF ด้วย GroupDocs.Signature สำหรับ Java: คู่มือฉบับสมบูรณ์
 
 ## การแนะนำ

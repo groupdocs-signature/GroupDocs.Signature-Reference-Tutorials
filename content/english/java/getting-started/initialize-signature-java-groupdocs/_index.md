@@ -8,10 +8,8 @@ keywords:
 - GroupDocs Signature Java
 - initialize signature instance Java
 - digital document signing Java
-
+type: docs
 ---
-
-
 # How to Initialize a Signature Instance in Java Using GroupDocs.Signature
 
 ## Introduction

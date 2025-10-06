@@ -3,8 +3,8 @@
 "title": "Výukové programy pro podpisy formulářových polí v GroupDocs.Signature .NET"
 "url": "/cs/net/form-field-signatures/"
 "weight": 8
+type: docs
 ---
-
 # Výukové programy pro podpisy formulářových polí v GroupDocs.Signature .NET
 
 Zvládněte podpisy polí formulářů PDF s našimi podrobnými tutoriály GroupDocs.Signature pro vývojáře .NET. Tyto podrobné návody ukazují, jak pracovat se standardními poli formulářů, vytvářet a spravovat pole s rozbalovacím seznamem, implementovat skupiny přepínačů a používat pole formulářů pro podepisování dokumentů. Každý tutoriál poskytuje praktické příklady kódu C# pro operace s poli formulářů a pomáhá vám vytvářet interaktivní dokumenty PDF s vyplnitelnými poli formulářů, která mohou shromažďovat a ověřovat vstupy uživatelů a zároveň zachovat integritu dokumentu.

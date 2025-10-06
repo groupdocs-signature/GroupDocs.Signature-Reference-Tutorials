@@ -4,8 +4,8 @@
 "title": "Agregar firmas de metadatos a archivos PDF con GroupDocs.Signature para Java&#58; una guía completa"
 "url": "/es/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/"
 "weight": 1
+type: docs
 ---
-
 # Agregar firmas de metadatos a archivos PDF con GroupDocs.Signature para Java
 ## Introducción
 En la era digital actual, garantizar la autenticidad e integridad de sus documentos PDF es crucial. Tanto si es un profesional legal que gestiona contratos como si es una empresa que gestiona datos confidenciales, añadir firmas de metadatos puede proporcionar una capa adicional de seguridad y trazabilidad. Esta guía le mostrará cómo usar GroupDocs.Signature para Java para añadir firmas de metadatos estándar a sus archivos PDF sin problemas.

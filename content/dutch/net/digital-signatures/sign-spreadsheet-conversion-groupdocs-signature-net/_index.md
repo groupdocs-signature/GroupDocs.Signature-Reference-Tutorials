@@ -4,8 +4,8 @@
 "title": "Onderteken en converteer spreadsheets efficiënt naar PDF met GroupDocs.Signature voor .NET"
 "url": "/nl/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Onderteken en converteer spreadsheets efficiënt naar PDF met GroupDocs.Signature voor .NET
 
 ## Invoering

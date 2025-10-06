@@ -4,8 +4,8 @@
 "title": "Aspose.Signature for .NET Kullanarak Dijital Sertifikalar Nasıl Doğrulanır | Adım Adım Kılavuz"
 "url": "/tr/net/search-verification/verify-digital-certificates-aspose-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Aspose.Signature for .NET Kullanarak Dijital Sertifikalar Nasıl Doğrulanır?
 
 ## giriiş

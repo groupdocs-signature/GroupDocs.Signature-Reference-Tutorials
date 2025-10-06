@@ -4,8 +4,8 @@
 "title": "Jak odstranit podpisy obrázků podle ID pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/signature-management/delete-image-signatures-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Komplexní průvodce mazáním podpisů obrázků podle ID pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

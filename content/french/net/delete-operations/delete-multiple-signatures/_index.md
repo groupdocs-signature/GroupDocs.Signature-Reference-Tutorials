@@ -5,8 +5,8 @@
 "title": "Comment supprimer facilement plusieurs signatures de documents"
 "url": "/fr/net/delete-operations/delete-multiple-signatures/"
 "weight": 15
+type: docs
 ---
-
 # Comment supprimer plusieurs signatures de documents dans .NET
 
 ## Pourquoi la gestion des signatures de documents est importante

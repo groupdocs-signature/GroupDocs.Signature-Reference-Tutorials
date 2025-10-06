@@ -5,8 +5,8 @@
 "title": "全面的文档签名搜索"
 "url": "/zh/net/signature-searching/"
 "weight": 23
+type: docs
 ---
-
 ## 介绍
 
 文档安全性和完整性验证是现代业务流程的关键环节。GroupDocs.Signature for .NET 提供了一个强大的解决方案，可跨各种文档格式实现全面的签名搜索功能。无论您需要验证文档真实性、提取签名信息，还是构建自动化验证工作流程，GroupDocs.Signature 都能提供所需的工具，帮助您高效地搜索和处理多种签名类型。

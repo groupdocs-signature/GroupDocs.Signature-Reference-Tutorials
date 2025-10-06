@@ -4,8 +4,8 @@
 "title": "Podepisování prezentací pomocí QR kódů v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/qr-code-signatures/sign-presentations-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat prezentaci pomocí QR kódu s GroupDocs.Signature pro Javu
 
 ## Zavedení

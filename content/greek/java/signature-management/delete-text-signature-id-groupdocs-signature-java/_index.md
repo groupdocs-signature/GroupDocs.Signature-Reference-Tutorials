@@ -4,8 +4,8 @@
 "title": "Πώς να διαγράψετε μια υπογραφή κειμένου με αναγνωριστικό χρησιμοποιώντας το GroupDocs.Signature για Java&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/signature-management/delete-text-signature-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να διαγράψετε μια υπογραφή κειμένου με αναγνωριστικό χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

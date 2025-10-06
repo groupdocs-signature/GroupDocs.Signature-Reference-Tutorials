@@ -4,8 +4,8 @@
 "title": "Mencari dan Mengekstrak Tanda Tangan Metadata PDF Menggunakan GroupDocs di .NET"
 "url": "/id/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Mencari dan Mengekstrak Tanda Tangan Metadata PDF Menggunakan GroupDocs di .NET
 
 ## Perkenalan

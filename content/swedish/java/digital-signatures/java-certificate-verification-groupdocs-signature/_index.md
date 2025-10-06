@@ -4,8 +4,8 @@
 "title": "Verifieringsguide för Java-certifikat med GroupDocs.Signature för säker dokumentautentisering"
 "url": "/sv/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementera Java-certifikatverifiering med GroupDocs.Signature för Java
 
 ## Introduktion

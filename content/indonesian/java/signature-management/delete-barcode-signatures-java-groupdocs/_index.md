@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Tanda Tangan Barcode di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/signature-management/delete-barcode-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Barcode di Java Menggunakan GroupDocs.Signature
 
 ## Perkenalan

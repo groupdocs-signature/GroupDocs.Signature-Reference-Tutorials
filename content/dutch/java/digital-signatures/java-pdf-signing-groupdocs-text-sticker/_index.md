@@ -4,8 +4,8 @@
 "title": "Java PDF-ondertekening onder de knie krijgen - Tekststickerhandtekeningen met GroupDocs.Signature voor Java"
 "url": "/nl/java/digital-signatures/java-pdf-signing-groupdocs-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Java PDF-ondertekening onder de knie krijgen: tekststickerweergaven maken met GroupDocs.Signature
 
 In het digitale tijdperk van vandaag is het elektronisch ondertekenen van documenten essentieel. Of u nu een professional bent of een particulier die contracten en overeenkomsten beheert, veilige en visueel aantrekkelijke handtekeningen zijn cruciaal. Deze tutorial begeleidt u door het proces van het ondertekenen van PDF-documenten met behulp van tekststickers met GroupDocs.Signature voor Java. Door deze vaardigheid onder de knie te krijgen, stroomlijnt u documentworkflows en kunt u professioneel ondertekende documenten in een uniek formaat presenteren.

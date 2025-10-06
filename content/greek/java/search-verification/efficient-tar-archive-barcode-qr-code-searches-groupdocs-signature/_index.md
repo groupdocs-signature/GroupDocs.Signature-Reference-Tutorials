@@ -4,8 +4,8 @@
 "title": "Κύριο Αρχείο TAR Αναζητήσεις Barcode & QR Code με το GroupDocs.Signature για Java"
 "url": "/el/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με τις αναζητήσεις γραμμωτού κώδικα και κωδικού QR στο αρχείο TAR με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

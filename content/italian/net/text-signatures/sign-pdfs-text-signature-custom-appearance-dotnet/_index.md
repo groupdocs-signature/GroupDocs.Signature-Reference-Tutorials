@@ -4,8 +4,8 @@
 "title": "Firma PDF con firma testuale e aspetto personalizzato in .NET utilizzando GroupDocs.Signature"
 "url": "/it/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare documenti PDF con firma testuale e aspetto personalizzato utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

@@ -3,8 +3,8 @@ title: "Text Signature Tutorials for GroupDocs.Signature Java"
 description: "Step-by-step tutorials for implementing text signatures, annotations, watermarks, and text-based document marking with GroupDocs.Signature for Java."
 weight: 7
 url: "/java/text-signatures/"
+type: docs
 ---
-
 # Text Signature Tutorials for GroupDocs.Signature Java
 
 Our text signature tutorials show you how to implement various text-based signature types using GroupDocs.Signature in Java. These practical guides walk through creating text signatures, watermarks, annotations, stickers, form fields, and stamps with customizable formatting options. Each tutorial includes detailed Java code examples for text signature implementation scenarios, helping you build applications that can effectively mark documents with textual information while providing multiple styling and positioning options.

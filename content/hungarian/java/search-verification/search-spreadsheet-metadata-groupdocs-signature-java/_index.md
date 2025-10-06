@@ -4,8 +4,8 @@
 "title": "Táblázatkezelő metaadatainak keresése a GroupDocs.Signature for Java használatával – Átfogó útmutató"
 "url": "/hu/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Táblázatkezelő metaadatainak keresése a GroupDocs.Signature for Java használatával: Átfogó útmutató
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Pemuatan dan Penandatanganan Tanda Tangan Digital dengan GroupDocs.Signature untuk Java"
 "url": "/id/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pemuatan dan Penandatanganan Tanda Tangan Digital dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

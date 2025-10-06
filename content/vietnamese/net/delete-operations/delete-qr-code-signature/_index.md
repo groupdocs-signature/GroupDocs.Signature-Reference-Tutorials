@@ -5,8 +5,8 @@
 "title": "Cách xóa chữ ký mã QR khỏi tài liệu trong .NET"
 "url": "/vi/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # Cách xóa chữ ký mã QR khỏi tài liệu của bạn
 
 ## Giới thiệu

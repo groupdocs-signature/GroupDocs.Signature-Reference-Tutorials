@@ -4,8 +4,8 @@
 "title": "Hantering av signaturer för huvuddokument med GroupDocs.Signature för .NET"
 "url": "/sv/net/signature-management/groupdocs-signature-net-master-document-signature-management/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra hantering av dokumentsignaturer med GroupDocs.Signature för .NET
 
 ## Introduktion

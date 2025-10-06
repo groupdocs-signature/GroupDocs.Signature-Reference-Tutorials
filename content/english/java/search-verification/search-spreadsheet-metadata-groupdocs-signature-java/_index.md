@@ -8,10 +8,8 @@ keywords:
 - search spreadsheet metadata Java
 - GroupDocs.Signature for Java setup
 - metadata signatures in spreadsheets
-
+type: docs
 ---
-
-
 # How to Search Spreadsheet Metadata Using GroupDocs.Signature for Java: A Comprehensive Guide
 
 ## Introduction

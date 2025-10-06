@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory textovými nálepkami pomocí GroupDocs.Signature pro Javu – kompletní průvodce"
 "url": "/cs/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat PDF soubory textovými nálepkami pomocí GroupDocs.Signature pro Javu: Kompletní průvodce
 
 ## Zavedení

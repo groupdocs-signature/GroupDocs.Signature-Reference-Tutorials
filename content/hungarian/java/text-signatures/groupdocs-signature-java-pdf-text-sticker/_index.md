@@ -4,8 +4,8 @@
 "title": "PDF-fájlok aláírása szöveges matricákkal a GroupDocs.Signature for Java használatával – Teljes körű útmutató"
 "url": "/hu/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # PDF-ek aláírása szöveges matricákkal a GroupDocs.Signature for Java használatával: Teljes útmutató
 
 ## Bevezetés

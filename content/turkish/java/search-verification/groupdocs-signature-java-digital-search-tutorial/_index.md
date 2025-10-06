@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java'da Dijital İmza Aramada Ustalaşın - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/search-verification/groupdocs-signature-java-digital-search-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile Dijital İmza Aramada Ustalaşma
 
 ## giriiş

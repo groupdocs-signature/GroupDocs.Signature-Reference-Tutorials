@@ -5,8 +5,8 @@
 "title": "Vylepšení prezentací v PowerPointu pomocí metadatových podpisů v C# .NET"
 "url": "/cs/net/document-signing/sign-presentation-with-metadata/"
 "weight": 12
+type: docs
 ---
-
 ## Zavedení
 
 V dnešním digitálním pracovišti jsou prezentace klíčovými nástroji pro komunikaci a sdílení informací. Zajištění autenticity a integrity těchto prezentačních souborů je stále důležitější, zejména v korporátním a vzdělávacím prostředí. Jedním z účinných způsobů, jak zvýšit zabezpečení a sledovatelnost prezentací, je vložení podpisů metadat.

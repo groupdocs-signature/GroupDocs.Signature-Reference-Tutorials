@@ -4,8 +4,8 @@
 "title": "Dinamikus dokumentumaláírások elsajátítása a GroupDocs.Signature for Java QR-kód aláírási technikáival"
 "url": "/hu/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Dinamikus dokumentumaláírások elsajátítása a GroupDocs.Signature for Java segítségével: QR-kód aláírási technikák
 
 A mai digitális világban elengedhetetlen az elektronikus dokumentumok hatékony védelme és hitelesítése. **GroupDocs.Signature Java-hoz** hatékony megoldást kínál a PDF-ek gyors aláírására, miközben biztosítja azok hitelességét QR-kódos aláírások segítségével különböző pozíciókban.

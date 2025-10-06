@@ -4,8 +4,8 @@
 "title": "Ψηφιακή υπογραφή με χειρισμό εξαιρέσεων σε .NET χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Ψηφιακή υπογραφή με χειρισμό εξαιρέσεων σε .NET χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

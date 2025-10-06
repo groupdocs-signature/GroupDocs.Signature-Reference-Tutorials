@@ -4,8 +4,8 @@
 "title": "Signera och spara Excel-kalkylblad med QR-koder i Java med GroupDocs.Signature"
 "url": "/sv/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Signera och spara Excel-kalkylblad med QR-koder i Java med GroupDocs.Signature
 
 ## Introduktion

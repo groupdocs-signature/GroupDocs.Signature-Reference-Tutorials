@@ -4,8 +4,8 @@
 "title": "การลงนามเอกสาร Java หลักด้วยบาร์โค้ด GS1DotCode โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การลงนามเอกสารใน Java ด้วยบาร์โค้ด GS1DotCode โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

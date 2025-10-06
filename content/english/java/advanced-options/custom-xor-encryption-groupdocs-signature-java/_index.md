@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Java Security"]
 tags: ["encryption", "digital-signatures", "GroupDocs", "Java-tutorial"]
+type: docs
 ---
-
 # How to Implement Custom Encryption in Java: A Practical Guide Using XOR
 
 ## Introduction

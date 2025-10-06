@@ -5,8 +5,8 @@
 "title": "Acompanhe o histórico de assinaturas de documentos com facilidade no .NET"
 "url": "/pt/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # Como rastrear o histórico de assinaturas do seu documento no .NET
 
 ## O que o GroupDocs.Signature pode fazer por você?

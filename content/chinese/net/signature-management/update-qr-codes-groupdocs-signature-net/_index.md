@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中更新二维码——分步指南"
 "url": "/zh/net/signature-management/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 更新二维码
 
 欢迎阅读我们关于如何使用强大的 .NET 库 GroupDocs.Signature 更新二维码的全面指南！本教程非常适合希望通过自动化签名更新来增强文档管理工作流程的开发人员。利用 GroupDocs.Signature for .NET，您可以将数字签名功能无缝集成到您的应用程序中。

@@ -4,8 +4,8 @@
 "title": "Επαλήθευση υπογραφών γραμμωτού κώδικα σε αρχεία ZIP χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Επαλήθευση υπογραφών γραμμωτού κώδικα σε αρχεία ZIP χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

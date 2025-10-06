@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen dengan Tanda Tangan Gambar Teks di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Penandatanganan Dokumen dengan Tanda Tangan Gambar Teks Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

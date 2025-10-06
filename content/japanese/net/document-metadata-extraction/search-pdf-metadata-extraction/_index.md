@@ -5,8 +5,8 @@
 "title": ".NETでPDFメタデータ署名を抽出する方法"
 "url": "/ja/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # PDFメタデータ署名の抽出と検索方法
 
 ## PDFメタデータがドキュメントにとって重要な理由

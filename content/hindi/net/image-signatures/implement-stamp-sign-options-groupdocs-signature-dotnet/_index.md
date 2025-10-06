@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके स्टाम्प साइन विकल्प कैसे लागू करें एक व्यापक गाइड"
 "url": "/hi/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके स्टाम्प साइन विकल्प कैसे लागू करें
 
 ## परिचय

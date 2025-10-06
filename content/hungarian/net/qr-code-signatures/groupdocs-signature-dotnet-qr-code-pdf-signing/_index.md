@@ -4,8 +4,8 @@
 "title": "Biztonságos dokumentumaláírás QR-kódokkal .NET-ben a GroupDocs.Signature használatával"
 "url": "/hu/net/qr-code-signatures/groupdocs-signature-dotnet-qr-code-pdf-signing/"
 "weight": 1
+type: docs
 ---
-
 # Biztonságos dokumentumaláírás QR-kódokkal .NET-ben a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

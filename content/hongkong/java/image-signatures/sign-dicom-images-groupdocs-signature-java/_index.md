@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 對具有二維碼和元資料的 DICOM 影像進行簽名"
 "url": "/zh-hant/java/image-signatures/sign-dicom-images-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 對具有二維碼和元資料的 DICOM 影像進行簽名
 
 ## 介紹

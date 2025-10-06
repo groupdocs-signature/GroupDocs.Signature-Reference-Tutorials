@@ -9,8 +9,8 @@ weight: 1
 url: "/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 categories: ["Java Development"]
 tags: ["digital-signature", "document-security", "java-tutorial", "groupdocs"]
+type: docs
 ---
-
 # How to Add Digital Signatures to Files in Java Using Barcodes and QR Codes
 
 ## Introduction

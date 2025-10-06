@@ -4,8 +4,8 @@
 "title": "วิธีการลงนาม PDF ด้วยลายเซ็นภาพใน .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/image-signatures/professional-pdf-signature-image-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนาม PDF ด้วยลายเซ็นภาพใน .NET โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

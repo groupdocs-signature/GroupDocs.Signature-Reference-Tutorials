@@ -4,8 +4,8 @@
 "title": "การจัดการลายเซ็น PDF ที่มีประสิทธิภาพใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/signature-management/mastering-pdf-signature-management-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # การจัดการลายเซ็น PDF ที่มีประสิทธิภาพใน Java ด้วย GroupDocs.Signature
 
 ## การแนะนำ

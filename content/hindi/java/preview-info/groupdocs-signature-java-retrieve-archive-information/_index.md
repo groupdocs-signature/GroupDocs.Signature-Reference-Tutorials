@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature का उपयोग करके पुरालेख फ़ाइल जानकारी कैसे प्राप्त करें"
 "url": "/hi/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके पुरालेख फ़ाइल जानकारी कैसे प्राप्त करें
 
 ## परिचय

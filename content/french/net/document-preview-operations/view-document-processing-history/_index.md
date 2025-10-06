@@ -5,8 +5,8 @@
 "title": "Suivez facilement l'historique des signatures de documents dans .NET"
 "url": "/fr/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # Comment suivre l'historique des signatures de vos documents dans .NET
 
 ## Que peut faire GroupDocs.Signature pour vous ?

@@ -5,8 +5,8 @@
 "title": "문서에서 여러 서명을 쉽게 제거하는 방법"
 "url": "/ko/net/delete-operations/delete-multiple-signatures/"
 "weight": 15
+type: docs
 ---
-
 # .NET에서 문서에서 여러 서명을 제거하는 방법
 
 ## 문서 서명 관리가 중요한 이유

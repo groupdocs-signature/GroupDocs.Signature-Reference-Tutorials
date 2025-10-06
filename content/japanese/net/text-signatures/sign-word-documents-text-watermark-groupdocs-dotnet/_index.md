@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してテキスト透かし付きの Word 文書に署名する方法"
 "url": "/ja/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してテキスト透かし付きの Word 文書に署名する方法
 
 ## 導入

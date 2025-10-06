@@ -4,8 +4,8 @@
 "title": "Zvládnutí vyhledávání podpisů QR kódem v dokumentech pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vyhledávání dokumentů: Hledání podpisů QR kódů s daty EPC pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

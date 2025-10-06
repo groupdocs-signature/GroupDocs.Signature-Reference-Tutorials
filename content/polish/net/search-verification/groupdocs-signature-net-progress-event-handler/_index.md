@@ -4,8 +4,8 @@
 "title": "Optymalizacja wyszukiwania dokumentów za pomocą GroupDocs.Signature dla platformy .NET i implementacja obsługi zdarzeń postępu"
 "url": "/pl/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # Optymalizacja wyszukiwania dokumentów za pomocą GroupDocs.Signature dla platformy .NET: Implementacja obsługi zdarzeń postępu
 
 ## Wstęp

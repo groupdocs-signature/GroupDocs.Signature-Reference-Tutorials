@@ -4,8 +4,8 @@
 "title": "Implementera QR-kodsignaturer i .NET med anpassad serialisering med GroupDocs.Signature"
 "url": "/sv/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Implementera QR-kodsignaturer med anpassad serialisering i .NET med GroupDocs.Signature
 
 ## Introduktion

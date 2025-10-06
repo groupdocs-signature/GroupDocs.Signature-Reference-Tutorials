@@ -3,8 +3,8 @@ title: "Form Field Signature Tutorials for GroupDocs.Signature Java"
 description: "Learn to work with PDF form fields for signing and data collection with these GroupDocs.Signature Java tutorials."
 weight: 8
 url: "/java/form-field-signatures/"
+type: docs
 ---
-
 # Form Field Signature Tutorials for GroupDocs.Signature Java
 
 Master PDF form field signatures with our detailed GroupDocs.Signature tutorials for Java developers. These step-by-step guides demonstrate how to work with standard form fields, create and manage combobox fields, implement radio button groups, and use form fields for document signing. Each tutorial provides practical Java code examples for form field operations, helping you build interactive PDF documents with fillable form fields that can collect and validate user input while maintaining document integrity.

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 自動執行隱藏簽章的文件預覽"
 "url": "/zh-hant/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 自動執行隱藏簽章的文件預覽
 
 ## 介紹

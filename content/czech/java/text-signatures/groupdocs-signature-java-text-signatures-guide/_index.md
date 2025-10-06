@@ -4,8 +4,8 @@
 "title": "Hlavní textové podpisy v Javě – Komplexní průvodce GroupDocs.Signature pro Javu"
 "url": "/cs/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí podepisování dokumentů v Javě: Komplexní průvodce používáním GroupDocs.Signature pro textové podpisy
 
 ## Zavedení

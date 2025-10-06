@@ -4,8 +4,8 @@
 "title": "Hogyan frissíthetjük a szöveges aláírásokat dokumentumokban a GroupDocs.Signature for .NET használatával? Teljes körű útmutató"
 "url": "/hu/net/signature-management/update-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan frissíthetjük a szöveges aláírásokat dokumentumokban a GroupDocs.Signature for .NET használatával: Teljes körű útmutató
 
 ## Bevezetés

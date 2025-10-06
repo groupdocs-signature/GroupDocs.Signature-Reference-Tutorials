@@ -4,8 +4,8 @@
 "title": "Implementera Java Stamp Signature-alternativ med GroupDocs.Signature för dokumentäkthet"
 "url": "/sv/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementera Java Stamp Signature-alternativ med GroupDocs.Signature för dokumentäkthet
 ## Hur man implementerar Java Stamp Signature-alternativ med GroupDocs.Signature för Java
 dagens digitala tidsålder är det av största vikt att säkerställa dokumentens äkthet. Oavsett om du är en affärsman eller en individ som behöver validera kontrakt och avtal, kan en stämpelsignatur ge trovärdighet och säkerhet. Den här handledningen guidar dig genom att konfigurera stämpelsigneringsalternativ med GroupDocs.Signature för Java – ett kraftfullt bibliotek som är skräddarsytt för att enkelt möta dina dokumentsigneringsbehov.

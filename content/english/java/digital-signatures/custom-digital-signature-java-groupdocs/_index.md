@@ -9,8 +9,8 @@ weight: 1
 url: "/java/digital-signatures/custom-digital-signature-java-groupdocs/"
 categories: ["Document Security", "Java Development"]
 tags: ["digital-signatures", "java", "pdf-signing", "document-security", "groupdocs"]
+type: docs
 ---
-
 # How to Add Digital Signature in Java
 
 Ever sent an important document via email, only to wonder if someone could tamper with it before it reaches the recipient? Or maybe you've dealt with the hassle of printing, signing, scanning, and emailing documents back and forth? There's a better way.

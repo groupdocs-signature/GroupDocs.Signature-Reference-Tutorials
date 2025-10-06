@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 Java 中实现数字文档签名"
 "url": "/zh/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 Java 中实现数字文档签名
 
 ## 介绍

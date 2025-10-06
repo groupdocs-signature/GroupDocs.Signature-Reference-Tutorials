@@ -4,8 +4,8 @@
 "title": "Реализация полей формы ComboBox в PDF-файлах с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Реализация полей формы ComboBox в PDF-файлах с помощью GroupDocs.Signature для Java
 
 ## Введение

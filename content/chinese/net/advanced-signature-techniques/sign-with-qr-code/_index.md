@@ -5,8 +5,8 @@
 "title": "如何使用 GroupDocs.Signature 对二维码文档进行签名"
 "url": "/zh/net/advanced-signature-techniques/sign-with-qr-code/"
 "weight": 15
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 将二维码签名添加到文档
 
 您是否想过如何为您的数字文档添加额外的安全保护和身份验证？二维码签名或许正是您所需要的。在本指南中，我们将引导您完成使用 GroupDocs.Signature for .NET 实现二维码签名的整个过程。

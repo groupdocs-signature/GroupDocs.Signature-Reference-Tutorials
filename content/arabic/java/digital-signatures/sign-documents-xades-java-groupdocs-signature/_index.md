@@ -4,8 +4,8 @@
 "title": "كيفية توقيع المستندات باستخدام XAdES في Java باستخدام GroupDocs.Signature - دليل خطوة بخطوة"
 "url": "/ar/java/digital-signatures/sign-documents-xades-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع المستندات باستخدام XAdES في Java باستخدام GroupDocs.Signature: دليل خطوة بخطوة
 
 ## مقدمة

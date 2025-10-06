@@ -4,8 +4,8 @@
 "title": "كيفية توقيع مستندات Word باستخدام البيانات الوصفية باستخدام GroupDocs.Signature لـ .NET | دليل خطوة بخطوة"
 "url": "/ar/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستندات Word باستخدام البيانات الوصفية باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

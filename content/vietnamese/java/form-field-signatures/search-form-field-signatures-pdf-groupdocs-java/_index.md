@@ -4,8 +4,8 @@
 "title": "Tìm kiếm và trích xuất chữ ký trường biểu mẫu trong tệp PDF bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách tìm kiếm và trích xuất chữ ký trường biểu mẫu trong tài liệu PDF bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Dokumentumfeldolgozási előzmények lekérése a GroupDocs.Signature for .NET segítségével – lépésről lépésre útmutató"
 "url": "/hu/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumfeldolgozási előzmények lekérése a GroupDocs.Signature for .NET segítségével: lépésről lépésre útmutató
 
 ## Bevezetés

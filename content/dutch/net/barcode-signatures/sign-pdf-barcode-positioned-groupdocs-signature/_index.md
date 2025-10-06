@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met nauwkeurig gepositioneerde barcodes met GroupDocs.Signature voor .NET"
 "url": "/nl/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF-document ondertekenen met nauwkeurig gepositioneerde barcodes met GroupDocs.Signature voor .NET
 
 ## Invoering

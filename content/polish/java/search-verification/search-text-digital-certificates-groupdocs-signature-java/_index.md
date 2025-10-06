@@ -4,8 +4,8 @@
 "title": "Opanowanie wyszukiwania certyfikatów cyfrowych za pomocą GroupDocs.Signature dla języka Java"
 "url": "/pl/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie wyszukiwania certyfikatów cyfrowych za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "วิธีการใช้การค้นหาลายเซ็นบาร์โค้ดใน Java ด้วย GroupDocs.Signature"
 "url": "/th/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้การค้นหาลายเซ็นบาร์โค้ดใน Java ด้วย GroupDocs.Signature
 
 ## การแนะนำ

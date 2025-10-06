@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में QR कोड के साथ एक्सेल स्प्रेडशीट पर हस्ताक्षर करें और सहेजें"
 "url": "/hi/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके जावा में QR कोड के साथ एक्सेल स्प्रेडशीट पर हस्ताक्षर करें और सहेजें
 
 ## परिचय

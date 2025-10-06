@@ -5,8 +5,8 @@
 "title": "向 .NET 文档添加安全条形码签名 | 完整指南"
 "url": "/zh/net/advanced-signature-techniques/sign-with-barcode/"
 "weight": 11
+type: docs
 ---
-
 ## 条形码签名如何增强文档安全性？
 
 在当今的数字世界中，文档安全并非锦上添花，而是至关重要。条形码签名提供了一种独特的方式，可以验证和保护您的重要文件。借助 GroupDocs.Signature for .NET，实现这些强大的安全功能变得异常简单。

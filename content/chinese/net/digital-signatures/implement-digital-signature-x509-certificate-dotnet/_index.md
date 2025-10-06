@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中使用 X.509 证书实现数字签名"
 "url": "/zh/net/digital-signatures/implement-digital-signature-x509-certificate-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 .NET 中使用 X.509 证书实现数字签名
 
 ## 介绍

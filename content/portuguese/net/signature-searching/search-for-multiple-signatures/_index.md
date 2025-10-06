@@ -5,8 +5,8 @@
 "title": "Pesquisar vários tipos de assinatura em documentos"
 "url": "/pt/net/signature-searching/search-for-multiple-signatures/"
 "weight": 14
+type: docs
 ---
-
 ## Introdução
 
 Em sistemas modernos de gerenciamento de documentos, a capacidade de pesquisar e validar vários tipos de assinatura em um único documento é cada vez mais importante. As organizações frequentemente empregam vários tipos de assinatura — como assinaturas digitais, assinaturas de texto, códigos de barras, códigos QR e muito mais — para aumentar a segurança dos documentos e agilizar os processos de verificação. O GroupDocs.Signature para .NET oferece uma estrutura poderosa que permite aos desenvolvedores implementar uma funcionalidade abrangente de pesquisa de assinaturas em vários formatos de documentos.

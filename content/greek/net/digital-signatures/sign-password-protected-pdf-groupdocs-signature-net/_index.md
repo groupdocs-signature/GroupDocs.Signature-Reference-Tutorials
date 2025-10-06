@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε ένα PDF που προστατεύεται με κωδικό πρόσβασης χρησιμοποιώντας το GroupDocs.Signature για .NET (Εκπαιδευτικό βίντεο για την ψηφιακή υπογραφή)"
 "url": "/el/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα PDF που προστατεύεται με κωδικό πρόσβασης χρησιμοποιώντας το GroupDocs.Signature για .NET
 ## Εκμάθηση Ψηφιακής Υπογραφής
 

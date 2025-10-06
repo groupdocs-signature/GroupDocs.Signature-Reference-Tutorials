@@ -4,8 +4,8 @@
 "title": "Cara Memperbarui Tanda Tangan Gambar di PDF Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/image-signatures/update-image-signatures-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Memperbarui Tanda Tangan Gambar di PDF Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

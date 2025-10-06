@@ -4,8 +4,8 @@
 "title": "Jak podpisywać pliki PDF za pomocą metadanych i szyfrowania przy użyciu GroupDocs.Signature dla platformy .NET | Przewodnik po bezpiecznej ochronie dokumentów"
 "url": "/pl/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać pliki PDF za pomocą metadanych i szyfrowania przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

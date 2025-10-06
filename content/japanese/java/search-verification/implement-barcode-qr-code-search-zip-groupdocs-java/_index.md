@@ -4,8 +4,8 @@
 "title": "GroupDocs for Java Developers を使用して ZIP アーカイブ内のバーコードと QR コード検索を実装する"
 "url": "/ja/java/search-verification/implement-barcode-qr-code-search-zip-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs for JavaでZIPアーカイブ内のバーコードとQRコード検索を実装する
 ## 導入
 今日のデジタル世界では、文書の真正性を効率的に管理・検証することが不可欠です。ZIPアーカイブに保存された法務文書、請求書、契約書などを扱う場合、適切なツールがなければ、特定のバーコードやQRコードを見つけるのは困難です。このチュートリアルでは、GroupDocs.Signature for Javaを使用して、ZIPファイル内のバーコードとQRコード署名をシームレスに検索する方法を説明します。

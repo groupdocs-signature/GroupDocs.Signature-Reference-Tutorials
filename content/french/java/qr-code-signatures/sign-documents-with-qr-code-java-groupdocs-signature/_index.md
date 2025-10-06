@@ -4,8 +4,8 @@
 "title": "Signer des documents avec un code QR à l'aide de Java et de GroupDocs.Signature - Un guide complet"
 "url": "/fr/java/qr-code-signatures/sign-documents-with-qr-code-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Signer des documents avec un code QR à l'aide de Java et de GroupDocs.Signature
 
 Vous souhaitez renforcer la sécurité et l'efficacité de votre système de gestion documentaire ? À l'ère du numérique, la signature électronique est indispensable, et les signatures par QR code offrent à la fois praticité et robustesse. Dans ce guide complet, nous vous expliquerons comment signer des documents image avec des QR codes grâce à GroupDocs.Signature pour Java. À la fin de ce tutoriel, vous serez capable de mettre en œuvre ces fonctionnalités en toute simplicité.

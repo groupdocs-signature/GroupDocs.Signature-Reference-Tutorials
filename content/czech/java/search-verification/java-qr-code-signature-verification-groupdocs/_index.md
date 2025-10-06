@@ -4,8 +4,8 @@
 "title": "Ověřování dokumentů pomocí podpisů QR kódů v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/search-verification/java-qr-code-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Ověřování dokumentů pomocí podpisů QR kódů v Javě pomocí GroupDocs.Signature
 
 V dnešní digitální krajině je ověřování dokumentů za účelem zajištění jejich pravosti a integrity klíčové. Díky možnosti snadného ověřování dokumentů obsahujících podpisy QR kódy pomocí jazyka Java vám GroupDocs.Signature for Java tento proces zjednodušuje. Tento komplexní tutoriál vás provede ověřováním dokumentů pomocí podpisů QR kódy a zvýší tak bezpečnost a efektivitu vašich pracovních postupů.

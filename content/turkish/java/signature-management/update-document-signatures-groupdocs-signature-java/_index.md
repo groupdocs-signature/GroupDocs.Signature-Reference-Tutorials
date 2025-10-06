@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanılarak Belge İmzaları Nasıl Güncellenir?"
 "url": "/tr/java/signature-management/update-document-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature ile Belge İmzaları Nasıl Güncellenir?
 
 ## giriiş

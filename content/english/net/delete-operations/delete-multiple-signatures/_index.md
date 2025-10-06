@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["signatures", "document-management", "automation", "dotnet"]
+type: docs
 ---
-
 # How to Remove Multiple Signatures from Documents Programmatically
 
 ## Why Bulk Signature Removal is a Game-Changer

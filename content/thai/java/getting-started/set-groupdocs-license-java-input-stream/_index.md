@@ -4,8 +4,8 @@
 "title": "วิธีตั้งค่าใบอนุญาต GroupDocs ผ่าน InputStream ใน Java เพื่อความยืดหยุ่นและการปฏิบัติตามข้อกำหนดที่ดีขึ้น"
 "url": "/th/java/getting-started/set-groupdocs-license-java-input-stream/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้ Java: ตั้งค่าใบอนุญาต GroupDocs ผ่าน InputStream ใน GroupDocs.Signature สำหรับ Java
 
 ยินดีต้อนรับสู่คู่มือฉบับสมบูรณ์นี้เกี่ยวกับการตั้งค่าใบอนุญาต GroupDocs ของคุณโดยใช้อินพุตสตรีมด้วย GroupDocs.Signature สำหรับ Java ฟังก์ชันนี้ช่วยให้คุณจัดการใบอนุญาตได้อย่างมีประสิทธิภาพ มั่นใจได้ถึงการปฏิบัติตามข้อกำหนด และปลดล็อกสิทธิ์การเข้าถึงฟีเจอร์ต่างๆ ของ GroupDocs ได้อย่างเต็มที่

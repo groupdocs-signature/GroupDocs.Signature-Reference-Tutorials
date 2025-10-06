@@ -4,8 +4,8 @@
 "title": "Prezentációs dokumentumok aláírása metaadatokkal a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan írjunk alá egy prezentációs dokumentumot metaadatokkal a GroupDocs.Signature for .NET használatával?
 
 ## Bevezetés

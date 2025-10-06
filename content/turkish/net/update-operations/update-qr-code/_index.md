@@ -5,8 +5,8 @@
 "title": "Belgelerdeki QR Kod İmzalarını Güncelleyin"
 "url": "/tr/net/update-operations/update-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## giriiş
 Günümüzün dijital odaklı iş ortamında, QR kodları belge yönetimi ve kimlik doğrulama sistemlerinde vazgeçilmez bir unsur haline gelmiştir. Basit URL'lerden karmaşık yapılandırılmış verilere kadar bilgileri kodlamak ve erişmek için kullanışlı bir yol sunarlar. GroupDocs.Signature for .NET, geliştiricilerin gelişmiş elektronik imza özelliklerini uygulamalarına entegre etmelerini sağlayan kapsamlı bir araç seti sunar; bu özellikler arasında, belgelerdeki mevcut QR kod imzalarını güncelleme olanağı da yer alır.
 

@@ -4,8 +4,8 @@
 "title": "Jak podepsat dokumenty Wordu textovými vodoznaky pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat dokumenty Wordu textovými vodoznaky pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -9,10 +9,8 @@ keywords:
 - extract SMS data from QR codes PDF
 - GroupDocs.Signature for Java
 - digital document verification
-
+type: docs
 ---
-
-
 # How to Search and Extract SMS Data from QR Code Signatures in PDFs Using Java with GroupDocs.Signature
 
 ## Introduction

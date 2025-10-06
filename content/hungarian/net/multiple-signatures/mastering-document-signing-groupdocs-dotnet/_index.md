@@ -4,8 +4,8 @@
 "title": "Dokumentum aláírás elsajátítása a GroupDocs.Signature for .NET segítségével – Átfogó útmutató"
 "url": "/hu/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum aláírás elsajátítása a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

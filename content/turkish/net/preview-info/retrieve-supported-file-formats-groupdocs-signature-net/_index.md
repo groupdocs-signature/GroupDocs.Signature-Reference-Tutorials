@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Desteklenen Dosya Biçimlerini Alma ve Görüntüleme"
 "url": "/tr/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Desteklenen Dosya Biçimlerini Alma ve Görüntüleme
 
 ## giriiş

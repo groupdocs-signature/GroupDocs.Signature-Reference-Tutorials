@@ -4,8 +4,8 @@
 "title": "การเข้ารหัส XOR แบบกำหนดเองด้วย GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # คู่มือครอบคลุมการใช้งานการเข้ารหัส XOR แบบกำหนดเองด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

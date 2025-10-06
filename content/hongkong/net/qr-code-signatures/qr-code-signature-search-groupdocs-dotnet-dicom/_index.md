@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 在 DICOM 中進行二維碼簽章搜尋－完整指南"
 "url": "/zh-hant/net/qr-code-signatures/qr-code-signature-search-groupdocs-dotnet-dicom/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在多層圖像中實現二維碼簽名搜索
 
 ## 介紹

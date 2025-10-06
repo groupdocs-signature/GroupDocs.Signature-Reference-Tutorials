@@ -4,8 +4,8 @@
 "title": "Vyhledávání podpisů hlavních obrázků v dokumentech pomocí GroupDocs pro Javu – Komplexní průvodce"
 "url": "/cs/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # Vyhledávání podpisů hlavních obrázků v dokumentech pomocí GroupDocs pro Javu: Komplexní průvodce
 
 ## Zavedení

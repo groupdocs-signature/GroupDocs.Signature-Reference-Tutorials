@@ -4,8 +4,8 @@
 "title": "كيفية توقيع مستندات Word بعلامات مائية نصية باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستندات Word بعلامات مائية نصية باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "วิธีการลงนาม PDF ด้วยที่อยู่ QR Code โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/qr-code-signatures/sign-pdf-qr-code-address-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร PDF ด้วยที่อยู่ QR Code โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

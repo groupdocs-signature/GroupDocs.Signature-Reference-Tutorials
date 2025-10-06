@@ -4,8 +4,8 @@
 "title": "Vonalkód- és QR-kód-aláírás megvalósítása Java-ban a GroupDocs.Signature használatával – Átfogó útmutató"
 "url": "/hu/java/multiple-signatures/groupdocs-signing-java-barcode-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Vonalkód- és QR-kód-aláírás megvalósítása Java-ban a GroupDocs.Signature segítségével
 
 mai digitális világban a dokumentumok integritásának biztosítása létfontosságú. Legyen szó jogi szerződések, számlák vagy szállítmányozási címkék kezeléséről, a hitelesség megőrzése elengedhetetlen. **GroupDocs.Signature Java-hoz** leegyszerűsíti ezt a folyamatot azáltal, hogy lehetővé teszi a vonalkódok és QR-kódok zökkenőmentes integrálását a dokumentumokba. Ez az átfogó útmutató végigvezeti Önt a vonalkód- és QR-kód-aláírás megvalósításán a GroupDocs.Signature for Java használatával.

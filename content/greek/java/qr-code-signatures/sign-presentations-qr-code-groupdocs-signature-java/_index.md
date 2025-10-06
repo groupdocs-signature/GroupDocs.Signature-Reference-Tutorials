@@ -4,8 +4,8 @@
 "title": "Υπογραφή παρουσιάσεων με κωδικούς QR σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/qr-code-signatures/sign-presentations-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε μια παρουσίαση χρησιμοποιώντας κωδικό QR με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

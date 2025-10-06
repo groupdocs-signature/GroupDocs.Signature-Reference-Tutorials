@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ .NET के बारकोड और QR कोड हस्ताक्षरों में दस्तावेज़ हस्ताक्षर में महारत हासिल करना"
 "url": "/hi/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET में दस्तावेज़ हस्ताक्षर में निपुणता: GroupDocs.Signature के साथ बारकोड और QR कोड हस्ताक्षरों का क्रियान्वयन
 
 ## परिचय

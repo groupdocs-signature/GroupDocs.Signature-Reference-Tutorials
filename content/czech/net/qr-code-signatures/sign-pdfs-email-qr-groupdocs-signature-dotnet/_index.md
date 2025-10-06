@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory pomocí QR kódů e-mailů pomocí GroupDocs.Signature pro .NET | Podrobný návod"
 "url": "/cs/net/qr-code-signatures/sign-pdfs-email-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF dokument pomocí QR kódu z e-mailu pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

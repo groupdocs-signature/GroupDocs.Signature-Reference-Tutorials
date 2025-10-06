@@ -4,8 +4,8 @@
 "title": "Cách thêm chữ ký văn bản vào tệp PDF bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/text-signatures/groupdocs-signature-java-add-text-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách thêm chữ ký văn bản vào tài liệu bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Firma digital con gestión de excepciones en .NET mediante GroupDocs.Signature"
 "url": "/es/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Firma digital con manejo de excepciones en .NET mediante GroupDocs.Signature
 
 ## Introducción

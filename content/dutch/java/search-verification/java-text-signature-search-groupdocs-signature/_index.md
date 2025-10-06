@@ -4,8 +4,8 @@
 "title": "Implementatie van Java-teksthandtekeningzoekopdrachten met GroupDocs.Signature voor documentbeheer en -verificatie"
 "url": "/nl/java/search-verification/java-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van Java-teksthandtekeningzoekopdrachten met GroupDocs.Signature
 
 ## Invoering

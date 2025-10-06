@@ -4,8 +4,8 @@
 "title": "Egyéni QR-kód szerializálás és titkosítás megvalósítása PDF-ekben a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Egyéni QR-kód szerializálás és titkosítás megvalósítása PDF-ekben a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

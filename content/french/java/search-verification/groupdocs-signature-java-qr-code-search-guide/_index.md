@@ -4,8 +4,8 @@
 "title": "Implémenter la recherche de signature de code QR avec GroupDocs.Signature pour Java"
 "url": "/fr/java/search-verification/groupdocs-signature-java-qr-code-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Implémentation de la recherche de signature de code QR avec GroupDocs.Signature pour Java
 
 Dans le paysage numérique actuel, la vérification efficace des signatures électroniques est cruciale dans divers secteurs. **GroupDocs.Signature pour Java** Offre une solution robuste, notamment pour la recherche et la gestion des signatures de codes QR dans les documents. Ce tutoriel vous guide dans la mise en œuvre de la recherche de signatures de codes QR avec GroupDocs.Signature en Java.

@@ -4,8 +4,8 @@
 "title": "Руководство по проверке сертификатов Java с использованием GroupDocs.Signature для безопасной аутентификации документов"
 "url": "/ru/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Реализация проверки сертификата Java с помощью GroupDocs.Signature для Java
 
 ## Введение

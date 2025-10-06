@@ -4,8 +4,8 @@
 "title": "Signature de PDF avec des codes QR à l'aide de GroupDocs.Signature pour Java &#58; un guide étape par étape"
 "url": "/fr/java/qr-code-signatures/pdf-signing-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter la signature PDF avec des codes QR à l'aide de GroupDocs.Signature pour Java
 
 Dans le paysage numérique actuel, la signature sécurisée de documents est cruciale. Ce tutoriel vous guidera dans la mise en œuvre d'une fonctionnalité unique avec GroupDocs.Signature pour Java : la signature de documents PDF avec des codes QR contenant des données de transfert de cryptomonnaies. Idéale pour les entreprises souhaitant optimiser leurs opérations liées aux monnaies numériques, cette solution allie sécurité, efficacité et innovation.

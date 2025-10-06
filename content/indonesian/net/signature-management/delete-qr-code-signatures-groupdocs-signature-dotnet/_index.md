@@ -4,8 +4,8 @@
 "title": "Hapus Tanda Tangan Kode QR Secara Efisien Menggunakan GroupDocs.Signature untuk .NET | Panduan Manajemen Tanda Tangan"
 "url": "/id/net/signature-management/delete-qr-code-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Kode QR Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

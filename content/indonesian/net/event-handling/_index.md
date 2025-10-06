@@ -3,8 +3,8 @@
 "title": "Tutorial Penanganan Peristiwa dan Manajemen Proses untuk GroupDocs.Signature .NET"
 "url": "/id/net/event-handling/"
 "weight": 15
+type: docs
 ---
-
 # Tutorial Penanganan Peristiwa dan Manajemen Proses untuk GroupDocs.Signature .NET
 
 Tutorial penanganan peristiwa dan manajemen proses kami menunjukkan cara membuat aplikasi penandatanganan responsif menggunakan GroupDocs.Signature untuk .NET. Panduan langkah demi langkah ini mencakup cara berlangganan peristiwa tanda tangan, menerapkan pembatalan untuk operasi pencarian dan penandatanganan, menangani pengecualian, dan memantau status pemrosesan. Setiap tutorial mencakup contoh kode C# yang detail untuk menerapkan penanganan peristiwa yang tepat, membantu Anda membangun aplikasi tangguh yang memberikan umpan balik pengguna yang lebih baik, penanganan kesalahan, dan kontrol atas operasi tanda tangan.

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して PDF にカスタム QR コードのシリアル化と暗号化を実装する"
 "url": "/ja/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して PDF にカスタム QR コードのシリアル化と暗号化を実装する方法
 
 ## 導入

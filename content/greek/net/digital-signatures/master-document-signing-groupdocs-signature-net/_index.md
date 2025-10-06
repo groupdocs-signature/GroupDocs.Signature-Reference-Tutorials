@@ -4,8 +4,8 @@
 "title": "Υπογραφή και επαλήθευση κύριου εγγράφου με το GroupDocs.Signature για .NET"
 "url": "/el/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Υπογραφή και επαλήθευση κύριου εγγράφου με το GroupDocs.Signature για .NET
 
 ## Πώς να κάνετε Master στην υπογραφή και επαλήθευση εγγράφων με το GroupDocs.Signature για .NET

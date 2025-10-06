@@ -4,8 +4,8 @@
 "title": "Pencarian & Enkripsi Kode QR di Java Master GroupDocs.Signature untuk Penanganan Dokumen yang Aman"
 "url": "/id/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Pencarian & Enkripsi Kode QR di Java: Master GroupDocs.Signature untuk Penanganan Dokumen yang Aman
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature에서 비밀번호 예외 처리하기&#58; 종합 가이드"
 "url": "/ko/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature에서 비밀번호 예외 처리
 
 ## 소개

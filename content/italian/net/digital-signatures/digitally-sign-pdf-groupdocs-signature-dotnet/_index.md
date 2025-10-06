@@ -4,8 +4,8 @@
 "title": "Come firmare digitalmente i PDF utilizzando GroupDocs.Signature per .NET&#58; una guida passo passo"
 "url": "/it/net/digital-signatures/digitally-sign-pdf-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare digitalmente un documento PDF utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

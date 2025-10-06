@@ -3,8 +3,8 @@
 "title": "Tutorial sulla firma del testo per GroupDocs.Signature .NET"
 "url": "/it/net/text-signatures/"
 "weight": 7
+type: docs
 ---
-
 # Tutorial sulla firma del testo per GroupDocs.Signature .NET
 
 nostri tutorial sulla firma testuale mostrano come implementare vari tipi di firma testuale utilizzando GroupDocs.Signature in .NET. Queste guide pratiche illustrano la creazione di firme testuali, filigrane, annotazioni, adesivi, campi modulo e timbri con opzioni di formattazione personalizzabili. Ogni tutorial include esempi dettagliati di codice C# per scenari di implementazione di firme testuali, aiutandoti a creare applicazioni in grado di contrassegnare efficacemente i documenti con informazioni testuali, offrendo al contempo molteplici opzioni di stile e posizionamento.

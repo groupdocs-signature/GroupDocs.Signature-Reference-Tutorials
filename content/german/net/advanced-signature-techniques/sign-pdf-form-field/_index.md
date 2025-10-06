@@ -5,8 +5,8 @@
 "title": "So signieren Sie PDF-Dokumente mit Formularfeldern in .NET"
 "url": "/de/net/advanced-signature-techniques/sign-pdf-form-field/"
 "weight": 10
+type: docs
 ---
-
 # So signieren Sie PDF-Dokumente mit Formularfeldern mithilfe von GroupDocs.Signature
 
 Suchen Sie nach einer zuverlässigen Möglichkeit, Ihre PDF-Dokumente mit Formularfeldern digital zu signieren? In dieser umfassenden Anleitung führen wir Sie mit GroupDocs.Signature für .NET durch den Prozess. Transformieren Sie Ihren Dokumenten-Workflow mit sicheren, rechtsverbindlichen Signaturen!

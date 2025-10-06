@@ -4,8 +4,8 @@
 "title": "Jak podpisywać dokumenty obrazami za pomocą GroupDocs.Signature dla Java? Przewodnik krok po kroku"
 "url": "/pl/java/image-signatures/sign-documents-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać dokumenty obrazami za pomocą GroupDocs.Signature dla Java
 
 W dzisiejszej erze cyfrowej zabezpieczanie dokumentów za pomocą podpisów elektronicznych ma kluczowe znaczenie zarówno dla firm, jak i osób prywatnych. Niezależnie od tego, czy finalizujesz umowy, czy zatwierdzasz projekty, szybka i niezawodna metoda cyfrowego podpisywania dokumentów może zaoszczędzić czas i zwiększyć bezpieczeństwo. Ten samouczek przeprowadzi Cię przez proces korzystania z podpisów elektronicznych. **GroupDocs.Signature dla Java** podpisywać dokumenty za pomocą podpisu obrazkowego.

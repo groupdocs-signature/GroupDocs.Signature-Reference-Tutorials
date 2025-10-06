@@ -5,8 +5,8 @@
 "title": "Voeg teksthandtekeningen toe aan documenten met GroupDocs.Signature voor .NET"
 "url": "/nl/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # Teksthandtekeningen toevoegen aan documenten met GroupDocs.Signature voor .NET
 
 ## Inleiding: moderniseer uw documentondertekeningsproces

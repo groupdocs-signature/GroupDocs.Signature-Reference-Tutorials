@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ بحث الباركود .NET باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ بحث الباركود .NET باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

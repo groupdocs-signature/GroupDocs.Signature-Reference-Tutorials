@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - QR code document signing
 - HIBC data integration
-
+type: docs
 ---
-
-
 # Master Document Signing with QR Codes Using GroupDocs.Signature for Java
 
 ## Introduction

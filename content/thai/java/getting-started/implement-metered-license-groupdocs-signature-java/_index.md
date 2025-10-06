@@ -4,8 +4,8 @@
 "title": "ใช้งาน Metered License ใน GroupDocs.Signature สำหรับ Java พร้อมคำแนะนำทีละขั้นตอน"
 "url": "/th/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้ใบอนุญาตแบบมิเตอร์ใน GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

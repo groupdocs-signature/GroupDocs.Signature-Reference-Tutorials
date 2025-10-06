@@ -5,8 +5,8 @@
 "title": "Metadata-extractie van hoofddocumenten met GroupDocs.Signature voor .NET"
 "url": "/nl/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # Uitgebreide handleiding voor het extraheren van documentmetadata met GroupDocs.Signature
 
 ## Het strategische belang van documentmetadata in moderne workflows

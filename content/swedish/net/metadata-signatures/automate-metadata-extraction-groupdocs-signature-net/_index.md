@@ -4,8 +4,8 @@
 "title": "Automatisera metadataextraktion i kalkylblad med GroupDocs.Signature för .NET"
 "url": "/sv/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Automatisera metadataextraktion i kalkylblad med GroupDocs.Signature för .NET
 
 ## Introduktion

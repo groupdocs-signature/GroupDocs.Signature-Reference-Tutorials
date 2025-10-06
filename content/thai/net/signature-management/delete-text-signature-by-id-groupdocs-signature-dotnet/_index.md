@@ -4,8 +4,8 @@
 "title": "วิธีการลบลายเซ็นข้อความตาม ID โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลบลายเซ็นข้อความตาม ID โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

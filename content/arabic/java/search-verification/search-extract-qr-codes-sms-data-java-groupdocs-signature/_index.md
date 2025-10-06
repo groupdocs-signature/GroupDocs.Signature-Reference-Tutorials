@@ -4,8 +4,8 @@
 "title": "كيفية البحث عن بيانات الرسائل النصية القصيرة واستخراجها من توقيعات رمز الاستجابة السريعة في ملفات PDF باستخدام Java مع GroupDocs.Signature"
 "url": "/ar/java/search-verification/search-extract-qr-codes-sms-data-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية البحث عن بيانات الرسائل النصية القصيرة واستخراجها من توقيعات رمز الاستجابة السريعة في ملفات PDF باستخدام Java مع GroupDocs.Signature
 
 ## مقدمة

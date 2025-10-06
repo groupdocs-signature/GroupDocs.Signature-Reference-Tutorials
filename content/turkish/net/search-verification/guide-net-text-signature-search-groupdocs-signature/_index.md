@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile .NET Metin İmza Aramasında Ustalaşın - Adım Adım Kılavuz"
 "url": "/tr/net/search-verification/guide-net-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile .NET Metin İmza Aramasında Uzmanlaşma
 
 ## giriiş

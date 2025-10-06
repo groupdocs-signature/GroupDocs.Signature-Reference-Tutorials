@@ -4,8 +4,8 @@
 "title": "Hoe u teksthandtekeningen implementeert in .NET met GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Teksthandtekeningen implementeren in .NET met GroupDocs.Signature: een uitgebreide handleiding
 
 ## Invoering

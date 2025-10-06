@@ -4,8 +4,8 @@
 "title": "วิธีการสร้างและกำหนดค่าวัตถุ VCard โดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือสำหรับนักพัฒนา"
 "url": "/th/net/metadata-signatures/create-configure-vcard-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการสร้างและกำหนดค่าวัตถุ VCard โดยใช้ GroupDocs.Signature สำหรับ .NET: คู่มือสำหรับนักพัฒนา
 
 ## การแนะนำ

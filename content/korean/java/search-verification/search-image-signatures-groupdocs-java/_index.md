@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java로 이미지 서명 검색을 구현하는 방법 가이드"
 "url": "/ko/java/search-verification/search-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java로 이미지 서명 검색을 구현하는 방법 가이드
 
 ## 소개

@@ -5,8 +5,8 @@
 "title": "Comment supprimer les signatures de texte des documents dans .NET"
 "url": "/fr/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # Comment supprimer les signatures de texte de vos documents avec GroupDocs.Signature
 
 ## Pourquoi auriez-vous besoin de supprimer les signatures de texte ?

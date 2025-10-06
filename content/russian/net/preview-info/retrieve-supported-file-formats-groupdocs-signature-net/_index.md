@@ -4,8 +4,8 @@
 "title": "Извлечение и отображение поддерживаемых форматов файлов с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Извлечение и отображение поддерживаемых форматов файлов с помощью GroupDocs.Signature для .NET
 
 ## Введение

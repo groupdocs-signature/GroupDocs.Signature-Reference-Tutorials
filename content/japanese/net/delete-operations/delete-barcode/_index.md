@@ -5,8 +5,8 @@
 "title": ".NET でドキュメントからバーコードを削除する方法"
 "url": "/ja/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # .NET でドキュメントからバーコードを削除する方法
 
 ## なぜバーコードを削除する必要があるのでしょうか?

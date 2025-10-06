@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing"]
 tags: ["digital-signatures", "pdf-manipulation", "csharp", "document-automation"]
+type: docs
 ---
-
 # Add Text Signature to PDF in .NET
 
 ## Introduction

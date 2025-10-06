@@ -4,8 +4,8 @@
 "title": "คำแนะนำในการลบลายเซ็น QR-Code ใน Java โดยใช้ GroupDocs"
 "url": "/th/java/signature-management/qr-code-signature-deletion-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # คำแนะนำในการลบลายเซ็น QR-Code ใน Java โดยใช้ GroupDocs
 
 ## การแนะนำ

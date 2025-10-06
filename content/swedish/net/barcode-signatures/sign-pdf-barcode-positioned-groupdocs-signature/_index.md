@@ -4,8 +4,8 @@
 "title": "Hur man signerar PDF-filer med exakt placerade streckkoder med GroupDocs.Signature för .NET"
 "url": "/sv/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar ett PDF-dokument med exakt placerade streckkoder med GroupDocs.Signature för .NET
 
 ## Introduktion

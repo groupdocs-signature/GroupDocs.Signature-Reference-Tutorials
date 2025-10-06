@@ -4,8 +4,8 @@
 "title": "Tìm kiếm chữ ký tài liệu chính với GroupDocs.Signature để trích xuất mã QR .NET và dữ liệu WiFi"
 "url": "/vi/net/search-verification/master-document-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ việc tìm kiếm chữ ký tài liệu với GroupDocs.Signature cho .NET
 
 Trong bối cảnh số hóa ngày nay, việc quản lý và xác minh tài liệu hiệu quả là vô cùng quan trọng đối với các doanh nghiệp thuộc mọi lĩnh vực. Một thách thức phổ biến là tìm kiếm tài liệu chứa các chữ ký cụ thể, chẳng hạn như chữ ký mã QR chứa dữ liệu WiFi. Hướng dẫn toàn diện này sẽ hướng dẫn bạn cách triển khai tính năng tìm kiếm chữ ký mã QR nhúng thông tin WiFi bằng GroupDocs.Signature cho .NET.

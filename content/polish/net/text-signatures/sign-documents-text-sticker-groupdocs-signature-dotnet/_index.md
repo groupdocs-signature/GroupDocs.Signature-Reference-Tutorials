@@ -4,8 +4,8 @@
 "title": "Jak podpisywać dokumenty za pomocą naklejki tekstowej w GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać dokumenty za pomocą naklejek tekstowych w GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

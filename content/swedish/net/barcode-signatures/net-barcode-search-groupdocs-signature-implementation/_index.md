@@ -4,8 +4,8 @@
 "title": "Hur man implementerar .NET-streckkodssökning med GroupDocs.Signature för .NET"
 "url": "/sv/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar .NET-streckkodssökning med GroupDocs.Signature för .NET
 
 ## Introduktion

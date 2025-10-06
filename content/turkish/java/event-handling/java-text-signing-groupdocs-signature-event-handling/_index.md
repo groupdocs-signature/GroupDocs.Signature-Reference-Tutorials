@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java'da Metin İmzalamanın Uygulanması"
 "url": "/tr/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Olay İşleme ile Metin İmzalama Uygulaması
 
 ## giriiş

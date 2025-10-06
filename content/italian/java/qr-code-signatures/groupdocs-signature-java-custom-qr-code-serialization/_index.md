@@ -4,8 +4,8 @@
 "title": "Implementa la serializzazione e la crittografia di codici QR personalizzati nei PDF utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare la serializzazione e la crittografia di codici QR personalizzati nei PDF utilizzando GroupDocs.Signature per Java
 
 ## Introduzione

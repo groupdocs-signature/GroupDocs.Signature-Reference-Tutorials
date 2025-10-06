@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके छवि हस्ताक्षर वाले दस्तावेज़ों पर हस्ताक्षर कैसे करें"
 "url": "/hi/net/image-signatures/sign-document-image-signature-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके छवि हस्ताक्षर के साथ दस्तावेज़ पर हस्ताक्षर कैसे करें
 
 ## परिचय

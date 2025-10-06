@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak PDF'lere Metin İmzası Nasıl Eklenir?"
 "url": "/tr/java/text-signatures/groupdocs-signature-java-add-text-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Belgelere Metin İmzası Nasıl Eklenir?
 
 ## giriiş

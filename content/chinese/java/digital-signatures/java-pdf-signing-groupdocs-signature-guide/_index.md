@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中实现 PDF 签名——综合指南"
 "url": "/zh/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中实现 PDF 签名
 
 ## 解锁 GroupDocs.Signature for Java 的强大功能：无缝 PDF 文档签名

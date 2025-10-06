@@ -4,8 +4,8 @@
 "title": "การสร้างลายเซ็น QR Code ใน Java พร้อมคู่มือที่ครอบคลุมโดยใช้ GroupDocs"
 "url": "/th/java/qr-code-signatures/qr-code-signature-generation-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้การสร้างลายเซ็น QR Code ใน Java โดยใช้ GroupDocs
 
 ## การแนะนำ

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["PDF-encryption", "metadata-signing", "GroupDocs-Signature", "NET-security"]
+type: docs
 ---
-
 # PDF Metadata Encryption .NET - Complete GroupDocs.Signature Tutorial
 
 ## Introduction

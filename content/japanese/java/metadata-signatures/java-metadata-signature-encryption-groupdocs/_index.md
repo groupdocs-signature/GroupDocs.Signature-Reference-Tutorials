@@ -4,8 +4,8 @@
 "title": "GroupDocs を使用したメタデータ署名と暗号化による Java ドキュメントの保護"
 "url": "/ja/java/metadata-signatures/java-metadata-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs を使用したメタデータ署名と暗号化による Java ドキュメントの保護
 
 ## 導入

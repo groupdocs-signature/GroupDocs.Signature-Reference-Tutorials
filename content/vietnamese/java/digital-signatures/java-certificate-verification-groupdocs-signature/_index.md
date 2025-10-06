@@ -4,8 +4,8 @@
 "title": "Hướng dẫn xác minh chứng chỉ Java bằng GroupDocs.Signature để xác thực tài liệu an toàn"
 "url": "/vi/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai xác minh chứng chỉ Java với GroupDocs.Signature cho Java
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Digitális aláírások implementálása a .NET-ben; Vonalkód és QR-kód integrációs útmutató"
 "url": "/hu/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírások megvalósítása .NET-ben: Vonalkód- és QR-kód-aláírás a GroupDocs.Signature segítségével
 
 mai digitális korban a dokumentumok gyors és biztonságos hitelesítése minden eddiginél fontosabb. Akár egy vállalati alkalmazáson dolgozó fejlesztő, akár csak a dokumentumkezelési folyamatát szeretné egyszerűsíteni, az aláírások hozzáadása átalakító lehet. Ez az oktatóanyag végigvezeti Önt a használatán **GroupDocs.Signature .NET-hez** dokumentumok digitális aláírására vonalkóddal és QR-kóddal egyaránt, így robusztus megoldásokat kínál a biztonságos dokumentációhoz.

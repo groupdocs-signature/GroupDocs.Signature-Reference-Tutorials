@@ -4,8 +4,8 @@
 "title": "Jak obsługiwać wyjątki dotyczące nieprawidłowego hasła w GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak obsługiwać wyjątki dotyczące nieprawidłowego hasła za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Triển khai Tìm kiếm chữ ký mã QR trong Java với GroupDocs.Signature"
 "url": "/vi/java/qr-code-signatures/implement-qr-code-signature-search-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai Tìm kiếm chữ ký mã QR trong Java với GroupDocs.Signature
 
 ## Giới thiệu

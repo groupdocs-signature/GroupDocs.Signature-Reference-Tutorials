@@ -5,8 +5,8 @@
 "title": "Mejore documentos de Word con firmas de metadatos en C# .NET"
 "url": "/es/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## Introducción
 
 Los documentos de procesamiento de texto se encuentran entre los tipos de archivo más comunes en los ámbitos empresarial, educativo y de comunicación personal. Garantizar la autenticidad, rastrear el origen y mantener la integridad de estos documentos es crucial en muchos entornos profesionales. Una estrategia eficaz para mejorar la seguridad y la trazabilidad de los documentos es la incorporación de firmas de metadatos.

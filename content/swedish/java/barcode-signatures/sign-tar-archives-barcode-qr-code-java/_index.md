@@ -4,8 +4,8 @@
 "title": "Signera TAR-arkiv med streckkoder och QR-koder i Java med GroupDocs.Signature"
 "url": "/sv/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar TAR-arkiv med streckkoder och QR-koder med GroupDocs.Signature för Java
 
 ## Introduktion

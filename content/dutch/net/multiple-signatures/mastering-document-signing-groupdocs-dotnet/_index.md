@@ -4,8 +4,8 @@
 "title": "Het onder de knie krijgen van documentondertekening met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Documentondertekening onder de knie krijgen met GroupDocs.Signature voor .NET
 
 ## Invoering

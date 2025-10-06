@@ -8,10 +8,8 @@ keywords:
 - verify barcodes QR codes documents Java
 - GroupDocs Signature Java
 - document security and integrity
-
+type: docs
 ---
-
-
 # How to Implement Barcode and QR Code Verification with GroupDocs.Signature for Java
 
 ## Introduction

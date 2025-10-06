@@ -9,8 +9,8 @@ weight: 1
 url: "/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 categories: ["Document Management"]
 tags: ["dotnet", "document-signing", "qr-codes", "security"]
+type: docs
 ---
-
 # Document Signing .NET Tutorial: QR Codes & File Logging Made Simple
 
 ## Why Document Signing Matters (And Why Most Developers Get It Wrong)

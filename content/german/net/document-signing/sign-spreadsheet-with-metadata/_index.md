@@ -5,8 +5,8 @@
 "title": "Hinzufügen von Metadatensignaturen zu Excel-Tabellen in C# .NET"
 "url": "/de/net/document-signing/sign-spreadsheet-with-metadata/"
 "weight": 13
+type: docs
 ---
-
 ## Einführung
 
 Excel-Tabellen enthalten häufig wichtige Geschäftsdaten, Finanzinformationen und Berechnungen. Die Sicherstellung ihrer Authentizität, die Rückverfolgung ihrer Herkunft und der Schutz ihrer Integrität sind in vielen professionellen Umgebungen von entscheidender Bedeutung. Ein effektiver Ansatz zur Verbesserung der Sicherheit und Rückverfolgbarkeit von Tabellen ist die Einbettung von Metadatensignaturen.

@@ -4,8 +4,8 @@
 "title": "Trích xuất dữ liệu WiFi từ mã QR trong tệp PDF bằng Java với GroupDocs.Signature"
 "url": "/vi/java/qr-code-signatures/qr-code-wifi-data-extraction-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Trích xuất dữ liệu WiFi từ mã QR trong tệp PDF bằng Java với GroupDocs.Signature
 
 ## Giới thiệu

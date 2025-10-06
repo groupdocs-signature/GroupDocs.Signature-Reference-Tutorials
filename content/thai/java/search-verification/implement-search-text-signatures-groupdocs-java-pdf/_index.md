@@ -4,8 +4,8 @@
 "title": "วิธีการนำการค้นหาลายเซ็นข้อความไปใช้ใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/search-verification/implement-search-text-signatures-groupdocs-java-pdf/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำการค้นหาลายเซ็นข้อความไปใช้ใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

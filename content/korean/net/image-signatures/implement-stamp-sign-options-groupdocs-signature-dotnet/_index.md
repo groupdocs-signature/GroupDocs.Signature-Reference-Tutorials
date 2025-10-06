@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 스탬프 서명 옵션을 구현하는 방법&#58; 종합 가이드"
 "url": "/ko/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 스탬프 서명 옵션을 구현하는 방법
 
 ## 소개

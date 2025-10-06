@@ -5,8 +5,8 @@
 "title": "Zabezpečení dokumentů .NET pomocí digitálních podpisů | Kompletní průvodce"
 "url": "/cs/net/advanced-signature-techniques/sign-with-digital/"
 "weight": 12
+type: docs
 ---
-
 ## Proč jsou digitální podpisy důležité v moderní správě dokumentů
 
 dnešním digitálním světě není zajištění pravosti a integrity vašich elektronických dokumentů jen osvědčeným postupem – je to nezbytnost. Digitální podpisy poskytují tuto klíčovou vrstvu zabezpečení a informují příjemce o tom, že váš dokument je legitimní a od podpisu nebyl pozměněn.

@@ -5,8 +5,8 @@
 "title": "Hur man lägger till stämpelsignaturer i dokument med GroupDocs.Signature"
 "url": "/sv/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # Så här lägger du till professionella stämpelsignaturer i dina .NET-dokument
 
 ## Vad kan man uppnå med stämpelsignaturer?

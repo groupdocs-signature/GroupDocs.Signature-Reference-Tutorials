@@ -3,8 +3,8 @@
 "title": "Tutorial Tanda Tangan Gambar untuk GroupDocs.Signature Java"
 "url": "/id/java/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Tutorial Tanda Tangan Gambar untuk GroupDocs.Signature Java
 
 Pelajari cara menyempurnakan dokumen dengan tanda tangan visual menggunakan tutorial tanda tangan gambar Java GroupDocs.Signature kami. Panduan detail ini menunjukkan cara menambahkan gambar sebagai tanda tangan, membuat tanda tangan stempel, menerapkan tanda air, menyesuaikan pengaturan tampilan, dan menggunakan opsi penyelarasan dan ukuran gambar. Setiap tutorial menyertakan contoh kode Java yang menunjukkan cara membuat tanda tangan yang menarik secara visual, yang secara efektif mengomunikasikan keaslian atau branding, sekaligus menjaga integritas dokumen.

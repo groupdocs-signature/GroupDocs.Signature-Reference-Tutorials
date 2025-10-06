@@ -4,8 +4,8 @@
 "title": "Menandatangani Dokumen Menggunakan Gambar Base64 di Java dengan GroupDocs.Signature"
 "url": "/id/java/image-signatures/sign-document-base64-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen Menggunakan Gambar Berkode Base64 dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

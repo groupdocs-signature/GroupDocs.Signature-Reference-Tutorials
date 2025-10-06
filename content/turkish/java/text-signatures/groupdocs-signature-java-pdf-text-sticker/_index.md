@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak PDF'leri Metin Etiketleri ile Nasıl İmzalayabilirsiniz? Eksiksiz Bir Kılavuz"
 "url": "/tr/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak PDF'leri Metin Etiketleriyle Nasıl İmzalayabilirsiniz: Eksiksiz Bir Kılavuz
 
 ## giriiş

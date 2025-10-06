@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["GroupDocs.Signature", "barcode-verification", "dotnet-tutorial", "document-search"]
+type: docs
 ---
-
 # How to Search Barcode Signatures in .NET Documents
 
 Ever wondered how to programmatically find and verify those barcode signatures scattered throughout your business documents? You're not alone. Whether you're dealing with invoices, contracts, or shipping manifests, searching for specific barcode signatures can be a real pain point if you're doing it manually.

@@ -4,8 +4,8 @@
 "title": "Master Metadata Zoeken in Word-documenten met GroupDocs.Signature voor Java"
 "url": "/nl/java/search-verification/master-metadata-search-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Metadata zoeken in Word-documenten onder de knie krijgen met GroupDocs.Signature voor Java
 
 Het extraheren van metadata uit Word-documenten kan worden gestroomlijnd met de krachtige GroupDocs.Signature-bibliotheek. Deze tutorial begeleidt u bij het implementeren van een functie die met behulp van Java naar metadata-handtekeningen in een Word-document zoekt.

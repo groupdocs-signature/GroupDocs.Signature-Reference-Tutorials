@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak QR Kod Adresiyle PDF Nasıl İmzalanır?"
 "url": "/tr/net/qr-code-signatures/sign-pdf-qr-code-address-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak Bir PDF Belgesini QR Kod Adresiyle Nasıl İmzalayabilirsiniz?
 
 ## giriiş

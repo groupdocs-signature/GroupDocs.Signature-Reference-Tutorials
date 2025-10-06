@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में इवेंट सदस्यता के साथ दस्तावेज़ सत्यापन लागू करें"
 "url": "/hi/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके ईवेंट सदस्यता के साथ दस्तावेज़ सत्यापन लागू करें
 
 ## परिचय

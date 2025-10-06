@@ -4,8 +4,8 @@
 "title": "Bezpieczne wyszukiwanie metadanych w Javie przy użyciu GroupDocs.Signature&#58; – kompleksowy przewodnik"
 "url": "/pl/java/search-verification/secure-metadata-search-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Bezpieczne wyszukiwanie metadanych w Javie przy użyciu GroupDocs.Signature
 
 ## Wstęp

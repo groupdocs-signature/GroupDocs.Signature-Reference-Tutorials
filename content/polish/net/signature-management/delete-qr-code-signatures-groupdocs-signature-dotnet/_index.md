@@ -4,8 +4,8 @@
 "title": "Skuteczne usuwanie podpisów kodów QR za pomocą GroupDocs.Signature dla .NET | Przewodnik po zarządzaniu podpisami"
 "url": "/pl/net/signature-management/delete-qr-code-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak usunąć podpisy w kodzie QR za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Så här implementerar du elektronisk dokumentsignering i .NET med GroupDocs.Signature - en steg-för-steg-guide"
 "url": "/sv/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Så här implementerar du elektronisk dokumentsignering i .NET med GroupDocs.Signature: En steg-för-steg-guide
 
 ## Introduktion

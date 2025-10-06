@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature Java
 - custom encryption Java
 - QR code signature search
-
+type: docs
 ---
-
-
 # Secure Digital Signatures in Java Using GroupDocs.Signature
 ## Introduction
 In today's digital landscape, securing documents is paramount. Whether you're managing sensitive business contracts or personal records, applying robust encryption and efficient search capabilities can protect your data from unauthorized access. This guide will walk you through implementing custom encryption and QR code signature search options in Java using GroupDocs.Signature.

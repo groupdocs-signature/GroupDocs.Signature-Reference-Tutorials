@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 숨겨진 서명으로 문서 미리 보기 자동화"
 "url": "/ko/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 숨겨진 서명으로 문서 미리 보기 자동화
 
 ## 소개

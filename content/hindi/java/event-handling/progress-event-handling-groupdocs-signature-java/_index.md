@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature के साथ दस्तावेज़ हस्ताक्षर में प्रगति ईवेंट हैंडलिंग को कार्यान्वित करना"
 "url": "/hi/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature के साथ दस्तावेज़ हस्ताक्षर में प्रगति ईवेंट हैंडलिंग को कार्यान्वित करना
 
 ## परिचय

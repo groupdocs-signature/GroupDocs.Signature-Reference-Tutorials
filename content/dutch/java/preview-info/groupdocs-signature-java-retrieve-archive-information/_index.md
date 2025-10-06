@@ -4,8 +4,8 @@
 "title": "Hoe u archiefbestandsinformatie kunt ophalen met GroupDocs.Signature voor Java"
 "url": "/nl/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u archiefbestandsinformatie kunt ophalen met GroupDocs.Signature voor Java
 
 ## Invoering

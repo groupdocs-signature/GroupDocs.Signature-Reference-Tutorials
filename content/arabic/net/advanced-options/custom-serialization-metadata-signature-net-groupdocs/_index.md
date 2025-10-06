@@ -4,8 +4,8 @@
 "title": "البحث المخصص عن التسلسل والبيانات الوصفية في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ التسلسل المخصص والبحث عن توقيع البيانات الوصفية باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

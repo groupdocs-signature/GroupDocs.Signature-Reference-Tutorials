@@ -4,8 +4,8 @@
 "title": "Come rimuovere le firme dei codici QR dai documenti utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/signature-management/delete-qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Come rimuovere le firme dei codici QR dai documenti utilizzando GroupDocs.Signature per Java
 
 ## Introduzione

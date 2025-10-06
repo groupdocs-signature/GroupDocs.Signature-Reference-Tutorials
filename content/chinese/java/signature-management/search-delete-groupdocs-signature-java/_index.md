@@ -4,8 +4,8 @@
 "title": "高效的签名管理——如何使用 GroupDocs.Signature for Java 搜索和删除数字签名"
 "url": "/zh/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 高效的签名管理：如何使用 GroupDocs.Signature for Java 搜索和删除数字签名
 
 ## 介绍

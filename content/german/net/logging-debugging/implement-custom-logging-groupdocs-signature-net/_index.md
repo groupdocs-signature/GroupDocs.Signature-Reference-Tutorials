@@ -4,8 +4,8 @@
 "title": "Implementieren Sie benutzerdefiniertes Protokollieren in GroupDocs.Signature für .NET – Ein umfassender Leitfaden"
 "url": "/de/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren Sie benutzerdefiniertes Protokollieren in GroupDocs.Signature für .NET: Ein umfassender Leitfaden
 
 ## Einführung

@@ -4,8 +4,8 @@
 "title": "Automatizza la firma PDF con GroupDocs.Signature per la guida alle firme di immagini .NET"
 "url": "/it/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Automatizza la firma dei PDF con GroupDocs.Signature per .NET: Guida alle firme di immagini
 
 ## Introduzione

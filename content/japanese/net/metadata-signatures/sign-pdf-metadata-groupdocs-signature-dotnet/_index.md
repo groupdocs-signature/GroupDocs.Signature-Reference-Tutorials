@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してメタデータで PDF に署名する包括的なガイド"
 "url": "/ja/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してメタデータで PDF に署名する
 
 ## 導入

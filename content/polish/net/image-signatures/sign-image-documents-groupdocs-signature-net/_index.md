@@ -4,8 +4,8 @@
 "title": "Jak podpisywać dokumenty graficzne za pomocą GroupDocs.Signature dla platformy .NET? – kompleksowy przewodnik"
 "url": "/pl/net/image-signatures/sign-image-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisać dokument graficzny za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

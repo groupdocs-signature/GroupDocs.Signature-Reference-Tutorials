@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature के साथ दस्तावेज़ पर हस्ताक्षर सुरक्षित और स्वचालित करें एक व्यापक गाइड"
 "url": "/hi/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ दस्तावेज़ पर हस्ताक्षर सुरक्षित और स्वचालित करें
 
 ## परिचय

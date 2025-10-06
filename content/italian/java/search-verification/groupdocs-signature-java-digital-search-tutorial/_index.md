@@ -4,8 +4,8 @@
 "title": "Padroneggia la ricerca di firme digitali in Java con GroupDocs.Signature&#58; una guida completa"
 "url": "/it/java/search-verification/groupdocs-signature-java-digital-search-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la ricerca di firme digitali con GroupDocs.Signature per Java
 
 ## Introduzione

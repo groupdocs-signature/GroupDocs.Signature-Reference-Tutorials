@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature के साथ एन्क्रिप्टेड मेटाडेटा हस्ताक्षर कैसे लागू करें | एक संपूर्ण गाइड"
 "url": "/hi/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ एन्क्रिप्टेड मेटाडेटा हस्ताक्षर कैसे लागू करें
 
 ## परिचय

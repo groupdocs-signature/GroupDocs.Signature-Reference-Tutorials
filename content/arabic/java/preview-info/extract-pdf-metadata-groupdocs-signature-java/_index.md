@@ -4,8 +4,8 @@
 "title": "استخراج بيانات PDF باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/preview-info/extract-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # استخراج بيانات PDF باستخدام GroupDocs.Signature لـ Java: دليل شامل
 
 ## مقدمة

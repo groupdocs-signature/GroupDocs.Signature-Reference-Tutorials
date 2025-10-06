@@ -4,8 +4,8 @@
 "title": "วิธีการลบลายเซ็นบาร์โค้ดใน Java โดยใช้ GroupDocs.Signature&#58; คู่มือฉบับสมบูรณ์"
 "url": "/th/java/signature-management/groupdocs-signature-java-delete-barcode-signatures/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้ GroupDocs.Signature สำหรับ Java เพื่อลบลายเซ็นบาร์โค้ดตาม ID
 
 ## การแนะนำ

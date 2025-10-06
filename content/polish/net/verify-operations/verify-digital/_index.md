@@ -5,8 +5,8 @@
 "title": "Weryfikacja podpisów cyfrowych w dokumentach"
 "url": "/pl/net/verify-operations/verify-digital/"
 "weight": 11
+type: docs
 ---
-
 ## Wstęp
 
 Podpisy cyfrowe odgrywają kluczową rolę w zapewnieniu autentyczności, integralności i niezaprzeczalności dokumentów we współczesnych procesach biznesowych. W przeciwieństwie do tradycyjnych podpisów odręcznych, podpisy cyfrowe wykorzystują techniki kryptograficzne do weryfikacji tożsamości osoby podpisującej i zapewnienia, że dokument nie został zmieniony od momentu podpisania.

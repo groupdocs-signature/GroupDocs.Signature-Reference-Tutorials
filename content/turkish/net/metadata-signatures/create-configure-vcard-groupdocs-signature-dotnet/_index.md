@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak VCard Nesneleri Nasıl Oluşturulur ve Yapılandırılır? Geliştirici Kılavuzu"
 "url": "/tr/net/metadata-signatures/create-configure-vcard-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak VCard Nesneleri Nasıl Oluşturulur ve Yapılandırılır: Geliştirici Kılavuzu
 
 ## giriiş

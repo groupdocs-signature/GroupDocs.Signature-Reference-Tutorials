@@ -5,8 +5,8 @@
 "title": "Spåra dokumentsignaturhistorik enkelt i .NET"
 "url": "/sv/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # Så här spårar du ditt dokuments signaturhistorik i .NET
 
 ## Vad kan GroupDocs.Signature göra för dig?

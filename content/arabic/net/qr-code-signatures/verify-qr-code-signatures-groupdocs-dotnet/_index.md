@@ -4,8 +4,8 @@
 "title": "كيفية التحقق من توقيعات رمز الاستجابة السريعة (QR Code) في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/qr-code-signatures/verify-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التحقق من توقيع رمز الاستجابة السريعة (QR Code) باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

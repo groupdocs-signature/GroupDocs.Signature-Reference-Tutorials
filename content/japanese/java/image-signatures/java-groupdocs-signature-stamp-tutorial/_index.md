@@ -4,8 +4,8 @@
 "title": "Java スタンプ署名チュートリアル&#58; GroupDocs.Signature API を使用して PDF に署名する方法"
 "url": "/ja/java/image-signatures/java-groupdocs-signature-stamp-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Java スタンプ署名チュートリアル: GroupDocs.Signature API を使用した PDF ドキュメントへの署名
 
 今日のデジタル環境において、効率的かつ安全な文書署名は、企業にとっても個人にとっても不可欠です。契約書の承認や文書の検証など、デジタルで真正性を確保することで、時間とリソースを節約できます。この包括的なチュートリアルでは、GroupDocs.Signature for Java APIを使用して、カスタムスタンプ署名でPDF文書に署名する方法を解説します。このステップバイステップの手順に従うことで、特定のテキスト、フォントスタイル、色、位置で外枠と内枠を追加する方法を習得できます。

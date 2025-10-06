@@ -4,8 +4,8 @@
 "title": "Ψηφιακή επαλήθευση εγγράφων με το GroupDocs.Signature για .NET™ Ένας πλήρης οδηγός"
 "url": "/el/net/digital-signatures/digital-document-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Ψηφιακή επαλήθευση εγγράφων με το GroupDocs.Signature για .NET: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

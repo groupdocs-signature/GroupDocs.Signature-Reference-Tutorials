@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["qr-codes", "encryption", "document-security", "dotnet"]
+type: docs
 ---
-
 # QR Code Signature Search .NET - Complete Custom Encryption Guide
 
 ## What You'll Build Today

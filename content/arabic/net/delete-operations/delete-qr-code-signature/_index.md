@@ -5,8 +5,8 @@
 "title": "كيفية إزالة توقيعات رمز الاستجابة السريعة (QR Code) من المستندات في .NET"
 "url": "/ar/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # كيفية حذف توقيعات رمز الاستجابة السريعة (QR Code) من مستنداتك
 
 ## مقدمة

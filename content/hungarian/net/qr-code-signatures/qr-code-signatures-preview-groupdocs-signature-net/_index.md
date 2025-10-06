@@ -4,8 +4,8 @@
 "title": "QR-kód aláírás előnézetek a GroupDocs.Signature for .NET segítségével – Átfogó útmutató"
 "url": "/hu/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírás-előnézetek megvalósítása a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

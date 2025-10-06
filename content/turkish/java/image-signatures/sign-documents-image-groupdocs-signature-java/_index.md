@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak Görüntülü Belgeler Nasıl İmzalanır? Adım Adım Kılavuz"
 "url": "/tr/java/image-signatures/sign-documents-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Görüntülerle Belgeler Nasıl İmzalanır
 
 Günümüzün dijital çağında, belgeleri elektronik imzalarla güvence altına almak hem işletmeler hem de bireyler için hayati önem taşımaktadır. İster sözleşmeleri sonuçlandırıyor ister tasarımları onaylıyor olun, belgeleri dijital olarak imzalamanın hızlı ve güvenilir bir yöntemi zamandan tasarruf sağlayabilir ve güvenliği artırabilir. Bu eğitim, kullanımınızda size rehberlik edecektir. **Java için GroupDocs.Signature** Belgeleri resimli imza ile imzalamak.

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["qr-code", "digital-signatures", "document-security", "dotnet"]
+type: docs
 ---
-
 # QR Code Document Signing .NET
 
 ## Introduction

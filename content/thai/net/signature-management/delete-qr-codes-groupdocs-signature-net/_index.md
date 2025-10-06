@@ -4,8 +4,8 @@
 "title": "ลบรหัส QR ออกจากเอกสารอย่างมีประสิทธิภาพโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/signature-management/delete-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # ลบรหัส QR ออกจากเอกสารอย่างมีประสิทธิภาพด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

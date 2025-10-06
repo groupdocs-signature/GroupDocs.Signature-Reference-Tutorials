@@ -5,8 +5,8 @@
 "title": "Hledání podpisů čárových kódů v dokumentech"
 "url": "/cs/net/signature-searching/search-for-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Zavedení
 
 V dnešní době digitální správy dokumentů je pro zachování autenticity a zabezpečení klíčová schopnost vyhledávat a ověřovat podpisy v dokumentech. GroupDocs.Signature pro .NET poskytuje výkonné řešení pro práci s různými typy podpisů, včetně čárových kódů, v různých formátech dokumentů. Tento tutoriál vás provede procesem implementace funkce vyhledávání podpisů s čárovými kódy ve vašich .NET aplikacích pomocí GroupDocs.Signature.

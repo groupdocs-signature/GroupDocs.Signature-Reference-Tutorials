@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature для .NET&#58; управление и удаление подписей документов"
 "url": "/ru/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 "weight": 1
+type: docs
 ---
-
 # Освоение управления подписями в .NET с помощью GroupDocs.Signature
 
 ## Введение

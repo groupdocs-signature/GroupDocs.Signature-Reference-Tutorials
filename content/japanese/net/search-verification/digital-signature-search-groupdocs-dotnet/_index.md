@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET によるデジタル署名検索 総合ガイド"
 "url": "/ja/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してドキュメントにデジタル署名検索を実装する方法
 
 ## 導入

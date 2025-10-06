@@ -4,8 +4,8 @@
 "title": "Java Stamp 簽章教學－如何使用 GroupDocs.Signature API 簽章 PDF"
 "url": "/zh-hant/java/image-signatures/java-groupdocs-signature-stamp-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Java Stamp 簽名教學：使用 GroupDocs.Signature API 簽署 PDF 文檔
 
 在當今的數位時代，高效安全的文件簽名對企業和個人都至關重要。無論您是授權合約還是驗證文件，以數位方式確保真實性都能節省時間和資源。本教學將指導您使用 GroupDocs.Signature for Java API 為 PDF 文件新增自訂圖章簽章。透過循序漸進的學習，您將學習如何添加具有特定文字、字體樣式、顏色和位置的外線和內線。

@@ -4,8 +4,8 @@
 "title": "Szöveges aláírások megvalósítása GroupDocs.Signature for Java használatával (lépésről lépésre útmutató)"
 "url": "/hu/java/text-signatures/implement-text-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Szöveges aláírások megvalósítása a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε την αναζήτηση μεταδεδομένων στο .NET χρησιμοποιώντας το GroupDocs.Signature - Ένας οδηγός βήμα προς βήμα"
 "url": "/el/net/metadata-signatures/implement-metadata-search-net-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την αναζήτηση μεταδεδομένων στο .NET χρησιμοποιώντας το GroupDocs.Signature: Ένας οδηγός βήμα προς βήμα
 
 ## Εισαγωγή

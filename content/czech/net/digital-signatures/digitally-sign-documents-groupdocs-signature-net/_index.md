@@ -4,8 +4,8 @@
 "title": "Digitální podepisování dokumentů pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/digital-signatures/digitally-sign-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak digitálně podepisovat dokumenty pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

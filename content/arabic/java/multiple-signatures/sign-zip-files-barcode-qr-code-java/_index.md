@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات ZIP باستخدام الرموز الشريطية ورموز الاستجابة السريعة في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع ملفات ZIP باستخدام الرموز الشريطية ورموز الاستجابة السريعة في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Cách thiết lập giấy phép GroupDocs thông qua InputStream trong Java để tăng cường tính linh hoạt và tuân thủ"
 "url": "/vi/java/getting-started/set-groupdocs-license-java-input-stream/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai Java: Thiết lập giấy phép GroupDocs thông qua InputStream trong GroupDocs.Signature cho Java
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách thiết lập giấy phép GroupDocs bằng luồng đầu vào với GroupDocs.Signature for Java. Chức năng này cho phép bạn quản lý giấy phép hiệu quả, đảm bảo tuân thủ và mở khóa toàn quyền truy cập vào các tính năng của GroupDocs.

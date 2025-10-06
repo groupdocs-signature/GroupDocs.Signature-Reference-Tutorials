@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs 在 Java 中實現安全 Word 元資料簽章的綜合指南"
 "url": "/zh-hant/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs 在 Java 中實現安全的 Word 元資料簽名
 
 ## 介紹

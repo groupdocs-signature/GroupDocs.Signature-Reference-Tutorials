@@ -4,8 +4,8 @@
 "title": "Мастерство проверки документов с помощью GroupDocs.Signature для .NET&#58; подробное руководство"
 "url": "/ru/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Освоение проверки документов с помощью GroupDocs.Signature для .NET: подробное руководство
 
 ## Введение

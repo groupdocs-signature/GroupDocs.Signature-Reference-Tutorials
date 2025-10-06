@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak QR Kodlarıyla PDF İmzalama - Adım Adım Kılavuz"
 "url": "/tr/java/qr-code-signatures/pdf-signing-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak QR Kodlarıyla PDF İmzalama Nasıl Uygulanır?
 
 Günümüzün dijital dünyasında, güvenli belge imzalama hayati önem taşıyor. Bu eğitim, GroupDocs.Signature for Java kullanarak benzersiz bir özelliği uygulama sürecinde size rehberlik edecek: kripto para birimi transfer verilerini içeren QR kodlarıyla PDF belgelerini imzalama. Dijital para birimleriyle ilgili operasyonlarını kolaylaştırmak isteyen işletmeler için ideal olan bu çözüm, güvenlik, verimlilik ve inovasyon sunar.

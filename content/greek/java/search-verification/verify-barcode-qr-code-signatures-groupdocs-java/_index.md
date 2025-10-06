@@ -4,8 +4,8 @@
 "title": "Πώς να επαληθεύσετε γραμμωτούς κώδικες και κωδικούς QR σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/search-verification/verify-barcode-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την επαλήθευση γραμμωτού κώδικα και κωδικού QR με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

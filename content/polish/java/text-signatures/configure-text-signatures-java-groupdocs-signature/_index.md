@@ -4,8 +4,8 @@
 "title": "Jak skonfigurować podpisy tekstowe w Javie za pomocą GroupDocs.Signature? Kompletny przewodnik"
 "url": "/pl/java/text-signatures/configure-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak skonfigurować podpisy tekstowe w Javie za pomocą GroupDocs.Signature: kompleksowy przewodnik
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Menambahkan Tanda Tangan Metadata ke PDF Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/"
 "weight": 1
+type: docs
 ---
-
 # Menambahkan Tanda Tangan Metadata ke PDF Menggunakan GroupDocs.Signature untuk Java
 ## Perkenalan
 Di era digital saat ini, memastikan keaslian dan integritas dokumen PDF Anda sangatlah penting. Baik Anda seorang profesional hukum yang mengelola kontrak maupun bisnis yang menangani data sensitif, menambahkan tanda tangan metadata dapat memberikan lapisan keamanan dan keterlacakan ekstra. Panduan ini akan menunjukkan cara menggunakan GroupDocs.Signature untuk Java untuk menambahkan tanda tangan metadata standar ke berkas PDF Anda dengan mudah.

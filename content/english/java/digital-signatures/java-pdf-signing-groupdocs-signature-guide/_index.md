@@ -8,10 +8,8 @@ keywords:
 - PDF Signing in Java
 - GroupDocs.Signature API
 - Java Digital Signatures
-
+type: docs
 ---
-
-
 # Implement PDF Signing in Java Using GroupDocs.Signature
 
 ## Unlock the Power of GroupDocs.Signature for Java: Seamless PDF Document Signing

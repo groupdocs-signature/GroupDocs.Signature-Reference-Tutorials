@@ -4,8 +4,8 @@
 "title": "Kuasai Tanda Tangan Digital dalam PDF dengan Tampilan Kustom menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Tanda Tangan Digital dalam PDF dengan Tampilan Kustom Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java ile Word Belgelerinde Ana Meta Veri Araması"
 "url": "/tr/java/search-verification/master-metadata-search-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Word Belgelerinde Meta Veri Aramada Ustalaşma
 
 Word belgelerinden meta veri ayıklama, güçlü GroupDocs.Signature kütüphanesi ile kolaylaştırılabilir. Bu eğitim, Java kullanarak bir Word belgesindeki meta veri imzalarını arayan bir özelliğin uygulanmasında size rehberlik edecektir.

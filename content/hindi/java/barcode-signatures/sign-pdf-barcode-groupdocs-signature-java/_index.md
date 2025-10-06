@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके बारकोड के साथ PDF दस्तावेज़ों पर हस्ताक्षर करें.Java के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs का उपयोग करके बारकोड के साथ PDF दस्तावेज़ों पर हस्ताक्षर करें। Java के लिए हस्ताक्षर: एक व्यापक मार्गदर्शिका
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Υπογραφές κύριου κειμένου σε Java - Πλήρης οδηγός για το GroupDocs.Signature για Java"
 "url": "/el/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την υπογραφή εγγράφων σε Java: Ένας πλήρης οδηγός για τη χρήση του GroupDocs.Signature για υπογραφές κειμένου
 
 ## Εισαγωγή

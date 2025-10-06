@@ -4,8 +4,8 @@
 "title": "Υπογραφή εγγράφων PDF με υπογραφή κειμένου σε C# χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/text-signatures/sign-pdf-text-signature-csharp-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Υπογραφή εγγράφων PDF με υπογραφή κειμένου σε C# χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

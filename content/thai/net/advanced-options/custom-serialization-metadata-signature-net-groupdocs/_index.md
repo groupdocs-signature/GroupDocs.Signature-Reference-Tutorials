@@ -4,8 +4,8 @@
 "title": "การค้นหาข้อมูลแบบอนุกรมและเมตาที่กำหนดเองใน .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # การนำการสร้างซีเรียลไลเซชันแบบกำหนดเองและการค้นหาลายเซ็นเมตาดาต้าด้วย GroupDocs.Signature สำหรับ .NET มาใช้
 
 ## การแนะนำ

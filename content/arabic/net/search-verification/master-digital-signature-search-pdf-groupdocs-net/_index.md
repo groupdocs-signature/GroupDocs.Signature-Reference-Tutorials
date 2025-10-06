@@ -4,8 +4,8 @@
 "title": "البحث عن التوقيعات الرقمية الرئيسية في ملفات PDF باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # إتقان عمليات البحث عن التوقيعات الرقمية في ملفات PDF باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

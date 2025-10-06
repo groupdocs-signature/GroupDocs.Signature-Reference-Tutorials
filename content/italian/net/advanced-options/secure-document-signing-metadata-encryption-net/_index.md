@@ -4,8 +4,8 @@
 "title": "Padroneggia la firma sicura dei documenti con metadati e crittografia personalizzata in .NET utilizzando GroupDocs.Signature"
 "url": "/it/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggia la firma sicura dei documenti con metadati e crittografia personalizzata in .NET
 
 ## Introduzione

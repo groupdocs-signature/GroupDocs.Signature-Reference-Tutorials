@@ -4,8 +4,8 @@
 "title": "Как удалить текстовую подпись по идентификатору с помощью GroupDocs.Signature для Java&#58; подробное руководство"
 "url": "/ru/java/signature-management/delete-text-signature-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Как удалить текстовую подпись по идентификатору с помощью GroupDocs.Signature для Java
 
 ## Введение

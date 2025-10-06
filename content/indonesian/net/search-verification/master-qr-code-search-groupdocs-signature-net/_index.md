@@ -4,8 +4,8 @@
 "title": "Kuasai Pencarian Kode QR di PDF Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/search-verification/master-qr-code-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pencarian Kode QR dalam PDF Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

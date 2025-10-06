@@ -5,8 +5,8 @@
 "title": "Come aggiungere firme timbro ai documenti con GroupDocs.Signature"
 "url": "/it/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # Come aggiungere firme professionali ai tuoi documenti .NET
 
 ## Cosa si può ottenere con le firme a timbro?

@@ -4,8 +4,8 @@
 "title": "Hoe u afbeeldingshandtekeningen in documenten kunt bijwerken met GroupDocs.Signature voor .NET&#58; een stapsgewijze handleiding"
 "url": "/nl/net/image-signatures/update-image-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Een afbeeldingshandtekening in documenten bijwerken met GroupDocs.Signature voor .NET
 
 ## Invoering

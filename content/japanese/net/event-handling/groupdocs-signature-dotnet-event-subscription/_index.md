@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用したドキュメント署名におけるイベント サブスクリプションの習得 | ステップバイステップ ガイド"
 "url": "/ja/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用したドキュメント署名のイベント サブスクリプションの習得
 
 ## 導入

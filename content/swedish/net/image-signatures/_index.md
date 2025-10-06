@@ -3,8 +3,8 @@
 "title": "Handledningar för bildsignaturer för GroupDocs.Signature .NET"
 "url": "/sv/net/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Handledningar för bildsignaturer för GroupDocs.Signature .NET
 
 Lär dig hur du förbättrar dokument med visuella signaturer med hjälp av våra GroupDocs.Signature .NET-handledningar för bildsignaturer. Dessa detaljerade guider visar hur du lägger till bilder som signaturer, skapar stämpelsignaturer, implementerar vattenstämplar, anpassar utseendeinställningar och arbetar med bildjustering och storleksalternativ. Varje handledning innehåller exempel på fungerande C#-kod som visar hur du skapar visuellt tilltalande signaturer som effektivt kommunicerar autenticitet eller varumärke samtidigt som dokumentets integritet bibehålls.

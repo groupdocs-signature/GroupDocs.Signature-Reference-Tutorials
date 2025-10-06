@@ -4,8 +4,8 @@
 "title": "Implementera hantering av progresshändelser vid dokumentsignering med GroupDocs.Signature för Java"
 "url": "/sv/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementera hantering av progresshändelser vid dokumentsignering med GroupDocs.Signature för Java
 
 ## Introduktion

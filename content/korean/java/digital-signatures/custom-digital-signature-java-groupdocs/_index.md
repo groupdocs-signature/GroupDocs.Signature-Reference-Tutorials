@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java로 사용자 정의 디지털 서명 구현하기 - 포괄적인 가이드"
 "url": "/ko/java/digital-signatures/custom-digital-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java에서 사용자 정의 디지털 서명 구현
 
 오늘날의 디지털 시대에는 문서의 무결성과 진위성을 보장하는 것이 매우 중요합니다. 기존 서명 방식은 전자적으로 공유되는 문서의 적법성을 검증하는 데 종종 부족합니다. 이 종합 가이드에서는 다음을 사용하여 맞춤형 디지털 서명을 구현하는 방법을 안내합니다. **Java용 GroupDocs.Signature**디지털 문서의 보안과 전문성을 강화합니다.

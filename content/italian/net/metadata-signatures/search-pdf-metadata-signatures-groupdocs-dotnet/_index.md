@@ -4,8 +4,8 @@
 "title": "Cerca ed estrai le firme dei metadati PDF utilizzando GroupDocs in .NET"
 "url": "/it/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cerca ed estrai le firme dei metadati PDF utilizzando GroupDocs in .NET
 
 ## Introduzione

@@ -4,8 +4,8 @@
 "title": "البحث الفعال عن التوقيعات في ملفات الأرشيف باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # البحث الفعال عن التوقيعات في ملفات الأرشيف باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

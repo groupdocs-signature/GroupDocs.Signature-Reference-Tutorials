@@ -4,8 +4,8 @@
 "title": "Firma dei metadati master nei documenti Word tramite GroupDocs.Signature per Java"
 "url": "/it/java/metadata-signatures/master-metadata-signing-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la firma dei metadati nei documenti Word con GroupDocs.Signature per Java
 
 ## Introduzione

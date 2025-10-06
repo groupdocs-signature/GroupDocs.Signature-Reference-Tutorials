@@ -8,10 +8,8 @@ keywords:
 - remove image signatures
 - GroupDocs Signature for Java
 - delete digital signatures
-
+type: docs
 ---
-
-
 # How to Remove Image Signatures from Documents Using GroupDocs.Signature for Java
 
 Managing digital signatures is crucial for maintaining the integrity and authenticity of documents. Whether you're an enterprise managing contracts or a small business handling invoices, removing outdated or incorrect image signatures can streamline document management. This tutorial guides you through deleting image signatures by known IDs using GroupDocs.Signature for Java.

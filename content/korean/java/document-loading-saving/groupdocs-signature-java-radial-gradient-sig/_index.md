@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java로 멋진 방사형 그래디언트 서명 만들기"
 "url": "/ko/java/document-loading-saving/groupdocs-signature-java-radial-gradient-sig/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 시각적으로 매력적인 방사형 그라데이션 서명 만들기
 
 오늘날 디지털 세상에서 전자 문서 서명의 미적 요소는 기능만큼이나 중요합니다. 시각적으로 아름다운 서명은 업무의 전문성과 신뢰성을 모두 높여줍니다. 이 튜토리얼에서는 GroupDocs.Signature for Java를 사용하여 방사형 그라데이션 브러시 서명을 구현하는 방법을 안내합니다.

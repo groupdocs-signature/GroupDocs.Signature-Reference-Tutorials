@@ -4,8 +4,8 @@
 "title": "Cập nhật chữ ký PDF Java với GroupDocs.Signature - Hướng dẫn toàn diện dành cho nhà phát triển"
 "url": "/vi/java/signature-management/java-pdf-signature-updates-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ việc cập nhật chữ ký PDF Java với GroupDocs.Signature
 Trong thế giới số, việc đảm bảo an toàn tài liệu là tối quan trọng. Cho dù bạn là nhà phát triển quản lý hợp đồng hay tổ chức xử lý thông tin nhạy cảm, việc bảo mật tài liệu thông qua chữ ký là điều cần thiết. **GroupDocs.Signature cho Java** cung cấp giải pháp mạnh mẽ để thêm, chỉnh sửa và xác minh chữ ký trong PDF và các định dạng khác. Hướng dẫn này sẽ hướng dẫn bạn cách triển khai cập nhật chữ ký PDF bằng GroupDocs.Signature cho Java.
 

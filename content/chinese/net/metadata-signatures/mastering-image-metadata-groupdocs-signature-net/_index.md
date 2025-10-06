@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 掌握 .NET 中的图像元数据管理"
 "url": "/zh/net/metadata-signatures/mastering-image-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 .NET 中的图像元数据管理
 
 在当今的数字世界中，管理图像元数据对于法律文档验证和数字资产管理等各种应用至关重要。如果您希望简化 .NET 项目中图像元数据的处理方式，本指南将帮助您使用 GroupDocs.Signature for .NET——一款功能强大的工具，旨在增强您从图像中搜索和检索元数据签名的能力。

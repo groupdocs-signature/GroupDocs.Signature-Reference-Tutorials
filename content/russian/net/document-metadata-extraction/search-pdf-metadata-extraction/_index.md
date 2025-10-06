@@ -5,8 +5,8 @@
 "title": "Как извлечь подписи метаданных PDF-файла в .NET"
 "url": "/ru/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # Как извлекать и искать сигнатуры метаданных PDF-файла
 
 ## Почему метаданные PDF важны для ваших документов

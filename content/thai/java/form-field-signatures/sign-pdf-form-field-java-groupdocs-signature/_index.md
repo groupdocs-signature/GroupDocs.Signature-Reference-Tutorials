@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามใน PDF โดยใช้ลายเซ็น Form-Field ใน Java ด้วย GroupDocs.Signature"
 "url": "/th/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามใน PDF โดยใช้ลายเซ็นฟอร์มฟิลด์ใน Java ด้วย GroupDocs.Signature
 
 ## การแนะนำ

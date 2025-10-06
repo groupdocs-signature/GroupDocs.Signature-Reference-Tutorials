@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - delete text signatures in PDFs
 - search text signatures in PDF documents
-
+type: docs
 ---
-
-
 # Master GroupDocs.Signature for Java: Delete and Search Text Signatures in PDFs
 
 In today's digital era, managing electronic documents efficiently is crucial. One common challenge developers face is handling text signatures within PDF documents—whether it’s ensuring they are correctly applied or removing them when necessary. Enter **GroupDocs.Signature for Java**: a powerful library designed to handle these tasks with precision and ease. This tutorial will guide you through the process of deleting and searching for text signatures in PDFs using GroupDocs.Signature for Java.

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["encryption", "digital-signatures", "metadata", "security", "dotnet"]
+type: docs
 ---
-
 # Metadata Signature Encryption .NET
 
 ## Introduction

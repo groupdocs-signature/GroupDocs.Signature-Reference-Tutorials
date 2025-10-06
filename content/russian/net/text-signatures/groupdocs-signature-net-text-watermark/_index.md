@@ -4,8 +4,8 @@
 "title": "Защита документов с помощью текстовых водяных знаков с помощью GroupDocs.Signature для .NET. Подробное руководство"
 "url": "/ru/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать текстовые водяные знаки в документах с помощью GroupDocs.Signature для .NET
 
 ## Введение

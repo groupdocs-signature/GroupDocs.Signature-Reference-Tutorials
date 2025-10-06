@@ -4,8 +4,8 @@
 "title": "Implementace textového podpisu s plným štětcem v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # Implementace textového podpisu s plným štětcem v Javě
 
 ## Zavedení

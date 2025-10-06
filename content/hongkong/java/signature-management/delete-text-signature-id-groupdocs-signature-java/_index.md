@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 透過 ID 刪除文字簽章－綜合指南"
 "url": "/zh-hant/java/signature-management/delete-text-signature-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 按 ID 刪除文字簽名
 
 ## 介紹

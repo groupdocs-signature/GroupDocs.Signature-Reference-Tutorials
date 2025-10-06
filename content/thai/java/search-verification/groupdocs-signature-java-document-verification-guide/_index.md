@@ -4,8 +4,8 @@
 "title": "การตรวจสอบเอกสารหลักด้วย GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/search-verification/groupdocs-signature-java-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การตรวจสอบเอกสารด้วย GroupDocs.Signature สำหรับ Java
 
 ในโลกดิจิทัลปัจจุบัน การตรวจสอบความถูกต้องของเอกสารเป็นสิ่งสำคัญอย่างยิ่งต่อการรักษาความปลอดภัยและความน่าเชื่อถือในหลายภาคส่วน คู่มือนี้จะสอนวิธีการผสานรวมการตรวจสอบลายเซ็นข้อความ บาร์โค้ด และคิวอาร์โค้ดเข้ากับแอปพลิเคชันของคุณโดยใช้ GroupDocs.Signature สำหรับ Java

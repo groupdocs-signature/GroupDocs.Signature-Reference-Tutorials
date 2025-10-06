@@ -4,8 +4,8 @@
 "title": "Как подписать презентационные документы с метаданными с помощью GroupDocs.Signature для Java — Полное руководство"
 "url": "/ru/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # Полное руководство по подписанию презентационных документов с метаданными с помощью GroupDocs.Signature для Java
 
 ## Введение

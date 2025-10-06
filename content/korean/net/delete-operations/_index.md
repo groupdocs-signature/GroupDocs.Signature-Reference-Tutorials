@@ -5,8 +5,8 @@
 "title": "문서 서명 삭제 작업에 대한 완벽한 가이드"
 "url": "/ko/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature에서 삭제 작업
 
 ## 소개

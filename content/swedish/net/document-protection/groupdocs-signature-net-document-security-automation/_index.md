@@ -4,8 +4,8 @@
 "title": "Säkra och automatisera dokumentsignering med GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # Säkra och automatisera dokumentsignering med GroupDocs.Signature för .NET
 
 ## Introduktion

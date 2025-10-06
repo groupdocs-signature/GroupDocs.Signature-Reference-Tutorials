@@ -4,8 +4,8 @@
 "title": "Как реализовать цифровые подписи .NET с отметкой времени и сертификацией с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать цифровые подписи .NET с отметкой времени и сертификацией с помощью GroupDocs.Signature для .NET
 
 ## Введение

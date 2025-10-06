@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java ile Ana Belge Doğrulaması - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/search-verification/groupdocs-signature-java-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile Belge Doğrulamada Uzmanlaşma
 
 Günümüzün dijital dünyasında, çeşitli sektörlerde güvenlik ve güveni sağlamak için belge gerçekliğini doğrulamak hayati önem taşımaktadır. Bu kılavuz, GroupDocs.Signature for Java kullanarak metin, barkod ve QR kod imza doğrulamalarını uygulamalarınıza nasıl entegre edeceğinizi öğretmektedir.

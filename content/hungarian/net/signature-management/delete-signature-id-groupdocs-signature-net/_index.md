@@ -4,8 +4,8 @@
 "title": "Aláírások hatékony törlése azonosító alapján a GroupDocs.Signature for .NET használatával – lépésről lépésre útmutató"
 "url": "/hu/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Aláírás hatékony törlése azonosító alapján a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

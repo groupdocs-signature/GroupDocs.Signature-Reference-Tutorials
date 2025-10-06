@@ -4,8 +4,8 @@
 "title": "파일에서 Java 라이선스에 대한 GroupDocs.Signature 설정&#58; 포괄적인 가이드"
 "url": "/ko/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # 파일에서 Java 라이선스에 대한 GroupDocs.Signature 설정 - 단계별 튜토리얼
 
 ## 소개

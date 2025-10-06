@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["signature-updates", "document-signatures", "dotnet", "groupdocs"]
+type: docs
 ---
-
 ## Introduction
 
 Ever deployed a document with signatures only to realize the barcode needs updating, or that QR code now points to the wrong URL? You're not alone. In modern document workflows, the ability to update document signatures in .NET without recreating entire documents is essential (and can save you hours of rework).

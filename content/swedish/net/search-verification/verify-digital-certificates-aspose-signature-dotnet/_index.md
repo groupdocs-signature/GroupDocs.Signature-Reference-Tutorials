@@ -4,8 +4,8 @@
 "title": "Hur man verifierar digitala certifikat med Aspose.Signature för .NET | Steg-för-steg-guide"
 "url": "/sv/net/search-verification/verify-digital-certificates-aspose-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man verifierar digitala certifikat med Aspose.Signature för .NET
 
 ## Introduktion

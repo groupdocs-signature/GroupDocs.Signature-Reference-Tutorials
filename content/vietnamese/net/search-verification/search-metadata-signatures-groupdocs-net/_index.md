@@ -4,8 +4,8 @@
 "title": "Tìm kiếm chữ ký siêu dữ liệu trong tài liệu hình ảnh bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/search-verification/search-metadata-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách tìm kiếm chữ ký siêu dữ liệu trong tài liệu hình ảnh bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

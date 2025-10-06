@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके ID द्वारा बारकोड हस्ताक्षर कैसे अपडेट करें"
 "url": "/hi/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके ID द्वारा बारकोड हस्ताक्षर कैसे अपडेट करें
 
 ## परिचय

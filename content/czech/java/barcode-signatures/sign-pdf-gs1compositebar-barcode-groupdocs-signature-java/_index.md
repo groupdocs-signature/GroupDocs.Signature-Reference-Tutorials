@@ -4,8 +4,8 @@
 "title": "Podepisování PDF souborů kompozitními čárovými kódy GS1 pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF s kompozitními čárovými kódy GS1 pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

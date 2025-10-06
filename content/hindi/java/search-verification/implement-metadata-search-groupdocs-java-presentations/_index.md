@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ जावा प्रस्तुतियों में मेटाडेटा खोज कैसे लागू करें"
 "url": "/hi/java/search-verification/implement-metadata-search-groupdocs-java-presentations/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ जावा प्रस्तुतियों में मेटाडेटा खोज कैसे लागू करें
 
 ## परिचय

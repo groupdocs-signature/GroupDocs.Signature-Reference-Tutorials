@@ -5,8 +5,8 @@
 "title": "在 .NET 中輕鬆追蹤文件簽名歷史記錄"
 "url": "/zh-hant/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # 如何在 .NET 中追蹤文件的簽名歷史
 
 ## GroupDocs.Signature 能為您做些什麼？

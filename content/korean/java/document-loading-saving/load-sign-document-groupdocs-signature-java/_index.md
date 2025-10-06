@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58;를 사용하여 Java로 문서 로드 및 서명하기 - 포괄적인 가이드"
 "url": "/ko/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java에서 GroupDocs.Signature를 사용하여 문서 로드 및 서명
 
 ## 소개

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 在 DICOM 中进行二维码签名搜索——完整指南"
 "url": "/zh/net/qr-code-signatures/qr-code-signature-search-groupdocs-dotnet-dicom/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在多层图像中实现二维码签名搜索
 
 ## 介绍

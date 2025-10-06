@@ -4,8 +4,8 @@
 "title": "Dokumentum-ellenőrzés implementálása esemény-előfizetéssel Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum-ellenőrzés implementálása esemény-előfizetéssel GroupDocs.Signature for Java használatával
 
 ## Bevezetés

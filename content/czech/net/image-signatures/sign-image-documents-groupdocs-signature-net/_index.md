@@ -4,8 +4,8 @@
 "title": "Jak podepisovat obrazové dokumenty pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/image-signatures/sign-image-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat obrazový dokument pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

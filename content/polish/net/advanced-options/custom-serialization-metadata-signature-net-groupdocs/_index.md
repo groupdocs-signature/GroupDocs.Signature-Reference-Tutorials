@@ -4,8 +4,8 @@
 "title": "Niestandardowa serializacja i wyszukiwanie metadanych w .NET przy użyciu GroupDocs.Signature"
 "url": "/pl/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja niestandardowej serializacji i wyszukiwania podpisów metadanych za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "PDF'lerinizin QR Kod İmzalarını ve Parola Korumasını GroupDocs.Signature for Java ile Güvence Altına Alın"
 "url": "/tr/java/document-protection/groupdocs-signature-java-pdf-security-guide/"
 "weight": 1
+type: docs
 ---
-
 # PDF'lerinizi Güvence Altına Alın: GroupDocs.Signature for Java ile QR Kod İmzaları ve Parola Koruması
 
 Günümüzün dijital çağında, hassas bilgileri yönetmek ve dosya gerçekliğini sağlamak için PDF belgelerinin güvenliğini sağlamak hayati önem taşımaktadır. Bu kılavuz, PDF'lerinize QR kod imzaları ve parola koruması eklemek için GroupDocs.Signature for Java'yı nasıl kullanacağınızı gösterecektir.

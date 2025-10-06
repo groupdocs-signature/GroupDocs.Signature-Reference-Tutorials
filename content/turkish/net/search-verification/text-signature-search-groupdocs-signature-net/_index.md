@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak .NET Belgelerinde Ana Metin İmza Araması"
 "url": "/tr/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak .NET Belgelerinde Metin İmza Aramada Ustalaşma
 
 ## giriiş

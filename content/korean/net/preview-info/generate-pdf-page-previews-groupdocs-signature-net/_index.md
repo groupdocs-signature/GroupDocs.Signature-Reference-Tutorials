@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 PDF 페이지 미리보기 생성하기&#58; 종합 가이드"
 "url": "/ko/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 PDF 페이지 미리보기 생성: 포괄적인 가이드
 
 ## 소개

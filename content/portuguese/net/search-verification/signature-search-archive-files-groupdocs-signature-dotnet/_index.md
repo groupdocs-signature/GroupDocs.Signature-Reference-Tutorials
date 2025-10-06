@@ -4,8 +4,8 @@
 "title": "Pesquisa de assinatura eficiente em arquivos compactados usando GroupDocs.Signature para .NET"
 "url": "/pt/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Pesquisa de assinatura eficiente em arquivos compactados usando GroupDocs.Signature para .NET
 
 ## Introdução

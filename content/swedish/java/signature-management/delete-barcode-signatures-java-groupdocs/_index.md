@@ -4,8 +4,8 @@
 "title": "Hur man tar bort streckkodssignaturer i Java med GroupDocs.Signature"
 "url": "/sv/java/signature-management/delete-barcode-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Hur man tar bort streckkodssignaturer i Java med GroupDocs.Signature
 
 ## Introduktion

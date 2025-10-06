@@ -5,8 +5,8 @@
 "title": "Zvládnutí více podpisů dokumentů v .NET – kompletní průvodce"
 "url": "/cs/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## Zabezpečte své dokumenty pomocí více typů podpisů
 
 Potřebovali jste někdy použít různé typy podpisů na jeden dokument? Ať už pracujete s citlivými smlouvami, právními dokumenty nebo firemními dokumenty, kombinace více typů podpisů může výrazně zvýšit zabezpečení i autenticitu. V této příručce si přesně ukážeme, jak tuto výkonnou funkci implementovat pomocí GroupDocs.Signature pro .NET.

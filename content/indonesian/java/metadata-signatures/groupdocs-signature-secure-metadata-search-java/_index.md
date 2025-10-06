@@ -4,8 +4,8 @@
 "title": "Pencarian dan Ekstraksi Tanda Tangan Metadata Aman Menggunakan GroupDocs untuk Java"
 "url": "/id/java/metadata-signatures/groupdocs-signature-secure-metadata-search-java/"
 "weight": 1
+type: docs
 ---
-
 # Pencarian dan Ekstraksi Tanda Tangan Metadata Aman Menggunakan GroupDocs untuk Java
 
 ## Perkenalan

@@ -5,8 +5,8 @@
 "title": "Átfogó oktatóanyagok és példák a GroupDocs.Signature for .NET-hez"
 "url": "/hu/net/"
 "weight": 10
+type: docs
 ---
-
 ## Bevezetés
 
 Üdvözöljük a GroupDocs.Signature for .NET átfogó útmutatójában – ez egy hatékony dokumentum-aláírási megoldás, amely lehetővé teszi a fejlesztők számára, hogy biztonságos digitális aláírásokat valósítsanak meg több dokumentumformátumban. Ez a részletes oktatóanyagokat és gyakorlati példákat tartalmazó gyűjtemény segít kiaknázni az API teljes potenciálját .NET alkalmazásaiban.

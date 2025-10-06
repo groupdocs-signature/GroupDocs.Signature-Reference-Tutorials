@@ -4,8 +4,8 @@
 "title": "Como cancelar a verificação de documentos usando o GroupDocs.Signature para o guia de tratamento de eventos .NET"
 "url": "/pt/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Como cancelar a verificação de documentos usando GroupDocs.Signature para .NET: Guia de tratamento de eventos
 
 ## Introdução

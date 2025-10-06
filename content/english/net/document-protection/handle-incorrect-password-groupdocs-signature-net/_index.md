@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["exception-handling", "password-security", "groupdocs", "csharp"]
+type: docs
 ---
-
 # How to Handle Password Exceptions in .NET
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "掌握 GroupDocs.Signature for .NET 文档签名的综合指南"
 "url": "/zh/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 掌握文档签名
 
 ## 介绍

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 掌握 PDF 中具有自定义外观的数字签名"
 "url": "/zh/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 掌握 PDF 中自定义外观的数字签名
 
 ## 介绍

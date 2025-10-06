@@ -4,8 +4,8 @@
 "title": "Memuat dan Menandatangani Dokumen yang Dilindungi Kata Sandi Menggunakan Kode QR di Java dengan GroupDocs.Signature"
 "url": "/id/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Memuat & Menandatangani Dokumen yang Dilindungi Kata Sandi dengan Kode QR di Java
 
 ## Cara Memuat dan Menandatangani Dokumen yang Dilindungi Kata Sandi Menggunakan GroupDocs.Signature untuk Java

@@ -5,8 +5,8 @@
 "title": "Εξαγωγή μεταδεδομένων υπολογιστικού φύλλου εύκολα με το GroupDocs.Signature"
 "url": "/el/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # Πώς να εξαγάγετε μεταδεδομένα από υπολογιστικά φύλλα χρησιμοποιώντας το GroupDocs.Signature
 
 ## Γιατί έχουν σημασία τα μεταδεδομένα υπολογιστικών φύλλων

@@ -4,8 +4,8 @@
 "title": "การค้นหาลายเซ็น QR Code ใน DICOM ด้วย GroupDocs.Signature สำหรับ .NET&#58; คู่มือฉบับสมบูรณ์"
 "url": "/th/net/qr-code-signatures/qr-code-signature-search-groupdocs-dotnet-dicom/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้การค้นหาลายเซ็น QR Code ในรูปภาพหลายชั้นโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

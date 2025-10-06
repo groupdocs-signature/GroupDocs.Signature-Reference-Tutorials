@@ -9,8 +9,8 @@ weight: 1
 url: "/java/advanced-options/download-files-amazon-s3-aws-sdk-java-groupdocs-signature/"
 categories: ["Java Development", "AWS Integration"]
 tags: ["aws-s3", "java", "file-download", "cloud-storage", "groupdocs"]
+type: docs
 ---
-
 # Java S3 File Download Tutorial - Step-by-Step Guide with AWS SDK
 
 ## Introduction

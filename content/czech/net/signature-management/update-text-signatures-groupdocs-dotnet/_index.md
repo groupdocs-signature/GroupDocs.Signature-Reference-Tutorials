@@ -4,8 +4,8 @@
 "title": "Jak aktualizovat textové podpisy v dokumentech pomocí GroupDocs.Signature pro .NET – kompletní průvodce"
 "url": "/cs/net/signature-management/update-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak aktualizovat textové podpisy v dokumentech pomocí GroupDocs.Signature pro .NET: Kompletní průvodce
 
 ## Zavedení

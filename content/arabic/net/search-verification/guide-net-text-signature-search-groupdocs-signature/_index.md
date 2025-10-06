@@ -4,8 +4,8 @@
 "title": "إتقان البحث عن توقيعات النصوص في .NET باستخدام GroupDocs.Signature&#58; دليل خطوة بخطوة"
 "url": "/ar/net/search-verification/guide-net-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # إتقان البحث عن توقيعات النصوص في .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

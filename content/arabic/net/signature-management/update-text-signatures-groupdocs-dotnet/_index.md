@@ -4,8 +4,8 @@
 "title": "كيفية تحديث التوقيعات النصية في المستندات باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/signature-management/update-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تحديث التوقيعات النصية في المستندات باستخدام GroupDocs.Signature لـ .NET: دليل شامل
 
 ## مقدمة

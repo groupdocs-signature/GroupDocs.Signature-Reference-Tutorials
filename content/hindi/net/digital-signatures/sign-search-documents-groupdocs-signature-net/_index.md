@@ -4,8 +4,8 @@
 "title": ".NET में डिजिटल हस्ताक्षर में महारत हासिल करें&#58; दस्तावेज़ों पर हस्ताक्षर करने और खोजने के लिए GroupDocs.Signature का उपयोग कैसे करें"
 "url": "/hi/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET में डिजिटल हस्ताक्षर में महारत हासिल करें: दस्तावेज़ों पर हस्ताक्षर करने और खोजने के लिए GroupDocs.Signature का उपयोग कैसे करें
 
 ## परिचय

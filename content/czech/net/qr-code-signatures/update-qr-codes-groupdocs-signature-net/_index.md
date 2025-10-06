@@ -4,8 +4,8 @@
 "title": "Aktualizace QR kódů v .NET pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/net/qr-code-signatures/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Aktualizace QR kódů v .NET pomocí GroupDocs.Signature: Komplexní průvodce
 
 ## Zavedení

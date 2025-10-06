@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して暗号通貨 QR コードで PDF に署名する包括的なガイド"
 "url": "/ja/net/qr-code-signatures/sign-pdf-crypto-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET で暗号通貨 QR コードを使用して PDF 文書に署名する方法
 
 ## 導入

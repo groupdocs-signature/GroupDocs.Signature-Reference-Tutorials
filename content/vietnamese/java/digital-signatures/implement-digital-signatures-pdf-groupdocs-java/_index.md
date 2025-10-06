@@ -4,8 +4,8 @@
 "title": "Cách triển khai chữ ký số trong tệp PDF bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/digital-signatures/implement-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký số trong tệp PDF bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/digital-signatures/groupdocs-signature-for-net-pdf-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

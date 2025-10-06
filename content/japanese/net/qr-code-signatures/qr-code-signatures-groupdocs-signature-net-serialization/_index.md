@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用してカスタムシリアル化で .NET に QR コード署名を実装する"
 "url": "/ja/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して .NET でカスタム シリアル化による QR コード署名を実装する
 
 ## 導入

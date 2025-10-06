@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามเอกสารด้วยตราประทับข้อความโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามเอกสารด้วยตราประทับข้อความโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

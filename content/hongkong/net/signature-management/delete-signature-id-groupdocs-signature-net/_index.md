@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 高效刪除 ID 簽章－逐步指南"
 "url": "/zh-hant/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 有效率地按 ID 刪除簽名
 
 ## 介紹

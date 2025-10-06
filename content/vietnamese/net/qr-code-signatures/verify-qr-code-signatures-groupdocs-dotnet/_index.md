@@ -4,8 +4,8 @@
 "title": "Cách xác minh chữ ký mã QR trong .NET bằng GroupDocs.Signature"
 "url": "/vi/net/qr-code-signatures/verify-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai xác minh chữ ký mã QR bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "นำการค้นหาลายเซ็น QR Code ไปใช้งานในรูปภาพหลายชั้นโดยใช้ Java และ GroupDocs.Signature"
 "url": "/th/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำการค้นหาลายเซ็น QR Code ไปใช้งานในเอกสารภาพหลายชั้นโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

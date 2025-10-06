@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak PDF'lerdeki Metin İmzalarını Güncelleme - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/signature-management/update-text-signatures-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak PDF'lerdeki Metin İmzalarını Güncelleme
 
 ## giriiş

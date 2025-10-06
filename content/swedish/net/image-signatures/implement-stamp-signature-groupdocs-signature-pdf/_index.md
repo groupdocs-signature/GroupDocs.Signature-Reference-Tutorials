@@ -4,8 +4,8 @@
 "title": "Hur man implementerar stämpelsignaturer på PDF-filer med GroupDocs.Signature för .NET"
 "url": "/sv/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar stämpelsignaturer på PDF-filer med GroupDocs.Signature för .NET
 
 ## Introduktion

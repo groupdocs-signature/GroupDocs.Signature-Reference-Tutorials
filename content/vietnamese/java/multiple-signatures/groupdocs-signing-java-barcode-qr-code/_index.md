@@ -4,8 +4,8 @@
 "title": "Triển khai mã vạch và mã QR trong Java bằng GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/java/multiple-signatures/groupdocs-signing-java-barcode-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký mã vạch và mã QR trong Java với GroupDocs.Signature
 
 Trong bối cảnh kỹ thuật số ngày nay, việc đảm bảo tính toàn vẹn của tài liệu là vô cùng quan trọng. Cho dù quản lý hợp đồng pháp lý, hóa đơn hay nhãn lô hàng, việc duy trì tính xác thực là điều cần thiết. **GroupDocs.Signature cho Java** đơn giản hóa quy trình này bằng cách cho phép tích hợp mã vạch và mã QR liền mạch vào tài liệu. Hướng dẫn toàn diện này sẽ hướng dẫn bạn cách triển khai chữ ký mã vạch và mã QR bằng GroupDocs.Signature cho Java.

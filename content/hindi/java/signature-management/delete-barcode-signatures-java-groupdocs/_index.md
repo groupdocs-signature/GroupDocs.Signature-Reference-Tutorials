@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में बारकोड हस्ताक्षर कैसे हटाएँ"
 "url": "/hi/java/signature-management/delete-barcode-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके जावा में बारकोड हस्ताक्षर कैसे हटाएँ
 
 ## परिचय

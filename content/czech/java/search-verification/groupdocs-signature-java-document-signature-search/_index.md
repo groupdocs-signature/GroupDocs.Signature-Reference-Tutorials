@@ -4,8 +4,8 @@
 "title": "Zvládnutí vyhledávání podpisů dokumentů pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vyhledávání podpisů dokumentů pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

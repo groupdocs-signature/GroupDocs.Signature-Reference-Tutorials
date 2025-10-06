@@ -4,8 +4,8 @@
 "title": "Extrahieren Sie VCard aus PDF-QR-Codes mit GroupDocs.Signature für Java – Ein umfassender Leitfaden"
 "url": "/de/java/qr-code-signatures/extract-vcard-pdf-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Extrahieren Sie VCard-Daten aus PDF-QR-Codes mit GroupDocs.Signature für Java
 
 ## Einführung

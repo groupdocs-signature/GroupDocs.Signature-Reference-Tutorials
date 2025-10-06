@@ -5,8 +5,8 @@
 "title": "Maîtriser les signatures multiples de documents dans .NET - Guide complet"
 "url": "/fr/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## Sécurisez vos documents avec plusieurs types de signature
 
 Avez-vous déjà eu besoin d'appliquer différents types de signatures à un même document ? Que vous traitiez des contrats sensibles, des documents juridiques ou des documents d'entreprise, combiner plusieurs types de signatures peut améliorer considérablement la sécurité et l'authenticité. Dans ce guide, nous vous expliquerons précisément comment implémenter cette puissante fonctionnalité avec GroupDocs.Signature pour .NET.

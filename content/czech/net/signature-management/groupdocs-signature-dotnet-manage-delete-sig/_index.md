@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature pro .NET – Správa a mazání podpisů dokumentů"
 "url": "/cs/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí správy podpisů v .NET s GroupDocs.Signature
 
 ## Zavedení

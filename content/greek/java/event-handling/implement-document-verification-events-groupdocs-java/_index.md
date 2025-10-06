@@ -4,8 +4,8 @@
 "title": "Υλοποίηση επαλήθευσης εγγράφων με εγγραφή σε συμβάν σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση επαλήθευσης εγγράφων με εγγραφή σε συμβάν χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

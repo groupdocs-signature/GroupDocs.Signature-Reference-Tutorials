@@ -4,8 +4,8 @@
 "title": "อัปเดตและค้นหาลายเซ็นภาพใน PDF โดยใช้ Java กับ GroupDocs.Signature"
 "url": "/th/java/signature-management/update-search-image-signatures-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # อัปเดตและค้นหาลายเซ็นภาพใน PDF ด้วย Java
 
 ## การแนะนำ

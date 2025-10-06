@@ -4,8 +4,8 @@
 "title": "Digitale handtekeningen in PDF's verwijderen met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/signature-management/delete-digital-signature-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Digitale handtekeningen in PDF's verwijderen met GroupDocs.Signature voor .NET
 
 ## Invoering

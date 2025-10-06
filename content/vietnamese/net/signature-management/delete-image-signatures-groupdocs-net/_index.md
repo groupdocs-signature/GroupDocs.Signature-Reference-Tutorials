@@ -4,8 +4,8 @@
 "title": "Cách xóa chữ ký hình ảnh trong .NET bằng GroupDocs.Signature - Hướng dẫn từng bước"
 "url": "/vi/net/signature-management/delete-image-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa chữ ký hình ảnh trong .NET bằng GroupDocs.Signature: Hướng dẫn từng bước
 
 Trong bối cảnh kỹ thuật số ngày nay, việc quản lý chữ ký tài liệu là rất quan trọng để duy trì tính bảo mật và tính xác thực trong hoạt động kinh doanh. Nếu bạn đang xử lý các tài liệu chứa nhiều chữ ký hình ảnh, việc quản lý hiệu quả có thể tiết kiệm cả thời gian và nguồn lực. Hướng dẫn toàn diện này sẽ hướng dẫn bạn cách sử dụng **GroupDocs.Signature cho .NET** để khởi tạo một phiên bản chữ ký, tìm kiếm chữ ký hình ảnh và xóa các chữ ký cụ thể dựa trên các điều kiện nhất định. Đến cuối hướng dẫn này, bạn sẽ nắm vững cách hợp lý hóa quy trình này một cách hiệu quả.

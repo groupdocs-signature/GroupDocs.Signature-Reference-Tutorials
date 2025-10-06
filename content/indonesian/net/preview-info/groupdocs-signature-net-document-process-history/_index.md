@@ -4,8 +4,8 @@
 "title": "Cara Mengambil Riwayat Proses Dokumen dengan GroupDocs.Signature untuk .NET&#58; Panduan Langkah demi Langkah"
 "url": "/id/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mengambil Riwayat Proses Dokumen dengan GroupDocs.Signature untuk .NET: Panduan Langkah demi Langkah
 
 ## Perkenalan

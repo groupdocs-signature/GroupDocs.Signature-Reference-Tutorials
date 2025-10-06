@@ -4,8 +4,8 @@
 "title": "Wdrażanie niestandardowego szyfrowania XOR w Javie za pomocą GroupDocs.Signature™ – przewodnik krok po kroku"
 "url": "/pl/java/advanced-options/implement-custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć niestandardowe szyfrowanie XOR w Javie za pomocą GroupDocs.Signature: Przewodnik krok po kroku
 
 ## Wstęp

@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 進階簽章選項教學課程"
 "url": "/zh-hant/java/advanced-options/"
 "weight": 14
+type: docs
 ---
-
 # GroupDocs.Signature Java 進階簽章選項教學課程
 
 透過我們針對 Java 開發者的全面 GroupDocs.Signature 教程，探索進階簽名功能。這些詳細的指南涵蓋了自訂加密、專業序列化、複雜外觀設定、自訂畫筆和漸變、使用各種測量單位定位、對齊選項和拉伸模式等內容。每個教學課程都提供了用於複雜簽章功能的 Java 程式碼範例，幫助您建立充分利用 GroupDocs.Signature 高級功能的文件解決方案，從而實現高度客製化且安全的文件簽章。

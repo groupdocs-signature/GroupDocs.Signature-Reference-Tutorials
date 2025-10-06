@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในเอกสารด้วย XAdES ใน Java โดยใช้ GroupDocs ลายเซ็น&#58; คำแนะนำทีละขั้นตอน"
 "url": "/th/java/digital-signatures/sign-documents-xades-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามเอกสารด้วย XAdES ใน Java โดยใช้ GroupDocs.Signature: คำแนะนำทีละขั้นตอน
 
 ## การแนะนำ

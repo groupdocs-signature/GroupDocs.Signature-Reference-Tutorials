@@ -4,8 +4,8 @@
 "title": "Αποτελεσματική Διαχείριση Υπογραφών&#58; Πώς να Αναζητήσετε και να Διαγράψετε Ψηφιακές Υπογραφές Χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Αποτελεσματική διαχείριση υπογραφών: Πώς να αναζητήσετε και να διαγράψετε ψηφιακές υπογραφές χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 스프레드시트에 효율적으로 서명하고 PDF로 변환"
 "url": "/ko/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 스프레드시트에 효율적으로 서명하고 PDF로 변환
 
 ## 소개

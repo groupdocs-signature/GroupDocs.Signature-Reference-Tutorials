@@ -4,8 +4,8 @@
 "title": "在 .NET 中为 GroupDocs.Signature 设置许可证文件——分步指南"
 "url": "/zh/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # 在 .NET 中为 GroupDocs.Signature 设置许可证文件：分步指南
 
 ## 介绍

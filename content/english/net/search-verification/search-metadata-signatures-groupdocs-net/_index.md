@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["metadata", "image-processing", "digital-signatures", "groupdocs"]
+type: docs
 ---
-
 # How to Extract Image Metadata in .NET Using GroupDocs.Signature
 
 ## Introduction

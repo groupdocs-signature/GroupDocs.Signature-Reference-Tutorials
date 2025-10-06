@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak PDF'lerden Dijital İmzalar Nasıl Silinir?"
 "url": "/tr/java/signature-management/delete-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak PDF'den Dijital İmzalar Nasıl Kaldırılır
 
 ## giriiş

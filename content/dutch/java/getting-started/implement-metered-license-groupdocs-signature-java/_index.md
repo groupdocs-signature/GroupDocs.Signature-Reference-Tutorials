@@ -4,8 +4,8 @@
 "title": "Implementeer een gemeterde licentie in GroupDocs.Signature voor Java&#58; een stapsgewijze handleiding"
 "url": "/nl/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hoe implementeer je een gemeten licentie in GroupDocs.Signature voor Java
 
 ## Invoering

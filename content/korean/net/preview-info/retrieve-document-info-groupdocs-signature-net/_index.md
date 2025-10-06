@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 문서 정보를 검색하는 방법"
 "url": "/ko/net/preview-info/retrieve-document-info-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 문서 정보를 검색하는 방법
 
 ## 소개

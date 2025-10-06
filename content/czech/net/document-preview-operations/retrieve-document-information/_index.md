@@ -5,8 +5,8 @@
 "title": "Jak načíst informace o dokumentu pomocí GroupDocs.Signature"
 "url": "/cs/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # Jak načíst informace o dokumentu pomocí GroupDocs.Signature
 
 ## Zavedení

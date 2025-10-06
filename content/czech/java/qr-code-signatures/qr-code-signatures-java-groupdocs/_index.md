@@ -4,8 +4,8 @@
 "title": "Zabezpečte své dokumenty – implementujte podpisy QR kódů v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/qr-code-signatures/qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Zabezpečení dokumentů: Implementace podpisů QR kódů v Javě pomocí GroupDocs.Signature
 
 dnešní digitální krajině je zajištění bezpečnosti dokumentů, jako jsou smlouvy, faktury nebo citlivé osobní údaje, klíčové. Jedním z inovativních přístupů ke zvýšení zabezpečení dokumentů a zjednodušení procesů ověřování je použití podpisů QR kódem. Tento tutoriál vás provede implementací a ověřováním podpisů QR kódem pro vaše dokumenty v Javě pomocí GroupDocs.Signature.

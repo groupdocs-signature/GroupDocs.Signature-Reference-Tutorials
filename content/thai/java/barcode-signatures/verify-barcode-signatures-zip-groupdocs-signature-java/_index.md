@@ -4,8 +4,8 @@
 "title": "ตรวจสอบลายเซ็นบาร์โค้ดในไฟล์ ZIP โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # ตรวจสอบลายเซ็นบาร์โค้ดในไฟล์ ZIP โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

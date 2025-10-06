@@ -4,8 +4,8 @@
 "title": "Cách trích xuất dữ liệu HIBC PAS từ mã QR bằng Java và GroupDocs.Signature"
 "url": "/vi/java/qr-code-signatures/extract-hibc-pas-data-qr-codes-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách trích xuất dữ liệu HIBC PAS từ mã QR bằng Java và GroupDocs.Signature
 
 **Giới thiệu**

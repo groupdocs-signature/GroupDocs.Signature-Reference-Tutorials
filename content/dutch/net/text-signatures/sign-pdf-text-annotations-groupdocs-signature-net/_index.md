@@ -4,8 +4,8 @@
 "title": "PDF-documenten ondertekenen met tekstannotaties met GroupDocs.Signature voor .NET"
 "url": "/nl/net/text-signatures/sign-pdf-text-annotations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF-documenten ondertekenen met tekstannotaties met GroupDocs.Signature voor .NET
 
 ## Invoering

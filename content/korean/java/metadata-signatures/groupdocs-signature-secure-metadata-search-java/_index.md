@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs를 사용한 보안 메타데이터 서명 검색 및 추출"
 "url": "/ko/java/metadata-signatures/groupdocs-signature-secure-metadata-search-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs를 사용한 보안 메타데이터 서명 검색 및 추출
 
 ## 소개

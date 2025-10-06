@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके टेक्स्ट स्टिकर के साथ PDF पर हस्ताक्षर कैसे करें | एक चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके एक टेक्स्ट स्टिकर के साथ एक PDF दस्तावेज़ पर हस्ताक्षर कैसे करें
 
 ## परिचय

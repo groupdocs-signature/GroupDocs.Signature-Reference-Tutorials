@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak Kripto Para QR Koduyla PDF İmzalama - Kapsamlı Bir Kılavuz"
 "url": "/tr/net/qr-code-signatures/sign-pdf-crypto-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Kripto Para QR Kodlarını Kullanarak Bir PDF Belgesini Nasıl İmzalayabilirsiniz?
 
 ## giriiş

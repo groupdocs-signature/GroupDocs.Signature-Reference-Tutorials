@@ -5,8 +5,8 @@
 "title": "Jak odstranit podpisy QR kódů z dokumentů v .NET"
 "url": "/cs/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # Jak odstranit podpisy QR kódů z dokumentů
 
 ## Zavedení

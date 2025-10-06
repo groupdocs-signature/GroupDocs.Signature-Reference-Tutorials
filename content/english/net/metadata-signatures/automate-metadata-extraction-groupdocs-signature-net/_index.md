@@ -9,8 +9,8 @@ weight: 1
 url: "/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 categories: ["Document Processing"]
 tags: ["metadata-extraction", "spreadsheets", "dotnet", "groupdocs", "automation"]
+type: docs
 ---
-
 # How to Extract Metadata from Spreadsheets in .NET
 
 ## Why Manual Metadata Extraction is Killing Your Productivity

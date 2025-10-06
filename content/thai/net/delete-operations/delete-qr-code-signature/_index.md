@@ -5,8 +5,8 @@
 "title": "วิธีการลบลายเซ็น QR Code จากเอกสารใน .NET"
 "url": "/th/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # วิธีการลบลายเซ็น QR Code จากเอกสารของคุณ
 
 ## การแนะนำ

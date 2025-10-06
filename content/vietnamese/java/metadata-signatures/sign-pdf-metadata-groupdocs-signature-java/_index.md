@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng siêu dữ liệu bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/metadata-signatures/sign-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF bằng siêu dữ liệu bằng GroupDocs.Signature cho Java
 
 Trong bối cảnh kỹ thuật số ngày nay, việc đảm bảo tính toàn vẹn và xác thực của tài liệu là vô cùng quan trọng. Nếu bạn đang xử lý các tệp PDF yêu cầu lớp bảo mật thông qua chữ ký, hướng dẫn này sẽ hướng dẫn bạn cách ký tài liệu PDF bằng siêu dữ liệu như tên tác giả, ngày tạo, ID tài liệu và ID chữ ký với GroupDocs.Signature cho Java.

@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature का उपयोग करके PDF में कस्टम QR-कोड क्रमांकन और एन्क्रिप्शन लागू करें"
 "url": "/hi/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके PDF में कस्टम QR-कोड क्रमांकन और एन्क्रिप्शन कैसे लागू करें
 
 ## परिचय

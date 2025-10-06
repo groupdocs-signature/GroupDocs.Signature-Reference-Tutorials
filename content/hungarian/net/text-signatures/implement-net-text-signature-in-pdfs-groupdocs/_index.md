@@ -4,8 +4,8 @@
 "title": ".NET szöveges aláírás implementálása PDF-ekben a GroupDocs.Signature használatával – Átfogó útmutató"
 "url": "/hu/net/text-signatures/implement-net-text-signature-in-pdfs-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET szöveges aláírás implementálása PDF-ekben a GroupDocs.Signature használatával
 ## Bevezetés
 A mai digitális világban a dokumentumok hitelességének és integritásának biztosítása kulcsfontosságú az összes iparágban. A biztonságos elektronikus aláírások hatékony hozzáadása a PDF dokumentumokhoz kihívást jelenthet. Enter **GroupDocs.Signature .NET-hez**– egy hatékony könyvtár, amelyet e folyamat egyszerűsítésére terveztek. Ebben az átfogó útmutatóban végigvezetünk azon, hogyan adhatsz hozzá szöveges aláírást PDF-fájljaidhoz gyorsan és biztonságosan.

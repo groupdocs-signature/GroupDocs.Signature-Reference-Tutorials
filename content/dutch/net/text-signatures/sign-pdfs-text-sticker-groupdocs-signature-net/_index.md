@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met tekststickers met GroupDocs.Signature voor .NET | Een stapsgewijze handleiding"
 "url": "/nl/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF-document ondertekenen met een tekststicker met GroupDocs.Signature voor .NET
 
 ## Invoering

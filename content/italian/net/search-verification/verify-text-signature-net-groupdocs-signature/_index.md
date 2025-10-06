@@ -4,8 +4,8 @@
 "title": "Come verificare le firme di testo in .NET utilizzando GroupDocs.Signature&#58; una guida completa"
 "url": "/it/net/search-verification/verify-text-signature-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare la verifica della firma del testo in .NET utilizzando GroupDocs.Signature
 
 ## Introduzione

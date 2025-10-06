@@ -4,8 +4,8 @@
 "title": "كيفية البحث عن التوقيعات الرقمية في ملفات PDF باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/search-verification/search-pdfs-digital-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية البحث عن التوقيعات الرقمية في ملفات PDF باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

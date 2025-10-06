@@ -4,8 +4,8 @@
 "title": "Menguasai Pengambilan Properti Dokumen dengan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pengambilan Properti Dokumen dengan GroupDocs.Signature untuk Java
 Manfaatkan kekuatan manajemen dokumen dengan memanfaatkan GroupDocs.Signature for Java untuk mengambil dan mencetak properti dokumen seperti format, ukuran, jumlah halaman, dan lainnya dengan mudah. Tutorial komprehensif ini akan memandu Anda dalam menyiapkan lingkungan, mengimplementasikan berbagai fungsi, dan menerapkan kemampuan ini dalam skenario dunia nyata.
 

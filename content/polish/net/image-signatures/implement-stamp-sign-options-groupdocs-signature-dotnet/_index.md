@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć opcje podpisu pieczątką za pomocą GroupDocs.Signature dla .NET? Kompleksowy przewodnik"
 "url": "/pl/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć opcje podpisu pieczątką za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

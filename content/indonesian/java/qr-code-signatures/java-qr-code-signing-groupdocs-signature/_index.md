@@ -4,8 +4,8 @@
 "title": "Panduan Penandatanganan Kode QR Java&#58; Amankan Dokumen Anda dengan GroupDocs.Signature"
 "url": "/id/java/qr-code-signatures/java-qr-code-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Penandatanganan Kode QR Java dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Beheers het zoeken naar handtekeningen in afbeeldingen in documenten met GroupDocs voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # Meesterlijke zoekopdrachten naar afbeeldingshandtekeningen in documenten met GroupDocs voor Java: een uitgebreide handleiding
 
 ## Invoering

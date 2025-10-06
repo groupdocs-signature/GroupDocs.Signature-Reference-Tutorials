@@ -3,8 +3,8 @@
 "title": "Tutoriales de firma de código de barras para GroupDocs.Signature Java"
 "url": "/es/java/barcode-signatures/"
 "weight": 4
+type: docs
 ---
-
 # Tutoriales de firma de código de barras para GroupDocs.Signature Java
 
 Nuestros tutoriales de firmas de código de barras ofrecen una guía detallada para implementar firmas basadas en códigos de barras en sus aplicaciones Java. Siga estas guías prácticas para aprender a firmar documentos con distintos tipos de códigos de barras, personalizar su apariencia, buscar códigos de barras en documentos existentes, actualizar o eliminar firmas de código de barras y verificar su contenido. Estos tutoriales incluyen ejemplos completos de código Java para operaciones comunes con códigos de barras, lo que le ayudará a crear aplicaciones que puedan codificar y verificar de forma segura la información de los documentos mediante la tecnología de códigos de barras.

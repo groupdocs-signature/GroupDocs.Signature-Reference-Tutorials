@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF Menggunakan Tanda Tangan Bidang Formulir di C# dengan GroupDocs.Signature untuk .NET"
 "url": "/id/net/form-field-signatures/sign-pdf-form-field-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF Menggunakan Tanda Tangan Bidang Formulir dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

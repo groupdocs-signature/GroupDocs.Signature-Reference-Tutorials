@@ -5,8 +5,8 @@
 "title": "Thêm chữ ký siêu dữ liệu vào tài liệu PDF trong C# .NET"
 "url": "/vi/net/document-signing/sign-pdf-with-metadata/"
 "weight": 11
+type: docs
 ---
-
 ## Giới thiệu
 
 Tài liệu PDF (Định dạng Tài liệu Di động) được sử dụng rộng rãi trong nhiều ngành nghề nhờ tính nhất quán và tính độc lập với nền tảng. Việc đảm bảo tính xác thực và khả năng truy xuất nguồn gốc của các tài liệu này là rất quan trọng trong nhiều môi trường chuyên nghiệp. Một cách hiệu quả để đạt được điều này là nhúng siêu dữ liệu vào chính các tệp PDF.

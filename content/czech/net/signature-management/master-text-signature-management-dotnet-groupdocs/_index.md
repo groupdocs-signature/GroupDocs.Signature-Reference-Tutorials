@@ -4,8 +4,8 @@
 "title": "Správa hlavních textových podpisů v .NET pomocí GroupDocs.Signature"
 "url": "/cs/net/signature-management/master-text-signature-management-dotnet-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí správy textových podpisů v .NET s GroupDocs.Signature
 
 ## Zavedení

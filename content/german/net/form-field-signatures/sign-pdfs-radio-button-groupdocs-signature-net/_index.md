@@ -4,8 +4,8 @@
 "title": "So signieren Sie PDFs mithilfe von Optionsfeld-Formularfeldern mit GroupDocs.Signature für .NET"
 "url": "/de/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie eine PDF-Datei mithilfe von Optionsfeld-Formularfeldern mit GroupDocs.Signature für .NET
 
 ## Einführung

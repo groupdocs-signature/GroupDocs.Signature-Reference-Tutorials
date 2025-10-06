@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके .NET में टेक्स्ट हस्ताक्षर और रेडियल ग्रेडिएंट के साथ PDF पर हस्ताक्षर कैसे करें"
 "url": "/hi/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके .NET में टेक्स्ट हस्ताक्षर और रेडियल ग्रेडिएंट के साथ PDF पर हस्ताक्षर कैसे करें
 
 ## परिचय

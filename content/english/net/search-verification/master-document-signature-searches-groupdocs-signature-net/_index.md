@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["GroupDocs.Signature", "document-verification", "digital-signatures", "dotnet-tutorial"]
+type: docs
 ---
-
 # Complete Guide to Document Signature Verification in .NET
 
 Ever wondered if that important contract was actually signed by all parties? Or needed to verify the authenticity of a legal document programmatically? You're not alone. Document signature verification has become a critical requirement in today's digital-first world, and frankly, doing it manually is both time-consuming and error-prone.

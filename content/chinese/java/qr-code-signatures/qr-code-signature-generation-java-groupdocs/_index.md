@@ -4,8 +4,8 @@
 "title": "Java 中的二维码签名生成——使用 GroupDocs 的综合指南"
 "url": "/zh/java/qr-code-signatures/qr-code-signature-generation-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs 在 Java 中实现二维码签名生成
 
 ## 介绍

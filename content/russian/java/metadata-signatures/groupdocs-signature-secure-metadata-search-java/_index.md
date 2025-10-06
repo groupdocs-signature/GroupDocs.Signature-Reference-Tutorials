@@ -4,8 +4,8 @@
 "title": "Безопасный поиск и извлечение сигнатур метаданных с помощью GroupDocs для Java"
 "url": "/ru/java/metadata-signatures/groupdocs-signature-secure-metadata-search-java/"
 "weight": 1
+type: docs
 ---
-
 # Безопасный поиск и извлечение сигнатур метаданных с помощью GroupDocs для Java
 
 ## Введение

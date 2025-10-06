@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 掌握文件簽章管理"
 "url": "/zh-hant/net/signature-management/groupdocs-signature-net-master-document-signature-management/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 掌握文件簽章管理
 
 ## 介紹

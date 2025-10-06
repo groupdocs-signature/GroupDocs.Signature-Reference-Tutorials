@@ -4,8 +4,8 @@
 "title": "كيفية تطبيق التوقيعات النصية في ملفات PDF باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/text-signatures/groupdocs-signature-java-text-signatures-pdf/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التوقيعات النصية في ملفات PDF باستخدام GroupDocs.Signature لـ Java
 
 **تبسيط سير عمل المستندات: دليل شامل للبحث عن التوقيعات النصية وإدارتها في ملفات PDF باستخدام GroupDocs.Signature لـ Java**

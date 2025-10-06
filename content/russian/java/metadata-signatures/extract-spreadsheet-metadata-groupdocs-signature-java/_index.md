@@ -4,8 +4,8 @@
 "title": "Извлечение метаданных электронных таблиц с помощью GroupDocs.Signature для Java&#58; подробное руководство"
 "url": "/ru/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Извлечение метаданных электронной таблицы с помощью GroupDocs.Signature для Java
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "So signieren Sie ein PDF von einer URL mit GroupDocs.Signature für Java – Tutorial zur digitalen Signatur"
 "url": "/de/java/digital-signatures/sign-pdf-from-url-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie ein PDF von einer URL mit GroupDocs.Signature für Java
 
 ## Einführung

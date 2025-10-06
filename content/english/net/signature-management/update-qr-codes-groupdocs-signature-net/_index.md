@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["qr-codes", "digital-signatures", "dotnet", "document-automation"]
+type: docs
 ---
-
 # How to Update QR Code in Document .NET - Change Signatures Without Re-Signing
 
 Ever signed a batch of invoices with QR tracking codes, only to realize the shipping provider changed their URL format? Or maybe you need to update product information encoded in QR codes on already-signed contracts. Here's the thing: you shouldn't have to invalidate your signatures and re-sign everything just to update a QR code's content.

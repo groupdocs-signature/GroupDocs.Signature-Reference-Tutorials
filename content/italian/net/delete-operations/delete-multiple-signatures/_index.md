@@ -5,8 +5,8 @@
 "title": "Come rimuovere facilmente più firme dai documenti"
 "url": "/it/net/delete-operations/delete-multiple-signatures/"
 "weight": 15
+type: docs
 ---
-
 # Come rimuovere più firme dai documenti in .NET
 
 ## Perché è importante gestire le firme dei documenti

@@ -9,8 +9,8 @@ url: "/net/image-signatures/image-document-signing-metadata-groupdocs-signature/
 keywords: "sign image documents with metadata, .NET image metadata signing, GroupDocs signature tutorial, encrypt image metadata, how to add metadata signatures to images"
 categories: ["Document Signing", ".NET Development"]
 tags: ["groupdocs", "metadata", "image-signing", "encryption", "dotnet"]
+type: docs
 ---
-
 # How to Sign Image Documents with Metadata Using GroupDocs.Signature for .NET
 
 ## Why You Need Metadata Signatures for Images (And How This Guide Helps)

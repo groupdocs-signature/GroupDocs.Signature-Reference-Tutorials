@@ -4,8 +4,8 @@
 "title": "Ricerca della firma del testo principale in .NET tramite GroupDocs.Signature"
 "url": "/it/net/search-verification/master-text-signature-search-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la ricerca della firma di testo in .NET con GroupDocs.Signature
 
 Stai cercando di automatizzare l'identificazione delle firme testuali nei tuoi documenti? Che si tratti di verificare l'autenticità di un contratto o di monitorare le approvazioni ufficiali, gestire le firme dei documenti in modo efficiente può essere una sfida. Con **GroupDocs.Signature per .NET**semplifica questo processo cercando e filtrando le firme testuali direttamente dalle tue applicazioni. Questo tutorial ti guiderà nella configurazione e nell'utilizzo di GroupDocs.Signature per cercare firme testuali, saltando quelle esterne.

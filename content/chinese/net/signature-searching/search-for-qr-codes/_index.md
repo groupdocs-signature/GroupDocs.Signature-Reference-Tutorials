@@ -5,8 +5,8 @@
 "title": "在文档中搜索二维码签名"
 "url": "/zh/net/signature-searching/search-for-qr-codes/"
 "weight": 15
+type: docs
 ---
-
 ## 介绍
 
 在当今的数字文档生态系统中，二维码签名已成为嵌入信息、身份验证和增强文档安全性的宝贵工具。GroupDocs.Signature for .NET 为开发人员提供了强大的 API，用于从各种文档格式中搜索和提取二维码，从而在 .NET 应用程序中实现高级文档分析和验证功能。

@@ -4,8 +4,8 @@
 "title": "Cara Mengekstrak Data HIBC PAS dari Kode QR Menggunakan Java dan GroupDocs.Signature"
 "url": "/id/java/qr-code-signatures/extract-hibc-pas-data-qr-codes-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mengekstrak Data HIBC PAS dari Kode QR Menggunakan Java dan GroupDocs.Signature
 
 **Perkenalan**

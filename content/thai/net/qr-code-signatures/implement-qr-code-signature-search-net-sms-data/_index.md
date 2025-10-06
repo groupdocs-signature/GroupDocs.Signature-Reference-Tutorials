@@ -4,8 +4,8 @@
 "title": "นำการค้นหาลายเซ็น QR Code ไปใช้ใน .NET สำหรับการดึงข้อมูล SMS ด้วย GroupDocs.Signature"
 "url": "/th/net/qr-code-signatures/implement-qr-code-signature-search-net-sms-data/"
 "weight": 1
+type: docs
 ---
-
 # การนำการค้นหาลายเซ็น QR-Code ไปใช้งานใน .NET โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

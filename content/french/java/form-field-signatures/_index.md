@@ -3,8 +3,8 @@
 "title": "Tutoriels sur les signatures de champs de formulaire pour GroupDocs.Signature Java"
 "url": "/fr/java/form-field-signatures/"
 "weight": 8
+type: docs
 ---
-
 # Tutoriels sur les signatures de champs de formulaire pour GroupDocs.Signature Java
 
 Maîtrisez les signatures de champs de formulaire PDF grâce à nos tutoriels GroupDocs.Signature détaillés pour développeurs Java. Ces guides pas à pas expliquent comment utiliser les champs de formulaire standard, créer et gérer des zones de liste déroulante, implémenter des groupes de boutons radio et utiliser les champs de formulaire pour la signature de documents. Chaque tutoriel fournit des exemples pratiques de code Java pour les opérations sur les champs de formulaire, vous aidant à créer des documents PDF interactifs avec des champs remplissables qui collectent et valident les saisies utilisateur tout en préservant l'intégrité du document.

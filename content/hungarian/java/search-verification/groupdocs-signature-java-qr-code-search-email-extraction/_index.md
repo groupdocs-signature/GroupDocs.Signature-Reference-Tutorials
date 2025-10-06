@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature a Java hatékony QR-kód aláírás kereséséhez és e-mail kinyeréséhez"
 "url": "/hu/java/search-verification/groupdocs-signature-java-qr-code-search-email-extraction/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature elsajátítása Java-ban: QR-kód aláírás keresése és e-mail kinyerése
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Реализуйте пользовательскую сериализацию и шифрование QR-кодов в PDF-файлах с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать пользовательскую сериализацию и шифрование QR-кода в PDF-файлах с помощью GroupDocs.Signature для Java
 
 ## Введение

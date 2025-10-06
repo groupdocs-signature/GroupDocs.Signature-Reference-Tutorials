@@ -4,8 +4,8 @@
 "title": "Jak implementovat vyhledávání podpisů QR kódem pro data HIBC LIC v PDF pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/qr-code-signatures/implement-qr-code-signature-search-hibc-primary-data-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat vyhledávání podpisů QR kódem pro data HIBC LIC v PDF pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

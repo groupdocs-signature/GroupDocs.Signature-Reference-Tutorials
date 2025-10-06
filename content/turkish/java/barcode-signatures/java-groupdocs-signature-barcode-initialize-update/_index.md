@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da Barkod İmzaları Nasıl Başlatılır ve Güncellenir"
 "url": "/tr/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java'da Barkod İmzaları Nasıl Başlatılır ve Güncellenir
 
 ## giriiş

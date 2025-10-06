@@ -5,8 +5,8 @@
 "title": "Operacje aktualizacji podpisu dokumentu"
 "url": "/pl/net/update-operations/"
 "weight": 26
+type: docs
 ---
-
 ## Wstęp
 
 W dzisiejszym cyfrowym środowisku biznesowym, utrzymywanie aktualnych podpisów dokumentów ma kluczowe znaczenie dla zapewnienia autentyczności i bezpieczeństwa dokumentów. GroupDocs.Signature for .NET oferuje kompleksowy zestaw narzędzi do aktualizacji różnych typów podpisów w dokumentach, umożliwiając zachowanie integralności dokumentów i dostosowanie się do zmieniających się potrzeb biznesowych.

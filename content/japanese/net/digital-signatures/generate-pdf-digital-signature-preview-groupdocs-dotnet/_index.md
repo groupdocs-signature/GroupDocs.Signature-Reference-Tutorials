@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET で PDF デジタル署名プレビューを生成する | 総合ガイド"
 "url": "/ja/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して PDF デジタル署名プレビューを生成する方法
 
 ## 導入

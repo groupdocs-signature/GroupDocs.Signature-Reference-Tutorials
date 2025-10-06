@@ -8,10 +8,8 @@ keywords:
 - document verification
 - GroupDocs.Signature for Java
 - text signature options
-
+type: docs
 ---
-
-
 # How to Implement Document Verification Using GroupDocs.Signature for Java
 
 **Introduction**

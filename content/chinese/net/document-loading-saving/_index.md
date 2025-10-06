@@ -3,8 +3,8 @@
 "title": "使用 GroupDocs.Signature for .NET 的文档加载和保存教程"
 "url": "/zh/net/document-loading-saving/"
 "weight": 2
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 的文档加载和保存教程
 
 我们的文档加载和保存教程提供了在 .NET 中以编程方式处理文档的全面指导。按照这些分步指南，学习如何从本地磁盘、流、URL、云存储提供商（例如 Amazon S3 和 Azure Blob Storage）以及 FTP 加载文档。这些教程还涵盖了各种文档保存场景，包括使用密码保护保存、不同的输出格式以及针对各种文档类型的专用保存选项。

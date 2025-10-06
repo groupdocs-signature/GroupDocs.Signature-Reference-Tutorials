@@ -4,8 +4,8 @@
 "title": "วิธีปรับแต่งลายเซ็นภาพใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/image-signatures/customize-image-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้ลายเซ็นภาพที่กำหนดเองโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 Java 簡報中實現元資料搜尋"
 "url": "/zh-hant/java/search-verification/implement-metadata-search-groupdocs-java-presentations/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 Java 簡報中實現元資料搜尋
 
 ## 介紹

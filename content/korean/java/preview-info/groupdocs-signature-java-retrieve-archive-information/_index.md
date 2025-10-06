@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 아카이브 파일 정보를 검색하는 방법"
 "url": "/ko/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 아카이브 파일 정보를 검색하는 방법
 
 ## 소개

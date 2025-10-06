@@ -4,8 +4,8 @@
 "title": "QR-kód aláíráskeresés elsajátítása dokumentumokban a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumkeresés elsajátítása: QR-kód aláírások keresése EPC adatokkal a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

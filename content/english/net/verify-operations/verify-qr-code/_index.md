@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["qr-code-verification", "document-authentication", "fraud-prevention", "dotnet"]
+type: docs
 ---
-
 ## Introduction
 
 Ever received a signed contract or certificate and wondered, "Is this legit?" You're not alone. Document fraud costs businesses billions annually, and that's where QR code verification becomes your secret weapon.

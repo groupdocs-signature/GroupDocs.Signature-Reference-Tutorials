@@ -4,8 +4,8 @@
 "title": "Guía completa de GroupDocs.Signature para Java&#58; Fundamentos de la firma digital"
 "url": "/es/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Guía completa de GroupDocs.Signature para Java: Fundamentos de la firma digital
 
 ## Introducción

@@ -4,8 +4,8 @@
 "title": "Guida completa a GroupDocs.Signature per Java - Elementi essenziali della firma digitale"
 "url": "/it/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Guida completa a GroupDocs.Signature per Java: elementi essenziali della firma digitale
 
 ## Introduzione

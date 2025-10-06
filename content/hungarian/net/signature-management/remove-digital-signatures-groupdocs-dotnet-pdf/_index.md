@@ -4,8 +4,8 @@
 "title": "Digitális aláírások eltávolítása PDF-ekből a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/signature-management/remove-digital-signatures-groupdocs-dotnet-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírások eltávolítása PDF-ekből a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

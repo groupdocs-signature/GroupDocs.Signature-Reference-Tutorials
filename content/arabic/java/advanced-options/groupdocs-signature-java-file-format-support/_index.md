@@ -4,8 +4,8 @@
 "title": "دعم تنسيق الملف الرئيسي في GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/advanced-options/groupdocs-signature-java-file-format-support/"
 "weight": 1
+type: docs
 ---
-
 # دعم تنسيق الملف الرئيسي في GroupDocs.Signature لـ Java: دليل شامل
 
 ## مقدمة

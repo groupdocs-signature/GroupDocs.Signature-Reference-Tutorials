@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके छवि दस्तावेज़ों में मेटाडेटा हस्ताक्षर खोजें"
 "url": "/hi/net/search-verification/search-metadata-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके छवि दस्तावेज़ों में मेटाडेटा हस्ताक्षर कैसे खोजें
 
 ## परिचय

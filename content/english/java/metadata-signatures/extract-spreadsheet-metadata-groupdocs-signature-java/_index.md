@@ -8,10 +8,8 @@ keywords:
 - extract spreadsheet metadata
 - GroupDocs.Signature for Java
 - spreadsheet metadata extraction
-
+type: docs
 ---
-
-
 # Extracting Spreadsheet Metadata with GroupDocs.Signature for Java
 
 ## Introduction

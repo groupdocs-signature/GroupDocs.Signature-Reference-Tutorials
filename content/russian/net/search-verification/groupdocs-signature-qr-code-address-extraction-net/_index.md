@@ -4,8 +4,8 @@
 "title": "Извлечение подписей QR-кодов с адресными данными с помощью GroupDocs.Signature для .NET | Автоматизация цифровой подписи"
 "url": "/ru/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # Извлечение подписей QR-кода с данными адреса с помощью GroupDocs.Signature для .NET
 
 ## Введение

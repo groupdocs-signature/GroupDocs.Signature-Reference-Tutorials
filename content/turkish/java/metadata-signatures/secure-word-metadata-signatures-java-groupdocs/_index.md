@@ -4,8 +4,8 @@
 "title": "GroupDocs ile Java'da Güvenli Kelime Meta Veri İmzaları - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs ile Java'da Güvenli Kelime Meta Veri İmzaları
 
 ## giriiş

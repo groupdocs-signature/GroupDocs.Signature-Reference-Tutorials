@@ -4,8 +4,8 @@
 "title": "Como assinar PDFs com metadados e criptografia usando o GroupDocs.Signature para .NET | Guia de Proteção Segura de Documentos"
 "url": "/pt/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Como assinar PDFs com metadados e criptografia usando GroupDocs.Signature para .NET
 
 ## Introdução

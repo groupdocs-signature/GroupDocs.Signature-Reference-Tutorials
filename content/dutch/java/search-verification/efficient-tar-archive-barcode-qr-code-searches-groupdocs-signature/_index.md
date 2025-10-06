@@ -4,8 +4,8 @@
 "title": "Beheers TAR-archiefbarcode- en QR-codezoekopdrachten met GroupDocs.Signature voor Java"
 "url": "/nl/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Beheers TAR-archiefbarcode- en QR-codezoekopdrachten met GroupDocs.Signature voor Java
 
 ## Invoering

@@ -8,10 +8,8 @@ keywords:
 - document verification with GroupDocs.Signature for Java
 - text signature verification in Java
 - barcode and QR code document verification
-
+type: docs
 ---
-
-
 # Mastering Document Verification with GroupDocs.Signature for Java
 
 In today's digital landscape, verifying document authenticity is essential for maintaining security and trust in various sectors. This guide teaches you how to integrate text, barcode, and QR code signature verifications into your applications using GroupDocs.Signature for Java.

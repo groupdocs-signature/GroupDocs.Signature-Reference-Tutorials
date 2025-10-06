@@ -5,8 +5,8 @@
 "title": "在文档中搜索表单字段"
 "url": "/zh/net/signature-searching/search-for-form-fields/"
 "weight": 12
+type: docs
 ---
-
 ## 介绍
 
 在现代文档管理系统中，表单字段在数据收集、用户交互和文档自动化中发挥着至关重要的作用。GroupDocs.Signature for .NET 为开发人员提供了一套强大的工具，用于处理各种文档格式的表单字段，包括以编程方式搜索、检索和处理这些元素。

@@ -4,8 +4,8 @@
 "title": "Jak implementovat vyhledávání metadat v prezentacích Java pomocí GroupDocs.Signature"
 "url": "/cs/java/search-verification/implement-metadata-search-groupdocs-java-presentations/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat vyhledávání metadat v prezentacích Java pomocí GroupDocs.Signature
 
 ## Zavedení

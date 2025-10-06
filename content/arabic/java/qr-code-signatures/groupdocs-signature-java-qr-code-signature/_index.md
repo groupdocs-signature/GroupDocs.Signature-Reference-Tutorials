@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ توقيعات رمز الاستجابة السريعة (QR-Code) في مستندات Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/qr-code-signatures/groupdocs-signature-java-qr-code-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ توقيعات رمز الاستجابة السريعة (QR-Code) في مستندات Java باستخدام GroupDocs.Signature
 
 ## مقدمة

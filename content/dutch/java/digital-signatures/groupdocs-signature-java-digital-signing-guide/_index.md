@@ -4,8 +4,8 @@
 "title": "Uitgebreide handleiding voor GroupDocs.Signature voor Java&#58; de basisprincipes van digitale ondertekening"
 "url": "/nl/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Uitgebreide handleiding voor GroupDocs.Signature voor Java: basisprincipes van digitale ondertekening
 
 ## Invoering

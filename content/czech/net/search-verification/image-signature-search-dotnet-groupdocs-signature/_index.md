@@ -4,8 +4,8 @@
 "title": "Vyhledávání podpisů obrázků v .NET pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/net/search-verification/image-signature-search-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Komplexní průvodce implementací vyhledávání podpisů obrázků v .NET pomocí GroupDocs.Signature
 
 ## Zavedení

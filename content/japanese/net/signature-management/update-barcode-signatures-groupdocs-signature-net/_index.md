@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して ID でバーコード署名を更新する方法"
 "url": "/ja/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して ID でバーコード署名を更新する方法
 
 ## 導入

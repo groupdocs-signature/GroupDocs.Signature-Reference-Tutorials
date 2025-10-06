@@ -4,8 +4,8 @@
 "title": "Firmas dinámicas de documentos en Java&#58; Dominando GroupDocs.Signature para firma electrónica"
 "url": "/es/java/multiple-signatures/dynamic-document-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Creación de firmas de documentos dinámicas en Java con GroupDocs
 
 En el acelerado mundo digital actual, la necesidad de firmar documentos electrónicamente de forma eficiente es más crucial que nunca. Tanto si eres un profesional que busca agilizar la aprobación de contratos como si gestionas documentación personal, las firmas electrónicas ofrecen rapidez y comodidad. Este tutorial te guiará en la creación de firmas dinámicas de texto e imagen de código de barras con GroupDocs.Signature para Java. Al aprovechar los modos de expansión, tus firmas se adaptan perfectamente a páginas enteras, garantizando la coherencia y la legibilidad.

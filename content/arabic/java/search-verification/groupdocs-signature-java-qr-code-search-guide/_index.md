@@ -4,8 +4,8 @@
 "title": "تنفيذ بحث توقيع رمز الاستجابة السريعة (QR Code) باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/search-verification/groupdocs-signature-java-qr-code-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ بحث توقيع رمز الاستجابة السريعة (QR Code) باستخدام GroupDocs.Signature لـ Java
 
 في المشهد الرقمي الحالي، يعد التحقق من التوقيعات الإلكترونية بكفاءة أمرًا بالغ الأهمية في مختلف الصناعات. **GroupDocs.Signature لـ Java** يقدم حلاً فعالاً، خاصةً للبحث عن توقيعات رموز الاستجابة السريعة (QR) وإدارتها في المستندات. يرشدك هذا البرنامج التعليمي إلى كيفية تنفيذ البحث عن توقيعات رموز الاستجابة السريعة باستخدام GroupDocs.Signature في Java.

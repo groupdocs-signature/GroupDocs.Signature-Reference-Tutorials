@@ -5,8 +5,8 @@
 "title": "Cách xóa chữ ký số khỏi tài liệu trong .NET"
 "url": "/vi/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # Cách xóa chữ ký số khỏi tài liệu của bạn bằng GroupDocs.Signature
 
 ## Tại sao quản lý chữ ký số lại quan trọng

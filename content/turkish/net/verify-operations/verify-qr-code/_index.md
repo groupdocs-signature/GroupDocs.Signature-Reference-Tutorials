@@ -5,8 +5,8 @@
 "title": "Belgelerdeki QR Kodunu Doğrulayın"
 "url": "/tr/net/verify-operations/verify-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## giriiş
 
 Belge güvenliği, modern iş operasyonlarının kritik bir unsurudur. QR kodları, belgelerin içine gerçekliğini doğrulayabilen bilgileri yerleştirmek için giderek daha popüler bir yöntem haline gelmiştir. GroupDocs.Signature for .NET, çeşitli formatlardaki belgelere yerleştirilmiş QR kodlarını doğrulamak için güçlü ve esnek bir çözüm sunar.

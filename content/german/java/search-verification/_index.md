@@ -3,8 +3,8 @@
 "title": "Tutorials zur Signatursuche und -überprüfung für GroupDocs.Signature Java"
 "url": "/de/java/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # Tutorials zur Signatursuche und -überprüfung für GroupDocs.Signature Java
 
 Unsere Such- und Verifizierungstutorials bieten umfassende Anleitungen zur Validierung von Dokumentsignaturen mit GroupDocs.Signature in Java. Diese praktischen Anleitungen zeigen, wie Sie nach Signaturen verschiedener Typen (digital, Barcode, QR-Code, Text, Bild und Metadaten) suchen, die Verifizierung zur Echtheitsprüfung implementieren, Ausnahmen während der Verifizierung behandeln und komplexe Dokumente verarbeiten. Jedes Tutorial enthält vollständige Java-Codebeispiele für gängige Verifizierungsszenarien und unterstützt Sie beim Erstellen von Anwendungen, mit denen Sie effektiv feststellen können, ob Dokumente seit der Signierung verändert wurden.

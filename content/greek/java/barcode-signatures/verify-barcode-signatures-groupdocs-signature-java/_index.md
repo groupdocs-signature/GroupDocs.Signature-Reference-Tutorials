@@ -4,8 +4,8 @@
 "title": "Πώς να επαληθεύσετε τις υπογραφές γραμμωτού κώδικα σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την επαλήθευση υπογραφών γραμμωτού κώδικα με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

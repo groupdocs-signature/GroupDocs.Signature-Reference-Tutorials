@@ -4,8 +4,8 @@
 "title": "Implementeer Image Signature Search in .NET met GroupDocs.Signature&#58; een stapsgewijze handleiding"
 "url": "/nl/net/search-verification/implement-image-signature-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u een afbeeldingshandtekeningzoekopdracht implementeert met GroupDocs.Signature voor .NET
 
 ## Invoering

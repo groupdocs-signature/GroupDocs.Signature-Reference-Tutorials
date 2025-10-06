@@ -4,8 +4,8 @@
 "title": "Πώς να αναζητήσετε μεταδεδομένα εικόνας χρησιμοποιώντας το GroupDocs.Signature για Java&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/search-verification/search-image-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αναζητήσετε μεταδεδομένα εικόνας με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

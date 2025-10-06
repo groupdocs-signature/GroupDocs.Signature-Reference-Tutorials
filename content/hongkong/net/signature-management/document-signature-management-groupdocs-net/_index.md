@@ -4,8 +4,8 @@
 "title": "高效率的文件簽章管理－使用 GroupDocs.Signature for .NET 搜尋表單欄位簽名"
 "url": "/zh-hant/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 實現高效率的文件簽章管理
 
 ## 介紹

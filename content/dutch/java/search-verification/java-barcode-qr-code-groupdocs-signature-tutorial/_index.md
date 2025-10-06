@@ -4,8 +4,8 @@
 "title": "Java Barcode & QR-code zoekgids met GroupDocs.Signature voor veilige documentverificatie"
 "url": "/nl/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van Java voor zoekopdrachten naar barcodes, QR-codes en metadatahandtekeningen met GroupDocs.Signature
 
 ## Invoering

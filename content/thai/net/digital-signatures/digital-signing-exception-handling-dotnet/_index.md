@@ -4,8 +4,8 @@
 "title": "การลงนามแบบดิจิทัลพร้อมการจัดการข้อยกเว้นใน .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # การลงนามแบบดิจิทัลพร้อมการจัดการข้อยกเว้นใน .NET โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

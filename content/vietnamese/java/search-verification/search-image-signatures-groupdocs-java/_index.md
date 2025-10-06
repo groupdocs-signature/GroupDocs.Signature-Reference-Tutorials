@@ -4,8 +4,8 @@
 "title": "Hướng dẫn triển khai tìm kiếm chữ ký hình ảnh trong Java với GroupDocs.Signature"
 "url": "/vi/java/search-verification/search-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn triển khai tìm kiếm chữ ký hình ảnh trong Java với GroupDocs.Signature
 
 ## Giới thiệu

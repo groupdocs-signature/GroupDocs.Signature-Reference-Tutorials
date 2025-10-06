@@ -4,8 +4,8 @@
 "title": "استخراج بيانات التعريف الرئيسية للصورة في Java باستخدام مكتبة GroupDocs.Signature"
 "url": "/ar/java/preview-info/groupdocs-signature-java-image-metadata-extraction/"
 "weight": 1
+type: docs
 ---
-
 # إتقان GroupDocs.Signature لـ Java: استخراج بيانات الصور الوصفية
 
 ## مقدمة

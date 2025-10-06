@@ -3,8 +3,8 @@
 "title": "Tutoriales de vista previa de documentos e información para GroupDocs.Signature Java"
 "url": "/es/java/preview-info/"
 "weight": 13
+type: docs
 ---
-
 # Tutoriales de vista previa de documentos e información para GroupDocs.Signature Java
 
 Nuestros tutoriales de vista previa e información le muestran cómo extraer datos valiosos de documentos con GroupDocs.Signature en Java. Estas guías detalladas muestran cómo generar vistas previas de documentos, recuperar información de documentos, acceder a los detalles de las firmas, ver el historial de procesamiento de documentos y examinar las propiedades de los archivos. Cada tutorial incluye ejemplos prácticos de código Java para escenarios de inspección de documentos, lo que le ayudará a crear aplicaciones que proporcionen una transparencia completa de los documentos para una mejor experiencia de usuario y un mejor seguimiento del flujo de trabajo.

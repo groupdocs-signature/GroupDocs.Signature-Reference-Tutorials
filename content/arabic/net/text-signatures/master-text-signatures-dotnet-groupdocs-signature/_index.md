@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ التوقيعات النصية في .NET باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التوقيعات النصية في .NET باستخدام GroupDocs.Signature: دليل شامل
 
 ## مقدمة

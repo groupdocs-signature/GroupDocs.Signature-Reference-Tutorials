@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε το Java GroupDocs.Signature's Retrieve and Display Document Process History"
 "url": "/el/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υλοποιήσετε το Java GroupDocs.Signature: Ανάκτηση και εμφάνιση ιστορικού διεργασιών εγγράφων
 
 ## Εισαγωγή

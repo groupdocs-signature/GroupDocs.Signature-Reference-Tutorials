@@ -4,8 +4,8 @@
 "title": "Signera PDF-filer med textsignatur och anpassat utseende i .NET med GroupDocs.Signature"
 "url": "/sv/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar PDF-dokument med textsignatur och anpassat utseende med GroupDocs.Signature för .NET
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "Documenten ondertekenen met een verlooppenseel in Java met GroupDocs.Signature"
 "url": "/nl/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Documenten ondertekenen met een verlooppenseel in Java met GroupDocs.Signature
 
 In het digitale tijdperk van vandaag is het veilig ondertekenen van documenten essentieel voor efficiëntie in alle sectoren. Deze tutorial begeleidt je bij het digitaal ondertekenen van documenten met een verlooppenseeleffect. **GroupDocs.Signature voor Java**.

@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Meta Verilerle Görüntü Belgesi İmzalama Kapsamlı Bir Kılavuz"
 "url": "/tr/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Meta Verilerle Görüntü Belge İmzalamada Ustalaşma
 
 ## giriiş

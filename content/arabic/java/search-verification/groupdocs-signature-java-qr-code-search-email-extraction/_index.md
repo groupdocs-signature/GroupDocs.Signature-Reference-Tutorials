@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature لـ Java - بحث فعال عن توقيعات رمز الاستجابة السريعة واستخراج البريد الإلكتروني"
 "url": "/ar/java/search-verification/groupdocs-signature-java-qr-code-search-email-extraction/"
 "weight": 1
+type: docs
 ---
-
 # إتقان GroupDocs.Signature لجافا: البحث عن توقيع رمز الاستجابة السريعة واستخراج البريد الإلكتروني
 
 ## مقدمة

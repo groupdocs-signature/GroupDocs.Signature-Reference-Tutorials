@@ -4,8 +4,8 @@
 "title": "การแยกข้อมูลเมตา PDF โดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/preview-info/extract-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # การแยกข้อมูลเมตา PDF โดยใช้ GroupDocs.Signature สำหรับ Java: คู่มือที่ครอบคลุม
 
 ## การแนะนำ

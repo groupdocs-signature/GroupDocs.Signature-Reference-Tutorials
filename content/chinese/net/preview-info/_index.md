@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature .NET 的文档预览和信息教程"
 "url": "/zh/net/preview-info/"
 "weight": 13
+type: docs
 ---
-
 # GroupDocs.Signature .NET 的文档预览和信息教程
 
 我们的预览和信息教程向您展示了如何在 .NET 中使用 GroupDocs.Signature 提取有价值的文档数据。这些详细的指南演示了如何生成文档预览、检索文档信息、访问签名详细信息、查看文档处理历史记录以及检查文件属性。每个教程都包含用于文档检查场景的实用 C# 代码示例，帮助您构建提供全面文档透明度的应用程序，从而获得更好的用户体验和工作流程跟踪。

@@ -4,8 +4,8 @@
 "title": "Java QR 码签名指南 &#58; 使用 GroupDocs.Signature 保护您的文档"
 "url": "/zh/java/qr-code-signatures/java-qr-code-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 实现 Java QR 码签名
 
 ## 介绍

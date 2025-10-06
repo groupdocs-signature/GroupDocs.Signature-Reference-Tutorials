@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 사용자 정의 모양으로 PDF에 디지털 서명 마스터하기"
 "url": "/ko/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 사용자 지정 모양을 가진 PDF에서 디지털 서명 마스터하기
 
 ## 소개

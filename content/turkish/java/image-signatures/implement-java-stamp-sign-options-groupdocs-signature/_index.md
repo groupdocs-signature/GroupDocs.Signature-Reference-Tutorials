@@ -4,8 +4,8 @@
 "title": "Belgenin Doğruluğu için GroupDocs.Signature ile Java Damga İmza Seçeneklerini Uygulama"
 "url": "/tr/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Belgenin Doğruluğu için GroupDocs.Signature ile Java Damga İmza Seçeneklerini Uygulama
 ## Java için GroupDocs.Signature ile Java Damga İmza Seçenekleri Nasıl Uygulanır
 Günümüzün dijital çağında, belgelerin gerçekliğini sağlamak son derece önemlidir. İster bir iş profesyoneli olun, ister sözleşmeleri ve anlaşmaları doğrulaması gereken bir birey olun, damga imzası eklemek güvenilirlik ve güvenlik sağlayabilir. Bu eğitim, belge imzalama ihtiyaçlarınızı kolayca karşılamak üzere tasarlanmış güçlü bir kütüphane olan GroupDocs.Signature for Java'yı kullanarak damga imzası seçeneklerini ayarlamanıza rehberlik edecektir.

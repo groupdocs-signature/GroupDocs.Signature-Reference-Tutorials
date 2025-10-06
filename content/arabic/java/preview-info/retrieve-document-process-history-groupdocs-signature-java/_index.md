@@ -4,8 +4,8 @@
 "title": "استرجاع سجل عملية المستند باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # استرداد سجل عملية المستند باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

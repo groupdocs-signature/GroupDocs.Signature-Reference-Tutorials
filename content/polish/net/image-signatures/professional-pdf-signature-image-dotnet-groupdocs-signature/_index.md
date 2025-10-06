@@ -4,8 +4,8 @@
 "title": "Jak podpisywać pliki PDF za pomocą podpisów obrazkowych w środowisku .NET przy użyciu GroupDocs.Signature"
 "url": "/pl/net/image-signatures/professional-pdf-signature-image-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać pliki PDF za pomocą podpisów obrazkowych w środowisku .NET przy użyciu GroupDocs.Signature
 
 ## Wstęp

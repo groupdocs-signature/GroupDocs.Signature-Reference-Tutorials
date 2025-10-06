@@ -4,8 +4,8 @@
 "title": "Ställ in signaturposition med hjälp av procentsatser i GroupDocs.Signature för .NET | Avancerad handledning"
 "url": "/sv/net/advanced-options/set-signature-position-percentages-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Ange signaturposition med hjälp av procentsatser i GroupDocs.Signature för .NET
 ## Introduktion
 I dagens digitala era är effektiv dokumenthantering och automatisering avgörande. Att lägga till signaturer programmatiskt i dokument samtidigt som exakt placering bibehålls är en vanlig utmaning. Den här avancerade handledningen guidar dig genom att ställa in positionen för en signatur med hjälp av procentuella mått med GroupDocs.Signature för .NET.

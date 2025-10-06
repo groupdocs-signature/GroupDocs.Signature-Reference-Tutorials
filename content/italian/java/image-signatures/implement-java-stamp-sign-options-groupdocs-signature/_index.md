@@ -4,8 +4,8 @@
 "title": "Implementare le opzioni di firma Java Stamp con GroupDocs.Signature per l'autenticità dei documenti"
 "url": "/it/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementare le opzioni di firma Java Stamp con GroupDocs.Signature per l'autenticità dei documenti
 ## Come implementare le opzioni di firma Java Stamp con GroupDocs.Signature per Java
 Nell'era digitale odierna, garantire l'autenticità dei documenti è fondamentale. Che tu sia un professionista o un privato che deve convalidare contratti e accordi, aggiungere una firma con timbro può conferire credibilità e sicurezza. Questo tutorial ti guiderà nella configurazione delle opzioni di firma con timbro utilizzando GroupDocs.Signature per Java, una potente libreria pensata per soddisfare con facilità le tue esigenze di firma dei documenti.

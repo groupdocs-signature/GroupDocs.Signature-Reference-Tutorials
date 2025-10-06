@@ -4,8 +4,8 @@
 "title": "Jak podpisywać dokumenty graficzne kodami QR za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/qr-code-signatures/sign-image-document-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisać dokument graficzny kodem QR za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

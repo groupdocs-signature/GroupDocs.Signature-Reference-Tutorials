@@ -4,8 +4,8 @@
 "title": "การแยกข้อมูลเมตาแบบอัตโนมัติในสเปรดชีตโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # การแยกข้อมูลเมตาแบบอัตโนมัติในสเปรดชีตด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

@@ -5,8 +5,8 @@
 "title": "Cómo extraer firmas de metadatos de PDF en .NET"
 "url": "/es/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # Cómo extraer y buscar firmas de metadatos de PDF
 
 ## Por qué los metadatos PDF son importantes para sus documentos

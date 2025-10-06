@@ -5,8 +5,8 @@
 "title": "Łatwe dodawanie podpisów graficznych do dokumentów dzięki GroupDocs.Signature"
 "url": "/pl/net/advanced-signature-techniques/sign-with-image/"
 "weight": 13
+type: docs
 ---
-
 ## Wprowadzenie: Zmień bezpieczeństwo swoich dokumentów dzięki podpisom obrazkowym
 
 Czy zastanawiałeś się kiedyś, jak zwiększyć bezpieczeństwo i ważność prawną swoich dokumentów cyfrowych? Dodawanie podpisów graficznych to jeden z najskuteczniejszych sposobów uwierzytelniania dokumentów i ochrony ich przed manipulacją. W tym przystępnym przewodniku przeprowadzimy Cię przez proces wdrażania podpisów graficznych w aplikacjach .NET za pomocą GroupDocs.Signature.

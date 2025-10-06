@@ -4,8 +4,8 @@
 "title": "Come cercare le firme dei metadati nelle presentazioni utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come cercare le firme dei metadati nelle presentazioni utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

@@ -4,8 +4,8 @@
 "title": "Verificación de documentos maestros con GroupDocs.Signature para Java&#58; guía paso a paso"
 "url": "/es/java/search-verification/groupdocs-signature-java-document-verification/"
 "weight": 1
+type: docs
 ---
-
 # Dominando la verificación de documentos con GroupDocs.Signature para Java
 
 En la era digital actual, garantizar la autenticidad e integridad de los documentos es crucial en diversos sectores. Ya sea un profesional legal que verifica contratos o una empresa que autentica facturas, la verificación de documentos es indispensable. **GroupDocs.Signature para Java**:una potente biblioteca que simplifica este proceso al permitir la verificación de firmas de códigos de barras con facilidad.

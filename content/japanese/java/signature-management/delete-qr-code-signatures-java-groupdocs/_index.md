@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Javaを使用してドキュメントからQRコード署名を削除する方法"
 "url": "/ja/java/signature-management/delete-qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Javaを使用してドキュメントからQRコード署名を削除する方法
 
 ## 導入

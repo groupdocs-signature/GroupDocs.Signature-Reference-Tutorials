@@ -4,8 +4,8 @@
 "title": "Реализация цифровых подписей в .NET с сертификатами X.509 с использованием GroupDocs.Signature"
 "url": "/ru/net/digital-signatures/implement-digital-signature-x509-certificate-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Реализация цифровых подписей в .NET с сертификатами X.509 с использованием GroupDocs.Signature
 
 ## Введение

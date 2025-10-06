@@ -4,8 +4,8 @@
 "title": "Πώς να ενημερώσετε τις υπογραφές εγγράφων χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/signature-management/update-document-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να ενημερώσετε τις υπογραφές εγγράφων με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

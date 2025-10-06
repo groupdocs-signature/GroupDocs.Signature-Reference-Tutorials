@@ -4,8 +4,8 @@
 "title": "Hoe u afbeeldingshandtekeningen uit documenten verwijdert met GroupDocs.Signature voor .NET"
 "url": "/nl/net/signature-management/remove-image-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Afbeeldingshandtekeningen uit een document verwijderen met GroupDocs.Signature voor .NET
 
 ## Invoering

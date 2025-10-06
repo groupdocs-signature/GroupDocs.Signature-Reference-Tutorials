@@ -4,8 +4,8 @@
 "title": "Så här tar du bort specifika signaturer i dokument med GroupDocs.Signature för .NET | Handledning för signaturhantering"
 "url": "/sv/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Så här tar du bort specifika signaturer i dokument med GroupDocs.Signature för .NET
 
 ## Introduktion

@@ -5,8 +5,8 @@
 "title": ".NET Belgelerinizi Dijital İmzalarla Güvence Altına Alın | Tam Kılavuz"
 "url": "/tr/net/advanced-signature-techniques/sign-with-digital/"
 "weight": 12
+type: docs
 ---
-
 ## Modern Belge Yönetiminde Dijital İmzaların Önemi
 
 Günümüzün dijital dünyasında, elektronik belgelerinizin gerçekliğini ve bütünlüğünü sağlamak sadece iyi bir uygulama değil, aynı zamanda olmazsa olmazdır. Dijital imzalar, alıcılara belgenizin meşru olduğunu ve imzalandıktan sonra herhangi bir şekilde değiştirilmediğini bildiren o önemli güvenlik katmanını sağlar.

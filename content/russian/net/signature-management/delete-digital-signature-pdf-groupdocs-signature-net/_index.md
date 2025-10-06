@@ -4,8 +4,8 @@
 "title": "Удаление цифровых подписей в PDF-файлах с помощью GroupDocs.Signature для .NET. Подробное руководство"
 "url": "/ru/net/signature-management/delete-digital-signature-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Удаление цифровых подписей в PDF-файлах с помощью GroupDocs.Signature для .NET
 
 ## Введение

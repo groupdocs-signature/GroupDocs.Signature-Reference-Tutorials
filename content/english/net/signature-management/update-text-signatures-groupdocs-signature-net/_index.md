@@ -9,8 +9,8 @@ weight: 1
 url: "/net/signature-management/update-text-signatures-groupdocs-signature-net/"
 categories: ["Document Management"]
 tags: ["digital-signatures", "document-automation", "dotnet-development"]
+type: docs
 ---
-
 # How to Update Signatures in Documents Programmatically for .NET
 
 ## Introduction

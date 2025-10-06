@@ -4,8 +4,8 @@
 "title": "Ký và chuyển đổi bảng tính sang PDF hiệu quả bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Ký và chuyển đổi bảng tính sang PDF hiệu quả bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

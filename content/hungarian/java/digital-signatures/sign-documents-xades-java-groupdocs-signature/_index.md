@@ -4,8 +4,8 @@
 "title": "Dokumentumok aláírása XAdES-sel Java-ban a GroupDocs.Signature használatával – lépésről lépésre útmutató"
 "url": "/hu/java/digital-signatures/sign-documents-xades-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumok aláírása XAdES-sel Java-ban a GroupDocs.Signature használatával: lépésről lépésre útmutató
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 实现和显示文档签名——综合指南"
 "url": "/zh/net/digital-signatures/implement-document-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 实现和显示文档签名
 
 ## 介绍

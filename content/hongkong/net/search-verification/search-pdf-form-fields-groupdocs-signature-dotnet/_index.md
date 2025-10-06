@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 高效搜尋 PDF 表單字段"
 "url": "/zh-hant/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 高效搜尋 PDF 表單字段
 
 ## 介紹

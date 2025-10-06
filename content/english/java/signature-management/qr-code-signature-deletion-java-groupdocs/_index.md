@@ -8,10 +8,8 @@ keywords:
 - QR-code signature deletion
 - GroupDocs.Signature for Java
 - document security
-
+type: docs
 ---
-
-
 # Guide to Deleting QR-Code Signatures in Java Using GroupDocs
 
 ## Introduction

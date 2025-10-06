@@ -4,8 +4,8 @@
 "title": "Implementacja podpisów kodów QR w .NET z niestandardową serializacją przy użyciu GroupDocs.Signature"
 "url": "/pl/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja podpisów kodów QR z niestandardową serializacją w .NET przy użyciu GroupDocs.Signature
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Implementera digitala signaturer i .NET med GroupDocs.Signature"
 "url": "/sv/net/digital-signatures/digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementera dokumentsignering med digitala signaturer med GroupDocs.Signature för .NET
 
 ## Introduktion

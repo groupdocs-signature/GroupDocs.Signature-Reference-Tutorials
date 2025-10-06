@@ -4,8 +4,8 @@
 "title": "Digitální podepisování s ošetřením výjimek v .NET pomocí GroupDocs.Signature"
 "url": "/cs/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Digitální podepisování s ošetřením výjimek v .NET pomocí GroupDocs.Signature
 
 ## Zavedení

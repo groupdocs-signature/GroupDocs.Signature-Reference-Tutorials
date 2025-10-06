@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak PDF Belgelerini Metin Açıklamalarıyla Nasıl İmzalayabilirsiniz?"
 "url": "/tr/net/text-signatures/sign-pdf-text-annotations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak PDF Belgelerini Metin Açıklamalarıyla Nasıl İmzalayabilirsiniz?
 
 ## giriiş

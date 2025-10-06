@@ -5,8 +5,8 @@
 "title": "Belgelerden Birden Fazla İmzayı Kolayca Nasıl Kaldırabilirsiniz?"
 "url": "/tr/net/delete-operations/delete-multiple-signatures/"
 "weight": 15
+type: docs
 ---
-
 # .NET'te Belgelerden Çoklu İmzalar Nasıl Kaldırılır?
 
 ## Belge İmzalarını Yönetmenin Önemi

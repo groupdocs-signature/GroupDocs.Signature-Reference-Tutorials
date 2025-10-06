@@ -4,8 +4,8 @@
 "title": "Ký tài liệu PDF bằng mã QR sử dụng GroupDocs.Signature cho .NET - Hướng dẫn đầy đủ"
 "url": "/vi/net/qr-code-signatures/sign-pdf-with-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng mã QR bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

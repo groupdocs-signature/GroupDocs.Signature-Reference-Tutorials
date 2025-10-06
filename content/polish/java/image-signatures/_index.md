@@ -3,8 +3,8 @@
 "title": "Samouczki dotyczące podpisów obrazkowych dla GroupDocs.Signature Java"
 "url": "/pl/java/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Samouczki dotyczące podpisów obrazkowych dla GroupDocs.Signature Java
 
 Dowiedz się, jak wzbogacić dokumenty o wizualne podpisy, korzystając z naszych samouczków dotyczących podpisów graficznych w języku Java w GroupDocs.Signature. Te szczegółowe przewodniki pokazują, jak dodawać obrazy jako podpisy, tworzyć podpisy w formie pieczątek, wdrażać znaki wodne, dostosowywać ustawienia wyglądu oraz korzystać z opcji wyrównania i rozmiaru obrazów. Każdy samouczek zawiera przykłady działającego kodu Java, które pokazują, jak tworzyć atrakcyjne wizualnie podpisy, skutecznie komunikujące autentyczność lub markę, zachowując jednocześnie integralność dokumentu.

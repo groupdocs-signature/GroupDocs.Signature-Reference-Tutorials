@@ -5,8 +5,8 @@
 "title": "Hledání více typů podpisů v dokumentech"
 "url": "/cs/net/signature-searching/search-for-multiple-signatures/"
 "weight": 14
+type: docs
 ---
-
 ## Zavedení
 
 moderních systémech správy dokumentů je stále důležitější možnost vyhledávat a ověřovat více typů podpisů v rámci jednoho dokumentu. Organizace často používají různé typy podpisů – například digitální podpisy, textové podpisy, čárové kódy, QR kódy a další – ke zvýšení zabezpečení dokumentů a zefektivnění procesů ověřování. GroupDocs.Signature pro .NET poskytuje výkonný framework, který umožňuje vývojářům implementovat komplexní funkce vyhledávání podpisů v různých formátech dokumentů.

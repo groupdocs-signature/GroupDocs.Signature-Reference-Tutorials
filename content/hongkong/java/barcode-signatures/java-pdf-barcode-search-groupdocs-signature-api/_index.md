@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature API 進行 Java PDF 條碼搜尋—綜合指南"
 "url": "/zh-hant/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
 "weight": 1
+type: docs
 ---
-
 # 實作 Java：使用 GroupDocs.Signature API 教學搜尋 PDF 條碼
 
 ## 介紹

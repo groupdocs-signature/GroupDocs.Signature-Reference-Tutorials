@@ -4,8 +4,8 @@
 "title": "รักษาความปลอดภัยเอกสาร Java ด้วยลายเซ็นเมตาดาต้าและการเข้ารหัสโดยใช้ GroupDocs"
 "url": "/th/java/metadata-signatures/java-metadata-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # รักษาความปลอดภัยเอกสาร Java ด้วยลายเซ็นเมตาดาต้าและการเข้ารหัสโดยใช้ GroupDocs
 
 ## การแนะนำ

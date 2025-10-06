@@ -4,8 +4,8 @@
 "title": "البحث عن رمز الاستجابة السريعة والتشفير في Java - Master GroupDocs.Signature للتعامل الآمن مع المستندات"
 "url": "/ar/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # البحث عن رمز الاستجابة السريعة والتشفير في جافا: إدارة GroupDocs.Signature للتعامل الآمن مع المستندات
 
 ## مقدمة

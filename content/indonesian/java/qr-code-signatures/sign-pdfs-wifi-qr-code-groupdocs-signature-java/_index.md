@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan Kode QR WiFi Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/qr-code-signatures/sign-pdfs-wifi-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF dengan Kode QR WiFi Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

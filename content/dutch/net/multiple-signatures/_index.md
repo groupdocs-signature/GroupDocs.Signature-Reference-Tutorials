@@ -3,8 +3,8 @@
 "title": "Tutorials voor meerdere handtekeningen voor GroupDocs.Signature .NET"
 "url": "/nl/net/multiple-signatures/"
 "weight": 10
+type: docs
 ---
-
 # Tutorials voor meerdere handtekeningen voor GroupDocs.Signature .NET
 
 Leer hoe u geavanceerde ondertekeningsworkflows kunt creëren met onze GroupDocs.Signature-tutorials voor meerdere handtekeningen in .NET. Deze uitgebreide handleidingen laten zien hoe u verschillende handtekeningtypen in één proces kunt combineren, geordende ondertekeningsreeksen kunt implementeren, complexe handtekeningen kunt beheren en met documenten met meerdere pagina's kunt werken. Elke tutorial biedt gedetailleerde C#-codevoorbeelden voor geavanceerde handtekeningscenario's, waarmee u robuuste documentverwerkingsapplicaties kunt bouwen die complexe ondertekeningsvereisten voor zakelijke en juridische toepassingen ondersteunen.

@@ -4,8 +4,8 @@
 "title": "Tìm kiếm mã vạch và mã QR trong kho lưu trữ TAR với GroupDocs.Signature cho Java"
 "url": "/vi/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ tìm kiếm mã vạch và mã QR trong kho lưu trữ TAR với GroupDocs.Signature cho Java
 
 ## Giới thiệu

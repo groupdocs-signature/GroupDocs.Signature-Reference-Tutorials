@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak PDF Meta Veri İmzaları Nasıl Aranır?"
 "url": "/tr/net/metadata-signatures/master-pdf-metadata-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak PDF Meta Veri İmzaları Nasıl Aranır?
 
 ## giriiş

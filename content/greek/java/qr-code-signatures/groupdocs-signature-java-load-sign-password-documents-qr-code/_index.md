@@ -4,8 +4,8 @@
 "title": "Φόρτωση και υπογραφή εγγράφων που προστατεύονται με κωδικό πρόσβασης χρησιμοποιώντας κωδικούς QR σε Java με το GroupDocs.Signature"
 "url": "/el/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Φόρτωση και υπογραφή εγγράφων που προστατεύονται με κωδικό πρόσβασης με κωδικό QR σε Java
 
 ## Πώς να φορτώσετε και να υπογράψετε ένα έγγραφο που προστατεύεται με κωδικό πρόσβασης χρησιμοποιώντας το GroupDocs.Signature για Java

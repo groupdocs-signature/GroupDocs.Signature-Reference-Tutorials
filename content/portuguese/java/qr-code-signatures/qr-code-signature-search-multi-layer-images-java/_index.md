@@ -4,8 +4,8 @@
 "title": "Implementar pesquisa de assinatura de código QR em imagens multicamadas usando Java e GroupDocs.Signature"
 "url": "/pt/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar a pesquisa de assinatura de código QR em documentos de imagem multicamadas usando GroupDocs.Signature para Java
 
 ## Introdução

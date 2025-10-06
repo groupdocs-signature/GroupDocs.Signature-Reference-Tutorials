@@ -4,8 +4,8 @@
 "title": "Bezpieczne podpisywanie dokumentów za pomocą kodów QR przy użyciu GroupDocs.Signature dla platformy .NET. Kompletny przewodnik"
 "url": "/pl/net/qr-code-signatures/secure-document-signing-qr-codes-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Bezpieczne podpisywanie dokumentów za pomocą kodów QR przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

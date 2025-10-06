@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć podpisy cyfrowe .NET ze znacznikiem czasu i certyfikacją przy użyciu GroupDocs.Signature dla .NET"
 "url": "/pl/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć podpisy cyfrowe .NET ze znacznikiem czasu i certyfikacją przy użyciu GroupDocs.Signature dla .NET
 
 ## Wstęp

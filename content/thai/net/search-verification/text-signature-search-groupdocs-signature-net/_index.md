@@ -4,8 +4,8 @@
 "title": "การค้นหาลายเซ็นข้อความหลักในเอกสาร .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การค้นหาลายเซ็นข้อความในเอกสาร .NET โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Beheers het ondertekenen en optimaliseren van afbeeldingen met GroupDocs.Signature voor Java"
 "url": "/nl/java/image-signatures/groupdocs-signature-java-image-optimization/"
 "weight": 1
+type: docs
 ---
-
 # Het onder de knie krijgen van het ondertekenen en optimaliseren van afbeeldingen met GroupDocs.Signature voor Java
 
 In het huidige digitale landschap is het veilig ondertekenen van documenten essentieel. Of u nu een professional bent die contracten authenticeert of een particulier die afbeeldingen beschermt, robuuste ondertekeningsmogelijkheden zijn cruciaal. **GroupDocs.Signature voor Java** Biedt krachtige functies om QR-codehandtekeningen te maken en de opties voor het opslaan van afbeeldingen naadloos te optimaliseren. Deze tutorial begeleidt u bij het benutten van deze functionaliteiten voor effectief documentbeheer.

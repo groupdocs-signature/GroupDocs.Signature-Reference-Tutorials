@@ -8,10 +8,8 @@ keywords:
 - retrieve document process history GroupDocs Signature Java
 - GroupDocs Signature setup Java
 - document process logs Java
-
+type: docs
 ---
-
-
 # Retrieve Document Process History with GroupDocs.Signature for Java
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak .NET'te QR Kod İmzaları Nasıl Doğrulanır?"
 "url": "/tr/net/qr-code-signatures/verify-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanılarak QR Kod İmza Doğrulaması Nasıl Uygulanır?
 
 ## giriiş

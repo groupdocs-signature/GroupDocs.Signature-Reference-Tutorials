@@ -4,8 +4,8 @@
 "title": "Как создавать и подписывать PDF-файлы со штрихкодами с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/"
 "weight": 1
+type: docs
 ---
-
 # Как создавать и подписывать PDF-файлы со штрихкодами с помощью GroupDocs.Signature для Java
 
 ## Введение

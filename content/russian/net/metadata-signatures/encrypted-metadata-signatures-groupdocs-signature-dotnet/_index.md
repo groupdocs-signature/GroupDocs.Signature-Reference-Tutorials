@@ -4,8 +4,8 @@
 "title": "Как реализовать зашифрованные подписи метаданных с помощью GroupDocs.Signature для .NET | Полное руководство"
 "url": "/ru/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать зашифрованные подписи метаданных с помощью GroupDocs.Signature для .NET
 
 ## Введение

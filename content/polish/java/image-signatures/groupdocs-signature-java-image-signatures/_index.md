@@ -4,8 +4,8 @@
 "title": "Jak wyszukiwać i aktualizować podpisy graficzne w dokumentach za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Jak wyszukiwać i aktualizować podpisy graficzne w dokumentach za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

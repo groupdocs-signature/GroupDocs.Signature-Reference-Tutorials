@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中載入和簽署文件－綜合指南"
 "url": "/zh-hant/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 Java 中的 GroupDocs.Signature 載入和簽署文檔
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "Menangani Pengecualian Kata Sandi di GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Menangani Pengecualian Kata Sandi di GroupDocs.Signature untuk .NET
 
 ## Perkenalan

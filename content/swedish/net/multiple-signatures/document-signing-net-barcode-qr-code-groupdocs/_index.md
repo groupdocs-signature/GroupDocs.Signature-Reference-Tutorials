@@ -4,8 +4,8 @@
 "title": "Bemästra dokumentsignering i .NET &#50; streckkods- och QR-kodsignaturer med GroupDocs.Signature"
 "url": "/sv/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra dokumentsignering i .NET: Implementera streckkods- och QR-kodsignaturer med GroupDocs.Signature
 
 ## Introduktion

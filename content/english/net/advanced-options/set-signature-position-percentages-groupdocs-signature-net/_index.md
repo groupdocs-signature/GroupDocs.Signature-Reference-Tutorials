@@ -9,8 +9,8 @@ weight: 1
 url: "/net/advanced-options/set-signature-position-percentages-groupdocs-signature-net/"
 categories: ["Document Processing"]
 tags: ["groupdocs", "signature-positioning", "dotnet", "pdf-processing"]
+type: docs
 ---
-
 # How to Set Signature Position Using Percentages in .NET
 
 ## Introduction

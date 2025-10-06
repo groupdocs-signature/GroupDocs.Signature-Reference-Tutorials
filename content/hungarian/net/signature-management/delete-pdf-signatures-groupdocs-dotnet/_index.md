@@ -4,8 +4,8 @@
 "title": "PDF aláírások hatékony törlése a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/signature-management/delete-pdf-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF-aláírások azonosító szerinti eltávolítása a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

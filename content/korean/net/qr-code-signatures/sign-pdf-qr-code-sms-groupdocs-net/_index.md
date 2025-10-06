@@ -4,8 +4,8 @@
 "title": ".NET에서 GroupDocs를 사용하여 SMS가 포함된 QR 코드가 있는 PDF에 서명하는 방법"
 "url": "/ko/net/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 SMS 개체가 포함된 QR 코드가 있는 PDF 문서에 서명하는 방법
 
 ## 소개

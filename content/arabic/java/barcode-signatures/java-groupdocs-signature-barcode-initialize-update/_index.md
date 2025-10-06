@@ -4,8 +4,8 @@
 "title": "كيفية تهيئة وتحديث توقيعات الباركود في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تهيئة وتحديث توقيعات الباركود في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

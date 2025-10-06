@@ -4,8 +4,8 @@
 "title": "PDF's met barcodes maken en ondertekenen met GroupDocs.Signature voor Java"
 "url": "/nl/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF's met barcodes maken en ondertekenen met GroupDocs.Signature voor Java
 
 ## Invoering

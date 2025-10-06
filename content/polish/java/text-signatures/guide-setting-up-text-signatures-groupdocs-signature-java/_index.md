@@ -4,8 +4,8 @@
 "title": "Kompleksowy przewodnik po konfigurowaniu podpisów tekstowych za pomocą GroupDocs.Signature dla języka Java"
 "url": "/pl/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Kompleksowy przewodnik po konfigurowaniu podpisów tekstowych za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

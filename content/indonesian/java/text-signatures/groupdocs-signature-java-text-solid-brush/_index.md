@@ -4,8 +4,8 @@
 "title": "Menerapkan Tanda Tangan Teks dengan Solid Brush di Java menggunakan GroupDocs.Signature"
 "url": "/id/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Tanda Tangan Teks dengan Solid Brush di Java
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Implementasi Penandatanganan dan Enkripsi Metadata Gambar di Java dengan GroupDocs.Signature"
 "url": "/id/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Implementasi Penandatanganan Metadata Gambar dengan Enkripsi di Java Menggunakan GroupDocs.Signature
 
 ## Perkenalan

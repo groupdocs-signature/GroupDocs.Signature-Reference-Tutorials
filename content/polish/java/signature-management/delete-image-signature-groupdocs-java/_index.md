@@ -4,8 +4,8 @@
 "title": "Jak usunąć podpisy graficzne z dokumentów za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/signature-management/delete-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak usunąć podpisy graficzne z dokumentów za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

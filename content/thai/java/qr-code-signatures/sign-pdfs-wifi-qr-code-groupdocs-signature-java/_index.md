@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามใน PDF ด้วยรหัส QR WiFi โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/qr-code-signatures/sign-pdfs-wifi-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามใน PDF ด้วยรหัส QR WiFi โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

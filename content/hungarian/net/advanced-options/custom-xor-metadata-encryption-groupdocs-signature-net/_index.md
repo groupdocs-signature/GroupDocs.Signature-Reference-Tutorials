@@ -4,8 +4,8 @@
 "title": "Fejlett XOR metaadat-titkosítás a GroupDocs.Signature for .NET segítségével – Teljes körű útmutató"
 "url": "/hu/net/advanced-options/custom-xor-metadata-encryption-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Fejlett XOR metaadat-titkosítás a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

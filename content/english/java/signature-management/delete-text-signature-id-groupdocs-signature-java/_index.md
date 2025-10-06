@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature
 - Java
 - Document Processing
-
+type: docs
 ---
-
-
 # How to Delete a Text Signature by ID Using GroupDocs.Signature for Java
 
 ## Introduction

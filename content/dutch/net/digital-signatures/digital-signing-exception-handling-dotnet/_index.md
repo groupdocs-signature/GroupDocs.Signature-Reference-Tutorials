@@ -4,8 +4,8 @@
 "title": "Digitale ondertekening met uitzonderingsafhandeling in .NET met behulp van GroupDocs.Signature"
 "url": "/nl/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Digitale ondertekening met uitzonderingsafhandeling in .NET met behulp van GroupDocs.Signature
 
 ## Invoering

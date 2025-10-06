@@ -4,8 +4,8 @@
 "title": "كيفية حذف التوقيعات النصية في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/signature-management/delete-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية حذف التوقيعات النصية في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature と暗号化を使用した .NET での安全なメタデータ署名検索"
 "url": "/ja/net/metadata-signatures/groupdocs-signature-net-encryption-metadata-search/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature と暗号化を使用した .NET での安全なメタデータ署名検索
 
 ## 導入

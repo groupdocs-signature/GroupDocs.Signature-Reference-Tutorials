@@ -4,8 +4,8 @@
 "title": "Festlegen von GroupDocs.Signature für die Java-Lizenz aus einer Datei – Eine umfassende Anleitung"
 "url": "/de/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # Festlegen von GroupDocs.Signature für die Java-Lizenz aus einer Datei – Schritt-für-Schritt-Anleitung
 
 ## Einführung

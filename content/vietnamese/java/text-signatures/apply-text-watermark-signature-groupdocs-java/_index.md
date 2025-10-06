@@ -4,8 +4,8 @@
 "title": "Áp dụng chữ ký hình mờ văn bản bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách áp dụng chữ ký hình mờ văn bản bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

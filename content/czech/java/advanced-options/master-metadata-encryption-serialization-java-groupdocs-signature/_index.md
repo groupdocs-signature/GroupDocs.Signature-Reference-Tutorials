@@ -4,8 +4,8 @@
 "title": "Zvládněte šifrování a serializaci metadat v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí šifrování a serializace metadat v Javě s GroupDocs.Signature
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 掌握 Java 動態文件簽章及其二維碼簽章技術"
 "url": "/zh-hant/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 掌握動態文件簽章：二維碼簽章技術
 
 在當今的數位世界中，有效地保護和驗證電子文檔至關重要。 **GroupDocs.Signature for Java** 提供了一個強大的解決方案，可以快速簽署 PDF，同時使用各個位置的二維碼簽名確保其真實性。

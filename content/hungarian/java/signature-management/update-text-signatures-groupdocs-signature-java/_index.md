@@ -4,8 +4,8 @@
 "title": "Hogyan frissíthetjük a szöveges aláírásokat PDF-ekben a GroupDocs.Signature for Java használatával? Átfogó útmutató"
 "url": "/hu/java/signature-management/update-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan frissíthetjük a szöveges aláírásokat PDF-ekben a GroupDocs.Signature for Java használatával?
 ## Bevezetés
 A dokumentumokban található szöveges aláírások programozott frissítése kihívást jelenthet, különösen akkor, ha a dokumentummunkafolyamatok egyszerűsítését vagy az aláíráskezelés automatizálását célozza. **GroupDocs.Signature Java-hoz** hatékony megoldást kínál erre. Ez az átfogó útmutató végigvezeti Önt a szöveges aláírások inicializálásán és keresésén, tulajdonságaik módosításán és PDF-eken belüli frissítésükön.

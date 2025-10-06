@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met QR-codes WiFi-info insluiten met GroupDocs.Signature voor .NET"
 "url": "/nl/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF's ondertekenen met QR-codes WiFi-info insluiten met GroupDocs.Signature voor .NET
 
 ## Invoering

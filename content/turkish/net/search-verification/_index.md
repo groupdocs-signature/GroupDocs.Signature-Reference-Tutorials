@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature .NET için İmza Arama ve Doğrulama Eğitimleri"
 "url": "/tr/net/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature .NET için İmza Arama ve Doğrulama Eğitimleri
 
 Arama ve doğrulama eğitimlerimiz, .NET'te GroupDocs.Signature kullanarak belge imzalarını doğrulamak için kapsamlı bir kılavuz sunar. Bu pratik kılavuzlar, çeşitli imza türlerini (dijital, barkod, QR kodu, metin, resim ve meta veri) nasıl arayacağınızı, kimlik doğrulaması için doğrulamayı nasıl uygulayacağınızı, doğrulama sırasında istisnaları nasıl ele alacağınızı ve karmaşık belgeleri nasıl işleyeceğinizi gösterir. Her eğitim, yaygın doğrulama senaryoları için eksiksiz C# kod örnekleri içerir ve belgelerin imzalandıktan sonra değiştirilip değiştirilmediğini etkili bir şekilde belirleyebilen uygulamalar oluşturmanıza yardımcı olur.

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET'te Yüzdeleri Kullanarak İmza Konumunu Ayarlama | Gelişmiş Eğitim"
 "url": "/tr/net/advanced-options/set-signature-position-percentages-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature'da Yüzdeleri Kullanarak İmza Konumunu Ayarlama
 ## giriiş
 Günümüzün dijital çağında, verimli belge yönetimi ve otomasyonu olmazsa olmazdır. Belgelere programatik olarak imza eklemek ve hassas yerleşimi korumak yaygın bir sorundur. Bu gelişmiş eğitim, .NET için GroupDocs.Signature ile yüzdelik ölçütler kullanarak bir imzanın konumunu ayarlamanıza rehberlik edecektir.

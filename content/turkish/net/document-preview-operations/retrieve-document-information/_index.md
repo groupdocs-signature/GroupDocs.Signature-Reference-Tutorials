@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature ile Belge Bilgileri Nasıl Alınır?"
 "url": "/tr/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature Kullanılarak Belge Bilgileri Nasıl Alınır?
 
 ## giriiş

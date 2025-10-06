@@ -4,8 +4,8 @@
 "title": "Wdrażanie wyszukiwania podpisów kodów QR w plikach PDF za pomocą języka Java i funkcji GroupDocs.Signature"
 "url": "/pl/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja wyszukiwania podpisów kodem QR w plikach PDF za pomocą języka Java
 
 ## Wstęp

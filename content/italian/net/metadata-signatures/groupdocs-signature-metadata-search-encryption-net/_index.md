@@ -4,8 +4,8 @@
 "title": "Implementare la ricerca della firma dei metadati con crittografia utilizzando GroupDocs per .NET"
 "url": "/it/net/metadata-signatures/groupdocs-signature-metadata-search-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Guida completa: implementazione della ricerca di firme di metadati con crittografia tramite GroupDocs.Signature per .NET
 
 ## Introduzione

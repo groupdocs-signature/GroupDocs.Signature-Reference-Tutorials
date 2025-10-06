@@ -4,8 +4,8 @@
 "title": "Búsquedas de firmas de imágenes maestras en documentos con GroupDocs para Java&#58; una guía completa"
 "url": "/es/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # Búsquedas de firmas de imágenes maestras en documentos con GroupDocs para Java: una guía completa
 
 ## Introducción

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: [".NET Development"]
 tags: ["groupdocs", "text-search", "pdf-processing", "document-management"]
+type: docs
 ---
-
 # How to Search Text in Documents with .NET - GroupDocs.Signature Complete Guide
 
 ## Quick Start: Why .NET Document Text Search Matters

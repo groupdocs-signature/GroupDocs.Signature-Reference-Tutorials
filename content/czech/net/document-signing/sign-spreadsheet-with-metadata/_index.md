@@ -5,8 +5,8 @@
 "title": "Přidání podpisů metadat do tabulek Excelu v C# .NET"
 "url": "/cs/net/document-signing/sign-spreadsheet-with-metadata/"
 "weight": 13
+type: docs
 ---
-
 ## Zavedení
 
 Tabulky aplikace Excel často obsahují důležitá obchodní data, finanční informace a důležité výpočty. Zajištění jejich autenticity, sledování jejich původu a ochrana jejich integrity je v mnoha profesionálních prostředích klíčové. Jedním z účinných přístupů ke zvýšení zabezpečení a sledovatelnosti tabulek je vložení podpisů metadat.

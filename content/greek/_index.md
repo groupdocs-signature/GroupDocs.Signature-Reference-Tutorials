@@ -6,8 +6,8 @@
 "title": "GroupDocs.Signature - API ψηφιακής υπογραφής εγγράφων για .NET & Java | Πλήρης οδηγός εκμάθησης"
 "url": "/el/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature: Ολοκληρωμένη λύση ψηφιακής υπογραφής εγγράφων για προγραμματιστές
 
 ![GroupDocs.Signature Banner](./groupdocs-signature-net.svg)

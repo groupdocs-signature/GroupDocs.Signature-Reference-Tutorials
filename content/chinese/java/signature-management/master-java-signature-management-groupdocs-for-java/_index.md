@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 掌握 Java 签名管理"
 "url": "/zh/java/signature-management/master-java-signature-management-groupdocs-for-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 掌握 Java 签名管理
 
 ## 介绍

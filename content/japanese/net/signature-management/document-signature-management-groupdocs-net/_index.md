@@ -4,8 +4,8 @@
 "title": "効率的なドキュメント署名管理 - GroupDocs.Signature for .NET によるフォームフィールド署名の検索"
 "url": "/ja/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET による効率的なドキュメント署名管理
 
 ## 導入

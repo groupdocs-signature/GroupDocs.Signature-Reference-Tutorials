@@ -5,8 +5,8 @@
 "title": "Cách xóa chữ ký văn bản khỏi tài liệu trong .NET"
 "url": "/vi/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # Cách xóa chữ ký văn bản khỏi tài liệu của bạn bằng GroupDocs.Signature
 
 ## Tại sao bạn cần xóa chữ ký văn bản?

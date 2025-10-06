@@ -4,8 +4,8 @@
 "title": "Πλήρης οδηγός για το GroupDocs.Signature για βασικά στοιχεία ψηφιακής υπογραφής Java"
 "url": "/el/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Πλήρης οδηγός για το GroupDocs.Signature για Java: Βασικά στοιχεία ψηφιακής υπογραφής
 
 ## Εισαγωγή

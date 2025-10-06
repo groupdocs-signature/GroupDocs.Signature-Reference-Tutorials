@@ -4,8 +4,8 @@
 "title": "Operações de Arquivo Mestre e Atualizações de Assinatura com GroupDocs.Signature para .NET | Guia para Gerenciamento Eficiente de Documentos"
 "url": "/pt/net/signature-management/master-file-operations-update-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Operações de Arquivo Mestre e Atualizações de Assinatura com GroupDocs.Signature para .NET | Guia para Gerenciamento Eficiente de Documentos
 
 Gerenciar fluxos de trabalho de documentos com eficiência é crucial no cenário empresarial atual. Seja para executar operações de arquivo ou atualizar assinaturas programaticamente, **GroupDocs.Signature para .NET** oferece soluções poderosas. Este tutorial guiará você na implementação de operações de arquivo e na atualização de assinaturas de texto usando esta biblioteca versátil.

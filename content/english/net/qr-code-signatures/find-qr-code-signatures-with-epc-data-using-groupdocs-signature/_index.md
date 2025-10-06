@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["qr-code", "digital-signatures", "document-automation", "dotnet", "pdf-processing"]
+type: docs
 ---
-
 # How to Search QR Code Signatures in Documents Using .NET
 
 Ever wondered how banks automatically process invoices with QR payment codes? Or how logistics companies instantly verify shipping documents? The secret lies in automated QR code signature detection—and you can implement this powerful capability in your .NET applications too.

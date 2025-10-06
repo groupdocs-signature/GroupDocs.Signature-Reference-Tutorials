@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 활용한 문서 처리 내역 마스터링&#58; 종합 가이드"
 "url": "/ko/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용한 문서 처리 기록 마스터링: 종합 가이드
 
 ## 소개

@@ -4,8 +4,8 @@
 "title": "Efficiënt beheer van Java-barcodehandtekeningen met GroupDocs.Signature"
 "url": "/nl/java/barcode-signatures/java-barcode-signature-management-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Efficiënt beheer van Java-barcodehandtekeningen met GroupDocs.Signature
 
 In het digitale tijdperk is het efficiënt beheren van elektronische handtekeningen cruciaal voor zowel bedrijven als particulieren. Of u nu overeenkomsten valideert of documenten beveiligt, met de juiste tools kunt u de productiviteit aanzienlijk verhogen. **GroupDocs.Signature voor Java** is een krachtige bibliotheek die is ontworpen om deze processen te stroomlijnen. Deze tutorial begeleidt u bij het initialiseren van een Signature-object, het zoeken naar barcodehandtekeningen en het verwijderen ervan uit uw documenten.

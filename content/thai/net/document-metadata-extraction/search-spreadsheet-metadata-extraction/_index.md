@@ -5,8 +5,8 @@
 "title": "ดึงข้อมูลเมตาของสเปรดชีตได้อย่างง่ายดายด้วย GroupDocs.Signature"
 "url": "/th/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # วิธีการแยกข้อมูลเมตาจากสเปรดชีตโดยใช้ GroupDocs.Signature
 
 ## เหตุใดข้อมูลเมตาของสเปรดชีตจึงมีความสำคัญ

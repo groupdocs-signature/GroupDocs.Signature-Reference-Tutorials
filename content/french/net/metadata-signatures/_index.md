@@ -3,8 +3,8 @@
 "title": "Tutoriels sur les signatures de métadonnées pour GroupDocs.Signature .NET"
 "url": "/fr/net/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Tutoriels sur les signatures de métadonnées pour GroupDocs.Signature .NET
 
 Nos tutoriels sur les signatures de métadonnées expliquent comment utiliser les métadonnées de documents pour une signature sécurisée avec GroupDocs.Signature dans .NET. Ces guides pas à pas expliquent comment implémenter des signatures de métadonnées dans différents formats de documents, notamment les PDF, les images, les présentations, les feuilles de calcul et les fichiers de traitement de texte. Chaque tutoriel inclut des exemples de code C# fonctionnels pour les opérations sur les métadonnées, vous aidant à créer des applications permettant d'ajouter des informations de signature invisibles aux documents, renforçant ainsi la sécurité sans altérer l'apparence visuelle.

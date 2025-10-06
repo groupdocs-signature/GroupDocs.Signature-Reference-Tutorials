@@ -4,8 +4,8 @@
 "title": "Excel VBA projektek aláírása a GroupDocs.Signature for Java használatával – Átfogó útmutató"
 "url": "/hu/java/digital-signatures/sign-excel-vba-projects-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Excel VBA projektek aláírása GroupDocs.Signature for Java használatával
 
 ## Bevezetés

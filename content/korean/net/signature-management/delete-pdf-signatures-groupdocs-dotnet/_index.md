@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 PDF 서명을 효율적으로 삭제"
 "url": "/ko/net/signature-management/delete-pdf-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 ID로 PDF 서명을 제거하는 방법
 
 ## 소개

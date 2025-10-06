@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Kimliğe Göre Barkod İmzaları Nasıl Güncellenir?"
 "url": "/tr/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Kimliğe Göre Barkod İmzaları Nasıl Güncellenir?
 
 ## giriiş

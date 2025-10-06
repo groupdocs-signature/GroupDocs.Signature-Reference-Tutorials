@@ -5,8 +5,8 @@
 "title": "Πώς να αφαιρέσετε υπογραφές κωδικού QR από έγγραφα στο .NET"
 "url": "/el/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # Πώς να διαγράψετε τις υπογραφές QR Code από τα έγγραφά σας
 
 ## Εισαγωγή

@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["stamp-signatures", "document-security", "groupdocs", "dotnet"]
+type: docs
 ---
-
 # How to Add Professional Stamp Signatures to Your .NET Documents
 
 Ever wondered how to give your business documents that official, professional look that commands respect? You're not alone. Whether you're processing contracts, certifying important paperwork, or just want to add that extra layer of authenticity to your documents, stamp signatures are your secret weapon.

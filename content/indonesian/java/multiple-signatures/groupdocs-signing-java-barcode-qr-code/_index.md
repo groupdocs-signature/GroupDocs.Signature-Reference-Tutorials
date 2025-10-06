@@ -4,8 +4,8 @@
 "title": "Implementasi Penandatanganan Kode Batang & Kode QR di Java Menggunakan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/java/multiple-signatures/groupdocs-signing-java-barcode-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Penandatanganan Kode Batang & Kode QR di Java dengan GroupDocs.Signature
 
 Dalam lanskap digital saat ini, memastikan integritas dokumen sangatlah penting. Baik dalam mengelola kontrak hukum, faktur, maupun label pengiriman, menjaga keaslian sangatlah penting. **GroupDocs.Signature untuk Java** menyederhanakan proses ini dengan memungkinkan integrasi kode batang dan kode QR yang lancar ke dalam dokumen. Panduan komprehensif ini akan memandu Anda dalam penerapan penandatanganan kode batang dan kode QR menggunakan GroupDocs.Signature untuk Java.

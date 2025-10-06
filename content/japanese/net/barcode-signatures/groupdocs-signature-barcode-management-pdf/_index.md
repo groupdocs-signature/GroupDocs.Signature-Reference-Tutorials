@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用した PDF での効率的なバーコード署名管理"
 "url": "/ja/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用した PDF での効率的なバーコード署名管理
 
 ## 導入

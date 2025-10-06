@@ -4,8 +4,8 @@
 "title": "Как удалить подписи QR-кода по идентификатору с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/signature-management/groupdocs-signature-net-delete-qr-code-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Как удалить подписи QR-кода по идентификатору с помощью GroupDocs.Signature для .NET
 
 ## Введение

@@ -5,8 +5,8 @@
 "title": "Hledání textových podpisů v dokumentech"
 "url": "/cs/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## Zavedení
 
 Textové podpisy jsou běžnou metodou pro označení autorství, schválení nebo ověření dokumentů. V oblasti správy digitálních dokumentů je schopnost programově vyhledávat a extrahovat textové podpisy klíčová pro ověřování dokumentů, automatizaci pracovních postupů a ověřování souladu s předpisy. GroupDocs.Signature for .NET nabízí komplexní řešení pro implementaci funkce vyhledávání textových podpisů ve vašich aplikacích .NET s podporou různých formátů dokumentů a pokročilých vyhledávacích funkcí.

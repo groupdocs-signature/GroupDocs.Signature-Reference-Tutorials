@@ -4,8 +4,8 @@
 "title": "PDF aláírása QR-kóddal ellátott címmel a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/qr-code-signatures/sign-pdf-qr-code-address-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentum aláírása QR-kóddal ellátott címmel a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

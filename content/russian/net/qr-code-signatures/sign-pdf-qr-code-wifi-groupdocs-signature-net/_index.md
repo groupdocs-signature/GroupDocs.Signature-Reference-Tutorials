@@ -4,8 +4,8 @@
 "title": "Как подписывать PDF-файлы с помощью QR-кодов, встраивая информацию о Wi-Fi, используя GroupDocs.Signature для .NET"
 "url": "/ru/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Как подписывать PDF-файлы с помощью QR-кодов, встраивая информацию о Wi-Fi, используя GroupDocs.Signature для .NET
 
 ## Введение

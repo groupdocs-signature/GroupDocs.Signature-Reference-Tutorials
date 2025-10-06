@@ -4,8 +4,8 @@
 "title": "Wyszukiwanie podpisów głównych dokumentów w .NET za pomocą GroupDocs.Signature&#58; Tekst i podpisy cyfrowe"
 "url": "/pl/net/search-verification/master-document-signature-searches-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie wyszukiwania podpisów dokumentów w .NET
 
 W dzisiejszej erze cyfrowej weryfikacja autentyczności dokumentów ma kluczowe znaczenie dla firm na całym świecie. Niezależnie od tego, czy chodzi o umowy, dokumenty prawne, czy oficjalne zapisy, efektywne wyszukiwanie podpisów może zaoszczędzić czas i zwiększyć bezpieczeństwo. Ten samouczek przeprowadzi Cię przez proces wdrażania wyszukiwania podpisów tekstowych i cyfrowych za pomocą GroupDocs.Signature for .NET — potężnej biblioteki zaprojektowanej do obsługi różnych typów podpisów elektronicznych w aplikacjach .NET.

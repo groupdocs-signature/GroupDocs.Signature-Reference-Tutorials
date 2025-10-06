@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 按 ID 刪除映像簽名"
 "url": "/zh-hant/net/signature-management/delete-image-signatures-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 按 ID 刪除影像簽署的綜合指南
 
 ## 介紹

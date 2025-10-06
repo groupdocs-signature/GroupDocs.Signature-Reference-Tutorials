@@ -5,8 +5,8 @@
 "title": "Hinzufügen von Metadatensignaturen zu PDF-Dokumenten in C# .NET"
 "url": "/de/net/document-signing/sign-pdf-with-metadata/"
 "weight": 11
+type: docs
 ---
-
 ## Einführung
 
 PDF-Dokumente (Portable Document Format) sind aufgrund ihrer Konsistenz und Plattformunabhängigkeit branchenübergreifend weit verbreitet. Die Gewährleistung der Authentizität und Rückverfolgbarkeit dieser Dokumente ist in vielen professionellen Umgebungen von entscheidender Bedeutung. Eine effektive Möglichkeit, dies zu erreichen, ist die Einbettung von Metadaten in die PDF-Dateien selbst.

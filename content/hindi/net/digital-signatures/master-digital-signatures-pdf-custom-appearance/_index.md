@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके कस्टम उपस्थिति के साथ PDF में डिजिटल हस्ताक्षर मास्टर करें"
 "url": "/hi/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके कस्टम उपस्थिति के साथ PDF में डिजिटल हस्ताक्षर में महारत हासिल करना
 
 ## परिचय

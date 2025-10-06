@@ -5,8 +5,8 @@
 "title": "Kompletní průvodce operacemi mazání podpisů dokumentů"
 "url": "/cs/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # Operace mazání v GroupDocs.Signature pro .NET
 
 ## Zavedení

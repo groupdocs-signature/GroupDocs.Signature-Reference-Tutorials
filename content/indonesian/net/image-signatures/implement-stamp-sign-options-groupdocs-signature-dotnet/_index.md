@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Opsi Tanda Tangan Stempel Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Opsi Tanda Tangan Stempel Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

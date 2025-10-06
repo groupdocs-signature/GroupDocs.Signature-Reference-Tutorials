@@ -4,8 +4,8 @@
 "title": "Cách phát hiện chữ ký mã QR MeCard trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/qr-code-signatures/detect-qr-code-mecard-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách phát hiện chữ ký mã QR MeCard bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

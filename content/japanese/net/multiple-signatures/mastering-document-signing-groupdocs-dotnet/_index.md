@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET によるドキュメント署名のマスター 包括的なガイド"
 "url": "/ja/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でドキュメント署名をマスターする
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF Secara Bertahap dengan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF Secara Bertahap Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

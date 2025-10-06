@@ -5,8 +5,8 @@
 "title": "如何轻松删除文档中的多个签名"
 "url": "/zh/net/delete-operations/delete-multiple-signatures/"
 "weight": 15
+type: docs
 ---
-
 # 如何在 .NET 中从文档中删除多个签名
 
 ## 为什么管理文档签名很重要

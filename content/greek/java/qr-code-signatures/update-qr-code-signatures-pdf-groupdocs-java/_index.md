@@ -4,8 +4,8 @@
 "title": "Ενημέρωση υπογραφών QR Code σε PDF με το GroupDocs.Signature for Java &#58; Ένας πλήρης οδηγός"
 "url": "/el/java/qr-code-signatures/update-qr-code-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Ενημέρωση υπογραφών QR Code σε PDF με το GroupDocs.Signature για Java: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

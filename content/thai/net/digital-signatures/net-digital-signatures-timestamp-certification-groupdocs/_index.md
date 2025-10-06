@@ -4,8 +4,8 @@
 "title": "วิธีการนำลายเซ็นดิจิทัล .NET ที่มี Timestamp และการรับรองไปใช้โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำลายเซ็นดิจิทัล .NET ที่มี Timestamp และการรับรองไปใช้โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中使用渐变画笔签署文档"
 "url": "/zh/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中使用渐变画笔签署文档
 
 在当今的数字时代，安全地签署文档对于各行各业的效率至关重要。本教程将指导您使用渐变画笔效果对文档进行数字签名。 **GroupDocs.Signature for Java**。

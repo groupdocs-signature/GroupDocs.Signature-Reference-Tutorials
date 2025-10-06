@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในเอกสารโดยใช้สติกเกอร์ข้อความใน GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสารโดยใช้สติกเกอร์ข้อความใน GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

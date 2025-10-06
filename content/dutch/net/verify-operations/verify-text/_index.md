@@ -5,8 +5,8 @@
 "title": "Controleer teksthandtekeningen in documenten"
 "url": "/nl/net/verify-operations/verify-text/"
 "weight": 13
+type: docs
 ---
-
 ## Invoering
 
 Teksthandtekeningen, hoewel vaak eenvoudiger dan digitale of elektronische handtekeningen, spelen een cruciale rol bij documentbeheer en -verificatie. Of het nu gaat om watermerken, voettekst of specifieke inhoudspatronen, het valideren van de aanwezigheid en integriteit van teksthandtekeningen is een belangrijk aspect van documentverificatieprocessen.

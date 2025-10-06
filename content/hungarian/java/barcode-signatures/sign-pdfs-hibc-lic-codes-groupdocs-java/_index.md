@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása HIBC LIC kódokkal a GroupDocs.Signature for Java használatával – Átfogó útmutató"
 "url": "/hu/java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF-ek aláírása HIBC LIC kódokkal a GroupDocs.Signature for Java használatával: Átfogó útmutató
 
 gyorsan fejlődő digitális környezetben a dokumentumok hitelességének biztosítása kulcsfontosságú, különösen a gyógyszeripari és egészségügyi logisztikai szektorokban. A nagy információtartalmú vonalkódok (HIBC) kódok dokumentumaiba integrálásával hatékonyan biztosíthatja és ellenőrizheti az aláírásokat. Ez az útmutató bemutatja, hogyan használhatja a GroupDocs.Signature for Java alkalmazást PDF-ek aláírására HIBC LIC QR, Aztec és Data Matrix kódokkal.

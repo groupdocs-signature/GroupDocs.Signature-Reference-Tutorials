@@ -5,8 +5,8 @@
 "title": "Fügen Sie Dokumenten mit GroupDocs.Signature für .NET Textsignaturen hinzu"
 "url": "/de/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # So fügen Sie Dokumenten mit GroupDocs.Signature für .NET Textsignaturen hinzu
 
 ## Einführung: Modernisieren Sie Ihren Dokumentensignaturprozess

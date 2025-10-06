@@ -4,8 +4,8 @@
 "title": "Assinaturas de metadados seguras do Word em Java com GroupDocs - Um guia completo"
 "url": "/pt/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Assinaturas de metadados de palavras seguras em Java com GroupDocs
 
 ## Introdução

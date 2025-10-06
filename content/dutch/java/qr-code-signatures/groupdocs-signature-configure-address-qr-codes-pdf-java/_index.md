@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met adres-QR-codes met GroupDocs.Signature voor Java"
 "url": "/nl/java/qr-code-signatures/groupdocs-signature-configure-address-qr-codes-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF's ondertekenen met adres-QR-codes met GroupDocs.Signature voor Java
 
 In de digitale wereld van vandaag is het veilig ondertekenen van documenten cruciaal. Of u nu een professional bent of een particulier die contracten beheert, het automatiseren van het toevoegen van handtekeningen kan tijd besparen en de documentbeveiliging verbeteren. Deze tutorial begeleidt u bij het gebruik ervan. **GroupDocs.Signature voor Java** Om een Adres-object te maken en configureren en dit vervolgens te integreren in de QR-code-ondertekeningsopties in PDF's. Door deze handleiding te volgen, leert u hoe u adresgegevens naadloos als QR-code in uw documenten kunt insluiten.

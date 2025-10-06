@@ -4,8 +4,8 @@
 "title": "Cách cập nhật chữ ký hình ảnh trong tệp PDF bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/image-signatures/update-image-signatures-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách cập nhật chữ ký hình ảnh trong tệp PDF bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

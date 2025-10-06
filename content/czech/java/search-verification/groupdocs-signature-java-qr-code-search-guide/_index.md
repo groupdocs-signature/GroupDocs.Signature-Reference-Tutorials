@@ -4,8 +4,8 @@
 "title": "Implementujte vyhledávání podpisů QR kódů pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/search-verification/groupdocs-signature-java-qr-code-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Implementace vyhledávání podpisů QR kódů pomocí GroupDocs.Signature pro Javu
 
 V dnešní digitální krajině je efektivní ověřování elektronických podpisů klíčové v různých odvětvích. **GroupDocs.Signature pro Javu** nabízí robustní řešení, zejména pro vyhledávání a správu podpisů QR kódů v dokumentech. Tento tutoriál vás provede implementací vyhledávání podpisů QR kódů pomocí GroupDocs.Signature v Javě.

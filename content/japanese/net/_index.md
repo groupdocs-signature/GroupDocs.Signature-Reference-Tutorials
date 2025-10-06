@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature for .NET の包括的なチュートリアルと例"
 "url": "/ja/net/"
 "weight": 10
+type: docs
 ---
-
 ## 導入
 
 GroupDocs.Signature for .NETの包括的なガイドへようこそ。GroupDocs.Signatureは、開発者が複数のドキュメント形式に安全なデジタル署名を実装できるようにする強力なドキュメント署名ソリューションです。詳細なチュートリアルと実用的な例をまとめたこのガイドは、.NETアプリケーションでAPIの潜在能力を最大限に活用するのに役立ちます。

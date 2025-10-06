@@ -4,8 +4,8 @@
 "title": "Cách ký số tài liệu Word bằng văn bản dưới dạng hình ảnh bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký số tài liệu Word bằng văn bản dưới dạng hình ảnh bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

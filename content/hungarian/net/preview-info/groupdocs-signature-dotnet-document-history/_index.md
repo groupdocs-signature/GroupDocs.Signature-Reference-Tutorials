@@ -4,8 +4,8 @@
 "title": "Dokumentumfeldolgozási előzmények elsajátítása a GroupDocs.Signature for .NET segítségével – Átfogó útmutató"
 "url": "/hu/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumfeldolgozási előzmények elsajátítása a GroupDocs.Signature for .NET segítségével: Átfogó útmutató
 
 ## Bevezetés

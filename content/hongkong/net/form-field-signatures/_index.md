@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature .NET 表單欄位簽章教學"
 "url": "/zh-hant/net/form-field-signatures/"
 "weight": 8
+type: docs
 ---
-
 # GroupDocs.Signature .NET 表單欄位簽章教學
 
 透過我們為 .NET 開發人員提供的詳細 GroupDocs.Signature 教學課程，掌握 PDF 表單欄位簽章。這些逐步指南示範如何使用標準表單欄位、建立和管理組合方塊欄位、實作單選按鈕群組以及如何使用表單欄位進行文件簽章。每個教學課程都提供了表單欄位操作的實用 C# 程式碼範例，幫助您建立具有可填寫表單欄位的互動式 PDF 文檔，這些表單欄位可以收集和驗證使用者輸入，同時保持文檔的完整性。

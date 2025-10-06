@@ -4,8 +4,8 @@
 "title": "Szyfrowanie Java i podpis metadanych – bezpieczne przetwarzanie dokumentów za pomocą GroupDocs.Signature"
 "url": "/pl/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja szyfrowania Java i wyszukiwania podpisów metadanych za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

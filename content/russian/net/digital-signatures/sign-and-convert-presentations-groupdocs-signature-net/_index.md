@@ -4,8 +4,8 @@
 "title": "Как подписывать и конвертировать презентации с помощью GroupDocs.Signature для .NET&#58; подробное руководство"
 "url": "/ru/net/digital-signatures/sign-and-convert-presentations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Как подписывать и конвертировать презентации с помощью GroupDocs.Signature для .NET: подробное руководство
 
 ## Введение

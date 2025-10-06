@@ -4,8 +4,8 @@
 "title": "Signature sécurisée de documents avec des codes QR à l'aide de GroupDocs.Signature pour .NET - Un guide complet"
 "url": "/fr/net/qr-code-signatures/secure-document-signing-qr-codes-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Signature sécurisée de documents avec des codes QR à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

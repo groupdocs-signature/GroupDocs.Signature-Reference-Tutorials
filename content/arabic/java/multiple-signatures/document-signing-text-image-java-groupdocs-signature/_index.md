@@ -4,8 +4,8 @@
 "title": "كيفية توقيع المستندات باستخدام توقيع الصورة النصية في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ توقيع المستندات باستخدام توقيع النص والصورة باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

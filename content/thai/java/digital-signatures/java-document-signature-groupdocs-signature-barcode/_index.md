@@ -4,8 +4,8 @@
 "title": "ลายเซ็นเอกสารหลักใน Java ด้วย GroupDocs.Signature&Barcode Signature Guide"
 "url": "/th/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # เรียนรู้ลายเซ็นเอกสารใน Java ด้วย GroupDocs.Signature
 
 **ปรับปรุงเวิร์กโฟลว์เอกสารดิจิทัลของคุณให้มีประสิทธิภาพด้วยการลงนาม ตรวจสอบ ค้นหา อัปเดต และลบลายเซ็นบาร์โค้ดโดยใช้ GroupDocs.Signature สำหรับ Java**

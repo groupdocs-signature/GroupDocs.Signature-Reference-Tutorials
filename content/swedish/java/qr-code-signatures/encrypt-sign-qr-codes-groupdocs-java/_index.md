@@ -4,8 +4,8 @@
 "title": "Kryptera och signera QR-koder i Java med GroupDocs.Signature – en omfattande guide"
 "url": "/sv/java/qr-code-signatures/encrypt-sign-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Kryptera och signera QR-koder med GroupDocs.Signature för Java
 
 ## Introduktion

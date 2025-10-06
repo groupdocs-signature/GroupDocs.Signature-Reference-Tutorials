@@ -4,8 +4,8 @@
 "title": "Jak bezpečně podepisovat dokumenty Wordu pomocí QR kódů pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Jak bezpečně podepisovat dokumenty Wordu pomocí QR kódů pomocí GroupDocs.Signature pro Javu
 
 V dnešním digitálním světě je bezpečné podepisování dokumentů klíčové pro firmy i jednotlivce. Ať už se jedná o smlouvy, právní dohody nebo oficiální dopisy, zajištění pravosti vašich dokumentů je prvořadé. Díky elektronickým podpisům jsme tento proces zjednodušili a zároveň přidali další vrstvu zabezpečení a pohodlí. GroupDocs.Signature pro Javu nabízí výkonné řešení pro podepisování dokumentů Word pomocí QR kódů – moderního a bezpečného digitálního podpisu.

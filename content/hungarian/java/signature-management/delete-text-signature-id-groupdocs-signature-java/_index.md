@@ -4,8 +4,8 @@
 "title": "Hogyan töröljünk szöveges aláírást azonosító alapján a GroupDocs.Signature for Java használatával? Átfogó útmutató"
 "url": "/hu/java/signature-management/delete-text-signature-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Szöveges aláírás törlése azonosító alapján a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

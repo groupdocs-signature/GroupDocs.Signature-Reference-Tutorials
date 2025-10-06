@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 擷取文件處理歷史記錄－逐步指南"
 "url": "/zh-hant/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 擷取文件處理記錄：逐步指南
 
 ## 介紹

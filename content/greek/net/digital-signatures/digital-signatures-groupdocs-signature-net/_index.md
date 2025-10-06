@@ -4,8 +4,8 @@
 "title": "Υλοποίηση ψηφιακών υπογραφών σε .NET χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/digital-signatures/digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση υπογραφής εγγράφων με ψηφιακές υπογραφές χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

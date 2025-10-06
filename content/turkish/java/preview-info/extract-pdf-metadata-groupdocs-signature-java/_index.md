@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak PDF Meta Verilerini Çıkarma - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/preview-info/extract-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak PDF Meta Verilerini Çıkarma: Kapsamlı Bir Kılavuz
 
 ## giriiş

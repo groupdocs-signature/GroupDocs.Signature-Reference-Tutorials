@@ -5,8 +5,8 @@
 "title": "如何在 .NET 中按類型刪除文件簽名"
 "url": "/zh-hant/net/delete-operations/delete-signature-by-type/"
 "weight": 12
+type: docs
 ---
-
 # 如何在 .NET 中按類型刪除文件簽名
 
 ## 為什麼簽章管理在文件處理中如此重要

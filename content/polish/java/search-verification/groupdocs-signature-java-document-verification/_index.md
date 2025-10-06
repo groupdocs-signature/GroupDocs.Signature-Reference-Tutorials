@@ -4,8 +4,8 @@
 "title": "Weryfikacja dokumentu głównego za pomocą GroupDocs.Signature dla Java – przewodnik krok po kroku"
 "url": "/pl/java/search-verification/groupdocs-signature-java-document-verification/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie weryfikacji dokumentów za pomocą GroupDocs.Signature dla Java
 
 W dzisiejszej erze cyfrowej zapewnienie autentyczności i integralności dokumentów ma kluczowe znaczenie w różnych branżach. Niezależnie od tego, czy jesteś prawnikiem weryfikującym umowy, czy firmą uwierzytelniającą faktury, weryfikacja dokumentów jest niezbędna. **GroupDocs.Signature dla Java**: potężna biblioteka, która upraszcza ten proces, umożliwiając łatwą weryfikację podpisów przy użyciu kodów kreskowych.

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 搜索电子表格元数据——综合指南"
 "url": "/zh/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 搜索电子表格元数据：综合指南
 
 ## 介绍

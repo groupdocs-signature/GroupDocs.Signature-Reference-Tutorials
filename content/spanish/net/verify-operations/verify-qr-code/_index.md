@@ -5,8 +5,8 @@
 "title": "Verificar el código QR en los documentos"
 "url": "/es/net/verify-operations/verify-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## Introducción
 
 La seguridad de los documentos es un aspecto fundamental de las operaciones comerciales modernas. Los códigos QR se han convertido en un método cada vez más popular para incrustar información en documentos cuya autenticidad puede verificarse. GroupDocs.Signature para .NET ofrece una solución potente y flexible para verificar códigos QR incrustados en documentos en diversos formatos.

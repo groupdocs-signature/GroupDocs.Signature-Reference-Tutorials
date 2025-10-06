@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した .NET でのバーコード検証のマスターとドキュメントの整合性"
 "url": "/ja/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した .NET でのバーコード検証の習得
 
 ## 導入

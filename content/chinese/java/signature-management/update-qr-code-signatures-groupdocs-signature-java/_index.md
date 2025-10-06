@@ -4,8 +4,8 @@
 "title": "使用 Java 更新二维码签名——GroupDocs.Signature 使用指南"
 "url": "/zh/java/signature-management/update-qr-code-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 Java 更新二维码签名：GroupDocs.Signature 综合指南
 
 在当今的数字环境中，文档安全对于企业和个人都至关重要。二维码签名为文档安全和验证提供了可靠的解决方案。本教程将逐步指导您如何使用 GroupDocs.Signature for Java 更新二维码签名——这是一款功能强大的工具，可简化应用程序中的签名管理。

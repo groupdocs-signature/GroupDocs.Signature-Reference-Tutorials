@@ -5,8 +5,8 @@
 "title": "Cara Menandatangani Dokumen PDF dengan Kolom Formulir di .NET"
 "url": "/id/net/advanced-signature-techniques/sign-pdf-form-field/"
 "weight": 10
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF dengan Kolom Formulir Menggunakan GroupDocs.Signature
 
 Mencari cara andal untuk menambahkan tanda tangan digital ke dokumen PDF Anda dengan kolom formulir? Dalam panduan lengkap ini, kami akan memandu Anda melalui proses menggunakan GroupDocs.Signature untuk .NET. Mari ubah alur kerja dokumen Anda dengan tanda tangan yang aman dan mengikat secara hukum!

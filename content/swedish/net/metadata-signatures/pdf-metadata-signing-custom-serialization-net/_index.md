@@ -4,8 +4,8 @@
 "title": "PDF-metadatasignering med anpassad serialisering i .NET med GroupDocs.Signature"
 "url": "/sv/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementera PDF-metadatasignering med anpassad serialisering med GroupDocs.Signature för .NET
 
 ## Introduktion

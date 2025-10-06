@@ -4,8 +4,8 @@
 "title": "Jak podpisywać pliki PDF za pomocą kodów QR adresów przy użyciu GroupDocs.Signature dla Java"
 "url": "/pl/java/qr-code-signatures/groupdocs-signature-configure-address-qr-codes-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać pliki PDF za pomocą kodów QR adresów przy użyciu GroupDocs.Signature dla Java
 
 W dzisiejszym cyfrowym świecie bezpieczne podpisywanie dokumentów jest kluczowe. Niezależnie od tego, czy jesteś profesjonalistą biznesowym, czy osobą zarządzającą umowami, automatyzacja dodawania podpisów może zaoszczędzić czas i zwiększyć bezpieczeństwo dokumentów. Ten samouczek przeprowadzi Cię przez proces korzystania z… **GroupDocs.Signature dla Java** Aby utworzyć i skonfigurować obiekt Adres, a następnie zintegrować go z opcjami podpisywania kodem QR w plikach PDF. Postępując zgodnie z tym przewodnikiem, dowiesz się, jak bezproblemowo osadzać dane adresowe jako kod QR w dokumentach.

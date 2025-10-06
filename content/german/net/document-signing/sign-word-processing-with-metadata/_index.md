@@ -5,8 +5,8 @@
 "title": "Verbessern Sie Word-Dokumente mit Metadatensignaturen in C# .NET"
 "url": "/de/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## Einführung
 
 Textverarbeitungsdokumente gehören zu den am häufigsten verwendeten Dateitypen in Wirtschaft, Bildung und privater Kommunikation. Die Gewährleistung der Authentizität, die Rückverfolgbarkeit und die Wahrung der Integrität dieser Dokumente sind in vielen professionellen Umgebungen von entscheidender Bedeutung. Ein effektiver Ansatz zur Verbesserung der Dokumentensicherheit und Rückverfolgbarkeit ist die Einbettung von Metadatensignaturen.

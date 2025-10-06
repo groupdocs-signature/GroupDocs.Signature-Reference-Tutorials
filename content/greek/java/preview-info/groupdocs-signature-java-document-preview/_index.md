@@ -4,8 +4,8 @@
 "title": "Υλοποίηση της δημιουργίας προεπισκόπησης εγγράφων σε Java με το GroupDocs.Signature&#58; Ένας ολοκληρωμένος οδηγός"
 "url": "/el/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση της δημιουργίας προεπισκόπησης εγγράφων σε Java με το GroupDocs.Signature
 
 ## Εισαγωγή

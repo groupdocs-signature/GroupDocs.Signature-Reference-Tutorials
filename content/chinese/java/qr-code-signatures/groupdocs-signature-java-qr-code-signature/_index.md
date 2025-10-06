@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 Java 文档中实现二维码签名"
 "url": "/zh/java/qr-code-signatures/groupdocs-signature-java-qr-code-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 Java 文档中实现二维码签名
 
 ## 介绍

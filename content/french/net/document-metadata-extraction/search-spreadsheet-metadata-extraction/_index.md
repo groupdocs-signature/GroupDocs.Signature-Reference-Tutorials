@@ -5,8 +5,8 @@
 "title": "Extraire facilement les métadonnées des feuilles de calcul avec GroupDocs.Signature"
 "url": "/fr/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # Comment extraire les métadonnées d'une feuille de calcul à l'aide de GroupDocs.Signature
 
 ## Pourquoi les métadonnées des feuilles de calcul sont importantes

@@ -4,8 +4,8 @@
 "title": "Αναζήτηση υπογραφής κύριου κειμένου σε έγγραφα .NET χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την αναζήτηση υπογραφής κειμένου σε έγγραφα .NET χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

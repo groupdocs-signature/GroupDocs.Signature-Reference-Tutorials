@@ -4,8 +4,8 @@
 "title": "Wyszukiwanie i wyodrębnianie podpisów metadanych PDF za pomocą GroupDocs w .NET"
 "url": "/pl/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Wyszukiwanie i wyodrębnianie podpisów metadanych PDF za pomocą GroupDocs w .NET
 
 ## Wstęp

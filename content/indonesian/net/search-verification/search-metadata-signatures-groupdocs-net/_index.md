@@ -4,8 +4,8 @@
 "title": "Mencari Tanda Tangan Metadata dalam Dokumen Gambar Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/search-verification/search-metadata-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mencari Tanda Tangan Metadata dalam Dokumen Gambar Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して PDF メタデータ署名を検索する方法"
 "url": "/ja/net/metadata-signatures/master-pdf-metadata-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して PDF メタデータ署名を検索する方法
 
 ## 導入

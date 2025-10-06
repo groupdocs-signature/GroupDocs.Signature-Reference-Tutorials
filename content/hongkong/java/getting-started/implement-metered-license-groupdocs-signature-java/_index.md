@@ -4,8 +4,8 @@
 "title": "在 GroupDocs.Signature for Java 中實作計量許可證－逐步指南"
 "url": "/zh-hant/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何在 GroupDocs.Signature for Java 中實作計量許可證
 
 ## 介紹

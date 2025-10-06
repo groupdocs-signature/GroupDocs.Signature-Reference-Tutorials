@@ -4,8 +4,8 @@
 "title": "Digitale Signaturen in .NET beherrschen&#58; So verwenden Sie GroupDocs.Signature zum Signieren und Durchsuchen von Dokumenten"
 "url": "/de/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Digitale Signaturen in .NET beherrschen: So verwenden Sie GroupDocs.Signature zum Signieren und Durchsuchen von Dokumenten
 
 ## Einführung

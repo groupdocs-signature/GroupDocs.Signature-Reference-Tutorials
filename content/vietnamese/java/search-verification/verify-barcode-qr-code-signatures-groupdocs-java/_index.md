@@ -4,8 +4,8 @@
 "title": "Cách xác minh mã vạch và mã QR trong tài liệu bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/search-verification/verify-barcode-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai xác minh mã vạch và mã QR với GroupDocs.Signature cho Java
 
 ## Giới thiệu

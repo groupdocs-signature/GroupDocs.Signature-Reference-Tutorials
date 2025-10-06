@@ -5,8 +5,8 @@
 "title": "使用 GroupDocs.Signature 輕鬆為文件添加圖像簽名"
 "url": "/zh-hant/net/advanced-signature-techniques/sign-with-image/"
 "weight": 13
+type: docs
 ---
-
 ## 簡介：使用影像簽名提高文件安全性
 
 您是否想過如何讓您的數位文件更安全、更具法律效力？添加圖像簽名是驗證文件真實性並防止其被篡改的最有效方法之一。在本指南中，我們將引導您完成使用 GroupDocs.Signature 在 .NET 應用程式中實現基於映像的文件簽章的過程。

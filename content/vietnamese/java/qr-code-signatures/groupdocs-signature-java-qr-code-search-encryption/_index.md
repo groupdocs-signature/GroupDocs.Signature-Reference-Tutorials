@@ -4,8 +4,8 @@
 "title": "Tìm kiếm và mã hóa mã QR trong Java - Master GroupDocs.Signature để xử lý tài liệu an toàn"
 "url": "/vi/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Tìm kiếm và mã hóa mã QR trong Java: Master GroupDocs.Signature để xử lý tài liệu an toàn
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Dominando assinaturas digitais de PDF em Java usando GroupDocs.Signature para campos de texto, caixa de seleção e digitais"
 "url": "/pt/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Dominando Assinaturas Digitais de PDF em Java: Usando GroupDocs.Signature para Texto, Caixa de Seleção e Campos Digitais
 
 ## Introdução

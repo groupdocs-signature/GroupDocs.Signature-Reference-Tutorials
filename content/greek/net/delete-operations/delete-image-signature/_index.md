@@ -5,8 +5,8 @@
 "title": "Πώς να αφαιρέσετε υπογραφές εικόνας από έγγραφα στο .NET"
 "url": "/el/net/delete-operations/delete-image-signature/"
 "weight": 14
+type: docs
 ---
-
 # Πώς να αφαιρέσετε υπογραφές εικόνας από έγγραφα χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

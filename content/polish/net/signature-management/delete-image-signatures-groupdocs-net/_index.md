@@ -4,8 +4,8 @@
 "title": "Jak usunąć podpisy obrazów w .NET za pomocą GroupDocs.Signature? Przewodnik krok po kroku"
 "url": "/pl/net/signature-management/delete-image-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak usunąć podpisy obrazów w .NET za pomocą GroupDocs.Signature: Przewodnik krok po kroku
 
 dzisiejszym cyfrowym świecie zarządzanie podpisami dokumentów ma kluczowe znaczenie dla zachowania bezpieczeństwa i autentyczności operacji biznesowych. Jeśli masz do czynienia z dokumentami zawierającymi wiele podpisów graficznych, efektywne zarządzanie nimi może zaoszczędzić czas i zasoby. Ten kompleksowy przewodnik przeprowadzi Cię przez proces korzystania z… **GroupDocs.Signature dla .NET** Aby zainicjować instancję podpisu, wyszukać podpisy graficzne i usunąć określone podpisy w oparciu o określone warunki. Do końca tego samouczka opanujesz, jak skutecznie usprawnić ten proces.

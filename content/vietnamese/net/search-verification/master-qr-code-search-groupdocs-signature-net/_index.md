@@ -4,8 +4,8 @@
 "title": "Tìm kiếm mã QR trong PDF bằng GroupDocs.Signature cho .NET - Hướng dẫn đầy đủ"
 "url": "/vi/net/search-verification/master-qr-code-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ tìm kiếm mã QR trong PDF bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 更新文档中的图像签名——分步指南"
 "url": "/zh/net/image-signatures/update-image-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 更新文档中的图像签名
 
 ## 介绍

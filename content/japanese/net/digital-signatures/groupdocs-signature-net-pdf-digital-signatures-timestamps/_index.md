@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してタイムスタンプ付きの PDF デジタル署名を実装する方法"
 "url": "/ja/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してタイムスタンプ付きの PDF デジタル署名を実装する方法
 
 ## 導入

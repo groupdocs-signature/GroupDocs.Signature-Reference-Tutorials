@@ -4,8 +4,8 @@
 "title": "Manajemen Tanda Tangan Barcode yang Efisien dalam PDF dengan GroupDocs.Signature untuk .NET"
 "url": "/id/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Manajemen Tanda Tangan Barcode yang Efisien dalam PDF dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

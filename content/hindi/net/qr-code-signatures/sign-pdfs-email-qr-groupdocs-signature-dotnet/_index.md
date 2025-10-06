@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके ईमेल QR कोड के साथ PDF पर हस्ताक्षर कैसे करें | चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/net/qr-code-signatures/sign-pdfs-email-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके ईमेल QR कोड के साथ PDF दस्तावेज़ पर हस्ताक्षर कैसे करें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ जावा इवेंट हैंडलिंग में टेक्स्ट साइनिंग का कार्यान्वयन"
 "url": "/hi/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके इवेंट हैंडलिंग के साथ टेक्स्ट साइनिंग को कार्यान्वित करना
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 对 PDF 进行数字签名——分步指南"
 "url": "/zh/net/digital-signatures/digitally-sign-pdf-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 对 PDF 文档进行数字签名
 
 ## 介绍

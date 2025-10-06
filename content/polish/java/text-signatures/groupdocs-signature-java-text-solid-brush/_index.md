@@ -4,8 +4,8 @@
 "title": "Implementacja podpisu tekstowego za pomocą pędzla jednolitego w Javie przy użyciu GroupDocs.Signature"
 "url": "/pl/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja podpisu tekstowego za pomocą pędzla jednolitego w Javie
 
 ## Wstęp

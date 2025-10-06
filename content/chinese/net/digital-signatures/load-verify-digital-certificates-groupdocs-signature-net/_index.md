@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 加载和验证数字证书——综合指南"
 "url": "/zh/net/digital-signatures/load-verify-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 加载和验证数字证书
 
 ## 介绍

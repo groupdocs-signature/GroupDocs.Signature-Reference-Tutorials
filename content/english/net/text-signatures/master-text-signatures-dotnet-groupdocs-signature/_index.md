@@ -9,8 +9,8 @@ weight: 1
 url: "/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 categories: ["Digital Signatures"]
 tags: ["csharp", "dotnet", "pdf-signing", "document-automation", "groupdocs"]
+type: docs
 ---
-
 # How to Add Text Signature to PDF C# - Complete GroupDocs.Signature
 
 ## Introduction

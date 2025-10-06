@@ -4,8 +4,8 @@
 "title": "วิธีการลบลายเซ็นภาพตาม ID โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/signature-management/delete-image-signatures-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # คู่มือครอบคลุมในการลบลายเซ็นภาพโดยใช้ ID โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "掌握 Java 中的二維碼搜尋－GroupDocs.Signature 使用完整指南"
 "url": "/zh-hant/java/search-verification/mastering-qr-code-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 Java 中的二維碼搜尋：使用 GroupDocs.Signature 的完整指南
 
 ## 介紹

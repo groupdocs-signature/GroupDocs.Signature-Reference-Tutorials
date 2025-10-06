@@ -4,8 +4,8 @@
 "title": "So implementieren Sie Java GroupDocs.Signature&#58; Abrufen und Anzeigen des Dokumentprozessverlaufs"
 "url": "/de/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie Java GroupDocs.Signature: Abrufen und Anzeigen des Dokumentprozessverlaufs
 
 ## Einführung

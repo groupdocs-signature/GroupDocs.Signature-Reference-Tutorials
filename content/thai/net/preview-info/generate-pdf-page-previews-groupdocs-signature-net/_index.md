@@ -4,8 +4,8 @@
 "title": "สร้างตัวอย่างหน้า PDF โดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # สร้างตัวอย่างหน้า PDF โดยใช้ GroupDocs.Signature สำหรับ .NET: คู่มือที่ครอบคลุม
 
 ## การแนะนำ

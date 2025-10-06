@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása precízen elhelyezett vonalkódokkal a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentum aláírása pontosan elhelyezett vonalkódokkal a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

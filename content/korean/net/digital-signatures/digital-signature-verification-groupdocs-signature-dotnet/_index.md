@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 디지털 서명 확인하기 - 완벽한 가이드"
 "url": "/ko/net/digital-signatures/digital-signature-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 디지털 서명 확인: 완전한 가이드
 
 ## 소개

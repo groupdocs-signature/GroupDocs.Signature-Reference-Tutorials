@@ -4,8 +4,8 @@
 "title": "Comment signer des PDF avec des codes QR intégrant des informations Wi-Fi à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer des PDF avec des codes QR intégrant des informations Wi-Fi à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

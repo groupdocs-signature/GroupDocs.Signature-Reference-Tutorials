@@ -3,8 +3,8 @@
 "title": "Tutorial sulle firme multiple per GroupDocs.Signature .NET"
 "url": "/it/net/multiple-signatures/"
 "weight": 10
+type: docs
 ---
-
 # Tutorial sulle firme multiple per GroupDocs.Signature .NET
 
 Scopri come creare flussi di lavoro di firma sofisticati con i nostri tutorial GroupDocs.Signature per firme multiple in .NET. Queste guide complete illustrano come combinare diversi tipi di firma in un unico processo, implementare sequenze di firma ordinate, gestire configurazioni di firma complesse e lavorare con documenti multipagina. Ogni tutorial fornisce esempi dettagliati di codice C# per scenari di firma avanzati, aiutandoti a creare solide applicazioni di elaborazione dei documenti che supportano requisiti di firma complessi per casi d'uso aziendali e legali.

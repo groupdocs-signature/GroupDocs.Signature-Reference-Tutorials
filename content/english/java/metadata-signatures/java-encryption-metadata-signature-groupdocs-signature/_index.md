@@ -8,10 +8,8 @@ keywords:
 - Java Encryption Metadata Signature
 - GroupDocs.Signature Java
 - Custom Metadata Signatures
-
+type: docs
 ---
-
-
 # Implementing Java Encryption and Metadata Signature Search with GroupDocs.Signature for Java
 
 ## Introduction

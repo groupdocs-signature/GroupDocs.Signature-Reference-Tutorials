@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature pro .NET - efektivní extrakce a zobrazení informací o dokumentech"
 "url": "/cs/net/preview-info/groupdocs-signature-net-document-info-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí GroupDocs.Signature pro .NET: Efektivní extrakce a zobrazení informací o dokumentech
 
 ## Zavedení

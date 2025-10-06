@@ -4,8 +4,8 @@
 "title": "Εξαγωγή δεδομένων WiFi από κωδικούς QR σε PDF χρησιμοποιώντας Java με GroupDocs.Signature"
 "url": "/el/java/qr-code-signatures/qr-code-wifi-data-extraction-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Εξαγωγή δεδομένων WiFi από κωδικούς QR σε PDF χρησιμοποιώντας Java με GroupDocs.Signature
 
 ## Εισαγωγή

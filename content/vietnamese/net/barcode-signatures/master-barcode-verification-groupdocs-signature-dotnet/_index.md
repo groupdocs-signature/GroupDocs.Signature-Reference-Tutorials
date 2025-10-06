@@ -4,8 +4,8 @@
 "title": "Xác minh mã vạch chính trong .NET với GroupDocs.Signature để đảm bảo tính toàn vẹn của tài liệu"
 "url": "/vi/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ việc xác minh mã vạch trong .NET với GroupDocs.Signature
 
 ## Giới thiệu

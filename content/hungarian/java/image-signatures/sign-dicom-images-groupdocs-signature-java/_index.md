@@ -4,8 +4,8 @@
 "title": "DICOM képek aláírása QR-kódokkal és metaadatokkal a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/image-signatures/sign-dicom-images-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # DICOM képek aláírása QR-kódokkal és metaadatokkal a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

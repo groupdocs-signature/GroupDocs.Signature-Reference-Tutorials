@@ -5,8 +5,8 @@
 "title": "在 C# .NET 中為 PDF 文件新增元資料簽名"
 "url": "/zh-hant/net/document-signing/sign-pdf-with-metadata/"
 "weight": 11
+type: docs
 ---
-
 ## 介紹
 
 PDF（可移植文件格式）文件因其一致性和平台獨立性而廣泛應用於各行各業。在許多專業環境中，確保這些文件的真實性和可追溯性至關重要。實現這一點的一個有效方法是將元資料嵌入 PDF 檔案中。

@@ -4,8 +4,8 @@
 "title": "Signera dokument med QR-koder med GroupDocs.Signature för Java – en komplett guide"
 "url": "/sv/java/qr-code-signatures/sign-documents-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Signera dokument med QR-koder med GroupDocs.Signature för Java: En omfattande guide
 
 I dagens digitala värld är det avgörande att säkra dokument. Oavsett om du är en affärsperson eller en individ som hanterar känslig information är det av största vikt att säkerställa dokumentens integritet och äkthet. **GroupDocs.Signature för Java**—ett kraftfullt bibliotek—gör det möjligt att signera dokument med olika metoder, inklusive QR-koder. Den här guiden guidar dig genom hur du laddar ner dokument från Azure Blob Storage och signerar dem med QR-koder med GroupDocs.Signature.

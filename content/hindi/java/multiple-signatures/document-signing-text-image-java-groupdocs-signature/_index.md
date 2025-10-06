@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में टेक्स्ट इमेज हस्ताक्षर के साथ दस्तावेज़ों पर हस्ताक्षर कैसे करें"
 "url": "/hi/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके टेक्स्ट इमेज हस्ताक्षर के साथ दस्तावेज़ हस्ताक्षर को कैसे कार्यान्वित करें
 
 ## परिचय

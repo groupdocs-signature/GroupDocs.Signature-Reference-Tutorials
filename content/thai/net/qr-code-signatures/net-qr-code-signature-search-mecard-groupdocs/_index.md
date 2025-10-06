@@ -4,8 +4,8 @@
 "title": "ใช้งานการค้นหาลายเซ็น QR Code ของ .NET ด้วย MeCard โดยใช้ GroupDocs.Signature"
 "url": "/th/net/qr-code-signatures/net-qr-code-signature-search-mecard-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # การนำการค้นหาลายเซ็น QR Code ของ .NET ไปใช้กับ MeCard โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

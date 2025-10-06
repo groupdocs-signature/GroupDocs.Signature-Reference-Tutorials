@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 對帶有條碼的 PDF 文件進行簽名"
 "url": "/zh-hant/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 對帶有條碼的 PDF 文件進行簽名
 
 在當今的數位世界中，電子簽名不僅便捷，還能提高安全性和效率。然而，許多企業面臨著如何確保這些簽名的安全性和可驗證性的挑戰。輸入 **適用於 .NET 的 GroupDocs.Signature**—一個功能強大的庫，旨在簡化此過程，允許您以程式設計方式為 PDF 文件添加條碼簽名。本教學將指導您如何實作 GroupDocs.Signature for .NET，以使用條碼簽章對 PDF 文件進行簽章。

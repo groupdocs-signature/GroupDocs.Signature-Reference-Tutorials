@@ -5,8 +5,8 @@
 "title": "Jak podpisywać dokumenty PDF polami formularzy w .NET"
 "url": "/pl/net/advanced-signature-techniques/sign-pdf-form-field/"
 "weight": 10
+type: docs
 ---
-
 # Jak podpisywać dokumenty PDF polami formularza za pomocą GroupDocs.Signature
 
 Szukasz niezawodnego sposobu na dodawanie podpisów cyfrowych do dokumentów PDF z polami formularzy? W tym kompleksowym przewodniku przeprowadzimy Cię przez ten proces z wykorzystaniem GroupDocs.Signature dla .NET. Przekształćmy Twój obieg dokumentów dzięki bezpiecznym i prawnie wiążącym podpisom!

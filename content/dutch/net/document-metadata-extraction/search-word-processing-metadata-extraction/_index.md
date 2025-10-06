@@ -5,8 +5,8 @@
 "title": "Eenvoudig tekstverwerkingsmetadata extraheren met .NET"
 "url": "/nl/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # Hoe u metagegevens voor tekstverwerking in .NET kunt zoeken en extraheren
 
 ## Invoering

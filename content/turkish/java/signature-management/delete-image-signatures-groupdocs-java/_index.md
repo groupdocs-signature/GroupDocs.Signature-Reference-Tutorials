@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Belgelerden Görüntü İmzaları Nasıl Kaldırılır"
 "url": "/tr/java/signature-management/delete-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Belgelerden Görüntü İmzaları Nasıl Kaldırılır
 
 Dijital imzaların yönetimi, belgelerin bütünlüğünü ve gerçekliğini korumak için çok önemlidir. İster sözleşmeleri yöneten bir kuruluş, ister faturaları yöneten küçük bir işletme olun, eski veya hatalı görüntü imzalarını kaldırmak belge yönetimini kolaylaştırabilir. Bu eğitim, GroupDocs.Signature for Java kullanarak bilinen kimliklere ait görüntü imzalarını silme konusunda size rehberlik edecektir.

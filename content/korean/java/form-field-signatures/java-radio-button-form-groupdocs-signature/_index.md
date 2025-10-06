@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java 라디오 버튼 양식 필드 서명 구현"
 "url": "/ko/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java 라디오 버튼 양식 필드 서명 구현
 
 ## 소개

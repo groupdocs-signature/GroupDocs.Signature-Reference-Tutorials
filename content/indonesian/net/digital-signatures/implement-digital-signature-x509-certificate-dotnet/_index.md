@@ -4,8 +4,8 @@
 "title": "Menerapkan Tanda Tangan Digital di .NET dengan Sertifikat X.509 Menggunakan GroupDocs.Signature"
 "url": "/id/net/digital-signatures/implement-digital-signature-x509-certificate-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Tanda Tangan Digital di .NET dengan Sertifikat X.509 Menggunakan GroupDocs.Signature
 
 ## Perkenalan

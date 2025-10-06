@@ -4,8 +4,8 @@
 "title": "Podpisy hlavních dokumentů v Javě s průvodcem podpisem čárovým kódem GroupDocs.Signature"
 "url": "/cs/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí podpisů dokumentů v Javě pomocí GroupDocs.Signature
 
 **Zjednodušte si pracovní postupy s digitálními dokumenty podepisováním, ověřováním, vyhledáváním, aktualizací a mazáním podpisů čárových kódů pomocí nástroje GroupDocs.Signature pro Javu.**

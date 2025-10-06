@@ -4,8 +4,8 @@
 "title": "البحث عن توقيع البيانات الوصفية الرئيسية في PowerPoint باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # البحث عن توقيع البيانات الوصفية الرئيسية في PowerPoint باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

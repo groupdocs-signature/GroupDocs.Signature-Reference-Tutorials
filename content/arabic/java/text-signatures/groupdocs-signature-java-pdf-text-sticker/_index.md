@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات PDF باستخدام ملصقات نصية باستخدام GroupDocs.Signature for Java - دليل شامل"
 "url": "/ar/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع ملفات PDF باستخدام ملصقات نصية باستخدام GroupDocs.Signature لـ Java: دليل شامل
 
 ## مقدمة

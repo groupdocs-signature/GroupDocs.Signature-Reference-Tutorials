@@ -4,8 +4,8 @@
 "title": "สร้างตัวอย่างลายเซ็นดิจิทัล PDF ด้วย GroupDocs.Signature สำหรับ .NET | คู่มือฉบับสมบูรณ์"
 "url": "/th/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีสร้างตัวอย่างลายเซ็นดิจิทัล PDF โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

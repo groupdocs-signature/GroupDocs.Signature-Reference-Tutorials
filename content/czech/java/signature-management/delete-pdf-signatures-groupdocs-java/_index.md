@@ -4,8 +4,8 @@
 "title": "Jak odstranit podpisy PDF pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/signature-management/delete-pdf-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit podpisy PDF pomocí GroupDocs.Signature pro Javu: Komplexní průvodce
 
 ## Zavedení

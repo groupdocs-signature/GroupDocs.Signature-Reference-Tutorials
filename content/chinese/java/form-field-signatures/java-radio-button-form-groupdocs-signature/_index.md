@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 实现 Java 单选按钮表单字段签名"
 "url": "/zh/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 实现 Java 单选按钮表单字段签名
 
 ## 介绍

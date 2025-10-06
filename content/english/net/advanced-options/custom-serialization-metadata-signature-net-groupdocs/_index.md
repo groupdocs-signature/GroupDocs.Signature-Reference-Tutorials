@@ -9,8 +9,8 @@ weight: 1
 url: "/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 categories: ["Document Management"]
 tags: ["GroupDocs", "NET", "document-security", "serialization", "metadata"]
+type: docs
 ---
-
 # Complete GroupDocs.Signature .NET Tutorial: Master Custom Serialization & Encrypted Metadata Search
 
 ## Why This Tutorial Matters (And What You'll Build)

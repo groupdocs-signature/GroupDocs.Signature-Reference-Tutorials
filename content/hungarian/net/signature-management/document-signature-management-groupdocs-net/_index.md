@@ -4,8 +4,8 @@
 "title": "Hatékony dokumentumaláírás-kezelés – Űrlapmező-aláírások keresése a GroupDocs.Signature for .NET segítségével"
 "url": "/hu/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Hatékony dokumentumaláírás-kezelés a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

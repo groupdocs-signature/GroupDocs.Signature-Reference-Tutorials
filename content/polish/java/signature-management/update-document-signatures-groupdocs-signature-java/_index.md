@@ -4,8 +4,8 @@
 "title": "Jak aktualizować podpisy dokumentów za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/signature-management/update-document-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak aktualizować podpisy dokumentów za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

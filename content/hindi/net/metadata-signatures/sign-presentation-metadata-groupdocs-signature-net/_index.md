@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके मेटाडेटा के साथ प्रस्तुति दस्तावेज़ों पर हस्ताक्षर करें"
 "url": "/hi/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके मेटाडेटा के साथ एक प्रस्तुति दस्तावेज़ पर हस्ताक्षर कैसे करें
 
 ## परिचय

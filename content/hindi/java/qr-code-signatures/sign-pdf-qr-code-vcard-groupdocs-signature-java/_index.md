@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java का उपयोग करके QR कोड VCard से PDF पर हस्ताक्षर करें - एक चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/java/qr-code-signatures/sign-pdf-qr-code-vcard-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # वीकार्ड युक्त क्यूआर कोड वाले पीडीएफ पर हस्ताक्षर करने के लिए जावा के लिए ग्रुपडॉक्स.सिग्नेचर का उपयोग कैसे करें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 스프레드시트 메타데이터를 검색하는 방법 - 포괄적인 가이드"
 "url": "/ko/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 스프레드시트 메타데이터를 검색하는 방법: 포괄적인 가이드
 
 ## 소개

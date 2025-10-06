@@ -8,10 +8,8 @@ keywords:
 - QR Code Signature Search
 - HIBC LIC Data in PDFs
 - GroupDocs.Signature for Java
-
+type: docs
 ---
-
-
 # How to Implement QR Code Signature Search for HIBC LIC Data in PDFs Using GroupDocs.Signature for Java
 
 ## Introduction

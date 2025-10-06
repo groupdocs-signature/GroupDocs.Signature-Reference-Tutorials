@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java'da Görüntü İmza Aramasını Uygulama Kılavuzu"
 "url": "/tr/java/search-verification/search-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Java'da Görüntü İmza Aramasını Uygulama Kılavuzu
 
 ## giriiş

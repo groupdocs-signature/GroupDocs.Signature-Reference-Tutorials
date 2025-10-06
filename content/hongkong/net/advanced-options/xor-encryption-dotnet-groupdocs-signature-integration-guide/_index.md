@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中實現 XOR 加密－綜合指南"
 "url": "/zh-hant/net/advanced-options/xor-encryption-dotnet-groupdocs-signature-integration-guide/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 .NET 中實現 XOR 加密：綜合指南
 
 ## 介紹

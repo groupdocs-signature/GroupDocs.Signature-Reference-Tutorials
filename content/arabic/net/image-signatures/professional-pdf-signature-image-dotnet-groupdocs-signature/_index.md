@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات PDF باستخدام توقيعات الصور في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/image-signatures/professional-pdf-signature-image-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع ملفات PDF باستخدام توقيعات الصور في .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

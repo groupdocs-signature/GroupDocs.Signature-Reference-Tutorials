@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して .NET で画像署名付きの PDF に署名する方法"
 "url": "/ja/net/image-signatures/professional-pdf-signature-image-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して .NET で画像署名付きの PDF に署名する方法
 
 ## 導入

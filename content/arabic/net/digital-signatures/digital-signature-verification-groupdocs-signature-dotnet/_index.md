@@ -4,8 +4,8 @@
 "title": "التحقق من التوقيعات الرقمية في .NET باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/net/digital-signatures/digital-signature-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # التحقق من التوقيعات الرقمية في .NET باستخدام GroupDocs.Signature: دليل كامل
 
 ## مقدمة

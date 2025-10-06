@@ -4,8 +4,8 @@
 "title": "Menerapkan dan Menampilkan Tanda Tangan Dokumen Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/digital-signatures/implement-document-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan dan Menampilkan Tanda Tangan Dokumen dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

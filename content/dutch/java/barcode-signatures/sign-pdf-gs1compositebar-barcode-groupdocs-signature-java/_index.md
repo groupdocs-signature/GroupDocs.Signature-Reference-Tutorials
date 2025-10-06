@@ -4,8 +4,8 @@
 "title": "Onderteken PDF's met GS1 Composite Barcodes met GroupDocs.Signature voor Java"
 "url": "/nl/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF ondertekenen met GS1-composietbarcodes met GroupDocs.Signature voor Java
 
 ## Invoering

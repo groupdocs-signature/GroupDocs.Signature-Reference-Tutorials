@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 擷取文件資訊"
 "url": "/zh-hant/net/preview-info/retrieve-document-info-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 擷取文件資訊
 
 ## 介紹

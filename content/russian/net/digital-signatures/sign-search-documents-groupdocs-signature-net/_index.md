@@ -4,8 +4,8 @@
 "title": "Мастер цифровых подписей в .NET&#58; Как использовать GroupDocs.Signature для подписания и поиска документов"
 "url": "/ru/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Мастер цифровых подписей в .NET: как использовать GroupDocs.Signature для подписания и поиска документов
 
 ## Введение

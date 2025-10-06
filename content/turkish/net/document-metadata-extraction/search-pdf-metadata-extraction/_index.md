@@ -5,8 +5,8 @@
 "title": ".NET'te PDF Meta Veri İmzaları Nasıl Çıkarılır?"
 "url": "/tr/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # PDF Meta Veri İmzaları Nasıl Çıkarılır ve Aranır?
 
 ## PDF Meta Verilerinin Belgeleriniz İçin Önemi

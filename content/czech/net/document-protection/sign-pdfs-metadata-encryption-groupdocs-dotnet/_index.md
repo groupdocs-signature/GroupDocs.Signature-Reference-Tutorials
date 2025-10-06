@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory s metadaty a šifrováním pomocí GroupDocs.Signature pro .NET | Průvodce zabezpečenou ochranou dokumentů"
 "url": "/cs/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat PDF soubory metadaty a šifrováním pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

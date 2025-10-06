@@ -4,8 +4,8 @@
 "title": "إنشاء توقيعات تدرج شعاعي مذهلة في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/document-loading-saving/groupdocs-signature-java-radial-gradient-sig/"
 "weight": 1
+type: docs
 ---
-
 # إنشاء توقيع تدرج شعاعي جذاب بصريًا باستخدام GroupDocs.Signature لـ Java
 
 في عالمنا الرقمي اليوم، لا تقل أهمية جمالية توقيع المستندات الإلكترونية عن وظيفتها. فالتوقيع ذو المظهر الجذاب يرتقي باحترافية عملك ومصداقيته. سيرشدك هذا البرنامج التعليمي إلى كيفية تنفيذ توقيع فرشاة متدرج شعاعي باستخدام GroupDocs.Signature لجافا.

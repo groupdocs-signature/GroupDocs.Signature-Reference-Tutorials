@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามใน PDF โดยใช้ลายเซ็นฟิลด์ฟอร์มใน C# ด้วย GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/form-field-signatures/sign-pdf-form-field-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร PDF โดยใช้ลายเซ็นฟิลด์ฟอร์มด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

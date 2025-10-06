@@ -4,8 +4,8 @@
 "title": "Επαλήθευση κύριου εγγράφου με το GroupDocs.Signature για Java&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/search-verification/groupdocs-signature-java-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Mastering Document Verification με το GroupDocs.Signature για Java
 
 Στο σημερινό ψηφιακό τοπίο, η επαλήθευση της αυθεντικότητας των εγγράφων είναι απαραίτητη για τη διατήρηση της ασφάλειας και της εμπιστοσύνης σε διάφορους τομείς. Αυτός ο οδηγός σάς διδάσκει πώς να ενσωματώσετε επαληθεύσεις υπογραφής κειμένου, γραμμωτού κώδικα και κωδικού QR στις εφαρμογές σας χρησιμοποιώντας το GroupDocs.Signature για Java.

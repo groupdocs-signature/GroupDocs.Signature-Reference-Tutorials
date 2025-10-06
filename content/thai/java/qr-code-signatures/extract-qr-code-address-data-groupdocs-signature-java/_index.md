@@ -4,8 +4,8 @@
 "title": "ดึงข้อมูลที่อยู่ QR Code โดยใช้ GroupDocs.Signature สำหรับ Java คู่มือฉบับสมบูรณ์"
 "url": "/th/java/qr-code-signatures/extract-qr-code-address-data-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการแยกข้อมูลที่อยู่ QR Code โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

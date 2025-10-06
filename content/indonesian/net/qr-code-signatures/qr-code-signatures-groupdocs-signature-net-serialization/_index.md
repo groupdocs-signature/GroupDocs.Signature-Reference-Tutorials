@@ -4,8 +4,8 @@
 "title": "Menerapkan Tanda Tangan Kode QR di .NET dengan Serialisasi Kustom Menggunakan GroupDocs.Signature"
 "url": "/id/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Tanda Tangan Kode QR dengan Serialisasi Kustom di .NET Menggunakan GroupDocs.Signature
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Υλοποίηση αναζήτησης υπογραφής QR Code στο .NET για εξαγωγή δεδομένων SMS με το GroupDocs.Signature"
 "url": "/el/net/qr-code-signatures/implement-qr-code-signature-search-net-sms-data/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση αναζήτησης υπογραφής QR-Code στο .NET χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

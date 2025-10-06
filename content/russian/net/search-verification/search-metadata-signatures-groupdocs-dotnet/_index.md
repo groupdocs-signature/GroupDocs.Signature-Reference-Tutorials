@@ -4,8 +4,8 @@
 "title": "Как искать сигнатуры метаданных в презентациях с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как искать сигнатуры метаданных в презентациях с помощью GroupDocs.Signature для .NET
 
 ## Введение

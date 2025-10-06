@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Kimliğe Göre İmza Nasıl Silinir"
 "url": "/tr/java/signature-management/delete-signature-by-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature ile Kimliğe Göre İmza Nasıl Silinir
 
 ## giriiş

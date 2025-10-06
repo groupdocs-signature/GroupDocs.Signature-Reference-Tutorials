@@ -4,8 +4,8 @@
 "title": "Fő metaadat-aláírás-keresés PowerPointban a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # Fő metaadat-aláírás-keresés PowerPointban a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

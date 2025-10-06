@@ -8,10 +8,8 @@ keywords:
 - sign PDF with QR code Java
 - GroupDocs Signature for Java
 - QR code signing in Java
-
+type: docs
 ---
-
-
 # How to Sign PDF Documents with QR Codes Using GroupDocs.Signature for Java
 
 In today's digital age, securely signing documents is more important than ever. Whether you're a business professional or an individual looking to authenticate your files, the right tools can make all the difference. This tutorial will guide you through using **GroupDocs.Signature for Java** to sign PDF documents with QR codes containing complex data like Mailmark2D objects. We'll cover everything from setting up your environment to implementing advanced features.

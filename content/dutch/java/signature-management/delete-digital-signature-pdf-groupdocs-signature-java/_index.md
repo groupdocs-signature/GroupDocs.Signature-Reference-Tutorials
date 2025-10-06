@@ -4,8 +4,8 @@
 "title": "Een digitale handtekening uit een PDF verwijderen met GroupDocs.Signature voor Java"
 "url": "/nl/java/signature-management/delete-digital-signature-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Een digitale handtekening uit een PDF verwijderen met GroupDocs.Signature voor Java
 
 ## Invoering

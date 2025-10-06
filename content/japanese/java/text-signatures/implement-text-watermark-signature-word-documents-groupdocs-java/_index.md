@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して Word 文書にテキスト透かし署名を実装する"
 "url": "/ja/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して Word 文書にテキスト透かし署名を実装する
 
 ## GroupDocs.Signature for Java を使用して Word 文書にテキスト透かし署名を追加する方法

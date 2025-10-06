@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile .NET'te Dijital Sertifikaları Yükleme ve Erişim - Kapsamlı Bir Kılavuz"
 "url": "/tr/net/digital-signatures/groupdocs-signature-dotnet-load-access-digital-certificates/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile .NET'te Dijital Sertifikaları Yükleme ve Erişim
 ## Kapsamlı Bir Rehber
 

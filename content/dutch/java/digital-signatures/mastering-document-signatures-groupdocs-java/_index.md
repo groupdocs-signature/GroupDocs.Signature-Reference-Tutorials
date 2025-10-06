@@ -4,8 +4,8 @@
 "title": "Digitale documenthandtekeningen onder de knie krijgen met GroupDocs voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Digitale documenthandtekeningen onder de knie krijgen met GroupDocs voor Java
 
 ## Invoering

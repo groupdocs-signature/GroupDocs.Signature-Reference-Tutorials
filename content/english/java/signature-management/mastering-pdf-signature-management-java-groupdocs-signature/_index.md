@@ -8,10 +8,8 @@ keywords:
 - PDF Signature Management
 - GroupDocs.Signature for Java
 - Digital Signatures in Java
-
+type: docs
 ---
-
-
 # Efficient PDF Signature Management in Java with GroupDocs.Signature
 
 ## Introduction

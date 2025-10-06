@@ -4,8 +4,8 @@
 "title": "Jelszóval védett PDF aláírása a GroupDocs.Signature for .NET használatával (digitális aláírás oktatóanyag)"
 "url": "/hu/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jelszóval védett PDF aláírása a GroupDocs.Signature for .NET használatával
 ## Digitális aláírás oktatóanyag
 

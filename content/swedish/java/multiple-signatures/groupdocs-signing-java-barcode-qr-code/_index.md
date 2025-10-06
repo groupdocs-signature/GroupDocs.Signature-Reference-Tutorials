@@ -4,8 +4,8 @@
 "title": "Implementera streckkods- och QR-kodsignering i Java med GroupDocs.Signature – en omfattande guide"
 "url": "/sv/java/multiple-signatures/groupdocs-signing-java-barcode-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Implementera streckkods- och QR-kodsignering i Java med GroupDocs.Signature
 
 dagens digitala landskap är det avgörande att säkerställa dokumentintegritet. Oavsett om det gäller att hantera juridiska avtal, fakturor eller fraktetiketter är det viktigt att upprätthålla autenticitet. **GroupDocs.Signature för Java** effektiviserar denna process genom att möjliggöra sömlös integrering av streckkoder och QR-koder i dokument. Den här omfattande guiden guidar dig genom implementeringen av streckkods- och QR-kodsignering med GroupDocs.Signature för Java.

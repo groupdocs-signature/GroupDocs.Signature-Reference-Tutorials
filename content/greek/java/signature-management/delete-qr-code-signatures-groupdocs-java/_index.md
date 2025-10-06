@@ -4,8 +4,8 @@
 "title": "Πώς να διαγράψετε υπογραφές QR Code από PDF χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/signature-management/delete-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να διαγράψετε υπογραφές QR Code από ένα PDF χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

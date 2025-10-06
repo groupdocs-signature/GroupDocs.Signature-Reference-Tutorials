@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["barcode-removal", "csharp", "groupdocs", "document-automation"]
+type: docs
 ---
-
 # Remove Barcodes from Documents C# - Complete .NET Guide
 
 ## Why Remove Barcodes from Documents? (And When You'll Need This)

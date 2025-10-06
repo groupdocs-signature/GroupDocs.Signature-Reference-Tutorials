@@ -4,8 +4,8 @@
 "title": "QR-kód aláírás-keresésének megvalósítása .NET-ben SMS-adatok kinyeréséhez a GroupDocs.Signature segítségével"
 "url": "/hu/net/qr-code-signatures/implement-qr-code-signature-search-net-sms-data/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírás-keresésének megvalósítása .NET-ben a GroupDocs.Signature használatával
 
 ## Bevezetés

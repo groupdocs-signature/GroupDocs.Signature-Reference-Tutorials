@@ -5,8 +5,8 @@
 "title": "Ulepszanie prezentacji PowerPoint za pomocą podpisów metadanych w C# .NET"
 "url": "/pl/net/document-signing/sign-presentation-with-metadata/"
 "weight": 12
+type: docs
 ---
-
 ## Wstęp
 
 W dzisiejszym cyfrowym środowisku pracy prezentacje są kluczowymi narzędziami komunikacji i udostępniania informacji. Zapewnienie autentyczności i integralności plików prezentacji staje się coraz ważniejsze, szczególnie w środowiskach korporacyjnych i edukacyjnych. Jednym ze skutecznych sposobów zwiększenia bezpieczeństwa i identyfikowalności prezentacji jest osadzanie podpisów metadanych.

@@ -5,8 +5,8 @@
 "title": "Cách xóa nhiều chữ ký khỏi tài liệu một cách dễ dàng"
 "url": "/vi/net/delete-operations/delete-multiple-signatures/"
 "weight": 15
+type: docs
 ---
-
 # Cách xóa nhiều chữ ký khỏi tài liệu trong .NET
 
 ## Tại sao việc quản lý chữ ký tài liệu lại quan trọng

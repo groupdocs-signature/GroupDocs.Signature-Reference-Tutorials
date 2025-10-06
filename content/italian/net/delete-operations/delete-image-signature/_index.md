@@ -5,8 +5,8 @@
 "title": "Come rimuovere le firme delle immagini dai documenti in .NET"
 "url": "/it/net/delete-operations/delete-image-signature/"
 "weight": 14
+type: docs
 ---
-
 # Come rimuovere le firme delle immagini dai documenti utilizzando GroupDocs.Signature
 
 ## Introduzione

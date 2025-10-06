@@ -8,10 +8,8 @@ keywords:
 - extract HIBC PAS data from QR codes using Java
 - Java QR code extraction with GroupDocs.Signature
 - GroupDocs.Signature library setup
-
+type: docs
 ---
-
-
 # How to Extract HIBC PAS Data from QR Codes Using Java and GroupDocs.Signature
 
 **Introduction**

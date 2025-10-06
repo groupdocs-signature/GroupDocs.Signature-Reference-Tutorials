@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature para Java&#58; Búsqueda eficiente de firmas de códigos QR y extracción de correo electrónico"
 "url": "/es/java/search-verification/groupdocs-signature-java-qr-code-search-email-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Dominando GroupDocs.Signature para Java: Búsqueda de firmas con código QR y extracción de correo electrónico
 
 ## Introducción

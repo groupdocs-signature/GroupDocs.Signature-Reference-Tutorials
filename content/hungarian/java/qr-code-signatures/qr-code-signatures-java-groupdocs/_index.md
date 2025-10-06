@@ -4,8 +4,8 @@
 "title": "Dokumentumok védelme – QR-kód aláírások implementálása Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/qr-code-signatures/qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumok védelme: QR-kód aláírások megvalósítása Java nyelven a GroupDocs.Signature használatával
 
 mai digitális környezetben kulcsfontosságú a dokumentumok, például szerződések, számlák vagy bizalmas személyes adatok biztonságának garantálása. A dokumentumok biztonságának fokozásának és az ellenőrzési folyamatok egyszerűsítésének egyik innovatív megközelítése a QR-kódos aláírások használata. Ez az oktatóanyag végigvezeti Önt a QR-kódos aláírások Java nyelven történő megvalósításán és ellenőrzésén a GroupDocs.Signature használatával.

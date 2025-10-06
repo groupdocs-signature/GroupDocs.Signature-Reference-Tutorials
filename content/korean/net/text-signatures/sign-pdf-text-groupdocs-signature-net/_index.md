@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 텍스트가 포함된 PDF에 서명하는 방법 - 단계별 가이드"
 "url": "/ko/net/text-signatures/sign-pdf-text-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 텍스트가 포함된 문서에 서명하는 방법: 단계별 가이드
 
 ## 소개

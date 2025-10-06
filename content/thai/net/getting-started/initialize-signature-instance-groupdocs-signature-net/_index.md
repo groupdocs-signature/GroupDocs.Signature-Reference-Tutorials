@@ -4,8 +4,8 @@
 "title": "เริ่มต้นอินสแตนซ์ลายเซ็นด้วย GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # เริ่มต้นอินสแตนซ์ลายเซ็นด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Efektywne zarządzanie podpisami dokumentów – wyszukiwanie podpisów pól formularzy za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Efektywne zarządzanie podpisami dokumentów dzięki GroupDocs.Signature dla .NET
 
 ## Wstęp

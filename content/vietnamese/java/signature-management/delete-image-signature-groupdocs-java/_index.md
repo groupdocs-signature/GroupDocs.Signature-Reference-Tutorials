@@ -4,8 +4,8 @@
 "title": "Cách xóa chữ ký hình ảnh khỏi tài liệu bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/signature-management/delete-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa chữ ký hình ảnh khỏi tài liệu bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Dynamische documenthandtekeningen in Java&#58; GroupDocs.Signature voor elektronische ondertekening onder de knie krijgen"
 "url": "/nl/java/multiple-signatures/dynamic-document-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Dynamische documenthandtekeningen maken in Java met GroupDocs
 
 In de snelle digitale wereld van vandaag is de noodzaak om documenten efficiënt elektronisch te ondertekenen groter dan ooit. Of u nu een professional bent die contractgoedkeuringen wil stroomlijnen of een particulier die persoonlijke documentatie beheert, elektronische handtekeningen bieden snelheid en gemak. Deze tutorial begeleidt u bij het maken van dynamische tekst- en barcode-handtekeningen met GroupDocs.Signature voor Java. Door gebruik te maken van stretchmodi kunnen uw handtekeningen naadloos over hele pagina's worden weergegeven, wat zorgt voor consistentie en leesbaarheid.

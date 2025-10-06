@@ -4,8 +4,8 @@
 "title": "Hoe u gecodeerde metadatahandtekeningen implementeert met GroupDocs.Signature voor .NET | Een complete gids"
 "url": "/nl/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u gecodeerde metadatahandtekeningen implementeert met GroupDocs.Signature voor .NET
 
 ## Invoering

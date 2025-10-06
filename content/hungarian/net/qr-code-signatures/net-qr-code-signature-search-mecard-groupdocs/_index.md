@@ -4,8 +4,8 @@
 "title": ".NET QR-kód aláírás-keresés implementálása MeCarddal a GroupDocs.Signature használatával"
 "url": "/hu/net/qr-code-signatures/net-qr-code-signature-search-mecard-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET QR-kód aláírás-keresés megvalósítása MeCarddal a GroupDocs.Signature használatával
 
 ## Bevezetés

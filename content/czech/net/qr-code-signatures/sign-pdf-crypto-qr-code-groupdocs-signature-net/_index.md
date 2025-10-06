@@ -4,8 +4,8 @@
 "title": "Podepsání PDF pomocí QR kódu kryptoměny pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/qr-code-signatures/sign-pdf-crypto-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF dokument pomocí QR kódů kryptoměny s GroupDocs.Signature pro .NET
 
 ## Zavedení

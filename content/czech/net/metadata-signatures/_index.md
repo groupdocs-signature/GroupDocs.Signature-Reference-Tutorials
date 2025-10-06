@@ -3,8 +3,8 @@
 "title": "Výukové programy pro podpisy metadat pro GroupDocs.Signature .NET"
 "url": "/cs/net/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Výukové programy pro podpisy metadat pro GroupDocs.Signature .NET
 
 Naše tutoriály o podpisech metadat ukazují, jak používat metadata dokumentů pro bezpečné podepisování pomocí GroupDocs.Signature v .NET. Tyto podrobné návody pokrývají implementaci podpisů metadat v různých formátech dokumentů, včetně PDF, obrázků, prezentací, tabulek a textových editorů. Každý tutoriál obsahuje funkční příklady kódu C# pro operace s metadaty, které vám pomohou vytvářet aplikace, které mohou do dokumentů přidávat neviditelné informace o podpisu, a tím zvyšovat zabezpečení bez změny vizuálního vzhledu.

@@ -5,8 +5,8 @@
 "title": "Εξαγωγή και αναζήτηση μεταδεδομένων εικόνας σε .NET με το GroupDocs"
 "url": "/el/net/document-metadata-extraction/search-image-metadata-extraction/"
 "weight": 10
+type: docs
 ---
-
 # Πώς να αναζητήσετε μεταδεδομένα εικόνας σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

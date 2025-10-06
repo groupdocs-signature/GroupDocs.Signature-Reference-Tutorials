@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 对 PDF 进行增量签名——综合指南"
 "url": "/zh/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 逐步签署 PDF 文档
 
 ## 介绍

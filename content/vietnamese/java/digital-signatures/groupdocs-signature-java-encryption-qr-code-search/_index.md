@@ -4,8 +4,8 @@
 "title": "Chữ ký số an toàn trong Java - GroupDocs.Mã hóa chữ ký và Hướng dẫn tìm kiếm mã QR"
 "url": "/vi/java/digital-signatures/groupdocs-signature-java-encryption-qr-code-search/"
 "weight": 1
+type: docs
 ---
-
 # Chữ ký số an toàn trong Java bằng GroupDocs.Signature
 ## Giới thiệu
 Trong bối cảnh kỹ thuật số ngày nay, việc bảo mật tài liệu là vô cùng quan trọng. Cho dù bạn đang quản lý hợp đồng kinh doanh nhạy cảm hay hồ sơ cá nhân, việc áp dụng mã hóa mạnh mẽ và khả năng tìm kiếm hiệu quả có thể bảo vệ dữ liệu của bạn khỏi bị truy cập trái phép. Hướng dẫn này sẽ hướng dẫn bạn cách triển khai mã hóa tùy chỉnh và các tùy chọn tìm kiếm chữ ký mã QR trong Java bằng GroupDocs.Signature.

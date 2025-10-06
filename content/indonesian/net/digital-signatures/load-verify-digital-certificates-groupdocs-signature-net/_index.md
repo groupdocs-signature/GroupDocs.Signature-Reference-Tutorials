@@ -4,8 +4,8 @@
 "title": "Memuat dan Memverifikasi Sertifikat Digital dengan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/digital-signatures/load-verify-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Memuat dan Memverifikasi Sertifikat Digital dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

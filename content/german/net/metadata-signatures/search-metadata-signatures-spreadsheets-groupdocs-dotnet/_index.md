@@ -4,8 +4,8 @@
 "title": "So suchen Sie mit GroupDocs.Signature für .NET nach Metadatensignaturen in Tabellenkalkulationen"
 "url": "/de/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So suchen Sie mit GroupDocs.Signature für .NET nach Metadatensignaturen in einer Tabelle
 
 ## Einführung

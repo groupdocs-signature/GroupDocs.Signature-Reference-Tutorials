@@ -4,8 +4,8 @@
 "title": "Цифровая подпись документов с помощью GroupDocs.Signature для .NET&#58; подробное руководство"
 "url": "/ru/net/digital-signatures/digitally-sign-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать документы цифровой подписью с помощью GroupDocs.Signature для .NET
 
 ## Введение

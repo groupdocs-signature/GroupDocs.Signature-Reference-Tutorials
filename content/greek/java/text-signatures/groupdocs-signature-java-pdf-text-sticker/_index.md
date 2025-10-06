@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF με αυτοκόλλητα κειμένου χρησιμοποιώντας το GroupDocs.Signature για Java - Ένας πλήρης οδηγός"
 "url": "/el/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε PDF με αυτοκόλλητα κειμένου χρησιμοποιώντας το GroupDocs.Signature για Java: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "A szöveges aláírások kezelésének mesteri szintje .NET-ben a GroupDocs.Signature használatával"
 "url": "/hu/net/signature-management/master-text-signature-management-dotnet-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Szöveges aláírás-kezelés elsajátítása .NET-ben a GroupDocs.Signature segítségével
 
 ## Bevezetés

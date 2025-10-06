@@ -8,10 +8,8 @@ keywords:
 - sign PDF with metadata
 - GroupDocs Signature for Java
 - PDF signing Java
-
+type: docs
 ---
-
-
 # How to Sign a PDF with Metadata Using GroupDocs.Signature for Java
 
 In today's digital landscape, ensuring the integrity and authenticity of documents is crucial. If you're dealing with PDFs that require a layer of security via signatures, this tutorial will guide you through signing a PDF document using metadata such as author name, creation date, document ID, and signature ID with GroupDocs.Signature for Java.

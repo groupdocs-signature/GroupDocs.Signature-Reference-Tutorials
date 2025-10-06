@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した .NET バーコード署名の実装方法 開発者向け完全ガイド"
 "url": "/ja/net/barcode-signatures/implement-dotnet-barcode-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した .NET バーコード署名の実装方法: 開発者向け完全ガイド
 
 ## 導入

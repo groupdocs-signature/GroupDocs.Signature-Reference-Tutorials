@@ -4,8 +4,8 @@
 "title": "Как обрабатывать исключения, связанные с неверными паролями, в GroupDocs.Signature для .NET"
 "url": "/ru/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Как обрабатывать исключения, связанные с неверными паролями, с помощью GroupDocs.Signature для .NET
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "Meistern Sie die Java-Signaturverwaltung mit GroupDocs.Signature für Java"
 "url": "/de/java/signature-management/master-java-signature-management-groupdocs-for-java/"
 "weight": 1
+type: docs
 ---
-
 # Beherrschen Sie die Java-Signaturverwaltung mit GroupDocs.Signature für Java
 
 ## Einführung

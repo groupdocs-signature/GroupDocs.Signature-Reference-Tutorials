@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["GroupDocs", "NET", "Event-Handling", "Document-Signing"]
+type: docs
 ---
-
 # GroupDocs Signature .NET Event Handling
 
 ## Why Event Handling Matters in Document Signing

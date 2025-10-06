@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके कस्टम सीरियलाइज़ेशन के साथ .NET में QR कोड हस्ताक्षर लागू करें"
 "url": "/hi/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके .NET में कस्टम क्रमांकन के साथ QR कोड हस्ताक्षर लागू करें
 
 ## परिचय

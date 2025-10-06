@@ -9,8 +9,8 @@ weight: 1
 url: "/net/metadata-signatures/create-configure-vcard-groupdocs-signature-dotnet/"
 categories: ["Digital Signatures"]
 tags: ["vcard", "c-sharp", "dotnet", "groupdocs", "contact-management"]
+type: docs
 ---
-
 # How to Create VCard in C# .NET
 
 ## Introduction

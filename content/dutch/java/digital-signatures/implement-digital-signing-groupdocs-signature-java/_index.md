@@ -4,8 +4,8 @@
 "title": "Digitale documentondertekening implementeren in Java met behulp van GroupDocs.Signature"
 "url": "/nl/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Digitale documentondertekening implementeren in Java met behulp van GroupDocs.Signature
 
 ## Invoering

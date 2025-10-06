@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58; 바코드 서명 가이드를 사용하여 Java로 문서 서명 마스터하기"
 "url": "/ko/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java에서 문서 서명 마스터하기
 
 **GroupDocs.Signature for Java를 사용하여 바코드 서명에 서명, 확인, 검색, 업데이트 및 삭제를 수행하여 디지털 문서 워크플로를 간소화하세요.**

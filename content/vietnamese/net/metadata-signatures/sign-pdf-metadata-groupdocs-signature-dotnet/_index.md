@@ -4,8 +4,8 @@
 "title": "Ký PDF bằng siêu dữ liệu bằng GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Ký PDF bằng siêu dữ liệu bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

@@ -8,10 +8,8 @@ keywords:
 - QR Code signature search
 - GroupDocs.Signature for Java
 - digital document security
-
+type: docs
 ---
-
-
 # Implementing QR Code Signature Search in PDFs Using Java
 
 ## Introduction

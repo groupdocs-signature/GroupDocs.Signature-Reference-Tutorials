@@ -4,8 +4,8 @@
 "title": "Amankan Dokumen Anda&#58; Terapkan Tanda Tangan Kode QR di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/qr-code-signatures/qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Amankan Dokumen Anda: Terapkan Tanda Tangan Kode QR di Java Menggunakan GroupDocs.Signature
 
 Di era digital saat ini, memastikan keamanan dokumen seperti kontrak, faktur, atau informasi pribadi yang sensitif sangatlah penting. Salah satu pendekatan inovatif untuk meningkatkan keamanan dokumen dan menyederhanakan proses verifikasi adalah dengan menggunakan tanda tangan kode QR. Tutorial ini akan memandu Anda dalam mengimplementasikan dan memverifikasi tanda tangan kode QR untuk dokumen Anda di Java menggunakan GroupDocs.Signature.

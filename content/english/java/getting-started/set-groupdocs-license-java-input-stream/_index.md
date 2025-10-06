@@ -8,10 +8,8 @@ keywords:
 - GroupDocs license via InputStream
 - set GroupDocs license Java
 - input stream license management Java
-
+type: docs
 ---
-
-
 # How to Implement Java: Set GroupDocs License via InputStream in GroupDocs.Signature for Java
 
 Welcome to this comprehensive guide on setting your GroupDocs license using an input stream with GroupDocs.Signature for Java. This functionality allows you to manage licenses efficiently, ensuring compliance and unlocking full access to GroupDocs features.

@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Penandatanganan Dokumen Elektronik di .NET dengan GroupDocs.Signature&#58; Panduan Langkah demi Langkah"
 "url": "/id/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Penandatanganan Dokumen Elektronik di .NET dengan GroupDocs.Signature: Panduan Langkah demi Langkah
 
 ## Perkenalan

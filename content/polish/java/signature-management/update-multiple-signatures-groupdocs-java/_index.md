@@ -4,8 +4,8 @@
 "title": "Efektywna aktualizacja wielu podpisów w plikach PDF za pomocą GroupDocs.Signature dla języka Java"
 "url": "/pl/java/signature-management/update-multiple-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Efektywna aktualizacja wielu podpisów w plikach PDF za pomocą GroupDocs.Signature dla języka Java
 
 Zarządzanie podpisami elektronicznymi jest kluczowe dla firm, które opierają swoją działalność na cyfrowych obiegach pracy, zwłaszcza w przypadku umów lub formalnych dokumentów. **GroupDocs.Signature dla Java** Ułatwia i usprawnia aktualizację wielu podpisów w dokumencie PDF. Ten samouczek przeprowadzi Cię przez ten proces.

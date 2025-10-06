@@ -4,8 +4,8 @@
 "title": "Come cercare le firme dei metadati nei fogli di calcolo utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come cercare le firme dei metadati in un foglio di calcolo utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

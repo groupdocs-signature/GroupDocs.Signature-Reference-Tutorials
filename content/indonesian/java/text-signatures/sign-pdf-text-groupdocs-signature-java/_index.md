@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan Teks Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/text-signatures/sign-pdf-text-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF dengan Teks Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Dokumentumok aláírása Base64 képek használatával Java-ban a GroupDocs.Signature segítségével"
 "url": "/hu/java/image-signatures/sign-document-base64-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum aláírása Base64 kódolású képpel a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

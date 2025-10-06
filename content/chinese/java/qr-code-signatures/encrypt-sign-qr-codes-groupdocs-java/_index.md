@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中加密和签名二维码——综合指南"
 "url": "/zh/java/qr-code-signatures/encrypt-sign-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 加密和签名二维码
 
 ## 介绍

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 更新 .NET 文件中的二維碼簽名"
 "url": "/zh-hant/net/qr-code-signatures/update-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 更新 .NET 文件中的二維碼簽名
 
 ## 介紹

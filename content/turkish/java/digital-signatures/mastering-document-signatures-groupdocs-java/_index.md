@@ -4,8 +4,8 @@
 "title": "GroupDocs for Java ile Dijital Belge İmzalarında Ustalaşma - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs ile Dijital Belge İmzalarında Ustalaşma
 
 ## giriiş

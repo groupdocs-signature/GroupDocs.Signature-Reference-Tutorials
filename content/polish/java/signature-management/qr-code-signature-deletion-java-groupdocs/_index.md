@@ -4,8 +4,8 @@
 "title": "Przewodnik po usuwaniu podpisów w kodzie QR w Javie za pomocą GroupDocs"
 "url": "/pl/java/signature-management/qr-code-signature-deletion-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Przewodnik po usuwaniu podpisów w kodzie QR w Javie za pomocą GroupDocs
 
 ## Wstęp

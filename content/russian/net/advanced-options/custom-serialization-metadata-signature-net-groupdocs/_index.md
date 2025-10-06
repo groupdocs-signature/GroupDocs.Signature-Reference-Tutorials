@@ -4,8 +4,8 @@
 "title": "Пользовательская сериализация и поиск метаданных в .NET с использованием GroupDocs.Signature"
 "url": "/ru/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Реализация пользовательской сериализации и поиска по сигнатурам метаданных с помощью GroupDocs.Signature для .NET
 
 ## Введение

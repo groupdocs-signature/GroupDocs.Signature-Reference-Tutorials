@@ -4,8 +4,8 @@
 "title": "Firma y optimización de imágenes maestras con GroupDocs.Signature para Java"
 "url": "/es/java/image-signatures/groupdocs-signature-java-image-optimization/"
 "weight": 1
+type: docs
 ---
-
 # Dominando la firma y optimización de imágenes con GroupDocs.Signature para Java
 
 En el panorama digital actual, firmar documentos de forma segura es esencial. Tanto si se trata de un profesional que autentica contratos como de una persona que protege imágenes, contar con capacidades de firma robustas es crucial. **GroupDocs.Signature para Java** Ofrece potentes funciones para crear firmas de códigos QR y optimizar las opciones de guardado de imágenes sin problemas. Este tutorial le guiará para aprovechar estas funcionalidades y lograr una gestión eficaz de documentos.

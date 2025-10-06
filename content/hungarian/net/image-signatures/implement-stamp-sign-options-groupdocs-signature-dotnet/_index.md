@@ -4,8 +4,8 @@
 "title": "Bélyegzőaláírási beállítások megvalósítása a GroupDocs.Signature for .NET használatával – Átfogó útmutató"
 "url": "/hu/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Bélyegzőaláírási beállítások megvalósítása a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

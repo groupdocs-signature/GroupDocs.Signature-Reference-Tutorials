@@ -4,8 +4,8 @@
 "title": "Αυτοματοποιήστε τις προεπισκοπήσεις εγγράφων με κρυφές υπογραφές χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Αυτοματοποιήστε τις προεπισκοπήσεις εγγράφων με κρυφές υπογραφές χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

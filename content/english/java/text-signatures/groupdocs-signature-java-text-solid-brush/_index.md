@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature
 - Java
 - Document Processing
-
+type: docs
 ---
-
-
 # Implement a Text Signature with Solid Brush in Java
 
 ## Introduction

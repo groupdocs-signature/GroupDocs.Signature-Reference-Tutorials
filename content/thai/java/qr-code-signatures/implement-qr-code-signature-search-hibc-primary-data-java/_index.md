@@ -4,8 +4,8 @@
 "title": "วิธีการนำการค้นหาลายเซ็น QR Code ไปใช้กับข้อมูล HIBC LIC ใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/qr-code-signatures/implement-qr-code-signature-search-hibc-primary-data-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำการค้นหาลายเซ็น QR Code ไปใช้กับข้อมูล HIBC LIC ใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

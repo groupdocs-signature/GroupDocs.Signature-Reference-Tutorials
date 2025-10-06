@@ -4,8 +4,8 @@
 "title": "Genera anteprime PDF con firme nascoste utilizzando Java e GroupDocs.Signature"
 "url": "/it/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Genera anteprime PDF con firme nascoste utilizzando Java e GroupDocs.Signature
 
 ## Introduzione

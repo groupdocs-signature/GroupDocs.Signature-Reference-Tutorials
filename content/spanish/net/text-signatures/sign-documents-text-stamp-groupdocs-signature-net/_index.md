@@ -4,8 +4,8 @@
 "title": "Cómo firmar documentos con un sello de texto usando GroupDocs.Signature para .NET"
 "url": "/es/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar documentos con un sello de texto usando GroupDocs.Signature para .NET
 
 ## Introducción

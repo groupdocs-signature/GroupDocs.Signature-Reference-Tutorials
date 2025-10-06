@@ -4,8 +4,8 @@
 "title": "Så här signerar du PDF-filer med QR-koder via e-post med GroupDocs.Signature för .NET | Steg-för-steg-guide"
 "url": "/sv/net/qr-code-signatures/sign-pdfs-email-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar ett PDF-dokument med en QR-kod via e-post med GroupDocs.Signature för .NET
 
 ## Introduktion

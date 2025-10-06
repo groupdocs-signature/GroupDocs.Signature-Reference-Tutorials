@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["GroupDocs", "PDF", "Digital-Signature", "NET", "Tutorial"]
+type: docs
 ---
-
 # PDF Digital Signature .NET: Complete GroupDocs.Signature Tutorial
 
 ## Introduction

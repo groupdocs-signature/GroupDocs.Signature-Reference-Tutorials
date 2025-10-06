@@ -4,8 +4,8 @@
 "title": "Ta bort QR-kodsignaturer effektivt med GroupDocs.Signature för .NET | Guide för signaturhantering"
 "url": "/sv/net/signature-management/delete-qr-code-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Så här tar du bort QR-kodsignaturer med GroupDocs.Signature för .NET
 
 ## Introduktion

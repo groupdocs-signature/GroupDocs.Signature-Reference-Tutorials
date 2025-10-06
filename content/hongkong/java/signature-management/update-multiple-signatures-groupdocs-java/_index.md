@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 高效更新 PDF 中的多個簽名"
 "url": "/zh-hant/java/signature-management/update-multiple-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 高效更新 PDF 中的多個簽名
 
 對於依賴數位工作流程的企業來說，管理電子簽名至關重要，尤其是在處理合約或正式文書時。 **GroupDocs.Signature for Java** 簡化並有效率地更新 PDF 文件中的多個簽章。本教學將引導您完成整個過程。

@@ -4,8 +4,8 @@
 "title": "تشفير وتوقيع ملفات PDF باستخدام رموز QR باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # تشفير وتوقيع ملفات PDF باستخدام رموز QR باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

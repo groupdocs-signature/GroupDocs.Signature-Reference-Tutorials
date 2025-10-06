@@ -4,8 +4,8 @@
 "title": "Extrahujte data WiFi z QR kódů v PDF pomocí Javy s GroupDocs.Signature"
 "url": "/cs/java/qr-code-signatures/qr-code-wifi-data-extraction-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Extrahujte data WiFi z QR kódů v PDF pomocí Javy s GroupDocs.Signature
 
 ## Zavedení

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Signing"]
 tags: ["text-signature", "pdf-signing", "csharp", "watermarks", "annotations"]
+type: docs
 ---
-
 # Add Text Signature to PDF C# - Complete .NET Implementation
 
 Need to add text signatures, watermarks, or annotations to your documents programmatically? You're in the right place. Whether you're building a document management system, implementing approval workflows, or adding branding to PDFs, GroupDocs.Signature for .NET makes text-based document signing straightforward and flexible.

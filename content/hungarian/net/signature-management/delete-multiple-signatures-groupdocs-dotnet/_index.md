@@ -4,8 +4,8 @@
 "title": "Több aláírás törlése dokumentumokban a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/signature-management/delete-multiple-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Több aláírás törlése egy dokumentumban a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

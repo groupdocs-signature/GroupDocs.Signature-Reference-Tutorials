@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["barcode", "signatures", "dotnet", "security", "authentication"]
+type: docs
 ---
-
 ## How to Add Barcode Signatures to .NET Documents (The Smart Way)
 
 Here's the thing about document security in 2025—basic passwords and simple digital signatures just don't cut it anymore. You need something that's both secure and easily verifiable. That's exactly where barcode signatures come in, and honestly, they're pretty brilliant.

@@ -4,8 +4,8 @@
 "title": "أتمتة استخراج البيانات الوصفية في جداول البيانات باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # أتمتة استخراج البيانات الوصفية في جداول البيانات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "تنفيذ بحث توقيع النص في Java باستخدام GroupDocs.Signature لإدارة المستندات والتحقق منها"
 "url": "/ar/java/search-verification/java-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ بحث توقيع النص في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

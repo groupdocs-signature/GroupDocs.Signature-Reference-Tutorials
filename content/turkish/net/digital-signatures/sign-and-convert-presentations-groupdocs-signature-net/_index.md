@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile Sunumları Nasıl İmzalayabilir ve Dönüştürebilirsiniz? Kapsamlı Bir Kılavuz"
 "url": "/tr/net/digital-signatures/sign-and-convert-presentations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Sunumları Nasıl İmzalayabilir ve Dönüştürebilirsiniz: Kapsamlı Bir Kılavuz
 
 ## giriiş

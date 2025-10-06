@@ -4,8 +4,8 @@
 "title": "تنفيذ بحث توقيع رمز الاستجابة السريعة (QR-Code) باستخدام التشفير المخصص في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/qr-code-signatures/qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ البحث عن توقيع رمز الاستجابة السريعة (QR-Code) باستخدام التشفير المخصص في .NET
 
 ## مقدمة

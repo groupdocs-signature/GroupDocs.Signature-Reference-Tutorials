@@ -4,8 +4,8 @@
 "title": "Comment implémenter la recherche de codes-barres .NET à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter la recherche de codes-barres .NET à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

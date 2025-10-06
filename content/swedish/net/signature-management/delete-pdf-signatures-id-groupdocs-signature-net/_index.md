@@ -4,8 +4,8 @@
 "title": "Så här tar du bort PDF-signaturer efter ID med GroupDocs.Signature för .NET"
 "url": "/sv/net/signature-management/delete-pdf-signatures-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här tar du bort PDF-signaturer efter ID med GroupDocs.Signature för .NET
 
 ## Introduktion

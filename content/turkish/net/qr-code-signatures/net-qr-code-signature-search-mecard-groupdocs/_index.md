@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak MeCard ile .NET QR Kod İmza Aramasını Uygulayın"
 "url": "/tr/net/qr-code-signatures/net-qr-code-signature-search-mecard-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak MeCard ile .NET QR Kod İmza Aramasını Uygulama
 
 ## giriiş

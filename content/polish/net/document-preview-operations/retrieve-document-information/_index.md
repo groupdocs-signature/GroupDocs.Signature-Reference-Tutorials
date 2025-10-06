@@ -5,8 +5,8 @@
 "title": "Jak pobrać informacje o dokumencie za pomocą GroupDocs.Signature"
 "url": "/pl/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # Jak pobrać informacje o dokumencie za pomocą GroupDocs.Signature
 
 ## Wstęp

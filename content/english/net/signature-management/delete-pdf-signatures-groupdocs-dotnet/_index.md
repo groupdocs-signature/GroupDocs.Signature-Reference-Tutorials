@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Management", ".NET Development"]
 tags: ["GroupDocs", "PDF signatures", "C# tutorial", "digital signatures"]
+type: docs
 ---
-
 # How to Delete PDF Signatures .NET
 
 ## Introduction

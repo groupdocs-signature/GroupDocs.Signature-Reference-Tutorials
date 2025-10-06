@@ -5,8 +5,8 @@
 "title": "दस्तावेज़ हस्ताक्षर विलोपन कार्यों के लिए संपूर्ण मार्गदर्शिका"
 "url": "/hi/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature में कार्रवाई हटाएँ
 
 ## परिचय

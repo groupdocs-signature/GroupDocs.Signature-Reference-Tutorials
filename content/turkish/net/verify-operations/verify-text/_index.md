@@ -5,8 +5,8 @@
 "title": "Belgelerdeki Metin İmzalarını Doğrulayın"
 "url": "/tr/net/verify-operations/verify-text/"
 "weight": 13
+type: docs
 ---
-
 ## giriiş
 
 Metin imzaları, genellikle dijital veya elektronik imzalardan daha basit olsa da, belge yönetimi ve doğrulamasında önemli bir rol oynar. Filigranlar, alt bilgi metinleri veya belirli içerik kalıpları olsun, metin imzalarının varlığını ve bütünlüğünü doğrulamak, belge doğrulama süreçlerinin önemli bir parçasıdır.

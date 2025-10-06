@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng văn bản bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/text-signatures/sign-pdf-text-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF bằng văn bản bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

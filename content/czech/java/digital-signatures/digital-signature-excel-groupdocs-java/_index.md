@@ -4,8 +4,8 @@
 "title": "Jak implementovat digitální podpisy v Excelu pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat digitální podpis v tabulce pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

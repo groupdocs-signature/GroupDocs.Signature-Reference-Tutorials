@@ -4,8 +4,8 @@
 "title": "Implementeer QR-codehandtekeningzoekopdrachten in PDF's met behulp van Java en GroupDocs.Signature"
 "url": "/nl/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van QR-code-handtekeningzoekopdrachten in PDF's met behulp van Java
 
 ## Invoering

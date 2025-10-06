@@ -4,8 +4,8 @@
 "title": "Come firmare i PDF con firme di immagini in .NET utilizzando GroupDocs.Signature"
 "url": "/it/net/image-signatures/professional-pdf-signature-image-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare i PDF con firme di immagini in .NET utilizzando GroupDocs.Signature
 
 ## Introduzione

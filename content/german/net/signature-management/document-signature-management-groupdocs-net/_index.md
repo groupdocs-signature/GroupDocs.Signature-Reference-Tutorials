@@ -4,8 +4,8 @@
 "title": "Effiziente Verwaltung von Dokumentsignaturen&#58; Suchen nach Formularfeldsignaturen mit GroupDocs.Signature für .NET"
 "url": "/de/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Effizientes Dokumentensignaturmanagement mit GroupDocs.Signature für .NET
 
 ## Einführung

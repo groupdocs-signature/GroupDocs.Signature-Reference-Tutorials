@@ -4,8 +4,8 @@
 "title": "Java'da QR Kod Arama ve Şifreleme - Güvenli Belge İşleme için Master GroupDocs.Signature"
 "url": "/tr/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Java'da QR Kod Arama ve Şifreleme: Güvenli Belge İşleme için GroupDocs.Signature Ana Kılavuzu
 
 ## giriiş

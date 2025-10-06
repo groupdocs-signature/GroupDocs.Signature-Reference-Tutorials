@@ -4,8 +4,8 @@
 "title": "كيفية تحديث توقيعات الصور في المستندات باستخدام GroupDocs.Signature لـ .NET - دليل خطوة بخطوة"
 "url": "/ar/net/image-signatures/update-image-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تحديث توقيع الصورة في المستندات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

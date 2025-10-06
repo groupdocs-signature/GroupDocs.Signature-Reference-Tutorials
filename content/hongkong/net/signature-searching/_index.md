@@ -5,8 +5,8 @@
 "title": "全面的文件簽名搜索"
 "url": "/zh-hant/net/signature-searching/"
 "weight": 23
+type: docs
 ---
-
 ## 介紹
 
 文件安全性和完整性驗證是現代業務流程的關鍵環節。 GroupDocs.Signature for .NET 提供了一個強大的解決方案，可在各種文件格式中實現全面的簽章搜尋功能。無論您需要驗證文件真實性、提取簽名信息，還是建立自動化驗證工作流程，GroupDocs.Signature 都能提供所需的工具，幫助您高效地搜尋和處理多種簽名類型。

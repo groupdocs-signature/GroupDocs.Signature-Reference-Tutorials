@@ -4,8 +4,8 @@
 "title": "إتقان التحقق من المستندات باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # إتقان التحقق من المستندات باستخدام GroupDocs.Signature لـ .NET: دليل شامل
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Opanowanie pobierania właściwości dokumentu za pomocą GroupDocs.Signature dla Java – kompleksowy przewodnik"
 "url": "/pl/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie pobierania właściwości dokumentu za pomocą GroupDocs.Signature dla języka Java
 Odkryj potencjał zarządzania dokumentami, wykorzystując GroupDocs.Signature for Java, aby bezproblemowo pobierać i drukować właściwości dokumentu, takie jak format, rozmiar, liczba stron i inne. Ten kompleksowy samouczek przeprowadzi Cię przez proces konfiguracji środowiska, implementacji różnych funkcjonalności i zastosowania tych możliwości w rzeczywistych sytuacjach.
 

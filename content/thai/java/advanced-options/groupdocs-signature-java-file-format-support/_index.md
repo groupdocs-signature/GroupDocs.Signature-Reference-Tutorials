@@ -4,8 +4,8 @@
 "title": "การสนับสนุนรูปแบบไฟล์หลักใน GroupDocs.Signature สำหรับ Java คู่มือฉบับสมบูรณ์"
 "url": "/th/java/advanced-options/groupdocs-signature-java-file-format-support/"
 "weight": 1
+type: docs
 ---
-
 # การสนับสนุนรูปแบบไฟล์หลักใน GroupDocs.Signature สำหรับ Java: คู่มือที่ครอบคลุม
 
 ## การแนะนำ

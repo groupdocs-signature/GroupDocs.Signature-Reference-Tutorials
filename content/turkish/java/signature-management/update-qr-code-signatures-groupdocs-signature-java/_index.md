@@ -4,8 +4,8 @@
 "title": "Java'da QR Kod İmzalarını Güncelleme - GroupDocs.Signature Kullanarak Kapsamlı Bir Kılavuz"
 "url": "/tr/java/signature-management/update-qr-code-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java'da QR Kod İmzalarını Güncelleme: GroupDocs.Signature Kullanarak Kapsamlı Bir Kılavuz
 
 Günümüzün dijital dünyasında, belgelerin güvenliğini sağlamak hem işletmeler hem de bireyler için hayati önem taşımaktadır. QR kod imzaları, belge güvenliği ve doğrulaması için güvenilir bir çözüm sunar. Bu eğitim, uygulamalarınızda imza yönetimini basitleştiren güçlü bir araç olan GroupDocs.Signature for Java kullanarak QR kod imzalarını güncelleme konusunda adım adım talimatlar sunmaktadır.

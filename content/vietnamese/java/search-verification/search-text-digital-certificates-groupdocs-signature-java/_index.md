@@ -4,8 +4,8 @@
 "title": "Làm chủ tìm kiếm chứng chỉ số với GroupDocs.Signature cho Java"
 "url": "/vi/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ tìm kiếm chứng chỉ số với GroupDocs.Signature cho Java
 
 ## Giới thiệu

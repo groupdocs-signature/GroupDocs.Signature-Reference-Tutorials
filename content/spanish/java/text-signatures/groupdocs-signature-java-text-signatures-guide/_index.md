@@ -4,8 +4,8 @@
 "title": "Firmas de texto maestras en Java&#58; Guía completa de GroupDocs.Signature para Java"
 "url": "/es/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Dominio de la firma de documentos en Java: una guía completa para usar GroupDocs.Signature para firmas de texto
 
 ## Introducción

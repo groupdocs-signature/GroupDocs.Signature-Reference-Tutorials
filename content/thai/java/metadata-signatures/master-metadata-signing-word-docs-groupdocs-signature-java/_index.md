@@ -4,8 +4,8 @@
 "title": "การลงนามข้อมูลเมตาหลักในเอกสาร Word โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/metadata-signatures/master-metadata-signing-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การลงนามข้อมูลเมตาในเอกสาร Word ด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Cách tìm kiếm chữ ký siêu dữ liệu trong bảng tính bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách tìm kiếm chữ ký siêu dữ liệu trong bảng tính bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

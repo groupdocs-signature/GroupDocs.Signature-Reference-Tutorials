@@ -4,8 +4,8 @@
 "title": "Signer des PDF avec une signature textuelle et une apparence personnalisée dans .NET à l'aide de GroupDocs.Signature"
 "url": "/fr/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer des documents PDF avec une signature textuelle et une apparence personnalisée à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

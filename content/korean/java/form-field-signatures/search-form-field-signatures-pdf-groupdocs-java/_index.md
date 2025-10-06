@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 PDF에서 양식 필드 서명 검색 및 추출"
 "url": "/ko/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 PDF 문서에서 양식 필드 서명을 검색하고 추출하는 방법
 
 ## 소개

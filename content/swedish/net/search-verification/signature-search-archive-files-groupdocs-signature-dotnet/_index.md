@@ -4,8 +4,8 @@
 "title": "Effektiv signatursökning i arkivfiler med GroupDocs.Signature för .NET"
 "url": "/sv/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Effektiv signatursökning i arkivfiler med GroupDocs.Signature för .NET
 
 ## Introduktion

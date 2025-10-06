@@ -4,8 +4,8 @@
 "title": "Implémenter des signatures de texte PDF en Java à l'aide de GroupDocs.Signature - Un guide complet"
 "url": "/fr/java/text-signatures/pdf-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implémentation de signatures de texte PDF en Java avec GroupDocs.Signature
 
 Dans le paysage numérique actuel, la signature sécurisée de documents est essentielle pour les processus métier tels que la confirmation ou la vérification de contrats. L'ajout d'une signature textuelle garantit l'authenticité et l'intégrité de vos documents. Ce guide complet vous guidera dans la mise en œuvre de signatures textuelles PDF. **GroupDocs.Signature pour Java**, offrant à la fois fonctionnalité et personnalisation.

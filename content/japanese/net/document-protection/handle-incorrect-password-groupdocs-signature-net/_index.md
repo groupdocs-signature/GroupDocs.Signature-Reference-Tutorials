@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET で不正なパスワード例外を処理する方法"
 "url": "/ja/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して不正なパスワードの例外を処理する方法
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": "So implementieren Sie digitale .NET-Signaturen mit Zeitstempel und Zertifizierung mithilfe von GroupDocs.Signature für .NET"
 "url": "/de/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie digitale .NET-Signaturen mit Zeitstempel und Zertifizierung mithilfe von GroupDocs.Signature für .NET
 
 ## Einführung

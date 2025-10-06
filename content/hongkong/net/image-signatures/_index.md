@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature .NET 圖片簽名教學"
 "url": "/zh-hant/net/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # GroupDocs.Signature .NET 圖片簽名教學
 
 使用我們的 GroupDocs.Signature .NET 圖像簽名教程，以了解如何使用視覺化簽章增強文件。這些詳細的指南演示瞭如何添加圖像作為簽名、建立圖章簽名、添加浮水印、自訂外觀設定以及使用圖像對齊和大小調整選項。每個教學都包含可運行的 C# 程式碼範例，展示如何創建視覺上美觀的簽名，在保持文件完整性的同時有效地傳達真實性或品牌形象。

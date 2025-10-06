@@ -4,8 +4,8 @@
 "title": "Güvenli Belge Kimlik Doğrulaması için GroupDocs.Signature Kullanarak Java Sertifika Doğrulama Kılavuzu"
 "url": "/tr/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature ile Java Sertifika Doğrulamasını Uygulama
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature – Komplexní průvodce nastavením digitálních podpisů v Javě"
 "url": "/cs/java/getting-started/groupdocs-signature-java-digital-setup-guide/"
 "weight": 1
+type: docs
 ---
-
 # Implementace nastavení digitálního podpisu v Javě pomocí GroupDocs.Signature: Průvodce pro vývojáře
 
 V dnešní digitální době je zajištění autenticity a integrity dokumentů klíčové. Digitální podpisy poskytují bezpečný způsob, jak ověřit, zda dokument nebyl od svého podpisu změněn. Tato komplexní příručka vás provede nastavením a implementací možností digitálního podpisu pomocí výkonné knihovny GroupDocs.Signature pro Javu.

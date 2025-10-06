@@ -4,8 +4,8 @@
 "title": "PDF's doorzoeken op QR-codehandtekeningen en VCard-gegevens extraheren met GroupDocs.Signature voor .NET"
 "url": "/nl/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u document-PDF's kunt doorzoeken op QR-codehandtekeningen en VCard-gegevens kunt extraheren met GroupDocs.Signature voor .NET
 
 ## Invoering

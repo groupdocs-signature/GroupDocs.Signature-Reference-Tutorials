@@ -5,8 +5,8 @@
 "title": "掌握 .NET 中的多文档签名 - 完整指南"
 "url": "/zh/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## 使用多种签名类型保护您的文档
 
 您是否曾需要将不同类型的签名应用于单个文档？无论您处理的是敏感合同、法律文件还是公司文件，组合多种签名类型都能显著增强安全性和真实性。在本指南中，我们将详细介绍如何使用 GroupDocs.Signature for .NET 实现这一强大功能。

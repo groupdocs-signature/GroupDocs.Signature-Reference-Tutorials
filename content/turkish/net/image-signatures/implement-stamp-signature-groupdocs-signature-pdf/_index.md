@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak PDF'lere Damga İmzaları Nasıl Uygulanır?"
 "url": "/tr/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak PDF'lere Damga İmzaları Nasıl Uygulanır?
 
 ## giriiş

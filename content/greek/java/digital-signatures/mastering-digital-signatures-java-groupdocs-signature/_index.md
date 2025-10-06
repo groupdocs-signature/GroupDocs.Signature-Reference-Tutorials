@@ -4,8 +4,8 @@
 "title": "Πλήρης οδηγός για την εκμάθηση ψηφιακών υπογραφών σε Java με χρήση του GroupDocs.Signature"
 "url": "/el/java/digital-signatures/mastering-digital-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με τις ψηφιακές υπογραφές σε Java: Ένας πλήρης οδηγός με το GroupDocs.Signature
 
 ## Εισαγωγή

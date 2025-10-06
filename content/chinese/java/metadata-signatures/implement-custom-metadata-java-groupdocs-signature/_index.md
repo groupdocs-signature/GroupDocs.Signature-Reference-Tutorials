@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中实现自定义元数据以增强文档签名"
 "url": "/zh/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中实现自定义元数据
 
 ## 介绍

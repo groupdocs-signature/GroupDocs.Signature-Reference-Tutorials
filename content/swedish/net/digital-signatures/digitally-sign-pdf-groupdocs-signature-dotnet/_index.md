@@ -4,8 +4,8 @@
 "title": "Så här signerar du PDF-filer digitalt med GroupDocs.Signature för .NET - en steg-för-steg-guide"
 "url": "/sv/net/digital-signatures/digitally-sign-pdf-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Så här signerar du ett PDF-dokument digitalt med GroupDocs.Signature för .NET
 
 ## Introduktion

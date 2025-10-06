@@ -4,8 +4,8 @@
 "title": "استرداد وعرض تنسيقات الملفات المدعومة باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # استرداد وعرض تنسيقات الملفات المدعومة باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

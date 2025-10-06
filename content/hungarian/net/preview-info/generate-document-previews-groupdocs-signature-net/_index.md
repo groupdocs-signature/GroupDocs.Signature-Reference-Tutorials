@@ -4,8 +4,8 @@
 "title": "Dokumentum előnézetek generálása archívumokban a GroupDocs.Signature for .NET használatával – Teljes körű útmutató"
 "url": "/hu/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum előnézetek generálása archívumokból a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak .NET'te Özel Serileştirme ile PDF Meta Veri İmzalama"
 "url": "/tr/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Özel Serileştirme ile PDF Meta Veri İmzalamanın Uygulanması
 
 ## giriiş

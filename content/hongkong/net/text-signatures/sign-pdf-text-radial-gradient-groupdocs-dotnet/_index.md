@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 .NET 中對帶有文字簽名和徑向漸變的 PDF 進行簽名"
 "url": "/zh-hant/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 .NET 中使用文字簽名和徑向漸層對 PDF 進行簽名
 
 ## 介紹

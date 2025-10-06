@@ -4,8 +4,8 @@
 "title": "Efektywne podpisywanie i konwertowanie arkuszy kalkulacyjnych do formatu PDF przy użyciu GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Efektywne podpisywanie i konwertowanie arkuszy kalkulacyjnych do formatu PDF przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

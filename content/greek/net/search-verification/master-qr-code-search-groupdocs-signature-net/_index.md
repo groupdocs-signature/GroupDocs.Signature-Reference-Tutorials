@@ -4,8 +4,8 @@
 "title": "Κύρια αναζήτηση κωδικού QR σε PDF χρησιμοποιώντας το GroupDocs.Signature για .NET™ Ένας πλήρης οδηγός"
 "url": "/el/net/search-verification/master-qr-code-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την αναζήτηση κωδικών QR σε PDF χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

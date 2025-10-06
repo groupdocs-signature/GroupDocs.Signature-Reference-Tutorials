@@ -4,8 +4,8 @@
 "title": "Képaláírások törlése .NET-ben a GroupDocs.Signature használatával – lépésről lépésre útmutató"
 "url": "/hu/net/signature-management/delete-image-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Képaláírások törlése .NET-ben a GroupDocs.Signature használatával: lépésről lépésre útmutató
 
 mai digitális környezetben a dokumentumaláírások kezelése kulcsfontosságú az üzleti műveletek biztonságának és hitelességének megőrzése érdekében. Ha olyan dokumentumokkal dolgozik, amelyek több képes aláírást tartalmaznak, a hatékony kezelés időt és erőforrásokat takaríthat meg. Ez az átfogó útmutató végigvezeti Önt a használatán. **GroupDocs.Signature .NET-hez** aláíráspéldány inicializálásához, képaláírások kereséséhez és bizonyos feltételek alapján egyesek törléséhez. A bemutató végére elsajátítottad, hogyan egyszerűsítheted hatékonyan ezt a folyamatot.

@@ -4,8 +4,8 @@
 "title": "Master Διαχείριση Υπογραφών PDF σε Java Χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/signature-management/java-groupdocs-signature-pdf-manage-sig/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με τη διαχείριση υπογραφών PDF σε Java με το GroupDocs.Signature
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile Ana Belge Arama ve Barkod İmza Doğrulama Kılavuzu"
 "url": "/tr/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Belge Aramada Ustalaşma
 
 ## giriiş

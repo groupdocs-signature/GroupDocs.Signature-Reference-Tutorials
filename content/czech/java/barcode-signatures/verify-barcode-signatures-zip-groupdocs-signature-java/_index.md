@@ -4,8 +4,8 @@
 "title": "Ověřování podpisů čárových kódů v souborech ZIP pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Ověřování podpisů čárových kódů v souborech ZIP pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

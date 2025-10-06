@@ -4,8 +4,8 @@
 "title": "Εξαγωγή μεταδεδομένων υπολογιστικού φύλλου χρησιμοποιώντας το GroupDocs.Signature για Java&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Εξαγωγή μεταδεδομένων υπολογιστικού φύλλου με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

@@ -5,8 +5,8 @@
 "title": "Dokumentum aláírások eltávolítása típus szerint .NET-ben"
 "url": "/hu/net/delete-operations/delete-signature-by-type/"
 "weight": 12
+type: docs
 ---
-
 # Dokumentum aláírások eltávolítása típus szerint .NET-ben
 
 ## Miért fontos az aláíráskezelés a dokumentumfeldolgozásban

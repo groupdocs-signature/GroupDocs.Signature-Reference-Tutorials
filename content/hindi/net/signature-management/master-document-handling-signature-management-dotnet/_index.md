@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ .NET में मास्टर दस्तावेज़ हैंडलिंग और हस्ताक्षर प्रबंधन"
 "url": "/hi/net/signature-management/master-document-handling-signature-management-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ .NET में दस्तावेज़ प्रबंधन और हस्ताक्षर प्रबंधन में महारत हासिल करना
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Dokumentumkeresések optimalizálása a GroupDocs.Signature for .NET segítségével. Folyamatkezelők implementálása."
 "url": "/hu/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumkeresések optimalizálása a GroupDocs.Signature for .NET segítségével: Folyamatfigyelő eseménykezelők implementálása
 
 ## Bevezetés

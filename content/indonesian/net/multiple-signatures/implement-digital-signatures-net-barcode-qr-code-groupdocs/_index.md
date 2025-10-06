@@ -4,8 +4,8 @@
 "title": "Panduan Integrasi Kode Batang dan QR Code untuk Menerapkan Tanda Tangan Digital di .NET"
 "url": "/id/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Tanda Tangan Digital di .NET: Penandatanganan Kode Batang dan Kode QR dengan GroupDocs.Signature
 
 Di era digital saat ini, autentikasi dokumen dengan cepat dan aman menjadi semakin penting. Baik Anda seorang pengembang yang sedang mengerjakan aplikasi perusahaan atau hanya ingin menyederhanakan proses manajemen dokumen, menambahkan tanda tangan dapat menjadi solusi yang transformatif. Tutorial ini memandu Anda dalam menggunakan **GroupDocs.Signature untuk .NET** untuk menandatangani dokumen secara digital dengan tanda tangan kode batang dan kode QR, menawarkan solusi tangguh untuk dokumentasi yang aman.

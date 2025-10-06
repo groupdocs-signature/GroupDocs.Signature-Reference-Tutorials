@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58; Hướng dẫn toàn diện về cách thiết lập chữ ký số Java"
 "url": "/vi/java/getting-started/groupdocs-signature-java-digital-setup-guide/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai thiết lập chữ ký số Java với GroupDocs.Signature: Hướng dẫn dành cho nhà phát triển
 
 Trong thời đại kỹ thuật số ngày nay, việc đảm bảo tính xác thực và toàn vẹn của tài liệu là vô cùng quan trọng. Chữ ký số cung cấp một phương thức an toàn để xác minh tài liệu không bị thay đổi kể từ khi được ký. Hướng dẫn toàn diện này sẽ hướng dẫn bạn thiết lập và triển khai các tùy chọn chữ ký số bằng thư viện GroupDocs.Signature mạnh mẽ dành cho Java.

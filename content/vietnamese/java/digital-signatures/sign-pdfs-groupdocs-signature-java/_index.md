@@ -4,8 +4,8 @@
 "title": "Làm chủ chữ ký số PDF trong Java bằng cách sử dụng GroupDocs.Signature cho văn bản, hộp kiểm và trường số"
 "url": "/vi/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký số PDF trong Java: Sử dụng GroupDocs.Signature cho văn bản, hộp kiểm và trường số
 
 ## Giới thiệu

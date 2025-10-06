@@ -4,8 +4,8 @@
 "title": "Προσαρμοσμένη σειριοποίηση JSON σε .NET με Newtonsoft.Json & GroupDocs.Signature&#58; Ένας πλήρης οδηγός"
 "url": "/el/net/advanced-options/custom-json-serialization-newtonsoft-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Πλήρης οδηγός για προσαρμοσμένη σειριοποίηση JSON σε .NET χρησιμοποιώντας Newtonsoft.Json και GroupDocs.Signature
 
 ## Εισαγωγή

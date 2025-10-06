@@ -4,8 +4,8 @@
 "title": "Как подписать PDF-файлы цифровой подписью в Java с помощью GroupDocs.Signature"
 "url": "/ru/java/digital-signatures/java-pdf-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать PDF-файлы цифровой подписью в Java с помощью GroupDocs.Signature
 
 ## Введение

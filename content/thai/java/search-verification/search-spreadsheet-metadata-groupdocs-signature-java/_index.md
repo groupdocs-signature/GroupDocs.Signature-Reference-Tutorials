@@ -4,8 +4,8 @@
 "title": "วิธีการค้นหาข้อมูลเมตาของสเปรดชีตโดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการค้นหาข้อมูลเมตาของสเปรดชีตโดยใช้ GroupDocs.Signature สำหรับ Java: คู่มือที่ครอบคลุม
 
 ## การแนะนำ

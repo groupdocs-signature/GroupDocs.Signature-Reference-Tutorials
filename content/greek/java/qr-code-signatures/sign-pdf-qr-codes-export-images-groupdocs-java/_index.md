@@ -4,8 +4,8 @@
 "title": "Υπογράψτε PDF με υπογραφές QR Code και εξαγάγετε ως εικόνες χρησιμοποιώντας το GroupDocs για Java"
 "url": "/el/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πλήρης οδηγός για την υπογραφή και εξαγωγή PDF ως εικόνων με κωδικούς QR χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

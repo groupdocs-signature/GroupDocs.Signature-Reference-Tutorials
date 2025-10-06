@@ -4,8 +4,8 @@
 "title": "Podpisywanie dokumentów graficznych metadanymi za pomocą GroupDocs.Signature dla Java™ — kompletny przewodnik"
 "url": "/pl/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać dokumenty graficzne metadanymi za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

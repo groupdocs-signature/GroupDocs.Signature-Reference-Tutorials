@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["qr-code", "image-signing", "groupdocs", "electronic-signatures"]
+type: docs
 ---
-
 # Sign Image with QR Code .NET
 
 ## Introduction

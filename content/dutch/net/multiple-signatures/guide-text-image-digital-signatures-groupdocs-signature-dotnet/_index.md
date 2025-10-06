@@ -4,8 +4,8 @@
 "title": "Uitgebreide handleiding voor tekst-, afbeelding- en digitale handtekeningen met GroupDocs.Signature voor .NET"
 "url": "/nl/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Uitgebreide handleiding voor het implementeren van tekst-, afbeelding- en digitale handtekeningen met GroupDocs.Signature voor .NET
 
 ## Invoering

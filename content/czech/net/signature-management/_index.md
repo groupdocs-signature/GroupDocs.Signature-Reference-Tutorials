@@ -3,8 +3,8 @@
 "title": "Výukové programy pro správu podpisů pro GroupDocs.Signature .NET"
 "url": "/cs/net/signature-management/"
 "weight": 12
+type: docs
 ---
-
 # Výukové programy pro správu podpisů pro GroupDocs.Signature .NET
 
 Zvládněte správu životního cyklu podpisů s našimi podrobnými tutoriály GroupDocs.Signature .NET. Tyto podrobné návody ukazují, jak aktualizovat, mazat a spravovat podpisy různých typů po jejich použití v dokumentech. Naučte se, jak upravovat vlastnosti podpisů, odstraňovat podpisy podle typu nebo ID, implementovat dávkové operace a pracovat s metadaty podpisů. Každý tutoriál obsahuje funkční příklady kódu C#, které ukazují, jak vytvářet aplikace s komplexními funkcemi správy podpisů a zajistit, aby vaše dokumenty zůstaly aktuální a správně udržované po celou dobu jejich životního cyklu.

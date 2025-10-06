@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF με ακριβείς γραμμωτούς κώδικες χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα έγγραφο PDF με ακριβώς τοποθετημένους γραμμωτούς κώδικες χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

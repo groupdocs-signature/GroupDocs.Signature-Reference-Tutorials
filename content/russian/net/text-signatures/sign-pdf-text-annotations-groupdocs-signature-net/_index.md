@@ -4,8 +4,8 @@
 "title": "Как подписывать PDF-документы текстовыми аннотациями с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/text-signatures/sign-pdf-text-annotations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Как подписывать PDF-документы текстовыми аннотациями с помощью GroupDocs.Signature для .NET
 
 ## Введение

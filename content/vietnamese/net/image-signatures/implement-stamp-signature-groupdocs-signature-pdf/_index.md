@@ -4,8 +4,8 @@
 "title": "Cách triển khai chữ ký đóng dấu trên tệp PDF bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký đóng dấu trên tệp PDF bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

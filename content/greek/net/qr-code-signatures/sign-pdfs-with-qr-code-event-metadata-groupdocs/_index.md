@@ -4,8 +4,8 @@
 "title": "Υπογράψτε PDF με QR Code και μεταδεδομένα συμβάντων χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Υπογράψτε PDF με QR Code και μεταδεδομένα συμβάντων χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

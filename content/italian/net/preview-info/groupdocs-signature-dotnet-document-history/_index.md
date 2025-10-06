@@ -4,8 +4,8 @@
 "title": "Padroneggiare la cronologia dei processi dei documenti con GroupDocs.Signature per .NET&#58; una guida completa"
 "url": "/it/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la cronologia dei processi dei documenti con GroupDocs.Signature per .NET: una guida completa
 
 ## Introduzione

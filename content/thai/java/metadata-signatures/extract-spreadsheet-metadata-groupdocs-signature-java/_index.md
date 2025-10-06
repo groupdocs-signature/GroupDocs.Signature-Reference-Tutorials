@@ -4,8 +4,8 @@
 "title": "ดึงข้อมูลเมตาของสเปรดชีตโดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # การแยกข้อมูลเมตาของสเปรดชีตด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용한 마스터 문서 검증 단계별 가이드"
 "url": "/ko/java/search-verification/groupdocs-signature-java-document-verification/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용한 문서 검증 마스터하기
 
 오늘날 디지털 시대에는 다양한 산업 분야에서 문서의 진위성과 무결성을 보장하는 것이 매우 중요합니다. 계약서를 검증하는 법률 전문가든, 송장을 인증하는 기업이든 문서 검증은 필수적입니다. **Java용 GroupDocs.Signature**: 바코드 서명 검증을 쉽게 구현하여 이 프로세스를 단순화하는 강력한 라이브러리입니다.

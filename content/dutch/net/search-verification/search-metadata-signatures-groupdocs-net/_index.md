@@ -4,8 +4,8 @@
 "title": "Metadatahandtekeningen zoeken in afbeeldingsdocumenten met GroupDocs.Signature voor .NET"
 "url": "/nl/net/search-verification/search-metadata-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Metadatahandtekeningen zoeken in afbeeldingsdocumenten met GroupDocs.Signature voor .NET
 
 ## Invoering

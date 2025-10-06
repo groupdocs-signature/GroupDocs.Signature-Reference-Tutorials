@@ -4,8 +4,8 @@
 "title": "Cập nhật chữ ký văn bản trong tài liệu .NET bằng GroupDocs.Signature"
 "url": "/vi/net/signature-management/update-text-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cập nhật chữ ký văn bản trong tài liệu .NET bằng GroupDocs.Signature
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Signera PDF-filer med GS1-sammansatta streckkoder med GroupDocs.Signature för Java"
 "url": "/sv/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar en PDF med GS1-sammansatta streckkoder med GroupDocs.Signature för Java
 
 ## Introduktion

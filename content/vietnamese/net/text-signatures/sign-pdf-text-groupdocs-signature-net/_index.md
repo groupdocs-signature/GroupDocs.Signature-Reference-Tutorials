@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng văn bản bằng GroupDocs.Signature cho .NET - Hướng dẫn từng bước"
 "url": "/vi/net/text-signatures/sign-pdf-text-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu bằng văn bản bằng GroupDocs.Signature cho .NET: Hướng dẫn từng bước
 
 ## Giới thiệu

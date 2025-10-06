@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java'nın Dijital İmzalama Temelleri için Kapsamlı Kılavuz"
 "url": "/tr/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java'ya İlişkin Kapsamlı Kılavuz: Dijital İmzalamanın Temelleri
 
 ## giriiş

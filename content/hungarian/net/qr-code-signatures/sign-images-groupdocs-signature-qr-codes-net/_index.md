@@ -4,8 +4,8 @@
 "title": "Hogyan írjunk alá képeket QR-kódokkal a GroupDocs.Signature for .NET használatával, és hogyan mentsük el őket különböző formátumokban?"
 "url": "/hu/net/qr-code-signatures/sign-images-groupdocs-signature-qr-codes-net/"
 "weight": 1
+type: docs
 ---
-
 # A GroupDocs.Signature for .NET használata képek QR-kódokkal történő aláírásához
 
 ## Bevezetés

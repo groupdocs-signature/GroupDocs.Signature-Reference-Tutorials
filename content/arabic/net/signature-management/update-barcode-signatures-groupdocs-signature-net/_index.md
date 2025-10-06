@@ -4,8 +4,8 @@
 "title": "كيفية تحديث توقيعات الباركود حسب المعرف باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تحديث توقيعات الباركود حسب المعرف باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

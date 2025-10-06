@@ -8,10 +8,8 @@ keywords:
 - Java document signing
 - GS1DotCode barcodes
 - GroupDocs.Signature
-
+type: docs
 ---
-
-
 # Mastering Document Signing in Java with GS1DotCode Barcodes using GroupDocs.Signature
 
 ## Introduction

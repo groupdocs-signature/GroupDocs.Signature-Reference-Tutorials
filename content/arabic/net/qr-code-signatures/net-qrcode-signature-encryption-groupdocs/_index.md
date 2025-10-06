@@ -4,8 +4,8 @@
 "title": "التوقيع الآمن على ملفات PDF باستخدام رموز QR المشفرة في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/qr-code-signatures/net-qrcode-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # دليل شامل: تنفيذ التوقيع الآمن لملفات PDF باستخدام رموز QR المشفرة في .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java kullanarak PDF'lerdeki Form Alanı İmzalarını arayın ve çıkarın"
 "url": "/tr/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak PDF Belgelerinde Form Alanı İmzaları Nasıl Aranır ve Çıkarılır
 
 ## giriiş

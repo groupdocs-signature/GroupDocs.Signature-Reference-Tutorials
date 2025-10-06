@@ -4,8 +4,8 @@
 "title": "ลงนามและแปลงสเปรดชีตเป็น PDF อย่างมีประสิทธิภาพโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # ลงนามและแปลงสเปรดชีตเป็น PDF อย่างมีประสิทธิภาพโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

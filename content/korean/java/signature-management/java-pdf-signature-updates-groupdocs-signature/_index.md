@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 통한 Java PDF 서명 업데이트 - 개발자를 위한 종합 가이드"
 "url": "/ko/java/signature-management/java-pdf-signature-updates-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java PDF 서명 업데이트 마스터하기
 디지털 세상에서는 문서 보안이 무엇보다 중요합니다. 계약을 관리하는 개발자든 민감한 정보를 다루는 조직이든, 서명을 통해 문서를 보호하는 것은 필수적입니다. **Java용 GroupDocs.Signature** PDF 및 기타 형식의 서명을 추가, 수정 및 검증하는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Java용 GroupDocs.Signature를 사용하여 PDF 서명 업데이트를 구현하는 방법을 안내합니다.
 

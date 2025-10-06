@@ -4,8 +4,8 @@
 "title": "Bezpieczne podpisy metadanych słów w Javie z GroupDocs™. Kompleksowy przewodnik"
 "url": "/pl/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Bezpieczne podpisy metadanych słów w Javie z GroupDocs
 
 ## Wstęp

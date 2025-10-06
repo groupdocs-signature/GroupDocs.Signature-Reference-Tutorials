@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した .NET でのドキュメント処理と署名管理のマスター"
 "url": "/ja/net/signature-management/master-document-handling-signature-management-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した .NET でのドキュメント処理と署名管理の習得
 
 ## 導入

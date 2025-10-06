@@ -9,8 +9,8 @@ weight: 1
 url: "/net/signature-management/delete-qr-code-signatures-groupdocs-net/"
 categories: [".NET Development"]
 tags: ["groupdocs", "digital-signatures", "qr-codes", "document-management"]
+type: docs
 ---
-
 # How to Delete QR Code Signatures in .NET
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 安全地对带有二维码的 Word 文档进行签名"
 "url": "/zh/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 安全地对带有二维码的 Word 文档进行签名
 
 在当今的数字世界中，安全地签署文档对企业和个人都至关重要。无论是合同、法律协议还是正式信函，确保文档的真实性都至关重要。借助电子签名，我们简化了这一流程，同时增加了额外的安全性和便捷性。GroupDocs.Signature for Java 提供了一个强大的解决方案，可以使用二维码签署 Word 文档——一种现代且安全的数字签名。

@@ -5,8 +5,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 문서에 텍스트 서명 추가"
 "url": "/ko/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 문서에 텍스트 서명을 추가하는 방법
 
 ## 소개: 문서 서명 프로세스 현대화

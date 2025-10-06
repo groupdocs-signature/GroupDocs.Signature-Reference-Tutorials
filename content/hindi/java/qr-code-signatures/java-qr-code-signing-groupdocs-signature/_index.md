@@ -4,8 +4,8 @@
 "title": "जावा क्यूआर कोड हस्ताक्षर गाइड - GroupDocs.Signature के साथ अपने दस्तावेज़ सुरक्षित करें"
 "url": "/hi/java/qr-code-signatures/java-qr-code-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature के साथ Java QR कोड हस्ताक्षर को कार्यान्वित करना
 
 ## परिचय

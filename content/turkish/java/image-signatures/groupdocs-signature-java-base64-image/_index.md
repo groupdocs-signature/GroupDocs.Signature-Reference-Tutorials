@@ -4,8 +4,8 @@
 "title": "Java için Master GroupDocs.Signature Base64 Görüntülerini Kullanarak Belgeleri İmzalama"
 "url": "/tr/java/image-signatures/groupdocs-signature-java-base64-image/"
 "weight": 1
+type: docs
 ---
-
 # Base64 Kodlanmış Görüntüler Kullanılarak Java için GroupDocs.Signature ile Ana Belge İmzalama
 
 ## giriiş

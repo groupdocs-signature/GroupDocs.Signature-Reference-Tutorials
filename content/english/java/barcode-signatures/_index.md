@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Signatures"]
 tags: ["barcode-signatures", "pdf-signing", "java-tutorial", "document-security"]
+type: docs
 ---
-
 # Java Barcode Signature Tutorial: Add, Verify & Manage Barcodes in PDFs
 
 Need to embed machine-readable information directly into your documents? Barcode signatures let you securely encode data—like product IDs, tracking numbers, or verification codes—right into PDFs, Word docs, and other file types. Instead of relying on external databases or manual data entry, you can use GroupDocs.Signature for Java to automatically sign documents with barcodes (including QR codes, Data Matrix, Code128, and more) and verify that information later with just a few lines of code.

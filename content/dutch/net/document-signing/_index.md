@@ -5,8 +5,8 @@
 "title": "Documentondertekening met metagegevens in .NET"
 "url": "/nl/net/document-signing/"
 "weight": 24
+type: docs
 ---
-
 ## Invoering
 
 In de huidige digitale wereld is het garanderen van de authenticiteit, herkomsttracering en integriteit van documenten essentieel geworden voor bedrijven en organisaties. Metadatahandtekeningen bieden een krachtige maar onopvallende manier om identificerende informatie rechtstreeks in documentbestanden te integreren, waardoor de beveiliging wordt verbeterd zonder de visuele weergave te veranderen.

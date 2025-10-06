@@ -8,10 +8,8 @@ keywords:
 - ComboBox form fields
 - GroupDocs.Signature for Java
 - dynamic PDF forms
-
+type: docs
 ---
-
-
 # Implement ComboBox Form Fields in PDFs Using GroupDocs.Signature for Java
 
 ## Introduction

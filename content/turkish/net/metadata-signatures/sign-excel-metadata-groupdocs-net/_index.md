@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Excel Elektronik Tablolarını Meta Verilerle Nasıl İmzalayabilirsiniz?"
 "url": "/tr/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Excel Elektronik Tablolarını Meta Verilerle Nasıl İmzalayabilirsiniz?
 
 ## giriiş

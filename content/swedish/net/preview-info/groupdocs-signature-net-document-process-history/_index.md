@@ -4,8 +4,8 @@
 "title": "Så här hämtar du dokumentprocesshistorik med GroupDocs.Signature för .NET - en steg-för-steg-guide"
 "url": "/sv/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # Så här hämtar du dokumentprocesshistorik med GroupDocs.Signature för .NET: En steg-för-steg-guide
 
 ## Introduktion

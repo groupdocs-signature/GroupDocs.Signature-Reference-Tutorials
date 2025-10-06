@@ -4,8 +4,8 @@
 "title": "Jak ověřit digitální certifikáty pomocí Aspose.Signature pro .NET | Podrobný návod"
 "url": "/cs/net/search-verification/verify-digital-certificates-aspose-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak ověřit digitální certifikáty pomocí Aspose.Signature pro .NET
 
 ## Zavedení

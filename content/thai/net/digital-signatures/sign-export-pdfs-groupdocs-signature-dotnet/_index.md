@@ -4,8 +4,8 @@
 "title": "ลงนามและส่งออกไฟล์ PDF โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/digital-signatures/sign-export-pdfs-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # ลงนามและส่งออกไฟล์ PDF โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

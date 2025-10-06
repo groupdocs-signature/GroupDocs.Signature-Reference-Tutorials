@@ -4,8 +4,8 @@
 "title": "วิธีการนำ .NET GroupDocs.Signature มาใช้สำหรับการลงนาม QR Code ในเอกสาร"
 "url": "/th/net/qr-code-signatures/guide-to-implementing-dotnet-groupdocs-signature-for-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำ .NET GroupDocs.Signature มาใช้สำหรับการลงนาม QR Code
 
 ## การแนะนำ

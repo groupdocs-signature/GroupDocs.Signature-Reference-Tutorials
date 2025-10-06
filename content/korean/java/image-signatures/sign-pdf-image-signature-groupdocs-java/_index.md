@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java를 사용하여 이미지 서명으로 PDF에 서명하는 방법 - 단계별 가이드"
 "url": "/ko/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 이미지 서명으로 PDF 문서에 서명하는 방법
 
 ## 소개

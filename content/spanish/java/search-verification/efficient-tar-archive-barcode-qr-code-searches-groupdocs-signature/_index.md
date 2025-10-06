@@ -4,8 +4,8 @@
 "title": "Búsquedas de códigos de barras y códigos QR en el archivo TAR con GroupDocs.Signature para Java"
 "url": "/es/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Domine las búsquedas de códigos de barras y códigos QR en el archivo TAR con GroupDocs.Signature para Java
 
 ## Introducción

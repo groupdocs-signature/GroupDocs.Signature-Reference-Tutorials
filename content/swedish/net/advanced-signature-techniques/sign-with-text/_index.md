@@ -5,8 +5,8 @@
 "title": "Lägg till textsignaturer i dokument med GroupDocs.Signature för .NET"
 "url": "/sv/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # Så här lägger du till textsignaturer i dokument med GroupDocs.Signature för .NET
 
 ## Introduktion: Modernisera din dokumentsigneringsprocess

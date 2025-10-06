@@ -4,8 +4,8 @@
 "title": "Dominar la recuperación de propiedades de documentos con GroupDocs.Signature para Java&#58; una guía completa"
 "url": "/es/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Dominar la recuperación de propiedades de documentos con GroupDocs.Signature para Java
 Descubra el potencial de la gestión documental aprovechando GroupDocs.Signature para Java para recuperar e imprimir fácilmente propiedades de documentos como formato, tamaño, número de páginas y más. Este completo tutorial le guiará en la configuración de su entorno, la implementación de diversas funcionalidades y la aplicación de estas capacidades en situaciones reales.
 

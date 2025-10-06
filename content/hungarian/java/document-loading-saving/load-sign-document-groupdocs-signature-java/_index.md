@@ -4,8 +4,8 @@
 "title": "Dokumentumok betöltése és aláírása Java nyelven a GroupDocs.Signature segítségével – Átfogó útmutató"
 "url": "/hu/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumok betöltése és aláírása a GroupDocs.Signature használatával Java-ban
 
 ## Bevezetés

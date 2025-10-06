@@ -4,8 +4,8 @@
 "title": "Wdrażanie niestandardowego rejestrowania w GroupDocs.Signature dla .NET&#58; – kompleksowy przewodnik"
 "url": "/pl/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Wdrażanie niestandardowego rejestrowania w GroupDocs.Signature dla platformy .NET: kompleksowy przewodnik
 
 ## Wstęp

@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature के साथ दस्तावेज़ों में स्टाम्प हस्ताक्षर कैसे जोड़ें"
 "url": "/hi/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # अपने .NET दस्तावेज़ों में व्यावसायिक स्टाम्प हस्ताक्षर कैसे जोड़ें
 
 ## स्टाम्प हस्ताक्षर से आप क्या हासिल कर सकते हैं?

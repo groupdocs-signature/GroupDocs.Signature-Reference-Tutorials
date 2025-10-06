@@ -4,8 +4,8 @@
 "title": "Cari dan Ekstrak Tanda Tangan Bidang Formulir dalam PDF menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mencari dan Mengekstrak Tanda Tangan Bidang Formulir di Dokumen PDF Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

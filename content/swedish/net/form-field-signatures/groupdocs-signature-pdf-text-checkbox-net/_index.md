@@ -4,8 +4,8 @@
 "title": "Implementera PDF-signatur med text och kryssruta med GroupDocs.Signature för .NET"
 "url": "/sv/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementera PDF-signatur med text och kryssruta med GroupDocs.Signature för .NET
 
 ## Signaturer i formulärfält

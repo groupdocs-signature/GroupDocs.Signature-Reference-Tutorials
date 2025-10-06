@@ -4,8 +4,8 @@
 "title": "掌握 Java 中的 PDF 数字签名——使用 GroupDocs.Signature 进行文本、复选框和数字字段签名"
 "url": "/zh/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 Java 中的 PDF 数字签名：使用 GroupDocs.Signature 进行文本、复选框和数字字段
 
 ## 介绍

@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ تحميل التوقيع الرقمي والتوقيع باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ تحميل التوقيع الرقمي والتوقيع باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

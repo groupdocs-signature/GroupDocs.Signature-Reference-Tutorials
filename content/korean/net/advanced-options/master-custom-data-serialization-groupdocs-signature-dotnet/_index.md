@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature 고급 가이드를 사용한 .NET에서의 사용자 지정 데이터 직렬화 마스터하기"
 "url": "/ko/net/advanced-options/master-custom-data-serialization-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 사용자 지정 데이터 직렬화 마스터하기
 ## 소개
 디지털 문서 처리 분야에서는 정확한 직렬화를 통해 데이터 무결성을 보장하는 것이 매우 중요합니다. 이 고급 가이드에서는 문서에 서명을 추가하는 과정을 간소화하는 강력한 솔루션인 GroupDocs.Signature for .NET의 속성을 사용하여 사용자 지정 데이터 직렬화를 구현하는 방법을 살펴봅니다. 사용자 지정 속성과 함께 특정 직렬화 규칙을 활용하면 워크플로를 간소화하고 데이터 보안을 강화할 수 있습니다.

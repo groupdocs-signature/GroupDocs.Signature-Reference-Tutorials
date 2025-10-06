@@ -4,8 +4,8 @@
 "title": "Efektivní vyhledávání polí formulářů PDF pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Efektivní vyhledávání polí formulářů PDF pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

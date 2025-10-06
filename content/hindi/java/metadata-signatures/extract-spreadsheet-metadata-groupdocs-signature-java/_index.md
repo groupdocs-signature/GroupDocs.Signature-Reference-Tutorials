@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java का उपयोग करके स्प्रेडशीट मेटाडेटा निकालें - एक व्यापक मार्गदर्शिका"
 "url": "/hi/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature के साथ स्प्रेडशीट मेटाडेटा निकालना
 
 ## परिचय

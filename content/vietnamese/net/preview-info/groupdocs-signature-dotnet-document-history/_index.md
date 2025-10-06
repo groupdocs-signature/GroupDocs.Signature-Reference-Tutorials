@@ -4,8 +4,8 @@
 "title": "Làm chủ lịch sử xử lý tài liệu với GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ lịch sử xử lý tài liệu với GroupDocs.Signature cho .NET: Hướng dẫn toàn diện
 
 ## Giới thiệu

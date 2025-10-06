@@ -4,8 +4,8 @@
 "title": "Efektywne zarządzanie podpisami kodów kreskowych w plikach PDF za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Efektywne zarządzanie podpisami kodów kreskowych w plikach PDF za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

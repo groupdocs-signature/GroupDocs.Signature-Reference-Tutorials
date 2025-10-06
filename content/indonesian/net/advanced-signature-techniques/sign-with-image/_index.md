@@ -5,8 +5,8 @@
 "title": "Tambahkan Tanda Tangan Gambar ke Dokumen dengan Mudah dengan GroupDocs.Signature"
 "url": "/id/net/advanced-signature-techniques/sign-with-image/"
 "weight": 13
+type: docs
 ---
-
 ## Pendahuluan: Ubah Keamanan Dokumen Anda dengan Tanda Tangan Gambar
 
 Pernahkah Anda bertanya-tanya bagaimana cara membuat dokumen digital Anda lebih aman dan sah secara hukum? Menambahkan tanda tangan gambar adalah salah satu cara paling efektif untuk mengautentikasi dokumen Anda dan melindunginya dari manipulasi. Dalam panduan praktis ini, kami akan memandu Anda melalui proses penerapan penandatanganan dokumen berbasis gambar di aplikasi .NET Anda menggunakan GroupDocs.Signature.

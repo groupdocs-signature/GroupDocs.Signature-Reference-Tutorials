@@ -4,8 +4,8 @@
 "title": "Benutzerdefinierte Serialisierung und Metadatensuche in .NET mit GroupDocs.Signature"
 "url": "/de/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren einer benutzerdefinierten Serialisierung und Metadatensignatursuche mit GroupDocs.Signature für .NET
 
 ## Einführung

@@ -4,8 +4,8 @@
 "title": "Jak podpisać plik PDF z adresu URL za pomocą GroupDocs.Signature for Java™ — samouczek dotyczący podpisów cyfrowych"
 "url": "/pl/java/digital-signatures/sign-pdf-from-url-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisać plik PDF z adresu URL za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

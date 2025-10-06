@@ -9,8 +9,8 @@ weight: 1
 url: "/net/qr-code-signatures/qr-code-signature-search-groupdocs-dotnet-dicom/"
 categories: ["Medical Imaging"]
 tags: ["DICOM", "QR-codes", "digital-signatures", "healthcare-security", "medical-imaging"]
+type: docs
 ---
-
 # DICOM QR Code Search .NET - Complete Healthcare Developer
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF με μεταδεδομένα και κρυπτογράφηση χρησιμοποιώντας το GroupDocs.Signature για .NET | Οδηγός Ασφαλούς Προστασίας Εγγράφων"
 "url": "/el/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε PDF με μεταδεδομένα και κρυπτογράφηση χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

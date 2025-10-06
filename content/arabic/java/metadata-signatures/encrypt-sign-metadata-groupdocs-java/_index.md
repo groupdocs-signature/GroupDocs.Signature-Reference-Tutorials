@@ -4,8 +4,8 @@
 "title": "كيفية تشفير وتوقيع بيانات تعريف المستندات باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/metadata-signatures/encrypt-sign-metadata-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تشفير بيانات تعريف المستندات وتوقيعها باستخدام GroupDocs.Signature لـ Java: دليل شامل
 
 ## مقدمة

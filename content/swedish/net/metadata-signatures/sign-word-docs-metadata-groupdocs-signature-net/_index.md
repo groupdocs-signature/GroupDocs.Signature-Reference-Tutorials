@@ -4,8 +4,8 @@
 "title": "Så här signerar du Word-dokument med metadata med GroupDocs.Signature för .NET | Steg-för-steg-guide"
 "url": "/sv/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar Word-dokument med metadata med GroupDocs.Signature för .NET
 
 ## Introduktion

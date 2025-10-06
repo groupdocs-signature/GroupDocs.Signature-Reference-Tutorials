@@ -4,8 +4,8 @@
 "title": "Leer .NET-teksthandtekeningen zoeken met GroupDocs.Signature&#58; een stapsgewijze handleiding"
 "url": "/nl/net/search-verification/guide-net-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Het beheersen van .NET-teksthandtekeningzoekopdrachten met GroupDocs.Signature
 
 ## Invoering

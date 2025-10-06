@@ -4,8 +4,8 @@
 "title": "Metadata-handtekeningen in PDF's zoeken met GroupDocs.Signature voor Java"
 "url": "/nl/java/search-verification/search-metadata-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Metadata-handtekeningen zoeken in PDF-documenten met GroupDocs.Signature voor Java
 
 ## Invoering

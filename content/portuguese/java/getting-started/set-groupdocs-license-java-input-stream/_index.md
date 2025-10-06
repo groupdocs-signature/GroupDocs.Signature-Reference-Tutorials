@@ -4,8 +4,8 @@
 "title": "Como definir a licença do GroupDocs via InputStream em Java para maior flexibilidade e conformidade"
 "url": "/pt/java/getting-started/set-groupdocs-license-java-input-stream/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar Java: definir a licença do GroupDocs via InputStream em GroupDocs.Signature para Java
 
 Bem-vindo a este guia completo sobre como configurar sua licença do GroupDocs usando um fluxo de entrada com o GroupDocs.Signature para Java. Essa funcionalidade permite que você gerencie licenças com eficiência, garantindo a conformidade e desbloqueando acesso total aos recursos do GroupDocs.

@@ -3,8 +3,8 @@
 "title": "Handledningar för QR-kodsignatur med GroupDocs.Signature för .NET"
 "url": "/sv/net/qr-code-signatures/"
 "weight": 5
+type: docs
 ---
-
 # Handledningar för QR-kodsignatur med GroupDocs.Signature för .NET
 
 Upptäck hur du effektivt arbetar med QR-kodsignaturer i dina .NET-applikationer med våra omfattande GroupDocs.Signature-handledningar. Dessa steg-för-steg-guider lär dig hur du skapar, anpassar, söker efter och verifierar QR-kodsignaturer. Lär dig att implementera specialiserade QR-kodobjekt för olika dataformat, inklusive vCard, WiFi, SMS, e-post, kryptovaluta, händelser och EPC-betalningsdata. Varje handledning ger praktiska C#-kodexempel för både grundläggande och avancerad QR-kodimplementering, vilket hjälper dig att bygga mer sofistikerade lösningar för dokumentsignering.

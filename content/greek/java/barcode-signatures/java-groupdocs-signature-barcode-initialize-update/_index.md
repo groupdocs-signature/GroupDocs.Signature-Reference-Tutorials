@@ -4,8 +4,8 @@
 "title": "Πώς να αρχικοποιήσετε και να ενημερώσετε υπογραφές γραμμωτού κώδικα σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αρχικοποιήσετε και να ενημερώσετε υπογραφές γραμμωτού κώδικα σε Java χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

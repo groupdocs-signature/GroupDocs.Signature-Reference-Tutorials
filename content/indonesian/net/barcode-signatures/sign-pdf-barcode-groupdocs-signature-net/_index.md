@@ -4,8 +4,8 @@
 "title": "Menandatangani PDF dengan Kode Batang Menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Menandatangani Dokumen PDF dengan Tanda Tangan Barcode Menggunakan GroupDocs.Signature untuk .NET
 
 Di lingkungan digital saat ini, memastikan keaslian dan integritas dokumen sangatlah penting. Baik Anda seorang profesional bisnis maupun pengembang yang bekerja dengan sistem manajemen dokumen, penandatanganan dokumen secara digital menambah lapisan keamanan dan kepercayaan ekstra. Dengan GroupDocs.Signature untuk .NET, menandatangani PDF menggunakan kode batang menjadi mudah—fitur serbaguna yang meningkatkan proses verifikasi dokumen. Dalam panduan komprehensif ini, kami akan menunjukkan cara menerapkan tanda tangan kode batang di aplikasi Anda.

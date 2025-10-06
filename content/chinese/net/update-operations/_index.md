@@ -5,8 +5,8 @@
 "title": "文档签名更新操作"
 "url": "/zh/net/update-operations/"
 "weight": 26
+type: docs
 ---
-
 ## 介绍
 
 在当今的数字化商业环境中，维护最新的文档签名对于确保文档的真实性和安全性至关重要。GroupDocs.Signature for .NET 提供了一套全面的工具，用于更新文档中各种类型的签名，使您能够在适应不断变化的业务需求的同时保持文档的完整性。

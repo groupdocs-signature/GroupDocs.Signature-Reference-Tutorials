@@ -5,8 +5,8 @@
 "title": "Szöveges aláírások hozzáadása dokumentumokhoz a GroupDocs.Signature for .NET segítségével"
 "url": "/hu/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # Szöveges aláírások hozzáadása dokumentumokhoz a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés: A dokumentumaláírási folyamat modernizálása

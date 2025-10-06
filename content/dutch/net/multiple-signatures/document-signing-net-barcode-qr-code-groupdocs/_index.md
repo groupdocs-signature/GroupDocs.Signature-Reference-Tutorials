@@ -4,8 +4,8 @@
 "title": "Documentondertekening in .NET onder de knie krijgen&#58; barcode- en QR-codehandtekeningen met GroupDocs.Signature"
 "url": "/nl/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Het onder de knie krijgen van documentondertekening in .NET: Barcode- en QR-codehandtekeningen implementeren met GroupDocs.Signature
 
 ## Invoering

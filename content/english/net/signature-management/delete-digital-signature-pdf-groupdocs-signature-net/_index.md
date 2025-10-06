@@ -9,8 +9,8 @@ url: "/net/signature-management/delete-digital-signature-pdf-groupdocs-signature
 keywords: "remove PDF digital signatures .NET, delete digital signatures programmatically, PDF signature removal C#, GroupDocs signature tutorial, how to remove digital signatures from PDF using C#"
 categories: ["PDF Processing"]
 tags: ["digital-signatures", "pdf-manipulation", "groupdocs", "csharp", "dotnet"]
+type: docs
 ---
-
 # Remove PDF Digital Signatures in .NET
 
 ## Introduction

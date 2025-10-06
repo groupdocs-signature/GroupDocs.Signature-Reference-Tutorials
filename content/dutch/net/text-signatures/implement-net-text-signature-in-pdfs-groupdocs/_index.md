@@ -4,8 +4,8 @@
 "title": "Implementeer .NET-teksthandtekeningen in PDF's met behulp van GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/net/text-signatures/implement-net-text-signature-in-pdfs-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementeer .NET-teksthandtekening in PDF's met behulp van GroupDocs.Signature
 ## Invoering
 In de huidige digitale wereld is het garanderen van de authenticiteit en integriteit van documenten cruciaal in alle sectoren. Het efficiënt toevoegen van veilige elektronische handtekeningen aan PDF-documenten kan een uitdaging zijn. **GroupDocs.Signature voor .NET**—een krachtige bibliotheek die is ontworpen om dit proces te stroomlijnen. In deze uitgebreide handleiding laten we je zien hoe je snel en veilig een teksthandtekening aan je PDF's toevoegt.

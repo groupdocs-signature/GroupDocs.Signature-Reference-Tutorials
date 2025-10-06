@@ -4,8 +4,8 @@
 "title": "Implementace vlastního protokolování v GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementace vlastního protokolování v GroupDocs.Signature pro .NET: Komplexní průvodce
 
 ## Zavedení

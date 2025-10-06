@@ -4,8 +4,8 @@
 "title": "Tạo bản xem trước tài liệu trong kho lưu trữ bằng GroupDocs.Signature cho .NET - Hướng dẫn đầy đủ"
 "url": "/vi/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Tạo bản xem trước tài liệu từ kho lưu trữ với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

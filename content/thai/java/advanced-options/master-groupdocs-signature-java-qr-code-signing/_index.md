@@ -4,8 +4,8 @@
 "title": "เชี่ยวชาญลายเซ็นเอกสารแบบไดนามิกด้วย GroupDocs.Signature สำหรับเทคนิคการลงนาม QR Code ของ Java"
 "url": "/th/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # เชี่ยวชาญการลงนามเอกสารแบบไดนามิกด้วย GroupDocs.Signature สำหรับ Java: เทคนิคการลงนาม QR Code
 
 ในโลกดิจิทัลทุกวันนี้ การรักษาความปลอดภัยและการรับรองเอกสารอิเล็กทรอนิกส์อย่างมีประสิทธิภาพถือเป็นสิ่งสำคัญ **GroupDocs.Signature สำหรับ Java** นำเสนอโซลูชันอันทรงพลังสำหรับการลงนามไฟล์ PDF อย่างรวดเร็วพร้อมรับรองความถูกต้องโดยใช้ลายเซ็น QR code ในตำแหน่งต่างๆ

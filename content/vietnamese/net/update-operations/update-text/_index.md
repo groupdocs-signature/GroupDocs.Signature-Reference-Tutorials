@@ -5,8 +5,8 @@
 "title": "Cập nhật chữ ký văn bản trong tài liệu"
 "url": "/vi/net/update-operations/update-text/"
 "weight": 13
+type: docs
 ---
-
 ## Giới thiệu
 GroupDocs.Signature for .NET là giải pháp ký tài liệu toàn diện cho phép các nhà phát triển tích hợp các chức năng chữ ký mạnh mẽ vào ứng dụng .NET của họ. Với thư viện đa năng này, bạn có thể dễ dàng thêm, tìm kiếm, xác minh và cập nhật nhiều loại chữ ký khác nhau, bao gồm cả chữ ký văn bản, ở nhiều định dạng tài liệu khác nhau. Hướng dẫn này tập trung cụ thể vào việc cập nhật chữ ký văn bản trong tài liệu, cung cấp hướng dẫn từng bước để triển khai liền mạch.
 

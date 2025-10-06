@@ -4,8 +4,8 @@
 "title": "Hämta och visa filformat som stöds med GroupDocs.Signature för .NET"
 "url": "/sv/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hämta och visa filformat som stöds med GroupDocs.Signature för .NET
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "Come eliminare una firma tramite ID utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/signature-management/delete-signature-by-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Come eliminare una firma tramite ID con GroupDocs.Signature per Java
 
 ## Introduzione

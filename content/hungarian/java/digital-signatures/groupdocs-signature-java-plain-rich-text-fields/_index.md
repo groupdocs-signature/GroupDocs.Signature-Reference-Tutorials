@@ -4,8 +4,8 @@
 "title": "Fődokumentum-aláírás Java-ban; Sima és Rich Text mezők megvalósítása a GroupDocs.Signature segítségével"
 "url": "/hu/java/digital-signatures/groupdocs-signature-java-plain-rich-text-fields/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum aláírásának elsajátítása Java nyelven: sima és rich text mezők megvalósítása a GroupDocs.Signature segítségével
 
 Üdvözöljük a tőkeáttételről szóló átfogó útmutatóban **GroupDocs.Signature Java-hoz** dokumentumok aláírásához egyszerű és formázott szövegmezők használatával. Akár szerződésjóváhagyásokat automatizál, akár munkafolyamatokat egyszerűsít, ez az oktatóanyag segít hatékonyan megvalósítani ezeket a funkciókat.

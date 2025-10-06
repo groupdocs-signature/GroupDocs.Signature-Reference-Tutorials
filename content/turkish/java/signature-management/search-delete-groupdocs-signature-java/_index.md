@@ -4,8 +4,8 @@
 "title": "Verimli İmza Yönetimi - GroupDocs.Signature for Java Kullanarak Dijital İmzaları Arama ve Silme"
 "url": "/tr/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Verimli İmza Yönetimi: GroupDocs.Signature for Java Kullanarak Dijital İmzaları Arama ve Silme
 
 ## giriiş

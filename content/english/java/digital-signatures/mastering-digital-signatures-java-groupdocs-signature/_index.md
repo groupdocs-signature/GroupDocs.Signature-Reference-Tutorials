@@ -8,10 +8,8 @@ keywords:
 - digital signatures java
 - groupdocs.signature for java
 - pdf digital signature
-
+type: docs
 ---
-
-
 # Mastering Digital Signatures in Java: A Comprehensive Guide with GroupDocs.Signature
 
 ## Introduction

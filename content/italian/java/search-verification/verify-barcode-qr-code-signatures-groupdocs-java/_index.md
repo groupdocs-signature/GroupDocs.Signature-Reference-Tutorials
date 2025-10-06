@@ -4,8 +4,8 @@
 "title": "Come verificare i codici a barre e i codici QR nei documenti utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/search-verification/verify-barcode-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare la verifica di codici a barre e QR con GroupDocs.Signature per Java
 
 ## Introduzione

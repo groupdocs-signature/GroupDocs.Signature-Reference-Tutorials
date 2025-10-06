@@ -4,8 +4,8 @@
 "title": "ลบลายเซ็นดิจิทัลใน PDF โดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/signature-management/delete-digital-signature-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # ลบลายเซ็นดิจิทัลใน PDF โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

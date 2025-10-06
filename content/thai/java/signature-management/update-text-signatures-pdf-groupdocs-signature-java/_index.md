@@ -4,8 +4,8 @@
 "title": "อัปเดตลายเซ็นข้อความใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/signature-management/update-text-signatures-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # อัปเดตลายเซ็นข้อความใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

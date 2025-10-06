@@ -4,8 +4,8 @@
 "title": "Java'da QR Kod Aramalarında Ustalaşma - GroupDocs.Signature Kullanarak Tam Kılavuz"
 "url": "/tr/java/search-verification/mastering-qr-code-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java'da QR Kod Aramalarında Ustalaşma: GroupDocs.Signature Kullanarak Eksiksiz Bir Kılavuz
 
 ## giriiş

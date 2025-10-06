@@ -5,8 +5,8 @@
 "title": "استخراج بيانات التعريف للمستند الرئيسي باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # دليل شامل لاستخراج بيانات التعريف الخاصة بالمستندات باستخدام GroupDocs.Signature
 
 ## الأهمية الاستراتيجية لبيانات المستندات الوصفية في سير العمل الحديث

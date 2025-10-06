@@ -4,8 +4,8 @@
 "title": "Xác minh tài liệu kỹ thuật số Java với GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/java/digital-signatures/java-groupdocs-signature-digital-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai xác minh tài liệu kỹ thuật số Java bằng GroupDocs.Signature
 
 ## Giới thiệu

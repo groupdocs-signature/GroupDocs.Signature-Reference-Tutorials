@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 지원되는 파일 형식 검색 및 표시"
 "url": "/ko/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 지원되는 파일 형식 검색 및 표시
 
 ## 소개

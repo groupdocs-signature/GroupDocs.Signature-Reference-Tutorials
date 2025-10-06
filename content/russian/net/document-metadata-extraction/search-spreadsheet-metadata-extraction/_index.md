@@ -5,8 +5,8 @@
 "title": "Легкое извлечение метаданных из электронных таблиц с помощью GroupDocs.Signature"
 "url": "/ru/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # Как извлечь метаданные из электронных таблиц с помощью GroupDocs.Signature
 
 ## Почему метаданные электронных таблиц имеют значение

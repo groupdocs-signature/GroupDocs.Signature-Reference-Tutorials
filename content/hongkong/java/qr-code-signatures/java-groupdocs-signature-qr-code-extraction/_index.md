@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 提取 Java QR 碼簽署的綜合指南"
 "url": "/zh-hant/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 實作 Java QR 碼簽章擷取
 
 ## 介紹

@@ -5,8 +5,8 @@
 "title": "Полное руководство по операциям удаления подписи документа"
 "url": "/ru/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # Удаление операций в GroupDocs.Signature для .NET
 
 ## Введение

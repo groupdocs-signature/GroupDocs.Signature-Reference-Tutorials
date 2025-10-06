@@ -4,8 +4,8 @@
 "title": "Мастер цифровых подписей в PDF-файлах с настраиваемым внешним видом с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # Создание цифровых подписей в PDF-файлах с индивидуальным оформлением с помощью GroupDocs.Signature для .NET
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "วิธีการค้นหาลายเซ็นข้อมูลเมตา PDF โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/metadata-signatures/master-pdf-metadata-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการค้นหาลายเซ็นข้อมูลเมตา PDF โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

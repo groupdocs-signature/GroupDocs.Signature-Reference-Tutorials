@@ -4,8 +4,8 @@
 "title": "Metaadat-aláírások keresése PDF-ekben a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/search-verification/search-metadata-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Metaadat-aláírások keresése PDF dokumentumokban a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

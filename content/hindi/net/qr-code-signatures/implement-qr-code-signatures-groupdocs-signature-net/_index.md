@@ -4,8 +4,8 @@
 "title": "उन्नत दस्तावेज़ सुरक्षा के लिए GroupDocs.Signature का उपयोग करके .NET में QR कोड हस्ताक्षर लागू करें"
 "url": "/hi/net/qr-code-signatures/implement-qr-code-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # उन्नत दस्तावेज़ सुरक्षा के लिए GroupDocs.Signature का उपयोग करके .NET में QR कोड हस्ताक्षर लागू करें
 
 ## परिचय

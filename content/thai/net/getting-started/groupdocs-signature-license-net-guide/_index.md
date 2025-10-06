@@ -4,8 +4,8 @@
 "title": "การตั้งค่าไฟล์ใบอนุญาตสำหรับ GroupDocs.Signature ใน .NET พร้อมคำแนะนำทีละขั้นตอน"
 "url": "/th/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # การตั้งค่าไฟล์ใบอนุญาตสำหรับ GroupDocs.Signature ใน .NET: คำแนะนำทีละขั้นตอน
 
 ## การแนะนำ

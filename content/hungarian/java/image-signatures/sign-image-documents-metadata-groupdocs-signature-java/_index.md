@@ -4,8 +4,8 @@
 "title": "Képdokumentumok aláírása metaadatokkal a GroupDocs.Signature for Java használatával – Teljes körű útmutató"
 "url": "/hu/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan írjunk alá képdokumentumokat metaadatokkal a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

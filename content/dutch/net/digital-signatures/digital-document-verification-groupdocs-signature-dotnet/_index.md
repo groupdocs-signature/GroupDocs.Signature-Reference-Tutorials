@@ -4,8 +4,8 @@
 "title": "Digitale documentverificatie met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/digital-signatures/digital-document-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Digitale documentverificatie met GroupDocs.Signature voor .NET: een uitgebreide handleiding
 
 ## Invoering

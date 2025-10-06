@@ -4,8 +4,8 @@
 "title": "Ψηφιακή υπογραφή PDF σε .NET™ Ένας οδηγός χρήσης του GroupDocs.Signature"
 "url": "/el/net/digital-signatures/sign-pdf-digital-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Ψηφιακή υπογραφή PDF στο .NET: Οδηγός χρήσης του GroupDocs.Signature
 
 ## Εισαγωγή

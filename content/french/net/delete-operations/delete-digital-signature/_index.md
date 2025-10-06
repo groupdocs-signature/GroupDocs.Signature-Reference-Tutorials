@@ -5,8 +5,8 @@
 "title": "Comment supprimer les signatures numériques des documents dans .NET"
 "url": "/fr/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # Comment supprimer les signatures numériques de vos documents avec GroupDocs.Signature
 
 ## Pourquoi la gestion des signatures numériques est importante

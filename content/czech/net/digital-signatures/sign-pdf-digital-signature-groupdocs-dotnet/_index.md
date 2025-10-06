@@ -4,8 +4,8 @@
 "title": "Digitální podepisování PDF v .NET&#58; Průvodce používáním GroupDocs.Signature"
 "url": "/cs/net/digital-signatures/sign-pdf-digital-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Digitální podepisování PDF v .NET: Průvodce používáním GroupDocs.Signature
 
 ## Zavedení

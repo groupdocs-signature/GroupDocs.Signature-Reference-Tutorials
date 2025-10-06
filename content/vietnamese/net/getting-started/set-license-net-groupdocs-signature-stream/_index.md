@@ -4,8 +4,8 @@
 "title": "Thiết lập Giấy phép trong .NET bằng GroupDocs.Signature và FileStream - Hướng dẫn toàn diện"
 "url": "/vi/net/getting-started/set-license-net-groupdocs-signature-stream/"
 "weight": 1
+type: docs
 ---
-
 # Thiết lập Giấy phép trong .NET với GroupDocs.Signature và FileStream
 ## Bắt đầu
 ### Triển khai Set License thông qua Stream trong .NET bằng GroupDocs.Signature

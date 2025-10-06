@@ -4,8 +4,8 @@
 "title": "Firmar documentos con pincel degradado en Java usando GroupDocs.Signature"
 "url": "/es/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Firmar documentos con pincel degradado en Java usando GroupDocs.Signature
 
 En la era digital actual, firmar documentos de forma segura es vital para la eficiencia en todos los sectores. Este tutorial le guía en la firma digital de documentos con un efecto de pincel degradado. **GroupDocs.Signature para Java**.

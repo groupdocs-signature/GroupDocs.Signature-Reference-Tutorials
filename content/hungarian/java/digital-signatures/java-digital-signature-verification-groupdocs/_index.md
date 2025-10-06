@@ -4,8 +4,8 @@
 "title": "Java digitális aláírás-ellenőrzés a GroupDocs.Signature segítségével – lépésről lépésre útmutató"
 "url": "/hu/java/digital-signatures/java-digital-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Átfogó útmutató a Java digitális aláírás-ellenőrzés megvalósításához a GroupDocs.Signature használatával
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Implementasikan Pencarian Tanda Tangan Kode QR di Java dengan GroupDocs.Signature"
 "url": "/id/java/qr-code-signatures/implement-qr-code-signature-search-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementasikan Pencarian Tanda Tangan Kode QR di Java dengan GroupDocs.Signature
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Java에서 QR 코드 검색 마스터하기&#58; GroupDocs.Signature를 사용한 완벽한 가이드"
 "url": "/ko/java/search-verification/mastering-qr-code-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java에서 QR 코드 검색 마스터하기: GroupDocs.Signature를 사용한 완벽한 가이드
 
 ## 소개

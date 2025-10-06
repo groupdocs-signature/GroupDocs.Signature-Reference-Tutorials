@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用したテキスト透かしによるドキュメントの保護 - 総合ガイド"
 "url": "/ja/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してドキュメントにテキスト透かしを実装する方法
 
 ## 導入

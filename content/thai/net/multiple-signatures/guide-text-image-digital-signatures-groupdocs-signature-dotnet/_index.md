@@ -4,8 +4,8 @@
 "title": "คู่มือครอบคลุมเกี่ยวกับข้อความ รูปภาพ และลายเซ็นดิจิทัลด้วย GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # คู่มือครอบคลุมสำหรับการนำข้อความ รูปภาพ และลายเซ็นดิจิทัลไปใช้กับ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

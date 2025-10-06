@@ -4,8 +4,8 @@
 "title": "Επαλήθευση εγγράφων με υπογραφές QR-Code σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/search-verification/verify-documents-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να επαληθεύσετε έγγραφα με υπογραφές QR-Code χρησιμοποιώντας το GroupDocs.Signature σε Java
 
 ## Εισαγωγή

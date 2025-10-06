@@ -8,10 +8,8 @@ keywords:
 - sign PDF with text
 - GroupDocs.Signature for Java
 - text signature in Java
-
+type: docs
 ---
-
-
 # How to Sign a PDF with Text Using GroupDocs.Signature for Java
 
 ## Introduction

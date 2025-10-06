@@ -5,8 +5,8 @@
 "title": ".NET'te Belge Doğrulama İşlemleri"
 "url": "/tr/net/verify-operations/"
 "weight": 27
+type: docs
 ---
-
 ## giriiş
 
 Belge doğrulama, her güvenli belge yönetim sisteminin kritik bir bileşenidir. İster kurumsal uygulamalar, ister belge iş akışı çözümleri veya güvenlik odaklı sistemler geliştiriyor olun, belgelerdeki çeşitli imza türlerini doğrulayabilmek çok önemlidir. GroupDocs.Signature for .NET, .NET geliştiricilerinin barkodlar, dijital imzalar, QR kodları ve metin imzaları için güçlü doğrulama işlevleri uygulamasına olanak tanıyan güçlü araçlar ve API'ler sunar.

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 實作 Java Stamp Sign 選項以確保文件真實性"
 "url": "/zh-hant/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 實作 Java Stamp Sign 選項以確保文件真實性
 ## 如何使用 GroupDocs.Signature for Java 實作 Java Stamp Sign 選項
 在當今的數位時代，確保文件的真實性至關重要。無論您是商務人士還是需要驗證合約和協議的個人，添加印章簽名都能提升可信度和安全性。本教學將指導您使用 GroupDocs.Signature for Java 設定印章簽名選項－這是一個功能強大的函式庫，可輕鬆滿足您的文件簽章需求。

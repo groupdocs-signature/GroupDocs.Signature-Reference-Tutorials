@@ -3,8 +3,8 @@
 "title": "Tutorial sulla ricerca e verifica delle firme per GroupDocs.Signature Java"
 "url": "/it/java/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # Tutorial sulla ricerca e verifica delle firme per GroupDocs.Signature Java
 
 nostri tutorial di ricerca e verifica forniscono una guida completa per la convalida delle firme dei documenti utilizzando GroupDocs.Signature in Java. Queste guide pratiche illustrano come cercare firme di vario tipo (digitali, codici a barre, codici QR, testo, immagini e metadati), implementare la verifica per il controllo di autenticità, gestire le eccezioni durante la verifica ed elaborare documenti complessi. Ogni tutorial include esempi completi di codice Java per scenari di verifica comuni, aiutandovi a creare applicazioni in grado di determinare efficacemente se i documenti sono stati alterati dopo la firma.

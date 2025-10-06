@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET でラジオボタンフォームフィールドを使用して PDF に署名する方法"
 "url": "/ja/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でラジオボタンフォームフィールドを使用して PDF に署名する方法
 
 ## 導入

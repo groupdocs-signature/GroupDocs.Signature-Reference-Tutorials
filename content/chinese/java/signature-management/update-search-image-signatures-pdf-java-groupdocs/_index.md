@@ -4,8 +4,8 @@
 "title": "使用 Java 和 GroupDocs.Signature 更新和搜索 PDF 中的图像签名"
 "url": "/zh/java/signature-management/update-search-image-signatures-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 Java 更新和搜索 PDF 中的图像签名
 
 ## 介绍

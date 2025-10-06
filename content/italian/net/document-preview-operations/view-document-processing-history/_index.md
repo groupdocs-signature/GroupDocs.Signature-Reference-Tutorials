@@ -5,8 +5,8 @@
 "title": "Tieni traccia della cronologia delle firme dei documenti con facilità in .NET"
 "url": "/it/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # Come tenere traccia della cronologia delle firme del tuo documento in .NET
 
 ## Cosa può fare GroupDocs.Signature per te?

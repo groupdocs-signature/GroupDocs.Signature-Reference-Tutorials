@@ -4,8 +4,8 @@
 "title": "تنفيذ التسلسل والتشفير المخصص لرمز الاستجابة السريعة في ملفات PDF باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ تسلسل رمز الاستجابة السريعة (QR-Code) المخصص والتشفير في ملفات PDF باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

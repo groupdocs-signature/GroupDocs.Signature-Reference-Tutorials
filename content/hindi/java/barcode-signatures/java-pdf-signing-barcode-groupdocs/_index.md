@@ -4,8 +4,8 @@
 "title": "ग्रुपडॉक्स का उपयोग करके बारकोड के साथ जावा पीडीएफ साइनिंग - एक व्यापक गाइड"
 "url": "/hi/java/barcode-signatures/java-pdf-signing-barcode-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके बारकोड विकल्पों के साथ Java PDF हस्ताक्षर को कैसे कार्यान्वित करें
 
 ## परिचय

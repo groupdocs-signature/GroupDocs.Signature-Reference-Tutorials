@@ -4,8 +4,8 @@
 "title": "Υλοποίηση αναζήτησης υπογραφής κειμένου Java με το GroupDocs.Signature για διαχείριση και επαλήθευση εγγράφων"
 "url": "/el/java/search-verification/java-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση αναζήτησης υπογραφής κειμένου Java με το GroupDocs.Signature
 
 ## Εισαγωγή

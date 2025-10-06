@@ -4,8 +4,8 @@
 "title": "如何使用 Java 中的 GroupDocs.Signature 對帶有二維碼的 PDF 進行簽名——逐步指南"
 "url": "/zh-hant/java/qr-code-signatures/sign-pdf-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何實作 Java 簽名庫：使用 GroupDocs.Signature 載入並簽署帶有二維碼選項的 PDF
 
 在當今的數位環境中，確保文件完整性至關重要，尤其是在處理敏感資訊時。添加電子簽名不僅可以增強安全性，還可以提高效率。本逐步教學將指導您如何使用 **GroupDocs.Signature for Java** 使用二維碼選項載入和簽署 PDF 檔案。

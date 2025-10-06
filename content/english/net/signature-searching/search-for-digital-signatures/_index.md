@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["digital-signatures", "document-verification", "dotnet", "security", "pdf-validation"]
+type: docs
 ---
-
 ## Introduction
 
 Ever received a contract and wondered if it's actually been tampered with? Or needed to prove that a document hasn't been modified since it was signed? You're not alone—these are critical questions in today's digital-first business world.

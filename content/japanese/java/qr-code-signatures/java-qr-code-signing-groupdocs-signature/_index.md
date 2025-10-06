@@ -4,8 +4,8 @@
 "title": "Java QR コード署名ガイド&#58; GroupDocs.Signature でドキュメントを保護する"
 "url": "/ja/java/qr-code-signatures/java-qr-code-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用した Java QR コード署名の実装
 
 ## 導入

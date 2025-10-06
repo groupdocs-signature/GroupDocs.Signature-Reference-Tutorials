@@ -4,8 +4,8 @@
 "title": "Wdrażanie generowania podglądu dokumentów w Javie za pomocą GroupDocs.Signature™ – kompleksowy przewodnik"
 "url": "/pl/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja generowania podglądu dokumentu w Javie za pomocą GroupDocs.Signature
 
 ## Wstęp

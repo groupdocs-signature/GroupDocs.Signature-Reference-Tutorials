@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF με κωδικούς QR που περιέχουν SMS χρησιμοποιώντας GroupDocs σε .NET"
 "url": "/el/net/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα έγγραφο PDF με έναν κωδικό QR που περιέχει ένα αντικείμενο SMS χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

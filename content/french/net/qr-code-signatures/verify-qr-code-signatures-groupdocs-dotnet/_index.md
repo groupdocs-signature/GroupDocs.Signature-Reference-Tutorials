@@ -4,8 +4,8 @@
 "title": "Comment vérifier les signatures de codes QR dans .NET à l'aide de GroupDocs.Signature"
 "url": "/fr/net/qr-code-signatures/verify-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter la vérification de signature de code QR avec GroupDocs.Signature pour .NET
 
 ## Introduction

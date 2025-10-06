@@ -5,8 +5,8 @@
 "title": "استخراج بيانات العرض التقديمي بسهولة باستخدام GroupDocs.Signature"
 "url": "/ar/net/document-metadata-extraction/search-presentation-metadata-extraction/"
 "weight": 12
+type: docs
 ---
-
 # كيفية استخراج البيانات الوصفية من العروض التقديمية باستخدام GroupDocs.Signature
 
 ## لماذا تعتبر بيانات العرض التقديمي مهمة لمشاريعك

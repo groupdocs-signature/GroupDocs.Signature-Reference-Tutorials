@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["dotnet", "certificates", "security", "groupdocs"]
+type: docs
 ---
-
 # How to Load Digital Certificates in .NET Applications: Complete Developer Guide
 
 ## Introduction

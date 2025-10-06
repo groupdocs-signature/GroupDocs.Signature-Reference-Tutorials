@@ -4,8 +4,8 @@
 "title": "Como implementar criptografia de assinatura de metadados em .NET com GroupDocs.Signature para PDFs seguros"
 "url": "/pt/net/metadata-signatures/groupdocs-signature-net-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar criptografia de assinatura de metadados em .NET com GroupDocs.Signature para PDFs seguros
 
 ## Introdução

@@ -4,8 +4,8 @@
 "title": "Signera Excel-kalkylblad och VBA-projekt digitalt med GroupDocs.Signature för .NET"
 "url": "/sv/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Digital signering av Excel-kalkylblad och deras VBA-projekt med GroupDocs.Signature för .NET
 
 I dagens digitala tidsålder är det avgörande att säkerställa äktheten hos dina Excel-filer. Oavsett om du hanterar ekonomiska kalkylblad eller projektplaner kan en digital signatur skydda mot obehöriga ändringar. Den här handledningen guidar dig genom att digitalt signera både kalkylbladsdokument och deras VBA-projekt med hjälp av... **GroupDocs.Signature för .NET**.

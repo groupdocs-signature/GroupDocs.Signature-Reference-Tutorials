@@ -5,8 +5,8 @@
 "title": ".NET'te Belge İmzaları Türüne Göre Nasıl Kaldırılır"
 "url": "/tr/net/delete-operations/delete-signature-by-type/"
 "weight": 12
+type: docs
 ---
-
 # .NET'te Belge İmzaları Türüne Göre Nasıl Kaldırılır
 
 ## Belge İşlemede İmza Yönetiminin Önemi

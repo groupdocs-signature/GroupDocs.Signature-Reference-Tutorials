@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature를 사용하여 문서 정보를 검색하는 방법"
 "url": "/ko/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 문서 정보를 검색하는 방법
 
 ## 소개

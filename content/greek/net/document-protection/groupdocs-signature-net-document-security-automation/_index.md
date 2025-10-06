@@ -4,8 +4,8 @@
 "title": "Ασφαλής και αυτοματοποιημένη υπογραφή εγγράφων με το GroupDocs.Signature για .NET™ Ένας ολοκληρωμένος οδηγός"
 "url": "/el/net/document-protection/groupdocs-signature-net-document-security-automation/"
 "weight": 1
+type: docs
 ---
-
 # Ασφαλής και αυτοματοποιημένη υπογραφή εγγράφων με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

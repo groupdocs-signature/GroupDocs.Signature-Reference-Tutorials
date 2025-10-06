@@ -8,10 +8,8 @@ keywords:
 - sign PDF with text sticker
 - GroupDocs.Signature for Java
 - text signature as a sticker
-
+type: docs
 ---
-
-
 # How to Sign PDFs with Text Stickers Using GroupDocs.Signature for Java: A Complete Guide
 
 ## Introduction

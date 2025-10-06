@@ -4,8 +4,8 @@
 "title": "Jak ověřovat textové podpisy v dokumentech pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/search-verification/verify-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak ověřit textový podpis v dokumentech pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

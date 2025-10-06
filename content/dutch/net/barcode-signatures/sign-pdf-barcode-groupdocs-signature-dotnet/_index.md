@@ -4,8 +4,8 @@
 "title": "PDF-documenten ondertekenen met een barcode met GroupDocs.Signature voor .NET"
 "url": "/nl/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF-documenten ondertekenen met een barcode met GroupDocs.Signature voor .NET
 
 In de huidige digitale wereld is het elektronisch ondertekenen van documenten niet alleen handig, maar verhoogt het ook de veiligheid en efficiëntie. Veel bedrijven staan echter voor de uitdaging om ervoor te zorgen dat deze handtekeningen zowel veilig als verifieerbaar zijn. **GroupDocs.Signature voor .NET**—een krachtige bibliotheek die is ontworpen om dit proces te vereenvoudigen door u in staat te stellen om barcodehandtekeningen programmatisch aan PDF-documenten toe te voegen. Deze tutorial laat u zien hoe u GroupDocs.Signature voor .NET implementeert om een PDF-document te ondertekenen met een barcodehandtekening.

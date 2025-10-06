@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["digital-signatures", "dotnet", "csharp", "pdf-signing", "electronic-documents"]
+type: docs
 ---
-
 # Digital Signature .NET: Your Complete Guide to Electronic Document Signing with C#
 
 ## Why Digital Signatures Matter in .NET Development (And How This Guide Helps)

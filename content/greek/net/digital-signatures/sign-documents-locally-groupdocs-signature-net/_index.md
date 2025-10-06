@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράφετε έγγραφα τοπικά χρησιμοποιώντας το GroupDocs.Signature για .NET™; Ένας πλήρης οδηγός"
 "url": "/el/net/digital-signatures/sign-documents-locally-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε έγγραφα τοπικά χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

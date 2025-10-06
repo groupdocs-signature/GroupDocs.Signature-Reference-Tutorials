@@ -5,8 +5,8 @@
 "title": "Ekstrak Metadata Pengolah Kata dengan Mudah dengan .NET"
 "url": "/id/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # Cara Mencari dan Mengekstrak Metadata Pengolah Kata di .NET
 
 ## Perkenalan

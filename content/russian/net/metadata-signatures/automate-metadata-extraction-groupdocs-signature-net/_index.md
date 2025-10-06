@@ -4,8 +4,8 @@
 "title": "Автоматизируйте извлечение метаданных из электронных таблиц с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Автоматизация извлечения метаданных из электронных таблиц с помощью GroupDocs.Signature для .NET
 
 ## Введение

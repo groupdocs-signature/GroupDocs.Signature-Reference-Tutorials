@@ -4,8 +4,8 @@
 "title": "Jak podepisovat dokumenty pomocí GroupDocs.Signature pro Javu – kompletní průvodce"
 "url": "/cs/java/digital-signatures/groupdocs-signature-java-document-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat dokumenty pomocí GroupDocs.Signature pro Javu: Kompletní průvodce
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "วิธีนำ Java GroupDocs.Signature มาใช้และแสดงประวัติกระบวนการเอกสาร"
 "url": "/th/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้ Java GroupDocs.Signature: ดึงและแสดงประวัติกระบวนการเอกสาร
 
 ## การแนะนำ

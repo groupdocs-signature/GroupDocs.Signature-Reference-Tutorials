@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - QR-code serialization
 - PDF encryption
-
+type: docs
 ---
-
-
 # How to Implement Custom QR-Code Serialization and Encryption in PDFs Using GroupDocs.Signature for Java
 
 ## Introduction

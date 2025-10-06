@@ -9,8 +9,8 @@ weight: 1
 url: "/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 categories: ["Document Processing"]
 tags: ["GroupDocs.Signature", "NET", "File Type Detection", "Document Loading"]
+type: docs
 ---
-
 # How to Specify File Type When Loading Documents in GroupDocs.Signature for .NET
 
 ## Introduction

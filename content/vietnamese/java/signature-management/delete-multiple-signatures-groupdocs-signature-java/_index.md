@@ -4,8 +4,8 @@
 "title": "Cách xóa nhiều chữ ký khỏi tệp PDF bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/signature-management/delete-multiple-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa nhiều chữ ký khỏi tệp PDF bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

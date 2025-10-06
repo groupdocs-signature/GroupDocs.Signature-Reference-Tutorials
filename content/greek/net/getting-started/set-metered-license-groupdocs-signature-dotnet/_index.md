@@ -4,8 +4,8 @@
 "title": "Πώς να ορίσετε μια άδεια χρήσης με ογκοχρέωση για το GroupDocs.Signature σε .NET™; Ένας πλήρης οδηγός"
 "url": "/el/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να ορίσετε μια άδεια χρήσης με ογκοχρέωση για το GroupDocs.Signature στο .NET: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

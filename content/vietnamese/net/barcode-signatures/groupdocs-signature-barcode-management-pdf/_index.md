@@ -4,8 +4,8 @@
 "title": "Quản lý chữ ký mã vạch hiệu quả trong PDF với GroupDocs.Signature cho .NET"
 "url": "/vi/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Quản lý chữ ký mã vạch hiệu quả trong PDF với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

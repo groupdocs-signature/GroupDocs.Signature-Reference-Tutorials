@@ -4,8 +4,8 @@
 "title": "Vistas previas de firmas de códigos QR con GroupDocs.Signature para .NET&#58; una guía completa"
 "url": "/es/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementación de vistas previas de firmas de códigos QR con GroupDocs.Signature para .NET
 
 ## Introducción

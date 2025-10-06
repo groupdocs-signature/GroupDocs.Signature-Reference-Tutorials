@@ -4,8 +4,8 @@
 "title": "Zvládnutí vyhledávání digitálních certifikátů s GroupDocs.Signature pro Javu"
 "url": "/cs/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vyhledávání digitálních certifikátů s GroupDocs.Signature pro Javu
 
 ## Zavedení

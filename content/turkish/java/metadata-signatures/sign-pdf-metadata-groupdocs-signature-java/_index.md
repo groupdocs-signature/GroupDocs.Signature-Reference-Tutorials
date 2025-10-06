@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak PDF'yi Meta Verilerle Nasıl İmzalayabilirsiniz?"
 "url": "/tr/java/metadata-signatures/sign-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak PDF'yi Meta Verilerle Nasıl İmzalayabilirsiniz?
 
 Günümüzün dijital dünyasında, belgelerin bütünlüğünün ve gerçekliğinin sağlanması hayati önem taşımaktadır. İmzalar aracılığıyla bir güvenlik katmanı gerektiren PDF'lerle uğraşıyorsanız, bu eğitim size yazar adı, oluşturma tarihi, belge kimliği ve imza kimliği gibi meta verileri kullanarak bir PDF belgesini GroupDocs.Signature for Java ile imzalama konusunda rehberlik edecektir.

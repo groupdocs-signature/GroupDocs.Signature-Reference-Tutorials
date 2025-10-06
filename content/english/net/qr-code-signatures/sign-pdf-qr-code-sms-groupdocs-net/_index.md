@@ -9,8 +9,8 @@ weight: 1
 url: "/net/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-net/"
 categories: ["PDF Processing"]
 tags: ["digital-signatures", "qr-codes", "groupdocs", "pdf-signing", "dotnet"]
+type: docs
 ---
-
 # PDF Digital Signature .NET - Add QR Codes with SMS
 
 ## Why QR Code Signatures Are Game-Changers for Document Workflows

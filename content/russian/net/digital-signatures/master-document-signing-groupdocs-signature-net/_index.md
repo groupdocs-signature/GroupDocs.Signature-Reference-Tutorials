@@ -4,8 +4,8 @@
 "title": "Подписание и проверка основных документов с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Подписание и проверка основных документов с помощью GroupDocs.Signature для .NET
 
 ## Как освоить подписывание и проверку документов с помощью GroupDocs.Signature для .NET

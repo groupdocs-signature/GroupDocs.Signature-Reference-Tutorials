@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 為 PDF 簽名並添加文字貼紙—完整指南"
 "url": "/zh-hant/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 為 PDF 簽署文字貼圖：完整指南
 
 ## 介紹

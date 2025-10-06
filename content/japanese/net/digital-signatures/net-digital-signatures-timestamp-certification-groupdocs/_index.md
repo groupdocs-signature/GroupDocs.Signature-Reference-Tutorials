@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してタイムスタンプと証明書付きの .NET デジタル署名を実装する方法"
 "url": "/ja/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してタイムスタンプと証明書付きの .NET デジタル署名を実装する方法
 
 ## 導入

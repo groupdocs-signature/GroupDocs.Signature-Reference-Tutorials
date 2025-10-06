@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε έργα Excel VBA χρησιμοποιώντας GroupDocs.Signature για Java - Ένας πλήρης οδηγός"
 "url": "/el/java/digital-signatures/sign-excel-vba-projects-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε έργα Excel VBA χρησιμοποιώντας GroupDocs.Signature για Java
 
 ## Εισαγωγή

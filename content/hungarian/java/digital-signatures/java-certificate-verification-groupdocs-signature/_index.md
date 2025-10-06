@@ -4,8 +4,8 @@
 "title": "Java tanúsítvány-ellenőrzési útmutató a GroupDocs.Signature használatával biztonságos dokumentumhitelesítéshez"
 "url": "/hu/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java tanúsítvány-ellenőrzés implementálása GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

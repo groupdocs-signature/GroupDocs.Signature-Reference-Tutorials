@@ -4,8 +4,8 @@
 "title": "Signieren Sie PDF-Dokumente direkt von einer URL mit GroupDocs.Signature für .NET"
 "url": "/de/net/digital-signatures/sign-pdf-from-url-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie ein PDF-Dokument direkt von einer URL mit GroupDocs.Signature für .NET
 
 In der heutigen schnelllebigen digitalen Welt ist die effiziente Verwaltung und Verarbeitung von Online-Dokumenten für Unternehmen weltweit von entscheidender Bedeutung. Eine häufige Herausforderung besteht darin, online gespeicherte Dokumente zu signieren, ohne sie vorher herunterzuladen – eine mühsame Aufgabe mit herkömmlichen Methoden. Dieses Tutorial führt Sie durch die nahtlose Signierung eines PDF-Dokuments direkt über die URL mithilfe der leistungsstarken Bibliothek GroupDocs.Signature für .NET.

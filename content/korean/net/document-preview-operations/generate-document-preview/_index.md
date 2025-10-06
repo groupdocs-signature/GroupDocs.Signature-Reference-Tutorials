@@ -5,8 +5,8 @@
 "title": ".NET 앱에서 문서 미리보기를 생성하는 방법 | 간단한 튜토리얼"
 "url": "/ko/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # .NET 애플리케이션에서 문서 미리 보기를 생성하는 방법
 
 ## 소개

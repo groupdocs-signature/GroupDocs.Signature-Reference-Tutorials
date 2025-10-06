@@ -4,8 +4,8 @@
 "title": "دليل شامل لإعداد توقيعات النص باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # دليل شامل لإعداد توقيعات النص باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

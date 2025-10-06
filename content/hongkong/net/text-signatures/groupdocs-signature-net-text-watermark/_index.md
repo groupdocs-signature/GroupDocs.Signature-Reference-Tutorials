@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 的文字浮水印保護文件－綜合指南"
 "url": "/zh-hant/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在文件中實作文字浮水印
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58;를 사용하여 Java로 PDF 텍스트 서명 구현하기 - 종합 가이드"
 "url": "/ko/java/text-signatures/pdf-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java로 PDF 텍스트 서명 구현
 
 오늘날의 디지털 환경에서 계약 확인이나 계약 검증과 같은 비즈니스 프로세스에 있어 문서에 안전하게 서명하는 것은 필수적입니다. 텍스트 서명을 추가하면 진위성과 무결성이 보장됩니다. 이 종합 가이드에서는 PDF 텍스트 서명을 구현하는 방법을 안내합니다. **Java용 GroupDocs.Signature**기능성과 사용자 정의 기능을 모두 제공합니다.

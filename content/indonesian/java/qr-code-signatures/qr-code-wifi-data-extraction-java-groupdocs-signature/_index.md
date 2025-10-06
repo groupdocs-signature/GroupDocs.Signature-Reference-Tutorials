@@ -4,8 +4,8 @@
 "title": "Ekstrak Data WiFi dari Kode QR dalam PDF Menggunakan Java dengan GroupDocs.Signature"
 "url": "/id/java/qr-code-signatures/qr-code-wifi-data-extraction-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Ekstrak Data WiFi dari Kode QR dalam PDF Menggunakan Java dengan GroupDocs.Signature
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Реализация цифровых подписей в .NET с помощью GroupDocs.Signature"
 "url": "/ru/net/digital-signatures/digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Реализация подписания документов цифровыми подписями с использованием GroupDocs.Signature для .NET
 
 ## Введение

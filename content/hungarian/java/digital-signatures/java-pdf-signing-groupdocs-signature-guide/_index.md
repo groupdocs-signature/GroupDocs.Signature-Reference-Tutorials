@@ -4,8 +4,8 @@
 "title": "PDF-aláírás implementálása Java-ban a GroupDocs.Signature használatával – Átfogó útmutató"
 "url": "/hu/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # PDF-aláírás implementálása Java-ban a GroupDocs.Signature használatával
 
 ## Engedje szabadjára a GroupDocs.Signature for Java erejét: Zökkenőmentes PDF-dokumentum aláírás

@@ -5,8 +5,8 @@
 "title": "Jak generovat náhledy dokumentů v aplikacích .NET | Stručný návod"
 "url": "/cs/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # Jak generovat náhledy dokumentů ve vašich .NET aplikacích
 
 ## Zavedení

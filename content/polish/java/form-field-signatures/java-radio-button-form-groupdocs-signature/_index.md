@@ -4,8 +4,8 @@
 "title": "Implementacja podpisu pola formularza przycisku radiowego Java za pomocą GroupDocs.Signature"
 "url": "/pl/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja podpisu pola formularza przycisku radiowego Java za pomocą GroupDocs.Signature
 
 ## Wstęp

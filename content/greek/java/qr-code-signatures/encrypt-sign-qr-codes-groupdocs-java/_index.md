@@ -4,8 +4,8 @@
 "title": "Κρυπτογράφηση και υπογραφή κωδικών QR σε Java χρησιμοποιώντας το GroupDocs.Signature&#58; Ένας ολοκληρωμένος οδηγός"
 "url": "/el/java/qr-code-signatures/encrypt-sign-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Κρυπτογράφηση και υπογραφή κωδικών QR με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

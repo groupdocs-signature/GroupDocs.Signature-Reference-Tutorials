@@ -4,8 +4,8 @@
 "title": "Java PDF-ondertekening met metagegevens en encryptie met GroupDocs&#58; een uitgebreide handleiding"
 "url": "/nl/java/digital-signatures/java-pdf-signing-metadata-encryption-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java PDF-ondertekening met metagegevens en encryptie onder de knie krijgen met GroupDocs
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java'da Belgeleri Yükleme ve İmzalama - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java'da GroupDocs.Signature Kullanarak Belgeleri Yükleme ve İmzalama
 
 ## giriiş

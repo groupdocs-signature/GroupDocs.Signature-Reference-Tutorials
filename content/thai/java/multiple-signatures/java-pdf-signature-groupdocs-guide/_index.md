@@ -4,8 +4,8 @@
 "title": "คู่มือลายเซ็น PDF ของ Java &#58; การเพิ่มข้อความ บาร์โค้ด QR และลายเซ็นดิจิทัลโดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้ลายเซ็น PDF ของ Java: การเพิ่มข้อความ บาร์โค้ด QR และลายเซ็นดิจิทัลโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

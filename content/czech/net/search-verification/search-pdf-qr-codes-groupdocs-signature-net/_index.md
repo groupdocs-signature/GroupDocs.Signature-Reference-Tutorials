@@ -4,8 +4,8 @@
 "title": "Jak vyhledávat v PDF soubory podpisy s QR kódem a extrahovat data VCard pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak vyhledávat v PDF dokumentech podpisy QR kódů a extrahovat data VCard pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

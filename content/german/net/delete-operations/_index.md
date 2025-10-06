@@ -5,8 +5,8 @@
 "title": "Vollständiger Leitfaden zum Löschen von Dokumentsignaturen"
 "url": "/de/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # Löschvorgänge in GroupDocs.Signature für .NET
 
 ## Einführung

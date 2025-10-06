@@ -4,8 +4,8 @@
 "title": "Menerapkan Enkripsi XOR Kustom di Java dengan GroupDocs.Signature&#58; Panduan Langkah demi Langkah"
 "url": "/id/java/advanced-options/implement-custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Enkripsi XOR Kustom di Java dengan GroupDocs.Signature: Panduan Langkah demi Langkah
 
 ## Perkenalan

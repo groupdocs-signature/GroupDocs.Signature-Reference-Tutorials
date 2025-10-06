@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 映像簽名教程"
 "url": "/zh-hant/java/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # GroupDocs.Signature Java 映像簽名教程
 
 使用我們的 GroupDocs.Signature Java 圖像簽名教程，了解如何使用視覺簽名增強文件效果。這些詳細的指南演示瞭如何添加圖像作為簽名、建立圖章簽名、添加浮水印、自訂外觀設定以及使用圖像對齊和大小調整選項。每個教學都包含可運行的 Java 程式碼範例，展示如何創建視覺上美觀的簽名，從而有效地傳達真實性或品牌形象，同時保持文件的完整性。

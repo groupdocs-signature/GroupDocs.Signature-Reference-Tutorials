@@ -5,8 +5,8 @@
 "title": "Beveilig uw .NET-documenten met digitale handtekeningen | Complete gids"
 "url": "/nl/net/advanced-signature-techniques/sign-with-digital/"
 "weight": 12
+type: docs
 ---
-
 ## Waarom digitale handtekeningen belangrijk zijn in modern documentbeheer
 
 In de huidige digitale wereld is het garanderen van de authenticiteit en integriteit van uw elektronische documenten niet alleen een goede gewoonte, maar ook essentieel. Digitale handtekeningen bieden die cruciale beveiligingslaag en laten ontvangers weten dat uw document legitiem is en dat er sinds de ondertekening niet mee is geknoeid.

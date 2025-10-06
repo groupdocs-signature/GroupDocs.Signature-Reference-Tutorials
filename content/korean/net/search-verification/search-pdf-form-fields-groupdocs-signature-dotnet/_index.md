@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 PDF 양식 필드를 효율적으로 검색"
 "url": "/ko/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 PDF 양식 필드를 효율적으로 검색
 
 ## 소개

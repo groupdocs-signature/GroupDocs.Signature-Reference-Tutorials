@@ -4,8 +4,8 @@
 "title": "QR-codehandtekeningen bijwerken in Java&#58; een uitgebreide handleiding met GroupDocs.Signature"
 "url": "/nl/java/signature-management/update-qr-code-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # QR-codehandtekeningen bijwerken in Java: een uitgebreide handleiding met GroupDocs.Signature
 
 In het huidige digitale landschap is het beveiligen van documenten cruciaal voor zowel bedrijven als particulieren. QR-codehandtekeningen bieden een betrouwbare oplossing voor documentbeveiliging en -verificatie. Deze tutorial biedt stapsgewijze instructies voor het bijwerken van QR-codehandtekeningen met GroupDocs.Signature voor Java, een krachtige tool die het beheer van handtekeningen in uw applicaties vereenvoudigt.

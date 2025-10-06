@@ -4,8 +4,8 @@
 "title": "Penandatanganan dan Verifikasi Dokumen Master dengan GroupDocs.Signature untuk .NET"
 "url": "/id/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Penandatanganan dan Verifikasi Dokumen Master dengan GroupDocs.Signature untuk .NET
 
 ## Cara Menguasai Penandatanganan dan Verifikasi Dokumen dengan GroupDocs.Signature untuk .NET

@@ -4,8 +4,8 @@
 "title": "Διαχείριση υπογραφών εικόνων σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature for .NET™; Ένας πλήρης οδηγός"
 "url": "/el/net/image-signatures/manage-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Διαχείριση υπογραφών εικόνας σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

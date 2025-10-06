@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して VCard オブジェクトを作成および構成する方法 開発者ガイド"
 "url": "/ja/net/metadata-signatures/create-configure-vcard-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して VCard オブジェクトを作成および構成する方法: 開発者ガイド
 
 ## 導入

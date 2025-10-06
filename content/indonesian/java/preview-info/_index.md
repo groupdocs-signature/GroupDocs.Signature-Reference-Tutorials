@@ -3,8 +3,8 @@
 "title": "Pratinjau Dokumen dan Tutorial Informasi untuk GroupDocs.Signature Java"
 "url": "/id/java/preview-info/"
 "weight": 13
+type: docs
 ---
-
 # Pratinjau Dokumen dan Tutorial Informasi untuk GroupDocs.Signature Java
 
 Tutorial pratinjau dan informasi kami menunjukkan cara mengekstrak data dokumen penting menggunakan GroupDocs.Signature di Java. Panduan detail ini menunjukkan cara membuat pratinjau dokumen, mengambil informasi dokumen, mengakses detail tanda tangan, melihat riwayat proses dokumen, dan memeriksa properti berkas. Setiap tutorial mencakup contoh kode Java praktis untuk skenario inspeksi dokumen, membantu Anda membangun aplikasi yang menyediakan transparansi dokumen komprehensif untuk pengalaman pengguna dan pelacakan alur kerja yang lebih baik.

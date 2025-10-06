@@ -4,8 +4,8 @@
 "title": "Pobieranie certyfikatów cyfrowych z archiwów za pomocą GroupDocs.Signature dla platformy .NET | Przewodnik krok po kroku"
 "url": "/pl/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Pobieranie certyfikatów cyfrowych z archiwów za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

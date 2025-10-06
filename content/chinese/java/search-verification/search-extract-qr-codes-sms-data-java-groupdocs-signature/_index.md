@@ -4,8 +4,8 @@
 "title": "如何使用 Java 和 GroupDocs.Signature 从 PDF 中的二维码签名中搜索和提取短信数据"
 "url": "/zh/java/search-verification/search-extract-qr-codes-sms-data-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 Java 和 GroupDocs.Signature 从 PDF 中的二维码签名中搜索和提取短信数据
 
 ## 介绍

@@ -4,8 +4,8 @@
 "title": "เข้ารหัสและลงนามรหัส QR ใน Java โดยใช้ GroupDocs คู่มือฉบับสมบูรณ์"
 "url": "/th/java/qr-code-signatures/encrypt-sign-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # เข้ารหัสและลงนามรหัส QR ด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

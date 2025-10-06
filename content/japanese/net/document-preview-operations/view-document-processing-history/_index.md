@@ -5,8 +5,8 @@
 "title": ".NET でドキュメントの署名履歴を簡単に追跡"
 "url": "/ja/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # .NET でドキュメントの署名履歴を追跡する方法
 
 ## GroupDocs.Signature は何ができるでしょうか?

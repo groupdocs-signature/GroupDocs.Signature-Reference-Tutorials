@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58; के साथ जावा क्यूआर-कोड हस्ताक्षर निष्कर्षण एक व्यापक गाइड"
 "url": "/hi/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ जावा क्यूआर-कोड हस्ताक्षर निष्कर्षण को कार्यान्वित करना
 
 ## परिचय

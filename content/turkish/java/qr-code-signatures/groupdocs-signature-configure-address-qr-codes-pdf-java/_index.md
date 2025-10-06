@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak Adres QR Kodlarıyla PDF'leri Nasıl İmzalayabilirsiniz?"
 "url": "/tr/java/qr-code-signatures/groupdocs-signature-configure-address-qr-codes-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak Adres QR Kodlarıyla PDF'leri Nasıl İmzalayabilirsiniz?
 
 Günümüzün dijital dünyasında, belgeleri güvenli bir şekilde imzalamak hayati önem taşıyor. İster bir iş profesyoneli ister sözleşmeleri yöneten bir birey olun, imza eklemeyi otomatikleştirmek zamandan tasarruf sağlayabilir ve belge güvenliğini artırabilir. Bu eğitim, aşağıdakileri nasıl kullanacağınız konusunda size rehberlik edecektir: **Java için GroupDocs.Signature** Bir Adres nesnesi oluşturup yapılandırın ve ardından bunu PDF'lerdeki QR Kod imzalama seçeneklerine entegre edin. Bu kılavuzu izleyerek, adres verilerini belgelerinize QR kod olarak sorunsuz bir şekilde nasıl yerleştireceğinizi öğreneceksiniz.

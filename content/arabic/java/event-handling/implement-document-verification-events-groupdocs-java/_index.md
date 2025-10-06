@@ -4,8 +4,8 @@
 "title": "تنفيذ التحقق من المستندات باستخدام اشتراك الحدث في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ التحقق من المستندات باستخدام اشتراك الحدث باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

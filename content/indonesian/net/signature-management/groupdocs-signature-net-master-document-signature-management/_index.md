@@ -4,8 +4,8 @@
 "title": "Manajemen Tanda Tangan Dokumen Master dengan GroupDocs.Signature untuk .NET"
 "url": "/id/net/signature-management/groupdocs-signature-net-master-document-signature-management/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Manajemen Tanda Tangan Dokumen dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

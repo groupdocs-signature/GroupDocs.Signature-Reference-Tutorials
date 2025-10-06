@@ -4,8 +4,8 @@
 "title": "Documenten ondertekenen met een QR-code met behulp van Java en GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/java/qr-code-signatures/sign-documents-with-qr-code-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Documenten ondertekenen met een QR-code met behulp van Java en GroupDocs.Signature
 
 Wilt u een extra beveiligingslaag en efficiëntie toevoegen aan uw documentbeheersysteem? Het elektronisch ondertekenen van documenten is een onmisbare functie in het digitale tijdperk van vandaag, en QR-codehandtekeningen bieden zowel gemak als robuustheid. In deze uitgebreide handleiding onderzoeken we hoe u afbeeldingsdocumenten kunt ondertekenen met QR-codes met behulp van GroupDocs.Signature voor Java. Aan het einde van deze tutorial kunt u deze functies naadloos implementeren.

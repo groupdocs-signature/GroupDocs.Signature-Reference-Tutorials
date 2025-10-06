@@ -4,8 +4,8 @@
 "title": "Hogyan távolíthatunk el képaláírásokat dokumentumokból a GroupDocs.Signature for Java használatával?"
 "url": "/hu/java/signature-management/delete-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan távolíthatunk el képaláírásokat dokumentumokból a GroupDocs.Signature for Java használatával?
 
 ## Bevezetés

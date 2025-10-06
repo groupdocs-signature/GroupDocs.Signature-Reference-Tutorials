@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके छिपे हुए हस्ताक्षरों के साथ दस्तावेज़ पूर्वावलोकन स्वचालित करें"
 "url": "/hi/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके छिपे हुए हस्ताक्षरों के साथ दस्तावेज़ पूर्वावलोकन स्वचालित करें
 
 ## परिचय

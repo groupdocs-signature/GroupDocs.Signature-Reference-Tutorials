@@ -4,8 +4,8 @@
 "title": "Como assinar PDFs usando assinatura de campo de formulário em Java com GroupDocs.Signature"
 "url": "/pt/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Como assinar um PDF usando assinatura de campo de formulário em Java com GroupDocs.Signature
 
 ## Introdução

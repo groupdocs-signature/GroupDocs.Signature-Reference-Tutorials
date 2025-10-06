@@ -4,8 +4,8 @@
 "title": "Een gelimiteerde licentie instellen voor GroupDocs.Signature in .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Een beperkte licentie instellen voor GroupDocs.Signature in .NET: een uitgebreide handleiding
 
 ## Invoering

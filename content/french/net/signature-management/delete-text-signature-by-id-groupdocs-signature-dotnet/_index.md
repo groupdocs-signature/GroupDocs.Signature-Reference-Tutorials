@@ -4,8 +4,8 @@
 "title": "Comment supprimer une signature textuelle par identifiant à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Comment supprimer une signature textuelle par identifiant à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

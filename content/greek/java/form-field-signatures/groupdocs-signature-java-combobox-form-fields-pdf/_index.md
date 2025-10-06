@@ -4,8 +4,8 @@
 "title": "Υλοποίηση πεδίων φόρμας ComboBox σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση πεδίων φόρμας ComboBox σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

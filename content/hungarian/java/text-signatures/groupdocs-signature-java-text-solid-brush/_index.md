@@ -4,8 +4,8 @@
 "title": "Szöveges aláírás megvalósítása Solid Brush használatával Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # Szöveges aláírás megvalósítása Solid Brush segítségével Java-ban
 
 ## Bevezetés

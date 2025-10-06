@@ -4,8 +4,8 @@
 "title": "GroupDocs के साथ टेक्स्ट, छवि और डिजिटल हस्ताक्षरों के लिए व्यापक मार्गदर्शिका. .NET के लिए हस्ताक्षर"
 "url": "/hi/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ टेक्स्ट, छवि और डिजिटल हस्ताक्षरों को लागू करने के लिए व्यापक मार्गदर्शिका
 
 ## परिचय

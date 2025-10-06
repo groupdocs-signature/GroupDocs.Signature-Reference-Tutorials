@@ -4,8 +4,8 @@
 "title": "如何實作 Java GroupDocs.Signature&#58; 擷取並顯示文件處理歷史"
 "url": "/zh-hant/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # 如何實作 Java GroupDocs.Signature：擷取並顯示文件處理歷史記錄
 
 ## 介紹

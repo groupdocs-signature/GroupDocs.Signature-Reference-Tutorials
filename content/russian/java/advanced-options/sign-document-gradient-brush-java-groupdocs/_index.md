@@ -4,8 +4,8 @@
 "title": "Подписание документов с помощью градиентной кисти в Java с помощью GroupDocs.Signature"
 "url": "/ru/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Подписание документов градиентной кистью в Java с помощью GroupDocs.Signature
 
 В современную цифровую эпоху безопасное подписание документов жизненно важно для эффективности работы в различных отраслях. Это руководство поможет вам подписать документы с помощью эффекта градиентной кисти. **GroupDocs.Signature для Java**.

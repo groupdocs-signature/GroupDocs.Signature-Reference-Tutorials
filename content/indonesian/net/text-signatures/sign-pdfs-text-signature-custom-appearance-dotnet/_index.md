@@ -4,8 +4,8 @@
 "title": "Menandatangani PDF dengan Tanda Tangan Teks dan Tampilan Kustom di .NET menggunakan GroupDocs.Signature"
 "url": "/id/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF dengan Tanda Tangan Teks dan Tampilan Kustom Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

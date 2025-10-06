@@ -4,8 +4,8 @@
 "title": "Hur man implementerar digitala signaturer i Excel med GroupDocs.Signature för Java"
 "url": "/sv/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar digital signatur i ett kalkylblad med GroupDocs.Signature för Java
 
 ## Introduktion

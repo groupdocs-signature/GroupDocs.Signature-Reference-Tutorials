@@ -4,8 +4,8 @@
 "title": "Wdrażanie podpisu kodem kreskowym i kodem QR w Javie przy użyciu GroupDocs.Signature™ – kompleksowy przewodnik"
 "url": "/pl/java/multiple-signatures/groupdocs-signing-java-barcode-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja podpisu kodem kreskowym i kodem QR w Javie za pomocą GroupDocs.Signature
 
 dzisiejszym cyfrowym świecie dbanie o integralność dokumentów jest kluczowe. Niezależnie od tego, czy zarządzasz umowami prawnymi, fakturami, czy etykietami wysyłkowymi, zachowanie autentyczności jest kluczowe. **GroupDocs.Signature dla Java** Usprawnia ten proces, umożliwiając bezproblemową integrację kodów kreskowych i kodów QR z dokumentami. Ten kompleksowy przewodnik przeprowadzi Cię przez proces wdrażania podpisu kodami kreskowymi i kodami QR za pomocą GroupDocs.Signature dla Java.

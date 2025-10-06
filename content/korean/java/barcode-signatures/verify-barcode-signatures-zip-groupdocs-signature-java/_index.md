@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 ZIP 파일의 바코드 서명 확인"
 "url": "/ko/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 ZIP 파일의 바코드 서명 확인
 
 ## 소개

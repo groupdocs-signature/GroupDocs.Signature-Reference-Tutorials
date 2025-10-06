@@ -4,8 +4,8 @@
 "title": "Efektivní správa podpisů – Jak vyhledávat a mazat digitální podpisy pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Efektivní správa podpisů: Jak vyhledávat a mazat digitální podpisy pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Signature Management"]
 tags: ["dotnet", "groupdocs", "signature-removal", "document-processing"]
+type: docs
 ---
-
 # How to Remove QR Code Signatures from Documents in .NET
 
 Ever found yourself staring at a document cluttered with outdated QR codes that you just can't seem to get rid of? You're definitely not alone. Whether you're dealing with legacy documents that need cleanup, preparing files for re-signing, or just trying to maintain a clean document workflow, removing specific signature types programmatically can be a real headache.

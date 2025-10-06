@@ -4,8 +4,8 @@
 "title": "Przewodnik po podpisywaniu kodów QR w języku Java i zabezpieczaniu dokumentów za pomocą GroupDocs.Signature"
 "url": "/pl/java/qr-code-signatures/java-qr-code-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja podpisywania kodu QR w Javie za pomocą GroupDocs.Signature dla Javy
 
 ## Wstęp

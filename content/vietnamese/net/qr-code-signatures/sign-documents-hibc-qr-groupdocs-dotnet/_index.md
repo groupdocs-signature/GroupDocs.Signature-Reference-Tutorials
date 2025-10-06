@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu bằng mã QR HIBC bằng GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/qr-code-signatures/sign-documents-hibc-qr-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu bằng mã QR HIBC bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

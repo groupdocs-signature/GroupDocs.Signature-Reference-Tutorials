@@ -4,8 +4,8 @@
 "title": "Sök effektivt i PDF-formulärfält med GroupDocs.Signature för .NET"
 "url": "/sv/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Sök effektivt i PDF-formulärfält med GroupDocs.Signature för .NET
 
 ## Introduktion

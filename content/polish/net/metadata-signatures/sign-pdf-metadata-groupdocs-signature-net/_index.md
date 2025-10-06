@@ -4,8 +4,8 @@
 "title": "Jak podpisywać dokumenty PDF metadanymi za pomocą GroupDocs.Signature dla platformy .NET | Kompleksowy przewodnik"
 "url": "/pl/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać dokumenty PDF metadanymi za pomocą GroupDocs.Signature dla platformy .NET
 
 W dzisiejszym cyfrowym świecie efektywne zarządzanie dokumentami jest niezbędne zarówno dla firm, jak i osób prywatnych. Bezpieczne podpisywanie i weryfikowanie dokumentów stało się kluczowe, zwłaszcza w przypadku umów i dokumentów urzędowych. Ten kompleksowy przewodnik pokaże, jak używać GroupDocs.Signature dla .NET do podpisywania dokumentów PDF podpisami metadanych, zwiększając integralność dokumentów.

@@ -4,8 +4,8 @@
 "title": "Jak podpisywać pliki PDF naklejkami tekstowymi za pomocą GroupDocs.Signature dla Java? Kompletny przewodnik"
 "url": "/pl/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać pliki PDF naklejkami tekstowymi za pomocą GroupDocs.Signature dla Java: kompletny przewodnik
 
 ## Wstęp

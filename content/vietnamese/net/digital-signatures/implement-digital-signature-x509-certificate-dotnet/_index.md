@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký số trong .NET với chứng chỉ X.509 bằng GroupDocs.Signature"
 "url": "/vi/net/digital-signatures/implement-digital-signature-x509-certificate-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký số trong .NET với chứng chỉ X.509 bằng GroupDocs.Signature
 
 ## Giới thiệu

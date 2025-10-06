@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Signature Operations"]
 tags: ["image-signature", "update-signature", "csharp-tutorial", "document-management", "groupdocs-signature"]
+type: docs
 ---
-
 ## Introduction
 
 Ever needed to reposition a signature in a document after it's already been signed? Maybe your company logo moved slightly out of place, or you need to resize a signature to fit better in a redesigned template. You're not alone—updating image signatures programmatically is one of those tasks that sounds simple until you actually need to do it.

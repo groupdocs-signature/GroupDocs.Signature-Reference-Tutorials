@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Signature Management"]
 tags: ["GroupDocs", "signature-deletion", "document-processing", "dotnet-api"]
+type: docs
 ---
-
 # GroupDocs.Signature Delete Signatures by Type - Complete .NET
 
 ## Why Every Developer Needs Precise Signature Control

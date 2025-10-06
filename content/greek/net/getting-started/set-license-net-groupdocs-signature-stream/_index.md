@@ -4,8 +4,8 @@
 "title": "Ορισμός Άδειας Χρήσης σε .NET χρησιμοποιώντας GroupDocs.Signature και FileStream™ Ένας Πλήρης Οδηγός"
 "url": "/el/net/getting-started/set-license-net-groupdocs-signature-stream/"
 "weight": 1
+type: docs
 ---
-
 # Ορισμός άδειας χρήσης σε .NET με GroupDocs.Signature και FileStream
 ## Ξεκινώντας
 ### Υλοποίηση του Set License μέσω Stream σε .NET χρησιμοποιώντας το GroupDocs.Signature

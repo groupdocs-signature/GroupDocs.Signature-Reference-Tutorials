@@ -4,8 +4,8 @@
 "title": "Penandatanganan PDF Java dengan Metadata dan Enkripsi menggunakan GroupDocs&#58; Panduan Lengkap"
 "url": "/id/java/digital-signatures/java-pdf-signing-metadata-encryption-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Penandatanganan PDF Java dengan Metadata dan Enkripsi Menggunakan GroupDocs
 
 ## Perkenalan

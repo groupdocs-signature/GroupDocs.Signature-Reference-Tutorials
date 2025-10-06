@@ -4,8 +4,8 @@
 "title": "Jak implementovat podpisy QR kódů v .NET pomocí GroupDocs.Signature"
 "url": "/cs/net/qr-code-signatures/implement-qr-code-signature-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat podpis QR kódem v .NET pomocí GroupDocs.Signature
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 實作具有自訂邊框的 Java PDF 文字簽名"
 "url": "/zh-hant/java/text-signatures/java-pdf-text-signatures-groupdocs-custom-borders/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握帶有自訂邊框的 Java PDF 文字簽名
 
 在當今的數位時代，確保文件的真實性對企業和個人都至關重要。隨著電子文件的興起，傳統的簽章方法正被更有效率、更安全的解決方案（例如 PDF 中的文字簽章）所取代。如果您想使用 GroupDocs.Signature for Java 為您的 PDF 文件添加自訂樣式的文字簽名，增添專業感，那麼您來對地方了。

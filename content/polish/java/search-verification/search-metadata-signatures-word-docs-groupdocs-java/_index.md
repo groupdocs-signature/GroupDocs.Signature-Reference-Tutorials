@@ -4,8 +4,8 @@
 "title": "Jak wyszukiwać podpisy metadanych w dokumentach Word za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/search-verification/search-metadata-signatures-word-docs-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wyszukiwać podpisy metadanych w dokumentach Word za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Java titkosítás és metaadat-aláírás – biztonságos dokumentumkezelés a GroupDocs.Signature segítségével"
 "url": "/hu/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java titkosítás és metaadat-aláírás-keresés megvalósítása GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

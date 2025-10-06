@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["QR-codes", "PDF-processing", "NET-development", "document-security"]
+type: docs
 ---
-
 # QR Code Search PDF .NET: Your Complete GroupDocs.Signature Guide
 
 ## Why QR Code Search in PDFs Matters (And How to Get It Right)

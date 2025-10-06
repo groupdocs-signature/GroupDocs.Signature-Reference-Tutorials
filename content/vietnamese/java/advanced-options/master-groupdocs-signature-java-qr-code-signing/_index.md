@@ -4,8 +4,8 @@
 "title": "Nắm vững chữ ký tài liệu động với GroupDocs.Signature cho kỹ thuật ký mã QR Java"
 "url": "/vi/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Nắm vững chữ ký tài liệu động với GroupDocs.Signature cho Java: Kỹ thuật ký mã QR
 
 Trong thế giới số ngày nay, việc bảo mật và xác thực tài liệu điện tử hiệu quả là điều cần thiết. **GroupDocs.Signature cho Java** cung cấp giải pháp mạnh mẽ để nhanh chóng ký các tệp PDF đồng thời đảm bảo tính xác thực của chúng bằng cách sử dụng chữ ký mã QR ở nhiều vị trí khác nhau.

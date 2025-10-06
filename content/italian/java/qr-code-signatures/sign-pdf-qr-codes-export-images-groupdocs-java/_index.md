@@ -4,8 +4,8 @@
 "title": "Firma i PDF con le firme del codice QR ed esportali come immagini utilizzando GroupDocs per Java"
 "url": "/it/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Guida completa alla firma e all'esportazione di PDF come immagini con codici QR utilizzando GroupDocs.Signature per Java
 
 ## Introduzione

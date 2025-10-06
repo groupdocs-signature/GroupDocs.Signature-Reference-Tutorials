@@ -4,8 +4,8 @@
 "title": "Hướng dẫn toàn diện về chữ ký văn bản, hình ảnh và chữ ký số với GroupDocs.Signature cho .NET"
 "url": "/vi/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn toàn diện về việc triển khai chữ ký văn bản, hình ảnh và chữ ký số với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

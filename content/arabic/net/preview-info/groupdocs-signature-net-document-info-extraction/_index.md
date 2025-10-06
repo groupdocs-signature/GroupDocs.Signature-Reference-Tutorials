@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature لـ .NET - استخراج معلومات المستند وعرضها بكفاءة"
 "url": "/ar/net/preview-info/groupdocs-signature-net-document-info-extraction/"
 "weight": 1
+type: docs
 ---
-
 # إتقان GroupDocs.Signature لـ .NET: استخراج معلومات المستند وعرضها بكفاءة
 
 ## مقدمة

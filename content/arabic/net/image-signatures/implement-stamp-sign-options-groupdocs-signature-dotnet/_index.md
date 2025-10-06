@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ خيارات توقيع الطوابع باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ خيارات توقيع الختم باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

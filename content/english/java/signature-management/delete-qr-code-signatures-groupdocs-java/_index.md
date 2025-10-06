@@ -8,10 +8,8 @@ keywords:
 - delete QR code signatures PDF
 - GroupDocs.Signature Java tutorial
 - manage QR code signatures in PDF
-
+type: docs
 ---
-
-
 # How to Delete QR Code Signatures from a PDF Using GroupDocs.Signature for Java
 
 ## Introduction

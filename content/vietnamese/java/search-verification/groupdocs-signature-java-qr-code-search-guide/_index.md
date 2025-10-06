@@ -4,8 +4,8 @@
 "title": "Triển khai Tìm kiếm chữ ký mã QR với GroupDocs.Signature cho Java"
 "url": "/vi/java/search-verification/groupdocs-signature-java-qr-code-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai Tìm kiếm chữ ký mã QR với GroupDocs.Signature cho Java
 
 Trong bối cảnh số ngày nay, việc xác minh chữ ký điện tử hiệu quả là rất quan trọng trong nhiều ngành công nghiệp khác nhau. **GroupDocs.Signature cho Java** cung cấp một giải pháp mạnh mẽ, đặc biệt cho việc tìm kiếm và quản lý chữ ký mã QR trong tài liệu. Hướng dẫn này hướng dẫn bạn cách triển khai tìm kiếm chữ ký mã QR bằng GroupDocs.Signature trong Java.

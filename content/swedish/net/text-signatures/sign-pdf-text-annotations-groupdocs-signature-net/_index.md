@@ -4,8 +4,8 @@
 "title": "Hur man signerar PDF-dokument med textanteckningar med GroupDocs.Signature för .NET"
 "url": "/sv/net/text-signatures/sign-pdf-text-annotations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hur man signerar PDF-dokument med textanteckningar med GroupDocs.Signature för .NET
 
 ## Introduktion

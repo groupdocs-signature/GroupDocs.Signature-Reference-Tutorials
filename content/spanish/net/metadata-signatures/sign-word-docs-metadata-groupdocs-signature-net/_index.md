@@ -4,8 +4,8 @@
 "title": "Cómo firmar documentos de Word con metadatos usando GroupDocs.Signature para .NET | Guía paso a paso"
 "url": "/es/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar documentos de Word con metadatos usando GroupDocs.Signature para .NET
 
 ## Introducción

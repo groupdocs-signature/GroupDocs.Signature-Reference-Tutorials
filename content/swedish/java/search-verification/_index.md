@@ -3,8 +3,8 @@
 "title": "Handledningar för signatursökning och verifiering för GroupDocs.Signature Java"
 "url": "/sv/java/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # Handledningar för signatursökning och verifiering för GroupDocs.Signature Java
 
 Våra handledningar för sökning och verifiering ger omfattande vägledning för att validera dokumentsignaturer med GroupDocs.Signature i Java. Dessa praktiska guider visar hur man söker efter signaturer av olika typer (digitala, streckkoder, QR-koder, text, bilder och metadata), implementerar verifiering för äkthetskontroll, hanterar undantag under verifiering och bearbetar komplexa dokument. Varje handledning innehåller kompletta Java-kodexempel för vanliga verifieringsscenarier, vilket hjälper dig att bygga applikationer som effektivt kan avgöra om dokument har ändrats sedan signeringen.

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 產生二維碼簽章－綜合指南"
 "url": "/zh-hant/java/qr-code-signatures/generate-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 產生二維碼簽名
 
 ## 介紹

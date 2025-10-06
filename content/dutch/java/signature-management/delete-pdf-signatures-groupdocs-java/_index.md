@@ -4,8 +4,8 @@
 "title": "PDF-handtekeningen verwijderen met GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/signature-management/delete-pdf-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF-handtekeningen verwijderen met GroupDocs.Signature voor Java: een uitgebreide handleiding
 
 ## Invoering

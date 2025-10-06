@@ -8,10 +8,8 @@ keywords:
 - verify documents with QR-code signatures in java
 - groupdocs.signature for java setup
 - qr-code signature verification
-
+type: docs
 ---
-
-
 # How to Verify Documents with QR-Code Signatures Using GroupDocs.Signature in Java
 
 ## Introduction

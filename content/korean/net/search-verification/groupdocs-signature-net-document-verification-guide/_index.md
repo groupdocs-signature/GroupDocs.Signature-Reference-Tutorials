@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용한 문서 검증 마스터하기&#58; 종합 가이드"
 "url": "/ko/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용한 문서 검증 마스터링: 종합 가이드
 
 ## 소개

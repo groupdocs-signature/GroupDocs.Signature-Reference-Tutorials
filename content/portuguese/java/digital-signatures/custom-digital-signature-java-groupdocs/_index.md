@@ -4,8 +4,8 @@
 "title": "Implementando Assinaturas Digitais Personalizadas em Java com GroupDocs.Signature - Um Guia Completo"
 "url": "/pt/java/digital-signatures/custom-digital-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementando Assinaturas Digitais Personalizadas em Java com GroupDocs.Signature
 
 Na era digital atual, garantir a integridade e a autenticidade dos documentos é crucial. Assinaturas tradicionais muitas vezes não são suficientes para verificar a legitimidade de documentos compartilhados eletronicamente. Este guia completo o orientará na implementação de uma assinatura digital personalizada usando **GroupDocs.Signature para Java**, proporcionando um nível aprimorado de segurança e profissionalismo em seus documentos digitais.

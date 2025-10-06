@@ -4,8 +4,8 @@
 "title": "Efektivní aktualizace více podpisů v PDF pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/signature-management/update-multiple-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Efektivní aktualizace více podpisů v PDF pomocí GroupDocs.Signature pro Javu
 
 Správa elektronických podpisů je klíčová pro firmy, které se spoléhají na digitální pracovní postupy, zejména při práci se smlouvami nebo formální dokumentací. **GroupDocs.Signature pro Javu** Zjednodušuje efektivní aktualizaci více podpisů v dokumentu PDF. Tento tutoriál vás provede celým procesem.

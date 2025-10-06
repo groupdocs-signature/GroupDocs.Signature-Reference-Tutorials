@@ -4,8 +4,8 @@
 "title": "Generování náhledu digitálního podpisu PDF pomocí GroupDocs.Signature pro .NET | Komplexní průvodce"
 "url": "/cs/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak vygenerovat náhled digitálního podpisu PDF pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

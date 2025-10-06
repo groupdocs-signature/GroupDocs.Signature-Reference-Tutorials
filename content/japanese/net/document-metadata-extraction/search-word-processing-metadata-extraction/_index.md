@@ -5,8 +5,8 @@
 "title": ".NET でワードプロセッシングのメタデータを簡単に抽出"
 "url": "/ja/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # .NET でワードプロセッサのメタデータを検索および抽出する方法
 
 ## 導入

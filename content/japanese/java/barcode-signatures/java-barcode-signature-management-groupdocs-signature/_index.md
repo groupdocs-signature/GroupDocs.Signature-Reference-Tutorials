@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した効率的な Java バーコード署名管理"
 "url": "/ja/java/barcode-signatures/java-barcode-signature-management-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した効率的な Java バーコード署名管理
 
 デジタル時代において、電子署名を効率的に管理することは、企業にとっても個人にとっても不可欠です。契約書の検証や文書のセキュリティ確保など、適切なツールを使用することで、生産性を大幅に向上させることができます。 **Java 用 GroupDocs.Signature** は、これらのプロセスを効率化するために設計された強力なライブラリです。このチュートリアルでは、Signatureオブジェクトの初期化、バーコード署名の検索、そしてドキュメントからの削除までを解説します。

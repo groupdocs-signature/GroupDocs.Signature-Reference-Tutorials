@@ -8,10 +8,8 @@ keywords:
 - sign ZIP files with barcodes and QR codes in Java
 - GroupDocs.Signature for Java
 - digital signatures on ZIP files
-
+type: docs
 ---
-
-
 # How to Sign ZIP Files with Barcodes & QR Codes in Java Using GroupDocs.Signature
 
 ## Introduction

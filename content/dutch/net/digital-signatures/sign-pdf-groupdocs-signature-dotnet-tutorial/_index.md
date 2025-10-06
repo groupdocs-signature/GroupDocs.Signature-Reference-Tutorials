@@ -4,8 +4,8 @@
 "title": "PDF's eenvoudig ondertekenen - Stapsgewijze handleiding voor het gebruik van GroupDocs.Signature voor .NET"
 "url": "/nl/net/digital-signatures/sign-pdf-groupdocs-signature-dotnet-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF-document ondertekenen met GroupDocs.Signature voor .NET
 
 ## Invoering

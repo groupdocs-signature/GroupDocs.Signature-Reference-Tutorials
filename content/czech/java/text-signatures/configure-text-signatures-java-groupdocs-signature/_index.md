@@ -4,8 +4,8 @@
 "title": "Jak konfigurovat textové podpisy v Javě pomocí GroupDocs.Signature – kompletní průvodce"
 "url": "/cs/java/text-signatures/configure-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak konfigurovat textové podpisy v Javě pomocí GroupDocs.Signature: Komplexní průvodce
 
 ## Zavedení

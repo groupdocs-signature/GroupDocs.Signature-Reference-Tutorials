@@ -5,8 +5,8 @@
 "title": ".NET için GroupDocs.Signature ile Ana Belge Meta Verisi Çıkarımı"
 "url": "/tr/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # GroupDocs.Signature ile Belge Meta Verilerinin Çıkarılmasına İlişkin Kapsamlı Kılavuz
 
 ## Modern İş Akışlarında Belge Meta Verilerinin Stratejik Önemi

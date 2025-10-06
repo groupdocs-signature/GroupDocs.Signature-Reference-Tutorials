@@ -4,8 +4,8 @@
 "title": "Como pesquisar e atualizar assinaturas de imagens em documentos usando GroupDocs.Signature para Java"
 "url": "/pt/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Como pesquisar e atualizar assinaturas de imagens em documentos usando GroupDocs.Signature para Java
 
 ## Introdução

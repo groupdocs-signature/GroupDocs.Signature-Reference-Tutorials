@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 提取帶有位址資料的二維碼簽章 | 數位簽章自動化"
 "url": "/zh-hant/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 提取帶有位址資料的二維碼簽名
 
 ## 介紹

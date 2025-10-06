@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký số trong Hướng dẫn tích hợp mã vạch và mã QR .NET"
 "url": "/vi/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký số trong .NET: Ký mã vạch và mã QR với GroupDocs.Signature
 
 Trong thời đại kỹ thuật số ngày nay, việc xác thực tài liệu nhanh chóng và an toàn trở nên quan trọng hơn bao giờ hết. Cho dù bạn là nhà phát triển đang làm việc trên một ứng dụng doanh nghiệp hay chỉ muốn đơn giản hóa quy trình quản lý tài liệu, việc thêm chữ ký có thể mang lại nhiều thay đổi. Hướng dẫn này sẽ hướng dẫn bạn cách sử dụng **GroupDocs.Signature cho .NET** để ký số tài liệu bằng cả chữ ký mã vạch và mã QR, cung cấp giải pháp mạnh mẽ cho việc lưu trữ tài liệu an toàn.

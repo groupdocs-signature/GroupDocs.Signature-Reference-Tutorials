@@ -4,8 +4,8 @@
 "title": "تحميل وتوقيع المستندات المحمية بكلمة مرور باستخدام رموز الاستجابة السريعة في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # تحميل وتوقيع المستندات المحمية بكلمة مرور باستخدام رمز الاستجابة السريعة في Java
 
 ## كيفية تحميل وتوقيع مستند محمي بكلمة مرور باستخدام GroupDocs.Signature لـ Java

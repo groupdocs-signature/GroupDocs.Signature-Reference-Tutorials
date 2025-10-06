@@ -5,8 +5,8 @@
 "title": "Xác minh chữ ký số trong tài liệu"
 "url": "/vi/net/verify-operations/verify-digital/"
 "weight": 11
+type: docs
 ---
-
 ## Giới thiệu
 
 Chữ ký số đóng vai trò quan trọng trong việc đảm bảo tính xác thực, toàn vẹn và không thể chối bỏ của tài liệu trong các quy trình kinh doanh hiện đại. Không giống như chữ ký viết tay truyền thống, chữ ký số sử dụng các kỹ thuật mật mã để xác minh danh tính người ký và đảm bảo tài liệu không bị thay đổi kể từ khi ký.

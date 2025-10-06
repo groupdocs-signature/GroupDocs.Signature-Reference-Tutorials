@@ -4,8 +4,8 @@
 "title": "Πώς να διαγράψετε πολλαπλές υπογραφές από PDF χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/signature-management/delete-multiple-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να διαγράψετε πολλαπλές υπογραφές από PDF χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

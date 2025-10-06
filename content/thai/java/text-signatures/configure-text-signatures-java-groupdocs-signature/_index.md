@@ -4,8 +4,8 @@
 "title": "วิธีการกำหนดค่าลายเซ็นข้อความใน Java โดยใช้ GroupDocs.Signature&#58; คู่มือฉบับสมบูรณ์"
 "url": "/th/java/text-signatures/configure-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการกำหนดค่าลายเซ็นข้อความใน Java โดยใช้ GroupDocs.Signature: คู่มือฉบับสมบูรณ์
 
 ## การแนะนำ

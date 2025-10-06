@@ -4,8 +4,8 @@
 "title": "Cómo firmar documentos de Word con marcas de agua de texto usando GroupDocs.Signature para .NET"
 "url": "/es/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar documentos de Word con marcas de agua de texto usando GroupDocs.Signature para .NET
 
 ## Introducción

@@ -4,8 +4,8 @@
 "title": "Διαχείριση υπογραφών κύριου κειμένου σε .NET χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/signature-management/master-text-signature-management-dotnet-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με τη διαχείριση υπογραφών κειμένου σε .NET με το GroupDocs.Signature
 
 ## Εισαγωγή

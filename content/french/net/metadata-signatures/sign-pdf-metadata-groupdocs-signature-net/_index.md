@@ -4,8 +4,8 @@
 "title": "Comment signer des documents PDF avec des métadonnées avec GroupDocs.Signature pour .NET | Guide complet"
 "url": "/fr/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer des documents PDF avec des métadonnées à l'aide de GroupDocs.Signature pour .NET
 
 Dans le monde numérique actuel, gérer efficacement les documents est essentiel, tant pour les entreprises que pour les particuliers. Signer et vérifier les documents en toute sécurité est devenu crucial, notamment pour la gestion des contrats ou des documents officiels. Ce guide complet explique comment utiliser GroupDocs.Signature pour .NET pour signer des documents PDF avec des signatures de métadonnées, améliorant ainsi leur intégrité.

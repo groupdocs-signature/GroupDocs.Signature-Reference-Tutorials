@@ -4,8 +4,8 @@
 "title": "Java vonalkódkeresés PDF-ekben a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/search-verification/java-barcode-search-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Java vonalkód-keresés megvalósítása PDF-ekben a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

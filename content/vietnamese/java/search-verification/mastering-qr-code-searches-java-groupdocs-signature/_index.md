@@ -4,8 +4,8 @@
 "title": "Làm chủ tìm kiếm mã QR trong Java - Hướng dẫn đầy đủ sử dụng GroupDocs.Signature"
 "url": "/vi/java/search-verification/mastering-qr-code-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ tìm kiếm mã QR trong Java: Hướng dẫn đầy đủ sử dụng GroupDocs.Signature
 
 ## Giới thiệu

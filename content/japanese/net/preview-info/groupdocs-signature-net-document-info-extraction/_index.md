@@ -4,8 +4,8 @@
 "title": "マスターGroupDocs.Signature for .NET&#58; ドキュメント情報を効率的に抽出して表示"
 "url": "/ja/net/preview-info/groupdocs-signature-net-document-info-extraction/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET をマスターする: ドキュメント情報を効率的に抽出して表示する
 
 ## 導入

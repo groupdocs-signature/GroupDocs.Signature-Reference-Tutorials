@@ -4,8 +4,8 @@
 "title": "Hogyan törölhetünk szöveges aláírást egy dokumentumból a GroupDocs.Signature for .NET használatával?"
 "url": "/hu/net/signature-management/delete-text-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan törölhetünk szöveges aláírást egy dokumentumból a GroupDocs.Signature for .NET használatával?
 
 ## Bevezetés

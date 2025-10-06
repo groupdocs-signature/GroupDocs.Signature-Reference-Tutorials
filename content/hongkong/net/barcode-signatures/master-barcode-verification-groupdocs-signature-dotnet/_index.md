@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中掌握條碼驗證以確保文件完整性"
 "url": "/zh-hant/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 .NET 中的條碼驗證
 
 ## 介紹

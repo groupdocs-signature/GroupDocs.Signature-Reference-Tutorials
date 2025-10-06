@@ -3,8 +3,8 @@
 "title": "Tutoriales para cargar y guardar documentos con GroupDocs.Signature para Java"
 "url": "/es/java/document-loading-saving/"
 "weight": 2
+type: docs
 ---
-
 # Tutoriales para cargar y guardar documentos con GroupDocs.Signature para Java
 
 Nuestros tutoriales para cargar y guardar documentos ofrecen una guía completa para gestionarlos mediante programación en Java. Siga estas guías paso a paso para aprender a cargar documentos desde discos locales, transmisiones, URL, proveedores de almacenamiento en la nube como Amazon S3 y Azure Blob Storage, y FTP. Estos tutoriales también abarcan diversas situaciones de guardado de documentos, como el guardado con protección por contraseña, diferentes formatos de salida y opciones de guardado especializadas para distintos tipos de documentos.

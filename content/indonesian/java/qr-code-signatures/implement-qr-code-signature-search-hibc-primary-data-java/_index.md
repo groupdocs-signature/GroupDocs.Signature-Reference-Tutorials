@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Pencarian Tanda Tangan Kode QR untuk Data HIBC LIC dalam PDF Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/qr-code-signatures/implement-qr-code-signature-search-hibc-primary-data-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pencarian Tanda Tangan Kode QR untuk Data HIBC LIC dalam PDF Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

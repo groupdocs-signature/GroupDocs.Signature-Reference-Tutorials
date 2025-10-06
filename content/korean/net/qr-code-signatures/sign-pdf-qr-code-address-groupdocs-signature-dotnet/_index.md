@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 QR 코드 주소로 PDF에 서명하는 방법"
 "url": "/ko/net/qr-code-signatures/sign-pdf-qr-code-address-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 QR 코드 주소가 있는 PDF 문서에 서명하는 방법
 
 ## 소개

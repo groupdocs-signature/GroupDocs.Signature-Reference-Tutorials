@@ -4,8 +4,8 @@
 "title": "Abrufen digitaler Zertifikate aus Archiven mit GroupDocs.Signature für .NET | Schritt-für-Schritt-Anleitung"
 "url": "/de/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Abrufen digitaler Zertifikate aus Archiven mit GroupDocs.Signature für .NET
 
 ## Einführung

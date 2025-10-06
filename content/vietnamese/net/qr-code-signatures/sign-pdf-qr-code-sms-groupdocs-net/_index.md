@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng mã QR chứa tin nhắn SMS bằng GroupDocs trong .NET"
 "url": "/vi/net/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng mã QR có chứa đối tượng SMS bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

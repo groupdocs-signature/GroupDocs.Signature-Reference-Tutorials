@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 使用单选按钮表单字段对 PDF 进行签名"
 "url": "/zh/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 使用单选按钮表单字段对 PDF 进行签名
 
 ## 介绍

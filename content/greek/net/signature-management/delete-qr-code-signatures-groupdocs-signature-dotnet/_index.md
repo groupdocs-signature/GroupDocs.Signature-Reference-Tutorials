@@ -4,8 +4,8 @@
 "title": "Αποτελεσματική αφαίρεση υπογραφών κωδικού QR χρησιμοποιώντας το GroupDocs.Signature για .NET | Οδηγός διαχείρισης υπογραφών"
 "url": "/el/net/signature-management/delete-qr-code-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να διαγράψετε υπογραφές κωδικού QR χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

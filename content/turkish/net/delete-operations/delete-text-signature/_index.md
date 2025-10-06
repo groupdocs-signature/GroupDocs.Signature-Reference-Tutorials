@@ -5,8 +5,8 @@
 "title": ".NET'te Belgelerden Metin İmzaları Nasıl Kaldırılır"
 "url": "/tr/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # GroupDocs.Signature ile Belgelerinizden Metin İmzalarını Nasıl Kaldırabilirsiniz?
 
 ## Metin İmzalarını Neden Silmeniz Gerekir?

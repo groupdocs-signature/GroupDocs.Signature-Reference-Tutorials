@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามใน PDF ด้วยลายเซ็นภาพโดยใช้ GroupDocs.Signature สำหรับ Java พร้อมคำแนะนำทีละขั้นตอน"
 "url": "/th/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร PDF ด้วยลายเซ็นภาพโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

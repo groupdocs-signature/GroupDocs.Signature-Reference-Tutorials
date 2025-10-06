@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature ile Belge İmzalamada İlerleme Olayı İşlemeyi Uygulama"
 "url": "/tr/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature ile Belge İmzalamada İlerleme Olayı İşlemeyi Uygulama
 
 ## giriiş

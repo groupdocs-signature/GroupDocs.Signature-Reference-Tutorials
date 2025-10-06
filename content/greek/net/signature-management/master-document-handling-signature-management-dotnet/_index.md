@@ -4,8 +4,8 @@
 "title": "Κύριος χειρισμός εγγράφων και διαχείριση υπογραφών σε .NET με το GroupDocs.Signature"
 "url": "/el/net/signature-management/master-document-handling-signature-management-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με τον χειρισμό εγγράφων και τη διαχείριση υπογραφών σε .NET με το GroupDocs.Signature
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Triển khai Tìm kiếm chữ ký mã QR .NET với MeCard bằng GroupDocs.Signature"
 "url": "/vi/net/qr-code-signatures/net-qr-code-signature-search-mecard-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai Tìm kiếm chữ ký mã QR .NET với MeCard bằng GroupDocs.Signature
 
 ## Giới thiệu

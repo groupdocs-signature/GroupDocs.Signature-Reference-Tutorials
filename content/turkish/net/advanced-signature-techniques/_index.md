@@ -5,8 +5,8 @@
 "title": ".NET'te Gelişmiş Belge İmzalama Tekniklerine Hakim Olun"
 "url": "/tr/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # .NET için GroupDocs.Signature ile Gelişmiş İmza Teknikleri
 
 ## giriiş

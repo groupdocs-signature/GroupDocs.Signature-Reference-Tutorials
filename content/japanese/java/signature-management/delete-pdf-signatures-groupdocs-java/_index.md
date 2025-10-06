@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Javaを使ってPDF署名を削除する方法 ― 総合ガイド"
 "url": "/ja/java/signature-management/delete-pdf-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Javaを使用してPDF署名を削除する方法：包括的なガイド
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak .NET'te Meta Veri Araması Nasıl Uygulanır? Adım Adım Kılavuz"
 "url": "/tr/net/metadata-signatures/implement-metadata-search-net-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak .NET'te Meta Veri Araması Nasıl Uygulanır: Adım Adım Kılavuz
 
 ## giriiş

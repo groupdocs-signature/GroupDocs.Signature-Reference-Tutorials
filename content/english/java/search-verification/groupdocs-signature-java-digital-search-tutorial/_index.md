@@ -8,10 +8,8 @@ keywords:
 - digital signature search Java
 - GroupDocs.Signature for Java tutorial
 - implementing digital signatures in Java
-
+type: docs
 ---
-
-
 # Mastering Digital Signature Search with GroupDocs.Signature for Java
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "كيفية حذف التوقيعات الرقمية من ملفات PDF باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/signature-management/delete-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية إزالة التوقيعات الرقمية من ملف PDF باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

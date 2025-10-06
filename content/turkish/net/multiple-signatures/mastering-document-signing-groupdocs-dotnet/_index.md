@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile Belge İmzalamada Ustalaşma&#58; Kapsamlı Bir Kılavuz"
 "url": "/tr/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Belge İmzalamada Ustalaşma
 
 ## giriiş

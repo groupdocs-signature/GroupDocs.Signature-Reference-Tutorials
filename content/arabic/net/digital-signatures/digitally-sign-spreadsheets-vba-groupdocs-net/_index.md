@@ -4,8 +4,8 @@
 "title": "التوقيع الرقمي على جداول بيانات Excel ومشاريع VBA باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # التوقيع الرقمي على جداول بيانات Excel ومشاريع VBA الخاصة بها باستخدام GroupDocs.Signature لـ .NET
 
 في عصرنا الرقمي، يُعدّ ضمان صحة ملفات Excel أمرًا بالغ الأهمية. سواءً كنت تُدير جداول بيانات مالية أو خطط مشاريع، فإن إضافة توقيع رقمي يُمكن أن يحميك من التغييرات غير المُصرّح بها. يُرشدك هذا البرنامج التعليمي إلى كيفية التوقيع رقميًا على مستندات جداول البيانات ومشاريع VBA الخاصة بها باستخدام **GroupDocs.Signature لـ .NET**.

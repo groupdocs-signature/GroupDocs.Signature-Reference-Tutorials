@@ -4,8 +4,8 @@
 "title": "วิธีการลงนาม PDF ด้วยรหัส QR ที่มี SMS โดยใช้ GroupDocs ใน .NET"
 "url": "/th/net/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร PDF ด้วยรหัส QR ที่มีวัตถุ SMS โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

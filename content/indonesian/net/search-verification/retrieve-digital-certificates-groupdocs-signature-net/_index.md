@@ -4,8 +4,8 @@
 "title": "Mengambil Sertifikat Digital dari Arsip menggunakan GroupDocs.Signature untuk .NET | Panduan Langkah demi Langkah"
 "url": "/id/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Mengambil Sertifikat Digital dari Arsip Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

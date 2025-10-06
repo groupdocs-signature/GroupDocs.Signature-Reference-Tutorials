@@ -4,8 +4,8 @@
 "title": "Signieren Sie PDFs mit Textsignatur und benutzerdefiniertem Erscheinungsbild in .NET mithilfe von GroupDocs.Signature"
 "url": "/de/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie PDF-Dokumente mit Textsignatur und benutzerdefiniertem Erscheinungsbild mithilfe von GroupDocs.Signature für .NET
 
 ## Einführung

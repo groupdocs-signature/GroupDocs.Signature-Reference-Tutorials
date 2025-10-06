@@ -4,8 +4,8 @@
 "title": "Cách ký PDF từ URL bằng GroupDocs.Signature cho Java - Hướng dẫn về chữ ký số"
 "url": "/vi/java/digital-signatures/sign-pdf-from-url-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF từ URL bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

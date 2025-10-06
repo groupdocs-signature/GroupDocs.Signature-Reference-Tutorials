@@ -4,8 +4,8 @@
 "title": "Omfattande guide till GroupDocs.Signature för Java&#50; Grunderna i digital signering"
 "url": "/sv/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Omfattande guide till GroupDocs.Signature för Java: Grunderna i digital signering
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "Como assinar documentos com assinatura de imagem usando GroupDocs.Signature para .NET"
 "url": "/pt/net/image-signatures/sign-document-image-signature-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Como assinar um documento com uma assinatura de imagem usando GroupDocs.Signature para .NET
 
 ## Introdução

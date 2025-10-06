@@ -4,8 +4,8 @@
 "title": "Как реализовать электронное подписание документов в .NET с помощью GroupDocs.Signature&#58; пошаговое руководство"
 "url": "/ru/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать электронное подписание документов в .NET с помощью GroupDocs.Signature: пошаговое руководство
 
 ## Введение

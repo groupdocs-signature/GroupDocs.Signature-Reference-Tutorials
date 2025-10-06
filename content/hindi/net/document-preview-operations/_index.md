@@ -5,8 +5,8 @@
 "title": "व्यापक दस्तावेज़ पूर्वावलोकन और प्रबंधन संचालन"
 "url": "/hi/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # दस्तावेज़ पूर्वावलोकन संचालन
 
 ## परिचय

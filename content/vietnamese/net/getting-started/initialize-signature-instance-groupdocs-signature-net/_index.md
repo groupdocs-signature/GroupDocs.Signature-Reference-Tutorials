@@ -4,8 +4,8 @@
 "title": "Khởi tạo phiên bản chữ ký với GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Khởi tạo phiên bản chữ ký với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

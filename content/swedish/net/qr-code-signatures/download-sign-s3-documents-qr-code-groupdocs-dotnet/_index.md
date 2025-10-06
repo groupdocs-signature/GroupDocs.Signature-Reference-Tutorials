@@ -4,8 +4,8 @@
 "title": "Hur man laddar ner och signerar Amazon S3-dokument med QR-koder med GroupDocs.Signature för .NET"
 "url": "/sv/net/qr-code-signatures/download-sign-s3-documents-qr-code-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man laddar ner och signerar Amazon S3-dokument med QR-koder med GroupDocs.Signature för .NET
 
 ## Introduktion

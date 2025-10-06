@@ -4,8 +4,8 @@
 "title": "Implementeer aangepaste QR-code serialisatie en encryptie in PDF's met behulp van GroupDocs.Signature voor Java"
 "url": "/nl/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u aangepaste QR-code-serialisatie en -versleuteling in PDF's implementeert met GroupDocs.Signature voor Java
 
 ## Invoering

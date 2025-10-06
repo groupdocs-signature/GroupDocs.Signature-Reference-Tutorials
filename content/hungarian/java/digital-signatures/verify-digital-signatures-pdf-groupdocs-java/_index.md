@@ -4,8 +4,8 @@
 "title": "PDF-fájlok digitális aláírásainak ellenőrzése a GroupDocs.Signature for Java használatával – lépésről lépésre útmutató"
 "url": "/hu/java/digital-signatures/verify-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF-fájlok digitális aláírásainak ellenőrzése a GroupDocs.Signature for Java használatával: lépésről lépésre útmutató
 
 ## Bevezetés

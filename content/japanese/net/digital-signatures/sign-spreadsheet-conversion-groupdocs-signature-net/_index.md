@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してスプレッドシートに効率的に署名し、PDF に変換する"
 "url": "/ja/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してスプレッドシートに効率的に署名し、PDF に変換する
 
 ## 導入

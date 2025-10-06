@@ -4,8 +4,8 @@
 "title": "Opanowanie wyszukiwania podpisów dokumentów za pomocą GroupDocs.Signature for Java – kompleksowy przewodnik"
 "url": "/pl/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie wyszukiwania podpisów dokumentów za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "So implementieren Sie digitale .NET-Signaturen mit GroupDocs.Signature – Eine vollständige Anleitung"
 "url": "/de/net/digital-signatures/implement-dotnet-digital-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie digitale .NET-Signaturen mit GroupDocs.Signature für .NET
 
 ## Einführung

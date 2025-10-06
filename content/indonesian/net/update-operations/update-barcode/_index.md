@@ -5,8 +5,8 @@
 "title": "Perbarui Tanda Tangan Kode Batang dalam Dokumen"
 "url": "/id/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Perkenalan
 Tanda tangan kode batang banyak digunakan dalam alur kerja dokumen digital untuk mengodekan data terstruktur, memungkinkan pelacakan, identifikasi, dan validasi yang efisien. GroupDocs.Signature untuk .NET adalah solusi penandatanganan dokumen komprehensif yang memungkinkan pengembang untuk mengintegrasikan fungsionalitas tanda tangan tingkat lanjut ke dalam aplikasi mereka, termasuk kemampuan untuk memperbarui tanda tangan kode batang yang ada di dalam dokumen.
 

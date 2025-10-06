@@ -4,8 +4,8 @@
 "title": "วิธีการเริ่มต้นอินสแตนซ์ลายเซ็นใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการเริ่มต้นอินสแตนซ์ลายเซ็นใน Java โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

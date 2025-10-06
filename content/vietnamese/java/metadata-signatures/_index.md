@@ -3,8 +3,8 @@
 "title": "Hướng dẫn về chữ ký siêu dữ liệu cho GroupDocs.Signature Java"
 "url": "/vi/java/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Hướng dẫn về chữ ký siêu dữ liệu cho GroupDocs.Signature Java
 
 Hướng dẫn về chữ ký siêu dữ liệu của chúng tôi trình bày cách sử dụng siêu dữ liệu tài liệu để ký an toàn bằng GroupDocs.Signature trong Java. Các hướng dẫn từng bước này bao gồm việc triển khai chữ ký siêu dữ liệu ở các định dạng tài liệu khác nhau, bao gồm PDF, hình ảnh, bản trình bày, bảng tính và tệp xử lý văn bản. Mỗi hướng dẫn đều bao gồm các ví dụ mã Java thực tế cho các thao tác siêu dữ liệu, giúp bạn xây dựng các ứng dụng có thể thêm thông tin chữ ký vô hình vào tài liệu, tăng cường bảo mật mà không làm thay đổi giao diện trực quan.

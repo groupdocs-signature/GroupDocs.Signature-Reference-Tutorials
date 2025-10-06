@@ -4,8 +4,8 @@
 "title": "Поиск и шифрование QR-кодов в Java Master GroupDocs. Подпись для безопасной обработки документов"
 "url": "/ru/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Поиск и шифрование QR-кодов в Java: Master GroupDocs.Signature для безопасной обработки документов
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "Šifrování a podepisování PDF pomocí QR kódů pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Šifrování a podepisování PDF pomocí QR kódů pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

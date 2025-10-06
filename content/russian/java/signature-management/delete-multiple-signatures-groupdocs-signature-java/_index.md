@@ -4,8 +4,8 @@
 "title": "Как удалить несколько подписей из PDF-файлов с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/signature-management/delete-multiple-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Как удалить несколько подписей из PDF-файлов с помощью GroupDocs.Signature для Java
 
 ## Введение

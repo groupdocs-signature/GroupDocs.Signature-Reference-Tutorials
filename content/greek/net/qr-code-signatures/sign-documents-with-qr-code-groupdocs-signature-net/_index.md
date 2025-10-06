@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε έγγραφα με κωδικούς QR χρησιμοποιώντας το GroupDocs.Signature για .NET™ - Οδηγός βήμα προς βήμα"
 "url": "/el/net/qr-code-signatures/sign-documents-with-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πλήρες σεμινάριο: Υπογραφή εγγράφων με κωδικό QR χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

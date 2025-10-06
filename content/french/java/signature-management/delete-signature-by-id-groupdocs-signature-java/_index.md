@@ -4,8 +4,8 @@
 "title": "Comment supprimer une signature par identifiant à l'aide de GroupDocs.Signature pour Java"
 "url": "/fr/java/signature-management/delete-signature-by-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Comment supprimer une signature par identifiant avec GroupDocs.Signature pour Java
 
 ## Introduction

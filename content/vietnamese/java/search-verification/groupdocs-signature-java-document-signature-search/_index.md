@@ -4,8 +4,8 @@
 "title": "Làm chủ Tìm kiếm Chữ ký Tài liệu với GroupDocs.Signature cho Java - Hướng dẫn Toàn diện"
 "url": "/vi/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ tìm kiếm chữ ký tài liệu với GroupDocs.Signature cho Java
 
 ## Giới thiệu

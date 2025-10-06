@@ -4,8 +4,8 @@
 "title": "Menerapkan Tanda Tangan Digital Kustom di Java dengan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/java/digital-signatures/custom-digital-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Tanda Tangan Digital Kustom di Java dengan GroupDocs.Signature
 
 Di era digital saat ini, memastikan integritas dan keaslian dokumen sangatlah penting. Tanda tangan tradisional seringkali kurang memadai dalam memverifikasi keabsahan dokumen yang dibagikan secara elektronik. Panduan komprehensif ini akan memandu Anda dalam menerapkan tanda tangan digital khusus menggunakan **GroupDocs.Signature untuk Java**, memberikan tingkat keamanan dan profesionalisme yang ditingkatkan pada dokumen digital Anda.

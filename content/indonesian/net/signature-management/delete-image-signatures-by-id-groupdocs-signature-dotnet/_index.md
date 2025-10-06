@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Tanda Tangan Gambar Berdasarkan ID Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/signature-management/delete-image-signatures-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Lengkap untuk Menghapus Tanda Tangan Gambar berdasarkan ID Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

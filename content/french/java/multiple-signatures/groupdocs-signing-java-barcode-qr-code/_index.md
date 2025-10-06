@@ -4,8 +4,8 @@
 "title": "Implémenter la signature de codes-barres et de codes QR en Java à l'aide de GroupDocs.Signature - Un guide complet"
 "url": "/fr/java/multiple-signatures/groupdocs-signing-java-barcode-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Implémentation de la signature de codes-barres et de codes QR en Java avec GroupDocs.Signature
 
 Dans le paysage numérique actuel, garantir l'intégrité des documents est crucial. Qu'il s'agisse de gérer des contrats juridiques, des factures ou des étiquettes d'expédition, préserver leur authenticité est essentiel. **GroupDocs.Signature pour Java** Simplifie ce processus en permettant une intégration transparente des codes-barres et des codes QR dans les documents. Ce guide complet vous guidera dans la mise en œuvre de la signature de codes-barres et de codes QR avec GroupDocs.Signature pour Java.

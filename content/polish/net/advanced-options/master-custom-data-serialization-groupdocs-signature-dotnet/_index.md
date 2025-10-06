@@ -4,8 +4,8 @@
 "title": "Zaawansowany przewodnik po serializacji danych niestandardowych w .NET z GroupDocs.Signature"
 "url": "/pl/net/advanced-options/master-custom-data-serialization-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie niestandardowej serializacji danych w .NET z GroupDocs.Signature
 ## Wstęp
 W obszarze cyfrowego przetwarzania dokumentów kluczowe jest zapewnienie integralności danych poprzez precyzyjną serializację. Ten zaawansowany przewodnik wyjaśnia, jak wdrożyć niestandardową serializację danych za pomocą atrybutów w GroupDocs.Signature dla .NET — solidnym rozwiązaniu, które upraszcza dodawanie podpisów do dokumentów. Wykorzystując określone reguły serializacji z niestandardowymi atrybutami, można usprawnić przepływ pracy i zwiększyć bezpieczeństwo danych.

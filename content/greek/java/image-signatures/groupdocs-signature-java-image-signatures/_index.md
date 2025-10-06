@@ -4,8 +4,8 @@
 "title": "Πώς να αναζητήσετε και να ενημερώσετε υπογραφές εικόνων σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/image-signatures/groupdocs-signature-java-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αναζητήσετε και να ενημερώσετε υπογραφές εικόνων σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

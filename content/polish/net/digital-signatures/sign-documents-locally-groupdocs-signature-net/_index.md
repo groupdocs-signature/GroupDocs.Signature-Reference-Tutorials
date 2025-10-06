@@ -4,8 +4,8 @@
 "title": "Jak podpisywać dokumenty lokalnie za pomocą GroupDocs.Signature dla platformy .NET? – kompleksowy przewodnik"
 "url": "/pl/net/digital-signatures/sign-documents-locally-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać dokumenty lokalnie za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

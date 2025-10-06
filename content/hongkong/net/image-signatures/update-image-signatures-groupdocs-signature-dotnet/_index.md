@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 更新文件中的映像簽章－逐步指南"
 "url": "/zh-hant/net/image-signatures/update-image-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 更新文件中的映像簽名
 
 ## 介紹

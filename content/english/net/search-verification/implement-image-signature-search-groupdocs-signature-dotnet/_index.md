@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: [".NET Development"]
 tags: ["groupdocs", "signature-search", "document-verification", "csharp", "image-processing"]
+type: docs
 ---
-
 # Complete Guide to Image Signature Search in .NET Using GroupDocs.Signature
 
 ## Why Image Signature Search Matters (And How This Guide Helps)

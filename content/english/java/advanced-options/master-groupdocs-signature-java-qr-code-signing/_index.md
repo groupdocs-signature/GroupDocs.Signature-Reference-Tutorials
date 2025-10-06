@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Java Development"]
 tags: ["QR codes", "PDF signing", "digital signatures", "document security"]
+type: docs
 ---
-
 # QR Code Document Signing in Java: Complete Implementation
 
 You've probably noticed how digital signatures are everywhere now—from contracts to invoices. But here's the thing: traditional signature methods can be clunky and don't always provide the verification features modern businesses need. That's where QR code signatures come in.

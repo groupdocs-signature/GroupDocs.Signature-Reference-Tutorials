@@ -4,8 +4,8 @@
 "title": "Amazon S3-documenten met QR-codes downloaden en ondertekenen met GroupDocs.Signature voor .NET"
 "url": "/nl/net/qr-code-signatures/download-sign-s3-documents-qr-code-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Amazon S3-documenten met QR-codes downloaden en ondertekenen met GroupDocs.Signature voor .NET
 
 ## Invoering

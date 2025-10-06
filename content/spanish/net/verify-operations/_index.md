@@ -5,8 +5,8 @@
 "title": "Operaciones de verificación de documentos en .NET"
 "url": "/es/net/verify-operations/"
 "weight": 27
+type: docs
 ---
-
 ## Introducción
 
 La verificación de documentos es un componente fundamental de cualquier sistema seguro de gestión documental. Ya sea que esté desarrollando aplicaciones empresariales, soluciones de flujo de trabajo documental o sistemas centrados en la seguridad, poder verificar diversos tipos de firmas en los documentos es esencial. GroupDocs.Signature para .NET ofrece potentes herramientas y API que permiten a los desarrolladores .NET implementar una robusta funcionalidad de verificación para códigos de barras, firmas digitales, códigos QR y firmas de texto.

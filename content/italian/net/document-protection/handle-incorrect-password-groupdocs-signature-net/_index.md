@@ -4,8 +4,8 @@
 "title": "Come gestire le eccezioni relative alle password errate in GroupDocs.Signature per .NET"
 "url": "/it/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Come gestire le eccezioni relative alle password errate utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

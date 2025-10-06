@@ -4,8 +4,8 @@
 "title": "การลงนามเอกสารหลักด้วยรหัส QR โดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/qr-code-signatures/groupdocs-signature-qr-code-document-signing/"
 "weight": 1
+type: docs
 ---
-
 # การลงนามเอกสารหลักด้วยรหัส QR โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Laden und Überprüfen digitaler Zertifikate mit GroupDocs.Signature für .NET – Ein umfassender Leitfaden"
 "url": "/de/net/digital-signatures/load-verify-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Laden und Überprüfen digitaler Zertifikate mit GroupDocs.Signature für .NET
 
 ## Einführung

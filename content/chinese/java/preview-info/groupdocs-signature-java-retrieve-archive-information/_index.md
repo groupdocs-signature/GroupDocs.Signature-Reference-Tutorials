@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 检索存档文件信息"
 "url": "/zh/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 检索存档文件信息
 
 ## 介绍

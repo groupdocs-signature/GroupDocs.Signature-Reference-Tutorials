@@ -4,8 +4,8 @@
 "title": "Implémenter la recherche de signature de code QR .NET avec MeCard à l'aide de GroupDocs.Signature"
 "url": "/fr/net/qr-code-signatures/net-qr-code-signature-search-mecard-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implémentation de la recherche de signature de code QR .NET avec MeCard à l'aide de GroupDocs.Signature
 
 ## Introduction

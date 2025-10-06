@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Pencarian Metadata dalam Presentasi Java dengan GroupDocs.Signature"
 "url": "/id/java/search-verification/implement-metadata-search-groupdocs-java-presentations/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pencarian Metadata dalam Presentasi Java dengan GroupDocs.Signature
 
 ## Perkenalan

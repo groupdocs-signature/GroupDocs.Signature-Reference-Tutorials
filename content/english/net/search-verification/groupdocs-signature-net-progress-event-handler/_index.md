@@ -9,8 +9,8 @@ weight: 1
 url: "/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 categories: ["Document Processing"]
 tags: ["GroupDocs.Signature", "performance-optimization", "timeout-handling", "document-search"]
+type: docs
 ---
-
 # How to Cancel Slow Document Searches in .NET - Stop Hanging Operations
 
 ## Introduction

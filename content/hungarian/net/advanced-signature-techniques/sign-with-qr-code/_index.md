@@ -5,8 +5,8 @@
 "title": "Hogyan írjunk alá dokumentumokat QR-kódokkal a GroupDocs.Signature használatával"
 "url": "/hu/net/advanced-signature-techniques/sign-with-qr-code/"
 "weight": 15
+type: docs
 ---
-
 # QR-kód aláírások hozzáadása dokumentumokhoz a GroupDocs.Signature segítségével
 
 Elgondolkodott már azon, hogyan adhat hozzá egy extra biztonsági és hitelesítési réteget digitális dokumentumaihoz? A QR-kód aláírások pontosan az lehetnek, amire szüksége van. Ebben a felhasználóbarát útmutatóban végigvezetjük Önt a QR-kód aláírások GroupDocs.Signature for .NET használatával történő megvalósításának teljes folyamatán.

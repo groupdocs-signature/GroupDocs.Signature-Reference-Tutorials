@@ -4,8 +4,8 @@
 "title": "Κύριες ψηφιακές υπογραφές σε PDF με προσαρμοσμένη εμφάνιση χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # Κατανόηση ψηφιακών υπογραφών σε PDF με προσαρμοσμένη εμφάνιση χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Guide för att ta bort QR-kodsignaturer i Java med GroupDocs"
 "url": "/sv/java/signature-management/qr-code-signature-deletion-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Guide för att ta bort QR-kodsignaturer i Java med GroupDocs
 
 ## Introduktion

@@ -5,8 +5,8 @@
 "title": "Jak odstranit digitální podpisy z dokumentů v .NET"
 "url": "/cs/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # Jak odstranit digitální podpisy z dokumentů pomocí GroupDocs.Signature
 
 ## Proč je správa digitálních podpisů důležitá

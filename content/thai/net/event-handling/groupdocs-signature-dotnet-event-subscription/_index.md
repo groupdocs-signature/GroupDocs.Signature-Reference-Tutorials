@@ -4,8 +4,8 @@
 "title": "เรียนรู้การสมัครรับข้อมูลเหตุการณ์ในการลงนามเอกสารด้วย GroupDocs.Signature สำหรับ .NET | คู่มือทีละขั้นตอน"
 "url": "/th/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การสมัครรับข้อมูลเหตุการณ์ในการลงนามเอกสารด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 在電子表格中搜尋元資料簽名"
 "url": "/zh-hant/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在電子表格中搜尋元資料簽名
 
 ## 介紹

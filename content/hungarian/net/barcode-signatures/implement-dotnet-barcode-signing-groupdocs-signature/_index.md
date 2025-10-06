@@ -4,8 +4,8 @@
 "title": ".NET vonalkód-aláírás megvalósítása a GroupDocs.Signature segítségével – Teljes körű útmutató fejlesztőknek"
 "url": "/hu/net/barcode-signatures/implement-dotnet-barcode-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # .NET vonalkód-aláírás megvalósítása a GroupDocs.Signature segítségével: Teljes körű útmutató fejlesztőknek
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature untuk .NET&#58; Kelola dan Hapus Tanda Tangan Dokumen"
 "url": "/id/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Manajemen Tanda Tangan di .NET dengan GroupDocs.Signature
 
 ## Perkenalan

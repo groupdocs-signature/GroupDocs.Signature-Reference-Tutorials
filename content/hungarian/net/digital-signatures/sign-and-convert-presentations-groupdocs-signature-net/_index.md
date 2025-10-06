@@ -4,8 +4,8 @@
 "title": "Prezentációk aláírása és konvertálása a GroupDocs.Signature for .NET segítségével – Átfogó útmutató"
 "url": "/hu/net/digital-signatures/sign-and-convert-presentations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Prezentációk aláírása és konvertálása a GroupDocs.Signature for .NET segítségével: Átfogó útmutató
 
 ## Bevezetés

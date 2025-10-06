@@ -4,8 +4,8 @@
 "title": "So extrahieren Sie HIBC PAS-Daten aus QR-Codes mit Java und GroupDocs.Signature"
 "url": "/de/java/qr-code-signatures/extract-hibc-pas-data-qr-codes-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # So extrahieren Sie HIBC PAS-Daten aus QR-Codes mit Java und GroupDocs.Signature
 
 **Einführung**

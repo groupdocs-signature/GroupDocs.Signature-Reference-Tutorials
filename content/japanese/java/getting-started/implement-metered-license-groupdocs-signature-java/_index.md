@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java で従量制ライセンスを実装する手順ガイド"
 "url": "/ja/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java で従量制ライセンスを実装する方法
 
 ## 導入

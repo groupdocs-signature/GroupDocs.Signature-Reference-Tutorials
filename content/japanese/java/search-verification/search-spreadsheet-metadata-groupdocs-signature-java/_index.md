@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Javaを使用してスプレッドシートのメタデータを検索する方法 - 総合ガイド"
 "url": "/ja/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用してスプレッドシートのメタデータを検索する方法: 包括的なガイド
 
 ## 導入

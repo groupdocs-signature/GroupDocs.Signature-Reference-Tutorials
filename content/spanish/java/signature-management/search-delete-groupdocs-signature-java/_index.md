@@ -4,8 +4,8 @@
 "title": "Gestión eficiente de firmas&#58; Cómo buscar y eliminar firmas digitales con GroupDocs.Signature para Java"
 "url": "/es/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Gestión eficiente de firmas: Cómo buscar y eliminar firmas digitales con GroupDocs.Signature para Java
 
 ## Introducción

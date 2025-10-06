@@ -4,8 +4,8 @@
 "title": "Cách cấu hình chữ ký văn bản trong Java bằng GroupDocs.Signature - Hướng dẫn đầy đủ"
 "url": "/vi/java/text-signatures/configure-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách cấu hình chữ ký văn bản trong Java bằng GroupDocs.Signature: Hướng dẫn toàn diện
 
 ## Giới thiệu

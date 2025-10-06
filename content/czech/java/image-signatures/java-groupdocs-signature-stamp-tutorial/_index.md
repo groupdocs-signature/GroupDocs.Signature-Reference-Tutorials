@@ -4,8 +4,8 @@
 "title": "Výukový program pro podpis razítka v Javě&#58; Jak podepisovat PDF soubory pomocí GroupDocs.Signature API"
 "url": "/cs/java/image-signatures/java-groupdocs-signature-stamp-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Výukový program pro podpis razítka v Javě: Podepisování PDF dokumentů pomocí GroupDocs.Signature API
 
 dnešní digitální krajině je efektivní a bezpečné podepisování dokumentů zásadní jak pro firmy, tak pro jednotlivce. Ať už autorizujete smlouvy nebo ověřujete dokumenty, digitální zajištění pravosti může ušetřit čas a zdroje. Tento komplexní tutoriál vás provede používáním rozhraní GroupDocs.Signature for Java API k podepsání dokumentu PDF vlastním razítkem. Dodržováním tohoto podrobného postupu se naučíte, jak přidat vnější a vnitřní řádky se specifickým textem, styly písma, barvami a umístěním.

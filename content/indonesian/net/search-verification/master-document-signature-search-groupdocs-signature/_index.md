@@ -4,8 +4,8 @@
 "title": "Pencarian Tanda Tangan Dokumen Utama dengan GroupDocs.Signature untuk Ekstraksi Data Kode QR dan WiFi .NET"
 "url": "/id/net/search-verification/master-document-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pencarian Tanda Tangan Dokumen dengan GroupDocs.Signature untuk .NET
 
 Dalam lanskap digital saat ini, manajemen dan verifikasi dokumen yang efisien sangat penting bagi bisnis di berbagai sektor. Tantangan umum adalah mencari dokumen untuk tanda tangan tertentu, seperti tanda tangan kode QR yang berisi data WiFi. Panduan komprehensif ini akan memandu Anda dalam penerapan fitur pencarian tanda tangan kode QR yang menyertakan informasi WiFi menggunakan GroupDocs.Signature untuk .NET.

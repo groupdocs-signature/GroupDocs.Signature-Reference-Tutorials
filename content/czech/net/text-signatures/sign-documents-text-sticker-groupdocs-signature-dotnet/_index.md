@@ -4,8 +4,8 @@
 "title": "Jak podepisovat dokumenty pomocí textové nálepky v GroupDocs.Signature pro .NET"
 "url": "/cs/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat dokumenty pomocí textových samolepek v GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -5,8 +5,8 @@
 "title": "Opanuj wielokrotne podpisy dokumentów w .NET – kompletny przewodnik"
 "url": "/pl/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## Zabezpiecz swoje dokumenty za pomocą wielu typów podpisów
 
 Czy kiedykolwiek musiałeś zastosować różne typy podpisów do jednego dokumentu? Niezależnie od tego, czy obsługujesz poufne umowy, dokumenty prawne, czy dokumenty korporacyjne, połączenie wielu typów podpisów może znacznie zwiększyć bezpieczeństwo i autentyczność. W tym przewodniku dokładnie pokażemy, jak wdrożyć tę zaawansowaną funkcjonalność za pomocą GroupDocs.Signature dla .NET.

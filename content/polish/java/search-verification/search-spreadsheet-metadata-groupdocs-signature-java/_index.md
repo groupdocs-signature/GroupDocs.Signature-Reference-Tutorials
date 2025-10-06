@@ -4,8 +4,8 @@
 "title": "Jak wyszukiwać metadane w arkuszu kalkulacyjnym za pomocą GroupDocs.Signature dla Java? — kompleksowy przewodnik"
 "url": "/pl/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wyszukiwać metadane w arkuszu kalkulacyjnym za pomocą GroupDocs.Signature dla języka Java: kompleksowy przewodnik
 
 ## Wstęp

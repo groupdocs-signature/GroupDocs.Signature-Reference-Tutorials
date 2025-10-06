@@ -4,8 +4,8 @@
 "title": "Aláíráspéldány inicializálása a GroupDocs.Signature for .NET segítségével – Átfogó útmutató"
 "url": "/hu/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Aláíráspéldány inicializálása a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak E-Tablolarda Meta Veri Çıkarımını Otomatikleştirin"
 "url": "/tr/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature ile E-Tablolarda Meta Veri Çıkarımının Otomatikleştirilmesi
 
 ## giriiş

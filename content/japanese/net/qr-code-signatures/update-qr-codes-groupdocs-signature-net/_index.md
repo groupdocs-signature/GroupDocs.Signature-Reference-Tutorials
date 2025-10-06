@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した .NET での QR コードの更新 - 総合ガイド"
 "url": "/ja/net/qr-code-signatures/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して .NET で QR コードを更新する: 包括的なガイド
 
 ## 導入

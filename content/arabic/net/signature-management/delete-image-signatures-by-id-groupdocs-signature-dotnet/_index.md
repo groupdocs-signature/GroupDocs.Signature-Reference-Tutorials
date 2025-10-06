@@ -4,8 +4,8 @@
 "title": "كيفية حذف توقيعات الصور حسب المعرف باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/signature-management/delete-image-signatures-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # دليل شامل لحذف توقيعات الصور حسب المعرف باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 PDF에서 QR 코드 검색 마스터하기&#58; 완벽한 가이드"
 "url": "/ko/net/search-verification/master-qr-code-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 PDF에서 QR 코드 검색 마스터하기
 
 ## 소개

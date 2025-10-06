@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met afbeeldingshandtekeningen met GroupDocs.Signature voor Java&#58; een stapsgewijze handleiding"
 "url": "/nl/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF-document ondertekenen met een afbeeldingshandtekening met GroupDocs.Signature voor Java
 
 ## Invoering

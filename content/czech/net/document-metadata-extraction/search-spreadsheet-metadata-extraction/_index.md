@@ -5,8 +5,8 @@
 "title": "Snadná extrakce metadat z tabulky pomocí GroupDocs.Signature"
 "url": "/cs/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # Jak extrahovat metadata z tabulek pomocí GroupDocs.Signature
 
 ## Proč jsou metadata v tabulkách důležitá

@@ -5,8 +5,8 @@
 "title": "如何在 .NET 文档中按 ID 删除签名"
 "url": "/zh/net/delete-operations/delete-signature-by-id/"
 "weight": 11
+type: docs
 ---
-
 # 如何在 .NET 文档中按 ID 删除签名
 
 ## 为什么需要从文件中删除签名？

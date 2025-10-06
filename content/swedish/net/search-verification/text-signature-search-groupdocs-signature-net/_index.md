@@ -4,8 +4,8 @@
 "title": "Sökning efter signatur i huvudtext i .NET-dokument med GroupDocs.Signature"
 "url": "/sv/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra textsignatursökning i .NET-dokument med GroupDocs.Signature
 
 ## Introduktion

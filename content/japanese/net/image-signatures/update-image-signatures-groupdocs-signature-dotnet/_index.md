@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してドキュメント内の画像署名を更新する方法 - ステップバイステップガイド"
 "url": "/ja/net/image-signatures/update-image-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してドキュメント内の画像署名を更新する方法
 
 ## 導入

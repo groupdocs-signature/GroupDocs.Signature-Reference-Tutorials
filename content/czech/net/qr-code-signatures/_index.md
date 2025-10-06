@@ -3,8 +3,8 @@
 "title": "Výukové programy pro podpis QR kódu s GroupDocs.Signature pro .NET"
 "url": "/cs/net/qr-code-signatures/"
 "weight": 5
+type: docs
 ---
-
 # Výukové programy pro podpis QR kódu s GroupDocs.Signature pro .NET
 
 Objevte, jak efektivně pracovat s podpisy QR kódů ve vašich .NET aplikacích, s našimi komplexními tutoriály GroupDocs.Signature. Tyto podrobné návody vás naučí, jak vytvářet, upravovat, vyhledávat a ověřovat podpisy QR kódů. Naučte se implementovat specializované objekty QR kódů pro různé datové formáty, včetně vCard, WiFi, SMS, e-mailu, kryptoměn, událostí a platebních dat EPC. Každý tutoriál poskytuje praktické příklady kódu C# pro základní i pokročilou implementaci QR kódů, což vám pomůže vytvářet sofistikovanější řešení pro podepisování dokumentů.

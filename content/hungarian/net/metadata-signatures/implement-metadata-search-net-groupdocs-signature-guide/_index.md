@@ -4,8 +4,8 @@
 "title": "Hogyan valósítsunk meg metaadat-keresést .NET-ben a GroupDocs.Signature használatával? Lépésről lépésre útmutató"
 "url": "/hu/net/metadata-signatures/implement-metadata-search-net-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # Metaadat-keresés megvalósítása .NET-ben a GroupDocs.Signature használatával: lépésről lépésre útmutató
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Podepisování PDF dokumentů pomocí obrázků Base64 a GroupDocs.Signature pro .NET"
 "url": "/cs/net/image-signatures/sign-pdf-base64-image-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF dokument pomocí obrázků Base64 s GroupDocs.Signature pro .NET
 
 ## Zavedení

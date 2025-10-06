@@ -4,8 +4,8 @@
 "title": "Cách triển khai chữ ký số trong .NET bằng GroupDocs.Signature - Hướng dẫn từng bước"
 "url": "/vi/net/digital-signatures/implement-digital-signatures-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký số trong .NET bằng GroupDocs.Signature: Hướng dẫn từng bước
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": ".NET でデジタル署名をマスターする&#58; GroupDocs.Signature を使用してドキュメントに署名および検索する方法"
 "url": "/ja/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET のデジタル署名をマスターする: GroupDocs.Signature を使用してドキュメントに署名および検索する方法
 
 ## 導入

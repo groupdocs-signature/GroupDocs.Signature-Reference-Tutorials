@@ -4,8 +4,8 @@
 "title": "Dominar la firma de documentos con GroupDocs.Signature para .NET&#58; una guía completa"
 "url": "/es/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Dominando la firma de documentos con GroupDocs.Signature para .NET
 
 ## Introducción

@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature के साथ डिजिटल प्रमाणपत्र खोज में निपुणता"
 "url": "/hi/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature के साथ डिजिटल प्रमाणपत्र खोज में निपुणता
 
 ## परिचय

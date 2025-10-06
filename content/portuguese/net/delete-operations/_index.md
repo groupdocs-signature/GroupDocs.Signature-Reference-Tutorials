@@ -5,8 +5,8 @@
 "title": "Guia completo para operações de exclusão de assinaturas de documentos"
 "url": "/pt/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # Operações de exclusão no GroupDocs.Signature para .NET
 
 ## Introdução

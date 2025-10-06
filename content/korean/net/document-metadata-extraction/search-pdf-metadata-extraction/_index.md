@@ -5,8 +5,8 @@
 "title": ".NET에서 PDF 메타데이터 서명을 추출하는 방법"
 "url": "/ko/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # PDF 메타데이터 서명을 추출하고 검색하는 방법
 
 ## PDF 메타데이터가 문서에 중요한 이유

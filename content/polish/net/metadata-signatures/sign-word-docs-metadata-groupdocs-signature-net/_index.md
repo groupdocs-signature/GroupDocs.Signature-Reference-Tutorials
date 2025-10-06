@@ -4,8 +4,8 @@
 "title": "Jak podpisywać dokumenty programu Word metadanymi za pomocą GroupDocs.Signature dla platformy .NET | Przewodnik krok po kroku"
 "url": "/pl/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać dokumenty programu Word metadanymi za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

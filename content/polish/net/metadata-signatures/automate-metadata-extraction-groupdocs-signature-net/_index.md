@@ -4,8 +4,8 @@
 "title": "Zautomatyzuj ekstrakcję metadanych w arkuszach kalkulacyjnych za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Automatyzacja ekstrakcji metadanych w arkuszach kalkulacyjnych za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

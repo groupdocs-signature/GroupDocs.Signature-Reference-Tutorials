@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε έγγραφα παρουσίασης με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για Java - Ένας πλήρης οδηγός"
 "url": "/el/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # Πλήρης οδηγός για την υπογραφή εγγράφων παρουσίασης με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

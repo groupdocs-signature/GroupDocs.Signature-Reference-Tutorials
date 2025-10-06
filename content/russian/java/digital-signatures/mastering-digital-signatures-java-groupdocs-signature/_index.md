@@ -4,8 +4,8 @@
 "title": "Освоение цифровых подписей в Java&#58; подробное руководство с использованием GroupDocs.Signature"
 "url": "/ru/java/digital-signatures/mastering-digital-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Освоение цифровых подписей в Java: подробное руководство с GroupDocs.Signature
 
 ## Введение

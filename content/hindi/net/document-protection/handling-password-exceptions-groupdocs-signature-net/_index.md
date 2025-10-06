@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature में पासवर्ड अपवादों को संभालना एक व्यापक मार्गदर्शिका"
 "url": "/hi/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature में पासवर्ड अपवादों को संभालना
 
 ## परिचय

@@ -3,8 +3,8 @@
 "title": "Tutoriales de gestión de eventos y procesos para GroupDocs.Signature .NET"
 "url": "/es/net/event-handling/"
 "weight": 15
+type: docs
 ---
-
 # Tutoriales de gestión de eventos y procesos para GroupDocs.Signature .NET
 
 Nuestros tutoriales de gestión de eventos y procesos muestran cómo crear aplicaciones de firma responsivas con GroupDocs.Signature para .NET. Estas guías paso a paso abarcan la suscripción a eventos de firma, la implementación de la cancelación para operaciones de búsqueda y firma, la gestión de excepciones y la supervisión del estado del procesamiento. Cada tutorial incluye ejemplos detallados de código C# para implementar una gestión de eventos adecuada, lo que le ayudará a crear aplicaciones robustas que ofrecen una mejor respuesta del usuario, gestión de errores y control sobre las operaciones de firma.

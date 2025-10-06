@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing"]
 tags: ["digital-signatures", "pdf-security", "dotnet", "groupdocs"]
+type: docs
 ---
-
 # PDF Digital Signature .NET: Complete Guide to Custom Appearance
 
 ## Why Choose Digital Signatures Over Traditional Methods?

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में XAdES के साथ दस्तावेज़ों पर हस्ताक्षर कैसे करें - एक चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/java/digital-signatures/sign-documents-xades-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके Java में XAdES के साथ दस्तावेज़ों पर हस्ताक्षर कैसे करें: एक चरण-दर-चरण मार्गदर्शिका
 
 ## परिचय

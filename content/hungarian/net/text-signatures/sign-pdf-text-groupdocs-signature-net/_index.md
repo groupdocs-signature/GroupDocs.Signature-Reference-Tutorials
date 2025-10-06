@@ -4,8 +4,8 @@
 "title": "PDF-ek szöveges aláírása a GroupDocs.Signature for .NET használatával – lépésről lépésre útmutató"
 "url": "/hu/net/text-signatures/sign-pdf-text-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum szöveges aláírása a GroupDocs.Signature for .NET használatával: lépésről lépésre útmutató
 
 ## Bevezetés

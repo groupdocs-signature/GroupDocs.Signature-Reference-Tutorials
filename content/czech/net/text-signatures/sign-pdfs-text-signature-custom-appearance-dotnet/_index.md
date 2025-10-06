@@ -4,8 +4,8 @@
 "title": "Podepisování PDF souborů textovým podpisem a vlastním vzhledem v .NET pomocí GroupDocs.Signature"
 "url": "/cs/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF dokumenty textovým podpisem a vlastním vzhledem pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

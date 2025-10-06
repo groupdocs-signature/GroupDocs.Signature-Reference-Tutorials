@@ -4,8 +4,8 @@
 "title": "Så här tar du bort flera signaturer i dokument med GroupDocs.Signature för .NET"
 "url": "/sv/net/signature-management/delete-multiple-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Så här tar du bort flera signaturer i ett dokument med GroupDocs.Signature för .NET
 
 ## Introduktion

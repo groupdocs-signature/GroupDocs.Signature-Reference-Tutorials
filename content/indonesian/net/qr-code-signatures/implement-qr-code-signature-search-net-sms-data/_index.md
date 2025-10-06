@@ -4,8 +4,8 @@
 "title": "Implementasi Pencarian Tanda Tangan Kode QR di .NET untuk Ekstraksi Data SMS dengan GroupDocs.Signature"
 "url": "/id/net/qr-code-signatures/implement-qr-code-signature-search-net-sms-data/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Pencarian Tanda Tangan Kode QR di .NET Menggunakan GroupDocs.Signature
 
 ## Perkenalan

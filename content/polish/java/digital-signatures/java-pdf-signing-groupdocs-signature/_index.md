@@ -4,8 +4,8 @@
 "title": "Jak cyfrowo podpisywać pliki PDF w Javie za pomocą GroupDocs.Signature"
 "url": "/pl/java/digital-signatures/java-pdf-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak cyfrowo podpisywać pliki PDF w Javie za pomocą GroupDocs.Signature
 
 ## Wstęp

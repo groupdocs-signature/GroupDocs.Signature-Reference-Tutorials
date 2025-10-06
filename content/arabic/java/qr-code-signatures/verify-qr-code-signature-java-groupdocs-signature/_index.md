@@ -4,8 +4,8 @@
 "title": "التحقق من توقيع رمز الاستجابة السريعة في جافا باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/java/qr-code-signatures/verify-qr-code-signature-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # التحقق من توقيع رمز الاستجابة السريعة في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

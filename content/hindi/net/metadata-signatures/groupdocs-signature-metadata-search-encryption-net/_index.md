@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs का उपयोग करके एन्क्रिप्शन के साथ मेटाडेटा हस्ताक्षर खोज लागू करें"
 "url": "/hi/net/metadata-signatures/groupdocs-signature-metadata-search-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # व्यापक गाइड: .NET के लिए GroupDocs.Signature का उपयोग करके एन्क्रिप्शन के साथ मेटाडेटा हस्ताक्षर खोज को लागू करना
 
 ## परिचय

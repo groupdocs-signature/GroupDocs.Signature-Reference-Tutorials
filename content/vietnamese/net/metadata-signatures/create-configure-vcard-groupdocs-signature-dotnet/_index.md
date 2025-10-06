@@ -4,8 +4,8 @@
 "title": "Cách tạo và cấu hình đối tượng VCard bằng GroupDocs.Signature cho .NET - Hướng dẫn dành cho nhà phát triển"
 "url": "/vi/net/metadata-signatures/create-configure-vcard-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách tạo và cấu hình đối tượng VCard bằng GroupDocs.Signature cho .NET: Hướng dẫn dành cho nhà phát triển
 
 ## Giới thiệu

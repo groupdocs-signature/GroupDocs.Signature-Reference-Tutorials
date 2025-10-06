@@ -4,8 +4,8 @@
 "title": "Como assinar documentos com um carimbo de texto usando GroupDocs.Signature para .NET"
 "url": "/pt/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Como assinar documentos com um carimbo de texto usando GroupDocs.Signature para .NET
 
 ## Introdução

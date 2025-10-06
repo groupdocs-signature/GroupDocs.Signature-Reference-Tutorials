@@ -5,8 +5,8 @@
 "title": "คู่มือฉบับสมบูรณ์สำหรับการดำเนินการลบลายเซ็นเอกสาร"
 "url": "/th/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # ลบการดำเนินการใน GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

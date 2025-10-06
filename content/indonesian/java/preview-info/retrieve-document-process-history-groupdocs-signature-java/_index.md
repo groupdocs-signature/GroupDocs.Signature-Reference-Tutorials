@@ -4,8 +4,8 @@
 "title": "Mengambil Riwayat Proses Dokumen dengan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Mengambil Riwayat Proses Dokumen dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

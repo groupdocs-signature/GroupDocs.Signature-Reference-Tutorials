@@ -4,8 +4,8 @@
 "title": "Förhandsvisningar av QR-kodsignaturer med GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementera förhandsvisningar av QR-kodsignaturer med GroupDocs.Signature för .NET
 
 ## Introduktion

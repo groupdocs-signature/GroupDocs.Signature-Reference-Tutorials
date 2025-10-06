@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Belgeleri Yerel Olarak Nasıl İmzalarsınız? Kapsamlı Bir Kılavuz"
 "url": "/tr/net/digital-signatures/sign-documents-locally-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Belgeleri Yerel Olarak Nasıl İmzalayabilirsiniz?
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Tandatangani PDF dan Konversi ke DOCX dengan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/digital-signatures/sign-pdf-convert-docx-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Tandatangani PDF dan Konversi ke DOCX dengan GroupDocs.Signature untuk .NET: Panduan Lengkap
 
 Dalam lanskap digital saat ini, penandatanganan dokumen yang aman sangatlah penting di berbagai bidang seperti hukum, keuangan, dan administrasi. GroupDocs.Signature untuk .NET menyederhanakan proses ini dengan memungkinkan Anda menandatangani PDF dengan mudah dan mengonversinya ke berbagai format seperti DOCX. Panduan lengkap ini akan memandu Anda melalui langkah-langkah yang diperlukan untuk meningkatkan alur kerja manajemen dokumen Anda.

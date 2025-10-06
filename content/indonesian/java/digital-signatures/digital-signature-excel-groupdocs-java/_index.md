@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Tanda Tangan Digital di Excel Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Tanda Tangan Digital dalam Spreadsheet Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

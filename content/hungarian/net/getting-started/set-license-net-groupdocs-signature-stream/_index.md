@@ -4,8 +4,8 @@
 "title": "Licenc beállítása .NET-ben a GroupDocs.Signature és a FileStream használatával – Átfogó útmutató"
 "url": "/hu/net/getting-started/set-license-net-groupdocs-signature-stream/"
 "weight": 1
+type: docs
 ---
-
 # Licenc beállítása .NET-ben a GroupDocs.Signature és a FileStream segítségével
 ## Első lépések
 ### Licenckészlet implementálása Streamen keresztül .NET-ben GroupDocs.Signature használatával

@@ -4,8 +4,8 @@
 "title": "دليل البحث عن الباركود ورمز الاستجابة السريعة باستخدام Java مع GroupDocs.Signature للتحقق الآمن من المستندات"
 "url": "/ar/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ Java للبحث عن توقيعات الباركود ورمز الاستجابة السريعة والبيانات الوصفية باستخدام GroupDocs.Signature
 
 ## مقدمة

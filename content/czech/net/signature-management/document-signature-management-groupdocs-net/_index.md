@@ -4,8 +4,8 @@
 "title": "Efektivní správa podpisů dokumentů – vyhledávání podpisů v polích formulářů pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Efektivní správa podpisů dokumentů s GroupDocs.Signature pro .NET
 
 ## Zavedení

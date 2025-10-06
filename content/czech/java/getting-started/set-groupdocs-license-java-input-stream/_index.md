@@ -4,8 +4,8 @@
 "title": "Jak nastavit licenci GroupDocs pomocí InputStream v Javě pro větší flexibilitu a dodržování předpisů"
 "url": "/cs/java/getting-started/set-groupdocs-license-java-input-stream/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat Javu: Nastavení licence GroupDocs pomocí InputStream v GroupDocs.Signature pro Javu
 
 Vítejte v tomto komplexním průvodci nastavením licence GroupDocs pomocí vstupního streamu s GroupDocs.Signature pro Javu. Tato funkce vám umožňuje efektivně spravovat licence, zajistit shodu s předpisy a odemknout plný přístup k funkcím GroupDocs.

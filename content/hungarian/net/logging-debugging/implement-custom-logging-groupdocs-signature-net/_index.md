@@ -4,8 +4,8 @@
 "title": "Egyéni naplózás megvalósítása a GroupDocs.Signature for .NET-ben – Átfogó útmutató"
 "url": "/hu/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Egyéni naplózás megvalósítása a GroupDocs.Signature for .NET-ben: Átfogó útmutató
 
 ## Bevezetés

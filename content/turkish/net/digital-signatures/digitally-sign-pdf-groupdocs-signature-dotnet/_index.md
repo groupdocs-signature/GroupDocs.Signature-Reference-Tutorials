@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak PDF'leri Dijital Olarak Nasıl İmzalayabilirsiniz? Adım Adım Kılavuz"
 "url": "/tr/net/digital-signatures/digitally-sign-pdf-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak Bir PDF Belgesini Dijital Olarak Nasıl İmzalayabilirsiniz?
 
 ## giriiş

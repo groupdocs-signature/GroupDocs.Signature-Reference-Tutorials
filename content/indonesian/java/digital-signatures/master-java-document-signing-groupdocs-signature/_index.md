@@ -4,8 +4,8 @@
 "title": "Menguasai Penandatanganan Dokumen Java dengan Kode Batang GS1DotCode Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Penandatanganan Dokumen di Java dengan Barcode GS1DotCode menggunakan GroupDocs.Signature
 
 ## Perkenalan

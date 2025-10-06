@@ -4,8 +4,8 @@
 "title": "Dokumentumok aláírása HIBC QR-kódokkal a GroupDocs.Signature for .NET használatával – Átfogó útmutató"
 "url": "/hu/net/qr-code-signatures/sign-documents-hibc-qr-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumok aláírása HIBC QR-kódokkal a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

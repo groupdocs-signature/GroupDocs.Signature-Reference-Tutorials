@@ -4,8 +4,8 @@
 "title": "Comment gérer les exceptions de mot de passe incorrect dans GroupDocs.Signature pour .NET"
 "url": "/fr/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Comment gérer les exceptions de mot de passe incorrectes à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

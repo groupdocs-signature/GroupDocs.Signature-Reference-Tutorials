@@ -4,8 +4,8 @@
 "title": "Guía de verificación de firmas de código de barras para búsqueda de documentos maestros con GroupDocs.Signature para .NET"
 "url": "/es/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Dominando la búsqueda de documentos con GroupDocs.Signature para .NET
 
 ## Introducción

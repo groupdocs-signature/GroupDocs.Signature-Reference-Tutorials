@@ -5,8 +5,8 @@
 "title": "Ký hiệu hình ảnh với siêu dữ liệu trong C# .NET"
 "url": "/vi/net/document-signing/sign-image-with-metadata/"
 "weight": 10
+type: docs
 ---
-
 ## Giới thiệu
 
 Việc ký ảnh kỹ thuật số bằng siêu dữ liệu ngày càng trở nên quan trọng trong việc xác lập tính xác thực, quyền sở hữu và khả năng truy xuất nguồn gốc. GroupDocs.Signature for .NET cung cấp một giải pháp mạnh mẽ nhưng dễ sử dụng để thêm chữ ký siêu dữ liệu vào nhiều định dạng ảnh khác nhau. Hướng dẫn này sẽ hướng dẫn bạn toàn bộ quy trình ký ảnh bằng siêu dữ liệu bằng C#.

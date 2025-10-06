@@ -4,8 +4,8 @@
 "title": "Implementace vyhledávání podpisů QR kódem v PDF pomocí Javy a GroupDocs.Signature"
 "url": "/cs/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementace vyhledávání podpisů QR kódů v PDF pomocí Javy
 
 ## Zavedení

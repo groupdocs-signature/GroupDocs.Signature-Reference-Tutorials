@@ -4,8 +4,8 @@
 "title": "كيفية استخراج بيانات HIBC PAS من رموز الاستجابة السريعة (QR Codes) باستخدام Java وGroupDocs.Signature"
 "url": "/ar/java/qr-code-signatures/extract-hibc-pas-data-qr-codes-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية استخراج بيانات HIBC PAS من رموز الاستجابة السريعة (QR Codes) باستخدام Java وGroupDocs.Signature
 
 **مقدمة**

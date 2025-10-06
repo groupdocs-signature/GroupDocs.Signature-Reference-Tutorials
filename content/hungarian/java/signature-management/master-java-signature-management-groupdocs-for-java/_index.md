@@ -4,8 +4,8 @@
 "title": "Java aláírás-kezelés mesterszinten a GroupDocs.Signature for Java segítségével"
 "url": "/hu/java/signature-management/master-java-signature-management-groupdocs-for-java/"
 "weight": 1
+type: docs
 ---
-
 # Java aláírás-kezelés elsajátítása a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات PDF باستخدام توقيع النص والتدرج الشعاعي في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع ملفات PDF باستخدام توقيع النص والتدرج الشعاعي في .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

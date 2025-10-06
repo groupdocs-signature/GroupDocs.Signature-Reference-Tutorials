@@ -4,8 +4,8 @@
 "title": "Przewodnik po wyszukiwaniu dokumentów cyfrowych przy użyciu GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/search-verification/master-digital-document-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie wyszukiwania dokumentów cyfrowych za pomocą GroupDocs.Signature dla platformy .NET
 
 Wyszukiwanie podpisów cyfrowych w dokumentach może być trudne, zwłaszcza w przypadku plików chronionych. GroupDocs.Signature for .NET upraszcza ten proces, oferując solidne mechanizmy obsługi wyjątków. Ten przewodnik przeprowadzi Cię przez proces wyszukiwania podpisów cyfrowych w plikach PDF za pomocą tej zaawansowanej biblioteki.

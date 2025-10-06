@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して .NET でテキスト署名を実装する方法 - 総合ガイド"
 "url": "/ja/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して .NET でテキスト署名を実装する方法: 包括的なガイド
 
 ## 導入

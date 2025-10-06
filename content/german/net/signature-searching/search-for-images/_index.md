@@ -5,8 +5,8 @@
 "title": "Suche nach Bildsignaturen in Dokumenten"
 "url": "/de/net/signature-searching/search-for-images/"
 "weight": 13
+type: docs
 ---
-
 ## Einführung
 
 Im heutigen digitalen Dokumenten-Ökosystem dienen Bildsignaturen als leistungsstarke visuelle Marker für Branding, Autorisierung und Dokumentenvalidierung. GroupDocs.Signature für .NET bietet Entwicklern ein umfassendes Framework für die nahtlose Suche, Identifizierung und Verarbeitung von Bildsignaturen in Dokumenten verschiedener Formate. Diese Funktion ist unerlässlich für Anwendungen, die Dokumentenüberprüfung, Inhaltsanalyse oder die automatisierte Verarbeitung signierter Dokumente erfordern.

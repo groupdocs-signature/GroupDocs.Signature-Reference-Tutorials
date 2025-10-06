@@ -4,8 +4,8 @@
 "title": "Master Document Signature Search met GroupDocs.Signature voor .NET QR-code en WiFi-gegevensextractie"
 "url": "/nl/net/search-verification/master-document-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Documenthandtekeningzoekopdrachten onder de knie krijgen met GroupDocs.Signature voor .NET
 
 In het huidige digitale landschap zijn efficiënt documentbeheer en -verificatie cruciaal voor bedrijven in alle sectoren. Een veelvoorkomende uitdaging is het zoeken naar specifieke handtekeningen in documenten, zoals QR-codehandtekeningen met wifi-gegevens. Deze uitgebreide handleiding begeleidt u bij het implementeren van een functie om te zoeken naar QR-codehandtekeningen met wifi-gegevens met behulp van GroupDocs.Signature voor .NET.

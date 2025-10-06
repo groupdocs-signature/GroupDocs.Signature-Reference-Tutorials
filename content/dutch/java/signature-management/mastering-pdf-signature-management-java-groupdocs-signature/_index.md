@@ -4,8 +4,8 @@
 "title": "Efficiënt PDF-handtekeningbeheer in Java met GroupDocs.Signature"
 "url": "/nl/java/signature-management/mastering-pdf-signature-management-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Efficiënt PDF-handtekeningbeheer in Java met GroupDocs.Signature
 
 ## Invoering

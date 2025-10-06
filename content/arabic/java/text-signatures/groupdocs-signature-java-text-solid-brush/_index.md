@@ -4,8 +4,8 @@
 "title": "تنفيذ توقيع نصي باستخدام فرشاة صلبة في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ توقيع نصي باستخدام فرشاة صلبة في Java
 
 ## مقدمة

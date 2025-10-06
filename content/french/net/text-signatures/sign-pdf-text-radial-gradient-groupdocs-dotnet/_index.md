@@ -4,8 +4,8 @@
 "title": "Comment signer des PDF avec une signature textuelle et un dégradé radial dans .NET à l'aide de GroupDocs.Signature"
 "url": "/fr/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer des PDF avec une signature textuelle et un dégradé radial dans .NET à l'aide de GroupDocs.Signature
 
 ## Introduction

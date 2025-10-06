@@ -3,8 +3,8 @@
 "title": "Samouczki dotyczące podpisów metadanych dla GroupDocs.Signature Java"
 "url": "/pl/java/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Samouczki dotyczące podpisów metadanych dla GroupDocs.Signature Java
 
 Nasze samouczki dotyczące podpisów metadanych pokazują, jak używać metadanych dokumentów do bezpiecznego podpisywania za pomocą GroupDocs.Signature w Javie. Te przewodniki krok po kroku obejmują implementację podpisów metadanych w różnych formatach dokumentów, w tym w plikach PDF, obrazach, prezentacjach, arkuszach kalkulacyjnych i plikach tekstowych. Każdy samouczek zawiera przykłady działającego kodu Java dla operacji na metadanych, pomagając w tworzeniu aplikacji, które mogą dodawać niewidoczne informacje o podpisie do dokumentów, zwiększając bezpieczeństwo bez zmiany ich wyglądu.

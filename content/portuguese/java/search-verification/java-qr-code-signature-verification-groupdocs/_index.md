@@ -4,8 +4,8 @@
 "title": "Verificar documentos com assinaturas de código QR em Java usando GroupDocs.Signature"
 "url": "/pt/java/search-verification/java-qr-code-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Verificar documentos com assinaturas de código QR em Java usando GroupDocs.Signature
 
 No cenário digital atual, a verificação de documentos para garantir sua autenticidade e integridade é crucial. Com a capacidade de verificar facilmente documentos que contêm assinaturas de QR Code usando Java, o GroupDocs.Signature para Java simplifica esse processo. Este tutorial abrangente guiará você pela verificação de documentos com assinaturas de QR Code, aprimorando a segurança e a eficiência do seu fluxo de trabalho.

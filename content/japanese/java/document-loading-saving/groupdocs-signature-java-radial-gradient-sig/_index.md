@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使って Java で美しい放射状グラデーション署名を作成する"
 "url": "/ja/java/document-loading-saving/groupdocs-signature-java-radial-gradient-sig/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して視覚的に魅力的な放射状グラデーション署名を作成する
 
 今日のデジタル世界において、電子文書への署名は、機能性だけでなく見た目の美しさも重要です。視覚的に美しい署名は、あなたの仕事のプロフェッショナル性と信頼性の両方を高めることができます。このチュートリアルでは、GroupDocs.Signature for Javaを使用して、放射状グラデーションブラシ署名を実装する方法を説明します。

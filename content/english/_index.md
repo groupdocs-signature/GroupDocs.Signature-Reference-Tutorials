@@ -7,8 +7,8 @@ keywords: [digital signature API, document signing, PDF signatures, electronic s
 weight: 11
 url: /
 is_root: true
+type: docs
 ---
-
 # GroupDocs.Signature: Complete Digital Document Signing Solution for Developers
 
 ![GroupDocs.Signature Banner](./groupdocs-signature-net.svg)

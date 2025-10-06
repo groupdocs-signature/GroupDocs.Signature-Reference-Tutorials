@@ -4,8 +4,8 @@
 "title": "QR-kód címadatainak kinyerése a GroupDocs.Signature for Java használatával – Átfogó útmutató"
 "url": "/hu/java/qr-code-signatures/extract-qr-code-address-data-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód címadatainak kinyerése a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

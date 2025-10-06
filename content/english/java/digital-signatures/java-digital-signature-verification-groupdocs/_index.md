@@ -8,10 +8,8 @@ keywords:
 - Java digital signature verification
 - GroupDocs.Signature setup
 - Digital signatures with date handling
-
+type: docs
 ---
-
-
 # Comprehensive Guide to Implementing Java Digital Signature Verification Using GroupDocs.Signature
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 메타데이터 및 암호화를 포함한 PDF 서명 방법 | 보안 문서 보호 가이드"
 "url": "/ko/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 메타데이터 및 암호화를 사용하여 PDF에 서명하는 방법
 
 ## 소개

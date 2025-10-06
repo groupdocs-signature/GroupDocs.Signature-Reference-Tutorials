@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile .NET'te QR Kod İmzaları Nasıl Aranır?"
 "url": "/tr/net/qr-code-signatures/qr-code-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanılarak Olay Verileriyle QR Kod İmzaları İçin Arama Nasıl Uygulanır?
 
 ## giriiş

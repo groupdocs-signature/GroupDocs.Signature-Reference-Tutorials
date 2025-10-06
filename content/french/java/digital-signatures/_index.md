@@ -3,8 +3,8 @@
 "title": "Tutoriels de signature numérique pour GroupDocs.Signature Java"
 "url": "/fr/java/digital-signatures/"
 "weight": 3
+type: docs
 ---
-
 # Tutoriels de signature numérique pour GroupDocs.Signature Java
 
 Maîtrisez la mise en œuvre de la signature numérique grâce à nos tutoriels Java GroupDocs.Signature détaillés. Ces guides pas à pas expliquent comment signer des documents avec des certificats numériques, implémenter des options avancées d'apparence de signature numérique, utiliser les types XAdES, utiliser l'enregistrement incrémentiel pour les PDF, accéder au magasin de certificats, gérer les horodatages, et bien plus encore. Chaque tutoriel comprend des exemples de code Java fonctionnels, des notes d'implémentation et des bonnes pratiques pour vous aider à créer des applications qui signent et vérifient des documents de manière sécurisée grâce à des signatures cryptographiques numériques.

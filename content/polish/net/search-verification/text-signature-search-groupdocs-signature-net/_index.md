@@ -4,8 +4,8 @@
 "title": "Wyszukiwanie podpisów tekstowych w dokumentach .NET przy użyciu GroupDocs.Signature"
 "url": "/pl/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie wyszukiwania podpisów tekstowych w dokumentach .NET przy użyciu GroupDocs.Signature
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Ta bort digitala signaturer i PDF-filer med GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/signature-management/delete-digital-signature-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Ta bort digitala signaturer i PDF-filer med GroupDocs.Signature för .NET
 
 ## Introduktion

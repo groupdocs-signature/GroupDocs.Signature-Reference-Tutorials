@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Belgelerden Görüntü İmzaları Nasıl Kaldırılır"
 "url": "/tr/net/signature-management/remove-image-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Bir Belgeden Görüntü İmzaları Nasıl Kaldırılır
 
 ## giriiş

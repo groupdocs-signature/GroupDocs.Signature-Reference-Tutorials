@@ -4,8 +4,8 @@
 "title": "Onderteken en bewaar Excel-spreadsheets met QR-codes in Java met GroupDocs.Signature"
 "url": "/nl/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Onderteken en bewaar Excel-spreadsheets met QR-codes in Java met GroupDocs.Signature
 
 ## Invoering

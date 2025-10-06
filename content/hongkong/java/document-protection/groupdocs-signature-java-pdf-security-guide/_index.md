@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 保護您的 PDF 二維碼簽章和密碼"
 "url": "/zh-hant/java/document-protection/groupdocs-signature-java-pdf-security-guide/"
 "weight": 1
+type: docs
 ---
-
 # 保護您的 PDF：使用 GroupDocs.Signature for Java 進行二維碼簽章和密碼保護
 
 在當今的數位時代，保護 PDF 文件的安全性對於管理敏感資訊和確保文件真實性至關重要。本指南將向您展示如何使用 GroupDocs.Signature for Java 為您的 PDF 新增二維碼簽章和密碼保護。

@@ -5,8 +5,8 @@
 "title": "วิธีการลงนามเอกสารด้วยรหัส QR โดยใช้ GroupDocs.Signature"
 "url": "/th/net/advanced-signature-techniques/sign-with-qr-code/"
 "weight": 15
+type: docs
 ---
-
 # การเพิ่มลายเซ็น QR Code ลงในเอกสารด้วย GroupDocs.Signature
 
 คุณเคยสงสัยไหมว่าจะเพิ่มความปลอดภัยและการยืนยันตัวตนให้กับเอกสารดิจิทัลของคุณได้อย่างไร? ลายเซ็น QR Code อาจเป็นสิ่งที่คุณกำลังมองหาอยู่พอดี ในคู่มือฉบับย่อนี้ เราจะแนะนำคุณตลอดกระบวนการติดตั้งลายเซ็น QR Code โดยใช้ GroupDocs.Signature สำหรับ .NET

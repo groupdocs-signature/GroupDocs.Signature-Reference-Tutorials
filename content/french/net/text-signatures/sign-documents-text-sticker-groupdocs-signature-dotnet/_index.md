@@ -4,8 +4,8 @@
 "title": "Comment signer des documents à l'aide d'un autocollant texte dans GroupDocs.Signature pour .NET"
 "url": "/fr/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer des documents à l'aide d'autocollants de texte dans GroupDocs.Signature pour .NET
 
 ## Introduction

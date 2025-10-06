@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - QR code signing in Java
 - convert PDF to DOC using Java
-
+type: docs
 ---
-
-
 # Implement QR Code Signing and PDF Conversion in Java using GroupDocs.Signature API
 
 ## Introduction

@@ -5,8 +5,8 @@
 "title": "Bélyegzőaláírások hozzáadása dokumentumokhoz a GroupDocs.Signature segítségével"
 "url": "/hu/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # Professzionális bélyegzőaláírások hozzáadása .NET-dokumentumaihoz
 
 ## Mit érhet el bélyegzőaláírásokkal?

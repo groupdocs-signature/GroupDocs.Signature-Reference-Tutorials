@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 為 PDF 簽署並嵌入 WiFi 訊息"
 "url": "/zh-hant/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 為 PDF 簽署並嵌入 WiFi 訊息
 
 ## 介紹

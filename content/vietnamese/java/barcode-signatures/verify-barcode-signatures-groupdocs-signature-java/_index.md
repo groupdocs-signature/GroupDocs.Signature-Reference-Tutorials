@@ -4,8 +4,8 @@
 "title": "Cách xác minh chữ ký mã vạch trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai Xác minh chữ ký mã vạch với GroupDocs.Signature cho Java
 
 ## Giới thiệu

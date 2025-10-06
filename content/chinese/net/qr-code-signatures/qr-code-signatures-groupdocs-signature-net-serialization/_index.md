@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中通过自定义序列化实现二维码签名"
 "url": "/zh/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 .NET 中实现自定义序列化的二维码签名
 
 ## 介绍

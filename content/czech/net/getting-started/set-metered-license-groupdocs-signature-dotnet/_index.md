@@ -4,8 +4,8 @@
 "title": "Jak nastavit měřenou licenci pro GroupDocs.Signature v .NET – Komplexní průvodce"
 "url": "/cs/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak nastavit měřenou licenci pro GroupDocs.Signature v .NET: Komplexní průvodce
 
 ## Zavedení

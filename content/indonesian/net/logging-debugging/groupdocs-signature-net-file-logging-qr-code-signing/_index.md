@@ -4,8 +4,8 @@
 "title": "Pencatatan File & Penandatanganan Kode QR&#58; Panduan Lengkap Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Pencatatan File & Penandatanganan Kode QR: Panduan Lengkap Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Assine PDFs com códigos de barras usando o GroupDocs.Signature para .NET - Um guia completo"
 "url": "/pt/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Assine documentos PDF com assinaturas de código de barras usando GroupDocs.Signature para .NET
 
 No ambiente digital atual, garantir a autenticidade e a integridade dos documentos é crucial. Seja você um profissional da área de negócios ou um desenvolvedor que trabalha com sistemas de gerenciamento de documentos, assinar documentos digitalmente adiciona uma camada extra de segurança e confiança. Com o GroupDocs.Signature para .NET, assinar PDFs usando códigos de barras se torna fácil — um recurso versátil que aprimora os processos de verificação de documentos. Neste guia completo, mostraremos como implementar assinaturas de código de barras em seus aplicativos.

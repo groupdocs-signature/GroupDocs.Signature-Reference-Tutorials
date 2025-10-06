@@ -4,8 +4,8 @@
 "title": "Jak wyszukiwać i wyodrębniać dane SMS z podpisów kodów QR w plikach PDF za pomocą języka Java z GroupDocs.Signature"
 "url": "/pl/java/search-verification/search-extract-qr-codes-sms-data-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak wyszukiwać i wyodrębniać dane SMS z podpisów kodów QR w plikach PDF za pomocą języka Java z funkcją GroupDocs.Signature
 
 ## Wstęp

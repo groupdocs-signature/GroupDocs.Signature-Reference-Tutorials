@@ -4,8 +4,8 @@
 "title": "كيفية تعيين ترخيص مُقاس لـ GroupDocs.Signature في .NET - دليل شامل"
 "url": "/ar/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تعيين ترخيص مُقاس لـ GroupDocs.Signature في .NET: دليل شامل
 
 ## مقدمة

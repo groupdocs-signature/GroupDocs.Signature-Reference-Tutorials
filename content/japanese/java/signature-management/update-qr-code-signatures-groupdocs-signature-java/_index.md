@@ -4,8 +4,8 @@
 "title": "JavaでQRコード署名を更新する - GroupDocs.Signatureを使用した包括的なガイド"
 "url": "/ja/java/signature-management/update-qr-code-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # JavaでQRコード署名を更新する：GroupDocs.Signatureを使用した包括的なガイド
 
 今日のデジタル環境において、文書のセキュリティ確保は企業にとっても個人にとっても極めて重要です。QRコード署名は、文書のセキュリティと検証のための信頼性の高いソリューションを提供します。このチュートリアルでは、アプリケーションにおける署名管理を簡素化する強力なツールであるGroupDocs.Signature for Javaを使用して、QRコード署名を更新する手順を段階的に説明します。

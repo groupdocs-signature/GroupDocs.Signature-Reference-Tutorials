@@ -3,8 +3,8 @@
 "title": "Tutorial Tanda Tangan Berganda untuk GroupDocs.Signature .NET"
 "url": "/id/net/multiple-signatures/"
 "weight": 10
+type: docs
 ---
-
 # Tutorial Tanda Tangan Berganda untuk GroupDocs.Signature .NET
 
 Pelajari cara membuat alur kerja penandatanganan yang canggih dengan tutorial GroupDocs.Signature kami untuk beberapa tanda tangan di .NET. Panduan komprehensif ini menunjukkan cara menggabungkan berbagai jenis tanda tangan dalam satu proses, menerapkan urutan penandatanganan yang teratur, mengelola pengaturan tanda tangan yang kompleks, dan bekerja dengan dokumen multi-halaman. Setiap tutorial menyediakan contoh kode C# yang detail untuk skenario tanda tangan tingkat lanjut, membantu Anda membangun aplikasi pemrosesan dokumen yang andal dan mendukung persyaratan penandatanganan yang kompleks untuk kasus penggunaan perusahaan dan hukum.

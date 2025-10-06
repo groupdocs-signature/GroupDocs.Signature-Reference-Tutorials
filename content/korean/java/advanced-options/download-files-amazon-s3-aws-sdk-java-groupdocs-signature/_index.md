@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature 통합을 통해 AWS SDK for Java를 사용하여 Amazon S3에서 파일을 다운로드하는 방법"
 "url": "/ko/java/advanced-options/download-files-amazon-s3-aws-sdk-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature 통합을 통해 AWS SDK for Java를 사용하여 Amazon S3에서 파일을 다운로드하는 방법
 
 ## 소개

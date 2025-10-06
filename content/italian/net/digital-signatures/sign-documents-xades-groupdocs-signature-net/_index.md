@@ -4,8 +4,8 @@
 "title": "Guida alla firma di documenti con XAdES utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/digital-signatures/sign-documents-xades-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Guida alla firma di documenti con XAdES utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

@@ -4,8 +4,8 @@
 "title": "Metadata-handtekeningen zoeken in Word-documenten met GroupDocs.Signature voor Java"
 "url": "/nl/java/search-verification/search-metadata-signatures-word-docs-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Metadata-handtekeningen zoeken in Word-documenten met GroupDocs.Signature voor Java
 
 ## Invoering

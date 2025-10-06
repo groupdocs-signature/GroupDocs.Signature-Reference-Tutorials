@@ -4,8 +4,8 @@
 "title": "Zvládněte podepisování a optimalizaci obrázků s GroupDocs.Signature pro Javu"
 "url": "/cs/java/image-signatures/groupdocs-signature-java-image-optimization/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí podepisování a optimalizace obrázků s GroupDocs.Signature pro Javu
 
 dnešní digitální krajině je bezpečné podepisování dokumentů nezbytné. Ať už jste profesionál v oblasti ověřování smluv, nebo jednotlivec chránící obrázky, robustní funkce podepisování jsou klíčové. **GroupDocs.Signature pro Javu** nabízí výkonné funkce pro bezproblémové vytváření podpisů s QR kódy a optimalizaci možností ukládání obrázků. Tento tutoriál vás provede využitím těchto funkcí pro efektivní správu dokumentů.

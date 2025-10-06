@@ -4,8 +4,8 @@
 "title": "Как обновить текстовые подписи в документах с помощью GroupDocs.Signature для .NET. Полное руководство"
 "url": "/ru/net/signature-management/update-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как обновить текстовые подписи в документах с помощью GroupDocs.Signature для .NET: полное руководство
 
 ## Введение

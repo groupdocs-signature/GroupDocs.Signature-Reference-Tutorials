@@ -4,8 +4,8 @@
 "title": "การลงนามเอกสารอย่างปลอดภัยด้วยรหัส QR โดยใช้ GroupDocs.Signature สำหรับ .NET&#58; คู่มือฉบับสมบูรณ์"
 "url": "/th/net/qr-code-signatures/secure-document-signing-qr-codes-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # การลงนามเอกสารอย่างปลอดภัยด้วยรหัส QR โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

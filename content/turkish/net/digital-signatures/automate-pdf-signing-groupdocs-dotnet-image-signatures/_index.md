@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile PDF İmzalamayı Otomatikleştirin ve Görüntü İmzaları Kılavuzunu Kullanın"
 "url": "/tr/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile PDF İmzalamayı Otomatikleştirin: Görüntü İmzaları Kılavuzu
 
 ## giriiş

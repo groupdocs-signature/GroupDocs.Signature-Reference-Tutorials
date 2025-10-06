@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε ψηφιακές υπογραφές PDF με χρονικές σημάνσεις χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε ψηφιακές υπογραφές PDF με χρονικές σημάνσεις χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

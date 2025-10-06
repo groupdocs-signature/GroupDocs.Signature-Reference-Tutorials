@@ -4,8 +4,8 @@
 "title": "Cách ký PDF dần dần bằng GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF từng bước bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

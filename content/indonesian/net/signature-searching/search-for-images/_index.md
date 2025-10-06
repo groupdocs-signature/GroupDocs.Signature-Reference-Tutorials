@@ -5,8 +5,8 @@
 "title": "Mencari Tanda Tangan Gambar dalam Dokumen"
 "url": "/id/net/signature-searching/search-for-images/"
 "weight": 13
+type: docs
 ---
-
 ## Perkenalan
 
 Dalam ekosistem dokumen digital saat ini, tanda tangan gambar berfungsi sebagai penanda visual yang kuat untuk pencitraan merek, otorisasi, dan validasi dokumen. GroupDocs.Signature untuk .NET menyediakan kerangka kerja yang komprehensif bagi pengembang untuk mencari, mengidentifikasi, dan memproses tanda tangan gambar dalam berbagai format dokumen dengan mudah. Kemampuan ini penting untuk aplikasi yang memerlukan verifikasi dokumen, analisis konten, atau pemrosesan otomatis dokumen yang ditandatangani.

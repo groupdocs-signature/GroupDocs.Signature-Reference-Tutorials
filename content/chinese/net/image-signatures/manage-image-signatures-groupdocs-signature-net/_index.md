@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 管理文档中的图像签名——综合指南"
 "url": "/zh/net/image-signatures/manage-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 管理文档中的图像签名
 
 ## 介绍

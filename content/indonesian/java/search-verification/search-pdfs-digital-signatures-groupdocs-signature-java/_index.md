@@ -4,8 +4,8 @@
 "title": "Cara Mencari Tanda Tangan Digital di PDF Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/search-verification/search-pdfs-digital-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mencari Tanda Tangan Digital dalam PDF dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da Barkod İmzaları Nasıl Doğrulanır?"
 "url": "/tr/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature ile Barkod İmzalarını Doğrulama Nasıl Uygulanır?
 
 ## giriiş

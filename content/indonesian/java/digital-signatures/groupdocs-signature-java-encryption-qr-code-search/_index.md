@@ -4,8 +4,8 @@
 "title": "Panduan Enkripsi Tanda Tangan Digital Aman di Java GroupDocs.Signature dan Pencarian Kode QR"
 "url": "/id/java/digital-signatures/groupdocs-signature-java-encryption-qr-code-search/"
 "weight": 1
+type: docs
 ---
-
 # Tanda Tangan Digital Aman di Java Menggunakan GroupDocs.Signature
 ## Perkenalan
 Di lanskap digital saat ini, pengamanan dokumen sangatlah penting. Baik Anda mengelola kontrak bisnis sensitif maupun catatan pribadi, penerapan enkripsi yang kuat dan kemampuan pencarian yang efisien dapat melindungi data Anda dari akses tidak sah. Panduan ini akan memandu Anda dalam menerapkan enkripsi khusus dan opsi pencarian tanda tangan kode QR di Java menggunakan GroupDocs.Signature.

@@ -4,8 +4,8 @@
 "title": "Jak aktualizovat podpisy dokumentů pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/signature-management/update-document-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak aktualizovat podpisy dokumentů pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

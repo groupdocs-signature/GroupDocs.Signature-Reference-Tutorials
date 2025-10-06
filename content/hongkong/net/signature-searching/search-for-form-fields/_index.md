@@ -5,8 +5,8 @@
 "title": "在文件中搜尋表單字段"
 "url": "/zh-hant/net/signature-searching/search-for-form-fields/"
 "weight": 12
+type: docs
 ---
-
 ## 介紹
 
 在現代文件管理系統中，表單欄位在資料收集、使用者互動和文件自動化中發揮著至關重要的作用。 GroupDocs.Signature for .NET 為開發人員提供了一套強大的工具，用於處理各種文件格式的表單字段，包括以程式設計方式搜尋、檢索和處理這些元素。

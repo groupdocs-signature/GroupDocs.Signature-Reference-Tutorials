@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 对带有二维码和元数据的 DICOM 图像进行签名"
 "url": "/zh/java/image-signatures/sign-dicom-images-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 对带有二维码和元数据的 DICOM 图像进行签名
 
 ## 介绍

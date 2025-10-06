@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java'da Ana Meta Veri Şifreleme ve Serileştirme"
 "url": "/tr/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Java'da Meta Veri Şifreleme ve Serileştirmede Ustalaşma
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 텍스트를 이미지로 변환한 Word 문서에 디지털 서명하는 방법"
 "url": "/ko/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 텍스트를 이미지로 변환한 Word 문서에 디지털 서명하는 방법
 
 ## 소개

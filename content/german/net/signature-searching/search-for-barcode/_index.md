@@ -5,8 +5,8 @@
 "title": "Suche nach Barcode-Signaturen in Dokumenten"
 "url": "/de/net/signature-searching/search-for-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Einführung
 
 Im heutigen digitalen Dokumentenmanagement ist die Suche und Validierung von Signaturen in Dokumenten entscheidend für die Authentizität und Sicherheit. GroupDocs.Signature für .NET bietet eine leistungsstarke Lösung für die Arbeit mit verschiedenen Signaturtypen, einschließlich Barcodes, in unterschiedlichen Dokumentformaten. Dieses Tutorial führt Sie durch die Implementierung der Barcode-Signatursuche in Ihren .NET-Anwendungen mit GroupDocs.Signature.

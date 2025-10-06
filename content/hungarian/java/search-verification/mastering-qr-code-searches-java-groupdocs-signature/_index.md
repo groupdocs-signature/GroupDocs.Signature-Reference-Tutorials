@@ -4,8 +4,8 @@
 "title": "QR-kód keresés elsajátítása Java-ban – Teljes körű útmutató a GroupDocs.Signature használatához"
 "url": "/hu/java/search-verification/mastering-qr-code-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód keresésének elsajátítása Java-ban: Teljes körű útmutató a GroupDocs.Signature használatához
 
 ## Bevezetés

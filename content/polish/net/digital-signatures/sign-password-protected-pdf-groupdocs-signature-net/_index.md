@@ -4,8 +4,8 @@
 "title": "Jak podpisać plik PDF chroniony hasłem za pomocą GroupDocs.Signature dla platformy .NET (samouczek dotyczący podpisów cyfrowych)"
 "url": "/pl/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisać plik PDF chroniony hasłem za pomocą GroupDocs.Signature dla platformy .NET
 ## Samouczek podpisu cyfrowego
 

@@ -4,8 +4,8 @@
 "title": "Šifrování a podepisování QR kódů v Javě pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/java/qr-code-signatures/encrypt-sign-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Šifrujte a podepisujte QR kódy pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

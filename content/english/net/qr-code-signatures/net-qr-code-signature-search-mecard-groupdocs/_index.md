@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["QR Code Processing"]
 tags: ["GroupDocs.Signature", "MeCard", "QR-Code", "Document-Processing"]
+type: docs
 ---
-
 # QR Code Signature Search .NET: Extract MeCard Data from Documents
 
 ## Why QR Code Signature Search Matters for Your Business

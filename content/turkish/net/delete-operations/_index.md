@@ -5,8 +5,8 @@
 "title": "Belge İmza Silme İşlemlerine İlişkin Tam Kılavuz"
 "url": "/tr/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # .NET için GroupDocs.Signature'da Silme İşlemleri
 
 ## giriiş

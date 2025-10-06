@@ -4,8 +4,8 @@
 "title": "So aktualisieren Sie Barcode-Signaturen nach ID mit GroupDocs.Signature für .NET"
 "url": "/de/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # So aktualisieren Sie Barcode-Signaturen nach ID mit GroupDocs.Signature für .NET
 
 ## Einführung

@@ -8,10 +8,8 @@ keywords:
 - image signature search
 - GroupDocs.Signature Java
 - digital signature management
-
+type: docs
 ---
-
-
 # Master Image Signature Searches in Documents with GroupDocs for Java: A Comprehensive Guide
 
 ## Introduction

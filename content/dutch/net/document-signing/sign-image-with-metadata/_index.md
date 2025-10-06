@@ -5,8 +5,8 @@
 "title": "Onderteken afbeeldingen met metagegevens in C# .NET"
 "url": "/nl/net/document-signing/sign-image-with-metadata/"
 "weight": 10
+type: docs
 ---
-
 ## Invoering
 
 Het digitaal ondertekenen van afbeeldingen met metadata wordt steeds belangrijker om authenticiteit, eigenaarschap en traceerbaarheid vast te stellen. GroupDocs.Signature voor .NET biedt een krachtige en gebruiksvriendelijke oplossing voor het toevoegen van metadatahandtekeningen aan verschillende afbeeldingsformaten. Deze tutorial begeleidt u door het volledige proces van het ondertekenen van afbeeldingen met metadata in C#.

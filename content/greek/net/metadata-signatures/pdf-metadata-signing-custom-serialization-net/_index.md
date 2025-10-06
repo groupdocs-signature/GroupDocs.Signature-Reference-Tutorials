@@ -4,8 +4,8 @@
 "title": "Υπογραφή μεταδεδομένων PDF με προσαρμοσμένη σειριοποίηση σε .NET χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση υπογραφής μεταδεδομένων PDF με προσαρμοσμένη σειριοποίηση χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

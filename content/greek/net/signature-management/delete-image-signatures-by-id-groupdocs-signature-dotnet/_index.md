@@ -4,8 +4,8 @@
 "title": "Πώς να διαγράψετε υπογραφές εικόνας ανά αναγνωριστικό χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/signature-management/delete-image-signatures-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πλήρης οδηγός για τη διαγραφή υπογραφών εικόνας ανά αναγνωριστικό χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

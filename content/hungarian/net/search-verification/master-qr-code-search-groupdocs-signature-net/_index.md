@@ -4,8 +4,8 @@
 "title": "QR-kód keresésének mesteri lépései PDF-ekben a GroupDocs.Signature for .NET használatával – Teljes körű útmutató"
 "url": "/hu/net/search-verification/master-qr-code-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód keresésének elsajátítása PDF-ekben a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

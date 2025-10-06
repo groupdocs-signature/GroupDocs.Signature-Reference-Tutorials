@@ -4,8 +4,8 @@
 "title": "Guía para implementar la búsqueda de firmas de imágenes en Java con GroupDocs.Signature"
 "url": "/es/java/search-verification/search-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Guía para implementar la búsqueda de firmas de imágenes en Java con GroupDocs.Signature
 
 ## Introducción

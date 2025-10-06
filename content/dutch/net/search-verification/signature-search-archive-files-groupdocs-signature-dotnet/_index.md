@@ -4,8 +4,8 @@
 "title": "Efficiënt zoeken naar handtekeningen in archiefbestanden met GroupDocs.Signature voor .NET"
 "url": "/nl/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Efficiënt zoeken naar handtekeningen in archiefbestanden met GroupDocs.Signature voor .NET
 
 ## Invoering

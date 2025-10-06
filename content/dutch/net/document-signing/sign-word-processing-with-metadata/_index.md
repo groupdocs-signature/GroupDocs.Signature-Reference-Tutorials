@@ -5,8 +5,8 @@
 "title": "Verbeter Word-documenten met metadatahandtekeningen in C# .NET"
 "url": "/nl/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## Invoering
 
 Tekstverwerkingsdocumenten behoren tot de meest voorkomende bestandstypen die worden gebruikt in zakelijke, educatieve en persoonlijke communicatie. Het waarborgen van de authenticiteit, het traceren van de herkomst en het handhaven van de integriteit van deze documenten is cruciaal in veel professionele omgevingen. Een effectieve aanpak om de beveiliging en traceerbaarheid van documenten te verbeteren, is het insluiten van metadatahandtekeningen.

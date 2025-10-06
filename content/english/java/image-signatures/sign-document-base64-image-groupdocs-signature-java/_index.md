@@ -8,10 +8,8 @@ keywords:
 - sign documents with base64 images in java
 - groupdocs signature java tutorial
 - java digital signatures base64
-
+type: docs
 ---
-
-
 # How to Sign a Document Using a Base64 Encoded Image with GroupDocs.Signature for Java
 
 ## Introduction

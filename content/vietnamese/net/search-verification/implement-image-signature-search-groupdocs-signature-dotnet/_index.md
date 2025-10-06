@@ -4,8 +4,8 @@
 "title": "Triển khai Tìm kiếm Chữ ký Hình ảnh trong .NET với GroupDocs.Signature - Hướng dẫn từng bước"
 "url": "/vi/net/search-verification/implement-image-signature-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai tìm kiếm chữ ký hình ảnh bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

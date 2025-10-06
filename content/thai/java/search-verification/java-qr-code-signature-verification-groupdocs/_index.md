@@ -4,8 +4,8 @@
 "title": "ตรวจสอบเอกสารด้วยลายเซ็น QR Code ใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/search-verification/java-qr-code-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # ตรวจสอบเอกสารด้วยลายเซ็น QR Code ใน Java โดยใช้ GroupDocs.Signature
 
 ในโลกดิจิทัลปัจจุบัน การตรวจสอบเอกสารเพื่อรับรองความถูกต้องและความสมบูรณ์เป็นสิ่งสำคัญ ด้วยความสามารถในการตรวจสอบเอกสารที่มีลายเซ็น QR-Code ได้อย่างง่ายดายโดยใช้ Java GroupDocs.Signature for Java จึงช่วยเพิ่มประสิทธิภาพกระบวนการนี้ บทช่วยสอนที่ครอบคลุมนี้จะแนะนำคุณตลอดกระบวนการตรวจสอบเอกสารด้วยลายเซ็น QR-Code ซึ่งจะช่วยยกระดับความปลอดภัยและประสิทธิภาพการทำงานของคุณ

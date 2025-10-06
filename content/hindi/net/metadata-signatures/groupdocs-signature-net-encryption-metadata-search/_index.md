@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature और एन्क्रिप्शन के साथ .NET में सुरक्षित मेटाडेटा हस्ताक्षर खोज"
 "url": "/hi/net/metadata-signatures/groupdocs-signature-net-encryption-metadata-search/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature और एन्क्रिप्शन के साथ .NET में सुरक्षित मेटाडेटा हस्ताक्षर खोज
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Aangepaste JSON-serialisatie in .NET met Newtonsoft.Json en GroupDocs.Signature&#58; een complete gids"
 "url": "/nl/net/advanced-options/custom-json-serialization-newtonsoft-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Uitgebreide handleiding voor aangepaste JSON-serialisatie in .NET met behulp van Newtonsoft.Json en GroupDocs.Signature
 
 ## Invoering

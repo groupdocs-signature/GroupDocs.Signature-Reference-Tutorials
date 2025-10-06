@@ -4,8 +4,8 @@
 "title": "Реализуйте подпись поля радиокнопки формы Java с помощью GroupDocs.Signature"
 "url": "/ru/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Реализуйте подпись поля радиокнопки формы Java с помощью GroupDocs.Signature
 
 ## Введение

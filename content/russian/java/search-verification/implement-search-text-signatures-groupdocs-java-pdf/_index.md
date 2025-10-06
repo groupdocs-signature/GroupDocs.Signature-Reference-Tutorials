@@ -4,8 +4,8 @@
 "title": "Как реализовать поиск по текстовой подписи в PDF-файлах с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/search-verification/implement-search-text-signatures-groupdocs-java-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать поиск по текстовой подписи в PDF-файлах с помощью GroupDocs.Signature для Java
 
 ## Введение

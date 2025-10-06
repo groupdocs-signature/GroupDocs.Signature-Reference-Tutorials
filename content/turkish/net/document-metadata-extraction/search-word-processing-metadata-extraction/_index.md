@@ -5,8 +5,8 @@
 "title": ".NET ile Kelime İşleme Meta Verilerini Kolayca Çıkarın"
 "url": "/tr/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # .NET'te Kelime İşleme Meta Verileri Nasıl Aranır ve Çıkarılır
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Реализация измеренной лицензии в GroupDocs.Signature для Java&#58; пошаговое руководство"
 "url": "/ru/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать измеренную лицензию в GroupDocs.Signature для Java
 
 ## Введение

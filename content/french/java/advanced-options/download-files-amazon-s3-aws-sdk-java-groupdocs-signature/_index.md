@@ -4,8 +4,8 @@
 "title": "Comment télécharger des fichiers depuis Amazon S3 à l'aide du SDK AWS pour Java avec l'intégration de GroupDocs.Signature"
 "url": "/fr/java/advanced-options/download-files-amazon-s3-aws-sdk-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Comment télécharger des fichiers depuis Amazon S3 à l'aide du SDK AWS pour Java avec l'intégration de GroupDocs.Signature
 
 ## Introduction

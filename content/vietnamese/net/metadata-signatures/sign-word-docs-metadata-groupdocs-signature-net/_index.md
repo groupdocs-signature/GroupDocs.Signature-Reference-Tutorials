@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu Word bằng siêu dữ liệu bằng GroupDocs.Signature cho .NET | Hướng dẫn từng bước"
 "url": "/vi/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu Word bằng siêu dữ liệu bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

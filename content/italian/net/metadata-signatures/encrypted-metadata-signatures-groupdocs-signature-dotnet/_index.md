@@ -4,8 +4,8 @@
 "title": "Come implementare firme di metadati crittografati con GroupDocs.Signature per .NET | Una guida completa"
 "url": "/it/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare firme di metadati crittografati con GroupDocs.Signature per .NET
 
 ## Introduzione

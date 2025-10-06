@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 문서 진위성을 위한 Java 스탬프 서명 옵션 구현"
 "url": "/ko/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 문서 진위성을 위한 Java 스탬프 서명 옵션 구현
 ## GroupDocs.Signature for Java를 사용하여 Java 스탬프 서명 옵션을 구현하는 방법
 오늘날 디지털 시대에는 문서의 진위 여부를 확인하는 것이 무엇보다 중요합니다. 비즈니스 전문가든 계약서 및 합의서를 검증해야 하는 개인이든, 인장 서명을 추가하면 신뢰성과 보안을 강화할 수 있습니다. 이 튜토리얼에서는 문서 서명 요구 사항을 손쉽게 충족할 수 있도록 설계된 강력한 라이브러리인 GroupDocs.Signature for Java를 사용하여 인장 서명 옵션을 설정하는 방법을 안내합니다.

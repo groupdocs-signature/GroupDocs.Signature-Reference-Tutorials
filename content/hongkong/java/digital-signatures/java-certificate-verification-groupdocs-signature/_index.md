@@ -4,8 +4,8 @@
 "title": "Java 憑證驗證指南使用 GroupDocs.Signature 進行安全文件認證"
 "url": "/zh-hant/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 實作 Java 憑證驗證
 
 ## 介紹

@@ -5,8 +5,8 @@
 "title": "Aktualizuj podpisy obrazkowe w dokumentach"
 "url": "/pl/net/update-operations/update-image/"
 "weight": 11
+type: docs
 ---
-
 ## Wstęp
 Cyfrowe zarządzanie dokumentami wymaga solidnych funkcji podpisu, aby zapewnić autentyczność i integralność. Podpisy graficzne odgrywają kluczową rolę w tym ekosystemie, zapewniając wizualną weryfikację i elementy brandingu w dokumentach. GroupDocs.Signature for .NET oferuje programistom rozbudowaną platformę do wdrażania kompleksowych funkcji podpisu w aplikacjach .NET, w tym możliwość aktualizacji istniejących podpisów graficznych.
 

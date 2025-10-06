@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["java-signature", "document-encryption", "qr-code-signing", "digital-signatures", "secure-documents"]
+type: docs
 ---
-
 # Java Document Signature Encryption & Advanced Signing Options
 
 When you're building enterprise document management systems, basic signatures won't cut it anymore. Your clients need encrypted metadata, custom visual signatures with gradient effects, and secure authentication through QR codes. But here's the challenge—implementing these advanced signature features in Java often means wrestling with complex APIs, security protocols, and format compatibility issues.

@@ -9,8 +9,8 @@ weight: 1
 url: "/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 categories: ["Document Processing"]
 tags: ["GroupDocs", "Signature Verification", "Digital Signatures", "C#", ".NET"]
+type: docs
 ---
-
 # Document Signature Verification .NET - Complete GroupDocs.Signature Tutorial
 
 ## Why Document Signature Verification Matters in .NET Applications

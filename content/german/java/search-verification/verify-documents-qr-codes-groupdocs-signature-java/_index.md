@@ -4,8 +4,8 @@
 "title": "Überprüfen Sie Dokumente mit QR-Code-Signaturen in Java mithilfe von GroupDocs.Signature"
 "url": "/de/java/search-verification/verify-documents-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # So überprüfen Sie Dokumente mit QR-Code-Signaturen mithilfe von GroupDocs.Signature in Java
 
 ## Einführung

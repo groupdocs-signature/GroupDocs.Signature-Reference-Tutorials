@@ -5,8 +5,8 @@
 "title": "Rastrear fácilmente el historial de firmas de documentos en .NET"
 "url": "/es/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # Cómo rastrear el historial de firmas de su documento en .NET
 
 ## ¿Qué puede hacer GroupDocs.Signature por usted?

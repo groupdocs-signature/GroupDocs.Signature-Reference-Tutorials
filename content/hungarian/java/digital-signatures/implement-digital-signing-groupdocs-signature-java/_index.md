@@ -4,8 +4,8 @@
 "title": "Digitális dokumentumaláírás megvalósítása Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Digitális dokumentumaláírás megvalósítása Java-ban a GroupDocs.Signature használatával
 
 ## Bevezetés

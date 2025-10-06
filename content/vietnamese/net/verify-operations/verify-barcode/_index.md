@@ -5,8 +5,8 @@
 "title": "Xác minh chữ ký mã vạch trong tài liệu"
 "url": "/vi/net/verify-operations/verify-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Giới thiệu
 
 Mã vạch đã trở thành một phần không thể thiếu của hệ thống quản lý tài liệu hiện đại, cho phép truy cập nhanh chóng vào thông tin được mã hóa đồng thời đóng vai trò là một tính năng bảo mật. GroupDocs.Signature for .NET cung cấp một API mạnh mẽ để xác minh chữ ký mã vạch trong tài liệu, đảm bảo tính xác thực và toàn vẹn của chúng.

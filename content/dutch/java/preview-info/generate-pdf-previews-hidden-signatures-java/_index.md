@@ -4,8 +4,8 @@
 "title": "Genereer PDF-voorbeelden met verborgen handtekeningen met behulp van Java en GroupDocs.Signature"
 "url": "/nl/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Genereer PDF-voorbeelden met verborgen handtekeningen met behulp van Java en GroupDocs.Signature
 
 ## Invoering

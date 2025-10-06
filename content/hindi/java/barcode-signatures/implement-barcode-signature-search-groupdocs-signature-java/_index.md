@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ जावा में बारकोड हस्ताक्षर खोज कैसे लागू करें"
 "url": "/hi/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ जावा में बारकोड हस्ताक्षर खोज कैसे लागू करें
 
 ## परिचय

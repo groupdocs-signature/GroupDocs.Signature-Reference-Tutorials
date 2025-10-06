@@ -4,8 +4,8 @@
 "title": "Comment implémenter la signature de codes-barres .NET avec GroupDocs.Signature ? Un guide complet pour les développeurs"
 "url": "/fr/net/barcode-signatures/implement-dotnet-barcode-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter la signature de codes-barres .NET avec GroupDocs.Signature : un guide complet pour les développeurs
 
 ## Introduction

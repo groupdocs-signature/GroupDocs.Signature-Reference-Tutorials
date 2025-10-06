@@ -4,8 +4,8 @@
 "title": "Uitgebreide handleiding voor het instellen van teksthandtekeningen met GroupDocs.Signature voor Java"
 "url": "/nl/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Uitgebreide handleiding voor het instellen van teksthandtekeningen met GroupDocs.Signature voor Java
 
 ## Invoering

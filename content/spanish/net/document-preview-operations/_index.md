@@ -5,8 +5,8 @@
 "title": "Operaciones integrales de vista previa y gestión de documentos"
 "url": "/es/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # Operaciones de vista previa de documentos
 
 ## Introducción

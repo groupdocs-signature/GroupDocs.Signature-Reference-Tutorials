@@ -5,8 +5,8 @@
 "title": "C# .NET で PDF ドキュメントにメタデータ署名を追加する"
 "url": "/ja/net/document-signing/sign-pdf-with-metadata/"
 "weight": 11
+type: docs
 ---
-
 ## 導入
 
 PDF（Portable Document Format）文書は、その一貫性とプラットフォーム非依存の点から、様々な業界で広く利用されています。これらの文書の真正性とトレーサビリティを確保することは、多くの専門的な環境において極めて重要です。これを実現する効果的な方法の一つは、PDFファイル自体にメタデータを埋め込むことです。

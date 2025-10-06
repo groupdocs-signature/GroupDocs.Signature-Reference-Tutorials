@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - search digital signatures
 - delete electronic signatures
-
+type: docs
 ---
-
-
 # Efficient Signature Management: How to Search and Delete Digital Signatures Using GroupDocs.Signature for Java
 
 ## Introduction

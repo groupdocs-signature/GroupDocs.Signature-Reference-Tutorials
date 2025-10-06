@@ -4,8 +4,8 @@
 "title": "التحقق من الرمز الشريطي الرئيسي في .NET باستخدام GroupDocs.Signature لضمان سلامة المستندات"
 "url": "/ar/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # إتقان التحقق من الباركود في .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

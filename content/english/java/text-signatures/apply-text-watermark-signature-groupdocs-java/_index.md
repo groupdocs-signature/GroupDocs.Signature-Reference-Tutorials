@@ -8,10 +8,8 @@ keywords:
 - text watermark signature
 - GroupDocs.Signature for Java
 - digital document security
-
+type: docs
 ---
-
-
 # How to Apply a Text Watermark Signature Using GroupDocs.Signature for Java
 
 ## Introduction

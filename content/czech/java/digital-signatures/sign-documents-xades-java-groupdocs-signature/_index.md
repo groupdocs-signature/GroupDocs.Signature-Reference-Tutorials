@@ -4,8 +4,8 @@
 "title": "Jak podepisovat dokumenty pomocí XAdES v Javě pomocí GroupDocs.Signature – Podrobný návod"
 "url": "/cs/java/digital-signatures/sign-documents-xades-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat dokumenty pomocí XAdES v Javě pomocí GroupDocs.Signature: Podrobný návod
 
 ## Zavedení

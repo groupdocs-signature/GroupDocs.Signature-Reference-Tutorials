@@ -4,8 +4,8 @@
 "title": "Trích xuất chữ ký mã QR Java với GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai trích xuất chữ ký mã QR Java với GroupDocs.Signature
 
 ## Giới thiệu

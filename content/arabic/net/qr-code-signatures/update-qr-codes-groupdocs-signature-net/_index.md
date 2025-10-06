@@ -4,8 +4,8 @@
 "title": "تحديث رموز الاستجابة السريعة (QR Codes) في .NET باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/net/qr-code-signatures/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # تحديث رموز الاستجابة السريعة (QR Codes) في .NET باستخدام GroupDocs.Signature: دليل شامل
 
 ## مقدمة

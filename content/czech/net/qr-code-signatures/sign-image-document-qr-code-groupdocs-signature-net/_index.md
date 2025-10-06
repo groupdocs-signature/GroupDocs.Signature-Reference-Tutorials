@@ -4,8 +4,8 @@
 "title": "Jak podepisovat obrazové dokumenty pomocí QR kódů pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/qr-code-signatures/sign-image-document-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat obrazový dokument pomocí QR kódu pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

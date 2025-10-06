@@ -4,8 +4,8 @@
 "title": "تنفيذ التوقيعات الرقمية في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/digital-signatures/digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ توقيع المستندات بالتوقيعات الرقمية باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -5,8 +5,8 @@
 "title": "Extração de metadados de documentos mestres com GroupDocs.Signature para .NET"
 "url": "/pt/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # Guia completo para extração de metadados de documentos com GroupDocs.Signature
 
 ## A importância estratégica dos metadados de documentos em fluxos de trabalho modernos

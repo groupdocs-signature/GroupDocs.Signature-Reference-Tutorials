@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan Tanda Tangan Gambar Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Langkah demi Langkah"
 "url": "/id/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF dengan Tanda Tangan Gambar Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

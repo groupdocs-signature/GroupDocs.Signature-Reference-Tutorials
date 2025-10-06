@@ -4,8 +4,8 @@
 "title": "Java PDF aláírás metaadatokkal és titkosítással a GroupDocs használatával – Átfogó útmutató"
 "url": "/hu/java/digital-signatures/java-pdf-signing-metadata-encryption-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java PDF aláírás elsajátítása metaadatokkal és titkosítással GroupDocs használatával
 
 ## Bevezetés

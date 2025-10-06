@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["csharp", "word-documents", "metadata", "document-signing"]
+type: docs
 ---
-
 ## Introduction
 
 Ever wondered how to track document authorship, embed timestamps, or add custom properties directly into Word files? You're not alone. Word document metadata in C# is one of those essential skills that can make the difference between basic document handling and professional-grade document management.

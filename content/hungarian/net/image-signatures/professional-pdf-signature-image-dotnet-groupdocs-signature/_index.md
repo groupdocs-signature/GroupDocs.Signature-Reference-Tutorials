@@ -4,8 +4,8 @@
 "title": "PDF-fájlok aláírása képaláírással .NET-ben a GroupDocs.Signature használatával"
 "url": "/hu/net/image-signatures/professional-pdf-signature-image-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # PDF-fájlok aláírása képaláírással .NET-ben a GroupDocs.Signature használatával
 
 ## Bevezetés

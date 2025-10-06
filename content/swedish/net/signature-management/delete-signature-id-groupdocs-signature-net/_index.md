@@ -4,8 +4,8 @@
 "title": "Ta bort signaturer effektivt efter ID med GroupDocs.Signature för .NET – en steg-för-steg-guide"
 "url": "/sv/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hur man effektivt tar bort en signatur via ID med GroupDocs.Signature för .NET
 
 ## Introduktion

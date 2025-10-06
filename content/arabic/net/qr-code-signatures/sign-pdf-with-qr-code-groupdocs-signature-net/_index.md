@@ -4,8 +4,8 @@
 "title": "توقيع مستندات PDF باستخدام رموز الاستجابة السريعة (QR Codes) باستخدام GroupDocs.Signature لـ .NET - دليل كامل"
 "url": "/ar/net/qr-code-signatures/sign-pdf-with-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستند PDF باستخدام رمز الاستجابة السريعة QR باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

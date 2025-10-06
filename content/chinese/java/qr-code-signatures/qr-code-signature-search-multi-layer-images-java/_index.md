@@ -4,8 +4,8 @@
 "title": "使用 Java 和 GroupDocs.Signature 在多层图像中实现二维码签名搜索"
 "url": "/zh/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 在多层图像文档中实现二维码签名搜索
 
 ## 介绍

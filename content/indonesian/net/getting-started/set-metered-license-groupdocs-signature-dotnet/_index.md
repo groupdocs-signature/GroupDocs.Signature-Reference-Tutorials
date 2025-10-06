@@ -4,8 +4,8 @@
 "title": "Cara Mengatur Lisensi Terukur untuk GroupDocs.Signature di .NET&#58; Panduan Lengkap"
 "url": "/id/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mengatur Lisensi Terukur untuk GroupDocs.Signature di .NET: Panduan Lengkap
 
 ## Perkenalan

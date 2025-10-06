@@ -4,8 +4,8 @@
 "title": "Java Stamp Signature Tutorial&#58; PDF's ondertekenen met GroupDocs.Signature API"
 "url": "/nl/java/image-signatures/java-groupdocs-signature-stamp-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Java Stamp Signature Tutorial: PDF-documenten ondertekenen met GroupDocs.Signature API
 
 In het huidige digitale landschap is efficiënte en veilige documentondertekening essentieel voor zowel bedrijven als particulieren. Of u nu contracten autoriseert of documenten verifieert, het digitaal garanderen van de authenticiteit kan tijd en middelen besparen. Deze uitgebreide tutorial begeleidt u bij het gebruik van de GroupDocs.Signature voor Java API om een PDF-document te ondertekenen met een aangepaste stempelhandtekening. Door dit stapsgewijze proces te volgen, leert u hoe u buiten- en binnenlijnen toevoegt met specifieke tekst, lettertypen, kleuren en positionering.

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してアーカイブ内の文書署名を検証する方法"
 "url": "/ja/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してアーカイブ内の文書署名を検証する方法
 
 ## 導入

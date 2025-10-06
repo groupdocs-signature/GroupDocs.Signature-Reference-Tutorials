@@ -4,8 +4,8 @@
 "title": "Signera dokument med Gradient Brush i Java med GroupDocs.Signature"
 "url": "/sv/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Signera dokument med Gradient Brush i Java med GroupDocs.Signature
 
 dagens digitala tidsålder är det avgörande för effektiviteten inom olika branscher att signera dokument på ett säkert sätt. Den här handledningen guidar dig genom hur du signerar dokument digitalt med en tonad penseleffekt. **GroupDocs.Signature för Java**.

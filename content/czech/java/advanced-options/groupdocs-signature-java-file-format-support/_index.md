@@ -4,8 +4,8 @@
 "title": "Podpora formátu hlavních souborů v GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/advanced-options/groupdocs-signature-java-file-format-support/"
 "weight": 1
+type: docs
 ---
-
 # Podpora formátu hlavních souborů v GroupDocs.Signature pro Javu: Komplexní průvodce
 
 ## Zavedení

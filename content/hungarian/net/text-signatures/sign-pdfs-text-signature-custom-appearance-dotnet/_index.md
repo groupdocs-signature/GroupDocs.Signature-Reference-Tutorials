@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása szöveges aláírással és egyéni megjelenéssel .NET-ben a GroupDocs.Signature használatával"
 "url": "/hu/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentumok aláírása szöveges aláírással és egyéni megjelenéssel a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

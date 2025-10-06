@@ -4,8 +4,8 @@
 "title": "Så här tar du bort en textsignatur med ID med GroupDocs.Signature för Java - En omfattande guide"
 "url": "/sv/java/signature-management/delete-text-signature-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Så här tar du bort en textsignatur med ID med GroupDocs.Signature för Java
 
 ## Introduktion

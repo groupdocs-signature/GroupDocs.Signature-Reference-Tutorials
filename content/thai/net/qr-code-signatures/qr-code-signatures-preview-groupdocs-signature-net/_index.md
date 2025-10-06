@@ -4,8 +4,8 @@
 "title": "ตัวอย่างลายเซ็น QR Code พร้อม GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # การนำ QR Code Signature Previews ไปใช้กับ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

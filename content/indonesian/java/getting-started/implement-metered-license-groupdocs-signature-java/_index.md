@@ -4,8 +4,8 @@
 "title": "Menerapkan Lisensi Terukur di GroupDocs.Signature untuk Java&#58; Panduan Langkah demi Langkah"
 "url": "/id/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Lisensi Terukur di GroupDocs.Signature untuk Java
 
 ## Perkenalan

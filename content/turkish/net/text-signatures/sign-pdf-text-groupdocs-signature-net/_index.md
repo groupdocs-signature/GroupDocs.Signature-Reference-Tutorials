@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak PDF'leri Metinle Nasıl İmzalayabilirsiniz? Adım Adım Kılavuz"
 "url": "/tr/net/text-signatures/sign-pdf-text-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Metinle Bir Belgeyi Nasıl İmzalarsınız: Adım Adım Kılavuz
 
 ## giriiş

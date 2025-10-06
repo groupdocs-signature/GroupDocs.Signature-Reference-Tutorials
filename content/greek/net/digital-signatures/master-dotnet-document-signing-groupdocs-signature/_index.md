@@ -4,8 +4,8 @@
 "title": "Υπογραφή εγγράφων Master .NET με το GroupDocs.Signature για ασφαλείς ψηφιακές υπογραφές"
 "url": "/el/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την υπογραφή εγγράφων .NET με το GroupDocs.Signature
 
 ## Εισαγωγή

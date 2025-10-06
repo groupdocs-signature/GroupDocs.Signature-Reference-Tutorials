@@ -1,3 +1,6 @@
+---
+type: docs
+---
 
 title: "How to Digitally Sign Excel VBA Project with GroupDocs.Signature .NET"
 linktitle: "Sign Excel VBA Projects Digitally"

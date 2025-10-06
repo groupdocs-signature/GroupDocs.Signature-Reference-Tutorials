@@ -9,10 +9,8 @@ keywords:
 - QR-code signatures
 - password protection Java
 - GroupDocs.Signature for Java
-
+type: docs
 ---
-
-
 # Secure Your PDFs: QR-Code Signatures and Password Protection with GroupDocs.Signature for Java
 
 In today's digital age, securing PDF documents is essential for managing sensitive information and ensuring file authenticity. This guide will show you how to use GroupDocs.Signature for Java to add QR-code signatures and password protection to your PDFs.

@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng chữ ký hình ảnh bằng GroupDocs.Signature cho Java - Hướng dẫn từng bước"
 "url": "/vi/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng chữ ký hình ảnh bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

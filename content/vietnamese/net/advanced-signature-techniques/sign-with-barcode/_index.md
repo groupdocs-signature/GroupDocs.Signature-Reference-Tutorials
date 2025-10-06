@@ -5,8 +5,8 @@
 "title": "Thêm chữ ký mã vạch an toàn vào tài liệu .NET | Hướng dẫn đầy đủ"
 "url": "/vi/net/advanced-signature-techniques/sign-with-barcode/"
 "weight": 11
+type: docs
 ---
-
 ## Chữ ký mã vạch có thể tăng cường bảo mật tài liệu của bạn như thế nào?
 
 Trong thế giới số ngày nay, bảo mật tài liệu không chỉ là một tính năng tiện lợi mà còn là thiết yếu. Chữ ký mã vạch mang đến một cách thức độc đáo để xác thực và bảo mật các tệp quan trọng của bạn. Với GroupDocs.Signature cho .NET, việc triển khai các tính năng bảo mật mạnh mẽ này trở nên vô cùng đơn giản.

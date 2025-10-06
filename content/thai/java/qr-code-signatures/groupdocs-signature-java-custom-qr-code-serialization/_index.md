@@ -4,8 +4,8 @@
 "title": "นำการสร้างรหัส QR แบบกำหนดเองและการเข้ารหัสไปใช้ใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำ QR-Code แบบกำหนดเองและการเข้ารหัสไปใช้ใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

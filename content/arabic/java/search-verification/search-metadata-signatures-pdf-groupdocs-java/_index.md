@@ -4,8 +4,8 @@
 "title": "كيفية البحث عن توقيعات البيانات الوصفية في ملفات PDF باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/search-verification/search-metadata-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية البحث عن توقيعات البيانات الوصفية في مستندات PDF باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

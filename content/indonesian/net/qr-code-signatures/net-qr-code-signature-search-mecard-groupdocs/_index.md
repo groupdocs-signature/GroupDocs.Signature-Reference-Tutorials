@@ -4,8 +4,8 @@
 "title": "Implementasi Pencarian Tanda Tangan Kode QR .NET dengan MeCard Menggunakan GroupDocs.Signature"
 "url": "/id/net/qr-code-signatures/net-qr-code-signature-search-mecard-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Pencarian Tanda Tangan Kode QR .NET dengan MeCard Menggunakan GroupDocs.Signature
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中對帶有條碼和二維碼的 TAR 檔案進行簽名"
 "url": "/zh-hant/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 對帶有條碼和二維碼的 TAR 檔案進行簽名
 
 ## 介紹

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["event-handling", "document-signing", "cancellation", "monitoring", "csharp"]
+type: docs
 ---
-
 # Document Signing Event Handling .NET
 
 Ever wondered how to make your document signing applications more responsive and user-friendly? You're in the right place! This comprehensive guide walks you through implementing robust event handling and process management in your .NET applications using GroupDocs.Signature.

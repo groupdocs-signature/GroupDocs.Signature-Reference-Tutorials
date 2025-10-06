@@ -5,8 +5,8 @@
 "title": "كيفية إنشاء معاينات للمستندات في تطبيقات .NET | دليل سريع"
 "url": "/ar/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # كيفية إنشاء معاينات المستندات في تطبيقات .NET الخاصة بك
 
 ## مقدمة

@@ -5,8 +5,8 @@
 "title": ".NET でドキュメントから QR コード署名を削除する方法"
 "url": "/ja/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # 文書からQRコード署名を削除する方法
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": "Excel-táblázatok metaadatokkal való aláírása a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Excel-táblázatok metaadatokkal való aláírása a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

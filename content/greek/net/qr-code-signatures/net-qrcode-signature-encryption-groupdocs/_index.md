@@ -4,8 +4,8 @@
 "title": "Ασφαλής υπογραφή PDF με κρυπτογραφημένους κωδικούς QR σε .NET χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/qr-code-signatures/net-qrcode-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Πλήρης οδηγός: Υλοποίηση ασφαλούς υπογραφής PDF με κρυπτογραφημένους κωδικούς QR σε .NET χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

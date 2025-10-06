@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Görüntü Belgelerindeki Meta Veri İmzalarını Arama"
 "url": "/tr/net/search-verification/search-metadata-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanılarak Görüntü Belgelerindeki Meta Veri İmzaları Nasıl Aranır?
 
 ## giriiş

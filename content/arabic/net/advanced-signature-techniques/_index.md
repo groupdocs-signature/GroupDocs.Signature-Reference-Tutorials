@@ -5,8 +5,8 @@
 "title": "إتقان تقنيات توقيع المستندات المتقدمة في .NET"
 "url": "/ar/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # تقنيات التوقيع المتقدمة مع GroupDocs.Signature لـ .NET
 
 ## مقدمة

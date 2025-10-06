@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["electronic-signatures", "dotnet-development", "document-automation", "groupdocs"]
+type: docs
 ---
-
 # How to Modify Text Signatures Programmatically in .NET
 
 ## Introduction

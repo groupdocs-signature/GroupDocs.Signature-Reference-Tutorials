@@ -4,8 +4,8 @@
 "title": "Serializzazione personalizzata e ricerca di metadati in .NET utilizzando GroupDocs.Signature"
 "url": "/it/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementazione della serializzazione personalizzata e della ricerca della firma dei metadati con GroupDocs.Signature per .NET
 
 ## Introduzione

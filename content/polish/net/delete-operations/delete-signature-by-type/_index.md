@@ -5,8 +5,8 @@
 "title": "Jak usunąć podpisy dokumentów według typu w .NET"
 "url": "/pl/net/delete-operations/delete-signature-by-type/"
 "weight": 12
+type: docs
 ---
-
 # Jak usunąć podpisy dokumentów według typu w .NET
 
 ## Dlaczego zarządzanie podpisami ma znaczenie w przetwarzaniu dokumentów

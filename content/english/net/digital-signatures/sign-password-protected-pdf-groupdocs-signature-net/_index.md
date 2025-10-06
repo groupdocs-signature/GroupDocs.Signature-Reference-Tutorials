@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["pdf-signing", "groupdocs", "csharp", "document-security"]
+type: docs
 ---
-
 # How to Sign Password Protected PDF in C# Using GroupDocs.Signature for .NET
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "دليل توقيع PDF بلغة Java - إضافة نص، ورمز شريطي، ورمز الاستجابة السريعة، والتوقيعات الرقمية باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # دليل كيفية تنفيذ توقيع PDF بلغة Java: إضافة نص ورمز شريطي ورمز الاستجابة السريعة والتوقيعات الرقمية باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć wyszukiwanie podpisów kodów kreskowych w Javie za pomocą GroupDocs.Signature"
 "url": "/pl/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć wyszukiwanie podpisów kodów kreskowych w Javie za pomocą GroupDocs.Signature
 
 ## Wstęp

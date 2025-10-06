@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 텍스트 서명 및 사용자 지정 모양으로 PDF에 서명"
 "url": "/ko/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 텍스트 서명 및 사용자 지정 모양으로 PDF 문서에 서명하는 방법
 
 ## 소개

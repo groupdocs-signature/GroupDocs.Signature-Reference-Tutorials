@@ -4,8 +4,8 @@
 "title": "Implementeer QR-codehandtekeningen in .NET met behulp van GroupDocs.Signature voor verbeterde documentbeveiliging"
 "url": "/nl/net/qr-code-signatures/implement-qr-code-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementeer QR-codehandtekeningen in .NET met behulp van GroupDocs.Signature voor verbeterde documentbeveiliging
 
 ## Invoering

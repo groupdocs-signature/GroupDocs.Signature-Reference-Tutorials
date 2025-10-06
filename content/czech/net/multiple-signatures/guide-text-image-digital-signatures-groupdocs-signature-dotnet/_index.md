@@ -4,8 +4,8 @@
 "title": "Komplexní průvodce textovými, obrazovými a digitálními podpisy s GroupDocs.Signature pro .NET"
 "url": "/cs/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Komplexní průvodce implementací textových, obrazových a digitálních podpisů s GroupDocs.Signature pro .NET
 
 ## Zavedení

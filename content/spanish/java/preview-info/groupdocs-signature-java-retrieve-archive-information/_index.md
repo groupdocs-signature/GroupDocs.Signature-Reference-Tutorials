@@ -4,8 +4,8 @@
 "title": "Cómo recuperar información de archivos de almacenamiento mediante GroupDocs.Signature para Java"
 "url": "/es/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # Cómo recuperar información de archivos de almacenamiento mediante GroupDocs.Signature para Java
 
 ## Introducción

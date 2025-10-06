@@ -4,8 +4,8 @@
 "title": "Master-Dokumentsignaturen in Java mit GroupDocs.Signature – Barcode-Signaturhandbuch"
 "url": "/de/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentsignaturen in Java mit GroupDocs.Signature meistern
 
 **Optimieren Sie Ihre digitalen Dokument-Workflows, indem Sie Barcode-Signaturen mit GroupDocs.Signature für Java signieren, überprüfen, suchen, aktualisieren und löschen.**

@@ -5,8 +5,8 @@
 "title": "วิธีการลบลายเซ็นภาพจากเอกสารใน .NET"
 "url": "/th/net/delete-operations/delete-image-signature/"
 "weight": 14
+type: docs
 ---
-
 # วิธีการลบลายเซ็นภาพจากเอกสารโดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

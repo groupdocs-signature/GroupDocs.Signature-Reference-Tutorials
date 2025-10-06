@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["electronic-signatures", "dotnet-tutorial", "document-automation", "digital-signatures"]
+type: docs
 ---
-
 # Electronic Document Signing .NET - Complete GroupDocs.Signature Implementation
 
 ## Introduction

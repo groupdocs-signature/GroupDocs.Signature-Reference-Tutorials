@@ -4,8 +4,8 @@
 "title": "Menerapkan Pencarian Tanda Tangan Kode QR dalam PDF Menggunakan Java dan GroupDocs.Signature"
 "url": "/id/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Pencarian Tanda Tangan Kode QR dalam PDF Menggunakan Java
 
 ## Perkenalan

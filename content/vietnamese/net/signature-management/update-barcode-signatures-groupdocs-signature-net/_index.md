@@ -4,8 +4,8 @@
 "title": "Cách cập nhật chữ ký mã vạch theo ID bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách cập nhật chữ ký mã vạch theo ID bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Digitális dokumentumok aláírása .NET-ben a GroupDocs.Signature API használatával"
 "url": "/hu/net/digital-signatures/master-digital-document-signing-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Digitális dokumentumok aláírása .NET-ben a GroupDocs.Signature API segítségével
 ## Bevezetés
 mai gyorsan változó digitális környezetben kulcsfontosságú a dokumentumok hitelességének biztosítása a hatékonyság megőrzése mellett. Akár munkafolyamatokat automatizáló fejlesztő, akár a működési hatékonyság növelésére törekvő szervezet, a digitális aláírások integrálása átalakító lehet. Ez az oktatóanyag végigvezeti Önt a használatán. **GroupDocs.Signature .NET-hez** dokumentumok szöveges aláírásokkal való aláírásához űrlapmező formátumokban. Ezen útmutató végére tudni fogja, hogyan integrálhatja zökkenőmentesen a digitális aláírásokat .NET alkalmazásaiba.

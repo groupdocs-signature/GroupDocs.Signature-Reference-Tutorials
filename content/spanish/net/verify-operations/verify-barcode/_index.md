@@ -5,8 +5,8 @@
 "title": "Verificar firmas de códigos de barras en documentos"
 "url": "/es/net/verify-operations/verify-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Introducción
 
 Los códigos de barras se han convertido en una parte integral de los sistemas modernos de gestión documental, permitiendo un acceso rápido a la información codificada y sirviendo también como medida de seguridad. GroupDocs.Signature para .NET proporciona una potente API para verificar las firmas de códigos de barras en los documentos, garantizando así su autenticidad e integridad.

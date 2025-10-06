@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 아카이브에서 디지털 인증서 검색 | 단계별 가이드"
 "url": "/ko/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 아카이브에서 디지털 인증서 검색
 
 ## 소개

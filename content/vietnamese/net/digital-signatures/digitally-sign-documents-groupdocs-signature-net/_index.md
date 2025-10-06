@@ -4,8 +4,8 @@
 "title": "Ký số tài liệu bằng GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/digital-signatures/digitally-sign-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký số tài liệu bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

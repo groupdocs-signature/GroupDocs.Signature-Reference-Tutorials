@@ -4,8 +4,8 @@
 "title": "Java ve GroupDocs.Signature kullanarak Çok Katmanlı Görüntülerde QR Kod İmza Aramasını Uygulayın"
 "url": "/tr/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Çok Katmanlı Görüntü Belgelerinde QR Kod İmza Araması Nasıl Uygulanır?
 
 ## giriiş

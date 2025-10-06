@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature για .NET® Εξαγωγή και Αποδοτική Εμφάνιση Πληροφοριών Εγγράφου"
 "url": "/el/net/preview-info/groupdocs-signature-net-document-info-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Mastering GroupDocs.Signature για .NET: Αποτελεσματική εξαγωγή και εμφάνιση πληροφοριών εγγράφου
 
 ## Εισαγωγή

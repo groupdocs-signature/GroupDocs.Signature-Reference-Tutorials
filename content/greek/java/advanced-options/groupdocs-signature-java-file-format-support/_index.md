@@ -4,8 +4,8 @@
 "title": "Υποστήριξη μορφής κύριου αρχείου στο GroupDocs.Signature για Java&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/advanced-options/groupdocs-signature-java-file-format-support/"
 "weight": 1
+type: docs
 ---
-
 # Υποστήριξη μορφής κύριου αρχείου στο GroupDocs.Signature για Java: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

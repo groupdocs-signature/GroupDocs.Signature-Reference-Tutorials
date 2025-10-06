@@ -4,8 +4,8 @@
 "title": "DICOM képek aláírása QR-kódokkal a GroupDocs.Signature for .NET használatával – Átfogó útmutató"
 "url": "/hu/net/qr-code-signatures/groupdocs-signature-net-dicom-images-qr-codes/"
 "weight": 1
+type: docs
 ---
-
 # DICOM képek aláírása QR-kódokkal a GroupDocs.Signature for .NET használatával: Átfogó útmutató
 
 Biztonságos módszert keres DICOM-fájljai hitelesítésére? Ez a részletes útmutató bemutatja, hogyan használhatja a GroupDocs.Signature for .NET-et QR-kód aláírások DICOM-képekbe integrálásához. Ideális egészségügyi szakemberek, fejlesztők és bárki számára, aki digitális orvosi dokumentumokkal dolgozik, ez az oktatóanyag a beállítástól a megvalósításig mindent lefed.

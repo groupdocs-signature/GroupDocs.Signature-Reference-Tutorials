@@ -4,8 +4,8 @@
 "title": "ग्रुपडॉक्स का उपयोग करके जावा में क्यूआर-कोड हस्ताक्षर हटाने के लिए मार्गदर्शिका"
 "url": "/hi/java/signature-management/qr-code-signature-deletion-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # ग्रुपडॉक्स का उपयोग करके जावा में क्यूआर-कोड हस्ताक्षर हटाने के लिए मार्गदर्शिका
 
 ## परिचय

@@ -5,8 +5,8 @@
 "title": "在文件中搜尋二維碼簽名"
 "url": "/zh-hant/net/signature-searching/search-for-qr-codes/"
 "weight": 15
+type: docs
 ---
-
 ## 介紹
 
 在當今的數位文件生態系統中，二維碼簽章已成為嵌入資訊、身份驗證和增強文件安全性的寶貴工具。 GroupDocs.Signature for .NET 為開發人員提供了強大的 API，用於從各種文件格式中搜尋和提取二維碼，從而在 .NET 應用程式中實現高級文件分析和驗證功能。

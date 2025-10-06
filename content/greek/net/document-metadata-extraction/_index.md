@@ -5,8 +5,8 @@
 "title": "Εξαγωγή μεταδεδομένων κύριου εγγράφου με το GroupDocs.Signature για .NET"
 "url": "/el/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # Πλήρης οδηγός για την εξαγωγή μεταδεδομένων εγγράφων με το GroupDocs.Signature
 
 ## Η Στρατηγική Σημασία των Μεταδεδομένων Εγγράφων στις Σύγχρονες Ροές Εργασίας

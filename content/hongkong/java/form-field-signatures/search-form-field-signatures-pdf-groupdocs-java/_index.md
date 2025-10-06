@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 在 PDF 中搜尋並提取表單欄位簽名"
 "url": "/zh-hant/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 在 PDF 文件中搜尋和提取表單欄位簽名
 
 ## 介紹

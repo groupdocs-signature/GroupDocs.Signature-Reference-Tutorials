@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java Belgelerinde QR Kod İmzaları Nasıl Uygulanır?"
 "url": "/tr/java/qr-code-signatures/groupdocs-signature-java-qr-code-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java Belgelerinde QR Kod İmzaları Nasıl Uygulanır?
 
 ## giriiş

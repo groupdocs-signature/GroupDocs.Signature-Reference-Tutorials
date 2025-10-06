@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して Java でバーコード署名を初期化および更新する方法"
 "url": "/ja/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して Java でバーコード署名を初期化および更新する方法
 
 ## 導入

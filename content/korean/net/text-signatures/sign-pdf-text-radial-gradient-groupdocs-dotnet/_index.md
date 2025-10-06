@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 텍스트 서명 및 방사형 그래디언트로 PDF에 서명하는 방법"
 "url": "/ko/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 텍스트 서명 및 방사형 그래디언트로 PDF에 서명하는 방법
 
 ## 소개

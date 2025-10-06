@@ -4,8 +4,8 @@
 "title": "Ověřování dokumentů pomocí podpisů QR kódem v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/search-verification/verify-documents-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak ověřovat dokumenty s podpisy QR kódem pomocí GroupDocs.Signature v Javě
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Générer des aperçus de documents dans les archives à l'aide de GroupDocs.Signature pour .NET - Un guide complet"
 "url": "/fr/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Générer des aperçus de documents à partir d'archives avec GroupDocs.Signature pour .NET
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके समर्थित फ़ाइल स्वरूपों को पुनर्प्राप्त और प्रदर्शित करें"
 "url": "/hi/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके समर्थित फ़ाइल स्वरूपों को पुनर्प्राप्त और प्रदर्शित करें
 
 ## परिचय

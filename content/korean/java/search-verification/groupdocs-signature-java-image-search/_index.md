@@ -4,8 +4,8 @@
 "title": "GroupDocs for Java를 사용하여 문서에서 마스터 이미지 서명 검색하기&#58; 종합 가이드"
 "url": "/ko/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs를 사용한 문서의 마스터 이미지 서명 검색: 종합 가이드
 
 ## 소개

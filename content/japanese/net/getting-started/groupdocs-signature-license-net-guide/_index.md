@@ -4,8 +4,8 @@
 "title": ".NET で GroupDocs.Signature のライセンスファイルを設定する - ステップバイステップガイド"
 "url": "/ja/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # .NET で GroupDocs.Signature のライセンス ファイルを設定する: ステップバイステップ ガイド
 
 ## 導入

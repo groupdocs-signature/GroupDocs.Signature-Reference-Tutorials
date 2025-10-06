@@ -4,8 +4,8 @@
 "title": "Ασφαλίστε έγγραφα με υδατογραφήματα κειμένου χρησιμοποιώντας το GroupDocs.Signature για .NET™ Ένας πλήρης οδηγός"
 "url": "/el/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε υδατογραφήματα κειμένου σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

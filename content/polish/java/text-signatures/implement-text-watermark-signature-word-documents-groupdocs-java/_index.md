@@ -4,8 +4,8 @@
 "title": "Wdrażanie podpisów wodnych w dokumentach Word za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Wdrażanie podpisów wodnych w dokumentach Word za pomocą GroupDocs.Signature dla Java
 
 ## Jak dodać tekstowe podpisy w postaci znaków wodnych do dokumentów Word za pomocą GroupDocs.Signature dla Java

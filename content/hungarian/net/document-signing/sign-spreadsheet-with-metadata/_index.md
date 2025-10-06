@@ -5,8 +5,8 @@
 "title": "Metaadat-aláírások hozzáadása Excel-táblázatokhoz C# .NET-ben"
 "url": "/hu/net/document-signing/sign-spreadsheet-with-metadata/"
 "weight": 13
+type: docs
 ---
-
 ## Bevezetés
 
 Az Excel-táblázatok gyakran tartalmaznak kritikus üzleti adatokat, pénzügyi információkat és fontos számításokat. Hitelességük biztosítása, eredetük nyomon követése és integritásuk védelme kulcsfontosságú számos szakmai környezetben. A táblázatok biztonságának és nyomon követhetőségének fokozásának egyik hatékony módja a metaadat-aláírások beágyazása.

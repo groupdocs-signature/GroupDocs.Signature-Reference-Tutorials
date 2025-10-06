@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में QR कोड एन्क्रिप्ट और हस्ताक्षरित करें - एक व्यापक मार्गदर्शिका"
 "url": "/hi/java/qr-code-signatures/encrypt-sign-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature के साथ QR कोड एन्क्रिप्ट और हस्ताक्षरित करें
 
 ## परिचय

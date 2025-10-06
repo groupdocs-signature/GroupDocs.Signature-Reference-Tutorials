@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して PDF にスタンプ署名を実装する方法"
 "url": "/ja/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して PDF にスタンプ署名を実装する方法
 
 ## 導入

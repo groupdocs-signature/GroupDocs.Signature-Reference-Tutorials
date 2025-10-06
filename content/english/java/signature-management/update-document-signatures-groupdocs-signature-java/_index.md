@@ -8,10 +8,8 @@ keywords:
 - update document signatures
 - GroupDocs.Signature Java
 - digital signature management
-
+type: docs
 ---
-
-
 # How to Update Document Signatures with GroupDocs.Signature for Java
 
 ## Introduction

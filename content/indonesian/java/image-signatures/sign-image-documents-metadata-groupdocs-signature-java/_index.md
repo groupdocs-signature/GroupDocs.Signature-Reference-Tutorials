@@ -4,8 +4,8 @@
 "title": "Menandatangani Dokumen Gambar dengan Metadata menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen Gambar dengan Metadata menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

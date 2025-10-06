@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ البحث عن توقيع البيانات الوصفية في عروض PowerPoint باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/metadata-signatures/implement-metadata-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ البحث عن توقيع البيانات الوصفية في PowerPoint باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

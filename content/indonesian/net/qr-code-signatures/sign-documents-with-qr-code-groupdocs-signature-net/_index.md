@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen dengan Kode QR menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Langkah demi Langkah"
 "url": "/id/net/qr-code-signatures/sign-documents-with-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Tutorial Lengkap: Menandatangani Dokumen dengan Kode QR Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "การค้นหาลายเซ็นดิจิทัลด้วย GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำการค้นหาลายเซ็นดิจิทัลไปใช้ในเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

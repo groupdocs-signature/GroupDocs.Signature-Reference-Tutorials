@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในเอกสารด้วยลายเซ็นข้อความและรูปภาพใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้การลงนามเอกสารด้วยลายเซ็นข้อความและรูปภาพโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

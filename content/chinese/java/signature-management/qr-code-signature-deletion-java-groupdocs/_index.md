@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs 在 Java 中删除二维码签名的指南"
 "url": "/zh/java/signature-management/qr-code-signature-deletion-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs 在 Java 中删除二维码签名的指南
 
 ## 介绍

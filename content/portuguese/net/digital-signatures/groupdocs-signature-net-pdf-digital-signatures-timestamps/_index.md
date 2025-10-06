@@ -4,8 +4,8 @@
 "title": "Como implementar assinaturas digitais em PDF com carimbos de data/hora usando o GroupDocs.Signature para .NET"
 "url": "/pt/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar assinaturas digitais em PDF com carimbos de data/hora usando o GroupDocs.Signature para .NET
 
 ## Introdução

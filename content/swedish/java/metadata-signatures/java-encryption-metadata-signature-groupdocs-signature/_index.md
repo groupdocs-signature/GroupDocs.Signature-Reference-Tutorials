@@ -4,8 +4,8 @@
 "title": "Java-kryptering och metadatasignatur – säker dokumenthantering med GroupDocs.Signature"
 "url": "/sv/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementera Java-kryptering och sökning efter metadatasignaturer med GroupDocs.Signature för Java
 
 ## Introduktion

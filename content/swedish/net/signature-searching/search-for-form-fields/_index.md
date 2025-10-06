@@ -5,8 +5,8 @@
 "title": "Sök efter formulärfält i dokument"
 "url": "/sv/net/signature-searching/search-for-form-fields/"
 "weight": 12
+type: docs
 ---
-
 ## Introduktion
 
 I moderna dokumenthanteringssystem spelar formulärfält en avgörande roll i datainsamling, användarinteraktion och dokumentautomation. GroupDocs.Signature för .NET tillhandahåller en kraftfull uppsättning verktyg för utvecklare att arbeta med formulärfält i olika dokumentformat, inklusive att söka, hämta och bearbeta dessa element programmatiskt.

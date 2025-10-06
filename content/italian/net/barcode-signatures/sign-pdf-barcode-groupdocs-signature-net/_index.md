@@ -4,8 +4,8 @@
 "title": "Firma PDF con codici a barre utilizzando GroupDocs.Signature per .NET&#58; una guida completa"
 "url": "/it/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Firma documenti PDF con firme tramite codice a barre utilizzando GroupDocs.Signature per .NET
 
 Nell'attuale contesto digitale, garantire l'autenticità e l'integrità dei documenti è fondamentale. Che siate professionisti o sviluppatori che lavorano su sistemi di gestione documentale, la firma digitale dei documenti aggiunge un ulteriore livello di sicurezza e affidabilità. Con GroupDocs.Signature per .NET, firmare i PDF tramite codici a barre diventa semplice: una funzionalità versatile che migliora i processi di verifica dei documenti. In questa guida completa, vi mostreremo come implementare le firme con codici a barre nelle vostre applicazioni.

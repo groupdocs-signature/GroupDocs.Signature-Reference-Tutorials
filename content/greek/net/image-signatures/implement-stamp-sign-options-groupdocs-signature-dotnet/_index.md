@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε επιλογές υπογραφής σφραγίδας χρησιμοποιώντας το GroupDocs.Signature για .NET™; Ένας πλήρης οδηγός"
 "url": "/el/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε επιλογές υπογραφής σφραγίδας χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

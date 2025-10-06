@@ -4,8 +4,8 @@
 "title": "Przewodnik po wyszukiwaniu kodów kreskowych i kodów QR w języku Java z wykorzystaniem GroupDocs.Signature do bezpiecznej weryfikacji dokumentów"
 "url": "/pl/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja języka Java do wyszukiwania w kodach kreskowych, kodach QR i metadanych za pomocą GroupDocs.Signature
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Ładowanie i podpisywanie dokumentów w Javie za pomocą GroupDocs.Signature&#58; – kompleksowy przewodnik"
 "url": "/pl/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Ładowanie i podpisywanie dokumentów za pomocą GroupDocs.Signature w Javie
 
 ## Wstęp

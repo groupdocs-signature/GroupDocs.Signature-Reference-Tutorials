@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak QR Kodlarıyla Belge İmzalamayı Uygulayın"
 "url": "/tr/net/qr-code-signatures/qr-code-signing-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak QR Kodlarıyla Belge İmzalama Uygulaması
 
 ## giriiş

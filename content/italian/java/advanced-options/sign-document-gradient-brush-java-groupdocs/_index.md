@@ -4,8 +4,8 @@
 "title": "Firma i documenti con il pennello sfumato in Java utilizzando GroupDocs.Signature"
 "url": "/it/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Firmare documenti con pennello sfumato in Java utilizzando GroupDocs.Signature
 
 Nell'era digitale odierna, firmare i documenti in modo sicuro è fondamentale per l'efficienza in tutti i settori. Questo tutorial ti guiderà attraverso la firma digitale dei documenti con un effetto pennello sfumato utilizzando **GroupDocs.Signature per Java**.

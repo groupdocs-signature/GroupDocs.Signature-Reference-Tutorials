@@ -4,8 +4,8 @@
 "title": "Comment implémenter des signatures numériques dans Excel avec GroupDocs.Signature pour Java"
 "url": "/fr/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter une signature numérique dans une feuille de calcul à l'aide de GroupDocs.Signature pour Java
 
 ## Introduction

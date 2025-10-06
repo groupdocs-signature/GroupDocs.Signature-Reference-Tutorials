@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Hướng dẫn bắt đầu dành cho nhà phát triển .NET"
 "url": "/vi/net/getting-started/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Hướng dẫn bắt đầu dành cho nhà phát triển .NET
 
 Hãy bắt đầu hành trình của bạn với các hướng dẫn thiết yếu về GroupDocs.Signature, hướng dẫn bạn cài đặt, cấu hình cấp phép và tạo các triển khai chữ ký số đầu tiên trong .NET. Các hướng dẫn dành cho người mới bắt đầu của chúng tôi sẽ trình bày cách thiết lập môi trường phát triển, khởi tạo thư viện GroupDocs.Signature và thực hiện các thao tác chữ ký cơ bản. Hãy làm theo các hướng dẫn này để nhanh chóng nắm vững những kiến thức cơ bản và chuẩn bị cho các tác vụ ký tài liệu nâng cao hơn trong các ứng dụng .NET của bạn.

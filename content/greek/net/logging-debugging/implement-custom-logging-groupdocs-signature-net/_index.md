@@ -4,8 +4,8 @@
 "title": "Υλοποίηση προσαρμοσμένης καταγραφής στο GroupDocs.Signature για .NET™ Ένας πλήρης οδηγός"
 "url": "/el/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση προσαρμοσμένης καταγραφής στο GroupDocs.Signature για .NET: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

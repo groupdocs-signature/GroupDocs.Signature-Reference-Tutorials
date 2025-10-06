@@ -4,8 +4,8 @@
 "title": "التوقيع على مستندات Java الرئيسية باستخدام رموز GS1DotCode باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # إتقان توقيع المستندات في Java باستخدام رموز GS1DotCode باستخدام GroupDocs.Signature
 
 ## مقدمة

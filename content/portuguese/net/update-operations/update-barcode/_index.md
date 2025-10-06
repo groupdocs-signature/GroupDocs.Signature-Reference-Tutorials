@@ -5,8 +5,8 @@
 "title": "Atualizar assinaturas de código de barras em documentos"
 "url": "/pt/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Introdução
 Assinaturas de código de barras são amplamente utilizadas em fluxos de trabalho de documentos digitais para codificar dados estruturados, permitindo rastreamento, identificação e validação eficientes. O GroupDocs.Signature para .NET é uma solução abrangente de assinatura de documentos que permite aos desenvolvedores integrar funcionalidades avançadas de assinatura em seus aplicativos, incluindo a capacidade de atualizar assinaturas de código de barras existentes em documentos.
 

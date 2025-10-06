@@ -4,8 +4,8 @@
 "title": "Implementieren Sie die Signatur des Java-Radio-Button-Formularfelds mit GroupDocs.Signature"
 "url": "/de/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren Sie die Signatur des Java-Radio-Button-Formularfelds mit GroupDocs.Signature
 
 ## Einführung

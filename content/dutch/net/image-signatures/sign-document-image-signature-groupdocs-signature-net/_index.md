@@ -4,8 +4,8 @@
 "title": "Documenten ondertekenen met een afbeeldingshandtekening met GroupDocs.Signature voor .NET"
 "url": "/nl/net/image-signatures/sign-document-image-signature-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Een document ondertekenen met een afbeeldingshandtekening met GroupDocs.Signature voor .NET
 
 ## Invoering

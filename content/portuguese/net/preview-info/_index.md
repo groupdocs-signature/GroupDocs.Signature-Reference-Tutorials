@@ -3,8 +3,8 @@
 "title": "Visualização de documentos e tutoriais informativos para GroupDocs.Signature .NET"
 "url": "/pt/net/preview-info/"
 "weight": 13
+type: docs
 ---
-
 # Visualização de documentos e tutoriais informativos para GroupDocs.Signature .NET
 
 Nossos tutoriais de pré-visualização e informações mostram como extrair dados valiosos de documentos usando o GroupDocs.Signature em .NET. Esses guias detalhados demonstram como gerar pré-visualizações de documentos, recuperar informações de documentos, acessar detalhes de assinaturas, visualizar o histórico de processamento de documentos e examinar propriedades de arquivos. Cada tutorial inclui exemplos práticos de código C# para cenários de inspeção de documentos, ajudando você a criar aplicativos que fornecem transparência abrangente de documentos para uma melhor experiência do usuário e acompanhamento do fluxo de trabalho.

@@ -5,8 +5,8 @@
 "title": "Cách xóa chữ ký tài liệu theo loại trong .NET"
 "url": "/vi/net/delete-operations/delete-signature-by-type/"
 "weight": 12
+type: docs
 ---
-
 # Cách xóa chữ ký tài liệu theo loại trong .NET
 
 ## Tại sao quản lý chữ ký lại quan trọng trong xử lý tài liệu

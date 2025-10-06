@@ -4,8 +4,8 @@
 "title": "Hoe u teksthandtekeningen in PDF's implementeert met GroupDocs.Signature voor Java&#58; een complete handleiding"
 "url": "/nl/java/text-signatures/groupdocs-signature-java-text-signatures-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Teksthandtekeningen in PDF's implementeren met GroupDocs.Signature voor Java
 
 **Stroomlijning van documentworkflows: een uitgebreide handleiding voor het zoeken en beheren van teksthandtekeningen in PDF's met GroupDocs.Signature voor Java**

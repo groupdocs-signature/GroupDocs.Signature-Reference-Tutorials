@@ -4,8 +4,8 @@
 "title": "Hatékony aláírás-kezelés – Digitális aláírások keresése és törlése a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hatékony aláírás-kezelés: Digitális aláírások keresése és törlése a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

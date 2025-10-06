@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da Barkod ve QR Kod İmzalamayı Uygulama Kapsamlı Bir Kılavuz"
 "url": "/tr/java/multiple-signatures/groupdocs-signing-java-barcode-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Java'da Barkod ve QR Kod İmzalamanın Uygulanması
 
 Günümüzün dijital dünyasında, belge bütünlüğünün sağlanması hayati önem taşımaktadır. İster yasal sözleşmeleri, ister faturaları veya gönderi etiketlerini yönetiyor olun, belgenin özgünlüğünü korumak hayati önem taşır. **Java için GroupDocs.Signature** Belgelere sorunsuz barkod ve QR kodu entegrasyonunu sağlayarak bu süreci kolaylaştırır. Bu kapsamlı kılavuz, GroupDocs.Signature for Java kullanarak barkod ve QR kodu imzalamayı uygulama konusunda size yol gösterecektir.

@@ -5,8 +5,8 @@
 "title": "Come generare anteprime di documenti nelle app .NET | Tutorial rapido"
 "url": "/it/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # Come generare anteprime di documenti nelle applicazioni .NET
 
 ## Introduzione

@@ -4,8 +4,8 @@
 "title": "Wdrażanie podpisów cyfrowych w .NET&#58; Przewodnik integracji kodów kreskowych i kodów QR"
 "url": "/pl/net/multiple-signatures/implement-digital-signatures-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć podpisy cyfrowe w .NET: podpisywanie kodów kreskowych i kodów QR za pomocą GroupDocs.Signature
 
 dzisiejszej erze cyfrowej szybkie i bezpieczne uwierzytelnianie dokumentów jest ważniejsze niż kiedykolwiek. Niezależnie od tego, czy jesteś programistą pracującym nad aplikacją korporacyjną, czy po prostu chcesz usprawnić proces zarządzania dokumentami, dodawanie podpisów może być przełomowe. Ten samouczek przeprowadzi Cię przez proces korzystania z… **GroupDocs.Signature dla .NET** do cyfrowego podpisywania dokumentów zarówno przy użyciu kodów kreskowych, jak i kodów QR, oferując solidne rozwiązania zapewniające bezpieczną dokumentację.

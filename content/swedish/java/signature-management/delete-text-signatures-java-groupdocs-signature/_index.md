@@ -4,8 +4,8 @@
 "title": "Hur man tar bort textsignaturer i Java med GroupDocs.Signature"
 "url": "/sv/java/signature-management/delete-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hur man tar bort textsignaturer i Java med GroupDocs.Signature
 
 ## Introduktion

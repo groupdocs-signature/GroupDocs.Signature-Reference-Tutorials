@@ -4,8 +4,8 @@
 "title": "Làm chủ việc xác minh tài liệu với GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ việc xác minh tài liệu với GroupDocs.Signature cho .NET: Hướng dẫn toàn diện
 
 ## Giới thiệu

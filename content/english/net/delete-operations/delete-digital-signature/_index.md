@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["digital-signatures", "dotnet", "groupdocs", "signature-removal"]
+type: docs
 ---
-
 # How to Remove Digital Signatures from Documents in .NET
 
 ## Why You Need to Remove Digital Signatures Programmatically

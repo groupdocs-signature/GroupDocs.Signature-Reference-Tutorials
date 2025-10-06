@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 進行自訂 XOR 加密的綜合指南"
 "url": "/zh-hant/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 實作自訂 XOR 加密的綜合指南
 
 ## 介紹

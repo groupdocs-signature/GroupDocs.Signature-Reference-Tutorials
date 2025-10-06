@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan Kode QR dan Menyisipkan Info WiFi Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF dengan Kode QR dan Menyisipkan Info WiFi Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して .NET でデジタル署名を実装する"
 "url": "/ja/net/digital-signatures/digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してデジタル署名によるドキュメント署名を実装する
 
 ## 導入

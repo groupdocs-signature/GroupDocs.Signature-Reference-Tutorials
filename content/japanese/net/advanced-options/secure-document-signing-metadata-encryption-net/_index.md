@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して、.NET でメタデータとカスタム暗号化による安全なドキュメント署名をマスターする"
 "url": "/ja/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET でメタデータとカスタム暗号化を使用して安全なドキュメント署名をマスターする
 
 ## 導入

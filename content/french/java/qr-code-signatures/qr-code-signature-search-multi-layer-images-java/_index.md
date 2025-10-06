@@ -4,8 +4,8 @@
 "title": "Implémenter la recherche de signature de code QR dans les images multicouches à l'aide de Java et de GroupDocs.Signature"
 "url": "/fr/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter la recherche de signature par code QR dans des documents image multicouches à l'aide de GroupDocs.Signature pour Java
 
 ## Introduction

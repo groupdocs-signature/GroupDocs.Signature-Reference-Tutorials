@@ -5,8 +5,8 @@
 "title": "Trích xuất siêu dữ liệu trình bày dễ dàng với GroupDocs.Signature"
 "url": "/vi/net/document-metadata-extraction/search-presentation-metadata-extraction/"
 "weight": 12
+type: docs
 ---
-
 # Cách trích xuất siêu dữ liệu từ bài thuyết trình bằng GroupDocs.Signature
 
 ## Tại sao siêu dữ liệu trình bày lại quan trọng đối với dự án của bạn

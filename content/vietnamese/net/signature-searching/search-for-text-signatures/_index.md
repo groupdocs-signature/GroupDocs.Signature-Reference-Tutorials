@@ -5,8 +5,8 @@
 "title": "Tìm kiếm chữ ký văn bản trong tài liệu"
 "url": "/vi/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## Giới thiệu
 
 Chữ ký văn bản là một phương pháp phổ biến để xác định quyền tác giả, phê duyệt hoặc xác minh tài liệu. Trong quản lý tài liệu số, khả năng tìm kiếm và trích xuất chữ ký văn bản theo chương trình là rất quan trọng để xác thực tài liệu, tự động hóa quy trình làm việc và xác minh tính tuân thủ. GroupDocs.Signature for .NET cung cấp giải pháp toàn diện để triển khai chức năng tìm kiếm chữ ký văn bản trong các ứng dụng .NET của bạn, hỗ trợ nhiều định dạng tài liệu và khả năng tìm kiếm nâng cao.

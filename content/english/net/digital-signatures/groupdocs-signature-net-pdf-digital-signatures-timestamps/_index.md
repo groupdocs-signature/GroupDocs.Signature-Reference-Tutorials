@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: [".NET Development"]
 tags: ["pdf-signing", "digital-signatures", "groupdocs", "document-security", "csharp"]
+type: docs
 ---
-
 # PDF Digital Signature .NET - Complete Implementation Guide
 
 ## Introduction

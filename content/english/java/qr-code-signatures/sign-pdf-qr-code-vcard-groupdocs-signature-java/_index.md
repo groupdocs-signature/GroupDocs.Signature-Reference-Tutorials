@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - sign PDFs with QR code
 - QR Code VCard
-
+type: docs
 ---
-
-
 # How to Use GroupDocs.Signature for Java to Sign PDFs with QR Codes Containing VCards
 
 ## Introduction

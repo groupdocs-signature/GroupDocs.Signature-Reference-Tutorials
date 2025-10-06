@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用してテキスト透かし署名を適用する"
 "url": "/ja/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用してテキスト透かし署名を適用する方法
 
 ## 導入

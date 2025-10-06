@@ -5,8 +5,8 @@
 "title": "使用數位簽章保護您的 .NET 文件 | 完整指南"
 "url": "/zh-hant/net/advanced-signature-techniques/sign-with-digital/"
 "weight": 12
+type: docs
 ---
-
 ## 為什麼數位簽章在現代文件管理中如此重要
 
 在當今的數位世界中，確保電子文件的真實性和完整性不僅是良好做法，更是至關重要。數位簽名提供了至關重要的安全保障，讓收件人知道您的文件合法，並且自簽名以來未被篡改。

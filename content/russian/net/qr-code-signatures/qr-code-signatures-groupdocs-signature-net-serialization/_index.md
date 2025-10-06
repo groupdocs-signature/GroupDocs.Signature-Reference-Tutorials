@@ -4,8 +4,8 @@
 "title": "Реализация подписей QR-кодов в .NET с пользовательской сериализацией с помощью GroupDocs.Signature"
 "url": "/ru/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Реализация подписей QR-кодов с пользовательской сериализацией в .NET с использованием GroupDocs.Signature
 
 ## Введение

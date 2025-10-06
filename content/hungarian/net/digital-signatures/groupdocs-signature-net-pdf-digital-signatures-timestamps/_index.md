@@ -4,8 +4,8 @@
 "title": "PDF digitális aláírások időbélyegzőkkel való megvalósítása a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # PDF digitális aláírások időbélyegzőkkel való megvalósítása a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

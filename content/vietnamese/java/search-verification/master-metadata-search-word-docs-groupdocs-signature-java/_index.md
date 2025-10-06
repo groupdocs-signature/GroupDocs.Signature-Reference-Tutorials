@@ -4,8 +4,8 @@
 "title": "Tìm kiếm siêu dữ liệu chuyên sâu trong Word Docs với GroupDocs.Signature cho Java"
 "url": "/vi/java/search-verification/master-metadata-search-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ tìm kiếm siêu dữ liệu trong tài liệu Word bằng GroupDocs.Signature cho Java
 
 Việc trích xuất siêu dữ liệu từ tài liệu Word có thể được đơn giản hóa với thư viện GroupDocs.Signature mạnh mẽ. Hướng dẫn này sẽ hướng dẫn bạn cách triển khai tính năng tìm kiếm chữ ký siêu dữ liệu trong tài liệu Word bằng Java.

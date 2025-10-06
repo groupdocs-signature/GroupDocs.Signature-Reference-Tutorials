@@ -5,8 +5,8 @@
 "title": "Aperçu complet des documents et opérations de gestion"
 "url": "/fr/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # Opérations d'aperçu de document
 
 ## Introduction

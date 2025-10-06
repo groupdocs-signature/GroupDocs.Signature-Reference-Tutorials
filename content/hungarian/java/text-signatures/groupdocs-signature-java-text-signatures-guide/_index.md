@@ -4,8 +4,8 @@
 "title": "Mesterszintű szövegaláírások Java nyelven – Átfogó útmutató a GroupDocs.Signature for Java használatához"
 "url": "/hu/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum aláírásának elsajátítása Java nyelven: Átfogó útmutató a GroupDocs.Signature szöveges aláírásokhoz való használatához
 
 ## Bevezetés

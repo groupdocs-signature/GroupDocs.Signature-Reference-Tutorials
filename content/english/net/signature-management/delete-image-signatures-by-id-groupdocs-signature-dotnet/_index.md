@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["groupdocs", "signatures", "dotnet", "pdf-management"]
+type: docs
 ---
-
 # How to Delete Image Signatures in .NET
 
 ## Introduction

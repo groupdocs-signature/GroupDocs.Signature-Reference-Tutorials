@@ -4,8 +4,8 @@
 "title": "Δημιουργήστε προεπισκοπήσεις σελίδων PDF χρησιμοποιώντας το GroupDocs.Signature για .NET™ Ένας πλήρης οδηγός"
 "url": "/el/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Δημιουργία προεπισκοπήσεων σελίδων PDF χρησιμοποιώντας το GroupDocs.Signature για .NET: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

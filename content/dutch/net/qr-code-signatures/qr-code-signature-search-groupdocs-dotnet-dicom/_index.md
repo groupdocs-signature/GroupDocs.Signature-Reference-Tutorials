@@ -4,8 +4,8 @@
 "title": "QR-code handtekening zoeken in DICOM met GroupDocs.Signature voor .NET&#58; een complete gids"
 "url": "/nl/net/qr-code-signatures/qr-code-signature-search-groupdocs-dotnet-dicom/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u QR-codehandtekeningzoekopdrachten in afbeeldingen met meerdere lagen implementeert met behulp van GroupDocs.Signature voor .NET
 
 ## Invoering

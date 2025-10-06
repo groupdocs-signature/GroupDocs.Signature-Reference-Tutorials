@@ -5,8 +5,8 @@
 "title": "Как удалить цифровые подписи из документов в .NET"
 "url": "/ru/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # Как удалить цифровые подписи из документов с помощью GroupDocs.Signature
 
 ## Почему важно управление цифровой подписью

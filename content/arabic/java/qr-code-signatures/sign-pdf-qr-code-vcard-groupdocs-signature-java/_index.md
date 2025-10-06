@@ -4,8 +4,8 @@
 "title": "توقيع ملفات PDF باستخدام بطاقة VCard برمز الاستجابة السريعة باستخدام GroupDocs.Signature for Java&#58; دليل خطوة بخطوة"
 "url": "/ar/java/qr-code-signatures/sign-pdf-qr-code-vcard-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية استخدام GroupDocs.Signature لـ Java لتوقيع ملفات PDF باستخدام رموز QR التي تحتوي على بطاقات VCard
 
 ## مقدمة

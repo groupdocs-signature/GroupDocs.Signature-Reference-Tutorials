@@ -1,3 +1,6 @@
+---
+type: docs
+---
 
 ---
 title: "PDF QR Code Signature .NET - Complete GroupDocs Implementation"

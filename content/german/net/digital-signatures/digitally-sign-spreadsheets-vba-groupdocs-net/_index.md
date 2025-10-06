@@ -4,8 +4,8 @@
 "title": "Excel-Tabellen und VBA-Projekte digital signieren mit GroupDocs.Signature für .NET"
 "url": "/de/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Digitales Signieren von Excel-Tabellen und deren VBA-Projekten mit GroupDocs.Signature für .NET
 
 Im digitalen Zeitalter ist die Authentizität Ihrer Excel-Dateien entscheidend. Ob Finanztabellen oder Projektpläne – eine digitale Signatur schützt vor unbefugten Änderungen. Dieses Tutorial führt Sie durch die digitale Signatur von Tabellenkalkulationsdokumenten und deren VBA-Projekten mit **GroupDocs.Signature für .NET**.

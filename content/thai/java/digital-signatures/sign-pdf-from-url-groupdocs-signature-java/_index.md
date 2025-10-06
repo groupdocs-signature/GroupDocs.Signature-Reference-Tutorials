@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามใน PDF จาก URL โดยใช้ GroupDocs.Signature สำหรับ Java และบทช่วยสอนลายเซ็นดิจิทัล"
 "url": "/th/java/digital-signatures/sign-pdf-from-url-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนาม PDF จาก URL โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

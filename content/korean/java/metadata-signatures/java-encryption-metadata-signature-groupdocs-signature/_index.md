@@ -4,8 +4,8 @@
 "title": "Java 암호화 및 메타데이터 서명&#58; GroupDocs.Signature를 사용한 안전한 문서 처리"
 "url": "/ko/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java를 사용하여 Java 암호화 및 메타데이터 서명 검색 구현
 
 ## 소개

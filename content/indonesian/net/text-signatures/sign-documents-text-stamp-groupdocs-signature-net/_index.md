@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen dengan Stempel Teks Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen dengan Stempel Teks Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -5,8 +5,8 @@
 "title": "Hoạt động quản lý và xem trước tài liệu toàn diện"
 "url": "/vi/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # Hoạt động xem trước tài liệu
 
 ## Giới thiệu

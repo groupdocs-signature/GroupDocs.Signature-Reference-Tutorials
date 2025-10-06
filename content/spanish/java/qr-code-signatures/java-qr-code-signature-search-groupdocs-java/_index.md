@@ -4,8 +4,8 @@
 "title": "Búsqueda de firmas de códigos QR de Java con GroupDocs para desarrolladores de Java"
 "url": "/es/java/qr-code-signatures/java-qr-code-signature-search-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Búsqueda de firmas de códigos QR de Java con GroupDocs para desarrolladores de Java
 
 ## Introducción

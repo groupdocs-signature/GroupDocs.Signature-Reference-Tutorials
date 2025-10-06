@@ -4,8 +4,8 @@
 "title": "Hoe u de documentprocesgeschiedenis kunt ophalen met GroupDocs.Signature voor .NET&#58; een stapsgewijze handleiding"
 "url": "/nl/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u de documentprocesgeschiedenis kunt ophalen met GroupDocs.Signature voor .NET: een stapsgewijze handleiding
 
 ## Invoering

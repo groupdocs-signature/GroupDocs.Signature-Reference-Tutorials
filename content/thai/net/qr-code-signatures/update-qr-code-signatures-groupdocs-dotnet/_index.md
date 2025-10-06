@@ -4,8 +4,8 @@
 "title": "วิธีอัปเดตลายเซ็น QR Code ในเอกสาร .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/qr-code-signatures/update-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีอัปเดตลายเซ็น QR Code ในเอกสาร .NET โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

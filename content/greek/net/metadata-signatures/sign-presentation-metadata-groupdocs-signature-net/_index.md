@@ -4,8 +4,8 @@
 "title": "Υπογραφή εγγράφων παρουσίασης με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα έγγραφο παρουσίασης με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

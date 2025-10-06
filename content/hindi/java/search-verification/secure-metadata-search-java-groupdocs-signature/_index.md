@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में सुरक्षित मेटाडेटा खोज - एक व्यापक मार्गदर्शिका"
 "url": "/hi/java/search-verification/secure-metadata-search-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके जावा में सुरक्षित मेटाडेटा खोज
 
 ## परिचय

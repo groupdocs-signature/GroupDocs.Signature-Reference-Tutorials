@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["signature-tracking", "workflow-monitoring", "document-history"]
+type: docs
 ---
-
 # How to View Document Processing History in .NET Applications
 
 Ever find yourself wondering what exactly happened to that important contract after you sent it out for signatures? You're not alone. Many developers struggle with tracking document workflows, especially when dealing with multiple signers, failed attempts, or complex approval processes.

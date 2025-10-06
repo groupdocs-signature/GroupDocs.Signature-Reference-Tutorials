@@ -4,8 +4,8 @@
 "title": "Opérations sur les fichiers maîtres et mises à jour des signatures avec GroupDocs.Signature pour .NET | Guide pour une gestion efficace des documents"
 "url": "/fr/net/signature-management/master-file-operations-update-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Opérations sur les fichiers maîtres et mises à jour des signatures avec GroupDocs.Signature pour .NET | Guide pour une gestion efficace des documents
 
 Gérer efficacement les flux de travail documentaires est crucial dans le monde des affaires actuel. Que vous effectuiez des opérations sur des fichiers ou que vous ayez besoin de mettre à jour des signatures par programmation, **GroupDocs.Signature pour .NET** Fournit des solutions performantes. Ce tutoriel vous guidera dans la mise en œuvre d'opérations sur les fichiers et la mise à jour des signatures de texte à l'aide de cette bibliothèque polyvalente.

@@ -4,8 +4,8 @@
 "title": "Πώς να ενημερώσετε τις υπογραφές γραμμωτού κώδικα ανά αναγνωριστικό χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να ενημερώσετε τις υπογραφές γραμμωτού κώδικα ανά αναγνωριστικό χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

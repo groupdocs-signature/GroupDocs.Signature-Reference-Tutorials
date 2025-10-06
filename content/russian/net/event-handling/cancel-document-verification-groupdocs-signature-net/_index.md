@@ -4,8 +4,8 @@
 "title": "Как отменить проверку документа с помощью GroupDocs.Signature для .NET&#58; Руководство по обработке событий"
 "url": "/ru/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Как отменить проверку документа с помощью GroupDocs.Signature для .NET: руководство по обработке событий
 
 ## Введение

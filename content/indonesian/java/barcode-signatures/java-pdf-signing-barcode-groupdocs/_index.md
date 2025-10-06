@@ -4,8 +4,8 @@
 "title": "Penandatanganan PDF Java dengan Kode Batang Menggunakan GroupDocs&#58; Panduan Lengkap"
 "url": "/id/java/barcode-signatures/java-pdf-signing-barcode-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Penandatanganan PDF Java dengan Opsi Kode Batang Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

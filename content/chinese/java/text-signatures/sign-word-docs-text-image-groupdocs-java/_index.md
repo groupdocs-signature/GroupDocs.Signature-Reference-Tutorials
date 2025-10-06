@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 对带有文本作为图像的 Word 文档进行数字签名"
 "url": "/zh/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 对带有文本作为图像的 Word 文档进行数字签名
 
 ## 介绍

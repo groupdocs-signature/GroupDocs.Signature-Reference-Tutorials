@@ -4,8 +4,8 @@
 "title": "Jak pobrać informacje o pliku archiwum za pomocą GroupDocs.Signature dla języka Java"
 "url": "/pl/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # Jak pobrać informacje o pliku archiwum za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

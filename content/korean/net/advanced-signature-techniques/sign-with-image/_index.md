@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature를 사용하여 문서에 이미지 서명을 쉽게 추가하세요"
 "url": "/ko/net/advanced-signature-techniques/sign-with-image/"
 "weight": 13
+type: docs
 ---
-
 ## 소개: 이미지 서명으로 문서 보안을 혁신하세요
 
 디지털 문서를 더욱 안전하고 법적으로 유효하게 만드는 방법에 대해 생각해 보신 적 있으신가요? 이미지 서명을 추가하는 것은 문서를 인증하고 변조로부터 보호하는 가장 효과적인 방법 중 하나입니다. 이 친절한 가이드에서는 GroupDocs.Signature를 사용하여 .NET 애플리케이션에서 이미지 기반 문서 서명을 구현하는 과정을 안내해 드립니다.

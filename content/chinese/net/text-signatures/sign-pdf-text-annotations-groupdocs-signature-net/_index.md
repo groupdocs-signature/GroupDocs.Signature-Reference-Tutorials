@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 对带有文本注释的 PDF 文档进行签名"
 "url": "/zh/net/text-signatures/sign-pdf-text-annotations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 对带有文本注释的 PDF 文档进行签名
 
 ## 介绍

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET によるマスタードキュメント署名検索、QR コードと WiFi データ抽出"
 "url": "/ja/net/search-verification/master-document-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でドキュメント署名検索をマスターする
 
 今日のデジタル環境において、あらゆる業種の企業にとって、効率的なドキュメント管理と検証は不可欠です。よくある課題の一つは、Wi-Fiデータを含むQRコード署名など、特定の署名をドキュメント内で検索することです。この包括的なガイドでは、GroupDocs.Signature for .NETを使用して、Wi-Fi情報が埋め込まれたQRコード署名を検索する機能を実装する方法を解説します。

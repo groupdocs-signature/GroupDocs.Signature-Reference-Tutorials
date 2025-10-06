@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET による QR コード署名のプレビュー 包括的なガイド"
 "url": "/ja/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用した QR コード署名プレビューの実装
 
 ## 導入

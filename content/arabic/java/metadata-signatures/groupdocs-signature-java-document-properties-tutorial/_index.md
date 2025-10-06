@@ -4,8 +4,8 @@
 "title": "إتقان استرجاع خصائص المستندات باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # إتقان استرجاع خصائص المستند باستخدام GroupDocs.Signature لـ Java
 أطلق العنان لقوة إدارة المستندات من خلال استخدام GroupDocs.Signature لجافا لاسترجاع وطباعة خصائص المستندات بسهولة، مثل التنسيق والحجم وعدد الصفحات وغيرها. سيرشدك هذا البرنامج التعليمي الشامل خلال إعداد بيئتك، وتطبيق مختلف الوظائف، وتطبيق هذه الإمكانيات في سيناريوهات واقعية.
 

@@ -4,8 +4,8 @@
 "title": "Hur man implementerar krypterade metadatasignaturer med GroupDocs.Signature för .NET | En komplett guide"
 "url": "/sv/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar krypterade metadatasignaturer med GroupDocs.Signature för .NET
 
 ## Introduktion

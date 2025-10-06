@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して住所データを含む QR コード署名を抽出する | デジタル署名の自動化"
 "url": "/ja/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して住所データから QR コード署名を抽出する
 
 ## 導入

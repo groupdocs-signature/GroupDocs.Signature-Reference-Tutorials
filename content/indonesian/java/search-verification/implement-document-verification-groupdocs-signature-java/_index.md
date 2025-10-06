@@ -4,8 +4,8 @@
 "title": "Menerapkan Verifikasi Dokumen Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/search-verification/implement-document-verification-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Verifikasi Dokumen Menggunakan GroupDocs.Signature untuk Java
 
 **Perkenalan**

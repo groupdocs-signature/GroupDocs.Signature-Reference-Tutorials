@@ -4,8 +4,8 @@
 "title": "Проверка цифровой подписи Java с помощью GroupDocs.Signature&#58; пошаговое руководство"
 "url": "/ru/java/digital-signatures/java-digital-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Полное руководство по реализации проверки цифровой подписи Java с помощью GroupDocs.Signature
 
 ## Введение

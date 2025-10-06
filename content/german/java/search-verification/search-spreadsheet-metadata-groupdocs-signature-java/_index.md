@@ -4,8 +4,8 @@
 "title": "So durchsuchen Sie Tabellenkalkulationsmetadaten mit GroupDocs.Signature für Java – Ein umfassender Leitfaden"
 "url": "/de/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # So durchsuchen Sie Tabellenkalkulationsmetadaten mit GroupDocs.Signature für Java: Ein umfassender Leitfaden
 
 ## Einführung

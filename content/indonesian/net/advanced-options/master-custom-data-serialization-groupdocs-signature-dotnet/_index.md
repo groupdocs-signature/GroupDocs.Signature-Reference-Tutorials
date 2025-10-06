@@ -4,8 +4,8 @@
 "title": "Kuasai Serialisasi Data Kustom di .NET dengan Panduan Lanjutan GroupDocs.Signature"
 "url": "/id/net/advanced-options/master-custom-data-serialization-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Serialisasi Data Kustom di .NET dengan GroupDocs.Signature
 ## Perkenalan
 Dalam dunia penanganan dokumen digital, memastikan integritas data melalui serialisasi yang presisi sangatlah penting. Panduan lanjutan ini membahas cara menerapkan serialisasi data kustom menggunakan atribut dalam GroupDocs.Signature untuk .NET—solusi tangguh yang menyederhanakan penambahan tanda tangan ke dokumen. Dengan memanfaatkan aturan serialisasi spesifik dengan atribut kustom, Anda dapat menyederhanakan alur kerja dan meningkatkan keamanan data.

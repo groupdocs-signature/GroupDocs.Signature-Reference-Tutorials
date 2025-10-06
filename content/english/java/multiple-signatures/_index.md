@@ -3,8 +3,8 @@ title: "Multiple Signature Tutorials for GroupDocs.Signature Java"
 description: "Step-by-step tutorials for implementing multiple signature types together and managing complex signing scenarios with GroupDocs.Signature for Java."
 weight: 10
 url: "/java/multiple-signatures/"
+type: docs
 ---
-
 # Multiple Signature Tutorials for GroupDocs.Signature Java
 
 Learn how to create sophisticated signing workflows with our GroupDocs.Signature tutorials for multiple signatures in Java. These comprehensive guides demonstrate how to combine different signature types in a single process, implement ordered signing sequences, manage complex signature arrangements, and work with multi-page documents. Each tutorial provides detailed Java code examples for advanced signature scenarios, helping you build robust document processing applications that support complex signing requirements for enterprise and legal use cases.

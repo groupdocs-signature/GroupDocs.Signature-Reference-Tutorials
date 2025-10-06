@@ -4,8 +4,8 @@
 "title": "Как искать сигнатуры метаданных в электронных таблицах с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как искать сигнатуры метаданных в электронной таблице с помощью GroupDocs.Signature для .NET
 
 ## Введение

@@ -5,8 +5,8 @@
 "title": "Cách ký tài liệu bằng mã QR bằng GroupDocs.Signature"
 "url": "/vi/net/advanced-signature-techniques/sign-with-qr-code/"
 "weight": 15
+type: docs
 ---
-
 # Thêm chữ ký mã QR vào tài liệu bằng GroupDocs.Signature
 
 Bạn đã bao giờ tự hỏi làm thế nào để thêm một lớp bảo mật và xác thực cho tài liệu kỹ thuật số của mình chưa? Chữ ký mã QR có thể chính là thứ bạn đang tìm kiếm. Trong hướng dẫn thân thiện này, chúng tôi sẽ hướng dẫn bạn toàn bộ quy trình triển khai chữ ký mã QR bằng GroupDocs.Signature cho .NET.

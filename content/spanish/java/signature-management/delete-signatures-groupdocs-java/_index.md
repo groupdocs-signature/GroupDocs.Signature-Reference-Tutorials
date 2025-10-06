@@ -4,8 +4,8 @@
 "title": "Cómo eliminar firmas específicas de un documento usando GroupDocs.Signature para Java"
 "url": "/es/java/signature-management/delete-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cómo eliminar tipos específicos de firmas de un documento usando GroupDocs.Signature para Java
 
 ## Introducción

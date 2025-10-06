@@ -4,8 +4,8 @@
 "title": "Extrair metadados de PDF usando GroupDocs.Signature para Java - Um guia completo"
 "url": "/pt/java/preview-info/extract-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Extrair metadados de PDF usando GroupDocs.Signature para Java: um guia completo
 
 ## Introdução

@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature'da Parola İstisnalarını Ele Alma Kapsamlı Bir Kılavuz"
 "url": "/tr/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature'da Parola İstisnalarının Ele Alınması
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Tìm kiếm chữ ký hình ảnh chính trong tài liệu với GroupDocs cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # Tìm kiếm chữ ký hình ảnh chính trong tài liệu với GroupDocs cho Java: Hướng dẫn toàn diện
 
 ## Giới thiệu

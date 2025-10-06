@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用したドキュメント署名における進捗イベント処理の実装"
 "url": "/ja/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用したドキュメント署名における進捗イベント処理の実装
 
 ## 導入

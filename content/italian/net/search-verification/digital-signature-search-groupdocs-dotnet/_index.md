@@ -4,8 +4,8 @@
 "title": "Ricerca di firme digitali con GroupDocs.Signature per .NET&#58; una guida completa"
 "url": "/it/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare la ricerca di firme digitali in un documento utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

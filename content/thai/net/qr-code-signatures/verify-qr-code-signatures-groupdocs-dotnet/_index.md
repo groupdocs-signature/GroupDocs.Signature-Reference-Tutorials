@@ -4,8 +4,8 @@
 "title": "วิธีการตรวจสอบลายเซ็น QR Code ใน .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/qr-code-signatures/verify-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำการตรวจสอบลายเซ็น QR Code ไปใช้โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

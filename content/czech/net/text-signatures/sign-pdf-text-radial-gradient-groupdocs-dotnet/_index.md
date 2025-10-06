@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory textovým podpisem a radiálním gradientem v .NET pomocí GroupDocs.Signature"
 "url": "/cs/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat PDF soubory textovým podpisem a radiálním gradientem v .NET pomocí GroupDocs.Signature
 
 ## Zavedení

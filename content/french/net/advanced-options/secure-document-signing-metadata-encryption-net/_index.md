@@ -4,8 +4,8 @@
 "title": "Maîtrisez la signature sécurisée de documents avec métadonnées et chiffrement personnalisé dans .NET à l'aide de GroupDocs.Signature"
 "url": "/fr/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Maîtrisez la signature sécurisée de documents avec métadonnées et chiffrement personnalisé dans .NET
 
 ## Introduction

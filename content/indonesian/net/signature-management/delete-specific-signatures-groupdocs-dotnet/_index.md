@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Tanda Tangan Tertentu dalam Dokumen Menggunakan GroupDocs.Signature untuk .NET | Tutorial Manajemen Tanda Tangan"
 "url": "/id/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Tertentu dalam Dokumen Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

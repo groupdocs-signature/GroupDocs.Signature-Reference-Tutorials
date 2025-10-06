@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 更新 .NET 文档中的二维码签名"
 "url": "/zh/net/qr-code-signatures/update-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 更新 .NET 文档中的二维码签名
 
 ## 介绍

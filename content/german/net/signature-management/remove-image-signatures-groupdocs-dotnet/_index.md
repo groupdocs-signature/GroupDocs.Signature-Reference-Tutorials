@@ -4,8 +4,8 @@
 "title": "So entfernen Sie Bildsignaturen aus Dokumenten mit GroupDocs.Signature für .NET"
 "url": "/de/net/signature-management/remove-image-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So entfernen Sie Bildsignaturen aus einem Dokument mit GroupDocs.Signature für .NET
 
 ## Einführung

@@ -4,8 +4,8 @@
 "title": "تنفيذ تشفير XOR في .NET باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/net/advanced-options/xor-encryption-dotnet-groupdocs-signature-integration-guide/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ تشفير XOR في .NET باستخدام GroupDocs.Signature: دليل شامل
 
 ## مقدمة

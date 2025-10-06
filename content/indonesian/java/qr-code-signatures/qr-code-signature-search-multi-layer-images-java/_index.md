@@ -4,8 +4,8 @@
 "title": "Implementasi Pencarian Tanda Tangan Kode QR dalam Gambar Multi-Lapisan menggunakan Java dan GroupDocs.Signature"
 "url": "/id/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pencarian Tanda Tangan Kode QR dalam Dokumen Gambar Multi-Layer Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

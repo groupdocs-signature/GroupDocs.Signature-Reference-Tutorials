@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java를 사용하여 텍스트가 포함된 PDF에 서명하는 방법 - 포괄적인 가이드"
 "url": "/ko/java/text-signatures/sign-pdf-text-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 텍스트로 PDF에 서명하는 방법
 
 ## 소개

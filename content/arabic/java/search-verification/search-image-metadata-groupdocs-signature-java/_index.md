@@ -4,8 +4,8 @@
 "title": "كيفية البحث عن بيانات تعريف الصور باستخدام GroupDocs.Signature في Java - دليل شامل"
 "url": "/ar/java/search-verification/search-image-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية البحث عن بيانات تعريف الصور باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

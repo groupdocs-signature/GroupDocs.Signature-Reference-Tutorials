@@ -4,8 +4,8 @@
 "title": "Hoe u QR-codehandtekeningzoekopdrachten voor HIBC LIC-gegevens in PDF's implementeert met behulp van GroupDocs.Signature voor Java"
 "url": "/nl/java/qr-code-signatures/implement-qr-code-signature-search-hibc-primary-data-java/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u QR-codehandtekeningzoekopdrachten voor HIBC LIC-gegevens in PDF's implementeert met behulp van GroupDocs.Signature voor Java
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature&#58; के साथ .NET में डिजिटल हस्ताक्षर सत्यापित करें एक संपूर्ण गाइड"
 "url": "/hi/net/digital-signatures/digital-signature-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ .NET में डिजिटल हस्ताक्षर सत्यापित करें: एक संपूर्ण गाइड
 
 ## परिचय

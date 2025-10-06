@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["groupdocs", "image-signing", "dotnet", "digital-signatures"]
+type: docs
 ---
-
 # How to Sign Image Documents in .NET
 
 ## Why Digital Image Signatures Matter (And How to Implement Them)

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["GroupDocs", "PDF", "Digital Signature", "C#", ".NET"]
+type: docs
 ---
-
 # PDF Digital Signature Preview .NET: Complete GroupDocs Implementation Guide
 
 ## Why You Need Digital Signature Previews (And How to Get Them Right)

@@ -4,8 +4,8 @@
 "title": "Veilige documentondertekening met QR-codes in .NET met GroupDocs.Signature"
 "url": "/nl/net/qr-code-signatures/groupdocs-signature-dotnet-qr-code-pdf-signing/"
 "weight": 1
+type: docs
 ---
-
 # Veilige documentondertekening met QR-codes in .NET met GroupDocs.Signature voor .NET
 
 ## Invoering

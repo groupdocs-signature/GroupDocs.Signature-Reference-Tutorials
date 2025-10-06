@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ Java GroupDocs.Signature - استرجاع وعرض سجل عملية المستند"
 "url": "/ar/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ Java GroupDocs.Signature: استرداد وعرض سجل عملية المستند
 
 ## مقدمة

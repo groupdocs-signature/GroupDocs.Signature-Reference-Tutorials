@@ -4,8 +4,8 @@
 "title": "Tự động trích xuất siêu dữ liệu trong bảng tính bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Tự động trích xuất siêu dữ liệu trong bảng tính với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

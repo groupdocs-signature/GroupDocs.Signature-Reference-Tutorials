@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Metin ve Onay Kutusu ile PDF İmzası Uygulama"
 "url": "/tr/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Metin ve Onay Kutusu ile PDF İmzası Uygulama
 
 ## Form Alanı İmzaları

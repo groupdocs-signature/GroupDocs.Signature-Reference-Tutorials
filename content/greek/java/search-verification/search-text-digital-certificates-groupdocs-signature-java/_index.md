@@ -4,8 +4,8 @@
 "title": "Εξοικείωση με την αναζήτηση ψηφιακών πιστοποιητικών με το GroupDocs.Signature για Java"
 "url": "/el/java/search-verification/search-text-digital-certificates-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την αναζήτηση ψηφιακών πιστοποιητικών με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

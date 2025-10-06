@@ -5,8 +5,8 @@
 "title": "Como gerar visualizações de documentos em aplicativos .NET | Tutorial rápido"
 "url": "/pt/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # Como gerar visualizações de documentos em seus aplicativos .NET
 
 ## Introdução

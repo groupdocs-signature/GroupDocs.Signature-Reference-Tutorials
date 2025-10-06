@@ -5,8 +5,8 @@
 "title": "使用 GroupDocs.Signature 輕鬆擷取電子表格元數據"
 "url": "/zh-hant/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 從電子表格中提取元數據
 
 ## 電子表格元資料為何重要

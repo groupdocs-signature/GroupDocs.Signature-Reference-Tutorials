@@ -9,8 +9,8 @@ weight: 1
 url: "/net/search-verification/verify-digital-certificates-aspose-signature-dotnet/"
 categories: ["Digital Security"]
 tags: ["digital-certificates", "document-verification", "aspose-signature", "dotnet-security"]
+type: docs
 ---
-
 # How to Verify Digital Certificates in .NET Applications
 
 ## Introduction

@@ -5,8 +5,8 @@
 "title": "Adicionar assinaturas de código de barras seguras a documentos .NET | Guia completo"
 "url": "/pt/net/advanced-signature-techniques/sign-with-barcode/"
 "weight": 11
+type: docs
 ---
-
 ## Como as assinaturas de código de barras podem melhorar a segurança dos seus documentos?
 
 No mundo digital de hoje, a segurança de documentos não é apenas algo bom de se ter, é essencial. Assinaturas de código de barras oferecem uma maneira única de autenticar e proteger seus arquivos importantes. Com o GroupDocs.Signature para .NET, implementar esses poderosos recursos de segurança é surpreendentemente simples.

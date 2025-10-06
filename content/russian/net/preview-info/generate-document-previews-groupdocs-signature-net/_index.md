@@ -4,8 +4,8 @@
 "title": "Создание предпросмотров документов в архивах с помощью GroupDocs.Signature для .NET. Полное руководство."
 "url": "/ru/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Создание предпросмотров документов из архивов с помощью GroupDocs.Signature для .NET
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "Jak odstranit digitální podpisy z PDF souborů pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/signature-management/remove-digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit digitální podpisy z PDF souborů pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

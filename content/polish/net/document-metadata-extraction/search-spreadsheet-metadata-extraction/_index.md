@@ -5,8 +5,8 @@
 "title": "Łatwe wyodrębnianie metadanych z arkusza kalkulacyjnego za pomocą GroupDocs.Signature"
 "url": "/pl/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # Jak wyodrębnić metadane z arkuszy kalkulacyjnych za pomocą GroupDocs.Signature
 
 ## Dlaczego metadane arkusza kalkulacyjnego są ważne

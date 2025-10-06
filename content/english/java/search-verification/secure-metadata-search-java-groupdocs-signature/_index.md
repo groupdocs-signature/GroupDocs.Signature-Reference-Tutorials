@@ -8,10 +8,8 @@ keywords:
 - secure metadata search
 - GroupDocs.Signature for Java
 - symmetric encryption in Java
-
+type: docs
 ---
-
-
 # Secure Metadata Search in Java Using GroupDocs.Signature
 
 ## Introduction

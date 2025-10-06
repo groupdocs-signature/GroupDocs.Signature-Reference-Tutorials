@@ -5,8 +5,8 @@
 "title": ".NET में आसानी से दस्तावेज़ हस्ताक्षर इतिहास ट्रैक करें"
 "url": "/hi/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # .NET में अपने दस्तावेज़ के हस्ताक्षर इतिहास को कैसे ट्रैक करें
 
 ## GroupDocs.Signature आपके लिए क्या कर सकता है?

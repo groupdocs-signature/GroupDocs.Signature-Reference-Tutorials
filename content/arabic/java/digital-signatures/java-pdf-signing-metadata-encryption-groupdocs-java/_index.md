@@ -4,8 +4,8 @@
 "title": "توقيع ملفات PDF باستخدام Java مع البيانات الوصفية والتشفير باستخدام GroupDocs - دليل شامل"
 "url": "/ar/java/digital-signatures/java-pdf-signing-metadata-encryption-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # إتقان توقيع ملفات PDF باستخدام Java مع البيانات الوصفية والتشفير باستخدام GroupDocs
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Ondertekenen en verifiëren van hoofddocumenten met GroupDocs.Signature voor .NET"
 "url": "/nl/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Ondertekenen en verifiëren van hoofddocumenten met GroupDocs.Signature voor .NET
 
 ## Hoe u het ondertekenen en verifiëren van documenten onder de knie krijgt met GroupDocs.Signature voor .NET

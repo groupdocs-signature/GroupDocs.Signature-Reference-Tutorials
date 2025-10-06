@@ -4,8 +4,8 @@
 "title": "Jak podpisywać pliki PDF za pomocą pól formularzy z przyciskami radiowymi w GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisać plik PDF za pomocą pól formularza z przyciskami radiowymi w GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

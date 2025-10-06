@@ -4,8 +4,8 @@
 "title": "Implementeer aangepaste metagegevens in Java met behulp van GroupDocs.Signature voor verbeterde documentondertekening"
 "url": "/nl/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Aangepaste metagegevens implementeren in Java met GroupDocs.Signature
 
 ## Invoering

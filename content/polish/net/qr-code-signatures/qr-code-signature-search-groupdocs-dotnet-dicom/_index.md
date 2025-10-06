@@ -4,8 +4,8 @@
 "title": "Wyszukiwanie podpisów kodów QR w DICOM za pomocą GroupDocs.Signature dla .NET&#58; Kompletny przewodnik"
 "url": "/pl/net/qr-code-signatures/qr-code-signature-search-groupdocs-dotnet-dicom/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć wyszukiwanie podpisów kodów QR w obrazach wielowarstwowych za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

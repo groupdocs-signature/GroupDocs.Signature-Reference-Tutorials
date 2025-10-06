@@ -4,8 +4,8 @@
 "title": "ดึงข้อมูลลายเซ็น QR Code พร้อมข้อมูลที่อยู่โดยใช้ GroupDocs.Signature สำหรับ .NET | การทำงานอัตโนมัติของลายเซ็นดิจิทัล"
 "url": "/th/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # การแยกลายเซ็น QR Code ด้วยข้อมูลที่อยู่โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

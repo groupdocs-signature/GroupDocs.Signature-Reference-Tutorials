@@ -4,8 +4,8 @@
 "title": "การนำ Text Signature ไปใช้งานกับ Solid Brush ใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # การนำลายเซ็นข้อความไปใช้งานด้วย Solid Brush ใน Java
 
 ## การแนะนำ

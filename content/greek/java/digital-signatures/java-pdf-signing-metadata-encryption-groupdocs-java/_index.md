@@ -4,8 +4,8 @@
 "title": "Υπογραφή PDF σε Java με μεταδεδομένα και κρυπτογράφηση χρησιμοποιώντας το GroupDocs™ Ένας ολοκληρωμένος οδηγός"
 "url": "/el/java/digital-signatures/java-pdf-signing-metadata-encryption-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την υπογραφή PDF σε Java με μεταδεδομένα και κρυπτογράφηση χρησιμοποιώντας το GroupDocs
 
 ## Εισαγωγή

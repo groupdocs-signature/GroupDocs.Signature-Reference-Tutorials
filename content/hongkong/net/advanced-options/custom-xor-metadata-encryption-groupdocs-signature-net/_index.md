@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 進行進階 XOR 元資料加密－完整指南"
 "url": "/zh-hant/net/advanced-options/custom-xor-metadata-encryption-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 進行進階 XOR 元資料加密
 
 ## 介紹

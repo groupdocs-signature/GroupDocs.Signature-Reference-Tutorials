@@ -4,8 +4,8 @@
 "title": "Implementace polí formuláře ComboBox v PDF pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Implementace polí formuláře ComboBox v PDF pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

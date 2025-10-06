@@ -4,8 +4,8 @@
 "title": "QR-codehandtekeningen in PDF's bijwerken met GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/qr-code-signatures/update-qr-code-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # QR-codehandtekeningen in pdf's bijwerken met GroupDocs.Signature voor Java: een uitgebreide handleiding
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "วิธีการใช้การค้นหาข้อมูลเมตาใน .NET โดยใช้ GroupDocs.Signature&#58; คำแนะนำทีละขั้นตอน"
 "url": "/th/net/metadata-signatures/implement-metadata-search-net-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้การค้นหาข้อมูลเมตาใน .NET โดยใช้ GroupDocs.Signature: คำแนะนำทีละขั้นตอน
 
 ## การแนะนำ

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["dotnet", "signatures", "document-verification", "csharp", "groupdocs"]
+type: docs
 ---
-
 # Text Signature Search .NET - Complete Developer Guide
 
 Ever spent hours manually checking documents for signatures? Or worse, had to verify hundreds of contracts one by one? If you're building .NET applications that handle document processing, you've probably faced this challenge. The good news? **Text signature search in .NET** doesn't have to be a pain.

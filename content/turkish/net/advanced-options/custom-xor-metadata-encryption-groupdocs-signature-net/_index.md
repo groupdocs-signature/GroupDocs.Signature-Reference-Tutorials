@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature ile Gelişmiş XOR Meta Veri Şifrelemesi - Eksiksiz Bir Kılavuz"
 "url": "/tr/net/advanced-options/custom-xor-metadata-encryption-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature ile Gelişmiş XOR Meta Veri Şifrelemesi
 
 ## giriiş

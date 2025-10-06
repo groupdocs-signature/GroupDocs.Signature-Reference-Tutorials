@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature का उपयोग करके PDF में कॉम्बोबॉक्स फ़ॉर्म फ़ील्ड लागू करें"
 "url": "/hi/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके PDF में कॉम्बोबॉक्स फ़ॉर्म फ़ील्ड लागू करें
 
 ## परिचय

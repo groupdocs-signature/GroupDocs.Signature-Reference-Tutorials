@@ -4,8 +4,8 @@
 "title": "Implementierung der Java-Textsignatursuche mit GroupDocs.Signature für Dokumentenverwaltung und -überprüfung"
 "url": "/de/java/search-verification/java-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren der Java-Textsignatursuche mit GroupDocs.Signature
 
 ## Einführung

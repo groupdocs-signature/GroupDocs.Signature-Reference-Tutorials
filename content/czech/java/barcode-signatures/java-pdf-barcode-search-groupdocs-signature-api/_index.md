@@ -4,8 +4,8 @@
 "title": "Vyhledávání čárových kódů v PDF v Javě pomocí rozhraní GroupDocs.Signature API – Komplexní průvodce"
 "url": "/cs/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
 "weight": 1
+type: docs
 ---
-
 # Implementace Javy: Vyhledávání čárových kódů PDF pomocí GroupDocs.Signature API tutoriál
 
 ## Zavedení

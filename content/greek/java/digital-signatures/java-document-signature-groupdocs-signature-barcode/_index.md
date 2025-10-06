@@ -4,8 +4,8 @@
 "title": "Υπογραφές κύριων εγγράφων σε Java με τον οδηγό υπογραφής γραμμωτού κώδικα GroupDocs.Signature"
 "url": "/el/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # Κατανόηση υπογραφών εγγράφων σε Java με το GroupDocs.Signature
 
 **Βελτιστοποιήστε τις ροές εργασίας των ψηφιακών εγγράφων σας υπογράφοντας, επαληθεύοντας, αναζητώντας, ενημερώνοντας και διαγράφοντας υπογραφές γραμμωτού κώδικα χρησιμοποιώντας το GroupDocs.Signature για Java.**

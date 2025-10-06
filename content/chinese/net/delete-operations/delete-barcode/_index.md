@@ -5,8 +5,8 @@
 "title": "如何使用 .NET 从文档中删除条形码"
 "url": "/zh/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # 如何使用 .NET 从文档中删除条形码
 
 ## 为什么需要删除条形码？

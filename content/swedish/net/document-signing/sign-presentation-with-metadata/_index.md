@@ -5,8 +5,8 @@
 "title": "Förbättra PowerPoint-presentationer med metadatasignaturer i C# .NET"
 "url": "/sv/net/document-signing/sign-presentation-with-metadata/"
 "weight": 12
+type: docs
 ---
-
 ## Introduktion
 
 I dagens digitala arbetsplats är presentationer viktiga verktyg för kommunikation och informationsdelning. Att säkerställa äktheten och integriteten hos dessa presentationsfiler blir allt viktigare, särskilt i företags- och utbildningsmiljöer. Ett effektivt sätt att förbättra presentationssäkerhet och spårbarhet är att bädda in metadatasignaturer.

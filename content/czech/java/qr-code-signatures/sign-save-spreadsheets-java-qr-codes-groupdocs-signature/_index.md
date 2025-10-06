@@ -4,8 +4,8 @@
 "title": "Podepisování a ukládání tabulek Excelu pomocí QR kódů v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Podepisování a ukládání tabulek Excelu pomocí QR kódů v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Реализация проверки текстовой подписи в .NET с использованием GroupDocs.Signature для безопасного управления документами"
 "url": "/ru/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Реализация проверки текстовой подписи в .NET с помощью GroupDocs.Signature
 ## Поиск и проверка
 **SEO-ссылка**: implement-text-signature-verification-groupdocs-net

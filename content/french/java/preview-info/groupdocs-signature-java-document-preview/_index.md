@@ -4,8 +4,8 @@
 "title": "Implémenter la génération d'aperçus de documents en Java avec GroupDocs.Signature - Un guide complet"
 "url": "/fr/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # Implémentation de la génération d'aperçus de documents en Java avec GroupDocs.Signature
 
 ## Introduction

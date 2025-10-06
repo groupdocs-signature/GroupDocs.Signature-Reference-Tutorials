@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 암호화된 메타데이터 서명을 구현하는 방법 | 완벽한 가이드"
 "url": "/ko/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 암호화된 메타데이터 서명을 구현하는 방법
 
 ## 소개

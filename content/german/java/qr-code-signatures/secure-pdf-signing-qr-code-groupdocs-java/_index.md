@@ -4,8 +4,8 @@
 "title": "Implementieren Sie sichere PDF-Signaturen mit QR-Code-Verschlüsselung in Java mithilfe von GroupDocs.Signature"
 "url": "/de/java/qr-code-signatures/secure-pdf-signing-qr-code-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie sichere PDF-Signaturen mit QR-Code-Verschlüsselung in Java mithilfe von GroupDocs.Signature
 
 Im digitalen Zeitalter ist die Sicherung sensibler Informationen in Dokumenten von größter Bedeutung. Die zunehmende Cyber-Bedrohungslage hat die Datenverschlüsselung zu einem wesentlichen Bestandteil des Dokumentenmanagements gemacht. Dieses Tutorial führt Sie durch die Implementierung sicherer PDF-Signaturen mit QR-Code-Verschlüsselung und GroupDocs.Signature für Java. Am Ende dieses Artikels sind Sie in der Lage, robuste Sicherheitsfunktionen in Ihre Anwendungen zu integrieren.

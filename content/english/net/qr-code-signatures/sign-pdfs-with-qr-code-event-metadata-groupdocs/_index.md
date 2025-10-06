@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["pdf-signing", "qr-codes", "groupdocs", "dotnet", "document-security"]
+type: docs
 ---
-
 # PDF Digital Signature .NET - Complete QR Code Implementation
 
 ## Introduction

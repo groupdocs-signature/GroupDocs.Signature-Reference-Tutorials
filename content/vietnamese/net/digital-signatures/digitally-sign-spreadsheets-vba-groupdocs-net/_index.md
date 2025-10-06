@@ -4,8 +4,8 @@
 "title": "Ký số vào bảng tính Excel và dự án VBA bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Chữ ký số cho bảng tính Excel và các dự án VBA của chúng với GroupDocs.Signature cho .NET
 
 Trong thời đại kỹ thuật số ngày nay, việc đảm bảo tính xác thực của các tệp Excel là vô cùng quan trọng. Cho dù quản lý bảng tính tài chính hay kế hoạch dự án, việc thêm chữ ký số có thể bảo vệ bạn khỏi những thay đổi trái phép. Hướng dẫn này sẽ hướng dẫn bạn cách ký số cả tài liệu bảng tính và dự án VBA bằng... **GroupDocs.Signature cho .NET**.

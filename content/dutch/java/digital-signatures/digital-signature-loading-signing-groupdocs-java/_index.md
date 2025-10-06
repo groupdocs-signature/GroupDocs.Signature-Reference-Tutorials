@@ -4,8 +4,8 @@
 "title": "Hoe u het laden en ondertekenen van digitale handtekeningen implementeert met GroupDocs.Signature voor Java"
 "url": "/nl/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u het laden en ondertekenen van digitale handtekeningen implementeert met GroupDocs.Signature voor Java
 
 ## Invoering

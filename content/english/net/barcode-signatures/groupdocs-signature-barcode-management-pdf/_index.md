@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Management"]
 tags: ["barcode-signatures", "groupdocs", "pdf-processing", "dotnet"]
+type: docs
 ---
-
 # PDF Barcode Signature .NET: Complete Management Guide
 
 ## Introduction

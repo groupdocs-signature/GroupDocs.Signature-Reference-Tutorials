@@ -4,8 +4,8 @@
 "title": "Aktualisieren Sie QR-Codes in .NET mit GroupDocs.Signature – Ein umfassender Leitfaden"
 "url": "/de/net/qr-code-signatures/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # QR-Codes in .NET mit GroupDocs.Signature aktualisieren: Ein umfassender Leitfaden
 
 ## Einführung

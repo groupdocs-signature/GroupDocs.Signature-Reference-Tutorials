@@ -4,8 +4,8 @@
 "title": "Tìm kiếm và trích xuất chữ ký siêu dữ liệu PDF bằng GroupDocs trong .NET"
 "url": "/vi/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Tìm kiếm và trích xuất chữ ký siêu dữ liệu PDF bằng GroupDocs trong .NET
 
 ## Giới thiệu

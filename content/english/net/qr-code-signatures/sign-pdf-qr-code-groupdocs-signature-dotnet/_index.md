@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing", "Digital Signatures"]
 tags: ["pdf-signature", "qr-code", "groupdocs", "csharp", "contact-sharing"]
+type: docs
 ---
-
 # PDF Digital Signature with QR Code
 
 ## Why QR Code Signatures Are Game-Changers for Modern Documents

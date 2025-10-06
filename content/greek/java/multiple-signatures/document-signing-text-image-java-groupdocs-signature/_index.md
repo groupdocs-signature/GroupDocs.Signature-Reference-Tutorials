@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε έγγραφα με υπογραφή εικόνας κειμένου σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την υπογραφή εγγράφων με υπογραφή εικόνας κειμένου χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

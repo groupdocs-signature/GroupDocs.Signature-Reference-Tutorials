@@ -4,8 +4,8 @@
 "title": "การค้นหาเอกสารหลักด้วย GroupDocs.Signature สำหรับคู่มือการตรวจสอบลายเซ็นบาร์โค้ด .NET"
 "url": "/th/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การค้นหาเอกสารด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

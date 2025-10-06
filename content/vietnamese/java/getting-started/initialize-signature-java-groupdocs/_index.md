@@ -4,8 +4,8 @@
 "title": "Cách khởi tạo phiên bản chữ ký trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cách khởi tạo phiên bản chữ ký trong Java bằng GroupDocs.Signature
 
 ## Giới thiệu

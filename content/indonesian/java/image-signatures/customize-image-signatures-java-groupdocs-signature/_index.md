@@ -4,8 +4,8 @@
 "title": "Cara Menyesuaikan Tanda Tangan Gambar di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/image-signatures/customize-image-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Tanda Tangan Gambar yang Disesuaikan Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Belge Bütünlüğü için GroupDocs.Signature ile .NET'te Ana Barkod Doğrulaması"
 "url": "/tr/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile .NET'te Barkod Doğrulamada Uzmanlaşma
 
 ## giriiş

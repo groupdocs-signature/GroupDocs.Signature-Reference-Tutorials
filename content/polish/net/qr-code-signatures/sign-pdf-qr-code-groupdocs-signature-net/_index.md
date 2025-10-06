@@ -4,8 +4,8 @@
 "title": "Jak podpisywać dokumenty PDF kodami QR za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/qr-code-signatures/sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisać dokument PDF kodem QR za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

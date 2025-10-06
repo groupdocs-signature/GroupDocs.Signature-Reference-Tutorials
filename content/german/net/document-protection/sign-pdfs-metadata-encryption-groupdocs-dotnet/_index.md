@@ -4,8 +4,8 @@
 "title": "So signieren Sie PDFs mit Metadaten und Verschlüsselung mithilfe von GroupDocs.Signature für .NET | Leitfaden zum sicheren Dokumentenschutz"
 "url": "/de/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie PDFs mit Metadaten und Verschlüsselung mithilfe von GroupDocs.Signature für .NET
 
 ## Einführung

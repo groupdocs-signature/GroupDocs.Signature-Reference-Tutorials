@@ -4,8 +4,8 @@
 "title": "البحث الآمن عن البيانات الوصفية في جافا باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/java/search-verification/secure-metadata-search-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # البحث الآمن عن البيانات الوصفية في Java باستخدام GroupDocs.Signature
 
 ## مقدمة

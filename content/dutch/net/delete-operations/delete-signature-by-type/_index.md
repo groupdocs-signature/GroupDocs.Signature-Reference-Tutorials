@@ -5,8 +5,8 @@
 "title": "Documenthandtekeningen per type verwijderen in .NET"
 "url": "/nl/net/delete-operations/delete-signature-by-type/"
 "weight": 12
+type: docs
 ---
-
 # Documenthandtekeningen per type verwijderen in .NET
 
 ## Waarom handtekeningbeheer belangrijk is bij documentverwerking

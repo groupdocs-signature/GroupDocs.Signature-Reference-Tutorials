@@ -4,8 +4,8 @@
 "title": "QR-kód aláíráskeresés megvalósítása HIBC LIC adatokhoz PDF-ekben a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/qr-code-signatures/implement-qr-code-signature-search-hibc-primary-data-java/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláíráskeresés megvalósítása HIBC LIC adatokhoz PDF-ekben a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

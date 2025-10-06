@@ -4,8 +4,8 @@
 "title": "Tìm kiếm mã vạch PDF Java bằng API GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai Java: Tìm kiếm mã vạch PDF bằng hướng dẫn API GroupDocs.Signature
 
 ## Giới thiệu

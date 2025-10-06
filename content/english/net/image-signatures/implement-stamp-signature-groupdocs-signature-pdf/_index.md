@@ -9,8 +9,8 @@ weight: 1
 url: "/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 categories: ["PDF Processing"]
 tags: ["GroupDocs", "PDF-Signing", "Digital-Signatures", "DotNet", "Document-Automation"]
+type: docs
 ---
-
 # PDF Stamp Signature .NET: Complete GroupDocs Implementation Guide (2025)
 
 ## Why You Need Automated PDF Stamp Signatures (And How to Get Them Right)

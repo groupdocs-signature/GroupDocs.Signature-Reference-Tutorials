@@ -5,8 +5,8 @@
 "title": "Perbarui Tanda Tangan Gambar dalam Dokumen"
 "url": "/id/net/update-operations/update-image/"
 "weight": 11
+type: docs
 ---
-
 ## Perkenalan
 Manajemen dokumen digital membutuhkan kemampuan tanda tangan yang tangguh untuk memastikan keaslian dan integritas. Tanda tangan gambar memainkan peran krusial dalam ekosistem ini, menyediakan verifikasi visual dan elemen branding dalam dokumen. GroupDocs.Signature untuk .NET menawarkan kerangka kerja yang andal bagi pengembang untuk menerapkan fungsionalitas tanda tangan yang komprehensif dalam aplikasi .NET mereka, termasuk kemampuan untuk memperbarui tanda tangan gambar yang sudah ada.
 

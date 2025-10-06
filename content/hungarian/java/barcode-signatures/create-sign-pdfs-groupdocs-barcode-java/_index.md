@@ -4,8 +4,8 @@
 "title": "PDF-ek létrehozása és aláírása vonalkódokkal a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF-ek létrehozása és aláírása vonalkódokkal a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

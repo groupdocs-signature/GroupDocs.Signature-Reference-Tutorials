@@ -4,8 +4,8 @@
 "title": "Atualizar códigos QR no .NET usando GroupDocs.Signature - Um guia passo a passo"
 "url": "/pt/net/signature-management/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Como atualizar um código QR usando GroupDocs.Signature para .NET
 
 Bem-vindo ao nosso guia completo sobre como atualizar códigos QR usando a poderosa biblioteca GroupDocs.Signature em .NET! Este tutorial é ideal para desenvolvedores que buscam aprimorar seus fluxos de trabalho de gerenciamento de documentos automatizando as atualizações de assinaturas. Ao utilizar o GroupDocs.Signature para .NET, você pode integrar perfeitamente as funcionalidades de assinatura digital aos seus aplicativos.

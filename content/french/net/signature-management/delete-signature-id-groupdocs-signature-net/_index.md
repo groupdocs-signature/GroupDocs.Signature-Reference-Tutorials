@@ -4,8 +4,8 @@
 "title": "Supprimer efficacement les signatures par ID à l'aide de GroupDocs.Signature pour .NET - Guide étape par étape"
 "url": "/fr/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Comment supprimer efficacement une signature par identifiant à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

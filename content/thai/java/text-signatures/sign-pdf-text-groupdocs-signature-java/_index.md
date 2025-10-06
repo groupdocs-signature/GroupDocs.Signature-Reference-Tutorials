@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามใน PDF ด้วยข้อความโดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/text-signatures/sign-pdf-text-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนาม PDF ด้วยข้อความโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Java PDF-textsignaturer med anpassade ramar med GroupDocs.Signature för Java"
 "url": "/sv/java/text-signatures/java-pdf-text-signatures-groupdocs-custom-borders/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra Java PDF-textsignaturer med anpassade ramar med GroupDocs.Signature
 
 dagens digitala tidsålder är det avgörande för både företag och privatpersoner att säkerställa dokuments äkthet. Med uppkomsten av elektroniska dokument ersätts traditionella signeringsmetoder av effektivare och säkrare lösningar som textsignaturer i PDF-filer. Om du vill ge dina PDF-dokument en professionell touch med anpassade textsignaturer med GroupDocs.Signature för Java har du kommit till rätt ställe.

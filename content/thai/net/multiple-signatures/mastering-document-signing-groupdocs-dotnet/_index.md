@@ -4,8 +4,8 @@
 "title": "การเรียนรู้การลงนามเอกสารด้วย GroupDocs.Signature สำหรับ .NET พร้อมคู่มือฉบับสมบูรณ์"
 "url": "/th/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การลงนามเอกสารด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

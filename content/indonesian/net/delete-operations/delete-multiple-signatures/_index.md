@@ -5,8 +5,8 @@
 "title": "Cara Mudah Menghapus Banyak Tanda Tangan di Dokumen"
 "url": "/id/net/delete-operations/delete-multiple-signatures/"
 "weight": 15
+type: docs
 ---
-
 # Cara Menghapus Beberapa Tanda Tangan dari Dokumen di .NET
 
 ## Mengapa Mengelola Tanda Tangan Dokumen Itu Penting

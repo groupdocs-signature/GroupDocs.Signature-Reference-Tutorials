@@ -4,8 +4,8 @@
 "title": "Sichere digitale Signaturen in Java&#58; GroupDocs.Signaturverschlüsselung und QR-Code-Suchhandbuch"
 "url": "/de/java/digital-signatures/groupdocs-signature-java-encryption-qr-code-search/"
 "weight": 1
+type: docs
 ---
-
 # Sichere digitale Signaturen in Java mit GroupDocs.Signature
 ## Einführung
 In der heutigen digitalen Landschaft ist die Sicherheit von Dokumenten von größter Bedeutung. Ob Sie vertrauliche Geschäftsverträge oder persönliche Unterlagen verwalten – robuste Verschlüsselung und effiziente Suchfunktionen schützen Ihre Daten vor unbefugtem Zugriff. Diese Anleitung führt Sie durch die Implementierung benutzerdefinierter Verschlüsselungs- und QR-Code-Signatur-Suchoptionen in Java mit GroupDocs.Signature.

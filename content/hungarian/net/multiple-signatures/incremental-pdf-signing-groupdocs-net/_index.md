@@ -4,8 +4,8 @@
 "title": "PDF-fájlok fokozatos aláírása a GroupDocs.Signature for .NET segítségével – Átfogó útmutató"
 "url": "/hu/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentum fokozatos aláírása a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

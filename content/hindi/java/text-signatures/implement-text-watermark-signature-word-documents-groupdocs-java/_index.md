@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature का उपयोग करके Word दस्तावेज़ों में टेक्स्ट वॉटरमार्क हस्ताक्षर लागू करें"
 "url": "/hi/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके Word दस्तावेज़ों में टेक्स्ट वॉटरमार्क हस्ताक्षर लागू करें
 
 ## जावा के लिए GroupDocs.Signature के साथ वर्ड दस्तावेज़ों में टेक्स्ट वॉटरमार्क हस्ताक्षर कैसे जोड़ें

@@ -4,8 +4,8 @@
 "title": "Rimuovi in modo efficiente i codici QR dai documenti utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/signature-management/delete-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Rimuovi in modo efficiente i codici QR dai documenti con GroupDocs.Signature per .NET
 
 ## Introduzione

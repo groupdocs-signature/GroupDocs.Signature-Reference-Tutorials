@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में एकाधिक हस्ताक्षर कैसे हटाएं"
 "url": "/hi/net/signature-management/delete-multiple-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके किसी दस्तावेज़ में एकाधिक हस्ताक्षर कैसे हटाएं
 
 ## परिचय

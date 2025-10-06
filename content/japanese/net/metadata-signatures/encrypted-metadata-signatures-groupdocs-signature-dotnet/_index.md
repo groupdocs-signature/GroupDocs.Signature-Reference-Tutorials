@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET で暗号化されたメタデータ署名を実装する方法 | 完全ガイド"
 "url": "/ja/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET で暗号化されたメタデータ署名を実装する方法
 
 ## 導入

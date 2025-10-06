@@ -4,8 +4,8 @@
 "title": "Så här tar du bort specifika signaturer från ett dokument med GroupDocs.Signature för Java"
 "url": "/sv/java/signature-management/delete-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Så här tar du bort specifika typer av signaturer från ett dokument med GroupDocs.Signature för Java
 
 ## Introduktion

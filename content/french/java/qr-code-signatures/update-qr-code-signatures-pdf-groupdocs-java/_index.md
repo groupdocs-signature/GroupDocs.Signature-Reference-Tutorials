@@ -4,8 +4,8 @@
 "title": "Mettre à jour les signatures de codes QR dans les fichiers PDF avec GroupDocs.Signature pour Java - Un guide complet"
 "url": "/fr/java/qr-code-signatures/update-qr-code-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Mettre à jour les signatures de codes QR dans les fichiers PDF avec GroupDocs.Signature pour Java : un guide complet
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Generování náhledů PDF se skrytými podpisy pomocí Javy a GroupDocs.Signature"
 "url": "/cs/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Generování náhledů PDF se skrytými podpisy pomocí Javy a GroupDocs.Signature
 
 ## Zavedení

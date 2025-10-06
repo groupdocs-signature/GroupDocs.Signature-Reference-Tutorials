@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中使用表单字段签名对 PDF 进行签名"
 "url": "/zh/net/form-field-signatures/sign-pdf-form-field-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 对 PDF 文档进行表单字段签名
 ## 介绍
 还在为在 .NET 应用程序中对 PDF 进行数字签名而苦恼吗？自动化此流程不仅节省时间，还能确保准确性和安全性。本教程将指导您使用 GroupDocs.Signature for .NET 的表单字段签名无缝地对 PDF 文档进行签名。

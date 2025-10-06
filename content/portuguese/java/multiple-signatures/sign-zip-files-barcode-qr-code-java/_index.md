@@ -4,8 +4,8 @@
 "title": "Como assinar arquivos ZIP com códigos de barras e códigos QR em Java usando GroupDocs.Signature"
 "url": "/pt/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Como assinar arquivos ZIP com códigos de barras e códigos QR em Java usando GroupDocs.Signature
 
 ## Introdução

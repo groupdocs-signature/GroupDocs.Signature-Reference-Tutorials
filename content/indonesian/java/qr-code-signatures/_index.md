@@ -3,8 +3,8 @@
 "title": "Tutorial Tanda Tangan Kode QR dengan GroupDocs.Signature untuk Java"
 "url": "/id/java/qr-code-signatures/"
 "weight": 5
+type: docs
 ---
-
 # Tutorial Tanda Tangan Kode QR dengan GroupDocs.Signature untuk Java
 
 Temukan cara efektif menggunakan tanda tangan kode QR di aplikasi Java Anda dengan tutorial GroupDocs.Signature kami yang komprehensif. Panduan langkah demi langkah ini mengajarkan Anda cara membuat, menyesuaikan, mencari, dan memverifikasi tanda tangan kode QR. Pelajari cara mengimplementasikan objek kode QR khusus untuk berbagai format data termasuk vCard, WiFi, SMS, email, mata uang kripto, acara, dan data pembayaran EPC. Setiap tutorial menyediakan contoh kode Java praktis untuk implementasi kode QR dasar dan lanjutan, membantu Anda membangun solusi penandatanganan dokumen yang lebih canggih.

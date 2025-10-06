@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してテキスト注釈付きの PDF ドキュメントに署名する方法"
 "url": "/ja/net/text-signatures/sign-pdf-text-annotations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してテキスト注釈付きの PDF ドキュメントに署名する方法
 
 ## 導入

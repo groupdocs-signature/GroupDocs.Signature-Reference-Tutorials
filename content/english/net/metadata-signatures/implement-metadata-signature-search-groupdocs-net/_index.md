@@ -9,8 +9,8 @@ weight: 1
 url: "/net/metadata-signatures/implement-metadata-signature-search-groupdocs-net/"
 categories: ["Document Processing"]
 tags: ["groupdocs", "powerpoint", "metadata", "dotnet", "document-verification"]
+type: docs
 ---
-
 # PowerPoint Metadata Search .NET
 
 ## Why Every Developer Needs This Skill

@@ -4,8 +4,8 @@
 "title": "QR-kódok frissítése .NET-ben a GroupDocs.Signature segítségével – Átfogó útmutató"
 "url": "/hu/net/qr-code-signatures/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # QR-kódok frissítése .NET-ben a GroupDocs.Signature segítségével: Átfogó útmutató
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用したテキスト、画像、デジタル署名の包括的なガイド"
 "url": "/ja/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用したテキスト、画像、デジタル署名の実装に関する包括的なガイド
 
 ## 導入

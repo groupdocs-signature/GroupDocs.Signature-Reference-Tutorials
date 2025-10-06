@@ -4,8 +4,8 @@
 "title": "Jak ověřit podpisy dokumentů v archivech pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak ověřovat podpisy dokumentů v archivech pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Jak vytvářet a podepisovat PDF soubory s čárovými kódy pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak vytvářet a podepisovat PDF soubory pomocí čárových kódů pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

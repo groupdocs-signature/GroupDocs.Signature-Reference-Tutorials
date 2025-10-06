@@ -4,8 +4,8 @@
 "title": "Обновление текстовых подписей в PDF-файлах с помощью GroupDocs.Signature для Java&#58; подробное руководство"
 "url": "/ru/java/signature-management/update-text-signatures-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Обновление текстовых подписей в PDF-файлах с помощью GroupDocs.Signature для Java
 
 ## Введение

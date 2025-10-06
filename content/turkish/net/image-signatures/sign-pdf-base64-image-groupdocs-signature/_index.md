@@ -4,8 +4,8 @@
 "title": "Base64 Görüntüleri ve .NET için GroupDocs.Signature Kullanarak PDF Belgelerini İmzalama"
 "url": "/tr/net/image-signatures/sign-pdf-base64-image-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Base64 Görüntülerini Kullanarak Bir PDF Belgesini Nasıl İmzalayabilirsiniz?
 
 ## giriiş

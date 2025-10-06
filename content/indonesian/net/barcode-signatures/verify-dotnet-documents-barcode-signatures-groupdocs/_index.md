@@ -4,8 +4,8 @@
 "title": "Verifikasi Dokumen .NET dengan Tanda Tangan Kode Batang Menggunakan GroupDocs.Signature"
 "url": "/id/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Verifikasi Dokumen dengan Tanda Tangan Barcode di .NET menggunakan GroupDocs.Signature
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "توقيع مستندات PDF باستخدام رمز الاستجابة السريعة والرسائل النصية القصيرة باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستند PDF باستخدام رمز الاستجابة السريعة باستخدام كائن SMS في Java مع GroupDocs.Signature
 
 ## مقدمة

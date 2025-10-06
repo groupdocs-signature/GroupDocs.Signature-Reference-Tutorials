@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da Metin İmzaları Nasıl Yapılandırılır? Eksiksiz Bir Kılavuz"
 "url": "/tr/java/text-signatures/configure-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java'da Metin İmzaları Nasıl Yapılandırılır: Kapsamlı Bir Kılavuz
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da QR Kodlarıyla Sunuları İmzalama"
 "url": "/tr/java/qr-code-signatures/sign-presentations-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile QR Kodu Kullanarak Bir Sunumu Nasıl İmzalayabilirsiniz?
 
 ## giriiş

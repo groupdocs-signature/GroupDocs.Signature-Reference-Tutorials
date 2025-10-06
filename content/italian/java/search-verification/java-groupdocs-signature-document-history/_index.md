@@ -4,8 +4,8 @@
 "title": "Come implementare Java GroupDocs.Signature&#58; recuperare e visualizzare la cronologia del processo del documento"
 "url": "/it/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare Java GroupDocs.Signature: recuperare e visualizzare la cronologia del processo del documento
 
 ## Introduzione

@@ -4,8 +4,8 @@
 "title": "Hoe u afbeeldingshandtekeningen uit documenten verwijdert met GroupDocs.Signature voor Java"
 "url": "/nl/java/signature-management/delete-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u afbeeldingshandtekeningen uit documenten verwijdert met GroupDocs.Signature voor Java
 
 ## Invoering

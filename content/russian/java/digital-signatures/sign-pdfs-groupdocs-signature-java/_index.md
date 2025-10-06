@@ -4,8 +4,8 @@
 "title": "Освоение цифровых подписей PDF-файлов на Java с использованием GroupDocs.Signature для текстовых, флажковых и цифровых полей"
 "url": "/ru/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Освоение цифровых подписей PDF-файлов на Java: использование GroupDocs.Signature для текстовых, флажковых и цифровых полей
 
 ## Введение

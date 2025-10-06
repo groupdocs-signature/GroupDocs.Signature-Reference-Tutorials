@@ -4,8 +4,8 @@
 "title": "Triển khai xác minh tài liệu với đăng ký sự kiện trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai xác minh tài liệu với đăng ký sự kiện bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

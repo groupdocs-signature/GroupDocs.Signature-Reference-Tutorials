@@ -4,8 +4,8 @@
 "title": "Implementace vyhledávání podpisů v QR kódu .NET s MeCard pomocí GroupDocs.Signature"
 "url": "/cs/net/qr-code-signatures/net-qr-code-signature-search-mecard-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementace vyhledávání podpisů v QR kódu v .NET pomocí MeCard s využitím GroupDocs.Signature
 
 ## Zavedení

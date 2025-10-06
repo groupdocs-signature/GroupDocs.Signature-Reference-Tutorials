@@ -4,8 +4,8 @@
 "title": "Javaでの動的ドキュメント署名 - 電子署名のためのGroupDocs.Signatureのマスター"
 "url": "/ja/java/multiple-signatures/dynamic-document-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs を使用して Java で動的なドキュメント署名を作成する
 
 今日の急速に変化するデジタル世界では、文書に電子署名を効率的に施すことがこれまで以上に重要になっています。契約承認の効率化を目指すビジネスプロフェッショナルにとっても、個人文書を管理する個人にとっても、電子署名はスピードと利便性をもたらします。このチュートリアルでは、GroupDocs.Signature for Javaを使用して、動的なテキスト署名とバーコード画像署名を作成する方法を説明します。ストレッチモードを活用することで、署名はページ全体にシームレスに適応し、一貫性と読みやすさを確保できます。

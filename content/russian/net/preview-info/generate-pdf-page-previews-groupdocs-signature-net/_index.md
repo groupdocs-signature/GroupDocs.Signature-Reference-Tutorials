@@ -4,8 +4,8 @@
 "title": "Создание предпросмотров страниц PDF с помощью GroupDocs.Signature для .NET. Подробное руководство"
 "url": "/ru/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Создание предпросмотров страниц PDF с помощью GroupDocs.Signature для .NET: подробное руководство
 
 ## Введение

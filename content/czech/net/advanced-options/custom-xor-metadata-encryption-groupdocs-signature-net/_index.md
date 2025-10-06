@@ -4,8 +4,8 @@
 "title": "Pokročilé šifrování metadat XOR s GroupDocs.Signature pro .NET – kompletní průvodce"
 "url": "/cs/net/advanced-options/custom-xor-metadata-encryption-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Pokročilé šifrování metadat XOR s GroupDocs.Signature pro .NET
 
 ## Zavedení

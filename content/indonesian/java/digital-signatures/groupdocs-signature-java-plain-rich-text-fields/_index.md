@@ -4,8 +4,8 @@
 "title": "Penandatanganan Dokumen Utama di Java; Menerapkan Bidang Teks Biasa dan Kaya dengan GroupDocs.Signature"
 "url": "/id/java/digital-signatures/groupdocs-signature-java-plain-rich-text-fields/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Penandatanganan Dokumen di Java: Menerapkan Bidang Teks Biasa dan Kaya dengan GroupDocs.Signature
 
 Selamat datang di panduan komprehensif tentang pemanfaatan **GroupDocs.Signature untuk Java** untuk menandatangani dokumen menggunakan kolom teks biasa dan kaya. Baik Anda mengotomatiskan persetujuan kontrak atau menyederhanakan alur kerja, tutorial ini akan membantu Anda menerapkan fitur-fitur ini secara efisien.

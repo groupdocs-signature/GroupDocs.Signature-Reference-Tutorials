@@ -4,8 +4,8 @@
 "title": "Implementace PDF podpisu s textem a zaškrtávacím políčkem pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementace PDF podpisu s textem a zaškrtávacím políčkem pomocí GroupDocs.Signature pro .NET
 
 ## Podpisy polí formuláře

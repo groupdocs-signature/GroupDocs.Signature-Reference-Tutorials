@@ -4,8 +4,8 @@
 "title": "Automatizza le anteprime dei documenti con firme nascoste utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Automatizza le anteprime dei documenti con firme nascoste utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

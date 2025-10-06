@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中对带有二维码的 Excel 电子表格进行签名和保存"
 "url": "/zh/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中对带有二维码的 Excel 电子表格进行签名和保存
 
 ## 介绍

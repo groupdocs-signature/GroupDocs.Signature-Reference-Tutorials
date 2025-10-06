@@ -4,8 +4,8 @@
 "title": "Jak odstranit konkrétní podpisy z dokumentu pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/signature-management/delete-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit určité typy podpisů z dokumentu pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

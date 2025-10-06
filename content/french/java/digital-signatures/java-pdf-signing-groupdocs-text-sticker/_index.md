@@ -4,8 +4,8 @@
 "title": "Maîtriser la signature PDF Java et les signatures d'autocollants de texte avec GroupDocs.Signature pour Java"
 "url": "/fr/java/digital-signatures/java-pdf-signing-groupdocs-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser la signature PDF Java : créer des apparences d'autocollants de texte avec GroupDocs.Signature
 
 À l'ère du numérique, la signature électronique de documents est essentielle. Que vous soyez un professionnel ou un particulier gérant des contrats et des accords, des signatures sécurisées et visuellement attrayantes sont essentielles. Ce tutoriel vous guide dans la signature de documents PDF à l'aide d'autocollants textuels avec GroupDocs.Signature pour Java. Maîtriser cette compétence simplifiera vos flux de travail documentaires et vous permettra de présenter des documents signés de manière professionnelle dans un format unique.

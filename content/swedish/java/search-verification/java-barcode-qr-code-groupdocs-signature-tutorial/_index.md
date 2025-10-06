@@ -4,8 +4,8 @@
 "title": "Sökguide för streckkoder och QR-koder i Java med GroupDocs.Signature för säker dokumentverifiering"
 "url": "/sv/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Implementera Java för sökningar efter streckkoder, QR-koder och metadatasignaturer med GroupDocs.Signature
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "Jak odstranit podpisy QR kódů podle ID pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/signature-management/groupdocs-signature-net-delete-qr-code-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit podpisy QR kódů podle ID pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Ανάκτηση και εμφάνιση υποστηριζόμενων μορφών αρχείων χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Ανάκτηση και εμφάνιση υποστηριζόμενων μορφών αρχείων χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

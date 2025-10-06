@@ -4,8 +4,8 @@
 "title": "Signature et optimisation d'images principales avec GroupDocs.Signature pour Java"
 "url": "/fr/java/image-signatures/groupdocs-signature-java-image-optimization/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser la signature et l'optimisation des images avec GroupDocs.Signature pour Java
 
 Dans le paysage numérique actuel, la signature sécurisée de documents est essentielle. Que vous soyez un professionnel souhaitant authentifier des contrats ou un particulier souhaitant protéger des images, des fonctionnalités de signature robustes sont essentielles. **GroupDocs.Signature pour Java** Offre des fonctionnalités puissantes pour créer des signatures de codes QR et optimiser les options d'enregistrement d'images en toute simplicité. Ce tutoriel vous guidera dans l'utilisation de ces fonctionnalités pour une gestion documentaire efficace.

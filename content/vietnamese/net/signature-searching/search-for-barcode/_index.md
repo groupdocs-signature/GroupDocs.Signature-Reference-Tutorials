@@ -5,8 +5,8 @@
 "title": "Tìm kiếm chữ ký mã vạch trong tài liệu"
 "url": "/vi/net/signature-searching/search-for-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Giới thiệu
 
 Trong bối cảnh quản lý tài liệu kỹ thuật số hiện nay, việc tìm kiếm và xác thực chữ ký trong tài liệu là rất quan trọng để duy trì tính xác thực và bảo mật. GroupDocs.Signature for .NET cung cấp một giải pháp mạnh mẽ để làm việc với nhiều loại chữ ký khác nhau, bao gồm cả mã vạch, trên nhiều định dạng tài liệu khác nhau. Hướng dẫn này sẽ hướng dẫn bạn quy trình triển khai chức năng tìm kiếm chữ ký mã vạch trong các ứng dụng .NET của mình bằng GroupDocs.Signature.

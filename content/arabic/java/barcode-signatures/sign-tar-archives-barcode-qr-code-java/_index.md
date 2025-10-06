@@ -4,8 +4,8 @@
 "title": "توقيع أرشيفات TAR باستخدام الباركود ورموز الاستجابة السريعة في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع أرشيفات TAR باستخدام الباركود ورموز الاستجابة السريعة باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

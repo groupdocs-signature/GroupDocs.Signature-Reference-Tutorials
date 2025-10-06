@@ -4,8 +4,8 @@
 "title": "Ta effektivt bort QR-koder från dokument med GroupDocs.Signature för .NET"
 "url": "/sv/net/signature-management/delete-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Ta effektivt bort QR-koder från dokument med GroupDocs.Signature för .NET
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "ลงนาม PDF ด้วยลายเซ็น QR Code และส่งออกเป็นรูปภาพโดยใช้ GroupDocs สำหรับ Java"
 "url": "/th/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # คู่มือครอบคลุมในการลงนามและส่งออก PDF เป็นรูปภาพที่มีรหัส QR โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

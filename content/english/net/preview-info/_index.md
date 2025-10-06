@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["groupdocs-signature", "document-preview", "signature-extraction", "dotnet", "csharp"]
+type: docs
 ---
-
 # GroupDocs.Signature .NET Document Preview
 
 Whether you're building a document management system, e-signature platform, or compliance application, extracting document information and generating previews is crucial for user experience. This comprehensive guide shows you exactly how to leverage GroupDocs.Signature for .NET to create powerful document inspection capabilities that your users will love.

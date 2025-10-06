@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature ile Belgelere Kolayca Resim İmzaları Ekleyin"
 "url": "/tr/net/advanced-signature-techniques/sign-with-image/"
 "weight": 13
+type: docs
 ---
-
 ## Giriş: Görüntü İmzalarıyla Belge Güvenliğinizi Dönüştürün
 
 Dijital belgelerinizi nasıl daha güvenli ve yasal olarak geçerli hale getirebileceğinizi hiç merak ettiniz mi? Görüntülü imzalar eklemek, belgelerinizi doğrulamanın ve tahrifata karşı korumanın en etkili yollarından biridir. Bu kullanıcı dostu kılavuzda, GroupDocs.Signature kullanarak .NET uygulamalarınızda görüntü tabanlı belge imzalamayı uygulama sürecini adım adım anlatacağız.

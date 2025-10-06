@@ -4,8 +4,8 @@
 "title": "Come implementare la firma digitale dei documenti in Java utilizzando GroupDocs.Signature"
 "url": "/it/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare la firma digitale dei documenti in Java utilizzando GroupDocs.Signature
 
 ## Introduzione

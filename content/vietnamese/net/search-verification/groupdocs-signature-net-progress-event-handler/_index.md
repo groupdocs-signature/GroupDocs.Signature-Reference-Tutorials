@@ -4,8 +4,8 @@
 "title": "Tối ưu hóa tìm kiếm tài liệu với GroupDocs.Signature cho .NET & Triển khai trình xử lý sự kiện tiến trình"
 "url": "/vi/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # Tối ưu hóa tìm kiếm tài liệu với GroupDocs.Signature cho .NET: Triển khai trình xử lý sự kiện tiến trình
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Comment signer des PDF avec des autocollants texte avec GroupDocs.Signature pour .NET | Guide étape par étape"
 "url": "/fr/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer un document PDF avec un autocollant texte à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

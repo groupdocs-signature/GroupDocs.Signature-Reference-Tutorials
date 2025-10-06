@@ -4,8 +4,8 @@
 "title": "Implementare metadati personalizzati in Java utilizzando GroupDocs.Signature per la firma avanzata dei documenti"
 "url": "/it/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementazione di metadati personalizzati in Java con GroupDocs.Signature
 
 ## Introduzione

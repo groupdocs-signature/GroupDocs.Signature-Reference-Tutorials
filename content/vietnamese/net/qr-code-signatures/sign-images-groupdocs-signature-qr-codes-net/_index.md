@@ -4,8 +4,8 @@
 "title": "Cách ký hình ảnh bằng mã QR bằng GroupDocs.Signature cho .NET và lưu ở nhiều định dạng khác nhau"
 "url": "/vi/net/qr-code-signatures/sign-images-groupdocs-signature-qr-codes-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách sử dụng GroupDocs.Signature cho .NET để ký hình ảnh bằng mã QR
 
 ## Giới thiệu

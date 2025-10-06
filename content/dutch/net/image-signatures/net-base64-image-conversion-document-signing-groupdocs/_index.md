@@ -4,8 +4,8 @@
 "title": ".NET Base64-afbeeldingconversie en documentondertekening met GroupDocs.Signature"
 "url": "/nl/net/image-signatures/net-base64-image-conversion-document-signing-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van .NET Base64-afbeeldingsconversie en documentondertekening met behulp van GroupDocs.Signature
 
 ## Invoering

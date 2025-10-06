@@ -4,8 +4,8 @@
 "title": "Beveilig documenten met tekstwatermerken met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # Tekstwatermerken implementeren in documenten met GroupDocs.Signature voor .NET
 
 ## Invoering

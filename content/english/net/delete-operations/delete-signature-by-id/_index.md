@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["signature-management", "document-processing", "groupdocs", "net-development"]
+type: docs
 ---
-
 # How to Delete Signature by ID .NET: The Complete Guide
 
 Ever found yourself staring at a document with multiple signatures, needing to remove just one specific signature without touching the others? You're not alone. Managing digital signatures in .NET applications can feel tricky, especially when you need surgical precision in removing signatures by their unique ID.

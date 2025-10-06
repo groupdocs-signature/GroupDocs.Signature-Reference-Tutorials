@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu Word an toàn bằng mã QR bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu Word an toàn bằng mã QR bằng GroupDocs.Signature cho Java
 
 Trong thế giới số ngày nay, việc ký tài liệu một cách an toàn là vô cùng quan trọng đối với cả doanh nghiệp và cá nhân. Dù là hợp đồng, thỏa thuận pháp lý hay thư từ chính thức, việc đảm bảo tính xác thực của tài liệu là tối quan trọng. Với chữ ký điện tử, chúng tôi đã đơn giản hóa quy trình này, đồng thời tăng cường thêm một lớp bảo mật và tiện lợi. GroupDocs.Signature for Java cung cấp một giải pháp mạnh mẽ để ký tài liệu Word bằng mã QR—một chữ ký số hiện đại và an toàn.

@@ -4,8 +4,8 @@
 "title": "Реализуйте подписывание и шифрование метаданных изображений в Java с помощью GroupDocs.Signature"
 "url": "/ru/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Реализация подписи метаданных изображений с шифрованием в Java с использованием GroupDocs.Signature
 
 ## Введение

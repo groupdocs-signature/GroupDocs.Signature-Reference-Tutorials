@@ -8,10 +8,8 @@ keywords:
 - Java metadata signature
 - document encryption using GroupDocs
 - metadata signatures in Java
-
+type: docs
 ---
-
-
 # Secure Java Documents with Metadata Signature and Encryption Using GroupDocs
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ जावा रेडियो बटन फ़ॉर्म फ़ील्ड हस्ताक्षर लागू करें"
 "url": "/hi/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ जावा रेडियो बटन फ़ॉर्म फ़ील्ड हस्ताक्षर लागू करें
 
 ## परिचय

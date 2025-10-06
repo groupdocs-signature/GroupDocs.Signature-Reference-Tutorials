@@ -4,8 +4,8 @@
 "title": "Extrakce adresních dat z QR kódu pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/qr-code-signatures/extract-qr-code-address-data-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak extrahovat data adresy QR kódu pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

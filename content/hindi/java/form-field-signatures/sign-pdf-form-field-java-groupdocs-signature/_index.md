@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ जावा में फ़ॉर्म-फ़ील्ड हस्ताक्षर का उपयोग करके PDF पर हस्ताक्षर कैसे करें"
 "url": "/hi/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ जावा में फ़ॉर्म-फ़ील्ड हस्ताक्षर का उपयोग करके PDF पर हस्ताक्षर कैसे करें
 
 ## परिचय

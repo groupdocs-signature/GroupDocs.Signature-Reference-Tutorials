@@ -4,8 +4,8 @@
 "title": "Wdrażanie podpisywania dokumentów za pomocą kodów QR przy użyciu GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/qr-code-signatures/qr-code-signing-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Wdrażanie podpisywania dokumentów za pomocą kodów QR przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

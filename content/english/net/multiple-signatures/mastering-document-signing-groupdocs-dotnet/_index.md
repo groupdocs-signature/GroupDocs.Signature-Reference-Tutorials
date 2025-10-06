@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["groupdocs", "electronic-signatures", "dotnet-api", "document-signing"]
+type: docs
 ---
-
 # GroupDocs Signature .NET Tutorial - Complete Implementation Guide
 
 ## Introduction

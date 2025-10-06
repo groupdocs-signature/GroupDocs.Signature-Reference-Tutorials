@@ -4,8 +4,8 @@
 "title": "Digitális aláírás keresése PDF-ekben a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírás keresésének elsajátítása PDF-ekben a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

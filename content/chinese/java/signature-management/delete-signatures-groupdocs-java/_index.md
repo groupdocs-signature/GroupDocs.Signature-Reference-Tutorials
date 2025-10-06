@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 从文档中删除特定签名"
 "url": "/zh/java/signature-management/delete-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 从文档中删除特定类型的签名
 
 ## 介绍

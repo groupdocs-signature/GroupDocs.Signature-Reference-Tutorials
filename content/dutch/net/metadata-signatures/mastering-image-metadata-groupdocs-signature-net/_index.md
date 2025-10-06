@@ -4,8 +4,8 @@
 "title": "Beheersing van afbeeldingsmetadata in .NET met GroupDocs.Signature"
 "url": "/nl/net/metadata-signatures/mastering-image-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Beheersing van afbeeldingsmetadata in .NET met GroupDocs.Signature
 
 In de digitale wereld van vandaag is het beheer van metadata van afbeeldingen cruciaal voor diverse toepassingen, zoals de verificatie van juridische documenten en het beheer van digitale activa. Als u de verwerking van metadata van afbeeldingen in uw .NET-projecten wilt stroomlijnen, helpt deze uitgebreide handleiding u bij het gebruik van GroupDocs.Signature voor .NET: een krachtige tool die is ontworpen om uw mogelijkheden voor het zoeken naar en ophalen van metadata van afbeeldingen te verbeteren.

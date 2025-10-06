@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF yang Dilindungi Kata Sandi Menggunakan GroupDocs.Signature untuk .NET (Tutorial Tanda Tangan Digital)"
 "url": "/id/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF yang Dilindungi Kata Sandi Menggunakan GroupDocs.Signature untuk .NET
 ## Tutorial Tanda Tangan Digital
 

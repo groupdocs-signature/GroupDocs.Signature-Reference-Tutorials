@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 QR 코드로 Excel 스프레드시트에 서명하고 저장하기"
 "url": "/ko/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java에서 QR 코드로 Excel 스프레드시트에 서명하고 저장하기
 
 ## 소개

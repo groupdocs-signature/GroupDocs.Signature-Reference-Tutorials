@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature एकीकरण के साथ जावा के लिए AWS SDK का उपयोग करके Amazon S3 से फ़ाइलें कैसे डाउनलोड करें"
 "url": "/hi/java/advanced-options/download-files-amazon-s3-aws-sdk-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature एकीकरण के साथ जावा के लिए AWS SDK का उपयोग करके Amazon S3 से फ़ाइलें कैसे डाउनलोड करें
 
 ## परिचय

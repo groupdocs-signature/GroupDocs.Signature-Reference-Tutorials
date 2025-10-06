@@ -5,8 +5,8 @@
 "title": "Zabezpiecz swoje dokumenty .NET za pomocą podpisów cyfrowych | Kompletny przewodnik"
 "url": "/pl/net/advanced-signature-techniques/sign-with-digital/"
 "weight": 12
+type: docs
 ---
-
 ## Dlaczego podpisy cyfrowe są ważne w nowoczesnym zarządzaniu dokumentami
 
 dzisiejszym cyfrowym świecie dbanie o autentyczność i integralność dokumentów elektronicznych to nie tylko dobra praktyka – to konieczność. Podpisy cyfrowe zapewniają kluczową warstwę bezpieczeństwa, dając odbiorcom pewność, że dokument jest autentyczny i nie został zmodyfikowany od momentu podpisania.

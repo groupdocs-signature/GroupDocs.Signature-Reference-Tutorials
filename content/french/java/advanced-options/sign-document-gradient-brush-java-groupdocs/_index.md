@@ -4,8 +4,8 @@
 "title": "Signer des documents avec un pinceau dégradé en Java à l'aide de GroupDocs.Signature"
 "url": "/fr/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Signer des documents avec un pinceau dégradé en Java à l'aide de GroupDocs.Signature
 
 À l'ère du numérique, la signature sécurisée de documents est essentielle à l'efficacité dans tous les secteurs. Ce tutoriel vous guide dans la signature numérique de documents avec un effet de pinceau dégradé. **GroupDocs.Signature pour Java**.

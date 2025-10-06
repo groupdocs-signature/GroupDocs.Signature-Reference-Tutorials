@@ -4,8 +4,8 @@
 "title": "تحديث التوقيعات النصية في ملفات PDF باستخدام GroupDocs.Signature for Java - دليل شامل"
 "url": "/ar/java/signature-management/update-text-signatures-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # تحديث توقيعات النص في ملفات PDF باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "So implementieren Sie Stempelsignaturoptionen mit GroupDocs.Signature für .NET – Ein umfassender Leitfaden"
 "url": "/de/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie Stempelsignaturoptionen mit GroupDocs.Signature für .NET
 
 ## Einführung

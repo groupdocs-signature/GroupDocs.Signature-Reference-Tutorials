@@ -4,8 +4,8 @@
 "title": "Så här tar du bort PDF-signaturer med GroupDocs.Signature för Java - En omfattande guide"
 "url": "/sv/java/signature-management/delete-pdf-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Så här tar du bort PDF-signaturer med GroupDocs.Signature för Java: En omfattande guide
 
 ## Introduktion

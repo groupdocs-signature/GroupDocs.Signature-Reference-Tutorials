@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET 中密码异常处理综合指南"
 "url": "/zh/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 处理 GroupDocs.Signature for .NET 中的密码异常
 
 ## 介绍

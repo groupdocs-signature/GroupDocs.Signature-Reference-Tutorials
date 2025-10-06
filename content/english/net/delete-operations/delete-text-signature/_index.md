@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["electronic-signatures", "document-processing", "dotnet-api", "signature-removal"]
+type: docs
 ---
-
 # How to Remove Electronic Signatures from Documents in .NET
 
 Ever found yourself needing to programmatically remove electronic signatures from documents? You're not alone. Whether you're building a contract management system, handling document revisions, or creating approval workflows, the ability to delete text signatures programmatically is crucial for modern document processing applications.

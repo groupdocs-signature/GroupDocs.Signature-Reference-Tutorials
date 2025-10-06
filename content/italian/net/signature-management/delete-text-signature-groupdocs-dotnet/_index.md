@@ -4,8 +4,8 @@
 "title": "Come eliminare una firma di testo da un documento utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/signature-management/delete-text-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come eliminare una firma di testo da un documento utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

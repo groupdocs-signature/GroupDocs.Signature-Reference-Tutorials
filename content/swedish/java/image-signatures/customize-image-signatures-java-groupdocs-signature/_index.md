@@ -4,8 +4,8 @@
 "title": "Hur man anpassar bildsignaturer i Java med GroupDocs.Signature"
 "url": "/sv/java/image-signatures/customize-image-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar anpassade bildsignaturer med GroupDocs.Signature för Java
 
 ## Introduktion

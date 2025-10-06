@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da QR Kodlarıyla Excel E-Tablolarını İmzalayın ve Kaydedin"
 "url": "/tr/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java'da QR Kodlarıyla Excel E-Tablolarını İmzalayın ve Kaydedin
 
 ## giriiş

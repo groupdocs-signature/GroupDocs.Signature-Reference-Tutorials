@@ -4,8 +4,8 @@
 "title": "Java ve GroupDocs.Signature kullanarak PDF'lerde Zaman Damgalı Dijital İmzaları Uygulayın"
 "url": "/tr/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Java ve GroupDocs.Signature Kullanarak PDF'lerde Zaman Damgalı Dijital İmzaların Uygulanması
 
 ## giriiş

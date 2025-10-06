@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してアーカイブからデジタル証明書を取得する | ステップバイステップガイド"
 "url": "/ja/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してアーカイブからデジタル証明書を取得する
 
 ## 導入

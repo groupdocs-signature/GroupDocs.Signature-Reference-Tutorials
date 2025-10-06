@@ -4,8 +4,8 @@
 "title": "Java 개발자를 위한 GroupDocs를 사용하여 ZIP 아카이브에서 바코드 및 QR 코드 검색 구현"
 "url": "/ko/java/search-verification/implement-barcode-qr-code-search-zip-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs를 사용하여 ZIP 아카이브에서 바코드 및 QR 코드 검색 구현
 ## 소개
 오늘날의 디지털 세상에서는 문서 진위 여부를 효율적으로 관리하고 검증하는 것이 매우 중요합니다. 우편번호 아카이브에 저장된 법률 문서, 송장 또는 계약서를 다루는 경우, 적절한 도구 없이는 특정 바코드와 QR 코드를 찾는 것이 어려울 수 있습니다. 이 튜토리얼에서는 Java용 GroupDocs.Signature를 사용하여 우편번호 파일에서 바코드 및 QR 코드 서명을 원활하게 검색하는 방법을 안내합니다.

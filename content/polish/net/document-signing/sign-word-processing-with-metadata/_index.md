@@ -5,8 +5,8 @@
 "title": "Ulepszanie dokumentów Word za pomocą podpisów metadanych w C# .NET"
 "url": "/pl/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## Wstęp
 
 Dokumenty tekstowe należą do najpopularniejszych typów plików wykorzystywanych w biznesie, edukacji i komunikacji osobistej. Zapewnienie autentyczności, śledzenie pochodzenia i zachowanie integralności tych dokumentów ma kluczowe znaczenie w wielu środowiskach zawodowych. Jednym ze skutecznych sposobów zwiększenia bezpieczeństwa i identyfikowalności dokumentów jest osadzanie podpisów metadanych.

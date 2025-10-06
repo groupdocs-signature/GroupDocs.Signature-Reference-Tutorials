@@ -4,8 +4,8 @@
 "title": "วิธีการลบลายเซ็นตาม ID โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/signature-management/delete-signature-by-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลบลายเซ็นตาม ID ด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

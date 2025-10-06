@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 掌握 Java PDF 签名和文本贴纸签名"
 "url": "/zh/java/digital-signatures/java-pdf-signing-groupdocs-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 Java PDF 签名：使用 GroupDocs.Signature 创建文本贴纸外观
 
 在当今的数字时代，电子签名至关重要。无论您是商务人士还是管理合同和协议的个人，安全且美观的签名都至关重要。本教程将指导您使用 GroupDocs.Signature for Java 的文本贴纸外观对 PDF 文档进行签名。掌握这项技能将简化文档工作流程，并使您能够以独特的格式呈现专业签名的文档。

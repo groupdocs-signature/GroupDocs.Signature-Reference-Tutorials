@@ -4,8 +4,8 @@
 "title": "Come implementare le firme timbro sui PDF utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare le firme timbro sui PDF utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

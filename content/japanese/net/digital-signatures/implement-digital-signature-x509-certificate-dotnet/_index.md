@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して X.509 証明書で .NET にデジタル署名を実装する"
 "url": "/ja/net/digital-signatures/implement-digital-signature-x509-certificate-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して X.509 証明書で .NET にデジタル署名を実装する
 
 ## 導入

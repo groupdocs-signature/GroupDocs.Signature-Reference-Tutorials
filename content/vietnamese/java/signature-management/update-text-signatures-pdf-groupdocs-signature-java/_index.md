@@ -4,8 +4,8 @@
 "title": "Cập nhật chữ ký văn bản trong tệp PDF bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/signature-management/update-text-signatures-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cập nhật chữ ký văn bản trong tệp PDF bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

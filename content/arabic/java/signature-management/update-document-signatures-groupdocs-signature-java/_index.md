@@ -4,8 +4,8 @@
 "title": "كيفية تحديث توقيعات المستندات باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/signature-management/update-document-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تحديث توقيعات المستندات باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

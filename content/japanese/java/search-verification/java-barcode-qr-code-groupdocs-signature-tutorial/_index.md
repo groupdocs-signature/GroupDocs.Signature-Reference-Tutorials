@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature による安全なドキュメント検証のための Java バーコード & QR コード検索ガイド"
 "url": "/ja/java/search-verification/java-barcode-qr-code-groupdocs-signature-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用したバーコード、QR コード、メタデータ署名検索用の Java 実装
 
 ## 導入

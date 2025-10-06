@@ -4,8 +4,8 @@
 "title": "Beheers digitale handtekeningzoekopdrachten in Java met GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/java/search-verification/mastering-digital-signature-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Leer digitale handtekeningen zoeken in Java met GroupDocs.Signature: een uitgebreide handleiding
 
 **Ontdek de kracht van het zoeken naar digitale handtekeningen met GroupDocs.Signature voor Java!**

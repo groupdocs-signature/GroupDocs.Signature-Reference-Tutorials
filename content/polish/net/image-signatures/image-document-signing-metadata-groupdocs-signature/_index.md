@@ -4,8 +4,8 @@
 "title": "Podpisywanie dokumentów graficznych za pomocą metadanych przy użyciu GroupDocs.Signature dla platformy .NET. Kompleksowy przewodnik"
 "url": "/pl/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie podpisywania dokumentów obrazkowych za pomocą metadanych przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

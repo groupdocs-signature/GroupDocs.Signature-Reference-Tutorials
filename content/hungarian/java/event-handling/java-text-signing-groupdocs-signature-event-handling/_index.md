@@ -4,8 +4,8 @@
 "title": "Szöveges aláírás megvalósítása Java eseménykezelésben a GroupDocs.Signature segítségével"
 "url": "/hu/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # Eseménykezeléssel ellátott szövegaláírás megvalósítása GroupDocs.Signature for Java használatával
 
 ## Bevezetés

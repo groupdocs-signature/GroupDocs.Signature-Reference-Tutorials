@@ -4,8 +4,8 @@
 "title": "Specifieke handtekeningen in documenten verwijderen met GroupDocs.Signature voor .NET | Zelfstudie voor handtekeningbeheer"
 "url": "/nl/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Specifieke handtekeningen in documenten verwijderen met GroupDocs.Signature voor .NET
 
 ## Invoering

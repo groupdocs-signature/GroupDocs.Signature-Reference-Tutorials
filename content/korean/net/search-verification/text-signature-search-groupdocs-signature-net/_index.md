@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET 문서에서 마스터 텍스트 서명 검색"
 "url": "/ko/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET 문서에서 텍스트 서명 검색 마스터하기
 
 ## 소개

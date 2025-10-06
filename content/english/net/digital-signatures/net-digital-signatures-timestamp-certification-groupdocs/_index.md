@@ -9,8 +9,8 @@ weight: 1
 url: "/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 categories: ["Digital Signatures"]
 tags: ["pdf-signing", "dotnet", "groupdocs", "digital-certificates", "timestamps"]
+type: docs
 ---
-
 # PDF Digital Signature .NET - Complete Tutorial with Timestamp & Certification
 
 ## Introduction

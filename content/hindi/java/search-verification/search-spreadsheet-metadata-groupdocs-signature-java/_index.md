@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके स्प्रेडशीट मेटाडेटा कैसे खोजें. Java के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs का उपयोग करके स्प्रेडशीट मेटाडेटा कैसे खोजें। Java के लिए हस्ताक्षर: एक व्यापक मार्गदर्शिका
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中使用二维码加载并签署受密码保护的文档"
 "url": "/zh/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # 使用 Java 中的二维码加载并签署受密码保护的文档
 
 ## 如何使用 GroupDocs.Signature for Java 加载和签署受密码保护的文档

@@ -4,8 +4,8 @@
 "title": "Implementar firmas de código QR en .NET con serialización personalizada usando GroupDocs.Signature"
 "url": "/es/net/qr-code-signatures/qr-code-signatures-groupdocs-signature-net-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Implementar firmas de código QR con serialización personalizada en .NET usando GroupDocs.Signature
 
 ## Introducción

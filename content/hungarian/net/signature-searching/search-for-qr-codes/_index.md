@@ -5,8 +5,8 @@
 "title": "QR-kód aláírások keresése dokumentumokban"
 "url": "/hu/net/signature-searching/search-for-qr-codes/"
 "weight": 15
+type: docs
 ---
-
 ## Bevezetés
 
 A mai digitális dokumentum-ökoszisztémában a QR-kód aláírások felbecsülhetetlen értékű eszközzé váltak az információk beágyazásához, a hitelesítéshez és a dokumentumok biztonságának fokozásához. A GroupDocs.Signature for .NET egy hatékony API-t biztosít a fejlesztők számára, amellyel QR-kódokat kereshetnek és kinyerhetnek különböző dokumentumformátumokból, lehetővé téve a fejlett dokumentumelemzési és -ellenőrzési képességeket a .NET alkalmazásokban.

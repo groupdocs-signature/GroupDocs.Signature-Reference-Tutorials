@@ -8,10 +8,8 @@ keywords:
 - search metadata signatures
 - GroupDocs.Signature Java
 - Word document metadata
-
+type: docs
 ---
-
-
 # How to Search Metadata Signatures in Word Documents Using GroupDocs.Signature for Java
 
 ## Introduction

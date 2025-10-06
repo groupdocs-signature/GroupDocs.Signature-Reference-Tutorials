@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["signature-management", "document-automation", "dotnet-api"]
+type: docs
 ---
-
 # How to Delete Signatures from Documents in .NET
 
 ## Why You'd Want to Delete Signatures from Documents

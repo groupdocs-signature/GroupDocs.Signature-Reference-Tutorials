@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके .NET में अपवाद हैंडलिंग के साथ डिजिटल हस्ताक्षर"
 "url": "/hi/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके .NET में अपवाद हैंडलिंग के साथ डिजिटल हस्ताक्षर
 
 ## परिचय

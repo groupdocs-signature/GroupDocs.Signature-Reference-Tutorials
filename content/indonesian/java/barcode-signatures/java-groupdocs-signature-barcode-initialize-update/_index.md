@@ -4,8 +4,8 @@
 "title": "Cara Menginisialisasi dan Memperbarui Tanda Tangan Barcode di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menginisialisasi dan Memperbarui Tanda Tangan Barcode di Java Menggunakan GroupDocs.Signature
 
 ## Perkenalan

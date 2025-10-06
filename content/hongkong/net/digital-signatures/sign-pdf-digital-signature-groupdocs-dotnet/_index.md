@@ -4,8 +4,8 @@
 "title": ".NET 中的數位 PDF 簽章－使用 GroupDocs.Signature 的指南"
 "url": "/zh-hant/net/digital-signatures/sign-pdf-digital-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET 中的數位 PDF 簽章：使用 GroupDocs.Signature 的指南
 
 ## 介紹

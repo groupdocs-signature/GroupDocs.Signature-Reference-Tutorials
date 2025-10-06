@@ -4,8 +4,8 @@
 "title": "Загрузка и подпись защищенных паролем документов с помощью QR-кодов в Java с помощью GroupDocs.Signature"
 "url": "/ru/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Загрузка и подпись защищенных паролем документов с помощью QR-кода на Java
 
 ## Как загрузить и подписать защищенный паролем документ с помощью GroupDocs.Signature для Java

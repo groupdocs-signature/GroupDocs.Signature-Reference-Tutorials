@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Belge İmzalarını Uygulama ve Görüntüleme Kapsamlı Bir Kılavuz"
 "url": "/tr/net/digital-signatures/implement-document-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature ile Belge İmzalarını Uygulama ve Görüntüleme
 
 ## giriiş

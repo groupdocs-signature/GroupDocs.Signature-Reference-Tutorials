@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java'da Ölçülü Lisans Uygulama - Adım Adım Kılavuz"
 "url": "/tr/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature'da Ölçülü Lisans Nasıl Uygulanır?
 
 ## giriiş

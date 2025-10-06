@@ -4,8 +4,8 @@
 "title": "Kuasai Tanda Tangan Dokumen Dinamis dengan GroupDocs.Signature untuk Teknik Penandatanganan Kode QR Java"
 "url": "/id/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Kuasai Tanda Tangan Dokumen Dinamis dengan GroupDocs.Signature untuk Java: Teknik Penandatanganan Kode QR
 
 Di dunia digital saat ini, pengamanan dan autentikasi dokumen elektronik secara efisien sangatlah penting. **GroupDocs.Signature untuk Java** menawarkan solusi hebat untuk menandatangani PDF dengan cepat sambil memastikan keasliannya menggunakan tanda tangan kode QR di berbagai posisi.

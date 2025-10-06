@@ -4,8 +4,8 @@
 "title": "Làm chủ Tìm kiếm Tài liệu Kỹ thuật số bằng GroupDocs.Signature cho .NET - Hướng dẫn Toàn diện"
 "url": "/vi/net/search-verification/master-digital-document-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ tìm kiếm tài liệu số với GroupDocs.Signature cho .NET
 
 Việc tìm kiếm chữ ký số trong tài liệu có thể gặp khó khăn, đặc biệt là khi xử lý các tệp được bảo vệ. GroupDocs.Signature for .NET đơn giản hóa quy trình này bằng cách cung cấp các cơ chế xử lý ngoại lệ mạnh mẽ. Hướng dẫn này sẽ hướng dẫn bạn tìm kiếm chữ ký số trong tệp PDF bằng thư viện mạnh mẽ này.

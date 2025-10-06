@@ -4,8 +4,8 @@
 "title": "So signieren Sie PDFs mit Textaufklebern mithilfe von GroupDocs.Signature für Java – Eine vollständige Anleitung"
 "url": "/de/java/text-signatures/groupdocs-signature-java-pdf-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # So signieren Sie PDFs mit Textaufklebern mithilfe von GroupDocs.Signature für Java: Eine vollständige Anleitung
 
 ## Einführung

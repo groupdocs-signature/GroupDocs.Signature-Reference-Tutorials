@@ -4,8 +4,8 @@
 "title": "Ενημέρωση κωδικών QR σε .NET με το GroupDocs.Signature&#58; Ένας ολοκληρωμένος οδηγός"
 "url": "/el/net/qr-code-signatures/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Ενημέρωση κωδικών QR σε .NET με το GroupDocs.Signature: Ένας ολοκληρωμένος οδηγός
 
 ## Εισαγωγή

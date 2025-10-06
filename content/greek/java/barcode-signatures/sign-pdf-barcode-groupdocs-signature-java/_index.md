@@ -4,8 +4,8 @@
 "title": "Υπογράψτε έγγραφα PDF με γραμμωτό κώδικα χρησιμοποιώντας το GroupDocs.Signature για Java&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Υπογραφή εγγράφων PDF με γραμμωτό κώδικα χρησιμοποιώντας το GroupDocs.Signature για Java: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

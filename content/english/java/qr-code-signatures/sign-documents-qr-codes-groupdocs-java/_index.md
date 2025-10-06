@@ -8,10 +8,8 @@ keywords:
 - sign documents with QR codes Java
 - GroupDocs Signature library
 - Azure Blob Storage download
-
+type: docs
 ---
-
-
 # Sign Documents with QR Codes Using GroupDocs.Signature for Java: A Comprehensive Guide
 
 In today's digital world, securing documents is crucial. Whether you're a business professional or an individual handling sensitive information, ensuring document integrity and authenticity is paramount. **GroupDocs.Signature for Java**—a powerful library—enables signing documents using various methods, including QR codes. This guide will walk you through downloading documents from Azure Blob Storage and signing them with QR codes using GroupDocs.Signature.

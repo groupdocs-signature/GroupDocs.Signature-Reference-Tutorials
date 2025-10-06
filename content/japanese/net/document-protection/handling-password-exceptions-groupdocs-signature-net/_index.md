@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET におけるパスワード例外処理の総合ガイド"
 "url": "/ja/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET におけるパスワード例外の処理
 
 ## 導入

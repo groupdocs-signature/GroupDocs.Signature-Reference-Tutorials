@@ -4,8 +4,8 @@
 "title": "Java szöveges aláírás-keresés implementálása GroupDocs.Signature segítségével dokumentumkezeléshez és -ellenőrzéshez"
 "url": "/hu/java/search-verification/java-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java szöveges aláírás-keresés implementálása a GroupDocs.Signature segítségével
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu bằng chữ ký hình ảnh văn bản trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký tài liệu bằng chữ ký hình ảnh văn bản sử dụng GroupDocs.Signature cho Java
 
 ## Giới thiệu

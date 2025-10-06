@@ -4,8 +4,8 @@
 "title": "Implementera dokumentverifiering med händelseprenumeration i Java med GroupDocs.Signature"
 "url": "/sv/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementera dokumentverifiering med händelseprenumeration med GroupDocs.Signature för Java
 
 ## Introduktion

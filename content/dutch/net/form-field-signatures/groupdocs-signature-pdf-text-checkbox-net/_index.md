@@ -4,8 +4,8 @@
 "title": "PDF-handtekening met tekst en selectievakje implementeren met GroupDocs.Signature voor .NET"
 "url": "/nl/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF-handtekening met tekst en selectievakje implementeren met GroupDocs.Signature voor .NET
 
 ## Handtekeningen in formuliervelden

@@ -4,8 +4,8 @@
 "title": "PDF-ek szöveges aláírása a GroupDocs.Signature for Java használatával – Átfogó útmutató"
 "url": "/hu/java/text-signatures/sign-pdf-text-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF szöveges aláírása a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

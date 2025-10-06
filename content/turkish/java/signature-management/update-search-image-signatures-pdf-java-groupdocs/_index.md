@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java Kullanarak PDF'lerdeki Resim İmzalarını Güncelleme ve Arama"
 "url": "/tr/java/signature-management/update-search-image-signatures-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Java ile PDF'lerdeki Görüntü İmzalarını Güncelleyin ve Arayın
 
 ## giriiş

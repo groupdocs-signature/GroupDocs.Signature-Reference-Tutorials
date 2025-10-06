@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["pdf-signatures", "metadata", "groupdocs", "csharp", "dotnet"]
+type: docs
 ---
-
 # PDF Metadata Signature .NET - Complete Guide to Signing Documents with GroupDocs
 
 ## Why PDF Metadata Signatures Matter More Than You Think

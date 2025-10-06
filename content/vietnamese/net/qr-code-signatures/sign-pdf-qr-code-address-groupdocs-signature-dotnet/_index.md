@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng địa chỉ mã QR bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/qr-code-signatures/sign-pdf-qr-code-address-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng địa chỉ mã QR bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

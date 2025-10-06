@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["GroupDocs", "Digital Signatures", "NET", "Security", "C#"]
+type: docs
 ---
-
 # .NET Document Signing Made Simple: Your Complete GroupDocs.Signature Guide
 
 ## Why .NET Document Signing Matters (And How to Get It Right)

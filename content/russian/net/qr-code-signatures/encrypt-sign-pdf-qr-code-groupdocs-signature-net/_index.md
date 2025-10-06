@@ -4,8 +4,8 @@
 "title": "Шифруйте и подписывайте PDF-файлы с помощью QR-кодов с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Шифруйте и подписывайте PDF-файлы с помощью QR-кодов с помощью GroupDocs.Signature для .NET
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "كيفية حذف توقيعات محددة من مستند باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/signature-management/delete-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية حذف أنواع معينة من التوقيعات من مستند باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

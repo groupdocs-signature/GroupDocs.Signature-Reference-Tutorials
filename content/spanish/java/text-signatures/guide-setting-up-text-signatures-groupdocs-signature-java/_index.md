@@ -4,8 +4,8 @@
 "title": "Guía completa para configurar firmas de texto con GroupDocs.Signature para Java"
 "url": "/es/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Guía completa para configurar firmas de texto con GroupDocs.Signature para Java
 
 ## Introducción

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET kullanarak GS1DotCode ve HanXin QR Kodlarıyla Güvenli Belge İmzalama"
 "url": "/tr/net/barcode-signatures/sign-documents-gs1dotcode-hanxin-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET kullanarak GS1DotCode ve HanXin QR Kodlarıyla Güvenli Belge İmzalama
 ## .NET için GroupDocs.Signature Kullanarak GS1DotCode ve HanXin QR Kodlarıyla Belgeler Nasıl İmzalanır?
 Günümüzün dijital çağında, belgeleri elektronik olarak güvenli bir şekilde imzalamak hayati önem taşıyor. İster bir iş profesyoneli olun, ister iş akışlarını otomatikleştirmek isteyen bir geliştirici, barkod ve QR kod imzalarını entegre etmek güvenliği artırır ve süreçleri kolaylaştırır. Bu eğitim, uygulamalarınızda GS1DotCode ve HanXin QR Kod imzalarını uygulamak için GroupDocs.Signature for .NET'i nasıl kullanacağınız konusunda size rehberlik edecektir.

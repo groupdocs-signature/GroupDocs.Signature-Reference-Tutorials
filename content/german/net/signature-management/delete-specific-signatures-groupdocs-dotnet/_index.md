@@ -4,8 +4,8 @@
 "title": "So löschen Sie bestimmte Signaturen in Dokumenten mit GroupDocs.Signature für .NET | Tutorial zur Signaturverwaltung"
 "url": "/de/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So löschen Sie bestimmte Signaturen in Dokumenten mit GroupDocs.Signature für .NET
 
 ## Einführung

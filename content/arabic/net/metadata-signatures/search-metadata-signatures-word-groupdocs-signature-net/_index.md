@@ -4,8 +4,8 @@
 "title": "كيفية البحث عن توقيعات البيانات الوصفية في مستندات Word باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/metadata-signatures/search-metadata-signatures-word-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية البحث عن توقيعات البيانات الوصفية في مستندات Word باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

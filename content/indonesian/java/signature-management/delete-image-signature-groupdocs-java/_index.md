@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Tanda Tangan Gambar dari Dokumen Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/signature-management/delete-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Gambar dari Dokumen Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

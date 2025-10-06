@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature για Java, Αποτελεσματική Αναζήτηση Υπογραφής Κωδικού QR και Εξαγωγή Email"
 "url": "/el/java/search-verification/groupdocs-signature-java-qr-code-search-email-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Mastering GroupDocs.Signature για Java: Αναζήτηση υπογραφής QR Code & εξαγωγή email
 
 ## Εισαγωγή

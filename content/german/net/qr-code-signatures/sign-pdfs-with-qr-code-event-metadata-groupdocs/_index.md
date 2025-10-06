@@ -4,8 +4,8 @@
 "title": "Signieren Sie PDFs mit QR-Code und Ereignismetadaten mithilfe von GroupDocs.Signature für .NET"
 "url": "/de/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Signieren Sie PDFs mit QR-Code und Ereignismetadaten mithilfe von GroupDocs.Signature für .NET
 
 ## Einführung

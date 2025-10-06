@@ -5,8 +5,8 @@
 "title": "Tìm kiếm các trường biểu mẫu trong tài liệu"
 "url": "/vi/net/signature-searching/search-for-form-fields/"
 "weight": 12
+type: docs
 ---
-
 ## Giới thiệu
 
 Trong các hệ thống quản lý tài liệu hiện đại, các trường biểu mẫu đóng vai trò quan trọng trong việc thu thập dữ liệu, tương tác người dùng và tự động hóa tài liệu. GroupDocs.Signature for .NET cung cấp một bộ công cụ mạnh mẽ cho các nhà phát triển để làm việc với các trường biểu mẫu ở nhiều định dạng tài liệu khác nhau, bao gồm tìm kiếm, truy xuất và xử lý các thành phần này theo chương trình.

@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 보관소의 문서 서명을 확인하는 방법"
 "url": "/ko/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 보관소의 문서 서명을 확인하는 방법
 
 ## 소개

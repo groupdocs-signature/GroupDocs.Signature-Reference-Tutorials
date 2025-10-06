@@ -4,8 +4,8 @@
 "title": "Implementera XOR-kryptering i .NET med GroupDocs.Signature – en omfattande guide"
 "url": "/sv/net/advanced-options/xor-encryption-dotnet-groupdocs-signature-integration-guide/"
 "weight": 1
+type: docs
 ---
-
 # Implementera XOR-kryptering i .NET med GroupDocs.Signature: En omfattande guide
 
 ## Introduktion

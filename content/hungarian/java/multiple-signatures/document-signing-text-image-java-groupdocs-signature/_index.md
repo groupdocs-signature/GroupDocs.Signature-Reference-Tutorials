@@ -4,8 +4,8 @@
 "title": "Hogyan írjunk alá dokumentumokat szöveges képaláírással Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan valósíthatunk meg dokumentumaláírást szöveges képaláírással a GroupDocs.Signature for Java használatával?
 
 ## Bevezetés

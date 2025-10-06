@@ -4,8 +4,8 @@
 "title": "So legen Sie eine gebührenpflichtige Lizenz für GroupDocs.Signature in .NET fest – Ein umfassender Leitfaden"
 "url": "/de/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So legen Sie eine gebührenpflichtige Lizenz für GroupDocs.Signature in .NET fest: Ein umfassender Leitfaden
 
 ## Einführung

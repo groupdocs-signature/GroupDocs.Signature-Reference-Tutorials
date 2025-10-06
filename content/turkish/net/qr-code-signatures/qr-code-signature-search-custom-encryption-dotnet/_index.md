@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak .NET'te Özel Şifreleme ile QR Kod İmza Aramasını Uygulama"
 "url": "/tr/net/qr-code-signatures/qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET'te Özel Şifreleme ile QR Kod İmza Aramasını Uygulama
 
 ## giriiş

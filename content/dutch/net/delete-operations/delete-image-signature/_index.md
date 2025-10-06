@@ -5,8 +5,8 @@
 "title": "Hoe u afbeeldingshandtekeningen uit documenten in .NET verwijdert"
 "url": "/nl/net/delete-operations/delete-image-signature/"
 "weight": 14
+type: docs
 ---
-
 # Hoe u afbeeldingshandtekeningen uit documenten verwijdert met GroupDocs.Signature
 
 ## Invoering

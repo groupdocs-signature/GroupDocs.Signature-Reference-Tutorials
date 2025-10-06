@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java Dijital İmza Doğrulaması - Adım Adım Kılavuz"
 "url": "/tr/java/digital-signatures/java-digital-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java Dijital İmza Doğrulamasını Uygulamaya Yönelik Kapsamlı Kılavuz
 
 ## giriiş

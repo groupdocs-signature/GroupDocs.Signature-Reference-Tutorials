@@ -4,8 +4,8 @@
 "title": "Hogyan adhatunk hozzá szöveges aláírást PDF-ekhez a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/text-signatures/groupdocs-signature-java-add-text-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan adhatunk hozzá szöveges aláírást dokumentumokhoz a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

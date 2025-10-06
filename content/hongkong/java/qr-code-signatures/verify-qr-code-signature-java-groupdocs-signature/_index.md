@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中驗證二維碼簽章－綜合指南"
 "url": "/zh-hant/java/qr-code-signatures/verify-qr-code-signature-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中驗證二維碼簽名
 
 ## 介紹

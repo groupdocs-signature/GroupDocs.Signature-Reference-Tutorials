@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ التوقيعات الرقمية .NET باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/net/digital-signatures/implement-dotnet-digital-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التوقيعات الرقمية .NET باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Documenten laden vanaf een FTP-server met GroupDocs.Signature voor Java"
 "url": "/nl/java/document-loading-saving/load-documents-from-ftp-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Documenten laden vanaf een FTP-server met GroupDocs.Signature voor Java
 
 ## Invoering

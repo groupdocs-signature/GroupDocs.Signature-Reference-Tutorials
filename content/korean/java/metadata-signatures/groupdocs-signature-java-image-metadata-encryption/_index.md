@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java로 이미지 메타데이터 서명 및 암호화 구현"
 "url": "/ko/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java에서 암호화를 통한 이미지 메타데이터 서명 구현
 
 ## 소개

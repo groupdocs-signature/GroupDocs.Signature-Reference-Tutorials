@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 對具有元資料的簡報文件進行簽名"
 "url": "/zh-hant/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 對包含元資料的示範文件進行簽名
 
 ## 介紹

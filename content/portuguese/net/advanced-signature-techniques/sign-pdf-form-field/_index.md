@@ -5,8 +5,8 @@
 "title": "Como assinar documentos PDF com campos de formulário no .NET"
 "url": "/pt/net/advanced-signature-techniques/sign-pdf-form-field/"
 "weight": 10
+type: docs
 ---
-
 # Como assinar documentos PDF com campos de formulário usando GroupDocs.Signature
 
 Procurando uma maneira confiável de adicionar assinaturas digitais aos seus documentos PDF com campos de formulário? Neste guia completo, mostraremos o processo usando o GroupDocs.Signature para .NET. Vamos transformar seu fluxo de trabalho com assinaturas seguras e juridicamente vinculativas!

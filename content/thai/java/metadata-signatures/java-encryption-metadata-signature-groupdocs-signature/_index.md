@@ -4,8 +4,8 @@
 "title": "การเข้ารหัส Java และลายเซ็นเมตาข้อมูลและการจัดการเอกสารที่ปลอดภัยด้วย GroupDocs.Signature"
 "url": "/th/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # การนำการเข้ารหัส Java และการค้นหาลายเซ็นเมตาข้อมูลไปใช้งานด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

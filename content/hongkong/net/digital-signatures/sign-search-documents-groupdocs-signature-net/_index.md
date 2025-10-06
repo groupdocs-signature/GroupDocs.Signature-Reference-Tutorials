@@ -4,8 +4,8 @@
 "title": "掌握 .NET 中的數位簽章－如何使用 GroupDocs.Signature 簽章和搜尋文檔"
 "url": "/zh-hant/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 .NET 中的數位簽章：如何使用 GroupDocs.Signature 簽章和搜尋文檔
 
 ## 介紹

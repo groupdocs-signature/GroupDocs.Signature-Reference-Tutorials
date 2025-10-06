@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature ile Belgelere Damga İmzaları Nasıl Eklenir?"
 "url": "/tr/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # .NET Belgelerinize Profesyonel Damga İmzaları Nasıl Eklenir?
 
 ## Damga İmzalarla Neler Başarabilirsiniz?

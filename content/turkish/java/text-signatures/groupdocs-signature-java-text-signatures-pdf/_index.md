@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak PDF'lere Metin İmzaları Nasıl Uygulanır? Eksiksiz Bir Kılavuz"
 "url": "/tr/java/text-signatures/groupdocs-signature-java-text-signatures-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak PDF'lere Metin İmzaları Nasıl Uygulanır?
 
 **Belge İş Akışlarını Düzenleme: GroupDocs.Signature for Java ile PDF'lerdeki Metin İmzalarını Arama ve Yönetme Konusunda Kapsamlı Bir Kılavuz**

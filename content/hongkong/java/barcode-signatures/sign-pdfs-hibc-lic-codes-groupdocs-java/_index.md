@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 為 PDF 檔案簽署 HIBC LIC 程式碼？ ——綜合指南"
 "url": "/zh-hant/java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 為 PDF 檔案簽署 HIBC LIC 程式碼：綜合指南
 
 在快速發展的數位環境中，確保文件真實性至關重要，尤其是在製藥和醫療保健物流領域。透過將高資訊條碼 (HIBC) 整合到文件中，您可以有效地保護和驗證簽名。本指南將向您展示如何使用 GroupDocs.Signature for Java 簽署 HIBC LIC QR、Aztec 和 Data Matrix 碼的 PDF 。

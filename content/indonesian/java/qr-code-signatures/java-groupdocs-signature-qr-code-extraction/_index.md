@@ -4,8 +4,8 @@
 "title": "Ekstraksi Tanda Tangan Kode QR Java dengan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Ekstraksi Tanda Tangan Kode QR Java dengan GroupDocs.Signature
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Cách triển khai chữ ký siêu dữ liệu được mã hóa với GroupDocs.Signature cho .NET | Hướng dẫn đầy đủ"
 "url": "/vi/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký siêu dữ liệu được mã hóa với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

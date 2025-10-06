@@ -4,8 +4,8 @@
 "title": "Otomatiskan Pratinjau Dokumen dengan Tanda Tangan Tersembunyi Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Otomatiskan Pratinjau Dokumen dengan Tanda Tangan Tersembunyi Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Digitális aláírás keresésének mesteri szintje Java nyelven a GroupDocs.Signature segítségével – Átfogó útmutató"
 "url": "/hu/java/search-verification/groupdocs-signature-java-digital-search-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Digitális aláírás keresésének elsajátítása a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

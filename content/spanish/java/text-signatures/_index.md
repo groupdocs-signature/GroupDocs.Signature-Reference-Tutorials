@@ -3,8 +3,8 @@
 "title": "Tutoriales de firmas de texto para GroupDocs.Signature Java"
 "url": "/es/java/text-signatures/"
 "weight": 7
+type: docs
 ---
-
 # Tutoriales de firmas de texto para GroupDocs.Signature Java
 
 Nuestros tutoriales de firmas de texto le muestran cómo implementar diversos tipos de firmas de texto con GroupDocs.Signature en Java. Estas guías prácticas le guiarán en la creación de firmas de texto, marcas de agua, anotaciones, etiquetas, campos de formulario y sellos con opciones de formato personalizables. Cada tutorial incluye ejemplos detallados de código Java para escenarios de implementación de firmas de texto, lo que le ayudará a crear aplicaciones que marquen documentos eficazmente con información textual, a la vez que ofrecen múltiples opciones de estilo y posicionamiento.

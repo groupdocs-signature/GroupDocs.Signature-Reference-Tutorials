@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 的多重签名教程"
 "url": "/zh/java/multiple-signatures/"
 "weight": 10
+type: docs
 ---
-
 # GroupDocs.Signature Java 的多重签名教程
 
 学习如何使用我们的 GroupDocs.Signature 教程，使用 Java 创建复杂的多签名工作流程。这些全面的指南演示了如何在单个流程中组合不同类型的签名、实现有序的签名序列、管理复杂的签名排列以及处理多页文档。每个教程都提供了针对高级签名场景的详细 Java 代码示例，帮助您构建强大的文档处理应用程序，以满足企业和法律用例的复杂签名要求。

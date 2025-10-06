@@ -4,8 +4,8 @@
 "title": "Dominando a assinatura de PDF em Java - Assinaturas de adesivos de texto com GroupDocs.Signature para Java"
 "url": "/pt/java/digital-signatures/java-pdf-signing-groupdocs-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Dominando a assinatura de PDF em Java: criando aparências de adesivos de texto com GroupDocs.Signature
 
 Na era digital atual, assinar documentos eletronicamente é essencial. Seja você um profissional da área de negócios ou um indivíduo que gerencia contratos e acordos, assinaturas seguras e visualmente atraentes são cruciais. Este tutorial guia você pelo processo de assinatura de documentos PDF usando aparências de adesivos de texto com o GroupDocs.Signature para Java. Dominar essa habilidade otimizará os fluxos de trabalho de documentos e permitirá que você apresente documentos assinados profissionalmente em um formato exclusivo.

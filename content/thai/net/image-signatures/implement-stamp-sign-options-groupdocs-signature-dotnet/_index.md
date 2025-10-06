@@ -4,8 +4,8 @@
 "title": "วิธีการใช้ตัวเลือกการประทับตราโดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้ตัวเลือกการลงนามแสตมป์โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

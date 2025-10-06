@@ -4,8 +4,8 @@
 "title": "Så här signerar du en lösenordsskyddad PDF med GroupDocs.Signature för .NET (handledning för digital signatur)"
 "url": "/sv/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här signerar du en lösenordsskyddad PDF med GroupDocs.Signature för .NET
 ## Handledning för digitala signaturer
 

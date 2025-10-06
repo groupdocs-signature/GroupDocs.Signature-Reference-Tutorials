@@ -4,8 +4,8 @@
 "title": "Como assinar um PDF com metadados usando GroupDocs.Signature para Java"
 "url": "/pt/java/metadata-signatures/sign-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Como assinar um PDF com metadados usando GroupDocs.Signature para Java
 
 No cenário digital atual, garantir a integridade e a autenticidade dos documentos é crucial. Se você estiver lidando com PDFs que exigem uma camada de segurança por meio de assinaturas, este tutorial o guiará na assinatura de um documento PDF usando metadados como nome do autor, data de criação, ID do documento e ID da assinatura com o GroupDocs.Signature para Java.

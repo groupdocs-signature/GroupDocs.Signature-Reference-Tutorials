@@ -3,8 +3,8 @@
 "title": "Tutorial sul caricamento e il salvataggio dei documenti con GroupDocs.Signature per .NET"
 "url": "/it/net/document-loading-saving/"
 "weight": 2
+type: docs
 ---
-
 # Tutorial sul caricamento e il salvataggio dei documenti con GroupDocs.Signature per .NET
 
 I nostri tutorial sul caricamento e il salvataggio dei documenti forniscono una guida completa per la gestione dei documenti a livello di programmazione in .NET. Segui queste guide dettagliate per imparare a caricare documenti da disco locale, flussi, URL, provider di archiviazione cloud come Amazon S3 e Azure Blob Storage e FTP. Questi tutorial trattano anche diversi scenari di salvataggio dei documenti, tra cui il salvataggio con protezione tramite password, diversi formati di output e opzioni di salvataggio specifiche per vari tipi di documento.

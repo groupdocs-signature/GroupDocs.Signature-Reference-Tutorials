@@ -4,8 +4,8 @@
 "title": "Как подписывать PDF-файлы с помощью точно позиционированных штрихкодов с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать PDF-документ с помощью точно позиционированных штрихкодов с помощью GroupDocs.Signature для .NET
 
 ## Введение

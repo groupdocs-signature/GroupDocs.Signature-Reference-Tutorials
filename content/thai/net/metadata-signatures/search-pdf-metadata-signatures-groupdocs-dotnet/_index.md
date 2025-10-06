@@ -4,8 +4,8 @@
 "title": "ค้นหาและแยกลายเซ็นข้อมูลเมตา PDF โดยใช้ GroupDocs ใน .NET"
 "url": "/th/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # ค้นหาและแยกลายเซ็นข้อมูลเมตา PDF โดยใช้ GroupDocs ใน .NET
 
 ## การแนะนำ

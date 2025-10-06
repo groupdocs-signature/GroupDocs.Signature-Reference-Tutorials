@@ -4,8 +4,8 @@
 "title": "วิธีการใช้การค้นหาบาร์โค้ด .NET โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้การค้นหาบาร์โค้ด .NET โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

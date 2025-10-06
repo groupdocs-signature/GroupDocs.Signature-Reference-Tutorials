@@ -4,8 +4,8 @@
 "title": "วิธีการนำลายเซ็นดิจิทัลไปใช้ใน Excel โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำลายเซ็นดิจิทัลไปใช้ในสเปรดชีตโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

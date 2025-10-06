@@ -5,8 +5,8 @@
 "title": "Jak wyodrębnić podpisy metadanych PDF w .NET"
 "url": "/pl/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # Jak wyodrębnić i przeszukać podpisy metadanych PDF
 
 ## Dlaczego metadane PDF są ważne dla Twoich dokumentów

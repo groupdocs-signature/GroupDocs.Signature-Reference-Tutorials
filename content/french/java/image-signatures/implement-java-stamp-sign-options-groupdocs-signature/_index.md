@@ -4,8 +4,8 @@
 "title": "Implémenter les options de signature Java Stamp avec GroupDocs.Signature pour l'authenticité des documents"
 "url": "/fr/java/image-signatures/implement-java-stamp-sign-options-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implémenter les options de signature Java Stamp avec GroupDocs.Signature pour l'authenticité des documents
 ## Comment implémenter les options de signature Java Stamp avec GroupDocs.Signature pour Java
 À l'ère du numérique, garantir l'authenticité des documents est primordial. Que vous soyez un professionnel ou un particulier souhaitant valider des contrats et des accords, l'ajout d'une signature par tampon apporte crédibilité et sécurité. Ce tutoriel vous guidera dans la configuration des options de signature par tampon avec GroupDocs.Signature pour Java, une bibliothèque performante conçue pour répondre facilement à vos besoins en matière de signature de documents.

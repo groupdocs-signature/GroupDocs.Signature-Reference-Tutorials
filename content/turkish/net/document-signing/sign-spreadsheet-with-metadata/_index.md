@@ -5,8 +5,8 @@
 "title": "C# .NET'te Excel Elektronik Tablolarına Meta Veri İmzaları Ekleme"
 "url": "/tr/net/document-signing/sign-spreadsheet-with-metadata/"
 "weight": 13
+type: docs
 ---
-
 ## giriiş
 
 Excel elektronik tabloları genellikle kritik iş verileri, finansal bilgiler ve önemli hesaplamalar içerir. Bunların gerçekliğini sağlamak, kaynaklarını takip etmek ve bütünlüklerini korumak birçok profesyonel ortamda hayati önem taşır. Elektronik tablo güvenliğini ve izlenebilirliğini artırmanın etkili bir yolu, meta veri imzaları yerleştirmektir.

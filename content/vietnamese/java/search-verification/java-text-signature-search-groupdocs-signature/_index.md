@@ -4,8 +4,8 @@
 "title": "Triển khai Tìm kiếm chữ ký văn bản Java với GroupDocs.Signature để quản lý và xác minh tài liệu"
 "url": "/vi/java/search-verification/java-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai Tìm kiếm chữ ký văn bản Java với GroupDocs.Signature
 
 ## Giới thiệu

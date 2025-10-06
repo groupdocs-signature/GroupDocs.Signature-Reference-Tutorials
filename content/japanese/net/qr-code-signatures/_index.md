@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature for .NET を使用した QR コード署名チュートリアル"
 "url": "/ja/net/qr-code-signatures/"
 "weight": 5
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用した QR コード署名チュートリアル
 
 GroupDocs.Signatureの包括的なチュートリアルで、.NETアプリケーションでQRコード署名を効果的に活用する方法を学びましょう。これらのステップバイステップガイドでは、QRコード署名の作成、カスタマイズ、検索、検証方法を解説します。vCard、Wi-Fi、SMS、メール、暗号通貨、イベント、EPC決済データなど、様々なデータ形式に対応した専用のQRコードオブジェクトの実装方法も習得できます。各チュートリアルでは、基本的なQRコード実装から高度なQRコード実装まで、実践的なC#コード例を提供しており、より高度なドキュメント署名ソリューションの構築に役立ちます。

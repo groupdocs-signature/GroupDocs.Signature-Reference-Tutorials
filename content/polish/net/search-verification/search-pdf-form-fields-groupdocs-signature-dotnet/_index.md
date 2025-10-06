@@ -4,8 +4,8 @@
 "title": "Efektywne wyszukiwanie pól formularzy PDF za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Efektywne wyszukiwanie pól formularzy PDF za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

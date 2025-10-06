@@ -4,8 +4,8 @@
 "title": "Làm chủ việc ký tài liệu với GroupDocs.Signature cho .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ việc ký tài liệu với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

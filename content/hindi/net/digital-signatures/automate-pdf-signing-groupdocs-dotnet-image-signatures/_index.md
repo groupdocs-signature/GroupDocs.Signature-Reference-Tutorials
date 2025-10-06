@@ -4,8 +4,8 @@
 "title": ".NET छवि हस्ताक्षर मार्गदर्शिका के लिए GroupDocs.Signature के साथ PDF हस्ताक्षर स्वचालित करें"
 "url": "/hi/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ PDF हस्ताक्षर को स्वचालित करें: छवि हस्ताक्षर मार्गदर्शिका
 
 ## परिचय

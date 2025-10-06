@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 문서에서 특정 서명을 삭제하는 방법 | 서명 관리 튜토리얼"
 "url": "/ko/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 문서에서 특정 서명을 삭제하는 방법
 
 ## 소개

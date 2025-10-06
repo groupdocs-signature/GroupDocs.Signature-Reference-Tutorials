@@ -4,8 +4,8 @@
 "title": "วิธีการใช้ลายเซ็นข้อมูลเมตาที่เข้ารหัสด้วย GroupDocs.Signature สำหรับ .NET | คู่มือฉบับสมบูรณ์"
 "url": "/th/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำลายเซ็นข้อมูลเมตาที่เข้ารหัสไปใช้กับ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

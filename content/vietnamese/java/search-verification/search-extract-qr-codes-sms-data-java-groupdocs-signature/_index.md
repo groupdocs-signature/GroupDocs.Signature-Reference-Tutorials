@@ -4,8 +4,8 @@
 "title": "Cách tìm kiếm và trích xuất dữ liệu SMS từ chữ ký mã QR trong tệp PDF bằng Java với GroupDocs.Signature"
 "url": "/vi/java/search-verification/search-extract-qr-codes-sms-data-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách tìm kiếm và trích xuất dữ liệu SMS từ chữ ký mã QR trong tệp PDF bằng Java với GroupDocs.Signature
 
 ## Giới thiệu

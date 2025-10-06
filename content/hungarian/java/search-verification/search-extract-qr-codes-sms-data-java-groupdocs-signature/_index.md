@@ -4,8 +4,8 @@
 "title": "Hogyan kereshetünk és kinyerhetünk SMS-adatokat QR-kód aláírásokból PDF-ekben Java használatával a GroupDocs.Signature segítségével"
 "url": "/hu/java/search-verification/search-extract-qr-codes-sms-data-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # SMS-adatok keresése és kinyerése QR-kód aláírásokból PDF-ekben Java használatával a GroupDocs.Signature segítségével
 
 ## Bevezetés

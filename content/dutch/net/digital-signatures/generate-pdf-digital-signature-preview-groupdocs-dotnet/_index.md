@@ -4,8 +4,8 @@
 "title": "Genereer een PDF-voorbeeld van een digitale handtekening met GroupDocs.Signature voor .NET | Uitgebreide handleiding"
 "url": "/nl/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF-voorbeeld van een digitale handtekening genereren met GroupDocs.Signature voor .NET
 
 ## Invoering

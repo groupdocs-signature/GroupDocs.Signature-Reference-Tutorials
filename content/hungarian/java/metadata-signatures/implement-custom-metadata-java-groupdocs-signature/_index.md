@@ -4,8 +4,8 @@
 "title": "Egyéni metaadatok implementálása Java nyelven a GroupDocs.Signature használatával a továbbfejlesztett dokumentumaláíráshoz"
 "url": "/hu/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Egyéni metaadatok implementálása Java nyelven a GroupDocs.Signature segítségével
 
 ## Bevezetés

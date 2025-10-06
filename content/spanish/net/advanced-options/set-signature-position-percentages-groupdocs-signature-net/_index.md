@@ -4,8 +4,8 @@
 "title": "Establecer la posición de la firma mediante porcentajes en GroupDocs.Signature para .NET | Tutorial avanzado"
 "url": "/es/net/advanced-options/set-signature-position-percentages-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Establecer la posición de la firma mediante porcentajes en GroupDocs.Signature para .NET
 ## Introducción
 En la era digital actual, la gestión y automatización eficientes de documentos son esenciales. Añadir firmas a los documentos mediante programación, manteniendo una ubicación precisa, es un desafío común. Este tutorial avanzado le guiará en la configuración de la posición de una firma mediante medidas porcentuales con GroupDocs.Signature para .NET.

@@ -4,8 +4,8 @@
 "title": "Opanowanie GroupDocs.Signature dla platformy .NET, subskrybowanie i konfigurowanie zdarzeń wyszukiwania kodów kreskowych"
 "url": "/pl/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie GroupDocs.Signature dla .NET: subskrybowanie i konfigurowanie zdarzeń wyszukiwania kodów kreskowych
 
 ## Wstęp

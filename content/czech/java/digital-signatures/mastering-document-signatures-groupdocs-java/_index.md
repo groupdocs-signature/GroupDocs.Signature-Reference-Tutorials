@@ -4,8 +4,8 @@
 "title": "Zvládnutí digitálních podpisů dokumentů s GroupDocs pro Javu – Komplexní průvodce"
 "url": "/cs/java/digital-signatures/mastering-document-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí digitálních podpisů dokumentů s GroupDocs pro Javu
 
 ## Zavedení

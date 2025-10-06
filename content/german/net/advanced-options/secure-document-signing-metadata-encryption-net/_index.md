@@ -4,8 +4,8 @@
 "title": "Meistern Sie die sichere Dokumentsignierung mit Metadaten und benutzerdefinierter Verschlüsselung in .NET mithilfe von GroupDocs.Signature"
 "url": "/de/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Sichere Dokumentsignierung mit Metadaten und benutzerdefinierter Verschlüsselung in .NET
 
 ## Einführung

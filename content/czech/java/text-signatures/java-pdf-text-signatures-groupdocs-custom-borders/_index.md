@@ -4,8 +4,8 @@
 "title": "Textové podpisy PDF v Javě s vlastními okraji pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/text-signatures/java-pdf-text-signatures-groupdocs-custom-borders/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí textových podpisů PDF v Javě s vlastními ohraničeními pomocí GroupDocs.Signature
 
 dnešní digitální době je zajištění pravosti dokumentů klíčové jak pro firmy, tak pro jednotlivce. S nástupem elektronických dokumentů jsou tradiční metody podepisování nahrazovány efektivnějšími a bezpečnějšími řešeními, jako jsou textové podpisy v PDF. Pokud chcete dodat svým PDF dokumentům profesionální nádech pomocí vlastních textových podpisů pomocí GroupDocs.Signature pro Javu, jste na správném místě.

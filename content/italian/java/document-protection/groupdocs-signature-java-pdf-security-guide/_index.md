@@ -4,8 +4,8 @@
 "title": "Proteggi i tuoi PDF con le firme QR-Code e la protezione tramite password con GroupDocs.Signature per Java"
 "url": "/it/java/document-protection/groupdocs-signature-java-pdf-security-guide/"
 "weight": 1
+type: docs
 ---
-
 # Proteggi i tuoi PDF: firme con codice QR e protezione tramite password con GroupDocs.Signature per Java
 
 Nell'era digitale odierna, proteggere i documenti PDF è essenziale per gestire informazioni sensibili e garantire l'autenticità dei file. Questa guida ti mostrerà come utilizzare GroupDocs.Signature per Java per aggiungere firme con codice QR e protezione tramite password ai tuoi PDF.

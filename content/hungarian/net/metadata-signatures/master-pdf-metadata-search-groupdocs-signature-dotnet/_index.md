@@ -4,8 +4,8 @@
 "title": "PDF metaadat-aláírások keresése a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/metadata-signatures/master-pdf-metadata-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF metaadat-aláírások keresése a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

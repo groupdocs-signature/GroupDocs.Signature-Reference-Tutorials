@@ -4,8 +4,8 @@
 "title": "Fájlok letöltése az Amazon S3-ról az AWS SDK for Java használatával a GroupDocs.Signature integrációval"
 "url": "/hu/java/advanced-options/download-files-amazon-s3-aws-sdk-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Fájlok letöltése az Amazon S3-ról az AWS SDK for Java használatával a GroupDocs.Signature integrációval
 
 ## Bevezetés

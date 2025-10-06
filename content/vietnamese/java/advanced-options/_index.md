@@ -3,8 +3,8 @@
 "title": "Hướng dẫn về Tùy chọn Chữ ký Nâng cao cho GroupDocs.Signature Java"
 "url": "/vi/java/advanced-options/"
 "weight": 14
+type: docs
 ---
-
 # Hướng dẫn về Tùy chọn Chữ ký Nâng cao cho GroupDocs.Signature Java
 
 Khám phá các khả năng chữ ký nâng cao với hướng dẫn toàn diện của chúng tôi về GroupDocs.Signature dành cho các nhà phát triển Java. Những hướng dẫn chi tiết này bao gồm việc triển khai mã hóa tùy chỉnh, tuần tự hóa chuyên biệt, thiết lập giao diện phức tạp, cọ vẽ và gradient tùy chỉnh, định vị với nhiều đơn vị đo lường khác nhau, tùy chọn căn chỉnh và chế độ kéo giãn. Mỗi hướng dẫn đều cung cấp các ví dụ mã Java thực tế cho chức năng chữ ký tinh vi, giúp bạn xây dựng các giải pháp tài liệu tận dụng tối đa các khả năng nâng cao của GroupDocs.Signature cho việc triển khai chữ ký tài liệu được tùy chỉnh cao và bảo mật.

@@ -4,8 +4,8 @@
 "title": "Java開発者向けGroupDocsを使用したJava QRコード署名検索"
 "url": "/ja/java/qr-code-signatures/java-qr-code-signature-search-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java開発者向けGroupDocsを使用したJava QRコード署名検索
 
 ## 導入

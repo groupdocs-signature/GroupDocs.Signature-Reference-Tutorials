@@ -4,8 +4,8 @@
 "title": "Jak podpisywać dokumenty stemplem tekstowym za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać dokumenty stemplem tekstowym za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

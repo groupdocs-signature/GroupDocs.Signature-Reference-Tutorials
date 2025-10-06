@@ -4,8 +4,8 @@
 "title": "Αποτελεσματική υπογραφή και μετατροπή υπολογιστικών φύλλων σε PDF χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Αποτελεσματική υπογραφή και μετατροπή υπολογιστικών φύλλων σε PDF χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

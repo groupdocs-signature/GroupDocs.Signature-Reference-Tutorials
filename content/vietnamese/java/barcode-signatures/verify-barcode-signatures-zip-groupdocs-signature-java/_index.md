@@ -4,8 +4,8 @@
 "title": "Xác minh chữ ký mã vạch trong tệp ZIP bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Xác minh chữ ký mã vạch trong tệp ZIP bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

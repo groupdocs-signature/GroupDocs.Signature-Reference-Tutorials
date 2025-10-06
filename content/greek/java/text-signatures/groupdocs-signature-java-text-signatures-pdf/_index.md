@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε υπογραφές κειμένου σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/text-signatures/groupdocs-signature-java-text-signatures-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε υπογραφές κειμένου σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java
 
 **Βελτιστοποίηση Ροών Εργασίας Εγγράφων: Ένας Πλήρης Οδηγός για την Αναζήτηση και Διαχείριση Υπογραφών Κειμένου σε PDF με το GroupDocs.Signature για Java**

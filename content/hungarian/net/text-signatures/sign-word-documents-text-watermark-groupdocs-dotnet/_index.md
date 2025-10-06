@@ -4,8 +4,8 @@
 "title": "Word dokumentumok aláírása szöveges vízjelekkel a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Word dokumentumok aláírása szöveges vízjelekkel a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Java और GroupDocs.Signature का उपयोग करके बहु-स्तरीय छवियों में QR कोड हस्ताक्षर खोज को कार्यान्वित करें"
 "url": "/hi/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके बहु-स्तरीय छवि दस्तावेज़ों में QR कोड हस्ताक्षर खोज कैसे कार्यान्वित करें
 
 ## परिचय

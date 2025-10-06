@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 掌握文档中的二维码签名搜索"
 "url": "/zh/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 掌握文档搜索：使用 GroupDocs.Signature for .NET 查找带有 EPC 数据的二维码签名
 
 ## 介绍

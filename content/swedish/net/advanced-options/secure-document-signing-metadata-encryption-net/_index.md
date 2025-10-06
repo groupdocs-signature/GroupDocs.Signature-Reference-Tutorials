@@ -4,8 +4,8 @@
 "title": "Bemästra säker dokumentsignering med metadata och anpassad kryptering i .NET med GroupDocs.Signature"
 "url": "/sv/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Behärska säker dokumentsignering med metadata och anpassad kryptering i .NET
 
 ## Introduktion

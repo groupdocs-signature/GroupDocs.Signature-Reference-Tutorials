@@ -5,8 +5,8 @@
 "title": "Dodawanie podpisów metadanych do arkuszy kalkulacyjnych programu Excel w C# .NET"
 "url": "/pl/net/document-signing/sign-spreadsheet-with-metadata/"
 "weight": 13
+type: docs
 ---
-
 ## Wstęp
 
 Arkusze kalkulacyjne Excela często zawierają krytyczne dane biznesowe, informacje finansowe i ważne obliczenia. Zapewnienie ich autentyczności, śledzenie ich pochodzenia i ochrona integralności są kluczowe w wielu środowiskach zawodowych. Jednym ze skutecznych sposobów zwiększenia bezpieczeństwa i identyfikowalności arkuszy kalkulacyjnych jest osadzanie podpisów metadanych.

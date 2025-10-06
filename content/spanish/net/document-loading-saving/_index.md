@@ -3,8 +3,8 @@
 "title": "Tutoriales para cargar y guardar documentos con GroupDocs.Signature para .NET"
 "url": "/es/net/document-loading-saving/"
 "weight": 2
+type: docs
 ---
-
 # Tutoriales para cargar y guardar documentos con GroupDocs.Signature para .NET
 
 Nuestros tutoriales de carga y guardado de documentos ofrecen una guía completa para gestionar documentos mediante programación en .NET. Siga estas guías paso a paso para aprender a cargar documentos desde discos locales, transmisiones, URL, proveedores de almacenamiento en la nube como Amazon S3 y Azure Blob Storage, y FTP. Estos tutoriales también abarcan diversas situaciones de guardado de documentos, incluyendo el guardado con protección por contraseña, diferentes formatos de salida y opciones de guardado especializadas para distintos tipos de documentos.

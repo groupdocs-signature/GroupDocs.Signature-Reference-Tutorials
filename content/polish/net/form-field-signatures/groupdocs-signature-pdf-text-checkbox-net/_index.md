@@ -4,8 +4,8 @@
 "title": "Wdrażanie podpisu PDF z tekstem i polem wyboru przy użyciu GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # Wdrażanie podpisu PDF z tekstem i polem wyboru przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Podpisy pól formularza

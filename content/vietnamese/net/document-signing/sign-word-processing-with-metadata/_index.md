@@ -5,8 +5,8 @@
 "title": "Cải thiện tài liệu Word bằng chữ ký siêu dữ liệu trong C# .NET"
 "url": "/vi/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## Giới thiệu
 
 Tài liệu xử lý văn bản là một trong những loại tệp phổ biến nhất được sử dụng trong kinh doanh, giáo dục và giao tiếp cá nhân. Việc đảm bảo tính xác thực, truy xuất nguồn gốc và duy trì tính toàn vẹn của các tài liệu này là rất quan trọng trong nhiều môi trường chuyên nghiệp. Một cách tiếp cận hiệu quả để tăng cường bảo mật và khả năng truy xuất nguồn gốc tài liệu là nhúng chữ ký siêu dữ liệu.

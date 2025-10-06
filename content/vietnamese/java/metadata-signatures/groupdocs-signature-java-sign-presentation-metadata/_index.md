@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu trình bày bằng siêu dữ liệu bằng GroupDocs.Signature cho Java - Hướng dẫn đầy đủ"
 "url": "/vi/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn toàn diện về cách ký tài liệu trình bày bằng siêu dữ liệu bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

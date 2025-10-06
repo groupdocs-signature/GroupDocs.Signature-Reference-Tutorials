@@ -8,10 +8,8 @@ keywords:
 - sign PDFs with QR codes
 - GroupDocs.Signature for Java
 - QR code signatures
-
+type: docs
 ---
-
-
 # Comprehensive Guide to Signing and Exporting PDFs as Images with QR Codes using GroupDocs.Signature for Java
 
 ## Introduction

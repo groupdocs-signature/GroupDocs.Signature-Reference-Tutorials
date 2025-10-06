@@ -3,8 +3,8 @@
 "title": "Metaadat-aláírás-oktatóanyagok a GroupDocs.Signature Java-hoz"
 "url": "/hu/java/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Metaadat-aláírás-oktatóanyagok a GroupDocs.Signature Java-hoz
 
 Metaadat-aláírási oktatóanyagaink bemutatják, hogyan használhatók a dokumentumok metaadatai biztonságos aláíráshoz a GroupDocs.Signature használatával Java nyelven. Ezek a lépésről lépésre szóló útmutatók a metaadat-aláírások különböző dokumentumformátumokban, például PDF-ben, képekben, prezentációkban, táblázatokban és szövegszerkesztő fájlokban történő megvalósítását ismertetik. Minden oktatóanyag működő Java kódpéldákat tartalmaz a metaadat-műveletekhez, segítve olyan alkalmazások létrehozását, amelyek láthatatlan aláírási információkat adhatnak hozzá a dokumentumokhoz, növelve a biztonságot a vizuális megjelenés megváltoztatása nélkül.

@@ -4,8 +4,8 @@
 "title": "Ověřování hlavních čárových kódů v .NET s GroupDocs.Signature pro integritu dokumentů"
 "url": "/cs/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí ověřování čárových kódů v .NET s GroupDocs.Signature
 
 ## Zavedení

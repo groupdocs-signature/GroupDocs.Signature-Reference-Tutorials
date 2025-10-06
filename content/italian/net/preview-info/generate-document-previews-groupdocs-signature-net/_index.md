@@ -4,8 +4,8 @@
 "title": "Generare anteprime di documenti negli archivi utilizzando GroupDocs.Signature per .NET&#58; una guida completa"
 "url": "/it/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Genera anteprime di documenti da archivi con GroupDocs.Signature per .NET
 
 ## Introduzione

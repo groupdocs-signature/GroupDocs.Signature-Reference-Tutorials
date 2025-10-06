@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["digital-signatures", "dotnet-library", "document-automation", "electronic-signatures"]
+type: docs
 ---
-
 # Digital Signature .NET Library - Complete Implementation Guide
 
 ## Why Electronic Signatures Matter for Your .NET Applications

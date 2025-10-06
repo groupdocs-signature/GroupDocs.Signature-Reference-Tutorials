@@ -4,8 +4,8 @@
 "title": "QR-kód aláírások törlése a GroupDocs.Signature segítségével .NET-ben – Átfogó útmutató"
 "url": "/hu/net/signature-management/delete-qr-code-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírások törlése a GroupDocs.Signature segítségével .NET-ben: Átfogó útmutató
 
 ## Bevezetés

@@ -5,8 +5,8 @@
 "title": "Cara Menghapus Tanda Tangan Berdasarkan ID di Dokumen .NET"
 "url": "/id/net/delete-operations/delete-signature-by-id/"
 "weight": 11
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Berdasarkan ID di Dokumen .NET
 
 ## Mengapa Anda Perlu Menghapus Tanda Tangan dari Dokumen?

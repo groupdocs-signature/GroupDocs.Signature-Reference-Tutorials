@@ -4,8 +4,8 @@
 "title": "Jak vyhledávat metadata v tabulkách pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak vyhledávat metadata v tabulce pomocí GroupDocs.Signature pro Javu: Komplexní průvodce
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Υπογράψτε PDF με υπογραφή κειμένου και προσαρμοσμένη εμφάνιση σε .NET χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε έγγραφα PDF με υπογραφή κειμένου και προσαρμοσμένη εμφάνιση χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Jak podpisywać dokumenty za pomocą podpisu tekstowego i obrazkowego w Javie przy użyciu GroupDocs.Signature"
 "url": "/pl/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć podpisywanie dokumentów za pomocą podpisu tekstowego i obrazkowego przy użyciu GroupDocs.Signature dla Java
 
 ## Wstęp

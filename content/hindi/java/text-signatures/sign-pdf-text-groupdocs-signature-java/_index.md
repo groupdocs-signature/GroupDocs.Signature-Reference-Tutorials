@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके PDF पर टेक्स्ट के साथ हस्ताक्षर कैसे करें. Java के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/java/text-signatures/sign-pdf-text-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके PDF पर टेक्स्ट के साथ हस्ताक्षर कैसे करें
 
 ## परिचय

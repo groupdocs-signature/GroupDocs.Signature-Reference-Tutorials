@@ -4,8 +4,8 @@
 "title": "Implementeer digitale handtekeningen in .NET met X.509-certificaten met behulp van GroupDocs.Signature"
 "url": "/nl/net/digital-signatures/implement-digital-signature-x509-certificate-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Implementeer digitale handtekeningen in .NET met X.509-certificaten met behulp van GroupDocs.Signature
 
 ## Invoering

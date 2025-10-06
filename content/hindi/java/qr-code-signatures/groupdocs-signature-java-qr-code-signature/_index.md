@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा दस्तावेज़ों में QR-कोड हस्ताक्षर कैसे लागू करें"
 "url": "/hi/java/qr-code-signatures/groupdocs-signature-java-qr-code-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके जावा दस्तावेज़ों में QR-कोड हस्ताक्षर कैसे लागू करें
 
 ## परिचय

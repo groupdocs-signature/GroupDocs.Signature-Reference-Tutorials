@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 Solid Brush로 텍스트 서명 구현"
 "url": "/ko/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # Java에서 Solid Brush를 사용하여 텍스트 서명 구현
 
 ## 소개

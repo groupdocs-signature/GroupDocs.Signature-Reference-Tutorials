@@ -3,8 +3,8 @@
 "title": "Hướng dẫn xem trước tài liệu và thông tin cho GroupDocs.Signature .NET"
 "url": "/vi/net/preview-info/"
 "weight": 13
+type: docs
 ---
-
 # Hướng dẫn xem trước tài liệu và thông tin cho GroupDocs.Signature .NET
 
 Hướng dẫn xem trước và thông tin của chúng tôi sẽ hướng dẫn bạn cách trích xuất dữ liệu tài liệu có giá trị bằng GroupDocs.Signature trong .NET. Những hướng dẫn chi tiết này trình bày cách tạo bản xem trước tài liệu, truy xuất thông tin tài liệu, truy cập chi tiết chữ ký, xem lịch sử xử lý tài liệu và kiểm tra thuộc tính tệp. Mỗi hướng dẫn đều bao gồm các ví dụ mã C# thực tế cho các tình huống kiểm tra tài liệu, giúp bạn xây dựng các ứng dụng cung cấp tính minh bạch toàn diện cho tài liệu, mang lại trải nghiệm người dùng và theo dõi quy trình làm việc tốt hơn.

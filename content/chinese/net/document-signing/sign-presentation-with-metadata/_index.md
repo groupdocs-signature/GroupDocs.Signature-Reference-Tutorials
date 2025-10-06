@@ -5,8 +5,8 @@
 "title": "使用 C# .NET 中的元数据签名增强 PowerPoint 演示文稿"
 "url": "/zh/net/document-signing/sign-presentation-with-metadata/"
 "weight": 12
+type: docs
 ---
-
 ## 介绍
 
 在当今的数字化工作场所中，演示文稿是沟通和共享信息的重要工具。确保这些演示文稿文件的真实性和完整性变得越来越重要，尤其是在企业和教育环境中。增强演示文稿安全性和可追溯性的一种有效方法是嵌入元数据签名。

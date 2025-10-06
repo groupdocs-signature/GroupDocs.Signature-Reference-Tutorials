@@ -4,8 +4,8 @@
 "title": "Cómo implementar firmas de sello en archivos PDF con GroupDocs.Signature para .NET"
 "url": "/es/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Cómo implementar firmas de sello en archivos PDF con GroupDocs.Signature para .NET
 
 ## Introducción

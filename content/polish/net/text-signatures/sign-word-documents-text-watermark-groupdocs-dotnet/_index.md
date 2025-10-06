@@ -4,8 +4,8 @@
 "title": "Jak podpisywać dokumenty programu Word znakami wodnymi za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać dokumenty programu Word znakami wodnymi za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

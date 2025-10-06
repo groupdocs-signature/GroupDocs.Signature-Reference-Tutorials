@@ -4,8 +4,8 @@
 "title": "Cách xác minh chứng chỉ số bằng Aspose.Signature cho .NET | Hướng dẫn từng bước"
 "url": "/vi/net/search-verification/verify-digital-certificates-aspose-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách xác minh chứng chỉ số bằng Aspose.Signature cho .NET
 
 ## Giới thiệu

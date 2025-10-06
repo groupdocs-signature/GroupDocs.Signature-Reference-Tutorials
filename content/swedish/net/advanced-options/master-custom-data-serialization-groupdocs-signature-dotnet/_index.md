@@ -4,8 +4,8 @@
 "title": "Bemästra anpassad dataserialisering i .NET med GroupDocs.Signature™ Avancerad guide"
 "url": "/sv/net/advanced-options/master-custom-data-serialization-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra anpassad dataserialisering i .NET med GroupDocs.Signature
 ## Introduktion
 Inom digital dokumenthantering är det avgörande att säkerställa dataintegritet genom exakt serialisering. Den här avancerade guiden utforskar hur man implementerar anpassad dataserialisering med hjälp av attribut i GroupDocs.Signature för .NET – en robust lösning som förenklar att lägga till signaturer i dokument. Genom att utnyttja specifika serialiseringsregler med anpassade attribut kan du effektivisera ditt arbetsflöde och förbättra datasäkerheten.

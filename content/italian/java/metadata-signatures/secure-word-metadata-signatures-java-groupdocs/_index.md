@@ -4,8 +4,8 @@
 "title": "Proteggere le firme dei metadati di Word in Java con GroupDocs&#58; una guida completa"
 "url": "/it/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Firme sicure dei metadati di Word in Java con GroupDocs
 
 ## Introduzione

@@ -4,8 +4,8 @@
 "title": "Как реализовать параметры подписи штампа с помощью GroupDocs.Signature для .NET? Подробное руководство"
 "url": "/ru/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать параметры подписи штампа с помощью GroupDocs.Signature для .NET
 
 ## Введение

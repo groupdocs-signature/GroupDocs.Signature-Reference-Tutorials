@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 문서의 이미지 서명 관리하기&#58; 종합 가이드"
 "url": "/ko/net/image-signatures/manage-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 문서의 이미지 서명 관리
 
 ## 소개

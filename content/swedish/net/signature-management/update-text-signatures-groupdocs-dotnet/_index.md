@@ -4,8 +4,8 @@
 "title": "Så här uppdaterar du textsignaturer i dokument med GroupDocs.Signature för .NET – en komplett guide"
 "url": "/sv/net/signature-management/update-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Så här uppdaterar du textsignaturer i dokument med GroupDocs.Signature för .NET: En komplett guide
 
 ## Introduktion

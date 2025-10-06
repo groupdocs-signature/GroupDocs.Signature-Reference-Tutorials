@@ -5,8 +5,8 @@
 "title": "QR-Code in Dokumenten überprüfen"
 "url": "/de/net/verify-operations/verify-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## Einführung
 
 Dokumentensicherheit ist ein entscheidender Aspekt moderner Geschäftsabläufe. QR-Codes erfreuen sich zunehmender Beliebtheit, um Informationen in Dokumente einzubetten, deren Echtheit überprüft werden kann. GroupDocs.Signature für .NET bietet eine leistungsstarke und flexible Lösung zur Überprüfung von QR-Codes, die in Dokumenten verschiedener Formate eingebettet sind.

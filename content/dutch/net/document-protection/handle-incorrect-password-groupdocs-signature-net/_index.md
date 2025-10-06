@@ -4,8 +4,8 @@
 "title": "Hoe u omgaat met uitzonderingen voor onjuiste wachtwoorden in GroupDocs.Signature voor .NET"
 "url": "/nl/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u omgaat met uitzonderingen voor onjuiste wachtwoorden met GroupDocs.Signature voor .NET
 
 ## Invoering

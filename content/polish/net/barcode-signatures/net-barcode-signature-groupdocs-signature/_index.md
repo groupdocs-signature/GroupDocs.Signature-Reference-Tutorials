@@ -4,8 +4,8 @@
 "title": "Integracja podpisu kodem kreskowym .NET z GroupDocs.Signature w celu zwiększenia bezpieczeństwa dokumentów"
 "url": "/pl/net/barcode-signatures/net-barcode-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie zarządzania dokumentami: wdrażanie integracji podpisów kodów kreskowych .NET z GroupDocs.Signature
 
 W dzisiejszej erze cyfrowej zapewnienie autentyczności i integralności dokumentów ma kluczowe znaczenie w różnych branżach. Ten przewodnik pokazuje, jak zintegrować podpisy kodami kreskowymi z obiegiem dokumentów, wykorzystując… **GroupDocs.Signature dla .NET**Niezależnie od tego, czy chcesz podpisać, zweryfikować, wyszukać, zaktualizować czy usunąć podpisy kodów kreskowych w dokumentach, ten samouczek obejmie wszystkie niezbędne aspekty.

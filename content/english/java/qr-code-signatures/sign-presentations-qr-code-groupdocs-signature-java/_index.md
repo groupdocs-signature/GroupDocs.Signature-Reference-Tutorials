@@ -8,10 +8,8 @@ keywords:
 - sign presentations with QR code Java
 - GroupDocs.Signature for Java tutorial
 - QR-code signature integration
-
+type: docs
 ---
-
-
 # How to Sign a Presentation Using QR Code with GroupDocs.Signature for Java
 
 ## Introduction

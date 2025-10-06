@@ -4,8 +4,8 @@
 "title": "Подписывайте PDF-файлы с помощью QR-кода и метаданных событий с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Подписывайте PDF-файлы с помощью QR-кода и метаданных событий с помощью GroupDocs.Signature для .NET
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "كيفية تعيين ترخيص GroupDocs عبر InputStream في Java لتحسين المرونة والامتثال"
 "url": "/ar/java/getting-started/set-groupdocs-license-java-input-stream/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ Java: تعيين ترخيص GroupDocs عبر InputStream في GroupDocs.Signature لـ Java
 
 مرحبًا بكم في هذا الدليل الشامل لإعداد ترخيص GroupDocs باستخدام تدفق إدخال مع GroupDocs.Signature لـ Java. تتيح لك هذه الميزة إدارة التراخيص بكفاءة، وضمان التوافق، وتمكين الوصول الكامل إلى ميزات GroupDocs.

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 이미지 메타데이터 관리 마스터하기"
 "url": "/ko/net/metadata-signatures/mastering-image-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 이미지 메타데이터 관리 마스터하기
 
 오늘날의 디지털 세상에서 이미지 메타데이터 관리는 법적 문서 검증 및 디지털 자산 관리와 같은 다양한 애플리케이션에서 매우 중요합니다. .NET 프로젝트에서 이미지 메타데이터 처리 방식을 간소화하고 싶다면, 이 종합 가이드를 통해 GroupDocs.Signature for .NET을 활용하는 방법을 알아보세요. GroupDocs.Signature for .NET은 이미지에서 메타데이터 서명을 검색하고 가져오는 기능을 향상시키도록 설계된 강력한 도구입니다.

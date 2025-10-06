@@ -4,8 +4,8 @@
 "title": "Načítání a podepisování dokumentů chráněných heslem pomocí QR kódů v Javě s GroupDocs.Signature"
 "url": "/cs/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Načíst a podepsat dokumenty chráněné heslem pomocí QR kódu v Javě
 
 ## Jak načíst a podepsat dokument chráněný heslem pomocí GroupDocs.Signature pro Javu

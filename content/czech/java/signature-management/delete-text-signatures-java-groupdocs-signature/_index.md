@@ -4,8 +4,8 @@
 "title": "Jak odstranit textové podpisy v Javě pomocí GroupDocs.Signature"
 "url": "/cs/java/signature-management/delete-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit textové podpisy v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Реализация поиска подписи по QR-коду с пользовательским шифрованием в .NET с использованием GroupDocs.Signature"
 "url": "/ru/net/qr-code-signatures/qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Реализуйте поиск подписи по QR-коду с помощью пользовательского шифрования в .NET
 
 ## Введение

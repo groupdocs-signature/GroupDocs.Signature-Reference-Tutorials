@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met tekst met GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/text-signatures/sign-pdf-text-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF met tekst ondertekenen met GroupDocs.Signature voor Java
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Cách xóa chữ ký văn bản trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/signature-management/delete-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa chữ ký văn bản trong Java bằng GroupDocs.Signature
 
 ## Giới thiệu

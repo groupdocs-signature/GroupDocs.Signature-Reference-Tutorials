@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - document property retrieval
 - metadata signatures
-
+type: docs
 ---
-
-
 # Mastering Document Property Retrieval with GroupDocs.Signature for Java
 Unlock the power of document management by leveraging GroupDocs.Signature for Java to effortlessly retrieve and print document properties such as format, size, page count, and more. This comprehensive tutorial will guide you through setting up your environment, implementing various functionalities, and applying these capabilities in real-world scenarios.
 

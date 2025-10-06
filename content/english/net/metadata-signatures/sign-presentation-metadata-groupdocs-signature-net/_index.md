@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["groupdocs-signature", "presentation-signing", "metadata-signatures", "dotnet-tutorial"]
+type: docs
 ---
-
 # How to Sign PowerPoint with Metadata .NET
 
 ## Introduction

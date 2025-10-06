@@ -4,8 +4,8 @@
 "title": "Onderteken PDF-documenten met QR-codes met GroupDocs.Signature voor .NET&#58; een complete handleiding"
 "url": "/nl/net/qr-code-signatures/sign-pdf-with-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF-document ondertekenen met een QR-code met GroupDocs.Signature voor .NET
 
 ## Invoering

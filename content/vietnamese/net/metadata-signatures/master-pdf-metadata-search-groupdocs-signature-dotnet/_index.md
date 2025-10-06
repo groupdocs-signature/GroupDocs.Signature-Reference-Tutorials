@@ -4,8 +4,8 @@
 "title": "Cách tìm kiếm chữ ký siêu dữ liệu PDF bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/metadata-signatures/master-pdf-metadata-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách tìm kiếm chữ ký siêu dữ liệu PDF bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

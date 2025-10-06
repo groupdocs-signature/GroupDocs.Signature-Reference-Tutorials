@@ -4,8 +4,8 @@
 "title": "Zvládněte vyhledávání digitálních podpisů v Javě s komplexním průvodcem GroupDocs.Signature"
 "url": "/cs/java/search-verification/groupdocs-signature-java-digital-search-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vyhledávání digitálních podpisů s GroupDocs.Signature pro Javu
 
 ## Zavedení

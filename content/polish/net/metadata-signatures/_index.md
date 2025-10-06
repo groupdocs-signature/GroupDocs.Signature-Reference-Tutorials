@@ -3,8 +3,8 @@
 "title": "Samouczki dotyczące podpisów metadanych dla GroupDocs.Signature .NET"
 "url": "/pl/net/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # Samouczki dotyczące podpisów metadanych dla GroupDocs.Signature .NET
 
 Nasze samouczki dotyczące podpisów metadanych pokazują, jak używać metadanych dokumentów do bezpiecznego podpisywania za pomocą GroupDocs.Signature w .NET. Te przewodniki krok po kroku obejmują implementację podpisów metadanych w różnych formatach dokumentów, w tym PDF, obrazach, prezentacjach, arkuszach kalkulacyjnych i plikach tekstowych. Każdy samouczek zawiera działające przykłady kodu C# dla operacji na metadanych, pomagając w tworzeniu aplikacji, które mogą dodawać niewidoczne informacje o podpisie do dokumentów, zwiększając bezpieczeństwo bez zmiany ich wyglądu.

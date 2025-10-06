@@ -4,8 +4,8 @@
 "title": "كيفية توقيع ملفات PDF باستخدام البيانات الوصفية والتشفير باستخدام GroupDocs.Signature لـ .NET | دليل حماية المستندات الآمنة"
 "url": "/ar/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع ملفات PDF باستخدام البيانات الوصفية والتشفير باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

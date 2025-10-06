@@ -4,8 +4,8 @@
 "title": "Comment signer des documents de présentation avec des métadonnées à l'aide de GroupDocs.Signature pour Java – Guide complet"
 "url": "/fr/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # Guide complet sur la signature de documents de présentation avec métadonnées à l'aide de GroupDocs.Signature pour Java
 
 ## Introduction

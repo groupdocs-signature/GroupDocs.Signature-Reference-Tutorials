@@ -4,8 +4,8 @@
 "title": "VCard objektumok létrehozása és konfigurálása a GroupDocs.Signature for .NET használatával – Fejlesztői útmutató"
 "url": "/hu/net/metadata-signatures/create-configure-vcard-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # VCard objektumok létrehozása és konfigurálása a GroupDocs.Signature for .NET használatával: Fejlesztői útmutató
 
 ## Bevezetés

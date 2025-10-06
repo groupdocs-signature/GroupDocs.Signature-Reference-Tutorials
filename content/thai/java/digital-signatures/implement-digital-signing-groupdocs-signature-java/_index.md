@@ -4,8 +4,8 @@
 "title": "วิธีการนำการลงนามเอกสารดิจิทัลไปใช้ใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำการลงนามเอกสารดิจิทัลไปใช้ใน Java โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

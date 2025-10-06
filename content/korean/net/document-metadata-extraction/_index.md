@@ -5,8 +5,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용한 마스터 문서 메타데이터 추출"
 "url": "/ko/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # GroupDocs.Signature를 사용한 문서 메타데이터 추출에 대한 포괄적인 가이드
 
 ## 현대 워크플로에서 문서 메타데이터의 전략적 중요성

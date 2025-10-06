@@ -4,8 +4,8 @@
 "title": "Otomatiskan Ekstraksi Metadata dalam Spreadsheet Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Mengotomatiskan Ekstraksi Metadata dalam Spreadsheet dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

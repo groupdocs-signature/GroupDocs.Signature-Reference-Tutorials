@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Tanda Tangan PDF Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/signature-management/delete-pdf-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan PDF Menggunakan GroupDocs.Signature untuk Java: Panduan Lengkap
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Weryfikacja dokumentów .NET z podpisami kodów kreskowych za pomocą GroupDocs.Signature"
 "url": "/pl/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć weryfikację dokumentów za pomocą podpisów kodów kreskowych w .NET przy użyciu GroupDocs.Signature
 
 ## Wstęp

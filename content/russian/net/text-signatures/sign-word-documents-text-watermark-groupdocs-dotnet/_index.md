@@ -4,8 +4,8 @@
 "title": "Как подписать документы Word текстовыми водяными знаками с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать документы Word текстовыми водяными знаками с помощью GroupDocs.Signature для .NET
 
 ## Введение

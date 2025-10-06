@@ -5,8 +5,8 @@
 "title": ".NET'te Belgelerden QR Kod İmzaları Nasıl Kaldırılır?"
 "url": "/tr/net/delete-operations/delete-qr-code-signature/"
 "weight": 16
+type: docs
 ---
-
 # Belgelerinizden QR Kod İmzalarını Nasıl Silersiniz?
 
 ## giriiş

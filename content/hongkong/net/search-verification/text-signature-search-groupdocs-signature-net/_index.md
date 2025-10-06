@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 文件中搜尋主文本簽名"
 "url": "/zh-hant/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 .NET 文件中的文字簽名搜尋
 
 ## 介紹

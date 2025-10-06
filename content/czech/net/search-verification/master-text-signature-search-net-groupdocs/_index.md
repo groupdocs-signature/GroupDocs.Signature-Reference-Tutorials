@@ -4,8 +4,8 @@
 "title": "Vyhledávání podpisu hlavního textu v .NET pomocí GroupDocs.Signature"
 "url": "/cs/net/search-verification/master-text-signature-search-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vyhledávání textových podpisů v .NET s GroupDocs.Signature
 
 Hledáte způsob, jak automatizovat identifikaci textových podpisů ve vašich dokumentech? Ať už jde o ověřování pravosti smluv nebo sledování oficiálních schválení, efektivní správa podpisů dokumentů může být náročná. **GroupDocs.Signature pro .NET**zefektivnit tento proces vyhledáváním a filtrováním textových podpisů přímo z vašich aplikací. Tento tutoriál vás provede nastavením a používáním GroupDocs.Signature k vyhledávání textových podpisů a přeskakování externích.

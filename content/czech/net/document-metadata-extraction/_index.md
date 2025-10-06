@@ -5,8 +5,8 @@
 "title": "Extrakce metadat hlavního dokumentu pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # Komplexní průvodce extrakcí metadat dokumentů pomocí GroupDocs.Signature
 
 ## Strategický význam metadat dokumentů v moderních pracovních postupech

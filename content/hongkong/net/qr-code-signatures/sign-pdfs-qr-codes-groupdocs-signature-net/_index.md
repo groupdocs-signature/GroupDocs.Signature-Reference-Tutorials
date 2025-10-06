@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 為 PDF 簽署二維碼的綜合指南"
 "url": "/zh-hant/net/qr-code-signatures/sign-pdfs-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 簽署帶有二維碼的 PDF：綜合指南
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "Cara Mencari Tanda Tangan Kode QR di .NET dengan GroupDocs.Signature"
 "url": "/id/net/qr-code-signatures/qr-code-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pencarian Tanda Tangan Kode QR dengan Data Peristiwa Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

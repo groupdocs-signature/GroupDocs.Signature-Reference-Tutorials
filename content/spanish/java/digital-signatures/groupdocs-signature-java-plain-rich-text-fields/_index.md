@@ -4,8 +4,8 @@
 "title": "Firma de documentos maestros en Java&#58; Implementación de campos de texto simple y enriquecido con GroupDocs.Signature"
 "url": "/es/java/digital-signatures/groupdocs-signature-java-plain-rich-text-fields/"
 "weight": 1
+type: docs
 ---
-
 # Dominar la firma de documentos en Java: Implementación de campos de texto simple y enriquecido con GroupDocs.Signature
 
 Bienvenido a la guía completa sobre cómo aprovechar **GroupDocs.Signature para Java** Para firmar documentos con campos de texto simple y enriquecido. Ya sea que esté automatizando la aprobación de contratos o optimizando flujos de trabajo, este tutorial le permitirá implementar estas funciones de forma eficiente.

@@ -4,8 +4,8 @@
 "title": "Opanuj wyszukiwanie podpisów cyfrowych w Javie dzięki GroupDocs.Signature™ – kompleksowy przewodnik"
 "url": "/pl/java/search-verification/groupdocs-signature-java-digital-search-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie wyszukiwania podpisów cyfrowych za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

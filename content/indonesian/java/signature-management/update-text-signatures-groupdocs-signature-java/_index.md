@@ -4,8 +4,8 @@
 "title": "Cara Memperbarui Tanda Tangan Teks di PDF Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/signature-management/update-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Memperbarui Tanda Tangan Teks dalam PDF Menggunakan GroupDocs.Signature untuk Java
 ## Perkenalan
 Memperbarui tanda tangan teks dalam dokumen secara terprogram dapat menjadi tantangan, terutama jika Anda ingin menyederhanakan alur kerja dokumen atau mengotomatiskan manajemen tanda tangan. **GroupDocs.Signature untuk Java** menawarkan solusi ampuh untuk masalah ini. Panduan komprehensif ini akan memandu Anda dalam inisialisasi dan pencarian tanda tangan teks, penyesuaian propertinya, dan pembaruannya dalam PDF.

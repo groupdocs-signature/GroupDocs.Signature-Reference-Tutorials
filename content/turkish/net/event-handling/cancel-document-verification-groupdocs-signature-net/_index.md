@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanılarak Belge Doğrulaması Nasıl İptal Edilir? Olay İşleme Kılavuzu"
 "url": "/tr/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanılarak Belge Doğrulaması Nasıl İptal Edilir: Olay İşleme Kılavuzu
 
 ## giriiş

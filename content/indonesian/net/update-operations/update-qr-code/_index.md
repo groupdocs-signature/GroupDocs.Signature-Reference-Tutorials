@@ -5,8 +5,8 @@
 "title": "Perbarui Tanda Tangan Kode QR di Dokumen"
 "url": "/id/net/update-operations/update-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## Perkenalan
 Dalam lingkungan bisnis digital masa kini, kode QR telah menjadi elemen penting dalam sistem manajemen dan autentikasi dokumen. Kode QR menyediakan cara yang praktis untuk mengodekan dan mengakses informasi, mulai dari URL sederhana hingga data terstruktur yang kompleks. GroupDocs.Signature untuk .NET menawarkan perangkat komprehensif yang memungkinkan pengembang mengintegrasikan kemampuan tanda tangan elektronik canggih ke dalam aplikasi mereka, termasuk kemampuan untuk memperbarui tanda tangan kode QR yang ada di dalam dokumen.
 

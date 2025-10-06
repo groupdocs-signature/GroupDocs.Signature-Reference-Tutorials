@@ -4,8 +4,8 @@
 "title": "Cách cập nhật chữ ký tài liệu bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/signature-management/update-document-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách cập nhật chữ ký tài liệu bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

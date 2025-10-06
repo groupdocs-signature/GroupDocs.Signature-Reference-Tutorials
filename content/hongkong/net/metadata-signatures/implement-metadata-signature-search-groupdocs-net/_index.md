@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 在 PowerPoint 簡報中實現元資料簽章搜尋"
 "url": "/zh-hant/net/metadata-signatures/implement-metadata-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在 PowerPoint 中實現元資料簽章搜尋
 
 ## 介紹

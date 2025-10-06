@@ -8,10 +8,8 @@ keywords:
 - delete text signatures java groupdocs signature
 - manage digital signatures java
 - GroupDocs.Signature for Java
-
+type: docs
 ---
-
-
 # How to Delete Text Signatures in Java Using GroupDocs.Signature
 
 ## Introduction

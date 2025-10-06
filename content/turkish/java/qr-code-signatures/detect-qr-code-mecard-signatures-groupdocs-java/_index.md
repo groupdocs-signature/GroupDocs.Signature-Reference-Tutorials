@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da MeCard QR Kod İmzaları Nasıl Algılanır?"
 "url": "/tr/java/qr-code-signatures/detect-qr-code-mecard-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile MeCard QR-Kod İmzaları Nasıl Algılanır?
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Triển khai xác minh tài liệu bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/search-verification/implement-document-verification-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai xác minh tài liệu bằng GroupDocs.Signature cho Java
 
 **Giới thiệu**

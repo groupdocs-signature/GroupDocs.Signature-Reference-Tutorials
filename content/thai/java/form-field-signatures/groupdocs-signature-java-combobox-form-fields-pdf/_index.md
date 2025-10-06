@@ -4,8 +4,8 @@
 "title": "การนำฟิลด์ฟอร์ม ComboBox ไปใช้งานใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # การนำฟิลด์ฟอร์ม ComboBox ไปใช้งานใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

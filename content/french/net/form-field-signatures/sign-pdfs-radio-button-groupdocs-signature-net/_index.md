@@ -4,8 +4,8 @@
 "title": "Comment signer des PDF à l'aide de champs de formulaire à boutons radio avec GroupDocs.Signature pour .NET"
 "url": "/fr/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer un PDF à l'aide de champs de formulaire à boutons radio avec GroupDocs.Signature pour .NET
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 对文档进行数字签名的综合指南"
 "url": "/zh/net/digital-signatures/digitally-sign-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 对文档进行数字签名
 
 ## 介绍

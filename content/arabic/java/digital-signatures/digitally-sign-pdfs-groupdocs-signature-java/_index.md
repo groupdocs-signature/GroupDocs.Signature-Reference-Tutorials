@@ -4,8 +4,8 @@
 "title": "كيفية التوقيع رقميًا على ملفات PDF باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/digital-signatures/digitally-sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية التوقيع رقميًا على ملفات PDF باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

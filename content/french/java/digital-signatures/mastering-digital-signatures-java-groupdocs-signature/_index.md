@@ -4,8 +4,8 @@
 "title": "Maîtriser les signatures numériques en Java &#58; Guide complet avec GroupDocs.Signature"
 "url": "/fr/java/digital-signatures/mastering-digital-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser les signatures numériques en Java : un guide complet avec GroupDocs.Signature
 
 ## Introduction

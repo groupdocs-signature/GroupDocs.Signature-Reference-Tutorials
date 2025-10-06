@@ -5,8 +5,8 @@
 "title": "Suche nach QR-Code-Signaturen in Dokumenten"
 "url": "/de/net/signature-searching/search-for-qr-codes/"
 "weight": 15
+type: docs
 ---
-
 ## Einführung
 
 Im heutigen digitalen Dokumenten-Ökosystem sind QR-Code-Signaturen zu einem unverzichtbaren Werkzeug für die Einbettung von Informationen, die Authentifizierung und die Verbesserung der Dokumentensicherheit geworden. GroupDocs.Signature für .NET bietet Entwicklern eine leistungsstarke API zum Suchen und Extrahieren von QR-Codes aus verschiedenen Dokumentformaten und ermöglicht so erweiterte Dokumentanalyse- und Verifizierungsfunktionen in .NET-Anwendungen.

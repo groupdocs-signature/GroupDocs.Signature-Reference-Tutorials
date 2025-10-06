@@ -4,8 +4,8 @@
 "title": "Como Excluir Assinaturas Específicas em Documentos Usando o GroupDocs.Signature para .NET | Tutorial de Gerenciamento de Assinaturas"
 "url": "/pt/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Como excluir assinaturas específicas em documentos usando GroupDocs.Signature para .NET
 
 ## Introdução

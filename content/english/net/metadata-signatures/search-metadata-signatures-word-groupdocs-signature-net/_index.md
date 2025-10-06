@@ -9,8 +9,8 @@ weight: 1
 url: "/net/metadata-signatures/search-metadata-signatures-word-groupdocs-signature-net/"
 categories: ["Document Processing"]
 tags: ["GroupDocs.Signature", "Word Documents", "Metadata", "C#", ".NET", "Document Security"]
+type: docs
 ---
-
 # Search Metadata Signatures in Word Documents with .NET
 
 ## Why You Need to Search Metadata Signatures (And How This Guide Helps)

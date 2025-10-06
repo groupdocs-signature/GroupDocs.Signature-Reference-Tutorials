@@ -4,8 +4,8 @@
 "title": "ลงนาม PDF ด้วยลายเซ็นข้อความและรูปลักษณ์ที่กำหนดเองใน .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร PDF ด้วยลายเซ็นข้อความและรูปลักษณ์ที่กำหนดเองโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

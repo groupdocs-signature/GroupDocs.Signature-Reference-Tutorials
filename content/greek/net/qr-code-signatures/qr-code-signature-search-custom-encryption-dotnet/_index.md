@@ -4,8 +4,8 @@
 "title": "Υλοποίηση αναζήτησης υπογραφής QR-Code με προσαρμοσμένη κρυπτογράφηση σε .NET χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/qr-code-signatures/qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση αναζήτησης υπογραφής QR-Code με προσαρμοσμένη κρυπτογράφηση σε .NET
 
 ## Εισαγωγή

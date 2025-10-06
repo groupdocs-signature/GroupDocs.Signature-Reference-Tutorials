@@ -4,8 +4,8 @@
 "title": "Реализация текстовой подписи с помощью Solid Brush в Java с помощью GroupDocs.Signature"
 "url": "/ru/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # Реализация текстовой подписи с помощью Solid Brush в Java
 
 ## Введение

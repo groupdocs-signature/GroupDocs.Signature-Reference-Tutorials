@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して Java で署名インスタンスを初期化する方法"
 "url": "/ja/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して Java で署名インスタンスを初期化する方法
 
 ## 導入

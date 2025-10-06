@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature में कस्टम लॉगिंग लागू करें - एक व्यापक गाइड"
 "url": "/hi/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature में कस्टम लॉगिंग लागू करें: एक व्यापक मार्गदर्शिका
 
 ## परिचय

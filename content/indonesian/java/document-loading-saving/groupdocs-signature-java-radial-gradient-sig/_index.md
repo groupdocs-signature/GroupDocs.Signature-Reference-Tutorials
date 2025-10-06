@@ -4,8 +4,8 @@
 "title": "Buat Tanda Tangan Gradien Radial yang Menakjubkan di Java dengan GroupDocs.Signature"
 "url": "/id/java/document-loading-saving/groupdocs-signature-java-radial-gradient-sig/"
 "weight": 1
+type: docs
 ---
-
 # Membuat Tanda Tangan Gradien Radial yang Menarik Secara Visual Menggunakan GroupDocs.Signature untuk Java
 
 Di dunia digital saat ini, estetika penandatanganan dokumen elektronik sama pentingnya dengan fungsionalitas. Tanda tangan yang memukau secara visual dapat meningkatkan profesionalisme dan kredibilitas pekerjaan Anda. Tutorial ini akan memandu Anda menerapkan tanda tangan kuas gradien radial menggunakan GroupDocs.Signature untuk Java.

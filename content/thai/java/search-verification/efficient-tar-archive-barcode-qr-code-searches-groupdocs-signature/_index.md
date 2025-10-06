@@ -4,8 +4,8 @@
 "title": "การค้นหาบาร์โค้ดและ QR Code ด้วย GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # เรียนรู้การค้นหาบาร์โค้ดและรหัส QR ในคลัง TAR ด้วย GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

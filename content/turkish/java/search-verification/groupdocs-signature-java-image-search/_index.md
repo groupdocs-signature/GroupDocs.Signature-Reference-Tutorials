@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs ile Belgelerde Ana Görüntü İmza Aramaları - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs ile Belgelerde Ana Görüntü İmza Aramaları: Kapsamlı Bir Kılavuz
 
 ## giriiş

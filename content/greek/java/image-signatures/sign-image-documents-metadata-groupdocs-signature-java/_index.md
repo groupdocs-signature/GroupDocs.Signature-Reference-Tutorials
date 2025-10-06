@@ -4,8 +4,8 @@
 "title": "Υπογραφή εγγράφων εικόνας με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για Java - Ένας πλήρης οδηγός"
 "url": "/el/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε έγγραφα εικόνας με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

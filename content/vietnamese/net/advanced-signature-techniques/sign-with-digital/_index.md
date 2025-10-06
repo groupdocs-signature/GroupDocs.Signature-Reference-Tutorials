@@ -5,8 +5,8 @@
 "title": "Bảo mật tài liệu .NET của bạn bằng chữ ký số | Hướng dẫn đầy đủ"
 "url": "/vi/net/advanced-signature-techniques/sign-with-digital/"
 "weight": 12
+type: docs
 ---
-
 ## Tại sao chữ ký số lại quan trọng trong quản lý tài liệu hiện đại
 
 Trong thế giới số ngày nay, việc đảm bảo tính xác thực và toàn vẹn của tài liệu điện tử không chỉ là một thông lệ tốt mà còn là điều thiết yếu. Chữ ký số cung cấp lớp bảo mật quan trọng, cho người nhận biết rằng tài liệu của bạn là hợp pháp và chưa bị giả mạo kể từ khi ký.

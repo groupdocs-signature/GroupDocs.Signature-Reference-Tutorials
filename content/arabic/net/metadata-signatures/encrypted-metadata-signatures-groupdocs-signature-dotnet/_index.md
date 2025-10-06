@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ توقيعات البيانات الوصفية المشفرة باستخدام GroupDocs.Signature لـ .NET | دليل شامل"
 "url": "/ar/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ توقيعات البيانات الوصفية المشفرة باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

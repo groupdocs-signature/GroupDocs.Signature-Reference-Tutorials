@@ -4,8 +4,8 @@
 "title": "Πώς να επαληθεύσετε τις υπογραφές κειμένου σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/search-verification/verify-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να επαληθεύσετε μια υπογραφή κειμένου σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

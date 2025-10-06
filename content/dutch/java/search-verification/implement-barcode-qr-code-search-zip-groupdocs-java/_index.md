@@ -4,8 +4,8 @@
 "title": "Implementeer barcode- en QR-codezoekopdrachten in ZIP-archieven met behulp van GroupDocs voor Java-ontwikkelaars"
 "url": "/nl/java/search-verification/implement-barcode-qr-code-search-zip-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementeer barcode- en QR-codezoekopdrachten in ZIP-archieven met GroupDocs voor Java
 ## Invoering
 In de digitale wereld van vandaag is het efficiënt beheren en verifiëren van de authenticiteit van documenten cruciaal. Of u nu werkt met juridische documenten, facturen of contracten die zijn opgeslagen in ZIP-bestanden, het vinden van specifieke barcodes en QR-codes kan een uitdaging zijn zonder de juiste tools. Deze tutorial begeleidt u bij het gebruik van GroupDocs.Signature voor Java om naadloos te zoeken naar barcode- en QR-codehandtekeningen in ZIP-bestanden.

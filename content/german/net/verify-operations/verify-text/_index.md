@@ -5,8 +5,8 @@
 "title": "Textsignaturen in Dokumenten überprüfen"
 "url": "/de/net/verify-operations/verify-text/"
 "weight": 13
+type: docs
 ---
-
 ## Einführung
 
 Textsignaturen sind zwar oft einfacher als digitale oder elektronische Signaturen, spielen aber eine entscheidende Rolle bei der Dokumentenverwaltung und -überprüfung. Ob Wasserzeichen, Fußzeilentext oder bestimmte Inhaltsmuster – die Validierung des Vorhandenseins und der Integrität von Textsignaturen ist ein wichtiger Aspekt der Dokumentenüberprüfung.

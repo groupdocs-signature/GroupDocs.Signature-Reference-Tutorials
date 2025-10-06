@@ -4,8 +4,8 @@
 "title": "Documenten verifiëren met QR-codehandtekeningen in Java met GroupDocs.Signature"
 "url": "/nl/java/search-verification/verify-documents-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Documenten verifiëren met QR-codehandtekeningen met GroupDocs.Signature in Java
 
 ## Invoering

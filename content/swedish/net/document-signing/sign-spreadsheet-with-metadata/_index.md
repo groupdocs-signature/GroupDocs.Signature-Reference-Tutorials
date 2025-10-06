@@ -5,8 +5,8 @@
 "title": "Lägg till metadatasignaturer i Excel-kalkylblad i C# .NET"
 "url": "/sv/net/document-signing/sign-spreadsheet-with-metadata/"
 "weight": 13
+type: docs
 ---
-
 ## Introduktion
 
 Excel-kalkylblad innehåller ofta kritisk affärsdata, finansiell information och viktiga beräkningar. Att säkerställa deras äkthet, spåra deras ursprung och skydda deras integritet är avgörande i många professionella miljöer. En effektiv metod för att förbättra kalkylbladssäkerhet och spårbarhet är att bädda in metadatasignaturer.

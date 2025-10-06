@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature&#58; 文本和数字签名在 .NET 中掌握文档签名搜索"
 "url": "/zh/net/search-verification/master-document-signature-searches-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 掌握.NET 中的文档签名搜索
 
 在当今的数字时代，验证文件的真实性对全球企业至关重要。无论是处理合同、法律文件还是官方记录，高效的签名搜索都能节省时间并增强安全性。本教程将指导您使用 GroupDocs.Signature for .NET 实现文本和数字签名搜索。GroupDocs.Signature for .NET 是一个功能强大的库，专为处理 .NET 应用程序中的各种类型的电子签名而设计。

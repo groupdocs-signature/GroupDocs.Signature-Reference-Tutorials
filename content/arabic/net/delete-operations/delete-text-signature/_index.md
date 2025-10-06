@@ -5,8 +5,8 @@
 "title": "كيفية إزالة التوقيعات النصية من المستندات في .NET"
 "url": "/ar/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # كيفية إزالة التوقيعات النصية من مستنداتك باستخدام GroupDocs.Signature
 
 ## لماذا قد تحتاج إلى حذف توقيعات النص؟

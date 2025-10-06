@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 PDF 中实现 .NET 文本签名——综合指南"
 "url": "/zh/net/text-signatures/implement-net-text-signature-in-pdfs-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 PDF 中实现 .NET 文本签名
 ## 介绍
 在当今的数字世界中，确保文档的真实性和完整性对于各行各业都至关重要。高效地为 PDF 文档添加安全的电子签名并非易事。输入 **适用于 .NET 的 GroupDocs.Signature**—一个旨在简化此流程的强大库。在本指南中，我们将指导您快速安全地为 PDF 添加文本签名。

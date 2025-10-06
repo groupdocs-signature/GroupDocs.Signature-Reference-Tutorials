@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["qr-code-extraction", "document-scanning", "csharp-tutorial", "pdf-processing"]
+type: docs
 ---
-
 ## Introduction
 
 Ever received a batch of invoices, contracts, or shipping documents with embedded QR codes and needed to extract that data programmatically? You're not alone. Whether you're building an invoice verification system, automating document authentication, or just need to pull tracking codes from hundreds of PDFs, searching for QR codes in documents is a common challenge for .NET developers.

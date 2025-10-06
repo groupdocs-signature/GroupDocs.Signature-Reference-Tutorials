@@ -4,8 +4,8 @@
 "title": "Filloggning och QR-kodsignering – en komplett guide med GroupDocs.Signature för .NET"
 "url": "/sv/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Filloggning och QR-kodsignering: En komplett guide med GroupDocs.Signature för .NET
 
 ## Introduktion

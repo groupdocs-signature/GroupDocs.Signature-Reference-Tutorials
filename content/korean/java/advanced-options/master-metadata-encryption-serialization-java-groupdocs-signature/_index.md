@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용한 Java에서의 마스터 메타데이터 암호화 및 직렬화"
 "url": "/ko/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java에서 메타데이터 암호화 및 직렬화 마스터하기
 
 ## 소개

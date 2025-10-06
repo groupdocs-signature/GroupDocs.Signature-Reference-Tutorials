@@ -4,8 +4,8 @@
 "title": "ลงนาม PDF ด้วยรหัส QR ของสกุลเงินดิจิทัลโดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/qr-code-signatures/sign-pdf-crypto-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร PDF โดยใช้รหัส QR ของสกุลเงินดิจิทัลด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

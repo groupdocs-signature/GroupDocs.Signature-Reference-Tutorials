@@ -5,8 +5,8 @@
 "title": ".NET'te Belgelerden Görüntü İmzaları Nasıl Kaldırılır"
 "url": "/tr/net/delete-operations/delete-image-signature/"
 "weight": 14
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Belgelerden Görüntü İmzaları Nasıl Kaldırılır
 
 ## giriiş

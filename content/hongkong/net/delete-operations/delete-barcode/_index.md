@@ -5,8 +5,8 @@
 "title": "如何使用 .NET 從文件中刪除條碼"
 "url": "/zh-hant/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # 如何使用 .NET 從文件中刪除條碼
 
 ## 為什麼需要刪除條碼？

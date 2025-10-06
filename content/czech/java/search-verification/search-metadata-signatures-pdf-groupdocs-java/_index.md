@@ -4,8 +4,8 @@
 "title": "Jak vyhledávat podpisy metadat v PDF pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/search-verification/search-metadata-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak vyhledávat podpisy metadat v dokumentech PDF pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

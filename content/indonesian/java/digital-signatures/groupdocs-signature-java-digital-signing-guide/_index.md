@@ -4,8 +4,8 @@
 "title": "Panduan Lengkap GroupDocs.Signature untuk Dasar-Dasar Penandatanganan Digital Java"
 "url": "/id/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Lengkap GroupDocs.Signature untuk Java: Dasar-Dasar Penandatanganan Digital
 
 ## Perkenalan

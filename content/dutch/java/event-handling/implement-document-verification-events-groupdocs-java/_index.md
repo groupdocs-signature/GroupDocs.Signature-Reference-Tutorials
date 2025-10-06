@@ -4,8 +4,8 @@
 "title": "Implementeer documentverificatie met gebeurtenisabonnement in Java met behulp van GroupDocs.Signature"
 "url": "/nl/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementeer documentverificatie met gebeurtenisabonnement met behulp van GroupDocs.Signature voor Java
 
 ## Invoering

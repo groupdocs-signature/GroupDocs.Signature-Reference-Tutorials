@@ -3,8 +3,8 @@
 "title": "Samouczki wyszukiwania i weryfikacji podpisów dla GroupDocs.Signature .NET"
 "url": "/pl/net/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # Samouczki wyszukiwania i weryfikacji podpisów dla GroupDocs.Signature .NET
 
 Nasze samouczki dotyczące wyszukiwania i weryfikacji zapewniają kompleksowe wskazówki dotyczące walidacji podpisów dokumentów za pomocą GroupDocs.Signature w .NET. Te praktyczne przewodniki pokazują, jak wyszukiwać podpisy różnego typu (cyfrowe, z kodem kreskowym, kodem QR, tekstem, obrazem i metadanymi), wdrażać weryfikację autentyczności, obsługiwać wyjątki podczas weryfikacji oraz przetwarzać złożone dokumenty. Każdy samouczek zawiera kompletne przykłady kodu C# dla typowych scenariuszy weryfikacji, pomagając w tworzeniu aplikacji, które skutecznie określają, czy dokumenty zostały zmienione od momentu podpisania.

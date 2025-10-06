@@ -4,8 +4,8 @@
 "title": "Cómo eliminar firmas de imágenes de documentos con GroupDocs.Signature para Java"
 "url": "/es/java/signature-management/delete-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cómo eliminar firmas de imágenes de documentos con GroupDocs.Signature para Java
 
 Gestionar firmas digitales es crucial para mantener la integridad y autenticidad de los documentos. Tanto si gestiona contratos en una empresa como si gestiona facturas en una pequeña empresa, eliminar firmas de imagen obsoletas o incorrectas puede optimizar la gestión de documentos. Este tutorial le guía para eliminar firmas de imagen por ID conocidos con GroupDocs.Signature para Java.

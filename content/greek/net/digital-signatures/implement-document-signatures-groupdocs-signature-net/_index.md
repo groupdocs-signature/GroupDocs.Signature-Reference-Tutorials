@@ -4,8 +4,8 @@
 "title": "Υλοποίηση και εμφάνιση υπογραφών εγγράφων χρησιμοποιώντας το GroupDocs.Signature για .NET™ - Ένας πλήρης οδηγός"
 "url": "/el/net/digital-signatures/implement-document-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση και εμφάνιση υπογραφών εγγράφων με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

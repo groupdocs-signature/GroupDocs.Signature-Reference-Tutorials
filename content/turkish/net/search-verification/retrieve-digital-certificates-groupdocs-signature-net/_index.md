@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature'ı Kullanarak Arşivlerden Dijital Sertifikaları Alma | Adım Adım Kılavuz"
 "url": "/tr/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Arşivlerden Dijital Sertifikaları Alın
 
 ## giriiş

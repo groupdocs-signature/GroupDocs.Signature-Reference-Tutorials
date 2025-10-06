@@ -4,8 +4,8 @@
 "title": "Implementasi Pembuatan Pratinjau Dokumen di Java dengan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Pembuatan Pratinjau Dokumen di Java dengan GroupDocs.Signature
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Hướng dẫn ký tài liệu với XAdES bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/digital-signatures/sign-documents-xades-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn ký tài liệu với XAdES bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

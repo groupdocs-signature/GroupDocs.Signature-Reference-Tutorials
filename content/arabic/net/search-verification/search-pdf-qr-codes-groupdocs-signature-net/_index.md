@@ -4,8 +4,8 @@
 "title": "كيفية البحث في ملفات PDF عن توقيعات رمز الاستجابة السريعة (QR-Code) واستخراج بيانات بطاقة VCard باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/search-verification/search-pdf-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية البحث في ملفات PDF عن توقيعات رمز الاستجابة السريعة (QR-Code) واستخراج بيانات بطاقة VCard باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

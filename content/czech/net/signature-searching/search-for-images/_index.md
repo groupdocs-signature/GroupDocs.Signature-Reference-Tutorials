@@ -5,8 +5,8 @@
 "title": "Hledání podpisů obrázků v dokumentech"
 "url": "/cs/net/signature-searching/search-for-images/"
 "weight": 13
+type: docs
 ---
-
 ## Zavedení
 
 dnešním ekosystému digitálních dokumentů slouží obrazové podpisy jako výkonné vizuální značky pro branding, autorizaci a ověřování dokumentů. GroupDocs.Signature pro .NET poskytuje komplexní rámec pro vývojáře, který jim umožňuje bezproblémově vyhledávat, identifikovat a zpracovávat obrazové podpisy v dokumentech různých formátů. Tato funkce je nezbytná pro aplikace vyžadující ověřování dokumentů, analýzu obsahu nebo automatizované zpracování podepsaných dokumentů.

@@ -4,8 +4,8 @@
 "title": "Come impostare una licenza a consumo per GroupDocs.Signature in .NET&#58; una guida completa"
 "url": "/it/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come impostare una licenza a consumo per GroupDocs.Signature in .NET: una guida completa
 
 ## Introduzione

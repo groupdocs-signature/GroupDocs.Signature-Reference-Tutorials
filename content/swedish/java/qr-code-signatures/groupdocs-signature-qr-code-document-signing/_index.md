@@ -4,8 +4,8 @@
 "title": "Signering av huvuddokument med QR-koder med GroupDocs.Signature för Java – en omfattande guide"
 "url": "/sv/java/qr-code-signatures/groupdocs-signature-qr-code-document-signing/"
 "weight": 1
+type: docs
 ---
-
 # Signering av huvuddokument med QR-koder med GroupDocs.Signature för Java
 
 ## Introduktion

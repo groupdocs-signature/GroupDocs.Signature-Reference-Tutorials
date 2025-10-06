@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["GroupDocs", "PDF", "QR-Code", "NET", "Digital-Signature"]
+type: docs
 ---
-
 # PDF Digital Signature with QR Codes in .NET
 
 ## Introduction

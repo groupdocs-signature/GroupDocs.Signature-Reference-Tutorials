@@ -4,8 +4,8 @@
 "title": "Cách ký bảng tính Excel với siêu dữ liệu bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký bảng tính Excel với siêu dữ liệu bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

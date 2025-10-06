@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["PDF", "forms", "automation", "dotnet", "csharp"]
+type: docs
 ---
-
 # PDF Form Field Search .NET
 
 ## Introduction

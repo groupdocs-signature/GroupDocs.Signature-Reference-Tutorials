@@ -4,8 +4,8 @@
 "title": "Memperbarui Kode QR di .NET dengan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/net/qr-code-signatures/update-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Memperbarui Kode QR di .NET dengan GroupDocs.Signature: Panduan Lengkap
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 事件处理中实现文本签名"
 "url": "/zh/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 实现带有事件处理的文本签名
 
 ## 介绍

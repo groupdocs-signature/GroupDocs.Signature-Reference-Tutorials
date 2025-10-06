@@ -4,8 +4,8 @@
 "title": "วิธีการใช้ลายเซ็นดิจิทัล PDF พร้อมค่าประทับเวลาโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้ลายเซ็นดิจิทัล PDF พร้อมค่าประทับเวลาโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

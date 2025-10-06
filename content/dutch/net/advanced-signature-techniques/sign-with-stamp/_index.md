@@ -5,8 +5,8 @@
 "title": "Hoe u stempelhandtekeningen aan documenten toevoegt met GroupDocs.Signature"
 "url": "/nl/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # Hoe u professionele stempelhandtekeningen aan uw .NET-documenten toevoegt
 
 ## Wat kunt u bereiken met stempelhandtekeningen?

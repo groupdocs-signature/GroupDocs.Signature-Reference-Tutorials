@@ -4,8 +4,8 @@
 "title": "Implémenter la vérification de documents avec abonnement aux événements en Java à l'aide de GroupDocs.Signature"
 "url": "/fr/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Implémenter la vérification de documents avec abonnement aux événements à l'aide de GroupDocs.Signature pour Java
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Как инициализировать и обновлять подписи штрихкодов в Java с помощью GroupDocs.Signature"
 "url": "/ru/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # Как инициализировать и обновлять подписи штрихкодов в Java с помощью GroupDocs.Signature
 
 ## Введение

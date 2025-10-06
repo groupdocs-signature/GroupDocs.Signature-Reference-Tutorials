@@ -5,8 +5,8 @@
 "title": ".NET 문서에 보안 바코드 서명 추가 | 전체 가이드"
 "url": "/ko/net/advanced-signature-techniques/sign-with-barcode/"
 "weight": 11
+type: docs
 ---
-
 ## 바코드 서명으로 문서 보안을 어떻게 강화할 수 있을까요?
 
 오늘날의 디지털 세상에서 문서 보안은 단순히 좋은 것이 아니라 필수적입니다. 바코드 서명은 중요한 파일을 인증하고 보호하는 고유한 방법을 제공합니다. GroupDocs.Signature for .NET을 사용하면 이러한 강력한 보안 기능을 놀라울 정도로 간단하게 구현할 수 있습니다.

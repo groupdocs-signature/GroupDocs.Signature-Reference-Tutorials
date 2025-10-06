@@ -4,8 +4,8 @@
 "title": "Κατακτήστε τις αναζητήσεις κωδικών QR σε Java - Ένας πλήρης οδηγός χρήσης του GroupDocs.Signature"
 "url": "/el/java/search-verification/mastering-qr-code-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με τις αναζητήσεις κωδικών QR σε Java: Ένας πλήρης οδηγός χρήσης του GroupDocs.Signature
 
 ## Εισαγωγή

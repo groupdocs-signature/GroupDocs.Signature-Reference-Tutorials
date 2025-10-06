@@ -5,8 +5,8 @@
 "title": "Łatwe wyodrębnianie metadanych z przetwarzania tekstu za pomocą .NET"
 "url": "/pl/net/document-metadata-extraction/search-word-processing-metadata-extraction/"
 "weight": 14
+type: docs
 ---
-
 # Jak wyszukiwać i wyodrębniać metadane przetwarzania tekstu w środowisku .NET
 
 ## Wstęp

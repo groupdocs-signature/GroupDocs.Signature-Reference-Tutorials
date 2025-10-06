@@ -4,8 +4,8 @@
 "title": "Aláírás pozíciójának beállítása százalékos értékekkel a GroupDocs.Signature for .NET-ben | Speciális oktatóanyag"
 "url": "/hu/net/advanced-options/set-signature-position-percentages-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Aláírás pozíciójának beállítása százalékos értékekkel a GroupDocs.Signature for .NET fájlban
 ## Bevezetés
 A mai digitális korban elengedhetetlen a hatékony dokumentumkezelés és az automatizálás. Gyakori kihívást jelent programozott módon aláírásokat hozzáadni a dokumentumokhoz a pontos elhelyezés megőrzése mellett. Ez a haladó oktatóanyag végigvezeti Önt az aláírás pozíciójának beállításán százalékos mértékegységek használatával a GroupDocs.Signature for .NET segítségével.

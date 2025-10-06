@@ -5,8 +5,8 @@
 "title": "Vérifier les signatures numériques dans les documents"
 "url": "/fr/net/verify-operations/verify-digital/"
 "weight": 11
+type: docs
 ---
-
 ## Introduction
 
 Les signatures numériques jouent un rôle crucial pour garantir l'authenticité, l'intégrité et la non-répudiation des documents dans les processus commerciaux modernes. Contrairement aux signatures manuscrites traditionnelles, les signatures numériques utilisent des techniques cryptographiques pour vérifier l'identité du signataire et garantir que le document n'a pas été modifié depuis sa signature.

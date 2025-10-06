@@ -4,8 +4,8 @@
 "title": "Inicializace instance podpisu pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Inicializace instance podpisu pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć podpisy tekstowe w .NET za pomocą GroupDocs.Signature? – kompleksowy przewodnik"
 "url": "/pl/net/text-signatures/master-text-signatures-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć podpisy tekstowe w .NET za pomocą GroupDocs.Signature: kompleksowy przewodnik
 
 ## Wstęp

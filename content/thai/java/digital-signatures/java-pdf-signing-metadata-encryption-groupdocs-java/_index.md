@@ -4,8 +4,8 @@
 "title": "การลงนาม PDF ของ Java ด้วยข้อมูลเมตาและการเข้ารหัสโดยใช้ GroupDocs คู่มือฉบับสมบูรณ์"
 "url": "/th/java/digital-signatures/java-pdf-signing-metadata-encryption-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้การลงนาม PDF ของ Java ด้วยข้อมูลเมตาและการเข้ารหัสโดยใช้ GroupDocs
 
 ## การแนะนำ

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["groupdocs", "digital-signatures", "dotnet", "electronic-signatures", "document-security"]
+type: docs
 ---
-
 # Digital Document Signing .NET - Complete GroupDocs.Signature Tutorial
 
 ## Introduction

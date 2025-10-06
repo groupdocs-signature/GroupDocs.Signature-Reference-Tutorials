@@ -4,8 +4,8 @@
 "title": "Ký lưu trữ TAR bằng mã vạch và mã QR trong Java bằng GroupDocs.Signature"
 "url": "/vi/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tệp lưu trữ TAR bằng mã vạch và mã QR bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "วิธีการใช้การลงนามบาร์โค้ด .NET ด้วย GroupDocs.Signature&#58; คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา"
 "url": "/th/net/barcode-signatures/implement-dotnet-barcode-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้การลงนามบาร์โค้ด .NET ด้วย GroupDocs.Signature: คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา
 
 ## การแนะนำ

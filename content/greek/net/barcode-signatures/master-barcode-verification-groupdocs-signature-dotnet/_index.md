@@ -4,8 +4,8 @@
 "title": "Επαλήθευση κύριου γραμμωτού κώδικα σε .NET με το GroupDocs.Signature για ακεραιότητα εγγράφου"
 "url": "/el/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την επαλήθευση γραμμωτού κώδικα σε .NET με το GroupDocs.Signature
 
 ## Εισαγωγή

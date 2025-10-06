@@ -4,8 +4,8 @@
 "title": "So löschen Sie eine Textsignatur aus einem Dokument mit GroupDocs.Signature für .NET"
 "url": "/de/net/signature-management/delete-text-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So löschen Sie eine Textsignatur aus einem Dokument mit GroupDocs.Signature für .NET
 
 ## Einführung

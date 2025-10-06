@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 预览二维码签名——综合指南"
 "url": "/zh/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 实现二维码签名预览
 
 ## 介绍

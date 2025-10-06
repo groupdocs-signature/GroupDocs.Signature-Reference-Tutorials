@@ -4,8 +4,8 @@
 "title": "Πώς να αναζητήσετε υπογραφές μεταδεδομένων σε παρουσιάσεις χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αναζητήσετε υπογραφές μεταδεδομένων σε παρουσιάσεις χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

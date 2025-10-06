@@ -4,8 +4,8 @@
 "title": "Cara Menghapus Tanda Tangan Tertentu dari Dokumen Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/signature-management/delete-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menghapus Jenis Tanda Tangan Tertentu dari Dokumen Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

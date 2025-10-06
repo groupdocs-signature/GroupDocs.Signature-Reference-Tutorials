@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して Excel スプレッドシートと VBA プロジェクトにデジタル署名する"
 "url": "/ja/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して Excel スプレッドシートとその VBA プロジェクトにデジタル署名する
 
 今日のデジタル時代において、Excelファイルの信頼性を確保することは極めて重要です。財務スプレッドシートの管理でもプロジェクト計画の管理でも、デジタル署名を追加することで不正な変更を防ぐことができます。このチュートリアルでは、スプレッドシートとVBAプロジェクトの両方にデジタル署名を適用する方法について説明します。 **.NET 用 GroupDocs.Signature**。

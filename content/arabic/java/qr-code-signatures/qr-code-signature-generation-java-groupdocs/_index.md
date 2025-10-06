@@ -4,8 +4,8 @@
 "title": "إنشاء توقيع رمز الاستجابة السريعة في Java - دليل شامل باستخدام GroupDocs"
 "url": "/ar/java/qr-code-signatures/qr-code-signature-generation-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ إنشاء توقيع رمز الاستجابة السريعة في Java باستخدام GroupDocs
 
 ## مقدمة

@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["qr-code", "signatures", "document-management", "groupdocs"]
+type: docs
 ---
-
 # How to Remove QR Code Signatures from Documents in .NET 
 
 ## Why You'd Want to Remove QR Code Signatures (And When It Makes Sense)

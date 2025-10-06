@@ -4,8 +4,8 @@
 "title": "Menguasai Tanda Tangan Digital PDF di Java&#58; Menggunakan GroupDocs.Signature untuk Teks, Kotak Centang, dan Bidang Digital"
 "url": "/id/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Tanda Tangan Digital PDF di Java: Menggunakan GroupDocs.Signature untuk Teks, Kotak Centang, dan Bidang Digital
 
 ## Perkenalan

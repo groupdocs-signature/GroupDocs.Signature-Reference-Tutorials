@@ -4,8 +4,8 @@
 "title": "Jak wyszukiwać podpisy metadanych w arkuszach kalkulacyjnych za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak wyszukiwać podpisy metadanych w arkuszu kalkulacyjnym za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

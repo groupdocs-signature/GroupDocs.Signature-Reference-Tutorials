@@ -4,8 +4,8 @@
 "title": "Så här implementerar du textsignatursökning i PDF-filer med GroupDocs.Signature för Java"
 "url": "/sv/java/search-verification/implement-search-text-signatures-groupdocs-java-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Så här implementerar du textsignatursökning i PDF-filer med GroupDocs.Signature för Java
 
 ## Introduktion

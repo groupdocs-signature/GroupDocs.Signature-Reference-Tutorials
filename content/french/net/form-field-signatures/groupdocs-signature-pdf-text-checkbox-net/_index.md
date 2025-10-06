@@ -4,8 +4,8 @@
 "title": "Implémenter une signature PDF avec du texte et une case à cocher à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # Implémenter une signature PDF avec du texte et une case à cocher à l'aide de GroupDocs.Signature pour .NET
 
 ## Signatures des champs de formulaire

@@ -5,8 +5,8 @@
 "title": "Szöveges aláírások keresése dokumentumokban"
 "url": "/hu/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## Bevezetés
 
 szöveges aláírások gyakori módszerek a dokumentumok szerzőségének, jóváhagyásának vagy ellenőrzésének jelzésére. A digitális dokumentumkezelésben a szöveges aláírások programozott keresésének és kinyerésének képessége kulcsfontosságú a dokumentumok érvényesítéséhez, a munkafolyamatok automatizálásához és a megfelelőség ellenőrzéséhez. A GroupDocs.Signature for .NET átfogó megoldást kínál a szöveges aláírás keresési funkciójának megvalósítására a .NET alkalmazásokban, különféle dokumentumformátumokat és fejlett keresési lehetőségeket támogatva.

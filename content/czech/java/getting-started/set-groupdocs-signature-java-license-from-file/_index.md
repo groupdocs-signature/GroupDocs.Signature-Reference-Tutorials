@@ -4,8 +4,8 @@
 "title": "Nastavení GroupDocs.Signature pro licenci Java ze souboru – Komplexní průvodce"
 "url": "/cs/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # Nastavení GroupDocs.Signature pro licenci Java ze souboru - Podrobný návod
 
 ## Zavedení

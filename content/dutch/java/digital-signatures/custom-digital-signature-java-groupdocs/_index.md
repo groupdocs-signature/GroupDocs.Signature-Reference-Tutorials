@@ -4,8 +4,8 @@
 "title": "Implementatie van aangepaste digitale handtekeningen in Java met GroupDocs.Signature&#58; een uitgebreide handleiding"
 "url": "/nl/java/digital-signatures/custom-digital-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van aangepaste digitale handtekeningen in Java met GroupDocs.Signature
 
 In het huidige digitale tijdperk is het cruciaal om de integriteit en authenticiteit van documenten te waarborgen. Traditionele handtekeningen schieten vaak tekort bij het verifiëren van de legitimiteit van elektronisch gedeelde documenten. Deze uitgebreide handleiding begeleidt u bij het implementeren van een digitale handtekening op maat. **GroupDocs.Signature voor Java**, waardoor uw digitale documenten veiliger en professioneler worden.

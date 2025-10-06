@@ -4,8 +4,8 @@
 "title": "Skuteczne usuwanie podpisów według identyfikatora za pomocą GroupDocs.Signature dla .NET&#58; Przewodnik krok po kroku"
 "url": "/pl/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak skutecznie usunąć podpis według identyfikatora za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

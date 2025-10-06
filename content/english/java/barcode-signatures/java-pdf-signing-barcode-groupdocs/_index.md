@@ -9,8 +9,8 @@ weight: 1
 url: "/java/barcode-signatures/java-pdf-signing-barcode-groupdocs/"
 categories: ["Java PDF Processing"]
 tags: ["pdf-signing", "barcode-signature", "document-security", "groupdocs"]
+type: docs
 ---
-
 # How to Sign PDF with Barcode in Java
 
 ## Why Barcode Signatures Matter for Your PDFs

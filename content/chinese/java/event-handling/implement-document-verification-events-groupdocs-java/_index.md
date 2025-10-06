@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中通过事件订阅实现文档验证"
 "url": "/zh/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 实现事件订阅文档验证
 
 ## 介绍

@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 在 Java 中實作條碼簽章搜尋"
 "url": "/zh-hant/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 Java 中實作條碼簽章搜尋
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して ID で画像署名を削除する方法"
 "url": "/ja/net/signature-management/delete-image-signatures-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して ID で画像署名を削除するための包括的なガイド
 
 ## 導入

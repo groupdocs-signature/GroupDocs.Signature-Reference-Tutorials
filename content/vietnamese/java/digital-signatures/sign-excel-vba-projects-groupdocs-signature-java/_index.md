@@ -4,8 +4,8 @@
 "title": "Cách ký dự án Excel VBA bằng GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/digital-signatures/sign-excel-vba-projects-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký dự án Excel VBA bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

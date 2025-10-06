@@ -4,8 +4,8 @@
 "title": "Implementace vyhledávání podpisů QR kódů ve vícevrstvých obrázcích pomocí Javy a GroupDocs.Signature"
 "url": "/cs/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat vyhledávání podpisů QR kódů ve vícevrstvých obrazových dokumentech pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

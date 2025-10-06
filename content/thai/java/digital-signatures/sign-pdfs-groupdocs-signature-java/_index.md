@@ -4,8 +4,8 @@
 "title": "การเรียนรู้ลายเซ็นดิจิทัล PDF ใน Java โดยใช้ GroupDocs.Signature สำหรับข้อความ ช่องกาเครื่องหมาย และฟิลด์ดิจิทัล"
 "url": "/th/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้ลายเซ็นดิจิทัล PDF ใน Java: การใช้ GroupDocs.Signature สำหรับข้อความ ช่องกาเครื่องหมาย และฟิลด์ดิจิทัล
 
 ## การแนะนำ

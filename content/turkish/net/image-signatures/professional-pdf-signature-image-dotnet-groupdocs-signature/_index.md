@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak .NET'te PDF'leri Resim İmzalarıyla Nasıl İmzalarsınız?"
 "url": "/tr/net/image-signatures/professional-pdf-signature-image-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak .NET'te PDF'leri Resim İmzalarıyla Nasıl İmzalarsınız?
 
 ## giriiş

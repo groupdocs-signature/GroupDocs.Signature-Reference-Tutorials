@@ -4,8 +4,8 @@
 "title": "รักษาความปลอดภัยเอกสารด้วยลายน้ำข้อความโดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้ลายน้ำข้อความในเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

@@ -5,8 +5,8 @@
 "title": "Tambahkan Tanda Tangan Barcode Aman ke Dokumen .NET | Panduan Lengkap"
 "url": "/id/net/advanced-signature-techniques/sign-with-barcode/"
 "weight": 11
+type: docs
 ---
-
 ## Bagaimana Tanda Tangan Barcode Dapat Meningkatkan Keamanan Dokumen Anda?
 
 Di dunia digital saat ini, keamanan dokumen bukan hanya sekadar fitur—tetapi juga penting. Tanda tangan kode batang menawarkan cara unik untuk mengautentikasi dan mengamankan berkas penting Anda. Dengan GroupDocs.Signature untuk .NET, penerapan fitur keamanan canggih ini ternyata sangat mudah.

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 實現高效的 Java 條碼簽章管理"
 "url": "/zh-hant/java/barcode-signatures/java-barcode-signature-management-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 實現高效的 Java 條碼簽章管理
 
 在數位時代，高效管理電子簽名對企業和個人都至關重要。無論您是驗證協議還是保護文檔，使用合適的工具都能顯著提高工作效率。 **GroupDocs.Signature for Java** 是一個功能強大的庫，旨在簡化這些流程。本教學將指導您初始化簽名物件、搜尋條碼簽名以及從文件中刪除它們。

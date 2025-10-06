@@ -4,8 +4,8 @@
 "title": "Automatyzacja podpisywania plików PDF za pomocą GroupDocs.Signature dla .NET&#58; Przewodnik po podpisach obrazów"
 "url": "/pl/net/digital-signatures/automate-pdf-signing-groupdocs-dotnet-image-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Automatyzacja podpisywania plików PDF za pomocą GroupDocs.Signature dla platformy .NET: Przewodnik po podpisach obrazkowych
 
 ## Wstęp

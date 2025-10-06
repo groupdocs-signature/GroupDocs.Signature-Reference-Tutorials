@@ -4,8 +4,8 @@
 "title": "Biztonságos metaadat-aláírás-keresés .NET-ben GroupDocs.Signature és Encryption segítségével"
 "url": "/hu/net/metadata-signatures/groupdocs-signature-net-encryption-metadata-search/"
 "weight": 1
+type: docs
 ---
-
 # Biztonságos metaadat-aláírás-keresés .NET-ben GroupDocs.Signature és Encryption segítségével
 
 ## Bevezetés

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["GroupDocs.Signature", "Barcode Verification", "NET", "Document Security"]
+type: docs
 ---
-
 # How to Verify Barcode Signatures in .NET - Complete Developer Guide
 
 ## Introduction

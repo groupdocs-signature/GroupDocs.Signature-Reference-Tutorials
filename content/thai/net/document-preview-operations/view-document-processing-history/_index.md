@@ -5,8 +5,8 @@
 "title": "ติดตามประวัติลายเซ็นเอกสารได้อย่างง่ายดายใน .NET"
 "url": "/th/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # วิธีติดตามประวัติลายเซ็นเอกสารของคุณใน .NET
 
 ## GroupDocs.Signature ทำอะไรให้คุณได้บ้าง?

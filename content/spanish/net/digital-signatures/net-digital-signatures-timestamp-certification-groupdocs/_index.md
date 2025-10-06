@@ -4,8 +4,8 @@
 "title": "Cómo implementar firmas digitales .NET con marca de tiempo y certificación mediante GroupDocs.Signature para .NET"
 "url": "/es/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cómo implementar firmas digitales .NET con marca de tiempo y certificación mediante GroupDocs.Signature para .NET
 
 ## Introducción

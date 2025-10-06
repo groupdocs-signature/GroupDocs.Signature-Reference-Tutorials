@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["qr-code-verification", "groupdocs-signature", "dotnet", "electronic-signatures"]
+type: docs
 ---
-
 # QR Code Signature Verification .NET
 
 ## Why QR Code Signature Verification Matters (And How to Get It Right)

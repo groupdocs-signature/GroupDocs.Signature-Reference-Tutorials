@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["metadata-extraction", "groupdocs-signature", "dotnet", "document-management"]
+type: docs
 ---
-
 # How to Extract Document Metadata in .NET
 
 ## Why Document Metadata Matters (And Why You Should Care)

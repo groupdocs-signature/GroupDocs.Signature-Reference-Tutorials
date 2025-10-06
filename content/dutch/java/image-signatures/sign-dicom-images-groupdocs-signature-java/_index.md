@@ -4,8 +4,8 @@
 "title": "Onderteken DICOM-afbeeldingen met QR-codes en metagegevens met GroupDocs.Signature voor Java"
 "url": "/nl/java/image-signatures/sign-dicom-images-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # DICOM-afbeeldingen ondertekenen met QR-codes en metagegevens met GroupDocs.Signature voor Java
 
 ## Invoering

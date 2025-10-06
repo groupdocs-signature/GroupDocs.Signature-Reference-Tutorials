@@ -4,8 +4,8 @@
 "title": "Titkosított metaadat-aláírások megvalósítása a GroupDocs.Signature for .NET segítségével | Teljes körű útmutató"
 "url": "/hu/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Titkosított metaadat-aláírások megvalósítása a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

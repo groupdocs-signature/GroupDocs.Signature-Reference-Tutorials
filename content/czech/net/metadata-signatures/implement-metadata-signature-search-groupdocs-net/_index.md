@@ -4,8 +4,8 @@
 "title": "Jak implementovat vyhledávání podpisů metadat v prezentacích PowerPointu pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/metadata-signatures/implement-metadata-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat vyhledávání podpisů metadat v PowerPointu pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

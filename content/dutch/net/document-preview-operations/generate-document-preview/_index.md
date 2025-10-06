@@ -5,8 +5,8 @@
 "title": "Documentvoorbeelden genereren in .NET-apps | Snelle tutorial"
 "url": "/nl/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # Hoe u documentvoorbeelden genereert in uw .NET-toepassingen
 
 ## Invoering

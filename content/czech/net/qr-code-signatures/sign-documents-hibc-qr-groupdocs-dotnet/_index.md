@@ -4,8 +4,8 @@
 "title": "Jak podepisovat dokumenty pomocí QR kódů HIBC pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/qr-code-signatures/sign-documents-hibc-qr-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat dokumenty pomocí QR kódů HIBC pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Triển khai Tìm kiếm chữ ký mã QR trong .NET với GroupDocs.Signature"
 "url": "/vi/net/search-verification/implement-qr-code-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai tìm kiếm chữ ký mã QR trong tài liệu bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Implementasikan Pencarian Tanda Tangan Kode QR dengan GroupDocs.Signature untuk Java"
 "url": "/id/java/search-verification/groupdocs-signature-java-qr-code-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Pencarian Tanda Tangan Kode QR dengan GroupDocs.Signature untuk Java
 
 Dalam lanskap digital saat ini, verifikasi tanda tangan elektronik secara efisien sangat penting di berbagai industri. **GroupDocs.Signature untuk Java** Menawarkan solusi yang tangguh, terutama untuk mencari dan mengelola tanda tangan kode QR dalam dokumen. Tutorial ini memandu Anda dalam mengimplementasikan pencarian tanda tangan kode QR menggunakan GroupDocs.Signature di Java.

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中進行影像簽章搜尋—綜合指南"
 "url": "/zh-hant/net/search-verification/image-signature-search-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 .NET 中實作影像簽章搜尋的綜合指南
 
 ## 介紹

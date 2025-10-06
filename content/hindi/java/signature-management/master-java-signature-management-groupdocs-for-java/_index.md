@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java के साथ Java हस्ताक्षर प्रबंधन में महारत हासिल करें"
 "url": "/hi/java/signature-management/master-java-signature-management-groupdocs-for-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java के साथ जावा हस्ताक्षर प्रबंधन में निपुणता
 
 ## परिचय

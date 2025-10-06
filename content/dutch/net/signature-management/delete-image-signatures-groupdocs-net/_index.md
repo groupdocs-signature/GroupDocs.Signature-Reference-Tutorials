@@ -4,8 +4,8 @@
 "title": "Hoe u afbeeldingshandtekeningen in .NET verwijdert met behulp van GroupDocs.Signature&#58; een stapsgewijze handleiding"
 "url": "/nl/net/signature-management/delete-image-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u afbeeldingshandtekeningen in .NET verwijdert met behulp van GroupDocs.Signature: een stapsgewijze handleiding
 
 In het huidige digitale landschap is het beheer van documenthandtekeningen cruciaal voor het behoud van veiligheid en authenticiteit in de bedrijfsvoering. Als u werkt met documenten met meerdere beeldhandtekeningen, kan efficiënt beheer zowel tijd als middelen besparen. Deze uitgebreide handleiding begeleidt u bij het gebruik **GroupDocs.Signature voor .NET** Om een handtekeninginstantie te initialiseren, naar afbeeldingshandtekeningen te zoeken en specifieke handtekeningen te verwijderen op basis van bepaalde voorwaarden. Aan het einde van deze tutorial weet u hoe u dit proces effectief kunt stroomlijnen.

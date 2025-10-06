@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용한 마스터 이미지 서명 및 최적화"
 "url": "/ko/java/image-signatures/groupdocs-signature-java-image-optimization/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 활용한 이미지 서명 및 최적화 마스터링
 
 오늘날의 디지털 환경에서는 문서에 안전하게 서명하는 것이 필수적입니다. 계약서를 인증하는 비즈니스 전문가든 이미지를 보호하는 개인이든, 강력한 서명 기능은 필수적입니다. **Java용 GroupDocs.Signature** QR 코드 서명을 생성하고 이미지 저장 옵션을 원활하게 최적화하는 강력한 기능을 제공합니다. 이 튜토리얼에서는 이러한 기능을 활용하여 효과적인 문서 관리를 수행하는 방법을 안내합니다.

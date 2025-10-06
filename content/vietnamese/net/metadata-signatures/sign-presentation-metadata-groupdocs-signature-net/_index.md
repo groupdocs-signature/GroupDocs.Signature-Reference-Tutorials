@@ -4,8 +4,8 @@
 "title": "Ký tài liệu trình bày với siêu dữ liệu bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu trình bày bằng siêu dữ liệu bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

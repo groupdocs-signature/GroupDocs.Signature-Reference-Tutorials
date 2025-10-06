@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signatureを使用してJavaでQRコードを暗号化および署名する包括的なガイド"
 "url": "/ja/java/qr-code-signatures/encrypt-sign-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for JavaでQRコードを暗号化・署名する
 
 ## 導入

@@ -9,8 +9,8 @@ weight: 1
 url: "/net/digital-signatures/digital-signature-verification-groupdocs-dotnet/"
 categories: ["Digital Signatures", ".NET Development"]
 tags: ["digital-signatures", "dotnet", "document-security", "groupdocs", "certificate-validation"]
+type: docs
 ---
-
 # Digital Signature Verification .NET - Complete Implementation
 
 ## Why Digital Signature Verification Matters (And How to Get It Right)

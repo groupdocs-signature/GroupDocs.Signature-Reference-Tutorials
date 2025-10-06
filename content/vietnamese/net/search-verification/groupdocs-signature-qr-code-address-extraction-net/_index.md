@@ -4,8 +4,8 @@
 "title": "Trích xuất chữ ký mã QR có dữ liệu địa chỉ bằng GroupDocs.Signature cho .NET | Tự động hóa chữ ký số"
 "url": "/vi/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # Trích xuất chữ ký mã QR có dữ liệu địa chỉ bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

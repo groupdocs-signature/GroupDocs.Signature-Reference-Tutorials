@@ -4,8 +4,8 @@
 "title": "Hoe u metagegevens van afbeeldingen kunt zoeken met behulp van GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/search-verification/search-image-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u metagegevens van afbeeldingen kunt zoeken met GroupDocs.Signature voor Java
 
 ## Invoering

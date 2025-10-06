@@ -4,8 +4,8 @@
 "title": "Zvládnutí podepisování dokumentů pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí podepisování dokumentů pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

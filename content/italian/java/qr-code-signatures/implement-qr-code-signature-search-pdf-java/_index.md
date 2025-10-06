@@ -4,8 +4,8 @@
 "title": "Implementare la ricerca della firma del codice QR nei PDF utilizzando Java e GroupDocs.Signature"
 "url": "/it/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementazione della ricerca della firma del codice QR nei PDF tramite Java
 
 ## Introduzione

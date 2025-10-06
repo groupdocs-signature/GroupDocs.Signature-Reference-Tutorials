@@ -3,8 +3,8 @@
 "title": "Tutorial sulla protezione dei documenti per GroupDocs.Signature .NET"
 "url": "/it/net/document-protection/"
 "weight": 16
+type: docs
 ---
-
 # Tutorial sulla protezione dei documenti per GroupDocs.Signature .NET
 
 Impara a proteggere i documenti utilizzando i nostri tutorial sulla protezione GroupDocs.Signature per .NET. Queste guide complete illustrano come gestire i documenti protetti da password, aggiungere la protezione tramite password ai file di output, gestire le eccezioni di sicurezza e implementare una gestione degli errori appropriata. Ogni tutorial fornisce esempi pratici di codice C# per scenari comuni di protezione dei documenti, aiutandoti a creare applicazioni che mantengano la riservatezza e l'integrità dei documenti durante l'intero processo di firma.

@@ -4,8 +4,8 @@
 "title": "วิธีการใช้ลายเซ็นดิจิทัลใน PDF โดยใช้ GroupDocs ลายเซ็นสำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/digital-signatures/implement-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำลายเซ็นดิจิทัลไปใช้ใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

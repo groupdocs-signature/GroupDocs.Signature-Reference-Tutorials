@@ -4,8 +4,8 @@
 "title": "Assinatura digital com tratamento de exceções em .NET usando GroupDocs.Signature"
 "url": "/pt/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Assinatura digital com tratamento de exceções em .NET usando GroupDocs.Signature
 
 ## Introdução

@@ -4,8 +4,8 @@
 "title": ".NET के बारकोड हस्ताक्षर सत्यापन गाइड के लिए GroupDocs.Signature के साथ मास्टर दस्तावेज़ खोज"
 "url": "/hi/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ दस्तावेज़ खोज में महारत हासिल करना
 
 ## परिचय

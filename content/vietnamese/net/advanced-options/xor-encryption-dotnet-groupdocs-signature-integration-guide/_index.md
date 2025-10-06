@@ -4,8 +4,8 @@
 "title": "Triển khai mã hóa XOR trong .NET bằng GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/net/advanced-options/xor-encryption-dotnet-groupdocs-signature-integration-guide/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai mã hóa XOR trong .NET bằng GroupDocs.Signature: Hướng dẫn toàn diện
 
 ## Giới thiệu

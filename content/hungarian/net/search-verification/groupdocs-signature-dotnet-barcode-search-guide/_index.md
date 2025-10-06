@@ -4,8 +4,8 @@
 "title": "Fődokumentum-keresés a GroupDocs.Signature for .NET segítségével – Vonalkód-aláírás-ellenőrzési útmutató"
 "url": "/hu/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumkeresés elsajátítása a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

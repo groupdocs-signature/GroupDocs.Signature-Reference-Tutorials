@@ -4,8 +4,8 @@
 "title": "Jak usunąć określone podpisy w dokumentach za pomocą GroupDocs.Signature dla platformy .NET | Samouczek zarządzania podpisami"
 "url": "/pl/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak usunąć określone podpisy w dokumentach za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

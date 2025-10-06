@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 删除 Java 中的条形码签名——综合指南"
 "url": "/zh/java/signature-management/groupdocs-signature-java-delete-barcode-signatures/"
 "weight": 1
+type: docs
 ---
-
 # 如何利用 GroupDocs.Signature for Java 通过 ID 删除条形码签名
 
 ## 介绍

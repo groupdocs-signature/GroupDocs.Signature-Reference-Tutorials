@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET kullanarak PDF'leri QR Kodlarıyla Şifreleyin ve İmzalayın"
 "url": "/tr/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak PDF'leri QR Kodlarıyla Şifreleyin ve İmzalayın
 
 ## giriiş

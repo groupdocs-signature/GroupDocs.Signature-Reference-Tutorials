@@ -4,8 +4,8 @@
 "title": "Abrufen des Dokumentprozessverlaufs mit GroupDocs.Signature für Java – Ein umfassender Leitfaden"
 "url": "/de/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Abrufen des Dokumentprozessverlaufs mit GroupDocs.Signature für Java
 
 ## Einführung

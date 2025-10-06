@@ -4,8 +4,8 @@
 "title": "Vyhledávání a extrakce podpisů metadat PDF pomocí GroupDocs v .NET"
 "url": "/cs/net/metadata-signatures/search-pdf-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Vyhledávání a extrakce podpisů metadat PDF pomocí GroupDocs v .NET
 
 ## Zavedení

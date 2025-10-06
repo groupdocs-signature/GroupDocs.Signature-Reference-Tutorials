@@ -4,8 +4,8 @@
 "title": "Vérification des documents maîtres avec GroupDocs.Signature pour Java - Un guide complet"
 "url": "/fr/java/search-verification/groupdocs-signature-java-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser la vérification des documents avec GroupDocs.Signature pour Java
 
 Dans le paysage numérique actuel, la vérification de l'authenticité des documents est essentielle pour maintenir la sécurité et la confiance dans divers secteurs. Ce guide vous explique comment intégrer la vérification des signatures de texte, de codes-barres et de codes QR à vos applications grâce à GroupDocs.Signature pour Java.

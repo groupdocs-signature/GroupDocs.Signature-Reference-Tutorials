@@ -4,8 +4,8 @@
 "title": "Ký tài liệu PDF trực tiếp từ URL bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/digital-signatures/sign-pdf-from-url-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF trực tiếp từ URL bằng GroupDocs.Signature cho .NET
 
 Trong môi trường số phát triển nhanh chóng ngày nay, việc quản lý và xử lý tài liệu trực tuyến hiệu quả là vô cùng quan trọng đối với các doanh nghiệp trên toàn thế giới. Một thách thức phổ biến là việc ký các tài liệu được lưu trữ trực tuyến mà không tải xuống trước - một nhiệm vụ cồng kềnh với các phương pháp truyền thống. Hướng dẫn này sẽ hướng dẫn bạn cách ký tài liệu PDF trực tiếp từ URL của nó một cách liền mạch bằng thư viện GroupDocs.Signature mạnh mẽ dành cho .NET.

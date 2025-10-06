@@ -4,8 +4,8 @@
 "title": "Come firmare un PDF con indirizzo QR Code utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/qr-code-signatures/sign-pdf-qr-code-address-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare un documento PDF con un indirizzo QR Code utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

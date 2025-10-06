@@ -5,8 +5,8 @@
 "title": "Hướng dẫn và ví dụ toàn diện về GroupDocs.Signature cho .NET"
 "url": "/vi/net/"
 "weight": 10
+type: docs
 ---
-
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về GroupDocs.Signature cho .NET - một giải pháp ký tài liệu mạnh mẽ, cho phép các nhà phát triển triển khai chữ ký số an toàn trên nhiều định dạng tài liệu. Bộ sưu tập hướng dẫn chi tiết và ví dụ thực tế này sẽ giúp bạn khai thác toàn bộ tiềm năng của API cho các ứng dụng .NET của mình.

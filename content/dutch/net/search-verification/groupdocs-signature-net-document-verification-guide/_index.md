@@ -4,8 +4,8 @@
 "title": "Documentverificatie onder de knie krijgen met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Documentverificatie onder de knie krijgen met GroupDocs.Signature voor .NET: een uitgebreide handleiding
 
 ## Invoering

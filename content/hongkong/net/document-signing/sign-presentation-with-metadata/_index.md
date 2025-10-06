@@ -5,8 +5,8 @@
 "title": "使用 C# .NET 中的元資料簽章增強 PowerPoint 簡報"
 "url": "/zh-hant/net/document-signing/sign-presentation-with-metadata/"
 "weight": 12
+type: docs
 ---
-
 ## 介紹
 
 在當今的數位化工作場所中，簡報是溝通和分享資訊的重要工具。確保這些簡報文件的真實性和完整性變得越來越重要，尤其是在企業和教育環境中。增強簡報安全性和可追溯性的有效方法是嵌入元資料簽章。

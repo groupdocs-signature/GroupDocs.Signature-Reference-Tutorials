@@ -4,8 +4,8 @@
 "title": "Implementujte vlastní serializaci a šifrování QR kódů v PDF pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat vlastní serializaci a šifrování QR kódů v PDF pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

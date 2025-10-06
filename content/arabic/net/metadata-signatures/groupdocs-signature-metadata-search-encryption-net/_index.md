@@ -4,8 +4,8 @@
 "title": "تنفيذ البحث عن توقيع البيانات الوصفية باستخدام التشفير باستخدام GroupDocs لـ .NET"
 "url": "/ar/net/metadata-signatures/groupdocs-signature-metadata-search-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # دليل شامل: تنفيذ البحث عن توقيع البيانات الوصفية باستخدام التشفير باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

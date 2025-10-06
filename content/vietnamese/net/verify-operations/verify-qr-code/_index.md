@@ -5,8 +5,8 @@
 "title": "Xác minh mã QR trong tài liệu"
 "url": "/vi/net/verify-operations/verify-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## Giới thiệu
 
 Bảo mật tài liệu là một khía cạnh quan trọng trong hoạt động kinh doanh hiện đại. Mã QR đã trở thành một phương pháp ngày càng phổ biến để nhúng thông tin vào tài liệu, có thể được xác minh tính xác thực. GroupDocs.Signature for .NET cung cấp một giải pháp mạnh mẽ và linh hoạt để xác minh mã QR được nhúng trong tài liệu ở nhiều định dạng khác nhau.

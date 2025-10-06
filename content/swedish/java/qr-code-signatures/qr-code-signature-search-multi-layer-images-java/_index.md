@@ -4,8 +4,8 @@
 "title": "Implementera QR-kodsignatursökning i flerskiktsbilder med hjälp av Java och GroupDocs.Signature"
 "url": "/sv/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar QR-kodsignatursökning i flerskiktade bilddokument med GroupDocs.Signature för Java
 
 ## Introduktion

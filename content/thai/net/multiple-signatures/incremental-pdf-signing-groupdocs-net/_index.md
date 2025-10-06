@@ -4,8 +4,8 @@
 "title": "วิธีการลงนาม PDF แบบค่อยเป็นค่อยไปโดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร PDF ทีละขั้นตอนโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

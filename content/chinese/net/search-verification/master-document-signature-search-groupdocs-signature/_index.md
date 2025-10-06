@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 进行 .NET 主文档签名搜索和二维码及 WiFi 数据提取"
 "url": "/zh/net/search-verification/master-document-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 掌握文档签名搜索
 
 在当今的数字时代，高效的文档管理和验证对于各行各业的企业都至关重要。一个常见的挑战是在文档中搜索特定签名，例如包含 WiFi 数据的二维码签名。本指南将指导您使用 GroupDocs.Signature for .NET 实现一项功能，用于搜索嵌入 WiFi 信息的二维码签名。

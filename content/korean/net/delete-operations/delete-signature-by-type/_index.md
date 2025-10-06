@@ -5,8 +5,8 @@
 "title": ".NET에서 유형별 문서 서명을 제거하는 방법"
 "url": "/ko/net/delete-operations/delete-signature-by-type/"
 "weight": 12
+type: docs
 ---
-
 # .NET에서 유형별 문서 서명을 제거하는 방법
 
 ## 문서 처리에서 서명 관리가 중요한 이유

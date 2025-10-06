@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 删除文档中的特定签名 | 签名管理教程"
 "url": "/zh/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 删除文档中的特定签名
 
 ## 介绍

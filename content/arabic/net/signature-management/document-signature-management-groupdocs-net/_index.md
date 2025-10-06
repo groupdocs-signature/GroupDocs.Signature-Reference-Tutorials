@@ -4,8 +4,8 @@
 "title": "إدارة توقيعات المستندات بكفاءة - البحث عن توقيعات حقول النماذج باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # إدارة توقيع المستندات بكفاءة باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

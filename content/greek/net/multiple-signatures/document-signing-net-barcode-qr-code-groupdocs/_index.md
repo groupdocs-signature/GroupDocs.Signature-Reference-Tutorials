@@ -4,8 +4,8 @@
 "title": "Mastering Υπογραφή Εγγράφων σε Υπογραφές Barcode & QR Code .NET με το GroupDocs.Signature"
 "url": "/el/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Mastering Υπογραφή Εγγράφων σε .NET: Υλοποίηση Υπογραφών Barcode και QR Code με το GroupDocs.Signature
 
 ## Εισαγωγή

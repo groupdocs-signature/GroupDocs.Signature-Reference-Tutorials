@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan Tanda Tangan Gambar di .NET Menggunakan GroupDocs.Signature"
 "url": "/id/net/image-signatures/professional-pdf-signature-image-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani PDF dengan Tanda Tangan Gambar di .NET Menggunakan GroupDocs.Signature
 
 ## Perkenalan

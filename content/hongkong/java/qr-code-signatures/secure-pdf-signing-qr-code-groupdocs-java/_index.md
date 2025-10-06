@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中實作帶有二維碼加密的安全 PDF 簽名"
 "url": "/zh-hant/java/qr-code-signatures/secure-pdf-signing-qr-code-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 Java 中實現具有二維碼加密的安全 PDF 簽名
 
 在當今的數位時代，保護文件中的敏感資訊至關重要。網路威脅的興起使得資料加密成為文件管理的重要組成部分。本教學將指導您使用 GroupDocs.Signature for Java 實現安全的 PDF 簽名，並使用二維碼加密。學完本文後，您將能夠將強大的安全功能整合到您的應用程式中。

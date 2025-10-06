@@ -4,8 +4,8 @@
 "title": "Υλοποίηση ψηφιακών υπογραφών σε .NET με πιστοποιητικά X.509 χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/digital-signatures/implement-digital-signature-x509-certificate-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση ψηφιακών υπογραφών σε .NET με πιστοποιητικά X.509 χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "วิธีการนำลายเซ็นประทับตราไปใช้กับไฟล์ PDF โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำลายเซ็นประทับตราไปใช้กับไฟล์ PDF โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して .NET でテキスト署名と放射状グラデーションで PDF に署名する方法"
 "url": "/ja/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して .NET でテキスト署名と放射状グラデーションで PDF に署名する方法
 
 ## 導入

@@ -8,8 +8,8 @@ weight: 13
 url: /net/signature-searching/search-for-images/
 date: "2025-01-02"
 lastmod: "2025-01-02"
+type: docs
 ---
-
 ## Introduction
 
 Ever needed to verify whether a contract contains your company's official stamp? Or maybe you're building a document management system that needs to automatically detect and validate image-based signatures across thousands of files? If you're nodding along, you're in the right place.

@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Word Belgelerini QR Koduyla Nasıl İmzalayabilir ve ODT Olarak Nasıl Kaydedebilirsiniz?"
 "url": "/tr/net/qr-code-signatures/sign-word-docs-qr-code-save-odt-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Word Belgelerini QR Koduyla Nasıl İmzalayabilir ve ODT Olarak Nasıl Kaydedebilirsiniz?
 
 ## giriiş

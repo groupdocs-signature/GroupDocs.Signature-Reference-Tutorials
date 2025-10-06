@@ -4,8 +4,8 @@
 "title": "Thiết lập tệp giấy phép cho GroupDocs.Signature trong .NET - Hướng dẫn từng bước"
 "url": "/vi/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # Thiết lập tệp giấy phép cho GroupDocs.Signature trong .NET: Hướng dẫn từng bước
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Implementare la licenza a consumo in GroupDocs.Signature per Java&#58; una guida passo passo"
 "url": "/it/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare una licenza a consumo in GroupDocs.Signature per Java
 
 ## Introduzione

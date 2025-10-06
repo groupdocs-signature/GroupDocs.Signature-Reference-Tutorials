@@ -4,8 +4,8 @@
 "title": "Ladda och verifiera digitala certifikat med GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/digital-signatures/load-verify-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Ladda och verifiera digitala certifikat med GroupDocs.Signature för .NET
 
 ## Introduktion

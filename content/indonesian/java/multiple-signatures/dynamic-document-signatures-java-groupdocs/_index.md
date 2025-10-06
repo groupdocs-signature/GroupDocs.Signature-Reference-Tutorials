@@ -4,8 +4,8 @@
 "title": "Tanda Tangan Dokumen Dinamis di Java&#58; Menguasai GroupDocs.Signature untuk Penandatanganan Elektronik"
 "url": "/id/java/multiple-signatures/dynamic-document-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Membuat Tanda Tangan Dokumen Dinamis di Java dengan GroupDocs
 
 Di dunia digital yang serba cepat saat ini, kebutuhan untuk menandatangani dokumen secara elektronik secara efisien menjadi semakin penting. Baik Anda seorang profesional bisnis yang ingin menyederhanakan persetujuan kontrak maupun individu yang mengelola dokumentasi pribadi, tanda tangan elektronik menawarkan kecepatan dan kemudahan. Tutorial ini akan memandu Anda dalam membuat tanda tangan teks dan gambar kode batang dinamis menggunakan GroupDocs.Signature untuk Java. Dengan memanfaatkan mode peregangan, tanda tangan Anda dapat beradaptasi dengan mulus di seluruh halaman, memastikan konsistensi dan keterbacaan.

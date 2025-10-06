@@ -5,8 +5,8 @@
 "title": "驗證文件中的條碼簽名"
 "url": "/zh-hant/net/verify-operations/verify-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## 介紹
 
 條碼已成為現代文件管理系統不可或缺的一部分，它不僅能夠快速存取編碼訊息，還能起到安全保護的作用。 GroupDocs.Signature for .NET 提供了強大的 API，用於驗證文件中的條碼簽名，確保其真實性和完整性。

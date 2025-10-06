@@ -4,8 +4,8 @@
 "title": "Jak implementovat vyhledávání čárových kódů v .NET pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat vyhledávání čárových kódů v .NET pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

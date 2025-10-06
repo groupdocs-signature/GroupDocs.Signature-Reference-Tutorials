@@ -4,8 +4,8 @@
 "title": "ใช้งานการตรวจสอบลายเซ็นข้อความใน .NET โดยใช้ GroupDocs.Signature เพื่อการจัดการเอกสารที่ปลอดภัย"
 "url": "/th/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # ใช้งานการตรวจสอบลายเซ็นข้อความใน .NET โดยใช้ GroupDocs.Signature
 ## การค้นหาและการยืนยัน
 **URL SEO**: implement-text-signature-verification-groupdocs-net

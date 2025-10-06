@@ -4,8 +4,8 @@
 "title": ".NET에서 GroupDocs.Signature에 대한 미터링 라이선스를 설정하는 방법&#58; 종합 가이드"
 "url": "/ko/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET에서 GroupDocs.Signature에 대한 미터링 라이선스를 설정하는 방법: 포괄적인 가이드
 
 ## 소개

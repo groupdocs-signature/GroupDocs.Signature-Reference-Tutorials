@@ -4,8 +4,8 @@
 "title": "การใช้ลายเซ็นลายน้ำข้อความโดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้ลายเซ็นลายน้ำข้อความโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

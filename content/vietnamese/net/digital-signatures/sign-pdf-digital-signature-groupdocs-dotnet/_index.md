@@ -4,8 +4,8 @@
 "title": "Ký PDF kỹ thuật số trong .NET - Hướng dẫn sử dụng GroupDocs.Signature"
 "url": "/vi/net/digital-signatures/sign-pdf-digital-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Ký PDF kỹ thuật số trong .NET: Hướng dẫn sử dụng GroupDocs.Signature
 
 ## Giới thiệu

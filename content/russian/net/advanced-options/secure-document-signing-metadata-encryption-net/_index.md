@@ -4,8 +4,8 @@
 "title": "Мастер безопасного подписания документов с метаданными и пользовательским шифрованием в .NET с использованием GroupDocs.Signature"
 "url": "/ru/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Мастер безопасного подписания документов с использованием метаданных и пользовательского шифрования в .NET
 
 ## Введение

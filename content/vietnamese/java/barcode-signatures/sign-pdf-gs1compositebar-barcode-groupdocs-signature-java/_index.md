@@ -4,8 +4,8 @@
 "title": "Ký PDF bằng Mã vạch tổng hợp GS1 bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF bằng mã vạch GS1 Composite bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

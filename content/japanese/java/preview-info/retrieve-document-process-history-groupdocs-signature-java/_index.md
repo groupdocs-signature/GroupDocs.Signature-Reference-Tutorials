@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Javaでドキュメント処理履歴を取得する方法 - 総合ガイド"
 "url": "/ja/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Javaでドキュメント処理履歴を取得する
 
 ## 導入

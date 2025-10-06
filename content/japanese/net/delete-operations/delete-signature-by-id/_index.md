@@ -5,8 +5,8 @@
 "title": ".NET ドキュメントで ID による署名を削除する方法"
 "url": "/ja/net/delete-operations/delete-signature-by-id/"
 "weight": 11
+type: docs
 ---
-
 # .NET ドキュメントで ID による署名を削除する方法
 
 ## 文書から署名を削除する必要があるのはなぜでしょうか?

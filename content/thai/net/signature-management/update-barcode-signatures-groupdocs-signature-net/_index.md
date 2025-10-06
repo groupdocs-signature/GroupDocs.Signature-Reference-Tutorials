@@ -4,8 +4,8 @@
 "title": "วิธีอัปเดตลายเซ็นบาร์โค้ดตาม ID โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีอัปเดตลายเซ็นบาร์โค้ดตาม ID โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

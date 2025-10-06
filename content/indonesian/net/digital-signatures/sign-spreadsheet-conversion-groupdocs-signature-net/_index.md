@@ -4,8 +4,8 @@
 "title": "Tandatangani dan Konversi Spreadsheet ke PDF secara Efisien Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Tandatangani dan Konversi Spreadsheet ke PDF secara Efisien Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

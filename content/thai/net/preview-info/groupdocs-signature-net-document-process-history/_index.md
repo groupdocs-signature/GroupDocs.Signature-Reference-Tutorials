@@ -4,8 +4,8 @@
 "title": "วิธีการดึงประวัติกระบวนการเอกสารด้วย GroupDocs.Signature สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน"
 "url": "/th/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการดึงประวัติกระบวนการเอกสารด้วย GroupDocs.Signature สำหรับ .NET: คำแนะนำทีละขั้นตอน
 
 ## การแนะนำ

@@ -4,8 +4,8 @@
 "title": "Hogyan törölhetünk meghatározott aláírásokat dokumentumokban a GroupDocs.Signature for .NET használatával | Aláírás-kezelési oktatóanyag"
 "url": "/hu/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan törölhetünk meghatározott aláírásokat dokumentumokban a GroupDocs.Signature for .NET használatával?
 
 ## Bevezetés

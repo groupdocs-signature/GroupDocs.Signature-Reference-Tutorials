@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć cyfrowe podpisy PDF ze znacznikami czasu za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/digital-signatures/groupdocs-signature-net-pdf-digital-signatures-timestamps/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć cyfrowe podpisy PDF ze znacznikami czasu za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

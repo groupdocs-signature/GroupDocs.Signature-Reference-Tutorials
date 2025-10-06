@@ -4,8 +4,8 @@
 "title": "Подписание PDF-документов QR-кодами в .NET с помощью GroupDocs.Signature | Подробное руководство"
 "url": "/ru/net/qr-code-signatures/sign-pdf-with-qr-code-in-dotnet-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать PDF-документы с помощью QR-кодов в .NET с помощью GroupDocs.Signature
 
 ## Введение

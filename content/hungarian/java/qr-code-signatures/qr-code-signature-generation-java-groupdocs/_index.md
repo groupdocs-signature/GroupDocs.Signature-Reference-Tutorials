@@ -4,8 +4,8 @@
 "title": "QR-kód aláírás generálása Java-ban – Átfogó útmutató a GroupDocs használatához"
 "url": "/hu/java/qr-code-signatures/qr-code-signature-generation-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírásgenerálás megvalósítása Java-ban a GroupDocs használatával
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása szöveges matricákkal a GroupDocs.Signature for .NET használatával | Lépésről lépésre útmutató"
 "url": "/hu/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentum aláírása szöveges matricával a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

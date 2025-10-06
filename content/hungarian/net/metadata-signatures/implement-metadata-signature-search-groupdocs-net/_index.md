@@ -4,8 +4,8 @@
 "title": "Metaadat-aláírás-keresés megvalósítása PowerPoint-bemutatókban a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/metadata-signatures/implement-metadata-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Metaadat-aláírás-keresés megvalósítása PowerPointban a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "تنفيذ توقيعات نصية في ملفات PDF باستخدام دليل شامل لـ GroupDocs.Signature في Java"
 "url": "/ar/java/text-signatures/pdf-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ توقيعات نص PDF في Java باستخدام GroupDocs.Signature
 
 في ظلّ العالم الرقميّ الحالي، يُعدّ توقيع المستندات بأمان أمرًا ضروريًا لعمليات الأعمال، مثل تأكيد العقود أو التحقق من الاتفاقيات. إضافة توقيع نصيّ يضمن المصداقية والنزاهة. سيرشدك هذا الدليل الشامل إلى كيفية تطبيق توقيعات PDF النصية باستخدام **GroupDocs.Signature لـ Java**، مما يوفر كل من الوظائف والتخصيص.

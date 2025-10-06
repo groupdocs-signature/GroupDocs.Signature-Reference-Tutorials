@@ -4,8 +4,8 @@
 "title": "Aangepaste logging implementeren in GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Aangepaste logging implementeren in GroupDocs.Signature voor .NET: een uitgebreide handleiding
 
 ## Invoering

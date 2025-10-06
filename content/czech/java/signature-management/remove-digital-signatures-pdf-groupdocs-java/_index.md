@@ -4,8 +4,8 @@
 "title": "Jak odstranit digitální podpisy z PDF pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/signature-management/remove-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit digitální podpisy z PDF pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

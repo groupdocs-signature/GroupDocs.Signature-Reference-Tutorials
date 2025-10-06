@@ -4,8 +4,8 @@
 "title": "Podepisování PDF souborů pomocí QR kódu VCard pomocí GroupDocs.Signature pro Javu – Podrobný návod"
 "url": "/cs/java/qr-code-signatures/sign-pdf-qr-code-vcard-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak používat GroupDocs.Signature pro Javu k podepisování PDF pomocí QR kódů obsahujících VCard
 
 ## Zavedení

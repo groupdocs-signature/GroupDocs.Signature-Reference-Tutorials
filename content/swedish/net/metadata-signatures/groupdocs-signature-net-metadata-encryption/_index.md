@@ -4,8 +4,8 @@
 "title": "Hur man implementerar kryptering av metadatasignaturer i .NET med GroupDocs.Signature för säkra PDF-filer"
 "url": "/sv/net/metadata-signatures/groupdocs-signature-net-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar kryptering av metadatasignaturer i .NET med GroupDocs.Signature för säkra PDF-filer
 
 ## Introduktion

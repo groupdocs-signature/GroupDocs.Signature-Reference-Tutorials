@@ -4,8 +4,8 @@
 "title": "Πώς να ενημερώσετε τις υπογραφές κειμένου σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET™ - Ένας πλήρης οδηγός"
 "url": "/el/net/signature-management/update-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να ενημερώσετε τις υπογραφές κειμένου σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

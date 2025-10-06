@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용한 .NET 바코드 및 QR 코드 서명으로 문서 서명 마스터하기"
 "url": "/ko/net/multiple-signatures/document-signing-net-barcode-qr-code-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET에서 문서 서명 마스터하기: GroupDocs.Signature를 사용하여 바코드 및 QR 코드 서명 구현
 
 ## 소개

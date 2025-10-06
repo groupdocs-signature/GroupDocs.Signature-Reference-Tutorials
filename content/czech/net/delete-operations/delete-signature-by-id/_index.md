@@ -5,8 +5,8 @@
 "title": "Jak odstranit podpisy podle ID v dokumentech .NET"
 "url": "/cs/net/delete-operations/delete-signature-by-id/"
 "weight": 11
+type: docs
 ---
-
 # Jak odstranit podpisy podle ID v dokumentech .NET
 
 ## Proč byste měli odstraňovat podpisy z dokumentů?

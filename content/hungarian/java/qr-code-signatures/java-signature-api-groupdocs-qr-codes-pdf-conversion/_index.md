@@ -4,8 +4,8 @@
 "title": "QR-kód aláírás és PDF-konvertálás megvalósítása Java nyelven a GroupDocs.Signature API használatával"
 "url": "/hu/java/qr-code-signatures/java-signature-api-groupdocs-qr-codes-pdf-conversion/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírás és PDF-konvertálás megvalósítása Java nyelven a GroupDocs.Signature API használatával
 
 ## Bevezetés

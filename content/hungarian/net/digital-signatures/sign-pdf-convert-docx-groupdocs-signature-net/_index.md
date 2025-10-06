@@ -4,8 +4,8 @@
 "title": "PDF aláírása és DOCX formátumba konvertálása a GroupDocs.Signature for .NET segítségével – Átfogó útmutató"
 "url": "/hu/net/digital-signatures/sign-pdf-convert-docx-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF aláírása és DOCX formátumba konvertálása a GroupDocs.Signature for .NET segítségével: Átfogó útmutató
 
 A mai digitális környezetben a dokumentumok biztonságos aláírása kulcsfontosságú számos területen, például a jogi, pénzügyi és adminisztratív szektorban. A GroupDocs.Signature for .NET leegyszerűsíti ezt a folyamatot azáltal, hogy lehetővé teszi a PDF-fájlok egyszerű aláírását és különböző formátumokba, például DOCX-ba konvertálását. Ez az átfogó útmutató végigvezeti Önt a dokumentumkezelési munkafolyamat fejlesztéséhez szükséges lépéseken.

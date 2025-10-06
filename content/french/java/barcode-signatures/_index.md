@@ -3,8 +3,8 @@
 "title": "Tutoriels sur les signatures de codes-barres pour GroupDocs.Signature Java"
 "url": "/fr/java/barcode-signatures/"
 "weight": 4
+type: docs
 ---
-
 # Tutoriels sur les signatures de codes-barres pour GroupDocs.Signature Java
 
 Nos tutoriels sur les signatures de codes-barres fournissent des conseils détaillés pour implémenter des signatures basées sur des codes-barres dans vos applications Java. Suivez ces guides pratiques pour apprendre à signer des documents avec différents types de codes-barres, personnaliser leur apparence, rechercher des codes-barres dans des documents existants, mettre à jour ou supprimer des signatures de codes-barres et vérifier leur contenu. Ces tutoriels incluent des exemples complets de code Java pour les opérations courantes liées aux codes-barres, vous aidant à créer des applications capables d'encoder et de vérifier en toute sécurité les informations contenues dans des documents grâce à la technologie des codes-barres.

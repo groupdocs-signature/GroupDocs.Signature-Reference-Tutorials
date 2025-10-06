@@ -3,8 +3,8 @@
 "title": "Tutoriais de Assinatura de Imagem para GroupDocs.Signature Java"
 "url": "/pt/java/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Tutoriais de Assinatura de Imagem para GroupDocs.Signature Java
 
 Aprenda a aprimorar documentos com assinaturas visuais usando nossos tutoriais de assinatura de imagem Java do GroupDocs.Signature. Estes guias detalhados demonstram como adicionar imagens como assinaturas, criar assinaturas de carimbo, implementar marcas d'água, personalizar as configurações de aparência e trabalhar com opções de alinhamento e dimensionamento de imagens. Cada tutorial inclui exemplos práticos de código Java que mostram como criar assinaturas visualmente atraentes que comunicam autenticidade ou identidade visual de forma eficaz, mantendo a integridade do documento.

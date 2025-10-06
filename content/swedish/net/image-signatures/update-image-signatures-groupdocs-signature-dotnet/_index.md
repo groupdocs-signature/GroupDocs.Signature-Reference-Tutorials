@@ -4,8 +4,8 @@
 "title": "Så här uppdaterar du bildsignaturer i dokument med GroupDocs.Signature för .NET - en steg-för-steg-guide"
 "url": "/sv/net/image-signatures/update-image-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Så här uppdaterar du en bildsignatur i dokument med GroupDocs.Signature för .NET
 
 ## Introduktion

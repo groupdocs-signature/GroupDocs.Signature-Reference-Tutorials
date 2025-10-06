@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके कुशलतापूर्वक QR कोड हस्ताक्षर निकालें | हस्ताक्षर प्रबंधन गाइड"
 "url": "/hi/net/signature-management/delete-qr-code-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके QR कोड हस्ताक्षर कैसे हटाएं
 
 ## परिचय

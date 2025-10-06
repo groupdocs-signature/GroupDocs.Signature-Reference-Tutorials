@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 實作文字簽章（逐步指南）"
 "url": "/zh-hant/java/text-signatures/implement-text-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 實作文字簽名
 
 ## 介紹

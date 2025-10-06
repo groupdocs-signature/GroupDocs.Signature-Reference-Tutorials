@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["dotnet", "csharp", "document-security", "groupdocs", "authentication"]
+type: docs
 ---
-
 # How to Verify Digital Signatures in .NET
 
 ## Why Digital Signature Verification Matters in Modern Applications

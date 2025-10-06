@@ -4,8 +4,8 @@
 "title": "إدارة توقيعات الصور في المستندات باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/image-signatures/manage-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # إدارة توقيعات الصور في المستندات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

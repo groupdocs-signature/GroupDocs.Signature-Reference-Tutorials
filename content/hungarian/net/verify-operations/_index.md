@@ -5,8 +5,8 @@
 "title": "Dokumentum-ellenőrzési műveletek .NET-ben"
 "url": "/hu/net/verify-operations/"
 "weight": 27
+type: docs
 ---
-
 ## Bevezetés
 
 dokumentumok ellenőrzése minden biztonságos dokumentumkezelő rendszer kritikus eleme. Akár vállalati alkalmazásokat, dokumentum-munkafolyamat-megoldásokat vagy biztonságra összpontosító rendszereket épít, elengedhetetlen a dokumentumokon belüli különféle aláírások ellenőrzésének képessége. A GroupDocs.Signature for .NET hatékony eszközöket és API-kat kínál, amelyek lehetővé teszik a .NET-fejlesztők számára, hogy robusztus ellenőrzési funkciókat valósítsanak meg vonalkódok, digitális aláírások, QR-kódok és szöveges aláírások számára.

@@ -5,8 +5,8 @@
 "title": "Παρακολουθήστε το ιστορικό υπογραφών εγγράφων με ευκολία στο .NET"
 "url": "/el/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # Πώς να παρακολουθείτε το ιστορικό υπογραφών του εγγράφου σας στο .NET
 
 ## Τι μπορεί να κάνει για εσάς το GroupDocs.Signature;

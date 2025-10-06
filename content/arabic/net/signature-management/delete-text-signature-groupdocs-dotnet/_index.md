@@ -4,8 +4,8 @@
 "title": "كيفية حذف توقيع نصي من مستند باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/signature-management/delete-text-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية حذف توقيع نصي من مستند باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

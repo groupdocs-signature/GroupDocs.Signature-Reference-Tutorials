@@ -9,8 +9,8 @@ weight: 1
 url: "/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 categories: ["Document Processing"]
 tags: ["document-automation", "dotnet", "pdf-processing", "signature-management"]
+type: docs
 ---
-
 # Document Preview Automation .NET - Hide Signatures & Streamline Reviews
 
 ## Why Document Preview Automation Matters in 2025

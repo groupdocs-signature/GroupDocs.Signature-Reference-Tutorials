@@ -4,8 +4,8 @@
 "title": "Sökning av huvuddokumentsignaturer med GroupDocs.Signature för .NET QR-kod och WiFi-datautvinning"
 "url": "/sv/net/search-verification/master-document-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra sökningar efter dokumentsignaturer med GroupDocs.Signature för .NET
 
 I dagens digitala landskap är effektiv dokumenthantering och verifiering avgörande för företag inom olika sektorer. En vanlig utmaning är att söka i dokument efter specifika signaturer, till exempel QR-kodsignaturer som innehåller WiFi-data. Den här omfattande guiden guidar dig genom implementeringen av en funktion för att söka efter QR-kodsignaturer som bäddar in WiFi-information med hjälp av GroupDocs.Signature för .NET.

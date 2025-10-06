@@ -4,8 +4,8 @@
 "title": "Podpisywanie i weryfikacja dokumentu głównego za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Podpisywanie i weryfikacja dokumentu głównego za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Jak opanować podpisywanie i weryfikację dokumentów za pomocą GroupDocs.Signature dla platformy .NET

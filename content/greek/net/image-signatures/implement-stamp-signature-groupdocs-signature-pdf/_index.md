@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε υπογραφές σφραγίδας σε PDF χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε υπογραφές σφραγίδας σε PDF χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

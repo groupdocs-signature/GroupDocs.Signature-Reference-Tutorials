@@ -5,8 +5,8 @@
 "title": "Tambahkan Tanda Tangan Teks ke Dokumen dengan GroupDocs.Signature untuk .NET"
 "url": "/id/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # Cara Menambahkan Tanda Tangan Teks ke Dokumen Menggunakan GroupDocs.Signature untuk .NET
 
 ## Pendahuluan: Modernisasi Proses Penandatanganan Dokumen Anda

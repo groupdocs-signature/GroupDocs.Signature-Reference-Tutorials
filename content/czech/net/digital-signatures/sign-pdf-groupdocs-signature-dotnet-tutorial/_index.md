@@ -4,8 +4,8 @@
 "title": "Snadné podepisování PDF souborů – podrobný návod k používání GroupDocs.Signature pro .NET"
 "url": "/cs/net/digital-signatures/sign-pdf-groupdocs-signature-dotnet-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF dokument pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

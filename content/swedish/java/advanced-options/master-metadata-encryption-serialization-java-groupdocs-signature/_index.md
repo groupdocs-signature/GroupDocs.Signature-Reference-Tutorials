@@ -4,8 +4,8 @@
 "title": "Mastera metadatakryptering och serialisering i Java med GroupDocs.Signature"
 "url": "/sv/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra metadatakryptering och serialisering i Java med GroupDocs.Signature
 
 ## Introduktion

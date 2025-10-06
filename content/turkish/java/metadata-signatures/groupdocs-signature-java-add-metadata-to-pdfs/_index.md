@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak PDF'lere Meta Veri İmzaları Ekleme - Eksiksiz Bir Kılavuz"
 "url": "/tr/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak PDF'lere Meta Veri İmzaları Ekleme
 ## giriiş
 Günümüzün dijital çağında, PDF belgelerinizin orijinalliğini ve bütünlüğünü sağlamak hayati önem taşır. İster sözleşmeleri yöneten bir hukuk uzmanı olun, ister hassas verileri işleyen bir işletme olun, meta veri imzaları eklemek ekstra bir güvenlik ve izlenebilirlik katmanı sağlayabilir. Bu kılavuz, PDF dosyalarınıza standart meta veri imzalarını sorunsuz bir şekilde eklemek için GroupDocs.Signature for Java'yı nasıl kullanacağınızı gösterecektir.

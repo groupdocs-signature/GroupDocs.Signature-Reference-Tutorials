@@ -4,8 +4,8 @@
 "title": "Реализация генерации предварительного просмотра документов в Java с помощью GroupDocs.Signature&#58; подробное руководство"
 "url": "/ru/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # Реализация генерации предварительного просмотра документа в Java с помощью GroupDocs.Signature
 
 ## Введение

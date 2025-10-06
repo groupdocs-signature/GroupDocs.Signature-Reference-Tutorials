@@ -4,8 +4,8 @@
 "title": "Φόρτωση και υπογραφή εγγράφων σε Java με το GroupDocs.Signature&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Φόρτωση και υπογραφή εγγράφων χρησιμοποιώντας το GroupDocs.Signature σε Java
 
 ## Εισαγωγή

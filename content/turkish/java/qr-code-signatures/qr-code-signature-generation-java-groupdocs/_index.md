@@ -4,8 +4,8 @@
 "title": "Java'da QR Kod İmzası Oluşturma - GroupDocs Kullanarak Kapsamlı Bir Kılavuz"
 "url": "/tr/java/qr-code-signatures/qr-code-signature-generation-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs Kullanarak Java'da QR Kod İmzası Oluşturma Nasıl Uygulanır?
 
 ## giriiş

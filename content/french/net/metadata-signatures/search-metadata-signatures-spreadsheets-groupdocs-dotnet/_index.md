@@ -4,8 +4,8 @@
 "title": "Comment rechercher des signatures de métadonnées dans des feuilles de calcul à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Comment rechercher des signatures de métadonnées dans une feuille de calcul à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

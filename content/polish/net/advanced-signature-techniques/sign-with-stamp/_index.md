@@ -5,8 +5,8 @@
 "title": "Jak dodawać podpisy w formie pieczątki do dokumentów za pomocą GroupDocs.Signature"
 "url": "/pl/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # Jak dodać profesjonalne podpisy w formie pieczątek do dokumentów .NET
 
 ## Co można osiągnąć dzięki podpisom stemplowym?

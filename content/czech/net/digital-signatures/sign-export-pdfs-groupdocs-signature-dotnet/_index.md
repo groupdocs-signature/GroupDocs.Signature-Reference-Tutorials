@@ -4,8 +4,8 @@
 "title": "Podepisování a export PDF pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/digital-signatures/sign-export-pdfs-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Podepisování a export PDF pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

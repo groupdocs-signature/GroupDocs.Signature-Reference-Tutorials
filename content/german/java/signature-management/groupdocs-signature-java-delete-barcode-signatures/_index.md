@@ -4,8 +4,8 @@
 "title": "So löschen Sie Barcode-Signaturen in Java mit GroupDocs.Signature – Eine umfassende Anleitung"
 "url": "/de/java/signature-management/groupdocs-signature-java-delete-barcode-signatures/"
 "weight": 1
+type: docs
 ---
-
 # So verwenden Sie GroupDocs.Signature für Java zum Löschen von Barcode-Signaturen nach ID
 
 ## Einführung

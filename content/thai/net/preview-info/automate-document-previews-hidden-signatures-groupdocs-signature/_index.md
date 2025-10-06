@@ -4,8 +4,8 @@
 "title": "สร้างตัวอย่างเอกสารอัตโนมัติด้วยลายเซ็นที่ซ่อนอยู่โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # สร้างตัวอย่างเอกสารอัตโนมัติด้วยลายเซ็นที่ซ่อนอยู่โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

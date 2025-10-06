@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java를 위한 디지털 서명 튜토리얼"
 "url": "/ko/java/digital-signatures/"
 "weight": 3
+type: docs
 ---
-
 # GroupDocs.Signature Java를 위한 디지털 서명 튜토리얼
 
 GroupDocs.Signature Java 튜토리얼을 통해 디지털 서명 구현을 마스터하세요. 이 단계별 가이드는 디지털 인증서로 문서에 서명하고, 고급 디지털 서명 모양 옵션을 구현하고, XAdES 유형을 사용하고, PDF에 증분 저장을 사용하고, 인증서 저장소에 접근하고, 타임스탬프를 관리하는 방법 등을 보여줍니다. 각 튜토리얼에는 Java 코드 예제, 구현 참고 사항, 그리고 디지털 암호화 서명을 사용하여 문서를 안전하게 서명하고 검증하는 애플리케이션을 구축하는 데 도움이 되는 모범 사례가 포함되어 있습니다.

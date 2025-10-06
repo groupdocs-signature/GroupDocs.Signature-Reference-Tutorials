@@ -4,8 +4,8 @@
 "title": "Cómo verificar firmas de documentos en archivos usando GroupDocs.Signature para .NET"
 "url": "/es/net/search-verification/verify-archive-document-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cómo verificar firmas de documentos en archivos con GroupDocs.Signature para .NET
 
 ## Introducción

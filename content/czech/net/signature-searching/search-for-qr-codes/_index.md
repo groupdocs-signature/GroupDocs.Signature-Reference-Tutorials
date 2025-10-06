@@ -5,8 +5,8 @@
 "title": "Hledání podpisů QR kódů v dokumentech"
 "url": "/cs/net/signature-searching/search-for-qr-codes/"
 "weight": 15
+type: docs
 ---
-
 ## Zavedení
 
 V dnešním ekosystému digitálních dokumentů se podpisy QR kódy staly neocenitelným nástrojem pro vkládání informací, ověřování a zvyšování zabezpečení dokumentů. GroupDocs.Signature for .NET poskytuje vývojářům výkonné API pro vyhledávání a extrakci QR kódů z různých formátů dokumentů, což umožňuje pokročilou analýzu a ověřování dokumentů v aplikacích .NET.

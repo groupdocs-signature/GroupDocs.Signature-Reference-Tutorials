@@ -4,8 +4,8 @@
 "title": "Эффективное управление подписями штрихкодов в PDF-файлах с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Эффективное управление подписями штрихкодов в PDF-файлах с помощью GroupDocs.Signature для .NET
 
 ## Введение

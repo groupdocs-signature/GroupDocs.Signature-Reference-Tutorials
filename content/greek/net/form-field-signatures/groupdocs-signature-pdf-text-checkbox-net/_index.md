@@ -4,8 +4,8 @@
 "title": "Υλοποίηση υπογραφής PDF με κείμενο και πλαίσιο ελέγχου χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση υπογραφής PDF με κείμενο και πλαίσιο ελέγχου χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Υπογραφές πεδίων φόρμας

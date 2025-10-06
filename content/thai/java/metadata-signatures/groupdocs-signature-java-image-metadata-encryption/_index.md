@@ -4,8 +4,8 @@
 "title": "ใช้งานการลงนามและเข้ารหัสข้อมูลเมตาของภาพใน Java ด้วย GroupDocs.Signature"
 "url": "/th/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # ใช้งานการลงนามข้อมูลเมตาของภาพพร้อมการเข้ารหัสใน Java โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

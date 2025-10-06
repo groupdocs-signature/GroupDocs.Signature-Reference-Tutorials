@@ -4,8 +4,8 @@
 "title": "การจัดการลายเซ็นบาร์โค้ดที่มีประสิทธิภาพในไฟล์ PDF ด้วย GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # การจัดการลายเซ็นบาร์โค้ดที่มีประสิทธิภาพในไฟล์ PDF ด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

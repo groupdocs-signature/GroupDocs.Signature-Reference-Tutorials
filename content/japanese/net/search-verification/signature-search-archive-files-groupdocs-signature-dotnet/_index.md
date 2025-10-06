@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用したアーカイブ ファイル内の効率的な署名検索"
 "url": "/ja/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用したアーカイブ ファイル内の効率的な署名検索
 
 ## 導入

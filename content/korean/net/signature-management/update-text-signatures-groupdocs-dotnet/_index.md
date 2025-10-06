@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 문서의 텍스트 서명을 업데이트하는 방법&#58; 완벽한 가이드"
 "url": "/ko/net/signature-management/update-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 문서의 텍스트 서명을 업데이트하는 방법: 전체 가이드
 
 ## 소개

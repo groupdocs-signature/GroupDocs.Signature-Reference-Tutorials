@@ -9,8 +9,8 @@ weight: 1
 url: "/net/qr-code-signatures/net-qrcode-signature-encryption-groupdocs/"
 categories: ["Document Processing"]
 tags: ["pdf-signing", "digital-signatures", "encryption", "dotnet", "groupdocs"]
+type: docs
 ---
-
 # PDF Digital Signature .NET: The Complete Guide to Encrypted QR Code Signatures
 
 ## Why Digital Signatures Matter More Than Ever

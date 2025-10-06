@@ -4,8 +4,8 @@
 "title": "حذف توقيعات رمز الاستجابة السريعة (QR Code) باستخدام GroupDocs.Signature في .NET - دليل شامل"
 "url": "/ar/net/signature-management/delete-qr-code-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # حذف توقيعات رمز الاستجابة السريعة (QR Code) باستخدام GroupDocs.Signature في .NET: دليل شامل
 
 ## مقدمة

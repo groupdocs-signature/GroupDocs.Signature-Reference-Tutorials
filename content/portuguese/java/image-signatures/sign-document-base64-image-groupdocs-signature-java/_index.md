@@ -4,8 +4,8 @@
 "title": "Assine documentos usando imagens Base64 em Java com GroupDocs.Signature"
 "url": "/pt/java/image-signatures/sign-document-base64-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Como assinar um documento usando uma imagem codificada em Base64 com GroupDocs.Signature para Java
 
 ## Introdução

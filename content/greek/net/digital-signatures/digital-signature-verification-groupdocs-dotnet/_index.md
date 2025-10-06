@@ -4,8 +4,8 @@
 "title": "Οδηγός επαλήθευσης ψηφιακής υπογραφής χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/digital-signatures/digital-signature-verification-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Οδηγός επαλήθευσης ψηφιακής υπογραφής χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

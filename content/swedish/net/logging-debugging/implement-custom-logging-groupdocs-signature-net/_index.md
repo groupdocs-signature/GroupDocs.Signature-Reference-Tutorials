@@ -4,8 +4,8 @@
 "title": "Implementera anpassad loggning i GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementera anpassad loggning i GroupDocs.Signature för .NET: En omfattande guide
 
 ## Introduktion

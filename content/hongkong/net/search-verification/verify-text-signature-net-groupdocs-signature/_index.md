@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature 驗證 .NET 中的文字簽章－綜合指南"
 "url": "/zh-hant/net/search-verification/verify-text-signature-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 .NET 中實作驗證文字簽名
 
 ## 介紹

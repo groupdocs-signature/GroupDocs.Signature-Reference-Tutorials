@@ -5,8 +5,8 @@
 "title": "Легко отслеживайте историю подписей документов в .NET"
 "url": "/ru/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # Как отслеживать историю подписей вашего документа в .NET
 
 ## Что GroupDocs.Signature может сделать для вас?

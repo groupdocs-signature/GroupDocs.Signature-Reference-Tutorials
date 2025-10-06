@@ -4,8 +4,8 @@
 "title": "Fő metaadatok aláírása Word-dokumentumokban a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/metadata-signatures/master-metadata-signing-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Metaadatok aláírásának elsajátítása Word dokumentumokban a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

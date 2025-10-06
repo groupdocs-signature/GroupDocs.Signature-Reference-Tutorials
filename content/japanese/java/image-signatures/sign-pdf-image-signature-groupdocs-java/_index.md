@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して画像署名で PDF に署名する方法 - ステップバイステップガイド"
 "url": "/ja/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して PDF 文書に画像署名を付ける方法
 
 ## 導入

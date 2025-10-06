@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して FTP サーバーからドキュメントを読み込む"
 "url": "/ja/java/document-loading-saving/load-documents-from-ftp-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して FTP サーバーからドキュメントを読み込む
 
 ## 導入

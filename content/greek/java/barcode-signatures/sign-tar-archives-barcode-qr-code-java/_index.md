@@ -4,8 +4,8 @@
 "title": "Υπογράψτε αρχεία TAR με γραμμωτούς κώδικες και κωδικούς QR σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε αρχεία TAR με γραμμωτούς κώδικες και κωδικούς QR χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

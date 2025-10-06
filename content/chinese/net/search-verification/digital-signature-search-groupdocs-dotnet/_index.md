@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 进行数字签名搜索——综合指南"
 "url": "/zh/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在文档中实现数字签名搜索
 
 ## 介绍

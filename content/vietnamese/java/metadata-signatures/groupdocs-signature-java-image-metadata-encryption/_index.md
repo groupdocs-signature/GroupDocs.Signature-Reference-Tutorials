@@ -4,8 +4,8 @@
 "title": "Triển khai ký và mã hóa siêu dữ liệu hình ảnh trong Java với GroupDocs.Signature"
 "url": "/vi/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký siêu dữ liệu hình ảnh với mã hóa trong Java bằng GroupDocs.Signature
 
 ## Giới thiệu

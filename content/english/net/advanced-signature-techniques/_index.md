@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["GroupDocs", "Digital Signatures", "PDF Signing", "Authentication", "Security"]
+type: docs
 ---
-
 # Complete Guide to Document Signature .NET Implementation
 
 ## Introduction

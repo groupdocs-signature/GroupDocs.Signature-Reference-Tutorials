@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε την ηλεκτρονική υπογραφή εγγράφων στο .NET με το GroupDocs.Signature&#58; Οδηγός βήμα προς βήμα"
 "url": "/el/net/getting-started/groupdocs-signature-net-document-signing-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την ηλεκτρονική υπογραφή εγγράφων στο .NET με το GroupDocs.Signature: Οδηγός βήμα προς βήμα
 
 ## Εισαγωγή

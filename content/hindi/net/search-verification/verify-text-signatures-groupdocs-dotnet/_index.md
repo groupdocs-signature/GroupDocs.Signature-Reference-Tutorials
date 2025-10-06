@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में टेक्स्ट हस्ताक्षरों को कैसे सत्यापित करें"
 "url": "/hi/net/search-verification/verify-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके दस्तावेज़ों में टेक्स्ट हस्ताक्षर कैसे सत्यापित करें
 
 ## परिचय

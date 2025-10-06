@@ -5,8 +5,8 @@
 "title": "Cara Mengambil Informasi Dokumen dengan GroupDocs.Signature"
 "url": "/id/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # Cara Mengambil Informasi Dokumen Menggunakan GroupDocs.Signature
 
 ## Perkenalan

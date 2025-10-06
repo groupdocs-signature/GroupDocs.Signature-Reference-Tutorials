@@ -4,8 +4,8 @@
 "title": "Java에서 텍스트 서명 마스터하기&#58; Java용 GroupDocs.Signature에 대한 포괄적인 가이드"
 "url": "/ko/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Java에서 문서 서명 마스터하기: 텍스트 서명을 위한 GroupDocs.Signature 사용에 대한 포괄적인 가이드
 
 ## 소개

@@ -5,8 +5,8 @@
 "title": "Migliora i documenti Word con le firme dei metadati in C# .NET"
 "url": "/it/net/document-signing/sign-word-processing-with-metadata/"
 "weight": 14
+type: docs
 ---
-
 ## Introduzione
 
 I documenti di elaborazione testi sono tra i tipi di file più comuni utilizzati nelle comunicazioni aziendali, didattiche e personali. Garantire l'autenticità, tracciare l'origine e preservare l'integrità di questi documenti è fondamentale in molti ambienti professionali. Un approccio efficace per migliorare la sicurezza e la tracciabilità dei documenti è l'integrazione di firme metadatiche.

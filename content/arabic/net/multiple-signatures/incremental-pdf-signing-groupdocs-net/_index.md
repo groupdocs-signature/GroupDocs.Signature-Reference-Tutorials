@@ -4,8 +4,8 @@
 "title": "كيفية التوقيع التدريجي على ملفات PDF باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستند PDF بشكل تدريجي باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

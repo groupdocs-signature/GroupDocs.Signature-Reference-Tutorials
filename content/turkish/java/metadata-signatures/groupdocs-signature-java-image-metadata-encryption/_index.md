@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature ile Java'da Görüntü Meta Veri İmzalama ve Şifrelemeyi Uygulama"
 "url": "/tr/java/metadata-signatures/groupdocs-signature-java-image-metadata-encryption/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java'da Şifreleme ile Görüntü Meta Veri İmzalama İşlemini Uygulama
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Эффективное управление подписями&#58; как искать и удалять цифровые подписи с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Эффективное управление подписями: как искать и удалять цифровые подписи с помощью GroupDocs.Signature для Java
 
 ## Введение

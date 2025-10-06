@@ -5,8 +5,8 @@
 "title": "Pesquisar campos de formulário em documentos"
 "url": "/pt/net/signature-searching/search-for-form-fields/"
 "weight": 12
+type: docs
 ---
-
 ## Introdução
 
 Em sistemas modernos de gerenciamento de documentos, os campos de formulário desempenham um papel crucial na coleta de dados, na interação do usuário e na automação de documentos. O GroupDocs.Signature para .NET oferece um poderoso conjunto de ferramentas para que desenvolvedores trabalhem com campos de formulário em diversos formatos de documento, incluindo pesquisa, recuperação e processamento programático desses elementos.

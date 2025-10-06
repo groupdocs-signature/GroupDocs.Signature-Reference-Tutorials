@@ -4,8 +4,8 @@
 "title": "Verifikasi Tanda Tangan Digital Java dengan GroupDocs.Signature&#58; Panduan Langkah demi Langkah"
 "url": "/id/java/digital-signatures/java-digital-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Lengkap Implementasi Verifikasi Tanda Tangan Digital Java Menggunakan GroupDocs.Signature
 
 ## Perkenalan

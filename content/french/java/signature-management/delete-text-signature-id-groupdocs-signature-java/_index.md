@@ -4,8 +4,8 @@
 "title": "Comment supprimer une signature de texte par identifiant à l'aide de GroupDocs.Signature pour Java – Un guide complet"
 "url": "/fr/java/signature-management/delete-text-signature-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Comment supprimer une signature de texte par identifiant à l'aide de GroupDocs.Signature pour Java
 
 ## Introduction

@@ -5,8 +5,8 @@
 "title": ".NET에서 고급 문서 서명 기술 마스터하기"
 "url": "/ko/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 활용한 고급 서명 기술
 
 ## 소개

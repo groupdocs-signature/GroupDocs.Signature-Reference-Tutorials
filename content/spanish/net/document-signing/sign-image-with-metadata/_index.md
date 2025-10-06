@@ -5,8 +5,8 @@
 "title": "Firmar imágenes con metadatos en C# .NET"
 "url": "/es/net/document-signing/sign-image-with-metadata/"
 "weight": 10
+type: docs
 ---
-
 ## Introducción
 
 La firma digital de imágenes con metadatos es cada vez más importante para establecer la autenticidad, la propiedad y la trazabilidad. GroupDocs.Signature para .NET ofrece una solución potente y fácil de usar para añadir firmas de metadatos a diversos formatos de imagen. Este tutorial le guía a través del proceso completo de firma de imágenes con metadatos usando C#.

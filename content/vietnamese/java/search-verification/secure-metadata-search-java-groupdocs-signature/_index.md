@@ -4,8 +4,8 @@
 "title": "Tìm kiếm siêu dữ liệu an toàn trong Java bằng GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/java/search-verification/secure-metadata-search-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Tìm kiếm siêu dữ liệu an toàn trong Java bằng GroupDocs.Signature
 
 ## Giới thiệu

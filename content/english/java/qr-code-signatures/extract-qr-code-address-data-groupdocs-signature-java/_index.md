@@ -8,10 +8,8 @@ keywords:
 - extract QR code address data Java
 - QR Code signatures in documents
 - GroupDocs.Signature for Java API
-
+type: docs
 ---
-
-
 # How to Extract QR Code Address Data Using GroupDocs.Signature for Java
 
 ## Introduction

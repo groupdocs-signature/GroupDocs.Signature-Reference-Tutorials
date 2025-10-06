@@ -4,8 +4,8 @@
 "title": "Vonalkód-aláírások inicializálása és frissítése Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
 "weight": 1
+type: docs
 ---
-
 # Vonalkód-aláírások inicializálása és frissítése Java-ban a GroupDocs.Signature használatával
 
 ## Bevezetés

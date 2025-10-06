@@ -4,8 +4,8 @@
 "title": "Umfassender Leitfaden zu GroupDocs.Signature für Java – Grundlagen der digitalen Signatur"
 "url": "/de/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Umfassender Leitfaden zu GroupDocs.Signature für Java: Grundlagen der digitalen Signatur
 
 ## Einführung

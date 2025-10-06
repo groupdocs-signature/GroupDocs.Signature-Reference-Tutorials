@@ -4,8 +4,8 @@
 "title": "Chữ ký tài liệu chính trong Java với GroupDocs.Signature&#58; Hướng dẫn về chữ ký mã vạch"
 "url": "/vi/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký tài liệu trong Java với GroupDocs.Signature
 
 **Tối ưu hóa quy trình làm việc tài liệu kỹ thuật số của bạn bằng cách ký, xác minh, tìm kiếm, cập nhật và xóa chữ ký mã vạch bằng GroupDocs.Signature cho Java.**

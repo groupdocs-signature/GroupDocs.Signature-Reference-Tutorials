@@ -4,8 +4,8 @@
 "title": "ใช้งานลายเซ็นดิจิทัลใน .NET พร้อมใบรับรอง X.509 โดยใช้ GroupDocs.Signature"
 "url": "/th/net/digital-signatures/implement-digital-signature-x509-certificate-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # ใช้งานลายเซ็นดิจิทัลใน .NET พร้อมใบรับรอง X.509 โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

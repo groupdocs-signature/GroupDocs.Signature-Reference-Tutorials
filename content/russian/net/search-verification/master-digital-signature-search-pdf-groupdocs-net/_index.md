@@ -4,8 +4,8 @@
 "title": "Мастер поиска цифровой подписи в PDF-файлах с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Освоение поиска цифровых подписей в PDF-файлах с помощью GroupDocs.Signature для .NET
 
 ## Введение

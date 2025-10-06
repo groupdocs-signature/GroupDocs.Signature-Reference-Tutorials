@@ -4,8 +4,8 @@
 "title": "Dominando la firma de PDF en Java&#58; Firmas de etiquetas de texto con GroupDocs.Signature para Java"
 "url": "/es/java/digital-signatures/java-pdf-signing-groupdocs-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Dominando la firma de PDF con Java: Creando apariencias de etiquetas de texto con GroupDocs.Signature
 
 En la era digital actual, firmar documentos electrónicamente es esencial. Tanto si eres un profesional como si gestionas contratos y acuerdos, contar con firmas seguras y visualmente atractivas es crucial. Este tutorial te guía a través del proceso de firmar documentos PDF usando apariencias de etiquetas de texto con GroupDocs.Signature para Java. Dominar esta habilidad agilizará los flujos de trabajo y te permitirá presentar documentos firmados profesionalmente en un formato único.

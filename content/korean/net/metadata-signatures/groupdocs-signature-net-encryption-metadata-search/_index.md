@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature 및 암호화를 사용하여 .NET에서 보안 메타데이터 서명 검색"
 "url": "/ko/net/metadata-signatures/groupdocs-signature-net-encryption-metadata-search/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature 및 암호화를 사용하여 .NET에서 보안 메타데이터 서명 검색
 
 ## 소개

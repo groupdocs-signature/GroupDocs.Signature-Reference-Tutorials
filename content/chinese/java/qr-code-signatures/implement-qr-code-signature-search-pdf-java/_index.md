@@ -4,8 +4,8 @@
 "title": "使用 Java 和 GroupDocs.Signature 在 PDF 中实现二维码签名搜索"
 "url": "/zh/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 Java 在 PDF 中实现二维码签名搜索
 
 ## 介绍

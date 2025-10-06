@@ -5,8 +5,8 @@
 "title": "Dokumentum aláírás előzményeinek egyszerű nyomon követése .NET-ben"
 "url": "/hu/net/document-preview-operations/view-document-processing-history/"
 "weight": 12
+type: docs
 ---
-
 # Hogyan követheti nyomon dokumentuma aláírási előzményeit .NET-ben?
 
 ## Mit tehet Önért a GroupDocs.Signature?

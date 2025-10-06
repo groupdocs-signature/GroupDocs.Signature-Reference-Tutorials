@@ -4,8 +4,8 @@
 "title": "Jak digitálně podepsat dokumenty Wordu textem jako obrázkem pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak digitálně podepsat dokumenty Wordu textem jako obrázkem pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Jak načíst historii zpracování dokumentů pomocí GroupDocs.Signature pro .NET – podrobný návod"
 "url": "/cs/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # Jak načíst historii zpracování dokumentů pomocí GroupDocs.Signature pro .NET: Podrobný návod
 
 ## Zavedení

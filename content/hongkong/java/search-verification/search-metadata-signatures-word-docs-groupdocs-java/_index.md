@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 在 Word 文件中搜尋元資料簽名"
 "url": "/zh-hant/java/search-verification/search-metadata-signatures-word-docs-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 在 Word 文件中搜尋元資料簽名
 
 ## 介紹

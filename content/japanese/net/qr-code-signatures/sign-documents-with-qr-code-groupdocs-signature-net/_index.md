@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用して QR コードでドキュメントに署名する方法 - ステップバイステップガイド"
 "url": "/ja/net/qr-code-signatures/sign-documents-with-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 包括的なチュートリアル: GroupDocs.Signature for .NET を使用して QR コードでドキュメントに署名する
 
 ## 導入

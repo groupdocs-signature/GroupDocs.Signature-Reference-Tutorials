@@ -9,8 +9,8 @@ weight: 1
 url: "/net/barcode-signatures/sign-pdf-barcode-positioned-groupdocs-signature/"
 categories: ["PDF Security"]
 tags: ["groupdocs", "barcode-signature", "pdf-security", "csharp", "dotnet"]
+type: docs
 ---
-
 # How to Add Barcode Signatures to PDFs Using C# and GroupDocs.Signature for .NET
 
 ## Introduction

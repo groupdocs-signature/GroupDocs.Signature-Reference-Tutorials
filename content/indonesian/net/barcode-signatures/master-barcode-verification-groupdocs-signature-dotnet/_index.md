@@ -4,8 +4,8 @@
 "title": "Verifikasi Kode Batang Master di .NET dengan GroupDocs.Signature untuk Integritas Dokumen"
 "url": "/id/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Verifikasi Kode Batang di .NET dengan GroupDocs.Signature
 
 ## Perkenalan

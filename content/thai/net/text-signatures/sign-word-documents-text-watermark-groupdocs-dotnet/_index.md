@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในเอกสาร Word ด้วยลายน้ำข้อความโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร Word ด้วยลายน้ำข้อความโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

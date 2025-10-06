@@ -3,8 +3,8 @@
 "title": "Szöveges aláírás oktatóanyagok a GroupDocs.Signature .NET-hez"
 "url": "/hu/net/text-signatures/"
 "weight": 7
+type: docs
 ---
-
 # Szöveges aláírás oktatóanyagok a GroupDocs.Signature .NET-hez
 
 Szöveges aláírással kapcsolatos oktatóanyagaink bemutatják, hogyan valósíthat meg különféle szövegalapú aláírástípusokat a GroupDocs.Signature használatával .NET-ben. Ezek a gyakorlati útmutatók végigvezetik Önt szöveges aláírások, vízjelek, jegyzetek, matricák, űrlapmezők és bélyegzők létrehozásán, testreszabható formázási lehetőségekkel. Minden oktatóanyag részletes C# kódpéldákat tartalmaz a szöveges aláírás megvalósítási forgatókönyveihez, segítve olyan alkalmazások létrehozását, amelyek hatékonyan jelölhetik meg a dokumentumokat szöveges információkkal, miközben több formázási és pozicionálási lehetőséget is biztosítanak.

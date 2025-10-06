@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 文本签名教程"
 "url": "/zh/java/text-signatures/"
 "weight": 7
+type: docs
 ---
-
 # GroupDocs.Signature Java 文本签名教程
 
 我们的文本签名教程将向您展示如何使用 GroupDocs.Signature 在 Java 中实现各种基于文本的签名类型。这些实用指南将指导您如何创建文本签名、水印、注释、贴纸、表单字段和图章，并提供可自定义的格式选项。每个教程都包含针对文本签名实现场景的详细 Java 代码示例，帮助您构建能够有效地使用文本信息标记文档的应用程序，同时提供多种样式和定位选项。

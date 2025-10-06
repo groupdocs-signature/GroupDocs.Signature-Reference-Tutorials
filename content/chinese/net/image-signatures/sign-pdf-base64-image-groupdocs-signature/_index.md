@@ -4,8 +4,8 @@
 "title": "使用 Base64 图像和 GroupDocs.Signature for .NET 签署 PDF 文档"
 "url": "/zh/net/image-signatures/sign-pdf-base64-image-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 使用 Base64 图像对 PDF 文档进行签名
 
 ## 介绍

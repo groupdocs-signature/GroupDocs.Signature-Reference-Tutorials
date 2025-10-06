@@ -4,8 +4,8 @@
 "title": "إتقان إدارة توقيع Java مع GroupDocs.Signature لـ Java"
 "url": "/ar/java/signature-management/master-java-signature-management-groupdocs-for-java/"
 "weight": 1
+type: docs
 ---
-
 # إتقان إدارة توقيع Java باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

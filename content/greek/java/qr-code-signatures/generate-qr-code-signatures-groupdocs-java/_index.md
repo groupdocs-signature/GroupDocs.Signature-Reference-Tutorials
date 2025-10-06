@@ -4,8 +4,8 @@
 "title": "Δημιουργήστε υπογραφές κωδικού QR με το GroupDocs.Signature για Java &#58; Ένας πλήρης οδηγός"
 "url": "/el/java/qr-code-signatures/generate-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Δημιουργήστε υπογραφές QR Code με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Javaを使用してバーコードでPDF文書に署名する包括的なガイド"
 "url": "/ja/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用してバーコードで PDF 文書に署名する: 総合ガイド
 
 ## 導入

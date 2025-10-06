@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Dijital İmza Doğrulama Kılavuzu"
 "url": "/tr/net/digital-signatures/digital-signature-verification-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Dijital İmza Doğrulama Kılavuzu
 
 ## giriiş

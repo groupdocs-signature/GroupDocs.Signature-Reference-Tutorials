@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Signing"]
 tags: ["image-signatures", "dotnet", "pdf-signing", "document-security"]
+type: docs
 ---
-
 # Image Signature .NET Tutorials - Complete Guide to Document Signing
 
 Struggling with document authentication in your .NET applications? You're not alone. Many developers face challenges when implementing secure, professional-looking image signatures that maintain document integrity while meeting compliance requirements.

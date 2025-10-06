@@ -4,8 +4,8 @@
 "title": "Implementieren Sie benutzerdefinierte XOR-Verschlüsselung in Java mit GroupDocs.Signature – Eine Schritt-für-Schritt-Anleitung"
 "url": "/de/java/advanced-options/implement-custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie eine benutzerdefinierte XOR-Verschlüsselung in Java mit GroupDocs.Signature: Eine Schritt-für-Schritt-Anleitung
 
 ## Einführung

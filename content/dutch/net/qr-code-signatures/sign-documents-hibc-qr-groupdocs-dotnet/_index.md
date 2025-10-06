@@ -4,8 +4,8 @@
 "title": "Documenten ondertekenen met HIBC QR-codes met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/qr-code-signatures/sign-documents-hibc-qr-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Documenten ondertekenen met HIBC QR-codes met GroupDocs.Signature voor .NET
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met behulp van keuzerondjes in formuliervelden met GroupDocs.Signature voor .NET"
 "url": "/nl/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF ondertekenen met behulp van keuzerondjes in formuliervelden met GroupDocs.Signature voor .NET
 
 ## Invoering

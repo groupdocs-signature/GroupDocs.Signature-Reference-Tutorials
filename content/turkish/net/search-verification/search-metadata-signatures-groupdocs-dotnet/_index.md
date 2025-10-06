@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Sunumlardaki Meta Veri İmzaları Nasıl Aranır?"
 "url": "/tr/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Sunumlardaki Meta Veri İmzaları Nasıl Aranır?
 
 ## giriiş

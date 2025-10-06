@@ -4,8 +4,8 @@
 "title": "Een licentiebestand instellen voor GroupDocs.Signature in .NET&#58; een stapsgewijze handleiding"
 "url": "/nl/net/getting-started/groupdocs-signature-license-net-guide/"
 "weight": 1
+type: docs
 ---
-
 # Een licentiebestand instellen voor GroupDocs.Signature in .NET: een stapsgewijze handleiding
 
 ## Invoering

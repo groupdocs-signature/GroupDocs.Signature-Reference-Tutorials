@@ -4,8 +4,8 @@
 "title": "Newtonsoft.Json और GroupDocs.Signature के साथ .NET में कस्टम JSON क्रमांकन - एक संपूर्ण मार्गदर्शिका"
 "url": "/hi/net/advanced-options/custom-json-serialization-newtonsoft-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Newtonsoft.Json और GroupDocs.Signature का उपयोग करके .NET में कस्टम JSON क्रमांकन के लिए व्यापक मार्गदर्शिका
 
 ## परिचय

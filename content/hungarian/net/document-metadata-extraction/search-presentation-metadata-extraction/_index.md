@@ -5,8 +5,8 @@
 "title": "Prezentációs metaadatok egyszerű kinyerése a GroupDocs.Signature segítségével"
 "url": "/hu/net/document-metadata-extraction/search-presentation-metadata-extraction/"
 "weight": 12
+type: docs
 ---
-
 # Metaadatok kinyerése prezentációkból a GroupDocs.Signature használatával
 
 ## Miért fontosak a prezentációs metaadatok a projektjeidben?

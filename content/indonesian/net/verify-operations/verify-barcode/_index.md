@@ -5,8 +5,8 @@
 "title": "Verifikasi Tanda Tangan Kode Batang dalam Dokumen"
 "url": "/id/net/verify-operations/verify-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Perkenalan
 
 Kode batang telah menjadi bagian integral dari sistem manajemen dokumen modern, memungkinkan akses cepat ke informasi yang dikodekan sekaligus berfungsi sebagai fitur keamanan. GroupDocs.Signature untuk .NET menyediakan API canggih untuk memverifikasi tanda tangan kode batang dalam dokumen, memastikan keaslian dan integritasnya.

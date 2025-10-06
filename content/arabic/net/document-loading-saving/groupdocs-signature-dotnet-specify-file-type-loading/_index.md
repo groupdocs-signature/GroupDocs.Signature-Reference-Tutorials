@@ -4,8 +4,8 @@
 "title": "كيفية تحميل المستندات حسب نوع الملف في GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تحميل المستندات حسب نوع الملف في GroupDocs.Signature لـ .NET
 
 ## مقدمة

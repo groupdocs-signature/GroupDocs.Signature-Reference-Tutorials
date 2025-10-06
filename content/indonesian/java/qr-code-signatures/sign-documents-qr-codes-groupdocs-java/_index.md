@@ -4,8 +4,8 @@
 "title": "Menandatangani Dokumen dengan Kode QR Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/qr-code-signatures/sign-documents-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Menandatangani Dokumen dengan Kode QR Menggunakan GroupDocs.Signature untuk Java: Panduan Lengkap
 
 Di dunia digital saat ini, pengamanan dokumen sangatlah penting. Baik Anda seorang profesional bisnis maupun individu yang menangani informasi sensitif, memastikan integritas dan keaslian dokumen sangatlah penting. **GroupDocs.Signature untuk Java**—sebuah pustaka canggih—memungkinkan penandatanganan dokumen menggunakan berbagai metode, termasuk kode QR. Panduan ini akan memandu Anda mengunduh dokumen dari Azure Blob Storage dan menandatanganinya dengan kode QR menggunakan GroupDocs.Signature.

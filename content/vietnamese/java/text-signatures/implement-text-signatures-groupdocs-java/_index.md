@@ -4,8 +4,8 @@
 "title": "Cách triển khai chữ ký văn bản bằng GroupDocs.Signature cho Java (Hướng dẫn từng bước)"
 "url": "/vi/java/text-signatures/implement-text-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký văn bản bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

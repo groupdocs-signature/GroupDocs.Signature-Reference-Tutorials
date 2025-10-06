@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用して Java でバーコード署名を削除する方法"
 "url": "/ja/java/signature-management/delete-barcode-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して Java でバーコード署名を削除する方法
 
 ## 導入

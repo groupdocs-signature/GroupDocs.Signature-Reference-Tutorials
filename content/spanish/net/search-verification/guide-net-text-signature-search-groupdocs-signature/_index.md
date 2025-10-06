@@ -4,8 +4,8 @@
 "title": "Domine la búsqueda de firmas de texto .NET con GroupDocs.Signature&#58; una guía paso a paso"
 "url": "/es/net/search-verification/guide-net-text-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Dominar la búsqueda de firmas de texto .NET con GroupDocs.Signature
 
 ## Introducción

@@ -4,8 +4,8 @@
 "title": "Cách thiết lập giấy phép định mức cho GroupDocs.Signature trong .NET - Hướng dẫn toàn diện"
 "url": "/vi/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách thiết lập giấy phép định mức cho GroupDocs.Signature trong .NET: Hướng dẫn toàn diện
 
 ## Giới thiệu

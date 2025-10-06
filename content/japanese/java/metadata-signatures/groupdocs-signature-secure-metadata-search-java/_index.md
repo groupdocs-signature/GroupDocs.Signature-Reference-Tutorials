@@ -4,8 +4,8 @@
 "title": "GroupDocs for Javaを使用した安全なメタデータ署名の検索と抽出"
 "url": "/ja/java/metadata-signatures/groupdocs-signature-secure-metadata-search-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs for Javaを使用した安全なメタデータ署名の検索と抽出
 
 ## 導入

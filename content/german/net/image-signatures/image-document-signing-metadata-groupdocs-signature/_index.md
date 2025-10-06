@@ -4,8 +4,8 @@
 "title": "Signieren von Bilddokumenten mit Metadaten mithilfe von GroupDocs.Signature für .NET – Ein umfassender Leitfaden"
 "url": "/de/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Bilddokumentsignierung mit Metadaten mithilfe von GroupDocs.Signature für .NET meistern
 
 ## Einführung

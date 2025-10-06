@@ -5,8 +5,8 @@
 "title": "Operaciones de actualización de firma de documentos"
 "url": "/es/net/update-operations/"
 "weight": 26
+type: docs
 ---
-
 ## Introducción
 
 En el entorno empresarial digital actual, mantener las firmas de documentos actualizadas es crucial para garantizar su autenticidad y seguridad. GroupDocs.Signature para .NET ofrece un conjunto completo de herramientas para actualizar diversos tipos de firmas en sus documentos, lo que le permite mantener la integridad de los documentos y adaptarse a las cambiantes necesidades empresariales.

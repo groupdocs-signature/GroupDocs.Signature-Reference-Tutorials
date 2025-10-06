@@ -4,8 +4,8 @@
 "title": "การลงนามเอกสารที่ปลอดภัยด้วยข้อมูลเมตาและการเข้ารหัสแบบกำหนดเองใน .NET โดยใช้ GroupDocs.Signature"
 "url": "/th/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # การลงนามเอกสารที่ปลอดภัยด้วยข้อมูลเมตาและการเข้ารหัสแบบกำหนดเองใน .NET
 
 ## การแนะนำ

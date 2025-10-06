@@ -4,8 +4,8 @@
 "title": "PDF-metagegevens ondertekenen met aangepaste serialisatie in .NET met behulp van GroupDocs.Signature"
 "url": "/nl/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van PDF-metagegevensondertekening met aangepaste serialisatie met behulp van GroupDocs.Signature voor .NET
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "ลงชื่อและบันทึกสเปรดชีต Excel ด้วยรหัส QR ใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # ลงชื่อและบันทึกสเปรดชีต Excel ด้วยรหัส QR ใน Java โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

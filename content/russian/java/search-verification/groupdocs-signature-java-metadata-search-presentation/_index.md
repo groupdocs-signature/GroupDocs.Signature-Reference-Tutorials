@@ -4,8 +4,8 @@
 "title": "Мастер поиска подписей метаданных в PowerPoint с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # Мастер поиска подписей метаданных в PowerPoint с помощью GroupDocs.Signature для Java
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature के साथ हस्ताक्षर इंस्टेंस आरंभ करें एक व्यापक गाइड"
 "url": "/hi/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ हस्ताक्षर इंस्टेंस प्रारंभ करें
 
 ## परिचय

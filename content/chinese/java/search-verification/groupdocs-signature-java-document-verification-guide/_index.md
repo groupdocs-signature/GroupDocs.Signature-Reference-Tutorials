@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 进行主文档验证——综合指南"
 "url": "/zh/java/search-verification/groupdocs-signature-java-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 掌握文档验证
 
 在当今的数字环境中，验证文档真实性对于维护各个领域的安全和信任至关重要。本指南将教您如何使用 GroupDocs.Signature for Java 将文本、条形码和二维码签名验证集成到您的应用程序中。

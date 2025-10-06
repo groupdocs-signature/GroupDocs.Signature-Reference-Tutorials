@@ -4,8 +4,8 @@
 "title": "تنفيذ الترخيص المقنن في GroupDocs.Signature لـ Java - دليل خطوة بخطوة"
 "url": "/ar/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ ترخيص مقنن في GroupDocs.Signature لـ Java
 
 ## مقدمة

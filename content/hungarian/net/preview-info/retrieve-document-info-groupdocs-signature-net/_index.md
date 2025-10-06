@@ -4,8 +4,8 @@
 "title": "Dokumentumadatok lekérése a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/preview-info/retrieve-document-info-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentuminformációk lekérése a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

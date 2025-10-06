@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen Menggunakan Stiker Teks di GroupDocs.Signature untuk .NET"
 "url": "/id/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen Menggunakan Stiker Teks di GroupDocs.Signature untuk .NET
 
 ## Perkenalan

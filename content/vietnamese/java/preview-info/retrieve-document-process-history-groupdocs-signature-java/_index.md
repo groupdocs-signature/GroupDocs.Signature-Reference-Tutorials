@@ -4,8 +4,8 @@
 "title": "Truy xuất Lịch sử Xử lý Tài liệu với GroupDocs.Signature cho Java - Hướng dẫn Toàn diện"
 "url": "/vi/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Truy xuất Lịch sử Xử lý Tài liệu với GroupDocs.Signature cho Java
 
 ## Giới thiệu

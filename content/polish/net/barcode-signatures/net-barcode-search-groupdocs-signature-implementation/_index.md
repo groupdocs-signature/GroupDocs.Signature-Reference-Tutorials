@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć wyszukiwanie kodów kreskowych w środowisku .NET za pomocą GroupDocs.Signature dla środowiska .NET"
 "url": "/pl/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć wyszukiwanie kodów kreskowych w środowisku .NET za pomocą GroupDocs.Signature dla środowiska .NET
 
 ## Wstęp

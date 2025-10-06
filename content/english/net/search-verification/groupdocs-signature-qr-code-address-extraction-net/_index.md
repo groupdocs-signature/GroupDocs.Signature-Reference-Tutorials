@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["qr-code", "pdf-processing", "dotnet", "digital-signatures"]
+type: docs
 ---
-
 # Extract QR Code from PDF .NET
 
 ## Why Extract QR Codes from Documents?

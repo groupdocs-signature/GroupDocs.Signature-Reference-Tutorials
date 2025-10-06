@@ -3,8 +3,8 @@
 "title": "使用 GroupDocs.Signature for .NET 的二维码签名教程"
 "url": "/zh/net/qr-code-signatures/"
 "weight": 5
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 的二维码签名教程
 
 通过我们全面的 GroupDocs.Signature 教程，了解如何在您的 .NET 应用程序中有效地使用二维码签名。这些分步指南将教您如何创建、自定义、搜索和验证二维码签名。学习如何为各种数据格式（包括 vCard、WiFi、短信、电子邮件、加密货币、事件和 EPC 支付数据）实现专用二维码对象。每个教程都提供了用于基本和高级二维码实现的实用 C# 代码示例，帮助您构建更复杂的文档签名解决方案。

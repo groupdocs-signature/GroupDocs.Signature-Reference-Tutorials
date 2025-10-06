@@ -4,8 +4,8 @@
 "title": "Implementeer ComboBox-formuliervelden in PDF's met GroupDocs.Signature voor Java"
 "url": "/nl/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Implementeer ComboBox-formuliervelden in PDF's met GroupDocs.Signature voor Java
 
 ## Invoering

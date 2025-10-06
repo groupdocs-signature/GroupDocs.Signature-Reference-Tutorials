@@ -4,8 +4,8 @@
 "title": "Ký và xuất PDF bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/digital-signatures/sign-export-pdfs-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Ký và xuất PDF bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

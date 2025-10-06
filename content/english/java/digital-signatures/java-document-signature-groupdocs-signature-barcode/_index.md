@@ -8,10 +8,8 @@ keywords:
 - Java Document Signatures
 - GroupDocs.Signature for Java
 - Barcode Signature in Java
-
+type: docs
 ---
-
-
 # Mastering Document Signatures in Java with GroupDocs.Signature
 
 **Streamline your digital document workflows by signing, verifying, searching, updating, and deleting barcode signatures using GroupDocs.Signature for Java.**

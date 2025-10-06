@@ -5,8 +5,8 @@
 "title": "Jak usunąć kody kreskowe z dokumentów za pomocą .NET"
 "url": "/pl/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # Jak usunąć kody kreskowe z dokumentów za pomocą .NET
 
 ## Dlaczego warto usuwać kody kreskowe?

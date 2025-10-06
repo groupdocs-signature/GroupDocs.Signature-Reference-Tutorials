@@ -4,8 +4,8 @@
 "title": "Så här uppdaterar du streckkodssignaturer efter ID med GroupDocs.Signature för .NET"
 "url": "/sv/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här uppdaterar du streckkodssignaturer efter ID med GroupDocs.Signature för .NET
 
 ## Introduktion

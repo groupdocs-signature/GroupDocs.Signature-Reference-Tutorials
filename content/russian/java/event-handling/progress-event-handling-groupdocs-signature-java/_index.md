@@ -4,8 +4,8 @@
 "title": "Реализация обработки событий прогресса при подписании документов с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Реализация обработки событий прогресса при подписании документов с помощью GroupDocs.Signature для Java
 
 ## Введение

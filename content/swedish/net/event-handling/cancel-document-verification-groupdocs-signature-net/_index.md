@@ -4,8 +4,8 @@
 "title": "Så här avbryter du dokumentverifiering med GroupDocs.Signature för .NET-händelsehanteringsguide"
 "url": "/sv/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här avbryter du dokumentverifiering med GroupDocs.Signature för .NET: Guide för händelsehantering
 
 ## Introduktion

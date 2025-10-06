@@ -4,8 +4,8 @@
 "title": "Maîtriser les signatures numériques PDF en Java &#58; utilisation de GroupDocs.Signature pour les champs texte, cases à cocher et numériques"
 "url": "/fr/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Maîtriser les signatures numériques PDF en Java : utilisation de GroupDocs.Signature pour les champs texte, cases à cocher et numériques
 
 ## Introduction

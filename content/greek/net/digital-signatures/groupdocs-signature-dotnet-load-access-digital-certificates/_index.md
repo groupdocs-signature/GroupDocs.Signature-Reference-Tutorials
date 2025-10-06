@@ -4,8 +4,8 @@
 "title": "Φόρτωση και πρόσβαση σε ψηφιακά πιστοποιητικά σε .NET με το GroupDocs.Signature&#58; Ένας ολοκληρωμένος οδηγός"
 "url": "/el/net/digital-signatures/groupdocs-signature-dotnet-load-access-digital-certificates/"
 "weight": 1
+type: docs
 ---
-
 # Φόρτωση και πρόσβαση σε ψηφιακά πιστοποιητικά σε .NET με το GroupDocs.Signature
 ## Ένας ολοκληρωμένος οδηγός
 

@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Processing"]
 tags: ["pdf-signature", "groupdocs", "digital-signature", "form-fields", "dotnet"]
+type: docs
 ---
-
 # PDF Signature .NET Tutorial - Add Text & Checkbox Fields with GroupDocs
 
 ## Why Digital PDF Signatures Matter More Than Ever

@@ -4,8 +4,8 @@
 "title": "ลงนามภาพ DICOM ด้วยรหัส QR และข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/image-signatures/sign-dicom-images-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามภาพ DICOM ด้วยรหัส QR และข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

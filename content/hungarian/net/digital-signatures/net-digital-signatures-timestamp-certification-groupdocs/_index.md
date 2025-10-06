@@ -4,8 +4,8 @@
 "title": ".NET digitális aláírások implementálása időbélyeggel és tanúsítvánnyal a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET digitális aláírások implementálása időbélyeggel és tanúsítvánnyal a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

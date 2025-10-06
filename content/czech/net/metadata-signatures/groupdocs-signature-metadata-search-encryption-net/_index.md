@@ -4,8 +4,8 @@
 "title": "Implementace vyhledávání podpisů metadat se šifrováním pomocí GroupDocs pro .NET"
 "url": "/cs/net/metadata-signatures/groupdocs-signature-metadata-search-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Komplexní průvodce: Implementace vyhledávání podpisů metadat se šifrováním pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

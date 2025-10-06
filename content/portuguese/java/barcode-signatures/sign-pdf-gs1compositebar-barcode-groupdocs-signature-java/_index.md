@@ -4,8 +4,8 @@
 "title": "Assine PDFs com códigos de barras compostos GS1 usando GroupDocs.Signature para Java"
 "url": "/pt/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Como assinar um PDF com códigos de barras compostos GS1 usando GroupDocs.Signature para Java
 
 ## Introdução

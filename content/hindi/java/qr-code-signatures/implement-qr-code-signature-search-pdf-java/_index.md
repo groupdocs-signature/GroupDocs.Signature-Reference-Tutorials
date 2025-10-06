@@ -4,8 +4,8 @@
 "title": "Java और GroupDocs.Signature का उपयोग करके PDF में QR कोड हस्ताक्षर खोज लागू करें"
 "url": "/hi/java/qr-code-signatures/implement-qr-code-signature-search-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # जावा का उपयोग करके PDF में QR कोड हस्ताक्षर खोज को कार्यान्वित करना
 
 ## परिचय

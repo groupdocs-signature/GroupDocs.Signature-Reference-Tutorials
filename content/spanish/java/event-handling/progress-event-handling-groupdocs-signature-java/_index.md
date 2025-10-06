@@ -4,8 +4,8 @@
 "title": "Implementación del manejo de eventos de progreso en la firma de documentos con GroupDocs.Signature para Java"
 "url": "/es/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementación del manejo de eventos de progreso en la firma de documentos con GroupDocs.Signature para Java
 
 ## Introducción

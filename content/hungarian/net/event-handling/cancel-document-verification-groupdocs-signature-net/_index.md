@@ -4,8 +4,8 @@
 "title": "Dokumentumellenőrzés megszakítása a GroupDocs.Signature for .NET eseménykezelési útmutatójával"
 "url": "/hu/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumellenőrzés megszakítása a GroupDocs.Signature for .NET használatával: Eseménykezelési útmutató
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "Implementace ověřování textového podpisu v .NET pomocí GroupDocs.Signature pro bezpečnou správu dokumentů"
 "url": "/cs/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementace ověřování textového podpisu v .NET pomocí GroupDocs.Signature
 ## Vyhledávání a ověření
 **URL adresa pro vyhledávače**implement-text-signature-verification-groupdocs-net

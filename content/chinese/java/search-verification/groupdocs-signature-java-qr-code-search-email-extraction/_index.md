@@ -4,8 +4,8 @@
 "title": "掌握 GroupDocs.Signature for Java——高效二维码签名搜索和电子邮件提取"
 "url": "/zh/java/search-verification/groupdocs-signature-java-qr-code-search-email-extraction/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 Java 版 GroupDocs.Signature：二维码签名搜索和电子邮件提取
 
 ## 介绍

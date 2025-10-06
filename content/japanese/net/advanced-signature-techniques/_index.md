@@ -5,8 +5,8 @@
 "title": ".NET での高度なドキュメント署名テクニックをマスターする"
 "url": "/ja/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # GroupDocs.Signature for .NET による高度な署名テクニック
 
 ## 導入

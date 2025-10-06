@@ -4,8 +4,8 @@
 "title": "Vlastní XOR šifrování s GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Komplexní průvodce implementací vlastního XOR šifrování pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

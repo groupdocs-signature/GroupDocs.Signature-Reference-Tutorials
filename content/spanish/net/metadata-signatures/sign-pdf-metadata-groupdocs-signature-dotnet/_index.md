@@ -4,8 +4,8 @@
 "title": "Firmar archivos PDF con metadatos mediante GroupDocs.Signature para .NET&#58; una guía completa"
 "url": "/es/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Firmar archivos PDF con metadatos usando GroupDocs.Signature para .NET
 
 ## Introducción

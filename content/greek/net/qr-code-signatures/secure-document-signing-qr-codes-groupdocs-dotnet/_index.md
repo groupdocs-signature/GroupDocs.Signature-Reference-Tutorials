@@ -4,8 +4,8 @@
 "title": "Ασφαλής υπογραφή εγγράφων με κωδικούς QR χρησιμοποιώντας το GroupDocs.Signature για .NET™ Ένας πλήρης οδηγός"
 "url": "/el/net/qr-code-signatures/secure-document-signing-qr-codes-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Ασφαλής υπογραφή εγγράφων με κωδικούς QR χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

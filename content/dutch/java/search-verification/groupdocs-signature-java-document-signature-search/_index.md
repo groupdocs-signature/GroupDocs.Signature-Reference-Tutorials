@@ -4,8 +4,8 @@
 "title": "Het onder de knie krijgen van het zoeken naar documenthandtekeningen met GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # Het onder de knie krijgen van het zoeken naar documenthandtekeningen met GroupDocs.Signature voor Java
 
 ## Invoering

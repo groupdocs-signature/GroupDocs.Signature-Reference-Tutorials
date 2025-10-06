@@ -4,8 +4,8 @@
 "title": "Onderteken PDF-documenten met QR-code en sms met GroupDocs.Signature voor Java"
 "url": "/nl/java/qr-code-signatures/sign-pdf-qr-code-sms-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Een PDF-document ondertekenen met een QR-code met behulp van een SMS-object in Java met GroupDocs.Signature
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε υπογραφές QR-Code σε έγγραφα Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/qr-code-signatures/groupdocs-signature-java-qr-code-signature/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε υπογραφές QR-Code σε έγγραφα Java χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

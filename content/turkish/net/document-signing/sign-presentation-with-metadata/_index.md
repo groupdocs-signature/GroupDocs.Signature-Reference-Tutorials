@@ -5,8 +5,8 @@
 "title": "C# .NET'te Meta Veri İmzalarıyla PowerPoint Sunumlarını Geliştirin"
 "url": "/tr/net/document-signing/sign-presentation-with-metadata/"
 "weight": 12
+type: docs
 ---
-
 ## giriiş
 
 Günümüzün dijital işyerlerinde sunumlar, iletişim ve bilgi paylaşımı için kritik araçlardır. Bu sunum dosyalarının gerçekliğini ve bütünlüğünü sağlamak, özellikle kurumsal ve eğitim ortamlarında giderek daha önemli hale gelmektedir. Sunum güvenliğini ve izlenebilirliğini artırmanın etkili bir yolu, meta veri imzalarını yerleştirmektir.

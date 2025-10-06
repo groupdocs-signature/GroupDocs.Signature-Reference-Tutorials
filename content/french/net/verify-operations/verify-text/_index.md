@@ -5,8 +5,8 @@
 "title": "Vérifier les signatures de texte dans les documents"
 "url": "/fr/net/verify-operations/verify-text/"
 "weight": 13
+type: docs
 ---
-
 ## Introduction
 
 Les signatures textuelles, bien que souvent plus simples que les signatures numériques ou électroniques, jouent un rôle crucial dans la gestion et la vérification des documents. Qu'il s'agisse de filigranes, de texte de pied de page ou de modèles de contenu spécifiques, la validation de la présence et de l'intégrité des signatures textuelles est un aspect important des processus de vérification des documents.

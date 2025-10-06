@@ -5,8 +5,8 @@
 "title": "Hogyan távolíthat el egyszerűen több aláírást a dokumentumokból"
 "url": "/hu/net/delete-operations/delete-multiple-signatures/"
 "weight": 15
+type: docs
 ---
-
 # Többszörös aláírás eltávolítása dokumentumokból .NET-ben
 
 ## Miért fontos a dokumentumaláírások kezelése?

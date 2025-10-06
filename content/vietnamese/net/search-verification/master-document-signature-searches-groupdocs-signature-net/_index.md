@@ -4,8 +4,8 @@
 "title": "Tìm kiếm chữ ký tài liệu chính trong .NET với GroupDocs.Signature&#58; Văn bản và chữ ký số"
 "url": "/vi/net/search-verification/master-document-signature-searches-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ việc tìm kiếm chữ ký tài liệu trong .NET
 
 Trong thời đại kỹ thuật số ngày nay, việc xác minh tính xác thực của tài liệu là vô cùng quan trọng đối với các doanh nghiệp trên toàn thế giới. Dù xử lý hợp đồng, văn bản pháp lý hay hồ sơ chính thức, việc tìm kiếm chữ ký hiệu quả có thể tiết kiệm thời gian và tăng cường bảo mật. Hướng dẫn này sẽ hướng dẫn bạn cách triển khai tìm kiếm văn bản và chữ ký số bằng GroupDocs.Signature for .NET — một thư viện mạnh mẽ được thiết kế để xử lý nhiều loại chữ ký điện tử khác nhau trong các ứng dụng .NET.

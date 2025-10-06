@@ -4,8 +4,8 @@
 "title": "توقيع مستندات PDF باستخدام صور Base64 وGroupDocs.Signature لـ .NET"
 "url": "/ar/net/image-signatures/sign-pdf-base64-image-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # كيفية توقيع مستند PDF باستخدام صور Base64 مع GroupDocs.Signature لـ .NET
 
 ## مقدمة

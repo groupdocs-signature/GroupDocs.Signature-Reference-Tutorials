@@ -4,8 +4,8 @@
 "title": "Jak implementovat šifrované podpisy metadat pomocí GroupDocs.Signature pro .NET | Kompletní průvodce"
 "url": "/cs/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat šifrované podpisy metadat pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

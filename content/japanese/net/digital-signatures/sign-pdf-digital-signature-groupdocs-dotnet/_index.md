@@ -4,8 +4,8 @@
 "title": ".NET でのデジタル PDF 署名&#58; GroupDocs.Signature を使用したガイド"
 "url": "/ja/net/digital-signatures/sign-pdf-digital-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET でのデジタル PDF 署名: GroupDocs.Signature を使用したガイド
 
 ## 導入

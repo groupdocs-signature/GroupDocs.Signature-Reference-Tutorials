@@ -4,8 +4,8 @@
 "title": "Szöveges aláírás-ellenőrzés megvalósítása .NET-ben a GroupDocs.Signature használatával a biztonságos dokumentumkezeléshez"
 "url": "/hu/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Szöveges aláírás-ellenőrzés megvalósítása .NET-ben a GroupDocs.Signature használatával
 ## Keresés és ellenőrzés
 **SEO URL**implement-text-signature-verification-groupdocs-net

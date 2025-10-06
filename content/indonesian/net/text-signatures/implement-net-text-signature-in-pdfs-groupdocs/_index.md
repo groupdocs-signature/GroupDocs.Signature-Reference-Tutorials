@@ -4,8 +4,8 @@
 "title": "Menerapkan Tanda Tangan Teks .NET dalam PDF Menggunakan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/net/text-signatures/implement-net-text-signature-in-pdfs-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Tanda Tangan Teks .NET dalam PDF Menggunakan GroupDocs.Signature
 ## Perkenalan
 Di dunia digital saat ini, memastikan keaslian dan integritas dokumen sangat penting di berbagai industri. Menambahkan tanda tangan elektronik yang aman ke dokumen PDF secara efisien bisa jadi menantang. Masukkan **GroupDocs.Signature untuk .NET**—sebuah pustaka canggih yang dirancang untuk menyederhanakan proses ini. Dalam panduan komprehensif ini, kami akan memandu Anda menambahkan tanda tangan teks ke PDF Anda dengan cepat dan aman.

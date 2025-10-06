@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu PDF bằng mã vạch bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng mã vạch bằng GroupDocs.Signature cho .NET
 
 Trong thế giới số ngày nay, việc ký kết tài liệu điện tử không chỉ tiện lợi mà còn nâng cao tính bảo mật và hiệu quả. Tuy nhiên, nhiều doanh nghiệp đang phải đối mặt với thách thức đảm bảo những chữ ký này vừa an toàn vừa có thể xác minh được. Nhập **GroupDocs.Signature cho .NET**—một thư viện mạnh mẽ được thiết kế để đơn giản hóa quy trình này bằng cách cho phép bạn thêm chữ ký mã vạch vào tài liệu PDF theo chương trình. Hướng dẫn này sẽ hướng dẫn bạn cách triển khai GroupDocs.Signature cho .NET để ký tài liệu PDF bằng chữ ký mã vạch.

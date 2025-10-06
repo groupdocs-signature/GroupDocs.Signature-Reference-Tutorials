@@ -4,8 +4,8 @@
 "title": "Hướng dẫn toàn diện về chữ ký số trong Java - Sử dụng GroupDocs.Signature"
 "url": "/vi/java/digital-signatures/mastering-digital-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký số trong Java: Hướng dẫn toàn diện với GroupDocs.Signature
 
 ## Giới thiệu

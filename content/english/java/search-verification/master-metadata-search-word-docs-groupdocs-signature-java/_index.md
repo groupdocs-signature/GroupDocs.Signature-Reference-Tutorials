@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - metadata extraction Word documents
 - search metadata signatures
-
+type: docs
 ---
-
-
 # Mastering Metadata Search in Word Documents Using GroupDocs.Signature for Java
 
 Extracting metadata from Word documents can be streamlined with the powerful GroupDocs.Signature library. This tutorial guides you through implementing a feature that searches for metadata signatures within a Word document using Java.

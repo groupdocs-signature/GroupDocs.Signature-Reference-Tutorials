@@ -5,8 +5,8 @@
 "title": "掌握.NET 中的高階文件簽章技術"
 "url": "/zh-hant/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 的高階簽章技術
 
 ## 介紹

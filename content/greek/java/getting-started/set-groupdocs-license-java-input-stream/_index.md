@@ -4,8 +4,8 @@
 "title": "Πώς να ορίσετε την άδεια χρήσης GroupDocs μέσω του InputStream σε Java για βελτιωμένη ευελιξία και συμμόρφωση"
 "url": "/el/java/getting-started/set-groupdocs-license-java-input-stream/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υλοποιήσετε την Java: Ορίστε την άδεια χρήσης GroupDocs μέσω του InputStream στο GroupDocs.Signature για Java
 
 Καλώς ορίσατε σε αυτόν τον ολοκληρωμένο οδηγό για τον ορισμό της άδειας χρήσης GroupDocs χρησιμοποιώντας μια ροή εισόδου με το GroupDocs.Signature για Java. Αυτή η λειτουργικότητα σάς επιτρέπει να διαχειρίζεστε αποτελεσματικά τις άδειες χρήσης, διασφαλίζοντας τη συμμόρφωση και ξεκλειδώνοντας πλήρη πρόσβαση στις λειτουργίες του GroupDocs.

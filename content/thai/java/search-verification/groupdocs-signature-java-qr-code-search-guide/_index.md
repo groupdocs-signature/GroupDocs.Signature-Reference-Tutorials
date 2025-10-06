@@ -4,8 +4,8 @@
 "title": "ใช้งานการค้นหาลายเซ็น QR Code ด้วย GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/search-verification/groupdocs-signature-java-qr-code-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # การนำการค้นหาลายเซ็น QR Code ไปใช้งานด้วย GroupDocs.Signature สำหรับ Java
 
 ในภูมิทัศน์ดิจิทัลของปัจจุบัน การตรวจสอบลายเซ็นอิเล็กทรอนิกส์อย่างมีประสิทธิภาพถือเป็นสิ่งสำคัญในหลายอุตสาหกรรม **GroupDocs.Signature สำหรับ Java** นำเสนอโซลูชันที่แข็งแกร่ง โดยเฉพาะอย่างยิ่งสำหรับการค้นหาและจัดการลายเซ็น QR Code ในเอกสาร บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการใช้งานการค้นหาลายเซ็น QR Code โดยใช้ GroupDocs.Signature ใน Java

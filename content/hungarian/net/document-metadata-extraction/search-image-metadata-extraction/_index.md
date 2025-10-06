@@ -5,8 +5,8 @@
 "title": "Képmetaadatok kinyerése és keresése .NET-ben a GroupDocs segítségével"
 "url": "/hu/net/document-metadata-extraction/search-image-metadata-extraction/"
 "weight": 10
+type: docs
 ---
-
 # Hogyan kereshetünk képmetaadatokat dokumentumokban a GroupDocs.Signature használatával
 
 ## Bevezetés

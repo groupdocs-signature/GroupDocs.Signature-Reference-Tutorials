@@ -3,8 +3,8 @@
 "title": "Tutoriales de opciones de firma avanzadas para GroupDocs.Signature Java"
 "url": "/es/java/advanced-options/"
 "weight": 14
+type: docs
 ---
-
 # Tutoriales de opciones de firma avanzadas para GroupDocs.Signature Java
 
 Explora las funciones avanzadas de firma con nuestros completos tutoriales de GroupDocs.Signature para desarrolladores Java. Estas guías detalladas abarcan la implementación de cifrado personalizado, serialización especializada, configuraciones de apariencia complejas, pinceles y degradados personalizados, posicionamiento con diversas unidades de medida, opciones de alineación y modos de estiramiento. Cada tutorial proporciona ejemplos de código Java funcionales para funciones de firma sofisticadas, ayudándote a crear soluciones de documentos que aprovechan al máximo las funciones avanzadas de GroupDocs.Signature para implementaciones de firma de documentos altamente personalizadas y seguras.

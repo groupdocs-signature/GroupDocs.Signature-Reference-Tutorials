@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用したメタデータによる画像ドキュメント署名の総合ガイド"
 "url": "/ja/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してメタデータによる画像ドキュメント署名をマスターする
 
 ## 導入

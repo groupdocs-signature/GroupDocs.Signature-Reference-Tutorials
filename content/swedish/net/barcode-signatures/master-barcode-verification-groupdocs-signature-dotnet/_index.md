@@ -4,8 +4,8 @@
 "title": "Master streckkodsverifiering i .NET med GroupDocs.Signature för dokumentintegritet"
 "url": "/sv/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra streckkodsverifiering i .NET med GroupDocs.Signature
 
 ## Introduktion

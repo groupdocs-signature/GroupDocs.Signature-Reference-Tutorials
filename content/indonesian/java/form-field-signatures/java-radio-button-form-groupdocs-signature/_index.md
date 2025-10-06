@@ -4,8 +4,8 @@
 "title": "Implementasikan Tanda Tangan Bidang Formulir Tombol Radio Java dengan GroupDocs.Signature"
 "url": "/id/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementasikan Tanda Tangan Bidang Formulir Tombol Radio Java dengan GroupDocs.Signature
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory pomocí polí formuláře s přepínači v GroupDocs.Signature pro .NET"
 "url": "/cs/net/form-field-signatures/sign-pdfs-radio-button-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF pomocí polí formuláře s přepínači v GroupDocs.Signature pro .NET
 
 ## Zavedení

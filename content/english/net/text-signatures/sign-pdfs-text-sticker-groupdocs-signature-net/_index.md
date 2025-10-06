@@ -9,8 +9,8 @@ weight: 1
 url: "/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 categories: ["PDF Processing"]
 tags: ["csharp-pdf", "document-signing", "groupdocs", "pdf-annotations"]
+type: docs
 ---
-
 # Add Text Signature to PDF in C# - Complete GroupDocs.Signature Guide
 
 ## Introduction

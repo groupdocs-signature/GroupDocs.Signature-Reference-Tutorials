@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 从档案中检索数字证书 | 分步指南"
 "url": "/zh/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 从档案中检索数字证书
 
 ## 介绍

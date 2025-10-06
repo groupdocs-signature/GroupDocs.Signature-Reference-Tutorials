@@ -4,8 +4,8 @@
 "title": "Jak podepisovat PDF soubory pomocí QR kódů adres pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/qr-code-signatures/groupdocs-signature-configure-address-qr-codes-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepisovat PDF soubory pomocí QR kódů adres pomocí GroupDocs.Signature pro Javu
 
 V dnešním digitálním světě je bezpečné podepisování dokumentů klíčové. Ať už jste obchodní profesionál nebo jednotlivec spravující smlouvy, automatizace přidávání podpisů může ušetřit čas a zvýšit zabezpečení dokumentů. Tento tutoriál vás provede používáním **GroupDocs.Signature pro Javu** vytvořit a nakonfigurovat objekt Adresa a poté jej integrovat do možností podepisování QR kódů v PDF. Dodržováním této příručky se naučíte, jak bezproblémově vkládat adresní data jako QR kód do dokumentů.

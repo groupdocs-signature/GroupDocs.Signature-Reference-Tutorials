@@ -4,8 +4,8 @@
 "title": "如何在 GroupDocs.Signature for .NET 中处理密码错误异常"
 "url": "/zh/net/document-protection/handle-incorrect-password-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 处理密码错误异常
 
 ## 介绍

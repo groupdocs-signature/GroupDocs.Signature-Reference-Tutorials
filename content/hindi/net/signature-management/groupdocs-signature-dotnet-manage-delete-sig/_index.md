@@ -4,8 +4,8 @@
 "title": ".NET के लिए मास्टर ग्रुपडॉक्स.हस्ताक्षर दस्तावेज़ हस्ताक्षर प्रबंधित करें और हटाएं"
 "url": "/hi/net/signature-management/groupdocs-signature-dotnet-manage-delete-sig/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ .NET में हस्ताक्षर प्रबंधन में महारत हासिल करना
 
 ## परिचय

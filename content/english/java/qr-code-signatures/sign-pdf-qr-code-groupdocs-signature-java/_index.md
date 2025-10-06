@@ -8,10 +8,8 @@ keywords:
 - sign PDF with QR code
 - GroupDocs.Signature Java
 - Java digital signature library
-
+type: docs
 ---
-
-
 # How to Implement Java Signature Library: Load and Sign PDF with QR Code Options Using GroupDocs.Signature
 
 In today's digital landscape, ensuring document integrity is crucial, especially when dealing with sensitive information. Adding electronic signatures not only enhances security but also improves efficiency. This step-by-step tutorial will guide you through using **GroupDocs.Signature for Java** to load and sign PDF files with QR code options.

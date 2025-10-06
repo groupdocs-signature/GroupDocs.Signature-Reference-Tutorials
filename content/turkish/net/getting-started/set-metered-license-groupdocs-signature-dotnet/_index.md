@@ -4,8 +4,8 @@
 "title": ".NET'te GroupDocs.Signature için Ölçülü Lisans Nasıl Ayarlanır? Kapsamlı Bir Kılavuz"
 "url": "/tr/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET'te GroupDocs.Signature için Ölçülü Lisans Nasıl Ayarlanır: Kapsamlı Bir Kılavuz
 
 ## giriiş

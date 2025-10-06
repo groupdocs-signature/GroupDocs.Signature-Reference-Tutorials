@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使って C# でフォームフィールド署名を使用して PDF に署名する方法"
 "url": "/ja/net/form-field-signatures/sign-pdf-form-field-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でフォームフィールド署名を使用して PDF ドキュメントに署名する方法
 
 ## 導入

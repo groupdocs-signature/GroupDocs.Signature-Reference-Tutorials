@@ -5,8 +5,8 @@
 "title": "Metadata-handtekeningen toevoegen aan Excel-spreadsheets in C# .NET"
 "url": "/nl/net/document-signing/sign-spreadsheet-with-metadata/"
 "weight": 13
+type: docs
 ---
-
 ## Invoering
 
 Excel-spreadsheets bevatten vaak cruciale bedrijfsgegevens, financiële informatie en belangrijke berekeningen. Het waarborgen van de authenticiteit, het traceren van de herkomst en het beschermen van de integriteit ervan is cruciaal in veel professionele omgevingen. Een effectieve manier om de beveiliging en traceerbaarheid van spreadsheets te verbeteren, is door metadatahandtekeningen in te bouwen.

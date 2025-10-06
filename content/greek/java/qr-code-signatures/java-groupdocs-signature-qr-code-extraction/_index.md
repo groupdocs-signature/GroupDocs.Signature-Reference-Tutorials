@@ -4,8 +4,8 @@
 "title": "Εξαγωγή υπογραφής κώδικα QR σε Java με το GroupDocs.Signature™ Ένας ολοκληρωμένος οδηγός"
 "url": "/el/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση εξαγωγής υπογραφής κώδικα QR σε Java με το GroupDocs.Signature
 
 ## Εισαγωγή

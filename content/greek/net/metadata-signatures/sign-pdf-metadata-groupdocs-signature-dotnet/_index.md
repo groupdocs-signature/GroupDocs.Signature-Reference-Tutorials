@@ -4,8 +4,8 @@
 "title": "Υπογραφή PDF με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για .NET™ Ένας πλήρης οδηγός"
 "url": "/el/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Υπογραφή PDF με μεταδεδομένα χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

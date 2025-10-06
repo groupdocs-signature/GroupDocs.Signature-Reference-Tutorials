@@ -4,8 +4,8 @@
 "title": "효율적인 문서 서명 관리&#58; .NET용 GroupDocs.Signature를 사용한 양식 필드 서명 검색"
 "url": "/ko/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용한 효율적인 문서 서명 관리
 
 ## 소개

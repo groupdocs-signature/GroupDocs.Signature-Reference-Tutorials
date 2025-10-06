@@ -4,8 +4,8 @@
 "title": "Efektivní správa podpisů čárových kódů v PDF pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Efektivní správa podpisů čárových kódů v PDF pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Java PDF aláírás útmutató - Szöveg, vonalkód, QR-kód és digitális aláírások hozzáadása a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # Java PDF aláírási útmutató implementálása: Szöveg, vonalkód, QR-kód és digitális aláírások hozzáadása a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

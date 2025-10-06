@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java에서 계량형 라이선스 구현하기&#58; 단계별 가이드"
 "url": "/ko/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature에서 미터링 라이선스를 구현하는 방법
 
 ## 소개

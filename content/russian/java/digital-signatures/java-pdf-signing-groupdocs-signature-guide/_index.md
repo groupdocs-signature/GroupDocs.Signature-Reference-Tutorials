@@ -4,8 +4,8 @@
 "title": "Реализация подписи PDF-файлов на Java с помощью GroupDocs.Signature&#58; подробное руководство"
 "url": "/ru/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # Реализация подписи PDF-файлов на Java с использованием GroupDocs.Signature
 
 ## Откройте для себя возможности GroupDocs.Signature для Java: бесперебойное подписание PDF-документов

@@ -4,8 +4,8 @@
 "title": "使用 Java 和 GroupDocs.Signature 通过二维码签署文档——综合指南"
 "url": "/zh/java/qr-code-signatures/sign-documents-with-qr-code-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 使用 Java 和 GroupDocs.Signature 通过二维码签署文档
 
 您是否希望为您的文档管理系统增添额外的安全性和效率？在当今的数字时代，电子签名文档是一项必备功能，而二维码签名兼具便捷性和可靠性。在本指南中，我们将探索如何使用 GroupDocs.Signature for Java 为图像文档添加二维码签名。完成本教程后，您将能够无缝地实现这些功能。

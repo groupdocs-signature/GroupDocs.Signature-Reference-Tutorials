@@ -4,8 +4,8 @@
 "title": "Jak dostosować podpisy obrazów w Javie za pomocą GroupDocs.Signature"
 "url": "/pl/java/image-signatures/customize-image-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć niestandardowe podpisy obrazów za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

@@ -4,8 +4,8 @@
 "title": "Beheers het zoeken naar digitale handtekeningen in PDF's met GroupDocs.Signature voor .NET"
 "url": "/nl/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Digitale handtekeningen zoeken in PDF's onder de knie krijgen met GroupDocs.Signature voor .NET
 
 ## Invoering

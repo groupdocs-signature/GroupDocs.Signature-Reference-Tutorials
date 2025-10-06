@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 验证带有条形码签名的 .NET 文档"
 "url": "/zh/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 在 .NET 中实现条形码签名文档验证
 
 ## 介绍

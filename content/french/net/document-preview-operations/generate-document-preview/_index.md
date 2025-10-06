@@ -5,8 +5,8 @@
 "title": "Comment générer des aperçus de documents dans les applications .NET | Tutoriel rapide"
 "url": "/fr/net/document-preview-operations/generate-document-preview/"
 "weight": 10
+type: docs
 ---
-
 # Comment générer des aperçus de documents dans vos applications .NET
 
 ## Introduction

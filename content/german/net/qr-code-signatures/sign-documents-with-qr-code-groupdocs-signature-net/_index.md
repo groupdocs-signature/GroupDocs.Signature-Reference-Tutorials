@@ -4,8 +4,8 @@
 "title": "So signieren Sie Dokumente mit QR-Codes mithilfe von GroupDocs.Signature für .NET – Eine Schritt-für-Schritt-Anleitung"
 "url": "/de/net/qr-code-signatures/sign-documents-with-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Umfassendes Tutorial: Dokumente mit QR-Code unterzeichnen mit GroupDocs.Signature für .NET
 
 ## Einführung

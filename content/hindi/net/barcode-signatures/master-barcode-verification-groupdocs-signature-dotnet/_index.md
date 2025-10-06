@@ -4,8 +4,8 @@
 "title": "दस्तावेज़ अखंडता के लिए GroupDocs.Signature के साथ .NET में मास्टर बारकोड सत्यापन"
 "url": "/hi/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ .NET में बारकोड सत्यापन में महारत हासिल करना
 
 ## परिचय

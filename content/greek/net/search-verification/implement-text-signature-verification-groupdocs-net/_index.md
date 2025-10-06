@@ -4,8 +4,8 @@
 "title": "Υλοποίηση επαλήθευσης υπογραφής κειμένου σε .NET χρησιμοποιώντας το GroupDocs.Signature για ασφαλή διαχείριση εγγράφων"
 "url": "/el/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση επαλήθευσης υπογραφής κειμένου σε .NET χρησιμοποιώντας το GroupDocs.Signature
 ## Αναζήτηση & Επαλήθευση
 **URL SEO**: implement-text-signature-verification-groupdocs-net

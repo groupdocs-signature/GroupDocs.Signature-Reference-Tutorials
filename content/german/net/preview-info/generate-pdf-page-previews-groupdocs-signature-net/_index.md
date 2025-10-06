@@ -4,8 +4,8 @@
 "title": "Erstellen Sie PDF-Seitenvorschauen mit GroupDocs.Signature für .NET – Ein umfassender Leitfaden"
 "url": "/de/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Erstellen Sie PDF-Seitenvorschauen mit GroupDocs.Signature für .NET: Ein umfassender Leitfaden
 
 ## Einführung

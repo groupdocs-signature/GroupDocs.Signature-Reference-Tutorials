@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 对包含元数据的 PDF 进行签名"
 "url": "/zh/java/metadata-signatures/sign-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 对包含元数据的 PDF 进行签名
 
 在当今的数字环境中，确保文档的完整性和真实性至关重要。如果您处理的 PDF 需要通过签名来提供一层安全保障，本教程将指导您使用 GroupDocs.Signature for Java，使用元数据（例如作者姓名、创建日期、文档 ID 和签名 ID）对 PDF 文档进行签名。

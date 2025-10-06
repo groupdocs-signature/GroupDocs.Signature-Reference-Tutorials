@@ -4,8 +4,8 @@
 "title": "Verifikasi Tanda Tangan Kode QR di Java Menggunakan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/java/qr-code-signatures/verify-qr-code-signature-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Verifikasi Tanda Tangan Kode QR di Java dengan GroupDocs.Signature
 
 ## Perkenalan

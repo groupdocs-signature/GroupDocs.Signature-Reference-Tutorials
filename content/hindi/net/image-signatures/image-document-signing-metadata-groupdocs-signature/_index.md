@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके मेटाडेटा के साथ छवि दस्तावेज़ पर हस्ताक्षर करना एक व्यापक गाइड"
 "url": "/hi/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके मेटाडेटा के साथ छवि दस्तावेज़ पर हस्ताक्षर करना
 
 ## परिचय

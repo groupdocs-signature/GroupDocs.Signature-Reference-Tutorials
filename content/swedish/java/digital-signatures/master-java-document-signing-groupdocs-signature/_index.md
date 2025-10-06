@@ -4,8 +4,8 @@
 "title": "Behärska Java-dokumentsignering med GS1DotCode-streckkoder med GroupDocs.Signature för Java"
 "url": "/sv/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra dokumentsignering i Java med GS1DotCode-streckkoder med GroupDocs.Signature
 
 ## Introduktion

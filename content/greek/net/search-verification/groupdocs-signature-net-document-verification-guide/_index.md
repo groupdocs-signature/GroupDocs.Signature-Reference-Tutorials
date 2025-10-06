@@ -4,8 +4,8 @@
 "title": "Mastering Επαλήθευση Εγγράφων με το GroupDocs.Signature για .NET™ Ένας Πλήρης Οδηγός"
 "url": "/el/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Mastering Επαλήθευση Εγγράφων με το GroupDocs.Signature για .NET: Ένας Πλήρης Οδηγός
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "ดึงข้อมูลและแสดงรูปแบบไฟล์ที่รองรับโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # ดึงข้อมูลและแสดงรูปแบบไฟล์ที่รองรับโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java için İmza Arama ve Doğrulama Eğitimleri"
 "url": "/tr/java/search-verification/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature Java için İmza Arama ve Doğrulama Eğitimleri
 
 Arama ve doğrulama eğitimlerimiz, Java'da GroupDocs.Signature kullanarak belge imzalarını doğrulamak için kapsamlı bir kılavuz sunar. Bu pratik kılavuzlar, çeşitli türlerdeki imzaların (dijital, barkod, QR kodu, metin, resim ve meta veri) nasıl aranacağını, kimlik doğrulaması için doğrulamanın nasıl uygulanacağını, doğrulama sırasında istisnaların nasıl ele alınacağını ve karmaşık belgelerin nasıl işleneceğini gösterir. Her eğitim, yaygın doğrulama senaryoları için eksiksiz Java kod örnekleri içerir ve belgelerin imzalandıktan sonra değiştirilip değiştirilmediğini etkili bir şekilde belirleyebilen uygulamalar oluşturmanıza yardımcı olur.

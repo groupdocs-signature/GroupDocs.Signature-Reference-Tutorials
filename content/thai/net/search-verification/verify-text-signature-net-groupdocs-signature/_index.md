@@ -4,8 +4,8 @@
 "title": "วิธีการตรวจสอบลายเซ็นข้อความใน .NET โดยใช้ GroupDocs.Signature คู่มือฉบับสมบูรณ์"
 "url": "/th/net/search-verification/verify-text-signature-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้การยืนยันลายเซ็นข้อความใน .NET โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

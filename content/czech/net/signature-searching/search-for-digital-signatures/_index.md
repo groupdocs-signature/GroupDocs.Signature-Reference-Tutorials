@@ -5,8 +5,8 @@
 "title": "Hledání digitálních podpisů v dokumentech"
 "url": "/cs/net/signature-searching/search-for-digital-signatures/"
 "weight": 11
+type: docs
 ---
-
 ## Zavedení
 
 V dnešní digitální krajině je zajištění pravosti a integrity dokumentů pro firmy a organizace klíčové. Digitální podpisy poskytují robustní mechanismus pro ověřování pravosti dokumentů a detekci neoprávněných úprav. GroupDocs.Signature for .NET nabízí komplexní řešení pro práci s digitálními podpisy v různých formátech dokumentů, což vývojářům umožňuje bezproblémově integrovat funkce podpisu do jejich .NET aplikací.

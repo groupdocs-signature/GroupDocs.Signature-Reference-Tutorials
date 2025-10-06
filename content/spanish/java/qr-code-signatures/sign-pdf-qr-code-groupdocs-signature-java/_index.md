@@ -4,8 +4,8 @@
 "title": "Cómo firmar archivos PDF con códigos QR usando GroupDocs.Signature en Java&#58; guía paso a paso"
 "url": "/es/java/qr-code-signatures/sign-pdf-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cómo implementar la biblioteca de firmas de Java: cargar y firmar PDF con opciones de código QR usando GroupDocs.Signature
 
 En el panorama digital actual, garantizar la integridad de los documentos es crucial, especialmente al tratar con información confidencial. Añadir firmas electrónicas no solo mejora la seguridad, sino también la eficiencia. Este tutorial paso a paso le guiará en el uso. **GroupDocs.Signature para Java** para cargar y firmar archivos PDF con opciones de código QR.

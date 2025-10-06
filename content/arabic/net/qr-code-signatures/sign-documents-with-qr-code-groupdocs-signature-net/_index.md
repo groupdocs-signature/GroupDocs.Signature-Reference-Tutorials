@@ -4,8 +4,8 @@
 "title": "كيفية توقيع المستندات باستخدام رموز الاستجابة السريعة (QR Codes) باستخدام GroupDocs.Signature لـ .NET - دليل خطوة بخطوة"
 "url": "/ar/net/qr-code-signatures/sign-documents-with-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # برنامج تعليمي شامل: توقيع المستندات باستخدام رمز الاستجابة السريعة (QR Code) باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

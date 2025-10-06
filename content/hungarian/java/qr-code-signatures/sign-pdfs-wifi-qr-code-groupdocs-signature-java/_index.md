@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása WiFi QR-kódokkal a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/qr-code-signatures/sign-pdfs-wifi-qr-code-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF-ek aláírása WiFi QR-kódokkal a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

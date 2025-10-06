@@ -4,8 +4,8 @@
 "title": "Πώς να αναζητήσετε υπογραφές μεταδεδομένων σε υπολογιστικά φύλλα χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αναζητήσετε υπογραφές μεταδεδομένων σε ένα υπολογιστικό φύλλο χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

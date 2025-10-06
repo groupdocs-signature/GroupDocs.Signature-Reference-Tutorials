@@ -4,8 +4,8 @@
 "title": "Πώς να διαγράψετε υπογραφές γραμμωτού κώδικα σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/signature-management/delete-barcode-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να διαγράψετε υπογραφές γραμμωτού κώδικα σε Java χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

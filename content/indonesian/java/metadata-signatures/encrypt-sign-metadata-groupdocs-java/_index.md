@@ -4,8 +4,8 @@
 "title": "Cara Mengenkripsi dan Menandatangani Metadata Dokumen Menggunakan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/metadata-signatures/encrypt-sign-metadata-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mengenkripsi dan Menandatangani Metadata Dokumen Menggunakan GroupDocs.Signature untuk Java: Panduan Lengkap
 
 ## Perkenalan

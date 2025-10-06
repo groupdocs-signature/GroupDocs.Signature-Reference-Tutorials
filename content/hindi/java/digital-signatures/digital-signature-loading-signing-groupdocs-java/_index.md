@@ -4,8 +4,8 @@
 "title": "जावा के लिए GroupDocs.Signature के साथ डिजिटल हस्ताक्षर लोडिंग और हस्ताक्षर कैसे लागू करें"
 "url": "/hi/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # जावा के लिए GroupDocs.Signature के साथ डिजिटल हस्ताक्षर लोडिंग और हस्ताक्षर कैसे लागू करें
 
 ## परिचय

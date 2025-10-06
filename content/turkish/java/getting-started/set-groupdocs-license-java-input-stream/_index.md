@@ -4,8 +4,8 @@
 "title": "Java'da Gelişmiş Esneklik ve Uyumluluk için InputStream Aracılığıyla GroupDocs Lisansı Nasıl Ayarlanır?"
 "url": "/tr/java/getting-started/set-groupdocs-license-java-input-stream/"
 "weight": 1
+type: docs
 ---
-
 # Java Nasıl Uygulanır: Java için GroupDocs.Signature'da InputStream aracılığıyla GroupDocs Lisansını Ayarlama
 
 GroupDocs.Signature for Java ile bir giriş akışı kullanarak GroupDocs lisansınızı ayarlamaya yönelik bu kapsamlı kılavuza hoş geldiniz. Bu işlevsellik, lisansları verimli bir şekilde yönetmenizi, uyumluluğu sağlamanızı ve GroupDocs özelliklerine tam erişim sağlamanızı sağlar.

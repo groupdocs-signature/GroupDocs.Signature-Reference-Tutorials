@@ -4,8 +4,8 @@
 "title": "Penandatanganan Dokumen Aman dengan Kode QR menggunakan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/qr-code-signatures/secure-document-signing-qr-codes-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Penandatanganan Dokumen Aman dengan Kode QR menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

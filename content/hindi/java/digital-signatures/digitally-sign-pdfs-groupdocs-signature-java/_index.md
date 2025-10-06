@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature का उपयोग करके PDF पर डिजिटल हस्ताक्षर कैसे करें"
 "url": "/hi/java/digital-signatures/digitally-sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके PDF पर डिजिटल हस्ताक्षर कैसे करें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Xác minh tài liệu .NET bằng chữ ký mã vạch bằng GroupDocs.Signature"
 "url": "/vi/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai xác minh tài liệu bằng chữ ký mã vạch trong .NET bằng GroupDocs.Signature
 
 ## Giới thiệu

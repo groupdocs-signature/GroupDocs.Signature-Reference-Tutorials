@@ -4,8 +4,8 @@
 "title": "ลงนามในเอกสารภาพด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ Java คู่มือฉบับสมบูรณ์"
 "url": "/th/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสารภาพด้วยข้อมูลเมตาโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

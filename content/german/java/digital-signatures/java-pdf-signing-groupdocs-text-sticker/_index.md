@@ -4,8 +4,8 @@
 "title": "Java-PDF-Signatur beherrschen&#58; Textaufkleber-Signaturen mit GroupDocs.Signature für Java"
 "url": "/de/java/digital-signatures/java-pdf-signing-groupdocs-text-sticker/"
 "weight": 1
+type: docs
 ---
-
 # Java-PDF-Signatur beherrschen: Textaufkleber-Erscheinungsbilder mit GroupDocs.Signature erstellen
 
 Im digitalen Zeitalter ist die elektronische Signatur von Dokumenten unerlässlich. Ob Sie nun im Geschäftsleben oder als Privatperson Verträge und Vereinbarungen verwalten, sichere und optisch ansprechende Signaturen sind unerlässlich. Dieses Tutorial führt Sie durch den Prozess der Signatur von PDF-Dokumenten mit Textaufklebern und GroupDocs.Signature für Java. Die Beherrschung dieser Fähigkeit optimiert Ihre Dokumenten-Workflows und ermöglicht Ihnen die Präsentation professionell signierter Dokumente in einem einzigartigen Format.

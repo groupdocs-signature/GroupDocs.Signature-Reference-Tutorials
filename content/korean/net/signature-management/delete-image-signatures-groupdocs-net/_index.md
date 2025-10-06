@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 이미지 서명을 삭제하는 방법 - 단계별 가이드"
 "url": "/ko/net/signature-management/delete-image-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 이미지 서명을 삭제하는 방법: 단계별 가이드
 
 오늘날의 디지털 환경에서 문서 서명 관리는 비즈니스 운영의 보안과 신뢰성을 유지하는 데 매우 중요합니다. 여러 이미지 서명이 포함된 문서를 다루는 경우 효율적인 관리를 통해 시간과 리소스를 절약할 수 있습니다. 이 종합 가이드에서는 **.NET용 GroupDocs.Signature** 서명 인스턴스를 초기화하고, 이미지 서명을 검색하고, 특정 조건에 따라 특정 서명을 삭제하는 방법을 익혀 보세요. 이 튜토리얼을 마치면 이 과정을 효과적으로 간소화하는 방법을 익힐 수 있을 것입니다.

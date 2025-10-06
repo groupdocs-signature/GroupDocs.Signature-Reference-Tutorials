@@ -8,10 +8,8 @@ keywords:
 - customized image signatures in Java
 - GroupDocs.Signature for Java
 - image signing configuration
-
+type: docs
 ---
-
-
 # How to Implement Customized Image Signatures Using GroupDocs.Signature for Java
 
 ## Introduction

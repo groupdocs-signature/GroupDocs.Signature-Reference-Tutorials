@@ -4,8 +4,8 @@
 "title": "Generera PDF-förhandsvisningar med dolda signaturer med hjälp av Java och GroupDocs.Signature"
 "url": "/sv/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Generera PDF-förhandsvisningar med dolda signaturer med hjälp av Java och GroupDocs.Signature
 
 ## Introduktion

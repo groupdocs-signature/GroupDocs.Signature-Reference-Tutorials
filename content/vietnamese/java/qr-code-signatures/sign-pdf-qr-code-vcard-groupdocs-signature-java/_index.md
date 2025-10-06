@@ -4,8 +4,8 @@
 "title": "Ký PDF bằng mã QR VCard bằng GroupDocs.Signature cho Java - Hướng dẫn từng bước"
 "url": "/vi/java/qr-code-signatures/sign-pdf-qr-code-vcard-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cách sử dụng GroupDocs.Signature cho Java để ký PDF có mã QR chứa VCard
 
 ## Giới thiệu

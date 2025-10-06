@@ -4,8 +4,8 @@
 "title": "Dokumentumok aláírása szöveges matricákkal a GroupDocs.Signature for .NET alkalmazásban"
 "url": "/hu/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumok aláírása szöveges matricákkal a GroupDocs.Signature for .NET alkalmazásban
 
 ## Bevezetés

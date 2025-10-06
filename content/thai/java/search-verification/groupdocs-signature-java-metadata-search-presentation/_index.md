@@ -4,8 +4,8 @@
 "title": "ค้นหาลายเซ็นข้อมูลเมตาหลักใน PowerPoint โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # ค้นหาลายเซ็นข้อมูลเมตาหลักใน PowerPoint โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

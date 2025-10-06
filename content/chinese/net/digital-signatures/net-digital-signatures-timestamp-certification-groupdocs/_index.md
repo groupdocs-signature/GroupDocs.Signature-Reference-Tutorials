@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 实现带有时间戳和认证的 .NET 数字签名"
 "url": "/zh/net/digital-signatures/net-digital-signatures-timestamp-certification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 实现带有时间戳和认证的 .NET 数字签名
 
 ## 介绍

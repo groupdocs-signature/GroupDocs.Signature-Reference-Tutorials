@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak .NET'te Görüntü İmzası Arama - Kapsamlı Bir Kılavuz"
 "url": "/tr/net/search-verification/image-signature-search-dotnet-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile .NET'te Görüntü İmza Aramasını Uygulamaya Yönelik Kapsamlı Kılavuz
 
 ## giriiş

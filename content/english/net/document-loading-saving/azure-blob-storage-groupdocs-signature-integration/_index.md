@@ -9,8 +9,8 @@ weight: 1
 url: "/net/document-loading-saving/azure-blob-storage-groupdocs-signature-integration/"
 categories: ["Document Management"]
 tags: ["azure", "blob-storage", "digital-signatures", "groupdocs", "dotnet"]
+type: docs
 ---
-
 # Azure Blob Storage Document Signing with GroupDocs.Signature .NET
 
 ## Why You Need This Integration (And How It'll Save You Hours)

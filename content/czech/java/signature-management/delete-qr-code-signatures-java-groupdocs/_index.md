@@ -4,8 +4,8 @@
 "title": "Jak odstranit podpisy QR kódů z dokumentů pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/signature-management/delete-qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit podpisy QR kódů z dokumentů pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

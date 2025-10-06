@@ -4,8 +4,8 @@
 "title": "Implementasikan Pencarian Tanda Tangan Kode QR di .NET dengan GroupDocs.Signature"
 "url": "/id/net/search-verification/implement-qr-code-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pencarian Tanda Tangan Kode QR dalam Dokumen Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

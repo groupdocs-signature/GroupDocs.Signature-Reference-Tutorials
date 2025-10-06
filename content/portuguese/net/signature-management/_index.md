@@ -3,8 +3,8 @@
 "title": "Tutoriais de gerenciamento de assinaturas para GroupDocs.Signature .NET"
 "url": "/pt/net/signature-management/"
 "weight": 12
+type: docs
 ---
-
 # Tutoriais de gerenciamento de assinaturas para GroupDocs.Signature .NET
 
 Domine o gerenciamento do ciclo de vida de assinaturas com nossos tutoriais detalhados do GroupDocs.Signature .NET. Estes guias passo a passo demonstram como atualizar, excluir e gerenciar assinaturas de diferentes tipos após aplicá-las a documentos. Aprenda a modificar propriedades de assinaturas, remover assinaturas por tipo ou ID, implementar operações em lote e manipular metadados de assinaturas. Cada tutorial inclui exemplos práticos de código C# que mostram como criar aplicativos com recursos abrangentes de gerenciamento de assinaturas, garantindo que seus documentos permaneçam atualizados e devidamente mantidos durante todo o seu ciclo de vida.

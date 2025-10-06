@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中建立令人驚嘆的徑向漸層簽名"
 "url": "/zh-hant/java/document-loading-saving/groupdocs-signature-java-radial-gradient-sig/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 建立具有視覺吸引力的徑向漸層簽名
 
 在當今的數位世界中，電子文件簽章的美觀與功能性同等重要。視覺上令人驚豔的簽名可以提升您作品的專業和可信度。本教學將引導您使用 GroupDocs.Signature for Java 實作徑向漸層畫筆簽名。

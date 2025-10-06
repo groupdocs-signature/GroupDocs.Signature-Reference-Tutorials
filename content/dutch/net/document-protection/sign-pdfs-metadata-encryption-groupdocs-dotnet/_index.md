@@ -4,8 +4,8 @@
 "title": "PDF's ondertekenen met metagegevens en encryptie met GroupDocs.Signature voor .NET | Handleiding voor veilige documentbeveiliging"
 "url": "/nl/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF's ondertekenen met metagegevens en encryptie met GroupDocs.Signature voor .NET
 
 ## Invoering

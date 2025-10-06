@@ -4,8 +4,8 @@
 "title": "Hur man implementerar digital dokumentsignering i Java med GroupDocs.Signature"
 "url": "/sv/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar digital dokumentsignering i Java med GroupDocs.Signature
 
 ## Introduktion

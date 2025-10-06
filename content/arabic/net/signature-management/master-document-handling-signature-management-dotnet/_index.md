@@ -4,8 +4,8 @@
 "title": "إتقان التعامل مع المستندات وإدارة التوقيعات في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/signature-management/master-document-handling-signature-management-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # إتقان التعامل مع المستندات وإدارة التوقيعات في .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

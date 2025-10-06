@@ -4,8 +4,8 @@
 "title": "Cómo buscar firmas de metadatos en documentos de Word con GroupDocs.Signature para Java"
 "url": "/es/java/search-verification/search-metadata-signatures-word-docs-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Cómo buscar firmas de metadatos en documentos de Word con GroupDocs.Signature para Java
 
 ## Introducción

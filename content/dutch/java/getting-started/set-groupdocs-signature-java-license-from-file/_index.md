@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature instellen voor Java-licentie vanuit een bestand&#58; een uitgebreide handleiding"
 "url": "/nl/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature voor Java-licentie instellen vanuit een bestand - Stapsgewijze handleiding
 
 ## Invoering

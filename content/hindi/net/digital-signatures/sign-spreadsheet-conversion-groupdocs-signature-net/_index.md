@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके स्प्रेडशीट को कुशलतापूर्वक हस्ताक्षरित करें और PDF में परिवर्तित करें"
 "url": "/hi/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके स्प्रेडशीट को कुशलतापूर्वक हस्ताक्षरित करें और PDF में परिवर्तित करें
 
 ## परिचय

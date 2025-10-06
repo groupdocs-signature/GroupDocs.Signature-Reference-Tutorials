@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε ψηφιακή υπογραφή εγγράφων σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε ψηφιακή υπογραφή εγγράφων σε Java χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

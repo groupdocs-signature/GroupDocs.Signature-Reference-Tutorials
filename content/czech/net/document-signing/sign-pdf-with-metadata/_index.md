@@ -5,8 +5,8 @@
 "title": "Přidání podpisů metadat do dokumentů PDF v C# .NET"
 "url": "/cs/net/document-signing/sign-pdf-with-metadata/"
 "weight": 11
+type: docs
 ---
-
 ## Zavedení
 
 Dokumenty PDF (Portable Document Format) jsou široce používány napříč odvětvími díky své konzistenci a nezávislosti na platformě. Zajištění autenticity a sledovatelnosti těchto dokumentů je v mnoha profesionálních prostředích klíčové. Jedním z účinných způsobů, jak toho dosáhnout, je vložení metadat do samotných souborů PDF.

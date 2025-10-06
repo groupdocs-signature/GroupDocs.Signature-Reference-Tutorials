@@ -4,8 +4,8 @@
 "title": "การนำการลงนามข้อความไปใช้ใน Java และการจัดการเหตุการณ์ด้วย GroupDocs.Signature"
 "url": "/th/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # การนำการลงนามข้อความไปใช้งานกับการจัดการเหตุการณ์โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

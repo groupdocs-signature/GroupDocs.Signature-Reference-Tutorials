@@ -4,8 +4,8 @@
 "title": "วิธีการลบลายเซ็นเฉพาะในเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET | บทช่วยสอนการจัดการลายเซ็น"
 "url": "/th/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลบลายเซ็นเฉพาะในเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

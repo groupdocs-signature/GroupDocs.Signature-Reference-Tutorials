@@ -4,8 +4,8 @@
 "title": "Tùy chỉnh tuần tự hóa và tìm kiếm siêu dữ liệu trong .NET bằng GroupDocs.Signature"
 "url": "/vi/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai tuần tự hóa tùy chỉnh và tìm kiếm chữ ký siêu dữ liệu với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

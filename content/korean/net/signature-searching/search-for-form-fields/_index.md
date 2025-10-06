@@ -5,8 +5,8 @@
 "title": "문서에서 양식 필드 검색"
 "url": "/ko/net/signature-searching/search-for-form-fields/"
 "weight": 12
+type: docs
 ---
-
 ## 소개
 
 최신 문서 관리 시스템에서 양식 필드는 데이터 수집, 사용자 상호작용 및 문서 자동화에 중요한 역할을 합니다. GroupDocs.Signature for .NET은 개발자가 다양한 문서 형식의 양식 필드를 사용할 수 있도록 강력한 도구 세트를 제공하며, 여기에는 검색, 조회 및 프로그래밍 방식으로 양식 필드를 처리하는 기능이 포함됩니다.

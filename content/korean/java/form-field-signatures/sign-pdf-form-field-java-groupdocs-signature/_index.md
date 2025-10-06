@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 Java에서 양식 필드 서명을 사용하여 PDF에 서명하는 방법"
 "url": "/ko/java/form-field-signatures/sign-pdf-form-field-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 Java에서 양식 필드 서명을 사용하여 PDF에 서명하는 방법
 
 ## 소개

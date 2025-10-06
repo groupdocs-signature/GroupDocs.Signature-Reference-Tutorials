@@ -4,8 +4,8 @@
 "title": "Jak podpisywać pliki PDF podpisami obrazkowymi za pomocą GroupDocs.Signature dla Java? Przewodnik krok po kroku"
 "url": "/pl/java/image-signatures/sign-pdf-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisać dokument PDF za pomocą podpisu obrazkowego przy użyciu GroupDocs.Signature dla Java
 
 ## Wstęp

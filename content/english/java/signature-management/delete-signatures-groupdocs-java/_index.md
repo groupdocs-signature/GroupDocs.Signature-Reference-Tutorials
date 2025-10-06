@@ -8,10 +8,8 @@ keywords:
 - delete signatures from a document
 - GroupDocs.Signature for Java setup
 - manage electronic signatures
-
+type: docs
 ---
-
-
 # How to Delete Specific Types of Signatures from a Document Using GroupDocs.Signature for Java
 
 ## Introduction

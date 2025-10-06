@@ -4,8 +4,8 @@
 "title": "Podepisování metadat PDF s vlastní serializací v .NET pomocí GroupDocs.Signature"
 "url": "/cs/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementace podepisování metadat PDF s vlastní serializací pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

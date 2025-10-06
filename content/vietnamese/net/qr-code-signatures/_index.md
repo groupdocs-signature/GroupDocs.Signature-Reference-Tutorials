@@ -3,8 +3,8 @@
 "title": "Hướng dẫn chữ ký mã QR với GroupDocs.Signature cho .NET"
 "url": "/vi/net/qr-code-signatures/"
 "weight": 5
+type: docs
 ---
-
 # Hướng dẫn chữ ký mã QR với GroupDocs.Signature cho .NET
 
 Khám phá cách làm việc hiệu quả với chữ ký mã QR trong các ứng dụng .NET của bạn với hướng dẫn toàn diện về GroupDocs.Signature của chúng tôi. Hướng dẫn từng bước này sẽ hướng dẫn bạn cách tạo, tùy chỉnh, tìm kiếm và xác minh chữ ký mã QR. Học cách triển khai các đối tượng mã QR chuyên biệt cho nhiều định dạng dữ liệu khác nhau, bao gồm vCard, WiFi, SMS, email, tiền điện tử, sự kiện và dữ liệu thanh toán EPC. Mỗi hướng dẫn đều cung cấp các ví dụ mã C# thực tế cho cả việc triển khai mã QR cơ bản và nâng cao, giúp bạn xây dựng các giải pháp ký tài liệu phức tạp hơn.

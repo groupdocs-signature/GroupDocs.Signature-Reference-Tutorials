@@ -4,8 +4,8 @@
 "title": "Implementar assinaturas digitais em .NET usando GroupDocs.Signature"
 "url": "/pt/net/digital-signatures/digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementando assinatura de documentos com assinaturas digitais usando GroupDocs.Signature para .NET
 
 ## Introdução

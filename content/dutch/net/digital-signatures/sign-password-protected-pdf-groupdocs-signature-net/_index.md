@@ -4,8 +4,8 @@
 "title": "Een wachtwoordbeveiligde PDF ondertekenen met GroupDocs.Signature voor .NET (zelfstudie digitale handtekening)"
 "url": "/nl/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Een wachtwoordbeveiligde PDF ondertekenen met GroupDocs.Signature voor .NET
 ## Tutorial voor digitale handtekening
 

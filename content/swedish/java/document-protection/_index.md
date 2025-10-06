@@ -3,8 +3,8 @@
 "title": "Handledningar om dokumentskydd för GroupDocs.Signature Java"
 "url": "/sv/java/document-protection/"
 "weight": 16
+type: docs
 ---
-
 # Handledningar om dokumentskydd för GroupDocs.Signature Java
 
 Lär dig säkra dokument med våra handledningar om GroupDocs.Signature-skydd för Java. Dessa omfattande guider visar hur du hanterar lösenordsskyddade dokument, lägger till lösenordsskydd i utdatafiler, hanterar säkerhetsundantag och implementerar lämplig felhantering. Varje handledning ger praktiska Java-kodexempel för vanliga dokumentskyddsscenarier, vilket hjälper dig att bygga applikationer som upprätthåller dokumentkonfidentialitet och integritet under hela signeringsprocessen.

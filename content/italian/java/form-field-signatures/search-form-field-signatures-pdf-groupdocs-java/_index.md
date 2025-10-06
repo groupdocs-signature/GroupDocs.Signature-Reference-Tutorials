@@ -4,8 +4,8 @@
 "title": "Cerca ed estrai le firme dei campi modulo nei PDF utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Come cercare ed estrarre le firme dei campi dei moduli nei documenti PDF utilizzando GroupDocs.Signature per Java
 
 ## Introduzione

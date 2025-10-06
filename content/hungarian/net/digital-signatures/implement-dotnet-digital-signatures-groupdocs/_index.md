@@ -4,8 +4,8 @@
 "title": ".NET digitális aláírások megvalósítása a GroupDocs.Signature használatával – Teljes körű útmutató"
 "url": "/hu/net/digital-signatures/implement-dotnet-digital-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # .NET digitális aláírások megvalósítása a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

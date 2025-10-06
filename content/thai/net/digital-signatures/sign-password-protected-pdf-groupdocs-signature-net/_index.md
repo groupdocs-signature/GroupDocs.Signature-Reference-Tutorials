@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามใน PDF ที่ได้รับการป้องกันด้วยรหัสผ่านโดยใช้ GroupDocs.Signature สำหรับ .NET (บทช่วยสอนลายเซ็นดิจิทัล)"
 "url": "/th/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามใน PDF ที่ได้รับการป้องกันด้วยรหัสผ่านโดยใช้ GroupDocs.Signature สำหรับ .NET
 ## บทช่วยสอนลายเซ็นดิจิทัล
 

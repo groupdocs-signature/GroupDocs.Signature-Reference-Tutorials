@@ -5,8 +5,8 @@
 "title": "วิธีการลบลายเซ็นดิจิทัลจากเอกสารใน .NET"
 "url": "/th/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # วิธีการลบลายเซ็นดิจิทัลออกจากเอกสารของคุณด้วย GroupDocs.Signature
 
 ## เหตุใดการจัดการลายเซ็นดิจิทัลจึงมีความสำคัญ

@@ -4,8 +4,8 @@
 "title": "Padroneggiare la ricerca della firma tramite codice QR nei documenti utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la ricerca di documenti: trovare firme di codici QR con dati EPC utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

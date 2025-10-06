@@ -4,8 +4,8 @@
 "title": "Przeszukiwanie kodów kreskowych w plikach PDF Java za pomocą interfejsu API GroupDocs.Signature – kompleksowy przewodnik"
 "url": "/pl/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
 "weight": 1
+type: docs
 ---
-
 # Implementacja Javy: samouczek dotyczący wyszukiwania kodów kreskowych PDF za pomocą interfejsu API GroupDocs.Signature
 
 ## Wstęp

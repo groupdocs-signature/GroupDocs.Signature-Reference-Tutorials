@@ -4,8 +4,8 @@
 "title": "Mengatur GroupDocs.Signature untuk Lisensi Java dari File&#58; Panduan Lengkap"
 "url": "/id/java/getting-started/set-groupdocs-signature-java-license-from-file/"
 "weight": 1
+type: docs
 ---
-
 # Mengatur GroupDocs.Signature untuk Lisensi Java dari File - Tutorial Langkah demi Langkah
 
 ## Perkenalan

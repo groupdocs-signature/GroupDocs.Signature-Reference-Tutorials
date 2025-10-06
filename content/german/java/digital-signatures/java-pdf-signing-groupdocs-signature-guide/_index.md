@@ -4,8 +4,8 @@
 "title": "Implementieren Sie die PDF-Signatur in Java mit GroupDocs.Signature – Ein umfassender Leitfaden"
 "url": "/de/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren Sie die PDF-Signatur in Java mit GroupDocs.Signature
 
 ## Entfesseln Sie die Leistungsfähigkeit von GroupDocs.Signature für Java: Nahtlose Signierung von PDF-Dokumenten

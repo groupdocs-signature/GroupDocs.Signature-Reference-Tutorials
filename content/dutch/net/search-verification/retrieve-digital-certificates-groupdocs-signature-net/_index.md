@@ -4,8 +4,8 @@
 "title": "Digitale certificaten uit archieven ophalen met GroupDocs.Signature voor .NET | Stapsgewijze handleiding"
 "url": "/nl/net/search-verification/retrieve-digital-certificates-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Digitale certificaten uit archieven ophalen met GroupDocs.Signature voor .NET
 
 ## Invoering

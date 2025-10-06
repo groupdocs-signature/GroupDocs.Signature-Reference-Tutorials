@@ -5,8 +5,8 @@
 "title": "Sécurisez vos documents .NET avec des signatures numériques | Guide complet"
 "url": "/fr/net/advanced-signature-techniques/sign-with-digital/"
 "weight": 12
+type: docs
 ---
-
 ## Pourquoi les signatures numériques sont importantes dans la gestion moderne des documents
 
 Dans le monde numérique d'aujourd'hui, garantir l'authenticité et l'intégrité de vos documents électroniques n'est pas seulement une bonne pratique, c'est essentiel. Les signatures numériques offrent ce niveau de sécurité crucial, garantissant aux destinataires que votre document est légitime et n'a pas été falsifié depuis sa signature.

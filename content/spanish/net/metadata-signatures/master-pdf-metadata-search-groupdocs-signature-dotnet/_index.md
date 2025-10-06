@@ -4,8 +4,8 @@
 "title": "Cómo buscar firmas de metadatos de PDF con GroupDocs.Signature para .NET"
 "url": "/es/net/metadata-signatures/master-pdf-metadata-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cómo buscar firmas de metadatos de PDF con GroupDocs.Signature para .NET
 
 ## Introducción

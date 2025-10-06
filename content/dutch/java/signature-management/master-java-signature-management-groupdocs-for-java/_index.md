@@ -4,8 +4,8 @@
 "title": "Beheers Java-handtekeningenbeheer met GroupDocs.Signature voor Java"
 "url": "/nl/java/signature-management/master-java-signature-management-groupdocs-for-java/"
 "weight": 1
+type: docs
 ---
-
 # Java Signature Management onder de knie krijgen met GroupDocs.Signature voor Java
 
 ## Invoering

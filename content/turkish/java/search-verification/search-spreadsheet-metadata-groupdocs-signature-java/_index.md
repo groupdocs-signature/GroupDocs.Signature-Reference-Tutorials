@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Elektronik Tablo Meta Verilerinde Arama Nasıl Yapılır? Kapsamlı Bir Kılavuz"
 "url": "/tr/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Elektronik Tablo Meta Verilerinde Arama Nasıl Yapılır: Kapsamlı Bir Kılavuz
 
 ## giriiş

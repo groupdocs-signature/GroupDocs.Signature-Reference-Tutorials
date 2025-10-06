@@ -9,8 +9,8 @@ url: "/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 keywords: "document signing .NET, digital signature API .NET, PDF signing library .NET, electronic signature .NET, automated document signing C# code"
 categories: ["Digital Signatures"]
 tags: ["dotnet", "document-signing", "groupdocs", "digital-signatures", "pdf-processing"]
+type: docs
 ---
-
 # Document Signing .NET: Complete Implementation
 
 ## The Challenge Every Developer Faces with Document Signing

@@ -4,8 +4,8 @@
 "title": "Làm chủ chữ ký tài liệu an toàn với siêu dữ liệu và mã hóa tùy chỉnh trong .NET bằng GroupDocs.Signature"
 "url": "/vi/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký tài liệu an toàn với siêu dữ liệu và mã hóa tùy chỉnh trong .NET
 
 ## Giới thiệu

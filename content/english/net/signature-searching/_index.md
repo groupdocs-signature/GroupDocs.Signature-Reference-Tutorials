@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["signature-search", "document-verification", "dotnet", "pdf-signatures", "barcode-detection"]
+type: docs
 ---
-
 ## Introduction
 
 Ever received a document and wondered if it's been tampered with? Or needed to extract signature data from hundreds of files without manually opening each one? You're not alone. Developers building document management systems, compliance tools, and verification workflows face these challenges daily.

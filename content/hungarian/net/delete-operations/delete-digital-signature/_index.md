@@ -5,8 +5,8 @@
 "title": "Digitális aláírások eltávolítása dokumentumokból .NET-ben"
 "url": "/hu/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # Digitális aláírások eltávolítása a dokumentumokból a GroupDocs.Signature segítségével
 
 ## Miért fontos a digitális aláírás-kezelés?

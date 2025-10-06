@@ -8,10 +8,8 @@ keywords:
 - digital certificate search
 - GroupDocs.Signature for Java
 - certificate verification
-
+type: docs
 ---
-
-
 # Mastering Digital Certificate Search with GroupDocs.Signature for Java
 
 ## Introduction

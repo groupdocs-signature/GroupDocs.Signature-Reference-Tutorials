@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature API'sini kullanarak Java'da QR Kod İmzalama ve PDF Dönüştürme İşlemini Gerçekleştirin"
 "url": "/tr/java/qr-code-signatures/java-signature-api-groupdocs-qr-codes-pdf-conversion/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature API'sini kullanarak Java'da QR Kod İmzalama ve PDF Dönüştürme İşlemini Gerçekleştirin
 
 ## giriiş

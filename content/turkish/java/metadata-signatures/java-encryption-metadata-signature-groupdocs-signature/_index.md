@@ -4,8 +4,8 @@
 "title": "Java Şifreleme ve Meta Veri İmzası&#58; GroupDocs.Signature ile Güvenli Belge İşleme"
 "url": "/tr/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java ile Java Şifreleme ve Meta Veri İmza Aramasını Uygulama
 
 ## giriiş

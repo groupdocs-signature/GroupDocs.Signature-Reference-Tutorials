@@ -4,8 +4,8 @@
 "title": "Bảo mật tài liệu Java bằng chữ ký siêu dữ liệu và mã hóa bằng GroupDocs"
 "url": "/vi/java/metadata-signatures/java-metadata-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Bảo mật tài liệu Java bằng chữ ký siêu dữ liệu và mã hóa bằng GroupDocs
 
 ## Giới thiệu

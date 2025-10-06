@@ -4,8 +4,8 @@
 "title": "تنفيذ وعرض توقيعات المستندات باستخدام GroupDocs.Signature لـ .NET - دليل شامل"
 "url": "/ar/net/digital-signatures/implement-document-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ وعرض توقيعات المستندات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

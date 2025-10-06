@@ -4,8 +4,8 @@
 "title": "توقيع ملفات PDF باستخدام توقيعات رمز الاستجابة السريعة (QR Code) وتصديرها كصور باستخدام GroupDocs لـ Java"
 "url": "/ar/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # دليل شامل لتوقيع وتصدير ملفات PDF كصور باستخدام رموز QR باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

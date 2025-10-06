@@ -3,8 +3,8 @@ title: "Document Protection Tutorials for GroupDocs.Signature Java"
 description: "Step-by-step tutorials for implementing password protection, encryption, and security features with GroupDocs.Signature for Java."
 weight: 16
 url: "/java/document-protection/"
+type: docs
 ---
-
 # Document Protection Tutorials for GroupDocs.Signature Java
 
 Learn to secure documents using our GroupDocs.Signature protection tutorials for Java. These comprehensive guides demonstrate how to handle password-protected documents, add password protection to output files, manage security exceptions, and implement appropriate error handling. Each tutorial provides practical Java code examples for common document protection scenarios, helping you build applications that maintain document confidentiality and integrity throughout the signing process.

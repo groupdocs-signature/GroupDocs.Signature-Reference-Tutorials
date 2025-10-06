@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da Metin ve Resim İmzasıyla Belgeler Nasıl İmzalanır?"
 "url": "/tr/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Metin ve Görüntü İmzasıyla Belge İmzalama Nasıl Uygulanır?
 
 ## giriiş

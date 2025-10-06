@@ -4,8 +4,8 @@
 "title": "Comment charger des documents par type de fichier dans GroupDocs.Signature pour .NET ? Un guide complet"
 "url": "/fr/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 "weight": 1
+type: docs
 ---
-
 # Comment charger des documents par type de fichier dans GroupDocs.Signature pour .NET
 
 ## Introduction

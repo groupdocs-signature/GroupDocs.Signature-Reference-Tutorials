@@ -4,8 +4,8 @@
 "title": "การนำการตรวจสอบเอกสารไปใช้โดยใช้ GroupDocs.Signature สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/search-verification/implement-document-verification-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการนำการตรวจสอบเอกสารไปใช้โดยใช้ GroupDocs.Signature สำหรับ Java
 
 **การแนะนำ**

@@ -4,8 +4,8 @@
 "title": "إنشاء معاينة توقيع رقمي لملف PDF باستخدام GroupDocs.Signature لـ .NET | دليل شامل"
 "url": "/ar/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية إنشاء معاينة توقيع رقمي لملف PDF باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Vyhledávání digitálních podpisů v PDF pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vyhledávání digitálních podpisů v PDF pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

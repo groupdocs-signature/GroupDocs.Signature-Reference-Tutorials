@@ -5,8 +5,8 @@
 "title": "Lägg till metadatasignaturer till PDF-dokument i C# .NET"
 "url": "/sv/net/document-signing/sign-pdf-with-metadata/"
 "weight": 11
+type: docs
 ---
-
 ## Introduktion
 
 PDF-dokument (Portable Document Format) används flitigt inom olika branscher tack vare deras konsistens och plattformsoberoende. Att säkerställa dessa dokuments äkthet och spårbarhet är avgörande i många professionella miljöer. Ett effektivt sätt att uppnå detta är att bädda in metadata i själva PDF-filerna.

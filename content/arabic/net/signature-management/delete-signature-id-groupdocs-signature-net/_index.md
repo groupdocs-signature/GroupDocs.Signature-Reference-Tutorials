@@ -4,8 +4,8 @@
 "title": "حذف التوقيعات بكفاءة عن طريق المعرف باستخدام GroupDocs.Signature لـ .NET - دليل خطوة بخطوة"
 "url": "/ar/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية حذف التوقيع بكفاءة عن طريق المعرف باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

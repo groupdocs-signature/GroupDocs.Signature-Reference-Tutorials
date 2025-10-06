@@ -4,8 +4,8 @@
 "title": "Zabezpiecz swoje dokumenty i wdróż podpisy kodem QR w Javie, używając GroupDocs.Signature"
 "url": "/pl/java/qr-code-signatures/qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Zabezpiecz swoje dokumenty: Wdrażaj podpisy kodem QR w Javie za pomocą GroupDocs.Signature
 
 dzisiejszym cyfrowym świecie zapewnienie bezpieczeństwa dokumentów, takich jak umowy, faktury czy poufne dane osobowe, jest kluczowe. Jednym z innowacyjnych sposobów na zwiększenie bezpieczeństwa dokumentów i uproszczenie procesów weryfikacji jest użycie podpisów QR. Ten samouczek przeprowadzi Cię przez proces wdrażania i weryfikacji podpisów QR w dokumentach w Javie za pomocą GroupDocs.Signature.

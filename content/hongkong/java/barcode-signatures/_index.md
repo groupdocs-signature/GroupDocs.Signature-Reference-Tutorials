@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 條碼簽名教程"
 "url": "/zh-hant/java/barcode-signatures/"
 "weight": 4
+type: docs
 ---
-
 # GroupDocs.Signature Java 條碼簽名教程
 
 我們的條碼簽名教程提供了在 Java 應用程式中實現基於條碼的簽名的詳細指導。遵循這些實用指南，您將學習如何使用各種條碼類型對文件進行簽名、自訂條碼外觀、在現有文件中搜尋條碼、更新或刪除條碼簽名以及驗證條碼內容。這些教學包含常見條碼操作的完整 Java 程式碼範例，可協助您建立能夠透過條碼技術安全地對文件中的資訊進行編碼和驗證的應用程式。

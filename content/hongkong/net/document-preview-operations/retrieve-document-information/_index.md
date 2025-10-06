@@ -5,8 +5,8 @@
 "title": "如何使用 GroupDocs.Signature 檢索文件資訊"
 "url": "/zh-hant/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 檢索文件資訊
 
 ## 介紹

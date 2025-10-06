@@ -4,8 +4,8 @@
 "title": "Nắm vững chữ ký số trong .NET - Cách sử dụng GroupDocs.Signature để ký và tìm kiếm tài liệu"
 "url": "/vi/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký số trong .NET: Cách sử dụng GroupDocs.Signature để ký và tìm kiếm tài liệu
 
 ## Giới thiệu

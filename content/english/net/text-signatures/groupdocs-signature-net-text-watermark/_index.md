@@ -9,8 +9,8 @@ weight: 1
 url: "/net/text-signatures/groupdocs-signature-net-text-watermark/"
 categories: ["Document Processing"]
 tags: ["watermark", "pdf", "document-security", "csharp", "dotnet"]
+type: docs
 ---
-
 # Add Text Watermark to PDF C# - Complete GroupDocs.Signature
 
 ## Why Text Watermarks Matter for Your Documents

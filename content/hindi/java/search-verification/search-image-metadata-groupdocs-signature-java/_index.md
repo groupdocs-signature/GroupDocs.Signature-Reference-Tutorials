@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके छवि मेटाडेटा कैसे खोजें. Java के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/java/search-verification/search-image-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature के साथ छवि मेटाडेटा कैसे खोजें
 
 ## परिचय

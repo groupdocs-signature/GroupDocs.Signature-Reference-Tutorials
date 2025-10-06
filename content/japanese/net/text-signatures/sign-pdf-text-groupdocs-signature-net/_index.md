@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してテキストでPDFに署名する方法 - ステップバイステップガイド"
 "url": "/ja/net/text-signatures/sign-pdf-text-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してテキストで文書に署名する方法: ステップバイステップガイド
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": "Načítání a podepisování dokumentů v Javě pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Načítání a podepisování dokumentů pomocí GroupDocs.Signature v Javě
 
 ## Zavedení

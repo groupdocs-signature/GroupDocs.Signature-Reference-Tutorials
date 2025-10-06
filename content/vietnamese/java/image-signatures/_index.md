@@ -3,8 +3,8 @@
 "title": "Hướng dẫn chữ ký hình ảnh cho GroupDocs.Signature Java"
 "url": "/vi/java/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Hướng dẫn chữ ký hình ảnh cho GroupDocs.Signature Java
 
 Tìm hiểu cách nâng cao chất lượng chữ ký hình ảnh trong tài liệu bằng cách sử dụng hướng dẫn về chữ ký hình ảnh Java GroupDocs.Signature của chúng tôi. Những hướng dẫn chi tiết này sẽ hướng dẫn bạn cách thêm hình ảnh làm chữ ký, tạo chữ ký dạng tem, triển khai hình mờ, tùy chỉnh cài đặt giao diện và làm việc với các tùy chọn căn chỉnh và kích thước hình ảnh. Mỗi hướng dẫn đều bao gồm các ví dụ mã Java thực tế, cho thấy cách tạo chữ ký trực quan, truyền tải hiệu quả tính xác thực hoặc thương hiệu, đồng thời duy trì tính toàn vẹn của tài liệu.

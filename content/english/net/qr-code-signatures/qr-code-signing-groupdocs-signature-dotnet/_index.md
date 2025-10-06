@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["QR-codes", "digital-signatures", "GroupDocs", "NET", "document-security"]
+type: docs
 ---
-
 # QR Code Document Signing with GroupDocs.Signature for .NET - Complete Implementation
 
 ## Introduction

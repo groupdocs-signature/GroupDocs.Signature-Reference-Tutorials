@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java를 사용하여 PDF의 QR 코드 서명을 업데이트하는 포괄적인 가이드"
 "url": "/ko/java/qr-code-signatures/update-qr-code-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java를 사용하여 PDF의 QR 코드 서명 업데이트: 종합 가이드
 
 ## 소개

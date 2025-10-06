@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management", ".NET Development"]
 tags: ["qr-codes", "digital-signatures", "groupdocs", "net-tutorial"]
+type: docs
 ---
-
 # How to Update QR Code Signatures in .NET
 
 ## Why You Need Dynamic QR Code Management (And How to Master It)

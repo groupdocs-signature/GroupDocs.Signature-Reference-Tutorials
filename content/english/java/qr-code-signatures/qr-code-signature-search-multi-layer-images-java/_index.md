@@ -8,10 +8,8 @@ keywords:
 - QR code signature search Java
 - GroupDocs.Signature multi-layer images
 - Java digital signatures
-
+type: docs
 ---
-
-
 # How to Implement QR Code Signature Search in Multi-Layer Image Documents Using GroupDocs.Signature for Java
 
 ## Introduction

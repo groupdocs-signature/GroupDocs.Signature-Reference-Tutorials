@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["pdf-signatures", "metadata", "dotnet", "document-security"]
+type: docs
 ---
-
 # PDF Metadata Signatures .NET: Complete Implementation Guide
 
 Ever wondered how to embed custom data directly into your PDF signatures? You're not alone. Many .NET developers struggle with adding metadata to PDF documents during the signing process, often ending up with basic signatures that lack the rich data context their applications need.

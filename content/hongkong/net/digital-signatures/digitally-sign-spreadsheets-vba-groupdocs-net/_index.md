@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 對 Excel 電子表格和 VBA 專案進行數位簽名"
 "url": "/zh-hant/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 對 Excel 電子表格及其 VBA 專案進行數位簽名
 
 在當今的數位時代，確保 Excel 文件的真實性至關重要。無論是管理財務電子表格還是專案計劃，添加數位簽名都可以防止未經授權的更改。本教學將指導您使用以下工具對電子表格文件及其 VBA 專案進行數位簽章： **適用於 .NET 的 GroupDocs.Signature**。

@@ -4,8 +4,8 @@
 "title": "Triển khai Xử lý Sự kiện Tiến trình trong Ký tài liệu với GroupDocs.Signature cho Java"
 "url": "/vi/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai Xử lý Sự kiện Tiến trình trong Ký tài liệu với GroupDocs.Signature cho Java
 
 ## Giới thiệu

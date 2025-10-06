@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET でカスタム ログを実装する包括的なガイド"
 "url": "/ja/net/logging-debugging/implement-custom-logging-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でカスタム ログを実装する: 包括的なガイド
 
 ## 導入

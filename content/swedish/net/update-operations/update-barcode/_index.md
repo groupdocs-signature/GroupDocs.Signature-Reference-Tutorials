@@ -5,8 +5,8 @@
 "title": "Uppdatera streckkodssignaturer i dokument"
 "url": "/sv/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Introduktion
 Streckkodssignaturer används ofta i digitala dokumentarbetsflöden för att koda strukturerad data, vilket möjliggör effektiv spårning, identifiering och validering. GroupDocs.Signature för .NET är en omfattande lösning för dokumentsignering som ger utvecklare möjlighet att integrera avancerad signaturfunktionalitet i sina applikationer, inklusive möjligheten att uppdatera befintliga streckkodssignaturer i dokument.
 

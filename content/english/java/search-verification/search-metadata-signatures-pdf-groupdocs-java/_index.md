@@ -8,10 +8,8 @@ keywords:
 - search metadata signatures PDF
 - GroupDocs Signature Java
 - manage PDF metadata
-
+type: docs
 ---
-
-
 # How to Search Metadata Signatures in PDF Documents Using GroupDocs.Signature for Java
 
 ## Introduction

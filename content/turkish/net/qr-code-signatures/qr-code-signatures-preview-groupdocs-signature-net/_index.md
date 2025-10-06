@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile QR Kod İmza Önizlemeleri - Kapsamlı Bir Kılavuz"
 "url": "/tr/net/qr-code-signatures/qr-code-signatures-preview-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile QR Kod İmza Önizlemeleri Uygulama
 
 ## giriiş

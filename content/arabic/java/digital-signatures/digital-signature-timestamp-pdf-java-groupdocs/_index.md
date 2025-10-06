@@ -4,8 +4,8 @@
 "title": "تنفيذ التوقيعات الرقمية مع الطوابع الزمنية على ملفات PDF باستخدام Java وGroupDocs.Signature"
 "url": "/ar/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ التوقيعات الرقمية مع الطوابع الزمنية على ملفات PDF باستخدام Java وGroupDocs.Signature
 
 ## مقدمة

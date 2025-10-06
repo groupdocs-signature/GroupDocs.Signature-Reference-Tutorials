@@ -4,8 +4,8 @@
 "title": "Padroneggiare la ricerca delle firme dei documenti con GroupDocs.Signature per Java&#58; una guida completa"
 "url": "/it/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la ricerca della firma del documento con GroupDocs.Signature per Java
 
 ## Introduzione

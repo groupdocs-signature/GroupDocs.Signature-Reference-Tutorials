@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["pdf-signing", "radio-buttons", "form-fields", "groupdocs", "dotnet"]
+type: docs
 ---
-
 # PDF Radio Button Signature .NET - Complete Implementation
 
 ## Introduction

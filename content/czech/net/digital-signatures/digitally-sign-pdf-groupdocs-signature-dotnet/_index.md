@@ -4,8 +4,8 @@
 "title": "Jak digitálně podepisovat PDF soubory pomocí GroupDocs.Signature pro .NET – podrobný návod"
 "url": "/cs/net/digital-signatures/digitally-sign-pdf-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak digitálně podepsat dokument PDF pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 메타데이터가 포함된 PDF에 서명하는 방법"
 "url": "/ko/java/metadata-signatures/sign-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 메타데이터가 포함된 PDF에 서명하는 방법
 
 오늘날의 디지털 환경에서는 문서의 무결성과 신뢰성을 보장하는 것이 매우 중요합니다. 서명을 통해 보안 계층이 필요한 PDF를 다루는 경우, 이 튜토리얼에서는 GroupDocs.Signature for Java를 사용하여 작성자 이름, 생성일, 문서 ID, 서명 ID 등의 메타데이터를 사용하여 PDF 문서에 서명하는 방법을 안내합니다.

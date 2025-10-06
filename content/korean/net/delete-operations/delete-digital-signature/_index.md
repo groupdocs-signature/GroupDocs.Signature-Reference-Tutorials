@@ -5,8 +5,8 @@
 "title": ".NET에서 문서의 디지털 서명을 제거하는 방법"
 "url": "/ko/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 문서에서 디지털 서명을 제거하는 방법
 
 ## 디지털 서명 관리가 중요한 이유

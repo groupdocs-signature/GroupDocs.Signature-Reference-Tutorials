@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature 및 FileStream을 사용하여 .NET에서 라이선스 설정하기&#58; 포괄적인 가이드"
 "url": "/ko/net/getting-started/set-license-net-groupdocs-signature-stream/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature 및 FileStream을 사용하여 .NET에서 라이선스 설정
 ## 시작하기
 ### GroupDocs.Signature를 사용하여 .NET에서 Stream을 통해 라이선스 설정 구현

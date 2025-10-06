@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 이미지 문서에 서명하는 방법&#58; 종합 가이드"
 "url": "/ko/net/image-signatures/sign-image-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 이미지 문서에 서명하는 방법
 
 ## 소개

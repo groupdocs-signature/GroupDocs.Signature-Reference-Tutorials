@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak .NET'te Ana Metin İmza Yönetimi"
 "url": "/tr/net/signature-management/master-text-signature-management-dotnet-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile .NET'te Metin İmza Yönetiminde Ustalaşma
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Hogyan írjunk alá biztonságosan Word-dokumentumokat QR-kódokkal a GroupDocs.Signature for Java használatával?"
 "url": "/hu/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan írjunk alá biztonságosan Word-dokumentumokat QR-kódokkal a GroupDocs.Signature for Java használatával?
 
 A mai digitális világban a dokumentumok biztonságos aláírása kulcsfontosságú mind a vállalkozások, mind a magánszemélyek számára. Legyen szó szerződésekről, jogi megállapodásokról vagy hivatalos levelekről, a dokumentumok hitelességének biztosítása kiemelkedő fontosságú. Az elektronikus aláírásokkal egyszerűsítettük ezt a folyamatot, miközben extra biztonsági és kényelmi réteget biztosítunk. A GroupDocs.Signature for Java egy hatékony megoldást kínál a Word-dokumentumok QR-kódokkal történő aláírására – egy modern és biztonságos digitális aláírás.

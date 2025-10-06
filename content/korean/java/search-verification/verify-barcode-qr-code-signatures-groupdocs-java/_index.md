@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java를 사용하여 문서의 바코드 및 QR 코드를 확인하는 방법"
 "url": "/ko/java/search-verification/verify-barcode-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 바코드 및 QR 코드 검증을 구현하는 방법
 
 ## 소개

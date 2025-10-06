@@ -4,8 +4,8 @@
 "title": "Firmas digitales seguras en Java&#58; Guía de cifrado de firmas y búsqueda de códigos QR de GroupDocs."
 "url": "/es/java/digital-signatures/groupdocs-signature-java-encryption-qr-code-search/"
 "weight": 1
+type: docs
 ---
-
 # Firmas digitales seguras en Java mediante GroupDocs.Signature
 ## Introducción
 En el panorama digital actual, la seguridad de los documentos es fundamental. Ya sea que gestione contratos comerciales confidenciales o registros personales, aplicar un cifrado robusto y funciones de búsqueda eficientes puede proteger sus datos del acceso no autorizado. Esta guía le guiará en la implementación de opciones personalizadas de cifrado y búsqueda de firmas de código QR en Java con GroupDocs.Signature.

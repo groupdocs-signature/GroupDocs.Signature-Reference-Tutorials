@@ -4,8 +4,8 @@
 "title": "Podpisy dokumentów głównych w języku Java z GroupDocs.Signature&#58; Przewodnik po podpisach kodów kreskowych"
 "url": "/pl/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie podpisów dokumentów w Javie za pomocą GroupDocs.Signature
 
 **Usprawnij obieg dokumentów cyfrowych, podpisując, weryfikując, wyszukując, aktualizując i usuwając podpisy z kodami kreskowymi przy użyciu narzędzia GroupDocs.Signature for Java.**

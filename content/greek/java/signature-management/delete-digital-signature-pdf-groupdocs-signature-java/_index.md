@@ -4,8 +4,8 @@
 "title": "Πώς να αφαιρέσετε μια ψηφιακή υπογραφή από ένα PDF χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/signature-management/delete-digital-signature-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αφαιρέσετε μια ψηφιακή υπογραφή από ένα PDF χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

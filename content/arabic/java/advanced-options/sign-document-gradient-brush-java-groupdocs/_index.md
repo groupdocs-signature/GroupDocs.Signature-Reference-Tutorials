@@ -4,8 +4,8 @@
 "title": "توقيع المستندات باستخدام Gradient Brush في Java باستخدام GroupDocs.Signature"
 "url": "/ar/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # توقيع المستندات باستخدام فرشاة التدرج في Java باستخدام GroupDocs.Signature
 
 في عصرنا الرقمي، يُعدّ التوقيع الآمن على المستندات أمرًا بالغ الأهمية لتحقيق الكفاءة في مختلف القطاعات. يرشدك هذا البرنامج التعليمي إلى كيفية التوقيع رقميًا على المستندات باستخدام تأثير فرشاة التدرج اللوني. **GroupDocs.Signature لـ Java**.

@@ -4,8 +4,8 @@
 "title": "Пользовательское шифрование XOR с GroupDocs.Signature для Java&#58; Полное руководство"
 "url": "/ru/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Полное руководство по реализации пользовательского шифрования XOR с помощью GroupDocs.Signature для Java
 
 ## Введение

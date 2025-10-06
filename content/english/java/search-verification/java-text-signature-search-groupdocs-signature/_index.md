@@ -8,10 +8,8 @@ keywords:
 - Java Text Signature Search
 - GroupDocs.Signature for Java
 - text signature verification
-
+type: docs
 ---
-
-
 # Implementing Java Text Signature Search with GroupDocs.Signature
 
 ## Introduction

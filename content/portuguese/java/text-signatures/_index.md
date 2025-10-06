@@ -3,8 +3,8 @@
 "title": "Tutoriais de assinatura de texto para GroupDocs.Signature Java"
 "url": "/pt/java/text-signatures/"
 "weight": 7
+type: docs
 ---
-
 # Tutoriais de assinatura de texto para GroupDocs.Signature Java
 
 Nossos tutoriais de assinatura de texto mostram como implementar vários tipos de assinaturas baseadas em texto usando o GroupDocs.Signature em Java. Estes guias práticos explicam como criar assinaturas de texto, marcas d'água, anotações, adesivos, campos de formulário e carimbos com opções de formatação personalizáveis. Cada tutorial inclui exemplos detalhados de código Java para cenários de implementação de assinaturas de texto, ajudando você a criar aplicativos que podem marcar documentos com informações textuais de forma eficaz, além de oferecer diversas opções de estilo e posicionamento.

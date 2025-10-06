@@ -4,8 +4,8 @@
 "title": "Integratie van .NET-barcodehandtekeningen met GroupDocs.Signature voor verbeterde documentbeveiliging"
 "url": "/nl/net/barcode-signatures/net-barcode-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Documentbeheer onder de knie krijgen: .NET-barcodehandtekeningintegratie implementeren met GroupDocs.Signature
 
 In het huidige digitale tijdperk is het garanderen van de authenticiteit en integriteit van documenten cruciaal in verschillende sectoren. Deze handleiding laat zien hoe u barcodehandtekeningen kunt integreren in uw documentworkflow met behulp van **GroupDocs.Signature voor .NET**Of u nu barcodehandtekeningen in documenten moet ondertekenen, verifiëren, zoeken, bijwerken of verwijderen: in deze tutorial komen alle essentiële aspecten aan bod.

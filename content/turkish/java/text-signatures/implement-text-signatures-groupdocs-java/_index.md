@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Metin İmzaları Nasıl Uygulanır (Adım Adım Kılavuz)"
 "url": "/tr/java/text-signatures/implement-text-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanılarak Metin İmzaları Nasıl Uygulanır?
 
 ## giriiş

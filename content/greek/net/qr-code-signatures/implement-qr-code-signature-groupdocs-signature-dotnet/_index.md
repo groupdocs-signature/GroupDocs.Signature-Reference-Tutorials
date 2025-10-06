@@ -4,8 +4,8 @@
 "title": "Πώς να εφαρμόσετε υπογραφές κώδικα QR σε .NET χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/qr-code-signatures/implement-qr-code-signature-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε μια υπογραφή κώδικα QR .NET χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

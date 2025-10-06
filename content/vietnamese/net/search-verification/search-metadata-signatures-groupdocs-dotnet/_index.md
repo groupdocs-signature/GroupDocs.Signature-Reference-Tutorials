@@ -4,8 +4,8 @@
 "title": "Cách tìm kiếm chữ ký siêu dữ liệu trong bài thuyết trình bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách tìm kiếm chữ ký siêu dữ liệu trong bài thuyết trình bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

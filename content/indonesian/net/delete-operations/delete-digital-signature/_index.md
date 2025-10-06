@@ -5,8 +5,8 @@
 "title": "Cara Menghapus Tanda Tangan Digital dari Dokumen di .NET"
 "url": "/id/net/delete-operations/delete-digital-signature/"
 "weight": 13
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Digital dari Dokumen Anda dengan GroupDocs.Signature
 
 ## Mengapa Manajemen Tanda Tangan Digital Penting

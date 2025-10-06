@@ -5,8 +5,8 @@
 "title": "Cách xóa chữ ký hình ảnh khỏi tài liệu trong .NET"
 "url": "/vi/net/delete-operations/delete-image-signature/"
 "weight": 14
+type: docs
 ---
-
 # Cách xóa chữ ký hình ảnh khỏi tài liệu bằng GroupDocs.Signature
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "कुशल दस्तावेज़ हस्ताक्षर प्रबंधन&#58; .NET के लिए GroupDocs.Signature के साथ फ़ॉर्म-फ़ील्ड हस्ताक्षर खोजना"
 "url": "/hi/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ कुशल दस्तावेज़ हस्ताक्षर प्रबंधन
 
 ## परिचय

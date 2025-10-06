@@ -4,8 +4,8 @@
 "title": "Sérialisation JSON personnalisée dans .NET avec Newtonsoft.Json et GroupDocs.Signature - Un guide complet"
 "url": "/fr/net/advanced-options/custom-json-serialization-newtonsoft-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Guide complet sur la sérialisation JSON personnalisée dans .NET à l'aide de Newtonsoft.Json et GroupDocs.Signature
 
 ## Introduction

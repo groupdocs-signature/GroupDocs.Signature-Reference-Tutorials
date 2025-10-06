@@ -4,8 +4,8 @@
 "title": "Presentaties ondertekenen en converteren met GroupDocs.Signature voor .NET&#58; een uitgebreide handleiding"
 "url": "/nl/net/digital-signatures/sign-and-convert-presentations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Presentaties ondertekenen en converteren met GroupDocs.Signature voor .NET: een uitgebreide handleiding
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "إدارة التوقيعات بكفاءة - كيفية البحث عن التوقيعات الرقمية وحذفها باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/signature-management/search-delete-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # إدارة التوقيعات بكفاءة: كيفية البحث عن التوقيعات الرقمية وحذفها باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Gizli İmzalarla Belge Önizlemelerini Otomatikleştirin"
 "url": "/tr/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Gizli İmzalarla Belge Önizlemelerini Otomatikleştirin
 
 ## giriiş

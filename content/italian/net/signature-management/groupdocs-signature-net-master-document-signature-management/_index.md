@@ -4,8 +4,8 @@
 "title": "Gestione della firma dei documenti master con GroupDocs.Signature per .NET"
 "url": "/it/net/signature-management/groupdocs-signature-net-master-document-signature-management/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la gestione delle firme dei documenti con GroupDocs.Signature per .NET
 
 ## Introduzione

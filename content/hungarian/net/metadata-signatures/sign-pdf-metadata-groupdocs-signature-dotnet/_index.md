@@ -4,8 +4,8 @@
 "title": "PDF-ek aláírása metaadatokkal a GroupDocs.Signature for .NET használatával – Átfogó útmutató"
 "url": "/hu/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF-ek aláírása metaadatokkal a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

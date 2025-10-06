@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 從 PDF 中刪除數位簽名"
 "url": "/zh-hant/java/signature-management/delete-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 從 PDF 中刪除數位簽名
 
 ## 介紹

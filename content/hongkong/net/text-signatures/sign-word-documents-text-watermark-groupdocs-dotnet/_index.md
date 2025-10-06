@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 對帶有文字浮水印的 Word 文件進行簽名"
 "url": "/zh-hant/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 對帶有文字浮水印的 Word 文件進行簽名
 
 ## 介紹

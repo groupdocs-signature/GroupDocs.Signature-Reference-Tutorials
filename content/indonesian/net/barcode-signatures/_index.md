@@ -3,8 +3,8 @@
 "title": "Tutorial Tanda Tangan Kode Batang untuk GroupDocs.Signature .NET"
 "url": "/id/net/barcode-signatures/"
 "weight": 4
+type: docs
 ---
-
 # Tutorial Tanda Tangan Kode Batang untuk GroupDocs.Signature .NET
 
 Tutorial tanda tangan kode batang kami menyediakan panduan detail untuk menerapkan tanda tangan berbasis kode batang di aplikasi .NET Anda. Ikuti panduan praktis ini untuk mempelajari cara menandatangani dokumen dengan berbagai jenis kode batang, menyesuaikan tampilan kode batang, mencari kode batang dalam dokumen yang sudah ada, memperbarui atau menghapus tanda tangan kode batang, dan memverifikasi konten kode batang. Tutorial ini mencakup contoh kode C# lengkap untuk operasi kode batang umum, membantu Anda membangun aplikasi yang dapat mengodekan dan memverifikasi informasi dalam dokumen dengan aman melalui teknologi kode batang.

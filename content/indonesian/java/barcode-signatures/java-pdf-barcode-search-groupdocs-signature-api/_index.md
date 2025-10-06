@@ -4,8 +4,8 @@
 "title": "Pencarian Kode Batang PDF Java menggunakan GroupDocs.Signature API&#58; Panduan Lengkap"
 "url": "/id/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
 "weight": 1
+type: docs
 ---
-
 # Implementasi Java: Mencari Kode Batang PDF dengan Tutorial API GroupDocs.Signature
 
 ## Perkenalan

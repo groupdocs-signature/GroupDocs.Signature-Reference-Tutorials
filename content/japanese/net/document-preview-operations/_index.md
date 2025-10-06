@@ -5,8 +5,8 @@
 "title": "包括的なドキュメントプレビューと管理操作"
 "url": "/ja/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # ドキュメントプレビュー操作
 
 ## 導入

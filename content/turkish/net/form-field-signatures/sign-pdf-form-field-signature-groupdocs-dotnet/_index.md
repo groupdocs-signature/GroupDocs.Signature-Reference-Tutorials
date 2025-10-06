@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature ile C#'ta Form Alanı İmzası Kullanarak PDF'leri Nasıl İmzalayabilirsiniz?"
 "url": "/tr/net/form-field-signatures/sign-pdf-form-field-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature ile Form Alanı İmzası Kullanarak Bir PDF Belgesini Nasıl İmzalarsınız?
 
 ## giriiş

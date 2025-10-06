@@ -4,8 +4,8 @@
 "title": "วิธีอัปเดตลายเซ็นภาพใน .NET โดยใช้ GroupDocs.Signature&#58; คู่มือฉบับสมบูรณ์"
 "url": "/th/net/signature-management/update-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีอัปเดตลายเซ็นภาพใน .NET ด้วย GroupDocs.Signature
 
 ## การแนะนำ

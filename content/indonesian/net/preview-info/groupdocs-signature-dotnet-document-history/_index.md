@@ -4,8 +4,8 @@
 "title": "Menguasai Riwayat Proses Dokumen dengan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/preview-info/groupdocs-signature-dotnet-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Riwayat Proses Dokumen dengan GroupDocs.Signature untuk .NET: Panduan Lengkap
 
 ## Perkenalan

@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - barcode search in ZIP archives
 - QR code search with GroupDocs
-
+type: docs
 ---
-
-
 # Implement Barcode & QR Code Search in ZIP Archives with GroupDocs for Java
 ## Introduction
 In today's digital world, efficiently managing and verifying document authenticity is crucial. Whether you're dealing with legal documents, invoices, or contracts stored in ZIP archives, finding specific barcodes and QR codes can be challenging without the right tools. This tutorial guides you through using GroupDocs.Signature for Java to seamlessly search for barcode and QR code signatures within ZIP files.

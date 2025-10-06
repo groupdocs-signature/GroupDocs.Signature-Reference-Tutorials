@@ -4,8 +4,8 @@
 "title": "Generuj podgląd podpisu cyfrowego w formacie PDF za pomocą GroupDocs.Signature dla platformy .NET | Kompleksowy przewodnik"
 "url": "/pl/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak wygenerować podgląd podpisu cyfrowego w formacie PDF za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

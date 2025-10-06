@@ -8,10 +8,8 @@ keywords:
 - document signing with text image signature
 - GroupDocs.Signature for Java
 - Java document signing
-
+type: docs
 ---
-
-
 # How to Implement Document Signing with Text Image Signature Using GroupDocs.Signature for Java
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Efektivně podepisujte a převádějte tabulky do PDF pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Efektivně podepisujte a převádějte tabulky do PDF pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

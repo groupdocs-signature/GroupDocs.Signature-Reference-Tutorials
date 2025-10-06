@@ -4,8 +4,8 @@
 "title": "Menguasai Pencarian Kode QR di Java&#58; Panduan Lengkap Menggunakan GroupDocs.Signature"
 "url": "/id/java/search-verification/mastering-qr-code-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pencarian Kode QR di Java: Panduan Lengkap Menggunakan GroupDocs.Signature
 
 ## Perkenalan

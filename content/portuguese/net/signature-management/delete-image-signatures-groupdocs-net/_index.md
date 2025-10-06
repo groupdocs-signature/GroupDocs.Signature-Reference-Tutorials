@@ -4,8 +4,8 @@
 "title": "Como excluir assinaturas de imagem no .NET usando GroupDocs.Signature - um guia passo a passo"
 "url": "/pt/net/signature-management/delete-image-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Como excluir assinaturas de imagem no .NET usando GroupDocs.Signature: um guia passo a passo
 
 No cenário digital atual, o gerenciamento de assinaturas de documentos é crucial para manter a segurança e a autenticidade nas operações comerciais. Se você lida com documentos que contêm várias assinaturas de imagem, um gerenciamento eficiente pode economizar tempo e recursos. Este guia completo o orientará no uso **GroupDocs.Signature para .NET** Para inicializar uma instância de assinatura, pesquise assinaturas de imagem e exclua assinaturas específicas com base em determinadas condições. Ao final deste tutorial, você dominará como otimizar esse processo de forma eficaz.

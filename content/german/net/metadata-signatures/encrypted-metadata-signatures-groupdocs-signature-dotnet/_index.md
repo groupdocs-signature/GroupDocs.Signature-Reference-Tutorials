@@ -4,8 +4,8 @@
 "title": "So implementieren Sie verschlüsselte Metadatensignaturen mit GroupDocs.Signature für .NET | Eine vollständige Anleitung"
 "url": "/de/net/metadata-signatures/encrypted-metadata-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie verschlüsselte Metadatensignaturen mit GroupDocs.Signature für .NET
 
 ## Einführung

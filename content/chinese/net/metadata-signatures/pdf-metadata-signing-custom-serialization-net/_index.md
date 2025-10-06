@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中对 PDF 元数据进行自定义序列化签名"
 "url": "/zh/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 实现自定义序列化的 PDF 元数据签名
 
 ## 介绍

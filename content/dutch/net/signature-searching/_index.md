@@ -5,8 +5,8 @@
 "title": "Uitgebreid zoeken naar documenthandtekeningen"
 "url": "/nl/net/signature-searching/"
 "weight": 23
+type: docs
 ---
-
 ## Invoering
 
 Documentbeveiliging en integriteitsverificatie zijn cruciale aspecten van moderne bedrijfsprocessen. GroupDocs.Signature voor .NET biedt een krachtige oplossing voor het implementeren van uitgebreide zoekfunctionaliteit voor handtekeningen in verschillende documentformaten. Of u nu de authenticiteit van een document wilt valideren, handtekeninginformatie wilt extraheren of geautomatiseerde verificatieworkflows wilt bouwen, GroupDocs.Signature biedt de tools die u nodig hebt om efficiënt naar meerdere handtekeningtypen te zoeken en deze te verwerken.

@@ -5,8 +5,8 @@
 "title": "Hướng dẫn đầy đủ về thao tác xóa chữ ký tài liệu"
 "url": "/vi/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # Xóa các thao tác trong GroupDocs.Signature cho .NET
 
 ## Giới thiệu

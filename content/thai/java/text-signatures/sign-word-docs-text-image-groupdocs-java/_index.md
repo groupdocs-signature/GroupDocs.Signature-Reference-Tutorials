@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามเอกสาร Word แบบดิจิทัลด้วยข้อความเป็นรูปภาพโดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามเอกสาร Word แบบดิจิทัลด้วยข้อความเป็นรูปภาพโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

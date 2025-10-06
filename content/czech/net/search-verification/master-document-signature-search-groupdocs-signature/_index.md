@@ -4,8 +4,8 @@
 "title": "Vyhledávání podpisů hlavních dokumentů pomocí GroupDocs.Signature pro extrakci QR kódů .NET a dat z WiFi"
 "url": "/cs/net/search-verification/master-document-signature-search-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vyhledávání podpisů dokumentů pomocí GroupDocs.Signature pro .NET
 
 V dnešní digitální krajině je efektivní správa a ověřování dokumentů klíčové pro podniky napříč odvětvími. Častou výzvou je vyhledávání dokumentů s konkrétními podpisy, jako jsou například QR kódy obsahující data WiFi. Tato komplexní příručka vás provede implementací funkce pro vyhledávání QR kódů s informacemi o WiFi pomocí GroupDocs.Signature pro .NET.

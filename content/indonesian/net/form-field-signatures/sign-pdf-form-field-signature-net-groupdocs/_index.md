@@ -4,8 +4,8 @@
 "title": "Menandatangani PDF dengan Tanda Tangan Form-Field di .NET Menggunakan GroupDocs.Signature"
 "url": "/id/net/form-field-signatures/sign-pdf-form-field-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF dengan Tanda Tangan Form-Field Menggunakan GroupDocs.Signature untuk .NET
 ## Perkenalan
 Kesulitan menandatangani PDF secara digital di aplikasi .NET Anda? Mengotomatiskan proses ini akan menghemat waktu sekaligus memastikan akurasi dan keamanan. Tutorial ini memandu Anda untuk menandatangani dokumen PDF dengan mudah menggunakan tanda tangan kolom formulir dengan GroupDocs.Signature untuk .NET.

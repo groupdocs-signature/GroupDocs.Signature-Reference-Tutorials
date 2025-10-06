@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 메타데이터가 포함된 Excel 스프레드시트에 서명하는 방법"
 "url": "/ko/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 메타데이터가 포함된 Excel 스프레드시트에 서명하는 방법
 
 ## 소개

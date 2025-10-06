@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในเอกสาร Word ด้วยรหัส QR และบันทึกเป็น ODT โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/qr-code-signatures/sign-word-docs-qr-code-save-odt-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสาร Word ด้วยรหัส QR และบันทึกเป็น ODT โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

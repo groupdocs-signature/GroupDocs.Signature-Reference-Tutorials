@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET kullanarak Özel Görünümlü PDF'lerde Dijital İmzalara Hakim Olun"
 "url": "/tr/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanarak Özel Görünümlü PDF'lerde Dijital İmzaların Ustası Olma
 
 ## giriiş

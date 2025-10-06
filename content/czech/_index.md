@@ -6,8 +6,8 @@
 "title": "GroupDocs.Signature - API pro digitální podepisování dokumentů pro .NET a Javu | Kompletní tutoriál"
 "url": "/cs/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature: Kompletní řešení pro digitální podepisování dokumentů pro vývojáře
 
 ![Banner s podpisem GroupDocs](./groupdocs-signature-net.svg)

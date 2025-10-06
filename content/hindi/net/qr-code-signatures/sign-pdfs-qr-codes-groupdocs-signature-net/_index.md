@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके QR कोड के साथ PDF पर हस्ताक्षर करें. .NET के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/net/qr-code-signatures/sign-pdfs-qr-codes-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs का उपयोग करके QR कोड के साथ PDF पर हस्ताक्षर करें. .NET के लिए हस्ताक्षर: एक व्यापक गाइड
 
 ## परिचय

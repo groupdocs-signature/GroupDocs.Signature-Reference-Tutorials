@@ -4,8 +4,8 @@
 "title": "Thao tác Tệp chính và Cập nhật Chữ ký với GroupDocs.Signature cho .NET | Hướng dẫn Quản lý Tài liệu Hiệu quả"
 "url": "/vi/net/signature-management/master-file-operations-update-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Thao tác Tệp chính và Cập nhật Chữ ký với GroupDocs.Signature cho .NET | Hướng dẫn Quản lý Tài liệu Hiệu quả
 
 Quản lý hiệu quả quy trình làm việc tài liệu là rất quan trọng trong bối cảnh kinh doanh ngày nay. Cho dù bạn đang thực hiện các thao tác tệp hay cần cập nhật chữ ký theo chương trình, **GroupDocs.Signature cho .NET** cung cấp các giải pháp mạnh mẽ. Hướng dẫn này sẽ hướng dẫn bạn thực hiện các thao tác tệp và cập nhật chữ ký văn bản bằng thư viện đa năng này.

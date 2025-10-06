@@ -4,8 +4,8 @@
 "title": "Dokumentumok aláírása Gradient Brush segítségével Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/advanced-options/sign-document-gradient-brush-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumok aláírása Gradient Brush-sel Java-ban a GroupDocs.Signature használatával
 
 mai digitális korban a dokumentumok biztonságos aláírása létfontosságú a hatékonyság szempontjából minden iparágban. Ez az oktatóanyag végigvezeti Önt a dokumentumok digitális aláírásán egy színátmenetes ecseteffektus segítségével. **GroupDocs.Signature Java-hoz**.

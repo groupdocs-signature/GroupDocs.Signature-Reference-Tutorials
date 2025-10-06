@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ توقيعات الطوابع على ملفات PDF باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ توقيعات الطوابع على ملفات PDF باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

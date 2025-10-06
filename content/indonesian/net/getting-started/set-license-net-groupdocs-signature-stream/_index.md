@@ -4,8 +4,8 @@
 "title": "Mengatur Lisensi di .NET menggunakan GroupDocs.Signature dan FileStream&#58; Panduan Lengkap"
 "url": "/id/net/getting-started/set-license-net-groupdocs-signature-stream/"
 "weight": 1
+type: docs
 ---
-
 # Mengatur Lisensi di .NET dengan GroupDocs.Signature dan FileStream
 ## Memulai
 ### Menerapkan Lisensi Set melalui Stream di .NET menggunakan GroupDocs.Signature

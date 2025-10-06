@@ -4,8 +4,8 @@
 "title": "Implementieren Sie digitale Signaturen mit Zeitstempeln auf PDFs mit Java und GroupDocs.Signature"
 "url": "/de/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren digitaler Signaturen mit Zeitstempeln auf PDFs mithilfe von Java und GroupDocs.Signature
 
 ## Einführung

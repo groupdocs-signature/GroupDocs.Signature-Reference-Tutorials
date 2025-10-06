@@ -5,8 +5,8 @@
 "title": "使用 GroupDocs.Signature for .NET 在文件中新增文字簽名"
 "url": "/zh-hant/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 在文件中新增文字簽名
 
 ## 簡介：實現文件簽名流程的現代化

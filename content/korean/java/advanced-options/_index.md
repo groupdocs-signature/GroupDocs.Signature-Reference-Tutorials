@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java를 위한 고급 서명 옵션 튜토리얼"
 "url": "/ko/java/advanced-options/"
 "weight": 14
+type: docs
 ---
-
 # GroupDocs.Signature Java를 위한 고급 서명 옵션 튜토리얼
 
 Java 개발자를 위한 GroupDocs.Signature의 포괄적인 튜토리얼을 통해 고급 서명 기능을 살펴보세요. 이 상세한 가이드는 사용자 지정 암호화, 특수 직렬화, 복잡한 모양 설정, 사용자 지정 브러시 및 그라데이션, 다양한 측정 단위를 사용한 위치 지정, 정렬 옵션, 그리고 늘이기 모드 구현 방법을 다룹니다. 각 튜토리얼은 정교한 서명 기능을 위한 Java 코드 예제를 제공하여, GroupDocs.Signature의 고급 기능을 최대한 활용하여 고도로 맞춤화되고 안전한 문서 서명 구현을 지원하는 문서 솔루션을 구축하는 데 도움을 줍니다.

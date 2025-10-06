@@ -4,8 +4,8 @@
 "title": "Cara Mengambil Info Dokumen Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/preview-info/retrieve-document-info-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mengambil Informasi Dokumen dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

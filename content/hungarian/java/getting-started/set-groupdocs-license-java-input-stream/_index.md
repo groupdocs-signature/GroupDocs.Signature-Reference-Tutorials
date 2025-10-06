@@ -4,8 +4,8 @@
 "title": "GroupDocs licenc beállítása InputStream segítségével Java-ban a fokozott rugalmasság és megfelelőség érdekében"
 "url": "/hu/java/getting-started/set-groupdocs-license-java-input-stream/"
 "weight": 1
+type: docs
 ---
-
 # Java implementálása: GroupDocs licenc beállítása az InputStream segítségével a GroupDocs.Signature for Java fájlban
 
 Üdvözöljük ebben az átfogó útmutatóban, amely bemutatja a GroupDocs licenc beállítását a GroupDocs.Signature for Java bemeneti adatfolyamának használatával. Ez a funkció lehetővé teszi a licencek hatékony kezelését, a megfelelőség biztosítását és a GroupDocs funkcióihoz való teljes hozzáférés feloldását.

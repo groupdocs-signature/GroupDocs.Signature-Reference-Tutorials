@@ -4,8 +4,8 @@
 "title": "Πλήρης οδηγός για τη ρύθμιση υπογραφών κειμένου με το GroupDocs.Signature για Java"
 "url": "/el/java/text-signatures/guide-setting-up-text-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πλήρης οδηγός για τη ρύθμιση υπογραφών κειμένου με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

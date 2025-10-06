@@ -5,8 +5,8 @@
 "title": "Omfattande förhandsgranskning och hantering av dokument"
 "url": "/sv/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # Förhandsgranskningsåtgärder för dokument
 
 ## Introduktion

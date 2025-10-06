@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - secure metadata signature search
 - metadata extraction encryption
-
+type: docs
 ---
-
-
 # Secure Metadata Signature Search and Extraction Using GroupDocs for Java
 
 ## Introduction

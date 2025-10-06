@@ -5,8 +5,8 @@
 "title": "Trích xuất siêu dữ liệu tài liệu chính với GroupDocs.Signature cho .NET"
 "url": "/vi/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # Hướng dẫn toàn diện về trích xuất siêu dữ liệu tài liệu với GroupDocs.Signature
 
 ## Tầm quan trọng chiến lược của siêu dữ liệu tài liệu trong quy trình làm việc hiện đại

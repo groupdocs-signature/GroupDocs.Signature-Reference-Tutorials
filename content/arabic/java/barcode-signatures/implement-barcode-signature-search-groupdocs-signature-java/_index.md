@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ بحث توقيع الباركود في جافا باستخدام GroupDocs.Signature"
 "url": "/ar/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ بحث توقيع الباركود في جافا باستخدام GroupDocs.Signature
 
 ## مقدمة

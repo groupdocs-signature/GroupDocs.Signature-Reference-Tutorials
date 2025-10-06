@@ -4,8 +4,8 @@
 "title": "Jak usunąć wiele podpisów w dokumentach za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/signature-management/delete-multiple-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak usunąć wiele podpisów w dokumencie za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

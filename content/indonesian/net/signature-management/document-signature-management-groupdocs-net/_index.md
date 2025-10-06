@@ -4,8 +4,8 @@
 "title": "Manajemen Tanda Tangan Dokumen yang Efisien&#58; Mencari Tanda Tangan Formulir-Kolom dengan GroupDocs.Signature untuk .NET"
 "url": "/id/net/signature-management/document-signature-management-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Manajemen Tanda Tangan Dokumen yang Efisien dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

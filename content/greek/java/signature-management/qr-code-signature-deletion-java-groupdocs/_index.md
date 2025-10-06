@@ -4,8 +4,8 @@
 "title": "Οδηγός για τη διαγραφή υπογραφών QR-Code σε Java χρησιμοποιώντας το GroupDocs"
 "url": "/el/java/signature-management/qr-code-signature-deletion-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Οδηγός για τη διαγραφή υπογραφών QR-Code σε Java χρησιμοποιώντας το GroupDocs
 
 ## Εισαγωγή

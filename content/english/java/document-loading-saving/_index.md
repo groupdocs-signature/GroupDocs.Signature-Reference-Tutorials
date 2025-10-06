@@ -3,8 +3,8 @@ title: "Document Loading and Saving Tutorials with GroupDocs.Signature for Java"
 description: "Learn how to load documents from various sources and save signed documents with different options using GroupDocs.Signature for Java."
 weight: 2
 url: "/java/document-loading-saving/"
+type: docs
 ---
-
 # Document Loading and Saving Tutorials with GroupDocs.Signature for Java
 
 Our document loading and saving tutorials provide comprehensive guidance for handling documents programmatically in Java. Follow these step-by-step guides to learn how to load documents from local disk, streams, URLs, cloud storage providers like Amazon S3 and Azure Blob Storage, and FTP. These tutorials also cover various document saving scenarios, including saving with password protection, different output formats, and specialized saving options for various document types.

@@ -5,8 +5,8 @@
 "title": "Zoeken naar QR-codehandtekeningen in documenten"
 "url": "/nl/net/signature-searching/search-for-qr-codes/"
 "weight": 15
+type: docs
 ---
-
 ## Invoering
 
 In het huidige digitale documentecosysteem zijn QR-codehandtekeningen een onmisbaar hulpmiddel geworden voor het integreren van informatie, authenticatie en het verbeteren van de documentbeveiliging. GroupDocs.Signature voor .NET biedt ontwikkelaars een krachtige API om QR-codes te zoeken en te extraheren uit verschillende documentformaten, wat geavanceerde documentanalyse en -verificatiemogelijkheden in .NET-applicaties mogelijk maakt.

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用してカスタム境界線付きの Java PDF テキスト署名を作成する"
 "url": "/ja/java/text-signatures/java-pdf-text-signatures-groupdocs-custom-borders/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用してカスタムボーダー付きの Java PDF テキスト署名をマスターする
 
 今日のデジタル時代において、文書の真正性を確保することは、企業にとっても個人にとっても極めて重要です。電子文書の普及に伴い、従来の署名方法は、PDFのテキスト署名のような、より効率的で安全なソリューションに取って代わられつつあります。GroupDocs.Signature for Javaを使用して、カスタムスタイルのテキスト署名でPDF文書にプロフェッショナルな雰囲気を加えたいとお考えなら、まさにうってつけのツールです。

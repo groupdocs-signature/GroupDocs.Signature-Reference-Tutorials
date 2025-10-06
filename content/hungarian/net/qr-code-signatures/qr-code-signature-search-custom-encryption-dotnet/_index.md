@@ -4,8 +4,8 @@
 "title": "QR-kód aláíráskeresés implementálása egyéni titkosítással .NET-ben a GroupDocs.Signature használatával"
 "url": "/hu/net/qr-code-signatures/qr-code-signature-search-custom-encryption-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláíráskeresés implementálása egyéni titkosítással .NET-ben
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "การนำข้อมูลเมตาแบบกำหนดเองไปใช้ใน Java โดยใช้ GroupDocs.Signature เพื่อการลงนามเอกสารที่ปรับปรุงดีขึ้น"
 "url": "/th/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # การนำข้อมูลเมตาแบบกำหนดเองไปใช้ใน Java ด้วย GroupDocs.Signature
 
 ## การแนะนำ

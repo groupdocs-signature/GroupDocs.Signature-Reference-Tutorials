@@ -4,8 +4,8 @@
 "title": "Jak aktualizować podpisy kodów kreskowych według identyfikatora za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak zaktualizować podpisy kodów kreskowych według identyfikatora za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

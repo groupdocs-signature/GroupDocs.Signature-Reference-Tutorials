@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak Word Belgelerindeki Meta Veri İmzaları Nasıl Aranır?"
 "url": "/tr/java/search-verification/search-metadata-signatures-word-docs-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak Word Belgelerindeki Meta Veri İmzaları Nasıl Aranır?
 
 ## giriiş

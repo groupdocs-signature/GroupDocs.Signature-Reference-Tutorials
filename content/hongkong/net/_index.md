@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature for .NET 的綜合教學與範例"
 "url": "/zh-hant/net/"
 "weight": 10
+type: docs
 ---
-
 ## 介紹
 
 歡迎閱讀 GroupDocs.Signature for .NET 的綜合指南。這是一款強大的文件簽章解決方案，可協助開發人員在多種文件格式中實現安全的數位簽章。本指南包含詳細的教學和實際範例，將幫助您充分發揮該 API 在 .NET 應用程式中的潛力。

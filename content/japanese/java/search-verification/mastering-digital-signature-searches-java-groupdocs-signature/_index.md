@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature を使用した Java でのデジタル署名検索をマスターする包括的なガイド"
 "url": "/ja/java/search-verification/mastering-digital-signature-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使って Java でデジタル署名検索をマスターする: 総合ガイド
 
 **GroupDocs.Signature for Java でデジタル署名を検索するパワーを発見してください。**

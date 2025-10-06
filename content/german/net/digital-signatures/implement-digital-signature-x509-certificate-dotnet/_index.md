@@ -4,8 +4,8 @@
 "title": "Implementieren Sie digitale Signaturen in .NET mit X.509-Zertifikaten unter Verwendung von GroupDocs.Signature"
 "url": "/de/net/digital-signatures/implement-digital-signature-x509-certificate-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren Sie digitale Signaturen in .NET mit X.509-Zertifikaten unter Verwendung von GroupDocs.Signature
 
 ## Einführung

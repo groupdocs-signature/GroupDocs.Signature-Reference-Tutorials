@@ -4,8 +4,8 @@
 "title": "التحقق من مستندات .NET باستخدام توقيعات الباركود باستخدام GroupDocs.Signature"
 "url": "/ar/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التحقق من المستندات باستخدام توقيعات الباركود في .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

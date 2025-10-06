@@ -4,8 +4,8 @@
 "title": "Firme di testo master in Java - Guida completa a GroupDocs.Signature per Java"
 "url": "/it/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la firma dei documenti in Java: una guida completa all'utilizzo di GroupDocs.Signature per le firme di testo
 
 ## Introduzione

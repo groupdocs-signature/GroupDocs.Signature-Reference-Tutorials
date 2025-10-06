@@ -4,8 +4,8 @@
 "title": "Cara Membuat dan Menandatangani PDF dengan Kode Batang menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Membuat dan Menandatangani PDF dengan Kode Batang Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

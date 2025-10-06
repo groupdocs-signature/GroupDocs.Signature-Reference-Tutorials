@@ -4,8 +4,8 @@
 "title": "Konverze obrázků .NET Base64 a podepisování dokumentů pomocí GroupDocs.Signature"
 "url": "/cs/net/image-signatures/net-base64-image-conversion-document-signing-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementace konverze obrázků .NET Base64 a podepisování dokumentů pomocí GroupDocs.Signature
 
 ## Zavedení

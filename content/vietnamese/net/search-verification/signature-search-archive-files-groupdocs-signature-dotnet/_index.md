@@ -4,8 +4,8 @@
 "title": "Tìm kiếm chữ ký hiệu quả trong tệp lưu trữ bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Tìm kiếm chữ ký hiệu quả trong tệp lưu trữ bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Zvládněte vyhledávání digitálních dokumentů pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/search-verification/master-digital-document-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí vyhledávání digitálních dokumentů s GroupDocs.Signature pro .NET
 
 Hledání digitálních podpisů v dokumentech může být náročné, zejména při práci s chráněnými soubory. GroupDocs.Signature pro .NET tento proces zjednodušuje tím, že nabízí robustní mechanismy pro zpracování výjimek. Tato příručka vás provede vyhledáváním digitálních podpisů v PDF souborech pomocí této výkonné knihovny.

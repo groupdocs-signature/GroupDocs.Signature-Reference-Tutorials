@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 메타데이터 및 사용자 지정 암호화를 사용한 보안 문서 서명 마스터하기"
 "url": "/ko/net/advanced-options/secure-document-signing-metadata-encryption-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET에서 메타데이터 및 사용자 지정 암호화를 사용한 보안 문서 서명 마스터하기
 
 ## 소개

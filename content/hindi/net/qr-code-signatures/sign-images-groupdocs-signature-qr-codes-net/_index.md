@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके QR कोड के साथ छवियों पर हस्ताक्षर कैसे करें और विभिन्न स्वरूपों में सहेजें"
 "url": "/hi/net/qr-code-signatures/sign-images-groupdocs-signature-qr-codes-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके QR कोड के साथ छवियों पर हस्ताक्षर कैसे करें
 
 ## परिचय

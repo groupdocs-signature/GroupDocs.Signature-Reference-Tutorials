@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature .NET 簽章管理教學課程"
 "url": "/zh-hant/net/signature-management/"
 "weight": 12
+type: docs
 ---
-
 # GroupDocs.Signature .NET 簽章管理教學課程
 
 透過我們詳細的 GroupDocs.Signature .NET 教程，掌握簽章生命週期管理。這些逐步指南示範如何在將不同類型的簽章套用至文件後進行更新、刪除和管理。學習如何修改簽章屬性、按類型或 ID 刪除簽章、執行批次操作以及處理簽章元資料。每個教程都包含可運行的 C# 程式碼範例，展示如何建立具有全面簽名管理功能的應用程序，確保您的文件在整個生命週期中保持最新並得到妥善維護。

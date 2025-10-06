@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak PDF'lere Dijital İmzalar Nasıl Uygulanır? Kapsamlı Bir Kılavuz"
 "url": "/tr/java/digital-signatures/implement-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak PDF'lere Dijital İmzalar Nasıl Uygulanır?
 
 ## giriiş

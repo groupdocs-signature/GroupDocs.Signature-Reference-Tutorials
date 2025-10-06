@@ -5,8 +5,8 @@
 "title": "Behärska avancerade dokumentsignaturtekniker i .NET"
 "url": "/sv/net/advanced-signature-techniques/"
 "weight": 25
+type: docs
 ---
-
 # Avancerade signaturtekniker med GroupDocs.Signature för .NET
 
 ## Introduktion

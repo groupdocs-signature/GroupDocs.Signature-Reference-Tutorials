@@ -5,8 +5,8 @@
 "title": "如何使用 GroupDocs.Signature 检索文档信息"
 "url": "/zh/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 检索文档信息
 
 ## 介绍

@@ -4,8 +4,8 @@
 "title": "Πώς να προσαρμόσετε τις υπογραφές εικόνων σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/image-signatures/customize-image-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε προσαρμοσμένες υπογραφές εικόνας χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

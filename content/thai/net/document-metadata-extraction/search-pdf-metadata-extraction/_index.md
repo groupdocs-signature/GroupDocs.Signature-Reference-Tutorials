@@ -5,8 +5,8 @@
 "title": "วิธีการแยกลายเซ็นข้อมูลเมตา PDF ใน .NET"
 "url": "/th/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # วิธีการแยกและค้นหาลายเซ็นข้อมูลเมตา PDF
 
 ## เหตุใดข้อมูลเมตา PDF จึงมีความสำคัญต่อเอกสารของคุณ

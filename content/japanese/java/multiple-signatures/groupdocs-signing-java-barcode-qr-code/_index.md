@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signatureを使用してJavaでバーコードとQRコード署名を実装する包括的なガイド"
 "url": "/ja/java/multiple-signatures/groupdocs-signing-java-barcode-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して Java でバーコードと QR コード署名を実装する
 
 今日のデジタル環境において、文書の完全性を確保することは極めて重要です。法的契約書、請求書、出荷ラベルなど、どのような文書を管理する場合でも、真正性の維持は不可欠です。 **Java 用 GroupDocs.Signature** ドキュメントへのバーコードとQRコードのシームレスな統合を可能にすることで、このプロセスを効率化します。この包括的なガイドでは、GroupDocs.Signature for Javaを使用してバーコードとQRコードの署名を実装する方法について解説します。

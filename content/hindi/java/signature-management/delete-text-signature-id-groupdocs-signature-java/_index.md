@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके ID द्वारा टेक्स्ट हस्ताक्षर कैसे हटाएँ.Java के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/java/signature-management/delete-text-signature-id-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके ID द्वारा टेक्स्ट हस्ताक्षर कैसे हटाएँ
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Jak vyhledávat podpisy metadat v dokumentech Word pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/search-verification/search-metadata-signatures-word-docs-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak vyhledávat podpisy metadat v dokumentech Word pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

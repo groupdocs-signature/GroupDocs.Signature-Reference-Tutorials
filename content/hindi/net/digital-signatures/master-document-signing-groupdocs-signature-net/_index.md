@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature के साथ मास्टर दस्तावेज़ पर हस्ताक्षर और सत्यापन"
 "url": "/hi/net/digital-signatures/master-document-signing-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature के साथ मास्टर दस्तावेज़ पर हस्ताक्षर और सत्यापन
 
 ## .NET के लिए GroupDocs.Signature के साथ दस्तावेज़ पर हस्ताक्षर और सत्यापन में महारत कैसे प्राप्त करें

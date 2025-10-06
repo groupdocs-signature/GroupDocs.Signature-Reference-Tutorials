@@ -4,8 +4,8 @@
 "title": "Jak odstranit textový podpis podle ID pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak odstranit textový podpis podle ID pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

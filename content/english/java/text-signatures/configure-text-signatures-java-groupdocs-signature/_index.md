@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature Java
 - Java text signature configuration
 - digital document signing in Java
-
+type: docs
 ---
-
-
 # How to Configure Text Signatures in Java Using GroupDocs.Signature: A Comprehensive Guide
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 PDF에서 텍스트 서명 검색을 구현하는 방법"
 "url": "/ko/java/search-verification/implement-search-text-signatures-groupdocs-java-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 PDF에서 텍스트 서명 검색을 구현하는 방법
 
 ## 소개

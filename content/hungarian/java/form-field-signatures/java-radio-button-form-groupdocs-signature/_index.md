@@ -4,8 +4,8 @@
 "title": "Java rádiógomb űrlapmező aláírásának megvalósítása a GroupDocs.Signature segítségével"
 "url": "/hu/java/form-field-signatures/java-radio-button-form-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java rádiógomb űrlapmező aláírásának megvalósítása a GroupDocs.Signature segítségével
 
 ## Bevezetés

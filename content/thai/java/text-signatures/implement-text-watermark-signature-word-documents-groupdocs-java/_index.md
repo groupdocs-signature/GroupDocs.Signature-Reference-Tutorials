@@ -4,8 +4,8 @@
 "title": "การนำลายเซ็นลายน้ำข้อความไปใช้งานในเอกสาร Word โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # การนำลายเซ็นลายน้ำข้อความไปใช้งานในเอกสาร Word โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## วิธีการเพิ่มลายเซ็นลายน้ำข้อความลงในเอกสาร Word ด้วย GroupDocs.Signature สำหรับ Java

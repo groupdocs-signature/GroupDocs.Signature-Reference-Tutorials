@@ -4,8 +4,8 @@
 "title": "Мастер-подписание документов Java с помощью штрихкодов GS1DotCode с использованием GroupDocs.Signature для Java"
 "url": "/ru/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Освоение подписывания документов на Java с использованием штрихкодов GS1DotCode и GroupDocs.Signature
 
 ## Введение

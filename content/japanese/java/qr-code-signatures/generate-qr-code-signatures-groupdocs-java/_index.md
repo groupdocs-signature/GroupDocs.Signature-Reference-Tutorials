@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for JavaでQRコード署名を生成する方法 - 総合ガイド"
 "url": "/ja/java/qr-code-signatures/generate-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for JavaでQRコード署名を生成する
 
 ## 導入

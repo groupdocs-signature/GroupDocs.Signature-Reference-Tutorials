@@ -4,8 +4,8 @@
 "title": "Πώς να αρχικοποιήσετε μια παρουσία υπογραφής σε Java χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αρχικοποιήσετε μια παρουσία υπογραφής σε Java χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

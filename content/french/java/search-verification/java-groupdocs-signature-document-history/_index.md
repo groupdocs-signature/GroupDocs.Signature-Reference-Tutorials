@@ -4,8 +4,8 @@
 "title": "Comment implémenter Java GroupDocs.Signature ? Récupérer et afficher l'historique des processus de documents"
 "url": "/fr/java/search-verification/java-groupdocs-signature-document-history/"
 "weight": 1
+type: docs
 ---
-
 # Comment implémenter Java GroupDocs.Signature : récupérer et afficher l'historique des processus de documents
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Teksthandtekeningen in Java verwijderen met GroupDocs.Signature"
 "url": "/nl/java/signature-management/delete-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Teksthandtekeningen in Java verwijderen met GroupDocs.Signature
 
 ## Invoering

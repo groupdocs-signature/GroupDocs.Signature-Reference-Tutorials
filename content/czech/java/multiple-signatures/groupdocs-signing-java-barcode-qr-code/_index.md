@@ -4,8 +4,8 @@
 "title": "Implementace podepisování čárových a QR kódů v Javě pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/java/multiple-signatures/groupdocs-signing-java-barcode-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Implementace podepisování čárových a QR kódů v Javě pomocí GroupDocs.Signature
 
 dnešní digitální krajině je zajištění integrity dokumentů zásadní. Ať už se jedná o správu právních smluv, faktur nebo štítků zásilek, zachování autenticity je nezbytné. **GroupDocs.Signature pro Javu** zjednodušuje tento proces tím, že umožňuje bezproblémovou integraci čárových a QR kódů do dokumentů. Tato komplexní příručka vás provede implementací podepisování čárových a QR kódů pomocí GroupDocs.Signature pro Javu.

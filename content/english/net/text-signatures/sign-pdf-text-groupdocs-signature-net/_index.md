@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["PDF Signatures"]
 tags: ["C#", "GroupDocs.Signature", "PDF", "Digital Signatures", ".NET"]
+type: docs
 ---
-
 # Add Text Signature to PDF C#: Complete Tutorial with GroupDocs.Signature .NET
 
 ## Introduction

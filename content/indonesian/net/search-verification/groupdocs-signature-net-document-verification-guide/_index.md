@@ -4,8 +4,8 @@
 "title": "Menguasai Verifikasi Dokumen dengan GroupDocs.Signature untuk .NET&#58; Panduan Lengkap"
 "url": "/id/net/search-verification/groupdocs-signature-net-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Verifikasi Dokumen dengan GroupDocs.Signature untuk .NET: Panduan Lengkap
 
 ## Perkenalan

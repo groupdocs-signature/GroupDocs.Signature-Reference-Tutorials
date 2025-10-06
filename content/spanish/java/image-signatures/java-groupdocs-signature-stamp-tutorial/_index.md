@@ -4,8 +4,8 @@
 "title": "Tutorial de firma de sello de Java&#58; Cómo firmar archivos PDF con la API GroupDocs.Signature"
 "url": "/es/java/image-signatures/java-groupdocs-signature-stamp-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Tutorial de firma de sello de Java: Firma de documentos PDF con la API GroupDocs.Signature
 
 En el panorama digital actual, la firma de documentos eficiente y segura es vital tanto para empresas como para particulares. Ya sea que autorice contratos o verifique documentos, garantizar la autenticidad digitalmente puede ahorrar tiempo y recursos. Este completo tutorial le guiará en el uso de la API GroupDocs.Signature para Java para firmar un documento PDF con una firma de sello personalizada. Siguiendo este proceso paso a paso, aprenderá a agregar líneas externas e internas con texto, estilos de fuente, colores y posicionamiento específicos.

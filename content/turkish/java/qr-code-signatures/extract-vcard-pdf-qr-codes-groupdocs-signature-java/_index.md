@@ -4,8 +4,8 @@
 "title": "Java için GroupDocs.Signature Kullanarak PDF QR Kodlarından VCard Çıkarma - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/qr-code-signatures/extract-vcard-pdf-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak PDF QR Kodlarından VCard Verilerini Çıkarma
 
 ## giriiş

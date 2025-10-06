@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile PDF'lerde Verimli Barkod İmza Yönetimi"
 "url": "/tr/net/barcode-signatures/groupdocs-signature-barcode-management-pdf/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile PDF'lerde Verimli Barkod İmza Yönetimi
 
 ## giriiş

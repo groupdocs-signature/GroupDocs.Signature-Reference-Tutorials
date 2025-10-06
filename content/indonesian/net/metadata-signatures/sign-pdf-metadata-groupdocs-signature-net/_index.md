@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen PDF dengan Metadata Menggunakan GroupDocs.Signature untuk .NET | Panduan Lengkap"
 "url": "/id/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF dengan Metadata Menggunakan GroupDocs.Signature untuk .NET
 
 Di dunia digital saat ini, pengelolaan dokumen yang efisien sangat penting bagi bisnis maupun individu. Menandatangani dan memverifikasi dokumen dengan aman menjadi krusial, terutama saat menangani kontrak atau catatan resmi. Panduan lengkap ini akan menunjukkan cara menggunakan GroupDocs.Signature untuk .NET untuk menandatangani dokumen PDF dengan tanda tangan metadata, yang akan meningkatkan integritas dokumen.

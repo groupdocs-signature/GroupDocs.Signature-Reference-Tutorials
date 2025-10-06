@@ -5,8 +5,8 @@
 "title": "Podepisování obrázků metadaty v C# .NET"
 "url": "/cs/net/document-signing/sign-image-with-metadata/"
 "weight": 10
+type: docs
 ---
-
 ## Zavedení
 
 Digitální podepisování obrázků pomocí metadat se stává stále důležitějším pro stanovení autenticity, vlastnictví a sledovatelnosti. GroupDocs.Signature pro .NET poskytuje výkonné a zároveň snadno použitelné řešení pro přidávání podpisů metadat k různým formátům obrázků. Tento tutoriál vás provede celým procesem podepisování obrázků metadaty pomocí jazyka C#.

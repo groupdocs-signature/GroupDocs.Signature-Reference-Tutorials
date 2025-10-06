@@ -4,8 +4,8 @@
 "title": "Làm chủ chữ ký và tối ưu hóa hình ảnh với GroupDocs.Signature cho Java"
 "url": "/vi/java/image-signatures/groupdocs-signature-java-image-optimization/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký hình ảnh và tối ưu hóa với GroupDocs.Signature cho Java
 
 Trong bối cảnh kỹ thuật số ngày nay, việc ký tài liệu một cách an toàn là điều cần thiết. Cho dù bạn là chuyên gia kinh doanh xác thực hợp đồng hay cá nhân bảo vệ hình ảnh, khả năng ký mạnh mẽ là vô cùng quan trọng. **GroupDocs.Signature cho Java** cung cấp các tính năng mạnh mẽ để tạo chữ ký mã QR và tối ưu hóa các tùy chọn lưu hình ảnh một cách liền mạch. Hướng dẫn này sẽ hướng dẫn bạn khai thác các chức năng này để quản lý tài liệu hiệu quả.

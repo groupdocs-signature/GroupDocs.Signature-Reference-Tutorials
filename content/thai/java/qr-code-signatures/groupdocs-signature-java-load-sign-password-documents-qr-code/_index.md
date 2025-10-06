@@ -4,8 +4,8 @@
 "title": "โหลดและลงนามเอกสารที่ป้องกันด้วยรหัสผ่านโดยใช้รหัส QR ใน Java ด้วย GroupDocs.Signature"
 "url": "/th/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # โหลดและลงนามเอกสารที่ป้องกันด้วยรหัสผ่านด้วยรหัส QR ใน Java
 
 ## วิธีการโหลดและลงนามในเอกสารที่ป้องกันด้วยรหัสผ่านโดยใช้ GroupDocs.Signature สำหรับ Java

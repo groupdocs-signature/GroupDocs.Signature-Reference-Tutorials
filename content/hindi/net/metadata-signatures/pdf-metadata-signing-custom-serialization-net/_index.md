@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके .NET में कस्टम सीरियलाइज़ेशन के साथ PDF मेटाडेटा पर हस्ताक्षर करना"
 "url": "/hi/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके कस्टम क्रमांकन के साथ PDF मेटाडेटा हस्ताक्षर को कार्यान्वित करना
 
 ## परिचय

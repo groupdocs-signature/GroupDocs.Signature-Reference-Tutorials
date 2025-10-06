@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用してドキュメントから画像署名を削除する方法"
 "url": "/ja/java/signature-management/delete-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用してドキュメントから画像署名を削除する方法
 
 ## 導入

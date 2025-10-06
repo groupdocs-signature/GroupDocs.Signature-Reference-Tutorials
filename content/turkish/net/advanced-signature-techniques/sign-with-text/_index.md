@@ -5,8 +5,8 @@
 "title": ".NET için GroupDocs.Signature ile Belgelere Metin İmzaları Ekleyin"
 "url": "/tr/net/advanced-signature-techniques/sign-with-text/"
 "weight": 17
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Belgelere Metin İmzaları Nasıl Eklenir?
 
 ## Giriş: Belge İmzalama Sürecinizi Modernize Edin

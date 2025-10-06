@@ -9,8 +9,8 @@ weight: 1
 url: "/net/digital-signatures/digital-signatures-groupdocs-signature-net/"
 categories: ["Digital Signatures", ".NET Development"]
 tags: ["GroupDocs", "Digital Certificates", "Document Security", "C# Programming"]
+type: docs
 ---
-
 # How to Implement Digital Signature .NET Solutions Using GroupDocs.Signature
 
 ## Why Digital Signatures Matter in Modern .NET Applications

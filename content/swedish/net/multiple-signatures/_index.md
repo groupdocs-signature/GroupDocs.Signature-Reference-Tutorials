@@ -3,8 +3,8 @@
 "title": "Handledningar för flera signaturer för GroupDocs.Signature .NET"
 "url": "/sv/net/multiple-signatures/"
 "weight": 10
+type: docs
 ---
-
 # Handledningar för flera signaturer för GroupDocs.Signature .NET
 
 Lär dig hur du skapar sofistikerade signeringsarbetsflöden med våra GroupDocs.Signature-handledningar för flera signaturer i .NET. Dessa omfattande guider visar hur du kombinerar olika signaturtyper i en enda process, implementerar ordnade signeringssekvenser, hanterar komplexa signaturarrangemang och arbetar med flersidiga dokument. Varje handledning ger detaljerade C#-kodexempel för avancerade signeringsscenarier, vilket hjälper dig att bygga robusta dokumentbehandlingsprogram som stöder komplexa signeringskrav för företags- och juridiska användningsområden.

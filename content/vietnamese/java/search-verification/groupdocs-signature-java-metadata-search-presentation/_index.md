@@ -4,8 +4,8 @@
 "title": "Tìm kiếm chữ ký siêu dữ liệu chính trong PowerPoint bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # Tìm kiếm chữ ký siêu dữ liệu chính trong PowerPoint bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

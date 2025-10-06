@@ -4,8 +4,8 @@
 "title": "إتقان اشتراكات الأحداث في توقيع المستندات باستخدام GroupDocs.Signature لـ .NET | دليل خطوة بخطوة"
 "url": "/ar/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # إتقان اشتراك الحدث في توقيع المستندات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Инициализация экземпляра подписи с помощью GroupDocs.Signature для .NET. Подробное руководство."
 "url": "/ru/net/getting-started/initialize-signature-instance-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Инициализация экземпляра подписи с помощью GroupDocs.Signature для .NET
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "GroupDocs による Java での Word メタデータ署名の保護 - 総合ガイド"
 "url": "/ja/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs を使用した Java での Word メタデータ署名の保護
 
 ## 導入

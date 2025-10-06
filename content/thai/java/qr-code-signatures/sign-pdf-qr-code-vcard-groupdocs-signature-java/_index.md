@@ -4,8 +4,8 @@
 "title": "ลงนามใน PDF ด้วย QR Code VCard โดยใช้ GroupDocs.Signature สำหรับ Java คำแนะนำทีละขั้นตอน"
 "url": "/th/java/qr-code-signatures/sign-pdf-qr-code-vcard-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีใช้ GroupDocs.Signature สำหรับ Java เพื่อลงนาม PDF ด้วยรหัส QR ที่มี VCard
 
 ## การแนะนำ

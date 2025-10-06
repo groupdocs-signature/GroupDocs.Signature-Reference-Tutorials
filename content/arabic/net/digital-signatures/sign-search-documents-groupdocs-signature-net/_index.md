@@ -4,8 +4,8 @@
 "title": "إتقان التوقيعات الرقمية في .NET - كيفية استخدام GroupDocs.Signature للتوقيع والبحث في المستندات"
 "url": "/ar/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # إتقان التوقيعات الرقمية في .NET: كيفية استخدام GroupDocs.Signature لتوقيع المستندات والبحث فيها
 
 ## مقدمة

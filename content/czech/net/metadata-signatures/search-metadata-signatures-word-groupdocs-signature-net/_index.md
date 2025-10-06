@@ -4,8 +4,8 @@
 "title": "Jak vyhledávat podpisy metadat v dokumentech Word pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/metadata-signatures/search-metadata-signatures-word-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak vyhledávat podpisy metadat v dokumentech Word pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

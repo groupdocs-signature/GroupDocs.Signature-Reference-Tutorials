@@ -4,8 +4,8 @@
 "title": "Vlastní serializace a vyhledávání metadat v .NET pomocí GroupDocs.Signature"
 "url": "/cs/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementace vlastní serializace a vyhledávání podpisů metadat pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

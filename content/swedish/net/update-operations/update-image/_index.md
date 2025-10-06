@@ -5,8 +5,8 @@
 "title": "Uppdatera bildsignaturer i dokument"
 "url": "/sv/net/update-operations/update-image/"
 "weight": 11
+type: docs
 ---
-
 ## Introduktion
 Digital dokumenthantering kräver robusta signaturfunktioner för att säkerställa äkthet och integritet. Bildsignaturer spelar en avgörande roll i detta ekosystem och tillhandahåller visuell verifiering och varumärkesbyggande element i dokument. GroupDocs.Signature för .NET erbjuder ett kraftfullt ramverk för utvecklare att implementera omfattande signaturfunktioner i sina .NET-applikationer, inklusive möjligheten att uppdatera befintliga bildsignaturer.
 

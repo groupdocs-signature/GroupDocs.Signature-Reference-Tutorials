@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามและแปลงงานนำเสนอด้วย GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/digital-signatures/sign-and-convert-presentations-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามและแปลงงานนำเสนอด้วย GroupDocs.Signature สำหรับ .NET: คู่มือที่ครอบคลุม
 
 ## การแนะนำ

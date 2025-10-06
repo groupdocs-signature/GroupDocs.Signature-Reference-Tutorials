@@ -4,8 +4,8 @@
 "title": "ค้นหาและแยกลายเซ็นฟิลด์ฟอร์มใน PDF โดยใช้ GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการค้นหาและแยกลายเซ็นฟิลด์ฟอร์มในเอกสาร PDF โดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

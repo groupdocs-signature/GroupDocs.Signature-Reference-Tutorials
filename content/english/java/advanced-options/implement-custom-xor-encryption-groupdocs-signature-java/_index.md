@@ -9,8 +9,8 @@ weight: 1
 url: "/java/advanced-options/implement-custom-xor-encryption-groupdocs-signature-java/"
 categories: ["Java Security"]
 tags: ["encryption", "java", "security", "groupdocs", "data-protection"]
+type: docs
 ---
-
 # XOR Encryption Java - Simple Custom Implementation with GroupDocs.Signature
 
 ## Introduction

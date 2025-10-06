@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 签名二维码文档完整指南"
 "url": "/zh/java/qr-code-signatures/sign-documents-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 签署二维码文档：综合指南
 
 在当今的数字世界中，文档安全至关重要。无论您是商务人士还是处理敏感信息的个人，确保文档的完整性和真实性都至关重要。 **GroupDocs.Signature for Java**—一个强大的库—支持使用各种方法（包括二维码）对文档进行签名。本指南将指导您从 Azure Blob 存储下载文档，并使用 GroupDocs.Signature 对其进行二维码签名。

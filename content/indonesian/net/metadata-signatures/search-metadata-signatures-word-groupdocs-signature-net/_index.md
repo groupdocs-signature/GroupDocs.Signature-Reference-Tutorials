@@ -4,8 +4,8 @@
 "title": "Cara Mencari Tanda Tangan Metadata di Dokumen Word Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/metadata-signatures/search-metadata-signatures-word-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mencari Tanda Tangan Metadata di Dokumen Word Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

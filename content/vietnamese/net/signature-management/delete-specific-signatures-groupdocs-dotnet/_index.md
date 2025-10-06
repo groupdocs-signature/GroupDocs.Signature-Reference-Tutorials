@@ -4,8 +4,8 @@
 "title": "Cách xóa chữ ký cụ thể trong tài liệu bằng GroupDocs.Signature cho .NET | Hướng dẫn quản lý chữ ký"
 "url": "/vi/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa chữ ký cụ thể trong tài liệu bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

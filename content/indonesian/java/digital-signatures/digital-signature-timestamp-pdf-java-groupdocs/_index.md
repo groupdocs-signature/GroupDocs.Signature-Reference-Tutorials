@@ -4,8 +4,8 @@
 "title": "Menerapkan Tanda Tangan Digital dengan Stempel Waktu pada PDF menggunakan Java dan GroupDocs.Signature"
 "url": "/id/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Tanda Tangan Digital dengan Stempel Waktu pada PDF Menggunakan Java dan GroupDocs.Signature
 
 ## Perkenalan

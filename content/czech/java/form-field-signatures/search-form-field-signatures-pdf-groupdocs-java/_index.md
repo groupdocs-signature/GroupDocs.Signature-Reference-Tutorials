@@ -4,8 +4,8 @@
 "title": "Vyhledávání a extrakce podpisů polí formulářů v PDF pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/form-field-signatures/search-form-field-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak vyhledávat a extrahovat podpisy polí formuláře v dokumentech PDF pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

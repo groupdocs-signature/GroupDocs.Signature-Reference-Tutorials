@@ -4,8 +4,8 @@
 "title": "Extraire les signatures de codes QR avec les données d'adresse à l'aide de GroupDocs.Signature pour .NET | Automatisation de la signature numérique"
 "url": "/fr/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # Extraction de signatures de codes QR avec des données d'adresse à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

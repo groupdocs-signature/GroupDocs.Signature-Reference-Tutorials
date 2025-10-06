@@ -4,8 +4,8 @@
 "title": "การนำลายเซ็น PDF ไปใช้งานกับข้อความและช่องกาเครื่องหมายโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # การนำลายเซ็น PDF ไปใช้งานกับข้อความและช่องกาเครื่องหมายโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## ลายเซ็นช่องฟอร์ม

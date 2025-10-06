@@ -4,8 +4,8 @@
 "title": "掌握 Java 中的二维码搜索——GroupDocs.Signature 使用完整指南"
 "url": "/zh/java/search-verification/mastering-qr-code-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 Java 中的二维码搜索：使用 GroupDocs.Signature 的完整指南
 
 ## 介绍

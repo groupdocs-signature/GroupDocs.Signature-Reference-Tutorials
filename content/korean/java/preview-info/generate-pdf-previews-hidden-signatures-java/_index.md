@@ -4,8 +4,8 @@
 "title": "Java와 GroupDocs.Signature를 사용하여 숨겨진 서명이 있는 PDF 미리보기 생성"
 "url": "/ko/java/preview-info/generate-pdf-previews-hidden-signatures-java/"
 "weight": 1
+type: docs
 ---
-
 # Java와 GroupDocs.Signature를 사용하여 숨겨진 서명이 있는 PDF 미리보기 생성
 
 ## 소개

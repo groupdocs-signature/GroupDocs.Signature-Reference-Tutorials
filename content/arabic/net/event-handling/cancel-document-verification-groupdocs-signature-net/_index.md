@@ -4,8 +4,8 @@
 "title": "كيفية إلغاء التحقق من المستندات باستخدام GroupDocs.Signature لـ .NET - دليل التعامل مع الأحداث"
 "url": "/ar/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية إلغاء التحقق من المستندات باستخدام GroupDocs.Signature لـ .NET: دليل التعامل مع الأحداث
 
 ## مقدمة

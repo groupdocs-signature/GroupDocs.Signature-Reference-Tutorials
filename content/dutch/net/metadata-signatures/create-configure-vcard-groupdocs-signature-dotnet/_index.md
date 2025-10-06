@@ -4,8 +4,8 @@
 "title": "VCard-objecten maken en configureren met GroupDocs.Signature voor .NET&#58; een handleiding voor ontwikkelaars"
 "url": "/nl/net/metadata-signatures/create-configure-vcard-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # VCard-objecten maken en configureren met GroupDocs.Signature voor .NET: een handleiding voor ontwikkelaars
 
 ## Invoering

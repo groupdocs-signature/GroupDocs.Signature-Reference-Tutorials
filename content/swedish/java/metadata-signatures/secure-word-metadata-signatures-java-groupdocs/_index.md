@@ -4,8 +4,8 @@
 "title": "Säkra signaturer för ordmetadata i Java med GroupDocs – en omfattande guide"
 "url": "/sv/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Säkra signaturer för Word-metadata i Java med GroupDocs
 
 ## Introduktion

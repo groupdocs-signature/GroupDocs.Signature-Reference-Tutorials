@@ -4,8 +4,8 @@
 "title": "Optimaliseer documentzoekopdrachten met GroupDocs.Signature voor .NET en implementeer voortgangsgebeurtenishandlers"
 "url": "/nl/net/search-verification/groupdocs-signature-net-progress-event-handler/"
 "weight": 1
+type: docs
 ---
-
 # Optimaliseer documentzoekopdrachten met GroupDocs.Signature voor .NET: implementeer voortgangsgebeurtenishandlers
 
 ## Invoering

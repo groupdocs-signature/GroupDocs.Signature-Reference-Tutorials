@@ -8,10 +8,8 @@ keywords:
 - document preview generation
 - GroupDocs.Signature for Java
 - Java PDF preview
-
+type: docs
 ---
-
-
 # Implementing Document Preview Generation in Java with GroupDocs.Signature
 
 ## Introduction

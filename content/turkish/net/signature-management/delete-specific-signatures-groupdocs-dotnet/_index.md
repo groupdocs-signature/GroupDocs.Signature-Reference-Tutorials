@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Belgelerdeki Belirli İmzalar Nasıl Silinir | İmza Yönetimi Eğitimi"
 "url": "/tr/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Belgelerdeki Belirli İmzalar Nasıl Silinir?
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Загрузка и подписание документов в Java с помощью GroupDocs.Signature&#58; Подробное руководство"
 "url": "/ru/java/document-loading-saving/load-sign-document-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Загрузка и подписание документов с помощью GroupDocs.Signature в Java
 
 ## Введение

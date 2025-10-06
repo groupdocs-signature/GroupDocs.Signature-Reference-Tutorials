@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["csharp", "metadata", "image-signing", "groupdocs", "authentication"]
+type: docs
 ---
-
 ## Introduction
 
 Ever wondered how to prove your images are authentic in today's digital world? When you're dealing with important visual content—whether it's medical imaging, legal documentation, or creative work—you need a reliable way to embed authorship and authenticity information directly into your image files.

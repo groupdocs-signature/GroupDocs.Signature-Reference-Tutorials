@@ -4,8 +4,8 @@
 "title": "Εφαρμογή υπογραφών υδατογραφήματος κειμένου χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε μια υπογραφή υδατογραφήματος κειμένου χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

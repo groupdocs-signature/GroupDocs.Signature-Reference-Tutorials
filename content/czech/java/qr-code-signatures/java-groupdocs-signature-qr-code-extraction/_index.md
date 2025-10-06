@@ -4,8 +4,8 @@
 "title": "Extrakce podpisů QR kódů v Javě pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/java/qr-code-signatures/java-groupdocs-signature-qr-code-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Implementace extrakce podpisů QR kódů v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

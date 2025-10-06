@@ -4,8 +4,8 @@
 "title": "Como implementar opções de assinatura de carimbo usando GroupDocs.Signature para .NET - Um guia completo"
 "url": "/pt/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar opções de assinatura de carimbo usando GroupDocs.Signature para .NET
 
 ## Introdução

@@ -4,8 +4,8 @@
 "title": "Как удалить определённые подписи в документах с помощью GroupDocs.Signature для .NET | Учебное пособие по управлению подписями"
 "url": "/ru/net/signature-management/delete-specific-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Как удалить определенные подписи в документах с помощью GroupDocs.Signature для .NET
 
 ## Введение

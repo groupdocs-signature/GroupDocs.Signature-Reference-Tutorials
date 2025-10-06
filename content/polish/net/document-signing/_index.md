@@ -5,8 +5,8 @@
 "title": "Podpisywanie dokumentów za pomocą metadanych w .NET"
 "url": "/pl/net/document-signing/"
 "weight": 24
+type: docs
 ---
-
 ## Wstęp
 
 dzisiejszym cyfrowym świecie zapewnienie autentyczności dokumentów, śledzenia ich pochodzenia i integralności stało się kluczowe dla firm i organizacji. Podpisy metadanych to skuteczny, a zarazem dyskretny sposób na osadzanie informacji identyfikacyjnych bezpośrednio w plikach dokumentów, zwiększając bezpieczeństwo bez zmiany ich wyglądu.

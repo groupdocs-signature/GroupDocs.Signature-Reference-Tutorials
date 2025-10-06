@@ -5,8 +5,8 @@
 "title": "كيفية إضافة توقيعات الطوابع إلى المستندات باستخدام GroupDocs.Signature"
 "url": "/ar/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # كيفية إضافة توقيعات الطوابع الاحترافية إلى مستندات .NET الخاصة بك
 
 ## ما الذي يمكنك تحقيقه باستخدام توقيعات الطوابع؟

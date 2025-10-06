@@ -4,8 +4,8 @@
 "title": "Podpisuj dokumenty PDF kodem kreskowym za pomocą GroupDocs.Signature dla Java™ – kompleksowy przewodnik"
 "url": "/pl/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Podpisywanie dokumentów PDF kodem kreskowym za pomocą GroupDocs.Signature dla Java: kompleksowy przewodnik
 
 ## Wstęp

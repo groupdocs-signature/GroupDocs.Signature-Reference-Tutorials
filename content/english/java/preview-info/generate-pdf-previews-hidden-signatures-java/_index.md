@@ -8,10 +8,8 @@ keywords:
 - generate PDF previews with hidden signatures
 - GroupDocs.Signature for Java
 - Java document management
-
+type: docs
 ---
-
-
 # Generate PDF Previews with Hidden Signatures Using Java and GroupDocs.Signature
 
 ## Introduction

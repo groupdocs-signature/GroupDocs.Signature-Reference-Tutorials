@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 문서 서명에서 진행 이벤트 처리 구현"
 "url": "/ko/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 문서 서명에서 진행 이벤트 처리 구현
 
 ## 소개

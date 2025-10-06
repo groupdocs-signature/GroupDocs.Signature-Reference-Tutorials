@@ -5,8 +5,8 @@
 "title": "Cómo eliminar fácilmente varias firmas de un documento"
 "url": "/es/net/delete-operations/delete-multiple-signatures/"
 "weight": 15
+type: docs
 ---
-
 # Cómo eliminar varias firmas de documentos en .NET
 
 ## Por qué es importante gestionar las firmas de los documentos

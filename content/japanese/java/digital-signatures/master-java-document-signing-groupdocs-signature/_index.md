@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して GS1DotCode バーコードによる Java ドキュメント署名をマスターする"
 "url": "/ja/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用して GS1DotCode バーコードで Java でドキュメント署名をマスターする
 
 ## 導入

@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["signature-verification", "document-security", "dotnet", "pdf-validation", "certificate-authentication"]
+type: docs
 ---
-
 ## Introduction
 
 Ever received a digitally signed contract and wondered, "Is this actually legit?" You're not alone. In today's digital-first world, verifying the authenticity of signed documents isn't just a nice-to-have—it's absolutely critical for protecting your business from fraud, tampering, and legal disputes.

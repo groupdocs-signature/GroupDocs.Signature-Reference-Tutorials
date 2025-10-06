@@ -4,8 +4,8 @@
 "title": "Πώς να αναζητήσετε και να επαληθεύσετε υπογραφές μεταδεδομένων PDF χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/search-verification/groupdocs-signature-java-search-pdf-metadata-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την αναζήτηση υπογραφής μεταδεδομένων PDF χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

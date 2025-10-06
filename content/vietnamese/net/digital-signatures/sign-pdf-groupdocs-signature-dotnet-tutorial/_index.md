@@ -4,8 +4,8 @@
 "title": "Ký PDF dễ dàng - Hướng dẫn từng bước sử dụng GroupDocs.Signature cho .NET"
 "url": "/vi/net/digital-signatures/sign-pdf-groupdocs-signature-dotnet-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

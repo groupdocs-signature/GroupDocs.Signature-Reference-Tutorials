@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Management"]
 tags: ["text-signatures", "signature-updates", "document-automation", "dotnet"]
+type: docs
 ---
-
 ## Introduction
 
 Ever needed to change someone's name on a signed document? Or maybe you're building an approval workflow where signatures need updating based on role changes? You're not alone. Updating text signatures programmatically is one of those tasks that sounds simple but can get tricky fast—especially when you're dealing with multiple document formats and need to maintain document integrity.

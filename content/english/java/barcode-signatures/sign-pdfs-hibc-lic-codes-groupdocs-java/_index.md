@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Signing", "Healthcare Integration"]
 tags: ["java", "pdf-signing", "hibc", "healthcare", "barcode", "pharmaceutical"]
+type: docs
 ---
-
 # HIBC Barcode PDF Signing with Java - Complete Healthcare Document Solution
 
 If you're developing pharmaceutical or healthcare logistics software, you've probably faced the challenge of tracking documents through complex supply chains. Paper trails fail, manual signatures get lost, and compliance audits become nightmares. That's where High-Information Barcode (HIBC) signatures come in—and this guide shows you exactly how to implement them in Java.

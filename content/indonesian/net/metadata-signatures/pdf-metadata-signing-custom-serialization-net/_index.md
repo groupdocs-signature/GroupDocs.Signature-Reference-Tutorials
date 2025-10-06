@@ -4,8 +4,8 @@
 "title": "Penandatanganan Metadata PDF dengan Serialisasi Kustom di .NET menggunakan GroupDocs.Signature"
 "url": "/id/net/metadata-signatures/pdf-metadata-signing-custom-serialization-net/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Penandatanganan Metadata PDF dengan Serialisasi Kustom Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

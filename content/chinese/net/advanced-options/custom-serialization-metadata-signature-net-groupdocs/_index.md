@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中进行自定义序列化和元数据搜索"
 "url": "/zh/net/advanced-options/custom-serialization-metadata-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 实现自定义序列化和元数据签名搜索
 
 ## 介绍

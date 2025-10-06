@@ -4,8 +4,8 @@
 "title": "Implementace vlastních metadat v Javě pomocí GroupDocs.Signature pro vylepšené podepisování dokumentů"
 "url": "/cs/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementace vlastních metadat v Javě pomocí GroupDocs.Signature
 
 ## Zavedení

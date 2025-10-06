@@ -4,8 +4,8 @@
 "title": "Automatize a extração de metadados em planilhas usando GroupDocs.Signature para .NET"
 "url": "/pt/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Automatizando a extração de metadados em planilhas com GroupDocs.Signature para .NET
 
 ## Introdução

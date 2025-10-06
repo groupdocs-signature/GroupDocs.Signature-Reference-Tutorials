@@ -4,8 +4,8 @@
 "title": "Implementar una firma PDF con texto y casilla de verificación usando GroupDocs.Signature para .NET"
 "url": "/es/net/form-field-signatures/groupdocs-signature-pdf-text-checkbox-net/"
 "weight": 1
+type: docs
 ---
-
 # Implementar una firma PDF con texto y casilla de verificación usando GroupDocs.Signature para .NET
 
 ## Firmas de campos de formulario

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java를 사용하여 문서 처리 기록 검색&#58; 종합 가이드"
 "url": "/ko/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 문서 처리 기록 검색
 
 ## 소개

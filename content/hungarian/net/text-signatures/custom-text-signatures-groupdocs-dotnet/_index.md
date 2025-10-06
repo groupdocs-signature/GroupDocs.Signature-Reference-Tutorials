@@ -4,8 +4,8 @@
 "title": "Egyéni szöveges aláírások megvalósítása .NET-ben a GroupDocs.Signature segítségével – Átfogó útmutató"
 "url": "/hu/net/text-signatures/custom-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Egyéni szöveges aláírások megvalósítása .NET-ben a GroupDocs.Signature segítségével
 
 A mai digitális korban kulcsfontosságú a dokumentumok hitelességének és integritásának biztosítása. Legyen szó szerződésekről, megállapodásokról vagy hivatalos levelekről, az aláírás mindent megváltoztathat. Ez az átfogó útmutató bemutatja, hogyan valósíthat meg testreszabható szöveges aláírásokat a következők használatával: **GroupDocs.Signature .NET-hez**, lehetővé téve a dokumentumkezelési munkafolyamatok precíz és stílusos fejlesztését.

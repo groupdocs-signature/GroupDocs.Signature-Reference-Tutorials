@@ -4,8 +4,8 @@
 "title": "Hoe u documentverificatie kunt annuleren met behulp van GroupDocs.Signature voor .NET - Handleiding voor gebeurtenisafhandeling"
 "url": "/nl/net/event-handling/cancel-document-verification-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Documentverificatie annuleren met GroupDocs.Signature voor .NET: handleiding voor gebeurtenisafhandeling
 
 ## Invoering

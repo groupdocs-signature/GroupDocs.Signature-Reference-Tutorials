@@ -4,8 +4,8 @@
 "title": "Java के लिए GroupDocs.Signature का उपयोग करके PDF मेटाडेटा हस्ताक्षरों को कैसे खोजें और सत्यापित करें"
 "url": "/hi/java/search-verification/groupdocs-signature-java-search-pdf-metadata-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature का उपयोग करके PDF मेटाडेटा हस्ताक्षर खोज को कैसे कार्यान्वित करें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 高级指南掌握 .NET 中的自定义数据序列化"
 "url": "/zh/net/advanced-options/master-custom-data-serialization-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 掌握 .NET 中的自定义数据序列化
 ## 介绍
 在数字文档处理领域，通过精确的序列化来确保数据完整性至关重要。本高级指南探讨了如何使用 GroupDocs.Signature for .NET 中的属性实现自定义数据序列化——这是一个强大的解决方案，可简化向文档添加签名的过程。通过利用带有自定义属性的特定序列化规则，您可以简化工作流程并增强数据安全性。

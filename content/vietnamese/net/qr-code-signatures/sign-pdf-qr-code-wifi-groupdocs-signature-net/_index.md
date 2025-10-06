@@ -4,8 +4,8 @@
 "title": "Cách ký PDF bằng mã QR nhúng thông tin WiFi bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/qr-code-signatures/sign-pdf-qr-code-wifi-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký PDF bằng mã QR nhúng thông tin WiFi bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

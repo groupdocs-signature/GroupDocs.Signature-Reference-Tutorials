@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 掌握数字文档搜索——综合指南"
 "url": "/zh/net/search-verification/master-digital-document-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 掌握数字文档搜索
 
 在文档中搜索数字签名可能颇具挑战性，尤其是在处理受保护的文件时。GroupDocs.Signature for .NET 通过提供强大的异常处理机制简化了此过程。本指南将指导您如何使用这个强大的库在 PDF 中搜索数字签名。

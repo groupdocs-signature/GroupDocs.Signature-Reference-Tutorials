@@ -4,8 +4,8 @@
 "title": "Teksthandtekeningen in PDF's bijwerken met GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/signature-management/update-text-signatures-pdf-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Teksthandtekeningen in PDF's bijwerken met GroupDocs.Signature voor Java
 
 ## Invoering

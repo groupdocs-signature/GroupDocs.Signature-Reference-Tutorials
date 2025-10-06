@@ -5,8 +5,8 @@
 "title": "更新文档中的条形码签名"
 "url": "/zh/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## 介绍
 条形码签名广泛用于数字文档工作流程，用于对结构化数据进行编码，从而实现高效的跟踪、识别和验证。GroupDocs.Signature for .NET 是一款全面的文档签名解决方案，可帮助开发人员将高级签名功能集成到其应用程序中，包括更新文档中现有条形码签名的功能。
 

@@ -4,8 +4,8 @@
 "title": "Vonalkód-aláírások ellenőrzése Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan implementálható a Verify vonalkód-aláírások ellenőrzése a GroupDocs.Signature for Java segítségével?
 
 ## Bevezetés

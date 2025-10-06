@@ -4,8 +4,8 @@
 "title": "Как подписывать PDF-файлы текстовыми наклейками с помощью GroupDocs.Signature для .NET | Пошаговое руководство"
 "url": "/ru/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать PDF-документ текстовой наклейкой с помощью GroupDocs.Signature для .NET
 
 ## Введение

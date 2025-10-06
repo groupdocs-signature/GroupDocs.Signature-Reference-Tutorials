@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature™ 上級ガイドを使用して .NET でのカスタム データ シリアル化をマスターする"
 "url": "/ja/net/advanced-options/master-custom-data-serialization-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature を使用した .NET でのカスタム データ シリアル化の習得
 ## 導入
 デジタルドキュメント処理においては、正確なシリアル化によるデータ整合性の確保が不可欠です。この上級ガイドでは、GroupDocs.Signature for .NETの属性を用いて、カスタムデータシリアル化を実装する方法を解説します。GroupDocs.Signature for .NETは、ドキュメントへの署名追加を簡素化する堅牢なソリューションです。カスタム属性を用いた特定のシリアル化ルールを活用することで、ワークフローを効率化し、データセキュリティを強化できます。

@@ -4,8 +4,8 @@
 "title": "Πώς να αφαιρέσετε υπογραφές κωδικού QR από έγγραφα χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/signature-management/delete-qr-code-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αφαιρέσετε υπογραφές κωδικού QR από έγγραφα χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

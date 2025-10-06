@@ -4,8 +4,8 @@
 "title": "Menandatangani PDF dengan Kode QR dan Metadata Peristiwa Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Tandatangani PDF dengan Kode QR dan Metadata Peristiwa menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

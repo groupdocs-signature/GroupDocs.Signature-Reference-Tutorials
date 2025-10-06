@@ -4,8 +4,8 @@
 "title": "Jak lokálně podepisovat dokumenty pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/digital-signatures/sign-documents-locally-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak lokálně podepisovat dokumenty pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

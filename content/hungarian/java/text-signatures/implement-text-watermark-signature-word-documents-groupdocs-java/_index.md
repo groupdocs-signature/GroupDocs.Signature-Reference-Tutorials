@@ -4,8 +4,8 @@
 "title": "Szöveges vízjel aláírások megvalósítása Word dokumentumokban a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/text-signatures/implement-text-watermark-signature-word-documents-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Szöveges vízjel aláírások megvalósítása Word dokumentumokban a GroupDocs.Signature for Java használatával
 
 ## Hogyan adhatunk hozzá szöveges vízjel aláírásokat Word dokumentumokhoz a GroupDocs.Signature for Java segítségével?

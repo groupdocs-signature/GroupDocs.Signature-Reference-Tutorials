@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Java'da PDF İmzalamayı Uygulama Kapsamlı Bir Kılavuz"
 "url": "/tr/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java'da PDF İmzalamayı Uygulama
 
 ## Java için GroupDocs.Signature'ın Gücünü Açığa Çıkarın: Sorunsuz PDF Belge İmzalama

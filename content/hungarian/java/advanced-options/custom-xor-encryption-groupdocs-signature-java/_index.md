@@ -4,8 +4,8 @@
 "title": "Egyéni XOR titkosítás a GroupDocs.Signature for Java segítségével – Átfogó útmutató"
 "url": "/hu/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Átfogó útmutató az egyéni XOR titkosítás megvalósításához a GroupDocs.Signature for Java segítségével
 
 ## Bevezetés

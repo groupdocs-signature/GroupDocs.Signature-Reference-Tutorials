@@ -4,8 +4,8 @@
 "title": "Tìm kiếm chữ ký số chuyên nghiệp trong Java bằng GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/java/search-verification/mastering-digital-signature-searches-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Tìm kiếm chữ ký số chuyên nghiệp trong Java bằng GroupDocs.Signature: Hướng dẫn toàn diện
 
 **Khám phá sức mạnh của việc tìm kiếm chữ ký số với GroupDocs.Signature cho Java!**

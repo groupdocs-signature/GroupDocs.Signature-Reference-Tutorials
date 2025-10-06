@@ -4,8 +4,8 @@
 "title": "मास्टर ग्रुपडॉक्स.जावा के लिए हस्ताक्षर कुशल क्यूआर कोड हस्ताक्षर खोज और ईमेल निष्कर्षण"
 "url": "/hi/java/search-verification/groupdocs-signature-java-qr-code-search-email-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature में महारत हासिल करना: QR कोड हस्ताक्षर खोज और ईमेल निष्कर्षण
 
 ## परिचय

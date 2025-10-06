@@ -4,8 +4,8 @@
 "title": "GroupDocs में फ़ाइल प्रकार के अनुसार दस्तावेज़ कैसे लोड करें. .NET के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature में फ़ाइल प्रकार के अनुसार दस्तावेज़ कैसे लोड करें
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Generowanie podglądów stron PDF za pomocą GroupDocs.Signature dla platformy .NET – kompleksowy przewodnik"
 "url": "/pl/net/preview-info/generate-pdf-page-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Generowanie podglądów stron PDF za pomocą GroupDocs.Signature dla .NET: kompleksowy przewodnik
 
 ## Wstęp

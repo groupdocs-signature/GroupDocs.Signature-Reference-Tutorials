@@ -4,8 +4,8 @@
 "title": "Master GroupDocs.Signature لتوقيع المستندات باستخدام صور Base64"
 "url": "/ar/java/image-signatures/groupdocs-signature-java-base64-image/"
 "weight": 1
+type: docs
 ---
-
 # توقيع المستند الرئيسي باستخدام GroupDocs.Signature لـ Java باستخدام الصور المشفرة بتنسيق Base64
 
 ## مقدمة

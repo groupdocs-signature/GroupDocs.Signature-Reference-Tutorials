@@ -4,8 +4,8 @@
 "title": "Pencarian Kode Batang & Kode QR Arsip TAR Master dengan GroupDocs.Signature untuk Java"
 "url": "/id/java/search-verification/efficient-tar-archive-barcode-qr-code-searches-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Pencarian Kode Batang & Kode QR Arsip TAR dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

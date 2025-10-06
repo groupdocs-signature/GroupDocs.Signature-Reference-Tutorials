@@ -4,8 +4,8 @@
 "title": "PDF aláírása metaadatokkal a GroupDocs.Signature for Java használatával"
 "url": "/hu/java/metadata-signatures/sign-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # PDF aláírása metaadatokkal a GroupDocs.Signature for Java használatával
 
 A mai digitális környezetben a dokumentumok integritásának és hitelességének biztosítása kulcsfontosságú. Ha olyan PDF-ekkel dolgozik, amelyek aláíráson keresztüli biztonsági réteget igényelnek, ez az oktatóanyag végigvezeti Önt egy PDF-dokumentum aláírásán olyan metaadatokkal, mint a szerző neve, a létrehozási dátum, a dokumentum azonosítója és az aláírás azonosítója a GroupDocs.Signature for Java segítségével.

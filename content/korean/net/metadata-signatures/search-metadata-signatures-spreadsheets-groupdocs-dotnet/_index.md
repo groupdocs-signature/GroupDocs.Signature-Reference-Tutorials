@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 스프레드시트에서 메타데이터 서명을 검색하는 방법"
 "url": "/ko/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 스프레드시트에서 메타데이터 서명을 검색하는 방법
 
 ## 소개

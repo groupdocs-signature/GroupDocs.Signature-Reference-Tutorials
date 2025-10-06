@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["form-fields", "pdf-extraction", "csharp", "document-automation"]
+type: docs
 ---
-
 ## Introduction
 
 Ever needed to extract data from hundreds of PDF forms automatically? Or maybe you're building a document management system that needs to read form field values without manual input. If you're working with documents that contain form fields—like registration forms, surveys, or contracts—you'll quickly realize that manually processing these forms doesn't scale.

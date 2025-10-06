@@ -4,8 +4,8 @@
 "title": "Hur man implementerar streckkodssignatursökning i Java med GroupDocs.Signature"
 "url": "/sv/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar streckkodssignatursökning i Java med GroupDocs.Signature
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "Extrakce metadat z tabulky pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Extrakce metadat tabulky pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

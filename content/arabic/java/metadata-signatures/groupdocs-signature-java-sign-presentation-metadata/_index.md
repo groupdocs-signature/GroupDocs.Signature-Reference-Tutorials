@@ -4,8 +4,8 @@
 "title": "كيفية توقيع مستندات العرض التقديمي باستخدام البيانات الوصفية باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # دليل شامل لتوقيع مستندات العرض التقديمي باستخدام البيانات الوصفية باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

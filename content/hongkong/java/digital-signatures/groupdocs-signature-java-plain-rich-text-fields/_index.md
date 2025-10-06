@@ -4,8 +4,8 @@
 "title": "掌握 Java 文件簽章－使用 GroupDocs.Signature 實作純文字和富文本字段"
 "url": "/zh-hant/java/digital-signatures/groupdocs-signature-java-plain-rich-text-fields/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 Java 中的文件簽章：使用 GroupDocs.Signature 實作純文字和富文本字段
 
 歡迎閱讀關於槓桿的綜合指南 **GroupDocs.Signature for Java** 使用純文字和富文本欄位簽署文件。無論您是要實現合約審批自動化還是簡化工作流程，本教學都能幫助您有效率地實現這些功能。

@@ -4,8 +4,8 @@
 "title": "Metaadatok kinyerésének automatizálása táblázatokban a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/metadata-signatures/automate-metadata-extraction-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Metaadatok kinyerésének automatizálása táblázatokban a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

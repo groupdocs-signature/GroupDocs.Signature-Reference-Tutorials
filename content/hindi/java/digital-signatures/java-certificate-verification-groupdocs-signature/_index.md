@@ -4,8 +4,8 @@
 "title": "सुरक्षित दस्तावेज़ प्रमाणीकरण के लिए GroupDocs.Signature का उपयोग करते हुए Java प्रमाणपत्र सत्यापन मार्गदर्शिका"
 "url": "/hi/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Java के लिए GroupDocs.Signature के साथ Java प्रमाणपत्र सत्यापन का कार्यान्वयन
 
 ## परिचय

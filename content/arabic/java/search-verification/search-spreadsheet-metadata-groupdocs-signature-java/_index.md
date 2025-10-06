@@ -4,8 +4,8 @@
 "title": "كيفية البحث عن بيانات تعريف جدول البيانات باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية البحث عن بيانات تعريف جدول البيانات باستخدام GroupDocs.Signature لـ Java: دليل شامل
 
 ## مقدمة

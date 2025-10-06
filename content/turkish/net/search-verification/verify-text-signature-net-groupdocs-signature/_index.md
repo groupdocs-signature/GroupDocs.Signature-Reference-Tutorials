@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak .NET'te Metin İmzaları Nasıl Doğrulanır? Kapsamlı Bir Kılavuz"
 "url": "/tr/net/search-verification/verify-text-signature-net-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak .NET'te Metin İmzasını Doğrulama Nasıl Uygulanır?
 
 ## giriiş

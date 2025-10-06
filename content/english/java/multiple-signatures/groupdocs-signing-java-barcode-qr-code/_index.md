@@ -8,10 +8,8 @@ keywords:
 - GroupDocs Signature for Java
 - Barcode signing in Java
 - QR Code signing with GroupDocs
-
+type: docs
 ---
-
-
 # Implementing Barcode & QR Code Signing in Java with GroupDocs.Signature
 
 In today's digital landscape, ensuring document integrity is vital. Whether managing legal contracts, invoices, or shipment labels, maintaining authenticity is essential. **GroupDocs.Signature for Java** streamlines this process by enabling seamless barcode and QR code integration into documents. This comprehensive guide will walk you through implementing barcode and QR code signing using GroupDocs.Signature for Java.

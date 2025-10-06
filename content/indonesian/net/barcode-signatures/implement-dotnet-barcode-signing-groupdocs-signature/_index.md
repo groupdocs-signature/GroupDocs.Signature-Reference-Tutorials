@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Penandatanganan Kode Batang .NET dengan GroupDocs.Signature&#58; Panduan Lengkap untuk Pengembang"
 "url": "/id/net/barcode-signatures/implement-dotnet-barcode-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Penandatanganan Kode Batang .NET dengan GroupDocs.Signature: Panduan Lengkap untuk Pengembang
 
 ## Perkenalan

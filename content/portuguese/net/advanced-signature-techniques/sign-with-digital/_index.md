@@ -5,8 +5,8 @@
 "title": "Proteja seus documentos .NET com assinaturas digitais | Guia completo"
 "url": "/pt/net/advanced-signature-techniques/sign-with-digital/"
 "weight": 12
+type: docs
 ---
-
 ## Por que as assinaturas digitais são importantes no gerenciamento moderno de documentos
 
 No mundo digital de hoje, garantir a autenticidade e a integridade dos seus documentos eletrônicos não é apenas uma boa prática, é essencial. As assinaturas digitais fornecem essa camada crucial de segurança, permitindo que os destinatários saibam que seu documento é legítimo e não foi adulterado desde a assinatura.

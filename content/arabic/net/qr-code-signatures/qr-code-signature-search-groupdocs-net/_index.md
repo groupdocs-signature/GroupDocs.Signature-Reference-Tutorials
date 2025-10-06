@@ -4,8 +4,8 @@
 "title": "كيفية البحث عن توقيعات رمز الاستجابة السريعة في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/qr-code-signatures/qr-code-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ البحث عن توقيعات رمز الاستجابة السريعة (QR Code) باستخدام بيانات الحدث باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

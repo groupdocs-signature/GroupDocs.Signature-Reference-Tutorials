@@ -4,8 +4,8 @@
 "title": "Assine e converta planilhas em PDF com eficiência usando o GroupDocs.Signature para .NET"
 "url": "/pt/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Assine e converta planilhas em PDF com eficiência usando o GroupDocs.Signature para .NET
 
 ## Introdução

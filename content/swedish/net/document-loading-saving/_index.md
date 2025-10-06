@@ -3,8 +3,8 @@
 "title": "Handledningar för att läsa in och spara dokument med GroupDocs.Signature för .NET"
 "url": "/sv/net/document-loading-saving/"
 "weight": 2
+type: docs
 ---
-
 # Handledningar för att läsa in och spara dokument med GroupDocs.Signature för .NET
 
 Våra handledningar för dokumentinläsning och -sparning ger omfattande vägledning för att hantera dokument programmatiskt i .NET. Följ dessa steg-för-steg-guider för att lära dig hur du laddar dokument från lokala diskar, strömmar, URL:er, molnlagringsleverantörer som Amazon S3 och Azure Blob Storage samt FTP. Dessa handledningar täcker också olika scenarier för dokumentsparning, inklusive att spara med lösenordsskydd, olika utdataformat och specialiserade sparalternativ för olika dokumenttyper.

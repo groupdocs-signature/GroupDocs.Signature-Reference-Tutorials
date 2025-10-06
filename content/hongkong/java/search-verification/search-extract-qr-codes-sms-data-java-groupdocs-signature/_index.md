@@ -4,8 +4,8 @@
 "title": "如何使用 Java 和 GroupDocs.Signature 從 PDF 中的二維碼簽名中搜尋和提取簡訊數據"
 "url": "/zh-hant/java/search-verification/search-extract-qr-codes-sms-data-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 Java 和 GroupDocs.Signature 從 PDF 中的二維碼簽名中搜尋和提取簡訊數據
 
 ## 介紹

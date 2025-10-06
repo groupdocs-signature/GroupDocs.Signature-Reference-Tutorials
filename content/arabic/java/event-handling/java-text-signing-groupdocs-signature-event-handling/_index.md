@@ -4,8 +4,8 @@
 "title": "تنفيذ توقيع النص في Java - معالجة الأحداث باستخدام GroupDocs.Signature"
 "url": "/ar/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ توقيع النص مع معالجة الأحداث باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

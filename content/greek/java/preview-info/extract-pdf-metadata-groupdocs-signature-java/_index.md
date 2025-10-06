@@ -4,8 +4,8 @@
 "title": "Εξαγωγή μεταδεδομένων PDF χρησιμοποιώντας το GroupDocs.Signature για Java&#58; Ένας πλήρης οδηγός"
 "url": "/el/java/preview-info/extract-pdf-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Εξαγωγή μεταδεδομένων PDF χρησιμοποιώντας το GroupDocs.Signature για Java: Ένας πλήρης οδηγός
 
 ## Εισαγωγή

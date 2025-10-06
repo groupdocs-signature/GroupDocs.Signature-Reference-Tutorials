@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature'ı Kullanarak PDF Form Alanlarını Verimli Şekilde Arayın"
 "url": "/tr/net/search-verification/search-pdf-form-fields-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature'ı Kullanarak PDF Form Alanlarını Verimli Şekilde Arayın
 
 ## giriiş

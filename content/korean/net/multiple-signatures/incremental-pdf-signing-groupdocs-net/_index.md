@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 PDF에 증분 서명하는 방법&#58; 종합 가이드"
 "url": "/ko/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET을 사용하여 PDF 문서에 증분 서명하는 방법
 
 ## 소개

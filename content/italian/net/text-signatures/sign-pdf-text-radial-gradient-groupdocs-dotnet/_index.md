@@ -4,8 +4,8 @@
 "title": "Come firmare i PDF con firma testuale e sfumatura radiale in .NET utilizzando GroupDocs.Signature"
 "url": "/it/net/text-signatures/sign-pdf-text-radial-gradient-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare i PDF con firma testuale e sfumatura radiale in .NET utilizzando GroupDocs.Signature
 
 ## Introduzione

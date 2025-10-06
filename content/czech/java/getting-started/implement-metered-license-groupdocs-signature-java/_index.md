@@ -4,8 +4,8 @@
 "title": "Implementace měřené licence v GroupDocs.Signature pro Javu – Podrobný návod"
 "url": "/cs/java/getting-started/implement-metered-license-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat měřenou licenci v GroupDocs.Signature pro Javu
 
 ## Zavedení

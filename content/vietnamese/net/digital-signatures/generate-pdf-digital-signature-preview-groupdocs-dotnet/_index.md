@@ -4,8 +4,8 @@
 "title": "Tạo bản xem trước chữ ký số PDF với GroupDocs.Signature cho .NET | Hướng dẫn toàn diện"
 "url": "/vi/net/digital-signatures/generate-pdf-digital-signature-preview-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cách tạo bản xem trước chữ ký số PDF bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

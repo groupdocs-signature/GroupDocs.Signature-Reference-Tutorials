@@ -5,8 +5,8 @@
 "title": "Jak podepisovat dokumenty pomocí QR kódů pomocí GroupDocs.Signature"
 "url": "/cs/net/advanced-signature-techniques/sign-with-qr-code/"
 "weight": 15
+type: docs
 ---
-
 # Přidávání podpisů QR kódů do dokumentů pomocí GroupDocs.Signature
 
 Přemýšleli jste někdy, jak přidat další vrstvu zabezpečení a ověřování do vašich digitálních dokumentů? Podpisy QR kódem by mohly být přesně to, co hledáte. V tomto přehledném průvodci vás provedeme celým procesem implementace podpisů QR kódem pomocí GroupDocs.Signature pro .NET.

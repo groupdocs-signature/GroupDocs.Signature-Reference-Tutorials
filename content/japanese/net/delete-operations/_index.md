@@ -5,8 +5,8 @@
 "title": "文書署名削除操作の完全ガイド"
 "url": "/ja/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # GroupDocs.Signature for .NET の削除操作
 
 ## 導入

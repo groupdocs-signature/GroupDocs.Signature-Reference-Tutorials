@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak .NET Belgelerinde QR Kod İmzaları Nasıl Güncellenir?"
 "url": "/tr/net/qr-code-signatures/update-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak .NET Belgelerinde QR Kod İmzaları Nasıl Güncellenir?
 
 ## giriiş

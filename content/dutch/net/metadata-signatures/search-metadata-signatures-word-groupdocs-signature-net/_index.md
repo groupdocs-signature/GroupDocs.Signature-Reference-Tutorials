@@ -4,8 +4,8 @@
 "title": "Metadata-handtekeningen zoeken in Word-documenten met GroupDocs.Signature voor .NET"
 "url": "/nl/net/metadata-signatures/search-metadata-signatures-word-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Metadata-handtekeningen zoeken in Word-documenten met GroupDocs.Signature voor .NET
 
 ## Invoering

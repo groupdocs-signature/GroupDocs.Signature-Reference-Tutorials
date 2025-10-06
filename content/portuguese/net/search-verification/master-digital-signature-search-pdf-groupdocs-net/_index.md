@@ -4,8 +4,8 @@
 "title": "Domine a pesquisa de assinaturas digitais em PDFs usando o GroupDocs.Signature para .NET"
 "url": "/pt/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Dominando pesquisas de assinatura digital em PDFs usando GroupDocs.Signature para .NET
 
 ## Introdução

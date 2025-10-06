@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके मेटाडेटा के साथ Word दस्तावेज़ों पर हस्ताक्षर कैसे करें | चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके मेटाडेटा के साथ Word दस्तावेज़ों पर हस्ताक्षर कैसे करें
 
 ## परिचय

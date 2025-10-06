@@ -4,8 +4,8 @@
 "title": "Bemästra dokumentsignering med GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/multiple-signatures/mastering-document-signing-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra dokumentsignering med GroupDocs.Signature för .NET
 
 ## Introduktion

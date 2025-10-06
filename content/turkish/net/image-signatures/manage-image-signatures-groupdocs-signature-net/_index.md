@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Belgelerdeki Görüntü İmzalarını Yönetme Kapsamlı Bir Kılavuz"
 "url": "/tr/net/image-signatures/manage-image-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Belgelerdeki Görüntü İmzalarını Yönetme
 
 ## giriiş

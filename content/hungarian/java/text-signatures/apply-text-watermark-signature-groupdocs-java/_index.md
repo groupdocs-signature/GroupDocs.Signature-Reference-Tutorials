@@ -4,8 +4,8 @@
 "title": "Szöveges vízjelaláírások alkalmazása GroupDocs.Signature for Java használatával"
 "url": "/hu/java/text-signatures/apply-text-watermark-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan alkalmazzunk szöveges vízjel aláírást a GroupDocs.Signature for Java használatával
 
 ## Bevezetés

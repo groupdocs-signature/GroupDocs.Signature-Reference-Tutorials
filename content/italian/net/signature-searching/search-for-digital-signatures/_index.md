@@ -5,8 +5,8 @@
 "title": "Ricerca di firme digitali nei documenti"
 "url": "/it/net/signature-searching/search-for-digital-signatures/"
 "weight": 11
+type: docs
 ---
-
 ## Introduzione
 
 Nell'attuale panorama digitale, garantire l'autenticità e l'integrità dei documenti è fondamentale per aziende e organizzazioni. Le firme digitali forniscono un meccanismo affidabile per verificare l'autenticità dei documenti e rilevare modifiche non autorizzate. GroupDocs.Signature per .NET offre una soluzione completa per lavorare con firme digitali in vari formati di documento, consentendo agli sviluppatori di integrare perfettamente la funzionalità di firma nelle loro applicazioni .NET.

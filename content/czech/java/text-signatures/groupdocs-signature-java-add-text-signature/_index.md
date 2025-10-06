@@ -4,8 +4,8 @@
 "title": "Jak přidat textový podpis do PDF souborů pomocí GroupDocs.Signature pro Javu"
 "url": "/cs/java/text-signatures/groupdocs-signature-java-add-text-signature/"
 "weight": 1
+type: docs
 ---
-
 # Jak přidat textový podpis do dokumentů pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

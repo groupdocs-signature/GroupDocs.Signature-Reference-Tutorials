@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε PDF με κωδικούς QR μέσω email χρησιμοποιώντας το GroupDocs.Signature για .NET | Οδηγός βήμα προς βήμα"
 "url": "/el/net/qr-code-signatures/sign-pdfs-email-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα έγγραφο PDF με έναν κωδικό QR μέσω email χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

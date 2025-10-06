@@ -4,8 +4,8 @@
 "title": "Cyfrowe podpisywanie arkuszy kalkulacyjnych programu Excel i projektów VBA za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cyfrowe podpisywanie arkuszy kalkulacyjnych programu Excel i ich projektów VBA za pomocą GroupDocs.Signature dla platformy .NET
 
 W dzisiejszej erze cyfrowej zapewnienie autentyczności plików Excel jest kluczowe. Niezależnie od tego, czy zarządzasz arkuszami kalkulacyjnymi, czy planami projektów, dodanie podpisu cyfrowego może zabezpieczyć Cię przed nieautoryzowanymi zmianami. Ten samouczek przeprowadzi Cię przez proces cyfrowego podpisywania zarówno dokumentów arkuszy kalkulacyjnych, jak i projektów VBA za pomocą… **GroupDocs.Signature dla .NET**.

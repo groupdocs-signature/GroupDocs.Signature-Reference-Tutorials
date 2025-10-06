@@ -4,8 +4,8 @@
 "title": "Master-Metadatensignatur in Word-Dokumenten mit GroupDocs.Signature für Java"
 "url": "/de/java/metadata-signatures/master-metadata-signing-word-docs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Beherrschen der Metadatensignatur in Word-Dokumenten mit GroupDocs.Signature für Java
 
 ## Einführung

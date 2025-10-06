@@ -4,8 +4,8 @@
 "title": "Zvládnutí odběrů událostí v podepisování dokumentů pomocí GroupDocs.Signature pro .NET | Podrobný návod"
 "url": "/cs/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí odběru událostí v podepisování dokumentů pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

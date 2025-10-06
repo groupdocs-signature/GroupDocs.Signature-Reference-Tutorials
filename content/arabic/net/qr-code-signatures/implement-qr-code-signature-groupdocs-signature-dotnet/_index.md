@@ -4,8 +4,8 @@
 "title": "كيفية تنفيذ توقيعات رمز الاستجابة السريعة (QR Code) في .NET باستخدام GroupDocs.Signature"
 "url": "/ar/net/qr-code-signatures/implement-qr-code-signature-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ توقيع رمز الاستجابة السريعة .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

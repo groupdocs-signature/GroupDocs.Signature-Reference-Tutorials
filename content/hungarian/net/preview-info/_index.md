@@ -3,8 +3,8 @@
 "title": "Dokumentum előnézeti és információs oktatóanyagok a GroupDocs.Signature .NET-hez"
 "url": "/hu/net/preview-info/"
 "weight": 13
+type: docs
 ---
-
 # Dokumentum előnézeti és információs oktatóanyagok a GroupDocs.Signature .NET-hez
 
 Előzetes és tájékoztató oktatóanyagaink bemutatják, hogyan kinyerhet értékes dokumentumadatokat a GroupDocs.Signature segítségével .NET-ben. Ezek a részletes útmutatók bemutatják, hogyan hozhat létre dokumentumok előnézeteit, hogyan kérhet le dokumentumok adatait, hogyan férhet hozzá az aláírás részleteihez, hogyan tekintheti meg a dokumentumfeldolgozási előzményeket és hogyan vizsgálhatja meg a fájltulajdonságokat. Minden oktatóanyag gyakorlati C# kódpéldákat tartalmaz dokumentumvizsgálati forgatókönyvekhez, segítve olyan alkalmazások létrehozásában, amelyek átfogó dokumentumátláthatóságot biztosítanak a jobb felhasználói élmény és a munkafolyamatok nyomon követése érdekében.

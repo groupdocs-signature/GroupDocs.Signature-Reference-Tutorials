@@ -5,8 +5,8 @@
 "title": "Aprimore apresentações do PowerPoint com assinaturas de metadados em C# .NET"
 "url": "/pt/net/document-signing/sign-presentation-with-metadata/"
 "weight": 12
+type: docs
 ---
-
 ## Introdução
 
 No ambiente de trabalho digital atual, as apresentações são ferramentas essenciais para comunicação e compartilhamento de informações. Garantir a autenticidade e a integridade desses arquivos de apresentação está se tornando cada vez mais importante, especialmente em ambientes corporativos e educacionais. Uma maneira eficaz de aumentar a segurança e a rastreabilidade das apresentações é incorporar assinaturas de metadados.

@@ -9,8 +9,8 @@ weight: 1
 url: "/net/text-signatures/sign-pdfs-text-signature-custom-appearance-dotnet/"
 categories: ["PDF Processing"]
 tags: ["PDF-signature", "csharp-tutorial", "document-signing", "GroupDocs"]
+type: docs
 ---
-
 # Add Text Signature to PDF in C# with Custom Appearance (Complete Guide)
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Efficiënt handtekeningen verwijderen op basis van ID met GroupDocs.Signature voor .NET&#58; een stapsgewijze handleiding"
 "url": "/nl/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u efficiënt een handtekening verwijdert op basis van ID met GroupDocs.Signature voor .NET
 
 ## Invoering

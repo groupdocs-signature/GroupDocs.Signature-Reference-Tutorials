@@ -5,8 +5,8 @@
 "title": "Verifiera digitala signaturer i dokument"
 "url": "/sv/net/verify-operations/verify-digital/"
 "weight": 11
+type: docs
 ---
-
 ## Introduktion
 
 Digitala signaturer spelar en avgörande roll för att säkerställa dokuments äkthet, integritet och obestridlighet i moderna affärsprocesser. Till skillnad från traditionella handskrivna signaturer använder digitala signaturer kryptografiska tekniker för att verifiera undertecknarens identitet och säkerställa att dokumentet inte har ändrats sedan det undertecknades.

@@ -4,8 +4,8 @@
 "title": "Triển khai mã hóa và tuần tự hóa mã QR tùy chỉnh trong PDF bằng GroupDocs.Signature cho Java"
 "url": "/vi/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai mã hóa và tuần tự hóa mã QR tùy chỉnh trong PDF bằng GroupDocs.Signature cho Java
 
 ## Giới thiệu

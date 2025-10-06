@@ -4,8 +4,8 @@
 "title": "Implementieren Sie benutzerdefinierte QR-Code-Serialisierung und -Verschlüsselung in PDFs mit GroupDocs.Signature für Java"
 "url": "/de/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # So implementieren Sie eine benutzerdefinierte QR-Code-Serialisierung und -Verschlüsselung in PDFs mit GroupDocs.Signature für Java
 
 ## Einführung

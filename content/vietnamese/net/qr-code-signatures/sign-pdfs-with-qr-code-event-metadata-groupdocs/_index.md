@@ -4,8 +4,8 @@
 "title": "Ký PDF bằng Mã QR và Siêu dữ liệu Sự kiện bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Ký PDF bằng Mã QR và Siêu dữ liệu sự kiện bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

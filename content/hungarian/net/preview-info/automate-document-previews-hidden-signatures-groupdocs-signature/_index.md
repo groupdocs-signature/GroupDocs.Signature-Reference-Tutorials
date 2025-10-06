@@ -4,8 +4,8 @@
 "title": "Dokumentum-előnézetek automatizálása rejtett aláírásokkal a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum-előnézetek automatizálása rejtett aláírásokkal a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

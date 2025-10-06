@@ -4,8 +4,8 @@
 "title": "Signieren Sie PDFs mit Barcodes mithilfe von GroupDocs.Signature für .NET – Eine vollständige Anleitung"
 "url": "/de/net/barcode-signatures/sign-pdf-barcode-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Signieren Sie PDF-Dokumente mit Barcode-Signaturen mithilfe von GroupDocs.Signature für .NET
 
 In der heutigen digitalen Welt ist die Gewährleistung der Authentizität und Integrität von Dokumenten entscheidend. Ob Sie nun im Geschäftsleben oder in der Entwicklung von Dokumentenmanagementsystemen arbeiten – die digitale Signatur von Dokumenten sorgt für zusätzliche Sicherheit und Vertrauen. Mit GroupDocs.Signature für .NET wird das Signieren von PDFs mit Barcodes zum Kinderspiel – eine vielseitige Funktion, die die Dokumentenprüfung verbessert. In diesem umfassenden Leitfaden zeigen wir Ihnen, wie Sie Barcode-Signaturen in Ihre Anwendungen implementieren.

@@ -4,8 +4,8 @@
 "title": "Dokumentumok aláírása szöveges bélyegzővel a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumok aláírása szöveges bélyegzővel a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

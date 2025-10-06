@@ -3,8 +3,8 @@
 "title": "QR-codehandtekeninghandleidingen met GroupDocs.Signature voor Java"
 "url": "/nl/java/qr-code-signatures/"
 "weight": 5
+type: docs
 ---
-
 # QR-codehandtekeninghandleidingen met GroupDocs.Signature voor Java
 
 Ontdek hoe u effectief met QR-codehandtekeningen in uw Java-applicaties kunt werken met onze uitgebreide GroupDocs.Signature-tutorials. Deze stapsgewijze handleidingen leren u hoe u QR-codehandtekeningen kunt maken, aanpassen, zoeken en verifiëren. Leer hoe u gespecialiseerde QR-codeobjecten implementeert voor verschillende dataformaten, waaronder vCard, wifi, sms, e-mail, cryptocurrency, gebeurtenissen en EPC-betalingsgegevens. Elke tutorial biedt praktische Java-codevoorbeelden voor zowel basis- als geavanceerde QR-code-implementatie, waarmee u geavanceerdere oplossingen voor documentondertekening kunt bouwen.

@@ -4,8 +4,8 @@
 "title": "Java용 Master GroupDocs.Signature를 이용한 효율적인 QR 코드 서명 검색 및 이메일 추출"
 "url": "/ko/java/search-verification/groupdocs-signature-java-qr-code-search-email-extraction/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature 마스터하기: QR 코드 서명 검색 및 이메일 추출
 
 ## 소개

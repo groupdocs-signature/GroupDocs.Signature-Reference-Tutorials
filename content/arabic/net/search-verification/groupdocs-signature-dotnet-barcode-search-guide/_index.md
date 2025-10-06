@@ -4,8 +4,8 @@
 "title": "دليل التحقق من توقيع الرمز الشريطي للبحث عن المستندات الرئيسية باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # إتقان البحث عن المستندات باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

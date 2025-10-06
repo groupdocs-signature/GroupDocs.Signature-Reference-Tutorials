@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 PDF에서 사용자 정의 QR 코드 직렬화 및 암호화 구현"
 "url": "/ko/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 PDF에서 사용자 지정 QR 코드 직렬화 및 암호화를 구현하는 방법
 
 ## 소개

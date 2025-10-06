@@ -4,8 +4,8 @@
 "title": "Java PDF İmza Kılavuzu&#58; GroupDocs.Signature for Java Kullanarak Metin, Barkod, QR ve Dijital İmzalar Ekleme"
 "url": "/tr/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # Java PDF İmza Kılavuzu Nasıl Uygulanır: GroupDocs.Signature for Java Kullanarak Metin, Barkod, QR ve Dijital İmzalar Ekleme
 
 ## giriiş

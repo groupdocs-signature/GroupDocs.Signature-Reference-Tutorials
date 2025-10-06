@@ -5,8 +5,8 @@
 "title": "Volledige handleiding voor het verwijderen van documenthandtekeningen"
 "url": "/nl/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # Verwijderbewerkingen in GroupDocs.Signature voor .NET
 
 ## Invoering

@@ -10,8 +10,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["metadata-signing", "document-authentication", "dotnet", "groupdocs-signature"]
+type: docs
 ---
-
 ## Why Metadata Signatures Are Game-Changers for .NET Developers
 
 If you've ever needed to verify document authenticity without cluttering the visual layout, metadata signatures are your solution. Unlike traditional visible signatures that can interfere with document design, metadata signatures work behind the scenes – embedding crucial verification data directly into the file structure while keeping your documents looking exactly as intended.

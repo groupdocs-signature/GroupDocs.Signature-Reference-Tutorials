@@ -8,10 +8,8 @@ keywords:
 - text signatures in PDFs
 - GroupDocs.Signature for Java
 - searching text signatures
-
+type: docs
 ---
-
-
 # How to Implement Text Signatures in PDFs Using GroupDocs.Signature for Java
 
 **Streamlining Document Workflows: A Comprehensive Guide to Searching and Managing Text Signatures in PDFs with GroupDocs.Signature for Java**

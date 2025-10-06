@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε ένα PDF από μια διεύθυνση URL χρησιμοποιώντας το GroupDocs.Signature για Java - Εκπαιδευτικό βίντεο"
 "url": "/el/java/digital-signatures/sign-pdf-from-url-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα PDF από μια διεύθυνση URL χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Fődokumentum-ellenőrzés a GroupDocs.Signature for Java segítségével – Átfogó útmutató"
 "url": "/hu/java/search-verification/groupdocs-signature-java-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentum-ellenőrzés elsajátítása a GroupDocs.Signature for Java segítségével
 
 A mai digitális környezetben a dokumentumok hitelességének ellenőrzése elengedhetetlen a biztonság és a bizalom fenntartásához a különböző szektorokban. Ez az útmutató bemutatja, hogyan integrálhatja a szöveges, vonalkódos és QR-kódos aláírás-ellenőrzéseket alkalmazásaiba a GroupDocs.Signature for Java segítségével.

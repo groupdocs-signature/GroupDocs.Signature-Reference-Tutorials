@@ -4,8 +4,8 @@
 "title": "Подпишите и сохраните таблицы Excel с QR-кодами в Java с помощью GroupDocs.Signature"
 "url": "/ru/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Подпишите и сохраните таблицы Excel с QR-кодами в Java с помощью GroupDocs.Signature
 
 ## Введение

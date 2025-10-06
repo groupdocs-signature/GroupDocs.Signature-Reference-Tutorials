@@ -4,8 +4,8 @@
 "title": "Jak podepisovat obrázky QR kódy pomocí GroupDocs.Signature pro .NET a ukládat je v různých formátech"
 "url": "/cs/net/qr-code-signatures/sign-images-groupdocs-signature-qr-codes-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak používat GroupDocs.Signature pro .NET k podepisování obrázků pomocí QR kódů
 
 ## Zavedení

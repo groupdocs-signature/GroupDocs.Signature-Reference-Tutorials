@@ -4,8 +4,8 @@
 "title": "Cara Mencari dan Memverifikasi Tanda Tangan Metadata PDF Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/search-verification/groupdocs-signature-java-search-pdf-metadata-signatures/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pencarian Tanda Tangan Metadata PDF Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

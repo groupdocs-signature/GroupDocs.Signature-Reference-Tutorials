@@ -4,8 +4,8 @@
 "title": "Documenten ondertekenen met een afbeelding met GroupDocs.Signature voor Java&#58; een stapsgewijze handleiding"
 "url": "/nl/java/image-signatures/sign-documents-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Documenten met afbeeldingen ondertekenen met GroupDocs.Signature voor Java
 
 In het huidige digitale tijdperk is het beveiligen van documenten met elektronische handtekeningen cruciaal voor zowel bedrijven als particulieren. Of u nu contracten finaliseert of ontwerpen goedkeurt, een snelle en betrouwbare methode om documenten digitaal te ondertekenen kan tijd besparen en de beveiliging verbeteren. Deze tutorial begeleidt u bij het gebruik ervan. **GroupDocs.Signature voor Java** documenten ondertekenen met een beeldhandtekening.

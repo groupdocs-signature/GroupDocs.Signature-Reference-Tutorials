@@ -4,8 +4,8 @@
 "title": "Bemästra digitala PDF-signaturer i Java med GroupDocs.Signature för text, kryssrutor och digitala fält"
 "url": "/sv/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra digitala PDF-signaturer i Java: Använda GroupDocs.Signature för text, kryssrutor och digitala fält
 
 ## Introduktion

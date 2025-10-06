@@ -4,8 +4,8 @@
 "title": "تحديث وبحث توقيعات الصور في ملفات PDF باستخدام Java مع GroupDocs.Signature"
 "url": "/ar/java/signature-management/update-search-image-signatures-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # تحديث وبحث توقيعات الصور في ملفات PDF باستخدام Java
 
 ## مقدمة

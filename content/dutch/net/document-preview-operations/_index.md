@@ -5,8 +5,8 @@
 "title": "Uitgebreide documentvoorvertoning en beheerbewerkingen"
 "url": "/nl/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # Documentvoorbeeldbewerkingen
 
 ## Invoering

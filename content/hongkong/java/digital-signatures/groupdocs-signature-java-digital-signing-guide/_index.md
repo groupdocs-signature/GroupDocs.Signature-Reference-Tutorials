@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Java 數位簽章基本知識綜合指南"
 "url": "/zh-hant/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java 綜合指南：數位簽章要點
 
 ## 介紹

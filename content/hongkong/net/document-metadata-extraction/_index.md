@@ -5,8 +5,8 @@
 "title": "使用 GroupDocs.Signature for .NET 掌握文件元資料擷取"
 "url": "/zh-hant/net/document-metadata-extraction/"
 "weight": 22
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 提取文檔元資料的綜合指南
 
 ## 文檔元資料在現代工作流程中的策略重要性

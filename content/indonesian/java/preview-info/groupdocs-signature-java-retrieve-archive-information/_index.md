@@ -4,8 +4,8 @@
 "title": "Cara Mengambil Informasi File Arsip Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/preview-info/groupdocs-signature-java-retrieve-archive-information/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mengambil Informasi File Arsip Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

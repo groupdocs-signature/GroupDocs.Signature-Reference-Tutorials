@@ -4,8 +4,8 @@
 "title": "Podepisování PDF dokumentů přímo z URL adresy pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/digital-signatures/sign-pdf-from-url-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Jak podepsat PDF dokument přímo z URL adresy pomocí GroupDocs.Signature pro .NET
 
 V dnešním rychle se měnícím digitálním prostředí je efektivní správa a zpracování online dokumentů klíčové pro firmy po celém světě. Častou výzvou je podepisování dokumentů uložených online bez jejich předchozího stažení – což je u tradičních metod těžkopádný úkol. Tento tutoriál vás provede bezproblémovým podepsáním dokumentu PDF přímo z jeho adresy URL pomocí výkonné knihovny GroupDocs.Signature pro .NET.

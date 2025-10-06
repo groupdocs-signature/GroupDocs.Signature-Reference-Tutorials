@@ -4,8 +4,8 @@
 "title": "ลบลายเซ็น QR Code ด้วย GroupDocs.Signature ใน .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/signature-management/delete-qr-code-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # ลบลายเซ็น QR Code ด้วย GroupDocs.Signature ใน .NET: คู่มือฉบับสมบูรณ์
 
 ## การแนะนำ

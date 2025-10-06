@@ -4,8 +4,8 @@
 "title": "Word-documenten met tekstwatermerken ondertekenen met GroupDocs.Signature voor .NET"
 "url": "/nl/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Word-documenten met tekstwatermerken ondertekenen met GroupDocs.Signature voor .NET
 
 ## Invoering

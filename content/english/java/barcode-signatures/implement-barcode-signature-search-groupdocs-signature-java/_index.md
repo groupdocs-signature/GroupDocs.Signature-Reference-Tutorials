@@ -9,8 +9,8 @@ weight: 1
 url: "/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 categories: ["Document Processing"]
 tags: ["java", "barcode-signatures", "document-verification", "groupdocs"]
+type: docs
 ---
-
 # How to Search Barcode Signatures in Documents Using Java
 
 ## Introduction

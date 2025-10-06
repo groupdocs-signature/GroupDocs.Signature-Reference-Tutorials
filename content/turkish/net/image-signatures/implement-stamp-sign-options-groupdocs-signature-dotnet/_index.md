@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak Damga İmza Seçenekleri Nasıl Uygulanır? Kapsamlı Bir Kılavuz"
 "url": "/tr/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET Kullanılarak Damga İmza Seçenekleri Nasıl Uygulanır?
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java によるドキュメント プロパティの取得をマスターする包括的なガイド"
 "url": "/ja/java/metadata-signatures/groupdocs-signature-java-document-properties-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java によるドキュメント プロパティの取得の習得
 GroupDocs.Signature for Javaを活用することで、ドキュメント管理のパワーを最大限に引き出し、フォーマット、サイズ、ページ数などのドキュメントプロパティを簡単に取得・印刷できます。この包括的なチュートリアルでは、環境の設定、様々な機能の実装、そして実際のシナリオへの適用方法を解説します。
 

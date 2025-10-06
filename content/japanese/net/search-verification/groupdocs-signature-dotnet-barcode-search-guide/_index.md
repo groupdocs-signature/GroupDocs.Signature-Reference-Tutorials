@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET によるマスタードキュメント検索&#58; バーコード署名検証ガイド"
 "url": "/ja/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でドキュメント検索をマスターする
 
 ## 導入

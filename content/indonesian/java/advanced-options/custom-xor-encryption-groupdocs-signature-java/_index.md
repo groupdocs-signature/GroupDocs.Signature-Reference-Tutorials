@@ -4,8 +4,8 @@
 "title": "Enkripsi XOR Kustom dengan GroupDocs.Signature untuk Java&#58; Panduan Lengkap"
 "url": "/id/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Panduan Lengkap Implementasi Enkripsi XOR Kustom dengan GroupDocs.Signature untuk Java
 
 ## Perkenalan

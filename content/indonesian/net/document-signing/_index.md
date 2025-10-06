@@ -5,8 +5,8 @@
 "title": "Penandatanganan Dokumen dengan Metadata di .NET"
 "url": "/id/net/document-signing/"
 "weight": 24
+type: docs
 ---
-
 ## Perkenalan
 
 Di dunia digital saat ini, memastikan keaslian, pelacakan asal, dan integritas dokumen menjadi hal yang penting bagi bisnis dan organisasi. Tanda tangan metadata menyediakan cara yang ampuh namun tidak mencolok untuk menanamkan informasi identitas langsung ke dalam berkas dokumen, meningkatkan keamanan tanpa mengubah tampilan visualnya.

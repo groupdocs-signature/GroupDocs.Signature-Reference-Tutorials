@@ -4,8 +4,8 @@
 "title": "QR-kód aláírással ellátott dokumentumok ellenőrzése Java-ban a GroupDocs.Signature használatával"
 "url": "/hu/java/search-verification/java-qr-code-signature-verification-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírással ellátott dokumentumok ellenőrzése Java-ban a GroupDocs.Signature használatával
 
 A mai digitális világban kulcsfontosságú a dokumentumok hitelességének és integritásának ellenőrzése. A GroupDocs.Signature for Java segítségével könnyedén ellenőrizhetővé teszi a QR-kód aláírásokat tartalmazó dokumentumokat, így leegyszerűsíti ezt a folyamatot. Ez az átfogó oktatóanyag végigvezeti Önt a QR-kód aláírásokkal történő dokumentum-ellenőrzésen, növelve a munkafolyamatok biztonságát és hatékonyságát.

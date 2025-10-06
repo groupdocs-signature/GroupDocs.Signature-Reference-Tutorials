@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature 마스터링&#58; 바코드 검색 이벤트 구독 및 구성"
 "url": "/ko/net/search-verification/groupdocs-signature-net-subscribe-search-events-barcode-config/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature 마스터링: 바코드 검색 이벤트 구독 및 구성
 
 ## 소개

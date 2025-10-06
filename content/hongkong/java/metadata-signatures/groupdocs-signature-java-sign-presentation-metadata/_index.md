@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 為示範文件簽署元資料－完整指南"
 "url": "/zh-hant/java/metadata-signatures/groupdocs-signature-java-sign-presentation-metadata/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 對包含元資料的簡報文件進行簽署的綜合指南
 
 ## 介紹

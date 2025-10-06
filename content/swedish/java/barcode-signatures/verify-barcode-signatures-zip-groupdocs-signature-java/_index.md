@@ -4,8 +4,8 @@
 "title": "Verifiera streckkodssignaturer i ZIP-filer med GroupDocs.Signature för Java"
 "url": "/sv/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Verifiera streckkodssignaturer i ZIP-filer med GroupDocs.Signature för Java
 
 ## Introduktion

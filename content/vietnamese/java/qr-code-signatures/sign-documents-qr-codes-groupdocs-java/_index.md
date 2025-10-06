@@ -4,8 +4,8 @@
 "title": "Ký tài liệu bằng mã QR bằng GroupDocs.Signature cho Java - Hướng dẫn đầy đủ"
 "url": "/vi/java/qr-code-signatures/sign-documents-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Ký tài liệu bằng mã QR bằng GroupDocs.Signature cho Java: Hướng dẫn toàn diện
 
 Trong thế giới số ngày nay, việc bảo mật tài liệu là vô cùng quan trọng. Cho dù bạn là chuyên gia kinh doanh hay cá nhân xử lý thông tin nhạy cảm, việc đảm bảo tính toàn vẹn và tính xác thực của tài liệu là tối quan trọng. **GroupDocs.Signature cho Java**—một thư viện mạnh mẽ—cho phép ký tài liệu bằng nhiều phương pháp khác nhau, bao gồm cả mã QR. Hướng dẫn này sẽ hướng dẫn bạn tải xuống tài liệu từ Azure Blob Storage và ký chúng bằng mã QR bằng GroupDocs.Signature.

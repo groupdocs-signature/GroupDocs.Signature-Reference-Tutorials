@@ -4,8 +4,8 @@
 "title": "Implementieren Sie ComboBox-Formularfelder in PDFs mit GroupDocs.Signature für Java"
 "url": "/de/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren Sie ComboBox-Formularfelder in PDFs mit GroupDocs.Signature für Java
 
 ## Einführung

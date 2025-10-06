@@ -5,8 +5,8 @@ weight: 10
 url: /java/
 description: Master document security with GroupDocs.Signature for Java - Complete tutorials for signing, verifying, updating, deleting signatures, extracting metadata, and managing documents efficiently in Java applications.
 is_root: true
+type: docs
 ---
-
 # GroupDocs.Signature for Java Tutorials & Examples
 
 Welcome to our comprehensive collection of tutorials for GroupDocs.Signature for Java. These step-by-step guides will help you implement secure document signing solutions in your Java applications. From basic setup to advanced signature management, our tutorials provide all the information you need to safeguard your documents with multiple signature types.

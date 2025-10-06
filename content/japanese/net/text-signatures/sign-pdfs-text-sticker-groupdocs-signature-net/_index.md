@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してテキストステッカーで PDF に署名する方法 | ステップバイステップガイド"
 "url": "/ja/net/text-signatures/sign-pdfs-text-sticker-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用してテキスト ステッカーで PDF 文書に署名する方法
 
 ## 導入

@@ -4,8 +4,8 @@
 "title": "Εξοικείωση με την αναζήτηση υπογραφής QR-Code σε έγγραφα χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/qr-code-signatures/find-qr-code-signatures-with-epc-data-using-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Mastering Αναζήτηση Εγγράφων: Εύρεση Υπογραφών QR-Code με Δεδομένα EPC Χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

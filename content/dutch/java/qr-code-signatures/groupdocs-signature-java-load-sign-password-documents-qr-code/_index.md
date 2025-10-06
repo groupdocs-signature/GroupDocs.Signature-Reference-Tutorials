@@ -4,8 +4,8 @@
 "title": "Laad en onderteken wachtwoordbeveiligde documenten met behulp van QR-codes in Java met GroupDocs.Signature"
 "url": "/nl/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # Laad en onderteken wachtwoordbeveiligde documenten met QR-code in Java
 
 ## Een wachtwoordbeveiligd document laden en ondertekenen met GroupDocs.Signature voor Java

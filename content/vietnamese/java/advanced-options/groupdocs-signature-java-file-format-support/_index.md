@@ -4,8 +4,8 @@
 "title": "Hỗ trợ Định dạng Tệp Chính trong GroupDocs.Signature cho Java - Hướng dẫn Toàn diện"
 "url": "/vi/java/advanced-options/groupdocs-signature-java-file-format-support/"
 "weight": 1
+type: docs
 ---
-
 # Hỗ trợ Định dạng Tệp Chính trong GroupDocs.Signature cho Java: Hướng dẫn Toàn diện
 
 ## Giới thiệu

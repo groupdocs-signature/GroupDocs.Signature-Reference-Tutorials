@@ -5,8 +5,8 @@
 "title": "Umfassende Suche nach Dokumentsignaturen"
 "url": "/de/net/signature-searching/"
 "weight": 23
+type: docs
 ---
-
 ## Einführung
 
 Dokumentensicherheit und Integritätsprüfung sind entscheidende Aspekte moderner Geschäftsprozesse. GroupDocs.Signature für .NET bietet eine leistungsstarke Lösung für die Implementierung umfassender Signatursuchfunktionen für verschiedene Dokumentformate. Ob Sie die Echtheit von Dokumenten überprüfen, Signaturinformationen extrahieren oder automatisierte Prüfabläufe erstellen müssen – GroupDocs.Signature bietet Ihnen die Tools, die Sie für die effiziente Suche und Verarbeitung verschiedener Signaturtypen benötigen.

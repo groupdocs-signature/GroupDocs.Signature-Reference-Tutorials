@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 在 PDF 中實作 ComboBox 表單字段"
 "url": "/zh-hant/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 在 PDF 中實作 ComboBox 表單字段
 
 ## 介紹

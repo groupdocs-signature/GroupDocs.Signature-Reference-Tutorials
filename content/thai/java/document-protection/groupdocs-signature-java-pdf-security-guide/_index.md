@@ -4,8 +4,8 @@
 "title": "รักษาความปลอดภัยลายเซ็น QR-Code และรหัสผ่าน PDF ของคุณด้วย GroupDocs.Signature สำหรับ Java"
 "url": "/th/java/document-protection/groupdocs-signature-java-pdf-security-guide/"
 "weight": 1
+type: docs
 ---
-
 # รักษาความปลอดภัยไฟล์ PDF ของคุณ: ลายเซ็น QR-Code และการป้องกันด้วยรหัสผ่านด้วย GroupDocs.Signature สำหรับ Java
 
 ในยุคดิจิทัลปัจจุบัน การรักษาความปลอดภัยเอกสาร PDF เป็นสิ่งสำคัญสำหรับการจัดการข้อมูลสำคัญและการรับรองความถูกต้องของไฟล์ คู่มือนี้จะแสดงวิธีใช้ GroupDocs.Signature สำหรับ Java เพื่อเพิ่มลายเซ็น QR-code และการป้องกันด้วยรหัสผ่านให้กับ PDF ของคุณ

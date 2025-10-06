@@ -4,8 +4,8 @@
 "title": "Cómo firmar hojas de cálculo de Excel con metadatos mediante GroupDocs.Signature para .NET"
 "url": "/es/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar hojas de cálculo de Excel con metadatos mediante GroupDocs.Signature para .NET
 
 ## Introducción

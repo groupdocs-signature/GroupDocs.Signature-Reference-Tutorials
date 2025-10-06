@@ -4,8 +4,8 @@
 "title": "Opanuj podpisywanie dokumentów Java za pomocą kodów kreskowych GS1DotCode przy użyciu GroupDocs.Signature dla Java"
 "url": "/pl/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie podpisywania dokumentów w Javie za pomocą kodów kreskowych GS1DotCode przy użyciu GroupDocs.Signature
 
 ## Wstęp

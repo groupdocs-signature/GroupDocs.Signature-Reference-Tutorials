@@ -4,8 +4,8 @@
 "title": "WiFi adatok kinyerése QR-kódokból PDF-ekben Java használatával a GroupDocs.Signature segítségével"
 "url": "/hu/java/qr-code-signatures/qr-code-wifi-data-extraction-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # WiFi adatok kinyerése QR-kódokból PDF-ekben Java használatával a GroupDocs.Signature segítségével
 
 ## Bevezetés

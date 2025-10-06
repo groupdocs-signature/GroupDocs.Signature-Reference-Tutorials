@@ -4,8 +4,8 @@
 "title": "掌握 Java 中的 PDF 數位簽章－使用 GroupDocs.Signature 進行文字、複選框和數位欄位簽名"
 "url": "/zh-hant/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 掌握 Java 中的 PDF 數位簽章：使用 GroupDocs.Signature 進行文字、複選框和數位字段
 
 ## 介紹

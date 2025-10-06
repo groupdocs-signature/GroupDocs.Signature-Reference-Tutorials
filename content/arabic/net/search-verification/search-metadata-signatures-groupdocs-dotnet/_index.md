@@ -4,8 +4,8 @@
 "title": "كيفية البحث عن توقيعات البيانات الوصفية في العروض التقديمية باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/search-verification/search-metadata-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # كيفية البحث عن توقيعات البيانات الوصفية في العروض التقديمية باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

@@ -4,8 +4,8 @@
 "title": "Assine digitalmente planilhas do Excel e projetos VBA usando GroupDocs.Signature para .NET"
 "url": "/pt/net/digital-signatures/digitally-sign-spreadsheets-vba-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Assinatura digital de planilhas do Excel e seus projetos VBA com GroupDocs.Signature para .NET
 
 Na era digital atual, garantir a autenticidade dos seus arquivos Excel é crucial. Seja gerenciando planilhas financeiras ou planos de projeto, adicionar uma assinatura digital pode proteger contra alterações não autorizadas. Este tutorial orienta você na assinatura digital de documentos de planilha e seus projetos VBA usando **GroupDocs.Signature para .NET**.

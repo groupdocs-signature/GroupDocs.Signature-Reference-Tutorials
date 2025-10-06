@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ जावा में मेटाडेटा एन्क्रिप्शन और क्रमांकन में महारत हासिल करें"
 "url": "/hi/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ जावा में मेटाडेटा एन्क्रिप्शन और सीरियलाइज़ेशन में महारत हासिल करना
 
 ## परिचय

@@ -4,8 +4,8 @@
 "title": "Как реализовать подписи штампов в PDF-файлах с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать подписи штампов в PDF-файлах с помощью GroupDocs.Signature для .NET
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "Implementasi Kolom Formulir ComboBox dalam PDF Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/form-field-signatures/groupdocs-signature-java-combobox-form-fields-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Implementasi Kolom Formulir ComboBox dalam PDF Menggunakan GroupDocs.Signature untuk Java
 
 ## Perkenalan

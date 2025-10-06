@@ -4,8 +4,8 @@
 "title": "Firma PDF con codice QR e metadati di eventi utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/qr-code-signatures/sign-pdfs-with-qr-code-event-metadata-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Firma PDF con codice QR e metadati evento utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

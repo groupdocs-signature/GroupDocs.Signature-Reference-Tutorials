@@ -4,8 +4,8 @@
 "title": "Zvládněte digitální podpisy v .NET&#58; Jak používat GroupDocs.Signature pro podepisování a vyhledávání dokumentů"
 "url": "/cs/net/digital-signatures/sign-search-documents-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Hlavní digitální podpisy v .NET: Jak používat GroupDocs.Signature pro podepisování a vyhledávání dokumentů
 
 ## Zavedení

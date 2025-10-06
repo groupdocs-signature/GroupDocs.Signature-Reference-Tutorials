@@ -5,8 +5,8 @@
 "title": "Átfogó dokumentum-előnézeti és -kezelési műveletek"
 "url": "/hu/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # Dokumentum előnézeti műveletek
 
 ## Bevezetés

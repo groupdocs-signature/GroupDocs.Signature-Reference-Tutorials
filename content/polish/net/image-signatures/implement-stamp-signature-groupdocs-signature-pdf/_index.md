@@ -4,8 +4,8 @@
 "title": "Jak wdrożyć podpisy stemplowe w plikach PDF za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Jak wdrożyć podpisy stemplowe w plikach PDF za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

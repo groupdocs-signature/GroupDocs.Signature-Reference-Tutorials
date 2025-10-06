@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Belgelerdeki Görüntü İmzalarını Nasıl Güncellersiniz? Adım Adım Kılavuz"
 "url": "/tr/net/image-signatures/update-image-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Belgelerdeki Görüntü İmzası Nasıl Güncellenir?
 
 ## giriiş

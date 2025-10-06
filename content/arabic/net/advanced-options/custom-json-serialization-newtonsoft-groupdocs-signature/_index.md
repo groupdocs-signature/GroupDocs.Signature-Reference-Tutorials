@@ -4,8 +4,8 @@
 "title": "تسلسل JSON مخصص في .NET باستخدام Newtonsoft.Json وGroupDocs.Signature - دليل شامل"
 "url": "/ar/net/advanced-options/custom-json-serialization-newtonsoft-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # دليل شامل لتسلسل JSON المخصص في .NET باستخدام Newtonsoft.Json وGroupDocs.Signature
 
 ## مقدمة

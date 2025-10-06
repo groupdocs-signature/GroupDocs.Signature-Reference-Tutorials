@@ -4,8 +4,8 @@
 "title": "วิธีการใช้ลายเซ็นข้อความโดยใช้ GroupDocs.Signature สำหรับ Java (คู่มือทีละขั้นตอน)"
 "url": "/th/java/text-signatures/implement-text-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการใช้ลายเซ็นข้อความโดยใช้ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ

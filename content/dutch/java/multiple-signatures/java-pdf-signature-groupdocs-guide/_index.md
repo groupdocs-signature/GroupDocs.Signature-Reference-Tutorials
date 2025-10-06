@@ -4,8 +4,8 @@
 "title": "Handleiding voor Java PDF-handtekeningen&#58; tekst, barcodes, QR-codes en digitale handtekeningen toevoegen met GroupDocs.Signature voor Java"
 "url": "/nl/java/multiple-signatures/java-pdf-signature-groupdocs-guide/"
 "weight": 1
+type: docs
 ---
-
 # Handleiding voor het implementeren van Java PDF-handtekeningen: tekst, barcodes, QR-codes en digitale handtekeningen toevoegen met GroupDocs.Signature voor Java
 
 ## Invoering

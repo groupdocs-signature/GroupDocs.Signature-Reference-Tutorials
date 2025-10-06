@@ -4,8 +4,8 @@
 "title": "Excluir assinaturas por ID com eficiência usando GroupDocs.Signature para .NET - Um guia passo a passo"
 "url": "/pt/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Como excluir uma assinatura por ID de forma eficiente usando GroupDocs.Signature para .NET
 
 ## Introdução

@@ -4,8 +4,8 @@
 "title": "Kuasai Manajemen Tanda Tangan PDF di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/signature-management/java-groupdocs-signature-pdf-manage-sig/"
 "weight": 1
+type: docs
 ---
-
 # Menguasai Manajemen Tanda Tangan PDF di Java dengan GroupDocs.Signature
 
 ## Perkenalan

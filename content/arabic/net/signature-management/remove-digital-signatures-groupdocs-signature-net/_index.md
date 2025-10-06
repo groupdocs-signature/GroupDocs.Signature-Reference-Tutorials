@@ -4,8 +4,8 @@
 "title": "كيفية إزالة التوقيعات الرقمية من ملفات PDF باستخدام GroupDocs.Signature لـ .NET"
 "url": "/ar/net/signature-management/remove-digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # كيفية إزالة التوقيعات الرقمية من ملفات PDF باستخدام GroupDocs.Signature لـ .NET
 
 ## مقدمة

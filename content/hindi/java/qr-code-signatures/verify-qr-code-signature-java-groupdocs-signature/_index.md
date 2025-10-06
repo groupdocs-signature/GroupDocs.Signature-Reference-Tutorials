@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके जावा में QR कोड हस्ताक्षर सत्यापित करें - एक व्यापक मार्गदर्शिका"
 "url": "/hi/java/qr-code-signatures/verify-qr-code-signature-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature के साथ Java में QR कोड हस्ताक्षर सत्यापित करें
 
 ## परिचय

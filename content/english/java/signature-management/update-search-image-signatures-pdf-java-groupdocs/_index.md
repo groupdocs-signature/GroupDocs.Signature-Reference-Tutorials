@@ -8,10 +8,8 @@ keywords:
 - update image signatures PDF Java
 - search image signatures in documents
 - GroupDocs.Signature Java integration
-
+type: docs
 ---
-
-
 # Update & Search Image Signatures in PDFs with Java
 
 ## Introduction

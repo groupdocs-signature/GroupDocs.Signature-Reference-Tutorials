@@ -4,8 +4,8 @@
 "title": "जावा के लिए GroupDocs.Signature का उपयोग करके PDF में जावा बारकोड खोज"
 "url": "/hi/java/search-verification/java-barcode-search-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # जावा के लिए GroupDocs.Signature का उपयोग करके PDF में जावा बारकोड खोज कैसे लागू करें
 
 ## परिचय

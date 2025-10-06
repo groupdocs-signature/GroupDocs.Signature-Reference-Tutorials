@@ -4,8 +4,8 @@
 "title": "Handleiding voor het ondertekenen van documenten met XAdES met behulp van GroupDocs.Signature voor .NET"
 "url": "/nl/net/digital-signatures/sign-documents-xades-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Handleiding voor het ondertekenen van documenten met XAdES met behulp van GroupDocs.Signature voor .NET
 
 ## Invoering

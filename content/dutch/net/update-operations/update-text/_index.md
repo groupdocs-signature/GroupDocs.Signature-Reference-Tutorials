@@ -5,8 +5,8 @@
 "title": "Teksthandtekeningen in documenten bijwerken"
 "url": "/nl/net/update-operations/update-text/"
 "weight": 13
+type: docs
 ---
-
 ## Invoering
 GroupDocs.Signature voor .NET is een uitgebreide oplossing voor het ondertekenen van documenten waarmee ontwikkelaars krachtige handtekeningfunctionaliteit kunnen integreren in hun .NET-applicaties. Met deze veelzijdige bibliotheek kunt u moeiteloos verschillende soorten handtekeningen toevoegen, zoeken, verifiëren en bijwerken, waaronder teksthandtekeningen, in een breed scala aan documentformaten. Deze tutorial richt zich specifiek op het bijwerken van teksthandtekeningen in documenten en biedt u stapsgewijze begeleiding voor een naadloze implementatie.
 

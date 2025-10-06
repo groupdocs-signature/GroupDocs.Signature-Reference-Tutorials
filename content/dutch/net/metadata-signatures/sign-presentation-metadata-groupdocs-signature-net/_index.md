@@ -4,8 +4,8 @@
 "title": "Onderteken presentatiedocumenten met metagegevens met GroupDocs.Signature voor .NET"
 "url": "/nl/net/metadata-signatures/sign-presentation-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Een presentatiedocument ondertekenen met metagegevens met GroupDocs.Signature voor .NET
 
 ## Invoering

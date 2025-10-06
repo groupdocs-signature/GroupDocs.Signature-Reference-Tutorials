@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 디지털 인증서 로드 및 액세스 - 포괄적인 가이드"
 "url": "/ko/net/digital-signatures/groupdocs-signature-dotnet-load-access-digital-certificates/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 디지털 인증서 로드 및 액세스
 ## 종합 가이드
 

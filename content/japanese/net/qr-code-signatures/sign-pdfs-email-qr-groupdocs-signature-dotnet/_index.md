@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET を使用してメールの QR コードで PDF に署名する方法 | ステップバイステップ ガイド"
 "url": "/ja/net/qr-code-signatures/sign-pdfs-email-qr-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET を使用して電子メール QR コードで PDF ドキュメントに署名する方法
 
 ## 導入

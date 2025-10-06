@@ -4,8 +4,8 @@
 "title": "Pencarian Tanda Tangan Metadata Aman di .NET dengan GroupDocs.Signature dan Enkripsi"
 "url": "/id/net/metadata-signatures/groupdocs-signature-net-encryption-metadata-search/"
 "weight": 1
+type: docs
 ---
-
 # Pencarian Tanda Tangan Metadata Aman di .NET dengan GroupDocs.Signature dan Enkripsi
 
 ## Perkenalan

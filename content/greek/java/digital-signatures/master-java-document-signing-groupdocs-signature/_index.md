@@ -4,8 +4,8 @@
 "title": "Υπογραφή εγγράφων Master Java με γραμμωτούς κώδικες GS1DotCode χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/digital-signatures/master-java-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την υπογραφή εγγράφων σε Java με γραμμωτούς κώδικες GS1DotCode χρησιμοποιώντας το GroupDocs.Signature
 
 ## Εισαγωγή

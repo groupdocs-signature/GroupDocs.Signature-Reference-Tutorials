@@ -4,8 +4,8 @@
 "title": "การค้นหาบาร์โค้ด PDF ของ Java โดยใช้ GroupDocs.Signature API และคู่มือที่ครอบคลุม"
 "url": "/th/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
 "weight": 1
+type: docs
 ---
-
 # การใช้งาน Java: การค้นหาบาร์โค้ด PDF ด้วย GroupDocs.Signature API บทช่วยสอน
 
 ## การแนะนำ

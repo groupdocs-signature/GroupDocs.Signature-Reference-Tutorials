@@ -5,8 +5,8 @@
 "title": "Mettre à jour les signatures de codes-barres dans les documents"
 "url": "/fr/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## Introduction
 Les signatures de codes-barres sont largement utilisées dans les flux de documents numériques pour encoder des données structurées, permettant ainsi un suivi, une identification et une validation efficaces. GroupDocs.Signature pour .NET est une solution complète de signature de documents qui permet aux développeurs d'intégrer des fonctionnalités de signature avancées à leurs applications, notamment la possibilité de mettre à jour les signatures de codes-barres existantes dans les documents.
 

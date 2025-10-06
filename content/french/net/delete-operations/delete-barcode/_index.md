@@ -5,8 +5,8 @@
 "title": "Comment supprimer les codes-barres des documents avec .NET"
 "url": "/fr/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # Comment supprimer les codes-barres des documents avec .NET
 
 ## Pourquoi auriez-vous besoin de supprimer les codes-barres ?

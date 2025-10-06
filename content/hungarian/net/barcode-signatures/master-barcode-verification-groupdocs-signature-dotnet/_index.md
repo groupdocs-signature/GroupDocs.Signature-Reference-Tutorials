@@ -4,8 +4,8 @@
 "title": "Vonalkód-mesterszintű ellenőrzés .NET-ben a GroupDocs.Signature segítségével a dokumentumok integritása érdekében"
 "url": "/hu/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Vonalkód-ellenőrzés elsajátítása .NET-ben a GroupDocs.Signature segítségével
 
 ## Bevezetés

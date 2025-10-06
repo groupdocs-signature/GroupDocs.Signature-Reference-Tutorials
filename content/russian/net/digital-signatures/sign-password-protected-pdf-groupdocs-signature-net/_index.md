@@ -4,8 +4,8 @@
 "title": "Как подписать защищенный паролем PDF-файл с помощью GroupDocs.Signature для .NET (руководство по цифровой подписи)"
 "url": "/ru/net/digital-signatures/sign-password-protected-pdf-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Как подписать защищенный паролем PDF-файл с помощью GroupDocs.Signature для .NET
 ## Учебное пособие по цифровой подписи
 

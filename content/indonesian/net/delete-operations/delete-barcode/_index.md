@@ -5,8 +5,8 @@
 "title": "Cara Menghapus Kode Batang dari Dokumen dengan .NET"
 "url": "/id/net/delete-operations/delete-barcode/"
 "weight": 10
+type: docs
 ---
-
 # Cara Menghapus Kode Batang dari Dokumen dengan .NET
 
 ## Mengapa Anda Perlu Menghapus Kode Batang?

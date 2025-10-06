@@ -4,8 +4,8 @@
 "title": "Реализация проверки документов с помощью GroupDocs.Signature для Java&#58; подробное руководство"
 "url": "/ru/java/search-verification/implement-document-verification-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать проверку документов с помощью GroupDocs.Signature для Java
 
 **Введение**

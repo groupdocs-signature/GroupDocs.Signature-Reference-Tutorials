@@ -4,8 +4,8 @@
 "title": "Obsługa wyjątków haseł w GroupDocs.Signature dla platformy .NET. Kompleksowy przewodnik"
 "url": "/pl/net/document-protection/handling-password-exceptions-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Obsługa wyjątków dotyczących haseł w GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

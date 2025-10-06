@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 从文档中删除文本签名"
 "url": "/zh/net/signature-management/delete-text-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 从文档中删除文本签名
 
 ## 介绍

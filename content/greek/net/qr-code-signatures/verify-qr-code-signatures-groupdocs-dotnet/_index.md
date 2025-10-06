@@ -4,8 +4,8 @@
 "title": "Πώς να επαληθεύσετε τις υπογραφές κωδικών QR στο .NET χρησιμοποιώντας το GroupDocs.Signature"
 "url": "/el/net/qr-code-signatures/verify-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να εφαρμόσετε την επαλήθευση υπογραφής κώδικα QR χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

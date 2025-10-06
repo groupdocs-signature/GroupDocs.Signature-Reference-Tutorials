@@ -9,8 +9,8 @@ url: "/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 keywords: "PDF QR code signature .NET, encrypt PDF with QR code, digital signature PDF .NET, GroupDocs PDF security, QR code encryption tutorial"
 categories: ["PDF Security"]
 tags: ["groupdocs", "pdf-encryption", "qr-code", "digital-signatures", "dotnet"]
+type: docs
 ---
-
 # PDF QR Code Signature .NET - Complete Encryption
 
 ## Introduction

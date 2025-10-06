@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Security"]
 tags: ["metadata-signatures", "groupdocs-signature", "document-security", "dotnet-tutorials"]
+type: docs
 ---
-
 # Metadata Signature .NET Tutorial - Complete GroupDocs.Signature Guide
 
 Looking to implement secure, invisible document signatures in your .NET applications? You've come to the right place. This comprehensive guide covers everything you need to know about metadata signatures using GroupDocs.Signature for .NET - from basic concepts to advanced implementation techniques.

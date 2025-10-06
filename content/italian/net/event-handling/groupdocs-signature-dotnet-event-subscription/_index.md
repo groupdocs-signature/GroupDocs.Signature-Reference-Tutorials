@@ -4,8 +4,8 @@
 "title": "Padroneggiare le sottoscrizioni agli eventi nella firma dei documenti con GroupDocs.Signature per .NET | Guida passo passo"
 "url": "/it/net/event-handling/groupdocs-signature-dotnet-event-subscription/"
 "weight": 1
+type: docs
 ---
-
 # Padroneggiare la sottoscrizione di eventi nella firma di documenti con GroupDocs.Signature per .NET
 
 ## Introduzione

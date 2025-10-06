@@ -4,8 +4,8 @@
 "title": "التحقق من توقيعات الباركود في ملفات ZIP باستخدام GroupDocs.Signature لـ Java"
 "url": "/ar/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # التحقق من توقيعات الباركود في ملفات ZIP باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

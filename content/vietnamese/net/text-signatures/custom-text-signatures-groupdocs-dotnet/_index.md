@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký văn bản tùy chỉnh trong .NET với GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/net/text-signatures/custom-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký văn bản tùy chỉnh trong .NET với GroupDocs.Signature
 
 Trong thời đại kỹ thuật số ngày nay, việc đảm bảo tính xác thực và toàn vẹn của tài liệu là vô cùng quan trọng. Cho dù đó là hợp đồng, thỏa thuận hay thư từ chính thức, một chữ ký có thể tạo nên sự khác biệt. Hướng dẫn toàn diện này sẽ chỉ cho bạn cách triển khai chữ ký văn bản tùy chỉnh bằng cách sử dụng **GroupDocs.Signature cho .NET**, cho phép bạn cải thiện quy trình làm việc với tài liệu của mình một cách chính xác và phong cách.

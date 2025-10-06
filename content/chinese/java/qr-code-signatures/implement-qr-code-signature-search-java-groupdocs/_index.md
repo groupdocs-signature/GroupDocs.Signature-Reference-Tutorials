@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 Java 中实现二维码签名搜索"
 "url": "/zh/java/qr-code-signatures/implement-qr-code-signature-search-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 Java 中实现二维码签名搜索
 
 ## 介绍

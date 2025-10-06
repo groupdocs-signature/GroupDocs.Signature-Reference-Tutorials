@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 更新 .NET 文档中的文本签名"
 "url": "/zh/net/signature-management/update-text-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 更新 .NET 文档中的文本签名
 
 ## 介绍

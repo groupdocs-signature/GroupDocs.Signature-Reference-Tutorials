@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中进行带有异常处理的数字签名"
 "url": "/zh/net/digital-signatures/digital-signing-exception-handling-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 .NET 中进行带有异常处理的数字签名
 
 ## 介绍

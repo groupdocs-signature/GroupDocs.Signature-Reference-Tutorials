@@ -4,8 +4,8 @@
 "title": "Firma PDF con firma campo modulo in .NET utilizzando GroupDocs.Signature"
 "url": "/it/net/form-field-signatures/sign-pdf-form-field-signature-net-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Come firmare documenti PDF con firma nel campo modulo utilizzando GroupDocs.Signature per .NET
 ## Introduzione
 Hai difficoltà a firmare digitalmente i PDF nelle tue applicazioni .NET? Automatizzare questo processo ti consente di risparmiare tempo, garantendo al contempo accuratezza e sicurezza. Questo tutorial ti guiderà nella firma fluida di un documento PDF utilizzando le firme nei campi modulo con GroupDocs.Signature per .NET.

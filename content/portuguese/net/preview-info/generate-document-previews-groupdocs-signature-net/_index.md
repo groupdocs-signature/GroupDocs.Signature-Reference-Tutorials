@@ -4,8 +4,8 @@
 "title": "Gere visualizações de documentos em arquivos usando GroupDocs.Signature para .NET - Um guia completo"
 "url": "/pt/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Gere visualizações de documentos a partir de arquivos com GroupDocs.Signature para .NET
 
 ## Introdução

@@ -4,8 +4,8 @@
 "title": "ลงนามในเอกสาร PDF ด้วยลายเซ็นข้อความใน C# โดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/text-signatures/sign-pdf-text-signature-csharp-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # ลงนามในเอกสาร PDF ด้วยลายเซ็นข้อความใน C# โดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

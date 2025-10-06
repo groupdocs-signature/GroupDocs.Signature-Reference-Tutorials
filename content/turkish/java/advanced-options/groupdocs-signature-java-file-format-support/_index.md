@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java'da Ana Dosya Biçimi Desteği - Kapsamlı Bir Kılavuz"
 "url": "/tr/java/advanced-options/groupdocs-signature-java-file-format-support/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java'da Ana Dosya Biçimi Desteği: Kapsamlı Bir Kılavuz
 
 ## giriiş

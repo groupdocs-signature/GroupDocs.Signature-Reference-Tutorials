@@ -4,8 +4,8 @@
 "title": "Menerapkan Tanda Tangan Teks Kustom di .NET dengan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/net/text-signatures/custom-text-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Tanda Tangan Teks Kustom di .NET dengan GroupDocs.Signature
 
 Di era digital saat ini, memastikan keaslian dan integritas dokumen sangatlah penting. Baik itu kontrak, perjanjian, maupun surat resmi, tanda tangan dapat membuat perbedaan besar. Panduan lengkap ini akan menunjukkan cara menerapkan tanda tangan teks yang dapat disesuaikan menggunakan **GroupDocs.Signature untuk .NET**, memungkinkan Anda meningkatkan alur kerja dokumen Anda dengan presisi dan gaya.

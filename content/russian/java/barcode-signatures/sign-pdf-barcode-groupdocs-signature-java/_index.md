@@ -4,8 +4,8 @@
 "title": "Подписание PDF-документов штрихкодом с помощью GroupDocs.Signature для Java&#58; подробное руководство"
 "url": "/ru/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Подписание PDF-документов штрихкодом с помощью GroupDocs.Signature для Java: подробное руководство
 
 ## Введение

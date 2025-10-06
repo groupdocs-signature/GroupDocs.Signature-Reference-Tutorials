@@ -4,8 +4,8 @@
 "title": "Como pesquisar assinaturas de metadados em planilhas usando GroupDocs.Signature para .NET"
 "url": "/pt/net/metadata-signatures/search-metadata-signatures-spreadsheets-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Como pesquisar assinaturas de metadados em uma planilha usando GroupDocs.Signature para .NET
 
 ## Introdução

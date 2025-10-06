@@ -4,8 +4,8 @@
 "title": "Cách triển khai chữ ký văn bản trong PDF bằng GroupDocs.Signature cho Java - Hướng dẫn đầy đủ"
 "url": "/vi/java/text-signatures/groupdocs-signature-java-text-signatures-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai chữ ký văn bản trong tệp PDF bằng GroupDocs.Signature cho Java
 
 **Tối ưu hóa quy trình làm việc của tài liệu: Hướng dẫn toàn diện về tìm kiếm và quản lý chữ ký văn bản trong PDF với GroupDocs.Signature cho Java**

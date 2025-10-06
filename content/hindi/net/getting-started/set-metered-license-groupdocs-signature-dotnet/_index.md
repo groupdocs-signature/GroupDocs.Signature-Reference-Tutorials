@@ -4,8 +4,8 @@
 "title": ".NET में GroupDocs.Signature के लिए मीटर्ड लाइसेंस कैसे सेट करें - एक व्यापक गाइड"
 "url": "/hi/net/getting-started/set-metered-license-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET में GroupDocs.Signature के लिए मीटर्ड लाइसेंस कैसे सेट करें: एक व्यापक गाइड
 
 ## परिचय

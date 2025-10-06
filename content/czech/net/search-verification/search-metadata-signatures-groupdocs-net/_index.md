@@ -4,8 +4,8 @@
 "title": "Vyhledávání podpisů metadat v obrazových dokumentech pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/search-verification/search-metadata-signatures-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak vyhledávat podpisy metadat v obrazových dokumentech pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

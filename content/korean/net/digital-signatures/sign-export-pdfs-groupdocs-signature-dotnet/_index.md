@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 PDF 서명 및 내보내기"
 "url": "/ko/net/digital-signatures/sign-export-pdfs-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 PDF 서명 및 내보내기
 
 ## 소개

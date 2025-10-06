@@ -4,8 +4,8 @@
 "title": "Bemästra sökning efter digitala signaturer i PDF-filer med GroupDocs.Signature för .NET"
 "url": "/sv/net/search-verification/master-digital-signature-search-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Bemästra digitala signatursökningar i PDF-filer med GroupDocs.Signature för .NET
 
 ## Introduktion

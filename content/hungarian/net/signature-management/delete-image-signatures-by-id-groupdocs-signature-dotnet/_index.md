@@ -4,8 +4,8 @@
 "title": "Képaláírások törlése azonosító alapján a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/signature-management/delete-image-signatures-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Átfogó útmutató a képaláírások azonosító szerinti törléséhez a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

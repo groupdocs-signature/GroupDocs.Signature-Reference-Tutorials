@@ -4,8 +4,8 @@
 "title": "Samouczek dotyczący podpisu metodą Java Stamp Signature — jak podpisywać pliki PDF za pomocą interfejsu API GroupDocs.Signature"
 "url": "/pl/java/image-signatures/java-groupdocs-signature-stamp-tutorial/"
 "weight": 1
+type: docs
 ---
-
 # Samouczek Java Stamp Signature: Podpisywanie dokumentów PDF za pomocą interfejsu API GroupDocs.Signature
 
 dzisiejszym cyfrowym świecie wydajne i bezpieczne podpisywanie dokumentów jest kluczowe zarówno dla firm, jak i osób prywatnych. Niezależnie od tego, czy autoryzujesz umowy, czy weryfikujesz dokumenty, cyfrowe zapewnienie autentyczności może zaoszczędzić czas i zasoby. Ten kompleksowy samouczek przeprowadzi Cię przez proces korzystania z interfejsu API GroupDocs.Signature for Java do podpisywania dokumentów PDF za pomocą niestandardowego podpisu pieczęcią. Wykonując ten krok po kroku proces, dowiesz się, jak dodawać linie zewnętrzne i wewnętrzne z określonym tekstem, stylami czcionek, kolorami i pozycjonowaniem.

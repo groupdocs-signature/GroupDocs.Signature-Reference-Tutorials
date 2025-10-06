@@ -4,8 +4,8 @@
 "title": "Υλοποίηση αναζήτησης υπογραφής κώδικα QR με το GroupDocs.Signature για Java"
 "url": "/el/java/search-verification/groupdocs-signature-java-qr-code-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση αναζήτησης υπογραφής κώδικα QR με το GroupDocs.Signature για Java
 
 Στο σημερινό ψηφιακό τοπίο, η αποτελεσματική επαλήθευση των ηλεκτρονικών υπογραφών είναι ζωτικής σημασίας σε διάφορους κλάδους. **GroupDocs.Signature για Java** προσφέρει μια ισχυρή λύση, ειδικά για την αναζήτηση και διαχείριση υπογραφών κωδικού QR σε έγγραφα. Αυτό το σεμινάριο σας καθοδηγεί στην εφαρμογή αναζήτησης υπογραφής κωδικού QR χρησιμοποιώντας το GroupDocs.Signature σε Java.

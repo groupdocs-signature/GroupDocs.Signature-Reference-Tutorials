@@ -4,8 +4,8 @@
 "title": "Java-encryptie en metadatahandtekening&#58; veilige documentverwerking met GroupDocs.Signature"
 "url": "/nl/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementatie van Java-encryptie en metadata-handtekeningzoekopdrachten met GroupDocs.Signature voor Java
 
 ## Invoering

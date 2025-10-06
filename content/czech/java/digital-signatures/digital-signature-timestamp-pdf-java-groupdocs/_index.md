@@ -4,8 +4,8 @@
 "title": "Implementace digitálních podpisů s časovými razítky v PDF pomocí Javy a GroupDocs.Signature"
 "url": "/cs/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Implementace digitálních podpisů s časovými razítky v PDF pomocí Javy a GroupDocs.Signature
 
 ## Zavedení

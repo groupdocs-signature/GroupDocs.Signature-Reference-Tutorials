@@ -4,8 +4,8 @@
 "title": "Cómo firmar archivos PDF con texto usando GroupDocs.Signature para Java&#58; una guía completa"
 "url": "/es/java/text-signatures/sign-pdf-text-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cómo firmar un PDF con texto usando GroupDocs.Signature para Java
 
 ## Introducción

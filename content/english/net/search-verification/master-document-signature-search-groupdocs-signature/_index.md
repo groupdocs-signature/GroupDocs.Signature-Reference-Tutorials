@@ -9,8 +9,8 @@ weight: 1
 url: "/net/search-verification/master-document-signature-search-groupdocs-signature/"
 categories: [".NET Development"]
 tags: ["groupdocs", "document-processing", "signature-verification", "qr-codes"]
+type: docs
 ---
-
 # Document Signature Search in .NET: Your Complete GroupDocs.Signature Guide
 
 Ever found yourself manually checking documents for signatures, QR codes, or embedded data? If you're working with .NET and dealing with document verification, you're probably familiar with this time-consuming process. Here's the good news: GroupDocs.Signature for .NET can automate virtually all of it.

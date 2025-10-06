@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 進行 Java 數位文件驗證－綜合指南"
 "url": "/zh-hant/java/digital-signatures/java-groupdocs-signature-digital-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 實作 Java 數位文件驗證
 
 ## 介紹

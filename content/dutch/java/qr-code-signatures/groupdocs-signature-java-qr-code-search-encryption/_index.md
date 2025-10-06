@@ -4,8 +4,8 @@
 "title": "QR-code zoeken en versleutelen in Java Master GroupDocs.Signature voor veilige documentverwerking"
 "url": "/nl/java/qr-code-signatures/groupdocs-signature-java-qr-code-search-encryption/"
 "weight": 1
+type: docs
 ---
-
 # QR-code zoeken en versleutelen in Java: Master GroupDocs.Signature voor veilige documentverwerking
 
 ## Invoering

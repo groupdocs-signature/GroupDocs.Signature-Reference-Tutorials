@@ -6,8 +6,8 @@
 "title": "GroupDocs.Signature - Digitális dokumentumaláíró API .NET és Java rendszerekhez | Teljes körű útmutató"
 "url": "/hu/"
 "weight": 11
+type: docs
 ---
-
 # GroupDocs.Signature: Teljes körű digitális dokumentumaláírási megoldás fejlesztők számára
 
 ![GroupDocs.Signature banner](./groupdocs-signature-net.svg)

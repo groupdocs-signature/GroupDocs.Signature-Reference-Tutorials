@@ -4,8 +4,8 @@
 "title": "Como assinar documentos usando adesivo de texto no GroupDocs.Signature para .NET"
 "url": "/pt/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Como assinar documentos usando adesivos de texto no GroupDocs.Signature para .NET
 
 ## Introdução

@@ -4,8 +4,8 @@
 "title": "Opanuj cyfrowe podpisy w plikach PDF z niestandardowym wyglądem, korzystając z GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie podpisów cyfrowych w plikach PDF z niestandardowym wyglądem przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

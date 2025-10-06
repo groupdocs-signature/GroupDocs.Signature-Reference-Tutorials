@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 문서에서 특정 서명을 삭제하는 방법"
 "url": "/ko/java/signature-management/delete-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 문서에서 특정 유형의 서명을 삭제하는 방법
 
 ## 소개

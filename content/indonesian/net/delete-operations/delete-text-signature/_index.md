@@ -5,8 +5,8 @@
 "title": "Cara Menghapus Tanda Tangan Teks dari Dokumen di .NET"
 "url": "/id/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # Cara Menghapus Tanda Tangan Teks dari Dokumen Anda dengan GroupDocs.Signature
 
 ## Mengapa Anda Perlu Menghapus Tanda Tangan Teks?

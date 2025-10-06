@@ -4,8 +4,8 @@
 "title": "Πώς να ενημερώσετε τις υπογραφές εικόνας σε PDF χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/image-signatures/update-image-signatures-pdf-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να ενημερώσετε τις υπογραφές εικόνας σε PDF χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

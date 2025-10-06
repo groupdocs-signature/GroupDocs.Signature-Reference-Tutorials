@@ -8,10 +8,8 @@ keywords:
 - digital signature search in Java
 - GroupDocs.Signature implementation
 - search digital signatures PDF
-
+type: docs
 ---
-
-
 # Master Digital Signature Searches in Java Using GroupDocs.Signature: A Comprehensive Guide
 
 **Discover the power of searching digital signatures with GroupDocs.Signature for Java!**

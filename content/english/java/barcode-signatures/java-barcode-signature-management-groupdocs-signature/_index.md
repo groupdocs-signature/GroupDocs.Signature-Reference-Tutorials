@@ -9,8 +9,8 @@ weight: 1
 url: "/java/barcode-signatures/java-barcode-signature-management-groupdocs-signature/"
 categories: ["Java Development"]
 tags: ["barcode-signatures", "document-management", "java-libraries", "electronic-signatures"]
+type: docs
 ---
-
 # How to Manage Barcode Signatures in Java
 
 Ever spent hours trying to validate signed documents programmatically, only to end up wrestling with PDF libraries that weren't designed for signature management? You're not alone. Managing electronic signatures—especially barcode signatures—can be a real pain point when you're building document workflows.

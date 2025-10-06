@@ -4,8 +4,8 @@
 "title": "Come implementare le opzioni di firma del timbro utilizzando GroupDocs.Signature per .NET&#58; una guida completa"
 "url": "/it/net/image-signatures/implement-stamp-sign-options-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come implementare le opzioni di firma del timbro utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

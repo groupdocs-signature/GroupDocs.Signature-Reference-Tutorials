@@ -4,8 +4,8 @@
 "title": "Hoe u barcodehandtekeningzoekopdrachten in Java implementeert met GroupDocs.Signature"
 "url": "/nl/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u barcodehandtekeningzoekopdrachten in Java implementeert met GroupDocs.Signature
 
 ## Invoering

@@ -4,8 +4,8 @@
 "title": "Υλοποίηση υπογραφής κώδικα QR και μετατροπής PDF σε Java χρησιμοποιώντας το GroupDocs.Signature API"
 "url": "/el/java/qr-code-signatures/java-signature-api-groupdocs-qr-codes-pdf-conversion/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση υπογραφής κώδικα QR και μετατροπής PDF σε Java χρησιμοποιώντας το GroupDocs.Signature API
 
 ## Εισαγωγή

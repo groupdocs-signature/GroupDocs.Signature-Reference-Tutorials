@@ -4,8 +4,8 @@
 "title": "Hämta dokumentprocesshistorik med GroupDocs.Signature för Java – en omfattande guide"
 "url": "/sv/java/preview-info/retrieve-document-process-history-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Hämta dokumentprocesshistorik med GroupDocs.Signature för Java
 
 ## Introduktion

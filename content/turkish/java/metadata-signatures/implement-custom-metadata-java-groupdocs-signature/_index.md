@@ -4,8 +4,8 @@
 "title": "Gelişmiş Belge İmzalama için GroupDocs.Signature Kullanarak Java'da Özel Meta Verileri Uygulayın"
 "url": "/tr/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature ile Java'da Özel Meta Verileri Uygulama
 
 ## giriiş

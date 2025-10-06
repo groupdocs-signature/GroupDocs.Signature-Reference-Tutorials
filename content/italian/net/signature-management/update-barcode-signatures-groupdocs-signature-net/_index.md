@@ -4,8 +4,8 @@
 "title": "Come aggiornare le firme dei codici a barre in base all'ID utilizzando GroupDocs.Signature per .NET"
 "url": "/it/net/signature-management/update-barcode-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Come aggiornare le firme dei codici a barre in base all'ID utilizzando GroupDocs.Signature per .NET
 
 ## Introduzione

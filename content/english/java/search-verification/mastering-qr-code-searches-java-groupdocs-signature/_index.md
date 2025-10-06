@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature
 - Java
 - Document Processing
-
+type: docs
 ---
-
-
 # Mastering QR Code Searches in Java: A Complete Guide Using GroupDocs.Signature
 
 ## Introduction

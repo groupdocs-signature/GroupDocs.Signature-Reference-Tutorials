@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET Kullanarak Metin Filigranlı Belgeleri Güvenli Hale Getirme Kapsamlı Bir Kılavuz"
 "url": "/tr/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Belgelerde Metin Filigranları Nasıl Uygulanır?
 
 ## giriiş

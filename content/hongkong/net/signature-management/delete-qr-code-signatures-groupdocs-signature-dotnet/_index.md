@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 有效率地刪除二維碼簽章 | 簽章管理指南"
 "url": "/zh-hant/net/signature-management/delete-qr-code-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 刪除二維碼簽名
 
 ## 介紹

@@ -4,8 +4,8 @@
 "title": "Εξοικείωση με την Αναζήτηση Υπογραφής Εγγράφου με το GroupDocs.Signature για Java - Ένας Πλήρης Οδηγός"
 "url": "/el/java/search-verification/groupdocs-signature-java-document-signature-search/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την Αναζήτηση Υπογραφής Εγγράφου με το GroupDocs.Signature για Java
 
 ## Εισαγωγή

@@ -5,8 +5,8 @@
 "title": "Jak odstranit textové podpisy z dokumentů v .NET"
 "url": "/cs/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # Jak odstranit textové podpisy z dokumentů pomocí GroupDocs.Signature
 
 ## Proč byste měli mazat textové podpisy?

@@ -5,8 +5,8 @@
 "title": "So rufen Sie Dokumentinformationen mit GroupDocs.Signature ab"
 "url": "/de/net/document-preview-operations/retrieve-document-information/"
 "weight": 11
+type: docs
 ---
-
 # So rufen Sie Dokumentinformationen mit GroupDocs.Signature ab
 
 ## Einführung

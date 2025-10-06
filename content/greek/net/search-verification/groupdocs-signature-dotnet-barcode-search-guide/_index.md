@@ -4,8 +4,8 @@
 "title": "Αναζήτηση κύριου εγγράφου με το GroupDocs.Signature για οδηγό επαλήθευσης υπογραφής γραμμωτού κώδικα .NET"
 "url": "/el/net/search-verification/groupdocs-signature-dotnet-barcode-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # Εξοικείωση με την αναζήτηση εγγράφων με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

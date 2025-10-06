@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して PDF 内の HIBC LIC データの QR コード署名検索を実装する方法"
 "url": "/ja/java/qr-code-signatures/implement-qr-code-signature-search-hibc-primary-data-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して PDF 内の HIBC LIC データの QR コード署名検索を実装する方法
 
 ## 導入

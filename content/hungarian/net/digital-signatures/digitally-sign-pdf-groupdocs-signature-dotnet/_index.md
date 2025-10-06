@@ -4,8 +4,8 @@
 "title": "PDF-ek digitális aláírása a GroupDocs.Signature for .NET használatával – lépésről lépésre útmutató"
 "url": "/hu/net/digital-signatures/digitally-sign-pdf-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # PDF dokumentum digitális aláírása a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

@@ -4,8 +4,8 @@
 "title": "GroupDocs for Java でドキュメント内の画像署名検索をマスターする - 総合ガイド"
 "url": "/ja/java/search-verification/groupdocs-signature-java-image-search/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs for Java でドキュメント内の画像署名検索をマスターする: 総合ガイド
 
 ## 導入

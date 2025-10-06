@@ -8,10 +8,8 @@ keywords:
 - Java certificate verification
 - GroupDocs.Signature for Java
 - digital certificate authentication
-
+type: docs
 ---
-
-
 # Implementing Java Certificate Verification with GroupDocs.Signature for Java
 
 ## Introduction

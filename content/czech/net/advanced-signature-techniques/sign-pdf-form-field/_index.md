@@ -5,8 +5,8 @@
 "title": "Jak podepisovat PDF dokumenty pomocí formulářových polí v .NET"
 "url": "/cs/net/advanced-signature-techniques/sign-pdf-form-field/"
 "weight": 10
+type: docs
 ---
-
 # Jak podepsat PDF dokumenty pomocí formulářových polí pomocí GroupDocs.Signature
 
 Hledáte spolehlivý způsob, jak přidat digitální podpisy do dokumentů PDF pomocí formulářových polí? V tomto komplexním průvodci vás provedeme procesem s GroupDocs.Signature pro .NET. Pojďme transformovat váš pracovní postup s dokumenty pomocí bezpečných a právně závazných podpisů!

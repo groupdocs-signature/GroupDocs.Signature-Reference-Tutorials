@@ -4,8 +4,8 @@
 "title": "Documenten ondertekenen met QR-codes met GroupDocs.Signature voor Java&#58; een complete gids"
 "url": "/nl/java/qr-code-signatures/sign-documents-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Documenten ondertekenen met QR-codes met GroupDocs.Signature voor Java: een uitgebreide handleiding
 
 In de digitale wereld van vandaag is het beveiligen van documenten cruciaal. Of u nu een professional bent of een particulier die gevoelige informatie verwerkt, het waarborgen van de integriteit en authenticiteit van documenten is van het grootste belang. **GroupDocs.Signature voor Java**—een krachtige bibliotheek—maakt het mogelijk om documenten te ondertekenen met verschillende methoden, waaronder QR-codes. Deze handleiding begeleidt u bij het downloaden van documenten uit Azure Blob Storage en het ondertekenen ervan met QR-codes met GroupDocs.Signature.

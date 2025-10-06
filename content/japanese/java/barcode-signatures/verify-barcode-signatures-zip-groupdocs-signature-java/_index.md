@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して ZIP ファイル内のバーコード署名を検証する"
 "url": "/ja/java/barcode-signatures/verify-barcode-signatures-zip-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して ZIP ファイル内のバーコード署名を検証する
 
 ## 導入

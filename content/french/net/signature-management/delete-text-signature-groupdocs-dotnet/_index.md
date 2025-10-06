@@ -4,8 +4,8 @@
 "title": "Comment supprimer une signature textuelle d'un document à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/signature-management/delete-text-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Comment supprimer une signature textuelle d'un document à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

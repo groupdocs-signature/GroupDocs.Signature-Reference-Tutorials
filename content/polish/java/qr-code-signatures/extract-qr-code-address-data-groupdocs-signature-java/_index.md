@@ -4,8 +4,8 @@
 "title": "Wyodrębnij dane adresowe kodu QR za pomocą GroupDocs.Signature dla Java™ – kompleksowy przewodnik"
 "url": "/pl/java/qr-code-signatures/extract-qr-code-address-data-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak wyodrębnić dane adresowe z kodu QR za pomocą GroupDocs.Signature dla języka Java
 
 ## Wstęp

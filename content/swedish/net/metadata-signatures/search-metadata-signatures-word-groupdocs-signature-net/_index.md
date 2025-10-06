@@ -4,8 +4,8 @@
 "title": "Så här söker du efter metadatasignaturer i Word-dokument med GroupDocs.Signature för .NET"
 "url": "/sv/net/metadata-signatures/search-metadata-signatures-word-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Så här söker du efter metadatasignaturer i Word-dokument med GroupDocs.Signature för .NET
 
 ## Introduktion

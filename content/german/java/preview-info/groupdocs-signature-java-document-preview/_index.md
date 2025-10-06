@@ -4,8 +4,8 @@
 "title": "Implementieren Sie die Generierung einer Dokumentvorschau in Java mit GroupDocs.Signature – Ein umfassender Leitfaden"
 "url": "/de/java/preview-info/groupdocs-signature-java-document-preview/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren der Dokumentvorschau-Generierung in Java mit GroupDocs.Signature
 
 ## Einführung

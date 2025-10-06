@@ -4,8 +4,8 @@
 "title": "Implementace šifrování XOR v .NET pomocí GroupDocs.Signature – Komplexní průvodce"
 "url": "/cs/net/advanced-options/xor-encryption-dotnet-groupdocs-signature-integration-guide/"
 "weight": 1
+type: docs
 ---
-
 # Implementace šifrování XOR v .NET pomocí GroupDocs.Signature: Komplexní průvodce
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "GroupDocs का उपयोग करके PDF में डिजिटल हस्ताक्षर कैसे सत्यापित करें. Java के लिए हस्ताक्षर एक चरण-दर-चरण मार्गदर्शिका"
 "url": "/hi/java/digital-signatures/verify-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs का उपयोग करके PDF में डिजिटल हस्ताक्षर कैसे सत्यापित करें। Java के लिए हस्ताक्षर: एक चरण-दर-चरण मार्गदर्शिका
 
 ## परिचय

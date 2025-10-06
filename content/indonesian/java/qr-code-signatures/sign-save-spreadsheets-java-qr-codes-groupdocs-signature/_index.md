@@ -4,8 +4,8 @@
 "title": "Menandatangani & Menyimpan Spreadsheet Excel dengan Kode QR di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/qr-code-signatures/sign-save-spreadsheets-java-qr-codes-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menandatangani & Menyimpan Spreadsheet Excel dengan Kode QR di Java Menggunakan GroupDocs.Signature
 
 ## Perkenalan

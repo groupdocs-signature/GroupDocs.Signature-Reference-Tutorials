@@ -4,8 +4,8 @@
 "title": "Ký tài liệu PDF bằng hình ảnh Base64 và GroupDocs.Signature cho .NET"
 "url": "/vi/net/image-signatures/sign-pdf-base64-image-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu PDF bằng hình ảnh Base64 với GroupDocs.Signature cho .NET
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Java'da GroupDocs.Signature'ı Kullanarak Metin, Onay Kutusu ve Dijital Alanlar için PDF Dijital İmzalarında Ustalaşma"
 "url": "/tr/java/digital-signatures/sign-pdfs-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java'da PDF Dijital İmzalarında Ustalaşma: Metin, Onay Kutusu ve Dijital Alanlar için GroupDocs.Signature Kullanımı
 
 ## giriiş

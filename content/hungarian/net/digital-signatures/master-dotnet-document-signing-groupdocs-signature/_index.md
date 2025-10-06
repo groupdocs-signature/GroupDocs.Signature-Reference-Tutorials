@@ -4,8 +4,8 @@
 "title": "Master .NET dokumentumaláírás a GroupDocs.Signature segítségével biztonságos digitális aláírásokhoz"
 "url": "/hu/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # .NET dokumentumaláírás elsajátítása a GroupDocs.Signature segítségével
 
 ## Bevezetés

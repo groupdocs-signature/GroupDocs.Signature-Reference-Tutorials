@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 擷取電子表格元資料－綜合指南"
 "url": "/zh-hant/java/metadata-signatures/extract-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 擷取電子表格元數據
 
 ## 介紹

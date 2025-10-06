@@ -4,8 +4,8 @@
 "title": "Xác minh tài liệu chính với GroupDocs.Signature cho Java - Hướng dẫn toàn diện"
 "url": "/vi/java/search-verification/groupdocs-signature-java-document-verification-guide/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ việc xác minh tài liệu với GroupDocs.Signature cho Java
 
 Trong bối cảnh kỹ thuật số ngày nay, việc xác minh tính xác thực của tài liệu là điều cần thiết để duy trì bảo mật và niềm tin trong nhiều lĩnh vực. Hướng dẫn này hướng dẫn bạn cách tích hợp xác minh chữ ký văn bản, mã vạch và mã QR vào ứng dụng của mình bằng GroupDocs.Signature for Java.

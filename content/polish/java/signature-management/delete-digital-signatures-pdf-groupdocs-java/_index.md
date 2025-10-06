@@ -4,8 +4,8 @@
 "title": "Jak usunąć podpisy cyfrowe z plików PDF za pomocą GroupDocs.Signature dla Java"
 "url": "/pl/java/signature-management/delete-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Jak usunąć podpisy cyfrowe z pliku PDF za pomocą GroupDocs.Signature dla Java
 
 ## Wstęp

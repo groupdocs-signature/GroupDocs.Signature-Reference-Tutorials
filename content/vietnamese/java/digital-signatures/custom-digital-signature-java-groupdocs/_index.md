@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký số tùy chỉnh trong Java với GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/java/digital-signatures/custom-digital-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký số tùy chỉnh trong Java với GroupDocs.Signature
 
 Trong thời đại kỹ thuật số ngày nay, việc đảm bảo tính toàn vẹn và xác thực của tài liệu là vô cùng quan trọng. Chữ ký truyền thống thường không đủ khả năng xác minh tính hợp lệ của tài liệu được chia sẻ qua phương thức điện tử. Hướng dẫn toàn diện này sẽ hướng dẫn bạn cách triển khai chữ ký số tùy chỉnh bằng cách sử dụng **GroupDocs.Signature cho Java**, cung cấp mức độ bảo mật và tính chuyên nghiệp cao hơn cho các tài liệu kỹ thuật số của bạn.

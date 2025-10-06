@@ -4,8 +4,8 @@
 "title": "So entfernen Sie Bildsignaturen aus Dokumenten mit GroupDocs.Signature für Java"
 "url": "/de/java/signature-management/delete-image-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # So entfernen Sie Bildsignaturen aus Dokumenten mit GroupDocs.Signature für Java
 
 Die Verwaltung digitaler Signaturen ist entscheidend für die Integrität und Authentizität von Dokumenten. Ob Großunternehmen, die Verträge verwalten, oder Kleinbetriebe, die Rechnungen bearbeiten – das Entfernen veralteter oder fehlerhafter Bildsignaturen kann die Dokumentenverwaltung optimieren. Dieses Tutorial führt Sie durch das Löschen von Bildsignaturen anhand bekannter IDs mit GroupDocs.Signature für Java.

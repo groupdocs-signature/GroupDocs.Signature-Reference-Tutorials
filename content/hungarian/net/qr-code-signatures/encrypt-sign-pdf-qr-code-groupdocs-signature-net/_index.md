@@ -4,8 +4,8 @@
 "title": "PDF-ek titkosítása és aláírása QR-kódokkal a GroupDocs.Signature for .NET használatával"
 "url": "/hu/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # PDF-ek titkosítása és aláírása QR-kódokkal a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

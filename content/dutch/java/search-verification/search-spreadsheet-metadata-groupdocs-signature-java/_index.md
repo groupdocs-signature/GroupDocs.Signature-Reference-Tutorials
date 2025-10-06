@@ -4,8 +4,8 @@
 "title": "Hoe u spreadsheetmetagegevens kunt doorzoeken met GroupDocs.Signature voor Java&#58; een uitgebreide handleiding"
 "url": "/nl/java/search-verification/search-spreadsheet-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Spreadsheetmetagegevens zoeken met GroupDocs.Signature voor Java: een uitgebreide handleiding
 
 ## Invoering

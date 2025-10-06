@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani Dokumen Word dengan Metadata Menggunakan GroupDocs.Signature untuk .NET | Panduan Langkah demi Langkah"
 "url": "/id/net/metadata-signatures/sign-word-docs-metadata-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen Word dengan Metadata Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

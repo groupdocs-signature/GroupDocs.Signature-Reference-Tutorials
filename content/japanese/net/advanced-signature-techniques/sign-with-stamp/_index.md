@@ -5,8 +5,8 @@
 "title": "GroupDocs.Signature を使って文書にスタンプ署名を追加する方法"
 "url": "/ja/net/advanced-signature-techniques/sign-with-stamp/"
 "weight": 16
+type: docs
 ---
-
 # .NET ドキュメントにプロフェッショナルなスタンプ署名を追加する方法
 
 ## スタンプ署名で何が達成できるでしょうか?

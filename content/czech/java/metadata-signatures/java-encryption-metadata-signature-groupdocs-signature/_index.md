@@ -4,8 +4,8 @@
 "title": "Šifrování v Javě a podpis metadat – Bezpečné zpracování dokumentů pomocí GroupDocs.Signature"
 "url": "/cs/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementace šifrování Java a vyhledávání podpisů metadat pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

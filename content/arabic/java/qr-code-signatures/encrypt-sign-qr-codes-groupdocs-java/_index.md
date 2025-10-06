@@ -4,8 +4,8 @@
 "title": "تشفير وتوقيع رموز الاستجابة السريعة (QR Codes) في Java باستخدام GroupDocs.Signature - دليل شامل"
 "url": "/ar/java/qr-code-signatures/encrypt-sign-qr-codes-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # تشفير وتوقيع رموز الاستجابة السريعة (QR Codes) باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

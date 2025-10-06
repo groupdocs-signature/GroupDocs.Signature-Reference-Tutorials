@@ -4,8 +4,8 @@
 "title": "Kompleksowy przewodnik po GroupDocs.Signature dla Java – podstawy podpisu cyfrowego"
 "url": "/pl/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Kompleksowy przewodnik po GroupDocs.Signature dla Java: podstawy podpisu cyfrowego
 
 ## Wstęp

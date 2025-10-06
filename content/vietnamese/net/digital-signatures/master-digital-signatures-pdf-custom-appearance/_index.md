@@ -4,8 +4,8 @@
 "title": "Chữ ký số chuyên nghiệp trong PDF với giao diện tùy chỉnh bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/digital-signatures/master-digital-signatures-pdf-custom-appearance/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký số trong PDF với giao diện tùy chỉnh bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

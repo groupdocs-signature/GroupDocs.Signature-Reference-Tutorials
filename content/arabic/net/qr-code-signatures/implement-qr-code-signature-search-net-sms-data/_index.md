@@ -4,8 +4,8 @@
 "title": "تنفيذ بحث توقيع رمز الاستجابة السريعة في .NET لاستخراج بيانات الرسائل القصيرة باستخدام GroupDocs.Signature"
 "url": "/ar/net/qr-code-signatures/implement-qr-code-signature-search-net-sms-data/"
 "weight": 1
+type: docs
 ---
-
 # تنفيذ البحث عن توقيع رمز الاستجابة السريعة في .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

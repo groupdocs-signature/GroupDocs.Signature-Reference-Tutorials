@@ -5,8 +5,8 @@
 "title": "Cerca campi modulo nei documenti"
 "url": "/it/net/signature-searching/search-for-form-fields/"
 "weight": 12
+type: docs
 ---
-
 ## Introduzione
 
 Nei moderni sistemi di gestione documentale, i campi modulo svolgono un ruolo cruciale nella raccolta dati, nell'interazione con l'utente e nell'automazione dei documenti. GroupDocs.Signature per .NET offre agli sviluppatori un potente set di strumenti per lavorare con i campi modulo in vari formati di documento, inclusi la ricerca, il recupero e l'elaborazione di questi elementi a livello di codice.

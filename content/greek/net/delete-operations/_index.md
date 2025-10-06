@@ -5,8 +5,8 @@
 "title": "Πλήρης οδηγός για τις λειτουργίες διαγραφής υπογραφής εγγράφου"
 "url": "/el/net/delete-operations/"
 "weight": 20
+type: docs
 ---
-
 # Διαγραφή λειτουργιών στο GroupDocs.Signature για .NET
 
 ## Εισαγωγή

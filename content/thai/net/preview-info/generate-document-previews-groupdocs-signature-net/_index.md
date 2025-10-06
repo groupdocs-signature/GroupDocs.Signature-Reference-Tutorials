@@ -4,8 +4,8 @@
 "title": "สร้างตัวอย่างเอกสารในคลังเอกสารโดยใช้ GroupDocs.Signature สำหรับ .NET คู่มือฉบับสมบูรณ์"
 "url": "/th/net/preview-info/generate-document-previews-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # สร้างตัวอย่างเอกสารจากไฟล์เก็บถาวรด้วย GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

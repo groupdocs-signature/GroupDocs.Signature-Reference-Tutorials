@@ -4,8 +4,8 @@
 "title": "Podpisy tekstowe w języku Java – kompleksowy przewodnik po GroupDocs.Signature dla języka Java"
 "url": "/pl/java/text-signatures/groupdocs-signature-java-text-signatures-guide/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie podpisywania dokumentów w Javie: kompleksowy przewodnik po korzystaniu z GroupDocs.Signature do podpisów tekstowych
 
 ## Wstęp

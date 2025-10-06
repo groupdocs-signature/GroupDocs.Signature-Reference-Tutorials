@@ -4,8 +4,8 @@
 "title": "Implementar uma assinatura de texto com Solid Brush em Java usando GroupDocs.Signature"
 "url": "/pt/java/text-signatures/groupdocs-signature-java-text-solid-brush/"
 "weight": 1
+type: docs
 ---
-
 # Implementar uma assinatura de texto com pincel sólido em Java
 
 ## Introdução

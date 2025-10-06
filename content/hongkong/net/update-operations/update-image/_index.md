@@ -5,8 +5,8 @@
 "title": "更新文件中的影像簽名"
 "url": "/zh-hant/net/update-operations/update-image/"
 "weight": 11
+type: docs
 ---
-
 ## 介紹
 數位文件管理需要強大的簽章功能來確保其真實性和完整性。影像簽名在這個生態系統中發揮著至關重要的作用，它為文件提供視覺驗證和品牌元素。 GroupDocs.Signature for .NET 為開發人員提供了一個強大的框架，使他們能夠在 .NET 應用程式中實現全面的簽名功能，包括更新現有映像簽名的功能。
 

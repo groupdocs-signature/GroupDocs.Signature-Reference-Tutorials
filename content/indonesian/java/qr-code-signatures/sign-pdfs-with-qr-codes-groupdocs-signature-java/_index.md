@@ -4,8 +4,8 @@
 "title": "Cara Menandatangani PDF dengan Kode QR Menggunakan GroupDocs.Signature untuk Java"
 "url": "/id/java/qr-code-signatures/sign-pdfs-with-qr-codes-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menandatangani Dokumen PDF dengan Kode QR Menggunakan GroupDocs.Signature untuk Java
 
 Di era digital saat ini, menandatangani dokumen dengan aman menjadi semakin penting. Baik Anda seorang profesional bisnis maupun individu yang ingin mengautentikasi berkas Anda, alat yang tepat dapat membuat perbedaan besar. Tutorial ini akan memandu Anda dalam menggunakan **GroupDocs.Signature untuk Java** untuk menandatangani dokumen PDF dengan kode QR yang berisi data kompleks seperti objek Mailmark2D. Kami akan membahas semuanya, mulai dari pengaturan lingkungan Anda hingga penerapan fitur-fitur canggih.

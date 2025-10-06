@@ -4,8 +4,8 @@
 "title": "Chữ ký siêu dữ liệu Word an toàn trong Java với GroupDocs - Hướng dẫn toàn diện"
 "url": "/vi/java/metadata-signatures/secure-word-metadata-signatures-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Chữ ký siêu dữ liệu từ an toàn trong Java với GroupDocs
 
 ## Giới thiệu

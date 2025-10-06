@@ -4,8 +4,8 @@
 "title": "Biztonságos metaadat-keresés Java nyelven a GroupDocs.Signature használatával – Átfogó útmutató"
 "url": "/hu/java/search-verification/secure-metadata-search-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Biztonságos metaadat-keresés Java-ban a GroupDocs.Signature használatával
 
 ## Bevezetés

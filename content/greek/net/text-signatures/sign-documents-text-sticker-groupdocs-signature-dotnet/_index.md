@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε έγγραφα χρησιμοποιώντας αυτοκόλλητο κειμένου στο GroupDocs.Signature για .NET"
 "url": "/el/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε έγγραφα χρησιμοποιώντας αυτοκόλλητα κειμένου στο GroupDocs.Signature για .NET
 
 ## Εισαγωγή

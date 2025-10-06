@@ -5,8 +5,8 @@
 "title": "Extrahieren Sie Tabellenkalkulationsmetadaten einfach mit GroupDocs.Signature"
 "url": "/de/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # So extrahieren Sie Metadaten aus Tabellenkalkulationen mit GroupDocs.Signature
 
 ## Warum Tabellenkalkulationsmetadaten wichtig sind

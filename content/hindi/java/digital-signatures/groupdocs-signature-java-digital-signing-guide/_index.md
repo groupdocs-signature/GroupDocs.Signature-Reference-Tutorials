@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java&#58; डिजिटल हस्ताक्षर अनिवार्यताओं के लिए व्यापक मार्गदर्शिका"
 "url": "/hi/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # ग्रुपडॉक्स के लिए व्यापक गाइड.जावा के लिए हस्ताक्षर: डिजिटल हस्ताक्षर अनिवार्यताएं
 
 ## परिचय

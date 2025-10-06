@@ -4,8 +4,8 @@
 "title": "วิธีการค้นหาและดึงข้อมูล SMS จากลายเซ็น QR Code ใน PDF โดยใช้ Java กับ GroupDocs.Signature"
 "url": "/th/java/search-verification/search-extract-qr-codes-sms-data-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการค้นหาและดึงข้อมูล SMS จากลายเซ็น QR Code ใน PDF โดยใช้ Java กับ GroupDocs.Signature
 
 ## การแนะนำ

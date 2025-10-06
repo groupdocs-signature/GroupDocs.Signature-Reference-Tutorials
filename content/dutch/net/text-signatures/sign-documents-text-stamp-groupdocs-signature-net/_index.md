@@ -4,8 +4,8 @@
 "title": "Documenten ondertekenen met een tekststempel met GroupDocs.Signature voor .NET"
 "url": "/nl/net/text-signatures/sign-documents-text-stamp-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Documenten ondertekenen met een tekststempel met GroupDocs.Signature voor .NET
 
 ## Invoering

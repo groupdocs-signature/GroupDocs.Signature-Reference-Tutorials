@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for .NET 使用二维码签名 Word 文档并将其保存为 ODT"
 "url": "/zh/net/qr-code-signatures/sign-word-docs-qr-code-save-odt-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 使用二维码签名 Word 文档并将其保存为 ODT
 
 ## 介绍

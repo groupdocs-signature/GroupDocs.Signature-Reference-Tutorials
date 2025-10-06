@@ -4,8 +4,8 @@
 "title": "So löschen Sie bestimmte Signaturen aus einem Dokument mit GroupDocs.Signature für Java"
 "url": "/de/java/signature-management/delete-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # So löschen Sie bestimmte Arten von Signaturen aus einem Dokument mit GroupDocs.Signature für Java
 
 ## Einführung

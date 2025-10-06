@@ -5,8 +5,8 @@
 "title": "Digitale handtekeningen in documenten verifiëren"
 "url": "/nl/net/verify-operations/verify-digital/"
 "weight": 11
+type: docs
 ---
-
 ## Invoering
 
 Digitale handtekeningen spelen een cruciale rol bij het waarborgen van de authenticiteit, integriteit en onweerlegbaarheid van documenten in moderne bedrijfsprocessen. In tegenstelling tot traditionele handgeschreven handtekeningen gebruiken digitale handtekeningen cryptografische technieken om de identiteit van de ondertekenaar te verifiëren en te garanderen dat het document sinds de ondertekening niet is gewijzigd.

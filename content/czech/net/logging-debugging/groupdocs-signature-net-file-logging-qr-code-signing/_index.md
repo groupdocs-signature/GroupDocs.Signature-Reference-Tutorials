@@ -4,8 +4,8 @@
 "title": "Protokolování souborů a podepisování QR kódů – kompletní průvodce používáním GroupDocs.Signature pro .NET"
 "url": "/cs/net/logging-debugging/groupdocs-signature-net-file-logging-qr-code-signing/"
 "weight": 1
+type: docs
 ---
-
 # Protokolování souborů a podepisování QR kódů: Kompletní průvodce používáním GroupDocs.Signature pro .NET
 
 ## Zavedení

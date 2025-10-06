@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して PDF にメタデータ署名を追加する完全ガイド"
 "url": "/ja/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して PDF にメタデータ署名を追加する
 ## 導入
 今日のデジタル時代において、PDF文書の真正性と整合性を確保することは極めて重要です。契約書を管理する法務担当者でも、機密データを扱う企業でも、メタデータ署名を追加することで、セキュリティとトレーサビリティをさらに強化できます。このガイドでは、GroupDocs.Signature for Javaを使用して、標準的なメタデータ署名をPDFファイルにシームレスに追加する方法について説明します。

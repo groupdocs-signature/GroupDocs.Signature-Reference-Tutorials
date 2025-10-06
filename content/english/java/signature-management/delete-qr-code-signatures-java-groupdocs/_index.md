@@ -8,10 +8,8 @@ keywords:
 - remove QR code signatures Java
 - GroupDocs Signature library delete QR Code
 - manage digital signatures Java
-
+type: docs
 ---
-
-
 # How to Remove QR Code Signatures from Documents Using GroupDocs.Signature for Java
 
 ## Introduction

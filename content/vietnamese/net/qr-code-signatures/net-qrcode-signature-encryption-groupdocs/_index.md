@@ -4,8 +4,8 @@
 "title": "Ký PDF an toàn bằng mã QR được mã hóa trong .NET bằng GroupDocs.Signature"
 "url": "/vi/net/qr-code-signatures/net-qrcode-signature-encryption-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Hướng dẫn toàn diện: Triển khai chữ ký PDF an toàn với mã QR được mã hóa trong .NET bằng GroupDocs.Signature
 
 ## Giới thiệu

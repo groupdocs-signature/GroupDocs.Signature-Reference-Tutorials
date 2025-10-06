@@ -4,8 +4,8 @@
 "title": "Documenten ondertekenen met een tekst./afbeeldingshandtekening in Java met behulp van GroupDocs.Signature"
 "url": "/nl/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Hoe u documentondertekening implementeert met tekst- en afbeeldingshandtekeningen met behulp van GroupDocs.Signature voor Java
 
 ## Invoering

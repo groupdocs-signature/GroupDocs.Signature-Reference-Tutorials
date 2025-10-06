@@ -9,8 +9,8 @@ weight: 1
 url: "/net/advanced-options/master-custom-data-serialization-groupdocs-signature-dotnet/"
 categories: ["NET Development"]
 tags: ["GroupDocs", "serialization", "document-signing", "NET"]
+type: docs
 ---
-
 # GroupDocs Signature Custom Serialization: Complete .NET Tutorial
 
 ## Why Custom Serialization Matters for Document Signing

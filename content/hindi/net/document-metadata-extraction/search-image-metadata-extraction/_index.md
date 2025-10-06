@@ -5,8 +5,8 @@
 "title": "ग्रुपडॉक्स के साथ .NET में छवि मेटाडेटा निकालें और खोजें"
 "url": "/hi/net/document-metadata-extraction/search-image-metadata-extraction/"
 "weight": 10
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके दस्तावेज़ों में छवि मेटाडेटा कैसे खोजें
 
 ## परिचय

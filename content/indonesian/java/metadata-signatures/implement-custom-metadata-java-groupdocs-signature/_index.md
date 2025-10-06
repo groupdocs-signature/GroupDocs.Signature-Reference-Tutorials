@@ -4,8 +4,8 @@
 "title": "Menerapkan Metadata Kustom di Java Menggunakan GroupDocs.Signature untuk Penandatanganan Dokumen yang Lebih Baik"
 "url": "/id/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menerapkan Metadata Kustom di Java dengan GroupDocs.Signature
 
 ## Perkenalan

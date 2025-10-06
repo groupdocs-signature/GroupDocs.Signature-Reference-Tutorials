@@ -4,8 +4,8 @@
 "title": ".NET के लिए GroupDocs.Signature का उपयोग करके आईडी द्वारा पीडीएफ हस्ताक्षर कैसे हटाएं"
 "url": "/hi/net/signature-management/delete-pdf-signatures-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके आईडी द्वारा पीडीएफ हस्ताक्षर कैसे हटाएं
 
 ## परिचय

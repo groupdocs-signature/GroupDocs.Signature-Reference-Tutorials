@@ -5,8 +5,8 @@
 "title": "문서의 바코드 서명 업데이트"
 "url": "/ko/net/update-operations/update-barcode/"
 "weight": 10
+type: docs
 ---
-
 ## 소개
 바코드 서명은 디지털 문서 워크플로에서 구조화된 데이터를 인코딩하여 효율적인 추적, 식별 및 검증을 가능하게 하는 데 널리 사용됩니다. GroupDocs.Signature for .NET은 개발자가 문서 내 기존 바코드 서명을 업데이트하는 기능을 포함하여 고급 서명 기능을 애플리케이션에 통합할 수 있도록 지원하는 포괄적인 문서 서명 솔루션입니다.
 

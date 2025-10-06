@@ -5,8 +5,8 @@
 "title": "更新文檔中的二維碼簽名"
 "url": "/zh-hant/net/update-operations/update-qr-code/"
 "weight": 12
+type: docs
 ---
-
 ## 介紹
 在當今數位優先的商業環境中，二維碼已成為文件管理和身份驗證系統中不可或缺的元素。它們提供了一種便捷的資訊編碼和存取方式，涵蓋從簡單的 URL 到複雜的結構化資料。 GroupDocs.Signature for .NET 提供了一個全面的工具包，使開發人員能夠將高級電子簽名功能整合到他們的應用程式中，包括更新文件中現有二維碼簽名的功能。
 

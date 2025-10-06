@@ -5,8 +5,8 @@
 "title": "Mencari Tanda Tangan Digital dalam Dokumen"
 "url": "/id/net/signature-searching/search-for-digital-signatures/"
 "weight": 11
+type: docs
 ---
-
 ## Perkenalan
 
 Dalam lanskap digital saat ini, memastikan keaslian dan integritas dokumen sangat penting bagi bisnis dan organisasi. Tanda tangan digital menyediakan mekanisme yang andal untuk memverifikasi keaslian dokumen dan mendeteksi modifikasi yang tidak sah. GroupDocs.Signature untuk .NET menawarkan solusi komprehensif untuk bekerja dengan tanda tangan digital dalam berbagai format dokumen, yang memungkinkan pengembang untuk mengintegrasikan fungsionalitas tanda tangan dengan lancar ke dalam aplikasi .NET mereka.

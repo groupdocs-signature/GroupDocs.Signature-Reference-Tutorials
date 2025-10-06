@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในไฟล์ PDF ด้วยข้อมูลเมตาและการเข้ารหัสโดยใช้ GroupDocs.Signature สำหรับ .NET | คู่มือการปกป้องเอกสารอย่างปลอดภัย"
 "url": "/th/net/document-protection/sign-pdfs-metadata-encryption-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามใน PDF ด้วยข้อมูลเมตาและการเข้ารหัสโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

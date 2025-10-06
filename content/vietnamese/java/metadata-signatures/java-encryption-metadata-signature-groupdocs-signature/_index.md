@@ -4,8 +4,8 @@
 "title": "Mã hóa Java & Chữ ký siêu dữ liệu - Xử lý tài liệu an toàn với GroupDocs.Signature"
 "url": "/vi/java/metadata-signatures/java-encryption-metadata-signature-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai mã hóa Java và tìm kiếm chữ ký siêu dữ liệu với GroupDocs.Signature cho Java
 
 ## Giới thiệu

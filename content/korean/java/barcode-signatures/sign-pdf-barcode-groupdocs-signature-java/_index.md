@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java를 사용하여 바코드가 있는 PDF 문서에 서명하기&#58; 종합 가이드"
 "url": "/ko/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java를 사용하여 바코드가 있는 PDF 문서에 서명하기: 종합 가이드
 
 ## 소개

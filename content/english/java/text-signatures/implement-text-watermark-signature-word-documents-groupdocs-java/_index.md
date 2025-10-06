@@ -9,10 +9,8 @@ keywords:
 - word documents
 - GroupDocs.Signature for Java
 - digital signatures in Word
-
+type: docs
 ---
-
-
 # Implement Text Watermark Signatures in Word Documents Using GroupDocs.Signature for Java
 
 ## How to Add Text Watermark Signatures to Word Documents with GroupDocs.Signature for Java

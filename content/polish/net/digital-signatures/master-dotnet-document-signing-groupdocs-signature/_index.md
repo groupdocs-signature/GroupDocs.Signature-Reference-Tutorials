@@ -4,8 +4,8 @@
 "title": "Opanuj podpisywanie dokumentów .NET za pomocą GroupDocs.Signature, aby uzyskać bezpieczne podpisy cyfrowe"
 "url": "/pl/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie podpisywania dokumentów .NET za pomocą GroupDocs.Signature
 
 ## Wstęp

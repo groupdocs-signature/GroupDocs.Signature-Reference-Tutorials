@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java kullanarak PDF'lerde Özel QR Kodu Serileştirme ve Şifrelemeyi Uygulayın"
 "url": "/tr/java/qr-code-signatures/groupdocs-signature-java-custom-qr-code-serialization/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak PDF'lerde Özel QR Kodu Serileştirme ve Şifreleme Nasıl Uygulanır?
 
 ## giriiş

@@ -4,8 +4,8 @@
 "title": "Como excluir uma assinatura de texto de um documento usando GroupDocs.Signature para .NET"
 "url": "/pt/net/signature-management/delete-text-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Como excluir uma assinatura de texto de um documento usando GroupDocs.Signature para .NET
 
 ## Introdução

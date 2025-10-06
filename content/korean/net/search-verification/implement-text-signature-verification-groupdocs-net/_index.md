@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용하여 .NET에서 텍스트 서명 검증 구현(보안 문서 관리)"
 "url": "/ko/net/search-verification/implement-text-signature-verification-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature를 사용하여 .NET에서 텍스트 서명 확인 구현
 ## 검색 및 확인
 **SEO URL**: 구현-텍스트-서명-검증-그룹-문서-네트워크

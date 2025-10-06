@@ -4,8 +4,8 @@
 "title": "Java PDF-streckkodssökning med GroupDocs.Signature API - En omfattande guide"
 "url": "/sv/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
 "weight": 1
+type: docs
 ---
-
 # Implementering av Java: Sök PDF-streckkoder med GroupDocs.Signature API-handledning
 
 ## Introduktion

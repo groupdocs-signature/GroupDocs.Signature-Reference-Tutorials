@@ -4,8 +4,8 @@
 "title": "Cara Menerapkan Pencarian Tanda Tangan Metadata dalam Presentasi PowerPoint Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/metadata-signatures/implement-metadata-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menerapkan Pencarian Tanda Tangan Metadata di PowerPoint dengan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

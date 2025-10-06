@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 簽署和匯出 PDF"
 "url": "/zh-hant/net/digital-signatures/sign-export-pdfs-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 簽署和匯出 PDF
 
 ## 介紹

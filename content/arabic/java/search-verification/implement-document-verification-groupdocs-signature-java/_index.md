@@ -4,8 +4,8 @@
 "title": "تنفيذ التحقق من المستندات باستخدام GroupDocs.Signature لـ Java - دليل شامل"
 "url": "/ar/java/search-verification/implement-document-verification-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # كيفية تنفيذ التحقق من المستندات باستخدام GroupDocs.Signature لـ Java
 
 **مقدمة**

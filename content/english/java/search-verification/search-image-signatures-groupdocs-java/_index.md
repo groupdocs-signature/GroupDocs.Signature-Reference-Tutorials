@@ -8,10 +8,8 @@ keywords:
 - search image signatures Java
 - manage document signatures Java
 - GroupDocs Signature library
-
+type: docs
 ---
-
-
 # Guide to Implementing Image Signature Search in Java with GroupDocs.Signature
 
 ## Introduction

@@ -5,8 +5,8 @@
 "title": "使用 GroupDocs.Signature 轻松提取演示文稿元数据"
 "url": "/zh/net/document-metadata-extraction/search-presentation-metadata-extraction/"
 "weight": 12
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature 从演示文稿中提取元数据
 
 ## 为什么演示元数据对您的项目很重要

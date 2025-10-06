@@ -4,8 +4,8 @@
 "title": "Quản lý chữ ký văn bản chuyên nghiệp trong .NET bằng GroupDocs.Signature"
 "url": "/vi/net/signature-management/master-text-signature-management-dotnet-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ Quản lý Chữ ký Văn bản trong .NET với GroupDocs.Signature
 
 ## Giới thiệu

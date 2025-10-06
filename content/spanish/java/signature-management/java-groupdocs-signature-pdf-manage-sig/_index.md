@@ -4,8 +4,8 @@
 "title": "Domine la gestión de firmas PDF en Java con GroupDocs.Signature"
 "url": "/es/java/signature-management/java-groupdocs-signature-pdf-manage-sig/"
 "weight": 1
+type: docs
 ---
-
 # Dominando la gestión de firmas PDF en Java con GroupDocs.Signature
 
 ## Introducción

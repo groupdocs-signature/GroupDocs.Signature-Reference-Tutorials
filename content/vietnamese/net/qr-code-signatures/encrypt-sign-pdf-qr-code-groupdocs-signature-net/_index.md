@@ -4,8 +4,8 @@
 "title": "Mã hóa và ký PDF bằng mã QR bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/qr-code-signatures/encrypt-sign-pdf-qr-code-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Mã hóa và ký PDF bằng mã QR bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

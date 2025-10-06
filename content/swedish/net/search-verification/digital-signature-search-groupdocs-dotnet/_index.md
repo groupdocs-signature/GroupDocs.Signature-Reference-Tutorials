@@ -4,8 +4,8 @@
 "title": "Sökning efter digitala signaturer med GroupDocs.Signature för .NET – en omfattande guide"
 "url": "/sv/net/search-verification/digital-signature-search-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar digital signatursökning i ett dokument med GroupDocs.Signature för .NET
 
 ## Introduktion

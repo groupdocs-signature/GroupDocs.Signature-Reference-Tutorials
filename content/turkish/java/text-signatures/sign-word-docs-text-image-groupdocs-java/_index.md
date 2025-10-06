@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak Word Belgelerini Metin Olarak Görüntüyle Dijital Olarak Nasıl İmzalayabilirsiniz?"
 "url": "/tr/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java Kullanarak Word Belgelerini Metin Olarak Görüntüyle Dijital Olarak Nasıl İmzalayabilirsiniz?
 
 ## giriiş

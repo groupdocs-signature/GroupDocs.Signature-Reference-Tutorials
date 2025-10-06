@@ -4,8 +4,8 @@
 "title": "Triển khai chữ ký văn bản PDF trong Java bằng GroupDocs.Signature - Hướng dẫn toàn diện"
 "url": "/vi/java/text-signatures/pdf-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Triển khai chữ ký văn bản PDF trong Java với GroupDocs.Signature
 
 Trong bối cảnh kỹ thuật số ngày nay, việc ký tài liệu an toàn là điều cần thiết cho các quy trình kinh doanh như xác nhận hợp đồng hoặc xác minh thỏa thuận. Việc thêm chữ ký văn bản đảm bảo tính xác thực và toàn vẹn. Hướng dẫn toàn diện này sẽ hướng dẫn bạn cách triển khai chữ ký văn bản PDF bằng cách sử dụng **GroupDocs.Signature cho Java**, cung cấp cả chức năng và khả năng tùy chỉnh.

@@ -4,8 +4,8 @@
 "title": "Werk meerdere handtekeningen in PDF's efficiënt bij met GroupDocs.Signature voor Java"
 "url": "/nl/java/signature-management/update-multiple-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Werk meerdere handtekeningen in PDF's efficiënt bij met GroupDocs.Signature voor Java
 
 Het beheren van elektronische handtekeningen is essentieel voor bedrijven die afhankelijk zijn van digitale workflows, vooral bij het werken met contracten of formeel papierwerk. **GroupDocs.Signature voor Java** Vereenvoudigt het efficiënt bijwerken van meerdere handtekeningen in een PDF-document. Deze tutorial leidt u door het proces.

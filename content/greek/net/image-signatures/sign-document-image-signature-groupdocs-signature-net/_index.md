@@ -4,8 +4,8 @@
 "title": "Πώς να υπογράψετε έγγραφα με υπογραφή εικόνας χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/image-signatures/sign-document-image-signature-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να υπογράψετε ένα έγγραφο με υπογραφή εικόνας χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

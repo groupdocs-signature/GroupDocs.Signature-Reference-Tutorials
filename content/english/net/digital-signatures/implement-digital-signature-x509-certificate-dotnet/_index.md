@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: [".NET Security"]
 tags: ["digital-signatures", "x509-certificates", "document-security", "groupdocs"]
+type: docs
 ---
-
 # Digital Signature .NET Tutorial: Complete X.509 Certificate
 
 ## Introduction

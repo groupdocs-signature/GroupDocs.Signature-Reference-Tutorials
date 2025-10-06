@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET을 사용하여 메타데이터가 포함된 PDF에 서명하기&#58; 종합 가이드"
 "url": "/ko/net/metadata-signatures/sign-pdf-metadata-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 메타데이터가 있는 PDF에 서명
 
 ## 소개

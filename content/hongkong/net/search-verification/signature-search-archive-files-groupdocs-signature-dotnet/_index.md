@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 在存檔文件中進行高效率的簽章搜尋"
 "url": "/zh-hant/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for .NET 在存檔文件中進行高效率的簽章搜尋
 
 ## 介紹

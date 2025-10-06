@@ -4,8 +4,8 @@
 "title": "Πώς να διαγράψετε συγκεκριμένες υπογραφές από ένα έγγραφο χρησιμοποιώντας το GroupDocs.Signature για Java"
 "url": "/el/java/signature-management/delete-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να διαγράψετε συγκεκριμένους τύπους υπογραφών από ένα έγγραφο χρησιμοποιώντας το GroupDocs.Signature για Java
 
 ## Εισαγωγή

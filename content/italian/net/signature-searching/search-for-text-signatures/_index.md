@@ -5,8 +5,8 @@
 "title": "Cerca firme di testo nei documenti"
 "url": "/it/net/signature-searching/search-for-text-signatures/"
 "weight": 16
+type: docs
 ---
-
 ## Introduzione
 
 Le firme testuali sono un metodo comune per indicare la paternità, l'approvazione o la verifica di un documento. Nella gestione dei documenti digitali, la possibilità di cercare ed estrarre le firme testuali a livello di codice è fondamentale per la convalida dei documenti, l'automazione del flusso di lavoro e la verifica della conformità. GroupDocs.Signature per .NET offre una soluzione completa per implementare la funzionalità di ricerca delle firme testuali nelle applicazioni .NET, supportando vari formati di documento e funzionalità di ricerca avanzate.

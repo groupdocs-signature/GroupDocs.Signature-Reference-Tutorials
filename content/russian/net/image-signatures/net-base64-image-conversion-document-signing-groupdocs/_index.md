@@ -4,8 +4,8 @@
 "title": "Преобразование изображений .NET Base64 и подписание документов с помощью GroupDocs.Signature"
 "url": "/ru/net/image-signatures/net-base64-image-conversion-document-signing-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Реализация преобразования изображений .NET Base64 и подписания документов с помощью GroupDocs.Signature
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "Hogyan implementálhatunk bélyegzőaláírásokat PDF-fájlokon a GroupDocs.Signature for .NET használatával?"
 "url": "/hu/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Hogyan implementálhatunk bélyegzőaláírásokat PDF-fájlokon a GroupDocs.Signature for .NET használatával?
 
 ## Bevezetés

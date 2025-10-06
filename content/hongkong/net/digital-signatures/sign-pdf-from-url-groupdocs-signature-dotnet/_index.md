@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for .NET 直接從 URL 簽署 PDF 文檔"
 "url": "/zh-hant/net/digital-signatures/sign-pdf-from-url-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for .NET 直接從 URL 簽署 PDF 文檔
 
 在當今快節奏的數位環境中，有效率地管理和處理線上文件對全球企業至關重要。一個常見的挑戰是簽署線上儲存的文件而無需先下載——這在傳統方法中是一項繁瑣的任務。本教學將引導您使用強大的 GroupDocs.Signature for .NET 程式庫，直接從 URL 無縫簽署 PDF 文件。

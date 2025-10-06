@@ -4,8 +4,8 @@
 "title": "إتقان توقيع مستندات .NET باستخدام GroupDocs.Signature للحصول على توقيعات رقمية آمنة"
 "url": "/ar/net/digital-signatures/master-dotnet-document-signing-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # إتقان توقيع مستندات .NET باستخدام GroupDocs.Signature
 
 ## مقدمة

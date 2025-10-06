@@ -4,8 +4,8 @@
 "title": "Signez et convertissez efficacement des feuilles de calcul au format PDF à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/digital-signatures/sign-spreadsheet-conversion-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Signez et convertissez efficacement des feuilles de calcul au format PDF à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

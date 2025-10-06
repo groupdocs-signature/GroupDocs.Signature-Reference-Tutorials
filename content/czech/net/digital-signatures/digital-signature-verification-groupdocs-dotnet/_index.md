@@ -4,8 +4,8 @@
 "title": "Průvodce ověřováním digitálního podpisu pomocí GroupDocs.Signature pro .NET"
 "url": "/cs/net/digital-signatures/digital-signature-verification-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Průvodce ověřováním digitálního podpisu pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

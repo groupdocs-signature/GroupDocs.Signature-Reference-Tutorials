@@ -4,8 +4,8 @@
 "title": "Sökning efter QR-kodsignaturer i DICOM med GroupDocs.Signature för .NET – en komplett guide"
 "url": "/sv/net/qr-code-signatures/qr-code-signature-search-groupdocs-dotnet-dicom/"
 "weight": 1
+type: docs
 ---
-
 # Hur man implementerar QR-kodsignatursökningar i flerskiktsbilder med GroupDocs.Signature för .NET
 
 ## Introduktion

@@ -4,8 +4,8 @@
 "title": "Implementieren der Fortschrittsereignisbehandlung bei der Dokumentsignierung mit GroupDocs.Signature für Java"
 "url": "/de/java/event-handling/progress-event-handling-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren der Fortschrittsereignisbehandlung bei der Dokumentsignierung mit GroupDocs.Signature für Java
 
 ## Einführung

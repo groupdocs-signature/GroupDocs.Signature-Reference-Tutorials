@@ -4,8 +4,8 @@
 "title": "Firmas de documentos maestros en Java con GroupDocs.Signature® Guía de firmas de código de barras"
 "url": "/es/java/digital-signatures/java-document-signature-groupdocs-signature-barcode/"
 "weight": 1
+type: docs
 ---
-
 # Dominando las firmas de documentos en Java con GroupDocs.Signature
 
 **Optimice sus flujos de trabajo de documentos digitales firmando, verificando, buscando, actualizando y eliminando firmas de códigos de barras utilizando GroupDocs.Signature para Java.**

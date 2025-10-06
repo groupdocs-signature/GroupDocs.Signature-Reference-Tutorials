@@ -4,8 +4,8 @@
 "title": "Wdrażanie weryfikacji dokumentów z subskrypcją zdarzeń w Javie przy użyciu GroupDocs.Signature"
 "url": "/pl/java/event-handling/implement-document-verification-events-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Wdrażanie weryfikacji dokumentów z subskrypcją zdarzeń przy użyciu GroupDocs.Signature dla Java
 
 ## Wstęp

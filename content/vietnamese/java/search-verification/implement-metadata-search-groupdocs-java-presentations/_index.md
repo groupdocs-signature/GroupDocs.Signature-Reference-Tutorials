@@ -4,8 +4,8 @@
 "title": "Cách triển khai tìm kiếm siêu dữ liệu trong bài thuyết trình Java với GroupDocs.Signature"
 "url": "/vi/java/search-verification/implement-metadata-search-groupdocs-java-presentations/"
 "weight": 1
+type: docs
 ---
-
 # Cách triển khai tìm kiếm siêu dữ liệu trong bài thuyết trình Java với GroupDocs.Signature
 
 ## Giới thiệu

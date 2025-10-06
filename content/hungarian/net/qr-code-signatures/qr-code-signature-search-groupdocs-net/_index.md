@@ -4,8 +4,8 @@
 "title": "QR-kód aláírások keresése .NET-ben a GroupDocs.Signature segítségével"
 "url": "/hu/net/qr-code-signatures/qr-code-signature-search-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # QR-kód aláírások keresésének megvalósítása eseményadatokkal a GroupDocs.Signature for .NET használatával
 
 ## Bevezetés

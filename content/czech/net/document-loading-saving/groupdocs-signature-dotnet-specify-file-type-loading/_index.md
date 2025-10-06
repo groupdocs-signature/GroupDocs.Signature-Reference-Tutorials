@@ -4,8 +4,8 @@
 "title": "Jak načíst dokumenty podle typu souboru v GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/document-loading-saving/groupdocs-signature-dotnet-specify-file-type-loading/"
 "weight": 1
+type: docs
 ---
-
 # Jak načíst dokumenty podle typu souboru v GroupDocs.Signature pro .NET
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "Как реализовать цифровые подписи в Excel с помощью GroupDocs.Signature для Java"
 "url": "/ru/java/digital-signatures/digital-signature-excel-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать цифровую подпись в электронной таблице с помощью GroupDocs.Signature для Java
 
 ## Введение

@@ -4,8 +4,8 @@
 "title": "Πώς να αναζητήσετε υπογραφές μεταδεδομένων σε έγγραφα του Word χρησιμοποιώντας το GroupDocs.Signature για .NET"
 "url": "/el/net/metadata-signatures/search-metadata-signatures-word-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να αναζητήσετε υπογραφές μεταδεδομένων σε έγγραφα του Word χρησιμοποιώντας το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

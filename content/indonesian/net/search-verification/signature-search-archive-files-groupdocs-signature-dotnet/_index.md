@@ -4,8 +4,8 @@
 "title": "Pencarian Tanda Tangan yang Efisien dalam File Arsip Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/search-verification/signature-search-archive-files-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Pencarian Tanda Tangan yang Efisien dalam File Arsip Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 實作二維碼簽章搜尋"
 "url": "/zh-hant/java/search-verification/groupdocs-signature-java-qr-code-search-guide/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature for Java 實作二維碼簽章搜尋
 
 在當今的數位環境中，有效驗證電子簽名對於各個行業都至關重要。 **GroupDocs.Signature for Java** 提供了一個強大的解決方案，尤其適用於搜尋和管理文件中的二維碼簽章。本教學將引導您使用 Java 中的 GroupDocs.Signature 實作二維碼簽章搜尋。

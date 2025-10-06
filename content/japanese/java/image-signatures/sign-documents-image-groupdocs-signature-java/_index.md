@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用して画像付きドキュメントに署名する方法 - ステップバイステップガイド"
 "url": "/ja/java/image-signatures/sign-documents-image-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用して画像付きのドキュメントに署名する方法
 
 今日のデジタル時代において、電子署名による文書のセキュリティ確保は、企業にとっても個人にとっても不可欠です。契約書の締結やデザインの承認など、迅速かつ確実に文書にデジタル署名することで、時間を節約し、セキュリティを強化できます。このチュートリアルでは、電子署名の使い方を説明します。 **Java 用 GroupDocs.Signature** 画像署名を使用して文書に署名します。

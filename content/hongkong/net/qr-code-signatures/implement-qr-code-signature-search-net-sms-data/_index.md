@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature 在 .NET 中實現二維碼簽名搜尋以提取簡訊數據"
 "url": "/zh-hant/net/qr-code-signatures/implement-qr-code-signature-search-net-sms-data/"
 "weight": 1
+type: docs
 ---
-
 # 使用 GroupDocs.Signature 在 .NET 中實作二維碼簽章搜尋
 
 ## 介紹

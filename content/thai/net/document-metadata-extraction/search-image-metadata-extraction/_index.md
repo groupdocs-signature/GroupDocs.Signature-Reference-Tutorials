@@ -5,8 +5,8 @@
 "title": "ดึงข้อมูลและค้นหาข้อมูลเมตาของรูปภาพใน .NET ด้วย GroupDocs"
 "url": "/th/net/document-metadata-extraction/search-image-metadata-extraction/"
 "weight": 10
+type: docs
 ---
-
 # วิธีการค้นหาข้อมูลเมตาของรูปภาพในเอกสารโดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

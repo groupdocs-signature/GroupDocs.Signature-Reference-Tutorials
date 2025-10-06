@@ -4,8 +4,8 @@
 "title": "Πώς να επαληθεύσετε ψηφιακές υπογραφές σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java - Οδηγός βήμα προς βήμα"
 "url": "/el/java/digital-signatures/verify-digital-signatures-pdf-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Πώς να επαληθεύσετε ψηφιακές υπογραφές σε PDF χρησιμοποιώντας το GroupDocs.Signature για Java: Οδηγός βήμα προς βήμα
 
 ## Εισαγωγή

@@ -4,8 +4,8 @@
 "title": "Cara Mencari Tanda Tangan Metadata PDF Menggunakan GroupDocs.Signature untuk .NET"
 "url": "/id/net/metadata-signatures/master-pdf-metadata-search-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Cara Mencari Tanda Tangan Metadata PDF Menggunakan GroupDocs.Signature untuk .NET
 
 ## Perkenalan

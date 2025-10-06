@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature를 사용하여 GS1 복합 바코드로 PDF에 서명"
 "url": "/ko/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 GS1 복합 바코드로 PDF에 서명하는 방법
 
 ## 소개

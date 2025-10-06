@@ -4,8 +4,8 @@
 "title": "Så här tar du bort en textsignatur med ID med GroupDocs.Signature för .NET"
 "url": "/sv/net/signature-management/delete-text-signature-by-id-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Så här tar du bort en textsignatur med ID med GroupDocs.Signature för .NET
 
 ## Introduktion

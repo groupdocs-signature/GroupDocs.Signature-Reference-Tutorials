@@ -4,8 +4,8 @@
 "title": ".NET için GroupDocs.Signature Kullanarak Kimliğe Göre İmzaları Etkin Bir Şekilde Silme Adım Adım Kılavuz"
 "url": "/tr/net/signature-management/delete-signature-id-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET için GroupDocs.Signature Kullanarak Kimliğe Göre İmzayı Etkili Bir Şekilde Nasıl Silebilirsiniz?
 
 ## giriiş

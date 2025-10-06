@@ -8,10 +8,8 @@ keywords:
 - MeCard QR Code
 - GroupDocs.Signature for Java
 - QR code signature detection
-
+type: docs
 ---
-
-
 # How to Detect MeCard QR-Code Signatures with GroupDocs.Signature for Java
 
 ## Introduction

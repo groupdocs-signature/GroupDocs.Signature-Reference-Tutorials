@@ -4,8 +4,8 @@
 "title": "Cara Menginisialisasi Instansi Tanda Tangan di Java Menggunakan GroupDocs.Signature"
 "url": "/id/java/getting-started/initialize-signature-java-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Cara Menginisialisasi Instansi Tanda Tangan di Java Menggunakan GroupDocs.Signature
 
 ## Perkenalan

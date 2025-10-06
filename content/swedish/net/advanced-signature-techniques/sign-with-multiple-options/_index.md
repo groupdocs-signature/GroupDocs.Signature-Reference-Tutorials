@@ -5,8 +5,8 @@
 "title": "Bemästra flera dokumentsignaturer i .NET - Komplett guide"
 "url": "/sv/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## Säkra dina dokument med flera signaturtyper
 
 Har du någonsin behövt tillämpa olika typer av signaturer på ett enda dokument? Oavsett om du hanterar känsliga kontrakt, juridiska dokument eller företagsdokument kan kombinationen av flera signaturtyper avsevärt förbättra både säkerhet och autenticitet. I den här guiden går vi igenom exakt hur man implementerar denna kraftfulla funktion med GroupDocs.Signature för .NET.

@@ -4,8 +4,8 @@
 "title": "Recuperar e exibir formatos de arquivo suportados usando GroupDocs.Signature para .NET"
 "url": "/pt/net/preview-info/retrieve-supported-file-formats-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Recuperar e exibir formatos de arquivo suportados usando GroupDocs.Signature para .NET
 
 ## Introdução

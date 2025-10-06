@@ -4,8 +4,8 @@
 "title": "Comment signer des documents Word avec des filigranes textuels à l'aide de GroupDocs.Signature pour .NET"
 "url": "/fr/net/text-signatures/sign-word-documents-text-watermark-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Comment signer des documents Word avec des filigranes textuels à l'aide de GroupDocs.Signature pour .NET
 
 ## Introduction

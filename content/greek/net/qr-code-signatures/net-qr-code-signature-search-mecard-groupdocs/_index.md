@@ -4,8 +4,8 @@
 "title": "Υλοποίηση αναζήτησης υπογραφής κωδικού QR .NET με MeCard χρησιμοποιώντας GroupDocs.Signature"
 "url": "/el/net/qr-code-signatures/net-qr-code-signature-search-mecard-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # Υλοποίηση αναζήτησης υπογραφής κωδικού QR .NET με MeCard χρησιμοποιώντας GroupDocs.Signature
 
 ## Εισαγωγή

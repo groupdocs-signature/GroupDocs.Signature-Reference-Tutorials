@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - Java document signing
 - plain text field signature
-
+type: docs
 ---
-
-
 # Mastering Document Signing in Java: Implementing Plain and Rich Text Fields with GroupDocs.Signature
 
 Welcome to the comprehensive guide on leveraging **GroupDocs.Signature for Java** to sign documents using plain and rich text fields. Whether you're automating contract approvals or streamlining workflows, this tutorial will empower you to implement these features efficiently.

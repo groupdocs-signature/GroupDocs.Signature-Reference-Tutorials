@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs를 사용하여 QR 코드 서명으로 PDF에 서명하고 이미지로 내보내기"
 "url": "/ko/java/qr-code-signatures/sign-pdf-qr-codes-export-images-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 QR 코드가 포함된 PDF에 서명하고 이미지로 내보내는 방법에 대한 포괄적인 가이드
 
 ## 소개

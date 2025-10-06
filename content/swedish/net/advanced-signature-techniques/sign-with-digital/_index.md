@@ -5,8 +5,8 @@
 "title": "Säkra dina .NET-dokument med digitala signaturer | Komplett guide"
 "url": "/sv/net/advanced-signature-techniques/sign-with-digital/"
 "weight": 12
+type: docs
 ---
-
 ## Varför digitala signaturer är viktiga i modern dokumenthantering
 
 dagens digitala värld är det inte bara god praxis att säkerställa äktheten och integriteten hos dina elektroniska dokument – det är viktigt. Digitala signaturer ger det avgörande säkerhetslagret och låter mottagarna veta att ditt dokument är legitimt och inte har manipulerats sedan det signerades.

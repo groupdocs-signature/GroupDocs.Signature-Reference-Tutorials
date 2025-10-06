@@ -5,8 +5,8 @@
 "title": "Πώς να αφαιρέσετε υπογραφές κειμένου από έγγραφα στο .NET"
 "url": "/el/net/delete-operations/delete-text-signature/"
 "weight": 17
+type: docs
 ---
-
 # Πώς να αφαιρέσετε υπογραφές κειμένου από τα έγγραφά σας με το GroupDocs.Signature
 
 ## Γιατί θα χρειαστεί να διαγράψετε υπογραφές κειμένου;

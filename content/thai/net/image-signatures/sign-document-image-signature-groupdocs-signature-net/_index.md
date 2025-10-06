@@ -4,8 +4,8 @@
 "title": "วิธีการลงนามในเอกสารด้วยลายเซ็นภาพโดยใช้ GroupDocs.Signature สำหรับ .NET"
 "url": "/th/net/image-signatures/sign-document-image-signature-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลงนามในเอกสารด้วยลายเซ็นภาพโดยใช้ GroupDocs.Signature สำหรับ .NET
 
 ## การแนะนำ

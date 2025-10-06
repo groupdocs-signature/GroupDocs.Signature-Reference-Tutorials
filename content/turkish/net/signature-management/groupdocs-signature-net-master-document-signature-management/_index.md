@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET ile Ana Belge İmza Yönetimi"
 "url": "/tr/net/signature-management/groupdocs-signature-net-master-document-signature-management/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET ile Belge İmza Yönetiminde Ustalaşma
 
 ## giriiş

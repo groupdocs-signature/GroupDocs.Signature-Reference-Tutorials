@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature के साथ जावा में QR कोड का उपयोग करके पासवर्ड-संरक्षित दस्तावेज़ लोड और हस्ताक्षरित करें"
 "url": "/hi/java/qr-code-signatures/groupdocs-signature-java-load-sign-password-documents-qr-code/"
 "weight": 1
+type: docs
 ---
-
 # जावा में QR कोड के साथ पासवर्ड-संरक्षित दस्तावेज़ लोड और हस्ताक्षरित करें
 
 ## Java के लिए GroupDocs.Signature का उपयोग करके पासवर्ड-संरक्षित दस्तावेज़ को कैसे लोड और हस्ताक्षरित करें

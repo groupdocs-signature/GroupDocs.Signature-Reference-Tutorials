@@ -4,8 +4,8 @@
 "title": "Assinatura digital de PDF no .NET - Um guia usando GroupDocs.Signature"
 "url": "/pt/net/digital-signatures/sign-pdf-digital-signature-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Assinatura digital de PDF no .NET: um guia usando GroupDocs.Signature
 
 ## Introdução

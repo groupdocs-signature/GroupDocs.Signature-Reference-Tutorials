@@ -4,8 +4,8 @@
 "title": "Come rimuovere le firme delle immagini dai documenti utilizzando GroupDocs.Signature per Java"
 "url": "/it/java/signature-management/delete-image-signature-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Come rimuovere le firme delle immagini dai documenti utilizzando GroupDocs.Signature per Java
 
 ## Introduzione

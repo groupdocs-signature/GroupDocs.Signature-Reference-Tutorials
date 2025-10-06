@@ -4,8 +4,8 @@
 "title": "Wyodrębnianie podpisów w kodzie QR z danymi adresowymi za pomocą GroupDocs.Signature dla .NET | Automatyzacja podpisów cyfrowych"
 "url": "/pl/net/search-verification/groupdocs-signature-qr-code-address-extraction-net/"
 "weight": 1
+type: docs
 ---
-
 # Wyodrębnianie podpisów kodów QR z danymi adresowymi przy użyciu GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

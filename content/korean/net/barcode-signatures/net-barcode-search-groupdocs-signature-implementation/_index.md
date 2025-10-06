@@ -4,8 +4,8 @@
 "title": ".NET용 GroupDocs.Signature를 사용하여 .NET 바코드 검색을 구현하는 방법"
 "url": "/ko/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # .NET용 GroupDocs.Signature를 사용하여 .NET 바코드 검색을 구현하는 방법
 
 ## 소개

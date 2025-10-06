@@ -4,8 +4,8 @@
 "title": "Tanda Tangani Dokumen dengan Kode QR menggunakan Java dan GroupDocs.Signature&#58; Panduan Lengkap"
 "url": "/id/java/qr-code-signatures/sign-documents-with-qr-code-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Menandatangani Dokumen dengan Kode QR Menggunakan Java dan GroupDocs.Signature
 
 Ingin menambahkan lapisan keamanan dan efisiensi ekstra pada sistem manajemen dokumen Anda? Menandatangani dokumen secara elektronik merupakan fitur wajib di era digital saat ini, dan tanda tangan kode QR menawarkan kemudahan sekaligus keandalan. Dalam panduan komprehensif ini, kita akan membahas cara menandatangani dokumen gambar dengan kode QR menggunakan GroupDocs.Signature untuk Java. Di akhir tutorial ini, Anda akan dapat mengimplementasikan fitur-fitur ini dengan lancar.

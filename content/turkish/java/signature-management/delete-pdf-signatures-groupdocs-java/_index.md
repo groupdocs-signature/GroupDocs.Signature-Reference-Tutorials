@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java Kullanarak PDF İmzaları Nasıl Silinir? Kapsamlı Bir Kılavuz"
 "url": "/tr/java/signature-management/delete-pdf-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java için GroupDocs.Signature Kullanarak PDF İmzaları Nasıl Silinir: Kapsamlı Bir Kılavuz
 
 ## giriiş

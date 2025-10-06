@@ -4,8 +4,8 @@
 "title": "Como implementar assinaturas de carimbo em PDFs usando GroupDocs.Signature para .NET"
 "url": "/pt/net/image-signatures/implement-stamp-signature-groupdocs-signature-pdf/"
 "weight": 1
+type: docs
 ---
-
 # Como implementar assinaturas de carimbo em PDFs usando GroupDocs.Signature para .NET
 
 ## Introdução

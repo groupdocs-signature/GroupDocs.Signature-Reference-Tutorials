@@ -5,8 +5,8 @@
 "title": "Hoe u eenvoudig meerdere handtekeningen uit documenten verwijdert"
 "url": "/nl/net/delete-operations/delete-multiple-signatures/"
 "weight": 15
+type: docs
 ---
-
 # Meerdere handtekeningen uit documenten verwijderen in .NET
 
 ## Waarom het beheren van documenthandtekeningen belangrijk is

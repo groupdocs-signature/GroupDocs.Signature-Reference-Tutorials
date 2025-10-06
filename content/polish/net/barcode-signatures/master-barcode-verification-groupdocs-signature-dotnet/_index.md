@@ -4,8 +4,8 @@
 "title": "Weryfikacja głównego kodu kreskowego w .NET z GroupDocs.Signature dla integralności dokumentów"
 "url": "/pl/net/barcode-signatures/master-barcode-verification-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Opanowanie weryfikacji kodów kreskowych w .NET z GroupDocs.Signature
 
 ## Wstęp

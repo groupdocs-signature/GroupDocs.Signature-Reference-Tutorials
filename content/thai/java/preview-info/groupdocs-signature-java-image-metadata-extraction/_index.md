@@ -4,8 +4,8 @@
 "title": "การแยกข้อมูลเมตาของภาพหลักใน Java โดยใช้ไลบรารี GroupDocs.Signature"
 "url": "/th/java/preview-info/groupdocs-signature-java-image-metadata-extraction/"
 "weight": 1
+type: docs
 ---
-
 # การเรียนรู้ GroupDocs.Signature สำหรับ Java: การแยกข้อมูลเมตาของรูปภาพ
 
 ## การแนะนำ

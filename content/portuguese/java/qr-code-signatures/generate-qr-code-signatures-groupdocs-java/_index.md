@@ -4,8 +4,8 @@
 "title": "Gere assinaturas de código QR com GroupDocs.Signature para Java - Um guia completo"
 "url": "/pt/java/qr-code-signatures/generate-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Gere assinaturas de código QR com GroupDocs.Signature para Java
 
 ## Introdução

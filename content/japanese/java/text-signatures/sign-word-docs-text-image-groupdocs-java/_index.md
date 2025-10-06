@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for Java を使用してテキストを画像として Word 文書にデジタル署名する方法"
 "url": "/ja/java/text-signatures/sign-word-docs-text-image-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for Java を使用してテキストを画像として Word 文書にデジタル署名する方法
 
 ## 導入

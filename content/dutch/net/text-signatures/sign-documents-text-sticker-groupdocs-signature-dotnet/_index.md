@@ -4,8 +4,8 @@
 "title": "Documenten ondertekenen met een tekststicker in GroupDocs.Signature voor .NET"
 "url": "/nl/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Documenten ondertekenen met tekststickers in GroupDocs.Signature voor .NET
 
 ## Invoering

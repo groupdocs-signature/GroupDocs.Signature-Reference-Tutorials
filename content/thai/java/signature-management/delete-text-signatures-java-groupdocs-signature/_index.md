@@ -4,8 +4,8 @@
 "title": "วิธีการลบลายเซ็นข้อความใน Java โดยใช้ GroupDocs.Signature"
 "url": "/th/java/signature-management/delete-text-signatures-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # วิธีการลบลายเซ็นข้อความใน Java โดยใช้ GroupDocs.Signature
 
 ## การแนะนำ

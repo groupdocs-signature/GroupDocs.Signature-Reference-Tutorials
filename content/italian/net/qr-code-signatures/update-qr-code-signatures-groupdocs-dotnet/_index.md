@@ -4,8 +4,8 @@
 "title": "Come aggiornare le firme dei codici QR nei documenti .NET utilizzando GroupDocs.Signature"
 "url": "/it/net/qr-code-signatures/update-qr-code-signatures-groupdocs-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Come aggiornare le firme dei codici QR nei documenti .NET utilizzando GroupDocs.Signature
 
 ## Introduzione

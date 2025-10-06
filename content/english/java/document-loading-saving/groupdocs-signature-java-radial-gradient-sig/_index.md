@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Signature for Java
 - radial gradient brush signature
 - document signing in Java
-
+type: docs
 ---
-
-
 # Create a Visually Appealing Radial Gradient Signature Using GroupDocs.Signature for Java
 
 In today's digital world, the aesthetics of electronic document signing are just as important as functionality. A visually stunning signature can elevate both the professionalism and credibility of your work. This tutorial will walk you through implementing a radial gradient brush signature using GroupDocs.Signature for Java.

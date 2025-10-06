@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Document Processing"]
 tags: ["barcode-verification", "dotnet-security", "document-integrity", "csharp-tutorial"]
+type: docs
 ---
-
 # Barcode Signature Verification .NET: Your Complete Implementation Guide
 
 ## Why Barcode Signature Verification Matters (And How to Get It Right)

@@ -4,8 +4,8 @@
 "title": "Ký PDF Java với siêu dữ liệu và mã hóa bằng GroupDocs - Hướng dẫn toàn diện"
 "url": "/vi/java/digital-signatures/java-pdf-signing-metadata-encryption-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Làm chủ chữ ký PDF Java với siêu dữ liệu và mã hóa bằng GroupDocs
 
 ## Giới thiệu

@@ -4,8 +4,8 @@
 "title": "Zabezpečení dokumentů textovými vodoznaky pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/text-signatures/groupdocs-signature-net-text-watermark/"
 "weight": 1
+type: docs
 ---
-
 # Jak implementovat textové vodoznaky v dokumentech pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

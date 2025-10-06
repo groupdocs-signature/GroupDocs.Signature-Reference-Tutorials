@@ -4,8 +4,8 @@
 "title": "Реализация текстовой подписи в обработке событий Java с помощью GroupDocs.Signature"
 "url": "/ru/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # Реализация подписи текста с обработкой событий с использованием GroupDocs.Signature для Java
 
 ## Введение

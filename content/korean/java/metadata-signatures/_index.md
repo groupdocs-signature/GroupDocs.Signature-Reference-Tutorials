@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java를 위한 메타데이터 서명 튜토리얼"
 "url": "/ko/java/metadata-signatures/"
 "weight": 9
+type: docs
 ---
-
 # GroupDocs.Signature Java를 위한 메타데이터 서명 튜토리얼
 
 저희 메타데이터 서명 튜토리얼은 Java에서 GroupDocs.Signature를 사용하여 문서 메타데이터를 보안 서명에 사용하는 방법을 보여줍니다. 이 단계별 가이드는 PDF, 이미지, 프레젠테이션, 스프레드시트, 워드 프로세싱 파일 등 다양한 문서 형식에서 메타데이터 서명을 구현하는 방법을 다룹니다. 각 튜토리얼에는 메타데이터 작업을 위한 Java 코드 예제가 포함되어 있어, 문서에 보이지 않는 서명 정보를 추가하여 시각적인 모양을 변경하지 않고도 보안을 강화할 수 있는 애플리케이션을 구축하는 데 도움을 줍니다.

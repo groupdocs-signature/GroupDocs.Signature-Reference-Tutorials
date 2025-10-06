@@ -4,8 +4,8 @@
 "title": "Mesterszöveges aláírás keresése .NET dokumentumokban a GroupDocs.Signature használatával"
 "url": "/hu/net/search-verification/text-signature-search-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Szöveges aláíráskeresés elsajátítása .NET dokumentumokban a GroupDocs.Signature használatával
 
 ## Bevezetés

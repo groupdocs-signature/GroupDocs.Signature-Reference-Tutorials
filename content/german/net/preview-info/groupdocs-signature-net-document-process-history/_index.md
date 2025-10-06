@@ -4,8 +4,8 @@
 "title": "So rufen Sie den Dokumentprozessverlauf mit GroupDocs.Signature für .NET ab – Eine Schritt-für-Schritt-Anleitung"
 "url": "/de/net/preview-info/groupdocs-signature-net-document-process-history/"
 "weight": 1
+type: docs
 ---
-
 # So rufen Sie den Dokumentprozessverlauf mit GroupDocs.Signature für .NET ab: Eine Schritt-für-Schritt-Anleitung
 
 ## Einführung

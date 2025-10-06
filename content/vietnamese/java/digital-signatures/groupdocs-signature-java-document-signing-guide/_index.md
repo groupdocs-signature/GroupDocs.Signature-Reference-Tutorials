@@ -4,8 +4,8 @@
 "title": "Cách ký tài liệu bằng GroupDocs.Signature cho Java - Hướng dẫn đầy đủ"
 "url": "/vi/java/digital-signatures/groupdocs-signature-java-document-signing-guide/"
 "weight": 1
+type: docs
 ---
-
 # Cách ký tài liệu bằng GroupDocs.Signature cho Java: Hướng dẫn đầy đủ
 
 ## Giới thiệu

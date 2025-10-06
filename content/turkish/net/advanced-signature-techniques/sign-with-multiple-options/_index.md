@@ -5,8 +5,8 @@
 "title": ".NET'te Çoklu Belge İmzalarını Yönetme - Eksiksiz Kılavuz"
 "url": "/tr/net/advanced-signature-techniques/sign-with-multiple-options/"
 "weight": 14
+type: docs
 ---
-
 ## Belgelerinizi Çoklu İmza Türleriyle Güvence Altına Alın
 
 Tek bir belgeye farklı imza türleri uygulamanız gerekti mi? İster hassas sözleşmelerle, ister yasal evraklarla veya kurumsal belgelerle uğraşıyor olun, birden fazla imza türünü birleştirmek hem güvenliği hem de güvenilirliği önemli ölçüde artırabilir. Bu kılavuzda, .NET için GroupDocs.Signature kullanarak bu güçlü işlevin nasıl uygulanacağını ayrıntılı olarak ele alacağız.

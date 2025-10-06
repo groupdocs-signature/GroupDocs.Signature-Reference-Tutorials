@@ -9,8 +9,8 @@ date: "2025-01-02"
 lastmod: "2025-01-02"
 categories: ["Digital Signatures"]
 tags: ["GroupDocs", "PDF-Signing", "C-Sharp", "URL-Processing"]
+type: docs
 ---
-
 # How to Sign PDF from URL C# - Complete GroupDocs.Signature Tutorial
 
 Ever found yourself needing to sign a PDF document that's stored online without downloading it first? You're not alone. Many developers face this challenge when building automated document workflows, and the traditional approach of download-then-sign feels clunky and inefficient.

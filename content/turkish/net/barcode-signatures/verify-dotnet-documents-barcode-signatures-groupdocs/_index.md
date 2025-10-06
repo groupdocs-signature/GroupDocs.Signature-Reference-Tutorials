@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature Kullanarak Barkod İmzalı .NET Belgelerini Doğrulayın"
 "url": "/tr/net/barcode-signatures/verify-dotnet-documents-barcode-signatures-groupdocs/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak .NET'te Barkod İmzalarıyla Belge Doğrulaması Nasıl Uygulanır?
 
 ## giriiş

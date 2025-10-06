@@ -4,8 +4,8 @@
 "title": "Jak podpisywać arkusze kalkulacyjne programu Excel metadanymi za pomocą GroupDocs.Signature dla platformy .NET"
 "url": "/pl/net/metadata-signatures/sign-excel-metadata-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # Jak podpisywać arkusze kalkulacyjne programu Excel metadanymi za pomocą GroupDocs.Signature dla platformy .NET
 
 ## Wstęp

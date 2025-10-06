@@ -4,8 +4,8 @@
 "title": "Как реализовать поиск штрихкодов .NET с помощью GroupDocs.Signature для .NET"
 "url": "/ru/net/barcode-signatures/net-barcode-search-groupdocs-signature-implementation/"
 "weight": 1
+type: docs
 ---
-
 # Как реализовать поиск штрихкодов .NET с помощью GroupDocs.Signature для .NET
 
 ## Введение

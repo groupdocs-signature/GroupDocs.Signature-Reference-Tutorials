@@ -5,8 +5,8 @@
 "title": "Pratinjau Dokumen Komprehensif & Operasi Manajemen"
 "url": "/id/net/document-preview-operations/"
 "weight": 21
+type: docs
 ---
-
 # Operasi Pratinjau Dokumen
 
 ## Perkenalan

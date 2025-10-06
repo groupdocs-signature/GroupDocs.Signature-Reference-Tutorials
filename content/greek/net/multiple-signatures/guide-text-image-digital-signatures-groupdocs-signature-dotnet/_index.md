@@ -4,8 +4,8 @@
 "title": "Πλήρης οδηγός για κείμενο, εικόνα και ψηφιακές υπογραφές με το GroupDocs.Signature για .NET"
 "url": "/el/net/multiple-signatures/guide-text-image-digital-signatures-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # Πλήρης οδηγός για την υλοποίηση υπογραφών κειμένου, εικόνας και ψηφιακών υπογραφών με το GroupDocs.Signature για .NET
 
 ## Εισαγωγή

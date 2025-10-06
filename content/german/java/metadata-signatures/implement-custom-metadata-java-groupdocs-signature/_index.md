@@ -4,8 +4,8 @@
 "title": "Implementieren Sie benutzerdefinierte Metadaten in Java mit GroupDocs.Signature für eine verbesserte Dokumentsignierung"
 "url": "/de/java/metadata-signatures/implement-custom-metadata-java-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Implementieren benutzerdefinierter Metadaten in Java mit GroupDocs.Signature
 
 ## Einführung

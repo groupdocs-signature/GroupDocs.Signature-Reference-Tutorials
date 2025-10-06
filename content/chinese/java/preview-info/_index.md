@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature Java 的文档预览和信息教程"
 "url": "/zh/java/preview-info/"
 "weight": 13
+type: docs
 ---
-
 # GroupDocs.Signature Java 的文档预览和信息教程
 
 我们的预览和信息教程将向您展示如何使用 Java 中的 GroupDocs.Signature 提取有价值的文档数据。这些详细的指南演示了如何生成文档预览、检索文档信息、访问签名详情、查看文档处理历史记录以及检查文件属性。每个教程都包含适用于文档检查场景的实用 Java 代码示例，帮助您构建提供全面文档透明度的应用程序，从而获得更佳的用户体验和工作流程跟踪。

@@ -5,8 +5,8 @@
 "title": "استخراج بيانات جدول البيانات بسهولة باستخدام GroupDocs.Signature"
 "url": "/ar/net/document-metadata-extraction/search-spreadsheet-metadata-extraction/"
 "weight": 13
+type: docs
 ---
-
 # كيفية استخراج البيانات الوصفية من جداول البيانات باستخدام GroupDocs.Signature
 
 ## لماذا تعد بيانات التعريف الوصفية لجداول البيانات مهمة

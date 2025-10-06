@@ -4,8 +4,8 @@
 "title": "Wdrażanie podpisywania plików PDF w Javie za pomocą GroupDocs.Signature™ — kompleksowy przewodnik"
 "url": "/pl/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/"
 "weight": 1
+type: docs
 ---
-
 # Wdrażanie podpisywania plików PDF w Javie za pomocą GroupDocs.Signature
 
 ## Odblokuj moc GroupDocs.Signature dla Java: bezproblemowe podpisywanie dokumentów PDF

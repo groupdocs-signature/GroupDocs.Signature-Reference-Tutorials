@@ -4,8 +4,8 @@
 "title": "Podepisování obrazových dokumentů s metadaty pomocí GroupDocs.Signature pro .NET – Komplexní průvodce"
 "url": "/cs/net/image-signatures/image-document-signing-metadata-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Zvládnutí podepisování obrazových dokumentů s metadaty pomocí GroupDocs.Signature pro .NET
 
 ## Zavedení

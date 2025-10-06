@@ -4,8 +4,8 @@
 "title": "Implementace vyhledávání podpisů QR kódů v .NET pro extrakci dat z SMS pomocí GroupDocs.Signature"
 "url": "/cs/net/qr-code-signatures/implement-qr-code-signature-search-net-sms-data/"
 "weight": 1
+type: docs
 ---
-
 # Implementace vyhledávání podpisů QR kódů v .NET pomocí GroupDocs.Signature
 
 ## Zavedení

@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature का उपयोग करके Java में बारकोड और QR कोड वाली ZIP फ़ाइलों पर हस्ताक्षर कैसे करें"
 "url": "/hi/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature का उपयोग करके Java में बारकोड और QR कोड वाली ZIP फ़ाइलों पर हस्ताक्षर कैसे करें
 
 ## परिचय

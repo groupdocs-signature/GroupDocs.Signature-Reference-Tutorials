@@ -4,8 +4,8 @@
 "title": "Sökning efter signaturer i huvudmetadata i PowerPoint med GroupDocs.Signature för Java"
 "url": "/sv/java/search-verification/groupdocs-signature-java-metadata-search-presentation/"
 "weight": 1
+type: docs
 ---
-
 # Sökning efter signaturer i huvudmetadata i PowerPoint med GroupDocs.Signature för Java
 
 ## Introduktion

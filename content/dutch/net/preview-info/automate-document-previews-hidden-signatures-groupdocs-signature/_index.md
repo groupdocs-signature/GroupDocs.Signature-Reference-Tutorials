@@ -4,8 +4,8 @@
 "title": "Automatische documentvoorvertoningen met verborgen handtekeningen met GroupDocs.Signature voor .NET"
 "url": "/nl/net/preview-info/automate-document-previews-hidden-signatures-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # Automatische documentvoorvertoningen met verborgen handtekeningen met GroupDocs.Signature voor .NET
 
 ## Invoering

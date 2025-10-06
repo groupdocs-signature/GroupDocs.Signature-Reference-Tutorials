@@ -4,8 +4,8 @@
 "title": "توقيع المستندات الرئيسية باستخدام رموز الاستجابة السريعة (QR Codes) باستخدام GroupDocs.Signature for Java - دليل شامل"
 "url": "/ar/java/qr-code-signatures/groupdocs-signature-qr-code-document-signing/"
 "weight": 1
+type: docs
 ---
-
 # توقيع المستندات الرئيسية باستخدام رموز الاستجابة السريعة (QR Codes) باستخدام GroupDocs.Signature لـ Java
 
 ## مقدمة

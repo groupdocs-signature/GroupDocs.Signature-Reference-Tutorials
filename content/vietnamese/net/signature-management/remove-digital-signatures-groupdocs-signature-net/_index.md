@@ -4,8 +4,8 @@
 "title": "Cách xóa chữ ký số khỏi tệp PDF bằng GroupDocs.Signature cho .NET"
 "url": "/vi/net/signature-management/remove-digital-signatures-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Cách xóa chữ ký số khỏi tệp PDF bằng GroupDocs.Signature cho .NET
 
 ## Giới thiệu

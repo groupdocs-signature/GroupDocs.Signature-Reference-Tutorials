@@ -9,8 +9,8 @@ weight: 1
 url: "/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
 categories: ["Java PDF Processing"]
 tags: ["barcode-signatures", "pdf-signing", "document-authentication", "java-libraries"]
+type: docs
 ---
-
 # How to Add Barcode Signatures to PDF Documents in Java
 
 ## Introduction

@@ -4,8 +4,8 @@
 "title": "Generování podpisů QR kódů pomocí GroupDocs.Signature pro Javu – Komplexní průvodce"
 "url": "/cs/java/qr-code-signatures/generate-qr-code-signatures-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Generování podpisů QR kódů pomocí GroupDocs.Signature pro Javu
 
 ## Zavedení

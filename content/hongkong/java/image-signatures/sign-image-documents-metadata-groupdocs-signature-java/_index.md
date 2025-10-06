@@ -4,8 +4,8 @@
 "title": "使用 GroupDocs.Signature for Java 對影像文件進行元資料簽署－完整指南"
 "url": "/zh-hant/java/image-signatures/sign-image-documents-metadata-groupdocs-signature-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 對具有元資料的影像文件進行簽名
 
 ## 介紹

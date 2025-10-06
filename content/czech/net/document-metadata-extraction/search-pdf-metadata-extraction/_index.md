@@ -5,8 +5,8 @@
 "title": "Jak extrahovat podpisy metadat PDF v .NET"
 "url": "/cs/net/document-metadata-extraction/search-pdf-metadata-extraction/"
 "weight": 11
+type: docs
 ---
-
 # Jak extrahovat a vyhledávat podpisy metadat PDF
 
 ## Proč jsou metadata PDF důležitá pro vaše dokumenty

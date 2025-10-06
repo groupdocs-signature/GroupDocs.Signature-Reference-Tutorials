@@ -3,8 +3,8 @@
 "title": "Hướng dẫn chữ ký hình ảnh cho GroupDocs.Signature .NET"
 "url": "/vi/net/image-signatures/"
 "weight": 6
+type: docs
 ---
-
 # Hướng dẫn chữ ký hình ảnh cho GroupDocs.Signature .NET
 
 Tìm hiểu cách nâng cao chất lượng chữ ký hình ảnh cho tài liệu bằng cách sử dụng hướng dẫn sử dụng chữ ký hình ảnh .NET của GroupDocs.Signature. Hướng dẫn chi tiết này sẽ hướng dẫn bạn cách thêm hình ảnh làm chữ ký, tạo chữ ký dạng tem, triển khai hình mờ, tùy chỉnh cài đặt giao diện và làm việc với các tùy chọn căn chỉnh và kích thước hình ảnh. Mỗi hướng dẫn đều bao gồm các ví dụ mã C# hữu ích, hướng dẫn cách tạo chữ ký trực quan, truyền tải hiệu quả tính xác thực hoặc thương hiệu, đồng thời duy trì tính toàn vẹn của tài liệu.

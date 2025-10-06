@@ -4,8 +4,8 @@
 "title": "GroupDocs के साथ PDF पर क्रमिक रूप से हस्ताक्षर कैसे करें. .NET के लिए हस्ताक्षर एक व्यापक गाइड"
 "url": "/hi/net/multiple-signatures/incremental-pdf-signing-groupdocs-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET के लिए GroupDocs.Signature का उपयोग करके PDF दस्तावेज़ पर क्रमिक रूप से हस्ताक्षर कैसे करें
 
 ## परिचय

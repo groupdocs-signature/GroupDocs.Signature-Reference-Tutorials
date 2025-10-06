@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature のテキストおよびデジタル署名を使用した .NET でのマスター ドキュメント署名検索"
 "url": "/ja/net/search-verification/master-document-signature-searches-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # .NET でのドキュメント署名検索の習得
 
 今日のデジタル時代において、文書の真正性を検証することは、世界中の企業にとって極めて重要です。契約書、法務文書、公的記録など、どのような文書を扱う場合でも、効率的な署名検索は時間を節約し、セキュリティを強化するのに役立ちます。このチュートリアルでは、.NETアプリケーションでさまざまな種類の電子署名を扱うために設計された強力なライブラリであるGroupDocs.Signature for .NETを使用して、テキストおよびデジタル署名の検索を実装する方法を説明します。

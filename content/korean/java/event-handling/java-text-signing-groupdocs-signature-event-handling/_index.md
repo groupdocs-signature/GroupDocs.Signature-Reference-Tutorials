@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature를 사용한 Java 이벤트 처리로 텍스트 서명 구현"
 "url": "/ko/java/event-handling/java-text-signing-groupdocs-signature-event-handling/"
 "weight": 1
+type: docs
 ---
-
 # Java용 GroupDocs.Signature를 사용하여 이벤트 처리를 통한 텍스트 서명 구현
 
 ## 소개

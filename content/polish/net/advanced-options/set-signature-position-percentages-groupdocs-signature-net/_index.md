@@ -4,8 +4,8 @@
 "title": "Ustawianie pozycji podpisu za pomocą wartości procentowych w GroupDocs.Signature dla platformy .NET | Samouczek zaawansowany"
 "url": "/pl/net/advanced-options/set-signature-position-percentages-groupdocs-signature-net/"
 "weight": 1
+type: docs
 ---
-
 # Ustawianie pozycji podpisu za pomocą wartości procentowych w GroupDocs.Signature dla platformy .NET
 ## Wstęp
 W dzisiejszej erze cyfrowej efektywne zarządzanie dokumentami i ich automatyzacja są niezbędne. Programowe dodawanie podpisów do dokumentów z zachowaniem precyzyjnego rozmieszczenia to częste wyzwanie. Ten zaawansowany samouczek przeprowadzi Cię przez proces ustawiania pozycji podpisu za pomocą miar procentowych w GroupDocs.Signature dla .NET.

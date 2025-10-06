@@ -3,8 +3,8 @@
 "title": "GroupDocs.Signature .NET 事件處理與流程管理教學課程"
 "url": "/zh-hant/net/event-handling/"
 "weight": 15
+type: docs
 ---
-
 # GroupDocs.Signature .NET 事件處理與流程管理教學課程
 
 我們的活動處理和流程管理教學課程示範如何使用 GroupDocs.Signature for .NET 建立響應式簽章應用程式。這些逐步指南涵蓋如何訂閱簽章事件、實作搜尋和簽章操作的取消、處理例外狀況以及監控處理狀態。每個教程都包含詳細的 C# 程式碼範例，用於實現正確的事件處理，幫助您建立強大的應用程序，提供更好的用戶回饋、錯誤處理和對簽名操作的控制。

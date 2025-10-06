@@ -3,8 +3,8 @@ title: "Image Signature Tutorials for GroupDocs.Signature Java"
 description: "Complete tutorials for adding image signatures, watermarks, and stamps to documents using GroupDocs.Signature for Java."
 weight: 6
 url: "/java/image-signatures/"
+type: docs
 ---
-
 # Image Signature Tutorials for GroupDocs.Signature Java
 
 Learn how to enhance documents with visual signatures using our GroupDocs.Signature Java image signature tutorials. These detailed guides demonstrate how to add images as signatures, create stamp signatures, implement watermarks, customize appearance settings, and work with image alignment and sizing options. Each tutorial includes working Java code examples that show how to create visually appealing signatures that effectively communicate authenticity or branding while maintaining document integrity.

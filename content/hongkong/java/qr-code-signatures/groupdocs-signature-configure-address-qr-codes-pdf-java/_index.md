@@ -4,8 +4,8 @@
 "title": "如何使用 GroupDocs.Signature for Java 為 PDF 文件簽署地址二維碼"
 "url": "/zh-hant/java/qr-code-signatures/groupdocs-signature-configure-address-qr-codes-pdf-java/"
 "weight": 1
+type: docs
 ---
-
 # 如何使用 GroupDocs.Signature for Java 為 PDF 文件簽署地址二維碼
 
 在當今的數位世界中，安全地簽署文件至關重要。無論您是商務人士還是管理合約的個人，自動添加簽名都可以節省時間並增強文件安全性。本教程將指導您使用 **GroupDocs.Signature for Java** 建立並配置地址對象，然後將其整合到 PDF 中的二維碼簽章選項中。按照本指南，您將學習如何將地址資料以二維碼形式無縫嵌入到您的文件中。

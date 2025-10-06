@@ -4,8 +4,8 @@
 "title": "Java'da Güvenli Dijital İmzalar GroupDocs.İmza Şifreleme ve QR Kod Arama Kılavuzu"
 "url": "/tr/java/digital-signatures/groupdocs-signature-java-encryption-qr-code-search/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature Kullanarak Java'da Güvenli Dijital İmzalar
 ## giriiş
 Günümüzün dijital dünyasında, belgelerin güvenliği son derece önemlidir. İster hassas iş sözleşmelerini ister kişisel kayıtları yönetiyor olun, güçlü şifreleme ve etkili arama özellikleri kullanmak verilerinizi yetkisiz erişime karşı koruyabilir. Bu kılavuz, GroupDocs.Signature kullanarak Java'da özel şifreleme ve QR kodu imza arama seçeneklerini uygulama konusunda size yol gösterecektir.

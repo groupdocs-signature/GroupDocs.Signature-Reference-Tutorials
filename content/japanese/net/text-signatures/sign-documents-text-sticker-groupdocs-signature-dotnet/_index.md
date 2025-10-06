@@ -4,8 +4,8 @@
 "title": "GroupDocs.Signature for .NET でテキストステッカーを使用してドキュメントに署名する方法"
 "url": "/ja/net/text-signatures/sign-documents-text-sticker-groupdocs-signature-dotnet/"
 "weight": 1
+type: docs
 ---
-
 # GroupDocs.Signature for .NET でテキストステッカーを使用してドキュメントに署名する方法
 
 ## 導入

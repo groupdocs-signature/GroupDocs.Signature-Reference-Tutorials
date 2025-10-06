@@ -4,8 +4,8 @@
 "title": "Java용 GroupDocs.Signature 마스터하기&#58; PDF에서 텍스트 서명 삭제 및 검색"
 "url": "/ko/java/signature-management/mastering-groupdocs-signature-delete-search-text-signatures-pdfs-java/"
 "weight": 1
+type: docs
 ---
-
 # Java용 Master GroupDocs.Signature: PDF에서 텍스트 서명 삭제 및 검색
 
 오늘날의 디지털 시대에는 전자 문서를 효율적으로 관리하는 것이 매우 중요합니다. 개발자들이 흔히 직면하는 과제 중 하나는 PDF 문서 내의 텍스트 서명을 처리하는 것입니다. 서명이 올바르게 적용되었는지 확인하는 것부터 필요한 경우 삭제하는 것까지, 모든 과정이 여기에 포함됩니다. **Java용 GroupDocs.Signature**: 이러한 작업을 정확하고 쉽게 처리하도록 설계된 강력한 라이브러리입니다. 이 튜토리얼에서는 GroupDocs.Signature for Java를 사용하여 PDF에서 텍스트 서명을 삭제하고 검색하는 과정을 안내합니다.

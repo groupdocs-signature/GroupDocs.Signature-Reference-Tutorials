@@ -4,8 +4,8 @@
 "title": "Menerapkan Pencarian Kode Batang & Kode QR di Arsip ZIP Menggunakan GroupDocs untuk Pengembang Java"
 "url": "/id/java/search-verification/implement-barcode-qr-code-search-zip-groupdocs-java/"
 "weight": 1
+type: docs
 ---
-
 # Terapkan Pencarian Kode Batang & Kode QR di Arsip ZIP dengan GroupDocs untuk Java
 ## Perkenalan
 Di dunia digital saat ini, mengelola dan memverifikasi keaslian dokumen secara efisien sangatlah penting. Baik Anda menangani dokumen hukum, faktur, atau kontrak yang disimpan dalam arsip ZIP, menemukan kode batang dan kode QR tertentu bisa jadi sulit tanpa alat yang tepat. Tutorial ini memandu Anda menggunakan GroupDocs.Signature untuk Java untuk mencari tanda tangan kode batang dan kode QR dalam berkas ZIP dengan mudah.

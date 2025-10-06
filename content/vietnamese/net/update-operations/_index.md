@@ -5,8 +5,8 @@
 "title": "Hoạt động cập nhật chữ ký tài liệu"
 "url": "/vi/net/update-operations/"
 "weight": 26
+type: docs
 ---
-
 ## Giới thiệu
 
 Trong môi trường kinh doanh kỹ thuật số ngày nay, việc duy trì chữ ký tài liệu được cập nhật là rất quan trọng để đảm bảo tính xác thực và bảo mật của tài liệu. GroupDocs.Signature for .NET cung cấp một bộ công cụ toàn diện để cập nhật nhiều loại chữ ký khác nhau trong tài liệu của bạn, cho phép bạn duy trì tính toàn vẹn của tài liệu đồng thời thích ứng với các nhu cầu kinh doanh luôn thay đổi.

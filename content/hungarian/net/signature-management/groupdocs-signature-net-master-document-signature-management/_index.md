@@ -4,8 +4,8 @@
 "title": "Fődokumentum-aláírás-kezelés a GroupDocs.Signature for .NET segítségével"
 "url": "/hu/net/signature-management/groupdocs-signature-net-master-document-signature-management/"
 "weight": 1
+type: docs
 ---
-
 # Dokumentumaláírás-kezelés elsajátítása a GroupDocs.Signature for .NET segítségével
 
 ## Bevezetés

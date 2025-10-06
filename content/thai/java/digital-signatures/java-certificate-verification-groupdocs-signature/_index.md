@@ -4,8 +4,8 @@
 "title": "คู่มือการตรวจสอบใบรับรอง Java โดยใช้ GroupDocs.Signature สำหรับการพิสูจน์ตัวตนเอกสารที่ปลอดภัย"
 "url": "/th/java/digital-signatures/java-certificate-verification-groupdocs-signature/"
 "weight": 1
+type: docs
 ---
-
 # การนำการตรวจสอบใบรับรอง Java ไปใช้กับ GroupDocs.Signature สำหรับ Java
 
 ## การแนะนำ
