@@ -59,9 +59,6 @@ Learn how to efficiently implement QR code signature searches within multi-layer
 ### [Implement QR Code Signature Search in PDFs Using Java and GroupDocs.Signature](./implement-qr-code-signature-search-pdf-java/)
 Learn how to implement a powerful search function for QR code signatures in PDF documents using GroupDocs.Signature for Java. Enhance your document security features effectively.
 
-### [Implement QR Code Signatures in Java Using GroupDocs.Signature](./implement-qr-code-signatures-groupdocs-signature-java/)
-Learn how to securely implement QR code signatures with GroupDocs.Signature for Java. This guide covers setup, customization, and practical applications.
-
 ### [Implement QR Code Signing and PDF Conversion in Java using GroupDocs.Signature API](./java-signature-api-groupdocs-qr-codes-pdf-conversion/)
 Learn how to add QR codes to documents and convert PDFs to DOC format with GroupDocs.Signature for Java. Streamline your document workflows securely.
 

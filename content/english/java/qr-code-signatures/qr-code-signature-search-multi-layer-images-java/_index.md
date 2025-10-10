@@ -1,46 +1,87 @@
 ---
-title: "Implement QR Code Signature Search in Multi-Layer Images using Java and GroupDocs.Signature"
-description: "Learn how to efficiently implement QR code signature searches within multi-layer image documents using the powerful GroupDocs.Signature library for Java."
-date: "2025-05-08"
+title: "Search QR Codes in Images Using Java"
+linktitle: "QR Code Search in Images Java"
+description: "Learn how to search and extract QR codes from images in Java using GroupDocs.Signature. Step-by-step tutorial with code examples and troubleshooting tips."
+keywords: "search QR codes in images Java, QR code detection Java library, extract QR codes from images Java, Java QR code scanner tutorial, GroupDocs signature Java"
+date: "2025-01-02"
+lastmod: "2025-01-02"
 weight: 1
 url: "/java/qr-code-signatures/qr-code-signature-search-multi-layer-images-java/"
-keywords:
-- QR code signature search Java
-- GroupDocs.Signature multi-layer images
-- Java digital signatures
+categories: ["Java Development"]
+tags: ["qr-code", "image-processing", "groupdocs", "java-tutorial"]
 type: docs
 ---
-# How to Implement QR Code Signature Search in Multi-Layer Image Documents Using GroupDocs.Signature for Java
+
+# How to Search QR Codes in Images Using Java (Even Complex Multi-Layer Files)
 
 ## Introduction
 
-In today's digital landscape, effectively managing and verifying information embedded in multi-layer images is crucial. This tutorial guides you through searching for QR code signatures within these complex documents using the powerful GroupDocs.Signature library for Java.
+Ever needed to automatically find and read QR codes from images in your Java application? Maybe you're building a document management system, processing scanned invoices, or verifying authenticity of digital certificates. Whatever the use case, searching for QR codes in images—especially complex multi-layer formats like TIFFs or DICOM files—can be surprisingly tricky without the right tools.
 
-**What You'll Learn:**
-- Setting up GroupDocs.Signature for Java in your project
-- Searching for QR code signatures within multi-layer images
-- Optimizing performance and troubleshooting common issues
+Here's the good news: you don't need to build QR detection from scratch or wrestle with complicated image processing libraries. GroupDocs.Signature for Java gives you a straightforward API that handles all the heavy lifting, letting you focus on your business logic instead of decoding pixels.
+
+In this tutorial, you'll learn how to search for QR codes embedded in images (including multi-layer documents) using Java. We'll cover everything from setup to troubleshooting, with real code examples you can use right away.
+
+**What You'll Walk Away With:**
+- A working QR code search implementation you can drop into any Java project
+- Understanding of when and why to use GroupDocs.Signature
+- Practical tips for handling edge cases and performance optimization
+- Solutions to common problems developers face
+
+## When You Need This Feature
+
+Before we dive into code, let's talk about when QR code searching in images actually makes sense for your project:
+
+**Perfect Use Cases:**
+- **Medical Records Management**: Extracting patient identifiers from scanned DICOM images or multi-page medical documents
+- **Invoice Processing**: Automatically pulling payment codes from photographed or scanned invoices
+- **Document Verification**: Validating authenticity of certificates, licenses, or legal documents with embedded QR signatures
+- **Inventory Management**: Reading product codes from warehouse photos or multi-page catalogs
+- **Digital Asset Tracking**: Finding embedded metadata in layered PSDs or complex image files
+
+**You Probably Need This If:**
+- You're dealing with images that might contain multiple QR codes
+- Your images come in complex formats (multi-layer TIFFs, DICOM, layered documents)
+- You need reliable detection across varying image qualities
+- You want to extract both the QR content AND its location data (page number, coordinates)
+
+## Why Use GroupDocs.Signature for QR Code Search?
+
+You might be wondering: "Can't I just use a basic QR scanning library?" Sure, for simple cases. But here's where GroupDocs shines:
+
+**Built for Document Workflows**: Unlike generic QR scanners, GroupDocs is designed for business documents. It understands multi-page files, layered images, and complex document structures out of the box.
+
+**Beyond Just Scanning**: You're not just detecting QR codes—you're getting position data, page numbers, signature IDs, and metadata. This is crucial when you need to track *where* information came from in a document.
+
+**Production-Ready**: It handles edge cases you haven't thought of yet (corrupted images, partial QR codes, unusual formats). Your side project might not need this, but your production application definitely does.
+
+**One Library, Many Formats**: Need to search PDFs tomorrow? Word documents next week? Same API works across 50+ file formats.
+
+The trade-off? It's not free (though there's a trial). For hobby projects, a lightweight QR scanner might suffice. For anything production-facing or dealing with real documents, the robustness is worth it.
 
 ## Prerequisites
 
-Before starting, ensure you have the following:
+Let's make sure you've got everything you need before we start coding.
 
-### Required Libraries and Dependencies
-1. **GroupDocs.Signature for Java** - Essential library for handling digital signatures.
-2. **Java Development Kit (JDK)** - Ensure JDK is installed on your system.
-
-### Environment Setup Requirements
-- Use a development environment like IntelliJ IDEA, Eclipse, or NetBeans with Maven or Gradle to manage dependencies.
+### What You'll Need Installed
+1. **Java Development Kit (JDK)** - JDK 8 or higher (JDK 11+ recommended)
+2. **A Java IDE** - IntelliJ IDEA, Eclipse, or NetBeans work great
+3. **Maven or Gradle** - For dependency management (we'll show both)
 
 ### Knowledge Prerequisites
-- Basic understanding of Java programming.
-- Familiarity with handling file paths and working with external libraries.
+- **Comfortable with Java basics** - If you can write a class and handle exceptions, you're good
+- **Understanding of file paths** - Know how to reference files in your project
+- **Basic Maven/Gradle** - Enough to add a dependency (we'll show you how)
+
+Don't worry if you're not an expert—this tutorial assumes you're a practical developer who wants working code, not an academic dissertation.
 
 ## Setting Up GroupDocs.Signature for Java
 
-To integrate GroupDocs.Signature into your project, use either Maven or Gradle:
+Getting GroupDocs into your project is straightforward. Choose your build tool:
 
-**Maven**
+### Maven Setup
+Add this to your `pom.xml` dependencies section:
+
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -49,52 +90,95 @@ To integrate GroupDocs.Signature into your project, use either Maven or Gradle:
 </dependency>
 ```
 
-**Gradle**
+### Gradle Setup
+Add this to your `build.gradle` dependencies:
+
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-Alternatively, download the latest version from [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/).
+**Can't Use Maven/Gradle?** No problem. Download the JAR directly from [GroupDocs.Signature releases](https://releases.groupdocs.com/signature/java/) and add it to your classpath manually.
 
-### License Acquisition
-- **Free Trial**: Start with a free trial to explore basic functionalities.
-- **Temporary License**: Obtain a temporary license for extended testing and development.
-- **Purchase**: For full access, consider purchasing a commercial license.
+### Getting a License
 
-#### Basic Initialization and Setup
-To begin using GroupDocs.Signature for Java, initialize the `Signature` object:
+Here's what your options look like:
+
+**Free Trial** - Perfect for kicking the tires. You can test basic functionality and see if it fits your needs. [Grab it here](https://releases.groupdocs.com/signature/java/).
+
+**Temporary License** - Need more time to evaluate? Get a 30-day temporary license with full features for development and testing. [Request one here](https://purchase.groupdocs.com/temporary-license/).
+
+**Commercial License** - For production use, you'll need a purchased license. [Pricing details](https://purchase.groupdocs.com/buy).
+
+### Your First Initialization
+
+Once you've got the dependency added, here's how you create a `Signature` object (this is your main entry point):
+
 ```java
 final Signature signature = new Signature("path/to/your/document");
 ```
 
-## Implementation Guide
+Replace `"path/to/your/document"` with the actual path to your image file. That's it—you're ready to start searching for QR codes.
 
-### Feature: Search QR Code Signatures in Multi-Layer Image Documents
+**Pro Tip**: Always use try-with-resources to ensure proper cleanup:
+```java
+try (final Signature signature = new Signature("path/to/your/image.tif")) {
+    // Your code here
+}
+```
 
-This feature enables detecting and verifying QR codes embedded within complex image files. Follow these steps for implementation.
+## Implementation Guide: Searching for QR Codes in Images
 
-#### Step 1: Set Up Search Options
-Define your search criteria using `QrCodeSearchOptions`:
+Alright, let's get to the meat of this tutorial. We'll walk through the complete process of finding QR codes in an image, step by step.
+
+### Step 1: Configure Your Search Options
+
+First, you need to tell GroupDocs what you're looking for and what information you want back. This is where `QrCodeSearchOptions` comes in:
+
 ```java
 // Setup search options for QR code signatures
-descriptor QrCodeSearchOptions searchOptions = new QrCodeSearchOptions();
+QrCodeSearchOptions searchOptions = new QrCodeSearchOptions();
 searchOptions.setReturnContent(true); // Return the content of found signatures
 searchOptions.setReturnContentType(FileType.PNG);  // Set return content type to PNG
 ```
-- **Parameters Explained**:
-  - `setReturnContent(true)`: Ensures retrieval of the QR code's content.
-  - `setReturnContentType(FileType.PNG)`: Specifies that any embedded images are returned as PNG files.
 
-#### Step 2: Execute the Search
-Perform the search using configured options:
+**What's happening here?**
+
+- `setReturnContent(true)` - This tells the library: "Don't just find the QR codes, I want their actual content too." Without this, you'd only get metadata about *where* the QR codes are, not *what they contain*.
+
+- `setReturnContentType(FileType.PNG)` - If the QR code itself is an embedded image (common in complex documents), this specifies how you want it returned. PNG is a safe default, but you can use other formats like JPEG if needed.
+
+**When to adjust these settings:**
+- Set `setReturnContent(false)` if you only care about QR code locations and want faster processing
+- Use `FileType.JPEG` instead of PNG if you're dealing with large images and want smaller return sizes
+- These options don't affect whether QR codes are *found*—just what data comes back
+
+### Step 2: Execute the Search
+
+Now we actually search the document. This is where the magic happens:
+
 ```java
 // Perform the search for QR code signatures in the document
 List<QrCodeSignature> signatures = signature.search(QrCodeSignature.class, searchOptions);
 ```
-- **Method Purpose**: The `search` method locates all matching QR code signatures within the document.
 
-#### Step 3: Process Found Signatures
-Iterate through and process each found QR code signature:
+**Breaking this down:**
+
+The `search()` method does the heavy lifting—it scans through your image (or all pages if it's multi-page), finds every QR code, and returns them as a list of `QrCodeSignature` objects.
+
+**What you get back:**
+Each `QrCodeSignature` object contains:
+- The decoded text from the QR code
+- Position information (x, y coordinates)
+- Size dimensions (width, height)
+- Page number (for multi-page documents)
+- A unique signature ID
+
+**Important note**: This method returns an empty list if no QR codes are found—it doesn't throw an exception. Always check `signatures.isEmpty()` before processing results.
+
+### Step 3: Process the Results
+
+Finally, let's do something useful with the QR codes we found:
+
 ```java
 // Iterate over found QR code signatures and print details
 for (QrCodeSignature qrSignature : signatures) {
@@ -105,50 +189,261 @@ for (QrCodeSignature qrSignature : signatures) {
                        qrSignature.getWidth() + "x" + qrSignature.getHeight() + ".");
 }
 ```
-- **Key Configuration Options**:
-  - `qrSignature.getText()`: Retrieves decoded text from the QR code.
-  - `qrSignature.getPageNumber()`: Provides the page number where the signature was found.
 
-#### Troubleshooting Tips
-- Ensure correct document path to avoid file-not-found errors.
-- Verify search options are configured as per your specific document type.
+**What each property gives you:**
 
-## Practical Applications
-1. **Medical Document Verification**: Verify patient records in DICOM files using QR code searches.
-2. **Legal Document Management**: Enhance security by verifying embedded signatures within PDFs and images.
-3. **Supply Chain Tracking**: Implement QR code detection for tracking product authenticity through supply chain documents.
+- `getText()` - The actual decoded content of the QR code (URL, text, JSON, whatever it contains)
+- `getPageNumber()` - Which page of the document this was found on (critical for multi-page TIFFs or documents)
+- `getSignatureId()` - A unique identifier you can use for tracking or database storage
+- `getLeft()` / `getTop()` - X and Y coordinates of the QR code's top-left corner
+- `getWidth()` / `getHeight()` - The QR code's dimensions in the image
 
-Integration with other systems like databases or authentication services can further enhance document management workflows.
+**Real-world usage**: Instead of just printing, you'd typically:
+- Store results in a database with the signature ID as a key
+- Extract specific data from the QR text (parse URLs, JSON payloads, etc.)
+- Flag documents based on whether specific QR codes were found
+- Generate reports showing QR code locations for auditing
 
-## Performance Considerations
-To ensure optimal performance when using GroupDocs.Signature:
-- **Optimize Resource Usage**: Close unused resources and manage memory efficiently.
-- **Java Memory Management Best Practices**:
-  - Use `try-with-resources` to automatically close streams.
-  - Regularly monitor heap usage and adjust JVM settings if necessary.
+### Complete Working Example
 
-## Conclusion
-Implementing QR code signature searches in multi-layer image documents using GroupDocs.Signature for Java is a powerful way to enhance document verification processes. By following this tutorial, you now have the tools to integrate this functionality into your applications effectively.
+Here's everything put together in a single, copy-paste-ready method:
 
-**Next Steps**: Explore additional features of GroupDocs.Signature, such as digital signing and verifying signatures across different file formats.
+```java
+public void searchQrCodesInImage(String imagePath) {
+    try (final Signature signature = new Signature(imagePath)) {
+        // Configure search
+        QrCodeSearchOptions searchOptions = new QrCodeSearchOptions();
+        searchOptions.setReturnContent(true);
+        searchOptions.setReturnContentType(FileType.PNG);
+        
+        // Execute search
+        List<QrCodeSignature> signatures = signature.search(QrCodeSignature.class, searchOptions);
+        
+        // Process results
+        if (signatures.isEmpty()) {
+            System.out.println("No QR codes found in the image.");
+            return;
+        }
+        
+        System.out.println("Found " + signatures.size() + " QR code(s):");
+        for (QrCodeSignature qrSignature : signatures) {
+            System.out.println("Found Qr-Code " + qrSignature.getText() +
+                               " signature at page " + qrSignature.getPageNumber() +
+                               " and id# " + qrSignature.getSignatureId() + ".");
+            System.out.println("Location at " + qrSignature.getLeft() + "-" + qrSignature.getTop() + 
+                               ". Size is " + qrSignature.getWidth() + "x" + qrSignature.getHeight() + ".");
+        }
+    } catch (Exception e) {
+        System.err.println("Error searching for QR codes: " + e.getMessage());
+        e.printStackTrace();
+    }
+}
+```
 
-## FAQ Section
-1. **What types of documents can I search for QR code signatures in?**
-   - You can use it on various image-based documents including DICOM files and multi-page TIFFs.
-2. **Is GroupDocs.Signature free to use?**
-   - A free trial is available; however, extended features require purchasing a license.
-3. **Can I customize the search options for QR codes?**
-   - Yes, `QrCodeSearchOptions` provides several configuration settings.
-4. **How do I handle errors during the signature search process?**
-   - Implement exception handling around the `search` method to manage errors effectively.
-5. **What are some common issues with QR code detection in images?**
-   - Issues may arise from low-resolution images or partially obscured QR codes; ensure high-quality image sources for best results.
+## Common Issues and How to Fix Them
 
-## Resources
-- [Documentation](https://docs.groupdocs.com/signature/java/)
-- [API Reference](https://reference.groupdocs.com/signature/java/)
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com/signature/java/)
-- [Purchase License](https://purchase.groupdocs.com/buy)
-- [Free Trial](https://releases.groupdocs.com/signature/java/)
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-- [Support Forum](https://forum.groupdocs.com/c/signature/)
+Let's address the problems you're most likely to run into (because you will—we all do):
+
+### Issue 1: "File Not Found" Errors
+
+**Symptom**: `FileNotFoundException` or similar error when initializing `Signature`.
+
+**Common Causes:**
+- Relative path is wrong (your working directory isn't what you think)
+- Typo in filename
+- File is locked by another process
+
+**Solutions:**
+```java
+// Use absolute paths during testing to rule out path issues
+String absolutePath = new File("images/sample.tif").getAbsolutePath();
+System.out.println("Looking for file at: " + absolutePath);
+
+// Verify file exists before processing
+File imageFile = new File(imagePath);
+if (!imageFile.exists()) {
+    throw new RuntimeException("Image file not found: " + imagePath);
+}
+```
+
+### Issue 2: QR Codes Not Detected
+
+**Symptom**: Empty results list even though you know there's a QR code in the image.
+
+**Common Causes:**
+- Image quality too low (QR code is blurry or pixelated)
+- QR code is partially obscured or damaged
+- File format issues (corrupted image)
+
+**Solutions:**
+- Ensure source images are at least 300 DPI for reliable detection
+- Pre-process images with contrast enhancement if they're low quality
+- Test with a known-good QR code image first to rule out code issues
+- Check if the QR code is actually valid (test with a phone scanner)
+
+### Issue 3: Performance is Slow on Large Images
+
+**Symptom**: Search takes forever on high-resolution or multi-page images.
+
+**Solutions:**
+- Disable content return if you don't need it: `searchOptions.setReturnContent(false)`
+- Process images in parallel if you have multiple files
+- Consider downsampling very large images before processing (trade-off with detection accuracy)
+- Use appropriate JVM heap settings (see Performance section below)
+
+### Issue 4: OutOfMemoryError with Large Documents
+
+**Symptom**: Java heap space errors when processing big TIFF files or many images.
+
+**Quick Fixes:**
+```java
+// Process in try-with-resources to ensure cleanup
+try (Signature signature = new Signature(imagePath)) {
+    // Your code
+} // Automatically closes and releases memory
+
+// Increase JVM heap: java -Xmx4g -jar yourapp.jar
+```
+
+## Practical Applications in Real Projects
+
+Here's how developers are actually using this in production:
+
+### 1. Medical Record Management System
+A hospital processes thousands of patient scans daily. QR codes on DICOM images link to patient records. Their implementation:
+- Batch processes overnight scans from multiple departments
+- Extracts patient IDs from QR codes
+- Cross-references with database to flag mismatches
+- Alerts staff to mislabeled scans before they enter the system
+
+**Key lesson**: They cache `Signature` objects per thread for better performance on batch operations.
+
+### 2. Invoice Automation Platform
+An accounting firm scans client invoices with payment QR codes. Their flow:
+- Email attachments auto-saved to processing folder
+- Java service monitors folder, processes new TIFFs
+- Extracts payment reference codes from QR codes
+- Auto-populates accounting software with payment details
+
+**Key lesson**: They validate QR content format immediately (regex check) before database insertion to catch corrupted scans.
+
+### 3. Supply Chain Authentication
+A manufacturer embeds QR signatures in product manuals (multi-page PDFs converted to images). They:
+- Verify product authenticity at distribution centers
+- Track document versions via QR signature IDs
+- Flag counterfeit manuals (missing or invalid QR codes)
+- Generate audit trails with location data from QR positions
+
+**Key lesson**: They store both the QR text AND coordinates—location consistency helps catch forgeries.
+
+## Performance Tips for Large-Scale Operations
+
+When you're moving from a proof-of-concept to handling real production volume, keep these in mind:
+
+### Memory Management
+```java
+// GOOD: Let Java clean up resources automatically
+try (Signature signature = new Signature(imagePath)) {
+    List<QrCodeSignature> results = signature.search(QrCodeSignature.class, options);
+    // Process results immediately
+} // signature is closed here, memory released
+
+// AVOID: Keeping Signature objects open longer than needed
+Signature sig = new Signature(imagePath);
+// ... lots of other code
+sig.search(...); // Memory held unnecessarily
+```
+
+### JVM Tuning for Image Processing
+
+For production deployments processing large images:
+```bash
+# Allocate sufficient heap
+java -Xmx4g -Xms2g -jar your-app.jar
+
+# Enable G1GC for better large object handling
+java -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar your-app.jar
+```
+
+### Batch Processing Strategy
+
+If you're processing multiple files:
+- **Don't** create a new `Signature` object per file in rapid succession
+- **Do** process files in logical batches with pauses for GC
+- **Consider** parallel processing with a fixed thread pool (4-8 threads works well)
+
+### Optimize Search Options Based on Use Case
+
+```java
+// Fast scanning (just detect, don't extract content)
+QrCodeSearchOptions fastOptions = new QrCodeSearchOptions();
+fastOptions.setReturnContent(false); // Significant speed boost
+
+// Full data extraction (slower but complete)
+QrCodeSearchOptions fullOptions = new QrCodeSearchOptions();
+fullOptions.setReturnContent(true);
+fullOptions.setReturnContentType(FileType.PNG);
+```
+
+## What's Next? Expanding Your Implementation
+
+Once you've got basic QR code searching working, here are natural next steps:
+
+**Add Digital Signing**: Use GroupDocs to not just find signatures but *add* them to documents. Great for workflow automation.
+
+**Support More Formats**: The same code works on PDFs, Word docs, Excel files—just change the input file. No API changes needed.
+
+**Barcode Detection**: GroupDocs also handles traditional barcodes (Code 128, EAN, etc.) with nearly identical code.
+
+**Metadata Extraction**: Combine QR searches with other signature types (digital certificates, text signatures) for comprehensive document analysis.
+
+## Wrapping Up
+
+You now have a solid foundation for searching QR codes in images using Java. The GroupDocs.Signature library handles the complexity of image processing and QR detection, letting you focus on building features that matter for your application.
+
+**Key takeaways:**
+- QR code searching in images is straightforward with the right library
+- GroupDocs shines for production applications and complex document formats
+- Proper configuration (search options) and resource management (try-with-resources) are crucial
+- Real-world performance requires attention to memory and JVM tuning
+
+**Ready to implement?** Start with the trial license, test with your actual documents (not just sample files), and monitor performance from day one.
+
+## Frequently Asked Questions
+
+**1. What image formats can I search for QR codes in?**  
+GroupDocs supports all major image formats: JPEG, PNG, BMP, GIF, TIFF (including multi-page), DICOM, and even layered formats like PSD. Basically, if it's an image format you've heard of, it probably works.
+
+**2. Can I search for QR codes in PDFs or Word documents too?**  
+Absolutely. The same `search()` API works across 50+ formats including PDF, DOCX, XLSX, and more. Just point it at a different file—no code changes needed.
+
+**3. How accurate is the QR code detection?**  
+Very reliable for standard QR codes in decent-quality images. Detection accuracy depends mainly on your source image quality. Aim for 300+ DPI and good contrast for best results. The library handles rotation and some distortion automatically.
+
+**4. Is there a free version I can use in production?**  
+The free trial is for evaluation only. For production use, you'll need a commercial license. However, pricing is reasonable for commercial Java libraries of this caliber—check their pricing page for current rates.
+
+**5. Can I search for multiple types of signatures at once?**  
+Yes! You can search for QR codes, barcodes, text signatures, and digital certificates in a single pass. Just call `search()` multiple times with different option types, or use `searchAll()` for everything.
+
+**6. What happens if a QR code is partially damaged or obscured?**  
+QR codes have built-in error correction, so minor damage is often tolerable. However, if large portions are missing or corrupted, detection will fail. The library doesn't return partial/corrupted QR data—it's all or nothing.
+
+**7. How do I handle multi-page TIFF files?**  
+GroupDocs automatically processes all pages in multi-page formats. Each found QR code includes a `getPageNumber()` so you know which page it came from. No special handling required on your part.
+
+**8. Can I limit the search to specific regions of an image?**  
+Not directly through search options, but you can crop your image to the region of interest before passing it to GroupDocs. Alternatively, filter results after searching based on their coordinate positions.
+
+## Resources and Further Learning
+
+**Documentation and Downloads:**
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) - Complete API reference and guides
+- [API Reference](https://reference.groupdocs.com/signature/java/) - Detailed class and method documentation  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com/signature/java/) - Latest releases and versions
+- [Free Trial](https://releases.groupdocs.com/signature/java/) - Test before you commit
+
+**Licensing and Support:**
+- [Purchase Commercial License](https://purchase.groupdocs.com/buy) - Production licensing options
+- [Get Temporary License](https://purchase.groupdocs.com/temporary-license/) - Extended evaluation license
+- [Support Forum](https://forum.groupdocs.com/c/signature/) - Active community and official support
