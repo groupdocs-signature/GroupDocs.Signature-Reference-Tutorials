@@ -1,5 +1,5 @@
 ---
-title: "How to Add QR Code to Excel in Java
+title: "How to Add QR Code to Excel in Java"
 linktitle: "Add QR Code to Excel Java"
 description: "Learn how to add QR code signatures to Excel spreadsheets in Java using GroupDocs.Signature. Step-by-step guide with code examples and best practices."
 keywords: "add QR code to Excel Java, Excel QR code signature Java, sign spreadsheet programmatically Java, GroupDocs Signature tutorial, Java library for Excel QR codes"
