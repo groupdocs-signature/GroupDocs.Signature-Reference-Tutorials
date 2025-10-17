@@ -1,45 +1,63 @@
 ---
-title: "Master Digital Signature Search in Java with GroupDocs.Signature&#58; A Comprehensive Guide"
-description: "Learn how to implement digital signature search functionality using GroupDocs.Signature for Java. This guide covers setup, error handling, and practical applications."
-date: "2025-05-08"
+title: "How to Search Digital Signatures in Java Documents with GroupDocs"
+linktitle: "Search Digital Signatures in Java"
+description: "Learn how to search and verify digital signatures in PDF and other documents using GroupDocs.Signature for Java. Includes error handling, batch processing tips, and real-world examples."
+keywords: "search digital signatures Java documents, verify digital signatures Java GroupDocs, Java digital signature verification tutorial, GroupDocs Signature search API Java, find digital signatures PDF Java"
+date: "2025-01-02"
+lastmod: "2025-01-02"
 weight: 1
 url: "/java/search-verification/groupdocs-signature-java-digital-search-tutorial/"
-keywords:
-- digital signature search Java
-- GroupDocs.Signature for Java tutorial
-- implementing digital signatures in Java
+categories: ["Java Development"]
+tags: ["digital-signatures", "document-security", "groupdocs", "pdf-processing", "java-tutorial"]
 type: docs
 ---
-# Mastering Digital Signature Search with GroupDocs.Signature for Java
 
-## Introduction
-In today's digital age, ensuring the authenticity and integrity of documents is crucial. Sensitive contracts or legal documents require robust security measures to prevent tampering. Digital signatures provide a secure way to verify document authenticity.
+# How to Search Digital Signatures in Java Documents with GroupDocs
 
-**GroupDocs.Signature for Java** offers powerful tools for managing and searching digital signatures within applications. This comprehensive guide will teach you how to implement digital signature search functionality using GroupDocs.Signature, ensuring your Java applications handle documents securely.
+## Why You Need Digital Signature Search (And Why It's Trickier Than You Think)
 
-By the end of this tutorial, you'll know how to:
-- Search for digital signatures in documents
-- Handle exceptions gracefully during searches
-- Seamlessly integrate digital signature features into your projects
+Here's a scenario you've probably faced: your application receives signed documents, and you need to programmatically verify those signatures before processing them. Sounds simple, right? Just read the file and check for signatures.
 
-## Prerequisites
-Before implementing digital signature search with GroupDocs.Signature for Java, ensure you have the following prerequisites:
+Not quite. Different document formats store signatures differently. PDFs use one structure, Word documents another. Some signatures are visible, others aren't. Some documents have multiple signatures from different signers. And if you're dealing with password-protected files? That's another layer of complexity.
+
+**GroupDocs.Signature for Java** solves this headache by providing a unified API to search for digital signatures across multiple document formats. Whether you're validating contracts, verifying invoices, or building a document management system, this library handles the heavy lifting.
+
+In this guide, you'll learn how to:
+- Set up and configure GroupDocs.Signature in your Java project
+- Search for digital signatures in various document types (with real-world considerations)
+- Handle edge cases like password-protected files and missing signatures
+- Troubleshoot common issues that trip up developers
+- Optimize performance when processing multiple documents
+
+Let's dive in.
+
+## What You'll Need Before Starting
 
 ### Required Libraries and Dependencies
-- **GroupDocs.Signature for Java:** Include this library in your project to manage signatures.
 
-### Environment Setup Requirements
-- A development environment capable of running Java applications (e.g., IntelliJ IDEA or Eclipse).
-- Java Development Kit (JDK) installed on your machine.
+**GroupDocs.Signature for Java** is the only external library you need. Make sure you're using version 23.12 or later (it includes important bug fixes for digital signature handling).
+
+### Environment Setup
+
+You'll need:
+- **Java Development Kit (JDK):** Version 8 or higher (JDK 11+ recommended for better performance)
+- **IDE:** IntelliJ IDEA, Eclipse, or VS Code with Java extensions
+- **Build Tool:** Maven or Gradle (we'll cover both)
 
 ### Knowledge Prerequisites
-- Basic understanding of Java programming.
-- Familiarity with digital signature concepts and their importance in document security.
 
-## Setting Up GroupDocs.Signature for Java
-To use GroupDocs.Signature for Java, include it in your project using one of these methods:
+This tutorial assumes you're comfortable with:
+- Basic Java syntax (classes, methods, exception handling)
+- Understanding what digital signatures are and why they matter (if you're fuzzy on this, check out) [this primer on digital signatures](https://docs.groupdocs.com/signature/java/)
 
-**Maven**
+**Pro tip:** If you've never worked with GroupDocs libraries before, don't worry. The API is intuitive, and we'll walk through everything step by step.
+
+## Setting Up GroupDocs.Signature in Your Project
+
+### Maven Setup
+
+Add this dependency to your `pom.xml`:
+
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -48,115 +66,457 @@ To use GroupDocs.Signature for Java, include it in your project using one of the
 </dependency>
 ```
 
-**Gradle**
+**Why this version?** Version 23.12 includes critical updates for handling corrupted signature data and improved memory management when processing large files.
+
+### Gradle Setup
+
+For Gradle users, add this to your `build.gradle`:
+
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Direct Download**
-Alternatively, download the latest version from [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/).
+### Direct Download (If You're Not Using Build Tools)
 
-### License Acquisition Steps
-- **Free Trial:** Start with a free trial to explore features.
-- **Temporary License:** Obtain a temporary license for extended testing.
-- **Purchase:** Purchase a full license if this tool suits your needs.
+Download the JAR file from [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) and add it to your project's classpath manually.
 
-## Implementation Guide
-Let's break down the implementation into manageable steps.
+### Getting Your License
 
-### Feature: Digital Signature Search
+**Start with the free trial** to test the library with your specific document types. The trial version has some limitations (like watermarks on output), but it's perfect for development and testing.
 
-**Overview**
-This feature allows you to search and verify digital signatures within documents, ensuring their authenticity and integrity.
+When you're ready for production:
+1. **Temporary License:** Get a 30-day full-featured license for extended testing ([apply here](https://purchase.groupdocs.com/temporary-license/))
+2. **Commercial License:** Purchase when you're ready to deploy ([pricing info](https://purchase.groupdocs.com/buy))
 
-##### Step 1: Define File Path
+**Heads up:** The trial version won't process documents larger than 10MB, so factor that into your testing plan.
+
+## Implementing Digital Signature Search: Step-by-Step
+
+Okay, let's build this out. We'll start with the basic search, then layer in more sophisticated features.
+
+### Basic Digital Signature Search
+
+Here's what a simple signature search looks like:
+
+#### Step 1: Point to Your Document
+
 ```java
-// Specify the document containing a digital signature.
+// Replace this with your actual file path
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample_pdf_signed_pwd.pdf";
 ```
-*Why:* You need to specify which document you are searching for signatures in.
 
-##### Step 2: Set Load Options
+**Real-world note:** In production, you'll probably get this path from a file upload, database, or cloud storage. Just make sure the path is accessible from your application's context.
+
+#### Step 2: Configure Load Options
+
 ```java
 LoadOptions loadOptions = new LoadOptions();
 ```
-*Why:* Load options allow configuration of additional parameters when loading a document, such as password protection.
 
-##### Step 3: Initialize Signature Object
+**Why do we need this?** Load options let you specify things like:
+- Password for encrypted documents (we'll cover this in a sec)
+- Specific pages to load (useful for large documents)
+- Format-specific settings (like handling embedded fonts in PDFs)
+
+For now, we're using default options, but you'll customize this in real applications.
+
+#### Step 3: Initialize the Signature Object
+
 ```java
 Signature signature = new Signature(filePath, loadOptions);
 ```
-*Why:* The `Signature` object represents the document and provides methods for searching signatures.
 
-##### Step 4: Create DigitalSearchOptions
+**What's happening here?** The `Signature` object loads your document into memory and prepares it for signature operations. Think of it as opening the document in read mode—it doesn't modify anything yet.
+
+**Common mistake:** Forgetting to close this object after you're done, which can lead to memory leaks. We'll handle this properly with try-with-resources in the complete example.
+
+#### Step 4: Set Up Search Criteria
+
 ```java
-digitalSearchOptions options = new DigitalSearchOptions();
+DigitalSearchOptions options = new DigitalSearchOptions();
 ```
-*Why:* This sets up the criteria you'll use to search for digital signatures in your document.
 
-##### Step 5: Search for Digital Signatures
+**This is where it gets interesting.** `DigitalSearchOptions` lets you filter which signatures to find. Right now we're searching for all digital signatures, but you can narrow it down by:
+- Signature type (e.g., only X.509 certificates)
+- Signer name
+- Signature date range
+- Certificate issuer
+
+We'll explore advanced filtering later in this guide.
+
+#### Step 5: Execute the Search
+
 ```java
 try {
     List<DigitalSignature> signatures = signature.search(DigitalSignature.class, options);
+    
+    // At this point, 'signatures' contains all digital signatures found
+    System.out.println("Found " + signatures.size() + " digital signature(s)");
+    
 } catch (GroupDocsSignatureException ex) {
+    // This catches library-specific errors (e.g., unsupported format, corrupted file)
     System.out.println("GroupDocs Signature Exception: " + ex.getMessage());
 } catch (Exception ex) {
+    // This catches everything else (e.g., file not found, permission issues)
     System.out.println("System Exception: " + ex.getMessage());
 }
 ```
-*Why:* The search method attempts to find all digital signatures in the document using specified options. Proper error handling ensures your application can gracefully manage any issues during the process.
 
-### Feature: Error Handling for Digital Signature Search
+**Why two catch blocks?** GroupDocs throws specific exceptions for library-related issues (like malformed signature data), while general exceptions cover file system problems, out-of-memory errors, etc. Handling them separately gives you better control over error recovery.
 
-**Overview**
-Proper error handling is crucial for maintaining robust applications, especially when dealing with external libraries and systems.
+### Complete Working Example
+
+Here's everything put together with proper resource management:
+
+```java
+import com.groupdocs.signature.Signature;
+import com.groupdocs.signature.domain.signatures.DigitalSignature;
+import com.groupdocs.signature.exception.GroupDocsSignatureException;
+import com.groupdocs.signature.options.loadoptions.LoadOptions;
+import com.groupdocs.signature.options.search.DigitalSearchOptions;
+
+import java.util.List;
+
+public class DigitalSignatureSearchExample {
+    
+    public static void main(String[] args) {
+        String filePath = "YOUR_DOCUMENT_DIRECTORY/sample_pdf_signed_pwd.pdf";
+        
+        LoadOptions loadOptions = new LoadOptions();
+        
+        // Try-with-resources ensures proper cleanup
+        try (Signature signature = new Signature(filePath, loadOptions)) {
+            
+            DigitalSearchOptions options = new DigitalSearchOptions();
+            List<DigitalSignature> signatures = signature.search(DigitalSignature.class, options);
+            
+            System.out.println("Found " + signatures.size() + " digital signature(s)");
+            
+            // Process each signature
+            for (DigitalSignature digitalSig : signatures) {
+                System.out.println("Certificate Subject: " + digitalSig.getCertificate().getSubjectName());
+                System.out.println("Signed On: " + digitalSig.getSignTime());
+                System.out.println("Is Valid: " + digitalSig.isValid());
+            }
+            
+        } catch (GroupDocsSignatureException ex) {
+            System.err.println("GroupDocs Signature Exception: " + ex.getMessage());
+            // Log to your logging framework here
+        } catch (Exception ex) {
+            System.err.println("System Exception: " + ex.getMessage());
+            // Log to your logging framework here
+        }
+    }
+}
+```
+
+**Pro tip:** Always use try-with-resources (the `try (Signature signature = ...)` syntax) to ensure the document is properly closed, even if an exception occurs.
+
+## Handling Password-Protected Documents
+
+Many signed documents are also encrypted. Here's how to handle them:
+
+```java
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.setPassword("your_document_password");
+
+try (Signature signature = new Signature(filePath, loadOptions)) {
+    DigitalSearchOptions options = new DigitalSearchOptions();
+    List<DigitalSignature> signatures = signature.search(DigitalSignature.class, options);
+    
+    // Process signatures...
+}
+```
+
+**Real-world scenario:** In enterprise applications, you might store document passwords in a secure vault (like HashiCorp Vault or AWS Secrets Manager) and retrieve them at runtime. Never hardcode passwords in your source code.
+
+## Understanding Your Search Results
+
+When you search for signatures, each `DigitalSignature` object contains valuable information:
+
+```java
+for (DigitalSignature digitalSig : signatures) {
+    // Certificate details
+    System.out.println("Issuer: " + digitalSig.getCertificate().getIssuerName());
+    System.out.println("Subject: " + digitalSig.getCertificate().getSubjectName());
+    
+    // Signature metadata
+    System.out.println("Sign Time: " + digitalSig.getSignTime());
+    System.out.println("Location: " + digitalSig.getLocation());
+    System.out.println("Reason: " + digitalSig.getReason());
+    
+    // Validation status
+    System.out.println("Is Valid: " + digitalSig.isValid());
+    System.out.println("Comments: " + digitalSig.getComments());
+}
+```
+
+**What does "Is Valid" actually mean?** It checks:
+- Certificate hasn't expired
+- Certificate chain is trusted
+- Document hasn't been modified since signing
+- Signature algorithm is recognized
+
+**Important:** A signature can be technically valid but still untrustworthy if the certificate comes from an untrusted authority. Always verify the issuer matches your expectations.
+
+## Troubleshooting Common Issues
+
+### Issue 1: "No Digital Signatures Found" (But You Know They're There)
+
+**Possible causes:**
+- **Wrong format:** The document might have visible signature fields but no actual digital signature data. Some PDFs have placeholder signature fields that haven't been signed yet.
+- **Corrupted signatures:** The signature data might be malformed. Try opening the document in Adobe Acrobat—if it shows a warning, GroupDocs will likely have issues too.
+- **Unsupported signature type:** Very old signature formats (pre-2005) might not be supported.
+
+**Solution:** Check the signature type in Acrobat or another PDF viewer first to confirm what you're dealing with.
+
+### Issue 2: GroupDocsSignatureException - "Cannot Open Document"
+
+**Possible causes:**
+- File is still being written (common in file upload scenarios)
+- Insufficient permissions to read the file
+- File is locked by another process
+- Corrupted file structure
+
+**Solution:**
+```java
+// Add a small delay and retry logic for file upload scenarios
+int maxRetries = 3;
+int delayMs = 500;
+
+for (int i = 0; i < maxRetries; i++) {
+    try {
+        Signature signature = new Signature(filePath, loadOptions);
+        // Success! Continue with search...
+        break;
+    } catch (GroupDocsSignatureException ex) {
+        if (i == maxRetries - 1) throw ex; // Last attempt failed
+        Thread.sleep(delayMs);
+    }
+}
+```
+
+### Issue 3: OutOfMemoryError with Large Documents
+
+**What's happening:** GroupDocs loads documents into memory for processing. A 50MB PDF with embedded images can consume 200MB+ of RAM.
+
+**Solutions:**
+1. **Increase JVM heap:** Add `-Xmx2g` to your JVM arguments
+2. **Process in batches:** Don't load multiple large documents simultaneously
+3. **Use pagination:** If searching multi-hundred-page documents, process page ranges separately
+
+## Advanced Search Scenarios
+
+### Filtering by Signature Date
+
+```java
+DigitalSearchOptions options = new DigitalSearchOptions();
+
+// Only find signatures created in the last 30 days
+Calendar cal = Calendar.getInstance();
+cal.add(Calendar.DAY_OF_MONTH, -30);
+Date thirtyDaysAgo = cal.getTime();
+
+// Note: You'll need to filter results after search
+// GroupDocs doesn't provide built-in date filtering in search options
+List<DigitalSignature> signatures = signature.search(DigitalSignature.class, options);
+List<DigitalSignature> recentSignatures = signatures.stream()
+    .filter(sig -> sig.getSignTime().after(thirtyDaysAgo))
+    .collect(Collectors.toList());
+```
+
+**Why filter after search?** GroupDocs's search options are optimized for signature type and location, not metadata filtering. Post-processing is more efficient for date-based filtering.
+
+### Searching Multiple Documents
+
+```java
+List<String> filePaths = Arrays.asList(
+    "contract1.pdf",
+    "contract2.pdf",
+    "contract3.pdf"
+);
+
+Map<String, List<DigitalSignature>> allSignatures = new HashMap<>();
+
+for (String path : filePaths) {
+    try (Signature sig = new Signature(path)) {
+        DigitalSearchOptions options = new DigitalSearchOptions();
+        List<DigitalSignature> sigs = sig.search(DigitalSignature.class, options);
+        allSignatures.put(path, sigs);
+    } catch (Exception ex) {
+        System.err.println("Failed to process " + path + ": " + ex.getMessage());
+        // Continue with next file
+    }
+}
+```
+
+**Performance tip:** For batch processing, consider using parallel streams or a thread pool, but be mindful of memory consumption (see Issue 3 above).
+
+## Best Practices for Production Use
+
+### 1. Always Validate Certificate Trust Chains
+
+Don't just check `isValid()`—verify the certificate issuer matches your requirements:
+
+```java
+for (DigitalSignature sig : signatures) {
+    if (!sig.isValid()) {
+        System.err.println("Invalid signature detected!");
+        continue;
+    }
+    
+    String issuer = sig.getCertificate().getIssuerName();
+    if (!issuer.contains("YourTrustedCA")) {
+        System.err.println("Signature from untrusted issuer: " + issuer);
+        // Handle accordingly
+    }
+}
+```
+
+### 2. Log Everything for Audit Trails
+
+In regulated industries (finance, healthcare), you need comprehensive logging:
+
+```java
+// Use a proper logging framework (SLF4J, Log4j)
+logger.info("Searching for signatures in document: {}", filePath);
+logger.info("Found {} signatures", signatures.size());
+
+for (DigitalSignature sig : signatures) {
+    logger.info("Signature details - Issuer: {}, Valid: {}, SignTime: {}",
+        sig.getCertificate().getIssuerName(),
+        sig.isValid(),
+        sig.getSignTime());
+}
+```
+
+### 3. Handle Exceptions Gracefully
+
+Never let a single bad document crash your application:
 
 ```java
 try {
-    // Assume search logic is executed here, potentially causing exceptions.
+    // Search logic
 } catch (GroupDocsSignatureException ex) {
-    System.out.println("GroupDocs Signature Exception: " + ex.getMessage());
+    // Log the error with full stack trace
+    logger.error("GroupDocs error processing {}: {}", filePath, ex.getMessage(), ex);
+    
+    // Return a meaningful error to the user
+    return SearchResult.error("Document could not be processed. Please verify the file is not corrupted.");
 } catch (Exception ex) {
-    System.out.println("System Exception: " + ex.getMessage());
+    logger.error("Unexpected error: {}", ex.getMessage(), ex);
+    return SearchResult.error("An unexpected error occurred. Please contact support.");
 }
 ```
 
-*Why:* Handling `GroupDocsSignatureException` allows you to deal with library-specific issues, while a general exception handler manages other unforeseen errors.
+### 4. Update Regularly
 
-## Practical Applications
-1. **Legal Document Verification:** Ensure contracts and agreements are authentic.
-2. **Financial Record Security:** Validate signatures on financial documents to prevent fraud.
-3. **Software Licensing:** Automate the verification of software license keys.
+GroupDocs releases updates frequently with:
+- Support for new signature formats
+- Performance improvements
+- Security patches
 
-GroupDocs.Signature can be integrated with other systems like document management platforms, enhancing their functionality by adding digital signature capabilities.
+Check for updates quarterly and test in a staging environment before production deployment.
 
-## Performance Considerations
-- **Optimize Document Loading:** Use appropriate load options to efficiently handle large files.
-- **Memory Management:** Monitor resource usage and manage memory allocation effectively in Java applications using GroupDocs.Signature.
-- **Best Practices:** Regularly update the library for performance improvements and bug fixes provided by GroupDocs.
+## Performance Optimization Tips
 
-## Conclusion
-Implementing digital signature search with GroupDocs.Signature for Java is a powerful way to ensure document security. You've learned how to set up, implement, and handle exceptions during digital signature searches effectively.
+### Batch Processing Strategy
 
-Next steps could include exploring more advanced features of GroupDocs.Signature or integrating it into larger applications. Why not give it a try in your next project?
+If you're processing dozens or hundreds of documents:
 
-## FAQ Section
-1. **What is the latest version of GroupDocs.Signature for Java?** 
-The latest version as of this tutorial is 23.12.
-2. **How do I handle exceptions when searching digital signatures?** 
-Use specific exception handling blocks to manage `GroupDocsSignatureException` and general exceptions separately.
-3. **Can GroupDocs.Signature work with password-protected documents?**
-Yes, specify the necessary load options for password-protected files.
-4. **Where can I find more documentation on GroupDocs.Signature?**
-Visit [GroupDocs.Signature Java Documentation](https://docs.groupdocs.com/signature/java/).
-5. **Is there a free trial available for testing GroupDocs.Signature?**
-Yes, you can download and test the library with a free trial from their website.
+```java
+ExecutorService executor = Executors.newFixedThreadPool(4); // Adjust based on CPU cores
+List<Future<SearchResult>> futures = new ArrayList<>();
 
-## Resources
-- **Documentation:** [GroupDocs.Signature Java Documentation](https://docs.groupdocs.com/signature/java/)
-- **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/signature/java/)
-- **Download:** [Latest Releases](https://releases.groupdocs.com/signature/java/)
-- **Purchase:** [Buy GroupDocs.Signature](https://purchase.groupdocs.com/buy)
-- **Free Trial:** [Try Free Trial](https://releases.groupdocs.com/signature/java/)
-- **Temporary License:** [Apply for Temporary License](https://purchase.groupdocs.com/temporary-license/)
-- **Support:** [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)
+for (String filePath : documentPaths) {
+    Future<SearchResult> future = executor.submit(() -> {
+        try (Signature sig = new Signature(filePath)) {
+            DigitalSearchOptions options = new DigitalSearchOptions();
+            List<DigitalSignature> sigs = sig.search(DigitalSignature.class, options);
+            return new SearchResult(filePath, sigs);
+        }
+    });
+    futures.add(future);
+}
+
+// Collect results
+for (Future<SearchResult> future : futures) {
+    SearchResult result = future.get();
+    // Process result
+}
+
+executor.shutdown();
+```
+
+**Be careful:** Don't spawn too many threads. Each thread loads a document into memory, so more threads ≠ better performance if you run out of RAM.
+
+### Memory Management
+
+Monitor JVM memory usage:
+
+```java
+Runtime runtime = Runtime.getRuntime();
+long usedMemory = (runtime.totalMemory() - runtime.freeMemory()) / (1024 * 1024);
+System.out.println("Memory used: " + usedMemory + " MB");
+
+// If approaching limit, trigger garbage collection
+if (usedMemory > threshold) {
+    System.gc();
+}
+```
+
+## Real-World Use Cases
+
+### 1. Contract Management System
+Automatically verify all contracts have valid signatures before archiving. Flag unsigned or invalidly-signed documents for review.
+
+### 2. Invoice Processing
+Search incoming invoices for digital signatures from approved vendors. Auto-approve signed invoices from trusted suppliers.
+
+### 3. Compliance Auditing
+Generate reports showing signature status for all documents in a repository. Export certificate details for compliance officers.
+
+### 4. Document Workflow Automation
+Trigger next workflow steps only after confirming valid signatures exist (e.g., don't process a loan application until signed by all parties).
+
+## What's Next?
+
+Now that you can search for digital signatures, you might want to:
+- **Verify signatures programmatically:** Use GroupDocs's verification API to validate signature integrity
+- **Add signatures:** Learn how to digitally sign documents from your Java application
+- **Extract signature images:** Pull visual signature representations for display in UIs
+- **Compare signatures:** Check if the same certificate signed multiple documents
+
+Check the [GroupDocs documentation](https://docs.groupdocs.com/signature/java/) for more advanced tutorials.
+
+## Frequently Asked Questions
+
+**Q: What's the latest version of GroupDocs.Signature for Java?**  
+A: As of this guide, version 23.12 is the latest stable release. Check [releases page](https://releases.groupdocs.com/signature/java/) for newer versions.
+
+**Q: Can I search for signatures in Word documents (.docx)?**  
+A: Absolutely! GroupDocs supports DOC, DOCX, XLS, XLSX, PPT, PPTX, and many other formats. Use the exact same code—just change the file path.
+
+**Q: How do I handle documents with multiple signatures?**  
+A: The `search()` method returns a `List<DigitalSignature>`. Just iterate through it—each signature can have different properties, issuers, and validity states.
+
+**Q: What if a signature is valid but I don't trust the issuer?**  
+A: Check the certificate issuer (as shown in the Best Practices section) and implement your own trust logic based on your organization's certificate policies.
+
+**Q: Does GroupDocs require an internet connection to verify signatures?**  
+A: No, signature validation happens locally. However, if you need to check certificate revocation lists (CRLs), your server will need internet access (this is optional).
+
+**Q: Can I use this library in a Spring Boot application?**  
+A: Yes! Just add the Maven dependency to your `pom.xml` and inject the signature search logic into your service layer. It works seamlessly with Spring's dependency injection.
+
+**Q: What's the performance impact of searching large PDFs (100+ pages)?**  
+A: Signature search is relatively fast (usually <1 second for documents up to 100 pages). The bottleneck is usually document loading, not signature search.
+
+## Additional Resources
+
+- **Documentation:** [GroupDocs.Signature Java Docs](https://docs.groupdocs.com/signature/java/)
+- **API Reference:** [Java API Reference](https://reference.groupdocs.com/signature/java/)
+- **Support Forum:** [Ask Questions on GroupDocs Forum](https://forum.groupdocs.com/c/signature/)
+- **Free Trial:** [Download Trial Version](https://releases.groupdocs.com/signature/java/)
+- **Temporary License:** [Get 30-Day License](https://purchase.groupdocs.com/temporary-license/)
+- **Purchase:** [Buy Full License](https://purchase.groupdocs.com/buy)
