@@ -1,5 +1,5 @@
 ---
-title: "Remove Barcode Signatures from Documents in Java
+title: "Remove Barcode Signatures from Documents in Java"
 description: "Learn how to remove barcode signatures from PDF, Word, and Excel documents using Java. Step-by-step tutorial with code examples and troubleshooting tips."
 keywords: "remove barcode from document java, delete barcode signatures java, java barcode signature removal, groupdocs signature tutorial, clean up document barcodes"
 date: "2025-01-02"
