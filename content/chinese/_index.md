@@ -1,195 +1,128 @@
 ---
-"additionalTitle": "GroupDocs Official API References"
-"description": "使用 GroupDocs.Signature 在您的应用程序中实现安全的数字签名。全面的教程，用于在 .NET 和 Java 应用程序中签名、验证和保护 PDF、Word、Excel 和 PowerPoint 文档。"
-"is_root": true
-"linktitle": "GroupDocs.Signature API 教程和文档"
-"title": "GroupDocs.Signature - .NET 和 Java 的数字文档签名 API | 完整教程指南"
-"url": "/zh/"
-"weight": 11
+additionalTitle: GroupDocs Official API References
+description: 探索 GroupDocs.Signature API 教程，了解在 .NET 和 Java 中进行安全的数字文档签名。学习如何实现、验证并保护
+  PDF、Word、Excel、PowerPoint 和图像文件。
+is_root: true
+keywords:
+- digital signature API
+- document signing
+- PDF signatures
+- electronic signatures
+- C# signature library
+- Java document signing
+- digital certificate
+- document security
+- signature verification
+- document protection
+linktitle: GroupDocs.Signature API Tutorials & Documentation
+title: GroupDocs.Signature API 教程：.NET 与 Java 的数字文档签名
 type: docs
+url: /zh/
+weight: 11
 ---
-# GroupDocs.Signature：面向开发人员的完整数字文档签名解决方案
 
-![GroupDocs.签名横幅](./groupdocs-signature-net.svg)
+# GroupDocs.Signature：面向开发者的完整数字文档签署解决方案
 
-## 概述：企业应用程序的安全文档签名
+![GroupDocs.Signature Banner](./groupdocs-signature-net.svg)
 
-GroupDocs.Signature 提供全面的文档签名解决方案，使开发人员能够将强大的数字签名功能集成到 .NET 和 Java 应用程序中。我们的 API 支持多种签名类型、高级验证选项以及跨 PDF、Word、Excel、PowerPoint 和图像等各种格式的安全文档管理。
+## 为什么 GroupDocs.Signature API 教程很重要
 
-### GroupDocs.Signature 的主要功能
+在当今快速发展的企业中，**数字文档签署**不仅是一种便利——它是一项合规要求。此 **GroupDocs.Signature API 教程**展示了如何将可信、具防篡改特性的签名直接嵌入您的 .NET 或 Java 应用程序，从而让您全面掌控安全性、外观以及工作流自动化。
 
-- **多种签名类型** 实现数字证书、图像签名、文本、二维码、条形码和元数据签名
-- **跨格式支持** 签署 PDF、DOCX、XLSX、PPTX、图像和 50 多种其他文档格式
-- **高级安全性** 应用密码保护、加密和数字证书，最大限度地保证文档安全
-- **签名验证** 通过先进的验证流程验证文件的真实性并检测篡改
-- **可定制的外观** 控制签名的位置、大小、透明度和视觉属性
-- **元数据管理** 在文档元数据中添加隐藏签名，实现隐形身份验证
-- **批处理** 批量操作高效签署多个文档
+您将了解开发者选择 GroupDocs.Signature 的原因：
 
-## GroupDocs.Signature for .NET 教程
+* **Regulatory compliance** – 满足电子签名法律和行业标准。  
+* **Cross‑format flexibility** – 对 PDF、DOCX、XLSX、PPTX、图像以及其他 50 多种格式进行签署。  
+* **Scalable automation** – 通过一行代码批量处理成千上万的文档。  
 
-{{% alert color="primary" %}}
-通过我们全面的分步指南和即用型代码示例，掌握 GroupDocs.Signature for .NET。从基础实现到高级安全工作流程，我们的教程涵盖完整的签名生命周期，包括在 C# 应用程序中创建、应用、验证和管理数字签名。
+下面您会找到精心整理的分步教程列表，涵盖签署生命周期的每个阶段。
 
-{{% /alert %}}
+## GroupDocs.Signature API 教程概览
 
-探索这些重要的 GroupDocs.Signature for .NET 实现主题：
+以下章节按平台组织。每个链接指向专门的教程，带您逐步了解安装、配置以及实际代码示例。无论您是构建简单的“一次签署”工作流，还是复杂的多签名审批链，都能找到所需的精准指导。
 
-### [开始使用 GroupDocs.Signature for .NET](./net/getting-started/)
-了解如何安装 GroupDocs.Signature for .NET、设置许可、配置环境以及使用 C# 创建您的第一个文档签名应用程序。
-
-### [.NET 中的文档加载和保存](./net/document-loading-saving/)
-探索从文件、流、URL 和云存储加载文档的有效方法，以及如何使用各种输出选项保存签名的文档。
-
-### [.NET 中的数字证书签名](./net/digital-signatures/)
-使用 X.509 证书实现加密数字签名，自定义外观设置，并与时间戳机构合作进行长期验证。
-
-### [.NET 中的条形码签名实现](./net/barcode-signatures/)
-在文档中添加机器可读的条形码签名，支持 Code128、Code39、EAN 和其他条形码标准以进行自动验证。
-
-### [.NET 中的二维码签名和自定义对象](./net/qr-code-signatures/)
-使用自定义数据对象为 vCard、WiFi、电子邮件和其他格式创建高级二维码签名，并提供可选的加密支持。
-
-### [.NET 中基于图像的签名和水印](./net/image-signatures/)
-应用图像签名、图章和水印，精确控制透明度、定位、大小和边框效果。
-
-### [.NET 中的文本和排版签名](./net/text-signatures/)
-使用可自定义的字体、颜色、边框、背景和高级排版选项实现专业的文本签名。
-
-### [.NET 中的交互式表单字段签名](./net/form-field-signatures/)
-利用 PDF 表单字段实现交互式签名，包括文本字段、复选框字段和下拉选择。
-
-### [.NET 中的隐藏元数据签名](./net/metadata-signatures/)
-在文档元数据中添加隐形签名，以进行隐形认证和验证，而不会改变文档外观。
-
-### [.NET 中的多重签名处理](./net/multiple-signatures/)
-通过多种签名类型、有序的签名序列和多页文档工作流程实现复杂的签名场景。
-
-### [.NET 中的签名验证和身份验证](./net/search-verification/)
-建立强大的验证流程来验证签名、检测文档篡改并确保文档完整性。
-
-### [.NET 中的签名生命周期管理](./net/signature-management/)
-通过更新、修改或删除文档中现有签名的选项来管理完整的签名生命周期。
-
-### [.NET 中的文档预览和信息提取](./net/preview-info/)
-生成带有签名的可视化文档预览并提取全面的文档和签名元数据。
-
-### [.NET 中的高级签名定制](./net/advanced-options/)
-掌握高级功能，包括自定义加密、序列化、外观设置和测量系统。
-
-### [.NET 中的事件驱动签名处理](./net/event-handling/)
-实施基于事件的签名工作流程，支持进度监控、取消和状态报告。
-
-### [.NET 中的文档安全和保护](./net/document-protection/)
-应用强大的安全措施，包括密码保护、加密、权限和完整性验证。
-
-### [.NET 中的签名诊断](./net/logging-debugging/)
-实施有效的日志记录和调试技术，以排除故障和监控签名操作。
-
-### [.NET 中的删除操作工作流](./net/delete-operations/)
-通过基于标准的删除和批量操作的支持，有效地从文档中删除签名。
-
-### [.NET 中的文档预览自定义](./net/document-preview-operations/)
-创建自定义文档预览，控制页面范围、缩放级别和水印选项。
-
-### [.NET 中的元数据提取和管理](./net/document-metadata-extraction/)
-提取、分析和管理文档元数据，包括签名信息和自定义属性字段。
-
-### [.NET 中的高级搜索功能](./net/signature-searching/)
-通过多条件查询和模式匹配实现强大的签名搜索功能。
-
-### [.NET 中的文档签名基础知识](./net/document-signing/)
-掌握必要的文档签名技术，支持各种签名类型和自定义选项。
-
-### [.NET 中的企业级签名技术](./net/advanced-signature-techniques/)
-实施复杂的签名解决方案，包括加密操作和第三方集成。
-
-### [.NET 中的签名更新操作](./net/update-operations/)
-修改现有签名，支持属性更改、元数据更新和版本控制。
-
-### [.NET 中的全面签名验证](./net/verify-operations/)
-通过证书验证、时间戳验证和篡改检测构建强大的验证工作流程。
-
-## GroupDocs.Signature Java 教程
+### .NET 教程 – .NET 开发者热爱的数字文档签署
 
 {{% alert color="primary" %}}
-探索我们全面的 Java 指南，了解如何在您的应用程序中实现安全的数字签名。我们的教程提供了详细的实现步骤、实际示例和最佳实践，帮助您在包括 Android 在内的所有主流平台上创建强大的文档签名解决方案。
-
+掌握针对 .NET 的 GroupDocs.Signature，使用我们全面的分步指南和即用型代码示例。从基础实现到高级安全工作流，我们的教程覆盖完整的签名生命周期，包括在 C# 应用程序中创建、应用、验证和管理数字签名。
 {{% /alert %}}
 
-了解这些用于 Java 开发的重要 GroupDocs.Signature 资源：
+- [开始使用 GroupDocs.Signature for .NET](./net/getting-started/)
+- [在 .NET 中加载与保存文档](./net/document-loading-saving/)
+- [.NET 中的数字证书签名](./net/digital-signatures/)
+- [.NET 中的条形码签名实现](./net/barcode-signatures/)
+- [.NET 中的二维码签名与自定义对象](./net/qr-code-signatures/)
+- [.NET 中的基于图像的签名与水印](./net/image-signatures/)
+- [.NET 中的文本与排版签名](./net/text-signatures/)
+- [.NET 中的交互式表单字段签名](./net/form-field-signatures/)
+- [.NET 中的隐藏元数据签名](./net/metadata-signatures/)
+- [.NET 中的多签名处理](./net/multiple-signatures/)
+- [.NET 中的签名验证与认证](./net/search-verification/)
+- [.NET 中的签名生命周期管理](./net/signature-management/)
+- [.NET 中的文档预览与信息提取](./net/preview-info/)
+- [.NET 中的高级签名定制](./net/advanced-options/)
+- [.NET 中的事件驱动签名处理](./net/event-handling/)
+- [.NET 中的文档安全与保护](./net/document-protection/)
+- [.NET 中的签名诊断](./net/logging-debugging/)
+- [.NET 中的删除操作工作流](./net/delete-operations/)
+- [.NET 中的文档预览定制](./net/document-preview-operations/)
+- [.NET 中的元数据提取与管理](./net/document-metadata-extraction/)
+- [.NET 中的高级搜索功能](./net/signature-searching/)
+- [.NET 中的文档签署基础](./net/document-signing/)
+- [.NET 中的企业级签署技术](./net/advanced-signature-techniques/)
+- [.NET 中的签名更新操作](./net/update-operations/)
+- [.NET 中的全面签名验证](./net/verify-operations/)
 
-### [GroupDocs.Signature for Java 入门](./java/getting-started/)
-安装 GroupDocs.Signature、配置 Java 环境以及创建第一个签名实现的快速入门指南。
+### Java 教程 – Java 开发者依赖的数字文档签署
 
-### [Java 中的文档加载和保存](./java/document-loading-saving/)
-学习从各种来源加载文档并使用可自定义的选项保存签名文档的有效技术。
+{{% alert color="primary" %}}
+探索我们全面的 Java 指南，在您的应用程序中实现安全的数字签名。我们的教程提供详细的实现步骤、实用示例以及最佳实践，帮助您在包括 Android 在内的所有主要平台上创建强大的文档签署解决方案。
+{{% /alert %}}
 
-### [Java 中的数字证书签名](./java/digital-signatures/)
-使用 X.509 证书实施基于 PKI 的数字签名，以实现最大程度的安全性并符合电子签名标准。
+- [开始使用 GroupDocs.Signature for Java](./java/getting-started/)
+- [Java 中的文档加载与保存](./java/document-loading-saving/)
+- [Java 中的数字证书签名](./java/digital-signatures/)
+- [Java 中的条形码签名实现](./java/barcode-signatures/)
+- [Java 中的二维码签名与数据对象](./java/qr-code-signatures/)
+- [Java 中的基于图像的签名与水印](./java/image-signatures/)
+- [Java 中的文本与排版签名](./java/text-signatures/)
+- [Java 中的表单字段签名集成](./java/form-field-signatures/)
+- [Java 中的隐藏元数据签名](./java/metadata-signatures/)
+- [Java 中的多签名工作流](./java/multiple-signatures/)
+- [Java 中的签名验证与安全](./java/search-verification/)
+- [Java 中的签名生命周期管理](./java/signature-management/)
+- [Java 中的文档预览与信息分析](./java/preview-info/)
+- [Java 中的高级签名定制](./java/advanced-options/)
+- [Java 中的事件驱动签名处理](./java/event-handling/)
+- [Java 中的文档安全与保护](./java/document-protection/)
+- [Java 中的签名诊断](./java/logging-debugging/)
 
-### [Java 中的条形码签名实现](./java/barcode-signatures/)
-将机器可读的条形码签名添加到文档中，并完全控制外观、内容和验证选项。
+## 行业与使用场景
 
-### [Java 中的二维码签名和数据对象](./java/qr-code-signatures/)
-创建高级二维码签名，支持专门的数据格式、加密和自定义外观设置。
+GroupDocs.Signature 旨在满足需要安全文档处理的各类行业：
 
-### [Java 中的基于图像的签名和水印](./java/image-signatures/)
-通过精确的定位和格式控制应用具有视觉吸引力的图像签名、图章和水印。
-
-### [Java 中的文本和排版签名](./java/text-signatures/)
-使用全面的格式选项和高级排版设置实现基于文本的签名。
-
-### [Java 中的表单字段签名集成](./java/form-field-signatures/)
-利用交互式 PDF 表单字段进行复杂的文档签名和数据收集工作流程。
-
-### [Java 中的隐藏元数据签名](./java/metadata-signatures/)
-在文档元数据中实现隐形签名数据，以进行隐形认证和验证。
-
-### [Java 中的多重签名工作流](./java/multiple-signatures/)
-创建复杂的签名场景，支持多种签名类型和顺序签名流程。
-
-### [Java 中的签名验证和安全](./java/search-verification/)
-建立强大的验证流程来验证文档的真实性并检测未经授权的修改。
-
-### [Java 中的签名生命周期管理](./java/signature-management/)
-通过更新、修改和删除现有签名的选项来管理完整的签名生命周期。
-
-### [Java 中的文档预览和信息分析](./java/preview-info/)
-生成文档预览并提取全面的文档和签名元数据信息。
-
-### [Java 中的高级签名定制](./java/advanced-options/)
-掌握复杂的签名选项，包括自定义序列化、外观设置和专门功能。
-
-### [Java 中的事件驱动签名处理](./java/event-handling/)
-通过事件处理、取消和处理状态监控来实现响应式签名应用程序。
-
-### [Java 中的文档安全和保护](./java/document-protection/)
-应用强大的安全措施，包括密码保护、加密和权限设置。
-
-### [Java 中的签名诊断](./java/logging-debugging/)
-实施有效的日志记录和调试技术，以排除生产环境中的签名操作故障。
-
-## 行业和用例
-
-GroupDocs.Signature 专为需要安全文档处理的不同行业而设计：
-
-- **法律与合规** 确保具有防篡改保护的签名具有法律约束力
-- **卫生保健** 保护患者记录并遵守监管要求
-- **金融服务** 使用加密签名保护财务文件
-- **政府和公共部门** 为官方流程实施安全文档工作流程
-- **人力资源** 通过安全合同签署简化员工入职流程
-- **教育** 通过验证功能管理学术记录和证书
+- **Legal & Compliance** – 确保具有防篡改保护的法律约束力签名。  
+- **Healthcare** – 保护患者记录并符合类似 HIPAA 的法规。  
+- **Financial Services** – 使用加密签名保护合同、贷款文件和对账单。  
+- **Government & Public Sector** – 为许可证、执照和官方表格实现安全工作流。  
+- **Human Resources** – 通过电子签名简化入职和政策确认流程。  
+- **Education** – 使用可验证的签名管理成绩单、文凭和证书。
 
 ## 技术资源
 
 - [API 参考](https://reference.groupdocs.com/)
-- [GitHub 存储库](https://github.com/groupdocs)
+- [GitHub 仓库](https://github.com/groupdocs)
 - [开发者演示](https://products.groupdocs.app/signature)
 - [入门文档](https://docs.groupdocs.com/signature/)
 - [免费支持论坛](https://forum.groupdocs.com/c/signature)
 - [博客](https://blog.groupdocs.com/category/signature/)
 
-## 立即开始
+## 今日开始使用
 
-[下载 GroupDocs.Signature](https://releases.groupdocs.com/signature/) 开始在您的应用程序中实施安全文档签名，或者 [申请 30 天免费试用](https://purchase.groupdocs.com/temporary-license/) 评估我们的 API 的全部功能。
+[下载 GroupDocs.Signature](https://releases.groupdocs.com/signature/) 以开始在您的应用程序中实现安全文档签署，或 [申请免费 30 天试用](https://purchase.groupdocs.com/temporary-license/) 以评估我们 API 的全部功能。
+
+---
+
+**最后更新：** 2025-12-16  
+**测试环境：** GroupDocs.Signature 23.11 (latest)  
+**作者：** GroupDocs
