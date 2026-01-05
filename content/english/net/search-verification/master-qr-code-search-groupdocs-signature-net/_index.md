@@ -3,7 +3,6 @@ title: "QR Code Search PDF .NET - Complete GroupDocs.Signature"
 linktitle: "QR Code Search PDF .NET Guide"
 description: "Master QR code search in PDFs using GroupDocs.Signature for .NET. Step-by-step tutorial with encryption, troubleshooting, and real-world examples."
 keywords: "QR code search PDF .NET, GroupDocs Signature tutorial, PDF QR code verification, document signature search, C# QR code encryption"
-keywords: "QR code search PDF .NET, GroupDocs Signature tutorial, PDF QR code verification, document signature search, C# QR code encryption"
 weight: 1
 url: "/net/search-verification/master-qr-code-search-groupdocs-signature-net/"
 date: "2025-01-02"
