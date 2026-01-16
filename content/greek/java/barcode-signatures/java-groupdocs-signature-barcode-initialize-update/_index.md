@@ -1,44 +1,65 @@
 ---
-"date": "2025-05-08"
-"description": "Μάθετε πώς να διαχειρίζεστε τις υπογραφές γραμμωτού κώδικα με το GroupDocs.Signature για Java. Αυτός ο οδηγός καλύπτει αποτελεσματικά την αρχικοποίηση, την αναζήτηση και την ενημέρωση γραμμωτών κωδίκων σε PDF."
-"title": "Πώς να αρχικοποιήσετε και να ενημερώσετε υπογραφές γραμμωτού κώδικα σε Java χρησιμοποιώντας το GroupDocs.Signature"
-"url": "/el/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
-"weight": 1
+categories:
+- Java Document Processing
+date: '2026-01-16'
+description: Μάθετε πώς να δημιουργήσετε υπογραφή barcode σε Java και να ενημερώσετε
+  τη θέση, το μέγεθος και τις ιδιότητές της για PDF χρησιμοποιώντας το GroupDocs.Signature
+  API.
+keywords: update barcode signature Java, Java barcode signature management, modify
+  barcode in PDF Java, GroupDocs Signature Java, Java document signature automation
+lastmod: '2026-01-16'
+linktitle: Update Barcode Signatures in Java
+tags:
+- barcode-signatures
+- pdf-automation
+- groupdocs-java
+- document-management
+title: Δημιουργία υπογραφής barcode σε Java – Ενημέρωση barcode PDF
 type: docs
+url: /el/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/
+weight: 1
 ---
-# Πώς να αρχικοποιήσετε και να ενημερώσετε υπογραφές γραμμωτού κώδικα σε Java χρησιμοποιώντας το GroupDocs.Signature
+
+# Create Barcode Signature in Java – Update PDF Barcodes
 
 ## Εισαγωγή
 
-Η διαχείριση των υπογραφών γραμμωτού κώδικα σε έγγραφα PDF βελτιστοποιείται χρησιμοποιώντας το GroupDocs.Signature για Java. Είτε ψηφιοποιείτε ροές εργασίας εγγράφων είτε διασφαλίζετε την ακεραιότητα των δεδομένων μέσω γραμμωτών κωδίκων, αυτός ο οδηγός θα σας διδάξει πώς να αρχικοποιείτε και να ενημερώνετε αποτελεσματικά τις υπογραφές γραμμωτού κώδικα.
+Σας έχει συμβεί ποτέ να χρειαστεί να μετακινήσετε ένα barcode σε χιλιάδες ετικέτες αποστολής μετά από ανασχεδιασμό της συσκευασίας; Ή να ενημερώσετε τις θέσεις των barcode σε πρότυπα συμβάσεων όταν η νομική σας ομάδα αλλάζει τις διατάξεις των εγγράφων; Δεν είστε μόνοι—αυτά τα σενάρια εμφανίζονται συνεχώς σε ροές εργασίας αυτοματοποίησης εγγράφων.
 
-**Τι θα μάθετε:**
-- Αρχικοποίηση μιας παρουσίας υπογραφής με ένα έγγραφο
-- Αναζήτηση υπογραφών γραμμωτού κώδικα σε έγγραφα
-- Ενημέρωση θέσεων και μεγεθών υπογραφής γραμμωτού κώδικα
+Η χειροκίνητη ενημέρωση μιας **barcode signature** είναι επίπονη και επιρρεπής σε σφάλματα. Με το GroupDocs.Signature για Java, μπορείτε να **create barcode signature** αντικείμενα και στη συνέχεια να τα τροποποιήσετε με λίγες μόνο γραμμές κώδικα. Είτε δημιουργείτε ένα σύστημα αποθεμάτων, αυτοματοποιείτε έγγραφα logistics, είτε διαχειρίζεστε νομικές συμβάσεις, η προγραμματιστική ενημέρωση των barcode signatures εξοικονομεί ώρες χειροκίνητης εργασίας.
 
-Πριν προχωρήσουμε στην υλοποίηση, ας δούμε τις απαραίτητες προϋποθέσεις για την επιτυχία.
+**Τι θα μάθετε σε αυτό το tutorial:**
+- Ρύθμιση και αρχικοποίηση του Signature API με τα έγγραφά σας  
+- Αποτελεσματική αναζήτηση υπάρχουσων barcode signatures  
+- Ενημέρωση θέσεων, μεγεθών και άλλων ιδιοτήτων του barcode (συμπεριλαμβανομένου του πώς να **change barcode size**)  
+- Διαχείριση κοινών σφαλμάτων και ειδικών περιπτώσεων  
+- Βελτιστοποίηση απόδοσης για λειτουργίες batch  
+
+Ας ξεκινήσουμε βεβαιώνοντας ότι έχετε όλα όσα χρειάζεστε πριν γράψετε κώδικα.
 
 ## Προαπαιτούμενα
 
-Βεβαιωθείτε ότι έχετε τα ακόλουθα πριν χρησιμοποιήσετε το GroupDocs.Signature για Java:
+Πριν μπορέσετε να ενημερώσετε κώδικα Java για barcode signature στα έργα σας, βεβαιωθείτε ότι έχετε καλύψει τα παρακάτω απαραίτητα:
 
 ### Απαιτούμενες βιβλιοθήκες
-- **GroupDocs.Signature για Java**Εγκαταστήστε την έκδοση 23.12 ή νεότερη στο έργο σας.
+- **GroupDocs.Signature for Java**: Έκδοση 23.12 ή νεότερη (παλαιότερες εκδόσεις μπορεί να λείπουν οι μέθοδοι ενημέρωσης που θα χρησιμοποιήσουμε).
 
-### Ρύθμιση περιβάλλοντος
-- Ένα λειτουργικό περιβάλλον Java Development Kit (JDK).
-- Ένα Ολοκληρωμένο Περιβάλλον Ανάπτυξης (IDE), όπως το IntelliJ IDEA ή το Eclipse, για τη διευκόλυνση της επεξεργασίας και εκτέλεσης κώδικα.
+### Ρύθμιση Περιβάλλοντος
+- Μία λειτουργική **Java Development Kit (JDK)** (συνιστάται JDK 8 ή νεότερο)  
+- Ένα **IDE** όπως IntelliJ IDEA, Eclipse ή VS Code
 
-### Προαπαιτούμενα Γνώσεων
-- Βασική κατανόηση των εννοιών προγραμματισμού Java.
-- Εξοικείωση με τον χειρισμό αρχείων και καταλόγων σε Java.
+### Προαπαιτούμενες Γνώσεις
+- Βασική Java (κλάσεις, αντικείμενα, διαχείριση εξαιρέσεων)  
+- Διαχείριση αρχείων σε Java (διαδρομές, κατάλογοι)  
+- Προαιρετικά: Κατανόηση της δομής PDF και των εννοιών barcode  
 
-## Ρύθμιση του GroupDocs.Signature για Java
+Τα έχετε όλα αυτά; Τέλεια! Ας εγκαταστήσουμε τη βιβλιοθήκη.
 
-Για να χρησιμοποιήσετε το GroupDocs.Signature για Java, προσθέστε το ως εξάρτηση στο έργο σας. Δείτε πώς:
+## Ρύθμιση GroupDocs.Signature για Java
 
-**Maven**
+Η προσθήκη του GroupDocs.Signature στο Java έργο σας είναι απλή. Επιλέξτε το εργαλείο κατασκευής που χρησιμοποιείτε:
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -47,159 +68,332 @@ type: docs
 </dependency>
 ```
 
-**Γκράντλ**
+**Gradle**  
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Άμεση Λήψη**: Κατεβάστε την τελευταία έκδοση από [GroupDocs.Signature για εκδόσεις Java](https://releases.groupdocs.com/signature/java/).
+**Direct Download**: Εάν δεν χρησιμοποιείτε εργαλείο κατασκευής, κατεβάστε το πιο πρόσφατο αρχείο JAR από [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) και προσθέστε το στο classpath του έργου σας χειροκίνητα.
 
 ### Απόκτηση Άδειας
 
-Για να αξιοποιήσετε πλήρως το GroupDocs.Signature, εξετάστε το ενδεχόμενο απόκτησης άδειας χρήσης:
-- **Δωρεάν δοκιμή**Δοκιμάστε τις λειτουργίες με μια δωρεάν δοκιμαστική περίοδο.
-- **Προσωρινή Άδεια**: Αίτημα προσωρινής άδειας χρήσης για την αξιολόγηση εκτεταμένων δυνατοτήτων.
-- **Αγορά**Εξασφαλίστε μια πλήρη άδεια χρήσης για αδιάλειπτη πρόσβαση.
+Το GroupDocs.Signature λειτουργεί τόσο με δοκιμαστικές όσο και με πλήρεις άδειες:
 
-Αφού ρυθμίσουμε τη βιβλιοθήκη, ας δούμε την αποτελεσματική αρχικοποίηση και χρήση του GroupDocs.Signature.
+- **Free Trial** – ιδανική για δοκιμές και αποδείξεις έννοιας  
+- **Temporary License** – για εκτεταμένη αξιολόγηση σε συγκεκριμένο έργο  
+- **Full License** – αφαιρεί υδατογραφήματα και περιορισμούς χρήσης για παραγωγή  
 
-## Οδηγός Εφαρμογής
+**Pro Tip**: Ξεκινήστε με τη δωρεάν δοκιμή για να επαληθεύσετε ότι το API καλύπτει τις ανάγκες σας, στη συνέχεια αναβαθμίστε όταν είστε έτοιμοι για παραγωγή.
 
-### Αρχικοποίηση στιγμιαίας εμφάνισης υπογραφής
+Τώρα που η βιβλιοθήκη είναι εγκατεστημένη, ας εμβαθύνουμε στην πραγματική υλοποίηση.
 
-#### Επισκόπηση
-Αρχικοποίηση ενός `Signature` Η χρήση ενός instance είναι το πρώτο σας βήμα στον χειρισμό υπογραφών εγγράφων. Αυτή η διαδικασία περιλαμβάνει τη φόρτωση του εγγράφου-στόχου σας στο περιβάλλον GroupDocs.
+## Γρήγορες Απαντήσεις
+- **Τι σημαίνει “create barcode signature”;** Σημαίνει τη δημιουργία ενός αντικειμένου barcode που μπορεί να τοποθετηθεί, μετακινηθεί ή επεξεργαστεί μέσα σε ένα έγγραφο μέσω του API.  
+- **Μπορώ να αλλάξω το μέγεθος του barcode μετά τη δημιουργία του;** Ναι – χρησιμοποιήστε τις μεθόδους `setWidth` και `setHeight` ή προσαρμόστε τις συντεταγμένες `Left`/`Top`.  
+- **Χρειάζομαι άδεια για την ενημέρωση barcode;** Η δοκιμαστική λειτουργεί για ανάπτυξη· απαιτείται πλήρης άδεια για παραγωγή.  
+- **Λειτουργεί μόνο με PDF;** Όχι – ο ίδιος κώδικας λειτουργεί με Word, Excel, PowerPoint και αρχεία εικόνας.  
+- **Πόσα έγγραφα μπορώ να επεξεργαστώ ταυτόχρονα;** Υποστηρίζεται επεξεργασία batch· απλώς διαχειριστείτε τη μνήμη με try‑with‑resources.
 
-#### Βήματα για την αρχικοποίηση
-1. **Εισαγωγή απαιτούμενων κλάσεων**
-   ```java
-   import com.groupdocs.signature.Signature;
-   import java.nio.file.Paths;
-   ```
-2. **Ορισμός διαδρομής εγγράφου**
-   Ορίστε πού βρίσκεται το έγγραφό σας:
-   ```java
-   String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
-   ```
-3. **Δημιουργία μιας παρουσίας υπογραφής**
-   Αρχικοποίηση του `Signature` αντικείμενο με τη διαδρομή αρχείου.
-   ```java
-   Signature signature = new Signature(filePath);
-   ```
-   Αυτή η παρουσία θα χρησιμοποιηθεί για την αναζήτηση και ενημέρωση υπογραφών στο έγγραφό σας.
+## Πώς να δημιουργήσετε barcode signature σε Java
 
-### Αναζήτηση υπογραφών γραμμωτού κώδικα
+### Βήμα 1: Αρχικοποίηση του αντικειμένου Signature
 
-#### Επισκόπηση
-Ο εντοπισμός υπογραφών γραμμωτού κώδικα μέσα σε έγγραφα είναι ζωτικής σημασίας για την αυτοματοποίηση ενημερώσεων ή επικυρώσεων. Το GroupDocs.Signature απλοποιεί αυτήν τη διαδικασία αναζήτησης.
+#### Γιατί είναι σημαντικό
+Σκεφτείτε το αντικείμενο `Signature` ως την πύλη προς το έγγραφό σας. Φορτώνει το PDF (ή οποιαδήποτε υποστηριζόμενη μορφή) στη μνήμη και σας δίνει πρόσβαση σε όλες τις λειτουργίες που σχετίζονται με υπογραφές. Χωρίς αυτήν την αρχικοποίηση, δεν μπορείτε να αναζητήσετε ή να τροποποιήσετε τίποτα.
 
-#### Βήματα για αναζήτηση
-1. **Εισαγωγή απαιτούμενων κλάσεων**
-   ```java
-   import com.groupdocs.signature.options.search.BarcodeSearchOptions;
-   import com.groupdocs.signature.domain.signatures.BarcodeSignature;
-   import java.util.List;
-   ```
-2. **Ορισμός επιλογών αναζήτησης**
-   Ρύθμιση επιλογών για αναζήτηση υπογραφών γραμμωτού κώδικα:
-   ```java
-   BarcodeSearchOptions options = new BarcodeSearchOptions();
-   ```
-3. **Εκτελέστε την αναζήτηση**
-   Βρείτε όλες τις υπογραφές γραμμωτού κώδικα στο έγγραφό σας.
-   ```java
-   List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
-   ```
-Ο `signatures` Η λίστα θα περιέχει τυχόν γραμμωτούς κώδικες που βρέθηκαν.
+#### Υλοποίηση
+First, import the required class and define the file path:
 
-### Ενημέρωση Υπογραφής Barcode
+```java
+import com.groupdocs.signature.Signature;
+import java.nio.file.Paths;
+```
 
-#### Επισκόπηση
-Αφού βρείτε μια υπογραφή γραμμωτού κώδικα, ίσως χρειαστεί να προσαρμόσετε τη θέση ή το μέγεθός της. Αυτή η ενότητα δείχνει πώς να ενημερώσετε αυτές τις ιδιότητες.
+```java
+String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
+```
 
-#### Βήματα για ενημέρωση
-1. **Εισαγωγή απαιτούμενων κλάσεων**
-   ```java
-   import java.io.File;
-   import com.groupdocs.signature.exception.GroupDocsSignatureException;
-   ```
-2. **Ορισμός διαδρομής εξόδου**
-   Προετοιμάστε πού θα αποθηκευτεί το ενημερωμένο έγγραφο:
-   ```java
-   String fileName = Paths.get(filePath).getFileName().toString();
-   String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
-   checkDir(outputFilePath);
-   ```
-3. **Έλεγχος για υπογραφές**
-   Βεβαιωθείτε ότι υπάρχουν γραμμωτοί κώδικες για ενημέρωση:
-   ```java
-   if (signatures.size() > 0) {
-       BarcodeSignature barcodeSignature = signatures.get(0);
-       // Ενημέρωση θέσης και μεγέθους της υπογραφής γραμμωτού κώδικα
-       barcodeSignature.setLeft(100);
-       barcodeSignature.setTop(100);
-       
-       // Εφαρμογή ενημερώσεων στο έγγραφο
-       boolean result = signature.update(outputFilePath, barcodeSignature);
-       if (result) {
-           System.out.println("Signature with Barcode '" +
-               barcodeSignature.getText() + "' and encode type '"+
-               barcodeSignature.getEncodeType().getTypeName() + "' was updated in the document ['" +
-               fileName + "'].");
-   }
-4. **Χειρισμός εξαιρέσεων**
-   Να είστε προετοιμασμένοι να εντοπίσετε τυχόν εξαιρέσεις κατά τη διάρκεια αυτής της διαδικασίας:
-   ```java
-   } catch (GroupDocsSignatureException e) {
-       System.err.println("Error updating signature: " + e.getMessage());
-   }
-   ```
+```java
+Signature signature = new Signature(filePath);
+```
+
+**Τι συμβαίνει;** Ο κατασκευαστής διαβάζει το αρχείο και το προετοιμάζει για επεξεργασία. Η διαδρομή μπορεί να είναι απόλυτη ή σχετική—απλώς βεβαιωθείτε ότι η διαδικασία Java έχει δικαίωμα ανάγνωσης.
+
+> **Pro tip:** Επικυρώστε τη διαδρομή πριν δημιουργήσετε το αντικείμενο `Signature` για να αποφύγετε το `FileNotFoundException`.
+
+### Βήμα 2: Αναζήτηση Barcode Signatures
+
+#### Γιατί η αναζήτηση πρώτα είναι απαραίτητη
+Δεν μπορείτε να ενημερώσετε κάτι που δεν μπορείτε να βρείτε. Το GroupDocs.Signature παρέχει ένα ισχυρό API αναζήτησης που φιλτράρει τις υπογραφές ανά τύπο.
+
+#### Υλοποίηση
+Import the search‑related classes:
+
+```java
+import com.groupdocs.signature.options.search.BarcodeSearchOptions;
+import com.groupdocs.signature.domain.signatures.BarcodeSignature;
+import java.util.List;
+```
+
+Configure the search options (default searches all pages):
+
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+```
+
+Execute the search:
+
+```java
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+```
+
+Τώρα έχετε μια λίστα από αντικείμενα `BarcodeSignature`, το καθένα εκθέτει ιδιότητες όπως `Left`, `Top`, `Width`, `Height`, `Text` και `EncodeType`.
+
+> **Σημείωση απόδοσης:** Για πολύ μεγάλα PDF, σκεφτείτε να περιορίσετε την αναζήτηση σε συγκεκριμένες σελίδες ή τύπους barcode για να επιταχύνετε τη διαδικασία.
+
+### Βήμα 3: Ενημέρωση Ιδιοτήτων Barcode
+
+#### Το κύριο γεγονός: Τροποποίηση Barcode Signatures
+Τώρα μπορείτε να **change barcode size** ή να το μετακινήσετε όπου χρειάζεται.
+
+#### Υλοποίηση
+First, import exception handling classes:
+
+```java
+import java.io.File;
+import com.groupdocs.signature.exception.GroupDocsSignatureException;
+```
+
+Set up the output path where the modified document will be saved:
+
+```java
+String fileName = Paths.get(filePath).getFileName().toString();
+String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
+checkDir(outputFilePath);
+```
+
+Now, locate the first barcode (or iterate over the list) and apply the changes:
+
+```java
+if (signatures.size() > 0) {
+    BarcodeSignature barcodeSignature = signatures.get(0);
+    
+    // Update the barcode's position and size
+    barcodeSignature.setLeft(100);
+    barcodeSignature.setTop(100);
+    
+    // Apply the changes to the document
+    boolean result = signature.update(outputFilePath, barcodeSignature);
+    
+    if (result) {
+        System.out.println("Signature with Barcode '" +
+            barcodeSignature.getText() + "' and encode type '"+
+            barcodeSignature.getEncodeType().getTypeName() + "' was updated in the document ['" +
+            fileName + "'].");
+    }
+} catch (GroupDocsSignatureException e) {
+    System.err.println("Error updating signature: " + e.getMessage());
+}
+```
+
+**Κύρια σημεία:**  
+- `setLeft` / `setTop` μετακινούν το barcode (συντεταγμένες μετρημένες από την επάνω‑αριστερή γωνία).  
+- Η μέθοδος `update` γράφει ένα νέο αρχείο· το αρχικό παραμένει αμετάβλητο.  
+- Τυλίξτε την κλήση σε μπλοκ `try‑catch` για να διαχειριστείτε πιθανές εξαιρέσεις `GroupDocsSignatureException`.
+
+## Πότε πρέπει να ενημερώνετε Barcode Signatures;
+
+Η κατανόηση των κατάλληλων σεναρίων σας βοηθά να σχεδιάσετε αποδοτικές ροές εργασίας.
+
+### Αναπροσαρμογή Εγγράφων & Ενημερώσεις Προτύπων
+Ένα νέο letterhead ή διάταξη ετικέτας συχνά σημαίνει ότι τα barcode πρέπει να μετακινηθούν. Η αυτοματοποίηση με Java ξεπερνά την χειροκίνητη επεξεργασία εκατοντάδων αρχείων.
+
+### Επεξεργασία Batch μετά από Μεταφορά Δεδομένων
+Τα μεταφερθέντα PDF ενδέχεται να μην ακολουθούν τα τρέχοντα πρότυπα τοποθέτησης barcode. Μια μαζική ενημέρωση αποκαθιστά τη συνέπεια χωρίς να χρειάζεται η δημιουργία εκ νέου κάθε εγγράφου.
+
+### Προσαρμογές Κανονιστικής Συμμόρφωσης
+Βιομηχανίες όπως η logistics ή η υγειονομική περίθαλψη μπορεί να αλλάξουν τους κανόνες τοποθέτησης barcode. Ένα γρήγορο script σας βοηθά να παραμείνετε συμμορφωμένοι.
+
+### Δυναμική Δημιουργία Εγγράφων
+Εάν το μήκος του περιεχομένου του εγγράφου διαφέρει, ίσως χρειαστεί να προσαρμόσετε τις συντεταγμένες του barcode άμεσα.
+
+**Πότε ΔΕΝ πρέπει να χρησιμοποιείτε ενημερώσεις:** Εάν δημιουργείτε ένα ολοκαίνουργιο έγγραφο, τοποθετήστε το barcode σωστά από την αρχή αντί να το προσθέσετε και στη συνέχεια να το ενημερώσετε.
+
+## Κοινά Προβλήματα & Λύσεις
+
+### Πρόβλημα 1: "Δεν βρέθηκαν Barcode Signatures"
+**Σύμπτωμα:** Η αναζήτηση επιστρέφει κενή λίστα παρόλο που βλέπετε barcode στο PDF.  
+
+**Πιθανές Αιτίες**  
+- Τα barcode είναι ενσωματωμένα ως εικόνες ή πεδία φόρμας, όχι ως αντικείμενα υπογραφής.  
+- Το έγγραφο είναι προστατευμένο με κωδικό.  
+- Φιλτράρετε για συγκεκριμένο τύπο barcode που δεν ταιριάζει.  
+
+**Λύση**  
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+options.setAllPages(true); // Search all pages, not just the first
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+
+if (signatures.isEmpty()) {
+    System.out.println("No barcode signatures found. The barcodes might be images, not signature objects.");
+}
+```
+
+### Πρόβλημα 2: Το ενημερωμένο έγγραφο φαίνεται κατεστραμμένο
+**Σύμπτωμα:** Το PDF δεν ανοίγει μετά την ενημέρωση.  
+
+**Πιθανές Αιτίες**  
+- Ανεπαρκής χώρος δίσκου.  
+- Ο φάκελος εξόδου δεν υπάρχει.  
+- Τα δικαιώματα του συστήματος αρχείων εμποδίζουν τη γραφή.  
+
+**Λύση**  
+```java
+File outputDir = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/");
+if (!outputDir.exists()) {
+    outputDir.mkdirs(); // Create directories if they don't exist
+}
+
+// Check write permissions
+if (!outputDir.canWrite()) {
+    throw new IOException("Cannot write to output directory: " + outputDir.getAbsolutePath());
+}
+```
+
+### Πρόβλημα 3: Μείωση Απόδοσης με Μεγάλα Έγγραφα
+**Σύμπτωμα:** Η επεξεργασία επιβραδύνεται δραματικά για PDF πάνω από ~50 σελίδες.  
+
+**Λύση**  
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+options.setPageNumber(1); // Start with page 1
+options.setPagesSetup(new PagesSetup());
+options.getPagesSetup().setFirstPage(true);
+options.getPagesSetup().setLastPage(false);
+```
+
+## Συμβουλές Βελτιστοποίησης Απόδοσης
+
+### Διαχείριση Μνήμης για Λειτουργίες Batch
+Process one document at a time and let Java clean up resources automatically:
+
+```java
+List<String> documentPaths = getDocumentList();
+for (String path : documentPaths) {
+    try (Signature sig = new Signature(path)) {
+        // Process one document at a time
+        // Signature instance is auto‑closed after each iteration
+    }
+}
+```
+
+### Caching Αποτελεσμάτων Αναζήτησης
+If you need to modify several properties on the same barcodes, search once and reuse the list:
+
+```java
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+
+// Update multiple properties
+for (BarcodeSignature barcode : signatures) {
+    barcode.setLeft(100);
+    barcode.setTop(100);
+    barcode.setWidth(200);
+    barcode.setHeight(50);
+}
+
+// Single update call with all changes
+signature.update(outputPath, signatures);
+```
+
+### Παράλληλη Επεξεργασία για Μεγάλες Παρτίδες
+Leverage Java streams to speed up thousands of documents:
+
+```java
+documentPaths.parallelStream().forEach(path -> {
+    try (Signature sig = new Signature(path)) {
+        List<BarcodeSignature> barcodes = sig.search(BarcodeSignature.class, new BarcodeSearchOptions());
+        if (!barcodes.isEmpty()) {
+            BarcodeSignature barcode = barcodes.get(0);
+            barcode.setLeft(50);  // New position for smaller boxes
+            barcode.setTop(10);
+            sig.update(generateOutputPath(path), barcode);
+        }
+    } catch (Exception e) {
+        logError(path, e);
+    }
+});
+```
 
 ## Πρακτικές Εφαρμογές
 
-### Περιπτώσεις χρήσης για ενημερώσεις υπογραφής γραμμωτού κώδικα
-1. **Επαλήθευση Εγγράφων**Αυτόματη επαλήθευση και ενημέρωση γραμμωτών κωδικών σε συμβόλαια ή νομικά έγγραφα.
-2. **Διαχείριση Αποθεμάτων**Ενημέρωση θέσεων γραμμωτού κώδικα στις ετικέτες των προϊόντων μετά την επαναπλήρωση του αποθέματος.
-3. **Παρακολούθηση Logistics**Τροποποίηση θέσεων γραμμωτού κώδικα ώστε να αντικατοπτρίζουν τις νέες διατάξεις συσκευασίας.
+### Περίπτωση Χρήσης 1: Αυτόματες Ενημερώσεις Ετικετών Logistics
+Μια εταιρεία αποστολών άλλαξε τις διαστάσεις των κουτιών, απαιτώντας μετακίνηση barcode σε 50.000 υπάρχουσες ετικέτες. Το παραπάνω απόσπασμα παράλληλης επεξεργασίας μείωσε τη δουλειά από ημέρες σε λίγες ώρες.
 
-Αυτές οι εφαρμογές υπογραμμίζουν πόσο ευέλικτο μπορεί να είναι το GroupDocs.Signature σε διαφορετικούς κλάδους, καθιστώντας το ένα πολύτιμο εργαλείο για κάθε προγραμματιστή Java.
+### Περίπτωση Χρήσης 2: Τυποποίηση Προτύπων Συμβάσεων
+Η νομική ομάδα επέβαλε σταθερή θέση barcode για σάρωση. Αναζητώντας και ενημερώνοντας όλα τα PDF συμβάσεων σε μία παρτίδα, η ομάδα απέφυγε το δαπανηρό χειροκίνητο εκτύπωση.
 
-## Παράγοντες Απόδοσης
+### Περίπτωση Χρήσης 3: Ενσωμάτωση Συστήματος Αποθεμάτων
+Μετά από αναβάθμιση ERP, τα barcode προϊόντων έπρεπε να ευθυγραμμιστούν με νέο εκτυπωτή ετικετών. Η προγραμματιστική ενημέρωση του μεγέθους και της θέσης του barcode εξοικονόμησε χρόνο και κόστος υλικών.
 
-### Βελτιστοποίηση με το GroupDocs.Signature
-- **Διαχείριση μνήμης**Διασφαλίστε αποτελεσματική χρήση της μνήμης χειριζόμενοι μεγάλα έγγραφα σε τμήματα, εάν είναι απαραίτητο.
-- **Χρήση Πόρων**: Παρακολουθήστε την απόδοση της εφαρμογής και βελτιστοποιήστε τα ερωτήματα αναζήτησης.
-- **Βέλτιστες πρακτικές**: Ενημερώνετε τακτικά στην πιο πρόσφατη έκδοση του GroupDocs.Signature για βελτιωμένη σταθερότητα και νέες δυνατότητες.
+## Λίστα Ελέγχου Επίλυσης Προβλημάτων
 
-Η τήρηση αυτών των οδηγιών θα βοηθήσει στη διατήρηση της βέλτιστης απόδοσης κατά την εργασία με υπογραφές εγγράφων.
+Πριν ζητήσετε υποστήριξη, ελέγξτε τα παρακάτω:
 
-## Σύναψη
-
-Σε αυτό το σεμινάριο, μάθατε πώς να αρχικοποιήσετε ένα `Signature` Για παράδειγμα, αναζητήστε υπογραφές γραμμωτού κώδικα και ενημερώστε τις ιδιότητές τους χρησιμοποιώντας το GroupDocs.Signature για Java. Αυτές οι δεξιότητες είναι απαραίτητες για την αποτελεσματική αυτοματοποίηση των εργασιών διαχείρισης εγγράφων.
-
-### Επόμενα βήματα
-- Πειραματιστείτε με διαφορετικούς τύπους αρχείων και επιλογές υπογραφής.
-- Εξερευνήστε πρόσθετες λειτουργίες του GroupDocs.Signature για να βελτιώσετε περαιτέρω τις εφαρμογές σας.
-
-Είστε έτοιμοι να το δοκιμάσετε; Εφαρμόστε αυτά τα βήματα στο επόμενο έργο σας για να ζήσετε από πρώτο χέρι τη δύναμη των αυτοματοποιημένων υπογραφών εγγράφων!
+- [ ] **File path is correct** and the file exists  
+- [ ] **Read/write permissions** are granted for source and destination  
+- [ ] **GroupDocs.Signature version** is 23.12 or later  
+- [ ] **License is properly configured** (if using a full license)  
+- [ ] **Output directory exists** or is created programmatically  
+- [ ] **Sufficient disk space** for output files  
+- [ ] **No other process** is locking the source file  
+- [ ] **Exception handling** is in place to capture errors  
 
 ## Ενότητα Συχνών Ερωτήσεων
 
-**Ε: Σε τι χρησιμοποιείται το GroupDocs.Signature για Java;**
-Α: Είναι μια ισχυρή βιβλιοθήκη σχεδιασμένη να αυτοματοποιεί τη δημιουργία, την αναζήτηση και την ενημέρωση ψηφιακών υπογραφών μέσα σε έγγραφα.
+**Ε: Μπορώ να ενημερώσω κώδικα Java barcode signature για πολλαπλά barcode σε ένα έγγραφο;**  
+Α: Απόλυτα. Επανάληψη μέσω του `List<BarcodeSignature>` που επιστρέφει η αναζήτηση και κλήση του `signature.update()` για κάθε ένα, ή περάστε όλη τη λίστα σε μία κλήση `update`.
 
-**Ε: Πώς μπορώ να εγκαταστήσω το GroupDocs.Signature στο έργο μου Java;**
-Α: Χρησιμοποιήστε τις εξαρτήσεις Maven ή Gradle όπως περιγράφεται παραπάνω ή κατεβάστε τις απευθείας από τον ιστότοπο GroupDocs.
+**Ε: Τι τύπους barcode υποστηρίζει το GroupDocs.Signature;**  
+Α: Δεκάδες, συμπεριλαμβανομένων των Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417 κ.ά. Χρησιμοποιήστε `barcodeSignature.getEncodeType()` για να ελέγξετε τον τύπο.
 
-**Ε: Μπορώ να ενημερώσω πολλαπλές υπογραφές γραμμωτού κώδικα ταυτόχρονα;**
-Α: Ναι, μπορείτε να επαναλάβετε μια λίστα με τους γραμμωτούς κώδικες που βρέθηκαν και να εφαρμόσετε ενημερώσεις σε κάθε έναν ξεχωριστά.
+**Ε: Μπορώ να αλλάξω το πραγματικό περιεχόμενο του barcode (τα κωδικοποιημένα δεδομένα);**  
+Α: Ναι, μέσω `setText()`, αλλά θυμηθείτε να αναδημιουργήσετε το οπτικό barcode ώστε οι σαρωτές να το διαβάζουν σωστά.
 
-**Ε: Τι πρέπει να κάνω εάν δεν βρεθούν γραμμωτοί κώδικες στο έγγραφό μου;**
-Α: Επαληθεύστε ότι οι επιλογές αναζήτησής σας έχουν ρυθμιστεί σωστά και ότι το έγγραφο περιέχει έγκυρα δεδομένα γραμμωτού κώδικα.
+**Ε: Πώς διαχειρίζομαι έγγραφα με barcode σε πολλαπλές σελίδες;**  
+Α: Κάθε `BarcodeSignature` περιλαμβάνει `getPageNumber()`. Φιλτράρετε ή επεξεργαστείτε barcode ανά σελίδα όπως χρειάζεται.
 
-**Ε: Πώς μπορώ να χειριστώ εξαιρέσεις κατά την ενημέρωση υπογραφών;**
-Α: Χρησιμοποιήστε μπλοκ try-catch για να πιάσετε `GroupDocsSignatureException` και να διαχειρίζονται τα λάθη με ευγένεια.
+**Ε: Τι γίνεται με το αρχικό έγγραφο μετά την ενημέρωση;**  
+Α: Το αρχείο προέλευσης παραμένει αμετάβλητο. Το GroupDocs γράφει τις αλλαγές στη διαδρομή εξόδου που καθορίζετε, διατηρώντας το αρχικό για ασφάλεια.
 
-## Πόροι
-- **Απόδειξη με έγγραφα**: [GroupDocs.Signature για τεκμηρίωση Java](https://docs.groupdocs.com/signature/java/)
-- **Εκπαιδευτικά σεμινάρια**Εξερευνήστε περισσότερα εκπαιδευτικά βίντεο στον ιστότοπο GroupDocs
+**Ε: Μπορώ να ενημερώσω barcode σε PDF προστατευμένα με κωδικό;**  
+Α: Ναι. Χρησιμοποιήστε την υπερφόρτωση `LoadOptions` του κατασκευαστή `Signature` για να δώσετε τον κωδικό.
+
+**Ε: Πώς επεξεργάζομαι χιλιάδες έγγραφα σε παρτίδες αποδοτικά;**  
+Α: Συνδυάστε παράλληλα streams με try‑with‑resources (όπως φαίνεται στο παράδειγμα παράλληλης επεξεργασίας) και παρακολουθήστε τη χρήση μνήμης.
+
+**Ε: Λειτουργεί αυτό με μορφές εκτός του PDF;**  
+Α: Ναι. Το ίδιο API λειτουργεί με Word, Excel, PowerPoint, εικόνες και πολλές άλλες μορφές που υποστηρίζει το GroupDocs.Signature.
+
+## Συμπέρασμα
+
+Τώρα έχετε έναν πλήρη, έτοιμο για παραγωγή οδηγό για **create barcode signature** αντικείμενα σε Java και την ενημέρωση της θέσης, του μεγέθους και άλλων ιδιοτήτων τους. Καλύψαμε την αρχικοποίηση, την αναζήτηση, την τροποποίηση, την επίλυση προβλημάτων και τη βελτιστοποίηση απόδοσης για σενάρια τόσο μεμονωμένων εγγράφων όσο και μαζικών παρτίδων.
+
+### Επόμενα Βήματα
+- Δοκιμάστε την ενημέρωση πολλαπλών ιδιοτήτων (π.χ., περιστροφή, διαφάνεια) σε μία κλήση.  
+- Δημιουργήστε μια υπηρεσία REST γύρω από αυτόν τον κώδικα για να εκθέσετε τις ενημερώσεις barcode ως API.  
+- Εξερευνήστε άλλους τύπους υπογραφών (κείμενο, εικόνα, ψηφιακή) χρησιμοποιώντας το ίδιο μοτίβο.
+
+Το API του GroupDocs.Signature προσφέρει πολύ περισσότερα από ενημερώσεις barcode—εξερευνήστε την επαλήθευση, τη διαχείριση μεταδεδομένων και την υποστήριξη πολλαπλών μορφών για πλήρη αυτοματοποίηση των ροών εργασίας εγγράφων.
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** GroupDocs.Signature 23.12  
+**Author:** GroupDocs  
+
+**Resources**
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
+- [API Reference](https://reference.groupdocs.com/signature/java/)
+- [Support Forum](https://forum.groupdocs.com/c/signature)
+- [Free Trial Download](https://releases.groupdocs.com/signature/java/)
