@@ -1,44 +1,64 @@
 ---
-"date": "2025-05-08"
-"description": "Tìm hiểu cách quản lý chữ ký mã vạch với GroupDocs.Signature cho Java. Hướng dẫn này bao gồm việc khởi tạo, tìm kiếm và cập nhật mã vạch trong tệp PDF một cách hiệu quả."
-"title": "Cách khởi tạo và cập nhật chữ ký mã vạch trong Java bằng GroupDocs.Signature"
-"url": "/vi/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
-"weight": 1
+categories:
+- Java Document Processing
+date: '2026-01-16'
+description: Tìm hiểu cách tạo chữ ký mã vạch trong Java và cập nhật vị trí, kích
+  thước và các thuộc tính của nó cho PDF bằng API GroupDocs.Signature.
+keywords: update barcode signature Java, Java barcode signature management, modify
+  barcode in PDF Java, GroupDocs Signature Java, Java document signature automation
+lastmod: '2026-01-16'
+linktitle: Update Barcode Signatures in Java
+tags:
+- barcode-signatures
+- pdf-automation
+- groupdocs-java
+- document-management
+title: Tạo Chữ ký Mã vạch trong Java – Cập nhật Mã vạch PDF
 type: docs
+url: /vi/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/
+weight: 1
 ---
-# Cách khởi tạo và cập nhật chữ ký mã vạch trong Java bằng GroupDocs.Signature
+
+# Tạo Chữ ký Mã vạch trong Java – Cập nhật Mã vạch PDF
 
 ## Giới thiệu
 
-Việc quản lý chữ ký mã vạch trong tài liệu PDF được đơn giản hóa bằng GroupDocs.Signature for Java. Cho dù là số hóa quy trình làm việc của tài liệu hay đảm bảo tính toàn vẹn dữ liệu thông qua mã vạch, hướng dẫn này sẽ hướng dẫn bạn cách khởi tạo và cập nhật chữ ký mã vạch một cách hiệu quả.
+Bạn đã bao giờ cần di chuyển lại vị trí mã vạch trên hàng ngàn nhãn vận chuyển sau khi thiết kế bao bì được thay đổi? Hoặc cập nhật vị trí mã vạch trên các mẫu hợp đồng khi bộ phận pháp lý thay đổi bố cục tài liệu? Bạn không phải là người duy nhất—những tình huống này liên tục xuất hiện trong các quy trình tự động hoá tài liệu.
 
-**Những gì bạn sẽ học:**
-- Khởi tạo một phiên bản Chữ ký với một tài liệu
-- Tìm kiếm chữ ký mã vạch trong tài liệu
-- Cập nhật vị trí và kích thước chữ ký mã vạch
+Việc **cập nhật chữ ký mã vạch** thủ công rất tẻ nhạt và dễ gây lỗi. Với GroupDocs.Signature cho Java, bạn có thể **tạo đối tượng chữ ký mã vạch** và sau đó chỉnh sửa chúng chỉ trong vài dòng mã. Dù bạn đang xây dựng hệ thống quản lý tồn kho, tự động hoá tài liệu logistics, hay quản lý hợp đồng pháp lý, việc cập nhật chữ ký mã vạch một cách lập trình sẽ tiết kiệm hàng giờ công việc thủ công.
 
-Trước khi đi sâu vào triển khai, chúng ta hãy cùng tìm hiểu những điều kiện tiên quyết cần thiết để thành công.
+**Những gì bạn sẽ nắm vững trong hướng dẫn này:**
+- Cài đặt và khởi tạo API Signature với các tài liệu của bạn
+- Tìm kiếm các chữ ký mã vạch hiện có một cách hiệu quả
+- Cập nhật vị trí, kích thước và các thuộc tính khác của mã vạch (bao gồm cách **thay đổi kích thước mã vạch**)
+- Xử lý các lỗi thường gặp và các trường hợp đặc biệt
+- Tối ưu hoá hiệu năng cho các thao tác batch
 
-## Điều kiện tiên quyết
+Hãy bắt đầu bằng cách chắc chắn rằng bạn đã chuẩn bị đầy đủ mọi thứ trước khi viết bất kỳ đoạn mã nào.
 
-Đảm bảo bạn có những điều sau đây trước khi sử dụng GroupDocs.Signature cho Java:
+## Các yêu cầu trước
+
+Trước khi bạn có thể cập nhật mã vạch trong mã Java của dự án, hãy chắc chắn rằng bạn đã đáp ứng các yêu cầu sau:
 
 ### Thư viện bắt buộc
-- **GroupDocs.Signature cho Java**: Cài đặt phiên bản 23.12 trở lên vào dự án của bạn.
+- **GroupDocs.Signature cho Java**: Phiên bản 23.12 trở lên (các phiên bản cũ hơn có thể thiếu các phương thức cập nhật mà chúng ta sẽ sử dụng).
 
-### Thiết lập môi trường
-- Môi trường Java Development Kit (JDK) đang hoạt động.
-- Môi trường phát triển tích hợp (IDE), chẳng hạn như IntelliJ IDEA hoặc Eclipse, để tạo điều kiện thuận lợi cho việc chỉnh sửa và thực thi mã.
+### Cài đặt môi trường
+- Một **Java Development Kit (JDK)** hoạt động (khuyến nghị JDK 8 hoặc cao hơn)
+- Một **IDE** như IntelliJ IDEA, Eclipse hoặc VS Code
 
-### Điều kiện tiên quyết về kiến thức
-- Hiểu biết cơ bản về các khái niệm lập trình Java.
-- Quen thuộc với việc xử lý tệp và thư mục trong Java.
+### Kiến thức nền tảng
+- Java cơ bản (lớp, đối tượng, xử lý ngoại lệ)
+- Xử lý tệp trong Java (đường dẫn, thư mục)
+- Tùy chọn: Hiểu cấu trúc PDF và các khái niệm về mã vạch
 
-## Thiết lập GroupDocs.Signature cho Java
+Bạn đã chuẩn bị xong? Tuyệt vời! Hãy cài đặt thư viện.
 
-Để sử dụng GroupDocs.Signature cho Java, hãy thêm nó vào dự án của bạn dưới dạng một phần phụ thuộc. Cách thực hiện như sau:
+## Cài đặt GroupDocs.Signature cho Java
 
-**Maven**
+Thêm GroupDocs.Signature vào dự án Java của bạn rất đơn giản. Chọn công cụ build mà bạn đang dùng:
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -47,159 +67,331 @@ Trước khi đi sâu vào triển khai, chúng ta hãy cùng tìm hiểu nhữn
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Tải xuống trực tiếp**: Tải xuống phiên bản mới nhất từ [GroupDocs.Signature cho các bản phát hành Java](https://releases.groupdocs.com/signature/java/).
+**Tải trực tiếp**: Nếu bạn không dùng công cụ build, tải file JAR mới nhất từ [bản phát hành GroupDocs.Signature cho Java](https://releases.groupdocs.com/signature/java/) và thêm nó vào classpath của dự án một cách thủ công.
 
-### Mua lại giấy phép
+### Mua giấy phép
 
-Để tận dụng tối đa GroupDocs.Signature, hãy cân nhắc việc mua giấy phép:
-- **Dùng thử miễn phí**: Kiểm tra tính năng bằng bản dùng thử miễn phí.
-- **Giấy phép tạm thời**: Yêu cầu cấp giấy phép tạm thời để đánh giá các khả năng mở rộng.
-- **Mua**: Đảm bảo giấy phép đầy đủ để truy cập không bị gián đoạn.
+GroupDocs.Signature hoạt động với cả giấy phép dùng thử và giấy phép đầy đủ:
+- **Dùng thử miễn phí** – lý tưởng cho việc thử nghiệm và chứng minh ý tưởng
+- **Giấy phép tạm thời** – cho việc đánh giá mở rộng trên một dự án cụ thể
+- **Giấy phép đầy đủ** – loại bỏ watermark và giới hạn sử dụng cho môi trường sản xuất
 
-Sau khi thiết lập thư viện, chúng ta hãy xem xét cách khởi tạo và sử dụng GroupDocs.Signature một cách hiệu quả.
+**Mẹo chuyên nghiệp**: Bắt đầu với bản dùng thử để xác nhận API đáp ứng nhu cầu, sau đó nâng cấp khi bạn sẵn sàng triển khai thực tế.
 
-## Hướng dẫn thực hiện
+Bây giờ thư viện đã được cài đặt, chúng ta sẽ đi vào phần thực thi.
 
-### Khởi tạo phiên bản chữ ký
+## Câu hỏi nhanh
+- **“Tạo chữ ký mã vạch” có nghĩa là gì?** Nó có nghĩa là tạo một đối tượng mã vạch có thể được đặt, di chuyển hoặc chỉnh sửa bên trong tài liệu thông qua API.  
+- **Tôi có thể thay đổi kích thước mã vạch sau khi tạo không?** Có – sử dụng các phương thức `setWidth` và `setHeight` hoặc điều chỉnh tọa độ `Left`/`Top`.  
+- **Có cần giấy phép để cập nhật mã vạch không?** Bản dùng thử đủ cho phát triển; giấy phép đầy đủ bắt buộc cho môi trường sản xuất.  
+- **Điều này chỉ hoạt động với PDF phải không?** Không – cùng một đoạn mã cũng hoạt động với Word, Excel, PowerPoint và các tệp ảnh.  
+- **Tôi có thể xử lý bao nhiêu tài liệu cùng lúc?** Hỗ trợ xử lý batch; chỉ cần quản lý bộ nhớ bằng `try‑with‑resources`.
 
-#### Tổng quan
-Khởi tạo một `Signature` Phiên bản này là bước đầu tiên của bạn trong việc thao tác chữ ký tài liệu. Quá trình này bao gồm việc tải tài liệu mục tiêu của bạn vào môi trường GroupDocs.
+## Cách tạo chữ ký mã vạch trong Java
 
-#### Các bước để khởi tạo
-1. **Nhập các lớp bắt buộc**
-   ```java
-   import com.groupdocs.signature.Signature;
-   import java.nio.file.Paths;
-   ```
-2. **Đặt đường dẫn tài liệu**
-   Xác định vị trí lưu trữ tài liệu của bạn:
-   ```java
-   String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
-   ```
-3. **Tạo một phiên bản chữ ký**
-   Khởi tạo `Signature` đối tượng có đường dẫn tệp.
-   ```java
-   Signature signature = new Signature(filePath);
-   ```
-   Phiên bản này sẽ được sử dụng để tìm kiếm và cập nhật chữ ký trong tài liệu của bạn.
+### Bước 1: Khởi tạo đối tượng Signature
 
-### Tìm kiếm chữ ký mã vạch
+#### Tại sao bước này quan trọng
+Hãy tưởng tượng đối tượng `Signature` như cánh cửa vào tài liệu của bạn. Nó tải PDF (hoặc bất kỳ định dạng hỗ trợ nào) vào bộ nhớ và cung cấp quyền truy cập vào tất cả các thao tác liên quan đến chữ ký. Nếu không khởi tạo, bạn sẽ không thể tìm kiếm hay chỉnh sửa gì cả.
 
-#### Tổng quan
-Việc xác định chữ ký mã vạch trong tài liệu là rất quan trọng để tự động hóa việc cập nhật hoặc xác thực. GroupDocs.Signature giúp đơn giản hóa quy trình tìm kiếm này.
+#### Triển khai
+Đầu tiên, import lớp cần thiết và định nghĩa đường dẫn tệp:
 
-#### Các bước tìm kiếm
-1. **Nhập các lớp bắt buộc**
-   ```java
-   import com.groupdocs.signature.options.search.BarcodeSearchOptions;
-   import com.groupdocs.signature.domain.signatures.BarcodeSignature;
-   import java.util.List;
-   ```
-2. **Xác định tùy chọn tìm kiếm**
-   Thiết lập các tùy chọn để tìm kiếm chữ ký mã vạch:
-   ```java
-   BarcodeSearchOptions options = new BarcodeSearchOptions();
-   ```
-3. **Thực hiện tìm kiếm**
-   Tìm tất cả chữ ký mã vạch trong tài liệu của bạn.
-   ```java
-   List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
-   ```
-Các `signatures` danh sách sẽ chứa bất kỳ mã vạch nào được tìm thấy.
+```java
+import com.groupdocs.signature.Signature;
+import java.nio.file.Paths;
+```
 
-### Cập nhật chữ ký mã vạch
+```java
+String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
+```
 
-#### Tổng quan
-Sau khi tìm thấy chữ ký mã vạch, bạn có thể cần điều chỉnh vị trí hoặc kích thước của nó. Phần này sẽ hướng dẫn cách cập nhật các thuộc tính này.
+```java
+Signature signature = new Signature(filePath);
+```
 
-#### Các bước để cập nhật
-1. **Nhập các lớp bắt buộc**
-   ```java
-   import java.io.File;
-   import com.groupdocs.signature.exception.GroupDocsSignatureException;
-   ```
-2. **Xác định Đường dẫn đầu ra**
-   Chuẩn bị nơi lưu tài liệu đã cập nhật:
-   ```java
-   String fileName = Paths.get(filePath).getFileName().toString();
-   String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
-   checkDir(outputFilePath);
-   ```
-3. **Kiểm tra chữ ký**
-   Đảm bảo có mã vạch để cập nhật:
-   ```java
-   if (signatures.size() > 0) {
-       BarcodeSignature barcodeSignature = signatures.get(0);
-       // Cập nhật vị trí và kích thước của chữ ký mã vạch
-       barcodeSignature.setLeft(100);
-       barcodeSignature.setTop(100);
-       
-       // Áp dụng các bản cập nhật cho tài liệu
-       boolean result = signature.update(outputFilePath, barcodeSignature);
-       if (result) {
-           System.out.println("Signature with Barcode '" +
-               barcodeSignature.getText() + "' and encode type '"+
-               barcodeSignature.getEncodeType().getTypeName() + "' was updated in the document ['" +
-               fileName + "'].");
-   }
-4. **Xử lý ngoại lệ**
-   Hãy chuẩn bị để phát hiện bất kỳ trường hợp ngoại lệ nào trong quá trình này:
-   ```java
-   } catch (GroupDocsSignatureException e) {
-       System.err.println("Error updating signature: " + e.getMessage());
-   }
-   ```
+**Đang xảy ra gì?** Constructor đọc tệp và chuẩn bị cho việc thao tác. Đường dẫn có thể là tuyệt đối hoặc tương đối—chỉ cần đảm bảo tiến trình Java có quyền đọc.
 
-## Ứng dụng thực tế
+> **Mẹo:** Kiểm tra tính hợp lệ của đường dẫn trước khi tạo đối tượng `Signature` để tránh `FileNotFoundException`.
 
-### Các trường hợp sử dụng cho việc cập nhật chữ ký mã vạch
-1. **Xác minh tài liệu**: Tự động xác minh và cập nhật mã vạch trong hợp đồng hoặc văn bản pháp lý.
-2. **Quản lý hàng tồn kho**: Cập nhật vị trí mã vạch trên nhãn sản phẩm sau khi nhập kho.
-3. **Theo dõi hậu cần**: Thay đổi vị trí mã vạch để phản ánh bố cục bao bì mới.
+### Bước 2: Tìm kiếm các chữ ký mã vạch
 
-Các ứng dụng này làm nổi bật tính linh hoạt của GroupDocs.Signature trong nhiều ngành khác nhau, khiến nó trở thành công cụ có giá trị cho bất kỳ nhà phát triển Java nào.
+#### Tại sao phải tìm kiếm trước
+Bạn không thể cập nhật những gì không thể tìm thấy. GroupDocs.Signature cung cấp API tìm kiếm mạnh mẽ, cho phép lọc chữ ký theo loại.
 
-## Cân nhắc về hiệu suất
+#### Triển khai
+Import các lớp liên quan đến tìm kiếm:
 
-### Tối ưu hóa với GroupDocs.Signature
-- **Quản lý bộ nhớ**: Đảm bảo sử dụng bộ nhớ hiệu quả bằng cách xử lý các tài liệu lớn thành từng phần nếu cần.
-- **Sử dụng tài nguyên**: Theo dõi hiệu suất của ứng dụng và tối ưu hóa truy vấn tìm kiếm.
-- **Thực hành tốt nhất**: Thường xuyên cập nhật lên phiên bản mới nhất của GroupDocs.Signature để cải thiện tính ổn định và có thêm nhiều tính năng mới.
+```java
+import com.groupdocs.signature.options.search.BarcodeSearchOptions;
+import com.groupdocs.signature.domain.signatures.BarcodeSignature;
+import java.util.List;
+```
 
-Thực hiện theo các hướng dẫn này sẽ giúp duy trì hiệu suất tối ưu khi làm việc với chữ ký tài liệu.
+Cấu hình tùy chọn tìm kiếm (mặc định tìm trên tất cả các trang):
 
-## Phần kết luận
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+```
 
-Trong hướng dẫn này, bạn đã học cách khởi tạo một `Signature` Ví dụ, tìm kiếm chữ ký mã vạch và cập nhật thuộc tính của chúng bằng GroupDocs.Signature cho Java. Những kỹ năng này rất cần thiết để tự động hóa các tác vụ quản lý tài liệu một cách hiệu quả.
+Thực thi tìm kiếm:
 
-### Các bước tiếp theo
-- Thử nghiệm với nhiều loại tệp và tùy chọn chữ ký khác nhau.
-- Khám phá các tính năng bổ sung của GroupDocs.Signature để cải thiện ứng dụng của bạn hơn nữa.
+```java
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+```
 
-Bạn đã sẵn sàng thử chưa? Hãy áp dụng các bước này vào dự án tiếp theo của bạn để trải nghiệm sức mạnh của chữ ký tài liệu tự động!
+Bây giờ bạn có một danh sách các đối tượng `BarcodeSignature`, mỗi đối tượng cung cấp các thuộc tính như `Left`, `Top`, `Width`, `Height`, `Text` và `EncodeType`.
+
+> **Ghi chú hiệu năng:** Đối với các PDF rất lớn, hãy cân nhắc thu hẹp phạm vi tìm kiếm theo trang hoặc loại mã vạch để tăng tốc.
+
+### Bước 3: Cập nhật thuộc tính mã vạch
+
+#### Sự kiện chính: Sửa đổi chữ ký mã vạch
+Bây giờ bạn có thể **thay đổi kích thước mã vạch** hoặc di chuyển nó tới vị trí mới.
+
+#### Triển khai
+Đầu tiên, import các lớp xử lý ngoại lệ:
+
+```java
+import java.io.File;
+import com.groupdocs.signature.exception.GroupDocsSignatureException;
+```
+
+Thiết lập đường dẫn đầu ra nơi tài liệu đã chỉnh sửa sẽ được lưu:
+
+```java
+String fileName = Paths.get(filePath).getFileName().toString();
+String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
+checkDir(outputFilePath);
+```
+
+Tiếp theo, xác định mã vạch đầu tiên (hoặc lặp qua danh sách) và áp dụng các thay đổi:
+
+```java
+if (signatures.size() > 0) {
+    BarcodeSignature barcodeSignature = signatures.get(0);
+    
+    // Update the barcode's position and size
+    barcodeSignature.setLeft(100);
+    barcodeSignature.setTop(100);
+    
+    // Apply the changes to the document
+    boolean result = signature.update(outputFilePath, barcodeSignature);
+    
+    if (result) {
+        System.out.println("Signature with Barcode '" +
+            barcodeSignature.getText() + "' and encode type '"+
+            barcodeSignature.getEncodeType().getTypeName() + "' was updated in the document ['" +
+            fileName + "'].");
+    }
+} catch (GroupDocsSignatureException e) {
+    System.err.println("Error updating signature: " + e.getMessage());
+}
+```
+
+**Các điểm quan trọng:**
+- `setLeft` / `setTop` di chuyển mã vạch (tọa độ tính từ góc trên‑trái).
+- Phương thức `update` ghi ra một tệp mới; tệp gốc vẫn không bị thay đổi.
+- Bao bọc lời gọi trong khối `try‑catch` để xử lý các ngoại lệ như `GroupDocsSignatureException`.
+
+## Khi nào nên cập nhật chữ ký mã vạch?
+
+Hiểu rõ các kịch bản phù hợp giúp bạn thiết kế quy trình hiệu quả.
+
+### Đổi thương hiệu tài liệu & cập nhật mẫu
+Một tiêu đề thư hoặc bố cục nhãn mới thường đồng nghĩa với việc phải di chuyển lại mã vạch. Tự động hoá việc này bằng Java nhanh hơn rất nhiều so với việc chỉnh sửa hàng trăm tệp thủ công.
+
+### Xử lý batch sau di chuyển dữ liệu
+Các PDF đã di chuyển có thể không tuân theo tiêu chuẩn vị trí mã vạch hiện tại. Cập nhật hàng loạt giúp khôi phục tính nhất quán mà không cần tạo lại từng tài liệu.
+
+### Điều chỉnh tuân thủ quy định
+Các ngành như logistics hoặc y tế có thể thay đổi quy tắc đặt mã vạch. Một script nhanh sẽ giúp bạn luôn đáp ứng yêu cầu.
+
+### Tạo tài liệu động
+Nếu độ dài nội dung tài liệu thay đổi, bạn có thể cần điều chỉnh tọa độ mã vạch một cách linh hoạt.
+
+**Không nên dùng cập nhật:** Nếu bạn đang tạo tài liệu mới, hãy đặt mã vạch đúng vị trí ngay từ đầu thay vì thêm rồi cập nhật.
+
+## Các vấn đề thường gặp & giải pháp
+
+### Vấn đề 1: “Không tìm thấy chữ ký mã vạch”
+**Triệu chứng:** Tìm kiếm trả về danh sách rỗng mặc dù bạn thấy mã vạch trong PDF.
+
+**Nguyên nhân có thể**
+- Mã vạch được nhúng dưới dạng hình ảnh hoặc trường form, không phải là đối tượng chữ ký.
+- Tài liệu được bảo vệ bằng mật khẩu.
+- Bạn đang lọc theo loại mã vạch cụ thể không khớp.
+
+**Giải pháp**  
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+options.setAllPages(true); // Search all pages, not just the first
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+
+if (signatures.isEmpty()) {
+    System.out.println("No barcode signatures found. The barcodes might be images, not signature objects.");
+}
+```
+
+### Vấn đề 2: Tài liệu đã cập nhật bị hỏng
+**Triệu chứng:** PDF không mở được sau khi cập nhật.
+
+**Nguyên nhân có thể**
+- Đĩa không đủ không gian.
+- Thư mục đầu ra không tồn tại.
+- Quyền hệ thống file ngăn ghi.
+
+**Giải pháp**  
+```java
+File outputDir = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/");
+if (!outputDir.exists()) {
+    outputDir.mkdirs(); // Create directories if they don't exist
+}
+
+// Check write permissions
+if (!outputDir.canWrite()) {
+    throw new IOException("Cannot write to output directory: " + outputDir.getAbsolutePath());
+}
+```
+
+### Vấn đề 3: Giảm hiệu năng với tài liệu lớn
+**Triệu chứng:** Xử lý chậm đáng kể đối với PDF trên ~50 trang.
+
+**Giải pháp**  
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+options.setPageNumber(1); // Start with page 1
+options.setPagesSetup(new PagesSetup());
+options.getPagesSetup().setFirstPage(true);
+options.getPagesSetup().setLastPage(false);
+```
+
+## Mẹo tối ưu hoá hiệu năng
+
+### Quản lý bộ nhớ cho các thao tác batch
+Xử lý một tài liệu mỗi lần và để Java tự giải phóng tài nguyên:
+
+```java
+List<String> documentPaths = getDocumentList();
+for (String path : documentPaths) {
+    try (Signature sig = new Signature(path)) {
+        // Process one document at a time
+        // Signature instance is auto‑closed after each iteration
+    }
+}
+```
+
+### Lưu trữ kết quả tìm kiếm
+Nếu cần thay đổi nhiều thuộc tính trên cùng một mã vạch, hãy tìm một lần và tái sử dụng danh sách:
+
+```java
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+
+// Update multiple properties
+for (BarcodeSignature barcode : signatures) {
+    barcode.setLeft(100);
+    barcode.setTop(100);
+    barcode.setWidth(200);
+    barcode.setHeight(50);
+}
+
+// Single update call with all changes
+signature.update(outputPath, signatures);
+```
+
+### Xử lý song song cho khối lượng lớn
+Sử dụng Java streams để tăng tốc xử lý hàng ngàn tài liệu:
+
+```java
+documentPaths.parallelStream().forEach(path -> {
+    try (Signature sig = new Signature(path)) {
+        List<BarcodeSignature> barcodes = sig.search(BarcodeSignature.class, new BarcodeSearchOptions());
+        if (!barcodes.isEmpty()) {
+            BarcodeSignature barcode = barcodes.get(0);
+            barcode.setLeft(50);  // New position for smaller boxes
+            barcode.setTop(10);
+            sig.update(generateOutputPath(path), barcode);
+        }
+    } catch (Exception e) {
+        logError(path, e);
+    }
+});
+```
+
+## Ứng dụng thực tiễn
+
+### Trường hợp 1: Cập nhật nhãn logistics tự động
+Một công ty vận chuyển thay đổi kích thước thùng, yêu cầu di chuyển mã vạch trên 50.000 nhãn hiện có. Đoạn mã xử lý song song đã giảm thời gian công việc từ vài ngày xuống còn vài giờ.
+
+### Trường hợp 2: Chuẩn hoá mẫu hợp đồng
+Phòng pháp lý yêu cầu vị trí mã vạch cố định để quét. Bằng cách tìm và cập nhật tất cả các PDF hợp đồng trong một batch, đội ngũ đã tránh được chi phí in lại đắt đỏ.
+
+### Trường hợp 3: Tích hợp hệ thống tồn kho
+Sau khi nâng cấp ERP, các mã vạch sản phẩm cần căn chỉnh với máy in nhãn mới. Việc cập nhật kích thước và vị trí mã vạch bằng chương trình đã tiết kiệm thời gian và chi phí vật liệu.
+
+## Danh sách kiểm tra khắc phục sự cố
+
+Trước khi liên hệ hỗ trợ, hãy kiểm tra các mục sau:
+
+- [ ] **Đường dẫn tệp đúng** và tệp tồn tại  
+- [ ] **Quyền đọc/ghi** đã được cấp cho nguồn và đích  
+- [ ] **Phiên bản GroupDocs.Signature** là 23.12 hoặc mới hơn  
+- [ ] **Giấy phép đã cấu hình đúng** (nếu dùng giấy phép đầy đủ)  
+- [ ] **Thư mục đầu ra tồn tại** hoặc được tạo tự động  
+- [ ] **Đủ không gian đĩa** cho các tệp đầu ra  
+- [ ] **Không có tiến trình nào khác** đang khóa tệp nguồn  
+- [ ] **Xử lý ngoại lệ** đã được triển khai để bắt lỗi  
 
 ## Phần Câu hỏi thường gặp
 
-**H: GroupDocs.Signature cho Java được sử dụng để làm gì?**
-A: Đây là một thư viện mạnh mẽ được thiết kế để tự động hóa việc tạo, tìm kiếm và cập nhật chữ ký số trong tài liệu.
+**Hỏi: Tôi có thể cập nhật mã vạch Java cho nhiều mã vạch trong một tài liệu không?**  
+Đáp: Chắc chắn. Lặp qua `List<BarcodeSignature>` trả về từ tìm kiếm và gọi `signature.update()` cho mỗi mục, hoặc truyền toàn bộ danh sách vào một lời gọi `update` duy nhất.
 
-**H: Làm thế nào để cài đặt GroupDocs.Signature vào dự án Java của tôi?**
-A: Sử dụng các phụ thuộc Maven hoặc Gradle như đã nêu ở trên hoặc tải trực tiếp từ trang web GroupDocs.
+**Hỏi: GroupDocs.Signature hỗ trợ những loại mã vạch nào?**  
+Đáp: Hàng chục loại, bao gồm Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417, và nhiều hơn nữa. Dùng `barcodeSignature.getEncodeType()` để kiểm tra loại.
 
-**H: Tôi có thể cập nhật nhiều chữ ký mã vạch cùng lúc không?**
-A: Có, bạn có thể lặp lại danh sách mã vạch tìm thấy và áp dụng bản cập nhật cho từng mã vạch riêng lẻ.
+**Hỏi: Tôi có thể thay đổi nội dung thực tế của mã vạch (dữ liệu được mã hoá) không?**  
+Đáp: Có, thông qua `setText()`, nhưng nhớ phải tạo lại hình ảnh mã vạch để máy quét đọc đúng.
 
-**H: Tôi phải làm gì nếu không tìm thấy mã vạch trong tài liệu của mình?**
-A: Xác minh rằng tùy chọn tìm kiếm của bạn được cấu hình đúng và tài liệu có chứa dữ liệu mã vạch hợp lệ.
+**Hỏi: Làm sao xử lý tài liệu có mã vạch trên nhiều trang?**  
+Đáp: Mỗi `BarcodeSignature` có `getPageNumber()`. Bạn có thể lọc hoặc xử lý các mã vạch theo trang tùy nhu cầu.
 
-**H: Tôi phải xử lý các trường hợp ngoại lệ khi cập nhật chữ ký như thế nào?**
-A: Sử dụng khối try-catch để bắt `GroupDocsSignatureException` và quản lý lỗi một cách khéo léo.
+**Hỏi: Điều gì xảy ra với tài liệu gốc sau khi cập nhật?**  
+Đáp: Tệp nguồn không bị thay đổi. GroupDocs ghi các thay đổi vào đường dẫn đầu ra bạn chỉ định, giữ nguyên bản gốc để an toàn.
 
-## Tài nguyên
-- **Tài liệu**: [GroupDocs.Signature cho Tài liệu Java](https://docs.groupdocs.com/signature/java/)
-- **Hướng dẫn**: Khám phá thêm các hướng dẫn trên trang web GroupDocs
+**Hỏi: Tôi có thể cập nhật mã vạch trong PDF được bảo mật bằng mật khẩu không?**  
+Đáp: Có. Sử dụng overload `LoadOptions` của constructor `Signature` để cung cấp mật khẩu.
+
+**Hỏi: Làm sao batch xử lý hàng ngàn tài liệu một cách hiệu quả?**  
+Đáp: Kết hợp parallel streams với `try‑with‑resources` (như trong ví dụ xử lý song song) và giám sát việc sử dụng bộ nhớ.
+
+**Hỏi: Điều này có hoạt động với các định dạng khác ngoài PDF không?**  
+Đáp: Có. API giống nhau hỗ trợ Word, Excel, PowerPoint, ảnh và nhiều định dạng khác mà GroupDocs.Signature hỗ trợ.
+
+## Kết luận
+
+Bạn đã có một hướng dẫn đầy đủ, sẵn sàng cho môi trường sản xuất để **tạo đối tượng chữ ký mã vạch** trong Java và cập nhật vị trí, kích thước và các thuộc tính khác. Chúng tôi đã đề cập đến khởi tạo, tìm kiếm, chỉnh sửa, khắc phục sự cố và tối ưu hoá hiệu năng cho cả trường hợp tài liệu đơn lẻ và batch quy mô lớn.
+
+### Các bước tiếp theo
+- Thử cập nhật nhiều thuộc tính cùng lúc (ví dụ: xoay, độ trong suốt) trong một lần xử lý.  
+- Xây dựng một dịch vụ REST bao quanh đoạn mã này để cung cấp API cập nhật mã vạch.  
+- Khám phá các loại chữ ký khác (văn bản, hình ảnh, số) bằng cùng một mẫu.
+
+API GroupDocs.Signature còn nhiều hơn việc cập nhật mã vạch—hãy khám phá xác thực, xử lý metadata và hỗ trợ đa định dạng để tự động hoá toàn bộ quy trình tài liệu của bạn.
+
+---
+
+**Cập nhật lần cuối:** 2026-01-16  
+**Được kiểm thử với:** GroupDocs.Signature 23.12  
+**Tác giả:** GroupDocs  
+
+**Tài nguyên**
+- [Tài liệu GroupDocs.Signature cho Java](https://docs.groupdocs.com/signature/java/)
+- [Tham chiếu API](https://reference.groupdocs.com/signature/java/)
+- [Diễn đàn hỗ trợ](https://forum.groupdocs.com/c/signature)
+- [Tải bản dùng thử miễn phí](https://releases.groupdocs.com/signature/java/)

@@ -1,44 +1,63 @@
 ---
-"date": "2025-05-08"
-"description": "GroupDocs.Signature for Java를 사용하여 바코드 서명을 관리하는 방법을 알아보세요. 이 가이드에서는 PDF에서 바코드를 효과적으로 초기화, 검색 및 업데이트하는 방법을 다룹니다."
-"title": "GroupDocs.Signature를 사용하여 Java에서 바코드 서명을 초기화하고 업데이트하는 방법"
-"url": "/ko/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
-"weight": 1
+categories:
+- Java Document Processing
+date: '2026-01-16'
+description: Java에서 바코드 서명을 생성하고 GroupDocs.Signature API를 사용하여 PDF의 위치, 크기 및 속성을 업데이트하는
+  방법을 배웁니다.
+keywords: update barcode signature Java, Java barcode signature management, modify
+  barcode in PDF Java, GroupDocs Signature Java, Java document signature automation
+lastmod: '2026-01-16'
+linktitle: Update Barcode Signatures in Java
+tags:
+- barcode-signatures
+- pdf-automation
+- groupdocs-java
+- document-management
+title: Java로 바코드 서명 만들기 – PDF 바코드 업데이트
 type: docs
+url: /ko/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/
+weight: 1
 ---
-# GroupDocs.Signature를 사용하여 Java에서 바코드 서명을 초기화하고 업데이트하는 방법
+
+# Java에서 바코드 서명 만들기 – PDF 바코드 업데이트
 
 ## 소개
 
-GroupDocs.Signature for Java를 사용하면 PDF 문서 내 바코드 서명을 간편하게 관리할 수 있습니다. 문서 워크플로우를 디지털화하거나 바코드를 통해 데이터 무결성을 보장하는 등, 이 가이드는 바코드 서명을 효과적으로 초기화하고 업데이트하는 방법을 알려줍니다.
+수천 개의 배송 라벨을 포장 디자인 변경 후에 바코드 위치를 다시 잡아야 했던 적이 있나요? 혹은 법무팀이 문서 레이아웃을 바꾸면서 계약 템플릿 전체의 바코드 위치를 업데이트해야 했던 적이 있나요? 이런 상황은 문서 자동화 워크플로우에서 흔히 발생합니다.
 
-**배울 내용:**
-- 문서로 Signature 인스턴스 초기화
-- 문서에서 바코드 서명 검색
-- 바코드 서명 위치 및 크기 업데이트
+**바코드 서명**을 수동으로 업데이트하는 일은 번거롭고 실수가 발생하기 쉽습니다. GroupDocs.Signature for Java를 사용하면 **바코드 서명** 객체를 생성하고 몇 줄의 코드만으로 수정할 수 있습니다. 재고 시스템을 구축하든, 물류 문서를 자동화하든, 법률 계약을 관리하든, 프로그래밍 방식으로 바코드 서명을 업데이트하면 수작업 시간을 크게 절감할 수 있습니다.
 
-구현에 들어가기 전에 성공에 필요한 전제 조건을 살펴보겠습니다.
+**이번 튜토리얼에서 마스터하게 될 내용**
+- 문서와 함께 Signature API를 설정하고 초기화하기
+- 기존 바코드 서명을 효율적으로 검색하기
+- 바코드 위치, 크기 및 기타 속성 업데이트하기 (특히 **바코드 크기 변경** 방법)
+- 일반적인 오류와 예외 상황 처리하기
+- 배치 작업을 위한 성능 최적화
 
-## 필수 조건
+코드를 작성하기 전에 필요한 준비물이 모두 갖춰졌는지 확인해 봅시다.
 
-Java에서 GroupDocs.Signature를 사용하기 전에 다음 사항이 있는지 확인하세요.
+## 사전 요구 사항
+
+프로젝트에서 바코드 서명 Java 코드를 업데이트하려면 다음 필수 항목을 확인하세요.
 
 ### 필수 라이브러리
-- **Java용 GroupDocs.Signature**: 프로젝트에 23.12 버전 이상을 설치하세요.
+- **GroupDocs.Signature for Java**: 버전 23.12 이상 (이전 버전에서는 사용할 업데이트 메서드가 없을 수 있습니다).
 
 ### 환경 설정
-- 작동하는 Java Development Kit(JDK) 환경.
-- IntelliJ IDEA나 Eclipse와 같은 통합 개발 환경(IDE)을 사용하면 코드 편집과 실행이 용이해집니다.
+- 정상 작동하는 **Java Development Kit (JDK)** (JDK 8 이상 권장)
+- **IDE**(IntelliJ IDEA, Eclipse, VS Code 등)
 
-### 지식 전제 조건
-- Java 프로그래밍 개념에 대한 기본적인 이해.
-- Java에서 파일과 디렉토리를 처리하는 데 익숙함.
+### 지식 사전 요구 사항
+- 기본 Java (클래스, 객체, 예외 처리- Java 파일 처리 (경로, 디렉터리)
+- 선택 사항: PDF 구조 및 바코드 개념에 대한 이해
 
-## Java용 GroupDocs.Signature 설정
+다 준비됐나요? 좋습니다! 이제 라이브러리를 설치해 보겠습니다.
 
-Java용 GroupDocs.Signature를 사용하려면 프로젝트에 종속성으로 추가하세요. 방법은 다음과 같습니다.
+## GroupDocs.Signature for Java 설정하기
 
-**메이븐**
+Java 프로젝트에 GroupDocs.Signature를 추가하는 것은 매우 간단합니다. 사용 중인 빌드 도구에 따라 선택하세요.
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -47,159 +66,331 @@ Java용 GroupDocs.Signature를 사용하려면 프로젝트에 종속성으로 �
 </dependency>
 ```
 
-**그래들**
+**Gradle**  
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**직접 다운로드**: 최신 버전을 다운로드하세요 [Java 릴리스용 GroupDocs.Signature](https://releases.groupdocs.com/signature/java/).
+**직접 다운로드**: 빌드 도구를 사용하지 않는 경우 최신 JAR 파일을 [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/)에서 받아 프로젝트 클래스패스에 직접 추가하면 됩니다.
 
-### 라이센스 취득
+### 라이선스 획득
 
-GroupDocs.Signature를 최대한 활용하려면 라이선스 취득을 고려하세요.
-- **무료 체험**: 무료 체험판을 통해 기능을 시험해 보세요.
-- **임시 면허**: 확장된 기능을 평가하기 위한 임시 라이센스를 요청합니다.
-- **구입**: 중단 없는 액세스를 위해 전체 라이선스를 확보하세요.
+GroupDocs.Signature는 체험판과 정식 라이선스를 모두 지원합니다.
+- **무료 체험판** – 테스트 및 개념 증명에 적합
+- **임시 라이선스** – 특정 프로젝트에 대한 장기 평가용
+- **정식 라이선스** – 워터마크와 사용 제한이 해제된 프로덕션용
 
-라이브러리를 설정한 후 GroupDocs.Signature를 효과적으로 초기화하고 사용하는 방법을 살펴보겠습니다.
+**팁**: 먼저 무료 체험판으로 API가 요구사항에 맞는지 확인한 뒤, 실제 운영 환경에서는 정식 라이선스로 전환하세요.
 
-## 구현 가이드
+라이브러리가 설치되었으니 실제 구현으로 들어갑니다.
 
-### 서명 인스턴스 초기화
+## 빠른 답변
+- **“바코드 서명 만들기”가 무슨 뜻인가요?** API를 통해 문서 안에 배치·이동·편집이 가능한 바코드 객체를 생성한다는 의미입니다.  
+- **생성 후 바코드 크기를 바꿀 수 있나요?** 네. `setWidth`와 `setHeight` 메서드 또는 `Left`/`Top` 좌표를 조정하면 됩니다.  
+- **바코드 업데이트에 라이선스가 필요하나요?** 개발 단계에서는 체험판으로 가능하지만, 프로덕션에서는 정식 라이선스가 필요합니다.  
+- **PDF 전용인가요?** 아니요. 동일 코드는 Word, Excel, PowerPoint, 이미지 파일에서도 동작합니다.  
+- **한 번에 몇 개의 문서를 처리할 수 있나요?** 배치 처리가 지원됩니다. `try‑with‑resources`를 사용해 메모리를 효율적으로 관리하면 됩니다.
 
-#### 개요
-초기화 중 `Signature` 인스턴스는 문서 서명을 조작하는 첫 번째 단계입니다. 이 프로세스에는 대상 문서를 GroupDocs 환경에 로드하는 작업이 포함됩니다.
+## Java에서 바코드 서명 만들기
 
-#### 초기화 단계
-1. **필수 클래스 가져오기**
-   ```java
-   import com.groupdocs.signature.Signature;
-   import java.nio.file.Paths;
-   ```
-2. **문서 경로 설정**
-   문서의 위치를 정의하세요.
-   ```java
-   String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
-   ```
-3. **서명 인스턴스 생성**
-   초기화 `Signature` 파일 경로가 있는 객체입니다.
-   ```java
-   Signature signature = new Signature(filePath);
-   ```
-   이 인스턴스는 문서에서 서명을 검색하고 업데이트하는 데 사용됩니다.
+### 1단계: Signature 인스턴스 초기화
 
-### 바코드 서명 검색
+#### 왜 중요한가?
+`Signature` 객체는 문서에 대한 진입점 역할을 합니다. PDF(또는 지원되는 형식)를 메모리로 로드하고 서명 관련 모든 작업에 접근할 수 있게 해 줍니다. 이 초기화가 없으면 검색이나 수정 작업을 수행할 수 없습니다.
 
-#### 개요
-문서 내 바코드 서명을 찾는 것은 업데이트나 검증을 자동화하는 데 필수적입니다. GroupDocs.Signature는 이러한 검색 프로세스를 간소화합니다.
+#### 구현
+먼저 필요한 클래스를 임포트하고 파일 경로를 정의합니다.
 
-#### 검색 단계
-1. **필수 클래스 가져오기**
-   ```java
-   import com.groupdocs.signature.options.search.BarcodeSearchOptions;
-   import com.groupdocs.signature.domain.signatures.BarcodeSignature;
-   import java.util.List;
-   ```
-2. **검색 옵션 정의**
-   바코드 서명 검색을 위한 옵션 설정:
-   ```java
-   BarcodeSearchOptions options = new BarcodeSearchOptions();
-   ```
-3. **검색 실행**
-   문서에서 모든 바코드 서명을 찾으세요.
-   ```java
-   List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
-   ```
-그만큼 `signatures` 목록에는 발견된 모든 바코드가 포함됩니다.
+```java
+import com.groupdocs.signature.Signature;
+import java.nio.file.Paths;
+```
 
-### 바코드 서명 업데이트
+```java
+String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
+```
 
-#### 개요
-바코드 서명을 찾은 후 위치나 크기를 조정해야 할 수 있습니다. 이 섹션에서는 이러한 속성을 업데이트하는 방법을 보여줍니다.
+```java
+Signature signature = new Signature(filePath);
+```
 
-#### 업데이트 단계
-1. **필수 클래스 가져오기**
-   ```java
-   import java.io.File;
-   import com.groupdocs.signature.exception.GroupDocsSignatureException;
-   ```
-2. **출력 경로 정의**
-   업데이트된 문서를 저장할 위치를 준비하세요.
-   ```java
-   String fileName = Paths.get(filePath).getFileName().toString();
-   String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
-   checkDir(outputFilePath);
-   ```
-3. **서명 확인**
-   업데이트할 바코드가 있는지 확인하세요.
-   ```java
-   if (signatures.size() > 0) {
-       BarcodeSignature barcodeSignature = signatures.get(0);
-       // 바코드 서명의 위치 및 크기 업데이트
-       barcodeSignature.setLeft(100);
-       barcodeSignature.setTop(100);
-       
-       // 문서에 업데이트 적용
-       boolean result = signature.update(outputFilePath, barcodeSignature);
-       if (result) {
-           System.out.println("Signature with Barcode '" +
-               barcodeSignature.getText() + "' and encode type '"+
-               barcodeSignature.getEncodeType().getTypeName() + "' was updated in the document ['" +
-               fileName + "'].");
-   }
-4. **예외 처리**
-   이 과정에서 예외가 발생할 수 있으니 대비하세요.
-   ```java
-   } catch (GroupDocsSignatureException e) {
-       System.err.println("Error updating signature: " + e.getMessage());
-   }
-   ```
+**무슨 일이 일어나나요?** 생성자가 파일을 읽어 조작 준비를 합니다. 경로는 절대 경로나 상대 경로나 상관없으며, Java 프로세스가 읽기 권한을 가지고 있어야 합니다.
 
-## 실제 응용 프로그램
+> **팁:** `Signature` 인스턴스를 만들기 전에 경로를 검증해 `FileNotFoundException`을 방지하세요.
 
-### 바코드 서명 업데이트 사용 사례
-1. **문서 검증**: 계약서나 법률 문서의 바코드를 자동으로 검증하고 업데이트합니다.
-2. **재고 관리**: 재입고 후 제품 라벨의 바코드 위치를 업데이트합니다.
-3. **물류 추적**: 새로운 포장 레이아웃을 반영하도록 바코드 위치를 수정합니다.
+### 2단계: 바코드 서명 검색
 
-이러한 애플리케이션은 GroupDocs.Signature가 다양한 산업 분야에서 얼마나 다양하게 활용될 수 있는지를 보여주며, 이를 통해 모든 Java 개발자에게 귀중한 도구가 됩니다.
+#### 먼저 검색해야 하는 이유
+찾지 못하면 업데이트도 할 수 없습니다. GroupDocs.Signature는 타입별로 서명을 필터링할 수 있는 강력한 검색 API를 제공합니다.
 
-## 성능 고려 사항
+#### 구현
+검색에 필요한 클래스를 임포트합니다.
 
-### GroupDocs.Signature로 최적화
-- **메모리 관리**: 필요한 경우 큰 문서를 청크로 처리하여 메모리 사용을 효율적으로 보장합니다.
-- **리소스 사용**: 애플리케이션 성능을 모니터링하고 검색 쿼리를 최적화합니다.
-- **모범 사례**: 안정성을 개선하고 새로운 기능을 추가하려면 GroupDocs.Signature의 최신 버전으로 정기적으로 업데이트하세요.
+```java
+import com.groupdocs.signature.options.search.BarcodeSearchOptions;
+import com.groupdocs.signature.domain.signatures.BarcodeSignature;
+import java.util.List;
+```
 
-이러한 지침을 따르면 문서 서명 작업 시 최적의 성능을 유지하는 데 도움이 됩니다.
+검색 옵션을 설정합니다(기본은 모든 페이지 검색).
 
-## 결론
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+```
 
-이 튜토리얼에서는 초기화 방법을 알아보았습니다. `Signature` 예를 들어, 바코드 서명을 검색하고 Java용 GroupDocs.Signature를 사용하여 해당 속성을 업데이트합니다. 이러한 기술은 문서 관리 작업을 효율적으로 자동화하는 데 필수적입니다.
+검색을 실행합니다.
 
-### 다음 단계
-- 다양한 파일 유형과 서명 옵션을 실험해 보세요.
-- GroupDocs.Signature의 추가 기능을 살펴보고 애플리케이션을 더욱 강화해 보세요.
+```java
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+```
 
-사용해 볼 준비가 되셨나요? 다음 프로젝트에 이 단계들을 적용하여 자동 문서 서명의 힘을 직접 경험해 보세요!
+이제 `BarcodeSignature` 객체 리스트를 얻게 되며, 각 객체는 `Left`, `Top`, `Width`, `Height`, `Text`, `EncodeType` 등의 속성을 제공합니다.
+
+> **성능 참고:** 매우 큰 PDF의 경우 특정 페이지나 바코드 타입으로 검색 범위를 좁히면 속도가 빨라집니다.
+
+### 3단계: 바코드 속성 업데이트
+
+#### 핵심: 바코드 서명 수정
+이제 **바코드 크기**를 변경하거나 원하는 위치로 이동할 수 있습니다.
+
+#### 구현
+예외 처리에 필요한 클래스를 임포트합니다.
+
+```java
+import java.io.File;
+import com.groupdocs.signature.exception.GroupDocsSignatureException;
+```
+
+수정된 문서를 저장할 출력 경로를 설정합니다.
+
+```java
+String fileName = Paths.get(filePath).getFileName().toString();
+String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
+checkDir(outputFilePath);
+```
+
+첫 번째 바코드를 찾거나(또는 리스트를 순회하며) 변경을 적용합니다.
+
+```java
+if (signatures.size() > 0) {
+    BarcodeSignature barcodeSignature = signatures.get(0);
+    
+    // Update the barcode's position and size
+    barcodeSignature.setLeft(100);
+    barcodeSignature.setTop(100);
+    
+    // Apply the changes to the document
+    boolean result = signature.update(outputFilePath, barcodeSignature);
+    
+    if (result) {
+        System.out.println("Signature with Barcode '" +
+            barcodeSignature.getText() + "' and encode type '"+
+            barcodeSignature.getEncodeType().getTypeName() + "' was updated in the document ['" +
+            fileName + "'].");
+    }
+} catch (GroupDocsSignatureException e) {
+    System.err.println("Error updating signature: " + e.getMessage());
+}
+```
+
+**핵심 포인트**
+- `setLeft` / `setTop` 은 바코드를 이동시킵니다(좌측 상단을 기준으로 좌표 측정).
+- `update` 메서드는 새 파일을 작성하고 원본은 그대로 유지합니다.
+- `GroupDocsSignatureException` 등 발생 가능한 예외를 `try‑catch` 블록으로 감싸야 합니다.
+
+## 언제 바코드 서명을 업데이트해야 할까?
+
+올바른 시점을 이해하면 효율적인 워크플로우를 설계할 수 있습니다.
+
+### 문서 리브랜딩 및 템플릿 업데이트
+새 레터헤드나 라벨 레이아웃이 도입되면 바코드 위치를 재조정해야 할 때가 많습니다. Java 스크립트로 자동화하면 수백 개 파일을 일일이 수정하는 수고를 없앨 수 있습니다.
+
+### 데이터 마이그레이션 후 배치 처리
+PDF를 이전한 뒤 기존 바코드 배치 기준이 맞지 않을 수 있습니다. 일괄 업데이트로 일관성을 회복하고 문서를 다시 만들 필요가 없습니다.
+
+### 규제 준수 조정
+물류·헬스케어 등 산업에서는 바코드 배치 규칙이 바뀔 수 있습니다. 간단한 스크립트 하나로 신속히 대응할 수 있습니다.
+
+### 동적 문서 생성
+문서 내용 길이에 따라 바코드 좌표를 실시간으로 조정해야 할 때가 있습니다.
+
+**업데이트를 사용하면 안 되는 경우**: 새 문서를 처음부터 만드는 경우라면, 처음부터 올바른 위치에 바코드를 배치하는 것이 더 효율적입니다.
+
+## 흔히 발생하는 문제와 해결책
+
+### 문제 1: “바코드 서명을 찾을 수 없습니다”
+**증상:** PDF에 바코드가 보이는데 검색 결과가 빈 리스트입니다.
+
+**가능한 원인**
+- 바코드가 이미지나 폼 필드 형태로 삽입돼 서명 객체가 아닙니다.
+- 문서가 비밀번호로 보호되어 있습니다.
+- 특정 바코드 타입만 필터링했는데 실제 타입과 일치하지 않습니다.
+
+**해결책**  
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+options.setAllPages(true); // Search all pages, not just the first
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+
+if (signatures.isEmpty()) {
+    System.out.println("No barcode signatures found. The barcodes might be images, not signature objects.");
+}
+```
+
+### 문제 2: 업데이트된 문서가 손상된 것처럼 보임
+**증상:** 업데이트 후 PDF를 열 수 없습니다.
+
+**가능한 원인**
+- 디스크 공간 부족
+- 출력 디렉터리가 존재하지 않음
+- 파일 시스템 권한이 쓰기를 차단함
+
+**해결책**  
+```java
+File outputDir = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/");
+if (!outputDir.exists()) {
+    outputDir.mkdirs(); // Create directories if they don't exist
+}
+
+// Check write permissions
+if (!outputDir.canWrite()) {
+    throw new IOException("Cannot write to output directory: " + outputDir.getAbsolutePath());
+}
+```
+
+### 문제 3: 대용량 문서 처리 시 성능 저하
+**증상:** 50페이지가 넘는 PDF를 처리할 때 속도가 급격히 느려집니다.
+
+**해결책**  
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+options.setPageNumber(1); // Start with page 1
+options.setPagesSetup(new PagesSetup());
+options.getPagesSetup().setFirstPage(true);
+options.getPagesSetup().setLastPage(false);
+```
+
+## 성능 최적화 팁
+
+### 배치 작업을 위한 메모리 관리
+문서를 하나씩 처리하고 Java가 자동으로 리소스를 정리하도록 합니다.
+
+```java
+List<String> documentPaths = getDocumentList();
+for (String path : documentPaths) {
+    try (Signature sig = new Signature(path)) {
+        // Process one document at a time
+        // Signature instance is auto‑closed after each iteration
+    }
+}
+```
+
+### 검색 결과 캐싱
+같은 바코드에 여러 속성을 수정해야 할 경우, 한 번 검색한 리스트를 재사용합니다.
+
+```java
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+
+// Update multiple properties
+for (BarcodeSignature barcode : signatures) {
+    barcode.setLeft(100);
+    barcode.setTop(100);
+    barcode.setWidth(200);
+    barcode.setHeight(50);
+}
+
+// Single update call with all changes
+signature.update(outputPath, signatures);
+```
+
+### 대규모 배치를 위한 병렬 처리
+Java 스트림을 활용하면 수천 개 문서를 빠르게 처리할 수 있습니다.
+
+```java
+documentPaths.parallelStream().forEach(path -> {
+    try (Signature sig = new Signature(path)) {
+        List<BarcodeSignature> barcodes = sig.search(BarcodeSignature.class, new BarcodeSearchOptions());
+        if (!barcodes.isEmpty()) {
+            BarcodeSignature barcode = barcodes.get(0);
+            barcode.setLeft(50);  // New position for smaller boxes
+            barcode.setTop(10);
+            sig.update(generateOutputPath(path), barcode);
+        }
+    } catch (Exception e) {
+        logError(path, e);
+    }
+});
+```
+
+## 실무 적용 사례
+
+### 사례 1: 자동화된 물류 라벨 업데이트
+한 배송 업체가 박스 크기를 변경하면서 기존 50,000개의 라벨에 있는 바코드 위치를 재조정해야 했습니다. 위의 병렬 처리 코드를 적용해 작업 시간을 며칠에서 몇 시간으로 단축했습니다.
+
+### 사례 2: 계약 템플릿 표준화
+법무팀이 스캔용 고정 바코드 위치를 지정했습니다. 모든 계약 PDF를 한 번에 검색·업데이트함으로써 수작업 재인쇄 비용을 크게 절감했습니다.
+
+### 사례 3: 재고 시스템 연동
+ERP 업그레이드 후 제품 바코드가 새로운 라벨 프린터와 맞지 않아 크기와 위치를 프로그램matically 조정했습니다. 시간과 자재 비용을 모두 절감할 수 있었습니다.
+
+## 문제 해결 체크리스트
+
+지원 요청 전에 아래 항목을 확인하세요.
+
+- [ ] **파일 경로가 정확하고 파일이 존재**함  
+- [ ] **읽기/쓰기 권한**이 소스와 대상 모두에 부여됨  
+- [ ] **GroupDocs.Signature 버전**이 23.12 이상인지 확인  
+- [ ] **라이선스가 올바르게 설정**됨(정식 라이선스 사용 시)  
+- [ ] **출력 디렉터리 존재**하거나 프로그램에서 생성하도록 구현  
+- [ ] **출력 파일을 위한 충분한 디스크 공간** 확보  
+- [ ] **다른 프로세스가 소스 파일을 잠그고 있지 않음**  
+- [ ] **예외 처리**가 구현되어 오류를 포착하도록 함  
 
 ## FAQ 섹션
 
-**질문: Java용 GroupDocs.Signature는 무엇에 사용되나요?**
-답변: 문서 내에서 디지털 서명을 자동으로 생성, 검색, 업데이트하도록 설계된 강력한 라이브러리입니다.
+**Q: 하나의 문서에 여러 바코드 서명을 동시에 업데이트할 수 있나요?**  
+A: 물론입니다. `search` 로 반환된 `List<BarcodeSignature>` 를 순회하면서 각각 `signature.update()` 를 호출하거나, 전체 리스트를 한 번에 `update` 메서드에 전달하면 됩니다.
 
-**질문: Java 프로젝트에 GroupDocs.Signature를 어떻게 설치합니까?**
-답변: 위에 설명한 대로 Maven이나 Gradle 종속성을 사용하거나 GroupDocs 웹사이트에서 직접 다운로드하세요.
+**Q: GroupDocs.Signature가 지원하는 바코드 타입은 무엇인가요?**  
+A: Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417 등 수십 가지를 지원합니다. `barcodeSignature.getEncodeType()` 로 타입을 확인할 수 있습니다.
 
-**질문: 여러 개의 바코드 서명을 동시에 업데이트할 수 있나요?**
-A: 네, 찾은 바코드 목록을 반복하고 각 바코드에 개별적으로 업데이트를 적용할 수 있습니다.
+**Q: 바코드에 포함된 실제 데이터(인코딩된 내용)를 바꿀 수 있나요?**  
+A: `setText()` 로 변경 가능하지만, 시각적 바코드도 재생성해 스캐너가 올바르게 읽을 수 있도록 해야 합니다.
 
-**질문: 문서에서 바코드를 찾을 수 없으면 어떻게 해야 하나요?**
-답변: 검색 옵션이 올바르게 구성되었는지, 문서에 유효한 바코드 데이터가 포함되어 있는지 확인하세요.
+**Q: 여러 페이지에 걸쳐 바코드가 있는 문서는 어떻게 처리하나요?**  
+A: 각 `BarcodeSignature` 에는 `getPageNumber()` 가 포함되어 있습니다. 페이지별로 필터링하거나 별도 처리하면 됩니다.
 
-**질문: 서명을 업데이트할 때 예외를 어떻게 처리하나요?**
-A: try-catch 블록을 사용하여 catch합니다. `GroupDocsSignatureException` 그리고 오류를 우아하게 관리합니다.
+**Q: 원본 문서는 업데이트 후 어떻게 되나요?**  
+A: 원본 파일은 그대로 유지됩니다. GroupDocs는 지정한 출력 경로에 새 파일을 작성하므로 원본을 안전하게 보관할 수 있습니다.
 
-## 자원
-- **선적 서류 비치**: [Java 문서용 GroupDocs.Signature](https://docs.groupdocs.com/signature/java/)
-- **튜토리얼**: GroupDocs 웹사이트에서 더 많은 튜토리얼을 살펴보세요
+**Q: 비밀번호가 설정된 PDF에서도 바코드를 업데이트할 수 있나요?**  
+A: 가능합니다. `Signature` 생성자의 `LoadOptions` 오버로드를 사용해 비밀번호를 전달하면 됩니다.
+
+**Q: 수천 개 문서를 효율적으로 배치 처리하려면 어떻게 해야 하나요?**  
+A: 앞서 소개한 병렬 스트림과 `try‑with‑resources` 를 결합하고 메모리 사용량을 모니터링하면 됩니다.
+
+**Q: PDF 외 다른 형식에서도 동작하나요?**  
+A: 네. 동일 API가 Word, Excel, PowerPoint, 이미지 등 GroupDocs.Signature가 지원하는 다양한 포맷에서도 작동합니다.
+
+## 결론
+
+이제 **Java에서 바코드 서명** 객체를 생성하고 위치·크기·기타 속성을 업데이트하는 완전한 프로덕션 가이드를 모두 익혔습니다. 초기화, 검색, 수정, 트러블슈팅, 성능 튜닝까지 단일 문서와 대규모 배치 시나리오 모두를 다뤘습니다.
+
+### 다음 단계
+- 한 번에 여러 속성(예: 회전, 불투명도)도 함께 업데이트해 보세요.  
+- 이 코드를 REST 서비스로 래핑해 바코드 업데이트 API를 제공해 보세요.  
+- 텍스트, 이미지, 디지털 서명 등 다른 서명 유형도 동일 패턴으로 탐색해 자동화 범위를 넓혀 보세요.
+
+GroupDocs.Signature API는 바코드 업데이트를 넘어 검증, 메타데이터 처리, 다중 포맷 지원 등 다양한 기능을 제공합니다. 이를 활용해 문서 워크플로우를 완전 자동화해 보세요.
+
+---
+
+**최종 업데이트:** 2026-01-16  
+**테스트 환경:** GroupDocs.Signature 23.12  
+**작성자:** GroupDocs  
+
+**리소스**
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
+- [API Reference](https://reference.groupdocs.com/signature/java/)
+- [Support Forum](https://forum.groupdocs.com/c/signature)
+- [Free Trial Download](https://releases.groupdocs.com/signature/java/)

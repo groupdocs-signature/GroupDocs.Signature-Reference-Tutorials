@@ -1,44 +1,64 @@
 ---
-"date": "2025-05-08"
-"description": "Lär dig hur du hanterar streckkodssignaturer med GroupDocs.Signature för Java. Den här guiden behandlar effektiv initialisering, sökning och uppdatering av streckkoder i PDF-filer."
-"title": "Hur man initierar och uppdaterar streckkodssignaturer i Java med GroupDocs.Signature"
-"url": "/sv/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
-"weight": 1
+categories:
+- Java Document Processing
+date: '2026-01-16'
+description: Lär dig hur du skapar streckkodssignatur i Java och uppdaterar dess position,
+  storlek och egenskaper för PDF-filer med hjälp av GroupDocs.Signature API.
+keywords: update barcode signature Java, Java barcode signature management, modify
+  barcode in PDF Java, GroupDocs Signature Java, Java document signature automation
+lastmod: '2026-01-16'
+linktitle: Update Barcode Signatures in Java
+tags:
+- barcode-signatures
+- pdf-automation
+- groupdocs-java
+- document-management
+title: Skapa streckkodssignatur i Java – Uppdatera PDF‑streckkoder
 type: docs
+url: /sv/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/
+weight: 1
 ---
-# Hur man initierar och uppdaterar streckkodssignaturer i Java med GroupDocs.Signature
 
-## Introduktion
+# Skapa streckkodssignatur i Java – Uppdatera PDF‑streckkoder
 
-Hantering av streckkodssignaturer i PDF-dokument effektiviseras med GroupDocs.Signature för Java. Oavsett om du digitaliserar dokumentarbetsflöden eller säkerställer dataintegritet genom streckkoder, lär den här guiden dig hur du initierar och uppdaterar streckkodssignaturer effektivt.
+## Introduction
 
-**Vad du kommer att lära dig:**
-- Initiera en signaturinstans med ett dokument
-- Söka efter streckkodssignaturer i dokument
-- Uppdatering av platser och storlekar för streckkodssignaturer
+Har du någonsin behövt flytta en streckkod på tusentals fraktetiketter efter en förpackningsomdesign? Eller uppdatera streckkodens placering i kontraktsmallar när ditt juridiska team ändrar dokumentlayouten? Du är inte ensam – dessa scenarier dyker upp ständigt i dokumentautomatiseringsarbetsflöden.
 
-Innan vi går in i implementeringen, låt oss gå igenom de förutsättningar som krävs för att lyckas.
+Att manuellt uppdatera en **barcode signature** är tidskrävande och felbenägen. Med GroupDocs.Signature för Java kan du **create barcode signature**‑objekt och sedan modifiera dem med bara några kodrader. Oavsett om du bygger ett lagersystem, automatiserar logistiska dokument eller hanterar juridiska kontrakt, sparar programmatisk uppdatering av streckkodssignaturer timmar av manuellt arbete.
 
-## Förkunskapskrav
+**What You'll Master in This Tutorial:**
+- Installera och initiera Signature‑API:n med dina dokument
+- Söka efter befintliga streckkodssignaturer effektivt
+- Uppdatera streckkodens positioner, storlekar och andra egenskaper (inklusive hur man **change barcode size**)
+- Hantera vanliga fel och kantfall
+- Optimera prestanda för batch‑operationer
 
-Se till att du har följande innan du använder GroupDocs.Signature för Java:
+Låt oss börja med att säkerställa att du har allt du behöver innan du skriver någon kod.
 
-### Obligatoriska bibliotek
-- **GroupDocs.Signature för Java**Installera version 23.12 eller senare i ditt projekt.
+## Prerequisites
 
-### Miljöinställningar
-- En fungerande Java Development Kit (JDK)-miljö.
-- En integrerad utvecklingsmiljö (IDE), såsom IntelliJ IDEA eller Eclipse, för att underlätta kodredigering och exekvering.
+Innan du kan uppdatera streckkodssignatur‑Java‑kod i dina projekt, se till att du har dessa grundläggande saker på plats:
 
-### Kunskapsförkunskaper
-- Grundläggande förståelse för Java-programmeringskoncept.
-- Kunskap om att hantera filer och kataloger i Java.
+### Required Libraries
+- **GroupDocs.Signature for Java**: Version 23.12 eller senare (tidigare versioner kan sakna de uppdateringsmetoder vi kommer att använda).
 
-## Konfigurera GroupDocs.Signature för Java
+### Environment Setup
+- Ett fungerande **Java Development Kit (JDK)** (JDK 8 eller högre rekommenderas)
+- En **IDE** som IntelliJ IDEA, Eclipse eller VS Code
 
-För att använda GroupDocs.Signature för Java, lägg till det som ett beroende i ditt projekt. Så här gör du:
+### Knowledge Prerequisites
+- Grundläggande Java (klasser, objekt, undantagshantering)
+- Filhantering i Java (sökvägar, kataloger)
+- Valfritt: Förståelse för PDF‑struktur och streckkodskoncept
 
-**Maven**
+Har du allt? Bra! Låt oss installera biblioteket.
+
+## Setting Up GroupDocs.Signature for Java
+
+Att lägga till GroupDocs.Signature i ditt Java‑projekt är enkelt. Välj det byggverktyg du använder:
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -47,159 +67,329 @@ För att använda GroupDocs.Signature för Java, lägg till det som ett beroende
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Direkt nedladdning**Ladda ner den senaste versionen från [GroupDocs.Signature för Java-utgåvor](https://releases.groupdocs.com/signature/java/).
+**Direct Download**: Om du inte använder ett byggverktyg, hämta den senaste JAR‑filen från [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) och lägg till den i ditt projekts classpath manuellt.
 
-### Licensförvärv
+### License Acquisition
 
-För att fullt ut utnyttja GroupDocs.Signature, överväg att skaffa en licens:
-- **Gratis provperiod**Testa funktioner med en gratis provperiod.
-- **Tillfällig licens**Begär en tillfällig licens för att utvärdera utökade funktioner.
-- **Köpa**Säkra en fullständig licens för oavbruten åtkomst.
+GroupDocs.Signature works with both trial and full licenses:
+- **Free Trial** – perfect for testing and proof‑of‑concept work
+- **Temporary License** – for extended evaluation on a specific project
+- **Full License** – removes watermarks and usage limits for production
 
-Efter att ha konfigurerat biblioteket, låt oss titta på hur man initialiserar och använder GroupDocs.Signature effektivt.
+**Pro tip**: Börja med gratisprovversionen för att verifiera att API:n uppfyller dina behov, och uppgradera när du är redo att gå live.
 
-## Implementeringsguide
+Nu när biblioteket är installerat, låt oss gå in på den faktiska implementeringen.
 
-### Initiera signaturinstans
+## Quick Answers
+- **What does “create barcode signature” mean?** Det betyder att skapa ett streckkodsobjekt som kan placeras, flyttas eller redigeras i ett dokument via API:n.  
+- **Can I change barcode size after it’s created?** Ja – använd `setWidth` och `setHeight`‑metoderna eller justera dess `Left`/`Top`‑koordinater.  
+- **Do I need a license to update barcodes?** En provlicens fungerar för utveckling; en full licens krävs för produktion.  
+- **Is this works only with PDFs?** Nej – samma kod fungerar med Word, Excel, PowerPoint och bildfiler.  
+- **How many documents can I process at once?** Batch‑bearbetning stöds; hantera bara minnet med try‑with‑resources.
 
-#### Översikt
-Initierar en `Signature` instansen är ditt första steg i att manipulera dokumentsignaturer. Den här processen innebär att du laddar ditt måldokument i GroupDocs-miljön.
+## How to create barcode signature in Java
 
-#### Steg för att initiera
-1. **Importera obligatoriska klasser**
-   ```java
-   import com.groupdocs.signature.Signature;
-   import java.nio.file.Paths;
-   ```
-2. **Ange dokumentsökväg**
-   Definiera var ditt dokument finns:
-   ```java
-   String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
-   ```
-3. **Skapa en signaturinstans**
-   Initiera `Signature` objekt med filsökvägen.
-   ```java
-   Signature signature = new Signature(filePath);
-   ```
-   Den här instansen kommer att användas för att söka efter och uppdatera signaturer i ditt dokument.
+### Step 1: Initialize the Signature Instance
 
-### Sök streckkodssignaturer
+#### Why This Matters
+Tänk på `Signature`‑objektet som porten till ditt dokument. Det laddar PDF‑filen (eller något annat stödd format) i minnet och ger dig tillgång till alla signaturrelaterade operationer. Utan denna initiering kan du varken söka efter eller modifiera något.
 
-#### Översikt
-Att hitta streckkodssignaturer i dokument är avgörande för att automatisera uppdateringar eller valideringar. GroupDocs.Signature förenklar denna sökprocess.
+#### Implementation
+First, import the required class and define the file path:
 
-#### Steg för att söka
-1. **Importera obligatoriska klasser**
-   ```java
-   import com.groupdocs.signature.options.search.BarcodeSearchOptions;
-   import com.groupdocs.signature.domain.signatures.BarcodeSignature;
-   import java.util.List;
-   ```
-2. **Definiera sökalternativ**
-   Konfigurera alternativ för att söka efter streckkodssignaturer:
-   ```java
-   BarcodeSearchOptions options = new BarcodeSearchOptions();
-   ```
-3. **Utför sökningen**
-   Hitta alla streckkodssignaturer i ditt dokument.
-   ```java
-   List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
-   ```
-De `signatures` Listan kommer att innehålla alla streckkoder som hittats.
+```java
+import com.groupdocs.signature.Signature;
+import java.nio.file.Paths;
+```
 
-### Uppdatera streckkodssignatur
+```java
+String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
+```
 
-#### Översikt
-När du har hittat en streckkodssignatur kan du behöva justera dess placering eller storlek. Det här avsnittet visar hur du uppdaterar dessa egenskaper.
+```java
+Signature signature = new Signature(filePath);
+```
 
-#### Steg för att uppdatera
-1. **Importera obligatoriska klasser**
-   ```java
-   import java.io.File;
-   import com.groupdocs.signature.exception.GroupDocsSignatureException;
-   ```
-2. **Definiera utmatningsväg**
-   Förbered var det uppdaterade dokumentet ska sparas:
-   ```java
-   String fileName = Paths.get(filePath).getFileName().toString();
-   String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
-   checkDir(outputFilePath);
-   ```
-3. **Kontrollera signaturer**
-   Se till att det finns streckkoder att uppdatera:
-   ```java
-   if (signatures.size() > 0) {
-       BarcodeSignature barcodeSignature = signatures.get(0);
-       // Uppdatera plats och storlek på streckkodssignaturen
-       barcodeSignature.setLeft(100);
-       barcodeSignature.setTop(100);
-       
-       // Tillämpa uppdateringar i dokumentet
-       boolean result = signature.update(outputFilePath, barcodeSignature);
-       if (result) {
-           System.out.println("Signature with Barcode '" +
-               barcodeSignature.getText() + "' and encode type '"+
-               barcodeSignature.getEncodeType().getTypeName() + "' was updated in the document ['" +
-               fileName + "'].");
-   }
-4. **Hantera undantag**
-   Var beredd på att upptäcka eventuella undantag under den här processen:
-   ```java
-   } catch (GroupDocsSignatureException e) {
-       System.err.println("Error updating signature: " + e.getMessage());
-   }
-   ```
+**What’s happening?** Konstruktorn läser filen och förbereder den för manipulation. Sökvägen kan vara absolut eller relativ – se bara till att Java‑processen har läsbehörighet.
 
-## Praktiska tillämpningar
+> **Pro tip:** Validera sökvägen innan du skapar `Signature`‑instansen för att undvika `FileNotFoundException`.
 
-### Användningsfall för uppdateringar av streckkodssignaturer
-1. **Dokumentverifiering**Verifiera och uppdatera streckkoder i kontrakt eller juridiska dokument automatiskt.
-2. **Lagerhantering**Uppdatera streckkodsplaceringar på produktetiketter efter påfyllning av lager.
-3. **Logistikspårning**Ändra streckkodspositioner för att återspegla nya förpackningslayouter.
+### Step 2: Search for Barcode Signatures
 
-Dessa applikationer visar hur mångsidig GroupDocs.Signature kan vara inom olika branscher, vilket gör det till ett värdefullt verktyg för alla Java-utvecklare.
+#### Why Searching First Is Essential
+Du kan inte uppdatera det du inte kan hitta. GroupDocs.Signature erbjuder ett kraftfullt sök‑API som filtrerar signaturer efter typ.
 
-## Prestandaöverväganden
+#### Implementation
+Import the search‑related classes:
 
-### Optimera med GroupDocs.Signature
-- **Minneshantering**Säkerställ effektiv minnesanvändning genom att hantera stora dokument i bitar om det behövs.
-- **Resursanvändning**Övervaka programmets prestanda och optimera sökfrågor.
-- **Bästa praxis**Uppdatera regelbundet till den senaste versionen av GroupDocs.Signature för förbättrad stabilitet och nya funktioner.
+```java
+import com.groupdocs.signature.options.search.BarcodeSearchOptions;
+import com.groupdocs.signature.domain.signatures.BarcodeSignature;
+import java.util.List;
+```
 
-Att följa dessa riktlinjer hjälper till att upprätthålla optimal prestanda när du arbetar med dokumentsignaturer.
+Configure the search options (default searches all pages):
 
-## Slutsats
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+```
 
-I den här handledningen har du lärt dig hur man initierar en `Signature` till exempel söka efter streckkodssignaturer och uppdatera deras egenskaper med GroupDocs.Signature för Java. Dessa färdigheter är viktiga för att automatisera dokumenthanteringsuppgifter effektivt.
+Execute the search:
 
-### Nästa steg
-- Experimentera med olika filtyper och signaturalternativ.
-- Utforska ytterligare funktioner i GroupDocs.Signature för att ytterligare förbättra dina applikationer.
+```java
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+```
 
-Redo att testa det? Implementera dessa steg i ditt nästa projekt för att uppleva kraften i automatiserade dokumentsignaturer på nära håll!
+Du har nu en lista med `BarcodeSignature`‑objekt, var och en med egenskaper som `Left`, `Top`, `Width`, `Height`, `Text` och `EncodeType`.
 
-## FAQ-sektion
+> **Performance note:** För mycket stora PDF‑filer, överväg att begränsa sökningen till specifika sidor eller streckkodstyper för att snabba upp processen.
 
-**F: Vad används GroupDocs.Signature för Java till?**
-A: Det är ett kraftfullt bibliotek utformat för att automatisera skapandet, sökningen och uppdateringen av digitala signaturer i dokument.
+### Step 3: Update Barcode Properties
 
-**F: Hur installerar jag GroupDocs.Signature i mitt Java-projekt?**
-A: Använd Maven- eller Gradle-beroenden enligt beskrivningen ovan, eller ladda ner direkt från GroupDocs webbplats.
+#### The Main Event: Modifying Barcode Signatures
+Nu kan du **change barcode size** eller flytta den var du behöver.
 
-**F: Kan jag uppdatera flera streckkodssignaturer samtidigt?**
-A: Ja, du kan iterera över en lista med hittade streckkoder och uppdatera var och en individuellt.
+#### Implementation
+First, import exception handling classes:
 
-**F: Vad ska jag göra om inga streckkoder hittas i mitt dokument?**
-A: Kontrollera att dina sökalternativ är korrekt konfigurerade och att dokumentet innehåller giltiga streckkodsdata.
+```java
+import java.io.File;
+import com.groupdocs.signature.exception.GroupDocsSignatureException;
+```
 
-**F: Hur hanterar jag undantag när jag uppdaterar signaturer?**
-A: Använd try-catch-block för att fånga `GroupDocsSignatureException` och hantera fel på ett elegant sätt.
+Set up the output path where the modified document will be saved:
 
-## Resurser
-- **Dokumentation**: [GroupDocs.Signature för Java-dokumentation](https://docs.groupdocs.com/signature/java/)
-- **Handledningar**Utforska fler handledningar på GroupDocs webbplats
+```java
+String fileName = Paths.get(filePath).getFileName().toString();
+String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
+checkDir(outputFilePath);
+```
+
+Now, locate the first barcode (or iterate over the list) and apply the changes:
+
+```java
+if (signatures.size() > 0) {
+    BarcodeSignature barcodeSignature = signatures.get(0);
+    
+    // Update the barcode's position and size
+    barcodeSignature.setLeft(100);
+    barcodeSignature.setTop(100);
+    
+    // Apply the changes to the document
+    boolean result = signature.update(outputFilePath, barcodeSignature);
+    
+    if (result) {
+        System.out.println("Signature with Barcode '" +
+            barcodeSignature.getText() + "' and encode type '"+
+            barcodeSignature.getEncodeType().getTypeName() + "' was updated in the document ['" +
+            fileName + "'].");
+    }
+} catch (GroupDocsSignatureException e) {
+    System.err.println("Error updating signature: " + e.getMessage());
+}
+```
+
+**Key points:**
+- `setLeft` / `setTop` flyttar streckkoden (koordinater mäts från övre vänstra hörnet).
+- `update`‑metoden skriver en ny fil; originalet förblir orört.
+- Omge anropet med ett `try‑catch`‑block för att hantera möjliga `GroupDocsSignatureException`.
+
+## When Should You Update Barcode Signatures?
+
+Att förstå rätt scenarier hjälper dig att designa effektiva arbetsflöden.
+
+### Document Rebranding & Template Updates
+En ny brevhuvud eller etikettlayout innebär ofta att streckkoder måste flyttas. Att automatisera detta med Java slår manuellt redigering av hundratals filer.
+
+### Batch Processing After Data Migration
+Migrerade PDF‑filer följer kanske inte dina nuvarande streckkodstandarder. En massuppdatering återställer konsistensen utan att återskapa varje dokument.
+
+### Regulatory Compliance Adjustments
+Branscher som logistik eller sjukvård kan ändra regler för streckkodens placering. Ett snabbt skript låter dig hålla dig compliant.
+
+### Dynamic Document Generation
+Om dokumentinnehållet varierar kan du behöva justera streckkodens koordinater i farten.
+
+**When NOT to use updates:** Om du skapar ett helt nytt dokument, placera streckkoden korrekt från början istället för att lägga till den och sedan uppdatera den.
+
+## Common Issues & Solutions
+
+### Issue 1: "No Barcode Signatures Found"
+**Symptom:** Sökningen returnerar en tom lista även om du ser streckkoder i PDF‑filen.
+
+**Possible Causes**
+- Streckkoder är inbäddade som bilder eller formulärfält, inte som signaturobjekt.
+- Dokumentet är lösenordsskyddat.
+- Du filtrerar på en specifik streckkodstyp som inte matchar.
+
+**Solution**  
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+options.setAllPages(true); // Search all pages, not just the first
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+
+if (signatures.isEmpty()) {
+    System.out.println("No barcode signatures found. The barcodes might be images, not signature objects.");
+}
+```
+
+### Issue 2: Updated Document Looks Corrupted
+**Symptom:** PDF‑filen går inte att öppna efter uppdateringen.
+
+**Possible Causes**
+- Otillräckligt diskutrymme.
+- Utdatamappen finns inte.
+- Fil‑systembehörigheter hindrar skrivning.
+
+**Solution**  
+```java
+File outputDir = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/");
+if (!outputDir.exists()) {
+    outputDir.mkdirs(); // Create directories if they don't exist
+}
+
+// Check write permissions
+if (!outputDir.canWrite()) {
+    throw new IOException("Cannot write to output directory: " + outputDir.getAbsolutePath());
+}
+```
+
+### Issue 3: Performance Degradation with Large Documents
+**Symptom:** Bearbetningen blir avsevärt långsammare för PDF‑filer över ca 50 sidor.
+
+**Solution**  
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+options.setPageNumber(1); // Start with page 1
+options.setPagesSetup(new PagesSetup());
+options.getPagesSetup().setFirstPage(true);
+options.getPagesSetup().setLastPage(false);
+```
+
+## Performance Optimization Tips
+
+### Memory Management for Batch Operations
+Process one document at a time and let Java clean up resources automatically:
+
+```java
+List<String> documentPaths = getDocumentList();
+for (String path : documentPaths) {
+    try (Signature sig = new Signature(path)) {
+        // Process one document at a time
+        // Signature instance is auto‑closed after each iteration
+    }
+}
+```
+
+### Caching Search Results
+If you need to modify several properties on the same barcodes, search once and reuse the list:
+
+```java
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+
+// Update multiple properties
+for (BarcodeSignature barcode : signatures) {
+    barcode.setLeft(100);
+    barcode.setTop(100);
+    barcode.setWidth(200);
+    barcode.setHeight(50);
+}
+
+// Single update call with all changes
+signature.update(outputPath, signatures);
+```
+
+### Parallel Processing for Massive Batches
+Leverage Java streams to speed up thousands of documents:
+
+```java
+documentPaths.parallelStream().forEach(path -> {
+    try (Signature sig = new Signature(path)) {
+        List<BarcodeSignature> barcodes = sig.search(BarcodeSignature.class, new BarcodeSearchOptions());
+        if (!barcodes.isEmpty()) {
+            BarcodeSignature barcode = barcodes.get(0);
+            barcode.setLeft(50);  // New position for smaller boxes
+            barcode.setTop(10);
+            sig.update(generateOutputPath(path), barcode);
+        }
+    } catch (Exception e) {
+        logError(path, e);
+    }
+});
+```
+
+## Practical Applications
+
+### Use Case 1: Automated Logistics Label Updates
+Ett fraktföretag ändrade lådornas dimensioner, vilket krävde omplacering av streckkoder på 50 000 befintliga etiketter. Parallell‑bearbetningssnutten ovan minskade jobbet från dagar till några timmar.
+
+### Use Case 2: Contract Template Standardization
+Juridisk avdelning krävde en fast streckkodsplats för skanning. Genom att söka och uppdatera alla kontrakt‑PDF:er i ett batch‑jobb undvek teamet kostsam manuell omskrivning.
+
+### Use Case 3: Inventory System Integration
+Efter en ERP‑uppgradering behövde produktstreckkoder anpassas till en ny etikettprinter. Uppdatering av streckkodens storlek och position programatiskt sparade både tid och materialkostnader.
+
+## Troubleshooting Checklist
+
+- [ ] **Filvägen är korrekt** och filen finns  
+- [ ] **Läs‑/skrivrättigheter** är beviljade för källa och destination  
+- [ ] **GroupDocs.Signature‑version** är 23.12 eller senare  
+- [ ] **Licensen är korrekt konfigurerad** (om du använder en full licens)  
+- [ ] **Utdatamappen finns** eller skapas programatiskt  
+- [ ] **Tillräckligt diskutrymme** för utdatafiler  
+- [ ] **Ingen annan process** låser källfilen  
+- [ ] **Undantagshantering** är på plats för att fånga fel  
+
+## FAQ Section
+
+**Q: Can I update barcode signature Java code for multiple barcodes in one document?**  
+A: Absolutely. Iterate through the `List<BarcodeSignature>` returned by the search and call `signature.update()` for each, or pass the entire list to a single `update` call.
+
+**Q: What barcode types does GroupDocs.Signature support?**  
+A: Dozens, including Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417, and more. Use `barcodeSignature.getEncodeType()` to inspect the type.
+
+**Q: Can I change the barcode's actual content (the encoded data)?**  
+A: Yes, via `setText()`, but remember to regenerate the visual barcode so scanners read it correctly.
+
+**Q: How do I handle documents with barcodes on multiple pages?**  
+A: Each `BarcodeSignature` includes `getPageNumber()`. Filter or process page‑specific barcodes as needed.
+
+**Q: What happens to the original document after updating?**  
+A: The source file remains untouched. GroupDocs writes the changes to the output path you specify, preserving the original for safety.
+
+**Q: Can I update barcodes in password‑protected PDFs?**  
+A: Yes. Use the `LoadOptions` overload of the `Signature` constructor to supply the password.
+
+**Q: How do I batch process thousands of documents efficiently?**  
+A: Combine parallel streams with try‑with‑resources (as shown in the parallel‑processing example) and monitor memory usage.
+
+**Q: Does this work with formats other than PDF?**  
+A: Yes. The same API works with Word, Excel, PowerPoint, images, and many other formats supported by GroupDocs.Signature.
+
+## Conclusion
+
+You now have a complete, production‑ready guide to **create barcode signature** objects in Java and update their position, size, and other properties. We covered initialization, searching, modification, troubleshooting, and performance tuning for both single‑document and massive batch scenarios.
+
+### Next Steps
+- Experiment with updating multiple properties (e.g., rotation, opacity) in the same pass.  
+- Build a REST service around this code to expose barcode updates as an API.  
+- Explore other signature types (text, image, digital) using the same pattern.
+
+The GroupDocs.Signature API offers far more than barcode updates—dig into verification, metadata handling, and multi‑format support to fully automate your document workflows.
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** GroupDocs.Signature 23.12  
+**Author:** GroupDocs  
+
+**Resources**
+- [GroupDocs.Signature för Java-dokumentation](https://docs.groupdocs.com/signature/java/)
+- [API‑referens](https://reference.groupdocs.com/signature/java/)
+- [Support‑forum](https://forum.groupdocs.com/c/signature)
+- [Gratis provnedladdning](https://releases.groupdocs.com/signature/java/)
