@@ -1,42 +1,77 @@
 ---
-"date": "2025-05-08"
-"description": "了解如何使用 GroupDocs.Signature 管理 Java 條碼簽章。本指南涵蓋文件中簽名的初始化、搜尋和刪除。"
-"title": "使用 GroupDocs.Signature 實現高效的 Java 條碼簽章管理"
-"url": "/zh-hant/java/barcode-signatures/java-barcode-signature-management-groupdocs-signature/"
-"weight": 1
+categories:
+- Java Development
+date: '2026-01-23'
+description: 了解如何在 Java 中使用 GroupDocs.Signature 管理條碼簽名。提供逐步指南與程式碼範例，說明如何在文件中搜尋、驗證及刪除簽名。
+keywords: manage barcode signatures java, Java electronic signature library, delete
+  barcode from PDF Java, search barcode signatures Java, GroupDocs.Signature Java
+  tutorial
+lastmod: '2026-01-23'
+linktitle: Manage Barcode Signatures in Java
+tags:
+- barcode-signatures
+- document-management
+- java-libraries
+- electronic-signatures
+title: 如何在 Java 中管理條碼簽名
 type: docs
+url: /zh-hant/java/barcode-signatures/java-barcode-signature-management-groupdocs-signature/
+weight: 1
 ---
-# 使用 GroupDocs.Signature 實現高效的 Java 條碼簽章管理
 
-在數位時代，高效管理電子簽名對企業和個人都至關重要。無論您是驗證協議還是保護文檔，使用合適的工具都能顯著提高工作效率。 **GroupDocs.Signature for Java** 是一個功能強大的庫，旨在簡化這些流程。本教學將指導您初始化簽名物件、搜尋條碼簽名以及從文件中刪除它們。
+# 如何在 Java 中管理條碼簽名
 
-## 您將學到什麼
-- 如何初始化 `Signature` 具有 GroupDocs.Signature 的物件。
-- 在文件中搜尋條碼簽名的技術。
-- 刪除特定條碼簽名的步驟。
-- 有效使用 GroupDocs.Signature 的效能最佳化技巧。
+曾經花了好幾個小時嘗試以程式方式驗證已簽署的文件，結果卻要與那些不是為簽名管理設計的 PDF 函式庫糾纏不清嗎？你並條碼簽名——在構建文件工作流程時常常是一大痛點。
 
-準備好深入了解 Java 條碼簽章管理了嗎？讓我們先設定您的環境，並探索 GroupDocs.Signature 的各項功能，使其成為開發人員的寶貴工具。
+事實是：大多數 Java 開發者最終要麼手動簽名。這時 **GroupDocs.Signature for Java** 就派上的全部庫時才知道的除錯技巧。
 
-## 先決條件
+## 快速回答
+- **最簡單的入門方式是什麼？** 加入 GroupDocs.Signature 的 Maven 或 Gradle 依賴，然後建立 `Signature` 物件。  
+- **我可以搜尋特定的條碼類型嗎？** 可以——`BarcodeSearchOptions` 讓你依格式（Code128、QR 等）過濾。  
+- **刪除簽名需要商業授權嗎？** 試用版可用於測試；正式上線需購買授權。  
+- **刪除簽名時會覆寫原始檔案嗎？** 不會——`delete()` 方法會產生新檔案，保留原始檔。  
+- **此方式適用於大型 PDF 嗎？** 適用，但建議使用分頁選項並視需要增加 JVM 記憶體。
 
-在開始之前，請確保您具備以下條件：
+## 你將學會
+- 如何在 Java 專案中初始化與設定 GroupDocs.Signature  
+- 在各種文件類型中搜尋條碼簽名的實用技巧  
+- 步驟式刪除特定條碼簽名的流程（以及何時避免方法  
+- 條碼簽名管理在實務情境中的重要性  
 
-### 所需庫
-- **GroupDocs.Signature for Java** 版本 23.12 或更高版本。
-  
+## 前置條件
+
+在開始之前，請確保已具備以下基礎：
+
+### 必備軟體
+- **Java Development Kit (JDK)** – 8 版或以上（建議使用 JDK 11+ 以獲得更佳效能）  
+- **GroupDocs.Signature for Java** – 23.12 版或更新版本  
+- **你慣用的 IDE** – IntelliJ IDEA、Eclipse 或搭配 Java 擴充功能的 VS Code  
+
 ### 環境設定
-- 您的機器上安裝了 Java 開發工具包 (JDK)。
-- 整合開發環境 (IDE)，如 IntelliJ IDEA 或 Eclipse。
+你需要使用 Maven 或 Gradle 這類建置工具。如果不確定該選哪一個，Maven 通常對 Java 專案較為直觀（我們的大部分範例也會使用 Maven）。
 
-### 知識前提
-- 對 Java 程式設計有基本的了解。
-- 熟悉 Maven 或 Gradle 的依賴管理。
+### 知識前置
+本教學假設你已熟悉以下內容：
+- 基本的 Java 程式概念（類別、方法、例外處理）  
+- 使用 Maven 或 Gradle 進行相依管理  
+- Java 中的基本檔案 I/O 操作  
 
-## 為 Java 設定 GroupDocs.Signature
-若要將 GroupDocs.Signature 整合到您的專案中，您可以使用 Maven 或 Gradle。操作方法如下：
+即使你是文件處函式庫的新手，也不用擔心，我們會一步步說明。
 
-**Maven**
+## 為什麼要使用專門的條碼簽名函式庫？
+
+你可能會想：*「我能不能直接用一般的 PDF 函式庫？」* 從技術上來說可以，但通常會帶來更多麻煩，原因如下解析文件結構  
+- 不同文件格式（PDF、Word、Excel）需要不同的處理方式  
+- 簽名驗證邏輯很快就會變得複雜  
+- 更新或移除簽名需要深入了解文件內部結構  
+
+**使用 GroupDocs.Signature**
+- 統一的 API 可同時支援多種文件格式  
+- 內建簽名偵測與驗定 Group 與 Gradle 的設定方式。
+
+**Maven 設定**  
+將以下相依加入你的 `pom.xml`：
+
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -45,26 +80,26 @@ type: docs
 </dependency>
 ```
 
-**Gradle**
+**Gradle 設定**  
+如果你使用 Gradle，請將以下內容加入 `build.gradle`：
+
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-或者，您可以直接從 [GroupDocs.Signature Java 版本](https://releases。groupdocs.com/signature/java/).
+**直接下載方式**  
+不使用建置工具？你可以直接從 [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) 下載 JAR，手動加入 classpath。
 
-### 許可證獲取
-- **免費試用**：造訪免費試用版來測試 GroupDocs.Signature 功能。
-- **臨時執照**：取得臨時許可證以進行延長測試。
-- **購買**：購買完整許可證以供商業使用。
+### 授權取得
 
-## 實施指南
-讓我們將實作分解為易於管理的部分，每個部分都專注於 GroupDocs.Signature 的特定功能。
+以下說明授權相關資訊：
 
-### 初始化簽名對象
-**概述：**
-初始化 `Signature` 物件是您在 Java 中管理簽名的第一步。它允許您處理文件並應用各種與簽名相關的操作。
+- **免費試用** – 適合測試與申請臨時授權以延長測試（通常 30 天）。  
+- **商業授權** –簽為什麼重要：**  
+`Signature` 物件是所有簽名操作的入口。就像打開文件編輯一樣，只有取得這個句柄才能對檔案執行任何操作。
 
 #### 步驟 1：設定檔案路徑
+
 ```java
 import com.groupdocs.signature.Signature;
 
@@ -72,19 +107,22 @@ public class InitializeSignature {
     public static void run() throws Exception {
         String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
         
-        // 使用檔案路徑建立簽名對象
+        // Create a Signature object using the file path
         final Signature signature = new Signature(filePath);
-        // 簽章物件現已準備好進行進一步的操作。
+        // The Signature object is now ready for further operations.
     }
 }
 ```
-**解釋：** 代替 `"YOUR_DOCUMENT_DIRECTORY/sample.pdf"` 替換為實際的文檔路徑。這將初始化 `Signature` 對象，為搜尋或刪除簽名等任務做好準備。
+
+將 `"YOUR_DOCUMENT_DIRECTORY/sample.pdf"` 替換為實際文件路徑。支援的格式包括 PDF、Word、Excel 等，GroupDocs 會自動偵測。
 
 ### 搜尋條碼簽名
-**概述：**
-在文件中搜尋條碼簽名對於驗證和確認過程至關重要。
 
-#### 第 2 步：配置搜尋選項
+**為什麼要這麼做：**  
+在需要驗證文件、確認真偽或擷取條碼內嵌資訊時，搜尋條碼簽名是必備步驟。此需求在發票處理、合約管理與合規工作流程中尤為常見。
+
+#### 步驟 2：設定搜尋選項
+
 ```java
 import com.groupdocs.signature.Signature;
 import com.groupdocs.signature.domain.signatures.BarcodeSignature;
@@ -96,24 +134,27 @@ public class SearchBarcodeSignatures {
         
         final Signature signature = new Signature(filePath);
         
-        // 建立條碼簽名的搜尋選項
+        // Create search options for barcode signatures
         BarcodeSearchOptions options = new BarcodeSearchOptions();
         
-        // 在文件中搜尋條碼簽名
+        // Search for barcode signatures in the document
         List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
         if (!signatures.isEmpty()) {
-            // 從‘簽名’清單中存取找到的條碼簽名。
+            // Access found barcode signatures from the 'signatures' list.
         }
     }
 }
 ```
-**解釋：** 這 `BarcodeSearchOptions` 類別配置搜尋的執行方式。請根據您的具體需求調整這些設定。
+
+`BarcodeSearchOptions` 讓你微調搜尋行為。預設會搜尋整份文件的所有條碼類型，你也可以指定特定格式、頁碼或內容。
 
 ### 刪除條碼簽名
-**概述：**
-為了更新或更正文檔，可能需要刪除特定的條碼簽名。
 
-#### 步驟3：識別並刪除簽名
+**何時需要：**  
+有時必須從文件中移除簽名——例如條碼誤植、文件需重新簽署，或是要以新簽名取代舊簽名。
+
+#### 步驟 3：定位並移除簽名
+
 ```java
 import com.groupdocs.signature.Signature;
 import com.groupdocs.signature.domain.signatures.BarcodeSignature;
@@ -133,49 +174,106 @@ public class DeleteBarcode {
             
             String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "output_sample.pdf").getPath();
             
-            // 從文件中刪除第一個找到的條碼簽名
+            // Delete the first found barcode signature from the document
             boolean result = signature.delete(outputFilePath, barcodeSignature);
             if (result) {
-                // 簽名已成功刪除。
+                // Signature successfully deleted.
             } else {
-                // 無法找到或刪除簽名。
+                // Could not find or delete the signature.
             }
         }
     }
 }
 ```
-**解釋：** 此程式碼識別並刪除找到的第一個條碼簽名。確保 `"YOUR_OUTPUT_DIRECTORY"` 設定為您想要的輸出路徑。
 
-## 實際應用
-GroupDocs.Signature 可用於各種場景，例如：
-1. **合約管理**：自動驗證已簽署的合約。
-2. **發票處理**：驗證帶有嵌入條碼的發票。
-3. **文件安全**：透過管理簽名確保文件防篡改。
-4. **與 CRM 系統集成**：透過簽章驗證功能增強客戶關係管理。
+這是一個「先搜尋再刪除」的流程。`delete()` 方法會產生 **新** 文件，且不會覆寫原始檔案，誤與避免方式
 
-## 性能考慮
-為了優化使用 GroupDocs.Signature 時的效能：
-- **記憶體管理**：有效管理 Java 記憶體以處理大型文件。
-- **批次處理**：批次處理多個文件以減少開銷。
-- **非同步操作**：利用非同步方法進行非阻塞操作。
+### 1. 檔案路徑處理不當  
+**錯誤情形：** 硬編碼路徑或未考慮不同作業系統的分隔符。  
+**解決方法：** 使用 `File.separator` 或 `Paths.get()` 以確保跨平台相容：
+
+```java
+String filePath = Paths.get("YOUR_DOCUMENT_DIRECTORY", "sample.pdf").toString();
+```
+
+### 2. 忘記關閉資源  
+**錯誤情形：** 未釋放 `Signature` 物件，導致檔案被鎖定或記憶體洩漏。  
+**解決方法：** 使用 try‑with‑resources（`Signature` 類別實作 `AutoCloseable`）：
+
+```java
+try (Signature signature = new Signature(filePath)) {
+    // Your code here
+}
+```
+
+### 3. 假設所有條碼都會被找到  
+**錯誤情形：** 未檢查搜尋結果是否為空就直接存取資料。  
+**解決方法：** 必須先驗證搜尋結果：
+
+```java
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+if (signatures.isEmpty()) {
+    System.out.println("No barcode signatures found in the document.");
+    return;
+}
+```
+
+### 4. 忽略文件格式相容性  
+**錯誤情形：** 認為每個操作都適用於所有格式。  
+**解決方法：** 參考 GroupDocs 文件中各格式的限制說明。
+
+## 除錯指南
+
+| 問題 | 症狀 | 解決方案 |
+|------|------|----------|
+| **找不到檔案** | 建立 `Signature` 時拋出 `FileNotFoundException` | 核對路徑、除錯時使用絕對路徑、確認讀取權限 |
+| **找不到簽名** | 即使條碼可見，搜尋結果仍為空列表 | 確認使用正確的 `BarcodeSearchOptions`、先測試預設選項、檢查文件是否損毀 |
+| **刪除失敗** | `delete()` 回傳 `false` | 檢查寫入權限、確保輸出檔未被其他程式佔用、 `OutOfMemoryError` | 增加 JVM 堆積 (`-發票處理自動化** – 從條碼號碼並自動分派。  
+- **文件修訂工作流程** – 在重新簽署前移除過時的條碼。  
+- **合規稽核** – 批次掃描檔案庫，確保每份文件皆帶有有效的條碼簽名。  
+
+若僅需基本的 PDF 檢視或僅使用簡易的影像條碼掃描器，則此方案的優勢較小。
+
+## 效能考量
+
+- **記憶體管理：** 針對超大檔案使用分頁 (`BarcodeSearchOptions.setPageNumber`)。  
+- **批次最佳化：** 重複使用 `BarcodeSearchOptions` 物件，並以串列或受控的執行緒池處理檔案。  
+- **I/O 效率：** 建議將來源檔放在 SSD，輸出目錄亦使用高速磁碟。
 
 ## 結論
-現在，您已經掌握了使用 GroupDocs.Signature for Java 管理條碼簽章的基礎知識。從初始化簽名物件到搜尋和刪除簽名，這些技能將提升您的文件管理能力。請繼續探索高級功能和集成，以充分利用這款強大的工具。
 
-**後續步驟：** 嘗試不同的搜尋選項並探索 GroupDocs.Signature 支援的其他簽章類型。
+現在你已掌握使用 GroupDocs.Signature 進行 **manage barcode signatures java** 的完整基礎。從函式庫初始化、條碼搜尋，到安全刪穩健文件工作1. 嘗試以條碼類型過濾（`options.setEncodeType(EncodeTypes.Code128)`）。  
+2. 探索其他簽名類型（數位、文字、QR）之 API 用法。  
+3. 參考官方 [Documentation](https://docs.groupdocs.com/signature/java/) 了解進階功能，如簽名中繼資料的處理。
 
-## 常見問題部分
-1. **如何安裝適用於 Java 的 GroupDocs.Signature？**
-   - 使用 Maven 或 Gradle 依賴項，或直接從官方網站下載。
-2. **我可以在商業項目中使用 GroupDocs.Signature 嗎？**
-   - 是的，購買商業用途許可證。
-3. **初始化簽名時有哪些常見問題？**
-   - 確保您的檔案路徑正確並且您具有存取檔案的必要權限。
-4. **如何處理多個條碼簽名？**
-   - 迭代 `signatures` 搜尋方法傳回的列表。
-5. **簽章操作對文件大小有限制嗎？**
-   - 效能可能會因文件較大而有所不同；請考慮優化您的 Java 環境以獲得更好的處理。
+祝編程愉快！
 
-## 資源
-- [文件](https://docs.groupdocs.com/signature/java/)
-- [API 參考](https://reference.groupdocs.com/signature/java/)
+## 常見問答
+
+**Q: 開發、測試、正式環境需要分別購買授權嗎？**  
+A: 開發與測試可使用免費試用版，正式環境則必須購: 能否一次搜尋多**  
+A: 每種簽名類型需要各自的 `search()` 呼叫與對應的 Options 類別，但可依序串接執行。
+
+**Q: 若嘗試刪除不存在的簽名會發生什麼？**  
+A: `delete()` 會回傳 `false`，文件保持不變，且不會拋出例外。
+
+**Q: 如何處理包含數十個條碼簽名的文件？**  
+A: `search()` 會回傳列表，於迴圈中依 `getText()` 或位置篩選，然後逐一刪除。
+
+**Q: 這套件支援受密碼保護的文件嗎？**  
+A: 支援。使用接受文件密碼的 `Signature` 建構子即可。
+
+**Q: 可以在 Spring Boot 網路服務中使用嗎？**  
+A: 完全可以。此函式庫純 Java 實作，使用時只需注意 JVM 堆積大小與多執行緒安全性。
+
+---
+
+**最後更新：** 2026-01-23  
+**測試環境：** GroupDocs.Signature 23.12 for Java  
+**作者：** GroupDocs  
+
+**資源**  
+- [Documentation](https/java/)  
+- [API Reference](https://reference.groupdocs.com/signature/java/)  
+- [Support Forum](https://forum.groupdocs.com/c/signature)  
+- [Free Trial Download](https://releases.groupdocs.com/signature/java/)
