@@ -1,47 +1,55 @@
 ---
-title: "How to Search Barcodes in PDF Using Java"
+title: "How to extract QR code from PDF using Java – Search Barcodes with GroupDocs.Signature"
 linktitle: "Search PDF Barcodes Java"
-description: "Master barcode detection in PDFs with Java and GroupDocs.Signature. Step-by-step tutorial with code examples, troubleshooting, and real-world use cases."
+description: "Learn how to extract QR code from PDF using Java and GroupDocs.Signature. Step‑by‑step tutorial with code examples, troubleshooting, and real‑world use cases."
 keywords: "search barcodes in PDF Java, Java barcode verification PDF, GroupDocs barcode search tutorial, extract barcode data from PDF Java, Java PDF barcode scanner"
 weight: 1
 url: "/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/"
-date: "2025-01-02"
-lastmod: "2025-01-02"
+date: "2026-01-26"
+lastmod: "2026-01-26"
 categories: ["Java Development", "Document Processing"]
 tags: ["barcode-search", "pdf-processing", "groupdocs", "java-tutorial", "document-verification"]
 type: docs
 ---
-# How to Search Barcodes in PDF Using Java
+
+# How to extract QR code from PDF using Java
 
 ## Introduction
 
-Ever needed to extract barcode information from hundreds of PDF invoices, shipping labels, or inventory documents? Manually scanning through pages is tedious and error-prone. Whether you're building an automated document processing system or verifying product authenticity, finding barcodes efficiently in PDFs can be challenging.
+Ever needed to **extract QR code from PDF** files—like hundreds of invoices, shipping labels, or inventory documents? Manually scanning through pages is tedious and error‑prone. Whether you're building an automated document‑processing system or verifying product authenticity, finding barcodes efficiently in PDFs can be challenging.
 
 That's where **GroupDocs.Signature for Java** comes in. This powerful API turns what could be hours of manual work into just a few lines of code. You can scan entire documents, locate specific barcode types (like QR codes or Code128), and extract their data automatically.
 
 In this tutorial, you'll learn exactly how to search for barcode signatures in PDF documents using Java. We'll walk through setup, implementation, and even troubleshooting common issues you might encounter. By the end, you'll have a working barcode search solution you can integrate into your projects right away.
 
 **What You'll Learn:**
-- Setting up GroupDocs.Signature for Java in minutes
-- Searching for barcode signatures within PDF documents
-- Configuring search options for precise, targeted results
-- Handling different barcode types (QR codes, EAN, Code128, etc.)
-- Troubleshooting common issues and optimizing performance
+- Setting up GroupDocs.Signature for Java in minutes  
+- Searching for barcode signatures within PDF documents  
+- Configuring search options for precise, targeted results  
+- Handling different barcode types (QR codes, EAN, Code128, etc.)  
+- Troubleshooting common issues and optimizing performance  
 
 Let's dive in!
 
+## Quick Answers
+- **Can GroupDocs.Signature read QR codes from PDFs?** Yes, it detects QR, Code128, EAN, PDF417 and many more.  
+- **Do I need a paid license?** A free trial works for development; a commercial license is required for production.  
+- **Which Java version is required?** Java 8 or higher (Java 11+ recommended).  
+- **How do I limit the search to specific pages?** Use `options.setAllPages(false)` and set `options.setPageNumber(page)`.  
+- **Is the API thread‑safe for batch processing?** Yes, create separate `Signature` instances per thread.
+
 ## Why Search Barcodes in PDFs?
 
-Before we get technical, here's why this matters in real-world applications:
+Before we get technical, here's why this matters in real‑world applications:
 
-**Common Business Scenarios:**
-- **Invoice Processing**: Automatically extract order numbers or tracking codes from vendor invoices
-- **Inventory Management**: Scan product catalogs and extract SKU barcodes for database updates
-- **Shipping & Logistics**: Verify package tracking codes in shipping manifests
-- **Document Authentication**: Validate signed documents by checking embedded security barcodes
-- **Healthcare Records**: Extract patient IDs or prescription codes from medical documents
+**Common Business Scenarios**
+- **Invoice Processing** – Automatically extract order numbers or tracking codes from vendor invoices.  
+- **Inventory Management** – Scan product catalogs and extract SKU barcodes for database updates.  
+- **Shipping & Logistics** – Verify package tracking codes in shipping manifests.  
+- **Document Authentication** – Validate signed documents by checking embedded security barcodes.  
+- **Healthcare Records** – Extract patient IDs or prescription codes from medical documents.  
 
-The GroupDocs.Signature API handles the heavy lifting—you don't need to worry about image processing, barcode decoding algorithms, or PDF rendering complexities. It's all built-in.
+The GroupDocs.Signature API handles the heavy lifting—you don't need to worry about image processing, barcode decoding algorithms, or PDF rendering complexities. It's all built‑in.
 
 ## Prerequisites
 
@@ -69,18 +77,18 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 
 ### Environment Setup
 
-- **JDK 8 or higher**: GroupDocs.Signature requires Java 8 at minimum (Java 11+ recommended for better performance)
-- **IDE**: Any text editor works, but IntelliJ IDEA or Eclipse will make your life easier with autocomplete and debugging
-- **PDF Document**: Have a test PDF with barcodes ready (invoices, shipping labels, or product catalogs work great)
+- **JDK 8 or higher** – GroupDocs.Signature requires Java 8 at minimum (Java 11+ recommended for better performance).  
+- **IDE** – IntelliJ IDEA or Eclipse will make your life easier with autocomplete and debugging.  
+- **PDF Document** – Have a test PDF with barcodes ready (invoices, shipping labels, or product catalogs work great).
 
 ### Knowledge Prerequisites
 
 You should be comfortable with:
-- Basic Java syntax and object-oriented concepts
-- Handling exceptions with try-catch blocks
-- Working with external libraries in your IDE
+- Basic Java syntax and object‑oriented concepts  
+- Handling exceptions with `try‑catch` blocks  
+- Working with external libraries in your IDE  
 
-If you're new to working with third-party Java libraries, don't worry—we'll walk through everything step by step.
+If you're new to third‑party Java libraries, don't worry—we'll walk through everything step by step.
 
 ## Setting Up GroupDocs.Signature for Java
 
@@ -94,11 +102,11 @@ Use Maven or Gradle to include the library (see code above). After adding the de
 
 GroupDocs offers several licensing options:
 
-- **Free Trial**: Perfect for testing. Download from [GroupDocs releases](https://releases.groupdocs.com/signature/java/)
-- **Temporary License**: Get 30 days of full access via the [Temporary License Page](https://purchase.groupdocs.com/temporary-license/)
-- **Commercial License**: For production use, purchase a license at [GroupDocs Purchase](https://purchase.groupdocs.com/)
+- **Free Trial** – Perfect for testing. Download from [GroupDocs releases](https://releases.groupdocs.com/signature/java/)  
+- **Temporary License** – Get 30 days of full access via the [Temporary License Page](https://purchase.groupdocs.com/temporary-license/)  
+- **Commercial License** – For production use, purchase a license at [GroupDocs Purchase](https://purchase.groupdocs.com/)  
 
-**Pro Tip**: Start with the free trial to build your proof-of-concept, then upgrade if the API fits your needs.
+**Pro Tip**: Start with the free trial to build your proof‑of‑concept, then upgrade if the API fits your needs.
 
 ### Step 3: Basic Initialization
 
@@ -117,7 +125,7 @@ The `Signature` class is your main entry point. It loads the PDF into memory and
 
 ## Implementation Guide
 
-Now for the fun part—let's write the code to search for barcodes in your PDF.
+Now for the fun part—let's write the code to **search for barcodes in your PDF**.
 
 ### Searching for Barcode Signatures in a Document
 
@@ -134,10 +142,10 @@ String filePath = "YOUR_DOCUMENT_DIRECTORY/sample_signed.pdf"; // Replace with a
 Signature signature = new Signature(filePath);
 ```
 
-**What's Happening Here:**
+**What's Happening Here:**  
 The `Signature` class opens your PDF and prepares it for processing. Think of it like opening a file in a text editor—you're loading the document into memory so you can work with it.
 
-**Real-World Note:** If you're processing PDFs from user uploads, always validate the file path and check if the file exists before creating the `Signature` object. This prevents cryptic errors later.
+**Real‑World Note:** If you're processing PDFs from user uploads, always validate the file path and check if the file exists before creating the `Signature` object. This prevents cryptic errors later.
 
 #### Step 2: Create BarcodeSearchOptions
 
@@ -151,12 +159,12 @@ BarcodeSearchOptions options = new BarcodeSearchOptions();
 options.setAllPages(true); // Search every page in the document
 ```
 
-**Key Configuration Options:**
+**Key Configuration Options**
 
-- `setAllPages(true)`: Scans all pages. Set to `false` if you only want to check specific pages (configure with `setPageNumber()`)
-- **Why This Matters**: If you're processing invoices where barcodes are always on page 1, searching all pages wastes resources. For multi-page shipping manifests, you'll need `setAllPages(true)`
+- `setAllPages(true)`: Scans all pages. Set to `false` if you only want to check specific pages (configure with `setPageNumber()`).  
+- **Why This Matters**: If you're processing invoices where barcodes are always on page 1, searching all pages wastes resources. For multi‑page shipping manifests, you'll need `setAllPages(true)`.
 
-**Pro Tip:** You can also filter by barcode type (more on this in the "Supported Barcode Types" section below). This speeds up searches when you know exactly what format you're looking for.
+**Pro Tip:** You can also filter by barcode type (more on this in the *Supported Barcode Types* section below). This speeds up searches when you know exactly what format you're looking for.
 
 #### Step 3: Execute Search and Handle Results
 
@@ -200,40 +208,39 @@ try {
 }
 ```
 
-**What's Happening in This Code:**
+**What's Happening in This Code**
 
-1. **Search Execution**: `signature.search()` scans the PDF and returns a list of `BarcodeSignature` objects
-2. **Empty Check**: Before looping, we verify that barcodes were actually found (prevents null pointer exceptions)
-3. **Data Extraction**: For each barcode, we extract:
-   - **Type**: The barcode format (QR Code, Code128, EAN13, etc.)
-   - **Text**: The decoded data (order number, tracking code, SKU, etc.)
-   - **Location**: Page number and X/Y coordinates
-   - **Dimensions**: Width and height (useful for validation)
-4. **Error Handling**: The try-catch prevents crashes if something goes wrong (corrupted PDF, missing file, etc.)
-5. **Resource Cleanup**: The `finally` block ensures the `Signature` object is properly disposed, freeing up memory
+1. **Search Execution** – `signature.search()` scans the PDF and returns a list of `BarcodeSignature` objects.  
+2. **Empty Check** – We verify that barcodes were actually found before looping (prevents null‑pointer exceptions).  
+3. **Data Extraction** – For each barcode, we extract:
+   - **Type** (QR Code, Code128, EAN13, etc.)  
+   - **Text** (the decoded data – order number, tracking code, SKU, etc.)  
+   - **Location** (page number and X/Y coordinates)  
+   - **Dimensions** (width and height – useful for validation)  
+4. **Error Handling** – The `try‑catch` prevents crashes if something goes wrong (corrupted PDF, missing file, etc.).  
+5. **Resource Cleanup** – The `finally` block ensures the `Signature` object is properly disposed, freeing up memory.
 
-**Real-World Application:**
-Let's say you're processing shipping labels. You'd extract the `getText()` value (tracking number) and store it in your database. The page number tells you which label corresponds to which shipment if you're processing batched documents.
+**Real‑World Application:**  
+Imagine you're processing shipping labels. You'd extract `barcodeSignature.getText()` (the tracking number) and store it in your database. The page number tells you which label corresponds to which shipment if you're processing batched documents.
 
 ## Supported Barcode Types
 
 GroupDocs.Signature can detect a wide range of barcode formats. Here's what you can search for:
 
-**1D Barcodes (Linear):**
-- **Code128**: Common in shipping and packaging
-- **Code39**: Used in automotive and defense industries
-- **EAN13/EAN8**: Retail product barcodes (you see these on every product)
-- **UPC-A/UPC-E**: North American retail standard
-- **Interleaved2of5**: Warehouse and distribution
+**1D Barcodes (Linear)**
+- **Code128** – Common in shipping and packaging  
+- **Code39** – Used in automotive and defense  
+- **EAN13/EAN8** – Retail product barcodes  
+- **UPC‑A/UPC‑E** – North American retail standard  
+- **Interleaved2of5** – Warehouse and distribution  
 
-**2D Barcodes (Matrix):**
-- **QR Code**: The most popular—used for URLs, WiFi passwords, payment info
-- **Data Matrix**: Compact format for small items (electronics components)
-- **PDF417**: Government IDs, boarding passes, driver's licenses
-- **Aztec Code**: Transportation tickets
+**2D Barcodes (Matrix)**
+- **QR Code** – The most popular; used for URLs, Wi‑Fi passwords, payment info  
+- **Data Matrix** – Compact format for small items (electronics components)  
+- **PDF417** – Government IDs, boarding passes, driver’s licenses  
+- **Aztec Code** – Transportation tickets  
 
-**Filtering by Type:**
-You can speed up searches by specifying the barcode type you're looking for:
+**Filtering by Type** – You can speed up searches by specifying the barcode type you’re after:
 
 ```java
 import com.groupdocs.signature.domain.barcodes.BarcodeTypes;
@@ -243,19 +250,18 @@ options.setEncodeType(BarcodeTypes.QR); // Only search for QR codes
 options.setAllPages(true);
 ```
 
-**When to Filter:** If you know your invoices only contain Code128 barcodes, filtering by type reduces processing time by 30-50% on large documents.
+**When to Filter:** If you know your invoices only contain Code128 barcodes, filtering by type reduces processing time by 30‑50 % on large documents.
 
-## Real-World Use Cases
+## Real‑World Use Cases
 
 Here's how developers are using barcode search in production:
 
 ### 1. Automated Invoice Processing
-**Scenario**: An accounting department receives 500+ vendor invoices per day as PDFs.
-
-**Solution**: Scan each PDF for Code39 barcodes containing invoice numbers, automatically matching them to purchase orders in the ERP system. This eliminates manual data entry and reduces errors.
+**Scenario:** An accounting department receives 500+ vendor invoices per day as PDFs.  
+**Solution:** Scan each PDF for Code39 barcodes containing invoice numbers, automatically matching them to purchase orders in the ERP system. This eliminates manual data entry and reduces errors.
 
 ```java
-// Pseudo-code workflow
+// Pseudo‑code workflow
 for (PDF invoice : invoiceBatch) {
     List<BarcodeSignature> barcodes = searchBarcodes(invoice);
     String invoiceNumber = barcodes.get(0).getText();
@@ -264,42 +270,39 @@ for (PDF invoice : invoiceBatch) {
 ```
 
 ### 2. Warehouse Inventory Updates
-**Scenario**: A warehouse receives shipments with PDF packing lists containing product SKUs as EAN13 barcodes.
-
-**Solution**: Extract all barcodes from packing lists, update inventory counts automatically, and flag discrepancies for review.
+**Scenario:** A warehouse receives shipments with PDF packing lists containing product SKUs as EAN13 barcodes.  
+**Solution:** Extract all barcodes from packing lists, update inventory counts automatically, and flag discrepancies for review.
 
 ### 3. Document Authentication
-**Scenario**: Legal documents include QR codes with cryptographic signatures for authenticity verification.
-
-**Solution**: Search for QR codes in signed contracts, decode the signature data, and verify against a trusted certificate authority. This ensures documents haven't been tampered with.
+**Scenario:** Legal documents include QR codes with cryptographic signatures for authenticity verification.  
+**Solution:** Search for QR codes in signed contracts, decode the signature data, and verify against a trusted certificate authority. This ensures documents haven't been tampered with.
 
 ### 4. Healthcare Records Management
-**Scenario**: Patient files in hospitals contain PDF lab reports with Code128 barcodes for specimen IDs.
-
-**Solution**: Automatically extract specimen IDs and link lab results to patient records in the hospital information system (HIS).
+**Scenario:** Patient files in hospitals contain PDF lab reports with Code128 barcodes for specimen IDs.  
+**Solution:** Automatically extract specimen IDs and link lab results to patient records in the hospital information system (HIS).
 
 ## Common Issues and Solutions
 
 Here are problems you might encounter and how to fix them:
 
-### Issue 1: "No Barcodes Found" (But You Know They Exist)
+### Issue 1: “No Barcodes Found” (But You Know They Exist)
 
-**Possible Causes:**
-- The barcode image quality is too low (blurry, pixelated scans)
-- The PDF is image-based (scanned document) but the barcode is too small
-- You're searching for the wrong barcode type
+**Possible Causes**
+- Low image resolution (blurry, pixelated scans)  
+- Barcode is too small in a scanned PDF  
+- Searching for the wrong barcode type  
 
-**Solutions:**
-1. **Check Image Resolution**: Barcodes need at least 200 DPI for reliable detection. If you're scanning documents, use 300 DPI or higher.
-2. **Remove Type Filtering**: Try searching for all barcode types first (don't set `setEncodeType()`), then narrow down once you identify what's in the document.
-3. **Verify Barcode Quality**: Open the PDF in Adobe Acrobat and zoom in. If the barcode looks fuzzy to you, it'll be hard for the API too.
+**Solutions**
+1. **Check Image Resolution** – Barcodes need at least 200 DPI for reliable detection. Use 300 DPI or higher when scanning.  
+2. **Remove Type Filtering** – Search for all barcode types first, then narrow down once you identify what's in the document.  
+3. **Validate Barcode Quality** – Open the PDF in Adobe Acrobat and zoom in. If the barcode looks fuzzy to you, it’ll be hard for the API too.
 
 ### Issue 2: OutOfMemoryError with Large PDFs
 
-**Cause**: Loading a 500-page PDF with high-resolution images consumes significant memory.
+**Cause:** Loading a 500‑page PDF with high‑resolution images consumes a lot of memory.  
 
-**Solution:**
-1. **Process Pages in Batches**: Instead of `setAllPages(true)`, process 50 pages at a time:
+**Solution**
+1. **Process Pages in Batches** – Instead of `setAllPages(true)`, process 50 pages at a time:
 
 ```java
 for (int startPage = 1; startPage <= totalPages; startPage += 50) {
@@ -313,23 +316,22 @@ for (int startPage = 1; startPage <= totalPages; startPage += 50) {
 }
 ```
 
-2. **Increase JVM Heap Size**: Add `-Xmx4g` to your Java command to allocate 4GB of memory (adjust based on your needs).
+2. **Increase JVM Heap Size** – Add `-Xmx4g` to your Java command to allocate 4 GB of memory (adjust as needed).
 
-### Issue 3: Slow Performance on Multi-Page Documents
+### Issue 3: Slow Performance on Multi‑Page Documents
 
-**Cause**: Searching all pages sequentially takes time, especially with complex barcodes like PDF417.
+**Cause:** Searching all pages sequentially takes time, especially with complex barcodes like PDF417.  
 
-**Solutions:**
-1. **Parallel Processing**: If barcodes are always on specific pages (e.g., page 1 of invoices), only search those pages
-2. **Cache Results**: If you're processing the same document multiple times, cache the barcode data to avoid re-scanning
-3. **Use SSDs**: I/O speed matters when loading large PDFs. SSDs reduce loading time by 60-70% compared to HDDs
+**Solutions**
+1. **Target Specific Pages** – If barcodes are always on page 1, set `options.setAllPages(false)` and `options.setPageNumber(1)`.  
+2. **Cache Results** – If you process the same document multiple times, cache the barcode data to avoid re‑scanning.  
+3. **Use SSDs** – Faster I/O reduces loading time by 60‑70 % compared to HDDs.
 
-### Issue 4: False Positives (Detecting Random Patterns as Barcodes)
+### Issue 4: False Positives (Random Patterns Detected as Barcodes)
 
-**Cause**: Sometimes tables, grids, or line patterns can be misidentified as barcodes.
+**Cause:** Tables, grids, or line patterns can be misidentified.  
 
-**Solution:**
-Validate results by checking the decoded text length and format:
+**Solution:** Validate results by checking the decoded text format:
 
 ```java
 for (BarcodeSignature barcode : signatures) {
@@ -347,11 +349,11 @@ for (BarcodeSignature barcode : signatures) {
 
 ## Performance Tips for Large Documents
 
-Processing thousands of PDFs? Here's how to optimize:
+Processing thousands of PDFs? Here’s how to stay fast:
 
 ### 1. Batch Processing Strategy
 
-Instead of processing files one-by-one, use a thread pool to handle multiple PDFs simultaneously:
+Use a thread pool to handle multiple PDFs simultaneously:
 
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(4); // 4 parallel threads
@@ -371,22 +373,22 @@ executor.shutdown();
 executor.awaitTermination(1, TimeUnit.HOURS);
 ```
 
-**Performance Gain**: Processing 1000 files drops from ~2 hours to ~30 minutes on a quad-core machine.
+**Performance Gain:** Processing 1 000 files drops from ~2 hours to ~30 minutes on a quad‑core machine.
 
 ### 2. Reduce Search Scope
 
-If your business logic allows, limit the search area:
+If barcodes are always in a known area, limit the rectangle:
 
 ```java
-// Only search the top-right corner where barcodes are typically placed
+// Only search the top‑right corner where barcodes are typically placed
 options.setRectangle(new Rectangle(400, 50, 150, 150)); // X, Y, Width, Height
 ```
 
-**Performance Gain**: 40-60% faster on documents where barcode locations are consistent.
+**Performance Gain:** 40‑60 % faster on documents with consistent barcode placement.
 
 ### 3. Monitor Memory Usage
 
-For long-running batch processes, monitor heap usage and explicitly call garbage collection if needed:
+For long‑running batch jobs, watch heap usage and trigger GC when needed:
 
 ```java
 Runtime runtime = Runtime.getRuntime();
@@ -399,10 +401,10 @@ if (usedMemory > (runtime.maxMemory() * 0.8)) {
 
 ## Best Practices
 
-Follow these guidelines for production-ready code:
+Follow these guidelines for production‑ready code:
 
 ### 1. Always Dispose of Signature Objects
-Wrap your code in try-with-resources (Java 7+) to automatically close resources:
+Wrap your code in try‑with‑resources (Java 7+) to automatically close resources:
 
 ```java
 try (Signature signature = new Signature(filePath)) {
@@ -456,23 +458,46 @@ switch (barcode.getEncodeType().getTypeName()) {
 }
 ```
 
-### 5. Test with Real-World Documents
-Don't just test with perfect sample PDFs. Use actual documents from your production environment:
-- Scanned invoices with coffee stains
-- Faxed shipping labels with noise
-- Low-resolution mobile phone photos converted to PDF
+### 5. Test with Real‑World Documents
+Don’t just test with perfect sample PDFs. Use actual documents from production:
+- Scanned invoices with coffee stains  
+- Faxed shipping labels with noise  
+- Low‑resolution mobile‑phone photos converted to PDF  
 
-This reveals edge cases you won't find in demos.
+This reveals edge cases you won’t find in demos.
+
+## Frequently Asked Questions
+
+**Q: Can I extract QR codes from password‑protected PDFs?**  
+A: Yes. Open the document with `Signature` using the password constructor, then run the same search logic.
+
+**Q: How do I limit the search to only QR codes?**  
+A: Set the encode type in `BarcodeSearchOptions` to `BarcodeTypes.QR` (see the code snippet above).
+
+**Q: Is the API thread‑safe for parallel processing?**  
+A: Each thread should create its own `Signature` instance. The library itself is designed for concurrent use.
+
+**Q: What should I do if the barcode is rotated?**  
+A: GroupDocs.Signature automatically detects rotation. No extra configuration is required.
+
+**Q: How can I improve detection on low‑resolution scans?**  
+A: Increase the DPI when scanning (≥300 DPI) and consider pre‑processing the image (contrast/brightness) before PDF conversion.
 
 ## Conclusion
 
-You've just learned how to search for barcodes in PDF documents using Java and the GroupDocs.Signature API. Here's what we covered:
+You've just learned how to **search for and extract QR codes (and other barcodes) from PDF documents using Java and the GroupDocs.Signature API**. Here's a quick recap:
 
-✅ **Setup**: Adding GroupDocs.Signature to your project and licensing options  
-✅ **Implementation**: Complete code to search, extract, and process barcode data  
-✅ **Barcode Types**: Understanding which formats are supported (1D and 2D)  
-✅ **Real-World Use Cases**: Invoice processing, inventory management, document authentication  
-✅ **Troubleshooting**: Solving common issues like memory errors and false positives  
-✅ **Performance**: Optimizing searches for large-scale document processing  
+- **Setup** – Add the Maven/Gradle dependency and obtain a license.  
+- **Implementation** – Initialize `Signature`, configure `BarcodeSearchOptions`, execute the search, and process results.  
+- **Barcode Types** – Support for 1D (Code128, EAN) and 2D (QR, Data Matrix, PDF417) formats.  
+- **Real‑World Use Cases** – Invoice processing, inventory updates, document authentication, healthcare records.  
+- **Troubleshooting** – Resolve missing barcodes, memory issues, performance bottlenecks, and false positives.  
+- **Performance** – Batch processing, page‑scope limiting, and memory monitoring.  
 
-The GroupDocs.Signature API handles the complexity of PDF parsing and barcode detection, letting you focus on building your business logic. Whether you're automating invoice processing, verifying shipping labels, or extracting inventory data, you now have a robust solution.
+The GroupDocs.Signature API abstracts away the complexity of PDF parsing and barcode decoding, letting you focus on the business logic that matters. Whether you’re automating invoice intake, verifying shipments, or linking medical reports, you now have a robust, production‑ready solution.
+
+---
+
+**Last Updated:** 2026-01-26  
+**Tested With:** GroupDocs.Signature 23.12 for Java  
+**Author:** GroupDocs
