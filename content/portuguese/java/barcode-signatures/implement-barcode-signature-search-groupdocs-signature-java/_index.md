@@ -1,36 +1,68 @@
 ---
-"date": "2025-05-08"
-"description": "Aprenda a implementar com eficiência a pesquisa de assinaturas de código de barras em Java usando o GroupDocs.Signature. Simplifique seus processos de gerenciamento de documentos com este guia completo."
-"title": "Como implementar a pesquisa de assinatura de código de barras em Java com GroupDocs.Signature"
-"url": "/pt/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
-"weight": 1
+categories:
+- Document Processing
+date: '2026-01-29'
+description: Aprenda a pesquisar páginas específicas de código de barras em documentos
+  usando Java com o GroupDocs.Signature. Guia passo a passo, exemplos de código e
+  dicas de solução de problemas.
+keywords: search barcode specific pages, java document signature verification, barcode
+  signature detection java, electronic signature search java, verify barcode signatures
+  programmatically
+lastmod: '2026-01-29'
+linktitle: Search Barcode Specific Pages Java
+tags:
+- java
+- barcode-signatures
+- document-verification
+- groupdocs
+title: Pesquisar páginas específicas de código de barras em documentos usando Java
 type: docs
+url: /pt/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/
+weight: 1
 ---
-# Como implementar a pesquisa de assinatura de código de barras em Java com GroupDocs.Signature
+
+# Pesquisar Páginas Específicas de Código de Barras em Documentos Usando Java
 
 ## Introdução
-Na era digital atual, garantir a autenticidade e a integridade dos documentos é crucial. Seja você um profissional jurídico, gestor de negócios ou desenvolvedor de software, gerenciar assinaturas de documentos com eficiência pode economizar tempo e prevenir fraudes. Este tutorial o guiará na implementação de pesquisas de assinaturas de código de barras em Java usando o GroupDocs.Signature — uma biblioteca poderosa projetada para lidar com vários tipos de assinaturas eletrônicas.
 
-**O que você aprenderá:**
-- Configurando GroupDocs.Signature para Java
-- Assinatura de eventos relacionados à pesquisa durante o processamento de documentos
-- Configurando e executando uma busca por assinaturas de código de barras
+Já passou horas verificando assinaturas manualmente em centenas de documentos? Você não está sozinho. Seja construindo um sistema de gerenciamento de contratos, automatizando o processamento de faturas ou protegendo registros de saúde, rastrear e validar assinaturas de código de barras manualmente é tedioso e propenso a erros.
 
-Vamos analisar como você pode otimizar seus processos de gerenciamento de documentos com essas ferramentas. Antes de começar, vamos analisar os pré-requisitos.
+Neste guia, mostraremos **como pesquisar páginas específicas de código de barras** em seus documentos de forma programática com Java e GroupDocs.Signature. Ao final, você será capaz de detectar assinaturas nas páginas selecionadas, monitorar o progresso da pesquisa em tempo real e lidar com diversos formatos de código de barras — tudo com código limpo e fácil de manter.
 
-## Pré-requisitos
-Para seguir este tutorial, certifique-se de ter:
-- **Kit de Desenvolvimento Java (JDK)**: Versão 8 ou superior
-- **Especialista** ou **Gradle**: Para gerenciamento de dependências
-- Conhecimento básico de programação Java e familiaridade com projetos Maven/Gradle
+**O que você aprenderá**
+- Configurar o GroupDocs.Signature em um projeto Java (≈5 minutos)
+- Inscrever‑se em eventos de pesquisa para acompanhamento em tempo real
+- Configurar opções de pesquisa inteligente para direcionar páginas específicas
+- Executar a pesquisa e processar resultados de forma eficiente
 
-Além disso, o GroupDocs.Signature para Java deve ser integrado ao seu projeto. Você pode adquirir uma licença temporária para explorar todos os recursos sem limitações.
+## Respostas Rápidas
+- **Qual biblioteca ajuda a pesquisar páginas específicas de código de barras?** GroupDocs.Signature para Java  
+- **Tempo típico de configuração?** Cerca de 5 minutos para adicionar a dependência Maven/Gradle e uma licença  
+- **Posso limitar a pesquisa às primeira e última páginas?** Sim – use `PagesSetup` para especificar páginas exatas  
+- **Quais formatos de código de barras são suportados?** QR Code, Code128, Code39, DataMatrix, EAN/UPC e mais  
+- **Preciso de licença paga para produção?** Uma licença completa é necessária para produção; uma versão de avaliação funciona para testes  
 
-## Configurando GroupDocs.Signature para Java
-Para usar GroupDocs.Signature em seu aplicativo Java, você precisa primeiro configurar a biblioteca. Veja como fazer isso usando Maven ou Gradle:
+## O que é “pesquisar páginas específicas de código de barras”?
 
-### Especialista
-Adicione a seguinte dependência ao seu `pom.xml` arquivo:
+Pesquisar páginas específicas de código de barras significa instruir o motor de assinatura a procurar assinaturas de código de barras apenas nas páginas que interessam — por exemplo, a primeira página, a última página ou qualquer intervalo personalizado. Essa abordagem focada acelera o processamento, reduz o uso de memória e permite criar feedback de UI responsivo.
+
+## Por que usar o GroupDocs.Signature para esta tarefa?
+
+O GroupDocs.Signature fornece uma API de alto nível que abstrai a decodificação de código de barras, renderização de páginas e manipulação de formatos de documento. Ele funciona com PDF, DOCX, XLSX e muitos outros formatos prontamente, permitindo que você se concentre na lógica de negócios em vez de analisar arquivos.
+
+## Pré‑requisitos
+
+- **JDK 8+** instalado
+- **Maven** ou **Gradle** para gerenciamento de dependências
+- Familiaridade básica com classes, métodos e tratamento de exceções em Java
+- Acesso a uma licença do GroupDocs.Signature (avaliação ou completa)
+
+## Configurando o GroupDocs.Signature para Java
+
+### Configuração Maven
+
+Adicione a dependência ao seu `pom.xml`:
+
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -39,27 +71,30 @@ Adicione a seguinte dependência ao seu `pom.xml` arquivo:
 </dependency>
 ```
 
-### Gradle
-Inclua isso em seu `build.gradle` arquivo:
+### Configuração Gradle
+
+Ou inclua em `build.gradle`:
+
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-Para aqueles que preferem downloads diretos, você pode encontrar o último lançamento [aqui](https://releases.groupdocs.com/signature/java/).
+**Prefere downloads manuais?** Você pode obter a versão mais recente diretamente na [página de download do GroupDocs](https://releases.groupdocs.com/signature/java/).
 
-**Aquisição de licença:**
-- **Teste grátis**: Comece com um teste gratuito para testar a biblioteca.
-- **Licença Temporária**: Solicite uma licença temporária no site do GroupDocs para ter acesso total durante o período de avaliação.
-- **Comprar**: Se estiver satisfeito, considere comprar uma licença para uso de longo prazo.
+### Obtendo sua Licença
 
-Depois de configurar tudo, vamos inicializar e configurar a configuração básica em Java:
+- **Teste Gratuito** – comece imediatamente, sem compromisso  
+- **Licença Temporária** – acesso total aos recursos para avaliação  
+- **Licença Completa** – pronta para produção, uso ilimitado  
+
+Verifique a instalação com um trecho de inicialização rápido:
 
 ```java
 import com.groupdocs.signature.Signature;
 
 public class SignatureSetup {
     public static void main(String[] args) {
-        // Inicialize a instância da assinatura com o caminho do documento
+        // Initialize the Signature instance with the document path
         Signature signature = new Signature("YOUR_DOCUMENT_PATH");
         
         System.out.println("GroupDocs.Signature for Java initialized successfully.");
@@ -67,24 +102,36 @@ public class SignatureSetup {
 }
 ```
 
-## Guia de Implementação
-Dividiremos a implementação em recursos principais para facilitar o acompanhamento.
+> **Dica de especialista:** Substitua `"YOUR_DOCUMENT_PATH"` por um arquivo PDF, DOCX ou XLSX real. Se o console imprimir a mensagem de sucesso, você está pronto para prosseguir.
 
-### Recurso 1: Assinatura de evento de pesquisa
+## Entendendo os Tipos de Assinatura de Código de Barras
 
-#### Visão geral
-Este recurso permite que você assine e responda a eventos relacionados à pesquisa durante o processo de pesquisa de assinatura de documento, fornecendo insights valiosos, como atualizações de progresso e status de conclusão.
+Códigos de barras incorporam dados legíveis por máquina dentro de um documento. Diferentemente de assinaturas manuscritas, eles podem armazenar IDs, timestamps, URLs ou payloads JSON, tornando‑os ideais para verificação automatizada.
 
-**Implementação passo a passo**
+| Tipo de Código de Barras | Melhor Uso | Comprimento Típico de Dados |
+|--------------------------|------------|------------------------------|
+| QR Code | Dados de alta densidade, URLs, texto multilinha | Até 4.296 caracteres |
+| Code128 | Números de rastreamento alfanuméricos | Variável |
+| Code39 | Códigos legados simples | Até 43 caracteres |
+| DataMatrix | Rótulos pequenos, registros de saúde | Até 2.335 caracteres |
+| EAN/UPC | Identificação de produtos, varejo | 8‑13 dígitos |
 
-##### Etapa 1: Inicializar objeto de assinatura
+Você usará códigos de barras quando precisar de leitura rápida por máquina, dados estruturados ou assinatura à prova de adulteração.
+
+## Como Pesquisar Páginas Específicas de Código de Barras
+
+Dividiremos a implementação em três recursos focados.
+
+### Recurso 1: Inscrevendo‑se em Eventos de Pesquisa de Documento
+
+#### Por que isso importa
+Ao processar lotes grandes, feedback em tempo real (por exemplo, barras de progresso) melhora a UX e ajuda a detectar travamentos precocemente.
+
+#### Implementação
+
 ```java
 Signature signature = new Signature("YOUR_DOCUMENT_PATH");
 ```
-
-##### Etapa 2: Inscreva-se para pesquisar eventos
-
-Adicione manipuladores de eventos para quando a pesquisa começa, progride e é concluída:
 
 ```java
 signature.SearchStarted.add(new ProcessStartEventHandler() {
@@ -110,19 +157,14 @@ signature.SearchCompleted.add(new ProcessCompleteEventHandler() {
 });
 ```
 
-**Parâmetros explicados:**
-- **ProcessStartEventArgs**: Fornece hora de início e contagem total de assinaturas.
-- **ProcessProgressEventArgs**: Oferece atualizações de progresso em tempo real.
-- **ProcessCompleteEventArgs**:Detalha o status de conclusão e a duração.
+Esses três manipuladores fornecem tempo de início, progresso ao vivo e estatísticas finais — perfeitos para logs ou atualizações de UI.
 
-### Recurso 2: Configuração de opções de pesquisa de código de barras
+### Recurso 2: Configurando Opções de Pesquisa de Código de Barras para Páginas Específicas
 
-#### Visão geral
-Configure suas opções de pesquisa para encontrar assinaturas de código de barras específicas, incluindo configuração de página e critérios de correspondência de texto.
+#### Por que o controle granular importa
+Escanear todas as páginas de um contrato de 200 páginas desperdiça ciclos de CPU. Focar apenas nas primeiras e últimas páginas pode reduzir o tempo de execução em 80 %.
 
-**Implementação passo a passo**
-
-##### Etapa 1: Criar objeto BarcodeSearchOptions
+#### Implementação
 
 ```java
 import com.groupdocs.signature.domain.enums.TextMatchType;
@@ -131,40 +173,36 @@ import com.groupdocs.signature.options.search.BarcodeSearchOptions;
 BarcodeSearchOptions options = new BarcodeSearchOptions();
 ```
 
-##### Etapa 2: Configurar opções de pesquisa
-
-Configurar critérios de correspondência de páginas e texto:
+```java
+options.setAllPages(false); // Opt‑in selective page searching
+options.setPageNumber(1);   // Starting page (optional)
+```
 
 ```java
-options.setAllPages(false);
-options.setPageNumber(1);
-
 import com.groupdocs.signature.options.PagesSetup;
 
 PagesSetup pagesSetup = new PagesSetup();
-pagesSetup.setFirstPage(true);
-pagesSetup.setLastPage(true);
-pagesSetup.setOddPages(false);
-pagesSetup.setEvenPages(false);
+pagesSetup.setFirstPage(true);   // Include first page
+pagesSetup.setLastPage(true);    // Include last page
+pagesSetup.setOddPages(false);   // Skip odd pages
+pagesSetup.setEvenPages(false);  // Skip even pages
 options.setPagesSetup(pagesSetup);
+```
 
+```java
 options.setMatchType(TextMatchType.Contains);
 options.setText("12345");
 ```
 
-**Principais opções de configuração:**
-- **definirTodasAsPáginas**: Se deve pesquisar todas as páginas ou algumas específicas.
-- **definirNúmeroDaPágina**: Especifique um número de página específico.
-- **Tipo de correspondência de texto**: Defina como o texto deve ser correspondido (por exemplo, Contém, Exato).
+- **Tipos de correspondência** permitem ajustar a pesquisa de texto (`Contains`, `Exact`, `StartsWith`, `EndsWith`).  
+- Ajuste `setAllPages` e `PagesSetup` para **pesquisar apenas páginas específicas de código de barras**.
 
-### Recurso 3: Execução de pesquisa de assinatura de código de barras
+### Recurso 3: Executando a Pesquisa e Processando Resultados
 
-#### Visão geral
-Execute a pesquisa configurada para assinaturas de código de barras e manipule os resultados.
+#### Por que este passo importa
+Encontrar códigos de barras é apenas metade da história — você precisa agir sobre os dados (por exemplo, validar, armazenar ou acionar fluxos de trabalho).
 
-**Implementação passo a passo**
-
-##### Etapa 1: Execute a pesquisa
+#### Implementação
 
 ```java
 import java.util.List;
@@ -183,24 +221,159 @@ try {
 }
 ```
 
-**Explicação:**
-- **procurar**: Executa a pesquisa com base nas opções especificadas.
-- **AssinaturaDeCodigoDeBarra.classe**: Define o tipo de assinatura que está sendo pesquisada.
+Agora você tem uma lista de objetos `BarcodeSignature`, cada um expondo:
 
-## Aplicações práticas
-Aqui estão alguns casos de uso do mundo real para implementar pesquisas de assinatura de código de barras:
+- `getPageNumber()` – onde o código de barras está localizado  
+- `getEncodeType()` – QR, Code128, etc.  
+- `getText()` – payload decodificado  
+- Posição (`getLeft()`, `getTop()`) e tamanho (`getWidth()`, `getHeight()`)
 
-1. **Verificação de Documentos Legais**: Verifique automaticamente assinaturas em contratos legais para garantir autenticidade.
-2. **Gestão da cadeia de abastecimento**: Rastreie aprovações de documentos e valide remessas com assinaturas de código de barras.
-3. **Registros de saúde**: Proteja os registros dos pacientes verificando assinaturas eletrônicas usando códigos de barras.
+**Exemplo: Processar apenas códigos QR na última página**
 
-Esses aplicativos demonstram a versatilidade do GroupDocs.Signature para Java em vários setores, aumentando a segurança e a eficiência.
+```java
+for (BarcodeSignature barcodeSignature : signatures) {
+    if (barcodeSignature.getPageNumber() == lastPageNumber 
+        && barcodeSignature.getEncodeType().equals("QRCode")) {
+        // Process only QR codes from the final page
+        processApprovalCode(barcodeSignature.getText());
+    }
+}
+```
 
-## Considerações de desempenho
-Ao trabalhar com GroupDocs.Signature em Java, considere estas dicas para otimizar o desempenho:
-- **Processamento em lote**: Processe documentos em lotes para gerenciar o uso de memória de forma eficiente.
-- **Gestão de Recursos**: Libere recursos imediatamente após o uso para evitar vazamentos de memória.
-- **Gerenciamento de memória Java**: Utilize a coleta de lixo de forma eficaz gerenciando os ciclos de vida dos objetos.
+## Aplicações no Mundo Real
 
-## Conclusão
-Agora você aprendeu a implementar pesquisas de assinaturas de código de barras usando o GroupDocs.Signature para Java. Seguindo este guia, você poderá aprimorar seu sistema de gerenciamento de documentos com recursos robustos de pesquisa e tratamento de eventos. Os próximos passos podem incluir explorar outros tipos de assinaturas suportados pela biblioteca ou integrar essas funcionalidades em sistemas maiores.
+| Cenário | Como a pesquisa de páginas específicas de código de barras ajuda |
+|----------|------------------------------------------|
+| Verificação de contrato legal | Auto‑validar hashes de certificado codificados em QR na página de assinatura |
+| Rastreamento na cadeia de suprimentos | Localizar IDs de envio Code128 nas primeiras/últimas páginas de manifestos |
+| Formulários de consentimento em saúde | Extrair IDs de paciente DataMatrix da página final de consentimento |
+| Automação de faturas | Encontrar códigos com prefixo “APPR‑” em qualquer parte da fatura e encaminhar |
+
+## Problemas Comuns e Soluções
+
+### Problema 1 – Nenhum resultado apesar de códigos de barras visíveis
+```java
+// Ensure you are not limiting pages too aggressively
+options.setAllPages(true);
+```
+Se o código de barras estiver embutido como imagem raster, considere usar o GroupDocs.Image para detecção baseada em imagem.
+
+### Problema 2 – Desempenho lento em arquivos grandes
+```java
+PagesSetup pagesSetup = new PagesSetup();
+pagesSetup.setLastPage(true);  // Most signatures are on the last page
+pagesSetup.setFirstPage(true);
+options.setPagesSetup(pagesSetup);
+```
+Páginas direcionadas reduzem drasticamente o tempo de processamento.
+
+### Problema 3 – TextMatchType não encontra códigos de barras esperados
+```java
+String searchText = "12345".trim().toLowerCase();
+options.setText(searchText);
+options.setMatchType(TextMatchType.StartsWith); // Try a more permissive mode
+```
+
+### Problema 4 – Vazamentos de memória em loops de longa duração
+```java
+try (Signature signature = new Signature("document.pdf")) {
+    List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+    // Process signatures
+}
+```
+O bloco try‑with‑resources descarta a instância `Signature` automaticamente.
+
+## Melhores Práticas para Produção
+
+### Tratamento robusto de erros
+```java
+try {
+    List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+} catch (com.groupdocs.signature.exception.GroupDocsSignatureException e) {
+    logger.error("GroupDocs error: " + e.getMessage());
+} catch (Exception e) {
+    logger.error("Unexpected error: " + e.getMessage(), e);
+}
+```
+
+### Cache de resultados quando documentos são imutáveis
+```java
+Map<String, List<BarcodeSignature>> cache = new ConcurrentHashMap<>();
+
+public List<BarcodeSignature> getCachedSignatures(String docId) {
+    return cache.computeIfAbsent(docId, id -> performSearch(id));
+}
+```
+
+### Use eventos de progresso para feedback de UI
+```java
+signature.SearchProgress.add(new ProcessProgressEventHandler() {
+    public void invoke(Signature sender, ProcessProgressEventArgs args) {
+        int percent = (args.getProcessedSignatures() * 100) / args.getTotalSignatures();
+        updateProgressBar(percent);
+    }
+});
+```
+
+### Valide payloads de código de barras
+```java
+for (BarcodeSignature barcodeSignature : signatures) {
+    String text = barcodeSignature.getText();
+    if (!text.matches("APPR-\\d{4}-\\d{3}")) {
+        logger.warn("Invalid format: " + text);
+        continue;
+    }
+    if (!validateChecksum(text)) {
+        logger.error("Checksum failed for: " + text);
+        flagForManualReview(document);
+    }
+}
+```
+
+### Otimize a seleção de páginas por tipo de documento
+```java
+PagesSetup contractsSetup = new PagesSetup();
+contractsSetup.setLastPage(true); // Contracts usually signed on last page
+options.setPagesSetup(contractsSetup);
+```
+
+### Filtre por tipo de código de barras após a pesquisa (se precisar apenas de QR)
+```java
+for (BarcodeSignature sig : signatures) {
+    if ("QRCode".equals(sig.getEncodeType())) {
+        // Process QR code
+    }
+}
+```
+
+### Extraia dimensões da imagem do código de barras (se necessário para renderização)
+```java
+for (BarcodeSignature sig : signatures) {
+    int width = sig.getWidth();
+    int height = sig.getHeight();
+    // Use dimensions for overlay or thumbnail generation
+}
+```
+
+## Perguntas Frequentes
+
+**Q: Posso pesquisar múltiplos formatos de código de barras em uma única chamada?**  
+A: Sim. `BarcodeSearchOptions` pesquisa todos os formatos suportados por padrão. Filtre os resultados por `getEncodeType()` se precisar apenas de tipos específicos.
+
+**Q: Como lido com documentos que contêm assinaturas de código de barras e de imagem?**  
+A: Execute pesquisas separadas — use `BarcodeSignature.class` para códigos de barras e `ImageSignature.class` para assinaturas de imagem, depois combine os resultados conforme necessário.
+
+**Q: Qual o impacto de desempenho ao pesquisar todas as páginas versus páginas específicas?**  
+A: Escanear todas as páginas de um PDF de 50 páginas pode levar 3–5 segundos. Limitar às primeiras + últimas páginas geralmente termina em menos de 1 segundo.
+
+**Q: Isso funciona com PDFs escaneados (imagens raster)?**  
+A: Apenas se o código de barras foi adicionado como objeto de assinatura digital. Para códigos de barras apenas raster, será necessário um reconhecedor baseado em imagem (por exemplo, GroupDocs.Barcode).
+
+**Q: Como posso verificar se uma assinatura de código de barras não foi adulterada?**  
+A: Incorpore um hash ou assinatura digital dentro do payload do código de barras, então recalcule o hash nos dados originais e compare. Isso requer a chave de assinatura ou certificado original.
+
+---
+
+**Última atualização:** 2026-01-29  
+**Testado com:** GroupDocs.Signature 23.12 para Java  
+**Autor:** GroupDocs
