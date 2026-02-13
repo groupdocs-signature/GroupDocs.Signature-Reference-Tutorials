@@ -16,7 +16,7 @@ keywords:
 - signature verification
 - document protection
 linktitle: GroupDocs.Signature API Tutorials & Documentation
-title: 'Hướng dẫn API GroupDocs.Signature: Ký tài liệu kỹ thuật số cho .NET & Java'
+title: 'Hướng dẫn API GroupDocs.Signature - Ký tài liệu kỹ thuật số cho .NET & Java'
 type: docs
 url: /vi/
 weight: 11

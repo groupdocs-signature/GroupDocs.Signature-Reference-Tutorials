@@ -15,7 +15,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Κρυπτογράφηση Υπογραφής Εγγράφου Java: Προηγμένες Επιλογές Υπογραφής & Τεχνικές
+title: 'Κρυπτογράφηση Υπογραφής Εγγράφου Java - Προηγμένες Επιλογές Υπογραφής & Τεχνικές
   Κρυπτογράφησης'
 type: docs
 url: /el/java/advanced-options/

@@ -15,7 +15,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Versleutel Documenthandtekening Java: Geavanceerde ondertekeningsopties en
+title: 'Versleutel Documenthandtekening Java - Geavanceerde ondertekeningsopties en
   versleutelingstechnieken'
 type: docs
 url: /nl/java/advanced-options/

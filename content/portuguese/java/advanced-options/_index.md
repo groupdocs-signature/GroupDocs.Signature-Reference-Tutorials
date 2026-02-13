@@ -15,7 +15,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Criptografar Assinatura de Documento Java: Opções Avançadas de Assinatura
+title: 'Criptografar Assinatura de Documento Java - Opções Avançadas de Assinatura
   e Técnicas de Criptografia'
 type: docs
 url: /pt/java/advanced-options/

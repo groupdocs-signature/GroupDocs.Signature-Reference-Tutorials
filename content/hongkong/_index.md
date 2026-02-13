@@ -15,7 +15,7 @@ keywords:
 - signature verification
 - document protection
 linktitle: GroupDocs.Signature API Tutorials & Documentation
-title: GroupDocs.Signature API 教學：.NET 與 Java 的數位文件簽署
+title: GroupDocs.Signature API 教學 -.NET 與 Java 的數位文件簽署
 type: docs
 url: /zh-hant/
 weight: 11

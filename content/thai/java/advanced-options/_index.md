@@ -14,7 +14,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'เข้ารหัสลายเซ็นเอกสาร Java: ตัวเลือกการลงนามขั้นสูงและเทคนิคการเข้ารหัส'
+title: 'เข้ารหัสลายเซ็นเอกสาร Java - ตัวเลือกการลงนามขั้นสูงและเทคนิคการเข้ารหัส'
 type: docs
 url: /th/java/advanced-options/
 weight: 14

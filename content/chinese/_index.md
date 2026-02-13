@@ -15,7 +15,7 @@ keywords:
 - signature verification
 - document protection
 linktitle: GroupDocs.Signature API Tutorials & Documentation
-title: GroupDocs.Signature API 教程：.NET 与 Java 的数字文档签名
+title: GroupDocs.Signature API 教程 - .NET 与 Java 的数字文档签名
 type: docs
 url: /zh/
 weight: 11

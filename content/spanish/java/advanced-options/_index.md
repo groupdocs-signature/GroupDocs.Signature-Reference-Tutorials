@@ -15,7 +15,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Cifrar Firma de Documento Java: Opciones Avanzadas de Firma y Técnicas de
+title: 'Cifrar Firma de Documento Java - Opciones Avanzadas de Firma y Técnicas de
   Cifrado'
 type: docs
 url: /es/java/advanced-options/

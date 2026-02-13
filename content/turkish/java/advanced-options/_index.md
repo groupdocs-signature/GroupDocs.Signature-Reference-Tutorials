@@ -15,7 +15,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Belge İmzasını Şifrele Java: Gelişmiş İmza Seçenekleri ve Şifreleme Teknikleri'
+title: 'Belge İmzasını Şifrele Java - Gelişmiş İmza Seçenekleri ve Şifreleme Teknikleri'
 type: docs
 url: /tr/java/advanced-options/
 weight: 14

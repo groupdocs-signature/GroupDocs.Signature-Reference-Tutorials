@@ -16,7 +16,7 @@ keywords:
 - signature verification
 - document protection
 linktitle: GroupDocs.Signature API Tutorials & Documentation
-title: 'GroupDocs.Signature API Tutorial: Digitale Dokumentenunterzeichnung für .NET
+title: 'GroupDocs.Signature API Tutorial - Digitale Dokumentenunterzeichnung für .NET
   & Java'
 type: docs
 url: /de/

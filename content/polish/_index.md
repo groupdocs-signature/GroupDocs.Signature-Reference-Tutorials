@@ -16,7 +16,7 @@ keywords:
 - signature verification
 - document protection
 linktitle: GroupDocs.Signature API Tutorials & Documentation
-title: 'Samouczek API GroupDocs.Signature: Cyfrowe podpisywanie dokumentów dla .NET
+title: 'Samouczek API GroupDocs.Signature - Cyfrowe podpisywanie dokumentów dla .NET
   i Java'
 type: docs
 url: /pl/

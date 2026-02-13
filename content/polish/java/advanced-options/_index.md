@@ -15,7 +15,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Szyfrowanie podpisu dokumentu w Javie: Zaawansowane opcje podpisywania i techniki
+title: 'Szyfrowanie podpisu dokumentu w Javie - Zaawansowane opcje podpisywania i techniki
   szyfrowania'
 type: docs
 url: /pl/java/advanced-options/

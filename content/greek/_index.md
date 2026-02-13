@@ -16,7 +16,7 @@ keywords:
 - signature verification
 - document protection
 linktitle: GroupDocs.Signature API Tutorials & Documentation
-title: 'Οδηγός API του GroupDocs.Signature: Ψηφιακή Υπογραφή Εγγράφων για .NET & Java'
+title: 'Οδηγός API του GroupDocs.Signature - Ψηφιακή Υπογραφή Εγγράφων για .NET & Java'
 type: docs
 url: /el/
 weight: 11

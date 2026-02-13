@@ -15,7 +15,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Kryptera dokumentunderskrift Java: Avancerade signeringsalternativ och krypteringstekniker'
+title: 'Kryptera dokumentunderskrift Java - Avancerade signeringsalternativ och krypteringstekniker'
 type: docs
 url: /sv/java/advanced-options/
 weight: 14

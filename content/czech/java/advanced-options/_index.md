@@ -15,7 +15,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Šifrování podpisu dokumentu v Javě: Pokročilé možnosti podepisování a šifrovací
+title: 'Šifrování podpisu dokumentu v Javě - Pokročilé možnosti podepisování a šifrovací
   techniky'
 type: docs
 url: /cs/java/advanced-options/

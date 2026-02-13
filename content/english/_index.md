@@ -1,5 +1,5 @@
 ---
-title: "GroupDocs.Signature API Tutorial: Digital Document Signing for .NET & Java"
+title: "GroupDocs.Signature API Tutorial - Digital Document Signing for .NET & Java"
 linktitle: GroupDocs.Signature API Tutorials & Documentation
 additionalTitle: GroupDocs Official API References
 description: "Explore the GroupDocs.Signature API tutorial for secure digital document signing in .NET and Java. Learn how to implement, verify, and protect PDFs, Word, Excel, PowerPoint, and image files."

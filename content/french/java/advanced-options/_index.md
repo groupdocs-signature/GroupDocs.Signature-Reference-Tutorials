@@ -15,7 +15,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Chiffrer la signature de document Java : options de signature avancées et
+title: 'Chiffrer la signature de document Java - options de signature avancées et
   techniques de chiffrement'
 type: docs
 url: /fr/java/advanced-options/

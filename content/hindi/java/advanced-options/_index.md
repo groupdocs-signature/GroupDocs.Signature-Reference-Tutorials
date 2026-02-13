@@ -15,7 +15,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'डॉक्यूमेंट सिग्नेचर जावा को एन्क्रिप्ट करें: उन्नत साइनिंग विकल्प और एन्क्रिप्शन
+title: 'डॉक्यूमेंट सिग्नेचर जावा को एन्क्रिप्ट करें - उन्नत साइनिंग विकल्प और एन्क्रिप्शन
   तकनीकें'
 type: docs
 url: /hi/java/advanced-options/

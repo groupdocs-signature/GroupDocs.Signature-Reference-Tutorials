@@ -15,7 +15,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Dokumentensignatur in Java verschlüsseln: Erweiterte Signieroptionen & Verschlüsselungstechniken'
+title: 'Dokumentensignatur in Java verschlüsseln - Erweiterte Signieroptionen & Verschlüsselungstechniken'
 type: docs
 url: /de/java/advanced-options/
 weight: 14

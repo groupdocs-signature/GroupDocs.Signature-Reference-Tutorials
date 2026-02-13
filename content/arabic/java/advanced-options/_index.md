@@ -14,7 +14,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'تشفير توقيع المستند في جافا: خيارات توقيع متقدمة وتقنيات التشفير'
+title: 'تشفير توقيع المستند في جافا - خيارات توقيع متقدمة وتقنيات التشفير'
 type: docs
 url: /ar/java/advanced-options/
 weight: 14

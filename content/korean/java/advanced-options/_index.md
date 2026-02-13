@@ -14,7 +14,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: '문서 서명 암호화 Java: 고급 서명 옵션 및 암호화 기술'
+title: '문서 서명 암호화 Java - 고급 서명 옵션 및 암호화 기술'
 type: docs
 url: /ko/java/advanced-options/
 weight: 14

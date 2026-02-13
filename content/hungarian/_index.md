@@ -16,7 +16,7 @@ keywords:
 - signature verification
 - document protection
 linktitle: GroupDocs.Signature API Tutorials & Documentation
-title: 'GroupDocs.Signature API útmutató: Digitális dokumentum aláírás .NET és Java
+title: 'GroupDocs.Signature API útmutató - Digitális dokumentum aláírás .NET és Java
   számára'
 type: docs
 url: /hu/

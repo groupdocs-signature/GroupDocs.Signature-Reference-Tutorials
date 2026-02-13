@@ -15,7 +15,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Dokumentum-aláírás titkosítása Java: Fejlett aláírási lehetőségek és titkosítási
+title: 'Dokumentum-aláírás titkosítása Java - Fejlett aláírási lehetőségek és titkosítási
   technikák'
 type: docs
 url: /hu/java/advanced-options/

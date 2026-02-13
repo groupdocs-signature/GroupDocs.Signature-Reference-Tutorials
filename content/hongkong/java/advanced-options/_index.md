@@ -13,7 +13,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 加密文件簽署 Java：進階簽署選項與加密技術
+title: 加密文件簽署 Java - 進階簽署選項與加密技術
 type: docs
 url: /zh-hant/java/advanced-options/
 weight: 14

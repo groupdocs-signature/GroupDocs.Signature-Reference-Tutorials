@@ -14,7 +14,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Mã hóa Chữ ký Tài liệu Java: Các tùy chọn ký nâng cao & Kỹ thuật mã hóa'
+title: 'Mã hóa Chữ ký Tài liệu Java - Các tùy chọn ký nâng cao & Kỹ thuật mã hóa'
 type: docs
 url: /vi/java/advanced-options/
 weight: 14

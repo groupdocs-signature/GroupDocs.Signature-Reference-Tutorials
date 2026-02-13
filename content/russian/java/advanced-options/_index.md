@@ -15,7 +15,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Шифрование подписи документа Java: расширенные параметры подписи и методы
+title: 'Шифрование подписи документа Java - расширенные параметры подписи и методы
   шифрования'
 type: docs
 url: /ru/java/advanced-options/

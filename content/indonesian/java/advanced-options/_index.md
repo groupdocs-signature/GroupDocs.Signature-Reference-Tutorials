@@ -15,7 +15,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Enkripsi Tanda Tangan Dokumen Java: Opsi Penandatanganan Lanjutan & Teknik
+title: 'Enkripsi Tanda Tangan Dokumen Java - Opsi Penandatanganan Lanjutan & Teknik
   Enkripsi'
 type: docs
 url: /id/java/advanced-options/

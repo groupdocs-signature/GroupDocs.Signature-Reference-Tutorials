@@ -13,7 +13,7 @@ tags:
 - qr-code-signing
 - digital-signatures
 - secure-documents
-title: 'Javaで文書署名を暗号化: 高度な署名オプションと暗号化技術'
+title: 'Javaで文書署名を暗号化 - 高度な署名オプションと暗号化技術'
 type: docs
 url: /ja/java/advanced-options/
 weight: 14
