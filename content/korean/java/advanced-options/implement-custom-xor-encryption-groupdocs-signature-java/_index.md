@@ -20,66 +20,68 @@ url: /ko/java/advanced-options/implement-custom-xor-encryption-groupdocs-signatu
 weight: 1
 ---
 
-# XOR Encryption Java - Simple Custom Implementation with GroupDocs.Signature
+# XOR 암호화 Java - GroupDocs.Signature를 사용한 간단한 사용자 정의 구현
 
-## Introduction
+## 소개
 
-복잡한 암호화 라이브러리를 사용하지 않고도 Java 애플리케이션에 빠른 암호화 레이어를 추가하고 싶으신가요? 혼자가 아닙니다. 많은 개발자들이 데이터 난독화, 테스트 환경, 교육 목적 등으로 가벼운 암호화를 필요로 하는데, 바로 그때 XOR 암호화가 빛을 발합니다.
+대용량 라이브러리를 사용하지 않는 Java 기능에 빠른 레이어 레이어를 추가하고 있고 가요? 혼자가 아닙니다. 많은 개발자들이 난독화, 테스트 환경, 교육 목적 등으로 가벼운 레이어를 필요로 하는 경우, 바로 그때 XOR 렌즈가 빛을 발합니다.
 
-핵심은 이렇습니다: XOR 암호화는 국가 기밀을 보호하기에는 적합하지 않지만(그 부분은 나중에 다루겠습니다), 암호화 기본 원리를 이해하고 **create custom data encryption**을 Java 프로젝트에 구현하기에 완벽합니다. 또한 GroupDocs.Signature for Java와 결합하면 문서 워크플로우를 안전하게 보호할 수 있는 강력한 툴킷을 얻을 수 있습니다.
+이렇습니다: XOR 라이브러리는 국가를 보호하기 위해 적합하지 않은 부분은 핵심입니다. GroupDocs.Signature for Java와 결합 문서 커뮤니티를 안전하게 보호할 수 있는 툴킷을 따라 얻을 수 있습니다.
 
-**이 가이드에서 확인할 내용:**
-- XOR 암호화가 정확히 무엇이며 언제 사용해야 하는지
-- 처음부터 맞춤형 XOR 암호화 클래스를 만드는 방법
-- 실제 문서 보안을 위해 XOR 암호화를 GroupDocs.Signature와 통합하는 방법
-- 개발자가 흔히 마주치는 함정과 회피 방법
-- 단순히 “데이터를 암호화”하는 것을 넘어선 실용적인 활용 사례
+**이 가이드의 내용:**
+- XOR 필러가 정확히 무엇인지 언제 사용하는가?
+- 처음부터 XOR 클러스터를 만드는 방법
+- 실제 문서 보안을 위해 XOR 라이브러리를 GroupDocs.Signature와 통합하는 방법
+- 개발자들이 흔히 마주치는 것과 관련된 방법
+- 간단하게 “데이터를 수집하는 것”을 능률적으로 활용하는 요소
 
-프로토타입을 만들든, 암호화 학습을 하든, 간단한 난독화 레이어가 필요하든, 이 튜토리얼만 따라 하면 됩니다. 기본부터 시작해 보겠습니다.
+왼손잡이를 만드는 법, 왼손잡이를 배우기 위해 필요한 요리, 이 튜토리얼만 따라야 합니다. 기본부터 시작합니다.
 
-## Quick Answers
-- **What is XOR encryption?** A simple symmetric operation that flips bits using a key; the same routine encrypts and decrypts data.  
-- **When should I use create custom data encryption with XOR?** For learning, quick prototyping, or non‑critical data obfuscation.  
-- **Do I need a special license for GroupDocs.Signature?** A free trial works for development; a paid license is required for production.  
-- **Can I encrypt large files?** Yes—use streaming (process data in chunks) to avoid memory issues.  
-- **Is XOR safe for sensitive data?** No—use AES‑256 or another strong algorithm for confidential information.
+## 빠른 답변
+- **XOR 암호화란 무엇입니까?** 키를 사용하여 비트를 뒤집는 간단한 대칭 연산입니다. 동일한 루틴이 데이터를 암호화하고 해독합니다.
+- **XOR을 사용하여 사용자 정의 데이터 암호화 생성을 언제 사용해야 합니까?** 학습, 빠른 프로토타이핑 또는 중요하지 않은 데이터 난독화를 위해.
+- **GroupDocs.Signature에 대한 특별 라이센스가 필요합니까?** 무료 평가판은 개발에 적합합니다. 생산에는 유료 라이센스가 필요합니다.
+- **대용량 파일도 암호화할 수 있나요?** 네, 가능합니다. 메모리 문제를 방지하기 위해 스트리밍(데이터를 청크 단위로 처리) 방식을 사용하세요.
 
-## What is **create custom data encryption** with XOR in Java?
+- **XOR 암호화는 민감한 데이터에 안전한가요?** 아니요, 기밀 정보에는 AES-256 또는 다른 강력한 알고리즘을 사용하세요.
 
-XOR encryption works by applying the exclusive‑OR (^) operator between each byte of your data and a secret key byte. Because XOR is its own inverse, the same method both encrypts and decrypts, making it ideal for a lightweight **create custom data encryption** solution.
+## Java에서 XOR을 사용한 **맞춤 데이터 암호화**란 무엇인가요?
 
-## Why Choose XOR Encryption?
+XOR 암호화는 데이터의 각 바이트와 비밀 키 바이트 사이에 배타적 논리합(^) 연산자를 적용하여 작동합니다. XOR은 역연산자이므로 암호화와 복호화 모두 동일한 방식으로 수행되어 가볍고 간편한 **맞춤 데이터 암호화** 솔루션에 적합합니다.
 
-Before we dive into code, let's address the elephant in the room: why XOR?
+## XOR 암호화를 선택하는 이유는 무엇인가요?
 
-XOR (exclusive OR) encryption is like the Honda Civic of encryption algorithms—simple, reliable, and great for learning. Here's when it makes sense:
+코드를 살펴보기 전에, 가장 중요한 질문인 "왜 XOR을 선택해야 할까요?"에 대해 알아보겠습니다.
 
-**Perfect for:**
-- **Educational purposes** – Understanding encryption basics without cryptographic complexity
-- **Data obfuscation** – Hiding data in transit where military‑grade security isn’t needed
-- **Quick prototyping** – Testing encryption workflows before implementing production algorithms
-- **Legacy system integration** – Some older systems still use XOR‑based schemes
-- **Performance‑critical scenarios** – XOR operations are blazingly fast
+XOR(배타적 논리합) 암호화는 암호화 알고리즘계의 혼다 시빅과 같습니다. 간단하고, 안정적이며, 배우기 쉽습니다. 다음과 같은 경우에 XOR 방식이 적합합니다.
 
-**Not ideal for:**
-- Banking applications or sensitive personal data (use AES instead)
-- Regulatory compliance scenarios (GDPR, HIPAA, etc.)
-- Protection against sophisticated attackers
+**적합한 용도:**
+- **교육 목적** – 복잡한 암호화 기술 없이 암호화의 기본 원리를 이해하는 데 도움
+- **데이터 난독화** – 군사급 보안이 필요하지 않은 경우, 전송 중인 데이터를 숨기는 데 적합
+- **빠른 프로토타이핑** – 실제 운영 환경에 적용할 알고리즘을 구현하기 전에 암호화 워크플로우를 테스트하는 데 적합
+- **레거시 시스템 통합** – 일부 구형 시스템은 여전히 ​​XOR 기반 암호화 방식을 사용하고 있음
 
-Think of XOR as a lock on your bedroom door—it keeps casual intruders out but won’t stop a determined burglar. For those situations, you'll want industrial‑strength algorithms like AES‑256.
+- **성능이 중요한 시나리오** – XOR 연산은 매우 빠른 속도를 제공함
 
-## Understanding XOR Encryption Basics
+**다음과 같은 경우에는 적합하지 않음:**
+- 은행 업무 또는 민감한 개인 정보(대신 AES를 사용)
+- 규제 준수 시나리오(GDPR, HIPAA 등)
+- 고도화된 공격자로부터의 보호
 
-Let's demystify how XOR encryption actually works (it's simpler than you think).
+XOR 방식은 침실 문에 달린 자물쇠와 같습니다. 일반적인 침입자는 막아주지만, 작정하고 침입하려는 도둑은 막을 수 없습니다. 이러한 상황에서는 AES-256과 같은 강력한 알고리즘을 사용하는 것이 좋습니다.
 
-**The XOR Operation:**  
-XOR compares two bits and returns:
-- `1` if the bits are different  
-- `0` if the bits are the same  
+## XOR 암호화의 기본 이해
 
-Here's the beautiful part: **XOR encryption and decryption use the exact same operation**. That's right—the same code encrypts and decrypts your data.
+XOR 암호화가 실제로 어떻게 작동하는지 알아봅시다(생각보다 간단합니다).
 
-**Quick Example:**
+**XOR 연산:**
+XOR 연산은 두 비트를 비교하여 다음과 같은 결과를 반환합니다.
+- 비트가 다르면 `1`
+- 비트가 같으면 `0`
+
+여기서 놀라운 점은 **XOR 암호화와 복호화에 동일한 연산이 사용된다는 것입니다.** 맞습니다. 동일한 코드로 데이터를 암호화하고 복호화할 수 있습니다.
+
+**간단한 예시:**
 ```
 Original:  01001000 (letter 'H')
 Key:       01011010 (our secret key)
@@ -91,32 +93,32 @@ Key:       01011010 (same key)
 Original:  01001000 (letter 'H' again!)
 ```
 
-This symmetry makes XOR incredibly efficient—one method does both jobs. The catch? Anyone with your key can decrypt the data instantly, which is why key management matters (even with simple XOR).
+이러한 대칭성 덕분에 XOR 연산은 매우 효율적입니다. 하나의 방법으로 두 가지 작업을 모두 수행할 수 있기 때문입니다. 하지만 단점도 있습니다. 키를 가진 사람은 누구나 데이터를 즉시 복호화할 수 있습니다. 바로 이 때문에 키 관리가 중요합니다(단순 XOR 연산에서도 마찬가지입니다).
 
-## Prerequisites
+## 사전 준비 사항
 
-Before we start coding, let's make sure you're set up for success.
+코딩을 시작하기 전에, 성공적인 코딩을 위해 필요한 준비가 완료되었는지 확인해 보겠습니다.
 
-**What You'll Need:**
-- **Java Development Kit (JDK):** Version 8 or higher (I recommend JDK 11+ for better performance)
-- **IDE:** IntelliJ IDEA, Eclipse, or VS Code with Java extensions
-- **Build Tool:** Maven or Gradle (examples provided for both)
-- **GroupDocs.Signature:** Version 23.12 or later
+**필요한 것:**
+- **Java 개발 키트(JDK):** 버전 8 이상 (성능 향상을 위해 JDK 11 이상을 권장합니다)
+- **IDE:** IntelliJ IDEA, Eclipse 또는 VSCode (Java 확장 프로그램 설치 필요)
+- **빌드 도구:** Maven 또는 Gradle (두 가지 모두 예제 제공)
+- **GroupDocs.Signature:** 버전 23.12 이상
 
-**Knowledge Requirements:**
-- Basic Java syntax (classes, methods, arrays)
-- Understanding of interfaces in Java
-- Familiarity with byte arrays (we'll work with those a lot)
-- General concept of encryption (you just learned XOR basics, so you're good!)
+**필요 지식:**
+- 기본 Java 구문 (클래스, 메서드, 배열)
+- Java 인터페이스에 대한 이해
+- 바이트 배열에 대한 지식 (자주 사용하게 될 것입니다)
+- 암호화에 대한 기본적인 개념 (XOR 기본 개념을 이미 학습했으므로 문제없습니다!)
 
-**Time Commitment:** About 30‑45 minutes to implement and test
+**소요 시간:** 구현 및 테스트에 약 30~45분
 
-## Setting Up GroupDocs.Signature for Java
+## Java용 GroupDocs.Signature 설정
 
-GroupDocs.Signature for Java is your Swiss Army knife for document operations—signing, verification, metadata handling, and (relevant to us) encryption support. Here's how to add it to your project.
+Java용 GroupDocs.Signature는 문서 작업(서명, 검증, 메타데이터 처리, 그리고 특히 우리에게 중요한 암호화)을 위한 만능 도구입니다. 지원 기능을 추가하는 방법은 다음과 같습니다.
 
-**Maven Setup:**  
-Add this dependency to your `pom.xml`:
+**Maven 설정:**
+`pom.xml` 파일에 다음 종속성을 추가하세요.
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -125,49 +127,49 @@ Add this dependency to your `pom.xml`:
 </dependency>
 ```
 
-**Gradle Setup:**  
-For Gradle users, add this to your `build.gradle`:
+**Gradle 설정:**
+Gradle 사용자는 `build.gradle` 파일에 다음 내용을 추가하세요.
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Direct Download Alternative:**  
-Prefer manual installation? Download the JAR directly from [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) and add it to your project's classpath.
+**직접 다운로드:**
+수동 설치를 선호하시나요? [GroupDocs.Signature의 Java 릴리스](https://releases.groupdocs.com/signature/java/)에서 JAR 파일을 직접 다운로드하여 프로젝트의 클래스패스에 추가하세요.
 
-### License Acquisition
+### 라이선스 구매
 
-GroupDocs.Signature offers flexible licensing options:
+GroupDocs.Signature는 다양한 라이선스 옵션을 제공합니다.
 
-- **Free Trial:** Perfect for evaluation—test all features with some limitations. [Start your trial](https://releases.groupdocs.com/signature/java/)
-- **Temporary License:** Need more time? Get a 30‑day temporary license with full functionality. [Request here](https://purchase.groupdocs.com/temporary-license/)
-- **Full License:** For production use, purchase a license based on your needs. [View pricing](https://purchase.groupdocs.com/buy)
+- **무료 체험판:** 평가용으로 적합하며, 일부 제한 사항이 있지만 모든 기능을 테스트할 수 있습니다. [체험판 시작하기](https://releases.groupdocs.com/signature/java/)
+- **임시 라이선스:** 더 많은 시간이 필요하신가요? 모든 기능을 사용할 수 있는 30일 임시 라이선스를 받으세요. [여기서 요청하기](https://purchase.groupdocs.com/temporary-license/)
+- **정식 라이선스:** 실제 사용 환경에서는 필요에 따라 라이선스를 구매하세요. [가격 보기](https://purchase.groupdocs.com/buy)
 
-**Pro Tip:** Start with the free trial to ensure GroupDocs.Signature meets your requirements before purchasing.
+**팁:** 구매하기 전에 무료 평가판을 사용해 GroupDocs.Signature가 요구 사항을 충족하는지 확인하세요.
 
-**Basic Initialization:**  
-Once you've added the dependency, initializing GroupDocs.Signature is straightforward:
+**기본 초기화:**
+종속성을 추가한 후 GroupDocs.Signature를 초기화하는 것은 간단합니다.
 ```java
 Signature signature = new Signature("path/to/your/document");
 ```
 
-This creates a `Signature` instance pointing to your target document. From here, you can apply various operations including our custom encryption (which we're about to build).
+이렇게 하면 대상 문서를 가리키는 `Signature` 인스턴스가 생성됩니다. 여기에서 사용자 지정 암호화(곧 만들 예정)를 포함한 다양한 작업을 적용할 수 있습니다.
 
-## Implementation Guide: Building Your Custom XOR Encryption
+## 구현 가이드: 사용자 지정 XOR 암호화 구축
 
-Now for the fun part—let's build a working XOR encryption class from scratch. I'll walk you through each piece so you understand not just the "what" but the "why."
+이제 재미있는 부분입니다. 처음부터 작동하는 XOR 암호화 클래스를 만들어 보겠습니다. 각 단계를 자세히 설명하여 "무엇을" 하는지뿐만 아니라 "왜" 하는지까지 이해할 수 있도록 도와드리겠습니다.
 
-### How to **create custom data encryption** with XOR in Java
+### Java에서 XOR을 사용하여 **사용자 지정 데이터 암호화**를 만드는 방법
 
-#### Step 1: Import Required Libraries
+#### 1단계: 필요한 라이브러리 가져오기
 
-First, we need to import the `IDataEncryption` interface from GroupDocs:
+먼저 GroupDocs에서 `IDataEncryption` 인터페이스를 가져와야 합니다.
 ```java
 import com.groupdocs.signature.domain.extensions.encryption.IDataEncryption;
 ```
 
-#### Step 2: Define the CustomXOREncryption Class
+#### 2단계: CustomXOREncryption 클래스 정의
 
-Here's our complete implementation with detailed explanations:
+다음은 자세한 설명과 함께 전체 구현 코드입니다.
 
 ```java
 public class CustomXOREncryption implements IDataEncryption {
@@ -192,30 +194,30 @@ public class CustomXOREncryption implements IDataEncryption {
 }
 ```
 
-**Let's Break This Down:**
+**자세히 살펴보겠습니다.**
 
-- **Encryption Method:**  
-  - **Parameter:** `byte[] data` – raw data as a byte array (text, document content, etc.)  
-  - **Key Selection:** `byte key = 0x5A` – our XOR key (hex 5A = decimal 90). In production, you'd pass this as a constructor argument for flexibility.  
-  - **Loop:** Iterates through each byte, applying `data[i] ^ key`.  
-  - **Return:** A new byte array containing the encrypted data.
+- **암호화 방식:**
+- **매개변수:** `byte[] data` – 바이트 배열 형태의 원시 데이터(텍스트, 문서 내용 등)
+- **키 선택:** `byte key = 0x5A` – XOR 키(16진수 5A = 10진수 90). 실제 사용 환경에서는 유연성을 위해 생성자 인수로 전달할 수 있습니다.
+- **반복문:** 각 바이트를 순회하며 `data[i] ^ key`를 적용합니다.
+- **반환값:** 암호화된 데이터가 포함된 새로운 바이트 배열
+- **복호화 방식:**
 
-- **Decryption Method:**  
-  - Calls `encrypt(data)` because XOR is symmetric.
+- XOR 연산이 대칭적이므로 `encrypt(data)`를 호출합니다.
 
-**Why This Design Works:**  
-1. Implements `IDataEncryption`, making it compatible with GroupDocs.Signature.  
-2. Operates on byte arrays, so it works with any file type.  
-3. Keeps the logic short and easy to audit.
+**이 설계가 효과적인 이유:**
+1. `IDataEncryption` 인터페이스를 구현하여 GroupDocs.Signature와 호환됩니다.
+2. 바이트 배열을 사용하므로 모든 파일 형식에서 작동합니다.
+3. 로직을 간결하게 유지하고 감사를 용이하게 합니다.
 
-**Customization Ideas:**  
-- Pass the key via constructor for dynamic keys.  
-- Use a multi‑byte key array and cycle through it.  
-- Add a simple key‑scheduling algorithm for extra variability.
+**사용자 지정 아이디어:**
+- 생성자를 통해 키를 전달하여 동적 키를 사용할 수 있습니다.
+- 멀티바이트 키 배열을 사용하고 이를 순환적으로 처리합니다.
+- 다양한 키 생성을 위해 간단한 키 스케줄링 알고리즘을 추가할 수 있습니다.
 
-#### Step 3: Use Your Encryption with GroupDocs.Signature
+#### 3단계: GroupDocs.Signature를 사용하여 암호화 구현
 
-Now that we have our encryption class, let's integrate it with GroupDocs.Signature for real document protection:
+이제 암호화 클래스가 완성되었으므로, GroupDocs.Signature와 통합하여 실제 문서 보호 기능을 구현해 보겠습니다.
 
 ```java
 // Initialize signature with your document
@@ -232,40 +234,40 @@ options.setDataEncryption(encryption);
 signature.sign("signed_document.pdf", options);
 ```
 
-**What's Happening Here:**  
-1. We create a `Signature` object for the target document.  
-2. Instantiate our custom encryption class.  
-3. Configure signing options (QR code signatures in this example) to use our encryption.  
-4. Sign the document—GroupDocs automatically encrypts the sensitive data using our XOR implementation.
+**여기서 일어나는 일:**
+1. 대상 문서에 대한 `Signature` 객체를 생성합니다.
+2. 사용자 지정 암호화 클래스의 인스턴스를 생성합니다.
+3. 암호화를 사용하도록 서명 옵션(이 예에서는 QR 코드 서명)을 구성합니다.
+4. 문서에 서명합니다. GroupDocs는 XOR 구현을 사용하여 민감한 데이터를 자동으로 암호화합니다.
 
-## Common Pitfalls and How to Avoid Them
+## 일반적인 문제점 및 방지 방법
 
-Even with simple implementations like XOR, developers run into predictable issues. Here's what to watch out for (based on real troubleshooting sessions):
+XOR과 같은 간단한 구현에서도 개발자는 예측 가능한 문제에 직면할 수 있습니다. 실제 문제 해결 세션을 기반으로 주의해야 할 사항은 다음과 같습니다.
 
-**1. Key Management Mistakes**  
-- **Problem:** Hardcoding keys in source code (like our example does)  
-- **Solution:** In production, load keys from environment variables or secure configuration files  
-- **Example:** `byte key = Byte.parseByte(System.getenv("XOR_KEY"));`
+**1. 키 관리 오류**
+- **문제:** 소스 코드에 키를 하드코딩하는 경우(예제처럼)
+- **해결 방법:** 실제 환경에서는 환경 변수 또는 보안 구성 파일에서 키를 로드합니다.
+- **예제:** `byte key = Byte.parseByte(System.getenv("XOR_KEY"));`
 
-**2. Null Pointer Exceptions**  
-- **Problem:** Passing `null` byte arrays to `encrypt`/`decrypt` methods  
-- **Solution:** Add null checks at the start of your methods:
+**2. 널 포인터 예외**
+- **문제:** `encrypt`/`decrypt` 메서드에 `null` 바이트 배열을 전달하는 경우
+- **해결 방법:** 메서드 시작 부분에 null 검사를 추가하세요.
 ```java
 if (data == null) {
     throw new IllegalArgumentException("Data cannot be null");
 }
 ```
 
-**3. Character Encoding Issues**  
-- **Problem:** Converting strings to bytes without specifying encoding  
-- **Solution:** Always specify charset explicitly:  
+**3. 문자 인코딩 문제**
+- **문제:** 인코딩을 지정하지 않고 문자열을 바이트로 변환하는 경우
+- **해결책:** 항상 문자 집합을 명시적으로 지정해야 합니다. 
 ```java
 byte[] data = myString.getBytes(StandardCharsets.UTF_8);
 ```
 
-**4. Memory Concerns with Large Files**  
-- **Problem:** Loading entire large files into memory as byte arrays  
-- **Solution:** For files over 100 MB, implement streaming encryption:
+**4. 대용량 파일 처리 시 메모리 문제**
+- **문제:** 대용량 파일 전체를 바이트 배열로 메모리에 로드하는 경우
+- **해결책:** 100MB 이상의 파일에는 스트리밍 암호화를 구현해야 합니다.
 ```java
 // Process in chunks instead of loading entire file
 BufferedInputStream input = new BufferedInputStream(new FileInputStream(file));
@@ -276,9 +278,9 @@ while ((bytesRead = input.read(buffer)) != -1) {
 }
 ```
 
-**5. Forgetting Exception Handling**  
-- **Problem:** The `IDataEncryption` interface declares `throws Exception`—you need to handle potential errors  
-- **Solution:** Wrap operations in try‑catch blocks:
+**5. 예외 처리 누락**
+- **문제:** `IDataEncryption` 인터페이스는 `throws Exception`을 선언하므로 발생 가능한 오류를 처리해야 합니다.
+- **해결책:** 모든 작업을 try-catch 블록으로 감싸야 합니다.
 ```java
 try {
     byte[] encrypted = encryption.encrypt(data);
@@ -288,23 +290,23 @@ try {
 }
 ```
 
-## Performance Considerations
+## 성능 고려 사항
 
-XOR encryption is blazingly fast—but when you pair it with GroupDocs.Signature, there are still performance factors to keep in mind.
+XOR 암호화는 매우 빠르지만, GroupDocs.Signature와 함께 사용할 때는 몇 가지 성능 요소를 고려해야 합니다.
 
-### Memory Management Best Practices
+### 메모리 관리 모범 사례
 
-1. **Close Resources Promptly**
+1. **리소스는 즉시 종료**
 ```java
 try (Signature signature = new Signature("document.pdf")) {
     // Your operations here
 } // Automatically closes and releases resources
 ```
 
-2. **Process Large Files in Chunks**  
-(see the streaming example above)
+2. **대용량 파일은 청크 단위로 처리**
+(위의 스트리밍 예시 참조)
 
-3. **Reuse Encryption Instances**  
+3. **암호화 인스턴스를 재사용**  
 ```java
 CustomXOREncryption encryption = new CustomXOREncryption();
 for (Document doc : documents) {
@@ -312,95 +314,110 @@ for (Document doc : documents) {
 }
 ```
 
-### Optimization Tips
+### 최적화 팁
 
-- **Parallel Processing:** Use Java parallel streams for batch operations.  
-- **Buffer Sizes:** Experiment with 4 KB‑16 KB buffers for optimal I/O.  
-- **JIT Warm‑up:** The JVM will optimize the XOR loop after a few runs.
+- **병렬 처리:** 배치 작업에는 Java 병렬 스트림을 사용하세요.
 
-**Benchmark Expectations (modern hardware):**  
-- Small files (< 1 MB): < 10 ms  
-- Medium files (1‑50 MB): < 500 ms  
-- Large files (50‑500 MB): 1‑5 s with streaming
+- **버퍼 크기:** 최적의 I/O를 위해 4KB~16KB 버퍼를 사용해 보세요.
 
-If you see slower performance, review your I/O code rather than the XOR itself.
+- **JIT 워밍업:** JVM은 몇 번 실행 후 XOR 루프를 최적화합니다.
 
-## Practical Applications: When to **create custom data encryption** with XOR
+**벤치마크 예상 결과(최신 하드웨어):**
+- 작은 파일(<1MB): <10ms
+- 중간 파일(1~50MB): <500ms
+- 큰 파일(50~500MB): 스트리밍 시 1~5초
 
-You've built the encryption—now what? Here are real‑world scenarios where a lightweight **create custom data encryption** approach makes sense:
+성능이 저하되는 경우 XOR 자체보다는 I/O 코드를 검토하세요.
 
-1. **Secure Document Workflows** – Encrypt metadata (approver names, timestamps) before embedding in QR codes or digital signatures.  
-2. **Data Obfuscation in Logs** – XOR‑encrypt usernames or IDs before writing to log files to protect privacy while keeping logs readable for debugging.  
-3. **Educational Projects** – Perfect starter code for cryptography courses.  
-4. **Legacy System Integration** – Communicate with older systems that expect XOR‑obfuscated payloads.  
-5. **Testing Encryption Workflows** – Use XOR as a placeholder during development; swap in AES later.
+## 실제 적용 사례: XOR을 사용하여 **사용자 지정 데이터 암호화**를 구현해야 하는 경우
 
-## Troubleshooting Tips
+암호화를 구현했다면, 이제 어떻게 해야 할까요? 다음은 가벼운 **사용자 지정 데이터 암호화** 접근 방식이 유용한 실제 시나리오입니다.
 
-| Problem | Likely Cause | Fix |
+1. **보안 문서 워크플로** – QR 코드 또는 디지털 서명에 삽입하기 전에 메타데이터(승인자 이름, 타임스탬프)를 암호화합니다.
+
+2. **로그 데이터 난독화** – 로그 파일에 기록하기 전에 사용자 이름이나 ID를 XOR 암호화하여 개인 정보를 보호하면서 디버깅을 위해 로그를 읽을 수 있도록 합니다.
+
+3. **교육 프로젝트** – 암호학 강좌를 위한 완벽한 시작 코드입니다.
+
+4. **레거시 시스템 통합** – XOR 난독화된 페이로드를 기대하는 기존 시스템과 통신합니다.
+
+5. **암호화 워크플로 테스트** – 개발 중에 XOR을 임시로 사용하고 나중에 AES로 교체합니다.
+
+## 문제 해결 팁
+
+| 문제 | 예상 원인 | 해결 방법 |
+
 |---------|--------------|-----|
-| `NoClassDefFoundError` | GroupDocs JAR missing | Verify Maven/Gradle dependency, run `mvn clean install` or `gradle clean build` |
-| Encrypted data looks unchanged | XOR key is `0x00` | Choose a non‑zero key (e.g., `0x5A`) |
-| `OutOfMemoryError` on large docs | Loading whole file into memory | Switch to streaming (see code above) |
-| Decryption yields garbage | Different key used for decrypt | Ensure same key; store/retrieve securely |
-| JDK compatibility warnings | Using older JDK | Upgrade to JDK 11+ |
 
-**Still Stuck?** Check the [GroupDocs Support Forum](https://forum.groupdocs.com/c/signature/) where the community and support team can help.
+| `NoClassDefFoundError` | GroupDocs JAR 파일이 없습니다 | Maven/Gradle 종속성을 확인하고 `mvn clean install` 또는 `gradle clean build`를 실행하세요 |
 
-## Frequently Asked Questions
+암호화된 데이터가 변경되지 않았습니다 | XOR 키가 `0x00`입니다 | 0이 아닌 키(예: `0x5A`)를 선택하세요 |
 
-**Q: Is XOR encryption secure enough for production use?**  
-A: No. XOR is vulnerable to known‑plaintext attacks and shouldn't protect critical data like passwords or PII. Use AES‑256 for production‑grade security.
+대용량 문서에서 `OutOfMemoryError`가 발생했습니다 | 전체 파일을 메모리에 로드하는 중입니다 | 스트리밍으로 전환하세요(위 코드 참조) |
 
-**Q: Can I use GroupDocs.Signature for free?**  
-A: Yes, a free trial gives full functionality for evaluation. For production you’ll need a paid or temporary license.
+복호화 결과가 이상합니다 | 복호화에 다른 키를 사용했습니다 | 동일한 키를 사용하고 안전하게 저장/검색하세요 |
 
-**Q: How do I configure my Maven project to include GroupDocs.Signature?**  
-A: Add the dependency shown in the “Maven Setup” section to `pom.xml`. Run `mvn clean install` to download the library.
+JDK 호환성 경고가 있습니다 | 이전 버전의 JDK를 사용 중입니다 | JDK 11 이상으로 업그레이드하세요 |
 
-**Q: What are common issues when implementing custom encryption?**  
-A: Null checks, hard‑coded keys, memory usage with large files, character‑encoding mismatches, and missing exception handling. See the “Common Pitfalls” section for detailed fixes.
+**여전히 문제가 해결되지 않았나요?** GroupDocs 지원 포럼(https://forum.groupdocs.com/c/signature/)에서 커뮤니티와 지원팀의 도움을 받으세요.
 
-**Q: Can XOR encryption be used for highly sensitive data?**  
-A: No. It provides only obfuscation. For sensitive data, switch to a proven algorithm like AES.
+## 자주 묻는 질문
 
-**Q: How do I change the encryption key without hardcoding it?**  
-A: Modify the class to accept a key via constructor:
+**Q: XOR 암호화는 실제 운영 환경에서 사용하기에 충분히 안전한가요?**
+A: 아닙니다. XOR은 알려진 평문 공격에 취약하므로 비밀번호나 개인 식별 정보(PII)와 같은 중요한 데이터를 보호하는 데 사용해서는 안 됩니다. 실제 운영 환경에서의 보안을 위해서는 AES-256을 사용하십시오.
+
+**Q: GroupDocs.Signature를 무료로 사용할 수 있나요?**
+A: 네, 무료 평가판을 통해 모든 기능을 평가할 수 있습니다. 실제 운영 환경에서 사용하려면 유료 또는 임시 라이선스가 필요합니다.
+
+**Q: GroupDocs.Signature를 Maven 프로젝트에 포함시키려면 어떻게 해야 하나요?**
+A: "Maven 설정" 섹션에 나와 있는 종속성을 `pom.xml` 파일에 추가하십시오. `mvn clean install` 명령을 실행하여 라이브러리를 다운로드하십시오.
+
+**Q: 사용자 지정 암호화를 구현할 때 흔히 발생하는 문제는 무엇인가요?**
+A: null 검사, 하드코딩된 키, 대용량 파일로 인한 메모리 사용량 증가, 문자 인코딩 불일치, 예외 처리 누락 등이 있습니다. 자세한 해결 방법은 "일반적인 문제점" 섹션을 참조하십시오.
+
+**질문: XOR 암호화는 매우 민감한 데이터에 사용할 수 있나요?**
+답변: 아니요. XOR 암호화는 난독화 기능만 제공합니다. 민감한 데이터에는 AES와 같은 검증된 알고리즘을 사용하는 것이 좋습니다.
+
+**질문: 암호화 키를 하드코딩하지 않고 변경하려면 어떻게 해야 하나요?**
+답변: 생성자를 통해 키를 받도록 클래스를 수정하세요.
 ```java
 public class CustomXOREncryption implements IDataEncryption {
-    private final byte key;
-    
-    public CustomXOREncryption(byte key) {
-        this.key = key;
-    }
-    // encrypt/decrypt use this.key
+private final byte key;
+
+public CustomXOREncryption(byte key) {
+this.key = key;
+
+}
+
+// this.key를 사용하여 암호화/복호화
+
 }
 ```
-Load the key from environment variables or secure config files in production.
+프로덕션 환경에서는 환경 변수 또는 보안 설정 파일에서 키를 로드하세요.
 
-**Q: Does XOR encryption work on all file types?**  
-A: Yes. Since it operates on raw bytes, any file—text, image, PDF, video—can be processed.
+**질문: XOR 암호화는 모든 파일 형식에서 작동하나요?**
+답변: 네. XOR 암호화는 원시 바이트 데이터를 기반으로 작동하므로 텍스트, 이미지, PDF, 비디오 등 모든 파일 형식을 처리할 수 있습니다.
 
-**Q: How can I make XOR encryption stronger?**  
-A: Use a multi‑byte key array, implement key scheduling, combine with bit rotations, or chain with other simple transformations. Still, for strong security prefer AES.
+**질문: XOR 암호화를 더 강력하게 만드는 방법은 무엇인가요?**
+답변: 멀티바이트 키 배열을 사용하거나, 키 스케줄링을 구현하거나, 비트 순환을 추가하거나, 다른 간단한 변환과 결합할 수 있습니다. 하지만 강력한 보안을 위해서는 AES를 사용하는 것이 좋습니다.
 
-## Resources
+## 리소스
 
-**Documentation:**  
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) – Complete reference and guides  
-- [API Reference](https://reference.groupdocs.com/signature/java/) – Detailed API documentation  
+**문서:**
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) – 완벽한 참조 및 가이드
+- [API 참조](https://reference.groupdocs.com/signature/java/) – 자세한 API 문서
 
-**Download and Licensing:**  
-- [Download GroupDocs.Signature](https://releases.groupdocs.com/signature/java/) – Latest releases  
-- [Purchase a License](https://purchase.groupdocs.com/buy) – Pricing and plans  
-- [Free Trial](https://releases.groupdocs.com/signature/java/) – Start evaluating today  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/) – Extended evaluation access  
+**다운로드 및 라이선스:**
+- [GroupDocs.Signature 다운로드](https://releases.groupdocs.com/signature/java/) – 최신 릴리스
+- [라이선스 구매](https://purchase.groupdocs.com/buy) – 가격 및 플랜
+- [무료 평가판](https://releases.groupdocs.com/signature/java/) – 지금 바로 평가 시작
+- [임시 라이선스](https://purchase.groupdocs.com/temporary-license/) – 평가 기간 연장
 
-**Community and Support:**  
-- [Support Forum](https://forum.groupdocs.com/c/signature/) – Get help from the community and GroupDocs team  
+**커뮤니티 및 지원:**
+- [지원 포럼](https://forum.groupdocs.com/c/signature/) – 커뮤니티 및 GroupDocs 팀의 도움을 받으세요
 
 ---
 
-**Last Updated:** 2025-12-21  
-**Tested With:** GroupDocs.Signature 23.12 for Java  
-**Author:** GroupDocs
+**최종 업데이트:** 2025년 12월 21일
+**테스트 환경:** GroupDocs.Signature 23.12 for Java
+**제작자:** GroupDocs
