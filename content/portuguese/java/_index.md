@@ -17,7 +17,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: 'Tutorial de assinatura digital de PDF em Java: Adicionar assinaturas em Java'
+title: 'Tutorial de assinatura digital de PDF em Java - Adicionar assinaturas em Java'
 type: docs
 url: /pt/java/
 weight: 10
@@ -264,13 +264,6 @@ Tutoriais completos para implementar manipulação de eventos, cancelamento e mo
 ### [Proteção de Documentos](./document-protection/)
 Tutoriais passo a passo para implementar proteção por senha, criptografia e recursos de segurança com GroupDocs.Signature for Java.
 
-## Recursos Adicionais
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./) - Documentação do GroupDocs.Signature for Java  
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./) - Referência da API do GroupDocs.Signature for Java  
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./) - Download do GroupDocs.Signature for Java  
-- [Free Support](https://forum.groupdocs.com/) - Suporte gratuito  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/) - Licença temporária  
-
 ## Perguntas Frequentes
 
 **P: Posso usar o GroupDocs.Signature for Java em um produto comercial?**  
@@ -288,8 +281,15 @@ R: Sim, o recurso de assinatura de imagem permite sobrepor marcas d'água ou log
 **P: Quais formatos além de PDF são suportados?**  
 R: A biblioteca funciona com DOCX, XLSX, PPTX, imagens e muitos outros tipos de documentos comuns.
 
+## Recursos Adicionais
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./) - Documentação do GroupDocs.Signature for Java  
+- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./) - Referência da API do GroupDocs.Signature for Java  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./) - Download do GroupDocs.Signature for Java  
+- [Free Support](https://forum.groupdocs.com/) - Suporte gratuito  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/) - Licença temporária  
+
+---
+
 **Última atualização:** 2025-12-19  
 **Testado com:** GroupDocs.Signature for Java 23.12 (última versão)  
 **Autor:** GroupDocs  
-
----

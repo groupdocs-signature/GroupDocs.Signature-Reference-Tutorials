@@ -16,7 +16,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: Java PDF 數碼簽署教學：在 Java 中加入簽署
+title: Java PDF 數碼簽署教學 - 在 Java 中加入簽署
 type: docs
 url: /zh-hant/java/
 weight: 10
@@ -266,15 +266,6 @@ QR code 能容納比傳統條碼更多資料，且在行動裝置上表現優異
 ### [Document Protection](./document-protection/)
 一步一步的教學，說明如何使用 GroupDocs.Signature for Java 實作密碼保護、加密與安全功能。
 
-## 其他資源
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
----
 
 ## 常見問答
 
@@ -292,6 +283,16 @@ A: 可以，圖片簽章功能允許在簽署過程中覆蓋浮水印或標誌�
 
 **Q: 除了 PDF，還支援哪些格式？**  
 A: 此函式庫支援 DOCX、XLSX、PPTX、影像檔以及許多其他常見文件類型。
+
+## 其他資源
+
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
 
 **最後更新：** 2025-12-19  
 **測試環境：** GroupDocs.Signature for Java 23.12（最新版本）  

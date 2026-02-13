@@ -17,7 +17,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: 'Java PDF Dijital İmza Öğreticisi: Java''da İmza Ekleme'
+title: 'Java PDF Dijital İmza Öğreticisi - Java''da İmza Ekleme'
 type: docs
 url: /tr/java/
 weight: 10
@@ -260,14 +260,6 @@ GroupDocs.Signature for Java içinde olay işleme, iptal ve süreç izleme konul
 ### [Document Protection](./document-protection/)
 GroupDocs.Signature for Java ile şifre koruması, şifreleme ve güvenlik özelliklerini adım‑adım uygulama öğreticileri.
 
-## Ek Kaynaklar
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
 ## Sıkça Sorulan Sorular
 
 **S: GroupDocs.Signature for Java'ı ticari bir üründe kullanabilir miyim?**  
@@ -284,6 +276,14 @@ C: Evet, görüntü imza özelliği sayesinde imzalama sırasında filigran veya
 
 **S: PDF dışındaki hangi formatlar destekleniyor?**  
 C: DOCX, XLSX, PPTX, görüntüler ve birçok yaygın belge türü desteklenir.
+
+## Ek Kaynaklar
+
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 **Last Updated:** 2025-12-19  
 **Tested With:** GroupDocs.Signature for Java 23.12 (latest release)  

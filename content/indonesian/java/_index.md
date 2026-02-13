@@ -17,7 +17,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: 'tutorial tanda tangan digital PDF Java: Tambahkan tanda tangan di Java'
+title: 'tutorial tanda tangan digital PDF Java - Tambahkan tanda tangan di Java'
 type: docs
 url: /id/java/
 weight: 10
@@ -270,16 +270,6 @@ Tutorial lengkap untuk mengimplementasikan penangan peristiwa, pembatalan, dan p
 ### [Document Protection](./document-protection/)
 Tutorial langkah‑demi‑langkah untuk mengimplementasikan perlindungan kata sandi, enkripsi, dan fitur keamanan dengan GroupDocs.Signature untuk Java.
 
-## Sumber Daya Tambahan
-
-- [GroupDocs.Signature untuk Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature untuk Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature untuk Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
----
-
 ## Pertanyaan yang Sering Diajukan
 
 **T: Bisakah saya menggunakan GroupDocs.Signature untuk Java dalam produk komersial?**  
@@ -296,6 +286,14 @@ J: Ya, fitur tanda tangan gambar memungkinkan Anda menimpa watermark atau logo s
 
 **T: Format apa saja selain PDF yang didukung?**  
 J: Perpustakaan ini bekerja dengan DOCX, XLSX, PPTX, gambar, dan banyak tipe dokumen umum lainnya.
+
+## Sumber Daya Tambahan
+
+- [GroupDocs.Signature untuk Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature untuk Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature untuk Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 

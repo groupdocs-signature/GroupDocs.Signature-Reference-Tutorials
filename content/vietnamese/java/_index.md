@@ -270,16 +270,6 @@ Hướng dẫn đầy đủ về việc triển khai xử lý sự kiện, hủy
 ### [Document Protection](./document-protection/)
 Hướng dẫn từng bước về việc triển khai bảo vệ bằng mật khẩu, mã hoá và các tính năng bảo mật với GroupDocs.Signature for Java.
 
-## Tài Nguyên Bổ Sung
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
----
-
 ## Câu Hỏi Thường Gặp
 
 **Hỏi:** Tôi có thể sử dụng GroupDocs.Signature for Java trong sản phẩm thương mại không?  
@@ -297,7 +287,13 @@ Hướng dẫn từng bước về việc triển khai bảo vệ bằng mật k
 **Hỏi:** Những định dạng nào ngoài PDF được hỗ trợ?  
 **Đáp:** Thư viện làm việc với DOCX, XLSX, PPTX, hình ảnh và nhiều loại tài liệu phổ biến khác.
 
----
+## Tài Nguyên Bổ Sung
+
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 **Cập nhật lần cuối:** 2025-12-19  
 **Được kiểm tra với:** GroupDocs.Signature for Java 23.12 (phiên bản mới nhất)  

@@ -17,7 +17,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: 'Java PDF digitální podpis tutoriál: Přidání podpisů v Javě'
+title: 'Java PDF digitální podpis tutoriál - Přidání podpisů v Javě'
 type: docs
 url: /cs/java/
 weight: 10
@@ -264,13 +264,6 @@ Kompletní tutoriály pro implementaci zpracování událostí, zrušení a moni
 ### [Ochrana dokumentu](./document-protection/)
 Krok‑za‑krokem tutoriály pro implementaci ochrany heslem, šifrování a bezpečnostních funkcí s GroupDocs.Signature for Java.
 
-## Další zdroje
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
 ## Často kladené otázky
 
 **Q:** *Mohu použít GroupDocs.Signature for Java v komerčním produktu?*  
@@ -287,6 +280,13 @@ Krok‑za‑krokem tutoriály pro implementaci ochrany heslem, šifrování a be
 
 **Q:** *Jaké formáty kromě PDF jsou podporovány?*  
 **A:** Knihovna pracuje s DOCX, XLSX, PPTX, obrázky a mnoha dalšími běžnými typy dokumentů.
+
+## Další zdroje
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 **Last Updated:** 2025-12-19  
 **Tested With:** GroupDocs.Signature for Java 23.12 (latest release)  

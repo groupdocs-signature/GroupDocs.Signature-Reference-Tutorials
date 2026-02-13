@@ -17,7 +17,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: 'Tutorial de firma digital PDF en Java: Añadir firmas en Java'
+title: 'Tutorial de firma digital PDF en Java - Añadir firmas en Java'
 type: docs
 url: /es/java/
 weight: 10
@@ -216,8 +216,6 @@ La seguridad no termina en las firmas. Aprende a agregar protección con contras
 - [Free Support Forum](https://forum.groupdocs.com/) – Haz preguntas y recibe ayuda de la comunidad  
 - [Temporary License](https://purchase.groupdocs.com/temporary-license/) – Prueba todas las funciones sin limitaciones
 
----
-
 # Tutoriales y ejemplos de GroupDocs.Signature para Java
 
 Bienvenido a nuestra colección completa de tutoriales para GroupDocs.Signature para Java. Estas guías paso a paso te ayudarán a implementar soluciones seguras de firma de documentos en tus aplicaciones Java. Desde la configuración básica hasta la gestión avanzada de firmas, nuestros tutoriales proporcionan toda la información que necesitas para proteger tus documentos con múltiples tipos de firma.
@@ -270,16 +268,6 @@ Tutoriales completos para implementar manejo de eventos, cancelación y monitore
 ### [Document Protection](./document-protection/)
 Tutoriales paso a paso para implementar protección con contraseña, cifrado y funciones de seguridad con GroupDocs.Signature para Java.
 
-## Recursos adicionales
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
----
-
 ## Preguntas frecuentes
 
 **P: ¿Puedo usar GroupDocs.Signature para Java en un producto comercial?**  
@@ -296,6 +284,14 @@ R: Sí, la función de firma de imagen permite superponer marcas de agua o logot
 
 **P: ¿Qué formatos, además de PDF, son compatibles?**  
 R: La biblioteca funciona con DOCX, XLSX, PPTX, imágenes y muchos otros tipos de documentos comunes.
+
+## Recursos adicionales
+
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 

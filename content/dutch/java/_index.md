@@ -18,7 +18,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: 'java pdf digitale handtekening tutorial: Handtekeningen toevoegen in Java'
+title: 'java pdf digitale handtekening tutorial - Handtekeningen toevoegen in Java'
 type: docs
 url: /nl/java/
 weight: 10
@@ -265,16 +265,6 @@ Complete tutorials voor het implementeren van event‑afhandeling, annulering en
 ### [Documentbeveiliging](./document-protection/)
 Stap‑voor‑stap‑tutorials voor het implementeren van wachtwoordbeveiliging, encryptie en beveiligingsfuncties met GroupDocs.Signature for Java.
 
-## Aanvullende bronnen
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
----
-
 ## Veelgestelde vragen
 
 **V:** Kan ik GroupDocs.Signature for Java gebruiken in een commercieel product?  
@@ -291,6 +281,16 @@ Stap‑voor‑stap‑tutorials voor het implementeren van wachtwoordbeveiliging,
 
 **V:** Welke formaten naast PDF worden ondersteund?  
 **A:** De bibliotheek werkt met DOCX, XLSX, PPTX, afbeeldingen en vele andere gangbare documenttypes.
+
+## Aanvullende bronnen
+
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
 
 **Laatst bijgewerkt:** 2025-12-19  
 **Getest met:** GroupDocs.Signature for Java 23.12 (latest release)  

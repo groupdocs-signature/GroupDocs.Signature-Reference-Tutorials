@@ -17,7 +17,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: 'samouczek podpisu cyfrowego PDF w Javie: Dodawanie podpisów w Javie'
+title: 'samouczek podpisu cyfrowego PDF w Javie - Dodawanie podpisów w Javie'
 type: docs
 url: /pl/java/
 weight: 10
@@ -270,16 +270,6 @@ Kompletne tutoriale implementacji obsługi zdarzeń, anulowania i monitorowania 
 ### [Document Protection](./document-protection/)
 Krok‑po‑kroku tutoriale implementacji ochrony hasłem, szyfrowania i funkcji bezpieczeństwa przy użyciu GroupDocs.Signature for Java.
 
-## Dodatkowe zasoby
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
----
-
 ## Najczęściej zadawane pytania
 
 **P:** Czy mogę używać GroupDocs.Signature for Java w produkcie komercyjnym?  
@@ -296,6 +286,14 @@ Krok‑po‑kroku tutoriale implementacji ochrony hasłem, szyfrowania i funkcji
 
 **P:** Jakie formaty oprócz PDF są obsługiwane?  
 **O:** Biblioteka działa z DOCX, XLSX, PPTX, obrazami i wieloma innymi popularnymi typami dokumentów.
+
+## Dodatkowe zasoby
+
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 

@@ -17,7 +17,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: 'Учебник по цифровой подписи PDF в Java: Добавление подписей в Java'
+title: 'Учебник по цифровой подписи PDF в Java - Добавление подписей в Java'
 type: docs
 url: /ru/java/
 weight: 10
@@ -270,16 +270,6 @@ QR‑коды упаковывают больше данных, чем трад�
 ### [Document Protection](./document-protection/)
 Пошаговые учебники по реализации защиты паролем, шифрования и функций безопасности с помощью GroupDocs.Signature for Java.
 
-## Дополнительные ресурсы
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
----
-
 ## Часто задаваемые вопросы
 
 **Вопрос:** Можно ли использовать GroupDocs.Signature for Java в коммерческом продукте?  
@@ -296,6 +286,14 @@ QR‑коды упаковывают больше данных, чем трад�
 
 **Вопрос:** Какие форматы, помимо PDF, поддерживаются?  
 **Ответ:** Библиотека работает с DOCX, XLSX, PPTX, изображениями и многими другими распространёнными типами документов.
+
+## Дополнительные ресурсы
+
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 

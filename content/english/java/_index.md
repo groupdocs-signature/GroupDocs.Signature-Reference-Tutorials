@@ -1,5 +1,5 @@
 ---
-title: "java pdf digital signature tutorial: Add signatures in Java"
+title: "java pdf digital signature tutorial - Add signatures in Java"
 linktitle: Java Document Signing Tutorials
 weight: 10
 url: /java/
@@ -206,8 +206,6 @@ Not sure where to begin? Follow this learning path:
 - [Free Support Forum](https://forum.groupdocs.com/) - Ask questions and get help from the community  
 - [Temporary License](https://purchase.groupdocs.com/temporary-license/) - Test all features without limitations
 
----
-
 # GroupDocs.Signature for Java Tutorials & Examples
 
 Welcome to our comprehensive collection of tutorials for GroupDocs.Signature for Java. These step‑by‑step guides will help you implement secure document signing solutions in your Java applications. From basic setup to advanced signature management, our tutorials provide all the information you need to safeguard your documents with multiple signature types.
@@ -260,16 +258,6 @@ Complete tutorials for implementing event handling, cancellation, and process mo
 ### [Document Protection](./document-protection/)
 Step‑by‑step tutorials for implementing password protection, encryption, and security features with GroupDocs.Signature for Java.
 
-## Additional Resources
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
----
-
 ## Frequently Asked Questions
 
 **Q: Can I use GroupDocs.Signature for Java in a commercial product?**  
@@ -286,6 +274,14 @@ A: Yes, the image signature feature lets you overlay watermarks or logos during 
 
 **Q: What formats besides PDF are supported?**  
 A: The library works with DOCX, XLSX, PPTX, images, and many other common document types.
+
+## Additional Resources
+
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 

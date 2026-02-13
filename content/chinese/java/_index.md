@@ -15,7 +15,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: Java PDF数字签名教程：在Java中添加签名
+title: Java PDF数字签名教程 - 在Java中添加签名
 type: docs
 url: /zh/java/
 weight: 10
@@ -256,13 +256,6 @@ A **java pdf digital signature** 是使用 Java 代码对 PDF 文档施加的加
 ### [文档保护](./document-protection/)
 使用 GroupDocs.Signature for Java 实现密码保护、加密和安全功能的循序渐进教程。
 
-## 其他资源
-- [GroupDocs.Signature for Java 文档](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature for Java API 参考](https://reference.groupdocs.com./)  
-- [GroupDocs.Signature for Java 下载库](https://releases.groupdocs.com./)  
-- [GroupDocs.Signature for Java 免费支持](https://forum.groupdocs.com/)  
-- [GroupDocs.Signature for Java 临时许可证](https://purchase.groupdocs.com/temporary-license/)
-
 ## 常见问题
 
 **Q: 我可以在商业产品中使用 GroupDocs.Signature for Java 吗？**  
@@ -279,6 +272,13 @@ A: 可以，图像签名功能允许在签名过程中覆盖水印或徽标。
 
 **Q: 除了 PDF 之外支持哪些格式？**  
 A: 该库支持 DOCX、XLSX、PPTX、图像以及许多其他常见文档类型。
+
+## 其他资源
+- [GroupDocs.Signature for Java 文档](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature for Java API 参考](https://reference.groupdocs.com./)  
+- [GroupDocs.Signature for Java 下载库](https://releases.groupdocs.com./)  
+- [GroupDocs.Signature for Java 免费支持](https://forum.groupdocs.com/)  
+- [GroupDocs.Signature for Java 临时许可证](https://purchase.groupdocs.com/temporary-license/)
 
 **最后更新：** 2025-12-19  
 **测试环境：** GroupDocs.Signature for Java 23.12（最新发布）  

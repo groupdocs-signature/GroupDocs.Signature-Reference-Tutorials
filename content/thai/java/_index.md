@@ -17,7 +17,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: 'บทเรียนการลงลายเซ็นดิจิทัล PDF ด้วย Java: เพิ่มลายเซ็นใน Java'
+title: 'บทเรียนการลงลายเซ็นดิจิทัล PDF ด้วย Java - เพิ่มลายเซ็นใน Java'
 type: docs
 url: /th/java/
 weight: 10
@@ -270,16 +270,6 @@ QR โค้ดบรรจุข้อมูลมากกว่าบาร�
 ### [Document Protection](./document-protection/)
 บทเรียนทีละขั้นตอนสำหรับการทำ password protection, การเข้ารหัส, การตั้งค่าการอนุญาต, และการผสานวิธีป้องกันเพื่อความปลอดภัยสูงสุดด้วย GroupDocs.Signature for Java
 
-## แหล่งข้อมูลเพิ่มเติม
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
----
-
 ## คำถามที่พบบ่อย
 
 **ถาม: สามารถใช้ GroupDocs.Signature for Java ในผลิตภัณฑ์เชิงพาณิชย์ได้หรือไม่?**  
@@ -296,6 +286,14 @@ QR โค้ดบรรจุข้อมูลมากกว่าบาร�
 
 **ถาม: รองรับฟอร์แมตใดบ้างนอกจาก PDF?**  
 ตอบ: ไลบรารีทำงานกับ DOCX, XLSX, PPTX, รูปภาพ, และรูปแบบเอกสารทั่วไปอื่น ๆ อีกมากมาย
+
+## แหล่งข้อมูลเพิ่มเติม
+
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 

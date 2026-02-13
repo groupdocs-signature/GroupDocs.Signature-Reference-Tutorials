@@ -17,7 +17,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: 'java pdf digital signaturhandledning: Lägg till signaturer i Java'
+title: 'java pdf digital signaturhandledning - Lägg till signaturer i Java'
 type: docs
 url: /sv/java/
 weight: 10
@@ -270,14 +270,6 @@ Fullständiga tutorials för att implementera händelsehantering, avbrytning och
 ### [Dokumentskydd](./document-protection/)
 Steg‑för‑steg‑tutorials för att implementera lösenordsskydd, kryptering och säkerhetsfunktioner med GroupDocs.Signature för Java.
 
-## Ytterligare resurser
-
-- [Dokumentation](https://docs.groupdocs.com./)  
-- [API‑referens](https://reference.groupdocs.com./)  
-- [Ladda ner bibliotek](https://releases.groupdocs.com./)  
-- [Gratis support](https://forum.groupdocs.com/)  
-- [Tillfällig licens](https://purchase.groupdocs.com/temporary-license/)
-
 ---
 
 ## Vanliga frågor
@@ -296,6 +288,14 @@ A: Ja, bildsignatur‑funktionen låter dig överlagra vattenstämplar eller log
 
 **Q: Vilka format förutom PDF stöds?**  
 A: Biblioteket fungerar med DOCX, XLSX, PPTX, bilder och många andra vanliga dokumenttyper.
+
+## Ytterligare resurser
+
+- [Dokumentation](https://docs.groupdocs.com./)  
+- [API‑referens](https://reference.groupdocs.com./)  
+- [Ladda ner bibliotek](https://releases.groupdocs.com./)  
+- [Gratis support](https://forum.groupdocs.com/)  
+- [Tillfällig licens](https://purchase.groupdocs.com/temporary-license/)
 
 **Senast uppdaterad:** 2025-12-19  
 **Testad med:** GroupDocs.Signature för Java 23.12 (senaste version)  

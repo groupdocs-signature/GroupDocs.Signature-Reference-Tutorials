@@ -15,7 +15,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: Java PDF デジタル署名チュートリアル：Javaで署名を追加する
+title: Java PDF デジタル署名チュートリアル - Javaで署名を追加する
 type: docs
 url: /ja/java/
 weight: 10
@@ -268,16 +268,6 @@ GroupDocs.Signature for Java でイベントハンドリング、キャンセル
 ### [Document Protection](./document-protection/)
 GroupDocs.Signature for Java でパスワード保護、暗号化、セキュリティ機能を実装するステップバイステップガイド。
 
-## 追加リソース
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
----
-
 ## よくある質問
 
 **Q: GroupDocs.Signature for Java を商用製品で使用できますか？**  
@@ -295,7 +285,16 @@ A: はい、画像署名機能で透かしやロゴを署名プロセス中に�
 **Q: PDF 以外に対応しているフォーマットは？**  
 A: DOCX、XLSX、PPTX、画像など、さまざまな一般的文書タイプに対応しています。
 
+## 追加リソース
+
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
 ---
+
 
 **最終更新日:** 2025-12-19  
 **テスト環境:** GroupDocs.Signature for Java 23.12（最新リリース）  

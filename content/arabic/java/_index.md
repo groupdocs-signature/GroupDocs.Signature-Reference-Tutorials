@@ -17,7 +17,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: 'دليل توقيع PDF الرقمي في جافا: إضافة توقيعات في جافا'
+title: 'دليل توقيع PDF الرقمي في جافا - إضافة توقيعات في جافا'
 type: docs
 url: /ar/java/
 weight: 10
@@ -270,16 +270,6 @@ weight: 10
 ### [Document Protection](./document-protection/)
 دروس خطوة بخطوة لتنفيذ حماية بكلمة مرور، تشفير، وميزات أمان مع GroupDocs.Signature for Java.
 
-## موارد إضافية
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
----
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام GroupDocs.Signature for Java في منتج تجاري؟**  
@@ -296,6 +286,14 @@ weight: 10
 
 **س: ما الصيغ المدعومة غير PDF؟**  
 ج: المكتبة تعمل مع DOCX، XLSX، PPTX، الصور، والعديد من صيغ المستندات الشائعة الأخرى.
+
+## موارد إضافية
+
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 

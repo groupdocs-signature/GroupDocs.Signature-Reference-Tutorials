@@ -17,7 +17,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: 'Tutorial di firma digitale PDF in Java: Aggiungere firme in Java'
+title: 'Tutorial di firma digitale PDF in Java - Aggiungere firme in Java'
 type: docs
 url: /it/java/
 weight: 10
@@ -270,16 +270,6 @@ Tutorial completi per implementare la gestione degli eventi, l'annullamento e il
 ### [Document Protection](./document-protection/)
 Tutorial passo‑passo per implementare protezione con password, crittografia e funzionalità di sicurezza con GroupDocs.Signature per Java.
 
-## Risorse aggiuntive
-
-- [GroupDocs.Signature per Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature per Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature per Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
----
-
 ## Domande frequenti
 
 **D: Posso usare GroupDocs.Signature per Java in un prodotto commerciale?**  
@@ -296,6 +286,14 @@ R: Sì, la funzionalità di firma immagine consente di sovrapporre watermark o l
 
 **D: Quali formati, oltre al PDF, sono supportati?**  
 R: La libreria funziona con DOCX, XLSX, PPTX, immagini e molti altri formati di documento comuni.
+
+## Risorse aggiuntive
+
+- [GroupDocs.Signature per Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature per Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature per Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 

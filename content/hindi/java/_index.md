@@ -17,7 +17,7 @@ tags:
 - java-tutorials
 - document-signing
 - pdf-security
-title: 'जावा पीडीएफ डिजिटल हस्ताक्षर ट्यूटोरियल: जावा में हस्ताक्षर जोड़ें'
+title: 'जावा पीडीएफ डिजिटल हस्ताक्षर ट्यूटोरियल - जावा में हस्ताक्षर जोड़ें'
 type: docs
 url: /hi/java/
 weight: 10
@@ -267,16 +267,6 @@ GroupDocs.Signature for Java के साथ इवेंट हैंडलि
 ### [डॉक्यूमेंट प्रोटेक्शन](./document-protection/)
 GroupDocs.Signature for Java के साथ पासवर्ड प्रोटेक्शन, एन्क्रिप्शन और सुरक्षा फीचर को इम्प्लीमेंट करने के चरण‑दर‑चरण ट्यूटोरियल।
 
-## अतिरिक्त संसाधन
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
-- [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
----
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न:** क्या मैं GroupDocs.Signature for Java को एक व्यावसायिक उत्पाद में उपयोग कर सकता हूँ?  
@@ -293,6 +283,16 @@ GroupDocs.Signature for Java के साथ पासवर्ड प्रो
 
 **प्रश्न:** PDF के अलावा कौन‑से फ़ॉर्मेट सपोर्टेड हैं?  
 **उत्तर:** लाइब्रेरी DOCX, XLSX, PPTX, इमेज और कई अन्य सामान्य दस्तावेज़ प्रकारों के साथ काम करती है।
+
+## अतिरिक्त संसाधन
+
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
+- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
+- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
+- [Free Support](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
 
 **अंतिम अपडेट:** 2025-12-19  
 **टेस्टेड विद:** GroupDocs.Signature for Java 23.12 (latest release)  
