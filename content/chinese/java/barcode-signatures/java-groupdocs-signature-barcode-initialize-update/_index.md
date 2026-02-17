@@ -403,14 +403,14 @@ ERP 升级后，产品条形码需要与新标签打印机对齐。以编程方�
 
 GroupDocs.Signature API 的功能远超条形码更新——深入了解验证、元数据处理以及多格式支持，以实现文档工作流的全面自动化。
 
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** GroupDocs.Signature 23.12  
-**Author:** GroupDocs  
-
 **Resources**
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [API Reference](https://reference.groupdocs.com/signature/java/)
 - [Support Forum](https://forum.groupdocs.com/c/signature)
 - [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** GroupDocs.Signature 23.12  
+**Author:** GroupDocs  

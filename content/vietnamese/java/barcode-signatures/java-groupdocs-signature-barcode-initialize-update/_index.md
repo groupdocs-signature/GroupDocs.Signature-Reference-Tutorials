@@ -384,14 +384,14 @@ Bạn đã có một hướng dẫn đầy đủ, sẵn sàng cho môi trường
 
 API GroupDocs.Signature còn nhiều hơn việc cập nhật mã vạch—hãy khám phá xác thực, xử lý metadata và hỗ trợ đa định dạng để tự động hoá toàn bộ quy trình tài liệu của bạn.
 
----
-
-**Cập nhật lần cuối:** 2026-01-16  
-**Được kiểm thử với:** GroupDocs.Signature 23.12  
-**Tác giả:** GroupDocs  
-
 **Tài nguyên**
 - [Tài liệu GroupDocs.Signature cho Java](https://docs.groupdocs.com/signature/java/)
 - [Tham chiếu API](https://reference.groupdocs.com/signature/java/)
 - [Diễn đàn hỗ trợ](https://forum.groupdocs.com/c/signature)
 - [Tải bản dùng thử miễn phí](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Cập nhật lần cuối:** 2026-01-16  
+**Được kiểm thử với:** GroupDocs.Signature 23.12  
+**Tác giả:** GroupDocs  

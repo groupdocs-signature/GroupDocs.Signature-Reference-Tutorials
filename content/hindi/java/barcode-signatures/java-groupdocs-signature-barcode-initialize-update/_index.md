@@ -406,14 +406,14 @@ A: हाँ। वही API Word, Excel, PowerPoint, इमेजेज़ औ
 
 GroupDocs.Signature API बारकोड अपडेट्स से कहीं अधिक प्रदान करता है—वेरिफिकेशन, मेटाडाटा हैंडलिंग और मल्टी‑फ़ॉर्मेट सपोर्ट में गहराई से जाएँ ताकि आप अपने दस्तावेज़ वर्कफ़्लो को पूरी तरह ऑटोमेट कर सकें।
 
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** GroupDocs.Signature 23.12  
-**Author:** GroupDocs  
-
 **Resources**
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [API Reference](https://reference.groupdocs.com/signature/java/)
 - [Support Forum](https://forum.groupdocs.com/c/signature)
 - [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** GroupDocs.Signature 23.12  
+**Author:** GroupDocs  

@@ -405,14 +405,14 @@ Vous disposez maintenant d'un guide complet et prêt pour la production pour **c
 
 L'API GroupDocs.Signature offre bien plus que les mises à jour de code-barres — explorez la vérification, la gestion des métadonnées et la prise en charge multi‑format pour automatiser pleinement vos flux de travail documentaires.
 
----
-
-**Dernière mise à jour :** 2026-01-16  
-**Testé avec :** GroupDocs.Signature 23.12  
-**Auteur :** GroupDocs  
-
 **Ressources**
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [API Reference](https://reference.groupdocs.com/signature/java/)
 - [Support Forum](https://forum.groupdocs.com/c/signature)
 - [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Dernière mise à jour :** 2026-01-16  
+**Testé avec :** GroupDocs.Signature 23.12  
+**Auteur :** GroupDocs  

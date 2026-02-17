@@ -384,14 +384,14 @@ Java’da **barcode signature** nesneleri oluşturma ve konum, boyut ve diğer �
 
 GroupDocs.Signature API’si barkod güncellemelerinin çok ötesini sunar—doğrulama, meta veri yönetimi ve çok‑format desteğiyle belge iş akışlarınızı tam otomasyona taşıyın.
 
----
-
-**Son Güncelleme:** 2026-01-16  
-**Test Edilen Sürüm:** GroupDocs.Signature 23.12  
-**Yazar:** GroupDocs  
-
 **Kaynaklar**
 - [GroupDocs.Signature for Java Dokümantasyonu](https://docs.groupdocs.com/signature/java/)
 - [API Referansı](https://reference.groupdocs.com/signature/java/)
 - [Destek Forumu](https://forum.groupdocs.com/c/signature)
 - [Ücretsiz Deneme İndir](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Son Güncelleme:** 2026-01-16  
+**Test Edilen Sürüm:** GroupDocs.Signature 23.12  
+**Yazar:** GroupDocs  

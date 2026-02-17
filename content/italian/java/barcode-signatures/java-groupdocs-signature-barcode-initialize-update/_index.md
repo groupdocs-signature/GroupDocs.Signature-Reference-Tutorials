@@ -384,14 +384,14 @@ Ora disponi di una guida completa, pronta per la produzione, su come **creare og
 
 L’API GroupDocs.Signature offre molto più degli aggiornamenti dei barcode—approfondisci verifica, gestione dei metadati e supporto multi‑formato per automatizzare completamente i tuoi flussi di lavoro documentali.
 
----
-
-**Ultimo aggiornamento:** 2026-01-16  
-**Testato con:** GroupDocs.Signature 23.12  
-**Autore:** GroupDocs  
-
 **Risorse**
 - [Documentazione GroupDocs.Signature per Java](https://docs.groupdocs.com/signature/java/)
 - [Riferimento API](https://reference.groupdocs.com/signature/java/)
 - [Forum di supporto](https://forum.groupdocs.com/c/signature)
 - [Download prova gratuita](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Ultimo aggiornamento:** 2026-01-16  
+**Testato con:** GroupDocs.Signature 23.12  
+**Autore:** GroupDocs  

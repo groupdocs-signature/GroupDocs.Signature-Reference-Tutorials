@@ -395,14 +395,14 @@ Agora você tem um guia completo e pronto para produção para **criar objetos d
 
 A API GroupDocs.Signature oferece muito mais do que atualizações de códigos de barras — explore verificação, manipulação de metadados e suporte a múltiplos formatos para automatizar totalmente seus fluxos de trabalho de documentos.
 
----
-
-**Última atualização:** 2026-01-16  
-**Testado com:** GroupDocs.Signature 23.12  
-**Autor:** GroupDocs  
-
 **Recursos**
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [API Reference](https://reference.groupdocs.com/signature/java/)
 - [Support Forum](https://forum.groupdocs.com/c/signature)
 - [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Última atualização:** 2026-01-16  
+**Testado com:** GroupDocs.Signature 23.12  
+**Autor:** GroupDocs  

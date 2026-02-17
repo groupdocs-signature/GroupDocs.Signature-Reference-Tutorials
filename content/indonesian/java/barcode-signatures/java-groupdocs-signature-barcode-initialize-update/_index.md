@@ -388,14 +388,14 @@ Anda kini memiliki panduan lengkap dan siap produksi untuk **membuat objek barco
 
 API GroupDocs.Signature menawarkan jauh lebih banyak daripada pembaruan barcode—selami verifikasi, penanganan metadata, dan dukungan multi‑format untuk mengotomatisasi alur kerja dokumen Anda sepenuhnya.
 
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** GroupDocs.Signature 23.12  
-**Author:** GroupDocs  
-
 **Resources**
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [API Reference](https://reference.groupdocs.com/signature/java/)
 - [Support Forum](https://forum.groupdocs.com/c/signature)
 - [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** GroupDocs.Signature 23.12  
+**Author:** GroupDocs  

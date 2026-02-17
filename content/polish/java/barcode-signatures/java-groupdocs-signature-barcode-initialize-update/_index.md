@@ -387,14 +387,14 @@ Masz teraz kompletny, gotowy do produkcji przewodnik po tworzeniu obiektów **cr
 
 API GroupDocs.Signature oferuje znacznie więcej niż aktualizacje kodów kreskowych — zagłęb się w weryfikację, obsługę metadanych i wsparcie wielu formatów, aby w pełni zautomatyzować przepływy dokumentów.
 
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** GroupDocs.Signature 23.12  
-**Author:** GroupDocs  
-
 **Resources**
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [API Reference](https://reference.groupdocs.com/signature/java/)
 - [Support Forum](https://forum.groupdocs.com/c/signature)
 - [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** GroupDocs.Signature 23.12  
+**Author:** GroupDocs  

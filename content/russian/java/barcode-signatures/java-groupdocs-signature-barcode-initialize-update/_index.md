@@ -389,14 +389,14 @@ documentPaths.parallelStream().forEach(path -> {
 
 API GroupDocs.Signature предлагает гораздо больше, чем обновление штрих‑кодов — изучайте проверку, работу с метаданными и поддержку нескольких форматов, чтобы полностью автоматизировать ваши документооборотные процессы.
 
----
-
-**Последнее обновление:** 2026-01-16  
-**Тестировано с:** GroupDocs.Signature 23.12  
-**Автор:** GroupDocs  
-
 **Ресурсы**
 - [Документация GroupDocs.Signature для Java](https://docs.groupdocs.com/signature/java/)
 - [Справочник API](https://reference.groupdocs.com/signature/java/)
 - [Форум поддержки](https://forum.groupdocs.com/c/signature)
 - [Скачать бесплатную пробную версию](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Последнее обновление:** 2026-01-16  
+**Тестировано с:** GroupDocs.Signature 23.12  
+**Автор:** GroupDocs  

@@ -384,14 +384,14 @@ documentPaths.parallelStream().forEach(path -> {
 
 توفر GroupDocs.Signature API أكثر من مجرد تحديث الباركود—تعمق في التحقق، معالجة البيانات الوصفية، ودعم الصيغ المتعددة لتُؤتمت بالكامل سير عمل المستندات لديك.
 
----
-
-**آخر تحديث:** 2026-01-16  
-**تم الاختبار مع:** GroupDocs.Signature 23.12  
-**المؤلف:** GroupDocs  
-
 **الموارد**
 - [توثيق GroupDocs.Signature for Java](https://docs.groupdocs.com/signature/java/)
 - [مرجع الـ API](https://reference.groupdocs.com/signature/java/)
 - [منتدى الدعم](https://forum.groupdocs.com/c/signature)
 - [تحميل تجربة مجانية](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**آخر تحديث:** 2026-01-16  
+**تم الاختبار مع:** GroupDocs.Signature 23.12  
+**المؤلف:** GroupDocs  

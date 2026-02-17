@@ -384,14 +384,14 @@ Sie verfügen nun über einen vollständigen, produktionsreifen Leitfaden, um **
 
 Die GroupDocs.Signature‑API bietet weit mehr als Barcode‑Updates – tauchen Sie ein in Verifikation, Metadaten‑Handling und Multi‑Format‑Unterstützung, um Ihre Dokument‑Workflows vollständig zu automatisieren.
 
----
-
-**Zuletzt aktualisiert:** 2026‑01‑16  
-**Getestet mit:** GroupDocs.Signature 23.12  
-**Autor:** GroupDocs  
-
 **Ressourcen**
 - [GroupDocs.Signature für Java Dokumentation](https://docs.groupdocs.com/signature/java/)  
 - [API‑Referenz](https://reference.groupdocs.com/signature/java/)  
 - [Support‑Forum](https://forum.groupdocs.com/c/signature)  
 - [Kostenloser Test‑Download](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Zuletzt aktualisiert:** 2026‑01‑16  
+**Getestet mit:** GroupDocs.Signature 23.12  
+**Autor:** GroupDocs  

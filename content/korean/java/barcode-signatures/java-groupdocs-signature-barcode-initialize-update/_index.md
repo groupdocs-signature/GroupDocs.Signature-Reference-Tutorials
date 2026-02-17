@@ -383,14 +383,14 @@ A: 네. 동일 API가 Word, Excel, PowerPoint, 이미지 등 GroupDocs.Signature
 
 GroupDocs.Signature API는 바코드 업데이트를 넘어 검증, 메타데이터 처리, 다중 포맷 지원 등 다양한 기능을 제공합니다. 이를 활용해 문서 워크플로우를 완전 자동화해 보세요.
 
----
-
-**최종 업데이트:** 2026-01-16  
-**테스트 환경:** GroupDocs.Signature 23.12  
-**작성자:** GroupDocs  
-
 **리소스**
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [API Reference](https://reference.groupdocs.com/signature/java/)
 - [Support Forum](https://forum.groupdocs.com/c/signature)
 - [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**최종 업데이트:** 2026-01-16  
+**테스트 환경:** GroupDocs.Signature 23.12  
+**작성자:** GroupDocs  

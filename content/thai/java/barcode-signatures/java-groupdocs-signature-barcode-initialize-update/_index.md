@@ -402,14 +402,14 @@ A: ใช่. API เดียวกันทำงานกับ Word, Excel, 
 
 API ของ GroupDocs.Signature มีมากกว่าการอัปเดตบาร์โค้ด—สำรวจการตรวจสอบ, การจัดการเมตาดาต้า, และการสนับสนุนหลายรูปแบบเพื่อทำให้กระบวนการทำงานเอกสารของคุณเป็นอัตโนมัติเต็มรูปแบบ
 
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** GroupDocs.Signature 23.12  
-**Author:** GroupDocs  
-
 **Resources**
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [API Reference](https://reference.groupdocs.com/signature/java/)
 - [Support Forum](https://forum.groupdocs.com/c/signature)
 - [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** GroupDocs.Signature 23.12  
+**Author:** GroupDocs  

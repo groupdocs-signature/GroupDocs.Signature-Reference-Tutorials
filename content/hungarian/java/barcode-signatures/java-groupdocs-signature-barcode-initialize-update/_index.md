@@ -406,14 +406,14 @@ Most már egy teljes, termelésre kész útmutatód van a **create barcode signa
 
 A GroupDocs.Signature API sokkal többet kínál, mint a vonalkód frissítések – merülj el a verifikációban, metaadatkezelésben és a többformátumos támogatásban, hogy teljesen automatizáld a dokumentumfolyamataidat.
 
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** GroupDocs.Signature 23.12  
-**Author:** GroupDocs  
-
 **Resources**
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [API Reference](https://reference.groupdocs.com/signature/java/)
 - [Support Forum](https://forum.groupdocs.com/c/signature)
 - [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** GroupDocs.Signature 23.12  
+**Author:** GroupDocs  

@@ -383,14 +383,14 @@ A：不只。相同 API 同樣支援 Word、Excel、PowerPoint、影像等多種
 
 GroupDocs.Signature API 的功能遠不止條碼更新，深入了解驗證、元資料處理與多格式支援，讓你的文件工作流程全面自動化。
 
----
-
-**最後更新日期：** 2026-01-16  
-**測試環境：** GroupDocs.Signature 23.12  
-**作者：** GroupDocs  
-
 **資源**
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [API Reference](https://reference.groupdocs.com/signature/java/)
 - [Support Forum](https://forum.groupdocs.com/c/signature)
 - [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**最後更新日期：** 2026-01-16  
+**測試環境：** GroupDocs.Signature 23.12  
+**作者：** GroupDocs  

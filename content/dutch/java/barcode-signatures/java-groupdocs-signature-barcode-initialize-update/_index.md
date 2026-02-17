@@ -386,14 +386,14 @@ Je hebt nu een volledige, productie‑klare gids om **barcode‑handtekening**�
 
 De GroupDocs.Signature‑API biedt veel meer dan barcode‑updates — duik in verificatie, metadata‑verwerking en multi‑formaatondersteuning om je document‑workflows volledig te automatiseren.
 
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** GroupDocs.Signature 23.12  
-**Author:** GroupDocs  
-
 **Bronnen**
 - [GroupDocs.Signature voor Java Documentatie](https://docs.groupdocs.com/signature/java/)
 - [API‑referentie](https://reference.groupdocs.com/signature/java/)
 - [Supportforum](https://forum.groupdocs.com/c/signature)
 - [Gratis proefversie download](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** GroupDocs.Signature 23.12  
+**Author:** GroupDocs  

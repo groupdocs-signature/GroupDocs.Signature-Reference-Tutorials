@@ -386,14 +386,14 @@ documentPaths.parallelStream().forEach(path -> {
 
 Το API του GroupDocs.Signature προσφέρει πολύ περισσότερα από ενημερώσεις barcode—εξερευνήστε την επαλήθευση, τη διαχείριση μεταδεδομένων και την υποστήριξη πολλαπλών μορφών για πλήρη αυτοματοποίηση των ροών εργασίας εγγράφων.
 
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** GroupDocs.Signature 23.12  
-**Author:** GroupDocs  
-
 **Resources**
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [API Reference](https://reference.groupdocs.com/signature/java/)
 - [Support Forum](https://forum.groupdocs.com/c/signature)
 - [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** GroupDocs.Signature 23.12  
+**Author:** GroupDocs  

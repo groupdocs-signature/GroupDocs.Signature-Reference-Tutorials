@@ -385,14 +385,14 @@ Nyní máte kompletní, připravený průvodce pro **create barcode signature** 
 
 API GroupDocs.Signature nabízí mnohem víc než aktualizace čárových kódů – ponořte se do ověřování, manipulace s metadaty a podpory více formátů, abyste plně automatizovali své pracovní postupy s dokumenty.
 
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** GroupDocs.Signature 23.12  
-**Author:** GroupDocs  
-
 ## Zdroje
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [API Reference](https://reference.groupdocs.com/signature/java/)
 - [Support Forum](https://forum.groupdocs.com/c/signature)
 - [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** GroupDocs.Signature 23.12  
+**Author:** GroupDocs  
