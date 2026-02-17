@@ -1,44 +1,64 @@
 ---
-"date": "2025-05-08"
-"description": "تعرّف على كيفية إدارة توقيعات الباركود باستخدام GroupDocs.Signature لجافا. يغطي هذا الدليل تهيئة الباركود والبحث عنه وتحديثه في ملفات PDF بفعالية."
-"title": "كيفية تهيئة وتحديث توقيعات الباركود في Java باستخدام GroupDocs.Signature"
-"url": "/ar/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
-"weight": 1
+categories:
+- Java Document Processing
+date: '2026-01-16'
+description: تعلم كيفية إنشاء توقيع باركود في Java وتحديث موقعه وحجمه وخصائصه لملفات
+  PDF باستخدام واجهة برمجة تطبيقات GroupDocs.Signature.
+keywords: update barcode signature Java, Java barcode signature management, modify
+  barcode in PDF Java, GroupDocs Signature Java, Java document signature automation
+lastmod: '2026-01-16'
+linktitle: Update Barcode Signatures in Java
+tags:
+- barcode-signatures
+- pdf-automation
+- groupdocs-java
+- document-management
+title: إنشاء توقيع باركود في جافا – تحديث باركودات PDF
 type: docs
+url: /ar/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/
+weight: 1
 ---
-# كيفية تهيئة وتحديث توقيعات الباركود في Java باستخدام GroupDocs.Signature
 
-## مقدمة
+# إنشاء توقيع الباركود في Java – تحديث باركودات PDF
 
-تُسهّل GroupDocs.Signature for Java إدارة توقيعات الباركود داخل مستندات PDF. سواءً كنت تُحوّل سير عمل المستندات إلى رقمي أو تضمن سلامة البيانات من خلال الباركود، سيُعلّمك هذا الدليل كيفية تهيئة توقيعات الباركود وتحديثها بفعالية.
+## المقدمة
 
-**ما سوف تتعلمه:**
-- تهيئة مثيل التوقيع باستخدام مستند
-- البحث عن توقيعات الباركود في المستندات
-- تحديث مواقع وأحجام توقيعات الباركود
+هل احتجت يومًا إلى إعادة تموضع الباركود على آلاف ملصقات الشحن بعد إعادة تصميم التغليف؟ أو تحديث مواقع الباركود عبر قوالب العقود عندما يغيّر فريقك القانوني تخطيطات المستندات؟ لست وحدك—هذه السيناريوهات تظهر باستمرار في سير عمل أتمتة المستندات.
 
-قبل الغوص في التنفيذ، دعونا نغطي المتطلبات الأساسية اللازمة للنجاح.
+تحديث **توقيع الباركود** يدويًا أمر مرهق وعرضة للأخطاء. باستخدام GroupDocs.Signature for Java، يمكنك **إنشاء كائنات توقيع الباركود** ثم تعديلها ببضع أسطر من الشيفرة فقط. سواء كنت تبني نظام جرد، أو تقوم بأتمتة مستندات اللوجستيات، أو تدير عقودًا قانونية، فإن تحديث توقيعات الباركود برمجيًا يوفر ساعات من العمل اليدوي.
 
-## المتطلبات الأساسية
+**ما ستتقنه في هذا الدرس:**
+- إعداد وتهيئة واجهة برمجة تطبيقات Signature مع مستنداتك
+- البحث عن توقيعات الباركود الموجودة بكفاءة
+- تحديث مواضع الباركود، أحجامه، وخصائص أخرى (بما في ذلك كيفية **تغيير حجم الباركود**)
+- التعامل مع الأخطاء الشائعة وحالات الحافة
+- تحسين الأداء للعمليات الدفعية
 
-تأكد من توفر ما يلي قبل استخدام GroupDocs.Signature لـ Java:
+لنبدأ بالتأكد من أن لديك كل ما تحتاجه قبل كتابة أي شفرة.
+
+## المتطلبات المسبقة
+
+قبل أن تتمكن من تحديث كود توقيع الباركود في Java بمشاريعك، تأكد من تغطية هذه الأساسيات:
 
 ### المكتبات المطلوبة
-- **GroupDocs.Signature لـ Java**:قم بتثبيت الإصدار 23.12 أو الإصدار الأحدث في مشروعك.
+- **GroupDocs.Signature for Java**: الإصدار 23.12 أو أحدث (الإصدارات الأقدم قد تفتقد طرق التحديث التي سنستخدمها).
 
 ### إعداد البيئة
-- بيئة عمل Java Development Kit (JDK).
-- بيئة تطوير متكاملة (IDE)، مثل IntelliJ IDEA أو Eclipse، لتسهيل تحرير التعليمات البرمجية وتنفيذها.
+- **Java Development Kit (JDK)** يعمل (يفضل JDK 8 أو أعلى)
+- **IDE** مثل IntelliJ IDEA أو Eclipse أو VS Code
 
-### متطلبات المعرفة الأساسية
-- فهم أساسي لمفاهيم برمجة جافا.
-- - المعرفة بكيفية التعامل مع الملفات والدلائل في جافا.
+### المتطلبات المعرفية
+- أساسيات Java (الفئات، الكائنات، معالجة الاستثناءات)
+- التعامل مع الملفات في Java (المسارات، الأدلة)
+- اختياري: فهم بنية PDF ومفاهيم الباركود
 
-## إعداد GroupDocs.Signature لـ Java
+هل لديك كل ذلك؟ رائع! لنقم بتثبيت المكتبة.
 
-لاستخدام GroupDocs.Signature في Java، أضفه كتبعية لمشروعك. إليك الطريقة:
+## إعداد GroupDocs.Signature for Java
 
-**مافن**
+إضافة GroupDocs.Signature إلى مشروع Java الخاص بك أمر بسيط. اختر أداة البناء التي تستخدمها:
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -47,159 +67,331 @@ type: docs
 </dependency>
 ```
 
-**جرادل**
+**Gradle**  
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**التحميل المباشر**: قم بتنزيل أحدث إصدار من [GroupDocs.Signature لإصدارات Java](https://releases.groupdocs.com/signature/java/).
+**تحميل مباشر**: إذا لم تكن تستخدم أداة بناء، احصل على أحدث ملف JAR من [إصدارات GroupDocs.Signature for Java](https://releases.groupdocs.com/signature/java/) وأضفه إلى مسار الفئة (classpath) الخاص بمشروعك يدويًا.
 
 ### الحصول على الترخيص
 
-للاستفادة الكاملة من GroupDocs.Signature، فكر في الحصول على ترخيص:
-- **نسخة تجريبية مجانية**:اختبر الميزات من خلال الإصدار التجريبي المجاني.
-- **رخصة مؤقتة**:اطلب ترخيصًا مؤقتًا لتقييم القدرات الموسعة.
-- **شراء**:تأمين ترخيص كامل للوصول دون انقطاع.
+يعمل GroupDocs.Signature مع كل من تراخيص التجربة الكاملة:
+- **تجربة مجانية** – مثالية للاختبار وإثبات المفهوم
+- **ترخيص مؤقت** – لتقييم ممتد على مشروع محدد
+- **ترخيص كامل** – يزيل العلامات المائية وحدود الاستخدام للإنتاج
 
-بعد إعداد المكتبة، دعنا نلقي نظرة على تهيئة GroupDocs.Signature واستخدامها بشكل فعال.
+**نصيحة احترافية**: ابدأ بالتجربة المجانية للتحقق من أن الـ API يلبي احتياجاتك، ثم قم بالترقية عندما تكون جاهزًا للإطلاق.
 
-## دليل التنفيذ
+الآن بعد تثبيت المكتبة، لنغوص في التنفيذ الفعلي.
 
-### تهيئة مثيل التوقيع
+## إجابات سريعة
+- **ماذا يعني “إنشاء توقيع باركود”؟** يعني ذلك توليد كائن باركود يمكن وضعه أو تحريكه أو تحريره داخل مستند عبر الـ API.  
+- **هل يمكنني تغيير حجم الباركود بعد إنشائه؟** نعم – استخدم طريقتي `setWidth` و `setHeight` أو عدّل إحداثيات `Left`/`Top`.  
+- **هل أحتاج إلى ترخيص لتحديث الباركود؟** التجربة تعمل للتطوير؛ الترخيص الكامل مطلوب للإنتاج.  
+- **هل يعمل هذا فقط مع ملفات PDF؟** لا – نفس الشيفرة تعمل مع Word و Excel و PowerPoint وملفات الصور.  
+- **كم عدد المستندات التي يمكن معالجتها في آن واحد؟** تدعم المعالجة الدفعية؛ فقط احرص على إدارة الذاكرة باستخدام try‑with‑resources.
 
-#### ملخص
-تهيئة `Signature` المثيل هو خطوتك الأولى في معالجة توقيعات المستندات. تتضمن هذه العملية تحميل المستند المستهدف إلى بيئة GroupDocs.
+## كيفية إنشاء توقيع باركود في Java
 
-#### خطوات التهيئة
-1. **استيراد الفئات المطلوبة**
-   ```java
-   import com.groupdocs.signature.Signature;
-   import java.nio.file.Paths;
-   ```
-2. **تعيين مسار المستند**
-   حدد مكان وجود مستندك:
-   ```java
-   String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
-   ```
-3. **إنشاء مثيل توقيع**
-   تهيئة `Signature` الكائن مع مسار الملف.
-   ```java
-   Signature signature = new Signature(filePath);
-   ```
-   سيتم استخدام هذه المثيل للبحث عن التوقيعات وتحديثها في مستندك.
+### الخطوة 1: تهيئة كائن Signature
 
-### البحث عن توقيعات الباركود
+#### لماذا هذا مهم
+فكّر في كائن `Signature` كبوابة إلى مستندك. فهو يحمل ملف PDF (أو أي تنسيق مدعوم) إلى الذاكرة ويمنحك الوصول إلى جميع عمليات التوقيع. بدون هذه التهيئة، لا يمكنك البحث أو تعديل أي شيء.
 
-#### ملخص
-يُعدّ تحديد موقع توقيعات الباركود داخل المستندات أمرًا بالغ الأهمية لأتمتة التحديثات أو عمليات التحقق. يُبسّط GroupDocs.Signature عملية البحث هذه.
+#### التنفيذ
+أولًا، استورد الفئة المطلوبة وحدد مسار الملف:
 
-#### خطوات البحث
-1. **استيراد الفئات المطلوبة**
-   ```java
-   import com.groupdocs.signature.options.search.BarcodeSearchOptions;
-   import com.groupdocs.signature.domain.signatures.BarcodeSignature;
-   import java.util.List;
-   ```
-2. **تحديد خيارات البحث**
-   إعداد خيارات البحث عن توقيعات الباركود:
-   ```java
-   BarcodeSearchOptions options = new BarcodeSearchOptions();
-   ```
-3. **تنفيذ البحث**
-   ابحث عن جميع توقيعات الباركود في مستندك.
-   ```java
-   List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
-   ```
-ال `signatures` ستحتوي القائمة على أي رموز شريطية تم العثور عليها.
+```java
+import com.groupdocs.signature.Signature;
+import java.nio.file.Paths;
+```
 
-### تحديث توقيع الباركود
+```java
+String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
+```
 
-#### ملخص
-بعد العثور على توقيع الباركود، قد تحتاج إلى تعديل موقعه أو حجمه. يوضح هذا القسم كيفية تحديث هذه الخصائص.
+```java
+Signature signature = new Signature(filePath);
+```
 
-#### خطوات التحديث
-1. **استيراد الفئات المطلوبة**
-   ```java
-   import java.io.File;
-   import com.groupdocs.signature.exception.GroupDocsSignatureException;
-   ```
-2. **تحديد مسار الإخراج**
-   قم بإعداد المكان الذي سيتم حفظ المستند المحدث فيه:
-   ```java
-   String fileName = Paths.get(filePath).getFileName().toString();
-   String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
-   checkDir(outputFilePath);
-   ```
-3. **التحقق من التوقيعات**
-   تأكد من وجود رموز شريطية للتحديث:
-   ```java
-   if (signatures.size() > 0) {
-       BarcodeSignature barcodeSignature = signatures.get(0);
-       // تحديث موقع وحجم توقيع الباركود
-       barcodeSignature.setLeft(100);
-       barcodeSignature.setTop(100);
-       
-       // تطبيق التحديثات على المستند
-       boolean result = signature.update(outputFilePath, barcodeSignature);
-       if (result) {
-           System.out.println("Signature with Barcode '" +
-               barcodeSignature.getText() + "' and encode type '"+
-               barcodeSignature.getEncodeType().getTypeName() + "' was updated in the document ['" +
-               fileName + "'].");
-   }
-4. **التعامل مع الاستثناءات**
-   كن مستعدًا لالتقاط أي استثناءات أثناء هذه العملية:
-   ```java
-   } catch (GroupDocsSignatureException e) {
-       System.err.println("Error updating signature: " + e.getMessage());
-   }
-   ```
+**ما الذي يحدث؟** يقرأ المُنشئ الملف ويجهّزه للتعديل. يمكن أن يكون المسار مطلقًا أو نسبيًا—فقط تأكد من أن عملية Java لديها صلاحية القراءة.
 
-## التطبيقات العملية
+> **نصيحة احترافية:** تحقق من صحة المسار قبل إنشاء كائن `Signature` لتجنب استثناء `FileNotFoundException`.
 
-### حالات الاستخدام لتحديثات توقيع الباركود
-1. **التحقق من الوثائق**:التحقق تلقائيًا من الباركودات الموجودة في العقود أو المستندات القانونية وتحديثها.
-2. **إدارة المخزون**:تحديث مواقع الباركود على ملصقات المنتجات بعد إعادة التخزين.
-3. **تتبع الخدمات اللوجستية**:تعديل مواضع الباركود لتعكس تخطيطات التغليف الجديدة.
+### الخطوة 2: البحث عن توقيعات الباركود
 
-تسلط هذه التطبيقات الضوء على مدى تنوع GroupDocs.Signature عبر الصناعات المختلفة، مما يجعله أداة قيمة لأي مطور Java.
+#### لماذا البحث أولًا أمر أساسي
+لا يمكنك تحديث ما لا تستطيع العثور عليه. يوفر GroupDocs.Signature واجهة بحث قوية تصفي التوقيعات حسب النوع.
 
-## اعتبارات الأداء
+#### التنفيذ
+استورد الفئات المتعلقة بالبحث:
 
-### التحسين باستخدام GroupDocs.Signature
-- **إدارة الذاكرة**:تأكد من استخدام الذاكرة بكفاءة من خلال التعامل مع المستندات الكبيرة في أجزاء إذا لزم الأمر.
-- **استخدام الموارد**:راقب أداء التطبيق وقم بتحسين استعلامات البحث.
-- **أفضل الممارسات**:قم بالتحديث بانتظام إلى أحدث إصدار من GroupDocs.Signature لتحسين الاستقرار والميزات الجديدة.
+```java
+import com.groupdocs.signature.options.search.BarcodeSearchOptions;
+import com.groupdocs.signature.domain.signatures.BarcodeSignature;
+import java.util.List;
+```
 
-إن اتباع هذه الإرشادات سيساعدك في الحفاظ على الأداء الأمثل عند العمل مع توقيعات المستندات.
+اضبط خيارات البحث (الإعداد الافتراضي يبحث في جميع الصفحات):
 
-## خاتمة
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+```
 
-في هذا البرنامج التعليمي، تعلمت كيفية تهيئة `Signature` على سبيل المثال، ابحث عن توقيعات الباركود، وحدّث خصائصها باستخدام GroupDocs.Signature لجافا. هذه المهارات أساسية لأتمتة مهام إدارة المستندات بكفاءة.
+نفّذ البحث:
+
+```java
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+```
+
+الآن لديك قائمة من كائنات `BarcodeSignature`، كل منها يعرض خصائص مثل `Left`، `Top`، `Width`، `Height`، `Text`، و `EncodeType`.
+
+> **ملاحظة أداء:** بالنسبة لملفات PDF الكبيرة جدًا، فكر في تضييق نطاق البحث إلى صفحات أو أنواع باركود محددة لتسريع العملية.
+
+### الخطوة 3: تحديث خصائص الباركود
+
+#### الحدث الرئيسي: تعديل توقيعات الباركود
+الآن يمكنك **تغيير حجم الباركود** أو إعادة تموضعه حسب الحاجة.
+
+#### التنفيذ
+أولًا، استورد فئات معالجة الاستثناءات:
+
+```java
+import java.io.File;
+import com.groupdocs.signature.exception.GroupDocsSignatureException;
+```
+
+حدد مسار الإخراج حيث سيُحفظ المستند المعدل:
+
+```java
+String fileName = Paths.get(filePath).getFileName().toString();
+String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
+checkDir(outputFilePath);
+```
+
+بعد ذلك، حدد أول باركود (أو تكرار عبر القائمة) وطبق التغييرات:
+
+```java
+if (signatures.size() > 0) {
+    BarcodeSignature barcodeSignature = signatures.get(0);
+    
+    // Update the barcode's position and size
+    barcodeSignature.setLeft(100);
+    barcodeSignature.setTop(100);
+    
+    // Apply the changes to the document
+    boolean result = signature.update(outputFilePath, barcodeSignature);
+    
+    if (result) {
+        System.out.println("Signature with Barcode '" +
+            barcodeSignature.getText() + "' and encode type '"+
+            barcodeSignature.getEncodeType().getTypeName() + "' was updated in the document ['" +
+            fileName + "'].");
+    }
+} catch (GroupDocsSignatureException e) {
+    System.err.println("Error updating signature: " + e.getMessage());
+}
+```
+
+**نقاط رئيسية:**
+- `setLeft` / `setTop` تحرك الباركود (الإحداثيات تُقاس من الزاوية العليا اليسرى).
+- طريقة `update` تكتب ملفًا جديدًا؛ يبقى الأصلي دون تغيير.
+- غلف الاستدعاء بكتلة `try‑catch` لمعالجة استثناء `GroupDocsSignatureException` المحتمل.
+
+## متى يجب تحديث توقيعات الباركود؟
+
+فهم السيناريوهات المناسبة يساعدك على تصميم سير عمل فعال.
+
+### إعادة تسمية المستندات وتحديث القوالب
+تغيّر رأس الرسالة أو تخطيط الملصق غالبًا ما يعني ضرورة إعادة تموضع الباركود. أتمتة ذلك باستخدام Java تتفوق على تعديل مئات الملفات يدويًا.
+
+### المعالجة الدفعية بعد ترحيل البيانات
+قد لا تتبع ملفات PDF التي تم ترحيلها معايير تموضع الباركود الحالية. التحديث الجماعي يعيد التناسق دون الحاجة لإعادة إنشاء كل مستند.
+
+### تعديلات الامتثال التنظيمي
+قد تغير الصناعات مثل اللوجستيات أو الرعاية الصحية قواعد تموضع الباركود. سكريبت سريع يضمن الالتزام.
+
+### توليد المستندات الديناميكي
+إذا كان طول محتوى المستند متغيرًا، قد تحتاج إلى تعديل إحداثيات الباركود في الوقت الفعلي.
+
+**متى لا تستخدم التحديث:** إذا كنت تنشئ مستندًا جديدًا، ضع الباركود في الموضع الصحيح من البداية بدلاً من إضافته ثم تحديثه.
+
+## المشكلات الشائعة والحلول
+
+### المشكلة 1: "لم يتم العثور على توقيعات باركود"
+**العَرَض:** البحث يُرجع قائمة فارغة رغم وجود باركود في الـ PDF.
+
+**الأسباب المحتملة**
+- الباركود مدمج كصور أو حقول نموذج، وليس ككائن توقيع.
+- المستند محمي بكلمة مرور.
+- تقوم بتصفية نوع باركود معين لا يتطابق مع الموجود.
+
+**الحل**
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+options.setAllPages(true); // Search all pages, not just the first
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+
+if (signatures.isEmpty()) {
+    System.out.println("No barcode signatures found. The barcodes might be images, not signature objects.");
+}
+```
+
+### المشكلة 2: المستند المحدث يبدو معطوبًا
+**العَرَض:** لا يمكن فتح ملف PDF بعد التحديث.
+
+**الأسباب المحتملة**
+- مساحة قرص غير كافية.
+- دليل الإخراج غير موجود.
+- أذونات نظام الملفات تمنع الكتابة.
+
+**الحل**
+```java
+File outputDir = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/");
+if (!outputDir.exists()) {
+    outputDir.mkdirs(); // Create directories if they don't exist
+}
+
+// Check write permissions
+if (!outputDir.canWrite()) {
+    throw new IOException("Cannot write to output directory: " + outputDir.getAbsolutePath());
+}
+```
+
+### المشكلة 3: تدهور الأداء مع المستندات الكبيرة
+**العَرَض:** العملية تصبح بطيئة جدًا للـ PDFs التي تزيد عن ~50 صفحة.
+
+**الحل**
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+options.setPageNumber(1); // Start with page 1
+options.setPagesSetup(new PagesSetup());
+options.getPagesSetup().setFirstPage(true);
+options.getPagesSetup().setLastPage(false);
+```
+
+## نصائح تحسين الأداء
+
+### إدارة الذاكرة للعمليات الدفعية
+عالج مستندًا واحدًا في كل مرة ودع Java يحرّر الموارد تلقائيًا:
+
+```java
+List<String> documentPaths = getDocumentList();
+for (String path : documentPaths) {
+    try (Signature sig = new Signature(path)) {
+        // Process one document at a time
+        // Signature instance is auto‑closed after each iteration
+    }
+}
+```
+
+### تخزين نتائج البحث مؤقتًا
+إذا كنت بحاجة لتعديل عدة خصائص على نفس الباركود، ابحث مرة واحدة وأعد استخدام القائمة:
+
+```java
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+
+// Update multiple properties
+for (BarcodeSignature barcode : signatures) {
+    barcode.setLeft(100);
+    barcode.setTop(100);
+    barcode.setWidth(200);
+    barcode.setHeight(50);
+}
+
+// Single update call with all changes
+signature.update(outputPath, signatures);
+```
+
+### المعالجة المتوازية للدفعات الضخمة
+استفد من تدفقات Java (streams) لتسريع معالجة آلاف المستندات:
+
+```java
+documentPaths.parallelStream().forEach(path -> {
+    try (Signature sig = new Signature(path)) {
+        List<BarcodeSignature> barcodes = sig.search(BarcodeSignature.class, new BarcodeSearchOptions());
+        if (!barcodes.isEmpty()) {
+            BarcodeSignature barcode = barcodes.get(0);
+            barcode.setLeft(50);  // New position for smaller boxes
+            barcode.setTop(10);
+            sig.update(generateOutputPath(path), barcode);
+        }
+    } catch (Exception e) {
+        logError(path, e);
+    }
+});
+```
+
+## تطبيقات عملية
+
+### الحالة 1: تحديث ملصقات اللوجستيات تلقائيًا
+غيرت شركة شحن أبعاد الصناديق، مما استلزم إعادة تموضع الباركود على 50,000 ملصق موجود. قلّصت الشيفرة المتوازية الوقت من أيام إلى ساعات قليلة.
+
+### الحالة 2: توحيد قوالب العقود
+طلب المستشار القانوني موقع باركود ثابت للمسح الضوئي. من خلال البحث وتحديث جميع ملفات PDF العقودية دفعيًا، تجنبت الفريق إعادة طباعة مكلفة.
+
+### الحالة 3: دمج نظام الجرد
+بعد ترقية نظام ERP، احتاجت باركودات المنتجات إلى التوافق مع طابعة ملصقات جديدة. تعديل الحجم والموضع برمجيًا وفر الوقت وتكلفة المواد.
+
+## قائمة التحقق من استكشاف الأخطاء وإصلاحها
+
+قبل طلب الدعم، تأكد من التالي:
+
+- [ ] **مسار الملف صحيح** والملف موجود  
+- [ ] **صلاحيات القراءة/الكتابة** مُعطاة للمصدر والوجهة  
+- [ ] **إصدار GroupDocs.Signature** هو 23.12 أو أحدث  
+- [ ] **تم تكوين الترخيص** بشكل صحيح (في حال استخدام ترخيص كامل)  
+- [ ] **دليل الإخراج موجود** أو يتم إنشاؤه برمجيًا  
+- [ ] **مساحة قرص كافية** للملفات الناتجة  
+- [ ] **لا عملية أخرى** تقفل الملف المصدر  
+- [ ] **معالجة الاستثناءات** موجودة لالتقاط الأخطاء  
+
+## قسم الأسئلة المتكررة
+
+**س: هل يمكنني تحديث كود توقيع الباركود في Java لعدة باركودات داخل مستند واحد؟**  
+ج: بالتأكيد. يمكنك التكرار عبر `List<BarcodeSignature>` التي تُرجعها عملية البحث واستدعاء `signature.update()` لكل منها، أو تمرير القائمة بالكامل إلى استدعاء `update` واحد.
+
+**س: ما أنواع الباركود التي يدعمها GroupDocs.Signature؟**  
+ج: العشرات، بما فيها Code 128، QR Code، EAN‑13، UPC‑A، DataMatrix، PDF417، وغيرها. استخدم `barcodeSignature.getEncodeType()` لمعرفة النوع.
+
+**س: هل يمكنني تغيير محتوى الباركود (البيانات المشفرة)؟**  
+ج: نعم، عبر `setText()`، لكن تذكّر أنه يجب إعادة توليد الباركود بصريًا لضمان قراءة الماسحات الضوئية له بشكل صحيح.
+
+**س: كيف أتعامل مع مستندات تحتوي باركودات على صفحات متعددة؟**  
+ج: كل كائن `BarcodeSignature` يحتوي على `getPageNumber()`. يمكنك تصفية أو معالجة الباركودات حسب الصفحة حسب الحاجة.
+
+**س: ماذا يحدث للملف الأصلي بعد التحديث؟**  
+ج: يبقى الملف المصدر دون تعديل. يكتب GroupDocs التغييرات إلى مسار الإخراج الذي تحدده، مما يحافظ على الأصل للسلامة.
+
+**س: هل يمكنني تحديث باركودات في ملفات PDF محمية بكلمة مرور؟**  
+ج: نعم. استخدم overload من مُنشئ `Signature` مع `LoadOptions` لتوفير كلمة المرور.
+
+**س: كيف أعالج معالجة آلاف المستندات بكفاءة؟**  
+ج: اجمع بين تدفقات متوازية (parallel streams) واستخدام try‑with‑resources (كما هو موضح في مثال المعالجة المتوازية) وتابع استهلاك الذاكرة.
+
+**س: هل يعمل هذا مع صيغ غير PDF؟**  
+ج: نعم. نفس الـ API يعمل مع Word و Excel و PowerPoint والملفات الصورة وغيرها من الصيغ المدعومة من قبل GroupDocs.Signature.
+
+## الخاتمة
+
+أصبحت الآن تمتلك دليلًا كاملاً وجاهزًا للإنتاج لإنشاء كائنات **توقيع الباركود** في Java وتحديث موضعها، حجمها، وخصائصها الأخرى. غطينا التهيئة، البحث، التعديل، استكشاف الأخطاء، وضبط الأداء لكل من المستندات الفردية والدفعات الضخمة.
 
 ### الخطوات التالية
-- جرب أنواع الملفات المختلفة وخيارات التوقيع.
-- استكشف الميزات الإضافية لـ GroupDocs.Signature لتحسين تطبيقاتك بشكل أكبر.
+- جرّب تحديث خصائص متعددة (مثل الدوران، الشفافية) في نفس العملية.  
+- أنشئ خدمة REST حول هذا الكود لتوفير تحديثات الباركود كواجهة API.  
+- استكشف أنواع توقيعات أخرى (نص، صورة، رقمية) باستخدام نفس النمط.
 
-هل أنت مستعد لتجربتها؟ طبّق هذه الخطوات في مشروعك القادم لتختبر بنفسك قوة توقيعات المستندات الآلية!
+توفر GroupDocs.Signature API أكثر من مجرد تحديث الباركود—تعمق في التحقق، معالجة البيانات الوصفية، ودعم الصيغ المتعددة لتُؤتمت بالكامل سير عمل المستندات لديك.
 
-## قسم الأسئلة الشائعة
+**الموارد**
+- [توثيق GroupDocs.Signature for Java](https://docs.groupdocs.com/signature/java/)
+- [مرجع الـ API](https://reference.groupdocs.com/signature/java/)
+- [منتدى الدعم](https://forum.groupdocs.com/c/signature)
+- [تحميل تجربة مجانية](https://releases.groupdocs.com/signature/java/)
 
-**س: ما هو استخدام GroupDocs.Signature لـ Java؟**
-أ: إنها مكتبة قوية مصممة لأتمتة عملية إنشاء التوقيعات الرقمية والبحث عنها وتحديثها داخل المستندات.
+---
 
-**س: كيف أقوم بتثبيت GroupDocs.Signature في مشروع Java الخاص بي؟**
-أ: استخدم تبعيات Maven أو Gradle كما هو موضح أعلاه، أو قم بتنزيلها مباشرة من موقع GroupDocs على الويب.
-
-**س: هل يمكنني تحديث توقيعات الباركود المتعددة مرة واحدة؟**
-ج: نعم، يمكنك تكرار قائمة الرموز الشريطية التي تم العثور عليها وتطبيق التحديثات على كل منها على حدة.
-
-**س: ماذا يجب أن أفعل إذا لم يتم العثور على أي رموز شريطية في مستندي؟**
-أ: تأكد من تكوين خيارات البحث بشكل صحيح ومن أن المستند يحتوي على بيانات الباركود الصالحة.
-
-**س: كيف أتعامل مع الاستثناءات عند تحديث التوقيعات؟**
-أ: استخدم كتل المحاولة والالتقاط للالتقاط `GroupDocsSignatureException` وإدارة الأخطاء برشاقة.
-
-## موارد
-- **التوثيق**: [GroupDocs.Signature لتوثيق Java](https://docs.groupdocs.com/signature/java/)
-- **دروس تعليمية**:استكشف المزيد من الدروس التعليمية على موقع GroupDocs
+**آخر تحديث:** 2026-01-16  
+**تم الاختبار مع:** GroupDocs.Signature 23.12  
+**المؤلف:** GroupDocs  

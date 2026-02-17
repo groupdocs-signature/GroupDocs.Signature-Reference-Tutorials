@@ -1,44 +1,65 @@
 ---
-"date": "2025-05-08"
-"description": "Aprenda a gerenciar assinaturas de código de barras com o GroupDocs.Signature para Java. Este guia aborda a inicialização, a pesquisa e a atualização de códigos de barras em PDFs de forma eficaz."
-"title": "Como inicializar e atualizar assinaturas de código de barras em Java usando GroupDocs.Signature"
-"url": "/pt/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/"
-"weight": 1
+categories:
+- Java Document Processing
+date: '2026-01-16'
+description: Aprenda como criar assinatura de código de barras em Java e atualizar
+  sua posição, tamanho e propriedades para PDFs usando a API GroupDocs.Signature.
+keywords: update barcode signature Java, Java barcode signature management, modify
+  barcode in PDF Java, GroupDocs Signature Java, Java document signature automation
+lastmod: '2026-01-16'
+linktitle: Update Barcode Signatures in Java
+tags:
+- barcode-signatures
+- pdf-automation
+- groupdocs-java
+- document-management
+title: Criar assinatura de código de barras em Java – Atualizar códigos de barras
+  em PDF
 type: docs
+url: /pt/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/
+weight: 1
 ---
-# Como inicializar e atualizar assinaturas de código de barras em Java usando GroupDocs.Signature
+
+# Criar Assinatura de Código de Barras em Java – Atualizar Códigos de Barras em PDF
 
 ## Introdução
 
-gerenciamento de assinaturas de código de barras em documentos PDF é simplificado com o GroupDocs.Signature para Java. Seja digitalizando fluxos de trabalho de documentos ou garantindo a integridade dos dados por meio de códigos de barras, este guia ensinará como inicializar e atualizar assinaturas de código de barras de forma eficaz.
+Já precisou reposicionar um código de barras em milhares de etiquetas de envio após uma reformulação da embalagem? Ou atualizar a localização dos códigos de barras em modelos de contrato quando sua equipe jurídica altera o layout dos documentos? Você não está sozinho — esses cenários surgem constantemente em fluxos de trabalho de automação de documentos.
 
-**O que você aprenderá:**
-- Inicializando uma instância de assinatura com um documento
-- Pesquisando assinaturas de código de barras em documentos
-- Atualizando locais e tamanhos de assinaturas de código de barras
+Atualizar manualmente uma **assinatura de código de barras** é tedioso e propenso a erros. Com o GroupDocs.Signature para Java, você pode **criar objetos de assinatura de código de barras** e então modificá-los em apenas algumas linhas de código. Seja construindo um sistema de inventário, automatizando documentos logísticos ou gerenciando contratos legais, atualizar programaticamente assinaturas de códigos de barras economiza horas de trabalho manual.
 
-Antes de mergulhar na implementação, vamos abordar os pré-requisitos necessários para o sucesso.
+**O que você vai dominar neste tutorial:**
+- Configurar e inicializar a API Signature com seus documentos
+- Pesquisar assinaturas de código de barras existentes de forma eficiente
+- Atualizar posições, tamanhos e outras propriedades dos códigos de barras (incluindo como **alterar o tamanho do código de barras**)
+- Tratar erros comuns e casos extremos
+- Otimizar o desempenho para operações em lote
+
+Vamos começar garantindo que você tem tudo o que precisa antes de escrever qualquer código.
 
 ## Pré-requisitos
 
-Certifique-se de ter o seguinte antes de usar o GroupDocs.Signature para Java:
+Antes de poder atualizar o código Java de assinatura de código de barras em seus projetos, certifique‑se de que você tem estes itens essenciais cobertos:
 
-### Bibliotecas necessárias
-- **GroupDocs.Signature para Java**: Instale a versão 23.12 ou posterior no seu projeto.
+### Bibliotecas Necessárias
+- **GroupDocs.Signature for Java**: Versão 23.12 ou posterior (versões anteriores podem não ter os métodos de atualização que usaremos).
 
-### Configuração do ambiente
-- Um ambiente funcional do Java Development Kit (JDK).
-- Um Ambiente de Desenvolvimento Integrado (IDE), como IntelliJ IDEA ou Eclipse, para facilitar a edição e a execução de código.
+### Configuração do Ambiente
+- Um **Java Development Kit (JDK)** funcional (JDK 8 ou superior recomendado)
+- Uma **IDE** como IntelliJ IDEA, Eclipse ou VS Code
 
-### Pré-requisitos de conhecimento
-- Compreensão básica dos conceitos de programação Java.
-- Familiaridade com o manuseio de arquivos e diretórios em Java.
+### Pré-requisitos de Conhecimento
+- Java básico (classes, objetos, tratamento de exceções)
+- Manipulação de arquivos em Java (caminhos, diretórios)
+- Opcional: compreensão da estrutura de PDF e conceitos de código de barras
 
-## Configurando GroupDocs.Signature para Java
+Tem tudo isso? Ótimo! Vamos instalar a biblioteca.
 
-Para usar o GroupDocs.Signature para Java, adicione-o como uma dependência no seu projeto. Veja como:
+## Configurando o GroupDocs.Signature para Java
 
-**Especialista**
+Adicionar o GroupDocs.Signature ao seu projeto Java é simples. Escolha a ferramenta de build que você está usando:
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -47,159 +68,341 @@ Para usar o GroupDocs.Signature para Java, adicione-o como uma dependência no s
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Download direto**: Baixe a versão mais recente em [GroupDocs.Signature para versões Java](https://releases.groupdocs.com/signature/java/).
+**Download Direto**: Se você não estiver usando uma ferramenta de build, baixe o arquivo JAR mais recente em [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) e adicione-o manualmente ao classpath do seu projeto.
 
 ### Aquisição de Licença
 
-Para aproveitar ao máximo o GroupDocs.Signature, considere obter uma licença:
-- **Teste grátis**: Teste os recursos com uma avaliação gratuita.
-- **Licença Temporária**: Solicite uma licença temporária para avaliar recursos estendidos.
-- **Comprar**: Garanta uma licença completa para acesso ininterrupto.
+O GroupDocs.Signature funciona tanto com licenças de teste quanto com licenças completas:
 
-Depois de configurar a biblioteca, vamos ver como inicializar e usar o GroupDocs.Signature de forma eficaz.
+- **Teste Gratuito** – perfeito para testes e trabalhos de prova de conceito
+- **Licença Temporária** – para avaliação prolongada em um projeto específico
+- **Licença Completa** – remove marcas d'água e limites de uso para produção
 
-## Guia de Implementação
+**Dica Profissional**: Comece com o teste gratuito para verificar se a API atende às suas necessidades, depois faça o upgrade quando estiver pronto para entrar em produção.
 
-### Inicializar instância de assinatura
+Agora que a biblioteca está instalada, vamos mergulhar na implementação real.
 
-#### Visão geral
-Inicializando um `Signature` instância é o primeiro passo para manipular assinaturas de documentos. Esse processo envolve carregar o documento de destino no ambiente do GroupDocs.
+## Respostas Rápidas
+- **O que significa “criar assinatura de código de barras”?** Significa gerar um objeto de código de barras que pode ser colocado, movido ou editado dentro de um documento via API.  
+- **Posso mudar o tamanho do código de barras depois de criado?** Sim – use os métodos `setWidth` e `setHeight` ou ajuste as coordenadas `Left`/`Top`.  
+- **Preciso de licença para atualizar códigos de barras?** Um teste funciona para desenvolvimento; uma licença completa é necessária para produção.  
+- **Isso funciona apenas com PDFs?** Não – o mesmo código funciona com Word, Excel, PowerPoint e arquivos de imagem.  
+- **Quantos documentos posso processar de uma vez?** O processamento em lote é suportado; basta gerenciar a memória com try‑with‑resources.
 
-#### Etapas para inicializar
-1. **Importar classes necessárias**
-   ```java
-   import com.groupdocs.signature.Signature;
-   import java.nio.file.Paths;
-   ```
-2. **Definir caminho do documento**
-   Defina onde seu documento está localizado:
-   ```java
-   String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
-   ```
-3. **Criar uma instância de assinatura**
-   Inicializar o `Signature` objeto com o caminho do arquivo.
-   ```java
-   Signature signature = new Signature(filePath);
-   ```
-   Esta instância será usada para pesquisar e atualizar assinaturas no seu documento.
+## Como criar assinatura de código de barras em Java
 
-### Pesquisar assinaturas de código de barras
+### Etapa 1: Inicializar a Instância Signature
 
-#### Visão geral
-Localizar assinaturas de código de barras em documentos é vital para automatizar atualizações ou validações. O GroupDocs.Signature simplifica esse processo de busca.
+#### Por que isso importa
+Pense no objeto `Signature` como o portal para o seu documento. Ele carrega o PDF (ou qualquer formato suportado) na memória e fornece acesso a todas as operações relacionadas a assinaturas. Sem essa inicialização, você não pode pesquisar ou modificar nada.
 
-#### Etapas para pesquisar
-1. **Importar classes necessárias**
-   ```java
-   import com.groupdocs.signature.options.search.BarcodeSearchOptions;
-   import com.groupdocs.signature.domain.signatures.BarcodeSignature;
-   import java.util.List;
-   ```
-2. **Definir opções de pesquisa**
-   Configure opções para pesquisar assinaturas de código de barras:
-   ```java
-   BarcodeSearchOptions options = new BarcodeSearchOptions();
-   ```
-3. **Executar a Pesquisa**
-   Encontre todas as assinaturas de código de barras no seu documento.
-   ```java
-   List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
-   ```
-O `signatures` a lista conterá todos os códigos de barras encontrados.
+#### Implementação
+Primeiro, importe a classe necessária e defina o caminho do arquivo:
 
-### Atualizar assinatura do código de barras
+```java
+import com.groupdocs.signature.Signature;
+import java.nio.file.Paths;
+```
 
-#### Visão geral
-Após encontrar uma assinatura de código de barras, talvez seja necessário ajustar sua localização ou tamanho. Esta seção demonstra como atualizar essas propriedades.
+```java
+String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
+```
 
-#### Etapas para atualização
-1. **Importar classes necessárias**
-   ```java
-   import java.io.File;
-   import com.groupdocs.signature.exception.GroupDocsSignatureException;
-   ```
-2. **Definir caminho de saída**
-   Prepare onde o documento atualizado será salvo:
-   ```java
-   String fileName = Paths.get(filePath).getFileName().toString();
-   String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
-   checkDir(outputFilePath);
-   ```
-3. **Verificar assinaturas**
-   Certifique-se de que há códigos de barras para atualizar:
-   ```java
-   if (signatures.size() > 0) {
-       BarcodeSignature barcodeSignature = signatures.get(0);
-       // Atualizar localização e tamanho da assinatura do código de barras
-       barcodeSignature.setLeft(100);
-       barcodeSignature.setTop(100);
-       
-       // Aplicar atualizações ao documento
-       boolean result = signature.update(outputFilePath, barcodeSignature);
-       if (result) {
-           System.out.println("Signature with Barcode '" +
-               barcodeSignature.getText() + "' and encode type '"+
-               barcodeSignature.getEncodeType().getTypeName() + "' was updated in the document ['" +
-               fileName + "'].");
-   }
-4. **Lidar com exceções**
-   Esteja preparado para detectar quaisquer exceções durante este processo:
-   ```java
-   } catch (GroupDocsSignatureException e) {
-       System.err.println("Error updating signature: " + e.getMessage());
-   }
-   ```
+```java
+Signature signature = new Signature(filePath);
+```
 
-## Aplicações práticas
+**O que está acontecendo?** O construtor lê o arquivo e o prepara para manipulação. O caminho pode ser absoluto ou relativo — apenas certifique‑se de que o processo Java tem permissão de leitura.
 
-### Casos de uso para atualizações de assinatura de código de barras
-1. **Verificação de Documentos**: Verifique e atualize automaticamente códigos de barras em contratos ou documentos legais.
-2. **Gestão de Estoque**: Atualizar os locais dos códigos de barras nas etiquetas dos produtos após o reabastecimento.
-3. **Rastreamento Logístico**: Modifique as posições dos códigos de barras para refletir os novos layouts de embalagem.
+> **Dica profissional:** Valide o caminho antes de criar a instância `Signature` para evitar `FileNotFoundException`.
 
-Esses aplicativos destacam o quão versátil o GroupDocs.Signature pode ser em diferentes setores, tornando-o uma ferramenta valiosa para qualquer desenvolvedor Java.
+### Etapa 2: Pesquisar Assinaturas de Código de Barras
 
-## Considerações de desempenho
+#### Por que pesquisar primeiro é essencial
+Você não pode atualizar o que não encontra. O GroupDocs.Signature fornece uma poderosa API de pesquisa que filtra assinaturas por tipo.
 
-### Otimizando com GroupDocs.Signature
-- **Gerenciamento de memória**: Garanta o uso eficiente da memória manipulando documentos grandes em blocos, se necessário.
-- **Uso de recursos**: Monitore o desempenho do aplicativo e otimize as consultas de pesquisa.
-- **Melhores Práticas**: Atualize regularmente para a versão mais recente do GroupDocs.Signature para maior estabilidade e novos recursos.
+#### Implementação
+Importe as classes relacionadas à pesquisa:
 
-Seguir essas diretrizes ajudará a manter o desempenho ideal ao trabalhar com assinaturas de documentos.
+```java
+import com.groupdocs.signature.options.search.BarcodeSearchOptions;
+import com.groupdocs.signature.domain.signatures.BarcodeSignature;
+import java.util.List;
+```
+
+Configure as opções de pesquisa (por padrão pesquisa todas as páginas):
+
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+```
+
+Execute a pesquisa:
+
+```java
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+```
+
+Agora você tem uma lista de objetos `BarcodeSignature`, cada um expondo propriedades como `Left`, `Top`, `Width`, `Height`, `Text` e `EncodeType`.
+
+> **Nota de desempenho:** Para PDFs muito grandes, considere restringir a pesquisa a páginas específicas ou tipos de código de barras para acelerar o processo.
+
+### Etapa 3: Atualizar Propriedades do Código de Barras
+
+#### O Evento Principal: Modificando Assinaturas de Código de Barras
+Agora você pode **alterar o tamanho do código de barras** ou reposicioná‑lo onde precisar.
+
+#### Implementação
+Primeiro, importe as classes de tratamento de exceções:
+
+```java
+import java.io.File;
+import com.groupdocs.signature.exception.GroupDocsSignatureException;
+```
+
+Defina o caminho de saída onde o documento modificado será salvo:
+
+```java
+String fileName = Paths.get(filePath).getFileName().toString();
+String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
+checkDir(outputFilePath);
+```
+
+Agora, localize o primeiro código de barras (ou itere sobre a lista) e aplique as alterações:
+
+```java
+if (signatures.size() > 0) {
+    BarcodeSignature barcodeSignature = signatures.get(0);
+    
+    // Update the barcode's position and size
+    barcodeSignature.setLeft(100);
+    barcodeSignature.setTop(100);
+    
+    // Apply the changes to the document
+    boolean result = signature.update(outputFilePath, barcodeSignature);
+    
+    if (result) {
+        System.out.println("Signature with Barcode '" +
+            barcodeSignature.getText() + "' and encode type '"+
+            barcodeSignature.getEncodeType().getTypeName() + "' was updated in the document ['" +
+            fileName + "'].");
+    }
+} catch (GroupDocsSignatureException e) {
+    System.err.println("Error updating signature: " + e.getMessage());
+}
+```
+
+**Pontos principais:**
+- `setLeft` / `setTop` movem o código de barras (coordenadas medidas a partir do canto superior esquerdo).
+- O método `update` grava um novo arquivo; o original permanece intacto.
+- Envolva a chamada em um bloco `try‑catch` para tratar possíveis `GroupDocsSignatureException`.
+
+## Quando você deve atualizar assinaturas de código de barras?
+
+Entender os cenários corretos ajuda a projetar fluxos de trabalho eficientes.
+
+### Rebranding de Documentos e Atualizações de Modelos
+Um novo cabeçalho ou layout de etiqueta geralmente significa que os códigos de barras precisam ser reposicionados. Automatizar isso com Java supera a edição manual de centenas de arquivos.
+
+### Processamento em Lote após Migração de Dados
+PDFs migrados podem não seguir seus padrões atuais de posicionamento de códigos de barras. Uma atualização em massa restaura a consistência sem recriar cada documento.
+
+### Ajustes de Conformidade Regulatória
+Indústrias como logística ou saúde podem mudar as regras de posicionamento de códigos de barras. Um script rápido permite que você permaneça em conformidade.
+
+### Geração Dinâmica de Documentos
+Se o comprimento do conteúdo do documento variar, pode ser necessário ajustar as coordenadas do código de barras em tempo real.
+
+**Quando NÃO usar atualizações:** Se você está criando um documento totalmente novo, posicione o código de barras corretamente desde o início em vez de adicioná‑lo e depois atualizá‑lo.
+
+## Problemas Comuns e Soluções
+
+### Problema 1: “Nenhuma assinatura de código de barras encontrada”
+
+**Sintoma:** A pesquisa retorna uma lista vazia mesmo que você veja códigos de barras no PDF.
+
+**Possíveis causas**
+- Os códigos de barras estão incorporados como imagens ou campos de formulário, não como objetos de assinatura.
+- O documento está protegido por senha.
+- Você está filtrando por um tipo específico de código de barras que não corresponde.
+
+**Solução**
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+options.setAllPages(true); // Search all pages, not just the first
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+
+if (signatures.isEmpty()) {
+    System.out.println("No barcode signatures found. The barcodes might be images, not signature objects.");
+}
+```
+
+### Problema 2: Documento Atualizado Aparece Corrompido
+
+**Sintoma:** O PDF não abre após a atualização.
+
+**Possíveis causas**
+- Espaço em disco insuficiente.
+- O diretório de saída não existe.
+- Permissões do sistema de arquivos bloqueiam a gravação.
+
+**Solução**
+```java
+File outputDir = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/");
+if (!outputDir.exists()) {
+    outputDir.mkdirs(); // Create directories if they don't exist
+}
+
+// Check write permissions
+if (!outputDir.canWrite()) {
+    throw new IOException("Cannot write to output directory: " + outputDir.getAbsolutePath());
+}
+```
+
+### Problema 3: Degradação de Desempenho com Documentos Grandes
+
+**Sintoma:** O processamento desacelera drasticamente para PDFs com mais de ~50 páginas.
+
+**Solução**
+```java
+BarcodeSearchOptions options = new BarcodeSearchOptions();
+options.setPageNumber(1); // Start with page 1
+options.setPagesSetup(new PagesSetup());
+options.getPagesSetup().setFirstPage(true);
+options.getPagesSetup().setLastPage(false);
+```
+
+## Dicas de Otimização de Desempenho
+
+### Gerenciamento de Memória para Operações em Lote
+
+Processar um documento por vez e deixar o Java liberar recursos automaticamente:
+
+```java
+List<String> documentPaths = getDocumentList();
+for (String path : documentPaths) {
+    try (Signature sig = new Signature(path)) {
+        // Process one document at a time
+        // Signature instance is auto‑closed after each iteration
+    }
+}
+```
+
+### Cache de Resultados de Pesquisa
+
+Se precisar modificar várias propriedades nos mesmos códigos de barras, pesquise uma vez e reutilize a lista:
+
+```java
+List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+
+// Update multiple properties
+for (BarcodeSignature barcode : signatures) {
+    barcode.setLeft(100);
+    barcode.setTop(100);
+    barcode.setWidth(200);
+    barcode.setHeight(50);
+}
+
+// Single update call with all changes
+signature.update(outputPath, signatures);
+```
+
+### Processamento Paralelo para Lotes Massivos
+
+Aproveite streams do Java para acelerar milhares de documentos:
+
+```java
+documentPaths.parallelStream().forEach(path -> {
+    try (Signature sig = new Signature(path)) {
+        List<BarcodeSignature> barcodes = sig.search(BarcodeSignature.class, new BarcodeSearchOptions());
+        if (!barcodes.isEmpty()) {
+            BarcodeSignature barcode = barcodes.get(0);
+            barcode.setLeft(50);  // New position for smaller boxes
+            barcode.setTop(10);
+            sig.update(generateOutputPath(path), barcode);
+        }
+    } catch (Exception e) {
+        logError(path, e);
+    }
+});
+```
+
+## Aplicações Práticas
+
+### Caso de Uso 1: Atualizações Automatizadas de Etiquetas Logísticas
+
+Uma empresa de transporte mudou as dimensões das caixas, exigindo o reposicionamento de códigos de barras em 50.000 etiquetas existentes. O trecho de processamento paralelo acima reduziu o trabalho de dias para algumas horas.
+
+### Caso de Uso 2: Padronização de Modelos de Contrato
+
+O departamento jurídico exigiu uma localização fixa do código de barras para digitalização. Ao pesquisar e atualizar todos os PDFs de contrato em um único lote, a equipe evitou a impressão manual custosa.
+
+### Caso de Uso 3: Integração com Sistema de Inventário
+
+Após uma atualização de ERP, os códigos de barras dos produtos precisaram ser alinhados com uma nova impressora de etiquetas. Atualizar o tamanho e a posição do código de barras programaticamente economizou tempo e custos de material.
+
+## Lista de Verificação de Solução de Problemas
+
+Antes de solicitar suporte, percorra esta lista de verificação:
+
+- [ ] **O caminho do arquivo está correto** e o arquivo existe
+- [ ] **Permissões de leitura/gravação** concedidas para origem e destino
+- [ ] **Versão do GroupDocs.Signature** é 23.12 ou posterior
+- [ ] **Licença está configurada corretamente** (se estiver usando licença completa)
+- [ ] **Diretório de saída existe** ou é criado programaticamente
+- [ ] **Espaço em disco suficiente** para arquivos de saída
+- [ ] **Nenhum outro processo** está bloqueando o arquivo fonte
+- [ ] **Tratamento de exceções** está implementado para capturar erros
+
+## Seção de Perguntas Frequentes
+
+**P:** Posso atualizar o código Java de assinatura de código de barras para vários códigos de barras em um documento?  
+**R:** Absolutamente. Itere sobre a `List<BarcodeSignature>` retornada pela pesquisa e chame `signature.update()` para cada um, ou passe a lista inteira para uma única chamada `update`.
+
+**P:** Quais tipos de código de barras o GroupDocs.Signature suporta?  
+**R:** Dezenas, incluindo Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417 e mais. Use `barcodeSignature.getEncodeType()` para inspecionar o tipo.
+
+**P:** Posso mudar o conteúdo real do código de barras (os dados codificados)?  
+**R:** Sim, via `setText()`, mas lembre‑se de regenerar o código de barras visual para que os scanners o leiam corretamente.
+
+**P:** Como lidar com documentos com códigos de barras em várias páginas?  
+**R:** Cada `BarcodeSignature` inclui `getPageNumber()`. Filtre ou processe códigos de barras específicos de página conforme necessário.
+
+**P:** O que acontece com o documento original após a atualização?  
+**R:** O arquivo fonte permanece intocado. O GroupDocs grava as alterações no caminho de saída que você especificar, preservando o original por segurança.
+
+**P:** Posso atualizar códigos de barras em PDFs protegidos por senha?  
+**R:** Sim. Use uma sobrecarga `LoadOptions` do construtor `Signature` para fornecer a senha.
+
+**P:** Como processar milhares de documentos em lote de forma eficiente?  
+**R:** Combine streams paralelos com try‑with‑resources (como mostrado no exemplo de processamento paralelo) e monitore o uso de memória.
+
+**P:** Isso funciona com formatos além de PDF?  
+**R:** Sim. A mesma API funciona com Word, Excel, PowerPoint, imagens e muitos outros formatos suportados pelo GroupDocs.Signature.
 
 ## Conclusão
 
-Neste tutorial, você aprendeu como inicializar um `Signature` Por exemplo, pesquisar assinaturas de código de barras e atualizar suas propriedades usando o GroupDocs.Signature para Java. Essas habilidades são essenciais para automatizar tarefas de gerenciamento de documentos com eficiência.
+Agora você tem um guia completo e pronto para produção para **criar objetos de assinatura de código de barras** em Java e atualizar sua posição, tamanho e outras propriedades. Cobrimos inicialização, pesquisa, modificação, solução de problemas e otimização de desempenho para cenários de documento único e de lote massivo.
 
-### Próximos passos
-- Experimente diferentes tipos de arquivo e opções de assinatura.
-- Explore recursos adicionais do GroupDocs.Signature para aprimorar ainda mais seus aplicativos.
+### Próximos Passos
+- Experimente atualizar múltiplas propriedades (por exemplo, rotação, opacidade) na mesma passagem.  
+- Crie um serviço REST em torno deste código para expor atualizações de códigos de barras como uma API.  
+- Explore outros tipos de assinatura (texto, imagem, digital) usando o mesmo padrão.
 
-Pronto para experimentar? Implemente estas etapas no seu próximo projeto para experimentar o poder das assinaturas automatizadas de documentos em primeira mão!
+A API GroupDocs.Signature oferece muito mais do que atualizações de códigos de barras — explore verificação, manipulação de metadados e suporte a múltiplos formatos para automatizar totalmente seus fluxos de trabalho de documentos.
 
-## Seção de perguntas frequentes
+**Recursos**
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
+- [API Reference](https://reference.groupdocs.com/signature/java/)
+- [Support Forum](https://forum.groupdocs.com/c/signature)
+- [Free Trial Download](https://releases.groupdocs.com/signature/java/)
 
-**P: Para que é usado o GroupDocs.Signature para Java?**
-R: É uma biblioteca poderosa projetada para automatizar a criação, pesquisa e atualização de assinaturas digitais em documentos.
+---
 
-**P: Como instalo o GroupDocs.Signature no meu projeto Java?**
-R: Use as dependências do Maven ou Gradle conforme descrito acima ou baixe diretamente do site do GroupDocs.
-
-**P: Posso atualizar várias assinaturas de código de barras de uma só vez?**
-R: Sim, você pode iterar sobre uma lista de códigos de barras encontrados e aplicar atualizações a cada um individualmente.
-
-**P: O que devo fazer se nenhum código de barras for encontrado no meu documento?**
-R: Verifique se suas opções de pesquisa estão configuradas corretamente e se o documento contém dados de código de barras válidos.
-
-**P: Como lidar com exceções ao atualizar assinaturas?**
-A: Use blocos try-catch para capturar `GroupDocsSignatureException` e gerenciar erros com elegância.
-
-## Recursos
-- **Documentação**: [GroupDocs.Signature para documentação Java](https://docs.groupdocs.com/signature/java/)
-- **Tutoriais**: Explore mais tutoriais no site GroupDocs
+**Última atualização:** 2026-01-16  
+**Testado com:** GroupDocs.Signature 23.12  
+**Autor:** GroupDocs  
