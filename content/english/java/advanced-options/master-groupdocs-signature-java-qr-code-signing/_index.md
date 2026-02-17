@@ -1,5 +1,5 @@
 ---
-title: "java generate qr code: QR Code Signing in Java Guide"
+title: "java generate qr code - QR Code Signing in Java Guide"
 linktitle: "QR Code Signing Java Guide"
 description: "Learn how to java generate qr code signatures in PDFs using GroupDocs.Signature for Java. Includes Maven dependency setup, positioning, and production tips."
 keywords: "java generate qr code, groupdocs signature java, maven dependency groupdocs, QR code document signing Java, add QR code to PDF Java"

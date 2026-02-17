@@ -14,7 +14,7 @@ tags:
 - PDF signing
 - digital signatures
 - document security
-title: 'java QR-kód generálása: QR-kód aláírás Java útmutató'
+title: 'java QR-kód generálása - QR-kód aláírás Java útmutató'
 type: docs
 url: /hu/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/
 weight: 1

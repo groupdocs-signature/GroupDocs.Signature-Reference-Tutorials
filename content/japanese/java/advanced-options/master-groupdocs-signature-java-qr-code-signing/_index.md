@@ -13,7 +13,7 @@ tags:
 - PDF signing
 - digital signatures
 - document security
-title: 'JavaでQRコードを生成: JavaガイドのQRコード署名'
+title: 'JavaでQRコードを生成 - JavaガイドのQRコード署名'
 type: docs
 url: /ja/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/
 weight: 1

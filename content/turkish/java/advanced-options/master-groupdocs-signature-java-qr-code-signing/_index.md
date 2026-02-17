@@ -14,7 +14,7 @@ tags:
 - PDF signing
 - digital signatures
 - document security
-title: 'java generate qr code: Java''da QR Kodu İmzalama Kılavuzu'
+title: 'java generate qr code - Java''da QR Kodu İmzalama Kılavuzu'
 type: docs
 url: /tr/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/
 weight: 1

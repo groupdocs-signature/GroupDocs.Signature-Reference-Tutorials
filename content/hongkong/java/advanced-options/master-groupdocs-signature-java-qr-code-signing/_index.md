@@ -13,7 +13,7 @@ tags:
 - PDF signing
 - digital signatures
 - document security
-title: Java 產生 QR Code：Java 中的 QR Code 簽署指南
+title: Java 產生 QR Code - Java 中的 QR Code 簽署指南
 type: docs
 url: /zh-hant/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/
 weight: 1

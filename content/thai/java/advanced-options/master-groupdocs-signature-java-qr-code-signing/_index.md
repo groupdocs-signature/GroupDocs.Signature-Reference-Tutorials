@@ -13,7 +13,7 @@ tags:
 - PDF signing
 - digital signatures
 - document security
-title: 'java สร้าง QR code: คู่มือการเซ็น QR Code ด้วย Java'
+title: 'java สร้าง QR code - คู่มือการเซ็น QR Code ด้วย Java'
 type: docs
 url: /th/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/
 weight: 1

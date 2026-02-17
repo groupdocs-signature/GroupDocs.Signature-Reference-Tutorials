@@ -14,7 +14,7 @@ tags:
 - PDF signing
 - digital signatures
 - document security
-title: 'Java QR-Code generieren: QR-Code‑Signatur in Java – Leitfaden'
+title: 'Java QR-Code generieren - QR-Code‑Signatur in Java – Leitfaden'
 type: docs
 url: /de/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/
 weight: 1

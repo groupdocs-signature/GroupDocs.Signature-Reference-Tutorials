@@ -14,55 +14,55 @@ tags:
 - PDF signing
 - digital signatures
 - document security
-title: 'java genereer qr-code: QR-code ondertekening in Java-gids'
+title: 'java genereer qr-code - QR-code ondertekening in Java-gids'
 type: docs
 url: /nl/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/
 weight: 1
 ---
 
-# java generate qr code: QR Code ondertekening in Java – Complete Implementatie
+# java qr-code genereren: QR Code ondertekening in Java – Complete Implementatie
 
-Je hebt waarschijnlijk gemerkt dat digitale handtekeningen nu overal zijn—van contracten tot facturen. Maar het punt is: traditionele ondertekeningsmethoden kunnen omslachtig zijn en bieden niet altijd de verificatiefuncties die moderne bedrijven nodig hebben. Daar komen **java generate qr code** handtekeningen om de hoek kijken.
+Je hebt waarschijnlijk opgemerkt dat digitale handtekeningen nu overal zijn—van contracten tot facturen. Maar het punt is: traditionele ondertekeningsmethoden kunnen omslachtig zijn en bieden niet altijd de functies die moderne bedrijven nodig hebben. Daar komen **java genereer qr-code** handtekeningen om de hoek te kijken.
 
-In deze gids leer je hoe je QR‑code‑ondertekening in Java implementeert, deze handtekeningen precies op de gewenste plek positioneert en de veelvoorkomende valkuilen vermijdt die de meeste ontwikkelaars tegenkomen. Of je nu een contractmanagementsysteem bouwt of gewoon PDF‑bestanden programmatically wilt beveiligen, deze tutorial brengt je er wel.
+In deze gids leer je hoe je QR-code-ondertekening in Java implementeert, deze handtekeningen precies op de ongelukkige plek positioneert en de veelvoorkomende valkuilen geïsoleerdt die de meeste ontwikkelaars tegenkomen. Of je nu een contractmanagementsysteem hebt gebouwd van gewone PDF‑bestanden die programmatisch willen worden beveiligd, deze tutorial brengt je er wel.
 
-We gebruiken **GroupDocs.Signature for Java** (een robuuste bibliotheek die het zware werk doet), maar de concepten zijn breed toepasbaar op elke QR‑code‑ondertekeningsimplementatie.
+We gebruiken **GroupDocs.Signature for Java** (een robuuste bibliotheek die het zware werk doet), maar de concepten zijn breed verdeeld op elke QR‑code‑ondertekeningsimplementatie.
 
-## Quick Answers
-- **What library adds QR code signatures in Java?** GroupDocs.Signature for Java  
-- **Which build tool supports the Maven dependency?** Maven (see *maven dependency groupdocs*)  
-- **Can I position QR codes on specific pages?** Yes, using alignment and page‑number options  
-- **Do I need a license for production?** Yes, a commercial GroupDocs license is required  
-- **Is the QR code scannable after signing?** Absolutely, when sized ≥ 100 × 100 px and placed with proper margins  
+## Snelle antwoorden
+- **Welke bibliotheek voegt QR-codehandtekeningen toe in Java?** GroupDocs.Signature voor Java
+- **Welke buildtool ondersteunt de Maven-afhankelijkheid?** Maven (zie *Maven-afhankelijkheid GroupDocs*)
+- **Kan ik QR-codes op specifieke pagina's plaatsen?** Ja, met behulp van uitlijnings- en paginanummeropties
+- **Heb ik een licentie nodig voor productie?** Ja, een commerciële GroupDocs-licentie is vereist
+- **Is de QR-code scanbaar na ondertekening?** Absoluut, mits de grootte ≥100×100px is en de juiste marges zijn ingesteld
 
-## What You'll Learn
+## Wat u zult leren
 
-By the end of this guide, you'll know how to:
+Aan het einde van deze handleiding weet u hoe u:
 
-- Set up QR code signing in your Java project (Maven, Gradle, or direct download)  
-- Add QR codes to documents at specific positions (corners, centers, custom alignments)  
-- Handle common implementation issues before they become production problems  
-- Optimize performance for document processing workflows  
-- Apply these techniques to real‑world business scenarios  
+- QR-codeondertekening in uw Java-project instelt (Maven, Gradle of rechtstreeks downloaden)
+- QR-codes aan documenten toevoegt op specifieke posities (hoeken, midden, aangepaste uitlijning)
+- Veelvoorkomende implementatieproblemen oplost voordat ze productieproblemen worden
+- De prestaties van documentverwerkingsworkflows optimaliseert
+- Deze tips toepast Technieken toegepast op praktijkgerichte zakelijke scenario's
 
-## Prerequisites
+## Vereisten
 
-Before we dive into code, make sure you have:
+Voordat we aan de slag gaan met de code, zorg ervoor dat je het volgende hebt:
 
-- **GroupDocs.Signature for Java Library** – version 23.12 or later (we'll cover installation below)  
-- **Java Development Kit** – JDK 8 or higher (most production environments use JDK 11+)  
-- **Build Tool** – Maven or Gradle for dependency management  
-- **Basic Java Knowledge** – comfortable with try‑catch blocks and file‑path handling  
+- **GroupDocs.Signature for Java Library** – versie 23.12 of hoger (installatie wordt hieronder behandeld)
+- **Java Development Kit** – JDK8 of hoger (de meeste productieomgevingen gebruiken JDK11+)
+- **Buildtool** – Maven of Gradle voor afhankelijkheidsbeheer
+- **Basiskennis van Java** – vertrouwd met try-catch-blokken en het omgaan met bestandspaden
 
-Don't worry if you're new to GroupDocs—we'll walk through everything step by step.
+Maak je geen zorgen als je nieuw bent met GroupDocs – we zullen alles stap voor stap doornemen.
 
-## Setting Up Your Environment
+## Je omgeving instellen
 
-Getting GroupDocs.Signature into your project is straightforward. Pick the method that matches your build system.
+GroupDocs.Signature toevoegen aan je project is eenvoudig. Kies de methode die overeenkomt met je buildsysteem.
 
-### Using Maven
+### Maven gebruiken
 
-Add this **maven dependency groupdocs** to your `pom.xml` file:
+Voeg deze **maven dependency groupdocs** toe aan je `pom.xml`-bestand:
 
 ```xml
 <dependency>
@@ -72,73 +72,73 @@ Add this **maven dependency groupdocs** to your `pom.xml` file:
 </dependency>
 ```
 
-After adding this, run `mvn clean install` to download the library.
+Nadat je dit hebt toegevoegd, voer je `mvn clean install` uit om de bibliotheek te downloaden.
 
-### Using Gradle
+### Gradle gebruiken
 
-For Gradle projects, add this line to your `build.gradle`:
+Voeg voor Gradle-projecten de volgende regel toe aan je `build.gradle`:
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-Then sync your project with `gradle build`.
+Synchroniseer vervolgens je project met `gradle build`.
 
-### Direct Download Option
+### Directe downloadoptie
 
-Prefer manual installation? Download the JAR directly from [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) and add it to your project's classpath.
+Geef je de voorkeur aan handmatige installatie? Download de JAR rechtstreeks van [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) en voeg deze toe aan het classpath van je project.
 
-### License Setup (Important!)
+### Licentie-instellingen (Belangrijk!)
 
-Here's something that catches people off guard: GroupDocs requires a license for production use. Here are your options:
+Dit is iets waar veel mensen niet van opkijken: GroupDocs vereist een licentie voor productiegebruik. Je hebt de volgende opties:
 
-- **Free Trial** – great for testing; full features, limited time  
-- **Temporary License** – need more time to evaluate? Get a [temporary license](https://purchase.groupdocs.com/temporary-license/) for extended testing  
-- **Commercial License** – for production deployments, [purchase a license](https://purchase.groupdocs.com/buy)  
+- **Gratis proefversie** – ideaal om te testen; alle functies, beperkte tijd
+- **Tijdelijke licentie** – meer tijd nodig om te evalueren? Vraag een [tijdelijke licentie](https://purchase.groupdocs.com/temporary-license/) aan voor uitgebreide tests.
+- **Commerciële licentie** – voor productieomgevingen kunt u een licentie [aanschaffen](https://purchase.groupdocs.com/buy).
 
-The trial version adds a watermark to your documents, so plan accordingly for demos.
+De proefversie voegt een watermerk toe aan uw documenten, dus houd hier rekening mee bij demo's.
 
-### Basic Initialization
+### Basisinitialisatie
 
-Once you've got the library installed, initializing GroupDocs.Signature is as simple as pointing it to your document:
+Nadat u de bibliotheek hebt geïnstalleerd, is het initialiseren van GroupDocs.Signature net zo eenvoudig als het verwijzen naar uw document:
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
 ```
 
-That's it! You now have a `Signature` object ready to work with. Let's move on to the interesting part—actually adding QR codes.
+Dat is alles! Je hebt nu een `Signature`-object waarmee je aan de slag kunt. Laten we verdergaan met het interessante gedeelte: het toevoegen van QR-codes.
 
-## Understanding QR Code Signatures
+## QR-codehandtekeningen begrijpen
 
-Before we jump into code, let's clarify what QR code signatures actually do (because there's some confusion around this).
+Voordat we de code induiken, laten we eerst verduidelijken wat QR-codehandtekeningen precies doen (want daar bestaat wat verwarring over).
 
-A QR code signature isn't just slapping a random QR code on your document. It's about embedding verifiable information—like timestamps, signer identity, or verification URLs—directly into the document in a scannable format. When someone scans the QR code, they can verify the document's authenticity without needing specialized software.
+Een QR-codehandtekening is niet zomaar een willekeurige QR-code op je document plakken. Het gaat erom verifieerbare informatie – zoals tijdstempels, de identiteit van de ondertekenaar of verificatie-URL's – rechtstreeks in het document in te sluiten in een scanbaar formaat. Wanneer iemand de QR-code scant, kan diegene de authenticiteit van het document verifiëren zonder speciale software nodig te hebben.
 
-**When should you use QR code signatures?**
+**Wanneer moet je QR-codehandtekeningen gebruiken?**
 
-- You need quick mobile verification (scan with a phone)  
-- You're working with physical copies that might be printed  
-- You want to embed links to verification portals  
-- You need to support offline verification workflows  
+- Je hebt snelle mobiele verificatie nodig (scannen met een telefoon)
+- Je werkt met fysieke kopieën die mogelijk worden afgedrukt
+- Je wilt links naar verificatieportalen insluiten
+- Je moet offline verificatieworkflows ondersteunen
 
-Now let's implement this.
+Laten we dit nu implementeren.
 
-## Implementation Guide: Adding QR Code Signatures
+## Implementatiehandleiding: QR-codehandtekeningen toevoegen
 
-This is where things get practical. We'll walk through signing a PDF with QR codes positioned at different locations on the page.
+Nu wordt het praktisch. We laten zien hoe u een PDF kunt ondertekenen met QR-codes op verschillende plaatsen op de pagina.
 
-### Why Positioning Matters
+### Waarom positionering belangrijk is
 
-You might wonder: "Can't I just put the QR code anywhere?" Technically yes, but here's the reality—placement affects both usability and legal validity. For contracts, you typically want signatures in the bottom‑right corner. For invoices, top‑right is common. For certificates, centered at the bottom works well.
+U vraagt ​​zich misschien af: "Kan ik de QR-code niet gewoon overal plaatsen?" Technisch gezien wel, maar in de praktijk heeft de plaatsing invloed op zowel de gebruiksvriendelijkheid als de juridische geldigheid. Voor contracten wilt u handtekeningen meestal rechtsonder plaatsen. Voor facturen is rechtsboven gebruikelijk. Voor certificaten werkt een plaatsing in het midden onderaan goed.
 
-The beauty of **GroupDocs.Signature** is that you can specify exactly where your QR codes appear using alignment options.
+Het mooie van **GroupDocs.Signature** is dat u met behulp van uitlijnopties precies kunt bepalen waar uw QR-codes verschijnen.
 
-### Step‑by‑Step Implementation
+### Stapsgewijze implementatie
 
-#### 1. Configure Your File Paths
+#### 1. Configureer uw bestandspaden
 
-First, define where your source document lives and where you want the signed version saved:
+Definieer eerst waar uw brondocument zich bevindt en waar u de ondertekende versie wilt opslaan:
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
@@ -146,11 +146,11 @@ String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" + fileName).getPath();
 ```
 
-**Pro tip**: Use `Paths.get()` instead of string concatenation for file paths—it handles OS‑specific path separators automatically (works on Windows, Linux, and Mac without changes).
+**Pro-tip**: Gebruik `Paths.get()` in plaats van stringconcatenatie voor bestandspaden. Dit verwerkt automatisch OS-specifieke padscheidingstekens (werkt zonder aanpassingen op Windows, Linux en Mac).
 
-#### 2. Initialize the Signature Object
+#### 2. Initialiseer het Signature-object
 
-Wrap your initialization in a try‑catch block to handle potential file access issues:
+Plaats uw initialisatie in een try-catch-blok om mogelijke problemen met bestandstoegang af te handelen:
 
 ```java
 try {
@@ -161,11 +161,11 @@ try {
 }
 ```
 
-Why the `RuntimeException` wrapper? It provides more context when debugging issues in production. You'll thank yourself later when tracking down why a document won't load.
+Waarom de `RuntimeException`-wrapper? Deze biedt meer context bij het debuggen van problemen in een productieomgeving. U zult uzelf later dankbaar zijn wanneer u moet achterhalen waarom een ​​document niet laadt.
 
-#### 3. Define QR Code Size and Positions
+#### 3. Definieer de grootte en positie van de QR-code
 
-Here's where we set up QR codes at multiple positions. This example creates QR codes at every possible alignment combination (top‑left, top‑center, top‑right, etc.):
+Hier stellen we de QR-codes in op meerdere posities. Dit voorbeeld genereert QR-codes voor elke mogelijke uitlijningscombinatie (linksboven, middenboven, rechtsboven, enz.):
 
 ```java
 int qrWidth = 100;
@@ -187,9 +187,9 @@ for (int horizontalAlignment : HorizontalAlignment.getValues()) {
 }
 ```
 
-**What's happening here?** We're looping through all horizontal alignments (Left, Center, Right) and all vertical alignments (Top, Center, Bottom), creating a QR code option for each valid combination. The `new Padding(5)` adds a 5‑pixel margin around each QR code so they don't overlap with document content.
+**Wat gebeurt hier?** We doorlopen alle horizontale uitlijningen (links, midden, rechts) en alle verticale uitlijningen (boven, midden, onder) en genereren een QR-codeoptie voor elke geldige combinatie. De `new Padding(5)` voegt een marge van 5 pixels rond elke QR-code toe, zodat ze niet overlappen met de documentinhoud.
 
-**Real‑world adjustment**: In production, you probably don't want QR codes at **every** position. Pick the positions that make sense for your use case. For example, just bottom‑right for contracts:
+**Aanpassing in de praktijk**: In een productieomgeving wilt u waarschijnlijk niet op **elke** positie QR-codes. Kies de posities die relevant zijn voor uw gebruikssituatie. Bijvoorbeeld alleen rechtsonder voor contracten:
 
 ```java
 QrCodeSignOptions options = new QrCodeSignOptions("Signature");
@@ -200,30 +200,29 @@ options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
 
-#### 4. Sign the Document
+#### 4. Het document ondertekenen
 
-Now we apply all configured signatures in one operation:
+Nu passen we alle geconfigureerde handtekeningen in één bewerking toe:
 
 ```java
 SignResult signResult = signature.sign(outputFilePath, listOptions);
 ```
 
-The `sign()` method processes all QR codes in the list and saves the result to your output path. It returns a `SignResult` object that contains information about how many signatures were successfully added (useful for logging).
+De `sign()`-methode verwerkt alle QR-codes in de lijst en slaat het resultaat op in uw uitvoermap. Het retourneert een `SignResult`-object met informatie over hoeveel handtekeningen succesvol zijn toegevoegd (handig voor logboekregistratie).
 
-**Performance note**: Signing happens synchronously. For high‑volume scenarios (hundreds of documents per hour), consider implementing this in a background job queue rather than in a user‑facing request.
+**Prestatie-opmerking**: Het ondertekenen gebeurt synchroon. Voor scenario's met een hoog volume (honderden documenten per uur) kunt u overwegen dit in een achtergrondtaakwachtrij te implementeren in plaats van in een gebruikersverzoek.
 
-## Common Pitfalls and Solutions
+## Veelvoorkomende valkuilen en oplossingen
 
-Let's address the issues that developers run into most frequently.
+Laten we de problemen bespreken waar ontwikkelaars het vaakst tegenaan lopen.
 
-### Problem 1: "File Not Found" Errors
+### Probleem 1: "Bestand niet gevonden"-fouten
 
-**Symptom**: Your code throws a file‑not‑found exception even though the file exists.
+**Symptoom**: Uw code genereert een "bestand niet gevonden"-uitzondering, hoewel het bestand bestaat.
 
-**Solution**: Check these three things:  
-1. Are you using absolute paths? Relative paths can be tricky depending on where your application runs.  
-2. Does your application have read permissions for the source file and write permissions for the output directory?  
-3. Are there any special characters in the file path that need escaping?
+**Oplossing**: Controleer deze drie punten:
+1. Gebruikt u absolute paden? Relatieve paden kunnen lastig zijn, afhankelijk van waar uw applicatie wordt uitgevoerd.
+2. Heeft uw applicatie leesrechten voor het bronbestand en schrijfrechten voor de uitvoermap? 3. Zijn er speciale tekens in het bestandspad die moeten worden ontsnapt?
 
 ```java
 // Better approach: Use absolute paths
@@ -231,23 +230,23 @@ String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
 ```
 
-### Problem 2: QR Codes Overlap Document Content
+### Probleem 2: QR-codes overlappen documentinhoud
 
-**Symptom**: QR codes cover important text or appear cut off at page edges.
+**Symptoom**: QR-codes bedekken belangrijke tekst of worden aan de paginaranden afgesneden.
 
-**Solution**: Increase margin values and adjust alignment strategically:
+**Oplossing**: Verhoog de marges en pas de uitlijning strategisch aan:
 
 ```java
 options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
 ```
 
-For documents with varied content layouts, consider adding QR codes to a specific page region that's always empty (like a signature block area).
+Voor documenten met een gevarieerde inhoudsindeling kunt u overwegen QR-codes toe te voegen aan een specifiek paginagebied dat altijd leeg is (zoals een handtekeningblok).
 
-### Problem 3: Memory Issues with Large Documents
+### Probleem 3: Geheugenproblemen bij grote documenten
 
-**Symptom**: `OutOfMemoryError` when processing PDFs over 10 MB.
+**Symptoom**: `OutOfMemoryError` bij het verwerken van PDF's groter dan 10 MB.
 
-**Solution**: Ensure you're properly disposing of `Signature` objects and consider processing large documents in batches:
+**Oplossing**: Zorg ervoor dat u `Signature`-objecten correct vrijgeeft en overweeg grote documenten in batches te verwerken:
 
 ```java
 try (Signature signature = new Signature(filePath)) {
@@ -255,13 +254,13 @@ try (Signature signature = new Signature(filePath)) {
 } // Automatically closes and releases resources
 ```
 
-The try‑with‑resources statement ensures proper cleanup even if an exception occurs.
+De `try-with-resources`-instructie zorgt voor een correcte opruiming, zelfs als er een uitzondering optreedt.
 
-### Problem 4: QR Code Content Isn't Updating
+### Probleem 4: QR-code-inhoud wordt niet bijgewerkt
 
-**Symptom**: All QR codes show the same text, even though you're trying to customize them.
+**Symptoom**: Alle QR-codes tonen dezelfde tekst, hoewel u ze probeert aan te passen.
 
-**Solution**: Make sure you're creating a **new** `QrCodeSignOptions` object for each position, not reusing the same one:
+**Oplossing**: Zorg ervoor dat u voor elke positie een **nieuw** `QrCodeSignOptions`-object aanmaakt en niet hetzelfde object hergebruikt:
 
 ```java
 // Wrong - reuses same object
@@ -276,59 +275,59 @@ listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
 ```
 
-## Practical Applications
+## Praktische toepassingen
 
-Now let's talk about where this actually gets used in real business scenarios.
+Laten we het nu hebben over waar dit daadwerkelijk wordt gebruikt in reële zakelijke scenario's.
 
-### 1. Contract Management Systems
+### 1. Contractbeheersystemen
 
-You're building a system where legal contracts need digital signatures with verification capability. Here's the workflow:
+U bouwt een systeem waarin juridische contracten digitale handtekeningen met verificatiemogelijkheid vereisen. Dit is de workflow:
 
-- Generate contract PDF from template  
-- Add QR code signature containing: contract ID, timestamp, signer hash  
-- Store document in secure storage  
-- When verifying, user scans QR code → redirect to verification portal → display contract details  
+- Genereer een contract-pdf vanuit een sjabloon
+- Voeg een QR-codehandtekening toe met: contract-ID, tijdstempel en hash van de ondertekenaar
+- Sla het document veilig op
+- Bij verificatie scant de gebruiker de QR-code → wordt doorgestuurd naar het verificatieportaal → toont de contractgegevens
 
-**Why it works**: Legal teams can verify authenticity even from printed copies, and the QR code provides an audit trail.
+**Waarom het werkt**: Juridische teams kunnen de authenticiteit zelfs van geprinte exemplaren verifiëren en de QR-code biedt een auditspoor.
 
-### 2. Invoice Processing Automation
+### 2. Automatisering van factuurverwerking
 
-Your accounts payable system receives hundreds of invoices daily. You need to:
+Uw crediteurensysteem ontvangt dagelijks honderden facturen. Je moet het volgende doen:
 
-- Add a QR code to each processed invoice  
-- Encode invoice number, vendor ID, and processing timestamp  
-- Use top‑right positioning so it doesn't interfere with invoice data  
-- Archive signed invoices for compliance  
+- Een QR-code toevoegen aan elke verwerkte factuur
+- Het factuurnummer, de leveranciers-ID en de verwerkingstijdstempel coderen
+- De QR-code rechtsboven plaatsen zodat deze de factuurgegevens niet verstoort
+- Ondertekende facturen archiveren voor naleving van de regelgeving
 
-**Implementation tip**: Position QR codes consistently across all invoices so automated scanners know exactly where to look.
+**Implementatietip**: Plaats QR-codes consistent op alle facturen, zodat geautomatiseerde scanners precies weten waar ze moeten zoeken.
 
-### 3. Document Certification
+### 3. Documentcertificering
 
-You're issuing certificates (training completion, compliance, etc.) that need to be verifiable:
+Je geeft certificaten uit (bijvoorbeeld voor het voltooien van een training of naleving van regelgeving) die verifieerbaar moeten zijn:
 
-- Generate certificate PDF with recipient details  
-- Add centered bottom QR code with certificate ID and verification URL  
-- Recipients can scan to verify authenticity  
-- Employers can verify credentials instantly  
+- Genereer een PDF-certificaat met de gegevens van de ontvanger
+- Voeg een gecentreerde QR-code onderaan toe met de certificaat-ID en de verificatie-URL
+- Ontvangers kunnen scannen om de authenticiteit te verifiëren
+- Werkgevers kunnen de referenties direct verifiëren
 
-**Bonus**: Include a small printed URL below the QR code for people who can't scan it.
+**Bonus**: Voeg een kleine, afgedrukte URL onder de QR-code toe voor mensen die de code niet kunnen scannen.
 
-### 4. Internal Document Tracking
+### 4. Interne documenttracering
 
-For large organizations with document approval workflows:
+Voor grote organisaties met workflows voor documentgoedkeuring:
 
-- Add QR codes during each approval stage  
-- QR code contains: approver ID, approval timestamp, document version  
-- Scan to see full approval history  
-- Helps with audit trails and compliance  
+- Voeg QR-codes toe tijdens elke goedkeuringsfase
+- De QR-code bevat: ID van de goedkeurder, tijdstempel van de goedkeuring, documentversie
+- Scan de code om de volledige goedkeuringsgeschiedenis te bekijken
+- Helpt bij het opstellen van audit trails en het naleven van regelgeving
 
-## Production Best Practices
+## Beste praktijken voor productie
 
-Moving from prototype to production? Keep these practices in mind.
+Overstappen van prototype naar productie? Houd deze praktijken in gedachten.
 
-### Resource Management
+### Bronnenbeheer
 
-Always close `Signature` objects to prevent memory leaks:
+Sluit altijd `Signature`-objecten om geheugenlekken te voorkomen:
 
 ```java
 try (Signature signature = new Signature(filePath)) {
@@ -336,11 +335,11 @@ try (Signature signature = new Signature(filePath)) {
 } // Auto‑closes
 ```
 
-For web applications, consider implementing a document processing pool to limit concurrent operations.
+Overweeg voor webapplicaties een documentverwerkingspool te implementeren om gelijktijdige bewerkingen te beperken.
 
-### Error Handling Strategy
+### Foutafhandelingsstrategie
 
-Don't just catch and log—provide actionable error information:
+Vang fouten niet alleen op en log ze, maar geef ook bruikbare foutinformatie:
 
 ```java
 try {
@@ -356,82 +355,84 @@ try {
 }
 ```
 
-### Performance Optimization
+### Prestatieoptimalisatie
 
-For high‑volume scenarios:
+Voor scenario's met een hoog volume:
 
-1. **Batch Processing** – process multiple documents in parallel (but limit concurrency based on available memory)  
-2. **Caching** – if using the same signature options repeatedly, create them once and reuse  
-3. **Async Operations** – implement signing in background workers for user‑facing applications  
-4. **Memory Monitoring** – set up alerts for memory usage spikes  
+1. **Batchverwerking** – verwerk meerdere documenten parallel (maar beperk de gelijktijdigheid op basis van het beschikbare geheugen)
+2. **Caching** – als u dezelfde handtekeningopties herhaaldelijk gebruikt, maak ze dan één keer aan en hergebruik ze
+3. **Asynchrone bewerkingen** – implementeer ondertekening in achtergrondprocessen voor gebruikersgerichte applicaties
+4. **Geheugenbewaking** – stel waarschuwingen in voor pieken in het geheugengebruik
 
-### Security Considerations
+### Beveiligingsaspecten
 
-- Store signed documents separately from originals  
-- Log all signing operations for audit purposes  
-- Implement access controls for signature operations  
-- Consider encrypting QR code content for sensitive information  
+- Bewaar ondertekende documenten apart van de originelen
+- Registreer alle ondertekeningsbewerkingen voor auditdoeleinden
+- Implementeer toegangscontroles voor ondertekeningsbewerkingen
+- Overweeg het versleutelen van de inhoud van QR-codes voor gevoelige informatie
 
-## When to Use QR Code Signatures (And When Not To)
+## Wanneer QR-codehandtekeningen te gebruiken (en wanneer niet)
 
-**Use QR code signatures when:**
+**Gebruik QR-codehandtekeningen wanneer:**
 
-- You need mobile‑friendly verification  
-- Documents might be printed and re‑scanned  
-- You want to embed verification URLs or IDs  
-- You're working with public‑facing documents (certificates, receipts)
+- U mobielvriendelijke verificatie nodig hebt
+- Documenten mogelijk worden afgedrukt en opnieuw gescand
+- U verificatie-URL's of -ID's wilt insluiten
+- U werkt met publiekelijk toegankelijke applicaties Documenten (certificaten, bonnen)
 
-**Don't use QR code signatures when:**
+**Gebruik geen QR-codehandtekeningen wanneer:**
 
-- You need legally binding cryptographic signatures (use a PKI‑based signature instead)  
-- QR code might be damaged or obscured in printing  
-- Your verification system is offline‑only  
-- Document size is critical (QR codes add a few kilobytes)  
+- U juridisch bindende cryptografische handtekeningen nodig hebt (gebruik in plaats daarvan een PKI-gebaseerde handtekening)
+- De QR-code beschadigd of onleesbaar kan raken tijdens het afdrukken
+- Uw verificatiesysteem alleen offline werkt
+- De documentgrootte cruciaal is (QR-codes voegen een paar kilobytes toe)
 
-**Consider combining**: Use both cryptographic signatures **and** QR codes. You get legal validity plus easy mobile verification.
+**Overweeg een combinatie**: Gebruik zowel cryptografische handtekeningen **als** QR-codes. U krijgt juridische geldigheid én eenvoudige mobiele verificatie.
 
-## Troubleshooting Guide
+## Handleiding voor probleemoplossing
 
-### Signature Doesn't Appear
+### Handtekening verschijnt niet
 
-1. Is the output file being created? (Check your file system)  
-2. Are you opening the correct output file?  
-3. Does the `SignResult` indicate success?  
-4. Are your alignment and margin values pushing the QR code off the visible page area?
+1. Wordt het uitvoerbestand aangemaakt? (Controleer uw bestandssysteem)
+2. Opent u het juiste uitvoerbestand?
 
-### QR Code Won't Scan
+3. Geeft `SignResult` aan dat de handtekening succesvol is?
 
-- Keep QR code size ≥ 100 × 100 px  
-- Ensure high contrast with the background  
-- Limit encoded data to < 100 characters for reliable scanning  
-- Use higher DPI when printing physical copies  
+4. Zorgen uw uitlijnings- en marge-instellingen ervoor dat de QR-code buiten het zichtbare gedeelte van de pagina valt?
 
-### Performance Degradation
+### QR-code scant niet
 
-- Reduce the number of signatures per document  
-- Verify you aren't creating new `Signature` objects unnecessarily  
-- Profile memory usage; consider processing documents in smaller batches  
+- Houd de QR-codegrootte op ≥100×100px
+- Zorg voor een hoog contrast met de achtergrond
+- Beperk de gecodeerde gegevens tot <100 tekens voor betrouwbaar scannen
+- Gebruik een hogere DPI bij het afdrukken van fysieke kopieën
 
-## Frequently Asked Questions
+### Prestatievermindering
 
-**Q:** *Can I sign documents other than PDFs?*  
-**A:** Absolutely. GroupDocs.Signature supports Word (DOC/DOCX), Excel (XLS/XLSX), PowerPoint (PPT/PPTX), and image formats (JPG, PNG, TIFF). The API remains largely the same across formats.
+- Beperk het aantal handtekeningen per document
+- Controleer of u niet onnodig nieuwe `Signature`-objecten aanmaakt
+- Analyseer het geheugengebruik; overweeg documenten in kleinere batches te verwerken
 
-**Q:** *How do I customize the QR code appearance?*  
-**A:** Use `QrCodeSignOptions` properties like `setForeColor()`, `setBackgroundColor()`, and `setBorder()`. Keep customizations simple to maintain scannability.
+## Veelgestelde vragen
 
-**Q:** *Can I add QR codes to specific pages in a multi‑page document?*  
-**A:** Yes! Set the page number with `options.setPageNumber(pageNumber);`. Example:
+**V:** *Kan ik andere documenten dan PDF's ondertekenen?*
+**A:** Absoluut. GroupDocs.Signature ondersteunt Word (DOC/DOCX), Excel (XLS/XLSX), PowerPoint (PPT/PPTX) en afbeeldingsformaten (JPG, PNG, TIFF). De API blijft grotendeels hetzelfde voor alle formaten.
+
+**V:** *Hoe pas ik het uiterlijk van de QR-code aan?*
+**A:** Gebruik de eigenschappen van `QrCodeSignOptions`, zoals `setForeColor()`, `setBackgroundColor()` en `setBorder()`. Houd de aanpassingen eenvoudig om de scanbaarheid te behouden.
+
+**V:** *Kan ik QR-codes toevoegen aan specifieke pagina's in een document met meerdere pagina's?*
+**A:** Ja! Stel het paginanummer in met `options.setPageNumber(pageNumber);`. Voorbeeld:
 
 ```java
 options.setPageNumber(1); // Add to first page only
 ```
 
-**Q:** *What data can I encode in the QR code?*  
-**A:** Anything you want—plain text, URLs, JSON, XML. Keep it under ~200 characters for reliable scanning. For larger payloads, encode a short URL that points to the full data.
+**V:** *Welke gegevens kan ik in de QR-code coderen?*
+**A:** Alles wat u wilt: platte tekst, URL's, JSON, XML. Houd het onder de ~200 tekens voor betrouwbare scanning. Voor grotere hoeveelheden gegevens kunt u een korte URL coderen die naar de volledige gegevens verwijst.
 
-**Q:** *How do I verify QR code signatures programmatically?*  
-**A:** GroupDocs.Signature provides a `verify` method. Example:
+**V:** *Hoe kan ik QR-codehandtekeningen programmatisch verifiëren?*
+**A:** GroupDocs.Signature biedt een `verify`-methode. Voorbeeld:
 
 ```java
 VerificationResult result = signature.verify(verifyOptions);
@@ -440,35 +441,35 @@ if (result.isValid()) {
 }
 ```
 
-**Q:** *Can I use this in a multi‑threaded environment?*  
-**A:** Yes, but create a separate `Signature` instance per thread—instances are not thread‑safe. Use a processing queue for high‑concurrency scenarios.
+**V:** *Kan ik dit gebruiken in een omgeving met meerdere threads?*
+**A:** Ja, maar maak een aparte `Signature`-instantie per thread aan. Instanties zijn niet thread-safe. Gebruik een verwerkingswachtrij voor scenario's met veel gelijktijdige verwerking.
 
-**Q:** *What's the file size impact of adding QR codes?*  
-**A:** Minimal—typically 5‑20 KB per QR code depending on size and content. For most PDFs this is negligible, but account for storage if adding many QR codes to large batches.
+**V:** *Wat is de impact op de bestandsgrootte van het toevoegen van QR-codes?*
+**A:** Minimaal. Meestal 5-20 KB per QR-code, afhankelijk van de grootte en inhoud. Voor de meeste PDF's is dit verwaarloosbaar, maar houd rekening met de opslagruimte als u veel QR-codes toevoegt aan grote batches.
 
-## Next Steps
+## Volgende stappen
 
-You now have a solid foundation for implementing **java generate qr code** signatures in Java. Here's what to explore next:
+U beschikt nu over een solide basis voor het implementeren van **Java QR-code handtekeningen genereren** in Java. Hieronder vind je een overzicht van de volgende mogelijkheden:
 
-1. **Advanced Customization** – dive into QR code styling options in the [GroupDocs documentation](https://docs.groupdocs.com/signature/java/)  
-2. **Verification Systems** – build a web portal where users can verify documents by uploading or scanning QR codes  
-3. **Workflow Integration** – connect this to your existing document management system  
-4. **Mobile Apps** – create a companion mobile app for scanning and verifying QR codes  
+1. **Geavanceerde aanpassingsopties** – verdiep je in de stylingopties voor QR-codes in de [GroupDocs-documentatie](https://docs.groupdocs.com/signature/java/)
+2. **Verificatiesystemen** – bouw een webportaal waar gebruikers documenten kunnen verifiëren door QR-codes te uploaden of te scannen
+3. **Workflowintegratie** – koppel dit aan je bestaande documentbeheersysteem
+4. **Mobiele apps** – ontwikkel een bijbehorende mobiele app voor het scannen en verifiëren van QR-codes
 
-Happy coding, and enjoy the added security and convenience that QR code signatures bring to your Java applications!
+Veel programmeerplezier en geniet van de extra beveiliging en het gemak dat QR-codehandtekeningen bieden voor je Java-applicaties!
 
-## Resources and Support
+## Bronnen en ondersteuning
 
-- **Documentation**: [GroupDocs.Signature Java Docs](https://docs.groupdocs.com/signature/java/)  
-- **API Reference**: [Complete API Reference](https://reference.groupdocs.com/signature/java/)  
-- **Downloads**: [Latest Java Release](https://releases.groupdocs.com/signature/java/)  
-- **Purchase License**: [Buy GroupDocs.Signature](https://purchase.groupdocs.com/buy)  
-- **Free Trial**: [Start Your Free Trial](https://releases.groupdocs.com/signature/java/)  
-- **Temporary License**: [Get Temporary License](https://purchase.groupdocs.com/temporary-license/)  
-- **Community Support**: [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)
+- **Documentatie**: [GroupDocs.Signature Java Docs](https://docs.groupdocs.com/signature/java/)
+- **API-referentie**: [Volledige API-referentie](https://reference.groupdocs.com/signature/java/)
+- **Downloads**: [Laatste Java-release](https://releases.groupdocs.com/signature/java/)
+- **Licentie kopen**: [GroupDocs.Signature kopen](https://purchase.groupdocs.com/buy)
+- **Gratis proefversie**: [Start uw gratis proefversie](https://releases.groupdocs.com/signature/java/)
+- **Tijdelijke licentie**: [Tijdelijke licentie verkrijgen](https://purchase.groupdocs.com/temporary-license/)
+- **Community-ondersteuning**: [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)
 
 ---
 
-**Last Updated:** 2025-12-31  
-**Tested With:** GroupDocs.Signature 23.12 for Java  
-**Author:** GroupDocs
+**Laatst bijgewerkt:** 31-12-2025
+**Getest met:** GroupDocs.Signature 23.12 voor Java
+**Auteur:** GroupDocs

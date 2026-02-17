@@ -12,7 +12,7 @@ tags:
 - PDF signing
 - digital signatures
 - document security
-title: java生成二维码：Java 中二维码签名指南
+title: java生成二维码 - Java 中二维码签名指南
 type: docs
 url: /zh/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/
 weight: 1
@@ -26,14 +26,14 @@ weight: 1
 
 我们将使用 **GroupDocs.Signature for Java**（一个处理繁重工作的大型库），但这些概念同样适用于任何二维码签名实现。
 
-## Quick Answers
+## 快速解答
 - **什么库在 Java 中添加二维码签名？** GroupDocs.Signature for Java  
 - **哪个构建工具支持 Maven 依赖？** Maven（见 *maven dependency groupdocs*）  
 - **我可以在特定页面上定位二维码吗？** 可以，使用对齐和页码选项  
 - **生产环境需要许可证吗？** 需要，必须拥有商业 GroupDocs 许可证  
 - **签名后二维码还能被扫描吗？** 完全可以，只要尺寸 ≥ 100 × 100 px 并使用合适的边距  
 
-## What You'll Learn
+## 你将学到什么
 
 通过本指南，您将了解如何：
 
@@ -43,7 +43,7 @@ weight: 1
 - 为文档处理工作流优化性能  
 - 将这些技术应用于真实业务场景  
 
-## Prerequisites
+## 先决条件
 
 在开始编写代码之前，请确保您拥有：
 
@@ -54,11 +54,11 @@ weight: 1
 
 即使您 GroupDocs 新手，也无需担心，我们会一步步演示。
 
-## Setting Up Your Environment
+## 设置你的环境
 
 将 GroupDocs.Signature 引入项目非常简单。请选择与您的构建系统匹配的方法。
 
-### Using Maven
+### 使用 Maven
 
 将此 **maven dependency groupdocs** 添加到您的 `pom.xml` 文件中：
 
@@ -72,7 +72,7 @@ weight: 1
 
 添加完毕后，运行 `mvn clean install` 下载库文件。
 
-### Using Gradle
+### 使用 Gradle
 
 对于 Gradle 项目，在 `build.gradle` 中加入以下行：
 
@@ -82,11 +82,11 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 
 随后使用 `gradle build` 同步项目。
 
-### Direct Download Option
+### 直接下载选项
 
 想手动安装？请从 [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) 下载 JAR 并将其加入项目的类路径。
 
-### License Setup (Important!)
+### 许可证设置（重要！）
 
 这里有一点常常让人措手不及：GroupDocs 在生产环境下必须使用许可证。您有以下几种选择：
 
@@ -96,7 +96,7 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 
 试用版会在文档上添加水印，请在演示时做好相应安排。
 
-### Basic Initialization
+### 基本初始化
 
 库安装完成后，初始化 GroupDocs.Signature 只需指向您的文档：
 
@@ -107,7 +107,7 @@ Signature signature = new Signature(filePath);
 
 就这样！您现在拥有一个可用的 `Signature` 对象。接下来进入有趣的部分——实际添加二维码。
 
-## Understanding QR Code Signatures
+## 了解二维码签名
 
 在编写代码之前，先明确二维码签名的实际作用（因为这方面常有误解）。
 
@@ -122,19 +122,19 @@ Signature signature = new Signature(filePath);
 
 下面开始实现。
 
-## Implementation Guide: Adding QR Code Signatures
+## 实现指南：添加二维码签名
 
 这里将展示实际操作。我们将演示如何在 PDF 的不同位置添加二维码签名。
 
-### Why Positioning Matters
+### 为什么定位很重要
 
 您可能会想：“随便把二维码放哪里不就行了？”技术上可以，但实际情况是——位置会影响可用性和法律效力。合同通常在右下角签署，发票常在右上角，证书则常在底部居中。
 
 **GroupDocs.Signature** 的强大之处在于可以通过对齐选项精确指定二维码出现的位置。
 
-### Step‑by‑Step Implementation
+### 分步实现
 
-#### 1. Configure Your File Paths
+#### 1. 配置文件路径
 
 首先，定义源文档所在路径以及签名后保存的路径：
 
@@ -146,7 +146,7 @@ String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" +
 
 **小技巧**：使用 `Paths.get()` 而非字符串拼接来处理文件路径——它会自动处理不同操作系统的路径分隔符（在 Windows、Linux、Mac 上均可无改动使用）。
 
-#### 2. Initialize the Signature Object
+#### 2. 初始化签名对象
 
 将初始化代码放在 try‑catch 块中，以处理可能的文件访问异常：
 
@@ -161,7 +161,7 @@ try {
 
 为何使用 `RuntimeException` 包装？在生产环境调试时它能提供更多上下文信息。后期追踪文档加载失败的原因时，这会非常有帮助。
 
-#### 3. Define QR Code Size and Positions
+#### 3. 定义二维码大小和位置
 
 下面示例在页面的每一种对齐组合（左上、上中、右上等）创建二维码：
 
@@ -198,7 +198,7 @@ options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
 
-#### 4. Sign the Document
+#### 4. 签署文档
 
 最后一次性应用所有配置好的签名：
 
@@ -210,11 +210,11 @@ SignResult signResult = signature.sign(outputFilePath, listOptions);
 
 **性能提示**：签名是同步执行的。若面对每小时数百份文档的高并发场景，建议将此操作放入后台任务队列，而非直接在用户请求中执行。
 
-## Common Pitfalls and Solutions
+## 常见问题及解决方案
 
 下面列出开发者最常遇到的问题及对应解决方案。
 
-### Problem 1: "File Not Found" Errors
+### 问题 1：“文件未找到”错误
 
 **症状**：即使文件存在，代码仍抛出文件未找到异常。
 
@@ -229,7 +229,7 @@ String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
 ```
 
-### Problem 2: QR Codes Overlap Document Content
+### 问题 2：二维码内容与文档内容重叠
 
 **症状**：二维码遮挡重要文字或在页面边缘被截断。
 
@@ -241,7 +241,7 @@ options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
 
 对于布局多变的文档，建议将二维码放置在始终为空的特定页面区域（如签名块区域）。
 
-### Problem 3: Memory Issues with Large Documents
+### 问题 3：处理大型文档时内存不足
 
 **症状**：处理超过 10 MB 的 PDF 时出现 `OutOfMemoryError`。
 
@@ -255,7 +255,7 @@ try (Signature signature = new Signature(filePath)) {
 
 使用 try‑with‑resources 语句，即使出现异常也能保证资源得到妥善清理。
 
-### Problem 4: QR Code Content Isn't Updating
+### 问题 4：二维码内容无法更新
 
 **症状**：所有二维码显示相同文本，尽管您尝试为每个位置定制内容。
 
@@ -274,11 +274,11 @@ listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
 ```
 
-## Practical Applications
+## 实际应用
 
 下面介绍二维码签名在实际业务中的常见使用场景。
 
-### 1. Contract Management Systems
+### 1. 合同管理系统
 
 您正在构建一个需要数字签名并具备验证能力的合同管理系统。工作流示例：
 
@@ -289,7 +289,7 @@ listOptions.add(new QrCodeSignOptions("Right"));
 
 **为何有效**：即使是纸质打印件，法务团队也能通过二维码验证真实性，且二维码提供了审计追踪。
 
-### 2. Invoice Processing Automation
+### 2. 发票处理自动化
 
 您的应付账款系统每天处理数百张发票，需要在每张发票上添加二维码：
 
@@ -299,7 +299,7 @@ listOptions.add(new QrCodeSignOptions("Right"));
 
 **实现技巧**：在所有发票上保持二维码位置一致，便于自动扫描设备快速定位。
 
-### 3. Document Certification
+### 3. 文件认证
 
 您需要颁发培训合格证书或合规证书，并希望其可被即时验证：
 
@@ -310,7 +310,7 @@ listOptions.add(new QrCodeSignOptions("Right"));
 
 **额外提示**：在二维码下方打印一小段 URL，供无法扫码的用户使用。
 
-### 4. Internal Document Tracking
+### 4. 内部文件跟踪
 
 大型组织的文档审批流程需要完整的追踪记录：
 
@@ -319,11 +319,11 @@ listOptions.add(new QrCodeSignOptions("Right"));
 - 扫码即可查看完整审批历史  
 - 有助于审计与合规检查  
 
-## Production Best Practices
+## 生产最佳实践
 
 从原型进入生产环境时，请遵循以下最佳实践。
 
-### Resource Management
+### 资源管理
 
 始终关闭 `Signature` 对象以防止内存泄漏：
 
@@ -335,7 +335,7 @@ try (Signature signature = new Signature(filePath)) {
 
 对于 Web 应用，建议实现文档处理池，以限制并发操作数量。
 
-### Error Handling Strategy
+### 错误处理策略
 
 不要仅记录错误信息，而应提供可操作的错误描述：
 
@@ -353,7 +353,7 @@ try {
 }
 ```
 
-### Performance Optimization
+### 性能优化
 
 高并发场景的优化建议：
 
@@ -362,14 +362,14 @@ try {
 3. **异步操作** – 将签名任务放入后台工作者，避免阻塞用户请求  
 4. **内存监控** – 设置内存使用峰值告警  
 
-### Security Considerations
+### 安全注意事项
 
 - 将已签名文档与原始文档分离存储  
 - 记录所有签名操作以便审计  
 - 对签名接口实施访问控制  
 - 对二维码内容进行加密处理，以保护敏感信息  
 
-## When to Use QR Code Signatures (And When Not To)
+## 何时使用二维码签名（以及何时不使用）
 
 **适合使用二维码签名的场景：**
 
@@ -387,48 +387,54 @@ try {
 
 **综合使用**：同时使用加密签名 **和** 二维码，可兼顾法律有效性与移动端便捷验证。
 
-## Troubleshooting Guide
+## 故障排除指南
 
-### Signature Doesn't Appear
+### 签名不显示
 
 1. 输出文件是否已生成？（检查文件系统）  
 2. 您打开的是否为正确的输出文件？  
 3. `SignResult` 是否显示成功？  
 4. 对齐和边距设置是否把二维码推到了不可见的页面区域？
 
-### QR Code Won't Scan
+### 二维码无法扫描
 
 - 保持二维码尺寸 ≥ 100 × 100 px  
 - 确保二维码与背景有足够对比度  
 - 编码内容控制在 < 100 字符，以提升扫描可靠性  
 - 打印实体副本时使用更高 DPI  
 
-### Performance Degradation
+### 性能下降
 
 - 减少单个文档的签名数量  
 - 确认没有不必要地创建新的 `Signature` 实例  
 - 对文档进行分批处理并监控内存使用情况  
 
-## Frequently Asked Questions
+## 常见问题解答
 
-**Q:** *Can I sign documents other than PDFs?*  
-**A:** 当然可以。GroupDocs.Signature 同时支持 Word（DOC/DOCX）、Excel（XLS/XLSX）、PowerPoint（PPT/PPTX）以及图片格式（JPG、PNG、TIFF）。API 在不同格式之间基本保持一致。
+**问：** *除了 PDF 格式，我还能签署其他格式的文档吗？*
+ 
+**答：** 当然可以。GroupDocs.Signature 同时支持 Word（DOC/DOCX）、Excel（XLS/XLSX）、PowerPoint（PPT/PPTX）以及图片格式（JPG、PNG、TIFF）。API 在不同格式之间基本保持一致。
 
-**Q:** *How do I customize the QR code appearance?*  
-**A:** 使用 `QrCodeSignOptions` 的 `setForeColor()`、`setBackgroundColor()`、`setBorder()` 等属性。保持自定义简洁，以确保二维码可被顺利扫描。
+**问：** *如何自定义二维码的外观？*
 
-**Q:** *Can I add QR codes to specific pages in a multi‑page document?*  
-**A:** 可以！通过 `options.setPageNumber(pageNumber);` 指定页码。例如：
+**答：** 使用 `QrCodeSignOptions` 的 `setForeColor()`、`setBackgroundColor()`、`setBorder()` 等属性。保持自定义简洁，以确保二维码可被顺利扫描。
+
+**问：** *我可以在多页文档的特定页面上添加二维码吗？*
+ 
+**答：** 可以！通过 `options.setPageNumber(pageNumber);` 指定页码。例如：
 
 ```java
 options.setPageNumber(1); // Add to first page only
 ```
 
-**Q:** *What data can I encode in the QR code?*  
-**A:** 任意文本——普通字符串、URL、JSON、XML 等。为保证扫描可靠性，建议保持在约 200 字符以内。若数据量较大，可编码指向完整数据的短链接。
+**问：** *我可以在二维码中编码哪些数据？*
 
-**Q:** *How do I verify QR code signatures programmatically?*  
-**A:** GroupDocs.Signature 提供 `verify` 方法。例如：
+**答：** 任意文本——普通字符串、URL、JSON、XML 等。为保证扫描可靠性，建议保持在约 200 字符以内。若数据量较大，可编码指向完整数据的短链接。
+
+
+**问：** *如何通过编程方式验证二维码签名？*
+
+**答：** GroupDocs.Signature 提供 `verify` 方法。例如：
 
 ```java
 VerificationResult result = signature.verify(verifyOptions);
@@ -437,13 +443,15 @@ if (result.isValid()) {
 }
 ```
 
-**Q:** *Can I use this in a multi‑threaded environment?*  
-**A:** 可以，但每个线程需创建独立的 `Signature` 实例——实例本身并非线程安全。高并发场景下建议使用处理队列来管理任务。
+**问：** *我可以在多线程环境下使用此功能吗？*
 
-**Q:** *What's the file size impact of adding QR codes?*  
-**A:** 影响极小——每个二维码大约增加 5‑20 KB，具体取决于尺寸和内容。对于大多数 PDF 来说几乎可以忽略不计，但若在大批量文档中大量添加二维码，请留意存储容量。
+**答：** 可以，但每个线程需创建独立的 `Signature` 实例——实例本身并非线程安全。高并发场景下建议使用处理队列来管理任务。
 
-## Next Steps
+**问：** *添加二维码会对文件大小产生什么影响？*
+
+**答：** 影响极小——每个二维码大约增加 5‑20 KB，具体取决于尺寸和内容。对于大多数 PDF 来说几乎可以忽略不计，但若在大批量文档中大量添加二维码，请留意存储容量。
+
+## 后续步骤
 
 您已经掌握了在 Java 中实现 **java generate qr code** 签名的完整基础。接下来可以进一步探索：
 
@@ -454,7 +462,7 @@ if (result.isValid()) {
 
 祝编码愉快，享受二维码签名为您的 Java 应用带来的安全与便利！
 
-## Resources and Support
+## 资源与支持
 
 - **文档**: [GroupDocs.Signature Java Docs](https://docs.groupdocs.com/signature/java/)  
 - **API 参考**: [完整 API 参考](https://reference.groupdocs.com/signature/java/)  

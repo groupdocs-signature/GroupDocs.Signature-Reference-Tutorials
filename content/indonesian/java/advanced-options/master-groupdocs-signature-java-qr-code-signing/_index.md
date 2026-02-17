@@ -14,7 +14,7 @@ tags:
 - PDF signing
 - digital signatures
 - document security
-title: 'java menghasilkan kode QR: Panduan Penandatanganan Kode QR di Java'
+title: 'java menghasilkan kode QR - Panduan Penandatanganan Kode QR di Java'
 type: docs
 url: /id/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/
 weight: 1
@@ -22,47 +22,47 @@ weight: 1
 
 # java generate qr code: Penandatanganan Kode QR di Java – Implementasi Lengkap
 
-Anda mungkin telah memperhatikan bagaimana tanda tangan digital ada di mana-mana sekarang—dari kontrak hingga faktur. Namun faktanya: metode tanda tangan tradisional bisa merepotkan dan tidak selalu menyediakan fitur verifikasi yang dibutuhkan bisnis modern. Di sinilah tanda tangan **java generate qr code** berperan.
+Anda mungkin telah memperhatikan bagaimana tanda tangan digital ada di mana-mana sekarang—dari kontrak hingga faktur. Namun faktanya: metode tanda tangan tradisional bisa merepotkan dan tidak selalu menyediakan fitur verifikasi yang dibutuhkan bisnis modern. Di mendapatkan tanda tangan **java generate qr code** berpartisipasi.
 
-Dalam panduan ini, Anda akan mempelajari cara mengimplementasikan penandatanganan kode QR di Java, menempatkan tanda tangan ini tepat di lokasi yang Anda butuhkan, dan menghindari jebakan umum yang sering membuat pengembang terjebak. Baik Anda sedang membangun sistem manajemen kontrak atau hanya perlu mengamankan PDF secara programatis, tutorial ini akan membantu Anda mencapainya.
+Dalam panduan ini, Anda akan mempelajari cara mengimplementasikan penandatanganan kode QR di Java, menempatkan tanda tangan ini tepat di lokasi yang Anda butuhkan, dan menghindari jebakan umum yang sering membuat pengembang terjebak. Baik Anda sedang membangun sistem manajemen kontrak atau hanya perlu mengamankan PDF secara terprogram, tutorial ini akan membantu Anda mencapainya.
 
 Kami akan menggunakan **GroupDocs.Signature for Java** (perpustakaan yang kuat dan menangani pekerjaan berat), namun konsepnya dapat diterapkan secara luas pada implementasi penandatanganan kode QR apa pun.
 
-## Quick Answers
-- **What library adds QR code signatures in Java?** GroupDocs.Signature for Java  
-- **Which build tool supports the Maven dependency?** Maven (see *maven dependency groupdocs*)  
-- **Can I position QR codes on specific pages?** Yes, using alignment and page‑number options  
-- **Do I need a license for production?** Yes, a commercial GroupDocs license is required  
-- **Is the QR code scannable after signing?** Absolutely, when sized ≥ 100 × 100 px and placed with proper margins  
+## Jawaban Singkat
+- **Pustaka apa yang menambahkan tanda tangan kode QR di Java?** GroupDocs.Signature untuk Java
+- **Alat build mana yang mendukung dependensi Maven?** Maven (lihat *dependensi maven groupdocs*)
+- **Bisakah saya memposisikan kode QR di halaman tertentu?** Ya, menggunakan opsi perataan dan nomor halaman
+- **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi GroupDocs komersial diperlukan
+- **Apakah kode QR dapat dipindai setelah ditandatangani?** Tentu saja, jika ukurannya ≥100×100px dan ditempatkan dengan margin yang tepat
 
-## What You'll Learn
+## Apa yang Akan Anda Pelajari
 
-By the end of this guide, you'll know how to:
+Pada akhir panduan ini, Anda akan mengetahui cara:
 
-- Set up QR code signing in your Java project (Maven, Gradle, or direct download)  
-- Add QR codes to documents at specific positions (corners, centers, custom alignments)  
-- Handle common implementation issues before they become production problems  
-- Optimize performance for document processing workflows  
-- Apply these techniques to real‑world business scenarios  
+- Menyiapkan penandatanganan kode QR di proyek Java Anda (Maven, Gradle, atau unduhan langsung)
+- Menambahkan kode QR ke dokumen pada posisi tertentu (sudut, tengah, perataan khusus)
+- Menangani masalah implementasi umum sebelum menjadi masalah produksi
+- Mengoptimalkan kinerja untuk alur kerja pemrosesan dokumen
+- Menerapkan teknik ini untuk Skenario bisnis dunia nyata
 
-## Prerequisites
+## Prasyarat
 
-Before we dive into code, make sure you have:
+Sebelum kita masuk ke kode, pastikan Anda memiliki:
 
-- **GroupDocs.Signature for Java Library** – version 23.12 or later (we'll cover installation below)  
-- **Java Development Kit** – JDK 8 or higher (most production environments use JDK 11+)  
-- **Build Tool** – Maven or Gradle for dependency management  
-- **Basic Java Knowledge** – comfortable with try‑catch blocks and file‑path handling  
+- **GroupDocs.Signature for Java Library** – versi 23.12 atau lebih baru (kita akan membahas instalasi di bawah)
+- **Java Development Kit** – JDK8 atau lebih tinggi (sebagian besar lingkungan produksi menggunakan JDK11+)
+- **Build Tool** – Maven atau Gradle untuk manajemen dependensi
+- **Pengetahuan Dasar Java** – terbiasa dengan blok try-catch dan penanganan jalur file
 
-Don't worry if you're new to GroupDocs—we'll walk through everything step by step.
+Jangan khawatir jika Anda baru mengenal GroupDocs—kita akan membahas semuanya langkah demi langkah.
 
-## Setting Up Your Environment
+## Menyiapkan Lingkungan Anda
 
-Getting GroupDocs.Signature into your project is straightforward. Pick the method that matches your build system.
+Memasukkan GroupDocs.Signature ke dalam proyek Anda sangat mudah. ​​Pilih metode yang sesuai dengan sistem build Anda.
 
-### Using Maven
+### Menggunakan Maven
 
-Add this **maven dependency groupdocs** to your `pom.xml` file:
+Tambahkan **maven dependency groupdocs** ini ke file `pom.xml` Anda:
 
 ```xml
 <dependency>
@@ -72,73 +72,72 @@ Add this **maven dependency groupdocs** to your `pom.xml` file:
 </dependency>
 ```
 
-After adding this, run `mvn clean install` to download the library.
+Setelah menambahkan ini, jalankan `mvn clean install` untuk mengunduh pustaka.
 
-### Using Gradle
+### Menggunakan Gradle
 
-For Gradle projects, add this line to your `build.gradle`:
+Untuk proyek Gradle, tambahkan baris ini ke `build.gradle` Anda:
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-Then sync your project with `gradle build`.
+Kemudian sinkronkan proyek Anda dengan `gradle build`.
 
-### Direct Download Option
+### Opsi Unduhan Langsung
 
-Prefer manual installation? Download the JAR directly from [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) and add it to your project's classpath.
+Lebih suka instalasi manual? Unduh JAR langsung dari [GroupDocs.Signature untuk rilis Java](https://releases.groupdocs.com/signature/java/) dan tambahkan ke classpath proyek Anda.
 
-### License Setup (Important!)
+### Pengaturan Lisensi (Penting!)
 
-Here's something that catches people off guard: GroupDocs requires a license for production use. Here are your options:
+Berikut adalah sesuatu yang mengejutkan orang: GroupDocs memerlukan lisensi untuk penggunaan produksi. Berikut adalah pilihan Anda:
 
-- **Free Trial** – great for testing; full features, limited time  
-- **Temporary License** – need more time to evaluate? Get a [temporary license](https://purchase.groupdocs.com/temporary-license/) for extended testing  
-- **Commercial License** – for production deployments, [purchase a license](https://purchase.groupdocs.com/buy)  
+- **Uji Coba Gratis** – bagus untuk pengujian; fitur lengkap, waktu terbatas
+- **Lisensi Sementara** – butuh lebih banyak waktu untuk evaluasi? Dapatkan [lisensi sementara](https://purchase.groupdocs.com/temporary-license/) untuk pengujian lebih lanjut
+- **Lisensi Komersial** – untuk penerapan produksi, [beli lisensi](https://purchase.groupdocs.com/buy)
 
-The trial version adds a watermark to your documents, so plan accordingly for demos.
+Versi uji coba menambahkan watermark ke dokumen Anda, jadi rencanakan dengan tepat untuk demo.
 
-### Basic Initialization
+### Inisialisasi Dasar
 
-Once you've got the library installed, initializing GroupDocs.Signature is as simple as pointing it to your document:
-
+Setelah Anda menginstal pustaka, menginisialisasi GroupDocs.Signature semudah mengarahkannya ke dokumen Anda:
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
 ```
 
-That's it! You now have a `Signature` object ready to work with. Let's move on to the interesting part—actually adding QR codes.
+Selesai! Anda sekarang memiliki objek `Signature` yang siap digunakan. Mari kita lanjutkan ke bagian yang menarik—yaitu menambahkan kode QR.
 
-## Understanding QR Code Signatures
+## Memahami Tanda Tangan Kode QR
 
-Before we jump into code, let's clarify what QR code signatures actually do (because there's some confusion around this).
+Sebelum kita masuk ke kode, mari kita klarifikasi apa sebenarnya fungsi tanda tangan kode QR (karena ada beberapa kebingungan mengenai hal ini).
 
-A QR code signature isn't just slapping a random QR code on your document. It's about embedding verifiable information—like timestamps, signer identity, or verification URLs—directly into the document in a scannable format. When someone scans the QR code, they can verify the document's authenticity without needing specialized software.
+Tanda tangan kode QR bukan hanya sekadar menempelkan kode QR acak pada dokumen Anda. Ini tentang menyematkan informasi yang dapat diverifikasi—seperti stempel waktu, identitas penanda tangan, atau URL verifikasi—langsung ke dalam dokumen dalam format yang dapat dipindai. Ketika seseorang memindai kode QR, mereka dapat memverifikasi keaslian dokumen tanpa memerlukan perangkat lunak khusus.
 
-**When should you use QR code signatures?**
+**Kapan Anda harus menggunakan tanda tangan kode QR?**
 
-- You need quick mobile verification (scan with a phone)  
-- You're working with physical copies that might be printed  
-- You want to embed links to verification portals  
-- You need to support offline verification workflows  
+- Anda memerlukan verifikasi seluler cepat (pindai dengan ponsel)
+- Anda bekerja dengan salinan fisik yang mungkin akan dicetak
+- Anda ingin menyematkan tautan ke portal verifikasi
+- Anda perlu mendukung alur kerja verifikasi offline
 
-Now let's implement this.
+Sekarang mari kita implementasikan ini.
 
-## Implementation Guide: Adding QR Code Signatures
+## Panduan Implementasi: Menambahkan Tanda Tangan Kode QR
 
-This is where things get practical. We'll walk through signing a PDF with QR codes positioned at different locations on the page.
+Di sinilah hal-hal menjadi praktis. Kita akan membahas cara menandatangani PDF dengan kode QR yang ditempatkan di berbagai lokasi pada halaman.
 
-### Why Positioning Matters
+### Mengapa Penempatan Penting
 
-You might wonder: "Can't I just put the QR code anywhere?" Technically yes, but here's the reality—placement affects both usability and legal validity. For contracts, you typically want signatures in the bottom‑right corner. For invoices, top‑right is common. For certificates, centered at the bottom works well.
+Anda mungkin bertanya-tanya: "Bukankah saya bisa meletakkan kode QR di mana saja?" Secara teknis ya, tetapi inilah kenyataannya—penempatan memengaruhi kegunaan dan validitas hukum. Untuk kontrak, Anda biasanya menginginkan tanda tangan di sudut kanan bawah. Untuk faktur, kanan atas adalah hal yang umum. Untuk sertifikat, penempatan di tengah bagian bawah berfungsi dengan baik.
 
-The beauty of **GroupDocs.Signature** is that you can specify exactly where your QR codes appear using alignment options.
+Keunggulan **GroupDocs.Signature** adalah Anda dapat menentukan dengan tepat di mana kode QR Anda muncul menggunakan opsi perataan.
 
-### Step‑by‑Step Implementation
+### Implementasi Langkah demi Langkah
 
-#### 1. Configure Your File Paths
+#### 1. Konfigurasi Jalur File Anda
 
-First, define where your source document lives and where you want the signed version saved:
+Pertama, tentukan di mana dokumen sumber Anda berada dan di mana Anda ingin versi yang ditandatangani disimpan:
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
@@ -146,11 +145,11 @@ String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" + fileName).getPath();
 ```
 
-**Pro tip**: Use `Paths.get()` instead of string concatenation for file paths—it handles OS‑specific path separators automatically (works on Windows, Linux, and Mac without changes).
+**Tips Pro**: Gunakan `Paths.get()` alih-alih penggabungan string untuk jalur file—ini menangani pemisah jalur khusus OS secara otomatis (berfungsi di Windows, Linux, dan Mac tanpa perubahan).
 
-#### 2. Initialize the Signature Object
+#### 2. Inisialisasi Objek Tanda Tangan
 
-Wrap your initialization in a try‑catch block to handle potential file access issues:
+Bungkus inisialisasi Anda dalam blok try-catch untuk menangani potensi masalah akses file:
 
 ```java
 try {
@@ -161,11 +160,11 @@ try {
 }
 ```
 
-Why the `RuntimeException` wrapper? It provides more context when debugging issues in production. You'll thank yourself later when tracking down why a document won't load.
+Mengapa pembungkus `RuntimeException`? Ini memberikan lebih banyak konteks saat men-debug masalah di lingkungan produksi. Anda akan berterima kasih pada diri sendiri nanti saat melacak mengapa dokumen tidak dapat dimuat.
 
-#### 3. Define QR Code Size and Positions
+#### 3. Tentukan Ukuran dan Posisi Kode QR
 
-Here's where we set up QR codes at multiple positions. This example creates QR codes at every possible alignment combination (top‑left, top‑center, top‑right, etc.):
+Di sinilah kita mengatur kode QR di beberapa posisi. Contoh ini membuat kode QR di setiap kombinasi perataan yang mungkin (kiri atas, tengah atas, kanan atas, dll.):
 
 ```java
 int qrWidth = 100;
@@ -187,9 +186,9 @@ for (int horizontalAlignment : HorizontalAlignment.getValues()) {
 }
 ```
 
-**What's happening here?** We're looping through all horizontal alignments (Left, Center, Right) and all vertical alignments (Top, Center, Bottom), creating a QR code option for each valid combination. The `new Padding(5)` adds a 5‑pixel margin around each QR code so they don't overlap with document content.
+**Apa yang terjadi di sini?** Kita melakukan perulangan melalui semua perataan horizontal (Kiri, Tengah, Kanan) dan semua perataan vertikal (Atas, Tengah, Bawah), membuat opsi kode QR untuk setiap kombinasi yang valid. `new Padding(5)` menambahkan margin 5 piksel di sekitar setiap kode QR agar tidak tumpang tindih dengan konten dokumen.
 
-**Real‑world adjustment**: In production, you probably don't want QR codes at **every** position. Pick the positions that make sense for your use case. For example, just bottom‑right for contracts:
+**Penyesuaian di dunia nyata**: Dalam produksi, Anda mungkin tidak menginginkan kode QR di **setiap** posisi. Pilih posisi yang sesuai dengan kasus penggunaan Anda. Misalnya, hanya kanan bawah untuk kontrak:
 
 ```java
 QrCodeSignOptions options = new QrCodeSignOptions("Signature");
@@ -200,30 +199,31 @@ options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
 
-#### 4. Sign the Document
+#### 4. Menandatangani Dokumen
 
-Now we apply all configured signatures in one operation:
+Sekarang kita menerapkan semua tanda tangan yang telah dikonfigurasi dalam satu operasi:
 
 ```java
 SignResult signResult = signature.sign(outputFilePath, listOptions);
 ```
 
-The `sign()` method processes all QR codes in the list and saves the result to your output path. It returns a `SignResult` object that contains information about how many signatures were successfully added (useful for logging).
+Metode `sign()` memproses semua kode QR dalam daftar dan menyimpan hasilnya ke jalur output Anda. Metode ini mengembalikan objek `SignResult` yang berisi informasi tentang berapa banyak tanda tangan yang berhasil ditambahkan (berguna untuk pencatatan log).
 
-**Performance note**: Signing happens synchronously. For high‑volume scenarios (hundreds of documents per hour), consider implementing this in a background job queue rather than in a user‑facing request.
+**Catatan kinerja**: Penandatanganan terjadi secara sinkron. Untuk skenario volume tinggi (ratusan dokumen per jam), pertimbangkan untuk mengimplementasikannya dalam antrian pekerjaan latar belakang daripada dalam permintaan yang berhadapan dengan pengguna.
 
-## Common Pitfalls and Solutions
+## Kesalahan Umum dan Solusinya
 
-Let's address the issues that developers run into most frequently.
+Mari kita bahas masalah yang paling sering dihadapi pengembang.
 
-### Problem 1: "File Not Found" Errors
+### Masalah 1: Kesalahan "File Tidak Ditemukan"
 
-**Symptom**: Your code throws a file‑not‑found exception even though the file exists.
+**Gejala**: Kode Anda melempar pengecualian file tidak ditemukan meskipun file tersebut ada.
 
-**Solution**: Check these three things:  
-1. Are you using absolute paths? Relative paths can be tricky depending on where your application runs.  
-2. Does your application have read permissions for the source file and write permissions for the output directory?  
-3. Are there any special characters in the file path that need escaping?
+**Solusi**: Periksa tiga hal ini:
+
+1. Apakah Anda menggunakan jalur absolut? Jalur relatif bisa rumit tergantung di mana aplikasi Anda berjalan.
+2. Apakah aplikasi Anda memiliki izin baca untuk file sumber dan izin tulis untuk direktori output?
+3. Apakah ada karakter khusus dalam jalur file yang perlu di-escape?
 
 ```java
 // Better approach: Use absolute paths
@@ -231,23 +231,22 @@ String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
 ```
 
-### Problem 2: QR Codes Overlap Document Content
+### Masalah 2: Kode QR Tumpang Tindih dengan Konten Dokumen
 
-**Symptom**: QR codes cover important text or appear cut off at page edges.
+**Gejala**: Kode QR menutupi teks penting atau tampak terpotong di tepi halaman.
 
-**Solution**: Increase margin values and adjust alignment strategically:
+**Solusi**: Tingkatkan nilai margin dan sesuaikan perataan secara strategis:
 
 ```java
 options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
 ```
+Untuk dokumen dengan tata letak konten yang beragam, pertimbangkan untuk menambahkan kode QR ke area halaman tertentu yang selalu kosong (seperti area blok tanda tangan).
 
-For documents with varied content layouts, consider adding QR codes to a specific page region that's always empty (like a signature block area).
+### Masalah 3: Masalah Memori dengan Dokumen Besar
 
-### Problem 3: Memory Issues with Large Documents
+**Gejala**: `OutOfMemoryError` saat memproses PDF di atas 10MB.
 
-**Symptom**: `OutOfMemoryError` when processing PDFs over 10 MB.
-
-**Solution**: Ensure you're properly disposing of `Signature` objects and consider processing large documents in batches:
+**Solusi**: Pastikan Anda membuang objek `Signature` dengan benar dan pertimbangkan untuk memproses dokumen besar secara bertahap:
 
 ```java
 try (Signature signature = new Signature(filePath)) {
@@ -255,13 +254,13 @@ try (Signature signature = new Signature(filePath)) {
 } // Automatically closes and releases resources
 ```
 
-The try‑with‑resources statement ensures proper cleanup even if an exception occurs.
+Pernyataan try-with-resources memastikan pembersihan yang tepat bahkan jika terjadi pengecualian.
 
-### Problem 4: QR Code Content Isn't Updating
+### Masalah 4: Konten Kode QR Tidak Diperbarui
 
-**Symptom**: All QR codes show the same text, even though you're trying to customize them.
+**Gejala**: Semua kode QR menampilkan teks yang sama, meskipun Anda mencoba menyesuaikannya.
 
-**Solution**: Make sure you're creating a **new** `QrCodeSignOptions` object for each position, not reusing the same one:
+**Solusi**: Pastikan Anda membuat objek `QrCodeSignOptions` **baru** untuk setiap posisi, bukan menggunakan kembali objek yang sama:
 
 ```java
 // Wrong - reuses same object
@@ -276,59 +275,59 @@ listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
 ```
 
-## Practical Applications
+## Aplikasi Praktis
 
-Now let's talk about where this actually gets used in real business scenarios.
+Sekarang mari kita bahas di mana ini sebenarnya digunakan dalam skenario bisnis nyata.
 
-### 1. Contract Management Systems
+### 1. Sistem Manajemen Kontrak
 
-You're building a system where legal contracts need digital signatures with verification capability. Here's the workflow:
+Anda sedang membangun sistem di mana kontrak hukum memerlukan tanda tangan digital dengan kemampuan verifikasi. Berikut alur kerjanya:
 
-- Generate contract PDF from template  
-- Add QR code signature containing: contract ID, timestamp, signer hash  
-- Store document in secure storage  
-- When verifying, user scans QR code → redirect to verification portal → display contract details  
+- Buat PDF kontrak dari templat
+- Tambahkan tanda tangan kode QR yang berisi: ID kontrak, stempel waktu, hash penanda tangan
+- Simpan dokumen di penyimpanan yang aman
+- Saat memverifikasi, pengguna memindai kode QR → dialihkan ke portal verifikasi → menampilkan detail kontrak
 
-**Why it works**: Legal teams can verify authenticity even from printed copies, and the QR code provides an audit trail.
+**Mengapa ini berhasil**: Tim hukum dapat memverifikasi keaslian bahkan dari salinan cetak, dan kode QR menyediakan jejak audit.
 
-### 2. Invoice Processing Automation
+### 2. Otomatisasi Pemrosesan Faktur
 
-Your accounts payable system receives hundreds of invoices daily. You need to:
+Sistem hutang dagang Anda menerima ratusan faktur setiap hari. Anda perlu:
 
-- Add a QR code to each processed invoice  
-- Encode invoice number, vendor ID, and processing timestamp  
-- Use top‑right positioning so it doesn't interfere with invoice data  
-- Archive signed invoices for compliance  
+- Menambahkan kode QR ke setiap faktur yang diproses
+- Mengenkode nomor faktur, ID vendor, dan stempel waktu pemrosesan
+- Menggunakan posisi kanan atas agar tidak mengganggu data faktur
+- Mengarsipkan faktur yang telah ditandatangani untuk kepatuhan
 
-**Implementation tip**: Position QR codes consistently across all invoices so automated scanners know exactly where to look.
+**Tips implementasi**: Posisikan kode QR secara konsisten di semua faktur agar pemindai otomatis tahu persis di mana harus mencari.
 
-### 3. Document Certification
+### 3. Sertifikasi Dokumen
 
-You're issuing certificates (training completion, compliance, etc.) that need to be verifiable:
+Anda menerbitkan sertifikat (penyelesaian pelatihan, kepatuhan, dll.) yang perlu diverifikasi:
 
-- Generate certificate PDF with recipient details  
-- Add centered bottom QR code with certificate ID and verification URL  
-- Recipients can scan to verify authenticity  
-- Employers can verify credentials instantly  
+- Menghasilkan PDF sertifikat dengan detail penerima
+- Menambahkan kode QR di bagian bawah tengah dengan ID sertifikat dan URL verifikasi
+- Penerima dapat memindai untuk memverifikasi keaslian
+- Pemberi kerja dapat memverifikasi kredensial secara instan
 
-**Bonus**: Include a small printed URL below the QR code for people who can't scan it.
+**Bonus**: Sertakan URL kecil yang dicetak di bawah kode QR untuk orang yang tidak dapat memindainya.
 
-### 4. Internal Document Tracking
+### 4. Pelacakan Dokumen Internal
 
-For large organizations with document approval workflows:
+Untuk organisasi besar dengan alur kerja persetujuan dokumen:
 
-- Add QR codes during each approval stage  
-- QR code contains: approver ID, approval timestamp, document version  
-- Scan to see full approval history  
-- Helps with audit trails and compliance  
+- Tambahkan kode QR selama setiap tahap persetujuan
+- Kode QR berisi: ID pemberi persetujuan, stempel waktu persetujuan, versi dokumen
+- Pindai untuk melihat riwayat persetujuan lengkap
+- Membantu dalam jejak audit dan kepatuhan
 
-## Production Best Practices
+## Praktik Terbaik Produksi
 
-Moving from prototype to production? Keep these practices in mind.
+Beralih dari prototipe ke produksi? Perhatikan praktik-praktik ini.
 
-### Resource Management
+### Manajemen Sumber Daya
 
-Always close `Signature` objects to prevent memory leaks:
+Selalu tutup objek `Signature` untuk mencegah kebocoran memori:
 
 ```java
 try (Signature signature = new Signature(filePath)) {
@@ -336,11 +335,11 @@ try (Signature signature = new Signature(filePath)) {
 } // Auto‑closes
 ```
 
-For web applications, consider implementing a document processing pool to limit concurrent operations.
+Untuk aplikasi web, pertimbangkan untuk menerapkan kumpulan pemrosesan dokumen untuk membatasi operasi bersamaan.
 
-### Error Handling Strategy
+### Strategi Penanganan Kesalahan
 
-Don't just catch and log—provide actionable error information:
+Jangan hanya menangkap dan mencatat—berikan informasi kesalahan yang dapat ditindaklanjuti:
 
 ```java
 try {
@@ -356,82 +355,84 @@ try {
 }
 ```
 
-### Performance Optimization
+### Optimasi Kinerja
 
-For high‑volume scenarios:
+Untuk skenario volume tinggi:
 
-1. **Batch Processing** – process multiple documents in parallel (but limit concurrency based on available memory)  
-2. **Caching** – if using the same signature options repeatedly, create them once and reuse  
-3. **Async Operations** – implement signing in background workers for user‑facing applications  
-4. **Memory Monitoring** – set up alerts for memory usage spikes  
+1. **Pemrosesan Batch** – proses beberapa dokumen secara paralel (tetapi batasi konkurensi berdasarkan memori yang tersedia)
+2. **Caching** – jika menggunakan opsi tanda tangan yang sama berulang kali, buat sekali dan gunakan kembali
+3. **Operasi Asinkron** – implementasikan penandatanganan di pekerja latar belakang untuk aplikasi yang berhadapan dengan pengguna
+4. **Pemantauan Memori** – atur peringatan untuk lonjakan penggunaan memori
 
-### Security Considerations
+### Pertimbangan Keamanan
 
-- Store signed documents separately from originals  
-- Log all signing operations for audit purposes  
-- Implement access controls for signature operations  
-- Consider encrypting QR code content for sensitive information  
+- Simpan dokumen yang telah ditandatangani secara terpisah dari dokumen asli
+- Catat semua operasi penandatanganan untuk tujuan audit
+- Implementasikan kontrol akses untuk operasi tanda tangan
+- Pertimbangkan untuk mengenkripsi konten kode QR untuk informasi sensitif
 
-## When to Use QR Code Signatures (And When Not To)
+## Kapan Menggunakan Tanda Tangan Kode QR (Dan Kapan Tidak)
 
-**Use QR code signatures when:**
+**Gunakan tanda tangan kode QR ketika:**
 
-- You need mobile‑friendly verification  
-- Documents might be printed and re‑scanned  
-- You want to embed verification URLs or IDs  
-- You're working with public‑facing documents (certificates, receipts)
+- Anda memerlukan verifikasi yang ramah seluler
+- Dokumen mungkin dicetak dan dipindai ulang
+- Anda ingin menyematkan URL atau ID verifikasi
+- Anda sedang bekerja dengan Dokumen yang dapat diakses publik (sertifikat, tanda terima)
 
-**Don't use QR code signatures when:**
+**Jangan gunakan tanda tangan kode QR jika:**
 
-- You need legally binding cryptographic signatures (use a PKI‑based signature instead)  
-- QR code might be damaged or obscured in printing  
-- Your verification system is offline‑only  
-- Document size is critical (QR codes add a few kilobytes)  
+- Anda memerlukan tanda tangan kriptografi yang mengikat secara hukum (gunakan tanda tangan berbasis PKI sebagai gantinya)
+- Kode QR mungkin rusak atau terhalang saat dicetak
+- Sistem verifikasi Anda hanya offline
+- Ukuran dokumen sangat penting (kode QR menambah beberapa kilobyte)
 
-**Consider combining**: Use both cryptographic signatures **and** QR codes. You get legal validity plus easy mobile verification.
+**Pertimbangkan untuk menggabungkan**: Gunakan tanda tangan kriptografi **dan** kode QR. Anda mendapatkan validitas hukum plus verifikasi seluler yang mudah.
 
-## Troubleshooting Guide
+## Panduan Pemecahan Masalah
 
-### Signature Doesn't Appear
+### Tanda Tangan Tidak Muncul
 
-1. Is the output file being created? (Check your file system)  
-2. Are you opening the correct output file?  
-3. Does the `SignResult` indicate success?  
-4. Are your alignment and margin values pushing the QR code off the visible page area?
+1. Apakah file output sedang dibuat? (Periksa sistem file Anda)
+2. Apakah Anda membuka file output yang benar?
 
-### QR Code Won't Scan
+3. Apakah `SignResult` menunjukkan keberhasilan?
 
-- Keep QR code size ≥ 100 × 100 px  
-- Ensure high contrast with the background  
-- Limit encoded data to < 100 characters for reliable scanning  
-- Use higher DPI when printing physical copies  
+4. Apakah nilai perataan dan margin Anda mendorong kode QR keluar dari area halaman yang terlihat?
 
-### Performance Degradation
+### Kode QR Tidak Dapat Dipindai
 
-- Reduce the number of signatures per document  
-- Verify you aren't creating new `Signature` objects unnecessarily  
-- Profile memory usage; consider processing documents in smaller batches  
+- Jaga ukuran kode QR ≥100×100px
+- Pastikan kontras tinggi dengan latar belakang
+- Batasi data yang dikodekan hingga <100 karakter untuk pemindaian yang andal
+- Gunakan DPI yang lebih tinggi saat mencetak salinan fisik
 
-## Frequently Asked Questions
+### Penurunan Kinerja
 
-**Q:** *Can I sign documents other than PDFs?*  
-**A:** Absolutely. GroupDocs.Signature supports Word (DOC/DOCX), Excel (XLS/XLSX), PowerPoint (PPT/PPTX), and image formats (JPG, PNG, TIFF). The API remains largely the same across formats.
+- Kurangi jumlah tanda tangan per dokumen
+- Verifikasi bahwa Anda tidak membuat objek `Signature` baru secara tidak perlu
+- Profilkan penggunaan memori; pertimbangkan untuk memproses dokumen dalam batch yang lebih kecil
 
-**Q:** *How do I customize the QR code appearance?*  
-**A:** Use `QrCodeSignOptions` properties like `setForeColor()`, `setBackgroundColor()`, and `setBorder()`. Keep customizations simple to maintain scannability.
+## Pertanyaan yang Sering Diajukan
 
-**Q:** *Can I add QR codes to specific pages in a multi‑page document?*  
-**A:** Yes! Set the page number with `options.setPageNumber(pageNumber);`. Example:
+**T:** *Bisakah saya menandatangani dokumen selain PDF?*
+**J:** Tentu saja. GroupDocs.Signature mendukung Word (DOC/DOCX), Excel (XLS/XLSX), PowerPoint (PPT/PPTX), dan format gambar (JPG, PNG, TIFF). API sebagian besar tetap sama di semua format.
+
+**T:** *Bagaimana cara menyesuaikan tampilan kode QR?*
+**J:** Gunakan properti `QrCodeSignOptions` seperti `setForeColor()`, `setBackgroundColor()`, dan `setBorder()`. Jaga agar penyesuaian tetap sederhana untuk mempertahankan kemudahan pemindaian.
+
+**T:** *Bisakah saya menambahkan kode QR ke halaman tertentu dalam dokumen multi-halaman?*
+**J:** Ya! Atur nomor halaman dengan `options.setPageNumber(pageNumber);`. Contoh:
 
 ```java
 options.setPageNumber(1); // Add to first page only
 ```
 
-**Q:** *What data can I encode in the QR code?*  
-**A:** Anything you want—plain text, URLs, JSON, XML. Keep it under ~200 characters for reliable scanning. For larger payloads, encode a short URL that points to the full data.
+**T:** *Data apa yang dapat saya encode dalam kode QR?*
+**J:** Apa pun yang Anda inginkan—teks biasa, URL, JSON, XML. Jaga agar panjangnya kurang dari ~200 karakter agar pemindaian lebih andal. Untuk muatan yang lebih besar, encode URL pendek yang mengarah ke data lengkap.
 
-**Q:** *How do I verify QR code signatures programmatically?*  
-**A:** GroupDocs.Signature provides a `verify` method. Example:
+**T:** *Bagaimana cara memverifikasi tanda tangan kode QR secara terprogram?*
+**J:** GroupDocs.Signature menyediakan metode `verify`. Contoh:
 
 ```java
 VerificationResult result = signature.verify(verifyOptions);
@@ -440,35 +441,35 @@ if (result.isValid()) {
 }
 ```
 
-**Q:** *Can I use this in a multi‑threaded environment?*  
-**A:** Yes, but create a separate `Signature` instance per thread—instances are not thread‑safe. Use a processing queue for high‑concurrency scenarios.
+**T:** *Bisakah saya menggunakan ini di lingkungan multi-thread?*
+**J:** Ya, tetapi buat instance `Signature` terpisah untuk setiap thread—instance tidak aman untuk thread. Gunakan antrian pemrosesan untuk skenario konkurensi tinggi.
 
-**Q:** *What's the file size impact of adding QR codes?*  
-**A:** Minimal—typically 5‑20 KB per QR code depending on size and content. For most PDFs this is negligible, but account for storage if adding many QR codes to large batches.
+**T:** *Berapa dampak ukuran file jika menambahkan kode QR?*
+**J:** Minimal—biasanya 5-20KB per kode QR tergantung pada ukuran dan konten. Untuk sebagian besar PDF, ini dapat diabaikan, tetapi perhitungkan penyimpanan jika menambahkan banyak kode QR ke dalam batch besar.
 
-## Next Steps
+## Langkah Selanjutnya
 
-You now have a solid foundation for implementing **java generate qr code** signatures in Java. Here's what to explore next:
+Anda sekarang memiliki dasar yang kuat untuk mengimplementasikan tanda tangan **java generate qr code** di Java. Berikut beberapa hal yang dapat Anda jelajahi selanjutnya:
 
-1. **Advanced Customization** – dive into QR code styling options in the [GroupDocs documentation](https://docs.groupdocs.com/signature/java/)  
-2. **Verification Systems** – build a web portal where users can verify documents by uploading or scanning QR codes  
-3. **Workflow Integration** – connect this to your existing document management system  
-4. **Mobile Apps** – create a companion mobile app for scanning and verifying QR codes  
+1. **Kustomisasi Tingkat Lanjut** – pelajari opsi penataan kode QR di [dokumentasi GroupDocs](https://docs.groupdocs.com/signature/java/)
+2. **Sistem Verifikasi** – bangun portal web tempat pengguna dapat memverifikasi dokumen dengan mengunggah atau memindai kode QR
+3. **Integrasi Alur Kerja** – hubungkan ini ke sistem manajemen dokumen Anda yang sudah ada
+4. **Aplikasi Seluler** – buat aplikasi seluler pendamping untuk memindai dan memverifikasi kode QR
 
-Happy coding, and enjoy the added security and convenience that QR code signatures bring to your Java applications!
+Selamat berkoding, dan nikmati keamanan dan kenyamanan tambahan yang diberikan oleh tanda tangan kode QR pada aplikasi Java Anda!
 
-## Resources and Support
+## Sumber Daya dan Dukungan
 
-- **Documentation**: [GroupDocs.Signature Java Docs](https://docs.groupdocs.com/signature/java/)  
-- **API Reference**: [Complete API Reference](https://reference.groupdocs.com/signature/java/)  
-- **Downloads**: [Latest Java Release](https://releases.groupdocs.com/signature/java/)  
-- **Purchase License**: [Buy GroupDocs.Signature](https://purchase.groupdocs.com/buy)  
-- **Free Trial**: [Start Your Free Trial](https://releases.groupdocs.com/signature/java/)  
-- **Temporary License**: [Get Temporary License](https://purchase.groupdocs.com/temporary-license/)  
-- **Community Support**: [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)
+- **Dokumentasi**: [GroupDocs.Signature Java Docs](https://docs.groupdocs.com/signature/java/)
+- **Referensi API**: [Referensi API Lengkap](https://reference.groupdocs.com/signature/java/)
+- **Unduhan**: [Rilis Java Terbaru](https://releases.groupdocs.com/signature/java/)
+- **Pembelian Lisensi**: [Beli GroupDocs.Signature](https://purchase.groupdocs.com/buy)
+- **Uji Coba Gratis**: [Mulai Uji Coba Gratis Anda](https://releases.groupdocs.com/signature/java/)
+- **Lisensi Sementara**: [Dapatkan Lisensi Sementara](https://purchase.groupdocs.com/temporary-license/)
+- **Dukungan Komunitas**: [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)
 
 ---
 
-**Last Updated:** 2025-12-31  
-**Tested With:** GroupDocs.Signature 23.12 for Java  
-**Author:** GroupDocs
+**Terakhir Diperbarui:** 2025-12-31
+**Diuji Dengan:** GroupDocs.Signature 23.12 untuk Java
+**Penulis:** GroupDocs

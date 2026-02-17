@@ -13,7 +13,7 @@ tags:
 - PDF signing
 - digital signatures
 - document security
-title: 'java generovat QR kód: Podepisování QR kódu v průvodci Java'
+title: 'java generovat QR kód - Podepisování QR kódu v průvodci Java'
 type: docs
 url: /cs/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/
 weight: 1

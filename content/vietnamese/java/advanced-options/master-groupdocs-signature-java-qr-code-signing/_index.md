@@ -13,7 +13,7 @@ tags:
 - PDF signing
 - digital signatures
 - document security
-title: 'java tạo mã QR: Hướng dẫn ký mã QR trong Java'
+title: 'java tạo mã QR - Hướng dẫn ký mã QR trong Java'
 type: docs
 url: /vi/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/
 weight: 1
@@ -21,45 +21,45 @@ weight: 1
 
 # java generate qr code: Chữ ký mã QR trong Java – Triển khai đầy đủ
 
-Bạn có thể đã nhận thấy chữ ký số hiện diện khắp nơi—từ hợp đồng đến hoá đơn. Nhưng vấn đề là: các phương pháp ký truyền thống có thể cồng kềnh và không luôn cung cấp các tính năng xác thực mà doanh nghiệp hiện đại cần. Đó là lúc các chữ ký **java generate qr code** xuất hiện.
+Bạn có thể đã tìm thấy chữ ký hiện diện khắp nơi—từ hợp nhất đến hóa đơn. Nhưng vấn đề là: các phương pháp truyền thống có thể cồng kềnh và không bao giờ cung cấp các tính năng xác thực mà doanh nghiệp hiện đại cần. Đó là lúc các chữ ký **java generate qr code** xuất hiện.
 
-Trong hướng dẫn này, bạn sẽ học cách triển khai chữ ký mã QR trong Java, đặt các chữ ký này chính xác ở vị trí bạn cần, và tránh những rủi ro phổ biến mà hầu hết các nhà phát triển gặp phải. Dù bạn đang xây dựng hệ thống quản lý hợp đồng hay chỉ cần bảo mật các tệp PDF một cách lập trình, bài tutorial này sẽ đưa bạn tới mục tiêu.
+Trong hướng dẫn này, bạn sẽ học cách phát triển chữ ký mã QR trong Java, đặt các chữ ký này chính xác ở vị trí bạn cần và tránh những rủi ro phổ biến mà hầu hết các nhà phát triển phải gặp. Dù bạn đang xây dựng đồng quản lý hệ thống hay chỉ cần bảo mật các tệp PDF bằng một trình cài đặt, hướng dẫn này sẽ đưa bạn đến mục tiêu.
 
-Chúng tôi sẽ sử dụng **GroupDocs.Signature for Java** (một thư viện mạnh mẽ xử lý phần nặng), nhưng các khái niệm cũng áp dụng rộng rãi cho bất kỳ triển khai chữ ký mã QR nào.
+Chúng tôi sẽ sử dụng **GroupDocs.Signature for Java** (một thư viện mạnh mẽ xử lý phần nặng), nhưng các khái niệm cũng áp dụng rộng rãi cho bất kỳ phát triển khai chữ ký mã QR nào.
 
-## Quick Answers
-- **Thư viện nào thêm chữ ký mã QR trong Java?** GroupDocs.Signature for Java  
-- **Công cụ build nào hỗ trợ dependency Maven?** Maven (xem *maven dependency groupdocs*)  
-- **Tôi có thể đặt mã QR trên các trang cụ thể không?** Có, bằng cách sử dụng các tùy chọn căn chỉnh và số trang  
-- **Có cần giấy phép cho môi trường production không?** Có, cần giấy phép thương mại của GroupDocs  
-- **Mã QR có thể quét được sau khi ký không?** Chắc chắn, khi kích thước ≥ 100 × 100 px và được đặt với lề phù hợp  
+## Trả lời nhanh
+- **Thư viện nào có thêm chữ ký mã QR trong Java?** GroupDocs.Signature for Java
+- **Công cụ xây dựng Maven phụ thuộc hỗ trợ nào?** Maven (xem *maven dependency groupdocs*)
+- **Tôi có thể đặt mã QR trên các trang công cụ không?** Có, bằng cách sử dụng các tùy chọn chỉnh sửa và số trang
+- **Có cần giấy phép sản xuất môi trường không?** Có cần giấy phép thương mại của GroupDocs
+- **Mã QR có thể quét sau khi ký không?** Chắc chắn, khi kích thước ≥100×100px và được đặt với bảng phù hợp
 
-## What You'll Learn
+## Bạn sẽ học được gì
 
 Khi hoàn thành hướng dẫn này, bạn sẽ biết cách:
 
-- Thiết lập chữ ký mã QR trong dự án Java của mình (Maven, Gradle, hoặc tải trực tiếp)  
-- Thêm mã QR vào tài liệu ở các vị trí cụ thể (góc, trung tâm, căn chỉnh tùy chỉnh)  
-- Xử lý các vấn đề triển khai phổ biến trước khi chúng trở thành rắc rối trong production  
-- Tối ưu hiệu suất cho quy trình xử lý tài liệu  
-- Áp dụng các kỹ thuật này vào các kịch bản kinh doanh thực tế  
+- Thiết lập chữ ký mã QR trong dự án Java của mình (Maven, Gradle hoặc tải trực tiếp)
+- Thêm mã QR vào tài liệu ở các vị trí công cụ (góc, trung tâm, tùy chỉnh chỉnh sửa)
+- Xử lý các vấn đề phát triển khai phổ biến trước khi chúng trở thành cột rối trong sản xuất
+- Hiệu suất tối ưu cho tài liệu xử lý
+- Áp dụng các kỹ thuật này vào các kịch bản kinh doanh thực tế
 
-## Prerequisites
+## Điều kiện tiên quyết
 
-Trước khi chúng ta đi vào code, hãy chắc chắn rằng bạn đã có:
+Trước khi chúng tôi nhập mã, hãy chắc chắn rằng bạn đã có:
 
-- **GroupDocs.Signature for Java Library** – phiên bản 23.12 trở lên (chúng tôi sẽ hướng dẫn cài đặt bên dưới)  
-- **Java Development Kit** – JDK 8 hoặc cao hơn (hầu hết môi trường production dùng JDK 11+)  
-- **Build Tool** – Maven hoặc Gradle để quản lý dependency  
-- **Kiến thức Java cơ bản** – quen thuộc với khối try‑catch và xử lý đường dẫn file  
+- **GroupDocs.Signature for Java Library** – phiên bản 23.12 trở lên (chúng tôi sẽ hướng dẫn cài đặt bên dưới)
+- **Bộ công cụ phát triển Java** – JDK8 hoặc cao hơn (hầu hết môi trường sản xuất sử dụng JDK11+)
+- **Build Tool** – Maven hoặc Gradle để quản lý sự phụ thuộc
+- **Cơ sở Java kiến ​​trúc** – quen thuộc với khối try‑catch và xử lý tệp đường dẫn
 
-Đừng lo nếu bạn mới với GroupDocs—chúng tôi sẽ hướng dẫn từng bước.
+Đừng lo nếu bạn mới sử dụng GroupDocs— chúng tôi sẽ hướng dẫn từng bước.
 
-## Setting Up Your Environment
+## Thiết lập môi trường của bạn
 
-Việc đưa GroupDocs.Signature vào dự án của bạn rất đơn giản. Chọn phương pháp phù hợp với hệ thống build của bạn.
+Việc đưa GroupDocs.Signature vào dự án của bạn rất đơn giản. Hãy chọn phương pháp phù hợp với việc xây dựng hệ thống của bạn.
 
-### Using Maven
+### Sử dụng Maven
 
 Thêm **maven dependency groupdocs** này vào file `pom.xml` của bạn:
 
@@ -73,9 +73,9 @@ Thêm **maven dependency groupdocs** này vào file `pom.xml` của bạn:
 
 Sau khi thêm, chạy `mvn clean install` để tải thư viện về.
 
-### Using Gradle
+### Sử dụng Gradle
 
-Đối với dự án Gradle, thêm dòng này vào file `build.gradle`:
+Đối với dự án Gradle, hãy thêm dòng này vào tệp `build.gradle`:
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
@@ -83,61 +83,61 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 
 Sau đó đồng bộ dự án với `gradle build`.
 
-### Direct Download Option
+### Tùy chọn tải xuống trực tiếp
 
-Thích cài đặt thủ công? Tải JAR trực tiếp từ [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) và thêm vào classpath của dự án.
+Thích cài đặt thủ công? Tải JAR trực tiếp từ [Bản phát hành GroupDocs.Signature cho Java](https://releases.groupdocs.com/signature/java/) và thêm vào đường dẫn lớp của dự án.
 
-### License Setup (Important!)
+### Thiết lập giấy phép (Quan trọng!)
 
-Đây là điều mà nhiều người thường bỏ qua: GroupDocs yêu cầu giấy phép cho việc sử dụng trong production. Các lựa chọn của bạn:
+Đây là điều mà nhiều người thường bỏ qua: GroupDocs yêu cầu giấy phép cho công việc sử dụng trong sản xuất. Lựa chọn của bạn:
 
-- **Free Trial** – tuyệt vời để thử nghiệm; đầy đủ tính năng, thời gian có hạn  
-- **Temporary License** – cần thời gian đánh giá lâu hơn? Lấy một [temporary license](https://purchase.groupdocs.com/temporary-license/) để kéo dài thời gian thử nghiệm  
-- **Commercial License** – cho triển khai production, [mua giấy phép](https://purchase.groupdocs.com/buy)  
+- **Dùng thử miễn phí** – tuyệt vời để thử nghiệm; đầy đủ tính năng, time limit
+- **Giấy phép tạm thời** – cần thời gian đánh giá lâu hơn? Nhận một [giấy phép tạm thời](https://purchase.groupdocs.com/temporary-license/) để kéo dài thời gian thử nghiệm
+- **Giấy phép thương mại** – cho phát triển khai production, [mua giấy phép](https://purchase.groupdocs.com/buy)
 
-Phiên bản trial sẽ thêm watermark vào tài liệu, vì vậy hãy lên kế hoạch phù hợp cho các buổi demo.
+Phiên bản dùng thử sẽ thêm hình mờ vào tài liệu, vì vậy hãy lên kế hoạch phù hợp cho các phiên demo.
 
-### Basic Initialization
+### Khởi tạo cơ bản
 
-Sau khi đã cài đặt thư viện, việc khởi tạo GroupDocs.Signature chỉ cần trỏ tới tài liệu của bạn:
+Sau khi cài đặt thư viện, việc khởi tạo GroupDocs.Signature chỉ cần trỏ tới tài liệu của bạn:
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
 ```
 
-Xong! Bạn đã có một đối tượng `Signature` sẵn sàng để làm việc. Tiếp theo chúng ta sẽ vào phần thú vị—thêm mã QR thực sự.
+Xong! Bạn đã có sẵn một đối tượng `Signature` để làm việc. Tiếp theo chúng ta sẽ vào phần thú vị—mã QR thực sự.
 
-## Understanding QR Code Signatures
+## Hiểu chữ ký mã QR
 
-Trước khi viết code, hãy làm rõ chữ ký mã QR thực sự làm gì (vì có một số hiểu lầm về điều này).
+Trước khi viết mã, hãy làm rõ chữ ký mã QR thực sự làm gì (vì có nhiều rắc rối về điều này).
 
-Một chữ ký mã QR không chỉ là dán một mã QR ngẫu nhiên lên tài liệu. Nó là việc nhúng thông tin có thể xác thực—như thời gian, danh tính người ký, hoặc URL xác thực—trực tiếp vào tài liệu dưới dạng có thể quét. Khi ai đó quét mã QR, họ có thể xác thực tính xác thực của tài liệu mà không cần phần mềm đặc biệt.
+Một chữ QR mã hóa không chỉ là một mã QR ngẫu nhiên được tải lên tài liệu. Nó là công việc nhúng thông tin có thể xác thực—như thời gian, danh tính người ký hoặc URL xác thực—trực tiếp vào tài liệu dưới dạng có thể quét. Khi ai đó quét mã QR, họ có thể xác thực tính xác thực của tài liệu mà không cần phần mềm đặc biệt.
 
-**Khi nào nên sử dụng chữ ký mã QR?**
+**Khi nào nên sử dụng mã QR chữ ký?**
 
-- Cần xác thực nhanh trên điện thoại di động (quét bằng phone)  
-- Làm việc với bản sao vật lý có thể in ra  
-- Muốn nhúng liên kết tới cổng xác thực  
-- Cần hỗ trợ quy trình xác thực offline  
+- Cần xác thực nhanh trên điện thoại di động (quét bằng điện thoại)
+- Làm việc với bản sao vật lý có thể có trong ra
+- Muốn nhúng liên kết tới cổng xác thực
+- Cần hỗ trợ xác thực ngoại tuyến
 
-Bây giờ chúng ta sẽ triển khai.
+Bây giờ chúng ta sẽ phát triển.
 
-## Implementation Guide: Adding QR Code Signatures
+## Hướng dẫn thực hiện: Thêm chữ ký mã QR
 
-Đây là phần thực hành. Chúng tôi sẽ hướng dẫn ký một PDF với mã QR được đặt ở các vị trí khác nhau trên trang.
+Đây là phần thực thi. Chúng tôi sẽ hướng dẫn ký một tệp PDF với mã QR được đặt ở các vị trí khác nhau trên trang.
 
-### Why Positioning Matters
+### Tại sao việc định vị lại quan trọng
 
-Bạn có thể tự hỏi: “Có thể đặt mã QR bất kỳ chỗ nào không?” Kỹ thuật có, nhưng thực tế—vị trí ảnh hưởng đến tính tiện dụng và tính hợp pháp. Đối với hợp đồng, thường muốn chữ ký ở góc dưới‑phải. Đối với hoá đơn, góc trên‑phải là phổ biến. Đối với chứng chỉ, đặt ở giữa phía dưới là hợp lý.
+Bạn có thể tự hỏi: “Có thể đặt mã QR bất kỳ chỗ nào không?” Kỹ thuật có, nhưng thực tế—vị trí ảnh hưởng đến tính tiện ích và tính hợp pháp. Đối lập, thường muốn ký tự ở góc dưới‑phải. Đối số được hóa đơn, góc trên phải là biến phổ. Đối với chứng chỉ, đặt ở giữa bên dưới là hợp lý.
 
-Điểm mạnh của **GroupDocs.Signature** là bạn có thể chỉ định chính xác nơi mã QR xuất hiện bằng các tùy chọn căn chỉnh.
+Điểm mạnh của **GroupDocs.Signature** là bạn có thể xác định chính xác nơi mã QR xuất hiện bằng cách chỉnh sửa các tùy chọn cơ bản.
 
-### Step‑by‑Step Implementation
+### Thực hiện từng bước
 
-#### 1. Configure Your File Paths
+#### 1. Định cấu hình đường dẫn tệp của bạn
 
-Đầu tiên, xác định nơi tài liệu nguồn nằm và nơi bạn muốn lưu phiên bản đã ký:
+Đầu tiên, xác định nơi nguồn tài liệu và nơi bạn muốn lưu phiên bản đã ký:
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
@@ -147,7 +147,7 @@ String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" +
 
 **Mẹo:** Sử dụng `Paths.get()` thay vì nối chuỗi để xử lý đường dẫn—nó tự động quản lý dấu phân cách của hệ điều hành (hoạt động trên Windows, Linux, và Mac mà không cần thay đổi).
 
-#### 2. Initialize the Signature Object
+#### 2. Khởi tạo đối tượng Chữ ký
 
 Bao bọc khởi tạo trong khối try‑catch để xử lý các lỗi truy cập file tiềm năng:
 
@@ -162,7 +162,7 @@ try {
 
 Tại sao lại dùng `RuntimeException`? Nó cung cấp ngữ cảnh chi tiết hơn khi debug trong production. Bạn sẽ cảm ơn mình sau này khi truy vết lý do tài liệu không tải được.
 
-#### 3. Define QR Code Size and Positions
+#### 3. Xác định kích thước và vị trí mã QR
 
 Ở đây chúng ta thiết lập các mã QR ở nhiều vị trí. Ví dụ này tạo mã QR ở mọi kết hợp căn chỉnh (trên‑trái, trên‑giữa, trên‑phải, …):
 
@@ -199,7 +199,7 @@ options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
 
-#### 4. Sign the Document
+#### 4. Ký vào tài liệu
 
 Bây giờ chúng ta áp dụng tất cả các chữ ký đã cấu hình trong một thao tác:
 
@@ -211,11 +211,11 @@ Phương thức `sign()` xử lý toàn bộ các mã QR trong danh sách và l�
 
 **Lưu ý hiệu suất:** Việc ký diễn ra đồng bộ. Đối với các kịch bản khối lượng lớn (hàng trăm tài liệu mỗi giờ), hãy cân nhắc thực hiện trong một hàng đợi công việc nền thay vì trong yêu cầu người dùng.
 
-## Common Pitfalls and Solutions
+## Các Lỗi Thường Gặp và Giải Pháp
 
 Hãy giải quyết những vấn đề mà các nhà phát triển thường gặp nhất.
 
-### Problem 1: "File Not Found" Errors
+### Vấn đề 1: Lỗi "Không Tìm Thấy Tệp"
 
 **Triệu chứng:** Code của bạn ném ngoại lệ file‑not‑found mặc dù file tồn tại.
 
@@ -230,7 +230,7 @@ String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
 ```
 
-### Problem 2: QR Codes Overlap Document Content
+### Vấn đề 2: Mã QR chồng lấn lên nội dung tài liệu
 
 **Triệu chứng:** Mã QR che mất văn bản quan trọng hoặc bị cắt ở rìa trang.
 
@@ -242,7 +242,7 @@ options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
 
 Đối với tài liệu có bố cục nội dung đa dạng, hãy cân nhắc thêm mã QR vào một vùng trang luôn trống (như khu vực khối chữ ký).
 
-### Problem 3: Memory Issues with Large Documents
+### Vấn đề 3: Sự cố bộ nhớ với tài liệu dung lượng lớn
 
 **Triệu chứng:** `OutOfMemoryError` khi xử lý PDF lớn hơn 10 MB.
 
@@ -256,7 +256,7 @@ try (Signature signature = new Signature(filePath)) {
 
 Câu lệnh try‑with‑resources đảm bảo dọn dẹp đúng cách ngay cả khi có ngoại lệ xảy ra.
 
-### Problem 4: QR Code Content Isn't Updating
+### Vấn đề 4: Nội dung mã QR không được cập nhật
 
 **Triệu chứng:** Tất cả các mã QR đều hiển thị cùng một nội dung, dù bạn đang cố tùy biến chúng.
 
@@ -275,57 +275,57 @@ listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
 ```
 
-## Practical Applications
+## Ứng dụng thực tế
 
-Bây giờ chúng ta sẽ nói về các trường hợp sử dụng thực tế trong doanh nghiệp.
+Bây giờ chúng ta sẽ nói về các lĩnh vực sử dụng thực tế trong doanh nghiệp.
 
-### 1. Contract Management Systems
+### 1. Hệ thống quản lý hợp đồng
 
-Bạn đang xây dựng hệ thống quản lý hợp đồng, nơi các hợp đồng cần chữ ký số có khả năng xác thực. Quy trình:
+Bạn đang xây dựng đồng quản lý hệ thống, nơi hợp nhất các ký hiệu số có khả năng xác thực. Quy trình:
 
-- Tạo PDF hợp đồng từ mẫu  
-- Thêm mã QR chứa: ID hợp đồng, thời gian, hash người ký  
-- Lưu tài liệu vào kho bảo mật  
-- Khi xác thực, người dùng quét mã QR → chuyển hướng tới cổng xác thực → hiển thị chi tiết hợp đồng  
+- Tạo PDF hợp nhất từ ​​mẫu
+- Thêm mã QR chứa: ID hợp lệ, thời gian, ký tự băm
+- Lưu tài liệu vào kho bảo mật
+- Khi xác thực, người dùng quét mã QR → chuyển hướng tới cổng xác thực → hiển thị chi tiết hợp đồng
 
-**Lý do hiệu quả:** Các bộ phận pháp lý có thể xác thực tính xác thực ngay cả từ bản in, và mã QR cung cấp chuỗi kiểm tra.
+**Lý do hiệu quả:** Các bộ phận pháp lý có thể xác thực tính xác thực ngay từ bản in và mã QR cung cấp chuỗi kiểm tra.
 
-### 2. Invoice Processing Automation
+### 2. Tự động hóa xử lý hóa đơn
 
-Hệ thống thanh toán của bạn nhận hàng trăm hoá đơn mỗi ngày. Bạn cần:
+Hệ thống thanh toán của bạn nhận được hàng trăm đơn vị mỗi ngày. Bạn cần:
 
-- Thêm mã QR vào mỗi hoá đơn đã xử lý  
-- Mã QR mã hoá số hoá đơn, ID nhà cung cấp, và thời gian xử lý  
-- Đặt vị trí góc trên‑phải để không ảnh hưởng dữ liệu hoá đơn  
-- Lưu trữ hoá đơn đã ký để tuân thủ  
+- Thêm mã QR vào mỗi quá trình xử lý đơn
+- Mã QR mã hóa số đơn, nhà cung cấp ID và xử lý thời gian
+- Đặt vị trí góc trên ‑ phải để không ảnh hưởng đến dữ liệu hóa đơn
+- Lưu trữ mã hóa đơn để đóng thủ công
 
-**Mẹo triển khai:** Đặt mã QR ở vị trí cố định trên tất cả hoá đơn để các máy quét tự động biết nơi tìm.
+** Mẹ phát triển:** Đặt mã QR ở vị trí cố định trên tất cả các hóa đơn để máy quét tự động biết nơi tìm kiếm.
 
-### 3. Document Certification
+### 3. Chứng thực tài liệu
 
-Bạn phát hành chứng chỉ (hoàn thành đào tạo, tuân thủ, v.v.) cần khả năng xác thực:
+Bạn phát hành chứng chỉ (hoàn thành đào tạo, Mãnh thủ, v.v.) cần khả năng xác thực:
 
-- Tạo PDF chứng chỉ với thông tin người nhận  
-- Thêm mã QR ở giữa phía dưới, chứa ID chứng chỉ và URL xác thực  
-- Người nhận có thể quét để xác thực tính xác thực  
-- Nhà tuyển dụng có thể quét để kiểm tra chứng chỉ ngay lập tức  
+- Tạo chứng chỉ PDF cho người nhận thông tin
+- Thêm mã QR ở giữa bên dưới, chứa chứng chỉ ID và xác thực URL
+- Người nhận có thể quét để xác thực tính xác thực
+- Nhà tuyển dụng có thể quét để kiểm tra chứng chỉ ngay lập tức
 
 **Thêm:** Đặt một URL ngắn dưới mã QR cho những người không thể quét.
 
-### 4. Internal Document Tracking
+### 4. Theo dõi tài liệu nội bộ
 
-Trong các tổ chức lớn với quy trình phê duyệt tài liệu:
+Trong các tổ chức có tài liệu phê duyệt trình duyệt:
 
-- Thêm mã QR ở mỗi giai đoạn phê duyệt  
-- Mã QR chứa: ID người phê duyệt, thời gian phê duyệt, phiên bản tài liệu  
-- Quét để xem toàn bộ lịch sử phê duyệt  
-- Hỗ trợ chuỗi kiểm tra và tuân thủ  
+- Thêm mã QR ở mỗi giai đoạn phê duyệt
+- Mã QR chứa: ID người duyệt, trình duyệt thời gian, phiên bản tài liệu
+- Quét để xem toàn bộ lịch sử phê duyệt
+- Hỗ trợ kiểm tra chuỗi và bổ sung
 
-## Production Best Practices
+## Thực tiễn sản xuất tốt nhất
 
-Chuyển từ prototype sang production? Hãy nhớ những thực tiễn sau.
+Chuyển từ nguyên mẫu sang sản xuất? Hãy ghi nhớ những thực tiễn sau.
 
-### Resource Management
+### Quản lý tài nguyên
 
 Luôn đóng các đối tượng `Signature` để tránh rò rỉ bộ nhớ:
 
@@ -337,7 +337,7 @@ try (Signature signature = new Signature(filePath)) {
 
 Đối với ứng dụng web, cân nhắc triển khai một pool xử lý tài liệu để giới hạn số thao tác đồng thời.
 
-### Error Handling Strategy
+### Chiến lược xử lý lỗi
 
 Đừng chỉ log và bỏ qua—cung cấp thông tin lỗi có thể hành động:
 
@@ -355,119 +355,119 @@ try {
 }
 ```
 
-### Performance Optimization
+### Tối ưu hóa hiệu suất
 
-Đối với kịch bản khối lượng lớn:
+Đối với số lượng lớn script:
 
-1. **Xử lý theo lô** – xử lý nhiều tài liệu đồng thời (nhưng giới hạn độ đồng thời dựa trên bộ nhớ)  
-2. **Caching** – nếu sử dụng cùng một tùy chọn chữ ký nhiều lần, tạo một lần và tái sử dụng  
-3. **Async Operations** – thực hiện ký trong các worker nền cho các ứng dụng có giao diện người dùng  
-4. **Memory Monitoring** – thiết lập cảnh báo khi mức bộ nhớ tăng đột biến  
+1. **Xử lý theo lô** – xử lý nhiều tài liệu đồng thời (nhưng giới hạn thời gian dựa trên bộ nhớ)
+2. **Bộ nhớ đệm** – nếu sử dụng cùng một tùy chọn chữ ký nhiều lần, hãy tạo một lần và tái sử dụng
+3. **Hoạt động không đồng bộ** – thực thi ký tự trong nền công nhân cho các ứng dụng có người dùng giao diện
+4. **Giám sát bộ nhớ** – thiết lập cảnh báo khi tăng cường bộ nhớ
 
-### Security Considerations
+### Cân nhắc về bảo mật
 
-- Lưu trữ tài liệu đã ký riêng biệt với bản gốc  
-- Ghi lại mọi hoạt động ký để phục vụ audit  
-- Áp dụng kiểm soát truy cập cho các thao tác ký  
-- Xem xét mã hoá nội dung mã QR nếu chứa thông tin nhạy cảm  
+- Lưu trữ tài liệu đặc biệt với bản gốc
+- Ghi lại mọi hoạt động ký tự để phục vụ kiểm toán
+- Áp dụng kiểm soát quyền truy cập cho các thao tác ký hiệu
+- Xem xét mã hóa nội dung QR mã hóa nếu chứa thông tin nhạy cảm
 
-## When to Use QR Code Signatures (And When Not To)
+## Khi nào nên sử dụng chữ ký mã QR (và khi nào không)
 
-**Sử dụng chữ ký mã QR khi:**
+**Sử dụng mã QR chữ ký khi:**
 
-- Cần xác thực nhanh trên thiết bị di động  
-- Tài liệu có thể được in ra và quét lại  
-- Muốn nhúng liên kết tới cổng xác thực  
-- Làm việc với tài liệu công khai (chứng chỉ, biên lai)
+- Cần xác thực nhanh chóng trên thiết bị di động
+- Tài liệu có thể được đọc và quét lại
+- Muốn nhúng liên kết tới cổng xác thực
+- Làm việc với tài liệu công khai (chứng chỉ,biên lai)
 
-**Không nên dùng chữ ký mã QR khi:**
+**Không nên sử dụng mã QR chữ khi:**
 
-- Cần chữ ký cryptographic có tính pháp lý (sử dụng chữ ký PKI)  
-- Mã QR có khả năng bị hỏng hoặc che khuất khi in  
-- Hệ thống xác thực chỉ hoạt động offline  
+- Cần chữ ký mã hóa có tính pháp lý (sử dụng PKI chữ ký)
+- Mã QR có khả năng bị hỏng hoặc bị ẩn khi in
+- Hệ thống xác thực chỉ hoạt động ngoại tuyến
 - Kích thước tài liệu là yếu tố quan trọng (mã QR chỉ tăng vài kilobyte)
 
-**Xem xét kết hợp:** Sử dụng đồng thời chữ ký cryptographic **và** mã QR. Bạn sẽ có tính hợp pháp cùng khả năng xác thực nhanh trên điện thoại.
+**Xem xét kết hợp:** Sử dụng đồng thời chữ ký mật mã **và** mã QR. Bạn sẽ có giải pháp hợp lý xác thực nhanh chóng trên điện thoại di động.
 
-## Troubleshooting Guide
+## Hướng dẫn khắc phục sự cố
 
-### Signature Doesn't Appear
+### Chữ ký không xuất hiện
 
-1. Tệp đầu ra có được tạo không? (Kiểm tra hệ thống file)  
-2. Bạn có mở đúng tệp đầu ra không?  
-3. `SignResult` có cho biết thành công không?  
-4. Các giá trị căn chỉnh và lề có đẩy mã QR ra ngoài vùng hiển thị không?
+1. File đầu ra có thể được tạo không? (Kiểm tra file hệ thống)
+2. Bạn có mở tệp đầu ra đúng không?
+3. `SignResult` có biết thành công không?
+4. Căn hộ giá trị và lót có mã QR đưa ra ngoài vùng hiển thị không?
 
-### QR Code Won't Scan
+### Mã QR không quét được
 
-- Giữ kích thước mã QR ≥ 100 × 100 px  
-- Đảm bảo độ tương phản cao với nền  
-- Giới hạn dữ liệu mã hoá < 100 ký tự để quét ổn định  
-- Sử dụng DPI cao hơn khi in bản sao vật lý  
+- Giữ mã QR kích thước ≥100×100px
+- Đảm bảo độ tương thích cao với nền
+- Mã hóa dữ liệu giới hạn <100 ký tự để quét ổn định
+- Sử dụng mức độ cao hơn trong bản sao vật lý
 
-### Performance Degradation
+### Suy giảm hiệu suất
 
-- Giảm số lượng chữ ký trên mỗi tài liệu  
-- Kiểm tra việc tạo lại các đối tượng `Signature` không cần thiết  
-- Profiling bộ nhớ; cân nhắc xử lý tài liệu theo lô nhỏ hơn  
+- Giảm số lượng ký tự trên mỗi tài liệu
+- Kiểm tra việc tạo lại các đối tượng `Signature` không cần thiết
+- Lập hồ sơ bộ nhớ; Xử lý cân bằng tài liệu theo lô nhỏ hơn
 
-## Frequently Asked Questions
+## Câu hỏi thường gặp
 
-**Q:** *Can I sign documents other than PDFs?*  
-**A:** Absolutely. GroupDocs.Signature hỗ trợ Word (DOC/DOCX), Excel (XLS/XLSX), PowerPoint (PPT/PPTX), và các định dạng ảnh (JPG, PNG, TIFF). API hầu như giống nhau cho mọi định dạng.
+**Q:** *Tôi có thể ký các tài liệu không phải là PDF không?*
+**Đ:** Chắc chắn rồi. GroupDocs.Word hỗ trợ chữ ký (DOC/DOCX), Excel (XLS/XLSX), PowerPoint (PPT/PPTX) và các định dạng ảnh (JPG, PNG, TIFF). API hầu như giống nhau cho mọi định dạng.
 
-**Q:** *How do I customize the QR code appearance?*  
-**A:** Sử dụng các thuộc tính của `QrCodeSignOptions` như `setForeColor()`, `setBackgroundColor()`, và `setBorder()`. Giữ tùy chỉnh đơn giản để duy trì khả năng quét.
+**Q:** *Làm cách nào để tùy chỉnh giao diện mã QR?*
+**A:** Sử dụng các thuộc tính của `QrCodeSignOptions` như `setForeColor()`, `setBackgroundColor()`, và `setBorder()`. Giữ các tùy chỉnh đơn giản để duy trì khả năng quét.
 
-**Q:** *Can I add QR codes to specific pages in a multi‑page document?*  
-**A:** Yes! Đặt số trang bằng `options.setPageNumber(pageNumber);`. Ví dụ:
+**Q:** *Tôi có thể thêm mã QR vào các trang cụ thể trong tài liệu nhiều trang không?*
+**Đ:** Vâng! Đặt số trang bằng `options.setPageNumber(pageNumber);`. Ví dụ:
 
-```java
-options.setPageNumber(1); // Add to first page only
+``` java
+tùy chọn.setPageNumber(1); // Chỉ thêm vào trang đầu tiên
 ```
 
-**Q:** *What data can I encode in the QR code?*  
-**A:** Bất cứ gì bạn muốn—văn bản thuần, URL, JSON, XML. Giữ dưới ~200 ký tự để quét ổn định. Đối với payload lớn hơn, mã hoá một URL ngắn trỏ tới dữ liệu đầy đủ.
+**Q:** *Tôi có thể mã hóa dữ liệu nào trong mã QR?*
+**A:** Bất cứ điều gì bạn muốn—văn bản thuần, URL, JSON, XML. Giữ dưới ~200 ký tự để quét ổn định. Đối với tải trọng lớn hơn, mã hóa một URL ngắn thành đầy đủ dữ liệu.
 
-**Q:** *How do I verify QR code signatures programmatically?*  
+**Q:** *Làm cách nào để xác minh chữ ký mã QR theo chương trình?*
 **A:** GroupDocs.Signature cung cấp phương thức `verify`. Ví dụ:
 
-```java
-VerificationResult result = signature.verify(verifyOptions);
-if (result.isValid()) {
-    // Signature is authentic
+``` java
+Kết quả VerificationResult = signature.verify(verifyOptions);
+if (result.isValid()) { 
+// Chữ ký là xác thực
 }
 ```
 
-**Q:** *Can I use this in a multi‑threaded environment?*  
-**A:** Có, nhưng mỗi luồng cần một đối tượng `Signature` riêng—các instance không thread‑safe. Sử dụng hàng đợi xử lý cho các kịch bản đồng thời cao.
+**Q:** *Tôi có thể sử dụng tính năng này trong môi trường đa luồng không?*
+**A:** Có, nhưng mỗi luồng cần có một đối tượng `Signature` riêng—các phiên bản không an toàn cho luồng. Sử dụng bộ xử lý hàng đợi cho đồng thời cao các kịch bản.
 
-**Q:** *What's the file size impact of adding QR codes?*  
-**A:** Rất nhỏ—thường 5‑20 KB cho mỗi mã QR tùy kích thước và nội dung. Đối với hầu hết PDF, đây là mức không đáng kể, nhưng hãy tính đến lưu trữ nếu thêm nhiều mã QR vào các lô lớn.
+**Q:** *Tác động của kích thước tệp khi thêm mã QR là gì?*
+**A:** Rất nhỏ—thường 5‑20KB cho mỗi kích thước và nội dung QR mã hóa. Đối với hầu hết PDF, đây là tính không đáng kể, nhưng hãy tính đến lưu trữ nếu thêm nhiều mã QR vào các lô lớn.
 
-## Next Steps
+## Các bước tiếp theo
 
-Bạn đã có nền tảng vững chắc để triển khai **java generate qr code** trong Java. Các bước tiếp theo:
+Bạn đã có nền tảng vững chắc để phát triển khai báo **java generate qr code** trong Java. Các bước tiếp theo:
 
-1. **Advanced Customization** – khám phá các tùy chọn styling QR code trong [tài liệu GroupDocs](https://docs.groupdocs.com/signature/java/)  
-2. **Verification Systems** – xây dựng cổng web cho phép người dùng xác thực tài liệu bằng cách tải lên hoặc quét mã QR  
-3. **Workflow Integration** – tích hợp tính năng này vào hệ thống quản lý tài liệu hiện có  
-4. **Mobile Apps** – tạo ứng dụng di động để quét và xác thực mã QR  
+1. **Tùy chỉnh nâng cao** – khám phá mã QR tạo kiểu tùy chọn trong [tài liệu GroupDocs](https://docs.groupdocs.com/signature/java/)
+2. **Hệ thống xác minh** – xây dựng cổng web cho phép người dùng xác thực tài liệu bằng cách tải lên hoặc quét mã QR
+3. **Tích hợp quy trình làm việc** – tích hợp tính năng này vào hệ thống quản lý tài liệu hiện có
+4. **Ứng dụng di động** – tạo ứng dụng di động để quét và xác thực mã QR
 
-Chúc bạn coding vui vẻ, và tận hưởng mức độ bảo mật và tiện lợi mà chữ ký mã QR mang lại cho ứng dụng Java của mình!
+Chúc bạn mã hóa vui vẻ và tận dụng khả năng bảo mật và lợi ích mà chữ ký mã QR mang lại cho ứng dụng Java của mình!
 
-## Resources and Support
+## Tài nguyên và hỗ trợ
 
-- **Documentation**: [GroupDocs.Signature Java Docs](https://docs.groupdocs.com/signature/java/)  
-- **API Reference**: [Complete API Reference](https://reference.groupdocs.com/signature/java/)  
-- **Downloads**: [Latest Java Release](https://releases.groupdocs.com/signature/java/)  
-- **Purchase License**: [Buy GroupDocs.Signature](https://purchase.groupdocs.com/buy)  
-- **Free Trial**: [Start Your Free Trial](https://releases.groupdocs.com/signature/java/)  
-- **Temporary License**: [Get Temporary License](https://purchase.groupdocs.com/temporary-license/)  
-- **Community Support**: [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)
+- **Tài liệu**: [GroupDocs.Signature Java Docs](https://docs.groupdocs.com/signature/java/)
+- **Tham khảo API**: [Complete API Reference](https://reference.groupdocs.com/signature/java/)
+- **Tải xuống**: [Latest Java Release](https://releases.groupdocs.com/signature/java/)
+- **Mua giấy phép**: [Buy GroupDocs.Signature](https://purchase.groupdocs.com/buy)
+- **Dùng thử miễn phí**: [Start Your Free Trial](https://releases.groupdocs.com/signature/java/)
+- **Giấy phép tạm thời**: [Get Temporary License](https://purchase.groupdocs.com/temporary-license/)
+- **Hỗ trợ cộng đồng**: [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)
 
 ---
 
-**Last Updated:** 2025-12-31  
-**Tested With:** GroupDocs.Signature 23.12 for Java  
-**Author:** GroupDocs
+**Cập nhật lần cuối:** 31/12/2025
+**Đã thử nghiệm với:** GroupDocs.Signature 23.12 cho Java
+**Tác giả:** GroupDocs

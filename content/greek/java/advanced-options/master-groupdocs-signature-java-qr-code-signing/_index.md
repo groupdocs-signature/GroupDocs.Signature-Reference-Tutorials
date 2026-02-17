@@ -14,7 +14,7 @@ tags:
 - PDF signing
 - digital signatures
 - document security
-title: 'Δημιουργία κώδικα QR με Java: Οδηγός για την υπογραφή κώδικα QR σε Java'
+title: 'Δημιουργία κώδικα QR με Java - Οδηγός για την υπογραφή κώδικα QR σε Java'
 type: docs
 url: /el/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/
 weight: 1
