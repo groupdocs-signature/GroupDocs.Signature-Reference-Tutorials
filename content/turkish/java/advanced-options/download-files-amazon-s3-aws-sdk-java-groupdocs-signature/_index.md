@@ -2,10 +2,10 @@
 categories:
 - Java Development
 - AWS Integration
-date: '2025-12-19'
-description: AWS SDK for Java kullanarak bir Java S3 dosya indirme işlemini nasıl
-  gerçekleştireceğinizi öğrenin. Pratik örnekler, sorun giderme ipuçları ve güvenli
-  ve verimli dosya alımı için en iyi uygulamaları içerir.
+date: '2026-02-24'
+description: AWS SDK for Java kullanarak bir Java S3 dosya indirmesinin nasıl yapılacağını
+  öğrenin. Pratik örnekler, sorun giderme ipuçları ve güvenli ve verimli dosya alımı
+  için en iyi uygulamaları içerir.
 keywords: Java S3 file download tutorial, AWS SDK Java S3 download example, Java download
   files from S3 bucket, S3 file retrieval Java code, Java S3 download best practices
 lastmod: '2025-12-19'
@@ -22,85 +22,83 @@ url: /tr/java/advanced-options/download-files-amazon-s3-aws-sdk-java-groupdocs-s
 weight: 1
 ---
 
-# Java S3 Dosya İndirme Öğreticisi - AWS SDK ile Adım Adım Kılavuz
+ You'll Learn:**
+- How to set up AWS credentials properly (and securely)
+- The exact code to download files from S3 buckets using Java
+...
 
-Hoş geldiniz! Bu öğreticide **java s3 file download** sürecini AWS SDK for Java kullanarak ustalaşacaksınız.  
+Translate.
 
-## Giriş
+I'll produce Turkish translation.
 
-Bulut depolama ile mi çalışıyorsunuz? Muhtemelen Amazon S3 ile ilgileniyorsunuz—ve Java uygulamaları geliştiriyorsanız, S3 kovalarınızdan dosya indirmek için güvenilir bir yola ihtiyacınız olacak. İçerik dağıtım sistemi, yüklenen belgeleri işleme veya sadece veri senkronizasyonu yapıyor olun, bunu doğru yapmak önemlidir.
+Note: Keep bold **What You'll Learn:** as is, but translate text after.
 
-Şöyle ki: S3'ten dosya indirmek zor değildir, ancak sizi zorlayabilecek bazı tuzaklar vardır (bunları ele alacağız). Bu öğretici, AWS SDK for Java kullanarak tüm süreci gerçek, kullanılabilir kodlarla adım adım gösterir. Ayrıca, elektronik imza gerektiren belgelerle çalışıyorsanız GroupDocs.Signature entegrasyonunu da göstereceğiz.
+Let's do.
 
-**Neler Öğreneceksiniz:**
-- AWS kimlik bilgilerini doğru (ve güvenli) şekilde nasıl ayarlayacağınızı
-- Java kullanarak S3 kovalarından dosya indirmek için tam kodu
-- İndirmelerin başarısız olmasına neden olan yaygın hatalar ve bunların nasıl düzeltileceği
-- Performans ve güvenlik için en iyi uygulamalar
-- GroupDocs.Signature ile belge imzalama entegrasyonu
+---
 
-Hadi başlayalım. Önkoşullarla başlayacağız, ardından gerçek uygulamaya geçeceğiz.
+Will produce final answer.# Java S3 Dosya İndirme Öğreticisi - AWS SDK ile Adım Adım Kılavuz
 
-## Hızlı Yanıtlar
-- **İndirme için birincil sınıf nedir?** AWS SDK'dan `AmazonS3` istemcisi
-- **Hangi AWS bölgesi kullanılmalı?** Kovanızın bulunduğu aynı bölge (ör. `Regions.US_EAST_1`)
-- **Kimlik bilgilerini kod içinde sabit olarak yazmam gerekir mi?** Hayır—ortam değişkenleri, kimlik dosyası veya IAM rolleri kullanın
-- **Büyük dosyaları verimli bir şekilde indirebilir miyim?** Evet—daha büyük bir tampon, try‑with‑resources veya Transfer Manager kullanın
-- **GroupDocs.Signature gerekli mi?** İsteğe bağlı, sadece belge imzalama iş akışları için
+Hoş geldiniz! Bu öğreticide AWS SDK for Java kullanarak **java s3 file download** sürecini ustalaşacaksınız.  
 
-## java s3 file download: Neden Önemlidir
+## Introduction
 
-Kodun içine girmeden önce, **java s3 file download**'ın birçok Java‑tabanlı bulut çözümünün temel yapı taşı olduğunu konuşalım. Amazon S3 (Simple Storage Service), ölçeklenebilir, güvenilir ve maliyet‑etkin olduğu için en popüler bulut depolama çözümlerinden biridir. Ancak S3'teki veriler, onları geri alana kadar kullanışlı değildir.
+Bulut depolama ile mi çalışıyorsunuz? Muhtemelen Amazon S3 ile ilgileniyorsunuz—ve Java uygulamaları geliştiriyorsanız, S3 kovalarınızdan dosya indirmek için güvenilir bir yönteme ihtiyacınız var. İçerik dağıtım sistemi kuruyor, yüklenen belgeleri işliyor ya da sadece verileri senkronize ediyor olun, bunu doğru yapmak önemlidir.
 
-S3 dosya indirmelerine ihtiyaç duyacağınız yaygın senaryolar:
-- **Kullanıcı yüklemelerinin işlenmesi** (görseller, PDF'ler, CSV dosyaları)  
-- **Toplu veri işleme** (analiz için veri setlerinin indirilmesi)  
-- **Yedek geri alma** (bulut yedeklerinden dosyaların geri yüklenmesi)  
-- **İçerik dağıtımı** (dosyaların son kullanıcılara sunulması)  
-- **Belge iş akışları** (imzalama, dönüştürme veya arşivleme için dosyaların alınması)
+Şöyle ki: S3'ten dosya indirmek zor değildir, ancak sizi zorlayabilecek bazı tuzaklar vardır (bunları ele alacağız). Bu öğretici, AWS SDK for Java kullanarak tüm süreci adım adım gösterir ve gerçek, kullanılabilir kodlar sunar. Ayrıca, elektronik imza gerektiren belgelerle çalışıyorsanız GroupDocs.Signature entegrasyonunu da göstereceğiz.
 
-AWS SDK for Java bu süreci basitleştirir, ancak kimlik doğrulama, hata durumları ve kaynak yönetimini doğru şekilde ele almanız gerekir. İşte bu kılavuzun kapsamı.
+**What You'll Learn:**
+- AWS kimlik bilgilerini doğru (ve güvenli) bir şekilde nasıl yapılandıracağınızı
+- Java kullanarak S3 kovalarından dosya indirmek için gereken tam kodu
+- İndirmelerin başarısız olmasına neden olan yaygın hataları ve bunların nasıl düzeltileceğini
+- Performans ve güvenlik için en iyi uygulamaları
+- GroupDocs.Signature ile belge imzalama entegrasyonunu
 
-## Neden Java Kullanarak S3'ten İndirilmeli?
+Haydi başlayalım. Ön koşullarla başlayacağız, ardından gerçek uygulamaya geçeceğiz.
 
-Kodun içine girmeden önce, bunu neden yapmanız gerektiğini konuşalım. Amazon S3 (Simple Storage Service), ölçeklenebilir, güvenilir ve maliyet‑etkin olduğu için en popüler bulut depolama çözümlerinden biridir. Ancak S3'teki veriler, onları geri alana kadar kullanışlı değildir.
+## Quick Answers
+- **What is the primary class for downloading?** `AmazonS3` client from the AWS SDK  
+- **Which AWS region should I use?** The same region where your bucket resides (e.g., `Regions.US_EAST_1`)  
+- **Do I need to hard‑code credentials?** No—use environment variables, the credentials file, or IAM roles  
+- **Can I download large files efficiently?** Yes—use a larger buffer, try‑with‑resources, or the Transfer Manager  
+- **Is GroupDocs.Signature required?** Optional, only for document signing workflows  
 
-S3 dosya indirmelerine ihtiyaç duyacağınız yaygın senaryolar:
-- **Kullanıcı yüklemelerinin işlenmesi** (görseller, PDF'ler, CSV dosyaları)
-- **Toplu veri işleme** (analiz için veri setlerinin indirilmesi)
-- **Yedek geri alma** (bulut yedeklerinden dosyaların geri yüklenmesi)
-- **İçerik dağıtımı** (dosyaların son kullanıcılara sunulması)
-- **Belge iş akışları** (imzalama, dönüştürme veya arşivleme için dosyaların alınması)
+## What is java s3 file download and why it matters?
 
-AWS SDK for Java bu süreci basitleştirir, ancak kimlik doğrulama, hata durumları ve kaynak yönetimini doğru şekilde ele almanız gerekir. İşte bu kılavuzun kapsamı.
+A **java s3 file download** is simply the act of retrieving an object stored in Amazon S3 from a Java application. This operation is a cornerstone of many cloud‑native solutions because it lets you move data from a durable, scalable storage service into your processing pipeline, user interface, or backup system.
 
-## Önkoşullar
+Common scenarios where you’ll need S3 file downloads:
+- **Processing user uploads** (images, PDFs, CSV files)  
+- **Batch data processing** (downloading datasets for analysis)  
+- **Backup retrieval** (restoring files from cloud backups)  
+- **Content delivery** (serving files to end users)  
+- **Document workflows** (fetching files for signing, conversion, or archival)
 
-Kodlamaya başlamadan önce, aşağıdaki temel gereksinimlerin karşılandığından emin olun:
+## Prerequisites
 
-### İhtiyacınız Olanlar
+Before you start coding, make sure you've got these basics covered:
 
-1. **S3 Erişimi Olan AWS Hesabı**
-   - Aktif bir AWS hesabı
-   - Oluşturulmuş bir S3 bucket (test için boş bir bucket bile yeterli)
-   - S3 okuma izinlerine sahip IAM kimlik bilgileri
+### What You'll Need
 
-2. **Java Geliştirme Ortamı**
-   - Java 8 veya üzeri yüklü
-   - Bağımlılık yönetimi için Maven veya Gradle
-   - Sevdiğiniz IDE (IntelliJ IDEA, Eclipse veya VS Code harika çalışır)
+1. **AWS Account with S3 Access**
+   - An active AWS account
+   - An S3 bucket created (even an empty one works for testing)
+   - IAM credentials with S3 read permissions
 
-3. **Temel Java Bilgisi**
-   - Sınıflar, metodlar ve istisna yönetimi konusunda rahat
-   - Maven/Gradle projeleriyle aşina olmak yardımcı olur
+2. **Java Development Environment**
+   - Java 8 or higher installed
+   - Maven or Gradle for dependency management
+   - Your favorite IDE (IntelliJ IDEA, Eclipse, or VS Code work great)
 
-### Gerekli Kütüphaneler ve Bağımlılıklar
+3. **Basic Java Knowledge**
+   - Comfortable with classes, methods, and exception handling
+   - Familiarity with Maven/Gradle projects helps
 
-Bu öğretici için iki ana kütüphane gerekecek:
+### Required Libraries and Dependencies
 
 #### AWS SDK for Java
 
-Java'dan AWS hizmetleriyle etkileşim kurmak için resmi kütüphane.
+This is the official library for interacting with AWS services from Java.
 
 **Maven:**
 ```xml
@@ -116,11 +114,11 @@ Java'dan AWS hizmetleriyle etkileşim kurmak için resmi kütüphane.
 implementation 'com.amazonaws:aws-java-sdk-s3:1.12.118'
 ```
 
-**Not:** Versiyon 1.12.118 kararlı ve yaygın olarak kullanılıyor, ancak en yeni sürüm için [AWS SDK releases](https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3) adresine bakın.
+**Note:** Version 1.12.118 is stable and widely used, but check the [AWS SDK releases](https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3) for the latest version.
 
-#### GroupDocs.Signature for Java (Opsiyonel)
+#### GroupDocs.Signature for Java (Optional)
 
-Elektronik imza gerektiren belgelerle çalışıyorsanız GroupDocs.Signature güçlü imzalama yetenekleri ekler.
+If you're working with documents that need electronic signatures, GroupDocs.Signature adds powerful signing capabilities.
 
 **Maven:**
 ```xml
@@ -136,17 +134,17 @@ Elektronik imza gerektiren belgelerle çalışıyorsanız GroupDocs.Signature g�
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Doğrudan İndirme:** [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/)
+**Direct Download:** [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/)
 
-### GroupDocs.Signature Lisans Alımı
+### License Acquisition for GroupDocs.Signature
 
-- **Ücretsiz Deneme:** Özelliklerin tümünü ücretsiz olarak test edin
-- **Geçici Lisans:** Genişletilmiş geliştirme ve test için geçici lisans alın
-- **Tam Lisans:** Üretim kullanımı için satın alın
+- **Free Trial:** Test all features for free before committing
+- **Temporary License:** Get a temporary license for extended development and testing
+- **Full License:** Purchase for production use
 
-### Temel GroupDocs.Signature Kurulumu
+### Basic GroupDocs.Signature Setup
 
-Bağımlılığı ekledikten sonra işte hızlı bir başlatma örneği:
+Once you've added the dependency, here's a quick initialization example:
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -160,34 +158,34 @@ public class SignatureSetup {
 }
 ```
 
-Bu öğretici S3 indirmelerine odaklanıyor, ancak belge iş akışları için bu parçaların nasıl bir araya geldiğini de göstereceğiz.
+This tutorial focuses on S3 downloads, but we'll show you how these pieces fit together for document workflows.
 
-## AWS Kimlik Bilgilerini Ayarlama
+## Setting Up AWS Credentials
 
-Yeni başlayanların sıkça takıldığı yer burası. Java kodunuz AWS ile iletişim kurmadan önce kimlik doğrulaması yapmanız gerekir. AWS, kimliğinizi doğrulamak için erişim anahtarları (bir anahtar kimliği ve bir gizli anahtar) kullanır.
+Here's where beginners often get stuck. Before your Java code can talk to AWS, you need to authenticate. AWS uses access keys (a key ID and a secret key) to verify your identity.
 
-### AWS Kimlik Bilgilerini Anlamak
+### Understanding AWS Credentials
 
-AWS kimlik bilgilerini bir kullanıcı adı ve şifre gibi düşünün:
-- **Access Key ID:** Genel tanımlayıcınız (kullanıcı adı gibi)
-- **Secret Access Key:** Gizli anahtarınız (şifre gibi)
+Think of AWS credentials like a username and password:
+- **Access Key ID:** Your public identifier (like a username)
+- **Secret Access Key:** Your private key (like a password)
 
-**Kritik Güvenlik Notu:** Kimlik bilgilerini kaynak kodunuza asla sabitlemeyin ve sürüm kontrolüne göndermeyin. Aşağıda güvenli alternatifleri göstereceğiz.
+**Critical Security Note:** Never hardcode credentials in your source code or commit them to version control. We'll show you safe alternatives below.
 
-### Seçenek 1: Ortam Değişkenleri (Önerilen)
+### Option 1: Environment Variables (Recommended)
 
-En güvenli yöntem, kimlik bilgilerini ortam değişkenlerinde saklamaktır:
+The safest approach is storing credentials in environment variables:
 
 ```bash
 export AWS_ACCESS_KEY_ID=your_access_key_id
 export AWS_SECRET_ACCESS_KEY=your_secret_access_key
 ```
 
-AWS SDK bu değişkenleri otomatik olarak algılar—kodda değişiklik yapmanıza gerek yok.
+The AWS SDK automatically picks these up—no code changes needed.
 
-### Seçenek 2: AWS Kimlik Dosyası (İyi Bir Seçenek)
+### Option 2: AWS Credentials File (Also Good)
 
-`~/.aws/credentials` dosyasını (Mac/Linux) ya da `C:\Users\USERNAME\.aws\credentials` dosyasını (Windows) oluşturun:
+Create a file at `~/.aws/credentials` (on Mac/Linux) or `C:\Users\USERNAME\.aws\credentials` (on Windows):
 
 ```
 [default]
@@ -195,27 +193,27 @@ aws_access_key_id = your_access_key_id
 aws_secret_access_key = your_secret_access_key
 ```
 
-SDK yine otomatik olarak bu dosyayı okur.
+Again, the SDK reads this automatically.
 
-### Seçenek 3: Programatik Kurulum (Bu Öğreticide)
+### Option 3: Programmatic Setup (For This Tutorial)
 
-Demonstrasyon amaçlı kimlik bilgilerini kod içinde göstereceğiz, ancak unutmayın: **bu sadece öğrenme amaçlıdır**. Üretimde ortam değişkenleri veya IAM rolleri kullanın.
+For demonstration purposes, we'll show credentials in code, but remember: **this is only for learning**. In production, use environment variables or IAM roles.
 
-## Uygulama Kılavuzu: Amazon S3'ten Dosya İndirme
+## Implementation Guide: Download Files from Amazon S3
 
-Tam koda geçelim. Her adımı adım adım inşa edeceğiz, böylece her parçanın ne yaptığını anlayacaksınız.
+Alright, let's get to the actual code. We'll build this step‑by‑step so you understand what each part does.
 
-### Sürecin Genel Görünümü
+### Overview of the Process
 
-S3'ten dosya indirdiğinizde şu adımlar gerçekleşir:
-1. **Kimlik doğrulama** AWS kimlik bilgileriyle  
-2. **S3 istemcisi oluşturma** AWS ile iletişimi yöneten  
-3. **Dosyayı talep etme** bucket adı ve dosya anahtarını belirterek  
-4. **Dosyayı işleme** (yerel olarak kaydetme, içeriğini okuma, ihtiyacınız neyse)
+Here's what happens when you download a file from S3:
+1. **Authenticate** with AWS using your credentials  
+2. **Create an S3 client** that handles communication with AWS  
+3. **Request the file** by specifying the bucket name and file key  
+4. **Process the file** (save it locally, read its contents, whatever you need)
 
-### aws sdk java download – Adım 1: AWS Kimlik Bilgilerini Tanımlama ve S3 İstemcisi Oluşturma
+### aws sdk java download – Step 1: Define AWS Credentials and Create S3 Client
 
-Kimlik doğrulamayı ayarlayıp bir S3 istemcisi oluşturalım:
+Let's start by setting up authentication and creating an S3 client:
 
 ```java
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
@@ -243,17 +241,17 @@ public class S3FileDownloader {
 }
 ```
 
-**Burada Ne Oluyor:**
-- `BasicAWSCredentials`: Erişim anahtarınızı ve gizli anahtarınızı saklar  
-- `AmazonS3ClientBuilder`: Bölgeniz ve kimlik bilgilerinizle yapılandırılmış bir S3 istemcisi oluşturur  
-- `.withRegion()`: Bucketınızın bulunduğu AWS bölgesini belirtir (performans ve maliyet açısından önemli)  
-- `.build()`: Gerçek istemci nesnesini oluşturur  
+**What's Happening Here:**
+- `BasicAWSCredentials`: Stores your access key and secret key  
+- `AmazonS3ClientBuilder`: Creates an S3 client configured for your region and credentials  
+- `.withRegion()`: Specifies which AWS region your bucket is in (important for performance and cost)  
+- `.build()`: Actually creates the client object  
 
-**Bölge Notu:** Bucketınızın bulunduğu bölgeyi kullanın. Yaygın seçenekler `Regions.US_EAST_1`, `Regions.US_WEST_2`, `Regions.EU_WEST_1` vb.
+**Region Note:** Use the region where your S3 bucket lives. Common options include `Regions.US_EAST_1`, `Regions.US_WEST_2`, `Regions.EU_WEST_1`, etc.
 
-### java s3 transfer manager – Adım 2: Dosyayı İndirme
+### java s3 transfer manager – Step 2: Download the File
 
-Kimlik doğrulamalı bir S3 istemcimiz olduğuna göre bir dosya indirelim:
+Now that we have an authenticated S3 client, let's download a file:
 
 ```java
 import com.amazonaws.services.s3.model.S3Object;
@@ -297,16 +295,16 @@ public class S3FileDownloader {
 }
 ```
 
-**İndirme Sürecinin Açıklaması:**
+**Breaking Down the Download Process:**
 
-1. **`s3Client.getObject(bucketName, fileKey)`**: S3'ten dosyayı talep eder. `S3Object` döndürür; içinde meta veri ve dosya içeriği bulunur.  
-2. **`s3Object.getObjectContent()`**: Dosyanın verisini okuyacak bir giriş akışı (input stream) alır. Bunu S3'teki dosyaya bir boru açmak gibi düşünün.  
-3. **Okuma ve Yazma**: Giriş akışından 1024 baytlık parçalar okuyup yerel bir dosyaya yazarız. Bu, büyük dosyalar için bellek‑verimli bir yaklaşımdır.  
-4. **Kaynak Temizliği**: Bellek sızıntılarını önlemek için akışları her zaman kapatın.
+1. **`s3Client.getObject(bucketName, fileKey)`**: Requests the file from S3. Returns an `S3Object` containing metadata and the file's content.  
+2. **`s3Object.getObjectContent()`**: Gets an input stream to read the file's data. Think of this as opening a pipe to the file in S3.  
+3. **Reading and Writing**: We read chunks of data (1024 bytes at a time) from the input stream and write them to a local file. This is memory‑efficient for large files.  
+4. **Resource Cleanup**: Always close your streams to avoid memory leaks.
 
-### java s3 multipart download – Daha İyi Hata Yönetimiyle Geliştirilmiş Versiyon
+### java s3 multipart download – Enhanced Version with Better Error Handling
 
-Akışları otomatik kapatan try‑with‑resources kullanan daha sağlam bir sürüm:
+Here's a more robust version using try‑with‑resources (which automatically closes streams):
 
 ```java
 import com.amazonaws.services.s3.model.S3Object;
@@ -343,21 +341,21 @@ public class S3FileDownloader {
 }
 ```
 
-**Bu Versiyonun Avantajları:**
-- **Try‑with‑resources**: Hata oluşsa bile akışları otomatik kapatır  
-- **Daha büyük tampon**: 4096 bayt, çoğu dosya için 1024'ten daha verimlidir  
-- **Daha iyi hata yönetimi**: AWS hataları ile yerel dosya hatalarını ayırır  
-- **Yeniden kullanılabilir metod**: Uygulamanızın herhangi bir yerinden kolayca çağırılabilir  
+**Why This Version Is Better:**
+- **Try‑with‑resources**: Automatically closes streams even if an error occurs  
+- **Larger buffer**: 4096 bytes is more efficient than 1024 for most files  
+- **Better error handling**: Distinguishes between AWS errors and local file errors  
+- **Reusable method**: Easy to call from anywhere in your application  
 
-## Yaygın Tuzaklar ve Nasıl Önlenir
+## Common Pitfalls and How to Avoid Them
 
-Deneyimli geliştiriciler bile bu sorunlarla karşılaşabilir. En yaygın hatalardan kaçınmanın yolları:
+Even experienced developers run into these issues. Here's how to avoid the most common mistakes:
 
-### 1. Yanlış Bucket Bölgesi
+### 1. Wrong Bucket Region
 
-**Sorun:** Kod zaman aşımına uğrar veya anlamsız hatalar verir.  
-**Neden:** Kodda belirtilen bölge, bucketın gerçek bölgesiyle eşleşmiyor.  
-**Çözüm:** AWS Konsolunda bucketınızın bölgesini kontrol edin ve aynı `Regions` sabitini kullanın:
+**Problem:** Your code times out or fails with cryptic errors.  
+**Cause:** The region in your code doesn't match your bucket's actual region.  
+**Solution:** Check your bucket's region in the AWS Console and use the matching `Regions` constant:
 
 ```java
 // Don't just default to US_EAST_1
@@ -367,11 +365,11 @@ Deneyimli geliştiriciler bile bu sorunlarla karşılaşabilir. En yaygın hatal
 .withRegion(Regions.EU_WEST_1)  // ✅ Correct for EU buckets
 ```
 
-### 2. Yetersiz IAM İzinleri
+### 2. Insufficient IAM Permissions
 
-**Sorun:** Kimlik bilgileriniz doğru olsa bile `AccessDenied` hataları alırsınız.  
-**Neden:** IAM kullanıcı/rolünüzün S3'tan okuma izni yok.  
-**Çözüm:** IAM politikanızın `s3:GetObject` iznini içerdiğinden emin olun:
+**Problem:** `AccessDenied` errors even though your credentials are correct.  
+**Cause:** Your IAM user/role doesn't have permission to read from S3.  
+**Solution:** Ensure your IAM policy includes `s3:GetObject` permission:
 
 ```json
 {
@@ -387,46 +385,46 @@ Deneyimli geliştiriciler bile bu sorunlarla karşılaşabilir. En yaygın hatal
 }
 ```
 
-### 3. Yanlış Dosya Anahtarı
+### 3. Incorrect File Key
 
-**Sorun:** İndirme sırasında `NoSuchKey` hatası alırsınız.  
-**Neden:** Dosya anahtarı (yol) bucket içinde mevcut değil.  
-**Çözüm:**  
-- Dosya anahtarları büyük/küçük harfe duyarlıdır  
-- Tam yolu ekleyin: `folder/subfolder/file.pdf`, sadece `file.pdf` değil  
-- Başta eğik çizgi olmamalı: `docs/report.pdf`, `/docs/report.pdf` değil
+**Problem:** `NoSuchKey` error when downloading.  
+**Cause:** The file key (path) doesn't exist in your bucket.  
+**Solution:**  
+- File keys are case‑sensitive  
+- Include the full path: `folder/subfolder/file.pdf`, not just `file.pdf`  
+- No leading slash: use `docs/report.pdf`, not `/docs/report.pdf`
 
-### 4. Akışların Kapatılmaması
+### 4. Not Closing Streams
 
-**Sorun:** Bellek sızıntıları veya “çok fazla açık dosya” hataları zamanla ortaya çıkar.  
-**Neden:** Giriş/çıkış akışlarını kapatmayı unutmak.  
-**Çözüm:** Yukarıdaki geliştirilmiş örnekte gösterildiği gibi her zaman try‑with‑resources kullanın.
+**Problem:** Memory leaks or “too many open files” errors over time.  
+**Cause:** Forgetting to close input/output streams.  
+**Solution:** Always use try‑with‑resources (shown in the enhanced example above).
 
-### 5. Kod İçinde Sabitlenmiş Kimlik Bilgileri
+### 5. Hardcoded Credentials in Code
 
-**Sorun:** Güvenlik açıkları, kimlik bilgilerinin sürüm kontrolüne gitmesi.  
-**Neden:** Erişim anahtarlarını doğrudan kaynak koda yazmak.  
-**Çözüm:** Ortam değişkenleri, AWS kimlik dosyası veya IAM rolleri kullanın.
+**Problem:** Security vulnerabilities, credentials in version control.  
+**Cause:** Putting access keys directly in source code.  
+**Solution:** Use environment variables, AWS credentials file, or IAM roles.
 
-## Güvenlik En İyi Uygulamaları
+## Security Best Practices
 
-AWS ile çalışırken güvenlik isteğe bağlı değildir. Kimlik bilgileriniz ve verilerinizin güvende kalması için:
+Security isn't optional when working with AWS. Here’s how to keep your credentials and data safe:
 
-### Kimlik Bilgilerini Asla Sabitlemeyin
+### Never Hardcode Credentials
 
-Daha önce de söyledik, **kimlik anahtarlarını doğrudan kodunuza koymayın**. Bunun yerine şu yaklaşımları kullanın:
+We've said it before, but it bears repeating: **never put access keys directly in your code**. Use one of these approaches instead:
 
-**Ortam Değişkenleri:**
+**Environment Variables:**
 ```java
 String accessKey = System.getenv("AWS_ACCESS_KEY_ID");
 String secretKey = System.getenv("AWS_SECRET_ACCESS_KEY");
 ```
 
-**AWS Kimlik Dosyası:**  
-SDK otomatik olarak `~/.aws/credentials` dosyasını okur—kodda bir şey yapmanıza gerek yok.
+**AWS Credentials File:**  
+The SDK automatically reads `~/.aws/credentials`—no code needed.
 
-**IAM Rolleri (EC2/ECS için En İyi):**  
-Java uygulamanız AWS altyapısında çalışıyorsa, erişim anahtarları yerine IAM rolleri kullanın.
+**IAM Roles (Best for EC2/ECS):**  
+If your Java application runs on AWS infrastructure, use IAM roles instead of access keys.
 
 ```java
 // No credentials needed with IAM roles!
@@ -435,39 +433,39 @@ AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
         .build();  // SDK uses IAM role automatically
 ```
 
-### Mümkünse IAM Rolleri Kullanın
+### Use IAM Roles When Possible
 
-Java uygulamanız şu ortamlarda çalışıyorsa:
-- EC2 instance'ları  
-- ECS konteynerleri  
-- Lambda fonksiyonları  
+If your Java application runs on:
+- EC2 instances  
+- ECS containers  
+- Lambda functions  
 - Elastic Beanstalk  
 
-...IAM rolleri kullanın. AWS SDK otomatik olarak rolün geçici kimlik bilgilerini alır.
+...then use IAM roles. The AWS SDK automatically uses the role's temporary credentials.
 
-### En Az Ayrıcalık Prensibi
+### Principle of Least Privilege
 
-Uygulamanızın gerçekten ihtiyaç duyduğu izinleri sadece verin:
+Only grant the permissions your application actually needs:
 
-- Dosya okuma ihtiyacı? → `s3:GetObject`  
-- Dosya listeleme ihtiyacı? → `s3:ListBucket`  
-- Silme ihtiyacı yoksa? → `s3:DeleteObject` izni vermeyin
+- Need to read files? → `s3:GetObject`  
+- Need to list files? → `s3:ListBucket`  
+- Don't need to delete? → Don't grant `s3:DeleteObject`
 
-### S3 Şifrelemeyi Etkinleştirin
+### Enable S3 Encryption
 
-Hassas veriler için S3 şifrelemeyi düşünün:
-- Sunucu‑tarafı şifreleme (SSE‑S3 veya SSE‑KMS)  
-- Yüklemeden önce istemci‑tarafı şifreleme  
+Consider using S3 encryption for sensitive data:
+- Server‑side encryption (SSE‑S3 or SSE‑KMS)  
+- Client‑side encryption before upload  
 
-AWS SDK, indirme sırasında şifreli nesneleri şeffaf bir şekilde işler.
+The AWS SDK handles encrypted objects transparently when downloading.
 
-## Pratik Uygulamalar ve Kullanım Senaryoları
+## Practical Applications and Use Cases
 
-Dosya indirmeyi öğrendiğinize göre, bu yeteneğin gerçek projelerde nasıl kullanılacağını görelim:
+Now that you know how to download files, let’s see where this fits in real projects:
 
-### 1. Otomatik Yedek Geri Alma
+### 1. Automated Backup Retrieval
 
-Gece veritabanı yedeklerini yerel olarak işlemek için indirin:
+Download nightly database backups for local processing:
 
 ```java
 public class BackupRetrieval {
@@ -479,9 +477,9 @@ public class BackupRetrieval {
 }
 ```
 
-### 2. İçerik Yönetim Sistemi
+### 2. Content Management System
 
-Kullanıcıların yüklediği dosyaları (görseller, videolar, belgeler) sunun:
+Serve user‑uploaded files (images, videos, documents):
 
 ```java
 public class CMSFileRetrieval {
@@ -494,9 +492,9 @@ public class CMSFileRetrieval {
 }
 ```
 
-### 3. Belge İşleme Boru Hattı
+### 3. Document Processing Pipeline
 
-İmzalama, dönüştürme veya analiz için belgeleri indirin:
+Download documents for signing, conversion, or analysis:
 
 ```java
 public class DocumentProcessor {
@@ -512,9 +510,9 @@ public class DocumentProcessor {
 }
 ```
 
-### 4. Toplu Veri İşleme
+### 4. Batch Data Processing
 
-Analiz için büyük veri setlerini indirin:
+Download large datasets for analytics:
 
 ```java
 public class DataProcessor {
@@ -532,22 +530,22 @@ public class DataProcessor {
 }
 ```
 
-## Performans Optimizasyon İpuçları
+## Performance Optimization Tips
 
-Daha hızlı indirmeler mi istiyorsunuz? İşte bazı optimizasyonlar:
+Want faster downloads? Here’s how to optimize:
 
-### 1. Uygun Tampon Boyutları Kullanın
+### 1. Use Appropriate Buffer Sizes
 
-Daha büyük tamponlar = daha az I/O işlemi = daha hızlı indirme:
+Larger buffers = fewer I/O operations = faster downloads:
 
 ```java
 byte[] buffer = new byte[8192];  // Good for most files
 byte[] largeBuffer = new byte[16384];  // Better for large files
 ```
 
-### 2. Birden Çok Dosya İçin Paralel İndirme
+### 2. Parallel Downloads for Multiple Files
 
-İş parçacıkları (thread) kullanarak birden çok dosyayı aynı anda indirin:
+Download multiple files simultaneously using threads:
 
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(10);
@@ -560,9 +558,9 @@ executor.shutdown();
 executor.awaitTermination(1, TimeUnit.HOURS);
 ```
 
-### 3. Büyük Dosyalar İçin Transfer Manager Kullanın
+### 3. Use Transfer Manager for Large Files
 
-100 MB üzerindeki dosyalar için AWS Transfer Manager kullanın:
+For files over 100 MB, use AWS Transfer Manager:
 
 ```java
 TransferManager transferManager = TransferManagerBuilder.standard()
@@ -573,11 +571,11 @@ Download download = transferManager.download(bucketName, fileKey, new File(local
 download.waitForCompletion();
 ```
 
-Transfer Manager otomatik olarak çok parçalı indirme ve yeniden denemeleri yönetir.
+Transfer Manager automatically uses multipart downloads and retries.
 
-### 4. Bağlantı Havuzlamayı Etkinleştirin
+### 4. Enable Connection Pooling
 
-Daha iyi performans için HTTP bağlantılarını yeniden kullanın:
+Reuse HTTP connections for better performance:
 
 ```java
 ClientConfiguration clientConfig = new ClientConfiguration();
@@ -588,15 +586,15 @@ AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
         .build();
 ```
 
-### 5. Doğru Bölgeyi Seçin
+### 5. Choose the Right Region
 
-Uygulamanıza en yakın bölgeden indirme yaparak gecikme ve veri aktarım maliyetlerini azaltın.
+Download from the region closest to your application to reduce latency and data‑transfer costs.
 
-## GroupDocs.Signature Entegrasyonu
+## Integrating with GroupDocs.Signature
 
-Elektronik imza gerektiren belgelerle çalışıyorsanız, GroupDocs.Signature S3 indirmeleriyle sorunsuz bir şekilde bütünleşir:
+If you're working with documents that need electronic signatures, GroupDocs.Signature integrates seamlessly with S3 downloads:
 
-### Tam İş Akışı Örneği
+### Complete Workflow Example
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -622,71 +620,71 @@ public class S3DocumentSigning {
 }
 ```
 
-Bu desen şu senaryolar için harikadır:
-- Sözleşme imzalama iş akışları  
-- Belge onay sistemleri  
-- Uyumluluk ve denetim izleri  
+This pattern works great for:
+- Contract signing workflows  
+- Document approval systems  
+- Compliance and audit trails  
 
-## Yaygın Sorunların Çözümü
+## Troubleshooting Common Issues
 
-### Sorun: "Kimlik Bilgileri Bulunamadı"
+### Issue: "Unable to find credentials"
 
-**Belirtiler:** Kimlik bilgileri eksik olduğuna dair `AmazonClientException`.  
+**Symptoms:** `AmazonClientException` about missing credentials.  
 
-**Çözümler:**  
-1. Ortam değişkenlerinin doğru ayarlandığını doğrulayın.  
-2. `~/.aws/credentials` dosyasının var olduğundan ve doğru biçimde olduğundan emin olun.  
-3. EC2/ECS üzerinde çalışıyorsanız IAM rolünün eklendiğini kontrol edin.
+**Fixes:**  
+1. Verify environment variables are set correctly.  
+2. Check `~/.aws/credentials` file exists and is formatted properly.  
+3. Ensure IAM role is attached (if running on EC2/ECS).
 
-### Sorun: İndirme Durguyor veya Zaman Aşımına Uğruyor
+### Issue: Download hangs or times out
 
-**Belirtiler:** `getObject()` çağrısında kod takılıyor.  
+**Symptoms:** Code freezes when calling `getObject()`.  
 
-**Çözümler:**  
-1. Bucket bölgesinin istemci yapılandırmanızla eşleştiğini doğrulayın.  
-2. AWS'ye ağ bağlantısını kontrol edin.  
-3. Soket zaman aşımını artırın:  
+**Fixes:**  
+1. Verify bucket region matches your client configuration.  
+2. Check network connectivity to AWS.  
+3. Increase socket timeout:  
 
 ```java
 ClientConfiguration config = new ClientConfiguration();
 config.setSocketTimeout(300000);  // 5 minutes
 ```
 
-### Sorun: "Access Denied" Hataları
+### Issue: "Access Denied" errors
 
-**Belirtiler:** "AccessDenied" hata kodlu `AmazonServiceException`.  
+**Symptoms:** `AmazonServiceException` with "AccessDenied" error code.  
 
-**Çözümler:**  
-1. IAM izinlerinin `s3:GetObject` içerdiğini doğrulayın.  
-2. Bucket politikasının erişime izin verdiğini kontrol edin.  
-3. Dosya anahtarının doğru (büyük/küçük harfe duyarlı) olduğundan emin olun.
+**Fixes:**  
+1. Verify IAM permissions include `s3:GetObject`.  
+2. Check bucket policy allows access.  
+3. Ensure file key is correct (case‑sensitive).
 
-### Sorun: Bellek Yetmezliği Hataları
+### Issue: Out of memory errors
 
-**Belirtiler:** Büyük dosyalar indirilirken `OutOfMemoryError`.  
+**Symptoms:** `OutOfMemoryError` when downloading large files.  
 
-**Çözümler:**  
-1. Tüm dosyayı belleğe yüklemek yerine akış (stream) kullanın (yukarıdaki gibi).  
-2. JVM yığın boyutunu artırın: `-Xmx2g`.  
-3. 100 MB üzerindeki dosyalar için Transfer Manager kullanın.
+**Fixes:**  
+1. Don’t load entire file into memory—use streaming (as shown).  
+2. Increase JVM heap size: `-Xmx2g`.  
+3. Use Transfer Manager for files over 100 MB.
 
-## Performans ve Kaynak Yönetimi
+## Performance and Resource Management
 
-### Bellek Kullanım Kılavuzları
+### Memory Usage Guidelines
 
-- **Küçük dosyalar (<10 MB):** Standart yaklaşım yeterlidir.  
-- **Orta dosyalar (10‑100 MB):** 8 KB+ tamponlu tamponlu akışlar kullanın.  
-- **Büyük dosyalar (>100 MB):** Transfer Manager veya 16 KB+ tampon kullanın.
+- **Small files (<10 MB):** Standard approach works fine.  
+- **Medium files (10‑100 MB):** Use buffered streams with 8 KB+ buffers.  
+- **Large files (>100 MB):** Use Transfer Manager or increase buffer to 16 KB+.
 
-### En İyi Uygulamalar
+### Best Practices
 
-1. **Her zaman akışları kapatın** (try‑with‑resources kullanın).  
-2. **S3 istemcilerini yeniden kullanın** (thread‑safe ve oluşturulması maliyetli).  
-3. **Kullanım durumunuza uygun zaman aşımı ayarlayın**.  
-4. **CloudWatch metriklerini izleyerek darboğazları tespit edin**.  
-5. **Yüksek geçişli uygulamalar için bağlantı havuzlamayı kullanın**.
+1. **Always close streams** (use try‑with‑resources).  
+2. **Reuse S3 clients** (they’re thread‑safe and expensive to create).  
+3. **Set appropriate timeouts** for your use case.  
+4. **Monitor CloudWatch metrics** to identify bottlenecks.  
+5. **Use connection pooling** for high‑throughput applications.
 
-### Kaynak Temizliği
+### Resource Cleanup
 
 ```java
 // Good: Automatic cleanup
@@ -706,58 +704,31 @@ try {
 }
 ```
 
-## Sonuç
+## Frequently Asked Questions
 
-Artık Java kullanarak Amazon S3'ten dosya indirmek için ihtiyacınız olan her şeye sahipsiniz. Temel konuları (kimlik doğrulama, istemci kurulumu, dosya indirme), yaygın tuzakları (yanlış bölge, izin sorunları) ve ileri konuları (performans optimizasyonu, güvenlik en iyi uygulamaları) kapsadık.
+**Q: What is BasicAWSCredentials used for?**  
+A: `BasicAWSCredentials` stores your AWS access key ID and secret access key. It authenticates your application with AWS services, but for production you should prefer environment variables, credential files, or IAM roles.
 
-**Temel Çıkarımlar**
-- Kimlik yönetimini doğru (ortam değişkenleri, IAM rolleri) yapın  
-- S3 istemcinizin bölgesini bucket bölgesiyle eşleştirin  
-- Akışları otomatik temizlemek için try‑with‑resources kullanın  
-- Büyük dosyalar için tampon boyutlarını optimize edin ve Transfer Manager düşünün  
-- Uygulamanızın gerçekten ihtiyaç duyduğu izinleri verin  
+**Q: How do I handle exceptions when downloading files from S3?**  
+A: Wrap the download logic in try‑catch blocks for `AmazonServiceException` (AWS‑related errors) and `IOException` (local file errors). Using try‑with‑resources ensures streams are closed even when an exception occurs.
 
-**Sonraki Adımlar**
-- Kod parçacıklarını kendi projenize uygulayın  
-- Belge imzalama iş akışları için GroupDocs.Signature'ı keşfedin  
-- Çok parçalı indirmeler için AWS Transfer Manager'ı inceleyin  
-- Performansı CloudWatch ile izleyin ve tampon/bağlantı ayarlarını gerektiği gibi ayarlayın  
+**Q: Can I use this approach with other cloud storage providers?**  
+A: The AWS SDK is specific to Amazon Web Services. For providers like Google Cloud Storage or Azure Blob Storage you’ll need their respective SDKs, but the overall pattern—authenticate, create a client, download, handle streams—is similar.
 
-S3 entegrasyonunuzu bir üst seviyeye taşımaya hazır mısınız? Yukarıdaki kod örnekleriyle başlayın ve ihtiyaçlarınıza göre uyarlayın.
+**Q: What are the most common causes of AWS credential issues?**  
+A: Missing or incorrectly set environment variables, insufficient IAM permissions (`s3:GetObject`), hardcoded credentials that don’t match your AWS account, and expired temporary credentials when using IAM roles.
 
-## Sık Sorulan Sorular
+**Q: How can I improve download performance from S3?**  
+A: Use larger buffer sizes (8 KB‑16 KB), download multiple files in parallel with threads, employ AWS Transfer Manager for large files, choose an S3 region close to your application, and enable connection pooling.
 
-### 1. BasicAWSCredentials ne için kullanılır?
+**Q: Do I need to close the S3 client after downloads?**  
+A: Generally no—`AmazonS3` clients are designed to be long‑lived and reused. Creating a new client for each download is expensive. If you’re completely done with S3 operations, you can call `s3Client.shutdown()` to release resources.
 
-`BasicAWSCredentials`, AWS erişim anahtarı kimliği ve gizli erişim anahtarını saklayan bir sınıftır. Uygulamanızı AWS hizmetlerine kimlik doğrulamak için kullanılır. Ancak üretim uygulamaları için kimlik bilgilerini kod içinde sabitlemek yerine ortam değişkenleri, kimlik dosyaları veya IAM rolleri tercih edilmelidir.
+**Q: How do I know which region my S3 bucket is in?**  
+A: Open the bucket in the AWS S3 Console; the region is displayed in the bucket’s properties or URL (e.g., “US East (N. Virginia)” or `eu-west-1`). Use the corresponding `Regions` constant in your Java code.
 
-### 2. S3'ten dosya indirirken istisnalar nasıl ele alınır?
-
-`AmazonServiceException` (AWS ile ilgili hatalar, ör. izin eksikliği veya dosya bulunamaması) ve `IOException` (yerel dosya sistemi hataları) için try‑catch blokları kullanın. try‑with‑resources deseni, istisna oluşsa bile akışların kapatılmasını garanti eder.
-
-### 3. Bu yaklaşımı başka bulut depolama sağlayıcılarıyla kullanabilir miyim?
-
-AWS SDK, Amazon Web Services'e özgüdür. Google Cloud Storage veya Azure Blob Storage gibi diğer sağlayıcılar için ilgili SDK'lar gerekir. Ancak genel desen (kimlik doğrulama → istemci oluşturma → dosya indirme → akış yönetimi) çoğu sağlayıcıda benzerdir.
-
-### 4. AWS kimlik bilgileri sorunlarının en yaygın nedenleri nelerdir?
-
-En yaygın sorunlar: (1) ortam değişkenlerinin eksik veya hatalı ayarlanması, (2) yanlış IAM izinleri (eksik `s3:GetObject`), (3) kod içinde sabitlenmiş kimlik bilgilerinin AWS hesabınızla eşleşmemesi ve (4) IAM rolleri kullanıldığında geçici kimlik bilgilerinin süresinin dolmuş olması.
-
-### 5. S3'ten indirme performansını nasıl artırabilirim?
-
-Ana stratejiler: daha büyük tamponlar (8 KB‑16 KB) kullanmak, birden çok dosyayı paralel iş parçacıklarıyla indirmek, büyük dosyalar için AWS Transfer Manager kullanmak, uygulamanıza en yakın S3 bölgesini seçmek ve bağlantı havuzlamayı etkinleştirmek.
-
-### 6. İndirmelerden sonra S3 istemcisini kapatmam gerekir mi?
-
-Genellikle hayır—S3 istemcileri uzun ömürlü olacak ve birden çok işlemde yeniden kullanılmak üzere tasarlanmıştır. Her indirme için yeni bir istemci oluşturmak maliyetlidir. Ancak S3 işlemleriniz tamamen bittiğinde `s3Client.shutdown()` çağırarak kaynakları serbest bırakabilirsiniz.
-
-### 7. S3 bucketımın hangi bölgede olduğunu nasıl öğrenirim?
-
-AWS S3 Konsolunda bucketınızı açın, özellikler veya URL kısmına bakın. Bölge açıkça gösterilir (ör. “US East (N. Virginia)” veya `eu-west-1`). Java kodunuzda aynı `Regions` sabitini kullanın.
-
-### 8. Dosyaları diske kaydetmeden indirebilir miyim?
-
-Evet! `FileOutputStream` yerine `S3ObjectInputStream`'i doğrudan belleğe okuyabilir veya akış üzerinde anlık işlem yapabilirsiniz. Büyük dosyalar için bellek kullanımına dikkat edin:
+**Q: Can I download files without saving them to disk?**  
+A: Yes. Instead of `FileOutputStream`, read the `S3ObjectInputStream` directly into memory or process it on‑the‑fly. Just be cautious with memory usage for large files:
 
 ```java
 S3Object s3Object = s3Client.getObject(bucket, key);
@@ -765,20 +736,20 @@ InputStream stream = s3Object.getObjectContent();
 // Process stream directly without saving to disk
 ```
 
-## Ek Kaynaklar
+## Additional Resources
 
-- **Dokümantasyon:** [GroupDocs.Signature for Java](https://docs.groupdocs.com/signature/java/)
-- **API Referansı:** [GroupDocs.Signature API](https://reference.groupdocs.com/signature/java/)
-- **İndirme:** [Latest GroupDocs Releases](https://releases.groupdocs.com/signature/java/)
-- **Satın Alma:** [Buy GroupDocs License](https://purchase.groupdocs.com/buy)
-- **Ücretsiz Deneme:** [Try GroupDocs Free](https://releases.groupdocs.com/signature/java/)
-- **Geçici Lisans:** [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)
-- **Destek:** [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)
+- **Documentation:** [GroupDocs.Signature for Java](https://docs.groupdocs.com/signature/java/)
+- **API Reference:** [GroupDocs.Signature API](https://reference.groupdocs.com/signature/java/)
+- **Download:** [Latest GroupDocs Releases](https://releases.groupdocs.com/signature/java/)
+- **Purchase:** [Buy GroupDocs License](https://purchase.groupdocs.com/buy)
+- **Free Trial:** [Try GroupDocs Free](https://releases.groupdocs.com/signature/java/)
+- **Temporary License:** [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)
+- **Support:** [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)
 
 ---
 
-**Son Güncelleme:** 2025-12-19  
-**Test Edilen Sürümler:** AWS SDK for Java 1.12.118, GroupDocs.Signature 23.12  
-**Yazar:** GroupDocs  
+**Last Updated:** 2026-02-24  
+**Tested With:** AWS SDK for Java 1.12.118, GroupDocs.Signature 23.12  
+**Author:** GroupDocs  
 
 ---

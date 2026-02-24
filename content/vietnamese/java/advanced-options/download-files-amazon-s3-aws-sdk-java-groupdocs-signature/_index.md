@@ -2,10 +2,10 @@
 categories:
 - Java Development
 - AWS Integration
-date: '2025-12-19'
-description: Tìm hiểu cách thực hiện việc tải xuống tệp S3 bằng Java sử dụng AWS SDK
-  cho Java. Bao gồm các ví dụ thực tế, mẹo khắc phục sự cố và các thực tiễn tốt nhất
-  để truy xuất tệp một cách an toàn và hiệu quả.
+date: '2026-02-24'
+description: Tìm hiểu cách thực hiện tải xuống tệp S3 bằng Java sử dụng AWS SDK cho
+  Java. Bao gồm các ví dụ thực tế, mẹo khắc phục sự cố và các thực tiễn tốt nhất để
+  truy xuất tệp một cách an toàn và hiệu quả.
 keywords: Java S3 file download tutorial, AWS SDK Java S3 download example, Java download
   files from S3 bucket, S3 file retrieval Java code, Java S3 download best practices
 lastmod: '2025-12-19'
@@ -16,89 +16,92 @@ tags:
 - file-download
 - cloud-storage
 - groupdocs
-title: Hướng Dẫn Tải Tệp S3 bằng Java - Hướng Dẫn Từng Bước với AWS SDK
+title: Hướng Dẫn Tải Tập Tin S3 Bằng Java - Hướng Dẫn Từng Bước Với AWS SDK
 type: docs
 url: /vi/java/advanced-options/download-files-amazon-s3-aws-sdk-java-groupdocs-signature/
 weight: 1
 ---
 
-# Hướng dẫn tải tệp Java S3 - Bước từng bước với AWS SDK
+Docs Forum](https://forum.groupdocs.com/c/signature/)"
 
-Chào mừng! Trong hướng dẫn này, bạn sẽ thành thạo quy trình **java s3 file download** bằng AWS SDK cho Java.  
+--- separator line.
+
+**Last Updated:** 2026-02-24  
+**Tested With:** AWS SDK for Java 1.12.118, GroupDocs.Signature 23.12  
+**Author:** GroupDocs  
+
+Translate:
+
+**Cập nhật lần cuối:** 2026-02-24  
+**Đã kiểm tra với:** AWS SDK for Java 1.12.118, GroupDocs.Signature 23.12  
+**Tác giả:** GroupDocs  
+
+Now produce final output with all markdown unchanged, only text translated.
+
+Be careful not to translate code block placeholders.
+
+Also ensure we keep bold formatting.
+
+Let's construct final content.# Hướng dẫn tải tệp Java S3 - Hướng dẫn từng bước với AWS SDK
+
+Chào mừng! Trong hướng dẫn này, bạn sẽ nắm vững quy trình **java s3 file download** bằng cách sử dụng AWS SDK cho Java.  
 
 ## Giới thiệu
 
-Làm việc với lưu trữ đám mây? Bạn chắc hẳn đang sử dụng Amazon S3—và nếu bạn đang xây dựng các ứng dụng Java, bạn sẽ cần một cách đáng tin cậy để tải tệp từ các bucket S3 của mình. Dù bạn đang xây dựng hệ thống phân phối nội dung, xử lý tài liệu đã tải lên, hay chỉ đơn giản đồng bộ dữ liệu, việc thực hiện đúng rất quan trọng.
+Bạn đang làm việc với lưu trữ đám mây? Có lẽ bạn đang sử dụng Amazon S3—và nếu bạn đang xây dựng các ứng dụng Java, bạn sẽ cần một cách đáng tin cậy để tải xuống các tệp từ các bucket S3 của mình. Dù bạn đang xây dựng hệ thống phân phối nội dung, xử lý tài liệu đã tải lên, hay chỉ đơn giản đồng bộ dữ liệu, việc thực hiện đúng rất quan trọng.
 
-Thực tế là: tải tệp từ S3 không phức tạp, nhưng có một số “cạm bẫy” có thể khiến bạn gặp khó khăn (chúng tôi sẽ đề cập tới). Hướng dẫn này sẽ đưa bạn qua toàn bộ quy trình sử dụng AWS SDK cho Java, với mã thực tế mà bạn có thể dùng ngay. Thêm nữa, chúng tôi sẽ chỉ cho bạn cách tích hợp GroupDocs.Signature nếu bạn làm việc với các tài liệu cần chữ ký điện tử.
+Thực tế là: việc tải tệp từ S3 không phức tạp, nhưng có một số điểm khó chịu có thể gây rắc rối (chúng tôi sẽ đề cập tới). Hướng dẫn này sẽ dẫn bạn qua toàn bộ quy trình bằng AWS SDK cho Java, kèm theo mã thực tế mà bạn có thể sử dụng ngay. Thêm nữa, chúng tôi sẽ chỉ cho bạn cách tích hợp GroupDocs.Signature nếu bạn làm việc với các tài liệu cần chữ ký điện tử.
 
 **Bạn sẽ học được:**
 - Cách thiết lập thông tin xác thực AWS một cách đúng đắn (và an toàn)
 - Mã chính xác để tải tệp từ các bucket S3 bằng Java
-- Những lỗi thường gặp khiến việc tải xuống thất bại—và cách khắc phục
+- Các lỗi thường gặp gây tải xuống thất bại—và cách khắc phục
 - Các thực tiễn tốt nhất về hiệu năng và bảo mật
 - Cách tích hợp ký tài liệu với GroupDocs.Signature
 
 Hãy bắt đầu. Chúng ta sẽ bắt đầu với các yêu cầu trước, sau đó chuyển sang triển khai thực tế.
 
 ## Câu trả lời nhanh
-- **Lớp chính để tải xuống là gì?** Khách hàng `AmazonS3` từ AWS SDK
-- **Vùng AWS nào tôi nên dùng?** Cùng vùng với bucket của bạn (ví dụ, `Regions.US_EAST_1`)
-- **Có cần mã hoá cứng thông tin xác thực không?** Không—sử dụng biến môi trường, tệp credentials, hoặc IAM roles
-- **Có thể tải các tệp lớn một cách hiệu quả không?** Có—sử dụng bộ đệm lớn hơn, try‑with‑resources, hoặc Transfer Manager
-- **GroupDocs.Signature có bắt buộc không?** Tùy chọn, chỉ cần cho các quy trình ký tài liệu
+- **Lớp chính để tải xuống là gì?** `AmazonS3` client from the AWS SDK  
+- **Vùng AWS nào tôi nên sử dụng?** The same region where your bucket resides (e.g., `Regions.US_EAST_1`)  
+- **Có cần phải mã hóa cứng thông tin xác thực không?** No—use environment variables, the credentials file, or IAM roles  
+- **Tôi có thể tải các tệp lớn một cách hiệu quả không?** Yes—use a larger buffer, try‑with‑resources, or the Transfer Manager  
+- **GroupDocs.Signature có bắt buộc không?** Optional, only for document signing workflows  
 
-## java s3 file download: Tại sao lại quan trọng
+## java s3 file download là gì và tại sao nó quan trọng?
 
-Trước khi đi vào mã, hãy nói về lý do một **java s3 file download** là khối xây dựng cốt lõi cho nhiều giải pháp đám mây dựa trên Java. Amazon S3 (Simple Storage Service) là một trong những giải pháp lưu trữ đám mây phổ biến nhất vì khả năng mở rộng, độ tin cậy và chi phí hợp lý. Tuy nhiên, dữ liệu của bạn trong S3 sẽ không có giá trị cho tới khi bạn có thể truy xuất nó.
+Một **java s3 file download** đơn giản là việc lấy một đối tượng được lưu trữ trong Amazon S3 từ một ứng dụng Java. Hoạt động này là nền tảng của nhiều giải pháp cloud‑native vì nó cho phép bạn chuyển dữ liệu từ dịch vụ lưu trữ bền vững, có khả năng mở rộng vào quy trình xử lý, giao diện người dùng, hoặc hệ thống sao lưu của mình.
 
-Các kịch bản thường gặp mà bạn sẽ cần tải tệp S3:
+Các kịch bản phổ biến mà bạn sẽ cần tải tệp S3:
 - **Xử lý tải lên của người dùng** (hình ảnh, PDF, tệp CSV)  
-- **Xử lý dữ liệu theo lô** (tải xuống bộ dữ liệu để phân tích)  
-- **Khôi phục bản sao lưu** (phục hồi tệp từ các bản sao lưu đám mây)  
-- **Phân phối nội dung** (phục vụ tệp cho người dùng cuối)  
+- **Xử lý dữ liệu hàng loạt** (tải xuống bộ dữ liệu để phân tích)  
+- **Khôi phục sao lưu** (phục hồi tệp từ sao lưu đám mây)  
+- **Phân phối nội dung** (cung cấp tệp cho người dùng cuối)  
 - **Quy trình tài liệu** (lấy tệp để ký, chuyển đổi hoặc lưu trữ)
 
-AWS SDK cho Java giúp việc này trở nên đơn giản, nhưng bạn cần xử lý xác thực, các trường hợp lỗi và quản lý tài nguyên một cách đúng đắn. Đó là những gì hướng dẫn này sẽ đề cập.
+## Yêu cầu trước
 
-## Tại sao tải xuống từ S3 bằng Java?
-
-Trước khi đi vào mã, hãy nói về lý do bạn nên làm điều này. Amazon S3 (Simple Storage Service) là một trong những giải pháp lưu trữ đám mây phổ biến nhất vì khả năng mở rộng, độ tin cậy và chi phí hợp lý. Tuy nhiên, dữ liệu của bạn trong S3 sẽ không có giá trị cho tới khi bạn có thể truy xuất nó.
-
-Các kịch bản thường gặp mà bạn sẽ cần tải tệp S3:
-- **Xử lý tải lên của người dùng** (hình ảnh, PDF, tệp CSV)
-- **Xử lý dữ liệu theo lô** (tải xuống bộ dữ liệu để phân tích)
-- **Khôi phục bản sao lưu** (phục hồi tệp từ các bản sao lưu đám mây)
-- **Phân phối nội dung** (phục vụ tệp cho người dùng cuối)
-- **Quy trình tài liệu** (lấy tệp để ký, chuyển đổi hoặc lưu trữ)
-
-AWS SDK cho Java giúp việc này trở nên đơn giản, nhưng bạn cần xử lý xác thực, các trường hợp lỗi và quản lý tài nguyên một cách đúng đắn. Đó là những gì hướng dẫn này sẽ đề cập.
-
-## Các yêu cầu trước
-
-Trước khi bạn bắt đầu viết mã, hãy chắc chắn rằng bạn đã chuẩn bị các yếu tố cơ bản sau:
+Trước khi bắt đầu viết mã, hãy chắc chắn bạn đã chuẩn bị các yếu tố cơ bản sau:
 
 ### Những gì bạn cần
 
-1. **Tài khoản AWS có quyền truy cập S3**
+1. **Tài khoản AWS với quyền truy cập S3**
    - Một tài khoản AWS đang hoạt động
-   - Một bucket S3 đã tạo (ngay cả bucket rỗng cũng đủ để thử nghiệm)
+   - Một bucket S3 đã tạo (ngay cả bucket trống cũng đủ để thử nghiệm)
    - Thông tin xác thực IAM có quyền đọc S3
 
 2. **Môi trường phát triển Java**
-   - Java 8 trở lên đã cài đặt
+   - Java 8 trở lên đã được cài đặt
    - Maven hoặc Gradle để quản lý phụ thuộc
-   - IDE yêu thích của bạn (IntelliJ IDEA, Eclipse, hoặc VS Code đều tốt)
+   - IDE yêu thích của bạn (IntelliJ IDEA, Eclipse, hoặc VS Code đều tuyệt vời)
 
 3. **Kiến thức cơ bản về Java**
    - Thành thạo các lớp, phương thức và xử lý ngoại lệ
-   - Quen thuộc với dự án Maven/Gradle sẽ giúp ích
+   - Quen thuộc với dự án Maven/Gradle sẽ hữu ích
 
 ### Thư viện và phụ thuộc cần thiết
 
-Bạn sẽ cần hai thư viện chính cho hướng dẫn này:
-
-#### AWS SDK cho Java
+#### AWS SDK for Java
 
 Đây là thư viện chính thức để tương tác với các dịch vụ AWS từ Java.
 
@@ -116,11 +119,11 @@ Bạn sẽ cần hai thư viện chính cho hướng dẫn này:
 implementation 'com.amazonaws:aws-java-sdk-s3:1.12.118'
 ```
 
-**Lưu ý:** Phiên bản 1.12.118 ổn định và được sử dụng rộng rãi, nhưng bạn nên kiểm tra [AWS SDK releases](https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3) để lấy phiên bản mới nhất.
+**Lưu ý:** Phiên bản 1.12.118 ổn định và được sử dụng rộng rãi, nhưng hãy kiểm tra [AWS SDK releases](https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3) để biết phiên bản mới nhất.
 
 #### GroupDocs.Signature cho Java (Tùy chọn)
 
-Nếu bạn làm việc với các tài liệu cần chữ ký điện tử, GroupDocs.Signature cung cấp khả năng ký mạnh mẽ.
+Nếu bạn đang làm việc với các tài liệu cần chữ ký điện tử, GroupDocs.Signature cung cấp khả năng ký mạnh mẽ.
 
 **Maven:**  
 ```xml
@@ -136,17 +139,17 @@ Nếu bạn làm việc với các tài liệu cần chữ ký điện tử, Gro
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Tải xuống trực tiếp:** [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/)
+**Tải trực tiếp:** [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/)
 
-### Mua giấy phép cho GroupDocs.Signature
+### Cách lấy giấy phép cho GroupDocs.Signature
 
-- **Dùng thử miễn phí:** Kiểm tra tất cả tính năng mà không mất phí trước khi quyết định
-- **Giấy phép tạm thời:** Nhận giấy phép tạm thời để phát triển và thử nghiệm mở rộng
-- **Giấy phép đầy đủ:** Mua để sử dụng trong môi trường sản xuất
+- **Dùng thử miễn phí:** Kiểm tra tất cả tính năng miễn phí trước khi quyết định  
+- **Giấy phép tạm thời:** Nhận giấy phép tạm thời để phát triển và thử nghiệm kéo dài  
+- **Giấy phép đầy đủ:** Mua để sử dụng trong môi trường sản xuất  
 
-### Cài đặt cơ bản GroupDocs.Signature
+### Cài đặt cơ bản cho GroupDocs.Signature
 
-Sau khi đã thêm phụ thuộc, dưới đây là một ví dụ khởi tạo nhanh:
+Sau khi đã thêm phụ thuộc, đây là một ví dụ khởi tạo nhanh:
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -160,21 +163,22 @@ public class SignatureSetup {
 }
 ```
 
-Hướng dẫn này tập trung vào tải xuống S3, nhưng chúng tôi sẽ cho bạn thấy cách các phần này kết hợp với quy trình tài liệu.
+Hướng dẫn này tập trung vào việc tải xuống S3, nhưng chúng tôi sẽ chỉ cho bạn cách các thành phần này kết hợp trong quy trình tài liệu.
 
-## Thiết lập thông tin xác thực AWS
+## Cài đặt thông tin xác thực AWS
 
-Đây là nơi mà người mới thường gặp khó khăn. Trước khi mã Java của bạn có thể giao tiếp với AWS, bạn cần xác thực. AWS sử dụng khóa truy cập (ID khóa và secret key) để xác minh danh tính của bạn.
+Đây là nơi mà người mới thường gặp khó khăn. Trước khi mã Java của bạn có thể giao tiếp với AWS, bạn cần xác thực. AWS sử dụng các khóa truy cập (một key ID và một secret key) để xác minh danh tính của bạn.
 
 ### Hiểu về thông tin xác thực AWS
 
-Hãy nghĩ thông tin xác thực AWS như tên người dùng và mật khẩu:
-- **Access Key ID:** Định danh công khai của bạn (giống như tên người dùng)
-- **Secret Access Key:** Khóa riêng tư của bạn (giống như mật khẩu)
+Hãy nghĩ về thông tin xác thực AWS như một tên người dùng và mật khẩu:
 
-**Lưu ý bảo mật quan trọng:** Không bao giờ ghi cứng thông tin xác thực trong mã nguồn hoặc đưa chúng lên hệ thống kiểm soát phiên bản. Chúng tôi sẽ chỉ cho bạn các cách an toàn dưới đây.
+- **Mã khóa truy cập (Access Key ID):** Định danh công khai của bạn (giống như tên người dùng)  
+- **Khóa bí mật (Secret Access Key):** Khóa riêng của bạn (giống như mật khẩu)
 
-### Tùy chọn 1: Biến môi trường (Được khuyến nghị)
+**Lưu ý bảo mật quan trọng:** Không bao giờ mã hoá cứng thông tin xác thực trong mã nguồn hoặc commit chúng vào hệ thống kiểm soát phiên bản. Chúng tôi sẽ chỉ cho bạn các cách thay thế an toàn bên dưới.
+
+### Tùy chọn 1: Biến môi trường (Đề xuất)
 
 Cách an toàn nhất là lưu thông tin xác thực trong biến môi trường:
 
@@ -183,11 +187,11 @@ export AWS_ACCESS_KEY_ID=your_access_key_id
 export AWS_SECRET_ACCESS_KEY=your_secret_access_key
 ```
 
-AWS SDK sẽ tự động đọc chúng—không cần thay đổi mã.
+AWS SDK sẽ tự động lấy chúng—không cần thay đổi mã.
 
-### Tùy chọn 2: Tệp credentials của AWS (Cũng tốt)
+### Tùy chọn 2: Tệp credentials AWS (Cũng tốt)
 
-Tạo tệp tại `~/.aws/credentials` (trên Mac/Linux) hoặc `C:\Users\USERNAME\.aws\credentials` (trên Windows):
+Tạo một tệp tại `~/.aws/credentials` (trên Mac/Linux) hoặc `C:\Users\USERNAME\.aws\credentials` (trên Windows):
 
 ```
 [default]
@@ -195,27 +199,28 @@ aws_access_key_id = your_access_key_id
 aws_secret_access_key = your_secret_access_key
 ```
 
-SDK sẽ tự động đọc tệp này.
+Một lần nữa, SDK sẽ tự động đọc tệp này.
 
-### Tùy chọn 3: Thiết lập lập trình (Cho hướng dẫn này)
+### Tùy chọn 3: Thiết lập bằng mã (Cho hướng dẫn này)
 
-Để minh họa, chúng tôi sẽ hiển thị cách đặt thông tin xác thực trong mã, nhưng nhớ: **đây chỉ dành cho mục đích học tập**. Trong môi trường thực tế, hãy dùng biến môi trường hoặc IAM roles.
+Với mục đích minh họa, chúng tôi sẽ hiển thị thông tin xác thực trong mã, nhưng nhớ rằng: **đây chỉ dành cho việc học**. Trong môi trường sản xuất, hãy sử dụng biến môi trường hoặc IAM roles.
 
 ## Hướng dẫn triển khai: Tải tệp từ Amazon S3
 
-Được rồi, chúng ta sẽ đi vào phần mã thực tế. Chúng ta sẽ xây dựng từng bước để bạn hiểu mỗi phần làm gì.
+Được rồi, hãy đến phần mã thực tế. Chúng ta sẽ xây dựng từng bước để bạn hiểu mỗi phần làm gì.
 
 ### Tổng quan quy trình
 
-Khi bạn tải tệp từ S3, sẽ có các bước sau:
-1. **Xác thực** với AWS bằng thông tin xác thực của bạn  
-2. **Tạo khách hàng S3** để xử lý giao tiếp với AWS  
-3. **Yêu cầu tệp** bằng cách chỉ định tên bucket và khóa tệp  
+Đây là những gì xảy ra khi bạn tải tệp từ S3:
+
+1. **Xác thực với AWS bằng thông tin xác thực của bạn**  
+2. **Tạo một client S3 để xử lý giao tiếp với AWS**  
+3. **Yêu cầu tệp bằng cách chỉ định tên bucket và khóa tệp**  
 4. **Xử lý tệp** (lưu cục bộ, đọc nội dung, hoặc bất kỳ việc gì bạn cần)
 
-### aws sdk java download – Bước 1: Định nghĩa thông tin xác thực AWS và tạo khách hàng S3
+### aws sdk java download – Bước 1: Định nghĩa thông tin xác thực AWS và tạo client S3
 
-Bắt đầu bằng việc thiết lập xác thực và tạo khách hàng S3:
+Hãy bắt đầu bằng việc thiết lập xác thực và tạo client S3:
 
 ```java
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
@@ -243,17 +248,17 @@ public class S3FileDownloader {
 }
 ```
 
-**Giải thích:**  
-- `BasicAWSCredentials`: Lưu trữ Access Key và Secret Key của bạn  
-- `AmazonS3ClientBuilder`: Tạo khách hàng S3 được cấu hình cho vùng và thông tin xác thực của bạn  
-- `.withRegion()`: Xác định vùng AWS nơi bucket của bạn nằm (quan trọng cho hiệu năng và chi phí)  
-- `.build()`: Thực sự tạo đối tượng khách hàng  
+**Điều gì đang xảy ra ở đây:**
+- `BasicAWSCredentials`: Lưu trữ key truy cập và secret key của bạn  
+- `AmazonS3ClientBuilder`: Tạo một client S3 được cấu hình cho vùng và thông tin xác thực của bạn  
+- `.withRegion()`: Chỉ định vùng AWS nơi bucket của bạn nằm (quan trọng cho hiệu năng và chi phí)  
+- `.build()`: Thực sự tạo đối tượng client  
 
-**Lưu ý về vùng:** Sử dụng vùng nơi bucket S3 của bạn tồn tại. Các tùy chọn thường gặp bao gồm `Regions.US_EAST_1`, `Regions.US_WEST_2`, `Regions.EU_WEST_1`, v.v.
+**Lưu ý về vùng:** Sử dụng vùng nơi bucket S3 của bạn tồn tại. Các tùy chọn phổ biến bao gồm `Regions.US_EAST_1`, `Regions.US_WEST_2`, `Regions.EU_WEST_1`, v.v.
 
 ### java s3 transfer manager – Bước 2: Tải tệp
 
-Bây giờ chúng ta đã có khách hàng S3 đã xác thực, hãy tải một tệp:
+Bây giờ chúng ta đã có client S3 đã xác thực, hãy tải một tệp:
 
 ```java
 import com.amazonaws.services.s3.model.S3Object;
@@ -297,16 +302,16 @@ public class S3FileDownloader {
 }
 ```
 
-**Phân tích quá trình tải:**
+**Phân tích quy trình tải xuống:**
 
-1. **`s3Client.getObject(bucketName, fileKey)`**: Yêu cầu tệp từ S3. Trả về một `S3Object` chứa siêu dữ liệu và nội dung tệp.  
-2. **`s3Object.getObjectContent()`**: Lấy luồng đầu vào để đọc dữ liệu tệp. Hãy tưởng tượng đây là việc mở ống dẫn tới tệp trong S3.  
-3. **Đọc và ghi**: Chúng ta đọc các khối dữ liệu (1024 byte mỗi lần) từ luồng đầu vào và ghi chúng vào tệp cục bộ. Cách này tiết kiệm bộ nhớ cho các tệp lớn.  
-4. **Dọn dẹp tài nguyên**: Luôn đóng các luồng để tránh rò rỉ bộ nhớ.
+1. `s3Client.getObject(bucketName, fileKey)`: Yêu cầu tệp từ S3. Trả về một `S3Object` chứa metadata và nội dung tệp.  
+2. `s3Object.getObjectContent()`: Lấy một input stream để đọc dữ liệu tệp. Hãy tưởng tượng đây là mở một ống dẫn tới tệp trong S3.  
+3. **Đọc và ghi:** Chúng ta đọc các khối dữ liệu (1024 byte mỗi lần) từ input stream và ghi chúng vào tệp cục bộ. Cách này tiết kiệm bộ nhớ cho các tệp lớn.  
+4. **Dọn dẹp tài nguyên:** Luôn đóng các stream để tránh rò rỉ bộ nhớ.
 
 ### java s3 multipart download – Phiên bản nâng cao với xử lý lỗi tốt hơn
 
-Đây là phiên bản mạnh mẽ hơn sử dụng try‑with‑resources (tự động đóng luồng):
+Đây là phiên bản mạnh mẽ hơn sử dụng try‑with‑resources (tự động đóng các stream):
 
 ```java
 import com.amazonaws.services.s3.model.S3Object;
@@ -343,21 +348,21 @@ public class S3FileDownloader {
 }
 ```
 
-**Lý do phiên bản này tốt hơn:**  
-- **Try‑with‑resources**: Tự động đóng luồng ngay cả khi có lỗi xảy ra  
-- **Bộ đệm lớn hơn**: 4096 byte hiệu quả hơn 1024 byte cho hầu hết các tệp  
-- **Xử lý lỗi tốt hơn**: Phân biệt lỗi AWS và lỗi tệp cục bộ  
-- **Phương thức tái sử dụng**: Dễ gọi từ bất kỳ nơi nào trong ứng dụng của bạn  
+**Tại sao phiên bản này tốt hơn:**
+- **Try‑with‑resources:** Tự động đóng các stream ngay cả khi xảy ra lỗi  
+- **Bộ đệm lớn hơn:** 4096 byte hiệu quả hơn 1024 cho hầu hết các tệp  
+- **Xử lý lỗi tốt hơn:** Phân biệt lỗi AWS và lỗi tệp cục bộ  
+- **Phương thức tái sử dụng:** Dễ gọi từ bất kỳ nơi nào trong ứng dụng của bạn  
 
-## Những lỗi thường gặp và cách tránh chúng
+## Các lỗi thường gặp và cách tránh chúng
 
-Ngay cả các lập trình viên có kinh nghiệm cũng gặp phải những vấn đề này. Dưới đây là cách tránh các lỗi phổ biến nhất:
+Ngay cả các nhà phát triển có kinh nghiệm cũng gặp phải những vấn đề này. Dưới đây là cách tránh các lỗi phổ biến nhất:
 
 ### 1. Vùng bucket sai
 
-**Vấn đề:** Mã của bạn bị timeout hoặc thất bại với lỗi khó hiểu.  
+**Vấn đề:** Mã của bạn bị timeout hoặc thất bại với các lỗi không rõ ràng.  
 **Nguyên nhân:** Vùng trong mã không khớp với vùng thực tế của bucket.  
-**Giải pháp:** Kiểm tra vùng của bucket trong AWS Console và sử dụng hằng `Regions` tương ứng:
+**Giải pháp:** Kiểm tra vùng của bucket trong AWS Console và sử dụng hằng số `Regions` tương ứng:
 
 ```java
 // Don't just default to US_EAST_1
@@ -369,8 +374,8 @@ Ngay cả các lập trình viên có kinh nghiệm cũng gặp phải những v
 
 ### 2. Quyền IAM không đủ
 
-**Vấn đề:** Lỗi `AccessDenied` dù thông tin xác thực đúng.  
-**Nguyên nhân:** Người dùng/role IAM không có quyền đọc S3.  
+**Vấn đề:** Lỗi `AccessDenied` mặc dù thông tin xác thực của bạn đúng.  
+**Nguyên nhân:** Người dùng/role IAM của bạn không có quyền đọc từ S3.  
 **Giải pháp:** Đảm bảo chính sách IAM của bạn bao gồm quyền `s3:GetObject`:
 
 ```json
@@ -392,29 +397,29 @@ Ngay cả các lập trình viên có kinh nghiệm cũng gặp phải những v
 **Vấn đề:** Lỗi `NoSuchKey` khi tải xuống.  
 **Nguyên nhân:** Khóa tệp (đường dẫn) không tồn tại trong bucket.  
 **Giải pháp:**  
-- Khóa tệp phân biệt chữ hoa/chữ thường  
+- Khóa tệp phân biệt chữ hoa/thường  
 - Bao gồm toàn bộ đường dẫn: `folder/subfolder/file.pdf`, không chỉ `file.pdf`  
-- Không có dấu gạch chéo đầu: dùng `docs/report.pdf`, không phải `/docs/report.pdf`
+- Không có dấu slash đầu: dùng `docs/report.pdf`, không phải `/docs/report.pdf`
 
-### 4. Không đóng luồng
+### 4. Không đóng các stream
 
-**Vấn đề:** Rò rỉ bộ nhớ hoặc lỗi “quá nhiều tệp mở” theo thời gian.  
-**Nguyên nhân:** Quên đóng luồng input/output.  
+**Vấn đề:** Rò rỉ bộ nhớ hoặc lỗi “too many open files” theo thời gian.  
+**Nguyên nhân:** Quên đóng các stream input/output.  
 **Giải pháp:** Luôn sử dụng try‑with‑resources (như trong ví dụ nâng cao ở trên).
 
-### 5. Ghi cứng thông tin xác thực trong mã
+### 5. Thông tin xác thực được mã hoá cứng trong mã
 
-**Vấn đề:** Lỗ hổng bảo mật, thông tin xác thực xuất hiện trong hệ thống kiểm soát phiên bản.  
-**Nguyên nhân:** Đặt Access Key trực tiếp trong mã nguồn.  
-**Giải pháp:** Sử dụng biến môi trường, tệp credentials của AWS, hoặc IAM roles.
+**Vấn đề:** Lỗ hổng bảo mật, thông tin xác thực trong hệ thống kiểm soát phiên bản.  
+**Nguyên nhân:** Đặt các access key trực tiếp trong mã nguồn.  
+**Giải pháp:** Sử dụng biến môi trường, tệp credentials, hoặc IAM roles.
 
-## Thực tiễn bảo mật tốt nhất
+## Các thực tiễn bảo mật tốt nhất
 
 Bảo mật không phải là tùy chọn khi làm việc với AWS. Dưới đây là cách giữ an toàn cho thông tin xác thực và dữ liệu của bạn:
 
-### Không bao giờ ghi cứng thông tin xác thực
+### Không bao giờ mã hoá cứng thông tin xác thực
 
-Chúng tôi đã nhắc lại, nhưng cần nhấn mạnh: **không bao giờ đặt Access Key trực tiếp trong mã**. Thay vào đó, hãy dùng một trong các cách sau:
+Chúng tôi đã nói trước đây, nhưng cần nhắc lại: **không bao giờ đặt access key trực tiếp trong mã**. Thay vào đó, hãy sử dụng một trong các cách sau:
 
 **Biến môi trường:**  
 ```java
@@ -422,11 +427,11 @@ String accessKey = System.getenv("AWS_ACCESS_KEY_ID");
 String secretKey = System.getenv("AWS_SECRET_ACCESS_KEY");
 ```
 
-**Tệp credentials của AWS:**  
-SDK sẽ tự động đọc `~/.aws/credentials`—không cần viết mã.
+**Tệp credentials AWS:**  
+SDK tự động đọc `~/.aws/credentials`—không cần mã.
 
-**IAM Roles (Tốt nhất cho EC2/ECS):**  
-Nếu ứng dụng Java của bạn chạy trên hạ tầng AWS, hãy dùng IAM roles thay vì Access Key.
+**IAM Roles (Best for EC2/ECS):**  
+Nếu ứng dụng Java của bạn chạy trên hạ tầng AWS, hãy sử dụng IAM roles thay vì access keys.
 
 ```java
 // No credentials needed with IAM roles!
@@ -435,7 +440,7 @@ AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
         .build();  // SDK uses IAM role automatically
 ```
 
-### Sử dụng IAM Roles khi có thể
+### Sử dụng IAM roles khi có thể
 
 Nếu ứng dụng Java của bạn chạy trên:
 - EC2 instances  
@@ -443,30 +448,31 @@ Nếu ứng dụng Java của bạn chạy trên:
 - Lambda functions  
 - Elastic Beanstalk  
 
-...thì hãy sử dụng IAM roles. AWS SDK sẽ tự động lấy thông tin xác thực tạm thời của role.
+... thì hãy sử dụng IAM roles. AWS SDK sẽ tự động sử dụng thông tin xác thực tạm thời của role.
 
-### Nguyên tắc tối thiểu quyền
+### Nguyên tắc tối thiểu đặc quyền
 
-Chỉ cấp những quyền mà ứng dụng thực sự cần:
+Chỉ cấp những quyền mà ứng dụng của bạn thực sự cần:
+
 - Cần đọc tệp? → `s3:GetObject`  
 - Cần liệt kê tệp? → `s3:ListBucket`  
-- Không cần xóa? → Đừng cấp `s3:DeleteObject`
+- Không cần xóa? → Không cấp quyền `s3:DeleteObject`
 
-### Bật mã hoá S3
+### Kích hoạt mã hoá S3
 
 Xem xét sử dụng mã hoá S3 cho dữ liệu nhạy cảm:
-- Server‑side encryption (SSE‑S3 hoặc SSE‑KMS)  
-- Client‑side encryption trước khi tải lên  
+- Mã hoá phía máy chủ (SSE‑S3 hoặc SSE‑KMS)  
+- Mã hoá phía client trước khi tải lên  
 
 AWS SDK sẽ xử lý các đối tượng đã mã hoá một cách trong suốt khi tải xuống.
 
-## Ứng dụng thực tiễn và các trường hợp sử dụng
+## Ứng dụng thực tế và các trường hợp sử dụng
 
-Bây giờ bạn đã biết cách tải tệp, hãy xem chúng phù hợp như thế nào trong các dự án thực tế:
+Bây giờ bạn đã biết cách tải tệp, hãy xem cách nó phù hợp trong các dự án thực tế:
 
 ### 1. Khôi phục sao lưu tự động
 
-Tải xuống sao lưu cơ sở dữ liệu hàng đêm để xử lý cục bộ:
+Tải các bản sao lưu cơ sở dữ liệu hàng đêm để xử lý cục bộ:
 
 ```java
 public class BackupRetrieval {
@@ -480,7 +486,7 @@ public class BackupRetrieval {
 
 ### 2. Hệ thống quản lý nội dung
 
-Phục vụ các tệp người dùng tải lên (hình ảnh, video, tài liệu):
+Cung cấp các tệp do người dùng tải lên (hình ảnh, video, tài liệu):
 
 ```java
 public class CMSFileRetrieval {
@@ -511,7 +517,7 @@ public class DocumentProcessor {
 }
 ```
 
-### 4. Xử lý dữ liệu theo lô
+### 4. Xử lý dữ liệu hàng loạt
 
 Tải các bộ dữ liệu lớn để phân tích:
 
@@ -533,7 +539,7 @@ public class DataProcessor {
 
 ## Mẹo tối ưu hoá hiệu năng
 
-Muốn tải nhanh hơn? Dưới đây là các cách tối ưu:
+Muốn tải nhanh hơn? Đây là cách tối ưu:
 
 ### 1. Sử dụng kích thước bộ đệm phù hợp
 
@@ -546,7 +552,7 @@ byte[] largeBuffer = new byte[16384];  // Better for large files
 
 ### 2. Tải song song nhiều tệp
 
-Tải đồng thời nhiều tệp bằng các luồng:
+Tải nhiều tệp đồng thời bằng các thread:
 
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(10);
@@ -559,9 +565,9 @@ executor.shutdown();
 executor.awaitTermination(1, TimeUnit.HOURS);
 ```
 
-### 3. Dùng Transfer Manager cho tệp lớn
+### 3. Sử dụng Transfer Manager cho tệp lớn
 
-Đối với tệp trên 100 MB, hãy dùng AWS Transfer Manager:
+Đối với các tệp lớn hơn 100 MB, sử dụng AWS Transfer Manager:
 
 ```java
 TransferManager transferManager = TransferManagerBuilder.standard()
@@ -572,9 +578,9 @@ Download download = transferManager.download(bucketName, fileKey, new File(local
 download.waitForCompletion();
 ```
 
-Transfer Manager tự động sử dụng multipart download và retry.
+Transfer Manager tự động sử dụng tải xuống multipart và thực hiện lại khi cần.
 
-### 4. Bật connection pooling
+### 4. Kích hoạt pooling kết nối
 
 Tái sử dụng các kết nối HTTP để cải thiện hiệu năng:
 
@@ -587,13 +593,13 @@ AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
         .build();
 ```
 
-### 5. Chọn đúng vùng
+### 5. Chọn vùng phù hợp
 
 Tải từ vùng gần nhất với ứng dụng của bạn để giảm độ trễ và chi phí truyền dữ liệu.
 
 ## Tích hợp với GroupDocs.Signature
 
-Nếu bạn làm việc với tài liệu cần chữ ký điện tử, GroupDocs.Signature tích hợp liền mạch với việc tải xuống S3:
+Nếu bạn làm việc với các tài liệu cần chữ ký điện tử, GroupDocs.Signature tích hợp liền mạch với việc tải xuống S3:
 
 ### Ví dụ quy trình hoàn chỉnh
 
@@ -621,69 +627,69 @@ public class S3DocumentSigning {
 }
 ```
 
-Mẫu này rất phù hợp cho:
+Mẫu này hoạt động tốt cho:
 - Quy trình ký hợp đồng  
 - Hệ thống phê duyệt tài liệu  
-- Theo dõi tuân thủ và ghi chép  
+- Tuân thủ và theo dõi kiểm toán  
 
-## Khắc phục sự cố thường gặp
+## Khắc phục các vấn đề thường gặp
 
-### Vấn đề: "Unable to find credentials"
+### Vấn đề: “Không thể tìm thấy thông tin xác thực”
 
-**Triệu chứng:** `AmazonClientException` báo thiếu thông tin xác thực.  
+Triệu chứng: `AmazonClientException` về thiếu thông tin xác thực.
 
-**Cách khắc phục:**  
-1. Xác minh biến môi trường đã được đặt đúng.  
+**Cách khắc phục:**
+1. Xác minh các biến môi trường đã được thiết lập đúng.  
 2. Kiểm tra tệp `~/.aws/credentials` tồn tại và định dạng đúng.  
-3. Đảm bảo role IAM được gắn (nếu chạy trên EC2/ECS).
+3. Đảm bảo IAM role đã được gắn (nếu chạy trên EC2/ECS).
 
-### Vấn đề: Tải xuống treo hoặc timeout
+### Vấn đề: Tải bị treo hoặc timeout
 
-**Triệu chứng:** Code dừng khi gọi `getObject()`.  
+Triệu chứng: Mã bị treo khi gọi `getObject()`.
 
-**Cách khắc phục:**  
-1. Kiểm tra vùng bucket có khớp với cấu hình client.  
+**Cách khắc phục:**
+1. Xác minh vùng bucket khớp với cấu hình client.  
 2. Kiểm tra kết nối mạng tới AWS.  
-3. Tăng timeout socket:
+3. Tăng timeout socket:  
 
 ```java
 ClientConfiguration config = new ClientConfiguration();
 config.setSocketTimeout(300000);  // 5 minutes
 ```
 
-### Vấn đề: Lỗi "Access Denied"
+### Vấn đề: Lỗi “Access Denied”
 
-**Triệu chứng:** `AmazonServiceException` với mã lỗi "AccessDenied".  
+Triệu chứng: `AmazonServiceException` với mã lỗi “AccessDenied”.
 
-**Cách khắc phục:**  
-1. Đảm bảo IAM có quyền `s3:GetObject`.  
+**Cách khắc phục:**
+1. Xác minh quyền IAM bao gồm `s3:GetObject`.  
 2. Kiểm tra bucket policy cho phép truy cập.  
-3. Xác minh khóa tệp đúng (phân biệt chữ hoa/chữ thường).
+3. Đảm bảo khóa tệp đúng (phân biệt chữ hoa/thường).
 
-### Vấn đề: Lỗi Out of memory
+### Vấn đề: Lỗi hết bộ nhớ
 
-**Triệu chứng:** `OutOfMemoryError` khi tải tệp lớn.  
+Triệu chứng: `OutOfMemoryError` khi tải các tệp lớn.
 
-**Cách khắc phục:**  
-1. Không tải toàn bộ tệp vào bộ nhớ—sử dụng streaming như trong ví dụ.  
-2. Tăng heap JVM: `-Xmx2g`.  
-3. Dùng Transfer Manager cho tệp trên 100 MB.
+**Cách khắc phục:**
+1. Không tải toàn bộ tệp vào bộ nhớ—sử dụng streaming (như đã minh họa).  
+2. Tăng kích thước heap JVM: `-Xmx2g`.  
+3. Sử dụng Transfer Manager cho các tệp lớn hơn 100 MB.
 
-## Hiệu năng và quản lý tài nguyên
+## Quản lý hiệu năng và tài nguyên
 
 ### Hướng dẫn sử dụng bộ nhớ
 
-- **Tệp nhỏ (<10 MB):** Cách tiếp cận chuẩn hoạt động tốt.  
+- **Tệp nhỏ (<10 MB):** Cách tiếp cận tiêu chuẩn hoạt động tốt.  
 - **Tệp trung bình (10‑100 MB):** Sử dụng buffered streams với bộ đệm 8 KB+.  
-- **Tệp lớn (>100 MB):** Dùng Transfer Manager hoặc tăng bộ đệm lên 16 KB+.
+- **Tệp lớn (>100 MB):** Sử dụng Transfer Manager hoặc tăng bộ đệm lên 16 KB+.
 
 ### Thực tiễn tốt nhất
 
-1. **Luôn đóng luồng** (sử dụng try‑with‑resources).  
-2. **Tái sử dụng khách hàng S3** (đối tượng này thread‑safe và tốn thời gian tạo).  
-3. **Đặt timeout phù hợp** cho trường hợp sử dụng của bạn.  
-4. **Giám sát chỉ số CloudWatch** để phát hiện nút thắt.  
-5. **Sử dụng connection pooling** cho các ứng dụng có tải cao.
+1. Luôn đóng các stream (sử dụng try‑with‑resources).  
+2. Tái sử dụng client S3 (chúng thread‑safe và tốn chi phí khi tạo).  
+3. Đặt timeout phù hợp cho trường hợp sử dụng của bạn.  
+4. Giám sát các metric CloudWatch để xác định nút thắt.  
+5. Sử dụng pooling kết nối cho các ứng dụng có lưu lượng cao.
 
 ### Dọn dẹp tài nguyên
 
@@ -705,58 +711,31 @@ try {
 }
 ```
 
-## Kết luận
-
-Bạn đã có mọi thứ cần thiết để tải tệp từ Amazon S3 bằng Java. Chúng tôi đã bao phủ các kiến thức cơ bản (xác thực, cấu hình khách hàng, tải tệp), các lỗi thường gặp (vùng sai, quyền IAM), và các chủ đề nâng cao (tối ưu hoá hiệu năng, thực tiễn bảo mật).
-
-**Những điểm quan trọng cần nhớ**
-- Luôn quản lý thông tin xác thực một cách đúng đắn (biến môi trường, IAM roles)  
-- Khớp vùng S3 của khách hàng với vùng bucket  
-- Dùng try‑with‑resources để tự động đóng luồng  
-- Tối ưu kích thước bộ đệm và cân nhắc Transfer Manager cho tệp lớn  
-- Cấp quyền tối thiểu cho ứng dụng của bạn  
-
-**Bước tiếp theo**
-- Áp dụng các đoạn mã vào dự án của bạn  
-- Khám phá GroupDocs.Signature cho quy trình ký tài liệu  
-- Thử AWS Transfer Manager cho tải multipart  
-- Giám sát hiệu năng bằng CloudWatch và điều chỉnh cài đặt bộ đệm/kết nối khi cần  
-
-Sẵn sàng nâng cao tích hợp S3? Bắt đầu với các ví dụ mã ở trên và tùy chỉnh chúng cho nhu cầu cụ thể của bạn.
-
 ## Câu hỏi thường gặp
 
-### 1. `BasicAWSCredentials` dùng để làm gì?
+**Q: BasicAWSCredentials dùng để làm gì?**  
+A: `BasicAWSCredentials` lưu trữ AWS access key ID và secret access key của bạn. Nó xác thực ứng dụng của bạn với các dịch vụ AWS, nhưng trong môi trường production bạn nên ưu tiên sử dụng biến môi trường, tệp credentials, hoặc IAM roles.
 
-`BasicAWSCredentials` là lớp lưu trữ Access Key ID và Secret Access Key của bạn. Nó được dùng để xác thực ứng dụng của bạn với các dịch vụ AWS. Tuy nhiên, trong môi trường sản xuất, nên dùng biến môi trường, tệp credentials hoặc IAM roles thay vì ghi cứng thông tin xác thực.
+**Q: Làm thế nào để xử lý ngoại lệ khi tải tệp từ S3?**  
+A: Bao bọc logic tải trong các khối try‑catch cho `AmazonServiceException` (lỗi liên quan tới AWS) và `IOException` (lỗi tệp cục bộ). Sử dụng try‑with‑resources đảm bảo các stream được đóng ngay cả khi có ngoại lệ.
 
-### 2. Làm sao để xử lý ngoại lệ khi tải tệp từ S3?
+**Q: Tôi có thể dùng cách này với các nhà cung cấp lưu trữ đám mây khác không?**  
+A: AWS SDK chỉ dành cho Amazon Web Services. Đối với các nhà cung cấp như Google Cloud Storage hoặc Azure Blob Storage, bạn sẽ cần SDK tương ứng, nhưng mẫu chung—xác thực, tạo client, tải xuống, xử lý stream—vẫn tương tự.
 
-Sử dụng khối try‑catch để bắt `AmazonServiceException` (lỗi liên quan tới AWS như quyền hoặc tệp không tồn tại) và `IOException` (lỗi hệ thống tệp cục bộ). Mẫu try‑with‑resources đã đảm bảo luồng được đóng ngay cả khi có ngoại lệ.
+**Q: Nguyên nhân phổ biến nhất gây ra vấn đề về thông tin xác thực AWS là gì?**  
+A: Thiếu hoặc thiết lập sai biến môi trường, quyền IAM không đủ (`s3:GetObject`), thông tin xác thực được mã hoá cứng không khớp với tài khoản AWS, và thông tin tạm thời hết hạn khi sử dụng IAM roles.
 
-### 3. Có thể dùng cách này với các nhà cung cấp lưu trữ đám mây khác không?
+**Q: Làm sao tôi có thể cải thiện hiệu năng tải xuống từ S3?**  
+A: Sử dụng kích thước bộ đệm lớn hơn (8 KB‑16 KB), tải nhiều tệp song song bằng các thread, dùng AWS Transfer Manager cho tệp lớn, chọn vùng S3 gần ứng dụng, và bật pooling kết nối.
 
-AWS SDK chỉ dành cho Amazon Web Services. Đối với các nhà cung cấp khác như Google Cloud Storage hoặc Azure Blob Storage, bạn sẽ cần SDK tương ứng. Tuy nhiên, mô hình chung (xác thực → tạo client → tải tệp → xử lý luồng) tương tự.
+**Q: Tôi có cần đóng client S3 sau khi tải không?**  
+A: Thông thường không—client `AmazonS3` được thiết kế để tồn tại lâu dài và tái sử dụng. Tạo client mới cho mỗi lần tải là tốn kém. Nếu bạn hoàn toàn kết thúc các thao tác S3, có thể gọi `s3Client.shutdown()` để giải phóng tài nguyên.
 
-### 4. Nguyên nhân phổ biến nhất của vấn đề thông tin xác thực AWS là gì?
+**Q: Làm sao tôi biết bucket S3 của mình ở vùng nào?**  
+A: Mở bucket trong AWS S3 Console; vùng sẽ hiển thị trong thuộc tính của bucket hoặc URL (ví dụ “US East (N. Virginia)” hoặc `eu‑west‑1`). Sử dụng hằng số `Regions` tương ứng trong mã Java của bạn.
 
-Các nguyên nhân thường gặp: (1) biến môi trường chưa được thiết lập hoặc sai; (2) quyền IAM không đủ (thiếu `s3:GetObject`); (3) thông tin xác thực được ghi cứng không khớp với tài khoản AWS; (4) thông tin xác thực tạm thời đã hết hạn khi dùng IAM roles.
-
-### 5. Làm sao để cải thiện tốc độ tải xuống từ S3?
-
-Chiến lược chính: dùng bộ đệm lớn hơn (8 KB‑16 KB), tải đồng thời nhiều tệp bằng các luồng, dùng AWS Transfer Manager cho tệp lớn, chọn vùng S3 gần ứng dụng, và bật connection pooling.
-
-### 6. Có cần đóng khách hàng S3 sau khi tải xong không?
-
-Thông thường không—khách hàng S3 được thiết kế để tồn tại lâu và tái sử dụng cho nhiều thao tác. Tạo một khách hàng mới cho mỗi lần tải sẽ tốn tài nguyên. Tuy nhiên, nếu bạn thực sự không còn dùng S3, có thể gọi `s3Client.shutdown()` để giải phóng tài nguyên.
-
-### 7. Làm sao biết bucket S3 của mình nằm ở vùng nào?
-
-Kiểm tra trong AWS S3 Console: mở bucket và xem phần thuộc tính hoặc URL. Vùng sẽ hiển thị rõ ràng (ví dụ “US East (N. Virginia)” hoặc `eu-west-1`). Sau đó dùng hằng `Regions` tương ứng trong mã Java.
-
-### 8. Có thể tải tệp mà không lưu vào đĩa không?
-
-Có! Thay vì dùng `FileOutputStream`, bạn có thể đọc trực tiếp `S3ObjectInputStream` vào bộ nhớ hoặc xử lý ngay trên luồng. Chỉ cần chú ý tới việc tiêu thụ bộ nhớ khi làm việc với tệp lớn:
+**Q: Tôi có thể tải tệp mà không lưu vào đĩa không?**  
+A: Có. Thay vì `FileOutputStream`, bạn có thể đọc `S3ObjectInputStream` trực tiếp vào bộ nhớ hoặc xử lý ngay lập tức. Chỉ cần cẩn thận với việc sử dụng bộ nhớ cho các tệp lớn:
 
 ```java
 S3Object s3Object = s3Client.getObject(bucket, key);
@@ -769,13 +748,13 @@ InputStream stream = s3Object.getObjectContent();
 - **Tài liệu:** [GroupDocs.Signature for Java](https://docs.groupdocs.com/signature/java/)  
 - **Tham chiếu API:** [GroupDocs.Signature API](https://reference.groupdocs.com/signature/java/)  
 - **Tải xuống:** [Latest GroupDocs Releases](https://releases.groupdocs.com/signature/java/)  
-- **Mua giấy phép:** [Buy GroupDocs License](https://purchase.groupdocs.com/buy)  
+- **Mua:** [Buy GroupDocs License](https://purchase.groupdocs.com/buy)  
 - **Dùng thử miễn phí:** [Try GroupDocs Free](https://releases.groupdocs.com/signature/java/)  
 - **Giấy phép tạm thời:** [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)  
-- **Hỗ trợ:** [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)  
+- **Hỗ trợ:** [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-19  
+**Cập nhật lần cuối:** 2026-02-24  
 **Đã kiểm tra với:** AWS SDK for Java 1.12.118, GroupDocs.Signature 23.12  
 **Tác giả:** GroupDocs
