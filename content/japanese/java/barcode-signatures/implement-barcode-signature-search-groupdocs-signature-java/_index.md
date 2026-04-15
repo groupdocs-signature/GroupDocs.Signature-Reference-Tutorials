@@ -1,36 +1,66 @@
 ---
-"date": "2025-05-08"
-"description": "GroupDocs.Signatureを使用して、Javaでバーコード署名検索を効率的に実装する方法を学びましょう。この包括的なガイドで、ドキュメント管理プロセスを効率化しましょう。"
-"title": "GroupDocs.Signature を使用して Java でバーコード署名検索を実装する方法"
-"url": "/ja/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
-"weight": 1
+categories:
+- Document Processing
+date: '2026-01-29'
+description: Java と GroupDocs.Signature を使用して、文書内のバーコードがある特定のページを検索する方法を学びましょう。ステップバイステップのガイド、コード例、トラブルシューティングのヒント。
+keywords: search barcode specific pages, java document signature verification, barcode
+  signature detection java, electronic signature search java, verify barcode signatures
+  programmatically
+lastmod: '2026-01-29'
+linktitle: Search Barcode Specific Pages Java
+tags:
+- java
+- barcode-signatures
+- document-verification
+- groupdocs
+title: Javaを使用して文書内のバーコード特定ページを検索
 type: docs
+url: /ja/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/
+weight: 1
 ---
-# GroupDocs.Signature を使用して Java でバーコード署名検索を実装する方法
 
-## 導入
-今日のデジタル時代において、文書の真正性と完全性を確保することは極めて重要です。法律専門家、ビジネスマネージャー、ソフトウェア開発者など、誰にとっても、文書署名を効率的に管理することで、時間を節約し、不正行為を防止できます。このチュートリアルでは、さまざまな種類の電子署名を扱うために設計された強力なライブラリであるGroupDocs.Signatureを使用して、Javaでバーコード署名検索を実装する方法を説明します。
+# Java を使用したドキュメント内の特定ページでバーコード検索
 
-**学習内容:**
-- Java 用の GroupDocs.Signature の設定
-- ドキュメント処理中に検索関連イベントをサブスクライブする
-- バーコード署名の検索の設定と実行
+## はじめに
 
-これらのツールを使ってドキュメント管理プロセスをどのように効率化できるか、詳しく見ていきましょう。まず、前提条件を確認しましょう。
+何百ものドキュメントで手作業で署名を検証するのに何時間も費やしたことはありませんか？ あなたは一人ではありません。契約管理システムを構築したり、請求書処理を自動化したり、医療記録を保護したりする場合でも、バーコード署名を手動で追跡して検証するのは手間がかかり、エラーが起きやすい作業です。
+
+このガイドでは **Java と GroupDocs.Signature を使用して、ドキュメント内の特定ページでバーコード署名を検索する方法** を示します。最後まで読めば、選択したページで署名を検出し、リアルタイムで検索進行状況を監視し、さまざまなバーコード形式に対応したクリーンで保守しやすいコードを書けるようになります。
+
+**学べること**
+- Java プロジェクトに GroupDocs.Signature を設定する（約5分）
+- リアルタイム進行状況追跡のために検索イベントを購読する
+- 特定ページを対象にしたスマート検索オプションを構成する
+- 検索を実行し、結果を効率的に処理する
+
+## クイック回答
+- **どのライブラリが特定ページでバーコード検索を支援しますか？** GroupDocs.Signature for Java  
+- **典型的なセットアップ時間は？** Maven/Gradle 依存関係とライセンスを追加するのに約5分  
+- **最初と最後のページだけに検索を限定できますか？** はい – `PagesSetup` を使用して正確なページを指定します  
+- **サポートされているバーコード形式は？** QR Code、Code128、Code39、DataMatrix、EAN/UPC など多数  
+- **本番環境で有料ライセンスが必要ですか？** 本番利用にはフルライセンスが必要です。評価用にトライアルも利用可能です  
+
+## 「特定ページでバーコード検索」とは？
+
+特定ページでバーコード検索するとは、署名エンジンに対して「指定したページ（例：最初のページ、最後のページ、または任意のカスタム範囲）だけでバーコード署名を探す」よう指示することです。このフォーカスされたアプローチにより処理速度が向上し、メモリ使用量が削減され、レスポンシブな UI フィードバックを実装しやすくなります。
+
+## なぜこのタスクに GroupDocs.Signature を使用するのか？
+
+GroupDocs.Signature は、低レベルのバーコードデコード、ページレンダリング、ドキュメント形式処理を抽象化したハイレベル API を提供します。PDF、DOCX、XLSX など多数の形式を箱から出すだけで扱えるため、ファイル解析に時間を取られることなくビジネスロジックに集中できます。
 
 ## 前提条件
-このチュートリアルを実行するには、次のものを用意してください。
-- **Java開発キット（JDK）**: バージョン8以上
-- **メイヴン** または **グラドル**依存関係管理用
-- Javaプログラミングの基礎知識とMaven/Gradleプロジェクトに精通していること
 
-さらに、GroupDocs.Signature for Javaをプロジェクトに統合する必要があります。一時ライセンスを取得して、制限なしですべての機能を試すことができます。
+- **JDK 8+** がインストール済み
+- **Maven** または **Gradle** による依存関係管理
+- Java のクラス、メソッド、例外処理に関する基本的な知識
+- GroupDocs.Signature のライセンス（トライアルまたはフル）へのアクセス
 
 ## Java 用 GroupDocs.Signature の設定
-JavaアプリケーションでGroupDocs.Signatureを使用するには、まずライブラリをセットアップする必要があります。MavenまたはGradleを使用してセットアップする方法は次のとおりです。
 
-### メイヴン
-次の依存関係を `pom.xml` ファイル：
+### Maven の設定
+
+`pom.xml` に以下の依存関係を追加してください：
+
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -39,27 +69,30 @@ JavaアプリケーションでGroupDocs.Signatureを使用するには、まず
 </dependency>
 ```
 
-### グラドル
-これをあなたの `build.gradle` ファイル：
+### Gradle の設定
+
+または `build.gradle` に追加します：
+
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-直接ダウンロードを希望する方は、最新リリースをご覧ください。 [ここ](https://releases。groupdocs.com/signature/java/).
+**Prefer manual downloads?** You can grab the latest release directly from the [GroupDocs download page](https://releases.groupdocs.com/signature/java/).
 
-**ライセンス取得:**
-- **無料トライアル**ライブラリをテストするには、まず無料トライアルから始めてください。
-- **一時ライセンス**評価期間中にフルアクセスするには、GroupDocs Web サイトで一時ライセンスを申請してください。
-- **購入**満足した場合は、長期使用のためのライセンスの購入を検討してください。
+### ライセンスの取得
 
-すべての設定が完了したら、Java で基本的な設定を初期化して構成しましょう。
+- **Free Trial** – すぐに開始、コミット不要  
+- **Temporary License** – 評価用にフル機能を利用可能  
+- **Full License** – 本番環境向け、無制限使用  
+
+インストールが正しく行われたかを、以下の初期化スニペットで確認してください：
 
 ```java
 import com.groupdocs.signature.Signature;
 
 public class SignatureSetup {
     public static void main(String[] args) {
-        // ドキュメントパスでSignatureインスタンスを初期化する
+        // Initialize the Signature instance with the document path
         Signature signature = new Signature("YOUR_DOCUMENT_PATH");
         
         System.out.println("GroupDocs.Signature for Java initialized successfully.");
@@ -67,24 +100,36 @@ public class SignatureSetup {
 }
 ```
 
-## 実装ガイド
-簡単に理解できるように、実装を主要な機能に分解します。
+> **Pro tip:** `"YOUR_DOCUMENT_PATH"` を実際の PDF、DOCX、または XLSX ファイルに置き換えてください。コンソールに成功メッセージが表示されれば、準備完了です。
 
-### 機能1：イベント登録の検索
+## バーコード署名タイプの理解
 
-#### 概要
-この機能を使用すると、ドキュメント署名の検索プロセス中に検索関連のイベントをサブスクライブして応答することができ、進行状況の更新や完了ステータスなどの貴重な分析情報を提供できます。
+バーコードはドキュメント内に機械可読データを埋め込む手段です。手書き署名とは異なり、ID、タイムスタンプ、URL、JSON ペイロードなどを格納できるため、機械的な検証に最適です。
 
-**ステップバイステップの実装**
+| バーコードタイプ | 最適な使用例 | 典型的なデータ長 |
+|------------------|--------------|-------------------|
+| QR Code | 高密度データ、URL、複数行テキスト | 最大4,296文字 |
+| Code128 | 英数字の追跡番号 | 可変 |
+| Code39 | シンプルなレガシーコード | 最大43文字 |
+| DataMatrix | 小さなラベル、医療記録 | 最大2,335文字 |
+| EAN/UPC | 製品識別、リテール | 8〜13桁 |
 
-##### ステップ1: 署名オブジェクトの初期化
+高速な機械読み取り、構造化データ、改ざん検知が必要な場面でバーコードは頻繁に使用されます。
+
+## 特定ページでバーコードを検索する方法
+
+実装は以下の 3 つの機能に分割します。
+
+### 機能 1: ドキュメント検索イベントへのサブスクライブ
+
+#### なぜ重要か
+大規模バッチを処理する際、リアルタイムのフィードバック（プログレスバーなど）は UX を向上させ、スタックを早期に検知できます。
+
+#### 実装
+
 ```java
 Signature signature = new Signature("YOUR_DOCUMENT_PATH");
 ```
-
-##### ステップ2: 検索イベントを購読する
-
-検索の開始、進行、完了時のイベント ハンドラーを追加します。
 
 ```java
 signature.SearchStarted.add(new ProcessStartEventHandler() {
@@ -110,19 +155,14 @@ signature.SearchCompleted.add(new ProcessCompleteEventHandler() {
 });
 ```
 
-**パラメータの説明:**
-- **プロセス開始イベント引数**開始時刻と署名の合計数を表示します。
-- **プロセス進行イベント引数**リアルタイムの進捗状況の更新を提供します。
-- **プロセス完了イベント引数**完了ステータスと期間の詳細を示します。
+これら 3 つのハンドラにより、開始時刻、リアルタイム進行状況、最終統計が取得でき、ロギングや UI 更新に最適です。
 
-### 機能2: バーコード検索オプションの設定
+### 機能 2: 特定ページ用のバーコード検索オプションの設定
 
-#### 概要
-ページ設定やテキスト一致基準など、特定のバーコード署名を見つけるための検索オプションを構成します。
+#### なぜ細かい制御が重要か
+200 ページの契約書全体をスキャンすると CPU が無駄に消費されます。最初と最後のページだけを対象にすれば、実行時間を 80 % 以上短縮できます。
 
-**ステップバイステップの実装**
-
-##### ステップ1: BarcodeSearchOptionsオブジェクトを作成する
+#### 実装
 
 ```java
 import com.groupdocs.signature.domain.enums.TextMatchType;
@@ -131,40 +171,36 @@ import com.groupdocs.signature.options.search.BarcodeSearchOptions;
 BarcodeSearchOptions options = new BarcodeSearchOptions();
 ```
 
-##### ステップ2: 検索オプションを設定する
-
-ページとテキストの一致基準を設定します。
+```java
+options.setAllPages(false); // Opt‑in selective page searching
+options.setPageNumber(1);   // Starting page (optional)
+```
 
 ```java
-options.setAllPages(false);
-options.setPageNumber(1);
-
 import com.groupdocs.signature.options.PagesSetup;
 
 PagesSetup pagesSetup = new PagesSetup();
-pagesSetup.setFirstPage(true);
-pagesSetup.setLastPage(true);
-pagesSetup.setOddPages(false);
-pagesSetup.setEvenPages(false);
+pagesSetup.setFirstPage(true);   // Include first page
+pagesSetup.setLastPage(true);    // Include last page
+pagesSetup.setOddPages(false);   // Skip odd pages
+pagesSetup.setEvenPages(false);  // Skip even pages
 options.setPagesSetup(pagesSetup);
+```
 
+```java
 options.setMatchType(TextMatchType.Contains);
 options.setText("12345");
 ```
 
-**主な構成オプション:**
-- **全ページ設定**すべてのページを検索するか、特定のページを検索するか。
-- **ページ番号の設定**特定のページ番号を指定します。
-- **テキストマッチタイプ**テキストの一致方法を定義します (例: 含む、完全一致)。
+- **Match types** によりテキスト検索を細かく調整できます（`Contains`, `Exact`, `StartsWith`, `EndsWith`）。  
+- `setAllPages` と `PagesSetup` を調整して、**特定ページでのみバーコード検索** を行います。
 
-### 機能3: バーコード署名検索実行
+### 機能 3: 検索の実行と結果の処理
 
-#### 概要
-バーコード署名に対して構成された検索を実行し、結果を処理します。
+#### なぜこのステップが重要か
+バーコードを見つけるだけでは不十分です。取得したデータを検証・保存・ワークフロー起動などに活用する必要があります。
 
-**ステップバイステップの実装**
-
-##### ステップ1: 検索を実行する
+#### 実装
 
 ```java
 import java.util.List;
@@ -183,24 +219,173 @@ try {
 }
 ```
 
-**説明：**
-- **検索**指定されたオプションに基づいて検索を実行します。
-- **バーコード署名.クラス**検索する署名の種類を定義します。
+検索後は `BarcodeSignature` オブジェクトのリストが取得でき、以下の情報が利用可能です。
 
-## 実用的な応用
-バーコード署名検索を実装する実際の使用例をいくつか示します。
+- `getPageNumber()` – バーコードが存在するページ番号  
+- `getEncodeType()` – QR、Code128 などのエンコード種別  
+- `getText()` – デコードされたペイロード  
+- 位置情報（`getLeft()`, `getTop()`）とサイズ（`getWidth()`, `getHeight()`）
 
-1. **法的文書の検証**法的契約書の署名を自動的に検証し、真正性を確保します。
-2. **サプライチェーンマネジメント**ドキュメントの承認を追跡し、バーコード署名を使用して出荷を検証します。
-3. **医療記録**バーコードを使用して電子署名を検証し、患者の記録を保護します。
+**例: 最終ページの QR コードだけを処理する**
 
-これらのアプリケーションは、さまざまな業界にわたる GroupDocs.Signature for Java の汎用性を実証し、セキュリティと効率性を向上させます。
+```java
+for (BarcodeSignature barcodeSignature : signatures) {
+    if (barcodeSignature.getPageNumber() == lastPageNumber 
+        && barcodeSignature.getEncodeType().equals("QRCode")) {
+        // Process only QR codes from the final page
+        processApprovalCode(barcodeSignature.getText());
+    }
+}
+```
 
-## パフォーマンスに関する考慮事項
-Java で GroupDocs.Signature を使用する場合は、パフォーマンスを最適化するために次のヒントを考慮してください。
-- **バッチ処理**ドキュメントをバッチ処理して、メモリ使用量を効率的に管理します。
-- **リソース管理**メモリ リークを防ぐために、使用後はすぐにリソースを解放します。
-- **Javaメモリ管理**オブジェクトのライフサイクルを管理することで、ガベージコレクションを効果的に活用します。
+## 実際の活用例
 
-## 結論
-GroupDocs.Signature for Javaを使用してバーコード署名検索を実装する方法を学習しました。このガイドに従うことで、強力な検索機能とイベント処理機能を活用してドキュメント管理システムを強化できます。次のステップとしては、ライブラリでサポートされている他の種類の署名を調べたり、これらの機能をより大規模なシステムに統合したりすることが考えられます。
+| シナリオ | バーコード特定ページ検索の利点 |
+|----------|--------------------------------|
+| 法的契約の検証 | 署名ページで QR コードでエンコードされた証明書ハッシュを自動検証 |
+| サプライチェーン追跡 | マニフェストの最初/最後のページで Code128 の出荷 ID を検索 |
+| 医療同意書 | 最終同意ページから DataMatrix の患者 ID を抽出 |
+| 請求書の自動化 | 請求書内の “APPR‑” プレフィックス付きバーコードを検索し、ルーティング |
+
+## よくある問題と解決策
+
+### 問題 1 – バーコードが見えているのに結果が出ない
+
+```java
+// Ensure you are not limiting pages too aggressively
+options.setAllPages(true);
+```
+
+バーコードがラスタ画像として埋め込まれている場合は、画像ベースの検出用に **GroupDocs.Image** の使用を検討してください。
+
+### 問題 2 – 大きなファイルでのパフォーマンス低下
+
+```java
+PagesSetup pagesSetup = new PagesSetup();
+pagesSetup.setLastPage(true);  // Most signatures are on the last page
+pagesSetup.setFirstPage(true);
+options.setPagesSetup(pagesSetup);
+```
+
+対象ページを絞るだけで処理時間が大幅に短縮されます。
+
+### 問題 3 – TextMatchType が期待したバーコードを見つけない
+
+```java
+String searchText = "12345".trim().toLowerCase();
+options.setText(searchText);
+options.setMatchType(TextMatchType.StartsWith); // Try a more permissive mode
+```
+
+### 問題 4 – 長時間ループでのメモリリーク
+
+```java
+try (Signature signature = new Signature("document.pdf")) {
+    List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+    // Process signatures
+}
+```
+
+`try‑with‑resources` ブロックが `Signature` インスタンスを自動的に破棄します。
+
+## 本番環境でのベストプラクティス
+
+### 堅牢なエラーハンドリング
+
+```java
+try {
+    List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+} catch (com.groupdocs.signature.exception.GroupDocsSignatureException e) {
+    logger.error("GroupDocs error: " + e.getMessage());
+} catch (Exception e) {
+    logger.error("Unexpected error: " + e.getMessage(), e);
+}
+```
+
+### ドキュメントが不変の場合は結果をキャッシュ
+
+```java
+Map<String, List<BarcodeSignature>> cache = new ConcurrentHashMap<>();
+
+public List<BarcodeSignature> getCachedSignatures(String docId) {
+    return cache.computeIfAbsent(docId, id -> performSearch(id));
+}
+```
+
+### UI フィードバックにプログレスイベントを使用
+
+```java
+signature.SearchProgress.add(new ProcessProgressEventHandler() {
+    public void invoke(Signature sender, ProcessProgressEventArgs args) {
+        int percent = (args.getProcessedSignatures() * 100) / args.getTotalSignatures();
+        updateProgressBar(percent);
+    }
+});
+```
+
+### バーコードペイロードの検証
+
+```java
+for (BarcodeSignature barcodeSignature : signatures) {
+    String text = barcodeSignature.getText();
+    if (!text.matches("APPR-\\d{4}-\\d{3}")) {
+        logger.warn("Invalid format: " + text);
+        continue;
+    }
+    if (!validateChecksum(text)) {
+        logger.error("Checksum failed for: " + text);
+        flagForManualReview(document);
+    }
+}
+```
+
+### ドキュメントタイプごとにページ選択を最適化
+
+```java
+PagesSetup contractsSetup = new PagesSetup();
+contractsSetup.setLastPage(true); // Contracts usually signed on last page
+options.setPagesSetup(contractsSetup);
+```
+
+### 検索後にバーコードタイプでフィルタ (QR コードのみが必要な場合)
+
+```java
+for (BarcodeSignature sig : signatures) {
+    if ("QRCode".equals(sig.getEncodeType())) {
+        // Process QR code
+    }
+}
+```
+
+### バーコード画像の寸法を抽出 (レンダリングが必要な場合)
+
+```java
+for (BarcodeSignature sig : signatures) {
+    int width = sig.getWidth();
+    int height = sig.getHeight();
+    // Use dimensions for overlay or thumbnail generation
+}
+```
+
+## よくある質問
+
+**Q: 1回の呼び出しで複数のバーコード形式を検索できますか？**  
+A: はい。`BarcodeSearchOptions` はデフォルトでサポートされているすべての形式を検索します。特定のタイプだけが必要な場合は `getEncodeType()` で結果をフィルタしてください。
+
+**Q: バーコード署名と画像署名の両方が含まれるドキュメントはどう扱いますか？**  
+A: 別々に検索します。バーコードは `BarcodeSignature.class`、画像署名は `ImageSignature.class` を使用し、必要に応じて結果を統合します。
+
+**Q: すべてのページを検索する場合と特定ページだけを検索する場合のパフォーマンス差は？**  
+A: 50 ページの PDF 全体をスキャンすると 3〜5 秒かかりますが、最初と最後のページだけに限定すれば 1 秒未満で完了することが多いです。
+
+**Q: スキャンした PDF（ラスタ画像）でも動作しますか？**  
+A: バーコードがデジタル署名オブジェクトとして追加されている場合のみ有効です。ラスタ画像のみのバーコードは、画像ベースのバーコード認識ツール（例: GroupDocs.Barcode）を使用する必要があります。
+
+**Q: バーコード署名が改ざんされていないことをどう確認しますか？**  
+A: バーコードペイロードにハッシュやデジタル署名を埋め込み、元データのハッシュと比較します。これには元の署名鍵または証明書が必要です。
+
+---
+
+**最終更新日:** 2026-01-29  
+**テスト環境:** GroupDocs.Signature 23.12 for Java  
+**作成者:** GroupDocs

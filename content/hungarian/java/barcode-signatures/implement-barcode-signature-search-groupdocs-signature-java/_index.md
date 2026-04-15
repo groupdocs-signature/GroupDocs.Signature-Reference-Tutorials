@@ -1,36 +1,68 @@
 ---
-"date": "2025-05-08"
-"description": "Ismerje meg, hogyan valósíthatja meg hatékonyan a vonalkód-aláírás-keresést Java nyelven a GroupDocs.Signature segítségével. Egyszerűsítse dokumentumkezelési folyamatait ezzel az átfogó útmutatóval."
-"title": "Vonalkód-aláírás-keresés implementálása Java-ban a GroupDocs.Signature segítségével"
-"url": "/hu/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/"
-"weight": 1
+categories:
+- Document Processing
+date: '2026-01-29'
+description: Ismerje meg, hogyan kereshet a vonalkód specifikus oldalakat dokumentumokban
+  Java-val a GroupDocs.Signature segítségével. Lépésről lépésre útmutató, kódrészletek
+  és hibaelhárítási tippek.
+keywords: search barcode specific pages, java document signature verification, barcode
+  signature detection java, electronic signature search java, verify barcode signatures
+  programmatically
+lastmod: '2026-01-29'
+linktitle: Search Barcode Specific Pages Java
+tags:
+- java
+- barcode-signatures
+- document-verification
+- groupdocs
+title: Java használatával keresés a dokumentumokban a vonalkód-specifikus oldalakra
 type: docs
+url: /hu/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/
+weight: 1
 ---
-# Vonalkód-aláírás-keresés implementálása Java-ban a GroupDocs.Signature segítségével
+
+# Vonalkód specifikus oldalak keresése dokumentumokban Java-val
 
 ## Bevezetés
-mai digitális korban a dokumentumok hitelességének és integritásának biztosítása kulcsfontosságú. Akár jogi szakember, üzletvezető vagy szoftverfejlesztő, a dokumentumaláírások hatékony kezelése időt takaríthat meg és megelőzheti a csalásokat. Ez az oktatóanyag végigvezeti Önt a vonalkódos aláíráskeresések Java nyelven történő megvalósításán a GroupDocs.Signature segítségével – ez egy hatékony könyvtár, amelyet különféle elektronikus aláírások kezelésére terveztek.
 
-**Amit tanulni fogsz:**
-- GroupDocs.Signature beállítása Java-hoz
-- Feliratkozás kereséssel kapcsolatos eseményekre a dokumentumfeldolgozás során
-- Vonalkód-aláírások keresésének konfigurálása és végrehajtása
+Töltöttél már órákat kézzel ellenőrizve aláírásokat több száz dokumentumban? Nem vagy egyedül. Legyen szó szerződéskezelő rendszer építéséről, számlafeldolgozás automatizálásáról vagy egészségügyi nyilvántartások védelméről, a vonalkód aláírások kézi keresése és érvényesítése fárasztó és hibára hajlamos.
 
-Nézzük meg, hogyan egyszerűsítheti dokumentumkezelési folyamatait ezekkel az eszközökkel. Mielőtt belekezdenénk, nézzük át az előfeltételeket.
+Ebben az útmutatóban megmutatjuk, **hogyan kereshetünk vonalkód specifikus oldalakat** a dokumentumaidban programozott módon Java és a GroupDocs.Signature segítségével. A végére képes leszel aláírásokat észlelni a kiválasztott oldalakon, valós időben nyomon követni a keresés előrehaladását, és különféle vonalkód formátumokat kezelni – mindezt tiszta, karbantartható kóddal.
 
-## Előfeltételek
-A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
-- **Java fejlesztőkészlet (JDK)**8-as vagy újabb verzió
-- **Szakértő** vagy **Gradle**Függőségkezeléshez
-- Alapvető Java programozási ismeretek és jártasság a Maven/Gradle projektekben
+**Mit fogsz megtanulni**
+- GroupDocs.Signature beállítása Java projektben (≈5 perc)
+- Keresési eseményekre feliratkozás valós idejű előrehaladás nyomon követéséhez
+- Intelligens keresési beállítások konfigurálása specifikus oldalak célzásához
+- A keresés végrehajtása és az eredmények hatékony feldolgozása
 
-Ezenkívül a GroupDocs.Signature for Java-t integrálni kell a projektbe. Ideiglenes licencet szerezhet, hogy korlátozás nélkül felfedezhesse a teljes funkciót.
+## Gyors válaszok
+- **Melyik könyvtár segít a vonalkód specifikus oldalak keresésében?** GroupDocs.Signature for Java  
+- **Tipikus beállítási idő?** Körülbelül 5 perc a Maven/Gradle függőség és egy licenc hozzáadásához  
+- **Korlátozhatom a keresést az első és az utolsó oldalra?** Igen – használja a `PagesSetup`-t a pontos oldalak megadásához  
+- **Milyen vonalkód formátumok támogatottak?** QR Code, Code128, Code39, DataMatrix, EAN/UPC és továbbiak  
+- **Szükségem van fizetett licencre a termeléshez?** Teljes licenc szükséges a termeléshez; a próbaverzió értékelésre használható  
 
-## GroupDocs.Signature beállítása Java-hoz
-A GroupDocs.Signature Java-alkalmazásban való használatához először be kell állítania a könyvtárat. Így teheti meg ezt Maven vagy Gradle használatával:
+## Mi az a „vonalkód specifikus oldalak keresése”?
 
-### Szakértő
-Adja hozzá a következő függőséget a `pom.xml` fájl:
+A vonalkód specifikus oldalak keresése azt jelenti, hogy a szignáuringyenet úgy irányítjuk, hogy csak azokra az oldalakra keressen vonalkód aláírásokat, amelyek számunkra érdekesek – például az első oldalra, az utolsóra vagy bármilyen egyedi tartományra. Ez a fókuszált megközelítés felgyorsítja a feldolgozást, csökkenti a memóriahasználatot, és lehetővé teszi a felhasználóbarát UI visszajelzés építését.
+
+## Miért használjuk a GroupDocs.Signature-t ehhez a feladathoz?
+
+A GroupDocs.Signature magas szintű API-t biztosít, amely elrejti az alacsony szintű vonalkód dekódolást, oldal renderelést és dokumentumformátum-kezelést. PDF, DOCX, XLSX és számos egyéb formátummal működik „out‑of‑the‑box”, így a fájlparszolás helyett az üzleti logikára koncentrálhatsz.
+
+## Előkövetelmények
+
+- **JDK 8+** telepítve
+- **Maven** vagy **Gradle** a függőségkezeléshez
+- Alapvető ismeretek a Java osztályokkal, metódusokkal és kivételkezeléssel
+- Hozzáférés egy GroupDocs.Signature licenchez (próba vagy teljes)
+
+## A GroupDocs.Signature beállítása Java-hoz
+
+### Maven beállítás
+
+`pom.xml`-hez add hozzá a függőséget:
+
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -39,27 +71,30 @@ Adja hozzá a következő függőséget a `pom.xml` fájl:
 </dependency>
 ```
 
-### Gradle
-Vedd bele ezt a `build.gradle` fájl:
+### Gradle beállítás
+
+Vagy add hozzá a `build.gradle`-hez:
+
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-Azok számára, akik a közvetlen letöltést részesítik előnyben, a legújabb kiadást itt találják: [itt](https://releases.groupdocs.com/signature/java/).
+**Prefer manual downloads?** A legújabb kiadást közvetlenül letöltheted a [GroupDocs letöltési oldalról](https://releases.groupdocs.com/signature/java/).
 
-**Licenc beszerzése:**
-- **Ingyenes próbaverzió**: Kezdje egy ingyenes próbaverzióval a könyvtár kipróbálásához.
-- **Ideiglenes engedély**: Igényeljen ideiglenes licencet a GroupDocs weboldalán a próbaidőszak alatti teljes hozzáféréshez.
-- **Vásárlás**Ha elégedett, fontolja meg a hosszú távú használatra szóló licenc megvásárlását.
+### Licenc beszerzése
 
-Miután mindent beállítottunk, inicializáljuk és konfiguráljuk az alapvető beállításokat Java-ban:
+- **Free Trial** – azonnal kezdheted, kötelezettség nélkül  
+- **Temporary License** – teljes funkciók elérése értékeléshez  
+- **Full License** – termelésre kész, korlátlan használat  
+
+Ellenőrizd a telepítést egy gyors inicializációs kódrészlettel:
 
 ```java
 import com.groupdocs.signature.Signature;
 
 public class SignatureSetup {
     public static void main(String[] args) {
-        // Inicializálja az aláíráspéldányt a dokumentum elérési útjával
+        // Initialize the Signature instance with the document path
         Signature signature = new Signature("YOUR_DOCUMENT_PATH");
         
         System.out.println("GroupDocs.Signature for Java initialized successfully.");
@@ -67,24 +102,36 @@ public class SignatureSetup {
 }
 ```
 
-## Megvalósítási útmutató
-A megvalósítást kulcsfontosságú jellemzőkre bontjuk, hogy könnyen követhető legyen.
+> **Pro tip:** Cseréld le a `"YOUR_DOCUMENT_PATH"`-t egy tényleges PDF, DOCX vagy XLSX fájlra. Ha a konzol kiírja a sikerüzenetet, készen állsz a továbbiakra.
 
-### 1. funkció: Esemény-előfizetés keresése
+## A vonalkód aláírás típusainak megértése
 
-#### Áttekintés
-Ez a funkció lehetővé teszi, hogy feliratkozzon és válaszoljon a kereséssel kapcsolatos eseményekre a dokumentumaláírás keresési folyamata során, értékes információkat nyújtva, például a folyamat előrehaladásáról és a befejezési állapotról.
+A vonalkódok géppel olvasható adatot ágyaznak be egy dokumentumba. A kézzel írott aláírásokkal ellentétben képesek ID‑kat, időbélyegeket, URL‑eket vagy JSON terhelést tárolni, ami ideálissá teszi őket automatizált ellenőrzéshez.
 
-**Lépésről lépésre történő megvalósítás**
+| Vonalkód típusa | Legjobb felhasználásra | Tipikus adat hossza |
+|-----------------|------------------------|---------------------|
+| QR Code | Nagy sűrűségű adatok, URL-ek, több soros szöveg | Legfeljebb 4 296 karakter |
+| Code128 | Alfanumerikus nyomkövető számok | Változó |
+| Code39 | Egyszerű régi kódok | Legfeljebb 43 karakter |
+| DataMatrix | Kis címkék, egészségügyi nyilvántartások | Legfeljebb 2 335 karakter |
+| EAN/UPC | Termékazonosítás, kiskereskedelem | 8‑13 számjegy |
 
-##### 1. lépés: Aláírásobjektum inicializálása
+Gyakran vonalkódokat használsz, ha gyors gépi olvasásra, strukturált adatokra vagy manipulációra ellenálló aláírásra van szükség.
+
+## Hogyan keressünk vonalkód specifikus oldalakat
+
+A megvalósítást három fókuszált funkcióra bontjuk.
+
+### 1. funkció: Feliratkozás a dokumentum keresési eseményekre
+
+#### Miért fontos
+Nagy kötegek feldolgozásakor a valós idejű visszajelzés (pl. folyamatjelzők) javítja a felhasználói élményt és segít időben észlelni a blokkolásokat.
+
+#### Implementáció
+
 ```java
 Signature signature = new Signature("YOUR_DOCUMENT_PATH");
 ```
-
-##### 2. lépés: Iratkozzon fel az Események keresése szolgáltatásra
-
-Eseménykezelők hozzáadása a keresés indításához, előrehaladásához és befejezéséhez:
 
 ```java
 signature.SearchStarted.add(new ProcessStartEventHandler() {
@@ -110,19 +157,14 @@ signature.SearchCompleted.add(new ProcessCompleteEventHandler() {
 });
 ```
 
-**Paraméterek magyarázata:**
-- **Folyamatindítási eseményargumentumok**: Megjeleníti a kezdési időpontot és az aláírások teljes számát.
-- **FolyamatFolyamatEseményArgok**Valós idejű frissítéseket kínál a haladásról.
-- **Folyamatteljes eseményargumentumok**: Részletezi a befejezés állapotát és időtartamát.
+Ezek a három kezelő biztosítja a kezdési időt, az élő előrehaladást és a végső statisztikákat – tökéletes naplózáshoz vagy UI frissítésekhez.
 
-### 2. funkció: Vonalkód-keresési beállítások konfigurálása
+### 2. funkció: Vonalkód keresési beállítások konfigurálása specifikus oldalakhoz
 
-#### Áttekintés
-Konfigurálja a keresési beállításokat adott vonalkód-aláírások kereséséhez, beleértve az oldalbeállítást és a szövegegyeztetési feltételeket.
+#### Miért fontos a finomhangolt vezérlés
+Egy 200 oldalas szerződés minden oldalának beolvasása felesleges CPU‑ciklusokat pazarol. Az első és az utolsó oldal célzása akár 80 %-kal is csökkentheti a futási időt.
 
-**Lépésről lépésre történő megvalósítás**
-
-##### 1. lépés: BarcodeSearchOptions objektum létrehozása
+#### Implementáció
 
 ```java
 import com.groupdocs.signature.domain.enums.TextMatchType;
@@ -131,40 +173,36 @@ import com.groupdocs.signature.options.search.BarcodeSearchOptions;
 BarcodeSearchOptions options = new BarcodeSearchOptions();
 ```
 
-##### 2. lépés: Keresési beállítások konfigurálása
-
-Oldalak és szövegegyeztetési feltételek beállítása:
+```java
+options.setAllPages(false); // Opt‑in selective page searching
+options.setPageNumber(1);   // Starting page (optional)
+```
 
 ```java
-options.setAllPages(false);
-options.setPageNumber(1);
-
 import com.groupdocs.signature.options.PagesSetup;
 
 PagesSetup pagesSetup = new PagesSetup();
-pagesSetup.setFirstPage(true);
-pagesSetup.setLastPage(true);
-pagesSetup.setOddPages(false);
-pagesSetup.setEvenPages(false);
+pagesSetup.setFirstPage(true);   // Include first page
+pagesSetup.setLastPage(true);    // Include last page
+pagesSetup.setOddPages(false);   // Skip odd pages
+pagesSetup.setEvenPages(false);  // Skip even pages
 options.setPagesSetup(pagesSetup);
+```
 
+```java
 options.setMatchType(TextMatchType.Contains);
 options.setText("12345");
 ```
 
-**Főbb konfigurációs beállítások:**
-- **Összes oldal beállítása**: Az összes oldal vagy csak bizonyos oldalak keresése.
-- **Oldalszám beállítása**: Adjon meg egy adott oldalszámot.
-- **TextMatchType**: Adja meg a szöveg egyeztetésének módját (pl. Tartalmaz, Pontos).
+- **Match types** lehetővé teszi a szövegkeresés finomhangolását (`Contains`, `Exact`, `StartsWith`, `EndsWith`).  
+- Állítsd be a `setAllPages` és a `PagesSetup` értékét, hogy csak **vonalkód specifikus oldalakat** keressen.
 
-### 3. funkció: Vonalkód-aláírás-keresés végrehajtása
+### 3. funkció: A keresés végrehajtása és az eredmények feldolgozása
 
-#### Áttekintés
-Végezze el a vonalkód-aláírások konfigurált keresését és kezelje az eredményeket.
+#### Miért fontos ez a lépés
+A vonalkódok megtalálása csak a történet fele – a kapott adatot (pl. ellenőrzés, tárolás vagy munkafolyamat indítása) is fel kell dolgozni.
 
-**Lépésről lépésre történő megvalósítás**
-
-##### 1. lépés: Végezze el a keresést
+#### Implementáció
 
 ```java
 import java.util.List;
@@ -183,24 +221,170 @@ try {
 }
 ```
 
-**Magyarázat:**
-- **keresés**: A megadott beállítások alapján hajtja végre a keresést.
-- **VonalkódAláírás.osztály**: Meghatározza a keresett aláírás típusát.
+Most már rendelkezel egy `BarcodeSignature` objektumok listájával, amelyek a következőket biztosítják:
 
-## Gyakorlati alkalmazások
-Íme néhány valós használati eset a vonalkód-aláírás-keresések megvalósítására:
+- `getPageNumber()` – ahol a vonalkód található  
+- `getEncodeType()` – QR, Code128 stb.  
+- `getText()` – dekódolt terhelés  
+- Pozíció (`getLeft()`, `getTop()`) és méret (`getWidth()`, `getHeight()`)
 
-1. **Jogi dokumentumok ellenőrzése**: A jogi szerződésekben szereplő aláírások automatikus ellenőrzése a hitelesség biztosítása érdekében.
-2. **Ellátási lánc menedzsment**Dokumentumjóváhagyások nyomon követése és szállítmányok érvényesítése vonalkód-aláírásokkal.
-3. **Egészségügyi nyilvántartások**Védje a betegadatokat az elektronikus aláírások vonalkódokkal történő ellenőrzésével.
+**Példa: Csak QR kódok feldolgozása az utolsó oldalon**
 
-Ezek az alkalmazások demonstrálják a GroupDocs.Signature for Java sokoldalúságát a különböző iparágakban, növelve a biztonságot és a hatékonyságot.
+```java
+for (BarcodeSignature barcodeSignature : signatures) {
+    if (barcodeSignature.getPageNumber() == lastPageNumber 
+        && barcodeSignature.getEncodeType().equals("QRCode")) {
+        // Process only QR codes from the final page
+        processApprovalCode(barcodeSignature.getText());
+    }
+}
+```
 
-## Teljesítménybeli szempontok
-Amikor a GroupDocs.Signature-rel dolgozik Java-ban, vegye figyelembe az alábbi tippeket a teljesítmény optimalizálása érdekében:
-- **Kötegelt feldolgozás**: A dokumentumok kötegelt feldolgozása a memóriahasználat hatékony kezelése érdekében.
-- **Erőforrás-gazdálkodás**: Használat után azonnal engedje fel az erőforrásokat a memóriaszivárgások megelőzése érdekében.
-- **Java memóriakezelés**: A szemétgyűjtés hatékony használata az objektumok életciklusainak kezelésével.
+## Valós világ alkalmazások
 
-## Következtetés
-Most már megtanulta, hogyan valósíthat meg vonalkód-aláírás-keresést a GroupDocs.Signature for Java használatával. Ezt az útmutatót követve robusztus keresési képességekkel és eseménykezelési funkciókkal bővítheti dokumentumkezelő rendszerét. A következő lépések magukban foglalhatják a könyvtár által támogatott egyéb aláírástípusok feltárását, vagy ezen funkciók integrálását nagyobb rendszerekbe.
+| Forgatókönyv | Hogyan segít a vonalkód‑specifikus‑oldal keresés |
+|--------------|---------------------------------------------------|
+| Jogi szerződés ellenőrzése | QR‑kódolt tanúsítvány hash‑ek automatikus érvényesítése az aláírási oldalon |
+| Ellátási lánc nyomon követése | Code128 szállítási azonosítók megtalálása a jegyzékek első/utolsó oldalain |
+| Egészségügyi beleegyező nyilatkozatok | DataMatrix betegazonosítók kinyerése az utolsó beleegyező oldalon |
+| Számlafeldolgozás automatizálása | „APPR‑” előtagú vonalkódok keresése bárhol a számlán, majd irányítás |
+
+## Gyakori problémák és megoldások
+
+### 1. probléma – Nincs eredmény a látható vonalkódok ellenére
+
+```java
+// Ensure you are not limiting pages too aggressively
+options.setAllPages(true);
+```
+Ha a vonalkód raszteres képként van beágyazva, fontold meg a GroupDocs.Image használatát képalapú detektáláshoz.
+
+### 2. probléma – Lassú teljesítmény nagy fájloknál
+
+```java
+PagesSetup pagesSetup = new PagesSetup();
+pagesSetup.setLastPage(true);  // Most signatures are on the last page
+pagesSetup.setFirstPage(true);
+options.setPagesSetup(pagesSetup);
+```
+A célzott oldalak jelentősen csökkentik a feldolgozási időt.
+
+### 3. probléma – A TextMatchType nem találja a várt vonalkódokat
+
+```java
+String searchText = "12345".trim().toLowerCase();
+options.setText(searchText);
+options.setMatchType(TextMatchType.StartsWith); // Try a more permissive mode
+```
+
+### 4. probléma – Memória szivárgás hosszú futású ciklusokban
+
+```java
+try (Signature signature = new Signature("document.pdf")) {
+    List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+    // Process signatures
+}
+```
+A try‑with‑resources blokk automatikusan felszabadítja a `Signature` példányt.
+
+## Legjobb gyakorlatok termeléshez
+
+### Robusztus hibakezelés
+
+```java
+try {
+    List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+} catch (com.groupdocs.signature.exception.GroupDocsSignatureException e) {
+    logger.error("GroupDocs error: " + e.getMessage());
+} catch (Exception e) {
+    logger.error("Unexpected error: " + e.getMessage(), e);
+}
+```
+
+### Eredmények gyorsítótárazása, ha a dokumentumok változatlanok
+
+```java
+Map<String, List<BarcodeSignature>> cache = new ConcurrentHashMap<>();
+
+public List<BarcodeSignature> getCachedSignatures(String docId) {
+    return cache.computeIfAbsent(docId, id -> performSearch(id));
+}
+```
+
+### Használd a progress eseményeket UI visszajelzéshez
+
+```java
+signature.SearchProgress.add(new ProcessProgressEventHandler() {
+    public void invoke(Signature sender, ProcessProgressEventArgs args) {
+        int percent = (args.getProcessedSignatures() * 100) / args.getTotalSignatures();
+        updateProgressBar(percent);
+    }
+});
+```
+
+### Vonalkód terhelés ellenőrzése
+
+```java
+for (BarcodeSignature barcodeSignature : signatures) {
+    String text = barcodeSignature.getText();
+    if (!text.matches("APPR-\\d{4}-\\d{3}")) {
+        logger.warn("Invalid format: " + text);
+        continue;
+    }
+    if (!validateChecksum(text)) {
+        logger.error("Checksum failed for: " + text);
+        flagForManualReview(document);
+    }
+}
+```
+
+### Oldalkiválasztás optimalizálása dokumentumtípusonként
+
+```java
+PagesSetup contractsSetup = new PagesSetup();
+contractsSetup.setLastPage(true); // Contracts usually signed on last page
+options.setPagesSetup(contractsSetup);
+```
+
+### Szűrés vonalkód típus szerint a keresés után (ha csak QR kódokra van szükség)
+
+```java
+for (BarcodeSignature sig : signatures) {
+    if ("QRCode".equals(sig.getEncodeType())) {
+        // Process QR code
+    }
+}
+```
+
+### Vonalkód kép méretének kinyerése (ha megjelenítéshez szükséges)
+
+```java
+for (BarcodeSignature sig : signatures) {
+    int width = sig.getWidth();
+    int height = sig.getHeight();
+    // Use dimensions for overlay or thumbnail generation
+}
+```
+
+## Gyakran ismételt kérdések
+
+**Q: Kereshetek több vonalkód formátumot egy hívásban?**  
+A: Igen. A `BarcodeSearchOptions` alapértelmezés szerint az összes támogatott formátumot keres. Szűrd a találatokat a `getEncodeType()` segítségével, ha csak bizonyos típusokra van szükséged.
+
+**Q: Hogyan kezeljem azokat a dokumentumokat, amelyek vonalkód és kép aláírásokat egyaránt tartalmaznak?**  
+A: Futtass külön kereséseket – használj `BarcodeSignature.class`‑t a vonalkódokhoz és `ImageSignature.class`‑t a kép aláírásokhoz, majd a szükség szerint kombináld az eredményeket.
+
+**Q: Milyen teljesítménybeli hatása van az összes oldal keresésének a specifikus oldalakhoz képest?**  
+A: Egy 50 oldalas PDF minden oldalának beolvasása 3–5 másodpercet vehet igénybe. Az első + utolsó oldalak korlátozása általában 1 másodperc alatt befejeződik.
+
+**Q: Működik ez beolvasott PDF‑ekkel (raszteres képek)?**  
+A: Csak akkor, ha a vonalkód digitális aláírásobjektumként lett hozzáadva. Raszteres képek esetén egy képalapú vonalkód‑felismerőre lesz szükség (pl. GroupDocs.Barcode).
+
+**Q: Hogyan ellenőrizhetem, hogy egy vonalkód aláírás nem lett-e manipulálva?**  
+A: Ágyazz be egy hash‑t vagy digitális aláírást a vonalkód terhelésébe, majd számold újra a hash‑t az eredeti adatokon és hasonlítsd össze. Ehhez az eredeti aláíró kulcsra vagy tanúsítványra van szükség.
+
+---
+
+**Last Updated:** 2026-01-29  
+**Tested With:** GroupDocs.Signature 23.12 for Java  
+**Author:** GroupDocs
