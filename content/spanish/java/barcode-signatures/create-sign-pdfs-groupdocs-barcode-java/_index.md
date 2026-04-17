@@ -1,84 +1,84 @@
 ---
 categories:
 - Java PDF Processing
-date: '2026-01-08'
-description: Aprende a crear un PDF con firma de código de barras en Java de forma
-  programática. Esta guía paso a paso con GroupDocs.Signature muestra cómo generar
-  PDFs con códigos de barras de manera eficiente.
+date: '2026-03-22'
+description: Aprende cómo agregar códigos de barras a archivos PDF en Java usando
+  GroupDocs.Signature. Este tutorial paso a paso muestra cómo generar PDFs con códigos
+  de barras de manera eficiente y fiable.
 keywords: add barcode to PDF Java, generate barcode in PDF programmatically, Java
   PDF barcode library, sign PDF with barcode Java, create barcode signature PDF
-lastmod: '2026-01-08'
+lastmod: '2026-03-22'
 linktitle: Add Barcode to PDF Java
 tags:
 - barcode-generation
 - pdf-signing
 - document-automation
 - groupdocs
-title: Crear firma de código de barras PDF en Java – Guía de GroupDocs
+title: Cómo agregar código de barras a PDF en Java – Guía de GroupDocs
 type: docs
 url: /es/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/
 weight: 1
 ---
 
-# Cómo agregar código de barras a documentos PDF Java
+# Cómo agregar código de barras a PDF en Java
 
 ## Introducción
 
-¿Alguna vez necesitaste rastrear facturas automáticamente, verificar la autenticidad de un contrato o gestionar documentos de inventario a gran escala? **Crear una firma de código de barras en PDF** de forma programática en Java resuelve estos problemas—y si trabajas con Java, tienes opciones sólidas.
+¿Alguna vez necesitaste rastrear facturas automáticamente, verificar la autenticidad de contratos o gestionar documentos de inventario a gran escala? **Aprender a agregar códigos de barras** a archivos PDF de forma programática resuelve estos problemas, y si trabajas en Java, tienes una opción sólida y probada.
 
-Agregar códigos de barras a PDFs manualmente no escala. Ya sea que proceses 10 facturas o 10 000, necesitas una forma confiable de **crear PDF con firma de código de barras**. Ahí es donde una buena biblioteca de códigos de barras para PDF en Java resulta útil.
+Agregar códigos de barras manualmente no escala. Ya sea que estés procesando diez facturas o diez mil, necesitas una forma confiable de **agregar códigos de barras a PDF**. Ahí es donde una buena biblioteca Java de códigos de barras para PDF resulta útil.
 
-En esta guía, te mostraré cómo agregar un código de barras a archivos PDF Java usando GroupDocs.Signature, una biblioteca que se encarga del trabajo pesado mientras te brinda control granular sobre la posición, el tamaño y los tipos de códigos de barras. Al final, sabrás cómo firmar PDFs con código de barras en Java, manejar casos extremos y evitar errores comunes que tropiezan a los desarrolladores.
+En esta guía, te mostraré cómo agregar códigos de barras a archivos PDF en Java usando GroupDocs.Signature, una biblioteca que realiza el trabajo pesado mientras te brinda un control fino sobre la posición, el tamaño y los tipos de códigos de barras. Al final, sabrás cómo firmar PDF con código Java de códigos de barras, manejar casos extremos y evitar errores comunes que atrapan a los desarrolladores.
 
 **Lo que aprenderás:**
-- Por qué los códigos de barras en PDFs son importantes para tu flujo de trabajo
-- Configurar GroupDocs.Signature para Java (de la manera correcta)
-- Crear y posicionar firmas de código de barras con precisión
-- Manejar errores y optimizar el rendimiento
-- Aplicaciones reales en diferentes industrias
+- Por qué los códigos de barras en PDFs son importantes para tu flujo de trabajo  
+- Configurar GroupDocs.Signature para Java (de la manera correcta)  
+- Crear y posicionar firmas de códigos de barras con precisión  
+- Manejar errores y optimizar el rendimiento  
+- Aplicaciones reales en diferentes industrias  
 
 ## Respuestas rápidas
-- **¿Qué biblioteca debo usar?** GroupDocs.Signature para Java
-- **¿Cómo creo un PDF con firma de código de barras?** Usa `BarcodeSignOptions` con `Signature.sign()`
-- **¿Qué tipo de código de barras es mejor para la mayoría de los casos?** Code128
-- **¿Puedo agregar varios códigos de barras a un mismo PDF?** Sí, llama a `sign()` varias veces o pasa una lista
-- **¿Necesito una licencia para producción?** Sí, una licencia válida de GroupDocs elimina las marcas de agua
+- **¿Qué biblioteca debo usar?** GroupDocs.Signature for Java  
+- **¿Cómo creo un PDF con firma de código de barras?** Usa `BarcodeSignOptions` con `Signature.sign()`  
+- **¿Qué tipo de código de barras es mejor para la mayoría de los casos?** Code128  
+- **¿Puedo agregar varios códigos de barras a un PDF?** Sí, llama a `sign()` varias veces o pasa una lista  
+- **¿Necesito una licencia para producción?** Sí, una licencia válida de GroupDocs elimina las marcas de agua  
 
-## ¿Por qué agregar códigos de barras a los PDFs?
+## ¿Por qué agregar códigos de barras a PDFs?
 
-Antes de entrar en el código, hablemos de por qué esto importa. Los códigos de barras en PDFs no solo hacen que el documento se vea profesional—resuelven problemas reales de negocio:
+Antes de sumergirnos en el código, hablemos de por qué esto es importante. Los códigos de barras en PDFs no solo sirven para lucir profesionales, sino que resuelven problemas reales de negocio:
 
-**Verificación de documentos**: Los códigos de barras pueden codificar identificadores únicos que hacen que la falsificación sea casi imposible. Cuando alguien escanea el código, tu sistema puede verificar al instante si el documento es legítimo.
+**Verificación de documentos** – Los códigos de barras pueden codificar identificadores únicos que hacen que la falsificación sea casi imposible. Cuando alguien escanea el código de barras, tu sistema puede verificar instantáneamente si el documento es legítimo.
 
-**Automatización de flujos de trabajo**: En lugar de escribir manualmente IDs de documentos o números de seguimiento, tu personal (o clientes) puede escanear un código de barras. Esto reduce el error humano en aproximadamente un 95 % comparado con la entrada manual de datos.
+**Automatización de flujo de trabajo** – En lugar de escribir manualmente IDs de documentos o números de seguimiento, tu personal (o clientes) pueden escanear un código de barras. Esto reduce el error humano en aproximadamente un 95 % comparado con la entrada manual de datos.
 
-**Integración con sistemas existentes**: La mayoría de los ERP, sistemas de inventario y de gestión documental ya “hablan” código de barras. Añadirlos a tus PDFs significa integración sin problemas sin necesidad de crear APIs personalizadas.
+**Integración con sistemas existentes** – La mayoría de los ERP, sistemas de inventario y gestión documental ya entienden “código de barras”. Agregarlos a tus PDFs significa una integración sin problemas sin crear APIs personalizadas.
 
-**Requisitos de cumplimiento**: Muchas industrias (salud, logística, legal) exigen trazabilidad de documentos. Los códigos de barras proporcionan una pista de auditoría que satisface los requisitos regulatorios.
+**Requisitos de cumplimiento** – Muchas industrias (salud, logística, legal) requieren trazabilidad de documentos. Los códigos de barras proporcionan una pista de auditoría que satisface los requisitos regulatorios.
 
-¿La ventaja clave de agregar códigos de barras programáticamente? **Consistencia y escala**. Definirás las reglas una sola vez y cada documento recibirá el mismo tratamiento—ya sea que proceses 5 archivos o 50 000.
+¿La principal ventaja de agregar códigos de barras programáticamente? **Consistencia y escala**. Definirás las reglas una vez, y cada documento recibirá el mismo tratamiento, ya sea que proceses cinco archivos o cincuenta mil.
 
-## Prerrequisitos
+## Requisitos previos
 
-Antes de comenzar a programar, asegúrate de cubrir estos conceptos básicos:
+Antes de comenzar a programar, asegúrate de tener cubiertos estos conceptos básicos:
 
 ### Software y bibliotecas requeridos
-- **JDK 8 o superior** instalado en tu máquina (JDK 11+ recomendado para mejor rendimiento)
-- Un IDE como IntelliJ IDEA, Eclipse o VS Code con extensiones de Java
-- **GroupDocs.Signature para Java versión 23.12** (te mostraremos cómo agregarla a continuación)
+- **JDK 8 o superior** instalado en tu máquina (JDK 11+ recomendado para mejor rendimiento)  
+- Un IDE como IntelliJ IDEA, Eclipse o VS Code con extensiones Java  
+- **GroupDocs.Signature for Java versión 23.12** (te mostraremos cómo agregarlo a continuación)
 
-### Conocimientos básicos necesarios
-- Familiaridad con los fundamentos de Java (clases, objetos, manejo de archivos)
-- Entendimiento de la estructura de documentos PDF (útil pero no crítico)
-- Conocimientos de gestión de dependencias (Maven o Gradle)
+### Requisitos de conocimientos básicos
+- Cómodo con los fundamentos de Java (clases, objetos, manejo de archivos)  
+- Comprensión de la estructura de documentos PDF (útil pero no crítico)  
+- Familiaridad con la gestión de dependencias (Maven o Gradle)
 
-**Consejo profesional**: Si eres nuevo en GroupDocs, obtén primero su prueba gratuita. Te brinda 30 días para experimentar sin comprometer una licencia—perfecto para pruebas de concepto.
+**Consejo profesional**: Si eres nuevo en GroupDocs, obtén primero su prueba gratuita. Te brinda 30 días para experimentar sin comprometer una licencia, perfecto para trabajos de prueba de concepto.
 
 ## Configuración de GroupDocs.Signature para Java
 
-Incorporar GroupDocs.Signature a tu proyecto es sencillo. Elige el sistema de gestión de dependencias que coincida con tu entorno:
+Incorporar GroupDocs.Signature a tu proyecto es sencillo. Elige el sistema de gestión de dependencias que coincida con tu configuración:
 
-### Configuración con Maven
+### Configuración Maven
 Agrega esto a tu archivo `pom.xml`:
 
 ```xml
@@ -89,29 +89,27 @@ Agrega esto a tu archivo `pom.xml`:
 </dependency>
 ```
 
-### Configuración con Gradle
-Para usuarios de Gradle, añade esta línea a tu `build.gradle`:
+### Configuración Gradle
+Para usuarios de Gradle, agrega esta línea a tu `build.gradle`:
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
 ### Opción de descarga directa
-¿Prefieres no usar herramientas de compilación? Descarga el JAR directamente desde la [página de lanzamientos de GroupDocs.Signature para Java](https://releases.groupdocs.com/signature/java/) y añádelo manualmente al classpath de tu proyecto.
+¿Prefieres no usar herramientas de compilación? Descarga el JAR directamente desde la [página de lanzamientos de GroupDocs.Signature for Java](https://releases.groupdocs.com/signature/java/) y añádelo manualmente al classpath de tu proyecto.
 
-### Configuración de la licencia
+### Configuración de licencia
+Este es el camino práctico de licenciamiento que siguen la mayoría de los desarrolladores:
 
-Este es el camino práctico que siguen la mayoría de los desarrolladores:
+1. **Comienza con la prueba gratuita** – Sin tarjeta de crédito, sin compromiso. Perfecto para pruebas.  
+2. **Obtén una licencia temporal** – Si 30 días no son suficientes, solicita una licencia temporal para desarrollo extendido.  
+3. **Compra para producción** – Cuando estés listo para desplegar, compra una licencia que coincida con tu nivel de uso.
 
-1. **Comenzar con la prueba gratuita** – Sin tarjeta de crédito, sin compromiso. Perfecta para pruebas.
-2. **Obtener una licencia temporal** – Si 30 días no son suficientes, solicita una licencia temporal para desarrollo extendido.
-3. **Comprar para producción** – Cuando estés listo para desplegar, adquiere una licencia que se ajuste a tu nivel de uso.
-
-**Importante**: La prueba gratuita agrega marcas de agua a los documentos de salida. Para trabajos dirigidos a clientes, necesitarás al menos una licencia temporal.
+**Importante**: La prueba gratuita agrega marcas de agua a los documentos de salida. Para trabajo dirigido a clientes, necesitarás al menos una licencia temporal.
 
 ### Código de configuración inicial
-
-Una vez que las dependencias estén listas, inicializa el objeto `Signature` así:
+Una vez que las dependencias estén en su lugar, inicializa el objeto `Signature` así:
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -120,52 +118,46 @@ import com.groupdocs.signature.Signature;
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/sample.pdf");
 ```
 
-**Qué está ocurriendo**: La clase `Signature` es tu punto de entrada principal. Le pasas una ruta de archivo y carga el PDF en memoria para procesarlo. Simple, ¿verdad?
+**Qué está sucediendo aquí**: La clase `Signature` es tu punto de entrada principal. Le pasas una ruta de archivo y carga el PDF en memoria para procesarlo. Simple, ¿verdad?
 
-**Error común a evitar**: No olvides cerrar el objeto `Signature` cuando termines (o usa *try‑with‑resources*). Dejarlo abierto puede causar fugas de memoria en aplicaciones de larga duración.
+**Error común a evitar**: No olvides cerrar el objeto `Signature` cuando termines (o usa try‑with‑resources). Dejarlo abierto puede causar fugas de memoria en aplicaciones de larga duración.
 
-## Elegir el tipo de código de barras adecuado
+## Elegir el tipo de código de barras correcto
 
-No todos los códigos de barras son iguales. El tipo que elijas depende de lo que necesites codificar y dónde se escaneará el código.
+No todos los códigos de barras son iguales. El tipo que elijas depende de lo que necesites codificar y dónde se escaneará el código de barras.
 
 ### Tipos de códigos de barras populares soportados
-
-**Code128** (nuestro ejemplo usa este): Ideal para codificar datos alfanuméricos. Muy usado en etiquetas de envío y empaques de productos. Soporta letras, números y algunos caracteres especiales.
-
-**QR Codes**: Perfectos cuando necesitas almacenar más datos (como URLs o JSON). Pueden contener hasta 4 000 caracteres y funcionan bien incluso si están parcialmente dañados.
-
-**Code39**: Más simple que Code128 pero menos eficiente en espacio. Bueno para rastreo interno donde la simplicidad importa más que la densidad de datos.
-
-**EAN/UPC**: Estándar de la industria para productos minoristas. Si generas facturas que deben coincidir con sistemas de venta al por menor, este es tu opción.
+- **Code128** – Excelente para datos alfanuméricos; común en etiquetas de envío.  
+- **QR Codes** – Perfecto cuando necesitas almacenar más datos (URLs, JSON, hasta 4 000 caracteres).  
+- **Code39** – Más simple que Code128 pero menos eficiente en espacio; bueno para seguimiento interno.  
+- **EAN/UPC** – Estándar industrial para productos minoristas.  
 
 **¿Cuándo usar cada uno?**
 - ¿Necesitas codificar más de 50 caracteres? → QR Code  
 - ¿Identificación estándar de producto? → EAN/UPC  
-- ¿Rastreo general de documentos? → Code128  
+- ¿Seguimiento de documentos de propósito general? → Code128  
 - ¿Máxima compatibilidad con escáneres heredados? → Code39  
 
-**Consejo profesional**: Code128 es la opción predeterminada más segura para la gestión documental. Equilibra legibilidad, capacidad de datos y compatibilidad con escáneres.
+**Consejo profesional**: Code128 es la opción predeterminada más segura para la gestión de documentos. Equilibra legibilidad, capacidad de datos y compatibilidad con escáneres.
 
-## Guía de implementación: crear firmas de código de barras
+## Guía de implementación: crear firmas de códigos de barras
 
-Ahora lo bueno—creemos y agreguemos códigos de barras a tus PDFs. Dividiré el proceso en pasos manejables para que puedas seguirlo (o saltarte las partes que no necesites).
+Ahora viene lo bueno: vamos a crear y agregar códigos de barras a tus PDFs. Dividiré esto en pasos manejables para que puedas seguir (o saltar a las partes que necesites).
 
 ### Paso 1: Configurar rutas de documentos
-
-Lo primero—indica a Java dónde está tu PDF y dónde guardar la versión firmada:
+Lo primero, indica a Java dónde encontrar tu PDF y dónde guardar la versión firmada:
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 String fileName = new File(filePath).getName();
 ```
 
-**Qué está ocurriendo**: Definis la ruta del archivo de entrada y extraes solo el nombre del archivo. Esto mantiene tu salida organizada (especialmente útil al procesar lotes).
+**Qué está sucediendo**: Estás definiendo la ruta del archivo de entrada y extrayendo solo el nombre del archivo. Esto mantiene tu salida organizada (especialmente útil al procesar por lotes varios archivos).
 
-**Consejo del mundo real**: En producción, esas rutas suelen provenir de archivos de configuración o variables de entorno—no de cadenas codificadas. Considera usar `System.getenv()` o un archivo de propiedades para mayor flexibilidad.
+**Consejo del mundo real**: En producción, estas rutas suelen provenir de archivos de configuración o variables de entorno, no de cadenas codificadas. Considera usar `System.getenv()` o un archivo de propiedades para mayor flexibilidad.
 
 ### Paso 2: Configurar salida y opciones de código de barras
-
-A continuación, define dónde se guardará el documento firmado y qué código de barras deseas crear:
+A continuación, define dónde se guarda el documento firmado y qué código de barras deseas crear:
 
 ```java
 // Define output file path
@@ -175,40 +167,38 @@ BarcodeSignOptions options = new BarcodeSignOptions("12345678");
 options.setEncodeType(BarcodeTypes.Code128);
 ```
 
-**Desglose:**
-- `outputFilePath`: Dónde se guarda el PDF final. ¿Ves la subcarpeta? Ayuda a mantener organizados los diferentes métodos de firma.
-- `BarcodeSignOptions("12345678")`: Los datos que se codificarán en tu código de barras. Puede ser un número de factura, ID de seguimiento, hash del documento—lo que necesites.
-- `setEncodeType(BarcodeTypes.Code128)`: Indica a GroupDocs qué formato de código de barras usar.
+**Desglosando esto**:
+- `outputFilePath` – Dónde se guarda tu PDF finalizado. ¿Notas la estructura de subcarpetas? Esto ayuda a mantener organizados los diferentes métodos de firma.  
+- `BarcodeSignOptions("12345678")` – Los datos codificados en tu código de barras. Esto podría ser un número de factura, ID de seguimiento, hash del documento, lo que necesites.  
+- `setEncodeType(BarcodeTypes.Code128)` – Indica a GroupDocs qué formato de código de barras usar.  
 
-**Pregunta frecuente**: “¿Puedo usar caracteres especiales en los datos del código?” Con Code128, sí—puedes incluir letras, números y la mayoría de los signos de puntuación. Los QR son aún más flexibles.
+**Pregunta común**: “¿Puedo usar caracteres especiales en los datos del código de barras?” Con Code128, sí—puedes incluir letras, números y la mayoría de la puntuación. Los códigos QR son aún más flexibles.
 
 ### Paso 3: Posicionar el código de barras con precisión
-
-Aquí es donde se pone interesante. Puedes posicionar los códigos de barras con precisión milimétrica:
+Aquí es donde las cosas se ponen interesantes. Puedes posicionar los códigos de barras con precisión milimétrica:
 
 ```java
 // Set position and size in millimeters
 options.setLocationMeasureType(MeasureType.Millimeters);
-options.setLeft(40);  // X-coordinate from left edge
-options.setTop(50);   // Y-coordinate from top edge
+options.setLeft(40);  // X‑coordinate from left edge
+options.setTop(50);   // Y‑coordinate from top edge
 
 options.setSizeMeasureType(MeasureType.Millimeters);
 options.setWidth(20);  // Width of the barcode
 options.setHeight(10); // Height of the barcode
 ```
 
-**Por qué importan los milímetros**: Cuando imprimes documentos, los milímetros garantizan un tamaño consistente en diferentes tamaños de papel y resoluciones. (También puedes usar píxeles o porcentajes si se adapta mejor a tu caso.)
+**Por qué importan los milímetros**: Cuando imprimes documentos, los milímetros te dan un tamaño consistente en diferentes tamaños de papel y resoluciones. (También puedes usar píxeles o porcentajes si se adapta mejor a tu caso de uso.)
 
 **Estrategia de posicionamiento**:
-- **Esquina superior derecha** (como etiquetas de envío): `setLeft(150)`, `setTop(10)`
-- **Centro inferior** (como boletos): Calcula el centro según el ancho de la página
-- **Junto a contenido existente**: Mide el diseño de tu PDF y posiciona en consecuencia
+- **Esquina superior derecha** (como etiquetas de envío): `setLeft(150)`, `setTop(10)`  
+- **Centro inferior** (como boletos): calcula el centro basado en el ancho de la página  
+- **Al lado del contenido existente**: mide el diseño de tu PDF y posición en consecuencia  
 
-**Consejo profesional**: Prueba tu posicionamiento con algunos PDFs de muestra antes de procesar lotes. Diferentes diseños pueden requerir ajustes leves.
+**Consejo profesional**: Prueba tu posicionamiento con algunos PDFs de muestra antes del procesamiento por lotes. Diferentes diseños de PDF pueden necesitar ajustes leves.
 
 ### Paso 4: Añadir márgenes para pulir
-
-Los márgenes evitan que el código de barras se amontone con otro contenido:
+Los márgenes evitan que tu código de barras se superponga con otro contenido:
 
 ```java
 // Define margin settings
@@ -220,26 +210,24 @@ padding.setBottom(5); // Bottom margin in mm
 options.setMargin(padding);
 ```
 
-**Qué hace esto**: Crea una zona de amortiguación de 5 mm alrededor del código. Ese espacio mejora la escaneabilidad y da un aspecto más profesional.
+**Qué hace esto**: Crea una zona de amortiguación de 5 mm alrededor de tu código de barras. Este espacio mejora la escaneabilidad y se ve más profesional.
 
-**Cuándo aumentar los márgenes**: Si colocas códigos cerca del borde de la página, aumenta a 10 mm. Las impresoras suelen tener problemas con contenido demasiado próximo al borde.
+**Cuándo aumentar los márgenes**: Si colocas códigos de barras cerca del borde de una página, aumenta los márgenes a 10 mm. Las impresoras a menudo tienen problemas con contenido demasiado cerca de los bordes.
 
 ### Paso 5: Firmar y guardar el documento
-
-Ahora llega el momento de la verdad—agregar realmente el código de barras:
+Ahora llega el momento de la verdad: agregar realmente el código de barras:
 
 ```java
 // Sign and save the document
 SignResult signResult = signature.sign(outputFilePath, options);
 ```
 
-**Qué ocurre bajo el capó**: GroupDocs abre tu PDF, genera el código de barras según tus opciones, lo inserta en la posición especificada y guarda el archivo modificado. El PDF original permanece intacto.
+**Qué ocurre internamente**: GroupDocs abre tu PDF, renderiza el código de barras según tus opciones, lo inserta en la posición especificada y guarda el archivo modificado. El PDF original permanece intacto.
 
 **Valor de retorno**: El objeto `SignResult` contiene el estado de éxito/fallo y metadatos sobre lo que se firmó. Puedes inspeccionarlo para verificar que todo funcionó.
 
 ### Paso 6: Manejar errores de forma elegante
-
-Pueden surgir problemas (rutas incorrectas, PDFs corruptos, permisos insuficientes). Maneja los errores adecuadamente:
+Las cosas pueden salir mal (rutas de archivo incorrectas, PDFs corruptos, permisos insuficientes). Maneja los errores adecuadamente:
 
 ```java
 try {
@@ -256,62 +244,56 @@ try {
 ```
 
 **Mejores prácticas para el manejo de excepciones**:
-- Registra la traza completa de la pila para depuración (no solo el mensaje)
-- Proporciona mensajes de error amigables para el usuario (evita jerga técnica)
-- Libera recursos incluso cuando ocurran errores (usa *try‑with‑resources*)
-- Considera lógica de reintento para fallos transitorios (problemas de red, archivos bloqueados)
+- Registra la traza completa de la pila para depuración (no solo el mensaje)  
+- Proporciona mensajes de error amigables para el usuario (evita jerga técnica)  
+- Limpia los recursos incluso cuando ocurran errores (usa try‑with‑resources)  
+- Considera lógica de reintento para fallos transitorios (problemas de red, archivos bloqueados)  
 
 **Errores comunes que encontrarás**:
-- `FileNotFoundException`: La ruta del PDF de entrada es incorrecta
-- `GroupDocsSignatureException`: Datos de código de barras no válidos o versión de PDF no soportada
-- `OutOfMemoryError`: Procesas demasiados PDFs grandes simultáneamente
+- `FileNotFoundException` – La ruta del PDF de entrada es incorrecta  
+- `GroupDocsSignatureException` – Datos de código de barras inválidos o versión de PDF no soportada  
+- `OutOfMemoryError` – Procesar demasiados PDFs grandes simultáneamente  
 
-## Cómo crear un PDF con firma de código de barras en Java
+## Cómo crear una firma de código de barras en PDF con Java
 
-Si prefieres una lista de verificación concisa, aquí la tienes:
+Si prefieres una lista de verificación concisa paso a paso, aquí está:
 
 1. **Agregar la dependencia de GroupDocs.Signature** (Maven, Gradle o JAR manual).  
-2. **Inicializar `Signature`** con la ruta del PDF origen.  
+2. **Inicializar `Signature`** con la ruta del PDF fuente.  
 3. **Configurar `BarcodeSignOptions`** – establecer datos, tipo, tamaño y ubicación.  
-4. **Opcionalmente definir márgenes** para mejorar la legibilidad.  
+4. **Opcionalmente establecer márgenes** para mejorar la legibilidad.  
 5. **Llamar a `signature.sign(outputPath, options)`** para incrustar el código de barras.  
-6. **Manejar excepciones** y cerrar recursos.
+6. **Manejar excepciones** y cerrar recursos.  
 
-Seguir estos seis pasos te permitirá **crear PDFs con firma de código de barras** de forma fiable en cualquier aplicación Java.
+Seguir estos seis pasos te permitirá **agregar códigos de barras a documentos PDF en Java** de manera fiable en cualquier aplicación Java.
 
 ## Problemas comunes y soluciones
 
-Abordemos los problemas que realmente encuentran los desarrolladores (porque la documentación rara vez lo hace):
+Abordemos los problemas que los desarrolladores realmente encuentran (porque la documentación rara vez lo hace):
 
-### Problema 1: El código de barras no se escanea correctamente
-
-**Síntomas**: El escáner no puede leer el código o devuelve datos incorrectos.
-
+### Problema 1: El código de barras no escanea correctamente
+**Síntomas**: El escáner no puede leer el código de barras o devuelve datos incorrectos.  
 **Soluciones**:
-- Aumenta el tamaño del código (mínimo 15 mm de ancho para la mayoría de los escáneres)
-- Verifica que los datos no incluyan caracteres no admitidos para ese tipo
-- Asegura suficiente contraste entre el código y el fondo
-- Prueba con varias aplicaciones de escaneo—algunas son mejores que otras
+- Aumenta el tamaño del código de barras (ancho mínimo de 15 mm para la mayoría de los escáneres)  
+- Verifica que los datos del código de barras no incluyan caracteres no soportados para ese tipo  
+- Asegura suficiente contraste entre el código de barras y el fondo  
+- Prueba con varias aplicaciones de escáner; algunas son mejores que otras  
 
-### Problema 2: La posición del código de barras varía entre documentos
-
-**Síntomas**: El mismo código produce resultados diferentes en PDFs distintos.
-
+### Problema 2: La posición del código de barras cambia entre documentos
+**Síntomas**: El mismo código de posicionamiento produce resultados diferentes en PDFs con distintos tamaños de página.  
 **Soluciones**:
-- PDFs con tamaños de página diferentes requieren cálculos de posición, no valores fijos
-- Verifica si los PDFs de origen tienen rotación aplicada (esto descoloca las coordenadas)
-- Usa posicionamiento basado en porcentajes para mayor consistencia
-- Normaliza todos los PDFs de entrada a tamaños de página estándar cuando sea posible
+- Los PDFs con diferentes tamaños de página necesitan cálculos de posición, no valores codificados.  
+- Verifica si los PDFs de origen tienen rotación aplicada (esto descompone las coordenadas)  
+- Usa posicionamiento basado en porcentajes para mayor consistencia  
+- Normaliza todos los PDFs de entrada a un tamaño de página estándar cuando sea posible  
 
 ### Problema 3: Degradación del rendimiento con lotes grandes
-
-**Síntomas**: Los primeros 100 PDFs se procesan rápido y luego se vuelve lento.
-
+**Síntomas**: Los primeros 100 PDFs se procesan rápidamente, luego se ralentiza.  
 **Soluciones**:
-- Cierra los objetos `Signature` rápidamente (o usa *try‑with‑resources*)
-- Procesa en lotes más pequeños con limpieza de memoria entre lotes
-- Considera procesamiento paralelo para operaciones intensivas en CPU
-- Monitorea el uso del heap—puede que necesites ajustar la JVM
+- Cierra los objetos `Signature` rápidamente (o usa try‑with‑resources)  
+- Procesa en lotes más pequeños con limpieza de memoria entre lotes  
+- Considera procesamiento paralelo para operaciones intensivas en CPU  
+- Monitorea el uso del heap; podrías necesitar ajustar la JVM  
 
 ```java
 // Good: Process in chunks
@@ -325,49 +307,47 @@ for (int i = 0; i < allFiles.size(); i += batchSize) {
 }
 ```
 
-### Problema 4: El tamaño del archivo de salida aumenta mucho
-
-**Síntomas**: Los PDFs firmados son mucho más pesados que los originales.
-
+### Problema 4: Incremento excesivo del tamaño del archivo de salida
+**Síntomas**: Los PDFs firmados son mucho más grandes que los originales.  
 **Soluciones**:
-- GroupDocs no comprime automáticamente—maneja la compresión por separado si es necesario
-- Evita agregar imágenes de código de barras de alta resolución cuando los vectores son suficientes
-- Verifica que no estés incrustando fuentes o metadatos extra accidentalmente
+- GroupDocs no comprime automáticamente; maneja la compresión por separado si es necesario  
+- Evita agregar imágenes de código de barras de alta resolución cuando los vectores funcionan bien  
+- Verifica si accidentalmente estás incrustando fuentes o metadatos extra  
 
-**Cuándo contactar al soporte**: Si has probado estas soluciones y el problema persiste, el [foro de GroupDocs](https://forum.groupdocs.com/c/signature/) cuenta con personal de soporte receptivo.
+**Cuándo contactar al soporte**: Si has probado estas soluciones y aún tienes problemas, el [foro de GroupDocs](https://forum.groupdocs.com/c/signature/) cuenta con personal de soporte receptivo.
 
-## Casos de uso reales
+## Casos de uso en el mundo real
 
-Así es como diferentes industrias aprovechan esta capacidad:
+Así es como diferentes industrias realmente usan esta capacidad:
 
 ### Industria legal: gestión de contratos
-Los despachos utilizan códigos de barras en los contratos para vincular documentos físicos a sistemas de gestión de casos. Cuando un contrato llega por correo, el personal lo escanea y el sistema muestra instantáneamente todo el historial del caso. Esto reduce el tiempo de procesamiento de minutos a segundos.
+Los despachos de abogados añaden códigos de barras a los contratos para vincular documentos físicos a sistemas de gestión de casos. Escanear el código de barras recupera instantáneamente el historial completo del caso, reduciendo el tiempo de procesamiento de minutos a segundos.
 
-**Consejo de implementación**: Codifica un hash del documento en el código de barras para verificar que el documento físico no haya sido alterado.
+**Consejo de implementación**: Codifica un hash del documento en el código de barras para que puedas verificar que el documento físico no ha sido alterado.
 
-### Salud: historiales de pacientes
-Los hospitales añaden códigos de barras a los resúmenes de alta y a las recetas en PDF. Al llegar el paciente, el personal escanea el código y se completa automáticamente su expediente con el historial previo.
+### Salud: registros de pacientes
+Los hospitales adjuntan códigos de barras a los resúmenes de alta y a los PDFs de recetas. Cuando los pacientes se registran, el personal escanea el código de barras para rellenar instantáneamente su expediente con el historial de visitas anteriores.
 
-**Nota de cumplimiento**: Asegúrate de que tu implementación cumpla con los requisitos de HIPAA para la codificación de datos.
+**Nota de cumplimiento**: Asegúrate de que tu implementación de códigos de barras cumpla con los requisitos HIPAA para la codificación de datos.
 
 ### Logística: etiquetas de envío
-Plataformas de e‑commerce añaden automáticamente códigos de barras de seguimiento a los albaranes. El personal del almacén escanea para actualizar el estado del envío sin ingreso manual de datos.
+Las plataformas de comercio electrónico añaden automáticamente códigos de barras de seguimiento a los albaranes. El personal del almacén escanea para actualizar el estado del envío sin entrada manual de datos.
 
-**Consideración de rendimiento**: Estos sistemas suelen procesar miles de documentos por hora—el procesamiento por lotes y la ejecución paralela son críticos.
+**Consideración de rendimiento**: Estos sistemas a menudo procesan miles de documentos por hora; el procesamiento por lotes y la ejecución paralela son críticos.
 
 ### Finanzas: procesamiento de facturas
-Los departamentos contables añaden códigos de barras a las facturas que codifican términos de pago e IDs de proveedores. Al recibir una factura, el escaneo la dirige automáticamente al flujo de aprobación correcto.
+Los departamentos contables añaden códigos de barras a las facturas que codifican los términos de pago y los IDs de proveedores. Escanearlas las dirige automáticamente al flujo de aprobación correcto.
 
-**Consejo profesional**: Combina códigos de barras con OCR para máxima automatización—escanea el código para metadatos y usa OCR para los ítems de la factura.
+**Consejo profesional**: Combina códigos de barras con OCR para máxima automatización: escanea el código de barras para metadatos, OCR para los ítems de línea.
 
 ## Mejores prácticas de rendimiento
 
-Al procesar documentos a gran escala, estas optimizaciones marcan la diferencia:
+Cuando procesas documentos a gran escala, estas optimizaciones hacen una diferencia real:
 
 ### Gestión de memoria
-- **Usa *try‑with‑resources***: Garantiza que los objetos `Signature` se cierren correctamente.  
+- **Usa try‑with‑resources**: Garantiza que los objetos `Signature` se cierren correctamente.  
 - **Procesa en lotes**: No cargues 10 000 PDFs en memoria a la vez.  
-- **Monitorea el uso del heap**: Configura los flags adecuados de la JVM (`-Xmx`, `-Xms`).
+- **Monitorea el uso del heap**: Configura banderas JVM apropiadas (`-Xmx`, `-Xms`).  
 
 ### Estrategias de procesamiento por lotes
 ```java
@@ -381,9 +361,9 @@ files.parallelStream().forEach(file -> {
 });
 ```
 
-**Precaución**: El procesamiento paralelo consume más memoria. Monitorea y ajusta según sea necesario.
+**Precaución**: El procesamiento paralelo usa más memoria. Monitorea y ajusta según sea necesario.
 
-### Caché de objetos de firma
+### Caché de objetos Signature
 Si procesas documentos similares repetidamente, considera reutilizar la configuración:
 
 ```java
@@ -400,59 +380,59 @@ for (String file : files) {
 
 ## Preguntas frecuentes
 
-**P: ¿Cómo creo un PDF con firma de código de barras en Java para diferentes tipos de códigos?**  
-R: Cambia el parámetro de `setEncodeType()`. Para QR, usa `BarcodeTypes.QR`. Para EAN‑13, usa `BarcodeTypes.EAN13`. GroupDocs soporta más de 60 tipos de códigos de barras.
+**P: ¿Cómo creo un PDF con firma de código de barras en Java para diferentes tipos de códigos de barras?**  
+R: Cambia el parámetro `setEncodeType()`. Para códigos QR, usa `BarcodeTypes.QR`. Para EAN‑13, usa `BarcodeTypes.EAN13`. GroupDocs soporta más de 60 tipos de códigos de barras de forma nativa.
 
-**P: ¿Puedo añadir varios códigos de barras al mismo PDF?**  
-R: Absolutamente. Llama a `signature.sign()` varias veces con distintas `BarcodeSignOptions`, o pasa una lista de opciones de firma en una sola llamada.
+**P: ¿Puedo agregar varios códigos de barras al mismo PDF?**  
+R: Absolutamente. Llama a `signature.sign()` varias veces con diferentes `BarcodeSignOptions`, o pasa una lista de opciones de firma en una sola llamada.
 
-**P: ¿Cómo añado un código de barras a un PDF existente sin perder contenido?**  
-R: GroupDocs es no destructivo por defecto—añade los códigos como una nueva capa sin modificar el contenido original. Tu texto, imágenes y formato permanecen intactos.
+**P: ¿Cómo agrego un código de barras a un PDF existente sin perder contenido?**  
+R: GroupDocs es no destructivo por defecto: agrega códigos de barras como una nueva capa sin modificar el contenido existente. Tu texto, imágenes y formato originales permanecen intactos.
 
 **P: ¿Cuál es la cantidad máxima de datos que puedo codificar en un código de barras?**  
-R: Depende del tipo. Code128 maneja cómodamente alrededor de 128 caracteres. Los QR pueden almacenar hasta 4 000 caracteres. Si necesitas más, considera codificar una URL que apunte a tus datos.
+R: Depende del tipo. Code128 maneja cómodamente alrededor de 128 caracteres. Los códigos QR pueden almacenar hasta 4 000 caracteres. Si necesitas más, considera codificar una URL que apunte a tus datos.
 
 **P: ¿Necesito una licencia para uso en producción?**  
 R: Sí. La prueba gratuita agrega marcas de agua. Para despliegues en producción, necesitarás una licencia temporal (para pruebas extendidas) o una licencia comprada. Consulta la [página de precios de GroupDocs](https://purchase.groupdocs.com/buy) para opciones actuales.
 
 **P: ¿Cómo manejo excepciones durante el procesamiento por lotes?**  
-R: Envuelve cada operación de archivo en su propio bloque `try‑catch` para que un PDF fallido no detenga todo el lote. Registra los errores con el nombre del archivo para poder reprocesar fallos posteriormente.
+R: Envuelve cada operación de archivo en su propio bloque try‑catch para que un PDF fallido no haga que todo el lote se caiga. Registra los errores con los nombres de archivo para poder reprocesar fallos más tarde.
 
-**P: ¿GroupDocs puede generar códigos 2D como Data Matrix?**  
-R: Sí. Usa `BarcodeTypes.DataMatrix`. Los códigos Data Matrix son populares en manufactura porque se leen incluso si están parcialmente dañados o en ángulos extraños.
+**P: ¿Puede GroupDocs generar códigos de barras 2D como Data Matrix?**  
+R: ¡Sí! Usa `BarcodeTypes.DataMatrix`. Los códigos de barras Data Matrix son populares en la fabricación porque son legibles incluso cuando están parcialmente dañados o en ángulos extraños.
 
 **P: ¿Qué versiones de PDF soporta GroupDocs?**  
-R: GroupDocs.Signature maneja PDFs desde la versión 1.3 hasta la 2.0 (cubre el 99 % de los PDFs que encontrarás). Si tienes PDFs muy antiguos, considera convertirlos primero.
+R: GroupDocs.Signature maneja PDFs desde la versión 1.3 hasta 2.0 (cubre el 99 % de los PDFs que encontrarás). Si tienes PDFs antiguos, considera convertirlos primero.
 
 ## Conclusión
 
-Ahora sabes cómo **agregar códigos de barras a documentos PDF Java** de forma programática usando GroupDocs.Signature. Hemos cubierto todo, desde la configuración básica hasta el manejo de errores listo para producción y la optimización del rendimiento a gran escala.
+Ahora sabes cómo **agregar códigos de barras a documentos PDF en Java** programáticamente usando GroupDocs.Signature. Cubrimos todo, desde la configuración básica hasta el manejo de errores listo para producción y la optimización del rendimiento.
 
 **Puntos clave**
 - Los códigos de barras resuelven problemas reales de flujo de trabajo (automatización, verificación, trazabilidad)  
-- GroupDocs te brinda control preciso sobre posición y tipos de códigos de barras  
-- Un manejo adecuado de errores y recursos evita dolores de cabeza en producción  
-- La afinación del rendimiento es esencial cuando procesas documentos a gran escala  
+- GroupDocs te brinda control preciso sobre la posición y los tipos de códigos de barras  
+- Un manejo adecuado de errores y la gestión de recursos evitan dolores de cabeza en producción  
+- La afinación del rendimiento importa al procesar documentos a gran escala  
 
-**Próximos pasos**: Inicia con una prueba de concepto pequeña usando la prueba gratuita. Prueba diferentes tipos de códigos de barras con tus documentos reales. Una vez validado, avanza a procesamiento por lotes y luego al despliegue en producción.
+**Próximos pasos**: Comienza con una pequeña prueba de concepto usando la prueba gratuita. Prueba diferentes tipos de códigos de barras con tus documentos reales. Una vez validado, pasa al procesamiento por lotes y luego al despliegue en producción.
 
-¿Tienes preguntas o encuentras problemas? Publícalas en el [foro de soporte de GroupDocs](https://forum.groupdocs.com/c/signature/)—la comunidad es activa y los tiempos de respuesta son buenos.
+¿Tienes preguntas o encuentras problemas? Déjalas en el [foro de soporte de GroupDocs](https://forum.groupdocs.com/c/signature/)—la comunidad es útil y los tiempos de respuesta son buenos.
 
 ## Recursos
 
 ### Documentación y descargas
-- [Documentación de GroupDocs.Signature para Java](https://docs.groupdocs.com/signature/java/)
-- [Referencia completa de la API](https://reference.groupdocs.com/signature/java/)
-- [Descargar la última versión](https://releases.groupdocs.com/signature/java/)
+- [Documentación de GroupDocs.Signature for Java](https://docs.groupdocs.com/signature/java/)  
+- [Referencia completa de la API](https://reference.groupdocs.com/signature/java/)  
+- [Descargar la última versión](https://releases.groupdocs.com/signature/java/)  
 
-### Licencias y soporte
-- [Comprar licencia](https://purchase.groupdocs.com/buy)
-- [Iniciar prueba gratuita](https://releases.groupdocs.com/signature/java/)
-- [Solicitar licencia temporal](https://purchase.groupdocs.com/temporary-license/)
-- [Foro de soporte comunitario](https://forum.groupdocs.com/c/signature/)
+### Licenciamiento y soporte
+- [Comprar licencia](https://purchase.groupdocs.com/buy)  
+- [Iniciar prueba gratuita](https://releases.groupdocs.com/signature/java/)  
+- [Solicitar licencia temporal](https://purchase.groupdocs.com/temporary-license/)  
+- [Foro de soporte de la comunidad](https://forum.groupdocs.com/c/signature/)  
 
 ---
 
-**Última actualización:** 2026-01-08  
-**Probado con:** GroupDocs.Signature 23.12 para Java  
+**Última actualización:** 2026-03-22  
+**Probado con:** GroupDocs.Signature 23.12 for Java  
 **Autor:** GroupDocs
