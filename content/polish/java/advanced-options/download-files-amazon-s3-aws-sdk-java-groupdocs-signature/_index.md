@@ -2,7 +2,7 @@
 categories:
 - Java Development
 - AWS Integration
-date: '2025-12-19'
+date: '2026-02-24'
 description: Dowiedz się, jak wykonać pobieranie pliku z S3 w Javie przy użyciu AWS
   SDK for Java. Zawiera praktyczne przykłady, wskazówki rozwiązywania problemów oraz
   najlepsze praktyki zapewniające bezpieczne i wydajne pobieranie plików.
@@ -28,81 +28,64 @@ Witamy! W tym samouczku opanujesz proces **java s3 file download** przy użyciu 
 
 ## Wprowadzenie
 
-Pracujesz z przechowywaniem w chmurze? Prawdopodobnie korzystasz z Amazon S3 — a jeśli tworzysz aplikacje w Javie, potrzebujesz niezawodnego sposobu pobierania plików z Twoich bucketów S3. Niezależnie od tego, czy budujesz system dostarczania treści, przetwarzasz przesłane dokumenty, czy po prostu synchronizujesz dane, prawidłowe wykonanie tego zadania ma znaczenie.
+Pracujesz z przechowywaniem w chmurze? Prawdopodobnie masz do czynienia z Amazon S3 — a jeśli tworzysz aplikacje w Javie, potrzebujesz niezawodnego sposobu na pobieranie plików z Twoich bucketów S3. Niezależnie od tego, czy budujesz system dostarczania treści, przetwarzasz przesłane dokumenty, czy po prostu synchronizujesz dane, prawidłowe wykonanie tego zadania ma znaczenie.
 
-Sprawa jest taka: pobieranie plików z S3 nie jest skomplikowane, ale istnieją pułapki, które mogą Cię zaskoczyć (omówimy je). Ten samouczek przeprowadzi Cię przez cały proces przy użyciu AWS SDK dla Javy, z prawdziwym kodem, którego możesz faktycznie używać. Dodatkowo pokażemy, jak zintegrować GroupDocs.Signature, jeśli pracujesz z dokumentami wymagającymi podpisów elektronicznych.
+Rzecz w tym, że pobieranie plików z S3 nie jest skomplikowane, ale istnieją pułapki, które mogą Cię zaskoczyć (omówimy je). Ten samouczek przeprowadzi Cię przez cały proces przy użyciu AWS SDK dla Javy, z rzeczywistym kodem, którego możesz używać. Dodatkowo pokażemy, jak zintegrować GroupDocs.Signature, jeśli pracujesz z dokumentami wymagającymi podpisów elektronicznych.
 
-**Co się nauczysz:**
+**Czego się nauczysz:**
 - Jak poprawnie (i bezpiecznie) skonfigurować poświadczenia AWS
-- Dokładny kod do pobierania plików z bucketów S3 przy użyciu Javy
+- Dokładny kod pobierający pliki z bucketów S3 przy użyciu Javy
 - Typowe błędy powodujące niepowodzenia pobierania — i jak je naprawić
-- Najlepsze praktyki dotyczące wydajności i bezpieczeństwa
+- Najlepsze praktyki pod kątem wydajności i bezpieczeństwa
 - Jak zintegrować podpisywanie dokumentów z GroupDocs.Signature
 
-Zanurzmy się. Zacznijmy od wymagań wstępnych, a potem przejdziemy do rzeczywistej implementacji.
+Zanurzmy się. Najpierw omówimy wymagania wstępne, a potem przejdziemy do implementacji.
 
 ## Szybkie odpowiedzi
-- **Jaka jest podstawowa klasa do pobierania?** Klient `AmazonS3` z AWS SDK  
-- **Który region AWS powinienem używać?** Ten sam region, w którym znajduje się Twój bucket (np. `Regions.US_EAST_1`)  
-- **Czy muszę zakodować na stałe poświadczenia?** Nie — użyj zmiennych środowiskowych, pliku z poświadczeniami lub ról IAM  
+- **Jaka jest główna klasa do pobierania?** Klient `AmazonS3` z AWS SDK  
+- **Który region AWS powinienem użyć?** Ten sam region, w którym znajduje się Twój bucket (np. `Regions.US_EAST_1`)  
+- **Czy muszę wpisywać poświadczenia na stałe w kodzie?** Nie — użyj zmiennych środowiskowych, pliku poświadczeń lub ról IAM  
 - **Czy mogę efektywnie pobierać duże pliki?** Tak — użyj większego bufora, try‑with‑resources lub Transfer Managera  
-- **Czy GroupDocs.Signature jest wymagany?** Opcjonalny, tylko dla przepływów pracy związanych z podpisywaniem dokumentów  
+- **Czy GroupDocs.Signature jest wymagany?** Opcjonalny, tylko w przepływach pracy wymagających podpisu dokumentów  
 
-## java s3 file download: Dlaczego ma to znaczenie
+## Co to jest java s3 file download i dlaczego ma znaczenie?
 
-Zanim przejdziemy do kodu, omówmy, dlaczego **java s3 file download** jest podstawowym elementem wielu rozwiązań chmurowych opartych na Javie. Amazon S3 (Simple Storage Service) jest jedną z najpopularniejszych usług przechowywania w chmurze, ponieważ jest skalowalna, niezawodna i kosztowo efektywna. Jednak Twoje dane w S3 nie są użyteczne, dopóki nie możesz ich pobrać.
+**java s3 file download** to po prostu pobranie obiektu przechowywanego w Amazon S3 z aplikacji Java. Operacja ta jest fundamentem wielu rozwiązań cloud‑native, ponieważ pozwala przenieść dane z trwałej, skalowalnej usługi przechowywania do Twojego potoku przetwarzania, interfejsu użytkownika lub systemu backupu.
 
-Typowe scenariusze, w których będziesz potrzebować pobierania plików S3:
-- **Przetwarzanie przesyłek użytkowników** (obrazy, PDF‑y, pliki CSV)  
+Typowe scenariusze, w których potrzebujesz pobierania plików S3:
+- **Przetwarzanie przesyłanych przez użytkowników plików** (obrazy, PDF‑y, pliki CSV)  
 - **Przetwarzanie wsadowe danych** (pobieranie zestawów danych do analizy)  
-- **Odzyskiwanie kopii zapasowych** (przywracanie plików z kopii w chmurze)  
+- **Odzyskiwanie backupów** (przywracanie plików z chmurowych kopii zapasowych)  
 - **Dostarczanie treści** (serwowanie plików końcowym użytkownikom)  
-- **Przepływy dokumentów** (pobieranie plików do podpisywania, konwersji lub archiwizacji)  
-
-AWS SDK dla Javy upraszcza to zadanie, ale musisz poprawnie obsłużyć uwierzytelnianie, przypadki błędów i zarządzanie zasobami. To właśnie obejmuje ten przewodnik.
-
-## Dlaczego pobierać z S3 przy użyciu Javy?
-
-Zanim przejdziemy do kodu, omówmy, dlaczego warto to zrobić. Amazon S3 (Simple Storage Service) jest jedną z najpopularniejszych usług przechowywania w chmurze, ponieważ jest skalowalna, niezawodna i kosztowo efektywna. Jednak Twoje dane w S3 nie są użyteczne, dopóki nie możesz ich pobrać.
-
-Typowe scenariusze, w których będziesz potrzebować pobierania plików S3:
-- **Przetwarzanie przesyłek użytkowników** (obrazy, PDF‑y, pliki CSV)  
-- **Przetwarzanie wsadowe danych** (pobieranie zestawów danych do analizy)  
-- **Odzyskiwanie kopii zapasowych** (przywracanie plików z kopii w chmurze)  
-- **Dostarczanie treści** (serwowanie plików końcowym użytkownikom)  
-- **Przepływy dokumentów** (pobieranie plików do podpisywania, konwersji lub archiwizacji)  
-
-AWS SDK dla Javy upraszcza to zadanie, ale musisz poprawnie obsłużyć uwierzytelnianie, przypadki błędów i zarządzanie zasobami. To właśnie obejmuje ten przewodnik.
+- **Przepływy pracy z dokumentami** (pobieranie plików do podpisu, konwersji lub archiwizacji)  
 
 ## Wymagania wstępne
 
-Zanim zaczniesz kodować, upewnij się, że masz te podstawy pokryte:
+Zanim zaczniesz pisać kod, upewnij się, że masz przygotowane poniższe elementy:
 
 ### Czego będziesz potrzebować
 
-1. **AWS Account with S3 Access**
+1. **Konto AWS z dostępem do S3**
    - Aktywne konto AWS
-   - Utworzony bucket S3 (nawet pusty sprawdzi się do testów)
+   - Utworzony bucket S3 (nawet pusty wystarczy do testów)
    - Poświadczenia IAM z uprawnieniami odczytu S3
 
-2. **Java Development Environment**
-   - Zainstalowana Java 8 lub wyższa
+2. **Środowisko programistyczne Java**
+   - Zainstalowana Java 8 lub nowsza
    - Maven lub Gradle do zarządzania zależnościami
-   - Twoje ulubione IDE (IntelliJ IDEA, Eclipse lub VS Code świetnie się sprawdzą)
+   - Ulubione IDE (IntelliJ IDEA, Eclipse lub VS Code)
 
-3. **Basic Java Knowledge**
-   - Komfortowa praca z klasami, metodami i obsługą wyjątków
-   - Znajomość projektów Maven/Gradle jest pomocna
+3. **Podstawowa znajomość Javy**
+   - Komfort w pracy z klasami, metodami i obsługą wyjątków
+   - Znajomość projektów Maven/Gradle jest pomocna  
 
 ### Wymagane biblioteki i zależności
 
-Do tego samouczka potrzebujesz dwóch głównych bibliotek:
-
-#### AWS SDK dla Javy
+#### AWS SDK for Java
 
 To oficjalna biblioteka do interakcji z usługami AWS z poziomu Javy.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.amazonaws</groupId>
@@ -111,18 +94,18 @@ To oficjalna biblioteka do interakcji z usługami AWS z poziomu Javy.
 </dependency>
 ```
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.amazonaws:aws-java-sdk-s3:1.12.118'
 ```
 
-**Uwaga:** Wersja 1.12.118 jest stabilna i szeroko używana, ale sprawdź [AWS SDK releases](https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3) dla najnowszej wersji.
+**Uwaga:** Wersja 1.12.118 jest stabilna i szeroko używana, ale sprawdź [AWS SDK releases](https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3) pod kątem najnowszej wersji.
 
-#### GroupDocs.Signature dla Javy (Opcjonalnie)
+#### GroupDocs.Signature for Java (Opcjonalnie)
 
-Jeśli pracujesz z dokumentami, które potrzebują podpisów elektronicznych, GroupDocs.Signature dodaje potężne możliwości podpisywania.
+Jeśli pracujesz z dokumentami wymagającymi podpisów elektronicznych, GroupDocs.Signature dodaje potężne możliwości podpisywania.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -131,17 +114,17 @@ Jeśli pracujesz z dokumentami, które potrzebują podpisów elektronicznych, Gr
 </dependency>
 ```
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Direct Download:** [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/)
+**Bezpośrednie pobranie:** [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/)
 
 ### Uzyskanie licencji dla GroupDocs.Signature
 
-- **Bezpłatna wersja próbna:** Przetestuj wszystkie funkcje za darmo przed podjęciem decyzji  
-- **Licencja tymczasowa:** Uzyskaj tymczasową licencję na rozszerzone rozwijanie i testowanie  
+- **Bezpłatna wersja próbna:** Testuj wszystkie funkcje za darmo przed podjęciem decyzji  
+- **Licencja tymczasowa:** Uzyskaj tymczasową licencję na rozszerzony rozwój i testy  
 - **Pełna licencja:** Zakup do użytku produkcyjnego  
 
 ### Podstawowa konfiguracja GroupDocs.Signature
@@ -160,33 +143,32 @@ public class SignatureSetup {
 }
 ```
 
-Ten samouczek koncentruje się na pobieraniu z S3, ale pokażemy, jak te elementy współgrają w przepływach dokumentów.
+Ten samouczek skupia się na pobieraniu z S3, ale pokażemy, jak te elementy współgrają w przepływach pracy z dokumentami.
 
-## Konfigurowanie poświadczeń AWS
+## Konfiguracja poświadczeń AWS
 
-Tutaj początkujący często się zatrzymują. Zanim Twój kod Java będzie mógł rozmawiać z AWS, musisz się uwierzytelnić. AWS używa kluczy dostępu (identyfikatora i klucza tajnego) do weryfikacji Twojej tożsamości.
+Tutaj początkujący najczęściej się gubią. Zanim Twój kod Java będzie mógł komunikować się z AWS, musisz się uwierzytelnić. AWS używa kluczy dostępu (identyfikatora klucza i klucza tajnego) do weryfikacji tożsamości.
 
 ### Zrozumienie poświadczeń AWS
 
-Traktuj poświadczenia AWS jak nazwę użytkownika i hasło:
+Poświadczenia AWS są jak nazwa użytkownika i hasło:
+- **Access Key ID:** Publiczny identyfikator (jak nazwa użytkownika)
+- **Secret Access Key:** Klucz prywatny (jak hasło)
 
-- **Access Key ID:** Twój publiczny identyfikator (jak nazwa użytkownika)  
-- **Secret Access Key:** Twój prywatny klucz (jak hasło)
-
-**Krytyczna uwaga dotycząca bezpieczeństwa:** Nigdy nie koduj na stałe poświadczeń w kodzie źródłowym ani nie zapisuj ich w systemie kontroli wersji. Poniżej pokażemy bezpieczne alternatywy.
+**Krytyczna uwaga bezpieczeństwa:** Nigdy nie wpisuj poświadczeń na stałe w kodzie źródłowym ani nie zapisuj ich w systemie kontroli wersji. Poniżej pokażemy bezpieczne alternatywy.
 
 ### Opcja 1: Zmienne środowiskowe (zalecane)
 
-Najbezpieczniejsze podejście to przechowywanie poświadczeń w zmiennych środowiskowych:
+Najbezpieczniejsze podejście — przechowywanie poświadczeń w zmiennych środowiskowych:
 
 ```bash
 export AWS_ACCESS_KEY_ID=your_access_key_id
 export AWS_SECRET_ACCESS_KEY=your_secret_access_key
 ```
 
-AWS SDK automatycznie je odczytuje — nie wymaga zmian w kodzie.
+SDK AWS automatycznie je odczytuje — nie wymaga zmian w kodzie.
 
-### Opcja 2: Plik poświadczeń AWS (również dobre)
+### Opcja 2: Plik poświadczeń AWS (również dobra)
 
 Utwórz plik w `~/.aws/credentials` (na Mac/Linux) lub `C:\Users\USERNAME\.aws\credentials` (na Windows):
 
@@ -200,23 +182,23 @@ SDK ponownie odczytuje go automatycznie.
 
 ### Opcja 3: Konfiguracja programowa (dla tego samouczka)
 
-Do celów demonstracyjnych pokażemy poświadczenia w kodzie, ale pamiętaj: **to tylko do nauki**. W produkcji używaj zmiennych środowiskowych lub ról IAM.
+W celach demonstracyjnych pokażemy poświadczenia w kodzie, ale pamiętaj: **to tylko do nauki**. W produkcji używaj zmiennych środowiskowych lub ról IAM.
 
 ## Przewodnik implementacji: Pobieranie plików z Amazon S3
 
-Dobra, przejdźmy do rzeczywistego kodu. Zbudujemy to krok po kroku, abyś rozumiał, co robi każda część.
+Dobra, przejdźmy do właściwego kodu. Zbudujemy go krok po kroku, abyś rozumiał, co robi każda część.
 
 ### Przegląd procesu
 
-Oto co się dzieje, gdy pobierasz plik z S3:
-1. **Uwierzytelnij** się w AWS przy użyciu swoich poświadczeń  
-2. **Utwórz klienta S3**, który obsługuje komunikację z AWS  
-3. **Żądaj pliku** podając nazwę bucketu i klucz pliku  
-4. **Przetwórz plik** (zapisz go lokalnie, odczytaj zawartość, cokolwiek potrzebujesz)
+Oto co się dzieje przy pobieraniu pliku z S3:
+1. **Uwierzytelnienie** przy użyciu poświadczeń  
+2. **Utworzenie klienta S3**, który obsługuje komunikację z AWS  
+3. **Żądanie pliku** poprzez podanie nazwy bucketu i klucza pliku  
+4. **Przetworzenie pliku** (zapis lokalny, odczyt zawartości, cokolwiek potrzebujesz)
 
-### aws sdk java download – Krok 1: Zdefiniuj poświadczenia AWS i utwórz klienta S3
+### aws sdk java download – Krok 1: Definicja poświadczeń AWS i utworzenie klienta S3
 
-Zacznijmy od skonfigurowania uwierzytelniania i utworzenia klienta S3:
+Zacznijmy od ustawienia uwierzytelnienia i stworzenia klienta S3:
 
 ```java
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
@@ -245,16 +227,16 @@ public class S3FileDownloader {
 ```
 
 **Co się tutaj dzieje:**
-- `BasicAWSCredentials`: przechowuje Twój klucz dostępu i klucz tajny  
-- `AmazonS3ClientBuilder`: tworzy klienta S3 skonfigurowanego dla Twojego regionu i poświadczeń  
-- `.withRegion()`: określa, w którym regionie znajduje się Twój bucket (ważne dla wydajności i kosztów)  
-- `.build()`: faktycznie tworzy obiekt klienta  
+- `BasicAWSCredentials`: Przechowuje Twój klucz dostępu i klucz tajny  
+- `AmazonS3ClientBuilder`: Tworzy klienta S3 skonfigurowanego dla wybranego regionu i poświadczeń  
+- `.withRegion()`: Określa, w którym regionie AWS znajduje się Twój bucket (ważne dla wydajności i kosztów)  
+- `.build()`: Faktycznie tworzy obiekt klienta  
 
-**Uwaga dotycząca regionu:** Użyj regionu, w którym znajduje się Twój bucket S3. Popularne opcje to `Regions.US_EAST_1`, `Regions.US_WEST_2`, `Regions.EU_WEST_1` itd.
+**Uwaga dotycząca regionu:** Użyj regionu, w którym znajduje się Twój bucket. Popularne opcje to `Regions.US_EAST_1`, `Regions.US_WEST_2`, `Regions.EU_WEST_1` itd.
 
-### java s3 transfer manager – Krok 2: Pobierz plik
+### java s3 transfer manager – Krok 2: Pobranie pliku
 
-Teraz, gdy mamy uwierzytelnionego klienta S3, pobierzmy plik:
+Mając już uwierzytelnionego klienta S3, pobierzmy plik:
 
 ```java
 import com.amazonaws.services.s3.model.S3Object;
@@ -300,14 +282,14 @@ public class S3FileDownloader {
 
 **Rozbicie procesu pobierania:**
 
-1. `s3Client.getObject(bucketName, fileKey)`: żąda pliku z S3. Zwraca `S3Object` zawierający metadane i zawartość pliku.  
-2. `s3Object.getObjectContent()`: uzyskuje strumień wejściowy do odczytu danych pliku. Traktuj to jak otwarcie rury do pliku w S3.  
-3. **Odczyt i zapis**: Czytamy fragmenty danych (1024 bajty na raz) ze strumienia wejściowego i zapisujemy je do pliku lokalnego. To jest efektywne pamięciowo dla dużych plików.  
+1. **`s3Client.getObject(bucketName, fileKey)`**: Żąda pliku z S3. Zwraca `S3Object` zawierający metadane i treść pliku.  
+2. **`s3Object.getObjectContent()`**: Uzyskuje strumień wejściowy do odczytu danych pliku. To jak otwarcie rury prowadzącej do pliku w S3.  
+3. **Odczyt i zapis**: Czytamy porcje danych (1024 bajty naraz) ze strumienia i zapisujemy je do pliku lokalnego. To oszczędza pamięć przy dużych plikach.  
 4. **Czyszczenie zasobów**: Zawsze zamykaj strumienie, aby uniknąć wycieków pamięci.
 
-### java s3 multipart download – Rozbudowana wersja z lepszą obsługą błędów
+### java s3 multipart download – Rozszerzona wersja z lepszą obsługą błędów
 
-Oto bardziej solidna wersja używająca try‑with‑resources (automatycznie zamykającej strumienie):
+Oto bardziej solidna wersja wykorzystująca try‑with‑resources (automatycznie zamykającego strumienie):
 
 ```java
 import com.amazonaws.services.s3.model.S3Object;
@@ -345,19 +327,19 @@ public class S3FileDownloader {
 ```
 
 **Dlaczego ta wersja jest lepsza:**
-- **Try‑with‑resources**: automatycznie zamyka strumienie nawet w przypadku błędu  
-- **Większy bufor**: 4096 bajtów jest bardziej wydajne niż 1024 dla większości plików  
-- **Lepsza obsługa błędów**: rozróżnia błędy AWS od błędów lokalnych  
-- **Metoda wielokrotnego użytku**: łatwa do wywołania z dowolnego miejsca w aplikacji  
+- **Try‑with‑resources**: Automatycznie zamyka strumienie nawet w razie błędu  
+- **Większy bufor**: 4096 bajtów jest wydajniejsze niż 1024 dla większości plików  
+- **Lepsza obsługa błędów**: Rozróżnia błędy AWS od błędów lokalnych  
+- **Metoda wielokrotnego użytku**: Łatwa do wywołania z dowolnego miejsca w aplikacji  
 
-## Najczęstsze pułapki i jak ich unikać
+## Typowe pułapki i jak ich unikać
 
 Nawet doświadczeni programiści napotykają te problemy. Oto jak uniknąć najczęstszych błędów:
 
 ### 1. Nieprawidłowy region bucketu
 
-**Problem:** Twój kod przekracza limit czasu lub kończy się niejasnymi błędami.  
-**Przyczyna:** Region w kodzie nie pasuje do rzeczywistego regionu bucketu.  
+**Problem:** Kod się zawiesza lub zwraca niejasne błędy.  
+**Przyczyna:** Region w kodzie nie zgadza się z rzeczywistym regionem bucketu.  
 **Rozwiązanie:** Sprawdź region bucketu w konsoli AWS i użyj pasującej stałej `Regions`:
 
 ```java
@@ -370,7 +352,7 @@ Nawet doświadczeni programiści napotykają te problemy. Oto jak uniknąć najc
 
 ### 2. Niewystarczające uprawnienia IAM
 
-**Problem:** Błędy `AccessDenied` mimo prawidłowych poświadczeń.  
+**Problem:** Błędy `AccessDenied` mimo poprawnych poświadczeń.  
 **Przyczyna:** Użytkownik/rola IAM nie ma uprawnień do odczytu z S3.  
 **Rozwiązanie:** Upewnij się, że polityka IAM zawiera uprawnienie `s3:GetObject`:
 
@@ -388,32 +370,34 @@ Nawet doświadczeni programiści napotykają te problemy. Oto jak uniknąć najc
 }
 ```
 
-### 3. Nieprawidłowy klucz pliku
+### 3. Niepoprawny klucz pliku
 
-**Problem:** Błąd `NoSuchKey` podczas pobierania.  
+**Problem:** Błąd `NoSuchKey` przy pobieraniu.  
 **Przyczyna:** Klucz pliku (ścieżka) nie istnieje w bucketcie.  
 **Rozwiązanie:**  
 - Klucze plików są rozróżniane pod względem wielkości liter  
 - Podaj pełną ścieżkę: `folder/subfolder/file.pdf`, a nie tylko `file.pdf`  
-- Bez początkowego ukośnika: użyj `docs/report.pdf`, a nie `/docs/report.pdf`
+- Bez wiodącego ukośnika: użyj `docs/report.pdf`, nie `/docs/report.pdf`
 
 ### 4. Nie zamykane strumienie
 
-**Problem:** Wyciek pamięci lub błędy „zbyt wiele otwartych plików” z czasem.  
+**Problem:** Wycieki pamięci lub błędy „zbyt wiele otwartych plików”.  
 **Przyczyna:** Zapomniano zamknąć strumienie wejścia/wyjścia.  
-**Rozwiązanie:** Zawsze używaj try‑with‑resources (pokazane w rozbudowanym przykładzie powyżej).
+**Rozwiązanie:** Zawsze używaj try‑with‑resources (pokazane w ulepszonej wersji powyżej).
 
-### 5. Zakodowane na stałe poświadczenia w kodzie
+### 5. Hardcodowane poświadczenia w kodzie
 
-**Problem:** Luki bezpieczeństwa, poświadczenia w systemie kontroli wersji.  
-**Przyczyna:** Umieszczanie kluczy dostępu bezpośrednio w kodzie źródłowym.  
+**Problem:** Luki bezpieczeństwa, poświadczenia w repozytorium kodu.  
+**Przyczyna:** Wpisywanie kluczy dostępu bezpośrednio w kodzie.  
 **Rozwiązanie:** Używaj zmiennych środowiskowych, pliku poświadczeń AWS lub ról IAM.
 
 ## Najlepsze praktyki bezpieczeństwa
 
 Bezpieczeństwo nie jest opcjonalne przy pracy z AWS. Oto jak chronić poświadczenia i dane:
 
-### Nigdy nie koduj na stałe poświadczeń
+### Nigdy nie wpisuj poświadczeń na stałe
+
+Powtarzamy to, bo jest ważne: **nigdy nie umieszczaj kluczy dostępu w kodzie**. Zamiast tego użyj jednej z poniższych metod:
 
 **Zmienne środowiskowe:**  
 ```java
@@ -421,9 +405,11 @@ String accessKey = System.getenv("AWS_ACCESS_KEY_ID");
 String secretKey = System.getenv("AWS_SECRET_ACCESS_KEY");
 ```
 
-**Plik poświadczeń AWS:** SDK automatycznie odczytuje `~/.aws/credentials` — nie wymaga kodu.
+**Plik poświadczeń AWS:**  
+SDK automatycznie odczytuje `~/.aws/credentials` — nie wymaga kodu.
 
-**IAM Roles (najlepsze dla EC2/ECS):** Jeśli Twoja aplikacja Java działa na infrastrukturze AWS, użyj ról IAM zamiast kluczy dostępu.
+**Role IAM (najlepsze dla EC2/ECS):**  
+Jeśli Twoja aplikacja Java działa na infrastrukturze AWS, użyj ról IAM zamiast kluczy dostępu.
 
 ```java
 // No credentials needed with IAM roles!
@@ -432,7 +418,7 @@ AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
         .build();  // SDK uses IAM role automatically
 ```
 
-### Używaj ról IAM, gdy to możliwe
+### Używaj ról IAM, kiedy to możliwe
 
 Jeśli Twoja aplikacja Java działa na:
 - instancjach EC2  
@@ -440,28 +426,31 @@ Jeśli Twoja aplikacja Java działa na:
 - funkcjach Lambda  
 - Elastic Beanstalk  
 
-...używaj ról IAM. AWS SDK automatycznie korzysta z tymczasowych poświadczeń roli.
+… użyj ról IAM. SDK AWS automatycznie korzysta z tymczasowych poświadczeń roli.
 
 ### Zasada najmniejszych uprawnień
 
-Przyznawaj tylko te uprawnienia, które naprawdę potrzebuje Twoja aplikacja:
-- Potrzebujesz odczytu plików? → `s3:GetObject`  
-- Potrzebujesz listy plików? → `s3:ListBucket`  
-- Nie potrzebujesz usuwania? → Nie przyznawaj `s3:DeleteObject`
+Przyznawaj tylko te uprawnienia, które naprawdę są potrzebne:
+
+- Potrzebujesz tylko odczytu? → `s3:GetObject`  
+- Potrzebujesz listowania? → `s3:ListBucket`  
+- Nie potrzebujesz usuwania? → Nie przydzielaj `s3:DeleteObject`
 
 ### Włącz szyfrowanie S3
 
 Rozważ szyfrowanie S3 dla wrażliwych danych:
 - Szyfrowanie po stronie serwera (SSE‑S3 lub SSE‑KMS)  
-- Szyfrowanie po stronie klienta przed wysyłką  
+- Szyfrowanie po stronie klienta przed wysłaniem  
 
-AWS SDK obsługuje zaszyfrowane obiekty transparentnie przy pobieraniu.
+SDK AWS obsługuje zaszyfrowane obiekty transparentnie przy pobieraniu.
 
 ## Praktyczne zastosowania i przypadki użycia
 
 Teraz, gdy wiesz, jak pobierać pliki, zobaczmy, gdzie to się przydaje w prawdziwych projektach:
 
-### 1. Automatyczne odzyskiwanie kopii zapasowych
+### 1. Automatyczne odzyskiwanie backupów
+
+Pobieranie nocnych backupów baz danych do lokalnego przetwarzania:
 
 ```java
 public class BackupRetrieval {
@@ -473,7 +462,9 @@ public class BackupRetrieval {
 }
 ```
 
-### 2. System zarządzania treścią
+### 2. System zarządzania treścią (CMS)
+
+Serwowanie plików przesłanych przez użytkowników (obrazy, wideo, dokumenty):
 
 ```java
 public class CMSFileRetrieval {
@@ -486,7 +477,9 @@ public class CMSFileRetrieval {
 }
 ```
 
-### 3. Pipeline przetwarzania dokumentów
+### 3. Potok przetwarzania dokumentów
+
+Pobieranie dokumentów do podpisu, konwersji lub analizy:
 
 ```java
 public class DocumentProcessor {
@@ -503,6 +496,8 @@ public class DocumentProcessor {
 ```
 
 ### 4. Przetwarzanie wsadowe danych
+
+Pobieranie dużych zestawów danych do analiz:
 
 ```java
 public class DataProcessor {
@@ -522,9 +517,11 @@ public class DataProcessor {
 
 ## Wskazówki optymalizacji wydajności
 
-Chcesz szybsze pobieranie? Oto jak zoptymalizować:
+Chcesz szybsze pobierania? Oto kilka trików:
 
 ### 1. Używaj odpowiednich rozmiarów bufora
+
+Większy bufor = mniej operacji I/O = szybsze pobieranie:
 
 ```java
 byte[] buffer = new byte[8192];  // Good for most files
@@ -532,6 +529,8 @@ byte[] largeBuffer = new byte[16384];  // Better for large files
 ```
 
 ### 2. Równoległe pobieranie wielu plików
+
+Pobieraj wiele plików jednocześnie przy pomocy wątków:
 
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(10);
@@ -546,6 +545,8 @@ executor.awaitTermination(1, TimeUnit.HOURS);
 
 ### 3. Użyj Transfer Managera dla dużych plików
 
+Dla plików powyżej 100 MB użyj AWS Transfer Managera:
+
 ```java
 TransferManager transferManager = TransferManagerBuilder.standard()
         .withS3Client(s3Client)
@@ -555,7 +556,11 @@ Download download = transferManager.download(bucketName, fileKey, new File(local
 download.waitForCompletion();
 ```
 
+Transfer Manager automatycznie korzysta z pobierania wieloczęściowego i retryów.
+
 ### 4. Włącz pooling połączeń
+
+Reuse połączeń HTTP dla lepszej wydajności:
 
 ```java
 ClientConfiguration clientConfig = new ClientConfiguration();
@@ -568,11 +573,11 @@ AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
 
 ### 5. Wybierz właściwy region
 
-Pobieraj z regionu najbliższego Twojej aplikacji, aby zmniejszyć opóźnienia i koszty transferu danych.
+Pobieraj z regionu najbliższego Twojej aplikacji, aby zredukować opóźnienia i koszty transferu danych.
 
 ## Integracja z GroupDocs.Signature
 
-Jeśli pracujesz z dokumentami, które potrzebują podpisów elektronicznych, GroupDocs.Signature integruje się płynnie z pobieraniem z S3:
+Jeśli pracujesz z dokumentami wymagającymi podpisów elektronicznych, GroupDocs.Signature integruje się płynnie z pobieraniem z S3:
 
 ### Pełny przykład przepływu pracy
 
@@ -600,69 +605,69 @@ public class S3DocumentSigning {
 }
 ```
 
-Ten wzorzec sprawdza się doskonale w:
-- Workflow podpisywania umów  
-- Systemach zatwierdzania dokumentów  
-- Ścieżkach zgodności i audytu  
+Ten wzorzec sprawdza się świetnie w:
+- przepływach podpisywania umów  
+- systemach zatwierdzania dokumentów  
+- ścieżkach zapewniających zgodność i audyt  
 
 ## Rozwiązywanie typowych problemów
 
-### Issue: "Unable to find credentials"
+### Problem: „Unable to find credentials”
 
-**Objawy:** `AmazonClientException` o brakujących poświadczeniach.  
-
-**Rozwiązania:**  
-1. Sprawdź, czy zmienne środowiskowe są ustawione poprawnie.  
-2. Upewnij się, że plik `~/.aws/credentials` istnieje i jest prawidłowo sformatowany.  
-3. Jeśli działasz na EC2/ECS, zweryfikuj, czy rola IAM jest przypisana.
-
-### Issue: Download hangs or times out
-
-**Objawy:** Kod zawiesza się przy wywołaniu `getObject()`.  
+**Objawy:** `AmazonClientException` informujący o brakujących poświadczeniach.  
 
 **Rozwiązania:**  
-1. Zweryfikuj region bucketu w konfiguracji klienta.  
+1. Sprawdź, czy zmienne środowiskowe są poprawnie ustawione.  
+2. Zweryfikuj, czy plik `~/.aws/credentials` istnieje i ma prawidłowy format.  
+3. Upewnij się, że rola IAM jest przypisana (jeśli uruchamiasz na EC2/ECS).
+
+### Problem: Pobieranie zawiesza się lub przekracza limit czasu
+
+**Objawy:** Kod „zawiesza się” przy wywołaniu `getObject()`.  
+
+**Rozwiązania:**  
+1. Zweryfikuj, czy region bucketu zgadza się z konfiguracją klienta.  
 2. Sprawdź połączenie sieciowe z AWS.  
-3. Zwiększ limit czasu socketu:
+3. Zwiększ timeout socketu:
 
 ```java
 ClientConfiguration config = new ClientConfiguration();
 config.setSocketTimeout(300000);  // 5 minutes
 ```
 
-### Issue: "Access Denied" errors
+### Problem: Błąd „Access Denied”
 
-**Objawy:** `AmazonServiceException` z kodem błędu "AccessDenied".  
+**Objawy:** `AmazonServiceException` z kodem błędu „AccessDenied”.  
 
 **Rozwiązania:**  
 1. Upewnij się, że polityka IAM zawiera `s3:GetObject`.  
-2. Sprawdź politykę bucketu, aby zezwalała na dostęp.  
-3. Zweryfikuj poprawność klucza pliku (wielkość liter).
+2. Sprawdź politykę bucketu, czy zezwala na dostęp.  
+3. Zweryfikuj poprawność klucza pliku (uwzględnia wielkość liter).
 
-### Issue: Out of memory errors
+### Problem: Błąd pamięci (OutOfMemoryError)
 
 **Objawy:** `OutOfMemoryError` przy pobieraniu dużych plików.  
 
 **Rozwiązania:**  
-1. Nie wczytuj całego pliku do pamięci — używaj strumieniowania (jak pokazano).  
-2. Zwiększ rozmiar stosu JVM: `-Xmx2g`.  
+1. Nie wczytuj całego pliku do pamięci — używaj strumieni (jak w przykładach).  
+2. Zwiększ rozmiar sterty JVM: `-Xmx2g`.  
 3. Użyj Transfer Managera dla plików powyżej 100 MB.
 
 ## Wydajność i zarządzanie zasobami
 
 ### Wytyczne dotyczące użycia pamięci
 
-- **Małe pliki (<10 MB):** Standardowe podejście działa dobrze.  
-- **Średnie pliki (10‑100 MB):** Użyj buforowanych strumieni z buforami 8 KB+.  
+- **Małe pliki (<10 MB):** Standardowe podejście wystarczy.  
+- **Średnie pliki (10‑100 MB):** Używaj buforowanych strumieni z buforem 8 KB+.  
 - **Duże pliki (>100 MB):** Użyj Transfer Managera lub zwiększ bufor do 16 KB+.
 
 ### Najlepsze praktyki
 
 1. **Zawsze zamykaj strumienie** (używaj try‑with‑resources).  
-2. **Ponownie używaj klientów S3** (są bezpieczne wątkowo i kosztowne w tworzeniu).  
-3. **Ustaw odpowiednie timeouty** dla swojego przypadku użycia.  
-4. **Monitoruj metryki CloudWatch**, aby zidentyfikować wąskie gardła.  
-5. **Używaj puli połączeń** w aplikacjach o wysokiej przepustowości.
+2. **Reuse klientów S3** (są wątkowo‑bezpieczne i kosztowne w tworzeniu).  
+3. **Ustaw odpowiednie timeouty** dopasowane do Twojego scenariusza.  
+4. **Monitoruj metryki CloudWatch**, aby wykrywać wąskie gardła.  
+5. **Używaj poolingu połączeń** w aplikacjach o wysokim natężeniu.
 
 ### Czyszczenie zasobów
 
@@ -684,58 +689,31 @@ try {
 }
 ```
 
-## Zakończenie
+## Najczęściej zadawane pytania
 
-Masz teraz wszystko, czego potrzebujesz, aby pobierać pliki z Amazon S3 przy użyciu Javy. Omówiliśmy podstawy (uwierzytelnianie, konfigurację klienta, pobieranie plików), typowe pułapki (nieprawidłowe regiony, problemy z uprawnieniami) oraz tematy zaawansowane (optymalizacja wydajności, najlepsze praktyki bezpieczeństwa).
+**Q: Do czego służy `BasicAWSCredentials`?**  
+A: `BasicAWSCredentials` przechowuje Twój identyfikator klucza dostępu i klucz tajny. Uwierzytelnia aplikację w usługach AWS, ale w produkcji lepiej używać zmiennych środowiskowych, plików poświadczeń lub ról IAM.
 
-**Kluczowe wnioski**
-- Zawsze używaj właściwego zarządzania poświadczeniami (zmienne środowiskowe, role IAM)  
-- Dopasuj region klienta S3 do regionu bucketu  
-- Używaj try‑with‑resources do automatycznego czyszczenia strumieni  
-- Optymalizuj rozmiary buforów i rozważ Transfer Manager dla dużych plików  
-- Przyznawaj tylko te uprawnienia, które naprawdę potrzebuje Twoja aplikacja  
+**Q: Jak obsługiwać wyjątki przy pobieraniu plików z S3?**  
+A: Otocz logikę pobierania blokami try‑catch dla `AmazonServiceException` (błędy AWS) oraz `IOException` (błędy lokalne). Try‑with‑resources zapewnia zamknięcie strumieni nawet przy wyjątkach.
 
-**Kolejne kroki**
-- Zaimplementuj fragmenty kodu w swoim projekcie  
-- Zbadaj GroupDocs.Signature dla przepływów pracy związanych z podpisywaniem dokumentów  
-- Sprawdź AWS Transfer Manager do pobierania wieloczęściowego  
-- Monitoruj wydajność za pomocą CloudWatch i w razie potrzeby dostosuj ustawienia bufora/połączeń  
+**Q: Czy mogę używać tego podejścia z innymi dostawcami chmury?**  
+A: SDK AWS jest specyficzny dla Amazon Web Services. Dla Google Cloud Storage czy Azure Blob Storage potrzebne będą ich własne SDK, ale ogólny wzorzec — uwierzytelnienie, stworzenie klienta, pobranie, obsługa strumieni — pozostaje podobny.
 
-Gotowy, aby podnieść poziom integracji S3? Zacznij od przykładów kodu powyżej i dostosuj je do swoich konkretnych potrzeb.
+**Q: Jakie są najczęstsze przyczyny problemów z poświadczeniami AWS?**  
+A: Brak lub niepoprawnie ustawione zmienne środowiskowe, niewystarczające uprawnienia IAM (`s3:GetObject`), hardcodowane poświadczenia niepasujące do konta AWS oraz wygasłe tymczasowe poświadczenia przy użyciu ról IAM.
 
-## Frequently Asked Questions
+**Q: Jak mogę poprawić wydajność pobierania z S3?**  
+A: Używaj większych buforów (8 KB‑16 KB), pobieraj wiele plików równolegle przy pomocy wątków, korzystaj z AWS Transfer Managera dla dużych plików, wybieraj region S3 najbliższy aplikacji i włącz pooling połączeń.
 
-### 1. What is BasicAWSCredentials used for?
+**Q: Czy muszę zamykać klienta S3 po zakończeniu pobierania?**  
+A: Zazwyczaj nie — klienci `AmazonS3` są projektowani jako długotrwałe i wielokrotnego użytku. Tworzenie nowego klienta przy każdym pobraniu jest kosztowne. Jeśli jednak całkowicie kończysz pracę z S3, możesz wywołać `s3Client.shutdown()` w celu zwolnienia zasobów.
 
-`BasicAWSCredentials` jest klasą przechowującą Twój AWS Access Key ID oraz Secret Access Key. Służy do uwierzytelniania aplikacji w usługach AWS. Jednak w aplikacjach produkcyjnych lepiej używać zmiennych środowiskowych, plików poświadczeń lub ról IAM zamiast kodowania poświadczeń na stałe.
+**Q: Jak sprawdzić, w którym regionie znajduje się mój bucket S3?**  
+A: Otwórz bucket w konsoli AWS S3; region jest wyświetlany w właściwościach bucketu lub w URL (np. „US East (N. Virginia)” lub `eu-west-1`). Użyj odpowiadającej stałej `Regions` w kodzie Java.
 
-### 2. How do I handle exceptions when downloading files from S3?
-
-Używaj bloków try‑catch, aby obsłużyć `AmazonServiceException` (błędy związane z AWS, np. uprawnienia lub brak pliku) oraz `IOException` (błędy systemu plików). Wzorzec try‑with‑resources zapewnia zamknięcie strumieni nawet przy wystąpieniu wyjątków.
-
-### 3. Can I use this approach with other cloud storage providers?
-
-AWS SDK jest specyficzny dla Amazon Web Services. Dla innych dostawców, takich jak Google Cloud Storage czy Azure Blob Storage, potrzebne będą ich własne SDK. Jednak ogólny wzorzec (uwierzytelnij → utwórz klienta → pobierz plik → obsłuż strumienie) jest podobny wśród dostawców.
-
-### 4. What are the most common causes of AWS credential issues?
-
-Najczęstsze problemy to: (1) brak lub niepoprawnie ustawione zmienne środowiskowe, (2) niewłaściwe uprawnienia IAM (brak `s3:GetObject`), (3) zakodowane na stałe poświadczenia niezgodne z Twoim kontem AWS oraz (4) wygasłe tymczasowe poświadczenia przy użyciu ról IAM.
-
-### 5. How can I improve download performance from S3?
-
-Kluczowe strategie: używanie większych buforów (8 KB‑16 KB), równoległe pobieranie wielu plików przy użyciu wątków, korzystanie z AWS Transfer Manager dla dużych plików, wybór regionu S3 najbliższego aplikacji oraz włączenie poolingu połączeń.
-
-### 6. Do I need to close the S3 client after downloads?
-
-Zazwyczaj nie — klienci S3 są projektowani jako długotrwałe i wielokrotnego użytku. Tworzenie nowego klienta przy każdym pobraniu jest kosztowne. Jeśli jednak całkowicie zakończyłeś operacje na S3, możesz wywołać `s3Client.shutdown()` w celu zwolnienia zasobów.
-
-### 7. How do I know which region my S3 bucket is in?
-
-Sprawdź w konsoli AWS S3: otwórz bucket i zobacz właściwości lub URL. Region jest wyświetlany wyraźnie (np. „US East (N. Virginia)” lub `eu-west-1`). Użyj odpowiadającej stałej `Regions` w kodzie Javy.
-
-### 8. Can I download files without saving them to disk?
-
-Tak! Zamiast używać `FileOutputStream`, możesz odczytać `S3ObjectInputStream` bezpośrednio do pamięci lub przetworzyć go w locie. Pamiętaj jednak o zużyciu pamięci przy dużych plikach:
+**Q: Czy mogę pobierać pliki bez zapisywania ich na dysku?**  
+A: Tak. Zamiast `FileOutputStream` możesz odczytać `S3ObjectInputStream` bezpośrednio do pamięci lub przetwarzać go na bieżąco. Pamiętaj jednak o zużyciu pamięci przy dużych plikach:
 
 ```java
 S3Object s3Object = s3Client.getObject(bucket, key);
@@ -743,18 +721,20 @@ InputStream stream = s3Object.getObjectContent();
 // Process stream directly without saving to disk
 ```
 
-## Additional Resources
+## Dodatkowe zasoby
 
-- **Documentation:** [GroupDocs.Signature for Java](https://docs.groupdocs.com/signature/java/)  
-- **API Reference:** [GroupDocs.Signature API](https://reference.groupdocs.com/signature/java/)  
-- **Download:** [Latest GroupDocs Releases](https://releases.groupdocs.com/signature/java/)  
-- **Purchase:** [Buy GroupDocs License](https://purchase.groupdocs.com/buy)  
-- **Free Trial:** [Try GroupDocs Free](https://releases.groupdocs.com/signature/java/)  
-- **Temporary License:** [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)  
-- **Support:** [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)  
+- **Dokumentacja:** [GroupDocs.Signature for Java](https://docs.groupdocs.com/signature/java/)  
+- **Referencja API:** [GroupDocs.Signature API](https://reference.groupdocs.com/signature/java/)  
+- **Pobranie:** [Latest GroupDocs Releases](https://releases.groupdocs.com/signature/java/)  
+- **Zakup:** [Buy GroupDocs License](https://purchase.groupdocs.com/buy)  
+- **Bezpłatna wersja próbna:** [Try GroupDocs Free](https://releases.groupdocs.com/signature/java/)  
+- **Licencja tymczasowa:** [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)  
+- **Wsparcie:** [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)  
 
 ---
 
-**Last Updated:** 2025-12-19  
-**Tested With:** AWS SDK for Java 1.12.118, GroupDocs.Signature 23.12  
-**Author:** GroupDocs
+**Ostatnia aktualizacja:** 2026-02-24  
+**Testowano z:** AWS SDK for Java 1.12.118, GroupDocs.Signature 23.12  
+**Autor:** GroupDocs  
+
+---
