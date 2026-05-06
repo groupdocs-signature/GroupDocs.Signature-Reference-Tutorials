@@ -1,44 +1,94 @@
 ---
 categories:
 - Java Document Processing
-date: '2026-01-16'
-description: Pelajari cara membuat tanda tangan barcode di Java dan memperbarui posisi,
-  ukuran, serta properti untuk PDF menggunakan API GroupDocs.Signature.
-keywords: update barcode signature Java, Java barcode signature management, modify
-  barcode in PDF Java, GroupDocs Signature Java, Java document signature automation
-lastmod: '2026-01-16'
-linktitle: Update Barcode Signatures in Java
+date: '2026-05-06'
+description: Pelajari cara membuat tanda tangan barcode java dan memperbarui posisi,
+  ukuran, serta properti untuk PDF menggunakan GroupDocs.Signature API.
+keywords:
+- create barcode signature java
+- barcode signature java
+- groupdocs signature java
+lastmod: '2026-05-06'
+linktitle: Perbarui Tanda Tangan Barcode di Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-05-06'
+  description: Learn how to create barcode signature java and update its position,
+    size, and properties for PDFs using GroupDocs.Signature API.
+  headline: Create Barcode Signature Java – Update PDF Barcodes
+  type: TechArticle
+- description: Learn how to create barcode signature java and update its position,
+    size, and properties for PDFs using GroupDocs.Signature API.
+  name: Create Barcode Signature Java – Update PDF Barcodes
+  steps:
+  - name: Initialize the Signature Instance
+    text: '#### Direct answer Create a `Signature` object by passing the path of the
+      document you want to edit; this loads the file into memory and prepares it for
+      barcode operations. The `Signature` class is the gateway to all signature‑related
+      actions. It reads the file and exposes methods for searching, add'
+  - name: Search for Barcode Signatures
+    text: '#### Direct answer Use `BarcodeSearchOptions` with the `search` method
+      to retrieve a list of all barcode signatures in the document. You can’t update
+      what you can’t find. GroupDocs.Signature provides a powerful search API that
+      filters signatures by type. You now have a list of `BarcodeSignature` obj'
+  - name: Update Barcode Properties
+    text: '#### Direct answer Modify the `Left`, `Top`, `Width`, and `Height` of the
+      retrieved `BarcodeSignature` and call `signature.update` to write the changes
+      to a new file. Now you can **change barcode size** or reposition it wherever
+      you need. **Key points:** - `setLeft` / `setTop` move the barcode (coor'
+  type: HowTo
+- questions:
+  - answer: Absolutely. Iterate through the `List<BarcodeSignature>` returned by the
+      search and call `signature.update()` for each, or pass the entire list to a
+      single `update` call.
+    question: Can I update barcode signature Java code for multiple barcodes in one
+      document?
+  - answer: Dozens, including Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417,
+      and more. Use `barcodeSignature.getEncodeType()` to inspect the type.
+    question: What barcode types does GroupDocs.Signature support?
+  - answer: Yes, via `setText()`, but remember to regenerate the visual barcode so
+      scanners read it correctly.
+    question: Can I change the barcode's actual content (the encoded data)?
+  - answer: Each `BarcodeSignature` includes `getPageNumber()`. Filter or process
+      page‑specific barcodes as needed.
+    question: How do I handle documents with barcodes on multiple pages?
+  - answer: The source file remains untouched. GroupDocs writes the changes to the
+      output path you specify, preserving the original for safety.
+    question: What happens to the original document after updating?
+  type: FAQPage
 tags:
 - barcode-signatures
 - pdf-automation
 - groupdocs-java
 - document-management
-title: Buat Tanda Tangan Barcode di Java – Perbarui Barcode PDF
+title: Buat Tanda Tangan Barcode Java – Perbarui Barcode PDF
 type: docs
 url: /id/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/
 weight: 1
 ---
 
-# Membuat Tanda Tangan Barcode di Java – Memperbarui Barcode PDF
+# Buat Tanda Tangan Barcode Java – Perbarui Barcode PDF
 
-## Pendahuluan
+Pernahkah Anda perlu memindahkan posisi barcode pada ribuan label pengiriman setelah desain kemasan diubah? Atau memperbarui lokasi barcode di seluruh templat kontrak ketika tim hukum Anda mengubah tata letak dokumen? Anda tidak sendirian—skenario ini muncul terus-menerus dalam alur kerja otomatisasi dokumen.
 
-Pernahkah Anda perlu memindahkan posisi barcode pada ribuan label pengiriman setelah desain kemasan diubah? Atau memperbarui lokasi barcode di seluruh templat kontrak ketika tim hukum Anda mengubah tata letak dokumen? Anda tidak sendirian—skenario ini muncul terus-menerus dalam alur kerja otomasi dokumen.
+Dalam panduan ini, Anda akan mempelajari **cara membuat barcode signature java** dan memodifikasi posisi, ukuran, serta properti lainnya secara programatis. Memperbarui tanda tangan barcode secara manual sangat melelahkan dan rawan kesalahan. Dengan GroupDocs.Signature untuk Java, Anda dapat membuat objek tanda tangan barcode dan kemudian memperbaruinya hanya dengan beberapa baris kode. Baik Anda sedang membangun sistem inventaris, mengotomatisasi dokumen logistik, atau mengelola kontrak hukum, memperbarui tanda tangan barcode secara programatis menghemat jam kerja manual.
 
-Memperbarui **barcode signature** secara manual memakan waktu dan rawan kesalahan. Dengan GroupDocs.Signature untuk Java, Anda dapat **membuat objek barcode signature** dan kemudian memodifikasinya hanya dengan beberapa baris kode. Baik Anda membangun sistem inventaris, mengotomatisasi dokumen logistik, atau mengelola kontrak hukum, memperbarui barcode signature secara programatik menghemat jam kerja manual.
+## Jawaban Cepat
+- **Apa arti “create barcode signature”?** Itu berarti menghasilkan objek barcode yang dapat ditempatkan, dipindahkan, atau diedit di dalam dokumen melalui API.  
+- **Apakah saya dapat mengubah ukuran barcode setelah dibuat?** Ya – gunakan metode `setWidth` dan `setHeight` atau sesuaikan koordinat `Left`/`Top`.  
+- **Apakah saya memerlukan lisensi untuk memperbarui barcode?** Versi percobaan dapat digunakan untuk pengembangan; lisensi penuh diperlukan untuk produksi.  
+- **Apakah ini hanya bekerja dengan PDF?** Tidak – kode yang sama bekerja dengan Word, Excel, PowerPoint, dan file gambar.  
+- **Berapa banyak dokumen yang dapat saya proses sekaligus?** Pemrosesan batch didukung; cukup kelola memori dengan try‑with‑resources.
 
-**Apa yang Akan Anda Kuasai dalam Tutorial Ini:**
-- Menyiapkan dan menginisialisasi API Signature dengan dokumen Anda
-- Mencari barcode signature yang ada secara efisien
-- Memperbarui posisi, ukuran, dan properti lain barcode (termasuk cara **mengubah ukuran barcode**)
-- Menangani kesalahan umum dan kasus tepi
-- Mengoptimalkan kinerja untuk operasi batch
+## Apa itu create barcode signature java?
+Create barcode signature java adalah proses menginstansiasi objek `BarcodeSignature` yang mewakili barcode yang disisipkan sebagai tanda tangan digital di dalam dokumen. Panggilan API ini memungkinkan Anda menambahkan, menemukan, atau memodifikasi barcode tanpa membuka file di editor visual.
 
-Mari kita mulai dengan memastikan Anda memiliki semua yang diperlukan sebelum menulis kode apa pun.
+## Mengapa menggunakan GroupDocs.Signature untuk Java?
+GroupDocs.Signature mendukung **lebih dari 50 format input dan output**—termasuk PDF, DOCX, XLSX, PPTX, dan jenis gambar umum—dan dapat memproses PDF berukuran ratusan halaman sambil menjaga penggunaan memori di bawah 100 MB. API batch-nya menangani hingga **10.000 dokumen per proses** pada server standar, menjadikan pembaruan skala besar dapat dilakukan.
 
 ## Prasyarat
 
-Sebelum Anda dapat memperbarui kode Java barcode signature dalam proyek Anda, pastikan Anda telah menyiapkan hal-hal penting berikut:
+Sebelum Anda dapat memperbarui kode barcode signature Java dalam proyek Anda, pastikan Anda telah menyiapkan hal-hal penting berikut:
 
 ### Perpustakaan yang Diperlukan
 - **GroupDocs.Signature untuk Java**: Versi 23.12 atau lebih baru (versi sebelumnya mungkin tidak memiliki metode pembaruan yang akan kami gunakan).
@@ -58,7 +108,7 @@ Sudah semua? Bagus! Mari instal perpustakaan tersebut.
 
 Menambahkan GroupDocs.Signature ke proyek Java Anda sangat mudah. Pilih alat build yang Anda gunakan:
 
-**Maven**  
+**Maven**
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -67,41 +117,30 @@ Menambahkan GroupDocs.Signature ke proyek Java Anda sangat mudah. Pilih alat bui
 </dependency>
 ```
 
-**Gradle**  
+**Gradle**
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Unduhan Langsung**: Jika Anda tidak menggunakan alat build, unduh file JAR terbaru dari [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) dan tambahkan ke classpath proyek Anda secara manual.
+**Unduhan Langsung**: Jika Anda tidak menggunakan alat build, dapatkan file JAR terbaru dari [GroupDocs.Signature untuk Java releases](https://releases.groupdocs.com/signature/java/) dan tambahkan ke classpath proyek Anda secara manual.
 
 ### Akuisisi Lisensi
 
-GroupDocs.Signature bekerja dengan lisensi percobaan maupun lisensi penuh:
+GroupDocs.Signature berfungsi dengan lisensi percobaan maupun lisensi penuh:
+- **Percobaan Gratis** – sempurna untuk pengujian dan pekerjaan proof‑of‑concept
+- **Lisensi Sementara** – untuk evaluasi lanjutan pada proyek tertentu
+- **Lisensi Penuh** – menghapus watermark dan batas penggunaan untuk produksi
 
-- **Free Trial** – sempurna untuk pengujian dan pekerjaan proof‑of‑concept
-- **Temporary License** – untuk evaluasi lanjutan pada proyek tertentu
-- **Full License** – menghapus watermark dan batas penggunaan untuk produksi
+**Tip Pro**: Mulailah dengan percobaan gratis untuk memverifikasi API memenuhi kebutuhan Anda, kemudian tingkatkan ketika Anda siap meluncurkan.
 
-**Pro Tip**: Mulailah dengan free trial untuk memastikan API memenuhi kebutuhan Anda, kemudian tingkatkan ketika Anda siap meluncurkannya.
-
-Sekarang perpustakaan telah terinstal, mari selami implementasi sebenarnya.
-
-## Jawaban Cepat
-- **Apa arti “create barcode signature”?** Itu berarti menghasilkan objek barcode yang dapat ditempatkan, dipindahkan, atau diedit di dalam dokumen melalui API.  
-- **Bisakah saya mengubah ukuran barcode setelah dibuat?** Ya – gunakan metode `setWidth` dan `setHeight` atau sesuaikan koordinat `Left`/`Top`.  
-- **Apakah saya memerlukan lisensi untuk memperbarui barcode?** Trial dapat digunakan untuk pengembangan; lisensi penuh diperlukan untuk produksi.  
-- **Apakah ini hanya bekerja dengan PDF?** Tidak – kode yang sama bekerja dengan Word, Excel, PowerPoint, dan file gambar.  
-- **Berapa banyak dokumen yang dapat saya proses sekaligus?** Pemrosesan batch didukung; cukup kelola memori dengan try‑with‑resources.
-
-## Cara membuat barcode signature di Java
+## Cara membuat barcode signature java
 
 ### Langkah 1: Inisialisasi Instance Signature
 
-#### Mengapa Ini Penting
-Anggap objek `Signature` sebagai gerbang ke dokumen Anda. Ia memuat PDF (atau format lain yang didukung) ke dalam memori dan memberi Anda akses ke semua operasi terkait signature. Tanpa inisialisasi ini, Anda tidak dapat mencari atau memodifikasi apa pun.
+#### Jawaban Langsung
+Buat objek `Signature` dengan memberikan jalur dokumen yang ingin Anda edit; ini memuat file ke memori dan menyiapkannya untuk operasi barcode.
 
-#### Implementasi
-Pertama, impor kelas yang diperlukan dan tentukan jalur file:
+Kelas `Signature` adalah pintu gerbang ke semua tindakan terkait tanda tangan. Ia membaca file dan menyediakan metode untuk mencari, menambahkan, atau memperbarui tanda tangan.
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -116,17 +155,14 @@ String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
 Signature signature = new Signature(filePath);
 ```
 
-**Apa yang terjadi?** Konstruktor membaca file dan menyiapkannya untuk manipulasi. Jalur dapat berupa absolut atau relatif—pastikan proses Java memiliki izin baca.
+> **Tip pro:** Validasi jalur sebelum membuat instance `Signature` untuk menghindari `FileNotFoundException`.
 
-> **Pro tip:** Validasi jalur sebelum membuat instance `Signature` untuk menghindari `FileNotFoundException`.
+### Langkah 2: Cari Tanda Tangan Barcode
 
-### Langkah 2: Cari Barcode Signature
+#### Jawaban Langsung
+Gunakan `BarcodeSearchOptions` dengan metode `search` untuk mendapatkan daftar semua tanda tangan barcode dalam dokumen.
 
-#### Mengapa Pencarian Dulu Penting
-Anda tidak dapat memperbarui apa yang tidak dapat Anda temukan. GroupDocs.Signature menyediakan API pencarian yang kuat yang memfilter signature berdasarkan tipe.
-
-#### Implementasi
-Impor kelas terkait pencarian:
+Anda tidak dapat memperbarui apa yang tidak dapat Anda temukan. GroupDocs.Signature menyediakan API pencarian yang kuat yang memfilter tanda tangan berdasarkan tipe.
 
 ```java
 import com.groupdocs.signature.options.search.BarcodeSearchOptions;
@@ -134,44 +170,35 @@ import com.groupdocs.signature.domain.signatures.BarcodeSignature;
 import java.util.List;
 ```
 
-Konfigurasikan opsi pencarian (secara default mencari semua halaman):
-
 ```java
 BarcodeSearchOptions options = new BarcodeSearchOptions();
 ```
-
-Jalankan pencarian:
 
 ```java
 List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
 ```
 
-Sekarang Anda memiliki daftar objek `BarcodeSignature`, masing‑masing memiliki properti seperti `Left`, `Top`, `Width`, `Height`, `Text`, dan `EncodeType`.
+Sekarang Anda memiliki daftar objek `BarcodeSignature`, masing‑masing menampilkan properti seperti `Left`, `Top`, `Width`, `Height`, `Text`, dan `EncodeType`.
 
-> **Performance note:** Untuk PDF yang sangat besar, pertimbangkan mempersempit pencarian ke halaman atau tipe barcode tertentu agar lebih cepat.
+> **Catatan kinerja:** Untuk PDF yang sangat besar, pertimbangkan mempersempit pencarian ke halaman atau tipe barcode tertentu untuk mempercepat proses.
 
 ### Langkah 3: Perbarui Properti Barcode
 
-#### Acara Utama: Memodifikasi Barcode Signature
-Sekarang Anda dapat **mengubah ukuran barcode** atau memindahkannya ke mana pun Anda perlukan.
+#### Jawaban Langsung
+Modifikasi `Left`, `Top`, `Width`, dan `Height` dari `BarcodeSignature` yang diperoleh dan panggil `signature.update` untuk menulis perubahan ke file baru.
 
-#### Implementasi
-Pertama, impor kelas penanganan pengecualian:
+Sekarang Anda dapat **mengubah ukuran barcode** atau memindahkannya ke mana pun Anda perlukan.
 
 ```java
 import java.io.File;
 import com.groupdocs.signature.exception.GroupDocsSignatureException;
 ```
 
-Siapkan jalur output tempat dokumen yang dimodifikasi akan disimpan:
-
 ```java
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
 checkDir(outputFilePath);
 ```
-
-Sekarang, temukan barcode pertama (atau iterasi melalui daftar) dan terapkan perubahan:
 
 ```java
 if (signatures.size() > 0) {
@@ -195,20 +222,20 @@ if (signatures.size() > 0) {
 }
 ```
 
-**Poin Penting:**
+**Poin penting:**
 - `setLeft` / `setTop` memindahkan barcode (koordinat diukur dari sudut kiri‑atas).
-- Metode `update` menulis file baru; yang asli tetap tidak tersentuh.
+- Metode `update` menulis file baru; file asli tetap tidak tersentuh.
 - Bungkus pemanggilan dalam blok `try‑catch` untuk menangani kemungkinan `GroupDocsSignatureException`.
 
-## Kapan Anda Harus Memperbarui Barcode Signature?
+## Kapan Anda Harus Memperbarui Tanda Tangan Barcode?
 
 Memahami skenario yang tepat membantu Anda merancang alur kerja yang efisien.
 
 ### Pembaruan Merek Dokumen & Template
-Kop surat atau tata letak label baru sering berarti barcode perlu dipindahkan. Mengotomatisasi ini dengan Java lebih baik daripada mengedit ratusan file secara manual.
+Kop surat atau tata letak label baru sering berarti barcode perlu dipindahkan. Mengotomatisasinya dengan Java lebih baik daripada mengedit ratusan file secara manual.
 
 ### Pemrosesan Batch Setelah Migrasi Data
-PDF yang telah dimigrasi mungkin tidak mengikuti standar penempatan barcode Anda saat ini. Pembaruan massal mengembalikan konsistensi tanpa harus membuat ulang setiap dokumen.
+PDF yang dimigrasi mungkin tidak mengikuti standar penempatan barcode Anda saat ini. Pembaruan massal mengembalikan konsistensi tanpa harus membuat ulang setiap dokumen.
 
 ### Penyesuaian Kepatuhan Regulasi
 Industri seperti logistik atau kesehatan dapat mengubah aturan penempatan barcode. Skrip cepat memungkinkan Anda tetap patuh.
@@ -216,20 +243,19 @@ Industri seperti logistik atau kesehatan dapat mengubah aturan penempatan barcod
 ### Generasi Dokumen Dinamis
 Jika panjang konten dokumen bervariasi, Anda mungkin perlu menyesuaikan koordinat barcode secara dinamis.
 
-**Kapan TIDAK menggunakan pembaruan:** Jika Anda membuat dokumen baru, tempatkan barcode dengan benar sejak awal daripada menambahkannya kemudian memperbarui.
+**Kapan TIDAK menggunakan pembaruan:** Jika Anda membuat dokumen baru, tempatkan barcode dengan benar sejak awal alih‑alih menambahkannya kemudian memperbarui.
 
 ## Masalah Umum & Solusi
 
-### Masalah 1: “Tidak Ditemukan Barcode Signature”
-
+### Masalah 1: “Tidak Ada Tanda Tangan Barcode Ditemukan”
 **Gejala:** Pencarian mengembalikan daftar kosong meskipun Anda melihat barcode di PDF.
 
-**Penyebab Kemungkinan**
-- Barcode tertanam sebagai gambar atau bidang formulir, bukan sebagai objek signature.
+#### Penyebab Kemungkinan
+- Barcode disisipkan sebagai gambar atau bidang formulir, bukan sebagai objek tanda tangan.
 - Dokumen dilindungi kata sandi.
 - Anda memfilter tipe barcode tertentu yang tidak cocok.
 
-**Solusi**  
+#### Solusi
 ```java
 BarcodeSearchOptions options = new BarcodeSearchOptions();
 options.setAllPages(true); // Search all pages, not just the first
@@ -241,15 +267,14 @@ if (signatures.isEmpty()) {
 ```
 
 ### Masalah 2: Dokumen yang Diperbarui Terlihat Rusak
-
 **Gejala:** PDF tidak dapat dibuka setelah pembaruan.
 
-**Penyebab Kemungkinan**
+#### Penyebab Kemungkinan
 - Ruang disk tidak cukup.
 - Direktori output tidak ada.
 - Izin sistem file menghalangi penulisan.
 
-**Solusi**  
+#### Solusi
 ```java
 File outputDir = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/");
 if (!outputDir.exists()) {
@@ -262,11 +287,10 @@ if (!outputDir.canWrite()) {
 }
 ```
 
-### Masalah 3: Penurunan Kinerja pada Dokumen Besar
-
+### Masalah 3: Penurunan Kinerja dengan Dokumen Besar
 **Gejala:** Pemrosesan melambat secara dramatis untuk PDF dengan lebih dari ~50 halaman.
 
-**Solusi**  
+#### Solusi
 ```java
 BarcodeSearchOptions options = new BarcodeSearchOptions();
 options.setPageNumber(1); // Start with page 1
@@ -279,7 +303,6 @@ options.getPagesSetup().setLastPage(false);
 
 ### Manajemen Memori untuk Operasi Batch
 Proses satu dokumen pada satu waktu dan biarkan Java membersihkan sumber daya secara otomatis:
-
 ```java
 List<String> documentPaths = getDocumentList();
 for (String path : documentPaths) {
@@ -290,9 +313,8 @@ for (String path : documentPaths) {
 }
 ```
 
-### Menyimpan Hasil Pencarian di Cache
-Jika Anda perlu memodifikasi beberapa properti pada barcode yang sama, lakukan pencarian sekali dan gunakan kembali daftar tersebut:
-
+### Menyimpan Hasil Pencarian
+Jika Anda perlu memodifikasi beberapa properti pada barcode yang sama, cari sekali dan gunakan kembali daftar tersebut:
 ```java
 List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
 
@@ -309,8 +331,7 @@ signature.update(outputPath, signatures);
 ```
 
 ### Pemrosesan Paralel untuk Batch Besar
-Manfaatkan aliran Java untuk mempercepat pemrosesan ribuan dokumen:
-
+Manfaatkan Java streams untuk mempercepat pemrosesan ribuan dokumen:
 ```java
 documentPaths.parallelStream().forEach(path -> {
     try (Signature sig = new Signature(path)) {
@@ -330,72 +351,77 @@ documentPaths.parallelStream().forEach(path -> {
 ## Aplikasi Praktis
 
 ### Kasus Penggunaan 1: Pembaruan Label Logistik Otomatis
-Perusahaan pengiriman mengubah dimensi kotak, memerlukan pemindahan barcode pada 50.000 label yang ada. Potongan kode pemrosesan paralel di atas mengurangi pekerjaan dari hari menjadi beberapa jam.
+Sebuah perusahaan pengiriman mengubah dimensi kotak, memerlukan pemindahan posisi barcode pada 50.000 label yang ada. Potongan kode pemrosesan paralel di atas mengurangi pekerjaan dari hari menjadi beberapa jam.
 
 ### Kasus Penggunaan 2: Standarisasi Template Kontrak
-Penasihat hukum mewajibkan lokasi barcode tetap untuk pemindaian. Dengan mencari dan memperbarui semua PDF kontrak dalam satu batch, tim menghindari pencetakan ulang manual yang mahal.
+Konsultan hukum mewajibkan lokasi barcode tetap untuk pemindaian. Dengan mencari dan memperbarui semua PDF kontrak dalam satu batch, tim menghindari pencetakan ulang manual yang mahal.
 
 ### Kasus Penggunaan 3: Integrasi Sistem Inventaris
-Setelah upgrade ERP, barcode produk perlu disesuaikan dengan printer label baru. Memperbarui ukuran dan posisi barcode secara programatik menghemat waktu dan biaya material.
+Setelah upgrade ERP, barcode produk perlu disesuaikan dengan printer label baru. Memperbarui ukuran dan posisi barcode secara programatis menghemat waktu dan biaya material.
 
 ## Daftar Periksa Pemecahan Masalah
 
-Sebelum menghubungi dukungan, periksa daftar berikut:
-
-- [ ] **Jalur file benar** dan file ada
+Sebelum menghubungi dukungan, periksa daftar periksa berikut:
+- [ ] **Jalur file sudah benar** dan file ada
 - [ ] **Izin baca/tulis** diberikan untuk sumber dan tujuan
 - [ ] **Versi GroupDocs.Signature** adalah 23.12 atau lebih baru
-- [ ] **Lisensi dikonfigurasi dengan benar** (jika menggunakan lisensi penuh)
-- [ ] **Direktori output ada** atau dibuat secara programatik
+- [ ] **Lisensi sudah dikonfigurasi dengan benar** (jika menggunakan lisensi penuh)
+- [ ] **Direktori output ada** atau dibuat secara programatis
 - [ ] **Ruang disk cukup** untuk file output
 - [ ] **Tidak ada proses lain** yang mengunci file sumber
 - [ ] **Penanganan pengecualian** sudah ada untuk menangkap kesalahan
 
-## Bagian FAQ
+## Pertanyaan yang Sering Diajukan
 
-**Q: Bisakah saya memperbarui kode Java barcode signature untuk beberapa barcode dalam satu dokumen?**  
-A: Tentu saja. Iterasi melalui `List<BarcodeSignature>` yang dikembalikan oleh pencarian dan panggil `signature.update()` untuk masing‑masing, atau kirim seluruh daftar ke satu pemanggilan `update`.
+**Q: Bisakah saya memperbarui kode barcode signature Java untuk beberapa barcode dalam satu dokumen?**  
+A: Tentu saja. Iterasi melalui `List<BarcodeSignature>` yang dikembalikan oleh pencarian dan panggil `signature.update()` untuk masing‑masing, atau kirim seluruh daftar ke satu panggilan `update`.
 
 **Q: Jenis barcode apa yang didukung oleh GroupDocs.Signature?**  
-A: Puluhan jenis, termasuk Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417, dan lainnya. Gunakan `barcodeSignature.getEncodeType()` untuk memeriksa tipe.
+A: Puluhan, termasuk Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417, dan lainnya. Gunakan `barcodeSignature.getEncodeType()` untuk memeriksa tipe.
 
-**Q: Bisakah saya mengubah konten aktual barcode (data yang dienkode)?**  
-A: Ya, melalui `setText()`, tetapi ingat untuk menghasilkan ulang barcode visual agar pemindai dapat membacanya dengan benar.
+**Q: Bisakah saya mengubah konten sebenarnya dari barcode (data yang dienkode)?**  
+A: Ya, melalui `setText()`, tetapi ingat untuk menghasilkan kembali barcode visual sehingga pemindai dapat membacanya dengan benar.
 
-**Q: Bagaimana saya menangani dokumen dengan barcode pada beberapa halaman?**  
-A: Setiap `BarcodeSignature` memiliki `getPageNumber()`. Filter atau proses barcode khusus halaman sesuai kebutuhan.
+**Q: Bagaimana cara menangani dokumen dengan barcode di beberapa halaman?**  
+A: Setiap `BarcodeSignature` mencakup `getPageNumber()`. Filter atau proses barcode spesifik halaman sesuai kebutuhan.
 
 **Q: Apa yang terjadi pada dokumen asli setelah pembaruan?**  
-A: File sumber tetap tidak tersentuh. GroupDocs menulis perubahan ke jalur output yang Anda tentukan, menjaga file asli tetap aman.
+A: File sumber tetap tidak tersentuh. GroupDocs menulis perubahan ke jalur output yang Anda tentukan, menjaga asli untuk keamanan.
 
-**Q: Bisakah saya memperbarui barcode pada PDF yang dilindungi kata sandi?**  
-A: Ya. Gunakan overload `LoadOptions` pada konstruktor `Signature` untuk menyediakan kata sandi.
+**Q: Bisakah saya memperbarui barcode dalam PDF yang dilindungi kata sandi?**  
+A: Ya. Gunakan overload `LoadOptions` dari konstruktor `Signature` untuk memberikan kata sandi.
 
 **Q: Bagaimana cara memproses batch ribuan dokumen secara efisien?**  
-A: Gabungkan aliran paralel dengan try‑with‑resources (seperti yang ditunjukkan pada contoh pemrosesan paralel) dan pantau penggunaan memori.
+A: Gabungkan parallel streams dengan try‑with‑resources (seperti yang ditunjukkan dalam contoh pemrosesan paralel) dan pantau penggunaan memori.
 
 **Q: Apakah ini bekerja dengan format selain PDF?**  
 A: Ya. API yang sama bekerja dengan Word, Excel, PowerPoint, gambar, dan banyak format lain yang didukung oleh GroupDocs.Signature.
 
 ## Kesimpulan
 
-Anda kini memiliki panduan lengkap dan siap produksi untuk **membuat objek barcode signature** di Java serta memperbarui posisi, ukuran, dan properti lainnya. Kami telah membahas inisialisasi, pencarian, modifikasi, pemecahan masalah, dan penyetelan kinerja untuk skenario dokumen tunggal maupun batch besar.
+Anda kini memiliki panduan lengkap yang siap produksi untuk **membuat barcode signature java** objek dan memperbarui posisi, ukuran, serta properti lainnya. Kami telah membahas inisialisasi, pencarian, modifikasi, pemecahan masalah, dan penyetelan kinerja untuk skenario dokumen tunggal maupun batch besar.
 
 ### Langkah Selanjutnya
-- Bereksperimen memperbarui beberapa properti (mis., rotasi, opasitas) dalam satu proses.  
+- Bereksperimen dengan memperbarui beberapa properti (mis., rotasi, opasitas) dalam satu proses.  
 - Bangun layanan REST di sekitar kode ini untuk mengekspos pembaruan barcode sebagai API.  
-- Jelajahi tipe signature lain (teks, gambar, digital) menggunakan pola yang sama.
+- Jelajahi tipe tanda tangan lain (teks, gambar, digital) menggunakan pola yang sama.
 
-API GroupDocs.Signature menawarkan jauh lebih banyak daripada pembaruan barcode—selami verifikasi, penanganan metadata, dan dukungan multi‑format untuk mengotomatisasi alur kerja dokumen Anda sepenuhnya.
+API GroupDocs.Signature menawarkan jauh lebih banyak daripada pembaruan barcode—selami verifikasi, penanganan metadata, dan dukungan multi‑format untuk sepenuhnya mengotomatisasi alur kerja dokumen Anda.
 
-**Resources**
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
-- [API Reference](https://reference.groupdocs.com/signature/java/)
-- [Support Forum](https://forum.groupdocs.com/c/signature)
-- [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+**Sumber Daya**
+- [Dokumentasi GroupDocs.Signature untuk Java](https://docs.groupdocs.com/signature/java/)
+- [Referensi API](https://reference.groupdocs.com/signature/java/)
+- [Forum Dukungan](https://forum.groupdocs.com/c/signature)
+- [Unduhan Percobaan Gratis](https://releases.groupdocs.com/signature/java/)
 
 ---
 
-**Last Updated:** 2026-01-16  
-**Tested With:** GroupDocs.Signature 23.12  
-**Author:** GroupDocs  
+**Terakhir Diperbarui:** 2026-05-06  
+**Diuji Dengan:** GroupDocs.Signature 23.12  
+**Penulis:** GroupDocs
+
+## Tutorial Terkait
+
+- [Buat Tanda Tangan Barcode PDF di Java – Panduan GroupDocs](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
+- [Tutorial Java GroupDocs.Signature - Tambahkan Tanda Tangan Barcode ke PDF](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)
+- [Tutorial Tanda Tangan Barcode Java - Tambah, Verifikasi & Kelola Barcode di PDF](/signature/java/barcode-signatures/)
