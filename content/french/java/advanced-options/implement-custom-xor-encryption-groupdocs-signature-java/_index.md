@@ -1,13 +1,13 @@
 ---
 categories:
 - Java Security
-date: '2025-12-21'
-description: Apprenez à créer un chiffrement de données personnalisé en Java en utilisant
-  XOR et GroupDocs.Signature. Guide étape par étape avec des exemples de code, les
-  meilleures pratiques et les FAQ.
+date: '2026-03-06'
+description: Apprenez à créer un chiffreur XOR personnalisé en Java en utilisant XOR
+  et GroupDocs.Signature. Ce guide montre comment construire une classe de chiffrement
+  XOR en Java, avec des exemples pas à pas et une FAQ.
 keywords: XOR encryption Java, custom encryption Java, Java data encryption tutorial,
   implement encryption in Java, XOR cipher Java example, GroupDocs.Signature Java
-lastmod: '2025-12-21'
+lastmod: '2026-03-06'
 linktitle: XOR Encryption Java Guide
 tags:
 - encryption
@@ -15,72 +15,70 @@ tags:
 - security
 - groupdocs
 - data-protection
-title: Créer un chiffrement de données personnalisé (GroupDocs) avec XOR en Java
+title: Créer un chiffreur XOR personnalisé en Java avec GroupDocs.Signature
 type: docs
 url: /fr/java/advanced-options/implement-custom-xor-encryption-groupdocs-signature-java/
 weight: 1
 ---
 
-# Chiffrement XOR Java - Implémentation personnalisée simple avec GroupDocs.Signature
+# XOR Encryption Java - Simple Custom Implementation with GroupDocs.Signature
 
 ## Introduction
 
-Vous êtes-vous déjà demandé comment ajouter une couche rapide de chiffrement à votre application Java sans plonger dans des bibliothèques cryptographiques complexes ? Vous n'êtes pas seul. De nombreux développeurs ont besoin d'un chiffrement léger pour l'obfuscation des données, les environnements de test ou à des fins éducatives — et c'est là que le chiffrement XOR brille.
+Vous êtes-vous déjà demandé comment **create custom xor encryptor** dans votre application Java sans faire appel à des bibliothèques cryptographiques lourdes ? Vous n'êtes pas seul. De nombreux développeurs ont besoin d’une couche de chiffrement légère et facile à comprendre pour l’obfuscation de données, les tests ou l’apprentissage. Dans ce guide, nous allons construire une **xor encryption class java** à partir de zéro, puis l’intégrer à GroupDocs.Signature afin de protéger les flux de travail de documents en quelques lignes de code seulement.
 
-Voici le point : bien que le chiffrement XOR ne soit pas adapté à la protection de secrets d'État (nous en parlerons), il est parfait pour comprendre les fondamentaux du chiffrement et implémenter **create custom data encryption** dans vos projets Java. De plus, lorsque vous le combinez avec GroupDocs.Signature pour Java, vous obtenez une boîte à outils puissante pour sécuriser les flux de travail de documents.
+Vous découvrirez :
+- Ce qu’est réellement le chiffrement XOR et dans quels cas il a du sens
+- Comment implémenter une xor encryption class java qui satisfait le contrat `IDataEncryption` de GroupDocs
+- Une intégration pas à pas avec GroupDocs.Signature pour une protection de documents en conditions réelles
+- Les pièges courants, des astuces de performance et des techniques de dépannage
+- Des scénarios pratiques où un custom xor encryptor se démarque
 
-**Dans ce guide, vous découvrirez :**
-- Ce qu'est réellement le chiffrement XOR (et quand l'utiliser)
-- Comment créer une classe de chiffrement XOR personnalisée à partir de zéro
-- Intégrer votre chiffrement avec GroupDocs.Signature pour une sécurité documentaire en situation réelle
-- Les pièges courants auxquels les développeurs sont confrontés et comment les éviter
-- Cas d'utilisation pratiques au-delà du simple « chiffrement de données »
+Plongeons‑y et mettons votre custom xor encryptor en marche.
 
-Que vous construisiez une preuve de concept, que vous appreniez le chiffrement ou que vous ayez besoin d'une couche d'obfuscation simple, ce tutoriel vous y amènera. Commençons par les bases.
+## Quick Answers
+- **What is XOR encryption?** A symmetric operation that flips bits with a key; the same routine encrypts and decrypts data.  
+- **When should I use create custom xor encryptor?** For learning, quick prototyping, or non‑critical data obfuscation.  
+- **Do I need a special license for GroupDocs.Signature?** A free trial works for development; a paid license is required for production.  
+- **Can I encrypt large files?** Yes—use streaming (process data in chunks) to avoid memory issues.  
+- **Is XOR safe for sensitive data?** No—use AES‑256 or another strong algorithm for confidential information.
 
-## Réponses rapides
-- **Qu'est-ce que le chiffrement XOR ?** Une opération symétrique simple qui inverse les bits à l'aide d'une clé ; la même routine chiffre et déchiffre les données.  
-- **Quand devrais-je utiliser create custom data encryption avec XOR ?** Pour l'apprentissage, le prototypage rapide ou l'obfuscation de données non critiques.  
-- **Ai-je besoin d'une licence spéciale pour GroupDocs.Signature ?** Un essai gratuit suffit pour le développement ; une licence payante est requise pour la production.  
-- **Puis-je chiffrer de gros fichiers ?** Oui — utilisez le streaming (traitement des données par blocs) pour éviter les problèmes de mémoire.  
-- **Le XOR est-il sûr pour les données sensibles ?** Non — utilisez AES‑256 ou un autre algorithme robuste pour les informations confidentielles.
+## What is **create custom xor encryptor** with XOR in Java?
 
-## Qu'est-ce que **create custom data encryption** avec XOR en Java ?
+XOR encryption works by applying the exclusive‑OR (`^`) operator between each byte of your data and a secret key byte. Because XOR is its own inverse, the same method both encrypts and decrypts, making it ideal for a lightweight **create custom xor encryptor** solution.
 
-Le chiffrement XOR fonctionne en appliquant l'opérateur OU exclusif (^) entre chaque octet de vos données et un octet de clé secrète. Comme le XOR est son propre inverse, la même méthode chiffre et déchiffre, ce qui en fait une solution légère de **create custom data encryption**.
+## Why Choose XOR Encryption?
 
-## Pourquoi choisir le chiffrement XOR ?
+Before we dive into code, let's address the elephant in the room: why XOR?
 
-Avant de plonger dans le code, abordons l'éléphant dans la pièce : pourquoi le XOR ?
+XOR (exclusive OR) encryption is like the Honda Civic of encryption algorithms—simple, reliable, and great for learning. Here's when it makes sense:
 
-Le chiffrement XOR (OU exclusif) est comme la Honda Civic des algorithmes de chiffrement — simple, fiable et idéal pour l'apprentissage. Voici quand il a du sens :
+**Perfect for:**
+- **Educational purposes** – Understanding encryption basics without cryptographic complexity
+- **Data obfuscation** – Hiding data in transit where military‑grade security isn’t needed
+- **Quick prototyping** – Testing encryption workflows before implementing production algorithms
+- **Legacy system integration** – Some older systems still use XOR‑based schemes
+- **Performance‑critical scenarios** – XOR operations are blazingly fast
 
-**Parfait pour :**
-- **Objectifs éducatifs** – Comprendre les bases du chiffrement sans complexité cryptographique
-- **Obfuscation des données** – Masquer les données en transit où une sécurité de niveau militaire n'est pas nécessaire
-- **Prototypage rapide** – Tester les flux de chiffrement avant d'implémenter des algorithmes de production
-- **Intégration de systèmes hérités** – Certains systèmes anciens utilisent encore des schémas basés sur le XOR
-- **Scénarios critiques en performance** – Les opérations XOR sont extrêmement rapides
+**Not ideal for:**
+- Banking applications or sensitive personal data (use AES instead)
+- Regulatory compliance scenarios (GDPR, HIPAA, etc.)
+- Protection against sophisticated attackers
 
-**Pas idéal pour :**
-- Applications bancaires ou données personnelles sensibles (utilisez AES à la place)
-- Scénarios de conformité réglementaire (RGPD, HIPAA, etc.)
-- Protection contre des attaquants sophistiqués
+Think of XOR as a lock on your bedroom door—it keeps casual intruders out but won’t stop a determined burglar. For those situations, you'll want industrial‑strength algorithms like AES‑256.
 
-Considérez le XOR comme une serrure sur la porte de votre chambre — elle empêche les intrus occasionnels d'entrer mais ne stoppe pas un **cambrioleur déterminé**. Dans ces situations, vous voudrez des algorithmes de niveau industriel comme AES‑256.
+## Understanding XOR Encryption Basics
 
-## Comprendre les bases du chiffrement XOR
+Let's demystify how XOR encryption actually works (it's simpler than you think).
 
-Démystifions le fonctionnement réel du chiffrement XOR (c'est plus simple que vous ne le pensez).
+**The XOR Operation:**  
+XOR compares two bits and returns:
+- `1` if the bits are different  
+- `0` if the bits are the same  
 
-**L'opération XOR :**  
-Le XOR compare deux bits et renvoie :
-- `1` si les bits sont différents  
-- `0` si les bits sont identiques  
+Here's the beautiful part: **XOR encryption and decryption use the exact same operation**. That's right—the same code encrypts and decrypts your data.
 
-Voici la partie magnifique : **le chiffrement et le déchiffrement XOR utilisent exactement la même opération**. C'est exact — le même code chiffre et déchiffre vos données.
-
-**Exemple rapide :**
+**Quick Example:**
 ```
 Original:  01001000 (letter 'H')
 Key:       01011010 (our secret key)
@@ -92,32 +90,32 @@ Key:       01011010 (same key)
 Original:  01001000 (letter 'H' again!)
 ```
 
-Cette symétrie rend le XOR incroyablement efficace — une méthode fait les deux travaux. Le hic ? Toute personne disposant de votre clé peut déchiffrer les données instantanément, ce qui explique l'importance de la gestion des clés (même avec un XOR simple).
+This symmetry makes XOR incredibly efficient—one method does both jobs. The catch? Anyone with your key can decrypt the data instantly, which is why key management matters (even with simple XOR).
 
-## Prérequis
+## Prerequisites
 
-Avant de commencer à coder, assurons-nous que vous êtes prêt.
+Before we start coding, let's make sure you're set up for success.
 
-**Ce dont vous aurez besoin :**
-- **Java Development Kit (JDK) :** Version 8 ou supérieure (je recommande JDK 11+ pour de meilleures performances)
-- **IDE :** IntelliJ IDEA, Eclipse ou VS Code avec extensions Java
-- **Outil de construction :** Maven ou Gradle (exemples fournis pour les deux)
-- **GroupDocs.Signature :** Version 23.12 ou ultérieure
+**What You'll Need:**
+- **Java Development Kit (JDK):** Version 8 or higher (I recommend JDK 11+ for better performance)
+- **IDE:** IntelliJ IDEA, Eclipse, or VS Code with Java extensions
+- **Build Tool:** Maven or Gradle (examples provided for both)
+- **GroupDocs.Signature:** Version 23.12 or later
 
-**Pré-requis de connaissances :**
-- Syntaxe Java de base (classes, méthodes, tableaux)
-- Compréhension des interfaces en Java
-- Familiarité avec les tableaux d'octets (nous les utiliserons beaucoup)
-- Concept général du chiffrement (vous venez d'apprendre les bases du XOR, donc vous êtes prêt !)
+**Knowledge Requirements:**
+- Basic Java syntax (classes, methods, arrays)
+- Understanding of interfaces in Java
+- Familiarity with byte arrays (we'll work with those a lot)
+- General concept of encryption (you just learned XOR basics, so you're good!)
 
-**Temps requis :** Environ 30‑45 minutes pour implémenter et tester
+**Time Commitment:** About 30‑45 minutes to implement and test
 
-## Configuration de GroupDocs.Signature pour Java
+## Setting Up GroupDocs.Signature for Java
 
-GroupDocs.Signature pour Java est votre couteau suisse pour les opérations sur les documents — signature, vérification, gestion des métadonnées, et (pertinent pour nous) prise en charge du chiffrement. Voici comment l'ajouter à votre projet.
+GroupDocs.Signature for Java is your Swiss Army knife for document operations—signing, verification, metadata handling, and (relevant to us) encryption support. Here's how to add it to your project.
 
-**Configuration Maven :**
-Ajoutez cette dépendance à votre `pom.xml` :
+**Maven Setup:**  
+Add this dependency to your `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -126,49 +124,50 @@ Ajoutez cette dépendance à votre `pom.xml` :
 </dependency>
 ```
 
-**Configuration Gradle :**
-Pour les utilisateurs de Gradle, ajoutez ceci à votre `build.gradle` :
+**Gradle Setup:**  
+For Gradle users, add this to your `build.gradle`:
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Alternative de téléchargement direct :**
-Vous préférez une installation manuelle ? Téléchargez le JAR directement depuis [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) et ajoutez-le au classpath de votre projet.
+**Direct Download Alternative:**  
+Prefer manual installation? Download the JAR directly from [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) and add it to your project's classpath.
 
-### Acquisition de licence
+### License Acquisition
 
-GroupDocs.Signature propose des options de licence flexibles :
+GroupDocs.Signature offers flexible licensing options:
 
-- **Essai gratuit :** Parfait pour l'évaluation — testez toutes les fonctionnalités avec quelques limitations. [Commencez votre essai](https://releases.groupdocs.com/signature/java/)
-- **Licence temporaire :** Besoin de plus de temps ? Obtenez une licence temporaire de 30 jours avec toutes les fonctionnalités. [Demandez ici](https://purchase.groupdocs.com/temporary-license/)
-- **Licence complète :** Pour une utilisation en production, achetez une licence adaptée à vos besoins. [Voir les tarifs](https://purchase.groupdocs.com/buy)
+- **Free Trial:** Perfect for evaluation—test all features with some limitations. [Start your trial](https://releases.groupdocs.com/signature/java/)
+- **Temporary License:** Need more time? Get a 30‑day temporary license with full functionality. [Request here](https://purchase.groupdocs.com/temporary-license/)
+- **Full License:** For production use, purchase a license based on your needs. [View pricing](https://purchase.groupdocs.com/buy)
 
-**Astuce pro :** Commencez avec l'essai gratuit pour vous assurer que GroupDocs.Signature répond à vos exigences avant d'acheter.
+**Pro Tip:** Start with the free trial to ensure GroupDocs.Signature meets your requirements before purchasing.
 
-**Initialisation de base :**
-Une fois la dépendance ajoutée, l'initialisation de GroupDocs.Signature est simple :
+**Basic Initialization:**  
+Once you've added the dependency, initializing GroupDocs.Signature is straightforward:
 ```java
 Signature signature = new Signature("path/to/your/document");
 ```
 
-Cela crée une instance `Signature` pointant vers votre document cible. À partir de là, vous pouvez appliquer diverses opérations, y compris notre chiffrement personnalisé (que nous allons construire).
+This creates a `Signature` instance pointing to your target document. From here, you can apply various operations including our custom encryption (which we're about to build).
 
-## Guide de mise en œuvre : construire votre chiffrement XOR personnalisé
+## Implementation Guide: Building Your Custom XOR Encryption
 
-Passons à la partie amusante — construisons une classe de chiffrement XOR fonctionnelle à partir de zéro. Je vous guiderai à travers chaque partie afin que vous compreniez non seulement le « quoi », mais aussi le « pourquoi ».
+Now for the fun part—let's build a working XOR encryption class from scratch. I'll walk you through each piece so you understand not just the "what" but the "why."
 
-### Comment **create custom data encryption** avec XOR en Java
+### How to **create custom xor encryptor** with XOR in Java
 
-#### Étape 1 : importer les bibliothèques requises
+#### Step 1: Import Required Libraries
 
-Tout d'abord, nous devons importer l'interface `IDataEncryption` depuis GroupDocs :
+First, we need to import the `IDataEncryption` interface from GroupDocs:
 ```java
 import com.groupdocs.signature.domain.extensions.encryption.IDataEncryption;
 ```
 
-#### Étape 2 : définir la classe CustomXOREncryption
+#### Step 2: Define the CustomXOREncryption Class
 
-Voici notre implémentation complète avec des explications détaillées :
+Here's our complete implementation with detailed explanations:
+
 ```java
 public class CustomXOREncryption implements IDataEncryption {
     @Override
@@ -192,30 +191,31 @@ public class CustomXOREncryption implements IDataEncryption {
 }
 ```
 
-**Décomposons cela :**
+**Let's Break This Down:**
 
-- **Méthode de chiffrement :**
-  - **Paramètre :** `byte[] data` – données brutes sous forme de tableau d'octets (texte, contenu de document, etc.)
-  - **Sélection de la clé :** `byte key = 0x5A` – notre clé XOR (hex 5A = décimal 90). En production, vous passeriez cela en argument du constructeur pour plus de flexibilité.
-  - **Boucle :** Parcourt chaque octet en appliquant `data[i] ^ key`.
-  - **Retour :** Un nouveau tableau d'octets contenant les données chiffrées.
+- **Encryption Method:**  
+  - **Parameter:** `byte[] data` – raw data as a byte array (text, document content, etc.)  
+  - **Key Selection:** `byte key = 0x5A` – our XOR key (hex 5A = decimal 90). In production, you'd pass this as a constructor argument for flexibility.  
+  - **Loop:** Iterates through each byte, applying `data[i] ^ key`.  
+  - **Return:** A new byte array containing the encrypted data.
 
-- **Méthode de déchiffrement :**
-  - Appelle `encrypt(data)` car le XOR est symétrique.
+- **Decryption Method:**  
+  - Calls `encrypt(data)` because XOR is symmetric.
 
-**Pourquoi cette conception fonctionne :**
-1. Implémente `IDataEncryption`, le rendant compatible avec GroupDocs.Signature.
-2. Fonctionne sur des tableaux d'octets, donc il fonctionne avec tout type de fichier.
-3. Garde la logique courte et facile à auditer.
+**Why This Design Works:**  
+1. Implements `IDataEncryption`, making it compatible with GroupDocs.Signature.  
+2. Operates on byte arrays, so it works with any file type.  
+3. Keeps the logic short and easy to audit.
 
-**Idées de personnalisation :**
-- Passer la clé via le constructeur pour des clés dynamiques.
-- Utiliser un tableau de clés multi‑octets et le parcourir en boucle.
-- Ajouter un algorithme simple de planification de clé pour plus de variabilité.
+**Customization Ideas:**  
+- Pass the key via constructor for dynamic keys.  
+- Use a multi‑byte key array and cycle through it.  
+- Add a simple key‑scheduling algorithm for extra variability.
 
-#### Étape 3 : utiliser votre chiffrement avec GroupDocs.Signature
+#### Step 3: Use Your Encryption with GroupDocs.Signature
 
-Maintenant que nous avons notre classe de chiffrement, intégrons-la à GroupDocs.Signature pour une protection réelle des documents :
+Now that we have our encryption class, let's integrate it with GroupDocs.Signature for real document protection:
+
 ```java
 // Initialize signature with your document
 Signature signature = new Signature("document.pdf");
@@ -231,40 +231,40 @@ options.setDataEncryption(encryption);
 signature.sign("signed_document.pdf", options);
 ```
 
-**Ce qui se passe ici :**
-1. Nous créons un objet `Signature` pour le document cible.
-2. Instancions notre classe de chiffrement personnalisée.
-3. Configurons les options de signature (signatures QR code dans cet exemple) pour utiliser notre chiffrement.
-4. Signons le document — GroupDocs chiffre automatiquement les données sensibles en utilisant notre implémentation XOR.
+**What's Happening Here:**  
+1. We create a `Signature` object for the target document.  
+2. Instantiate our custom encryption class.  
+3. Configure signing options (QR code signatures in this example) to use our encryption.  
+4. Sign the document—GroupDocs automatically encrypts the sensitive data using our XOR implementation.
 
-## Pièges courants et comment les éviter
+## Common Pitfalls and How to Avoid Them
 
-Même avec des implémentations simples comme le XOR, les développeurs rencontrent des problèmes prévisibles. Voici ce à quoi il faut faire attention (basé sur des sessions de dépannage réelles) :
+Even with simple implementations like XOR, developers run into predictable issues. Here's what to watch out for (based on real troubleshooting sessions):
 
-**1. Erreurs de gestion des clés**
-- **Problème :** Codage en dur des clés dans le code source (comme le fait notre exemple)
-- **Solution :** En production, chargez les clés depuis des variables d'environnement ou des fichiers de configuration sécurisés
-- **Exemple :** `byte key = Byte.parseByte(System.getenv("XOR_KEY"));`
+**1. Key Management Mistakes**  
+- **Problem:** Hardcoding keys in source code (like our example does)  
+- **Solution:** In production, load keys from environment variables or secure configuration files  
+- **Example:** `byte key = Byte.parseByte(System.getenv("XOR_KEY"));`
 
-**2. Exceptions de pointeur nul**
-- **Problème :** Passer des tableaux d'octets `null` aux méthodes `encrypt`/`decrypt`
-- **Solution :** Ajouter des vérifications de nullité au début de vos méthodes :
+**2. Null Pointer Exceptions**  
+- **Problem:** Passing `null` byte arrays to `encrypt`/`decrypt` methods  
+- **Solution:** Add null checks at the start of your methods:
 ```java
 if (data == null) {
     throw new IllegalArgumentException("Data cannot be null");
 }
 ```
 
-**3. Problèmes d'encodage des caractères**
-- **Problème :** Convertir des chaînes en octets sans spécifier l'encodage
-- **Solution :** Toujours spécifier explicitement le jeu de caractères :
+**3. Character Encoding Issues**  
+- **Problem:** Converting strings to bytes without specifying encoding  
+- **Solution:** Always specify charset explicitly:  
 ```java
 byte[] data = myString.getBytes(StandardCharsets.UTF_8);
 ```
 
-**4. Problèmes de mémoire avec les gros fichiers**
-- **Problème :** Charger des gros fichiers entiers en mémoire sous forme de tableaux d'octets
-- **Solution :** Pour les fichiers de plus de 100 Mo, implémentez le chiffrement en streaming :
+**4. Memory Concerns with Large Files**  
+- **Problem:** Loading entire large files into memory as byte arrays  
+- **Solution:** For files over 100 MB, implement streaming encryption:
 ```java
 // Process in chunks instead of loading entire file
 BufferedInputStream input = new BufferedInputStream(new FileInputStream(file));
@@ -275,9 +275,9 @@ while ((bytesRead = input.read(buffer)) != -1) {
 }
 ```
 
-**5. Oublier la gestion des exceptions**
-- **Problème :** L'interface `IDataEncryption` déclare `throws Exception` — vous devez gérer les erreurs potentielles
-- **Solution :** Enveloppez les opérations dans des blocs try‑catch :
+**5. Forgetting Exception Handling**  
+- **Problem:** The `IDataEncryption` interface declares `throws Exception`—you need to handle potential errors  
+- **Solution:** Wrap operations in try‑catch blocks:
 ```java
 try {
     byte[] encrypted = encryption.encrypt(data);
@@ -287,23 +287,23 @@ try {
 }
 ```
 
-## Considérations de performance
+## Performance Considerations
 
-Le chiffrement XOR est extrêmement rapide — mais lorsqu'il est associé à GroupDocs.Signature, il existe encore des facteurs de performance à prendre en compte.
+XOR encryption is blazingly fast—but when you pair it with GroupDocs.Signature, there are still performance factors to keep in mind.
 
-### Meilleures pratiques de gestion de la mémoire
+### Memory Management Best Practices
 
-1. **Fermer les ressources rapidement**
+1. **Close Resources Promptly**
 ```java
 try (Signature signature = new Signature("document.pdf")) {
     // Your operations here
 } // Automatically closes and releases resources
 ```
 
-2. **Traiter les gros fichiers par blocs**
-(voir l'exemple de streaming ci‑dessus)
+2. **Process Large Files in Chunks**  
+(see the streaming example above)
 
-3. **Réutiliser les instances de chiffrement**
+3. **Reuse Encryption Instances**  
 ```java
 CustomXOREncryption encryption = new CustomXOREncryption();
 for (Document doc : documents) {
@@ -311,60 +311,60 @@ for (Document doc : documents) {
 }
 ```
 
-### Conseils d'optimisation
+### Optimization Tips
 
-- **Traitement parallèle :** Utilisez les flux parallèles Java pour les opérations par lots.
-- **Tailles de tampon :** Expérimentez avec des tampons de 4 KB‑16 KB pour une I/O optimale.
-- **Pré‑chauffage JIT :** La JVM optimisera la boucle XOR après quelques exécutions.
+- **Parallel Processing:** Use Java parallel streams for batch operations.  
+- **Buffer Sizes:** Experiment with 4 KB‑16 KB buffers for optimal I/O.  
+- **JIT Warm‑up:** The JVM will optimize the XOR loop after a few runs.
 
-**Attentes de benchmark (matériel moderne) :**
-- Petits fichiers (< 1 Mo) : < 10 ms
-- Fichiers moyens (1‑50 Mo) : < 500 ms
-- Gros fichiers (50‑500 Mo) : 1‑5 s avec streaming
+**Benchmark Expectations (modern hardware):**  
+- Small files (< 1 MB): < 10 ms  
+- Medium files (1‑50 MB): < 500 ms  
+- Large files (50‑500 MB): 1‑5 s with streaming
 
-Si vous constatez des performances plus lentes, examinez votre code I/O plutôt que le XOR lui‑-même.
+If you see slower performance, review your I/O code rather than the XOR itself.
 
-## Applications pratiques : quand **create custom data encryption** avec XOR
+## Practical Applications: When to **create custom xor encryptor**
 
-Vous avez construit le chiffrement — et maintenant ? Voici des scénarios réels où une approche légère de **create custom data encryption** a du sens :
+You've built the encryption—now what? Here are real‑world scenarios where a lightweight **create custom xor encryptor** approach makes sense:
 
-1. **Flux de travail documentaires sécurisés** – Chiffrer les métadonnées (noms des approbateurs, horodatages) avant de les intégrer dans des QR codes ou des signatures numériques.
-2. **Obfuscation des données dans les journaux** – Chiffrer en XOR les noms d'utilisateur ou les ID avant d'écrire dans les fichiers de log pour protéger la vie privée tout en gardant les logs lisibles pour le débogage.
-3. **Projets éducatifs** – Code de démarrage parfait pour les cours de cryptographie.
-4. **Intégration de systèmes hérités** – Communiquer avec d'anciens systèmes qui attendent des charges utiles obfusquées en XOR.
-5. **Test des flux de chiffrement** – Utiliser le XOR comme espace réservé pendant le développement ; remplacer par AES plus tard.
+1. **Secure Document Workflows** – Encrypt metadata (approver names, timestamps) before embedding in QR codes or digital signatures.  
+2. **Data Obfuscation in Logs** – XOR‑encrypt usernames or IDs before writing to log files to protect privacy while keeping logs readable for debugging.  
+3. **Educational Projects** – Perfect starter code for cryptography courses.  
+4. **Legacy System Integration** – Communicate with older systems that expect XOR‑obfuscated payloads.  
+5. **Testing Encryption Workflows** – Use XOR as a placeholder during development; swap in AES later.
 
-## Conseils de dépannage
+## Troubleshooting Tips
 
-| Problème | Cause probable | Solution |
-|----------|----------------|----------|
-| `NoClassDefFoundError` | JAR GroupDocs manquant | Vérifiez la dépendance Maven/Gradle, exécutez `mvn clean install` ou `gradle clean build` |
-| Les données chiffrées restent inchangées | La clé XOR est `0x00` | Choisissez une clé non nulle (par ex., `0x5A`) |
-| `OutOfMemoryError` sur de gros documents | Chargement du fichier entier en mémoire | Passez au streaming (voir le code ci‑dessus) |
-| Le déchiffrement produit du bruit | Clé différente utilisée pour le déchiffrement | Assurez‑vous d’utiliser la même clé ; stockez/ récupérez‑la de façon sécurisée |
-| Avertissements de compatibilité JDK | Utilisation d’un JDK ancien | Mettez à jour vers JDK 11+ |
+| Problem | Likely Cause | Fix |
+|---------|--------------|-----|
+| `NoClassDefFoundError` | GroupDocs JAR missing | Verify Maven/Gradle dependency, run `mvn clean install` or `gradle clean build` |
+| Encrypted data looks unchanged | XOR key is `0x00` | Choose a non‑zero key (e.g., `0x5A`) |
+| `OutOfMemoryError` on large docs | Loading whole file into memory | Switch to streaming (see code above) |
+| Decryption yields garbage | Different key used for decrypt | Ensure same key; store/retrieve securely |
+| JDK compatibility warnings | Using older JDK | Upgrade to JDK 11+ |
 
-**Toujours bloqué ?** Consultez le [Forum de support GroupDocs](https://forum.groupdocs.com/c/signature/) où la communauté et l'équipe de support peuvent aider.
+**Still Stuck?** Check the [GroupDocs Support Forum](https://forum.groupdocs.com/c/signature/) where the community and support team can help.
 
-## Questions fréquentes
+## Frequently Asked Questions
 
-**Q : Le chiffrement XOR est‑il suffisamment sûr pour une utilisation en production ?**  
-R : Non. Le XOR est vulnérable aux attaques par texte clair connu et ne doit pas protéger des données critiques comme les mots de passe ou les informations personnelles identifiables. Utilisez AES‑256 pour une sécurité de niveau production.
+**Q: Is XOR encryption secure enough for production use?**  
+A: No. XOR is vulnerable to known‑plaintext attacks and shouldn't protect critical data like passwords or PII. Use AES‑256 for production‑grade security.
 
-**Q : Puis‑je utiliser GroupDocs.Signature gratuitement ?**  
-R : Oui, un essai gratuit offre toutes les fonctionnalités pour l’évaluation. En production, vous aurez besoin d’une licence payante ou temporaire.
+**Q: Can I use GroupDocs.Signature for free?**  
+A: Yes, a free trial gives full functionality for evaluation. For production you’ll need a paid or temporary license.
 
-**Q : Comment configurer mon projet Maven pour inclure GroupDocs.Signature ?**  
-R : Ajoutez la dépendance indiquée dans la section « Configuration Maven » à votre `pom.xml`. Exécutez `mvn clean install` pour télécharger la bibliothèque.
+**Q: How do I configure my Maven project to include GroupDocs.Signature?**  
+A: Add the dependency shown in the “Maven Setup” section to `pom.xml`. Run `mvn clean install` to download the library.
 
-**Q : Quels sont les problèmes courants lors de l’implémentation d’un chiffrement personnalisé ?**  
-R : Vérifications de nullité, clés codées en dur, utilisation de mémoire avec de gros fichiers, incohérences d’encodage des caractères et absence de gestion des exceptions. Voir la section « Pièges courants » pour des solutions détaillées.
+**Q: What are common issues when implementing custom encryption?**  
+A: Null checks, hard‑coded keys, memory usage with large files, character‑encoding mismatches, and missing exception handling. See the “Common Pitfalls” section for detailed fixes.
 
-**Q : Le chiffrement XOR peut‑il être utilisé pour des données hautement sensibles ?**  
-R : Non. Il ne fournit qu’une obfuscation. Pour des données sensibles, passez à un algorithme éprouvé comme AES.
+**Q: Can XOR encryption be used for highly sensitive data?**  
+A: No. It provides only obfuscation. For sensitive data, switch to a proven algorithm like AES.
 
-**Q : Comment changer la clé de chiffrement sans la coder en dur ?**  
-R : Modifiez la classe pour accepter une clé via le constructeur :
+**Q: How do I change the encryption key without hardcoding it?**  
+A: Modify the class to accept a key via constructor:
 ```java
 public class CustomXOREncryption implements IDataEncryption {
     private final byte key;
@@ -375,29 +375,31 @@ public class CustomXOREncryption implements IDataEncryption {
     // encrypt/decrypt use this.key
 }
 ```
-Chargez la clé depuis des variables d’environnement ou des fichiers de configuration sécurisés en production.
+Load the key from environment variables or secure config files in production.
 
-**Q : Le chiffrement XOR fonctionne‑t‑il sur tous les types de fichiers ?**  
-R : Oui. Puisqu’il agit sur les octets bruts, tout fichier — texte, image, PDF, vidéo — peut être traité.
+**Q: Does XOR encryption work on all file types?**  
+A: Yes. Since it operates on raw bytes, any file—text, image, PDF, video—can be processed.
 
-**Q : Comment rendre le chiffrement XOR plus fort ?**  
-R : Utilisez un tableau de clés multi‑octets, implémentez une planification de clé, combinez avec des rotations de bits, ou enchaînez avec d’autres transformations simples. Cependant, pour une sécurité forte, privilégiez AES.
+**Q: How can I make XOR encryption stronger?**  
+A: Use a multi‑byte key array, implement key scheduling, combine with bit rotations, or chain with other simple transformations. Still, for strong security prefer AES.
 
-## Ressources
+## Resources
 
-**Documentation :**
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) – Référence complète et guides
-- [API Reference](https://reference.groupdocs.com/signature/java/) – Documentation détaillée de l’API
+**Documentation:**  
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) – Complete reference and guides  
+- [API Reference](https://reference.groupdocs.com/signature/java/) – Detailed API documentation  
 
-**Téléchargement et licences :**
-- [Download GroupDocs.Signature](https://releases.groupdocs.com/signature/java/) – Dernières versions
-- [Purchase a License](https://purchase.groupdocs.com/buy) – Tarifs et plans
-- [Free Trial](https://releases.groupdocs.com/signature/java/) – Commencez l’évaluation dès aujourd’hui
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/) – Accès d’évaluation étendu
+**Download and Licensing:**  
+- [Download GroupDocs.Signature](https://releases.groupdocs.com/signature/java/) – Latest releases  
+- [Purchase a License](https://purchase.groupdocs.com/buy) – Pricing and plans  
+- [Free Trial](https://releases.groupdocs.com/signature/java/) – Start evaluating today  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/) – Extended evaluation access  
 
-**Communauté et support :**
-- [Support Forum](https://forum.groupdocs.com/c/signature/) – Obtenez de l’aide de la communauté et de l’équipe GroupDocs
+**Community and Support:**  
+- [Support Forum](https://forum.groupdocs.com/c/signature/) – Get help from the community and GroupDocs team  
 
-**Dernière mise à jour :** 2025-12-21  
-**Testé avec :** GroupDocs.Signature 23.12 for Java  
-**Auteur :** GroupDocs
+---
+
+**Last Updated:** 2026-03-06  
+**Tested With:** GroupDocs.Signature 23.12 for Java  
+**Author:** GroupDocs

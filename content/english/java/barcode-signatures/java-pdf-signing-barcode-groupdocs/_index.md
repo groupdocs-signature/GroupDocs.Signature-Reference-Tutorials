@@ -1,34 +1,41 @@
 ---
-title: "How to Sign PDF with Barcode in Java"
-linktitle: "Sign PDF with Barcode Java"
-description: "Learn how to sign PDF documents with barcode signatures in Java using GroupDocs.Signature. Step-by-step tutorial with code examples and best practices."
+title: "How to Create Barcode Signature in PDF using Java"
+linktitle: "Create Barcode Signature Java"
+description: "Learn how to create barcode signature in PDF documents using Java and GroupDocs.Signature. Step-by-step tutorial with code examples and best practices."
 keywords: "sign PDF with barcode Java, Java barcode signature, GroupDocs PDF signing, Code128 barcode PDF, add barcode to PDF programmatically"
-date: "2025-01-02"
-lastmod: "2025-01-02"
+date: "2026-03-06"
+lastmod: "2026-03-06"
 weight: 1
 url: "/java/barcode-signatures/java-pdf-signing-barcode-groupdocs/"
 categories: ["Java PDF Processing"]
 tags: ["pdf-signing", "barcode-signature", "document-security", "groupdocs"]
 type: docs
 ---
-# How to Sign PDF with Barcode in Java
+# How to Create Barcode Signature in PDF using Java
+
+In this tutorial, you'll learn how to **create barcode signature** in PDF files using Java and GroupDocs.Signature. Barcode signatures embed machine‑readable identifiers that are both tamper‑evident and easy to scan—perfect for contracts, certificates, invoices, and any document that needs reliable verification.
+
+## Quick Answers
+- **What is a barcode signature?** A barcode embedded in a PDF that stores structured data and can be read by scanners or software.  
+- **Which barcode type is recommended?** Code128, because it handles alphanumeric data compactly.  
+- **Do I need a license?** A free trial works for testing; a full license is required for production.  
+- **Can I position the barcode on any page size?** Yes—use percentage‑based positioning for automatic scaling.  
+- **Is the barcode vector‑based?** Yes, it adds only a few kilobytes to the PDF and remains crisp at any resolution.  
 
 ## Why Barcode Signatures Matter for Your PDFs
 
-Here's a challenge you've probably faced: you need to add unique identifiers to PDFs that are both machine-readable and tamper-evident. Maybe you're working on a document management system, processing certificates, or handling contracts that need verification down the line.
+Here's a challenge you've probably faced: you need to add unique identifiers to PDFs that are both machine‑readable and tamper‑evident. Maybe you're working on a document management system, processing certificates, or handling contracts that need verification down the line.
 
 That's where barcode signatures come in handy. Unlike simple text stamps, barcodes let you embed structured data that scanners (and your software) can read instantly. Plus, when you combine them with PDF signing through GroupDocs.Signature for Java, you get a powerful way to track and verify documents without adding complex database lookups.
 
-In this guide, you'll learn exactly how to implement barcode signatures in your Java PDFs - from basic setup to production-ready code with flexible positioning. Whether you're building an invoice system, certificate generator, or contract management platform, you'll have everything you need by the end.
+In this guide, you'll learn exactly how to implement barcode signatures in your Java PDFs — from basic setup to production‑ready code with flexible positioning. Whether you're building an invoice system, certificate generator, or contract management platform, you'll have everything you need by the end.
 
 **What You'll Master:**
 - Setting up GroupDocs.Signature for Java in minutes
 - Creating Code128 barcode signatures (and why they're often your best choice)
-- Positioning barcodes using percentage-based layouts that work across any PDF size
+- Positioning barcodes using percentage‑based layouts that work across any PDF size
 - Avoiding common pitfalls that trip up developers
 - Testing your implementation properly
-
-Let's start with what you'll need before diving into code.
 
 ## What You'll Need Before Starting
 
@@ -38,7 +45,7 @@ Make sure you've got these essentials ready:
 - GroupDocs.Signature for Java (version 23.12 or newer recommended)
 
 **Development Environment:**
-- JDK 8 or higher installed
+- JDK 8 or higher installed
 - Your favorite IDE (IntelliJ IDEA, Eclipse, or VS Code with Java extensions)
 - Maven or Gradle for dependency management
 
@@ -69,9 +76,9 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 
 Before you go full production, you'll want to handle licensing:
 
-- **Free Trial:** Perfect for testing - get it from the GroupDocs website to explore core features
-- **Temporary License:** Need more time to evaluate? Apply for a 30-day temporary license
-- **Full License:** Ready for production? Purchase a license for unlimited usage
+- **Free Trial:** Perfect for testing — get it from the GroupDocs website to explore core features  
+- **Temporary License:** Need more time to evaluate? Apply for a 30‑day temporary license  
+- **Full License:** Ready for production? Purchase a license for unlimited usage  
 
 Here's a quick sanity check to make sure everything's working:
 ```java
@@ -91,9 +98,9 @@ public class QuickTest {
 
 If that runs without errors, you're all set!
 
-## Step-by-Step: Adding Barcode Signatures to Your PDFs
+## How to create barcode signature in Java
 
-Now for the fun part - let's sign a PDF with a barcode. We'll break this down into bite-sized steps so you understand exactly what's happening at each stage.
+Now for the fun part — let's sign a PDF with a barcode. We'll break this down into bite‑sized steps so you understand exactly what's happening at each stage.
 
 ### Step 1: Initialize the Signature Object
 
@@ -104,9 +111,9 @@ String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
 ```
 
-**What's happening here:** The `Signature` object loads your PDF into memory and prepares it for modifications. Make sure your file path is correct - a common gotcha is using backslashes on Windows without escaping them (use `\\` or just use forward slashes, which work cross-platform).
+**What's happening here:** The `Signature` object loads your PDF into memory and prepares it for modifications. Make sure your file path is correct — a common gotcha is using backslashes on Windows without escaping them (use `\\` or just use forward slashes, which work cross‑platform).
 
-### Step 2: Configure Your Barcode Options
+### Step 2: Configure Your Barcode Options (How to add barcode)
 
 Now let's create the barcode signature with your data:
 
@@ -119,14 +126,14 @@ options.setEncodeType(BarcodeTypes.Code128);
 ```
 
 **Breaking it down:**
-- `"12345678"` is your barcode data - this could be an order ID, certificate number, or any identifier you need
-- `Code128` is the encoding type (more on choosing the right type below)
+- `"12345678"` is your barcode data — this could be an order ID, certificate number, or any identifier you need  
+- `Code128` is the encoding type (more on choosing the right type below)  
 
 **Pro tip:** Code128 can handle both numbers and letters, making it versatile for most use cases. If you only need numbers, `Code39` might be simpler, but Code128 gives you more flexibility.
 
-### Step 3: Position Your Barcode (The Smart Way)
+### Step 3: Position Your Barcode (How to sign PDF with barcode)
 
-Here's where GroupDocs really shines - percentage-based positioning means your barcode looks good on any PDF size:
+Here's where GroupDocs really shines — percentage‑based positioning means your barcode looks good on any PDF size:
 
 ```java
 import com.groupdocs.signature.domain.enums.MeasureType;
@@ -150,11 +157,11 @@ margins.setRight(1);
 options.setMargin(margins);
 ```
 
-**Why percentages matter:** Imagine you're signing both A4 documents and legal-sized forms. With percentage positioning, your barcode automatically scales to look consistent on both. Using fixed pixel values would make your barcode too small on large documents or too large on small ones.
+**Why percentages matter:** Imagine you're signing both A4 documents and legal‑sized forms. With percentage positioning, your barcode automatically scales to look consistent on both. Using fixed pixel values would make your barcode too small on large documents or too large on small ones.
 
-**Real-world example:** On an A4 page (595x842 points), a 10% width barcode will be ~60 points wide. On a legal page (612x1008 points), it'll be ~61 points - automatically proportional.
+**Real‑world example:** On an A4 page (595 × 842 points), a 10% width barcode will be ~60 points wide. On a legal page (612 × 1008 points), it'll be ~61 points — automatically proportional.
 
-### Step 4: Sign and Save Your Document
+### Step 4: Sign and Save Your Document (How to add barcode pdf)
 
 Time to actually apply the signature and save your work:
 
@@ -171,7 +178,7 @@ Files.createDirectories(outputPath.getParent());
 signature.sign(outputFilePath, options);
 ```
 
-**What if something goes wrong?** Wrap this in a try-catch block:
+**What if something goes wrong?** Wrap this in a try‑catch block:
 
 ```java
 try {
@@ -183,38 +190,38 @@ try {
 }
 ```
 
-## Choosing the Right Barcode Type for Your Needs
+## Choosing the Right Barcode Type for Your Needs (code128 pdf barcode)
 
 GroupDocs supports multiple barcode formats, and picking the right one matters. Here's a practical comparison:
 
 **Code128 (Our Default Choice):**
-- **Best for:** Mixed alphanumeric data (IDs like "INV2024-001")
-- **Capacity:** Up to 128 ASCII characters
-- **Why it wins:** Compact, widely supported, handles both letters and numbers
-- **Use when:** You need flexibility and don't know what kind of data you'll encode
+- **Best for:** Mixed alphanumeric data (IDs like "INV2024-001")  
+- **Capacity:** Up to 128 ASCII characters  
+- **Why it wins:** Compact, widely supported, handles both letters and numbers  
+- **Use when:** You need flexibility and don't know what kind of data you'll encode  
 
 **Code39:**
-- **Best for:** Simple alphanumeric codes
-- **Capacity:** 43 characters (A-Z, 0-9, and some symbols)
-- **Why consider it:** Older scanners often support it better
-- **Use when:** Working with legacy systems or when simplicity matters more than data density
+- **Best for:** Simple alphanumeric codes  
+- **Capacity:** 43 characters (A‑Z, 0‑9, and some symbols)  
+- **Why consider it:** Older scanners often support it better  
+- **Use when:** Working with legacy systems or when simplicity matters more than data density  
 
 **QR Code:**
-- **Best for:** Large amounts of data (URLs, JSON payloads)
-- **Capacity:** Up to 3KB of data
-- **Why it's powerful:** Can store complex data structures, error correction built-in
-- **Use when:** You need to embed structured data or URLs
+- **Best for:** Large amounts of data (URLs, JSON payloads)  
+- **Capacity:** Up to 3 KB of data  
+- **Why it's powerful:** Can store complex data structures, error correction built‑in  
+- **Use when:** You need to embed structured data or URLs  
 
 **EAN/UPC:**
-- **Best for:** Product identification
-- **Capacity:** Fixed-length numeric codes (8-13 digits)
-- **Use when:** You're working with retail or inventory systems
+- **Best for:** Product identification  
+- **Capacity:** Fixed‑length numeric codes (8‑13 digits)  
+- **Use when:** You're working with retail or inventory systems  
 
-**Quick decision guide:** 
-- Need letters and numbers? → Code128
+**Quick decision guide:**  
+- Need letters and numbers? → Code128  
 - Only numbers, keep it simple? → Code39  
-- Lots of data or URLs? → QR Code
-- Retail/product codes? → EAN/UPC
+- Lots of data or URLs? → QR Code  
+- Retail/product codes? → EAN/UPC  
 
 ## Common Pitfalls and How to Avoid Them
 
@@ -225,12 +232,12 @@ Here are the issues developers run into most often (so you don't have to):
 **Symptom:** Your barcode appears in unexpected locations or gets cut off.
 
 **Common causes:**
-- Using pixel values on different page sizes
-- Forgetting that PDF coordinates start from bottom-left, not top-left
-- Margins pushing content outside visible area
+- Using pixel values on different page sizes  
+- Forgetting that PDF coordinates start from bottom‑left, not top‑left  
+- Margins pushing content outside visible area  
 
-**Solution:**
-Always use percentage-based positioning for consistency:
+**Solution:**  
+Always use percentage‑based positioning for consistency:
 ```java
 options.setLocationMeasureType(MeasureType.Percents);
 options.setLeft(5);  // 5% from left works on any page width
@@ -240,13 +247,13 @@ options.setLeft(5);  // 5% from left works on any page width
 
 **Symptom:** The encoded text displays but scanners can't read it.
 
-**Causes:**
-- Barcode too small for the amount of data
-- Wrong encoding type for your data
-- Low resolution or poor contrast
+**Causes:**  
+- Barcode too small for the amount of data  
+- Wrong encoding type for your data  
+- Low resolution or poor contrast  
 
-**Solution:**
-Match your barcode size to your data length. For Code128 with 10-15 characters, aim for at least 8-10% page width:
+**Solution:**  
+Match your barcode size to your data length. For Code128 with 10‑15 characters, aim for at least 8‑10% page width:
 ```java
 options.setWidth(10);  // Give it room to breathe
 options.setHeight(5);  // Maintain proper aspect ratio
@@ -256,12 +263,12 @@ options.setHeight(5);  // Maintain proper aspect ratio
 
 **Symptom:** `FileNotFoundException` or similar errors.
 
-**Causes:**
-- Hardcoded Windows paths with single backslashes
-- Output directory doesn't exist
-- File permissions issues
+**Causes:**  
+- Hardcoded Windows paths with single backslashes  
+- Output directory doesn't exist  
+- File permissions issues  
 
-**Solution:**
+**Solution:**  
 Use forward slashes (they work everywhere) and create directories first:
 ```java
 String filePath = "documents/sample.pdf";  // Works on Windows, Mac, Linux
@@ -272,8 +279,8 @@ Files.createDirectories(Paths.get("output/signed"));
 
 **Symptom:** Out of memory errors when processing big documents.
 
-**Solution:**
-Close the Signature object when you're done to free resources:
+**Solution:**  
+Close the `Signature` object when you're done to free resources:
 ```java
 try (Signature signature = new Signature(filePath)) {
     signature.sign(outputFilePath, options);
@@ -286,21 +293,21 @@ Before you deploy, make sure your barcodes actually work. Here's a practical tes
 
 ### 1. Visual Inspection Test
 Open your signed PDF and check:
-- Is the barcode visible and properly positioned?
-- Does it look crisp (not blurry or pixelated)?
+- Is the barcode visible and properly positioned?  
+- Does it look crisp (not blurry or pixelated)?  
 - Is there adequate white space around it?
 
 ### 2. Scanning Test
-Use a barcode scanner app on your phone (like "Barcode Scanner" or "QR & Barcode Reader") to verify:
-- The scanner can read your barcode
-- The decoded data matches what you encoded
+Use a barcode scanner app on your phone (like “Barcode Scanner” or “QR & Barcode Reader”) to verify:
+- The scanner can read your barcode  
+- The decoded data matches what you encoded  
 - It works from different angles and distances
 
-### 3. Cross-Platform Test
+### 3. Cross‑Platform Test
 Open your PDF on different devices:
-- Windows (Adobe Reader, Chrome)
-- Mac (Preview, Chrome)
-- Mobile devices (iOS, Android)
+- Windows (Adobe Reader, Chrome)  
+- Mac (Preview, Chrome)  
+- Mobile devices (iOS, Android)  
 
 Make sure the barcode renders correctly everywhere.
 
@@ -339,50 +346,25 @@ public class BarcodeSignatureTest {
 }
 ```
 
-## Real-World Use Cases for Barcode Signatures
+## Real‑World Use Cases for Barcode Signatures
 
 Let's look at where this technique really shines in production systems:
 
 ### 1. Certificate Generation and Verification
-**Scenario:** You're building a training platform that issues completion certificates.
-
-**Implementation:**
-- Generate a unique certificate ID (e.g., "CERT-2024-00123")
-- Embed it as a Code128 barcode in the bottom-right corner
-- When someone scans it, your API looks up the certificate details
-- Instant verification without manual data entry
-
-**Benefit:** Impossible to forge certificates since the barcode links to your database.
+**Scenario:** You're building a training platform that issues completion certificates.  
+**Implementation:** Generate a unique certificate ID (e.g., “CERT‑2024‑00123”) and embed it as a Code128 barcode in the bottom‑right corner. Scanning the barcode lets your API retrieve the certificate details instantly, eliminating manual data entry.  
 
 ### 2. Invoice Tracking Systems
-**Scenario:** Your company processes thousands of invoices monthly.
-
-**Implementation:**
-- Add invoice number and due date as a QR code
-- Position it where scanning equipment can easily read it
-- Automated sorting systems can route invoices without human intervention
-
-**Benefit:** Reduced processing time from hours to minutes, fewer human errors.
+**Scenario:** Your company processes thousands of invoices monthly.  
+**Implementation:** Add invoice number and due date as a QR code positioned where scanning equipment can easily read it. Automated sorting systems can route invoices without human intervention, cutting processing time from hours to minutes.  
 
 ### 3. Legal Contract Management
-**Scenario:** Law firm needs to track contract versions and amendments.
-
-**Implementation:**
-- Each contract version gets a unique barcode identifier
-- Barcode includes: contract ID, version number, signature date
-- Scanning during audits instantly pulls up version history
-
-**Benefit:** Audit trails become automatic, compliance is simplified.
+**Scenario:** A law firm needs to track contract versions and amendments.  
+**Implementation:** Each contract version gets a unique barcode identifier that includes contract ID, version number, and signature date. Scanning during audits pulls up the full version history automatically.  
 
 ### 4. Medical Records Security
-**Scenario:** Hospital needs to prevent unauthorized record access.
-
-**Implementation:**
-- Patient ID and record creation timestamp in barcode
-- Only authenticated devices can decode and access full records
-- Attempted scans create audit logs automatically
-
-**Benefit:** HIPAA compliance is easier, unauthorized access is immediately flagged.
+**Scenario:** A hospital wants to prevent unauthorized record access.  
+**Implementation:** Embed patient ID and record creation timestamp in a barcode. Only authenticated devices can decode and access the full record, and every scan creates an audit log for compliance.  
 
 ## Performance Optimization Tips
 
@@ -405,13 +387,14 @@ for (String pdfFile : pdfFiles) {
 **Why this helps:** Reusing the options object and properly closing resources prevents memory leaks.
 
 ### Memory Management
-For very large PDFs (50+ MB):
-- Process them sequentially rather than loading multiple at once
-- Use try-with-resources to ensure cleanup
+For very large PDFs (50 + MB):
+- Process them sequentially rather than loading multiple at once  
+- Use try‑with‑resources to ensure cleanup  
 - Monitor heap size and adjust JVM parameters if needed: `-Xmx2g`
 
 ### Caching Strategy
 If you're signing with the same barcode repeatedly:
+
 ```java
 // Create options once, reuse many times
 BarcodeSignOptions templateOptions = createStandardBarcodeOptions();
@@ -424,71 +407,59 @@ documentOptions.setText(uniqueDocumentId);
 ## When to Use Barcode Signatures (and When Not To)
 
 **Perfect scenarios:**
-- You need machine-readable document identifiers
-- Documents will be scanned or processed automatically
-- You want tamper-evident tracking without digital certificates
-- Integration with existing barcode infrastructure
+- You need machine‑readable document identifiers  
+- Documents will be scanned or processed automatically  
+- You want tamper‑evident tracking without digital certificates  
+- Integration with existing barcode infrastructure  
 
 **Not ideal when:**
-- You need legally binding digital signatures (use digital certificates instead)
-- Documents will only be viewed by humans (text watermarks might be simpler)
-- You're working with extremely small documents where barcodes would dominate the page
-- Security requirements mandate encryption (barcodes are visible and scannable by anyone)
+- You need legally binding digital signatures (use digital certificates instead)  
+- Documents will only be viewed by humans (a simple text watermark may suffice)  
+- You're working with extremely small documents where a barcode would dominate the page  
+- Security requirements mandate encryption (barcodes are visible and scannable by anyone)  
 
 **Can you combine approaches?** Absolutely! Many systems use both barcode signatures for tracking and digital signatures for legal validity.
 
-## Wrapping Up
-
-You now know how to implement professional-grade barcode signatures in Java PDFs using GroupDocs.Signature. You've learned not just the "how" but the "why" behind each decision - from choosing Code128 encoding to using percentage-based positioning.
-
-**Your next steps:**
-1. Try the code with your own PDF documents
-2. Experiment with different barcode types for your specific use case
-3. Implement the testing checklist to ensure reliability
-4. Explore GroupDocs' other signature types (digital, image, text stamps)
-
-**Want to go deeper?** Check out GroupDocs.Signature's documentation for advanced features like:
-- Adding multiple signatures to one document
-- Searching for existing signatures
-- Verifying signature integrity
-- Customizing barcode appearance (colors, transparency, rotation)
-
-Ready to implement this in your project? Start with a simple proof-of-concept using the code examples above, then gradually add the production features (error handling, logging, batch processing) as you scale up.
-
 ## Frequently Asked Questions
 
-**Q: Can I use different barcode types in the same PDF?**
-Yes! Call `signature.sign()` multiple times with different `BarcodeSignOptions` for each barcode type. Just make sure to position them so they don't overlap.
+**Q: Can I use different barcode types in the same PDF?**  
+A: Yes! Call `signature.sign()` multiple times with different `BarcodeSignOptions` for each barcode type. Just ensure they don’t overlap.
 
-**Q: How do I handle barcodes that contain special characters?**
-Code128 handles most ASCII characters fine. If you need Unicode or special symbols, consider using QR codes instead - they support UTF-8 encoding.
+**Q: How do I handle barcodes that contain special characters?**  
+A: Code128 handles most ASCII characters fine. For Unicode or complex data, switch to QR codes—they support UTF‑8 encoding.
 
-**Q: What's the maximum data I can store in a Code128 barcode?**
-Technically up to 128 characters, but readability drops significantly above 30-40 characters. For longer data, switch to QR codes.
+**Q: What's the maximum data I can store in a Code128 barcode?**  
+A: Technically up to 128 characters, but readability drops significantly above 30‑40 characters. For larger payloads, use QR codes.
 
-**Q: Will adding barcodes significantly increase my PDF file size?**
-Not noticeably - barcodes are vector graphics, so they typically add only 5-20KB per barcode, depending on size and complexity.
+**Q: Will adding barcodes significantly increase my PDF file size?**  
+A: Not noticeably—barcodes are vector graphics, typically adding only 5‑20 KB per barcode depending on size and complexity.
 
-**Q: Can I rotate barcodes or place them vertically?**
-Yes! Use `options.setRotationAngle(90)` to rotate your barcode. This is useful for placing barcodes along page margins.
+**Q: Can I rotate barcodes or place them vertically?**  
+A: Yes! Use `options.setRotationAngle(90)` to rotate your barcode, which is handy for margin placement.
 
-**Q: How do I make barcodes appear on every page of a multi-page PDF?**
-You'll need to iterate through pages and apply the signature to each one. Check the GroupDocs documentation for the `PagesSetup` class to control which pages get signed.
+**Q: How do I make barcodes appear on every page of a multi‑page PDF?**  
+A: Iterate through pages and apply the signature to each one. Check the `PagesSetup` class in the GroupDocs documentation to control which pages get signed.
 
-**Q: What if my barcode scanner can't read the generated barcode?**
-First, verify the barcode type is supported by your scanner. Then increase the barcode size - many scanning issues come from barcodes that are too small. Aim for at least 1 inch (2.54 cm) wide for reliable scanning.
+**Q: What if my barcode scanner can't read the generated barcode?**  
+A: First, verify the scanner supports the chosen barcode type. Then increase the barcode size—most scanning issues stem from bars that are too small. Aim for at least 1 inch (2.54 cm) width for reliable reads.
 
 ## Additional Resources
 
-**Documentation:**
-- [GroupDocs.Signature for Java Docs](https://docs.groupdocs.com/signature/java/)
-- [API Reference Guide](https://reference.groupdocs.com/signature/java/)
+**Documentation:**  
+- [GroupDocs.Signature for Java Docs](https://docs.groupdocs.com/signature/java/)  
+- [API Reference Guide](https://reference.groupdocs.com/signature/java/)  
 
-**Downloads and Licensing:**
-- [Download Latest Version](https://releases.groupdocs.com/signature/java/)
-- [Free Trial Access](https://releases.groupdocs.com/signature/java/)
-- [Get Temporary License](https://purchase.groupdocs.com/temporary-license/)
-- [Purchase Full License](https://purchase.groupdocs.com/buy)
+**Downloads and Licensing:**  
+- [Download Latest Version](https://releases.groupdocs.com/signature/java/)  
+- [Free Trial Access](https://releases.groupdocs.com/signature/java/)  
+- [Get Temporary License](https://purchase.groupdocs.com/temporary-license/)  
+- [Purchase Full License](https://purchase.groupdocs.com/buy)  
 
-**Community and Support:**
-- [Support Forum](https://forum.groupdocs.com/c/signature/) - Active community with GroupDocs engineers
+**Community and Support:**  
+- [Support Forum](https://forum.groupdocs.com/c/signature/) - Active community with GroupDocs engineers  
+
+---
+
+**Last Updated:** 2026-03-06  
+**Tested With:** GroupDocs.Signature 23.12 (Java)  
+**Author:** GroupDocs

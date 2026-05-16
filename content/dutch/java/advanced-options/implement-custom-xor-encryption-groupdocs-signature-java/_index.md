@@ -1,13 +1,13 @@
 ---
 categories:
 - Java Security
-date: '2025-12-21'
-description: Leer hoe je aangepaste gegevensversleuteling in Java maakt met XOR en
-  GroupDocs.Signature. Stapsgewijze handleiding met codevoorbeelden, best practices
-  en veelgestelde vragen.
+date: '2026-03-06'
+description: Leer hoe je een aangepaste XOR‑encryptor maakt in Java met behulp van
+  XOR en GroupDocs.Signature. Deze gids laat zien hoe je een XOR‑encryptieklasse in
+  Java bouwt, met stapsgewijze voorbeelden en veelgestelde vragen.
 keywords: XOR encryption Java, custom encryption Java, Java data encryption tutorial,
   implement encryption in Java, XOR cipher Java example, GroupDocs.Signature Java
-lastmod: '2025-12-21'
+lastmod: '2026-03-06'
 linktitle: XOR Encryption Java Guide
 tags:
 - encryption
@@ -15,72 +15,69 @@ tags:
 - security
 - groupdocs
 - data-protection
-title: Maak aangepaste gegevensversleuteling (GroupDocs) met XOR in Java
+title: Maak een aangepaste XOR-versleuteler in Java met GroupDocs.Signature
 type: docs
 url: /nl/java/advanced-options/implement-custom-xor-encryption-groupdocs-signature-java/
 weight: 1
 ---
 
-# XOR Encryptie Java - Eenvoudige Aangepaste Implementatie met GroupDocs.Signature
+# XOR Encryption Java - Simple Custom Implementation with GroupDocs.Signature
 
-## Inleiding
+## Introductie
 
-Heb je je ooit afgevraagd hoe je snel een laag encryptie aan je Java‑applicatie kunt toevoegen zonder je te verdiepen in complexe cryptografische bibliotheken? Je bent niet de enige. Veel ontwikkelaars hebben een lichtgewicht encryptie nodig voor data‑obfuscatie, testomgevingen of educatieve doeleinden — en daar blinkt XOR‑encryptie uit.
+Heb je je ooit afgevraagd hoe je een **create custom xor encryptor** kunt maken in je Java‑applicatie zonder zware cryptografische bibliotheken te gebruiken? Je bent niet de enige. Veel ontwikkelaars hebben een lichtgewicht, gemakkelijk te begrijpen encryptielaag nodig voor data‑obfuscatie, testen of leerdoeleinden. In deze gids lopen we stap voor stap door het bouwen van een **xor encryption class java** vanaf de basis en integreren we deze vervolgens met GroupDocs.Signature zodat je document‑workflows kunt beschermen met slechts een paar regels code.
 
-Het punt is: hoewel XOR‑encryptie niet geschikt is om staatsgeheimen te beschermen (dat bespreken we later), is het perfect om de basisprincipes van encryptie te begrijpen en **create custom data encryption** in je Java‑projecten te implementeren. Bovendien, wanneer je het combineert met GroupDocs.Signature voor Java, krijg je een krachtig gereedschap voor het beveiligen van document‑workflows.
+Je ontdekt:
+- Wat XOR‑encryptie echt is en wanneer het zinvol is
+- Hoe je een xor encryption class java implementeert die voldoet aan het `IDataEncryption`‑contract van GroupDocs
+- Stap‑voor‑stap integratie met GroupDocs.Signature voor real‑world documentbescherming
+- Veelvoorkomende valkuilen, prestatie‑tips en probleemoplossende trucs
+- Praktische scenario's waarin een custom xor encryptor uitblinkt
 
-**In deze gids ontdek je:**
-- Wat XOR‑encryptie eigenlijk is (en wanneer je het moet gebruiken)
-- Hoe je van nul af aan een aangepaste XOR‑encryptieklasse bouwt
-- Hoe je je encryptie integreert met GroupDocs.Signature voor real‑world documentbeveiliging
-- Veelvoorkomende valkuilen voor ontwikkelaars en hoe je ze kunt vermijden
-- Praktische use‑cases die verder gaan dan alleen “dingen versleutelen”
+Laten we duiken en je custom xor encryptor operationeel maken.
 
-Of je nu een proof‑of‑concept bouwt, meer wilt leren over encryptie, of een eenvoudige obfuscatielaag nodig hebt, deze tutorial brengt je op weg. Laten we beginnen met de basis.
-
-## Snelle Antwoorden
-- **Wat is XOR‑encryptie?** Een eenvoudige symmetrische bewerking die bits omdraait met een sleutel; dezelfde routine versleutelt en ontsleutelt data.  
-- **Wanneer moet ik **create custom data encryption** met XOR gebruiken?** Voor leren, snelle prototyping of niet‑kritieke data‑obfuscatie.  
+## Snelle antwoorden
+- **Wat is XOR‑encryptie?** Een symmetrische bewerking die bits omkeert met een sleutel; dezelfde routine versleutelt en ontsleutelt data.  
+- **Wanneer moet ik een custom xor encryptor gebruiken?** Voor leren, snelle prototyping of niet‑kritieke data‑obfuscatie.  
 - **Heb ik een speciale licentie nodig voor GroupDocs.Signature?** Een gratis proefversie werkt voor ontwikkeling; een betaalde licentie is vereist voor productie.  
-- **Kan ik grote bestanden versleutelen?** Ja — gebruik streaming (verwerk data in stukken) om geheugenproblemen te vermijden.  
-- **Is XOR veilig voor gevoelige data?** Nee — gebruik AES‑256 of een ander sterk algoritme voor vertrouwelijke informatie.
+- **Kan ik grote bestanden versleutelen?** Ja—gebruik streaming (verwerk data in stukken) om geheugenproblemen te vermijden.  
+- **Is XOR veilig voor gevoelige data?** Nee—gebruik AES‑256 of een ander sterk algoritme voor vertrouwelijke informatie.
 
-## Wat is **create custom data encryption** met XOR in Java?
+## Wat is **create custom xor encryptor** met XOR in Java?
 
-XOR‑encryptie werkt door de exclusive‑OR (^) operator toe te passen tussen elk byte van je data en een geheime sleutelbyte. Omdat XOR zijn eigen inverse is, versleutelt en ontsleutelt dezelfde methode, waardoor het ideaal is voor een lichtgewicht **create custom data encryption**‑oplossing.
+XOR‑encryptie werkt door de exclusive‑OR (`^`) operator toe te passen tussen elke byte van je data en een geheime sleutelbyte. Omdat XOR zijn eigen inverse is, versleutelt en ontsleutelt dezelfde methode, waardoor het ideaal is voor een lichtgewicht **create custom xor encryptor**‑oplossing.
 
 ## Waarom XOR‑encryptie kiezen?
 
-Voordat we in de code duiken, laten we de olifant in de kamer aanpakken: waarom XOR?
+Voordat we in de code duiken, laten we de olifant in de kamer bespreken: waarom XOR?
 
-XOR (exclusive OR) encryptie is als de Honda Civic van encryptie‑algoritmen — eenvoudig, betrouwbaar en geweldig om te leren. Hier is wanneer het zinvol is:
+XOR (exclusive OR) encryptie is als de Honda Civic van encryptie‑algoritmen—eenvoudig, betrouwbaar en geweldig om te leren. Hier is wanneer het zinvol is:
 
 **Perfect voor:**
-- **Educatieve doeleinden** – Begrijpen van encryptie‑basics zonder cryptografische complexiteit
+- **Educatieve doeleinden** – Begrijpen van encryptie‑basisprincipes zonder cryptografische complexiteit
 - **Data‑obfuscatie** – Data verbergen tijdens transport waar militaire beveiliging niet nodig is
-- **Snelle prototyping** – Encryptieworkflows testen voordat je productie‑algoritmen implementeert
-- **Legacy‑systeemintegratie** – Sommige oudere systemen gebruiken nog XOR‑gebaseerde schema’s
-- **Prestaties‑kritische scenario’s** – XOR‑bewerkingen zijn razendsnel
+- **Snelle prototyping** – Testen van encryptieworkflows voordat productie‑algoritmen worden geïmplementeerd
+- **Legacy‑systeemintegratie** – Sommige oudere systemen gebruiken nog XOR‑gebaseerde schema's
+- **Prestaties‑kritieke scenario's** – XOR‑bewerkingen zijn razendsnel
 
 **Niet ideaal voor:**
-- Bankapplicaties of gevoelige persoonsgegevens (gebruik AES)
-- Regelgevings‑compliance scenario’s (GDPR, HIPAA, enz.)
+- Banktoepassingen of gevoelige persoonlijke data (gebruik in plaats daarvan AES)
+- Regelgevings‑compliance scenario's (GDPR, HIPAA, enz.)
 - Bescherming tegen geavanceerde aanvallers
 
-Denk aan XOR als een slot op je slaapkamerdeur — het houdt casual indringers buiten, maar stopt geen vastberaden inbreker. Voor die situaties wil je industriële algoritmen zoals AES‑256.
+Denk aan XOR als een slot op je slaapkamerdeur—het houdt casual indringers buiten, maar stopt geen vastberaden inbreker. Voor die situaties wil je industriële algoritmen zoals AES‑256.
 
-## Basisprincipes van XOR‑encryptie
+## Begrijpen van de basisprincipes van XOR‑encryptie
 
 Laten we demystificeren hoe XOR‑encryptie daadwerkelijk werkt (het is eenvoudiger dan je denkt).
 
-**De XOR‑bewerking:**  
-XOR vergelijkt twee bits en geeft:
+**De XOR‑operatie:**  
 - `1` als de bits verschillend zijn  
 - `0` als de bits gelijk zijn  
 
-Hier is het mooie deel: **XOR‑encryptie en -decryptie gebruiken exact dezelfde bewerking**. Dat klopt — dezelfde code versleutelt en ontsleutelt je data.
+Hier is het mooie deel: **XOR‑encryptie en -decryptie gebruiken exact dezelfde bewerking**. Dat klopt—dezelfde code versleutelt en ontsleutelt je data.
 
-**Kort voorbeeld:**
+**Quick Example:**
 ```
 Original:  01001000 (letter 'H')
 Key:       01011010 (our secret key)
@@ -92,11 +89,11 @@ Key:       01011010 (same key)
 Original:  01001000 (letter 'H' again!)
 ```
 
-Deze symmetrie maakt XOR ongelooflijk efficiënt — één methode doet beide taken. Het nadeel? Iedereen met jouw sleutel kan de data direct ontsleutelen, dus sleutelbeheer is cruciaal (zelfs bij eenvoudige XOR).
+Deze symmetrie maakt XOR ongelooflijk efficiënt—één methode doet beide taken. Het nadeel? Iedereen met je sleutel kan de data onmiddellijk ontsleutelen, daarom is sleutelbeheer belangrijk (zelfs bij eenvoudige XOR).
 
 ## Voorvereisten
 
-Voordat we gaan coderen, zorgen we dat je klaar bent voor succes.
+Voordat we gaan coderen, laten we zorgen dat je klaar bent voor succes.
 
 **Wat je nodig hebt:**
 - **Java Development Kit (JDK):** Versie 8 of hoger (ik raad JDK 11+ aan voor betere prestaties)
@@ -104,20 +101,20 @@ Voordat we gaan coderen, zorgen we dat je klaar bent voor succes.
 - **Build‑tool:** Maven of Gradle (voorbeelden voor beide)
 - **GroupDocs.Signature:** Versie 23.12 of later
 
-**Kennisvereisten:**
+**Vereiste kennis:**
 - Basis Java‑syntaxis (klassen, methoden, arrays)
 - Begrip van interfaces in Java
-- Vertrouwdheid met byte‑arrays (we gaan er veel mee werken)
-- Algemeen concept van encryptie (je hebt net de XOR‑basics geleerd, dus je bent klaar!)
+- Bekendheid met byte‑arrays (we zullen er veel mee werken)
+- Algemeen concept van encryptie (je hebt net de XOR‑basis geleerd, dus je bent klaar!)
 
-**Tijdsinvestering:** Ongeveer 30‑45 minuten om te implementeren en te testen
+**Tijdsbesteding:** Ongeveer 30‑45 minuten om te implementeren en te testen
 
 ## GroupDocs.Signature voor Java instellen
 
-GroupDocs.Signature voor Java is je Zwitserse zakmes voor document‑operaties — ondertekenen, verifiëren, metadata‑beheer en (relevant voor ons) encryptie‑ondersteuning. Zo voeg je het toe aan je project.
+GroupDocs.Signature voor Java is je Zwitserse zakmes voor documentbewerkingen—ondertekenen, verificatie, metadata‑verwerking, en (relevant voor ons) encryptie‑ondersteuning. Zo voeg je het toe aan je project.
 
-**Maven‑configuratie:**  
-Voeg deze afhankelijkheid toe aan je `pom.xml`:
+**Maven‑setup:**  
+Add this dependency to your `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -126,50 +123,49 @@ Voeg deze afhankelijkheid toe aan je `pom.xml`:
 </dependency>
 ```
 
-**Gradle‑configuratie:**  
-Voor Gradle‑gebruikers, voeg dit toe aan je `build.gradle`:
+**Gradle‑setup:**  
+For Gradle users, add this to your `build.gradle`:
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Directe download‑optie:**  
-Wil je handmatig installeren? Download de JAR direct van [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) en voeg deze toe aan de classpath van je project.
+**Directe download‑alternatief:**  
+Prefer manual installation? Download the JAR directly from [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) and add it to your project's classpath.
 
 ### Licentie‑acquisitie
 
 GroupDocs.Signature biedt flexibele licentie‑opties:
 
-- **Gratis proefversie:** Perfect voor evaluatie — test alle functies met enkele beperkingen. [Start your trial](https://releases.groupdocs.com/signature/java/)
-- **Tijdelijke licentie:** Meer tijd nodig? Vraag een 30‑daagse tijdelijke licentie met volledige functionaliteit aan. [Request here](https://purchase.groupdocs.com/temporary-license/)
-- **Volledige licentie:** Voor productie, koop een licentie op basis van je behoeften. [View pricing](https://purchase.groupdocs.com/buy)
+- **Gratis proefversie:** Perfect voor evaluatie—test alle functies met enkele beperkingen. [Start je proefversie](https://releases.groupdocs.com/signature/java/)
+- **Tijdelijke licentie:** Meer tijd nodig? Vraag een 30‑daagse tijdelijke licentie met volledige functionaliteit aan. [Vraag hier aan](https://purchase.groupdocs.com/temporary-license/)
+- **Volledige licentie:** Voor productie‑gebruik, koop een licentie op basis van je behoeften. [Bekijk prijzen](https://purchase.groupdocs.com/buy)
 
-**Pro‑tip:** Begin met de gratis proefversie om te bevestigen dat GroupDocs.Signature aan je eisen voldoet voordat je koopt.
+**Pro‑tip:** Begin met de gratis proefversie om te zorgen dat GroupDocs.Signature aan je eisen voldoet voordat je koopt.
 
 **Basisinitialisatie:**  
-Zodra je de afhankelijkheid hebt toegevoegd, is het initialiseren van GroupDocs.Signature eenvoudig:
+Once you've added the dependency, initializing GroupDocs.Signature is straightforward:
 ```java
 Signature signature = new Signature("path/to/your/document");
 ```
 
-Dit maakt een `Signature`‑instantie die naar je doel‑document wijst. Vanaf hier kun je verschillende bewerkingen toepassen, inclusief onze aangepaste encryptie (die we zo gaan bouwen).
+Dit maakt een `Signature`‑instantie die naar je doeldocument wijst. Vanaf hier kun je verschillende bewerkingen toepassen, inclusief onze aangepaste encryptie (die we zo gaan bouwen).
 
 ## Implementatie‑gids: Bouw je eigen XOR‑encryptie
 
-Nu het leuke deel — laten we een werkende XOR‑encryptieklasse van nul af aan bouwen. Ik loop elke stap door zodat je niet alleen het “wat” maar ook het “waarom” begrijpt.
+Nu het leuke deel—laten we een werkende XOR‑encryptieklasse vanaf nul bouwen. Ik loop je door elk onderdeel zodat je niet alleen het “wat” maar ook het “waarom” begrijpt.
 
-### Hoe **create custom data encryption** met XOR in Java
+### Hoe **create custom xor encryptor** met XOR in Java
 
 #### Stap 1: Importeer vereiste bibliotheken
 
-Eerst importeren we de `IDataEncryption` interface van GroupDocs:
+First, we need to import the `IDataEncryption` interface from GroupDocs:
 ```java
 import com.groupdocs.signature.domain.extensions.encryption.IDataEncryption;
 ```
 
 #### Stap 2: Definieer de CustomXOREncryption‑klasse
 
-Hier is onze volledige implementatie met gedetailleerde uitleg:
-
+Here's our complete implementation with detailed explanations:
 ```java
 public class CustomXOREncryption implements IDataEncryption {
     @Override
@@ -193,12 +189,12 @@ public class CustomXOREncryption implements IDataEncryption {
 }
 ```
 
-**Uitleg per onderdeel:**
+**Laten we dit ontleden:**
 
 - **Encryptiemethode:**  
-  - **Parameter:** `byte[] data` — ruwe data als byte‑array (tekst, documentinhoud, enz.)  
-  - **Sleutelkeuze:** `byte key = 0x5A` — onze XOR‑sleutel (hex 5A = decimaal 90). In productie zou je dit via de constructor doorgeven voor flexibiliteit.  
-  - **Loop:** Doorloopt elk byte en past `data[i] ^ key` toe.  
+  - **Parameter:** `byte[] data` – ruwe data als byte‑array (tekst, documentinhoud, enz.)  
+  - **Sleutelkeuze:** `byte key = 0x5A` – onze XOR‑sleutel (hex 5A = decimaal 90). In productie zou je dit als constructor‑argument doorgeven voor flexibiliteit.  
+  - **Loop:** Itereert over elke byte en past `data[i] ^ key` toe.  
   - **Return:** Een nieuw byte‑array met de versleutelde data.
 
 - **Decryptiemethode:**  
@@ -206,18 +202,17 @@ public class CustomXOREncryption implements IDataEncryption {
 
 **Waarom dit ontwerp werkt:**  
 1. Implementeert `IDataEncryption`, waardoor het compatibel is met GroupDocs.Signature.  
-2. Werkt op byte‑arrays, dus geschikt voor elk bestandstype.  
+2. Werkt met byte‑arrays, dus het werkt met elk bestandstype.  
 3. Houdt de logica kort en makkelijk te auditen.
 
-**Aanpassingsideeën:**  
-- Geef de sleutel via de constructor voor dynamische sleutels.  
-- Gebruik een multi‑byte sleutelarray en cycle er doorheen.  
-- Voeg een eenvoudige sleutel‑scheduling‑algoritme toe voor extra variatie.
+**Customization Ideas:**  
+- Sleutel via constructor doorgeven voor dynamische sleutels.  
+- Gebruik een multi‑byte sleutelarray en cycle erdoor.  
+- Voeg een eenvoudig key‑scheduling algoritme toe voor extra variabiliteit.
 
 #### Stap 3: Gebruik je encryptie met GroupDocs.Signature
 
-Nu we onze encryptieklaas hebben, integreren we deze met GroupDocs.Signature voor echte documentbeveiliging:
-
+Now that we have our encryption class, let's integrate it with GroupDocs.Signature for real document protection:
 ```java
 // Initialize signature with your document
 Signature signature = new Signature("document.pdf");
@@ -233,25 +228,24 @@ options.setDataEncryption(encryption);
 signature.sign("signed_document.pdf", options);
 ```
 
-**Wat gebeurt er:**  
-1. We maken een `Signature`‑object voor het doel‑document.  
-2. Instantiëren onze aangepaste encryptieklaas.  
-3. Configureren ondertekeningsopties (QR‑code‑handtekeningen in dit voorbeeld) om onze encryptie te gebruiken.  
-4. Ondertekenen het document — GroupDocs versleutelt automatisch de gevoelige data met onze XOR‑implementatie.
+**Wat hier gebeurt:**  
+1. We maken een `Signature`‑object voor het doeldocument.  
+2. Instantieer onze aangepaste encryptieklasse.  
+3. Configureer ondertekeningsopties (QR‑code‑handtekeningen in dit voorbeeld) om onze encryptie te gebruiken.  
+4. Onderteken het document—GroupDocs versleutelt automatisch de gevoelige data met onze XOR‑implementatie.
 
 ## Veelvoorkomende valkuilen en hoe ze te vermijden
 
-Zelfs bij eenvoudige implementaties zoals XOR lopen ontwikkelaars tegen voorspelbare problemen aan. Dit is wat je in de gaten moet houden (gebaseerd op echte troubleshooting‑sessies):
+Zelfs bij eenvoudige implementaties zoals XOR, lopen ontwikkelaars voorspelbare problemen tegen. Hier is waar je op moet letten (gebaseerd op echte probleemoplossingssessies):
 
 **1. Sleutelbeheer‑fouten**  
-- **Probleem:** Sleutels hardcoderen in de broncode (zoals in ons voorbeeld)  
-- **Oplossing:** Laad sleutels in productie vanuit omgevingsvariabelen of beveiligde configuratiebestanden  
+- **Probleem:** Sleutels hardcoderen in broncode (zoals ons voorbeeld doet)  
+- **Oplossing:** In productie, laad sleutels uit omgevingsvariabelen of veilige configuratiebestanden  
 - **Voorbeeld:** `byte key = Byte.parseByte(System.getenv("XOR_KEY"));`
 
 **2. Null‑pointer‑exceptions**  
-- **Probleem:** `null` byte‑arrays doorgeven aan `encrypt`/`decrypt`  
-- **Oplossing:** Voeg null‑checks toe aan het begin van je methoden:
-```java
+- **Probleem:** `null` byte‑arrays doorgeven aan `encrypt`/`decrypt`‑methoden  
+- **Oplossing:** Voeg null‑checks toe aan het begin van je methoden: ```java
 if (data == null) {
     throw new IllegalArgumentException("Data cannot be null");
 }
@@ -259,15 +253,13 @@ if (data == null) {
 
 **3. Tekst‑codering problemen**  
 - **Probleem:** Strings naar bytes converteren zonder codering op te geven  
-- **Oplossing:** Specificeer altijd expliciet een charset:  
-```java
+- **Oplossing:** Specificeer altijd expliciet de charset: ```java
 byte[] data = myString.getBytes(StandardCharsets.UTF_8);
 ```
 
-**4. Geheugenproblemen bij grote bestanden**  
+**4. Geheugenproblemen met grote bestanden**  
 - **Probleem:** Hele grote bestanden in het geheugen laden als byte‑arrays  
-- **Oplossing:** Voor bestanden > 100 MB streaming‑encryptie implementeren:
-```java
+- **Oplossing:** Voor bestanden > 100 MB, implementeer streaming‑encryptie: ```java
 // Process in chunks instead of loading entire file
 BufferedInputStream input = new BufferedInputStream(new FileInputStream(file));
 byte[] buffer = new byte[8192]; // 8KB chunks
@@ -277,10 +269,9 @@ while ((bytesRead = input.read(buffer)) != -1) {
 }
 ```
 
-**5. Vergeten exception‑handling**  
-- **Probleem:** De `IDataEncryption` interface declareert `throws Exception` — je moet mogelijke fouten afhandelen  
-- **Oplossing:** Omring operaties met try‑catch‑blokken:
-```java
+**5. Vergeten van exception‑afhandeling**  
+- **Probleem:** De `IDataEncryption`‑interface declareert `throws Exception`—je moet mogelijke fouten afhandelen  
+- **Oplossing:** Plaats bewerkingen in try‑catch‑blokken: ```java
 try {
     byte[] encrypted = encryption.encrypt(data);
 } catch (Exception e) {
@@ -291,22 +282,17 @@ try {
 
 ## Prestatie‑overwegingen
 
-XOR‑encryptie is bliksemsnel — maar wanneer je het combineert met GroupDocs.Signature, blijven er prestatie‑factoren om in gedachten te houden.
+XOR‑encryptie is razendsnel—maar wanneer je het combineert met GroupDocs.Signature, zijn er nog steeds prestatie‑factoren om in gedachten te houden.
 
-### Beste praktijken voor geheugenbeheer
+### Best practices voor geheugenbeheer
 
-1. **Bronnen direct sluiten**
-```java
+1. **Sluit bronnen direct** ```java
 try (Signature signature = new Signature("document.pdf")) {
     // Your operations here
 } // Automatically closes and releases resources
 ```
-
-2. **Grote bestanden in stukken verwerken**  
-(zie het streaming‑voorbeeld hierboven)
-
-3. **Encryptie‑instanties hergebruiken**  
-```java
+2. **Verwerk grote bestanden in stukken** (zie het streaming‑voorbeeld hierboven)
+3. **Herbruik encryptie‑instanties** ```java
 CustomXOREncryption encryption = new CustomXOREncryption();
 for (Document doc : documents) {
     processDocument(doc, encryption);
@@ -315,59 +301,58 @@ for (Document doc : documents) {
 
 ### Optimalisatietips
 
-- **Parallelle verwerking:** Gebruik Java parallel streams voor batch‑operaties.  
+- **Parallel processing:** Gebruik Java parallel streams voor batch‑operaties.  
 - **Buffer‑groottes:** Experimenteer met 4 KB‑16 KB buffers voor optimale I/O.  
-- **JIT‑warm‑up:** De JVM optimaliseert de XOR‑loop na enkele runs.
+- **JIT‑warm‑up:** De JVM optimaliseert de XOR‑lus na enkele runs.
 
-**Benchmark‑verwachtingen (moderne hardware):**  
+Benchmark Expectations (modern hardware):
 - Kleine bestanden (< 1 MB): < 10 ms  
 - Middelgrote bestanden (1‑50 MB): < 500 ms  
-- Grote bestanden (50‑500 MB): 1‑5 s met streaming
+- Grote bestanden (50‑500 MB): 1‑5 s met streaming  
 
-Als je tragere prestaties ziet, controleer dan je I/O‑code in plaats van de XOR‑logica.
+Als je tragere prestaties ziet, controleer dan je I/O‑code in plaats van de XOR zelf.
 
-## Praktische toepassingen: Wanneer **create custom data encryption** met XOR
+## Praktische toepassingen: Wanneer **create custom xor encryptor**
 
-Je hebt de encryptie gebouwd — wat nu? Hier zijn real‑world scenario’s waarin een lichtgewicht **create custom data encryption**‑aanpak zinvol is:
+Je hebt de encryptie gebouwd—en nu? Hier zijn real‑world scenario's waarin een lichtgewicht **create custom xor encryptor**‑aanpak zinvol is:
 
-1. **Beveiligde document‑workflows** – Versleutel metadata (goedkeurdernamen, tijdstempels) voordat je ze in QR‑codes of digitale handtekeningen embedt.  
-2. **Data‑obfuscatie in logs** – XOR‑versleutel gebruikersnamen of ID’s voordat je ze naar logbestanden schrijft om privacy te beschermen, terwijl de logs nog leesbaar blijven voor debugging.  
-3. **Educatieve projecten** – Perfect startcode voor cryptografie‑cursussen.  
-4. **Legacy‑systeemintegratie** – Communiceren met oudere systemen die XOR‑geobfusceerde payloads verwachten.  
+1. **Beveiligde document‑workflows** – Versleutel metadata (goedkeurdersnamen, tijdstempels) voordat je ze in QR‑codes of digitale handtekeningen embedt.  
+2. **Data‑obfuscatie in logs** – XOR‑versleutel gebruikersnamen of ID's voordat je ze naar logbestanden schrijft om privacy te beschermen terwijl logs leesbaar blijven voor debugging.  
+3. **Educatieve projecten** – Perfecte startercode voor cryptografie‑cursussen.  
+4. **Legacy‑systeemintegratie** – Communiceer met oudere systemen die XOR‑geobfuscate payloads verwachten.  
 5. **Testen van encryptieworkflows** – Gebruik XOR als placeholder tijdens ontwikkeling; vervang later door AES.
 
-## Probleemoplossingstips
+## Probleemoplossende tips
 
 | Probleem | Waarschijnlijke oorzaak | Oplossing |
 |----------|--------------------------|-----------|
-| `NoClassDefFoundError` | GroupDocs‑JAR ontbreekt | Controleer Maven/Gradle‑dependency, voer `mvn clean install` of `gradle clean build` uit |
-| Versleutelde data lijkt ongewijzigd | XOR‑sleutel is `0x00` | Kies een niet‑nul sleutel (bijv. `0x5A`) |
-| `OutOfMemoryError` bij grote documenten | Hele bestand in geheugen laden | Schakel over op streaming (zie code hierboven) |
-| Ontsleuteling levert rommelige data | Andere sleutel gebruikt voor ontsleutelen | Zorg dat dezelfde sleutel wordt gebruikt; sla deze veilig op |
-| JDK‑compatibiliteitswaarschuwingen | Oudere JDK gebruikt | Upgrade naar JDK 11+ |
+| `NoClassDefFoundError` | GroupDocs JAR ontbreekt | Verify Maven/Gradle dependency, run `mvn clean install` or `gradle clean build` |
+| Versleutelde data lijkt ongewijzigd | XOR‑sleutel is `0x00` | Choose a non‑zero key (e.g., `0x5A`) |
+| `OutOfMemoryError` bij grote documenten | Hele bestand in geheugen laden | Switch to streaming (see code above) |
+| Decryptie levert onzin op | Andere sleutel gebruikt voor decryptie | Ensure same key; store/retrieve securely |
+| JDK‑compatibiliteitswaarschuwingen | Oudere JDK gebruiken | Upgrade to JDK 11+ |
 
-**Nog steeds vastgelopen?** Bekijk het [GroupDocs Support Forum](https://forum.groupdocs.com/c/signature/) waar de community en het supportteam kunnen helpen.
+**Nog steeds vast?** Bekijk het [GroupDocs Support Forum](https://forum.groupdocs.com/c/signature/) waar de community en het supportteam kunnen helpen.
 
 ## Veelgestelde vragen
 
-**Q: Is XOR‑encryptie veilig genoeg voor productie?**  
-A: Nee. XOR is kwetsbaar voor known‑plaintext attacks en mag geen kritieke data zoals wachtwoorden of PII beschermen. Gebruik AES‑256 voor productie‑grade beveiliging.
+**V: Is XOR‑encryptie veilig genoeg voor productiegebruik?**  
+A: Nee. XOR is kwetsbaar voor known‑plaintext aanvallen en mag geen kritieke data zoals wachtwoorden of PII beschermen. Gebruik AES‑256 voor productie‑grade beveiliging.
 
-**Q: Kan ik GroupDocs.Signature gratis gebruiken?**  
+**V: Kan ik GroupDocs.Signature gratis gebruiken?**  
 A: Ja, een gratis proefversie biedt volledige functionaliteit voor evaluatie. Voor productie heb je een betaalde of tijdelijke licentie nodig.
 
-**Q: Hoe configureer ik mijn Maven‑project om GroupDocs.Signature op te nemen?**  
-A: Voeg de afhankelijkheid toe zoals weergegeven in de “Maven‑Setup” sectie aan `pom.xml`. Voer `mvn clean install` uit om de bibliotheek te downloaden.
+**V: Hoe configureer ik mijn Maven‑project om GroupDocs.Signature op te nemen?**  
+A: Voeg de afhankelijkheid toe zoals weergegeven in de “Maven‑setup” sectie aan `pom.xml`. Voer `mvn clean install` uit om de bibliotheek te downloaden.
 
-**Q: Wat zijn veelvoorkomende problemen bij het implementeren van aangepaste encryptie?**  
-A: Null‑checks, hard‑gecodeerde sleutels, geheugenverbruik bij grote bestanden, tekencodering‑mismatches, en ontbrekende exception‑handling. Zie de sectie “Common Pitfalls” voor gedetailleerde oplossingen.
+**V: Wat zijn veelvoorkomende problemen bij het implementeren van aangepaste encryptie?**  
+A: Null‑checks, hard‑gecodeerde sleutels, geheugenverbruik bij grote bestanden, tekencodering mismatches, en ontbrekende exception‑afhandeling. Zie de “Veelvoorkomende valkuilen” sectie voor gedetailleerde oplossingen.
 
-**Q: Kan XOR‑encryptie worden gebruikt voor zeer gevoelige data?**  
-A: Nee. Het biedt alleen obfuscatie. Voor gevoelige data moet je een bewezen algoritme zoals AES gebruiken.
+**V: Kan XOR‑encryptie worden gebruikt voor zeer gevoelige data?**  
+A: Nee. Het biedt alleen obfuscatie. Voor gevoelige data, schakel over naar een bewezen algoritme zoals AES.
 
-**Q: Hoe wijzig ik de encryptiesleutel zonder hardcoding?**  
-A: Pas de klasse aan zodat de sleutel via de constructor wordt doorgegeven:
-```java
+**V: Hoe wijzig ik de encryptiesleutel zonder deze hard te coderen?**  
+A: Pas de klasse aan om een sleutel via de constructor te accepteren: ```java
 public class CustomXOREncryption implements IDataEncryption {
     private final byte key;
     
@@ -376,32 +361,29 @@ public class CustomXOREncryption implements IDataEncryption {
     }
     // encrypt/decrypt use this.key
 }
-```
-Laad de sleutel in productie vanuit omgevingsvariabelen of beveiligde configuratiebestanden.
+``` Laad de sleutel in productie vanuit omgevingsvariabelen of veilige configuratiebestanden.
 
-**Q: Werkt XOR‑encryptie op alle bestandstypen?**  
-A: Ja. Omdat het op ruwe bytes werkt, kan elk bestand — tekst, afbeelding, PDF, video — verwerkt worden.
+**V: Werkt XOR‑encryptie op alle bestandstypen?**  
+A: Ja. Omdat het op ruwe bytes werkt, kan elk bestand—tekst, afbeelding, PDF, video—verwerkt worden.
 
-**Q: Hoe kan ik XOR‑encryptie sterker maken?**  
-A: Gebruik een multi‑byte sleutelarray, implementeer sleutel‑scheduling, combineer met bit‑rotaties of keten met andere eenvoudige transformaties. Toch blijft AES de aanbevolen keuze voor sterke beveiliging.
+**V: Hoe kan ik XOR‑encryptie sterker maken?**  
+A: Gebruik een multi‑byte sleutelarray, implementeer key‑scheduling, combineer met andere eenvoudige transformaties. Toch, voor sterke beveiliging, geef de voorkeur aan AES.
 
-## Resources
+## Bronnen
 
-**Documentatie:**  
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) – Volledige referentie en handleidingen  
-- [API Reference](https://reference.groupdocs.com/signature/java/) – Gedetailleerde API‑documentatie  
+**Documentatie:**
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) – Complete referentie en handleidingen
+- [API Reference](https://reference.groupdocs.com/signature/java/) – Gedetailleerde API‑documentatie
 
-**Download en licenties:**  
-- [Download GroupDocs.Signature](https://releases.groupdocs.com/signature/java/) – Laatste releases  
-- [Purchase a License](https://purchase.groupdocs.com/buy) – Prijzen en plannen  
-- [Free Trial](https://releases.groupdocs.com/signature/java/) – Begin vandaag nog met evalueren  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/) – Uitgebreide evaluatietoegang  
+**Download en licenties:**
+- [Download GroupDocs.Signature](https://releases.groupdocs.com/signature/java/) – Laatste releases
+- [Purchase a License](https://purchase.groupdocs.com/buy) – Prijzen en plannen
+- [Free Trial](https://releases.groupdocs.com/signature/java/) – Begin vandaag nog met evalueren
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/) – Uitgebreide evaluatietoegang
 
-**Community en support:**  
-- [Support Forum](https://forum.groupdocs.com/c/signature/) – Krijg hulp van de community en het GroupDocs‑team  
+**Community en support:**
+- [Support Forum](https://forum.groupdocs.com/c/signature/) – Krijg hulp van de community en het GroupDocs‑team
 
----
-
-**Laatst bijgewerkt:** 2025-12-21  
+**Laatst bijgewerkt:** 2026-03-06  
 **Getest met:** GroupDocs.Signature 23.12 voor Java  
 **Auteur:** GroupDocs
