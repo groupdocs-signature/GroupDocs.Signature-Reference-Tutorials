@@ -1,13 +1,14 @@
 ---
 categories:
 - Document Processing
-date: '2026-01-13'
-description: Impara a creare firme digitali graduali in Java usando GroupDocs.Signature.
-  Esempi di codice completi e risoluzione dei problemi inclusi.
+date: '2026-03-14'
+description: Scopri come personalizzare l'aspetto della firma con un effetto gradiente
+  in Java usando GroupDocs.Signature. Include esempi di codice completi e risoluzione
+  dei problemi.
 keywords: java digital signature with gradient effect, customize document signature
   appearance java, groupdocs signature gradient brush tutorial, java pdf signature
   styling, gradient brush document signing java code
-lastmod: '2026-01-13'
+lastmod: '2026-03-14'
 linktitle: Java Gradient Signature Tutorial
 tags:
 - java
@@ -15,37 +16,39 @@ tags:
 - groupdocs
 - pdf-signing
 - document-styling
-title: Come creare una firma digitale a gradiente in Java
+title: Come personalizzare l'aspetto della firma con gradiente in Java
 type: docs
 url: /it/java/advanced-options/sign-document-gradient-brush-java-groupdocs/
 weight: 1
 ---
 
-# Come creare una firma digitale a gradiente in Java
+Let's write.
 
-Ti sei mai accorto di come alcuni documenti firmati digitalmente sembrino, beh… noiosi? Solo testo semplice su sfondo bianco? Se stai sviluppando un’applicazione che richiede firme professionali per documenti—contratti, fatture o certificati—vorrai qualcosa che si distingua pur rimanendo funzionale. **Creare una firma digitale a gradiente** non solo aggiunge un tocco visivo, ma rafforza l’identità del brand e migliora la percezione di autenticità.
+# Come personalizzare l'aspetto della firma con gradiente in Java
+
+Ti sei mai accorto di come alcuni documenti firmati digitalmente appaiano, beh… noiosi? Solo testo semplice su sfondo bianco? Se stai costruendo un'applicazione che richiede firme di documento dall'aspetto professionale—pensa a contratti, fatture o certificati—vorrai qualcosa che risalti pur rimanendo funzionale. **In questo tutorial imparerai a personalizzare l'aspetto della firma applicando un pennello a gradiente in Java.** Creare una firma digitale a gradiente non solo aggiunge una rifinitura visiva, ma rafforza anche l'identità del brand e migliora l'autenticità percepita.
 
 ## Risposte rapide
-- **Cos’è una firma digitale a gradiente?** Un elemento visivo firmato digitalmente che utilizza un gradiente di colore per lo sfondo o il riempimento del testo.  
-- **Quale libreria lo supporta in Java?** GroupDocs.Signature per Java fornisce il supporto nativo ai pennelli a gradiente.  
+- **Che cos'è una firma digitale a gradiente?** Un elemento visivo firmato digitalmente che utilizza un gradiente di colore per lo sfondo o il riempimento del testo.  
+- **Quale libreria supporta questa funzionalità in Java?** GroupDocs.Signature per Java fornisce il supporto integrato ai pennelli a gradiente.  
 - **I gradienti influiscono sulla sicurezza crittografica?** No. Il gradiente è puramente visivo; la firma digitale sottostante rimane invariata.  
 - **Quale versione di Java è necessaria?** JDK 8 o superiore (consigliato JDK 11+).  
-- **È necessaria una licenza per la produzione?** Sì—è richiesta una licenza valida di GroupDocs.Signature per l’uso non‑valutazione.
+- **È necessaria una licenza per la produzione?** Sì—una licenza valida di GroupDocs.Signature è obbligatoria per l'uso non‑valutativo.
 
-## Come creare una firma digitale a gradiente in Java
-In questa sezione vedremo l’intero processo—dalla configurazione della libreria all’applicazione di un pennello a gradiente lineare a una firma di testo. Alla fine sarai in grado di **creare oggetti firma digitale a gradiente** dall’aspetto curato e in linea con i colori del tuo brand.
+## Come personalizzare l'aspetto della firma con un pennello a gradiente in Java
+In questa sezione percorreremo l'intero processo—dalla configurazione della libreria all'applicazione di un pennello a gradiente lineare a una firma testuale. Alla fine sarai in grado di **creare oggetti di firma digitale a gradiente** dall'aspetto curato e in linea con i colori del tuo brand.
 
-## Perché usare pennelli a gradiente per le firme digitali?
+## Perché utilizzare pennelli a gradiente per le firme digitali?
 
-Prima di immergerci nel codice, parliamo del perché potresti volere effetti a gradiente.
+Prima di immergerci nel codice, parliamo del perché potresti volere effetti a gradiente in primo luogo.
 
-**Coerenza del brand**: Se la tua azienda utilizza schemi di colore specifici, le firme a gradiente aiutano a mantenere la coerenza visiva in tutti i documenti. Un’azienda di servizi finanziari potrebbe usare gradienti dal blu al bianco per trasmettere fiducia, mentre un’agenzia creativa potrebbe optare per transizioni di colore più audaci.
+**Coerenza del brand**: Se la tua azienda utilizza schemi di colore specifici, le firme a gradiente aiutano a mantenere la coerenza visiva in tutti i documenti. Un'azienda di servizi finanziari potrebbe usare gradienti dal blu al bianco per trasmettere fiducia, mentre un'agenzia creativa potrebbe optare per transizioni di colore vivaci.
 
-**Gerarchia del documento**: Gli effetti a gradiente possono aiutare a distinguere i tipi di firma. Potresti usare gradienti sottili per approvazioni standard e gradienti più evidenti per firme esecutive o autorizzazioni legali.
+**Gerarchia del documento**: Gli effetti a gradiente possono aiutare a distinguere i tipi di firma. Potresti usare gradienti sottili per approvazioni standard e gradienti più marcati per firme esecutive o autorizzazioni legali.
 
-**Appeal visivo senza compromessi**: Ecco il punto forte—ottieni uno stile professionale senza sacrificare la sicurezza crittografica della tua firma digitale. Il gradiente è puramente visivo; la validità della firma rimane intatta.
+**Appeal visivo senza compromessi**: Ecco il bello—ottieni uno stile professionale senza sacrificare la sicurezza crittografica della tua firma digitale. Il gradiente è puramente visivo; la validità della firma rimane intatta.
 
-**Riduzione della percezione di falsificazione**: I documenti con firme stilizzate appaiono più autentici agli utenti finali. Sebbene ciò non aumenti la sicurezza reale, migliora la legittimità percepita (importante per la fiducia dell’utente).
+**Riduzione della percezione di falsificazione**: I documenti con firme stilizzate appaiono spesso più autentici agli utenti finali. Sebbene ciò non aumenti la sicurezza reale, migliora la legittimità percepita (cosa importante per la fiducia dell'utente).
 
 ## Cosa imparerai
 
@@ -53,10 +56,10 @@ Al termine di questa guida sarai in grado di:
 
 - Configurare GroupDocs.Signature per Java nel tuo progetto (Maven, Gradle o manuale)  
 - Creare firme basate su testo con effetti di pennello a gradiente lineare  
-- Personalizzare l’aspetto, il posizionamento e la trasparenza della firma  
-- Risolvere i problemi più comuni che ostacolano gli sviluppatori  
+- **Personalizzare l'aspetto della firma**, posizionamento e trasparenza  
+- Risolvere i problemi comuni che possono bloccare gli sviluppatori  
 - Ottimizzare le prestazioni per applicazioni in produzione  
-- Applicare le migliori pratiche per un codice firma manutenibile  
+- Applicare le migliori pratiche per un codice di firma manutenibile  
 
 ## Prerequisiti
 
@@ -85,27 +88,27 @@ Aggiungi GroupDocs.Signature al tuo progetto usando lo strumento di build prefer
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Installazione manuale**: Se non usi uno strumento di build (anche se lo consiglierei), puoi scaricare il file JAR direttamente da [rilasci di GroupDocs Signatures](https://releases.groupdocs.com/signature/java/) e aggiungerlo al classpath del tuo progetto.
+**Installazione manuale**: Se non utilizzi uno strumento di build (anche se lo consiglierei), puoi scaricare il file JAR direttamente da [rilasci GroupDocs Signatures](https://releases.groupdocs.com/signature/java/) e aggiungerlo al classpath del tuo progetto.
 
 ### Acquisizione della licenza
 
-GroupDocs offre una prova gratuita ideale per test e sviluppo. Per l’uso in produzione, avrai bisogno di una licenza. Ecco come iniziare:
+GroupDocs offre una prova gratuita ideale per test e sviluppo. Per l'uso in produzione, avrai bisogno di una licenza. Ecco come iniziare:
 
-1. **Prova gratuita**: Visita la [Prova gratuita di GroupDocs](https://releases.groupdocs.com/) per scaricare senza impegni  
+1. **Prova gratuita**: Visita [Versione di prova GroupDocs](https://releases.groupdocs.com/) per scaricare senza impegni  
 2. **Licenza temporanea**: Ottieni una licenza temporanea di 30 giorni da [Licenza temporanea GroupDocs](https://purchase.groupdocs.com/temporary-license/) per test completi  
-3. **Licenza completa**: Quando sei pronto per la produzione, consulta le opzioni di prezzo  
+3. **Licenza completa**: Quando sei pronto per la produzione, consulta le loro opzioni di prezzo  
 
-La versione di prova aggiunge filigrane di valutazione, quindi procurati una licenza temporanea se stai creando qualcosa destinato ai clienti.
+La versione di prova aggiunge filigrane di valutazione, quindi prendi una licenza temporanea se stai costruendo qualcosa destinato ai clienti.
 
 ## Configurare GroupDocs.Signature per Java
 
-Prepariamo l’ambiente di sviluppo. Questa configurazione funziona sia per un nuovo progetto sia per l’integrazione in un’applicazione esistente.
+Prepariamo l'ambiente di sviluppo. Questa configurazione funziona sia per un nuovo progetto sia per l'integrazione in un'applicazione esistente.
 
 ### Passi di installazione
 
-**1. Aggiungi la dipendenza** (già trattata sopra—Maven o Gradle)
+**1. Aggiungi la dipendenza** (già descritta sopra—Maven o Gradle)
 
-**2. Verifica l’installazione** creando una semplice classe di test:
+**2. Verifica l'installazione** creando una semplice classe di test:
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -117,7 +120,7 @@ public class SignatureTest {
 }
 ```
 
-Se compila senza errori, sei pronto.
+Se compila senza errori, sei a posto.
 
 **3. Configura la struttura delle cartelle dei documenti**. Mi piace organizzare così:
 
@@ -156,15 +159,15 @@ public class BasicSignatureSetup {
 }
 ```
 
-**Consiglio professionale**: Avvolgi sempre l’oggetto `Signature` in un blocco *try‑with‑resources* o chiama manualmente `dispose()`. GroupDocs mantiene handle di file; dimenticare di rilasciarli genera errori “file in use” (chiedimi come lo so).
+**Consiglio professionale**: Avvolgi sempre l'oggetto `Signature` in un blocco try‑with‑resources o chiama manualmente `dispose()`. GroupDocs mantiene handle di file, e dimenticare di rilasciarli provoca errori “file in use” (chiedimi come lo so).
 
-## Guida all’implementazione: Creare firme a gradiente
+## Guida all'implementazione: Creare firme a gradiente
 
-Ora la parte divertente—costruiamo una firma con effetto pennello a gradiente. Partiremo da un esempio semplice e aggiungeremo complessità passo dopo passo.
+Ora la parte divertente—costruiamo una firma con effetto pennello a gradiente. Partiremo da un esempio semplice e aggiungeremo complessità man mano.
 
 ### Passo 1: Inizializzare le opzioni della firma
 
-Per prima cosa definiamo cosa dirà la firma e come si comporterà. La classe `TextSignOptions` gestisce le firme basate su testo:
+Prima definiamo cosa dirà la nostra firma e come si comporterà. La classe `TextSignOptions` gestisce le firme basate su testo:
 
 ```java
 import com.groupdocs.signature.domain.enums.HorizontalAlignment;
@@ -174,13 +177,13 @@ import com.groupdocs.signature.domain.signatures.TextSignOptions;
 TextSignOptions options = new TextSignOptions("John Smith");
 ```
 
-Questo crea una firma di base con il testo “John Smith”. Semplice, vero? Da solo sarebbe solo testo nero su sfondo trasparente—noioso. È qui che entrano in gioco i gradienti.
+Questo crea una firma di base con il testo “John Smith”. Semplice, vero? Ma così com'è, sarebbe solo testo nero su sfondo trasparente—noioso. È qui che entrano in gioco i gradienti.
 
-**Perché separare le opzioni dall’oggetto firma?** Questo pattern consente di riutilizzare la stessa configurazione di firma in più documenti. La imposti una volta, la applichi ovunque.
+**Perché separare le opzioni dall'oggetto firma?** Questo pattern consente di riutilizzare la stessa configurazione di firma su più documenti. Configurala una volta, applicala ovunque.
 
 ### Passo 2: Personalizzare lo sfondo con pennello a gradiente
 
-Qui la firma inizia a sembrare professionale. Creeremo un gradiente lineare che passa dal verde al bianco:
+Qui la tua firma inizia a sembrare professionale. Creeremo un gradiente lineare che passa dal verde al bianco:
 
 ```java
 import com.groupdocs.signature.domain.Background;
@@ -206,15 +209,15 @@ options.setBackground(background);
 
 **Analizziamo cosa succede:**
 
-- **Colore di base**: `setColor(Color.GREEN)` imposta un fallback solido. Se il gradiente fallisse (raro, ma possibile), appare questo colore.  
+- **Colore di base**: `setColor(Color.GREEN)` imposta un fallback solido. Se i gradienti falliscono (raro, ma possibile), questo colore verrà mostrato.  
 - **Trasparenza**: `setTransparency(0.5f)` rende la firma semi‑trasparente. È cruciale per i documenti in cui non vuoi coprire il testo sottostante. Valori più vicini a 0 sono più opachi; più vicini a 1 più trasparenti.  
-- **Angolo del gradiente**: Il valore `45` indica che il gradiente scorre diagonalmente dall’angolo in alto a sinistra a quello in basso a destra. Usa `0` per orizzontale (sinistra → destra), `90` per verticale (alto → basso) o qualsiasi valore intermedio.
+- **Angolo del gradiente**: Il valore `45` indica che il gradiente scorre diagonalmente dall'angolo in alto a sinistra a quello in basso a destra. Usa `0` per orizzontale (sinistra → destra), `90` per verticale (alto → basso) o qualsiasi angolo intermedio.
 
-**Le scelte di colore contano**: Verde‑bianco suggerisce approvazione (semaforo “go”). Blu‑bianco trasmette fiducia e professionalità. Rosso‑bianco può indicare urgenza o importanza. Scegli colori coerenti con lo scopo del documento e l’identità del brand.
+**Le scelte di colore contano**: Verde‑bianco suggerisce approvazione o conferma (pensate ai segnali “go”). Blu‑bianco trasmette fiducia e professionalità. Rosso‑bianco può indicare urgenza o importanza. Scegli colori in linea con lo scopo del documento e l'identità del tuo brand.
 
 ### Passo 3: Impostare il posizionamento della firma
 
-Ora dobbiamo dire *dove* apparirà la firma nel documento. Il posizionamento è più complesso di quanto sembri perché occorre bilanciare visibilità e non coprire contenuti importanti:
+Ora dobbiamo indicare *dove* la firma deve apparire nel documento. Il posizionamento è più complesso di quanto sembri perché occorre bilanciare visibilità e non coprire contenuti importanti:
 
 ```java
 import com.groupdocs.signature.domain.Padding;
@@ -234,19 +237,19 @@ padding.setRight(20);    // 20 units from the right edge
 options.setMargin(padding);
 ```
 
-**Allineamento vs. margine**: Pensa all’allineamento come al punto di ancoraggio e al margine come allo spostamento. Se imposti `HorizontalAlignment.Center`, la firma si centra nella pagina, poi il margine la sposta rispetto a quel punto centrale. Questo approccio a due step offre un controllo preciso.
+**Comprendere allineamento vs. margine**: Pensa all'allineamento come punto di ancoraggio e al margine come offset. Se imposti `HorizontalAlignment.Center`, la firma si centra nella pagina, poi il margine la sposta rispetto a quel punto centrale. Questo approccio a due step offre un controllo preciso.
 
 **Pattern di posizionamento comuni**:  
 
-- **Angolo inferiore destro**: `HorizontalAlignment.Right`, `VerticalAlignment.Bottom`, con margine superiore negativo  
+- **Angolo in basso a destra**: `HorizontalAlignment.Right`, `VerticalAlignment.Bottom`, con margine superiore negativo  
 - **Area intestazione**: `VerticalAlignment.Top`, `HorizontalAlignment.Right`, con padding  
-- **Centro della pagina**: Entrambi gli allineamenti impostati su `Center`, regola i margini a piacere  
+- **Centro pagina**: Entrambi gli allineamenti impostati su `Center`, regola i margini a piacere  
 
-**Considerazioni sulle dimensioni**: I valori `setWidth(100)` e `setHeight(80)` funzionano per la maggior parte dei documenti standard, ma potresti doverli adeguare in base alle dimensioni del documento e alla lunghezza del testo. Se il testo viene troncato, aumenta la larghezza. Se appare troppo compresso, aumenta l’altezza o riduci la dimensione del carattere.
+**Considerazioni sulle dimensioni**: I valori `setWidth(100)` e `setHeight(80)` funzionano per la maggior parte dei documenti standard, ma potresti doverli adeguare in base alle dimensioni del documento e alla lunghezza del testo della firma. Se il testo viene troncato, aumenta la larghezza. Se appare troppo compresso, aumenta l'altezza o riduci la dimensione del carattere.
 
 ### Passo 4: Applicare la firma e salvare
 
-Infine, firmiamo il documento e salviamo l’output. Qui tutte le configurazioni si combinano:
+Infine, firmiamo il documento e salviamo il risultato. Qui tutte le configurazioni si uniscono:
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -276,13 +279,13 @@ try {
 }
 ```
 
-**Cosa fa il metodo `sign()`?** Prende il documento sorgente, applica le opzioni di firma configurate e scrive un nuovo file con la firma incorporata. Il file originale rimane intatto (buona pratica: non modificare mai direttamente i documenti sorgente).
+**Cosa fa il metodo `sign()`?** Prende il documento di origine, applica le opzioni di firma configurate e scrive un nuovo file con la firma incorporata. Il file originale rimane intatto (buona pratica: non modificare mai direttamente i documenti sorgente).
 
-**L’oggetto `SignResult`** ti informa su cosa è accaduto. Controlla `getSucceeded()` per vedere le firme applicate con successo e `getFailed()` per individuare eventuali errori.
+**L'oggetto `SignResult`** ti informa su cosa è accaduto. Controlla `getSucceeded()` per vedere quali firme sono state applicate con successo e `getFailed()` per individuare eventuali errori.
 
-### Esempio completo funzionante
+## Esempio completo funzionante
 
-Ecco tutto insieme in una singola classe eseguibile che puoi copiare e testare subito:
+Ecco tutto messo insieme in una singola classe eseguibile che puoi copiare e testare subito:
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -350,13 +353,13 @@ public class GradientSignatureExample {
 
 Esegui questo codice con un file PDF nella cartella `resources/input/` e otterrai una versione firmata con un bellissimo effetto gradiente.
 
-## Casi d’uso comuni
+## Casi d'uso comuni
 
 Vediamo quando e dove le firme a gradiente hanno più senso nelle applicazioni reali.
 
-### 1. Sistemi di gestione contratti aziendali
-**Scenario**: Stai costruendo un flusso di approvazione contratti dove più stakeholder firmano in fasi diverse.  
-**Applicazione**: Usa gradienti di colore diversi per rappresentare i livelli di approvazione—i responsabili di dipartimento ottengono un gradiente blu‑bianco, i revisori legali un gradiente oro‑bianco, gli esecutivi un gradiente blu scuro‑azzurro. Questa gerarchia visiva aiuta gli utenti a vedere subito chi ha firmato e a che livello.
+### 1. Sistemi aziendali di gestione contratti
+**Scenario**: Stai costruendo un flusso di lavoro di approvazione contratti dove più stakeholder firmano documenti in fasi diverse.  
+**Applicazione**: Usa colori di gradiente diversi per rappresentare i livelli di approvazione—i responsabili di dipartimento ottengono un gradiente blu‑bianco, i revisori legali un gradiente oro‑bianco, gli esecutivi un gradiente blu scuro‑azzurro. Questa gerarchia visiva aiuta gli utenti a vedere subito chi ha firmato e a che livello.
 
 ### 2. Elaborazione automatica delle fatture
 **Scenario**: Il tuo sistema contabile firma automaticamente le fatture generate prima di inviarle ai clienti.  
@@ -364,19 +367,19 @@ Vediamo quando e dove le firme a gradiente hanno più senso nelle applicazioni r
 
 ### 3. Generazione di certificati
 **Scenario**: Generi certificati di completamento per corsi online o programmi di formazione.  
-**Applicazione**: Gradienti vivaci e celebrativi (oro‑giallo o blu‑viola) conferiscono ai certificati un aspetto ufficiale e condivisibile. L’appeal visivo aumenta il valore percepito e incentiva la condivisione sui social.
+**Applicazione**: Gradienti vivaci e celebrativi (oro‑giallo o blu‑viola) rendono i certificati ufficiali e degni di condivisione. L'appeal visivo aumenta il valore percepito e incentiva la condivisione sui social.
 
 ### 4. Filigrane dei documenti
 **Scenario**: Devi contrassegnare i documenti come “Bozza”, “Confidenziale” o “Approvato”.  
-**Applicazione**: Pur non essendo una firma, puoi riutilizzare la tecnica del gradiente con testo trasparente per creare filigrane accattivanti che non oscurano il contenuto. Imposta la trasparenza tra 0.7‑0.8 per un effetto sottile.
+**Applicazione**: Pur non essendo una firma, puoi riutilizzare la tecnica del gradiente con testo trasparente per creare filigrane accattivanti che non oscurano il contenuto sottostante. Imposta la trasparenza tra 0.7‑0.8 per un effetto sottile.
 
 ## Risoluzione dei problemi più comuni
 
 Ecco i problemi che ho incontrato (e risolto) lavorando con firme a gradiente. Risparmia tempo di debug.
 
-### Problema 1: “File is being used by another process”
-**Sintomi**: L’applicazione lancia un’eccezione perché non riesce ad accedere al file, anche se nessun altro programma lo ha aperto.  
-**Causa**: Hai dimenticato di chiamare `signature.dispose()` o di chiudere correttamente l’oggetto `Signature`. Java mantiene il handle finché l’oggetto non viene garbage‑collected.  
+### Problema 1: "File is being used by another process"
+**Sintomi**: L'applicazione lancia un'eccezione che impedisce l'accesso al file, anche se nessun altro programma lo ha aperto.  
+**Causa**: Hai dimenticato di chiamare `signature.dispose()` o di chiudere correttamente l'oggetto `Signature`. Java mantiene l'handle del file finché l'oggetto non viene garbage‑collected.  
 **Soluzione**:
 ```java
 // Always use try‑with‑resources (Java 7+)
@@ -401,16 +404,16 @@ try {
 ```
 
 ### Problema 2: La firma appare ma il gradiente non è visibile
-**Sintomi**: Vedi il testo della firma, ma è di un solo colore solido.  
+**Sintomi**: Vedi il testo della firma, ma è di un colore solido.  
 **Possibili cause**:  
 1. **Il visualizzatore PDF non supporta i gradienti** – prova con Adobe Acrobat, Foxit Reader o un browser moderno.  
 2. **Trasparenza impostata troppo alta** – `setTransparency(1.0f)` rende il gradiente invisibile. Prova 0.3‑0.7.  
 3. **Pennello non applicato** – assicurati di aver chiamato `background.setBrush(brush)` *e* `options.setBackground(background)`.  
 
-**Suggerimento di debug**: Usa colori ad alto contrasto (es. `Color.RED` a `Color.BLUE`) prima. Se il gradiente non appare, la configurazione è errata, non i colori.
+**Suggerimento di debug**: Usa colori ad alto contrasto (es. `Color.RED` a `Color.BLUE`) prima. Se il gradiente non appare comunque, la configurazione è errata, non i colori.
 
 ### Problema 3: La firma sovrappone contenuti importanti del documento
-**Sintomi**: Il gradiente è bello, ma copre testo o campi cruciali.  
+**Sintomi**: La firma a gradiente è bella ma copre testo o campi critici.  
 **Soluzione**: Regola dinamicamente il posizionamento in base al contenuto del documento. Ecco un pattern che utilizzo:
 ```java
 // For documents with content primarily at the top
@@ -426,18 +429,18 @@ padding.setTop(600);     // Absolute Y position
 padding.setLeft(400);    // Absolute X position
 options.setMargin(padding);
 ```
-**Approccio migliore**: Analizza prima il documento per trovare spazi vuoti, poi posiziona le firme programmaticamente.
+**Approccio migliore**: Analizza prima il documento per trovare spazi vuoti, poi posiziona le firme programmaticamente in quelle aree.
 
 ### Problema 4: Problemi di prestazioni con documenti di grandi dimensioni
-**Sintomi**: La firma richiede molto tempo su PDF con molte pagine o immagini ad alta risoluzione.  
-**Causa**: GroupDocs elabora l’intero documento e i gradienti complessi aumentano il carico di rendering.  
+**Sintomi**: La firma richiede molto tempo per PDF con molte pagine o immagini ad alta risoluzione.  
+**Causa**: GroupDocs elabora l'intero documento, e i gradienti complessi aggiungono overhead di rendering.  
 **Soluzioni**:  
-1. **Firma solo pagine specifiche** invece dell’intero file.  
-2. **Usa gradienti più semplici**—i gradienti lineari a due colori sono più veloci di quelli radiali o a più stop.  
-3. **Riduci le dimensioni della firma**—larghezza/altezza minori riducono il lavoro di rendering.  
+1. **Firma solo pagine specifiche** anziché l'intero file.  
+2. **Usa gradienti più semplici**—i gradienti lineari a due colori sono più veloci di quelli radiali o con più stop.  
+3. **Riduci le dimensioni della firma**—larghezza/altezza minori comportano meno lavoro di rendering.  
 4. **Elabora in modo asincrono**—non bloccare il thread principale durante la firma.
 
-**Esempio di performance**:
+**Esempio di prestazioni**:
 ```java
 // Faster configuration
 TextSignOptions options = new TextSignOptions("Approved");
@@ -453,20 +456,20 @@ LinearGradientBrush brush = new LinearGradientBrush(
 ```
 
 ### Problema 5: Il colore non corrisponde alle aspettative
-**Sintomi**: Il gradiente appare diverso da quello specificato nel codice.  
+**Sintomi**: Il gradiente appare diverso da quanto specificato nel codice.  
 **Cause**:  
-1. **Differenze nello spazio colore RGB**—Java usa sRGB, ma i PDF possono renderizzare in uno spazio diverso.  
+1. **Differenze nello spazio colore RGB**—`Color` di Java usa sRGB, ma i PDF possono renderizzare in uno spazio diverso.  
 2. **Interazioni di trasparenza**—I gradienti semi‑trasparenti si mescolano con lo sfondo del documento, alterando il colore percepito.  
 3. **Calibrazione del monitor**—Ciò che vedi sul tuo schermo può differire da quello di altri utenti.  
 
-**Soluzione**: Testa i documenti firmati su più dispositivi e visualizzatori PDF. Se la coerenza del brand è critica, usa valori RGB precisi e verifica su diverse piattaforme. Mantieni l’opacità intorno a 0.3‑0.5 per minimizzare le variazioni di colore.
+**Soluzione**: Testa i documenti firmati su più dispositivi e visualizzatori PDF. Se la coerenza del brand è critica, usa valori RGB esatti e verifica su più piattaforme. Mantieni l'opacità intorno a 0.3‑0.5 per ridurre le variazioni di colore.
 
 ## Best practice per applicazioni in produzione
 
 Ecco ciò che ho imparato usando firme a gradiente in sistemi reali.
 
 ### 1. Centralizzare la configurazione della firma
-Non disperdere lo stile nel codice. Crea una classe helper:
+Non spargere lo styling nel codice. Crea una classe helper:
 
 ```java
 public class SignatureStyles {
@@ -497,7 +500,7 @@ public class SignatureStyles {
 ```
 Ora puoi riutilizzare gli stili in modo coerente: `SignatureStyles.getApprovalSignature("Jane Doe")`.
 
-### 2. Validare i documenti prima della firma
+### 2. Validare i documenti prima di firmare
 Controlla sempre che il documento sorgente sia valido:
 ```java
 try {
@@ -535,7 +538,7 @@ if (!result.getFailed().isEmpty()) {
 ```
 
 ### 4. Gestire le eccezioni in modo elegante
-Non lasciare che un errore di firma blocchi il servizio:
+Non lasciare che un fallimento di firma blocchi il servizio:
 ```java
 try {
     SignResult result = signature.sign(outputPath, options);
@@ -553,20 +556,20 @@ try {
 ```
 
 ### 5. Testare con documenti reali
-Non limitarti a PDF di esempio. Usa file reali del tuo flusso di lavoro:
+Non limitarti ai PDF di esempio. Usa file reali del tuo flusso di lavoro:
 - Moduli con campi esistenti  
 - Contratti multi‑pagina  
 - Immagini scansionate (PDF basati su immagini)  
-- Documenti già firmati  
+- Documenti che già contengono firme  
 
 Ogni tipologia può comportarsi diversamente con il rendering dei gradienti.
 
-## Consigli professionali per utenti avanzati
+## Pro tip per utenti avanzati
 
 Pronto a fare il salto di qualità? Ecco alcune tecniche avanzate.
 
-### Consiglio 1: Creare palette di colori personalizzate
-Definisci le palette del brand una sola volta e riutilizzale:
+### Tip 1: Creare schemi di colore personalizzati
+Definisci palette di brand una sola volta e riutilizzale:
 ```java
 public class BrandColors {
     public static final Color PRIMARY   = new Color(0, 102, 204);
@@ -579,7 +582,7 @@ public class BrandColors {
 }
 ```
 
-### Consiglio 2: Trasparenza dinamica in base al tipo di documento
+### Tip 2: Trasparenza dinamica in base al tipo di documento
 ```java
 public static float getOptimalTransparency(Signature signature) {
     if (hasComplexBackground(signature)) {
@@ -589,7 +592,7 @@ public static float getOptimalTransparency(Signature signature) {
 }
 ```
 
-### Consiglio 3: Elaborazione batch con thread pool
+### Tip 3: Elaborazione batch con thread pool
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(4);
 List<String> files = getDocumentsToSign();
@@ -607,7 +610,7 @@ executor.shutdown();
 executor.awaitTermination(5, TimeUnit.MINUTES);
 ```
 
-### Consiglio 4: Stile condizionale in base al tipo di firma
+### Tip 4: Styling condizionale in base al tipo di firma
 ```java
 public static TextSignOptions getStyledSignature(String name, SignatureType type) {
     TextSignOptions options = new TextSignOptions(name);
@@ -628,27 +631,23 @@ public static TextSignOptions getStyledSignature(String name, SignatureType type
 
 ## Domande frequenti
 
-**D: Posso usare le firme a gradiente in un servizio Java basato sul web?**  
+**D: Posso usare questo in un servizio Java basato sul web?**  
 R: Sì. GroupDocs.Signature è puro Java e funziona in qualsiasi backend Java, inclusi Spring Boot o Jakarta EE.
 
 **D: Il gradiente influisce sulla dimensione del PDF firmato?**  
-R: Solo marginalmente. Il gradiente è memorizzato nello stream di aspetto visivo, tipicamente aggiungendo qualche kilobyte.
+R: Solo marginalmente. Il gradiente è memorizzato nello stream di aspetto visivo, aggiungendo tipicamente qualche kilobyte.
 
 **D: Come firmo PDF protetti da password?**  
-R: Passa la password quando crei l’oggetto `Signature`: `new Signature("file.pdf", "password")`.
+R: Passa la password quando crei l'oggetto `Signature`: `new Signature("file.pdf", "password")`.
 
 **D: È possibile applicare il gradiente a una firma basata su immagine anziché su testo?**  
-R: Assolutamente. Usa `ImageSignOptions` e imposta il suo `Background` con un `LinearGradientBrush` come nell’esempio di testo.
+R: Assolutamente. Usa `ImageSignOptions` e imposta il suo `Background` con un `LinearGradientBrush` proprio come nell'esempio testuale.
 
 **D: E se mi serve un gradiente radiale invece di lineare?**  
-R: Attualmente GroupDocs supporta `LinearGradientBrush`. Per effetti radiali, puoi creare un’immagine con gradiente radiale e usarla come sfondo.
-
-## Conclusione
-
-Aggiungere effetti di pennello a gradiente alle firme digitali è un modo semplice per aumentare l’impatto visivo, rafforzare il brand e migliorare la percezione di affidabilità dei documenti. Con GroupDocs.Signature per Java, l’intero flusso—dalla configurazione della libreria al PDF finale—può essere scriptato in poche righe di codice. Usa i pattern, i consigli e le soluzioni ai problemi presentati in questa guida per integrare firme a gradiente in qualsiasi workflow Java, sia per contratti, fatture, certificati o filigrane personalizzate.
+R: Attualmente GroupDocs supporta solo `LinearGradientBrush`. Per effetti radiali, puoi pre‑creare un'immagine con gradiente radiale e usarla come sfondo.
 
 ---
 
-**Ultimo aggiornamento:** 2026-01-13  
+**Ultimo aggiornamento:** 2026-03-14  
 **Testato con:** GroupDocs.Signature 23.12 per Java  
 **Autore:** GroupDocs
