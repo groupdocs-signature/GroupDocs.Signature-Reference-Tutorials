@@ -3,11 +3,15 @@ title: "GroupDocs.Signature API Tutorial - Digital Document Signing for .NET & J
 linktitle: GroupDocs.Signature API Tutorials & Documentation
 additionalTitle: GroupDocs Official API References
 description: "Explore the GroupDocs.Signature API tutorial for secure digital document signing in .NET and Java. Learn how to implement, verify, and protect PDFs, Word, Excel, PowerPoint, and image files."
-keywords: [digital signature API, document signing, PDF signatures, electronic signatures, C# signature library, Java document signing, digital certificate, document security, signature verification, document protection]
+keywords:
+  - digital document signing
+  - GroupDocs.Signature .NET
+  - GroupDocs.Signature Java
 weight: 11
 url: /
 is_root: true
 type: docs
+date: 2026-04-26
 ---
 
 # GroupDocs.Signature: Complete Digital Document Signing Solution for Developers
@@ -26,9 +30,9 @@ You’ll discover why developers choose GroupDocs.Signature for:
 
 Below you’ll find a curated list of step‑by‑step tutorials that cover every stage of the signing lifecycle.
 
-## GroupDocs.Signature API tutorial overview
+## Digital Document Signing with GroupDocs.Signature API
 
-The sections below are organized by platform. Each link leads to a dedicated tutorial that walks you through installation, configuration, and real‑world code examples. Whether you’re building a simple “sign‑once” workflow or a complex multi‑signature approval chain, you’ll find the exact guidance you need.
+Whether you’re building a simple “sign‑once” portal or an enterprise‑grade approval pipeline, the API gives you granular control over how signatures are created, displayed, and validated. You can add visible signatures (text, images, QR codes, barcodes) or invisible cryptographic signatures that guarantee document integrity without altering the visual layout. The same codebase works across .NET and Java, letting you reuse business logic across platforms.
 
 ### .NET tutorials – digital document signing .NET developers love
 
@@ -112,8 +116,8 @@ GroupDocs.Signature is designed for diverse industries requiring secure document
 
 ---
 
-**Last Updated:** 2025-12-16  
-**Tested With:** GroupDocs.Signature 23.11 (latest)  
+**Last Updated:** 2026-04-26  
+**Tested With:** GroupDocs.Signature 24.1 (latest)  
 **Author:** GroupDocs  
 
 ---

@@ -1,23 +1,17 @@
 ---
 additionalTitle: GroupDocs Official API References
-description: Ontdek de GroupDocs.Signature API‑handleiding voor veilige digitale ondertekening
-  van documenten in .NET en Java. Leer hoe u PDF‑, Word‑, Excel‑, PowerPoint‑ en afbeeldingsbestanden
-  kunt implementeren, verifiëren en beschermen.
+date: 2026-04-26
+description: Verken de GroupDocs.Signature API‑tutorial voor veilige digitale ondertekening
+  van documenten in .NET en Java. Leer hoe je PDF‑, Word‑, Excel‑, PowerPoint‑ en
+  afbeeldingsbestanden implementeert, verifieert en beschermt.
 is_root: true
 keywords:
-- digital signature API
-- document signing
-- PDF signatures
-- electronic signatures
-- C# signature library
-- Java document signing
-- digital certificate
-- document security
-- signature verification
-- document protection
-linktitle: GroupDocs.Signature API Tutorials & Documentation
-title: 'GroupDocs.Signature API-handleiding - Digitale ondertekening van documenten
-  voor .NET en Java'
+- digital document signing
+- GroupDocs.Signature .NET
+- GroupDocs.Signature Java
+linktitle: GroupDocs.Signature API-tutorials & documentatie
+title: GroupDocs.Signature API Tutorial - Digitale documentondertekening voor .NET
+  & Java
 type: docs
 url: /nl/
 weight: 11
@@ -25,28 +19,28 @@ weight: 11
 
 # GroupDocs.Signature: Complete digitale documentondertekeningsoplossing voor ontwikkelaars
 
-![GroupDocs.Signature-banner](./groupdocs-signature-net.svg)
+![GroupDocs.Signature Banner](./groupdocs-signature-net.svg)
 
 ## Waarom een GroupDocs.Signature API‑tutorial belangrijk is
 
-In de hedendaagse snelgroeiende bedrijven is **digitale documentondertekening** niet alleen een gemak—het is een nalevingsvereiste. Deze **GroupDocs.Signature API‑tutorial** laat zien hoe je vertrouwde, manipulatie‑detecterende handtekeningen direct in je .NET‑ of Java‑toepassingen kunt integreren, waardoor je volledige controle krijgt over beveiliging, uiterlijk en workflow‑automatisering.
+In de hedendaagse snelgroeiende ondernemingen is **digitale documentondertekening** niet alleen een gemak—het is een nalevingsvereiste. Deze **GroupDocs.Signature API‑tutorial** laat zien hoe je vertrouwde, manipulatie‑detecterende handtekeningen direct in je .NET- of Java‑toepassingen kunt integreren, waardoor je volledige controle krijgt over beveiliging, uiterlijk en workflow‑automatisering.
 
-Je ontdekt waarom ontwikkelaars kiezen voor GroupDocs.Signature voor:
+Je ontdekt waarom ontwikkelaars kiezen voor GroupDocs.Signature vanwege:
 
-* **Regulatory compliance** – voldoe aan e‑sign-wetten en industrienormen.  
+* **Regulatory compliance** – voldoe aan e‑handtekeningwetgeving en industriële normen.  
 * **Cross‑format flexibility** – onderteken PDF's, DOCX, XLSX, PPTX, afbeeldingen en meer dan 50 andere formaten.  
 * **Scalable automation** – verwerk duizenden documenten in batches met één regel code.  
 
 Hieronder vind je een samengestelde lijst met stap‑voor‑stap‑tutorials die elke fase van de ondertekeningslevenscyclus behandelen.
 
-## Overzicht van de GroupDocs.Signature API‑tutorial
+## Digitale documentondertekening met GroupDocs.Signature API
 
-De onderstaande secties zijn geordend per platform. Elke link leidt naar een specifieke tutorial die je stap voor stap door installatie, configuratie en praktijkvoorbeelden van code leidt. Of je nu een eenvoudige “een‑maal‑ondertekenen” workflow bouwt of een complexe multi‑handtekening‑goedkeuringsketen, je vindt de exacte begeleiding die je nodig hebt.
+Of je nu een eenvoudig “een‑maal‑ondertekenen” portaal bouwt of een enterprise‑grade goedkeuringspipeline, de API biedt je gedetailleerde controle over hoe handtekeningen worden gemaakt, weergegeven en gevalideerd. Je kunt zichtbare handtekeningen toevoegen (tekst, afbeeldingen, QR‑codes, barcodes) of onzichtbare cryptografische handtekeningen die de integriteit van het document garanderen zonder de visuele lay-out te wijzigen. dezelfde codebase werkt zowel op .NET als Java, zodat je bedrijfslogica over platformen kunt hergebruiken.
 
-### .NET‑tutorials – digitale documentondertekening die .NET‑ontwikkelaars waarderen
+### .NET‑tutorials – digitale documentondertekening die .NET‑ontwikkelaars liefhebben
 
 {{% alert color="primary" %}}
-Beheers GroupDocs.Signature voor .NET met onze uitgebreide stap‑voor‑stap‑gidsen en kant‑klaar‑te‑gebruiken code‑voorbeelden. Van basisimplementatie tot geavanceerde beveiligingsworkflows, onze tutorials behandelen de volledige handtekeninglevenscyclus, inclusief het maken, toepassen, verifiëren en beheren van digitale handtekeningen in C#‑toepassingen.
+Beheers GroupDocs.Signature voor .NET met onze uitgebreide stap‑voor‑stap‑handleidingen en kant‑klaar code‑voorbeelden. Van basisimplementatie tot geavanceerde beveiligingsworkflows, onze tutorials behandelen de volledige handtekeninglevenscyclus, inclusief het maken, toepassen, verifiëren en beheren van digitale handtekeningen in C#‑toepassingen.
 {{% /alert %}}
 
 - [Aan de slag met GroupDocs.Signature voor .NET](./net/getting-started/)
@@ -58,16 +52,16 @@ Beheers GroupDocs.Signature voor .NET met onze uitgebreide stap‑voor‑stap‑
 - [Tekst‑ & typografie‑handtekeningen in .NET](./net/text-signatures/)
 - [Interactieve formulier‑veld‑handtekeningen in .NET](./net/form-field-signatures/)
 - [Verborgen metadata‑handtekeningen in .NET](./net/metadata-signatures/)
-- [Multi‑handtekeningverwerking in .NET](./net/multiple-signatures/)
+- [Meervoudige handtekeningverwerking in .NET](./net/multiple-signatures/)
 - [Handtekeningverificatie & authenticatie in .NET](./net/search-verification/)
 - [Handtekeninglevenscyclus‑beheer in .NET](./net/signature-management/)
-- [Document‑preview & informatie‑extractie in .NET](./net/preview-info/)
-- [Geavanceerde handtekening‑aanpassing in .NET](./net/advanced-options/)
+- [Documentpreview & informatie‑extractie in .NET](./net/preview-info/)
+- [Geavanceerde handtekeningaanpassing in .NET](./net/advanced-options/)
 - [Event‑gedreven handtekeningverwerking in .NET](./net/event-handling/)
 - [Documentbeveiliging & -bescherming in .NET](./net/document-protection/)
 - [Handtekeningdiagnostiek in .NET](./net/logging-debugging/)
-- [Verwijderings‑operatie‑workflows in .NET](./net/delete-operations/)
-- [Document‑preview‑aanpassing in .NET](./net/document-preview-operations/)
+- [Verwijder‑operatie‑workflows in .NET](./net/delete-operations/)
+- [Documentpreview‑aanpassing in .NET](./net/document-preview-operations/)
 - [Metadata‑extractie & -beheer in .NET](./net/document-metadata-extraction/)
 - [Geavanceerde zoekmogelijkheden in .NET](./net/signature-searching/)
 - [Fundamenten van documentondertekening in .NET](./net/document-signing/)
@@ -78,7 +72,7 @@ Beheers GroupDocs.Signature voor .NET met onze uitgebreide stap‑voor‑stap‑
 ### Java‑tutorials – digitale documentondertekening waarop Java‑ontwikkelaars vertrouwen
 
 {{% alert color="primary" %}}
-Ontdek onze uitgebreide Java‑gidsen voor het implementeren van veilige digitale handtekeningen in je toepassingen. Onze tutorials bieden gedetailleerde implementatiestappen, praktische voorbeelden en best practices voor het creëren van robuuste documentondertekeningsoplossingen voor alle belangrijke platformen, inclusief Android.
+Ontdek onze uitgebreide Java‑gidsen voor het implementeren van veilige digitale handtekeningen in je toepassingen. Onze tutorials bieden gedetailleerde implementatiestappen, praktische voorbeelden en best practices voor het creëren van robuuste documentondertekeningsoplossingen op alle belangrijke platformen, inclusief Android.
 {{% /alert %}}
 
 - [Aan de slag met GroupDocs.Signature voor Java](./java/getting-started/)
@@ -88,18 +82,18 @@ Ontdek onze uitgebreide Java‑gidsen voor het implementeren van veilige digital
 - [QR‑code‑handtekeningen & data‑objecten in Java](./java/qr-code-signatures/)
 - [Afbeeldings‑gebaseerde handtekeningen & watermerken in Java](./java/image-signatures/)
 - [Tekst‑ & typografie‑handtekeningen in Java](./java/text-signatures/)
-- [Integratie van formulier‑veld‑handtekeningen in Java](./java/form-field-signatures/)
+- [Formulierveld‑handtekeningintegratie in Java](./java/form-field-signatures/)
 - [Verborgen metadata‑handtekeningen in Java](./java/metadata-signatures/)
-- [Multi‑handtekening‑workflows in Java](./java/multiple-signatures/)
+- [Meervoudige handtekening‑workflows in Java](./java/multiple-signatures/)
 - [Handtekeningverificatie & beveiliging in Java](./java/search-verification/)
 - [Handtekeninglevenscyclus‑beheer in Java](./java/signature-management/)
-- [Document‑preview & informatie‑analyse in Java](./java/preview-info/)
-- [Geavanceerde handtekening‑aanpassing in Java](./java/advanced-options/)
+- [Documentpreview & informatie‑analyse in Java](./java/preview-info/)
+- [Geavanceerde handtekeningaanpassing in Java](./java/advanced-options/)
 - [Event‑gedreven handtekeningverwerking in Java](./java/event-handling/)
 - [Documentbeveiliging & -bescherming in Java](./java/document-protection/)
 - [Handtekeningdiagnostiek in Java](./java/logging-debugging/)
 
-## Industrieën & Toepassingsgevallen
+## Industrieën & toepassingsgevallen
 
 GroupDocs.Signature is ontworpen voor diverse sectoren die veilige documentverwerking vereisen:
 
@@ -114,8 +108,8 @@ GroupDocs.Signature is ontworpen voor diverse sectoren die veilige documentverwe
 
 - [API‑referenties](https://reference.groupdocs.com/)
 - [GitHub‑repositories](https://github.com/groupdocs)
-- [Demo’s voor ontwikkelaars](https://products.groupdocs.app/signature)
-- [Aan de slag‑documentatie](https://docs.groupdocs.com/signature/)
+- [Demo's voor ontwikkelaars](https://products.groupdocs.app/signature)
+- [Documentatie voor aan de slag](https://docs.groupdocs.com/signature/)
 - [Gratis ondersteuningsforum](https://forum.groupdocs.com/c/signature)
 - [Blog](https://blog.groupdocs.com/category/signature/)
 
@@ -125,6 +119,8 @@ GroupDocs.Signature is ontworpen voor diverse sectoren die veilige documentverwe
 
 ---
 
-**Last Updated:** 2025-12-16  
-**Getest met:** GroupDocs.Signature 23.11 (latest)  
-**Auteur:** GroupDocs
+**Laatst bijgewerkt:** 2026-04-26  
+**Getest met:** GroupDocs.Signature 24.1 (latest)  
+**Auteur:** GroupDocs  
+
+---
