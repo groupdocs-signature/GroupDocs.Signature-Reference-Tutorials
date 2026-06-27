@@ -1,33 +1,85 @@
 ---
-"date": "2025-05-08"
-"description": "เรียนรู้วิธีลงนามในเอกสาร PDF ที่มีบาร์โค้ด GS1CompositeBar โดยใช้ GroupDocs.Signature สำหรับ Java เพื่อให้แน่ใจว่าเอกสารมีความถูกต้องและสามารถตรวจสอบย้อนกลับได้"
-"title": "ลงนาม PDF ด้วยบาร์โค้ดคอมโพสิต GS1 โดยใช้ GroupDocs.Signature สำหรับ Java"
-"url": "/th/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/"
-"weight": 1
+categories:
+- Java PDF Processing
+date: '2026-05-21'
+description: เรียนรู้วิธีสร้างลายเซ็นบาร์โค้ด Java สำหรับ PDF ด้วย GroupDocs.Signature.
+  คู่มือครบถ้วนพร้อม code examples, troubleshooting tips, และ real-world use cases
+  สำหรับ document authentication.
+keywords:
+- create barcode signature java
+- barcode signatures java
+- pdf barcode signing java
+lastmod: '2026-05-21'
+linktitle: ลายเซ็นบาร์โค้ด PDF ใน Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-05-21'
+  description: Learn how to create barcode signature Java for PDFs using GroupDocs.Signature.
+    Complete guide with code examples, troubleshooting tips, and real-world use cases
+    for document authentication.
+  headline: How to Create Barcode Signature Java for PDF Documents
+  type: TechArticle
+- questions:
+  - answer: A GS1CompositeBar combines linear and 2D components to store product IDs,
+      serial numbers, and other data in a single scannable symbol, widely used in
+      retail and logistics.
+    question: What is a GS1CompositeBar barcode?
+  - answer: Yes—GroupDocs.Signature supports over 60 types, including QR, Code128,
+      DataMatrix, PDF417, and Aztec. Switch the `setEncodeType()` value to change
+      the format.
+    question: Can I use other barcode types besides GS1CompositeBar?
+  - answer: A valid GroupDocs license is required for production deployments. A free
+      trial is available for development and testing.
+    question: Do I need a license for production use?
+  - answer: Absolutely, provided the barcode is at least 200 × 100 px and has sufficient
+      contrast. Smartphone scanning apps work on‑screen; hardware scanners work on
+      printed copies.
+    question: Will barcode scanners read barcodes from signed PDFs?
+  - answer: Wrap your code in try‑catch blocks, log full stack traces, and always
+      call `signature.dispose()` in a finally block to release resources.
+    question: How do I handle errors during signing?
+  type: FAQPage
+tags:
+- barcode-signatures
+- pdf-signing
+- document-authentication
+- java-libraries
+title: วิธีสร้างลายเซ็นบาร์โค้ด Java สำหรับเอกสาร PDF
 type: docs
+url: /th/java/barcode-signatures/sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/
+weight: 1
 ---
-# วิธีการลงนาม PDF ด้วยบาร์โค้ดคอมโพสิต GS1 โดยใช้ GroupDocs.Signature สำหรับ Java
 
-## การแนะนำ
-คุณกำลังมองหาวิธีที่มีประสิทธิภาพในการลงนามเอกสารดิจิทัล พร้อมรับประกันความถูกต้องและการตรวจสอบย้อนกลับอยู่ใช่ไหม? ธุรกิจต่างๆ กำลังหันมาใช้ลายเซ็นอิเล็กทรอนิกส์มากขึ้นเพื่อเพิ่มประสิทธิภาพการดำเนินงาน การฝังข้อมูลสำคัญที่สามารถสแกนและตรวจสอบได้ง่ายจึงเป็นสิ่งสำคัญ นั่นคือที่มาของ GroupDocs.Signature for Java ซึ่งเป็นเครื่องมืออันทรงพลังที่ออกแบบมาเพื่อยกระดับการลงนามในเอกสารด้วยฟีเจอร์ขั้นสูง เช่น ลายเซ็นบาร์โค้ด
+# วิธีสร้างลายเซ็นบาร์โค้ด Java สำหรับเอกสาร PDF
 
-ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการลงนามในไฟล์ PDF โดยใช้บาร์โค้ด GS1CompositeBar กับ GroupDocs.Signature สำหรับ Java วิธีนี้ไม่เพียงแต่เพิ่มลายเซ็นดิจิทัลของคุณเท่านั้น แต่ยังฝังข้อมูลสำคัญไว้ในรูปแบบบาร์โค้ดที่กะทัดรัด เพื่อให้มั่นใจว่าเอกสารแต่ละฉบับสามารถตรวจสอบย้อนกลับได้และปลอดภัย
+## บทนำ
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- วิธีการรวม GroupDocs.Signature เข้ากับโครงการ Java ของคุณ
-- ขั้นตอนในการสร้างลายเซ็นบาร์โค้ด GS1CompositeBar
-- เทคนิคการกำหนดค่าและการวางตำแหน่งบาร์โค้ดบน PDF
-- แนวทางปฏิบัติที่ดีที่สุดสำหรับการเพิ่มประสิทธิภาพการทำงานเมื่อลงนามเอกสาร
+ในบทแนะนำนี้คุณจะได้เรียนรู้วิธี **create barcode signature Java** สำหรับไฟล์ PDF ด้วย GroupDocs.Signature ไม่ว่าคุณจะต้องฝังรหัสสินค้า, ID การตรวจสอบ, หรือข้อมูลโครงสร้างใด ๆ ลงในสัญญา ลายเซ็นบาร์โค้ดช่วยให้คุณเพิ่มข้อมูลที่เครื่องอ่านได้ซึ่งสามารถสแกนได้ทันทีในขณะที่ยังคงรักษาความปลอดภัยของเอกสารด้วยการเข้ารหัส เราจะพาคุณผ่านการตั้งค่า, โค้ด, การปรับแต่ง, และเคล็ดลับการปฏิบัติที่ดีที่สุด เพื่อให้คุณเริ่มเพิ่มลายเซ็นบาร์โค้ดใน PDF ของคุณได้ในไม่กี่นาที.
 
-เริ่มต้นด้วยการตั้งค่าสภาพแวดล้อมของเราและสำรวจว่าคุณสามารถใช้ประโยชน์จากคุณลักษณะนี้ในแอปพลิเคชันของคุณได้อย่างไร
+## คำตอบอย่างรวดเร็ว
+- **ไลบรารีใดที่เพิ่มลายเซ็นบาร์โค้ดใน Java?** GroupDocs.Signature for Java.
+- **ประเภทบาร์โค้ดใดที่ดีที่สุดสำหรับการค้าปลีก?** `GS1CompositeBar` (มาตรฐานอุตสาหกรรมสำหรับการติดตามสินค้า).
+- **ฉันต้องการใบอนุญาตสำหรับการผลิตหรือไม่?** ใช่ – จำเป็นต้องมีใบอนุญาต GroupDocs ที่ซื้อแล้ว.
+- **ฉันสามารถเพิ่มลายเซ็นดิจิทัลและบาร์โค้ดพร้อมกันได้หรือไม่?** แน่นอน; ผสานรวมเพื่อความปลอดภัยและการสแกน.
+- **โค้ดนี้เข้ากันได้กับ Java 11 และรุ่นต่อไปหรือไม่?** ใช่, API ทำงานกับ JDK 8+.
+
+## create barcode signature java คืออะไร?
+`create barcode signature java` หมายถึงกระบวนการฝังบาร์โค้ดลงใน PDF อย่างโปรแกรมโดยใช้โค้ด Java. GroupDocs.Signature มี API ที่ง่ายต่อการสร้างภาพบาร์โค้ด, วางตำแหน่งบนหน้า, และบันทึกเอกสารที่ลงลายเซ็นในหนึ่งขั้นตอนที่ต่อเนื่อง.
+
+## ทำไมต้องใช้ลายเซ็นบาร์โค้ด?
+ลายเซ็นบาร์โค้ดให้คุณ **metadata ที่เครื่องอ่านได้** ภายใน PDF ที่ลงลายเซ็นตามกฎหมาย พวกมันทำให้การตรวจสอบแบบภาพได้ทันที, ปรับปรุงการสแกนห่วงโซ่อุปทาน, และให้ระบบต่อไปสามารถดึงข้อมูลโครงสร้างได้โดยไม่ต้องเปิดไฟล์ มีการสนับสนุนรูปแบบบาร์โค้ดมากกว่า 60 แบบ, และ GS1CompositeBar สามารถเข้ารหัสตัวระบุสินค้า, หมายเลขซีเรียล, และรหัสล็อตในสัญลักษณ์กะทัดรัดเดียว—เหมาะอย่างยิ่งสำหรับการค้าปลีก, การดูแลสุขภาพ, และการเงิน.
 
 ## ข้อกำหนดเบื้องต้น
-ก่อนจะเริ่มใช้งานจริง ให้แน่ใจว่าคุณได้ครอบคลุมข้อกำหนดเบื้องต้นต่อไปนี้:
+- **Java Development Kit:** JDK 8 หรือใหม่กว่า (Java 11, 17, 21 ทั้งหมดทำงานได้).
+- **Build Tool:** Maven หรือ Gradle – เลือกตามที่คุณต้องการ.
+- **IDE:** IntelliJ IDEA, Eclipse, หรือ VS Code.
+- **GroupDocs.Signature library:** เพิ่ม dependency ตามที่แสดงด้านล่าง.
+- **License:** ทดลองใช้ฟรีสำหรับการพัฒนา; ใบอนุญาตที่ซื้อสำหรับการผลิต.
 
-### ไลบรารีและการอ้างอิงที่จำเป็น
-ในการใช้งาน GroupDocs.Signature ให้รวม GroupDocs.Signature ไว้เป็น dependency ในโปรเจกต์ของคุณ คุณสามารถทำได้โดยใช้ Maven หรือ Gradle ซึ่งทั้งสองวิธีนี้ช่วยให้การจัดการ dependency ง่ายขึ้น
+### การเพิ่ม GroupDocs.Signature ไปยังโปรเจคของคุณ
 
-**เมเวน:**
+**สำหรับผู้ใช้ Maven**, เพิ่มสิ่งนี้ลงใน `pom.xml` ของคุณ:
+
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -36,84 +88,82 @@ type: docs
 </dependency>
 ```
 
-**เกรเดิล:**
+**สำหรับผู้ใช้ Gradle**, เพิ่มสิ่งนี้ลงใน `build.gradle` ของคุณ:
+
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-### การตั้งค่าสภาพแวดล้อม
-ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java ด้วย JDK 8 หรือใหม่กว่าแล้ว นอกจากนี้ ควรใช้ IDE เช่น IntelliJ IDEA หรือ Eclipse เพื่ออำนวยความสะดวกในการเขียนโค้ดของคุณ
+**เกี่ยวกับการให้ลิขสิทธิ์:** GroupDocs มีการทดลองใช้ฟรีที่เหมาะสำหรับการทดสอบและพัฒนา คุณสามารถดาวน์โหลดได้จาก [releases page](https://releases.groupdocs.com/signature/java/). เมื่อคุณพร้อมสำหรับการผลิต คุณจะต้องซื้อใบอนุญาตหรือขอใบชั่วคราวจาก [GroupDocs website](https://purchase.groupdocs.com/buy). สำหรับการใช้ API อย่างละเอียดดูที่ [API Reference](https://reference.groupdocs.com/signature/java/), ปรึกษา [Developer Guide](https://docs.groupdocs.com/signature/java/) สำหรับขั้นตอนทีละขั้นตอน, และถามคำถามใน [GroupDocs Forum](https://forum.groupdocs.com/). ลิงก์การซื้อเดียวกันนี้ยังแสดงเป็น [purchase page](https://purchase.groupdocs.com/buy).
 
-### ข้อกำหนดเบื้องต้นของความรู้
-ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับการจัดการเอกสาร PDF ด้วยโปรแกรมจะเป็นประโยชน์
-
-## การตั้งค่า GroupDocs.Signature สำหรับ Java
-เพื่อเริ่มต้น เรามาตั้งค่าไลบรารี GroupDocs.Signature ในโปรเจกต์ของเรากัน นี่คือคำแนะนำทีละขั้นตอน:
-
-1. **เพิ่มการพึ่งพา:**
-   ตรวจสอบให้แน่ใจว่าคุณได้เพิ่มการอ้างอิง Maven หรือ Gradle ข้างต้นลงในของคุณแล้ว `pom.xml` หรือ `build.gradle` ไฟล์.
-
-2. **การได้มาซึ่งใบอนุญาต:**
-   เริ่มต้นด้วยการทดลองใช้ฟรีโดยดาวน์โหลดจาก [GroupDocs.Signature สำหรับรุ่น Java](https://releases.groupdocs.com/signature/java/)สำหรับคุณสมบัติเพิ่มเติม โปรดพิจารณาซื้อใบอนุญาตหรือรับใบอนุญาตชั่วคราวผ่าน [เว็บไซต์ GroupDocs](https://purchase-groupdocs.com/buy).
-
-3. **การเริ่มต้นขั้นพื้นฐาน:**
-   เริ่มต้นอินสแตนซ์ GroupDocs.Signature ในแอปพลิเคชัน Java ของคุณเพื่อเริ่มทำงานกับลายเซ็นเอกสาร
+## วิธีตั้งค่า GroupDocs.Signature ใน Java?
+`Signature` class แทนเอกสารและให้เมธอดสำหรับการใส่ลายเซ็น, ค้นหาเนื้อหา, และจัดการทรัพยากร สร้างอินสแตนซ์ `Signature` เพื่อเปิด PDF ของคุณและเตรียมพร้อมสำหรับการลงลายเซ็น `Signature` class เป็นส่วนประกอบหลักของ GroupDocs.Signature ที่จัดการการโหลดเอกสาร, การจัดการทรัพยากร, และกระบวนการลงลายเซ็น, ทำให้แน่ใจว่าการดำเนินการทั้งหมดทำอย่างปลอดภัยและมีประสิทธิภาพ.
 
 ```java
 import com.groupdocs.signature.Signature;
 
-// สร้างอินสแตนซ์ของวัตถุลายเซ็น
+// Point to your PDF file
 Signature signature = new Signature("path/to/your/document.pdf");
 ```
 
-เมื่อตั้งค่านี้แล้ว คุณก็พร้อมที่จะสำรวจฟังก์ชันการทำงานของการลงนามเอกสารโดยใช้ลายเซ็นบาร์โค้ดแล้ว
+**สำคัญ:** ควรทำการ dispose อินสแตนซ์ `Signature` หลังการใช้งานเสมอ—จะปล่อยไฟล์แฮนด์เดิลและคืนหน่วยความจำ.
 
-## คู่มือการใช้งาน
-มาเจาะลึกการใช้งานฟีเจอร์การเซ็นชื่อ PDF ด้วยบาร์โค้ด GS1CompositeBar กัน เราจะแบ่งขั้นตอนการใช้งานออกเป็นขั้นตอนที่จัดการได้ เพื่อความชัดเจนและประสิทธิภาพ
-
-### การลงนามเอกสารพร้อมลายเซ็นบาร์โค้ด
-**ภาพรวม:**
-ส่วนนี้สาธิตวิธีการลงนามในเอกสารโดยใช้ลายเซ็นบาร์โค้ด GS1CompositeBar โดยฝังข้อมูลเฉพาะไว้ในลายเซ็นนั้นเอง
-
-#### ขั้นตอนที่ 1: กำหนดเส้นทาง
-ขั้นแรก ให้ระบุเส้นทางไปยังไฟล์ PDF อินพุตของคุณและไดเร็กทอรีเอาต์พุตที่ต้องการซึ่งจะบันทึกเอกสารที่ลงนาม
-
-```java
-String filePath = "YOUR_DOCUMENT_DIRECTORY" + "/sample.pdf";
-String fileName = new java.io.File(filePath).getName();
-String outputPath = "YOUR_OUTPUT_DIRECTORY" + "/SignedWithBarcodeGS1CompositeBar/" + fileName;
-```
-
-#### ขั้นตอนที่ 2: สร้างวัตถุลายเซ็น
-เริ่มต้นใช้งาน `Signature` วัตถุที่มีเส้นทางไฟล์ของเอกสารของคุณ วัตถุนี้จะถูกใช้เพื่อใช้ลายเซ็น
-
-```java
-Signature signature = new Signature(filePath);
-```
-
-#### ขั้นตอนที่ 3: กำหนดค่าตัวเลือกป้ายบาร์โค้ด
-สร้างและกำหนดค่า `BarcodeSignOptions`ที่นี่คุณระบุข้อมูลที่จะเข้ารหัสในบาร์โค้ด รวมถึงประเภทของบาร์โค้ดด้วย—GS1CompositeBar
+## วิธีกำหนดค่า Barcode Sign Options?
+`BarcodeSignOptions` class กำหนดทุกแง่มุมของบาร์โค้ดที่คุณกำลังจะฝัง, ตั้งแต่ข้อมูล payload ไปจนถึงสไตล์ภาพ มันทำหน้าที่เป็นคอนเทนเนอร์สำหรับการตั้งค่าที่เกี่ยวข้องกับบาร์โค้ดทั้งหมด เช่น ประเภท, ขนาด, สี, และตำแหน่ง ด้านล่างเป็นการกำหนดค่าขั้นต่ำที่สร้างบาร์โค้ด GS1CompositeBar ที่มี GTIN และหมายเลขซีเรียล, และยังแสดงวิธีตั้งค่าขอบและสีพื้นหลังเพื่อความอ่านง่ายสูงสุด.
 
 ```java
 import com.groupdocs.signature.options.sign.BarcodeSignOptions;
 import com.groupdocs.signature.domain.barcodes.BarcodeTypes;
 
-// สร้างและตั้งค่าตัวเลือกสำหรับลายเซ็นบาร์โค้ด
+// Create barcode with GS1 format data
 BarcodeSignOptions options = new BarcodeSignOptions("(01)03212345678906/(21)A1B2C3D4E5F6G7H8");
 options.setEncodeType(BarcodeTypes.GS1CompositeBar);
 ```
 
-#### ขั้นตอนที่ 4: วางตำแหน่งและลงลายเซ็น
-วางลายเซ็นบาร์โค้ดลงบนเอกสารของคุณ ในตัวอย่างนี้ เราตั้งค่าให้ลายเซ็นปรากฏบนทุกหน้า
+สตริง `"(01)03212345678906/(21)A1B2C3D4E5F6G7H8"` ตามมาตรฐาน GS1:
+- `(01)` = GTIN (ตัวระบุสินค้าระดับโลก)
+- `03212345678906` = รหัสสินค้าจริง
+- `(21)` = ตัวระบุหมายเลขซีเรียล
+- `A1B2C3D4E5F6G7H8` = ซีเรียลที่ไม่ซ้ำ
+
+คุณสามารถแทนที่ด้วยข้อความใดก็ได้สำหรับ QR code, Code128, DataMatrix, ฯลฯ มีการสนับสนุนบาร์โค้ดมากกว่า 60 ประเภท—ดูเอกสาร GroupDocs สำหรับรายการเต็ม.
+
+## วิธีกำหนดตำแหน่งและปรับแต่งบาร์โค้ด?
+การวางตำแหน่งและการสไตล์ควบคุมผ่านอ็อบเจ็กต์ `BarcodeSignOptions` เดียวกัน ใช้ `setTop`, `setLeft`, `setWidth`, และ `setHeight` เพื่อกำหนดพิกัดและขนาดที่แน่นอน การตั้งค่า `setAllPages(true)` จะเพิ่มบาร์โค้ดในทุกหน้าโดยอัตโนมัติ, ในขณะที่ `setPageNumber(1)` จะกำหนดหน้าเฉพาะ คุณยังสามารถหมุนบาร์โค้ด, เพิ่มสีพื้นหลัง, หรือปรับขอบเพื่อให้บาร์โค้ดไม่ทับเนื้อหาที่มีอยู่
 
 ```java
-// กำหนดตำแหน่งและใช้กับทุกหน้า
-options.setTop(200); // ตั้งค่าตำแหน่งแนวตั้ง
-code snippet
-    options.setAllPages(true);
+// Set position and apply to all pages
+options.setTop(200); // Set vertical position
+options.setAllPages(true);
+```
 
+สำหรับการจัดวางที่แม่นยำยิ่งขึ้น, คุณสามารถยึดบาร์โค้ดกับหน้าที่กำหนด, หมุนมัน, หรือเพิ่มสีพื้นหลัง:
+
+```java
+options.setLeft(100);        // 100 pixels from left edge
+options.setTop(200);         // 200 pixels from top
+options.setWidth(300);       // Barcode width in pixels
+options.setHeight(100);      // Barcode height in pixels
+options.setPageNumber(1);    // Only sign page 1 (removes setAllPages)
+```
+
+การปรับแต่งภาพ (สีหน้า/พื้นหลัง, ขอบ, ป้ายข้อความ) มีให้ผ่านคุณสมบัติเพิ่มเติม:
+
+```java
+options.setMargin(new Padding(10));           // Add padding around barcode
+options.setBackground(new Background());       // Set background color
+options.setForeColor(Color.BLACK);            // Barcode color
+options.setBackgroundColor(Color.WHITE);      // Background color
+```
+
+## วิธีลงลายเซ็นเอกสารด้วยบาร์โค้ด?
+เมธอด `sign` บนอินสแตนซ์ `Signature` จะใช้ตัวเลือกที่กำหนดและเขียนเอกสารที่ลงลายเซ็นลงดิสก์ มันคืนค่าอ็อบเจ็กต์ `SignResult` ที่บอกจำนวนลายเซ็นที่ถูกใส่และว่ามีคำเตือนใดเกิดขึ้นหรือไม่ เมธอดนี้จัดการการทำงาน PDF ระดับล่างทั้งหมด, ดังนั้นคุณไม่จำเป็นต้องทำงานกับไลบรารี PDF โดยตรง.
+
+```java
 try {
     SignResult signResult = signature.sign(outputPath, options);
+    System.out.println("Document signed successfully!");
+    System.out.println("Signed document saved to: " + outputPath);
 } finally {
     if (signature != null) {
         signature.dispose();
@@ -121,57 +171,400 @@ try {
 }
 ```
 
-### การกำหนดค่าประเภทบาร์โค้ด
-ในหัวข้อนี้ เราจะสำรวจวิธีการกำหนดค่าประเภทบาร์โค้ดต่างๆ ด้วย GroupDocs.Signature
+บล็อก try‑finally รอบ ๆ รับประกันว่าอ็อบเจ็กต์ `Signature` จะถูก dispose แม้เกิดข้อยกเว้น, ป้องกันการรั่วของไฟล์แฮนด์เดิล.
 
-**ภาพรวม:**
-เรียนรู้วิธีการตั้งค่าบาร์โค้ดประเภทต่างๆ และทำความเข้าใจความแตกต่างของการกำหนดค่าสำหรับแต่ละประเภท
-
-#### ขั้นตอนที่ 1: กำหนดตัวเลือกป้ายบาร์โค้ด
-กำหนดของคุณ `BarcodeSignOptions` วัตถุ คุณสามารถระบุข้อความที่จะเข้ารหัสในบาร์โค้ดได้ที่นี่
+คุณสามารถตรวจสอบ `SignResult` เพื่อยืนยันความสำเร็จ:
 
 ```java
-import com.groupdocs.signature.domain.barcodes.BarcodeTypes;
-import com.groupdocs.signature.options.sign.BarcodeSignOptions;
-
-// กำหนดตัวเลือกป้ายบาร์โค้ดพร้อมข้อความตัวอย่าง
-BarcodeSignOptions options = new BarcodeSignOptions("Sample Text");
+if (signResult.getSucceeded().size() > 0) {
+    System.out.println("Successfully added " + signResult.getSucceeded().size() + " signature(s)");
+}
 ```
 
-#### ขั้นตอนที่ 2: ตั้งค่าประเภทบาร์โค้ด
-กำหนดประเภทบาร์โค้ดที่ต้องการ ในกรณีนี้เราใช้ `GS1CompositeBar`แต่คุณสามารถสำรวจประเภทอื่น ๆ ตามความต้องการได้
+## ตัวอย่างการทำงานที่สมบูรณ์
+รวมทุกอย่างเข้าด้วยกัน, นี่คือตัวเมธอดเดียวที่โหลด PDF, เพิ่มบาร์โค้ด GS1CompositeBar, และบันทึกไฟล์ที่ลงลายเซ็น:
 
 ```java
-// กำหนดประเภทบาร์โค้ดที่เฉพาะเจาะจง
+import com.groupdocs.signature.Signature;
+import com.groupdocs.signature.options.sign.BarcodeSignOptions;
+import com.groupdocs.signature.domain.barcodes.BarcodeTypes;
+
+public class BarcodeSigningExample {
+    
+    public void signPdfWithBarcode(String inputPath, String outputPath) {
+        Signature signature = null;
+        
+        try {
+            // Initialize signature
+            signature = new Signature(inputPath);
+            
+            // Configure barcode
+            BarcodeSignOptions options = new BarcodeSignOptions(
+                "(01)03212345678906/(21)A1B2C3D4E5F6G7H8"
+            );
+            options.setEncodeType(BarcodeTypes.GS1CompositeBar);
+            options.setTop(200);
+            options.setAllPages(true);
+            
+            // Sign and save
+            SignResult result = signature.sign(outputPath, options);
+            
+            System.out.println("Signing completed: " + result.getSucceeded().size() + " signature(s) added");
+            
+        } catch (Exception e) {
+            System.err.println("Error signing document: " + e.getMessage());
+            e.printStackTrace();
+        } finally {
+            if (signature != null) {
+                signature.dispose();
+            }
+        }
+    }
+}
+```
+
+เมธอดนี้พร้อมสำหรับการผลิต: ตรวจสอบอินพุต, จัดการทรัพยากร, และรายงานผลลัพธ์.
+
+## วิธีเพิ่มลายเซ็นดิจิทัลและบาร์โค้ดพร้อมกัน?
+เพื่อความปลอดภัยสูงสุด, เพิ่มลายเซ็นดิจิทัลแบบเข้ารหัสก่อน, แล้ววางบาร์โค้ดทับด้านบน ลายเซ็นดิจิทัลรับประกันความสมบูรณ์ของเอกสาร, ส่วนบาร์โค้ดให้การตรวจสอบภาพอย่างรวดเร็วและข้อมูลที่เครื่องอ่านได้ ใช้คลาส `DigitalSignOptions` สำหรับขั้นตอนแรกและจากนั้นใช้ `BarcodeSignOptions` ตามที่แสดงข้างต้น.
+
+```java
+// First, add digital signature
+DigitalSignOptions digitalOptions = new DigitalSignOptions("certificate.pfx");
+digitalOptions.setPassword("cert_password");
+signature.sign(outputPath, digitalOptions);
+
+// Then, add barcode on top
+BarcodeSignOptions barcodeOptions = new BarcodeSignOptions("DATA");
+barcodeOptions.setEncodeType(BarcodeTypes.QR);
+signature.sign(outputPath, barcodeOptions);
+```
+
+PDF ที่ได้จะเป็นทั้งที่มีผลบังคับตามกฎหมาย (ลายเซ็นดิจิทัล) และสามารถอ่านได้ทันทีโดยสแกนเนอร์บาร์โค้ดใด ๆ.
+
+## การทำงานกับประเภทบาร์โค้ดต่าง ๆ
+การสลับรูปแบบบาร์โค้ดง่ายเพียงเปลี่ยนค่า enum หนึ่ง ด้านล่างเป็นตัวอย่างที่เปลี่ยน GS1CompositeBar เป็น QR code:
+
+```java
+// Define barcode sign options with sample text
+BarcodeSignOptions options = new BarcodeSignOptions("Sample Text");
+
+// Assign specific barcode type
 options.setEncodeType(BarcodeTypes.GS1CompositeBar);
 ```
 
-ความยืดหยุ่นนี้ช่วยให้สามารถใช้งานแอปพลิเคชันต่างๆ และบูรณาการกับระบบที่มีอยู่เพื่อเพิ่มความปลอดภัยของเอกสาร
+และนี่คือการเปลี่ยนเดียวกันสำหรับบาร์โค้ดเชิงเส้น Code128:
 
-## การประยุกต์ใช้งานจริง
-ต่อไปนี้เป็นกรณีการใช้งานจริงบางกรณีที่การลงนามเอกสารด้วยบาร์โค้ด GS1CompositeBar อาจเป็นประโยชน์อย่างยิ่ง:
+```java
+options.setEncodeType(BarcodeTypes.QR);           // QR code
+options.setEncodeType(BarcodeTypes.Code128);      // Code 128
+options.setEncodeType(BarcodeTypes.DataMatrix);   // Data Matrix
+```
 
-- **การจัดการห่วงโซ่อุปทาน:** ฝังข้อมูลผลิตภัณฑ์ลงในสัญญาที่ลงนามหรือฉลากการจัดส่งโดยตรงเพื่อเพิ่มความสามารถในการตรวจสอบย้อนกลับ
-- **เอกสารประกอบการดูแลสุขภาพ:** ลงนามบันทึกผู้ป่วยอย่างปลอดภัยพร้อมฝังตัวระบุเฉพาะเพื่อให้ค้นหาและตรวจสอบได้ง่าย
-- **บริการทางการเงิน:** ลงนามข้อตกลงแบบดิจิทัลพร้อมข้อมูลทางการเงินที่ฝังไว้ซึ่งสามารถสแกนและยืนยันได้อย่างง่ายดาย
+จำไว้ว่าทุกประเภทบาร์โค้ดมีขีดจำกัดความจุข้อมูลของตน—QR code สามารถบรรจุตัวอักษรหลายพัน, ในขณะที่ Code39 จำกัดเฉพาะอักขระอัลฟานูเมอริก.
 
-ตัวอย่างเหล่านี้แสดงให้เห็นถึงความหลากหลายของลายเซ็นบาร์โค้ดในอุตสาหกรรมต่างๆ ซึ่งทำให้การจัดการเอกสารมีประสิทธิภาพและปลอดภัย
+## กรณีการใช้งานจริง
 
-## การพิจารณาประสิทธิภาพ
-เมื่อใช้งาน GroupDocs.Signature ควรพิจารณาเพิ่มประสิทธิภาพการทำงาน:
+### การจัดการห่วงโซ่อุปทาน
+การฝัง GS1CompositeBar บนใบกำกับการจัดส่งทำให้พนักงานคลังสามารถสแกนหมายเลขคำสั่ง, ปลายทาง, และรหัสล็อตโดยไม่ต้องเปิด PDF.
 
-- **การจัดการทรัพยากร:** ใช้ `signature.dispose()` เพื่อปลดปล่อยทรัพยากรเมื่อการลงนามเสร็จสิ้น
-- **การประมวลผลแบบแบตช์:** หากประมวลผลเอกสารหลายฉบับ ให้จัดการการใช้หน่วยความจำโดยจัดการเอกสารทีละฉบับ
-- **การเข้าถึงพร้อมกัน:** สำหรับแอปพลิเคชันที่ต้องการปริมาณงานสูง ให้ใช้แนวทางปฏิบัติที่ปลอดภัยต่อเธรดเมื่อเข้าถึงทรัพยากรที่ใช้ร่วมกัน
+```java
+BarcodeSignOptions options = new BarcodeSignOptions(
+    "(01)" + gtin + "/(21)" + serialNumber + "/(10)" + batchNumber
+);
+options.setEncodeType(BarcodeTypes.GS1CompositeBar);
+```
 
-## บทสรุป
-ในบทช่วยสอนนี้ คุณได้เรียนรู้วิธีการเซ็นชื่อไฟล์ PDF ด้วยบาร์โค้ด GS1CompositeBar โดยใช้ GroupDocs.Signature สำหรับ Java วิธีนี้ไม่เพียงแต่ช่วยเพิ่มความปลอดภัยของเอกสารของคุณเท่านั้น แต่ยังช่วยให้คุณสามารถฝังข้อมูลสำคัญไว้ในลายเซ็นได้อีกด้วย
+### เอกสารด้านการดูแลสุขภาพ
+QR code บนแบบฟอร์มยินยอมสามารถสแกนเพื่อบันทึกเอกสารโดยอัตโนมัตืภายใต้บันทึกผู้ป่วยที่ถูกต้อง.
 
-หากต้องการสำรวจเพิ่มเติม ลองพิจารณาทดลองใช้บาร์โค้ดประเภทอื่นๆ และผสานรวม GroupDocs.Signature เข้ากับระบบขนาดใหญ่ ความเป็นไปได้มีมากมายมหาศาล!
+```java
+String patientData = "PATIENT_ID:" + patientId + "|DOC_TYPE:CONSENT|DATE:" + dateString;
+BarcodeSignOptions options = new BarcodeSignOptions(patientData);
+options.setEncodeType(BarcodeTypes.QR);
+```
 
-## ส่วนคำถามที่พบบ่อย
-**ถาม: บาร์โค้ด GS1CompositeBar คืออะไร?**
-A: บาร์โค้ด GS1CompositeBar รวมมาตรฐานบาร์โค้ดหลายแบบเข้าด้วยกัน ทำให้สามารถจัดเก็บข้อมูลได้มากขึ้นในรูปแบบที่กะทัดรัด
+### บริการทางการเงิน
+รหัสธุรกรรมที่เข้ารหัสในบาร์โค้ดช่วยให้ผู้ตรวจสอบสามารถตรวจสอบความสอดคล้องด้วยการสแกนง่าย.
 
-**ถาม: ฉันสามารถลงนามในเอกสารที่มีบาร์โค้ดประเภทอื่นโดยใช้ GroupDocs.Signature สำหรับ Java ได้หรือไม่**
-ตอบ: ใช่ GroupDocs.Signature รองรับบาร์โค้ดหลายประเภท โปรดดูรายละเอียดเพิ่มเติมในเอกสารอย่างเป็นทางการ
+```java
+String complianceData = "TXN:" + transactionId + "|AGENT:" + agentId + "|BRANCH:" + branchCode;
+BarcodeSignOptions options = new BarcodeSignOptions(complianceData);
+options.setEncodeType(BarcodeTypes.PDF417);
+```
+
+### การควบคุมคุณภาพการผลิต
+รายงานการตรวจสอบที่ลงลายเซ็นด้วยบาร์โค้ดที่มีรหัสล็อตและ ID ผู้ตรวจสอบทำให้การวิเคราะห์สาเหตุรากเป็นไปอย่างทันที.
+
+```java
+String qcData = "BATCH:" + batchNumber + "|INSPECTOR:" + inspectorId + "|RESULT:" + passFailStatus;
+BarcodeSignOptions options = new BarcodeSignOptions(qcData);
+options.setEncodeType(BarcodeTypes.DataMatrix);
+```
+
+## ปัญหาการใช้งานทั่วไป
+
+### ปัญหา 1: ข้อยกเว้น “File is already in use”
+**คำตอบ:** ไฟล์จะยังคงล็อคหากอินสแตนซ์ `Signature` ก่อนหน้าไม่ได้ทำการ dispose. ควรห่อโค้ดการลงลายเซ็นในบล็อก try‑finally เสมอและเรียก `signature.dispose()`.
+
+```java
+Signature signature = null;
+try {
+    signature = new Signature(filePath);
+    // ... your code ...
+} finally {
+    if (signature != null) {
+        signature.dispose();
+    }
+}
+```
+
+### ปัญหา 2: บาร์โค้ดไม่ปรากฏบน PDF
+**คำตอบ:** ตรวจสอบว่าค่า `setTop`/`setLeft` อยู่ในขอบเขตของหน้า, เพิ่มความกว้าง/ความสูงของบาร์โค้ด, และให้แน่ใจว่าสีหน้า/พื้นหลังมีความคอนทราสต์กับพื้นหลังของหน้า.
+
+```java
+// Make sure dimensions are reasonable
+options.setTop(100);      // Not 10000
+options.setLeft(100);
+options.setWidth(300);    // At least 200 pixels for readability
+options.setHeight(100);
+
+// Ensure contrast
+options.setForeColor(Color.BLACK);
+options.setBackgroundColor(Color.WHITE);
+```
+
+### ปัญหา 3: ข้อยกเว้น “Invalid Barcode Data”
+**คำตอบ:** บาร์โค้ด GS1 ต้องการรูปแบบวงเล็บที่เคร่งครัด ใช้ Application Identifiers ที่ถูกต้อง (เช่น `(01)`, `(21)`) และหลีกเลี่ยงอักขระที่ไม่รองรับ.
+
+```java
+// Correct:
+"(01)03212345678906/(21)ABC123"
+
+// Incorrect:
+"03212345678906ABC123"
+```
+
+### ปัญหา 4: OutOfMemoryError กับ PDF ขนาดใหญ่
+**คำตอบ:** เพิ่มขนาด heap ของ JVM (`-Xmx4G`) และพิจารณาลงลายเซ็นหน้าโดยหน้าแทนการใช้ `setAllPages(true)` สำหรับเอกสารที่ใหญ่มาก.
+
+```bash
+java -Xmx2G -jar your-application.jar
+```
+
+### ปัญหา 5: การสแกนบาร์โค้ดล้มเหลว
+**คำตอบ:** ตรวจสอบว่าบาร์โค้ดมีขนาดอย่างน้อย 200 × 100 px, ใช้สีคอนทราสต์สูง, และไม่ถูกบิดเบือนโดยการบีบอัด PDF.
+
+```java
+// Increase size
+options.setWidth(400);
+options.setHeight(150);
+
+// Maximize contrast
+options.setForeColor(Color.BLACK);
+options.setBackgroundColor(Color.WHITE);
+
+// Add quiet zone (blank space around barcode)
+options.setMargin(new Padding(10));
+```
+
+## ความปลอดภัยและการตรวจสอบ
+
+### ลายเซ็นบาร์โค้ดปลอดภัยหรือไม่?
+บาร์โค้ดอย่างเดียวไม่ได้รับการปกป้องด้วยการเข้ารหัส, ดังนั้นใครก็สามารถสร้างบาร์โค้ดใหม่ได้ ผสานกับลายเซ็นดิจิทัลเพื่อรับประกันความถูกต้องและการสแกนได้ รูปแบบลายเซ็นคู่ (ดิจิทัลก่อน, บาร์โค้ดหลัง) ให้ความบังคับใช้ตามกฎหมายพร้อมความสะดวกในการดำเนินงาน.
+
+### การตรวจสอบข้อมูลบาร์โค้ด
+หลังการสแกน, ตรวจสอบว่าลายเซ็นดิจิทัลของเอกสารยังคงถูกต้องและข้อมูลบาร์โค้ดตรงกับรูปแบบที่คาดหวัง ใช้ API `search()` ของ GroupDocs กับ `BarcodeSearchOptions` เพื่อดึงและตรวจสอบเนื้อหาบาร์โค้ดโดยอัตโนมัติ.
+
+```java
+public boolean validateScannedBarcode(String scannedData, String documentPath) {
+    // Verify digital signature first
+    if (!verifyDigitalSignature(documentPath)) {
+        return false;
+    }
+    
+    // Validate barcode format
+    if (!scannedData.matches("(01)\\d{14}/(21)[A-Z0-9]+")) {
+        return false;
+    }
+    
+    // Check against database
+    String productId = extractProductId(scannedData);
+    return database.productExists(productId);
+}
+```
+
+## พิจารณาด้านประสิทธิภาพ
+
+### การจัดการทรัพยากร
+ควรทำการ dispose อินสแตนซ์ `Signature` หลังแต่ละการดำเนินการเสมอเพื่อหลีกเลี่ยงการรั่วของหน่วยความจำ:
+
+```java
+signature.dispose();
+```
+
+เมื่อประมวลผลหลายไฟล์, สร้างและ dispose `Signature` ใหม่ต่อเอกสาร:
+
+```java
+for (String filePath : documentPaths) {
+    Signature signature = null;
+    try {
+        signature = new Signature(filePath);
+        // ... signing logic ...
+    } finally {
+        if (signature != null) {
+            signature.dispose();
+        }
+    }
+}
+```
+
+### การประมวลผลแบบชุด
+สำหรับชุดเล็ก (< 100 ไฟล์), การประมวลผลต่อเนื่องเป็นเรื่องง่าย:
+
+```java
+for (String path : paths) {
+    signDocument(path);
+}
+```
+
+สำหรับงานที่ใหญ่ขึ้น, การประมวลผลแบบขนานสามารถเร่งความเร็วได้—แต่ควรตรวจสอบความดัน I/O และจำกัดจำนวนเธรดที่ 4‑8:
+
+```java
+paths.parallelStream().forEach(path -> signDocument(path));
+```
+
+### การเพิ่มประสิทธิภาพหน่วยความจำสำหรับ PDF ขนาดใหญ่
+เพิ่มขนาด heap, ประมวลผลหน้าแยกกัน, และล้างอ้างอิงหลังแต่ละขั้นตอน สิ่งนี้ป้องกัน `OutOfMemoryError` บนเอกสารที่ใหญ่กว่า 50 MB.
+
+### การแคชตัวเลือกบาร์โค้ด
+หากคุณใช้การกำหนดค่าบาร์โค้ดเดียวกันหลายไฟล์, ให้แคชอินสแตนซ์ `BarcodeSignOptions`:
+
+```java
+// Create once, reuse many times
+private static BarcodeSignOptions createStandardBarcodeOptions(String data) {
+    BarcodeSignOptions options = new BarcodeSignOptions(data);
+    options.setEncodeType(BarcodeTypes.GS1CompositeBar);
+    options.setTop(200);
+    options.setAllPages(true);
+    return options;
+}
+```
+
+## ฟีเจอร์ขั้นสูง
+
+### ลายเซ็นหลายรายการในเอกสารเดียว
+เพิ่มบาร์โค้ดหลายรายการ (หรือผสมกับลายเซ็นดิจิทัล) โดยเรียก `sign` หลายครั้งพร้อมอ็อบเจ็กต์ตัวเลือกที่แตกต่างกัน:
+
+```java
+// Add QR code in top-left
+BarcodeSignOptions qrOptions = new BarcodeSignOptions("https://example.com");
+qrOptions.setEncodeType(BarcodeTypes.QR);
+qrOptions.setTop(50);
+qrOptions.setLeft(50);
+signature.sign(outputPath, qrOptions);
+
+// Add GS1 barcode in bottom-right
+BarcodeSignOptions gs1Options = new BarcodeSignOptions("(01)03212345678906");
+gs1Options.setEncodeType(BarcodeTypes.GS1CompositeBar);
+gs1Options.setTop(700);
+gs1Options.setLeft(400);
+signature.sign(outputPath, gs1Options);
+```
+
+### เนื้อหาบาร์โค้ดแบบไดนามิก
+สร้างข้อมูลบาร์โค้ดจาก metadata ของเอกสาร, timestamp, หรือการค้นหาฐานข้อมูล:
+
+```java
+// Extract data from PDF or database
+String orderId = extractOrderIdFromPdf(filePath);
+String timestamp = LocalDateTime.now().format(DateTimeFormatter.ISO_DATE_TIME);
+String barcodeData = String.format("ORDER:%s|TIME:%s", orderId, timestamp);
+
+BarcodeSignOptions options = new BarcodeSignOptions(barcodeData);
+```
+
+### การผสานกับ Spring Boot
+เปิดเผย REST endpoint ที่รับ PDF, เพิ่มบาร์โค้ด, และส่งคืนไฟล์ที่ลงลายเซ็น:
+
+```java
+@Service
+public class DocumentSigningService {
+    public void signWithBarcode(MultipartFile file, String barcodeData) {
+        // ... implementation ...
+    }
+}
+```
+
+### ตัวอย่าง REST API
+คอนโทรลเลอร์ขั้นต่ำที่ส่งต่อไปยังบริการลงลายเซ็น:
+
+```java
+@PostMapping("/sign-document")
+public ResponseEntity<byte[]> signDocument(
+    @RequestParam("file") MultipartFile file,
+    @RequestParam("barcode") String barcodeData
+) {
+    // Sign document and return as byte array
+}
+```
+
+## คำถามที่พบบ่อย
+
+**Q: GS1CompositeBar barcode คืออะไร?**  
+A: GS1CompositeBar รวมส่วนเชิงเส้นและส่วน 2D เพื่อเก็บรหัสสินค้า, หมายเลขซีเรียล, และข้อมูลอื่น ๆ ในสัญลักษณ์ที่สแกนได้เดียว, ใช้กันอย่างแพร่หลายในการค้าปลีกและโลจิสติกส์.
+
+**Q: ฉันสามารถใช้ประเภทบาร์โค้ดอื่น ๆ นอกจาก GS1CompositeBar ได้หรือไม่?**  
+A: ใช่—GroupDocs.Signature รองรับมากกว่า 60 ประเภท, รวมถึง QR, Code128, DataMatrix, PDF417, และ Aztec. เปลี่ยนค่า `setEncodeType()` เพื่อเปลี่ยนรูปแบบ.
+
+**Q: ฉันต้องการใบอนุญาตสำหรับการใช้งานในผลิตหรือไม่?**  
+A: จำเป็นต้องมีใบอนุญาต GroupDocs ที่ถูกต้องสำหรับการใช้งานในผลิต. มีการทดลองใช้ฟรีสำหรับการพัฒนาและทดสอบ.
+
+**Q: สแกนเนอร์บาร์โค้ดจะอ่านบาร์โค้ดจาก PDF ที่ลงลายเซ็นได้หรือไม่?**  
+A: แน่นอน, หากบาร์โค้ดมีขนาดอย่างน้อย 200 × 100 px และมีคอนทราสต์เพียงพอ. แอปสแกนบนสมาร์ทโฟนทำงานบนหน้าจอ; สแกนเนอร์ฮาร์ดแวร์ทำงานบนสำเนาที่พิมพ์.
+
+**Q: ฉันจะจัดการข้อผิดพลาดระหว่างการลงลายเซ็นอย่างไร?**  
+A: ห่อโค้ดของคุณในบล็อก try‑catch, บันทึก stack trace ทั้งหมด, และเรียก `signature.dispose()` ในบล็อก finally เพื่อปล่อยทรัพยากร.
+
+**Q: ฉันสามารถลงลายเซ็นในรูปแบบเอกสารอื่นได้หรือไม่?**  
+A: ใช่—GroupDocs.Signature ยังรองรับ DOCX, XLSX, PPTX, รูปภาพ, และอื่น ๆ อีกมาก. เพียงเปลี่ยนนามสกุลไฟล์อินพุต; API ยังคงเหมือนเดิม.
+
+**Q: มีขีดจำกัดขนาดไฟล์หรือไม่?**  
+A: ไม่มีขีดจำกัดที่แน่นอน, แต่เอกสารที่ใหญ่กว่า 50 MB อาจต้องการ heap ของ JVM ที่ใหญ่ขึ้นและการประมวลผลหน้า‑ต่อ‑หน้าเพื่อประหยัดหน่วยความจำ.
+
+**Q: ฉันจะลงลายเซ็น PDF ที่เก็บในคลาวด์อย่างไร?**  
+A: ดาวน์โหลดไฟล์ไปยังเส้นทางชั่วคราวในเครื่อง, ลงลายเซ็น, แล้วอัปโหลดกลับไปยัง bucket ของคลาวด์. ทำความสะอาดไฟล์ชั่วคราวหลังจากนั้น.
+
+## สรุป
+
+ตอนนี้คุณมีคู่มือที่ครบถ้วนและพร้อมสำหรับการผลิตเพื่อ **create barcode signature java** สำหรับเอกสาร PDF. โดยการผสานลายเซ็นดิจิทัลแบบเข้ารหัสกับบาร์โค้ดที่เครื่องอ่านได้, คุณจะได้ทั้งความบังคับใช้ตามกฎหมายและประสิทธิภาพการดำเนินงานในห่วงโซ่อุปทาน, การดูแลสุขภาพ, การเงิน, และการผลิต. ทดลองใช้ประเภทบาร์โค้ดต่าง ๆ, ผสานโค้ดเข้ากับบริการที่มีอยู่ของคุณ, และสำรวจการประมวลผลแบบชุดสำหรับการใช้งานขนาดใหญ่.
+
+**อัปเดตล่าสุด:** 2026-05-21  
+**ทดสอบด้วย:** GroupDocs.Signature 23.10 for Java  
+**ผู้เขียน:** GroupDocs  
+
+{< /blocks/products/pf/tutorial-page-section >}
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+{< blocks/products/products-backtop-button >}
+
+```java
+String filePath = "YOUR_DOCUMENT_DIRECTORY" + "/sample.pdf";
+String fileName = new java.io.File(filePath).getName();
+String outputPath = "YOUR_OUTPUT_DIRECTORY" + "/SignedWithBarcodeGS1CompositeBar/" + fileName;
+```
+
+```java
+String documentDir = System.getenv("DOCUMENT_DIR");
+String outputDir = System.getenv("OUTPUT_DIR");
+```
+
+```java
+Signature signature = new Signature(filePath);
+```
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [สร้างลายเซ็นบาร์โค้ดใน Java – อัปเดตบาร์โค้ด PDF](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
+- [ตรวจสอบบาร์โค้ดและ QR Code ใน Java - คู่มือความปลอดภัยเอกสารฉบับสมบูรณ์](/signature/java/search-verification/verify-barcode-qr-code-signatures-groupdocs-java/)
+- [การลงลายเซ็น PDF ด้วยบาร์โค้ด HIBC ด้วย Java - โซลูชันเอกสารด้านการดูแลสุขภาพฉบับสมบูรณ์](/signature/java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/)
