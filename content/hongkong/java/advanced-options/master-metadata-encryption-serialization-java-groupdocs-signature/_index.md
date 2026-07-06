@@ -1,61 +1,112 @@
 ---
 categories:
 - Document Security
-date: '2026-02-26'
-description: 學習如何使用 GroupDocs.Signature 在 Java 中加密文件元資料。逐步指南，附程式碼範例、安全提示及疑難排解，確保文件簽署的安全。
-keywords: encrypt document metadata java, Java document signature encryption, GroupDocs
-  metadata serialization, secure document metadata Java, custom XOR encryption Java
-lastmod: '2026-02-26'
-linktitle: Encrypt Document Metadata Java
+date: '2026-07-06'
+description: 了解如何在 Java 中使用 GroupDocs.Signature 加密中繼資料。提供一步一步的指南、程式碼片段、安全最佳實踐以及故障排除，確保穩健的文件簽署。
+keywords:
+- how to encrypt metadata
+- Java document signature encryption
+- GroupDocs metadata serialization
+- secure document metadata Java
+lastmod: '2026-07-06'
+linktitle: 加密文件中繼資料（Java）
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-06'
+  description: Learn how to encrypt metadata in Java using GroupDocs.Signature. Step‑by‑step
+    guide, code snippets, security best practices, and troubleshooting for robust
+    document signing.
+  headline: How to Encrypt Metadata in Java with GroupDocs.Signature
+  type: TechArticle
+- description: Learn how to encrypt metadata in Java using GroupDocs.Signature. Step‑by‑step
+    guide, code snippets, security best practices, and troubleshooting for robust
+    document signing.
+  name: How to Encrypt Metadata in Java with GroupDocs.Signature
+  steps:
+  - name: '**Initialize** `Signature` with the source file.'
+    text: '**Initialize** `Signature` with the source file.'
+  - name: '**Create** an `IDataEncryption` implementation (`CustomXOREncryption`).'
+    text: '**Create** an `IDataEncryption` implementation (`CustomXOREncryption`).'
+  - name: '**Configure** `MetadataSignOptions` and attach the encryption instance.'
+    text: '**Configure** `MetadataSignOptions` and attach the encryption instance.'
+  - name: '**Populate** `DocumentSignatureData` with your custom fields.'
+    text: '**Populate** `DocumentSignatureData` with your custom fields.'
+  - name: '**Create** individual `WordProcessingMetadataSignature` objects for each
+      piece of metadata.'
+    text: '**Create** individual `WordProcessingMetadataSignature` objects for each
+      piece of metadata.'
+  - name: '**Add** them to the options collection and call `sign()`.'
+    text: '**Add** them to the options collection and call `sign()`.'
+  - name: '**Swap XOR for AES** (or another vetted algorithm).'
+    text: '**Swap XOR for AES** (or another vetted algorithm).'
+  - name: '**Use a secure key store** – never embed keys in source code.'
+    text: '**Use a secure key store** – never embed keys in source code.'
+  - name: '**Log signing operations** (who, when, which file).'
+    text: '**Log signing operations** (who, when, which file).'
+  - name: '**Validate inputs** (file type, size, metadata format).'
+    text: '**Validate inputs** (file type, size, metadata format).'
+  type: HowTo
+- questions:
+  - answer: Absolutely. Implement any class that fulfills the `IDataEncryption` interface—AES‑GCM
+      is a recommended choice for strong confidentiality and integrity.
+    question: Can I use a different encryption algorithm than XOR?
+  - answer: No. Once your custom AES implementation conforms to `IDataEncryption`,
+      simply replace the `CustomXOREncryption` instance with your new class.
+    question: Do I need to modify the signing code when I switch to AES?
+  - answer: The metadata remains part of the file but appears as unintelligible binary
+      data. Only your decryption routine can interpret it.
+    question: Is encrypted metadata visible in the signed file if I open it with a
+      regular viewer?
+  - answer: Encryption adds minimal overhead (typically a few bytes per metadata field).
+      The impact on overall document size is negligible.
+    question: How does this affect file size?
+  - answer: A full GroupDocs.Signature license is required for commercial deployment.
+      A trial license suffices for development and testing.
+    question: What licensing do I need for production use?
+  type: FAQPage
 tags:
 - java
 - encryption
 - metadata
 - groupdocs
 - document-signing
-title: 使用 GroupDocs.Signature 在 Java 中加密文件元資料
+title: 如何在 Java 中使用 GroupDocs.Signature 加密中繼資料
 type: docs
 url: /zh-hant/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/
 weight: 1
 ---
 
-# 使用 GroupDocs.Signature 加密文件元資料（Java）
+# 如何在 Java 中使用 GroupDocs.Signature 加密元資料
 
-## 簡介
+數位簽章非常好，但隱藏的文件屬性——作者姓名、時間戳記、內部 ID——仍可能以純文字形式洩漏。**如果您需要了解如何加密元資料**，本指南將會示範，使用 GroupDocs.Signature 彈性的 API。完成本教學後，您將能夠：
 
-你是否曾經以數位方式簽署文件，卻在之後發現敏感的元資料（例如作者名稱、時間戳記或內部 ID）以純文字形式存在，任何人都能閱讀？這是一場安全噩夢，隨時可能發生。
-
-在本指南中，**你將學習如何使用 GroupDocs.Signature 透過自訂序列化與加密來 encrypt document metadata java**。我們將示範一個實作範例，你可以將其套用於企業文件管理系統或單一使用情境。完成後，你將能夠：
-
-- 在 Java 文件中序列化自訂的元資料結構  
-- 為元資料欄位實作加密（此處以 XOR 為學習範例）  
-- 使用 GroupDocs.Signature 以加密的元資料簽署文件  
-- 避免常見陷阱並升級至生產等級的安全性  
+- 在 Java 文件中序列化自訂元資料結構。  
+- 套用加密（範例使用 XOR 以示說明，但您會看到如何改用 AES）。  
+- 在簽署文件的同時嵌入加密的元資料。  
+- 將解決方案擴展至生產級的安全性與效能。  
 
 讓我們開始吧。
 
-## 快速答覆
-- **「encrypt document metadata java」是什麼意思？** 這表示在簽署之前，以加密方式保護隱藏的文件屬性（作者、日期、ID）。
-- **需要哪個函式庫？** GroupDocs.Signature for Java（版本 23.12 或更新）。
-- **我需要授權嗎？** 免費試用可用於開發；正式上線則需完整授權。
-- **我可以使用更強的加密嗎？** 可以——將 XOR 範例替換為 AES 或其他業界標準演算法。
-- **此方法是否與格式無關？** GroupDocs.Signature 支援 DOCX、PDF、XLSX 以及其他多種格式。
+## 快速解答
+- **「加密元資料」是什麼意思？** 它在簽署前以加密轉換保護隱藏的文件屬性。  
+- **需要哪個函式庫？** GroupDocs.Signature for Java 23.12 或更新版本。  
+- **需要授權嗎？** 免費試用可用於開發；正式環境必須使用完整授權。  
+- **我可以將 XOR 換成更強的演算法嗎？** 是的——實作 AES‑GCM 或其他已驗證的方案。  
+- **此方法是否與格式無關？** GroupDocs.Signature 支援超過 30 種檔案格式，包括 DOCX、PDF、XLSX、PPTX 等。
 
-## 什麼是 encrypt document metadata java？
+## 什麼是 Java 文件元資料加密？
 
-在 Java 中加密文件元資料，指的是對隨檔案一起傳遞的隱藏屬性進行加密轉換，使只有授權方能讀取。這可防止敏感資訊（例如內部 ID 或審閱者備註）在共享檔案時被洩露。
+在 Java 中加密文件元資料是指取得隨檔案一起傳遞的隱藏屬性，並套用加密轉換，使只有授權方能讀取。這可保護內部 ID、審閱者備註及其他敏感資料免於隨意檢視。
 
-## 為什麼要加密文件元資料？
+## 為何要加密文件元資料？
 
-- **合規** – GDPR、HIPAA 等法規常將元資料視為個人資料。  
-- **完整性** – 防止審計追蹤資訊被竄改。  
-- **機密性** – 隱藏非可見內容的商業關鍵細節。  
+加密元資料可保護可能用於識別個人或揭露內部流程的敏感資訊。透過將這些隱藏屬性轉換為密文，您可符合 GDPR、HIPAA 等法規，維持稽核追蹤的完整性，並防止競爭者提取關鍵業務資料。此安全層與可見的數位簽章相輔相成，確保整份文件保持機密。
 
 ## 前置條件
 
 ### 必要的函式庫與相依性
 - **GroupDocs.Signature for Java**（版本 23.12 或更新）– 核心簽署函式庫。  
-- **Java Development Kit (JDK)** – JDK 8 或以上。  
+- **Java Development Kit (JDK)** – JDK 8 或以上。  
 - Maven 或 Gradle 用於相依性管理。
 
 ### 環境設定
@@ -64,11 +115,11 @@ weight: 1
 ### 知識前提
 - 基本的 Java（類別、方法、物件）。  
 - 了解文件元資料概念。  
-- 熟悉對稱加密的基礎。
+- 熟悉對稱式加密基礎。
 
 ## 設定 GroupDocs.Signature for Java
 
-選擇你的建置工具並加入相依性。
+選擇您的建置工具並加入相依性。
 
 **Maven:**  
 ```xml
@@ -77,33 +128,35 @@ weight: 1
     <artifactId>groupdocs-signature</artifactId>
     <version>23.12</version>
 </dependency>
-```
+```  
 
 **Gradle:**  
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
+```  
 
-或者，你也可以直接從 [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) 下載 JAR 檔，手動加入專案（雖然仍建議使用 Maven/Gradle）。
+或者，您也可以直接從 [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) 下載 JAR 檔，手動加入專案（雖然建議使用 Maven/Gradle）。
 
 ### 取得授權步驟
-- **Free Trial** – 在有限期間內提供完整功能。  
-- **Temporary License** – 延長評估期。  
+- **Free Trial** – 限時提供完整功能。  
+- **Temporary License** – 延長評估。  
 - **Full Purchase** – 正式生產使用。
 
 ### 基本初始化與設定
+`Signature` 類別是 GroupDocs.Signature 的核心物件，用於載入文件、套用簽章，並將結果寫回磁碟。  
+
 ```java
 Signature signature = new Signature("YOUR_DOCUMENT_PATH");
-```
-將 `"YOUR_DOCUMENT_PATH"` 替換為實際的 DOCX、PDF 或其他支援檔案的路徑。
+```  
+將 `"YOUR_DOCUMENT_PATH"` 替換為您實際的 DOCX、PDF 或其他支援檔案路徑。
 
-> **Pro tip:** 將 `Signature` 物件放入 try‑with‑resources 區塊，或明確呼叫 `close()`，以避免記憶體洩漏。
+> **Pro tip:** 將 `Signature` 物件包在 try‑with‑resources 區塊中，或明確呼叫 `close()`，以避免記憶體洩漏。
 
 ## 實作指南
 
 ### 如何在 Java 中建立自訂元資料結構
 
-首先，定義你想要保護的資料。
+自訂的元資料類別定義了您想要保護的資訊結構，以及 GroupDocs.Signature 如何序列化它。透過在欄位上加上 `@FormatAttribute` 註解，您告訴函式庫每個元素的順序與格式，從而實現一致的加密與後續的反序列化。此類別成為簽署文件中嵌入的加密負載的藍圖。
 
 ```java
 class DocumentSignatureData {
@@ -131,14 +184,14 @@ class DocumentSignatureData {
     public final BigDecimal getDataFactor() { return DataFactor; }
     public void setDataFactor(BigDecimal value) { DataFactor = value; }
 }
-```
+```  
 
 - **@FormatAttribute** 告訴 GroupDocs.Signature 如何序列化每個欄位。  
-- 你可以依業務需求為此類別擴充其他屬性。
+- 依需求為此類別擴充任何額外的屬性。
 
 ### 為文件元資料實作自訂加密
 
-以下是一個簡單的 XOR 實作，符合 `IDataEncryption` 介面的規範。
+實作自訂加密例程讓您能控制元資料位元組在儲存前的轉換方式。透過建立實作 `IDataEncryption` 介面的類別，您可以插入任何演算法——示範用的 XOR、正式環境的 AES‑GCM，甚至是自有方案。簽署過程會在元資料序列化時自動呼叫您的加密器。
 
 ```java
 class CustomXOREncryption implements IDataEncryption {
@@ -158,13 +211,19 @@ class CustomXOREncryption implements IDataEncryption {
         return encrypt(data);  
     }
 }
-```
+```  
 
-> **Important:** XOR **不適用**於正式的安全需求。部署前請改用 AES 或其他已驗證的演算法。
+> **Important:** XOR **不適用**於正式環境的安全需求。部署前請改用 AES‑GCM 或其他已驗證的演算法。
 
-### 如何使用加密的元資料簽署文件
+### 如何使用加密元資料簽署文件
 
-現在將所有部份結合起來。
+在簽署文件的同時嵌入加密的元資料，將隱藏資訊與數位簽章綁定，確保真偽與機密性。使用 `MetadataSignOptions`，您可指定要包含的元資料欄位並提供加密實作。`Signature` 物件隨後處理文件、套用簽章，並將加密負載寫入可見簽章元素旁邊。
+
+`MetadataSignOptions` 是告訴 GroupDocs.Signature 要嵌入哪些元資料以及如何加密的設定物件。  
+
+`DocumentSignatureData` 保存將被序列化與加密的實際值。  
+
+`WordProcessingMetadataSignature` 代表單一元資料項目（例如作者、客製 ID），將附加於 Word 處理文件。
 
 ```java
 class SignWithMetadataCustomSerialization {
@@ -203,49 +262,51 @@ class SignWithMetadataCustomSerialization {
         }
     }
 }
-```
+```  
 
 #### 步驟說明
-1. **初始化** `Signature`，指定來源檔案。  
-2. **建立** `IDataEncryption` 的實作（`CustomXOREncryption`）。  
-3. **設定** `MetadataSignOptions`，並附加加密實例。  
-4. **填入** `DocumentSignatureData`，加入自訂欄位。  
-5. 為每個元資料項目 **建立** 個別的 `WordProcessingMetadataSignature` 物件。  
-6. **將它們加入** 選項集合，然後呼叫 `sign()`。
+1. **初始化** 使用來源檔案的 `Signature`。  
+2. **建立** `IDataEncryption` 實作（`CustomXOREncryption`）。  
+3. **設定** `MetadataSignOptions` 並附加加密實例。  
+4. **填充** `DocumentSignatureData` 以您的自訂欄位。  
+5. **建立** 每筆元資料的 `WordProcessingMetadataSignature` 物件。  
+6. **加入** 它們至選項集合，並呼叫 `sign()`。
 
-> **Pro tip:** 使用 `System.getenv("USERNAME")` 可自動取得目前的作業系統使用者，對於審計追蹤相當方便。
+> **Pro tip:** 使用 `System.getenv("USERNAME")` 可自動取得目前的作業系統使用者，對於稽核追蹤相當便利。
 
 ## 何時使用此方法
 
-| 情境 | 為何加密元資料？ |
+當文件包含機密識別碼、內部備註或必須避免未授權讀者取得的法規資料時，加密元資料是理想的做法。情境包括隱藏條款編號的法律合約、含有專有計算的財務報表、帶有患者 ID 的醫療紀錄，以及每個參與者僅能看到自身元資料的多方協議。對於完全公開的文件，此步驟可能不必要。
+
+| 情境 | 為何要加密元資料？ |
 |----------|-----------------------|
 | **法律合約** | 隱藏內部工作流程 ID 與審閱者備註。 |
 | **財務報告** | 保護計算來源與機密數字。 |
-| **醫療紀錄** | 保障患者識別碼與處理備註（HIPAA）。 |
+| **醫療紀錄** | 保護患者識別碼與處理備註（HIPAA）。 |
 | **多方協議** | 確保只有授權方能檢視嵌入的元資料。 |
 
-對於需要完全透明的公開文件，請避免使用此技術。
+對於需要透明的完全公開文件，請避免使用此技術。
 
 ## 安全性考量：超越 XOR 加密
 
-### 為何 XOR 不足以保護
-- 可預測的模式會洩露金鑰。  
-- 無完整性驗證（竄改不易被發現）。  
-- 固定金鑰使統計攻擊成為可能。
+### 為何 XOR 不足
 
-### 生產等級的替代方案
-**AES‑GCM Example (conceptual):**  
+XOR 加密僅是簡單的資料遮蔽，缺乏保護敏感元資料所需的密碼強度。靜態金鑰可能透過頻率分析被破解，且未內建完整性驗證，使負載易受竄改。為符合合規與安全需求，請將 XOR 換成具驗證功能的加密模式，例如 AES‑GCM，提供機密性與防篡改檢測。
+
+### 生產級替代方案
+
+**AES‑GCM 範例（概念性）：**  
 ```java
 // Example pattern (not complete implementation)
 Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
 SecretKeySpec keySpec = new SecretKeySpec(keyBytes, "AES");
 cipher.init(Cipher.ENCRYPT_MODE, keySpec);
 byte[] encrypted = cipher.doFinal(data);
-```
-- 提供機密性 **與** 認證。  
-- 被安全標準廣泛接受。
+```  
+- 同時提供機密性 **與** 認證。  
+- 被 NIST 認可，廣泛應用於企業安全。
 
-**金鑰管理：** 將金鑰儲存在安全保管庫（如 AWS KMS、Azure Key Vault），切勿硬編碼金鑰。
+**金鑰管理：** 將金鑰存放於安全保管庫（AWS KMS、Azure Key Vault），切勿硬編碼金鑰。
 
 > **Action item:** 將 `CustomXOREncryption` 替換為實作 `IDataEncryption` 的 AES 類別。其餘簽署程式碼保持不變。
 
@@ -253,24 +314,24 @@ byte[] encrypted = cipher.doFinal(data);
 
 ### 元資料未加密
 - 確認已呼叫 `options.setDataEncryption(encryption)`。  
-- 確認你的加密類別正確實作 `IDataEncryption`。
+- 確認您的加密類別正確實作 `IDataEncryption`。
 
 ### 文件簽署失敗
 - 檢查檔案是否存在以及寫入權限。  
-- 確認授權仍有效（試用版可能已過期）。
+- 確保授權已啟用（試用版可能已過期）。
 
 ### 簽署後解密失敗
-- 加密與解密必須使用完全相同的金鑰。  
-- 確認讀取的是正確的元資料欄位。
+- 加密與解密操作使用相同的金鑰。  
+- 確認您讀取的是正確的元資料欄位。
 
 ### 大檔案的效能瓶頸
-- 以批次方式處理文件（一次 10‑20 份）。  
+- 批次處理文件（一次 10–20 份）。  
 - 及時釋放 `Signature` 物件。  
-- 分析你的加密演算法；相較於 XOR，AES 只會帶來適度的額外負擔。
+- 分析您的加密演算法；相較於 XOR，AES 只會帶來適度的額外負擔。
 
 ## 疑難排解指南
 
-**Signature initialization fails:**  
+**Signature 初始化失敗：**  
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -278,69 +339,75 @@ try {
     System.err.println("Failed to load document: " + e.getMessage());
     // Verify: file exists, correct format, sufficient permissions
 }
-```
+```  
 
-**Encryption exceptions:**  
+**加密例外：**  
 ```java
 if (data == null || data.length == 0) {
     throw new IllegalArgumentException("Cannot encrypt empty data");
 }
-```
+```  
 
-**Missing metadata after signing:**  
+**簽署後缺少元資料：**  
 ```java
 System.out.println("Signatures added: " + options.getSignatures().size());
 // Should be > 0
-```
+```  
 
 ## 效能考量
 
-- **記憶體：** 釋放 `Signature` 物件；大量作業時使用固定大小的執行緒池。  
-- **速度：** 快取加密實例可減少物件建立的開銷。  
-- **效能基準（約）：**  
-  - 5 MB DOCX 使用 XOR：200‑500 ms  
-  - 同檔案使用 AES‑GCM：約 250‑600 ms  
+- **記憶體：** 釋放 `Signature` 物件；大量工作時使用固定大小的執行緒池。  
+- **速度：** 快取加密實例以減少物件建立開銷。  
+- **基準測試（約）：**  
+  - 5 MB DOCX 使用 XOR：200‑500 毫秒  
+  - 同檔案使用 AES‑GCM：約 250‑600 毫秒  
 
 ## 生產環境最佳實踐
 
 1. **將 XOR 換成 AES**（或其他已驗證的演算法）。  
-2. **使用安全的金鑰儲存**——絕不要在原始碼中嵌入金鑰。  
+2. **使用安全金鑰存儲**——切勿在原始碼中嵌入金鑰。  
 3. **記錄簽署操作**（誰、何時、哪個檔案）。  
 4. **驗證輸入**（檔案類型、大小、元資料格式）。  
 5. **實作完整的錯誤處理**，提供清晰訊息。  
-6. **在上線前於測試環境驗證解密**。  
-7. **保留審計追蹤**以符合合規需求。
+6. **在上線前於測試環境測試解密**。  
+7. **保留稽核追蹤**以符合合規需求。
 
 ## 結論
 
-你現在已掌握使用 GroupDocs.Signature **encrypt document metadata java** 的完整步驟說明：
+您現在已掌握使用 GroupDocs.Signature **加密元資料** 的完整步驟說明：
 
 - 使用 `@FormatAttribute` 定義具型別的元資料類別。  
-- 實作 `IDataEncryption`（此處以 XOR 為示範）。  
-- 在簽署文件時附加加密的元資料。  
-- 為生產等級的安全性升級至 AES。  
+- 實作 `IDataEncryption`（示範使用 XOR）。  
+- 簽署文件時附加加密的元資料。  
+- 升級至 AES 以達到生產級安全性。
 
-接下來的步驟：嘗試不同的加密演算法、整合安全的金鑰管理服務，並擴充元資料模型以符合你的特定業務需求。
+接下來的步驟：嘗試不同的加密演算法、整合安全金鑰管理服務，並擴充元資料模型以符合您的特定業務需求。
 
 ## 常見問答
 
 **Q: 我可以使用除 XOR 之外的其他加密演算法嗎？**  
-A: 當然可以。只要實作符合 `IDataEncryption` 介面的類別即可——建議使用 AES‑GCM 以獲得強大的機密性與完整性。
+A: 當然可以。實作任何符合 `IDataEncryption` 介面的類別——建議使用 AES‑GCM，以獲得強大的機密性與完整性。
 
-**Q: 切換到 AES 時需要修改簽署程式碼嗎？**  
-A: 不需要。只要你的自訂 AES 實作符合 `IDataEncryption`，只需將 `CustomXOREncryption` 實例換成新的類別即可。
+**Q: 切換至 AES 時需要修改簽署程式碼嗎？**  
+A: 不需要。只要您的自訂 AES 實作符合 `IDataEncryption`，即可直接將 `CustomXOREncryption` 實例換成新類別。
 
-**Q: 若使用一般檢視器開啟已簽署的檔案，會看到加密的元資料嗎？**  
-A: 元資料仍然是檔案的一部份，但會以不可讀的二進位資料呈現。只有你的解密程式能解讀它。
+**Q: 若以一般檢視器開啟已簽署的檔案，會看到加密的元資料嗎？**  
+A: 元資料仍然是檔案的一部份，但會顯示為不可讀的二進位資料。只有您的解密程式能解讀它。
 
-**Q: 這會影響檔案大小嗎？**  
-A: 加密只會產生極小的額外開銷（通常每個元資料欄位僅增加幾個位元組），對整體文件大小的影響可忽略不計。
+**Q: 這會對檔案大小產生什麼影響？**  
+A: 加密僅增加極少的開銷（通常每個元資料欄位只有幾個位元組），對整體文件大小的影響可忽略不計。
 
-**Q: 正式上線需要什麼授權？**  
-A: 商業部署必須購買完整的 GroupDocs.Signature 授權。開發與測試階段使用試用授權即可。
+**Q: 生產環境需要什麼授權？**  
+A: 商業部署必須購買完整的 GroupDocs.Signature 授權。開發與測試階段可使用試用授權。
 
 ---
 
-**最後更新：** 2026-02-26  
+**最後更新：** 2026-07-06  
 **測試環境：** GroupDocs.Signature 23.12（Java）  
 **作者：** GroupDocs
+
+## 相關教學
+
+- [在 Java 中向 PDF 添加元資料 - 完整的 GroupDocs 簽章教學](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)
+- [Java 元資料搜尋加密 - 使用 GroupDocs 保護文件資料](/signature/java/search-verification/secure-metadata-search-java-groupdocs-signature/)
+- [在 Java 中加密簽章 – 進階簽署選項與加密技術](/signature/java/advanced-options/)
