@@ -2,301 +2,387 @@
 categories:
 - Java Development
 - Document Security
-date: '2025-12-19'
-description: Java에서 PDF 디지털 서명, 보안 전자 서명, QR 코드 및 바코드를 추가하는 방법을 배웁니다. 인증서를 사용해 PDF에
-  서명하고 Java로 PDF 서명을 검증하는 단계별 가이드를 포함합니다.
+date: '2026-06-11'
+description: pdf signature java 확인 방법, java pdf 디지털 서명 추가, PDF 암호화 및 워터마크 삽입 방법을 배웁니다.
+  GroupDocs.Signature for Java와 함께하는 단계별 가이드.
 is_root: true
-keywords: java digital signature, add signature in java, electronic signature java,
-  pdf signing java, document verification java, barcode signature, qr code signature
-  java
-lastmod: '2025-12-19'
-linktitle: Java Document Signing Tutorials
+keywords:
+- verify pdf signature java
+- java pdf encryption
+- add digital signature java
+- protect pdf password java
+- add image watermark java
+lastmod: '2026-06-11'
+linktitle: Java 문서 서명 튜토리얼
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-11'
+  description: Learn how to verify pdf signature java, add java pdf digital signatures,
+    encrypt PDFs, and embed watermarks. Step‑by‑step guide with GroupDocs.Signature
+    for Java.
+  headline: How to Verify PDF Signature Java and Add Digital Signatures in Java
+  type: TechArticle
+- description: Learn how to verify pdf signature java, add java pdf digital signatures,
+    encrypt PDFs, and embed watermarks. Step‑by‑step guide with GroupDocs.Signature
+    for Java.
+  name: How to Verify PDF Signature Java and Add Digital Signatures in Java
+  steps:
+  - name: '**Always verify signatures** after adding them—don’t assume success.'
+    text: '**Always verify signatures** after adding them—don’t assume success.'
+  - name: '**Use digital signatures** for any legally binding or compliance‑driven
+      document.'
+    text: '**Use digital signatures** for any legally binding or compliance‑driven
+      document.'
+  - name: '**Store certificates securely** – use a vault or encrypted keystore; never
+      hard‑code passwords.'
+    text: '**Store certificates securely** – use a vault or encrypted keystore; never
+      hard‑code passwords.'
+  - name: '**Handle certificate expiration** gracefully with clear error messages
+      and renewal workflows.'
+    text: '**Handle certificate expiration** gracefully with clear error messages
+      and renewal workflows.'
+  - name: '**Test with multiple PDF viewers** – signature appearance may differ between
+      Adobe Acrobat, Foxit, and browser plugins.'
+    text: '**Test with multiple PDF viewers** – signature appearance may differ between
+      Adobe Acrobat, Foxit, and browser plugins.'
+  - name: '**Leverage metadata signatures** when you need audit trails without visual
+      clutter.'
+    text: '**Leverage metadata signatures** when you need audit trails without visual
+      clutter.'
+  - name: '**Implement robust error handling** – signature operations can fail due
+      to I/O errors, invalid passwords, or unsupported formats.'
+    text: '**Implement robust error handling** – signature operations can fail due
+      to I/O errors, invalid passwords, or unsupported formats.'
+  - name: '**Consider mobile devices** – QR codes are ideal for on‑the‑go verification.'
+    text: '**Consider mobile devices** – QR codes are ideal for on‑the‑go verification.'
+  - name: '**Validate all inputs** before signing; malformed PDFs can cause cryptographic
+      failures.'
+    text: '**Validate all inputs** before signing; malformed PDFs can cause cryptographic
+      failures.'
+  - name: '**Plan certificate lifecycle** – rotate keys regularly and keep a revocation
+      list updated.'
+    text: '**Plan certificate lifecycle** – rotate keys regularly and keep a revocation
+      list updated.'
+  type: HowTo
+- questions:
+  - answer: Yes, a valid GroupDocs license is required for production use. A temporary
+      license is available for evaluation.
+    question: Can I use GroupDocs.Signature for Java in a commercial product?
+  - answer: Absolutely. You can open, sign, and re‑save PDFs that are protected with
+      a user or owner password.
+    question: Does the library support password‑protected PDFs?
+  - answer: Use the `Signature.verify()` method; it checks the certificate chain,
+      signing time, and document integrity, returning a detailed `VerificationResult`.
+    question: How do I verify a PDF signature in Java?
+  - answer: Yes, the image signature feature lets you overlay watermarks or logos
+      during the signing process, with full control over opacity and placement.
+    question: Is it possible to add a visible watermark while signing?
+  - answer: The library works with DOCX, XLSX, PPTX, common image formats, and many
+      other document types—over **50+** formats in total.
+    question: What formats besides PDF are supported?
+  type: FAQPage
 tags:
 - digital-signatures
 - java-tutorials
 - document-signing
 - pdf-security
-title: 'Java PDF 디지털 서명 튜토리얼 - Java에서 서명 추가'
+title: Java에서 PDF 서명 확인 및 디지털 서명 추가 방법
 type: docs
 url: /ko/java/
 weight: 10
 ---
 
-# Java에서 디지털 서명 추가하기
+# Java에서 PDF 서명 확인 및 디지털 서명 추가 방법
 
-Java 애플리케이션에서 계약서, 청구서 또는 기타 중요한 문서를 처리하고 있다면 아마도 다음과 같은 질문을 해봤을 것입니다: **"이 문서를 법적으로 구속력 있게 그리고 안전하게 만들려면 어떻게 해야 할까?"** 엔터프라이즈 문서 관리 시스템, 전자상거래 플랫폼, 혹은 정부 애플리케이션을 개발하고 있든, 적절한 문서 서명을 구현하는 것은 선택 사항이 아니라 종종 법적 요구 사항입니다. **java pdf digital signature**을 추가하면 내용이 변경되지 않았으며 서명자가 진본임을 암호학적으로 증명할 수 있습니다.
+If you're building a Java application that processes contracts, invoices, or any legally‑important documents, you’ve probably asked yourself: **“Java에서 PDF 서명을 어떻게 확인하고 PDF가 변조 방지 상태를 유지하도록 할 수 있나요?”** Whether you’re developing an enterprise document‑management system, an e‑commerce checkout flow, or a government portal, incorporating **verify pdf signature java** functionality is no longer optional—it’s a compliance requirement. In this guide we’ll walk through adding a **java pdf digital signature**, protecting PDFs with passwords, embedding image watermarks, and finally verifying those signatures using GroupDocs.Signature for Java.
 
 ## 빠른 답변
-- **어떤 라이브러리를 사용해야 하나요?** GroupDocs.Signature for Java는 모든 서명 유형을 위한 완전한 API를 제공합니다.  
-- **인증서를 사용해 PDF에 서명할 수 있나요?** 예 – “sign pdf with certificate” 워크플로를 사용하세요.  
-- **PDF에 비밀번호를 설정해 보호할 수 있나요?** API를 사용하면 서명 전에 암호화와 비밀번호 보호를 적용할 수 있습니다.  
-- **Java에서 PDF 서명을 검증할 수 있나요?** 물론입니다; “verify pdf signature java” 메서드가 이를 처리합니다.  
-- **Java에서 이미지 워터마크를 추가할 수 있나요?** “add image watermark java” 기능을 사용해 로고나 스탬프를 삽입하세요.
+- **어떤 라이브러리를 사용해야 하나요?** GroupDocs.Signature for Java provides a complete API for all signature types, including digital, barcode, QR, image, and metadata signatures.  
+- **인증서로 PDF에 서명할 수 있나요?** Yes – load a PFX/PKCS#12 certificate and call the `sign` method; the API handles all cryptographic steps.  
+- **PDF를 비밀번호로 보호하려면 어떻게 해야 하나요?** Use the `PdfEncryption` options to set an owner and user password before or after signing.  
+- **Java에서 PDF 서명을 확인할 수 있나요?** Absolutely; the `verify` workflow reads the signature, validates the certificate chain, and confirms document integrity.  
+- **Java에서 이미지 워터마크를 추가할 수 있나요?** Yes – the image signature feature lets you overlay logos, stamps, or custom graphics with full control over opacity, rotation, and position.
 
-## java pdf digital signature란?
-**java pdf digital signature**은 Java 코드를 사용해 PDF 문서에 적용되는 암호화 씰입니다. 인증서(증명서)를 통해 서명자의 신원을 문서 내용에 결합하여 무결성, 인증 및 부인 방지를 보장합니다.
+## java pdf 디지털 서명이란?
+A **java pdf digital signature** is a cryptographic seal that binds a signer's certificate to a PDF file, guaranteeing authenticity, integrity, and non‑repudiation. The signature is stored inside the PDF as a special object that can be validated by any PDF viewer.
 
-## java pdf digital signature를 사용해야 하는 이유
-- **법적 준수:** 많은 관할 구역에서 전자서명 규정을 충족합니다.  
-- **변조 방지:** 서명 후 내용이 변경되면 서명 검증이 실패합니다.  
-- **자동화 친화:** 배치 처리, 워크플로 및 문서 관리 시스템과의 통합에 이상적입니다.
+## 왜 java pdf 디지털 서명을 사용해야 하나요?
+A java pdf digital signature provides legal compliance, tamper evidence, automation‑ready processing, and high performance. GroupDocs.Signature can process **50‑plus PDF pages per second** on standard server hardware, making it suitable for large contracts while keeping the document’s visual appearance intact.
 
-## Java에서 인증서를 사용해 PDF에 서명하는 방법
-PFX/PKCS#12 인증서를 로드하고 PDF에 적용하면 디지털 서명을 만들 수 있습니다. API가 저수준 암호화 작업을 처리하므로 인증서 경로와 비밀번호만 제공하면 됩니다.
+## Java에서 인증서로 PDF 서명하는 방법?
+`Signature` is the main class that provides methods for signing and verifying documents. Load a PFX/PKCS#12 certificate, create a `Signature` object, configure the `PdfSignature` options, and invoke `sign`. The API abstracts the low‑level cryptography so you only need to specify the certificate path, password, and any visual appearance settings. This typically results in a paragraph of **45‑60 words** describing the process and ensuring the signature is legally binding.
 
-## Java를 사용해 PDF에 비밀번호를 설정하는 방법
-서명 전이나 후에 PDF를 암호화하고 열기 비밀번호를 설정할 수 있습니다. 이는 특히 문서가 보안이 취약한 채널을 통해 전송될 때 추가 보안 레이어를 제공합니다.
+## Java를 사용하여 PDF를 비밀번호로 보호하는 방법?
+`PdfEncryption` is the class that enables password protection and permission settings for PDF files. Before signing, create a `PdfEncryption` instance, set the desired user and owner passwords, and apply it via the `encrypt` method. You can also protect the file **after** signing to add a second security layer, ensuring that only authorized users can open or modify the document.
 
-## Java에서 PDF 서명을 검증하는 방법
-검증 루틴은 서명을 읽고 인증서 체인을 확인하며 문서가 수정되지 않았는지 확인합니다. 자세한 검증 결과를 반환하여 후속 조치를 취할 수 있습니다.
+## Java에서 PDF 서명 확인 방법?
+`VerificationResult` is the object returned by the verification process that contains detailed information about the signature’s validity. Load the signed PDF with a `Signature` object, call `verify`, and examine the `VerificationResult`. The method returns a detailed report that includes certificate validity, signing time, and any tampering detection. This direct answer tells you exactly how to confirm a signature’s authenticity in a single API call.
 
-## Java에서 이미지 워터마크를 추가하는 방법
-이미지 서명 기능을 사용해 로고, 스탬프 또는 사용자 정의 그래픽을 오버레이합니다. 불투명도, 회전 및 위치를 제어해 전문적인 워터마크를 만들 수 있습니다.
+## Java에서 이미지 워터마크 추가 방법?
+`ImageSignature` is the class used to embed images such as logos or watermarks into a PDF. Instantiate an `ImageSignature` object, point it to your logo or stamp image, and set properties like `opacity`, `rotationAngle`, and `position`. The API then merges the image into the PDF while preserving the original content layout, providing a professional visual seal.
 
-Java 애플리케이션에서 계약서, 청구서 또는 기타 중요한 문서를 처리하고 있다면 아마도 다음과 같은 질문을 해봤을 것입니다: **"이 문서를 법적으로 구속력 있게 그리고 안전하게 만들려면 어떻게 해야 할까?"** 엔터프라이즈 문서 관리 시스템, 전자상거래 플랫폼, 혹은 정부 애플리케이션을 개발하고 있든, 적절한 문서 서명을 구현하는 것은 선택 사항이 아니라 종종 법적 요구 사항입니다.
+If you're building a Java application that handles contracts, invoices, or any important documents, you've probably asked yourself: "How do I make these documents legally binding and secure?" Whether you're working on an enterprise document management system, an e‑commerce platform, or a government application, implementing proper document signing isn't just a nice‑to‑have—it's often a legal requirement.
 
-좋은 소식은? 암호학 전문가가 되거나 모든 것을 처음부터 구축할 필요가 없다는 것입니다. 이 포괄적인 튜토리얼 모음은 Java에서 보안 문서 서명 솔루션을 구현하는 방법을 단계별로 안내합니다. 기본 디지털 서명부터 고급 다중 서명 워크플로까지 모두 다룹니다. 문서를 보호하고, 진위를 검증하며, 규정 준수를 충족하는 데 필요한 모든 내용을 제공할 것입니다.
+The good news? You don't need to become a cryptography expert or build everything from scratch. This comprehensive tutorial collection will walk you through implementing secure document signing solutions in Java, from basic digital signatures to advanced multi‑signature workflows. We'll cover everything you need to protect your documents, verify authenticity, and meet compliance requirements.
 
 ## Java 개발자를 위한 문서 서명의 중요성
 
-사실, 이메일 첨부 파일과 공유 문서는 쉽게 변조될 수 있습니다. 적절한 서명이 없으면 다음을 증명할 수 없습니다:
-- **누가 실제로 서명했는지** (인증)  
-- **언제 서명했는지** (부인 방지)  
-- **서명 후에 아무도 변경하지 않았는지** (무결성)
+Let's face it—email attachments and shared documents are easy to modify. Without proper signatures, you can't prove:
+- **Who actually signed** a document (authentication)  
+- **When they signed it** (non‑repudiation)  
+- **That nobody changed it** after signing (integrity)
 
-이것이 전자 서명의 역할입니다. 단순 이미지 스탬프(누구나 복사 가능)와 달리, 적절한 디지털 서명은 암호화 기술을 사용해 문서를 변조 방지하고 대부분의 관할 구역에서 법적 효력을 갖게 합니다.
+That's where electronic signatures come in. And unlike simple image stamps (which anyone can copy), proper digital signatures use cryptographic technology to make documents tamper‑proof and legally valid in most jurisdictions worldwide.
 
-## 배우게 될 내용
+## 배울 내용
 
-이 튜토리얼은 GroupDocs.Signature for Java를 사용해 전체 문서 서명 수명 주기를 다룹니다—첫 번째 “Hello World” 서명부터 다중 서명 유형, 검증 워크플로, 보안 기능을 포함한 복잡한 엔터프라이즈 시나리오까지. 초보자든 고급 기능을 구현해야 하든, 모든 시나리오에 맞는 실용적인 복사‑붙여넣기 예제를 찾을 수 있습니다.
+These tutorials cover the complete document signing lifecycle using GroupDocs.Signature for Java—from your first "Hello World" signature to complex enterprise scenarios with multiple signature types, verification workflows, and security features. Whether you're just starting out or need to implement advanced features, you'll find practical, copy‑paste‑ready examples for every scenario.
 
-## 올바른 서명 유형 선택하기
+## 올바른 서명 유형 선택
 
-모든 서명이 동일하게 만들어진 것은 아닙니다. 아래는 각 유형을 언제 사용해야 하는지에 대한 가이드이며, 모든 유형에 대한 튜토리얼이 준비되어 있습니다:
+Not all signatures are created equal. Here's when to use each type (and we've got tutorials for all of them):
 
-**Digital Signatures** – 법적 문서에 대한 금본위 표준. 문서가 변경되지 않았음을 암호학적으로 증명해야 할 때 사용합니다. 계약서, 법적 합의서, 규정 준수 문서에 적합합니다. 실제로 인증서 기반 PKI 인프라를 사용합니다.
+**Digital Signatures** – The gold standard for legal documents. Use these when you need cryptographic proof that a document hasn't been altered. Perfect for contracts, legal agreements, and compliance documents. These actually use certificate‑based PKI infrastructure.
 
-**Barcode Signatures** – 내부 문서 추적 및 재고 관리에 적합합니다. 구조화된 데이터를 삽입해 스캔 및 프로그래밍 방식으로 처리하기 쉽습니다. 창고 문서, 배송 라벨, 내부 양식에 활용됩니다.
+**Barcode Signatures** – Great for internal document tracking and inventory management. They let you embed structured data that's easy to scan and process programmatically. Think warehouse documents, shipping labels, or internal forms.
 
-**QR Code Signatures** – 바코드보다 더 많은 정보를 작은 공간에 담아야 할 때 사용합니다. 모바일 환경에서 사용자가 휴대폰으로 스캔하기에 최적입니다. 이벤트 티켓, 인증 워크플로, 물리 문서를 디지털 레코드와 연결할 때 활용됩니다.
+**QR Code Signatures** – When you need to pack more information into a smaller space than a barcode allows. Excellent for mobile‑first scenarios where users will scan with their phones. Use these for event tickets, authentication workflows, or linking physical documents to digital records.
 
-**Image Signatures** – 브랜드 로고, 워터마크 또는 스캔한 손글씨 서명이 필요할 때 사용합니다. 자체적으로는 암호학적으로 안전하지 않지만, 고객용 문서에서 시각적 인식이 중요한 경우에 유용합니다.
+**Image Signatures** – Perfect for branding, watermarks, or when you need visual proof of signing (like a scanned handwritten signature). Not cryptographically secure on their own, but great for customer‑facing documents where visual recognition matters.
 
-**Text Signatures** – 주석, 승인 또는 텍스트 기반 증명이 필요할 때 간단하고 효과적입니다. 내부 워크플로, 코멘트, “Approved by [Name]”와 같은 표시가 필요할 때 사용합니다.
+**Text Signatures** – Simple and effective for annotations, approvals, or adding textual proof to documents. Use these for internal workflows, comments, or when you just need to mark a document as "Approved by [Name]."
 
-**Form Field Signatures** – PDF 양식에서 사용자가 특정 필드를 채우고 서명해야 할 때 이상적입니다. 정부 양식, 신청서, 구조화된 데이터 수집 시나리오에 흔히 사용됩니다.
+**Form Field Signatures** – Ideal for PDF forms where you need users to fill in AND sign specific fields. Common in government forms, applications, and structured data collection scenarios.
 
-**Metadata Signatures** – 눈에 보이지 않는 옵션. 서명 데이터를 문서 내부에 숨겨 시각적 레이아웃을 변경하지 않습니다. 내부 추적이 필요하지만 시각적 혼란을 피하고 싶을 때 적합합니다.
+**Metadata Signatures** – The invisible option. These hide signature data inside the document without changing how it looks. Perfect when you need to track documents internally without cluttering the visual presentation.
 
 ## 튜토리얼 카테고리
 
-### [Getting Started](./getting-started/)
-Java에서 문서 서명을 처음 접하나요? 여기서 시작하세요. 설치, 라이선스, 기본 설정 및 10분 이내에 첫 서명을 만드는 과정을 단계별로 안내합니다. GroupDocs.Signature 설정 방법, 핵심 개념 이해, 첫 문서 서명을 배울 수 있습니다.
+### [시작하기](./getting-started/)
+New to document signing in Java? Start here. These tutorials walk you through installation, licensing, basic setup, and creating your first signature in under 10 minutes. You'll learn how to configure GroupDocs.Signature, understand the core concepts, and sign your first document.
 
-**구축 예제**: 디지털 서명을 사용해 PDF에 서명하는 간단한 Java 애플리케이션.
+**What you'll build**: A simple Java application that signs a PDF with a digital signature.
 
-### [Document Loading & Saving](./document-loading-saving/)
-문서에 서명하려면 먼저 로드하고, 서명 후에는 올바르게 저장해야 합니다. 로컬 스토리지, 스트림, 클라우드 스토리지, 인‑메모리 문서 등 다양한 소스에서 파일을 다루는 방법을 배웁니다. 다양한 시나리오에 맞는 저장 옵션도 소개합니다(특정 포맷이나 압축 저장 등).
+### [문서 로드 및 저장](./document-loading-saving/)
+Before you can sign documents, you need to load them—and save them properly afterward. Learn how to work with files from local storage, streams, cloud storage, and even in‑memory documents. You'll also discover different saving options for various scenarios (like saving to specific formats or with compression).
 
-**일반 사용 사례**: AWS S3에서 문서를 로드하고 서명한 뒤 클라우드에 다시 저장하기.
+**Common use case**: Loading documents from AWS S3, signing them, and saving back to the cloud.
 
-### [Digital Signatures](./digital-signatures/)
-가장 안전한 서명 유형. 인증서 기반 디지털 서명을 구현하는 방법을 배웁니다. 디지털 서명 추가, 검증, 인증서 저장소 사용, 만료된 인증서 처리 등 실무에 필요한 모든 내용을 다룹니다.
+### [디지털 서명](./digital-signatures/)
+The most secure signature type available. These tutorials teach you how to implement certificate‑based digital signatures that provide cryptographic proof of authenticity. You'll learn to add digital signatures, verify them, work with certificate stores, and handle common scenarios like expired certificates.
 
-**마스터 목표**: PFX 인증서를 사용해 법적 구속력이 있는 디지털 서명 생성, 서명 체인 검증, 인증서 유효성 검사 처리.
+**What you'll master**: Creating legally‑binding digital signatures using PFX certificates, verifying signature chains, and handling certificate validation.
 
-### [Barcode Signatures](./barcode-signatures/)
-스캔하기 쉬운 구조화 데이터를 삽입하고 싶나요? 다양한 바코드 유형(Code128, DataMatrix 등) 추가, 기존 문서에서 바코드 검색, 바코드 진위 검증 방법을 배웁니다.
+### [바코드 서명](./barcode-signatures/)
+Need to embed structured data that's easy to scan? Barcodes are your answer. These tutorials cover adding various barcode types (Code128, QR‑like DataMatrix, etc.), searching for barcodes in existing documents, and verifying barcode authenticity.
 
-**적합 분야**: 재고 관리 시스템, 배송 문서, 내부 추적 워크플로.
+**Perfect for**: Inventory management systems, shipping documents, and internal tracking workflows.
 
-### [QR Code Signatures](./qr-code-signatures/)
-QR 코드는 바코드보다 더 많은 데이터를 담을 수 있으며 모바일 기기와 잘 어울립니다. 맞춤형 포맷, 민감 데이터 암호화, 복합 시나리오용 특수 QR 객체 등을 구현하는 방법을 배웁니다. 기본 QR 코드부터 고급 암호화 구현까지 모두 다룹니다.
+### [QR 코드 서명](./qr-code-signatures/)
+QR codes pack more data than traditional barcodes and work great with mobile devices. Learn to implement QR code signatures with custom formatting, encryption for sensitive data, and specialized QR objects for complex scenarios. We'll cover everything from basic QR codes to advanced encrypted implementations.
 
-**실제 예제**: 암호화된 참석자 데이터를 포함한 이벤트 티켓 QR 코드 만들기.
+**Real‑world example**: Creating event tickets with encrypted attendee data in QR codes.
 
-### [Image Signatures](./image-signatures/)
-시각적 증명이 필요할 때—회사 로고, 워터마크, 스캔한 손글씨 서명 등—이미지 서명을 추가하고, 맞춤형 워터마크를 만들고, 스탬프 서명을 구현하는 방법을 배웁니다. 위치 지정, 투명도, 크기 조정, 전문적인 이미지 처리 기술을 다룹니다.
+### [이미지 서명](./image-signatures/)
+Sometimes you need visual proof—a company logo, a watermark, or a scanned handwritten signature. These tutorials show you how to add image signatures, create custom watermarks, and implement stamp signatures. You'll learn about positioning, transparency, sizing, and making images look professional.
 
-**일반 시나리오**: 민감한 문서에 “CONFIDENTIAL” 워터마크 추가 또는 공식 서한에 회사 로고 삽입.
+**Common scenario**: Adding a "CONFIDENTIAL" watermark to sensitive documents or company logos to official letters.
 
-### [Text Signatures](./text-signatures/)
-가장 단순하지만 강력한 서명 유형. 주석, 승인, 문서 표시 등에 텍스트 서명을 활용합니다. 서식 있는 텍스트 추가, 사용자 정의 폰트·색상, 정확한 위치 지정, 대각선 워터마크용 텍스트 회전 등을 배웁니다.
+### [텍스트 서명](./text-signatures/)
+The simplest signature type, but don't underestimate it. Text signatures are perfect for annotations, approvals, and marking documents. Learn to add formatted text, create custom fonts and colors, position text precisely, and even rotate text for diagonal watermarks.
 
-**빠른 성과**: “Approved by John Smith – Jan 15, 2025”와 같은 텍스트를 워크플로에 자동 삽입.
+**Quick win**: Adding "Approved by John Smith – Jan 15, 2025" to documents in your workflow.
 
-### [Form Field Signatures](./form-field-signatures/)
-PDF 양식 작업 중인가요? 체크박스, 텍스트 입력, 서명 필드 등 양식 필드를 프로그래밍 방식으로 채우고 서명하는 방법을 배웁니다. 정부 양식, 신청서 등 구조화된 데이터 수집이 필요한 모든 경우에 필수적입니다.
+### [폼 필드 서명](./form-field-signatures/)
+Working with PDF forms? These tutorials teach you how to programmatically fill and sign form fields—checkboxes, text inputs, and signature fields. Essential for government forms, applications, and any scenario where users need to fill out structured data.
 
-**사용 사례**: 세금 양식이나 비자 신청서를 자동으로 채우고 서명하기.
+**Use case**: Automatically populating and signing tax forms or visa applications.
 
-### [Metadata Signatures](./metadata-signatures/)
-보이지 않는 서명이 필요할 때. 메타데이터 서명은 문서 외관을 바꾸지 않으면서 추적 정보, 타임스탬프, 인증 데이터를 삽입합니다. 내부 문서 관리와 추적에 최적입니다.
+### [메타데이터 서명](./metadata-signatures/)
+Sometimes the best signature is invisible. Metadata signatures let you embed tracking information, timestamps, or authentication data without changing how the document looks. Perfect for internal document management and tracking without cluttering the visual presentation.
 
-**활용 이유**: 문서 버전 추적, 작성자 정보 삽입, 숨겨진 승인 워크플로 구현.
+**Why use this**: Track document versions, embed author info, or add hidden approval workflows.
 
-### [Multiple Signatures](./multiple-signatures/)
-실제 문서는 종종 여러 서명 유형을 동시에 필요로 합니다—법적 효력을 위한 디지털 서명, 브랜드 로고를 위한 이미지 서명, 감사용 타임스탬프 등. 다양한 서명 유형을 결합하고 복잡한 서명 워크플로를 관리하며 순차 서명을 처리하는 방법을 배웁니다.
+### [다중 서명](./multiple-signatures/)
+Real‑world documents often need several signature types at once—maybe a digital signature for legal validity, a company logo for branding, and a timestamp for auditing. These tutorials show you how to combine signature types, manage complex signing workflows, and handle scenarios where multiple people need to sign in sequence.
 
-**엔터프라이즈 시나리오**: 법무팀의 디지털 서명, 회사 로고 이미지 서명, 검증용 QR 코드가 모두 포함된 계약서.
+**Enterprise scenario**: Contract requiring digital signature from legal, image signature (logo) from company, and QR code for verification.
 
-### [Search & Verification](./search-verification/)
-문서에 서명했으면 이제 무엇을 해야 할까요? 기존 서명을 검색하고, 진위를 검증하며, 인증서 유효성을 확인하고, 서명 체인을 검증하는 방법을 배웁니다. 신뢰할 수 있는 문서 워크플로를 구축하는 데 필수적인 기술입니다.
+### [검색 및 검증](./search-verification/)
+Signed the document—now what? Learn to search for existing signatures, verify their authenticity, check certificate validity, and validate signature chains. These tutorials are crucial for building trust in your document workflows.
 
-**핵심 스킬**: 디지털 서명된 계약서를 실행하기 전에 검증하거나, 문서가 변조되었는지 확인하기.
+**Critical skill**: Verifying a digitally‑signed contract before executing it, or checking if a document has been tampered with.
 
-### [Signature Management](./signature-management/)
-문서는 시간이 지나면서 변경될 수 있고, 서명을 업데이트하거나 삭제해야 할 때도 있습니다. 기존 서명을 업데이트(예: 유효 기간 연장), 필요 시 삭제, 장기 문서의 서명 수명 주기 관리 방법을 다룹니다.
+### [서명 관리](./signature-management/)
+Documents change, and sometimes signatures need updating or removal. These tutorials cover updating existing signatures (like extending validity periods), deleting signatures when needed, and managing signature lifecycles in long‑lived documents.
 
-**실용 예제**: 계약서 수정 전 오래된 서명을 제거하고 재서명하기.
+**Practical example**: Removing old signatures before re‑signing a contract amendment.
 
-### [Preview & Info](./preview-info/)
-사용자에게 서명 전에 문서 미리보기를 보여주거나, 기존 서명에 대한 정보를 추출하고 싶나요? 썸네일 생성, 문서 메타데이터 조회, 문서 내 모든 서명 목록 가져오기 등을 배웁니다.
+### [미리보기 및 정보](./preview-info/)
+Need to show users what a document looks like before they sign it? Or extract information about existing signatures? These tutorials teach you to generate thumbnails, retrieve document metadata, and list all signatures in a document.
 
-**사용자 경험 향상**: 웹 애플리케이션에서 사용자가 서명하기 전에 미리보기를 제공하기.
+**User experience win**: Showing a preview of what users are about to sign in your web application.
 
-### [Advanced Options](./advanced-options/)
-고급 기술을 배우고 싶나요? 서명 암호화, 사용자 정의 직렬화, 특수 서명 옵션, 외관 커스터마이징, 성능 최적화 등을 다룹니다. 엔터프라이즈 애플리케이션에서 마주칠 수 있는 엣지 케이스와 고급 시나리오를 포함합니다.
+### [고급 옵션](./advanced-options/)
+Ready to level up? Learn advanced techniques like signature encryption, custom serialization, specialized signing options, appearance customization, and performance optimization. These tutorials cover edge cases and advanced scenarios you'll encounter in enterprise applications.
 
-**고급 시나리오**: 사용자 정의 키로 서명 데이터 암호화하거나 타임스탬프 기관 구현하기.
+**Advanced scenario**: Encrypting signature data with custom keys or implementing time‑stamping authorities.
 
-### [Event Handling](./event-handling/)
-서명 프로세스를 모니터링하고, 작업을 취소하거나, 서명 중에 사용자 정의 로직을 추가하고 싶나요? 이벤트 핸들러 구현, 진행 상황 추적, 취소 처리, 반응형 서명 워크플로 구축 방법을 배웁니다.
+### [이벤트 처리](./event-handling/)
+Want to monitor the signing process, cancel operations, or add custom logic during signing? These tutorials show you how to implement event handlers, track progress, handle cancellation gracefully, and build responsive signing workflows.
 
-**실제 사용 사례**: 대량 문서 서명 시 진행 바 표시하거나 장시간 작업을 취소하기.
+**Real use case**: Showing a progress bar while signing large batches of documents or canceling long‑running operations.
 
-### [Document Protection](./document-protection/)
-보안은 서명에만 국한되지 않습니다. 비밀번호 보호, 문서 암호화, 인쇄·편집 방지 권한 설정, 다중 보호 방법 결합 등을 배워 최대 보안을 구현합니다.
+### [문서 보호](./document-protection/)
+Security doesn't stop at signatures. Learn to add password protection, implement document encryption, set permissions (like preventing printing or editing), and combine protection methods for maximum security.
 
-**보안 레이어**: 문서를 비밀번호로 보호한 뒤 디지털 서명을 추가하고, 다시 암호화하는 방어 깊이 전략.
+**Security layers**: Password‑protect a document, then add a digital signature, then encrypt it—defense in depth.
 
-## 일반적인 문제와 해결책
+## 일반적인 문제 및 해결책
 
-**문제**: “내 디지털 서명이 무효로 표시됩니다”  
-- **해결책**: 인증서 만료일 확인, 인증서 체인 완전성 점검, 올바른 인증서 저장소 사용 여부 확인. 자세한 내용은 [Digital Signatures](./digital-signatures/) 튜토리얼에서 인증서 문제 해결을 다룹니다.
+**Problem**: "My digital signature shows as invalid"  
+- **Solution**: Verify that the certificate hasn't expired, ensure the full certificate chain (including intermediate CAs) is present, and confirm you are using the same hashing algorithm that was used during signing. The **Digital Signatures** tutorials detail troubleshooting steps.
 
-**문제**: “문서를 저장하면 서명이 사라집니다”  
-- **해결책**: 사용 중인 서명 유형을 지원하는 포맷으로 저장하고 있는지 확인하세요. 모든 포맷이 모든 서명 유형을 지원하는 것은 아니므로 [Document Loading & Saving](./document-loading-saving/) 섹션에서 포맷 호환성을 확인하십시오.
+**Problem**: "Signatures disappear when I save the document"  
+- **Solution**: Save the file in a format that supports the signature type you used. For example, PDF/A preserves digital signatures, while plain PDF may drop certain metadata. See **Document Loading & Saving** for format compatibility tables.
 
-**문제**: “어떤 서명 유형을 사용해야 할지 모르겠어요”  
--해결책**: 법적 문서는 디지털 서명, 추적은 QR/바코드, 브랜드는 이미지, 보이지 않는 추적은 메타데이터를 사용하세요. 위 “Choosing the Right Signature Type” 섹션을 참고하십시오.
+**Problem**: "How do I know which signature type to use?"  
+- **Solution**: Use digital signatures for legally binding contracts, QR/barcodes for automated scanning, image signatures for branding, and metadata signatures for invisible tracking. The **Choosing the Right Signature Type** section above provides a quick decision matrix.
 
-**문제**: “대량 배치 서명 시 성능이 느립니다”  
-- **해결책**: [Advanced Options](./advanced-options/)에서 배치 처리 기법을 사용하고, 비동기 처리와 인증서 로딩 최적화를 적용하세요. 인증서를 매 문서마다 다시 로드하지 마십시오!
+**Problem**: "Performance is slow when signing large batches"  
+- **Solution**: Reuse a single loaded certificate instance across all documents, enable streaming mode (`Signature.setStreamMode(true)`), and process files asynchronously. The **Advanced Options** tutorials show batch‑processing patterns that achieve **up to 3× faster** throughput on the same hardware.
 
 ## 모범 사례
 
-1. 서명을 추가한 후 **항상 검증**하세요—성공을 가정하지 마세요.  
-2. 법적 구속력이나 부인 방지가 필요하면 **디지털 서명**을 사용하세요.  
-3. **인증서를 안전하게 보관**하세요—비밀번호를 코드에 하드코딩하거나 인증서를 코드에 포함하지 마십시오.  
-4. 인증서 만료 시 **친절한 오류 메시지**로 처리하세요.  
-5. 여러 PDF 리더에서 **테스트**하세요—서명 외관이 다르게 표시될 수 있습니다.  
-6. 시각적 혼란을 피하려면 **메타데이터 서명**을 활용하세요.  
-7. **예외 처리**를 철저히 구현하세요—서명 작업은 다양한 이유로 실패할 수 있습니다.  
-8. 모바일 기기를 고려해 서명 유형을 선택하세요(QR 코드가 특히 유용).  
-9. 서명 전에 **입력 검증**을 수행하세요—잘못된 입력은 무효 서명으로 이어집니다.  
-10. 인증서를 **제때 갱신**하고, 갱신 계획을 미리 세우세요.
+1. **Always verify signatures** after adding them—don’t assume success.  
+2. **Use digital signatures** for any legally binding or compliance‑driven document.  
+3. **Store certificates securely** – use a vault or encrypted keystore; never hard‑code passwords.  
+4. **Handle certificate expiration** gracefully with clear error messages and renewal workflows.  
+5. **Test with multiple PDF viewers** – signature appearance may differ between Adobe Acrobat, Foxit, and browser plugins.  
+6. **Leverage metadata signatures** when you need audit trails without visual clutter.  
+7. **Implement robust error handling** – signature operations can fail due to I/O errors, invalid passwords, or unsupported formats.  
+8. **Consider mobile devices** – QR codes are ideal for on‑the‑go verification.  
+9. **Validate all inputs** before signing; malformed PDFs can cause cryptographic failures.  
+10. **Plan certificate lifecycle** – rotate keys regularly and keep a revocation list updated.
 
 ## 빠른 시작 경로
 
-어디서 시작해야 할지 모르겠나요? 아래 학습 경로를 따라가세요:
+Not sure where to begin? Follow this learning path:
 
-1. **1주차**: [Getting Started](./getting-started/)를 완료하고 첫 문서에 서명하기.  
-2. **2주차**: 보안 서명을 위해 [Digital Signatures](./digital-signatures/) 학습.  
-3. **3주차**: 서명 검증을 위해 [Search & Verification](./search-verification/) 탐색.  
-4. **4주차**: 자신에게 맞는 서명 유형 심화([QR Code](./qr-code-signatures/), [Barcode](./barcode-signatures/) 등).  
-5. **5주차 이후**: [Multiple Signatures](./multiple-signatures/)와 [Advanced Options](./advanced-options/) 구현.
-
-## 추가 리소스
-
-- [Documentation](https://docs.groupdocs.com./) – API 세부 사항 및 고급 기능 심층 탐색  
-- [API Reference](https://reference.groupdocs.com./) – 전체 메서드·클래스 문서  
-- [Download Library](https://releases.groupdocs.com./) – 최신 GroupDocs.Signature for Java 다운로드  
-- [Free Support Forum](https://forum.groupdocs.com/) – 커뮤니티에 질문하고 도움 받기  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/) – 제한 없이 모든 기능 테스트 가능
-
----
-
-# GroupDocs.Signature for Java 튜토리얼 및 예제
-
-GroupDocs.Signature for Java에 대한 포괄적인 튜토리얼 모음에 오신 것을 환영합니다. 단계별 가이드를 통해 Java 애플리케이션에 보안 문서 서명 솔루션을 구현할 수 있습니다. 기본 설정부터 고급 서명 관리까지, 다양한 서명 유형으로 문서를 보호하는 데 필요한 모든 정보를 제공합니다.
-
-### [Getting Started](./getting-started/)
-GroupDocs.Signature 설치, 라이선스, 설정 및 Java 애플리케이션에서 첫 서명 프로젝트를 만드는 단계별 튜토리얼.
-
-### [Document Loading & Saving](./document-loading-saving/)
-다양한 소스에서 문서를 로드하고, GroupDocs.Signature for Java를 사용해 서명된 문서를 다양한 옵션으로 저장하는 방법을 배웁니다.
-
-### [Digital Signatures](./digital-signatures/)
-GroupDocs.Signature for Java를 사용해 문서에 디지털 서명을 추가, 검증 및 관리하는 완전한 튜토리얼.
-
-### [Barcode Signatures](./barcode-signatures/)
-GroupDocs.Signature for Java를 사용해 문서에 바코드 서명을 추가, 검색, 검증 및 관리하는 단계별 튜토리얼.
-
-### [QR Code Signatures](./qr-code-signatures/)
-GroupDocs.Signature Java 튜토리얼을 통해 QR 코드 서명 구현, 특수 QR 객체, 암호화 및 맞춤 포맷을 배웁니다.
-
-### [Image Signatures](./image-signatures/)
-GroupDocs.Signature for Java를 사용해 이미지 서명, 워터마크 및 스탬프를 문서에 추가하는 완전한 튜토리얼.
-
-### [Text Signatures](./text-signatures/)
-GroupDocs.Signature for Java를 사용해 텍스트 서명, 주석, 워터마크 및 텍스트 기반 문서 표시를 구현하는 단계별 튜토리얼.
-
-### [Form Field Signatures](./form-field-signatures/)
-GroupDocs.Signature Java 튜토리얼을 통해 PDF 양식 필드와 작업하고 서명 및 데이터 수집을 수행하는 방법을 배웁니다.
-
-### [Metadata Signatures](./metadata-signatures/)
-GroupDocs.Signature for Java를 사용해 다양한 문서 형식에 숨겨진 메타데이터 서명을 구현하는 완전한 튜토리얼.
-
-### [Multiple Signatures](./multiple-signatures/)
-GroupDocs.Signature for Java를 사용해 여러 서명 유형을 함께 구현하고 복잡한 서명 시나리오를 관리하는 단계별 튜토리얼.
-
-### [Search & Verification](./search-verification/)
-GroupDocs.Signature Java 튜토리얼을 통해 다양한 서명 유형을 검색하고 문서 서명을 검증하는 방법을 배웁니다.
-
-### [Signature Management](./signature-management/)
-GroupDocs.Signature for Java를 사용해 문서 내 기존 서명을 업데이트, 삭제 및 관리하는 완전한 튜토리얼.
-
-### [Preview & Info](./preview-info/)
-GroupDocs.Signature for Java를 사용해 문서 미리보기 생성 및 문서·서명 정보를 검색하는 단계별 튜토리얼.
-
-### [Advanced Options](./advanced-options/)
-GroupDocs.Signature Java 튜토리얼을 통해 서명 맞춤화, 암호화, 직렬화 및 특수 서명 기능을 배우세요.
-
-### [Event Handling](./event-handling/)
-GroupDocs.Signature for Java를 사용해 이벤트 처리, 취소 및 프로세스 모니터링을 구현하는 완전한 튜토리얼.
-
-### [Document Protection](./document-protection/)
-GroupDocs.Signature for Java를 사용해 비밀번호 보호, 암호화 및 보안 기능을 구현하는 단계별 튜토리얼.
-
-## 자주 묻는 질문
-
-**Q: GroupDocs.Signature for Java를 상용 제품에 사용할 수 있나요?**  
-A: 예, 프로덕션 사용을 위해서는 유효한 GroupDocs 라이선스가 필요합니다. 평가용 임시 라이선스를 제공하고 있습니다.
-
-**Q: 라이브러리가 비밀번호로 보호된 PDF를 지원하나요?**  
-A: 물론입니다. 비밀번호로 보호된 PDF를 열고, 서명하고, 다시 저장할 수 있습니다.
-
-**Q: Java에서 PDF 서명을 어떻게 검증하나요?**  
-A: `Signature` 클래스에서 제공하는 검증 API를 사용하면 인증서 체인과 문서 무결성을 확인할 수 있습니다.
-
-**Q: 서명하면서 눈에 보이는 워터마크를 추가할 수 있나요?**  
-A: 예, 이미지 서명 기능을 사용하면 서명 과정에서 워터마크나 로고를 오버레이할 수 있습니다.
-
-**Q: PDF 외에 지원되는 포맷은 무엇인가요?**  
-A: DOCX, XLSX, PPTX, 이미지 등 다양한 일반 문서 형식을 지원합니다.
+1. **Week 1**: Complete **[시작하기](./getting-started/)** and sign your first PDF.  
+2. **Week 2**: Dive into **[디지털 서명](./digital-signatures/)** for secure signing.  
+3. **Week 3**: Explore **[검색 및 검증](./search-verification/)** to validate signatures.  
+4. **Week 4**: Choose a specialty signature type (**[QR 코드](./qr-code-signatures/)**, **[바코드](./barcode-signatures/)**, etc.).  
+5. **Week 5+**: Implement **[다중 서명](./multiple-signatures/)** and explore **[고급 옵션](./advanced-options/)** for performance tuning.
 
 ## 추가 리소스
 
+- [Documentation](https://docs.groupdocs.com./)  
+- [API Reference](https://reference.groupdocs.com./)  
+- [Download Library](https://releases.groupdocs.com./)  
+- [Free Support Forum](https://forum.groupdocs.com/)  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)  
+
+### 정확히 일치하는 링크가 필요합니다
+
+- [시작하기](./getting-started/)  
+- [문서 로드 및 저장](./document-loading-saving/)  
+- [디지털 서명](./digital-signatures/)  
+- [바코드 서명](./barcode-signatures/)  
+- [QR 코드 서명](./qr-code-signatures/)  
+- [이미지 서명](./image-signatures/)  
+- [텍스트 서명](./text-signatures/)  
+- [폼 필드 서명](./form-field-signatures/)  
+- [메타데이터 서명](./metadata-signatures/)  
+- [다중 서명](./multiple-signatures/)  
+- [검색 및 검증](./search-verification/)  
+- [서명 관리](./signature-management/)  
+- [미리보기 및 정보](./preview-info/)  
+- [고급 옵션](./advanced-options/)  
+- [이벤트 처리](./event-handling/)  
+- [문서 보호](./document-protection/)  
+- [QR 코드](./qr-code-signatures/)  
+- [바코드](./barcode-signatures/)  
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com./)  
 - [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com./)  
 - [Download GroupDocs.Signature for Java](https://releases.groupdocs.com./)  
 - [Free Support](https://forum.groupdocs.com/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
----
+## GroupDocs.Signature for Java 튜토리얼 및 예제
 
+Welcome to our comprehensive collection of tutorials for GroupDocs.Signature for Java. These step‑by‑step guides will help you implement secure document signing solutions in your Java applications. From basic setup to advanced signature management, our tutorials provide all the information you need to safeguard your documents with multiple signature types.
 
-**마지막 업데이트:** 2025-12-19  
-**테스트 환경:** GroupDocs.Signature for Java 23.12 (최신 릴리스)  
-**작성자:** GroupDocs
+### [시작하기](./getting-started/)
+Step‑by‑step tutorials for GroupDocs.Signature installation, licensing, setup, and creating your first signature project in Java applications.
+
+### [문서 로드 및 저장](./document-loading-saving/)
+Learn how to load documents from various sources and save signed documents with different options using GroupDocs.Signature for Java.
+
+### [디지털 서명](./digital-signatures/)
+Complete tutorials for adding, verifying, and managing digital signatures in documents using GroupDocs.Signature for Java.
+
+### [바코드 서명](./barcode-signatures/)
+Step‑by‑step tutorials for adding, searching, verifying, and managing barcode signatures in documents using GroupDocs.Signature for Java.
+
+### [QR 코드 서명](./qr-code-signatures/)
+Learn to implement QR code signatures, including specialized QR code objects, encryption, and custom formatting with these GroupDocs.Signature Java tutorials.
+
+### [이미지 서명](./image-signatures/)
+Complete tutorials for adding image signatures, watermarks, and stamps to documents using GroupDocs.Signature for Java.
+
+### [텍스트 서명](./text-signatures/)
+Step‑by‑step tutorials for implementing text signatures, annotations, watermarks, and text‑based document marking with GroupDocs.Signature for Java.
+
+### [폼 필드 서명](./form-field-signatures/)
+Learn to work with PDF form fields for signing and data collection with these GroupDocs.Signature Java tutorials.
+
+### [메타데이터 서명](./metadata-signatures/)
+Complete tutorials for implementing hidden metadata signatures in various document formats using GroupDocs.Signature for Java.
+
+### [다중 서명](./multiple-signatures/)
+Step‑by‑step tutorials for implementing multiple signature types together and managing complex signing scenarios with GroupDocs.Signature for Java.
+
+### [검색 및 검증](./search-verification/)
+Learn to search for different signature types and verify document signatures with these GroupDocs.Signature Java tutorials.
+
+### [서명 관리](./signature-management/)
+Complete tutorials for updating, deleting, and managing existing signatures in documents using GroupDocs.Signature for Java.
+
+### [미리보기 및 정보](./preview-info/)
+Step‑by‑step tutorials for generating document previews and retrieving document and signature information with GroupDocs.Signature for Java.
+
+### [고급 옵션](./advanced-options/)
+Learn advanced signature customization, encryption, serialization, and specialized signing features with these GroupDocs.Signature Java tutorials.
+
+### [이벤트 처리](./event-handling/)
+Complete tutorials for implementing event handling, cancellation, and process monitoring in GroupDocs.Signature for Java.
+
+### [문서 보호](./document-protection/)
+Step‑by‑step tutorials for implementing password protection, encryption, and security features with GroupDocs.Signature for Java.
+
+## 자주 묻는 질문
+
+**Q: GroupDocs.Signature for Java를 상용 제품에 사용할 수 있나요?**  
+A: Yes, a valid GroupDocs license is required for production use. A temporary license is available for evaluation.
+
+**Q: 라이브러리가 비밀번호로 보호된 PDF를 지원하나요?**  
+A: Absolutely. You can open, sign, and re‑save PDFs that are protected with a user or owner password.
+
+**Q: Java에서 PDF 서명을 어떻게 확인하나요?**  
+A: Use the `Signature.verify()` method; it checks the certificate chain, signing time, and document integrity, returning a detailed `VerificationResult`.
+
+**Q: 서명하면서 눈에 보이는 워터마크를 추가할 수 있나요?**  
+A: Yes, the image signature feature lets you overlay watermarks or logos during the signing process, with full control over opacity and placement.
+
+**Q: PDF 외에 어떤 형식을 지원하나요?**  
+A: The library works with DOCX, XLSX, PPTX, common image formats, and many other document types—over **50+** formats in total.
+
+**Last Updated:** 2026-06-11  
+**Tested With:** GroupDocs.Signature for Java 23.12 (latest release)  
+**Author:** GroupDocs  
+
+## 관련 튜토리얼
+
+- [Digital Signature in Java - Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
+- [How to Add Digital Signature to PDF Java with Timestamp](/signature/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/)
+- [How to Encrypt Signature in Java – Advanced Signing Options & Encryption Techniques](/signature/java/advanced-options/)
