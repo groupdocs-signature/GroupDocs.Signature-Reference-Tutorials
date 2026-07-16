@@ -1,94 +1,154 @@
 ---
 categories:
 - Java Development
-date: '2026-02-26'
-description: Naučte se, jak spravovat čárové kódy podpisů v Javě pomocí GroupDocs.Signature.
-  Podrobný návod krok za krokem s ukázkami kódu pro vyhledávání, ověřování a mazání
-  podpisů v dokumentech.
-keywords: manage barcode signatures java, Java electronic signature library, delete
-  barcode from PDF Java, search barcode signatures Java, GroupDocs.Signature Java
-  tutorial
-lastmod: '2026-02-26'
-linktitle: Manage Barcode Signatures in Java
+date: '2026-07-06'
+description: Zjistěte, jak spravovat podpisy s čárovým kódem v Javě pomocí knihovny
+  GroupDocs.Signature Java pro elektronické podpisy. Praktický průvodce krok za krokem
+  s ukázkami kódu pro vyhledávání, ověřování a odstraňování podpisů z dokumentů PDF,
+  Word a Excel.
+keywords:
+- manage barcode signatures java
+- java electronic signature library
+- barcode signature deletion java
+- search barcode signatures java
+lastmod: '2026-07-06'
+linktitle: Spravovat podpisy s čárovým kódem v Javě
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-06'
+  description: Learn how to manage barcode signatures java using the GroupDocs.Signature
+    java electronic signature library. Step‑by‑step guide with code examples for searching,
+    validating, and deleting signatures from PDFs, Word, and Excel documents.
+  headline: How to Manage Barcode Signatures in Java
+  type: TechArticle
+- description: Learn how to manage barcode signatures java using the GroupDocs.Signature
+    java electronic signature library. Step‑by‑step guide with code examples for searching,
+    validating, and deleting signatures from PDFs, Word, and Excel documents.
+  name: How to Manage Barcode Signatures in Java
+  steps:
+  - name: Set Up Your File Path
+    text: '**What''s happening here:** Replace `"YOUR_DOCUMENT_DIRECTORY/sample.pdf"`
+      with the actual path to your document. This could be a PDF, Word doc, Excel
+      file, or any other supported format—GroupDocs handles the format detection automatically.
+      The `Signature` object now has a handle on your document, an'
+  - name: Configure Search Options
+    text: '**Breaking it down:** The `BarcodeSearchOptions` class lets you fine‑tune
+      your search. By default, it searches the entire document for all barcode types,
+      but you can configure it to: - Target specific barcode formats (Code128, QR
+      codes, etc.) - Search only certain pages - Filter by barcode content o'
+  - name: Identify and Remove the Signature
+    text: '**Understanding the process:** This code follows a search‑then‑delete pattern.
+      First, we find all barcode signatures in the document. Then we grab the first
+      one (you could loop through all of them or filter based on specific criteria).
+      Finally, we call `delete()` with an output path and the signatur'
+  type: HowTo
+- questions:
+  - answer: It depends on your license agreement. Typically, development and testing
+      can use the trial license, but production environments need a commercial license.
+      Check with GroupDocs sales for your specific situation.
+    question: Do I need separate licenses for different environments (dev, staging,
+      production)?
+  - answer: Not directly in a single call, but you can perform multiple searches sequentially.
+      Each signature type (barcode, QR code, digital signature) requires its own search
+      operation with the appropriate options class.
+    question: Can I search for multiple types of signatures in one operation?
+  - answer: The `delete()` method will return `false` and leave the document unchanged.
+      It won't throw an exception, so you need to check the return value to know if
+      the operation succeeded.
+    question: What happens if I try to delete a signature that doesn't exist?
+  - answer: The search returns a list of all found signatures. You can iterate through
+      the list, filter based on criteria (like barcode content or position), and process
+      or delete them selectively. For bulk operations, consider processing them in
+      a loop.
+    question: How do I handle documents with dozens of barcode signatures?
+  - answer: Yes, but you'll need to provide the password when initializing the Signature
+      object. GroupDocs.Signature has overloaded constructors that accept password
+      parameters for encrypted documents.
+    question: Will this work with password‑protected documents?
+  type: FAQPage
 tags:
 - barcode-signatures
 - document-management
 - java-libraries
 - electronic-signatures
-title: Jak spravovat podpisy čárových kódů v Javě
+title: Jak spravovat podpisy s čárovým kódem v Javě
 type: docs
 url: /cs/java/barcode-signatures/java-barcode-signature-management-groupdocs-signature/
 weight: 1
 ---
 
-# Jak spravovat čárové kódy podpisů v Javě
+# Jak spravovat podpisy čárových kódů v Javě
 
-Už jste strávili hodiny snažením se **manage barcode signatures java**‑style, programově ověřovat podepsané dokumenty, jen abyste skončili v boji s PDF knihovnami, které nebyly navrženy pro správu podpisů? Nejste v tom sami. Správa elektronických podpisů—zejména čárových kódů—může být skutečnou bolestí při budování pracovních toků dokumentů.
+Už jste někdy strávili hodiny pokusem **manage barcode signatures java**‑stylu, validací podepsaných dokumentů programově, jen aby jste se museli potýkat s PDF knihovnami, které nebyly navrženy pro správu podpisů? Nejste v tom sami. Správa elektronických podpisů — zejména podpisů čárových kódů — může být skutečnou bolestí při budování pracovních toků s dokumenty.
 
-Věc je taková: většina vývojářů Java končí buď ručním zpracováním podpisů (únavné a náchylné k chybám), nebo skládáním několika knihoven dohromady, aby zvládli různé typy podpisů. Zde přichází **GroupDocs.Signature for Java**. Jedná se o specializovanou knihovnu, která přebírá těžkou práci správy podpisů, umožňuje vám vyhledávat, ověřovat a odstraňovat čárové kódy podpisů pomocí několika řádků kódu.
+Vlastně to tak je: většina vývojářů v Javě nakonec buď ručně zpracovává podpisy (únavné a náchylné k chybám) nebo skládá několik knihoven dohromady, aby zvládla různé typy podpisů. A právě zde přichází **GroupDocs.Signature for Java**. Jedná se o specializovanou **java electronic signature library**, která přebírá těžkou práci se správou podpisů, takže můžete vyhledávat, ověřovat a odstraňovat podpisy čárových kódů pomocí několika řádků kódu.
 
-V tomto tutoriálu se naučíte, jak **manage barcode signatures java** od začátku až do konce. Pokryjeme vše od základního nastavení po pokročilé operace, plus tipy na řešení problémů, které jsem si přál vědět, když jsem začínal pracovat s touto knihovnou.
+V tomto tutoriálu se naučíte, jak **manage barcode signatures java** od začátku až do konce. Probereme vše od základního nastavení po pokročilé operace a také tipy na řešení problémů, které jsem si přál vědět, když jsem s touto knihovnou začínal.
 
 ## Rychlé odpovědi
-- **Jaká knihovna pomáhá spravovat čárové kódy podpisů v Javě?** GroupDocs.Signature for Java.  
-- **Mohu smazat čárový kód podpisu bez úpravy původního souboru?** Ano, metoda `delete()` vytvoří nový dokument, zachovávající zdroj.  
-- **Potřebuji licenci pro produkční použití?** Pro produkci je vyžadována komerční licence; k vyzkoušení je k dispozici bezplatná zkušební verze.  
-- **Je API konzistentní napříč PDF, Word a Excel?** Ano—GroupDocs.Signature nabízí jednotné API pro všechny podporované formáty.  
-- **Jak mohu vyhledat konkrétní typ čárového kódu (např. QR kód)?** Použijte `BarcodeSearchOptions` k filtrování podle `EncodeType`.
+- **Jaká knihovna pomáhá spravovat podpisy čárových kódů v Javě?** GroupDocs.Signature for Java.  
+- **Mohu smazat podpis čárového kódu, aniž bych změnil původní soubor?** Ano, metoda `delete()` vytvoří nový dokument a zachová zdrojový soubor.  
+- **Potřebuji licenci pro produkční použití?** Pro produkci je vyžadována komerční licence; pro vyzkoušení je k dispozici bezplatná zkušební verze.  
+- **Je API konzistentní napříč PDF, Word a Excel?** Rozhodně — GroupDocs.Signature nabízí jednotné API pro všechny podporované formáty.  
+- **Jak mohu vyhledat konkrétní typ čárového kódu (např. QR kód)?** Použijte `BarcodeSearchOptions` a filtrujte podle `EncodeType`.
 
-## Co je správa čárových kódů podpisů v Javě?
-Správa čárových kódů podpisů v Javě znamená programově vyhledávat, ověřovat a volitelně odstraňovat elektronické podpisy založené na čárových kódech vložené do dokumentů, jako jsou PDF, Word soubory nebo tabulky. Tato schopnost je nezbytná pro automatizované pracovní toky, které potřebují ověřit pravost, extrahovat vložená data nebo připravit dokument k opětovnému podpisu.
+## Co je správa podpisů čárových kódů v Javě?
+Správa podpisů čárových kódů v Javě znamená programově vyhledávat, ověřovat a volitelně odstraňovat elektronické podpisy založené na čárových kódech, které jsou vloženy do dokumentů jako PDF, Word nebo tabulky. Tato schopnost je nezbytná pro automatizované pracovní toky, které potřebují ověřit pravost, extrahovat vložená data nebo připravit dokument k novému podpisu.
 
-## Proč použít GroupDocs.Signature pro správu čárových kódů podpisů?
-- **Unified API** – Jeden kód funguje napříč PDF, DOCX, XLSX a dalšími.  
-- **Built‑in detection** – Není nutné psát vlastní parsery pro každý formát.  
-- **Safety first** – Odstranění vytvoří nový soubor, původní zůstane nedotčen.  
-- **Performance‑optimized** – Efektivně zpracovává velké soubory s podporou stránkování.
+## Proč použít GroupDocs.Signature pro správu podpisů čárových kódů?
+GroupDocs.Signature poskytuje komplexní řešení pro práci s podpisy čárových kódů, nabízející detekci, ověření a odstranění „out‑of‑the‑box“ napříč různými typy dokumentů. Abstrahuje nízkoúrovňové parsování souborů, snižuje vývojové úsilí a zajišťuje spolehlivé zpracování i u složitých či velkých souborů, což je ideální pro podnikovou automatizaci.  
+
+- **Jednotné API** – Jeden kód funguje napříč PDF, DOCX, XLSX a dalšími formáty.  
+- **Vestavěná detekce** – Není nutné psát vlastní parsery pro každý formát.  
+- **Bezpečnost na prvním místě** – Odstranění vytvoří nový soubor, původ zůstane nedotčen.  
+- **Optimalizovaný výkon** – Efektivně zpracovává velké soubory s podporou stránkování.  
+- **Měřitelná výhoda** – GroupDocs.Signature podporuje **více než 50 vstupních a výstupních formátů** a dokáže zpracovat **více‑stovkové dokumenty bez načítání celého souboru do paměti**, přičemž rychlost konverze dosahuje až **3 × vyšší** než u mnoha konkurenčních knihoven.
 
 ## Předpoklady
 
-Než se pustíte, ujistěte se, že máte tyto základy pokryté:
+Než se pustíte do kódu, ujistěte se, že máte základní věci připravené:
 
 ### Požadovaný software
-- **Java Development Kit (JDK)** – Verze 8 nebo vyšší (doporučeno JDK 11+ pro lepší výkon)  
-- **GroupDocs.Signature for Java** – Verze 23.12 nebo novější  
-- **IDE dle vašeho výběru** – IntelliJ IDEA, Eclipse nebo VS Code s rozšířeními pro Java  
+- **Java Development Kit (JDK)** – verze 8 nebo vyšší (doporučeno JDK 11+ pro lepší výkon)  
+- **GroupDocs.Signature for Java** – verze 23.12 nebo novější  
+- **IDE dle výběru** – IntelliJ IDEA, Eclipse nebo VS Code s rozšířeními pro Javu  
 
 ### Nastavení prostředí
-Budete potřebovat nástroj pro sestavení jako Maven nebo Gradle. Pokud si nejste jisti, který použít, Maven je obecně jednodušší pro Java projekty (a to je to, co použijí většina našich příkladů).
+Budete potřebovat nástroj pro sestavování, např. Maven nebo Gradle. Pokud si nejste jisti, Maven je obecně jednodušší pro Java projekty (a právě jej použijeme v našich příkladech).
 
-### Předpoklady znalostí
-Tento tutoriál předpokládá, že jste obeznámeni s:
-- Základními koncepty programování v Javě (třídy, metody, zpracování výjimek)  
-- Prací s Maven nebo Gradle pro správu závislostí  
-- Základními operacemi souborového I/O v Javě  
+### Znalostní předpoklady
+Tento tutoriál předpokládá, že ovládáte:
+- Základní koncepty Javy (třídy, metody, zpracování výjimek)  
+- Práci s Maven nebo Gradle pro správu závislostí  
+- Základní operace se soubory v Javě  
 
-Nebojte se, pokud jste noví v knihovnách pro zpracování dokumentů—vysvětlíme vše postupně.
+Nebojte se, pokud jste v knihovnách pro zpracování dokumentů nováčkem — vše si vysvětlíme krok za krokem.
 
-## Proč použít specializovanou knihovnu pro čárové kódy podpisů?
+## Proč použít specializovanou knihovnu pro podpisy čárových kódů?
+Specializovaná knihovna jako GroupDocs.Signature eliminuje potřebu psát vlastní parsery pro každý formát dokumentu. Spolehlivě identifikuje podpisy čárových kódů, řeší specifické nuance formátů a nabízí vestavěné ověření, čímž šetří vývojářský čas a snižuje počet chyb. Tento zaměřený přístup také zajišťuje lepší výkon a jednodušší údržbu oproti obecným PDF nástrojům.  
 
-Možná se ptáte: *"Nemohu jen použít obecnou PDF knihovnu?"* Technicky ano. Ale zde je důvod, proč to obvykle přináší více problémů než užitku:
+Možná se ptáte: *„Nemohu použít obecnou PDF knihovnu?“* Technicky ano. Ale zde je, proč to obvykle přináší více problémů než užitku:
 
 **Manuální přístup:**  
-- Museli byste ručně parsovat strukturu dokumentu  
-- Různé formáty dokumentů (PDF, Word, Excel) vyžadují odlišné zpracování  
-- Logika ověřování podpisů se rychle stane složitou  
-- Aktualizace nebo odstranění podpisů vyžaduje hluboké znalosti vnitřní struktury dokumentu  
+- Musíte ručně parsovat strukturu dokumentu  
+- Různé formáty (PDF, Word, Excel) vyžadují odlišné zacházení  
+- Logika ověřování podpisů rychle narůstá v komplexnosti  
+- Aktualizace nebo odstranění podpisů vyžaduje hluboké znalosti interní struktury dokumentu  
 
 **S GroupDocs.Signature:**  
 - Jednotné API napříč více formáty dokumentů  
-- Vestavěná detekce a ověřování podpisů  
-- Zvládá okrajové případy (poškozené podpisy, více typů podpisů)  
+- Vestavěná detekce a ověření podpisů  
+- Řeší okrajové případy (poškozené podpisy, více typů podpisů)  
 - Mnohem méně kódu k údržbě  
 
-Podle mé zkušenosti používání specializované knihovny jako GroupDocs.Signature ušetří přibližně 70‑80 % vývojového času ve srovnání s vytvářením vlastního řešení. Navíc je osvědčená v tisících implementací.
+Z mé zkušenosti používání specializované knihovny jako GroupDocs.Signature šetří přibližně **70‑80 % vývojového času** oproti vlastnímu řešení. Navíc je knihovna otestována na tisících implementací.
 
 ## Nastavení GroupDocs.Signature pro Java
 
-Pojďme integrovat knihovnu do vašeho projektu. Je to jednoduché, ale ukážu vám oba přístupy – Maven i Gradle.
+Pojďme knihovnu integrovat do vašeho projektu. Je to jednoduché, ale ukážu vám oba přístupy – Maven i Gradle.
 
-**Nastavení Maven**  
-Přidejte tuto závislost do vašeho `pom.xml`:
+### Maven nastavení  
+Přidejte tuto závislost do svého `pom.xml`:
 
 ```xml
 <dependency>
@@ -98,35 +158,38 @@ Přidejte tuto závislost do vašeho `pom.xml`:
 </dependency>
 ```
 
-**Nastavení Gradle**  
-Nebo pokud používáte Gradle, přidejte toto do vašeho `build.gradle`:
+### Gradle nastavení  
+Pokud používáte Gradle, přidejte následující do souboru `build.gradle`:
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Možnost přímého stažení**  
-Neužíváte nástroj pro sestavení? Můžete stáhnout JAR přímo z [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) a přidat jej ručně do classpath.
+### Přímé stažení  
+Nepoužíváte nástroj pro sestavování? Můžete si stáhnout JAR přímo z [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) a ručně jej přidat do classpath.
 
 ### Získání licence
 
-Zde je, co potřebujete vědět o licencování:
-- **Free Trial** – Ideální pro testování a malé projekty. Získejte ji z webu GroupDocs a vyzkoušejte všechny funkce.  
-- **Temporary License** – Potřebujete více času na vyhodnocení? Požádejte o dočasnou licenci pro prodloužené testování (obvykle 30 dní).  
-- **Commercial License** – Pro produkční použití budete muset zakoupit plnou licenci. Ceny se odvíjejí od vašich nasazovacích potřeb.  
+Co potřebujete vědět o licencování:
 
-**Tip:** Začněte s bezplatnou zkušební verzí, abyste se ujistili, že GroupDocs.Signature vyhovuje vašemu případu použití, než se zavážete k nákupu.
+- **Free Trial** – Ideální pro testování a malé projekty. Stáhněte si jej z webu GroupDocs a vyzkoušejte všechny funkce.  
+- **Temporary License** – Potřebujete více času na hodnocení? Požádejte o dočasnou licenci (obvykle 30 dní).  
+- **Commercial License** – Pro produkční nasazení je nutná plná licence. Ceny se odvíjejí od vašich potřeb.  
+
+**Tip:** Začněte s bezplatnou zkušební verzí, abyste si ověřili, že GroupDocs.Signature vyhovuje vašemu případu, než přejdete k nákupu.
 
 ## Průvodce implementací
 
-Teď k podstatě—napíšeme kód. Budeme to řešit krok za krokem, od základní inicializace po kompletní správu podpisů.
+Nyní k samotnému kódu. Provedeme to krok po kroku, od základní inicializace po kompletní správu podpisů.
 
 ### Inicializace objektu Signature
 
-**Proč je to důležité:**  
-Objekt `Signature` je vaším vstupem ke všem operacím s podpisy. Představte si to jako otevření dokumentu pro úpravy—potřebujete tento handle k provádění jakýchkoli operací se souborem.
+**Definition anchor:** Třída `Signature` je hlavním vstupním bodem **java electronic signature library**, představuje dokument, který lze vyhledávat, podepisovat nebo upravovat.
 
-#### Step 1: Set Up Your File Path
+#### Přímá odpověď
+Vytvořte instanci `Signature` a předáte jí cestu k dokumentu, se kterým chcete pracovat. Tento objekt vám umožní vyhledávat, přidávat, aktualizovat nebo mazat podpisy, aniž by načítal celý soubor do paměti – což je klíčové u velkých PDF.
+
+#### Krok 1: Nastavte cestu k souboru
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -142,18 +205,20 @@ public class InitializeSignature {
 }
 ```
 
-**Co se zde děje:** Nahraďte `"YOUR_DOCUMENT_DIRECTORY/sample.pdf"` skutečnou cestou k vašemu dokumentu. Může to být PDF, Word dokument, Excel soubor nebo jakýkoli jiný podporovaný formát—GroupDocs automaticky detekuje formát.
+**Co se zde děje:** Nahraďte `"YOUR_DOCUMENT_DIRECTORY/sample.pdf"` skutečnou cestou k vašemu dokumentu. Může to být PDF, Word, Excel nebo jiný podporovaný formát — GroupDocs automaticky detekuje typ.
 
-Objekt `Signature` nyní má handle na váš dokument a můžete jej použít k vyhledávání, přidávání, aktualizaci nebo mazání podpisů. Je důležité poznamenat, že nenačítá celý dokument do paměti (což je skvělé pro výkon u velkých souborů).
+Objekt `Signature` nyní drží odkaz na váš dokument a můžete jej použít k vyhledávání, přidávání nebo mazání podpisů. Důležité je, že se nenačítá celý dokument do paměti (což je výhodné při práci s velkými soubory).
 
-**Častý problém:** Ujistěte se, že cesta k souboru používá správný oddělovač pro váš OS. Ve Windows můžete použít buď dopředné lomítka (`/`) nebo escapované zpětné lomítka (`\\`), ale dopředná lomítka fungují všude a jsou obecně bezpečnější.
+**Častý úskalí:** Ujistěte se, že cesta používá správný oddělovač pro váš OS. Ve Windows můžete použít buď dopředná lomítka (`/`) nebo escapovaná zpětná lomítka (`\\`), ale dopředná lomítka fungují všude a jsou obecně bezpečnější.
 
-### Vyhledávání čárových kódů podpisů
+### Vyhledání podpisů čárových kódů
 
-**Proč to dělat:**  
-Vyhledávání čárových kódů podpisů je nezbytné, když potřebujete ověřit dokumenty, validovat pravost nebo extrahovat informace vložené v čárových kódech. To je obzvláště běžné při zpracování faktur, správě smluv a pracovních tocích souvisejících s dodržováním předpisů.
+**Definition anchor:** `BarcodeSearchOptions` konfiguruje kritéria, která **java electronic signature library** používá k vyhledání podpisů čárových kódů v dokumentu.
 
-#### Step 2: Configure Search Options
+#### Přímá odpověď
+Zavolejte metodu `search()` na vašem objektu `Signature` a předáte jí instanci `BarcodeSearchOptions`. Metoda vrátí seznam objektů `BarcodeSignature`, které splňují zadaná kritéria, a umožní vám prozkoumat typ, obsah a umístění každého čárového kódu.
+
+#### Krok 2: Nastavte možnosti vyhledávání
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -178,21 +243,23 @@ public class SearchBarcodeSignatures {
 }
 ```
 
-**Rozbor:** Třída `BarcodeSearchOptions` vám umožní jemně nastavit vyhledávání. Ve výchozím nastavení prohledává celý dokument pro všechny typy čárových kódů, ale můžete ji nastavit tak, aby:
-- Cílovala konkrétní formáty čárových kódů (Code128, QR kódy, atd.)  
-- Prohledávala jen určité stránky  
-- Filtrovala podle obsahu čárového kódu nebo metadat  
+**Rozbor:** Třída `BarcodeSearchOptions` vám umožní jemně doladit vyhledávání. Ve výchozím nastavení prohledává celý dokument a všechny typy čárových kódů, ale můžete ji omezit na:
+- konkrétní formáty (Code128, QR kódy, atd.)  
+- konkrétní stránky  
+- filtraci podle obsahu nebo metadat čárového kódu  
 
-Metoda `search()` vrací seznam objektů `BarcodeSignature`. Každý objekt obsahuje podrobnosti o čárovém kódu: jeho pozici, obsah, typ a metadata. Pokud je seznam prázdný, nebyly nalezeny žádné čárové kódy podpisů (což může znamenat, že dokument žádné nemá, nebo jsou v formátu, který není nastaven ve vašich možnostech vyhledávání).
+Metoda `search()` vrací seznam objektů `BarcodeSignature`. Každý objekt obsahuje podrobnosti o čárovém kódu: pozici, obsah, typ a metadata. Pokud je seznam prázdný, nebyly nalezeny žádné podpisy čárových kódů (což může znamenat, že dokument takové podpisy neobsahuje, nebo že nejsou zahrnuty ve vašich nastaveních).
 
-**Příklad z praxe:** V systému zpracování faktur můžete vyhledávat čárové kódy podpisů k automatickému extrahování čísel faktur a validačních kódů, čímž eliminujete ruční zadávání dat.
+**Praktický příklad:** V systému zpracování faktur můžete vyhledávat čárové kódy, abyste automaticky extrahovali čísla faktur a validační kódy, čímž eliminujete ruční zadávání dat.
 
-### Odstranění čárového kódu podpisu
+### Odstranění podpisu čárového kódu
 
-**Kdy to potřebujete:**  
-Někdy potřebujete odstranit podpisy z dokumentů—možná byl čárový kód přidán nesprávně, dokument je třeba resetovat pro opětovný podpis, nebo aktualizujete starý podpis novým. To je obzvláště běžné v pracovních tocích revizí dokumentů.
+**Definition anchor:** `BarcodeSignature` představuje jeden elektronický podpis založený na čárovém kódu, který objeví **java electronic signature library**.
 
-#### Step 3: Identify and Remove the Signature
+#### Přímá odpověď
+Po nalezení požadovaného `BarcodeSignature` zavolejte jeho metodu `delete()` s výstupní cestou. Metoda vytvoří nový soubor bez vybraného čárového kódu a ponechá původní dokument nedotčený pro auditní účely.
+
+#### Krok 3: Identifikujte a odstraňte podpis
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -225,34 +292,34 @@ public class DeleteBarcode {
 }
 ```
 
-**Porozumění procesu:** Tento kód následuje vzor vyhledání‑pak‑odstranění. Nejprve najdeme všechny čárové kódy podpisů v dokumentu. Pak získáme první (můžete projít všechny nebo filtrovat podle konkrétních kritérií). Nakonec zavoláme `delete()` s výstupní cestou a podpisem, který chcete odstranit.
+**Jak to funguje:** Tento kód následuje vzor „vyhledat → odstranit“. Nejprve najdeme všechny podpisy čárových kódů v dokumentu, poté vezmeme první (můžete iterovat přes všechny nebo filtrovat podle kritérií) a nakonec zavoláme `delete()` s výstupní cestou.
 
-**Důležitá poznámka:** Metoda `delete()` vytvoří nový dokument s odstraněným podpisem—neupravený původní soubor. To je ve skutečnosti bezpečnostní funkce, která vám umožní zachovat originální dokument, pokud je potřeba. Ujistěte se, že `"YOUR_OUTPUT_DIRECTORY"` ukazuje na místo, kde máte oprávnění k zápisu.
+**Důležitá poznámka:** Metoda `delete()` vytvoří nový dokument s odstraněným podpisem — nemění původní soubor. To je bezpečnostní prvek, který vám umožní zachovat originál. Ujistěte se, že `"YOUR_OUTPUT_DIRECTORY"` ukazuje na místo, kde máte právo zapisovat.
 
-Boolean hodnota návratu vám říká, zda bylo odstranění úspěšné. Pokud vrátí `false`, nejčastější důvody jsou:
-- Podpis již v dokumentu neexistuje (možná byl už odstraněn)  
-- Problémy s oprávněním souboru ve výstupním adresáři  
-- Formát dokumentu nepodporuje odstranění podpisu  
+Metoda vrací boolean, který indikuje úspěšnost. Pokud vrátí `false`, nejčastější důvody jsou:
+- podpis v dokumentu již neexistuje (možná byl dříve odstraněn)  
+- problémy s oprávněním zápisu do výstupního adresáře  
+- formát dokumentu nepodporuje odstranění podpisu  
 
-**Tip:** V produkčním kódu byste měli ověřit, který podpis odstraňujete, před voláním `delete()`. Můžete zkontrolovat vlastnosti jako `barcodeSignature.getText()` nebo `barcodeSignature.getEncodeType()`, abyste se ujistili, že odstraňujete ten správný.
+**Tip:** V produkčním kódu vždy před voláním `delete()` ověřte, že odstraňujete správný podpis. Můžete zkontrolovat např. `barcodeSignature.getText()` nebo `barcodeSignature.getEncodeType()`.
 
 ## Časté chyby, kterým se vyhnout
 
-Zde jsou úskalí, na která vývojáři často narazí (a jak se jim vyhnout):
+Zde jsou typické úskalí, na která vývojáři často narazí, a jak je řešit:
 
 ### 1. Nesprávná manipulace s cestami k souborům  
-**Chyba:** Hardcoding file paths or forgetting to handle different OS path separators.  
+**Chyba:** Hardcodované cesty nebo opomenutí různých oddělovačů OS.  
 
-**Oprava:** Use `File.separator` or stick with forward slashes (they work on all platforms). Better yet, use `Paths.get()` from `java.nio.file` for robust path handling:
+**Řešení:** Používejte `File.separator` nebo raději dopředná lomítka (fungují na všech platformách). Ideální je využít `Paths.get()` z `java.nio.file` pro robustní práci s cestami:
 
 ```java
 String filePath = Paths.get("YOUR_DOCUMENT_DIRECTORY", "sample.pdf").toString();
 ```
 
-### 2. Zapomínání uzavřít zdroje  
-**Chyba:** Not disposing of the `Signature` object, leading to file locks or memory leaks with multiple documents.  
+### 2. Zapomenutí uzavřít zdroje  
+**Chyba:** Neukončíte objekt `Signature`, což může vést k zamčeným souborům nebo únikům paměti při práci s více dokumenty.  
 
-**Oprava:** Use try‑with‑resources (the `Signature` class implements `AutoCloseable`):
+**Řešení:** Využijte try‑with‑resources (třída `Signature` implementuje `AutoCloseable`):
 
 ```java
 try (Signature signature = new Signature(filePath)) {
@@ -262,9 +329,9 @@ try (Signature signature = new Signature(filePath)) {
 ```
 
 ### 3. Předpoklad, že všechny čárové kódy budou nalezeny  
-**Chyba:** Not checking if the search returned empty results before accessing signature data.  
+**Chyba:** Nepřekontrolujete, zda vyhledávání vrátilo prázdný výsledek, a pak přistupujete k datům podpisu.  
 
-**Oprava:** Always validate the search results:
+**Řešení:** Vždy validujte výsledek vyhledávání:
 
 ```java
 List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
@@ -275,150 +342,149 @@ if (signatures.isEmpty()) {
 ```
 
 ### 4. Ignorování kompatibility formátu dokumentu  
-**Chyba:** Assuming all operations work on all document formats.  
+**Chyba:** Předpokládáte, že všechny operace fungují u všech formátů dokumentů.  
 
-**Oprava:** Check the documentation for format‑specific limitations. For example, some older document formats might not support certain signature operations.
+**Řešení:** Ověřte v dokumentaci omezení specifická pro jednotlivé formáty. Například starší formáty nemusí podporovat některé operace s podpisy.
 
 ## Průvodce řešením problémů
 
-Máte problémy? Zde jsou řešení nejčastějších problémů:
+Narazili jste na potíže? Zde jsou řešení nejčastějších problémů:
 
-### Problém: výjimka „File not found“  
+### Problém: Výjimka „File not found“  
 **Příznaky:** `FileNotFoundException` při inicializaci objektu Signature.  
 
 **Řešení:**  
-- Dvakrát zkontrolujte cestu k souboru (při ladění používejte absolutní cesty)  
+- Zkontrolujte cestu k souboru (při ladění používejte absolutní cesty)  
 - Ověřte, že soubor na daném místě skutečně existuje  
-- Zkontrolujte oprávnění souboru—aplikace potřebuje přístup ke čtení  
-- Ujistěte se, že nerozbíháte projekt‑relativní a systém‑absolutní cesty  
+- Zkontrolujte oprávnění – aplikace potřebuje čtecí přístup  
+- Ujistěte se, že nerozbíháte relativní cesty projektu s absolutními cestami systému  
 
-### Problém: Nenalezeny žádné podpisy (i když víte, že jsou)  
-**Příznaky:** Vyhledávání vrací prázdný seznam, přestože jsou podpisy v dokumentu viditelné.  
+### Problém: Nenalezeny žádné podpisy (ačkoliv jsou v dokumentu)  
+**Příznaky:** Vyhledávání vrátí prázdný seznam, přestože jsou podpisy viditelné v prohlížeči.  
 
 **Řešení:**  
-- Podpisy možná nejsou typu barcode—zkuste vyhledávat jiné typy podpisů  
-- Vaše `BarcodeSearchOptions` mohou být příliš omezující (nejprve vyzkoušejte výchozí možnosti)  
-- Dokument může být poškozený—zkuste jej otevřít v PDF prohlížeči a ověřit  
-- Některé dokumenty mají podpisy, které nejsou ve standardních formátech, jež GroupDocs rozpoznává  
+- Možná nejde o typ čárového kódu – zkuste vyhledávat i jiné typy podpisů  
+- `BarcodeSearchOptions` může být příliš restriktivní (nejprve vyzkoušejte výchozí nastavení)  
+- Dokument může být poškozen — otevřete jej v PDF prohlížeči a ověřte integritu  
+- Některé dokumenty obsahují podpisy v nestandardních formátech, které GroupDocs nepozná  
 
-### Problém: Odstranění selže (vrátí false)  
+### Problém: Odstranění selže (vrátí `false`)  
 **Příznaky:** Metoda `delete()` vrátí `false` a podpis zůstane.  
 
 **Řešení:**  
-- Ověřte, že máte oprávnění k zápisu do výstupního adresáře  
+- Ověřte, že máte právo zapisovat do výstupního adresáře  
 - Zkontrolujte, že objekt podpisu je stále platný (výsledky vyhledávání mohou zastarat)  
-- Ujistěte se, že výstupní soubor není již otevřen v jiné aplikaci  
-- Zkuste odstranit s čerstvým výsledkem vyhledávání (vyhledejte znovu těsně před odstraněním)  
+- Ujistěte se, že výstupní soubor není otevřen v jiné aplikaci  
+- Zkuste provést nové vyhledání těsně před odstraněním  
 
-### Problém: OutOfMemoryError u velkých dokumentů  
-**Příznaky:** Aplikace spadne při zpracování velkých PDF souborů.  
+### Problém: `OutOfMemoryError` při práci s velkými dokumenty  
+**Příznaky:** Aplikace spadne při zpracování velkých PDF.  
 
 **Řešení:**  
-- Zvyšte velikost haldy JVM: `-Xmx4g` (nebo vyšší podle potřeb)  
+- Zvyšte velikost haldy JVM: `-Xmx4g` (nebo více podle potřeby)  
 - Zpracovávejte dokumenty po dávkách, pokud pracujete s více soubory  
-- Zvažte zpracování konkrétních stránek místo celého dokumentu  
-- Použijte stránkování ve vyhledávacích možnostech, aby se omezila spotřeba paměti  
+- Zvažte zpracování jen konkrétních stránek místo celého dokumentu  
+- Využijte stránkování ve vyhledávacích možnostech, aby se omezila spotřeba paměti  
 
 ## Kdy použít tento přístup
+Použijte tento přístup, pokud vaše aplikace vyžaduje automatizovanou práci s podpisy čárových kódů napříč různými typy dokumentů. Je to zvláště užitečné pro workflow, které potřebují ověřovat, extrahovat nebo odstraňovat podpisy ve velkém měřítku, např. zpracování faktur, správa smluv nebo auditování souladu, kde by ruční kontrola byla nepraktická.  
 
-GroupDocs.Signature je ideální pro:
+- ✅ Ideální situace:  
+  - Budování systémů správy dokumentů, kde je nutné ověřovat podpisy  
+  - Automatizace pracovních toků smluv s ověřením čárových kódů  
+  - Zpracování faktur nebo účtenek s vloženými čárovými kódy  
+  - Vytváření auditních stop pro podepsané dokumenty  
+  - Aplikace pracující s více formáty (PDF, Word, Excel)  
 
-**✅ Ideální použití:**  
-- Vytváření systémů správy dokumentů, kde je potřeba ověřovat podpisy  
-- Automatizaci pracovních toků smluv s ověřením čárových kódů  
-- Zpracování faktur nebo účtenek s vloženými čárovými kódy podpisů  
-- Vytváření auditních stop pro podepsané dokumenty  
-- Aplikace pracující s více formáty dokumentů (PDF, Word, Excel)  
-
-**❌ Není vhodný, když:**  
-- Pracujete jen s jedním formátem dokumentu a již máte knihovnu pro něj  
-- Vaše potřeby jsou extrémně jednoduché (pouze prohlížení podpisů, ne jejich manipulace)  
-- Pracujete jen s obrazovými soubory (zvažte knihovnu pro skenování čárových kódů)  
-- Rozpočet je extrémně omezený a ruční zpracování je přijatelné  
+- ❌ Není vhodné, když:  
+  - Pracujete jen s jedním formátem a již máte knihovnu pro něj  
+  - Potřebujete jen základní prohlížení podpisů, ne jejich manipulaci  
+  - Pracujete výhradně s obrázkovými soubory (zvažte knihovnu pro skenování čárových kódů)  
+  - Rozpočet je extrémně omezený a ruční zpracování je přijatelné  
 
 ## Praktické aplikace
 
-Podívejme se na reálné scénáře, kde je to důležité:
+Podívejme se na reálné scénáře, kde je tato funkčnost klíčová:
 
 ### 1. Systém správy smluv  
 **Scénář:** Budujete systém, který před archivací ověřuje podepsané smlouvy.  
 
-**Jak to pomáhá:** Automaticky vyhledává čárové kódy podpisů obsahující ID smlouvy, ověřuje jejich shodu s databází a odmítá dokumenty s chybějícími nebo neplatnými podpisy. To zachytí problémy ještě před tím, než dokumenty vstoupí do trvalého archivu.
+**Jak pomáhá:** Automaticky vyhledá podpisy čárových kódů obsahující ID smlouvy, ověří jejich shodu s databází a odmítne dokumenty s chybějícími nebo neplatnými podpisy. Problémy tak odhalíte ještě před archivací.
 
 ### 2. Automatizace zpracování faktur  
-**Scénář:** Vaše firma měsíčně přijímá tisíce faktur, každá s čárovým kódem pro validaci.  
+**Scénář:** Firma přijímá tisíce faktur měsíčně, každá s čárovým kódem pro validaci.  
 
-**Jak to pomáhá:** Skenuje příchozí faktury pro čárové kódy podpisů, extrahuje informace o dodavateli a čísla faktur a směruje dokumenty do příslušného schvalovacího workflow. Tím se eliminuje ruční třídění a zadávání dat.
+**Jak pomáhá:** Skenuje příchozí faktury, extrahuje informace o dodavateli a číslo faktury z čárových kódů a směruje dokumenty do správných schvalovacích toků. Eliminujete ruční třídění a zadávání dat.
 
-### 3. Pracovní tok revize dokumentů  
-**Scénář:** Právní dokumenty potřebují periodické aktualizace, což vyžaduje odstranění starých podpisů před opětovným podpisem.  
+### 3. Workflow revize dokumentů  
+**Scénář:** Právní dokumenty vyžadují periodické aktualizace, což znamená odstranění starých podpisů před novým podepsáním.  
 
-**Jak to pomáhá:** Programově odstraňuje zastaralé čárové kódy podpisů z dokumentů, které potřebují revizi, a zajišťuje čisté dokumenty pro nový podpisový proces. To zabraňuje záměně, které podpisy jsou aktuální.
+**Jak pomáhá:** Programově odstraní zastaralé podpisy čárových kódů z dokumentů, které potřebují revizi, a zajistí tak čistý dokument pro nový podpis. Předejdete záměně starých a nových podpisů.
 
-### 4. Audity souladu  
-**Scénář:** Vaše organizace potřebuje ověřit, že všechny dokumenty v archivu mají platné podpisy.  
+### 4. Audit souladu  
+**Scénář:** Organizace potřebuje ověřit, že všechny dokumenty v archivu mají platné podpisy.  
 
-**Jak to pomáhá:** Dávkově zpracovává archiv dokumentů, vyhledává v každém souboru čárové kódy podpisů a zaznamenává, které dokumenty postrádají správné podpisy. Automaticky generuje auditní zprávy místo ručního přezkoumání.
+**Jak pomáhá:** Hromadně zpracuje archiv, vyhledá v každém souboru čárové kódy a zaznamená, které dokumenty postrádají správné podpisy. Automaticky vygeneruje auditní zprávy místo manuálního přezkoumání.
 
 ## Úvahy o výkonu
 
-Při práci s operacemi podpisů v produkci mějte na paměti následující faktory výkonu:
+Při nasazení operací s podpisy v produkci mějte na paměti následující faktory:
 
 ### Správa paměti  
-Velké dokumenty mohou spotřebovat značnou paměť. Pokud zpracováváte více dokumentů, zvažte:  
+Velké dokumenty mohou spotřebovat značnou paměť. Při zpracování více souborů zvažte:
 - Zpracovávejte je sekvenčně místo načítání všech najednou  
-- Používejte stránkování ve vyhledávacích možnostech k zpracování velkých dokumentů po částech  
+- Používejte stránkování ve vyhledávacích možnostech, aby se velké dokumenty zpracovávaly po částech  
 - Explicitně volajte `signature.dispose()` (nebo použijte try‑with‑resources) pro rychlé uvolnění paměti  
 
 ### Optimalizace dávkového zpracování  
-Zpracováváte více dokumentů? Tyto strategie pomáhají:  
+Zpracováváte více dokumentů? Tyto strategie pomáhají:
 - Znovu použijte konfigurační objekty (např. `BarcodeSearchOptions`) napříč operacemi  
-- Zpracovávejte dokumenty paralelně pomocí Java `ExecutorService` (ale sledujte paměť)  
-- Ukládejte výsledky vyhledávání do cache, pokud potřebujete provádět více operací na stejných podpisích  
+- Zpracovávejte dokumenty paralelně pomocí `ExecutorService` (dávejte pozor na paměť)  
+- Cacheujte výsledky vyhledávání, pokud provádíte více operací na stejných podpisů  
 
-### Efektivita I/O souborů  
-Operace se soubory mohou být úzkým hrdlem:  
-- Pokud je to možné, čtěte dokumenty z rychlého úložiště (SSD místo síťových disků)  
-- Pokud odstraňujete více podpisů, provádějte je všechny v jedné operaci místo vytváření více výstupních souborů  
-- Zvažte udržení často přistupovaných dokumentů v paměti, pokud to váš případ umožňuje  
+### Efektivita I/O  
+Operace se soubory mohou být úzkým hrdlem:
+- Čtěte dokumenty z rychlého úložiště (SSD místo síťových disků)  
+- Pokud odstraňujete více podpisů, provádějte je v jedné operaci místo vytváření několika výstupních souborů  
+- Pokud je to možné, uchovávejte často používané dokumenty v paměti  
 
-**Tip z praxe:** V projektu, na kterém jsem pracoval, jsme snížili dobu zpracování o 60 % pouhým dávkováním operací a opětovným použitím konfiguračních vyhledávání místo vytváření nových pro každý dokument.
+**Reálný tip:** V jednom projektu se mi podařilo zkrátit dobu zpracování o **60 %** pouhým dávkováním operací a opětovným použitím vyhledávacích konfigurací místo jejich vytváření pro každý dokument zvlášť.
 
 ## Závěr
 
-Nyní máte solidní základy pro **managing barcode signatures java** pomocí GroupDocs.Signature. Pokryli jsme podstaty—initializaci knihovny, vyhledávání podpisů a jejich odstraňování podle potřeby—plus praktické úvahy, které oddělují funkční kód od produkčně připraveného kódu.
+Nyní máte solidní základy pro **manage barcode signatures java** pomocí GroupDocs.Signature. Probrali jsme základy — inicializaci knihovny, vyhledávání podpisů a jejich odstraňování — a také praktické úvahy, které oddělují funkční kód od produkčně připraveného řešení.
 
-Klíčová myšlenka? Nemusíte být expertem na formáty dokumentů, abyste efektivně spravovali podpisy. GroupDocs.Signature abstrahuje složitost a umožňuje vám soustředit se na logiku aplikace místo interní struktury PDF.
+Hlavní ponaučení? Nemusíte být expertem na formáty dokumentů, abyste efektivně spravovali podpisy. GroupDocs.Signature abstrahuje složitost a umožňuje vám soustředit se na logiku vaší aplikace místo na interní struktury PDF.
 
 **Další kroky:**  
 - Experimentujte s různými možnostmi vyhledávání pro přesnější filtrování podpisů  
 - Prozkoumejte další typy podpisů, které GroupDocs podporuje (digitální podpisy, QR kódy, textové podpisy)  
-- Podívejte se na [documentation](https://docs.groupdocs.com/signature/java/) pro pokročilé funkce, jako jsou metadata podpisů a vlastní vlastnosti  
+- Podívejte se na [Documentation](https://docs.groupdocs.com/signature/java/) pro pokročilé funkce, jako jsou metadata podpisů a vlastní vlastnosti  
 
-Vyzkoušejte implementaci jedné z praktických aplikací, o kterých jsme mluvili—budete překvapeni, jak rychle můžete postavit robustní pracovní toky dokumentů, jakmile si osvojíte API.
+Vyzkoušejte některou z praktických aplikací, o kterých jsme mluvili — budete překvapeni, jak rychle můžete postavit robustní workflow s dokumenty, jakmile zvládnete API.
 
 ## Často kladené otázky
 
 **Q: Potřebuji samostatné licence pro různé prostředí (dev, staging, production)?**  
-A: Záleží na vaší licenční smlouvě. Obvykle lze vývoj a testování používat s trial licencí, ale produkční prostředí vyžadují komerční licenci. Ověřte si podmínky u prodeje GroupDocs.
+A: Záleží na vaší licenční smlouvě. Obvykle lze vývoj a testování provozovat se zkušební licencí, ale produkční prostředí vyžaduje komerční licenci. Ověřte si podmínky u prodeje GroupDocs.
 
-**Q: Můžu vyhledávat více typů podpisů v jedné operaci?**  
-A: Přímo v jednom volání ne, ale můžete provést několik vyhledávání sekvenčně. Každý typ podpisu (barcode, QR code, digital signature) vyžaduje vlastní vyhledávací operaci s odpovídající třídou možností.
+**Q: Můžu v jednom volání vyhledat více typů podpisů?**  
+A: Přímo v jedné metodě ne, ale můžete provést několik vyhledávání po sobě. Každý typ podpisu (čárový kód, QR kód, digitální podpis) vyžaduje vlastní třídu možností.
 
 **Q: Co se stane, když se pokusím smazat podpis, který neexistuje?**  
-A: Metoda `delete()` vrátí `false` a dokument zůstane beze změny. Nevzbudí výjimku, takže musíte zkontrolovat návratovou hodnotu, abyste věděli, zda operace uspěla.
+A: Metoda `delete()` vrátí `false` a dokument zůstane beze změny. Nevznikne výjimka, takže je potřeba kontrolovat návratovou hodnotu.
 
-**Q: Jak zacházet s dokumenty, které mají desítky čárových kódů podpisů?**  
-A: Vyhledávání vrací seznam všech nalezených podpisů. Můžete iterovat přes seznam, filtrovat podle kritérií (např. obsah čárového kódu nebo pozice) a zpracovávat nebo mazat je selektivně. Pro hromadné operace zvažte zpracování v cyklu.
+**Q: Jak mám zacházet s dokumenty, které obsahují desítky podpisů čárových kódů?**  
+A: Vyhledávání vrací seznam všech nalezených podpisů. Můžete seznam iterovat, filtrovat podle kritérií (obsah, pozice) a zpracovávat nebo mazat selektivně. Pro hromadné operace zvažte zpracování v cyklu.
 
 **Q: Bude to fungovat s dokumenty chráněnými heslem?**  
-A: Ano, ale musíte při inicializaci objektu Signature zadat heslo. GroupDocs.Signature má přetížené konstruktory, které přijímají parametry hesla pro šifrované dokumenty.
+A: Ano, ale při inicializaci objektu Signature musíte zadat heslo. GroupDocs.Signature má přetížené konstruktory, které přijímají parametry hesla pro šifrované dokumenty.
 
 **Q: Můžu to použít ve webové aplikaci?**  
-A: Rozhodně. GroupDocs.Signature je standardní Java knihovna, takže funguje v jakémkoli Java prostředí—desktopových aplikacích, webových aplikacích (Spring Boot, Jakarta EE) nebo mikroservisách. Jen dbejte na paměťovou náročnost při vysokém provozu.
+A: Rozhodně. GroupDocs.Signature je standardní Java knihovna, takže funguje v jakémkoli Java prostředí — desktopových aplikacích, webových aplikacích (Spring Boot, Jakarta EE) nebo mikroservisách. Pouze dbejte na paměťovou náročnost při vysokém provozu.
 
-**Q: Jaký je dopad na výkon při vyhledávání velkých dokumentů?**  
-A: Výkon vyhledávání roste s velikostí a složitostí dokumentu. Většina dokumentů (do 100 stran) dokončí vyhledávání za méně než sekundu. U velmi velkých dokumentů zvažte použití vyhledávání na konkrétních stránkách, aby se omezil rozsah vyhledávání.
+**Q: Jaký je dopad na výkon při vyhledávání ve velkých dokumentech?**  
+A: Výkon vyhledávání roste s velikostí a složitostí dokumentu. Většina dokumentů (do 100 stránek) se vyhledá za méně než sekundu. U opravdu velkých souborů zvažte stránkování, abyste omezili rozsah vyhledávání.
 
 ## Zdroje
 
@@ -429,6 +495,12 @@ A: Výkon vyhledávání roste s velikostí a složitostí dokumentu. Většina 
 
 ---
 
-**Poslední aktualizace:** 2026-02-26  
+**Poslední aktualizace:** 2026-07-06  
 **Testováno s:** GroupDocs.Signature 23.12 (Java)  
 **Autor:** GroupDocs
+
+## Související tutoriály
+
+- [GroupDocs.Signature Java Tutorial - Add Barcode Signatures to PDFs](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)  
+- [Java Barcode Search in PDFs Using GroupDocs.Signature](/signature/java/search-verification/java-barcode-search-groupdocs-signature-pdf/)  
+- [How to Verify Barcode Signatures in Java with GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)

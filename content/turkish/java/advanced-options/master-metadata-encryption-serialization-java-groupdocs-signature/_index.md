@@ -1,82 +1,127 @@
 ---
 categories:
 - Document Security
-date: '2026-02-26'
-description: GroupDocs.Signature kullanarak belge meta verilerini Java ile şifrelemeyi
-  öğrenin. Adım adım kılavuz, kod örnekleri, güvenlik ipuçları ve güvenli belge imzalama
-  için sorun giderme.
-keywords: encrypt document metadata java, Java document signature encryption, GroupDocs
-  metadata serialization, secure document metadata Java, custom XOR encryption Java
-lastmod: '2026-02-26'
-linktitle: Encrypt Document Metadata Java
+date: '2026-07-06'
+description: Java'da GroupDocs.Signature kullanarak metadata şifrelemeyi öğrenin.
+  Adım adım kılavuz, kod parçacıkları, güvenlik en iyi uygulamaları ve sağlam belge
+  imzalama için sorun giderme.
+keywords:
+- how to encrypt metadata
+- Java document signature encryption
+- GroupDocs metadata serialization
+- secure document metadata Java
+lastmod: '2026-07-06'
+linktitle: Java'da Belge Metadata Şifreleme
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-06'
+  description: Learn how to encrypt metadata in Java using GroupDocs.Signature. Step‑by‑step
+    guide, code snippets, security best practices, and troubleshooting for robust
+    document signing.
+  headline: How to Encrypt Metadata in Java with GroupDocs.Signature
+  type: TechArticle
+- description: Learn how to encrypt metadata in Java using GroupDocs.Signature. Step‑by‑step
+    guide, code snippets, security best practices, and troubleshooting for robust
+    document signing.
+  name: How to Encrypt Metadata in Java with GroupDocs.Signature
+  steps:
+  - name: '**Initialize** `Signature` with the source file.'
+    text: '**Initialize** `Signature` with the source file.'
+  - name: '**Create** an `IDataEncryption` implementation (`CustomXOREncryption`).'
+    text: '**Create** an `IDataEncryption` implementation (`CustomXOREncryption`).'
+  - name: '**Configure** `MetadataSignOptions` and attach the encryption instance.'
+    text: '**Configure** `MetadataSignOptions` and attach the encryption instance.'
+  - name: '**Populate** `DocumentSignatureData` with your custom fields.'
+    text: '**Populate** `DocumentSignatureData` with your custom fields.'
+  - name: '**Create** individual `WordProcessingMetadataSignature` objects for each
+      piece of metadata.'
+    text: '**Create** individual `WordProcessingMetadataSignature` objects for each
+      piece of metadata.'
+  - name: '**Add** them to the options collection and call `sign()`.'
+    text: '**Add** them to the options collection and call `sign()`.'
+  - name: '**Swap XOR for AES** (or another vetted algorithm).'
+    text: '**Swap XOR for AES** (or another vetted algorithm).'
+  - name: '**Use a secure key store** – never embed keys in source code.'
+    text: '**Use a secure key store** – never embed keys in source code.'
+  - name: '**Log signing operations** (who, when, which file).'
+    text: '**Log signing operations** (who, when, which file).'
+  - name: '**Validate inputs** (file type, size, metadata format).'
+    text: '**Validate inputs** (file type, size, metadata format).'
+  type: HowTo
+- questions:
+  - answer: Absolutely. Implement any class that fulfills the `IDataEncryption` interface—AES‑GCM
+      is a recommended choice for strong confidentiality and integrity.
+    question: Can I use a different encryption algorithm than XOR?
+  - answer: No. Once your custom AES implementation conforms to `IDataEncryption`,
+      simply replace the `CustomXOREncryption` instance with your new class.
+    question: Do I need to modify the signing code when I switch to AES?
+  - answer: The metadata remains part of the file but appears as unintelligible binary
+      data. Only your decryption routine can interpret it.
+    question: Is encrypted metadata visible in the signed file if I open it with a
+      regular viewer?
+  - answer: Encryption adds minimal overhead (typically a few bytes per metadata field).
+      The impact on overall document size is negligible.
+    question: How does this affect file size?
+  - answer: A full GroupDocs.Signature license is required for commercial deployment.
+      A trial license suffices for development and testing.
+    question: What licensing do I need for production use?
+  type: FAQPage
 tags:
 - java
 - encryption
 - metadata
 - groupdocs
 - document-signing
-title: GroupDocs.Signature ile Java'da Belge Metaverisini Şifrele
+title: Java'da GroupDocs.Signature ile Metadata Şifreleme
 type: docs
 url: /tr/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/
 weight: 1
 ---
 
- term "GroupDocs.Signature". That's fine.
+# Java'da GroupDocs.Signature ile Meta Verileri Şifreleme
 
-Proceed.
+Dijital imzalar harikadır, ancak gizli belge özellikleri—yazar adları, zaman damgaları, iç kimlikler—hala düz metin olarak sızabilir. **Meta verileri nasıl şifreleyeceğinizi** öğrenmeniz gerekiyorsa, bu kılavuz tam olarak bunu gösterir, GroupDocs.Signature'ın esnek API'sini kullanarak. Eğitimin sonunda şunları yapabilecek:
 
-I'll produce final markdown.
+- Java belgelerinde özel meta veri yapılarını serileştirin.  
+- Şifreleme uygulayın (örnek açıklık için XOR kullanır, ancak AES ile nasıl değiştirileceğini göreceksiniz).  
+- Şifrelenmiş meta veriyi gömerek bir belgeyi imzalayın.  
+- Çözümü üretim‑düzeyinde güvenlik ve performans için ölçeklendirin.
 
-# GroupDocs.Signature ile Java'da Belge Metaverisini Şifreleme
-
-## Giriş
-
-Hiç bir belgeyi dijital olarak imzaladınız ve daha sonra hassas metaverinin (yazar adları, zaman damgaları veya iç kimlikler gibi) düz metin olarak herkesin okuyabileceği bir yerde olduğunu fark ettiniz mi? Bu, gerçekleşmesi beklenen bir güvenlik kabusudur.
-
-Bu rehberde, **GroupDocs.Signature** kullanarak **java’da belge metaverisini şifreleme** yöntemini özel serileştirme ve şifreleme ile öğreneceksiniz. Kurumsal belge yönetim sistemleri veya tek seferlik kullanım senaryoları için uyarlayabileceğiniz pratik bir uygulamadan geçeceğiz. Sonunda şunları yapabilecek durumda olacaksınız:
-
-- Java belgelerinde özel metaveri yapılarını serileştirme  
-- Metaveri alanları için şifreleme uygulama (öğrenme örneği olarak XOR)  
-- GroupDocs.Signature ile şifreli metaveri içeren belgeleri imzalama  
-- Yaygın tuzaklardan kaçınma ve üretim‑düzeyi güvenliğe yükseltme  
-
-Haydi başlayalım.
+Hadi başlayalım.
 
 ## Hızlı Yanıtlar
-- **“encrypt document metadata java” ne anlama geliyor?** Belge gizli özelliklerini (yazar, tarih, kimlikler) imzalamadan önce şifreleyerek korumak anlamına gelir.  
-- **Hangi kütüphane gerekiyor?** Java için GroupDocs.Signature (23.12 veya daha yeni).  
-- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme yeterli; üretim için tam lisans gerekir.  
-- **Daha güçlü şifreleme kullanabilir miyim?** Evet – XOR örneğini AES veya başka bir endüstri‑standardı algoritma ile değiştirin.  
-- **Bu yaklaşım format‑bağımsız mı?** GroupDocs.Signature DOCX, PDF, XLSX ve birçok diğer formatı destekler.
+- **“Meta verileri şifreleme” ne anlama geliyor?** İmzalama öncesinde gizli belge özelliklerini kriptografik bir dönüşümle korur.  
+- **Hangi kütüphaneye ihtiyacım var?** GroupDocs.Signature for Java 23.12 veya daha yeni.  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme çalışır; üretim için tam lisans zorunludur.  
+- **XOR'ı daha güçlü bir algoritma ile değiştirebilir miyim?** Evet—AES‑GCM veya başka bir onaylı şema uygulayın.  
+- **Yaklaşım format‑agnostik mi?** GroupDocs.Signature, DOCX, PDF, XLSX, PPTX ve daha fazlası dahil 30+ dosya formatını destekler.
 
-## “encrypt document metadata java” nedir?
+## Java'da belge meta verilerini şifreleme nedir?
 
-Java’da belge metaverisini şifrelemek, bir dosyayla birlikte gelen gizli özellikleri alıp yalnızca yetkili tarafların okuyabileceği bir kriptografik dönüşüm uygulamak demektir. Bu, iç kimlikler veya inceleme notları gibi hassas bilgilerin dosya paylaşıldığında ortaya çıkmasını engeller.
+Java'da belge meta verilerini şifrelemek, bir dosyayla birlikte gelen gizli özellikleri alıp, yalnızca yetkili tarafların okuyabileceği bir kriptografik dönüşüm uygulamak anlamına gelir. Bu, iç kimlikleri, inceleme notlarını ve diğer hassas verileri rastgele incelemeden korur.
 
-## Neden belge metaverisini şifrelemelisiniz?
+## Neden belge meta verilerini şifrelemek?
 
-- **Uyumluluk** – GDPR, HIPAA ve diğer düzenlemeler metaveriyi kişisel veri olarak kabul eder.  
-- **Bütünlük** – Denetim‑izleme bilgilerinin değiştirilmesini önler.  
-- **Gizlilik** – Görünür içeriğin bir parçası olmayan iş‑kritik detayları gizler.  
+Meta verileri şifrelemek, bireyleri tanımlamak veya iç süreçleri ortaya çıkarmak için kullanılabilecek hassas bilgileri korur. Bu gizli özellikleri şifreli metne dönüştürerek GDPR ve HIPAA gibi düzenlemelere uyum sağlarsınız, denetim izlerinin bütünlüğünü korur ve rakiplerin iş‑kritik verileri çıkarmasını engellersiniz. Bu güvenlik katmanı, görünür dijital imzayı tamamlar ve tüm belgenin gizli kalmasını sağlar.
 
 ## Önkoşullar
 
 ### Gerekli Kütüphaneler ve Bağımlılıklar
-- **GroupDocs.Signature for Java** (versiyon 23.12 veya üzeri) – temel imzalama kütüphanesi.  
-- **Java Development Kit (JDK)** – JDK 8 veya üzeri.  
+- **GroupDocs.Signature for Java** (version 23.12 or later) – temel imzalama kütüphanesi.  
+- **Java Development Kit (JDK)** – JDK 8 ve üzeri.  
 - Bağımlılık yönetimi için Maven veya Gradle.
 
 ### Ortam Kurulumu
-Maven/Gradle projesi olan bir Java IDE’si (IntelliJ IDEA, Eclipse veya VS Code) önerilir.
+Maven/Gradle projesi içeren bir Java IDE'si (IntelliJ IDEA, Eclipse veya VS Code) önerilir.
 
-### Bilgi Gereksinimleri
+### Bilgi Önkoşulları
 - Temel Java (sınıflar, metodlar, nesneler).  
-- Belge metaverisi kavramları hakkında anlayış.  
+- Belge meta verileri kavramının anlaşılması.  
 - Simetrik şifreleme temellerine aşinalık.
 
 ## GroupDocs.Signature for Java Kurulumu
 
-Kullandığınız yapı aracını seçin ve bağımlılığı ekleyin.
+Derleme aracınızı seçin ve bağımlılığı ekleyin.
 
 **Maven:**  
 ```xml
@@ -85,33 +130,35 @@ Kullandığınız yapı aracını seçin ve bağımlılığı ekleyin.
     <artifactId>groupdocs-signature</artifactId>
     <version>23.12</version>
 </dependency>
-```
+```  
 
 **Gradle:**  
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
+```  
 
-Alternatif olarak, bağımlılık yönetimi yerine [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) adresinden JAR dosyasını indirip projenize manuel olarak ekleyebilirsiniz (Maven/Gradle tercih edilir).
+Alternatif olarak, JAR dosyasını doğrudan [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) adresinden alabilir ve projenize manuel olarak ekleyebilirsiniz (Maven/Gradle tercih edilir).
 
 ### Lisans Edinme Adımları
-- **Ücretsiz Deneme** – sınırlı bir süre için tam özellikler.  
-- **Geçici Lisans** – uzatılmış değerlendirme.  
-- **Tam Satın Alma** – üretim kullanımı.
+- **Free Trial** – sınırlı bir süre için tam özellikler.  
+- **Temporary License** – genişletilmiş değerlendirme.  
+- **Full Purchase** – üretim kullanımı.
 
-### Temel Başlatma ve Ayar
+### Temel Başlatma ve Kurulum
+`Signature` sınıfı, bir belgeyi yükleyen, imzalar uygulayan ve sonucu diske geri yazan GroupDocs.Signature'ın temel nesnesidir.
+
 ```java
 Signature signature = new Signature("YOUR_DOCUMENT_PATH");
-```
-`"YOUR_DOCUMENT_PATH"` ifadesini gerçek DOCX, PDF veya desteklenen diğer dosyanın yolu ile değiştirin.
+```  
+"YOUR_DOCUMENT_PATH" ifadesini, DOCX, PDF veya diğer desteklenen dosyanın gerçek yolu ile değiştirin.
 
-> **Pro ipucu:** `Signature` nesnesini `try‑with‑resources` bloğu içinde kullanın veya bellek sızıntılarını önlemek için `close()` metodunu açıkça çağırın.
+> **Pro tip:** `Signature` nesnesini bir try‑with‑resources bloğuna sarın veya bellek sızıntılarını önlemek için `close()` metodunu açıkça çağırın.
 
 ## Uygulama Kılavuzu
 
-### Java’da Özel Metaveri Yapıları Nasıl Oluşturulur
+### Java'da Özel Meta Veri Yapıları Nasıl Oluşturulur
 
-İlk olarak korumak istediğiniz veriyi tanımlayın.
+Özel bir meta veri sınıfı, korumak istediğiniz bilginin yapısını ve GroupDocs.Signature tarafından nasıl serileştirileceğini tanımlar. Alanları `@FormatAttribute` ile işaretleyerek, kütüphaneye her öğenin sırasını ve formatını bildirirsiniz; bu, tutarlı şifreleme ve daha sonraki de‑serileştirmeyi sağlar. Bu sınıf, imzalı belgeye gömülen şifreli yükün şablonu haline gelir.
 
 ```java
 class DocumentSignatureData {
@@ -139,14 +186,14 @@ class DocumentSignatureData {
     public final BigDecimal getDataFactor() { return DataFactor; }
     public void setDataFactor(BigDecimal value) { DataFactor = value; }
 }
-```
+```  
 
-- **@FormatAttribute** GroupDocs.Signature’a her alanın nasıl serileştirileceğini söyler.  
-- İş ihtiyacınıza göre bu sınıfa ek özellikler ekleyebilirsiniz.
+- **@FormatAttribute** GroupDocs.Signature'a her alanı nasıl serileştireceğini söyler.  
+- Bu sınıfı, işinizin gerektirdiği ek özelliklerle genişletin.
 
-### Belge Metaverisi İçin Özel Şifreleme Uygulama
+### Belge Meta Verileri İçin Özel Şifreleme Uygulama
 
-Aşağıda, `IDataEncryption` sözleşmesini karşılayan basit bir XOR uygulaması yer alıyor.
+Özel bir şifreleme rutini uygulamak, meta veri baytlarının depolanmadan önce nasıl dönüştürüleceğini kontrol etmenizi sağlar. `IDataEncryption` arayüzünü uygulayan bir sınıf oluşturarak, herhangi bir algoritma ekleyebilirsiniz—gösterim için XOR, üretim için AES‑GCM veya hatta özel bir şema. İmzalama süreci, meta veri serileştirilirken şifreleyicinizi otomatik olarak çağırır.
 
 ```java
 class CustomXOREncryption implements IDataEncryption {
@@ -166,13 +213,17 @@ class CustomXOREncryption implements IDataEncryption {
         return encrypt(data);  
     }
 }
-```
+```  
 
-> **Önemli:** XOR üretim güvenliği için **uygun değildir**. Dağıtıma geçmeden önce AES veya başka bir doğrulanmış algoritma ile değiştirin.
+> **Important:** XOR, üretim güvenliği için **uygun değildir**. Dağıtmadan önce AES‑GCM veya başka bir onaylı algoritma ile değiştirin.
 
-### Şifreli Metaveri ile Belgeleri Nasıl İmzalarız
+### Şifrelenmiş Meta Veri ile Belgeleri Nasıl İmzalarız
 
-Şimdi her şeyi bir araya getirelim.
+Şifrelenmiş meta veriyi gömerek bir belgeyi imzalamak, gizli bilgiyi dijital imzaya bağlar ve hem özgünlük hem de gizliliği sağlar. `MetadataSignOptions` kullanarak hangi meta veri alanlarının dahil edileceğini belirtir ve şifreleme uygulamasını sağlarsınız. `Signature` nesnesi belgeyi işler, imzayı uygular ve şifreli yükü görünür imza öğelerinin yanına yazar.
+
+`MetadataSignOptions` GroupDocs.Signature'a hangi meta verilerin gömüleceğini ve nasıl şifreleneceğini söyleyen yapılandırma nesnesidir.  
+`DocumentSignatureData` serileştirilecek ve şifrelenecek gerçek değerleri tutar.  
+`WordProcessingMetadataSignature` bir Word‑işleme belgesine eklenecek tek bir meta veri parçasını (ör. yazar, özel kimlik) temsil eder.
 
 ```java
 class SignWithMetadataCustomSerialization {
@@ -211,37 +262,39 @@ class SignWithMetadataCustomSerialization {
         }
     }
 }
-```
+```  
 
 #### Adım‑Adım Açıklama
-1. **Initialize** `Signature` nesnesini kaynak dosya ile başlatın.  
+1. **Initialize** `Signature` nesnesini kaynak dosyayla başlatın.  
 2. **Create** bir `IDataEncryption` uygulaması (`CustomXOREncryption`).  
-3. **Configure** `MetadataSignOptions` ve şifreleme örneğini ekleyin.  
+3. **Configure** `MetadataSignOptions` nesnesini yapılandırın ve şifreleme örneğini ekleyin.  
 4. **Populate** `DocumentSignatureData` nesnesini özel alanlarınızla doldurun.  
-5. **Create** her bir metaveri parçası için ayrı `WordProcessingMetadataSignature` nesneleri oluşturun.  
-6. **Add** bu nesneleri seçenek koleksiyonuna ekleyin ve `sign()` metodunu çağırın.
+5. **Create** her meta veri parçası için ayrı `WordProcessingMetadataSignature` nesneleri oluşturun.  
+6. **Add** bunları seçenek koleksiyonuna ekleyin ve `sign()` metodunu çağırın.
 
-> **Pro ipucu:** `System.getenv("USERNAME")` ifadesi, denetim izleri için kullanışlı olan mevcut OS kullanıcısını otomatik olarak yakalar.
+> **Pro tip:** `System.getenv("USERNAME")` kullanmak, mevcut OS kullanıcısını otomatik olarak yakalar; bu, denetim izleri için kullanışlıdır.
 
-## Bu Yaklaşım Ne Zaman Kullanılmalı?
+## Bu Yaklaşımı Ne Zaman Kullanmalısınız
 
-| Senaryo | Metaveri Neden Şifrelenir? |
-|----------|----------------------------|
-| **Hukuki sözleşmeler** | İç iş akışı kimlikleri ve inceleme notlarını gizlemek. |
-| **Finansal raporlar** | Hesaplama kaynakları ve gizli rakamları korumak. |
-| **Sağlık kayıtları** | Hasta kimlikleri ve işleme notlarını (HIPAA) güvence altına almak. |
-| **Çok‑taraflı anlaşmalar** | Yalnızca yetkili tarafların gömülü metaveriyi görmesini sağlamak. |
+Meta verileri şifrelemeyi seçmek, belgeler gizli kimlikler, iç yorumlar veya yetkisiz okuyuculara gösterilmemesi gereken düzenleyici veriler içerdiğinde idealdir. Senaryolar arasında gizli madde numaralarına sahip hukuki sözleşmeler, özel hesaplamalar içeren finansal raporlar, hasta kimlikleri bulunan sağlık kayıtları ve her katılımcının yalnızca kendi meta verisini görmesi gereken çok‑taraflı anlaşmalar bulunur. Tamamen halka açık belgelerde bu adım gereksiz olabilir.
 
-Tamamen kamuya açık ve şeffaflık gerektiren belgeler için bu tekniği kullanmaktan kaçının.
+| Senaryo | Neden meta verileri şifrelemelisiniz? |
+|----------|-----------------------|
+| **Hukuki sözleşmeler** | İç iş akışı kimliklerini ve inceleme notlarını gizleyin. |
+| **Finansal raporlar** | Hesaplama kaynaklarını ve gizli rakamları koruyun. |
+| **Sağlık kayıtları** | Hasta kimliklerini ve işleme notlarını (HIPAA) koruyun. |
+| **Çok‑taraflı anlaşmalar** | Yalnızca yetkili tarafların gömülü meta veriyi görmesini sağlayın. |
 
-## Güvenlik Düşünceleri: XOR Şifrelemesinin Ötesinde
+Şeffaflığın gerekli olduğu tamamen halka açık belgelerde bu tekniği kullanmaktan kaçının.
+
+## Güvenlik Hususları: XOR Şifrelemesinin Ötesinde
 
 ### Neden XOR Yeterli Değildir
-- Öngörülebilir desenler anahtarı ortaya çıkarır.  
-- Bütünlük doğrulaması yoktur (değişiklikler fark edilmez).  
-- Sabit anahtar istatistiksel saldırılara açıktır.
+
+XOR şifrelemesi sadece veriyi gizler ve hassas meta verileri korumak için gereken kriptografik güce sahip değildir. Statik anahtar frekans analizine uğrayarak keşfedilebilir ve yerleşik bütünlük doğrulaması yoktur; bu da yükü manipülasyona karşı savunmasız bırakır. Uyumluluk ve güvenlik için XOR'ı, gizlilik ve manipülasyon tespiti sağlayan AES‑GCM gibi kimlik doğrulamalı bir şifreleme moduyla değiştirin.
 
 ### Üretim‑Düzeyi Alternatifler
+
 **AES‑GCM Örneği (kavramsal):**  
 ```java
 // Example pattern (not complete implementation)
@@ -249,36 +302,36 @@ Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
 SecretKeySpec keySpec = new SecretKeySpec(keyBytes, "AES");
 cipher.init(Cipher.ENCRYPT_MODE, keySpec);
 byte[] encrypted = cipher.doFinal(data);
-```
+```  
 - Gizlilik **ve** kimlik doğrulama sağlar.  
-- Güvenlik standartları tarafından yaygın olarak kabul edilir.
+- NIST tarafından tanınır ve kurumsal güvenlikte yaygın olarak kullanılır.
 
 **Anahtar Yönetimi:** Anahtarları güvenli bir kasada (AWS KMS, Azure Key Vault) saklayın ve asla kod içinde sabitlemeyin.
 
-> **Eylem maddesi:** `CustomXOREncryption` sınıfını `IDataEncryption` arayüzünü uygulayan bir AES‑tabanlı sınıfla değiştirin. İmza kodunuzun geri kalanı aynı kalır.
+> **Action item:** `CustomXOREncryption` sınıfını, `IDataEncryption` arayüzünü uygulayan AES‑tabanlı bir sınıfla değiştirin. İmzalama kodunuzun geri kalanı aynı kalır.
 
 ## Yaygın Sorunlar ve Çözümler
 
-### Metaveri Şifrelenmiyor
-- `options.setDataEncryption(encryption)` çağrısının yapıldığından emin olun.  
-- Şifreleme sınıfınızın `IDataEncryption` arayüzünü doğru şekilde uyguladığını doğrulayın.  
+### Meta Veri Şifrelenmiyor
+- `options.setDataEncryption(encryption)` çağrıldığını doğrulayın.  
+- Şifreleme sınıfınızın `IDataEncryption` arayüzünü doğru uyguladığını onaylayın.
 
 ### Belge İmzalanamıyor
 - Dosyanın varlığını ve yazma izinlerini kontrol edin.  
-- Lisansın aktif olduğundan emin olun (deneme süresi dolmuş olabilir).  
+- Lisansın aktif olduğundan emin olun (deneme süresi dolabilir).
 
-### İmzalamadan Sonra Deşifre Başarısız
-- Şifreleme ve deşifre için aynı anahtarı kullanın.  
-- Doğru metaveri alanlarını okuduğunuzdan emin olun.  
+### İmzalamadan Sonra Çözme Başarısız Oluyor
+- Şifreleme ve çözme işlemleri için aynı şifreleme anahtarını kullanın.  
+- Doğru meta veri alanlarını okuduğunuzu doğrulayın.
 
 ### Büyük Dosyalarda Performans Darboğazları
-- Belgeleri toplu (10‑20 adet) işleyin.  
-- `Signature` nesnelerini hızlı bir şekilde serbest bırakın.  
-- Şifreleme algoritmanızı profil edin; AES, XOR’a göre makul bir ek yük getirir.
+- Belgeleri toplu olarak işleyin (bir seferde 10–20).  
+- `Signature` nesnelerini hızlıca serbest bırakın.  
+- Şifreleme algoritmanızı profilleyin; AES, XOR'a göre makul bir ek yük ekler.
 
 ## Sorun Giderme Kılavuzu
 
-**İmza başlatma hatası:**  
+**Signature başlatma hatası:**  
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -286,69 +339,73 @@ try {
     System.err.println("Failed to load document: " + e.getMessage());
     // Verify: file exists, correct format, sufficient permissions
 }
-```
+```  
 
 **Şifreleme istisnaları:**  
 ```java
 if (data == null || data.length == 0) {
     throw new IllegalArgumentException("Cannot encrypt empty data");
 }
-```
+```  
 
-**İmzalamadan sonra eksik metaveri:**  
+**İmzalamadan sonra eksik meta veri:**  
 ```java
 System.out.println("Signatures added: " + options.getSignatures().size());
 // Should be > 0
-```
+```  
 
-## Performans Düşünceleri
+## Performans Hususları
 
-- **Bellek:** `Signature` nesnelerini serbest bırakın; toplu işler için sabit‑boyutlu bir iş parçacığı havuzu kullanın.  
-- **Hız:** Şifreleme örneğini önbelleğe almak nesne oluşturma maliyetini azaltır.  
-- **Kıyaslamalar (yaklaşık):**  
-  - 5 MB DOCX ile XOR: 200‑500 ms  
-  - Aynı dosya ile AES‑GCM: ~250‑600 ms  
+- **Memory:** `Signature` nesnelerini serbest bırakın; toplu işler için sabit‑boyutlu bir iş parçacığı havuzu kullanın.  
+- **Speed:** Nesne oluşturma maliyetini azaltmak için şifreleme örneğini önbelleğe alın.  
+- **Benchmarks (approx.):**  
+  - 5 MB DOCX XOR ile: 200‑500 ms  
+  - Aynı dosya AES‑GCM ile: ~250‑600 ms  
 
 ## Üretim İçin En İyi Uygulamalar
 
-1. **XOR yerine AES** (veya başka bir doğrulanmış algoritma) kullanın.  
-2. **Güvenli bir anahtar deposu** kullanın – anahtarları kaynak kodda saklamayın.  
+1. **XOR'ı AES ile değiştirin** (veya başka bir onaylı algoritma).  
+2. **Güvenli bir anahtar deposu kullanın** – anahtarları kaynak koduna asla gömmeyin.  
 3. **İmzalama işlemlerini kaydedin** (kim, ne zaman, hangi dosya).  
-4. **Girdi doğrulaması yapın** (dosya tipi, boyutu, metaveri formatı).  
-5. **Açık hata işleme** uygulayın ve net mesajlar verin.  
-6. **Deşifreyi bir test ortamında** üretime almadan önce test edin.  
-7. **Denetim izlerini** uyumluluk amaçlı tutun.
+4. **Girdileri doğrulayın** (dosya türü, boyut, meta veri formatı).  
+5. **Açık mesajlarla kapsamlı hata yönetimi uygulayın**.  
+6. **Yayın öncesi bir hazırlık ortamında şifre çözmeyi test edin**.  
+7. **Uyumluluk amacıyla denetim izini sürdürün**.  
 
 ## Sonuç
 
-Artık **java’da belge metaverisini şifreleme** için GroupDocs.Signature kullanarak eksiksiz, adım‑adım bir tarifiniz var:
+Artık GroupDocs.Signature kullanarak **meta verileri nasıl şifreleyeceğinize** dair eksiksiz, adım‑adım bir tarifiniz var:
 
-- `@FormatAttribute` ile tiplenmiş bir metaveri sınıfı tanımlayın.  
-- `IDataEncryption` uygulamasını (örnek olarak XOR) oluşturun.  
-- Şifreli metaveri ekleyerek belgeyi imzalayın.  
-- Üretim‑düzeyi güvenlik için AES’e yükseltin.  
+- `@FormatAttribute` ile tiplenmiş bir meta veri sınıfı tanımlayın.  
+- `IDataEncryption` uygulayın (örnek olarak XOR gösterilmiştir).  
+- Şifrelenmiş meta veriyi ekleyerek belgeyi imzalayın.  
+- Üretim‑düzeyi güvenlik için AES'e yükseltin.
 
-Sonraki adımlar: farklı şifreleme algoritmaları deneyin, güvenli bir anahtar‑yönetim hizmeti entegre edin ve metaveri modelinizi iş ihtiyaçlarınıza göre genişletin.
+Sonraki adımlar: farklı şifreleme algoritmalarıyla denemeler yapın, güvenli bir anahtar‑yönetim hizmeti entegre edin ve meta veri modelini özel iş ihtiyaçlarınıza göre genişletin.
 
 ## Sıkça Sorulan Sorular
 
-**S: XOR dışındaki bir şifreleme algoritması kullanabilir miyim?**  
-C: Kesinlikle. `IDataEncryption` arayüzünü karşılayan herhangi bir sınıfı uygulayabilirsiniz – AES‑GCM güçlü gizlilik ve bütünlük için önerilir.
+**S: XOR dışındaki farklı bir şifreleme algoritması kullanabilir miyim?**  
+C: Kesinlikle. `IDataEncryption` arayüzünü karşılayan herhangi bir sınıf uygulayın—AES‑GCM, güçlü gizlilik ve bütünlük için önerilen bir seçimdir.
 
-**S: AES’e geçerken imzalama kodunu değiştirmem gerekir mi?**  
-C: Hayır. Özel AES uygulamanız `IDataEncryption` ile uyumlu olduğu sürece sadece `CustomXOREncryption` örneğini yeni sınıfla değiştirmeniz yeterlidir.
+**S: AES'e geçerken imzalama kodunu değiştirmem gerekir mi?**  
+C: Hayır. Özel AES uygulamanız `IDataEncryption` ile uyumlu olduğunda, sadece `CustomXOREncryption` örneğini yeni sınıfınızla değiştirin.
 
-**S: Şifreli metaveri, normal bir görüntüleyiciyle açtığımda dosyada görünür mü?**  
-C: Metaveri dosyanın içinde kalır ancak anlamsız ikili veri olarak görünür. Yalnızca sizin deşifre rutininiz onu yorumlayabilir.
+**S: Şifrelenmiş meta veri, normal bir görüntüleyiciyle açtığımda imzalı dosyada görünür mü?**  
+C: Meta veri dosyanın bir parçası olarak kalır ancak anlaşılmaz ikili veri olarak görünür. Yalnızca sizin şifre çözme rutininiz bunu yorumlayabilir.
 
-**S: Dosya boyutu nasıl etkilenir?**  
-C: Şifreleme çok az ek yük ekler (genellikle her metaveri alanı başına birkaç bayt). Genel belge boyutuna etkisi önemsizdir.
+**S: Bu dosya boyutunu nasıl etkiler?**  
+C: Şifreleme minimal bir ek yük (genellikle her meta veri alanı için birkaç bayt) ekler. Genel belge boyutuna etkisi ihmal edilebilir.
 
-**S: Üretim için hangi lisansa ihtiyacım var?**  
-C: Ticari dağıtım için tam bir GroupDocs.Signature lisansı gerekir. Geliştirme ve test için bir deneme lisansı yeterlidir.
+**S: Üretim kullanımı için hangi lisansa ihtiyacım var?**  
+C: Ticari dağıtım için tam bir GroupDocs.Signature lisansı gereklidir. Geliştirme ve test için bir deneme lisansı yeterlidir.
 
----
-
-**Son Güncelleme:** 2026-02-26  
-**Test Edilen Versiyon:** GroupDocs.Signature 23.12 (Java)  
+**Son Güncelleme:** 2026-07-06  
+**Test Edilen:** GroupDocs.Signature 23.12 (Java)  
 **Yazar:** GroupDocs
+
+## İlgili Eğitimler
+
+- [Java ile PDF'ye Meta Veri Ekleme - Tam GroupDocs Signature Eğitimi](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)
+- [Java Meta Veri Arama Şifrelemesi - GroupDocs ile Güvenli Belge Verisi](/signature/java/search-verification/secure-metadata-search-java-groupdocs-signature/)
+- [Java'da İmzayı Şifreleme – Gelişmiş İmza Seçenekleri ve Şifreleme Teknikleri](/signature/java/advanced-options/)
