@@ -695,9 +695,3 @@ R: No. GroupDocs.Signature funziona interamente offline una volta installata la 
 - [Digital Signature in Java - Guida completa al caricamento dei certificati e firma dei documenti](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
 - [Tutorial verifica firme Java - Valida documenti con testo, barcode e QR code](/signature/java/search-verification/groupdocs-signature-java-document-verification-guide/)
 - [Firma file ZIP in Java con barcode e QR code](/signature/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
