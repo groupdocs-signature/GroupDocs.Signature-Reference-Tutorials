@@ -696,9 +696,3 @@ R : Non. GroupDocs.Signature fonctionne entièrement hors ligne une fois la bi
 - [Digital Signature in Java - Guide complet du chargement de certificats et de la signature de documents](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
 - [Java Signature Verification Tutorial - Valider les documents avec texte, code‑barres et QR codes](/signature/java/search-verification/groupdocs-signature-java-document-verification-guide/)
 - [Sign ZIP Files in Java with Barcodes & QR Codes](/signature/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
