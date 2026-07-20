@@ -1,18 +1,77 @@
 ---
 categories:
 - Java PDF Processing
-date: '2026-03-06'
-description: 学习如何使用 Java 和 GroupDocs.Signature 在 PDF 文档中创建条形码签名。提供代码示例和最佳实践的分步教程。
-keywords: sign PDF with barcode Java, Java barcode signature, GroupDocs PDF signing,
-  Code128 barcode PDF, add barcode to PDF programmatically
-lastmod: '2026-03-06'
-linktitle: Create Barcode Signature Java
+date: '2026-07-20'
+description: 了解如何使用 Java 和 GroupDocs.Signature 在 PDF 文档中创建 Barcode 签名。提供代码示例和最佳实践的分步教程。
+keywords:
+- create barcode signature
+- how to add barcode
+- generate code128 barcode
+- add barcode pdf
+- tamper evident barcode
+lastmod: '2026-07-20'
+linktitle: 创建 Barcode 签名 Java
+og_description: 使用 Java 和 GroupDocs.Signature 在 PDF 中创建 Barcode 签名。分步学习如何添加 Code128
+  条形码、设置位置并保护文档。
+og_image_alt: 'Developer guide: Create barcode signature in PDF using Java and GroupDocs'
+og_title: 使用 Java 在 PDF 中创建 Barcode 签名 – 完整指南
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-20'
+  description: Learn how to create barcode signature in PDF documents using Java and
+    GroupDocs.Signature. Step-by-step tutorial with code examples and best practices.
+  headline: How to Create Barcode Signature in PDF using Java
+  type: TechArticle
+- description: Learn how to create barcode signature in PDF documents using Java and
+    GroupDocs.Signature. Step-by-step tutorial with code examples and best practices.
+  name: How to Create Barcode Signature in PDF using Java
+  steps:
+  - name: Initialize the Signature object
+    text: '**Definition anchor:** The `Signature` class is GroupDocs.Signature''s
+      entry point for loading, modifying, and saving PDF documents. First, you need
+      to tell GroupDocs which PDF you''re working with: **What''s happening here:**
+      The `Signature` object loads your PDF into memory and prepares it for modifi'
+  - name: Configure your barcode options (How to add barcode)
+    text: '**Definition anchor:** `BarcodeSignOptions` encapsulates all settings required
+      to render a barcode inside a PDF. Now let''s create the barcode signature with
+      your data: - `"12345678"` is your barcode data — this could be an order ID,
+      certificate number, or any identifier you need. - `Code128` is the '
+  - name: Position your barcode (How to sign PDF with barcode)
+    text: '**Definition anchor:** `SignatureOptions` provides layout properties such
+      as page number, size, and alignment. Here''s where GroupDocs really shines —
+      percentage‑based positioning means your barcode looks good on any PDF size:
+      **Why percentages matter:** Imagine you''re signing both A4 documents and l'
+  - name: Sign and save your document (How to add barcode pdf)
+    text: 'Time to actually apply the signature and save your work: **Important note:**
+      The output directory must exist before you run this code. GroupDocs won''t create
+      nested directories for you, so create them first or handle that in your code:
+      **What if something goes wrong?** Wrap this in a try‑catch block'
+  type: HowTo
+- questions:
+  - answer: Yes! Call `signature.sign()` multiple times with different `BarcodeSignOptions`
+      for each barcode type. Just ensure they don’t overlap.
+    question: Can I use different barcode types in the same PDF?
+  - answer: Code128 handles most ASCII characters fine. For Unicode or complex data,
+      switch to QR codes—they support UTF‑8 encoding.
+    question: How do I handle barcodes that contain special characters?
+  - answer: Technically up to 128 characters, but readability drops significantly
+      above 30‑40 characters. For larger payloads, use QR codes.
+    question: What's the maximum data I can store in a Code128 barcode?
+  - answer: Not noticeably—barcodes are vector graphics, typically adding only 5‑20
+      KB per barcode depending on size and complexity.
+    question: Will adding barcodes significantly increase my PDF file size?
+  - answer: Yes! Use `options.setRotationAngle(90)` to rotate your barcode, which
+      is handy for margin placement.
+    question: Can I rotate barcodes or place them vertically?
+  type: FAQPage
 tags:
 - pdf-signing
 - barcode-signature
 - document-security
 - groupdocs
-title: 如何使用 Java 在 PDF 中创建条形码签名
+- java
+- pdf
+title: 如何使用 Java 在 PDF 中创建 Barcode 签名
 type: docs
 url: /zh/java/barcode-signatures/java-pdf-signing-barcode-groupdocs/
 weight: 1
@@ -20,50 +79,53 @@ weight: 1
 
 # 如何使用 Java 在 PDF 中创建条形码签名
 
-在本教程中，您将学习如何使用 Java 和 GroupDocs.Signature **创建条形码签名** 于 PDF 文件中。条形码签名嵌入机器可读的标识符，既防篡改又易于扫描——非常适合合同、证书、发票以及任何需要可靠验证的文档。
+在本教程中，您将学习如何使用 Java 和 GroupDocs.Signature 在 PDF 文件中 **创建条形码签名**。条形码签名嵌入机器可读的标识符，既防篡改又易于扫描——非常适合合同、证书、发票以及任何需要可靠验证的文档。
 
-## 快速答案
-- **什么是条形码签名？** 嵌入在 PDF 中的条形码，存储结构化数据，可被扫描仪或软件读取。  
+## 快速回答
+- **条形码签名是什么？** 嵌入 PDF 的条形码，存储结构化数据，可被扫描仪或软件读取。  
 - **推荐使用哪种条形码类型？** Code128，因为它能够紧凑地处理字母数字数据。  
 - **我需要许可证吗？** 免费试用可用于测试；生产环境需要完整许可证。  
-- **我可以在任何页面尺寸上放置条形码吗？** 可以——使用基于百分比的定位实现自动缩放。  
-- **条形码是矢量的吗？** 是的，它只会向 PDF 添加几千字节，并且在任何分辨率下都保持清晰。  
+- **我可以在任何页面尺寸上定位条形码吗？** 可以——使用基于百分比的定位实现自动缩放。  
+- **条形码是矢量化的吗？** 是的，只会向 PDF 添加几千字节，并在任何分辨率下保持清晰。  
+
+## 什么是条形码签名？
+条形码签名是一种基于矢量的条形码，直接嵌入 PDF 页面，既充当可视元素，又充当可在以后验证的加密签名。它存储结构化数据，如 ID 或时间戳，并在提供机器可读引用的同时确保文档完整性。
 
 ## 为什么条形码签名对您的 PDF 很重要
+条形码签名为 PDF 提供了紧凑的机器可读标识符，可即时扫描，消除手动数据录入并降低错误。由于它们以矢量图形嵌入，任何分辨率下都保持锐利，仅增加几千字节的文件大小。这种可读性、防篡改性和最小体积的组合，使其非常适合合同、发票、证书以及任何需要可靠验证的文档。
 
-您可能已经遇到过这样的挑战：需要在 PDF 中添加既可机器读取又防篡改的唯一标识符。也许您正在开发文档管理系统、处理证书，或处理需要后续验证的合同。
+以下是您可能遇到的挑战：需要向 PDF 添加既机器可读又防篡改的唯一标识符。也许您正在构建文档管理系统、处理证书，或处理需要后期验证的合同。
 
-这时条形码签名就派上用场了。与普通文字水印不同，条形码可以嵌入结构化数据，扫描仪（以及您的软件）能够即时读取。此外，将其与 GroupDocs.Signature for Java 的 PDF 签名结合使用，您即可在无需复杂数据库查询的情况下，实现对文档的强大跟踪和验证。
+这正是条形码签名的用武之地。与简单的文字水印不同，条形码允许您嵌入结构化数据，扫描仪（以及您的软件）可以即时读取。此外，将其与 GroupDocs.Signature for Java 的 PDF 签名功能结合使用，您即可在无需复杂数据库查询的情况下实现文档追踪和验证。
 
-在本指南中，您将学习如何在 Java PDF 中实现条形码签名——从基础设置到具备灵活定位的生产就绪代码。无论您是构建发票系统、证书生成器还是合同管理平台，阅读完本指南后您都将掌握所需的一切。
+在本指南中，您将学习如何在 Java PDF 中实现条形码签名——从基础设置到生产就绪代码以及灵活的定位方式。无论您是构建发票系统、证书生成器，还是合同管理平台，阅读完本教程后都能掌握所需全部内容。
 
 **您将掌握的内容：**
-- 在几分钟内设置 GroupDocs.Signature for Java
-- 创建 Code128 条形码签名（以及为何它们通常是最佳选择）
-- 使用基于百分比的布局定位条形码，适用于任何 PDF 尺寸
-- 避免常见的开发者陷阱
-- 正确测试您的实现
+- 在几分钟内设置 GroupDocs.Signature for Java  
+- 创建 Code128 条形码签名（以及为何它通常是最佳选择）  
+- 使用基于百分比的布局在任何 PDF 大小上定位条形码  
+- 避免开发者常见的陷阱  
+- 正确测试您的实现  
 
-## 开始之前您需要准备的内容
+## 如何在 Java 中创建条形码签名
+在 Java 中创建条形码签名的过程包括加载目标 PDF、配置条形码选项（如数据、类型、大小和位置），然后应用签名生成新文档。GroupDocs.Signature 负责渲染和加密绑定，您只需提供所需参数并管理文件路径。
 
-确保您已准备好以下必需品：
+## 前置条件和环境检查清单
 
-**必需库：**
-- GroupDocs.Signature for Java（建议使用 23.12 或更高版本）
+在开始之前，请确保您已准备好以下项目：
 
-**开发环境：**
-- 已安装 JDK 8 或更高版本
-- 您喜欢的 IDE（IntelliJ IDEA、Eclipse 或带有 Java 扩展的 VS Code）
-- 用于依赖管理的 Maven 或 Gradle
-
-**您的技能水平：**
-您应熟悉基本的 Java 语法并了解文件操作。如果您能够创建一个简单的 Java 类并处理异常，就可以开始了。
+- **Java Development Kit (JDK) 8 或更高** – 所有 GroupDocs Java 库的必备条件。  
+- **Maven 或 Gradle** – 用于管理 GroupDocs.Signature 依赖。  
+- **IDE** 如 IntelliJ IDEA、Eclipse 或带有 Java 扩展的 VS Code。  
+- **GroupDocs.Signature for Java**（建议使用 23.12 或更高版本）。  
+- **基本的 Java 知识** – 您应熟悉创建类、处理异常以及文件 I/O 操作。
 
 ## 在项目中设置 GroupDocs.Signature
 
-将库引入项目非常简单。选择您的构建工具：
+将库引入项目非常简单。请选择您的构建工具：
 
-**对于 Maven 用户**，在您的 `pom.xml` 中添加以下内容：
+**对于 Maven 用户**，在 `pom.xml` 中添加以下依赖：
+
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -72,22 +134,355 @@ weight: 1
 </dependency>
 ```
 
-**使用 Gradle 吗？** 在您的 `build.gradle` 中添加此行：
+**使用 Gradle？** 在 `build.gradle` 中添加此行：
+
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**更喜欢手动设置？** 直接从 [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) 下载 JAR 并将其添加到类路径中。
+**倾向手动设置？** 从 [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) 下载 JAR 并将其加入类路径。
 
 ### 获取许可证
 
-在投入生产之前，您需要处理许可证：
+在正式生产之前，您需要处理许可证：
 
-- **免费试用：** 适合测试——可从 GroupDocs 网站获取，以探索核心功能  
-- **临时许可证：** 需要更多评估时间？申请 30 天临时许可证  
-- **完整许可证：** 准备投入生产？购买无限使用的许可证  
+- **免费试用：** 适合测试——从 GroupDocs 网站获取，以探索核心功能。  
+- **临时许可证：** 需要更长的评估时间？申请 30 天临时许可证。  
+- **完整许可证：** 生产环境使用，购买后可无限制使用。  
 
-以下是快速检查，以确保一切正常工作：
+下面是一个快速检查，确保一切正常：
+
+```java
+Signature signature = new Signature("sample.pdf");
+System.out.println("Signature object created successfully.");
+```
+
+如果运行没有错误，说明已准备就绪！
+
+## 如何在 Java 中创建条形码签名
+
+现在进入有趣的部分——让我们为 PDF 添加条形码签名。我们将把过程拆分为若干步骤，帮助您清晰了解每一步的作用。
+
+### 步骤 1：初始化 Signature 对象
+
+**定义锚点：** `Signature` 类是 GroupDocs.Signature 用于加载、修改和保存 PDF 文档的入口。
+
+首先，需要告诉 GroupDocs 您要处理的 PDF：
+
+```java
+Signature signature = new Signature("input.pdf");
+```
+
+**发生了什么：** `Signature` 对象将您的 PDF 加载到内存中，并为后续修改做好准备。请确保文件路径正确——在 Windows 上使用反斜杠时需进行转义（使用 `\\` 或直接使用正斜杠，后者跨平台通用）。
+
+### 步骤 2：配置条形码选项（如何添加条形码）
+
+**定义锚点：** `BarcodeSignOptions` 包含在 PDF 中渲染条形码所需的所有设置。
+
+现在创建条形码签名并设置数据：
+
+```java
+BarcodeSignOptions options = new BarcodeSignOptions("12345678");
+options.setEncodeType(BarcodeEncodeType.Code128);
+```
+
+- `"12345678"` 是条形码数据——可以是订单号、证书编号或任何您需要的标识符。  
+- `Code128` 是编码类型（下文会详细说明如何选择合适的类型）。  
+
+**小贴士：** Code128 能同时处理数字和字母，适用于大多数场景。如果仅需数字，可考虑 `Code39`，但 Code128 提供更高的灵活性。
+
+### 步骤 3：定位条形码（如何使用条形码签署 PDF）
+
+**定义锚点：** `SignatureOptions` 提供页面编号、大小和对齐等布局属性。
+
+这里正是 GroupDocs 的优势所在——基于百分比的定位让条形码在任何 PDF 大小上都保持良好外观：
+
+```java
+options.setLeft(10);   // 10% from the left edge
+options.setTop(90);    // 90% from the bottom edge (near the footer)
+options.setWidth(30);  // 30% of page width
+options.setHeight(10); // 10% of page height
+options.setPageNumber(1);
+```
+
+**为何使用百分比：** 想象一下您需要同时签署 A4 文档和法律纸张。使用百分比定位，条形码会自动按比例缩放，保持一致外观。若使用固定像素值，条形码在大文档上会显得太小，在小文档上则会过大。
+
+**实际示例：**在 A4 页面（595 × 842 points）上，30% 宽度的条形码约为 180 points；在法律纸（612 × 1008 points）上约为 184 points——实现自动比例。
+
+### 步骤 4：签署并保存文档（如何将条形码添加到 PDF）
+
+现在真正应用签名并保存结果：
+
+```java
+signature.sign(outputPath, options);
+```
+
+**重要提示：** 输出目录必须事先存在，GroupDocs 不会自动创建嵌套目录，请先创建或在代码中处理：
+
+```java
+new File("output").mkdirs();
+```
+
+**如果出现异常怎么办？** 将代码包装在 try‑catch 块中：
+
+```java
+try {
+    signature.sign("signed.pdf", options);
+} catch (Exception e) {
+    e.printStackTrace();
+}
+```
+
+## 为您的需求选择合适的条形码类型（生成 Code128 条形码）
+
+GroupDocs 支持多种条形码格式，选择合适的类型至关重要。以下是实用对比：
+
+**Code128（我们的默认选择）：**
+- **最佳场景：** 混合字母数字数据（如 “INV2024-001”）  
+- **容量：** 最多 128 个 ASCII 字符  
+- **优势：** 紧凑、广泛支持、兼容字母和数字  
+- **适用：** 需要灵活性且不确定数据类型时  
+
+**Code39：**
+- **最佳场景：** 简单的字母数字码  
+- **容量：** 43 个字符（A‑Z、0‑9 及部分符号）  
+- **优势：** 老旧扫描仪兼容性更好  
+- **适用：** 与遗留系统对接或对数据密度要求不高时  
+
+**QR Code：**
+- **最佳场景：** 大量数据（URL、JSON 等）  
+- **容量：** 最多约 3 KB 数据  
+- **优势：** 可存储复杂结构，内置纠错  
+- **适用：** 需要嵌入结构化数据或链接时  
+
+**EAN/UPC：**
+- **最佳场景：** 商品标识  
+- **容量：** 固定长度数字码（8‑13 位）  
+- **适用：** 零售或库存系统  
+
+**快速决策指南：**  
+- 需要字母和数字？ → Code128  
+- 仅数字且追求简洁？ → Code39  
+- 数据量大或需链接？ → QR Code  
+- 零售/商品码？ → EAN/UPC  
+
+## 常见陷阱及规避方法（防篡改条形码）
+
+以下是开发者最常遇到的问题（帮助您避免）：
+
+### 问题 1：条形码定位不正确
+
+**表现：** 条形码出现在意外位置或被裁剪。
+
+**常见原因：**  
+- 在不同页面尺寸上使用像素值  
+- 忘记 PDF 坐标系原点在左下角，而非左上角  
+- 边距导致内容超出可视区域  
+
+**解决方案：** 始终使用百分比定位以保持一致：
+
+```java
+options.setLeft(5);
+options.setTop(95);
+options.setWidth(40);
+options.setHeight(12);
+```
+
+### 问题 2：条形码文字不可读
+
+**表现：** 条形码显示正常，但扫描仪读取失败。
+
+**原因：**  
+- 条形码尺寸过小，无法容纳数据量  
+- 数据类型与编码不匹配  
+- 条形码与背景对比度不足  
+
+**解决方案：** 根据数据长度调整条形码大小。对于 10‑15 字符的 Code128，建议宽度占页面宽度的 8‑10%。
+
+### 问题 3：文件路径异常
+
+**表现：** `FileNotFoundException` 或类似错误。
+
+**原因：**  
+- 硬编码的 Windows 路径使用单个反斜杠  
+- 输出目录不存在  
+- 文件权限问题  
+
+**解决方案：** 使用正斜杠（跨平台通用），并提前创建目录：
+
+```java
+Path output = Paths.get("output/signed.pdf");
+Files.createDirectories(output.getParent());
+```
+
+### 问题 4：大 PDF 导致内存不足
+
+**表现：** 处理大型文档时出现内存溢出。
+
+**解决方案：** 完成后关闭 `Signature` 对象以释放资源：
+
+```java
+signature.close();
+```
+
+## 测试您的条形码实现
+
+在部署之前，请确保条形码实际可用。以下是实用的测试清单：
+
+### 1. 目视检查
+打开已签名的 PDF，检查：
+- 条形码是否可见且定位正确？  
+- 是否清晰（无模糊或像素化）？  
+- 周围是否有足够的留白？
+
+### 2. 扫描测试
+使用手机条形码扫描应用（如 “Barcode Scanner” 或 “QR & Barcode Reader”）验证：
+- 扫描器能读取条形码吗？  
+- 解码数据是否与您编码的相符？  
+- 不同角度和距离下是否都能读取？
+
+### 3. 跨平台测试
+在不同设备上打开 PDF：
+- Windows（Adobe Reader、Chrome）  
+- macOS（Preview、Chrome）  
+- 移动设备（iOS、Android）  
+
+确保条形码在所有环境中均能正确渲染。
+
+### 4. 自动化测试代码
+下面提供一个简易测试示例：
+
+```java
+Signature testSignature = new Signature("signed.pdf");
+List<BarcodeSignature> signatures = testSignature.search(BarcodeSignature.class);
+if (signatures.size() > 0) {
+    System.out.println("Barcode found: " + signatures.get(0).getText());
+}
+```
+
+## 条形码签名的真实场景
+
+以下是该技术在生产系统中的典型应用：
+
+### 1. 证书生成与验证
+**场景：** 您的培训平台颁发结业证书。  
+**实现：** 生成唯一证书 ID（如 “CERT‑2024‑00123”），并在右下角嵌入 Code128 条形码。扫描条形码即可通过 API 快速检索证书详情，省去手工录入。
+
+### 2. 发票追踪系统
+**场景：** 公司每月处理成千上万张发票。  
+**实现：** 将发票号和到期日以 QR 码形式嵌入，放置在易于扫描的区域。自动分拣系统即可无需人工干预完成路由，将处理时间从数小时缩短至数分钟。
+
+### 3. 法律合同管理
+**场景：** 律所需追踪合同版本及修订。  
+**实现：** 每个合同版本分配唯一条形码标识，包含合同 ID、版本号和签署日期。审计时扫描即可自动调出完整版本历史。
+
+### 4. 医疗记录安全
+**场景：** 医院希望防止未授权的记录访问。  
+**实现：** 在记录中嵌入患者 ID 与创建时间戳的条形码。仅经授权的设备能够解码并访问完整记录，且每次扫描都会生成审计日志以满足合规要求。
+
+## 性能优化技巧（java 文档安全）
+
+在批量签署大量 PDF 时，性能尤为关键。以下技巧帮助您保持高效：
+
+### 批处理策略
+一次处理多份文档，而不是逐个：
+
+```java
+for (String filePath : pdfList) {
+    Signature batchSignature = new Signature(filePath);
+    batchSignature.sign(outputPath, options);
+    batchSignature.close();
+}
+```
+
+**优势：** 重用选项对象并正确关闭资源，可防止内存泄漏。
+
+### 大文件内存管理
+针对超过 50 MB 的 PDF：
+- 逐个顺序处理，而非一次性加载多个  
+- 使用 try‑with‑resources 确保资源释放  
+- 监控堆内存并根据需要调整 JVM 参数，例如 `-Xmx2g`
+
+### 缓存常用条形码
+如果大量文档使用相同条形码，可缓存 `BarcodeSignOptions` 实例：
+
+```java
+BarcodeSignOptions cachedOptions = new BarcodeSignOptions("STATIC_ID");
+cachedOptions.setEncodeType(BarcodeEncodeType.Code128);
+```
+
+## 何时使用条形码签名（以及何时不适用）
+
+**适用场景：**
+- 需要机器可读的文档标识符  
+- 文档将被自动扫描或处理  
+- 想要防篡改追踪而不依赖数字证书  
+- 已有条形码基础设施需集成  
+
+**不适用场景：**
+- 需要具备法律效力的数字签名（请使用数字证书）  
+- 文档仅供人工阅读（文字水印即可）  
+- 文档极小，条形码会占据过大版面  
+- 安全要求必须加密——条形码是可见且可被任何人扫描的  
+
+**可以组合使用吗？** 当然！许多系统同时使用条形码签名进行追踪，并使用数字签名确保法律有效性。
+
+## 常见问题
+
+**Q: 可以在同一个 PDF 中使用不同类型的条形码吗？**  
+A: 可以！对每种条形码类型调用 `signature.sign()` 多次，并使用不同的 `BarcodeSignOptions`。只需确保它们不重叠。
+
+**Q: 如何处理包含特殊字符的条形码？**  
+A: Code128 能很好地处理大多数 ASCII 字符。若需 Unicode 或复杂数据，请改用 QR 码——它支持 UTF‑8 编码。
+
+**Q: Code128 条形码的最大数据容量是多少？**  
+A: 理论上最多 128 个字符，但超过 30‑40 个字符可读性会显著下降。若数据量更大，请使用 QR 码。
+
+**Q: 添加条形码会显著增加 PDF 文件大小吗？**  
+A: 不会——条形码是矢量图形，通常仅增加 5‑20 KB，具体取决于大小和复杂度。
+
+**Q: 能旋转条形码或垂直放置吗？**  
+A: 能！使用 `options.setRotationAngle(90)` 可将条形码旋转 90 度，适合边缘放置。
+
+**Q: 如何让条形码出现在多页 PDF 的每一页？**  
+A: 遍历页面并对每页调用签名。请参考 GroupDocs 文档中的 `PagesSetup` 类，以控制签名的页面范围。
+
+**Q: 如果我的条形码扫描器无法读取生成的条形码怎么办？**  
+A: 首先确认扫描器支持所选条形码类型。然后增大条形码尺寸——大多数读取问题源于条形码过小。建议宽度至少 1 英寸（2.54 cm）以确保可靠读取。
+
+## 其他资源
+
+**文档：**  
+- [GroupDocs.Signature for Java Docs](https://docs.groupdocs.com/signature/java/)  
+- [API Reference Guide](https://reference.groupdocs.com/signature/java/)  
+
+**下载与授权：**  
+- [Download Latest Version](https://releases.groupdocs.com/signature/java/)  
+- [Free Trial Access](https://releases.groupdocs.com/signature/java/)  
+- [Get Temporary License](https://purchase.groupdocs.com/temporary-license/)  
+- [Purchase Full License](https://purchase.groupdocs.com/buy)  
+
+**社区与支持：**  
+- [Support Forum](https://forum.groupdocs.com/c/signature/) - 活跃社区，拥有 GroupDocs 工程师参与  
+
+---
+
+**最后更新：** 2026-07-20  
+**测试环境：** GroupDocs.Signature 23.12（Java）  
+**作者：** GroupDocs
+
+```xml
+<dependency>
+    <groupId>com.groupdocs</groupId>
+    <artifactId>groupdocs-signature</artifactId>
+    <version>23.12</version>
+</dependency>
+```
+
+```gradle
+implementation 'com.groupdocs:groupdocs-signature:23.12'
+```
+
 ```java
 import com.groupdocs.signature.Signature;
 
@@ -103,25 +498,11 @@ public class QuickTest {
 }
 ```
 
-如果运行没有错误，您就可以开始了！
-
-## 如何在 Java 中创建条形码签名
-
-现在进入有趣的部分——让我们使用条形码为 PDF 签名。我们将把过程拆分为一步步的小步骤，以便您清楚每个阶段的具体操作。
-
-### 步骤 1：初始化 Signature 对象
-
-首先，您需要告诉 GroupDocs 您正在处理哪个 PDF：
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
 ```
 
-**此处的作用：** `Signature` 对象将您的 PDF 加载到内存中并准备进行修改。确保文件路径正确——常见错误是在 Windows 上使用单个反斜杠而未进行转义（使用 `\\` 或直接使用正斜杠，跨平台均可）。
-
-### 步骤 2：配置条形码选项（如何添加条形码）
-
-现在让我们使用您的数据创建条形码签名：
 ```java
 import com.groupdocs.signature.options.sign.BarcodeSignOptions;
 import com.groupdocs.signature.domain.barcodes.BarcodeTypes;
@@ -130,15 +511,6 @@ BarcodeSignOptions options = new BarcodeSignOptions("12345678");
 options.setEncodeType(BarcodeTypes.Code128);
 ```
 
-**拆解说明：**
-- `"12345678"` 是您的条形码数据——可以是订单号、证书编号或任何您需要的标识符  
-- `Code128` 是编码类型（下面会详细说明如何选择合适的类型）  
-
-**专业提示：** Code128 能处理数字和字母，适用于大多数场景。如果您只需要数字，`Code39` 可能更简单，但 Code128 提供了更大的灵活性。
-
-### 步骤 3：定位条形码（如何使用条形码签署 PDF）
-
-这正是 GroupDocs 发光之处——基于百分比的定位使您的条形码在任何 PDF 大小上都表现良好：
 ```java
 import com.groupdocs.signature.domain.enums.MeasureType;
 import com.groupdocs.signature.domain.Padding;
@@ -161,26 +533,17 @@ margins.setRight(1);
 options.setMargin(margins);
 ```
 
-**为何使用百分比很重要：** 想象一下您需要在 A4 文档和法律尺寸表单上签名。使用百分比定位，条形码会自动按比例缩放，在两种尺寸上保持一致。若使用固定像素值，则在大文档上条形码会太小，在小文档上则会太大。
-
-**实际示例：** 在 A4 页面（595 × 842 points）上，宽度为 10% 的条形码约为 60 points。 在法律页面（612 × 1008 points）上约为 61 points——自动保持比例。
-
-### 步骤 4：签名并保存文档（如何添加条形码 PDF）
-
-现在是实际应用签名并保存的时刻：
 ```java
 String outputFilePath = "YOUR_OUTPUT_DIRECTORY/SignWithPercents/sample_signed.pdf";
 signature.sign(outputFilePath, options);
 ```
 
-**重要提示：** 输出目录必须在运行代码前已存在。GroupDocs 不会为您创建嵌套目录，请先创建目录或在代码中处理：
 ```java
 Path outputPath = Paths.get(outputFilePath);
 Files.createDirectories(outputPath.getParent());
 signature.sign(outputFilePath, options);
 ```
 
-**如果出现错误怎么办？** 将其包装在 try‑catch 块中：
 ```java
 try {
     signature.sign(outputFilePath, options);
@@ -191,133 +554,27 @@ try {
 }
 ```
 
-## 为您的需求选择合适的条形码类型（code128 pdf 条形码）
-
-GroupDocs 支持多种条形码格式，选择合适的类型很重要。以下是实用对比：
-
-**Code128（我们的默认选择）：**
-- **最佳用途：** 混合字母数字数据（如 “INV2024-001” 的 ID）  
-- **容量：** 最多 128 个 ASCII 字符  
-- **优势：** 紧凑、广泛支持，能够处理字母和数字  
-- **使用场景：** 需要灵活性且不确定要编码的数据类型时  
-
-**Code39：**
-- **最佳用途：** 简单的字母数字码  
-- **容量：** 43 个字符（A‑Z、0‑9 以及部分符号）  
-- **考虑因素：** 老旧扫描仪通常更好支持  
-- **使用场景：** 与遗留系统配合或对数据密度要求不高、简洁更重要时  
-
-**QR Code：**
-- **最佳用途：** 大量数据（URL、JSON 负载）  
-- **容量：** 最多约 3 KB 数据  
-- **优势：** 可存储复杂数据结构，内置纠错  
-- **使用场景：** 需要嵌入结构化数据或 URL 时  
-
-**EAN/UPC：**
-- **最佳用途：** 产品识别  
-- **容量：** 固定长度数字码（8‑13 位）  
-- **使用场景：** 零售或库存系统  
-
-**快速决策指南：**
-- 需要字母和数字？ → Code128  
-- 仅数字，保持简洁？ → Code39  
-- 大量数据或 URL？ → QR Code  
-- 零售/产品码？ → EAN/UPC  
-
-## 常见陷阱及规避方法
-
-以下是开发者最常遇到的问题（帮助您避免）：
-
-### 问题 1：条形码定位不正确
-
-**症状：** 条形码出现在意外位置或被截断。
-
-**常见原因：**
-- 在不同页面尺寸上使用像素值  
-- 忘记 PDF 坐标系起点在左下角，而非左上角  
-- 边距导致内容超出可视区域  
-
-**解决方案：**  
-始终使用基于百分比的定位以保持一致性：
 ```java
 options.setLocationMeasureType(MeasureType.Percents);
 options.setLeft(5);  // 5% from left works on any page width
 ```
 
-### 问题 2：条形码文本不可读
-
-**症状：** 编码文本可见，但扫描仪无法读取。
-
-**原因：**
-- 条形码尺寸相对于数据量过小  
-- 数据使用了错误的编码类型  
-- 分辨率低或对比度差  
-
-**解决方案：**  
-根据数据长度匹配条形码尺寸。对于 10‑15 字符的 Code128，宽度至少应占页面宽度的 8‑10%：
 ```java
 options.setWidth(10);  // Give it room to breathe
 options.setHeight(5);  // Maintain proper aspect ratio
 ```
 
-### 问题 3：文件路径异常
-
-**症状：** `FileNotFoundException` 或类似错误。
-
-**原因：**
-- 硬编码的 Windows 路径使用单个反斜杠  
-- 输出目录不存在  
-- 文件权限问题  
-
-**解决方案：**  
-使用正斜杠（通用适用），并先创建目录：
 ```java
 String filePath = "documents/sample.pdf";  // Works on Windows, Mac, Linux
 Files.createDirectories(Paths.get("output/signed"));
 ```
 
-### 问题 4：大 PDF 的内存问题
-
-**症状：** 处理大文档时出现内存不足错误。
-
-**解决方案：**  
-完成后关闭 `Signature` 对象以释放资源：
 ```java
 try (Signature signature = new Signature(filePath)) {
     signature.sign(outputFilePath, options);
 } // Automatically closes and releases memory
 ```
 
-## 测试您的条形码实现
-
-在部署之前，请确保条形码实际可用。以下是实用的测试清单：
-
-### 1. 目视检查测试
-
-打开已签名的 PDF 并检查：
-- 条形码是否可见且定位正确？  
-- 是否清晰（无模糊或像素化）？  
-- 周围是否有足够的留白？
-
-### 2. 扫描测试
-
-使用手机上的条形码扫描应用（如 “Barcode Scanner” 或 “QR & Barcode Reader”）进行验证：
-- 扫描器能够读取条形码  
-- 解码数据与您编码的内容匹配  
-- 在不同角度和距离下均能正常工作
-
-### 3. 跨平台测试
-
-在不同设备上打开 PDF：
-- Windows（Adobe Reader、Chrome）  
-- Mac（Preview、Chrome）  
-- 移动设备（iOS、Android）  
-
-确保条形码在所有平台上均能正确渲染。
-
-### 4. 自动化测试代码
-
-以下是您可以运行的简单测试代码：
 ```java
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -350,37 +607,6 @@ public class BarcodeSignatureTest {
 }
 ```
 
-## 条形码签名的真实场景应用
-
-让我们看看此技术在生产系统中的实际亮点：
-
-### 1. 证书生成与验证
-
-**场景：** 您正在构建一个发放结业证书的培训平台。  
-**实现方式：** 生成唯一的证书 ID（例如 “CERT‑2024‑00123”），并将其作为 Code128 条形码嵌入右下角。扫描条形码即可让您的 API 立即获取证书详情，省去手动录入。
-
-### 2. 发票跟踪系统
-
-**场景：** 您的公司每月处理数千份发票。  
-**实现方式：** 将发票号和到期日作为 QR 码放置在便于扫描设备读取的位置。自动分拣系统可在无需人工干预的情况下路由发票，将处理时间从数小时缩短至数分钟。
-
-### 3. 法律合同管理
-
-**场景：** 律师事务所需要跟踪合同版本和修订。  
-**实现方式：** 为每个合同版本分配包含合同 ID、版本号和签署日期的唯一条形码标识符。审计时扫描即可自动调出完整的版本历史。
-
-### 4. 医疗记录安全
-
-**场景：** 医院希望防止未授权的记录访问。  
-**实现方式：** 在条形码中嵌入患者 ID 和记录创建时间戳。只有经过认证的设备才能解码并访问完整记录，每次扫描都会生成审计日志以满足合规要求。
-
-## 性能优化技巧
-
-在签署大量 PDF 时，性能至关重要。以下是保持顺畅运行的一些技巧：
-
-### 批量处理策略
-
-与其一次签署一个文档，不如批量处理：
 ```java
 List<String> pdfFiles = Arrays.asList("doc1.pdf", "doc2.pdf", "doc3.pdf");
 
@@ -392,18 +618,6 @@ for (String pdfFile : pdfFiles) {
 }
 ```
 
-**为何有效：** 重用 options 对象并正确关闭资源可防止内存泄漏。
-
-### 内存管理
-
-针对非常大的 PDF（50 + MB）：
-- 逐个顺序处理，而不是一次加载多个  
-- 使用 try‑with‑resources 确保清理  
-- 监控堆大小，并在需要时调整 JVM 参数，例如 `-Xmx2g`
-
-### 缓存策略
-
-如果您反复使用相同的条形码进行签名：
 ```java
 // Create options once, reuse many times
 BarcodeSignOptions templateOptions = createStandardBarcodeOptions();
@@ -413,62 +627,8 @@ BarcodeSignOptions documentOptions = templateOptions.clone();
 documentOptions.setText(uniqueDocumentId);
 ```
 
-## 何时使用条形码签名（以及何时不适用）
+## 相关教程
 
-**理想场景：**
-- 需要机器可读的文档标识符  
-- 文档将被自动扫描或处理  
-- 想要防篡改的追踪而无需数字证书  
-- 与现有条形码基础设施集成  
-
-**不适用的情况：**
-- 需要具有法律约束力的数字签名（应使用数字证书）  
-- 文档仅供人工查看（简单文字水印即可）  
-- 文档极小，条形码会占据页面大部分  
-- 安全要求需要加密（条形码是可见且可被任何人扫描的）  
-
-**可以结合使用吗？** 当然可以！许多系统同时使用条形码签名进行追踪和数字签名以满足法律有效性。
-
-## 常见问题
-
-**问：我可以在同一个 PDF 中使用不同的条形码类型吗？**  
-**答：** 可以！对每种条形码类型调用 `signature.sign()` 多次并使用不同的 `BarcodeSignOptions`。只需确保它们不重叠即可。
-
-**问：如何处理包含特殊字符的条形码？**  
-**答：** Code128 能很好地处理大多数 ASCII 字符。对于 Unicode 或复杂数据，请改用 QR 码——它们支持 UTF‑8 编码。
-
-**问：Code128 条形码最多能存储多少数据？**  
-**答：** 理论上最多 128 个字符，但在超过 30‑40 个字符后可读性显著下降。若数据量更大，请使用 QR 码。
-
-**问：添加条形码会显著增加 PDF 文件大小吗？**  
-**答：** 不会明显增加——条形码是矢量图形，通常每个条形码仅增加约 5‑20 KB，具体取决于尺寸和复杂度。
-
-**问：我可以旋转条形码或垂直放置吗？**  
-**答：** 可以！使用 `options.setRotationAngle(90)` 旋转条形码，这在边缘放置时非常方便。
-
-**问：如何让条形码出现在多页 PDF 的每一页上？**  
-**答：** 遍历页面并对每页应用签名。请查看 GroupDocs 文档中的 `PagesSetup` 类，以控制哪些页面需要签名。
-
-**问：如果我的条形码扫描仪无法读取生成的条形码怎么办？**  
-**答：** 首先确认扫描仪支持所选条形码类型。然后增大条形码尺寸——大多数扫描问题源于条形码太小。建议宽度至少为 1 英寸（2.54 cm），以确保可靠读取。
-
-## 其他资源
-
-**文档：**
-- [GroupDocs.Signature for Java Docs](https://docs.groupdocs.com/signature/java/)  
-- [API Reference Guide](https://reference.groupdocs.com/signature/java/)  
-
-**下载与许可证：**
-- [Download Latest Version](https://releases.groupdocs.com/signature/java/)  
-- [Free Trial Access](https://releases.groupdocs.com/signature/java/)  
-- [Get Temporary License](https://purchase.groupdocs.com/temporary-license/)  
-- [Purchase Full License](https://purchase.groupdocs.com/buy)  
-
-**社区与支持：**
-- [Support Forum](https://forum.groupdocs.com/c/signature/) - 活跃的社区，拥有 GroupDocs 工程师  
-
----
-
-**最后更新：** 2026-03-06  
-**测试环境：** GroupDocs.Signature 23.12（Java）  
-**作者：** GroupDocs
+- [Java Barcode Signature Tutorial - Add, Verify & Manage Barcodes in PDFs](/signature/java/barcode-signatures/)
+- [Create Barcode Signature in Java – Update PDF Barcodes](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
+- [How to read QR code PDF using Java and GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)

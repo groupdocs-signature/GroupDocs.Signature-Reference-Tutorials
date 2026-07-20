@@ -1,83 +1,124 @@
 ---
 categories:
 - Java Security
-date: '2026-03-06'
-description: เรียนรู้วิธีสร้างตัวเข้ารหัส XOR แบบกำหนดเองใน Java ด้วย XOR และ GroupDocs.Signature
-  คู่มือนี้แสดงวิธีสร้างคลาสการเข้ารหัส XOR ใน Java พร้อมตัวอย่างขั้นตอนต่อขั้นและคำถามที่พบบ่อย
-keywords: XOR encryption Java, custom encryption Java, Java data encryption tutorial,
-  implement encryption in Java, XOR cipher Java example, GroupDocs.Signature Java
-lastmod: '2026-03-06'
-linktitle: XOR Encryption Java Guide
+date: '2026-07-20'
+description: เรียนรู้วิธีสร้าง xor encryptor java ด้วย GroupDocs.Signature พร้อมโค้ดขั้นตอนต่อขั้นตอน
+  การตั้งค่า ปัญหาที่พบบ่อย และคำถามที่พบบ่อยสำหรับนักพัฒนา Java
+keywords:
+- xor encryptor java
+- custom encryption java
+- groupdocs signature xor
+- java data protection
+- lightweight encryption java
+lastmod: '2026-07-20'
+linktitle: คู่มือ XOR Encryption Java
+og_description: xor encryptor java ช่วยให้คุณปกป้องเอกสารด้วยอัลกอริทึม XOR แบบเบาที่รวมอยู่ใน
+  GroupDocs.Signature ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนของเรา เรียนรู้การตั้งค่า แนวปฏิบัติที่ดีที่สุด
+  และหลีกเลี่ยงปัญหาที่พบบ่อย
+og_image_alt: Guide showing how to build an xor encryptor java using GroupDocs.Signature
+og_title: xor encryptor java – ตัวเข้ารหัส XOR แบบกำหนดเองด้วย GroupDocs.Signature
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-20'
+  description: Learn how to create a xor encryptor java using GroupDocs.Signature.
+    Step‑by‑step code, setup, pitfalls, and FAQs for Java developers.
+  headline: xor encryptor java – Custom XOR Encryptor with GroupDocs.Signature
+  type: TechArticle
+- description: Learn how to create a xor encryptor java using GroupDocs.Signature.
+    Step‑by‑step code, setup, pitfalls, and FAQs for Java developers.
+  name: xor encryptor java – Custom XOR Encryptor with GroupDocs.Signature
+  steps:
+  - name: Create a `Signature` object for the target document.
+    text: Create a `Signature` object for the target document.
+  - name: Instantiate our custom encryption class.
+    text: Instantiate our custom encryption class.
+  - name: Configure signing options (QR code signatures in this example) to use our
+      encryption.
+    text: Configure signing options (QR code signatures in this example) to use our
+      encryption.
+  - name: Sign the document—GroupDocs automatically encrypts the sensitive data using
+      our XOR implementation.
+    text: Sign the document—GroupDocs automatically encrypts the sensitive data using
+      our XOR implementation.
+  - name: '**Secure Document Workflows** – Encrypt metadata (approver names, timestamps)
+      before embedding in QR codes or digital signatures.'
+    text: '**Secure Document Workflows** – Encrypt metadata (approver names, timestamps)
+      before embedding in QR codes or digital signatures.'
+  - name: '**Data Obfuscation in Logs** – XOR‑encrypt usernames or IDs before writing
+      to log files to protect privacy while keeping logs readable for debugging.'
+    text: '**Data Obfuscation in Logs** – XOR‑encrypt usernames or IDs before writing
+      to log files to protect privacy while keeping logs readable for debugging.'
+  - name: '**Educational Projects** – Perfect starter code for cryptography courses.'
+    text: '**Educational Projects** – Perfect starter code for cryptography courses.'
+  - name: '**Legacy System Integration** – Communicate with older systems that expect
+      XOR‑obfuscated payloads.'
+    text: '**Legacy System Integration** – Communicate with older systems that expect
+      XOR‑obfuscated payloads.'
+  - name: '**Testing Encryption Workflows** – Use XOR as a placeholder during development;
+      swap in AES later.'
+    text: '**Testing Encryption Workflows** – Use XOR as a placeholder during development;
+      swap in AES later.'
+  type: HowTo
+- questions:
+  - answer: No. XOR is vulnerable to known‑plaintext attacks and shouldn't protect
+      critical data like passwords or PII. Use AES‑256 for production‑grade security.
+    question: Is XOR encryption secure enough for production use?
+  - answer: Yes, a free trial gives full functionality for evaluation. For production
+      you’ll need a paid or temporary license.
+    question: Can I use GroupDocs.Signature for free?
+  - answer: Add the dependency shown in the “Maven Setup” section to `pom.xml`. Run
+      `mvn clean install` to download the library.
+    question: How do I configure my Maven project to include GroupDocs.Signature?
+  - answer: Null checks, hard‑coded keys, memory usage with large files, character‑encoding
+      mismatches, and missing exception handling. See the “Common Pitfalls” section
+      for detailed fixes.
+    question: What are common issues when implementing custom encryption?
+  - answer: No. It provides only obfuscation. For sensitive data, switch to a proven
+      algorithm like AES.
+    question: Can XOR encryption be used for highly sensitive data?
+  type: FAQPage
 tags:
-- encryption
+- encryptor
+- xor
 - java
-- security
 - groupdocs
-- data-protection
-title: สร้างตัวเข้ารหัส XOR แบบกำหนดเองใน Java ด้วย GroupDocs.Signature
+- data‑protection
+title: xor encryptor java – ตัวเข้ารหัส XOR แบบกำหนดเองด้วย GroupDocs.Signature
 type: docs
 url: /th/java/advanced-options/implement-custom-xor-encryption-groupdocs-signature-java/
 weight: 1
 ---
 
-# การเข้ารหัส XOR ด้วย Java - การทำงานแบบกำหนดเองอย่างง่ายกับ GroupDocs.Signature
+# xor encryptor java – สร้าง XOR Encryptor แบบกำหนดเองใน Java ด้วย GroupDocs.Signature
 
-## บทนำ
+Ever wondered how to **create a xor encryptor java** without pulling in heavyweight cryptographic libraries? You're not alone. Many developers need a lightweight, easy‑to‑understand encryption layer for data obfuscation, testing, or learning purposes. In this guide we’ll walk through building an **xor encryptor java** from the ground up and then plug it into GroupDocs.Signature so you can protect document workflows with just a few lines of code.
 
-เคยสงสัยไหมว่าจะ **create custom xor encryptor** อย่างไรในแอปพลิเคชัน Java ของคุณโดยไม่ต้องดึงไลบรารีการเข้ารหัสที่หนักหน่วง? คุณไม่ได้เป็นคนเดียว นักพัฒนาจำนวนมากต้องการชั้นการเข้ารหัสที่เบาและเข้าใจง่ายสำหรับการทำให้ข้อมูลเป็นอับอาย, การทดสอบ, หรือเพื่อการเรียนรู้ ในคู่มือนี้ เราจะอธิบายการสร้าง **xor encryption class java** ตั้งแต่เริ่มต้นและต่อเชื่อมกับ GroupDocs.Signature เพื่อให้คุณสามารถปกป้องกระบวนการทำงานของเอกสารได้ด้วยเพียงไม่กี่บรรทัดของโค้ด
-
-คุณจะได้ค้นพบ:
-- XOR encryption คืออะไรจริง ๆ และเมื่อใดที่เหมาะสมที่จะใช้
-- วิธีการทำงานของ xor encryption class java ที่สอดคล้องกับสัญญา `IDataEncryption` ของ GroupDocs
-- การผสานรวมแบบขั้นตอนกับ GroupDocs.Signature เพื่อการปกป้องเอกสารในโลกจริง
-- ข้อผิดพลาดทั่วไป, เคล็ดลับด้านประสิทธิภาพ, และเทคนิคการแก้ปัญหา
-- สถานการณ์การใช้งานจริงที่ custom xor encryptor ทำให้เด่น
-
-มาเริ่มกันเลยและทำให้ custom xor encryptor ของคุณพร้อมทำงาน
+You’ll discover:
+- XOR encryption คืออะไรจริง ๆ และเมื่อใดที่เหมาะสม
+- วิธีการทำ xor encryptor java ที่สอดคล้องกับสัญญา `IDataEncryption` ของ GroupDocs
+- การบูรณาการขั้นตอนต่อขั้นตอนกับ GroupDocs.Signature เพื่อการปกป้องเอกสารในโลกจริง
+- ข้อผิดพลาดทั่วไป เคล็ดลับประสิทธิภาพ และเทคนิคการแก้ปัญหา
+- สถานการณ์การใช้งานจริงที่ xor encryptor แบบกำหนดเองโดดเด่น
 
 ## คำตอบอย่างรวดเร็ว
-- **What is XOR encryption?** การดำเนินการแบบสมมาตรที่สลับบิตด้วยคีย์; ขั้นตอนเดียวกันใช้สำหรับการเข้ารหัสและถอดรหัสข้อมูล.  
-- **When should I use create custom xor encryptor?** สำหรับการเรียนรู้, การทำต้นแบบอย่างรวดเร็ว, หรือการทำให้ข้อมูลที่ไม่สำคัญเป็นอับอาย.  
-- **Do I need a special license for GroupDocs.Signature?** การทดลองใช้ฟรีทำงานสำหรับการพัฒนา; ต้องมีลิขสิทธิ์แบบชำระเงินสำหรับการใช้งานจริง.  
-- **Can I encrypt large files?** ใช่—ใช้การสตรีม (ประมวลผลข้อมูลเป็นชิ้น) เพื่อหลีกเลี่ยงปัญหาหน่วยความจำ.  
-- **Is XOR safe for sensitive data?** ไม่—ใช้ AES‑256 หรืออัลกอริธึมที่แข็งแรงอื่น ๆ สำหรับข้อมูลที่เป็นความลับ.
+- **XOR encryption คืออะไร?** การดำเนินการสมมาตรที่สลับบิตด้วยคีย์; วิธีเดียวกันใช้เข้ารหัสและถอดรหัสข้อมูล.  
+- **เมื่อใดที่ควรใช้ xor encryptor java?** สำหรับการเรียนรู้, การทำต้นแบบอย่างรวดเร็ว, หรือการทำให้ข้อมูลเป็นอับเฟสที่ไม่สำคัญ.  
+- **ฉันต้องการใบอนุญาตพิเศษสำหรับ GroupDocs.Signature หรือไม่?** เวอร์ชันทดลองฟรีทำงานสำหรับการพัฒนา; จำเป็นต้องมีใบอนุญาตแบบชำระเงินสำหรับการใช้งานจริง.  
+- **ฉันสามารถเข้ารหัสไฟล์ขนาดใหญ่ได้หรือไม่?** ได้—ใช้การสตรีมมิ่ง (ประมวลผลข้อมูลเป็นชunks) เพื่อหลีกเลี่ยงปัญหาหน่วยความจำ.  
+- **XOR ปลอดภัยสำหรับข้อมูลที่ละเอียดอ่อนไหม?** ไม่—ใช้ AES‑256 หรืออัลกอริทึมที่แข็งแกร่งอื่น ๆ สำหรับข้อมูลลับ.
 
-## **create custom xor encryptor** คืออะไรกับ XOR ใน Java?
-
-XOR encryption ทำงานโดยใช้ตัวดำเนินการ exclusive‑OR (`^`) ระหว่างแต่ละไบต์ของข้อมูลของคุณกับไบต์คีย์ลับหนึ่งไบต์ เนื่องจาก XOR เป็นตัวผกผันของตัวเอง วิธีเดียวกันจึงใช้ได้ทั้งการเข้ารหัสและถอดรหัส ทำให้เป็นโซลูชัน **create custom xor encryptor** ที่เบาและเหมาะสม
+## xor encryptor java คืออะไร?
+A xor encryptor java is a Java implementation of an XOR‑based encryption class that complies with GroupDocs.Signature’s `IDataEncryption` interface.  
+Load your data as a byte array, apply the XOR operation with a secret key, and the same method can decrypt it—making the implementation both simple and fast. This approach is ideal for lightweight obfuscation or as a teaching example before moving to stronger algorithms.
 
 ## ทำไมต้องเลือก XOR Encryption?
-
-ก่อนที่เราจะลงลึกในโค้ด, มาพูดถึงประเด็นสำคัญ: ทำไมต้องใช้ XOR?
-
-XOR (exclusive OR) encryption เปรียบเสมือน Honda Civic ของอัลกอริธึมการเข้ารหัส—ง่าย, เชื่อถือได้, และเหมาะสำหรับการเรียนรู้ นี่คือกรณีที่เหมาะสม:
-
-**เหมาะสำหรับ:**
-- **Educational purposes** – ทำความเข้าใจพื้นฐานการเข้ารหัสโดยไม่มีความซับซ้อนของการเข้ารหัส
-- **Data obfuscation** – ซ่อนข้อมูลระหว่างการส่งที่ไม่ต้องการความปลอดภัยระดับทหาร
-- **Quick prototyping** – ทดสอบกระบวนการเข้ารหัสก่อนนำอัลกอริธึมจริงไปใช้
-- **Legacy system integration** – ระบบเก่าบางระบบยังใช้โครงสร้างที่อิง XOR
-- **Performance‑critical scenarios** – การดำเนินการ XOR เร็วมาก
-
-**ไม่เหมาะสำหรับ:**
-- แอปพลิเคชันธนาคารหรือข้อมูลส่วนบุคคลที่สำคัญ (ใช้ AES แทน)
-- สถานการณ์ที่ต้องปฏิบัติตามกฎระเบียบ (GDPR, HIPAA ฯลฯ)
-- การปกป้องจากผู้โจมตีที่ซับซ้อน
-
-คิดว่า XOR เป็นกุญแจที่ประตูห้องนอน—มันจะป้องกันผู้บุกรุกทั่วไปแต่ไม่สามารถหยุดผู้ร้ายที่มุ่งมั่นได้ สำหรับสถานการณ์เหล่านั้น คุณควรใช้ алгоритмที่แข็งแรงระดับอุตสาหกรรมเช่น AES‑256
+XOR encryption gives you instant two‑way protection with virtually no CPU overhead—processing 1 GB of data in under a second on a typical 3.0 GHz server. It’s perfect for educational demos, quick prototyping, or legacy integrations where a full‑blown cipher would be overkill. However, for any regulated or high‑risk scenario you should switch to AES‑256 or another industry‑standard algorithm.
 
 ## ทำความเข้าใจพื้นฐานของ XOR Encryption
 
-มาลบความซับซ้อนของการทำงานของ XOR encryption กัน (มันง่ายกว่าที่คุณคิด).
+The XOR operation compares two bits and returns `1` if they differ, otherwise `0`. Because applying XOR twice with the same key restores the original value, encryption and decryption share identical code.
 
-**การดำเนินการ XOR:**  
-XOR เปรียบเทียบบิตสองบิตและคืนค่า:
-- `1` หากบิตต่างกัน
-- `0` หากบิตเหมือนกัน  
-
-นี่คือส่วนที่สวยงาม: **XOR encryption และการถอดรหัสใช้การดำเนินการเดียวกัน** ใช่แล้ว—โค้ดเดียวกันใช้เข้ารหัสและถอดรหัสข้อมูลของคุณ
-
-**ตัวอย่างอย่างเร็ว:**  
+**ตัวอย่างอย่างเร็ว:**
 ```
 Original:  01001000 (letter 'H')
 Key:       01011010 (our secret key)
@@ -89,32 +130,30 @@ Key:       01011010 (same key)
 Original:  01001000 (letter 'H' again!)
 ```
 
-สมมาตรนี้ทำให้ XOR มีประสิทธิภาพอย่างมาก—วิธีเดียวทำงานทั้งสองอย่าง ข้อจำกัด? ใครก็ตามที่มีคีย์ของคุณสามารถถอดรหัสข้อมูลได้ทันที ซึ่งเป็นเหตุผลที่การจัดการคีย์สำคัญ (แม้กับ XOR ที่ง่าย).
+This symmetry makes XOR incredibly efficient—one method does both jobs. The catch? Anyone with your key can decrypt the data instantly, which is why key management matters (even with simple XOR).
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มเขียนโค้ด, ให้แน่ใจว่าคุณเตรียมพร้อมสำหรับความสำเร็จ.
-
-**สิ่งที่คุณต้องการ:**
-- **Java Development Kit (JDK):** เวอร์ชัน 8 หรือสูงกว่า (ขอแนะนำ JDK 11+ เพื่อประสิทธิภาพที่ดีกว่า)
+**สิ่งที่คุณต้องการ**
+- **Java Development Kit (JDK):** เวอร์ชัน 8 หรือสูงกว่า (แนะนำ JDK 11+)
 - **IDE:** IntelliJ IDEA, Eclipse หรือ VS Code พร้อมส่วนขยาย Java
-- **Build Tool:** Maven หรือ Gradle (ตัวอย่างให้สำหรับทั้งสอง)
+- **Build Tool:** Maven หรือ Gradle (ตัวอย่างด้านล่าง)
 - **GroupDocs.Signature:** เวอร์ชัน 23.12 หรือใหม่กว่า
 
-**ความต้องการด้านความรู้:**
-- ไวยากรณ์พื้นฐานของ Java (คลาส, เมธอด, อาเรย์)
+**ความต้องการความรู้**
+- ไวยากรณ์พื้นฐานของ Java (คลาส, เมธอด, อาร์เรย์)
 - ความเข้าใจเกี่ยวกับอินเทอร์เฟซใน Java
-- คุ้นเคยกับอาเรย์ไบต์ (เราจะทำงานกับมันบ่อย)
-- แนวคิดทั่วไปของการเข้ารหัส (คุณเพิ่งเรียนพื้นฐาน XOR แล้วจึงพร้อม!)
+- คุ้นเคยกับอาร์เรย์ไบต์ (เราจะใช้บ่อย)
+- แนวคิดทั่วไปของการเข้ารหัส (คุณเพิ่งเรียนรู้พื้นฐานของ XOR แล้วจึงพร้อม!)
 
-**Time Commitment:** ประมาณ 30‑45 นาทีเพื่อทำการติดตั้งและทดสอบ
+**เวลาโดยประมาณ:** ประมาณ 30‑45 นาทีสำหรับการทำและทดสอบ
 
 ## การตั้งค่า GroupDocs.Signature สำหรับ Java
 
-GroupDocs.Signature สำหรับ Java คือเครื่องมือหลายอย่างของคุณสำหรับการดำเนินการเอกสาร—การลงนาม, การตรวจสอบ, การจัดการเมตาดาต้า, และ (ที่เกี่ยวข้องกับเรา) การสนับสนุนการเข้ารหัส นี่คือวิธีการเพิ่มลงในโปรเจกต์ของคุณ.
+GroupDocs.Signature for Java is your Swiss Army knife for document operations—signing, verification, metadata handling, and (relevant to us) encryption support. Here’s how to add it to your project.
 
-**Maven Setup:**  
-เพิ่ม dependency นี้ในไฟล์ `pom.xml` ของคุณ:  
+### การตั้งค่า Maven
+Add this dependency to your `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -123,49 +162,69 @@ GroupDocs.Signature สำหรับ Java คือเครื่องมื
 </dependency>
 ```
 
-**Gradle Setup:**  
-สำหรับผู้ใช้ Gradle, เพิ่มส่วนนี้ในไฟล์ `build.gradle` ของคุณ:  
+### การตั้งค่า Gradle
+For Gradle users, add this to your `build.gradle`:
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Direct Download Alternative:**  
-ต้องการติดตั้งด้วยตนเอง? ดาวน์โหลดไฟล์ JAR โดยตรงจาก [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) แล้วเพิ่มลงใน classpath ของโปรเจกต์ของคุณ.
+### ตัวเลือกการดาวน์โหลดโดยตรง
+Download the JAR directly from [GroupDocs.Signature สำหรับ Java releases](https://releases.groupdocs.com/signature/java/) and add it to your project's classpath.
 
-### การรับลิขสิทธิ์
+### การรับใบอนุญาต
+GroupDocs.Signature offers flexible licensing options:
 
-GroupDocs.Signature มีตัวเลือกลิขสิทธิ์ที่ยืดหยุ่น:
+- **Free Trial:** Perfect for evaluation—test all features with some limitations. [เริ่มทดลองใช้ฟรี](https://releases.groupdocs.com/signature/java/)
+- **Temporary License:** Need more time? Get a 30‑day temporary license with full functionality. [ขอที่นี่](https://purchase.groupdocs.com/temporary-license/)
+- **Full License:** For production use, purchase a license based on your needs. [ดูราคา](https://purchase.groupdocs.com/buy)
 
-- **Free Trial:** เหมาะสำหรับการประเมิน—ทดสอบทุกฟีเจอร์พร้อมข้อจำกัดบางอย่าง. [Start your trial](https://releases.groupdocs.com/signature/java/)
-- **Temporary License:** ต้องการเวลามากขึ้น? รับลิขสิทธิ์ชั่วคราว 30‑วันพร้อมฟังก์ชันเต็ม. [Request here](https://purchase.groupdocs.com/temporary-license/)
-- **Full License:** สำหรับการใช้งานจริง, ซื้อไลเซนส์ตามความต้องการของคุณ. [View pricing](https://purchase.groupdocs.com/buy)
+**Pro Tip:** Start with the free trial to ensure GroupDocs.Signature meets your requirements before purchasing.
 
-**Pro Tip:** เริ่มต้นด้วยการทดลองใช้ฟรีเพื่อให้แน่ใจว่า GroupDocs.Signature ตรงตามความต้องการของคุณก่อนซื้อ.
-
-**Basic Initialization:**  
-เมื่อคุณเพิ่ม dependency แล้ว, การเริ่มต้น GroupDocs.Signature ทำได้อย่างง่ายดาย:  
+### การเริ่มต้นพื้นฐาน
+Once you’ve added the dependency, initializing GroupDocs.Signature is straightforward:
 ```java
 Signature signature = new Signature("path/to/your/document");
 ```
 
-นี่จะสร้างอินสแตนซ์ `Signature` ที่ชี้ไปยังเอกสารเป้าหมายของคุณ จากนี้คุณสามารถทำการดำเนินการต่าง ๆ รวมถึงการเข้ารหัสแบบกำหนดเองของเรา (ที่เรากำลังจะสร้าง).
+This creates a `Signature` instance pointing to your target document. From here, you can apply various operations including our custom encryption (which we’re about to build).
 
-## คู่มือการทำงาน: การสร้าง XOR Encryption ของคุณเอง
+## คู่มือการทำงาน: สร้าง XOR Encryption แบบกำหนดเองของคุณ
 
-ตอนนี้เป็นส่วนที่สนุก—มาสร้างคลาส XOR encryption ที่ทำงานได้จากศูนย์ ฉันจะอธิบายแต่ละส่วนเพื่อให้คุณเข้าใจไม่เพียงแค่ “อะไร” แต่ยัง “ทำไม”.
+Now for the fun part—let’s build a working XOR encryption class from scratch. I’ll walk you through each piece so you understand not just the “what” but the “why.”
 
-### วิธี **create custom xor encryptor** ด้วย XOR ใน Java
+### วิธีสร้าง xor encryptor แบบกำหนดเองด้วย XOR ใน Java
 
-#### ขั้นตอนที่ 1: นำเข้าไลบรารีที่จำเป็น
+`IDataEncryption` is an interface in GroupDocs.Signature that defines methods for encrypting and decrypting byte data.  
+Load your raw data as a byte array, apply the XOR key to each byte, and return the transformed array—this single routine both encrypts and decrypts. The implementation below follows the `IDataEncryption` contract and can be used directly with GroupDocs.Signature.
 
-แรก, เราต้องนำเข้าอินเทอร์เฟซ `IDataEncryption` จาก GroupDocs:  
 ```java
 import com.groupdocs.signature.domain.extensions.encryption.IDataEncryption;
 ```
 
-#### ขั้นตอนที่ 2: กำหนดคลาส CustomXOREncryption
+**มาทำความเข้าใจกัน**
 
-นี่คือการทำงานเต็มรูปแบบของเราพร้อมคำอธิบายละเอียด:  
+- **เมธอดการเข้ารหัส:**  
+  - **พารามิเตอร์:** `byte[] data` – ข้อมูลดิบเป็นอาร์เรย์ไบต์ (ข้อความ, เนื้อหาเอกสาร ฯลฯ)  
+  - **การเลือกคีย์:** `byte key = 0x5A` – คีย์ XOR ของเรา (hex 5A = decimal 90). ในการผลิต ควรส่งคีย์ผ่านคอนสตรัคเตอร์เพื่อความยืดหยุ่น.  
+  - **ลูป:** ทำซ้ำแต่ละไบต์โดยใช้ `data[i] ^ key`.  
+  - **คืนค่า:** อาร์เรย์ไบต์ใหม่ที่มีข้อมูลเข้ารหัส
+
+- **เมธอดการถอดรหัส:** เรียก `encrypt(data)` เนื่องจาก XOR มีสมมาตร.
+
+- **ทำไมการออกแบบนี้ถึงทำงาน**  
+  1. implements `IDataEncryption`, making it compatible with GroupDocs.Signature.  
+  2. Operates on byte arrays, so it works with any file type.  
+  3. Keeps the logic short and easy to audit.
+
+**แนวคิดการปรับแต่ง**  
+- ส่งคีย์ผ่านคอนสตรัคเตอร์เพื่อคีย์แบบไดนามิก.  
+- ใช้หลายคีย์ไบต์เป็นอาร์เรย์และวนรอบ.  
+- เพิ่มอัลกอริทึมการจัดตารางคีย์แบบง่ายเพื่อความหลากหลายเพิ่มเติม.
+
+### การใช้การเข้ารหัสของคุณกับ GroupDocs.Signature
+
+Now that we have our encryption class, let’s integrate it with GroupDocs.Signature for real document protection:
+
 ```java
 public class CustomXOREncryption implements IDataEncryption {
     @Override
@@ -189,30 +248,24 @@ public class CustomXOREncryption implements IDataEncryption {
 }
 ```
 
-**มาวิเคราะห์ส่วนนี้:**
+**สิ่งที่เกิดขึ้นที่นี่**  
+1. สร้างอ็อบเจ็กต์ `Signature` สำหรับเอกสารเป้าหมาย.  
+2. สร้างอินสแตนซ์ของคลาสการเข้ารหัสแบบกำหนดเองของเรา.  
+3. ตั้งค่าตัวเลือกการเซ็น (QR code signatures ในตัวอย่างนี้) ให้ใช้การเข้ารหัสของเรา.  
+4. เซ็นเอกสาร—GroupDocs จะเข้ารหัสข้อมูลที่สำคัญโดยอัตโนมัติด้วยการทำงานของ XOR ของเรา.
 
-- **Encryption Method:**  
-  - **Parameter:** `byte[] data` – ข้อมูลดิบเป็นอาเรย์ไบต์ (ข้อความ, เนื้อหาเอกสาร, ฯลฯ)  
-  - **Key Selection:** `byte key = 0x5A` – คีย์ XOR ของเรา (hex 5A = decimal 90). ในการใช้งานจริง, คุณอาจส่งคีย์นี้ผ่านตัวสร้างเพื่อความยืดหยุ่น.  
-  - **Loop:** ทำซ้ำแต่ละไบต์โดยใช้ `data[i] ^ key`.  
-  - **Return:** อาเรย์ไบต์ใหม่ที่มีข้อมูลที่เข้ารหัสแล้ว.
+## ข้อผิดพลาดทั่วไปและวิธีหลีกเลี่ยง
 
-- **Decryption Method:**  
-  - เรียก `encrypt(data)` เนื่องจาก XOR มีสมมาตร.
+Even with simple implementations like XOR, developers run into predictable issues. Here’s what to watch out for (based on real troubleshooting sessions):
 
-**ทำไมการออกแบบนี้ถึงทำงานได้:**
-1. Implement `IDataEncryption`, ทำให้เข้ากันได้กับ GroupDocs.Signature.  
-2. ทำงานบนอาเรย์ไบต์, ดังนั้นจึงทำงานกับไฟล์ทุกประเภท.  
-3. ทำให้ตรรกะสั้นและง่ายต่อการตรวจสอบ.
+### 1. ความผิดพลาดในการจัดการคีย์
+- **ปัญหา:** การกำหนดคีย์แบบฮาร์ดโค้ดในซอร์สโค้ด (เช่นตัวอย่างของเรา)  
+- **วิธีแก้:** ในการผลิต โหลดคีย์จากตัวแปรสภาพแวดล้อมหรือไฟล์กำหนดค่าที่ปลอดภัย  
+- **Example:** `byte key = Byte.parseByte(System.getenv("XOR_KEY"));`
 
-**แนวคิดการปรับแต่ง:**
-- ส่งคีย์ผ่านตัวสร้างเพื่อคีย์ที่เปลี่ยนแปลงได้.  
-- ใช้อาเรย์คีย์หลายไบต์และวนรอบผ่านมัน.  
-- เพิ่มอัลกอริธึมการจัดตารางคีย์อย่างง่ายเพื่อความแปรผันเพิ่มเติม.
-
-#### ขั้นตอนที่ 3: ใช้การเข้ารหัสของคุณกับ GroupDocs.Signature
-
-ตอนนี้เรามีคลาสการเข้ารหัสแล้ว, มาผสานรวมกับ GroupDocs.Signature เพื่อการปกป้องเอกสารจริง:  
+### 2. Null Pointer Exceptions
+- **ปัญหา:** ส่งอาร์เรย์ไบต์ `null` ไปยังเมธอด `encrypt`/`decrypt`  
+- **วิธีแก้:** เพิ่มการตรวจสอบ null ที่จุดเริ่มต้นของเมธอดของคุณ:
 ```java
 // Initialize signature with your document
 Signature signature = new Signature("document.pdf");
@@ -228,40 +281,25 @@ options.setDataEncryption(encryption);
 signature.sign("signed_document.pdf", options);
 ```
 
-**สิ่งที่เกิดขึ้นที่นี่:**
-1. เราสร้างอ็อบเจกต์ `Signature` สำหรับเอกสารเป้าหมาย.  
-2. สร้างอินสแตนซ์ของคลาสการเข้ารหัสที่กำหนดเองของเรา.  
-3. กำหนดค่าตัวเลือกการลงนาม (ลายเซ็น QR code ในตัวอย่างนี้) ให้ใช้การเข้ารหัสของเรา.  
-4. ลงนามเอกสาร—GroupDocs จะเข้ารหัสข้อมูลที่สำคัญโดยอัตโนมัติด้วยการทำงานของ XOR ของเรา.
-
-## ข้อผิดพลาดทั่วไปและวิธีหลีกเลี่ยง
-
-แม้กับการทำงานง่าย ๆ อย่าง XOR, นักพัฒนาก็เจอปัญหาที่คาดเดาได้ นี่คือสิ่งที่ควรระวัง (อ้างอิงจากการแก้ปัญหาจริง):
-
-**1. Key Management Mistakes**  
-- **Problem:** การฝังคีย์แบบคงที่ในซอร์สโค้ด (เช่นในตัวอย่างของเรา)  
-- **Solution:** ในการใช้งานจริง, โหลดคีย์จากตัวแปรสภาพแวดล้อมหรือไฟล์การกำหนดค่าที่ปลอดภัย  
-- **Example:** `byte key = Byte.parseByte(System.getenv("XOR_KEY"));`
-
-**2. Null Pointer Exceptions**  
-- **Problem:** ส่งอาเรย์ไบต์ `null` ไปยังเมธอด `encrypt`/`decrypt`  
-- **Solution:** เพิ่มการตรวจสอบ null ที่จุดเริ่มต้นของเมธอดของคุณ:  
+### 3. ปัญหาการเข้ารหัสอักขระ
+- **ปัญหา:** แปลงสตริงเป็นไบต์โดยไม่ระบุการเข้ารหัส  
+- **วิธีแก้:** ระบุ charset อย่างชัดเจนเสมอ:
 ```java
 if (data == null) {
     throw new IllegalArgumentException("Data cannot be null");
 }
 ```
 
-**3. Character Encoding Issues**  
-- **Problem:** แปลงสตริงเป็นไบต์โดยไม่ระบุการเข้ารหัส  
-- **Solution:** ระบุ charset อย่างชัดเจนเสมอ:  
+### 4. ปัญหาหน่วยความจำกับไฟล์ขนาดใหญ่
+- **ปัญหา:** โหลดไฟล์ขนาดใหญ่ทั้งหมดเข้าสู่หน่วยความจำเป็นอาร์เรย์ไบต์  
+- **วิธีแก้:** สำหรับไฟล์ที่ใหญ่กว่า 100 MB ให้ใช้การเข้ารหัสแบบสตรีมมิ่ง:
 ```java
 byte[] data = myString.getBytes(StandardCharsets.UTF_8);
 ```
 
-**4. Memory Concerns with Large Files**  
-- **Problem:** โหลดไฟล์ขนาดใหญ่ทั้งหมดเข้าสู่หน่วยความจำเป็นอาเรย์ไบต์  
-- **Solution:** สำหรับไฟล์ที่ใหญ่กว่า 100 MB, ใช้การเข้ารหัสแบบสตรีมมิ่ง:  
+### 5. ลืมการจัดการข้อยกเว้น
+- **ปัญหา:** อินเทอร์เฟซ `IDataEncryption` ประกาศ `throws Exception`—คุณต้องจัดการข้อผิดพลาดที่อาจเกิดขึ้น  
+- **วิธีแก้:** ห่อการทำงานในบล็อก try‑catch:
 ```java
 // Process in chunks instead of loading entire file
 BufferedInputStream input = new BufferedInputStream(new FileInputStream(file));
@@ -272,9 +310,12 @@ while ((bytesRead = input.read(buffer)) != -1) {
 }
 ```
 
-**5. Forgetting Exception Handling**  
-- **Problem:** อินเทอร์เฟซ `IDataEncryption` ประกาศ `throws Exception`—คุณต้องจัดการข้อผิดพลาดที่อาจเกิดขึ้น  
-- **Solution:** ห่อการดำเนินการในบล็อก try‑catch:  
+## พิจารณาประสิทธิภาพ
+
+XOR encryption is blazingly fast—but when you pair it with GroupDocs.Signature, there are still performance factors to keep in mind.
+
+### แนวปฏิบัติการจัดการหน่วยความจำที่ดีที่สุด
+Close resources promptly to avoid leaks:
 ```java
 try {
     byte[] encrypted = encryption.encrypt(data);
@@ -284,84 +325,99 @@ try {
 }
 ```
 
-## พิจารณาด้านประสิทธิภาพ
-
-XOR encryption เร็วมาก—แต่เมื่อคุณผสานกับ GroupDocs.Signature ยังมีปัจจัยด้านประสิทธิภาพที่ต้องคำนึงถึง.
-
-### แนวทางปฏิบัติที่ดีที่สุดในการจัดการหน่วยความจำ
-
-- **ปิดทรัพยากรโดยเร็ว**  
+Process large files in chunks (see the streaming example above) and reuse encryption instances when possible:
 ```java
 try (Signature signature = new Signature("document.pdf")) {
     // Your operations here
 } // Automatically closes and releases resources
 ```
 
-- **ประมวลผลไฟล์ขนาดใหญ่เป็นชิ้น**  
-(see the streaming example above)
+### เคล็ดลับการปรับประสิทธิภาพ
+- **การประมวลผลแบบขนาน:** ใช้ Java parallel streams สำหรับการประมวลผลเป็นชุด.  
+- **ขนาดบัฟเฟอร์:** ทดลองใช้บัฟเฟอร์ 4 KB‑16 KB เพื่อ I/O ที่ดีที่สุด.  
+- **JIT Warm‑up:** JVM จะปรับแต่งลูป XOR หลังจากรันไม่กี่ครั้ง.
 
-- **ใช้อินสแตนซ์การเข้ารหัสซ้ำ**  
+**Benchmark Expectations (modern hardware)**
+- ไฟล์ขนาดเล็ก (< 1 MB): < 10 ms  
+- ไฟล์ขนาดกลาง (1‑50 MB): < 500 ms  
+- ไฟล์ขนาดใหญ่ (50‑500 MB): 1‑5 s ด้วยการสตรีมมิ่ง
+
+If you see slower performance, review your I/O code rather than the XOR itself.
+
+## การประยุกต์ใช้งานจริง: เมื่อควรสร้าง xor encryptor แบบกำหนดเอง
+
+You’ve built the encryption—now what? Here are real‑world scenarios where a lightweight xor encryptor java approach makes sense:
+
+1. **Secure Document Workflows** – Encrypt metadata (approver names, timestamps) before embedding in QR codes or digital signatures.  
+2. **Data Obfuscation in Logs** – XOR‑encrypt ชื่อผู้ใช้หรือ ID ก่อนเขียนลงไฟล์ล็อกเพื่อปกป้องความเป็นส่วนตัวในขณะที่ยังอ่านได้สำหรับการดีบัก.  
+3. **Educational Projects** – โค้ดเริ่มต้นที่สมบูรณ์สำหรับคอร์สคริปโตกราฟี.  
+4. **Legacy System Integration** – สื่อสารกับระบบเก่าที่คาดหวัง payload ที่ XOR‑obfuscated.  
+5. **Testing Encryption Workflows** – ใช้ XOR เป็นตัวแทนระหว่างการพัฒนา; เปลี่ยนเป็น AES ภายหลัง.
+
+## เคล็ดลับการแก้ปัญหา
+
+| ปัญหา | สาเหตุที่เป็นไปได้ | วิธีแก้ |
+|---------|-------------------|----------|
+| `NoClassDefFoundError` | GroupDocs JAR missing | Verify Maven/Gradle dependency, run `mvn clean install` or `gradle clean build` |
+| Encrypted data looks unchanged | XOR key is `0x00` | Choose a non‑zero key (e.g., `0x5A`) |
+| `OutOfMemoryError` on large docs | Loading whole file into memory | Switch to streaming (see code above) |
+| Decryption yields garbage | Different key used for decrypt | Ensure same key; store/retrieve securely |
+| JDK compatibility warnings | Using older JDK | Upgrade to JDK 11+ |
+
+**Still Stuck?** Check the [ฟอรั่มสนับสนุนของ GroupDocs](https://forum.groupdocs.com/c/signature/) where the community and support team can help.
+
+## คำถามที่พบบ่อย
+
+**Q: XOR encryption ปลอดภัยพอสำหรับการใช้งานใน production หรือไม่?**  
+A: No. XOR is vulnerable to known‑plaintext attacks and shouldn't protect critical data like passwords or PII. Use AES‑256 for production‑grade security.
+
+**Q: ฉันสามารถใช้ GroupDocs.Signature ได้ฟรีหรือไม่?**  
+A: Yes, a free trial gives full functionality for evaluation. For production you’ll need a paid or temporary license.
+
+**Q: ฉันจะกำหนดค่าโปรเจกต์ Maven ของฉันเพื่อรวม GroupDocs.Signature อย่างไร?**  
+A: Add the dependency shown in the “Maven Setup” section to `pom.xml`. Run `mvn clean install` to download the library.
+
+**Q: ปัญหาทั่วไปเมื่อทำการ implement การเข้ารหัสแบบกำหนดเองคืออะไร?**  
+A: Null checks, hard‑coded keys, memory usage with large files, character‑encoding mismatches, and missing exception handling. See the “Common Pitfalls” section for detailed fixes.
+
+**Q: XOR encryption สามารถใช้กับข้อมูลที่มีความละเอียดอ่อนได้หรือไม่?**  
+A: No. It provides only obfuscation. For sensitive data, switch to a proven algorithm like AES.
+
+**Q: ฉันจะเปลี่ยนคีย์การเข้ารหัสโดยไม่ต้องฮาร์ดโค้ดได้อย่างไร?**  
+A: Modify the class to accept a key via constructor:  
 ```java
 CustomXOREncryption encryption = new CustomXOREncryption();
 for (Document doc : documents) {
     processDocument(doc, encryption);
 }
-```
+```  
+Load the key from environment variables or secure config files in production.
 
-### เคล็ดลับการปรับแต่ง
+**Q: XOR encryption ทำงานกับทุกประเภทไฟล์หรือไม่?**  
+A: Yes. Since it operates on raw bytes, any file—text, image, PDF, video—can be processed.
 
-- **Parallel Processing:** ใช้ Java parallel streams สำหรับการดำเนินการเป็นชุด  
-- **Buffer Sizes:** ทดลองใช้บัฟเฟอร์ 4 KB‑16 KB เพื่อ I/O ที่ดีที่สุด  
-- **JIT Warm‑up:** JVM จะปรับแต่งลูป XOR หลังจากรันไม่กี่ครั้ง  
+**Q: ฉันจะทำให้ XOR encryption แข็งแรงขึ้นได้อย่างไร?**  
+A: Use a multi‑byte key array, implement key scheduling, combine with bit rotations, or chain with other simple transformations. Still, for strong security prefer AES.
 
-**Benchmark Expectations (modern hardware):**
-- ไฟล์ขนาดเล็ก (< 1 MB): < 10 ms  
-- ไฟล์ขนาดกลาง (1‑50 MB): < 500 ms  
-- ไฟล์ขนาดใหญ่ (50‑500 MB): 1‑5 s ด้วยการสตรีม  
+## แหล่งข้อมูล
 
-หากคุณพบประสิทธิภาพช้าลง, ตรวจสอบโค้ด I/O ของคุณแทนที่จะเป็น XOR เอง.
+**Documentation**  
+- [เอกสาร GroupDocs.Signature สำหรับ Java](https://docs.groupdocs.com/signature/java/) – Complete reference and guides  
+- [API Reference](https://reference.groupdocs.com/signature/java/) – Detailed API documentation  
 
-## การประยุกต์ใช้งานจริง: เมื่อควร **create custom xor encryptor**
+**ดาวน์โหลดและการให้ใบอนุญาต**  
+- [Download GroupDocs.Signature](https://releases.groupdocs.com/signature/java/) – Latest releases  
+- [Purchase a License](https://purchase.groupdocs.com/buy) – Pricing and plans  
+- [Free Trial](https://releases.groupdocs.com/signature/java/) – Start evaluating today  
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/) – Extended evaluation access  
 
-คุณได้สร้างการเข้ารหัสแล้ว—ต่อไปทำอะไร? นี่คือสถานการณ์จริงที่วิธี **create custom xor encryptor** แบบเบานี้เหมาะสม:
+**ชุมชนและการสนับสนุน**  
+- [Support Forum](https://forum.groupdocs.com/c/signature/) – Get help from the community and GroupDocs team  
 
-1. **Secure Document Workflows** – เข้ารหัสเมตาดาต้า (ชื่อผู้อนุมัติ, เวลา) ก่อนฝังใน QR code หรือลายเซ็นดิจิทัล.  
-2. **Data Obfuscation in Logs** – XOR‑เข้ารหัสชื่อผู้ใช้หรือ ID ก่อนเขียนลงไฟล์บันทึกเพื่อปกป้องความเป็นส่วนตัวพร้อมให้บันทึกอ่านได้สำหรับการดีบัก.  
-3. **Educational Projects** – โค้ดเริ่มต้นที่สมบูรณ์แบบสำหรับคอร์สการเข้ารหัส.  
-4. **Legacy System Integration** – สื่อสารกับระบบเก่าที่คาดหวัง payload ที่ XOR‑obfuscated.  
-5. **Testing Encryption Workflows** – ใช้ XOR เป็นตัวแทนระหว่างการพัฒนา; เปลี่ยนเป็น AES ในภายหลัง.
+**อัปเดตล่าสุด:** 2026-07-20  
+**ทดสอบกับ:** GroupDocs.Signature 23.12 สำหรับ Java  
+**ผู้เขียน:** GroupDocs
 
-## เคล็ดลับการแก้ปัญหา
-
-| ปัญหา | สาเหตุที่เป็นไปได้ | วิธีแก้ |
-|---------|--------------|-----|
-| `NoClassDefFoundError` | GroupDocs JAR หาย | ตรวจสอบ dependency ของ Maven/Gradle, รัน `mvn clean install` หรือ `gradle clean build` |
-| ข้อมูลที่เข้ารหัสดูเหมือนไม่เปลี่ยนแปลง | คีย์ XOR เป็น `0x00` | เลือกคีย์ที่ไม่เป็นศูนย์ (เช่น `0x5A`) |
-| `OutOfMemoryError` บนเอกสารขนาดใหญ่ | โหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ | เปลี่ยนเป็นสตรีมมิ่ง (ดูโค้ดด้านบน) |
-| การถอดรหัสให้ผลลัพธ์เป็นข้อมูลเสีย | ใช้คีย์ที่ต่างกันสำหรับการถอดรหัส | ตรวจสอบให้ใช้คีย์เดียวกัน; เก็บ/ดึงคีย์อย่างปลอดภัย |
-| คำเตือนความเข้ากันได้ของ JDK | ใช้ JDK รุ่นเก่า | อัปเกรดเป็น JDK 11+ |
-
-**Still Stuck?** ตรวจสอบที่ [GroupDocs Support Forum](https://forum.groupdocs.com/c/signature/) ที่ชุมชนและทีมสนับสนุนสามารถช่วยได้.
-
-## คำถามที่พบบ่อย
-
-**Q: การเข้ารหัส XOR ปลอดภัยพอสำหรับการใช้งานใน production หรือไม่?**  
-A: ไม่. XOR มีความเสี่ยงต่อการโจมตีแบบ known‑plaintext และไม่ควรใช้ปกป้องข้อมูลสำคัญเช่นรหัสผ่านหรือข้อมูลส่วนบุคคล (PII). ใช้ AES‑256 สำหรับความปลอดภัยระดับ production.
-
-**Q: ฉันสามารถใช้ GroupDocs.Signature ได้ฟรีหรือไม่?**  
-A: ได้, การทดลองใช้ฟรีให้ฟังก์ชันเต็มสำหรับการประเมิน. สำหรับการใช้งานจริงคุณจะต้องมีลิขสิทธิ์แบบชำระเงินหรือชั่วคราว.
-
-**Q: ฉันจะกำหนดค่าโปรเจกต์ Maven ของฉันให้รวม GroupDocs.Signature อย่างไร?**  
-A: เพิ่ม dependency ที่แสดงในส่วน “Maven Setup” ไปยังไฟล์ `pom.xml`. รัน `mvn clean install` เพื่อดาวน์โหลดไลบรารี.
-
-**Q: ปัญหาทั่วไปเมื่อทำการ implement การเข้ารหัสแบบกำหนดเองคืออะไร?**  
-A: การตรวจสอบ null, คีย์ที่ฝังในโค้ด, การใช้หน่วยความจำกับไฟล์ขนาดใหญ่, ความไม่ตรงกันของการเข้ารหัสอักขระ, และการขาดการจัดการข้อยกเว้น. ดูส่วน “Common Pitfalls” เพื่อรับวิธีแก้ไขโดยละเอียด.
-
-**Q: การเข้ารหัส XOR สามารถใช้กับข้อมูลที่มีความสำคัญสูงได้หรือไม่?**  
-A: ไม่. มันให้เพียงการทำให้ข้อมูลเป็นอับอาย. สำหรับข้อมูลที่สำคัญ, ควรเปลี่ยนไปใช้アルゴリズムที่พิสูจน์แล้วเช่น AES.
-
-**Q: ฉันจะเปลี่ยนคีย์การเข้ารหัสโดยไม่ฝังคีย์ในโค้ดได้อย่างไร?**  
-A: ปรับคลาสให้รับคีย์ผ่านตัวสร้าง:  
 ```java
 public class CustomXOREncryption implements IDataEncryption {
     private final byte key;
@@ -371,30 +427,10 @@ public class CustomXOREncryption implements IDataEncryption {
     }
     // encrypt/decrypt use this.key
 }
-```  
-โหลดคีย์จากตัวแปรสภาพแวดล้อมหรือไฟล์การกำหนดค่าที่ปลอดภัยในสภาพการผลิต.
+```
 
-**Q: การเข้ารหัส XOR ทำงานกับทุกประเภทไฟล์หรือไม่?**  
-A: ได้. เนื่องจากทำงานบนไบต์ดิบ, ไฟล์ใดก็ได้—ข้อความ, รูปภาพ, PDF, วิดีโอ—สามารถประมวลผลได้.
+## บทเรียนที่เกี่ยวข้อง
 
-**Q: ฉันจะทำให้การเข้ารหัส XOR แข็งแรงขึ้นได้อย่างไร?**  
-A: ใช้อาเรย์คีย์หลายไบต์, implement key scheduling, ผสมกับการหมุนบิต, หรือเชื่อมต่อกับการแปลงง่ายอื่น ๆ. อย่างไรก็ตาม สำหรับความปลอดภัยที่แข็งแรงควรใช้ AES.
-
-## แหล่งข้อมูล
-
-**Documentation:**  
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) – เอกสารอ้างอิงและคู่มือครบถ้วน  
-- [API Reference](https://reference.groupdocs.com/signature/java/) – เอกสาร API รายละเอียด  
-
-**Download and Licensing:**  
-- [Download GroupDocs.Signature](https://releases.groupdocs.com/signature/java/) – เวอร์ชันล่าสุด  
-- [Purchase a License](https://purchase.groupdocs.com/buy) – ราคาและแผน  
-- [Free Trial](https://releases.groupdocs.com/signature/java/) – เริ่มประเมินวันนี้  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/) – การเข้าถึงการประเมินที่ขยาย  
-
-**Community and Support:**  
-- [Support Forum](https://forum.groupdocs.com/c/signature/) – รับความช่วยเหลือจากชุมชนและทีม GroupDocs  
-
-**อัปเดตล่าสุด:** 2026-03-06  
-**ทดสอบด้วย:** GroupDocs.Signature 23.12 for Java  
-**ผู้เขียน:** GroupDocs
+- [How to Encrypt Signature in Java – Advanced Signing Options & Encryption Techniques](/signature/java/advanced-options/)
+- [Encrypt Document Metadata Java with GroupDocs.Signature](/signature/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/)
+- [How to Add QR Code to PDF Java - Complete Guide with Password Protection](/signature/java/document-protection/groupdocs-signature-java-pdf-security-guide/)
