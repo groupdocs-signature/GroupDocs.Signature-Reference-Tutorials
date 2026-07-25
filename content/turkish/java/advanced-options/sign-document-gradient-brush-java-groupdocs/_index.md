@@ -1,78 +1,124 @@
 ---
 categories:
 - Document Processing
-date: '2026-03-14'
-description: GroupDocs.Signature kullanarak Java’da imza görünümünü degrade efektiyle
-  özelleştirmeyi öğrenin. Tam kod örnekleri ve sorun giderme içerir.
-keywords: java digital signature with gradient effect, customize document signature
-  appearance java, groupdocs signature gradient brush tutorial, java pdf signature
-  styling, gradient brush document signing java code
-lastmod: '2026-03-14'
-linktitle: Java Gradient Signature Tutorial
+date: '2026-07-25'
+description: GroupDocs.Signature kullanarak Java'da gradient digital signature oluşturun.
+  Gradient brushes nasıl uygulanır, appearance nasıl özelleştirilir ve common issues
+  nasıl giderilir öğrenin.
+keywords:
+- create gradient digital signature
+- gradient brush Java
+- GroupDocs signature styling
+- digital signature gradient
+lastmod: '2026-07-25'
+linktitle: Java Gradient Signature Öğreticisi
+og_description: GroupDocs.Signature ile Java'da gradient digital signature oluşturun.
+  Bu rehber, gradient brushes kullanarak imzaları nasıl stilize edeceğinizi, positioning
+  yapılandırmayı ve common issues nasıl ele alacağınızı adım adım gösterir.
+og_image_alt: 'Guide: Create gradient digital signature in Java using GroupDocs.Signature'
+og_title: Java'da Gradient Digital Signature Oluşturun – GroupDocs Rehberi
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-25'
+  description: Create gradient digital signature in Java using GroupDocs.Signature.
+    Learn how to apply gradient brushes, customize appearance, and troubleshoot common
+    issues.
+  headline: Create Gradient Digital Signature in Java with GroupDocs
+  type: TechArticle
+- description: Create gradient digital signature in Java using GroupDocs.Signature.
+    Learn how to apply gradient brushes, customize appearance, and troubleshoot common
+    issues.
+  name: Create Gradient Digital Signature in Java with GroupDocs
+  steps:
+  - name: Initialise Signature Options
+    text: 'First, we define what the signature will contain. The `TextSignOptions`
+      class handles text‑based signatures. **Definition anchor**: `TextSignOptions`
+      represents the configuration for a textual signature, including text content,
+      font, colour, and visual effects. The snippet creates a basic signature '
+  - name: Customise Background with Gradient Brush
+    text: 'Next, we apply a linear gradient brush to give the signature a polished
+      look. **Definition anchor**: `LinearGradientBrush` describes a colour transition
+      that fills a shape along a straight line, defined by start and end colours and
+      an angle. Key points: - `setColor(Color.GREEN)` provides a fallback '
+  - name: Set Signature Positioning
+    text: 'Now we tell the engine where to place the signature on the page. **Definition
+      anchor**: `SignatureOptions` (the base class for all option types) holds common
+      properties such as alignment, margins, and size. Understanding alignment vs.
+      margin: - **Alignment** anchors the signature (e.g., `HorizontalA'
+  - name: Apply Signature and Save
+    text: 'Finally, we sign the document and write the result to a new file. **Definition
+      anchor**: `SignResult` provides detailed information about the outcome of a
+      signing operation, including succeeded and failed signatures. The `sign()` method
+      takes the source file, applies the configured options, and crea'
+  type: HowTo
+- questions:
+  - answer: Yes. GroupDocs.Signature is pure Java and works in any Java‑based backend,
+      including Spring Boot, Jakarta EE, or microservice frameworks.
+    question: Can I use this in a web‑based Java service?
+  - answer: Only marginally. The gradient is stored as a visual appearance stream,
+      typically adding a few kilobytes to the file.
+    question: Does the gradient affect the size of the signed PDF?
+  - answer: 'Pass the password when creating the `Signature` object: `new Signature("file.pdf",
+      "password")`.'
+    question: How do I sign password‑protected PDFs?
+  - answer: Absolutely. Use `ImageSignOptions` and set its `Background` with a `LinearGradientBrush`
+      just like the text example.
+    question: Is it possible to apply the gradient to an image‑based signature instead
+      of text?
+  - answer: GroupDocs currently supports `LinearGradientBrush` only. For radial effects,
+      generate a radial‑gradient PNG and use it as a background image.
+    question: What if I need a radial gradient instead of linear?
+  type: FAQPage
 tags:
 - java
 - digital-signature
 - groupdocs
 - pdf-signing
 - document-styling
-title: Java'da imza görünümünü gradyan ile özelleştirme
+- gradient signature
+title: Java'da GroupDocs ile Gradient Digital Signature Oluşturun
 type: docs
 url: /tr/java/advanced-options/sign-document-gradient-brush-java-groupdocs/
 weight: 1
 ---
 
-ed With:** GroupDocs.Signature 23.12 for Java"
+# Java ile GroupDocs'ta Degrade Dijital İmza Oluşturma
 
-"**Author:** GroupDocs"
-
-Now ensure we keep placeholders unchanged.
-
-Also note there were shortcodes? None.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.# Java'da gradient ile imza görünümünü özelleştirme
-
-Hiç bazı dijital imzalı belgelerin nasıl, şey... sıkıcı göründüğünü fark ettiniz mi? Sadece beyaz bir arka plan üzerinde düz metin? Eğer sözleşmeler, faturalar veya sertifikalar gibi profesyonel görünümlü belge imzalarına ihtiyaç duyan bir uygulama geliştiriyorsanız—imzanızın öne çıkmasını ve aynı zamanda işlevsel olmasını istersiniz. **Bu öğreticide, Java'da bir gradient fırça uygulayarak imza görünümünü nasıl özelleştireceğinizi öğreneceksiniz.** Gradient bir dijital imza oluşturmak sadece görsel bir parlaklık katmakla kalmaz, aynı zamanda marka kimliğini güçlendirir ve algılanan özgünlüğü artırır.
+Eğer **degrade dijital imza** nesneleri oluşturmak, şık görünmek, marka renkleriyle uyumlu olmak ve yine de kriptografik standartları karşılamak istiyorsanız doğru yerdesiniz. Bu öğreticide, projenize GroupDocs.Signature kütüphanesini eklemekten, lineer degrade fırçasını yapılandırmaya, imzanın konumlandırılmasına ve en yaygın sorunların ele alınmasına kadar ihtiyacınız olan her şeyi adım adım göstereceğiz. Sonunda, sadece birkaç Java kod satırıyla PDF, Word dosyaları veya görüntülere görsel olarak çekici degrade imzalar ekleyebileceksiniz.
 
 ## Hızlı Yanıtlar
-- **Gradient dijital imza nedir?** Arka planı veya metin doldurması için renk geçişi (gradient) kullanan dijital olarak imzalanmış görsel öğe.  
-- **Java'da bunu hangi kütüphane destekliyor?** GroupDocs.Signature for Java, yerleşik gradient fırça desteği sağlar.  
-- **Gradientler kriptografik güvenliği etkiler mi?** Hayır. Gradient tamamen görseldir; alttaki dijital imza değişmez.  
-- **Hangi Java sürümü gerekiyor?** JDK 8 veya üzeri (JDK 11+ önerilir).  
-- **Üretim için lisans gerekli mi?** Evet—değerlendirme dışı kullanım için geçerli bir GroupDocs.Signature lisansı gereklidir.
+- **Degrade dijital imza nedir?** Arka planı veya metin doldurması için renk geçişi kullanan dijital olarak imzalanmış görsel öğe.  
+- **Java’da bunu destekleyen kütüphane hangisidir?** GroupDocs.Signature for Java, yerleşik degrade fırça desteği sağlar.  
+- **Degrader kriptografik güvenliği etkiler mi?** Hayır. Degrade tamamen görseldir; temel dijital imza değişmez.  
+- **Hangi Java sürümü gereklidir?** JDK 8 veya üzeri (JDK 11+ önerilir).  
+- **Üretim için lisans gerekli mi?** Evet—değerlendirme dışı kullanım için geçerli bir GroupDocs.Signature lisansı gerekir.
 
-## Java'da gradient fırça ile imza görünümünü nasıl özelleştirirsiniz
-Bu bölümde, kütüphaneyi kurmaktan metin imzasına lineer gradient fırça uygulamaya kadar tüm süreci adım adım inceleyeceğiz. Sonunda **gradient dijital imza** nesnelerini oluşturabilecek ve bunların markanızın renkleriyle uyumlu, şık görünmesini sağlayacaksınız.
+## Dijital İmzalar İçin Neden Degrade Fırçalar Kullanılmalı?
 
-## Dijital İmzalar İçin Gradient Fırçalar Neden Kullanılmalı?
-Koda geçmeden önce, gradient efektlerini neden isteyebileceğinizi konuşalım.
+Degrade fırça, imzanın arka planına marka tutarlı renk geçişleri eklemenizi sağlar; bu da imzalanan belgenin daha profesyonel ve güvenilir hissettirmesine yardımcı olur. Degrade imzalar görsel hiyerarşi oluşturur, onay seviyelerini ayırt eder ve kurumsal kimliği güçlendirir; aynı zamanda imzanın kriptografik bütünlüğünü etkilemez.
 
-**Marka tutarlılığı**: Şirketiniz belirli renk şemaları kullanıyorsa, gradient imzalar tüm belgelerde görsel tutarlılığı korumaya yardımcı olur. Finans hizmetleri şirketi güven için mavi‑beyaz gradientler kullanabilirken, yaratıcı bir ajans canlı renk geçişleriyle cesur bir görünüm elde edebilir.  
-**Belge hiyerarşisi**: Gradient efektleri imza türlerini ayırt etmeye yardımcı olabilir. Standart onaylar için hafif gradientler, yönetici onayları veya yasal yetkilendirmeler için daha belirgin gradientler kullanabilirsiniz.  
-**Kusursuz görsel çekicilik**: İşte güzel kısmı—dijital imzanızın kriptografik güvenliğini riske atmadan profesyonel bir stil elde edersiniz. Gradient tamamen görseldir; imzanızın geçerliliği aynı kalır.  
-**Sahteciliğe karşı algıyı azaltma**: Stilize imzalı belgeler genellikle son kullanıcılara daha otantik görünür. Bu gerçek güvenliği artırmasa da algılanan meşruiyeti iyileştirir (kullanıcı güveni için önemlidir).
+## Öğrenecekleriniz
 
-## Neler Öğreneceksiniz
-Bu rehberin sonunda şunları yapabilecek:
+Bu öğreticide, GroupDocs.Signature kütüphanesini yapılandırmayı, degrade‑stil metin imzaları oluşturmayı, renkler, şeffaflık ve konum gibi görsel özellikleri ayarlamayı ve uygulama sırasında ortaya çıkan yaygın sorunları çözmeyi öğreneceksiniz. Rehber ayrıca performans ipuçları ve temiz, yeniden kullanılabilir imzalama kodu için en iyi uygulama kalıplarını da kapsar.
 
-- Projenizde GroupDocs.Signature for Java'ı kurun (Maven, Gradle veya manuel).  
-- Lineer gradient fırça efektleriyle metin tabanlı imzalar oluşturun.  
-- **İmza görünümünü**, konumlandırmayı ve şeffaflığı özelleştirin.  
-- Geliştiricileri zorlayan yaygın sorunları giderin.  
-- Üretim uygulamaları için performansı optimize edin.  
-- Bakımı kolay imza kodu için en iyi uygulamaları uygulayın.
+- GroupDocs.Signature for Java kurulumu (Maven, Gradle veya manuel)  
+- Lineer degrade fırçalarıyla **degrade dijital imza** nesneleri oluşturma  
+- Görünüm, konumlandırma ve şeffaflığı özelleştirme  
+- Yaygın sorunları giderme ve performansı optimize etme  
+- Bakımı kolay imza kodu için en iyi uygulama kalıplarını uygulama  
 
-## Önkoşullar
-Başlamadan önce şunların olduğundan emin olun:
+## Ön Koşullar
 
-- **Java Development Kit (JDK)**: Sürüm 8 veya üzeri (daha iyi performans için JDK 11+ öneririm).  
-- **IDE**: IntelliJ IDEA, Eclipse veya Java uzantılarına sahip VS Code.  
-- **GroupDocs.Signature for Java Kütüphanesi**: Bunu Maven veya Gradle aracılığıyla ekleyeceğiz.  
-- **Temel Java bilgisi**: Nesneler, metodlar ve istisna yönetimi konusunda rahat olmalısınız.
+Başlamadan önce şu şeylere sahip olduğunuzdan emin olun:
+
+- **Java Development Kit (JDK)** 8 veya üzeri (JDK 11+ önerilir)  
+- **IDE** (IntelliJ IDEA, Eclipse veya Java uzantılarına sahip VS Code)  
+- **GroupDocs.Signature for Java** kütüphanesi (Maven, Gradle veya manuel JAR ile eklenmiş)  
+- Java nesneleri, metodlar ve istisna yönetimi konusunda temel bilgi  
 
 ### Gerekli Kütüphaneler
-Tercih ettiğiniz derleme aracını kullanarak projenize GroupDocs.Signature ekleyin.
+
+GroupDocs.Signature'ı tercih ettiğiniz yapı aracını kullanarak projenize ekleyin.
 
 **Maven için** (`pom.xml` dosyanıza ekleyin):
 ```xml
@@ -88,23 +134,27 @@ Tercih ettiğiniz derleme aracını kullanarak projenize GroupDocs.Signature ekl
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Manuel kurulum**: Bir derleme aracı kullanmıyorsanız (ama öneririm), JAR dosyasını doğrudan [GroupDocs Signatures releases](https://releases.groupdocs.com/signature/java/) adresinden indirebilir ve projenizin sınıf yoluna ekleyebilirsiniz.
+**Manuel kurulum**: Bir yapı aracı kullanmıyorsanız (öneririz), JAR dosyasını [GroupDocs Signatures releases](https://releases.groupdocs.com/signature/java/) adresinden indirip sınıf yolunuza ekleyin.
 
-### Lisans Edinimi
-GroupDocs, test ve geliştirme için mükemmel bir ücretsiz deneme sunar. Üretim kullanımı için bir lisansa ihtiyacınız olacak. İşte nasıl başlayacağınız:
+### Lisans Edinme
 
-1. **Ücretsiz deneme**: [GroupDocs Free Trial](https://releases.groupdocs.com/) adresini ziyaret ederek herhangi bir taahhüt olmadan indirin  
-2. **Geçici lisans**: Tam özellikli test için [GroupDocs Temporary License](https://purchase.groupdocs.com/temporary-license/) adresinden 30‑günlük geçici lisans alın  
-3. **Tam lisans**: Üretime hazır olduğunuzda fiyatlandırma seçeneklerine göz atın  
+GroupDocs, geliştirme için ücretsiz deneme sunar, ancak ticari kullanımda üretim lisansı gereklidir.
 
-Deneme sürümünde değerlendirme filigranları bulunur, bu yüzden müşteri odaklı bir şey geliştiriyorsanız geçici bir lisans alın.
+1. **Ücretsiz deneme** – [GroupDocs Free Trial](https://releases.groupdocs.com/) adresinden indirin  
+2. **Geçici lisans** – tam özellikli test için [GroupDocs Temporary License](https://purchase.groupdocs.com/temporary-license/) adresinden 30‑günlük anahtar alın  
+3. **Tam lisans** – üretim dağıtımları için fiyatlandırma portalından satın alın  
 
-## GroupDocs.Signature for Java'ı Kurma
-Geliştirme ortamınızı hazırlayalım. Bu kurulum, yeni bir proje başlatıyor ya da mevcut bir uygulamaya entegre ediyor olsanız da çalışır.
+Deneme sürümü değerlendirme filigranları ekler; uygulamanızı müşterilere sunmadan önce geçici ya da tam lisans almanız gerekir.
+
+## GroupDocs.Signature for Java Kurulumu
+
+Ortamı hazırlayalım. Bu, yeni projeler ve mevcut kod tabanlarına entegrasyon için geçerlidir.
 
 ### Kurulum Adımları
-**1. Bağımlılığı ekleyin** (yukarıda zaten ele aldık—Maven veya Gradle).  
-**2. Kurulumu doğrulayın** basit bir test sınıfı oluşturarak:
+
+1. **Bağımlılığı ekleyin** (yukarıda anlatıldı).  
+2. **Kurulumu doğrulayın** basit bir test sınıfı oluşturarak:
+
 ```java
 import com.groupdocs.signature.Signature;
 
@@ -115,8 +165,10 @@ public class SignatureTest {
 }
 ```
 
-Bu hatasız derleniyorsa, devam edebilirsiniz.  
-**3. Belge dizin yapınızı ayarlayın**. Ben şu şekilde düzenlemeyi tercih ederim:
+Bu hata vermeden derleniyorsa, bir sonraki adıma geçebilirsiniz.
+
+3. **Belge klasörlerinizi düzenleyin** – temiz bir yapı, çok sayıda dosya işlenirken yardımcı olur:
+
 ```
 project-root/
 ├── src/
@@ -126,7 +178,8 @@ project-root/
 └── pom.xml (or build.gradle)
 ```
 
-**4. Temel başlatma** (büyünün başladığı yer):
+4. **Temel başlatma** – `Signature` nesnesi tüm imzalama işlemlerinin giriş noktasıdır:
+
 ```java
 import com.groupdocs.signature.Signature;
 import com.groupdocs.signature.exception.GroupDocsSignatureException;
@@ -151,13 +204,18 @@ public class BasicSignatureSetup {
 }
 ```
 
-**Pro ipucu**: `Signature` nesnenizi her zaman try‑with‑resources ifadesi içinde sarın ya da manuel olarak `dispose()` çağırın. GroupDocs dosya tutucularını tutar ve serbest bırakmayı unutmak "dosya kullanımda" hatalarına yol açar (nasıl bildiğimi sorun).
+**İpucu**: `Signature` örneğini try‑with‑resources bloğu içinde tutun ya da manuel olarak `dispose()` çağırın. Dosya tutamaçlarını serbest bırakmayı unutmak “dosya kullanımda” hatalarına yol açar.
 
-## Uygulama Kılavuzu: Gradient İmzalar Oluşturma
-Şimdi eğlenceli kısma—gradient fırça etkisiyle bir imza oluşturalım. Basit başlayıp ilerledikçe karmaşıklık ekleyeceğiz.
+## Uygulama Kılavuzu: Degrade İmzalar Oluşturma
+
+Şimdi **degrade dijital imza** oluşturma sürecini adım adım inşa edeceğiz.
 
 ### Adım 1: İmza Seçeneklerini Başlatma
-İlk olarak, imzamızın ne söyleyeceğini ve nasıl davranacağını tanımlarız. `TextSignOptions` sınıfı metin‑tabanlı imzaları yönetir:
+
+İlk olarak, imzanın içereceklerini tanımlarız. `TextSignOptions` sınıfı metin‑tabanlı imzaları yönetir.
+
+**Tanım referansı**: `TextSignOptions`, metin içeriği, yazı tipi, renk ve görsel efektler dahil olmak üzere metinsel bir imzanın yapılandırmasını temsil eder.
+
 ```java
 import com.groupdocs.signature.domain.enums.HorizontalAlignment;
 import com.groupdocs.signature.domain.enums.VerticalAlignment;
@@ -166,12 +224,14 @@ import com.groupdocs.signature.domain.signatures.TextSignOptions;
 TextSignOptions options = new TextSignOptions("John Smith");
 ```
 
-Bu, "John Smith" metniyle temel bir imza oluşturur. Basit, değil mi? Ancak tek başına, şeffaf bir arka plan üzerinde sadece düz siyah metin olur—sıkıcı. Gradientler burada devreye girer.
+Bu kod parçacığı “John Smith” yazan temel bir imza oluşturur. Tek başına şeffaf bir arka plan üzerinde sade siyah metin olarak görünür – pek etkileyici değildir.
 
-**Neden seçenekleri imza nesnesinden ayırıyoruz?** Bu tasarım deseni, aynı imza yapılandırmasını birden çok belgede yeniden kullanmanıza olanak tanır. Bir kez ayarlayın, her yerde uygulayın.
+### Adım 2: Degrade Fırça ile Arka Planı Özelleştirme
 
-### Adım 2: Arka Planı Gradient Fırça ile Özelleştirme
-İmzanızın profesyonel görünmeye başladığı yer burası. Yeşilden beyaza geçiş yapan bir lineer gradient oluşturacağız:
+Şimdi, imzaya şık bir görünüm kazandırmak için lineer degrade fırçası uygularız.
+
+**Tanım referansı**: `LinearGradientBrush`, bir şekli düz bir hat boyunca dolduran renk geçişini tanımlar; başlangıç ve bitiş renkleri ile açı belirlenir.
+
 ```java
 import com.groupdocs.signature.domain.Background;
 import com.groupdocs.signature.domain.extensions.brushes.LinearGradientBrush;
@@ -194,15 +254,20 @@ background.setBrush(brush);
 options.setBackground(background);
 ```
 
-**Burada neler olduğunu adım adım inceleyelim:**
-- **Temel renk**: `setColor(Color.GREEN)` katı bir yedek renk ayarlar. Gradientler başarısız olursa (nadir ama mümkün), bu renk gösterilir.  
-- **Şeffaflık**: `setTransparency(0.5f)` imzanızı yarı‑şeffaf yapar. Alt metni gizlemek istemediğiniz belgeler için kritiktir. 0'a yakın değerler daha opaktır; 1'e yakın değerler daha şeffaftır.  
-- **Gradient açısı**: `45` değeri gradientin sol‑üstten sağ‑alta diyagonal akacağını gösterir. Yatay için `0` (sol → sağ), dikey için `90` (üst → alt) ya da aradaki herhangi bir açı kullanın.  
+Temel noktalar:
 
-**Renk seçimleri önemlidir**: Yeşilden beyaza onay veya teyit ("git" sinyalleri) önerir. Maviden beyaza güven ve profesyonellik verir. Kırmızı‑beyaz aciliyet veya önem gösterebilir. Renkleri belgenizin amacına ve marka kimliğinize uygun seçin.
+- `setColor(Color.GREEN)` degrade render edilemezse yedek katı rengi sağlar.  
+- `setTransparency(0.5f)` imzayı yarı şeffaf yapar, alttaki metnin gizlenmesini önler. 0’a yakın değerler opak, 1’e yakın değerler neredeyse görünmez.  
+- `45` açısı, sol‑üstten sağ‑alta diyagonal bir geçiş oluşturur. Yatay için `0`, dikey için `90` ve aradaki herhangi bir açı kullanılabilir.
+
+Marka renklerinize (ör. güven için mavi‑beyaz, onay için yeşil‑beyaz) uygun renkler seçmek, imzayı anında tanınabilir kılar.
 
 ### Adım 3: İmza Konumlandırmasını Ayarlama
-Şimdi imzaya belgenizde *nerede* görüneceğini söylememiz gerekiyor. Konumlandırma göründüğünden daha karmaşıktır; görünürlüğü sağlarken önemli içeriği kapatmamalısınız:
+
+Şimdi motorun imzayı sayfada nerede yerleştireceğini belirtiyoruz.
+
+**Tanım referansı**: `SignatureOptions` (tüm seçenek tiplerinin temel sınıfı), hizalama, kenar boşlukları ve boyut gibi ortak özellikleri tutar.
+
 ```java
 import com.groupdocs.signature.domain.Padding;
 
@@ -221,17 +286,27 @@ padding.setRight(20);    // 20 units from the right edge
 options.setMargin(padding);
 ```
 
-**Hizalama ve kenar boşluğu farkı**: Hizalamayı çapa noktası, kenar boşluğunu ise kayma olarak düşünün. `HorizontalAlignment.Center` ayarlarsanız, imza sayfada ortalanır, ardından kenar boşluğu bu merkez noktasına göre kaydırır. Bu iki adımlı yaklaşım kesin kontrol sağlar.
+Hizalama ve kenar boşluğu arasındaki fark:
 
-**Yaygın konumlandırma desenleri**:
-- **Sağ‑alt köşe**: `HorizontalAlignment.Right`, `VerticalAlignment.Bottom`, negatif üst kenar boşluğu ile  
-- **Üst bilgi alanı**: `VerticalAlignment.Top`, `HorizontalAlignment.Right`, dolgu ile  
-- **Sayfa ortası**: Her iki hizalama da `Center` olarak ayarlanır, kenar boşlukları isteğe göre ayarlanır  
+- **Alignment** imzayı sabitler (ör. `HorizontalAlignment.Right`).  
+- **Margin** sabit noktanın kaydırmasını sağlar (ör. `setMarginTop(-10)`).  
 
-**Boyut düşünceleri**: `setWidth(100)` ve `setHeight(80)` değerleri çoğu standart belge için uygundur, ancak belge boyutuna ve imza metni uzunluğuna göre ayarlamanız gerekebilir. Metin kesiliyorsa genişliği artırın. Çok sıkışık görünüyorsa yüksekliği artırın ya da yazı tipini küçültün.
+Yaygın kalıplar:
+
+| İstenen konum | HorizontalAlignment | VerticalAlignment | Tipik kenar boşluğu değerleri |
+|----------------|----------------------|-------------------|-------------------------------|
+| Sağ‑alt | Right | Bottom | `setMarginTop(-20)` |
+| Üst‑başlık alanı | Right | Top | `setMarginTop(20)` |
+| Sayfa ortası | Center | Center | `setMarginLeft(0)` |
+
+Metin uzunluğunu ve sayfanın sayfa boyutunu dikkate alarak `setWidth` ve `setHeight` değerlerini ayarlayın.
 
 ### Adım 4: İmzayı Uygula ve Kaydet
-Son olarak, belgeyi imzalayalım ve çıktıyı kaydedelim. Tüm yapılandırmanızın bir araya geldiği yer:
+
+Son olarak belgeyi imzalıyor ve sonucu yeni bir dosyaya yazıyoruz.
+
+**Tanım referansı**: `SignResult`, bir imzalama işleminin sonucunu, başarılı ve başarısız imzaları içerecek şekilde ayrıntılı olarak sağlar.
+
 ```java
 import com.groupdocs.signature.Signature;
 import com.groupdocs.signature.domain.SignResult;
@@ -260,12 +335,12 @@ try {
 }
 ```
 
-`sign()` metodunda neler oluyor?** Kaynak belgenizi alır, yapılandırılmış imza seçeneklerini uygular ve imza gömülü yeni bir dosya yazar. Orijinal dosya dokunulmaz kalır (iyi bir uygulama—kaynak belgeleri doğrudan değiştirmeyin).
-
-`SignResult` nesnesi ne olduğunu söyler. Hangi imzaların başarıyla uygulandığını görmek için `getSucceeded()`, çalışmayanları yakalamak için `getFailed()` kontrol edin.
+`sign()` metodu kaynak dosyayı alır, yapılandırılmış seçenekleri uygular ve görsel imzayı içeren yeni bir dosya oluşturur; orijinal dosya değişmeden kalır. Her zaman `signResult.getSucceeded()` kontrol ederek başarısını doğrulayın.
 
 ## Tam Çalışan Örnek
-Şimdiye kadar birleştirilen ve hemen kopyalayıp test edebileceğiniz tek bir çalıştırılabilir sınıf:
+
+Aşağıda, hemen kopyalayıp çalıştırabileceğiniz tek bir sınıf halinde birleştirilmiş tüm kod bulunmaktadır:
+
 ```java
 import com.groupdocs.signature.Signature;
 import com.groupdocs.signature.domain.Background;
@@ -330,33 +405,30 @@ public class GradientSignatureExample {
 }
 ```
 
-`resources/input/` dizininizde bir PDF dosyasıyla bu kodu çalıştırın, güzel bir gradient etkisiyle imzalanmış bir sürüm elde edeceksiniz.
+Programı `resources/input/` klasörüne bir PDF koyarak çalıştırın; çıktı, şık bir degrade imza içerecektir.
 
-## Yaygın Kullanım Durumları
-Gerçek uygulamalarda gradient imzaların ne zaman ve nerede en mantıklı olduğuna bakalım.
+## Yaygın Kullanım Senaryoları
 
-### 1. Kurumsal Sözleşme Yönetim Sistemleri
-**Senaryo**: Belgeyi farklı aşamalarda birden çok paydaşın imzaladığı bir sözleşme onay akışı oluşturuyorsunuz.  
-**Uygulama**: Farklı onay seviyelerini temsil etmek için farklı gradient renkler kullanın—bölüm başkanları mavi‑beyaz gradient, hukuk inceleyenler altın‑beyaz gradient, yöneticiler koyu‑mavi‑açık‑mavi gradient alır. Bu görsel hiyerarşi, kullanıcıların kimin ve hangi seviyede imzaladığını anında görmesini sağlar.
+### 1. Kurumsal Sözleşme Yönetimi
+Farklı onay seviyeleri, farklı degrade renkleriyle görselleştirilebilir—ör. yöneticiler için mavi‑beyaz, hukuk için altın‑beyaz, yöneticiler için koyu‑mavi‑açık‑mavi. Bu görsel hiyerarşi, inceleyenlerin kimlerin imzaladığını anında tanımasını sağlar.
 
 ### 2. Otomatik Fatura İşleme
-**Senaryo**: Muhasebe sisteminiz, oluşturulan faturaları müşterilere göndermeden önce otomatik olarak imzalar.  
-**Uygulama**: Marka renklerinizle uyumlu hafif bir gradient, faturaları daha profesyonel ve taklit edilmesi zor gösterir. Gradienti ölçülü tutun ki fatura okunabilir kalır.
+Faturalara marka renkli ince bir degrade ekleyerek müşterilere e‑posta gönderin. Etki profesyonel görünürken belge okunabilir kalır.
 
 ### 3. Sertifika Oluşturma
-**Senaryo**: Çevrimiçi kurslar veya eğitim programları için tamamlama sertifikaları oluşturuyorsunuz.  
-**Uygulama**: Canlı, kutlama amaçlı gradientler (altın‑sarı veya mavi‑mor) sertifikaları resmi ve paylaşmaya değer hissettirir. Görsel çekicilik algılanan değeri artırır ve sosyal paylaşımı teşvik eder.
+Sertifikalarda canlı degrade (mor‑pembe, altın‑sarı) kullanarak resmi ve paylaşmaya değer bir his yaratın. Görsel çekicilik algılanan değeri artırır.
 
 ### 4. Belge Filigranı
-**Senaryo**: Belgeleri “Taslak”, “Gizli” veya “Onaylı” olarak işaretlemeniz gerekiyor.  
-**Uygulama**: İmza olmasa da, şeffaf metinle gradient tekniğini yeniden kullanarak alttaki içeriği gizlemeyen göz alıcı filigranlar oluşturabilirsiniz. Hafif bir etki için şeffaflığı 0.7‑0.8 olarak ayarlayın.
+Degrade tekniğini şeffaf metinle “Taslak”, “Gizli” veya “Onaylı” filigranları oluşturmak için yeniden kullanın; alttaki içeriği gizlemez. Şeffaflığı 0.7‑0.8 arasında ayarlayın.
 
 ## Yaygın Sorunların Giderilmesi
-Gradient imzalarla çalışırken karşılaştığım (ve çözdüğüm) sorunlar burada. Hata ayıklama sürenizi kısaltın.
 
-### Sorun 1: "Dosya başka bir işlem tarafından kullanılıyor"
-**Belirtiler**: Uygulamanız dosyaya erişemediğini söyleyen bir istisna fırlatıyor, ancak başka bir program dosyayı açık tutmuyor.  
-**Neden**: `signature.dispose()` çağırmayı ya da `Signature` nesnesini düzgün kapatmayı unuttunuz. Java, nesne çöp toplama yapılana kadar dosya tutucusunu tutar.  
+Aşağıda, degrade imzalarla çalışırken karşılaştığım (ve çözdüğüm) problemler yer alıyor.
+
+### Sorun 1: “Dosya başka bir işlem tarafından kullanılıyor”
+
+**Doğrudan yanıt (40‑70 kelime)**: İstisna, `Signature` nesnesinin hâlâ açık bir dosya tutamaçını elinde tutması nedeniyle ortaya çıkar. İmzalama sonrası `Signature` örneğini her zaman kapatın veya serbest bırakın. Try‑with‑resources bloğu kullanmak, dosyanın otomatik olarak serbest bırakılmasını sağlar ve sonraki işlemlerde “dosya kullanımda” hatalarını önler.
+
 **Çözüm**:
 ```java
 // Always use try‑with‑resources (Java 7+)
@@ -380,18 +452,23 @@ try {
 }
 ```
 
-### Sorun 2: İmza görünüyor ama gradient görünmüyor
-**Belirtiler**: İmza metnini görüyorsunuz, ancak sadece katı bir renk.  
+### Sorun 2: İmza görünüyor ancak degrade görünmüyor
+
+**Doğrudan yanıt**: Degrader, görüntüleyicinin desteği yoksa, şeffaflık 1.0 olarak ayarlanmışsa veya fırça doğru bağlanmamışsa görünmez. PDF görüntüleyiciyi (Adobe Acrobat, Foxit veya modern bir tarayıcı) kontrol edin, şeffaflığı 0.3‑0.7 arasında ayarlayın ve `background.setBrush(brush)` ile `options.setBackground(background)` çağrılarının yapıldığından emin olun.
+
 **Olası nedenler**:
-1. PDF görüntüleyici gradientleri desteklemiyor – Adobe Acrobat, Foxit Reader veya modern bir tarayıcıyla test edin.  
-2. Şeffaflık çok yüksek ayarlandı – `setTransparency(1.0f)` gradienti görünmez yapar. 0.3‑0.7 deneyin.  
-3. Fırça uygulanmadı – `background.setBrush(brush)` *ve* `options.setBackground(background)` çağırdığınızdan emin olun.  
 
-**Hata ayıklama ipucu**: Önce yüksek kontrastlı renkler (ör. `Color.RED` to `Color.BLUE`) kullanın. Yine gradient görmüyorsanız, yapılandırma yanlıştır, renkler değil.
+1. Görüntüleyici degrade desteklemiyor – modern bir görüntüleyiciyle test edin.  
+2. Şeffaflık çok yüksek – 0.3‑0.7 aralığına düşürün.  
+3. Fırça uygulanmadı – metod çağrılarını iki kez kontrol edin.
 
-### Sorun 3: İmza önemli belge içeriğini örtüyor
-**Belirtiler**: Gradient imzanız harika görünüyor ama kritik metin veya form alanlarını kapatıyor.  
-**Çözüm**: Belge içeriğine göre konumlandırmayı dinamik olarak ayarlayın. İşte kullandığım bir desen:
+**Hata ayıklama ipucu**: İlk aşamada yüksek kontrastlı renkler (ör. kırmızı‑mavi) kullanarak degrade render edildiğini doğrulayın, ardından ince ayar yapın.
+
+### Sorun 3: İmza önemli belge içeriğiyle çakışıyor
+
+**Doğrudan yanıt**: Çakışma, konumlandırma değerlerinin imzayı mevcut metin veya form alanlarının üzerine yerleştirmesinden kaynaklanır. Boş alanı dinamik olarak hesaplayın ya da sayfa‑seviyesi analizle imzayı otomatik olarak yeniden konumlandırın.
+
+**Çözüm kalıbı**:
 ```java
 // For documents with content primarily at the top
 options.setVerticalAlignment(VerticalAlignment.Bottom);
@@ -406,16 +483,10 @@ padding.setTop(600);     // Absolute Y position
 padding.setLeft(400);    // Absolute X position
 options.setMargin(padding);
 ```
-**Daha iyi yaklaşım**: Önce belgeyi ayrıştırarak boş alanları bulun, ardından imzaları programatik olarak bu alanlara yerleştirin.
 
 ### Sorun 4: Büyük belgelerde performans sorunları
-**Belirtiler**: Çok sayfalı veya yüksek çözünürlüklü görüntüler içeren PDF'lerde imzalama uzun sürüyor.  
-**Neden**: GroupDocs tüm belgeyi işler ve karmaşık gradientler render yükünü artırır.  
-**Çözümler**:
-1. Tüm dosya yerine sadece belirli sayfaları imzalayın.  
-2. Daha basit gradientler kullanın – iki renkli lineer gradientler, radyal veya çok duraklı gradientlerden daha hızlıdır.  
-3. İmza boyutunu küçültün – daha küçük genişlik/yükseklik daha az render işi demektir.  
-4. Asenkron işleyin – imzalama sırasında ana iş parçacığını engellemeyin.  
+
+**Doğrudan yanıt**: Büyük PDF’lerin imzalanması, GroupDocs’un tüm dosyayı işlemesi ve her sayfa için degrade render etmesi nedeniyle yavaşlayabilir. İmzalamayı belirli sayfalara sınırlayın, iki‑renkli basit degradeler kullanın, imza boyutlarını küçültün ve işlemi asenkron çalıştırarak UI’nın yanıt vermesini sağlayın.
 
 **Performans örneği**:
 ```java
@@ -433,19 +504,20 @@ LinearGradientBrush brush = new LinearGradientBrush(
 ```
 
 ### Sorun 5: Renk beklentileriyle uyuşmuyor
-**Belirtiler**: Gradient kodda belirttiğinizden farklı görünüyor.  
-**Nedenler**:
-1. RGB renk uzayı farkları – Java'nın `Color` sRGB kullanır, ancak PDF'ler farklı bir uzayda render edebilir.  
-2. Şeffaflık etkileşimleri – Yarı şeffaf gradientler belge arka planıyla karışarak algılanan rengi değiştirir.  
-3. Monitör kalibrasyonu – Ekranınızda gördükleriniz başkalarınınkinden farklı olabilir.  
 
-**Çözüm**: İmzalı belgeleri birden çok cihaz ve PDF görüntüleyicide test edin. Marka tutarlılığı kritikse, kesin RGB değerlerini kullanın ve platformlar arasında doğrulayın. Renk kaymalarını azaltmak için opaklığı 0.3‑0.5 civarında tutun.
+**Doğrudan yanıt**: Renk kaymaları, RGB‑den PDF renk uzayına dönüşüm, şeffaflık karışımı veya monitör kalibrasyonu farklarından kaynaklanır. Tam sRGB değerleri kullanın, şeffaflığı orta seviyede (0.3‑0.5) tutun ve farklı görüntüleyicilerde test ederek marka tutarlılığını doğrulayın.
 
-## Üretim Uygulamaları için En İyi Uygulamalar
-Gerçek dünyadaki sistemlerde gradient imzalar kullanarak edindiğim deneyimler:
+## Üretim Uygulamaları İçin En İyi Uygulamalar
 
-### 1. İmza Yapılandırmasını Merkezileştirin
-Stil tanımlarını kodunuzun her yerine dağıtmayın. Bir yardımcı sınıf oluşturun:
+| Uygulama | Neden Önemlidir |
+|----------|-----------------|
+| Stilizasyonu bir yardımcı sınıfta merkezileştirin | Tüm belgelerde tutarlı görünüm sağlar |
+| Kaynak belgeleri imzalamadan önce doğrulayın | Bozuk dosyaların imzalama hattını kırmasını önler |
+| Her imzalama işlemini kaydedin | Uyumluluk için denetim izi oluşturur |
+| İstisnaları nazikçe yönetin | Beklenmeyen durumlarda hizmetinizin kararlılığını korur |
+| Gerçek‑dünya PDF’leri (formlar, taranmış görüntüler, mevcut imzalar) ile test edin | Degrade renderının tüm senaryolarda çalıştığını garanti eder |
+
+**Yardımcı sınıf örneği**:
 ```java
 public class SignatureStyles {
     public static TextSignOptions getApprovalSignature(String signerName) {
@@ -473,10 +545,8 @@ public class SignatureStyles {
     // Add more style methods as needed
 }
 ```
-Artık stilleri tutarlı bir şekilde yeniden kullanabilirsiniz: `SignatureStyles.getApprovalSignature("Jane Doe")`.
 
-### 2. İmzalamadan Önce Belgeleri Doğrulayın
-Her zaman kaynak belgenin geçerli olduğunu kontrol edin:
+**Belge doğrulama kod parçacığı**:
 ```java
 try {
     Signature signature = new Signature("path/to/document.pdf");
@@ -498,8 +568,7 @@ try {
 }
 ```
 
-### 3. İmza İşlemlerini Günlüğe Kaydedin
-Denetim izini tutun:
+**Kayıt örneği**:
 ```java
 SignResult result = signature.sign(outputPath, options);
 logger.info("Document signed: " + outputPath);
@@ -512,8 +581,7 @@ if (!result.getFailed().isEmpty()) {
 }
 ```
 
-### 4. İstisnaları Zarifçe Ele Alın
-İmza hatası hizmetinizi çökertmesin:
+**İstisna yönetimi kalıbı**:
 ```java
 try {
     SignResult result = signature.sign(outputPath, options);
@@ -530,20 +598,11 @@ try {
 }
 ```
 
-### 5. Gerçek Dünya Belgeleriyle Test Edin
-Sadece örnek PDF'lere güvenmeyin. İş akışınızdaki gerçek dosyaları kullanın:
-- Mevcut alanları olan formlar  
-- Çok sayfalı sözleşmeler  
-- Taranmış görüntüler (görüntü‑tabanlı PDF'ler)  
-- Zaten imza içeren belgeler  
-
-Her tip gradient render ile farklı davranabilir.
-
-## İleri Düzey Kullanıcılar için Pro İpuçları
-Hazır mısınız? İşte birkaç ileri teknik.
+## İleri Düzey Kullanıcılar İçin Pro İpuçları
 
 ### İpucu 1: Özel Renk Şemaları Oluşturma
 Marka paletlerini bir kez tanımlayın ve yeniden kullanın:
+
 ```java
 public class BrandColors {
     public static final Color PRIMARY   = new Color(0, 102, 204);
@@ -603,25 +662,31 @@ public static TextSignOptions getStyledSignature(String name, SignatureType type
 }
 ```
 
-## Sıkça Sorulan Sorular
+## Sık Sorulan Sorular
 
-**S: Bunu web tabanlı bir Java servisi içinde kullanabilir miyim?**  
-C: Evet. GroupDocs.Signature saf Java'dır ve Spring Boot veya Jakarta EE hizmetleri dahil herhangi bir Java tabanlı arka uçta çalışır.
+**S: Bunu web‑tabanlı bir Java servisi içinde kullanabilir miyim?**  
+C: Evet. GroupDocs.Signature saf Java’dır ve Spring Boot, Jakarta EE veya mikroservis çerçeveleri dahil olmak üzere herhangi bir Java‑tabanlı arka uçta çalışır.
 
-**S: Gradient imzalı PDF'in boyutunu etkiler mi?**  
-C: Sadece çok az. Gradient, görsel görünüm akışının bir parçası olarak saklanır ve genellikle birkaç kilobayt ekler.
+**S: Degrade imza PDF’nin boyutunu etkiler mi?**  
+C: Yalnızca çok az. Degrade, görsel bir görünüm akışı olarak saklanır ve genellikle dosyaya birkaç kilobayt ekler.
 
-**S: Şifre korumalı PDF'leri nasıl imzalarım?**  
+**S: Şifre korumalı PDF’leri nasıl imzalarım?**  
 C: `Signature` nesnesi oluştururken şifreyi geçin: `new Signature("file.pdf", "password")`.
 
-**S: Gradient'i metin yerine görüntü‑tabanlı bir imzaya uygulamak mümkün mü?**  
-C: Kesinlikle. `ImageSignOptions` kullanın ve `Background`'ını metin örneğinde olduğu gibi bir `LinearGradientBrush` ile ayarlayın.
+**S: Degrade’ı metin yerine görüntü‑tabanlı bir imzaya uygulamak mümkün mü?**  
+C: Kesinlikle. `ImageSignOptions` kullanın ve `Background`’a `LinearGradientBrush`’ı metin örneğinde olduğu gibi ayarlayın.
 
-**S: Lineer yerine radyal bir gradient ihtiyacım olursa?**  
-C: GroupDocs şu anda `LinearGradientBrush` destekliyor. Radyal efektler için önceden bir radyal gradient görüntüsü oluşturup arka plan resmi olarak kullanabilirsiniz.
+**S: Lineer yerine radyal degrade istesem?**  
+C: GroupDocs şu anda sadece `LinearGradientBrush` destekler. Radyal efektler için bir radyal‑degrade PNG oluşturup arka plan görüntüsü olarak kullanabilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2026-03-14  
-**Tested With:** GroupDocs.Signature 23.12 for Java  
-**Author:** GroupDocs
+**Son Güncelleme:** 2026-07-25  
+**Test Edilen Versiyon:** GroupDocs.Signature 23.12 for Java  
+**Yazar:** GroupDocs
+
+## İlgili Öğreticiler
+
+- [Load and Save Documents in Java - Complete GroupDocs.Signature Tutorial](/signature/java/document-loading-saving/)  
+- [Add Text Signature to PDF in Java - Complete GroupDocs Tutorial](/signature/java/text-signatures/implement-text-signatures-groupdocs-java/)  
+- [Java Signature Verification Tutorial - Search & Verify Digital Signatures](/signature/java/search-verification/)
