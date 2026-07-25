@@ -1,73 +1,124 @@
 ---
 categories:
 - Document Processing
-date: '2026-03-14'
-description: GroupDocs.Signature를 사용하여 Java에서 그라디언트 효과로 서명 모양을 맞춤 설정하는 방법을 배웁니다. 전체
-  코드 예제와 문제 해결 방법이 포함되어 있습니다.
-keywords: java digital signature with gradient effect, customize document signature
-  appearance java, groupdocs signature gradient brush tutorial, java pdf signature
-  styling, gradient brush document signing java code
-lastmod: '2026-03-14'
-linktitle: Java Gradient Signature Tutorial
+date: '2026-07-25'
+description: GroupDocs.Signature를 사용하여 Java에서 gradient digital signature를 생성합니다. gradient
+  brushes 적용 방법, 외관 맞춤 설정, 일반적인 문제 해결 방법을 배웁니다.
+keywords:
+- create gradient digital signature
+- gradient brush Java
+- GroupDocs signature styling
+- digital signature gradient
+lastmod: '2026-07-25'
+linktitle: Java Gradient Signature 튜토리얼
+og_description: GroupDocs.Signature와 함께 Java에서 gradient digital signature를 생성합니다.
+  이 가이드는 gradient brushes를 사용하여 서명을 스타일링하고, 위치를 설정하며, 일반적인 문제를 처리하는 단계별 방법을 보여줍니다.
+og_image_alt: 'Guide: Create gradient digital signature in Java using GroupDocs.Signature'
+og_title: Java에서 Gradient Digital Signature 만들기 – GroupDocs 가이드
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-25'
+  description: Create gradient digital signature in Java using GroupDocs.Signature.
+    Learn how to apply gradient brushes, customize appearance, and troubleshoot common
+    issues.
+  headline: Create Gradient Digital Signature in Java with GroupDocs
+  type: TechArticle
+- description: Create gradient digital signature in Java using GroupDocs.Signature.
+    Learn how to apply gradient brushes, customize appearance, and troubleshoot common
+    issues.
+  name: Create Gradient Digital Signature in Java with GroupDocs
+  steps:
+  - name: Initialise Signature Options
+    text: 'First, we define what the signature will contain. The `TextSignOptions`
+      class handles text‑based signatures. **Definition anchor**: `TextSignOptions`
+      represents the configuration for a textual signature, including text content,
+      font, colour, and visual effects. The snippet creates a basic signature '
+  - name: Customise Background with Gradient Brush
+    text: 'Next, we apply a linear gradient brush to give the signature a polished
+      look. **Definition anchor**: `LinearGradientBrush` describes a colour transition
+      that fills a shape along a straight line, defined by start and end colours and
+      an angle. Key points: - `setColor(Color.GREEN)` provides a fallback '
+  - name: Set Signature Positioning
+    text: 'Now we tell the engine where to place the signature on the page. **Definition
+      anchor**: `SignatureOptions` (the base class for all option types) holds common
+      properties such as alignment, margins, and size. Understanding alignment vs.
+      margin: - **Alignment** anchors the signature (e.g., `HorizontalA'
+  - name: Apply Signature and Save
+    text: 'Finally, we sign the document and write the result to a new file. **Definition
+      anchor**: `SignResult` provides detailed information about the outcome of a
+      signing operation, including succeeded and failed signatures. The `sign()` method
+      takes the source file, applies the configured options, and crea'
+  type: HowTo
+- questions:
+  - answer: Yes. GroupDocs.Signature is pure Java and works in any Java‑based backend,
+      including Spring Boot, Jakarta EE, or microservice frameworks.
+    question: Can I use this in a web‑based Java service?
+  - answer: Only marginally. The gradient is stored as a visual appearance stream,
+      typically adding a few kilobytes to the file.
+    question: Does the gradient affect the size of the signed PDF?
+  - answer: 'Pass the password when creating the `Signature` object: `new Signature("file.pdf",
+      "password")`.'
+    question: How do I sign password‑protected PDFs?
+  - answer: Absolutely. Use `ImageSignOptions` and set its `Background` with a `LinearGradientBrush`
+      just like the text example.
+    question: Is it possible to apply the gradient to an image‑based signature instead
+      of text?
+  - answer: GroupDocs currently supports `LinearGradientBrush` only. For radial effects,
+      generate a radial‑gradient PNG and use it as a background image.
+    question: What if I need a radial gradient instead of linear?
+  type: FAQPage
 tags:
 - java
 - digital-signature
 - groupdocs
 - pdf-signing
 - document-styling
-title: Java에서 그라디언트를 사용하여 서명 모양을 맞춤 설정하는 방법
+- gradient signature
+title: Java에서 GroupDocs와 함께 gradient digital signature 만들기
 type: docs
 url: /ko/java/advanced-options/sign-document-gradient-brush-java-groupdocs/
 weight: 1
 ---
 
-# Java에서 그라디언트로 서명 외관 맞춤하기
+# Java와 GroupDocs를 사용한 그라디언트 디지털 서명 만들기
 
-디지털 서명이 포함된 문서 중에 보기 지루한 경우를 본 적 있나요? 흰 배경에 단순 텍스트만 있는 경우 말이죠. 계약서, 청구서, 증명서와 같이 전문적인 문서 서명이 필요한 애플리케이션을 구축하고 있다면, 기능성을 유지하면서도 눈에 띄는 무언가가 필요합니다. **이 튜토리얼에서는 Java에서 그라디언트 브러시를 적용하여 서명 외관을 맞춤하는 방법을 배웁니다.** 그라디언트 디지털 서명을 만들면 시각적인 완성도를 높일 뿐만 아니라 브랜드 아이덴티티를 강화하고 인식된 진위성을 향상시킵니다.
+그라디언트 디지털 서명 **만들기** 객체를 정교하게 보이게 하고, 브랜드 색상에 맞추며, 암호화 표준도 충족해야 한다면, 올바른 곳에 오셨습니다. 이 튜토리얼에서는 프로젝트에 GroupDocs.Signature 라이브러리를 추가하는 것부터 선형 그라디언트 브러시 구성, 서명 위치 지정, 가장 일반적인 함정 처리까지 필요한 모든 과정을 단계별로 안내합니다. 마지막까지 따라오면 몇 줄의 Java 코드만으로 PDF, Word 파일 또는 이미지에 시각적으로 매력적인 그라디언트 서명을 삽입할 수 있게 됩니다.
 
-## Quick Answers
-- **그라디언트 디지털 서명은 무엇인가요?** 색상 그라디언트를 배경이나 텍스트 채우기에 사용하는 디지털 서명 시각 요소입니다.  
+## 빠른 답변
+- **그라디언트 디지털 서명이란?** 배경이나 텍스트 채우기에 색상 그라디언트를 사용하는 디지털 서명된 시각 요소입니다.  
 - **Java에서 이를 지원하는 라이브러리는?** GroupDocs.Signature for Java는 내장 그라디언트 브러시 지원을 제공합니다.  
-- **그라디언트가 암호 보안에 영향을 미치나요?** 아니요. 그라디언트는 순수히 시각적인 요소이며, 기본 디지털 서명은 변경되지 않습니다.  
+- **그라디언트가 암호 보안에 영향을 미칩니까?** 아니요. 그라디언트는 순수히 시각적인 요소이며, 기본 디지털 서명은 변경되지 않습니다.  
 - **필요한 Java 버전은?** JDK 8 이상 (JDK 11+ 권장).  
 - **프로덕션에 라이선스가 필요합니까?** 예—비평가용 사용을 위해서는 유효한 GroupDocs.Signature 라이선스가 필요합니다.
 
-## How to customize signature appearance with a gradient brush in Java
-이 섹션에서는 라이브러리 설정부터 텍스트 서명에 선형 그라디언트 브러시를 적용하는 전체 과정을 단계별로 안내합니다. 최종적으로 **그라디언트 디지털 서명** 객체를 만들어 브랜드 색상에 맞게 세련된 외관을 구현할 수 있게 됩니다.
+## 디지털 서명에 그라디언트 브러시를 사용하는 이유
 
-## Why Use Gradient Brushes for Digital Signatures?
-코드에 들어가기 전에, 왜 그라디언트 효과를 사용하고 싶은지에 대해 이야기해 보겠습니다.
+그라디언트 브러시는 서명의 배경에 브랜드와 일치하는 색상 전환을 추가할 수 있게 하여, 서명된 문서가 보다 전문적이고 신뢰감 있게 보이도록 합니다. 그라디언트 서명은 시각적 계층 구조를 개선하고, 승인 수준을 구분하며, 서명의 암호적 무결성을 손상시키지 않으면서 기업 정체성을 강화합니다.
 
-**브랜드 일관성**: 회사가 특정 색상 체계를 사용한다면, 그라디언트 서명은 모든 문서에서 시각적 일관성을 유지하는 데 도움이 됩니다. 금융 서비스 회사는 신뢰를 위해 파란색‑흰색 그라디언트를 사용할 수 있고, 크리에이티브 에이전시는 활기찬 색상 전환으로 대담하게 표현할 수 있습니다.
+## 배울 내용
 
-**문서 계층 구조**: 그라디언트 효과는 서명 유형을 구분하는 데 도움이 됩니다. 표준 승인에는 미묘한 그라디언트를, 임원 서명이나 법적 승인에는 더 눈에 띄는 그라디언트를 사용할 수 있습니다.
+이 튜토리얼에서는 GroupDocs.Signature 라이브러리를 구성하고, 그라디언트 스타일 텍스트 서명을 생성하며, 색상, 투명도 및 배치와 같은 시각적 속성을 조정하고, 구현 중 발생하는 일반적인 문제를 해결하는 방법을 배웁니다. 또한 성능 팁과 깔끔하고 재사용 가능한 서명 코드를 위한 모범 사례 패턴도 다룹니다.
 
-**시각적 매력과 보안 유지**: 멋진 점은, 암호 보안을 희생하지 않고도 전문적인 스타일을 얻을 수 있다는 것입니다. 그라디언트는 순수히 시각적인 요소이며, 서명의 유효성은 그대로 유지됩니다.
+- GroupDocs.Signature for Java 설정 (Maven, Gradle 또는 수동)
+- 선형 그라디언트 브러시를 사용하여 **그라디언트 디지털 서명 만들기** 객체 생성
+- 외관, 위치 및 투명도 맞춤 설정
+- 일반적인 문제 해결 및 성능 최적화
+- 유지 보수 가능한 서명 코드를 위한 모범 사례 적용
 
-**위조 인식 감소**: 스타일이 적용된 서명이 있는 문서는 최종 사용자에게 더 신뢰성 있게 보이는 경우가 많습니다. 실제 보안을 향상시키지는 않지만, 인식된 정당성을 높여 사용자 신뢰에 도움이 됩니다.
+## 전제 조건
 
-## What You'll Learn
-이 가이드를 마치면 다음을 할 수 있게 됩니다:
+시작하기 전에 다음이 준비되어 있는지 확인하십시오:
 
-- 프로젝트에 GroupDocs.Signature for Java를 설정하기 (Maven, Gradle 또는 수동).  
-- 선형 그라디언트 브러시 효과가 적용된 텍스트 기반 서명 만들기.  
-- **서명 외관 맞춤**, 위치 지정 및 투명도 조절.  
-- 개발자를 흔들리는 일반적인 문제 해결.  
-- 프로덕션 애플리케이션을 위한 성능 최적화.  
-- 유지보수 가능한 서명 코드를 위한 모범 사례 적용.
+- **Java Development Kit (JDK)** 8 이상 (JDK 11+ 권장)
+- **IDE** (IntelliJ IDEA, Eclipse, 또는 Java 확장이 포함된 VS Code)
+- **GroupDocs.Signature for Java** 라이브러리 (Maven, Gradle 또는 수동 JAR로 추가)
+- Java 객체, 메서드 및 예외 처리에 대한 기본 지식
 
-## Prerequisites
-시작하기 전에 다음을 준비하세요:
+### 필요한 라이브러리
 
-- **Java Development Kit (JDK)**: 버전 8 이상 (성능 향상을 위해 JDK 11+ 권장).  
-- **IDE**: IntelliJ IDEA, Eclipse 또는 Java 확장이 포함된 VS Code.  
-- **GroupDocs.Signature for Java 라이브러리**: Maven 또는 Gradle을 통해 추가합니다.  
-- **기본 Java 지식**: 객체, 메서드 및 예외 처리에 익숙해야 합니다.
+선호하는 빌드 도구를 사용하여 프로젝트에 GroupDocs.Signature를 추가하십시오.
 
-### Required Libraries
-선호하는 빌드 도구를 사용하여 프로젝트에 GroupDocs.Signature를 추가합니다.
-
-**For Maven** (add to your `pom.xml`):
+**Maven용** (your `pom.xml`에 추가):
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -76,29 +127,31 @@ weight: 1
 </dependency>
 ```
 
-**For Gradle** (add to your `build.gradle`):
+**Gradle용** (your `build.gradle`에 추가):
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Manual installation**: 빌드 도구를 사용하지 않는 경우(하지만 권장합니다), [GroupDocs Signatures releases](https://releases.groupdocs.com/signature/java/)에서 JAR 파일을 직접 다운로드하여 프로젝트 클래스패스에 추가할 수 있습니다.
+**수동 설치**: 빌드 도구를 사용하지 않는 경우(권장하지만), [GroupDocs Signatures releases](https://releases.groupdocs.com/signature/java/)에서 JAR를 다운로드하고 클래스패스에 추가하십시오.
 
-### License Acquisition
-GroupDocs는 테스트 및 개발에 적합한 무료 체험판을 제공합니다. 프로덕션 사용을 위해서는 라이선스가 필요합니다. 시작 방법은 다음과 같습니다:
+### 라이선스 획득
 
-1. **Free trial**: [GroupDocs Free Trial](https://releases.groupdocs.com/)을 방문하여 약정 없이 다운로드합니다.  
-2. **Temporary license**: 전체 기능 테스트를 위해 [GroupDocs Temporary License](https://purchase.groupdocs.com/temporary-license/)에서 30일 임시 라이선스를 받으세요.  
-3. **Full license**: 프로덕션 준비가 되면 가격 옵션을 확인하세요.  
+GroupDocs는 개발용 무료 체험을 제공하지만, 상업적 사용을 위해서는 프로덕션 라이선스가 필요합니다.
 
-체험 버전에는 평가 워터마크가 표시되므로, 클라이언트용으로 구축한다면 임시 라이선스를 확보하세요.
+1. **무료 체험** – [GroupDocs Free Trial](https://releases.groupdocs.com/)에서 다운로드
+2. **임시 라이선스** – 전체 기능 테스트를 위해 [GroupDocs Temporary License](https://purchase.groupdocs.com/temporary-license/)에서 30일 키를 받으세요
+3. **전체 라이선스** – 프로덕션 배포를 위해 가격 포털을 통해 구매
 
-## Setting Up GroupDocs.Signature for Java
-개발 환경을 준비합시다. 이 설정은 새 프로젝트를 시작하거나 기존 애플리케이션에 통합할 때 모두 적용됩니다.
+체험판은 평가 워터마크를 추가하므로, 고객에게 앱을 배포하기 전에 임시 또는 전체 라이선스를 확보하십시오.
 
-### Installation Steps
-**1. Add the dependency** (we already covered this above—Maven or Gradle)
+## GroupDocs.Signature for Java 설정
 
-**2. Verify the installation** by creating a simple test class:
+환경을 준비해 봅시다. 이는 새 프로젝트와 기존 코드베이스에 통합하는 경우 모두 적용됩니다.
+
+### 설치 단계
+
+1. **의존성 추가** (위에서 다룸).  
+2. **설치 확인**을 위해 간단한 테스트 클래스를 생성합니다:
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -110,9 +163,7 @@ public class SignatureTest {
 }
 ```
 
-오류 없이 컴파일되면 준비가 완료된 것입니다.
-
-**3. Set up your document directory structure**. I like to organize things like this:
+3. **문서 폴더 정리** – 많은 파일을 처리할 때 깔끔한 구조가 도움이 됩니다:
 
 ```
 project-root/
@@ -123,7 +174,7 @@ project-root/
 └── pom.xml (or build.gradle)
 ```
 
-**4. Basic initialization** (here's where the magic begins):
+4. **기본 초기화** – `Signature` 객체는 모든 서명 작업의 진입점입니다:
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -149,13 +200,17 @@ public class BasicSignatureSetup {
 }
 ```
 
-**Pro tip**: `Signature` 객체는 항상 try‑with‑resources 구문으로 감싸거나 직접 `dispose()`를 호출하세요. GroupDocs는 파일 핸들을 보유하고 있어 해제하지 않으면 "파일 사용 중" 오류가 발생합니다(어떻게 알게 되었는지 궁금하시다면).
+**팁**: `Signature` 인스턴스를 try‑with‑resources 블록으로 감싸거나 `dispose()`를 수동으로 호출하십시오. 파일 핸들을 해제하지 않으면 “file in use” 오류가 발생합니다.
 
-## Implementation Guide: Create Gradient Signatures
-이제 재미있는 부분입니다—그라디언트 브러시 효과가 적용된 서명을 만들어 보겠습니다. 간단히 시작하고 점차 복잡성을 추가합니다.
+## 구현 가이드: 그라디언트 서명 만들기
 
-### Step 1: Initialize Signature Options
-먼저 서명이 말할 내용과 동작 방식을 정의합니다. `TextSignOptions` 클래스는 텍스트 기반 서명을 처리합니다:
+이제 **그라디언트 디지털 서명 만들기**를 단계별로 구축해 보겠습니다.
+
+### 단계 1: 서명 옵션 초기화
+
+먼저 서명이 포함할 내용을 정의합니다. `TextSignOptions` 클래스는 텍스트 기반 서명을 처리합니다.
+
+**정의**: `TextSignOptions`는 텍스트 내용, 폰트, 색상 및 시각 효과를 포함한 텍스트 서명의 구성을 나타냅니다.
 
 ```java
 import com.groupdocs.signature.domain.enums.HorizontalAlignment;
@@ -165,12 +220,13 @@ import com.groupdocs.signature.domain.signatures.TextSignOptions;
 TextSignOptions options = new TextSignOptions("John Smith");
 ```
 
-이 코드는 텍스트 "John Smith"가 포함된 기본 서명을 생성합니다. 충분히 간단하죠? 하지만 그대로라면 투명 배경에 검은색 텍스트만 표시돼 지루합니다. 여기서 그라디언트가 등장합니다.
+이 스니펫은 “John Smith”라는 기본 서명을 생성합니다. 자체적으로는 투명 배경에 검은색 텍스트만 표시되어 별다른 흥미를 주지 않습니다.
 
-**왜 옵션을 서명 객체와 분리할까요?** 이 디자인 패턴은 동일한 서명 구성을 여러 문서에 재사용할 수 있게 해줍니다. 한 번 설정하면 어디서든 적용할 수 있습니다.
+### 단계 2: 그라디언트 브러시로 배경 맞춤 설정
 
-### Step 2: Customize Background with Gradient Brush
-여기서 서명이 전문적으로 보이기 시작합니다. 초록색에서 흰색으로 전환되는 선형 그라디언트를 만들어 보겠습니다:
+다음으로 선형 그라디언트 브러시를 적용하여 서명을 세련되게 만듭니다.
+
+**정의**: `LinearGradientBrush`는 시작 색상과 끝 색상, 각도로 정의된 직선에 따라 형태를 채우는 색상 전환을 설명합니다.
 
 ```java
 import com.groupdocs.signature.domain.Background;
@@ -194,16 +250,17 @@ background.setBrush(brush);
 options.setBackground(background);
 ```
 
-**여기서 일어나는 일을 살펴보겠습니다:**
+- `setColor(Color.GREEN)`은 그라디언트를 렌더링할 수 없을 경우 대체 솔리드 색상을 제공합니다.  
+- `setTransparency(0.5f)`는 서명을 반투명하게 만들어 배경 텍스트가 가려지는 것을 방지합니다. 값이 0에 가까울수록 불투명하고, 1에 가까울수록 거의 보이지 않습니다.  
+- 각도 `45`는 좌상단에서 우하단으로 대각선 전환을 만듭니다. 수평은 `0`, 수직은 `90`, 그 사이의 각도도 사용할 수 있습니다.
 
-- **기본 색상**: `setColor(Color.GREEN)`은 고정 색상을 설정합니다. 그라디언트가 실패할 경우(드물지만 가능) 이 색상이 표시됩니다.  
-- **투명도**: `setTransparency(0.5f)`는 서명을 반투명하게 만듭니다. 이는 하위 텍스트를 가리지 않아야 할 문서에 중요합니다. 값이 0에 가까울수록 불투명하고, 1에 가까울수록 투명합니다.  
-- **그라디언트 각도**: `45`는 그라디언트가 좌상단에서 우하단으로 대각선으로 흐른다는 의미입니다. 수평은 `0`, 수직은 `90`을 사용하거나 중간 각도를 지정할 수 있습니다.
+브랜드에 맞는 색상을 선택하면(예: 신뢰를 위한 파란색‑흰색, 승인을 위한 초록색‑흰색) 서명이 즉시 인식됩니다.
 
-**색상 선택이 중요합니다**: 초록‑흰색은 승인이나 확인을 의미합니다(‘진행’ 신호). 파란‑흰색은 신뢰와 전문성을 전달합니다. 빨강‑흰색은 긴급함이나 중요성을 나타낼 수 있습니다. 문서 목적과 브랜드 아이덴티티에 맞는 색상을 선택하세요.
+### 단계 3: 서명 위치 지정
 
-### Step 3: Set Signature Positioning
-이제 서명이 문서 어디에 나타날지 지정해야 합니다. 정렬과 여백을 이해하고, 중요한 내용을 가리지 않도록 위치를 조정합니다:
+이제 엔진에 페이지 내 서명 위치를 지정합니다.
+
+**정의**: `SignatureOptions`(모든 옵션 유형의 기본 클래스)는 정렬, 여백 및 크기와 같은 공통 속성을 보유합니다.
 
 ```java
 import com.groupdocs.signature.domain.Padding;
@@ -223,18 +280,22 @@ padding.setRight(20);    // 20 units from the right edge
 options.setMargin(padding);
 ```
 
-**정렬과 여백 이해**: 정렬은 기준점, 여백은 오프셋이라고 생각하세요. `HorizontalAlignment.Center`를 설정하면 서명이 페이지 중앙에 배치되고, 여백이 그 중심점에 대해 이동합니다. 이 두 단계 접근법으로 정밀 제어가 가능합니다.
+- **Alignment**는 서명을 고정합니다(예: `HorizontalAlignment.Right`).  
+- **Margin**은 고정된 지점을 오프셋합니다(예: `setMarginTop(-10)`).  
 
-**일반적인 위치 패턴**:
+| 원하는 위치 | HorizontalAlignment | VerticalAlignment | 일반적인 여백 값 |
+|------------------|--------------------|-------------------|-----------------------|
+| Bottom‑right     | Right              | Bottom            | `setMarginTop(-20)`   |
+| Header area      | Right              | Top               | `setMarginTop(20)`    |
+| Center of page   | Center             | Center            | `setMarginLeft(0)`    |
 
-- **우하단**: `HorizontalAlignment.Right`, `VerticalAlignment.Bottom`, 상단 마진을 음수로 설정  
-- **헤더 영역**: `VerticalAlignment.Top`, `HorizontalAlignment.Right`, 패딩 적용  
-- **페이지 중앙**: 두 정렬 모두 `Center`로 설정하고, 여백을 조정  
+`setWidth`와 `setHeight`를 텍스트 길이와 문서 페이지 크기에 맞게 조정하십시오.
 
-**크기 고려사항**: `setWidth(100)`와 `setHeight(80)`은 대부분의 표준 문서에 적합하지만, 문서 크기와 서명 텍스트 길이에 따라 조정이 필요할 수 있습니다. 텍스트가 잘리면 너비를 늘리고, 너무 비좁게 보이면 높이를 늘리거나 폰트 크기를 줄이세요.
+### 단계 4: 서명 적용 및 저장
 
-### Step 4: Apply Signature and Save
-마지막으로 문서에 서명을 적용하고 결과를 저장합니다. 이제 모든 설정이 하나로 합쳐집니다:
+마지막으로 문서에 서명하고 결과를 새 파일에 저장합니다.
+
+**정의**: `SignResult`는 성공 및 실패한 서명을 포함한 서명 작업 결과에 대한 자세한 정보를 제공합니다.
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -264,12 +325,11 @@ try {
 }
 ```
 
-**`sign()` 메서드에서 무슨 일이 일어나나요?** 원본 문서를 받아 설정된 서명 옵션을 적용하고, 서명이 삽입된 새 파일을 작성합니다. 원본 파일은 그대로 유지됩니다(이는 좋은 습관이며, 원본 문서를 직접 수정하지 않아야 합니다).
+`sign()` 메서드는 원본 파일을 받아 구성된 옵션을 적용하고, 시각적 서명이 포함된 새 파일을 생성하며 원본은 그대로 둡니다. 항상 `signResult.getSucceeded()`를 확인하여 성공 여부를 확인하십시오.
 
-`SignResult` 객체는 결과를 알려줍니다. `getSucceeded()`로 성공적으로 적용된 서명을 확인하고, `getFailed()`로 실패한 서명을 확인하세요.
+## 완전한 작업 예제
 
-## Complete Working Example
-다음은 바로 복사해서 테스트할 수 있는 단일 실행 가능한 클래스 전체 예시입니다:
+아래는 지금 바로 복사하여 테스트할 수 있는 단일 실행 가능한 클래스로 결합한 전체 예제입니다:
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -335,33 +395,34 @@ public class GradientSignatureExample {
 }
 ```
 
-`resources/input/` 디렉터리에 PDF 파일을 두고 이 코드를 실행하면 아름다운 그라디언트 효과가 적용된 서명 버전이 생성됩니다.
+`resources/input/`에 PDF를 배치하고 프로그램을 실행하면, 출력 파일에 세련된 그라디언트 서명이 포함됩니다.
 
-## Common Use Cases
-실제 애플리케이션에서 그라디언트 서명이 가장 적합한 상황과 위치를 살펴보겠습니다.
+## 일반적인 사용 사례
 
-### 1. Enterprise Contract Management Systems
-**시나리오**: 여러 이해관계자가 단계별로 문서에 서명하는 계약 승인 워크플로우를 구축하고 있습니다.  
-**적용**: 서로 다른 승인 수준을 나타내기 위해 다양한 그라디언트 색상을 사용합니다—부서장은 파란‑흰색 그라디언트, 법무 검토자는 금색‑흰색, 임원은 짙은 파란‑연한 파란 그라디언트를 사용합니다. 이 시각적 계층 구조는 사용자가 누가 어떤 수준에서 서명했는지 즉시 파악하도록 돕습니다.
+### 1. 기업 계약 관리
 
-### 2. Automated Invoice Processing
-**시나리오**: 회계 시스템이 생성된 청구서에 자동으로 서명한 뒤 클라이언트에게 전송합니다.  
-**적용**: 브랜드 색상에 맞는 은은한 그라디언트를 적용하면 청구서가 더 전문적으로 보이고 위조가 어려워집니다. 청구서 가독성을 유지하려면 그라디언트를 과하지 않게 유지하세요.
+다양한 승인 수준을 구별된 그라디언트 색상으로 시각화할 수 있습니다—예: 관리자는 파란색‑흰색, 법무팀은 금색‑흰색, 임원은 짙은 파란색‑연한 파란색. 이러한 시각적 계층 구조는 검토자가 서명자를 즉시 인식하게 합니다.
 
-### 3. Certificate Generation
-**시나리오**: 온라인 강좌나 교육 프로그램 수료증을 생성합니다.  
-**적용**: 금색‑노랑색 또는 파랑‑보라색과 같은 활기찬 축하 그라디언트를 사용하면 수료증이 공식적이고 공유하고 싶어지는 느낌을 줍니다. 시각적 매력은 인식된 가치를 높이고 소셜 공유를 촉진합니다.
+### 2. 자동 청구서 처리
 
-### 4. Document Watermarking
-**시나리오**: 문서를 “초안”, “기밀”, “승인” 등으로 표시해야 합니다.  
-**적용**: 서명은 아니지만, 투명 텍스트와 그라디언트 기법을 재사용해 눈에 띄는 워터마크를 만들 수 있습니다. 투명도를 0.7‑0.8로 설정하면 미묘한 효과를 얻을 수 있습니다.
+청구서를 클라이언트에게 이메일로 보내기 전에 미묘한 브랜드 색상의 그라디언트를 적용하십시오. 효과가 전문적으로 보이면서도 문서 가독성을 유지합니다.
 
-## Troubleshooting Common Issues
-그라디언트 서명을 작업하면서 겪은(그리고 해결한) 문제들을 정리했습니다. 디버깅 시간을 절약하세요.
+### 3. 인증서 생성
 
-### Issue 1: "File is being used by another process"
-**Symptoms**: 애플리케이션이 파일에 접근할 수 없다는 예외를 발생시키지만, 실제로 다른 프로그램이 파일을 열고 있지는 않습니다.  
-**Cause**: `signature.dispose()`를 호출하거나 `Signature` 객체를 제대로 닫지 않았기 때문입니다. Java는 객체가 가비지 컬렉션될 때까지 파일 핸들을 유지합니다.  
+인증서에 활기찬 그라디언트(보라‑핑크, 금‑노랑)를 사용하면 공식적이고 공유 가치가 높아 보입니다. 시각적 매력이 인식된 가치를 향상시킵니다.
+
+### 4. 문서 워터마킹
+
+투명 텍스트와 그라디언트 기법을 재사용하여 “Draft”, “Confidential”, “Approved”와 같은 워터마크를 만들면 기본 콘텐츠를 가리지 않습니다. 미묘한 효과를 위해 투명도를 0.7‑0.8로 설정하십시오.
+
+## 일반적인 문제 해결
+
+아래는 그라디언트 서명을 작업하면서 제가 겪고 해결한 문제들입니다.
+
+### 문제 1: “파일이 다른 프로세스에 의해 사용 중입니다”
+
+**직접 답변 (40‑70 단어)**: 이 예외는 `Signature` 객체가 아직 열린 파일 핸들을 보유하고 있기 때문에 발생합니다. 서명 후 항상 `Signature` 인스턴스를 닫거나 dispose하십시오. try‑with‑resources 블록을 사용하면 파일이 자동으로 해제되어 이후 작업에서 “file in use” 오류를 방지합니다.
+
 **Solution**:
 ```java
 // Always use try‑with‑resources (Java 7+)
@@ -372,7 +433,7 @@ try (Signature signature = new Signature("path/to/document.pdf")) {
 }
 // File handle automatically released when try block exits
 ```
-Or manually:
+또는 수동으로:
 ```java
 Signature signature = null;
 try {
@@ -385,18 +446,22 @@ try {
 }
 ```
 
-### Issue 2: Signature appears but gradient doesn't show
-**Symptoms**: 서명 텍스트는 보이지만 단색으로만 표시됩니다.  
-**Possible causes**:  
-1. **PDF 뷰어가 그라디언트를 지원하지 않음** – Adobe Acrobat, Foxit Reader 또는 최신 브라우저에서 테스트하세요.  
-2. **투명도가 너무 높음** – `setTransparency(1.0f)`는 그라디언트를 보이지 않게 합니다. 0.3‑0.7 정도로 조정하세요.  
-3. **브러시가 적용되지 않음** – `background.setBrush(brush)`와 `options.setBackground(background)`를 모두 호출했는지 확인하세요.  
+### 문제 2: 서명은 표시되지만 그라디언트가 보이지 않음
 
-**디버깅 팁**: 먼저 고대비 색상(예: `Color.RED`에서 `Color.BLUE`로)을 사용해 보세요. 그래도 그라디언트가 보이지 않으면 설정이 잘못된 것이며 색상이 문제는 아닙니다.
+**직접 답변**: 뷰어가 지원하지 않거나 투명도가 1.0으로 설정되었거나 브러시가 올바르게 연결되지 않은 경우 그라디언트가 보이지 않을 수 있습니다. PDF 뷰어(Adobe Acrobat, Foxit 또는 최신 브라우저)를 확인하고, 투명도를 0.3‑0.7 사이로 설정하며, `background.setBrush(brush)`와 `options.setBackground(background)`가 호출되었는지 확인하십시오.
 
-### Issue 3: Signature overlaps important document content
-**Symptoms**: 그라디언트 서명이 멋지게 보이지만 중요한 텍스트나 양식 필드를 가립니다.  
-**Solution**: 문서 내용에 따라 위치를 동적으로 조정하세요. 제가 사용하는 패턴은 다음과 같습니다:
+**가능한 원인**:
+1. 뷰어가 그라디언트를 지원하지 않음 – 최신 뷰어로 테스트하십시오.  
+2. 투명도가 너무 높음 – 0.3‑0.7로 낮추십시오.  
+3. 브러시가 적용되지 않음 – 메서드 호출을 다시 확인하십시오.
+
+**디버깅 팁**: 먼저 고대비 색상(예: 빨강‑파랑)으로 시작하여 그라디언트가 렌더링되는지 확인한 뒤 미세 조정하십시오.
+
+### 문제 3: 서명이 중요한 문서 내용과 겹침
+
+**직접 답변**: 위치 값이 기존 텍스트나 양식 필드 위에 서명을 배치할 경우 겹침이 발생합니다. 빈 공간을 동적으로 계산하거나 페이지 수준 분석을 사용해 서명을 자동으로 재배치하십시오.
+
+**Solution pattern**:
 ```java
 // For documents with content primarily at the top
 options.setVerticalAlignment(VerticalAlignment.Bottom);
@@ -411,16 +476,10 @@ padding.setTop(600);     // Absolute Y position
 padding.setLeft(400);    // Absolute X position
 options.setMargin(padding);
 ```
-**Better approach**: 먼저 문서를 파싱하여 빈 공간을 찾은 뒤, 프로그램matically 서명을 해당 위치에 배치합니다.
 
-### Issue 4: Performance issues with large documents
-**Symptoms**: 페이지가 많거나 고해상도 이미지가 포함된 PDF를 서명하는 데 시간이 오래 걸립니다.  
-**Cause**: GroupDocs는 전체 문서를 처리하며, 복잡한 그라디언트는 렌더링 오버헤드를 증가시킵니다.  
-**Solutions**:  
-1. **전체 파일이 아니라 특정 페이지만 서명**하세요.  
-2. **단순한 그라디언트 사용** – 두 색상의 선형 그라디언트가 방사형이나 다중 스톱 그라디언트보다 빠릅니다.  
-3. **서명 크기 축소** – 너비/높이를 작게 하면 렌더링 작업이 줄어듭니다.  
-4. **비동기 처리** – 서명 중에 메인 스레드를 차단하지 마세요.  
+### 문제 4: 대용량 문서의 성능 문제
+
+**직접 답변**: GroupDocs가 전체 파일을 처리하고 각 페이지에 그라디언트를 렌더링하기 때문에 대용량 PDF 서명은 느릴 수 있습니다. 서명을 특정 페이지로 제한하고, 단순한 2색 그라디언트를 사용하며, 서명 크기를 줄이고, 비동기적으로 작업을 실행하여 UI 응답성을 유지하십시오.
 
 **Performance example**:
 ```java
@@ -437,20 +496,21 @@ LinearGradientBrush brush = new LinearGradientBrush(
 );
 ```
 
-### Issue 5: Color doesn't match expectations
-**Symptoms**: 그라디언트 색상이 코드에 지정한 것과 다르게 보입니다.  
-**Causes**:  
-1. **RGB 색상 공간 차이** – Java의 `Color`는 sRGB를 사용하지만, PDF는 다른 색상 공간으로 렌더링될 수 있습니다.  
-2. **투명도 상호작용** – 반투명 그라디언트가 문서 배경과 혼합되어 인지 색상이 변합니다.  
-3. **모니터 보정** – 화면에서 보는 색상이 다른 사람에게는 다르게 보일 수 있습니다.  
+### 문제 5: 색상이 기대와 다름
 
-**Solution**: 서명된 문서를 여러 장치와 PDF 뷰어에서 테스트하세요. 브랜드 일관성이 중요하면 정확한 RGB 값을 사용하고 플랫폼별로 검증하세요. 색상 변화를 최소화하려면 불투명도를 0.3‑0.5 정도로 유지하세요.
+**직접 답변**: 색상 변환은 RGB‑PDF 색공간 변환, 투명도 혼합, 모니터 보정 차이에서 발생합니다. 정확한 sRGB 값을 사용하고, 투명도를 적당히(0.3‑0.5) 유지하며, 여러 뷰어에서 테스트해 브랜드 일관된 외관을 확인하십시오.
 
-## Best Practices for Production Applications
-실제 시스템에서 그라디언트 서명을 사용하면서 얻은 교훈을 정리했습니다.
+## 프로덕션 애플리케이션을 위한 모범 사례
 
-### 1. Centralize Signature Configuration
-코드 전역에 스타일을 흩어놓지 마세요. 헬퍼 클래스를 만들고 재사용합니다:
+| 실천 항목 | 중요한 이유 |
+|----------|----------------|
+| 헬퍼 클래스에서 스타일링을 중앙 집중화 | 모든 문서에서 일관된 외관을 보장합니다 |
+| 서명 전에 원본 문서 검증 | 손상된 파일이 서명 파이프라인을 중단하는 것을 방지합니다 |
+| 모든 서명 작업을 로그 | 규정 준수를 위한 감사 추적을 제공합니다 |
+| 예외를 우아하게 처리 | 예기치 않은 상황에서도 서비스 안정성을 유지합니다 |
+| 실제 PDF(양식, 스캔 이미지, 기존 서명)로 테스트 | 모든 시나리오에서 그라디언트 렌더링이 작동함을 보장합니다 |
+
+**헬퍼 클래스 예시**:
 ```java
 public class SignatureStyles {
     public static TextSignOptions getApprovalSignature(String signerName) {
@@ -478,10 +538,8 @@ public class SignatureStyles {
     // Add more style methods as needed
 }
 ```
-이제 스타일을 일관되게 재사용할 수 있습니다: `SignatureStyles.getApprovalSignature("Jane Doe")`.
 
-### 2. Validate Documents Before Signing
-항상 원본 문서가 유효한지 확인하세요:
+**문서 검증 스니펫**:
 ```java
 try {
     Signature signature = new Signature("path/to/document.pdf");
@@ -503,8 +561,7 @@ try {
 }
 ```
 
-### 3. Log Signature Operations
-감사 로그를 유지하세요:
+**로그 예시**:
 ```java
 SignResult result = signature.sign(outputPath, options);
 logger.info("Document signed: " + outputPath);
@@ -517,8 +574,7 @@ if (!result.getFailed().isEmpty()) {
 }
 ```
 
-### 4. Handle Exceptions Gracefully
-서명 실패가 서비스 충돌을 일으키지 않도록 하세요:
+**예외 처리 패턴**:
 ```java
 try {
     SignResult result = signature.sign(outputPath, options);
@@ -535,21 +591,12 @@ try {
 }
 ```
 
-### 5. Test with Real‑World Documents
-샘플 PDF에만 의존하지 마세요. 워크플로우에서 실제 파일을 사용하세요:
+## 고급 사용자를 위한 팁
 
-- 기존 필드가 포함된 양식  
-- 다중 페이지 계약서  
-- 스캔 이미지(이미지 기반 PDF)  
-- 이미 서명이 포함된 문서  
+### 팁 1: 사용자 정의 색상 스키마 만들기
 
-각 유형은 그라디언트 렌더링 시 다르게 동작할 수 있습니다.
+한 번 브랜드 팔레트를 정의하고 재사용하십시오:
 
-## Pro Tips for Advanced Users
-다음 단계로 나아갈 준비가 되셨나요? 몇 가지 고급 기술을 소개합니다.
-
-### Tip 1: Create Custom Color Schemes
-브랜드 팔레트를 한 번 정의하고 재사용하세요:
 ```java
 public class BrandColors {
     public static final Color PRIMARY   = new Color(0, 102, 204);
@@ -562,7 +609,8 @@ public class BrandColors {
 }
 ```
 
-### Tip 2: Dynamic Transparency Based on Document Type
+### 팁 2: 문서 유형에 따른 동적 투명도
+
 ```java
 public static float getOptimalTransparency(Signature signature) {
     if (hasComplexBackground(signature)) {
@@ -572,7 +620,8 @@ public static float getOptimalTransparency(Signature signature) {
 }
 ```
 
-### Tip 3: Batch Processing with Thread Pools
+### 팁 3: 스레드 풀을 이용한 배치 처리
+
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(4);
 List<String> files = getDocumentsToSign();
@@ -590,7 +639,8 @@ executor.shutdown();
 executor.awaitTermination(5, TimeUnit.MINUTES);
 ```
 
-### Tip 4: Conditional Styling Based on Signature Type
+### 팁 4: 서명 유형에 따른 조건부 스타일링
+
 ```java
 public static TextSignOptions getStyledSignature(String name, SignatureType type) {
     TextSignOptions options = new TextSignOptions(name);
@@ -609,25 +659,31 @@ public static TextSignOptions getStyledSignature(String name, SignatureType type
 }
 ```
 
-## Frequently Asked Questions
+## 자주 묻는 질문
 
-**Q: 이것을 웹 기반 Java 서비스에서 사용할 수 있나요?**  
-A: 예. GroupDocs.Signature는 순수 Java이며 Spring Boot나 Jakarta EE 서비스 등 모든 Java 기반 백엔드에서 동작합니다.
+**Q: 이걸 웹 기반 Java 서비스에서 사용할 수 있나요?**  
+A: 예. GroupDocs.Signature는 순수 Java이며 Spring Boot, Jakarta EE, 마이크로서비스 프레임워크 등 모든 Java 기반 백엔드에서 작동합니다.
 
 **Q: 그라디언트가 서명된 PDF 크기에 영향을 줍니까?**  
-A: 거의 없습니다. 그라디언트는 시각적 외관 스트림의 일부로 저장되며 보통 몇 킬로바이트 정도만 추가됩니다.
+A: 거의 없습니다. 그라디언트는 시각적 외관 스트림으로 저장되며 일반적으로 파일에 몇 킬로바이트 정도만 추가됩니다.
 
 **Q: 비밀번호로 보호된 PDF에 서명하려면 어떻게 해야 하나요?**  
 A: `Signature` 객체를 생성할 때 비밀번호를 전달합니다: `new Signature("file.pdf", "password")`.
 
 **Q: 텍스트 대신 이미지 기반 서명에 그라디언트를 적용할 수 있나요?**  
-A: 가능합니다. `ImageSignOptions`를 사용하고 텍스트 예시와 동일하게 `LinearGradientBrush`를 `Background`에 설정하면 됩니다.
+A: 물론 가능합니다. `ImageSignOptions`를 사용하고 텍스트 예제와 동일하게 `LinearGradientBrush`를 `Background`에 설정하십시오.
 
 **Q: 선형 대신 방사형 그라디언트가 필요하면 어떻게 하나요?**  
-A: 현재 GroupDocs는 `LinearGradientBrush`만 지원합니다. 방사형 효과가 필요하면 방사형 그라디언트 이미지를 미리 만들어 배경 이미지로 사용할 수 있습니다.
+A: 현재 GroupDocs는 `LinearGradientBrush`만 지원합니다. 방사형 효과가 필요하면 방사형 그라디언트 PNG를 생성하여 배경 이미지로 사용하십시오.
 
----  
+---
 
-**최종 업데이트:** 2026-03-14  
+**마지막 업데이트:** 2026-07-25  
 **테스트 환경:** GroupDocs.Signature 23.12 for Java  
 **작성자:** GroupDocs
+
+## 관련 튜토리얼
+
+- [Java에서 문서 로드 및 저장 - 전체 GroupDocs.Signature 튜토리얼](/signature/java/document-loading-saving/)
+- [Java에서 PDF에 텍스트 서명 추가 - 전체 GroupDocs 튜토리얼](/signature/java/text-signatures/implement-text-signatures-groupdocs-java/)
+- [Java 서명 검증 튜토리얼 - 디지털 서명 검색 및 검증](/signature/java/search-verification/)
