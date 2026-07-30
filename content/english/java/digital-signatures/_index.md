@@ -120,6 +120,21 @@ Below you'll find comprehensive guides organized by complexity and use case. If 
 
 **Already familiar with digital signatures?** Jump to the specific feature you need in the sections below.
 
+### Sample Code
+
+```java
+// Sample code to sign a PDF with GroupDocs.Signature
+Signature signature = new Signature("sample.pdf");
+DigitalSignOptions signOptions = new DigitalSignOptions();
+signOptions.setCertificate("mycert.pfx", "password");
+signOptions.setSignatureVisible(true);
+signOptions.setLeft(100);
+signOptions.setTop(100);
+signOptions.setWidth(200);
+signOptions.setHeight(100);
+signature.sign(signOptions);
+```
+
 ## Getting Started Tutorials
 
 Perfect for developers new to GroupDocs.Signature or digital signatures in Java. These tutorials cover the fundamentals and get you signing documents quickly.

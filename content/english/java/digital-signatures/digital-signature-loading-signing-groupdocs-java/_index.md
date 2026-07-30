@@ -1,7 +1,7 @@
 ---
-title: "How to Sign PDF in Java – Complete Guide to Certificate Loading and Document Signing"
+title: "How to Sign PDF in Java with GroupDocs.Signature – Complete Guide to Certificate Loading and Document Signing"
 linktitle: "Digital Signature in Java Guide"
-description: "Learn how to sign PDF in Java using GroupDocs.Signature. Load certificates from keystore, sign documents securely, and verify digital signatures with this practical tutorial."
+description: "Learn how to sign PDF in Java using GroupDocs.Signature. Load certificates from keystore, sign documents securely, and verify digital signatures with this step‑by‑step practical tutorial."
 keywords:
   - how to sign pdf
   - load keystore java
@@ -77,7 +77,7 @@ schemas:
     answer: Yes – use `Signature.verify("signed_output.pdf")` which returns a `VerificationResult`
       indicating validity, signer certificate details, and any tampering.
   - question: Does GroupDocs.Signature support timestamping?
-    answer: Absolutely. You can attach a TSA (Time‑Stamp Authority) URL via `options.setTimestampServerUrl("https://tsa.example.com")`
+    answer: 'Absolutely. You can attach a TSA (Time‑Stamp Authority) URL via `options.setTimestampServerUrl("https://tsa.example.com")`'
       to create a trusted timestamp.
   - question: What file formats can I sign besides PDF?
     answer: Over 50 formats, including DOCX, XLSX, PPTX, HTML, PNG, JPEG, and TIFF.
@@ -349,7 +349,7 @@ Perfect for **batch processing** (e.g., signing thousands of invoices overnight)
 - **Simple handwritten signatures** – Use image‑based signatures instead of cryptographic signatures.  
 - **Real‑time multi‑party signing** – Consider SaaS e‑signature platforms like DocuSign for workflow orchestration.  
 - **Blockchain‑anchored signatures** – Use specialized libraries if you need immutable on‑chain proof.  
-- **Mobile‑first UX** – Native mobile SDKs may deliver smoother user experiences on iOS/Android.
+- **Mobile‑first UX** – Native mobile SDKs may deliver smoother user experiences on iOS/Android.  
 
 ## Frequently Asked Questions
 
@@ -389,6 +389,6 @@ Next steps? Try signing a batch of real invoices, integrate timestamping for leg
 
 ## Related Tutorials
 
-- [Load and Save Documents in Java - Complete GroupDocs.Signature Tutorial](/signature/java/document-loading-saving/)
-- [How to Verify Digital Certificates in Java - Complete Guide with Code Examples](/signature/java/digital-signatures/java-certificate-verification-groupdocs-signature/)
-- [Add Text Signature to PDF in Java - Complete GroupDocs Tutorial](/signature/java/text-signatures/implement-text-signatures-groupdocs-java/)
+- [Load and Save Documents in Java - Complete GroupDocs.Signature Tutorial]({{< relref "/signature/java/document-loading-saving/" >}})
+- [How to Verify Digital Certificates in Java - Complete Guide with Code Examples]({{< relref "/signature/java/digital-signatures/java-certificate-verification-groupdocs-signature/" >}})
+- [Add Text Signature to PDF in Java - Complete GroupDocs Tutorial]({{< relref "/signature/java/text-signatures/implement-text-signatures-groupdocs-java/" >}})

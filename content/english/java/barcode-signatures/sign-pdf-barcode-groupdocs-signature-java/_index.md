@@ -27,7 +27,7 @@ schemas:
   steps:
   - name: Initialize the Signature Object
     text: 'First, create your `Signature` instance pointing to the PDF you want to
-      sign: **Why this matters**: This object manages the document state and provides
+      sign: '**Why this matters**: This object manages the document state and provides'
       access to all signing operations. Think of it as opening the PDF in edit mode,
       ready for your modifications.'
   - name: Configure Your Barcode Options
@@ -693,6 +693,6 @@ signature.sign(outputPath, barcodeOptions, imageOptions);
 
 ## Related Tutorials
 
-- [Add QR Code to PDF Java - Complete Guide with GroupDocs.Signature](/signature/java/qr-code-signatures/qr-code-signatures-java-groupdocs/)
-- [Create Barcode Signature in Java – Update PDF Barcodes](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
-- [Add Signature to PDF Java: Text Image Signatures with GroupDocs](/signature/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/)
+- [Add QR Code to PDF Java - Complete Guide with GroupDocs.Signature]({{< relref "signature/java/qr-code-signatures/qr-code-signatures-java-groupdocs/_index.md" >}})
+- [Create Barcode Signature in Java – Update PDF Barcodes]({{< relref "signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/_index.md" >}})
+- [Add Signature to PDF Java: Text Image Signatures with GroupDocs]({{< relref "signature/java/multiple-signatures/document-signing-text-image-java-groupdocs-signature/_index.md" >}})
