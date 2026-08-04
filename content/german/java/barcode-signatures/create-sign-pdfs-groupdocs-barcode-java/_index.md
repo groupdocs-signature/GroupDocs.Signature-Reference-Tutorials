@@ -1,85 +1,160 @@
 ---
 categories:
 - Java PDF Processing
-date: '2026-03-22'
-description: Lernen Sie, wie Sie in Java mit GroupDocs.Signature Barcodes zu PDF‑Dateien
-  hinzufügen. Dieses Schritt‑für‑Schritt‑Tutorial zeigt, wie man Barcode‑PDFs effizient
-  und zuverlässig erzeugt.
-keywords: add barcode to PDF Java, generate barcode in PDF programmatically, Java
-  PDF barcode library, sign PDF with barcode Java, create barcode signature PDF
-lastmod: '2026-03-22'
-linktitle: Add Barcode to PDF Java
+date: '2026-08-04'
+description: Erfahren Sie, wie Sie mit GroupDocs.Signature Barcode zu PDF‑Dateien
+  in Java hinzufügen. Dieses Schritt‑für‑Schritt‑Tutorial zeigt, wie man Barcode‑PDFs
+  effizient und zuverlässig erstellt.
+keywords:
+- add barcode to pdf
+- how to add barcode
+- groupdocs signature java
+lastmod: '2026-08-04'
+linktitle: Barcode zu PDF in Java hinzufügen
+og_description: Fügen Sie mit GroupDocs.Signature für Java Barcode zu PDF hinzu. Erfahren
+  Sie Schritt‑für‑Schritt, wie man Barcode‑PDFs erstellt, Fehler behandelt und die
+  Leistung optimiert.
+og_image_alt: Guide showing Java code that adds a barcode to a PDF with GroupDocs.Signature
+og_title: Barcode zu PDF in Java hinzufügen – Vollständiger GroupDocs Leitfaden
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-04'
+  description: Learn how to add barcode to PDF files in Java using GroupDocs.Signature.
+    This step‑by‑step tutorial shows how to generate barcode PDFs efficiently and
+    reliably.
+  headline: How to Add Barcode to PDF in Java – GroupDocs Guide
+  type: TechArticle
+- description: Learn how to add barcode to PDF files in Java using GroupDocs.Signature.
+    This step‑by‑step tutorial shows how to generate barcode PDFs efficiently and
+    reliably.
+  name: How to Add Barcode to PDF in Java – GroupDocs Guide
+  steps:
+  - name: setting up document paths
+    text: 'First, tell Java where to find your PDF and where to save the signed version:
+      What’s happening: You’re defining the input file path and extracting just the
+      filename. This keeps your output organized (especially useful when batch‑processing
+      multiple files). **Real‑world tip**: In production, these pa'
+  - name: configuring output and barcode options
+    text: '`BarcodeSignOptions` defines the barcode signature parameters such as data,
+      type, size, and location. Breaking this down: - `outputFilePath` – Where your
+      finished PDF gets saved. Notice the subfolder structure? This helps keep different
+      signing methods organized. - `BarcodeSignOptions("12345678")` –'
+  - name: positioning the barcode with precision
+    text: '`BarcodeSignOptions` also lets you place the barcode with millimeter precision,
+      which is ideal for printed output. Why millimeters matter: When you’re printing
+      documents, millimeters give you consistent sizing across different paper sizes
+      and resolutions. (You can also use pixels or percentages if t'
+  - name: adding margins for polish
+    text: 'Margins prevent your barcode from crowding other content: What this does:
+      Creates a 5 mm buffer zone around your barcode. This breathing room improves
+      scannability and looks more professional. **When to increase margins**: If you’re
+      placing barcodes near the edge of a page, bump the margins to 10 mm'
+  - name: signing and saving the document
+    text: 'Now for the moment of truth—actually adding the barcode: What happens under
+      the hood: GroupDocs opens your PDF, renders the barcode based on your options,
+      embeds it at the specified position, and saves the modified file. The original
+      PDF stays untouched. **Return value**: The `SignResult` object con'
+  - name: handling errors gracefully
+    text: 'Things can go wrong (wrong file paths, corrupted PDFs, insufficient permissions).
+      Handle errors properly: Best practices for exception handling: - Log the full
+      stack trace for debugging (not just the message) - Provide user‑friendly error
+      messages (avoid technical jargon) - Clean up resources even w'
+  type: HowTo
+- questions:
+  - answer: Change the `setEncodeType()` parameter. For QR codes, use `BarcodeTypes.QR`.
+      For EAN‑13, use `BarcodeTypes.EAN13`. GroupDocs supports over 60 barcode types
+      out of the box.
+    question: How do I create barcode signature PDF in Java for different barcode
+      types?
+  - answer: Absolutely. Call `signature.sign()` multiple times with different `BarcodeSignOptions`,
+      or pass a list of signature options in a single call.
+    question: Can I add multiple barcodes to the same PDF?
+  - answer: GroupDocs is non‑destructive by default—it adds barcodes as a new layer
+      without modifying existing content. Your original text, images, and formatting
+      remain intact.
+    question: How do I add barcode to existing PDF without losing content?
+  - answer: It depends on the type. Code128 handles about 128 characters comfortably.
+      QR codes can store up to 4 000 characters. If you need more, consider encoding
+      a URL that points to your data instead.
+    question: What’s the maximum data I can encode in a barcode?
+  - answer: Yes. The free trial adds watermarks. For production deployments, you’ll
+      need either a temporary license (for extended testing) or a purchased license.
+      Check the [GroupDocs pricing page](https://purchase.groupdocs.com/buy) for current
+      options.
+    question: Do I need a license for production use?
+  type: FAQPage
 tags:
 - barcode-generation
 - pdf-signing
 - document-automation
 - groupdocs
-title: Wie man einem PDF in Java einen Barcode hinzufügt – GroupDocs‑Leitfaden
+- add barcode to pdf
+title: Wie man Barcode zu PDF in Java hinzufügt – GroupDocs Leitfaden
 type: docs
 url: /de/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/
 weight: 1
 ---
 
-# Wie man Barcode zu PDF in Java hinzufügt
+# Wie man einen Barcode zu PDF in Java hinzufügt
 
-## Einführung
+Ever needed to track invoices automatically, verify contract authenticity, or manage inventory documents at scale? **Learning how to add barcode** to PDF files programmatically solves these problems—and if you're working in Java, you have a solid, battle‑tested option.
 
-Haben Sie jemals Rechnungen automatisch nachverfolgen, die Echtheit von Verträgen prüfen oder Dokumente zur Bestandsverwaltung in großem Umfang verwalten müssen? **Zu lernen, wie man Barcode** zu PDF‑Dateien programmgesteuert hinzufügt, löst diese Probleme – und wenn Sie in Java arbeiten, haben Sie eine solide, erprobte Option.
+Adding barcodes manually doesn’t scale. Whether you’re processing ten invoices or ten thousand, you need a reliable way to **add barcode to PDF** files. That’s where a good Java PDF barcode library comes in handy.
 
-Das manuelle Hinzufügen von Barcodes skaliert nicht. Egal, ob Sie zehn Rechnungen oder zehntausend verarbeiten, Sie benötigen eine zuverlässige Möglichkeit, **Barcode zu PDF**‑Dateien hinzuzufügen. Genau hier kommt eine gute Java‑PDF‑Barcode‑Bibliothek ins Spiel.
+In this guide, I’ll walk you through how to add barcode to PDF Java files using GroupDocs.Signature—a library that handles the heavy lifting while giving you fine‑grained control over positioning, sizing, and barcode types. By the end, you’ll know how to sign PDF with barcode Java code, handle edge cases, and avoid common pitfalls that trip up developers.
 
-In diesem Leitfaden führe ich Sie Schritt für Schritt durch das Hinzufügen von Barcode zu PDF‑Java‑Dateien mithilfe von GroupDocs.Signature – einer Bibliothek, die die schwere Arbeit übernimmt und Ihnen gleichzeitig feine Kontrolle über Positionierung, Größe und Barcode‑Typen gibt. Am Ende wissen Sie, wie Sie PDFs mit Barcode‑Java‑Code signieren, Randfälle behandeln und häufige Stolperfallen vermeiden, die Entwickler ausbremsen.
-
-**Was Sie lernen werden:**
-- Warum Barcodes in PDFs für Ihren Workflow wichtig sind  
-- Einrichtung von GroupDocs.Signature für Java (richtig)  
-- Erstellen und präzises Positionieren von Barcode‑Signaturen  
-- Fehlerbehandlung und Leistungsoptimierung  
-- Praxisbeispiele aus verschiedenen Branchen  
+**What you’ll learn:**
+- Why barcodes in PDFs matter for your workflow  
+- Setting up GroupDocs.Signature for Java (the right way)  
+- Creating and positioning barcode signatures with precision  
+- Handling errors and optimizing performance  
+- Real‑world applications across different industries  
 
 ## Schnelle Antworten
-- **Welche Bibliothek sollte ich verwenden?** GroupDocs.Signature für Java  
-- **Wie erstelle ich ein Barcode‑Signatur‑PDF?** Verwenden Sie `BarcodeSignOptions` mit `Signature.sign()`  
-- **Welcher Barcode‑Typ ist für die meisten Fälle am besten?** Code128  
-- **Kann ich mehrere Barcodes zu einem PDF hinzufügen?** Ja, rufen Sie `sign()` mehrmals auf oder übergeben Sie eine Liste  
-- **Brauche ich eine Lizenz für die Produktion?** Ja, eine gültige GroupDocs‑Lizenz entfernt Wasserzeichen  
+- **What library should I use?** GroupDocs.Signature for Java  
+- **How do I create a barcode signature PDF?** Use `BarcodeSignOptions` with `Signature.sign()`  
+- **Which barcode type is best for most cases?** Code128  
+- **Can I add multiple barcodes to one PDF?** Yes, call `sign()` multiple times or pass a list  
+- **Do I need a license for production?** Yes, a valid GroupDocs license removes watermarks  
 
 ## Warum Barcodes zu PDFs hinzufügen?
 
-Bevor wir zum Code kommen, sprechen wir darüber, warum das wichtig ist. Barcodes in PDFs sind nicht nur ein professionelles Aussehen – sie lösen echte Geschäftsprobleme:
+Barcodes embed machine‑readable data directly into your PDF, enabling instant verification, automated data capture, and seamless integration with ERP or inventory systems. By adding a barcode you turn a static document into an actionable asset that can be scanned to retrieve IDs, track status, and meet compliance requirements.
 
-**Dokumenten‑Verifizierung** – Barcodes können eindeutige Kennungen codieren, die Fälschungen nahezu unmöglich machen. Wenn jemand den Barcode scannt, kann Ihr System sofort prüfen, ob das Dokument legitim ist.
+Before we jump into code, let’s talk about why this matters. Barcodes in PDFs aren’t just about looking professional—they solve real business problems:
 
-**Workflow‑Automatisierung** – Statt Dokument‑IDs oder Tracking‑Nummern manuell einzugeben, können Ihre Mitarbeitenden (oder Kunden) einen Barcode scannen. Das reduziert menschliche Fehler um etwa 95 % gegenüber manueller Dateneingabe.
+**Document verification** – Barcodes can encode unique identifiers that make forgery nearly impossible. When someone scans the barcode, your system can instantly verify if the document is legitimate.
 
-**Integration mit bestehenden Systemen** – Die meisten ERP‑, Inventar‑ und Dokumenten‑Management‑Systeme „sprechen“ bereits Barcode. Das Hinzufügen zu Ihren PDFs ermöglicht nahtlose Integration, ohne eigene APIs zu bauen.
+**Workflow automation** – Instead of manually typing document IDs or tracking numbers, your staff (or customers) can scan a barcode. This reduces human error by about 95 % compared to manual data entry.
 
-**Compliance‑Anforderungen** – Viele Branchen (Gesundheitswesen, Logistik, Recht) verlangen Dokumenten‑Nachverfolgbarkeit. Barcodes bieten einen Audit‑Trail, der regulatorische Vorgaben erfüllt.
+**Integration with existing systems** – Most ERP, inventory, and document‑management systems already speak “barcode.” Adding them to your PDFs means seamless integration without building custom APIs.
 
-Der entscheidende Vorteil des programmgesteuerten Hinzufügens von Barcodes? **Konsistenz und Skalierbarkeit**. Sie definieren die Regeln einmal, und jedes Dokument wird gleich behandelt – egal, ob Sie fünf Dateien oder fünfzig tausend verarbeiten.
+**Compliance requirements** – Many industries (healthcare, logistics, legal) require document traceability. Barcodes provide an audit trail that satisfies regulatory requirements.
+
+The key advantage of programmatically adding barcodes? **Consistency and scale**. You define the rules once, and every document gets the same treatment—whether you’re processing five files or fifty thousand.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Codieren beginnen, stellen Sie sicher, dass Sie diese Grundlagen abgedeckt haben:
+Before you start coding, make sure you’ve got these basics covered:
 
 ### Erforderliche Software und Bibliotheken
-- **JDK 8 oder höher** auf Ihrem Rechner installiert (JDK 11+ empfohlen für bessere Leistung)  
-- Eine IDE wie IntelliJ IDEA, Eclipse oder VS Code mit Java‑Erweiterungen  
-- **GroupDocs.Signature für Java Version 23.12** (wir zeigen Ihnen unten, wie Sie es hinzufügen)
+- **JDK 8 or higher** installed on your machine (JDK 11+ recommended for better performance)  
+- An IDE like IntelliJ IDEA, Eclipse, or VS Code with Java extensions  
+- **GroupDocs.Signature for Java version 23.12** (we’ll show you how to add it below)
 
 ### Grundlegende Wissensvoraussetzungen
-- Sicher im Umgang mit Java‑Grundlagen (Klassen, Objekte, Dateiverarbeitung)  
-- Verständnis der PDF‑Dokumentenstruktur (hilfreich, aber nicht zwingend)  
-- Vertrautheit mit dem Abhängigkeitsmanagement (Maven oder Gradle)
+- Comfortable with Java fundamentals (classes, objects, file handling)  
+- Understanding of PDF document structure (helpful but not critical)  
+- Familiarity with dependency management (Maven or Gradle)
 
-**Pro Tip**: Wenn Sie neu bei GroupDocs sind, holen Sie sich zuerst die kostenlose Testversion. Sie gibt Ihnen 30 Tage zum Experimentieren, ohne dass Sie eine Lizenz erwerben müssen – perfekt für Proof‑of‑Concept‑Arbeiten.
+**Pro tip**: If you’re new to GroupDocs, grab their free trial first. It gives you 30 days to experiment without committing to a license—perfect for proof‑of‑concept work.
 
-## Einrichtung von GroupDocs.Signature für Java
+## Einrichten von GroupDocs.Signature für Java
 
-GroupDocs.Signature in Ihr Projekt zu bringen ist unkompliziert. Wählen Sie das Abhängigkeits‑Management‑System, das zu Ihrer Umgebung passt:
+Getting GroupDocs.Signature into your project is straightforward. Choose the dependency management system that matches your setup:
 
-### Maven‑Einrichtung
-Fügen Sie dies zu Ihrer `pom.xml`‑Datei hinzu:
+### Maven-Konfiguration
+Add this to your `pom.xml` file:
 
 ```xml
 <dependency>
@@ -89,29 +164,33 @@ Fügen Sie dies zu Ihrer `pom.xml`‑Datei hinzu:
 </dependency>
 ```
 
-### Gradle‑Einrichtung
-Für Gradle‑Nutzer fügen Sie diese Zeile zu Ihrer `build.gradle`‑Datei hinzu:
+### Gradle-Konfiguration
+For Gradle users, add this line to your `build.gradle`:
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-### Direktdownload‑Option
-Möchten Sie keine Build‑Tools verwenden? Laden Sie das JAR direkt von der [GroupDocs.Signature for Java releases page](https://releases.groupdocs.com/signature/java/) herunter und fügen Sie es manuell zum Klassenpfad Ihres Projekts hinzu.
+### Direkte Download-Option
+Prefer not using build tools? Download the JAR directly from the [GroupDocs.Signature für Java Release-Seite](https://releases.groupdocs.com/signature/java/) and add it to your project’s classpath manually.
 
 ### Lizenzkonfiguration
 
-Hier ist der praktische Lizenzweg, den die meisten Entwickler gehen:
+Here’s the practical licensing path most developers take:
 
-1. **Beginnen Sie mit der kostenlosen Testversion** – Keine Kreditkarte, keine Verpflichtung. Perfekt zum Testen.  
-2. **Holen Sie sich eine temporäre Lizenz** – Wenn 30 Tage nicht ausreichen, fordern Sie eine temporäre Lizenz für erweiterte Entwicklung an.  
-3. **Kaufen Sie für die Produktion** – Sobald Sie bereit sind, zu deployen, kaufen Sie eine Lizenz, die Ihrem Nutzungsniveau entspricht.
+1. **Start with the free trial** – No credit card, no commitment. Perfect for testing.  
+2. **Get a temporary license** – If 30 days isn’t enough, request a temporary license for extended development.  
+3. **Purchase for production** – Once you’re ready to deploy, buy a license that matches your usage level.
 
-**Wichtig**: Die kostenlose Testversion fügt Wasserzeichen zu Ausgabedokumenten hinzu. Für kundenorientierte Arbeit benötigen Sie mindestens eine temporäre Lizenz.
+**Important**: The free trial adds watermarks to output documents. For client‑facing work, you’ll need at least a temporary license.
 
-### Initialer Setup‑Code
+### Initialer Setup-Code
 
-Sobald die Abhängigkeiten vorhanden sind, initialisieren Sie das `Signature`‑Objekt wie folgt:
+`Signature` is the primary class in GroupDocs.Signature that provides methods to load, sign, and save PDF documents.
+
+What’s happening here: The `Signature` class is your main entry point. You pass it a file path, and it loads the PDF into memory for processing. Simple, right?
+
+**Common mistake to avoid**: Don’t forget to close the `Signature` object when you’re done (or use try‑with‑resources). Leaving it open can cause memory leaks in long‑running applications.
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -120,48 +199,52 @@ import com.groupdocs.signature.Signature;
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/sample.pdf");
 ```
 
-**Was hier passiert**: Die Klasse `Signature` ist Ihr Haupteinstiegspunkt. Sie übergeben ihr einen Dateipfad, und sie lädt das PDF in den Speicher zur Verarbeitung. Einfach, oder?
+## Auswahl des richtigen Barcodetyps
 
-**Häufiger Fehler, den Sie vermeiden sollten**: Vergessen Sie nicht, das `Signature`‑Objekt zu schließen, wenn Sie fertig sind (oder verwenden Sie try‑with‑resources). Offen bleiben lässt Speicher‑Leaks in langlaufenden Anwendungen entstehen.
+Not all barcodes are created equal. The type you choose depends on what you need to encode and where the barcode will be scanned.
 
-## Auswahl des richtigen Barcode‑Typs
+### Unterstützte beliebte Barcodetypen
 
-Nicht alle Barcodes sind gleich. Der Typ, den Sie wählen, hängt davon ab, was Sie codieren müssen und wo der Barcode gescannt wird.
+- **Code128** – Great for alphanumeric data; common in shipping labels.  
+- **QR Codes** – Perfect when you need to store more data (URLs, JSON, up to 4 000 characters).  
+- **Code39** – Simpler than Code128 but less space‑efficient; good for internal tracking.  
+- **EAN/UPC** – Industry standard for retail products.  
 
-### Unterstützte beliebte Barcode‑Typen
-- **Code128** – Ideal für alphanumerische Daten; häufig in Versandetiketten.  
-- **QR‑Codes** – Perfekt, wenn Sie mehr Daten speichern müssen (URLs, JSON, bis zu 4 000 Zeichen).  
-- **Code39** – Einfacher als Code128, aber weniger platzsparend; gut für interne Verfolgung.  
-- **EAN/UPC** – Industriestandard für Einzelhandelsprodukte.  
+**When to use which?**  
+- Need to encode more than 50 characters? → QR Code  
+- Standard product identification? → EAN/UPC  
+- General‑purpose document tracking? → Code128  
+- Maximum compatibility with legacy scanners? → Code39  
 
-**Wann welchen verwenden?**  
-- Mehr als 50 Zeichen zu codieren? → QR‑Code  
-- Standard‑Produktidentifikation? → EAN/UPC  
-- Allgemeine Dokumentenverfolgung? → Code128  
-- Maximale Kompatibilität mit alten Scannern? → Code39  
+**Pro tip**: Code128 is the safest default choice for document management. It balances readability, data capacity, and scanner compatibility.
 
-**Pro Tip**: Code128 ist die sicherste Standardwahl für das Dokumenten‑Management. Es balanciert Lesbarkeit, Datenkapazität und Scanner‑Kompatibilität.
+## Implementierungsleitfaden: Erstellen von Barcode-Signaturen
 
-## Implementierungs‑Leitfaden: Erstellen von Barcode‑Signaturen
+Now for the good stuff—let’s actually create and add barcodes to your PDFs. I’ll break this down into manageable steps so you can follow along (or skip to the parts you need).
 
-Jetzt zum eigentlichen Kern – wir erstellen und fügen Barcodes zu Ihren PDFs hinzu. Ich zerlege das in handhabbare Schritte, damit Sie leicht folgen können (oder zu den Teilen springen, die Sie benötigen).
+### Schritt 1: Dokumentpfade einrichten
 
-### Schritt 1: Dokumentpfade einrichten
-
-Zuerst sagen Sie Java, wo Ihr PDF zu finden ist und wo die signierte Version gespeichert werden soll:
+First, tell Java where to find your PDF and where to save the signed version:
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 String fileName = new File(filePath).getName();
 ```
 
-**Was hier passiert**: Sie definieren den Eingabepfad und extrahieren nur den Dateinamen. Das hält Ihre Ausgabe organisiert (besonders nützlich beim Batch‑Processing mehrerer Dateien).
+What’s happening: You’re defining the input file path and extracting just the filename. This keeps your output organized (especially useful when batch‑processing multiple files).
 
-**Praxis‑Tipp**: In der Produktion kommen diese Pfade meist aus Konfigurationsdateien oder Umgebungsvariablen – nicht aus hartkodierten Strings. Nutzen Sie `System.getenv()` oder eine Properties‑Datei für mehr Flexibilität.
+**Real‑world tip**: In production, these paths usually come from configuration files or environment variables—not hard‑coded strings. Consider using `System.getenv()` or a properties file for flexibility.
 
-### Schritt 2: Ausgabe‑ und Barcode‑Optionen konfigurieren
+### Schritt 2: Ausgabe- und Barcode-Optionen konfigurieren
 
-Als Nächstes legen Sie fest, wohin das signierte Dokument geht und welchen Barcode Sie erzeugen wollen:
+`BarcodeSignOptions` defines the barcode signature parameters such as data, type, size, and location.
+
+Breaking this down:  
+- `outputFilePath` – Where your finished PDF gets saved. Notice the subfolder structure? This helps keep different signing methods organized.  
+- `BarcodeSignOptions("12345678")` – The data encoded in your barcode. This could be an invoice number, tracking ID, document hash—whatever you need.  
+- `setEncodeType(BarcodeTypes.Code128)` – Tells GroupDocs which barcode format to use.
+
+**Common question**: “Can I use special characters in the barcode data?” With Code128, yes—you can include letters, numbers, and most punctuation. QR codes are even more flexible.
 
 ```java
 // Define output file path
@@ -171,16 +254,18 @@ BarcodeSignOptions options = new BarcodeSignOptions("12345678");
 options.setEncodeType(BarcodeTypes.Code128);
 ```
 
-**Aufschlüsselung:**  
-- `outputFilePath` – Wo Ihr fertiges PDF gespeichert wird. Beachten Sie die Unterordnerstruktur? Das hilft, verschiedene Signatur‑Methoden zu organisieren.  
-- `BarcodeSignOptions("12345678")` – Die in Ihrem Barcode codierten Daten. Das kann eine Rechnungsnummer, Tracking‑ID, Dokument‑Hash usw. sein.  
-- `setEncodeType(BarcodeTypes.Code128)` – Gibt GroupDocs das Barcode‑Format vor.
+### Schritt 3: Barcode präzise positionieren
 
-**Häufige Frage**: „Kann ich Sonderzeichen im Barcode‑Datenfeld verwenden?“ Bei Code128 ja – Sie können Buchstaben, Zahlen und die meisten Satzzeichen einbinden. QR‑Codes sind noch flexibler.
+`BarcodeSignOptions` also lets you place the barcode with millimeter precision, which is ideal for printed output.
 
-### Schritt 3: Positionierung des Barcodes mit Präzision
+Why millimeters matter: When you’re printing documents, millimeters give you consistent sizing across different paper sizes and resolutions. (You can also use pixels or percentages if that fits your use case better.)
 
-Hier wird es interessant. Sie können Barcodes mit Millimeter‑Präzision positionieren:
+Positioning strategy:  
+- **Top‑right corner** (like shipping labels): `setLeft(150)`, `setTop(10)`  
+- **Bottom‑center** (like tickets): calculate center based on page width  
+- **Next to existing content**: measure your PDF layout and position accordingly  
+
+**Pro tip**: Test your positioning with a few sample PDFs before batch processing. Different PDF layouts might need slight adjustments.
 
 ```java
 // Set position and size in millimeters
@@ -193,18 +278,9 @@ options.setWidth(20);  // Width of the barcode
 options.setHeight(10); // Height of the barcode
 ```
 
-**Warum Millimeter wichtig sind**: Beim Drucken geben Millimeter konsistente Größen über verschiedene Papierformate und Auflösungen hinweg. (Sie können auch Pixel oder Prozentsätze verwenden, wenn das besser zu Ihrem Anwendungsfall passt.)
+### Schritt 4: Ränder für Feinschliff hinzufügen
 
-**Positionierungs‑Strategie**  
-- **Obere rechte Ecke** (wie Versandetiketten): `setLeft(150)`, `setTop(10)`  
-- **Unten‑Mitte** (wie Tickets): Mitte basierend auf Seitenbreite berechnen  
-- **Neben bestehendem Inhalt**: PDF‑Layout messen und entsprechend positionieren  
-
-**Pro Tip**: Testen Sie die Positionierung an einigen Beispiel‑PDFs, bevor Sie im Batch verarbeiten. Unterschiedliche Layouts benötigen ggf. kleine Anpassungen.
-
-### Schritt 4: Ränder für das Finish hinzufügen
-
-Ränder verhindern, dass Ihr Barcode andere Inhalte überlappt:
+Margins prevent your barcode from crowding other content:
 
 ```java
 // Define margin settings
@@ -216,26 +292,26 @@ padding.setBottom(5); // Bottom margin in mm
 options.setMargin(padding);
 ```
 
-**Was das bewirkt**: Erstellt einen 5 mm‑Puffer um Ihren Barcode. Dieser Freiraum verbessert die Scan‑Lesbarkeit und wirkt professioneller.
+What this does: Creates a 5 mm buffer zone around your barcode. This breathing room improves scannability and looks more professional.
 
-**Wann Ränder vergrößern**: Platzieren Sie Barcodes nahe am Seitenrand, erhöhen Sie die Ränder auf 10 mm. Drucker haben oft Probleme mit Inhalten, die zu nah am Rand liegen.
+**When to increase margins**: If you’re placing barcodes near the edge of a page, bump the margins to 10 mm. Printers often have trouble with content too close to edges.
 
-### Schritt 5: Dokument signieren und speichern
+### Schritt 5: Dokument signieren und speichern
 
-Jetzt kommt der entscheidende Moment – den Barcode tatsächlich hinzufügen:
+Now for the moment of truth—actually adding the barcode:
 
 ```java
 // Sign and save the document
 SignResult signResult = signature.sign(outputFilePath, options);
 ```
 
-**Was im Hintergrund passiert**: GroupDocs öffnet Ihr PDF, rendert den Barcode anhand Ihrer Optionen, bettet ihn an der angegebenen Position ein und speichert die modifizierte Datei. Das Original‑PDF bleibt unverändert.
+What happens under the hood: GroupDocs opens your PDF, renders the barcode based on your options, embeds it at the specified position, and saves the modified file. The original PDF stays untouched.
 
-**Rückgabewert**: Das Objekt `SignResult` enthält Erfolgs‑/Fehler‑Status und Metadaten darüber, was signiert wurde. Sie können es prüfen, um sicherzugehen, dass alles geklappt hat.
+**Return value**: The `SignResult` object contains success/failure status and metadata about what was signed. You can inspect it to verify everything worked.
 
-### Schritt 6: Fehler graceful behandeln
+### Schritt 6: Fehler elegant behandeln
 
-Es können Fehler auftreten (falsche Pfade, beschädigte PDFs, fehlende Berechtigungen). Behandeln Sie Fehler korrekt:
+Things can go wrong (wrong file paths, corrupted PDFs, insufficient permissions). Handle errors properly:
 
 ```java
 try {
@@ -251,63 +327,65 @@ try {
 }
 ```
 
-**Best Practices für Ausnahmebehandlung**  
-- Protokollieren Sie den vollständigen Stack‑Trace zur Fehlersuche (nicht nur die Meldung)  
-- Geben Sie benutzerfreundliche Fehlermeldungen aus (vermeiden Sie Fachjargon)  
-- Räumen Sie Ressourcen auch bei Fehlern auf (verwenden Sie try‑with‑resources)  
-- Erwägen Sie Wiederholungslogik für vorübergehende Fehler (Netzwerkprobleme, gesperrte Dateien)  
+Best practices for exception handling:  
+- Log the full stack trace for debugging (not just the message)  
+- Provide user‑friendly error messages (avoid technical jargon)  
+- Clean up resources even when errors occur (use try‑with‑resources)  
+- Consider retry logic for transient failures (network issues, locked files)
 
-**Häufige Fehler, denen Sie begegnen werden**  
-- `FileNotFoundException` – Ihr Eingabe‑PDF‑Pfad ist falsch  
-- `GroupDocsSignatureException` – Ungültige Barcode‑Daten oder nicht unterstützte PDF‑Version  
-- `OutOfMemoryError` – Verarbeitung zu vieler großer PDFs gleichzeitig  
+**Common errors you’ll encounter**:  
+- `FileNotFoundException` – Your input PDF path is wrong  
+- `GroupDocsSignatureException` – Invalid barcode data or unsupported PDF version  
+- `OutOfMemoryError` – Processing too many large PDFs simultaneously  
 
-## Wie man Barcode‑Signatur‑PDF in Java erstellt
+## Wie man Barcode-Signatur-PDF in Java erstellt
 
-Wenn Sie eine kompakte Schritt‑für‑Schritt‑Checkliste bevorzugen, hier ist sie:
+Load your PDF with `new Signature("source.pdf")`, configure a `BarcodeSignOptions` object with the data and barcode type you need, set its position and size, then call `sign(outputPath, options)`. The method returns a `SignResult` that tells you whether the operation succeeded and provides details about the created signature.
 
-1. **Fügen Sie die GroupDocs.Signature‑Abhängigkeit hinzu** (Maven, Gradle oder manuelles JAR).  
-2. **Initialisieren Sie `Signature`** mit dem Quell‑PDF‑Pfad.  
-3. **Konfigurieren Sie `BarcodeSignOptions`** – Daten, Typ, Größe und Position festlegen.  
-4. **Optional Ränder festlegen** zur Verbesserung der Lesbarkeit.  
-5. **Rufen Sie `signature.sign(outputPath, options)`** auf, um den Barcode einzubetten.  
-6. **Behandeln Sie Ausnahmen** und schließen Sie Ressourcen.
+If you prefer a concise, step‑by‑step checklist, here it is:
 
-Wenn Sie diese sechs Schritte befolgen, können Sie **Barcode zu PDF‑Java‑Dokumenten** zuverlässig in jeder Java‑Anwendung hinzufügen.
+1. **Add GroupDocs.Signature dependency** (Maven, Gradle, or manual JAR).  
+2. **Initialize `Signature`** with the source PDF path.  
+3. **Configure `BarcodeSignOptions`** – set data, type, size, and location.  
+4. **Optionally set margins** to improve readability.  
+5. **Call `signature.sign(outputPath, options)`** to embed the barcode.  
+6. **Handle exceptions** and close resources.
+
+Following these six steps will let you **add barcode to PDF Java documents** reliably in any Java application.
 
 ## Häufige Probleme & Lösungen
 
-Wir gehen jetzt auf die Probleme ein, mit denen Entwickler tatsächlich konfrontiert werden (weil Dokumentation das selten tut):
+Let’s address the problems developers actually run into (because documentation rarely does):
 
-### Problem 1: Barcode wird nicht richtig gescannt
+### Problem 1: Barcode wird nicht richtig gescannt
 
-**Symptome**: Der Scanner kann den Barcode nicht lesen oder liefert falsche Daten.  
+**Symptoms**: Scanner can’t read the barcode or returns wrong data.  
 
-**Lösungen**  
-- Vergrößern Sie die Barcode‑Größe (mindestens 15 mm Breite für die meisten Scanner)  
-- Stellen Sie sicher, dass die Barcode‑Daten keine nicht unterstützten Zeichen für diesen Typ enthalten  
-- Sorgen Sie für ausreichenden Kontrast zwischen Barcode und Hintergrund  
-- Testen Sie mit mehreren Scanner‑Apps – einige sind besser als andere  
+**Solutions**:  
+- Increase barcode size (minimum 15 mm width for most scanners)  
+- Check that barcode data doesn’t include unsupported characters for that type  
+- Ensure sufficient contrast between barcode and background  
+- Test with multiple scanner apps—some are better than others  
 
-### Problem 2: Barcode‑Position verschiebt sich zwischen Dokumenten
+### Problem 2: Barcode-Position verschiebt sich zwischen Dokumenten
 
-**Symptome**: Derselbe Positionierungscode liefert unterschiedliche Ergebnisse bei PDFs mit unterschiedlichen Seitengrößen.  
+**Symptoms**: Same positioning code produces different results on PDFs with different page sizes.  
 
-**Lösungen**  
-- PDFs mit unterschiedlichen Seitengrößen benötigen Positionsberechnungen, nicht fest codierte Werte  
-- Prüfen Sie, ob Quell‑PDFs eine Rotation haben (das verschiebt die Koordinaten)  
-- Verwenden Sie prozentbasierte Positionierung für bessere Konsistenz  
-- Normalisieren Sie alle Eingabe‑PDFs nach Möglichkeit auf eine Standard‑Seitengröße  
+**Solutions**:  
+- PDFs with different page sizes need position calculations, not hard‑coded values  
+- Check if source PDFs have rotation applied (this throws off coordinates)  
+- Use percentage‑based positioning for better consistency  
+- Normalize all input PDFs to a standard page size when possible  
 
-### Problem 3: Leistungsabfall bei großen Stapeln
+### Problem 3: Leistungsabfall bei großen Stapeln
 
-**Symptome**: Die ersten 100 PDFs werden schnell verarbeitet, danach verlangsamt es sich.  
+**Symptoms**: First 100 PDFs process quickly, then it slows down.  
 
-**Lösungen**  
-- Schließen Sie `Signature`‑Objekte umgehend (oder verwenden Sie try‑with‑resources)  
-- Verarbeiten Sie in kleineren Stapeln mit Speicherbereinigung zwischen den Stapeln  
-- Erwägen Sie parallele Verarbeitung für CPU‑intensive Vorgänge  
-- Überwachen Sie den Heap‑Verbrauch – Sie benötigen möglicherweise JVM‑Feinabstimmung  
+**Solutions**:  
+- Close `Signature` objects promptly (or use try‑with‑resources)  
+- Process in smaller batches with memory cleanup between batches  
+- Consider parallel processing for CPU‑bound operations  
+- Monitor heap usage—you might need JVM tuning  
 
 ```java
 // Good: Process in chunks
@@ -321,53 +399,51 @@ for (int i = 0; i < allFiles.size(); i += batchSize) {
 }
 ```
 
-### Problem 4: Aufblähung der Ausgabedateigröße
+### Problem 4: Ausgabe-Dateigröße explodiert
 
-**Symptome**: Signierte PDFs sind viel größer als die Originale.  
+**Symptoms**: Signed PDFs are much larger than originals.  
 
-**Lösungen**  
-- GroupDocs komprimiert nicht automatisch – behandeln Sie die Kompression bei Bedarf separat  
-- Vermeiden Sie das Hinzufügen hochauflösender Barcode‑Bilder, wenn Vektoren ausreichen  
-- Prüfen Sie, ob Sie versehentlich Schriftarten oder zusätzliche Metadaten einbetten  
+**Solutions**:  
+- GroupDocs doesn’t automatically compress—handle compression separately if needed  
+- Avoid adding high‑resolution barcode images when vectors work fine  
+- Check if you’re accidentally embedding fonts or extra metadata  
 
-**Wann Support kontaktieren**: Wenn Sie diese Lösungen ausprobiert haben und das Problem weiterhin besteht, bietet das [GroupDocs‑Forum](https://forum.groupdocs.com/c/signature/) reaktionsschnellen Support.
+**When to contact support**: If you’ve tried these solutions and still have issues, the [GroupDocs forum](https://forum.groupdocs.com/c/signature/) has responsive support staff.
 
-## Praxisbeispiele
+## Einsatzbeispiele aus der Praxis
 
-### Rechtsbranche: Vertragsmanagement
+Here’s how different industries actually use this capability:
 
-Anwaltskanzleien fügen Barcodes zu Verträgen hinzu, um physische Dokumente mit Fall‑Management‑Systemen zu verknüpfen. Das Scannen des Barcodes ruft sofort die komplette Falldatenhistorie ab und reduziert die Bearbeitungszeit von Minuten auf Sekunden.
+### Rechtsbranche: Vertragsverwaltung
+Law firms add barcodes to contracts to link physical documents to case‑management systems. Scanning the barcode instantly pulls up the full case history, cutting processing time from minutes to seconds.
 
-**Implementierungstipp**: Codieren Sie einen Dokument‑Hash im Barcode, sodass Sie die physische Version auf Manipulation prüfen können.
+**Implementation tip**: Encode a document hash in the barcode so you can verify the physical document hasn’t been altered.
 
 ### Gesundheitswesen: Patientenakten
+Hospitals attach barcodes to discharge summaries and prescription PDFs. When patients check in, staff scan the barcode to instantly populate their file with previous visit history.
 
-Krankenhäuser versehen Entlassungsberichte und Rezept‑PDFs mit Barcodes. Beim Check‑in scannen Mitarbeitende den Barcode, um die Akte des Patienten sofort mit vorheriger Besuchshistorie zu füllen.
-
-**Compliance‑Hinweis**: Stellen Sie sicher, dass Ihre Barcode‑Implementierung den HIPAA‑Anforderungen an die Datenkodierung entspricht.
+**Compliance note**: Ensure your barcode implementation meets HIPAA requirements for data encoding.
 
 ### Logistik: Versandetiketten
+E‑commerce platforms automatically add tracking barcodes to packing slips. Warehouse staff scan to update shipment status without manual data entry.
 
-E‑Commerce‑Plattformen fügen automatisch Tracking‑Barcodes zu Packzetteln hinzu. Lagerpersonal scannt, um den Versandstatus zu aktualisieren, ohne manuelle Dateneingabe.
+**Performance consideration**: These systems often process thousands of documents per hour—batch processing and parallel execution are critical.
 
-**Leistungs‑Überlegung**: Diese Systeme verarbeiten häufig tausende Dokumente pro Stunde – Batch‑Processing und parallele Ausführung sind entscheidend.
+### Finanzen: Rechnungsverarbeitung
+Accounting departments add barcodes to invoices that encode payment terms and vendor IDs. Scanning automatically routes them to the right approval workflow.
 
-### Finanzen: Rechnungsbearbeitung
-
-Buchhaltungsabteilungen fügen Rechnungen Barcodes hinzu, die Zahlungsbedingungen und Lieferanten‑IDs codieren. Das Scannen leitet sie automatisch zum richtigen Genehmigungs‑Workflow.
-
-**Pro Tip**: Kombinieren Sie Barcodes mit OCR für maximale Automatisierung – Barcode liefert Metadaten, OCR die Einzelposten.
+**Pro tip**: Combine barcodes with OCR for maximum automation—scan the barcode for metadata, OCR for line items.
 
 ## Leistungs‑Best Practices
 
-Wenn Sie Dokumente in großem Umfang verarbeiten, machen diese Optimierungen einen echten Unterschied:
+When you’re processing documents at scale, these optimizations make a real difference:
 
-### Speicherverwaltung
-- **Verwenden Sie try‑with‑resources**: Stellt sicher, dass `Signature`‑Objekte ordnungsgemäß geschlossen werden.  
-- **In Stapeln verarbeiten**: Laden Sie nicht 10 000 PDFs gleichzeitig in den Speicher.  
-- **Heap‑Nutzung überwachen**: Setzen Sie geeignete JVM‑Flags (`-Xmx`, `-Xms`).  
+### Speichermanagement
+- **Use try‑with‑resources**: Ensures `Signature` objects are properly closed.  
+- **Process in batches**: Don’t load 10 000 PDFs into memory at once.  
+- **Monitor heap usage**: Set appropriate JVM flags (`-Xmx`, `-Xms`).
 
-### Strategien für die Stapelverarbeitung
+### Stapelverarbeitungsstrategien
 ```java
 List<String> files = getAllPdfFiles();
 files.parallelStream().forEach(file -> {
@@ -379,10 +455,10 @@ files.parallelStream().forEach(file -> {
 });
 ```
 
-**Vorsicht**: Parallele Verarbeitung verbraucht mehr Speicher. Überwachen und passen Sie die Einstellungen entsprechend an.
+**Caution**: Parallel processing uses more memory. Monitor and tune accordingly.
 
-### Caching von Signature‑Objekten
-Wenn Sie ähnliche Dokumente wiederholt verarbeiten, sollten Sie die Konfiguration wiederverwenden:
+### Caching von Signaturobjekten
+If processing similar documents repeatedly, consider reusing configuration:
 
 ```java
 // Create options once
@@ -398,59 +474,65 @@ for (String file : files) {
 
 ## Häufig gestellte Fragen
 
-**Q: Wie erstelle ich Barcode‑Signatur‑PDF in Java für verschiedene Barcode‑Typen?**  
-A: Ändern Sie den Parameter `setEncodeType()`. Für QR‑Codes verwenden Sie `BarcodeTypes.QR`. Für EAN‑13 nutzen Sie `BarcodeTypes.EAN13`. GroupDocs unterstützt von Haus aus über 60 Barcode‑Typen.
+**Q: How do I create barcode signature PDF in Java for different barcode types?**  
+A: Change the `setEncodeType()` parameter. For QR codes, use `BarcodeTypes.QR`. For EAN‑13, use `BarcodeTypes.EAN13`. GroupDocs supports over 60 barcode types out of the box.
 
-**Q: Kann ich mehrere Barcodes zu dem gleichen PDF hinzufügen?**  
-A: Absolut. Rufen Sie `signature.sign()` mehrmals mit unterschiedlichen `BarcodeSignOptions` auf oder übergeben Sie eine Liste von Signatur‑Optionen in einem Aufruf.
+**Q: Can I add multiple barcodes to the same PDF?**  
+A: Absolutely. Call `signature.sign()` multiple times with different `BarcodeSignOptions`, or pass a list of signature options in a single call.
 
-**Q: Wie füge ich Barcode zu einem bestehenden PDF hinzu, ohne Inhalte zu verlieren?**  
-A: GroupDocs ist standardmäßig nicht‑destruktiv – es fügt Barcodes als neue Ebene hinzu, ohne bestehenden Inhalt zu verändern. Ihr ursprünglicher Text, Bilder und Formatierungen bleiben erhalten.
+**Q: How do I add barcode to existing PDF without losing content?**  
+A: GroupDocs is non‑destructive by default—it adds barcodes as a new layer without modifying existing content. Your original text, images, and formatting remain intact.
 
-**Q: Wie viel Daten kann ich maximal in einem Barcode codieren?**  
-A: Das hängt vom Typ ab. Code128 verarbeitet bequem etwa 128 Zeichen. QR‑Codes können bis zu 4 000 Zeichen speichern. Wenn Sie mehr benötigen, codieren Sie eine URL, die auf Ihre Daten verweist.
+**Q: What’s the maximum data I can encode in a barcode?**  
+A: It depends on the type. Code128 handles about 128 characters comfortably. QR codes can store up to 4 000 characters. If you need more, consider encoding a URL that points to your data instead.
 
-**Q: Brauche ich eine Lizenz für die Produktion?**  
-A: Ja. Die kostenlose Testversion fügt Wasserzeichen hinzu. Für Produktions‑Deployments benötigen Sie entweder eine temporäre Lizenz (für erweiterte Tests) oder eine gekaufte Lizenz. Aktuelle Optionen finden Sie auf der [GroupDocs‑Preisseite](https://purchase.groupdocs.com/buy).
+**Q: Do I need a license for production use?**  
+A: Yes. The free trial adds watermarks. For production deployments, you’ll need either a temporary license (for extended testing) or a purchased license. Check the [GroupDocs pricing page](https://purchase.groupdocs.com/buy) for current options.
 
-**Q: Wie gehe ich mit Ausnahmen bei der Stapelverarbeitung um?**  
-A: Verpacken Sie jede Dateiverarbeitung in einen eigenen try‑catch‑Block, damit ein fehlgeschlagenes PDF nicht den gesamten Batch zum Absturz bringt. Loggen Sie Fehler mit Dateinamen, um sie später erneut zu verarbeiten.
+**Q: How do I handle exceptions during batch processing?**  
+A: Wrap each file operation in its own try‑catch block so one failed PDF doesn’t crash the entire batch. Log errors with file names so you can reprocess failures later.
 
-**Q: Kann GroupDocs 2D‑Barcodes wie Data Matrix erzeugen?**  
-A: Ja! Verwenden Sie `BarcodeTypes.DataMatrix`. Data‑Matrix‑Barcodes sind in der Fertigung beliebt, weil sie selbst bei Teilbeschädigung oder ungewöhnlichen Winkeln lesbar bleiben.
+**Q: Can GroupDocs generate 2D barcodes like Data Matrix?**  
+A: Yes! Use `BarcodeTypes.DataMatrix`. Data Matrix barcodes are popular in manufacturing because they’re readable even when partially damaged or at odd angles.
 
-**Q: Welche PDF‑Versionen unterstützt GroupDocs?**  
-A: GroupDocs.Signature verarbeitet PDFs von Version 1.3 bis 2.0 (deckt 99 % der PDFs, die Sie antreffen). Bei sehr alten PDFs sollten Sie sie vorher konvertieren.
+**Q: What PDF versions does GroupDocs support?**  
+A: GroupDocs.Signature handles PDFs from version 1.3 through 2.0 (covers 99 % of PDFs you’ll encounter). If you have ancient PDFs, consider converting them first.
 
 ## Fazit
 
-Sie wissen jetzt, wie Sie **Barcode zu PDF‑Java‑Dokumenten** programmgesteuert mit GroupDocs.Signature hinzufügen. Wir haben alles von der Grundkonfiguration bis zur produktionsreifen Fehlerbehandlung und Leistungsoptimierung abgedeckt.
+You now know how to **add barcode to PDF Java documents** programmatically using GroupDocs.Signature. We covered everything from basic setup to production‑ready error handling and performance optimization.
 
-**Wichtige Erkenntnisse**  
-- Barcodes lösen echte Workflow‑Probleme (Automatisierung, Verifizierung, Rückverfolgbarkeit)  
-- GroupDocs gibt Ihnen präzise Kontrolle über Positionierung und Barcode‑Typen  
-- Richtige Fehlerbehandlung und Ressourcen‑Management verhindern Produktions‑Kopfschmerzen  
-- Leistungs‑Feintuning ist entscheidend, wenn Sie Dokumente in großem Umfang verarbeiten  
+**Key takeaways**  
+- Barcodes embed actionable data, enabling verification, automation, and compliance.  
+- GroupDocs gives you precise control over positioning and barcode types.  
+- Proper error handling and resource management prevent production headaches.  
+- Performance tuning matters when processing documents at scale.  
 
-**Nächste Schritte**: Starten Sie mit einem kleinen Proof‑of‑Concept mithilfe der kostenlosen Testversion. Testen Sie verschiedene Barcode‑Typen mit Ihren echten Dokumenten. Nach der Validierung gehen Sie zur Stapelverarbeitung über und schließlich zur Produktions‑Deployment.
+**Next steps**: Start with a small proof‑of‑concept using the free trial. Test different barcode types with your actual documents. Once validated, move to batch processing and then production deployment.
 
-Haben Sie Fragen oder stoßen auf Probleme? Stellen Sie sie im [GroupDocs‑Support‑Forum](https://forum.groupdocs.com/c/signature/) – die Community ist hilfsbereit und die Reaktionszeiten sind gut.
+Got questions or running into issues? Drop them in the [GroupDocs support forum](https://forum.groupdocs.com/c/signature/)—the community is helpful, and response times are solid.
 
 ## Ressourcen
 
 ### Dokumentation & Downloads
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)  
-- [Complete API Reference](https://reference.groupdocs.com/signature/java/)  
-- [Download Latest Version](https://releases.groupdocs.com/signature/java/)  
+- [GroupDocs.Signature für Java Documentation](https://docs.groupdocs.com/signature/java/)
+- [Complete API reference](https://reference.groupdocs.com/signature/java/)
+- [Download latest version](https://releases.groupdocs.com/signature/java/)
 
 ### Lizenzierung & Support
-- [Purchase License](https://purchase.groupdocs.com/buy)  
-- [Start Free Trial](https://releases.groupdocs.com/signature/java/)  
-- [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)  
-- [Community Support Forum](https://forum.groupdocs.com/c/signature/)  
+- [Purchase license](https://purchase.groupdocs.com/buy)
+- [Start free trial](https://releases.groupdocs.com/signature/java/)
+- [Request temporary license](https://purchase.groupdocs.com/temporary-license/)
+- [Community support forum](https://forum.groupdocs.com/c/signature/)
 
 ---
 
-**Zuletzt aktualisiert:** 2026-03-22  
-**Getestet mit:** GroupDocs.Signature 23.12 für Java  
-**Autor:** GroupDocs
+**Last updated:** 2026-08-04  
+**Tested with:** GroupDocs.Signature 23.12 for Java  
+**Author:** GroupDocs
+
+## Verwandte Tutorials
+
+- [How to Verify Barcode Signatures in Java Using GroupDocs.Signature](/signature/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/)
+- [Create Barcode Signature in Java – Update PDF Barcodes](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
+- [Add QR Code to PDF Java - Complete Guide with GroupDocs.Signature](/signature/java/qr-code-signatures/qr-code-signatures-java-groupdocs/)
