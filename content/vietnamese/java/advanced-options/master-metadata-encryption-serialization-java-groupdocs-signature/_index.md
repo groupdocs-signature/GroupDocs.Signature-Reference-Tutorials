@@ -1,78 +1,127 @@
 ---
 categories:
 - Document Security
-date: '2026-02-26'
-description: Tìm hiểu cách mã hóa siêu dữ liệu tài liệu Java bằng GroupDocs.Signature.
-  Hướng dẫn từng bước kèm ví dụ mã, mẹo bảo mật và khắc phục sự cố để ký tài liệu
-  an toàn.
-keywords: encrypt document metadata java, Java document signature encryption, GroupDocs
-  metadata serialization, secure document metadata Java, custom XOR encryption Java
-lastmod: '2026-02-26'
-linktitle: Encrypt Document Metadata Java
+date: '2026-07-06'
+description: Tìm hiểu cách mã hóa siêu dữ liệu trong Java bằng GroupDocs.Signature.
+  Hướng dẫn từng bước, đoạn mã mẫu, các thực hành bảo mật tốt nhất và khắc phục sự
+  cố để ký tài liệu mạnh mẽ.
+keywords:
+- how to encrypt metadata
+- Java document signature encryption
+- GroupDocs metadata serialization
+- secure document metadata Java
+lastmod: '2026-07-06'
+linktitle: Mã hóa siêu dữ liệu tài liệu Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-06'
+  description: Learn how to encrypt metadata in Java using GroupDocs.Signature. Step‑by‑step
+    guide, code snippets, security best practices, and troubleshooting for robust
+    document signing.
+  headline: How to Encrypt Metadata in Java with GroupDocs.Signature
+  type: TechArticle
+- description: Learn how to encrypt metadata in Java using GroupDocs.Signature. Step‑by‑step
+    guide, code snippets, security best practices, and troubleshooting for robust
+    document signing.
+  name: How to Encrypt Metadata in Java with GroupDocs.Signature
+  steps:
+  - name: '**Initialize** `Signature` with the source file.'
+    text: '**Initialize** `Signature` with the source file.'
+  - name: '**Create** an `IDataEncryption` implementation (`CustomXOREncryption`).'
+    text: '**Create** an `IDataEncryption` implementation (`CustomXOREncryption`).'
+  - name: '**Configure** `MetadataSignOptions` and attach the encryption instance.'
+    text: '**Configure** `MetadataSignOptions` and attach the encryption instance.'
+  - name: '**Populate** `DocumentSignatureData` with your custom fields.'
+    text: '**Populate** `DocumentSignatureData` with your custom fields.'
+  - name: '**Create** individual `WordProcessingMetadataSignature` objects for each
+      piece of metadata.'
+    text: '**Create** individual `WordProcessingMetadataSignature` objects for each
+      piece of metadata.'
+  - name: '**Add** them to the options collection and call `sign()`.'
+    text: '**Add** them to the options collection and call `sign()`.'
+  - name: '**Swap XOR for AES** (or another vetted algorithm).'
+    text: '**Swap XOR for AES** (or another vetted algorithm).'
+  - name: '**Use a secure key store** – never embed keys in source code.'
+    text: '**Use a secure key store** – never embed keys in source code.'
+  - name: '**Log signing operations** (who, when, which file).'
+    text: '**Log signing operations** (who, when, which file).'
+  - name: '**Validate inputs** (file type, size, metadata format).'
+    text: '**Validate inputs** (file type, size, metadata format).'
+  type: HowTo
+- questions:
+  - answer: Absolutely. Implement any class that fulfills the `IDataEncryption` interface—AES‑GCM
+      is a recommended choice for strong confidentiality and integrity.
+    question: Can I use a different encryption algorithm than XOR?
+  - answer: No. Once your custom AES implementation conforms to `IDataEncryption`,
+      simply replace the `CustomXOREncryption` instance with your new class.
+    question: Do I need to modify the signing code when I switch to AES?
+  - answer: The metadata remains part of the file but appears as unintelligible binary
+      data. Only your decryption routine can interpret it.
+    question: Is encrypted metadata visible in the signed file if I open it with a
+      regular viewer?
+  - answer: Encryption adds minimal overhead (typically a few bytes per metadata field).
+      The impact on overall document size is negligible.
+    question: How does this affect file size?
+  - answer: A full GroupDocs.Signature license is required for commercial deployment.
+      A trial license suffices for development and testing.
+    question: What licensing do I need for production use?
+  type: FAQPage
 tags:
 - java
 - encryption
 - metadata
 - groupdocs
 - document-signing
-title: Mã hóa siêu dữ liệu tài liệu Java với GroupDocs.Signature
+title: Cách mã hóa siêu dữ liệu trong Java với GroupDocs.Signature
 type: docs
 url: /vi/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/
 weight: 1
 ---
 
-.
+# Cách Mã Hoá Siêu Dữ Liệu trong Java với GroupDocs.Signature
 
-Now produce final content.# Mã hoá siêu dữ liệu tài liệu Java với GroupDocs.Signature
+Chữ ký số rất tuyệt vời, nhưng các thuộc tính ẩn của tài liệu—tên tác giả, dấu thời gian, ID nội bộ—vẫn có thể bị rò rỉ dưới dạng văn bản thuần. **Nếu bạn cần biết cách mã hoá siêu dữ liệu**, hướng dẫn này sẽ chỉ cho bạn cách thực hiện, sử dụng API linh hoạt của GroupDocs.Signature. Khi kết thúc bài học bạn sẽ có thể:
 
-## Giới thiệu
-
-Bạn đã bao giờ ký một tài liệu bằng số, chỉ để nhận ra sau này rằng siêu dữ liệu nhạy cảm (như tên tác giả, dấu thời gian, hoặc ID nội bộ) đang hiện ra dưới dạng văn bản thuần cho bất kỳ ai có thể đọc? Đó là một cơn ác mộng bảo mật đang chờ xảy ra.
-
-Trong hướng dẫn này, **bạn sẽ học cách encrypt document metadata java** bằng cách sử dụng GroupDocs.Signature với việc tuần tự hoá và mã hoá tùy chỉnh. Chúng tôi sẽ hướng dẫn qua một triển khai thực tế mà bạn có thể điều chỉnh cho hệ thống quản lý tài liệu doanh nghiệp hoặc các trường hợp sử dụng đơn lẻ. Khi kết thúc, bạn sẽ có thể:
-
-- Tuần tự hoá các cấu trúc siêu dữ liệu tùy chỉnh trong tài liệu Java  
-- Triển khai mã hoá cho các trường siêu dữ liệu (XOR được hiển thị như một ví dụ học tập)  
-- Ký tài liệu với siêu dữ liệu đã mã hoá bằng GroupDocs.Signature  
-- Tránh các lỗi thường gặp và nâng cấp lên bảo mật cấp độ sản xuất  
+- Tuân tuần (serialize) cấu trúc siêu dữ liệu tùy chỉnh trong tài liệu Java.  
+- Áp dụng mã hoá (ví dụ sử dụng XOR để minh họa, nhưng bạn sẽ thấy cách thay thế bằng AES).  
+- Ký một tài liệu đồng thời nhúng siêu dữ liệu đã mã hoá.  
+- Mở rộng giải pháp cho môi trường sản xuất với bảo mật và hiệu năng cao.
 
 Hãy bắt đầu.
 
 ## Câu trả lời nhanh
-- **Câu hỏi “encrypt document metadata java” có nghĩa là gì?** Nó có nghĩa là bảo vệ các thuộc tính ẩn của tài liệu (tác giả, ngày tháng, ID) bằng mã hoá trước khi ký.  
-- **Thư viện nào được yêu cầu?** GroupDocs.Signature cho Java (phiên bản 23.12 hoặc mới hơn).  
-- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép đầy đủ cần thiết cho môi trường sản xuất.  
-- **Tôi có thể sử dụng mã hoá mạnh hơn không?** Có – thay thế ví dụ XOR bằng AES hoặc thuật toán tiêu chuẩn công nghiệp khác.  
-- **Cách tiếp cận này có độc lập với định dạng không?** GroupDocs.Signature hỗ trợ DOCX, PDF, XLSX và nhiều định dạng khác.  
+- **“Mã hoá siêu dữ liệu” có nghĩa là gì?** Nó bảo vệ các thuộc tính ẩn của tài liệu bằng cách biến đổi mật mã trước khi ký.  
+- **Thư viện nào tôi cần?** GroupDocs.Signature cho Java 23.12 hoặc mới hơn.  
+- **Cần giấy phép không?** Bản dùng thử miễn phí đủ cho phát triển; giấy phép đầy đủ là bắt buộc cho môi trường sản xuất.  
+- **Có thể thay thế XOR bằng thuật toán mạnh hơn không?** Có—cài đặt AES‑GCM hoặc một cơ chế đã được kiểm chứng khác.  
+- **Cách tiếp cận này có phụ thuộc vào định dạng không?** GroupDocs.Signature hỗ trợ hơn 30 định dạng tệp, bao gồm DOCX, PDF, XLSX, PPTX và nhiều hơn nữa.
 
-## Encrypt document metadata java là gì?
+## Siêu dữ liệu tài liệu trong Java là gì?
 
-Mã hoá siêu dữ liệu tài liệu trong Java có nghĩa là lấy các thuộc tính ẩn đi kèm với tệp và áp dụng một biến đổi mật mã để chỉ các bên được ủy quyền có thể đọc được. Điều này giữ cho thông tin nhạy cảm (như ID nội bộ hoặc ghi chú của người xem) không bị lộ khi tệp được chia sẻ.
+Mã hoá siêu dữ liệu tài liệu trong Java có nghĩa là lấy các thuộc tính ẩn đi kèm với tệp và áp dụng một biến đổi mật mã sao cho chỉ những bên được ủy quyền mới có thể đọc được. Điều này bảo vệ các ID nội bộ, ghi chú của người duyệt và các dữ liệu nhạy cảm khác khỏi việc kiểm tra thông thường.
 
 ## Tại sao cần mã hoá siêu dữ liệu tài liệu?
 
-- **Tuân thủ** – GDPR, HIPAA và các quy định khác thường coi siêu dữ liệu là dữ liệu cá nhân.  
-- **Tính toàn vẹn** – Ngăn chặn việc giả mạo thông tin theo dõi kiểm toán.  
-- **Bảo mật** – Ẩn các chi tiết quan trọng của doanh nghiệp không phải là nội dung hiển thị.  
+Mã hoá siêu dữ liệu bảo vệ thông tin nhạy cảm có thể được dùng để xác định cá nhân hoặc tiết lộ quy trình nội bộ. Bằng cách chuyển các thuộc tính ẩn này thành ciphertext, bạn tuân thủ các quy định như GDPR và HIPAA, duy trì tính toàn vẹn của các bản ghi audit, và ngăn đối thủ trích xuất dữ liệu kinh doanh quan trọng. Lớp bảo mật này bổ sung cho chữ ký số hiện hữu, đảm bảo toàn bộ tài liệu vẫn được bảo mật.
 
-## Yêu cầu trước
+## Các yêu cầu trước
 
 ### Thư viện và phụ thuộc cần thiết
-- **GroupDocs.Signature cho Java** (phiên bản 23.12 hoặc mới hơn) – thư viện ký chính.  
-- **Bộ công cụ phát triển Java (JDK)** – JDK 8 hoặc cao hơn.  
+- **GroupDocs.Signature cho Java** (phiên bản 23.12 hoặc mới hơn) – thư viện ký cốt lõi.  
+- **Java Development Kit (JDK)** – JDK 8 hoặc cao hơn.  
 - Maven hoặc Gradle để quản lý phụ thuộc.
 
 ### Cài đặt môi trường
-Một IDE Java (IntelliJ IDEA, Eclipse hoặc VS Code) với dự án Maven/Gradle được khuyến nghị.
+Một IDE Java (IntelliJ IDEA, Eclipse, hoặc VS Code) với dự án Maven/Gradle được khuyến nghị.
 
-### Kiến thức yêu cầu
+### Kiến thức nền tảng
 - Java cơ bản (lớp, phương thức, đối tượng).  
 - Hiểu biết về khái niệm siêu dữ liệu tài liệu.  
-- Quen thuộc với các kiến thức cơ bản về mã hoá đối xứng.
+- Kiến thức cơ bản về mã hoá đối xứng.
 
 ## Cài đặt GroupDocs.Signature cho Java
 
-Chọn công cụ xây dựng của bạn và thêm phụ thuộc.
+Chọn công cụ xây dựng và thêm phụ thuộc.
 
 **Maven:**  
 ```xml
@@ -81,33 +130,35 @@ Chọn công cụ xây dựng của bạn và thêm phụ thuộc.
     <artifactId>groupdocs-signature</artifactId>
     <version>23.12</version>
 </dependency>
-```
+```  
 
 **Gradle:**  
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
+```  
 
-Ngoài ra, bạn có thể tải tệp JAR trực tiếp từ [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) và thêm vào dự án của mình một cách thủ công (mặc dù Maven/Gradle được ưu tiên).
+Hoặc bạn có thể tải tệp JAR trực tiếp từ [bản phát hành GroupDocs.Signature cho Java](https://releases.groupdocs.com/signature/java/) và thêm vào dự án thủ công (mặc dù Maven/Gradle được ưu tiên).
 
 ### Các bước lấy giấy phép
 - **Dùng thử miễn phí** – đầy đủ tính năng trong thời gian giới hạn.  
-- **Giấy phép tạm thời** – đánh giá kéo dài.  
-- **Mua bản đầy đủ** – sử dụng trong môi trường sản xuất.
+- **Giấy phép tạm thời** – đánh giá mở rộng.  
+- **Mua bản đầy đủ** – dùng cho sản xuất.
 
-### Khởi tạo và cài đặt cơ bản
+### Khởi tạo và cấu hình cơ bản
+Lớp `Signature` là đối tượng cốt lõi của GroupDocs.Signature, chịu trách nhiệm tải tài liệu, áp dụng chữ ký và ghi kết quả trở lại đĩa.  
+
 ```java
 Signature signature = new Signature("YOUR_DOCUMENT_PATH");
-```
-Thay thế `"YOUR_DOCUMENT_PATH"` bằng đường dẫn thực tế tới tệp DOCX, PDF hoặc các tệp được hỗ trợ khác.
+```  
+Thay `"YOUR_DOCUMENT_PATH"` bằng đường dẫn thực tế tới tệp DOCX, PDF hoặc bất kỳ tệp hỗ trợ nào khác.
 
-> **Mẹo chuyên nghiệp:** Đặt đối tượng `Signature` trong khối try‑with‑resources hoặc gọi `close()` một cách rõ ràng để tránh rò rỉ bộ nhớ.
+> **Mẹo chuyên nghiệp:** Đặt đối tượng `Signature` trong khối `try‑with‑resources` hoặc gọi `close()` một cách rõ ràng để tránh rò rỉ bộ nhớ.
 
 ## Hướng dẫn triển khai
 
 ### Cách tạo cấu trúc siêu dữ liệu tùy chỉnh trong Java
 
-Đầu tiên, xác định dữ liệu bạn muốn bảo vệ.
+Một lớp siêu dữ liệu tùy chỉnh định nghĩa cấu trúc thông tin bạn muốn bảo vệ và cách nó sẽ được tuân tuần (serialize) bởi GroupDocs.Signature. Bằng cách gắn annotation `@FormatAttribute` vào các trường, bạn chỉ định cho thư viện thứ tự và định dạng của mỗi phần tử, cho phép mã hoá nhất quán và sau này giải tuần (de‑serialization). Lớp này trở thành bản thiết kế cho payload đã mã hoá được nhúng trong tài liệu đã ký.
 
 ```java
 class DocumentSignatureData {
@@ -135,14 +186,14 @@ class DocumentSignatureData {
     public final BigDecimal getDataFactor() { return DataFactor; }
     public void setDataFactor(BigDecimal value) { DataFactor = value; }
 }
-```
+```  
 
-- **@FormatAttribute** cho biết GroupDocs.Signature cách tuần tự hoá mỗi trường.  
-- Bạn có thể mở rộng lớp này với bất kỳ thuộc tính bổ sung nào mà doanh nghiệp của bạn cần.
+- **@FormatAttribute** cho biết GroupDocs.Signature cách tuân tuần mỗi trường.  
+- Mở rộng lớp này với bất kỳ thuộc tính bổ sung nào mà doanh nghiệp của bạn yêu cầu.
 
 ### Triển khai mã hoá tùy chỉnh cho siêu dữ liệu tài liệu
 
-Dưới đây là một triển khai XOR đơn giản đáp ứng hợp đồng `IDataEncryption`.
+Việc triển khai một quy trình mã hoá tùy chỉnh cho phép bạn kiểm soát cách các byte siêu dữ liệu được biến đổi trước khi lưu trữ. Bằng cách tạo một lớp thực hiện giao diện `IDataEncryption`, bạn có thể cắm bất kỳ thuật toán nào—XOR để minh họa, AES‑GCM cho sản xuất, hoặc thậm chí một cơ chế độc quyền. Quá trình ký sẽ tự động gọi bộ mã hoá của bạn trong quá trình tuân tuần siêu dữ liệu.
 
 ```java
 class CustomXOREncryption implements IDataEncryption {
@@ -162,13 +213,19 @@ class CustomXOREncryption implements IDataEncryption {
         return encrypt(data);  
     }
 }
-```
+```  
 
-> **Quan trọng:** XOR **không** phù hợp cho bảo mật sản xuất. Thay thế nó bằng AES hoặc thuật toán đã được kiểm chứng khác trước khi triển khai.
+> **Quan trọng:** XOR **không** phù hợp cho bảo mật sản xuất. Thay thế bằng AES‑GCM hoặc một thuật toán đã được kiểm chứng trước khi triển khai.
 
 ### Cách ký tài liệu với siêu dữ liệu đã mã hoá
 
-Bây giờ hãy kết hợp mọi thứ lại.
+Ký tài liệu đồng thời nhúng siêu dữ liệu đã mã hoá gắn liền thông tin ẩn với chữ ký số, đảm bảo cả tính xác thực và bảo mật. Sử dụng `MetadataSignOptions`, bạn chỉ định các trường siêu dữ liệu cần đưa vào và cung cấp triển khai mã hoá. Đối tượng `Signature` sau đó xử lý tài liệu, áp dụng chữ ký và ghi payload đã mã hoá cùng với các thành phần chữ ký hiển thị.
+
+`MetadataSignOptions` là đối tượng cấu hình cho biết GroupDocs.Signature cần nhúng siêu dữ liệu nào và cách mã hoá chúng.  
+
+`DocumentSignatureData` chứa các giá trị thực sẽ được tuân tuần và mã hoá.  
+
+`WordProcessingMetadataSignature` đại diện cho một mục siêu dữ liệu (ví dụ: tác giả, ID tùy chỉnh) sẽ được gắn vào tài liệu Word‑processing.  
 
 ```java
 class SignWithMetadataCustomSerialization {
@@ -207,75 +264,75 @@ class SignWithMetadataCustomSerialization {
         }
     }
 }
-```
+```  
 
-#### Phân tích từng bước
+#### Phân tích chi tiết từng bước
 1. **Khởi tạo** `Signature` với tệp nguồn.  
 2. **Tạo** một triển khai `IDataEncryption` (`CustomXOREncryption`).  
-3. **Cấu hình** `MetadataSignOptions` và gắn đối tượng mã hoá.  
+3. **Cấu hình** `MetadataSignOptions` và gắn instance mã hoá.  
 4. **Điền** `DocumentSignatureData` với các trường tùy chỉnh của bạn.  
-5. **Tạo** các đối tượng `WordProcessingMetadataSignature` riêng lẻ cho mỗi phần siêu dữ liệu.  
-6. **Thêm** chúng vào bộ sưu tập tùy chọn và gọi `sign()`.
+5. **Tạo** các đối tượng `WordProcessingMetadataSignature` riêng lẻ cho mỗi mục siêu dữ liệu.  
+6. **Thêm** chúng vào bộ sưu tập options và gọi `sign()`.
 
-> **Mẹo chuyên nghiệp:** Sử dụng `System.getenv("USERNAME")` tự động lấy người dùng OS hiện tại, rất hữu ích cho các chuỗi kiểm toán.
+> **Mẹo chuyên nghiệp:** Sử dụng `System.getenv("USERNAME")` để tự động lấy người dùng OS hiện tại, rất hữu ích cho audit trail.
 
-## Khi nào nên sử dụng cách tiếp cận này
+## Khi nào nên dùng cách tiếp cận này
+
+Việc mã hoá siêu dữ liệu là lựa chọn lý tưởng khi tài liệu chứa các định danh bảo mật, bình luận nội bộ, hoặc dữ liệu quy định không được phép lộ cho người không có quyền. Các kịch bản bao gồm hợp đồng pháp lý có số điều khoản ẩn, báo cáo tài chính với công thức sở hữu, hồ sơ y tế có ID bệnh nhân, và thỏa thuận đa bên nơi mỗi bên chỉ nên thấy siêu dữ liệu của mình. Đối với tài liệu công khai hoàn toàn, bước này có thể không cần thiết.
 
 | Kịch bản | Tại sao cần mã hoá siêu dữ liệu? |
-|----------|-----------------------------------|
-| **Hợp đồng pháp lý** | Ẩn ID quy trình nội bộ và ghi chú của người xem. |
-| **Báo cáo tài chính** | Bảo vệ nguồn tính toán và các con số bí mật. |
+|----------|---------------------------------|
+| **Hợp đồng pháp lý** | Ẩn ID quy trình nội bộ và ghi chú của người duyệt. |
+| **Báo cáo tài chính** | Bảo vệ nguồn tính toán và số liệu bí mật. |
 | **Hồ sơ y tế** | Bảo vệ định danh bệnh nhân và ghi chú xử lý (HIPAA). |
-| **Thỏa thuận đa bên** | Đảm bảo chỉ các bên được ủy quyền mới có thể xem siêu dữ liệu nhúng. |
+| **Thỏa thuận đa bên** | Đảm bảo chỉ các bên được ủy quyền mới xem được siêu dữ liệu được nhúng. |
 
-Tránh kỹ thuật này cho các tài liệu công khai hoàn toàn nơi yêu cầu tính minh bạch.
+Tránh sử dụng kỹ thuật này cho tài liệu công khai hoàn toàn, nơi yêu cầu tính minh bạch.
 
-## Các cân nhắc bảo mật: Hơn XOR Encryption
+## Các cân nhắc bảo mật: Ngoài mã hoá XOR
 
 ### Tại sao XOR không đủ
-- Các mẫu dự đoán được làm lộ khóa.  
-- Không có xác thực tính toàn vẹn (việc giả mạo không được phát hiện).  
-- Khóa cố định làm cho các cuộc tấn công thống kê khả thi.
 
-### Các giải pháp thay thế cấp độ sản xuất
+Mã hoá XOR chỉ làm mờ dữ liệu và thiếu sức mạnh mật mã cần thiết để bảo vệ siêu dữ liệu nhạy cảm. Khóa tĩnh có thể bị phát hiện qua phân tích tần suất, và không có cơ chế kiểm tra tính toàn vẹn, khiến payload dễ bị giả mạo. Để đáp ứng yêu cầu tuân thủ và bảo mật, hãy thay thế XOR bằng chế độ mã hoá xác thực như AES‑GCM, cung cấp cả tính bảo mật và phát hiện thay đổi.
 
-**AES‑GCM Example (conceptual):**  
+### Các giải pháp thay thế cấp sản xuất
+**Ví dụ AES‑GCM (khái niệm):**  
 ```java
 // Example pattern (not complete implementation)
 Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
 SecretKeySpec keySpec = new SecretKeySpec(keyBytes, "AES");
 cipher.init(Cipher.ENCRYPT_MODE, keySpec);
 byte[] encrypted = cipher.doFinal(data);
-```
-- Cung cấp tính bảo mật **và** xác thực.  
-- Được chấp nhận rộng rãi bởi các tiêu chuẩn bảo mật.
+```  
+- Cung cấp cả tính bảo mật **và** xác thực.  
+- Được NIST công nhận và rộng rãi áp dụng trong bảo mật doanh nghiệp.  
 
-**Quản lý khóa:** Lưu trữ khóa trong kho bảo mật (AWS KMS, Azure Key Vault) và không bao giờ mã hoá cứng chúng.
+**Quản lý khóa:** Lưu khóa trong kho bảo mật (AWS KMS, Azure Key Vault) và không bao giờ hard‑code chúng.
 
-> **Hành động cần thực hiện:** Thay thế `CustomXOREncryption` bằng lớp dựa trên AES thực hiện `IDataEncryption`. Phần còn lại của mã ký của bạn sẽ không thay đổi.
+> **Hành động cần làm:** Thay thế `CustomXOREncryption` bằng lớp dựa trên AES thực hiện `IDataEncryption`. Phần còn lại của mã ký không thay đổi.
 
 ## Các vấn đề thường gặp và giải pháp
 
 ### Siêu dữ liệu không được mã hoá
-- Đảm bảo đã gọi `options.setDataEncryption(encryption)`.  
-- Xác minh lớp mã hoá của bạn thực hiện đúng `IDataEncryption`.  
+- Kiểm tra `options.setDataEncryption(encryption)` đã được gọi chưa.  
+- Xác nhận lớp mã hoá của bạn thực hiện đúng giao diện `IDataEncryption`.  
 
 ### Tài liệu không ký được
-- Kiểm tra sự tồn tại của tệp và quyền ghi.  
-- Xác nhận giấy phép đang hoạt động (bản dùng thử có thể hết hạn).  
+- Kiểm tra tệp tồn tại và quyền ghi.  
+- Đảm bảo giấy phép đang hoạt động (bản dùng thử có thể hết hạn).  
 
 ### Giải mã thất bại sau khi ký
-- Sử dụng cùng một khóa mã hoá cho cả mã hoá và giải mã.  
-- Xác nhận bạn đang đọc đúng các trường siêu dữ liệu.  
+- Sử dụng cùng một khóa mã hoá cho cả quá trình encrypt và decrypt.  
+- Đảm bảo bạn đang đọc đúng các trường siêu dữ liệu.  
 
-### Các nút thắt hiệu năng với tệp lớn
-- Xử lý tài liệu theo lô (10‑20 tài liệu mỗi lần).  
-- Giải phóng các đối tượng `Signature` kịp thời.  
-- Phân tích thuật toán mã hoá của bạn; AES thêm tải nhẹ so với XOR.
+### Tắc nghẽn hiệu năng với tệp lớn
+- Xử lý tài liệu theo lô (10–20 tệp mỗi lần).  
+- Giải phóng đối tượng `Signature` kịp thời.  
+- Đánh giá thuật toán mã hoá; AES chỉ thêm một chút overhead so với XOR.
 
 ## Hướng dẫn khắc phục sự cố
 
-**Signature initialization fails:**  
+**Khởi tạo chữ ký thất bại:**  
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -283,69 +340,75 @@ try {
     System.err.println("Failed to load document: " + e.getMessage());
     // Verify: file exists, correct format, sufficient permissions
 }
-```
+```  
 
-**Encryption exceptions:**  
+**Ngoại lệ mã hoá:**  
 ```java
 if (data == null || data.length == 0) {
     throw new IllegalArgumentException("Cannot encrypt empty data");
 }
-```
+```  
 
-**Missing metadata after signing:**  
+**Thiếu siêu dữ liệu sau khi ký:**  
 ```java
 System.out.println("Signatures added: " + options.getSignatures().size());
 // Should be > 0
-```
+```  
 
 ## Cân nhắc về hiệu năng
 
-- **Bộ nhớ:** Giải phóng các đối tượng `Signature`; đối với công việc hàng loạt, sử dụng pool luồng cố định.  
-- **Tốc độ:** Lưu trữ bộ nhớ đệm cho đối tượng mã hoá giảm tải tạo đối tượng.  
-- **Đánh giá (xấp xỉ):**  
+- **Bộ nhớ:** Giải phóng đối tượng `Signature`; đối với công việc hàng loạt, sử dụng pool thread cố định.  
+- **Tốc độ:** Cache instance mã hoá để giảm chi phí tạo đối tượng.  
+- **Thời gian thực thi (ước tính):**  
   - DOCX 5 MB với XOR: 200‑500 ms  
   - Cùng tệp với AES‑GCM: ~250‑600 ms  
 
-## Các thực tiễn tốt nhất cho sản xuất
+## Các thực tiễn tốt nhất cho môi trường sản xuất
 
 1. **Thay thế XOR bằng AES** (hoặc thuật toán đã được kiểm chứng khác).  
-2. **Sử dụng kho khóa bảo mật** – không bao giờ nhúng khóa trong mã nguồn.  
-3. **Ghi nhật ký các hoạt động ký** (ai, khi nào, tệp nào).  
-4. **Xác thực đầu vào** (loại tệp, kích thước, định dạng siêu dữ liệu).  
+2. **Sử dụng kho khóa bảo mật** – không nhúng khóa trong mã nguồn.  
+3. **Ghi lại hoạt động ký** (ai, khi nào, tệp nào).  
+4. **Kiểm tra đầu vào** (định dạng tệp, kích thước, định dạng siêu dữ liệu).  
 5. **Triển khai xử lý lỗi toàn diện** với thông báo rõ ràng.  
 6. **Kiểm tra giải mã** trong môi trường staging trước khi phát hành.  
-7. **Duy trì chuỗi kiểm toán** cho mục đích tuân thủ.  
+7. **Duy trì audit trail** để đáp ứng yêu cầu tuân thủ.
 
 ## Kết luận
 
-Bây giờ bạn đã có một công thức đầy đủ, từng bước để **encrypt document metadata java** bằng GroupDocs.Signature:
+Bạn đã có một công thức đầy đủ, từng bước để **mã hoá siêu dữ liệu** bằng GroupDocs.Signature:
 
-- Định nghĩa lớp siêu dữ liệu có kiểu với `@FormatAttribute`.  
-- Triển khai `IDataEncryption` (XOR được hiển thị để minh họa).  
+- Định nghĩa lớp siêu dữ liệu có annotation `@FormatAttribute`.  
+- Triển khai `IDataEncryption` (XOR chỉ để minh họa).  
 - Ký tài liệu đồng thời đính kèm siêu dữ liệu đã mã hoá.  
-- Nâng cấp lên AES cho bảo mật cấp độ sản xuất.  
+- Nâng cấp lên AES cho bảo mật cấp sản xuất.  
 
-Các bước tiếp theo: thử nghiệm các thuật toán mã hoá khác nhau, tích hợp dịch vụ quản lý khóa bảo mật, và mở rộng mô hình siêu dữ liệu để đáp ứng nhu cầu kinh doanh cụ thể của bạn.
+Bước tiếp theo: thử nghiệm các thuật toán mã hoá khác nhau, tích hợp dịch vụ quản lý khóa bảo mật, và mở rộng mô hình siêu dữ liệu để đáp ứng nhu cầu kinh doanh cụ thể của bạn.
 
 ## Câu hỏi thường gặp
 
-**Q: Tôi có thể sử dụng thuật toán mã hoá khác ngoài XOR không?**  
-A: Chắc chắn. Triển khai bất kỳ lớp nào đáp ứng giao diện `IDataEncryption`—AES‑GCM là lựa chọn được khuyến nghị cho tính bảo mật và toàn vẹn mạnh.
+**H: Tôi có thể dùng thuật toán mã hoá khác thay vì XOR không?**  
+Đ: Chắc chắn. Triển khai bất kỳ lớp nào đáp ứng giao diện `IDataEncryption`—AES‑GCM là lựa chọn được khuyến nghị cho tính bảo mật và toàn vẹn mạnh.
 
-**Q: Tôi có cần chỉnh sửa mã ký khi chuyển sang AES không?**  
-A: Không. Khi triển khai AES tùy chỉnh của bạn tuân thủ `IDataEncryption`, bạn chỉ cần thay thế thể hiện `CustomXOREncryption` bằng lớp mới của mình.
+**H: Khi chuyển sang AES, tôi có cần sửa đổi mã ký không?**  
+Đ: Không. Khi triển khai AES tùy chỉnh tuân thủ `IDataEncryption`, chỉ cần thay thế instance `CustomXOREncryption` bằng lớp mới của bạn.
 
-**Q: Siêu dữ liệu đã mã hoá có hiển thị trong tệp đã ký nếu tôi mở bằng trình xem thông thường không?**  
-A: Siêu dữ liệu vẫn là một phần của tệp nhưng xuất hiện dưới dạng dữ liệu nhị phân không thể đọc được. Chỉ quy trình giải mã của bạn mới có thể diễn giải nó.
+**H: Siêu dữ liệu đã mã hoá có hiển thị trong tệp ký khi mở bằng trình xem thông thường không?**  
+Đ: Siêu dữ liệu vẫn là một phần của tệp nhưng xuất hiện dưới dạng dữ liệu nhị phân không thể đọc được. Chỉ quy trình giải mã của bạn mới hiểu được nội dung.
 
-**Q: Điều này ảnh hưởng như thế nào đến kích thước tệp?**  
-A: Mã hoá chỉ thêm tải nhẹ (thông thường vài byte cho mỗi trường siêu dữ liệu). Ảnh hưởng đến kích thước tổng thể của tài liệu là không đáng kể.
+**H: Điều này ảnh hưởng đến kích thước tệp như thế nào?**  
+Đ: Mã hoá chỉ thêm một lượng overhead tối thiểu (thường vài byte cho mỗi trường siêu dữ liệu). Ảnh hưởng tới kích thước tổng thể của tài liệu là không đáng kể.
 
-**Q: Tôi cần giấy phép nào cho việc sử dụng trong môi trường sản xuất?**  
-A: Cần giấy phép GroupDocs.Signature đầy đủ cho triển khai thương mại. Giấy phép dùng thử đủ cho phát triển và kiểm thử.
+**H: Tôi cần giấy phép gì cho việc sử dụng trong môi trường sản xuất?**  
+Đ: Cần giấy phép đầy đủ của GroupDocs.Signature cho triển khai thương mại. Giấy phép dùng thử đủ cho phát triển và thử nghiệm.
 
 ---
 
-**Cập nhật lần cuối:** 2026-02-26  
-**Kiểm thử với:** GroupDocs.Signature 23.12 (Java)  
+**Cập nhật lần cuối:** 2026-07-06  
+**Đã kiểm thử với:** GroupDocs.Signature 23.12 (Java)  
 **Tác giả:** GroupDocs
+
+## Các hướng dẫn liên quan
+
+- [Thêm Siêu Dữ Liệu vào PDF với Java - Hướng Dẫn Toàn Diện GroupDocs Signature](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)  
+- [Mã Hoá Tìm Kiếm Siêu Dữ Liệu Java - Bảo Vệ Dữ Liệu Tài Liệu với GroupDocs](/signature/java/search-verification/secure-metadata-search-java-groupdocs-signature/)  
+- [Cách Mã Hoá Chữ Ký trong Java – Tùy Chọn Ký Nâng Cao & Kỹ Thuật Mã Hoá](/signature/java/advanced-options/)

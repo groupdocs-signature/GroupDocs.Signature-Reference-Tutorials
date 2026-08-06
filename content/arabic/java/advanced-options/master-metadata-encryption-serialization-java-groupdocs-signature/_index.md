@@ -1,111 +1,163 @@
 ---
 categories:
 - Document Security
-date: '2026-02-26'
-description: تعلم كيفية تشفير بيانات تعريف المستند في جافا باستخدام GroupDocs.Signature.
-  دليل خطوة بخطوة مع أمثلة على الشيفرة، ونصائح أمان، وحلول المشكلات لتوقيع المستند
-  بأمان.
-keywords: encrypt document metadata java, Java document signature encryption, GroupDocs
-  metadata serialization, secure document metadata Java, custom XOR encryption Java
-lastmod: '2026-02-26'
-linktitle: Encrypt Document Metadata Java
+date: '2026-07-06'
+description: تعلم كيفية تشفير metadata في Java باستخدام GroupDocs.Signature. دليل
+  خطوة بخطوة، code snippets، security best practices، و troubleshooting للحصول على
+  robust document signing.
+keywords:
+- how to encrypt metadata
+- Java document signature encryption
+- GroupDocs metadata serialization
+- secure document metadata Java
+lastmod: '2026-07-06'
+linktitle: تشفير Document Metadata Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-06'
+  description: Learn how to encrypt metadata in Java using GroupDocs.Signature. Step‑by‑step
+    guide, code snippets, security best practices, and troubleshooting for robust
+    document signing.
+  headline: How to Encrypt Metadata in Java with GroupDocs.Signature
+  type: TechArticle
+- description: Learn how to encrypt metadata in Java using GroupDocs.Signature. Step‑by‑step
+    guide, code snippets, security best practices, and troubleshooting for robust
+    document signing.
+  name: How to Encrypt Metadata in Java with GroupDocs.Signature
+  steps:
+  - name: '**Initialize** `Signature` with the source file.'
+    text: '**Initialize** `Signature` with the source file.'
+  - name: '**Create** an `IDataEncryption` implementation (`CustomXOREncryption`).'
+    text: '**Create** an `IDataEncryption` implementation (`CustomXOREncryption`).'
+  - name: '**Configure** `MetadataSignOptions` and attach the encryption instance.'
+    text: '**Configure** `MetadataSignOptions` and attach the encryption instance.'
+  - name: '**Populate** `DocumentSignatureData` with your custom fields.'
+    text: '**Populate** `DocumentSignatureData` with your custom fields.'
+  - name: '**Create** individual `WordProcessingMetadataSignature` objects for each
+      piece of metadata.'
+    text: '**Create** individual `WordProcessingMetadataSignature` objects for each
+      piece of metadata.'
+  - name: '**Add** them to the options collection and call `sign()`.'
+    text: '**Add** them to the options collection and call `sign()`.'
+  - name: '**Swap XOR for AES** (or another vetted algorithm).'
+    text: '**Swap XOR for AES** (or another vetted algorithm).'
+  - name: '**Use a secure key store** – never embed keys in source code.'
+    text: '**Use a secure key store** – never embed keys in source code.'
+  - name: '**Log signing operations** (who, when, which file).'
+    text: '**Log signing operations** (who, when, which file).'
+  - name: '**Validate inputs** (file type, size, metadata format).'
+    text: '**Validate inputs** (file type, size, metadata format).'
+  type: HowTo
+- questions:
+  - answer: Absolutely. Implement any class that fulfills the `IDataEncryption` interface—AES‑GCM
+      is a recommended choice for strong confidentiality and integrity.
+    question: Can I use a different encryption algorithm than XOR?
+  - answer: No. Once your custom AES implementation conforms to `IDataEncryption`,
+      simply replace the `CustomXOREncryption` instance with your new class.
+    question: Do I need to modify the signing code when I switch to AES?
+  - answer: The metadata remains part of the file but appears as unintelligible binary
+      data. Only your decryption routine can interpret it.
+    question: Is encrypted metadata visible in the signed file if I open it with a
+      regular viewer?
+  - answer: Encryption adds minimal overhead (typically a few bytes per metadata field).
+      The impact on overall document size is negligible.
+    question: How does this affect file size?
+  - answer: A full GroupDocs.Signature license is required for commercial deployment.
+      A trial license suffices for development and testing.
+    question: What licensing do I need for production use?
+  type: FAQPage
 tags:
 - java
 - encryption
 - metadata
 - groupdocs
 - document-signing
-title: تشفير بيانات تعريف المستند Java باستخدام GroupDocs.Signature
+title: كيفية تشفير metadata في Java باستخدام GroupDocs.Signature
 type: docs
 url: /ar/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/
 weight: 1
 ---
 
-# تشفير بيانات تعريف المستند Java باستخدام GroupDocs.Signature
+# كيفية تشفير البيانات الوصفية في Java باستخدام GroupDocs.Signature
 
-## المقدمة
+التوقيعات الرقمية رائعة، لكن خصائص المستند المخفية—أسماء المؤلفين، الطوابع الزمنية، المعرفات الداخلية—يمكنها ما زالت التسرب كنص عادي. **إذا كنت بحاجة لمعرفة كيفية تشفير البيانات الوصفية**، يوضح لك هذا الدليل ذلك بالضبط، باستخدام API المرن لـ GroupDocs.Signature. بنهاية البرنامج التعليمي ستكون قادرًا على:
 
-هل سبق وأن وقعت على مستند رقميًا، ثم أدركت لاحقًا أن بيانات التعريف الحساسة (مثل أسماء المؤلفين، الطوابع الزمنية، أو المعرفات الداخلية) كانت موجودة كنص عادي يمكن لأي شخص قراءته؟ هذا كابوس أمني ينتظر الحدوث.
+- تسلسل هياكل البيانات الوصفية المخصصة في مستندات Java.  
+- تطبيق التشفير (يستخدم المثال XOR للتوضيح، لكنك ستتعلم كيفية استبداله بـ AES).  
+- توقيع مستند مع تضمين البيانات الوصفية المشفرة.  
+- توسيع الحل لأمان وأداء على مستوى الإنتاج.  
 
-في هذا الدليل، **ستتعلم كيفية تشفير بيانات تعريف المستند java** باستخدام GroupDocs.Signature مع التسلسل المخصص والتشفير. سنستعرض تنفيذًا عمليًا يمكنك تكييفه لأنظمة إدارة المستندات المؤسسية أو حالات الاستخدام الفردية. في النهاية ستتمكن من:
-
-- تسلسل هياكل بيانات تعريف مخصصة في مستندات Java  
-- تنفيذ تشفير لحقول البيانات التعريفية (XOR موضح كمثال تعليمي)  
-- توقيع المستندات ببيانات تعريف مشفرة باستخدام GroupDocs.Signature  
-- تجنب الأخطاء الشائعة والترقية إلى أمان على مستوى الإنتاج  
-
-هيا نبدأ.
+لنبدأ.
 
 ## إجابات سريعة
-- **ماذا يعني “encrypt document metadata java”؟** يعني حماية خصائص المستند المخفية (المؤلف، التواريخ، المعرفات) باستخدام التشفير قبل التوقيع.  
-- **ما المكتبة المطلوبة؟** GroupDocs.Signature للـ Java (الإصدار 23.12 أو أحدث).  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتطوير؛ الترخيص الكامل مطلوب للإنتاج.  
-- **هل يمكنني استخدام تشفير أقوى؟** نعم – استبدل مثال XOR بـ AES أو أي خوارزمية معيارية أخرى.  
-- **هل هذا النهج غير مرتبط بنوع الملف؟** يدعم GroupDocs.Signature صيغ DOCX، PDF، XLSX والعديد من الصيغ الأخرى.
+- **ماذا يعني “تشفير البيانات الوصفية”?** إنه يحمي خصائص المستند المخفية عبر تحويل تشفيري قبل التوقيع.  
+- **ما المكتبة التي أحتاجها؟** GroupDocs.Signature for Java 23.12 or newer.  
+- **هل يلزم الحصول على ترخيص؟** الإصدار التجريبي المجاني يعمل للتطوير؛ الترخيص الكامل إلزامي للإنتاج.  
+- **هل يمكنني استبدال XOR بخوارزمية أقوى؟** نعم—قم بتنفيذ AES‑GCM أو مخطط آخر موثوق.  
+- **هل النهج غير معتمد على الصيغة؟** GroupDocs.Signature يدعم أكثر من 30 صيغة ملف، بما في ذلك DOCX و PDF و XLSX و PPTX وغيرها.
 
-## ما هو encrypt document metadata java؟
+## ما هو تشفير بيانات المستند الوصفية في Java؟
 
-تشفير بيانات تعريف المستند في Java يعني أخذ الخصائص المخفية التي تنتقل مع الملف وتطبيق تحويل تشفيري بحيث لا يستطيع قراءتها إلا الأطراف المصرح لها. هذا يحافظ على المعلومات الحساسة (مثل المعرفات الداخلية أو ملاحظات المراجعين) من التعرض عندما يتم مشاركة الملف.
+تشفير البيانات الوصفية للمستند في Java يعني أخذ الخصائص المخفية التي ترافق الملف وتطبيق تحويل تشفيري بحيث لا يستطيع قراءتها سوى الأطراف المصرح لها. هذا يحمي المعرفات الداخلية، ملاحظات المراجعين، وغيرها من البيانات الحساسة من الفحص العادي.
 
-## لماذا نحتاج إلى تشفير بيانات تعريف المستند؟
+## لماذا تشفير البيانات الوصفية للمستند؟
 
-- **الامتثال** – GDPR، HIPAA، وغيرها من اللوائح غالبًا ما تعتبر البيانات التعريفية بيانات شخصية.  
-- **النزاهة** – منع التلاعب بمعلومات سجل التدقيق.  
-- **السرية** – إخفاء التفاصيل التجارية الحيوية التي لا تكون جزءًا من المحتوى الظاهر.
+تشفير البيانات الوصفية يحمي المعلومات الحساسة التي يمكن استخدامها لتحديد هوية الأفراد أو كشف العمليات الداخلية. من خلال تحويل هذه الخصائص المخفية إلى نص مشفر، تلتزم باللوائح مثل GDPR و HIPAA، وتحافظ على سلامة سجلات التدقيق، وتمنع المنافسين من استخراج البيانات الحيوية للأعمال. هذه الطبقة من الأمان تكمل التوقيع الرقمي الظاهر، مما يضمن بقاء المستند بأكمله سريًا.
 
 ## المتطلبات المسبقة
 
 ### المكتبات والاعتمادات المطلوبة
-- **GroupDocs.Signature للـ Java** (الإصدار 23.12 أو أحدث) – مكتبة التوقيع الأساسية.  
-- **مجموعة تطوير Java (JDK)** – JDK 8 أو أعلى.  
+- **GroupDocs.Signature for Java** (الإصدار 23.12 أو أحدث) – مكتبة التوقيع الأساسية.  
+- **Java Development Kit (JDK)** – JDK 8 أو أعلى.  
 - Maven أو Gradle لإدارة الاعتمادات.
 
 ### إعداد البيئة
-يوصى باستخدام بيئة تطوير Java (IntelliJ IDEA، Eclipse، أو VS Code) مع مشروع Maven/Gradle.
+يوصى باستخدام بيئة تطوير Java (IntelliJ IDEA أو Eclipse أو VS Code) مع مشروع Maven/Gradle.
 
 ### المتطلبات المعرفية
-- Java أساسية (فئات، طرق، كائنات).  
-- فهم مفاهيم بيانات تعريف المستند.  
-- إلمام بأساسيات التشفير المتماثل.
+- Java الأساسية (الفئات، الأساليب، الكائنات).  
+- فهم مفاهيم البيانات الوصفية للمستند.  
+- الإلمام بأساسيات التشفير المتماثل.
 
-## إعداد GroupDocs.Signature للـ Java
+## إعداد GroupDocs.Signature لـ Java
 
-اختر أداة البناء وأضف الاعتماد.
+اختر أداة البناء الخاصة بك وأضف الاعتماد.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
     <artifactId>groupdocs-signature</artifactId>
     <version>23.12</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
+```  
 
-بدلاً من ذلك، يمكنك تحميل ملف JAR مباشرة من [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) وإضافته إلى مشروعك يدويًا (مع أن Maven/Gradle هو المفضل).
+بدلاً من ذلك، يمكنك الحصول على ملف JAR مباشرةً من [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) وإضافته إلى مشروعك يدويًا (على الرغم من أن Maven/Gradle مفضلة).
 
 ### خطوات الحصول على الترخيص
-- **نسخة تجريبية** – جميع الميزات لفترة محدودة.  
-- **ترخيص مؤقت** – تقييم ممتد.  
-- **شراء كامل** – للاستخدام الإنتاجي.
+- **Free Trial** – جميع الميزات لفترة محدودة.  
+- **Temporary License** – تقييم ممتد.  
+- **Full Purchase** – للاستخدام في الإنتاج.
 
-### التهيئة الأساسية والإعداد
+### التهيئة والإعداد الأساسي
+فئة `Signature` هي الكائن الأساسي في GroupDocs.Signature الذي يحمل المستند، يطبق التوقيعات، ويكتب النتيجة مرة أخرى إلى القرص.  
 ```java
 Signature signature = new Signature("YOUR_DOCUMENT_PATH");
-```
-استبدل `"YOUR_DOCUMENT_PATH"` بالمسار الفعلي لملف DOCX أو PDF أو أي ملف مدعوم آخر.
+```  
+استبدل `"YOUR_DOCUMENT_PATH"` بالمسار الفعلي إلى ملف DOCX أو PDF أو أي ملف مدعوم آخر.
 
-> **نصيحة احترافية:** ضع كائن `Signature` داخل كتلة `try‑with‑resources` أو استدعِ `close()` صراحة لتجنب تسرب الذاكرة.
+> **نصيحة احترافية:** غلف كائن `Signature` داخل كتلة try‑with‑resources أو استدعِ `close()` صراحة لتجنب تسرب الذاكرة.
 
 ## دليل التنفيذ
 
-### كيفية إنشاء هياكل بيانات تعريف مخصصة في Java
+### كيفية إنشاء هياكل بيانات وصفية مخصصة في Java
 
-أولاً، عرّف البيانات التي تريد حمايتها.
+تحدد فئة البيانات الوصفية المخصصة بنية المعلومات التي ترغب في حمايتها وكيفية تسلسلها بواسطة GroupDocs.Signature. من خلال وضع التعليق `@FormatAttribute` على الحقول، توجه المكتبة إلى ترتيب وصيغة كل عنصر، مما يتيح تشفيرًا متسقًا وإعادة تسلسل لاحقة. تصبح هذه الفئة المخطط الأساسي للحمولة المشفرة المضمنة في المستند الموقّع.
 
 ```java
 class DocumentSignatureData {
@@ -133,14 +185,14 @@ class DocumentSignatureData {
     public final BigDecimal getDataFactor() { return DataFactor; }
     public void setDataFactor(BigDecimal value) { DataFactor = value; }
 }
-```
+```  
 
-- **@FormatAttribute** يوضح لـ GroupDocs.Signature كيفية تسلسل كل حقل.  
-- يمكنك توسيع هذه الفئة بأي خصائص إضافية تحتاجها أعمالك.
+- **@FormatAttribute** يخبر GroupDocs.Signature كيفية تسلسل كل حقل.  
+- قم بتمديد هذه الفئة بأي خصائص إضافية تحتاجها أعمالك.
 
-### تنفيذ تشفير مخصص لبيانات تعريف المستند
+### تنفيذ تشفير مخصص لبيانات المستند الوصفية
 
-فيما يلي تنفيذ بسيط لـ XOR يفي بعقد `IDataEncryption`.
+يسمح تنفيذ روتين تشفير مخصص لك بالتحكم في كيفية تحويل بايتات البيانات الوصفية قبل تخزينها. من خلال إنشاء فئة تنفّذ واجهة `IDataEncryption`، يمكنك ربط أي خوارزمية—XOR للعرض، AES‑GCM للإنتاج، أو حتى مخطط مملوك. سيستدعي عملية التوقيع مشفرك تلقائيًا أثناء تسلسل البيانات الوصفية.
 
 ```java
 class CustomXOREncryption implements IDataEncryption {
@@ -160,13 +212,17 @@ class CustomXOREncryption implements IDataEncryption {
         return encrypt(data);  
     }
 }
-```
+```  
 
-> **مهم:** XOR **ليس** مناسبًا لأمان الإنتاج. استبدله بـ AES أو أي خوارزمية موثوقة قبل النشر.
+> **مهم:** XOR **غير** مناسب لأمان الإنتاج. استبدله بـ AES‑GCM أو خوارزمية موثوقة أخرى قبل النشر.
 
-### كيفية توقيع المستندات ببيانات تعريف مشفرة
+### كيفية توقيع المستندات مع بيانات وصفية مشفرة
 
-الآن نجمع كل شيء معًا.
+توقيع مستند مع تضمين البيانات الوصفية المشفرة يربط المعلومات المخفية بالتوقيع الرقمي، مما يضمن كلًا من الأصالة والسرية. باستخدام `MetadataSignOptions`، تحدد أي حقول بيانات وصفية تضمّن وتوفر تنفيذ التشفير. ثم يقوم كائن `Signature` بمعالجة المستند، تطبيق التوقيع، وكتابة الحمولة المشفرة بجانب عناصر التوقيع الظاهرة.
+
+`MetadataSignOptions` هو كائن التكوين الذي يخبر GroupDocs.Signature أي بيانات وصفية يجب تضمينها وكيفية تشفيرها.  
+`DocumentSignatureData` يحتوي على القيم الفعلية التي سيتم تسلسلها وتشفيرها.  
+`WordProcessingMetadataSignature` يمثل عنصرًا واحدًا من البيانات الوصفية (مثل المؤلف، معرف مخصص) سيتم إرفاقه بمستند معالجة النصوص.  
 
 ```java
 class SignWithMetadataCustomSerialization {
@@ -205,74 +261,76 @@ class SignWithMetadataCustomSerialization {
         }
     }
 }
-```
+```  
 
-#### تفصيل خطوة بخطوة
-1. **تهيئة** `Signature` باستخدام ملف المصدر.  
+#### تحليل خطوة بخطوة
+1. **تهيئة** `Signature` مع ملف المصدر.  
 2. **إنشاء** تنفيذ `IDataEncryption` (`CustomXOREncryption`).  
-3. **تهيئة** `MetadataSignOptions` وإرفاق مثال التشفير.  
-4. **ملء** `DocumentSignatureData` بالحقول المخصصة.  
-5. **إنشاء** كائنات `WordProcessingMetadataSignature` منفصلة لكل قطعة من البيانات التعريفية.  
-6. **إضافتها** إلى مجموعة الخيارات ثم استدعاء `sign()`.
+3. **تكوين** `MetadataSignOptions` وإرفاق مثال التشفير.  
+4. **ملء** `DocumentSignatureData` بالحقول المخصصة الخاصة بك.  
+5. **إنشاء** كائنات `WordProcessingMetadataSignature` منفردة لكل قطعة من البيانات الوصفية.  
+6. **إضافة**ها إلى مجموعة الخيارات واستدعاء `sign()`.
 
-> **نصيحة احترافية:** استخدام `System.getenv("USERNAME")` يلتقط تلقائيًا اسم مستخدم نظام التشغيل الحالي، وهو مفيد لسجلات التدقيق.
+> **نصيحة احترافية:** استخدام `System.getenv("USERNAME")` يلتقط تلقائيًا مستخدم نظام التشغيل الحالي، وهو مفيد لسجلات التدقيق.
 
-## متى نستخدم هذا النهج
+## متى تستخدم هذا النهج
 
-| السيناريو | لماذا تشفير البيانات التعريفية؟ |
-|----------|-------------------------------|
+اختيار تشفير البيانات الوصفية مثالي عندما تحتوي المستندات على معرفات سرية، تعليقات داخلية، أو بيانات تنظيمية يجب ألا تُكشف للقراء غير المصرح لهم. تشمل السيناريوهات العقود القانونية بأرقام بنود مخفية، البيانات المالية بحسابات مملوكة، سجلات الرعاية الصحية بمعرفات المرضى، والاتفاقيات متعددة الأطراف حيث يجب على كل مشارك رؤية بياناته الوصفية فقط. في المستندات العامة تمامًا، قد تكون هذه الخطوة غير ضرورية.
+
+| السيناريو | لماذا تشفير البيانات الوصفية؟ |
+|----------|------------------------------|
 | **العقود القانونية** | إخفاء معرفات سير العمل الداخلية وملاحظات المراجعين. |
 | **التقارير المالية** | حماية مصادر الحسابات والأرقام السرية. |
-| **السجلات الصحية** | تأمين معرفات المرضى وملاحظات المعالجة (HIPAA). |
-| **الاتفاقيات متعددة الأطراف** | ضمان أن الأطراف المصرح لها فقط يمكنها مشاهدة البيانات التعريفية المضمنة. |
+| **سجلات الرعاية الصحية** | حماية معرفات المرضى وملاحظات المعالجة (HIPAA). |
+| **الاتفاقيات متعددة الأطراف** | ضمان أن الأطراف المصرح لها فقط يمكنها مشاهدة البيانات الوصفية المضمنة. |
 
-تجنب هذه التقنية للمستندات العامة تمامًا حيث تكون الشفافية مطلوبة.
+تجنب هذه التقنية في المستندات العامة تمامًا حيث يُطلب الشفافية.
 
 ## اعتبارات الأمان: ما بعد تشفير XOR
 
 ### لماذا XOR غير كافٍ
-- الأنماط المتوقعة تكشف المفتاح.  
-- لا يوجد تحقق من النزاهة (التلاعب لا يُلاحظ).  
-- المفتاح الثابت يجعل الهجمات الإحصائية ممكنة.
+
+تشفير XOR يخفى البيانات فقط ويفتقر إلى القوة التشفيرية المطلوبة لحماية البيانات الوصفية الحساسة. يمكن اكتشاف المفتاح الثابت من خلال تحليل التردد، ولا يوجد تحقق من النزاهة مدمج، مما يجعل الحمولة عرضة للتلاعب. للامتثال والأمان، استبدل XOR بوضع تشفير موثوق مثل AES‑GCM، الذي يوفر كلًا من السرية واكتشاف التلاعب.
 
 ### بدائل على مستوى الإنتاج
-**مثال AES‑GCM (تصوري):**
+
+**مثال AES‑GCM (تصوري):**  
 ```java
 // Example pattern (not complete implementation)
 Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
 SecretKeySpec keySpec = new SecretKeySpec(keyBytes, "AES");
 cipher.init(Cipher.ENCRYPT_MODE, keySpec);
 byte[] encrypted = cipher.doFinal(data);
-```
-- يوفر السرية **والتحقق** معًا.  
-- مقبول على نطاق واسع وفقًا لمعايير الأمان.
+```  
+- يوفر السرية **والتحقق**.  
+- معترف به من قبل NIST ومُعتمد على نطاق واسع في أمان المؤسسات.  
 
-**إدارة المفاتيح:** خزن المفاتيح في مخزن آمن (AWS KMS، Azure Key Vault) ولا تدمجها في الشيفرة.
+**إدارة المفاتيح:** خزن المفاتيح في خزانة آمنة (AWS KMS، Azure Key Vault) ولا تقم بتضمينها في الشيفرة.
 
-> **إجراء عملي:** استبدل `CustomXOREncryption` بفئة تعتمد على AES وتنفذ `IDataEncryption`. يبقى باقي كود التوقيع دون تغيير.
+> **إجراء مطلوب:** استبدل `CustomXOREncryption` بفئة تعتمد على AES وتنفّذ `IDataEncryption`. يبقى باقي كود التوقيع دون تغيير.
 
 ## المشكلات الشائعة والحلول
 
-### عدم تشفير البيانات التعريفية
-- تأكد من استدعاء `options.setDataEncryption(encryption)`.  
-- تحقق من أن فئة التشفير تنفذ `IDataEncryption` بشكل صحيح.  
+### البيانات الوصفية لا تُشفّر
+- تحقق من استدعاء `options.setDataEncryption(encryption)`.  
+- تأكد من أن فئة التشفير الخاصة بك تنفّذ `IDataEncryption` بشكل صحيح.
 
-### فشل توقيع المستند
-- افحص وجود الملف وصلاحيات الكتابة.  
-- تأكد من أن الترخيص فعال (قد تنتهي صلاحية النسخة التجريبية).  
+### فشل المستند في التوقيع
+- تحقق من وجود الملف وصلاحيات الكتابة.  
+- تأكد من أن الترخيص نشط (قد تنتهي صلاحية التجربة).
 
 ### فشل فك التشفير بعد التوقيع
-- استخدم نفس مفتاح التشفير للعمليتين (تشفير وفك).  
-- تأكد من قراءة الحقول التعريفية الصحيحة.  
+- استخدم مفتاح تشفير متماثل لكل من عمليات التشفير وفك التشفير.  
+- تأكد من قراءة حقول البيانات الوصفية الصحيحة.
 
-### عنق زجاجة في الأداء مع الملفات الكبيرة
-- عالج المستندات على دفعات (10‑20 في كل مرة).  
-- تخلص من كائنات `Signature` فور الانتهاء.  
-- قيّم خوارزمية التشفير؛ AES يضيف عبءً بسيطًا مقارنةً بـ XOR.
+### عنق الزجاجة في الأداء مع الملفات الكبيرة
+- معالجة المستندات على دفعات (10–20 في كل مرة).  
+- تخلص من كائنات `Signature` بسرعة.  
+- قم بتحليل أداء خوارزمية التشفير؛ AES يضيف عبئًا بسيطًا مقارنةً بـ XOR.
 
-## دليل استكشاف الأخطاء وإصلاحها
+## دليل استكشاف الأخطاء
 
-**فشل تهيئة التوقيع:**
+**فشل تهيئة التوقيع:**  
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -280,67 +338,73 @@ try {
     System.err.println("Failed to load document: " + e.getMessage());
     // Verify: file exists, correct format, sufficient permissions
 }
-```
+```  
 
-**استثناءات التشفير:**
+**استثناءات التشفير:**  
 ```java
 if (data == null || data.length == 0) {
     throw new IllegalArgumentException("Cannot encrypt empty data");
 }
-```
+```  
 
-**غياب البيانات التعريفية بعد التوقيع:**
+**البيانات الوصفية مفقودة بعد التوقيع:**  
 ```java
 System.out.println("Signatures added: " + options.getSignatures().size());
 // Should be > 0
-```
+```  
 
 ## اعتبارات الأداء
 
-- **الذاكرة:** تخلص من كائنات `Signature`؛ للوظائف الضخمة استخدم مجموعة خيوط ثابتة الحجم.  
-- **السرعة:** تخزين كائن التشفير في الذاكرة يقلل من تكلفة إنشاء الكائنات.  
-- **القياسات (تقريبًا):**  
-  - ملف DOCX بحجم 5 ميغابايت مع XOR: 200‑500 مللي ثانية  
-  - نفس الملف مع AES‑GCM: ~250‑600 مللي ثانية  
+- **الذاكرة:** تخلص من كائنات `Signature`؛ للوظائف الضخمة، استخدم مجموعة خيوط ثابتة الحجم.  
+- **السرعة:** خزن مثال التشفير في الذاكرة لتقليل عبء إنشاء الكائنات.  
+- **معايير الأداء (تقريبًا):**  
+  - ملف DOCX بحجم 5 ميغابايت مع XOR: 200‑500 ملث.  
+  - نفس الملف مع AES‑GCM: ~250‑600 ملث.  
 
 ## أفضل الممارسات للإنتاج
 
-1. **استبدل XOR بـ AES** (أو أي خوارزمية موثوقة).  
-2. **استخدم مخزن مفاتيح آمن** – لا تدمج المفاتيح في الشيفرة المصدرية.  
-3. **سجل عمليات التوقيع** (من، متى، أي ملف).  
-4. **تحقق من صحة المدخلات** (نوع الملف، الحجم، صيغة البيانات التعريفية).  
-5. **نفّذ معالجة أخطاء شاملة** برسائل واضحة.  
-6. **اختبر فك التشفير** في بيئة تجريبية قبل الإطلاق.  
+1. **استبدل XOR بـ AES** (أو خوارزمية موثوقة أخرى).  
+2. **استخدم مخزن مفاتيح آمن** – لا تقم بتضمين المفاتيح في الشيفرة المصدرية.  
+3. **سجّل عمليات التوقيع** (من، متى، أي ملف).  
+4. **تحقق من صحة المدخلات** (نوع الملف، الحجم، صيغة البيانات الوصفية).  
+5. **نفّذ معالجة أخطاء شاملة** مع رسائل واضحة.  
+6. **اختبر فك التشفير** في بيئة اختبار قبل الإصدار.  
 7. **حافظ على سجل تدقيق** لأغراض الامتثال.
 
 ## الخلاصة
 
-أصبح لديك الآن وصفة كاملة خطوة بخطوة لـ **encrypt document metadata java** باستخدام GroupDocs.Signature:
+لديك الآن وصفة كاملة خطوة بخطوة **لتشفير البيانات الوصفية** باستخدام GroupDocs.Signature:
 
-- عرّف فئة بيانات تعريفية ذات نوعية مع `@FormatAttribute`.  
-- نفّذ `IDataEncryption` (تم توضيح XOR كمثال).  
-- وقع المستند مع إرفاق البيانات التعريفية المشفرة.  
-- ارتقِ إلى AES لأمان على مستوى الإنتاج.  
+- عرّف فئة بيانات وصفية ذات نوع مع `@FormatAttribute`.  
+- نفّذ `IDataEncryption` (تم عرض XOR للتوضيح).  
+- وقّع المستند مع إرفاق البيانات الوصفية المشفرة.  
+- قم بالترقية إلى AES لأمان على مستوى الإنتاج.  
 
-الخطوات التالية: جرّب خوارزميات تشفير مختلفة، دمج خدمة إدارة مفاتيح آمنة، ووسّع نموذج البيانات التعريفية لتلبية احتياجات عملك الخاصة.
+الخطوات التالية: جرب خوارزميات تشفير مختلفة، دمج خدمة إدارة مفاتيح آمنة، وتوسيع نموذج البيانات الوصفية لتغطية احتياجات عملك الخاصة.
 
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام خوارزمية تشفير مختلفة عن XOR؟**  
-ج: بالتأكيد. نفّذ أي فئة تحقق واجهة `IDataEncryption`—AES‑GCM هو خيار موصى به للسرية القوية والنزاهة.
+ج: بالتأكيد. نفّذ أي فئة تلبي واجهة `IDataEncryption`—AES‑GCM هو خيار موصى به للسرية القوية والنزاهة.
 
-**س: هل أحتاج لتعديل كود التوقيع عند التحول إلى AES؟**  
-ج: لا. بمجرد أن يتوافق تنفيذ AES المخصص مع `IDataEncryption`، ما عليك سوى استبدال كائن `CustomXOREncryption` بالفئة الجديدة.
+**س: هل أحتاج إلى تعديل كود التوقيع عند التحويل إلى AES؟**  
+ج: لا. بمجرد أن يتوافق تنفيذ AES المخصص مع `IDataEncryption`، استبدل ببساطة مثال `CustomXOREncryption` بالفئة الجديدة.
 
-**س: هل البيانات التعريفية المشفرة تظهر في الملف الموقع إذا فتحته بعارض عادي؟**  
-ج: تظل البيانات جزءًا من الملف لكنها تظهر كبيانات ثنائية غير مفهومة. فقط روتين فك التشفير الخاص بك يمكنه تفسيرها.
+**س: هل البيانات الوصفية المشفرة مرئية في الملف الموقّع إذا فتحته بعارض عادي؟**  
+ج: تظل البيانات الوصفية جزءًا من الملف لكنها تظهر كبيانات ثنائية غير مفهومة. فقط روتين فك التشفير الخاص بك يمكنه تفسيرها.
 
-**س: كيف يؤثر ذلك على حجم الملف؟**  
-ج: يضيف التشفير إزاحةً طفيفة (عادةً بضع بايتات لكل حقل تعريف). التأثير على الحجم الكلي للمستند ضئيل.
+**س: كيف يؤثر هذا على حجم الملف؟**  
+ج: يضيف التشفير عبئًا ضئيلًا (عادةً بضع بايتات لكل حقل من البيانات الوصفية). التأثير على حجم المستند الكلي ضئيل.
 
-**س: ما الترخيص المطلوب للاستخدام الإنتاجي؟**  
-ج: يلزم الحصول على ترخيص كامل لـ GroupDocs.Signature للنشر التجاري. النسخة التجريبية تكفي للتطوير والاختبار.
+**س: ما الترخيص المطلوب للاستخدام في الإنتاج؟**  
+ج: يلزم الحصول على ترخيص كامل لـ GroupDocs.Signature للنشر التجاري. يكفي ترخيص تجريبي للتطوير والاختبار.
 
-**آخر تحديث:** 2026-02-26  
+**آخر تحديث:** 2026-07-06  
 **تم الاختبار مع:** GroupDocs.Signature 23.12 (Java)  
 **المؤلف:** GroupDocs
+
+## دروس ذات صلة
+
+- [إضافة بيانات وصفية إلى PDF باستخدام Java - دليل كامل لتوقيع GroupDocs](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)  
+- [تشفير بحث البيانات الوصفية في Java - تأمين بيانات المستند مع GroupDocs](/signature/java/search-verification/secure-metadata-search-java-groupdocs-signature/)  
+- [كيفية تشفير التوقيع في Java – خيارات توقيع متقدمة وتقنيات تشفير](/signature/java/advanced-options/)

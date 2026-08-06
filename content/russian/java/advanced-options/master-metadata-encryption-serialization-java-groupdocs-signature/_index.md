@@ -1,76 +1,127 @@
 ---
 categories:
 - Document Security
-date: '2026-02-26'
-description: Узнайте, как зашифровать метаданные документа на Java с помощью GroupDocs.Signature.
-  Пошаговое руководство с примерами кода, советами по безопасности и устранением неполадок
-  для безопасного подписания документов.
-keywords: encrypt document metadata java, Java document signature encryption, GroupDocs
-  metadata serialization, secure document metadata Java, custom XOR encryption Java
-lastmod: '2026-02-26'
-linktitle: Encrypt Document Metadata Java
+date: '2026-07-06'
+description: Узнайте, как зашифровать метаданные в Java с использованием GroupDocs.Signature.
+  Пошаговое руководство, примеры кода, лучшие практики безопасности и устранение неполадок
+  для надёжного подписания документов.
+keywords:
+- how to encrypt metadata
+- Java document signature encryption
+- GroupDocs metadata serialization
+- secure document metadata Java
+lastmod: '2026-07-06'
+linktitle: Зашифровать метаданные документа в Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-06'
+  description: Learn how to encrypt metadata in Java using GroupDocs.Signature. Step‑by‑step
+    guide, code snippets, security best practices, and troubleshooting for robust
+    document signing.
+  headline: How to Encrypt Metadata in Java with GroupDocs.Signature
+  type: TechArticle
+- description: Learn how to encrypt metadata in Java using GroupDocs.Signature. Step‑by‑step
+    guide, code snippets, security best practices, and troubleshooting for robust
+    document signing.
+  name: How to Encrypt Metadata in Java with GroupDocs.Signature
+  steps:
+  - name: '**Initialize** `Signature` with the source file.'
+    text: '**Initialize** `Signature` with the source file.'
+  - name: '**Create** an `IDataEncryption` implementation (`CustomXOREncryption`).'
+    text: '**Create** an `IDataEncryption` implementation (`CustomXOREncryption`).'
+  - name: '**Configure** `MetadataSignOptions` and attach the encryption instance.'
+    text: '**Configure** `MetadataSignOptions` and attach the encryption instance.'
+  - name: '**Populate** `DocumentSignatureData` with your custom fields.'
+    text: '**Populate** `DocumentSignatureData` with your custom fields.'
+  - name: '**Create** individual `WordProcessingMetadataSignature` objects for each
+      piece of metadata.'
+    text: '**Create** individual `WordProcessingMetadataSignature` objects for each
+      piece of metadata.'
+  - name: '**Add** them to the options collection and call `sign()`.'
+    text: '**Add** them to the options collection and call `sign()`.'
+  - name: '**Swap XOR for AES** (or another vetted algorithm).'
+    text: '**Swap XOR for AES** (or another vetted algorithm).'
+  - name: '**Use a secure key store** – never embed keys in source code.'
+    text: '**Use a secure key store** – never embed keys in source code.'
+  - name: '**Log signing operations** (who, when, which file).'
+    text: '**Log signing operations** (who, when, which file).'
+  - name: '**Validate inputs** (file type, size, metadata format).'
+    text: '**Validate inputs** (file type, size, metadata format).'
+  type: HowTo
+- questions:
+  - answer: Absolutely. Implement any class that fulfills the `IDataEncryption` interface—AES‑GCM
+      is a recommended choice for strong confidentiality and integrity.
+    question: Can I use a different encryption algorithm than XOR?
+  - answer: No. Once your custom AES implementation conforms to `IDataEncryption`,
+      simply replace the `CustomXOREncryption` instance with your new class.
+    question: Do I need to modify the signing code when I switch to AES?
+  - answer: The metadata remains part of the file but appears as unintelligible binary
+      data. Only your decryption routine can interpret it.
+    question: Is encrypted metadata visible in the signed file if I open it with a
+      regular viewer?
+  - answer: Encryption adds minimal overhead (typically a few bytes per metadata field).
+      The impact on overall document size is negligible.
+    question: How does this affect file size?
+  - answer: A full GroupDocs.Signature license is required for commercial deployment.
+      A trial license suffices for development and testing.
+    question: What licensing do I need for production use?
+  type: FAQPage
 tags:
 - java
 - encryption
 - metadata
 - groupdocs
 - document-signing
-title: Шифрование метаданных документа на Java с помощью GroupDocs.Signature
+title: Как зашифровать метаданные в Java с помощью GroupDocs.Signature
 type: docs
 url: /ru/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/
 weight: 1
 ---
 
-# Шифрование метаданных документа Java с помощью GroupDocs.Signature
+# Как зашифровать метаданные в Java с помощью GroupDocs.Signature
 
-## Введение
+Электронные подписи отличны, но скрытые свойства документа — имена авторов, метки времени, внутренние идентификаторы — могут всё ещё утекать в открытом виде. **Если вам нужно узнать, как зашифровать метаданные**, это руководство покажет именно это, используя гибкий API GroupDocs.Signature. К концу урока вы сможете:
 
-Когда‑ли вы подписывали документ в цифровом виде и позже обнаружили, что чувствительные метаданные (например, имена авторов, метки времени или внутренние идентификаторы) находятся в открытом виде, доступные для чтения любому? Это потенциальный кошмар в области безопасности.
+- Сериализовать пользовательские структуры метаданных в Java‑документах.  
+- Применить шифрование (в примере используется XOR для наглядности, но вы увидите, как заменить его на AES).  
+- Подписать документ, внедрив зашифрованные метаданные.  
+- Масштабировать решение для обеспечения уровня безопасности и производительности, соответствующего производственным требованиям.
 
-В этом руководстве **вы узнаете, как шифровать метаданные документа java** с помощью GroupDocs.Signature, используя пользовательскую сериализацию и шифрование. Мы пройдём практическую реализацию, которую можно адаптировать для корпоративных систем управления документами или единичных сценариев. По завершении вы сможете:
-
-- Сериализовать пользовательские структуры метаданных в Java‑документах  
-- Реализовать шифрование полей метаданных (пример XOR в учебных целях)  
-- Подписывать документы с зашифрованными метаданными с помощью GroupDocs.Signature  
-- Избежать распространённых ошибок и перейти к безопасному решению промышленного уровня  
-
-Давайте начнём.
+Начнём.
 
 ## Быстрые ответы
-- **Что означает “encrypt document metadata java”?** – это защита скрытых свойств документа (автор, даты, идентификаторы) с помощью шифрования перед подписью.  
-- **Какая библиотека требуется?** GroupDocs.Signature для Java (версия 23.12 или новее).  
-- **Нужна ли лицензия?** Бесплатная пробная версия подходит для разработки; полная лицензия требуется для продакшн.  
-- **Можно ли использовать более сильное шифрование?** Да – замените пример XOR на AES или другой отраслевой алгоритм.  
-- **Является ли подход независимым от формата?** GroupDocs.Signature поддерживает DOCX, PDF, XLSX и многие другие форматы.
+- **What does “encrypt metadata” mean?** It protects hidden document properties with cryptographic transformation before signing.  
+- **Which library do I need?** GroupDocs.Signature for Java 23.12 or newer.  
+- **Is a license required?** A free trial works for development; a full license is mandatory for production.  
+- **Can I replace XOR with a stronger algorithm?** Yes—implement AES‑GCM or another vetted scheme.  
+- **Is the approach format‑agnostic?** GroupDocs.Signature supports 30+ file formats, including DOCX, PDF, XLSX, PPTX, and more.
 
-## Что такое encrypt document metadata java?
+## Что такое шифрование метаданных документа в Java?
 
-Шифрование метаданных документа в Java означает взятие скрытых свойств, которые сопровождают файл, и применение криптографического преобразования, чтобы их могли прочитать только уполномоченные стороны. Это защищает конфиденциальную информацию (например, внутренние идентификаторы или заметки рецензентов) от раскрытия при передаче файла.
+Шифрование метаданных документа в Java означает взятие скрытых свойств, которые сопровождают файл, и применение к ним криптографического преобразования, чтобы только уполномоченные стороны могли их прочитать. Это защищает внутренние идентификаторы, заметки рецензентов и другие конфиденциальные данные от случайного просмотра.
 
-## Почему шифровать метаданные документа?
+## Зачем шифровать метаданные документа?
 
-- **Соответствие требованиям** – GDPR, HIPAA и другие регуляции часто рассматривают метаданные как персональные данные.  
-- **Целостность** – Предотвращение подделки информации аудиторского следа.  
-- **Конфиденциальность** – Сокрытие бизнес‑критичных деталей, не являющихся частью видимого содержимого.  
+Шифрование метаданных защищает чувствительную информацию, которую можно использовать для идентификации людей или раскрытия внутренних процессов. Преобразуя эти скрытые свойства в шифртекст, вы соблюдаете такие нормативы, как GDPR и HIPAA, поддерживаете целостность аудиторских следов и предотвращаете извлечение конкурентами бизнес‑критичных данных. Этот уровень безопасности дополняет видимую цифровую подпись, обеспечивая конфиденциальность всего документа.
 
 ## Предварительные требования
 
 ### Необходимые библиотеки и зависимости
-- **GroupDocs.Signature для Java** (версия 23.12 или новее) – основная библиотека для подписи.  
-- **Java Development Kit (JDK)** – JDK 8 или выше.  
-- Maven или Gradle для управления зависимостями.
+- **GroupDocs.Signature for Java** (version 23.12 or later) – core signing library.  
+- **Java Development Kit (JDK)** – JDK 8 or higher.  
+- Maven or Gradle for dependency management.
 
 ### Настройка окружения
-Рекомендуется IDE для Java (IntelliJ IDEA, Eclipse или VS Code) с проектом Maven/Gradle.
+Рекомендуется использовать Java IDE (IntelliJ IDEA, Eclipse или VS Code) с Maven/Gradle проектом.
 
-### Требуемые знания
+### Требования к знаниям
 - Базовый Java (классы, методы, объекты).  
 - Понимание концепций метаданных документа.  
 - Знакомство с основами симметричного шифрования.
 
 ## Настройка GroupDocs.Signature для Java
 
-Выберите инструмент сборки и добавьте зависимость.
+Choose your build tool and add the dependency.
 
 **Maven:**  
 ```xml
@@ -79,33 +130,35 @@ weight: 1
     <artifactId>groupdocs-signature</artifactId>
     <version>23.12</version>
 </dependency>
-```
+```  
 
 **Gradle:**  
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
+```  
 
-При желании можно загрузить JAR‑файл напрямую с [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) и добавить его в проект вручную (хотя предпочтительнее использовать Maven/Gradle).
+Alternatively, you can grab the JAR file directly from [Выпуски GroupDocs.Signature для Java](https://releases.groupdocs.com/signature/java/) and add it to your project manually (though Maven/Gradle is preferred).
 
 ### Шаги получения лицензии
-- **Бесплатная пробная** – полный набор функций на ограниченный период.  
-- **Временная лицензия** – расширенная оценка.  
-- **Полная покупка** – использование в продакшн.
+- **Free Trial** – full features for a limited period.  
+- **Temporary License** – extended evaluation.  
+- **Full Purchase** – production use.
 
 ### Базовая инициализация и настройка
+The `Signature` class is GroupDocs.Signature's core object that loads a document, applies signatures, and writes the result back to disk.  
+
 ```java
 Signature signature = new Signature("YOUR_DOCUMENT_PATH");
-```
-Замените `"YOUR_DOCUMENT_PATH"` реальным путём к вашему DOCX, PDF или другому поддерживаемому файлу.
+```  
+Replace `"YOUR_DOCUMENT_PATH"` with the actual path to your DOCX, PDF, or other supported file.
 
-> **Pro tip:** Оберните объект `Signature` в блок `try‑with‑resources` или вызывайте `close()` явно, чтобы избежать утечек памяти.
+> **Pro tip:** Wrap the `Signature` object in a try‑with‑resources block or call `close()` explicitly to avoid memory leaks.
 
 ## Руководство по реализации
 
 ### Как создать пользовательские структуры метаданных в Java
 
-Сначала определите данные, которые хотите защитить.
+A custom metadata class defines the structure of the information you wish to protect and how it will be serialized by GroupDocs.Signature. By annotating fields with `@FormatAttribute`, you instruct the library on the order and format of each element, enabling consistent encryption and later de‑serialization. This class becomes the blueprint for the encrypted payload embedded in the signed document.
 
 ```java
 class DocumentSignatureData {
@@ -133,14 +186,14 @@ class DocumentSignatureData {
     public final BigDecimal getDataFactor() { return DataFactor; }
     public void setDataFactor(BigDecimal value) { DataFactor = value; }
 }
-```
+```  
 
-- **@FormatAttribute** указывает GroupDocs.Signature, как сериализовать каждое поле.  
-- Вы можете расширять этот класс любыми дополнительными свойствами, необходимыми вашему бизнесу.
+- **@FormatAttribute** tells GroupDocs.Signature how to serialize each field.  
+- Extend this class with any additional properties your business requires.
 
 ### Реализация пользовательского шифрования для метаданных документа
 
-Ниже простая реализация XOR, удовлетворяющая контракту `IDataEncryption`.
+Implementing a custom encryption routine allows you to control how metadata bytes are transformed before being stored. By creating a class that implements the `IDataEncryption` interface, you can plug in any algorithm—XOR for demonstration, AES‑GCM for production, or even a proprietary scheme. The signing process will automatically invoke your encryptor during metadata serialization.
 
 ```java
 class CustomXOREncryption implements IDataEncryption {
@@ -160,13 +213,19 @@ class CustomXOREncryption implements IDataEncryption {
         return encrypt(data);  
     }
 }
-```
+```  
 
-> **Important:** XOR **не подходит** для производственной безопасности. Замените его на AES или другой проверенный алгоритм перед развертыванием.
+> **Important:** XOR is **not** suitable for production security. Replace it with AES‑GCM or another vetted algorithm before deploying.
 
 ### Как подписать документы с зашифрованными метаданными
 
-Теперь объединяем всё вместе.
+Signing a document while embedding encrypted metadata ties the hidden information to the digital signature, ensuring both authenticity and confidentiality. Using `MetadataSignOptions`, you specify which metadata fields to include and provide the encryption implementation. The `Signature` object then processes the document, applies the signature, and writes the encrypted payload alongside the visible signature elements.
+
+`MetadataSignOptions` is the configuration object that tells GroupDocs.Signature which metadata to embed and how to encrypt it.  
+
+`DocumentSignatureData` holds the actual values that will be serialized and encrypted.  
+
+`WordProcessingMetadataSignature` represents a single piece of metadata (e.g., author, custom ID) that will be attached to a Word‑processing document.  
 
 ```java
 class SignWithMetadataCustomSerialization {
@@ -205,74 +264,75 @@ class SignWithMetadataCustomSerialization {
         }
     }
 }
-```
+```  
 
-#### Пошаговое разбор
-1. **Инициализировать** `Signature` с исходным файлом.  
-2. **Создать** реализацию `IDataEncryption` (`CustomXOREncryption`).  
-3. **Настроить** `MetadataSignOptions` и привязать экземпляр шифрования.  
-4. **Заполнить** `DocumentSignatureData` вашими пользовательскими полями.  
-5. **Создать** отдельные объекты `WordProcessingMetadataSignature` для каждой части метаданных.  
-6. **Добавить** их в коллекцию опций и вызвать `sign()`.
+#### Пошаговый разбор
+1. **Initialize** `Signature` with the source file.  
+2. **Create** an `IDataEncryption` implementation (`CustomXOREncryption`).  
+3. **Configure** `MetadataSignOptions` and attach the encryption instance.  
+4. **Populate** `DocumentSignatureData` with your custom fields.  
+5. **Create** individual `WordProcessingMetadataSignature` objects for each piece of metadata.  
+6. **Add** them to the options collection and call `sign()`.
 
-> **Pro tip:** Использование `System.getenv("USERNAME")` автоматически захватывает текущего пользователя ОС, что удобно для аудита.
+> **Pro tip:** Using `System.getenv("USERNAME")` automatically captures the current OS user, which is handy for audit trails.
 
 ## Когда использовать этот подход
 
-| Сценарий | Почему шифровать метаданные? |
-|----------|------------------------------|
+Choosing to encrypt metadata is ideal when documents contain confidential identifiers, internal comments, or regulatory data that must not be exposed to unauthorized readers. Scenarios include legal contracts with hidden clause numbers, financial statements with proprietary calculations, healthcare records with patient IDs, and multi‑party agreements where each participant should only see their own metadata. In fully public documents, this step may be unnecessary.
+
+| Сценарий | Зачем шифровать метаданные? |
+|----------|-----------------------------|
 | **Юридические контракты** | Скрыть внутренние идентификаторы рабочего процесса и заметки рецензентов. |
 | **Финансовые отчёты** | Защитить источники расчётов и конфиденциальные цифры. |
-| **Медицинские записи** | Обеспечить безопасность идентификаторов пациентов и служебных заметок (HIPAA). |
-| **Многосторонние соглашения** | Гарантировать, что только уполномоченные стороны могут видеть встроенные метаданные. |
+| **Медицинские записи** | Обеспечить безопасность идентификаторов пациентов и заметок обработки (HIPAA). |
+| **Многосторонние соглашения** | Гарантировать, что только уполномоченные стороны могут просматривать встроенные метаданные. |
 
-Избегайте этой техники для полностью публичных документов, где требуется полная прозрачность.
+Avoid this technique for fully public documents where transparency is required.
 
-## Соображения по безопасности: за пределами XOR‑шифрования
+## Соображения безопасности: за пределами XOR‑шифрования
 
 ### Почему XOR недостаточен
-- Предсказуемые шаблоны раскрывают ключ.  
-- Отсутствует проверка целостности (подделка остаётся незамеченной).  
-- Фиксированный ключ делает возможными статистические атаки.
 
-### Промышленные альтернативы
-**Пример AES‑GCM (концептуально):**  
+XOR encryption merely obscures data and lacks the cryptographic strength required for protecting sensitive metadata. The static key can be discovered through frequency analysis, and there is no built‑in integrity verification, leaving the payload vulnerable to tampering. For compliance and security, replace XOR with an authenticated encryption mode such as AES‑GCM, which provides both confidentiality and tamper detection.
+
+### Альтернативы для производственной среды
+**AES‑GCM Example (conceptual):**  
 ```java
 // Example pattern (not complete implementation)
 Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
 SecretKeySpec keySpec = new SecretKeySpec(keyBytes, "AES");
 cipher.init(Cipher.ENCRYPT_MODE, keySpec);
 byte[] encrypted = cipher.doFinal(data);
-```
-- Обеспечивает конфиденциальность **и** аутентификацию.  
-- Широко принятый стандарт безопасности.
+```  
+- Provides confidentiality **and** authentication.  
+- Recognized by NIST and widely adopted in enterprise security.  
 
-**Управление ключами:** Храните ключи в защищённом хранилище (AWS KMS, Azure Key Vault) и никогда не вшивайте их в код.
+**Key Management:** Store keys in a secure vault (AWS KMS, Azure Key Vault) and never hard‑code them.
 
-> **Action item:** Замените `CustomXOREncryption` на класс на основе AES, реализующий `IDataEncryption`. Остальной код подписи останется без изменений.
+> **Action item:** Replace `CustomXOREncryption` with an AES‑based class that implements `IDataEncryption`. The rest of your signing code stays unchanged.
 
-## Распространённые проблемы и их решения
+## Распространённые проблемы и решения
 
 ### Метаданные не шифруются
-- Убедитесь, что вызвано `options.setDataEncryption(encryption)`.  
-- Проверьте, что ваш класс шифрования корректно реализует `IDataEncryption`.  
+- Verify `options.setDataEncryption(encryption)` is invoked.  
+- Confirm your encryption class correctly implements `IDataEncryption`.  
 
-### Документ не подписывается
-- Проверьте существование файла и права записи.  
-- Убедитесь, что лицензия активна (пробная может истечь).  
+### Документ не удаётся подписать
+- Check file existence and write permissions.  
+- Ensure the license is active (trial may expire).  
 
 ### Дешифрование не удаётся после подписи
-- Используйте точно такой же ключ шифрования для операций encrypt и decrypt.  
-- Убедитесь, что читаете правильные поля метаданных.  
+- Use the identical encryption key for both encrypt and decrypt operations.  
+- Confirm you’re reading the correct metadata fields.  
 
-### Проблемы с производительностью при больших файлах
-- Обрабатывайте документы пакетами (по 10‑20 штук).  
-- Своевременно освобождайте объекты `Signature`.  
-- Профилируйте ваш алгоритм шифрования; AES добавляет лишь умеренную нагрузку по сравнению с XOR.
+### Узкие места производительности при работе с большими файлами
+- Process documents in batches (10–20 at a time).  
+- Dispose of `Signature` objects promptly.  
+- Profile your encryption algorithm; AES adds modest overhead compared to XOR.
 
 ## Руководство по устранению неполадок
 
-**Не удаётся инициализировать подпись:**  
+**Signature initialization fails:**  
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -280,69 +340,75 @@ try {
     System.err.println("Failed to load document: " + e.getMessage());
     // Verify: file exists, correct format, sufficient permissions
 }
-```
+```  
 
-**Исключения шифрования:**  
+**Encryption exceptions:**  
 ```java
 if (data == null || data.length == 0) {
     throw new IllegalArgumentException("Cannot encrypt empty data");
 }
-```
+```  
 
-**Отсутствие метаданных после подписи:**  
+**Missing metadata after signing:**  
 ```java
 System.out.println("Signatures added: " + options.getSignatures().size());
 // Should be > 0
-```
+```  
 
 ## Соображения по производительности
 
-- **Память:** Освобождайте объекты `Signature`; для массовых задач используйте пул фиксированного размера потоков.  
-- **Скорость:** Кеширование экземпляра шифрования уменьшает накладные расходы на создание объектов.  
-- **Бенчмарки (примерно):**  
-  - 5 МБ DOCX с XOR: 200‑500 мс  
-  - Тот же файл с AES‑GCM: ~250‑600 мс  
+- **Memory:** Dispose of `Signature` objects; for bulk jobs, use a fixed‑size thread pool.  
+- **Speed:** Cache the encryption instance to reduce object‑creation overhead.  
+- **Benchmarks (approx.):**  
+  - 5 MB DOCX with XOR: 200‑500 ms  
+  - Same file with AES‑GCM: ~250‑600 ms  
 
-## Лучшие практики для продакшн
+## Лучшие практики для продакшна
 
-1. **Заменить XOR на AES** (или другой проверенный алгоритм).  
-2. **Использовать безопасное хранилище ключей** – никогда не встраивать ключи в исходный код.  
-3. **Вести журнал операций подписи** (кто, когда, какой файл).  
-4. **Проверять входные данные** (тип файла, размер, формат метаданных).  
-5. **Реализовать полную обработку ошибок** с понятными сообщениями.  
-6. **Тестировать дешифрование** в тестовой среде перед релизом.  
-7. **Поддерживать аудит‑трейл** для целей соответствия требованиям.
+1. **Swap XOR for AES** (or another vetted algorithm).  
+2. **Use a secure key store** – never embed keys in source code.  
+3. **Log signing operations** (who, when, which file).  
+4. **Validate inputs** (file type, size, metadata format).  
+5. **Implement comprehensive error handling** with clear messages.  
+6. **Test decryption** in a staging environment before release.  
+7. **Maintain an audit trail** for compliance purposes.
 
 ## Заключение
 
-Теперь у вас есть полный пошаговый рецепт **encrypt document metadata java** с использованием GroupDocs.Signature:
+You now have a complete, step‑by‑step recipe to **how to encrypt metadata** using GroupDocs.Signature:
 
-- Определите типизированный класс метаданных с `@FormatAttribute`.  
-- Реализуйте `IDataEncryption` (пример XOR для иллюстрации).  
-- Подпишите документ, прикрепив зашифрованные метаданные.  
-- Перейдите на AES для промышленного уровня безопасности.  
+- Define a typed metadata class with `@FormatAttribute`.  
+- Implement `IDataEncryption` (XOR shown for illustration).  
+- Sign the document while attaching encrypted metadata.  
+- Upgrade to AES for production‑grade security.  
 
-Следующие шаги: экспериментировать с различными алгоритмами шифрования, интегрировать сервис безопасного управления ключами и расширить модель метаданных под конкретные бизнес‑потребности.
+Next steps: experiment with different encryption algorithms, integrate a secure key‑management service, and extend the metadata model to cover your specific business needs.
 
 ## Часто задаваемые вопросы
 
-**В: Можно ли использовать другой алгоритм шифрования, а не XOR?**  
-О: Конечно. Реализуйте любой класс, удовлетворяющий интерфейсу `IDataEncryption` — AES‑GCM рекомендуется для сильной конфиденциальности и целостности.
+**Q: Can I use a different encryption algorithm than XOR?**  
+A: Absolutely. Implement any class that fulfills the `IDataEncryption` interface—AES‑GCM is a recommended choice for strong confidentiality and integrity.
 
-**В: Нужно ли менять код подписи при переходе на AES?**  
-О: Нет. Как только ваша пользовательская реализация AES соответствует `IDataEncryption`, достаточно заменить экземпляр `CustomXOREncryption` на новый класс.
+**Q: Do I need to modify the signing code when I switch to AES?**  
+A: No. Once your custom AES implementation conforms to `IDataEncryption`, simply replace the `CustomXOREncryption` instance with your new class.
 
-**В: Видны ли зашифрованные метаданные в подписанном файле при открытии обычным просмотрщиком?**  
-О: Метаданные остаются частью файла, но отображаются как нечитаемые бинарные данные. Их может интерпретировать только ваш механизм дешифрования.
+**Q: Is encrypted metadata visible in the signed file if I open it with a regular viewer?**  
+A: The metadata remains part of the file but appears as unintelligible binary data. Only your decryption routine can interpret it.
 
-**В: Как это влияет на размер файла?**  
-О: Шифрование добавляет минимальный оверхед (обычно несколько байт на поле метаданных). Влияние на общий размер документа пренебрежимо мало.
+**Q: How does this affect file size?**  
+A: Encryption adds minimal overhead (typically a few bytes per metadata field). The impact on overall document size is negligible.
 
-**В: Какая лицензия нужна для продакшн?**  
-О: Для коммерческого развертывания требуется полная лицензия GroupDocs.Signature. Для разработки и тестирования достаточно пробной лицензии.
+**Q: What licensing do I need for production use?**  
+A: A full GroupDocs.Signature license is required for commercial deployment. A trial license suffices for development and testing.
 
 ---
 
-**Последнее обновление:** 2026-02-26  
-**Тестировано с:** GroupDocs.Signature 23.12 (Java)  
-**Автор:** GroupDocs
+**Last Updated:** 2026-07-06  
+**Tested With:** GroupDocs.Signature 23.12 (Java)  
+**Author:** GroupDocs
+
+## Связанные руководства
+
+- [Добавить метаданные в PDF с помощью Java — Полное руководство GroupDocs Signature](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)
+- [Шифрование поиска метаданных в Java — Защищённые данные документа с GroupDocs](/signature/java/search-verification/secure-metadata-search-java-groupdocs-signature/)
+- [Как зашифровать подпись в Java – Расширенные параметры подписи и техники шифрования](/signature/java/advanced-options/)
