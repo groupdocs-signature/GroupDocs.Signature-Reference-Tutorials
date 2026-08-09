@@ -1,168 +1,239 @@
 ---
 categories:
 - Document Security
-date: '2026-04-15'
-description: जावा में कस्टम XOR एन्क्रिप्शन, QR कोड साइनिंग और सुरक्षित प्रमाणीकरण
-  के साथ सिग्नेचर को एन्क्रिप्ट करना सीखें। चरण‑दर‑चरण डिजिटल सिग्नेचर ट्यूटोरियल
-  जावा के साथ कार्यशील कोड उदाहरण।
+date: '2026-08-09'
+description: Java में QR कोड सिग्नेचर बनाना, सिग्नेचर मेटाडेटा एन्क्रिप्ट करना, और
+  कस्टम XOR एन्क्रिप्शन का उपयोग करना सीखें। यह डिजिटल सिग्नेचर ट्यूटोरियल Java आपको
+  चरण‑दर‑चरण मार्गदर्शन करता है।
 keywords:
+- create QR code signature
 - how to encrypt signature
 - digital signature tutorial java
-- custom xor encryption java
-- qr code signing java
-- groupdocs signature java
-lastmod: '2026-04-15'
-linktitle: उन्नत हस्ताक्षर विकल्प
+- GroupDocs Signature Java
+- QR code signing Java
+lastmod: '2026-08-09'
+linktitle: उन्नत सिग्नेचर विकल्प
+og_description: Java में QR कोड सिग्नेचर बनाना, सिग्नेचर मेटाडेटा एन्क्रिप्ट करना,
+  और कस्टम XOR एन्क्रिप्शन का उपयोग करना सीखें। यह डिजिटल सिग्नेचर ट्यूटोरियल Java
+  आपको चरण‑दर‑चरण मार्गदर्शन करता है।
+og_image_alt: Guide showing QR code signature creation and encryption in Java using
+  GroupDocs
+og_title: Java में QR कोड सिग्नेचर कैसे बनाएं – विकल्प
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-09'
+  description: Learn how to create QR code signature in Java, encrypt signature metadata,
+    and use custom XOR encryption. This digital signature tutorial Java guides you
+    step‑by‑step.
+  headline: How to create QR code signature in Java – options
+  type: TechArticle
+- description: Learn how to create QR code signature in Java, encrypt signature metadata,
+    and use custom XOR encryption. This digital signature tutorial Java guides you
+    step‑by‑step.
+  name: How to create QR code signature in Java – options
+  steps:
+  - name: '**Never hardcode encryption keys** – Load them from secure stores (Azure
+      Key Vault, AWS Secrets Manager, env vars) and rotate regularly.'
+    text: '**Never hardcode encryption keys** – Load them from secure stores (Azure
+      Key Vault, AWS Secrets Manager, env vars) and rotate regularly.'
+  - name: '**Validate before you sign** – Verify file format, document integrity,
+      and user permissions prior to applying signatures.'
+    text: '**Validate before you sign** – Verify file format, document integrity,
+      and user permissions prior to applying signatures.'
+  - name: '**Log signature operations** – Keep an audit trail of who signed what,
+      when, and with which key. Include verification checks in your logs.'
+    text: '**Log signature operations** – Keep an audit trail of who signed what,
+      when, and with which key. Include verification checks in your logs.'
+  - name: '**Handle format‑specific edge cases** – Some formats (e.g., certain image
+      types) may not support all signature features. Detect capabilities early and
+      provide clear error messages.'
+    text: '**Handle format‑specific edge cases** – Some formats (e.g., certain image
+      types) may not support all signature features. Detect capabilities early and
+      provide clear error messages.'
+  - name: '**Test verification across platforms** – Ensure signatures validate in
+      Adobe Reader, mobile viewers, and other third‑party tools, not just within your
+      own app.'
+    text: '**Test verification across platforms** – Ensure signatures validate in
+      Adobe Reader, mobile viewers, and other third‑party tools, not just within your
+      own app.'
+  type: HowTo
+- questions:
+  - answer: Yes. You can apply XOR to metadata while using PDF’s built‑in encryption
+      for the document body. Just ensure the encryption order matches your security
+      policy.
+    question: Can I use custom XOR encryption with PDF encryption simultaneously?
+  - answer: Typically up to 1 KB after compression and encryption. Larger payloads
+      should be stored elsewhere (e.g., a URL) and referenced from the QR code.
+    question: How large can the QR code payload be before scanning becomes unreliable?
+  - answer: No additional GroupDocs license is required; the same license covers all
+      API features, including cloud storage handling.
+    question: Do I need a separate license for AWS S3 integration?
+  - answer: The overhead is minimal (microseconds per signature). The real impact
+      comes from file I/O; use streaming for large files.
+    question: Is there a performance impact when encrypting metadata?
+  - answer: Java 8 or higher is supported. We recommend Java 11+ for optimal performance
+      and security updates.
+    question: What Java version is required?
+  type: FAQPage
 tags:
-- java-signature
-- document-encryption
-- qr-code-signing
-- digital-signatures
-- secure-documents
-title: जावा में सिग्नेचर को एन्क्रिप्ट कैसे करें – उन्नत साइनिंग विकल्प और एन्क्रिप्शन
-  तकनीकें
+- create qr code signature
+- encrypt signature
+- digital signatures java
+- GroupDocs Signature
+- Java security
+title: Java में QR कोड सिग्नेचर कैसे बनाएं – विकल्प
 type: docs
-url: /hi/java/advanced-options/
-weight: 14
 ---
 
-# Java में हस्ताक्षर को एन्क्रिप्ट कैसे करें – उन्नत साइनिंग विकल्प और एन्क्रिप्शन तकनीकें
+# Java में QR कोड हस्ताक्षर कैसे बनाएं – विकल्प
 
-When you're building enterprise document management systems, basic signatures won't cut it anymore. **यदि आपको Java में हस्ताक्षर को एन्क्रिप्ट करने का तरीका जानना है**, you’ll quickly discover that clients demand encrypted metadata, custom visual signatures with gradient effects, and secure authentication through QR codes. Implementing these advanced features often means wrestling with complex APIs, security protocols, and format compatibility issues—all of which are handled gracefully by GroupDocs.Signature for Java.
-
-In this guide, you’ll learn **how to encrypt signature** using custom XOR encryption, embed QR‑code signatures, and integrate with cloud storage while keeping your code clean and maintainable. Each tutorial includes working code examples, practical explanations, and real‑world use cases you’ll actually encounter.
+जब आप एंटरप्राइज़ दस्तावेज़ प्रबंधन सिस्टम बना रहे होते हैं, तो बेसिक हस्ताक्षर अब पर्याप्त नहीं होते। **यदि आपको Java में QR कोड हस्ताक्षर बनाना है**, तो आप जल्दी ही देखेंगे कि क्लाइंट्स एन्क्रिप्टेड मेटाडेटा, ग्रेडिएंट इफ़ेक्ट्स के साथ कस्टम विज़ुअल हस्ताक्षर, और QR कोड के माध्यम से सुरक्षित प्रमाणीकरण की मांग करते हैं। इन उन्नत सुविधाओं को लागू करना अक्सर जटिल API, सुरक्षा प्रोटोकॉल, और फ़ॉर्मेट संगतता समस्याओं से जूझना होता है—जिन्हें GroupDocs.Signature for Java सहजता से संभालता है।
 
 ## त्वरित उत्तर
-- **हस्ताक्षर को एन्क्रिप्ट करने का क्या अर्थ है?** यह Java‑आधारित दस्तावेज़ों में हस्ताक्षर के मेटाडेटा पर क्रिप्टोग्राफिक सुरक्षा लागू करने की प्रक्रिया है।  
-- **कस्टम XOR एन्क्रिप्शन क्यों उपयोग करें?** यह एम्बेड करने से पहले संवेदनशील मेटाडेटा को छिपाने के लिए एक हल्का, उलटा किया जा सकने वाला तरीका प्रदान करता है।  
-- **क्या QR कोड को सत्यापन के लिए उपयोग किया जा सकता है?** हाँ, QR‑कोड हस्ताक्षर एन्क्रिप्टेड डेटा एम्बेड करते हैं जिसे किसी भी मोबाइल डिवाइस से स्कैन किया जा सकता है।  
-- **क्या AWS S3 इंटीग्रेशन आवश्यक है?** केवल तभी जब आपका वर्कफ़्लो दस्तावेज़ों को क्लाउड में संग्रहीत करता है; यह स्थानीय स्टोरेज के बिना स्ट्रीमिंग हस्ताक्षर सक्षम करता है।  
+- **हस्ताक्षर को कैसे एन्क्रिप्ट करें?** यह Java‑आधारित दस्तावेज़ों में हस्ताक्षर के मेटाडेटा पर क्रिप्टोग्राफिक सुरक्षा लागू करने की प्रक्रिया है।  
+- **कस्टम XOR एन्क्रिप्शन क्यों उपयोग करें?** यह एम्बेड करने से पहले संवेदनशील मेटाडेटा को छुपाने के लिए एक हल्का, उलटा किया जा सकने वाला तरीका प्रदान करता है।  
+- **क्या QR कोड को सत्यापन के लिए उपयोग किया जा सकता है?** हाँ, QR‑कोड हस्ताक्षर एन्क्रिप्टेड डेटा एम्बेड करते हैं जिसे कोई भी मोबाइल डिवाइस स्कैन कर सकता है।  
+- **क्या AWS S3 एकीकरण आवश्यक है?** केवल तभी जब आपका वर्कफ़्लो दस्तावेज़ों को क्लाउड में संग्रहीत करता है; यह स्थानीय स्टोरेज के बिना स्ट्रीमिंग हस्ताक्षर सक्षम करता है।  
 - **क्या उत्पादन के लिए लाइसेंस चाहिए?** व्यावसायिक डिप्लॉयमेंट के लिए एक वैध GroupDocs.Signature लाइसेंस आवश्यक है।
 
-## क्या है **हस्ताक्षर को एन्क्रिप्ट करने का तरीका**?
-Encrypting a signature means protecting the data that describes the signature—such as signer name, timestamp, or custom fields—so that only authorized parties can read it. GroupDocs.Signature lets you plug in your own encryption logic (for example, a custom XOR algorithm) before the metadata is written to the file.
+## हस्ताक्षर को कैसे एन्क्रिप्ट करें?
+हस्ताक्षर को एन्क्रिप्ट करने का मतलब है उस डेटा की सुरक्षा करना जो हस्ताक्षर का वर्णन करता है—जैसे साइनर का नाम, टाइमस्टैम्प, या कस्टम फ़ील्ड्स—ताकि केवल अधिकृत पक्ष इसे पढ़ सकें। **आप यह GroupDocs.Signature में अपना एन्क्रिप्शन लॉजिक (उदाहरण के लिए, एक कस्टम XOR एल्गोरिदम) प्लग इन करके प्राप्त करते हैं, इससे पहले कि मेटाडेटा फ़ाइल में लिखा जाए।** यह दृष्टिकोण उन स्थितियों में भी गोपनीयता सुनिश्चित करता है जहाँ दस्तावेज़ अविश्वसनीय स्थानों में संग्रहीत होते हैं।
 
-## क्यों उपयोग करें **डिजिटल सिग्नेचर ट्यूटोरियल जावा** उन्नत विकल्पों के साथ?
-Standard digital signatures verify that a document hasn’t been altered, but they don’t hide the information they carry. Modern compliance regimes often require that sensitive metadata stay confidential. By following this **digital signature tutorial java**, you gain:
+## उन्नत विकल्पों के साथ डिजिटल सिग्नेचर ट्यूटोरियल जावा का उपयोग क्यों करें?
+स्टैंडर्ड डिजिटल हस्ताक्षर यह सत्यापित करते हैं कि दस्तावेज़ में कोई बदलाव नहीं हुआ है, लेकिन वे वह जानकारी छुपाते नहीं हैं जो वे ले जाते हैं। आधुनिक अनुपालन नियम अक्सर संवेदनशील मेटाडेटा को गोपनीय रखने की मांग करते हैं। इस **digital signature tutorial java** का पालन करके आप प्राप्त करेंगे:
 
-* End‑to‑end confidentiality for metadata  
-* Visual branding with gradient brushes or QR codes  
-* Seamless cloud‑native workflows (e.g., AWS S3)  
-* Support for PDFs, DOCX, images, and more  
+* मेटाडेटा के लिए एंड‑टू‑एंड गोपनीयता  
+* ग्रेडिएंट ब्रश या QR कोड के साथ विज़ुअल ब्रांडिंग  
+* सीमलेस क्लाउड‑नेटिव वर्कफ़्लोज़ (जैसे, AWS S3)  
+* PDF, DOCX, इमेजेज़ और अधिक के लिए समर्थन  
 
-## पूर्वापेक्षाएँ
-- Java 8 or higher (Java 11+ recommended)  
-- GroupDocs.Signature for Java library (latest version)  
-- Optional: AWS SDK for Java if you plan to work with S3  
-- Basic understanding of Java I/O and cryptography concepts  
+## आवश्यकताएँ
+- Java 8 या उससे ऊपर (Java 11+ अनुशंसित)  
+- GroupDocs.Signature for Java लाइब्रेरी (नवीनतम संस्करण)  
+- वैकल्पिक: AWS SDK for Java यदि आप S3 के साथ काम करने की योजना बना रहे हैं  
+- Java I/O और क्रिप्टोग्राफी अवधारणाओं की बुनियादी समझ  
 
-## हस्ताक्षर को एन्क्रिप्ट कैसे करें – चरण‑दर‑चरण अवलोकन
+## Java में QR कोड हस्ताक्षर कैसे बनाएं?
+`Signature` क्लास एक दस्तावेज़ का प्रतिनिधित्व करती है और हस्ताक्षर लागू करने के लिए मेथड्स प्रदान करती है। `QrCodeSignature` क्लास QR‑कोड विज़ुअल हस्ताक्षर और उसकी प्रॉपर्टीज़ को परिभाषित करती है।
 
-Below is a quick decision framework to help you pick the right tutorial for your immediate need:
+`Signature signature = new Signature("input.pdf")` के साथ अपना दस्तावेज़ लोड करें, एक `QrCodeSignature` ऑब्जेक्ट कॉन्फ़िगर करें, एन्क्रिप्टेड डेटा पेलोड सेट करें, और `signature.sign(outputPath)` को कॉल करें। यह सिंगल‑लाइन पैटर्न एक स्कैन करने योग्य QR कोड एम्बेड करता है जो एन्क्रिप्टेड मेटाडेटा ले जाता है, जिससे किसी भी मोबाइल डिवाइस पर सत्यापन संभव हो जाता है बिना कच्चा डेटा उजागर किए। QR कोड का आकार और एरर‑करेक्शन लेवल पढ़ने की सुविधा और डेटा क्षमता के बीच संतुलन बनाने के लिए ट्यून किया जा सकता है।
 
-| परिदृश्य | आदर्श ट्यूटोरियल |
+## हस्ताक्षर को एन्क्रिप्ट करने का चरण‑दर‑चरण अवलोकन
+यह अवलोकन आपको वर्तमान आवश्यकता के आधार पर कौन सा ट्यूटोरियल फॉलो करना है, यह तय करने में मदद करता है। यह मुख्य परिदृश्यों को रेखांकित करता है और आपको सबसे प्रासंगिक गाइड की ओर इशारा करता है, जिससे आप अनावश्यक ट्रायल‑एंड‑एरर के बिना सही इम्प्लीमेंटेशन पाथ चुन सकें और विकास समय बचा सकें।
+
+नीचे एक त्वरित निर्णय फ्रेमवर्क है जो आपके तत्काल आवश्यकता के लिए सही ट्यूटोरियल चुनने में मदद करता है:
+
+| परिदृश्य | अनुशंसित ट्यूटोरियल |
 |----------|----------------------|
-| QR कोड के साथ मोबाइल‑फ्रेंडली सत्यापन | **GroupDocs.Signature for Java के साथ डायनेमिक डॉक्यूमेंट सिग्नेचर मास्टर: QR कोड साइनिंग तकनीकें** |
-| संवेदनशील डेटा एम्बेड करना जो छिपा रहना चाहिए | **GroupDocs.Signature for Java के साथ कस्टम XOR एन्क्रिप्शन: एक व्यापक गाइड** |
-| S3 में फ़ाइलें संग्रहीत करने वाले क्लाउड‑नेटिव वर्कफ़्लो | **AWS SDK for Java का उपयोग करके Amazon S3 से फ़ाइलें डाउनलोड करने का तरीका, GroupDocs.Signature इंटीग्रेशन के साथ** |
-| ब्रांडेड, दृश्यात्मक रूप से प्रभावशाली हस्ताक्षर | **GroupDocs.Signature का उपयोग करके Java में ग्रेडिएंट ब्रश के साथ दस्तावेज़ साइन करें** |
-| कई फ़ाइल फ़ॉर्मेट (PDF, DOCX, इमेज) का समर्थन | **GroupDocs.Signature for Java में फ़ाइल फ़ॉर्मेट समर्थन मास्टर: एक व्यापक गाइड** |
+| QR कोड के साथ मोबाइल‑फ्रेंडली सत्यापन | **Master Dynamic Document Signatures with GroupDocs.Signature for Java: QR Code Signing Techniques** |
+| संवेदनशील डेटा को एम्बेड करना जो छिपा रहना चाहिए | **Custom XOR Encryption with GroupDocs.Signature for Java: A Comprehensive Guide** |
+| S3 में फ़ाइलें संग्रहीत करने वाले क्लाउड‑नेटिव वर्कफ़्लोज़ | **How to Download Files from Amazon S3 Using AWS SDK for Java with GroupDocs.Signature Integration** |
+| ब्रांडेड, दृश्यात्मक रूप से प्रभावशाली हस्ताक्षर | **Sign Documents with Gradient Brush in Java using GroupDocs.Signature** |
+| कई फ़ाइल फ़ॉर्मैट्स (PDF, DOCX, इमेजेज़) का समर्थन | **Master File Format Support in GroupDocs.Signature for Java: A Comprehensive Guide** |
 
 ## उपलब्ध ट्यूटोरियल
 
-### [GroupDocs.Signature for Java के साथ कस्टम XOR एन्क्रिप्शन: एक व्यापक गाइड](./custom-xor-encryption-groupdocs-signature-java/)
-Learn how to implement Custom XOR Encryption using GroupDocs.Signature for Java. Secure your digital signatures with this step‑by‑step guide.
+### [जावा के लिए GroupDocs.Signature के साथ कस्टम XOR एन्क्रिप्शन: एक व्यापक गाइड](./custom-xor-encryption-groupdocs-signature-java/)
+जावा के लिए GroupDocs.Signature के साथ कस्टम XOR एन्क्रिप्शन को लागू करने के बारे में जानें। इस चरण‑दर‑चरण गाइड के साथ अपने डिजिटल हस्ताक्षर को सुरक्षित करें।
 
-**What you'll build**: A custom encryption layer that protects signature metadata before it’s embedded in documents. This is crucial when you’re handling sensitive information in signatures (like employee IDs or transaction codes) that shouldn’t be readable without decryption keys. The tutorial shows you how to create an encryption interface, implement XOR logic, and integrate it with GroupDocs.Signature's metadata signing process—all without reinventing cryptographic wheels.
+**आप क्या बनाएँगे**: एक कस्टम एन्क्रिप्शन लेयर जो दस्तावेज़ों में एम्बेड होने से पहले हस्ताक्षर मेटाडेटा की सुरक्षा करता है। यह तब महत्वपूर्ण होता है जब आप हस्ताक्षर में संवेदनशील जानकारी (जैसे कर्मचारी आईडी या ट्रांज़ैक्शन कोड) संभाल रहे हों, जिसे डिक्रिप्शन कुंजियों के बिना पढ़ा नहीं जाना चाहिए। ट्यूटोरियल दिखाता है कि एन्क्रिप्शन इंटरफ़ेस कैसे बनाएं, XOR लॉजिक लागू करें, और GroupDocs.Signature के मेटाडेटा साइनिंग प्रोसेस के साथ इंटीग्रेट करें—बिना क्रिप्टोग्राफिक व्हील्स को फिर से बनाने के।
 
-### [AWS SDK for Java का उपयोग करके Amazon S3 से फ़ाइलें डाउनलोड करने का तरीका, GroupDocs.Signature इंटीग्रेशन के साथ](./download-files-amazon-s3-aws-sdk-java-groupdocs-signature/)
-Learn how to download files from Amazon S3 using the AWS SDK for Java and enhance document management with GroupDocs.Signature.
+### [AWS SDK for Java के साथ Amazon S3 से फ़ाइलें डाउनलोड करने का तरीका GroupDocs.Signature इंटीग्रेशन के साथ](./download-files-amazon-s3-aws-sdk-java-groupdocs-signature/)
+AWS SDK for Java का उपयोग करके Amazon S3 से फ़ाइलें डाउनलोड करना और GroupDocs.Signature के साथ दस्तावेज़ प्रबंधन को बढ़ाना सीखें।
 
-**Real‑world scenario**: You’re building a document signing workflow where contracts are stored in S3. Users need to retrieve documents, sign them with metadata, and upload them back. This tutorial walks through the complete integration—configuring AWS credentials, downloading files into memory streams, applying signatures, and handling the S3 lifecycle. It’s particularly useful if you’re dealing with high‑volume document processing where local storage isn’t practical.
+**वास्तविक‑दुनिया परिदृश्य**: आप एक दस्तावेज़ साइनिंग वर्कफ़्लो बना रहे हैं जहाँ कॉन्ट्रैक्ट्स S3 में संग्रहीत होते हैं। उपयोगकर्ताओं को दस्तावेज़ पुनः प्राप्त करना, मेटाडेटा के साथ साइन करना, और फिर वापस अपलोड करना होता है। यह ट्यूटोरियल पूरी इंटीग्रेशन को कवर करता है—AWS क्रेडेंशियल्स कॉन्फ़िगर करना, फ़ाइलों को मेमोरी स्ट्रीम में डाउनलोड करना, हस्ताक्षर लागू करना, और S3 लाइफ़साइकल को संभालना। यह विशेष रूप से तब उपयोगी है जब आप उच्च‑वॉल्यूम दस्तावेज़ प्रोसेसिंग कर रहे हों जहाँ स्थानीय स्टोरेज व्यावहारिक नहीं है।
 
-### [GroupDocs.Signature के साथ Java में कस्टम XOR एन्क्रिप्शन लागू करें: चरण‑दर‑चरण गाइड](./implement-custom-xor-encryption-groupdocs-signature-java/)
-Learn how to implement a custom XOR encryption using GroupDocs.Signature for Java. This guide provides step‑by‑step instructions, code examples, and best practices.
+### [GroupDocs.Signature के साथ जावा में कस्टम XOR एन्क्रिप्शन लागू करें: चरण‑दर‑चरण गाइड](./implement-custom-xor-encryption-groupdocs-signature-java/)
+GroupDocs.Signature के साथ जावा में कस्टम XOR एन्क्रिप्शन को लागू करना सीखें। यह गाइड चरण‑दर‑चरण निर्देश, कोड उदाहरण, और सर्वोत्तम प्रथाएं प्रदान करता है।
 
-**Why this matters**: Sometimes built‑in encryption options don’t match your organization’s security policies. This tutorial shows you how to create a custom encryption implementation from scratch, implement the `IDataEncryption` interface, and apply it to document signatures. You’ll learn how to handle byte arrays, manage encryption keys, and test your implementation—essential skills when compliance requires specific encryption algorithms.
+**यह क्यों महत्वपूर्ण है**: कभी‑कभी बिल्ट‑इन एन्क्रिप्शन विकल्प आपके संगठन की सुरक्षा नीतियों से मेल नहीं खाते। यह ट्यूटोरियल दिखाता है कि कैसे शून्य से एक कस्टम एन्क्रिप्शन इम्प्लीमेंटेशन बनाएं, `IDataEncryption` इंटरफ़ेस को लागू करें, और इसे दस्तावेज़ हस्ताक्षरों पर लागू करें। आप बाइट एरेज़ को कैसे संभालें, एन्क्रिप्शन कुंजियों का प्रबंधन करें, और अपनी इम्प्लीमेंटेशन का परीक्षण करें—जब अनुपालन को विशिष्ट एन्क्रिप्शन एल्गोरिदम की आवश्यकता होती है, तब ये आवश्यक कौशल हैं।
 
-### [GroupDocs.Signature for Java के साथ डायनेमिक डॉक्यूमेंट सिग्नेचर मास्टर: QR कोड साइनिंग तकनीकें](./master-groupdocs-signature-java-qr-code-signing/)
-Learn to secure and authenticate PDF documents using GroupDocs.Signature for Java. This guide covers setting up, signing, and aligning QR code signatures efficiently.
+### [GroupDocs.Signature for Java के साथ डायनेमिक डॉक्यूमेंट सिग्नेचर्स में महारत: QR कोड साइनिंग तकनीकें](./master-groupdocs-signature-java-qr-code-signing/)
+GroupDocs.Signature for Java का उपयोग करके PDF दस्तावेज़ों को सुरक्षित और प्रमाणित करना सीखें। यह गाइड सेटअप, साइनिंग, और QR कोड हस्ताक्षरों को कुशलता से संरेखित करने को कवर करता है।
 
-**Practical application**: QR code signatures are everywhere now—from shipping manifests to legal contracts. This tutorial shows you how to embed QR codes that contain encrypted metadata, position them precisely (top‑right corner, bottom‑left, center), and customize their appearance. You’ll learn about different QR encoding types and how to choose the right one for your data payload. Perfect for building document authentication systems where users can verify integrity by scanning with their phones.
+**व्यावहारिक अनुप्रयोग**: QR कोड हस्ताक्षर अब हर जगह हैं—शिपिंग मैनिफेस्ट से लेकर कानूनी कॉन्ट्रैक्ट्स तक। यह ट्यूटोरियल दिखाता है कि कैसे एन्क्रिप्टेड मेटाडेटा वाले QR कोड एम्बेड करें, उन्हें सटीक रूप से (ऊपरी‑दाएँ कोना, निचला‑बायाँ, केंद्र) पोज़िशन करें, और उनकी उपस्थिति को कस्टमाइज़ करें। आप विभिन्न QR एन्कोडिंग प्रकारों और अपने डेटा पेलोड के लिए सही विकल्प चुनना सीखेंगे। यह उन दस्तावेज़ प्रमाणीकरण सिस्टम्स के निर्माण के लिए परिपूर्ण है जहाँ उपयोगकर्ता अपने फ़ोन से स्कैन करके इंटीग्रिटी सत्यापित कर सकते हैं।
 
-### [GroupDocs.Signature for Java में फ़ाइल फ़ॉर्मेट समर्थन मास्टर: एक व्यापक गाइड](./groupdocs-signature-java-file-format-support/)
-Learn how to use GroupDocs.Signature for Java to manage and support diverse file formats efficiently. Enhance your document management system with this step‑by‑step guide.
+### [GroupDocs.Signature for Java में फ़ाइल फ़ॉर्मैट समर्थन में महारत: एक व्यापक गाइड](./groupdocs-signature-java-file-format-support/)
+GroupDocs.Signature for Java का उपयोग करके विविध फ़ाइल फ़ॉर्मैट्स को प्रभावी ढंग से प्रबंधित और समर्थन करना सीखें। इस चरण‑दर‑चरण गाइड के साथ अपने दस्तावेज़ प्रबंधन सिस्टम को उन्नत करें।
 
-**The format challenge**: One day you’re signing PDFs, the next it’s Word documents, then someone asks about image file signatures. This tutorial covers format detection, handling format‑specific signature options, and building a flexible signing system that adapts to different file types. You’ll learn about format capabilities, limitations (some formats support text signatures but not QR codes), and how to provide appropriate error messages when operations aren’t supported.
+**फ़ॉर्मैट चुनौती**: एक दिन आप PDFs साइन कर रहे हैं, अगले दिन Word दस्तावेज़, फिर कोई इमेज फ़ाइल साइनिंग के बारे में पूछता है। यह ट्यूटोरियल फ़ॉर्मैट डिटेक्शन, फ़ॉर्मैट‑स्पेसिफिक साइनिंग विकल्पों को संभालना, और एक लचीला साइनिंग सिस्टम बनाना कवर करता है जो विभिन्न फ़ाइल प्रकारों के अनुसार अनुकूल हो। आप फ़ॉर्मैट क्षमताओं, सीमाओं (कुछ फ़ॉर्मैट्स टेक्स्ट सिग्नेचर को सपोर्ट करते हैं लेकिन QR कोड नहीं), और असमर्थित ऑपरेशन्स पर उपयुक्त एरर मैसेज प्रदान करना सीखेंगे।
 
-### [GroupDocs.Signature के साथ Java में मेटाडेटा एन्क्रिप्शन और सीरियलाइज़ेशन में महारत हासिल करें](./master-metadata-encryption-serialization-java-groupdocs-signature/)
-Learn to secure document metadata using custom encryption and serialization techniques with GroupDocs.Signature for Java.
+### [GroupDocs.Signature के साथ जावा में मेटाडेटा एन्क्रिप्शन और सीरियलाइज़ेशन में महारत](./master-metadata-encryption-serialization-java-groupdocs-signature/)
+GroupDocs.Signature for Java के साथ कस्टम एन्क्रिप्शन और सीरियलाइज़ेशन तकनीकों का उपयोग करके दस्तावेज़ मेटाडेटा को सुरक्षित करना सीखें।
 
-**Advanced technique**: Metadata signatures let you embed structured data (like approval workflows or audit trails) directly in documents. But raw metadata is readable by anyone with file access. This tutorial shows you how to serialize custom Java objects, encrypt them using custom implementations, and embed them as metadata signatures. You’ll work with the `IDataEncryption` and `IDataSerializer` interfaces to create a complete solution that keeps your metadata both structured and secure.
+**उन्नत तकनीक**: मेटाडेटा सिग्नेचर आपको संरचित डेटा (जैसे अनुमोदन वर्कफ़्लो या ऑडिट ट्रेल) सीधे दस्तावेज़ों में एम्बेड करने देती है। लेकिन कच्चा मेटाडेटा किसी भी फ़ाइल एक्सेस वाले व्यक्ति द्वारा पढ़ा जा सकता है। यह ट्यूटोरियल दिखाता है कि कैसे कस्टम जावा ऑब्जेक्ट्स को सीरियलाइज़ करें, कस्टम इम्प्लीमेंटेशन के साथ एन्क्रिप्ट करें, और उन्हें मेटाडेटा सिग्नेचर के रूप में एम्बेड करें। आप `IDataEncryption` और `IDataSerializer` इंटरफ़ेस के साथ काम करेंगे ताकि आपका मेटाडेटा संरचित और सुरक्षित दोनों रहे।
 
-### [GroupDocs.Signature का उपयोग करके Java में ग्रेडिएंट ब्रश के साथ दस्तावेज़ साइन करें](./sign-document-gradient-brush-java-groupdocs/)
-Learn how to digitally sign documents with a gradient brush effect in Java using GroupDocs.Signature. Streamline your document management and enhance security.
+### [GroupDocs.Signature का उपयोग करके जावा में ग्रेडिएंट ब्रश के साथ दस्तावेज़ साइन करें](./sign-document-gradient-brush-java/)
+GroupDocs.Signature का उपयोग करके जावा में ग्रेडिएंट ब्रश इफ़ेक्ट के साथ डिजिटल दस्तावेज़ साइन करना सीखें। अपने दस्तावेज़ प्रबंधन को सुव्यवस्थित करें और सुरक्षा को बढ़ाएँ।
 
-**Visual customization**: Sometimes signatures need to match brand guidelines or stand out visually. This tutorial demonstrates how to create custom brush effects—linear gradients, radial gradients, and texture brushes—for stamp signatures. You’ll learn how to configure colors, transparency, and positioning to create professional‑looking signature stamps that are both functional and visually appealing. Great for building white‑label document solutions where signature appearance matters.
+**विज़ुअल कस्टमाइज़ेशन**: कभी‑कभी हस्ताक्षर को ब्रांड गाइडलाइन के साथ मेल खाना चाहिए या दृश्यात्मक रूप से उभरा होना चाहिए। यह ट्यूटोरियल कस्टम ब्रश इफ़ेक्ट्स—लीनियर ग्रेडिएंट, रेडियल ग्रेडिएंट, और टेक्सचर ब्रश—को स्टैम्प सिग्नेचर के लिए बनाने को दर्शाता है। आप रंग, ट्रांसपैरेंसी, और पोज़िशनिंग को कॉन्फ़िगर करना सीखेंगे ताकि पेशेवर‑दिखने वाले सिग्नेचर स्टैम्प बन सकें जो कार्यात्मक और दृश्यात्मक दोनों रूप से आकर्षक हों। यह व्हाइट‑लेबल दस्तावेज़ समाधान बनाने के लिए आदर्श है जहाँ हस्ताक्षर की उपस्थिति महत्वपूर्ण होती है।
 
 ## सामान्य कार्यान्वयन चुनौतियां (और उन्हें कैसे हल करें)
 
-**Challenge: "My encrypted signatures work locally but fail in production"**  
-This usually happens when encryption keys are hard‑coded in development. Make sure you load keys from environment variables or secure configuration management systems. Also verify that your production environment has the same Java Cryptography Extension (JCE) policies installed as your dev machine.
+**चुनौती: “मेरे एन्क्रिप्टेड हस्ताक्षर स्थानीय रूप से काम करते हैं लेकिन प्रोडक्शन में विफल होते हैं”**  
+यह आमतौर पर तब होता है जब एन्क्रिप्शन कुंजियों को विकास में हार्ड‑कोड किया जाता है। सुनिश्चित करें कि आप कुंजियों को पर्यावरण वेरिएबल्स या सुरक्षित कॉन्फ़िगरेशन मैनेजमेंट सिस्टम से लोड करें। साथ ही यह सत्यापित करें कि आपके प्रोडक्शन एनवायरनमेंट में वही Java Cryptography Extension (JCE) पॉलिसी इंस्टॉल्ड हैं जो आपके डेव मशीन में हैं।
 
-**Challenge: "QR codes are too small to scan reliably"**  
-QR‑code sizing depends on the amount of data you’re encoding. If your metadata is large, consider encrypting and compressing it first, or switch to a higher QR version. The tutorials show you how to adjust QR code size and error‑correction levels for better scanability.
+**चुनौती: “QR कोड स्कैन करने के लिए बहुत छोटे हैं और विश्वसनीय नहीं हैं”**  
+QR‑कोड का आकार आप जिस डेटा को एन्कोड कर रहे हैं उसकी मात्रा पर निर्भर करता है। यदि आपका मेटाडेटा बड़ा है, तो पहले उसे एन्क्रिप्ट और कंप्रेस करें, या उच्चतर QR संस्करण पर स्विच करें। ट्यूटोरियल दिखाते हैं कि बेहतर स्कैनबिलिटी के लिए QR कोड आकार और एरर‑करेक्शन लेवल कैसे समायोजित करें।
 
-**Challenge: "Different file formats behave differently with the same signature code"**  
-That’s expected—PDFs support different signature types than DOCX files. The file format support tutorial covers capability detection, so you can check what’s supported before attempting operations. Always test your signature implementation across all target formats.
+**चुनौती: “एक ही हस्ताक्षर कोड के साथ विभिन्न फ़ाइल फ़ॉर्मैट्स अलग‑अलग व्यवहार करते हैं”**  
+यह अपेक्षित है—PDFs की सिग्नेचर प्रकार DOCX फ़ाइलों से अलग होते हैं। फ़ाइल फ़ॉर्मैट सपोर्ट ट्यूटोरियल क्षमता डिटेक्शन को कवर करता है, इसलिए आप ऑपरेशन करने से पहले यह जांच सकते हैं कि क्या समर्थित है। हमेशा अपने सिग्नेचर इम्प्लीमेंटेशन को सभी लक्षित फ़ॉर्मैट्स में टेस्ट करें।
 
-**Challenge: "Performance degrades with large documents"**  
-Signing operations can be I/O‑intensive, especially with large PDFs. Consider implementing async signing for documents over 10 MB, and use streaming where possible instead of loading entire files into memory. The AWS S3 tutorial demonstrates streaming techniques you can adapt.
+**चुनौती: “बड़ी दस्तावेज़ों के साथ प्रदर्शन घट जाता है”**  
+साइनिंग ऑपरेशन्स विशेष रूप से बड़े PDFs के साथ I/O‑इंटेन्सिव हो सकते हैं। 10 MB से बड़े दस्तावेज़ों के लिए असिंक्रोनस साइनिंग लागू करने पर विचार करें, और संभव हो तो पूरे फ़ाइल को मेमोरी में लोड करने के बजाय स्ट्रीमिंग का उपयोग करें। AWS S3 ट्यूटोरियल में दिखाए गए स्ट्रीमिंग तकनीकों को आप अनुकूलित कर सकते हैं।
 
 ## सुरक्षित दस्तावेज़ साइनिंग के लिए सर्वोत्तम प्रथाएं
 
-1. **Never Hardcode Encryption Keys** – Load them from secure stores (Azure Key Vault, AWS Secrets Manager, env vars) and rotate regularly.  
-2. **Validate Before You Sign** – Verify file format, document integrity, and user permissions prior to applying signatures.  
-3. **Log Signature Operations** – Keep an audit trail of who signed what, when, and with which key. Include verification checks in your logs.  
-4. **Handle Format‑Specific Edge Cases** – Some formats (e.g., certain image types) may not support all signature features. Detect capabilities early and provide clear error messages.  
-5. **Test Verification Across Platforms** – Ensure signatures validate in Adobe Reader, mobile viewers, and other third‑party tools, not just within your own app.
+1. **कभी भी एन्क्रिप्शन कुंजियों को हार्डकोड न करें** – उन्हें सुरक्षित स्टोर्स (Azure Key Vault, AWS Secrets Manager, env vars) से लोड करें और नियमित रूप से रोटेट करें।  
+2. **साइन करने से पहले वैलिडेट करें** – फ़ाइल फ़ॉर्मैट, दस्तावेज़ इंटेग्रिटी, और उपयोगकर्ता अनुमतियों को सत्यापित करें, फिर ही हस्ताक्षर लागू करें।  
+3. **हस्ताक्षर ऑपरेशन्स को लॉग करें** – कौन क्या, कब, और किस कुंजी के साथ साइन किया, इसका ऑडिट ट्रेल रखें। अपने लॉग में वैरिफिकेशन चेक्स भी शामिल करें।  
+4. **फ़ॉर्मैट‑स्पेसिफिक एज केस को संभालें** – कुछ फ़ॉर्मैट (जैसे, कुछ इमेज टाइप) सभी सिग्नेचर फीचर्स को सपोर्ट नहीं कर सकते। क्षमताओं को जल्दी पहचानें और स्पष्ट एरर मैसेज प्रदान करें।  
+5. **प्लेटफ़ॉर्म्स में वैरिफिकेशन टेस्ट करें** – सुनिश्चित करें कि हस्ताक्षर Adobe Reader, मोबाइल व्यूअर्स, और अन्य थर्ड‑पार्टी टूल्स में वैध हों, न कि केवल आपके ऐप में।
 
-## उन्नत सिग्नेचर फीचर्स कब उपयोग करें
+## उन्नत हस्ताक्षर सुविधाओं का उपयोग कब करें
 
-| फ़ीचर | आदर्श उपयोग‑केस |
+| विशेषता | आदर्श उपयोग‑केस |
 |---------|----------------|
-| **Custom Encryption** | अविश्वसनीय वातावरण में साइन किए गए दस्तावेज़ संग्रहीत करना, PII या वित्तीय डेटा एम्बेड करना, सख्त अनुपालन मानकों को पूरा करना |
-| **QR Code Signatures** | मोबाइल‑पहला सत्यापन, ऑफ़लाइन प्रमाणीकरण, उच्च‑वॉल्यूम लॉजिस्टिक्स या सप्लाई‑चेन वर्कफ़्लो |
-| **Gradient Brush Visuals** | ग्राहक‑समक्ष एप्लिकेशन, ब्रांड‑संगत दस्तावेज़, मुद्रित अनुबंध जिनमें दृश्य स्टैंप की आवश्यकता होती है |
-| **AWS S3 Integration** | क्लाउड‑नेटिव पाइपलाइन, मल्टी‑रीजन एक्सेस, बड़े वॉल्यूम के लिए लागत‑प्रभावी स्टोरेज |
-| **File Format Flexibility** | ऐसे समाधान जो एक ही वर्कफ़्लो में PDFs, Word, Excel, इमेज आदि फ़ाइल फ़ॉर्मेट को संभालते हैं |
+| **कस्टम एन्क्रिप्शन** | अविश्वसनीय वातावरण में साइन किए गए दस्तावेज़ संग्रहीत करना, PII या वित्तीय डेटा एम्बेड करना, सख्त अनुपालन मानकों को पूरा करना |
+| **QR कोड हस्ताक्षर** | मोबाइल‑फ़र्स्ट सत्यापन, ऑफ़लाइन प्रमाणीकरण, उच्च‑वॉल्यूम लॉजिस्टिक्स या सप्लाई‑चेन वर्कफ़्लोज़ |
+| **ग्रेडिएंट ब्रश विज़ुअल्स** | कस्टमर‑फ़ेसिंग एप्लिकेशन, ब्रांड‑कंसिस्टेंट दस्तावेज़, प्रिंटेड कॉन्ट्रैक्ट्स जिनमें दृश्यात्मक स्टैम्प की आवश्यकता होती है |
+| **AWS S3 इंटीग्रेशन** | क्लाउड‑नेटिव पाइपलाइन्स, मल्टी‑रीजन एक्सेस, बड़े वॉल्यूम के लिए लागत‑प्रभावी स्टोरेज |
+| **फ़ाइल फ़ॉर्मैट लचीलापन** | ऐसे समाधान जो एक ही वर्कफ़्लो में PDFs, Word, Excel, इमेजेज़ और अन्य फ़ॉर्मैट्स को संभालने चाहिए |
 
 ## अतिरिक्त संसाधन
 
-- [GroupDocs.Signature for Java दस्तावेज़ीकरण](https://docs.groupdocs.com/signature/java/) - पूर्ण API संदर्भ और अवधारणात्मक गाइड  
-- [GroupDocs.Signature for Java API रेफ़रेंस](https://reference.groupdocs.com/signature/java/) - विस्तृत क्लास और मेथड दस्तावेज़ीकरण  
-- [GroupDocs.Signature for Java डाउनलोड करें](https://releases.groupdocs.com/signature/java/) - नवीनतम रिलीज़ और संस्करण इतिहास  
-- [GroupDocs.Signature फ़ोरम](https://forum.groupdocs.com/c/signature) - समुदाय समर्थन और चर्चा  
-- [नि:शुल्क समर्थन](https://forum.groupdocs.com/) - GroupDocs टीम से सीधे समर्थन  
-- [अस्थायी लाइसेंस](https://purchase.groupdocs.com/temporary-license/) - मूल्यांकन के लिए पूर्ण‑फ़ीचर ट्रायल  
+- [GroupDocs.Signature for Java दस्तावेज़ीकरण](https://docs.groupdocs.com/signature/java/) – पूर्ण API रेफ़रेंस और अवधारणात्मक गाइड  
+- [GroupDocs.Signature for Java API संदर्भ](https://reference.groupdocs.com/signature/java/) – विस्तृत क्लास और मेथड डॉक्यूमेंटेशन  
+- [GroupDocs.Signature for Java डाउनलोड करें](https://releases.groupdocs.com/signature/java/) – नवीनतम रिलीज़ और संस्करण इतिहास  
+- [GroupDocs.Signature फ़ोरम](https://forum.groupdocs.com/c/signature) – समुदाय समर्थन और चर्चा  
+- [नि:शुल्क समर्थन](https://forum.groupdocs.com/) – GroupDocs टीम से प्रत्यक्ष सहायता  
+- [अस्थायी लाइसेंस](https://purchase.groupdocs.com/temporary-license/) – मूल्यांकन के लिए फुल‑फ़ीचर ट्रायल  
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-**Q: क्या मैं कस्टम XOR एन्क्रिप्शन को PDF एन्क्रिप्शन के साथ एक साथ उपयोग कर सकता हूँ?**  
-A: हाँ। आप मेटाडेटा पर XOR लागू कर सकते हैं जबकि दस्तावेज़ बॉडी के लिए PDF की बिल्ट‑इन एन्क्रिप्शन का उपयोग कर सकते हैं। बस यह सुनिश्चित करें कि एन्क्रिप्शन क्रम आपके सुरक्षा नीति के अनुरूप हो।
+**प्रश्न: क्या मैं कस्टम XOR एन्क्रिप्शन को PDF एन्क्रिप्शन के साथ एक साथ उपयोग कर सकता हूँ?**  
+**उत्तर:** हाँ। आप मेटाडेटा पर XOR लागू कर सकते हैं जबकि दस्तावेज़ बॉडी के लिए PDF की बिल्ट‑इन एन्क्रिप्शन का उपयोग कर सकते हैं। बस यह सुनिश्चित करें कि एन्क्रिप्शन क्रम आपकी सुरक्षा नीति के अनुरूप हो।
 
-**Q: स्कैनिंग में अस्थिरता आने से पहले QR कोड पेलोड कितना बड़ा हो सकता है?**  
-A: आमतौर पर संपीड़न और एन्क्रिप्शन के बाद 1 KB तक। बड़े पेलोड को कहीं और (जैसे URL) संग्रहीत किया जाना चाहिए और QR कोड से संदर्भित किया जाना चाहिए।
+**प्रश्न: स्कैनिंग अस्थिर होने से पहले QR कोड पेलोड कितना बड़ा हो सकता है?**  
+**उत्तर:** आमतौर पर कंप्रेशन और एन्क्रिप्शन के बाद 1 KB तक। बड़े पेलोड को कहीं और (जैसे, URL) संग्रहीत करना चाहिए और QR कोड से उसका रेफ़रेंस देना चाहिए।
 
-**Q: क्या AWS S3 इंटीग्रेशन के लिए अलग लाइसेंस चाहिए?**  
-A: नहीं, अतिरिक्त GroupDocs लाइसेंस आवश्यक नहीं है; वही लाइसेंस सभी API फीचर्स को कवर करता है, जिसमें क्लाउड स्टोरेज हैंडलिंग भी शामिल है।
+**प्रश्न: क्या AWS S3 एकीकरण के लिए मुझे अलग लाइसेंस चाहिए?**  
+**उत्तर:** नहीं, अतिरिक्त GroupDocs लाइसेंस आवश्यक नहीं है; वही लाइसेंस सभी API फीचर्स को कवर करता है, जिसमें क्लाउड स्टोरेज हैंडलिंग भी शामिल है।
 
-**Q: मेटाडेटा एन्क्रिप्ट करने पर प्रदर्शन पर असर पड़ता है क्या?**  
-A: ओवरहेड न्यूनतम है (प्रति सिग्नेचर माइक्रोसेकंड)। वास्तविक प्रभाव फ़ाइल I/O से आता है; बड़े फ़ाइलों के लिए स्ट्रीमिंग उपयोग करें।
+**प्रश्न: मेटाडेटा एन्क्रिप्ट करने पर प्रदर्शन पर प्रभाव पड़ता है क्या?**  
+**उत्तर:** ओवरहेड न्यूनतम है (प्रति हस्ताक्षर माइक्रोसेकंड)। वास्तविक प्रभाव फ़ाइल I/O से आता है; बड़े फ़ाइलों के लिए स्ट्रीमिंग का उपयोग करें।
 
-**Q: कौन सा Java संस्करण आवश्यक है?**  
-A: Java 8 या उससे ऊपर समर्थित है। हम Java 11+ की सिफ़ारिश करते हैं ताकि बेहतर प्रदर्शन और सुरक्षा अपडेट मिल सकें।
+**प्रश्न: कौन सा Java संस्करण आवश्यक है?**  
+**उत्तर:** Java 8 या उससे ऊपर समर्थित है। हम Java 11+ की सिफ़ारिश करते हैं ताकि बेहतर प्रदर्शन और सुरक्षा अपडेट मिल सकें।
 
-**अंतिम अपडेट:** 2026-04-15  
-**परीक्षण किया गया:** GroupDocs.Signature for Java 23.10  
+---
+
+**अंतिम अपडेट:** 2026-08-09  
+**परीक्षित संस्करण:** GroupDocs.Signature for Java 23.10  
 **लेखक:** GroupDocs
+
+## संबंधित ट्यूटोरियल
+
+- [Java QR कोड सिग्नेचर लाइब्रेरी - पूर्ण GroupDocs ट्यूटोरियल](/signature/java/qr-code-signatures/)
+- [Java दस्तावेज़ QR कोड सत्यापन - एक व्यापक GroupDocs.Signature](/signature/java/search-verification/java-qr-code-signature-verification-groupdocs/)
+- [Java को एन्क्रिप्ट कैसे करें: GroupDocs के साथ कस्टम XOR एन्क्रिप्शन](/signature/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/)
