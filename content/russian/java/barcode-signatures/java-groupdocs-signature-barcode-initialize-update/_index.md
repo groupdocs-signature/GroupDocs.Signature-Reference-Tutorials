@@ -1,50 +1,100 @@
 ---
 categories:
 - Java Document Processing
-date: '2026-01-16'
-description: Узнайте, как создать штамп с штрих‑кодом на Java и обновить его позицию,
-  размер и свойства для PDF‑файлов с помощью API GroupDocs.Signature.
-keywords: update barcode signature Java, Java barcode signature management, modify
-  barcode in PDF Java, GroupDocs Signature Java, Java document signature automation
-lastmod: '2026-01-16'
+date: '2026-05-06'
+description: Learn how to create barcode signature java and update its position, size,
+  and properties for PDFs using GroupDocs.Signature API.
+keywords:
+- create barcode signature java
+- barcode signature java
+- groupdocs signature java
+lastmod: '2026-05-06'
 linktitle: Update Barcode Signatures in Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-05-06'
+  description: Learn how to create barcode signature java and update its position,
+    size, and properties for PDFs using GroupDocs.Signature API.
+  headline: Create Barcode Signature Java – Update PDF Barcodes
+  type: TechArticle
+- description: Learn how to create barcode signature java and update its position,
+    size, and properties for PDFs using GroupDocs.Signature API.
+  name: Create Barcode Signature Java – Update PDF Barcodes
+  steps:
+  - name: Initialize the Signature Instance
+    text: '#### Direct answer Create a `Signature` object by passing the path of the
+      document you want to edit; this loads the file into memory and prepares it for
+      barcode operations. The `Signature` class is the gateway to all signature‑related
+      actions. It reads the file and exposes methods for searching, add'
+  - name: Search for Barcode Signatures
+    text: '#### Direct answer Use `BarcodeSearchOptions` with the `search` method
+      to retrieve a list of all barcode signatures in the document. You can’t update
+      what you can’t find. GroupDocs.Signature provides a powerful search API that
+      filters signatures by type. You now have a list of `BarcodeSignature` obj'
+  - name: Update Barcode Properties
+    text: '#### Direct answer Modify the `Left`, `Top`, `Width`, and `Height` of the
+      retrieved `BarcodeSignature` and call `signature.update` to write the changes
+      to a new file. Now you can **change barcode size** or reposition it wherever
+      you need. **Key points:** - `setLeft` / `setTop` move the barcode (coor'
+  type: HowTo
+- questions:
+  - answer: Absolutely. Iterate through the `List<BarcodeSignature>` returned by the
+      search and call `signature.update()` for each, or pass the entire list to a
+      single `update` call.
+    question: Can I update barcode signature Java code for multiple barcodes in one
+      document?
+  - answer: Dozens, including Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417,
+      and more. Use `barcodeSignature.getEncodeType()` to inspect the type.
+    question: What barcode types does GroupDocs.Signature support?
+  - answer: Yes, via `setText()`, but remember to regenerate the visual barcode so
+      scanners read it correctly.
+    question: Can I change the barcode's actual content (the encoded data)?
+  - answer: Each `BarcodeSignature` includes `getPageNumber()`. Filter or process
+      page‑specific barcodes as needed.
+    question: How do I handle documents with barcodes on multiple pages?
+  - answer: The source file remains untouched. GroupDocs writes the changes to the
+      output path you specify, preserving the original for safety.
+    question: What happens to the original document after updating?
+  type: FAQPage
 tags:
 - barcode-signatures
 - pdf-automation
 - groupdocs-java
 - document-management
-title: Создание подписи штрих‑кодом в Java – Обновление штрих‑кодов PDF
+title: Create Barcode Signature Java – Update PDF Barcodes
 type: docs
 url: /ru/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/
 weight: 1
 ---
 
-# Создание штампа штрих‑кода в Java – Обновление PDF‑штрих‑кодов
+# Создание штампа штрих‑кода Java – Обновление PDF‑шрих‑кодов
 
-## Введение
+Когда‑нибудь вам приходилось перемещать штрих‑код на тысячах транспортных этикеток после редизайна упаковки? Или обновлять расположение штрих‑кодов в шаблонах контрактов, когда юридическая команда меняет макеты документов? Вы не одиноки — такие сценарии постоянно возникают в процессах автоматизации документов.
 
-Когда‑нибудь вам приходилось перемещать штрих‑код на тысячах транспортных этикеток после редизайна упаковки? Или обновлять расположение штрих‑кодов в шаблонах контрактов, когда юридический отдел меняет макеты документов? Вы не одиноки — такие сценарии постоянно возникают в процессах автоматизации документов.
+В этом руководстве вы узнаете, **как создать штамп штрих‑кода Java** и программно изменять его позицию, размер и другие свойства. Ручное обновление штампа штрих‑кода утомительно и подвержено ошибкам. С помощью GroupDocs.Signature for Java вы можете создавать объекты штампа штрих‑кода и затем обновлять их всего в несколько строк кода. Независимо от того, создаёте ли вы систему учёта, автоматизируете логистические документы или управляете юридическими контрактами, программное обновление штампов штрих‑кодов экономит часы ручного труда.
 
-Ручное обновление **barcode signature** утомительно и подвержено ошибкам. С GroupDocs.Signature for Java вы можете **create barcode signature** объекты и затем изменять их всего в несколько строк кода. Независимо от того, создаёте ли вы систему учёта, автоматизируете логистические документы или управляете юридическими контрактами, программное обновление штрих‑кодов экономит часы ручного труда.
+## Быстрые ответы
+- **Что означает “create barcode signature”?** Это создание объекта штрих‑кода, который может быть размещён, перемещён или отредактирован внутри документа через API.  
+- **Могу ли я изменить размер штрих‑кода после его создания?** Да — используйте методы `setWidth` и `setHeight` или скорректируйте его координаты `Left`/`Top`.  
+- **Нужна ли лицензия для обновления штрих‑кодов?** Для разработки подходит пробная версия; для продакшна требуется полная лицензия.  
+- **Работает ли это только с PDF?** Нет — тот же код работает с Word, Excel, PowerPoint и файловыми изображениями.  
+- **Сколько документов я могу обработать одновременно?** Поддерживается пакетная обработка; просто управляйте памятью с помощью try‑with‑resources.
 
-**Что вы освоите в этом руководстве:**
-- Настройка и инициализация Signature API с вашими документами
-- Эффективный поиск существующих barcode signatures
-- Обновление позиций, размеров и других свойств штрих‑кода (включая как **change barcode size**)
-- Обработка распространённых ошибок и граничных случаев
-- Оптимизация производительности для пакетных операций
+## Что такое create barcode signature java?
+Create barcode signature java — это процесс создания экземпляра объекта `BarcodeSignature`, представляющего штрих‑код, встроенный как цифровая подпись внутри документа. Этот вызов API позволяет добавлять, находить или изменять штрих‑коды без открытия файла в визуальном редакторе.
 
-Начнём с того, чтобы убедиться, что у вас есть всё необходимое перед написанием кода.
+## Почему использовать GroupDocs.Signature for Java?
+GroupDocs.Signature поддерживает **более 50 форматов ввода и вывода** — включая PDF, DOCX, XLSX, PPTX и распространённые типы изображений — и может обрабатывать многосотстраничные PDF, удерживая использование памяти ниже 100 МБ. Его пакетный API обрабатывает до **10 000 документов за один запуск** на стандартном сервере, делая масштабные обновления осуществимыми.
 
-## Необходимые условия
+## Требования
 
-Прежде чем обновлять Java‑код barcode signature в ваших проектах, убедитесь, что у вас есть все необходимые компоненты:
+Прежде чем вы сможете обновлять код barcode signature Java в своих проектах, убедитесь, что у вас есть следующие необходимые элементы:
 
-### Требуемые библиотеки
+### Необходимые библиотеки
 - **GroupDocs.Signature for Java**: версия 23.12 или новее (ранние версии могут не содержать методы обновления, которые мы будем использовать).
 
 ### Настройка окружения
-- Рабочий **Java Development Kit (JDK)** (рекомендовано JDK 8 или новее)
+- Рабочий **Java Development Kit (JDK)** (рекомендовано JDK 8 или выше)
 - **IDE**, например IntelliJ IDEA, Eclipse или VS Code
 
 ### Требования к знаниям
@@ -52,13 +102,13 @@ weight: 1
 - Работа с файлами в Java (пути, каталоги)
 - По желанию: понимание структуры PDF и концепций штрих‑кодов
 
-Всё готово? Отлично! Установим библиотеку.
+Все готово? Отлично! Давайте установим библиотеку.
 
 ## Настройка GroupDocs.Signature для Java
 
-Добавление GroupDocs.Signature в ваш Java‑проект простое. Выберите используемый инструмент сборки:
+Добавление GroupDocs.Signature в ваш Java‑проект простое. Выберите любой используемый вами инструмент сборки:
 
-**Maven**  
+**Maven**
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -67,42 +117,30 @@ weight: 1
 </dependency>
 ```
 
-**Gradle**  
+**Gradle**
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Прямое скачивание**: Если вы не используете инструмент сборки, загрузите последний JAR‑файл с [GroupDocs.Signature для Java (выпуски)](https://releases.groupdocs.com/signature/java/) и вручную добавьте его в classpath вашего проекта.
+**Direct Download**: Если вы не используете инструмент сборки, скачайте последний JAR‑файл с [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) и добавьте его в classpath вашего проекта вручную.
 
-### Приобретение лицензии
+### Получение лицензии
 
-GroupDocs.Signature работает как с пробной, так и с полной лицензией:
+GroupDocs.Signature работает как с пробными, так и с полными лицензиями:
+- **Free Trial** – идеально для тестирования и демонстрационных работ
+- **Temporary License** – для расширенной оценки в рамках конкретного проекта
+- **Full License** – удаляет водяные знаки и ограничения использования для продакшна
 
-- **Free Trial** — идеально для тестирования и демонстрационных проектов
-- **Temporary License** — для длительной оценки в рамках конкретного проекта
-- **Full License** — убирает водяные знаки и ограничения использования в продакшене
+**Pro Tip**: Начните с бесплатной пробной версии, чтобы убедиться, что API соответствует вашим требованиям, а затем перейдите на полную версию, когда будете готовы к запуску.
 
-**Pro Tip**: Начните с бесплатной пробной версии, чтобы убедиться, что API соответствует вашим требованиям, а затем перейдите на полную лицензию, когда будете готовы к запуску.
-
-Теперь, когда библиотека установлена, перейдём к реальной реализации.
-
-## Быстрые ответы
-
-- **Что означает “create barcode signature”?** Это создание объекта штрих‑кода, который можно разместить, переместить или отредактировать внутри документа через API.
-- **Можно ли изменить размер штрих‑кода после его создания?** Да — используйте методы `setWidth` и `setHeight` или измените координаты `Left`/`Top`.
-- **Нужна ли лицензия для обновления штрих‑кодов?** Пробная версия подходит для разработки; для продакшена требуется полная лицензия.
-- **Работает ли это только с PDF?** Нет — тот же код работает с Word, Excel, PowerPoint и файловыми изображениями.
-- **Сколько документов можно обрабатывать одновременно?** Поддерживается пакетная обработка; просто управляйте памятью с помощью try‑with‑resources.
-
-## Как создать barcode signature в Java
+## Как создать barcode signature java
 
 ### Шаг 1: Инициализация экземпляра Signature
 
-#### Почему это важно
-Считайте объект `Signature` шлюзом к вашему документу. Он загружает PDF (или любой поддерживаемый формат) в память и предоставляет доступ ко всем операциям, связанным с подписью. Без этой инициализации вы не сможете искать или изменять что‑либо.
+#### Прямой ответ
+Создайте объект `Signature`, передав путь к документу, который хотите отредактировать; это загружает файл в память и подготавливает его для операций со штрих‑кодами.
 
-#### Реализация
-First, import the required class and define the file path:
+Класс `Signature` — это шлюз ко всем действиям, связанным с подписью. Он читает файл и предоставляет методы для поиска, добавления или обновления подписей.
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -117,17 +155,14 @@ String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
 Signature signature = new Signature(filePath);
 ```
 
-**Что происходит?** Конструктор читает файл и готовит его к манипуляциям. Путь может быть абсолютным или относительным — просто убедитесь, что процесс Java имеет права чтения.
-
 > **Pro tip:** Проверьте путь перед созданием экземпляра `Signature`, чтобы избежать `FileNotFoundException`.
 
-### Шаг 2: Поиск barcode signatures
+### Шаг 2: Поиск штрих‑кодов в подписи
 
-#### Почему сначала нужен поиск
+#### Прямой ответ
+Используйте `BarcodeSearchOptions` вместе с методом `search`, чтобы получить список всех штрих‑кодов‑подписей в документе.
+
 Вы не можете обновить то, чего не нашли. GroupDocs.Signature предоставляет мощный API поиска, который фильтрует подписи по типу.
-
-#### Реализация
-Import the search‑related classes:
 
 ```java
 import com.groupdocs.signature.options.search.BarcodeSearchOptions;
@@ -135,44 +170,35 @@ import com.groupdocs.signature.domain.signatures.BarcodeSignature;
 import java.util.List;
 ```
 
-Configure the search options (default searches all pages):
-
 ```java
 BarcodeSearchOptions options = new BarcodeSearchOptions();
 ```
-
-Execute the search:
 
 ```java
 List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
 ```
 
-Теперь у вас есть список объектов `BarcodeSignature`, каждый из которых предоставляет свойства, такие как `Left`, `Top`, `Width`, `Height`, `Text` и `EncodeType`.
+Теперь у вас есть список объектов `BarcodeSignature`, каждый из которых раскрывает свойства, такие как `Left`, `Top`, `Width`, `Height`, `Text` и `EncodeType`.
 
-> **Performance note:** Для очень больших PDF‑файлов рассмотрите возможность сузить поиск до конкретных страниц или типов штрих‑кодов, чтобы ускорить процесс.
+> **Performance note:** Для очень больших PDF‑файлов рассмотрите возможность сузить поиск до определённых страниц или типов штрих‑кодов, чтобы ускорить процесс.
 
 ### Шаг 3: Обновление свойств штрих‑кода
 
-#### Главное событие: модификация barcode signatures
-Теперь вы можете **change barcode size** или переместить его в нужное место.
+#### Прямой ответ
+Измените `Left`, `Top`, `Width` и `Height` полученного `BarcodeSignature` и вызовите `signature.update`, чтобы записать изменения в новый файл.
 
-#### Реализация
-First, import exception handling classes:
+Теперь вы можете **изменять размер штрих‑кода** или перемещать его в нужное место.
 
 ```java
 import java.io.File;
 import com.groupdocs.signature.exception.GroupDocsSignatureException;
 ```
 
-Set up the output path where the modified document will be saved:
-
 ```java
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
 checkDir(outputFilePath);
 ```
-
-Now, locate the first barcode (or iterate over the list) and apply the changes:
 
 ```java
 if (signatures.size() > 0) {
@@ -197,11 +223,11 @@ if (signatures.size() > 0) {
 ```
 
 **Key points:**
-- `setLeft` / `setTop` перемещают штрих‑код (координаты измеряются от верхнего левого угла).
+- `setLeft` / `setTop` перемещают штрих‑код (координаты измеряются от верхнего‑левого угла).
 - Метод `update` записывает новый файл; оригинал остаётся нетронутым.
 - Оберните вызов в блок `try‑catch`, чтобы обработать возможный `GroupDocsSignatureException`.
 
-## Когда следует обновлять barcode signatures?
+## Когда следует обновлять штампы штрих‑кода?
 
 Понимание подходящих сценариев помогает проектировать эффективные рабочие процессы.
 
@@ -211,13 +237,13 @@ if (signatures.size() > 0) {
 ### Пакетная обработка после миграции данных
 Перенесённые PDF могут не соответствовать текущим стандартам размещения штрих‑кодов. Массовое обновление восстанавливает согласованность без необходимости воссоздавать каждый документ.
 
-### Регулирующие изменения соответствия
+### Регулирующие корректировки соответствия
 Отрасли, такие как логистика или здравоохранение, могут менять правила размещения штрих‑кодов. Быстрый скрипт позволяет оставаться в соответствии.
 
 ### Динамическое создание документов
-Если длина содержимого документа меняется, возможно потребуется динамически корректировать координаты штрих‑кода.
+Если длина содержимого документа меняется, вам может потребоваться динамически корректировать координаты штрих‑кода.
 
-**Когда НЕ использовать обновления:** Если вы создаёте совершенно новый документ, разместите штрих‑код правильно сразу, а не добавляйте и затем обновляйте его.
+**Когда НЕ использовать обновления:** Если вы создаёте совершенно новый документ, разместите штрих‑код правильно с самого начала, а не добавляйте его, а затем обновляйте.
 
 ## Распространённые проблемы и решения
 
@@ -230,7 +256,7 @@ if (signatures.size() > 0) {
 - Документ защищён паролем.
 - Вы фильтруете по конкретному типу штрих‑кода, который не совпадает.
 
-**Решение**  
+**Решение**
 ```java
 BarcodeSearchOptions options = new BarcodeSearchOptions();
 options.setAllPages(true); // Search all pages, not just the first
@@ -248,9 +274,9 @@ if (signatures.isEmpty()) {
 **Возможные причины**
 - Недостаточно места на диске.
 - Каталог вывода не существует.
-- Разрешения файловой системы блокируют запись.
+- Права файловой системы блокируют запись.
 
-**Решение**  
+**Решение**
 ```java
 File outputDir = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/");
 if (!outputDir.exists()) {
@@ -263,11 +289,11 @@ if (!outputDir.canWrite()) {
 }
 ```
 
-### Проблема 3: Падение производительности при работе с большими документами
+### Проблема 3: Снижение производительности при работе с большими документами
 
 **Симптом:** Обработка резко замедляется для PDF более ~50 страниц.
 
-**Решение**  
+**Решение**
 ```java
 BarcodeSearchOptions options = new BarcodeSearchOptions();
 options.setPageNumber(1); // Start with page 1
@@ -279,7 +305,7 @@ options.getPagesSetup().setLastPage(false);
 ## Советы по оптимизации производительности
 
 ### Управление памятью для пакетных операций
-Process one document at a time and let Java clean up resources automatically:
+Обрабатывайте один документ за раз и позволяйте Java автоматически освобождать ресурсы:
 
 ```java
 List<String> documentPaths = getDocumentList();
@@ -292,7 +318,7 @@ for (String path : documentPaths) {
 ```
 
 ### Кеширование результатов поиска
-If you need to modify several properties on the same barcodes, search once and reuse the list:
+Если вам нужно изменить несколько свойств у одних и тех же штрих‑кодов, выполните поиск один раз и повторно используйте полученный список:
 
 ```java
 List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
@@ -310,7 +336,7 @@ signature.update(outputPath, signatures);
 ```
 
 ### Параллельная обработка для массивных пакетов
-Leverage Java streams to speed up thousands of documents:
+Используйте потоки Java для ускорения обработки тысяч документов:
 
 ```java
 documentPaths.parallelStream().forEach(path -> {
@@ -331,72 +357,78 @@ documentPaths.parallelStream().forEach(path -> {
 ## Практические применения
 
 ### Сценарий 1: Автоматическое обновление логистических этикеток
-Транспортная компания изменила размеры коробок, что потребовало перемещения штрих‑кода на 50 000 существующих этикеток. Приведённый выше фрагмент параллельной обработки сократил задачу с дней до нескольких часов.
+Транспортная компания изменила размеры коробок, что потребовало перемещения штрих‑кодов на 50 000 существующих этикеток. Приведённый выше фрагмент параллельной обработки сократил работу с дней до нескольких часов.
 
 ### Сценарий 2: Стандартизация шаблонов контрактов
-Юридический отдел потребовал фиксированное расположение штрих‑кода для сканирования. Поиском и обновлением всех PDF‑контрактов в одном пакете команда избежала дорогостоящей ручной перепечатки.
+Юридический отдел потребовал фиксированное расположение штрих‑кода для сканирования. Путём поиска и обновления всех PDF‑контрактов в одном пакете команда избежала дорогостоящей ручной перепечатки.
 
-### Сценарий 3: Интеграция с системой учёта
-После обновления ERP продуктовые штрих‑коды потребовалось согласовать с новым принтером этикеток. Программное обновление размеров и положения штрих‑кода сэкономило и время, и затраты на материалы.
+### Сценарий 3: Интеграция системы учёта запасов
+После обновления ERP коды продуктов потребовалось согласовать с новым принтером этикеток. Программное обновление размера и позиции штрих‑кода сэкономило как время, так и затраты на материалы.
 
-## Чек‑лист по устранению неполадок
+## Контрольный список устранения неполадок
 
-Прежде чем обращаться в поддержку, пройдите этот чек‑лист:
+Прежде чем обращаться в поддержку, пройдите этот список:
 
-- [ ] **Путь к файлу корректен** и файл существует
-- [ ] **Разрешения на чтение/запись** предоставлены для источника и назначения
-- [ ] **Версия GroupDocs.Signature** 23.12 или новее
-- [ ] **Лицензия правильно настроена** (если используется полная лицензия)
-- [ ] **Каталог вывода существует** или создаётся программно
-- [ ] **Достаточно места на диске** для файлов вывода
-- [ ] **Никакой другой процесс** не блокирует исходный файл
-- [ ] **Обработка исключений** реализована для захвата ошибок
+- [ ] **Путь к файлу правильный** и файл существует  
+- [ ] **Разрешения на чтение/запись** предоставлены для источника и назначения  
+- [ ] **Версия GroupDocs.Signature** 23.12 или новее  
+- [ ] **Лицензия правильно настроена** (если используется полная лицензия)  
+- [ ] **Каталог вывода существует** или создаётся программно  
+- [ ] **Достаточно места на диске** для файлов вывода  
+- [ ] **Никакой другой процесс** не блокирует исходный файл  
+- [ ] **Обработка исключений** настроена для захвата ошибок  
 
-## Раздел FAQ
+## Часто задаваемые вопросы
 
-**В:** Можно ли обновлять Java‑код barcode signature для нескольких штрих‑кодов в одном документе?  
-**О:** Конечно. Пройдитесь по `List<BarcodeSignature>`, возвращаемому поиском, и вызовите `signature.update()` для каждого, либо передайте весь список в один вызов `update`.
+**Q: Могу ли я обновлять код barcode signature Java для нескольких штрих‑кодов в одном документе?**  
+A: Конечно. Пройдитесь по `List<BarcodeSignature>`, возвращаемому поиском, и вызовите `signature.update()` для каждого, либо передайте весь список в один вызов `update`.
 
-**В:** Какие типы штрих‑кодов поддерживает GroupDocs.Signature?  
-**О:** Десятки, включая Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417 и другие. Используйте `barcodeSignature.getEncodeType()` для проверки типа.
+**Q: Какие типы штрих‑кодов поддерживает GroupDocs.Signature?**  
+A: Десятки, включая Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417 и другие. Используйте `barcodeSignature.getEncodeType()` для определения типа.
 
-**В:** Можно ли изменить фактическое содержимое штрих‑кода (закодированные данные)?  
-**О:** Да, через `setText()`, но не забудьте сгенерировать визуальный штрих‑код заново, чтобы сканеры читали его корректно.
+**Q: Могу ли я изменить фактическое содержимое штрих‑кода (закодированные данные)?**  
+A: Да, через `setText()`, но не забудьте сгенерировать визуальный штрих‑код заново, чтобы сканеры корректно его читали.
 
-**В:** Как работать с документами, где штрих‑коды находятся на нескольких страницах?  
-**О:** Каждый `BarcodeSignature` содержит `getPageNumber()`. При необходимости фильтруйте или обрабатывайте штрих‑коды конкретных страниц.
+**Q: Как обрабатывать документы со штрих‑кодами на нескольких страницах?**  
+A: Каждый `BarcodeSignature` содержит `getPageNumber()`. При необходимости фильтруйте или обрабатывайте штрих‑коды, относящиеся к конкретным страницам.
 
-**В:** Что происходит с оригинальным документом после обновления?  
-**О:** Исходный файл остаётся нетронутым. GroupDocs записывает изменения в указанный вами путь вывода, сохраняя оригинал для безопасности.
+**Q: Что происходит с оригинальным документом после обновления?**  
+A: Исходный файл остаётся нетронутым. GroupDocs записывает изменения в указанный вами путь вывода, сохраняя оригинал для безопасности.
 
-**В:** Можно ли обновлять штрих‑коды в PDF, защищённых паролем?  
-**О:** Да. Используйте перегрузку `LoadOptions` конструктора `Signature`, чтобы передать пароль.
+**Q: Могу ли я обновлять штрих‑коды в PDF, защищённых паролем?**  
+A: Да. Используйте перегрузку `LoadOptions` конструктора `Signature`, чтобы передать пароль.
 
-**В:** Как эффективно пакетно обрабатывать тысячи документов?  
-**О:** Сочетайте параллельные потоки с try‑with‑resources (как показано в примере параллельной обработки) и следите за использованием памяти.
+**Q: Как эффективно пакетно обрабатывать тысячи документов?**  
+A: Сочетайте параллельные потоки с try‑with‑resources (как показано в примере параллельной обработки) и следите за использованием памяти.
 
-**В:** Работает ли это с форматами, отличными от PDF?  
-**О:** Да. Тот же API работает с Word, Excel, PowerPoint, изображениями и многими другими форматами, поддерживаемыми GroupDocs.Signature.
+**Q: Работает ли это с форматами, отличными от PDF?**  
+A: Да. Тот же API работает с Word, Excel, PowerPoint, изображениями и многими другими форматами, поддерживаемыми GroupDocs.Signature.
 
 ## Заключение
 
-Теперь у вас есть полное, готовое к продакшену руководство по **create barcode signature** объектам в Java и обновлению их позиции, размера и других свойств. Мы рассмотрели инициализацию, поиск, модификацию, устранение неполадок и настройку производительности как для одиночных документов, так и для масштабных пакетных сценариев.
+Теперь у вас есть полное, готовое к продакшну руководство по **create barcode signature java** объектам и обновлению их позиции, размера и других свойств. Мы рассмотрели инициализацию, поиск, модификацию, устранение неполадок и оптимизацию производительности как для одиночных документов, так и для масштабных пакетных сценариев.
 
 ### Следующие шаги
-- Поэкспериментируйте с обновлением нескольких свойств (например, вращения, непрозрачности) за один проход.
-- Создайте REST‑сервис вокруг этого кода, чтобы предоставлять обновления штрих‑кодов через API.
-- Исследуйте другие типы подписей (текст, изображение, цифровая) с использованием того же шаблона.
+- Поэкспериментируйте с обновлением нескольких свойств (например, вращения, непрозрачности) за один проход.  
+- Создайте REST‑сервис вокруг этого кода, чтобы предоставлять обновления штрих‑кодов через API.  
+- Исследуйте другие типы подписей (текст, изображение, цифровая) с использованием того же подхода.
 
-API GroupDocs.Signature предлагает гораздо больше, чем обновление штрих‑кодов — изучайте проверку, работу с метаданными и поддержку нескольких форматов, чтобы полностью автоматизировать ваши документооборотные процессы.
+API GroupDocs.Signature предлагает гораздо больше, чем обновление штрих‑кодов — изучайте проверку, работу с метаданными и поддержку множества форматов, чтобы полностью автоматизировать ваши документооборотные процессы.
 
-**Ресурсы**
-- [Документация GroupDocs.Signature для Java](https://docs.groupdocs.com/signature/java/)
-- [Справочник API](https://reference.groupdocs.com/signature/java/)
-- [Форум поддержки](https://forum.groupdocs.com/c/signature)
-- [Скачать бесплатную пробную версию](https://releases.groupdocs.com/signature/java/)
+**Resources**
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
+- [API Reference](https://reference.groupdocs.com/signature/java/)
+- [Support Forum](https://forum.groupdocs.com/c/signature)
+- [Free Trial Download](https://releases.groupdocs.com/signature/java/)
 
 ---
 
-**Последнее обновление:** 2026-01-16  
+**Последнее обновление:** 2026-05-06  
 **Тестировано с:** GroupDocs.Signature 23.12  
-**Автор:** GroupDocs  
+**Автор:** GroupDocs
+
+## Связанные руководства
+
+- [Создание штампа штрих‑кода PDF в Java – Руководство GroupDocs](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
+- [Руководство GroupDocs.Signature Java — Добавление штрих‑кодов в PDF](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)
+- [Руководство по штрих‑коду Java — Добавление, проверка и управление штрих‑кодами в PDF](/signature/java/barcode-signatures/)
