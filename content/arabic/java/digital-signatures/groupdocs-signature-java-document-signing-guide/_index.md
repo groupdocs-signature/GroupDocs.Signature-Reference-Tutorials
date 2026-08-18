@@ -571,11 +571,6 @@ Files.copy(tempLocal, networkPath, StandardCopyOption.REPLACE_EXISTING);
 **تم الاختبار مع:** GroupDocs.Signature 23.12 (Java)  
 **المؤلف:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## الدروس ذات الصلة
 
 - [إضافة بيانات وصفية إلى PDF باستخدام Java - دليل كامل لتوقيع GroupDocs](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

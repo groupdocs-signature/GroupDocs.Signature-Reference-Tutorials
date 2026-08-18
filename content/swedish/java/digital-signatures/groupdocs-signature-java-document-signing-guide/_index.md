@@ -572,11 +572,6 @@ A: På modern hårdvara (4‑kärnig CPU, SSD) kan du förvänta 50‑100 små d
 **Testat med:** GroupDocs.Signature 23.12 (Java)  
 **Författare:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## Relaterade handledningar
 
 - [Add Metadata to PDF with Java - Complete GroupDocs Signature Tutorial](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

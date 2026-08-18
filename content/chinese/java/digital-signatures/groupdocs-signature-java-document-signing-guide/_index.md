@@ -570,11 +570,6 @@ A: 在现代硬件（4 核 CPU、SSD）上，预计每秒处理 50‑100 份小�
 **测试环境：** GroupDocs.Signature 23.12 (Java)  
 **作者：** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## 相关教程
 
 - [Add Metadata to PDF with Java - Complete GroupDocs Signature Tutorial](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

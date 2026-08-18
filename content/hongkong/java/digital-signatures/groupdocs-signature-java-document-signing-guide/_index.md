@@ -545,11 +545,6 @@ A：在現代硬體（4 核心 CPU、SSD）上，預期每秒可處理 50‑100 
 **測試版本：** GroupDocs.Signature 23.12 (Java)  
 **作者：** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## 相關教學
 
 - [使用 Java 為 PDF 添加元資料 - 完整 GroupDocs 簽章教學](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

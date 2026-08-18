@@ -572,11 +572,6 @@ R : Sur du matériel moderne (CPU 4‑cœurs, SSD), attendez 50‑100 petits d
 **Testé avec :** GroupDocs.Signature 23.12 (Java)  
 **Auteur :** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## Tutoriels associés
 
 - [Ajouter des métadonnées à un PDF avec Java - Tutoriel complet GroupDocs Signature](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

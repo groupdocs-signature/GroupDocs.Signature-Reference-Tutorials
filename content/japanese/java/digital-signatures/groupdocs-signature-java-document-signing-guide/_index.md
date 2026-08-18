@@ -545,11 +545,6 @@ A: 最新ハードウェア（4 コア CPU、SSD）では、5 MB 未満の小�
 **テスト環境:** GroupDocs.Signature 23.12 (Java)  
 **作者:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## 関連チュートリアル
 
 - [Java で PDF にメタデータを追加 - 完全な GroupDocs Signature チュートリアル](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

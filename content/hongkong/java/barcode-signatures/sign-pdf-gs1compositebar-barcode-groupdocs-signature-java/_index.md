@@ -549,11 +549,6 @@ A: 先將檔案下載至暫存本機路徑，套用簽章後再上傳回雲端�
 **測試環境：** GroupDocs.Signature 23.10 for Java  
 **作者：** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY" + "/sample.pdf";
 String fileName = new java.io.File(filePath).getName();

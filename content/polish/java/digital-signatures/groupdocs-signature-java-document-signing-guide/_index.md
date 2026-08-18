@@ -549,11 +549,6 @@ A: Na nowoczesnym sprzęcie (czterordzeniowy CPU, SSD) oczekuj 50‑100 małych 
 **Testowano z:** GroupDocs.Signature 23.12 (Java)  
 **Autor:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## Powiązane samouczki
 
 - [Dodaj metadane do PDF w Javie – Kompletny samouczek GroupDocs Signature](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

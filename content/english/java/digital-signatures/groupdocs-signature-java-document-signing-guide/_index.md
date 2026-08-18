@@ -563,11 +563,6 @@ A: On modern hardware (4‑core CPU, SSD), expect 50‑100 small documents per s
 **Tested With:** GroupDocs.Signature 23.12 (Java)  
 **Author:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## Related Tutorials
 
 - [Add Metadata to PDF with Java - Complete GroupDocs Signature Tutorial](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

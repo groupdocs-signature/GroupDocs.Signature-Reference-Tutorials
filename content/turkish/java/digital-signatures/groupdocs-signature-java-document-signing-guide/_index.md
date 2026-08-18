@@ -535,11 +535,6 @@ C: Modern donanımda (4‑core CPU, SSD) saniyede 50‑100 küçük belge (<5 
 **Test Edilen:** GroupDocs.Signature 23.12 (Java)  
 **Yazar:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## İlgili Eğitimler
 
 - [Java ile PDF'ye Meta Veri Ekleme - Tam GroupDocs Signature Eğitimi](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

@@ -453,11 +453,6 @@ Vous disposez maintenant d’une approche complète, prête pour la production, 
 **Tested With:** GroupDocs.Signature 23.12 for Java  
 **Author:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Tutoriels associés
 
 - [Signature numérique en Java - Guide complet du chargement de certificat et de la signature de documents](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)

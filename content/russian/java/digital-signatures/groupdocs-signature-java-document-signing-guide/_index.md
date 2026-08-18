@@ -572,11 +572,6 @@ A: На современном оборудовании (4‑ядерный CPU,
 **Тестировано с:** GroupDocs.Signature 23.12 (Java)  
 **Автор:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## Связанные руководства
 
 - [Add Metadata to PDF with Java - Complete GroupDocs Signature Tutorial](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

@@ -552,11 +552,6 @@ A: Σε σύγχρονο υλικό (4‑core CPU, SSD), περιμένετε 50
 **Δοκιμάστηκε Με:** GroupDocs.Signature 23.12 (Java)  
 **Συγγραφέας:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## Σχετικές Εκπαιδεύσεις
 
 - [Προσθήκη Μεταδεδομένων σε PDF με Java - Πλήρης Οδηγός GroupDocs Signature](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

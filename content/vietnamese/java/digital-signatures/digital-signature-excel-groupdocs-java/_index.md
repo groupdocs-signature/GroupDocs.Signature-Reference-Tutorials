@@ -454,11 +454,6 @@ Bạn đã có một quy trình hoàn chỉnh, sẵn sàng sản xuất để **
 **Kiểm tra với:** GroupDocs.Signature 23.12 cho Java  
 **Tác giả:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Hướng dẫn liên quan
 
 - [Digital Signature in Java - Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)

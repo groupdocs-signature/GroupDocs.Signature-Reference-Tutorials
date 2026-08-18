@@ -539,11 +539,6 @@ Jste připraveni odstranit úzká místa ručního podepisování? Začněte dne
 **Testováno s:** GroupDocs.Signature 23.12 (Java)  
 **Autor:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## Související tutoriály
 
 - [Přidání metadat do PDF pomocí Javy – Kompletní tutoriál GroupDocs Signature](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

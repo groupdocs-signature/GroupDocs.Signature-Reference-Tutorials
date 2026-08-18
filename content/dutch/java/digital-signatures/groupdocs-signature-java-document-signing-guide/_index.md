@@ -572,11 +572,6 @@ A: Op moderne hardware (4‑core CPU, SSD) kunt u 50‑100 kleine documenten per
 **Getest met:** GroupDocs.Signature 23.12 (Java)  
 **Auteur:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## Gerelateerde tutorials
 
 - [Metadata toevoegen aan PDF met Java - Complete GroupDocs Signature tutorial](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

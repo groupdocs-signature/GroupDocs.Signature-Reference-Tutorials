@@ -571,11 +571,6 @@ A: บนฮาร์ดแวร์สมัยใหม่ (CPU 4‑คอร�
 **ทดสอบกับ:** GroupDocs.Signature 23.12 (Java)  
 **ผู้เขียน:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## บทเรียนที่เกี่ยวข้อง
 
 - [Add Metadata to PDF with Java - Complete GroupDocs Signature Tutorial](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

@@ -572,11 +572,6 @@ A: Auf moderner Hardware (4‑Kern‑CPU, SSD) erwarten Sie 50‑100 kleine Doku
 **Getestet mit:** GroupDocs.Signature 23.12 (Java)  
 **Autor:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## Verwandte Tutorials
 
 - [Add Metadata to PDF with Java - Complete GroupDocs Signature Tutorial](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

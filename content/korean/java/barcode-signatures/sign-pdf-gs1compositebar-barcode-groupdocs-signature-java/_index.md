@@ -573,11 +573,6 @@ A: 파일을 임시 로컬 경로에 다운로드하고 서명을 적용한 뒤,
 **테스트 환경:** GroupDocs.Signature 23.10 for Java  
 **작성자:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY" + "/sample.pdf";
 String fileName = new java.io.File(filePath).getName();

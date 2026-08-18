@@ -572,11 +572,6 @@ J: Pada hardware modern (CPU 4‑core, SSD), harapkan 50‑100 dokumen kecil per
 **Diuji Dengan:** GroupDocs.Signature 23.12 (Java)  
 **Penulis:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## Tutorial Terkait
 
 - [Add Metadata to PDF with Java - Complete GroupDocs Signature Tutorial](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

@@ -571,11 +571,6 @@ A: On modern hardware (4‑core CPU, SSD), expect 50‑100 small documents per s
 **Tesztelve:** GroupDocs.Signature 23.12 (Java)  
 **Szerző:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## Kapcsolódó oktatóanyagok
 
 - [Metaadatok hozzáadása PDF-hez Java-val – Teljes GroupDocs Signature oktatóanyag](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

@@ -571,11 +571,6 @@ Bạn đã sẵn sàng loại bỏ các nút thắt ký thủ công? Hãy bắt 
 **Kiểm thử với:** GroupDocs.Signature 23.12 (Java)  
 **Tác giả:** GroupDocs  
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
 ## Các hướng dẫn liên quan
 
 - [Add Metadata to PDF with Java - Complete GroupDocs Signature Tutorial](/signature/java/metadata-signatures/groupdocs-signature-java-add-metadata-to-pdfs/)

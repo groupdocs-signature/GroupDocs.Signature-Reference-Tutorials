@@ -454,11 +454,6 @@ Ahora tienes un enfoque completo y listo para producción para **add digital sig
 **Probado con:** GroupDocs.Signature 23.12 for Java  
 **Autor:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Tutoriales relacionados
 
 - [Firma digital en Java - Guía completa de carga de certificados y firma de documentos](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
