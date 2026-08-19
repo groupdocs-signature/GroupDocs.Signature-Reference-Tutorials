@@ -1,22 +1,30 @@
 ---
 categories:
 - Java Document Processing
-date: '2026-05-11'
-description: '...'
+date: '2026-08-19'
+description: Tutoriál Java check file extension, který ukazuje, jak detekovat formát
+  souboru java, ověřit typ souboru java a zkontrolovat obsah souboru pomocí GroupDocs.Signature.
+  Obsahuje code snippets, troubleshooting tips a best practices.
 keywords:
-- check file extension java
-- validate document type java
-- java upload file validation
-- how to detect file format java
-lastmod: '2025-01-02'
-linktitle: '...'
+- java check file extension
+- detect file format java
+- java verify file content
+- how to validate file type java
+- java file format validation
+lastmod: '2026-08-19'
+linktitle: Průvodce detekcí formátu souboru Java
+og_description: Tutoriál Java check file extension ukazuje, jak detekovat formát souboru
+  java, ověřit typ souboru java a zkontrolovat obsah souboru s GroupDocs.Signature.
+  Naučte se best practices a získejte ready-to-use code.
+og_image_alt: Guide to detecting and validating file formats in Java using GroupDocs.Signature
+og_title: Java kontrola přípony souboru – detekce a ověření typů dokumentů
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-11'
+  dateModified: '2026-08-19'
   description: Learn how to check file extension java and validate document formats
     using GroupDocs.Signature. Complete guide with code examples, troubleshooting
     tips, and best practices for document type checking.
-  headline: Java File Format Detection - Validate and Check Document Types
+  headline: Java file format detection – validate and check document types
   type: TechArticle
 - questions:
   - answer: Change the `<version>` tag in your `pom.xml` to the desired version, then
@@ -48,44 +56,48 @@ tags:
 - java-libraries
 - document-management
 - format-detection
-title: '...'
+- java check file extension
+title: Java kontrola přípony souboru – detekce a ověření typů dokumentů
 type: docs
 url: /cs/java/advanced-options/groupdocs-signature-java-file-format-support/
 weight: 1
 ---
 
-# kontrola přípony souboru java – Detekce formátu souboru Java: Ověření a kontrola typů dokumentů
+# java kontrola přípony souboru – detekce a ověření typů dokumentů
 
-Jedním z nejčastějších úkolů je **kontrola přípony souboru java** před zpracováním dokumentu.  
+Jedním z nejčastějších úkolů je **java check file extension** před zpracováním dokumentu.  
 
-Už jste někdy nahráli soubor a aplikace spadla, protože nebyl ve očekávaném formátu? Nejste v tom sami. Detekce a validace formátů souborů v Javě je klíčová pro tvorbu robustních aplikací pro zpracování dokumentů – ale je složitější než pouhá kontrola přípony (která může být snadno podvržena nebo nesprávná).
+Už jste někdy nahráli soubor, jen aby se vaše aplikace zhroutila, protože nebyl ve očekávaném formátu? Nejste v tom sami. Detekce a ověřování formátů souborů v Javě je zásadní pro tvorbu robustních aplikací pro zpracování dokumentů—ale je obtížnější než kontrola přípon souborů (které lze snadno podvrhnout nebo jsou nesprávné).
 
-V tomto průvodci se naučíte spolehlivě detekovat formáty souborů v Javě pomocí GroupDocs.Signature, výkonné knihovny, která jde dál než jednoduchá kontrola přípony. Ať už budujete systém pro správu dokumentů, validujete nahrávání uživateli, nebo integrujete s cloudovými úložišti, objevíte praktické techniky, jak s různorodými typy dokumentů pracovat sebejistě.
+V tomto průvodci se naučíte, jak spolehlivě detekovat formáty souborů v Javě pomocí GroupDocs.Signature, výkonné knihovny, která jde dál než jednoduchá kontrola přípon. Ať už budujete systém pro správu dokumentů, ověřujete nahrávání uživateli, nebo integrujete s cloudovými úložišti, objevíte praktické techniky pro sebejisté zpracování různých typů dokumentů.
 
 **Co se naučíte:**
 - Jak programově získat podporované formáty souborů v Javě
 - Kdy použít detekci založenou na knihovně versus vestavěné přístupy Javy
-- Běžné úskalí při validaci typů souborů (a jak se jim vyhnout)
+- Běžné úskalí při ověřování typů souborů (a jak se jim vyhnout)
 - Reálné scénáře integrace a tipy na optimalizaci výkonu
 - Strategie řešení problémů s detekcí formátů
 
-Na konci budete mít funkční implementaci, kterou můžete okamžitě vložit do svých Java aplikací. Začněme tím, že se ujistíme, že máte vše potřebné.
+Na konci budete mít funkční implementaci, kterou můžete okamžitě vložit do svých Java aplikací. Pojďme začít tím, že se ujistíme, že máte vše potřebné.
 
 ## Rychlé odpovědi
-- **Jaký je nejrychlejší způsob, jak zkontrolovat příponu souboru java?** Použijte `Signature.getSupportedFileTypes()` k získání úplného seznamu a porovnejte příponu souboru s tímto seznamem.
+- **Jaký je nejrychlejší způsob, jak java check file extension?** Použijte `Signature.getSupportedFileTypes()` k získání úplného seznamu a porovnejte příponu souboru s tímto seznamem.
 - **Potřebuji licenci k použití GroupDocs.Signature?** Bezplatná zkušební verze funguje pro vývoj; trvalá licence odstraňuje všechna omezení hodnocení.
-- **Mohu validovat nahrané soubory, aniž bych načetl celý soubor?** Ano – GroupDocs.Signature kontroluje hlavičku souboru, což je mnohem levnější než načítání celého dokumentu.
+- **Mohu ověřovat nahrané soubory bez načtení celého souboru?** Ano — GroupDocs.Signature kontroluje hlavičku souboru, což je mnohem levnější než načítání celého dokumentu.
 - **Kolik formátů GroupDocs.Signature podporuje?** Více než 50 vstupních a výstupních formátů, včetně PDF, DOCX, XLSX, PPTX, JPG, PNG a mnoha dalších.
-- **Je nutné kešovat seznam formátů?** Kešování eliminuje opakované náklady na reflexi a zvyšuje propustnost pro služby s vysokým objemem.
+- **Je nutné kešovat seznam formátů?** Kešování eliminuje opakované reflexní zatížení a zvyšuje propustnost pro služby s vysokým objemem.
+
+## Co je java check file extension?
+`java check file extension` označuje proces potvrzení skutečného typu souboru kontrolou jeho hlavičky a metadat místo spoléhaní se pouze na příponu názvu souboru. To zajišťuje, že škodlivě přejmenované soubory jsou zachyceny včas, zabraňuje bezpečnostním incidentům způsobeným podvrženými příponami a garantuje, že aplikace zpracovává pouze podporované typy dokumentů.
 
 ## Předpoklady
 
-Než se ponoříte do detekce formátů souborů, ujistěte se, že máte připravené následující nezbytnosti:
+Před tím, než se ponoříte do detekce formátu souboru, ujistěte se, že máte připravené následující:
 
 ### Požadované knihovny a verze
-- **GroupDocs.Signature Library**: Verze 23.12 nebo novější (použijeme nejnovější stabilní vydání)
-- **Java Development Kit**: JDK 1.8 nebo vyšší (doporučeno JDK 11+ pro lepší výkon)
-- **Nástroj pro sestavení**: Maven 3.x nebo Gradle 6.x pro správu závislostí
+- **GroupDocs.Signature Library**: verze 23.12 nebo novější (použijeme nejnovější stabilní vydání)
+- **Java Development Kit**: JDK 1.8 nebo vyšší (JDK 11+ se doporučuje pro lepší výkon)
+- **Build tool**: Maven 3.x nebo Gradle 6.x pro správu závislostí
 
 ### Požadavky na nastavení prostředí
 Měli byste být obeznámeni s:
@@ -93,13 +105,11 @@ Měli byste být obeznámeni s:
 - Používáním Maven nebo Gradle pro správu závislostí
 - Spouštěním Java aplikací z IDE nebo z příkazové řádky
 
-**Rychlá rada:** Pokud pracujete s velkými dokumenty nebo plánujete souběžné zpracování souborů, přidělte JVM dostatečnou haldu (budeme se věnovat optimalizaci později).
-
-S připraveným prostředím přejděme k nastavení GroupDocs.Signature ve vašem projektu.
+**Rychlá rada:** Pokud pracujete s velkými dokumenty nebo plánujete zpracovávat soubory souběžně, přidělte JVM dostatek heap paměti (optimalizaci probereme později).
 
 ## Nastavení GroupDocs.Signature pro Java
 
-Získání GroupDocs.Signature do projektu je jednoduché – vyberte svůj preferovaný nástroj pro sestavení a pokračujte podle návodu.
+Získání GroupDocs.Signature do vašeho projektu je jednoduché — vyberte si preferovaný nástroj pro sestavení a pokračujte podle návodu.
 
 ### Použití Maven
 
@@ -127,21 +137,21 @@ Poté synchronizujte projekt Gradle nebo spusťte `gradle build`.
 
 ### Alternativa přímého stažení
 
-Nevyužíváte nástroj pro sestavení? Můžete si stáhnout JAR přímo z [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) a ručně jej přidat do classpath. (Upřímně řečeno, Maven nebo Gradle vám ušetří spoustu starostí.)
+Nevyužíváte nástroj pro sestavení? Můžete si JAR stáhnout přímo z [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) a ručně jej přidat do classpathu. (I když Maven nebo Gradle vám ušetří spoustu starostí v budoucnu.)
 
-### Kroky k získání licence
+### Kroky pro získání licence
 
 GroupDocs.Signature nabízí flexibilní licenční možnosti:
 
-- **Bezplatná zkušební verze**: Ideální pro testování – začněte okamžitě bez nutnosti kreditní karty ([odkaz](https://releases.groupdocs.com/signature/java/))
-- **Dočasná licence**: Potřebujete více času na vyhodnocení? Požádejte o 30‑denní dočasnou licenci pro neomezený přístup
-- **Koupě**: Jakmile jste připraveni na produkci, pořiďte si trvalou licenci na [GroupDocs Purchase Page](https://purchase.groupdocs.com/buy)
+- **Free trial**: Ideální pro testování — začněte okamžitě bez nutnosti zadání kreditní karty ([no credit card required](https://releases.groupdocs.com/signature/java/))
+- **Temporary license**: Potřebujete více času na vyhodnocení? Požádejte o 30‑denní dočasnou licenci s neomezeným přístupem
+- **Purchase**: Jakmile jste připraveni na produkci, pořiďte si trvalou licenci na [GroupDocs Purchase Page](https://purchase.groupdocs.com/buy)
 
-**Tip od profesionála:** Začněte s bezplatnou zkušební verzí a prozkoumejte všechny funkce. Dočasná licence odstraní vodoznaky a omezení, pokud potřebujete prodloužené testování.
+**Pro tip:** Začněte s bezplatnou zkušební verzí, abyste prozkoumali všechny funkce. Dočasná licence odstraňuje vodoznaky a omezení, pokud potřebujete prodloužené hodnocení.
 
-### Základní inicializace a nastavení
+## Co je třída Signature?
 
-`Signature` je hlavní vstupní bod pro všechny operace v GroupDocs.Signature. Zahrnuje načítání dokumentu, správu formátů a zpracování podpisů.
+`Signature` je hlavní vstupní bod pro všechny operace v GroupDocs.Signature. Zajišťuje načítání dokumentů, správu formátů a zpracování podpisů. Třída poskytuje metody pro otevírání dokumentů, získávání podporovaných formátů a aplikaci či ověřování podpisů napříč mnoha typy souborů.
 
 Zde je ukázka, jak inicializovat GroupDocs.Signature ve vaší Java aplikaci:
 
@@ -152,35 +162,31 @@ import com.groupdocs.signature.Signature;
 Signature signature = new Signature("sample.pdf");
 ```
 
-Tím vytvoříte objekt signature pro konkrétní dokument. Tento vzor použijete při práci se skutečnými dokumenty, ale pro získání podporovaných formátů konkrétní soubor nebudete potřebovat (ukážeme to v další sekci).
+Tím vytvoříte objekt signature pro zadaný dokument. Tento vzor použijete při práci se skutečnými dokumenty, ale pro získání podporovaných formátů konkrétní soubor nepotřebujete (ukážeme to v další sekci).
 
-Nyní, když je nastavení hotové, pojďme implementovat hlavní funkci pro detekci a získání podporovaných formátů souborů.
+## Průvodce implementací
 
-## Praktický návod
-
-Zde se dostáváme k praktické části. Vytvoříme jednoduchý nástroj, který získá všechny podporované formáty souborů – jakýsi „kontrolor kompatibility“ pro váš pipeline zpracování dokumentů.
+Zde se dostáváme k praktické části. Vytvoříme jednoduchý nástroj, který získá všechny podporované formáty souborů — jakýsi „kontrolor kompatibility“ pro vaši pipeline zpracování dokumentů.
 
 ### Proč je to důležité
 
-Než začnete implementovat funkce pro zpracování dokumentů, musíte vědět, jaké typy souborů vaše knihovna podporuje. Tento nástroj vám poskytne dynamické informace, což znamená:
-- Žádné pevně zakódované seznamy přípon, které se rychle zastarávají
-- Snadná validace nahrávaných souborů proti aktuálním podporovaným formátům
+Než začnete implementovat funkce zpracování dokumentů, musíte vědět, jaké typy souborů vaše knihovna podporuje. Tato implementace vám poskytne dynamické informace, což znamená:
+- Žádné pevně zakódované seznamy přípon, které se zastarávají
+- Snadná validace uživatelských nahrávek proti podporovaným formátům
 - Rychlý odkaz pro tvorbu filtrů typů souborů ve vašem UI
 
-### Krok za krokem
+### Krok za krokem implementace
 
-**1. Import potřebných tříd**
+**1. Import necessary classes**
 
-`FileType` je vstupní brána k detekci formátů – obsahuje veškerá metadata o podporovaných typech dokumentů.
+`FileType` je vstupní brána k detekci formátů — obsahuje veškerá metadata o podporovaných typech dokumentů. Metoda `Signature.getSupportedFileTypes()` vrací kolekci objektů `FileType`, které představují každý formát, který knihovna zvládne.
 
 ```java
 import com.groupdocs.signature.domain.documentpreview.FileType;
 import java.util.List;
 ```
 
-Třída `FileType` je popisovač GroupDocs.Signature pro každý podporovaný formát a poskytuje vlastnosti jako přípona, MIME typ a popis.
-
-**2. Vytvořte třídu pro získání seznamu**
+**2. Create the retrieval class**
 
 Zde je kompletní implementace:
 
@@ -198,14 +204,14 @@ public class GetSupportedFileFormats {
 }
 ```
 
-**Co se zde děje:**
-- `getSupportedFileTypes()`: Statická metoda dotazuje interní registr knihovny a vrací úplný seznam podporovaných formátů jako objekty `FileType`
-- Smyčka prochází každý formát a vypisuje jeho příponu (např. `.pdf`, `.docx`, `.xlsx`)
-- Každý objekt `FileType` také obsahuje další metadata, ke kterým můžete přistupovat (ukážeme níže)
+**Co se zde děje:**  
+- `Signature.getSupportedFileTypes()` dotazuje interní registr knihovny a vrací úplný seznam podporovaných formátů jako objekty `FileType`.  
+- Smyčka prochází každý formát a vypisuje jeho příponu (např. `.pdf`, `.docx`, `.xlsx`).  
+- Každý objekt `FileType` také obsahuje další metadata, ke kterým můžete přistupovat (prozkoumáme níže).
 
-### Více než jen základní přípony
+### Nad rámec základních přípon
 
-Objekt `FileType` poskytuje více než jen přípony. Zde je, co dalšího můžete získat:
+Objekt `FileType` vám poskytuje více než jen přípony. Zde je další informace, které můžete získat:
 
 ```java
 for (FileType fileType : supportedFileTypes) {
@@ -215,49 +221,60 @@ for (FileType fileType : supportedFileTypes) {
 }
 ```
 
-To je užitečné, když potřebujete zobrazit uživatelsky přívětivé názvy formátů nebo seskupit formáty podle typu (dokumenty vs. tabulky vs. obrázky).
+### Jak java check file extension?
+
+Načtěte název souboru, extrahujte jeho příponu a porovnejte ji s kešovaným seznamem vráceným metodou `Signature.getSupportedFileTypes()`. Tento dvoustupňový přístup zajišťuje, že kontrolujete aktuální katalog místo pevně zakódovaného pole. Navíc zabraňuje podvrženým příponám, protože GroupDocs.Signature validuje hlavičku souboru před dalším zpracováním, čímž zajišťuje, že obsah skutečně odpovídá deklarovanému typu.
+
+## Co je GroupDocs.Signature?
+GroupDocs.Signature je Java knihovna, která umožňuje vývojářům přidávat, ověřovat a spravovat digitální podpisy napříč více než 50 formáty dokumentů. Poskytuje jednotné API pro PDF, Office, obrázky a mnoho dalších typů, zvládá složité scénáře validace, jako jsou šifrované soubory, dokumenty chráněné heslem a vícestránkové podpisy. Knihovna také nabízí detekci formátu založenou na obsahu, což pomáhá předcházet zpracování škodlivě přejmenovaných souborů.
+
+## Proč použít detekci založenou na knihovně místo vestavěných metod Javy?
+Detekce založená na knihovně kontroluje skutečnou hlavičku souboru a jeho vnitřní strukturu, čímž zajišťuje, že obsah odpovídá deklarovanému formátu. Vestavěné metody jako `Files.probeContentType` nebo jednoduché kontroly přípony lze snadno oklamat přejmenováním škodlivých spustitelných souborů na `.pdf`. GroupDocs.Signature eliminuje toto riziko prováděním hluboké analýzy obsahu před jakýmkoli dalším zpracováním, čímž poskytuje vyšší bezpečnostní záruku pro vaši aplikaci.
+
+## Kdy bych měl kešovat podporované formáty souborů?
+Kešujte seznam formátů při startu aplikace nebo při první potřebě a používejte tuto neměnnou kolekci po celou dobu běhu JVM. Kešování je zvláště výhodné v webových službách s vysokým provozem, kde by každé volání jinak spouštělo reflexní inicializaci knihovny, což přidává milisekundy latence na každý požadavek. Uložením seznamu jednou snížíte zátěž CPU a zlepšíte celkovou odezvu.
+
+## Jak zacházet s nepodporovanými formáty souborů v Javě?
+Detekujte nepodporovaný formát co nejdříve, zaznamenejte pokus pro auditní účely a vraťte uživateli jasnou chybovou zprávu, která uvádí povolené přípony. Tento přístup zlepšuje uživatelskou zkušenost a snižuje zbytečné zatížení backendu, zatímco poskytuje bezpečnostním týmům přehled o možných pokusech o zneužití.
 
 ## Kdy použít tento přístup
 
-Ne každá situace vyžaduje řešení založené na knihovně. Zde jsou případy, kdy detekce formátů GroupDocs.Signature vyniká:
+### Ideální případy použití
 
-### Ideální scénáře
+**1. Building document upload validators**  
+Když uživatelé nahrávají soubory do vaší aplikace, chcete validovat formáty na serveru (nikdy nespoléhejte jen na klientskou validaci). Tento přístup vám umožní zkontrolovat soubor vůči kompletnímu seznamu podporovaných formátů před dalším zpracováním.
 
-**1. Validátory nahrávaných dokumentů**  
-Když uživatelé nahrávají soubory, chcete validovat formáty na serveru (nikdy nespoléhejte jen na klientskou validaci). Tento přístup vám umožní zkontrolovat soubor proti kompletnímu seznamu podporovaných formátů před dalším zpracováním.
+**2. Creating dynamic file‑type filters**  
+Budujete výběr souborů nebo komponentu pro nahrávání? Generujte seznam povolených formátů dynamicky místo udržování statického pole, které může být neaktuální vůči schopnostem knihovny.
 
-**2. Dynamické filtry typů souborů**  
-Budujete výběr souborů nebo komponentu pro nahrávání? Generujte seznam povolených formátů dynamicky místo statického pole, které může být neaktuální.
+**3. Multi‑format document processing pipelines**  
+Pokud zpracováváte dokumenty z různých zdrojů (e‑mailové přílohy, cloudové úložiště, uživatelské nahrávky), potřebujete spolehlivou detekci formátu, aby soubory byly směrovány ke správným zpracovatelům.
 
-**3. Pipeline pro zpracování více formátů**  
-Pokud zpracováváte dokumenty z různých zdrojů (e‑mailové přílohy, cloudové úložiště, uživatelské nahrávání), potřebujete spolehlivou detekci formátu, aby se soubory nasměrovaly ke správným handlerům.
+**4. Integration with cloud storage services**  
+Při synchronizaci s AWS S3, Google Drive nebo Azure Blob Storage validujte kompatibilitu dokumentu před stažením a zpracováním — šetříte šířku pásma i výpočetní čas.
 
-**4. Integrace s cloudovými úložišti**  
-Při synchronizaci s AWS S3, Google Drive nebo Azure Blob Storage validujte kompatibilitu dokumentů před stažením a zpracováním – šetříte šířku pásma i výpočetní čas.
+### Kdy může být vestavěná Java dostatečná
 
-### Kdy může stačit vestavěná Java
+Pro jednodušší scénáře mohou stačit vestavěné přístupy Javy:
+- **File extension checking only**: `file.getName().endsWith(".pdf")`
+- **MIME type detection**: `Files.probeContentType(path)`
+- **Basic validation**: Když máte kontrolu nad zdrojem nahrávání a důvěřujete příponám souborů
 
-Pro jednodušší scénáře mohou stačit vestavěné metody Javy:
-- **Pouze kontrola přípony**: `file.getName().endsWith(".pdf")`
-- **Detekce MIME typu**: `Files.probeContentType(path)`
-- **Základní validace**: Když máte plnou kontrolu nad zdrojem nahrávaných souborů a důvěřujete jejich příponám
+**Důležitá poznámka:** Vestavěné metody lze oklamat. Soubor přejmenovaný z `malicious.exe` na `document.pdf` projde kontrolou přípony, ale selže při řádné validaci. GroupDocs.Signature provádí hlubší inspekci.
 
-**Důležité upozornění:** Vestavěné metody lze snadno oklamat. Soubor přejmenovaný z `malicious.exe` na `document.pdf` projde kontrolou přípony, ale selže při řádné validaci. GroupDocs.Signature provádí hlubší inspekci.
+## Běžné problémy a řešení
 
-## Časté problémy a řešení
+### Problém 1: Vrácený seznam je prázdný nebo null
 
-Níže jsou typické problémy, na které můžete narazit, a rychlé způsoby, jak je vyřešit.
+**Symptom:** `Signature.getSupportedFileTypes()` vrací prázdný seznam nebo null.
 
-### Problém 1: Vrací se prázdný nebo null seznam
-
-**Projev:** `getSupportedFileTypes()` vrací prázdný seznam nebo null.
-
-**Příčiny a řešení:**
-- **Knihovna není správně inicializována**: Ověřte, že je Maven/Gradle závislost správně přidána a synchronizována
-- **Nekompatibilní verze**: Používejte verzi 23.12 nebo novější (starší verze mohou mít odlišné API)
-- **Problémy s classpath**: Při ručním přidání JAR souborů se ujistěte, že jsou skutečně v classpath
+**Příčiny a řešení:**  
+- **Library not properly initialised** – ověřte, že je Maven/Gradle závislost správně přidána a synchronizována.  
+- **Version compatibility** – ujistěte se, že používáte verzi 23.12 nebo novější (starší verze mohou mít odlišné API).  
+- **Classpath issues** – pokud používáte ručně stažené JAR soubory, potvrďte, že jsou správně zahrnuty do classpathu.
 
 **Rychlá oprava:**
+
 ```java
 List<FileType> formats = FileType.getSupportedFileTypes();
 if (formats == null || formats.isEmpty()) {
@@ -266,16 +283,17 @@ if (formats == null || formats.isEmpty()) {
 }
 ```
 
-### Problém 2: Chybí očekávaný formát
+### Problém 2: Chybí očekávaný formát
 
-**Projev:** Formát, který očekáváte, není v seznamu podporovaných.
+**Symptom:** Formát, který očekáváte, není v seznamu podporovaných.
 
-**Možné důvody:**
-- Používáte specializovaný formát, který vyžaduje další pluginy (některé CAD nebo medicínské formáty potřebují samostatné moduly)
-- Formát byl přidán v novější verzi – zkontrolujte poznámky k vydání
-- Formát je podporován jen pro čtení, ne pro operace s podpisy (GroupDocs.Signature primárně slouží k přidávání podpisů)
+**Možné důvody:**  
+- Používáte specializovaný formát, který vyžaduje další pluginy (některé CAD nebo medicínské obrazové formáty potřebují samostatné moduly).  
+- Formát byl přidán v novější verzi – zkontrolujte poznámky k vydání.  
+- Formát je podporován pro čtení, ale ne pro operace podpisu (GroupDocs.Signature primárně přidává podpisy; ne všechny operace podporují všechny formáty stejně).
 
 **Postup ladění:**
+
 ```java
 // Check for specific format
 boolean hasPDF = supportedFileTypes.stream()
@@ -283,11 +301,11 @@ boolean hasPDF = supportedFileTypes.stream()
 System.out.println("PDF supported: " + hasPDF);
 ```
 
-### Problém 3: Pokles výkonu při velkém seznamu formátů
+### Problém 3: Pokles výkonu při velkých seznamech formátů
 
-**Projev:** Opakované volání `getSupportedFileTypes()` zpomaluje aplikaci.
+**Symptom:** Opakované volání `Signature.getSupportedFileTypes()` zpomaluje aplikaci.
 
-**Řešení:** Kešujte výsledek! Seznam se během běhu aplikace nemění:
+**Řešení:** Kešujte výsledek! Tento seznam se během běhu nemění:
 
 ```java
 public class FormatCache {
@@ -302,16 +320,14 @@ public class FormatCache {
 }
 ```
 
-Tento vzor zajistí, že dotaz na knihovnu provedete jen jednou během životního cyklu aplikace.
+### Problém 4: Omezení související s licencí
 
-### Problém 4: Omezení související s licencí
+**Symptom:** Zobrazují se varování o hodnocení nebo omezená podpora formátů.
 
-**Projev:** Zobrazují se varování o hodnocení nebo omezená podpora formátů.
-
-**Řešení:** 
-- Aplikujte licenci před voláním jakýchkoli metod GroupDocs
-- Ověřte, že cesta k souboru licence je správná
-- Zkontrolujte datum expirace, pokud používáte časově omezenou licenci
+**Řešení:**  
+- Aplikujte licenci před voláním jakýchkoli metod GroupDocs.  
+- Ověřte, že cesta k souboru licence je správná.  
+- Zkontrolujte datum expirace, pokud používáte časově omezenou licenci.
 
 ```java
 try {
@@ -322,13 +338,11 @@ try {
 }
 ```
 
-## Nejlepší postupy pro detekci formátů souborů
+## Nejlepší postupy pro detekci formátu souboru
 
-Dodržujte tato doporučení pro tvorbu robustní a udržovatelné detekce formátů.
+### 1. Ověřujte brzy, selhání rychle
 
-### 1. Validujte co nejdříve, selhání okamžitě
-
-Zkontrolujte formát souboru co nejdříve v pipeline:
+Zkontrolujte formáty co nejdříve ve vaší pipeline:
 
 ```java
 public boolean validateFileFormat(String filePath) {
@@ -347,11 +361,9 @@ public boolean validateFileFormat(String filePath) {
 }
 ```
 
-Tím zabráníte zbytečnému zpracování nepodporovaných souborů.
-
 ### 2. Poskytněte uživateli jasnou zpětnou vazbu
 
-Při odmítnutí souboru uveďte přesně, které formáty jsou podporovány:
+Při odmítnutí souboru informujte uživatele přesně, které formáty JSOU podporovány:
 
 ```java
 public String getSupportedFormatsMessage() {
@@ -364,9 +376,9 @@ public String getSupportedFormatsMessage() {
 }
 ```
 
-### 3. Nespoléhejte se jen na přípony
+### 3. Nespoléhejte se jen na přípony souborů
 
-Soubor přejmenovaný z `.exe` na `.pdf` bude mít příponu `.pdf`, ale nebude validní PDF. GroupDocs.Signature ověřuje skutečný obsah, ale kombinace přístupů je stále vhodná:
+Soubor přejmenovaný z `.exe` na `.pdf` bude mít příponu `.pdf`, ale nebude validní PDF. GroupDocs.Signature ověřuje skutečný obsah, ne jen přípony — ale i tak kombinujte přístupy:
 
 ```java
 // First check extension (fast)
@@ -383,9 +395,9 @@ try (Signature signature = new Signature(file)) {
 }
 ```
 
-### 4. Ošetřujte výjimky elegantně
+### 4. Zpracovávejte výjimky elegantně
 
-Validace může selhat z mnoha důvodů mimo nepodporované formáty:
+Validace souborů může selhat z mnoha důvodů mimo nepodporované formáty:
 
 ```java
 public ValidationResult validateDocument(String path) {
@@ -405,9 +417,9 @@ public ValidationResult validateDocument(String path) {
 ### 5. Sledujte změny podpory formátů
 
 Při aktualizaci knihovny GroupDocs.Signature kontrolujte poznámky k vydání ohledně:
-- Nových podporovaných formátů
-- Ukončené podpory některých formátů
-- Změn v chování detekce
+- Nových podporovaných formátů  
+- Ukončené podpory některých formátů  
+- Změn chování při detekci formátů  
 
 Zvažte přidání unit testů, které ověří, že očekávané formáty jsou podporovány:
 
@@ -428,11 +440,11 @@ public void testEssentialFormatsSupported() {
 
 ## Úvahy o výkonu
 
-Optimalizace detekce formátů může vypadat jako drobnost, ale při zpracování tisíců dokumentů nebo při souběžném nahrávání je zásadní.
+Optimalizace detekce formátu souboru může vypadat jako drobnost, ale má význam při zpracování tisíců dokumentů nebo při souběžných nahrávkách.
 
 ### Správa paměti
 
-**Strategie kešování:** Jak již bylo zmíněno, kešujte seznam podporovaných formátů:
+**Kešovací strategie:** Jak již bylo zmíněno, kešujte seznam podporovaných formátů:
 
 ```java
 // Good: Load once, reuse many times
@@ -446,14 +458,14 @@ public boolean isSupported(String ext) {
 }
 ```
 
-**Proč to funguje:** Načtení seznamu zahrnuje reflexi a interní inicializaci knihovny. Jednorázové načtení šetří CPU cykly i alokace paměti.
+**Proč je to důležité:** Načtení seznamu formátů zahrnuje reflexi a interní inicializaci knihovny. Provedení jednou šetří cykly CPU a alokace paměti.
 
 ### Pokyny pro využití zdrojů
 
-**Pro scénáře s vysokým objemem:**
-- Používejte thread‑safe keš pro seznam formátů (ukázka výše je neproměnná, takže je bezpečná)
-- Zvažte lazy inicializaci, pokud aplikace nemusí vždy detekci formátů používat
-- Při zpracování dokumentů uzavírejte objekty `Signature` okamžitě, aby se uvolnily zdroje
+**Pro scénáře s vysokým objemem:**  
+- Používejte thread‑safe keš pro seznamy formátů (příklad výše je thread‑safe, protože je neměnný).  
+- Zvažte lazy inicializaci, pokud vaše aplikace nevyžaduje detekci formátů ve všech částech.  
+- Při zpracování dokumentů uzavírejte objekty `Signature` okamžitě po dokončení, aby se uvolnily zdroje.
 
 ```java
 try (Signature signature = new Signature(filePath)) {
@@ -463,7 +475,7 @@ try (Signature signature = new Signature(filePath)) {
 
 ### Optimalizace dávkového zpracování
 
-Při validaci více souborů najednou můžete využít paralelizaci:
+Pokud validujete více souborů najednou, zvažte paralelizaci:
 
 ```java
 List<String> files = Arrays.asList("doc1.pdf", "doc2.docx", "doc3.xlsx");
@@ -477,24 +489,25 @@ files.parallelStream()
     });
 ```
 
-**Upozornění:** Nepřehánějte paralelizaci. Pokud jste omezeni I/O (čtení z disku), nadměrný počet vláken nepřinese zisk. Otestujte optimální počet vláken pro vaše prostředí.
+**Upozornění:** Nepřehánějte paralelizaci. Pokud jste I/O‑bound (čtení z disku), nadměrný počet vláken nepomůže. Otestujte a najděte optimální počet vláken.
 
 ### Tipy pro ladění JVM
 
-Pro aplikace s těžkým zpracováním dokumentů:
-- Zvyšte velikost haldy: `-Xmx2g` (upravit podle potřeb)
-- Sledujte garbage collection: `-XX:+PrintGCDetails` pro identifikaci problémů
-- Zvažte G1GC pro kratší pauzy: `-XX:+UseG1GC`
+Pro aplikace s velkým objemem dokumentů:  
+- Zvyšte velikost heapu: `-Xmx2g` (upravit podle potřeb).  
+- Sledujte garbage collection: použijte `-XX:+PrintGCDetails` k identifikaci problémů.  
+- Zvažte G1GC pro kratší pauzy: `-XX:+UseG1GC`.
 
 ## Praktické aplikace a integrace
 
-Podívejme se na reálné scénáře, kde je detekce formátu nezbytná.
+Podívejme se na reálné scénáře, kde je detekce formátu souboru nezbytná.
 
 ### 1. Systémy pro správu dokumentů
 
-**Scénář:** Uživatelé nahrávají dokumenty, které je třeba indexovat, zpracovat a uložit.
+**Scénář:** Uživatelé nahrávají dokumenty, které je potřeba indexovat, zpracovat a uložit.
 
 **Implementační vzor:**
+
 ```java
 public class DocumentUploadHandler {
     public void handleUpload(MultipartFile file) {
@@ -517,9 +530,9 @@ public class DocumentUploadHandler {
 }
 ```
 
-### 2. Integrace s cloudovým úložištěm
+### 2. Integrace cloudového úložiště
 
-**Scénář:** Synchronizace dokumentů z AWS S3 nebo Google Drive a zpracování jen podporovaných formátů.
+**Scénář:** Synchronizace dokumentů z AWS S3 nebo Google Drive a zpracování jen podporovaných formátů.
 
 **Proč je to užitečné:** Vyhnete se stahování a pokusu o zpracování nepodporovaných souborů, čímž šetříte šířku pásma i výpočetní čas.
 
@@ -543,11 +556,11 @@ public void syncFromS3(String bucketName) {
 }
 ```
 
-### 3. Automatizace podnikových workflow
+### 3. Automatizace podnikových pracovních toků
 
-**Scénář:** Směrování dokumentů do různých pipeline podle typu.
+**Scénář:** Směrování dokumentů různými zpracovatelskými pipeline podle typu.
 
-**Příklad:** PDF → workflow pro podpis, tabulky → extrakci dat, obrázky → OCR.
+**Příklad:** PDF jde do workflow pro podpis, tabulky do extrakce dat, obrázky do OCR.
 
 ```java
 public void routeDocument(String filePath) {
@@ -574,11 +587,12 @@ public void routeDocument(String filePath) {
 }
 ```
 
-### 4. Tvorba výběrů typů souborů v UI
+### 4. Vytváření výběrů typů souborů
 
-**Scénář:** Dynamické komponenty pro výběr souborů s aktuální podporou formátů.
+**Scénář:** Tvorba UI komponent s dynamickou podporou formátů.
 
-**Ukázka integrace na frontendu:**
+**Frontend integrace:**
+
 ```java
 @RestController
 public class FormatController {
@@ -594,7 +608,8 @@ public class FormatController {
 }
 ```
 
-Frontend pak může použít tento seznam k nastavení komponenty pro nahrávání:
+Frontend pak může použít tento seznam k nastavení komponenty pro nahrávání souborů:
+
 ```javascript
 // Frontend code (for context, not part of Java implementation)
 fetch('/api/supported-formats')
@@ -604,65 +619,45 @@ fetch('/api/supported-formats')
     });
 ```
 
-## Jak zkontrolovat příponu souboru java?
-
-Načtěte název souboru, extrahujte jeho příponu a porovnejte ji s kešovaným seznamem vráceným `Signature.getSupportedFileTypes()`. Tento dvoukrokový přístup zaručuje, že kontrolujete aktuální katalog místo pevně zakódovaného pole a zároveň zabraňuje podvrženým příponám, protože GroupDocs.Signature ověřuje hlavičku souboru před dalším zpracováním.
-
-## Co je GroupDocs.Signature?
-
-GroupDocs.Signature je Java knihovna, která vývojářům umožňuje přidávat, ověřovat a spravovat digitální podpisy ve více než 50 formátech dokumentů. Poskytuje jednotné API pro PDF, Office, obrázky a mnoho dalších typů, přičemž řeší složité scénáře jako šifrované soubory, dokumenty chráněné heslem a vícestránkové podpisy.
-
-## Proč použít detekci založenou na knihovně místo vestavěných metod Javy?
-
-Detekce založená na knihovně kontroluje skutečnou hlavičku souboru a jeho interní strukturu, čímž zajišťuje, že obsah skutečně odpovídá deklarovanému formátu. Vestavěné metody jako `Files.probeContentType` nebo jednoduché kontroly přípony lze snadno oklamat přejmenováním škodlivých spustitelných souborů na `.pdf`. GroupDocs.Signature eliminuje toto riziko prováděním hluboké analýzy obsahu před jakýmkoli dalším zpracováním.
-
-## Kdy bych měl kešovat podporované formáty souborů?
-
-Kešujte seznam formátů při startu aplikace nebo při prvním požadavku a používejte tuto neměnnou kolekci po celou dobu běhu JVM. Kešování je zvláště výhodné v webových službách s vysokým provozem, kde by každé volání jinak spouštělo reflexní inicializaci knihovny, což přidává milisekundy latence.
-
-## Jak zacházet s nepodporovanými formáty souborů v Javě?
-
-Detekujte nepodporovaný formát co nejdříve, zaznamenejte pokus pro audit a vraťte uživateli jasnou chybovou zprávu s výčtem povolených přípon. Tento přístup zlepšuje uživatelskou zkušenost a snižuje zbytečnou zátěž backendu.
-
 ## Často kladené otázky
 
-**Q: Jak aktualizuji verzi knihovny GroupDocs.Signature v Maven?**  
-A: Změňte hodnotu `<version>` v souboru `pom.xml` na požadovanou verzi a spusťte `mvn clean install`. Vždy si přečtěte [poznámky k vydání](https://releases.groupdocs.com/signature/java/) pro případné breaking changes.
+**Q: Jak aktualizovat verzi knihovny GroupDocs.Signature v Maven?**  
+A: Změňte tag `<version>` ve vašem `pom.xml` na požadovanou verzi a spusťte `mvn clean install`. Vždy si přečtěte [poznámky k vydání](https://releases.groupdocs.com/signature/java/) pro případné breaking changes.
 
-**Q: Dokáže GroupDocs.Signature detekovat formát souboru i při špatné příponě?**  
-A: Ano. Knihovna provádí validaci založenou na obsahu, takže soubor přejmenovaný z `.exe` na `.pdf` bude během zpracování odmítnut jako neplatný PDF. `getSupportedFileTypes()` pouze uvádí, které formáty knihovna dokáže zpracovat; skutečná validace proběhne při pokusu o otevření souboru.
+**Q: Dokáže GroupDocs.Signature detekovat formáty souborů i když je přípona špatná?**  
+A: Ano. Knihovna provádí validaci založenou na obsahu, takže soubor přejmenovaný z `.exe` na `.pdf` bude odmítnut jako neplatný PDF během zpracování. `getSupportedFileTypes()` pouze vypisuje formáty, které knihovna zvládne; skutečná validace vyžaduje pokus o otevření souboru.
 
 **Q: Jaký je rozdíl mezi bezplatnou zkušební verzí a dočasnou licencí?**  
-A: Bezplatná zkušební verze poskytuje okamžitý přístup, ale obsahuje vodoznaky a některá omezení funkcí. Dočasná licence odstraňuje vodoznaky a omezení po dobu 30 dnů, což je ideální pro důkladné testování v prostředí podobném produkci.
+A: Bezplatná zkušební verze poskytuje okamžitý přístup, ale obsahuje vodotisky a některá omezení funkcí. Dočasná licence poskytuje plnou funkčnost po 30 dnů bez vodotisků, ideální pro důkladné testování v prostředí podobném produkci.
 
-**Q: Jak mám v aplikaci zacházet s nepodporovanými formáty souborů?**  
-A: Vraťte stručnou chybu typu „Unsupported format. Supported extensions are: .pdf, .docx, .xlsx, .png, .jpg.“ Zaznamenejte incident pro bezpečnostní monitoring a zvažte UI tooltip, který uživateli zobrazí povolené typy.
+**Q: Jak by měl aplikace zacházet s nepodporovanými formáty souborů?**  
+A: Vraťte stručnou chybu typu „Unsupported format. Supported extensions are: .pdf, .docx, .xlsx, .png, .jpg.“ Zaznamenejte incident pro bezpečnostní monitoring a případně uživateli zobrazte tooltip s povolenými typy.
 
-**Q: Funguje GroupDocs.Signature s šifrovanými nebo heslem chráněnými soubory?**  
-A: Ano, ale musíte při vytváření instance `Signature` předat heslo. Samotná detekce formátu nevyžaduje heslo, ale jakékoli následné operace (např. přidání podpisu) jej budou potřebovat.
+**Q: Pracuje GroupDocs.Signature s šifrovanými nebo heslem chráněnými soubory?**  
+A: Ano, ale musíte při vytváření instance `Signature` předat heslo. Detekce formátu samotná heslo nevyžaduje, ale následné operace (např. přidání podpisu) jej potřebují.
 
 **Q: Existuje komunita nebo fórum podpory pro GroupDocs.Signature?**  
-A: Určitě! Navštivte [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) pro diskuze, ukázky kódu a přímé odpovědi od týmu GroupDocs.
+A: Rozhodně! Navštivte [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) pro diskuse, ukázky kódu a přímé odpovědi od týmu GroupDocs.
 
 ## Zdroje
 
-**Dokumentace:**
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) – Kompletní průvodci a tutoriály
-- [API Reference](https://reference.groupdocs.com/signature/java/) – Kompletní API dokumentace se všemi třídami a metodami
+**Dokumentace:**  
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) – Komplexní průvodci a tutoriály  
+- [API Reference](https://reference.groupdocs.com/signature/java/) – Kompletní API dokumentace se všemi třídami a metodami  
 
-**Stahování a licence:**
-- [Download Library](https://releases.groupdocs.com/signature/java/) – Nejnovější verze a historie vydání
-- [Purchase Licenses](https://purchase.groupdocs.com/buy) – Ceny a licenční možnosti
-- [Free Trial](https://releases.groupdocs.com/signature/java/) – Začněte testovat okamžitě
+**Stažení a licence:**  
+- [Download Library](https://releases.groupdocs.com/signature/java/) – Nejnovější vydání a historie verzí  
+- [Purchase Licenses](https://purchase.groupdocs.com/buy) – Ceny a licenční možnosti  
+- [Free Trial](https://releases.groupdocs.com/signature/java/) – Začněte testovat ihned  
 
-**Podpora a komunita:**
-- [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) – Diskuze, podpora a sdílení zkušeností
+**Podpora a komunita:**  
+- [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) – Diskuse a podpora komunity  
 
 ---
 
-**Poslední aktualizace:** 2026-05-11  
-**Testováno s:** GroupDocs.Signature 23.12 pro Java  
-**Autor:** GroupDocs
+**Poslední aktualizace:** 2026-08-19  
+**Testováno s:** GroupDocs.Signature 23.12 for Java  
+**Autor:** GroupDocs  
 
 ```xml
 <version>24.1</version>  <!-- Update to newer version -->
@@ -686,6 +681,6 @@ Signature signature = new Signature("protected.pdf", loadOptions);
 
 ## Související tutoriály
 
-- [Add QR Code to PDF Java - Complete Guide with GroupDocs.Signature](/signature/java/qr-code-signatures/qr-code-signatures-java-groupdocs/)
-- [Java Text Signature Search - A Complete Guide to Document Verification with GroupDocs.Signature](/signature/java/search-verification/java-text-signature-search-groupdocs-signature/)
-- [Digital Signature in Java - Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
+- [Přidání QR kódu do PDF v Javě – Kompletní průvodce s GroupDocs.Signature](/signature/java/qr-code-signatures/qr-code-signatures-java-groupdocs/)
+- [Java Text Signature Search – Kompletní průvodce ověřováním dokumentů s GroupDocs.Signature](/signature/java/search-verification/java-text-signature-search-groupdocs-signature/)
+- [Digitální podpis v Javě – Kompletní průvodce načítáním certifikátů a podepisováním dokumentů](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
