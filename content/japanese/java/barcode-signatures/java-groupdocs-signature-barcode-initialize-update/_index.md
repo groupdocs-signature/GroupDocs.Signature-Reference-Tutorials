@@ -1,18 +1,21 @@
 ---
 categories:
 - Java Document Processing
-date: '2026-05-06'
-description: Learn how to create barcode signature java and update its position, size,
-  and properties for PDFs using GroupDocs.Signature API.
+date: '2026-08-19'
+description: GroupDocs.Signature API を使用して、PDF のバーコード署名（barcode signature java）を作成し、位置・サイズ・プロパティを更新する方法を学びます。
 keywords:
 - create barcode signature java
 - barcode signature java
 - groupdocs signature java
-lastmod: '2026-05-06'
-linktitle: Update Barcode Signatures in Java
+lastmod: '2026-08-19'
+linktitle: Javaでバーコード署名を更新
+og_description: GroupDocs.Signature API を使用して、PDF のバーコード署名（barcode signature java）を作成し、位置・サイズ・プロパティを変更する方法を学びます。高速で信頼性が高く、バッチ処理にも対応。
+og_image_alt: Guide to creating and updating barcode signatures in Java PDFs with
+  GroupDocs.Signature
+og_title: Javaでバーコード署名を作成 – PDFバーコードを効率的に更新
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-06'
+  dateModified: '2026-08-19'
   description: Learn how to create barcode signature java and update its position,
     size, and properties for PDFs using GroupDocs.Signature API.
   headline: Create Barcode Signature Java – Update PDF Barcodes
@@ -37,168 +40,137 @@ schemas:
       to a new file. Now you can **change barcode size** or reposition it wherever
       you need. **Key points:** - `setLeft` / `setTop` move the barcode (coor'
   type: HowTo
-- questions:
-  - answer: Absolutely. Iterate through the `List<BarcodeSignature>` returned by the
-      search and call `signature.update()` for each, or pass the entire list to a
-      single `update` call.
-    question: Can I update barcode signature Java code for multiple barcodes in one
-      document?
-  - answer: Dozens, including Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417,
-      and more. Use `barcodeSignature.getEncodeType()` to inspect the type.
-    question: What barcode types does GroupDocs.Signature support?
-  - answer: Yes, via `setText()`, but remember to regenerate the visual barcode so
-      scanners read it correctly.
-    question: Can I change the barcode's actual content (the encoded data)?
-  - answer: Each `BarcodeSignature` includes `getPageNumber()`. Filter or process
-      page‑specific barcodes as needed.
-    question: How do I handle documents with barcodes on multiple pages?
-  - answer: The source file remains untouched. GroupDocs writes the changes to the
-      output path you specify, preserving the original for safety.
-    question: What happens to the original document after updating?
-  type: FAQPage
 tags:
-- barcode-signatures
-- pdf-automation
-- groupdocs-java
-- document-management
-title: Create Barcode Signature Java – Update PDF Barcodes
+- barcode signatures
+- pdf automation
+- groupdocs java
+- document management
+- java barcode
+title: Javaでバーコード署名を作成 – PDFバーコードを更新
 type: docs
 url: /ja/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/
 weight: 1
 ---
 
-# Javaでバーコード署名を作成 – PDFバーコードの更新
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-パッケージデザインの変更後に何千もの出荷ラベルのバーコード位置を再配置する必要があったことはありませんか？あるいは、法務チームが文書レイアウトを変更した際に契約テンプレート全体のバーコード位置を更新する必要があったことは？これらのシナリオは文書自動化ワークフローで頻繁に発生します。
+# バーコード署名 Java の作成 – PDF バーコードの更新
 
-このガイドでは、**how to create barcode signature java** を学び、バーコード署名の位置、サイズ、その他のプロパティをプログラムで変更する方法を紹介します。手動でバーコード署名を更新するのは手間がかかり、エラーが起きやすいです。GroupDocs.Signature for Java を使用すれば、バーコード署名オブジェクトを作成し、数行のコードで更新できます。在庫システムの構築、物流文書の自動化、法的契約の管理など、プログラムでバーコード署名を更新することで手作業の時間を大幅に削減できます。
+数千枚の出荷ラベルでバーコードの位置を再配置したり、テンプレートの再設計後にバーコードの位置を調整したりする必要がある場合、手作業はミスが起きやすく時間がかかります。このガイドでは **バーコード署名 Java の作成方法** を学び、GroupDocs.Signature for Java を使用してプログラムで位置、サイズ、その他のプロパティを変更する方法を紹介します。このアプローチは PDF、Word、Excel、PowerPoint、画像ファイルすべてで動作し、ドキュメント自動化シナリオ全体で単一の一貫した API を提供します。
 
 ## クイック回答
-- **「create barcode signature」とは何ですか？** API を介して文書内に配置、移動、編集できるバーコードオブジェクトを生成することを意味します。  
-- **作成後にバーコードのサイズを変更できますか？** はい – `setWidth` と `setHeight` メソッドを使用するか、`Left`/`Top` 座標を調整してください。  
+- **「バーコード署名の作成」とは何ですか？** `BarcodeSignature` オブジェクトを生成し、API を通じてドキュメント内に配置、移動、編集できるようにすることを指します。  
+- **作成後にバーコードのサイズを変更できますか？** はい – `setWidth`/`setHeight` または `Left`/`Top` 座標を調整します。  
 - **バーコードを更新するためにライセンスが必要ですか？** 開発にはトライアルで動作しますが、本番環境ではフルライセンスが必要です。  
-- **これはPDFだけで動作しますか？** いいえ – 同じコードは Word、Excel、PowerPoint、画像ファイルでも動作します。  
+- **これは PDF のみで動作しますか？** いいえ – 同じコードは Word、Excel、PowerPoint、一般的な画像形式でも動作します。  
 - **一度に処理できるドキュメント数は？** バッチ処理がサポートされており、`try‑with‑resources` でメモリ管理すれば問題ありません。
 
-## create barcode signature javaとは何ですか？
-create barcode signature java は、文書内にデジタル署名として埋め込まれたバーコードを表す `BarcodeSignature` オブジェクトをインスタンス化するプロセスです。この API 呼び出しにより、ビジュアルエディタでファイルを開かずにバーコードの追加、検索、変更が可能になります。
+## create barcode signature java とは？
+create barcode signature java は、ドキュメント内にデジタル署名として埋め込まれたバーコードを表す `BarcodeSignature` オブジェクトをインスタンス化するプロセスです。GroupDocs.Signature API を使用すると、プログラムで新しいバーコードを追加したり、既存のバーコードを検索したり、位置・サイズ・エンコードされたテキストなどのプロパティを変更したりでき、ビジュアルエディタでファイルを開く必要がありません。
 
-## なぜGroupDocs.Signature for Javaを使用するのか？
-GroupDocs.Signature は **50+ input and output formats** をサポートしており、PDF、DOCX、XLSX、PPTX、一般的な画像形式を含みます。また、メモリ使用量を 100 MB 未満に抑えながら数百ページの PDF を処理できます。そのバッチ API は標準サーバー上で **10,000 documents per run** を処理でき、大規模な更新を実現します。
+## Java 用 GroupDocs.Signature を使用する理由
+GroupDocs.Signature は **50 以上の入力・出力形式**（PDF、DOCX、XLSX、PPTX、一般的な画像形式など）をサポートし、メモリ使用量を 100 MB 未満に抑えながら数百ページの PDF を処理できます。バッチ API は標準サーバー上で **10,000 ドキュメント** までの処理を可能にし、大規模な更新を実現します。
 
 ## 前提条件
 
-プロジェクトで barcode signature Java のコードを更新できるようにする前に、以下の必須項目を確認してください。
+- **GroupDocs.Signature for Java** ≥ 23.12（以前のリリースにはここで使用する更新メソッドがありません）。  
+- Java Development Kit 8 以上。  
+- IntelliJ IDEA、Eclipse、VS Code などの IDE。  
+- 基本的な Java の知識（クラス、オブジェクト、例外処理）。  
 
 ### 必要なライブラリ
-- **GroupDocs.Signature for Java**: バージョン 23.12 以降（古いバージョンでは本ガイドで使用する更新メソッドが欠如している可能性があります）。
+好みのビルドツールでプロジェクトに GroupDocs.Signature を追加します。
 
-### 環境設定
-- 動作する **Java Development Kit (JDK)**（JDK 8 以上推奨）
-- IntelliJ IDEA、Eclipse、VS Code などの **IDE**
-
-### 知識の前提条件
-- 基本的な Java（クラス、オブジェクト、例外処理）
-- Java におけるファイル操作（パス、ディレクトリ）
-- 任意: PDF 構造とバーコード概念の理解
-
-すべて揃いましたか？素晴らしいです！ライブラリをインストールしましょう。
-
-## GroupDocs.Signature for Java の設定
-
-GroupDocs.Signature を Java プロジェクトに追加するのは簡単です。使用しているビルドツールを選択してください。
-
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
     <artifactId>groupdocs-signature</artifactId>
     <version>23.12</version>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
+```  
 
-**Direct Download**: ビルドツールを使用しない場合は、[GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) から最新の JAR ファイルを取得し、手動でプロジェクトのクラスパスに追加してください。
+**Direct download** – 最新の JAR を [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) から取得し、クラスパスに追加してください。
 
 ### ライセンス取得
+GroupDocs.Signature はトライアルとフルライセンスの両方に対応しています：
 
-GroupDocs.Signature はトライアルとフルライセンスの両方に対応しています:
-- **Free Trial** – テストや概念実証に最適です  
-- **Temporary License** – 特定プロジェクトでの長期評価用  
-- **Full License** – 本番環境での透かし除去と使用制限解除  
+- **無料トライアル** – 概念実証に最適。  
+- **一時ライセンス** – 特定プロジェクトでの拡張評価用。  
+- **フルライセンス** – 本番環境での透かしと使用制限を除去。  
 
-**Pro Tip**: まずは無料トライアルで API が要件を満たすか確認し、準備が整ったらアップグレードしてください。
+*Pro tip*: 無料トライアルで始め、ワークフローを検証したらアップグレードしてください。
 
-## barcode signature java の作成方法
+## バーコード署名 Java の作成方法
 
-### Step 1: Initialize the Signature Instance
+### 手順 1: 署名インスタンスの初期化
+`Signature` はドキュメントを読み込み、検索・追加・更新メソッドを提供する主要エントリーポイントクラスです。  
 
-#### Direct answer
-編集したい文書のパスを渡して `Signature` オブジェクトを作成します。これによりファイルがメモリに読み込まれ、バーコード操作の準備が整います。
-
-`Signature` クラスはすべての署名関連アクションへのゲートウェイです。ファイルを読み込み、検索、追加、更新のメソッドを提供します。
+#### 直接の回答  
+編集したいドキュメントのパスを渡して `Signature` オブジェクトを作成します。これによりファイルがメモリに読み込まれ、バーコード操作の準備が整います。`Signature` クラスはすべての署名関連アクションへのゲートウェイであり、ファイルを読み込み、検索・追加・更新メソッドを公開します。
 
 ```java
 import com.groupdocs.signature.Signature;
 import java.nio.file.Paths;
-```
+```  
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
-```
+```  
 
 ```java
 Signature signature = new Signature(filePath);
-```
+```  
 
-> **Pro tip:** `Signature` インスタンスを作成する前にパスを検証し、`FileNotFoundException` を回避してください。
+> **Pro tip**: `Signature` インスタンスを構築する前にファイルパスを検証し、`FileNotFoundException` を回避してください。
 
-### Step 2: Search for Barcode Signatures
+### 手順 2: バーコード署名を検索
+`BarcodeSearchOptions` はドキュメント内のバーコード署名をスキャンする際の基準を定義します。  
 
-#### Direct answer
-`BarcodeSearchOptions` と `search` メソッドを使用して、文書内のすべてのバーコード署名のリストを取得します。
-
-見つけられなければ更新できません。GroupDocs.Signature はタイプ別に署名をフィルタリングできる強力な検索 API を提供します。
+#### 直接の回答  
+`BarcodeSearchOptions` と `search` メソッドを使用して、ドキュメント内のすべてのバーコード署名のリストを取得します。見つけられなければ更新できません。GroupDocs.Signature はタイプ、ページ番号、バーコード形式でフィルタリングできる強力な検索 API を提供します。
 
 ```java
 import com.groupdocs.signature.options.search.BarcodeSearchOptions;
 import com.groupdocs.signature.domain.signatures.BarcodeSignature;
 import java.util.List;
-```
+```  
 
 ```java
 BarcodeSearchOptions options = new BarcodeSearchOptions();
-```
+```  
 
 ```java
 List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
-```
+```  
 
-これで `BarcodeSignature` オブジェクトのリストが得られます。各オブジェクトは `Left`、`Top`、`Width`、`Height`、`Text`、`EncodeType` などのプロパティを公開しています。
+これで `BarcodeSignature` オブジェクトのリストが得られ、各オブジェクトは `Left`、`Top`、`Width`、`Height`、`Text`、`EncodeType` などのプロパティを公開します。
 
-> **Performance note:** 非常に大きな PDF の場合は、検索対象を特定のページやバーコードタイプに絞って処理速度を向上させてください。
+> **Performance note**: 非常に大きな PDF の場合は、特定のページやバーコードタイプに検索範囲を絞って実行速度を向上させてください。
 
-### Step 3: Update Barcode Properties
+### 手順 3: バーコードのプロパティを更新
+`BarcodeSignature` はドキュメントに埋め込まれた個々のバーコードを表し、視覚属性のセッターを提供します。  
 
-#### Direct answer
-取得した `BarcodeSignature` の `Left`、`Top`、`Width`、`Height` を変更し、`signature.update` を呼び出して変更を新しいファイルに書き込みます。
-
-これで **バーコードサイズの変更** や任意の位置への再配置が可能になります。
+#### 直接の回答  
+取得した `BarcodeSignature` の `Left`、`Top`、`Width`、`Height` を変更し、`signature.update` を呼び出して新しいファイルに書き込みます。これによりバーコードのサイズや位置を自由に変更でき、元のソースファイルはそのまま残ります。
 
 ```java
 import java.io.File;
 import com.groupdocs.signature.exception.GroupDocsSignatureException;
-```
+```  
 
 ```java
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
 checkDir(outputFilePath);
-```
+```  
 
 ```java
 if (signatures.size() > 0) {
@@ -220,43 +192,27 @@ if (signatures.size() > 0) {
 } catch (GroupDocsSignatureException e) {
     System.err.println("Error updating signature: " + e.getMessage());
 }
-```
+```  
 
-**Key points:**
-- `setLeft` / `setTop` はバーコードを移動します（座標は左上隅から測定）。
-- `update` メソッドは新しいファイルを書き出し、元のファイルはそのまま残ります。
-- `GroupDocsSignatureException` の可能性に備えて、`try‑catch` ブロックで呼び出しをラップしてください。
+**重要ポイント**  
+- `setLeft` / `setTop` は左上隅からの座標でバーコードを移動します。  
+- `update` は新しいファイルを書き出し、元のファイルは変更されません。  
+- `try‑catch` ブロックで `GroupDocsSignatureException` を適切に処理してください。
 
-## バーコード署名はいつ更新すべきか？
+## バーコード署名を更新すべきタイミングは？
+ドキュメントのレイアウトが変更されたとき、規制要件が変わったとき、またはデータ移行後に既存ファイルを一括処理する必要があるときに更新すべきです。プログラムで更新すれば手動編集を回避でき、エラー率が低減し、何千ものファイルで一貫した配置が保証されます。
 
-適切なシナリオを理解することで、効率的なワークフローを設計できます。
-
-### 文書のリブランディングとテンプレート更新
-新しいレターヘッドやラベルレイアウトは、バーコードの再配置が必要になることが多いです。Java で自動化すれば、数百ファイルを手作業で編集する手間が省けます。
-
-### データ移行後のバッチ処理
-移行した PDF が現在のバーコード配置基準に合わないことがあります。バルク更新により、各文書を再作成せずに一貫性を回復できます。
-
-### 規制遵守の調整
-物流や医療などの業界では、バーコード配置規則が変更されることがあります。簡単なスクリプトでコンプライアンスを維持できます。
-
-### 動的文書生成
-文書の内容長が変動する場合、バーコード座標を動的に調整する必要があります。
-
-**更新しない方が良いケース:** 新規文書を作成する場合は、最初から正しい位置にバーコードを配置し、追加後の更新は行わないでください。
-
-## 一般的な問題と解決策
+## よくある問題と解決策
 
 ### 問題 1: 「バーコード署名が見つかりません」
+**症状**: バーコードが PDF に表示されているにもかかわらず、検索結果が空リストになる。  
 
-**Symptom:** PDF にバーコードが表示されているにもかかわらず、検索結果が空リストになる。
-
-**Possible Causes**
+**考えられる原因**  
 - バーコードが画像やフォームフィールドとして埋め込まれており、署名オブジェクトとして認識されていない。  
-- 文書がパスワードで保護されている。  
-- 特定のバーコードタイプでフィルタリングしており、該当しない。
+- ドキュメントがパスワードで保護されている。  
+- 特定のバーコードタイプでフィルタリングしており、実際のタイプと一致しない。  
 
-**Solution**
+**解決策**  
 ```java
 BarcodeSearchOptions options = new BarcodeSearchOptions();
 options.setAllPages(true); // Search all pages, not just the first
@@ -265,18 +221,17 @@ List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, opt
 if (signatures.isEmpty()) {
     System.out.println("No barcode signatures found. The barcodes might be images, not signature objects.");
 }
-```
+```  
 
-### 問題 2: 更新された文書が破損しているように見える
+### 問題 2: 更新後のドキュメントが破損している
+**症状**: 更新後に PDF が開けない。  
 
-**Symptom:** 更新後に PDF が開けなくなる。
-
-**Possible Causes**
+**考えられる原因**  
 - ディスク容量が不足している。  
 - 出力ディレクトリが存在しない。  
-- ファイルシステムの権限が書き込みをブロックしている。
+- ファイルシステムの権限が書き込みをブロックしている。  
 
-**Solution**
+**解決策**  
 ```java
 File outputDir = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/");
 if (!outputDir.exists()) {
@@ -287,25 +242,24 @@ if (!outputDir.exists()) {
 if (!outputDir.canWrite()) {
     throw new IOException("Cannot write to output directory: " + outputDir.getAbsolutePath());
 }
-```
+```  
 
-### 問題 3: 大容量文書でのパフォーマンス低下
+### 問題 3: 大容量ドキュメントでパフォーマンスが低下する
+**症状**: 50 ページ超の PDF の処理が著しく遅くなる。  
 
-**Symptom:** 約 50 ページを超える PDF の処理が著しく遅くなる。
-
-**Solution**
+**解決策**  
 ```java
 BarcodeSearchOptions options = new BarcodeSearchOptions();
 options.setPageNumber(1); // Start with page 1
 options.setPagesSetup(new PagesSetup());
 options.getPagesSetup().setFirstPage(true);
 options.getPagesSetup().setLastPage(false);
-```
+```  
 
 ## パフォーマンス最適化のヒント
 
 ### バッチ処理のメモリ管理
-1 つの文書ずつ処理し、Java にリソースの自動クリーンアップを任せます:
+1 つのドキュメントずつ処理し、Java にリソースの自動クリーンアップを任せます：
 
 ```java
 List<String> documentPaths = getDocumentList();
@@ -315,10 +269,10 @@ for (String path : documentPaths) {
         // Signature instance is auto‑closed after each iteration
     }
 }
-```
+```  
 
 ### 検索結果のキャッシュ
-同じバーコードに対して複数のプロパティを変更する必要がある場合、検索は一度だけ実行し、取得したリストを再利用します:
+同じバーコードに対して複数のプロパティを変更する必要がある場合は、検索を一度だけ実行し、取得したリストを再利用します：
 
 ```java
 List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
@@ -333,10 +287,10 @@ for (BarcodeSignature barcode : signatures) {
 
 // Single update call with all changes
 signature.update(outputPath, signatures);
-```
+```  
 
 ### 大規模バッチの並列処理
-Java ストリームを活用して数千文書の処理速度を向上させます:
+Java ストリームを活用して数千のドキュメントを高速化します：
 
 ```java
 documentPaths.parallelStream().forEach(path -> {
@@ -352,83 +306,88 @@ documentPaths.parallelStream().forEach(path -> {
         logError(path, e);
     }
 });
-```
+```  
 
-## 実用的な適用例
+## 実用例
 
-### ユースケース 1: 自動化された物流ラベルの更新
-ある配送会社が箱の寸法を変更したため、既存の 50,000 枚のラベルのバーコード位置を再配置する必要がありました。上記の並列処理スニペットにより、作業時間は数日から数時間に短縮されました。
+### ユースケース 1: 自動物流ラベルの更新
+ある物流会社が箱のサイズを変更したため、50,000 件の既存ラベルのバーコード位置を再配置する必要がありました。上記の並列処理スニペットにより、作業は数日から数時間に短縮されました。
 
 ### ユースケース 2: 契約テンプレートの標準化
-法務部門がスキャン用の固定バーコード位置を義務付けました。すべての契約 PDF を単一バッチで検索・更新することで、手作業の再印刷コストを回避できました。
+法務部がスキャン時のバーコード位置を固定することを義務付けました。すべての契約 PDF を単一バッチで検索・更新することで、手作業の再印刷コストを回避できました。
 
 ### ユースケース 3: 在庫システム統合
-ERP のアップグレード後、製品バーコードを新しいラベルプリンターに合わせる必要がありました。バーコードのサイズと位置をプログラムで更新することで、時間と材料コストの両方を節約しました。
+ERP のアップグレード後、製品バーコードを新しいラベルプリンターに合わせて調整する必要がありました。プログラムでサイズと位置を更新したことで、時間と材料コストの両方を削減しました。
 
 ## トラブルシューティングチェックリスト
 
-サポートに問い合わせる前に、以下のチェックリストを実行してください:
+サポートに問い合わせる前に以下を確認してください：
 
-- [ ] **File path is correct** and the file exists  
-- [ ] **Read/write permissions** are granted for source and destination  
-- [ ] **GroupDocs.Signature version** is 23.12 or later  
-- [ ] **License is properly configured** (if using a full license)  
-- [ ] **Output directory exists** or is created programmatically  
-- [ ] **Sufficient disk space** for output files  
-- [ ] **No other process** is locking the source file  
-- [ ] **Exception handling** is in place to capture errors  
+- [ ] **ファイルパスが正しく、ファイルが存在する**。  
+- [ ] **読み取り/書き込み権限がソースと宛先に付与されている**。  
+- [ ] **GroupDocs.Signature のバージョンが 23.12 以上**。  
+- [ ] **ライセンスが正しく構成されている（フルライセンス使用時）**。  
+- [ ] **出力ディレクトリが存在するか、プログラムで作成されている**。  
+- [ ] **出力ファイル用の十分なディスク容量がある**。  
+- [ ] **他のプロセスがソースファイルをロックしていない**。  
+- [ ] **例外処理が実装され、エラーを捕捉できる**。  
 
 ## よくある質問
 
-**Q: Can I update barcode signature Java code for multiple barcodes in one document?**  
-A: Absolutely. Iterate through the `List<BarcodeSignature>` returned by the search and call `signature.update()` for each, or pass the entire list to a single `update` call.
+**Q: 1 つのドキュメント内で複数のバーコードを同時に更新できますか？**  
+A: もちろんです。`search` で取得した `List<BarcodeSignature>` をイテレートし、各要素に対して `signature.update()` を呼び出すか、リスト全体を一括で `update` に渡します。
 
-**Q: What barcode types does GroupDocs.Signature support?**  
-A: Dozens, including Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417, and more. Use `barcodeSignature.getEncodeType()` to inspect the type.
+**Q: GroupDocs.Signature がサポートするバーコードタイプは？**  
+A: Code 128、QR Code、EAN‑13、UPC‑A、DataMatrix、PDF417 など数十種。`barcodeSignature.getEncodeType()` でタイプを確認できます。
 
-**Q: Can I change the barcode's actual content (the encoded data)?**  
-A: Yes, via `setText()`, but remember to regenerate the visual barcode so scanners read it correctly.
+**Q: バーコードの実際の内容（エンコードデータ）を変更できますか？**  
+A: はい、`setText()` で変更可能ですが、スキャナが正しく読み取れるように視覚的なバーコードも再生成してください。
 
-**Q: How do I handle documents with barcodes on multiple pages?**  
-A: Each `BarcodeSignature` includes `getPageNumber()`. Filter or process page‑specific barcodes as needed.
+**Q: 複数ページにわたるバーコードがあるドキュメントはどう扱いますか？**  
+A: 各 `BarcodeSignature` は `getPageNumber()` を持ちます。ページ単位でフィルタリングまたは処理してください。
 
-**Q: What happens to the original document after updating?**  
-A: The source file remains untouched. GroupDocs writes the changes to the output path you specify, preserving the original for safety.
+**Q: 更新後の元ドキュメントはどうなりますか？**  
+A: ソースファイルはそのまま残ります。GroupDocs は指定した出力パスに変更を書き込み、元ファイルは安全に保護されます。
 
-**Q: Can I update barcodes in password‑protected PDFs?**  
-A: Yes. Use the `LoadOptions` overload of the `Signature` constructor to supply the password.
+**Q: パスワード保護された PDF のバーコードも更新できますか？**  
+A: はい。`Signature` コンストラクタの `LoadOptions` オーバーロードでパスワードを渡してください。
 
-**Q: How do I batch process thousands of documents efficiently?**  
-A: Combine parallel streams with try‑with‑resources (as shown in the parallel‑processing example) and monitor memory usage.
+**Q: 数千件のドキュメントを効率的にバッチ処理するには？**  
+A: 並列ストリームと `try‑with‑resources` を組み合わせ（上記の並列処理例参照）て実装し、メモリ使用量を監視してください。
 
-**Q: Does this work with formats other than PDF?**  
-A: Yes. The same API works with Word, Excel, PowerPoint, images, and many other formats supported by GroupDocs.Signature.
+**Q: PDF 以外の形式でも動作しますか？**  
+A: はい。同じ API が Word、Excel、PowerPoint、画像など、GroupDocs.Signature がサポートする多数の形式で利用可能です。
 
 ## 結論
 
-これで **create barcode signature java** オブジェクトの作成と、位置・サイズ・その他プロパティの更新に関する完全な本番対応ガイドが手に入りました。初期化、検索、変更、トラブルシューティング、パフォーマンスチューニングを、単一文書と大規模バッチの両シナリオで網羅しました。
+これで **バーコード署名 Java の作成** とその位置・サイズ・その他プロパティの更新方法に関する、実運用レベルの完全ガイドが完成しました。初期化、検索、変更、トラブルシューティング、パフォーマンスチューニングをシングルドキュメントから大規模バッチまで網羅しています。
 
 ### 次のステップ
-- 同時に複数プロパティ（例: 回転、透明度）を更新する実験を行う。  
-- このコードをベースに REST サービスを構築し、バーコード更新を API として提供する。  
-- 同様のパターンでテキスト、画像、デジタル署名など他の署名タイプも検証する。
+- 回転や不透明度などの追加プロパティも同時に更新してみましょう。  
+- ロジックを REST サービスでラップし、バーコード更新を API エンドポイントとして公開します。  
+- 同様のパターンでテキスト、画像、デジタル署名など他の署名タイプも自動化し、ドキュメントワークフローを完全に統合します。
 
-GroupDocs.Signature API はバーコード更新以上の機能を提供します。検証、メタデータ処理、マルチフォーマットサポートを活用して、文書ワークフローを完全に自動化しましょう。
-
-**Resources**
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
-- [API Reference](https://reference.groupdocs.com/signature/java/)
-- [Support Forum](https://forum.groupdocs.com/c/signature)
-- [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+**リソース**  
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)  
+- [API Reference](https://reference.groupdocs.com/signature/java/)  
+- [Support Forum](https://forum.groupdocs.com/c/signature)  
+- [Free Trial Download](https://releases.groupdocs.com/signature/java/)  
 
 ---
 
-**Last Updated:** 2026-05-06  
+**Last Updated:** 2026-08-19  
 **Tested With:** GroupDocs.Signature 23.12  
 **Author:** GroupDocs
 
-## Related Tutorials
+## 関連チュートリアル
 
-- [JavaでPDFのバーコード署名を作成 – GroupDocs ガイド](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
-- [GroupDocs.Signature Java チュートリアル - PDFにバーコード署名を追加](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)
-- [Java バーコード署名チュートリアル - PDFでバーコードを追加、検証、管理](/signature/java/barcode-signatures/)
+- [Create Barcode Signature PDF in Java – GroupDocs Guide](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
+- [GroupDocs.Signature Java Tutorial - Add Barcode Signatures to PDFs](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)
+- [Java Barcode Signature Tutorial - Add, Verify & Manage Barcodes in PDFs](/signature/java/barcode-signatures/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,18 +1,24 @@
 ---
 categories:
 - Java Document Processing
-date: '2026-05-06'
-description: Learn how to create barcode signature java and update its position, size,
-  and properties for PDFs using GroupDocs.Signature API.
+date: '2026-08-19'
+description: Zjistěte, jak vytvořit barcode signature java a aktualizovat její polohu,
+  velikost a vlastnosti pro PDF pomocí GroupDocs.Signature API.
 keywords:
 - create barcode signature java
 - barcode signature java
 - groupdocs signature java
-lastmod: '2026-05-06'
-linktitle: Update Barcode Signatures in Java
+lastmod: '2026-08-19'
+linktitle: Aktualizovat Barcode Signatures v Java
+og_description: Zjistěte, jak vytvořit barcode signature java a upravit její polohu,
+  velikost a vlastnosti v PDF pomocí GroupDocs.Signature API. Rychlé, spolehlivé a
+  připravené pro dávkové zpracování.
+og_image_alt: Guide to creating and updating barcode signatures in Java PDFs with
+  GroupDocs.Signature
+og_title: Create barcode signature java – efektivně aktualizovat PDF čárové kódy
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-06'
+  dateModified: '2026-08-19'
   description: Learn how to create barcode signature java and update its position,
     size, and properties for PDFs using GroupDocs.Signature API.
   headline: Create Barcode Signature Java – Update PDF Barcodes
@@ -37,168 +43,137 @@ schemas:
       to a new file. Now you can **change barcode size** or reposition it wherever
       you need. **Key points:** - `setLeft` / `setTop` move the barcode (coor'
   type: HowTo
-- questions:
-  - answer: Absolutely. Iterate through the `List<BarcodeSignature>` returned by the
-      search and call `signature.update()` for each, or pass the entire list to a
-      single `update` call.
-    question: Can I update barcode signature Java code for multiple barcodes in one
-      document?
-  - answer: Dozens, including Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417,
-      and more. Use `barcodeSignature.getEncodeType()` to inspect the type.
-    question: What barcode types does GroupDocs.Signature support?
-  - answer: Yes, via `setText()`, but remember to regenerate the visual barcode so
-      scanners read it correctly.
-    question: Can I change the barcode's actual content (the encoded data)?
-  - answer: Each `BarcodeSignature` includes `getPageNumber()`. Filter or process
-      page‑specific barcodes as needed.
-    question: How do I handle documents with barcodes on multiple pages?
-  - answer: The source file remains untouched. GroupDocs writes the changes to the
-      output path you specify, preserving the original for safety.
-    question: What happens to the original document after updating?
-  type: FAQPage
 tags:
-- barcode-signatures
-- pdf-automation
-- groupdocs-java
-- document-management
-title: Create Barcode Signature Java – Update PDF Barcodes
+- barcode signatures
+- pdf automation
+- groupdocs java
+- document management
+- java barcode
+title: Vytvořit barcode signature java – aktualizovat PDF čárové kódy
 type: docs
 url: /cs/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/
 weight: 1
 ---
 
-# Vytvořit čárový kód podpis Java – Aktualizovat PDF čárové kódy
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-Už jste někdy potřebovali přemístit čárový kód na tisících přepravních štítcích po redesignu balení? Nebo aktualizovat umístění čárových kódů v šablonách smluv, když váš právní tým mění rozvržení dokumentů? Nejste v tom sami — tato situace se neustále objevuje v pracovních postupech automatizace dokumentů.
+# Vytvoření čárového kódu podpisu java – aktualizace čárových kódů v PDF
 
-V tomto průvodci se naučíte **jak vytvořit čárový kód podpis java** a programově upravit jeho pozici, velikost a další vlastnosti. Ruční aktualizace čárového kódu podpisu je zdlouhavá a náchylná k chybám. S GroupDocs.Signature pro Java můžete vytvářet objekty čárových kódů podpisu a poté je aktualizovat pomocí několika řádků kódu. Ať už budujete inventurní systém, automatizujete logistické dokumenty nebo spravujete právní smlouvy, programová aktualizace čárových kódů podpisu šetří hodiny ruční práce.
+Když potřebujete přemístit čárové kódy na tisících přepravních štítcích nebo upravit umístění čárových kódů po redesignu šablony, ruční provedení je náchylné k chybám a časově náročné. V tomto průvodci se naučíte **jak vytvořit čárový kód podpisu java** a poté programově upravit jeho polohu, velikost a další vlastnosti pomocí GroupDocs.Signature pro Java. Přístup funguje pro PDF, Word, Excel, PowerPoint a soubory obrázků, což vám poskytuje jednotné, konzistentní API pro všechny scénáře automatizace dokumentů.
 
 ## Rychlé odpovědi
-- **Co znamená „create barcode signature“?** Znamená to generování objektu čárového kódu, který může být umístěn, přesunut nebo upraven uvnitř dokumentu pomocí API.  
-- **Mohu změnit velikost čárového kódu po jeho vytvoření?** Ano — použijte metody `setWidth` a `setHeight` nebo upravte jeho souřadnice `Left`/`Top`.  
+- **Co znamená „create barcode signature“?** Znamená to vytvoření objektu `BarcodeSignature`, který může být umístěn, přesunut nebo upraven uvnitř dokumentu pomocí API.  
+- **Mohu změnit velikost čárového kódu po jeho vytvoření?** Ano – použijte `setWidth`/`setHeight` nebo upravte jeho souřadnice `Left`/`Top`.  
 - **Potřebuji licenci pro aktualizaci čárových kódů?** Zkušební verze funguje pro vývoj; pro produkci je vyžadována plná licence.  
-- **Funguje to jen s PDF?** Ne — stejný kód funguje s Word, Excel, PowerPoint a soubory obrázků.  
-- **Kolik dokumentů mohu zpracovat najednou?** Je podporováno dávkové zpracování; stačí spravovat paměť pomocí try‑with‑resources.
+- **Funguje to jen s PDF?** Ne – stejný kód funguje s Word, Excel, PowerPoint a běžnými formáty obrázků.  
+- **Kolik dokumentů mohu zpracovat najednou?** Je podporováno dávkové zpracování; jen spravujte paměť pomocí try‑with‑resources.
 
 ## Co je create barcode signature java?
-Create barcode signature java je proces vytvoření instance objektu `BarcodeSignature`, který představuje čárový kód vložený jako digitální podpis uvnitř dokumentu. Toto volání API vám umožňuje přidávat, vyhledávat nebo upravovat čárové kódy bez otevření souboru ve vizuálním editoru.
+Create barcode signature java je proces vytvoření instance objektu `BarcodeSignature`, který představuje čárový kód vložený jako digitální podpis uvnitř dokumentu. Pomocí API GroupDocs.Signature můžete programově přidat nový čárový kód, najít existující nebo upravit jejich vlastnosti, jako je poloha, velikost a kódovaný text, a to vše bez otevření souboru ve vizuálním editoru.
 
 ## Proč používat GroupDocs.Signature pro Java?
-GroupDocs.Signature podporuje **více než 50 vstupních a výstupních formátů** — včetně PDF, DOCX, XLSX, PPTX a běžných typů obrázků — a dokáže zpracovat PDF s několika stovkami stránek při využití paměti pod 100 MB. Jeho dávkové API zvládne až **10 000 dokumentů na jedno spuštění** na standardním serveru, což umožňuje provádět rozsáhlé aktualizace.
+GroupDocs.Signature podporuje **více než 50 vstupních a výstupních formátů**—včetně PDF, DOCX, XLSX, PPTX a běžných typů obrázků— a dokáže zpracovat PDF s několika stovkami stránek při využití paměti pod 100 MB. Jeho dávkové API zvládne až **10 000 dokumentů na jeden běh** na standardním serveru, což umožňuje provádět rozsáhlé aktualizace.
 
-## Předpoklady
+## Požadavky
 
-Než budete moci aktualizovat kód barcode signature Java ve svých projektech, ujistěte se, že máte tyto nezbytnosti pokryté:
+- **GroupDocs.Signature pro Java** ≥ 23.12 (starší verze postrádají metody aktualizace použité zde).  
+- Java Development Kit 8 nebo vyšší.  
+- IDE, jako je IntelliJ IDEA, Eclipse nebo VS Code.  
+- Základní znalosti Javy (třídy, objekty, zpracování výjimek).  
 
 ### Požadované knihovny
-- **GroupDocs.Signature for Java**: Verze 23.12 nebo novější (starší verze mohou postrádat aktualizační metody, které použijeme).
+Přidejte GroupDocs.Signature do svého projektu pomocí preferovaného nástroje pro sestavení.
 
-### Nastavení prostředí
-- Fungující **Java Development Kit (JDK)** (doporučeno JDK 8 nebo vyšší)
-- **IDE** jako IntelliJ IDEA, Eclipse nebo VS Code
-
-### Předpoklady znalostí
-- Základy Javy (třídy, objekty, zpracování výjimek)
-- Práce se soubory v Javě (cesty, adresáře)
-- Volitelně: Porozumění struktuře PDF a konceptům čárových kódů
-
-Máte vše? Skvělé! Nainstalujme knihovnu.
-
-## Nastavení GroupDocs.Signature pro Java
-
-Přidání GroupDocs.Signature do vašeho Java projektu je jednoduché. Vyberte si nástroj pro sestavení, který používáte:
-
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
     <artifactId>groupdocs-signature</artifactId>
     <version>23.12</version>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
+```  
 
-**Přímé stažení**: Pokud nepoužíváte nástroj pro sestavení, stáhněte si nejnovější JAR soubor z [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) a přidejte jej ručně do classpath vašeho projektu.
+**Direct download** – stáhněte nejnovější JAR z [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) a přidejte jej do classpath.
 
 ### Získání licence
-
 GroupDocs.Signature funguje jak se zkušební, tak s plnou licencí:
-- **Free Trial** — ideální pro testování a proof‑of‑concept práci
-- **Temporary License** — pro rozšířené hodnocení na konkrétním projektu
-- **Full License** — odstraňuje vodoznaky a omezení používání pro produkci
 
-**Tip**: Začněte se zkušební verzí, abyste ověřili, že API splňuje vaše potřeby, a poté přejděte na plnou verzi, až budete připraveni nasadit do provozu.
+- **Free trial** – ideální pro práci na důkazu konceptu.  
+- **Temporary license** – pro rozšířené hodnocení na konkrétním projektu.  
+- **Full license** – odstraňuje vodoznaky a omezení používání pro produkci.
+
+*Pro tip*: Začněte se zkušební verzí, poté upgradujte, jakmile ověříte pracovní postup.
 
 ## Jak vytvořit barcode signature java
 
-### Krok 1: Inicializace instance Signature
+### Krok 1: inicializace instance podpisu
+`Signature` je hlavní vstupní třída, která načte dokument a poskytuje metody pro vyhledávání, přidávání a aktualizaci podpisů.
 
 #### Přímá odpověď
-Vytvořte objekt `Signature` předáním cesty k dokumentu, který chcete upravit; tím se soubor načte do paměti a připraví na operace s čárovým kódem.
-
-Třída `Signature` je vstupní bránou ke všem akcím souvisejícím s podpisy. Načítá soubor a poskytuje metody pro vyhledávání, přidávání nebo aktualizaci podpisů.
+Vytvořte objekt `Signature` předáním cesty k dokumentu, který chcete upravit; tím se soubor načte do paměti a připraví na operace s čárovými kódy. Třída `Signature` je vstupní bránou ke všem akcím souvisejícím s podpisy. Načte soubor a poskytuje metody pro vyhledávání, přidávání nebo aktualizaci podpisů.
 
 ```java
 import com.groupdocs.signature.Signature;
 import java.nio.file.Paths;
-```
+```  
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/your_document.pdf";
-```
+```  
 
 ```java
 Signature signature = new Signature(filePath);
-```
+```  
 
-> **Tip:** Ověřte cestu před vytvořením instance `Signature`, aby nedošlo k `FileNotFoundException`.
+> **Pro tip**: Ověřte cestu k souboru před vytvořením instance `Signature`, aby nedošlo k `FileNotFoundException`.
 
-### Krok 2: Vyhledání čárových kódů podpisů
+### Krok 2: vyhledání čárových kódů podpisů
+`BarcodeSearchOptions` definuje kritéria používaná při skenování dokumentu pro čárové kódy podpisů.
 
 #### Přímá odpověď
-Použijte `BarcodeSearchOptions` s metodou `search` k získání seznamu všech čárových kódů podpisů v dokumentu.
-
-Nemůžete aktualizovat to, co nenajdete. GroupDocs.Signature poskytuje výkonné vyhledávací API, které filtruje podpisy podle typu.
+Použijte `BarcodeSearchOptions` s metodou `search` k získání seznamu všech čárových kódů podpisů v dokumentu. Nemůžete aktualizovat to, co nenajdete. GroupDocs.Signature poskytuje výkonné vyhledávací API, které filtruje podpisy podle typu, čísla stránky nebo formátu čárového kódu.
 
 ```java
 import com.groupdocs.signature.options.search.BarcodeSearchOptions;
 import com.groupdocs.signature.domain.signatures.BarcodeSignature;
 import java.util.List;
-```
+```  
 
 ```java
 BarcodeSearchOptions options = new BarcodeSearchOptions();
-```
+```  
 
 ```java
 List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
-```
+```  
 
 Nyní máte seznam objektů `BarcodeSignature`, z nichž každý poskytuje vlastnosti jako `Left`, `Top`, `Width`, `Height`, `Text` a `EncodeType`.
 
-> **Poznámka k výkonu:** U velmi velkých PDF zvažte omezení vyhledávání na konkrétní stránky nebo typy čárových kódů pro zrychlení.
+> **Poznámka k výkonu**: Pro velmi velké PDF soubory zúžte vyhledávání na konkrétní stránky nebo typy čárových kódů, aby se urychlilo provádění.
 
-### Krok 3: Aktualizace vlastností čárového kódu
+### Krok 3: aktualizace vlastností čárového kódu
+`BarcodeSignature` představuje jednotlivý čárový kód vložený do dokumentu a poskytuje nastavitelná (setter) pro jeho vizuální atributy.
 
 #### Přímá odpověď
-Upravte `Left`, `Top`, `Width` a `Height` získaného `BarcodeSignature` a zavolejte `signature.update`, aby se změny zapsaly do nového souboru.
-
-Nyní můžete **změnit velikost čárového kódu** nebo jej přemístit kamkoli potřebujete.
+Upravte `Left`, `Top`, `Width` a `Height` získaného `BarcodeSignature` a zavolejte `signature.update` k zápisu změn do nového souboru. To vám umožní změnit velikost čárového kódu nebo jej přemístit kamkoli potřebujete, zatímco původní zdrojový soubor zůstane nedotčen.
 
 ```java
 import java.io.File;
 import com.groupdocs.signature.exception.GroupDocsSignatureException;
-```
+```  
 
 ```java
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY/UpdateBarcode/" + fileName).getPath();
 checkDir(outputFilePath);
-```
+```  
 
 ```java
 if (signatures.size() > 0) {
@@ -220,40 +195,25 @@ if (signatures.size() > 0) {
 } catch (GroupDocsSignatureException e) {
     System.err.println("Error updating signature: " + e.getMessage());
 }
-```
+```  
 
-**Klíčové body:**
-- `setLeft` / `setTop` posunou čárový kód (souřadnice měřené od levého horního rohu).
-- Metoda `update` zapíše nový soubor; originál zůstane nedotčen.
-- Zabalte volání do bloku `try‑catch`, abyste ošetřili možné `GroupDocsSignatureException`.
+**Klíčové body**
+- `setLeft` / `setTop` posunou čárový kód (souřadnice měřené od levého horního rohu).  
+- `update` zapíše nový soubor; originál zůstane nezměněn.  
+- Zabalte volání do bloku `try‑catch`, aby se ošetřila možná `GroupDocsSignatureException`.
 
 ## Kdy byste měli aktualizovat čárové kódy podpisů?
-
-Pochopení správných scénářů vám pomůže navrhnout efektivní pracovní postupy.
-
-### Přebrandování dokumentu a aktualizace šablon
-Nové hlavičkové papíry nebo rozvržení štítků často znamená, že je třeba čárové kódy přemístit. Automatizace pomocí Javy překoná ruční úpravu stovek souborů.
-
-### Dávkové zpracování po migraci dat
-Migrované PDF nemusí odpovídat vašim současným standardům umístění čárových kódů. Hromadná aktualizace obnoví konzistenci bez nutnosti přetvářet každý dokument.
-
-### Úpravy pro soulad s regulacemi
-Odvětví jako logistika nebo zdravotnictví mohou měnit pravidla umístění čárových kódů. Rychlý skript vám umožní zůstat v souladu.
-
-### Dynamické generování dokumentů
-Pokud se délka obsahu dokumentu liší, může být nutné dynamicky upravit souřadnice čárového kódu.
-
-**Kdy NEPOUŽÍVAT aktualizace:** Pokud vytváříte zcela nový dokument, umístěte čárový kód správně od začátku místo jeho přidání a následné aktualizace.
+Měli byste aktualizovat čárové kódy podpisů vždy, když se mění rozvržení dokumentů, mění se regulační požadavky nebo potřebujete dávkově zpracovat existující soubory po migraci dat. Programová aktualizace eliminuje ruční úpravy, snižuje míru chyb a zajišťuje konzistentní umístění napříč tisíci soubory.
 
 ## Časté problémy a řešení
 
-### Problém 1: „Nenalezeny žádné čárové kódy podpisu“
-**Příznak:** Vyhledávání vrací prázdný seznam, i když v PDF vidíte čárové kódy.
+### Problém 1: „Nenalezeny žádné čárové kódy podpisů“
+**Příznak**: Vyhledávání vrátí prázdný seznam, i když jsou čárové kódy v PDF viditelné.  
 
 **Možné příčiny**
-- Čárové kódy jsou vloženy jako obrázky nebo formulářová pole, nikoli jako objekty podpisu.
-- Dokument je chráněn heslem.
-- Filtrujete konkrétní typ čárového kódu, který neodpovídá.
+- Čárové kódy jsou vloženy jako obrázky nebo formulářová pole, nikoli jako objekty podpisu.  
+- Dokument je chráněn heslem.  
+- Filtrujete konkrétní typ čárového kódu, který neodpovídá.  
 
 **Řešení**
 ```java
@@ -264,15 +224,15 @@ List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, opt
 if (signatures.isEmpty()) {
     System.out.println("No barcode signatures found. The barcodes might be images, not signature objects.");
 }
-```
+```  
 
 ### Problém 2: Aktualizovaný dokument vypadá poškozeně
-**Příznak:** PDF se po aktualizaci neotevře.
+**Příznak**: PDF se po aktualizaci neotevře.  
 
 **Možné příčiny**
-- Nedostatek místa na disku.
-- Výstupní adresář neexistuje.
-- Oprávnění souborového systému blokují zápis.
+- Nedostatek místa na disku.  
+- Výstupní adresář neexistuje.  
+- Oprávnění souborového systému blokují zápis.  
 
 **Řešení**
 ```java
@@ -285,10 +245,10 @@ if (!outputDir.exists()) {
 if (!outputDir.canWrite()) {
     throw new IOException("Cannot write to output directory: " + outputDir.getAbsolutePath());
 }
-```
+```  
 
 ### Problém 3: Pokles výkonu u velkých dokumentů
-**Příznak:** Zpracování se dramaticky zpomaluje u PDF s více než ~50 stránkami.
+**Příznak**: Zpracování se dramaticky zpomaluje u PDF s více než ~50 stránkami.  
 
 **Řešení**
 ```java
@@ -297,12 +257,12 @@ options.setPageNumber(1); // Start with page 1
 options.setPagesSetup(new PagesSetup());
 options.getPagesSetup().setFirstPage(true);
 options.getPagesSetup().setLastPage(false);
-```
+```  
 
 ## Tipy pro optimalizaci výkonu
 
 ### Správa paměti pro dávkové operace
-Zpracovávejte jeden dokument po druhém a nechte Javu automaticky uvolňovat prostředky:
+Zpracovávejte jeden dokument po druhém a nechte Javu automaticky uvolnit prostředky:
 
 ```java
 List<String> documentPaths = getDocumentList();
@@ -312,10 +272,10 @@ for (String path : documentPaths) {
         // Signature instance is auto‑closed after each iteration
     }
 }
-```
+```  
 
 ### Ukládání výsledků vyhledávání do cache
-Pokud potřebujete upravit několik vlastností stejných čárových kódů, vyhledejte je jednou a znovu použijte seznam:
+Pokud potřebujete upravit několik vlastností stejných čárových kódů, vyhledejte jednou a znovu použijte seznam:
 
 ```java
 List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
@@ -330,10 +290,10 @@ for (BarcodeSignature barcode : signatures) {
 
 // Single update call with all changes
 signature.update(outputPath, signatures);
-```
+```  
 
 ### Paralelní zpracování pro masivní dávky
-Využijte Java streams pro zrychlení zpracování tisíců dokumentů:
+Využijte Java streams k urychlení zpracování tisíců dokumentů:
 
 ```java
 documentPaths.parallelStream().forEach(path -> {
@@ -349,31 +309,30 @@ documentPaths.parallelStream().forEach(path -> {
         logError(path, e);
     }
 });
-```
+```  
 
 ## Praktické aplikace
 
-### Případ použití 1: Automatizované aktualizace logistických štítků
-Přepravní společnost změnila rozměry krabic, což vyžadovalo přemístění čárových kódů na 50 000 existujících štítcích. Výše uvedený kód pro paralelní zpracování snížil dobu z několika dní na několik hodin.
+### Případ použití 1: automatické aktualizace logistických štítků
+Přepravní společnost změnila rozměry krabic, což vyžadovalo přemístění čárových kódů na 50 000 existujících štítcích. Výše uvedený úryvek pro paralelní zpracování snížil dobu práce z dnů na několik hodin.
 
-### Případ použití 2: Standardizace šablon smluv
+### Případ použití 2: standardizace šablon smluv
 Právní oddělení nařídilo pevné umístění čárového kódu pro skenování. Vyhledáním a aktualizací všech PDF smluv v jedné dávce tým ušetřil nákladné ruční přetiskování.
 
-### Případ použití 3: Integrace inventárního systému
-Po upgradu ERP bylo nutné, aby se čárové kódy produktů sladily s novou tiskárnou štítků. Programová aktualizace velikosti a umístění čárových kódů ušetřila čas i náklady na materiál.
+### Případ použití 3: integrace inventárního systému
+Po upgradu ERP bylo nutné, aby se produktové čárové kódy sladily s novou tiskárnou štítků. Programová aktualizace velikosti a umístění čárových kódů ušetřila čas i náklady na materiál.
 
-## Kontrolní seznam pro odstraňování potíží
+## Kontrolní seznam pro řešení problémů
+Před kontaktováním podpory projděte tento kontrolní seznam:
 
-Než požádáte o podporu, projděte tento kontrolní seznam:
-
-- [ ] **Cesta k souboru je správná** a soubor existuje  
-- [ ] **Oprávnění pro čtení/zápis** jsou udělena pro zdroj i cíl  
-- [ ] **Verze GroupDocs.Signature** je 23.12 nebo novější  
-- [ ] **Licence je správně nakonfigurována** (pokud používáte plnou licenci)  
-- [ ] **Výstupní adresář existuje** nebo je vytvořen programově  
-- [ ] **Dostatek místa na disku** pro výstupní soubory  
-- [ ] **Žádný jiný proces** neblokuje zdrojový soubor  
-- [ ] **Zpracování výjimek** je nastaveno pro zachycení chyb  
+- [ ] **Cesta k souboru je správná** a soubor existuje.  
+- [ ] **Oprávnění čtení/zápisu** jsou udělena pro zdroj i cíl.  
+- [ ] **Verze GroupDocs.Signature** je 23.12 nebo novější.  
+- [ ] **Licence je správně nakonfigurována** (pokud používáte plnou licenci).  
+- [ ] **Výstupní adresář existuje** nebo je vytvořen programově.  
+- [ ] **Dostatek místa na disku** pro výstupní soubory.  
+- [ ] **Žádný jiný proces** neblokuje zdrojový soubor.  
+- [ ] **Zpracování výjimek** je nastaveno pro zachycení chyb.  
 
 ## Často kladené otázky
 
@@ -381,9 +340,9 @@ Než požádáte o podporu, projděte tento kontrolní seznam:
 A: Rozhodně. Procházejte `List<BarcodeSignature>` vrácený vyhledáváním a pro každý zavolejte `signature.update()`, nebo předáte celý seznam jedné metodě `update`.
 
 **Q: Jaké typy čárových kódů GroupDocs.Signature podporuje?**  
-A: Desítky, včetně Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417 a dalších. Použijte `barcodeSignature.getEncodeType()` pro zjištění typu.
+A: Desítky, včetně Code 128, QR Code, EAN‑13, UPC‑A, DataMatrix, PDF417 a dalších. Použijte `barcodeSignature.getEncodeType()` k zjištění typu.
 
-**Q: Mohu změnit skutečný obsah čárového kódu (zakódovaná data)?**  
+**Q: Mohu změnit skutečný obsah čárového kódu (kódovaná data)?**  
 A: Ano, pomocí `setText()`, ale nezapomeňte znovu vygenerovat vizuální čárový kód, aby jej skenery správně přečetly.
 
 **Q: Jak zacházet s dokumenty, které mají čárové kódy na více stránkách?**  
@@ -393,38 +352,44 @@ A: Každý `BarcodeSignature` obsahuje `getPageNumber()`. Podle potřeby filtruj
 A: Zdrojový soubor zůstane nedotčen. GroupDocs zapíše změny do výstupní cesty, kterou určíte, a zachová originál pro bezpečnost.
 
 **Q: Mohu aktualizovat čárové kódy v PDF chráněných heslem?**  
-A: Ano. Použijte přetížení `LoadOptions` v konstruktoru `Signature` a předložte heslo.
+A: Ano. Použijte přetížený konstruktor `Signature` s `LoadOptions` a zadejte heslo.
 
 **Q: Jak efektivně dávkově zpracovat tisíce dokumentů?**  
-A: Kombinujte paralelní streamy s try‑with‑resources (jak je ukázáno v příkladu paralelního zpracování) a sledujte využití paměti.
+A: Kombinujte paralelní streamy s try‑with‑resources (jak je ukázáno v příkladu paralelního zpracování) a monitorujte využití paměti.
 
-**Q: Funguje to i s jinými formáty než PDF?**  
+**Q: Funguje to i s formáty jinými než PDF?**  
 A: Ano. Stejné API funguje s Word, Excel, PowerPoint, obrázky a mnoha dalšími formáty podporovanými GroupDocs.Signature.
 
 ## Závěr
 
-Nyní máte kompletní, připravený průvodce pro **create barcode signature java** objekty a jejich aktualizaci pozice, velikosti a dalších vlastností. Pokryli jsme inicializaci, vyhledávání, úpravy, odstraňování potíží a ladění výkonu jak pro jednorázové dokumenty, tak pro masivní dávky.
+Nyní máte kompletní, připravený průvodce pro **create barcode signature java** objekty a aktualizaci jejich polohy, velikosti a dalších vlastností. Pokryli jsme inicializaci, vyhledávání, úpravy, řešení problémů a ladění výkonu pro scénáře jak s jedním dokumentem, tak s masivními dávkami.
 
 ### Další kroky
-- Experimentujte s aktualizací více vlastností (např. rotace, neprůhlednost) v jednom průchodu.  
-- Vytvořte REST službu kolem tohoto kódu, aby poskytovala aktualizace čárových kódů jako API.  
-- Prozkoumejte další typy podpisů (text, obrázek, digitální) pomocí stejného vzoru.
+- Experimentujte s aktualizací dalších vlastností, jako je rotace nebo neprůhlednost, v jednom průchodu.  
+- Zabalte logiku do REST služby, aby byly aktualizace čárových kódů vystaveny jako API endpoint.  
+- Prozkoumejte další typy podpisů (text, obrázek, digitální) pomocí stejného vzoru a plně automatizujte své pracovní postupy s dokumenty.
 
-API GroupDocs.Signature nabízí mnohem víc než aktualizace čárových kódů — prozkoumejte ověřování, práci s metadaty a podporu více formátů, abyste plně automatizovali své pracovní postupy s dokumenty.
-
-**Zdroje**
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
-- [API Reference](https://reference.groupdocs.com/signature/java/)
-- [Support Forum](https://forum.groupdocs.com/c/signature)
-- [Free Trial Download](https://releases.groupdocs.com/signature/java/)
+**Zdroje**  
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)  
+- [API Reference](https://reference.groupdocs.com/signature/java/)  
+- [Support Forum](https://forum.groupdocs.com/c/signature)  
+- [Free Trial Download](https://releases.groupdocs.com/signature/java/)  
 
 ---
 
-**Poslední aktualizace:** 2026-05-06  
-**Testováno s:** GroupDocs.Signature 23.12  
-**Autor:** GroupDocs
+**Last Updated:** 2026-08-19  
+**Tested With:** GroupDocs.Signature 23.12  
+**Author:** GroupDocs
 
 ## Související tutoriály
-- [Vytvořit čárový kód podpis PDF v Javě – Průvodce GroupDocs](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
+
+- [Vytvoření čárového kódu podpisu PDF v Javě – GroupDocs průvodce](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
 - [GroupDocs.Signature Java tutoriál – Přidání čárových kódů do PDF](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)
 - [Java tutoriál čárových kódů – Přidání, ověření a správa čárových kódů v PDF](/signature/java/barcode-signatures/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
