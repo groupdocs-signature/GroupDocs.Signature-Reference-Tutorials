@@ -389,6 +389,6 @@ Next steps? Try signing a batch of real invoices, integrate timestamping for leg
 
 ## Related Tutorials
 
-- [Load and Save Documents in Java - Complete GroupDocs.Signature Tutorial]({{< relref "/signature/java/document-loading-saving/" >}})
-- [How to Verify Digital Certificates in Java - Complete Guide with Code Examples]({{< relref "/signature/java/digital-signatures/java-certificate-verification-groupdocs-signature/" >}})
-- [Add Text Signature to PDF in Java - Complete GroupDocs Tutorial]({{< relref "/signature/java/text-signatures/implement-text-signatures-groupdocs-java/" >}})
+- [Load and Save Documents in Java - Complete GroupDocs.Signature Tutorial]({{< relref "/java/document-loading-saving/" >}})
+- [How to Verify Digital Certificates in Java - Complete Guide with Code Examples]({{< relref "/java/digital-signatures/java-certificate-verification-groupdocs-signature/" >}})
+- [Add Text Signature to PDF in Java - Complete GroupDocs Tutorial]({{< relref "/java/text-signatures/implement-text-signatures-groupdocs-java/" >}})
