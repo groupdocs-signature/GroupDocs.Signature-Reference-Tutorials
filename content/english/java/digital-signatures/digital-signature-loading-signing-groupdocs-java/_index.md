@@ -77,8 +77,8 @@ schemas:
     answer: Yes – use `Signature.verify("signed_output.pdf")` which returns a `VerificationResult`
       indicating validity, signer certificate details, and any tampering.
   - question: Does GroupDocs.Signature support timestamping?
-    answer: 'Absolutely. You can attach a TSA (Time‑Stamp Authority) URL via `options.setTimestampServerUrl("https://tsa.example.com")`'
-      to create a trusted timestamp.
+    answer: 'Absolutely. You can attach a TSA (Time‑Stamp Authority) URL via `options.setTimestampServerUrl("https://tsa.example.com")`
+      to create a trusted timestamp.'
   - question: What file formats can I sign besides PDF?
     answer: Over 50 formats, including DOCX, XLSX, PPTX, HTML, PNG, JPEG, and TIFF.
       Just change the file extension in the input and output paths.
