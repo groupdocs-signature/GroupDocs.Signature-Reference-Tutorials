@@ -20,31 +20,6 @@ schemas:
     step‑by‑step guide, code examples, troubleshooting, and best practices.
   dateModified: '2026-06-06'
   author: GroupDocs
-- type: HowTo
-  name: How to Add Barcode to PDF Java with GroupDocs.Signature
-  description: Learn how to add barcode to PDF in Java with GroupDocs.Signature –
-    step‑by‑step guide, code examples, troubleshooting, and best practices.
-  steps:
-  - name: Initialize the Signature Object
-    text: 'First, create your `Signature` instance pointing to the PDF you want to
-      sign: '**Why this matters**: This object manages the document state and provides'
-      access to all signing operations. Think of it as opening the PDF in edit mode,
-      ready for your modifications.'
-  - name: Configure Your Barcode Options
-    text: 'Next, set up the barcode signature options. Here’s where you define what
-      your barcode contains and how it’s encoded: The `BarcodeOptions` class defines
-      the visual and data properties of a barcode signature, such as text, type, size,
-      and color. **Let’s break this down** - `"JohnSmith"` is the text en'
-  - name: Position Your Barcode
-    text: 'Now decide where the barcode appears on your PDF: **Understanding positioning**
-      - Coordinates start from the top‑left corner of the page (0,0). - `setLeft(100)`
-      moves the barcode 100 pixels to the right. - `setTop(100)` moves it 100 pixels
-      down. **Pro tip**: For professional documents, place barcode'
-  - name: Sign the Document
-    text: 'Finally, apply the signature and save the result: **What happens behind
-      the scenes**: GroupDocs.Signature embeds the barcode into your PDF as a vector
-      graphic, ensuring it scales perfectly regardless of zoom level. The original
-      document remains intact—you’re creating a new, signed version. **Importa'
 - type: FAQPage
   questions:
   - question: What library adds barcodes to PDFs in Java?
