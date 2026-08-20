@@ -52,10 +52,6 @@ url: /ja/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-upd
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # バーコード署名 Java の作成 – PDF バーコードの更新
 
 数千枚の出荷ラベルでバーコードの位置を再配置したり、テンプレートの再設計後にバーコードの位置を調整したりする必要がある場合、手作業はミスが起きやすく時間がかかります。このガイドでは **バーコード署名 Java の作成方法** を学び、GroupDocs.Signature for Java を使用してプログラムで位置、サイズ、その他のプロパティを変更する方法を紹介します。このアプローチは PDF、Word、Excel、PowerPoint、画像ファイルすべてで動作し、ドキュメント自動化シナリオ全体で単一の一貫した API を提供します。
@@ -384,10 +380,3 @@ A: はい。同じ API が Word、Excel、PowerPoint、画像など、GroupDocs.
 - [Create Barcode Signature PDF in Java – GroupDocs Guide](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
 - [GroupDocs.Signature Java Tutorial - Add Barcode Signatures to PDFs](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)
 - [Java Barcode Signature Tutorial - Add, Verify & Manage Barcodes in PDFs](/signature/java/barcode-signatures/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

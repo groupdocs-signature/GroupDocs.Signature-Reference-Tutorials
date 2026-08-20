@@ -54,10 +54,6 @@ url: /ar/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-upd
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # إنشاء توقيع الباركود java – تحديث باركودات PDF
 
 عند الحاجة إلى إعادة تموضع الباركودات على آلاف ملصقات الشحن أو تعديل مواقع الباركود بعد إعادة تصميم القالب، فإن القيام بذلك يدويًا يكون عرضة للأخطاء ويستغرق وقتًا طويلاً. في هذا الدليل ستتعلم **كيفية إنشاء توقيع الباركود java** ثم تعديل موقعه وحجمه وخصائصه الأخرى برمجيًا باستخدام GroupDocs.Signature للغة Java. تعمل الطريقة مع ملفات PDF وWord وExcel وPowerPoint والملفات الصورة، مما يمنحك واجهة برمجة تطبيقات موحدة لجميع سيناريوهات أتمتة المستندات.
@@ -386,10 +382,3 @@ documentPaths.parallelStream().forEach(path -> {
 - [Create Barcode Signature PDF in Java – GroupDocs Guide](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
 - [GroupDocs.Signature Java Tutorial - Add Barcode Signatures to PDFs](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)
 - [Java Barcode Signature Tutorial - Add, Verify & Manage Barcodes in PDFs](/signature/java/barcode-signatures/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

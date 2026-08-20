@@ -55,10 +55,6 @@ url: /nl/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-upd
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Barcode-handtekening maken in java – PDF-barcodes bijwerken
 
 Wanneer je barcodes op duizenden verzendetiketten moet verplaatsen of de barcode‑posities moet aanpassen na een herontwerp van een sjabloon, is handmatig werken fout‑gevoelig en tijdrovend. In deze gids leer je **how to create barcode signature java** en vervolgens de positie, grootte en andere eigenschappen programmatic aanpassen met GroupDocs.Signature for Java. De aanpak werkt voor PDF’s, Word, Excel, PowerPoint en afbeeldingsbestanden, waardoor je één consistente API hebt voor al je document‑automatiseringsscenario’s.
@@ -387,10 +383,3 @@ Je beschikt nu over een volledige, productie‑klare gids om **create barcode si
 - [Create Barcode Signature PDF in Java – GroupDocs Guide](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
 - [GroupDocs.Signature Java Tutorial - Add Barcode Signatures to PDFs](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)
 - [Java Barcode Signature Tutorial - Add, Verify & Manage Barcodes in PDFs](/signature/java/barcode-signatures/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

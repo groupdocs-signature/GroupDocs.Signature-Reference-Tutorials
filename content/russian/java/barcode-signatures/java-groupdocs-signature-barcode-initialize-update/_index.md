@@ -55,10 +55,6 @@ url: /ru/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-upd
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Создать подпись штрих‑кода Java – обновление штрих‑кодов PDF
 
 Когда необходимо переместить штрих‑коды на тысячах транспортных этикеток или скорректировать их расположение после редизайна шаблона, ручная работа приводит к ошибкам и занимает много времени. В этом руководстве вы узнаете, **как создать подпись штрих‑кода Java** и затем программно изменить её позицию, размер и другие свойства с помощью GroupDocs.Signature для Java. Подход работает с PDF, Word, Excel, PowerPoint и изображениями, предоставляя единый, согласованный API для всех сценариев автоматизации документов.
@@ -387,10 +383,3 @@ documentPaths.parallelStream().forEach(path -> {
 - [Create Barcode Signature PDF in Java – GroupDocs Guide](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
 - [GroupDocs.Signature Java Tutorial - Add Barcode Signatures to PDFs](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)
 - [Java Barcode Signature Tutorial - Add, Verify & Manage Barcodes in PDFs](/signature/java/barcode-signatures/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

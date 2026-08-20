@@ -54,10 +54,6 @@ url: /ko/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-upd
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # 바코드 서명 Java 만들기 – PDF 바코드 업데이트
 
 수천 개의 배송 라벨에서 바코드 위치를 재배치하거나 템플릿 재설계 후 바코드 위치를 조정해야 할 때, 수작업은 오류가 발생하기 쉽고 시간이 많이 소요됩니다. 이 가이드에서는 **바코드 서명 Java 만들기** 방법을 배우고, 이후 GroupDocs.Signature for Java를 사용하여 위치, 크기 및 기타 속성을 프로그래밍 방식으로 수정하는 방법을 배웁니다. 이 접근 방식은 PDF, Word, Excel, PowerPoint 및 이미지 파일에서 모두 작동하여 문서 자동화 시나리오 전반에 걸쳐 단일하고 일관된 API를 제공합니다.
@@ -385,10 +381,3 @@ A: 예. 동일한 API가 Word, Excel, PowerPoint, 이미지 및 GroupDocs.Signat
 - [Create Barcode Signature PDF in Java – GroupDocs Guide](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
 - [GroupDocs.Signature Java Tutorial - Add Barcode Signatures to PDFs](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)
 - [Java Barcode Signature Tutorial - Add, Verify & Manage Barcodes in PDFs](/signature/java/barcode-signatures/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

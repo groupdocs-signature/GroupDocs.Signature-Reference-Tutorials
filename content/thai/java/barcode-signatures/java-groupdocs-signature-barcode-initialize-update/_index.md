@@ -54,10 +54,6 @@ url: /th/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-upd
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # สร้างลายเซ็นบาร์โค้ด Java – อัปเดตบาร์โค้ด PDF
 
 เมื่อคุณต้องการย้ายตำแหน่งบาร์โค้ดบนฉลากการจัดส่งหลายพันฉลากหรือปรับตำแหน่งบาร์โค้ดหลังจากการออกแบบเทมเพลตใหม่ การทำด้วยตนเองนั้นเสี่ยงต่อข้อผิดพลาดและใช้เวลามาก ในคู่มือนี้คุณจะได้เรียนรู้ **วิธีสร้างลายเซ็นบาร์โค้ด Java** แล้วปรับตำแหน่ง ขนาด และคุณสมบัติอื่น ๆ ของมันโดยใช้ GroupDocs.Signature for Java วิธีนี้ทำงานกับไฟล์ PDF, Word, Excel, PowerPoint และรูปภาพ ให้คุณมี API เดียวที่สอดคล้องสำหรับทุกสถานการณ์การทำงานอัตโนมัติของเอกสาร
@@ -386,10 +382,3 @@ documentPaths.parallelStream().forEach(path -> {
 - [Create Barcode Signature PDF in Java – GroupDocs Guide](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
 - [GroupDocs.Signature Java Tutorial - Add Barcode Signatures to PDFs](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)
 - [Java Barcode Signature Tutorial - Add, Verify & Manage Barcodes in PDFs](/signature/java/barcode-signatures/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

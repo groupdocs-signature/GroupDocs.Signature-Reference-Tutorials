@@ -55,10 +55,6 @@ url: /vi/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-upd
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Tạo chữ ký mã vạch java – cập nhật mã vạch PDF
 
 Khi bạn cần di chuyển vị trí mã vạch trên hàng ngàn nhãn vận chuyển hoặc điều chỉnh vị trí mã vạch sau khi thiết kế lại mẫu, việc thực hiện thủ công dễ gây lỗi và tốn thời gian. Trong hướng dẫn này, bạn sẽ học **cách tạo chữ ký mã vạch java** và sau đó chỉnh sửa vị trí, kích thước và các thuộc tính khác một cách lập trình bằng GroupDocs.Signature cho Java. Phương pháp này hoạt động với PDF, Word, Excel, PowerPoint và các tệp hình ảnh, cung cấp cho bạn một API duy nhất, nhất quán cho tất cả các kịch bản tự động hoá tài liệu của bạn.
@@ -386,10 +382,3 @@ Bạn giờ đã có một hướng dẫn đầy đủ, sẵn sàng cho sản xu
 - [Tạo chữ ký mã vạch PDF trong Java – Hướng dẫn GroupDocs](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
 - [Hướng dẫn GroupDocs.Signature Java - Thêm chữ ký mã vạch vào PDF](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)
 - [Hướng dẫn chữ ký mã vạch Java - Thêm, Xác minh & Quản lý mã vạch trong PDF](/signature/java/barcode-signatures/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -52,10 +52,6 @@ url: /zh/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-upd
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # 创建条形码签名 Java – 更新 PDF 条码
 
 当您需要在成千上万的运输标签上重新定位条码，或在模板重新设计后调整条码位置时，手动操作容易出错且耗时。 在本指南中，您将学习**如何创建条形码签名 Java**，然后使用 GroupDocs.Signature for Java 以编程方式修改其位置、大小和其他属性。 该方法适用于 PDF、Word、Excel、PowerPoint 和图像文件，为您的所有文档自动化场景提供统一的 API。
@@ -383,10 +379,3 @@ A: 适用。相同的 API 可用于 Word、Excel、PowerPoint、图像以及 Gro
 - [在 Java 中创建 PDF 条码签名 – GroupDocs 指南](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
 - [GroupDocs.Signature Java 教程 - 向 PDF 添加条码签名](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)
 - [Java 条码签名教程 - 在 PDF 中添加、验证和管理条码](/signature/java/barcode-signatures/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

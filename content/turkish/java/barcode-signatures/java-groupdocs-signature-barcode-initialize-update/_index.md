@@ -55,10 +55,6 @@ url: /tr/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-upd
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Java'da barkod imzası oluşturma – PDF barkodlarını güncelleme
 
 Binlerce gönderi etiketinde barkodları yeniden konumlandırmanız veya bir şablon yeniden tasarımından sonra barkod konumlarını ayarlamanız gerektiğinde, bunu manuel olarak yapmak hataya açık ve zaman alıcıdır. Bu rehberde **java'da barkod imzası oluşturmayı** öğrenecek ve ardından GroupDocs.Signature for Java ile konumunu, boyutunu ve diğer özelliklerini programlı olarak nasıl değiştireceğinizi göreceksiniz. Yaklaşım PDF, Word, Excel, PowerPoint ve görüntü dosyaları için çalışır ve belge otomasyonu senaryolarınızın tamamı için tek, tutarlı bir API sağlar.
@@ -386,10 +382,3 @@ Artık **java'da barkod imzası oluşturma** nesnelerini oluşturma ve konum, bo
 - [Java'da Barkod İmzası PDF Oluşturma – GroupDocs Kılavuzu](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
 - [GroupDocs.Signature Java Öğreticisi - PDF'lere Barkod İmzaları Ekle](/signature/java/digital-signatures/java-pdf-signing-groupdocs-signature-guide/)
 - [Java Barkod İmzası Öğreticisi - PDF'lerde Barkod Ekle, Doğrula ve Yönet](/signature/java/barcode-signatures/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
