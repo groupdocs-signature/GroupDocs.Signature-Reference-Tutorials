@@ -18,12 +18,6 @@ url: /zh/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/
 weight: 1
 ---
 
- note "RTL formatting" not needed.
-
-Proceed.
-
-Will produce final markdown.
-
 # 如何加密 Java：使用 GroupDocs 的自定义 XOR 加密
 
 ## 介绍

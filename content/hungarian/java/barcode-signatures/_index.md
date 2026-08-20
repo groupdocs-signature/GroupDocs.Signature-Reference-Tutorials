@@ -21,9 +21,7 @@ url: /hu/java/barcode-signatures/
 weight: 4
 ---
 
- needed.
-
-Let's produce final output.# Java vonalkód aláírási útmutató: Vonalkódok hozzáadása, ellenőrzése és kezelése PDF‑ekben
+# Java vonalkód aláírási útmutató: Vonalkódok hozzáadása, ellenőrzése és kezelése PDF‑ekben
 
 Géppel olvasható információt szeretne közvetlenül a dokumentumaiba ágyazni? Ebben a **java barcode signature tutorial**‑ban megtudja, hogyan kódolhat biztonságosan adatokat – például termék‑azonosítókat, nyomkövetési számokat vagy ellenőrző kódokat – PDF‑ekbe, Word‑fájlokba és számos más formátumba. A vonalkód aláírások lehetővé teszik metaadatok csatolását anélkül, hogy az eredeti tartalmat módosítanák, és a GroupDocs.Signature for Java néhány sor kóddal megoldja ezt a feladatot.
 

@@ -21,22 +21,7 @@ url: /nl/java/barcode-signatures/
 weight: 4
 ---
 
- 23.12 (latest op het moment van schrijven)  
-**Auteur:** GroupDocs
-
-Make sure to keep bold formatting.
-
-Now produce final markdown with translated content.
-
-Check for any shortcodes: none.
-
-Check code blocks: none.
-
-Check images: none.
-
-All URLs unchanged.
-
-Now produce final answer.# Java Barcode Handtekening Tutorial: Voeg toe, Verifieer & Beheer Barcodes in PDF's
+# Java Barcode Handtekening Tutorial: Voeg toe, Verifieer & Beheer Barcodes in PDF's
 
 Moet u machine‑leesbare informatie direct in uw documenten embedden? In deze **java barcode signature tutorial** ontdekt u hoe u gegevens—zoals product‑ID's, tracking‑nummers of verificatiecodes—veilig kunt coderen direct in PDF's, Word‑bestanden en vele andere formaten. Barcode‑handtekeningen stellen u in staat metadata toe te voegen zonder de oorspronkelijke inhoud te wijzigen, en GroupDocs.Signature for Java maakt het hele proces slechts een paar regels code verwijderd.
 

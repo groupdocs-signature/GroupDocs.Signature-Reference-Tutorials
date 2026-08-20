@@ -21,15 +21,7 @@ url: /pt/java/barcode-signatures/
 weight: 4
 ---
 
----  
-
-**Última atualização:** 2026-02-13  
-**Testado com:** GroupDocs.Signature for Java 23.12 (mais recente no momento da escrita)  
-**Autor:** GroupDocs"
-
-Make sure to keep markdown formatting.
-
-Now produce final content.# Tutorial de Assinatura de Código de Barras em Java: Adicionar, Verificar e Gerenciar Códigos de Barras em PDFs
+# Tutorial de Assinatura de Código de Barras em Java: Adicionar, Verificar e Gerenciar Códigos de Barras em PDFs
 
 Precisa incorporar informações legíveis por máquina diretamente em seus documentos? Neste **java barcode signature tutorial** você descobrirá como codificar dados de forma segura — como IDs de produtos, números de rastreamento ou códigos de verificação — diretamente em PDFs, arquivos Word e muitos outros formatos. As assinaturas de código de barras permitem anexar metadados sem alterar o conteúdo original, e o GroupDocs.Signature for Java torna todo o processo a poucos linhas de código.
 

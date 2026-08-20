@@ -21,15 +21,7 @@ url: /pt/java/advanced-options/master-metadata-encryption-serialization-java-gro
 weight: 1
 ---
 
-02-26" etc.
-
-Now produce final markdown with all translations.
-
-Make sure to keep code block placeholders unchanged.
-
-Also ensure we keep markdown formatting: headings, lists, tables.
-
-Let's construct final output.# Criptografar Metadados de Documento Java com GroupDocs.Signature
+# Criptografar Metadados de Documento Java com GroupDocs.Signature
 
 ## Introdução
 

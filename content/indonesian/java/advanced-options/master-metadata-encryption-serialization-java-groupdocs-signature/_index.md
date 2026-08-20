@@ -21,21 +21,7 @@ url: /id/java/advanced-options/master-metadata-encryption-serialization-java-gro
 weight: 1
 ---
 
-Docs.Signature diperlukan untuk penyebaran komersial. Lisensi percobaan cukup untuk pengembangan dan pengujian.
-
---- Then footer.
-
-**Last Updated:** 2026-02-26 -> same.
-
-**Tested With:** GroupDocs.Signature 23.12 (Java) -> same.
-
-**Author:** GroupDocs -> same.
-
-Now produce final content with all markdown.
-
-Make sure to keep code block placeholders unchanged.
-
-Proceed to final.# Enkripsi Metadata Dokumen Java dengan GroupDocs.Signature
+# Enkripsi Metadata Dokumen Java dengan GroupDocs.Signature
 
 ## Pendahuluan
 
