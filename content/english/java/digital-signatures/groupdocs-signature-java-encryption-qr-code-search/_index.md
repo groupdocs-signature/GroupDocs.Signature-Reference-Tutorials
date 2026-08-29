@@ -1,6 +1,6 @@
 ---
-title: "Digital Signature Best Practices in Java – Encrypt Signatures & QR Code Search"
-linktitle: "Java Signature Encryption & QR Search"
+title: "Encrypt Signatures and Search QR Codes with GroupDocs.Signature in Java"
+linktitle: "GroupDocs.Signature Java Encryption & QR Search"
 description: "Master digital signature best practices in Java with custom encryption, QR code search, and GroupDocs.Signature. Secure signing, fast verification, and real code examples."
 keywords:
 - digital signature best practices
@@ -97,7 +97,7 @@ Standard encryption provided by the library is convenient, but many regulated in
 - Maven or Gradle for dependency management.  
 - A valid GroupDocs license file placed in your resources folder.
 
-## Setting Up GroupDocs.Signature in Your Project
+## Setting up GroupDocs.Signature in your project
 
 ### Maven Setup
 Add this dependency to your `pom.xml`:
@@ -117,10 +117,10 @@ Or add the following to `build.gradle`:
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-### Direct Download Option
+### Direct download option
 You can also download the JAR directly from [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) if you prefer manual dependency management. For full API details see the [GroupDocs.Signature documentation](https://docs.groupdocs.com/signature/java/).
 
-### License Acquisition Steps
+### License acquisition steps
 - **Free Trial:** Full functionality for evaluation.  
 - **Temporary License:** Useful during development.  
 - **Production License:** Required for any commercial deployment.
@@ -207,9 +207,9 @@ qr.setData(encrypted);
 
 **Pro tip:** Validate fields in setters (non‑null IDs, non‑empty authors) to catch errors early during development.
 
-## Common Implementation Issues (And How to Fix Them)
+## Common implementation issues (And how to fix them)
 
-### Issue 1: Encryption/Decryption Mismatches
+### Issue 1: encryption/Decryption mismatches
 **Symptom:** Decrypted data appears as gibberish.  
 **Solution:** Ensure the same `IDataEncryption` instance (or identical algorithm and key) is used for both signing and verification. In distributed environments, store the key in a centralized vault (AWS KMS, Azure Key Vault).
 
@@ -219,11 +219,11 @@ String key = SecretsManager.getSecret("signatureKey");
 MyAesEncryption encryption = new MyAesEncryption(key);
 ```
 
-### Issue 2: QR Code Not Found in Document
+### Issue 2: QR code not found in document
 **Symptom:** Search returns no results despite a visible QR code.  
 **Solution:** Verify that `setAllPages(true)` is enabled or that the correct page numbers are supplied. Also confirm the QR code conforms to the library’s expected format (standard QR, not a custom image).
 
-### Issue 3: OutOfMemoryError with Large PDFs
+### Issue 3: outOfMemoryError with large pDFs
 **Symptom:** Application crashes on 500‑page PDFs.  
 **Solution:** Increase JVM heap (`-Xmx2g`) and process documents in streaming mode if supported. Alternatively, batch‑process pages to keep memory usage low.
 
@@ -232,7 +232,7 @@ MyAesEncryption encryption = new MyAesEncryption(key);
 java -Xmx2g -jar yourapp.jar
 ```
 
-## Security Best Practices for Production
+## Security best practices for production
 
 1. **Never hard‑code keys** – use environment variables or a secrets manager.  
 2. **Prefer AES‑256** over XOR; AES‑256 is FIPS‑140‑2 compliant and widely audited.  
@@ -248,7 +248,7 @@ public class DocumentSignatureData {
 4. **Enable comprehensive logging** – record every sign, verify, and search operation with user IDs and timestamps.  
 5. **Validate all input** – sanitize author names, enforce file‑type whitelists, and reject oversized payloads.
 
-## QR Code Signatures vs. Traditional Digital Signatures
+## QR code signatures vs. traditional digital signatures
 
 ### When to add QR code to document
 - **Mobile verification**: Users can scan with a phone to instantly confirm authenticity.  
@@ -265,7 +265,7 @@ public class DocumentSignatureData {
 
 The extra 0.9 seconds is acceptable for most business processes, especially when you need the convenience of QR‑based verification.
 
-## Performance Optimization for Large Documents
+## Performance optimization for large documents
 
 ### Optimize encryption algorithm
 Benchmark your encryption routine and aim for **≤ 50 ms** per operation. Profile with JMH or VisualVM to identify bottlenecks.
@@ -290,7 +290,7 @@ ExecutorService pool = Executors.newFixedThreadPool(Runtime.getRuntime().availab
 - Use try‑with‑resources for `Signature` objects to ensure native resources are released.  
 - For PDFs larger than 200 pages, enable streaming mode if the library offers it.
 
-## Testing Your Implementation
+## Testing your implementation
 
 ### Unit test encryption round‑trip
 ```java
@@ -321,7 +321,7 @@ Integrate the `DocumentSignatureData` model with SharePoint or Alfresco metadata
 ### Compliance‑heavy industries
 Healthcare (HIPAA), finance (SOX), and legal sectors benefit from custom encryption that aligns with regulatory key‑management rules while still offering fast QR‑based verification for auditors.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I add a QR code to a document using GroupDocs.Signature?**  
 A: Create a `QrCodeSignature`, set the encrypted payload with `setData()`, and add it to the `Signature` object before calling `sign()`.
@@ -486,6 +486,6 @@ public void testEncryptionRoundTrip() {
 
 ## Related Tutorials
 
-- [How to Encrypt Signature in Java – Advanced Signing Options & Encryption Techniques](/signature/java/advanced-options/)
-- [Java Document QR Code Verification - A Comprehensive GroupDocs.Signature](/signature/java/search-verification/java-qr-code-signature-verification-groupdocs/)
-- [Java Signature Verification Tutorial - Search & Verify Digital Signatures](/signature/java/search-verification/)
+- [How to Encrypt Signature in Java – Advanced Options & Encryption Techniques]({{< relref "signature/java/advanced-options" >}})
+- [Java Document QR Code Verification - A Comprehensive GroupDocs.Signature]({{< relref "signature/java/search-verification/java-qr-code-signature-verification-groupdocs" >}})
+- [Java Signature Verification Tutorial - Search & Verify Digital Signatures]({{< relref "signature/java/search-verification" >}})
