@@ -1,5 +1,5 @@
 ---
-title: "Search Barcode Pages in Java with GroupDocs.Signature – Search Barcode Specific Pages in Documents"
+title: "Search Barcode Pages in Java Using GroupDocs.Signature API – Locate Specific Pages in Documents"
 linktitle: "Search Barcode Specific Pages Java"
 description: "Learn how to search barcode pages java using GroupDocs.Signature. Step-by-step guide, real‑time barcode search, and verification of barcode signatures in Java."
 keywords:
@@ -15,7 +15,7 @@ tags: ["java", "barcode-signatures", "document-verification", "groupdocs"]
 type: docs
 schemas:
 - type: TechArticle
-  headline: "Search Barcode Pages in Java with GroupDocs.Signature – Search Barcode Specific Pages in Documents"
+  headline: "Search Barcode Pages in Java Using GroupDocs.Signature API – Locate Specific Pages in Documents"
   description: Learn how to search barcode pages java using GroupDocs.Signature. Step-by-step
     guide, real‑time barcode search, and verification of barcode signatures in Java.
   dateModified: '2026-06-21'

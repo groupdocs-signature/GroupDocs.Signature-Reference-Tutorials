@@ -1,6 +1,6 @@
 ---
-title: "Encrypt Signatures and Search QR Codes with GroupDocs.Signature in Java"
-linktitle: "GroupDocs.Signature Java Encryption & QR Search"
+title: "Implement Encrypted Signatures and QR Code Search in Java"
+linktitle: "Java Encryption & QR Search Tutorial"
 description: "Master digital signature best practices in Java with custom encryption, QR code search, and GroupDocs.Signature. Secure signing, fast verification, and real code examples."
 keywords:
 - digital signature best practices
