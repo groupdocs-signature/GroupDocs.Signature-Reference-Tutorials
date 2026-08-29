@@ -1,5 +1,5 @@
 ---
-title: "Create and Manage Document Signatures – Add, Verify & Manage Barcodes in PDFs"
+title: "Create and Manage Document Signatures with GroupDocs.Signature for Java – Add, Verify & Manage Barcodes in PDFs"
 linktitle: "Barcode Signatures"
 description: "Learn how to create QR code signature, add, verify and manage barcode signatures in PDFs using GroupDocs.Signature for Java."
 keywords:

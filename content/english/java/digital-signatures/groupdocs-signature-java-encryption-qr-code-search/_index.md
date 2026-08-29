@@ -1,5 +1,5 @@
 ---
-title: "Implement Encrypted Signatures and QR Code Search in Java"
+title: "Encrypted Signatures and QR Code Search"
 linktitle: "Java Encryption & QR Search Tutorial"
 description: "Master digital signature best practices in Java with custom encryption, QR code search, and GroupDocs.Signature. Secure signing, fast verification, and real code examples."
 keywords:
@@ -413,13 +413,13 @@ public class DocumentSignatureData {
     public void setID(String value) { ID = value; }
 
     public final String getAuthor() { return Author; }
-    public final void setAuthor(String value) { Author = value; }
+    public void setAuthor(String value) { Author = value; }
 
     public final Date getSigned() { return Signed; }
-    public final void setSigned(Date value) { Signed = value; }
+    public void setSigned(Date value) { Signed = value; }
 
     public final BigDecimal getDataFactor() { return DataFactor; }
-    public final void setDataFactor(BigDecimal value) { DataFactor = value; }
+    public void setDataFactor(BigDecimal value) { DataFactor = value; }
 }
 ```
 
