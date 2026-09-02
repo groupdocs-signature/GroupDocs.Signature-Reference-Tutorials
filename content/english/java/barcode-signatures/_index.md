@@ -232,6 +232,6 @@ Creating a QR code signature in Java is straightforward with GroupDocs.Signature
 
 ## Related Tutorials
 
-- [Java Document QR Code Verification - A Comprehensive GroupDocs.Signature]({{< relref "/signature/java/search-verification/java-qr-code-signature-verification-groupdocs/" >}})
-- [How to read QR code PDF using Java and GroupDocs.Signature]({{< relref "/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/" >}})
-- [Create Barcode Signature in Java – Update PDF Barcodes]({{< relref "/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/" >}})
+- [Java Document QR Code Verification - A Comprehensive GroupDocs.Signature](/signature/java/search-verification/java-qr-code-signature-verification-groupdocs/)
+- [How to read QR code PDF using Java and GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+- [Create Barcode Signature in Java – Update PDF Barcodes](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
