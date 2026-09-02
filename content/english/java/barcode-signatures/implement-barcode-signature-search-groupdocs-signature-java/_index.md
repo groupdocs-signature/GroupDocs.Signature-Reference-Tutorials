@@ -407,6 +407,6 @@ A: Embed a hash or digital signature inside the barcode payload, then recompute 
 
 ## Related Tutorials
 
-- [How to Add Barcode to PDF Java with GroupDocs.Signature]({{< relref "signature/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/_index.md" >}})
-- [How to Verify Barcode Signatures in Java with GroupDocs.Signature]({{< relref "signature/java/search-verification/groupdocs-signature-java-document-verification/_index.md" >}})
-- [GroupDocs Signature Java Event Subscription - Track Verification in Real-Time]({{< relref "signature/java/event-handling/implement-document-verification-events-groupdocs-java/_index.md" >}})
+- [How to Add Barcode to PDF Java with GroupDocs.Signature](/signature/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/)
+- [How to Verify Barcode Signatures in Java with GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)
+- [GroupDocs Signature Java Event Subscription - Track Verification in Real-Time](/signature/java/event-handling/implement-document-verification-events-groupdocs-java/)
