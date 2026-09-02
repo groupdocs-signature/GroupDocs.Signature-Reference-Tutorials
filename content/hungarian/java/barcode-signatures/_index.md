@@ -70,9 +70,9 @@ url: /hu/java/barcode-signatures/
 weight: 4
 ---
 
-# Java QR kód aláírás létrehozása – Útmutató: Vonalkódok hozzáadása, ellenőrzése és kezelése PDF-ekben
+# Java vonalkód aláírási útmutató: Vonalkódok hozzáadása, ellenőrzése és kezelése PDF‑ekben
 
-A gép által olvasható adatok közvetlen beágyazása a dokumentumokba hatékony módja a munkafolyamatok automatizálásának és az integritás garantálásának. Ebben a **Java QR kód aláírás létrehozása** útmutatóban megtudja, hogyan lehet biztonságosan kódolni termékazonosítókat, nyomkövetési számokat vagy ellenőrző kódokat PDF-ekbe, Word fájlokba, képekbe és még archívum formátumokba. A GroupDocs.Signature for Java egy több lépésből álló folyamatot néhány kódsorra csökkent, miközben az eredeti dokumentum változatlan marad.
+Géppel olvasható információt szeretne közvetlenül a dokumentumaiba ágyazni? Ebben a **java barcode signature tutorial**‑ban megtudja, hogyan kódolhat biztonságosan adatokat – például termék‑azonosítókat, nyomkövetési számokat vagy ellenőrző kódokat – PDF‑ekbe, Word‑fájlokba és számos más formátumba. A vonalkód aláírások lehetővé teszik metaadatok csatolását anélkül, hogy az eredeti tartalmat módosítanák, és a GroupDocs.Signature for Java néhány sor kóddal megoldja ezt a feladatot.
 
 ## Gyors válaszok
 - **Milyen könyvtár szükséges?** GroupDocs.Signature for Java (Maven vagy közvetlen letöltés).  

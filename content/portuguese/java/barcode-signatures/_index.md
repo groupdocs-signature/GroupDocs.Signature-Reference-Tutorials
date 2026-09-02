@@ -70,9 +70,9 @@ url: /pt/java/barcode-signatures/
 weight: 4
 ---
 
-# Tutorial Java de criação de assinatura QR Code: Adicionar, Verificar e Gerenciar Códigos de Barras em PDFs
+# Tutorial de Assinatura de Código de Barras em Java: Adicionar, Verificar e Gerenciar Códigos de Barras em PDFs
 
-Incorporar dados legíveis por máquina diretamente em seus documentos é uma maneira poderosa de automatizar fluxos de trabalho e garantir integridade. Neste tutorial **Java create QR code signature** você descobrirá como codificar com segurança IDs de produtos, números de rastreamento ou códigos de verificação dentro de PDFs, arquivos Word, imagens e até formatos de arquivo compactado. O GroupDocs.Signature para Java transforma um processo de várias etapas em apenas algumas linhas de código, mantendo o documento original inalterado.
+Precisa incorporar informações legíveis por máquina diretamente em seus documentos? Neste **java barcode signature tutorial** você descobrirá como codificar dados de forma segura — como IDs de produtos, números de rastreamento ou códigos de verificação — diretamente em PDFs, arquivos Word e muitos outros formatos. As assinaturas de código de barras permitem anexar metadados sem alterar o conteúdo original, e o GroupDocs.Signature for Java torna todo o processo a poucos linhas de código.
 
 ## Respostas Rápidas
 - **Qual biblioteca é necessária?** GroupDocs.Signature for Java (Maven ou download direto).  

@@ -21,15 +21,7 @@ url: /hu/java/advanced-options/master-metadata-encryption-serialization-java-gro
 weight: 1
 ---
 
-Tesztelve:".
-
-**Author:** GroupDocs -> translate "Szerző:".
-
-Provide only translated content.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final markdown.# Dokumentum metaadatok titkosítása Java-val a GroupDocs.Signature segítségével
+# Dokumentum metaadatok titkosítása Java-val a GroupDocs.Signature segítségével
 
 ## Bevezetés
 

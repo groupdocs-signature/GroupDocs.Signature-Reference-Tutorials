@@ -20,20 +20,6 @@ url: /de/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/
 weight: 1
 ---
 
- etc. Keep bold.
-
-Also keep "GroupDocs.Signature for Java" unchanged.
-
-Also keep "XOR" unchanged.
-
-Also keep "java xor example" maybe keep as is? It's a phrase; but we can translate but keep code term? Probably keep as is because it's a phrase. Could translate "java xor example" to "Java XOR Beispiel". But it's inside text; we can translate.
-
-But we must keep technical terms in English. "XOR" is technical but okay.
-
-Let's translate.
-
-Will produce final content.
-
 # Wie man Java verschlüsselt: Benutzerdefinierte XOR‑Verschlüsselung mit GroupDocs
 
 ## Einführung

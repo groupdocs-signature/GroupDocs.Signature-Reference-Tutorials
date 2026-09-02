@@ -20,15 +20,7 @@ url: /es/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/
 weight: 1
 ---
 
- with bold and italic.
-
-Also note "XOR encryption is NOT Secure for Sensitive Data" etc.
-
-Make sure to keep technical terms like "XOR", "AES‑256", "IDataEncryption", etc.
-
-Also keep URLs unchanged.
-
-Let's produce final answer.# Cómo cifrar Java: Encriptación XOR personalizada con GroupDocs
+# Cómo cifrar Java: Encriptación XOR personalizada con GroupDocs
 
 ## Introducción
 

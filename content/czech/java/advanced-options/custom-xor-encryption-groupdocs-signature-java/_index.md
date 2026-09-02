@@ -20,16 +20,6 @@ url: /cs/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/
 weight: 1
 ---
 
- to Czech, keep URL.
-
-Similarly other links.
-
-Also code block placeholders remain.
-
-Proceed.
-
-Will produce final content.
-
 # Jak šifrovat Java: Vlastní XOR šifrování s GroupDocs
 
 ## Úvod

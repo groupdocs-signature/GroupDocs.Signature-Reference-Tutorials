@@ -20,17 +20,7 @@ url: /fr/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/
 weight: 1
 ---
 
-6-02-18 -> "**Dernière mise à jour :** 2026-02-18"
-
-**Tested With:** GroupDocs.Signature 23.12 for Java -> "**Testé avec :** GroupDocs.Signature 23.12 pour Java"
-
-**Author:** GroupDocs -> "**Auteur :** GroupDocs"
-
-Now produce final markdown with French translation.
-
-Make sure to keep placeholders unchanged.
-
-Let's craft final output.# Comment chiffrer Java : chiffrement XOR personnalisé avec GroupDocs
+# Comment chiffrer Java : chiffrement XOR personnalisé avec GroupDocs
 
 ## Introduction
 

@@ -21,12 +21,6 @@ url: /tr/java/advanced-options/master-metadata-encryption-serialization-java-gro
 weight: 1
 ---
 
- term "GroupDocs.Signature". That's fine.
-
-Proceed.
-
-I'll produce final markdown.
-
 # GroupDocs.Signature ile Java'da Belge Metaverisini Şifreleme
 
 ## Giriş

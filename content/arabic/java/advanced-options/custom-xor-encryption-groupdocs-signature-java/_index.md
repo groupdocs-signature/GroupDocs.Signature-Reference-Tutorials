@@ -20,14 +20,6 @@ url: /ar/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/
 weight: 1
 ---
 
- translate each paragraph.
-
-Make sure to keep code placeholders unchanged.
-
-Also translate bullet points.
-
-Let's write.
-
 # كيفية تشفير Java: تشفير XOR مخصص مع GroupDocs
 
 ## المقدمة

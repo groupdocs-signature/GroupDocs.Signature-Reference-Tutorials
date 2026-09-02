@@ -1,69 +1,114 @@
 ---
 categories:
 - Java Development
-date: '2025-12-31'
-description: Aprende a generar firmas de códigos QR en PDFs con GroupDocs.Signature
-  para Java. Incluye la configuración de la dependencia Maven, la ubicación y consejos
-  de producción.
-keywords: java generate qr code, groupdocs signature java, maven dependency groupdocs,
-  QR code document signing Java, add QR code to PDF Java
-lastmod: '2025-12-31'
-linktitle: QR Code Signing Java Guide
+date: '2026-05-21'
+description: Aprenda cómo generar firmas de qr code java en PDFs usando GroupDocs.Signature
+  for Java. Incluye configuración de Maven, consejos de posicionamiento y mejores
+  prácticas de producción.
+keywords:
+- generate qr code java
+- java generate qr code
+- groupdocs signature java
+lastmod: '2026-05-21'
+linktitle: Guía de firma de QR Code Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-05-21'
+  description: Learn how to generate qr code java signatures in PDFs using GroupDocs.Signature
+    for Java. Includes Maven setup, positioning tips, and production best practices.
+  headline: 'generate qr code java: Complete QR Code Signing Guide'
+  type: TechArticle
+- description: Learn how to generate qr code java signatures in PDFs using GroupDocs.Signature
+    for Java. Includes Maven setup, positioning tips, and production best practices.
+  name: 'generate qr code java: Complete QR Code Signing Guide'
+  steps:
+  - name: Use absolute paths or ensure the working directory is correct.
+    text: Use absolute paths or ensure the working directory is correct.
+  - name: Confirm read permissions for the source and write permissions for the output
+      folder.
+    text: Confirm read permissions for the source and write permissions for the output
+      folder.
+  - name: Escape any special characters in the path.
+    text: Escape any special characters in the path.
+  - name: '**Batch Processing** – process documents in parallel, but cap concurrency
+      based on RAM.'
+    text: '**Batch Processing** – process documents in parallel, but cap concurrency
+      based on RAM.'
+  - name: '**Caching** – reuse identical `QrCodeSignOptions` objects across documents.'
+    text: '**Caching** – reuse identical `QrCodeSignOptions` objects across documents.'
+  - name: '**Async Operations** – move signing to background workers for responsive
+      APIs.'
+    text: '**Async Operations** – move signing to background workers for responsive
+      APIs.'
+  - name: '**Memory Monitoring** – set alerts for spikes and tune batch size accordingly.'
+    text: '**Memory Monitoring** – set alerts for spikes and tune batch size accordingly.'
+  - name: Verify the output file is actually created.
+    text: Verify the output file is actually created.
+  - name: Confirm you’re opening the correct output file.
+    text: Confirm you’re opening the correct output file.
+  - name: Check `SignResult` for a success count.
+    text: Check `SignResult` for a success count.
+  type: HowTo
+- questions:
+  - answer: GroupDocs.Signature for Java
+    question: What library adds QR code signatures in Java?
+  - answer: Maven (see *maven dependency groupdocs*)
+    question: Which build tool supports the Maven dependency?
+  - answer: Yes, using alignment and page‑number options
+    question: Can I position QR codes on specific pages?
+  - answer: Yes, a commercial GroupDocs license is required
+    question: Do I need a license for production?
+  - answer: Absolutely, when sized ≥ 100 × 100 px and placed with proper margins
+    question: Is the QR code scannable after signing?
+  type: FAQPage
 tags:
 - QR codes
 - PDF signing
 - digital signatures
 - document security
-title: 'java generar código QR - Guía de firma de códigos QR en Java'
+title: 'generar QR Code Java: Guía completa de firma de QR Code'
 type: docs
 url: /es/java/advanced-options/master-groupdocs-signature-java-qr-code-signing/
 weight: 1
 ---
 
-# java generar código qr: Firma de códigos QR en Java – Implementación completa
+# generar qr code java: Guía completa de firma de código QR
 
-Probablemente hayas notado cómo las firmas digitales están en todas partes ahora—desde contratos hasta facturas. Pero aquí está el asunto: los métodos tradicionales de firma pueden ser engorrosos y no siempre ofrecen las funciones de verificación que las empresas modernas necesitan. Ahí es donde entran las firmas **java genera código qr**.
-
-En esta guía, aprenderás a implementar la firma con códigos QR en Java, posicionar estas firmas exactamente donde lasites y evitar los errores comunes que tropiezan a la mayoría de los desarrolladores. Ya sea que estés construyendo un sistema de gestión de contratos o simplemente necesites asegurar PDFs programáticamente, este tutorial te llevará allí.
-
-Usaremos **GroupDocs.Signature for Java** (una biblioteca robusta que maneja el trabajo pesado), pero los conceptos se aplican ampliamente a cualquier implementación de firma con códigos QR.
+En este tutorial aprenderás a **generate qr code java** firmas en documentos PDF usando GroupDocs.Signature for Java. Revisaremos cómo agregar códigos QR, posicionarlos con precisión y evitar los errores comunes que suelen tropezar la mayoría de los desarrolladores. Ya sea que estés construyendo una plataforma de gestión de contratos o una canal de facturación segura, esta guía te brinda una solución lista para producción.
 
 ## Respuestas rápidas
-- **¿Qué biblioteca agrega firmas de códigos QR en Java?** GroupDocs.Signature para Java
-- **¿Qué herramienta de compilación soporta la dependencia Maven?** Maven (ver *maven dependency groupdocs*)
-- **¿Puedo posicionar códigos QR en páginas específicas?** Sí, usando opciones de alineación y número de página
-- **¿Necesito una licencia para producción?** Sí, se requiere una licencia comercial de GroupDocs
-- **¿El código QR es escaneable después de firmar?** Absolutamente, cuando tiene un tamaño ≥100×100px y se coloca con márgenes adecuados
+- **¿Qué biblioteca agrega firmas de código QR en Java?** GroupDocs.Signature for Java  
+- **¿Qué herramienta de compilación admite la dependencia Maven?** Maven (ver *maven dependency groupdocs*)  
+- **¿Puedo posicionar códigos QR en páginas específicas?** Sí, usando opciones de alineación y número de página  
+- **¿Necesito una licencia para producción?** Sí, se requiere una licencia comercial de GroupDocs  
+- **¿Es escaneable el código QR después de firmar?** Absolutamente, cuando el tamaño es ≥ 100 × 100 px y se coloca con márgenes adecuados  
 
 ## Lo que aprenderás
 
-Al final de esta guía, sabrás cómo:
-
-- Configurar la firma con códigos QR en tu proyecto Java (Maven, Gradle o descarga directa)
-- Añadir códigos QR a documentos en posiciones específicas (esquinas, centros, alineaciones personalizadas)
-- Manejar problemas comunes de implementación antes de que se conviertan en problemas de producción
-- Optimizar el rendimiento para flujos de trabajo de procesamiento de documentos
-- Aplicar estas técnicas a escenarios empresariales del mundo real.
+- Configurar la firma de códigos QR en tu proyecto Java (Maven, Gradle o descarga directa)  
+- Agregar códigos QR a documentos en posiciones exactas (esquinas, centros, alineaciones personalizadas)  
+- Manejar problemas comunes de implementación antes de que se conviertan en problemas de producción  
+- Optimizar el rendimiento para flujos de trabajo de documentos de alto rendimiento  
+- Aplicar estas técnicas a escenarios empresariales del mundo real  
 
 ## Requisitos previos
 
-Antes de sumergirnos en el código, asegúrese de contar con:
+- **GroupDocs.Signature for Java** – versión 23.12 o posterior (cubrirémos la instalación a continuación)  
+- **Java Development Kit** – JDK 8 o superior (la mayoría de los entornos de producción usan JDK 11+)  
+- **Herramienta de compilación** – Maven o Gradle para la gestión de dependencias  
+- **Conocimientos básicos de Java** – cómodo con bloques try‑catch y manejo de rutas de archivo  
 
-- **GroupDocs.Signature para Java Library** – versión 23.12 o posterior (cubriremos la instalación a continuación)
-- **Java Development Kit** – JDK8 o superior (la mayoría de entornos de producción usan JDK11+)
-- **Herramienta de compilación** – Maven o Gradle para la gestión de dependencias
-- **Conocimientos básicos de Java** – cómodo con bloques try‑catch y manejo de rutas de archivo
+No te preocupes si eres nuevo en GroupDocs—te guiaremos paso a paso.
 
-No te preocupes si eres nuevo en GroupDocs: te guiaremos paso a paso.
+## Configurando tu entorno
 
-## Configurando su entorno
-
-Obtener GroupDocs.Firma en tu proyecto es sencillo. Elige el método que coincida con tu sistema de compilación.
+Obtener GroupDocs.Signature en tu proyecto es sencillo. Elige el método que coincida con tu sistema de compilación.
 
 ### Usando Maven
 
-Agrega esta **maven dependency groupdocs** a tu archivo `pom.xml`:
+Agrega esta **dependencia maven groupdocs** a tu archivo `pom.xml`:
 
+``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -71,87 +116,89 @@ Agrega esta **maven dependency groupdocs** a tu archivo `pom.xml`:
     <version>23.12</version>
 </dependency>
 ```
+```
 
 Después de agregar esto, ejecuta `mvn clean install` para descargar la biblioteca.
 
 ### Usando Gradle
 
-Para proyectos Gradle, añade esta línea a tu `build.gradle`:
+Para proyectos Gradle, agrega esta línea a tu `build.gradle`:
 
+``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
+```
 ```
 
 Luego sincroniza tu proyecto con `gradle build`.
 
 ### Opción de descarga directa
 
-¿Prefiere una instalación manual? Descarga el JAR directamente desde [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) y añádelo al classpath de tu proyecto.
+¿Prefieres instalación manual? Descarga el JAR directamente desde [Lanzamientos de GroupDocs.Signature para Java](https://releases.groupdocs.com/signature/java/) y añádelo al classpath de tu proyecto.
 
 ### Configuración de licencia (¡Importante!)
 
-Esto es algo que sorprende a la gente: GroupDocs requiere una licencia para su uso en producción. Estas son tus opciones:
+Esto es algo que sorprende a la gente: GroupDocs requiere una licencia para uso en producción. Opciones:
 
-- **Prueba gratuita** – ideal para pruebas; todas las funciones, tiempo limitado
-- **Licencia Temporal** – ¿necesitas más tiempo para evaluar? Obtenga una [licencia temporal](https://purchase.groupdocs.com/temporary-license/) para pruebas extendidas
-- **Licencia comercial** – para despliegues en producción, [comprar una licencia](https://purchase.groupdocs.com/buy)
+- **Prueba gratuita** – todas las funciones, tiempo limitado  
+- **Licencia temporal** – ¿necesitas más tiempo? Obtén una [licencia temporal](https://purchase.groupdocs.com/temporary-license/) para pruebas extendidas  
+- **Licencia comercial** – para despliegues en producción, [compra una licencia](https://purchase.groupdocs.com/buy)  
 
-La versión de prueba agrega una marca de agua a tus documentos, así que planifica en consecuencia para demostraciones.
+La versión de prueba agrega una marca de agua, así que planifica adecuadamente para demostraciones.
 
-### Inicialización básica
+## Inicialización básica
 
-Una vez que la biblioteca está instalada, inicializar GroupDocs.Signature es tan simple como apuntar al documento:
+`Signature` es la clase principal de punto de entrada en GroupDocs.Signature for Java que carga y manipula documentos para firmar. Una vez que hayas instalado la biblioteca, inicializarla es tan simple como apuntarla a tu documento:
 
+``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
 ```
+```
 
-¡Eso es todo! Ahora tienes un objeto `Signature` listo para trabajar. Pasemos a la parte interesante—añadir realmente los códigos QR.
+Eso crea un objeto `Signature` listo para trabajar.
 
-## Comprender las firmas de códigos QR
+## Entendiendo las firmas de código QR
 
-Antes de sumergirnos en el código, aclaramos qué hacen realmente las firmas con códigos QR (porque hay cierta confusión al respecto).
+Una firma de código QR incrusta datos verificables —como marcas de tiempo, identidad del firmante o URLs de verificación— en una imagen QR escaneable dentro del documento. Al escanearlo, el código QR dirige al usuario a un portal de verificación o muestra metadatos incrustados, permitiendo una verificación móvil rápida sin software especial.
 
-Una firma con código QR no es simplemente pegar un código QR aleatorio en tu documento. Se trata de incrustar información verificable—como marcas de tiempo, identidad del firmante o URL de verificación—directamente en el documento en un formato escaneable. Cuando alguien escanea el código QR, puede verificar la autenticidad del documento sin necesidad de software especializado.
+**¿Cuándo deberías usar firmas de código QR?**
 
-**¿Cuándo deberías usar firmas con códigos QR?**
+- Verificación móvil rápida (escaneo con un teléfono)  
+- Copias físicas que pueden imprimirse  
+- Incrustar enlaces a portales de verificación  
+- Apoyar flujos de trabajo de verificación offline  
 
-- Necesitas verificación rápida desde dispositivos móviles (escaneo con teléfono)
-- Trabajas con copias físicas que pueden imprimirse
-- Quieres incrustar enlaces a portales de verificación
-- Necesitas soportar flujos de trabajo de verificación offline
+## Guía de implementación: Agregar firmas de código QR
 
-Ahora implementamos esto.
+Aquí es donde el código se vuelve práctico. Firmaremos un PDF con códigos QR posicionados en diferentes ubicaciones de la página.
 
-## Guía de implementación: Agregar firmas de códigos QR
+### Por qué el posicionamiento importa
 
-Aquí es donde las cosas se ponen prácticas. Vamos a firmar un PDF con códigos QR posicionados en diferentes lugares de la página.
-
-### Por qué es importante el posicionamiento
-
-Podrías preguntarte: “¿No puedo simplemente colocar el código QR donde sea?” Técnicamente sí, pero la realidad es que la ubicación afecta tanto la usabilidad como la validez legal. Para contratos, normalmente se desean firmas en la esquina inferior‑derecha. Para facturas, la esquina superior-derecha es común. Para certificados, centrados en la parte inferior funciona bien.
-
-La belleza de **GroupDocs.Signature** es que puedes especificar exactamente dónde aparecen tus códigos QR usando opciones de alineación.
+Un posicionamiento adecuado asegura que el código QR sea fácilmente escaneable, cumpla con los estándares legales y no oculte contenido importante del documento. Para contratos, la esquina inferior derecha es típica; para facturas, la esquina superior derecha funciona mejor; para certificados, centrado en la parte inferior brinda una apariencia limpia.
 
 ### Implementación paso a paso
 
-#### 1. Configure las rutas de sus archivos
+#### 1. Configura tus rutas de archivo
 
-Primero, define dónde vive tu documento fuente y dónde deseas guardar la versión firmada:
+Define dónde se encuentra tu documento fuente y dónde deseas guardar la versión firmada:
 
+``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" + fileName).getPath();
 ```
+```
 
-**Consejo profesional**: Usa `Paths.get()` en lugar de concatenar cadenas para rutas de archivo; maneja automáticamente los separadores específicos del SO (funciona en Windows, Linux y Mac sin cambios).
+**Consejo profesional:** Usa `Paths.get()` en lugar de concatenación de cadenas para rutas de archivo — maneja automáticamente los separadores específicos del SO.
 
-#### 2. Inicializar el objeto de firma
+#### 2. Inicializa el objeto Signature
 
 Envuelve tu inicialización en un bloque try‑catch para manejar posibles problemas de acceso a archivos:
 
+``` 
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -160,13 +207,15 @@ try {
     throw new RuntimeException("Error initializing signature: " + e.getMessage(), e);
 }
 ```
+```
 
-¿Por qué el contenedor `RuntimeException`? Proporciona más contexto al depurar problemas en producción. Te lo agradecerás más tarde al rastrear por qué un documento no se carga.
+`RuntimeException` agrega contexto al depurar, lo que ahorra tiempo en producción.
 
-#### 3. Definir el tamaño y la posición del código QR
+#### 3. Define el tamaño y posiciones del código QR
 
-Aquí configuramos códigos QR en múltiples posiciones. Este ejemplo crea códigos QR en cada combinación posible de alineación (top‑left, top‑center, top‑right, etc.):
+`QrCodeSignOptions` configura la imagen QR que se colocará en el documento. Permite establecer tamaño, márgenes y alineación.
 
+``` 
 ```java
 int qrWidth = 100;
 int qrHeight = 100;
@@ -186,11 +235,13 @@ for (int horizontalAlignment : HorizontalAlignment.getValues()) {
     }
 }
 ```
+```
 
-**¿Qué está pasando aquí?** Recorremos todas las alineaciones horizontales (Left, Center, Right) y todas las verticales (Top, Center, Bottom), creando una opción de código QR para cada combinación válida. `new Padding(5)` agrega un margen de 5 px alrededor de cada código QR para que no se superponga con el contenido del documento.
+El bucle crea opciones de código QR para cada alineación horizontal (Left, Center, Right) y vertical (Top, Center, Bottom), añadiendo un margen de 5 píxeles para que el código nunca toque el borde de la página.
 
-**Ajuste del mundo real**: En producción probablemente no quieras códigos QR en **todas** las posiciones. Elige las que tengan sentido para tu caso de uso. Por ejemplo, solo inferior‑derecha para contratos:
+Para la mayoría de los escenarios de producción elegirás una única posición, como inferior‑derecha para contratos:
 
+``` 
 ```java
 QrCodeSignOptions options = new QrCodeSignOptions("Signature");
 options.setWidth(100);
@@ -199,70 +250,77 @@ options.setHorizontalAlignment(HorizontalAlignment.Right);
 options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
+```
 
-#### 4. Firmar el documento
+#### 4. Firma el documento
 
 Ahora aplicamos todas las firmas configuradas en una sola operación:
 
+``` 
 ```java
 SignResult signResult = signature.sign(outputFilePath, listOptions);
 ```
+```
 
-El método `sign()` procesa todos los códigos QR de la lista y guarda el resultado en la ruta de salida. Devuelve un objeto `SignResult` que contiene información sobre cuántas firmas se añadieron con éxito (útil para registro).
+El método `sign()` procesa cada código QR de la lista y guarda el resultado en tu ruta de salida. Devuelve un objeto `SignResult` que indica cuántas firmas se añadieron con éxito —perfecto para registro.
 
-**Nota de rendimiento**: La firma se realiza de forma síncrona. Para escenarios de alto volumen (cientos de documentos por hora), considera implementarlo en una cola de trabajos en segundo plano en lugar de en una solicitud directa al usuario.
+**Nota de rendimiento:** La firma es sincrónica. Para cargas de trabajo de alto volumen (cientos de documentos por hora) ejecuta esto en una cola de trabajos en segundo plano en lugar de una solicitud directa al usuario.
 
-## Errores y soluciones comunes
-
-Abordamos los problemas que los desarrolladores encuentran con mayor frecuencia.
+## Problemas comunes y soluciones
 
 ### Problema 1: Errores de "Archivo no encontrado"
 
-**Síntoma**: Tu código lanza una excepción de archivo no encontrado aunque el archivo existe.
+**Síntoma:** Una excepción de archivo no encontrado aunque el archivo exista.
 
-**Solución**: Verifica estas tres cosas:
-1. ¿Estás usando rutas absolutas? Las rutas relativas pueden ser complicadas según dónde se ejecute la aplicación.
-2. ¿Tu aplicación tiene permisos de lectura para el archivo fuente y permisos de escritura para el directorio de salida?
-3. ¿Hay caracteres especiales en la ruta que necesitan escaparse?
+**Solución:** Verifica tres cosas:
 
+1. Usa rutas absolutas o asegura que el directorio de trabajo sea correcto.  
+2. Confirma permisos de lectura para la fuente y permisos de escritura para la carpeta de salida.  
+3. Escapa cualquier carácter especial en la ruta.
+
+``` 
 ```java
 // Better approach: Use absolute paths
 String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
 ```
+```
 
-### Problema 2: Los códigos QR se superponen con el contenido del documento
+### Problema 2: Los códigos QR se superponen al contenido del documento
 
-**Síntoma**: Los códigos QR cubren texto importante o aparecen recortados en los bordes de la página.
+**Síntoma:** Los códigos QR cubren texto importante o se recortan en los bordes de la página.
 
-**Solución**: Incrementa los valores de margen y ajusta la alineación estratégicamente:
+**Solución:** Incrementa los valores de margen y elige alineaciones que mantengan el código en regiones vacías:
 
+``` 
 ```java
 options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
 ```
-
-Para documentos con diseños de contenido variados, considera añadir los códigos QR a una región específica de la página que siempre esté vacía (como el área de bloque de firma).
+```
 
 ### Problema 3: Problemas de memoria con documentos grandes
 
-**Síntoma**: `OutOfMemoryError` al procesar PDFs de más de 10 MB.
+**Síntoma:** `OutOfMemoryError` al procesar PDFs de más de 10 MB.
 
-**Solución**: Asegúrate de disponer correctamente los objetos `Signature` y considera procesar documentos grandes en lotes:
+**Solución:** Desecha los objetos `Signature` rápidamente y procesa archivos grandes en lotes:
 
+``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your signing code
 } // Automatically closes and releases resources
 ```
+```
 
-La instrucción try‑with‑resources garantiza la limpieza adecuada incluso si ocurre una excepción.
+La instrucción try‑with‑resources garantiza la limpieza incluso si ocurre una excepción.
 
 ### Problema 4: El contenido del código QR no se actualiza
 
-**Síntoma**: Todos los códigos QR muestran el mismo texto, aunque intentas personalizarlos.
+**Síntoma:** Todos los códigos QR muestran el mismo texto a pesar de los intentos de personalizarlos.
 
-**Solución**: Asegúrate de crear un **nuevo** objeto `QrCodeSignOptions` para cada posición, no reutilizar el mismo:
+**Solución:** Crea una **nueva** instancia de `QrCodeSignOptions` para cada posición en lugar de reutilizar el mismo objeto:
 
+``` 
 ```java
 // Wrong - reuses same object
 QrCodeSignOptions options = new QrCodeSignOptions("Text");
@@ -275,69 +333,47 @@ listOptions.add(options);
 listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
 ```
+```
 
 ## Aplicaciones prácticas
 
-Ahora sabemos de dónde se usa realmente en escenarios empresariales.
-
 ### 1. Sistemas de gestión de contratos
 
-Estás construyendo un sistema donde los contratos legales necesitan firmas digitales con capacidad de verificación. Flujo de trabajo:
-- Generar PDF de contrato desde plantilla
-- Añadir código QR que contiene: ID de contrato, marca de tiempo, hash del firmante
-- Almacenar documentos en almacenamiento seguro
-- Al verificar, el usuario escanea el QR → redirige al portal de verificación → muestra detalles del contrato
-
-**Por qué funciona**: Los equipos legales pueden verificar la autenticidad incluso desde copias impresas, y el QR brinda una pista de auditoría.
+Flujo de trabajo: generar PDF de contrato → agregar código QR que contiene ID de contrato, marca de tiempo, hash del firmante → almacenar de forma segura → el usuario escanea el QR → el portal muestra los detalles del contrato. Esto permite a los equipos legales verificar la autenticidad de copias impresas al instante.
 
 ### 2. Automatización del procesamiento de facturas
 
-Tu sistema de cuentas por pagar recibe cientos de facturas diarias. Necesitas:
-- Añadir un código QR a cada factura procesada
-- Codificar número de factura, ID del proveedor y marca de tiempo de procesamiento
-- Posicionar en la esquina superior‑derecha para no interferir con datos de la factura
-- Archivar facturas firmadas para cumplimiento
-
-**Consejo de implementación**: Posiciona los códigos QR consistentemente en todas las facturas para que los escáneres automáticos sepan exactamente dónde buscar.
+Agregar un código QR en la esquina superior derecha a cada factura procesada, codificando número de factura, ID del proveedor y marca de tiempo de procesamiento. La ubicación consistente permite a los escáneres automáticos localizar el código rápidamente, mejorando la velocidad de auditoría.
 
 ### 3. Certificación de documentos
 
-Estás emitiendo certificados (finalización de capacitación, cumplimiento, etc.) que deben ser verificables:
-- Generar PDF de certificado con datos del destinatario
-- Añadir código QR centrado en la parte inferior con ID de certificado y URL de verificación
-- Los destinatarios pueden escanear para verificar la autenticidad
-- Los permisos pueden validar credenciales al instante
-
-**Bonus**: Incluye una pequeña URL impresa bajo el QR para quienes no pueden escanear.
+Centra un código QR en la parte inferior de los certificados con una URL de verificación y ID del certificado. Los destinatarios pueden escanear para confirmar credenciales, y también se proporciona una URL impresa para usuarios sin móvil.
 
 ### 4. Seguimiento interno de documentos
 
-Para grandes organizaciones con flujos de aprobación de documentos:
-- Añadir códigos QR en cada etapa de aprobación
-- El QR contiene: ID del aprobador, marca de tiempo, versión del documento
-- Escanear para ver historial completo de aprobaciones
-- Facilitar auditorías y cumplimiento.
+Durante aprobaciones de múltiples etapas, incrusta un código QR después de cada firma que contiene ID del aprobador, marca de tiempo y versión. El escaneo revela el historial completo de aprobaciones, cumpliendo auditorías de cumplimiento.
 
 ## Mejores prácticas de producción
-
-¿Pasando de prototipo a producción? Diez en cuenta estas prácticas.
 
 ### Gestión de recursos
 
 Siempre cierra los objetos `Signature` para evitar fugas de memoria:
 
+``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your code
 } // Auto‑closes
 ```
+```
 
-Para aplicaciones web, considera implementar un pool de procesamiento de documentos para limitar operaciones concurrentes.
+Considera un pool de procesamiento para aplicaciones web para limitar operaciones concurrentes.
 
 ### Estrategia de manejo de errores
 
-No solo captures y registres—proporciona información de error accionable:
+Proporciona información de error accionable en lugar de capturas silenciosas:
 
+``` 
 ```java
 try {
     SignResult result = signature.sign(outputFilePath, listOptions);
@@ -351,120 +387,126 @@ try {
     // Implement retry logic or alert mechanism
 }
 ```
+```
 
 ### Optimización del rendimiento
 
-Para escenarios de alto volumen:
+Para entornos de alto rendimiento:
 
-1. **Procesamiento por lotes** – procesa varios documentos en paralelo (pero limita la concurrencia según la memoria disponible)
-2. **Caché** – si reutilizas las mismas opciones de firma, créalas una vez y reutilízalas
-3. **Operaciones async** – implementa la firma en Workers en segundo plano para aplicaciones orientadas al usuario
-4. **Monitoreo de memoria** – configura alertas para picos de uso de memoria
+1. **Procesamiento por lotes** – procesa documentos en paralelo, pero limita la concurrencia según la RAM.  
+2. **Caché** – reutiliza objetos idénticos de `QrCodeSignOptions` entre documentos.  
+3. **Operaciones asíncronas** – traslada la firma a trabajadores en segundo plano para APIs responsivas.  
+4. **Monitoreo de memoria** – establece alertas para picos y ajusta el tamaño de lote en consecuencia.
 
 ### Consideraciones de seguridad
 
-- Almacena los documentos firmados por separado de los originales.
-- Registrar todas las operaciones de firma para auditoría
-- Implementa controles de acceso para operaciones de firma.
-- Considere encriptar el contenido del código QR si contiene información sensible
+- Almacena los documentos firmados por separado de los originales.  
+- Registra cada operación de firma para auditorías.  
+- Aplica controles de acceso estrictos alrededor de los puntos finales de firma.  
+- Encripta las cargas útiles sensibles del QR cuando sea necesario.
 
-## Cuándo utilizar firmas de códigos QR (y cuándo no)
+## Cuándo usar firmas de código QR (y cuándo no)
 
-**Usa firmas con códigos QR cuando:**
+**Usa firmas de código QR cuando:**
 
-- Necesitas verificación amigable para móviles
-- Los documentos pueden imprimirse y volver a escanearse
-- Quieres incrustar enlaces a portales de verificación
-- Necesitas soportar flujos de trabajo de verificación offline
+- Se requiere verificación amigable para móviles.  
+- Los documentos pueden imprimirse y volver a escanearse.  
+- Necesitas incrustar URLs o IDs de verificación.  
+- Los flujos de trabajo de verificación offline forman parte del proceso.
 
-**No utiliza firmas con códigos QR cuando:**
+**Evita firmas de código QR cuando:**
 
-- Necesita firmas criptográficas legalmente vinculantes (usa una firma basada en PKI)
-- El código QR podría dañarse o quedar oculto en la impresión
-- Tu sistema de verificación es exclusivamente fuera de línea
-- El tamaño del documento es crítico (los QR añaden algunos kilobytes)
+- Una firma PKI legalmente vinculante es obligatoria (usa firmas criptográficas en su lugar).  
+- Los códigos QR podrían dañarse u ocultarse durante la impresión.  
+- Tu sistema de verificación está completamente offline.  
+- El tamaño del documento es una restricción crítica (los códigos QR añaden ~5‑20 KB cada uno).
 
-**Considera combinar**: Usa tanto firmas criptográficas **como** códigos QR. Obtienes validez legal y verificación móvil fácil.
+**Mejor práctica:** Combina una firma criptográfica con un código QR para obtener tanto validez legal como verificación móvil rápida.
 
 ## Guía de solución de problemas
 
 ### La firma no aparece
 
-1. ¿Se está creando el archivo de salida? (Revisa el sistema de archivos)
-2. ¿Estás abriendo el archivo de salida correcto?
-3. ¿El `SignResult` indica éxito?
-4. ¿Tus valores de alineación y margen están empujando el QR fuera del área visible de la página?
+1. Verifica que el archivo de salida se haya creado realmente.  
+2. Confirma que estás abriendo el archivo de salida correcto.  
+3. Revisa `SignResult` para obtener el recuento de éxitos.  
+4. Asegúrate de que los valores de alineación y margen no estén desplazando el código QR fuera de la página.
 
-### El código QR no se escanea
+### El código QR no escanea
 
-- Mantén el tamaño del código QR ≥100×100px
-- Asegura alto contraste con el fondo.
-- Limita los datos codificados a <100 caracteres para escaneo confiable
-- Usa mayor DPI al imprimir copias físicas
+- Mantén el tamaño del QR ≥ 100 × 100 px.  
+- Usa alto contraste (código oscuro sobre fondo claro).  
+- Limita los datos codificados a < 100 caracteres para un escaneo fiable.  
+- Imprime a ≥ 300 dpi para copias físicas.
 
 ### Degradación del rendimiento
 
-- Reducir la cantidad de firmas por documento.
-- Verifica que no estés creando objetos `Signature` innecesariamente
-- Perfila el uso de memoria; considera procesar documentos en lotes más pequeños
+- Reduce el número de códigos QR por documento.  
+- Reutiliza instancias de `Signature` cuando sea posible.  
+- Perfila el uso de memoria; considera procesar en lotes más pequeños.
 
 ## Preguntas frecuentes
 
 **Q:** *¿Puedo firmar documentos que no sean PDFs?*  
-**A:** Absolutamente. GroupDocs.Signature soporta Word (DOC/DOCX), Excel (XLS/XLSX), PowerPoint (PPT/PPTX) e imágenes (JPG, PNG, TIFF). La API permanece prácticamente igual entre formatos.
+**A:** Sí. GroupDocs.Signature soporta Word (DOC/DOCX), Excel (XLS/XLSX), PowerPoint (PPT/PPTX) y formatos de imagen (JPG, PNG, TIFF). La API permanece consistente en todos los tipos soportados.
 
 **Q:** *¿Cómo personalizo la apariencia del código QR?*  
 **A:** Usa propiedades de `QrCodeSignOptions` como `setForeColor()`, `setBackgroundColor()` y `setBorder()`. Mantén las personalizaciones simples para preservar la escaneabilidad.
 
-**Q:** *¿Puedo añadir códigos QR a páginas específicas en un documento multipágina?*  
-**A:** ¡Sí! Establece el número de página con `options.setPageNumber(pageNumber);`. Ejemplo:
+**Q:** *¿Puedo agregar códigos QR a páginas específicas en un documento multipágina?*  
+**A:** Absolutamente. Establece el número de página con `options.setPageNumber(pageNumber);`. Ejemplo:
 
+``` 
 ```java
 options.setPageNumber(1); // Add to first page only
 ```
+```
 
 **Q:** *¿Qué datos puedo codificar en el código QR?*  
-**A:** Lo que desees—texto plano, URLs, JSON, XML. Mantén menos de ~200 caracteres para escaneo fiable. Para cargas mayores, codifica una URL corta que apunte a los datos completos.
+**A:** Cualquier texto, URL, JSON o XML —preferiblemente menos de 200 caracteres para un escaneo fiable. Para cargas útiles más grandes, codifica una URL corta que apunte a los datos completos en un servidor.
 
-**Q:** *¿Cómo verifico programáticamente firmas con códigos QR?*  
-**A:** GroupDocs.Signature ofrece el método `verify`. Ejemplo:
+**Q:** *¿Cómo verifico firmas de código QR programáticamente?*  
+**A:** GroupDocs.Signature proporciona un método `verify`. Ejemplo:
 
+``` 
 ```java
 VerificationResult result = signature.verify(verifyOptions);
 if (result.isValid()) {
     // Signature is authentic
 }
 ```
+```
+
+La clase `Signature` es el punto de entrada principal para aplicar firmas a documentos.
 
 **Q:** *¿Puedo usar esto en un entorno multihilo?*  
-**A:** Sí, pero crea una instancia separada de `Signature` por hilo—las instancias no son seguras para hilos. Usa una cola de procesamiento para escenarios de alta concurrencia.
+**A:** Sí, pero instancia un objeto `Signature` separado por hilo —las instancias no son seguras para hilos. Usa una cola de procesamiento para escenarios de alta concurrencia.
 
-**Q:** *¿Cuál es el impacto en el tamaño del archivo al añadir códigos QR?*  
-**A:** Mínimo—típicamente 5‑20 KB por código QR según tamaño y contenido. Para la mayoría de PDFs es insignificante, pero tenlo en cuenta si añades muchos QR a lotes grandes.
-
-## Próximos pasos
-
-Ahora tienes una base sólida para implementar firmas **java generate qr code** en Java. Aquí tienes qué explorar a continuación:
-
-1. **Personalización avanzada** – profundización en opciones de estilo de QR en la [documentación de GroupDocs](https://docs.groupdocs.com/signature/java/)
-2. **Sistemas de verificación** – crea un portal web donde los usuarios puedan verificar documentos subiendo o escaneando códigos QR
-3. **Integración de flujos de trabajo** – conecta esto a tu sistema de gestión documental existente
-4. **Aplicaciones móviles** – desarrolla una aplicación complementaria para escanear y verificar códigos QR
-
-¡Feliz codificación y disfruta de la seguridad y comodidad que aportan las firmas con códigos QR a tus aplicaciones Java!
-
-## Recursos y soporte
-
-- **Documentación**: [GroupDocs.Signature Java Docs](https://docs.groupdocs.com/signature/java/)
-- **Referencia API**: [Referencia API completa](https://reference.groupdocs.com/signature/java/)
-- **Descargas**: [Última versión de Java](https://releases.groupdocs.com/signature/java/)
-- **Compra de licencia**: [Comprar GroupDocs.Signature](https://purchase.groupdocs.com/buy)
-- **Prueba gratuita**: [Comience su prueba gratuita](https://releases.groupdocs.com/signature/java/)
-- **Licencia temporal**: [Obtener Licencia Temporal](https://purchase.groupdocs.com/temporary-license/)
-- **Soporte comunitario**: [GroupDocs Foro](https://forum.groupdocs.com/c/signature/)
+**Q:** *¿Cuál es el impacto en el tamaño del archivo al agregar códigos QR?*  
+**A:** Mínimo —normalmente 5‑20 KB por código QR según el tamaño y contenido. Para la mayoría de los PDFs es insignificante, pero tenlo en cuenta al firmar miles de páginas en trabajos por lotes.
 
 ---
 
-**Última actualización:** 31/12/2025
-**Probado con:** GroupDocs.Signature 23.12 para Java
-**Autor:** GroupDocs
+**Last Updated:** 2026-05-21  
+**Tested With:** GroupDocs.Signature 23.12 for Java  
+**Author:** GroupDocs  
+
+## Recursos
+
+- [Lanzamientos de GroupDocs.Signature para Java](https://releases.groupdocs.com/signature/java/)  
+- [licencia temporal](https://purchase.groupdocs.com/temporary-license/)  
+- [comprar una licencia](https://purchase.groupdocs.com/buy)  
+- [documentación de GroupDocs](https://docs.groupdocs.com/signature/java/)  
+- [Documentación Java de GroupDocs.Signature](https://docs.groupdocs.com/signature/java/)  
+- [Referencia completa de API](https://reference.groupdocs.com/signature/java/)  
+- [Último lanzamiento Java](https://releases.groupdocs.com/signature/java/)  
+- [Comprar GroupDocs.Signature](https://purchase.groupdocs.com/buy)  
+- [Comienza tu prueba gratuita](https://releases.groupdocs.com/signature/java/)  
+- [Obtener licencia temporal](https://purchase.groupdocs.com/temporary-license/)  
+- [Foro de GroupDocs](https://forum.groupdocs.com/c/signature/)
+
+## Tutoriales relacionados
+
+- [Biblioteca de firma de código QR Java - Tutorial completo de GroupDocs](/signature/java/qr-code-signatures/)  
+- [Extraer datos de código QR en Java - Guía completa con GroupDocs](/signature/java/qr-code-signatures/detect-qr-code-mecard-signatures-groupdocs-java/)  
+- [Eliminar código QR de PDF Java - Guía completa con GroupDocs](/signature/java/signature-management/delete-qr-code-signatures-groupdocs-java/)

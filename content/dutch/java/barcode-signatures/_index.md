@@ -70,11 +70,11 @@ url: /nl/java/barcode-signatures/
 weight: 4
 ---
 
-# Java QR‑codehandtekening tutorial: toevoegen, verifiëren en beheren van barcodes in PDF‑bestanden
+# Java Barcode Handtekening Tutorial: Voeg toe, Verifieer & Beheer Barcodes in PDF's
 
-Machine‑leesbare gegevens direct in uw documenten insluiten is een krachtige manier om workflows te automatiseren en integriteit te garanderen. In deze **Java create QR code signature** tutorial ontdekt u hoe u product‑ID’s, tracking‑nummers of verificatiecodes veilig kunt coderen in PDF‑s, Word‑bestanden, afbeeldingen en zelfs archiefformaten. GroupDocs.Signature for Java maakt van een meer‑stappenproces slechts een paar regels code, terwijl het originele document ongewijzigd blijft.
+Moet u machine‑leesbare informatie direct in uw documenten embedden? In deze **java barcode signature tutorial** ontdekt u hoe u gegevens—zoals product‑ID's, tracking‑nummers of verificatiecodes—veilig kunt coderen direct in PDF's, Word‑bestanden en vele andere formaten. Barcode‑handtekeningen stellen u in staat metadata toe te voegen zonder de oorspronkelijke inhoud te wijzigen, en GroupDocs.Signature for Java maakt het hele proces slechts een paar regels code verwijderd.
 
-## Snelle antwoorden
+## Snelle Antwoorden
 - **Welke bibliotheek is vereist?** GroupDocs.Signature for Java (Maven of directe download).  
 - **Welke Java‑versie wordt ondersteund?** Java 8 of nieuwer.  
 - **Kan ik PDF’s, Word en afbeeldingen ondertekenen?** Ja, de API werkt met meer dan **55** formaten.  

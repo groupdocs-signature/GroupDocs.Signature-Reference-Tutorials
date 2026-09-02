@@ -20,22 +20,6 @@ url: /th/java/barcode-signatures/java-barcode-signature-management-groupdocs-sig
 weight: 1
 ---
 
-"
-
-Then paragraph.
-
-Need to translate bold text **manage barcode signatures java**‑style etc. Keep bold markup.
-
-Will translate.
-
-Proceed.
-
-Will keep code block placeholders as separate lines with same placeholder.
-
-Make sure to keep markdown formatting.
-
-Let's craft.
-
 # วิธีจัดการลายเซ็นบาร์โค้ดใน Java
 
 เคยใช้เวลาหลายชั่วโมงพยายาม **manage barcode signatures java**‑style, ตรวจสอบเอกสารที่ลงลายเซ็นโดยโปรแกรม, แต่กลับต้องต่อสู้กับไลบรารี PDF ที่ไม่ได้ออกแบบมาสำหรับการจัดการลายเซ็นหรือไม่? คุณไม่ได้อยู่คนเดียว การจัดการลายเซ็นอิเล็กทรอนิกส์—โดยเฉพาะลายเซ็นบาร์โค้ด—อาจเป็นจุดที่ทำให้เจ็บปวดเมื่อคุณสร้างเวิร์กโฟลว์เอกสาร
