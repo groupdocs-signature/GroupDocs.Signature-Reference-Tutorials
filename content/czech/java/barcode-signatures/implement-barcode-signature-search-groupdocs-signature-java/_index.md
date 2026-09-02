@@ -1,67 +1,92 @@
 ---
 categories:
 - Document Processing
-date: '2026-01-29'
-description: Naučte se, jak pomocí Java a GroupDocs.Signature vyhledávat konkrétní
-  stránky s čárovým kódem v dokumentech. Průvodce krok za krokem, ukázky kódu a tipy
-  na řešení problémů.
-keywords: search barcode specific pages, java document signature verification, barcode
-  signature detection java, electronic signature search java, verify barcode signatures
-  programmatically
-lastmod: '2026-01-29'
-linktitle: Search Barcode Specific Pages Java
+date: '2026-06-21'
+description: Naučte se, jak vyhledávat stránky s čárovým kódem v Javě pomocí GroupDocs.Signature.
+  Podrobný návod krok za krokem, vyhledávání čárových kódů v reálném čase a ověřování
+  podpisů čárových kódů v Javě.
+keywords:
+- search barcode pages java
+- real time barcode search
+- barcode verification documents
+lastmod: '2026-06-21'
+linktitle: Vyhledat specifické stránky s čárovým kódem Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-21'
+  description: Learn how to search barcode pages java using GroupDocs.Signature. Step-by-step
+    guide, real‑time barcode search, and verification of barcode signatures in Java.
+  headline: search barcode pages java – Search Barcode Specific Pages in Documents
+  type: TechArticle
+- questions:
+  - answer: Yes. `BarcodeSearchOptions` searches all supported formats by default.
+      Filter results by `getEncodeType()` if you need only specific types.
+    question: Can I search for multiple barcode formats in one call?
+  - answer: Run separate searches—use `BarcodeSignature.class` for barcodes and `ImageSignature.class`
+      for image signatures, then combine the results as needed.
+    question: How do I handle documents that contain both barcode and image signatures?
+  - answer: Scanning every page of a 50‑page PDF can take 3–5 seconds. Limiting to
+      first + last pages usually finishes under 1 second.
+    question: What’s the performance impact of searching all pages vs. specific pages?
+  - answer: Only if the barcode was added as a digital signature object. For raster‑only
+      barcodes, you’ll need an image‑based barcode recognizer (e.g., GroupDocs.Barcode).
+    question: Does this work with scanned PDFs (raster images)?
+  - answer: Embed a hash or digital signature inside the barcode payload, then recompute
+      the hash on the original data and compare. This requires the original signing
+      key or certificate.
+    question: How can I verify that a barcode signature hasn’t been tampered with?
+  type: FAQPage
 tags:
 - java
 - barcode-signatures
 - document-verification
 - groupdocs
-title: Vyhledávání specifických stránek s čárovým kódem v dokumentech pomocí Javy
+title: vyhledávání stránek s čárovým kódem java – Vyhledat specifické stránky s čárovým
+  kódem v dokumentech
 type: docs
 url: /cs/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/
 weight: 1
 ---
 
-# Vyhledávání specifických stránek s čárovým kódem v dokumentech pomocí Javy
+# Vyhledávání stránek s čárovým kódem v dokumentech pomocí Javy
 
 ## Úvod
 
-Už jste někdy strávili hodiny ručním ověřováním podpisů ve stovkách dokumentů? Nejste v tom sami. Ať už budujete systém pro správu smluv, automatizujete zpracování faktur nebo zabezpečujete zdravotnické záznamy, ruční vyhledávání a ověřování čárových kódů je únavné a náchylné k chybám.
+Už jste někdy strávili hodiny ručním ověřováním podpisů ve stovkách dokumentů? Nejste v tom sami. Ať už budujete systém pro správu smluv, automatizaci zpracování faktur nebo zabezpečujete zdravotnické záznamy, ruční vyhledávání a validace čárových kódů je únavné a náchylné k chybám. **V tomto tutoriálu se naučíte, jak vyhledávat stránky s čárovým kódem v Javě pomocí GroupDocs.Signature**, takže můžete programově cílit jen na relevantní stránky, sledovat průběh v reálném čase a zpracovávat různé formáty čárových kódů pomocí několika řádků Java kódu.
 
-V tomto průvodci vám ukážeme **jak vyhledávat specifické stránky s čárovým kódem** ve vašich dokumentech programově pomocí Javy a GroupDocs.Signature. Na konci budete schopni detekovat podpisy na vybraných stránkách, sledovat průběh vyhledávání v reálném čase a pracovat s různými formáty čárových kódů – vše s čistým a udržovatelným kódem.
-
-**Co se naučíte**
-- Nastavení GroupDocs.Signature v Java projektu (≈5 minut)
-- Přihlášení k událostem vyhledávání pro sledování průběhu v reálném čase
-- Konfigurace inteligentních možností vyhledávání pro cílení na konkrétní stránky
-- Spuštění vyhledávání a efektivní zpracování výsledků
+Co se naučíte  
+- Nastavení GroupDocs.Signature v Java projektu (≈5 minut)  
+- Přihlášení k událostem vyhledávání pro sledování průběhu v reálném čase  
+- Konfigurace chytrých možností vyhledávání pro cílení konkrétních stránek  
+- Efektivní spuštění vyhledávání a zpracování výsledků  
 
 ## Rychlé odpovědi
-- **Která knihovna vám pomůže vyhledávat specifické stránky s čárovým kódem?** GroupDocs.Signature pro Javu  
+- **Která knihovna vám pomůže vyhledávat konkrétní stránky s čárovým kódem?** GroupDocs.Signature pro Javu  
 - **Typický čas nastavení?** Přibližně 5 minut na přidání Maven/Gradle závislosti a licence  
 - **Mohu omezit vyhledávání na první a poslední stránku?** Ano – použijte `PagesSetup` k určení konkrétních stránek  
 - **Jaké formáty čárových kódů jsou podporovány?** QR Code, Code128, Code39, DataMatrix, EAN/UPC a další  
-- **Potřebuji placenou licenci pro produkci?** Pro produkci je vyžadována plná licence; zkušební verze funguje pro hodnocení  
+- **Potřebuji placenou licenci pro produkci?** Pro produkci je vyžadována plná licence; pro hodnocení stačí trial  
 
-## Co je „vyhledávání specifických stránek s čárovým kódem“?
+## Co je „vyhledávání stránek s čárovým kódem“?
 
-Vyhledávání specifických stránek s čárovým kódem znamená instruovat motor podpisů, aby hledal čárové kódy pouze na stránkách, které vás zajímají – např. na první stránce, poslední stránce nebo v libovolném vlastním rozsahu. Tento zaměřený přístup urychluje zpracování, snižuje využití paměti a umožňuje vytvořit responzivní zpětnou vazbu uživatelského rozhraní.
+Vyhledávání stránek s čárovým kódem znamená instruovat motor podpisu, aby hledal čárové kódy pouze na stránkách, které vás zajímají – např. na první, poslední nebo v libovolném vlastním rozsahu. Tento zaměřený přístup urychluje zpracování, snižuje využití paměti a umožňuje vytvořit responzivní UI zpětnou vazbu.
 
 ## Proč použít GroupDocs.Signature pro tento úkol?
 
-GroupDocs.Signature poskytuje vysoceúrovňové API, které abstrahuje nízkoúrovňové dekódování čárových kódů, vykreslování stránek a zpracování formátů dokumentů. Funguje s PDF, DOCX, XLSX a mnoha dalšími formáty přímo z krabice, což vám umožní soustředit se na obchodní logiku místo parsování souborů.
+GroupDocs.Signature poskytuje vysoceúrovňové API, které abstrahuje nízkoúrovňové dekódování čárových kódů, vykreslování stránek a manipulaci s formáty dokumentů. Podporuje **více než 20 formátů čárových kódů** a dokáže zpracovat **dokumenty s více než stovkou stran bez načítání celého souboru do paměti**, což vám umožní soustředit se na obchodní logiku místo parsování souborů.
 
-## Předpoklady
+## Požadavky
 
-- **JDK 8+** nainstalováno
-- **Maven** nebo **Gradle** pro správu závislostí
-- Základní znalost Java tříd, metod a zpracování výjimek
-- Přístup k licenci GroupDocs.Signature (zkušební nebo plná)
+- **JDK 8+** nainstalováno  
+- **Maven** nebo **Gradle** pro správu závislostí  
+- Základní znalost Java tříd, metod a zpracování výjimek  
+- Přístup k licenci GroupDocs.Signature (trial nebo plná)  
 
 ## Nastavení GroupDocs.Signature pro Javu
 
 ### Nastavení Maven
 
-Add the dependency to your `pom.xml`:
+Přidejte závislost do svého `pom.xml`:
 
 ```xml
 <dependency>
@@ -73,21 +98,21 @@ Add the dependency to your `pom.xml`:
 
 ### Nastavení Gradle
 
-Or include it in `build.gradle`:
+Nebo ji zahrňte do `build.gradle`:
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Preferujete ruční stažení?** Můžete si stáhnout nejnovější verzi přímo ze [stránky ke stažení GroupDocs](https://releases.groupdocs.com/signature/java/).
+Preferujete ruční stažení? Nejnovější verzi můžete získat přímo ze [GroupDocs download page](https://releases.groupdocs.com/signature/java/).
 
 ### Získání licence
 
-- **Free Trial** – začněte okamžitě, bez závazku  
-- **Temporary License** – plný přístup ke všem funkcím pro hodnocení  
+- **Free Trial** – začněte okamžitě, bez závazků  
+- **Temporary License** – plný přístup k funkcím pro hodnocení  
 - **Full License** – připravená pro produkci, neomezené použití  
 
-Verify the installation with a quick initialization snippet:
+Ověřte instalaci pomocí rychlého inicializačního úryvku:
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -102,32 +127,37 @@ public class SignatureSetup {
 }
 ```
 
-> **Tip:** Nahraďte `"YOUR_DOCUMENT_PATH"` skutečnou PDF, DOCX nebo XLSX souborem. Pokud konzole vypíše zprávu o úspěchu, jste připraveni pokračovat.
+> **Pro tip:** Nahraďte `"YOUR_DOCUMENT_PATH"` skutečnou cestou k PDF, DOCX nebo XLSX souboru. Pokud konzole vypíše zprávu o úspěchu, jste připraveni.
 
 ## Porozumění typům čárových kódů v podpisu
 
-Barcodes embed machine‑readable data inside a document. Unlike handwritten signatures, they can store IDs, timestamps, URLs, or JSON payloads, making them ideal for automated verification.
+Čárové kódy vkládají strojově čitelná data do dokumentu. Na rozdíl od ručně psaných podpisů mohou ukládat ID, časové razítka, URL nebo JSON payloady, což je činí ideálními pro automatizované ověřování.
 
 | Typ čárového kódu | Nejvhodnější použití | Typická délka dat |
-|-------------------|----------------------|--------------------|
+|-------------------|----------------------|-------------------|
 | QR Code | Data s vysokou hustotou, URL, víceřádkový text | Až 4 296 znaků |
 | Code128 | Alfanumerické sledovací čísla | Proměnná |
 | Code39 | Jednoduché starší kódy | Až 43 znaků |
 | DataMatrix | Malé štítky, zdravotnické záznamy | Až 2 335 znaků |
 | EAN/UPC | Identifikace produktů, maloobchod | 8‑13 číslic |
 
-Čárové kódy často použijete, když potřebujete rychlé strojové čtení, strukturovaná data nebo podpis odolný proti manipulaci.
+Čárové kódy často používáte, když potřebujete rychlé strojové čtení, strukturovaná data nebo nefalšovatelný podpis.
 
-## Jak vyhledávat specifické stránky s čárovým kódem
+## Jak vyhledávat stránky s čárovým kódem v Javě?
 
-Rozdělíme implementaci do tří zaměřených funkcí.
+`Signature` je hlavní třída představující dokument k zpracování. Načtěte dokument pomocí `new Signature("file.pdf")`, `BarcodeSearchOptions` definuje parametry pro vyhledávání čárových kódů a nastavte jej tak, aby cílil na požadované stránky, a zavolejte `signature.search(options)`. Metoda `search` spustí operaci vyhledávání s poskytnutými možnostmi. Engine vrátí seznam objektů `BarcodeSignature`, které obsahují čísla stránek, dekódovaný text a geometrické souřadnice – vše v jednom volání. Tento jednoprostorový vzor eliminuje potřebu samostatného extrahování obrázků nebo vlastního dekódování.
 
-### Funkce 1: Přihlášení k událostem vyhledávání dokumentu
+Nyní, když rozumíte celkovému toku, pojďme se ponořit do tří hlavních funkcí, které implementujete.
 
-#### Proč je to důležité
-Při zpracování velkých dávek poskytuje zpětná vazba v reálném čase (např. ukazatele průběhu) lepší uživatelský zážitek a pomáhá včas odhalit zdržení.
+### Funkce 1: Přihlášení k událostem vyhledávání dokumentu
 
-#### Implementace
+#### Proč je to důležité  
+Při zpracování velkých dávek poskytuje zpětná vazba v reálném čase (např. ukazatele průběhu) lepší UX a pomáhá včas odhalit zdržení.
+
+#### Definiční kotva  
+`Signature` představuje dokument a poskytuje možnosti přihlášení k událostem.
+
+Implementace
 
 ```java
 Signature signature = new Signature("YOUR_DOCUMENT_PATH");
@@ -157,14 +187,17 @@ signature.SearchCompleted.add(new ProcessCompleteEventHandler() {
 });
 ```
 
-Tyto tři obslužné rutiny vám poskytují čas zahájení, průběžný pokrok a konečnou statistiku – ideální pro logování nebo aktualizace UI.
+Tyto tři obslužné rutiny vám poskytují čas zahájení, živý průběh a konečnou statistiku – ideální pro logování nebo aktualizace UI.
 
-### Funkce 2: Konfigurace možností vyhledávání čárových kódů pro konkrétní stránky
+### Funkce 2: Konfigurace možností vyhledávání čárových kódů pro konkrétní stránky
 
-#### Proč je důležitá jemná kontrola
-Prohledávání každé stránky 200‑stránkového kontraktu plýtvá cykly CPU. Cílení pouze na první a poslední stránku může zkrátit dobu běhu o 80 %.
+#### Proč je důležitá jemná kontrola  
+Prohledávání každé stránky 200‑stránkové smlouvy plýtvá CPU cykly. Cílení jen na první a poslední stránku může zkrátit dobu běhu až **o 80 %**.
 
-#### Implementace
+#### Definiční kotva  
+`PagesSetup` určuje, které stránky jsou zahrnuty do operace vyhledávání.
+
+Implementace
 
 ```java
 import com.groupdocs.signature.domain.enums.TextMatchType;
@@ -194,15 +227,18 @@ options.setMatchType(TextMatchType.Contains);
 options.setText("12345");
 ```
 
-- **Typy shody** vám umožňují jemně ladit textové vyhledávání (`Contains`, `Exact`, `StartsWith`, `EndsWith`).  
-- Upravte `setAllPages` a `PagesSetup` pro **vyhledávání specifických stránek s čárovým kódem** pouze.
+- **Typy shody** vám umožňují jemně ladit vyhledávání textu (`Contains`, `Exact`, `StartsWith`, `EndsWith`).  
+- Upravit `setAllPages` a `PagesSetup` tak, aby **vyhledával pouze konkrétní stránky s čárovým kódem**.
 
-### Funkce 3: Spuštění vyhledávání a zpracování výsledků
+### Funkce 3: Spuštění vyhledávání a zpracování výsledků
 
-#### Proč je tento krok důležitý
-Nalezení čárových kódů je jen polovina příběhu – musíte s daty něco udělat (např. ověřit, uložit nebo spustit workflow).
+#### Proč je tento krok důležitý  
+Nalezení čárových kódů je jen polovina příběhu – musíte s daty něco udělat (např. validovat, uložit nebo spustit workflow).
 
-#### Implementace
+#### Definiční kotva  
+`BarcodeSignature` představuje detekovaný čárový kód a obsahuje jeho vlastnosti, jako je číslo stránky a dekódovaný text.
+
+Implementace
 
 ```java
 import java.util.List;
@@ -223,12 +259,12 @@ try {
 
 Nyní máte seznam objektů `BarcodeSignature`, z nichž každý poskytuje:
 
-- `getPageNumber()` – kde se čárový kód nachází
-- `getEncodeType()` – QR, Code128, atd.
-- `getText()` – dekódovaný payload
+- `getPageNumber()` – kde se čárový kód nachází  
+- `getEncodeType()` – typ kódování (QR, Code128 atd.)  
+- `getText()` – dekódované údaje  
 - Pozice (`getLeft()`, `getTop()`) a velikost (`getWidth()`, `getHeight()`)
 
-**Příklad: Zpracovat pouze QR kódy na poslední stránce**
+**Příklad: Zpracovat jen QR kódy na poslední stránce**
 
 ```java
 for (BarcodeSignature barcodeSignature : signatures) {
@@ -242,58 +278,50 @@ for (BarcodeSignature barcodeSignature : signatures) {
 
 ## Praktické aplikace
 
-| Scénář | Jak pomáhá vyhledávání specifických stránek s čárovým kódem |
-|--------|--------------------------------------------------------------|
-| Ověření právních smluv | Automatické ověření QR‑kódovaných hashů certifikátů na stránce s podpisem |
-| Sledování dodavatelského řetězce | Vyhledání Code128 ID zásilek na první/poslední stránce manifestů |
-| Zdravotnické souhlasné formuláře | Extrahování DataMatrix ID pacientů z poslední stránky souhlasu |
-| Automatizace faktur | Najít čárové kódy s předponou „APPR‑“ kdekoliv na faktuře a poté směrovat |
+| Scénář | Jak vyhledávání stránek s čárovým kódem pomáhá |
+|--------|-----------------------------------------------|
+| Ověřování právních smluv | Automatické ověření QR‑kódem zakódovaných hashů certifikátů na stránce s podpisem |
+| Sledování dodavatelského řetězce | Najít Code128 ID zásilek na první/poslední stránce manifestů |
+| Zdravotnické souhlasné formuláře | Extrahovat DataMatrix ID pacientů z poslední stránky souhlasu |
+| Automatizace faktur | Najít čárové kódy s předponou „APPR‑“ kdekoliv na faktuře a následně směrovat |
 
 ## Časté problémy a řešení
 
 ### Problém 1 – Žádné výsledky i přes viditelné čárové kódy
-
 ```java
 // Ensure you are not limiting pages too aggressively
 options.setAllPages(true);
-```
-
+```  
 Pokud je čárový kód vložen jako rastrový obrázek, zvažte použití GroupDocs.Image pro detekci založenou na obrázcích.
 
-### Problém 2 – Pomalejší výkon u velkých souborů
-
+### Problém 2 – Pomalý výkon u velkých souborů
 ```java
 PagesSetup pagesSetup = new PagesSetup();
 pagesSetup.setLastPage(true);  // Most signatures are on the last page
 pagesSetup.setFirstPage(true);
 options.setPagesSetup(pagesSetup);
-```
-
-Cílené stránky výrazně snižují dobu zpracování.
+```  
+Cílené stránky dramaticky snižují dobu zpracování; 150‑stránkový PDF se zhruba 4 sekund zkrátí na <1 sekundu, když omezíte vyhledávání na dvě stránky.
 
 ### Problém 3 – TextMatchType nenachází očekávané čárové kódy
-
 ```java
 String searchText = "12345".trim().toLowerCase();
 options.setText(searchText);
 options.setMatchType(TextMatchType.StartsWith); // Try a more permissive mode
-```
+```  
 
 ### Problém 4 – Úniky paměti v dlouho běžících smyčkách
-
 ```java
 try (Signature signature = new Signature("document.pdf")) {
     List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
     // Process signatures
 }
-```
-
-Blok try‑with‑resources automaticky uvolní instanci `Signature`.
+```  
+Blok `try‑with‑resources` automaticky uvolní instanci `Signature`.
 
 ## Nejlepší postupy pro produkci
 
 ### Robustní zpracování chyb
-
 ```java
 try {
     List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
@@ -302,20 +330,18 @@ try {
 } catch (Exception e) {
     logger.error("Unexpected error: " + e.getMessage(), e);
 }
-```
+```  
 
 ### Ukládejte výsledky do cache, pokud jsou dokumenty neměnné
-
 ```java
 Map<String, List<BarcodeSignature>> cache = new ConcurrentHashMap<>();
 
 public List<BarcodeSignature> getCachedSignatures(String docId) {
     return cache.computeIfAbsent(docId, id -> performSearch(id));
 }
-```
+```  
 
-### Používejte události průběhu pro zpětnou vazbu UI
-
+### Používejte události postupu pro zpětnou vazbu UI
 ```java
 signature.SearchProgress.add(new ProcessProgressEventHandler() {
     public void invoke(Signature sender, ProcessProgressEventArgs args) {
@@ -323,10 +349,9 @@ signature.SearchProgress.add(new ProcessProgressEventHandler() {
         updateProgressBar(percent);
     }
 });
-```
+```  
 
 ### Ověřujte payloady čárových kódů
-
 ```java
 for (BarcodeSignature barcodeSignature : signatures) {
     String text = barcodeSignature.getText();
@@ -339,55 +364,58 @@ for (BarcodeSignature barcodeSignature : signatures) {
         flagForManualReview(document);
     }
 }
-```
+```  
 
 ### Optimalizujte výběr stránek podle typu dokumentu
-
 ```java
 PagesSetup contractsSetup = new PagesSetup();
 contractsSetup.setLastPage(true); // Contracts usually signed on last page
 options.setPagesSetup(contractsSetup);
-```
+```  
 
 ### Filtrovat podle typu čárového kódu po vyhledávání (pokud potřebujete jen QR kódy)
-
 ```java
 for (BarcodeSignature sig : signatures) {
     if ("QRCode".equals(sig.getEncodeType())) {
         // Process QR code
     }
 }
-```
+```  
 
-### Extrahujte rozměry obrázku čárového kódu (pokud jsou potřeba pro vykreslování)
-
+### Extrahujte rozměry obrázku čárového kódu (pokud je potřeba pro vykreslení)
 ```java
 for (BarcodeSignature sig : signatures) {
     int width = sig.getWidth();
     int height = sig.getHeight();
     // Use dimensions for overlay or thumbnail generation
 }
-```
+```  
 
 ## Často kladené otázky
 
-**Q: Mohu vyhledávat více formátů čárových kódů v jednom volání?**  
-A: Ano. `BarcodeSearchOptions` vyhledává ve výchozím nastavení všechny podporované formáty. Výsledky můžete filtrovat pomocí `getEncodeType()`, pokud potřebujete jen konkrétní typy.
+**Q: Mohu vyhledávat více formátů čárových kódů najednou?**  
+**A:** Ano. `BarcodeSearchOptions` ve výchozím nastavení prohledává všechny podporované formáty. Výsledky můžete filtrovat pomocí `getEncodeType()`, pokud potřebujete jen konkrétní typy.
 
 **Q: Jak zacházet s dokumenty, které obsahují jak čárové kódy, tak obrázkové podpisy?**  
-A: Proveďte samostatná vyhledávání – použijte `BarcodeSignature.class` pro čárové kódy a `ImageSignature.class` pro obrázkové podpisy, poté podle potřeby kombinujte výsledky.
+**A:** Proveďte samostatná vyhledávání – použijte `BarcodeSignature.class` pro čárové kódy a `ImageSignature.class` pro obrázkové podpisy, poté výsledky podle potřeby sloučte.
 
-**Q: Jaký je dopad na výkon při vyhledávání na všech stránkách oproti specifickým stránkám?**  
-A: Prohledání každé stránky 50‑stránkového PDF může trvat 3–5 sekund. Omezení na první + poslední stránky obvykle skončí pod 1 sekundou.
+**Q: Jaký je dopad výkonu při vyhledávání všech stránek oproti konkrétním stránkám?**  
+**A:** Prohledání každé stránky 50‑stránkového PDF může trvat 3–5 sekund. Omezení na první + poslední stránku obvykle skončí pod 1 sekundou.
 
 **Q: Funguje to se skenovanými PDF (rastrové obrázky)?**  
-A: Pouze pokud byl čárový kód přidán jako objekt digitálního podpisu. Pro čárové kódy pouze v rastrovém formátu budete potřebovat rozpoznávač čárových kódů založený na obrázcích (např. GroupDocs.Barcode).
+**A:** Pouze pokud byl čárový kód přidán jako digitální objekt podpisu. Pro čistě rastrové čárové kódy budete potřebovat rozpoznávač založený na obraze (např. GroupDocs.Barcode).
 
 **Q: Jak mohu ověřit, že podpis čárového kódu nebyl pozměněn?**  
-A: Vložte hash nebo digitální podpis do payloadu čárového kódu, poté přepočítejte hash na původních datech a porovnejte. To vyžaduje původní podpisový klíč nebo certifikát.
+**A:** Vložte hash nebo digitální podpis do payloadu čárového kódu, poté přepočítejte hash na původních datech a porovnejte. To vyžaduje původní podepisovací klíč nebo certifikát.
 
 ---
 
-**Poslední aktualizace:** 2026-01-29  
-**Testováno s:** GroupDocs.Signature 23.12 pro Javu  
-**Autor:** GroupDocs
+**Last Updated:** 2026-06-21  
+**Tested With:** GroupDocs.Signature 23.12 for Java  
+**Author:** GroupDocs
+
+## Související tutoriály
+
+- [Jak přidat čárový kód do PDF v Javě pomocí GroupDocs.Signature](/signature/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/)
+- [Jak ověřit podpisy čárových kódů v Javě pomocí GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)
+- [Přihlášení k událostem GroupDocs Signature v Javě – sledování ověření v reálném čase](/signature/java/event-handling/implement-document-verification-events-groupdocs-java/)

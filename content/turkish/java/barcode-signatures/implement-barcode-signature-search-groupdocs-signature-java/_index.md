@@ -1,67 +1,88 @@
 ---
 categories:
 - Document Processing
-date: '2026-01-29'
-description: Java ve GroupDocs.Signature kullanarak belgelerde barkod içeren belirli
-  sayfaları nasıl arayacağınızı öğrenin. Adım adım kılavuz, kod örnekleri ve sorun
-  giderme ipuçları.
-keywords: search barcode specific pages, java document signature verification, barcode
-  signature detection java, electronic signature search java, verify barcode signatures
-  programmatically
-lastmod: '2026-01-29'
-linktitle: Search Barcode Specific Pages Java
+date: '2026-06-21'
+description: GroupDocs.Signature kullanarak search barcode pages java nasıl kullanılacağını
+  öğrenin. Adım adım kılavuz, gerçek zamanlı barkod arama ve Java'da barkod imzalarının
+  doğrulanması.
+keywords:
+- search barcode pages java
+- real time barcode search
+- barcode verification documents
+lastmod: '2026-06-21'
+linktitle: Java'da Belirli Barkod Sayfalarını Ara
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-21'
+  description: Learn how to search barcode pages java using GroupDocs.Signature. Step-by-step
+    guide, real‑time barcode search, and verification of barcode signatures in Java.
+  headline: search barcode pages java – Search Barcode Specific Pages in Documents
+  type: TechArticle
+- questions:
+  - answer: Yes. `BarcodeSearchOptions` searches all supported formats by default.
+      Filter results by `getEncodeType()` if you need only specific types.
+    question: Can I search for multiple barcode formats in one call?
+  - answer: Run separate searches—use `BarcodeSignature.class` for barcodes and `ImageSignature.class`
+      for image signatures, then combine the results as needed.
+    question: How do I handle documents that contain both barcode and image signatures?
+  - answer: Scanning every page of a 50‑page PDF can take 3–5 seconds. Limiting to
+      first + last pages usually finishes under 1 second.
+    question: What’s the performance impact of searching all pages vs. specific pages?
+  - answer: Only if the barcode was added as a digital signature object. For raster‑only
+      barcodes, you’ll need an image‑based barcode recognizer (e.g., GroupDocs.Barcode).
+    question: Does this work with scanned PDFs (raster images)?
+  - answer: Embed a hash or digital signature inside the barcode payload, then recompute
+      the hash on the original data and compare. This requires the original signing
+      key or certificate.
+    question: How can I verify that a barcode signature hasn’t been tampered with?
+  type: FAQPage
 tags:
 - java
 - barcode-signatures
 - document-verification
 - groupdocs
-title: Java Kullanarak Belgelerde Barkodlu Belirli Sayfaları Ara
+title: search barcode pages java – Belgelerde Belirli Barkod Sayfalarını Ara
 type: docs
 url: /tr/java/barcode-signatures/implement-barcode-signature-search-groupdocs-signature-java/
 weight: 1
 ---
 
-# Java Kullanarak Belgelerde Belirli Sayfalarda Barkod Arama
+# Java Kullanarak Belgelerde Barkod Belirli Sayfaları Arama
 
 ## Giriş
 
-Yüzlerce belge üzerinde imzaları manuel olarak saatlerce doğrulamak zorunda kaldınız mı? Yalnız değilsiniz. İster bir sözleşme yönetim sistemi, ister fatura işleme otomasyonu, ister sağlık kayıtlarını güvence altına alma üzerine çalışıyor olun, barkod imzalarını manuel olarak izlemek ve doğrulamak zahmetli ve hataya açık bir süreçtir.
+Yüzlerce belge üzerinde imzaları manuel olarak saatlerce doğrulamak zorunda kaldınız mı? Yalnız değilsiniz. İster bir sözleşme yönetim sistemi geliştiriyor olun, ister fatura işleme otomasyonu yapıyor olun ya da sağlık kayıtlarını güvence altına alıyor olun, barkod imzalarını manuel olarak izlemek ve doğrulamak zahmetli ve hata yapmaya açıktır. **Bu öğreticide GroupDocs.Signature ile java’da barkod sayfalarını nasıl arayacağınızı öğreneceksiniz**, böylece yalnızca önemli sayfalara programlı olarak odaklanabilir, ilerlemeyi gerçek zamanlı izleyebilir ve sadece birkaç satır Java kodu ile çeşitli barkod formatlarını işleyebilirsiniz.
 
-Bu rehberde **belirli sayfalarda barkod aramayı** Java ve GroupDocs.Signature ile programlı olarak nasıl yapacağınızı göstereceğiz. Sonunda, seçili sayfalarda imzaları tespit edebilecek, arama ilerlemesini gerçek zamanlı izleyebilecek ve çeşitli barkod formatlarını temiz, sürdürülebilir bir kodla işleyebileceksiniz.
-
-**Öğrenecekleriniz**
-- Java projesine GroupDocs.Signature ekleme (≈5 dakika)
-- Gerçek‑zamanlı ilerleme takibi için arama olaylarına abone olma
-- Belirli sayfalara odaklanmak için akıllı arama seçeneklerini yapılandırma
-- Aramayı çalıştırma ve sonuçları verimli işleme
+Öğrenecekleriniz  
+- Java projesinde GroupDocs.Signature kurulumunu yapmak (≈5 dakika)  
+- Gerçek zamanlı ilerleme takibi için arama olaylarına abone olmak  
+- Belirli sayfaları hedeflemek için akıllı arama seçeneklerini yapılandırmak  
+- Aramayı yürütmek ve sonuçları verimli bir şekilde işlemek  
 
 ## Hızlı Yanıtlar
-- **Hangi kütüphane belirli sayfalarda barkod aramayı sağlar?** GroupDocs.Signature for Java  
-- **Tipik kurulum süresi?** Maven/Gradle bağımlılığını ve lisansı eklemek yaklaşık 5 dakika  
-- **Aramayı ilk ve son sayfalara sınırlayabilir miyim?** Evet – tam sayfaları belirtmek için `PagesSetup` kullanın  
+- **Barkod belirli sayfalarını aramanıza yardımcı olan kütüphane hangisidir?** GroupDocs.Signature for Java  
+- **Tipik kurulum süresi?** Maven/Gradle bağımlılığını ve bir lisansı eklemek yaklaşık 5 dakika  
+- **Aramayı ilk ve son sayfalara sınırlayabilir miyim?** Evet – kesin sayfaları belirtmek için `PagesSetup` kullanın  
 - **Hangi barkod formatları destekleniyor?** QR Code, Code128, Code39, DataMatrix, EAN/UPC ve daha fazlası  
-- **Üretim için ücretli lisansa ihtiyacım var mı?** Üretim için tam lisans gerekir; değerlendirme için bir deneme sürümü çalışır  
+- **Üretim için ücretli lisansa ihtiyacım var mı?** Üretim için tam lisans gereklidir; değerlendirme için bir deneme sürümü çalışır  
 
-## “Belirli Sayfalarda Barkod Arama” Nedir?
+## “Barkod belirli sayfaları arama” nedir?
+Barkod belirli sayfaları aramak, imza motoruna yalnızca ilgilendiğiniz sayfalarda barkod imzalarını aramasını söylemek anlamına gelir—örneğin, ilk sayfa, son sayfa veya herhangi bir özel aralık. Bu odaklanmış yaklaşım işleme süresini hızlandırır, bellek kullanımını azaltır ve duyarlı bir UI geri bildirimi oluşturmanıza olanak tanır.
 
-Belirli sayfalarda barkod arama, imza motoruna yalnızca ilgilendiğiniz sayfalarda (ör. ilk sayfa, son sayfa veya özel bir aralık) barkod imzalarını aramasını söylemek anlamına gelir. Bu odaklanmış yaklaşım işleme süresini hızlandırır, bellek kullanımını azaltır ve duyarlı UI geri bildirimi oluşturmanıza olanak tanır.
+## Bu görev için GroupDocs.Signature neden kullanılmalı?
+GroupDocs.Signature, düşük seviyeli barkod çözümlemesi, sayfa renderleme ve belge formatı işleme detaylarını soyutlayan yüksek seviyeli bir API sunar. **20'den fazla barkod formatını** destekler ve **tüm dosyayı belleğe yüklemeden çok yüz sayfalı belgeleri işleyebilir**, böylece dosya ayrıştırması yerine iş mantığına odaklanabilirsiniz.
 
-## Neden GroupDocs.Signature Bu Görev İçin Kullanılmalı?
-
-GroupDocs.Signature, düşük seviyeli barkod çözümleme, sayfa renderlama ve belge formatı işleme detaylarını soyutlayan yüksek seviyeli bir API sunar. PDF, DOCX, XLSX ve birçok diğer formatı kutudan çıkar çıkmaz destekler, böylece dosya ayrıştırma yerine iş mantığına odaklanabilirsiniz.
-
-## Önkoşullar
-
-- **JDK 8+** yüklü
-- **Maven** veya **Gradle** bağımlılık yönetimi için
-- Java sınıfları, metodları ve istisna yönetimi konusunda temel bilgi
-- GroupDocs.Signature lisansı (deneme veya tam)
+## Ön Koşullar
+- **JDK 8+** yüklü  
+- **Maven** veya **Gradle** bağımlılık yönetimi için  
+- Java sınıfları, metodları ve istisna yönetimi konusunda temel bilgi  
+- GroupDocs.Signature lisansına erişim (deneme veya tam)  
 
 ## Java için GroupDocs.Signature Kurulumu
 
 ### Maven Kurulumu
 
-`pom.xml` dosyanıza bağımlılığı ekleyin:
+Bağımlılığı `pom.xml` dosyanıza ekleyin:
 
 ```xml
 <dependency>
@@ -73,19 +94,18 @@ GroupDocs.Signature, düşük seviyeli barkod çözümleme, sayfa renderlama ve 
 
 ### Gradle Kurulumu
 
-Veya `build.gradle` içine ekleyin:
+Ya da `build.gradle` dosyanıza ekleyin:
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Manuel indirmeyi mi tercih ediyorsunuz?** En son sürümü doğrudan [GroupDocs indirme sayfasından](https://releases.groupdocs.com/signature/java/) alabilirsiniz.
+Manuel indirmeleri tercih mi ediyorsunuz? En son sürümü doğrudan [GroupDocs indirme sayfasından](https://releases.groupdocs.com/signature/java/) alabilirsiniz.
 
-### Lisansınızı Alın
-
-- **Ücretsiz Deneme** – anında başlayın, taahhüt yok  
-- **Geçici Lisans** – değerlendirme için tam özellik erişimi  
-- **Tam Lisans** – üretim‑hazır, sınırsız kullanım  
+### Lisansınızı Almak
+- **Free Trial** – hemen başlayın, taahhüt yok  
+- **Temporary License** – değerlendirme için tam özellik erişimi  
+- **Full License** – üretim hazır, sınırsız kullanım  
 
 Kurulumu hızlı bir başlatma kodu ile doğrulayın:
 
@@ -102,32 +122,36 @@ public class SignatureSetup {
 }
 ```
 
-> **Pro ipucu:** `"YOUR_DOCUMENT_PATH"` ifadesini gerçek bir PDF, DOCX veya XLSX dosyasıyla değiştirin. Konsol başarı mesajını yazdırıyorsa, kullanıma hazırsınız.
+> **Pro tip:** `"YOUR_DOCUMENT_PATH"` ifadesini gerçek bir PDF, DOCX veya XLSX dosyasıyla değiştirin. Konsol başarı mesajını yazdırıyorsa, hazırsınız.
 
 ## Barkod İmza Türlerini Anlamak
 
-Barkodlar, bir belge içinde makine tarafından okunabilir veri saklar. El yazısı imzaların aksine, kimlikler, zaman damgaları, URL'ler veya JSON yükleri gibi bilgileri depolayabilir ve otomatik doğrulama için idealdir.
+Barkodlar, bir belge içinde makine tarafından okunabilir veri gömer. El yazısı imzaların aksine, kimlikler, zaman damgaları, URL'ler veya JSON yükleri depolayabilirler ve bu da onları otomatik doğrulama için ideal kılar.
 
 | Barkod Türü | En İyi Kullanım Alanı | Tipik Veri Uzunluğu |
-|------------|----------------------|---------------------|
-| QR Code | Yüksek yoğunluklu veri, URL'ler, çok satırlı metin | 4.296 karaktere kadar |
-| Code128 | Alfasayısal izleme numaraları | Değişken |
-| Code39 | Basit eski kodlar | 43 karaktere kadar |
-| DataMatrix | Küçük etiketler, sağlık kayıtları | 2.335 karaktere kadar |
+|------------|-----------------------|----------------------|
+| QR Code | Yüksek yoğunluklu veri, URL'ler, çok satırlı metin | Maksimum 4.296 karakter |
+| Code128 | Alfanümerik izleme numaraları | Değişken |
+| Code39 | Basit eski kodlar | Maksimum 43 karakter |
+| DataMatrix | Küçük etiketler, sağlık kayıtları | Maksimum 2.335 karakter |
 | EAN/UPC | Ürün tanımlama, perakende | 8‑13 rakam |
 
-Barkodları genellikle hızlı makine okuması, yapılandırılmış veri veya müdahale tespitli imzalama gerektiğinde kullanırsınız.
+Bar kodları, hızlı makine okuması, yapılandırılmış veri veya müdahale tespitli imzalama gerektiğinde sıkça kullanırsınız.
 
-## Belirli Sayfalarda Barkod Arama Nasıl Yapılır
+## Java’da barkod sayfalarını nasıl ararsınız?
+`Signature` işlenecek belgeyi temsil eden birincil sınıftır. Belgenizi `new Signature("file.pdf")` ile yükleyin, `BarcodeSearchOptions` barkod imzalarını aramak için parametreleri tanımlar ve istediğiniz sayfalara hedeflemek için yapılandırın, ardından `signature.search(options)` çağırın. `search` metodu verilen seçeneklerle arama işlemini yürütür. Motor, sayfa numaraları, çözülen metin ve geometrik koordinatları içeren `BarcodeSignature` nesnelerinin bir listesini döndürür—hepsi tek bir çağrıda. Bu tek‑adım deseni, ayrı görüntü çıkarma veya özel çözümleme mantığı ihtiyacını ortadan kaldırır.
 
-Uygulamayı üç odaklanmış özelliğe böleceğiz.
+Şimdi genel akışı anladığınıza göre, uygulayacağınız üç temel özelliğe dalalım.
 
 ### Özellik 1: Belge Arama Olaylarına Abone Olma
 
-#### Neden Önemli
-Büyük toplu işlemlerde gerçek‑zamanlı geri bildirim (ör. ilerleme çubukları) UX'i iyileştirir ve duraklamaları erken tespit etmenizi sağlar.
+#### Bunun önemi
+Büyük partileri işlerken, gerçek zamanlı geri bildirim (ör. ilerleme çubukları) kullanıcı deneyimini iyileştirir ve tıkanmaları erken tespit etmenize yardımcı olur.
 
-#### Uygulama
+#### Tanım referansı
+`Signature` belgeyi temsil eder ve olay abonelik yetenekleri sağlar.
+
+Implementation
 
 ```java
 Signature signature = new Signature("YOUR_DOCUMENT_PATH");
@@ -157,14 +181,17 @@ signature.SearchCompleted.add(new ProcessCompleteEventHandler() {
 });
 ```
 
-Bu üç işleyici, başlangıç zamanını, canlı ilerlemeyi ve nihai istatistikleri verir – günlük kaydı veya UI güncellemeleri için mükemmeldir.
+Bu üç işleyici, başlangıç zamanını, canlı ilerlemeyi ve son istatistikleri sağlar—günlük kaydı veya UI güncellemeleri için mükemmeldir.
 
 ### Özellik 2: Belirli Sayfalar İçin Barkod Arama Seçeneklerini Yapılandırma
 
-#### Neden Ayrıntılı Kontrol Önemli
-200‑sayfalık bir sözleşmenin tüm sayfalarını taramak CPU döngülerini boşa harcar. Yalnızca ilk ve son sayfaları hedeflemek çalışma süresini %80 azaltabilir.
+#### Ayrıntılı kontrolün önemi
+200 sayfalık bir sözleşmenin her sayfasını taramak CPU döngülerini boşa harcar. Yalnızca ilk ve son sayfaları hedeflemek, çalışma süresini **%80'e kadar** azaltabilir.
 
-#### Uygulama
+#### Tanım referansı
+`PagesSetup`, arama işlemi içinde hangi sayfaların dahil edileceğini belirtir.
+
+Implementation
 
 ```java
 import com.groupdocs.signature.domain.enums.TextMatchType;
@@ -194,15 +221,18 @@ options.setMatchType(TextMatchType.Contains);
 options.setText("12345");
 ```
 
-- **Eşleşme türleri** (`Contains`, `Exact`, `StartsWith`, `EndsWith`) metin aramasını ince ayarlamanızı sağlar.  
-- `setAllPages` ve `PagesSetup` ayarlarını **yalnızca belirli sayfalarda barkod arama** yapacak şekilde değiştirin.
+- **Match types** metin aramasını ince ayarlamanızı sağlar (`Contains`, `Exact`, `StartsWith`, `EndsWith`).  
+- `setAllPages` ve `PagesSetup` ayarlarını **yalnızca barkod belirli sayfaları aramak** için değiştirin.
 
-### Özellik 3: Aramayı Gerçekleştirme ve Sonuçları İşleme
+### Özellik 3: Aramayı Yürütme ve Sonuçları İşleme
 
-#### Neden Bu Adım Önemli
-Barkodları bulmak sadece hikâyenin yarısıdır—veri üzerinde (ör. doğrulama, depolama, iş akışı tetikleme) bir şeyler yapmanız gerekir.
+#### Bu adımın önemi
+Barkodları bulmak sadece hikayenin yarısıdır—veri üzerinde bir şeyler yapmanız gerekir (ör. doğrulama, depolama veya iş akışlarını tetikleme).
 
-#### Uygulama
+#### Tanım referansı
+`BarcodeSignature`, tespit edilen bir barkodu temsil eder ve sayfa numarası ve çözülen metin gibi özelliklerini içerir.
+
+Implementation
 
 ```java
 import java.util.List;
@@ -221,12 +251,11 @@ try {
 }
 ```
 
-Artık bir `BarcodeSignature` nesnesi listesine sahipsiniz; her biri şu bilgileri sunar:
-
+Artık bir `BarcodeSignature` nesnesi listesine sahipsiniz, her biri şunları sunar:
 - `getPageNumber()` – barkodun bulunduğu sayfa  
 - `getEncodeType()` – QR, Code128 vb.  
 - `getText()` – çözülen yük  
-- Konum (`getLeft()`, `getTop()`) ve boyut (`getWidth()`, `getHeight()`)
+- Pozisyon (`getLeft()`, `getTop()`) ve boyut (`getWidth()`, `getHeight()`)
 
 **Örnek: Son sayfada yalnızca QR kodlarını işleme**
 
@@ -242,35 +271,32 @@ for (BarcodeSignature barcodeSignature : signatures) {
 
 ## Gerçek Dünya Uygulamaları
 
-| Senaryo | Barkod‑spesifik‑sayfa aramasının nasıl yardımcı olduğu |
-|---------|--------------------------------------------------------|
-| Yasal sözleşme doğrulama | İmza sayfasında QR‑kodlu sertifika hash'lerini otomatik doğrulama |
-| Tedarik zinciri takibi | Manifestoların ilk/son sayfalarında Code128 gönderi kimliklerini bulma |
-| Sağlık onam formları | Son onam sayfasından DataMatrix hasta kimliklerini çıkarma |
-| Fatura otomasyonu | Faturada “APPR‑” ile başlayan barkodları bulup yönlendirme |
+| Senaryo | Barkod‑belirli‑sayfa araması nasıl yardımcı olur |
+|----------|------------------------------------------|
+| Hukuki sözleşme doğrulama | İmza sayfasındaki QR‑kodlu sertifika hashlerini otomatik doğrulama |
+| Tedarik zinciri takibi | Manifestlerin ilk/son sayfalarında Code128 gönderi kimliklerini bulma |
+| Sağlık onay formları | Son onay sayfasından DataMatrix hasta kimliklerini çıkarma |
+| Fatura otomasyonu | Faturada herhangi bir yerde “APPR‑” önekli barkodları bulma ve yönlendirme |
 
 ## Yaygın Sorunlar ve Çözümler
 
-### Sorun 1 – Görünür barkodlar olmasına rağmen sonuç yok
-
+### Sorun 1 – Görünür barkodlara rağmen sonuç yok
 ```java
 // Ensure you are not limiting pages too aggressively
 options.setAllPages(true);
-```
-Barkod raster bir görüntü olarak gömülü ise, görüntü‑tabanlı algılama için GroupDocs.Image kullanmayı düşünün.
+```  
+Eğer barkod raster görüntü olarak gömülmüşse, görüntü‑tabanlı algılama için GroupDocs.Image kullanmayı düşünün.
 
 ### Sorun 2 – Büyük dosyalarda yavaş performans
-
 ```java
 PagesSetup pagesSetup = new PagesSetup();
 pagesSetup.setLastPage(true);  // Most signatures are on the last page
 pagesSetup.setFirstPage(true);
 options.setPagesSetup(pagesSetup);
-```
-Hedeflenen sayfalar işlem süresini büyük ölçüde azaltır.
+```  
+Hedeflenen sayfalar işlem süresini büyük ölçüde azaltır; iki sayfaya sınırladığınızda 150 sayfalık bir PDF ~4 saniyeden <1 saniyeye düşer.
 
 ### Sorun 3 – TextMatchType beklenen barkodları bulamıyor
-
 ```java
 String searchText = "12345".trim().toLowerCase();
 options.setText(searchText);
@@ -278,6 +304,7 @@ options.setMatchType(TextMatchType.StartsWith); // Try a more permissive mode
 ```
 
 ### Sorun 4 – Uzun süren döngülerde bellek sızıntıları
+try‑with‑resources bloğu `Signature` örneğini otomatik olarak serbest bırakır.
 
 ```java
 try (Signature signature = new Signature("document.pdf")) {
@@ -285,12 +312,10 @@ try (Signature signature = new Signature("document.pdf")) {
     // Process signatures
 }
 ```
-`try‑with‑resources` bloğu `Signature` örneğini otomatik olarak serbest bırakır.
 
 ## Üretim İçin En İyi Uygulamalar
 
 ### Sağlam hata yönetimi
-
 ```java
 try {
     List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
@@ -301,8 +326,7 @@ try {
 }
 ```
 
-### Belgeler değişmez olduğunda sonuçları önbellekle
-
+### Belgeler değişmez olduğunda sonuçları önbelleğe al
 ```java
 Map<String, List<BarcodeSignature>> cache = new ConcurrentHashMap<>();
 
@@ -312,7 +336,6 @@ public List<BarcodeSignature> getCachedSignatures(String docId) {
 ```
 
 ### UI geri bildirimi için ilerleme olaylarını kullan
-
 ```java
 signature.SearchProgress.add(new ProcessProgressEventHandler() {
     public void invoke(Signature sender, ProcessProgressEventArgs args) {
@@ -323,7 +346,6 @@ signature.SearchProgress.add(new ProcessProgressEventHandler() {
 ```
 
 ### Barkod yüklerini doğrula
-
 ```java
 for (BarcodeSignature barcodeSignature : signatures) {
     String text = barcodeSignature.getText();
@@ -339,7 +361,6 @@ for (BarcodeSignature barcodeSignature : signatures) {
 ```
 
 ### Belge türüne göre sayfa seçimini optimize et
-
 ```java
 PagesSetup contractsSetup = new PagesSetup();
 contractsSetup.setLastPage(true); // Contracts usually signed on last page
@@ -347,7 +368,6 @@ options.setPagesSetup(contractsSetup);
 ```
 
 ### Aramadan sonra barkod tipine göre filtrele (yalnızca QR kodları gerekiyorsa)
-
 ```java
 for (BarcodeSignature sig : signatures) {
     if ("QRCode".equals(sig.getEncodeType())) {
@@ -356,8 +376,7 @@ for (BarcodeSignature sig : signatures) {
 }
 ```
 
-### Barkod görüntüsü boyutlarını çıkar (görselleştirme için gerekliyse)
-
+### Barkod görüntü boyutlarını çıkar (renderleme için gerekliyse)
 ```java
 for (BarcodeSignature sig : signatures) {
     int width = sig.getWidth();
@@ -368,23 +387,29 @@ for (BarcodeSignature sig : signatures) {
 
 ## Sık Sorulan Sorular
 
-**S: Tek bir çağrıda birden fazla barkod formatı arayabilir miyim?**  
-C: Evet. `BarcodeSearchOptions` varsayılan olarak tüm desteklenen formatları arar. Yalnızca belirli tipler gerekiyorsa sonuçları `getEncodeType()` ile filtreleyin.
+**S: Bir çağrıda birden fazla barkod formatını arayabilir miyim?**  
+C: Evet. `BarcodeSearchOptions` varsayılan olarak tüm desteklenen formatları arar. Yalnızca belirli tipleri istiyorsanız sonuçları `getEncodeType()` ile filtreleyin.
 
-**S: Hem barkod hem de görüntü imzaları içeren belgeleri nasıl yönetirim?**  
-C: Ayrı aramalar yürütün—barkodlar için `BarcodeSignature.class`, görüntü imzaları için `ImageSignature.class` kullanın, ardından gerektiği gibi sonuçları birleştirin.
+**S: Hem barkod hem de görüntü imzaları içeren belgeler nasıl işlenir?**  
+C: Ayrı aramalar yapın—barkodlar için `BarcodeSignature.class` ve görüntü imzaları için `ImageSignature.class` kullanın, ardından gerektiği gibi sonuçları birleştirin.
 
-**S: Tüm sayfaları taramakla belirli sayfaları taramanın performans etkisi nedir?**  
-C: 50‑sayfalık bir PDF'nin tüm sayfalarını taramak 3–5 saniye sürebilir. İlk + son sayfalarla sınırlamak genellikle 1 saniyenin altında tamamlanır.
+**S: Tüm sayfaları aramanın, belirli sayfaları aramaya göre performans etkisi nedir?**  
+C: 50 sayfalık bir PDF'nin her sayfasını taramak 3–5 saniye sürebilir. İlk + son sayfalara sınırlamak genellikle 1 saniyenin altında biter.
 
-**S: Bu yöntem taranmış PDF'lerde (raster görüntüler) çalışır mı?**  
-C: Yalnızca barkod dijital imza nesnesi olarak eklenmişse çalışır. Sadece raster barkodlar için görüntü‑tabanlı bir barkod tanıyıcı (ör. GroupDocs.Barcode) gerekir.
+**S: Bu, taranmış PDF'lerde (raster görüntüler) çalışır mı?**  
+C: Yalnızca barkod dijital imza nesnesi olarak eklenmişse çalışır. Sadece raster barkodlar için görüntü‑tabanlı barkod tanıyıcı gerekir (ör. GroupDocs.Barcode).
 
 **S: Bir barkod imzasının değiştirilmediğini nasıl doğrularım?**  
-C: Barkod yüküne bir hash veya dijital imza gömün, ardından orijinal verinin hash'ini yeniden hesaplayıp karşılaştırın. Bunun için orijinal imzalama anahtarı veya sertifikası gerekir.
+C: Barkod yüküne bir hash veya dijital imza gömün, ardından orijinal veride hash'i yeniden hesaplayıp karşılaştırın. Bunun için orijinal imzalama anahtarı veya sertifikası gerekir.
 
 ---
 
-**Son Güncelleme:** 2026-01-29  
-**Test Edilen Sürüm:** GroupDocs.Signature 23.12 for Java  
+**Son Güncelleme:** 2026-06-21  
+**Test Edilen Versiyon:** GroupDocs.Signature 23.12 for Java  
 **Yazar:** GroupDocs
+
+## İlgili Öğreticiler
+
+- [Java’da PDF’ye Barkod Ekleme – GroupDocs.Signature ile](/signature/java/barcode-signatures/sign-pdf-barcode-groupdocs-signature-java/)
+- [Java’da Barkod İmzalarını Doğrulama – GroupDocs.Signature ile](/signature/java/search-verification/groupdocs-signature-java-document-verification/)
+- [GroupDocs Signature Java Olay Aboneliği – Gerçek Zamanlı Doğrulamayı İzleme](/signature/java/event-handling/implement-document-verification-events-groupdocs-java/)
