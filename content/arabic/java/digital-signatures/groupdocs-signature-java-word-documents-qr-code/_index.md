@@ -64,10 +64,6 @@ url: /ar/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # إنشاء توقيع رمز الاستجابة السريعة في مستندات Word باستخدام Java
 
 هل قضيت ساعات في توقيع المستندات يدويًا، لتتساءل إذا كان هناك طريقة أسرع وأكثر موثوقية؟ يمكنك **create QR code signature** في مستندات Word برمجيًا ببضع أسطر من كود Java فقط. سواءً كنت تقوم بأتمتة سير عمل العقود، أو إدارة الأوراق القانونية، أو بناء بوابة موافقة موجهة للهواتف المحمولة، فإن توقيعات رمز QR تمنحك تحققًا فوريًا وقابلًا للمسح يعمل على أي هاتف ذكي. في هذا البرنامج التعليمي ستتعلم كيفية إعداد GroupDocs.Signature for Java، وتكوين خيارات QR code، وإدراج بيانات غنية مثل URLs، timestamps، أو JSON payloads في ملفات Word. في النهاية ستتمكن من توقيع المستندات على نطاق واسع، وتقليل الجهد اليدوي، وتعزيز الالتزام.
@@ -105,7 +101,6 @@ weight: 1
 
 **Maven**
 
-```java
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -113,16 +108,12 @@ weight: 1
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle**
 
-```java
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
-
 **التحميل المباشر**
 
 Prefer manual management? Download the JAR directly from [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) and add it to your project's classpath.
@@ -138,9 +129,7 @@ Prefer manual management? Download the JAR directly from [GroupDocs.Signature fo
 كائن `Signature` هو نقطة الدخول لجميع عمليات التوقيع. وهو ينفذ `AutoCloseable`، لذا يمكنك استخدام كتلة try‑with‑resources بأمان.
 
 ```java
-```java
 Signature signature = new Signature("path/to/your/document");
-```
 ```
 
 ## دليل التنفيذ: توقيع مستندات Word باستخدام رموز QR
@@ -149,10 +138,8 @@ Signature signature = new Signature("path/to/your/document");
 حمّل المستند المصدر باستخدام `new Signature("source.docx")` داخل كتلة try‑with‑resources؛ الكائن يُعد الملف للتعديلات ويُطلق الموارد تلقائيًا عند انتهاء الكتلة.
 
 ```java
-```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/SampleDocX.docx";
 Signature signature = new Signature(filePath);
-```
 ```
 
 **Explanation:** The `Signature` class represents a single document in memory and exposes methods for adding, searching, and verifying signatures. It supports `.docx`, `.doc`, and many other formats.
@@ -161,12 +148,10 @@ Signature signature = new Signature(filePath);
 أنشئ مثيلًا من `QrCodeSignOptions`، عيّن النص المشفر، نوع الباركود، والموضع. يُظهر المقتطف التالي تكوينًا حد أدنى.
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("JohnSmith");
 signOptions.setEncodeType(QrCodeTypes.QR);
 signOptions.setLeft(100); // X-axis position in pixels
 signOptions.setTop(100);  // Y-axis position in pixels
-```
 ```
 
 **Definition:** The `QrCodeSignOptions` class encapsulates all settings required to generate and place a QR code signature, including the encoded text, barcode type, size, colors, and positional coordinates within the document.
@@ -175,9 +160,7 @@ signOptions.setTop(100);  // Y-axis position in pixels
 يمكنك تعديل الحجم، الهوامش، والألوان بشكل إضافي:
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verify/doc-12345");
-```
 ```
 
 **Why it matters:** A 150 px square QR code with black foreground on white background yields >99 % scan success on both screen and print.
@@ -186,11 +169,9 @@ QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verif
 عرّف تنسيق الهدف وسلوك الكتابة فوق الملفات قبل استدعاء `sign`.
 
 ```java
-```java
 WordProcessingSaveOptions saveOptions = new WordProcessingSaveOptions();
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Odt);
 saveOptions.setOverwriteExistingFiles(true);
-```
 ```
 
 **Definition:** The `WordProcessingSaveOptions` class defines how the signed Word document should be saved, allowing you to specify the output format (DOCX, ODT, etc.), whether existing files are overwritten, and other file‑level preferences.
@@ -198,19 +179,15 @@ saveOptions.setOverwriteExistingFiles(true);
 If you need an open‑source format, switch to `OutputType.ODT`:
 
 ```java
-```java
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Docx);
-```
 ```
 
 ### كيف أقوم بتوقيع وحفظ المستند باستخدام رمز QR؟
 طريقة `sign` تُطبق رمز QR وتكتب ملف الإخراج في نداء واحد.
 
 ```java
-```java
 String outputFilePath = "YOUR_OUTPUT_DIRECTORY/SaveSignedOutputType/SampleDocX.odt";
 signature.sign(outputFilePath, signOptions, saveOptions);
-```
 ```
 
 **Definition:** The `sign` method of the `Signature` object takes the destination path, the configured signing options, and optional save options, then embeds the QR code into the document and writes the result to the specified location.
@@ -225,14 +202,12 @@ signature.sign(outputFilePath, signOptions, saveOptions);
 غلف منطق التوقيع بكتلة try‑catch لالتقاط ملفات مفقودة، مسارات غير صالحة، أو مشكلات الترخيص.
 
 ```java
-```java
 try {
     signature.sign(outputFilePath, signOptions, saveOptions);
     System.out.println("Document signed successfully!");
 } catch (Exception e) {
     System.err.println("Signing failed: " + e.getMessage());
 }
-```
 ```
 
 **Definition:** Catching `Exception` ensures that any runtime issues such as missing files, invalid paths, or licensing problems are gracefully reported, preventing the application from crashing in production.
@@ -264,14 +239,12 @@ try {
 - **الموضع مهم:** ضع رموز QR في أسفل الصفحة لتقليل إعادة تدفق التخطيط وتحسين السرعة.
 
 ```java
-```java
 List<String> documents = getDocumentPaths();
 for (String docPath : documents) {
     Signature sig = new Signature(docPath);
     // Configure and sign
     sig.dispose();
 }
-```
 ```
 
 ### نصائح وضع رمز QR
@@ -280,13 +253,11 @@ for (String docPath : documents) {
 - **صفحات متعددة:** كرّر عبر الصفحات وأنشئ مثيلًا جديدًا من `QrCodeSignOptions` لكل موضع.
 
 ```java
-```java
 for (Document doc : documents) {
     Signature sig = new Signature(doc.getPath());
     sig.sign(outputPath, signOptions, saveOptions);
     sig.dispose();
 }
-```
 ```
 
 ## خيارات التكوين المتقدمة
@@ -294,7 +265,6 @@ for (Document doc : documents) {
 ### كيف يمكنني إضافة رموز QR متعددة إلى مستند واحد؟
 أنشئ كائنات `QrCodeSignOptions` منفصلة لكل موقع واستدعِ `sign` بشكل متكرر.
 
-```java
 ```java
 // First QR code
 QrCodeSignOptions sign1 = new QrCodeSignOptions("Approver 1");
@@ -310,7 +280,6 @@ sign2.setTop(100);
 signature.sign(outputPath, sign1, saveOptions);
 signature.sign(outputPath, sign2, saveOptions);
 ```
-```
 
 ### ما أنواع الباركود الأخرى المدعومة؟
 إلى جانب QR، يمكنك توليد **Aztec**، **DataMatrix**، أو **PDF417** بتغيير `setEncodeType()`.
@@ -318,7 +287,6 @@ signature.sign(outputPath, sign2, saveOptions);
 ### كيف أحسب المواقع الديناميكية بناءً على حجم الصفحة؟
 احصل على أبعاد الصفحة عبر `Signature.getDocumentInfo()` واحسب الإحداثيات برمجيًا.
 
-```java
 ```java
 // Get document info
 DocumentInfo docInfo = signature.getDocumentInfo();
@@ -329,7 +297,6 @@ int pageHeight = docInfo.getHeight();
 int qrSize = 100;
 signOptions.setLeft((pageWidth - qrSize) / 2);
 signOptions.setTop((pageHeight - qrSize) / 2);
-```
 ```
 
 **Definition:** `Signature.getDocumentInfo()` returns a `DocumentInfo` object containing metadata like page dimensions, which can be used to calculate precise placement coordinates for signatures based on the actual size of each page.
@@ -410,14 +377,9 @@ You now have a complete, production‑ready roadmap to **create QR code signatur
 **Tested With:** GroupDocs.Signature 23.12 for Java  
 **Author:** GroupDocs  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## دروس ذات صلة
 
 - [مكتبة توقيع رمز QR للـ Java - دليل GroupDocs الكامل](/signature/java/qr-code-signatures/)
 - [تحميل وحفظ المستندات في Java - دليل GroupDocs.Signature الكامل](/signature/java/document-loading-saving/)
 - [كيفية إضافة توقيعات رقمية إلى المستندات في Java](/signature/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
