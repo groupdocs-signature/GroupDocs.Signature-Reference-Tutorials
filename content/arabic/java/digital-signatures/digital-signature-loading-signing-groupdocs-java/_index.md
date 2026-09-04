@@ -405,11 +405,6 @@ public class SignDocumentWithDigital {
 
 [الوثائق](https://docs.groupdocs.com/signature/java/) | [مرجع API](https://reference.groupdocs.com/signature/java/) | [تحميل أحدث نسخة](https://releases.groupdocs.com/signature/java/) | [شراء ترخيص](https://purchase.groupdocs.com/buy) | [تجربة مجانية](https://releases.groupdocs.com/signature/java/) | [منتدى الدعم](https://forum.groupdocs.com/c/signature/13) | [ترخيص مؤقت](https://purchase.groupdocs.com/temporary-license/)
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/main-wrap-class >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/tutorial-page-section >}
-
 ## دروس ذات صلة
 
 - [تحميل وحفظ المستندات في جافا - دليل GroupDocs.Signature الكامل](/signature/java/document-loading-saving/)

@@ -408,11 +408,6 @@ public class SignDocumentWithDigital {
 
 [文件說明](https://docs.groupdocs.com/signature/java/) | [API 參考](https://reference.groupdocs.com/signature/java/) | [下載最新版本](https://releases.groupdocs.com/signature/java/) | [購買授權](https://purchase.groupdocs.com/buy) | [免費試用](https://releases.groupdocs.com/signature/java/) | [支援論壇](https://forum.groupdocs.com/c/signature/13) | [臨時授權](https://purchase.groupdocs.com/temporary-license/)
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/main-wrap-class >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/tutorial-page-section >}
-
 ## 相關教學
 
 - [在 Java 中載入與儲存文件 - 完整 GroupDocs.Signature 教學](/signature/java/document-loading-saving/)

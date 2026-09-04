@@ -384,11 +384,6 @@ Kolejne kroki? Spróbuj podpisać partię rzeczywistych faktur, zintegrować zna
 
 [Dokumentacja](https://docs.groupdocs.com/signature/java/) | [Referencja API](https://reference.groupdocs.com/signature/java/) | [Pobierz najnowszą wersję](https://releases.groupdocs.com/signature/java/) | [Kup licencję](https://purchase.groupdocs.com/buy) | [Darmowa wersja próbna](https://releases.groupdocs.com/signature/java/) | [Forum wsparcia](https://forum.groupdocs.com/c/signature/13) | [Licencja tymczasowa](https://purchase.groupdocs.com/temporary-license/)
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/main-wrap-class >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/tutorial-page-section >}
-
 ## Powiązane samouczki
 
 - [Ładowanie i zapisywanie dokumentów w Javie – Kompletny samouczek GroupDocs.Signature](/signature/java/document-loading-saving/)

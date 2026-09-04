@@ -390,11 +390,6 @@ Következő lépések? Próbálj meg egy köteg valós számlát aláírni, inte
 
 [Documentation](https://docs.groupdocs.com/signature/java/) | [API Reference](https://reference.groupdocs.com/signature/java/) | [Download Latest Version](https://releases.groupdocs.com/signature/java/) | [Purchase License](https://purchase.groupdocs.com/buy) | [Free Trial](https://releases.groupdocs.com/signature/java/) | [Support Forum](https://forum.groupdocs.com/c/signature/13) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/main-wrap-class >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/tutorial-page-section >}
-
 ## Kapcsolódó oktatóanyagok
 
 - [Dokumentumok betöltése és mentése Java-ban – Teljes GroupDocs.Signature oktatóanyag](/signature/java/document-loading-saving/)

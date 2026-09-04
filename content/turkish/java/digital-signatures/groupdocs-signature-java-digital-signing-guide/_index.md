@@ -444,10 +444,6 @@ Daha derinlemesine bilgi için, aşağıda bağlantısı verilen resmi dokümant
 - [GroupDocs.Signature Documentation](https://docs.groupdocs.com/signature/java/)  
 - [Support Forum](https://forum.groupdocs.com/c/signature/)  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
 ```java
 import com.groupdocs.signature.Signature;
 
@@ -458,6 +454,7 @@ public class SignatureSetup {
     }
 }
 ```
+
 ```java
 import com.groupdocs.signature.options.sign.DigitalSignOptions;
 import com.groupdocs.signature.domain.enums.HorizontalAlignment;
@@ -470,12 +467,14 @@ options.setReason("Sign"); // Reason for signing, e.g., "Contract Approval"
 options.setContact("JohnSmith"); // Contact information of the signer
 options.setLocation("Office1"); // Location where document is signed
 ```
+
 ```java
 options.setImageFilePath("YOUR_DOCUMENT_DIRECTORY/ImageHandwrite");
 options.setAllPages(true); // Apply signature to all pages of the document
 options.setWidth(0); // Auto-width based on content
 options.setHeight(60); // Height in pixels
 ```
+
 ```java
 options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setHorizontalAlignment(HorizontalAlignment.Right);
@@ -484,11 +483,13 @@ padding.setBottom(10); // Bottom padding for aesthetic spacing
 padding.setRight(10); // Right padding to prevent clipping at edges
 options.setMargin(padding);
 ```
+
 ```java
 import com.groupdocs.signature.domain.signatures.DigitalSignatureAppearance;
 
 options.setAppearance(new DigitalSignatureAppearance("John Smith", "Title", "jonny@test.com"));
 ```
+
 ```java
 try {
     Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/SAMPLE_WORDPROCESSING");
@@ -498,6 +499,7 @@ try {
     throw new RuntimeException(e.getMessage());
 }
 ```
+
 ```java
 // BAD - Don't do this
 options.setPassword("1234567890");
@@ -509,10 +511,12 @@ if (certPassword == null) {
 }
 options.setPassword(certPassword);
 ```
+
 ```java
 logger.info("Document signed: {}, SignedBy: {}, Timestamp: {}", 
     documentName, signerEmail, LocalDateTime.now());
 ```
+
 ```java
 // Verify the signature immediately after signing
 List<DigitalSignature> signatures = signature.verify();
@@ -520,11 +524,13 @@ if (signatures.isEmpty()) {
     throw new RuntimeException("Signature verification failed");
 }
 ```
+
 ```java
 signature.sign(outputPath, approverOptions);
 signature = new Signature(outputPath); // Reload the signed document
 signature.sign(finalOutputPath, witnessOptions);
 ```
+
 ```java
 public DigitalSignOptions getOptionsForDocType(String docType) {
     DigitalSignOptions options = new DigitalSignOptions(certPath);
@@ -538,6 +544,7 @@ public DigitalSignOptions getOptionsForDocType(String docType) {
     return options;
 }
 ```
+
 ```java
 List<DigitalSignature> existingSignatures = signature.search(DigitalSignature.class);
 if (!existingSignatures.isEmpty()) {

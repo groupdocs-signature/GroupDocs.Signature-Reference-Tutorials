@@ -1,112 +1,141 @@
 ---
 categories:
 - Java Security
-date: '2026-02-18'
-description: 學習如何使用 XOR 於 GroupDocs.Signature 來加密 Java。本逐步教學展示如何實作自訂加密，並提供程式碼範例、安全提示及最佳實踐。
-keywords: implement custom encryption Java, XOR encryption Java tutorial, custom signature
-  encryption GroupDocs, Java document encryption, secure PDF signatures custom encryption
-lastmod: '2026-02-18'
-linktitle: Custom Encryption Java Guide
+date: '2026-06-26'
+description: 學習如何使用 XOR 於 Java 進行加密，搭配 GroupDocs.Signature。本分步教學示範如何實作自訂加密，提供程式碼範例、安全提示與最佳實踐。
+keywords:
+- how to encrypt java
+- xor encryption example java
+- custom encryption groupdocs java
+- java document signing encryption
+- groupdocs signature custom encryption
+lastmod: '2026-06-26'
+linktitle: 自訂加密 Java 指南
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-26'
+  description: Learn how to encrypt Java using XOR with GroupDocs.Signature. This
+    step‑by‑step tutorial shows how to implement custom encryption, includes code
+    examples, security tips, and best practices.
+  headline: 'How to Encrypt Java: Custom XOR Encryption with GroupDocs'
+  type: TechArticle
+- questions:
+  - answer: Any non‑zero integer between 1 and 255 works, but the key itself does
+      not provide security. For real protection, replace XOR with AES‑256 and keep
+      the key in a secure vault.
+    question: How do I choose an appropriate XOR key?
+  - answer: Yes—call `setKey()` with a new value. Remember that data encrypted with
+      the old key must be decrypted before you switch, or you’ll lose access to that
+      data.
+    question: Can I change the XOR key at runtime?
+  - answer: For learning, try a Caesar cipher or Base64 (though Base64 is merely encoding).
+      For production, use AES‑256, RSA‑2048, or ChaCha20 via Java’s `javax.crypto`
+      package.
+    question: What are some alternatives to XOR encryption?
+  - answer: The library streams PDF content when possible, but your custom `IDataEncryption`
+      implementation decides how data is processed. Implement chunk‑based encryption
+      to avoid loading the whole file into memory.
+    question: How does GroupDocs.Signature handle large files with encryption?
+  - answer: Absolutely. Register the encryptor as a Spring Bean, inject the `Signature`
+      service, and keep the key in an environment variable or secrets manager. Ensure
+      each request processes data in a separate thread to avoid contention.
+    question: Is it possible to integrate this feature into a web application?
+  type: FAQPage
 tags:
 - encryption
 - digital-signatures
 - GroupDocs
 - Java-tutorial
-title: 如何在 Java 中加密：使用 GroupDocs 的自訂 XOR 加密
+title: 如何加密 Java：使用 GroupDocs 的自訂 XOR 加密
 type: docs
 url: /zh-hant/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/
 weight: 1
 ---
 
-# 如何加密 Java：使用 GroupDocs 的自訂 XOR 加密
+# 如何加密 Java：自訂 XOR 加密與 GroupDocs
 
 ## 介紹
 
-這是一個你可能曾經遇過的情境：你正在開發一個需要以數位方式簽署文件的應用程式，但內建的加密選項並不完全符合你的需求。也許你必須與遺留系統整合，該系統期待特定的加密格式；又或者你需要在效能關鍵的應用程式中使用輕量級加密，因為像 AES 這類重量級演算法會顯得過於龐大。
+如果你曾經需要為特定工作流程 **how to encrypt java** 程式碼，便會體會到內建選項無法符合舊有協議或效能目標的挫折感。想像一下，你正將一個新的簽署模組整合到期待簡單 XOR 掩碼負載的舊 ERP 系統中。你可以重寫整個 ERP，但更快的做法是直接在 Java 應用程式內加入輕量級的自訂加密層。
 
-這時 **自訂加密** 就派上用場，而且實作起來比你想像的還要簡單。在本指南中，我們將以 XOR 運算作為範例，逐步說明如何建立自訂加密機制。雖然 XOR 加密不適合用於高安全性需求（我們會說明何時適用、何時不適用），但它非常適合學習 **如何加密 Java** 程式碼的原理，並滿足一些特殊的整合需求。我們會使用 **GroupDocs.Signature for Java**，它讓將自訂加密整合到文件簽署工作流程變得相當直接。
+在本指南中，我們將逐步說明如何建立自訂 XOR 加密機制，將其套用到 **GroupDocs.Signature for Java**，並討論何時此方法合適、何時應該改用業界標準演算法。完成後，你將能保護簽章中介資料、符合特殊的整合合約，並了解在正式產品程式碼中使用 XOR 的取捨。
 
-**你將學到的內容：**
-- 為什麼一開始就會想要自訂加密
-- XOR 加密的運作原理（以簡單英文說明）
-- 使用 GroupDocs.Signature for Java 的逐步實作
-- 真實案例與安全性考量
-- 常見錯誤與避免方式
+**以下是你將學到的內容：**
+- 為何在舊有系統與效能情境下自訂加密很重要  
+- XOR 加密的原理（淺顯說明 + Java 範例）  
+- 與 GroupDocs.Signature for Java 的逐步整合  
+- 真實案例、資安考量與常見陷阱  
+- 如何在之後將 XOR 實作替換為更強的演算法  
 
-## 快速回答
-- **什麼是 XOR 加密？** 一種對稱運算，使用金鑰翻轉位元；使用相同金鑰加密兩次即可還原原始資料。  
-- **什麼時候該使用自訂加密？** 為了相容遺留系統、效能關鍵的混淆或學習目的——絕非保護敏感資料。  
+## 快速解答
+- **什麼是 XOR 加密？** 一種使用金鑰翻轉位元的對稱運算；使用相同金鑰加密兩次會還原原始資料。  
+- **什麼時候該使用自訂加密？** 用於舊系統相容性、效能關鍵的混淆或學習目的——不適合保護敏感資料。  
 - **本教學使用哪個函式庫？** GroupDocs.Signature for Java（v23.12 或更新版本）。  
-- **需要授權嗎？** 免費試用可用於測試；正式上線需購買完整授權。  
-- **之後可以把 XOR 換成 AES 嗎？** 可以——只要替換 `encrypt`/`decrypt` 的實作，介面 `IDataEncryption` 保持不變。
+- **是否需要授權？** 免費試用可用於測試；正式環境需購買完整授權。  
+- **之後可以將 XOR 換成 AES 嗎？** 可以——只要在保留相同 `IDataEncryption` 介面的前提下，替換 `encrypt`/`decrypt` 的實作即可。  
 
-## 如何使用 XOR 加密 Java
-XOR 加密是一個經典的 **java xor example**，展示了對稱加密的核心概念。透過本教學，你將看到如何將自訂演算法插入 **GroupDocs.Signature Java** 工作流程，從而完全掌控簽署資料的保護方式。
+## 什麼是 Java 中的自訂加密？
 
-## 為什麼自訂加密很重要
+`IDataEncryption` 是 GroupDocs.Signature 提供的介面，定義了加密與解密資料的方法。自訂加密讓你能精確決定資料在儲存或傳輸前的轉換方式。使用 GroupDocs.Signature 時，只要提供 `IDataEncryption` 介面的實作，函式庫會在需要保護簽章資料時自動呼叫你的程式碼。這種外掛模式意味著你可以先以簡單的 XOR 程式作為概念驗證，之後再換成 AES‑256，而無需更動其他簽署流程。
 
-在寫程式碼之前，先談談為什麼你可能需要自訂加密。
+## 為何自訂加密很重要
 
-大多數函式庫（包括 GroupDocs）都內建加密選項。那麼為什麼還要自己寫？以下是自訂加密合理的實務情境：
+當現有演算法無法滿足特定限制（例如舊有協議格式、嚴格的效能預算或專有合約需求）時，自訂加密就顯得相當有價值。自行實作例程可讓你完整掌控資料轉換、降低開銷，並確保相容性而不必重寫外部系統，同時仍可利用 GroupDocs 的可擴充性。
 
-**遺留系統整合**：你必須與舊系統溝通，該系統只接受特定的加密方式。整個系統改造不可行，因此必須配合它的加密方法。
+### 舊系統整合
+舊系統有時需要非常特定的位元組轉換——通常是使用單一位元組金鑰的 XOR。重新設計這些系統成本高昂，因此以自訂加密器符合其預期是較實際的做法。
 
-**效能優化**：AES 等標準演算法安全但計算成本較高。對於非敏感資料（例如浮水印或內部文件 ID）只需要基本混淆時，輕量級的自訂方式能顯著提升效能。
+### 效能最佳化
+像 AES‑256 這類標準演算法在密碼學上很強大，但會消耗相當的 CPU 時間，尤其在低功耗裝置或處理數百萬筆小型負載時更為明顯。XOR 每個位元組只需一條 CPU 指令，對非敏感資料而言幾乎沒有額外負擔。
 
-**專屬需求**：某些產業或客戶因合規或相容性要求，必須使用特定的加密實作。
+### 專有需求
+某些合約或產業標準會規定使用自訂演算法（例如政府要求的「XOR‑mask」）。自行實作所需邏輯可確保符合規範，同時讓其餘系統保持現代化。
 
-**學習與彈性**：了解自訂加密的實作過程，可讓你更好評估安全方案，並因應獨特需求做出調整。
+### 學習與彈性
+打造自訂加密器會迫使你了解位元組層級的操作、金鑰管理，以及 `IDataEncryption` 介面的合約導向設計。這些知識在日後採用更複雜的密碼學時會大有幫助。
 
-不過（這點很重要），自訂加密絕不應是保護敏感資料的首選。凡涉及個人資訊、金融資料或受法規管制的內容，請使用已驗證的演算法，如 AES‑256。自訂加密最適合用於你了解其安全權衡的特定情境。
+> **專業提示：** 只在已經受到其他層級（TLS、VPN 或資料庫加密）保護的資料上使用自訂加密。切勿僅依賴 XOR 作為個人或金融資訊的唯一防線。
 
-## 理解 XOR：基礎概念
+## 了解 XOR：基礎概念
 
-如果你不熟悉 XOR（Exclusive OR），別擔心——它是最簡單的加密概念之一。
+XOR（異或）比較兩個位元，若不同則回傳 **1**，相同則回傳 **0**：
 
-XOR 是一種二元運算，比較兩個位元，若不同則回傳 **1**，相同則回傳 **0**：
+- 0 XOR 0 = 0  
+- 0 XOR 1 = 1  
+- 1 XOR 0 = 1  
+- 1 XOR 1 = 0  
 
-- 0 XOR 0 = 0  
-- 0 XOR 1 = 1  
-- 1 XOR 0 = 1  
-- 1 XOR 1 = 0  
+因為此運算本身即為其逆運算，第二次使用相同金鑰即可還原原始值。在 Java 中，你可以使用 `^` 運算子對兩個位元組進行 XOR：
 
-XOR 之所以適合加密，是因為它 **對稱**：使用金鑰對資料做 XOR，之後再以相同金鑰 XOR 結果，即可還原原始資料。就像同一把鑰匙同時能鎖也能解鎖。
-
-以下是一個簡單的 **java xor example**：
-
-```
-Original data: 5 (binary: 0101)
-Key: 3 (binary: 0011)
-Encrypted: 5 XOR 3 = 6 (binary: 0110)
-Decrypted: 6 XOR 3 = 5 (binary: 0101) ← We're back!
+```java
+byte encrypted = (byte)(plainByte ^ key);
 ```
 
-實務上，我們會將每個位元組與金鑰值做 XOR。此方法快速、記憶體需求低，非常適合示範自訂加密概念。請記住：使用單一位元組金鑰的 XOR 很容易被具備基礎密碼學知識的人破解。僅適用於混淆，不適合作為保護手段。
+當你對整個位元組陣列使用單一位元組金鑰進行 XOR 時，會得到快速且可逆的轉換。請記住，單一位元組金鑰僅有 255 種可能的變化，因此任何擁有少量密文的人都能立即暴力破解金鑰。此作法僅適用於混淆，絕不可用於保護機密資料。
 
 ## 前置條件
 
-在使用 GroupDocs.Signature for Java 實作自訂加密之前，請先確認以下項目：
+在使用 GroupDocs.Signature for Java 實作自訂加密之前，請確保已具備以下條件：
 
 ### 必要的函式庫與相依性
-- **GroupDocs.Signature for Java**：版本 23.12 或更新（本教學所使用的 API）  
-- **Java Development Kit**：JDK 8 以上（建議生產環境使用 JDK 11+）
+- **GroupDocs.Signature for Java** – 版本 23.12 或更新（整篇使用的 API）。  
+- **Java Development Kit** – JDK 8 或更新；建議使用 JDK 11 以獲得長期支援。
 
 ### 環境設定需求
-- IntelliJ IDEA、Eclipse 或支援 Java 的 VS Code 等 IDE  
-- Maven 或 Gradle 進行相依性管理（以下範例同時支援兩者）
+- 如 IntelliJ IDEA、Eclipse 或具 Java 擴充功能的 VS Code 等 IDE。  
+- Maven 或 Gradle 進行相依管理（兩者皆支援）。
 
 ### 知識前置條件
-- 能熟練撰寫 Java 程式（了解類別、方法與介面）  
-- 基本的加密概念（已在前面說明 XOR）  
-- 了解位元組陣列與位元運算較佳，但非必須
+- 熟悉 Java 類別、介面與位元組陣列操作。  
+- 具備對稱加密概念的基本認識（已在 XOR 章節說明）。
 
-以上都備妥了嗎？太好了！接下來設定 GroupDocs。
+如果上述條件皆符合，即可開始將 GroupDocs 加入你的專案。
 
 ## 設定 GroupDocs.Signature for Java
 
-將 GroupDocs 加入專案相當簡單。請依照你的建置工具選擇：
+將函式庫加入建置系統只需一行 XML 或 Groovy 設定。
 
-**Maven**  
+### Maven
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -115,25 +144,249 @@ Decrypted: 6 XOR 3 = 5 (binary: 0101) ← We're back!
 </dependency>
 ```
 
-**Gradle**  
-```gradle
+### Gradle
+```groovy
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**直接下載**  
-如果你偏好手動下載（或無法使用建置工具），請從 [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) 取得 JAR，並加入專案的 classpath。
+### 直接下載
+如果你偏好手動管理，可從 [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) 下載 JAR，並加入至 classpath。
 
-### 取得授權步驟
+#### 取得授權步驟
+1. **免費試用** – 下載試用版 JAR；輸出檔案會有可見的浮水印。  
+2. **臨時授權** – 申請 30 天評估金鑰以完整測試功能。  
+3. **購買** – 取得永久授權以供正式上線使用。
 
-GroupDocs 並非免費，但提供試用機制：
+#### 基本初始化與設定
+```java
+Signature signature = new Signature("sample.pdf");
+```
 
-1. **免費試用**：下載並使用全部功能，但會有水印與評估限制  
-2. **臨時授權**：申請臨時授權以獲得完整功能（適合概念驗證）  
-3. **購買授權**：正式上線前購買正式授權  
+`Signature` 物件是 GroupDocs.Signature 中所有簽署、驗證與加密操作的入口。
 
-### 基本初始化與設定
+## 實作指南
 
-以下是最簡單的 GroupDocs 初始化範例——所有範例都會以此為基礎：
+### 自訂 XOR 加密功能
+
+我們將建立一個實作 `IDataEncryption` 介面的類別，並將其註冊至 `Signature` 物件。
+
+#### 步驟 1：實作 `IDataEncryption` 介面
+`IDataEncryption` 是 GroupDocs.Signature 介面，定義了加密與解密資料的方法。
+
+```java
+public class CustomXOREncryption implements IDataEncryption {
+    private byte auto_Key = 0x5A; // example key
+
+    @Override
+    public byte[] encrypt(byte[] data) { /* implementation below */ }
+
+    @Override
+    public byte[] decrypt(byte[] data) { /* implementation below */ }
+
+    public void setKey(byte key) { this.auto_Key = key; }
+    public byte getKey() { return this.auto_Key; }
+}
+```
+
+**發生了什麼：** 此類別承諾兩個核心操作——`encrypt` 與 `decrypt`。欄位 `auto_Key` 保存將套用於負載每個位元組的 XOR 金鑰。
+
+#### 步驟 2：定義加密與解密方法
+因為 XOR 是對稱的，兩個方法執行相同的位元組轉換。
+
+```java
+public byte[] encrypt(byte[] data) {
+    if (auto_Key == 0 || data == null) return data;
+    byte[] result = new byte[data.length];
+    for (int i = 0; i < data.length; i++) {
+        result[i] = (byte)(data[i] ^ auto_Key);
+    }
+    return result;
+}
+public byte[] decrypt(byte[] data) {
+    return encrypt(data); // XOR decryption is identical to encryption
+}
+```
+
+**說明：**  
+- 防護條件避免使用零金鑰（會變成無操作）以及 `null` 輸入。  
+- 新的位元組陣列保存轉換後的資料，以免改變原始緩衝區。  
+- 迴圈將每個位元組與 `auto_Key` 進行 XOR。  
+- 解密僅再次呼叫 `encrypt`，因為相同的 XOR 兩次即可還原原始位元組。
+
+### 金鑰設定選項
+- **auto_Key** 必須是 1 到 255 之間的非零值。超過 255 的值會被截斷為低 8 位元。  
+- 請安全保存金鑰——建議使用環境變數、加密的設定檔或專用的祕密管理服務。  
+- 在正式環境中，你可能會將此簡單的單位元組金鑰換成多位元組金鑰或完整的 AES 加密，但介面保持不變。
+
+#### 設定金鑰的範例
+```java
+CustomXOREncryption xor = new CustomXOREncryption();
+xor.setKey((byte)0x3C); // set a custom key at runtime
+signature.setDataEncryption(xor);
+```
+
+### 常見實作錯誤
+
+| 錯誤 | 為何有問題 | 如何修正 |
+|---|---|---|
+| **忘記設定金鑰** | 加密變成無操作，資料以明文形式留下。 | 使用加密器前務必呼叫 `setKey()`，或在建構子中提供預設的非零金鑰。 |
+| **忽略 null 資料** | 在簽署過程中導致 `NullPointerException`。 | 在兩個方法的開頭加入 `if (data == null) return data;`。 |
+| **假設 XOR 安全** | 單一位元組金鑰可在毫秒內被暴力破解。 | 僅將 XOR 用於混淆；對任何機密負載改用 AES‑256。 |
+| **解密金鑰不匹配** | 資料無法還原。 | 將金鑰與加密負載一起保存，或使用金鑰識別映射。 |
+
+## 安全性考量
+
+### 為何 XOR 不足以保護敏感資料
+單一位元組金鑰的 XOR 幾乎沒有任何密碼學強度；攻擊者可以立即列舉全部 255 種金鑰。此運算亦會洩漏統計模式，使頻率分析與已知明文攻擊變得簡單。因此，絕不應僅以 XOR 作為個人、金融或任何機密資訊的唯一防護。
+
+### 何時可接受使用 XOR
+當資料已受到 TLS、VPN 或資料庫加密等更強層級保護，且掩碼僅用於阻止隨意檢視或符合舊有格式時，XOR 可安全使用。它適用於暫時性識別碼、快取金鑰或永不離開受信任環境的內部旗標。
+
+### 推薦的強力替代方案
+- **AES‑256** – 產業標準，透過 `javax.crypto` 原生支援。  
+- **RSA‑2048** – 適合加密小型對稱金鑰。  
+- **ChaCha20** – 在行動裝置 CPU 上具高效能。
+
+由於 `IDataEncryption` 合約對演算法保持中立，切換至 AES 只需將 `encrypt`/`decrypt` 的實作內容換成相應的加密呼叫即可。
+
+## 實務應用
+
+### 1. 安全文件簽署工作流程
+你可能需要以防止隨意檢視的方式儲存簽署者的中介資料（ID、時間戳記、部門）。使用我們的 XOR 加密器，這些中介資料會以位元組陣列形式存放於簽章套件內，而 PDF 其餘部分則保持不變。
+
+```java
+Signature signature = new Signature("contract.pdf");
+signature.setDataEncryption(new CustomXOREncryption());
+SignatureResult result = signature.sign("output.pdf", options);
+```
+
+### 2. 輕量完整性檢查
+加密一個已知常數並與文件一起保存。之後解密並比對，以驗證檔案在傳輸過程中未受損壞。
+
+### 3. 舊系統橋接
+舊的主機系統期待每個位元組皆以 `0x7F` 進行 XOR 掩碼的負載。只要在 `CustomXOREncryption` 中設定相同金鑰，即可在不另寫轉換服務的情況下交換資料。
+
+## 效能考量
+
+### 原始速度
+XOR 在現代 x86 核心上大約每位元組 **1 ns**，也就是說 10 MB 的負載加密時間遠低於 10 ms。相比之下，使用 CBC 模式的 AES‑256 同樣大小的資料通常需要 3‑4 倍的時間。
+
+### 記憶體占用
+我們的實作會複製輸入陣列，暫時將記憶體使用量加倍。對於 50 MB 的檔案，加密時大約需要 100 MB 的堆積空間。若需處理更大的檔案，請以 4 KB 為單位分段處理串流：
+
+```java
+InputStream in = new FileInputStream(source);
+OutputStream out = new FileOutputStream(target);
+byte[] buffer = new byte[4096];
+int read;
+while ((read = in.read(buffer)) != -1) {
+    for (int i = 0; i < read; i++) {
+        buffer[i] ^= key;
+    }
+    out.write(buffer, 0, read);
+}
+```
+
+### Java 記憶體管理最佳實踐
+1. **使用後將金鑰清零**：`Arrays.fill(keyArray, (byte)0);`  
+2. **使用 try‑with‑resources** 以確保串流關閉。  
+3. **避免將加密位元組轉換為 `String`**；保持為原始的 `byte[]`。  
+4. **使用 VisualVM 等工具監控堆積**，在同時處理多個大型文件時尤為重要。
+
+## 常見問題排除
+
+### 問題 1 – 「解密後的資料看起來像雜訊」
+**直接答案：** 確認加密與解密使用相同的 XOR 金鑰，整個流程保持資料為位元組陣列，並避免任何可能破壞位元組的字元編碼轉換。  
+
+**發生原因：** 金鑰不匹配、資料截斷或意外的 `String` 轉換會改變位元組模式，導致輸出無法閱讀。
+
+### 問題 2 – 「加密時發生 NullPointerException」
+**直接答案：** `encrypt` 方法已檢查 `null` 輸入；若仍出現例外，請確認來源位元組陣列在傳入加密器前已正確初始化。  
+
+**修正方式：** 在呼叫端加入防護檢查，或確保在加密前以 `signature.getSignatureData()` 讀取文件的簽章資料。
+
+### 問題 3 – 「加密似乎沒有作用」
+**直接答案：** 通常表示 XOR 金鑰被設定為 `0`。零金鑰的 XOR 不會改變原始位元組，輸出與輸入相同。  
+
+**解決方法：** 透過 `setKey()` 設定非零金鑰，或在建構子中提供預設值。
+
+### 問題 4 – 「大型 PDF 發生 OutOfMemoryError」
+**直接答案：** 在加密前將整個 PDF 載入記憶體可能會超出 JVM 堆積。請改用分段串流方式處理檔案，如效能章節所示。  
+
+**提示：** 僅將最大堆積 (`-Xmx2g`) 提升作為暫時措施；為了可擴充性，應重構為分塊處理。
+
+## 常見問答
+
+**Q: 如何選擇適當的 XOR 金鑰？**  
+A: 任意 1 到 255 之間的非零整數皆可，但金鑰本身不提供安全性。若需真正保護，請改用 AES‑256，並將金鑰存放於安全保管庫。
+
+**Q: 可以在執行時變更 XOR 金鑰嗎？**  
+A: 可以——呼叫 `setKey()` 並傳入新值。請記得在切換前先以舊金鑰解密資料，否則將無法存取該資料。
+
+**Q: 有哪些 XOR 加密的替代方案？**  
+A: 作為學習可嘗試凱撒密碼或 Base64（僅是編碼）。在正式環境中，請使用 AES‑256、RSA‑2048 或透過 Java `javax.crypto` 套件的 ChaCha20。
+
+**Q: GroupDocs.Signature 在處理大型檔案加密時如何運作？**  
+A: 函式庫會在可能的情況下串流 PDF 內容，但自訂的 `IDataEncryption` 實作決定資料的處理方式。請實作基於分塊的加密，以避免將整個檔案載入記憶體。
+
+**Q: 能將此功能整合至 Web 應用程式嗎？**  
+A: 完全可以。將加密器註冊為 Spring Bean，注入 `Signature` 服務，並將金鑰存放於環境變數或祕密管理器。確保每個請求在獨立執行緒中處理資料，以避免競爭。
+
+## XOR 加密在 Java 中如何運作？
+
+在 Java 中，XOR 透過 `^` 運算子作用於位元組值。先將明文載入位元組陣列，遍歷每個元素並套用 `byte ^ key`。因為 XOR 本身即為逆運算，使用相同金鑰執行相同例程即可還原原始位元組，使加密與解密具對稱性。
+
+## 使用 GroupDocs 實作自訂加密的步驟是什麼？
+
+要加入自訂加密，首先建立一個實作 `IDataEncryption` 介面的類別，然後以你的演算法編寫 `encrypt` 與 `decrypt` 方法。之後，透過 `setDataEncryption` 將實例註冊至 `Signature` 物件。從此，GroupDocs 會在需要保護簽章資料時呼叫你的程式碼。
+
+## 結論
+
+我們已完整說明如何使用自訂 XOR 程式 **how to encrypt java**、將其整合至 GroupDocs.Signature，並強調此輕量方法的適用情境。請記住：
+
+- 僅將 XOR 用於混淆，絕不可用於保護個人或金融資料。  
+- `IDataEncryption` 介面提供了日後換成更強演算法的乾淨切換點。  
+- 正確的金鑰管理、記憶體處理與串流機制是正式環境穩定性的關鍵。
+
+**下一步：**  
+1. 將 XOR 邏輯換成 AES‑256 以獲得真正的安全性。  
+2. 實作金鑰輪替與安全存儲。  
+3. 探索 GroupDocs 其他功能，如多簽章工作流程、驗證與文件蓋章。
+
+現在你已具備在任何 Java 簽署解決方案中自訂加密的堅實基礎——快依照你的業務需求進行客製化吧！
+
+---
+
+**最後更新：** 2026-06-26  
+**測試環境：** GroupDocs.Signature 23.12 for Java  
+**作者：** GroupDocs  
+
+- [GroupDocs.Signature for Java 文件說明](https://docs.groupdocs.com/signature/java/)  
+- [API 參考文件](https://reference.groupdocs.com/signature/java/)  
+- [最新版本下載](https://releases.groupdocs.com/signature/java/)  
+- [購買授權](https://purchase.groupdocs.com/buy)  
+- [免費試用](https://releases.groupdocs.com/signature/java/)  
+- [臨時授權申請](https://purchase.groupdocs.com/temporary-license/)  
+- [GroupDocs 支援論壇](https://forum.groupdocs.com/c/signature/)
+
+```
+Original data: 5 (binary: 0101)
+Key: 3 (binary: 0011)
+Encrypted: 5 XOR 3 = 6 (binary: 0110)
+Decrypted: 6 XOR 3 = 5 (binary: 0101) ← We're back!
+```
+
+```xml
+<dependency>
+    <groupId>com.groupdocs</groupId>
+    <artifactId>groupdocs-signature</artifactId>
+    <version>23.12</version>
+</dependency>
+```
+
+```gradle
+implementation 'com.groupdocs:groupdocs-signature:23.12'
+```
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -145,18 +398,6 @@ class InitializeGroupDocs {
     }
 }
 ```
-
-很簡單吧？`Signature` 物件是所有文件簽署操作的主要介面。接下來我們讓它真的加密一些資料。
-
-## 實作指南
-
-### 自訂 XOR 加密功能
-
-現在進入實作重點。我們將建立一個自訂加密類別，讓 GroupDocs 在需要加密簽署資料時使用。
-
-#### 步驟 1：實作 IDataEncryption 介面
-
-GroupDocs 期待加密處理器實作 `IDataEncryption` 介面。只要實作這些方法，GroupDocs 就會知道如何使用你的加密：
 
 ```java
 import com.groupdocs.signature.domain.extensions.encryption.IDataEncryption;
@@ -171,12 +412,6 @@ class CustomXOREncryption implements IDataEncryption {
     // Additional methods for encryption and decryption will be implemented here.
 }
 ```
-
-**說明**：我們定義了一個類別，承諾提供加密/解密功能。`auto_Key` 欄位儲存 XOR 金鑰值（即要 XOR 的數字）。`getKey()` 方法讓其他程式碼可以檢查目前使用的金鑰。
-
-#### 步驟 2：定義加密與解密方法
-
-接下來是實際的加密邏輯。因為 XOR 是對稱的（記得嗎？），加密與解密其實是同一個運算：
 
 ```java
 class CustomXOREncryption {
@@ -199,95 +434,16 @@ class CustomXOREncryption {
 }
 ```
 
-**拆解說明：**
-- 檢查金鑰是否為 0（無效）或資料是否為 null（避免當機）  
-- 建立新位元組陣列以存放加密結果  
-- 逐一遍歷輸入資料的每個位元組  
-- 每個位元組與金鑰做 XOR：`data[i] ^ auto_Key`  
-- 必須使用 `(byte)` 轉型，因為 Java 中 XOR 會回傳 `int`，但我們需要位元組  
-
-XOR 的美妙之處在於：`decrypt()` 只要再次呼叫 `encrypt()` 即可。相同的運算既能加密也能解密！
-
-### 金鑰設定選項
-
-**auto_Key**：你的加密金鑰。需要注意的要點：
-
-- 必須非零（XOR 0 等於不變）  
-- 單位元組 XOR 建議使用 1‑255 之間的值（超過 255 只會取低 8 位）  
-- 實務上可透過環境變數或設定檔讓金鑰可配置  
-- 正式環境應使用更完善的金鑰管理機制  
-
-設定範例：
-
 ```java
 CustomXOREncryption encryption = new CustomXOREncryption();
 encryption.setKey(42); // Any non-zero value works
 ```
 
-### 常見實作錯誤
-
-以下列出我（以及其他開發者）常犯的錯誤，幫助你省下除錯時間：
-
-**錯誤 #1：忘記設定金鑰**  
 ```java
 CustomXOREncryption encryption = new CustomXOREncryption();
 // Oops! Never called setKey(), so auto_Key is 0
 byte[] encrypted = encryption.encrypt(myData); // Returns data unchanged!
-```  
-**修正**：使用加密前務必先初始化金鑰。
-
-**錯誤 #2：未處理 null 資料**  
-若缺少 `if (data == null) return data;` 檢查，最糟情況會拋出 `NullPointerException`。
-
-**錯誤 #3：誤以為 XOR 很安全**  
-此加密極易被破解。只適合混淆，千萬別用於保護機密資料。
-
-**錯誤 #4：解密時使用錯誤金鑰**  
-因為解密必須使用相同金鑰，金鑰遺失或變更會導致資料永久無法還原。正式環境應有金鑰備份與管理機制。
-
-## 安全性考量
-
-讓我們坦白談談安全性，因為這非常重要：
-
-**XOR 加密絕不適合保護敏感資料**  
-
-千萬別低估它的危險性。單位元組 XOR 在幾秒鐘內就能被任何具備基礎密碼學知識的人破解。原因如下：
-
-1. **頻率分析** – 若攻擊者了解資料格式（通常會），即可猜測常見位元組，進而推算金鑰。  
-2. **已知明文攻擊** – 若攻擊者掌握部分明文，只要將明文與密文 XOR，即可直接得到金鑰。  
-3. **暴力破解** – 金鑰只有 255 種可能，毫秒級即可測完。  
-
-**何時適合使用 XOR 加密：**  
-
-- 混淆非敏感的內部識別碼  
-- 快速處理快取鍵或暫存資料  
-- 學習加密概念  
-- 符合使用 XOR 的遺留系統需求  
-- 效能關鍵且資料安全已在其他層面處理的情境  
-
-**何時應使用正式加密：**  
-
-- 個人資訊（姓名、電子郵件、地址）  
-- 金融資料  
-- 醫療資訊  
-- 認證憑證  
-- 任何受 GDPR、HIPAA、PCI‑DSS 等法規管制的資料  
-
-**更佳的替代方案：**  
-
-- **AES‑256** – 業界標準，安全性與效能兼具  
-- **RSA** – 適合加密少量資料（如金鑰本身）  
-- **ChaCha20** – 現代對稱演算法，在行動裝置上有時更快  
-
-好消息是，我們使用的 `IDataEncryption` 介面在任何加密演算法下都能保持相同使用方式。只要把 XOR 的 `encrypt()`、`decrypt()` 改成 AES 的實作即可。
-
-## 實務應用
-
-了解「什麼」與「為什麼」之後，來看看實際會用到的情境：
-
-### 1. 安全的文件簽署工作流程
-
-假設你在建置合約管理系統，文件需要數位簽署，而簽署的中繼資料（簽署者 ID、時間戳、部門）在儲存前需要做基本混淆：
+```
 
 ```java
 Signature signature = new Signature("contract.pdf");
@@ -298,24 +454,12 @@ encryption.setKey(73); // Configure your key
 // (Actual integration depends on specific GroupDocs API methods)
 ```
 
-**實際好處**：資料庫不會直接存放明文中繼資料，降低被爬蟲或日誌意外洩漏的風險。
-
-### 2. 資料完整性驗證
-
-你可以利用自訂加密作為輕量級的完整性檢查。將已知值加密後與文件一起儲存，之後解密驗證即可：
-
 ```java
 String integrityToken = "VALID_SIGNATURE_2025";
 byte[] encrypted = encryption.encrypt(integrityToken.getBytes());
 // Store encrypted with document...
 // Later, decrypt and compare to verify nothing changed
 ```
-
-這不是加密等級的完整性（若需更高保證請使用 HMAC），但足以偵測意外損毀。
-
-### 3. 與遺留系統整合
-
-這是最常見的實務需求。你正在將舊系統升級為現代應用，但必須與 2000 年代初的系統交換 XOR 加密的資料：
 
 ```java
 // Old system expects data encrypted with XOR key 42
@@ -326,22 +470,6 @@ legacyEncryption.setKey(42);
 byte[] dataForOldSystem = legacyEncryption.encrypt(modernData);
 sendToLegacyAPI(dataForOldSystem);
 ```
-
-你不是因為 XOR 更好而選它，而是因為對方系統只能理解 XOR。
-
-## 效能考量
-
-使用輕量級加密（如 XOR）的主要原因之一是效能。但即使是簡單運算，若處理不當仍可能成為瓶頸。以下列出需要注意的地方：
-
-### 效能最佳化
-
-**小資料（< 1 KB）** – 上述 XOR 實作已足夠，開銷可忽略不計。
-
-**大文件（> 10 MB）** – 建議採取以下優化：
-
-1. **分塊處理** – 不要一次 XOR 整個文件，改以 4 KB 為單位分段處理。  
-2. **平行運算** – 對超大型檔案，可將工作分配給多個執行緒。  
-3. **避免不必要的複製** – 目前的實作會產生新位元組陣列，會暫時加倍記憶體使用。
 
 ```java
 // More memory‑efficient for large data
@@ -354,75 +482,19 @@ public void encryptInPlace(byte[] data) {
 }
 ```
 
-### 資源使用指引
-
-**記憶體** – 目前的實作需要：
-
-- 原始資料的記憶體  
-- 加密後資料的記憶體（大小相同）  
-- 處理過程中的暫存物件  
-
-以 50 MB 文件為例，加密期間大約會佔用 100 MB 記憶體。
-
-**CPU** – XOR 極快，對小文件（< 100 KB）通常在 1 ms 以內完成。以下為大致估算（依硬體與 JVM 優化程度而異）：
-
-- 1 MB ≈ 10 ms  
-- 10 MB ≈ 100 ms  
-- 100 MB ≈ 1 s  
-
-### Java 記憶體管理最佳實踐
-
-在 Java 中處理加密時，請留意：
-
-1. **清除敏感資料** – 完成金鑰或解密資料後，務必手動清除：  
-   ```java
+```java
    Arrays.fill(decryptedData, (byte) 0); // Overwrite with zeros
-   ```  
-2. **使用 try‑with‑resources** – 確保串流自動關閉：  
-   ```java
+   ```
+
+```java
    try (FileInputStream fis = new FileInputStream("encrypted.dat")) {
        // Process data
    } // Automatically closed
-   ```  
-3. **監控 Heap 使用** – 若同時處理多份文件，可考慮 `-XX:+UseG1GC` 以提升 GC 效能。  
-4. **避免使用 String 處理二進位資料** – 千萬不要把加密後的位元組轉成 `String` 再轉回，會造成資料損毀，應保持為 byte[]。
+   ```
 
-## 常見問題排除
-
-### 問題 1：「解密後變成雜訊」
-
-**症狀** – 解密後得到看似隨機的位元組，而非原始資料。  
-
-**原因** – 解密金鑰不一致、資料在儲存/傳輸過程受損，或在途中將位元組轉成 `String`。  
-
-**解決方式** – 確認使用完全相同的金鑰，並在整個流程中保持 byte[]。
-
-### 問題 2：「加密時拋出 NullPointerException」
-
-**症狀** – 呼叫 `encrypt()` 時發生 `NullPointerException`。  
-
-**原因** – 傳入的資料為 `null`。  
-
-**解決方式** – 如實作範例所示，在 `encrypt`/`decrypt` 方法內先檢查 `null`。
-
-### 問題 3：「看起來沒有加密效果」
-
-**症狀** – 加密後的資料與明文相同。  
-
-**原因** – 金鑰為 `0` 或根本未設定。  
-
-**解決方式** – 在開發階段加入斷言檢查：  
 ```java
 assert auto_Key != 0 : "Encryption key must be set!";
 ```
-
-### 問題 4：「處理大型檔案時 OutOfMemoryError」
-
-**症狀** – 加密大型文件時應用程式崩潰。  
-
-**原因** – 一次將整個檔案載入記憶體。  
-
-**解決方式** – 改用串流或分塊處理：  
 
 ```java
 try (FileInputStream in = new FileInputStream(path);
@@ -435,51 +507,6 @@ try (FileInputStream in = new FileInputStream(path);
     }
 }
 ```
-
-## 結論
-
-我們已涵蓋相當多的內容！現在你已掌握 **如何加密 Java**，以 XOR 為學習範例，並將其整合至 GroupDocs.Signature。也了解了何時該使用自訂加密、何時不該使用。
-
-**重點回顧**
-- 自訂加密適用於特定情境（遺留系統、效能需求、學習）  
-- XOR 方便理解原理，但不適合保護機密資料  
-- GroupDocs.Signature 透過 `IDataEncryption` 介面提供簡易整合方式  
-- 實作前務必評估安全性風險  
-
-**後續建議**
-
-1. **實作 AES 加密** – 將 `CustomXOREncryption` 改寫為使用 AES（Java `javax.crypto` 套件即可）。  
-2. **加入金鑰輪替** – 建置可在不中斷服務的金鑰更換機制。  
-3. **探索更多 GroupDocs 功能** – 簽章驗證、範本建立、多簽章工作流程等。
-
-掌握了這個「實作介面提供自訂行為」的模式，你將能在 GroupDocs API 中自由客製化更多功能。
-
-現在去加密吧！（但請先確保在升級到真正的加密演算法前，不要用於任何必須保密的資料。）
-
-## FAQ 區
-
-### 1. 如何選擇合適的 XOR 金鑰？
-對於 XOR 而言，只要非零整數皆可，但金鑰本身並不提供安全性。若真的在意安全，請改用 AES 或其他驗證過的演算法。若僅用於混淆，隨機挑選 1‑255 之間的值，並安全地存放於設定檔或環境變數。
-
-### 2. 可以在執行期間動態變更 XOR 金鑰嗎？
-可以，直接呼叫 `setKey()` 並傳入新值。但要注意：使用舊金鑰加密的資料仍須以舊金鑰解密。若更換金鑰，必須重新加密既有資料或記錄每筆資料使用的金鑰。這也是金鑰管理在密碼學中的重要議題。
-
-### 3. 有哪些 XOR 的替代方案？
-學習或非安全用途：凱撒密碼、ROT13、Base64（僅混淆不加密）。  
-正式安全需求：AES‑256（對稱）、RSA‑2048+（非對稱）、ChaCha20（現代對稱）。Java 的 `javax.crypto` 已支援上述演算法。
-
-### 4. GroupDocs.Signature 在處理大型檔案加密時的表現如何？
-GroupDocs 已針對大型檔案做了串流優化。但若你的自訂加密實作一次載入全部資料，仍可能成為瓶頸。建議對超過 50 MB 的檔案實作分塊加解密，以降低記憶體佔用。
-
-### 5. 能將此功能整合到 Web 應用程式嗎？
-完全可以！使用 Spring Boot、Jakarta EE 或任意 Java Web 框架皆可。幾點建議：
-
-- 將加密類別註冊為 singleton 或 application‑scoped bean  
-- 金鑰存放於環境變數或外部安全配置，切勿硬編碼  
-- 在資料離開應用伺服器前先加密  
-- 多使用者同時上傳大型文件時，留意記憶體與執行緒使用
-
-Spring Boot 整合範例：
 
 ```java
 @Component
@@ -494,31 +521,8 @@ public class EncryptionService {
 }
 ```
 
-### 6. 可以在 PDF 文件上使用嗎？
-可以！GroupDocs.Signature 支援 PDF、Word、Excel、影像等多種格式。加密發生在簽署資料層面，與檔案類型無關，所有支援的格式皆可使用。
+## 相關教學
 
-### 7. 若金鑰遺失會怎樣？
-對稱加密（如 XOR）若金鑰遺失，資料將無法復原，沒有任何備援機制。正式系統應具備：
-
-- 金鑰備份機制  
-- 金鑰託管（Escrow）以符合法規要求  
-- 金鑰輪替政策與交叉期間  
-- 金鑰使用紀錄與稽核  
-
-這也是使用成熟加密函式庫的好處——它們通常內建金鑰管理工具。
-
-## 參考資源
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)  
-- [API Reference](https://reference.groupdocs.com/signature/java/)  
-- [Latest Release Download](https://releases.groupdocs.com/signature/java/)  
-- [Purchase License](https://purchase.groupdocs.com/buy)  
-- [Free Trial](https://releases.groupdocs.com/signature/java/)  
-- [Temporary License Request](https://purchase.groupdocs.com/temporary-license/)  
-- [GroupDocs Support Forum](https://forum.groupdocs.com/c/signature/)
-
----
-
-**最後更新日期：** 2026-02-18  
-**測試環境：** GroupDocs.Signature 23.12 for Java  
-**作者：** GroupDocs
+- [在 Java 中使用 GroupDocs.Signature 建立自訂 XOR 加密器](/signature/java/advanced-options/implement-custom-xor-encryption-groupdocs-signature-java/)
+- [使用 GroupDocs.Signature 加密文件中介資料（Java）](/signature/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/)
+- [如何在 Java 中加密簽章 – 進階簽署選項與加密技術](/signature/java/advanced-options/)

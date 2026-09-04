@@ -391,11 +391,6 @@ Prochaines étapes ? Essayez de signer un lot de factures réelles, intégrez 
 
 [Documentation](https://docs.groupdocs.com/signature/java/) | [Référence API](https://reference.groupdocs.com/signature/java/) | [Télécharger la dernière version](https://releases.groupdocs.com/signature/java/) | [Acheter une licence](https://purchase.groupdocs.com/buy) | [Essai gratuit](https://releases.groupdocs.com/signature/java/) | [Forum d’assistance](https://forum.groupdocs.com/c/signature/13) | [Licence temporaire](https://purchase.groupdocs.com/temporary-license/)
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/main-wrap-class >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/tutorial-page-section >}
-
 ## Tutoriels associés
 
 - [Charger et enregistrer des documents en Java - Tutoriel complet GroupDocs.Signature](/signature/java/document-loading-saving/)

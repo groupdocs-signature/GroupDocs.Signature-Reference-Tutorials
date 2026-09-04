@@ -106,7 +106,6 @@ Việc đưa GroupDocs.Signature vào dự án của bạn rất đơn giản. C
 ### Sử dụng Maven
 Thêm **maven dependency groupdocs** này vào tệp `pom.xml` của bạn:
 
-``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -114,17 +113,14 @@ Thêm **maven dependency groupdocs** này vào tệp `pom.xml` của bạn:
     <version>23.12</version>
 </dependency>
 ```
-```
 
 Sau khi thêm, chạy `mvn clean install` để tải thư viện.
 
 ### Sử dụng Gradle
 Đối với các dự án Gradle, thêm dòng này vào tệp `build.gradle` của bạn:
 
-``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Sau đó đồng bộ dự án với `gradle build`.
@@ -144,11 +140,9 @@ Phiên bản dùng thử sẽ thêm watermark, vì vậy hãy lên kế hoạch 
 ## Khởi tạo cơ bản
 `Signature` là lớp đầu vào chính trong GroupDocs.Signature for Java, dùng để tải và thao tác các tài liệu để ký. Khi bạn đã cài đặt thư viện, việc khởi tạo nó đơn giản như chỉ định tới tài liệu của bạn:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
-```
 ```
 
 Điều này tạo ra một đối tượng `Signature` sẵn sàng để làm việc.
@@ -172,12 +166,10 @@ Việc định vị đúng đảm bảo mã QR dễ quét, tuân thủ các tiê
 #### 1. Cấu hình đường dẫn tệp của bạn
 Xác định vị trí tài liệu nguồn và nơi bạn muốn lưu phiên bản đã ký:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" + fileName).getPath();
-```
 ```
 
 **Mẹo chuyên nghiệp:** Sử dụng `Paths.get()` thay vì nối chuỗi để tạo đường dẫn tệp—nó tự động xử lý các ký tự phân tách theo hệ điều hành.
@@ -185,7 +177,6 @@ String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" +
 #### 2. Khởi tạo đối tượng Signature
 Bao bọc việc khởi tạo của bạn trong khối try‑catch để xử lý các vấn đề tiềm ẩn về truy cập tệp:
 
-``` 
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -194,14 +185,12 @@ try {
     throw new RuntimeException("Error initializing signature: " + e.getMessage(), e);
 }
 ```
-```
 
 `RuntimeException` thêm ngữ cảnh khi gỡ lỗi, giúp tiết kiệm thời gian trong môi trường sản xuất.
 
 #### 3. Định nghĩa kích thước và vị trí mã QR
 `QrCodeSignOptions` cấu hình hình ảnh QR sẽ được đặt trên tài liệu. Nó cho phép bạn đặt kích thước, lề và căn chỉnh.
 
-``` 
 ```java
 int qrWidth = 100;
 int qrHeight = 100;
@@ -221,13 +210,11 @@ for (int horizontalAlignment : HorizontalAlignment.getValues()) {
     }
 }
 ```
-```
 
 Vòng lặp tạo các tùy chọn mã QR cho mọi căn chỉnh ngang (Left, Center, Right) và dọc (Top, Center, Bottom), thêm lề 5 pixel để mã không bao giờ chạm vào cạnh trang.
 
 Trong hầu hết các kịch bản sản xuất, bạn sẽ chọn một vị trí duy nhất, chẳng hạn như dưới‑phải cho hợp đồng:
 
-``` 
 ```java
 QrCodeSignOptions options = new QrCodeSignOptions("Signature");
 options.setWidth(100);
@@ -236,15 +223,12 @@ options.setHorizontalAlignment(HorizontalAlignment.Right);
 options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
-```
 
 #### 4. Ký tài liệu
 Bây giờ chúng ta áp dụng tất cả các ký đã cấu hình trong một thao tác:
 
-``` 
 ```java
 SignResult signResult = signature.sign(outputFilePath, listOptions);
-```
 ```
 
 Phương thức `sign()` xử lý mọi mã QR trong danh sách và lưu kết quả vào đường dẫn đầu ra của bạn. Nó trả về một đối tượng `SignResult` cho biết có bao nhiêu ký được thêm thành công—rất phù hợp để ghi log.
@@ -260,12 +244,10 @@ Phương thức `sign()` xử lý mọi mã QR trong danh sách và lưu kết q
 2. Xác nhận quyền đọc cho nguồn và quyền ghi cho thư mục đầu ra.  
 3. Escape bất kỳ ký tự đặc biệt nào trong đường dẫn.  
 
-``` 
 ```java
 // Better approach: Use absolute paths
 String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
-```
 ```
 
 ### Vấn đề 2: Mã QR chồng lên nội dung tài liệu
@@ -273,10 +255,8 @@ Signature signature = new Signature(absolutePath);
 
 **Giải pháp:** Tăng giá trị lề và chọn căn chỉnh giữ mã trong các vùng trống:
 
-``` 
 ```java
 options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
-```
 ```
 
 ### Vấn đề 3: Vấn đề bộ nhớ với tài liệu lớn
@@ -284,12 +264,10 @@ options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
 
 **Giải pháp:** Giải phóng các đối tượng `Signature` kịp thời và xử lý các tệp lớn theo lô:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your signing code
 } // Automatically closes and releases resources
-```
 ```
 
 ### Vấn đề 4: Nội dung mã QR không cập nhật
@@ -297,7 +275,6 @@ try (Signature signature = new Signature(filePath)) {
 
 **Giải pháp:** Tạo một **đối tượng mới** `QrCodeSignOptions` cho mỗi vị trí thay vì tái sử dụng cùng một đối tượng:
 
-``` 
 ```java
 // Wrong - reuses same object
 QrCodeSignOptions options = new QrCodeSignOptions("Text");
@@ -309,7 +286,6 @@ listOptions.add(options);
 // Correct - creates new object each time
 listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
-```
 ```
 
 ## Ứng dụng thực tiễn
@@ -329,12 +305,10 @@ Trong quá trình phê duyệt đa giai đoạn, nhúng mã QR sau mỗi lần k
 ### Quản lý tài nguyên
 Luôn đóng các đối tượng `Signature` để ngăn rò rỉ bộ nhớ:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your code
 } // Auto‑closes
-```
 ```
 
 Xem xét sử dụng pool xử lý cho các ứng dụng web để giới hạn các thao tác đồng thời.
@@ -342,7 +316,6 @@ Xem xét sử dụng pool xử lý cho các ứng dụng web để giới hạn 
 ### Chiến lược xử lý lỗi
 Cung cấp thông tin lỗi có thể hành động thay vì bắt lỗi im lặng:
 
-``` 
 ```java
 try {
     SignResult result = signature.sign(outputFilePath, listOptions);
@@ -355,7 +328,6 @@ try {
     logger.error("Signature failed for document: {}", filePath, e);
     // Implement retry logic or alert mechanism
 }
-```
 ```
 
 ### Tối ưu hiệu suất
@@ -414,10 +386,8 @@ try {
 **Q:** *Tôi có thể thêm mã QR vào các trang cụ thể trong tài liệu đa trang không?*  
 **A:** Chắc chắn. Đặt số trang bằng `options.setPageNumber(pageNumber);`. Ví dụ:
 
-``` 
 ```java
 options.setPageNumber(1); // Add to first page only
-```
 ```
 
 **Q:** *Tôi có thể mã hoá dữ liệu gì trong mã QR?*  
@@ -426,13 +396,11 @@ options.setPageNumber(1); // Add to first page only
 **Q:** *Làm sao tôi có thể xác minh ký mã QR một cách lập trình?*  
 **A:** GroupDocs.Signature cung cấp phương thức `verify`. Ví dụ:
 
-``` 
 ```java
 VerificationResult result = signature.verify(verifyOptions);
 if (result.isValid()) {
     // Signature is authentic
 }
-```
 ```
 
 Lớp `Signature` là điểm vào chính để áp dụng ký vào tài liệu.

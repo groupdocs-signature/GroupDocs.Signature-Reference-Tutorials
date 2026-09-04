@@ -389,11 +389,6 @@ Bước tiếp theo? Hãy thử ký một loạt hoá đơn thực tế, tích h
 
 [Documentation](https://docs.groupdocs.com/signature/java/) | [Tham khảo API](https://reference.groupdocs.com/signature/java/) | [Tải phiên bản mới nhất](https://releases.groupdocs.com/signature/java/) | [Mua giấy phép](https://purchase.groupdocs.com/buy) | [Dùng thử miễn phí](https://releases.groupdocs.com/signature/java/) | [Diễn đàn hỗ trợ](https://forum.groupdocs.com/c/signature/13) | [Giấy phép tạm thời](https://purchase.groupdocs.com/temporary-license/)
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/main-wrap-class >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/tutorial-page-section >}
-
 ## Hướng dẫn liên quan
 
 - [Tải và Lưu Tài liệu trong Java - Hướng dẫn đầy đủ GroupDocs.Signature](/signature/java/document-loading-saving/)

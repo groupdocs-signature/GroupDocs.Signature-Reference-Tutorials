@@ -385,11 +385,6 @@ Nästa steg? Prova att signera en batch med riktiga fakturor, integrera tidsstä
 
 [Dokumentation](https://docs.groupdocs.com/signature/java/) | [API‑referens](https://reference.groupdocs.com/signature/java/) | [Ladda ner senaste versionen](https://releases.groupdocs.com/signature/java/) | [Köp licens](https://purchase.groupdocs.com/buy) | [Gratis provperiod](https://releases.groupdocs.com/signature/java/) | [Supportforum](https://forum.groupdocs.com/c/signature/13) | [Tillfällig licens](https://purchase.groupdocs.com/temporary-license/)
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/main-wrap-class >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/tutorial-page-section >}
-
 ## Relaterade handledningar
 
 - [Ladda och spara dokument i Java – Komplett GroupDocs.Signature‑handledning](/signature/java/document-loading-saving/)

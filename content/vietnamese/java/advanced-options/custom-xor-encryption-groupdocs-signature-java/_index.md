@@ -1,114 +1,141 @@
 ---
 categories:
 - Java Security
-date: '2026-02-18'
-description: Học cách mã hóa Java bằng XOR với GroupDocs.Signature. Hướng dẫn từng
-  bước này cho thấy cách triển khai mã hóa tùy chỉnh, bao gồm các ví dụ mã, mẹo bảo
-  mật và các thực tiễn tốt nhất.
-keywords: implement custom encryption Java, XOR encryption Java tutorial, custom signature
-  encryption GroupDocs, Java document encryption, secure PDF signatures custom encryption
-lastmod: '2026-02-18'
-linktitle: Custom Encryption Java Guide
+date: '2026-06-26'
+description: Tìm hiểu cách mã hoá Java bằng XOR với GroupDocs.Signature. Hướng dẫn
+  chi tiết này chỉ ra cách triển khai mã hoá tùy chỉnh, bao gồm các ví dụ mã nguồn,
+  mẹo bảo mật và các thực hành tốt nhất.
+keywords:
+- how to encrypt java
+- xor encryption example java
+- custom encryption groupdocs java
+- java document signing encryption
+- groupdocs signature custom encryption
+lastmod: '2026-06-26'
+linktitle: Hướng Dẫn Mã Hoá Tùy Chỉnh Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-26'
+  description: Learn how to encrypt Java using XOR with GroupDocs.Signature. This
+    step‑by‑step tutorial shows how to implement custom encryption, includes code
+    examples, security tips, and best practices.
+  headline: 'How to Encrypt Java: Custom XOR Encryption with GroupDocs'
+  type: TechArticle
+- questions:
+  - answer: Any non‑zero integer between 1 and 255 works, but the key itself does
+      not provide security. For real protection, replace XOR with AES‑256 and keep
+      the key in a secure vault.
+    question: How do I choose an appropriate XOR key?
+  - answer: Yes—call `setKey()` with a new value. Remember that data encrypted with
+      the old key must be decrypted before you switch, or you’ll lose access to that
+      data.
+    question: Can I change the XOR key at runtime?
+  - answer: For learning, try a Caesar cipher or Base64 (though Base64 is merely encoding).
+      For production, use AES‑256, RSA‑2048, or ChaCha20 via Java’s `javax.crypto`
+      package.
+    question: What are some alternatives to XOR encryption?
+  - answer: The library streams PDF content when possible, but your custom `IDataEncryption`
+      implementation decides how data is processed. Implement chunk‑based encryption
+      to avoid loading the whole file into memory.
+    question: How does GroupDocs.Signature handle large files with encryption?
+  - answer: Absolutely. Register the encryptor as a Spring Bean, inject the `Signature`
+      service, and keep the key in an environment variable or secrets manager. Ensure
+      each request processes data in a separate thread to avoid contention.
+    question: Is it possible to integrate this feature into a web application?
+  type: FAQPage
 tags:
 - encryption
 - digital-signatures
 - GroupDocs
 - Java-tutorial
-title: 'Cách mã hoá Java: Mã hoá XOR tùy chỉnh với GroupDocs'
+title: 'Cách Mã Hoá Java: Mã XOR Tùy Chỉnh với GroupDocs'
 type: docs
 url: /vi/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/
 weight: 1
 ---
 
-# Cách Mã Hoá Java: Mã Hoá XOR Tùy Chỉnh với GroupDocs
+# Cách Mã Hoá Java: Mã XOR Tùy Chỉnh với GroupDocs
 
 ## Giới thiệu
 
-Đây là một tình huống bạn có thể đã gặp: bạn đang xây dựng một ứng dụng cần ký tài liệu số, nhưng các tùy chọn mã hoá tích hợp sẵn không đáp ứng được yêu cầu của bạn. Có thể bạn đang làm việc với các hệ thống legacy yêu cầu một định dạng mã hoá cụ thể, hoặc bạn cần một giải pháp mã hoá nhẹ cho các ứng dụng có yêu cầu hiệu năng cao, nơi các thuật toán nặng như AES sẽ là thừa thãi.
+Nếu bạn từng cần **cách mã hoá java** cho một quy trình công việc cụ thể, bạn sẽ hiểu sự bực bội khi các tùy chọn tích hợp sẵn không phù hợp với giao thức kế thừa hoặc mục tiêu hiệu năng của bạn. Hãy tưởng tượng bạn đang tích hợp một mô-đun ký mới vào một hệ thống ERP cũ hơn, hệ thống này yêu cầu một payload được XOR‑mask đơn giản. Bạn có thể viết lại toàn bộ ERP, nhưng cách nhanh hơn là thêm một lớp mã hoá tùy chỉnh nhẹ ngay trong ứng dụng Java của bạn.
 
-Đó là lúc **mã hoá tùy chỉnh** xuất hiện—và nó dễ thực hiện hơn bạn nghĩ. Trong hướng dẫn này, chúng ta sẽ đi qua cách tạo một cơ chế mã hoá tùy chỉnh bằng phép XOR làm ví dụ. Mặc dù mã hoá XOR không phù hợp cho các ứng dụng yêu cầu bảo mật cao (chúng ta sẽ nói về khi nào nên và không nên dùng), nó là lựa chọn tuyệt vời để học các nguyên tắc **cách mã hoá Java** và đáp ứng các nhu cầu tích hợp đặc thù. Chúng ta sẽ sử dụng **GroupDocs.Signature for Java**, giúp việc tích hợp mã hoá tùy chỉnh vào quy trình ký tài liệu của bạn trở nên bất ngờ đơn giản.
+Trong hướng dẫn này, chúng ta sẽ đi qua cách tạo cơ chế mã hoá XOR tùy chỉnh, tích hợp nó vào **GroupDocs.Signature for Java**, và thảo luận khi nào cách tiếp cận này hợp lý so với việc sử dụng các thuật toán tiêu chuẩn của ngành. Khi kết thúc, bạn sẽ có thể bảo vệ siêu dữ liệu chữ ký, đáp ứng các hợp đồng tích hợp kỳ quặc, và hiểu các đánh đổi khi sử dụng XOR trong mã sản xuất.
 
 **Bạn sẽ học được:**
-- Tại sao bạn lại muốn dùng mã hoá tùy chỉnh ngay từ đầu
-- Cách hoạt động của mã hoá XOR (bằng tiếng Việt đơn giản)
-- Triển khai từng bước với GroupDocs.Signature for Java
-- Các trường hợp sử dụng thực tế và cân nhắc bảo mật
-- Những lỗi thường gặp và cách tránh chúng
+- Tại sao mã hoá tùy chỉnh quan trọng đối với các kịch bản kế thừa và hiệu năng  
+- Cách XOR hoạt động (giải thích bằng tiếng Anh đơn giản + ví dụ Java)  
+- Tích hợp từng bước với GroupDocs.Signature for Java  
+- Các trường hợp sử dụng thực tế, cân nhắc bảo mật, và những bẫy thường gặp  
+- Cách thay thế triển khai XOR bằng thuật toán mạnh hơn sau này  
 
 ## Câu trả lời nhanh
-- **Mã hoá XOR là gì?** Một phép toán đối xứng đảo bit bằng một khóa; mã hoá hai lần với cùng một khóa sẽ khôi phục dữ liệu gốc.  
-- **Khi nào nên dùng mã hoá tùy chỉnh?** Khi cần tương thích với hệ thống legacy, tối ưu hiệu năng, hoặc mục đích học tập—không phải để bảo vệ dữ liệu nhạy cảm.  
+- **XOR là gì?** Một phép toán đối xứng đảo bit bằng một khóa; mã hoá hai lần bằng cùng một khóa sẽ khôi phục dữ liệu gốc.  
+- **Khi nào nên dùng mã hoá tùy chỉnh?** Khi cần tương thích hệ thống kế thừa, tối ưu hiệu năng, hoặc mục đích học tập—không phải để bảo vệ dữ liệu nhạy cảm.  
 - **Thư viện nào được dùng trong tutorial này?** GroupDocs.Signature for Java (v23.12 trở lên).  
-- **Có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; giấy phép đầy đủ cần cho môi trường production.  
-- **Có thể thay thế XOR bằng AES sau này không?** Có—chỉ cần thay đổi logic `encrypt`/`decrypt` trong khi vẫn giữ giao diện `IDataEncryption` giống cũ.
+- **Có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; giấy phép đầy đủ cần cho môi trường sản xuất.  
+- **Có thể thay thế XOR bằng AES sau này không?** Có—chỉ cần thay thế logic `encrypt`/`decrypt` trong khi giữ lại giao diện `IDataEncryption`.  
 
-## Cách Mã Hoá Java Bằng XOR
-Mã hoá XOR là một **java xor example** cổ điển, minh hoạ ý tưởng cốt lõi của mã hoá đối xứng. Thông qua tutorial này, bạn sẽ thấy cách gắn một thuật toán tùy chỉnh vào quy trình **GroupDocs.Signature Java**, cho phép bạn kiểm soát hoàn toàn cách dữ liệu chữ ký được bảo vệ.
+## Mã hoá tùy chỉnh trong Java là gì?
+`IDataEncryption` là một giao diện của GroupDocs.Signature định nghĩa các phương thức để mã hoá và giải mã dữ liệu. Mã hoá tùy chỉnh cho phép bạn xác định chính xác cách dữ liệu được biến đổi trước khi lưu trữ hoặc truyền đi. Với GroupDocs.Signature, bạn cung cấp một triển khai của giao diện `IDataEncryption`, và thư viện sẽ tự động gọi mã của bạn mỗi khi cần bảo vệ dữ liệu chữ ký. Mô hình plug‑in này cho phép bạn bắt đầu với một routine XOR đơn giản cho proof‑of‑concept và sau này thay thế bằng AES‑256 mà không cần thay đổi phần còn lại của quy trình ký.
 
-## Tại sao Mã Hoá Tùy Chỉnh lại Quan Trọng
+## Tại sao Mã hoá Tùy chỉnh Quan trọng
+Mã hoá tùy chỉnh có giá trị khi các thuật toán hiện có không đáp ứng được các ràng buộc cụ thể như định dạng giao thức kế thừa, ngân sách hiệu năng chặt chẽ, hoặc yêu cầu hợp đồng độc quyền. Bằng cách tự triển khai routine của mình, bạn giữ toàn quyền kiểm soát việc biến đổi dữ liệu, giảm overhead, và đảm bảo tính tương thích mà không phải viết lại hệ thống bên ngoài, đồng thời vẫn tận dụng khả năng mở rộng của GroupDocs.
 
-Trước khi viết code, hãy cùng xem tại sao bạn có thể cần mã hoá tùy chỉnh.
+### Tích hợp Hệ thống Kế thừa
+Các hệ thống cũ đôi khi yêu cầu một phép biến đổi byte‑wise rất cụ thể—thường là XOR với một khóa byte đơn. Việc tái cấu trúc những hệ thống này tốn kém, vì vậy việc khớp kỳ vọng của chúng bằng một encryptor tùy chỉnh là con đường thực tế.
 
-Hầu hết các thư viện (bao gồm cả GroupDocs) đã có sẵn các tùy chọn mã hoá. Vậy tại sao lại tự viết? Dưới đây là những kịch bản thực tế khiến mã hoá tùy chỉnh trở nên hợp lý:
+### Tối ưu Hiệu năng
+Các thuật toán chuẩn như AES‑256 mạnh về mặt mật mã nhưng có thể tiêu tốn đáng kể chu kỳ CPU, đặc biệt trên các thiết bị năng lượng thấp hoặc khi xử lý hàng triệu payload nhỏ. XOR chỉ cần một lệnh CPU cho mỗi byte, mang lại overhead gần như bằng 0 cho dữ liệu không nhạy cảm.
 
-**Tích hợp hệ thống Legacy**: Bạn đang làm việc với các hệ thống cũ yêu cầu dữ liệu được mã hoá theo một cách nhất định. Thay đổi toàn bộ hệ thống không khả thi, vì vậy bạn cần khớp với phương pháp mã hoá của họ.
+### Yêu cầu Sở hữu
+Một số hợp đồng hoặc tiêu chuẩn ngành quy định thuật toán tùy chỉnh (ví dụ, “XOR‑mask” do chính phủ chỉ định). Việc tự triển khai logic yêu cầu giúp bạn tuân thủ trong khi vẫn giữ phần còn lại của stack hiện đại.
 
-**Tối ưu hiệu năng**: Các thuật toán tiêu chuẩn như AES an toàn nhưng tốn nhiều tài nguyên tính toán. Đối với dữ liệu không nhạy cảm nhưng vẫn cần làm mờ (ví dụ: watermark hoặc ID tài liệu nội bộ), một giải pháp tùy chỉnh nhẹ có thể cải thiện hiệu năng đáng kể.
+### Học hỏi và Linh hoạt
+Xây dựng một encryptor tùy chỉnh buộc bạn phải hiểu các thao tác ở mức byte, quản lý khóa, và thiết kế dựa trên hợp đồng của giao diện `IDataEncryption`. Kiến thức này sẽ hữu ích khi bạn chuyển sang các giải pháp mật mã phức tạp hơn.
 
-**Yêu cầu sở hữu**: Một số ngành hoặc khách hàng yêu cầu triển khai mã hoá cụ thể để tuân thủ hoặc tương thích.
-
-**Học hỏi và linh hoạt**: Hiểu cách triển khai mã hoá tùy chỉnh giúp bạn đánh giá các giải pháp bảo mật và thích nghi với các yêu cầu độc đáo.
-
-Tuy nhiên (và đây là điều quan trọng), mã hoá tùy chỉnh không bao giờ nên là lựa chọn đầu tiên để bảo vệ dữ liệu nhạy cảm. Đối với bất kỳ thông tin cá nhân, dữ liệu tài chính, hay nội dung chịu quy định, hãy sử dụng các thuật toán đã được chứng minh như AES‑256. Mã hoá tùy chỉnh chỉ nên dùng cho các trường hợp cụ thể mà bạn hiểu rõ các rủi ro bảo mật.
+> **Mẹo chuyên nghiệp:** Chỉ dùng mã hoá tùy chỉnh cho dữ liệu đã được bảo vệ bởi các lớp khác (TLS, VPN, hoặc mã hoá cơ sở dữ liệu). Không bao giờ dựa vào XOR làm lớp bảo vệ duy nhất cho thông tin cá nhân hoặc tài chính.
 
 ## Hiểu về XOR: Những Điều Cơ Bản
 
-Nếu bạn chưa quen với XOR (Exclusive OR), đừng lo—đó là một trong những khái niệm mã hoá đơn giản nhất.
+XOR (exclusive OR) so sánh hai bit và trả về **1** nếu chúng khác nhau, **0** nếu chúng giống nhau:
 
-XOR là một phép toán nhị phân so sánh hai bit và trả về **1** nếu chúng khác nhau, **0** nếu chúng giống nhau:
+- 0 XOR 0 = 0  
+- 0 XOR 1 = 1  
+- 1 XOR 0 = 1  
+- 1 XOR 1 = 0  
 
-- 0 XOR 0 = 0  
-- 0 XOR 1 = 1  
-- 1 XOR 0 = 1  
-- 1 XOR 1 = 0  
+Vì phép toán là tự nghịch đảo, áp dụng cùng một khóa lần thứ hai sẽ khôi phục giá trị gốc. Trong Java bạn có thể XOR hai byte bằng toán tử `^`:
 
-Điều làm XOR thú vị cho mã hoá là nó **đối xứng**: nếu bạn XOR dữ liệu với một khóa, sau đó lại XOR kết quả với cùng một khóa, bạn sẽ nhận lại dữ liệu gốc. Nó giống như một chiếc khóa dùng cùng một chìa khóa để mở và khóa.
-
-Dưới đây là một **java xor example** đơn giản:
-
-```
-Original data: 5 (binary: 0101)
-Key: 3 (binary: 0011)
-Encrypted: 5 XOR 3 = 6 (binary: 0110)
-Decrypted: 6 XOR 3 = 5 (binary: 0101) ← We're back!
+```java
+byte encrypted = (byte)(plainByte ^ key);
 ```
 
-Trong thực tế, chúng ta sẽ XOR mỗi byte của dữ liệu với giá trị khóa. Phép toán này nhanh, tiêu tốn ít bộ nhớ và hoàn hảo để minh hoạ các khái niệm mã hoá tùy chỉnh. Chỉ cần nhớ: XOR với một khóa byte đơn là dễ bị phá vỡ cho bất kỳ ai có kiến thức cơ bản về mật mã. Hãy dùng nó để làm mờ, không phải để bảo vệ.
+Khi bạn XOR toàn bộ mảng byte với một khóa byte đơn, bạn nhận được một biến đổi nhanh, có thể đảo ngược. Hãy nhớ, một khóa byte đơn chỉ tạo ra 255 biến thể có thể, vì vậy bất kỳ ai có một lượng ciphertext vừa đủ đều có thể brute‑force khóa ngay lập tức. Chỉ dùng cho mục đích obfuscation, không dùng để bảo vệ dữ liệu bí mật.
 
-## Các Điều Kiện Tiên Quyết
+## Các Điều Kiện Tiên quyết
 
-Trước khi triển khai mã hoá tùy chỉnh với GroupDocs.Signature for Java, hãy chắc chắn bạn đã chuẩn bị:
+Trước khi triển khai mã hoá tùy chỉnh với GroupDocs.Signature for Java, hãy chắc chắn bạn đã có:
 
-### Thư viện và phụ thuộc cần thiết
-- **GroupDocs.Signature for Java**: Phiên bản 23.12 trở lên (API chúng ta sẽ làm việc)
-- **Java Development Kit**: JDK 8 hoặc cao hơn (khuyến nghị JDK 11+ cho production)
+### Thư viện và Phụ thuộc Cần thiết
+- **GroupDocs.Signature for Java** – phiên bản 23.12 trở lên (API sẽ được dùng xuyên suốt).  
+- **Java Development Kit** – JDK 8 hoặc mới hơn; JDK 11 được khuyến nghị cho hỗ trợ lâu dài.
 
-### Yêu cầu thiết lập môi trường
-- Một IDE như IntelliJ IDEA, Eclipse hoặc VS Code có hỗ trợ Java
-- Maven hoặc Gradle để quản lý phụ thuộc (các ví dụ dưới đây hoạt động với cả hai)
+### Yêu cầu Thiết lập Môi trường
+- Một IDE như IntelliJ IDEA, Eclipse, hoặc VS Code với các extension Java.  
+- Maven hoặc Gradle để quản lý phụ thuộc (cả hai đều được hỗ trợ).
 
-### Kiến thức nền tảng
-- Thành thạo viết code Java (biết lớp, phương thức và giao diện)
-- Hiểu cơ bản về các khái niệm mã hoá (chúng ta vừa mới học XOR, vậy bạn đã sẵn sàng!)
-- Quen với mảng byte và các phép toán bit sẽ hữu ích nhưng không bắt buộc
+### Kiến thức Cần có
+- Thành thạo các lớp, giao diện Java, và thao tác mảng byte.  
+- Hiểu biết cơ bản về các khái niệm mã hoá đối xứng (đã được trình bày trong phần XOR).
 
-Đã có đủ? Tuyệt! Bây giờ chúng ta sẽ cài đặt GroupDocs.
+Nếu bạn đã đáp ứng tất cả các mục trên, bạn đã sẵn sàng thêm GroupDocs vào dự án.
 
-## Cài Đặt GroupDocs.Signature cho Java
+## Cài đặt GroupDocs.Signature for Java
 
-Đưa GroupDocs vào dự án của bạn rất đơn giản. Chọn công cụ build mà bạn dùng:
+Đưa thư viện vào hệ thống build chỉ cần một dòng XML hoặc Groovy.
 
-**Maven**
+### Maven
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -117,25 +144,248 @@ Trước khi triển khai mã hoá tùy chỉnh với GroupDocs.Signature for Ja
 </dependency>
 ```
 
-**Gradle**
-```gradle
+### Gradle
+```groovy
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Tải trực tiếp**
-Nếu bạn thích tải thủ công (hoặc không thể dùng công cụ build), tải JAR từ [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) và thêm vào classpath của dự án.
+### Tải trực tiếp
+Nếu bạn muốn quản lý thủ công, tải JAR từ [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) và thêm vào classpath.
 
-### Các bước lấy giấy phép
+#### Các Bước Nhận Giấy phép
+1. **Dùng Thử Miễn Phí** – tải JAR trial; các file output sẽ có watermark hiển thị.  
+2. **Giấy phép Tạm Thời** – yêu cầu key đánh giá 30 ngày để thử đầy đủ tính năng.  
+3. **Mua Bản Quyền** – nhận giấy phép vĩnh viễn cho triển khai sản xuất.
 
-GroupDocs không miễn phí, nhưng họ cung cấp cách thử nghiệm dễ dàng:
+#### Khởi tạo và Cấu hình Cơ bản
+```java
+Signature signature = new Signature("sample.pdf");
+```
+Đối tượng `Signature` là điểm vào cho tất cả các thao tác ký, xác thực và mã hoá trong GroupDocs.Signature.
 
-1. **Dùng thử miễn phí**: Tải và sử dụng mọi tính năng với một số hạn chế (đánh dấu nước trên output, giới hạn đánh giá)  
-2. **Giấy phép tạm thời**: Yêu cầu giấy phép tạm thời để đánh giá đầy đủ tính năng (tuyệt vời cho POC)  
-3. **Mua bản quyền**: Mua giấy phép khi bạn đã sẵn sàng đưa vào production  
+## Hướng dẫn Triển khai
 
-### Khởi tạo và cấu hình cơ bản
+### Tính năng Mã hoá XOR Tùy chỉnh
 
-Đây là đoạn khởi tạo GroupDocs cơ bản—mọi ví dụ khác đều dựa trên nó:
+Chúng ta sẽ tạo một lớp triển khai giao diện `IDataEncryption`, sau đó đăng ký nó với đối tượng `Signature`.
+
+#### Bước 1: Triển khai Giao diện `IDataEncryption`
+`IDataEncryption` là giao diện của GroupDocs.Signature định nghĩa các phương thức để mã hoá và giải mã dữ liệu.
+
+```java
+public class CustomXOREncryption implements IDataEncryption {
+    private byte auto_Key = 0x5A; // example key
+
+    @Override
+    public byte[] encrypt(byte[] data) { /* implementation below */ }
+
+    @Override
+    public byte[] decrypt(byte[] data) { /* implementation below */ }
+
+    public void setKey(byte key) { this.auto_Key = key; }
+    public byte getKey() { return this.auto_Key; }
+}
+```
+
+**Giải thích:** Lớp này cam kết hai hoạt động cốt lõi—`encrypt` và `decrypt`. Trường `auto_Key` lưu khóa XOR sẽ được áp dụng cho mỗi byte của payload.
+
+#### Bước 2: Định nghĩa Phương thức Mã hoá và Giải mã
+Vì XOR là đối xứng, cả hai phương thức thực hiện cùng một biến đổi byte‑wise.
+
+```java
+public byte[] encrypt(byte[] data) {
+    if (auto_Key == 0 || data == null) return data;
+    byte[] result = new byte[data.length];
+    for (int i = 0; i < data.length; i++) {
+        result[i] = (byte)(data[i] ^ auto_Key);
+    }
+    return result;
+}
+public byte[] decrypt(byte[] data) {
+    return encrypt(data); // XOR decryption is identical to encryption
+}
+```
+
+**Giải thích:**  
+- Các guard clause bảo vệ khỏi khóa bằng 0 (sẽ không làm gì) và đầu vào `null`.  
+- Một mảng byte mới chứa dữ liệu đã biến đổi để tránh thay đổi buffer gốc.  
+- Vòng lặp XOR mỗi byte với `auto_Key`.  
+- Giải mã chỉ gọi lại `encrypt`, vì áp dụng XOR giống nhau hai lần sẽ khôi phục byte gốc.
+
+### Các Tùy chọn Cấu hình Khóa
+
+- **auto_Key** phải là giá trị khác 0 trong khoảng 1 đến 255. Giá trị trên 255 sẽ bị cắt xuống 8 bit thấp.  
+- Lưu khóa một cách an toàn—biến môi trường, file cấu hình đã mã hoá, hoặc một secrets manager được khuyến nghị.  
+- Trong môi trường production, bạn có thể thay thế byte đơn này bằng khóa đa byte hoặc một cipher AES đầy đủ, nhưng giao diện vẫn không thay đổi.
+
+#### Ví dụ Đặt Khóa
+```java
+CustomXOREncryption xor = new CustomXOREncryption();
+xor.setKey((byte)0x3C); // set a custom key at runtime
+signature.setDataEncryption(xor);
+```
+
+### Những Sai lầm Thường gặp Khi Triển khai
+
+| Sai lầm | Tại sao gây hại | Cách khắc phục |
+|---|---|---|
+| **Quên đặt khóa** | Mã hoá trở thành không làm gì, dữ liệu vẫn ở dạng plain text. | Luôn gọi `setKey()` trước khi dùng encryptor, hoặc cung cấp một khóa mặc định khác 0 trong constructor. |
+| **Bỏ qua dữ liệu null** | Gây `NullPointerException` trong quá trình ký. | Thêm `if (data == null) return data;` ở đầu cả hai phương thức. |
+| **Giả định XOR là an toàn** | Khóa byte đơn có thể bị brute‑force trong mili giây. | Chỉ dùng XOR cho obfuscation; chuyển sang AES‑256 cho bất kỳ payload nhạy cảm nào. |
+| **Khóa không khớp khi giải mã** | Dữ liệu không thể khôi phục. | Lưu khóa cùng với payload đã mã hoá hoặc sử dụng một mapping khóa‑định danh. |
+
+## Cân nhắc Bảo mật
+
+### Tại sao XOR không đủ cho Dữ liệu Nhạy cảm
+XOR với một khóa byte đơn hầu như không có độ mạnh mật mã; kẻ tấn công có thể liệt kê ngay 255 khóa có thể. Phép toán còn rò rỉ các mẫu thống kê, làm cho các cuộc tấn công tần suất và known‑plaintext trở nên dễ dàng. Do đó, XOR không bao giờ nên là lớp bảo vệ duy nhất cho thông tin cá nhân, tài chính, hoặc bất kỳ dữ liệu bí mật nào.
+
+### Khi nào XOR được chấp nhận
+XOR có thể được dùng an toàn khi dữ liệu đã được bảo vệ bởi các lớp mạnh hơn như TLS, VPN, hoặc mã hoá cơ sở dữ liệu, và mask chỉ nhằm ngăn chặn việc xem nhanh hoặc đáp ứng định dạng kế thừa. Nó phù hợp cho các identifier tạm thời, khóa cache, hoặc flag nội bộ không bao giờ rời môi trường tin cậy.
+
+### Các Giải pháp Mạnh hơn Được Đề xuất
+- **AES‑256** – tiêu chuẩn ngành, hỗ trợ sẵn qua `javax.crypto`.  
+- **RSA‑2048** – hữu ích để mã hoá các khóa đối xứng nhỏ.  
+- **ChaCha20** – hiệu năng cao trên CPU di động.
+
+Vì hợp đồng `IDataEncryption` không phụ thuộc vào thuật toán, việc chuyển sang AES chỉ cần bạn thay thế thân của `encrypt`/`decrypt` bằng các lời gọi cipher thích hợp.
+
+## Ứng dụng Thực tiễn
+
+### 1. Quy trình Ký Tài liệu An toàn
+Bạn có thể cần lưu siêu dữ liệu người ký (ID, timestamp, department) sao cho không dễ bị xem xét. Khi dùng encryptor XOR của chúng ta, siêu dữ liệu được lưu dưới dạng mảng byte trong gói chữ ký, trong khi phần còn lại của PDF không bị thay đổi.
+
+```java
+Signature signature = new Signature("contract.pdf");
+signature.setDataEncryption(new CustomXOREncryption());
+SignatureResult result = signature.sign("output.pdf", options);
+```
+
+### 2. Kiểm tra Tính toàn vẹn Nhẹ
+Mã hoá một hằng số đã biết và lưu cùng tài liệu. Sau này, giải mã và so sánh để xác nhận file không bị hỏng trong quá trình truyền.
+
+### 3. Cầu nối Hệ thống Kế thừa
+Một mainframe cũ yêu cầu payload mỗi byte được XOR‑mask với `0x7F`. Bằng cách cấu hình cùng một khóa trong `CustomXOREncryption`, bạn có thể trao đổi dữ liệu mà không cần viết một dịch vụ chuyển đổi riêng.
+
+## Cân nhắc Hiệu năng
+
+### Tốc độ Thô
+XOR chạy khoảng **1 ns mỗi byte** trên một lõi x86 hiện đại, nghĩa là payload 10 MB được mã hoá trong chưa tới 10 ms. Ngược lại, AES‑256 ở chế độ CBC thường mất 3‑4 × thời gian đó cho cùng kích thước.
+
+### Dấu chân Bộ nhớ
+Triển khai của chúng ta tạo một bản sao của mảng đầu vào, tạm thời tăng gấp đôi lượng bộ nhớ. Đối với file 50 MB, bạn sẽ cần khoảng 100 MB heap trong quá trình mã hoá. Nếu cần xử lý file lớn hơn, hãy xử lý luồng theo khối 4 KB:
+
+```java
+InputStream in = new FileInputStream(source);
+OutputStream out = new FileOutputStream(target);
+byte[] buffer = new byte[4096];
+int read;
+while ((read = in.read(buffer)) != -1) {
+    for (int i = 0; i < read; i++) {
+        buffer[i] ^= key;
+    }
+    out.write(buffer, 0, read);
+}
+```
+
+### Thực hành Tốt cho Quản lý Bộ nhớ Java
+1. **Xóa khóa** sau khi dùng: `Arrays.fill(keyArray, (byte)0);`  
+2. **Sử dụng try‑with‑resources** để đảm bảo luồng được đóng.  
+3. **Tránh chuyển đổi byte đã mã hoá sang `String`**; giữ chúng dưới dạng `byte[]` thô.  
+4. **Giám sát heap** bằng các công cụ như VisualVM khi xử lý nhiều tài liệu lớn đồng thời.
+
+## Khắc phục Các Vấn đề Thường gặp
+
+### Vấn đề 1 – “Dữ liệu giải mã trông như rác”
+**Câu trả lời ngắn:** Đảm bảo cùng một khóa XOR được dùng cho cả mã hoá và giải mã, giữ dữ liệu ở dạng mảng byte suốt pipeline, và tránh bất kỳ chuyển đổi mã hoá ký tự nào có thể làm hỏng byte.  
+
+**Nguyên nhân:** Khóa không khớp, dữ liệu bị cắt ngắn, hoặc chuyển đổi ngẫu nhiên sang `String` sẽ làm thay đổi mẫu byte, khiến đầu ra không đọc được.
+
+### Vấn đề 2 – “NullPointerException khi mã hoá”
+**Câu trả lời ngắn:** Phương thức `encrypt` đã kiểm tra `null`; nếu vẫn gặp ngoại lệ, hãy xác minh mảng byte nguồn được khởi tạo đúng trước khi truyền vào encryptor.  
+
+**Cách sửa:** Thêm các kiểm tra phòng thủ trong mã gọi hoặc chắc chắn dữ liệu chữ ký được tải bằng `signature.getSignatureData()` trước khi mã hoá.
+
+### Vấn đề 3 – “Mã hoá dường như không làm gì”
+**Câu trả lời ngắn:** Thông thường khóa XOR được đặt thành `0`. XOR với 0 giữ nguyên byte gốc, vì vậy đầu ra trùng với đầu vào.  
+
+**Giải pháp:** Đặt một khóa khác 0 bằng `setKey()` hoặc cung cấp một giá trị mặc định trong constructor.
+
+### Vấn đề 4 – “OutOfMemoryError trên PDF lớn”
+**Câu trả lời ngắn:** Tải toàn bộ PDF vào bộ nhớ trước khi mã hoá có thể vượt quá heap JVM. Chuyển sang cách xử lý luồng theo khối như đã mô tả trong phần hiệu năng.  
+
+**Mẹo:** Tăng heap tối đa (`-Xmx2g`) chỉ là giải pháp tạm thời; hãy refactor sang xử lý theo khối để mở rộng.
+
+## Câu hỏi Thường gặp
+
+**Hỏi:** *Làm sao chọn khóa XOR phù hợp?*  
+**Đáp:** Bất kỳ số nguyên khác 0 nào trong khoảng 1 đến 255 đều được, nhưng khóa tự nó không cung cấp bảo mật. Đối với bảo vệ thực sự, thay thế XOR bằng AES‑256 và lưu khóa trong vault an toàn.
+
+**Hỏi:** *Có thể thay đổi khóa XOR lúc chạy không?*  
+**Đáp:** Có—gọi `setKey()` với giá trị mới. Nhớ rằng dữ liệu đã mã hoá bằng khóa cũ phải được giải mã trước khi chuyển, nếu không sẽ mất dữ liệu.
+
+**Hỏi:** *Có những lựa chọn nào thay thế mã hoá XOR?*  
+**Đáp:** Đối với học tập, thử Caesar cipher hoặc Base64 (mặc dù Base64 chỉ là mã hoá). Đối với production, dùng AES‑256, RSA‑2048, hoặc ChaCha20 qua package `javax.crypto` của Java.
+
+**Hỏi:** *GroupDocs.Signature xử lý file lớn như thế nào với mã hoá?*  
+**Đáp:** Thư viện sẽ stream nội dung PDF khi có thể, nhưng việc xử lý dữ liệu trong `IDataEncryption` do bạn quyết định. Triển khai mã hoá theo khối để tránh tải toàn bộ file vào bộ nhớ.
+
+**Hỏi:** *Có thể tích hợp tính năng này vào ứng dụng web không?*  
+**Đáp:** Chắc chắn. Đăng ký encryptor như một Spring Bean, tiêm dịch vụ `Signature`, và lưu khóa trong biến môi trường hoặc secrets manager. Đảm bảo mỗi request xử lý dữ liệu trong một thread riêng để tránh tranh chấp.
+
+## XOR Hoạt Động Như Thế Nào trong Java?
+Trong Java, XOR được thực hiện bằng toán tử `^` trên các giá trị byte. Bạn tải plaintext vào một mảng byte, lặp qua từng phần tử và áp dụng `byte ^ key`. Vì XOR là tự nghịch đảo, chạy cùng một routine với cùng một khóa sẽ khôi phục lại các byte gốc, làm cho quá trình mã hoá và giải mã trở nên đối xứng.
+
+## Các Bước Để Triển khai Mã hoá Tùy chỉnh với GroupDocs?
+Để thêm mã hoá tùy chỉnh, đầu tiên tạo một lớp triển khai giao diện `IDataEncryption`, sau đó viết các phương thức `encrypt` và `decrypt` bằng thuật toán của bạn. Tiếp theo, đăng ký instance này với đối tượng `Signature` qua `setDataEncryption`. Từ lúc đó, GroupDocs sẽ gọi logic của bạn mỗi khi cần bảo vệ dữ liệu chữ ký.
+
+## Kết luận
+
+Chúng ta đã đi qua toàn bộ vòng đời của **cách mã hoá java** bằng routine XOR tùy chỉnh, tích hợp nó với GroupDocs.Signature, và nêu bật các tình huống mà cách tiếp cận nhẹ này mang lại giá trị. Hãy nhớ:
+
+- Chỉ dùng XOR cho obfuscation, không bảo vệ dữ liệu cá nhân hoặc tài chính.  
+- Giao diện `IDataEncryption` cung cấp điểm thay thế sạch cho các thuật toán mạnh hơn trong tương lai.  
+- Quản lý khóa, xử lý bộ nhớ, và streaming là yếu tố then chốt cho độ ổn định trong môi trường production.
+
+**Bước tiếp theo:**  
+1. Thay thế logic XOR bằng AES‑256 để có bảo mật thực sự.  
+2. Thực hiện quay vòng khóa và lưu trữ an toàn.  
+3. Khám phá các tính năng khác của GroupDocs như quy trình ký đa chữ ký, xác thực, và đóng dấu tài liệu.
+
+Bây giờ bạn đã có nền tảng vững chắc để tùy chỉnh mã hoá trong bất kỳ giải pháp ký Java nào—hãy triển khai và điều chỉnh nó cho nhu cầu kinh doanh của bạn!
+
+---
+
+**Cập nhật lần cuối:** 2026-06-26  
+**Kiểm thử với:** GroupDocs.Signature 23.12 for Java  
+**Tác giả:** GroupDocs  
+
+**Tài nguyên liên quan:**  
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)  
+- [API Reference](https://reference.groupdocs.com/signature/java/)  
+- [Latest Release Download](https://releases.groupdocs.com/signature/java/)  
+- [Purchase License](https://purchase.groupdocs.com/buy)  
+- [Free Trial](https://releases.groupdocs.com/signature/java/)  
+- [Temporary License Request](https://purchase.groupdocs.com/temporary-license/)  
+- [GroupDocs Support Forum](https://forum.groupdocs.com/c/signature/)
+
+```
+Original data: 5 (binary: 0101)
+Key: 3 (binary: 0011)
+Encrypted: 5 XOR 3 = 6 (binary: 0110)
+Decrypted: 6 XOR 3 = 5 (binary: 0101) ← We're back!
+```
+
+```xml
+<dependency>
+    <groupId>com.groupdocs</groupId>
+    <artifactId>groupdocs-signature</artifactId>
+    <version>23.12</version>
+</dependency>
+```
+
+```gradle
+implementation 'com.groupdocs:groupdocs-signature:23.12'
+```
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -147,18 +397,6 @@ class InitializeGroupDocs {
     }
 }
 ```
-
-Rất đơn giản, phải không? Đối tượng `Signature` chính là giao diện chính cho mọi thao tác ký tài liệu. Bây giờ chúng ta sẽ làm cho nó thực sự mã hoá dữ liệu.
-
-## Hướng Dẫn Triển Khai
-
-### Tính Năng Mã Hoá XOR Tùy Chỉnh
-
-Ở đây chúng ta sẽ đi vào phần thực thi. Chúng ta sẽ tạo một lớp mã hoá tùy chỉnh mà GroupDocs có thể sử dụng bất cứ khi nào cần mã hoá dữ liệu chữ ký.
-
-#### Bước 1: Triển khai giao diện `IDataEncryption`
-
-GroupDocs yêu cầu các handler mã hoá phải triển khai giao diện `IDataEncryption`. Đây là hợp đồng của bạn—triển khai các phương thức này, GroupDocs sẽ biết cách dùng mã hoá của bạn:
 
 ```java
 import com.groupdocs.signature.domain.extensions.encryption.IDataEncryption;
@@ -173,12 +411,6 @@ class CustomXOREncryption implements IDataEncryption {
     // Additional methods for encryption and decryption will be implemented here.
 }
 ```
-
-**Giải thích**: Chúng ta định nghĩa một lớp cam kết cung cấp chức năng mã hoá/giải mã. Trường `auto_Key` lưu giá trị khóa XOR (số sẽ được XOR). Phương thức `getKey()` cho phép các đoạn code khác kiểm tra khóa đang dùng.
-
-#### Bước 2: Định nghĩa các phương thức `encrypt` và `decrypt`
-
-Bây giờ là phần logic thực tế. Vì XOR đối xứng (nhớ nhé?), mã hoá và giải mã thực chất là cùng một phép toán:
 
 ```java
 class CustomXOREncryption {
@@ -201,95 +433,16 @@ class CustomXOREncryption {
 }
 ```
 
-**Phân tích:**
-- Kiểm tra khóa có bằng 0 (vô dụng) hoặc dữ liệu truyền vào là `null` (tránh crash)  
-- Tạo một mảng byte mới để chứa kết quả đã mã hoá  
-- Duyệt từng byte của dữ liệu đầu vào  
-- Với mỗi byte, thực hiện XOR với khóa: `data[i] ^ auto_Key`  
-- Ép kiểu `(byte)` cần thiết vì XOR trong Java trả về `int`, nhưng chúng ta muốn byte  
-
-Vẻ đẹp của XOR: `decrypt()` chỉ gọi lại `encrypt()`. Phép toán làm rối dữ liệu cũng chính là phép giải rối!
-
-### Các tùy chọn cấu hình khóa
-
-**auto_Key**: Đây là khóa mã hoá của bạn. Một vài lưu ý quan trọng:
-
-- Không được bằng 0 (XOR với 0 không thay đổi gì)  
-- Nên nằm trong khoảng 1‑255 cho XOR byte đơn (các giá trị >255 sẽ chỉ dùng 8 bit thấp)  
-- Trong thực tế, hãy cân nhắc cấu hình qua biến môi trường hoặc file cấu hình  
-- Đối với production, bạn cần một hệ thống quản lý khóa phức tạp hơn  
-
-Ví dụ thiết lập:
-
 ```java
 CustomXOREncryption encryption = new CustomXOREncryption();
 encryption.setKey(42); // Any non-zero value works
 ```
 
-### Những lỗi thường gặp khi triển khai
-
-Để bạn tiết kiệm thời gian debug, dưới đây là những lỗi tôi thường gặp (và cũng đã mắc):
-
-**Lỗi #1: Quên thiết lập khóa**  
 ```java
 CustomXOREncryption encryption = new CustomXOREncryption();
 // Oops! Never called setKey(), so auto_Key is 0
 byte[] encrypted = encryption.encrypt(myData); // Returns data unchanged!
-```  
-**Cách khắc phục**: Luôn khởi tạo khóa trước khi dùng mã hoá.
-
-**Lỗi #2: Không xử lý dữ liệu `null`**  
-Nếu bỏ qua kiểm tra `if (data == null) return data;` bạn sẽ gặp `NullPointerException` vào những thời điểm tệ nhất.
-
-**Lỗi #3: Nghĩ rằng XOR là an toàn**  
-Mã hoá này dễ bị phá vỡ. Nếu kẻ tấn công biết (hoặc đoán) một phần plaintext, họ có thể suy ra khóa. Dùng nó để làm mờ, không phải để bảo mật.
-
-**Lỗi #4: Dùng khóa sai khi giải mã**  
-Vì cần cùng một khóa để giải mã, mất hoặc thay đổi khóa sẽ khiến dữ liệu không thể khôi phục. Trong production, bạn cần quản lý khóa và sao lưu đúng cách.
-
-## Cân Nhắc Bảo Mật
-
-Hãy nói thẳng về bảo mật, vì đây là vấn đề quan trọng:
-
-**Mã hoá XOR KHÔNG AN TOÀN cho dữ liệu nhạy cảm**  
-
-Tôi nhấn mạnh điều này nhiều lần. Một cipher XOR byte đơn như chúng ta vừa triển khai có thể bị phá trong vài giây bởi bất kỳ ai có kiến thức cơ bản về mật mã. Lý do:
-
-1. **Phân tích tần suất** – Nếu kẻ tấn công biết gì đó về định dạng dữ liệu (và họ thường biết), họ có thể đoán các giá trị byte thường gặp và suy ra khóa.  
-2. **Tấn công plaintext đã biết** – Nếu kẻ tấn công biết một phần plaintext, họ chỉ cần XOR với ciphertext để lấy khóa.  
-3. **Brute force** – Với chỉ 255 khóa khả dĩ, thử hết chúng mất mili giây.  
-
-**Khi nào XOR phù hợp:**  
-
-- Làm mờ các định danh nội bộ không nhạy cảm  
-- Tạo dữ liệu tạm thời cho cache hoặc key tạm thời  
-- Học các khái niệm mã hoá  
-- Đáp ứng yêu cầu hệ thống legacy sử dụng XOR  
-- Ứng dụng cần hiệu năng cao, trong khi bảo mật được xử lý ở lớp khác  
-
-**Khi nào nên dùng mã hoá thực sự:**  
-
-- Thông tin cá nhân (họ tên, email, địa chỉ)  
-- Dữ liệu tài chính  
-- Thông tin y tế  
-- Thông tin xác thực  
-- Bất kỳ dữ liệu nào chịu quy định (GDPR, HIPAA, PCI‑DSS)  
-
-**Các lựa chọn thay thế tốt hơn:**  
-
-- **AES‑256** – Tiêu chuẩn công nghiệp, cân bằng tốt giữa bảo mật và hiệu năng  
-- **RSA** – Thích hợp cho việc mã hoá các khối dữ liệu nhỏ như khóa AES  
-- **ChaCha20** – Thay thế hiện đại cho AES, thường nhanh hơn trên thiết bị di động  
-
-Tin tốt là mẫu triển khai chúng ta đang dùng (giao diện `IDataEncryption`) hoạt động tương tự với bất kỳ thuật toán nào. Bạn chỉ cần thay đổi các phương thức `encrypt()` và `decrypt()` để dùng AES.
-
-## Ứng Dụng Thực Tiễn
-
-Sau khi đã hiểu “cái gì” và “tại sao”, hãy xem một số kịch bản thực tế:
-
-### 1. Quy trình ký tài liệu an toàn
-
-Giả sử bạn xây dựng hệ thống quản lý hợp đồng, trong đó metadata chữ ký (ID người ký, thời gian, phòng ban) cần được làm mờ trước khi lưu:
+```
 
 ```java
 Signature signature = new Signature("contract.pdf");
@@ -300,24 +453,12 @@ encryption.setKey(73); // Configure your key
 // (Actual integration depends on specific GroupDocs API methods)
 ```
 
-**Lợi ích thực tế**: Cơ sở dữ liệu của bạn không chứa metadata dạng plaintext có thể bị thu thập hoặc vô tình lộ ra trong log.
-
-### 2. Kiểm tra tính toàn vẹn dữ liệu
-
-Bạn có thể dùng mã hoá tùy chỉnh như một kiểm tra toàn vẹn nhẹ. Mã hoá một giá trị đã biết, lưu cùng tài liệu, sau đó giải mã và so sánh:
-
 ```java
 String integrityToken = "VALID_SIGNATURE_2025";
 byte[] encrypted = encryption.encrypt(integrityToken.getBytes());
 // Store encrypted with document...
 // Later, decrypt and compare to verify nothing changed
 ```
-
-Đây không phải là kiểm tra toàn vẹn cấp mật mã (đối với việc đó hãy dùng HMAC), nhưng đủ để phát hiện lỗi hỏng dữ liệu ngẫu nhiên.
-
-### 3. Tích hợp với hệ thống legacy
-
-Đây có lẽ là trường hợp thực tế phổ biến nhất. Bạn đang hiện đại hoá một ứng dụng, nhưng vẫn phải giao tiếp với một hệ thống từ đầu 2000 yêu cầu dữ liệu được mã hoá XOR:
 
 ```java
 // Old system expects data encrypted with XOR key 42
@@ -328,22 +469,6 @@ legacyEncryption.setKey(42);
 byte[] dataForOldSystem = legacyEncryption.encrypt(modernData);
 sendToLegacyAPI(dataForOldSystem);
 ```
-
-Bạn không chọn XOR vì nó tốt hơn—bạn chọn nó vì hệ thống kia chỉ hiểu XOR.
-
-## Cân Nhắc Hiệu Năng
-
-Một lý do để dùng mã hoá nhẹ như XOR là hiệu năng. Tuy nhiên, ngay cả các phép toán đơn giản cũng có thể trở thành nút thắt nếu không cẩn thận. Dưới đây là những điểm cần lưu ý:
-
-### Tối ưu hiệu năng
-
-**Dữ liệu nhỏ (< 1 KB)** – Cài đặt XOR ở trên đủ tốt. Chi phí thêm là không đáng kể.
-
-**Tài liệu lớn (> 10 MB)** – Xem xét các tối ưu sau:
-
-1. **Xử lý theo khối** – Thay vì XOR toàn bộ tài liệu một lần, chia thành các khối (ví dụ: 4 KB) và xử lý tuần tự.  
-2. **Xử lý song song** – Đối với file rất lớn, chia công việc ra nhiều luồng.  
-3. **Tránh sao chép không cần** – Cài đặt hiện tại tạo một mảng byte mới, làm tăng bộ nhớ tạm thời gấp đôi.
 
 ```java
 // More memory‑efficient for large data
@@ -356,77 +481,19 @@ public void encryptInPlace(byte[] data) {
 }
 ```
 
-### Hướng dẫn sử dụng tài nguyên
-
-**Bộ nhớ** – Cài đặt hiện tại cần:
-
-- Dữ liệu gốc trong bộ nhớ  
-- Dữ liệu đã mã hoá trong bộ nhớ (cùng kích thước)  
-- Các đối tượng tạm thời trong quá trình xử lý  
-
-Với tài liệu 50 MB, dự kiến sẽ tiêu tốn khoảng 100 MB bộ nhớ trong quá trình mã hoá.
-
-**CPU** – XOR cực nhanh—thường dưới 1 ms cho các tài liệu nhỏ (< 100 KB). Ước tính trên phần cứng hiện đại:
-
-- 1 MB ≈ 10 ms  
-- 10 MB ≈ 100 ms  
-- 100 MB ≈ 1 s  
-
-Các con số này sẽ thay đổi tùy CPU, tốc độ bộ nhớ và tối ưu JVM.
-
-### Thực hành quản lý bộ nhớ Java
-
-Khi làm việc với mã hoá trong Java, hãy nhớ:
-
-1. **Xóa dữ liệu nhạy cảm** – Sau khi dùng xong khóa hoặc dữ liệu giải mã, xóa chúng một cách rõ ràng:  
-   ```java
+```java
    Arrays.fill(decryptedData, (byte) 0); // Overwrite with zeros
-   ```  
-2. **Sử dụng try‑with‑resources** – Đảm bảo các stream được đóng tự động:  
-   ```java
+   ```
+
+```java
    try (FileInputStream fis = new FileInputStream("encrypted.dat")) {
        // Process data
    } // Automatically closed
-   ```  
-3. **Giám sát Heap** – Đối với ứng dụng xử lý nhiều tài liệu, cân nhắc `-XX:+UseG1GC` để cải thiện GC.  
-4. **Tránh String cho dữ liệu nhị phân** – Không bao giờ chuyển byte đã mã hoá sang `String` rồi lại chuyển ngược lại—sẽ làm hỏng dữ liệu. Giữ dưới dạng mảng byte.
+   ```
 
-## Khắc Phục Sự Cố Thông Thường
-
-### Vấn đề 1: “Dữ liệu giải mã ra rác”
-
-**Triệu chứng** – Sau khi giải mã, bạn nhận được các byte ngẫu nhiên thay vì dữ liệu gốc.  
-
-**Nguyên nhân** – Khóa khác nhau khi giải mã, dữ liệu bị hỏng trong quá trình lưu/ truyền, hoặc chuyển byte sang `String`.  
-
-**Giải pháp** – Đảm bảo sử dụng cùng một khóa, và giữ dữ liệu ở dạng byte array suốt quá trình.
-
-### Vấn đề 2: “NullPointerException khi mã hoá”
-
-**Triệu chứng** – Ứng dụng bị crash với `NullPointerException` khi gọi `encrypt()`.  
-
-**Nguyên nhân** – Truyền `null` vào phương thức.  
-
-**Giải pháp** – Luôn kiểm tra `null` trong các phương thức `encrypt`/`decrypt` (như trong ví dụ).
-
-### Vấn đề 3: “Không thấy dữ liệu được mã hoá”
-
-**Triệu chứng** – Dữ liệu đã mã hoá trông giống như plaintext.  
-
-**Nguyên nhân** – Khóa bằng 0 hoặc chưa được thiết lập.  
-
-**Giải pháp** – Thêm một assert trong quá trình phát triển:  
 ```java
 assert auto_Key != 0 : "Encryption key must be set!";
 ```
-
-### Vấn đề 4: “OutOfMemoryError với file lớn”
-
-**Triệu chứng** – Ứng dụng sập khi mã hoá tài liệu lớn.  
-
-**Nguyên nhân** – Đọc toàn bộ file vào bộ nhớ một lúc.  
-
-**Giải pháp** – Xử lý file theo luồng/khối:  
 
 ```java
 try (FileInputStream in = new FileInputStream(path);
@@ -439,51 +506,6 @@ try (FileInputStream in = new FileInputStream(path);
     }
 }
 ```
-
-## Kết Luận
-
-Chúng ta đã đi qua rất nhiều nội dung! Giờ bạn đã biết **cách mã hoá Java** bằng XOR như một ví dụ học tập, tích hợp nó vào GroupDocs.Signature, và hiểu khi nào (và khi nào không) nên dùng các phương pháp mã hoá tùy chỉnh.
-
-**Những điểm quan trọng**
-- Mã hoá tùy chỉnh hữu ích cho các trường hợp đặc thù (legacy, tối ưu hiệu năng, học tập)  
-- XOR tuyệt vời để nắm bắt nguyên tắc, nhưng không đủ để bảo vệ dữ liệu nhạy cảm  
-- GroupDocs.Signature giúp tích hợp dễ dàng qua giao diện `IDataEncryption`  
-- Luôn cân nhắc các yếu tố bảo mật trước khi tự viết mã hoá  
-
-**Bước tiếp theo**
-
-1. **Triển khai mã hoá AES** – Thay đổi lớp `CustomXOREncryption` để dùng AES (gói `javax.crypto` của Java hỗ trợ rất tốt).  
-2. **Thêm quay vòng khóa** – Xây dựng hệ thống có thể thay đổi khóa mà không mất dữ liệu hiện có.  
-3. **Khám phá thêm tính năng GroupDocs** – Thử nghiệm xác thực chữ ký, tạo mẫu, và quy trình đa chữ ký.
-
-Mẫu mà bạn vừa học—triển khai một giao diện để cung cấp hành vi tùy chỉnh—được sử dụng rộng rãi trong API của GroupDocs. Nắm vững nó, bạn sẽ tìm thấy nhiều cơ hội để tùy biến thư viện theo nhu cầu.
-
-Bây giờ hãy bắt đầu mã hoá một cái gì đó! (Chỉ cần chắc chắn rằng nó không phải là dữ liệu thực sự cần bảo mật cho tới khi bạn chuyển sang thuật toán mã hoá thực thụ.)
-
-## Phần Câu Hỏi Thường Gặp
-
-### 1. Làm sao để chọn khóa XOR phù hợp?
-Đối với XOR, bất kỳ số nguyên khác 0 nào cũng được, nhưng khóa không mang lại bảo mật. Nếu bạn thực sự quan tâm đến bảo mật, đừng dùng XOR—chuyển sang AES hoặc thuật toán đã được chứng minh. Đối với mục đích làm mờ, chỉ cần chọn một giá trị ngẫu nhiên từ 1‑255 và lưu nó an toàn trong cấu hình.
-
-### 2. Có thể thay đổi khóa XOR động trong runtime không?
-Có thể! Chỉ cần gọi `setKey()` với giá trị mới. Tuy nhiên, mọi dữ liệu đã được mã hoá bằng khóa cũ sẽ cần giải mã bằng khóa cũ. Nếu bạn thay đổi khóa, bạn phải mã hoá lại dữ liệu hiện có hoặc ghi lại khóa đã dùng cho từng phần dữ liệu. Đây là lý do quản lý khóa là một lĩnh vực riêng trong mật mã.
-
-### 3. Các lựa chọn thay thế cho mã hoá XOR là gì?
-- Đối với học tập và mục đích không bảo mật: Caesar cipher, ROT13, mã hoá base64 (không phải mã hoá, chỉ làm mờ).  
-- Đối với bảo mật thực sự: AES‑256 (đối xứng), RSA‑2048+ (bất đối xứng), ChaCha20 (đối xứng hiện đại). Gói `javax.crypto` của Java hỗ trợ tất cả.
-
-### 4. GroupDocs.Signature xử lý file lớn như thế nào khi có mã hoá?
-GroupDocs được tối ưu cho file lớn và sử dụng streaming khi có thể. Tuy nhiên, triển khai mã hoá tùy chỉnh của bạn có thể trở thành nút thắt nếu không cẩn thận. Đối với file > 50 MB, hãy triển khai xử lý theo khối trong các phương thức `encrypt`/`decrypt` thay vì tải toàn bộ vào bộ nhớ.
-
-### 5. Có thể tích hợp tính năng này vào ứng dụng web không?
-Chắc chắn! Bạn có thể dùng Spring Boot, Jakarta EE, hoặc bất kỳ framework Java web nào. Một vài lưu ý:
-
-- Đặt lớp mã hoá của bạn thành singleton hoặc bean scoped toàn ứng dụng  
-- Lưu khóa mã hoá trong biến môi trường, không hard‑code  
-- Xem xét mã hoá dữ liệu trước khi rời server ứng dụng  
-- Theo dõi việc sử dụng bộ nhớ khi có nhiều người dùng tải lên file lớn đồng thời  
-
-Ví dụ tích hợp Spring Boot:
 
 ```java
 @Component
@@ -498,31 +520,8 @@ public class EncryptionService {
 }
 ```
 
-### 6. Có thể dùng với tài liệu PDF không?
-Có! GroupDocs.Signature hỗ trợ PDF, cùng với Word, Excel, hình ảnh và nhiều định dạng khác. Mã hoá diễn ra ở mức dữ liệu chữ ký, không phải toàn bộ tài liệu, vì vậy nó hoạt động với bất kỳ định dạng nào được hỗ trợ.
+## Các Hướng dẫn Liên quan
 
-### 7. Nếu mất khóa mã hoá thì sao?
-Với mã hoá đối xứng (như XOR), mất khóa đồng nghĩa với mất dữ liệu vĩnh viễn. Không có cơ chế phục hồi. Trong môi trường production, bạn cần:
-
-- Hệ thống sao lưu khóa  
-- Escrow khóa cho các ngành chịu quy định  
-- Chính sách quay vòng khóa có thời gian chồng lấn  
-- Log audit việc sử dụng khóa  
-
-Đây là một trong những lý do tại sao nên dùng các thư viện mã hoá đã được chứng minh—chúng thường đi kèm công cụ quản lý khóa.
-
-## Tài Nguyên
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)  
-- [API Reference](https://reference.groupdocs.com/signature/java/)  
-- [Latest Release Download](https://releases.groupdocs.com/signature/java/)  
-- [Purchase License](https://purchase.groupdocs.com/buy)  
-- [Free Trial](https://releases.groupdocs.com/signature/java/)  
-- [Temporary License Request](https://purchase.groupdocs.com/temporary-license/)  
-- [GroupDocs Support Forum](https://forum.groupdocs.com/c/signature/)
-
----
-
-**Cập nhật lần cuối:** 2026-02-18  
-**Kiểm tra với:** GroupDocs.Signature 23.12 for Java  
-**Tác giả:** GroupDocs
+- [Create Custom XOR Encryptor in Java with GroupDocs.Signature](/signature/java/advanced-options/implement-custom-xor-encryption-groupdocs-signature-java/)  
+- [Encrypt Document Metadata Java with GroupDocs.Signature](/signature/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/)  
+- [How to Encrypt Signature in Java – Advanced Signing Options & Encryption Techniques](/signature/java/advanced-options/)

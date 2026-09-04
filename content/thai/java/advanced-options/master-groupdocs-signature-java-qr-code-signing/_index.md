@@ -111,14 +111,12 @@ weight: 1
 
 เพิ่ม **maven dependency groupdocs** นี้ลงในไฟล์ `pom.xml` ของคุณ:
 
-``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
     <artifactId>groupdocs-signature</artifactId>
     <version>23.12</version>
 </dependency>
-```
 ```
 
 หลังจากเพิ่มแล้ว ให้รัน `mvn clean install` เพื่อดาวน์โหลดไลบรารี
@@ -127,10 +125,8 @@ weight: 1
 
 สำหรับโปรเจกต์ Gradle ให้เพิ่มบรรทัดนี้ลงในไฟล์ `build.gradle`:
 
-``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 จากนั้นซิงค์โปรเจกต์ด้วยคำสั่ง `gradle build`
@@ -153,11 +149,9 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 
 `Signature` เป็นคลาสหลักที่เป็นจุดเข้าใช้งานใน GroupDocs.Signature for Java ซึ่งโหลดและจัดการเอกสารสำหรับการลงลายเซ็น หลังจากติดตั้งไลบรารีแล้ว การเริ่มต้นใช้งานก็ง่ายเพียงชี้ไปที่ไฟล์เอกสารของคุณ:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
-```
 ```
 
 บรรทัดนี้สร้างอ็อบเจ็กต์ `Signature` พร้อมทำงาน
@@ -187,12 +181,10 @@ Signature signature = new Signature(filePath);
 
 กำหนดตำแหน่งไฟล์ต้นฉบับและที่ต้องการบันทึกไฟล์ที่ลงลายเซ็นแล้ว:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" + fileName).getPath();
-```
 ```
 
 **เคล็ดลับ:** ใช้ `Paths.get()` แทนการต่อสตริงเพื่อจัดการตัวคั่นของ OS อัตโนมัติ
@@ -201,7 +193,6 @@ String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" +
 
 ห่อการเริ่มต้นในบล็อก try‑catch เพื่อจัดการข้อผิดพลาดการเข้าถึงไฟล์:
 
-``` 
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -210,7 +201,6 @@ try {
     throw new RuntimeException("Error initializing signature: " + e.getMessage(), e);
 }
 ```
-```
 
 `RuntimeException` จะเพิ่มข้อมูลบริบทเมื่อดีบัก ช่วยประหยัดเวลาในระดับการผลิต
 
@@ -218,7 +208,6 @@ try {
 
 `QrCodeSignOptions` กำหนดภาพ QR ที่จะวางบนเอกสาร สามารถตั้งค่าขนาด, ระยะขอบ, และการจัดแนวได้
 
-``` 
 ```java
 int qrWidth = 100;
 int qrHeight = 100;
@@ -238,13 +227,11 @@ for (int horizontalAlignment : HorizontalAlignment.getValues()) {
     }
 }
 ```
-```
 
 ลูปนี้สร้างตัวเลือก QR code สำหรับทุกการจัดแนวแนวนอน (Left, Center, Right) และแนวตั้ง (Top, Center, Bottom) พร้อมระยะขอบ 5 พิกเซลเพื่อไม่ให้โค้ดชิดขอบหน้า
 
 สำหรับสถานการณ์การผลิตส่วนใหญ่คุณอาจเลือกตำแหน่งเดียว เช่น ด้านล่าง‑ขวาสำหรับสัญญา:
 
-``` 
 ```java
 QrCodeSignOptions options = new QrCodeSignOptions("Signature");
 options.setWidth(100);
@@ -253,16 +240,13 @@ options.setHorizontalAlignment(HorizontalAlignment.Right);
 options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
-```
 
 #### 4. ลงลายเซ็นเอกสาร
 
 ตอนนี้เราจะใช้ลายเซ็นทั้งหมดที่กำหนดในขั้นตอนเดียว:
 
-``` 
 ```java
 SignResult signResult = signature.sign(outputFilePath, listOptions);
-```
 ```
 
 เมธอด `sign()` จะประมวลผล QR code ทุกตัวในรายการและบันทึกผลลัพธ์ลงใน `outputFilePath` ผลลัพธ์เป็นอ็อบเจ็กต์ `SignResult` ที่บอกจำนวนลายเซ็นที่เพิ่มสำเร็จ—เหมาะสำหรับการบันทึกล็อก
@@ -280,12 +264,10 @@ SignResult signResult = signature.sign(outputFilePath, listOptions);
 2. ตรวจสอบสิทธิ์การอ่านของไฟล์ต้นฉบับและสิทธิ์การเขียนของโฟลเดอร์ผลลัพธ์  
 3. Escape ตัวอักษรพิเศษในเส้นทาง
 
-``` 
 ```java
 // Better approach: Use absolute paths
 String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
-```
 ```
 
 ### ปัญหา 2: QR Codes Overlap Document Content
@@ -294,10 +276,8 @@ Signature signature = new Signature(absolutePath);
 
 **วิธีแก้:** เพิ่มค่าระยะขอบและเลือกการจัดแนวที่อยู่ในพื้นที่ว่าง:
 
-``` 
 ```java
 options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
-```
 ```
 
 ### ปัญหา 3: Memory Issues with Large Documents
@@ -306,12 +286,10 @@ options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
 
 **วิธีแก้:** ปิดอ็อบเจ็กต์ `Signature` ทันทีและประมวลผลไฟล์ขนาดใหญ่เป็นชุด:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your signing code
 } // Automatically closes and releases resources
-```
 ```
 
 บล็อก try‑with‑resources รับประกันการทำความสะอาดแม้เกิดข้อยกเว้น
@@ -322,7 +300,6 @@ try (Signature signature = new Signature(filePath)) {
 
 **วิธีแก้:** สร้าง **QrCodeSignOptions** ใหม่สำหรับแต่ละตำแหน่ง ไม่ใช่ใช้วัตถุเดียวซ้ำหลายครั้ง:
 
-``` 
 ```java
 // Wrong - reuses same object
 QrCodeSignOptions options = new QrCodeSignOptions("Text");
@@ -334,7 +311,6 @@ listOptions.add(options);
 // Correct - creates new object each time
 listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
-```
 ```
 
 ## การประยุกต์ใช้งานจริง
@@ -361,12 +337,10 @@ listOptions.add(new QrCodeSignOptions("Right"));
 
 ปิดอ็อบเจ็กต์ `Signature` เสมอเพื่อป้องกันการรั่วไหลของหน่วยความจำ:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your code
 } // Auto‑closes
-```
 ```
 
 พิจารณาใช้ pool การประมวลผลสำหรับเว็บแอปเพื่อจำกัดจำนวนการทำงานพร้อมกัน
@@ -375,7 +349,6 @@ try (Signature signature = new Signature(filePath)) {
 
 ให้ข้อมูลข้อผิดพลาดที่เป็นประโยชน์แทนการจับข้อยกเว้นแบบเงียบ:
 
-``` 
 ```java
 try {
     SignResult result = signature.sign(outputFilePath, listOptions);
@@ -388,7 +361,6 @@ try {
     logger.error("Signature failed for document: {}", filePath, e);
     // Implement retry logic or alert mechanism
 }
-```
 ```
 
 ### การเพิ่มประสิทธิภาพ
@@ -458,10 +430,8 @@ try {
 **Q:** *Can I add QR codes to specific pages in a multi‑page document?*  
 **A:** Absolutely. Set the page number with `options.setPageNumber(pageNumber);`. Example:
 
-``` 
 ```java
 options.setPageNumber(1); // Add to first page only
-```
 ```
 
 **Q:** *What data can I encode in the QR code?*  
@@ -470,13 +440,11 @@ options.setPageNumber(1); // Add to first page only
 **Q:** *How do I verify QR code signatures programmatically?*  
 **A:** GroupDocs.Signature provides a `verify` method. Example:
 
-``` 
 ```java
 VerificationResult result = signature.verify(verifyOptions);
 if (result.isValid()) {
     // Signature is authentic
 }
-```
 ```
 
 The `Signature` class is the main entry point for applying signatures to documents.  

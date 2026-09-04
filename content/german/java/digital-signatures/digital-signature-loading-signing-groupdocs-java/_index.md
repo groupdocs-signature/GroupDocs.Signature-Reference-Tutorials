@@ -384,11 +384,6 @@ Nächste Schritte? Versuchen Sie, einen Stapel echter Rechnungen zu signieren, i
 
 [Dokumentation](https://docs.groupdocs.com/signature/java/) | [API‑Referenz](https://reference.groupdocs.com/signature/java/) | [Neueste Version herunterladen](https://releases.groupdocs.com/signature/java/) | [Lizenz kaufen](https://purchase.groupdocs.com/buy) | [Kostenlose Testversion](https://releases.groupdocs.com/signature/java/) | [Support‑Forum](https://forum.groupdocs.com/c/signature/13) | [Temporäre Lizenz](https://purchase.groupdocs.com/temporary-license/)
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/main-wrap-class >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/tutorial-page-section >}
-
 ## Verwandte Tutorials
 
 - [Dokumente in Java laden und speichern – Vollständiges GroupDocs.Signature‑Tutorial](/signature/java/document-loading-saving/)

@@ -398,11 +398,6 @@ A: 启用流模式后，你可以签署大于 500 MB 的文件；内存消耗�
 
 [Documentation](https://docs.groupdocs.com/signature/java/) | [API Reference](https://reference.groupdocs.com/signature/java/) | [Download Latest Version](https://releases.groupdocs.com/signature/java/) | [Purchase License](https://purchase.groupdocs.com/buy) | [Free Trial](https://releases.groupdocs.com/signature/java/) | [Support Forum](https://forum.groupdocs.com/c/signature/13) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/main-wrap-class >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/tutorial-page-section >}
-
 ## 相关教程
 
 - [在 Java 中加载和保存文档 - 完整的 GroupDocs.Signature 教程](/signature/java/document-loading-saving/)

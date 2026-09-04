@@ -389,11 +389,6 @@ Sonraki adımlar? Gerçek faturaların bir toplu imzasını deneyin, yasal güve
 
 [Dokümantasyon](https://docs.groupdocs.com/signature/java/) | [API Referansı](https://reference.groupdocs.com/signature/java/) | [En Son Sürümü İndir](https://releases.groupdocs.com/signature/java/) | [Lisans Satın Al](https://purchase.groupdocs.com/buy) | [Ücretsiz Deneme](https://releases.groupdocs.com/signature/java/) | [Destek Forumu](https://forum.groupdocs.com/c/signature/13) | [Geçici Lisans](https://purchase.groupdocs.com/temporary-license/)
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/main-wrap-class >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/tutorial-page-section >}
-
 ## İlgili Öğreticiler
 
 - [Java'da Belgeleri Yükleme ve Kaydetme - Tam GroupDocs.Signature Öğreticisi](/signature/java/document-loading-saving/)

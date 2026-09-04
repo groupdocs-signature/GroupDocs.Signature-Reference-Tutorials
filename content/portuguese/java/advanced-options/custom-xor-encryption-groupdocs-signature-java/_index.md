@@ -1,14 +1,48 @@
 ---
 categories:
 - Java Security
-date: '2026-02-18'
+date: '2026-06-26'
 description: Aprenda a criptografar Java usando XOR com GroupDocs.Signature. Este
   tutorial passo a passo mostra como implementar criptografia personalizada, inclui
-  exemplos de código, dicas de segurança e melhores práticas.
-keywords: implement custom encryption Java, XOR encryption Java tutorial, custom signature
-  encryption GroupDocs, Java document encryption, secure PDF signatures custom encryption
-lastmod: '2026-02-18'
-linktitle: Custom Encryption Java Guide
+  exemplos de código, dicas de segurança e boas práticas.
+keywords:
+- how to encrypt java
+- xor encryption example java
+- custom encryption groupdocs java
+- java document signing encryption
+- groupdocs signature custom encryption
+lastmod: '2026-06-26'
+linktitle: Guia de Criptografia Personalizada Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-26'
+  description: Learn how to encrypt Java using XOR with GroupDocs.Signature. This
+    step‑by‑step tutorial shows how to implement custom encryption, includes code
+    examples, security tips, and best practices.
+  headline: 'How to Encrypt Java: Custom XOR Encryption with GroupDocs'
+  type: TechArticle
+- questions:
+  - answer: Any non‑zero integer between 1 and 255 works, but the key itself does
+      not provide security. For real protection, replace XOR with AES‑256 and keep
+      the key in a secure vault.
+    question: How do I choose an appropriate XOR key?
+  - answer: Yes—call `setKey()` with a new value. Remember that data encrypted with
+      the old key must be decrypted before you switch, or you’ll lose access to that
+      data.
+    question: Can I change the XOR key at runtime?
+  - answer: For learning, try a Caesar cipher or Base64 (though Base64 is merely encoding).
+      For production, use AES‑256, RSA‑2048, or ChaCha20 via Java’s `javax.crypto`
+      package.
+    question: What are some alternatives to XOR encryption?
+  - answer: The library streams PDF content when possible, but your custom `IDataEncryption`
+      implementation decides how data is processed. Implement chunk‑based encryption
+      to avoid loading the whole file into memory.
+    question: How does GroupDocs.Signature handle large files with encryption?
+  - answer: Absolutely. Register the encryptor as a Spring Bean, inject the `Signature`
+      service, and keep the key in an environment variable or secrets manager. Ensure
+      each request processes data in a separate thread to avoid contention.
+    question: Is it possible to integrate this feature into a web application?
+  type: FAQPage
 tags:
 - encryption
 - digital-signatures
@@ -20,117 +54,88 @@ url: /pt/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/
 weight: 1
 ---
 
-Docs"
-
-## Introduction
-
-Translate heading: "## Introdução"
-
-Then paragraph.
-
-We'll translate.
-
-Proceed step by step.
-
-Will produce final markdown.
-
-Let's craft translation.
-
-Be careful with bullet lists.
-
-Also keep **bold**.
-
-Let's do.
-
 # Como Criptografar Java: Criptografia XOR Personalizada com GroupDocs
 
 ## Introdução
 
-Aqui está um cenário que você provavelmente já enfrentou: está desenvolvendo uma aplicação que precisa assinar documentos digitalmente, mas as opções de criptografia integradas não atendem exatamente aos seus requisitos. Talvez você esteja trabalhando com sistemas legados que esperam um formato de criptografia específico, ou talvez precise de uma criptografia leve para aplicações críticas de desempenho, onde algoritmos pesados como AES seriam excessivos.
+Se você já precisou **criptografar código Java** para um fluxo de trabalho específico, conhece a frustração das opções embutidas que não correspondem ao seu protocolo legado ou objetivo de desempenho. Imagine que você está integrando um novo módulo de assinatura em um ERP antigo que espera uma carga útil mascarada por XOR simples. Você poderia reescrever todo o ERP, mas uma rota mais rápida é adicionar uma camada de criptografia personalizada e leve diretamente dentro da sua aplicação Java.
 
-É aí que a **criptografia personalizada** entra — e é mais fácil de implementar do que você imagina. Neste guia, vamos percorrer a criação de um mecanismo de criptografia personalizado usando a operação XOR como exemplo. Embora a criptografia XOR não seja adequada para aplicações de alta segurança (falaremos sobre quando usá‑la e quando não), ela é perfeita para aprender os princípios de **como criptografar Java** e para atender a necessidades de integração específicas. Usaremos **GroupDocs.Signature for Java**, que torna a integração de criptografia personalizada ao seu fluxo de assinatura de documentos surpreendentemente simples.
+Neste guia, vamos percorrer a criação de um mecanismo de criptografia XOR personalizado, conectá‑lo ao **GroupDocs.Signature for Java** e discutir quando essa abordagem faz sentido versus quando você deve recorrer a algoritmos padrão da indústria. Ao final, você será capaz de proteger metadados de assinatura, atender a contratos de integração peculiares e entender as compensações de usar XOR em código de produção.
 
 **O que você aprenderá:**
-- Por que você pode querer criptografia personalizada em primeiro lugar
-- Como a criptografia XOR funciona (em linguagem simples)
-- Implementação passo a passo com GroupDocs.Signature for Java
-- Casos de uso reais e considerações de segurança
-- Erros comuns e como evitá‑los
+- Por que criptografia personalizada importa para cenários legados e de desempenho  
+- Como a criptografia XOR funciona (explicação em linguagem simples + exemplo em Java)  
+- Integração passo a passo com GroupDocs.Signature for Java  
+- Casos de uso reais, considerações de segurança e armadilhas comuns  
+- Como substituir a implementação XOR por um algoritmo mais forte posteriormente  
 
 ## Respostas Rápidas
 - **O que é criptografia XOR?** Uma operação simétrica que inverte bits usando uma chave; criptografar duas vezes com a mesma chave restaura os dados originais.  
-- **Quando devo usar criptografia personalizada?** Para compatibilidade com sistemas legados, ofuscação em ambientes críticos de desempenho ou fins de aprendizado — não para proteger dados sensíveis.  
+- **Quando devo usar criptografia personalizada?** Para compatibilidade com sistemas legados, ofuscação crítica de desempenho ou fins de aprendizado — não para proteger dados sensíveis.  
 - **Qual biblioteca este tutorial usa?** GroupDocs.Signature for Java (v23.12 ou posterior).  
-- **Preciso de licença?** Um teste gratuito funciona para experimentação; uma licença completa é necessária para produção.  
-- **Posso trocar XOR por AES depois?** Sim — basta substituir a lógica de `encrypt`/`decrypt` mantendo a mesma interface `IDataEncryption`.
+- **Preciso de licença?** Um teste gratuito funciona para testes; uma licença completa é necessária para produção.  
+- **Posso trocar XOR por AES depois?** Sim — basta substituir a lógica `encrypt`/`decrypt` mantendo a mesma interface `IDataEncryption`.  
 
-## Como Criptografar Java Usando XOR
-A criptografia XOR é um clássico **java xor example** que demonstra a ideia central da criptografia simétrica. Ao seguir este tutorial, você verá exatamente como conectar um algoritmo personalizado ao fluxo de trabalho **GroupDocs.Signature Java**, dando controle total sobre como os dados da assinatura são protegidos.
+## O que é criptografia personalizada em Java?
+`IDataEncryption` é uma interface do GroupDocs.Signature que define métodos para criptografar e descriptografar dados. Criptografia personalizada permite que você defina exatamente como os dados são transformados antes de serem armazenados ou transmitidos. Com GroupDocs.Signature, você fornece uma implementação da interface `IDataEncryption`, e a biblioteca chamará automaticamente seu código sempre que precisar proteger dados de assinatura. Esse modelo de plug‑in significa que você pode começar com uma rotina XOR simples para prova de conceito e, mais tarde, substituí‑la por AES‑256 sem tocar no restante do fluxo de assinatura.
 
-## Por que a Criptografia Personalizada Importa
+## Por que Criptografia Personalizada Importa
+Criptografia personalizada é valiosa quando algoritmos existentes não conseguem atender a restrições específicas, como formatos de protocolos legados, orçamentos de desempenho rigorosos ou requisitos contratuais proprietários. Ao implementar sua própria rotina, você mantém controle total sobre a transformação dos dados, reduz a sobrecarga e garante compatibilidade sem reescrever sistemas externos, enquanto ainda aproveita a extensibilidade do GroupDocs.
 
-Antes de mergulhar no código, vamos falar sobre por que você pode precisar de criptografia personalizada.
+### Integração com Sistema Legado
+Sistemas antigos às vezes exigem uma transformação byte a byte muito específica — frequentemente um XOR com uma chave de um único byte. Re‑engenheirar esses sistemas é caro, então corresponder às expectativas deles com um criptografador personalizado é o caminho pragmático.
 
-A maioria das bibliotecas (incluindo GroupDocs) já vem com opções de criptografia integradas. Então, por que criar a sua própria? Aqui estão os cenários reais onde a criptografia personalizada faz sentido:
+### Otimização de Desempenho
+Algoritmos padrão como AES‑256 são criptograficamente fortes, mas podem consumir ciclos de CPU perceptíveis, especialmente em dispositivos de baixa potência ou ao processar milhões de pequenas cargas úteis. XOR roda em uma única instrução de CPU por byte, oferecendo quase zero overhead para dados não sensíveis.
 
-**Integração com Sistema Legado**: Você está trabalhando com sistemas antigos que esperam dados criptografados de uma forma específica. Alterar todo o sistema não é viável, então você precisa corresponder ao método de criptografia deles.
+### Requisitos Proprietários
+Certos contratos ou normas da indústria exigem um algoritmo customizado (por exemplo, um “máscara‑XOR” mandatado por governo). Implementar a lógica exigida por conta própria garante conformidade enquanto mantém o restante da sua pilha moderna.
 
-**Otimização de Desempenho**: Algoritmos padrão como AES são seguros, mas consomem muitos recursos. Para dados não sensíveis que ainda precisam de alguma ofuscação básica (pense em marcas d'água ou IDs internos de documentos), uma abordagem leve personalizada pode melhorar significativamente o desempenho.
+### Aprendizado e Flexibilidade
+Construir um criptografador personalizado obriga você a entender operações em nível de byte, gerenciamento de chaves e o design orientado a contrato da interface `IDataEncryption`. Esse conhecimento compensa quando você adotar criptografia mais sofisticada posteriormente.
 
-**Requisitos Proprietários**: Alguns setores ou clientes exigem implementações de criptografia específicas por questões de conformidade ou compatibilidade.
-
-**Aprendizado e Flexibilidade**: Entender como implementar criptografia personalizada lhe dá o conhecimento para avaliar soluções de segurança e adaptar-se a requisitos únicos.
-
-Dito isso (e isso é importante), a criptografia personalizada nunca deve ser sua primeira escolha para proteger dados sensíveis. Para qualquer coisa que envolva informações pessoais, dados financeiros ou conteúdo regulamentado, use algoritmos comprovados como AES‑256. A criptografia personalizada deve ser reservada para casos de uso específicos onde você entende as compensações de segurança que está fazendo.
+> **Dica profissional:** Use criptografia personalizada apenas para dados que já estejam protegidos por outras camadas (TLS, VPN ou criptografia de banco de dados). Nunca dependa do XOR como única linha de defesa para informações pessoais ou financeiras.
 
 ## Entendendo o XOR: O Básico
 
-Se você não está familiarizado com XOR (Exclusive OR), não se preocupe — é um dos conceitos de criptografia mais simples que existem.
+XOR (ou exclusivo) compara dois bits e devolve **1** se eles diferirem, **0** se forem iguais:
 
-XOR é uma operação binária que compara dois bits e devolve **1** se eles forem diferentes, **0** se forem iguais:
+- 0 XOR 0 = 0  
+- 0 XOR 1 = 1  
+- 1 XOR 0 = 1  
+- 1 XOR 1 = 0  
 
-- 0 XOR 0 = 0  
-- 0 XOR 1 = 1  
-- 1 XOR 0 = 1  
-- 1 XOR 1 = 0  
+Como a operação é sua própria inversa, aplicar a mesma chave uma segunda vez restaura o valor original. Em Java você pode XOR dois bytes com o operador `^`:
 
-O que torna o XOR interessante para criptografia é que ele é **simétrico**: se você XORar os dados com uma chave, então XORar o resultado novamente com a mesma chave, você recupera os dados originais. É como uma fechadura que usa a mesma chave para trancar e destrancar.
-
-Aqui está um simples **java xor example**:
-
-```
-Original data: 5 (binary: 0101)
-Key: 3 (binary: 0011)
-Encrypted: 5 XOR 3 = 6 (binary: 0110)
-Decrypted: 6 XOR 3 = 5 (binary: 0101) ← We're back!
+```java
+byte encrypted = (byte)(plainByte ^ key);
 ```
 
-Na prática, faremos XOR em cada byte dos nossos dados com o valor da chave. É rápido, requer pouca memória e é perfeito para demonstrar conceitos de criptografia personalizada. Apenas lembre‑se: XOR com uma chave de um único byte é trivially quebrável por qualquer pessoa com conhecimentos básicos de criptografia. Use‑o para ofuscação, não para proteção.
+Quando você XOR um array de bytes inteiro com uma chave de um único byte, obtém uma transformação rápida e reversível. Lembre‑se de que uma chave de um byte gera apenas 255 variações possíveis, de modo que qualquer pessoa com uma quantidade modesta de texto cifrado pode forçar a chave instantaneamente. Use isso apenas para ofuscação, não para proteger dados confidenciais.
 
 ## Pré‑requisitos
 
-Antes de implementar a criptografia personalizada com GroupDocs.Signature for Java, certifique‑se de que você tem:
+Antes de implementar criptografia personalizada com GroupDocs.Signature for Java, certifique‑se de que você tem:
 
 ### Bibliotecas e Dependências Necessárias
-- **GroupDocs.Signature for Java**: Versão 23.12 ou posterior (a API que usaremos)
-- **Java Development Kit**: JDK 8 ou superior (embora JDK 11+ seja recomendado para produção)
+- **GroupDocs.Signature for Java** – versão 23.12 ou posterior (a API que usaremos ao longo do guia).  
+- **Java Development Kit** – JDK 8 ou mais recente; JDK 11 é recomendado para suporte de longo prazo.
 
 ### Requisitos de Configuração do Ambiente
-- Uma IDE como IntelliJ IDEA, Eclipse ou VS Code com extensões Java
-- Maven ou Gradle para gerenciamento de dependências (os exemplos abaixo funcionam com ambos)
+- Uma IDE como IntelliJ IDEA, Eclipse ou VS Code com extensões Java.  
+- Maven ou Gradle para gerenciamento de dependências (ambos são suportados).
 
-### Conhecimentos Necessários
-- Conforto ao escrever código Java (você deve conhecer classes, métodos e interfaces)
-- Noções básicas de conceitos de criptografia (acabamos de cobrir XOR, então está tudo bem!)
-- Familiaridade com arrays de bytes e operações bitwise ajuda, mas não é obrigatória
+### Pré‑requisitos de Conhecimento
+- Conforto com classes, interfaces e manipulação de arrays de bytes em Java.  
+- Noções básicas de conceitos de criptografia simétrica (cobertos na seção XOR).  
 
-Tudo pronto? Ótimo! Vamos configurar o GroupDocs.
+Se você marcou todas as caixas, está pronto para adicionar o GroupDocs ao seu projeto.
 
 ## Configurando GroupDocs.Signature for Java
 
-Adicionar o GroupDocs ao seu projeto é simples. Escolha sua ferramenta de build:
+Inserir a biblioteca no seu sistema de build é uma única linha de XML ou Groovy.
 
-**Maven**
+### Maven
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -139,25 +144,248 @@ Adicionar o GroupDocs ao seu projeto é simples. Escolha sua ferramenta de build
 </dependency>
 ```
 
-**Gradle**
-```gradle
+### Gradle
+```groovy
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Download Direto**
-Se preferir downloads manuais (ou não puder usar uma ferramenta de build), obtenha o JAR em [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) e adicione‑lo ao classpath do seu projeto.
+### Download Direto
+Se preferir gerenciamento manual, baixe o JAR em [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) e adicione‑lo ao seu classpath.
 
-### Etapas para Aquisição de Licença
+#### Etapas para Aquisição de Licença
+1. **Teste Gratuito** – baixe o JAR de teste; os arquivos de saída contêm uma marca d'água visível.  
+2. **Licença Temporária** – solicite uma chave de avaliação de 30 dias para testes com recursos completos.  
+3. **Compra** – obtenha uma licença perpétua para implantações em produção.
 
-GroupDocs não é gratuito, mas eles facilitam o teste antes da compra:
+#### Inicialização e Configuração Básicas
+```java
+Signature signature = new Signature("sample.pdf");
+```
+O objeto `Signature` é o ponto de entrada para todas as operações de assinatura, verificação e criptografia no GroupDocs.Signature.
 
-1. **Teste Gratuito**: Baixe e use todos os recursos com algumas limitações (marcas d'água na saída, restrições de avaliação)  
-2. **Licença Temporária**: Solicite uma licença temporária para avaliação completa (ideal para POCs)  
-3. **Compra**: Adquira uma licença quando estiver pronto para produção  
+## Guia de Implementação
 
-### Inicialização e Configuração Básicas
+### Recurso de Criptografia XOR Personalizada
 
-Aqui está a inicialização mais simples do GroupDocs — é a base de todos os exemplos:
+Criaremos uma classe que implementa a interface `IDataEncryption` e, em seguida, a registraremos no objeto `Signature`.
+
+#### Etapa 1: Implementar a Interface `IDataEncryption`
+`IDataEncryption` é a interface do GroupDocs.Signature que define métodos para criptografar e descriptografar dados.
+
+```java
+public class CustomXOREncryption implements IDataEncryption {
+    private byte auto_Key = 0x5A; // example key
+
+    @Override
+    public byte[] encrypt(byte[] data) { /* implementation below */ }
+
+    @Override
+    public byte[] decrypt(byte[] data) { /* implementation below */ }
+
+    public void setKey(byte key) { this.auto_Key = key; }
+    public byte getKey() { return this.auto_Key; }
+}
+```
+
+**O que está acontecendo:** A classe promete duas operações principais — `encrypt` e `decrypt`. O campo `auto_Key` armazena a chave XOR que será aplicada a cada byte da carga útil.
+
+#### Etapa 2: Definir Métodos de Criptografia e Descriptografia
+Como o XOR é simétrico, ambos os métodos executam a mesma transformação byte a byte.
+
+```java
+public byte[] encrypt(byte[] data) {
+    if (auto_Key == 0 || data == null) return data;
+    byte[] result = new byte[data.length];
+    for (int i = 0; i < data.length; i++) {
+        result[i] = (byte)(data[i] ^ auto_Key);
+    }
+    return result;
+}
+public byte[] decrypt(byte[] data) {
+    return encrypt(data); // XOR decryption is identical to encryption
+}
+```
+
+**Explicação:**  
+- As cláusulas de proteção evitam uma chave zero (que seria um no‑op) e entradas `null`.  
+- Um novo array de bytes contém os dados transformados para evitar mutação do buffer original.  
+- O laço XOR each byte with `auto_Key`.  
+- A descriptografia simplesmente chama `encrypt` novamente, pois aplicar o mesmo XOR duas vezes restaura os bytes originais.
+
+### Opções de Configuração da Chave
+
+- **auto_Key** deve ser um valor não‑zero entre 1 e 255. Valores acima de 255 são truncados para os 8 bits inferiores.  
+- Armazene a chave com segurança — variáveis de ambiente, arquivos de configuração criptografados ou um gerenciador de segredos dedicado são recomendados.  
+- Para produção, você provavelmente substituirá esse byte simples por uma chave multi‑byte ou um cifrador AES completo, mas a interface permanece a mesma.
+
+#### Exemplo de Definição da Chave
+```java
+CustomXOREncryption xor = new CustomXOREncryption();
+xor.setKey((byte)0x3C); // set a custom key at runtime
+signature.setDataEncryption(xor);
+```
+
+### Erros Comuns de Implementação
+
+| Erro | Por que prejudica | Como corrigir |
+|---|---|---|
+| **Esqueceu de definir a chave** | A criptografia torna‑se um no‑op, deixando os dados em texto plano. | Sempre chame `setKey()` antes de usar o criptografador, ou forneça uma chave padrão não‑zero no construtor. |
+| **Ignorou dados nulos** | Gera `NullPointerException` durante a assinatura. | Adicione `if (data == null) return data;` no início de ambos os métodos. |
+| **Assumiu que XOR é seguro** | Uma chave de um byte pode ser forçada em milissegundos. | Use XOR apenas para ofuscação; troque por AES‑256 para qualquer carga sensível. |
+| **Chaves diferentes na descriptografia** | Os dados tornam‑se irrecuperáveis. | Persista a chave junto da carga cifrada ou use um mapeamento de identificador de chave. |
+
+## Considerações de Segurança
+
+### Por que XOR Não é Suficiente para Dados Sensíveis
+XOR com uma chave de um byte oferece praticamente nenhuma força criptográfica; um atacante pode enumerar todas as 255 chaves possíveis instantaneamente. A operação também vaza padrões estatísticos, tornando ataques de frequência e de texto conhecido triviais. Consequentemente, XOR nunca deve ser a única proteção para informações pessoais, financeiras ou confidenciais.
+
+### Quando o XOR é Aceitável
+XOR pode ser usado com segurança quando os dados já estão protegidos por camadas mais fortes como TLS, VPN ou criptografia de banco de dados, e a máscara serve apenas para desencorajar inspeção casual ou atender a um formato legado. É adequado para identificadores temporários, chaves de cache ou flags internos que nunca deixam o ambiente confiável.
+
+### Alternativas Fortes Recomendadas
+- **AES‑256** – padrão da indústria, suportado nativamente via `javax.crypto`.  
+- **RSA‑2048** – útil para criptografar chaves simétricas pequenas.  
+- **ChaCha20** – alto desempenho em CPUs móveis.
+
+Como o contrato `IDataEncryption` é agnóstico ao algoritmo, trocar para AES requer apenas substituir o corpo de `encrypt`/`decrypt` pelas chamadas ao cifrador apropriado.
+
+## Aplicações Práticas
+
+### 1. Fluxo de Trabalho de Assinatura de Documentos Seguro
+Você pode precisar armazenar metadados do assinante (ID, timestamp, departamento) de forma que impeça inspeção casual. Usando nosso criptografador XOR, os metadados são armazenados como um array de bytes dentro do pacote de assinatura, enquanto o restante do PDF permanece intacto.
+
+```java
+Signature signature = new Signature("contract.pdf");
+signature.setDataEncryption(new CustomXOREncryption());
+SignatureResult result = signature.sign("output.pdf", options);
+```
+
+### 2. Verificação Leve de Integridade
+Criptografe uma constante conhecida e armazene‑a junto ao documento. Mais tarde, descriptografe e compare para verificar se o arquivo não foi corrompido durante a transferência.
+
+### 3. Ponte para Sistema Legado
+Um mainframe antigo espera uma carga onde cada byte é mascarado por XOR com `0x7F`. Configurando a mesma chave em `CustomXOREncryption`, você pode trocar dados sem escrever um serviço de transformação separado.
+
+## Considerações de Desempenho
+
+### Velocidade Bruta
+XOR roda aproximadamente **1 ns por byte** em um núcleo x86 moderno, o que significa que uma carga de 10 MB é criptografada em bem menos de 10 ms. Em comparação, AES‑256 em modo CBC costuma levar 3‑4 × mais tempo para o mesmo tamanho.
+
+### Pegada de Memória
+Nossa implementação cria uma cópia do array de entrada, dobrando o uso de memória temporariamente. Para um arquivo de 50 MB, você precisará de cerca de 100 MB de heap durante a criptografia. Se precisar lidar com arquivos maiores, processe o fluxo em blocos de 4 KB:
+
+```java
+InputStream in = new FileInputStream(source);
+OutputStream out = new FileOutputStream(target);
+byte[] buffer = new byte[4096];
+int read;
+while ((read = in.read(buffer)) != -1) {
+    for (int i = 0; i < read; i++) {
+        buffer[i] ^= key;
+    }
+    out.write(buffer, 0, read);
+}
+```
+
+### Boas Práticas para Gerenciamento de Memória Java
+1. **Zere a chave** após o uso: `Arrays.fill(keyArray, (byte)0);`  
+2. **Use try‑with‑resources** para garantir o fechamento de streams.  
+3. **Evite converter bytes criptografados para `String`**; mantenha‑os como `byte[]` bruto.  
+4. **Monitore o heap** com ferramentas como VisualVM ao processar muitos documentos grandes simultaneamente.
+
+## Solução de Problemas Comuns
+
+### Problema 1 – “Dados descriptografados parecem lixo”
+**Resposta direta:** Garanta que a mesma chave XOR seja usada tanto na criptografia quanto na descriptografia, mantenha os dados como array de bytes ao longo do pipeline e evite conversões de codificação de caracteres que possam corromper os bytes.  
+
+**Por que acontece:** Uma chave incompatível, truncamento de dados ou conversão acidental para `String` altera o padrão de bytes, tornando a saída ilegível.
+
+### Problema 2 – “NullPointerException durante a criptografia”
+**Resposta direta:** O método `encrypt` verifica entradas `null`; se ainda houver exceção, confirme que o array de bytes de origem está corretamente inicializado antes de passá‑lo ao criptografador.  
+
+**Correção:** Adicione verificações defensivas no código chamador ou assegure que os dados de assinatura do documento sejam carregados com `signature.getSignatureData()` antes da criptografia.
+
+### Problema 3 – “A criptografia parece não fazer nada”
+**Resposta direta:** Isso geralmente indica que a chave XOR está definida como `0`. XOR com zero deixa o byte original inalterado, portanto a saída coincide com a entrada.  
+
+**Solução:** Defina uma chave não‑zero via `setKey()` ou forneça um valor padrão no construtor.
+
+### Problema 4 – “OutOfMemoryError em PDFs grandes”
+**Resposta direta:** Carregar um PDF inteiro na memória antes da criptografia pode exceder o heap da JVM. Mude para uma abordagem de streaming que processe o arquivo em blocos, como mostrado na seção de desempenho.  
+
+**Dica:** Aumente o heap máximo (`-Xmx2g`) apenas como medida temporária; refatore para processamento em blocos para escalabilidade.
+
+## Perguntas Frequentes
+
+**P: Como escolher uma chave XOR apropriada?**  
+R: Qualquer inteiro não‑zero entre 1 e 255 funciona, mas a própria chave não fornece segurança. Para proteção real, substitua XOR por AES‑256 e mantenha a chave em um cofre seguro.
+
+**P: Posso mudar a chave XOR em tempo de execução?**  
+R: Sim — chame `setKey()` com um novo valor. Lembre‑se de que dados criptografados com a chave antiga precisam ser descriptografados antes da troca, ou você perderá acesso a eles.
+
+**P: Quais são algumas alternativas à criptografia XOR?**  
+R: Para aprendizado, experimente uma cifra César ou Base64 (embora Base64 seja apenas codificação). Para produção, use AES‑256, RSA‑2048 ou ChaCha20 via o pacote `javax.crypto` do Java.
+
+**P: Como o GroupDocs.Signature lida com arquivos grandes ao criptografar?**  
+R: A biblioteca faz streaming do conteúdo PDF quando possível, mas sua implementação personalizada de `IDataEncryption` decide como os dados são processados. Implemente criptografia baseada em blocos para evitar carregar o arquivo inteiro na memória.
+
+**P: É possível integrar esse recurso em uma aplicação web?**  
+R: Absolutamente. Registre o criptografador como um Bean Spring, injete o serviço `Signature` e mantenha a chave em variável de ambiente ou gerenciador de segredos. Garanta que cada requisição processe os dados em uma thread separada para evitar contenção.
+
+## Como a Criptografia XOR Funciona em Java?
+Em Java, o XOR é realizado com o operador `^` em valores byte. Você carrega o texto plano em um array de bytes, itera sobre cada elemento e aplica `byte ^ key`. Como o XOR é sua própria inversa, executar a mesma rotina com a mesma chave restaura os bytes originais, tornando a criptografia e a descriptografia simétricas.
+
+## Quais São os Passos para Implementar Criptografia Personalizada com GroupDocs?
+Para adicionar criptografia personalizada, primeiro crie uma classe que implemente a interface `IDataEncryption`, depois codifique os métodos `encrypt` e `decrypt` usando seu algoritmo. Em seguida, registre a instância com o objeto `Signature` via `setDataEncryption`. A partir desse ponto, o GroupDocs invocará sua lógica sempre que precisar proteger dados de assinatura.
+
+## Conclusão
+
+Cobremos todo o ciclo de **como criptografar código Java** usando uma rotina XOR personalizada, integrando‑a ao GroupDocs.Signature, e destacamos as situações em que essa abordagem leve agrega valor. Lembre‑se:
+
+- Use XOR apenas para ofuscação, não para proteger dados pessoais ou financeiros.  
+- A interface `IDataEncryption` oferece um ponto de troca limpo para algoritmos mais fortes no futuro.  
+- Gerenciamento adequado de chaves, manipulação de memória e streaming são essenciais para estabilidade em produção.
+
+**Próximos passos:**  
+1. Substitua a lógica XOR por AES‑256 para segurança real.  
+2. Implemente rotação de chaves e armazenamento seguro.  
+3. Explore outros recursos do GroupDocs, como fluxos de trabalho multi‑assinatura, verificação e carimbo de documentos.
+
+Agora você tem uma base sólida para personalizar a criptografia em qualquer solução Java de assinatura — ajuste-a às necessidades exatas do seu negócio!
+
+---
+
+**Última atualização:** 2026-06-26  
+**Testado com:** GroupDocs.Signature 23.12 for Java  
+**Autor:** GroupDocs  
+
+**Recursos Relacionados:**  
+- [Documentação do GroupDocs.Signature for Java](https://docs.groupdocs.com/signature/java/)  
+- [Referência da API](https://reference.groupdocs.com/signature/java/)  
+- [Download da Última Versão](https://releases.groupdocs.com/signature/java/)  
+- [Comprar Licença](https://purchase.groupdocs.com/buy)  
+- [Teste Gratuito](https://releases.groupdocs.com/signature/java/)  
+- [Solicitar Licença Temporária](https://purchase.groupdocs.com/temporary-license/)  
+- [Fórum de Suporte GroupDocs](https://forum.groupdocs.com/c/signature/)
+
+```
+Original data: 5 (binary: 0101)
+Key: 3 (binary: 0011)
+Encrypted: 5 XOR 3 = 6 (binary: 0110)
+Decrypted: 6 XOR 3 = 5 (binary: 0101) ← We're back!
+```
+
+```xml
+<dependency>
+    <groupId>com.groupdocs</groupId>
+    <artifactId>groupdocs-signature</artifactId>
+    <version>23.12</version>
+</dependency>
+```
+
+```gradle
+implementation 'com.groupdocs:groupdocs-signature:23.12'
+```
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -169,18 +397,6 @@ class InitializeGroupDocs {
     }
 }
 ```
-
-Simples, certo? Esse objeto `Signature` é sua interface principal para todas as operações de assinatura de documentos. Agora vamos fazer com que ele realmente criptografe algo.
-
-## Guia de Implementação
-
-### Recurso de Criptografia XOR Personalizada
-
-É aqui que entramos na implementação propriamente dita. Vamos criar uma classe de criptografia personalizada que o GroupDocs pode usar sempre que precisar criptografar dados de assinatura.
-
-#### Etapa 1: Implementar a Interface IDataEncryption
-
-O GroupDocs espera que os manipuladores de criptografia implementem a interface `IDataEncryption`. Esse é o seu contrato — implemente esses métodos e o GroupDocs saberá como usar sua criptografia:
 
 ```java
 import com.groupdocs.signature.domain.extensions.encryption.IDataEncryption;
@@ -195,12 +411,6 @@ class CustomXOREncryption implements IDataEncryption {
     // Additional methods for encryption and decryption will be implemented here.
 }
 ```
-
-**O que está acontecendo**: Estamos definindo uma classe que promete fornecer funcionalidade de criptografia/descriptografia. O campo `auto_Key` armazena o valor da chave XOR (o número que usaremos no XOR). O método `getKey()` permite que outros códigos inspecionem qual chave está sendo usada.
-
-#### Etapa 2: Definir os Métodos de Criptografia e Descriptografia
-
-Agora a lógica real de criptografia. Como o XOR é simétrico (lembrou?), criptografar e descriptografar são literalmente a mesma operação:
 
 ```java
 class CustomXOREncryption {
@@ -223,97 +433,16 @@ class CustomXOREncryption {
 }
 ```
 
-**Desmembrando:**
-- Verificamos se a chave é 0 (o que seria inútil) ou se recebemos dados nulos (para evitar crashes)  
-- Criamos um novo array de bytes para armazenar o resultado criptografado  
-- Percorremos cada byte dos dados de entrada  
-- Para cada byte, fazemos XOR com a nossa chave: `data[i] ^ auto_Key`  
-- O cast `(byte)` é necessário porque o XOR em Java devolve um `int`, mas queremos bytes  
-
-A beleza do XOR: `decrypt()` simplesmente chama `encrypt()` novamente. A mesma operação que embaralha os dados os desembaralha!
-
-### Opções de Configuração da Chave
-
-**auto_Key**: Esta é a sua chave de criptografia. Alguns pontos importantes:
-
-- Deve ser diferente de zero (XOR com 0 não faz nada)  
-- Deve estar entre 1‑255 para XOR de um byte (valores acima de 255 usam apenas os 8 bits inferiores)  
-- Em aplicações reais, considere tornar isso configurável via variáveis de ambiente ou arquivos de configuração  
-- Para produção, você desejaria um sistema de gerenciamento de chaves muito mais sofisticado  
-
-Exemplo de configuração:
-
 ```java
 CustomXOREncryption encryption = new CustomXOREncryption();
 encryption.setKey(42); // Any non-zero value works
 ```
 
-### Erros Comuns de Implementação
-
-Vamos economizar seu tempo de depuração. Aqui estão erros que já vi (e cometi) :
-
-**Erro #1: Esquecer de Definir a Chave**  
 ```java
 CustomXOREncryption encryption = new CustomXOREncryption();
 // Oops! Never called setKey(), so auto_Key is 0
 byte[] encrypted = encryption.encrypt(myData); // Returns data unchanged!
-```  
-**Correção**: Sempre inicialize sua chave antes de usar a criptografia.
-
-**Erro #2: Não Tratar Dados Nulos**  
-Sem a verificação `if (data == null) return data;` você receberá `NullPointerException`s nos piores momentos.
-
-**Erro #3: Presumir que XOR é Seguro**  
-Essa criptografia é trivially quebrável. Se alguém souber (ou adivinhar) parte do seu texto plano, pode derivar sua chave. Use‑a para ofuscação, não para segurança.
-
-**Erro #4: Usar a Chave Errada na Descriptografia**  
-Como você precisa da mesma chave para descriptografar, perder ou mudar a chave significa que seus dados desaparecem para sempre. Em produção, use gerenciamento adequado de chaves e estratégias de backup.
-
-## Considerações de Segurança
-
-Vamos ter uma conversa honesta sobre segurança aqui, porque isso importa:
-
-**Criptografia XOR NÃO É Segura para Dados Sensíveis**  
-
-Não posso enfatizar isso o suficiente. Um cifrão XOR de um byte como o que implementamos pode ser quebrado em segundos por qualquer pessoa com conhecimentos básicos de criptografia. Veja por quê:
-
-1. **Análise de Frequência** – Se alguém conhece algo sobre o formato dos seus dados (e geralmente conhece), pode adivinhar valores de byte prováveis e retroceder para encontrar sua chave.  
-2. **Ataques de Texto Plano Conhecido** – Se o atacante conhece mesmo que parte do texto plano, pode XORar com o texto cifrado e obter sua chave.  
-3. **Força Bruta** – Com apenas 255 chaves possíveis, testá‑las todas leva milissegundos.  
-
-**Quando o XOR é Apropriado:**  
-
-- Ofuscar identificadores internos não sensíveis  
-- Manipular rapidamente dados para chaves de cache ou dados temporários  
-- Aprender conceitos de criptografia  
-- Atender requisitos de sistemas legados que usam XOR  
-- Aplicações críticas de desempenho onde a segurança dos dados é tratada em outras camadas  
-
-**Quando Usar Criptografia Real:**  
-
-- Informações pessoais (nome, e‑mail, endereço)  
-- Dados financeiros  
-- Informações de saúde  
-- Credenciais de autenticação  
-- Qualquer dado coberto por regulamentações (GDPR, HIPAA, PCI‑DSS)  
-
-**Alternativas Melhores:**  
-
-Se precisar de segurança de verdade, use algoritmos comprovados:
-
-- **AES‑256** – Padrão da indústria, excelente relação segurança‑desempenho  
-- **RSA** – Ótimo para criptografar pequenas quantidades de dados como chaves de criptografia  
-- **ChaCha20** – Alternativa moderna ao AES, às vezes mais rápida em dispositivos móveis  
-
-A boa notícia? O padrão de implementação que estamos usando (a interface `IDataEncryption`) funciona da mesma forma para qualquer algoritmo de criptografia. Você pode trocar XOR por AES simplesmente alterando os métodos `encrypt()` e `decrypt()`.
-
-## Aplicações Práticas
-
-Agora que cobrimos o “o quê” e o “por quê”, vamos falar sobre cenários reais onde isso realmente é usado:
-
-### 1. Fluxo de Assinatura de Documentos Seguro
-
-Imagine que você está construindo um sistema de gestão de contratos onde documentos precisam de assinaturas digitais, mas os metadados da assinatura (ID do assinante, timestamp, departamento) precisam de ofuscação básica antes de serem armazenados:
+```
 
 ```java
 Signature signature = new Signature("contract.pdf");
@@ -324,24 +453,12 @@ encryption.setKey(73); // Configure your key
 // (Actual integration depends on specific GroupDocs API methods)
 ```
 
-**Benefício real**: Seu banco de dados não contém metadados em texto plano que poderiam ser raspados ou expostos acidentalmente em logs.
-
-### 2. Verificação de Integridade de Dados
-
-Você pode usar criptografia personalizada como uma verificação leve de integridade. Criptografe um valor conhecido, armazene‑o com seu documento e, depois, descriptografe e verifique:
-
 ```java
 String integrityToken = "VALID_SIGNATURE_2025";
 byte[] encrypted = encryption.encrypt(integrityToken.getBytes());
 // Store encrypted with document...
 // Later, decrypt and compare to verify nothing changed
 ```
-
-Isso não é integridade de nível criptográfico (use HMAC para isso), mas captura corrupção acidental.
-
-### 3. Integração com Sistemas Legados
-
-Este provavelmente é o caso de uso mais comum. Você está modernizando uma aplicação, mas precisa interagir com um sistema dos anos 2000 que espera dados criptografados com XOR:
 
 ```java
 // Old system expects data encrypted with XOR key 42
@@ -352,22 +469,6 @@ legacyEncryption.setKey(42);
 byte[] dataForOldSystem = legacyEncryption.encrypt(modernData);
 sendToLegacyAPI(dataForOldSystem);
 ```
-
-Você não está escolhendo XOR porque ele seja melhor — está escolhendo porque o outro sistema entende apenas ele.
-
-## Considerações de Desempenho
-
-Um motivo para usar criptografia leve como XOR é o desempenho. Mas mesmo operações simples podem se tornar gargalos se não forem cuidadosas. Veja o que observar:
-
-### Otimizando o Desempenho
-
-**Para Dados Pequenos (< 1 KB)** – A implementação XOR acima é suficiente. O overhead é insignificante.
-
-**Para Documentos Grandes (> 10 MB)** – Considere estas otimizações:
-
-1. **Processar em Blocos** – Em vez de XORar o documento inteiro de uma vez, processe em blocos manejáveis (ex.: 4 KB).  
-2. **Processamento Paralelo** – Para arquivos muito grandes, divida o trabalho entre múltiplas threads.  
-3. **Evitar Cópias Desnecessárias** – Nossa implementação cria um novo array de bytes, o que duplica temporariamente o uso de memória.
 
 ```java
 // More memory‑efficient for large data
@@ -380,77 +481,19 @@ public void encryptInPlace(byte[] data) {
 }
 ```
 
-### Diretrizes de Uso de Recursos
-
-**Memória** – A implementação atual requer:
-
-- Dados originais em memória  
-- Dados criptografados em memória (mesmo tamanho)  
-- Objetos temporários durante o processamento  
-
-Para um documento de 50 MB, espere cerca de 100 MB de uso de memória durante a criptografia.
-
-**CPU** – XOR é extremamente rápido — tipicamente menos de 1 ms para documentos pequenos (< 100 KB). Estimativas aproximadas em hardware moderno:
-
-- 1 MB ≈ 10 ms  
-- 10 MB ≈ 100 ms  
-- 100 MB ≈ 1 s  
-
-Esses números variam conforme CPU, velocidade da memória e otimizações da JVM.
-
-### Melhores Práticas para Gerenciamento de Memória em Java
-
-Ao trabalhar com criptografia em Java, lembre‑se:
-
-1. **Limpar Dados Sensíveis** – Depois de usar a chave ou dados descriptografados, limpe‑os explicitamente:  
-   ```java
+```java
    Arrays.fill(decryptedData, (byte) 0); // Overwrite with zeros
-   ```  
-2. **Usar try‑with‑resources** – Garanta que streams sejam fechados automaticamente:  
-   ```java
+   ```
+
+```java
    try (FileInputStream fis = new FileInputStream("encrypted.dat")) {
        // Process data
    } // Automatically closed
-   ```  
-3. **Monitorar Uso de Heap** – Para aplicações que processam muitos documentos, considere `-XX:+UseG1GC` para coleta de lixo mais eficiente.  
-4. **Evitar String para Dados Binários** – Nunca converta bytes criptografados para `String` e depois de volta — isso corrompe os dados. Mantenha-os como arrays de bytes.
+   ```
 
-## Solução de Problemas Comuns
-
-### Problema 1: “Dados Descriptografam como Lixo”
-
-**Sintomas** – Após a descriptografia, você obtém bytes aleatórios ao invés dos dados originais.  
-
-**Causas** – Chave diferente usada na descriptografia, corrupção de dados durante armazenamento/transmissão, ou conversão de bytes para `String`.  
-
-**Solução** – Verifique se está usando exatamente a mesma chave e mantenha os dados como arrays de bytes durante todo o processo.
-
-### Problema 2: “NullPointerException Durante a Criptografia”
-
-**Sintomas** – Falha com `NullPointerException` ao chamar `encrypt()`.  
-
-**Causa** – Dados `null` foram passados ao método.  
-
-**Solução** – Sempre verifique `null` nos seus métodos `encrypt`/`decrypt` (como mostrado na implementação).
-
-### Problema 3: “Nenhuma Criptografia Aparente”
-
-**Sintomas** – Dados criptografados parecem idênticos ao texto plano.  
-
-**Causa** – A chave é `0` ou nunca foi definida.  
-
-**Solução** – Adicione uma asserção durante o desenvolvimento:  
 ```java
 assert auto_Key != 0 : "Encryption key must be set!";
 ```
-
-### Problema 4: “OutOfMemoryError com Arquivos Grandes”
-
-**Sintomas** – Aplicação trava ao criptografar documentos volumosos.  
-
-**Causa** – Carregar o arquivo inteiro na memória de uma vez.  
-
-**Solução** – Processar arquivos em streams/blocos:  
 
 ```java
 try (FileInputStream in = new FileInputStream(path);
@@ -463,52 +506,6 @@ try (FileInputStream in = new FileInputStream(path);
     }
 }
 ```
-
-## Conclusão
-
-Cobrimos muito terreno! Agora você sabe **como criptografar Java** usando XOR como exemplo de aprendizado, integrá‑lo ao GroupDocs.Signature e entender quando (e quando não) usar abordagens de criptografia personalizada.
-
-**Principais aprendizados**
-- Criptografia personalizada é útil para cenários específicos (sistemas legados, necessidade de desempenho, aprendizado)  
-- XOR é ótimo para entender princípios, mas não para proteger dados sensíveis  
-- GroupDocs.Signature simplifica a integração via a interface `IDataEncryption`  
-- Sempre considere as implicações de segurança antes de criar sua própria criptografia  
-
-**Próximos Passos**
-
-1. **Implementar Criptografia AES** – Modifique a classe `CustomXOREncryption` para usar AES em vez de XOR (o pacote `javax.crypto` do Java facilita isso).  
-2. **Adicionar Rotação de Chave** – Crie um sistema que possa mudar chaves de criptografia sem perder acesso aos dados existentes.  
-3. **Explorar Mais Recursos do GroupDocs** – Veja verificação de assinatura, criação de templates e fluxos de trabalho com múltiplas assinaturas.
-
-O padrão que você aprendeu aqui — implementar uma interface para fornecer comportamento customizado — é usado por toda a API do GroupDocs. Domine isso e encontrará muitas oportunidades de personalizar a biblioteca conforme suas necessidades.
-
-Agora vá criptografar algo! (Só não use isso para nada que realmente precise estar seguro até que você migre para um algoritmo de criptografia real.)
-
-## Perguntas Frequentes
-
-### 1. Como escolher uma chave XOR apropriada?
-Para XOR especificamente, qualquer inteiro diferente de zero funciona, mas a própria chave não adiciona segurança. Se você realmente se preocupa com segurança, não use XOR — troque por AES ou outro algoritmo comprovado. Para fins de ofuscação, escolha um valor aleatório entre 1‑255 e armazene‑lo com segurança na sua configuração.
-
-### 2. Posso mudar a chave XOR dinamicamente em tempo de execução?
-Com certeza! Basta chamar `setKey()` com um novo valor. Mas lembre‑se: quaisquer dados criptografados com a chave antiga precisarão ser descriptografados com a mesma chave. Se mudar as chaves, será necessário re‑criptografar os dados existentes ou rastrear qual chave foi usada para cada item. Por isso o gerenciamento de chaves é uma disciplina própria na criptografia.
-
-### 3. Quais são algumas alternativas à criptografia XOR?
-Para aprendizado e usos não críticos: cifra de César, ROT13, codificação base64 (não é criptografia, mas ofusca dados).  
-
-Para segurança real: AES‑256 (simétrica), RSA‑2048+ (assimétrica), ChaCha20 (simétrica moderna). O pacote `javax.crypto` do Java oferece todos esses algoritmos prontamente.
-
-### 4. Como o GroupDocs.Signature lida com arquivos grandes ao usar criptografia?
-O GroupDocs é otimizado para arquivos grandes e usa streaming sempre que possível. Contudo, sua implementação de criptografia personalizada pode se tornar um gargalo se não for cuidadosa. Para arquivos acima de 50 MB, implemente processamento por blocos nos seus métodos `encrypt`/`decrypt` ao invés de carregar tudo na memória de uma vez.
-
-### 5. É possível integrar esse recurso em uma aplicação web?
-Definitivamente! Use Spring Boot, Jakarta EE ou qualquer framework Java web. Algumas dicas:
-
-- Torne sua classe de criptografia um singleton ou bean de escopo de aplicação  
-- Armazene a chave de criptografia em variáveis de ambiente, não em código‑fonte  
-- Considere criptografar os dados antes de deixá‑los sair do servidor de aplicação  
-- Fique atento ao uso de memória com usuários concorrentes enviando documentos grandes  
-
-Exemplo de integração com Spring Boot:
 
 ```java
 @Component
@@ -523,31 +520,8 @@ public class EncryptionService {
 }
 ```
 
-### 6. Posso usar isso com documentos PDF?
-Sim! O GroupDocs.Signature suporta PDFs, além de documentos Word, planilhas Excel, imagens e muito mais. A criptografia ocorre no nível dos dados da assinatura, não no documento inteiro, então funciona com qualquer formato suportado.
+## Tutoriais Relacionados
 
-### 7. O que acontece se eu perder minha chave de criptografia?
-Com criptografia simétrica (como XOR), perder a chave significa perda permanente dos dados. Não há mecanismo de recuperação. Em sistemas de produção, você deve ter:
-
-- Sistemas de backup de chaves  
-- Escrow de chaves para indústrias reguladas  
-- Políticas de rotação de chaves com períodos de sobreposição  
-- Logs de auditoria de uso de chaves  
-
-Esse é mais um motivo para usar bibliotecas de criptografia estabelecidas — elas já vêm com ferramentas de gerenciamento de chaves integradas.
-
-## Recursos
-
-- [Documentação do GroupDocs.Signature for Java](https://docs.groupdocs.com/signature/java/)
-- [Referência da API](https://reference.groupdocs.com/signature/java/)
-- [Download da Última Versão](https://releases.groupdocs.com/signature/java/)
-- [Comprar Licença](https://purchase.groupdocs.com/buy)
-- [Teste Gratuito](https://releases.groupdocs.com/signature/java/)
-- [Solicitar Licença Temporária](https://purchase.groupdocs.com/temporary-license/)
-- [Fórum de Suporte GroupDocs](https://forum.groupdocs.com/c/signature/)
-
----
-
-**Última atualização:** 2026-02-18  
-**Testado com:** GroupDocs.Signature 23.12 for Java  
-**Autor:** GroupDocs
+- [Criar Criptografador XOR Personalizado em Java com GroupDocs.Signature](/signature/java/advanced-options/implement-custom-xor-encryption-groupdocs-signature-java/)  
+- [Criptografar Metadados de Documento Java com GroupDocs.Signature](/signature/java/advanced-options/master-metadata-encryption-serialization-java-groupdocs-signature/)  
+- [Como Criptografar Assinatura em Java – Opções Avançadas de Assinatura & Técnicas de Criptografia](/signature/java/advanced-options/)

@@ -107,7 +107,6 @@ weight: 1
 ### استخدام Maven
 أضف هذه **maven dependency groupdocs** إلى ملف `pom.xml` الخاص بك:
 
-``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -115,17 +114,14 @@ weight: 1
     <version>23.12</version>
 </dependency>
 ```
-```
 
 بعد إضافة ذلك، شغّل `mvn clean install` لتنزيل المكتبة.
 
 ### استخدام Gradle
 لمشاريع Gradle، أضف هذا السطر إلى ملف `build.gradle` الخاص بك:
 
-``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 ثم قم بمزامنة مشروعك باستخدام `gradle build`.
@@ -145,11 +141,9 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 ## التهيئة الأساسية
 `Signature` هو الصف الرئيسي في GroupDocs.Signature for Java الذي يحمل المستندات ويعالجها للتوقيع. بمجرد تثبيت المكتبة، يصبح تهيئتها بسيطًا كالإشارة إلى مسار المستند:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
-```
 ```
 
 هذا ينشئ كائن `Signature` جاهز للعمل.
@@ -175,12 +169,10 @@ Signature signature = new Signature(filePath);
 #### 1. تكوين مسارات الملفات الخاصة بك
 حدد أين يعيش المستند المصدر وأين تريد حفظ النسخة الموقعة:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" + fileName).getPath();
-```
 ```
 
 **نصيحة احترافية:** استخدم `Paths.get()` بدلاً من دمج السلاسل لمسارات الملفات—فهو يتعامل تلقائيًا مع فواصل النظام التشغيلي.
@@ -188,7 +180,6 @@ String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" +
 #### 2. تهيئة كائن Signature
 غلف تهيئتك داخل كتلة try‑catch لمعالجة مشاكل الوصول إلى الملفات المحتملة:
 
-``` 
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -197,14 +188,12 @@ try {
     throw new RuntimeException("Error initializing signature: " + e.getMessage(), e);
 }
 ```
-```
 
 `RuntimeException` يضيف سياقًا عند تصحيح الأخطاء، مما يوفر الوقت في الإنتاج.
 
 #### 3. تعريف حجم ومواقع رمز QR
 `QrCodeSignOptions` يضبط صورة QR التي ستوضع على المستند. يتيح لك تحديد الحجم، الهوامش، والمحاذاة.
 
-``` 
 ```java
 int qrWidth = 100;
 int qrHeight = 100;
@@ -224,13 +213,11 @@ for (int horizontalAlignment : HorizontalAlignment.getValues()) {
     }
 }
 ```
-```
 
 الحلقة تنشئ خيارات QR لكل محاذاة أفقية (Left, Center, Right) ورأسية (Top, Center, Bottom)، مع هامش 5 بكسل حتى لا يلامس الرمز حافة الصفحة.
 
 لأغلب سيناريوهات الإنتاج ستختار موقعًا واحدًا، مثل أسفل اليمين للعقود:
 
-``` 
 ```java
 QrCodeSignOptions options = new QrCodeSignOptions("Signature");
 options.setWidth(100);
@@ -239,15 +226,12 @@ options.setHorizontalAlignment(HorizontalAlignment.Right);
 options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
-```
 
 #### 4. توقيع المستند
 الآن نطبق جميع التوقيعات المكوّنة في عملية واحدة:
 
-``` 
 ```java
 SignResult signResult = signature.sign(outputFilePath, listOptions);
-```
 ```
 
 طريقة `sign()` تعالج كل رمز QR في القائمة وتُحفظ النتيجة في مسار الإخراج المحدد. تُعيد كائن `SignResult` يخبرك بعدد التوقيعات التي أضيفت بنجاح—مثالي للتسجيل.
@@ -264,12 +248,10 @@ SignResult signResult = signature.sign(outputFilePath, listOptions);
 2. تأكد من صلاحيات القراءة للمصدر وصلاحيات الكتابة للمجلد الهدف.  
 3. هروب أي أحرف خاصة في المسار.
 
-``` 
 ```java
 // Better approach: Use absolute paths
 String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
-```
 ```
 
 ### المشكلة 2: تداخل رموز QR مع محتوى المستند
@@ -277,10 +259,8 @@ Signature signature = new Signature(absolutePath);
 
 **Solution:** زد قيم الهوامش واختر محاذاة تُبقي الرمز في مناطق فارغة:
 
-``` 
 ```java
 options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
-```
 ```
 
 ### المشكلة 3: مشاكل الذاكرة مع المستندات الكبيرة
@@ -288,12 +268,10 @@ options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
 
 **Solution:** تخلص من كائنات `Signature` فورًا وعالج الملفات الكبيرة على دفعات:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your signing code
 } // Automatically closes and releases resources
-```
 ```
 
 بيان try‑with‑resources يضمن إغلاق الموارد حتى لو حدث استثناء.
@@ -303,7 +281,6 @@ try (Signature signature = new Signature(filePath)) {
 
 **Solution:** أنشئ **كائنًا جديدًا** من `QrCodeSignOptions` لكل موقع بدلاً من إعادة استخدام نفس الكائن:
 
-``` 
 ```java
 // Wrong - reuses same object
 QrCodeSignOptions options = new QrCodeSignOptions("Text");
@@ -315,7 +292,6 @@ listOptions.add(options);
 // Correct - creates new object each time
 listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
-```
 ```
 
 ## التطبيقات العملية
@@ -337,12 +313,10 @@ listOptions.add(new QrCodeSignOptions("Right"));
 ### إدارة الموارد
 دائمًا أغلق كائنات `Signature` لتجنب تسرب الذاكرة:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your code
 } // Auto‑closes
-```
 ```
 
 فكر في إنشاء مجموعة معالجة لتطبيقات الويب لتحديد عدد العمليات المتزامنة.
@@ -350,7 +324,6 @@ try (Signature signature = new Signature(filePath)) {
 ### استراتيجية معالجة الأخطاء
 قدّم معلومات خطأ قابلة للتنفيذ بدلاً من التقاط الأخطاء صامتًا:
 
-``` 
 ```java
 try {
     SignResult result = signature.sign(outputFilePath, listOptions);
@@ -363,7 +336,6 @@ try {
     logger.error("Signature failed for document: {}", filePath, e);
     // Implement retry logic or alert mechanism
 }
-```
 ```
 
 ### تحسين الأداء
@@ -427,10 +399,8 @@ try {
 **س:** *هل يمكنني إضافة رموز QR إلى صفحات محددة في مستند متعدد الصفحات؟*  
 **ج:** بالتأكيد. عيّن رقم الصفحة باستخدام `options.setPageNumber(pageNumber);`. مثال:
 
-``` 
 ```java
 options.setPageNumber(1); // Add to first page only
-```
 ```
 
 **س:** *ما البيانات التي يمكنني تشفيرها في رمز QR؟*  
@@ -439,13 +409,11 @@ options.setPageNumber(1); // Add to first page only
 **س:** *كيف أتحقق من توقيعات رمز QR برمجيًا؟*  
 **ج:** يوفر GroupDocs.Signature طريقة `verify`. مثال:
 
-``` 
 ```java
 VerificationResult result = signature.verify(verifyOptions);
 if (result.isValid()) {
     // Signature is authentic
 }
-```
 ```
 
 فئة `Signature` هي نقطة الدخول الرئيسية لتطبيق التوقيعات على المستندات.

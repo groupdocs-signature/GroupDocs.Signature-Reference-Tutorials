@@ -111,14 +111,12 @@ weight: 1
 
 將以下 **maven dependency groupdocs** 加入 `pom.xml` 檔案：
 
-``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
     <artifactId>groupdocs-signature</artifactId>
     <version>23.12</version>
 </dependency>
-```
 ```
 
 加入後，執行 `mvn clean install` 以下載程式庫。
@@ -127,10 +125,8 @@ weight: 1
 
 對於 Gradle 專案，將此行加入 `build.gradle`：
 
-``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 然後使用 `gradle build` 同步專案。
@@ -153,11 +149,9 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 
 `Signature` 是 GroupDocs.Signature for Java 的主要入口類別，用於載入與操作文件以進行簽署。安裝程式庫後，初始化非常簡單，只需指向您的文件：
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
-```
 ```
 
 即可建立可供使用的 `Signature` 物件。
@@ -187,12 +181,10 @@ QR Code 簽名會將可驗證資料（例如時間戳、簽署者身分或驗證
 
 定義來源文件與簽署後檔案的存放位置：
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" + fileName).getPath();
-```
 ```
 
 **小技巧：** 使用 `Paths.get()` 取代字串串接，可自動處理作業系統的路徑分隔符。
@@ -201,7 +193,6 @@ String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" +
 
 將初始化包在 try‑catch 區塊中，以處理可能的檔案存取問題：
 
-``` 
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -210,7 +201,6 @@ try {
     throw new RuntimeException("Error initializing signature: " + e.getMessage(), e);
 }
 ```
-```
 
 `RuntimeException` 能在除錯時提供更多上下文資訊，省下大量時間。
 
@@ -218,7 +208,6 @@ try {
 
 `QrCodeSignOptions` 用於設定將放置於文件的 QR 圖片，可設定尺寸、邊距與對齊方式。
 
-``` 
 ```java
 int qrWidth = 100;
 int qrHeight = 100;
@@ -238,13 +227,11 @@ for (int horizontalAlignment : HorizontalAlignment.getValues()) {
     }
 }
 ```
-```
 
 此迴圈會為每種水平（左、置中、右）與垂直（上、置中、下）對齊建立 QR Code 設定，並加上 5 像素的邊距，避免貼到頁面邊緣。
 
 在大多數生產情境下，您只會選擇單一位置，例如合約的右下角：
 
-``` 
 ```java
 QrCodeSignOptions options = new QrCodeSignOptions("Signature");
 options.setWidth(100);
@@ -253,16 +240,13 @@ options.setHorizontalAlignment(HorizontalAlignment.Right);
 options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
-```
 
 #### 4. 簽署文件
 
 一次性套用所有已配置的簽名：
 
-``` 
 ```java
 SignResult signResult = signature.sign(outputFilePath, listOptions);
-```
 ```
 
 `sign()` 方法會處理列表中的每個 QR Code，並將結果寫入指定的輸出路徑。回傳的 `SignResult` 物件會告訴您成功加入的簽名數量，方便記錄。
@@ -280,12 +264,10 @@ SignResult signResult = signature.sign(outputFilePath, listOptions);
 2. 確認來源檔案具讀取權限，輸出資料夾具寫入權限。  
 3. 逃脫路徑中的特殊字元。
 
-``` 
 ```java
 // 更佳做法：使用絕對路徑
 String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
-```
 ```
 
 ### 問題 2：QR Code 與文件內容重疊
@@ -294,10 +276,8 @@ Signature signature = new Signature(absolutePath);
 
 **解決方案：** 增大邊距值，並選擇不會佔用文字區域的對齊方式：
 
-``` 
 ```java
 options.setMargin(new Padding(20)); // 從 5 像素提升至 20 像素
-```
 ```
 
 ### 問題 3：大型文件的記憶體問題
@@ -306,12 +286,10 @@ options.setMargin(new Padding(20)); // 從 5 像素提升至 20 像素
 
 **解決方案：** 盡快釋放 `Signature` 物件，並分批處理大型檔案：
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // 簽署程式碼寫在此處
 } // 自動關閉並釋放資源
-```
 ```
 
 使用 try‑with‑resources 可確保即使發生例外也會正確清理。
@@ -322,7 +300,6 @@ try (Signature signature = new Signature(filePath)) {
 
 **解決方案：** 為每個位置 **建立新的** `QrCodeSignOptions` 物件，切勿重複使用同一個實例：
 
-``` 
 ```java
 // 錯誤範例 – 重複使用同一物件
 QrCodeSignOptions options = new QrCodeSignOptions("Text");
@@ -334,7 +311,6 @@ listOptions.add(options);
 // 正確範例 – 每次建立新物件
 listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
-```
 ```
 
 ## 實務應用
@@ -361,12 +337,10 @@ listOptions.add(new QrCodeSignOptions("Right"));
 
 務必關閉 `Signature` 物件以防止記憶體泄漏：
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // 您的程式碼
 } // 自動關閉
-```
 ```
 
 對於 Web 應用，可考慮建立處理池以限制同時執行的作業數量。
@@ -375,7 +349,6 @@ try (Signature signature = new Signature(filePath)) {
 
 提供可操作的錯誤資訊，避免靜默捕獲：
 
-``` 
 ```java
 try {
     SignResult result = signature.sign(outputFilePath, listOptions);
@@ -388,7 +361,6 @@ try {
     logger.error("Signature failed for document: {}", filePath, e);
     // 實作重試或警示機制
 }
-```
 ```
 
 ### 效能優化
@@ -458,10 +430,8 @@ try {
 **Q：** *能否在多頁文件的特定頁面加入 QR Code？*  
 **A：** 完全可以。透過 `options.setPageNumber(pageNumber);` 設定頁碼。例如：
 
-``` 
 ```java
 options.setPageNumber(1); // 僅在第一頁加入
-```
 ```
 
 **Q：** *QR Code 可以編碼什麼資料？*  
@@ -470,13 +440,11 @@ options.setPageNumber(1); // 僅在第一頁加入
 **Q：** *如何以程式方式驗證 QR Code 簽名？*  
 **A：** GroupDocs.Signature 提供 `verify` 方法。例如：
 
-``` 
 ```java
 VerificationResult result = signature.verify(verifyOptions);
 if (result.isValid()) {
     // 簽名有效
 }
-```
 ```
 
 `Signature` 類別是對文件套用簽名的主要入口。

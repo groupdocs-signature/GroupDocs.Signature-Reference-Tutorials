@@ -110,14 +110,12 @@ GroupDocs.Signature'ı projenize eklemek basittir. Derleme sisteminize uyan yön
 
 Bu **maven dependency groupdocs** öğesini `pom.xml` dosyanıza ekleyin:
 
-``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
     <artifactId>groupdocs-signature</artifactId>
     <version>23.12</version>
 </dependency>
-```
 ```
 
 Bunu ekledikten sonra, kütüphaneyi indirmek için `mvn clean install` komutunu çalıştırın.
@@ -126,10 +124,8 @@ Bunu ekledikten sonra, kütüphaneyi indirmek için `mvn clean install` komutunu
 
 Gradle projeleri için, bu satırı `build.gradle` dosyanıza ekleyin:
 
-``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Ardından projenizi `gradle build` ile senkronize edin.
@@ -152,11 +148,9 @@ Deneme sürümü bir filigran ekler, bu yüzden demolar için buna göre plan ya
 
 `Signature`, GroupDocs.Signature for Java'da imzalama için belgeleri yükleyen ve işleyen ana giriş sınıfıdır. Kütüphaneyi kurduktan sonra, başlatmak belge yolunu göstermek kadar basittir:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
-```
 ```
 
 Bu, çalışmaya hazır bir `Signature` nesnesi oluşturur.
@@ -186,12 +180,10 @@ Doğru konumlandırma QR kodunun kolayca taranmasını, yasal standartlara uygun
 
 Kaynak belgenizin nerede olduğunu ve imzalı sürümün nereye kaydedileceğini tanımlayın:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" + fileName).getPath();
-```
 ```
 
 **Pro ipucu:** Dosya yolları için string birleştirme yerine `Paths.get()` kullanın—bu, işletim sistemi‑özel ayırıcıları otomatik olarak yönetir.
@@ -200,7 +192,6 @@ String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" +
 
 Olası dosya erişim sorunlarını ele almak için başlatmanızı bir try‑catch bloğuna sarın:
 
-``` 
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -209,7 +200,6 @@ try {
     throw new RuntimeException("Error initializing signature: " + e.getMessage(), e);
 }
 ```
-```
 
 `RuntimeException`, hata ayıklarken bağlam ekler, bu da üretimde zaman tasarrufu sağlar.
 
@@ -217,7 +207,6 @@ try {
 
 `QrCodeSignOptions`, belgeye yerleştirilecek QR görüntüsünü yapılandırır. Boyut, kenar boşlukları ve hizalama ayarlamanıza izin verir.
 
-``` 
 ```java
 int qrWidth = 100;
 int qrHeight = 100;
@@ -237,13 +226,11 @@ for (int horizontalAlignment : HorizontalAlignment.getValues()) {
     }
 }
 ```
-```
 
 Döngü, her yatay (Left, Center, Right) ve dikey (Top, Center, Bottom) hizalama için QR kodu seçenekleri oluşturur, kodun sayfa kenarına hiç temas etmemesi için 5 piksel kenar boşluğu ekler.
 
 Çoğu üretim senaryosu için tek bir konum seçersiniz, örneğin sözleşmelerde alt‑sağ:
 
-``` 
 ```java
 QrCodeSignOptions options = new QrCodeSignOptions("Signature");
 options.setWidth(100);
@@ -252,16 +239,13 @@ options.setHorizontalAlignment(HorizontalAlignment.Right);
 options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
-```
 
 #### 4. Belgeyi İmzala
 
 Şimdi tüm yapılandırılmış imzaları tek bir işlemde uyguluyoruz:
 
-``` 
 ```java
 SignResult signResult = signature.sign(outputFilePath, listOptions);
-```
 ```
 
 `sign()` metodu listedeki her QR kodunu işler ve sonucu çıktı yolunuza kaydeder. Başarıyla eklenen imza sayısını belirten bir `SignResult` nesnesi döndürür—günlükleme için mükemmeldir.
@@ -280,12 +264,10 @@ SignResult signResult = signature.sign(outputFilePath, listOptions);
 2. Kaynak için okuma izinlerini ve çıktı klasörü için yazma izinlerini doğrulayın.  
 3. Yoldaki özel karakterleri kaçırın.  
 
-``` 
 ```java
 // Better approach: Use absolute paths
 String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
-```
 ```
 
 ### Problem 2: QR Kodları Belge İçeriğiyle Çakışıyor
@@ -294,10 +276,8 @@ Signature signature = new Signature(absolutePath);
 
 **Çözüm:** Kenar boşluğu değerlerini artırın ve kodu boş bölgelerde tutacak hizalamaları seçin:
 
-``` 
 ```java
 options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
-```
 ```
 
 ### Problem 3: Büyük Belgelerde Bellek Sorunları
@@ -306,12 +286,10 @@ options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
 
 **Çözüm:** `Signature` nesnelerini hızlıca serbest bırakın ve büyük dosyaları toplu işleyin:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your signing code
 } // Automatically closes and releases resources
-```
 ```
 
 try‑with‑resources ifadesi, bir istisna oluşsa bile temizlik garantiler.
@@ -322,7 +300,6 @@ try‑with‑resources ifadesi, bir istisna oluşsa bile temizlik garantiler.
 
 **Çözüm:** Aynı nesneyi yeniden kullanmak yerine her konum için **yeni** bir `QrCodeSignOptions` örneği oluşturun:
 
-``` 
 ```java
 // Wrong - reuses same object
 QrCodeSignOptions options = new QrCodeSignOptions("Text");
@@ -334,7 +311,6 @@ listOptions.add(options);
 // Correct - creates new object each time
 listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
-```
 ```
 
 ## Pratik Uygulamalar
@@ -361,12 +337,10 @@ Sertifikaların alt kısmına, doğrulama URL'si ve sertifika kimliği içeren b
 
 Bellek sızıntılarını önlemek için her zaman `Signature` nesnelerini kapatın:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your code
 } // Auto‑closes
-```
 ```
 
 Web uygulamaları için eşzamanlı işlemleri sınırlamak amacıyla bir işleme havuzu düşünün.
@@ -375,7 +349,6 @@ Web uygulamaları için eşzamanlı işlemleri sınırlamak amacıyla bir işlem
 
 Sessiz yakalamalar yerine eyleme geçirilebilir hata bilgisi sağlayın:
 
-``` 
 ```java
 try {
     SignResult result = signature.sign(outputFilePath, listOptions);
@@ -388,7 +361,6 @@ try {
     logger.error("Signature failed for document: {}", filePath, e);
     // Implement retry logic or alert mechanism
 }
-```
 ```
 
 ### Performans Optimizasyonu
@@ -458,10 +430,8 @@ Yüksek verimli ortamlar için:
 **S:** *Çok sayfalı bir belgede belirli sayfalara QR kodu ekleyebilir miyim?*  
 **C:** Kesinlikle. Sayfa numarasını `options.setPageNumber(pageNumber);` ile ayarlayın. Örnek:
 
-``` 
 ```java
 options.setPageNumber(1); // Add to first page only
-```
 ```
 
 **S:** *QR koduna hangi verileri kodlayabilirim?*  
@@ -470,13 +440,11 @@ options.setPageNumber(1); // Add to first page only
 **S:** *QR kodu imzalarını programlı olarak nasıl doğrularım?*  
 **C:** GroupDocs.Signature bir `verify` metodu sağlar. Örnek:
 
-``` 
 ```java
 VerificationResult result = signature.verify(verifyOptions);
 if (result.isValid()) {
     // Signature is authentic
 }
-```
 ```
 
 `Signature` sınıfı, belgelere imza uygulamak için ana giriş noktasıdır.

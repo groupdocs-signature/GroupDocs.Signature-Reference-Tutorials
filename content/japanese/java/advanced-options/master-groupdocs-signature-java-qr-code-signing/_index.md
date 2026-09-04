@@ -111,14 +111,12 @@ GroupDocs.Signature をプロジェクトに導入するのは簡単です。ビ
 
 この **maven dependency groupdocs** を `pom.xml` ファイルに追加します：
 
-``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
     <artifactId>groupdocs-signature</artifactId>
     <version>23.12</version>
 </dependency>
-```
 ```
 
 追加後、`mvn clean install` を実行してライブラリをダウンロードします。
@@ -127,10 +125,8 @@ GroupDocs.Signature をプロジェクトに導入するのは簡単です。ビ
 
 Gradle プロジェクトの場合、`build.gradle` にこの行を追加します：
 
-``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 その後、`gradle build` でプロジェクトを同期します。
@@ -153,11 +149,9 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 
 `Signature` は GroupDocs.Signature for Java の主要エントリーポイントクラスで、署名用に文書をロードおよび操作します。ライブラリをインストールしたら、ドキュメントを指すだけで初期化できます：
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
-```
 ```
 
 これで `Signature` オブジェクトが作成され、使用できるようになります。
@@ -187,12 +181,10 @@ QRコード署名は、タイムスタンプ、署名者の身元、検証URL �
 
 元の文書の場所と署名済みバージョンを保存する場所を定義します：
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" + fileName).getPath();
-```
 ```
 
 **プロのコツ:** ファイルパスには文字列結合ではなく `Paths.get()` を使用してください。OS 固有の区切り文字を自動的に処理します。
@@ -201,7 +193,6 @@ String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" +
 
 初期化を try‑catch ブロックでラップして、ファイルアクセスの問題に対処します：
 
-``` 
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -210,7 +201,6 @@ try {
     throw new RuntimeException("Error initializing signature: " + e.getMessage(), e);
 }
 ```
-```
 
 `RuntimeException` はデバッグ時にコンテキストを追加し、本番での時間を節約します。
 
@@ -218,7 +208,6 @@ try {
 
 `QrCodeSignOptions` は文書に配置される QR 画像を設定します。サイズ、余白、配置を設定できます。
 
-``` 
 ```java
 int qrWidth = 100;
 int qrHeight = 100;
@@ -238,13 +227,11 @@ for (int horizontalAlignment : HorizontalAlignment.getValues()) {
     }
 }
 ```
-```
 
 このループは、水平（左、中央、右）と垂直（上、中央、下）のすべての配置に対して QR コードオプションを作成し、5 ピクセルの余白を追加してコードがページ端に触れないようにします。
 
 多くの本番シナリオでは、契約書のように右下など単一の位置を選択します：
 
-``` 
 ```java
 QrCodeSignOptions options = new QrCodeSignOptions("Signature");
 options.setWidth(100);
@@ -253,16 +240,13 @@ options.setHorizontalAlignment(HorizontalAlignment.Right);
 options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
-```
 
 #### 4. 文書に署名する
 
 これで、すべての設定された署名を一度に適用します：
 
-``` 
 ```java
 SignResult signResult = signature.sign(outputFilePath, listOptions);
-```
 ```
 
 `sign()` メソッドはリスト内のすべての QR コードを処理し、結果を出力パスに保存します。`SignResult` オブジェクトが返され、成功した署名の数が分かります—ロギングに最適です。
@@ -281,12 +265,10 @@ SignResult signResult = signature.sign(outputFilePath, listOptions);
 2. ソースの読み取り権限と出力フォルダの書き込み権限を確認する。  
 3. パス内の特殊文字をエスケープする。
 
-``` 
 ```java
 // Better approach: Use absolute paths
 String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
-```
 ```
 
 ### 問題 2: QRコードが文書内容と重なる
@@ -295,10 +277,8 @@ Signature signature = new Signature(absolutePath);
 
 **解決策:** 余白値を増やし、コードが空白領域に収まる配置を選択する：
 
-``` 
 ```java
 options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
-```
 ```
 
 ### 問題 3: 大きな文書でのメモリ問題
@@ -307,12 +287,10 @@ options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
 
 **解決策:** `Signature` オブジェクトを速やかに破棄し、大きなファイルはバッチ処理する：
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your signing code
 } // Automatically closes and releases resources
-```
 ```
 
 ### 問題 4: QRコードの内容が更新されない
@@ -321,7 +299,6 @@ try (Signature signature = new Signature(filePath)) {
 
 **解決策:** 同じオブジェクトを再利用せず、各位置ごとに **新しい** `QrCodeSignOptions` インスタンスを作成する：
 
-``` 
 ```java
 // Wrong - reuses same object
 QrCodeSignOptions options = new QrCodeSignOptions("Text");
@@ -333,7 +310,6 @@ listOptions.add(options);
 // Correct - creates new object each time
 listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
-```
 ```
 
 ## 実用的な応用例
@@ -360,12 +336,10 @@ listOptions.add(new QrCodeSignOptions("Right"));
 
 `Signature` オブジェクトは常にクローズしてメモリリークを防止してください：
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your code
 } // Auto‑closes
-```
 ```
 
 Web アプリでは、同時実行数を制限するために処理プールの使用を検討してください。
@@ -374,7 +348,6 @@ Web アプリでは、同時実行数を制限するために処理プールの�
 
 サイレントキャッチではなく、実行可能なエラー情報を提供してください：
 
-``` 
 ```java
 try {
     SignResult result = signature.sign(outputFilePath, listOptions);
@@ -387,7 +360,6 @@ try {
     logger.error("Signature failed for document: {}", filePath, e);
     // Implement retry logic or alert mechanism
 }
-```
 ```
 
 ### Performance Optimization
@@ -457,10 +429,8 @@ try {
 **Q:** *複数ページの文書で特定のページに QR コードを追加できますか？*  
 **A:** もちろんです。`options.setPageNumber(pageNumber);` でページ番号を設定します。例:
 
-``` 
 ```java
 options.setPageNumber(1); // Add to first page only
-```
 ```
 
 **Q:** *QRコードにどのようなデータをエンコードできますか？*  
@@ -469,13 +439,11 @@ options.setPageNumber(1); // Add to first page only
 **Q:** *プログラムで QR コード署名を検証するには？*  
 **A:** GroupDocs.Signature は `verify` メソッドを提供します。例:
 
-``` 
 ```java
 VerificationResult result = signature.verify(verifyOptions);
 if (result.isValid()) {
     // Signature is authentic
 }
-```
 ```
 
 `Signature` クラスは文書に署名を適用するための主要エントリーポイントです。

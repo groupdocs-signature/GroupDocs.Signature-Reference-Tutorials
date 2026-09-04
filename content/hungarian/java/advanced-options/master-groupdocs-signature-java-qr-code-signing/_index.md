@@ -112,14 +112,12 @@ A GroupDocs.Signature projektedbe való beillesztése egyszerű. Válaszd ki a b
 
 Add hozzá ezt a **maven dependency groupdocs**‑t a `pom.xml` fájlodhoz:
 
-``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
     <artifactId>groupdocs-signature</artifactId>
     <version>23.12</version>
 </dependency>
-```
 ```
 
 Ez után futtasd a `mvn clean install` parancsot a könyvtár letöltéséhez.
@@ -128,10 +126,8 @@ Ez után futtasd a `mvn clean install` parancsot a könyvtár letöltéséhez.
 
 Gradle projektekhez add hozzá ezt a sort a `build.gradle` fájlodhoz:
 
-``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Ezután szinkronizáld a projektet a `gradle build` paranccsal.
@@ -154,11 +150,9 @@ A próba verzió vízjelet helyez el, ezért tervezd meg a demókat ennek megfel
 
 A `Signature` a GroupDocs.Signature for Java fő belépési osztálya, amely betölti és manipulálja a dokumentumokat aláírás céljából. A könyvtár telepítése után az inicializálás olyan egyszerű, mint a dokumentumra mutatni:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
-```
 ```
 
 Ez létrehozza a `Signature` objektumot, amely készen áll a munkára.
@@ -188,12 +182,10 @@ A megfelelő pozicionálás biztosítja, hogy a QR kód könnyen beolvasható le
 
 Határozd meg, hol található a forrásdokumentum és hová szeretnéd menteni az aláírt változatot:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" + fileName).getPath();
-```
 ```
 
 **Pro tipp:** Használd a `Paths.get()`‑t a karakterlánc‑összefűzés helyett – ez automatikusan kezeli az operációs rendszer specifikus elválasztókat.
@@ -202,7 +194,6 @@ String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" +
 
 Tedd a inicializálást egy try‑catch blokkba, hogy kezeld a lehetséges fájl‑hozzáférési hibákat:
 
-``` 
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -211,7 +202,6 @@ try {
     throw new RuntimeException("Error initializing signature: " + e.getMessage(), e);
 }
 ```
-```
 
 A `RuntimeException` kontextust ad a hibához, ami időt takarít meg a termelésben.
 
@@ -219,7 +209,6 @@ A `RuntimeException` kontextust ad a hibához, ami időt takarít meg a termelé
 
 A `QrCodeSignOptions` konfigurálja a dokumentumba helyezett QR képet. Itt állítható be a méret, a margók és az igazítás.
 
-``` 
 ```java
 int qrWidth = 100;
 int qrHeight = 100;
@@ -239,13 +228,11 @@ for (int horizontalAlignment : HorizontalAlignment.getValues()) {
     }
 }
 ```
-```
 
 A ciklus minden vízszintes (Left, Center, Right) és függőleges (Top, Center, Bottom) igazításhoz létrehoz egy QR kód opciót, 5‑pixel margóval, hogy a kód ne érjen a lap széléhez.
 
 A legtöbb termelési esetben egyetlen pozíciót választunk, például a jobb‑alsó sarok szerződésekhez:
 
-``` 
 ```java
 QrCodeSignOptions options = new QrCodeSignOptions("Signature");
 options.setWidth(100);
@@ -254,16 +241,13 @@ options.setHorizontalAlignment(HorizontalAlignment.Right);
 options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
-```
 
 #### 4. Dokumentum aláírása
 
 Most alkalmazzuk az összes konfigurált aláírást egy műveletben:
 
-``` 
 ```java
 SignResult signResult = signature.sign(outputFilePath, listOptions);
-```
 ```
 
 A `sign()` metódus feldolgozza a listában szereplő QR kódokat, és elmenti az eredményt a megadott útvonalra. A visszaadott `SignResult` objektum megmutatja, hány aláírás került sikeresen hozzáadásra – ideális naplózáshoz.
@@ -281,12 +265,10 @@ A `sign()` metódus feldolgozza a listában szereplő QR kódokat, és elmenti a
 2. Ellenőrizd a forrás olvasási és a kimeneti mappa írási jogosultságait.  
 3. Szököld meg a speciális karaktereket az útvonalban.
 
-``` 
 ```java
 // Better approach: Use absolute paths
 String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
-```
 ```
 
 ### Probléma 2: QR kódok átfedik a dokumentum tartalmát
@@ -295,10 +277,8 @@ Signature signature = new Signature(absolutePath);
 
 **Megoldás:** Növeld a margó értékét, és válassz olyan igazításokat, amelyek a kódot üres területekre helyezik:
 
-``` 
 ```java
 options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
-```
 ```
 
 ### Probléma 3: Memória problémák nagy dokumentumoknál
@@ -307,12 +287,10 @@ options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
 
 **Megoldás:** Zárd le a `Signature` objektumokat időben, és batch‑elj nagy fájlokat:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your signing code
 } // Automatically closes and releases resources
-```
 ```
 
 A try‑with‑resources garantálja a felszabadítást még kivétel esetén is.
@@ -323,7 +301,6 @@ A try‑with‑resources garantálja a felszabadítást még kivétel esetén is
 
 **Megoldás:** Minden pozícióhoz **új** `QrCodeSignOptions` példányt hozz létre, ne használd újra ugyanazt az objektumot:
 
-``` 
 ```java
 // Wrong - reuses same object
 QrCodeSignOptions options = new QrCodeSignOptions("Text");
@@ -335,7 +312,6 @@ listOptions.add(options);
 // Correct - creates new object each time
 listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
-```
 ```
 
 ## Gyakorlati alkalmazások
@@ -362,12 +338,10 @@ Több‑lépcsős jóváhagyás során minden aláírás után ágyazz be egy QR
 
 Mindig zárd le a `Signature` objektumokat a memória‑szivárgás elkerülése érdekében:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your code
 } // Auto‑closes
-```
 ```
 
 Webalkalmazások esetén fontold meg egy feldolgozó pool használatát a párhuzamos műveletek korlátozásához.
@@ -376,7 +350,6 @@ Webalkalmazások esetén fontold meg egy feldolgozó pool használatát a párhu
 
 Adj hasznos hibainformációt a csendes elnyelés helyett:
 
-``` 
 ```java
 try {
     SignResult result = signature.sign(outputFilePath, listOptions);
@@ -389,7 +362,6 @@ try {
     logger.error("Signature failed for document: {}", filePath, e);
     // Implement retry logic or alert mechanism
 }
-```
 ```
 
 ### Teljesítmény optimalizálás
@@ -459,10 +431,8 @@ Nagy‑átfutású környezetekhez:
 **Q:** *Hozzáadhatok QR kódokat konkrét oldalakhoz egy többoldalas dokumentumban?*  
 **A:** Természetesen. Állítsd be az oldal számot a `options.setPageNumber(pageNumber);` metódussal. Példa:
 
-``` 
 ```java
 options.setPageNumber(1); // Add to first page only
-```
 ```
 
 **Q:** *Milyen adatot kódolhatok a QR kódban?*  
@@ -471,13 +441,11 @@ options.setPageNumber(1); // Add to first page only
 **Q:** *Hogyan ellenőrizhetem programozottan a QR kód aláírásokat?*  
 **A:** A GroupDocs.Signature biztosít egy `verify` metódust. Példa:
 
-``` 
 ```java
 VerificationResult result = signature.verify(verifyOptions);
 if (result.isValid()) {
     // Signature is authentic
 }
-```
 ```
 
 A `Signature` osztály a fő belépési pont a dokumentumok aláírásához.  

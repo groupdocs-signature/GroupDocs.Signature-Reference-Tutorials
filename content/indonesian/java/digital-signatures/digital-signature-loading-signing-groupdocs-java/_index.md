@@ -388,11 +388,6 @@ Langkah selanjutnya? Cobalah menandatangani batch faktur nyata, integrasikan tim
 
 [Dokumentasi](https://docs.groupdocs.com/signature/java/) | [Referensi API](https://reference.groupdocs.com/signature/java/) | [Unduh Versi Terbaru](https://releases.groupdocs.com/signature/java/) | [Beli Lisensi](https://purchase.groupdocs.com/buy) | [Uji Coba Gratis](https://releases.groupdocs.com/signature/java/) | [Forum Dukungan](https://forum.groupdocs.com/c/signature/13) | [Lisensi Sementara](https://purchase.groupdocs.com/temporary-license/)
 
-{< blocks/products/products-backtop-button >}
-{< /blocks/products/pf/main-wrap-class >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/tutorial-page-section >}
-
 ## Tutorial Terkait
 
 - [Muat dan Simpan Dokumen di Java - Tutorial Lengkap GroupDocs.Signature](/signature/java/document-loading-saving/)

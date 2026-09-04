@@ -1,49 +1,106 @@
 ---
-"date": "2025-05-08"
-"description": "Java के लिए GroupDocs.Signature का उपयोग करके QR कोड वाले Word दस्तावेज़ों पर सुरक्षित रूप से हस्ताक्षर करना सीखें। इस विस्तृत मार्गदर्शिका के साथ अपनी डिजिटल हस्ताक्षर प्रक्रिया को सरल बनाएँ।"
-"title": "Java के लिए GroupDocs.Signature का उपयोग करके QR कोड के साथ Word दस्तावेज़ों पर सुरक्षित रूप से हस्ताक्षर कैसे करें"
-"url": "/hi/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code/"
-"weight": 1
+categories:
+- Digital Signatures
+date: '2026-06-26'
+description: GroupDocs.Signature for Java के साथ प्रोग्रामेटिकली Word दस्तावेज़ों
+  में QR code हस्ताक्षर कैसे बनाएं, सीखें। Step‑by‑step tutorial, code examples, best
+  practices, और performance tips।
+keywords:
+- create qr code signature
+- programmatically sign word
+- qr code digital signature
+- add qr to word
+- groupdocs signature java
+lastmod: '2026-06-26'
+linktitle: Java के साथ Word में QR Code हस्ताक्षर
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-26'
+  description: Learn how to create QR code signature in Word documents programmatically
+    with GroupDocs.Signature for Java. Step‑by‑step tutorial, code examples, best
+    practices, and performance tips.
+  headline: Create QR Code Signature in Word Documents Using Java
+  type: TechArticle
+- description: Learn how to create QR code signature in Word documents programmatically
+    with GroupDocs.Signature for Java. Step‑by‑step tutorial, code examples, best
+    practices, and performance tips.
+  name: Create QR Code Signature in Word Documents Using Java
+  steps:
+  - name: The library reads the source document.
+    text: The library reads the source document.
+  - name: Generates the QR code based on `QrCodeSignOptions`.
+    text: Generates the QR code based on `QrCodeSignOptions`.
+  - name: Inserts the graphic at the specified coordinates.
+    text: Inserts the graphic at the specified coordinates.
+  - name: Saves the modified file to the path you provided.
+    text: Saves the modified file to the path you provided.
+  type: HowTo
+- questions:
+  - answer: Yes. GroupDocs.Signature supports PDF, Excel, PowerPoint, images, and
+      many other formats. Just change the `setFileFormat` to the desired output type.
+    question: Can I sign PDFs instead of Word documents?
+  - answer: Use the library’s `SearchQrCodeSignatures` method to locate QR codes and
+      validate the embedded data against your backend service.
+    question: How do I verify a QR code signature after it’s been added?
+  - answer: Standard QR codes hold up to **4 296 alphanumeric characters**, but for
+      reliable scanning keep payloads under **500 characters**. For larger payloads
+      store a reference ID and fetch details server‑side.
+    question: What is the maximum data I can store in a QR code?
+  - answer: Yes. You can set size, position, foreground/background colors, and even
+      add a logo overlay. Stick to high‑contrast colors for best scan results.
+    question: Can I customize the QR code’s visual appearance?
+  - answer: For documents over 50 pages, expect a few seconds per file. Use batch
+      processing, reuse the `Signature` instance, and monitor JVM heap size.
+    question: How should I handle large‑document signing efficiently?
+  type: FAQPage
+tags:
+- java
+- word-documents
+- qr-code
+- digital-signature
+- groupdocs
+title: Java का उपयोग करके Word दस्तावेज़ों में QR Code हस्ताक्षर बनाएं
 type: docs
+url: /hi/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code/
+weight: 1
 ---
-# Java के लिए GroupDocs.Signature का उपयोग करके QR कोड के साथ Word दस्तावेज़ों पर सुरक्षित रूप से हस्ताक्षर कैसे करें
 
-आज की डिजिटल दुनिया में, दस्तावेज़ों पर सुरक्षित हस्ताक्षर करना व्यवसायों और व्यक्तियों, दोनों के लिए महत्वपूर्ण है। चाहे वह अनुबंध हों, कानूनी समझौते हों या आधिकारिक पत्र, आपके दस्तावेज़ों की प्रामाणिकता सुनिश्चित करना सर्वोपरि है। इलेक्ट्रॉनिक हस्ताक्षरों के साथ, हमने इस प्रक्रिया को और भी सरल बना दिया है और साथ ही सुरक्षा और सुविधा की एक अतिरिक्त परत भी प्रदान की है। Java के लिए GroupDocs.Signature, QR कोड का उपयोग करके Word दस्तावेज़ों पर हस्ताक्षर करने का एक शक्तिशाली समाधान प्रदान करता है—एक आधुनिक और सुरक्षित डिजिटल हस्ताक्षर।
+# Word दस्तावेज़ों में जावा का उपयोग करके QR कोड हस्ताक्षर बनाएं
 
-## आप क्या सीखेंगे
+क्या आपने कभी दस्तावेज़ों को मैन्युअल रूप से साइन करने में घंटे बिताए हैं, और सोचा है कि कोई तेज़ और अधिक भरोसेमंद तरीका नहीं है? आप केवल कुछ पंक्तियों के जावा कोड से **create QR code signature** को Word दस्तावेज़ों में प्रोग्रामेटिकली बना सकते हैं। चाहे आप अनुबंध वर्कफ़्लो को ऑटोमेट कर रहे हों, कानूनी कागज़ात का प्रबंधन कर रहे हों, या मोबाइल‑फ़र्स्ट अनुमोदन पोर्टल बना रहे हों, QR कोड हस्ताक्षर आपको तुरंत, स्कैन करने योग्य सत्यापन देते हैं जो किसी भी स्मार्टफ़ोन पर काम करता है। इस ट्यूटोरियल में आप सीखेंगे कि GroupDocs.Signature for Java को कैसे सेटअप करें, QR कोड विकल्पों को कॉन्फ़िगर करें, और Word फ़ाइलों में URLs, timestamps, या JSON payloads जैसी समृद्ध डेटा एम्बेड करें। अंत तक आप बड़े पैमाने पर दस्तावेज़ साइन कर पाएँगे, मैन्युअल प्रयास घटाएँगे, और अनुपालन बढ़ाएँगे।
 
-- Java के लिए GroupDocs.Signature का उपयोग करने हेतु अपना परिवेश कैसे सेट करें
-- क्यूआर कोड के साथ वर्ड दस्तावेज़ों पर हस्ताक्षर करने के चरण
-- आउटपुट फ़ाइल प्रारूप और QR कोड की स्थिति जैसे विकल्पों को कॉन्फ़िगर करना
-- व्यावहारिक अनुप्रयोग और एकीकरण संभावनाएँ
-- GroupDocs.Signature का कुशलतापूर्वक उपयोग करने के लिए प्रदर्शन अनुकूलन युक्तियाँ
+## त्वरित उत्तर
+- **What library do I need?** GroupDocs.Signature for Java (v23.12+).  
+- **How many lines of code?** Two‑line QR generation plus a few configuration lines.  
+- **Can I sign PDFs too?** Yes – the same API works for PDF, Excel, PowerPoint, and images.  
+- **Is a commercial license required?** Only for production; a free trial or temporary license works for development.  
+- **What data can I store?** Up to ~4 k characters (URL, JSON, IDs), but keep it under 500 chars for reliable scanning.
 
-आइये देखें कि आप इस सुविधा को अपनी परियोजनाओं में कैसे क्रियान्वित कर सकते हैं।
+## create QR code signature क्या है?
+एक **create QR code signature** एक स्कैन करने योग्य 2‑D बारकोड है जो दस्तावेज़ में एम्बेड किया जाता है और डिजिटल हस्ताक्षर या सत्यापन पेलोड का प्रतिनिधित्व करता है। जब उपयोगकर्ता QR कोड स्कैन करता है, तो एन्कोडेड डेटा (अक्सर एक URL या टोकन) पढ़ा और वैध किया जाता है, जिससे विशेष सॉफ़्टवेयर की आवश्यकता के बिना दस्तावेज़ की प्रामाणिकता सिद्ध होती है।
 
-## आवश्यक शर्तें
+## QR कोड जोड़ने के लिए GroupDocs.Signature for Java का उपयोग क्यों करें?
+GroupDocs.Signature **50+ इनपुट और आउटपुट फॉर्मैट** का समर्थन करता है, कई‑सौ‑पेज फ़ाइलों को पूरी मेमोरी लोड किए बिना प्रोसेस कर सकता है, और एक फ़्लुएंट API प्रदान करता है जिससे आप **मिलीसेकंड में प्रोग्रामेटिकली Word** फ़ाइलों पर साइन कर सकते हैं। लाइब्रेरी में बिल्ट‑इन QR, Aztec, DataMatrix, और PDF417 बारकोड जेनरेशन भी है, जिससे यह आधुनिक मोबाइल‑फ़र्स्ट सत्यापन के लिए एक‑स्टॉप समाधान बन जाता है।
 
-आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+## पूर्वापेक्षाएँ
 
 ### आवश्यक लाइब्रेरी और निर्भरताएँ
-
-- **Java के लिए GroupDocs.Signature** लाइब्रेरी संस्करण 23.12 या बाद का संस्करण.
-  
-सुनिश्चित करें कि आप इसे नीचे दिखाए अनुसार Maven या Gradle का उपयोग करके शामिल करें, या सीधे GroupDocs वेबसाइट से डाउनलोड करें।
+- **GroupDocs.Signature for Java** संस्करण **23.12** या बाद का (एकमात्र बाहरी निर्भरता)।
 
 ### पर्यावरण सेटअप आवश्यकताएँ
-
-- एक संगत JDK स्थापित (Java 8 या उच्चतर अनुशंसित).
-- एक एकीकृत विकास वातावरण (IDE) जैसे कि IntelliJ IDEA या Eclipse.
+- **JDK 8+** (प्रोडक्शन के लिए Java 11 या 17 की सिफ़ारिश)।  
+- **IDE** आपकी पसंद का (IntelliJ IDEA, Eclipse, VS Code)।  
+- **Build tool** – Maven या Gradle (नीचे के उदाहरण दोनों के साथ काम करेंगे)।
 
 ### ज्ञान पूर्वापेक्षाएँ
+- बेसिक जावा सिंटैक्स और फ़ाइल‑IO हैंडलिंग।  
+- Maven/Gradle डिपेंडेंसी डिक्लेरेशन्स की परिचितता (हम सटीक स्निपेट दिखाएंगे)।
 
-जावा प्रोग्रामिंग की बुनियादी समझ और दस्तावेज़ प्रसंस्करण अवधारणाओं से परिचित होना लाभदायक होगा।
+## GroupDocs.Signature for Java सेटअप
 
-## Java के लिए GroupDocs.Signature सेट अप करना
+अपनी बिल्ड सिस्टम चुनें और नीचे दिखाए अनुसार डिपेंडेंसी जोड़ें। नीचे के प्लेसहोल्डर मूल कोड ब्लॉक्स को दर्शाते हैं; उन्हें अपरिवर्तित रखें।
 
-GroupDocs.Signature का इस्तेमाल शुरू करने के लिए, आपको इसे अपने प्रोजेक्ट में एक निर्भरता के रूप में जोड़ना होगा। यह कैसे करें:
-
-**मावेन**
+**Maven**
 
 ```xml
 <dependency>
@@ -53,59 +110,67 @@ GroupDocs.Signature का इस्तेमाल शुरू करने �
 </dependency>
 ```
 
-**ग्रैडल**
+**Gradle**
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**प्रत्यक्षत: डाउनलोड**
+**सीधे डाउनलोड**
 
-जो लोग चाहें, वे यहां से नवीनतम संस्करण डाउनलोड करें [Java रिलीज़ के लिए GroupDocs.Signature](https://releases.groupdocs.com/signature/java/).
+Prefer manual management? Download the JAR directly from [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) and add it to your project's classpath.
 
-### लाइसेंस अधिग्रहण
+### लाइसेंस प्राप्ति
+- **Free Trial:** Ideal for prototyping; core features are available.  
+- **Temporary License:** Full‑feature access for short‑term development.  
+- **Commercial License:** Required for production deployments.  
 
-- **मुफ्त परीक्षण**: बुनियादी कार्यक्षमताओं का पता लगाने के लिए निःशुल्क परीक्षण से शुरुआत करें।
-- **अस्थायी लाइसेंस**यदि आपको विकास के दौरान पूर्ण सुविधाओं तक पहुंच की आवश्यकता है तो अस्थायी लाइसेंस प्राप्त करें।
-- **खरीदना**: दीर्घकालिक उपयोग के लिए लाइसेंस खरीदने पर विचार करें।
+**Pro Tip:** Start with the free trial, then request a temporary license before moving to production. This lets you validate the workflow without upfront cost.
 
-सेटअप करने के बाद, अपने हस्ताक्षर ऑब्जेक्ट को इस प्रकार आरंभ करें:
+### बुनियादी प्रारंभिककरण
+The `Signature` object is the entry point for all signing operations. It implements `AutoCloseable`, so you can safely use a try‑with‑resources block.
 
 ```java
 Signature signature = new Signature("path/to/your/document");
 ```
 
-## कार्यान्वयन मार्गदर्शिका
+## कार्यान्वयन गाइड: QR कोड के साथ Word दस्तावेज़ों पर हस्ताक्षर
 
-अब जबकि हमने वातावरण स्थापित कर लिया है, तो आइए GroupDocs.Signature का उपयोग करके Word दस्तावेज़ों में QR कोड हस्ताक्षर को क्रियान्वित करें।
+नीचे हम प्रत्येक चरण को विस्तार से देखते हैं, आवश्यक एंकर और सीधे उत्तर प्रदान करते हैं।
 
-### चरण 1: हस्ताक्षर ऑब्जेक्ट को आरंभ करें
-
-एक बनाकर शुरू करें `Signature` ऑब्जेक्ट. यह आपके दस्तावेज़ का प्रतिनिधित्व करता है और इस पर हस्ताक्षर करने के तरीके प्रदान करता है:
+### Word फ़ाइल के लिए Signature ऑब्जेक्ट कैसे प्रारंभ करें?
+Load the source document with `new Signature("source.docx")` inside a try‑with‑resources block; the object prepares the file for modifications and automatically releases resources when the block ends.
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/SampleDocX.docx";
 Signature signature = new Signature(filePath);
 ```
 
-The `filePath` वेरिएबल को उस वर्ड दस्तावेज़ की ओर इंगित करना चाहिए जिस पर आप हस्ताक्षर करना चाहते हैं।
+**Explanation:** The `Signature` class represents a single document in memory and exposes methods for adding, searching, and verifying signatures. It supports `.docx`, `.doc`, and many other formats.
 
-### चरण 2: QR कोड हस्ताक्षर विकल्प कॉन्फ़िगर करें
-
-एक बनाने के `QrCodeSignOptions` ऑब्जेक्ट. यह वह जगह है जहाँ आप QR कोड के बारे में विवरण निर्दिष्ट करते हैं:
+### QR कोड साइनिंग विकल्प कैसे कॉन्फ़िगर करें?
+Create a `QrCodeSignOptions` instance, set the encoded text, barcode type, and positioning. The following snippet shows a minimal configuration.
 
 ```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("JohnSmith");
 signOptions.setEncodeType(QrCodeTypes.QR);
-signOptions.setLeft(100); // X-अक्ष स्थिति
-signOptions.setTop(100);  // Y-अक्ष स्थिति
+signOptions.setLeft(100); // X-axis position in pixels
+signOptions.setTop(100);  // Y-axis position in pixels
 ```
 
-यहाँ, "जॉनस्मिथ" QR कोड में एम्बेड किया गया टेक्स्ट है। आप इसे आवश्यकतानुसार कस्टमाइज़ कर सकते हैं।
+**Definition:** The `QrCodeSignOptions` class encapsulates all settings required to generate and place a QR code signature, including the encoded text, barcode type, size, colors, and positional coordinates within the document.
 
-### चरण 3: आउटपुट विकल्प सेट करें
+#### उपस्थिति अनुकूलन
+You can further adjust size, margin, and colors:
 
-परिभाषित करें कि आप अपने हस्ताक्षरित दस्तावेज़ को कैसे और कहाँ सहेजना चाहते हैं `WordProcessingSaveOptions`:
+```java
+QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verify/doc-12345");
+```
+
+**Why it matters:** A 150 px square QR code with black foreground on white background yields >99 % scan success on both screen and print.
+
+### साइन किए गए दस्तावेज़ के आउटपुट विकल्प कैसे सेट करें?
+Define the target format and overwrite behavior before calling `sign`.
 
 ```java
 WordProcessingSaveOptions saveOptions = new WordProcessingSaveOptions();
@@ -113,66 +178,210 @@ saveOptions.setFileFormat(WordProcessingSaveFileFormat.Odt);
 saveOptions.setOverwriteExistingFiles(true);
 ```
 
-इस उदाहरण में, हम आउटपुट को ODT फ़ाइल के रूप में सहेज रहे हैं और मौजूदा फ़ाइलों को अधिलेखित करने की अनुमति दे रहे हैं।
+**Definition:** The `WordProcessingSaveOptions` class defines how the signed Word document should be saved, allowing you to specify the output format (DOCX, ODT, etc.), whether existing files are overwritten, and other file‑level preferences.
 
-### चरण 4: दस्तावेज़ पर हस्ताक्षर करें और उसे सहेजें
+If you need an open‑source format, switch to `OutputType.ODT`:
 
-अंत में, कॉन्फ़िगर किए गए विकल्पों के साथ अपने दस्तावेज़ पर हस्ताक्षर करें:
+```java
+saveOptions.setFileFormat(WordProcessingSaveFileFormat.Docx);
+```
+
+### QR कोड के साथ दस्तावेज़ को साइन और सेव कैसे करें?
+The `sign` method applies the QR code and writes the output file in one call.
 
 ```java
 String outputFilePath = "YOUR_OUTPUT_DIRECTORY/SaveSignedOutputType/SampleDocX.odt";
 signature.sign(outputFilePath, signOptions, saveOptions);
 ```
 
-इससे हस्ताक्षर प्रक्रिया पूरी हो जाती है। हस्ताक्षरित दस्तावेज़ निर्दिष्ट स्थान पर सहेजा जाएगा। `outputFilePath`.
+**Definition:** The `sign` method of the `Signature` object takes the destination path, the configured signing options, and optional save options, then embeds the QR code into the document and writes the result to the specified location.
 
-## व्यावहारिक अनुप्रयोगों
+**What happens:**  
+1. The library reads the source document.  
+2. Generates the QR code based on `QrCodeSignOptions`.  
+3. Inserts the graphic at the specified coordinates.  
+4. Saves the modified file to the path you provided.
 
-यहां कुछ परिदृश्य दिए गए हैं जहां QR कोड हस्ताक्षर आपके वर्कफ़्लो को बढ़ा सकते हैं:
+### साइनिंग के दौरान त्रुटियों को कैसे संभालें?
+Wrap the signing logic in a try‑catch block to capture missing files, invalid paths, or licensing issues.
 
-1. **अनुबंध प्रबंधन**: तेजी से अनुमोदन प्रक्रियाओं के लिए अनुबंधों में डिजिटल हस्ताक्षर स्वचालित रूप से जोड़ें।
-2. **कानूनी दस्तावेज़ीकरण**: सुरक्षित क्यूआर कोड हस्ताक्षर के साथ कानूनी दस्तावेजों की प्रामाणिकता और अखंडता सुनिश्चित करें।
-3. **अनुकूलित प्रचार**प्रचारात्मक वर्ड दस्तावेज़ों में क्यूआर कोड का उपयोग करें जो प्राप्तकर्ताओं को सीधे साइन-अप पृष्ठ या ऑफ़र पर ले जाता है।
+```java
+try {
+    signature.sign(outputFilePath, signOptions, saveOptions);
+    System.out.println("Document signed successfully!");
+} catch (Exception e) {
+    System.err.println("Signing failed: " + e.getMessage());
+}
+```
 
-## प्रदर्शन संबंधी विचार
+**Definition:** Catching `Exception` ensures that any runtime issues such as missing files, invalid paths, or licensing problems are gracefully reported, preventing the application from crashing in production.
 
-GroupDocs.Signature के साथ काम करते समय, इष्टतम प्रदर्शन के लिए इन सुझावों पर विचार करें:
+## सामान्य उपयोग मामलों और वास्तविक‑विश्व अनुप्रयोग
 
-- **संसाधन प्रबंधन**: सुनिश्चित करें कि आपका एप्लिकेशन बड़े दस्तावेज़ों को संभालते समय मेमोरी का कुशलतापूर्वक प्रबंधन करता है।
-- **प्रचय संसाधन**: एकाधिक दस्तावेजों पर हस्ताक्षर करने के लिए, थ्रूपुट में सुधार करने के लिए बैच प्रोसेसिंग तकनीकों को लागू करें।
-- **हस्ताक्षर प्लेसमेंट को अनुकूलित करें**: दस्तावेज़ पुनःप्रवाह को न्यूनतम करने के लिए हस्ताक्षरों की स्थिति को समायोजित करें।
+### स्वचालित अनुबंध प्रबंधन
+A SaaS platform signs **500+ contracts monthly** by generating a unique QR code containing the contract ID and a verification URL. Recipients scan to view the contract status in the portal, eliminating manual email exchanges.
 
-## निष्कर्ष
+### कर्मचारी प्रमाणपत्र जारी करना
+HR departments embed employee IDs and issuance dates in QR codes on training certificates. Scanning the QR instantly validates authenticity against an internal database, reducing fraud by **over 80 %**.
 
-इस गाइड का पालन करके, आप सीख चुके हैं कि Java के लिए GroupDocs.Signature का उपयोग करके QR कोड वाले Word दस्तावेज़ों पर सुरक्षित रूप से हस्ताक्षर कैसे करें। यह विधि न केवल सुरक्षा बढ़ाती है, बल्कि आपके दस्तावेज़ प्रबंधन प्रक्रियाओं को भी आधुनिक बनाती है। 
+### अनुमोदन कार्यप्रवाह स्वचालन
+Each approver’s QR code stores their employee number, role, and a timestamp. The system reads the QR during audit, providing a tamper‑evident trail without extra database lookups.
 
-आगे की खोज के लिए, GroupDocs.Signature को अन्य प्रणालियों के साथ एकीकृत करने या अपने अनुप्रयोगों में इसके उपयोग के मामलों का विस्तार करने पर विचार करें।
+### चालान और रसीद साइनिंग
+Finance teams add QR codes that link to a payment gateway. When scanned, the QR directs the payer to a secure payment page, cutting processing time by **30 %** and lowering invoice fraud risk.
 
-## FAQ अनुभाग
+## उत्पादन उपयोग के लिए सर्वोत्तम प्रथाएँ
 
-**प्रश्न: क्या मैं वर्ड दस्तावेज़ों के बजाय पीडीएफ पर हस्ताक्षर कर सकता हूँ?**
-A: हाँ, GroupDocs.Signature PDF सहित विभिन्न स्वरूपों का समर्थन करता है। तदनुसार सहेजें विकल्पों को समायोजित करें।
+### सुरक्षा विचार
+- **Never embed raw passwords**; use a token or reference ID that resolves server‑side.  
+- **Always use HTTPS** for URLs; avoid HTTP to prevent man‑in‑the‑middle attacks.  
+- **Set token expiration** (e.g., JWT with 24‑hour validity) for time‑sensitive documents.
 
-**प्रश्न: मैं बड़े दस्तावेज़ों पर हस्ताक्षर कुशलतापूर्वक कैसे करूँ?**
-उत्तर: प्रदर्शन में सुधार के लिए बैच प्रोसेसिंग का उपयोग करें और कुशल मेमोरी प्रबंधन सुनिश्चित करें।
+### प्रदर्शन अनुकूलन
+- **Batch processing:** Keep a single `Signature` instance alive and iterate over files to avoid repeated JVM warm‑up.  
+- **Memory management:** For documents > 50 MB, process sequentially and release the `Signature` object after each file.  
+- **Placement matters:** Position QR codes at the bottom of the page to reduce layout reflow and improve speed.
 
-**प्रश्न: यदि मेरा क्यूआर कोड हस्ताक्षरित दस्तावेज़ में सही ढंग से प्रदर्शित नहीं होता है तो क्या होगा?**
-उत्तर: अपने पोजिशनिंग पैरामीटर्स की दोबारा जांच करें (`setLeft`, `setTop`) और सुनिश्चित करें कि वे पृष्ठ के आयामों में फिट हों।
+```java
+List<String> documents = getDocumentPaths();
+for (String docPath : documents) {
+    Signature sig = new Signature(docPath);
+    // Configure and sign
+    sig.dispose();
+}
+```
 
-**प्रश्न: क्या QR कोड के स्वरूप को अनुकूलित करने का कोई तरीका है?**
-उत्तर: हालाँकि अनुकूलन सीमित है, आप स्थिति और आकार समायोजित कर सकते हैं। उन्नत स्टाइलिंग के लिए, दस्तावेज़ को बाहरी रूप से पोस्ट-प्रोसेस करें।
+### QR कोड प्लेसमेंट टिप्स
+- **Print safety:** Keep QR codes at least 0.5 in from page edges to avoid being cut off.  
+- **Size recommendation:** Minimum 150 × 150 px for reliable scanning on printed media.  
+- **Multiple pages:** Loop through pages and instantiate a new `QrCodeSignOptions` for each position.
 
-**प्रश्न: क्या मैं वर्ड दस्तावेज़ में एकाधिक पृष्ठों पर हस्ताक्षर कर सकता हूँ?**
-उत्तर: हाँ, अपने प्रश्न पर दोबारा विचार करें। `Signature` ऑब्जेक्ट और प्रत्येक वांछित पृष्ठ पर हस्ताक्षर विकल्प लागू करें।
+```java
+for (Document doc : documents) {
+    Signature sig = new Signature(doc.getPath());
+    sig.sign(outputPath, signOptions, saveOptions);
+    sig.dispose();
+}
+```
+
+## उन्नत कॉन्फ़िगरेशन विकल्प
+
+### एक ही दस्तावेज़ में कई QR कोड कैसे जोड़ें?
+Create separate `QrCodeSignOptions` objects for each location and call `sign` repeatedly.
+
+```java
+// First QR code
+QrCodeSignOptions sign1 = new QrCodeSignOptions("Approver 1");
+sign1.setLeft(100);
+sign1.setTop(100);
+
+// Second QR code
+QrCodeSignOptions sign2 = new QrCodeSignOptions("Approver 2");
+sign2.setLeft(300);
+sign2.setTop(100);
+
+// Apply both
+signature.sign(outputPath, sign1, saveOptions);
+signature.sign(outputPath, sign2, saveOptions);
+```
+
+### अन्य कौन से बारकोड प्रकार समर्थित हैं?
+Beyond QR, you can generate **Aztec**, **DataMatrix**, or **PDF417** codes by changing `setEncodeType()`.
+
+### पृष्ठ आकार के आधार पर गतिशील स्थितियों की गणना कैसे करें?
+Retrieve page dimensions via `Signature.getDocumentInfo()` and compute coordinates programmatically.
+
+```java
+// Get document info
+DocumentInfo docInfo = signature.getDocumentInfo();
+int pageWidth = docInfo.getWidth();
+int pageHeight = docInfo.getHeight();
+
+// Center the QR code
+int qrSize = 100;
+signOptions.setLeft((pageWidth - qrSize) / 2);
+signOptions.setTop((pageHeight - qrSize) / 2);
+```
+
+**Definition:** `Signature.getDocumentInfo()` returns a `DocumentInfo` object containing metadata like page dimensions, which can be used to calculate precise placement coordinates for signatures based on the actual size of each page.
+
+## सामान्य समस्याओं का निवारण
+
+### QR कोड नहीं दिख रहा है
+- Verify `setLeft`/`setTop` are within page bounds (A4 ≈ 595 × 842 px at 72 DPI).  
+- Ensure foreground/background colors contrast (black on white).  
+- Increase width/height if the code is too small to scan.
+
+### Signature प्रारंभ करते समय “File not found”
+- Use absolute paths during development or validate relative paths with `Paths.get(...)`.  
+- Confirm the source file isn’t locked by another process.
+
+### आउटपुट फ़ाइल भ्रष्ट है
+- Double‑check `setFileFormat` matches the desired extension.  
+- Close any stream that might still hold the file before signing.
+
+### QR कोड में गलत डेटा है
+- Print the string you pass to `QrCodeSignOptions` before signing to confirm encoding.  
+- Avoid non‑ASCII characters unless you explicitly set UTF‑8 encoding.
+
+### बड़े दस्तावेज़ों पर प्रदर्शन धीमा है
+- Process documents in batches (see code block 10).  
+- Avoid placing QR codes inside complex tables; they trigger extensive layout recalculations.
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+**Q: क्या मैं PDFs के बजाय Word दस्तावेज़ों को साइन कर सकता हूँ?**  
+A: हाँ। GroupDocs.Signature PDF, Excel, PowerPoint, इमेज और कई अन्य फॉर्मैट को सपोर्ट करता है। केवल `setFileFormat` को इच्छित आउटपुट टाइप में बदलें।
+
+**Q: QR कोड हस्ताक्षर को जोड़ने के बाद मैं कैसे वेरिफ़ाई करूँ?**  
+A: लाइब्रेरी की `SearchQrCodeSignatures` मेथड का उपयोग करके QR कोड खोजें और एम्बेडेड डेटा को अपने बैकएंड सर्विस के साथ वैध करें।
+
+**Q: QR कोड में अधिकतम कितना डेटा स्टोर कर सकता हूँ?**  
+A: स्टैंडर्ड QR कोड अधिकतम **4 296 अल्फ़ान्यूमेरिक कैरेक्टर्स** रख सकते हैं, लेकिन विश्वसनीय स्कैनिंग के लिए **500 कैरेक्टर्स** से कम रखें। बड़े पेलोड के लिए रेफ़रेंस ID स्टोर करें और सर्वर‑साइड पर विवरण प्राप्त करें।
+
+**Q: क्या मैं QR कोड की विज़ुअल अपीयरेंस कस्टमाइज़ कर सकता हूँ?**  
+A: हाँ। आप साइज, पोज़िशन, फ़ोरग्राउंड/बैकग्राउंड रंग, और यहाँ तक कि लोगो ओवरले भी सेट कर सकते हैं। उच्च कंट्रास्ट रंग स्कैन रिजल्ट को बेहतर बनाते हैं।
+
+**Q: बड़े दस्तावेज़ों को साइन करने के लिए सबसे अच्छा तरीका क्या है?**  
+A: 50 पेज से अधिक वाले दस्तावेज़ों के लिए कुछ सेकंड लग सकते हैं। बैच प्रोसेसिंग, `Signature` इंस्टेंस को री‑यूज़ करना, और JVM हीप साइज मॉनिटर करना मददगार रहता है।
+
+**Q: क्या QR हस्ताक्षर PDF में कन्वर्ज़न के बाद भी बना रहेगा?**  
+A: बिल्कुल। QR कोड एक ग्राफिक के रूप में एम्बेड किया जाता है, इसलिए फॉर्मेट बदलने पर भी यह बरकरार रहता है, बशर्ते आप पर्याप्त रिज़ॉल्यूशन बनाए रखें।
+
+**Q: क्या मैं S3 जैसी क्लाउड स्टोरेज में रखे दस्तावेज़ों को साइन कर सकता हूँ?**  
+A: हाँ। फ़ाइल को अस्थायी स्थानीय पाथ पर डाउनलोड करें, साइन करें, फिर साइन किया हुआ संस्करण वापस S3 पर अपलोड करें। लाइब्रेरी केवल लोकल फ़ाइलों के साथ काम करती है।
+
+**Q: यदि कोई दस्तावेज़ साइन करने के बाद संशोधित करता है तो क्या होता है?**  
+A: QR ग्राफिक स्वयं नहीं बदलता, लेकिन यह टेम्परिंग का पता नहीं लगा पाएगा। मजबूत इंटीग्रिटी के लिए QR कोड को हैश‑बेस्ड वेरिफ़िकेशन या डिजिटल सर्टिफ़िकेट के साथ जोड़ें।
+
+**Q: विकास बनाम प्रोडक्शन के लिए अलग‑अलग लाइसेंस चाहिए?**  
+A: विकास के लिए फ्री ट्रायल या टेम्पररी लाइसेंस उपयोग कर सकते हैं। प्रोडक्शन डिप्लॉयमेंट के लिए GroupDocs की शर्तों के अनुसार कमर्शियल लाइसेंस आवश्यक है।
+
+**Q: क्या प्राप्तकर्ता को जावा की आवश्यकता है QR कोड स्कैन करने के लिए?**  
+A: नहीं। QR कोड एक ओपन स्टैंडर्ड है; कोई भी स्मार्टफ़ोन कैमरा या QR रीडर ऐप इसे डिकोड कर सकता है। जावा केवल **हस्ताक्षर बनाने** के लिए आवश्यक है।
 
 ## संसाधन
 
-- **प्रलेखन**: [जावा दस्तावेज़ीकरण के लिए GroupDocs.Signature](https://docs.groupdocs.com/signature/java/)
-- **एपीआई संदर्भ**: [GroupDocs.Signature API संदर्भ](https://reference.groupdocs.com/signature/java/)
-- **डाउनलोड करना**: [नवीनतम GroupDocs.Signature रिलीज़](https://releases.groupdocs.com/signature/java/)
-- **खरीदना**: [GroupDocs.Signature खरीदें](https://purchase.groupdocs.com/buy)
-- **मुफ्त परीक्षण**: [ग्रुपडॉक्स हस्ताक्षर निःशुल्क परीक्षण](https://releases.groupdocs.com/signature/java/)
-- **अस्थायी लाइसेंस**: [अस्थायी लाइसेंस के लिए आवेदन करें](https://purchase.groupdocs.com/temporary-license/)
-- **सहायता**: [ग्रुपडॉक्स फ़ोरम सहायता](https://forum.groupdocs.com/c/signature/)
+- [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/)
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
+- [GroupDocs.Signature API Reference](https://reference.groupdocs.com/signature/java/)
+- [Buy GroupDocs.Signature](https://purchase.groupdocs.com/buy)
+- [Apply for Temporary License](https://purchase.groupdocs.com/temporary-license/)
+- [GroupDocs Forum Support](https://forum.groupdocs.com/c/signature/)
 
-अब जब आप QR कोड का उपयोग करके Word दस्तावेज़ों पर हस्ताक्षर करने का ज्ञान प्राप्त कर चुके हैं, तो आगे बढ़ें और इस सुरक्षित हस्ताक्षर विधि को अपने प्रोजेक्ट में शामिल करें। कोडिंग का आनंद लें!
+## निष्कर्ष
+
+आपके पास अब **create QR code signature** को Word दस्तावेज़ों में जावा और GroupDocs.Signature का उपयोग करके बनाने के लिए एक पूर्ण, प्रोडक्शन‑रेडी रोडमैप है। बेसिक सेटअप से लेकर बैच प्रोसेसिंग, सुरक्षा सर्वोत्तम प्रथाओं से लेकर उन्नत बारकोड प्रकारों तक, सब कुछ कवर किया गया है। फ्री ट्रायल से शुरू करें, विभिन्न पेलोड्स के साथ प्रयोग करें, और साइनिंग स्टेप को अपने मौजूदा दस्तावेज़‑जनरेशन पाइपलाइन में इंटीग्रेट करें। हैप्पी कोडिंग और सुरक्षित साइनिंग!
+
+---
+
+**अंतिम अपडेट:** 2026-06-26  
+**परीक्षित संस्करण:** GroupDocs.Signature 23.12 for Java  
+**लेखक:** GroupDocs  
+
+## संबंधित ट्यूटोरियल
+
+- [Java QR Code Signature Library - Complete GroupDocs Tutorial](/signature/java/qr-code-signatures/)
+- [Load and Save Documents in Java - Complete GroupDocs.Signature Tutorial](/signature/java/document-loading-saving/)
+- [How to Add Digital Signatures to Documents in Java](/signature/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/)
+

@@ -108,7 +108,6 @@ weight: 1
 ### Χρήση Maven
 Προσθέστε αυτήν την **maven dependency groupdocs** στο αρχείο `pom.xml` σας:
 
-``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -116,17 +115,14 @@ weight: 1
     <version>23.12</version>
 </dependency>
 ```
-```
 
 Μετά την προσθήκη, εκτελέστε `mvn clean install` για να κατεβάσετε τη βιβλιοθήκη.
 
 ### Χρήση Gradle
 Για έργα Gradle, προσθέστε αυτή τη γραμμή στο `build.gradle` σας:
 
-``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Στη συνέχεια, συγχρονίστε το project σας με `gradle build`.
@@ -146,11 +142,9 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 ## Βασική Αρχικοποίηση
 `Signature` είναι η κύρια κλάση entry‑point στο GroupDocs.Signature for Java που φορτώνει και χειρίζεται έγγραφα για υπογραφή. Μόλις εγκαταστήσετε τη βιβλιοθήκη, η αρχικοποίησή της είναι τόσο απλή όσο το να την δείξετε στο έγγραφό σας:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
-```
 ```
 
 Αυτό δημιουργεί ένα αντικείμενο `Signature` έτοιμο για χρήση.
@@ -176,12 +170,10 @@ Signature signature = new Signature(filePath);
 #### 1. Διαμόρφωση Διαδρομών Αρχείων
 Ορίστε πού βρίσκεται το πηγαίο έγγραφό σας και πού θέλετε να αποθηκευτεί η υπογεγραμμένη έκδοση:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" + fileName).getPath();
-```
 ```
 
 **Συμβουλή:** Χρησιμοποιήστε `Paths.get()` αντί για συνένωση συμβολοσειρών για διαδρομές αρχείων—διαχειρίζεται αυτόματα τους διαχωριστές του λειτουργικού συστήματος.
@@ -189,7 +181,6 @@ String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" +
 #### 2. Αρχικοποίηση του Αντικειμένου Signature
 Τυλίξτε την αρχικοποίησή σας σε μπλοκ try‑catch για να αντιμετωπίσετε πιθανά προβλήματα πρόσβασης αρχείων:
 
-``` 
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -198,14 +189,12 @@ try {
     throw new RuntimeException("Error initializing signature: " + e.getMessage(), e);
 }
 ```
-```
 
 `RuntimeException` προσθέτει πλαίσιο όταν κάνετε αποσφαλμάτωση, κάτι που εξοικονομεί χρόνο στην παραγωγή.
 
 #### 3. Ορισμός Μεγέθους και Θέσεων QR Code
 `QrCodeSignOptions` ρυθμίζει την εικόνα QR που θα τοποθετηθεί στο έγγραφο. Σας επιτρέπει να ορίσετε μέγεθος, περιθώρια και στοίχιση.
 
-``` 
 ```java
 int qrWidth = 100;
 int qrHeight = 100;
@@ -225,13 +214,11 @@ for (int horizontalAlignment : HorizontalAlignment.getValues()) {
     }
 }
 ```
-```
 
 Ο βρόχος δημιουργεί επιλογές QR code για κάθε οριζόντια (Left, Center, Right) και κάθετη (Top, Center, Bottom) στοίχιση, προσθέτοντας περιθώριο 5 pixel ώστε ο κώδικας να μην αγγίζει ποτέ το άκρο της σελίδας.
 
 Για τις περισσότερες παραγωγικές περιπτώσεις θα επιλέξετε μια μόνο θέση, όπως κάτω‑δεξιά για συμβάσεις:
 
-``` 
 ```java
 QrCodeSignOptions options = new QrCodeSignOptions("Signature");
 options.setWidth(100);
@@ -240,15 +227,12 @@ options.setHorizontalAlignment(HorizontalAlignment.Right);
 options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
-```
 
 #### 4. Υπογραφή του Εγγράφου
 Τώρα εφαρμόζουμε όλες τις ρυθμισμένες υπογραφές σε μία λειτουργία:
 
-``` 
 ```java
 SignResult signResult = signature.sign(outputFilePath, listOptions);
-```
 ```
 
 Η μέθοδος `sign()` επεξεργάζεται κάθε QR code στη λίστα και αποθηκεύει το αποτέλεσμα στη διαδρομή εξόδου. Επιστρέφει ένα αντικείμενο `SignResult` που σας λέει πόσες υπογραφές προστέθηκαν επιτυχώς—ιδανικό για καταγραφή.
@@ -265,12 +249,10 @@ SignResult signResult = signature.sign(outputFilePath, listOptions);
 2. Επιβεβαιώστε δικαιώματα ανάγνωσης για την πηγή και δικαιώματα εγγραφής για το φάκελο εξόδου.  
 3. Αποφύγετε ειδικούς χαρακτήρες στη διαδρομή.
 
-``` 
 ```java
 // Better approach: Use absolute paths
 String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
-```
 ```
 
 ### Πρόβλημα 2: Τα QR Codes Καλύπτουν Περιεχόμενο Εγγράφου
@@ -278,10 +260,8 @@ Signature signature = new Signature(absolutePath);
 
 **Λύση:** Αυξήστε τις τιμές περιθωρίου και επιλέξτε στοίχιση που κρατά τον κώδικα σε κενές περιοχές:
 
-``` 
 ```java
 options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
-```
 ```
 
 ### Πρόβλημα 3: Προβλήματα Μνήμης με Μεγάλα Έγγραφα
@@ -289,12 +269,10 @@ options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
 
 **Λύση:** Αποδεσμεύστε άμεσα τα αντικείμενα `Signature` και επεξεργαστείτε μεγάλα αρχεία σε παρτίδες:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your signing code
 } // Automatically closes and releases resources
-```
 ```
 
 Η δήλωση try‑with‑resources εγγυάται καθαρισμό ακόμη και αν προκύψει εξαίρεση.
@@ -304,7 +282,6 @@ try (Signature signature = new Signature(filePath)) {
 
 **Λύση:** Δημιουργήστε μια **new** `QrCodeSignOptions` παρουσία για κάθε θέση αντί να επαναχρησιμοποιείτε το ίδιο αντικείμενο:
 
-``` 
 ```java
 // Wrong - reuses same object
 QrCodeSignOptions options = new QrCodeSignOptions("Text");
@@ -316,7 +293,6 @@ listOptions.add(options);
 // Correct - creates new object each time
 listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
-```
 ```
 
 ## Πρακτικές Εφαρμογές
@@ -338,12 +314,10 @@ listOptions.add(new QrCodeSignOptions("Right"));
 ### Διαχείριση Πόρων
 Πάντα κλείνετε τα αντικείμενα `Signature` για να αποτρέψετε διαρροές μνήμης:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your code
 } // Auto‑closes
-```
 ```
 
 Σκεφτείτε μια δεξαμενή επεξεργασίας για web εφαρμογές ώστε να περιορίσετε τις ταυτόχρονες λειτουργίες.
@@ -351,7 +325,6 @@ try (Signature signature = new Signature(filePath)) {
 ### Στρατηγική Διαχείρισης Σφαλμάτων
 Παρέχετε επεξεργάσιμες πληροφορίες σφάλματος αντί για σιωπηλές παγίδες:
 
-``` 
 ```java
 try {
     SignResult result = signature.sign(outputFilePath, listOptions);
@@ -364,7 +337,6 @@ try {
     logger.error("Signature failed for document: {}", filePath, e);
     // Implement retry logic or alert mechanism
 }
-```
 ```
 
 ### Βελτιστοποίηση Απόδοσης
@@ -429,10 +401,8 @@ try {
 **Q:** *Μπορώ να προσθέσω QR codes σε συγκεκριμένες σελίδες σε έγγραφο πολλαπλών σελίδων;*  
 **A:** Απόλυτα. Ορίστε τον αριθμό σελίδας με `options.setPageNumber(pageNumber);`. Παράδειγμα:
 
-``` 
 ```java
 options.setPageNumber(1); // Add to first page only
-```
 ```
 
 **Q:** *Τι δεδομένα μπορώ να κωδικοποιήσω στον QR code;*  
@@ -441,13 +411,11 @@ options.setPageNumber(1); // Add to first page only
 **Q:** *Πώς επαληθεύω προγραμματιστικά τις υπογραφές QR code;*  
 **A:** Το GroupDocs.Signature παρέχει μέθοδο `verify`. Παράδειγμα:
 
-``` 
 ```java
 VerificationResult result = signature.verify(verifyOptions);
 if (result.isValid()) {
     // Signature is authentic
 }
-```
 ```
 
 Η κλάση `Signature` είναι το κύριο entry point για την εφαρμογή υπογραφών σε έγγραφα.
