@@ -361,9 +361,7 @@ signOptions.setTop((pageHeight - qrSize) / 2);
 - [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/)
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [GroupDocs.Signature API Reference](https://reference.groupdocs.com/signature/java/)
-- [Latest GroupDocs.Signature Releases](https://releases.groupdocs.com/signature/java/)
 - [Buy GroupDocs.Signature](https://purchase.groupdocs.com/buy)
-- [GroupDocs Signatures Free Trial](https://releases.groupdocs.com/signature/java/)
 - [Apply for Temporary License](https://purchase.groupdocs.com/temporary-license/)
 - [GroupDocs Forum Support](https://forum.groupdocs.com/c/signature/)
 
@@ -376,7 +374,6 @@ You now have a complete, production‑ready roadmap to **create QR code signatur
 **Last Updated:** 2026-06-26  
 **Tested With:** GroupDocs.Signature 23.12 for Java  
 **Author:** GroupDocs  
-
 
 ## دروس ذات صلة
 

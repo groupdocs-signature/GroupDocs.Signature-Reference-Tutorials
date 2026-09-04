@@ -129,7 +129,6 @@ weight: 1
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 بعد التعديل، قم بمزامنة المشروع لتنزيل المكتبة—تجاهل هذه الخطوة مصدر شائع لأخطاء “class not found”.
 
@@ -155,7 +154,6 @@ GroupDocs.Signature منتج تجاري. اختر الخيار الذي يناس
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *مرجع التعريف:* فئة `Signature` هي نقطة الدخول في GroupDocs.Signature لتحميل، تعديل، وحفظ ملفات PDF.
 
@@ -169,7 +167,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Your certificate's password
 options.setReason("Approved"); // Why you're signing (appears in PDF metadata)
 options.setLocation("New York"); // Where the signing occurred
-```
 ```
 
 *مرجع التعريف:* `DigitalSignOptions` يجمع جميع المعلمات المطلوبة للتوقيع الرقمي، بما في ذلك المظهر البصري والإعدادات المشفرة.
@@ -192,7 +189,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *مرجع التعريف:* `SignatureAppearance` يحدد التمثيل البصري لكتلة التوقيع التي يراها المستخدم النهائي في PDF.
 
@@ -208,7 +204,6 @@ options.setHeight(80); // Height in pixels
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Top, Right, Bottom, Left margins
-```
 ```
 
 *مرجع التعريف:* `SignatureOptions` (أو الفئة الفرعية) تتحكم في الموضع، الحجم، ونطاق الصفحات للتوقيع المرئي.
@@ -226,7 +221,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Thickness in pixels
 options.setBorder(border);
 ```
-```
 
 *مرجع التعريف:* `Border` يضبط نمط الخط، الوزن، والظهور لإطار التوقيع.
 
@@ -237,7 +231,6 @@ options.setBorder(border);
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *مرجع التعريف:* `SignResult` يقدم تفاصيل حول عملية التوقيع، بما في ذلك عدد الصفحات التي تم توقيعها بنجاح.
@@ -254,7 +247,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## المشكلات الشائعة وكيفية تجنبها
 
@@ -266,7 +258,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### المشكلة 2: استثناءات كلمة المرور غير صالحة
@@ -283,7 +274,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Fresh object
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### المشكلة 3: ظهور التوقيع في الصفحة الخطأ
 
@@ -294,7 +284,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // Instead of 160
 options.setHeight(160); // Instead of 80
 ```
-```
 
 ### المشكلة 4: تشويه توقيع غير واضح
 
@@ -303,7 +292,6 @@ options.setHeight(160); // Instead of 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### المشكلة 5: OutOfMemoryError مع ملفات PDF الكبيرة
@@ -315,7 +303,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Automatically releases resources
-```
 ```
 
 ## ممارسات الأمان المثلى للاستخدام في الإنتاج
@@ -333,7 +320,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### قيد أذونات ملف الشهادة
 
@@ -343,7 +329,6 @@ options.setPassword(password);
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### استخدم الطابع الزمني للمدة الطويلة
 
@@ -352,7 +337,6 @@ chmod 400 /secure/certificates/signing-cert.pfx
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### تحقق من صحة التوقيعات بعد التوقيع
@@ -370,7 +354,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### سجّل كل عملية توقيع
 
@@ -380,7 +363,6 @@ if (result.getSucceeded().size() > 0) {
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## اختيار الشهادة المناسبة لحالتك
@@ -393,7 +375,6 @@ logger.info("Document signed: {}, User: {}, Timestamp: {}",
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### الإنتاج – سلطة شهادة تجارية
@@ -439,7 +420,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### تخزين الشهادات المحملة مؤقتًا
 
@@ -456,14 +436,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### ضبط JVM للأداء العالي
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### توقيع المستندات بشكل غير متزامن
@@ -474,7 +452,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## دليل استكشاف الأخطاء وإصلاحها

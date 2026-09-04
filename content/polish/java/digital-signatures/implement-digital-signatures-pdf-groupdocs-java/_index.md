@@ -127,7 +127,6 @@ Jeśli wolisz Gradle, wstaw tę linię do `build.gradle`:
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 Po edycji zsynchronizuj projekt, aby pobrać bibliotekę — pominięcie tego kroku jest częstą przyczyną błędów „class not found”.
 
@@ -151,7 +150,6 @@ Utwórz instancję `Signature`, która otacza docelowy plik PDF; ładuje to doku
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *Definicja:* Klasa `Signature` jest punktem wejścia GroupDocs.Signature do wczytywania, modyfikowania i zapisywania plików PDF.
 
@@ -164,7 +162,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Your certificate's password
 options.setReason("Approved"); // Why you're signing (appears in PDF metadata)
 options.setLocation("New York"); // Where the signing occurred
-```
 ```
 
 *Definicja:* `DigitalSignOptions` enkapsuluje wszystkie parametry wymagane do cyfrowego podpisu, w tym wygląd wizualny i ustawienia kryptograficzne.
@@ -186,7 +183,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *Definicja:* `SignatureAppearance` definiuje wizualną reprezentację bloku podpisu, którą użytkownicy końcowi widzą w PDF.
 
@@ -201,7 +197,6 @@ options.setHeight(80); // Height in pixels
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Top, Right, Bottom, Left margins
-```
 ```
 
 *Definicja:* `SignatureOptions` (lub jego podklasa) kontroluje położenie, rozmiar i zakres stron dla widocznego podpisu.
@@ -218,7 +213,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Thickness in pixels
 options.setBorder(border);
 ```
-```
 
 *Definicja:* `Border` konfiguruje styl linii, grubość i widoczność ramki podpisu.
 
@@ -228,7 +222,6 @@ Wywołaj `sign` z skonfigurowanymi opcjami; metoda zwraca `SignResult`, który w
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *Definicja:* `SignResult` dostarcza szczegóły dotyczące operacji podpisywania, w tym liczbę pomyślnie podpisanych stron.
@@ -244,7 +237,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## Typowe problemy i jak ich unikać
 
@@ -255,7 +247,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### Problem 2: Wyjątki nieprawidłowego hasła
@@ -271,7 +262,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Fresh object
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### Problem 3: Podpis pojawia się na niewłaściwej stronie
 **Bezpośrednia odpowiedź:** Utwórz nową instancję `DigitalSignOptions` dla każdej operacji podpisywania; ponowne użycie tego samego obiektu może powodować utrzymywanie przestarzałych ustawień stron.
@@ -281,7 +271,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // Instead of 160
 options.setHeight(160); // Instead of 80
 ```
-```
 
 ### Problem 4: Rozmyte renderowanie podpisu
 **Bezpośrednia odpowiedź:** Zwiększ wymiary w pikselach bloku podpisu (np. szerokość = 320, wysokość = 160), aby uzyskać renderowanie 300 DPI odpowiednie do druku.
@@ -289,7 +278,6 @@ options.setHeight(160); // Instead of 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### Problem 5: OutOfMemoryError przy dużych PDFach
@@ -300,7 +288,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Automatically releases resources
-```
 ```
 
 ## Najlepsze praktyki bezpieczeństwa w użyciu produkcyjnym
@@ -317,7 +304,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### Ogranicz uprawnienia do pliku certyfikatu
 W systemie Linux ustaw uprawnienia na `400` (tylko do odczytu dla właściciela), aby zapobiec nieautoryzowanemu dostępowi.
@@ -326,7 +312,6 @@ W systemie Linux ustaw uprawnienia na `400` (tylko do odczytu dla właściciela)
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### Używaj znaczników czasu dla długoterminowej ważności
 Dodaj zaufany serwer Timestamp Authority (TSA), aby podpisy pozostawały ważne po wygaśnięciu certyfikatu podpisującego.
@@ -334,7 +319,6 @@ Dodaj zaufany serwer Timestamp Authority (TSA), aby podpisy pozostawały ważne 
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### Waliduj podpisy po podpisaniu
@@ -351,7 +335,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### Loguj każdą operację podpisywania
 Utrzymuj ścieżkę audytu z szczegółami takimi jak ID użytkownika, ID dokumentu, znacznik czasu i odcisk palca certyfikatu podpisującego.
@@ -360,7 +343,6 @@ Utrzymuj ścieżkę audytu z szczegółami takimi jak ID użytkownika, ID dokume
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## Wybór odpowiedniego certyfikatu dla Twojego przypadku użycia
@@ -372,7 +354,6 @@ Szybko utwórz przy użyciu `keytool` w Javie; odpowiedni do wewnętrznych demon
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### Produkcja – Komercyjny CA
@@ -411,7 +392,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### Buforowanie załadowanych certyfikatów
 ```java
@@ -427,13 +407,11 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### Dostosowanie JVM do wysokiej przepustowości
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### Asynchroniczne podpisywanie dokumentów
@@ -443,7 +421,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## Przewodnik rozwiązywania problemów

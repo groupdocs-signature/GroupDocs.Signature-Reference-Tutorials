@@ -128,7 +128,6 @@ Om du föredrar Gradle, infoga den här raden i `build.gradle`:
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 Efter redigering, synkronisera projektet för att ladda ner biblioteket—att hoppa över detta steg är en vanlig källa till “class not found”-fel.
 
@@ -154,7 +153,6 @@ Skapa en `Signature`‑instans som omsluter mål‑PDF‑filen; detta laddar dok
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *Definition anchor:* `Signature`‑klassen är GroupDocs.Signatures ingångspunkt för att ladda, modifiera och spara PDF‑filer.
 
@@ -168,7 +166,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Your certificate's password
 options.setReason("Approved"); // Why you're signing (appears in PDF metadata)
 options.setLocation("New York"); // Where the signing occurred
-```
 ```
 
 *Definition anchor:* `DigitalSignOptions` kapslar in alla parametrar som krävs för en digital signatur, inklusive visuellt utseende och kryptografiska inställningar.
@@ -191,7 +188,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *Definition anchor:* `SignatureAppearance` definierar den visuella representationen av signaturblocket som slutanvändare ser i PDF‑filen.
 
@@ -207,7 +203,6 @@ options.setHeight(80); // Height in pixels
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Top, Right, Bottom, Left margins
-```
 ```
 
 *Definition anchor:* `SignatureOptions` (eller dess underklass) styr placering, storlek och sidomfång för den synliga signaturen.
@@ -225,7 +220,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Thickness in pixels
 options.setBorder(border);
 ```
-```
 
 *Definition anchor:* `Border` konfigurerar linjestil, tjocklek och synlighet för signaturramen.
 
@@ -236,7 +230,6 @@ Anropa `sign` med de konfigurerade alternativen; metoden returnerar ett `SignRes
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *Definition anchor:* `SignResult` ger detaljer om signeringsoperationen, inklusive antalet framgångsrikt signerade sidor.
@@ -253,7 +246,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## Vanliga fallgropar och hur man undviker dem
 
@@ -265,7 +257,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### Problem 2: Ogiltiga lösenordsexceptioner
@@ -282,7 +273,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Fresh object
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### Problem 3: Signaturen visas på fel sida
 
@@ -293,7 +283,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // Instead of 160
 options.setHeight(160); // Instead of 80
 ```
-```
 
 ### Problem 4: Suddig signaturrendering
 
@@ -302,7 +291,6 @@ options.setHeight(160); // Instead of 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### Problem 5: OutOfMemoryError med stora PDF‑filer
@@ -314,7 +302,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Automatically releases resources
-```
 ```
 
 ## Säkerhetsbästa praxis för produktionsanvändning
@@ -332,7 +319,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### Begränsa filbehörigheter för certifikatet
 
@@ -342,7 +328,6 @@ På Linux, sätt behörigheter till `400` (skriv‑skyddad för ägaren) för at
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### Använd tidsstämpling för långsiktig giltighet
 
@@ -351,7 +336,6 @@ Lägg till en betrodd Timestamp Authority (TSA)‑server så att signaturer för
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### Validera signaturer efter signering
@@ -369,7 +353,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### Logga varje signeringsoperation
 
@@ -379,7 +362,6 @@ Upprätthåll en revisionsspårning med detaljer som användar‑ID, dokument‑
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## Välja rätt certifikat för ditt användningsfall
@@ -392,7 +374,6 @@ Skapa snabbt med Javas `keytool`; lämplig för interna demo‑presentationer me
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### Produktion – Kommersiell CA
@@ -438,7 +419,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### Cacha inlästa certifikat
 
@@ -455,14 +435,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### Optimera JVM för hög genomströmning
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### Signera dokument asynkront
@@ -473,7 +451,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## Felsökningsguide

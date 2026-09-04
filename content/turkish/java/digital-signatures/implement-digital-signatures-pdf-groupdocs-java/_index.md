@@ -129,7 +129,6 @@ Gradle tercih ediyorsanız, `build.gradle` dosyanıza şu satırı ekleyin:
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 Düzenlemenin ardından projeyi senkronize edin; bu adımı atlamak “class not found” hatalarının yaygın kaynağıdır.
 
@@ -155,7 +154,6 @@ Hedef PDF dosyasını saran bir `Signature` örneği oluşturun; bu, belgeyi bel
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *Tanım referansı:* `Signature` sınıfı, PDF dosyalarını yüklemek, değiştirmek ve kaydetmek için GroupDocs.Signature’ın giriş noktasıdır.
 
@@ -169,7 +167,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Sertifikanızın şifresi
 options.setReason("Approved"); // Neden imzaladığınız (PDF meta verisinde görünür)
 options.setLocation("New York"); // İmzanın yapıldığı yer
-```
 ```
 
 *Tanım referansı:* `DigitalSignOptions`, görsel görünüm ve kriptografik ayarlar dahil tüm dijital imza parametrelerini kapsar.
@@ -192,7 +189,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *Tanım referansı:* `SignatureAppearance`, son kullanıcıların PDF içinde gördüğü imza bloğunun görsel temsilini tanımlar.
 
@@ -208,7 +204,6 @@ options.setHeight(80); // Piksel cinsinden yükseklik
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Üst, Sağ, Alt, Sol kenar boşlukları
-```
 ```
 
 *Tanım referansı:* `SignatureOptions` (veya alt sınıfı), görünür imzanın yerleşimini, boyutunu ve sayfa kapsamını kontrol eder.
@@ -226,7 +221,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Piksel cinsinden kalınlık
 options.setBorder(border);
 ```
-```
 
 *Tanım referansı:* `Border`, imza çerçevesinin çizgi stili, kalınlığı ve görünürlüğünü yapılandırır.
 
@@ -237,7 +231,6 @@ Yapılandırılmış seçeneklerle `sign` metodunu çağırın; metod, başarı 
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *Tanım referansı:* `SignResult`, imzalama işlemi hakkında, özellikle başarılı sayfa sayısı gibi detayları sağlar.
@@ -254,7 +247,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## Yaygın Hatalar ve Önleme Yöntemleri
 
@@ -265,7 +257,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### Sorun 2: Geçersiz Şifre İstisnaları  
@@ -281,7 +272,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Yeni nesne
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### Sorun 3: İmza Yanlış Sayfada Görünüyor  
 **Doğrudan yanıt:** Her imzalama işlemi için yeni bir `DigitalSignOptions` örneği oluşturun; aynı nesneyi yeniden kullanmak eski sayfa ayarlarının kalmasına neden olabilir.
@@ -291,7 +281,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // 160 yerine
 options.setHeight(160); // 80 yerine
 ```
-```
 
 ### Sorun 4: Bulanık İmza Görüntüsü  
 **Doğrudan yanıt:** İmza bloğunun piksel boyutlarını artırın (ör. genişlik = 320, yükseklik = 160) ve 300 DPI render elde edin; bu, baskı kalitesi için uygundur.
@@ -299,7 +288,6 @@ options.setHeight(160); // 80 yerine
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### Sorun 5: Büyük PDF’lerde OutOfMemoryError  
@@ -310,7 +298,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Kaynaklar otomatik olarak serbest bırakılır
-```
 ```
 
 ## Üretim İçin Güvenlik En İyi Uygulamaları
@@ -327,7 +314,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### Sertifika dosyası izinlerini kısıtlayın  
 Linux’ta izinleri `400` (sahibi için yalnızca okuma) olarak ayarlayın; yetkisiz erişimi önler.
@@ -336,7 +322,6 @@ Linux’ta izinleri `400` (sahibi için yalnızca okuma) olarak ayarlayın; yetk
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### Uzun vadeli geçerlilik için zaman damgası kullanın  
 İmzanın, imzalama sertifikası süresi dolduktan sonra da geçerli kalması için güvenilir bir Timestamp Authority (TSA) sunucusu ekleyin.
@@ -344,7 +329,6 @@ chmod 400 /secure/certificates/signing-cert.pfx
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### İmzalama sonrası imzaları doğrulayın  
@@ -361,7 +345,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### Her imzalama işlemine log kaydı tutun  
 Kullanıcı kimliği, belge kimliği, zaman damgası ve sertifika parmak izi gibi detayları içeren bir denetim izi oluşturun.
@@ -370,7 +353,6 @@ Kullanıcı kimliği, belge kimliği, zaman damgası ve sertifika parmak izi gib
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## Kullanım Durumunuza Uygun Sertifika Seçimi
@@ -382,7 +364,6 @@ Java’nın `keytool` komutuyla hızlıca oluşturun; dahili demolar için uygun
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### Üretim – Ticari CA  
@@ -422,7 +403,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### Yüklenen sertifikaları önbelleğe alın  
 
@@ -439,14 +419,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### Yüksek verimlilik için JVM’i ayarlayın  
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### Belgeleri asenkron olarak imzalayın  
@@ -457,7 +435,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## Sorun Giderme Kılavuzu

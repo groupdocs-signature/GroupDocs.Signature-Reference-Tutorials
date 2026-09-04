@@ -128,7 +128,6 @@ GroupDocs.Signature รองรับ **50+** รูปแบบไฟล์เ
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 แก้ไขไฟล์แล้วให้ซิงค์โปรเจกต์เพื่อดาวน์โหลดไลบรารี—การข้ามขั้นตอนนี้เป็นสาเหตุทั่วไปของข้อผิดพลาด “class not found”
 
@@ -154,7 +153,6 @@ Free trial เพียงพอสำหรับทำตามบทแนะ
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *Definition anchor:* คลาส `Signature` เป็นจุดเริ่มต้นของ GroupDocs.Signature สำหรับการโหลด, แก้ไข, และบันทึกไฟล์ PDF
 
@@ -168,7 +166,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // รหัสผ่านของใบรับรองของคุณ
 options.setReason("Approved"); // เหตุผลการลงนาม (ปรากฏในเมตาดาต้า PDF)
 options.setLocation("New York"); // สถานที่ที่ทำการลงนาม
-```
 ```
 
 *Definition anchor:* `DigitalSignOptions` รวมพารามิเตอร์ทั้งหมดที่จำเป็นสำหรับลายเซ็นดิจิทัล รวมถึงการแสดงผลและการตั้งค่าการเข้ารหัส
@@ -191,7 +188,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *Definition anchor:* `SignatureAppearance` กำหนดการแสดงผลของบล็อกลายเซ็นที่ผู้ใช้เห็นใน PDF
 
@@ -207,7 +203,6 @@ options.setHeight(80); // ความสูงเป็นพิกเซล
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // ระยะขอบบน, ขวา, ล่าง, ซ้าย
-```
 ```
 
 *Definition anchor:* `SignatureOptions` (หรือ subclass) ควบคุมการวางตำแหน่ง, ขนาด, และขอบเขตของลายเซ็นที่มองเห็นได้
@@ -225,7 +220,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // ความหนาเป็นพิกเซล
 options.setBorder(border);
 ```
-```
 
 *Definition anchor:* `Border` กำหนดสไตล์เส้น, ความหนา, และการมองเห็นของกรอบลายเซ็น
 
@@ -236,7 +230,6 @@ options.setBorder(border);
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *Definition anchor:* `SignResult` ให้รายละเอียดเกี่ยวกับการดำเนินการลงนาม รวมถึงจำนวนหน้าที่ลงนามสำเร็จ
@@ -253,7 +246,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## ปัญหาที่พบบ่อยและวิธีหลีกเลี่ยง
 
@@ -264,7 +256,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### ปัญหา 2: ข้อยกเว้น Invalid Password  
@@ -280,7 +271,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Fresh object
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### ปัญหา 3: ลายเซ็นปรากฏบนหน้าไม่ถูกต้อง  
 **คำตอบโดยตรง:** สร้างอ็อบเจกต์ `DigitalSignOptions` ใหม่สำหรับแต่ละการลงนาม; การใช้เดียวกันหลายครั้งอาจทำให้การตั้งค่าหน้าเก่าถูกคงไว้
@@ -290,7 +280,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // แทน 160
 options.setHeight(160); // แทน 80
 ```
-```
 
 ### ปัญหา 4: ลายเซ็นแสดงเป็นภาพเบลอ  
 **คำตอบโดยตรง:** เพิ่มมิติพิกเซลของบล็อกลายเซ็น (เช่น ความกว้าง = 320, ความสูง = 160) เพื่อให้ได้การเรนเดอร์ 300 DPI ที่เหมาะกับการพิมพ์
@@ -298,7 +287,6 @@ options.setHeight(160); // แทน 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### ปัญหา 5: OutOfMemoryError กับ PDF ขนาดใหญ่  
@@ -309,7 +297,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Automatically releases resources
-```
 ```
 
 ## แนวปฏิบัติด้านความปลอดภัยสำหรับการผลิต
@@ -326,7 +313,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### จำกัดสิทธิ์การเข้าถึงไฟล์ใบรับรอง  
 บน Linux ตั้งสิทธิ์เป็น `400` (อ่าน‑อย่างเดียวสำหรับเจ้าของ) เพื่อป้องกันการเข้าถึงโดยไม่ได้รับอนุญาต
@@ -335,7 +321,6 @@ options.setPassword(password);
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### ใช้ timestamping เพื่อความคงทนระยะยาว  
 เพิ่มเซิร์ฟเวอร์ Timestamp Authority (TSA) ที่เชื่อถือได้เพื่อให้ลายเซ็นยังคงมีผลหลังใบรับรองหมดอายุ
@@ -343,7 +328,6 @@ chmod 400 /secure/certificates/signing-cert.pfx
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### ตรวจสอบลายเซ็นหลังการลงนาม  
@@ -360,7 +344,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### บันทึกการลงนามทุกครั้ง  
 เก็บ audit trail ที่มีรายละเอียด เช่น user ID, document ID, timestamp, และ thumbprint ของใบรับรอง
@@ -369,7 +352,6 @@ if (result.getSucceeded().size() > 0) {
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## การเลือกใบรับรองที่เหมาะกับกรณีการใช้งานของคุณ
@@ -381,7 +363,6 @@ logger.info("Document signed: {}, User: {}, Timestamp: {}",
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### Production – Commercial CA  
@@ -421,7 +402,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### แคชใบรับรองที่โหลดแล้ว  
 
@@ -438,14 +418,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### ปรับจูน JVM สำหรับ throughput สูง  
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### ลงนามเอกสารแบบอะซิงโครนัส  
@@ -456,7 +434,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## คู่มือแก้ไขปัญหา

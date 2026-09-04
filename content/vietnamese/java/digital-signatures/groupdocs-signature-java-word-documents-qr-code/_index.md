@@ -65,10 +65,6 @@ url: /vi/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Tạo Chữ ký Mã QR trong Tài liệu Word bằng Java
 
 Bạn đã bao giờ dành hàng giờ để ký tài liệu thủ công, chỉ để tự hỏi liệu có cách nhanh hơn, đáng tin cậy hơn không? Bạn có thể **tạo chữ ký mã QR** trong tài liệu Word một cách lập trình chỉ với vài dòng mã Java. Dù bạn đang tự động hoá quy trình hợp đồng, quản lý giấy tờ pháp lý, hay xây dựng cổng phê duyệt ưu tiên di động, chữ ký mã QR cung cấp xác thực ngay lập tức, có thể quét được trên bất kỳ smartphone nào. Trong hướng dẫn này, bạn sẽ học cách thiết lập GroupDocs.Signature cho Java, cấu hình các tùy chọn mã QR, và nhúng dữ liệu phong phú như URL, dấu thời gian, hoặc payload JSON vào các tệp Word. Khi hoàn thành, bạn sẽ có thể ký tài liệu quy mô lớn, giảm công việc thủ công và nâng cao tuân thủ.
@@ -106,7 +102,6 @@ Chọn hệ thống xây dựng của bạn và thêm phụ thuộc chính xác 
 
 **Maven**
 
-```java
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -114,14 +109,11 @@ Chọn hệ thống xây dựng của bạn và thêm phụ thuộc chính xác 
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle**
 
-```java
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 **Direct Download**
@@ -139,9 +131,7 @@ Bạn muốn quản lý thủ công? Tải JAR trực tiếp từ [GroupDocs.Sig
 Đối tượng `Signature` là điểm vào cho tất cả các thao tác ký. Nó triển khai `AutoCloseable`, vì vậy bạn có thể an toàn sử dụng khối try‑with‑resources.
 
 ```java
-```java
 Signature signature = new Signature("path/to/your/document");
-```
 ```
 
 ## Hướng dẫn thực hiện: Ký tài liệu Word bằng mã QR
@@ -152,10 +142,8 @@ Dưới đây chúng tôi sẽ hướng dẫn từng bước, thêm các định
 Tải tài liệu nguồn bằng `new Signature("source.docx")` trong khối try‑with‑resources; đối tượng chuẩn bị tệp để chỉnh sửa và tự động giải phóng tài nguyên khi khối kết thúc.
 
 ```java
-```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/SampleDocX.docx";
 Signature signature = new Signature(filePath);
-```
 ```
 
 **Explanation:** Lớp `Signature` đại diện cho một tài liệu duy nhất trong bộ nhớ và cung cấp các phương thức để thêm, tìm kiếm và xác thực chữ ký. Nó hỗ trợ `.docx`, `.doc`, và nhiều định dạng khác.
@@ -164,12 +152,10 @@ Signature signature = new Signature(filePath);
 Tạo một thể hiện `QrCodeSignOptions`, đặt văn bản được mã hoá, loại mã vạch và vị trí. Đoạn mã sau đây cho thấy cấu hình tối thiểu.
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("JohnSmith");
 signOptions.setEncodeType(QrCodeTypes.QR);
 signOptions.setLeft(100); // X-axis position in pixels
 signOptions.setTop(100);  // Y-axis position in pixels
-```
 ```
 
 **Definition:** Lớp `QrCodeSignOptions` bao gồm tất cả các cài đặt cần thiết để tạo và đặt một chữ ký mã QR, bao gồm văn bản được mã hoá, loại mã vạch, kích thước, màu sắc và tọa độ vị trí trong tài liệu.
@@ -178,9 +164,7 @@ signOptions.setTop(100);  // Y-axis position in pixels
 Bạn có thể điều chỉnh thêm kích thước, lề và màu sắc:
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verify/doc-12345");
-```
 ```
 
 **Why it matters:** Một mã QR vuông 150 px với nền đen trên nền trắng đạt >99 % tỷ lệ quét thành công trên cả màn hình và bản in.
@@ -189,11 +173,9 @@ QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verif
 Xác định định dạng mục tiêu và hành vi ghi đè trước khi gọi `sign`.
 
 ```java
-```java
 WordProcessingSaveOptions saveOptions = new WordProcessingSaveOptions();
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Odt);
 saveOptions.setOverwriteExistingFiles(true);
-```
 ```
 
 **Definition:** Lớp `WordProcessingSaveOptions` xác định cách tài liệu Word đã ký sẽ được lưu, cho phép bạn chỉ định định dạng đầu ra (DOCX, ODT, v.v.), có ghi đè các tệp hiện có hay không, và các tùy chọn cấp tệp khác.
@@ -201,19 +183,15 @@ saveOptions.setOverwriteExistingFiles(true);
 Nếu bạn cần định dạng mã nguồn mở, chuyển sang `OutputType.ODT`:
 
 ```java
-```java
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Docx);
-```
 ```
 
 ### Làm sao tôi ký và lưu tài liệu với mã QR?
 Phương thức `sign` áp dụng mã QR và ghi tệp đầu ra trong một lần gọi.
 
 ```java
-```java
 String outputFilePath = "YOUR_OUTPUT_DIRECTORY/SaveSignedOutputType/SampleDocX.odt";
 signature.sign(outputFilePath, signOptions, saveOptions);
-```
 ```
 
 **Definition:** Phương thức `sign` của đối tượng `Signature` nhận đường dẫn đích, các tùy chọn ký đã cấu hình, và các tùy chọn lưu tùy chọn, sau đó nhúng mã QR vào tài liệu và ghi kết quả vào vị trí đã chỉ định.
@@ -228,14 +206,12 @@ signature.sign(outputFilePath, signOptions, saveOptions);
 Bao bọc logic ký trong khối try‑catch để bắt các lỗi như tệp không tồn tại, đường dẫn không hợp lệ, hoặc vấn đề giấy phép.
 
 ```java
-```java
 try {
     signature.sign(outputFilePath, signOptions, saveOptions);
     System.out.println("Document signed successfully!");
 } catch (Exception e) {
     System.err.println("Signing failed: " + e.getMessage());
 }
-```
 ```
 
 **Definition:** Bắt `Exception` đảm bảo bất kỳ vấn đề runtime nào như tệp thiếu, đường dẫn không hợp lệ, hoặc vấn đề giấy phép đều được báo cáo một cách nhẹ nhàng, ngăn ứng dụng bị sập trong môi trường production.
@@ -267,14 +243,12 @@ Các đội tài chính thêm mã QR liên kết tới cổng thanh toán. Khi q
 - **Vị trí quan trọng:** Đặt mã QR ở cuối trang để giảm việc tái bố trí layout và cải thiện tốc độ.
 
 ```java
-```java
 List<String> documents = getDocumentPaths();
 for (String docPath : documents) {
     Signature sig = new Signature(docPath);
     // Configure and sign
     sig.dispose();
 }
-```
 ```
 
 ### Mẹo đặt mã QR
@@ -283,13 +257,11 @@ for (String docPath : documents) {
 - **Nhiều trang:** Lặp qua các trang và tạo một `QrCodeSignOptions` mới cho mỗi vị trí.
 
 ```java
-```java
 for (Document doc : documents) {
     Signature sig = new Signature(doc.getPath());
     sig.sign(outputPath, signOptions, saveOptions);
     sig.dispose();
 }
-```
 ```
 
 ## Tùy chọn cấu hình nâng cao
@@ -297,7 +269,6 @@ for (Document doc : documents) {
 ### Làm sao tôi có thể thêm nhiều mã QR vào một tài liệu?
 Tạo các đối tượng `QrCodeSignOptions` riêng cho mỗi vị trí và gọi `sign` liên tục.
 
-```java
 ```java
 // First QR code
 QrCodeSignOptions sign1 = new QrCodeSignOptions("Approver 1");
@@ -313,7 +284,6 @@ sign2.setTop(100);
 signature.sign(outputPath, sign1, saveOptions);
 signature.sign(outputPath, sign2, saveOptions);
 ```
-```
 
 ### Các loại mã vạch khác nào được hỗ trợ?
 Ngoài QR, bạn có thể tạo mã **Aztec**, **DataMatrix**, hoặc **PDF417** bằng cách thay đổi `setEncodeType()`.
@@ -321,7 +291,6 @@ Ngoài QR, bạn có thể tạo mã **Aztec**, **DataMatrix**, hoặc **PDF417*
 ### Làm sao tôi tính vị trí động dựa trên kích thước trang?
 Lấy kích thước trang qua `Signature.getDocumentInfo()` và tính toán tọa độ bằng chương trình.
 
-```java
 ```java
 // Get document info
 DocumentInfo docInfo = signature.getDocumentInfo();
@@ -332,7 +301,6 @@ int pageHeight = docInfo.getHeight();
 int qrSize = 100;
 signOptions.setLeft((pageWidth - qrSize) / 2);
 signOptions.setTop((pageHeight - qrSize) / 2);
-```
 ```
 
 **Definition:** `Signature.getDocumentInfo()` trả về một đối tượng `DocumentInfo` chứa siêu dữ liệu như kích thước trang, có thể dùng để tính toán tọa độ đặt chữ ký một cách chính xác dựa trên kích thước thực tế của mỗi trang.
@@ -403,9 +371,7 @@ A: Yes. QR codes follow an open standard; any smartphone camera or QR reader app
 - [GroupDocs.Signature cho Java - các bản phát hành](https://releases.groupdocs.com/signature/java/)
 - [Tài liệu GroupDocs.Signature cho Java](https://docs.groupdocs.com/signature/java/)
 - [Tham chiếu API GroupDocs.Signature](https://reference.groupdocs.com/signature/java/)
-- [Các bản phát hành mới nhất của GroupDocs.Signature](https://releases.groupdocs.com/signature/java/)
 - [Mua GroupDocs.Signature](https://purchase.groupdocs.com/buy)
-- [Dùng thử miễn phí GroupDocs Signatures](https://releases.groupdocs.com/signature/java/)
 - [Đăng ký giấy phép tạm thời](https://purchase.groupdocs.com/temporary-license/)
 - [Hỗ trợ diễn đàn GroupDocs](https://forum.groupdocs.com/c/signature/)
 
@@ -419,15 +385,9 @@ Bây giờ bạn đã có một lộ trình đầy đủ, sẵn sàng cho produc
 **Kiểm tra với:** GroupDocs.Signature 23.12 for Java  
 **Tác giả:** GroupDocs  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Hướng dẫn liên quan
 
 - [Thư viện chữ ký mã QR Java - Hướng dẫn đầy đủ của GroupDocs](/signature/java/qr-code-signatures/)
 - [Tải và lưu tài liệu trong Java - Hướng dẫn đầy đủ GroupDocs.Signature](/signature/java/document-loading-saving/)
 - [Cách thêm chữ ký số vào tài liệu trong Java](/signature/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/)
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}

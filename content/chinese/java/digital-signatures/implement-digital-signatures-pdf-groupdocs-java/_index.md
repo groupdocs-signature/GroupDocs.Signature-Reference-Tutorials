@@ -128,7 +128,6 @@ GroupDocs.Signature 支持 **50+** 输入和输出格式，能够在不将整个
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 编辑后同步项目以下载库——跳过此步骤是导致 “class not found” 错误的常见原因。
 
@@ -154,7 +153,6 @@ GroupDocs.Signature 是商业产品。请选择适合您时间线的方案：
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *定义锚点：* `Signature` 类是 GroupDocs.Signature 用于加载、修改和保存 PDF 文件的入口。
 
@@ -168,7 +166,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // 您的证书密码
 options.setReason("Approved"); // 签署原因（显示在 PDF 元数据中）
 options.setLocation("New York"); // 签署地点
-```
 ```
 
 *定义锚点：* `DigitalSignOptions` 封装了数字签名所需的所有参数，包括可视外观和加密设置。
@@ -191,7 +188,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *定义锚点：* `SignatureAppearance` 定义了最终用户在 PDF 中看到的签名块的视觉表现。
 
@@ -207,7 +203,6 @@ options.setHeight(80); // 高度（像素）
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // 上、右、下、左边距
-```
 ```
 
 *定义锚点：* `SignatureOptions`（或其子类）控制可见签名的放置、尺寸和页面范围。
@@ -225,7 +220,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // 粗细（像素）
 options.setBorder(border);
 ```
-```
 
 *定义锚点：* `Border` 配置签名框的线型、粗细和可见性。
 
@@ -236,7 +230,6 @@ options.setBorder(border);
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *定义锚点：* `SignResult` 提供签名操作的详细信息，包括成功签署的页数。
@@ -253,7 +246,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## 常见陷阱及规避方法
 
@@ -264,7 +256,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### 问题 2：密码错误异常  
@@ -280,7 +271,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // 新对象
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### 问题 3：签名出现在错误页面  
 **直接答案：** 为每次签署创建全新的 `DigitalSignOptions` 实例；复用同一对象会导致页面设置残留。
@@ -290,7 +280,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // 替代 160
 options.setHeight(160); // 替代 80
 ```
-```
 
 ### 问题 4：签名模糊  
 **直接答案：** 增大签名块的像素尺寸（例如宽 = 320，高 = 160），以实现 300 DPI 的打印级渲染。
@@ -298,7 +287,6 @@ options.setHeight(160); // 替代 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### 问题 5：大 PDF 导致 OutOfMemoryError  
@@ -309,7 +297,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // 自动释放资源
-```
 ```
 
 ## 生产环境安全最佳实践
@@ -326,7 +313,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### 限制证书文件权限  
 在 Linux 上将权限设为 `400`（仅所有者只读），防止未授权访问。
@@ -335,7 +321,6 @@ options.setPassword(password);
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### 使用时间戳确保长期有效性  
 添加可信的时间戳授权服务器（TSA），使签名在证书过期后仍然有效。
@@ -343,7 +328,6 @@ chmod 400 /secure/certificates/signing-cert.pfx
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### 签署后进行验证  
@@ -360,7 +344,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### 记录每一次签署操作  
 维护审计日志，记录用户 ID、文档 ID、时间戳以及证书指纹等信息。
@@ -369,7 +352,6 @@ if (result.getSucceeded().size() > 0) {
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## 为不同使用场景选择合适的证书
@@ -381,7 +363,6 @@ logger.info("Document signed: {}, User: {}, Timestamp: {}",
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### 生产 – 商业 CA  
@@ -421,7 +402,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### 缓存已加载的证书  
 
@@ -438,14 +418,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### 调整 JVM 以实现高吞吐  
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### 异步签署文档  
@@ -456,7 +434,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## 故障排查指南

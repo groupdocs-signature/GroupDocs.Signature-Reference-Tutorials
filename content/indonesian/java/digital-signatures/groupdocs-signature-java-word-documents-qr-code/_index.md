@@ -65,10 +65,6 @@ url: /id/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Buat Tanda Tangan Kode QR dalam Dokumen Word Menggunakan Java
 
 Pernah menghabiskan berjam‑jam menandatangani dokumen secara manual, lalu bertanya‑tanya apakah ada cara yang lebih cepat dan andal? Anda dapat **membuat tanda tangan kode QR** dalam dokumen Word secara programatis dengan hanya beberapa baris kode Java. Baik Anda mengotomatisasi alur kerja kontrak, mengelola dokumen hukum, atau membangun portal persetujuan mobile‑first, tanda tangan kode QR memberi verifikasi instan yang dapat dipindai pada smartphone apa pun. Dalam tutorial ini Anda akan belajar cara menyiapkan GroupDocs.Signature untuk Java, mengonfigurasi opsi QR code, dan menyematkan data kaya seperti URL, timestamp, atau payload JSON ke file Word. Pada akhir tutorial Anda akan dapat menandatangani dokumen secara massal, mengurangi upaya manual, dan meningkatkan kepatuhan.
@@ -106,7 +102,6 @@ Pilih sistem build Anda dan tambahkan dependensi persis seperti yang ditunjukkan
 
 **Maven**
 
-```java
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -114,14 +109,11 @@ Pilih sistem build Anda dan tambahkan dependensi persis seperti yang ditunjukkan
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle**
 
-```java
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 **Unduhan Langsung**
@@ -139,9 +131,7 @@ Lebih suka manajemen manual? Unduh JAR langsung dari [rilis GroupDocs.Signature 
 Objek `Signature` adalah titik masuk untuk semua operasi penandatanganan. Ia mengimplementasikan `AutoCloseable`, sehingga Anda dapat menggunakan blok try‑with‑resources dengan aman.
 
 ```java
-```java
 Signature signature = new Signature("path/to/your/document");
-```
 ```
 
 ## Panduan Implementasi: Menandatangani Dokumen Word dengan Kode QR
@@ -152,10 +142,8 @@ Berikut kami jelaskan setiap langkah, menambahkan anchor definisi dan jawaban la
 Muat dokumen sumber dengan `new Signature("source.docx")` di dalam blok try‑with‑resources; objek menyiapkan file untuk modifikasi dan secara otomatis melepaskan sumber daya saat blok selesai.
 
 ```java
-```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/SampleDocX.docx";
 Signature signature = new Signature(filePath);
-```
 ```
 
 **Penjelasan:** Kelas `Signature` mewakili satu dokumen dalam memori dan menyediakan metode untuk menambah, mencari, serta memverifikasi tanda tangan. Ia mendukung `.docx`, `.doc`, dan banyak format lainnya.
@@ -164,12 +152,10 @@ Signature signature = new Signature(filePath);
 Buat instance `QrCodeSignOptions`, tetapkan teks yang akan dikodekan, tipe barcode, dan posisi. Cuplikan berikut menunjukkan konfigurasi minimal.
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("JohnSmith");
 signOptions.setEncodeType(QrCodeTypes.QR);
 signOptions.setLeft(100); // posisi sumbu X dalam piksel
 signOptions.setTop(100);  // posisi sumbu Y dalam piksel
-```
 ```
 
 **Definisi:** Kelas `QrCodeSignOptions` mengenkapsulasi semua pengaturan yang diperlukan untuk menghasilkan dan menempatkan tanda tangan kode QR, termasuk teks yang dikodekan, tipe barcode, ukuran, warna, serta koordinat posisi dalam dokumen.
@@ -178,9 +164,7 @@ signOptions.setTop(100);  // posisi sumbu Y dalam piksel
 Anda dapat menyesuaikan ukuran, margin, dan warna lebih lanjut:
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verify/doc-12345");
-```
 ```
 
 **Mengapa penting:** Kode QR berukuran 150 px persegi dengan latar depan hitam pada latar belakang putih menghasilkan >99 % keberhasilan pemindaian pada layar maupun cetakan.
@@ -189,11 +173,9 @@ QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verif
 Tentukan format target dan perilaku timpa sebelum memanggil `sign`.
 
 ```java
-```java
 WordProcessingSaveOptions saveOptions = new WordProcessingSaveOptions();
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Odt);
 saveOptions.setOverwriteExistingFiles(true);
-```
 ```
 
 **Definisi:** Kelas `WordProcessingSaveOptions` menentukan cara dokumen Word yang ditandatangani disimpan, memungkinkan Anda menyebutkan format output (DOCX, ODT, dll.), apakah file yang ada ditimpa, dan preferensi tingkat file lainnya.
@@ -201,19 +183,15 @@ saveOptions.setOverwriteExistingFiles(true);
 Jika Anda memerlukan format sumber terbuka, ubah ke `OutputType.ODT`:
 
 ```java
-```java
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Docx);
-```
 ```
 
 ### Bagaimana cara menandatangani dan menyimpan dokumen dengan kode QR?
 Metode `sign` menerapkan kode QR dan menulis file output dalam satu panggilan.
 
 ```java
-```java
 String outputFilePath = "YOUR_OUTPUT_DIRECTORY/SaveSignedOutputType/SampleDocX.odt";
 signature.sign(outputFilePath, signOptions, saveOptions);
-```
 ```
 
 **Definisi:** Metode `sign` pada objek `Signature` menerima jalur tujuan, opsi penandatanganan yang telah dikonfigurasi, dan opsi penyimpanan opsional, lalu menyematkan kode QR ke dalam dokumen dan menulis hasilnya ke lokasi yang ditentukan.
@@ -228,14 +206,12 @@ signature.sign(outputFilePath, signOptions, saveOptions);
 Bungkus logika penandatanganan dalam blok try‑catch untuk menangkap file yang hilang, jalur tidak valid, atau masalah lisensi.
 
 ```java
-```java
 try {
     signature.sign(outputFilePath, signOptions, saveOptions);
     System.out.println("Document signed successfully!");
 } catch (Exception e) {
     System.err.println("Signing failed: " + e.getMessage());
 }
-```
 ```
 
 **Definisi:** Menangkap `Exception` memastikan bahwa setiap masalah runtime seperti file yang tidak ada, jalur tidak valid, atau masalah lisensi dilaporkan secara elegan, mencegah aplikasi crash di produksi.
@@ -267,14 +243,12 @@ Tim keuangan menambahkan kode QR yang menautkan ke gateway pembayaran. Saat dipi
 - **Penempatan penting:** Letakkan kode QR di bagian bawah halaman untuk mengurangi reflow tata letak dan meningkatkan kecepatan.
 
 ```java
-```java
 List<String> documents = getDocumentPaths();
 for (String docPath : documents) {
     Signature sig = new Signature(docPath);
     // Konfigurasi dan tanda tangan
     sig.dispose();
 }
-```
 ```
 
 ### Tips Penempatan Kode QR
@@ -283,13 +257,11 @@ for (String docPath : documents) {
 - **Banyak halaman:** Loop melalui halaman dan buat instance `QrCodeSignOptions` baru untuk tiap posisi.
 
 ```java
-```java
 for (Document doc : documents) {
     Signature sig = new Signature(doc.getPath());
     sig.sign(outputPath, signOptions, saveOptions);
     sig.dispose();
 }
-```
 ```
 
 ## Opsi Konfigurasi Lanjutan
@@ -297,7 +269,6 @@ for (Document doc : documents) {
 ### Bagaimana cara menambahkan beberapa kode QR ke satu dokumen?
 Buat objek `QrCodeSignOptions` terpisah untuk tiap lokasi dan panggil `sign` berulang kali.
 
-```java
 ```java
 // QR pertama
 QrCodeSignOptions sign1 = new QrCodeSignOptions("Approver 1");
@@ -313,7 +284,6 @@ sign2.setTop(100);
 signature.sign(outputPath, sign1, saveOptions);
 signature.sign(outputPath, sign2, saveOptions);
 ```
-```
 
 ### Jenis barcode lain apa yang didukung?
 Selain QR, Anda dapat menghasilkan **Aztec**, **DataMatrix**, atau **PDF417** dengan mengubah `setEncodeType()`.
@@ -321,7 +291,6 @@ Selain QR, Anda dapat menghasilkan **Aztec**, **DataMatrix**, atau **PDF417** de
 ### Bagaimana cara menghitung posisi dinamis berdasarkan ukuran halaman?
 Dapatkan dimensi halaman lewat `Signature.getDocumentInfo()` dan hitung koordinat secara programatis.
 
-```java
 ```java
 // Dapatkan info dokumen
 DocumentInfo docInfo = signature.getDocumentInfo();
@@ -332,7 +301,6 @@ int pageHeight = docInfo.getHeight();
 int qrSize = 100;
 signOptions.setLeft((pageWidth - qrSize) / 2);
 signOptions.setTop((pageHeight - qrSize) / 2);
-```
 ```
 
 **Definisi:** `Signature.getDocumentInfo()` mengembalikan objek `DocumentInfo` yang berisi metadata seperti dimensi halaman, yang dapat dipakai untuk menghitung koordinat penempatan yang tepat berdasarkan ukuran aktual tiap halaman.
@@ -397,9 +365,7 @@ J: Ya. Kode QR mengikuti standar terbuka; kamera smartphone atau aplikasi pembac
 - [rilis GroupDocs.Signature untuk Java](https://releases.groupdocs.com/signature/java/)
 - [Dokumentasi GroupDocs.Signature untuk Java](https://docs.groupdocs.com/signature/java/)
 - [Referensi API GroupDocs.Signature](https://reference.groupdocs.com/signature/java/)
-- [Rilis Terbaru GroupDocs.Signature](https://releases.groupdocs.com/signature/java/)
 - [Beli GroupDocs.Signature](https://purchase.groupdocs.com/buy)
-- [Trial Gratis GroupDocs.Signatures](https://releases.groupdocs.com/signature/java/)
 - [Ajukan Lisensi Sementara](https://purchase.groupdocs.com/temporary-license/)
 - [Forum Dukungan GroupDocs](https://forum.groupdocs.com/c/signature/)
 
@@ -413,15 +379,9 @@ Anda kini memiliki peta jalan lengkap, siap produksi, untuk **membuat tanda tang
 **Diuji Dengan:** GroupDocs.Signature 23.12 untuk Java  
 **Penulis:** GroupDocs  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Terkait
 
 - [Java QR Code Signature Library - Tutorial Lengkap GroupDocs](/signature/java/qr-code-signatures/)
 - [Muat dan Simpan Dokumen di Java - Tutorial Lengkap GroupDocs.Signature](/signature/java/document-loading-saving/)
 - [Cara Menambahkan Tanda Tangan Digital ke Dokumen di Java](/signature/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/)
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}

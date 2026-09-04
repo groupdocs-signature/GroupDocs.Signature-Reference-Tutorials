@@ -129,7 +129,6 @@ Nếu bạn thích Gradle, chèn dòng sau vào `build.gradle`:
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 Sau khi chỉnh sửa, đồng bộ dự án để tải thư viện — bỏ qua bước này thường gây lỗi “class not found”.
 
@@ -155,7 +154,6 @@ Tạo một thể hiện `Signature` bao bọc tệp PDF mục tiêu; việc nà
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *Định nghĩa:* Lớp `Signature` là điểm vào của GroupDocs.Signature để tải, chỉnh sửa và lưu các tệp PDF.
 
@@ -169,7 +167,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Mật khẩu của chứng chỉ
 options.setReason("Approved"); // Lý do ký (hiển thị trong metadata PDF)
 options.setLocation("New York"); // Nơi ký
-```
 ```
 
 *Định nghĩa:* `DigitalSignOptions` bao gói tất cả các tham số cần thiết cho chữ ký số, bao gồm cả giao diện và cài đặt mật mã.
@@ -192,7 +189,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *Định nghĩa:* `SignatureAppearance` xác định cách hiển thị khối chữ ký mà người dùng cuối sẽ thấy trong PDF.
 
@@ -208,7 +204,6 @@ options.setHeight(80); // Chiều cao tính bằng pixel
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Lề: Trên, Phải, Dưới, Trái
-```
 ```
 
 *Định nghĩa:* `SignatureOptions` (hoặc lớp con) điều khiển vị trí, kích thước và phạm vi trang cho chữ ký hiển thị.
@@ -226,7 +221,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Độ dày tính bằng pixel
 options.setBorder(border);
 ```
-```
 
 *Định nghĩa:* `Border` cấu hình kiểu đường, độ dày và hiển thị cho khung chữ ký.
 
@@ -237,7 +231,6 @@ Gọi `sign` với các tùy chọn đã cấu hình; phương thức trả về
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *Định nghĩa:* `SignResult` cung cấp chi tiết về hoạt động ký, bao gồm số trang ký thành công.
@@ -254,7 +247,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## Các lỗi thường gặp và cách tránh
 
@@ -265,7 +257,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### Vấn đề 2: Ngoại lệ mật khẩu không hợp lệ  
@@ -281,7 +272,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Đối tượng mới
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### Vấn đề 3: Chữ ký xuất hiện ở trang sai  
 **Câu trả lời ngắn:** Tạo một đối tượng `DigitalSignOptions` mới cho mỗi lần ký; việc tái sử dụng cùng một đối tượng có thể giữ lại cài đặt trang cũ.
@@ -291,7 +281,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // Thay vì 160
 options.setHeight(160); // Thay vì 80
 ```
-```
 
 ### Vấn đề 4: Chữ ký bị mờ  
 **Câu trả lời ngắn:** Tăng kích thước pixel của khối chữ ký (ví dụ, width = 320, height = 160) để đạt độ phân giải 300 DPI phù hợp cho in ấn.
@@ -299,7 +288,6 @@ options.setHeight(160); // Thay vì 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### Vấn đề 5: OutOfMemoryError với PDF lớn  
@@ -310,7 +298,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Tự động giải phóng tài nguyên
-```
 ```
 
 ## Các thực hành bảo mật tốt nhất cho môi trường sản xuất
@@ -327,7 +314,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### Hạn chế quyền truy cập file chứng chỉ  
 Trên Linux, đặt quyền `400` (chỉ đọc cho chủ sở hữu) để ngăn truy cập trái phép.
@@ -336,7 +322,6 @@ Trên Linux, đặt quyền `400` (chỉ đọc cho chủ sở hữu) để ngă
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### Sử dụng dấu thời gian để duy trì tính hợp lệ lâu dài  
 Thêm máy chủ Timestamp Authority (TSA) tin cậy để chữ ký vẫn hợp lệ sau khi chứng chỉ hết hạn.
@@ -344,7 +329,6 @@ Thêm máy chủ Timestamp Authority (TSA) tin cậy để chữ ký vẫn hợp
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### Xác minh chữ ký sau khi ký  
@@ -361,7 +345,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### Ghi lại mọi hoạt động ký  
 Duy trì nhật ký audit với các chi tiết như ID người dùng, ID tài liệu, thời gian và dấu vân tay chứng chỉ ký.
@@ -370,7 +353,6 @@ Duy trì nhật ký audit với các chi tiết như ID người dùng, ID tài 
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## Lựa chọn chứng chỉ phù hợp với trường hợp sử dụng
@@ -382,7 +364,6 @@ Tạo nhanh bằng `keytool` của Java; phù hợp cho demo nội bộ nhưng *
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### Sản xuất – CA thương mại  
@@ -422,7 +403,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### Cache chứng chỉ đã tải  
 
@@ -439,14 +419,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### Tinh chỉnh JVM cho khối lượng công việc cao  
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### Ký tài liệu bất đồng bộ  
@@ -457,7 +435,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## Hướng dẫn khắc phục sự cố

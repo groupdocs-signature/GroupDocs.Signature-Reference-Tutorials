@@ -129,7 +129,6 @@ Wenn Sie Gradle bevorzugen, fügen Sie diese Zeile in `build.gradle` ein:
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 Nach dem Bearbeiten synchronisieren Sie das Projekt, um die Bibliothek herunterzuladen – das Überspringen dieses Schrittes ist eine häufige Ursache für „class not found“-Fehler.
 
@@ -155,7 +154,6 @@ Erstellen Sie eine `Signature`‑Instanz, die die Ziel‑PDF‑Datei einhüllt; 
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *Definition‑Anker:* Die Klasse `Signature` ist der Einstiegspunkt von GroupDocs.Signature zum Laden, Ändern und Speichern von PDF‑Dateien.
 
@@ -169,7 +167,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Your certificate's password
 options.setReason("Approved"); // Why you're signing (appears in PDF metadata)
 options.setLocation("New York"); // Where the signing occurred
-```
 ```
 
 *Definition‑Anker:* `DigitalSignOptions` fasst alle für eine digitale Signatur erforderlichen Parameter zusammen, einschließlich des visuellen Erscheinungsbildes und kryptografischer Einstellungen.
@@ -192,7 +189,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *Definition‑Anker:* `SignatureAppearance` definiert die visuelle Darstellung des Signaturblocks, den Endbenutzer im PDF sehen.
 
@@ -208,7 +204,6 @@ options.setHeight(80); // Height in pixels
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Top, Right, Bottom, Left margins
-```
 ```
 
 *Definition‑Anker:* `SignatureOptions` (oder dessen Unterklasse) steuert Platzierung, Größe und Seitenumfang der sichtbaren Signatur.
@@ -226,7 +221,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Thickness in pixels
 options.setBorder(border);
 ```
-```
 
 *Definition‑Anker:* `Border` konfiguriert Linienstil, Stärke und Sichtbarkeit des Signaturrahmens.
 
@@ -237,7 +231,6 @@ Rufen Sie `sign` mit den konfigurierten Optionen auf; die Methode gibt ein `Sign
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *Definition‑Anker:* `SignResult` liefert Details zur Signatur‑Operation, einschließlich der Anzahl erfolgreich signierter Seiten.
@@ -254,7 +247,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## Häufige Fallstricke und wie man sie vermeidet
 
@@ -266,7 +258,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### Problem 2: Ungültige Passwort‑Ausnahmen
@@ -283,7 +274,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Fresh object
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### Problem 3: Signatur erscheint auf falscher Seite
 
@@ -294,7 +284,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // Instead of 160
 options.setHeight(160); // Instead of 80
 ```
-```
 
 ### Problem 4: Verschwommene Signaturdarstellung
 
@@ -303,7 +292,6 @@ options.setHeight(160); // Instead of 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### Problem 5: OutOfMemoryError bei großen PDFs
@@ -315,7 +303,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Automatically releases resources
-```
 ```
 
 ## Sicherheits‑Best Practices für den Produktionseinsatz
@@ -333,7 +320,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### Beschränken Sie die Dateiberechtigungen des Zertifikats
 
@@ -343,7 +329,6 @@ Unter Linux setzen Sie die Berechtigungen auf `400` (nur lesbar für den Eigent�
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### Verwenden Sie Timestamping für langfristige Gültigkeit
 
@@ -352,7 +337,6 @@ Fügen Sie einen vertrauenswürdigen Timestamp Authority (TSA)‑Server hinzu, d
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### Signaturen nach dem Signieren validieren
@@ -370,7 +354,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### Jede Signaturoperation protokollieren
 
@@ -380,7 +363,6 @@ Führen Sie ein Audit‑Protokoll mit Details wie Benutzer‑ID, Dokument‑ID, 
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## Auswahl des richtigen Zertifikats für Ihren Anwendungsfall
@@ -393,7 +375,6 @@ Schnell mit Java‑`keytool` erstellen; geeignet für interne Demos, aber **nich
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### Produktion – Kommerzielle CA
@@ -439,7 +420,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### Geladene Zertifikate zwischenspeichern
 
@@ -456,14 +436,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### JVM für hohen Durchsatz optimieren
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### Dokumente asynchron signieren
@@ -474,7 +452,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## Fehlersuch‑Leitfaden

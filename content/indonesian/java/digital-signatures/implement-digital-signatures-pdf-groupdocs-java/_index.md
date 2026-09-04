@@ -129,7 +129,6 @@ Jika Anda lebih suka Gradle, sisipkan baris ini ke dalam `build.gradle`:
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 Setelah mengedit, sinkronkan proyek untuk mengunduh perpustakaan—melewatkan langkah ini adalah penyebab umum error “class not found”.
 
@@ -155,7 +154,6 @@ Buat instance `Signature` yang membungkus file PDF target; ini memuat dokumen ke
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *Definition anchor:* Kelas `Signature` adalah titik masuk GroupDocs.Signature untuk memuat, memodifikasi, dan menyimpan file PDF.
 
@@ -169,7 +167,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Your certificate's password
 options.setReason("Approved"); // Why you're signing (appears in PDF metadata)
 options.setLocation("New York"); // Where the signing occurred
-```
 ```
 
 *Definition anchor:* `DigitalSignOptions` mengenkapsulasi semua parameter yang diperlukan untuk tanda tangan digital, termasuk tampilan visual dan pengaturan kriptografis.
@@ -192,7 +189,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *Definition anchor:* `SignatureAppearance` mendefinisikan representasi visual dari blok tanda tangan yang dilihat pengguna akhir di PDF.
 
@@ -208,7 +204,6 @@ options.setHeight(80); // Height in pixels
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Top, Right, Bottom, Left margins
-```
 ```
 
 *Definition anchor:* `SignatureOptions` (atau subclassnya) mengontrol penempatan, ukuran, dan ruang lingkup halaman untuk tanda tangan yang terlihat.
@@ -226,7 +221,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Thickness in pixels
 options.setBorder(border);
 ```
-```
 
 *Definition anchor:* `Border` mengkonfigurasi gaya garis, ketebalan, dan visibilitas untuk bingkai tanda tangan.
 
@@ -237,7 +231,6 @@ Panggil `sign` dengan opsi yang dikonfigurasi; metode ini mengembalikan `SignRes
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *Definition anchor:* `SignResult` memberikan detail tentang operasi penandatanganan, termasuk jumlah halaman yang berhasil ditandatangani.
@@ -254,7 +247,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## Kesalahan Umum dan Cara Menghindarinya
 
@@ -266,7 +258,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### Masalah 2: Pengecualian Password Tidak Valid
@@ -283,7 +274,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Fresh object
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### Masalah 3: Tanda Tangan Muncul di Halaman yang Salah
 
@@ -294,7 +284,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // Instead of 160
 options.setHeight(160); // Instead of 80
 ```
-```
 
 ### Masalah 4: Rendering Tanda Tangan Buram
 
@@ -303,7 +292,6 @@ options.setHeight(160); // Instead of 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### Masalah 5: OutOfMemoryError dengan PDF Besar
@@ -315,7 +303,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Automatically releases resources
-```
 ```
 
 ## Praktik Keamanan Terbaik untuk Penggunaan Produksi
@@ -333,7 +320,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### Batasi izin file sertifikat
 
@@ -343,7 +329,6 @@ Di Linux, atur izin menjadi `400` (hanya baca untuk pemilik) untuk mencegah akse
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### Gunakan timestamping untuk keabsahan jangka panjang
 
@@ -352,7 +337,6 @@ Tambahkan server Timestamp Authority (TSA) tepercaya sehingga tanda tangan tetap
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### Validasi tanda tangan setelah penandatanganan
@@ -370,7 +354,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### Catat setiap operasi penandatanganan
 
@@ -380,7 +363,6 @@ Pertahankan jejak audit dengan detail seperti ID pengguna, ID dokumen, timestamp
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## Memilih Sertifikat yang Tepat untuk Kasus Penggunaan Anda
@@ -393,7 +375,6 @@ Buat dengan cepat menggunakan `keytool` Java; cocok untuk demo internal tetapi *
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### Produksi – CA Komersial
@@ -435,7 +416,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### Cache sertifikat yang dimuat
 
@@ -452,14 +432,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### Optimalkan JVM untuk throughput tinggi
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### Tanda tangani dokumen secara asynchronous
@@ -470,7 +448,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## Panduan Pemecahan Masalah

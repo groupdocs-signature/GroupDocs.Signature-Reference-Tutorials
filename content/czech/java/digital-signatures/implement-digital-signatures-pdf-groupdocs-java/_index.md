@@ -129,7 +129,6 @@ Pokud dáváte přednost Gradlu, vložte tento řádek do `build.gradle`:
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 Po úpravě synchronizujte projekt, aby se knihovna stáhla — vynechání tohoto kroku je častou příčinou chyb „class not found“.
 
@@ -155,7 +154,6 @@ Vytvořte instanci `Signature`, která obalí cílový PDF soubor; tím se dokum
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *Definiční kotva:* Třída `Signature` je vstupním bodem GroupDocs.Signature pro načítání, úpravu a ukládání PDF souborů.
 
@@ -169,7 +167,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Heslo k vašemu certifikátu
 options.setReason("Approved"); // Proč podepisujete (zobrazí se v metadatech PDF)
 options.setLocation("New York"); // Kde byl podpis proveden
-```
 ```
 
 *Definiční kotva:* `DigitalSignOptions` zapouzdřuje všechny parametry potřebné pro digitální podpis, včetně vizuálního vzhledu a kryptografických nastavení.
@@ -192,7 +189,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *Definiční kotva:* `SignatureAppearance` definuje vizuální reprezentaci bloku podpisu, kterou uživatelé vidí v PDF.
 
@@ -208,7 +204,6 @@ options.setHeight(80); // Výška v pixelech
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Horní, pravý, dolní, levý okraj
-```
 ```
 
 *Definiční kotva:* `SignatureOptions` (nebo jeho podtřída) řídí umístění, velikost a rozsah stránek pro viditelný podpis.
@@ -226,7 +221,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Tloušťka v pixelech
 options.setBorder(border);
 ```
-```
 
 *Definiční kotva:* `Border` konfiguruje styl čáry, tloušťku a viditelnost rámce podpisu.
 
@@ -237,7 +231,6 @@ Zavolejte `sign` s nakonfigurovanými možnostmi; metoda vrátí `SignResult`, k
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *Definiční kotva:* `SignResult` poskytuje podrobnosti o operaci podepisování, včetně počtu úspěšně podepsaných stránek.
@@ -254,7 +247,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## Běžné úskalí a jak se jim vyhnout
 
@@ -265,7 +257,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### Problém 2: Výjimky „Invalid Password“  
@@ -281,7 +272,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Čerstvý objekt
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### Problém 3: Podpis se objeví na špatné stránce  
 **Přímá odpověď:** Vytvořte novou instanci `DigitalSignOptions` pro každou operaci podepisování; opakované používání stejného objektu může způsobit, že se zachovají zastaralé nastavení stránek.
@@ -291,7 +281,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // Místo 160
 options.setHeight(160); // Místo 80
 ```
-```
 
 ### Problém 4: Rozmazané vykreslení podpisu  
 **Přímá odpověď:** Zvyšte pixelové rozměry bloku podpisu (např. šířka = 320, výška = 160), aby se dosáhlo vykreslení 300 DPI vhodného pro tisk.
@@ -299,7 +288,6 @@ options.setHeight(160); // Místo 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### Problém 5: OutOfMemoryError u velkých PDF  
@@ -310,7 +298,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Automaticky uvolní zdroje
-```
 ```
 
 ## Bezpečnostní osvědčené postupy pro produkční nasazení
@@ -327,7 +314,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### Omezte oprávnění k souboru certifikátu  
 Na Linuxu nastavte oprávnění na `400` (pouze čtení pro vlastníka), aby se zabránilo neoprávněnému přístupu.
@@ -336,7 +322,6 @@ Na Linuxu nastavte oprávnění na `400` (pouze čtení pro vlastníka), aby se 
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### Používejte časové razítko pro dlouhodobou platnost  
 Přidejte důvěryhodný server Timestamp Authority (TSA), aby podpisy zůstaly platné i po vypršení certifikátu.
@@ -344,7 +329,6 @@ Přidejte důvěryhodný server Timestamp Authority (TSA), aby podpisy zůstaly 
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### Ověřujte podpisy po podepsání  
@@ -361,7 +345,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### Logujte každou operaci podepisování  
 Udržujte auditní stopu s detaily jako uživatelské ID, ID dokumentu, časové razítko a otisk certifikátu.
@@ -370,7 +353,6 @@ Udržujte auditní stopu s detaily jako uživatelské ID, ID dokumentu, časové
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## Výběr správného certifikátu pro váš případ použití
@@ -382,7 +364,6 @@ Vytvořte rychle pomocí Java `keytool`; vhodné pro interní demonstrace, ale *
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### Produkce – Komerční CA  
@@ -422,7 +403,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### Cacheujte načtené certifikáty  
 
@@ -439,14 +419,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### Ladění JVM pro vysoký průtok  
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### Asynchronní podepisování dokumentů  
@@ -457,7 +435,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## Průvodce řešením problémů

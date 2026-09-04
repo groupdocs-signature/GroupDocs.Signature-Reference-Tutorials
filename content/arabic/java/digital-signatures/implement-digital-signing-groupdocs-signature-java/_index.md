@@ -129,7 +129,6 @@ GroupDocs.Signature يدعم **أكثر من 50 تنسيقًا للمدخلات 
 ### إعداد Maven
 أضف ما يلي إلى ملف `pom.xml` الخاص بك:
 
-``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -137,15 +136,12 @@ GroupDocs.Signature يدعم **أكثر من 50 تنسيقًا للمدخلات 
     <version>23.12</version>
 </dependency>
 ```
-```
 
 ### إعداد Gradle
 أضف ما يلي إلى ملف `build.gradle`:
 
-``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 **نصيحة احترافية:** إذا كنت تعمل في بيئة مؤسسية ذات وصول إنترنت مقيد، يمكنك تنزيل ملفات JAR مباشرة من [صفحة إصدارات GroupDocs.Signature](https://releases.groupdocs.com/signature/java/) وإضافتها إلى مسار الفئة (classpath) يدويًا.
@@ -162,7 +158,6 @@ GroupDocs.Signature يتطلب ترخيصًا للاستخدام في الإنت
 
 بعد إضافة الاعتماد، تحقق من إعدادك باستخدام هذا الاختبار السريع. يهيء هذا الكود مكتبة GroupDocs.Signature ويتأكد من إمكانية الوصول إلى المستند:
 
-``` 
 ```java
 import com.groupdocs.signature.Signature;
 
@@ -173,7 +168,6 @@ public class DocumentSigner {
         System.out.println("GroupDocs.Signature initialized successfully!");
     }
 }
-```
 ```
 
 **ما هو الـ anchor:** `Signature` هو الفئة الأساسية في GroupDocs.Signature التي تمثل المستند المراد توقيعه.  
@@ -204,7 +198,6 @@ public class DocumentSigner {
 
 أولاً، عرّف مسارات الملفات. استبدل هذه المسارات النائبة بالمسارات الفعلية لديك:
 
-``` 
 ```java
 final String DOCUMENT_DIRECTORY = "YOUR_DOCUMENT_DIRECTORY";
 final String OUTPUT_DIRECTORY = "YOUR_OUTPUT_DIRECTORY";
@@ -215,7 +208,6 @@ String filePath = DOCUMENT_DIRECTORY + "/sample.docx";
 String fileName = new java.io.File(filePath).getName();
 String outputFilePath = OUTPUT_DIRECTORY + "/Signed/" + fileName;
 ```
-```
 
 **لماذا نفصل المجلدات؟** حفظ المستندات الأصلية والموقعة في مجلدات مختلفة يمنع الكتابة فوق الملفات عن طريق الخطأ ويسهّل التحكم بالإصدارات. في الإنتاج قد ترغب أيضًا في إضافة طوابع زمنية لأسماء ملفات الإخراج.
 
@@ -223,10 +215,8 @@ String outputFilePath = OUTPUT_DIRECTORY + "/Signed/" + fileName;
 
 أنشئ كائن `Signature` الذي يدير جميع عمليات التوقيع:
 
-``` 
 ```java
 Signature signature = new Signature(filePath);
-```
 ```
 
 **ما يحدث في الخلفية:** يتم تحميل المستند وتحضيره للتعديل. المكتبة تكتشف تنسيق المستند تلقائيًا (PDF، DOCX، XLSX، إلخ) وتطبق طريقة التوقيع المناسبة.
@@ -237,7 +227,6 @@ Signature signature = new Signature(filePath);
 
 هنا تحدد كيف يجب أن يبدو التوقيع وكيف يتصرف:
 
-``` 
 ```java
 import com.groupdocs.signature.options.sign.DigitalSignOptions;
 
@@ -247,7 +236,6 @@ DigitalSignOptions options = new DigitalSignOptions(CERTIFICATE_FILE_PATH) {
         super.setImageFilePath(IMAGE_FILE_PATH);
     }
 };
-```
 ```
 
 **ما يمكن تخصيصه هنا؟**
@@ -262,7 +250,6 @@ DigitalSignOptions options = new DigitalSignOptions(CERTIFICATE_FILE_PATH) {
 
 الآن نفّذ عملية التوقيع وتعامل مع الفشل بشكل سلس:
 
-``` 
 ```java
 try {
     signature.sign(outputFilePath, options);
@@ -275,7 +262,6 @@ try {
     // Handle general errors (e.g., file I/O issues, permission problems)
 }
 ```
-```
 
 **لماذا كتلتين من `catch`؟** الأولى تلتقط أخطاء خاصة بـ GroupDocs (مثل فشل التحقق من الشهادة)، والثانية تلتقط كل ما هو آخر (مثل مشاكل أذونات نظام الملفات). هذا يساعدك على تشخيص المشكلات بسرعة أثناء التطوير.
 
@@ -285,7 +271,6 @@ try {
 
 هل تريد مزيدًا من التحكم في توقيعاتك؟ إليك الخيارات الرئيسية التي يمكنك تخصيصها:
 
-``` 
 ```java
 DigitalSignOptions options = new DigitalSignOptions(CERTIFICATE_FILE_PATH);
 
@@ -303,7 +288,6 @@ options.setPassword("certificate_password"); // If .pfx is password-protected
 options.setReason("Contract approval"); // Why this document is being signed
 options.setContact("john@company.com"); // Signer's contact info
 options.setLocation("New York Office"); // Where the signature occurred
-```
 ```
 
 **نصيحة من الواقع:** للعقود، احرص دائمًا على تعبئة حقول `Reason`، `Contact`، و`Location`. تظهر هذه القيم في خصائص توقيع PDF وتضيف مصداقية أثناء عمليات التدقيق.
@@ -341,14 +325,12 @@ options.setLocation("New York Office"); // Where the signature occurred
 - عالج المستندات على دفعات بدلاً من جميعها مرة واحدة.  
 - أغلق دائمًا كائن `Signature`: استخدم `try‑with‑resources` أو استدعِ `dispose()` يدويًا.
 
-``` 
 ```java
 // Good: automatic resource management
 try (Signature signature = new Signature(filePath)) {
     signature.sign(outputFilePath, options);
 }
 // Signature is automatically closed here
-```
 ```
 
 ### 4. مشاكل موضع التوقيع في PDFs
@@ -368,7 +350,6 @@ try (Signature signature = new Signature(filePath)) {
 
 **لا تقم أبدًا بكتابة مسارات الشهادات أو كلمات المرور في الشفرة المصدرية.** بدلاً من ذلك:
 
-``` 
 ```java
 // Bad - hardcoded secrets
 String certPath = "/home/user/cert.pfx";
@@ -377,7 +358,6 @@ String certPassword = "mypassword123";
 // Good - environment variables or secure configuration
 String certPath = System.getenv("CERT_PATH");
 String certPassword = System.getenv("CERT_PASSWORD");
-```
 ```
 
 **ممارسات موصى بها:**  
@@ -390,7 +370,6 @@ String certPassword = System.getenv("CERT_PASSWORD");
 
 تحقق دائمًا من المستندات قبل توقيعها:
 
-``` 
 ```java
 // Check file exists and is readable
 File inputFile = new File(filePath);
@@ -410,13 +389,11 @@ if (!Arrays.asList("pdf", "docx", "xlsx").contains(extension)) {
     throw new IllegalArgumentException("Unsupported file format: " + extension);
 }
 ```
-```
 
 ### تسجيل التدقيق (Audit Logging)
 
 سجّل كل عملية توقيع للامتثال وتسهيل استكشاف الأخطاء:
 
-``` 
 ```java
 // Log signature operations with essential details
 logger.info("Signing document: {} by user: {} with certificate: {}",
@@ -429,7 +406,6 @@ try {
     logger.error("Failed to sign document: {} - Error: {}", fileName, ex.getMessage());
     throw ex; // Re-throw after logging
 }
-```
 ```
 
 **ما يجب تسجيله:** اسم المستند وحجمه، المستخدم الذي بدأ التوقيع، بصمة الشهادة (دون الشهادة الكاملة)، الطابع الزمني، حالة النجاح/الفشل، ورسائل الأخطاء (لا تسجل كلمات المرور أو الشهادات بالكامل).
@@ -478,7 +454,6 @@ GroupDocs.Signature يدعم عدة أنواع توقيع إلى جانب الت
 - أرشفة المستندات الموقعة مع سجل تدقيق  
 
 **نمط دمج الشفرة:**  
-``` 
 ```java
 // Pseudo-code example
 public void processApprovedContract(String contractId) {
@@ -493,7 +468,6 @@ public void processApprovedContract(String contractId) {
     emailService.sendSignedContract(contract.getParties(), signedDoc);
     auditLog.recordSigning(contractId, getCurrentUser());
 }
-```
 ```
 
 ### 2. أتمتة معالجة الفواتير  
@@ -523,7 +497,6 @@ public void processApprovedContract(String contractId) {
 - المستند الموقّع يُرفع تلقائيًا إلى CRM مرة أخرى  
 
 **معالج webhook مثال:**  
-``` 
 ```java
 @PostMapping("/api/sign-sales-document")
 public ResponseEntity<String> signSalesDocument(@RequestBody DealClosedEvent event) {
@@ -538,7 +511,6 @@ public ResponseEntity<String> signSalesDocument(@RequestBody DealClosedEvent eve
     
     return ResponseEntity.ok("Document signed and uploaded");
 }
-```
 ```
 
 ### 5. تأكيدات طلبات التجارة الإلكترونية  
@@ -555,13 +527,11 @@ public ResponseEntity<String> signSalesDocument(@RequestBody DealClosedEvent eve
 
 إذا كنت تبني تطبيقًا قائمًا على الميكروسيرفيسز، فكر في هذا الهيكل:
 
-``` 
 ```
 [Order Service] --> [Signing Service] --> [Storage Service]
                          |
                          v
                   [Notification Service]
-```
 ```
 
 **مسؤوليات خدمة التوقيع:** expose REST API لطلبات التوقيع، إدارة دورة حياة الشهادة، معالجة طابور توقيع عالي الحجم، وتوفير ردود حالة.  
@@ -572,7 +542,6 @@ public ResponseEntity<String> signSalesDocument(@RequestBody DealClosedEvent eve
 
 للحالات ذات الحجم الكبير (آلاف المستندات يوميًا):
 
-``` 
 ```java
 public class BatchDocumentSigner {
     private final BlockingQueue<SigningTask> queue = new LinkedBlockingQueue<>();
@@ -603,7 +572,6 @@ public class BatchDocumentSigner {
     }
 }
 ```
-```
 
 هذا النمط يمنع مشاكل الذاكرة ويزيد من الإنتاجية في عمليات الدفعات.
 
@@ -620,7 +588,6 @@ public class BatchDocumentSigner {
 **استراتيجيات التحسين:**
 
 1. **إعادة استخدام كائنات Signature عندما يكون ذلك ممكنًا**  
-``` 
 ```java
 // Bad - creates new object for each document
 for (String doc : documents) {
@@ -635,18 +602,15 @@ for (String doc : documents) {
     }
 }
 ```
-```
 
 2. **المعالجة المتوازية للدفعات** – استخدم `CompletableFuture` أو `ParallelStream` للمهام المستقلة:  
 
-``` 
 ```java
 List<CompletableFuture<Void>> futures = documents.stream()
     .map(doc -> CompletableFuture.runAsync(() -> signDocument(doc)))
     .collect(Collectors.toList());
 
 CompletableFuture.allOf(futures.toArray(new CompletableFuture[0])).join();
-```
 ```
 
 3. **المراقبة والتحليل** – استخدم JProfiler أو YourKit لتحديد نقاط الاختناق. المشكلات الشائعة: تحميل الشهادة (قُم بتخزينها مؤقتًا)، معالجة الصور (قلل حجم الصورة قبل التوقيع)، I/O للملفات (استخدم SSDs أو أقراص RAM للملفات المؤقتة).
@@ -662,7 +626,6 @@ CompletableFuture.allOf(futures.toArray(new CompletableFuture[0])).join();
 
 ### أفضل ممارسات إدارة الذاكرة في Java
 
-``` 
 ```java
 // Always use try-with-resources
 try (Signature signature = new Signature(filePath)) {
@@ -679,7 +642,6 @@ try {
         signature.dispose();
     }
 }
-```
 ```
 
 **راقب هذه المقاييس في الإنتاج:** اتجاهات استهلاك heap، أوقات توقف GC، عدد عمليات التوقيع المتزامنة، متوسط زمن التوقيع لكل نوع مستند.

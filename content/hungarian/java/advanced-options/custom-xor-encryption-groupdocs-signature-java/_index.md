@@ -107,10 +107,8 @@ Az XOR (exkluzív VAGY) két bitet hasonlít össze, és **1**‑et ad vissza, h
 
 Mivel a művelet önmagának inverze, ugyanazzal a kulccsal való második alkalmazás visszaállítja az eredeti értéket. Java‑ban a `^` operátorral XOR‑olhatsz két bájtot:
 
-``` 
 ```java
 byte encrypted = (byte)(plainByte ^ key);
-```
 ```
 
 Amikor egy egész bájt‑tömböt XOR‑olsz egy egybájtos kulccsal, gyors, visszafordítható transzformációt kapsz. Ne feledd, egy egybájtos kulcs csak 255 lehetséges variációt eredményez, így bármelyik, aki elegendő titkosított szöveget kap, azonnal brute‑force‑ozhatja a kulcsot. Használd csak obfuszkációra, ne pedig bizalmas adatok védelmére.
@@ -138,7 +136,6 @@ Ha minden pontot kipipálsz, készen állsz a GroupDocs hozzáadására a projek
 A könyvtár beillesztése a build rendszerbe egyetlen XML vagy Groovy sor.
 
 ### Maven
-``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -146,13 +143,10 @@ A könyvtár beillesztése a build rendszerbe egyetlen XML vagy Groovy sor.
     <version>23.12</version>
 </dependency>
 ```
-```
 
 ### Gradle
-``` 
 ```groovy
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 ### Közvetlen letöltés
@@ -164,10 +158,8 @@ Ha a manuális kezelés a kedved, töltsd le a JAR‑t a [GroupDocs.Signature fo
 3. **Vásárlás** – szerezz örökös licencet a termelési telepítésekhez.
 
 #### Alap inicializálás és beállítás
-``` 
 ```java
 Signature signature = new Signature("sample.pdf");
-```
 ```
 
 A `Signature` objektum a belépési pont minden aláírási, ellenőrzési és titkosítási művelethez a GroupDocs.Signature‑ban.
@@ -181,7 +173,6 @@ Létrehozunk egy osztályt, amely megvalósítja az `IDataEncryption` interfész
 #### 1. lépés: `IDataEncryption` interfész implementálása
 `IDataEncryption` a GroupDocs.Signature interfésze, amely meghatározza az adat titkosításáért és visszafejtéséért felelős metódusokat.
 
-``` 
 ```java
 public class CustomXOREncryption implements IDataEncryption {
     private byte auto_Key = 0x5A; // example key
@@ -196,14 +187,12 @@ public class CustomXOREncryption implements IDataEncryption {
     public byte getKey() { return this.auto_Key; }
 }
 ```
-```
 
 **Mi történik:** Az osztály két alapvető műveletet ígér – `encrypt` és `decrypt`. Az `auto_Key` mező tárolja az XOR kulcsot, amely minden payload bájtjára alkalmazásra kerül.
 
 #### 2. lépés: Titkosítási és visszafejtési metódusok definiálása
 Mivel az XOR szimmetrikus, mindkét metódus ugyanazt a bájt‑szintű transzformációt végzi.
 
-``` 
 ```java
 public byte[] encrypt(byte[] data) {
     if (auto_Key == 0 || data == null) return data;
@@ -216,7 +205,6 @@ public byte[] encrypt(byte[] data) {
 public byte[] decrypt(byte[] data) {
     return encrypt(data); // XOR decryption is identical to encryption
 }
-```
 ```
 
 **Magyarázat:**  
@@ -232,12 +220,10 @@ public byte[] decrypt(byte[] data) {
 - Termelésben valószínűleg egy többbájtos kulcsot vagy teljes AES titkosítót fogsz használni, de az interfész változatlan marad.
 
 #### Kulcs beállításának példája
-``` 
 ```java
 CustomXOREncryption xor = new CustomXOREncryption();
 xor.setKey((byte)0x3C); // set a custom key at runtime
 signature.setDataEncryption(xor);
-```
 ```
 
 ### Gyakori implementációs hibák
@@ -269,12 +255,10 @@ Mivel az `IDataEncryption` szerződés algoritmus‑agnosztikus, az AES‑re val
 ### 1. Biztonságos dokumentum‑aláírási munkafolyamat
 Lehet, hogy a felhasználó metaadatait (azonosító, időbélyeg, részleg) úgy kell tárolni, hogy elriassza a laza ellenőrzést. XOR titkosítónkkal a metaadat bájt‑tömbként kerül a aláírás csomagba, míg a PDF többi része érintetlen marad.
 
-``` 
 ```java
 Signature signature = new Signature("contract.pdf");
 signature.setDataEncryption(new CustomXOREncryption());
 SignatureResult result = signature.sign("output.pdf", options);
-```
 ```
 
 ### 2. Könnyű integritás‑ellenőrzés
@@ -291,7 +275,6 @@ Az XOR körülbelül **1 ns per bájt** sebességgel fut egy modern x86 magon,
 ### Memóriaigény
 Az implementációnk egy másolatot készít a bemeneti tömbből, így átmenetileg a memóriahasználat megduplázódik. Egy 50 MB fájl esetén körülbelül 100 MB heap‑re lesz szükség a titkosítás során. Nagyobb fájlok esetén dolgozz 4 KB‑os darabokban:
 
-``` 
 ```java
 InputStream in = new FileInputStream(source);
 OutputStream out = new FileOutputStream(target);
@@ -303,7 +286,6 @@ while ((read = in.read(buffer)) != -1) {
     }
     out.write(buffer, 0, read);
 }
-```
 ```
 
 ### Legjobb gyakorlatok Java memória kezeléshez
@@ -387,16 +369,13 @@ Most már szilárd alapod van a titkosítás testreszabásához bármely Java al
 - [Temporary License Request](https://purchase.groupdocs.com/temporary-license/)  
 - [GroupDocs Support Forum](https://forum.groupdocs.com/c/signature/)
 
-``` 
 ```
 Original data: 5 (binary: 0101)
 Key: 3 (binary: 0011)
 Encrypted: 5 XOR 3 = 6 (binary: 0110)
 Decrypted: 6 XOR 3 = 5 (binary: 0101) ← We're back!
 ```
-```
 
-``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -404,15 +383,11 @@ Decrypted: 6 XOR 3 = 5 (binary: 0101) ← We're back!
     <version>23.12</version>
 </dependency>
 ```
-```
 
-``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
-``` 
 ```java
 import com.groupdocs.signature.Signature;
 
@@ -423,9 +398,7 @@ class InitializeGroupDocs {
     }
 }
 ```
-```
 
-``` 
 ```java
 import com.groupdocs.signature.domain.extensions.encryption.IDataEncryption;
 
@@ -439,9 +412,7 @@ class CustomXOREncryption implements IDataEncryption {
     // Additional methods for encryption and decryption will be implemented here.
 }
 ```
-```
 
-``` 
 ```java
 class CustomXOREncryption {
     private int auto_Key;
@@ -462,24 +433,18 @@ class CustomXOREncryption {
     }
 }
 ```
-```
 
-``` 
 ```java
 CustomXOREncryption encryption = new CustomXOREncryption();
 encryption.setKey(42); // Any non-zero value works
 ```
-```
 
-``` 
 ```java
 CustomXOREncryption encryption = new CustomXOREncryption();
 // Oops! Never called setKey(), so auto_Key is 0
 byte[] encrypted = encryption.encrypt(myData); // Returns data unchanged!
 ```
-```
 
-``` 
 ```java
 Signature signature = new Signature("contract.pdf");
 CustomXOREncryption encryption = new CustomXOREncryption();
@@ -488,18 +453,14 @@ encryption.setKey(73); // Configure your key
 // GroupDocs will use your encryption for signature data
 // (Actual integration depends on specific GroupDocs API methods)
 ```
-```
 
-``` 
 ```java
 String integrityToken = "VALID_SIGNATURE_2025";
 byte[] encrypted = encryption.encrypt(integrityToken.getBytes());
 // Store encrypted with document...
 // Later, decrypt and compare to verify nothing changed
 ```
-```
 
-``` 
 ```java
 // Old system expects data encrypted with XOR key 42
 CustomXOREncryption legacyEncryption = new CustomXOREncryption();
@@ -509,9 +470,7 @@ legacyEncryption.setKey(42);
 byte[] dataForOldSystem = legacyEncryption.encrypt(modernData);
 sendToLegacyAPI(dataForOldSystem);
 ```
-```
 
-``` 
 ```java
 // More memory‑efficient for large data
 public void encryptInPlace(byte[] data) {
@@ -522,29 +481,21 @@ public void encryptInPlace(byte[] data) {
     }
 }
 ```
-```
 
-``` 
 ```java
    Arrays.fill(decryptedData, (byte) 0); // Overwrite with zeros
-   ```
 ```
 
-``` 
 ```java
    try (FileInputStream fis = new FileInputStream("encrypted.dat")) {
        // Process data
    } // Automatically closed
-   ```
 ```
 
-``` 
 ```java
 assert auto_Key != 0 : "Encryption key must be set!";
 ```
-```
 
-``` 
 ```java
 try (FileInputStream in = new FileInputStream(path);
      FileOutputStream out = new FileOutputStream(encryptedPath)) {
@@ -556,9 +507,7 @@ try (FileInputStream in = new FileInputStream(path);
     }
 }
 ```
-```
 
-``` 
 ```java
 @Component
 public class EncryptionService {
@@ -570,7 +519,6 @@ public class EncryptionService {
     }
     // Use in your controllers...
 }
-```
 ```
 
 ## Kapcsolódó oktatóanyagok

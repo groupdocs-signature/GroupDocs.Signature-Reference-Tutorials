@@ -128,7 +128,6 @@ GroupDocs.Signature 支援 **50+** 輸入與輸出格式，能在不將整個檔
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 編輯後同步專案以下載函式庫——跳過此步驟是常見的「找不到類別」錯誤根源。
 
@@ -154,7 +153,6 @@ GroupDocs.Signature 為商業產品。依需求選擇以下方案：
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *定義說明*：`Signature` 類別是 GroupDocs.Signature 用來載入、修改與儲存 PDF 的入口點。
 
@@ -168,7 +166,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // 您的憑證密碼
 options.setReason("Approved"); // 簽署原因（會出現在 PDF 中）
 options.setLocation("New York"); // 簽署地點
-```
 ```
 
 *定義說明*：`DigitalSignOptions` 包含數位簽章所需的所有參數，包含視覺外觀與加密設定。
@@ -191,7 +188,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *定義說明*：`SignatureAppearance` 定義最終使用者在 PDF 中看到的簽章區塊視覺呈現。
 
@@ -207,7 +203,6 @@ options.setHeight(80); // 高度（像素）
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // 上、右、下、左邊距
-```
 ```
 
 *定義說明*：`SignatureOptions`（或其子類）負責可見簽章的放置、尺寸與頁面範圍。
@@ -225,7 +220,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // 粗細（像素）
 options.setBorder(border);
 ```
-```
 
 *定義說明*：`Border` 設定簽章框線的樣式、粗細與可見性。
 
@@ -236,7 +230,6 @@ options.setBorder(border);
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *定義說明*：`SignResult` 提供簽署作業的詳細資訊，包括成功簽署的頁數。
@@ -253,7 +246,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## 常見問題與避免方式
 
@@ -264,7 +256,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### 問題 2：密碼錯誤例外  
@@ -280,7 +271,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // 重新建立物件
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### 問題 3：簽章出現在錯誤頁面  
 **直接回答：** 每次簽署前建立全新的 `DigitalSignOptions` 物件；重複使用同一物件會保留舊的頁面設定。
@@ -290,7 +280,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // 改為 320
 options.setHeight(160); // 改為 160
 ```
-```
 
 ### 問題 4：簽章渲染模糊  
 **直接回答：** 增大簽章區塊的像素尺寸（例如寬 320、高 160），以取得 300 DPI 的列印品質。
@@ -298,7 +287,6 @@ options.setHeight(160); // 改為 160
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### 問題 5：大型 PDF 發生 OutOfMemoryError  
@@ -309,7 +297,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // 自動釋放資源
-```
 ```
 
 ## 生產環境安全最佳實踐
@@ -326,7 +313,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### 限制憑證檔案權限  
 在 Linux 上將權限設為 `400`（僅擁有者可讀），防止未授權存取。
@@ -335,7 +321,6 @@ options.setPassword(password);
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### 使用時間戳記確保長期有效性  
 加入受信任的時間戳記伺服器（TSA），即使簽章憑證過期，簽章仍保持有效。
@@ -343,7 +328,6 @@ chmod 400 /secure/certificates/signing-cert.pfx
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### 簽署後立即驗證  
@@ -360,7 +344,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### 記錄每一次簽署操作  
 保留包含使用者 ID、文件 ID、時間戳記與憑證指紋等資訊的稽核日誌。
@@ -369,7 +352,6 @@ if (result.getSucceeded().size() > 0) {
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## 為您的使用情境選擇合適的憑證
@@ -381,7 +363,6 @@ logger.info("Document signed: {}, User: {}, Timestamp: {}",
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### 正式環境 – 商業 CA  
@@ -421,7 +402,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### 快取已載入的憑證  
 
@@ -438,14 +418,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### 為高吞吐量調校 JVM  
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### 非同步簽署文件  
@@ -456,7 +434,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## 疑難排解指南

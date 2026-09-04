@@ -129,7 +129,6 @@ Als je Gradle verkiest, voeg deze regel toe aan `build.gradle`:
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 Na het bewerken, sync je het project om de bibliotheek te downloaden—het overslaan van deze stap is een veelvoorkomende oorzaak van “class not found”‑fouten.
 
@@ -155,7 +154,6 @@ Maak een `Signature`‑instantie die het doel‑PDF‑bestand omsluit; dit laadt
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *Definitie‑anker:* De `Signature`‑klasse is het toegangspunt van GroupDocs.Signature voor het laden, wijzigen en opslaan van PDF‑bestanden.
 
@@ -169,7 +167,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Your certificate's password
 options.setReason("Approved"); // Why you're signing (appears in PDF metadata)
 options.setLocation("New York"); // Where the signing occurred
-```
 ```
 
 *Definitie‑anker:* `DigitalSignOptions` omvat alle parameters die nodig zijn voor een digitale handtekening, inclusief visueel uiterlijk en cryptografische instellingen.
@@ -192,7 +189,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *Definitie‑anker:* `SignatureAppearance` definieert de visuele weergave van het handtekeningblok dat eindgebruikers zien in de PDF.
 
@@ -208,7 +204,6 @@ options.setHeight(80); // Height in pixels
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Top, Right, Bottom, Left margins
-```
 ```
 
 *Definitie‑anker:* `SignatureOptions` (of een subclass) regelt plaatsing, grootte en paginabereik voor de zichtbare handtekening.
@@ -226,7 +221,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Thickness in pixels
 options.setBorder(border);
 ```
-```
 
 *Definitie‑anker:* `Border` configureert lijntype, dikte en zichtbaarheid voor het handtekeningframe.
 
@@ -237,7 +231,6 @@ Roep `sign` aan met de geconfigureerde opties; de methode retourneert een `SignR
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *Definitie‑anker:* `SignResult` geeft details over de ondertekeningsoperatie, inclusief het aantal succesvol ondertekende pagina’s.
@@ -254,7 +247,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## Veelvoorkomende valkuilen en hoe ze te vermijden
 
@@ -265,7 +257,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### Probleem 2: Ongeldige wachtwoord‑exceptions  
@@ -281,7 +272,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Fresh object
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### Probleem 3: Handtekening verschijnt op de verkeerde pagina  
 **Direct antwoord:** Maak voor elke ondertekeningsoperatie een nieuw `DigitalSignOptions`‑object; het hergebruiken van hetzelfde object kan verouderde paginainstellingen laten behouden.
@@ -291,7 +281,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // Instead of 160
 options.setHeight(160); // Instead of 80
 ```
-```
 
 ### Probleem 4: Vage weergave van de handtekening  
 **Direct antwoord:** Verhoog de pixelafmetingen van het handtekeningblok (bijv. breedte = 320, hoogte = 160) om een weergave van 300 DPI te bereiken die geschikt is voor afdrukken.
@@ -299,7 +288,6 @@ options.setHeight(160); // Instead of 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### Probleem 5: OutOfMemoryError bij grote PDF’s  
@@ -310,7 +298,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Automatically releases resources
-```
 ```
 
 ## Beveiligingsbest practices voor productie
@@ -327,7 +314,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### Beperk bestandsrechten van het certificaat  
 Op Linux, stel rechten in op `400` (alleen lezen voor eigenaar) om ongeautoriseerde toegang te voorkomen.
@@ -336,7 +322,6 @@ Op Linux, stel rechten in op `400` (alleen lezen voor eigenaar) om ongeautorisee
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### Gebruik tijdstempeling voor langdurige geldigheid  
 Voeg een vertrouwde Timestamp Authority (TSA) server toe zodat handtekeningen geldig blijven nadat het ondertekeningscertificaat is verlopen.
@@ -344,7 +329,6 @@ Voeg een vertrouwde Timestamp Authority (TSA) server toe zodat handtekeningen ge
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### Valideer handtekeningen na ondertekening  
@@ -361,7 +345,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### Log elke ondertekeningsoperatie  
 Behoud een audit‑trail met details zoals gebruikers‑ID, document‑ID, tijdstempel en vingerafdruk van het ondertekeningscertificaat.
@@ -370,7 +353,6 @@ Behoud een audit‑trail met details zoals gebruikers‑ID, document‑ID, tijds
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## Het juiste certificaat kiezen voor jouw use‑case
@@ -382,7 +364,6 @@ Snel maken met Java’s `keytool`; geschikt voor interne demo’s maar **niet** 
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### Productie – Commerciële CA  
@@ -422,7 +403,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### Cache geladen certificaten  
 
@@ -439,14 +419,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### JVM afstemmen voor hoge doorvoer  
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### Documenten asynchroon ondertekenen  
@@ -457,7 +435,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## Probleemoplossingsgids

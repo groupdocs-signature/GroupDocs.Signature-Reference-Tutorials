@@ -130,7 +130,6 @@ GroupDocs.Signature **50+** इनपुट और आउटपुट फ़ॉ�
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 एडिट करने के बाद, लाइब्रेरी डाउनलोड करने के लिए प्रोजेक्ट को सिंक करें—इस चरण को छोड़ना “class not found” त्रुटियों का सामान्य कारण है।
 
@@ -156,7 +155,6 @@ GroupDocs.Signature एक कमर्शियल प्रोडक्ट ह
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *Definition anchor:* `Signature` क्लास GroupDocs.Signature का एंट्री पॉइंट है PDF फ़ाइलों को लोड, मॉडिफ़ाई और सेव करने के लिए।
 
@@ -170,7 +168,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Your certificate's password
 options.setReason("Approved"); // Why you're signing (appears in PDF metadata)
 options.setLocation("New York"); // Where the signing occurred
-```
 ```
 
 *Definition anchor:* `DigitalSignOptions` सभी पैरामीटर को समेटे हुए है जो डिजिटल हस्ताक्षर के लिए आवश्यक हैं, जिसमें दृश्य उपस्थिति और क्रिप्टोग्राफ़िक सेटिंग्स शामिल हैं।
@@ -193,7 +190,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *Definition anchor:* `SignatureAppearance` वह दृश्य प्रतिनिधित्व निर्धारित करता है जो उपयोगकर्ता PDF में देखते हैं।
 
@@ -209,7 +205,6 @@ options.setHeight(80); // Height in pixels
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Top, Right, Bottom, Left margins
-```
 ```
 
 *Definition anchor:* `SignatureOptions` (या इसका सबक्लास) दृश्यमान हस्ताक्षर की प्लेसमेंट, आकार, और पेज स्कोप को नियंत्रित करता है।
@@ -227,7 +222,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Thickness in pixels
 options.setBorder(border);
 ```
-```
 
 *Definition anchor:* `Border` लाइन स्टाइल, वजन, और दृश्यमानता को कॉन्फ़िगर करता है हस्ताक्षर फ्रेम के लिए।
 
@@ -238,7 +232,6 @@ options.setBorder(border);
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *Definition anchor:* `SignResult` साइनिंग ऑपरेशन के विवरण देता है, जिसमें सफलतापूर्वक साइन किए गए पेजों की संख्या शामिल है।
@@ -255,7 +248,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## सामान्य समस्याएँ और उन्हें कैसे टालें
 
@@ -267,7 +259,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### समस्या 2: अमान्य पासवर्ड अपवाद
@@ -284,7 +275,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Fresh object
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### समस्या 3: हस्ताक्षर गलत पेज पर दिखता है
 
@@ -295,7 +285,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // Instead of 160
 options.setHeight(160); // Instead of 80
 ```
-```
 
 ### समस्या 4: धुंधला हस्ताक्षर रेंडरिंग
 
@@ -304,7 +293,6 @@ options.setHeight(160); // Instead of 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### समस्या 5: बड़े PDF के साथ OutOfMemoryError
@@ -316,7 +304,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Automatically releases resources
-```
 ```
 
 ## प्रोडक्शन उपयोग के लिए सुरक्षा सर्वोत्तम प्रथाएँ
@@ -334,7 +321,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### प्रमाणपत्र फ़ाइल अनुमतियों को सीमित करें
 
@@ -344,7 +330,6 @@ Linux पर, अनुमतियों को `400` (ओनर के लि�
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### दीर्घकालिक वैधता के लिए टाइमस्टैम्पिंग उपयोग करें
 
@@ -353,7 +338,6 @@ chmod 400 /secure/certificates/signing-cert.pfx
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### साइनिंग के बाद हस्ताक्षरों को वैलिडेट करें
@@ -371,7 +355,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### प्रत्येक साइनिंग ऑपरेशन को लॉग करें
 
@@ -381,7 +364,6 @@ if (result.getSucceeded().size() > 0) {
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## आपके उपयोग केस के लिए सही प्रमाणपत्र चुनना
@@ -394,7 +376,6 @@ Java के `keytool` से जल्दी बनाएं; आंतरिक
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### प्रोडक्शन – कमर्शियल CA
@@ -440,7 +421,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### लोडेड प्रमाणपत्रों को कैश करें
 
@@ -457,14 +437,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### हाई‑थ्रूपुट के लिए JVM ट्यून करें
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### असिंक्रोनस रूप से दस्तावेज़ साइन करें
@@ -475,7 +453,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## ट्रबलशूटिंग गाइड

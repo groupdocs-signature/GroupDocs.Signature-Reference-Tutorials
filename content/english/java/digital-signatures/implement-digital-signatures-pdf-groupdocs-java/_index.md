@@ -121,7 +121,6 @@ If you prefer Gradle, insert this line into `build.gradle`:
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 After editing, sync the project to download the library—skipping this step is a common source of “class not found” errors.
 
@@ -147,7 +146,6 @@ Create a `Signature` instance that wraps the target PDF file; this loads the doc
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *Definition anchor:* The `Signature` class is GroupDocs.Signature’s entry point for loading, modifying, and saving PDF files.
 
@@ -161,7 +159,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Your certificate's password
 options.setReason("Approved"); // Why you're signing (appears in PDF metadata)
 options.setLocation("New York"); // Where the signing occurred
-```
 ```
 
 *Definition anchor:* `DigitalSignOptions` encapsulates all parameters required for a digital signature, including visual appearance and cryptographic settings.
@@ -184,7 +181,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *Definition anchor:* `SignatureAppearance` defines the visual representation of the signature block that end users see in the PDF.
 
@@ -200,7 +196,6 @@ options.setHeight(80); // Height in pixels
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Top, Right, Bottom, Left margins
-```
 ```
 
 *Definition anchor:* `SignatureOptions` (or its subclass) controls placement, size, and page scope for the visible signature.
@@ -218,7 +213,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Thickness in pixels
 options.setBorder(border);
 ```
-```
 
 *Definition anchor:* `Border` configures line style, weight, and visibility for the signature frame.
 
@@ -229,7 +223,6 @@ Invoke `sign` with the configured options; the method returns a `SignResult` tha
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *Definition anchor:* `SignResult` provides details about the signing operation, including the number of successfully signed pages.
@@ -246,7 +239,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## Common Pitfalls and How to Avoid Them
 
@@ -257,7 +249,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### Issue 2: Invalid Password Exceptions  
@@ -273,7 +264,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Fresh object
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### Issue 3: Signature Appears on Wrong Page  
 **Direct answer:** Create a fresh `DigitalSignOptions` instance for each signing operation; reusing the same object can cause stale page settings to persist.
@@ -283,7 +273,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // Instead of 160
 options.setHeight(160); // Instead of 80
 ```
-```
 
 ### Issue 4: Blurry Signature Rendering  
 **Direct answer:** Increase the pixel dimensions of the signature block (e.g., width = 320, height = 160) to achieve 300 DPI rendering suitable for print.
@@ -291,7 +280,6 @@ options.setHeight(160); // Instead of 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### Issue 5: OutOfMemoryError with Large PDFs  
@@ -302,7 +290,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Automatically releases resources
-```
 ```
 
 ## Security Best Practices for Production Use
@@ -319,7 +306,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### Restrict certificate file permissions  
 On Linux, set permissions to `400` (read‑only for the owner) to prevent unauthorized access.
@@ -328,7 +314,6 @@ On Linux, set permissions to `400` (read‑only for the owner) to prevent unauth
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### Use timestamping for long‑term validity  
 Add a trusted Timestamp Authority (TSA) server so signatures remain valid after the signing certificate expires.
@@ -336,7 +321,6 @@ Add a trusted Timestamp Authority (TSA) server so signatures remain valid after 
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### Validate signatures after signing  
@@ -353,7 +337,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### Log every signing operation  
 Maintain an audit trail with details such as user ID, document ID, timestamp, and signing certificate thumbprint.
@@ -362,7 +345,6 @@ Maintain an audit trail with details such as user ID, document ID, timestamp, an
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## Choosing the Right Certificate for Your Use Case
@@ -374,7 +356,6 @@ Create quickly with Java’s `keytool`; suitable for internal demos but **not** 
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### Production – Commercial CA  
@@ -414,7 +395,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### Cache loaded certificates  
 
@@ -431,14 +411,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### Tune JVM for high‑throughput  
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### Sign documents asynchronously  
@@ -449,7 +427,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## Troubleshooting Guide

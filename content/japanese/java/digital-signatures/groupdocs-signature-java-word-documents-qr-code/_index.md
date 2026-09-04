@@ -64,10 +64,6 @@ url: /ja/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Word ドキュメントで QR コード署名を作成する（Java 使用）
 
 手作業で何時間も文書に署名してきましたか？もっと速く、信頼性の高い方法がないかと考えたことはありませんか？ Java の数行のコードだけで、Word 文書に **QR コード署名** をプログラムで作成できます。契約ワークフローの自動化、法務書類の管理、モバイルファーストの承認ポータルの構築など、QR コード署名はスマートフォンでスキャン可能な即時検証を提供します。このチュートリアルでは、GroupDocs.Signature for Java のセットアップ、QR コードオプションの設定、URL、タイムスタンプ、JSON ペイロードなどのリッチデータを Word ファイルに埋め込む方法を学びます。最後まで読むと、スケールで文書に署名し、手作業を削減し、コンプライアンスを向上させることができます。
@@ -105,7 +101,6 @@ GroupDocs.Signature は **50+ 入出力フォーマット** をサポートし�
 
 **Maven**
 
-```java
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -113,14 +108,11 @@ GroupDocs.Signature は **50+ 入出力フォーマット** をサポートし�
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle**
 
-```java
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 **直接ダウンロード**
@@ -138,9 +130,7 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 `Signature` オブジェクトはすべての署名操作のエントリーポイントです。`AutoCloseable` を実装しているため、try‑with‑resources ブロックで安全に使用できます。
 
 ```java
-```java
 Signature signature = new Signature("path/to/your/document");
-```
 ```
 
 ## 実装ガイド: QR コードで Word 文書に署名する
@@ -151,10 +141,8 @@ Signature signature = new Signature("path/to/your/document");
 `new Signature("source.docx")` を try‑with‑resources ブロック内で使用してソース文書をロードします。ブロック終了時にリソースが自動的に解放されます。
 
 ```java
-```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/SampleDocX.docx";
 Signature signature = new Signature(filePath);
-```
 ```
 
 **Explanation:** `Signature` クラスはメモリ内の単一文書を表し、署名の追加、検索、検証メソッドを提供します。`.docx`、`.doc` など多数のフォーマットをサポートします。
@@ -163,12 +151,10 @@ Signature signature = new Signature(filePath);
 `QrCodeSignOptions` インスタンスを作成し、エンコードテキスト、バーコードタイプ、位置を設定します。以下は最小構成の例です。
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("JohnSmith");
 signOptions.setEncodeType(QrCodeTypes.QR);
 signOptions.setLeft(100); // X 軸位置（ピクセル）
 signOptions.setTop(100);  // Y 軸位置（ピクセル）
-```
 ```
 
 **Definition:** `QrCodeSignOptions` クラスは QR コード署名の生成と配置に必要なすべての設定（エンコードテキスト、バーコードタイプ、サイズ、色、座標）をカプセル化します。
@@ -177,9 +163,7 @@ signOptions.setTop(100);  // Y 軸位置（ピクセル）
 サイズ、余白、色をさらに調整できます。
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verify/doc-12345");
-```
 ```
 
 **Why it matters:** 150 px 四方の黒前景・白背景 QR コードは、画面でも印刷でも 99 % 以上のスキャン成功率を実現します。
@@ -188,11 +172,9 @@ QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verif
 `sign` を呼び出す前に、ターゲット形式と上書き動作を定義します。
 
 ```java
-```java
 WordProcessingSaveOptions saveOptions = new WordProcessingSaveOptions();
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Odt);
 saveOptions.setOverwriteExistingFiles(true);
-```
 ```
 
 **Definition:** `WordProcessingSaveOptions` クラスは署名後の Word 文書の保存方法を定義し、出力形式（DOCX、ODT など）や既存ファイルの上書き可否などを指定できます。
@@ -200,19 +182,15 @@ saveOptions.setOverwriteExistingFiles(true);
 オープンソース形式が必要な場合は `OutputType.ODT` に切り替えてください。
 
 ```java
-```java
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Docx);
-```
 ```
 
 ### QR コードで文書に署名し、保存するには？
 `sign` メソッドは QR コードを適用し、出力ファイルを書き込みます。
 
 ```java
-```java
 String outputFilePath = "YOUR_OUTPUT_DIRECTORY/SaveSignedOutputType/SampleDocX.odt";
 signature.sign(outputFilePath, signOptions, saveOptions);
-```
 ```
 
 **Definition:** `Signature` オブジェクトの `sign` メソッドは、出力パス、設定した署名オプション、任意の保存オプションを受け取り、QR コードを文書に埋め込み、指定された場所に結果を書き出します。
@@ -227,14 +205,12 @@ signature.sign(outputFilePath, signOptions, saveOptions);
 ファイル欠如、パス不正、ライセンス問題などを捕捉するために try‑catch ブロックで署名ロジックをラップします。
 
 ```java
-```java
 try {
     signature.sign(outputFilePath, signOptions, saveOptions);
     System.out.println("Document signed successfully!");
 } catch (Exception e) {
     System.err.println("Signing failed: " + e.getMessage());
 }
-```
 ```
 
 **Definition:** `Exception` を捕捉することで、ファイル欠如やパス不正、ライセンス問題などのランタイムエラーを優雅に報告し、本番環境でのクラッシュを防止します。
@@ -266,14 +242,12 @@ SaaS プラットフォームは **月間 500 件以上の契約** に対し、�
 - **配置が重要:** ページ下部に QR コードを配置してレイアウト再計算を減らし、速度を向上させます。
 
 ```java
-```java
 List<String> documents = getDocumentPaths();
 for (String docPath : documents) {
     Signature sig = new Signature(docPath);
     // Configure and sign
     sig.dispose();
 }
-```
 ```
 
 ### QR コード配置のヒント
@@ -282,13 +256,11 @@ for (String docPath : documents) {
 - **複数ページ:** ページをループし、各位置に新しい `QrCodeSignOptions` をインスタンス化します。
 
 ```java
-```java
 for (Document doc : documents) {
     Signature sig = new Signature(doc.getPath());
     sig.sign(outputPath, signOptions, saveOptions);
     sig.dispose();
 }
-```
 ```
 
 ## 高度な構成オプション
@@ -296,7 +268,6 @@ for (Document doc : documents) {
 ### 単一文書に複数の QR コードを追加するには？
 各位置用に別々の `QrCodeSignOptions` オブジェクトを作成し、`sign` を繰り返し呼び出します。
 
-```java
 ```java
 // First QR code
 QrCodeSignOptions sign1 = new QrCodeSignOptions("Approver 1");
@@ -312,7 +283,6 @@ sign2.setTop(100);
 signature.sign(outputPath, sign1, saveOptions);
 signature.sign(outputPath, sign2, saveOptions);
 ```
-```
 
 ### 他にサポートされているバーコードタイプは？
 QR 以外にも **Aztec**、**DataMatrix**、**PDF417** コードを `setEncodeType()` を変更するだけで生成できます。
@@ -320,7 +290,6 @@ QR 以外にも **Aztec**、**DataMatrix**、**PDF417** コードを `setEncodeT
 ### ページサイズに基づく動的位置を計算するには？
 `Signature.getDocumentInfo()` でページ寸法を取得し、プログラムで座標を算出します。
 
-```java
 ```java
 // Get document info
 DocumentInfo docInfo = signature.getDocumentInfo();
@@ -331,7 +300,6 @@ int pageHeight = docInfo.getHeight();
 int qrSize = 100;
 signOptions.setLeft((pageWidth - qrSize) / 2);
 signOptions.setTop((pageHeight - qrSize) / 2);
-```
 ```
 
 **Definition:** `Signature.getDocumentInfo()` はページ幅・高さなどのメタデータを含む `DocumentInfo` オブジェクトを返し、実際のページサイズに基づく正確な配置座標の計算に利用できます。
@@ -396,9 +364,7 @@ A: はい。QR コードはオープンスタンダードで、スマートフ�
 - [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/)
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [GroupDocs.Signature API Reference](https://reference.groupdocs.com/signature/java/)
-- [Latest GroupDocs.Signature Releases](https://releases.groupdocs.com/signature/java/)
 - [Buy GroupDocs.Signature](https://purchase.groupdocs.com/buy)
-- [GroupDocs Signatures Free Trial](https://releases.groupdocs.com/signature/java/)
 - [Apply for Temporary License](https://purchase.groupdocs.com/temporary-license/)
 - [GroupDocs Forum Support](https://forum.groupdocs.com/c/signature/)
 
@@ -412,15 +378,9 @@ Word 文書で **QR コード署名** を Java と GroupDocs.Signature を使っ
 **Tested With:** GroupDocs.Signature 23.12 for Java  
 **Author:** GroupDocs  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 関連チュートリアル
 
 - [Java QR コード署名ライブラリ - 完全な GroupDocs チュートリアル](/signature/java/qr-code-signatures/)
 - [Load and Save Documents in Java - 完全な GroupDocs.Signature チュートリアル](/signature/java/document-loading-saving/)
 - [How to Add Digital Signatures to Documents in Java](/signature/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/)
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}

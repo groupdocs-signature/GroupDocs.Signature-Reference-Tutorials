@@ -129,7 +129,6 @@ weight: 1
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 Μετά την επεξεργασία, συγχρονίστε το έργο για να κατεβάσετε τη βιβλιοθήκη—η παράλειψη αυτού του βήματος είναι κοινή πηγή σφαλμάτων “class not found”.
 
@@ -155,7 +154,6 @@ GroupDocs.Signature είναι εμπορικό προϊόν. Επιλέξτε �
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *Definition anchor:* Η κλάση `Signature` είναι το σημείο εισόδου του GroupDocs.Signature για φόρτωση, τροποποίηση και αποθήκευση αρχείων PDF.
 
@@ -169,7 +167,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Your certificate's password
 options.setReason("Approved"); // Why you're signing (appears in PDF metadata)
 options.setLocation("New York"); // Where the signing occurred
-```
 ```
 
 *Definition anchor:* Η `DigitalSignOptions` περιλαμβάνει όλες τις παραμέτρους που απαιτούνται για μια ψηφιακή υπογραφή, συμπεριλαμβανομένης της οπτικής εμφάνισης και των κρυπτογραφικών ρυθμίσεων.
@@ -192,7 +189,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *Definition anchor:* Η `SignatureAppearance` ορίζει την οπτική αναπαράσταση του μπλοκ υπογραφής που βλέπουν οι τελικοί χρήστες στο PDF.
 
@@ -208,7 +204,6 @@ options.setHeight(80); // Height in pixels
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Top, Right, Bottom, Left margins
-```
 ```
 
 *Definition anchor:* Η `SignatureOptions` (ή η υποκλάση της) ελέγχει τη θέση, το μέγεθος και την εμβέλεια σελίδας για την ορατή υπογραφή.
@@ -226,7 +221,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Thickness in pixels
 options.setBorder(border);
 ```
-```
 
 *Definition anchor:* Η `Border` διαμορφώνει το στυλ γραμμής, το βάρος και την ορατότητα του πλαισίου της υπογραφής.
 
@@ -237,7 +231,6 @@ options.setBorder(border);
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *Definition anchor:* Το `SignResult` παρέχει λεπτομέρειες για τη λειτουργία υπογραφής, συμπεριλαμβανομένου του αριθμού των σελίδων που υπογράφηκαν επιτυχώς.
@@ -254,7 +247,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## Κοινά Προβλήματα και Πώς να τα Αποφύγετε
 
@@ -266,7 +258,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### Πρόβλημα 2: Εξαιρέσεις Μη Έγκυρου Κωδικού Πρόσβασης
@@ -283,7 +274,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Fresh object
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### Πρόβλημα 3: Η Υπογραφή Εμφανίζεται στη Λάθος Σελίδα
 
@@ -294,7 +284,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // Instead of 160
 options.setHeight(160); // Instead of 80
 ```
-```
 
 ### Πρόβλημα 4: Θολή Απόδοση Υπογραφής
 
@@ -303,7 +292,6 @@ options.setHeight(160); // Instead of 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### Πρόβλημα 5: OutOfMemoryError με Μεγάλα PDFs
@@ -315,7 +303,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Automatically releases resources
-```
 ```
 
 ## Καλύτερες Πρακτικές Ασφαλείας για Παραγωγική Χρήση
@@ -333,7 +320,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### Περιορίστε τα δικαιώματα του αρχείου πιστοποιητικού
 
@@ -343,7 +329,6 @@ options.setPassword(password);
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### Χρησιμοποιήστε χρονική σήμανση για μακροπρόθεσμη εγκυρότητα
 
@@ -352,7 +337,6 @@ chmod 400 /secure/certificates/signing-cert.pfx
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### Επικυρώστε τις υπογραφές μετά την υπογραφή
@@ -370,7 +354,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### Καταγράψτε κάθε λειτουργία υπογραφής
 
@@ -380,7 +363,6 @@ if (result.getSucceeded().size() > 0) {
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## Επιλογή του Κατάλληλου Πιστοποιητικού για την Περίπτωσή Σας
@@ -393,7 +375,6 @@ logger.info("Document signed: {}, User: {}, Timestamp: {}",
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### Παραγωγή – Εμπορική CA
@@ -439,7 +420,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### Αποθήκευση στην κρυφή μνήμη των φορτωμένων πιστοποιητικών
 
@@ -456,14 +436,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### Ρύθμιση JVM για υψηλή απόδοση
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### Ασύγχρονη υπογραφή εγγράφων
@@ -474,7 +452,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## Οδηγός Επίλυσης Προβλημάτων

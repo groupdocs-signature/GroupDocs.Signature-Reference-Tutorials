@@ -22,8 +22,6 @@ url: /it/java/advanced-options/sign-document-gradient-brush-java-groupdocs/
 weight: 1
 ---
 
-Let's write.
-
 # Come personalizzare l'aspetto della firma con gradiente in Java
 
 Ti sei mai accorto di come alcuni documenti firmati digitalmente appaiano, beh… noiosi? Solo testo semplice su sfondo bianco? Se stai costruendo un'applicazione che richiede firme di documento dall'aspetto professionale—pensa a contratti, fatture o certificati—vorrai qualcosa che risalti pur rimanendo funzionale. **In questo tutorial imparerai a personalizzare l'aspetto della firma applicando un pennello a gradiente in Java.** Creare una firma digitale a gradiente non solo aggiunge una rifinitura visiva, ma rafforza anche l'identità del brand e migliora l'autenticità percepita.

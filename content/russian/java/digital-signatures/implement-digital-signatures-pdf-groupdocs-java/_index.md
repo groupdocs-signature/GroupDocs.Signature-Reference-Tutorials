@@ -129,7 +129,6 @@ GroupDocs.Signature поддерживает **50+** форматов ввода
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 После правки синхронизируйте проект, чтобы загрузить библиотеку — пропуск этого шага часто приводит к ошибкам «class not found».
 
@@ -155,7 +154,6 @@ GroupDocs.Signature — коммерческий продукт. Выберит�
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *Определение:* Класс `Signature` — точка входа GroupDocs.Signature для загрузки, изменения и сохранения PDF‑файлов.
 
@@ -169,7 +167,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Пароль вашего сертификата
 options.setReason("Approved"); // Причина подписи (отображается в метаданных PDF)
 options.setLocation("New York"); // Место подписи
-```
 ```
 
 *Определение:* `DigitalSignOptions` инкапсулирует все параметры цифровой подписи, включая визуальное представление и криптографические настройки.
@@ -192,7 +189,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *Определение:* `SignatureAppearance` задаёт визуальное представление блока подписи, который видит конечный пользователь в PDF.
 
@@ -208,7 +204,6 @@ options.setHeight(80); // Высота в пикселях
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Отступы: верх, право, низ, лево
-```
 ```
 
 *Определение:* `SignatureOptions` (или его подкласс) управляет размещением, размером и областью действия видимой подписи.
@@ -226,7 +221,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Толщина в пикселях
 options.setBorder(border);
 ```
-```
 
 *Определение:* `Border` задаёт стиль линии, толщину и видимость рамки подписи.
 
@@ -237,7 +231,6 @@ options.setBorder(border);
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *Определение:* `SignResult` предоставляет детали операции подписи, включая количество успешно подписанных страниц.
@@ -254,7 +247,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## Распространённые ошибки и как их избежать
 
@@ -265,7 +257,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### Проблема 2: Исключения «Invalid Password»  
@@ -281,7 +272,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Новый объект
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### Проблема 3: Подпись появляется на неверной странице  
 **Прямой ответ:** Создавайте новый экземпляр `DigitalSignOptions` для каждой операции подписи; повторное использование того же объекта может сохранять устаревшие настройки страниц.
@@ -291,7 +281,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // Вместо 160
 options.setHeight(160); // Вместо 80
 ```
-```
 
 ### Проблема 4: Размытие подписи при рендеринге  
 **Прямой ответ:** Увеличьте пиксельные размеры блока подписи (например, ширина = 320, высота = 160), чтобы достичь 300 DPI, подходящего для печати.
@@ -299,7 +288,6 @@ options.setHeight(160); // Вместо 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### Проблема 5: OutOfMemoryError при работе с большими PDF  
@@ -310,7 +298,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Автоматически освобождает ресурсы
-```
 ```
 
 ## Лучшие практики безопасности для продакшн‑использования
@@ -327,7 +314,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### Ограничьте права доступа к файлу сертификата  
 В Linux установите права `400` (только чтение владельцем), чтобы предотвратить несанкционированный доступ.
@@ -336,7 +322,6 @@ options.setPassword(password);
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### Используйте метки времени для долгосрочной валидности  
 Подключите надёжный сервер Timestamp Authority (TSA), чтобы подписи оставались действительными после истечения срока действия сертификата.
@@ -344,7 +329,6 @@ chmod 400 /secure/certificates/signing-cert.pfx
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### Проверяйте подписи после их создания  
@@ -361,7 +345,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### Ведите журнал каждой операции подписи  
 Поддерживайте аудит с деталями: идентификатор пользователя, идентификатор документа, метка времени и отпечаток сертификата.
@@ -370,7 +353,6 @@ if (result.getSucceeded().size() > 0) {
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## Выбор сертификата под ваш сценарий
@@ -382,7 +364,6 @@ logger.info("Document signed: {}, User: {}, Timestamp: {}",
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### Продакшн — Коммерческий CA  
@@ -422,7 +403,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### Кешировать загруженные сертификаты  
 
@@ -439,14 +419,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### Тюнинг JVM для высокой пропускной способности  
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### Асинхронная подпись документов  
@@ -457,7 +435,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## Руководство по устранению неполадок

@@ -65,10 +65,6 @@ url: /nl/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Maak QR-codehandtekening in Word-documenten met Java
 
 Heb je ooit uren besteed aan het handmatig ondertekenen van documenten, terwijl je je afvroeg of er een snellere, betrouwbaardere manier is? Je kunt **QR-codehandtekening** in Word-documenten programmatically maken met slechts een paar regels Java-code. Of je nu contractworkflows automatiseert, juridisch papierwerk beheert, of een mobiel‑first goedkeuringsportaal bouwt, QR-codehandtekeningen geven je directe, scanbare verificatie die werkt op elke smartphone. In deze tutorial leer je hoe je GroupDocs.Signature voor Java instelt, QR-code‑opties configureert en rijke gegevens zoals URL's, tijdstempels of JSON‑payloads in Word‑bestanden embedt. Aan het einde kun je documenten op schaal ondertekenen, handmatige inspanning verminderen en compliance verhogen.
@@ -106,7 +102,6 @@ Kies je buildsysteem en voeg de afhankelijkheid precies toe zoals weergegeven. D
 
 **Maven**
 
-```java
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -114,14 +109,11 @@ Kies je buildsysteem en voeg de afhankelijkheid precies toe zoals weergegeven. D
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle**
 
-```java
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 **Direct Download**
@@ -139,9 +131,7 @@ Prefer manual management? Download de JAR rechtstreeks van [GroupDocs.Signature 
 Het `Signature`‑object is het toegangspunt voor alle ondertekeningsbewerkingen. Het implementeert `AutoCloseable`, zodat je veilig een try‑with‑resources‑blok kunt gebruiken.
 
 ```java
-```java
 Signature signature = new Signature("path/to/your/document");
-```
 ```
 
 ## Implementatie‑gids: Word‑documenten ondertekenen met QR‑codes
@@ -152,10 +142,8 @@ Hieronder lopen we elke stap door, met definities en directe antwoorden waar nod
 Laad het bron‑document met `new Signature("source.docx")` binnen een try‑with‑resources‑blok; het object bereidt het bestand voor bewerkingen voor en geeft automatisch bronnen vrij wanneer het blok eindigt.
 
 ```java
-```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/SampleDocX.docx";
 Signature signature = new Signature(filePath);
-```
 ```
 
 De `Signature`‑klasse vertegenwoordigt een enkel document in het geheugen en biedt methoden voor het toevoegen, zoeken en verifiëren van handtekeningen. Het ondersteunt `.docx`, `.doc` en vele andere formaten.
@@ -164,12 +152,10 @@ De `Signature`‑klasse vertegenwoordigt een enkel document in het geheugen en b
 Maak een `QrCodeSignOptions`‑instantie, stel de gecodeerde tekst, barcode‑type en positionering in. Het volgende fragment toont een minimale configuratie.
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("JohnSmith");
 signOptions.setEncodeType(QrCodeTypes.QR);
 signOptions.setLeft(100); // X-axis position in pixels
 signOptions.setTop(100);  // Y-axis position in pixels
-```
 ```
 
 De `QrCodeSignOptions`‑klasse omvat alle instellingen die nodig zijn om een QR‑codehandtekening te genereren en te plaatsen, inclusief de gecodeerde tekst, barcode‑type, grootte, kleuren en positionele coördinaten binnen het document.
@@ -178,9 +164,7 @@ De `QrCodeSignOptions`‑klasse omvat alle instellingen die nodig zijn om een QR
 Je kunt grootte, marge en kleuren verder aanpassen:
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verify/doc-12345");
-```
 ```
 
 **Waarom het belangrijk is:** Een 150 px vierkante QR‑code met zwarte voorgrond op witte achtergrond levert >99 % scansucces op zowel scherm als afdruk.
@@ -189,11 +173,9 @@ QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verif
 Definieer het doelformaat en het overschrijvingsgedrag voordat je `sign` aanroept.
 
 ```java
-```java
 WordProcessingSaveOptions saveOptions = new WordProcessingSaveOptions();
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Odt);
 saveOptions.setOverwriteExistingFiles(true);
-```
 ```
 
 De `WordProcessingSaveOptions`‑klasse definieert hoe het ondertekende Word‑document moet worden opgeslagen, waardoor je het uitvoerformaat (DOCX, ODT, enz.), of bestaande bestanden moeten worden overschreven, en andere bestands‑niveau voorkeuren kunt opgeven.
@@ -201,19 +183,15 @@ De `WordProcessingSaveOptions`‑klasse definieert hoe het ondertekende Word‑d
 Als je een open‑source formaat nodig hebt, schakel dan naar `OutputType.ODT`:
 
 ```java
-```java
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Docx);
-```
 ```
 
 ### Hoe onderteken en sla ik het document op met de QR‑code?
 De `sign`‑methode past de QR‑code toe en schrijft het uitvoerbestand in één oproep.
 
 ```java
-```java
 String outputFilePath = "YOUR_OUTPUT_DIRECTORY/SaveSignedOutputType/SampleDocX.odt";
 signature.sign(outputFilePath, signOptions, saveOptions);
-```
 ```
 
 De `sign`‑methode van het `Signature`‑object neemt het bestemmingspad, de geconfigureerde ondertekeningsopties en optionele opslaan‑opties, embedt vervolgens de QR‑code in het document en schrijft het resultaat naar de opgegeven locatie.
@@ -228,14 +206,12 @@ De `sign`‑methode van het `Signature`‑object neemt het bestemmingspad, de ge
 Omhul de ondertekeningslogica in een try‑catch‑blok om ontbrekende bestanden, ongeldige paden of licentieproblemen op te vangen.
 
 ```java
-```java
 try {
     signature.sign(outputFilePath, signOptions, saveOptions);
     System.out.println("Document signed successfully!");
 } catch (Exception e) {
     System.err.println("Signing failed: " + e.getMessage());
 }
-```
 ```
 
 Het opvangen van `Exception` zorgt ervoor dat eventuele runtime‑problemen zoals ontbrekende bestanden, ongeldige paden of licentieproblemen netjes worden gerapporteerd, waardoor de applicatie niet crasht in productie.
@@ -267,14 +243,12 @@ Financieteams voegen QR‑codes toe die linken naar een betalingsgateway. Bij sc
 - **Plaatsing is belangrijk:** Positioneer QR‑codes onderaan de pagina om lay‑out‑herberekening te verminderen en snelheid te verbeteren.
 
 ```java
-```java
 List<String> documents = getDocumentPaths();
 for (String docPath : documents) {
     Signature sig = new Signature(docPath);
     // Configure and sign
     sig.dispose();
 }
-```
 ```
 
 ### Tips voor QR‑code‑plaatsing
@@ -283,13 +257,11 @@ for (String docPath : documents) {
 - **Meerdere pagina's:** Loop door pagina's en instantiate een nieuwe `QrCodeSignOptions` voor elke positie.
 
 ```java
-```java
 for (Document doc : documents) {
     Signature sig = new Signature(doc.getPath());
     sig.sign(outputPath, signOptions, saveOptions);
     sig.dispose();
 }
-```
 ```
 
 ## Geavanceerde configuratie‑opties
@@ -297,7 +269,6 @@ for (Document doc : documents) {
 ### Hoe kan ik meerdere QR‑codes aan één document toevoegen?
 Maak afzonderlijke `QrCodeSignOptions`‑objecten voor elke locatie en roep `sign` herhaaldelijk aan.
 
-```java
 ```java
 // First QR code
 QrCodeSignOptions sign1 = new QrCodeSignOptions("Approver 1");
@@ -313,7 +284,6 @@ sign2.setTop(100);
 signature.sign(outputPath, sign1, saveOptions);
 signature.sign(outputPath, sign2, saveOptions);
 ```
-```
 
 ### Welke andere barcode‑types worden ondersteund?
 Naast QR kun je **Aztec**, **DataMatrix** of **PDF417**‑codes genereren door `setEncodeType()` te wijzigen.
@@ -321,7 +291,6 @@ Naast QR kun je **Aztec**, **DataMatrix** of **PDF417**‑codes genereren door `
 ### Hoe bereken ik dynamische posities op basis van paginagrootte?
 Haal paginagrootte op via `Signature.getDocumentInfo()` en bereken coördinaten programmatisch.
 
-```java
 ```java
 // Get document info
 DocumentInfo docInfo = signature.getDocumentInfo();
@@ -332,7 +301,6 @@ int pageHeight = docInfo.getHeight();
 int qrSize = 100;
 signOptions.setLeft((pageWidth - qrSize) / 2);
 signOptions.setTop((pageHeight - qrSize) / 2);
-```
 ```
 
 `Signature.getDocumentInfo()` retourneert een `DocumentInfo`‑object met metadata zoals paginagrootte, die kan worden gebruikt om precieze plaatsingscoördinaten voor handtekeningen te berekenen op basis van de werkelijke grootte van elke pagina.
@@ -397,9 +365,7 @@ A: Ja. QR‑codes volgen een open standaard; elke smartphonecamera of QR‑lezer
 - [GroupDocs.Signature voor Java releases](https://releases.groupdocs.com/signature/java/)
 - [GroupDocs.Signature voor Java Documentatie](https://docs.groupdocs.com/signature/java/)
 - [GroupDocs.Signature API‑referentie](https://reference.groupdocs.com/signature/java/)
-- [Laatste GroupDocs.Signature releases](https://releases.groupdocs.com/signature/java/)
 - [GroupDocs.Signature kopen](https://purchase.groupdocs.com/buy)
-- [GroupDocs Handtekeningen gratis proefversie](https://releases.groupdocs.com/signature/java/)
 - [Aanvraag tijdelijke licentie](https://purchase.groupdocs.com/temporary-license/)
 - [GroupDocs Forum ondersteuning](https://forum.groupdocs.com/c/signature/)
 
@@ -413,14 +379,8 @@ Je hebt nu een volledige, productie‑klare roadmap om **QR-codehandtekening** i
 **Tested With:** GroupDocs.Signature 23.12 for Java  
 **Author:** GroupDocs  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Gerelateerde tutorials
 
 - [Java QR‑codehandtekeningbibliotheek - Complete GroupDocs‑tutorial](/signature/java/qr-code-signatures/)
 - [Documenten laden en opslaan in Java - Complete GroupDocs.Signature‑tutorial](/signature/java/document-loading-saving/)
 - [Hoe digitale handtekeningen toe te voegen aan documenten in Java](/signature/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}

@@ -127,7 +127,6 @@ Gradle を使用する場合は `build.gradle` に次の行を追加します。
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 編集後にプロジェクトを同期してライブラリをダウンロードしてください。同期を忘れると「クラスが見つかりません」エラーの典型的な原因になります。
 
@@ -153,7 +152,6 @@ GroupDocs.Signature は商用製品です。利用シーンに合わせて以下
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *定義アンカー:* `Signature` クラスは GroupDocs.Signature のエントリーポイントで、PDF の読み込み・変更・保存を行います。
 
@@ -167,7 +165,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // 証明書のパスワード
 options.setReason("Approved"); // 署名理由（PDF メタデータに表示）
 options.setLocation("New York"); // 署名場所
-```
 ```
 
 *定義アンカー:* `DigitalSignOptions` はデジタル署名に必要なすべてのパラメータをカプセル化し、視覚的外観や暗号設定も含みます。
@@ -190,7 +187,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *定義アンカー:* `SignatureAppearance` はエンドユーザーが PDF で目にする署名ブロックの視覚表現を定義します。
 
@@ -206,7 +202,6 @@ options.setHeight(80); // 高さ（ピクセル）
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // 上、右、下、左 の余白
-```
 ```
 
 *定義アンカー:* `SignatureOptions`（またはそのサブクラス）は可視署名の配置、サイズ、ページ範囲を制御します。
@@ -224,7 +219,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // 太さ（ピクセル）
 options.setBorder(border);
 ```
-```
 
 *定義アンカー:* `Border` は署名フレームの線種、太さ、可視性を設定します。
 
@@ -235,7 +229,6 @@ options.setBorder(border);
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *定義アンカー:* `SignResult` は署名操作の詳細（例：正常に署名されたページ数）を提供します。
@@ -252,7 +245,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## よくある落とし穴と回避策
 
@@ -263,7 +255,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### 問題 2: パスワードが無効な例外  
@@ -279,7 +270,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // 新規インスタンス
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### 問題 3: 署名が誤ったページに表示される  
 **直接回答:** 署名操作ごとに新しい `DigitalSignOptions` インスタンスを作成してください。同一オブジェクトを再利用するとページ設定が残存します。
@@ -289,7 +279,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // 160 から変更
 options.setHeight(160); // 80 から変更
 ```
-```
 
 ### 問題 4: 署名がぼやけて表示される  
 **直接回答:** 署名ブロックのピクセル寸法を拡大（例: 幅 = 320、高さ = 160）して、印刷向けの 300 DPI レンダリングを実現してください。
@@ -297,7 +286,6 @@ options.setHeight(160); // 80 から変更
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### 問題 5: 大容量 PDF で OutOfMemoryError が発生  
@@ -308,7 +296,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // 自動的にリソースが解放されます
-```
 ```
 
 ## 本番環境向けセキュリティベストプラクティス
@@ -325,7 +312,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### 証明書ファイルの権限を制限する  
 Linux では所有者のみが読み取れる `400` 権限に設定し、無許可アクセスを防止します。
@@ -334,7 +320,6 @@ Linux では所有者のみが読み取れる `400` 権限に設定し、無許�
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### 長期有効性のためにタイムスタンプを使用する  
 信頼できるタイムスタンプ認証局（TSA）サーバーを追加し、証明書の有効期限が切れた後でも署名が有効であることを保証します。
@@ -342,7 +327,6 @@ chmod 400 /secure/certificates/signing-cert.pfx
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### 署名後に検証を実行する  
@@ -359,7 +343,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### すべての署名操作をログに記録する  
 ユーザー ID、ドキュメント ID、タイムスタンプ、証明書のサムプリントなどの情報を含む監査トレイルを保持してください。
@@ -368,7 +351,6 @@ if (result.getSucceeded().size() > 0) {
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## ユースケース別に適切な証明書を選ぶ
@@ -380,7 +362,6 @@ logger.info("Document signed: {}, User: {}, Timestamp: {}",
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### 本番 – 商用 CA  
@@ -420,7 +401,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### 証明書のキャッシュ  
 
@@ -437,14 +417,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### 高スループット向けに JVM を調整  
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### 非同期で署名する  
@@ -455,7 +433,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## トラブルシューティングガイド

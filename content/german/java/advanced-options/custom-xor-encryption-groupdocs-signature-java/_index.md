@@ -54,7 +54,7 @@ url: /de/java/advanced-options/custom-xor-encryption-groupdocs-signature-java/
 weight: 1
 ---
 
-# Wie man Java verschlüsselt: Benutzerdefinierte XOR-Verschlüsselung mit GroupDocs
+# Wie man Java verschlüsselt: Benutzerdefinierte XOR‑Verschlüsselung mit GroupDocs
 
 ## Einführung
 

@@ -63,10 +63,6 @@ url: /zh-hant/java/digital-signatures/groupdocs-signature-java-word-documents-qr
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # 在 Word 文件中使用 Java 建立 QR Code 簽章
 
 是否曾花費數小時手動簽署文件，卻仍在尋找更快、更可靠的方式？您只需幾行 Java 程式碼，即可在 Word 文件中**建立 QR code 簽章**。無論是自動化合約工作流程、管理法律文件，或是構建以行動裝置為先的批准入口，QR code 簽章都能提供即時、可掃描的驗證，適用於任何智慧手機。在本教學中，您將學習如何設定 GroupDocs.Signature for Java、配置 QR code 選項，並將 URL、時間戳記或 JSON 資料等豐富資訊嵌入 Word 檔案。完成後，您即可大規模簽署文件、減少人工操作，並提升合規性。
@@ -106,7 +102,6 @@ GroupDocs.Signature 支援**超過 50 種輸入與輸出格式**，可在不將�
 
 **Maven**
 
-```java
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -114,14 +109,11 @@ GroupDocs.Signature 支援**超過 50 種輸入與輸出格式**，可在不將�
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle**
 
-```java
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 **Direct Download**
@@ -140,9 +132,7 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 `Signature` 物件是所有簽署操作的入口。它實作 `AutoCloseable`，因此您可以安全地使用 try‑with‑resources 區塊。
 
 ```java
-```java
 Signature signature = new Signature("path/to/your/document");
-```
 ```
 
 ## 實作指南：使用 QR code 簽署 Word 文件
@@ -154,10 +144,8 @@ Signature signature = new Signature("path/to/your/document");
 在 try‑with‑resources 區塊內使用 `new Signature("source.docx")` 載入來源文件；此物件會為修改做準備，且在區塊結束時自動釋放資源。
 
 ```java
-```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/SampleDocX.docx";
 Signature signature = new Signature(filePath);
-```
 ```
 
 `Signature` 類別在記憶體中代表單一文件，提供新增、搜尋與驗證簽章的方法。它支援 `.docx`、`.doc` 以及許多其他格式。
@@ -167,12 +155,10 @@ Signature signature = new Signature(filePath);
 建立 `QrCodeSignOptions` 實例，設定編碼文字、條碼類型與位置。以下程式碼示範最小配置。
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("JohnSmith");
 signOptions.setEncodeType(QrCodeTypes.QR);
 signOptions.setLeft(100); // X-axis position in pixels
 signOptions.setTop(100);  // Y-axis position in pixels
-```
 ```
 
 `QrCodeSignOptions` 類別封裝產生與放置 QR code 簽章所需的所有設定，包括編碼文字、條碼類型、尺寸、顏色，以及文件內的座標位置。
@@ -181,9 +167,7 @@ signOptions.setTop(100);  // Y-axis position in pixels
 您還可以進一步調整尺寸、邊距與顏色：
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verify/doc-12345");
-```
 ```
 
 **為何重要：** 150 px 的正方形 QR code，前景為黑色、背景為白色，可在螢幕與列印時取得超過 99 % 的掃描成功率。
@@ -193,11 +177,9 @@ QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verif
 在呼叫 `sign` 之前，先定義目標格式與覆寫行為。
 
 ```java
-```java
 WordProcessingSaveOptions saveOptions = new WordProcessingSaveOptions();
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Odt);
 saveOptions.setOverwriteExistingFiles(true);
-```
 ```
 
 `WordProcessingSaveOptions` 類別定義已簽署的 Word 文件如何儲存，您可以指定輸出格式（DOCX、ODT 等）、是否覆寫現有檔案，以及其他檔案層級的偏好設定。
@@ -205,9 +187,7 @@ saveOptions.setOverwriteExistingFiles(true);
 如果需要開源格式，可切換為 `OutputType.ODT`：
 
 ```java
-```java
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Docx);
-```
 ```
 
 ### 如何使用 QR code 簽署並儲存文件？
@@ -215,10 +195,8 @@ saveOptions.setFileFormat(WordProcessingSaveFileFormat.Docx);
 `sign` 方法會套用 QR code 並一次寫入輸出檔案。
 
 ```java
-```java
 String outputFilePath = "YOUR_OUTPUT_DIRECTORY/SaveSignedOutputType/SampleDocX.odt";
 signature.sign(outputFilePath, signOptions, saveOptions);
-```
 ```
 
 `Signature` 物件的 `sign` 方法接受目標路徑、已配置的簽章選項，以及可選的儲存選項，然後將 QR code 嵌入文件並將結果寫入指定位置。
@@ -234,14 +212,12 @@ signature.sign(outputFilePath, signOptions, saveOptions);
 將簽署邏輯包在 try‑catch 區塊中，以捕捉檔案遺失、路徑無效或授權問題。
 
 ```java
-```java
 try {
     signature.sign(outputFilePath, signOptions, saveOptions);
     System.out.println("Document signed successfully!");
 } catch (Exception e) {
     System.err.println("Signing failed: " + e.getMessage());
 }
-```
 ```
 
 捕捉 `Exception` 可確保任何執行時問題（如檔案遺失、路徑無效或授權問題）都能優雅地回報，避免應用程式在正式環境中當機。
@@ -273,14 +249,12 @@ try {
 - **放置位置重要：** 將 QR code 放在頁面底部，可減少版面重排並提升速度。
 
 ```java
-```java
 List<String> documents = getDocumentPaths();
 for (String docPath : documents) {
     Signature sig = new Signature(docPath);
     // Configure and sign
     sig.dispose();
 }
-```
 ```
 
 ### QR code 放置技巧
@@ -289,13 +263,11 @@ for (String docPath : documents) {
 - **多頁文件：** 迴圈處理每頁，並為每個位置建立新的 `QrCodeSignOptions`。
 
 ```java
-```java
 for (Document doc : documents) {
     Signature sig = new Signature(doc.getPath());
     sig.sign(outputPath, signOptions, saveOptions);
     sig.dispose();
 }
-```
 ```
 
 ## 進階設定選項
@@ -303,7 +275,6 @@ for (Document doc : documents) {
 ### 如何在單一文件中加入多個 QR code？
 為每個位置建立獨立的 `QrCodeSignOptions` 物件，並重複呼叫 `sign`。
 
-```java
 ```java
 // First QR code
 QrCodeSignOptions sign1 = new QrCodeSignOptions("Approver 1");
@@ -319,7 +290,6 @@ sign2.setTop(100);
 signature.sign(outputPath, sign1, saveOptions);
 signature.sign(outputPath, sign2, saveOptions);
 ```
-```
 
 ### 支援哪些其他條碼類型？
 除了 QR，您也可以透過變更 `setEncodeType()` 產生 **Aztec**、**DataMatrix** 或 **PDF417** 條碼。
@@ -327,7 +297,6 @@ signature.sign(outputPath, sign2, saveOptions);
 ### 如何根據頁面大小計算動態位置？
 透過 `Signature.getDocumentInfo()` 取得頁面尺寸，並以程式方式計算座標。
 
-```java
 ```java
 // Get document info
 DocumentInfo docInfo = signature.getDocumentInfo();
@@ -338,7 +307,6 @@ int pageHeight = docInfo.getHeight();
 int qrSize = 100;
 signOptions.setLeft((pageWidth - qrSize) / 2);
 signOptions.setTop((pageHeight - qrSize) / 2);
-```
 ```
 
 `Signature.getDocumentInfo()` 會回傳包含頁面尺寸等中繼資料的 `DocumentInfo` 物件，可用於根據每頁實際大小計算簽章的精確座標。
@@ -403,9 +371,7 @@ A: 可以。QR code 採用開放標準，任何智慧手機相機或 QR 讀取�
 - [GroupDocs.Signature for Java 版本發布](https://releases.groupdocs.com/signature/java/)
 - [GroupDocs.Signature for Java 文件說明](https://docs.groupdocs.com/signature/java/)
 - [GroupDocs.Signature API 參考文件](https://reference.groupdocs.com/signature/java/)
-- [最新 GroupDocs.Signature 版本發布](https://releases.groupdocs.com/signature/java/)
 - [購買 GroupDocs.Signature](https://purchase.groupdocs.com/buy)
-- [GroupDocs 簽章免費試用](https://releases.groupdocs.com/signature/java/)
 - [申請臨時授權](https://purchase.groupdocs.com/temporary-license/)
 - [GroupDocs 論壇支援](https://forum.groupdocs.com/c/signature/)
 
@@ -419,14 +385,8 @@ A: 可以。QR code 採用開放標準，任何智慧手機相機或 QR 讀取�
 **測試環境：** GroupDocs.Signature 23.12 for Java  
 **作者：** GroupDocs  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相關教學
 
 - [Java QR Code 簽章函式庫 - 完整 GroupDocs 教學](/signature/java/qr-code-signatures/)
 - [在 Java 中載入與儲存文件 - 完整 GroupDocs.Signature 教學](/signature/java/document-loading-saving/)
 - [如何在 Java 中加入數位簽章](/signature/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}

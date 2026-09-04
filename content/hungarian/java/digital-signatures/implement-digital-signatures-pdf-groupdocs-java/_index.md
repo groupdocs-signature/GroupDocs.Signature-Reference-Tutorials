@@ -129,7 +129,6 @@ Ha a Gradle‑t részesíted előnyben, illeszd be ezt a sort a `build.gradle`�
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 A szerkesztés után szinkronizáld a projektet a könyvtár letöltéséhez — ezt kihagyni gyakori „class not found” hibához vezet.
 
@@ -155,7 +154,6 @@ Hozz létre egy `Signature` példányt, amely a cél PDF‑fájlt csomagolja; ez
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *Definition anchor:* A `Signature` osztály a GroupDocs.Signature belépési pontja a PDF‑fájlok betöltéséhez, módosításához és mentéséhez.
 
@@ -169,7 +167,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Your certificate's password
 options.setReason("Approved"); // Why you're signing (appears in PDF metadata)
 options.setLocation("New York"); // Where the signing occurred
-```
 ```
 
 *Definition anchor:* `DigitalSignOptions` tartalmazza a digitális aláíráshoz szükséges összes paramétert, beleértve a vizuális megjelenést és a kriptográfiai beállításokat.
@@ -192,7 +189,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *Definition anchor:* `SignatureAppearance` definiálja az aláírás blokk vizuális reprezentációját, amelyet a végfelhasználók a PDF‑ben látnak.
 
@@ -208,7 +204,6 @@ options.setHeight(80); // Height in pixels
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Top, Right, Bottom, Left margins
-```
 ```
 
 *Definition anchor:* `SignatureOptions` (vagy annak alosztálya) szabályozza a látható aláírás elhelyezését, méretét és az oldalak körét.
@@ -226,7 +221,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Thickness in pixels
 options.setBorder(border);
 ```
-```
 
 *Definition anchor:* `Border` konfigurálja a vonal stílusát, vastagságát és láthatóságát az aláírás keretében.
 
@@ -237,7 +231,6 @@ Hívd meg a `sign` metódust a konfigurált opciókkal; a metódus egy `SignResu
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *Definition anchor:* `SignResult` részleteket nyújt a aláírási műveletről, beleértve a sikeresen aláírt oldalak számát.
@@ -254,7 +247,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## Gyakori hibák és hogyan kerüljük el őket
 
@@ -265,7 +257,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### Probléma 2: Érvénytelen jelszó kivételek  
@@ -281,7 +272,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Fresh object
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### Probléma 3: Az aláírás a rossz oldalon jelenik meg  
 **Közvetlen válasz:** Hozz létre egy új `DigitalSignOptions` példányt minden aláírási művelethez; ugyanannak az objektumnak a újrahasználata elavult oldalbeállításokat hagyhat fenn.
@@ -291,7 +281,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // Instead of 160
 options.setHeight(160); // Instead of 80
 ```
-```
 
 ### Probléma 4: Homályos aláírás megjelenítés  
 **Közvetlen válasz:** Növeld a aláírás blokk pixelméreteit (pl. width = 320, height = 160), hogy 300 DPI‑os megjelenést érj el, ami nyomtatáshoz megfelelő.
@@ -299,7 +288,6 @@ options.setHeight(160); // Instead of 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### Probléma 5: OutOfMemoryError nagy PDF-eknél  
@@ -310,7 +298,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Automatically releases resources
-```
 ```
 
 ## Biztonsági legjobb gyakorlatok termeléshez
@@ -327,7 +314,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### Korlátozza a tanúsítvány fájl jogosultságait  
 Linuxon állítsd a jogosultságokat `400`‑ra (csak a tulajdonos olvashatja), hogy megakadályozd a jogosulatlan hozzáférést.
@@ -336,7 +322,6 @@ Linuxon állítsd a jogosultságokat `400`‑ra (csak a tulajdonos olvashatja), 
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### Használjon időbélyegzőt a hosszú távú érvényességhez  
 Adj hozzá egy megbízható Timestamp Authority (TSA) szervert, hogy az aláírások a tanúsítvány lejárta után is érvényesek maradjanak.
@@ -344,7 +329,6 @@ Adj hozzá egy megbízható Timestamp Authority (TSA) szervert, hogy az aláír�
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### Érvényesítse az aláírásokat aláírás után  
@@ -361,7 +345,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### Naplózza minden aláírási műveletet  
 Tarts audit naplót felhasználó‑azonosító, dokumentum‑azonosító, időbélyeg és aláíró tanúsítvány ujjlenyomás részletekkel.
@@ -370,7 +353,6 @@ Tarts audit naplót felhasználó‑azonosító, dokumentum‑azonosító, időb
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## A megfelelő tanúsítvány kiválasztása az Ön esetére
@@ -382,7 +364,6 @@ Gyorsan létrehozható a Java `keytool`‑jával; belső demókhoz megfelelő, d
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### Termelés – Kereskedelmi CA  
@@ -422,7 +403,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### Tanúsítványok gyorsítótárazása  
 
@@ -439,14 +419,12 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### JVM finomhangolása nagy áteresztőképességhez  
 
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### Dokumentumok aszinkron aláírása  
@@ -457,7 +435,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## Hibakeresési útmutató

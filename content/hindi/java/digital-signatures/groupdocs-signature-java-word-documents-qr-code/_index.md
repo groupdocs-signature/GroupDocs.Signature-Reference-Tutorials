@@ -65,10 +65,6 @@ url: /hi/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Word दस्तावेज़ों में जावा का उपयोग करके QR कोड हस्ताक्षर बनाएं
 
 क्या आपने कभी दस्तावेज़ों को मैन्युअल रूप से साइन करने में घंटे बिताए हैं, और सोचा है कि कोई तेज़ और अधिक भरोसेमंद तरीका नहीं है? आप केवल कुछ पंक्तियों के जावा कोड से **create QR code signature** को Word दस्तावेज़ों में प्रोग्रामेटिकली बना सकते हैं। चाहे आप अनुबंध वर्कफ़्लो को ऑटोमेट कर रहे हों, कानूनी कागज़ात का प्रबंधन कर रहे हों, या मोबाइल‑फ़र्स्ट अनुमोदन पोर्टल बना रहे हों, QR कोड हस्ताक्षर आपको तुरंत, स्कैन करने योग्य सत्यापन देते हैं जो किसी भी स्मार्टफ़ोन पर काम करता है। इस ट्यूटोरियल में आप सीखेंगे कि GroupDocs.Signature for Java को कैसे सेटअप करें, QR कोड विकल्पों को कॉन्फ़िगर करें, और Word फ़ाइलों में URLs, timestamps, या JSON payloads जैसी समृद्ध डेटा एम्बेड करें। अंत तक आप बड़े पैमाने पर दस्तावेज़ साइन कर पाएँगे, मैन्युअल प्रयास घटाएँगे, और अनुपालन बढ़ाएँगे।
@@ -106,7 +102,6 @@ GroupDocs.Signature **50+ इनपुट और आउटपुट फॉर्
 
 **Maven**
 
-```java
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -114,14 +109,11 @@ GroupDocs.Signature **50+ इनपुट और आउटपुट फॉर्
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle**
 
-```java
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 **सीधे डाउनलोड**
@@ -139,9 +131,7 @@ Prefer manual management? Download the JAR directly from [GroupDocs.Signature fo
 The `Signature` object is the entry point for all signing operations. It implements `AutoCloseable`, so you can safely use a try‑with‑resources block.
 
 ```java
-```java
 Signature signature = new Signature("path/to/your/document");
-```
 ```
 
 ## कार्यान्वयन गाइड: QR कोड के साथ Word दस्तावेज़ों पर हस्ताक्षर
@@ -152,10 +142,8 @@ Signature signature = new Signature("path/to/your/document");
 Load the source document with `new Signature("source.docx")` inside a try‑with‑resources block; the object prepares the file for modifications and automatically releases resources when the block ends.
 
 ```java
-```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/SampleDocX.docx";
 Signature signature = new Signature(filePath);
-```
 ```
 
 **Explanation:** The `Signature` class represents a single document in memory and exposes methods for adding, searching, and verifying signatures. It supports `.docx`, `.doc`, and many other formats.
@@ -164,12 +152,10 @@ Signature signature = new Signature(filePath);
 Create a `QrCodeSignOptions` instance, set the encoded text, barcode type, and positioning. The following snippet shows a minimal configuration.
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("JohnSmith");
 signOptions.setEncodeType(QrCodeTypes.QR);
 signOptions.setLeft(100); // X-axis position in pixels
 signOptions.setTop(100);  // Y-axis position in pixels
-```
 ```
 
 **Definition:** The `QrCodeSignOptions` class encapsulates all settings required to generate and place a QR code signature, including the encoded text, barcode type, size, colors, and positional coordinates within the document.
@@ -178,9 +164,7 @@ signOptions.setTop(100);  // Y-axis position in pixels
 You can further adjust size, margin, and colors:
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verify/doc-12345");
-```
 ```
 
 **Why it matters:** A 150 px square QR code with black foreground on white background yields >99 % scan success on both screen and print.
@@ -189,11 +173,9 @@ QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verif
 Define the target format and overwrite behavior before calling `sign`.
 
 ```java
-```java
 WordProcessingSaveOptions saveOptions = new WordProcessingSaveOptions();
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Odt);
 saveOptions.setOverwriteExistingFiles(true);
-```
 ```
 
 **Definition:** The `WordProcessingSaveOptions` class defines how the signed Word document should be saved, allowing you to specify the output format (DOCX, ODT, etc.), whether existing files are overwritten, and other file‑level preferences.
@@ -201,19 +183,15 @@ saveOptions.setOverwriteExistingFiles(true);
 If you need an open‑source format, switch to `OutputType.ODT`:
 
 ```java
-```java
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Docx);
-```
 ```
 
 ### QR कोड के साथ दस्तावेज़ को साइन और सेव कैसे करें?
 The `sign` method applies the QR code and writes the output file in one call.
 
 ```java
-```java
 String outputFilePath = "YOUR_OUTPUT_DIRECTORY/SaveSignedOutputType/SampleDocX.odt";
 signature.sign(outputFilePath, signOptions, saveOptions);
-```
 ```
 
 **Definition:** The `sign` method of the `Signature` object takes the destination path, the configured signing options, and optional save options, then embeds the QR code into the document and writes the result to the specified location.
@@ -228,14 +206,12 @@ signature.sign(outputFilePath, signOptions, saveOptions);
 Wrap the signing logic in a try‑catch block to capture missing files, invalid paths, or licensing issues.
 
 ```java
-```java
 try {
     signature.sign(outputFilePath, signOptions, saveOptions);
     System.out.println("Document signed successfully!");
 } catch (Exception e) {
     System.err.println("Signing failed: " + e.getMessage());
 }
-```
 ```
 
 **Definition:** Catching `Exception` ensures that any runtime issues such as missing files, invalid paths, or licensing problems are gracefully reported, preventing the application from crashing in production.
@@ -267,14 +243,12 @@ Finance teams add QR codes that link to a payment gateway. When scanned, the QR 
 - **Placement matters:** Position QR codes at the bottom of the page to reduce layout reflow and improve speed.
 
 ```java
-```java
 List<String> documents = getDocumentPaths();
 for (String docPath : documents) {
     Signature sig = new Signature(docPath);
     // Configure and sign
     sig.dispose();
 }
-```
 ```
 
 ### QR कोड प्लेसमेंट टिप्स
@@ -283,13 +257,11 @@ for (String docPath : documents) {
 - **Multiple pages:** Loop through pages and instantiate a new `QrCodeSignOptions` for each position.
 
 ```java
-```java
 for (Document doc : documents) {
     Signature sig = new Signature(doc.getPath());
     sig.sign(outputPath, signOptions, saveOptions);
     sig.dispose();
 }
-```
 ```
 
 ## उन्नत कॉन्फ़िगरेशन विकल्प
@@ -297,7 +269,6 @@ for (Document doc : documents) {
 ### एक ही दस्तावेज़ में कई QR कोड कैसे जोड़ें?
 Create separate `QrCodeSignOptions` objects for each location and call `sign` repeatedly.
 
-```java
 ```java
 // First QR code
 QrCodeSignOptions sign1 = new QrCodeSignOptions("Approver 1");
@@ -313,7 +284,6 @@ sign2.setTop(100);
 signature.sign(outputPath, sign1, saveOptions);
 signature.sign(outputPath, sign2, saveOptions);
 ```
-```
 
 ### अन्य कौन से बारकोड प्रकार समर्थित हैं?
 Beyond QR, you can generate **Aztec**, **DataMatrix**, or **PDF417** codes by changing `setEncodeType()`.
@@ -321,7 +291,6 @@ Beyond QR, you can generate **Aztec**, **DataMatrix**, or **PDF417** codes by ch
 ### पृष्ठ आकार के आधार पर गतिशील स्थितियों की गणना कैसे करें?
 Retrieve page dimensions via `Signature.getDocumentInfo()` and compute coordinates programmatically.
 
-```java
 ```java
 // Get document info
 DocumentInfo docInfo = signature.getDocumentInfo();
@@ -332,7 +301,6 @@ int pageHeight = docInfo.getHeight();
 int qrSize = 100;
 signOptions.setLeft((pageWidth - qrSize) / 2);
 signOptions.setTop((pageHeight - qrSize) / 2);
-```
 ```
 
 **Definition:** `Signature.getDocumentInfo()` returns a `DocumentInfo` object containing metadata like page dimensions, which can be used to calculate precise placement coordinates for signatures based on the actual size of each page.
@@ -397,9 +365,7 @@ A: नहीं। QR कोड एक ओपन स्टैंडर्ड ह
 - [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/)
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
 - [GroupDocs.Signature API Reference](https://reference.groupdocs.com/signature/java/)
-- [Latest GroupDocs.Signature Releases](https://releases.groupdocs.com/signature/java/)
 - [Buy GroupDocs.Signature](https://purchase.groupdocs.com/buy)
-- [GroupDocs Signatures Free Trial](https://releases.groupdocs.com/signature/java/)
 - [Apply for Temporary License](https://purchase.groupdocs.com/temporary-license/)
 - [GroupDocs Forum Support](https://forum.groupdocs.com/c/signature/)
 
@@ -413,15 +379,9 @@ A: नहीं। QR कोड एक ओपन स्टैंडर्ड ह
 **परीक्षित संस्करण:** GroupDocs.Signature 23.12 for Java  
 **लेखक:** GroupDocs  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## संबंधित ट्यूटोरियल
 
 - [Java QR Code Signature Library - Complete GroupDocs Tutorial](/signature/java/qr-code-signatures/)
 - [Load and Save Documents in Java - Complete GroupDocs.Signature Tutorial](/signature/java/document-loading-saving/)
 - [How to Add Digital Signatures to Documents in Java](/signature/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/)
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}

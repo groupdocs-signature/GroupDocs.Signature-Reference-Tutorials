@@ -130,7 +130,6 @@ Dodanie GroupDocs.Signature do projektu jest proste. Wybierz narzędzie budowani
 ### Konfiguracja Maven
 Dodaj poniższy fragment do swojego `pom.xml`:
 
-``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -138,15 +137,12 @@ Dodaj poniższy fragment do swojego `pom.xml`:
     <version>23.12</version>
 </dependency>
 ```
-```
 
 ### Konfiguracja Gradle
 Dodaj poniższy fragment do swojego `build.gradle`:
 
-``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 **Wskazówka:** Jeśli pracujesz w środowisku korporacyjnym z ograniczonym dostępem do Internetu, możesz pobrać pliki JAR bezpośrednio ze [strony wydań GroupDocs.Signature](https://releases.groupdocs.com/signature/java/) i dodać je ręcznie do classpath projektu.
@@ -163,7 +159,6 @@ GroupDocs.Signature wymaga licencji do użytku produkcyjnego, ale masz kilka opc
 
 Po dodaniu zależności, sprawdź konfigurację przy pomocy krótkiego testu. Ten kod inicjalizuje bibliotekę GroupDocs.Signature i potwierdza, że może uzyskać dostęp do dokumentu:
 
-``` 
 ```java
 import com.groupdocs.signature.Signature;
 
@@ -174,7 +169,6 @@ public class DocumentSigner {
         System.out.println("GroupDocs.Signature initialized successfully!");
     }
 }
-```
 ```
 
 **Definicja:** `Signature` jest główną klasą GroupDocs.Signature reprezentującą dokument do podpisania.  
@@ -205,7 +199,6 @@ Zbudujemy kompletny przepływ podpisywania dokumentu. Podzielę go na przystępn
 
 Najpierw zdefiniuj ścieżki do plików. Zamień poniższe przykłady na własne katalogi:
 
-``` 
 ```java
 final String DOCUMENT_DIRECTORY = "YOUR_DOCUMENT_DIRECTORY";
 final String OUTPUT_DIRECTORY = "YOUR_OUTPUT_DIRECTORY";
@@ -216,7 +209,6 @@ String filePath = DOCUMENT_DIRECTORY + "/sample.docx";
 String fileName = new java.io.File(filePath).getName();
 String outputFilePath = OUTPUT_DIRECTORY + "/Signed/" + fileName;
 ```
-```
 
 **Dlaczego osobne katalogi?** Trzymanie oryginałów i podpisanych dokumentów w różnych folderach zapobiega przypadkowym nadpisaniom i ułatwia kontrolę wersji. W produkcji warto także dodawać znaczniki czasu do nazw plików wyjściowych.
 
@@ -224,10 +216,8 @@ String outputFilePath = OUTPUT_DIRECTORY + "/Signed/" + fileName;
 
 Utwórz obiekt `Signature`, który obsługuje wszystkie operacje podpisywania:
 
-``` 
 ```java
 Signature signature = new Signature(filePath);
-```
 ```
 
 **Co się dzieje w tle:** Ładuje dokument i przygotowuje go do manipulacji. Biblioteka automatycznie wykrywa format (PDF, DOCX, XLSX itp.) i stosuje odpowiednią metodę podpisu.
@@ -238,7 +228,6 @@ Signature signature = new Signature(filePath);
 
 Tutaj określasz, jak ma wyglądać i zachowywać się podpis:
 
-``` 
 ```java
 import com.groupdocs.signature.options.sign.DigitalSignOptions;
 
@@ -248,7 +237,6 @@ DigitalSignOptions options = new DigitalSignOptions(CERTIFICATE_FILE_PATH) {
         super.setImageFilePath(IMAGE_FILE_PATH);
     }
 };
-```
 ```
 
 **Co można dostosować?**
@@ -263,7 +251,6 @@ DigitalSignOptions options = new DigitalSignOptions(CERTIFICATE_FILE_PATH) {
 
 Teraz wykonaj proces podpisywania i obsłuż potencjalne niepowodzenia:
 
-``` 
 ```java
 try {
     signature.sign(outputFilePath, options);
@@ -276,7 +263,6 @@ try {
     // Handle general errors (e.g., file I/O issues, permission problems)
 }
 ```
-```
 
 **Dlaczego dwa bloki catch?** Pierwszy łapie błędy specyficzne dla GroupDocs (np. problemy z weryfikacją certyfikatu), drugi — wszystkie pozostałe (np. problemy z uprawnieniami systemu plików). To przyspiesza diagnozowanie problemów w trakcie developmentu.
 
@@ -286,7 +272,6 @@ try {
 
 Chcesz większej kontroli? Oto kluczowe opcje, które możesz dostosować:
 
-``` 
 ```java
 DigitalSignOptions options = new DigitalSignOptions(CERTIFICATE_FILE_PATH);
 
@@ -304,7 +289,6 @@ options.setPassword("certificate_password"); // If .pfx is password-protected
 options.setReason("Contract approval"); // Why this document is being signed
 options.setContact("john@company.com"); // Signer's contact info
 options.setLocation("New York Office"); // Where the signature occurred
-```
 ```
 
 **Wskazówka z praktyki:** Dla umów zawsze wypełniaj pola `Reason`, `Contact` i `Location`. Pojawiają się one w właściwościach podpisu PDF i zwiększają wiarygodność podczas audytów.
@@ -342,14 +326,12 @@ Omówmy problemy, które najczęściej napotykają programiści (abyś nie traci
 - Przetwarzaj dokumenty partiami, a nie wszystkie naraz.  
 - Zawsze zamykaj obiekt `Signature`: użyj `try‑with‑resources` lub wywołaj ręcznie `dispose()`.
 
-``` 
 ```java
 // Good: automatic resource management
 try (Signature signature = new Signature(filePath)) {
     signature.sign(outputFilePath, options);
 }
 // Signature is automatically closed here
-```
 ```
 
 ### 4. Problemy z pozycją podpisu w PDF
@@ -369,7 +351,6 @@ Cyfrowe podpisy są tak bezpieczne, jak ich implementacja. Przestrzegaj poniższ
 
 **Nigdy nie wprowadzaj ścieżek do certyfikatów ani haseł w kodzie źródłowym.** Zamiast tego:
 
-``` 
 ```java
 // Bad - hardcoded secrets
 String certPath = "/home/user/cert.pfx";
@@ -378,7 +359,6 @@ String certPassword = "mypassword123";
 // Good - environment variables or secure configuration
 String certPath = System.getenv("CERT_PATH");
 String certPassword = System.getenv("CERT_PASSWORD");
-```
 ```
 
 **Zalecenia:**  
@@ -391,7 +371,6 @@ String certPassword = System.getenv("CERT_PASSWORD");
 
 Zawsze waliduj dokumenty przed podpisaniem:
 
-``` 
 ```java
 // Check file exists and is readable
 File inputFile = new File(filePath);
@@ -411,13 +390,11 @@ if (!Arrays.asList("pdf", "docx", "xlsx").contains(extension)) {
     throw new IllegalArgumentException("Unsupported file format: " + extension);
 }
 ```
-```
 
 ### Logowanie zdarzeń audytu
 
 Rejestruj każde działanie podpisywania w celu zapewnienia zgodności i diagnostyki:
 
-``` 
 ```java
 // Log signature operations with essential details
 logger.info("Signing document: {} by user: {} with certificate: {}",
@@ -430,7 +407,6 @@ try {
     logger.error("Failed to sign document: {} - Error: {}", fileName, ex.getMessage());
     throw ex; // Re-throw after logging
 }
-```
 ```
 
 **Co logować:** nazwę i rozmiar dokumentu, użytkownika inicjującego podpis, odcisk palca certyfikatu (nie cały certyfikat), znacznik czasu, status sukcesu/porażki oraz komunikaty o błędach (nigdy nie loguj haseł ani pełnych certyfikatów).
@@ -479,7 +455,6 @@ Oto, jak rzeczywiste firmy wykorzystują podpisywanie dokumentów w Javie:
 - Archiwizuj podpisane dokumenty z pełnym śladem audytu  
 
 **Wzorzec integracji kodu:**  
-``` 
 ```java
 // Pseudo-code example
 public void processApprovedContract(String contractId) {
@@ -494,7 +469,6 @@ public void processApprovedContract(String contractId) {
     emailService.sendSignedContract(contract.getParties(), signedDoc);
     auditLog.recordSigning(contractId, getCurrentUser());
 }
-```
 ```
 
 ### 2. Automatyzacja przetwarzania faktur  
@@ -524,7 +498,6 @@ public void processApprovedContract(String contractId) {
 - Podpisany dokument jest automatycznie przesyłany z powrotem do CRM  
 
 **Przykład obsługi webhooka:**  
-``` 
 ```java
 @PostMapping("/api/sign-sales-document")
 public ResponseEntity<String> signSalesDocument(@RequestBody DealClosedEvent event) {
@@ -539,7 +512,6 @@ public ResponseEntity<String> signSalesDocument(@RequestBody DealClosedEvent eve
     
     return ResponseEntity.ok("Document signed and uploaded");
 }
-```
 ```
 
 ### 5. Potwierdzenia zamówień w e‑commerce  
@@ -556,13 +528,11 @@ public ResponseEntity<String> signSalesDocument(@RequestBody DealClosedEvent eve
 
 Jeśli budujesz aplikację mikroserwisową, rozważ taką strukturę:
 
-``` 
 ```
 [Order Service] --> [Signing Service] --> [Storage Service]
                          |
                          v
                   [Notification Service]
-```
 ```
 
 **Obowiązki usługi podpisywania:** udostępnianie REST API przyjmującego żądania podpisu, zarządzanie cyklem życia certyfikatów, obsługa kolejki podpisów przy dużym wolumenie, dostarczanie callbacków statusu.  
@@ -573,7 +543,6 @@ Jeśli budujesz aplikację mikroserwisową, rozważ taką strukturę:
 
 Dla scenariuszy wysokiego wolumenu (tysiące dokumentów dziennie):
 
-``` 
 ```java
 public class BatchDocumentSigner {
     private final BlockingQueue<SigningTask> queue = new LinkedBlockingQueue<>();
@@ -604,7 +573,6 @@ public class BatchDocumentSigner {
     }
 }
 ```
-```
 
 Ten wzorzec zapobiega problemom z pamięcią i zapewnia większą przepustowość przy operacjach wsadowych.
 
@@ -621,7 +589,6 @@ Ten wzorzec zapobiega problemom z pamięcią i zapewnia większą przepustowoś�
 **Strategie optymalizacji:**
 
 1. **Ponowne użycie obiektów Signature, kiedy to możliwe**  
-``` 
 ```java
 // Bad - creates new object for each document
 for (String doc : documents) {
@@ -636,18 +603,15 @@ for (String doc : documents) {
     }
 }
 ```
-```
 
 2. **Przetwarzanie równoległe przy operacjach wsadowych** – użyj `CompletableFuture` lub `ParallelStream` dla niezależnych zadań podpisywania:  
 
-``` 
 ```java
 List<CompletableFuture<Void>> futures = documents.stream()
     .map(doc -> CompletableFuture.runAsync(() -> signDocument(doc)))
     .collect(Collectors.toList());
 
 CompletableFuture.allOf(futures.toArray(new CompletableFuture[0])).join();
-```
 ```
 
 3. **Monitorowanie i profilowanie** – użyj JProfiler lub YourKit, aby zidentyfikować wąskie gardła. Typowe problemy: ładowanie certyfikatu (cache certyfikaty), przetwarzanie obrazu (optimizuj rozmiary przed podpisem), operacje I/O (SSD, ewentualnie dyski RAM dla plików tymczasowych).
@@ -663,7 +627,6 @@ CompletableFuture.allOf(futures.toArray(new CompletableFuture[0])).join();
 
 ### Najlepsze praktyki zarządzania pamięcią w Javie
 
-``` 
 ```java
 // Always use try-with-resources
 try (Signature signature = new Signature(filePath)) {
@@ -680,7 +643,6 @@ try {
         signature.dispose();
     }
 }
-```
 ```
 
 **Monitoruj w produkcji:** zużycie pamięci heap, czasy pauz GC, liczbę równoczesnych operacji podpisywania, średni czas podpisu dla każdego typu dokumentu.

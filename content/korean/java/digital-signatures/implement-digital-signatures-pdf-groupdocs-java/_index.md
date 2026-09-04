@@ -128,7 +128,6 @@ Gradle를 선호한다면 `build.gradle`에 다음 라인을 삽입합니다:
 // ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
-```
 
 수정 후 프로젝트를 동기화해 라이브러리를 다운로드하세요—이 단계를 건너뛰면 “class not found” 오류가 흔히 발생합니다.
 
@@ -154,7 +153,6 @@ GroupDocs.Signature는 상용 제품입니다. 일정에 맞는 옵션을 선택
 // ```java
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/samplePdf.pdf");
 ```
-```
 
 *정의:* `Signature` 클래스는 PDF 파일을 로드·수정·저장하기 위한 GroupDocs.Signature의 진입점입니다.
 
@@ -168,7 +166,6 @@ DigitalSignOptions options = new DigitalSignOptions("YOUR_DOCUMENT_DIRECTORY/cer
 options.setPassword("1234567890"); // Your certificate's password
 options.setReason("Approved"); // Why you're signing (appears in PDF metadata)
 options.setLocation("New York"); // Where the signing occurred
-```
 ```
 
 *정의:* `DigitalSignOptions`는 디지털 서명에 필요한 모든 매개변수를 캡슐화하며, 시각적 외관 및 암호 설정을 포함합니다.
@@ -191,7 +188,6 @@ appearance.setFontSize(8);
 
 options.setAppearance(appearance);
 ```
-```
 
 *정의:* `SignatureAppearance`는 최종 사용자가 PDF에서 보는 서명 블록의 시각적 표현을 정의합니다.
 
@@ -207,7 +203,6 @@ options.setHeight(80); // Height in pixels
 options.setVerticalAlignment(VerticalAlignment.Center);
 options.setHorizontalAlignment(HorizontalAlignment.Left);
 options.setMargin(new Padding(0, 10, 0, 10)); // Top, Right, Bottom, Left margins
-```
 ```
 
 *정의:* `SignatureOptions`(또는 하위 클래스)는 가시적 서명의 배치, 크기, 페이지 범위를 제어합니다.
@@ -225,7 +220,6 @@ border.setDashStyle(DashStyle.DashDot);
 border.setWeight(2); // Thickness in pixels
 options.setBorder(border);
 ```
-```
 
 *정의:* `Border`는 서명 프레임의 선 스타일, 두께, 가시성을 구성합니다.
 
@@ -236,7 +230,6 @@ options.setBorder(border);
 ```java
 // ```java
 SignResult signResult = signature.sign("YOUR_OUTPUT_DIRECTORY/digitallySignedPdfAppearance.pdf", options);
-```
 ```
 
 *정의:* `SignResult`는 서명 작업에 대한 상세 정보를 제공하며, 성공적으로 서명된 페이지 수를 포함합니다.
@@ -253,7 +246,6 @@ if (signResult.getSucceeded().size() > 0) {
     System.err.println("Signing failed: " + signResult.getFailed());
 }
 ```
-```
 
 ## 흔히 발생하는 문제와 회피 방법
 
@@ -264,7 +256,6 @@ if (signResult.getSucceeded().size() > 0) {
 // ```java
 String certPath = System.getenv("CERTIFICATE_PATH");
 DigitalSignOptions options = new DigitalSignOptions(certPath);
-```
 ```
 
 ### 문제 2: 잘못된 비밀번호 예외
@@ -280,7 +271,6 @@ signature.sign("output.pdf", options);
 DigitalSignOptions newOptions = new DigitalSignOptions("cert.pfx"); // Fresh object
 signature.sign("output2.pdf", newOptions);
 ```
-```
 
 ### 문제 3: 서명이 잘못된 페이지에 표시됨
 **직접 답변:** 각 서명 작업마다 새로운 `DigitalSignOptions` 인스턴스를 생성하세요; 동일 객체를 재사용하면 이전 페이지 설정이 남아 있을 수 있습니다.
@@ -290,7 +280,6 @@ signature.sign("output2.pdf", newOptions);
 options.setWidth(320); // Instead of 160
 options.setHeight(160); // Instead of 80
 ```
-```
 
 ### 문제 4: 흐릿한 서명 렌더링
 **직접 답변:** 서명 블록의 픽셀 치수를 늘려(예: width = 320, height = 160) 300 DPI 인쇄에 적합한 렌더링을 얻으세요.
@@ -298,7 +287,6 @@ options.setHeight(160); // Instead of 80
 ```java
 // ```bash
 java -Xmx2G -jar your-application.jar
-```
 ```
 
 ### 문제 5: 대용량 PDF에서 OutOfMemoryError
@@ -309,7 +297,6 @@ java -Xmx2G -jar your-application.jar
 try (Signature signature = new Signature("document.pdf")) {
     signature.sign("signed.pdf", options);
 } // Automatically releases resources
-```
 ```
 
 ## 프로덕션 사용을 위한 보안 모범 사례
@@ -326,7 +313,6 @@ options.setPassword("1234567890");
 String password = System.getenv("CERT_PASSWORD");
 options.setPassword(password);
 ```
-```
 
 ### 인증서 파일 권한 제한
 Linux에서는 `400`(소유자만 읽기) 권한을 설정해 무단 접근을 방지합니다.
@@ -335,7 +321,6 @@ Linux에서는 `400`(소유자만 읽기) 권한을 설정해 무단 접근을 �
 // ```bash
 chmod 400 /secure/certificates/signing-cert.pfx
 ```
-```
 
 ### 장기 유효성을 위해 타임스탬프 사용
 타임스탬프 서버를 신뢰하면 서명 인증서가 만료된 이후에도 서명이 유효합니다.
@@ -343,7 +328,6 @@ chmod 400 /secure/certificates/signing-cert.pfx
 ```java
 // ```java
 options.setTimestampUrl("http://timestamp.digicert.com");
-```
 ```
 
 ### 서명 후 서명 검증
@@ -360,7 +344,6 @@ if (result.getSucceeded().size() > 0) {
     }
 }
 ```
-```
 
 ### 모든 서명 작업을 로깅
 사용자 ID, 문서 ID, 타임스탬프, 서명 인증서 지문 등 상세 정보를 포함한 감사 로그를 유지하세요.
@@ -369,7 +352,6 @@ if (result.getSucceeded().size() > 0) {
 // ```java
 logger.info("Document signed: {}, User: {}, Timestamp: {}", 
     documentName, currentUser, LocalDateTime.now());
-```
 ```
 
 ## 사용 사례에 맞는 인증서 선택
@@ -381,7 +363,6 @@ Java `keytool`을 사용해 빠르게 생성합니다; 내부 데모에는 적�
 // ```bash
 keytool -genkeypair -alias testcert -keyalg RSA -keysize 2048 \
   -keystore test.pfx -storetype PKCS12 -validity 365
-```
 ```
 
 ### 프로덕션 – 상업용 CA
@@ -420,7 +401,6 @@ try (Signature signature = new Signature("template.pdf")) {
     }
 }
 ```
-```
 
 ### 로드된 인증서 캐시
 ```java
@@ -436,13 +416,11 @@ for (Document doc : documents) {
     signature.sign(doc.getPath(), options);
 }
 ```
-```
 
 ### 고처리량을 위한 JVM 튜닝
 ```java
 // ```bash
 java -Xmx4G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -jar app.jar
-```
 ```
 
 ### 비동기적으로 문서 서명
@@ -452,7 +430,6 @@ CompletableFuture.supplyAsync(() -> {
     signature.sign(outputPath, options);
     return "Success";
 }).thenAccept(result -> notifyUser(result));
-```
 ```
 
 ## 문제 해결 가이드

@@ -65,10 +65,6 @@ url: /hu/java/digital-signatures/groupdocs-signature-java-word-documents-qr-code
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # QR-kód aláírás létrehozása Word dokumentumokban Java segítségével
 
 Töltöttél már órákat a dokumentumok kézi aláírásával, csak hogy azon tűnődj, van-e gyorsabb, megbízhatóbb mód? Néhány Java kódsorral programozott módon **create QR code signature**-t hozhatsz létre Word dokumentumokban. Akár szerződésfolyamatokat automatizálsz, jogi papírmunkát kezelsz, vagy egy mobil‑első jóváhagyási portált építesz, a QR‑kód aláírások azonnali, beolvasható ellenőrzést biztosítanak, amely bármely okostelefonon működik. Ebben az útmutatóban megtanulod, hogyan állítsd be a GroupDocs.Signature for Java‑t, konfiguráld a QR‑kód beállításait, és ágyazz be gazdag adatokat, például URL‑eket, időbélyegeket vagy JSON terhelést a Word fájlokba. A végére képes leszel nagy mennyiségben aláírni a dokumentumokat, csökkenteni a manuális munkát, és növelni a megfelelőséget.
@@ -106,7 +102,6 @@ Válaszd ki a build rendszert, és add hozzá a függőséget pontosan úgy, aho
 
 **Maven**
 
-```java
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -114,14 +109,11 @@ Válaszd ki a build rendszert, és add hozzá a függőséget pontosan úgy, aho
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle**
 
-```java
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 ### Közvetlen letöltés
@@ -138,9 +130,7 @@ Prefer manual management? Download the JAR directly from [GroupDocs.Signature fo
 A `Signature` objektum a belépési pont minden aláírási művelethez. Implementálja az `AutoCloseable`‑t, így biztonságosan használható try‑with‑resources blokkban.
 
 ```java
-```java
 Signature signature = new Signature("path/to/your/document");
-```
 ```
 
 ## Implementációs útmutató: Word dokumentumok aláírása QR kódokkal
@@ -151,10 +141,8 @@ Below we walk through each step, adding definition anchors and direct answers wh
 Load the source document with `new Signature("source.docx")` inside a try‑with‑resources block; the object prepares the file for modifications and automatically releases resources when the block ends.
 
 ```java
-```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/SampleDocX.docx";
 Signature signature = new Signature(filePath);
-```
 ```
 
 **Explanation:** A `Signature` osztály egyetlen dokumentumot reprezentál a memóriában, és metódusokat biztosít aláírások hozzáadásához, kereséséhez és ellenőrzéséhez. Támogatja a `.docx`, `.doc` és sok más formátumot.
@@ -163,12 +151,10 @@ Signature signature = new Signature(filePath);
 Create a `QrCodeSignOptions` instance, set the encoded text, barcode type, and positioning. The following snippet shows a minimal configuration.
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("JohnSmith");
 signOptions.setEncodeType(QrCodeTypes.QR);
 signOptions.setLeft(100); // X-axis position in pixels
 signOptions.setTop(100);  // Y-axis position in pixels
-```
 ```
 
 **Definition:** A `QrCodeSignOptions` osztály tartalmazza az összes beállítást, amely a QR‑kód aláírás generálásához és elhelyezéséhez szükséges, beleértve a kódolt szöveget, a vonalkód típusát, méretet, színeket és a dokumentumban való pozíciót.
@@ -177,9 +163,7 @@ signOptions.setTop(100);  // Y-axis position in pixels
 You can further adjust size, margin, and colors:
 
 ```java
-```java
 QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verify/doc-12345");
-```
 ```
 
 **Why it matters:** Egy 150 px négyzetes QR‑kód fekete előtérrel fehér háttéren >99 % beolvasási sikerességet biztosít képernyőn és nyomtatásban egyaránt.
@@ -188,11 +172,9 @@ QrCodeSignOptions signOptions = new QrCodeSignOptions("https://yourapp.com/verif
 Define the target format and overwrite behavior before calling `sign`.
 
 ```java
-```java
 WordProcessingSaveOptions saveOptions = new WordProcessingSaveOptions();
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Odt);
 saveOptions.setOverwriteExistingFiles(true);
-```
 ```
 
 **Definition:** A `WordProcessingSaveOptions` osztály meghatározza, hogyan legyen mentve a aláírt Word dokumentum, lehetővé téve a kimeneti formátum (DOCX, ODT stb.) megadását, a meglévő fájlok felülírását és egyéb fájlszintű preferenciákat.
@@ -200,19 +182,15 @@ saveOptions.setOverwriteExistingFiles(true);
 If you need an open‑source format, switch to `OutputType.ODT`:
 
 ```java
-```java
 saveOptions.setFileFormat(WordProcessingSaveFileFormat.Docx);
-```
 ```
 
 ### Hogyan aláírjam és mentsem a dokumentumot a QR kóddal?
 The `sign` method applies the QR code and writes the output file in one call.
 
 ```java
-```java
 String outputFilePath = "YOUR_OUTPUT_DIRECTORY/SaveSignedOutputType/SampleDocX.odt";
 signature.sign(outputFilePath, signOptions, saveOptions);
-```
 ```
 
 **Definition:** A `Signature` objektum `sign` metódusa a célútvonalat, a konfigurált aláírási opciókat és opcionális mentési beállításokat veszi, majd beágyazza a QR‑kódot a dokumentumba és a megadott helyre írja az eredményt.
@@ -227,14 +205,12 @@ signature.sign(outputFilePath, signOptions, saveOptions);
 Wrap the signing logic in a try‑catch block to capture missing files, invalid paths, or licensing issues.
 
 ```java
-```java
 try {
     signature.sign(outputFilePath, signOptions, saveOptions);
     System.out.println("Document signed successfully!");
 } catch (Exception e) {
     System.err.println("Signing failed: " + e.getMessage());
 }
-```
 ```
 
 **Definition:** A `Exception` elkapása biztosítja, hogy minden futásidejű probléma – például hiányzó fájlok, érvénytelen útvonalak vagy licencproblémák – kedvesen jelentve legyen, megakadályozva a termék összeomlását éles környezetben.
@@ -266,14 +242,12 @@ A pénzügyi csapat QR‑kódokat helyez el, amelyek egy fizetési átjáróhoz 
 - **Placement matters:** Position QR codes at the bottom of the page to reduce layout reflow and improve speed.
 
 ```java
-```java
 List<String> documents = getDocumentPaths();
 for (String docPath : documents) {
     Signature sig = new Signature(docPath);
     // Configure and sign
     sig.dispose();
 }
-```
 ```
 
 ### QR kód elhelyezési tippek
@@ -282,13 +256,11 @@ for (String docPath : documents) {
 - **Multiple pages:** Loop through pages and instantiate a new `QrCodeSignOptions` for each position.
 
 ```java
-```java
 for (Document doc : documents) {
     Signature sig = new Signature(doc.getPath());
     sig.sign(outputPath, signOptions, saveOptions);
     sig.dispose();
 }
-```
 ```
 
 ## Haladó konfigurációs beállítások
@@ -296,7 +268,6 @@ for (Document doc : documents) {
 ### Hogyan adhatok több QR kódot egyetlen dokumentumhoz?
 Create separate `QrCodeSignOptions` objects for each location and call `sign` repeatedly.
 
-```java
 ```java
 // First QR code
 QrCodeSignOptions sign1 = new QrCodeSignOptions("Approver 1");
@@ -312,7 +283,6 @@ sign2.setTop(100);
 signature.sign(outputPath, sign1, saveOptions);
 signature.sign(outputPath, sign2, saveOptions);
 ```
-```
 
 ### Milyen egyéb vonalkód típusok támogatottak?
 Beyond QR, you can generate **Aztec**, **DataMatrix**, or **PDF417** codes by changing `setEncodeType()`.
@@ -320,7 +290,6 @@ Beyond QR, you can generate **Aztec**, **DataMatrix**, or **PDF417** codes by ch
 ### Hogyan számoljam ki a dinamikus pozíciókat az oldal mérete alapján?
 Retrieve page dimensions via `Signature.getDocumentInfo()` and compute coordinates programmatically.
 
-```java
 ```java
 // Get document info
 DocumentInfo docInfo = signature.getDocumentInfo();
@@ -331,7 +300,6 @@ int pageHeight = docInfo.getHeight();
 int qrSize = 100;
 signOptions.setLeft((pageWidth - qrSize) / 2);
 signOptions.setTop((pageHeight - qrSize) / 2);
-```
 ```
 
 **Definition:** A `Signature.getDocumentInfo()` egy `DocumentInfo` objektumot ad vissza, amely metaadatokat, például oldalméreteket tartalmaz, és felhasználható a QR‑kód pontos elhelyezésének kiszámításához az egyes oldalak tényleges mérete alapján.
@@ -396,9 +364,7 @@ signOptions.setTop((pageHeight - qrSize) / 2);
 - [GroupDocs.Signature for Java kiadások](https://releases.groupdocs.com/signature/java/)
 - [GroupDocs.Signature for Java dokumentáció](https://docs.groupdocs.com/signature/java/)
 - [GroupDocs.Signature API referencia](https://reference.groupdocs.com/signature/java/)
-- [Legújabb GroupDocs.Signature kiadások](https://releases.groupdocs.com/signature/java/)
 - [GroupDocs.Signature vásárlása](https://purchase.groupdocs.com/buy)
-- [GroupDocs aláírások ingyenes próba](https://releases.groupdocs.com/signature/java/)
 - [Ideiglenes licenc igénylése](https://purchase.groupdocs.com/temporary-license/)
 - [GroupDocs fórum támogatás](https://forum.groupdocs.com/c/signature/)
 
@@ -412,15 +378,9 @@ Most már egy komplett, éles környezetre kész útmutatód van a **create QR c
 **Tesztelve a következővel:** GroupDocs.Signature 23.12 for Java  
 **Szerző:** GroupDocs  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó oktatóanyagok
 
 - [Java QR Code Signature könyvtár - Teljes GroupDocs oktatóanyag](/signature/java/qr-code-signatures/)
 - [Dokumentumok betöltése és mentése Java-ban - Teljes GroupDocs.Signature oktatóanyag](/signature/java/document-loading-saving/)
 - [Hogyan adjunk digitális aláírásokat dokumentumokhoz Java-ban](/signature/java/digital-signatures/groupdocs-signature-java-digital-signing-guide/)
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
