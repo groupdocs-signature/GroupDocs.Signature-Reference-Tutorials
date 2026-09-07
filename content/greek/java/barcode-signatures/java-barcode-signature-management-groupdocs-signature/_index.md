@@ -158,7 +158,6 @@ weight: 1
     <version>23.12</version>
 </dependency>
 ```
-```
 
 ### Ρύθμιση Gradle  
 Ή, αν χρησιμοποιείτε Gradle, προσθέστε αυτό στο `build.gradle`:
@@ -166,7 +165,6 @@ weight: 1
 ``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 ### Επιλογή Άμεσης Λήψης  
@@ -209,7 +207,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **Τι συμβαίνει:** Αντικαταστήστε το `"YOUR_DOCUMENT_DIRECTORY/sample.pdf"` με τη πραγματική διαδρομή του εγγράφου σας. Μπορεί να είναι PDF, Word, Excel ή οποιαδήποτε άλλη υποστηριζόμενη μορφή—το GroupDocs αναγνωρίζει αυτόματα τη μορφή.
 
@@ -248,7 +245,6 @@ public class SearchBarcodeSignatures {
         }
     }
 }
-```
 ```
 
 **Ανάλυση:** Η κλάση `BarcodeSearchOptions` σας επιτρέπει να προσαρμόσετε την αναζήτηση. Από προεπιλογή, ψάχνει σε όλο το έγγραφο για όλους τους τύπους barcode, αλλά μπορείτε να την ρυθμίσετε ώστε:  
@@ -301,7 +297,6 @@ public class DeleteBarcode {
     }
 }
 ```
-```
 
 **Κατανόηση της διαδικασίας:** Αυτός ο κώδικας ακολουθεί το μοτίβο αναζήτηση‑μετά‑διαγραφή. Πρώτα βρίσκουμε όλες τις υπογραφές barcode στο έγγραφο. Στη συνέχεια παίρνουμε την πρώτη (μπορείτε να κάνετε βρόχο για όλες ή να φιλτράρετε βάσει κριτηρίων). Τέλος, καλούμε `delete()` με διαδρομή εξόδου για να αφαιρέσουμε την υπογραφή.
 
@@ -328,7 +323,6 @@ public class DeleteBarcode {
 ```java
 String filePath = Paths.get("YOUR_DOCUMENT_DIRECTORY", "sample.pdf").toString();
 ```
-```
 
 ### 2. Παράλειψη Κλεισίματος Πόρων  
 **Το λάθος:** Μη κλείσιμο του αντικειμένου `Signature`, οδηγώντας σε κλειδώματα αρχείων ή διαρροές μνήμης με πολλαπλά έγγραφα.  
@@ -341,7 +335,6 @@ try (Signature signature = new Signature(filePath)) {
     // Your code here
 }
 // Automatically closed and resources released
-```
 ```
 
 ### 3. Υπόθεση ότι Όλα τα Barcodes Θα Βρεθούν  
@@ -356,7 +349,6 @@ if (signatures.isEmpty()) {
     System.out.println("No barcode signatures found in the document.");
     return;
 }
-```
 ```
 
 ### 4. Παράβλεψη Συμβατότητας Μορφής Εγγράφου  

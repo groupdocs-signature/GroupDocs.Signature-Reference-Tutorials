@@ -78,16 +78,20 @@ url: /tr/java/advanced-options/master-metadata-encryption-serialization-java-gro
 weight: 1
 ---
 
-# Java'da GroupDocs.Signature ile Meta Verileri Şifreleme
+# GroupDocs.Signature ile Java'da Belge Metaverisini Şifreleme
 
-Dijital imzalar harikadır, ancak gizli belge özellikleri—yazar adları, zaman damgaları, iç kimlikler—hala düz metin olarak sızabilir. **Meta verileri nasıl şifreleyeceğinizi** öğrenmeniz gerekiyorsa, bu kılavuz tam olarak bunu gösterir, GroupDocs.Signature'ın esnek API'sini kullanarak. Eğitimin sonunda şunları yapabilecek:
+## Giriş
 
-- Java belgelerinde özel meta veri yapılarını serileştirin.  
-- Şifreleme uygulayın (örnek açıklık için XOR kullanır, ancak AES ile nasıl değiştirileceğini göreceksiniz).  
-- Şifrelenmiş meta veriyi gömerek bir belgeyi imzalayın.  
-- Çözümü üretim‑düzeyinde güvenlik ve performans için ölçeklendirin.
+Hiç bir belgeyi dijital olarak imzaladınız ve daha sonra hassas metaverinin (yazar adları, zaman damgaları veya iç kimlikler gibi) düz metin olarak herkesin okuyabileceği bir yerde olduğunu fark ettiniz mi? Bu, gerçekleşmesi beklenen bir güvenlik kabusudur.
 
-Hadi başlayalım.
+Bu rehberde, **GroupDocs.Signature** kullanarak **java’da belge metaverisini şifreleme** yöntemini özel serileştirme ve şifreleme ile öğreneceksiniz. Kurumsal belge yönetim sistemleri veya tek seferlik kullanım senaryoları için uyarlayabileceğiniz pratik bir uygulamadan geçeceğiz. Sonunda şunları yapabilecek durumda olacaksınız:
+
+- Java belgelerinde özel metaveri yapılarını serileştirme  
+- Metaveri alanları için şifreleme uygulama (öğrenme örneği olarak XOR)  
+- GroupDocs.Signature ile şifreli metaveri içeren belgeleri imzalama  
+- Yaygın tuzaklardan kaçınma ve üretim‑düzeyi güvenliğe yükseltme  
+
+Haydi başlayalım.
 
 ## Hızlı Yanıtlar
 - **“Meta verileri şifreleme” ne anlama geliyor?** İmzalama öncesinde gizli belge özelliklerini kriptografik bir dönüşümle korur.  

@@ -21,22 +21,6 @@ url: /sv/java/advanced-options/sign-document-gradient-brush-java-groupdocs/
 weight: 1
 ---
 
- content.
-
-Be careful with bullet points, keep formatting.
-
-Also note "All URLs and file paths (never translate these)" So we keep URLs unchanged.
-
-Also "For Swedish, ensure proper RTL formatting if needed" Not needed.
-
-Proceed.
-
-We'll translate paragraphs.
-
-Make sure to keep ** in same places.
-
-Let's craft.
-
 # Hur man anpassar signaturens utseende med gradient i Java
 
 Har du någonsin märkt hur vissa digitalt signerade dokument ser, ja… tråkiga ut? Bara vanlig text på en vit bakgrund? Om du bygger en applikation som behöver professionella dokument‑signaturer—tänk kontrakt, fakturor eller certifikat—vill du ha något som sticker ut samtidigt som det är funktionellt. **I den här handledningen lär du dig hur du anpassar signaturens utseende genom att applicera en gradient‑pensel i Java.** Att skapa en gradient‑digital signatur ger inte bara visuell polish utan förstärker även varumärkesidentiteten och förbättrar den upplevda äktheten.

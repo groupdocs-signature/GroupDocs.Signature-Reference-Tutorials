@@ -545,9 +545,7 @@ Ora vai a costruire qualcosa di sicuro! 🔒
 - [Documentazione completa](https://docs.groupdocs.com/signature/java/)  
 - [Riferimento API](https://reference.groupdocs.com/signature/java/)  
 - [Scarica libreria](https://releases.groupdocs.com/signature/java/)  
-- [Acquista licenza](https://purchase.groupdocs.com/buy)  
 - [Prova gratuita](https://releases.groupdocs.com/signature/java/)  
-- [Licenza temporanea](https://purchase.groupdocs.com/temporary-license/)  
 - [Forum di supporto](https://forum.groupdocs.com/c/signature/)
 
 ```java

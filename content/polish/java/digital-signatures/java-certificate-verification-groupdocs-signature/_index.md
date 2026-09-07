@@ -539,7 +539,6 @@ Teraz zbuduj coś bezpiecznego! 🔒
 - [Pełna dokumentacja](https://docs.groupdocs.com/signature/java/)  
 - [Referencja API](https://reference.groupdocs.com/signature/java/)  
 - [Pobierz bibliotekę](https://releases.groupdocs.com/signature/java/)  
-- [Kup licencję](https://purchase.groupdocs.com/buy)  
 - [Bezpłatna wersja próbna](https://releases.groupdocs.com/signature/java/)  
 - [Tymczasowa licencja](https://purchase.groupdocs.com/temporary-license/)  
 - [Forum wsparcia](https://forum.groupdocs.com/c/signature/)

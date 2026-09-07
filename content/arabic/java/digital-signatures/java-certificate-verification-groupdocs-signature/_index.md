@@ -545,7 +545,6 @@ if (!verificationCache.containsKey(cacheKey)) {
 - [الوثائق الكاملة](https://docs.groupdocs.com/signature/java/)  
 - [مرجع API](https://reference.groupdocs.com/signature/java/)  
 - [تحميل المكتبة](https://releases.groupdocs.com/signature/java/)  
-- [شراء الترخيص](https://purchase.groupdocs.com/buy)  
 - [التجربة المجانية](https://releases.groupdocs.com/signature/java/)  
 - [الترخيص المؤقت](https://purchase.groupdocs.com/temporary-license/)  
 - [منتدى الدعم](https://forum.groupdocs.com/c/signature/)

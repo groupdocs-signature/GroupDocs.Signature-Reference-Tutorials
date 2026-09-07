@@ -540,7 +540,6 @@ A: 可以——前提是系统信任相应的根 CA。对于自签名证书或�
 
 **Additional Resources**  
 - [GroupDocs 临时许可证页面](https://purchase.groupdocs.com/temporary-license/)  
-- [定价页面](https://purchase.groupdocs.com/buy)  
 - [完整文档](https://docs.groupdocs.com/signature/java/)  
 - [API 参考](https://reference.groupdocs.com/signature/java/)  
 - [下载库](https://releases.groupdocs.com/signature/java/)  

@@ -78,14 +78,18 @@ url: /id/java/advanced-options/master-metadata-encryption-serialization-java-gro
 weight: 1
 ---
 
-# Cara Mengenkripsi Metadata di Java dengan GroupDocs.Signature
+# Enkripsi Metadata Dokumen Java dengan GroupDocs.Signature
 
-Digital signatures sangat berguna, tetapi properti dokumen tersembunyi—nama penulis, cap waktu, ID internal—masih dapat bocor dalam teks biasa. **Jika Anda perlu mengetahui cara mengenkripsi metadata**, panduan ini menunjukkan secara tepat, menggunakan API fleksibel GroupDocs.Signature. Pada akhir tutorial Anda akan dapat:
+## Pendahuluan
 
-- Menyerialkan struktur metadata kustom dalam dokumen Java.  
-- Menerapkan enkripsi (contoh menggunakan XOR untuk kejelasan, tetapi Anda akan melihat cara menggantinya dengan AES).  
-- Menandatangani dokumen sambil menyematkan metadata yang dienkripsi.  
-- Menskalakan solusi untuk keamanan dan kinerja tingkat produksi.
+Pernahkah Anda menandatangani dokumen secara digital, hanya untuk menyadari kemudian bahwa metadata sensitif (seperti nama penulis, cap waktu, atau ID internal) berada dalam teks biasa yang dapat dibaca siapa saja? Itu adalah mimpi buruk keamanan yang menunggu terjadi.
+
+Dalam panduan ini, **Anda akan belajar cara mengenkripsi metadata dokumen java** menggunakan GroupDocs.Signature dengan serialisasi dan enkripsi khusus. Kami akan membimbing Anda melalui implementasi praktis yang dapat Anda sesuaikan untuk sistem manajemen dokumen perusahaan atau kasus penggunaan tunggal. Pada akhir panduan Anda akan dapat:
+
+- Menyerialisasi struktur metadata khusus dalam dokumen Java  
+- Menerapkan enkripsi untuk bidang metadata (XOR ditunjukkan sebagai contoh pembelajaran)  
+- Menandatangani dokumen dengan metadata terenkripsi menggunakan GroupDocs.Signature  
+- Menghindari jebakan umum dan meningkatkan ke keamanan tingkat produksi  
 
 Mari kita mulai.
 

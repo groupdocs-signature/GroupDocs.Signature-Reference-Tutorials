@@ -78,16 +78,20 @@ url: /hu/java/advanced-options/master-metadata-encryption-serialization-java-gro
 weight: 1
 ---
 
-# Hogyan titkosítsuk a metaadatokat Java-ban a GroupDocs.Signature segítségével
+# Dokumentum metaadatok titkosítása Java-val a GroupDocs.Signature segítségével
 
-A digitális aláírások nagyszerűek, de a rejtett dokumentumtulajdonságok—szerzők nevei, időbélyegek, belső azonosítók—még mindig szöveges formában szivároghatnak ki. **Ha tudni szeretnéd, hogyan kell titkosítani a metaadatokat**, ez az útmutató pontosan ezt mutatja be, a GroupDocs.Signature rugalmas API-jának felhasználásával. A tutorial végére képes leszel:
+## Bevezetés
 
-- Egyedi metaadatstruktúrák sorosítására Java dokumentumokban.  
-- Titkosítás alkalmazására (a példa az egyszerűség kedvéért XOR-t használ, de láthatod, hogyan cserélheted AES-re).  
-- Dokumentum aláírására a titkosított metaadatok beágyazásával.  
-- A megoldás méretezésére termelés‑szintű biztonság és teljesítmény érdekében.
+Valaha digitálisan aláírtál már egy dokumentumot, csak később jöttél rá, hogy a érzékeny metaadatok (például a szerző neve, időbélyegek vagy belső azonosítók) egyszerű szövegként vannak jelen, bárki által olvasható módon? Ez egy biztonsági rémálom, ami csak arra vár, hogy megtörténjen.
 
-Kezdjük el.
+Ebben az útmutatóban **meg fogod tanulni, hogyan titkosítsd a dokumentum metaadatait Java-ban** a GroupDocs.Signature segítségével egyedi sorosítás és titkosítás használatával. Végigvezetünk egy gyakorlati megvalósításon, amelyet vállalati dokumentumkezelő rendszerekhez vagy egyszeri felhasználásokhoz is adaptálhatsz. A végére képes leszel:
+
+- Egyedi metaadat struktúrák sorosítása Java dokumentumokban  
+- Titkosítás megvalósítása a metaadat mezőkhöz (XOR példaként bemutatva)  
+- Dokumentumok aláírása titkosított metaadatokkal a GroupDocs.Signature használatával  
+- Általános buktatók elkerülése és a termelési szintű biztonságra való áttérés  
+
+Vágjunk bele.
 
 ## Gyors válaszok
 - **Mit jelent a „metaadatok titkosítása”?** A rejtett dokumentumtulajdonságok kriptográfiai átalakítással való védelmét jelenti aláírás előtt.  
