@@ -130,14 +130,12 @@ Maven でも Gradle でも、GroupDocs.Signature の統合はシンプルです�
     <version>23.12</version>
 </dependency>
 ```
-```
 
 ### Gradle 設定
 Gradle を使用している場合は、`build.gradle` に次を追加します。
 ``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 **プロのコツ**：常に最新バージョンは [GroupDocs releases page](https://releases.groupdocs.com/signature/java/) で確認してください。新バージョンにはセキュリティパッチやパフォーマンス改善が含まれます。
@@ -164,7 +162,6 @@ import com.groupdocs.signature.Signature;
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample_signed_document.pdf";
 Signature signature = new Signature(filePath);
 ```
-```
 
 ## デジタル署名の検証：基本
 
@@ -182,7 +179,6 @@ import com.groupdocs.signature.Signature;
 import com.groupdocs.signature.domain.VerificationResult;
 import com.groupdocs.signature.options.verify.DigitalVerifyOptions;
 ```
-```
 
 ### 手順 2: VerificationOptions の設定
 
@@ -193,7 +189,6 @@ import com.groupdocs.signature.options.verify.DigitalVerifyOptions;
 ```java
 DigitalVerifyOptions options = new DigitalVerifyOptions();
 options.setComments("Approved");  // Tracks verification context
-```
 ```
 
 コメントを残すことで監査トレイルが容易になります。数か月後にログを確認すると、なぜその文書を検証したのかが一目で分かります。
@@ -209,7 +204,6 @@ if (result.isValid()) {
 } else {
     System.out.println("The document failed the verification process.");
 }
-```
 ```
 
 `VerificationResult` は検証の成功・失敗と、問題があった場合の詳細情報を提供します。ライブラリは次をチェックします。
@@ -241,7 +235,6 @@ Date verificationDate = dateFormat.parse("2024-06-15");
 
 options.setVerificationDate(verificationDate);
 ```
-```
 
 ### 日付ベース検証の実行
 
@@ -254,7 +247,6 @@ if (result.isValid()) {
 } else {
     System.out.println("The document failed verification for that date.");
 }
-```
 ```
 
 **実務例**：金融機関は過去取引の監査時に、署名が署名時点で有効だったかを確認します。
@@ -279,7 +271,6 @@ String filePath = "C:\\Users\\John\\Documents\\contract.pdf";
 String filePath = System.getProperty("user.dir") + "/documents/contract.pdf";
 // Or use proper configuration files
 ```
-```
 
 ### 3. 検証結果の詳細を無視
 **ミス**：`isValid()` だけを確認し、失敗理由を調べない。  
@@ -294,7 +285,6 @@ if (!result.isValid()) {
         System.out.println("Error: " + signatureResult.getMessage());
     });
 }
-```
 ```
 
 ### 4. 誤った証明書ストアの使用
@@ -324,7 +314,6 @@ public boolean processDocument(String filePath) {
     return processVerifiedDocument(filePath);
 }
 ```
-```
 
 ### 2. ライブラリは常に最新に保つ
 セキュリティ脆弱性は定期的に修正されます。GroupDocs のセキュリティアナウンスを購読し、新バージョンが出たら速やかに更新してください。
@@ -341,7 +330,6 @@ public boolean processDocument(String filePath) {
 ```java
 options.setVerifyCertificateChain(true);  // Ensures full chain validation
 ```
-```
 
 ### 5. タイムアウト設定
 DoS 攻撃防止のため、検証操作にタイムアウトを設定します。
@@ -351,7 +339,6 @@ DoS 攻撃防止のため、検証操作にタイムアウトを設定します�
 ```java
 // Prevent hanging on corrupted or malicious files
 signature.setTimeoutMilliseconds(5000);  // 5-second timeout
-```
 ```
 
 ## GroupDocs と Java 標準機能の使い分け
@@ -391,7 +378,6 @@ System.out.println("File exists: " + file.exists());
 System.out.println("Can read: " + file.canRead());
 System.out.println("Absolute path: " + file.getAbsolutePath());
 ```
-```
 
 ### 問題: 有効な署名が検証に失敗する
 **症状**：署名は有効なのに `verify()` が false を返す。  
@@ -418,7 +404,6 @@ try (Signature signature = new Signature(filePath)) {
     VerificationResult result = signature.verify(options);
     // Process result
 } // Automatically closes and releases resources
-```
 ```
 
 ### 問題: 検証が遅い
@@ -458,7 +443,6 @@ if (!result.isValid()) {
     );
 }
 ```
-```
 
 ### 2. 非同期検証でスループット向上
 多数文書を処理する場合は非同期処理を活用します。
@@ -475,7 +459,6 @@ public CompletableFuture<VerificationResult> verifyAsync(String filePath) {
         }
     });
 }
-```
 ```
 
 ### 3. 外部依存に回路遮断器を導入
@@ -495,7 +478,6 @@ if (verificationCache.containsKey(cacheKey)) {
 // Verify and cache
 VerificationResult result = signature.verify(options);
 verificationCache.put(cacheKey, result, CACHE_TTL);
-```
 ```
 
 ### 5. 検証失敗の監視とアラート
@@ -532,7 +514,6 @@ public boolean processIncomingContract(String contractPath) {
         }
     }
 }
-```
 ```
 
 ### ユースケース 2：金融文書監査
@@ -576,7 +557,6 @@ Map<String, Boolean> results = filePaths.parallelStream()
             }
         }
     ));
-```
 ```
 
 ## FAQ（よくある質問）

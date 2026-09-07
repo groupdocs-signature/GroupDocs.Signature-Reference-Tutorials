@@ -132,14 +132,12 @@ weight: 1
     <version>23.12</version>
 </dependency>
 ```
-```
 
 ### การตั้งค่า Gradle
 สำหรับผู้ใช้ Gradle ให้เพิ่มบรรทัดต่อไปนี้ในไฟล์ `build.gradle`:
 ``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 **เคล็ดลับ**: ตรวจสอบเสมอที่ [GroupDocs releases page](https://releases.groupdocs.com/signature/java/) เพื่อดูเวอร์ชันล่าสุด เวอร์ชันใหม่มักมีแพตช์ความปลอดภัยและการปรับปรุงประสิทธิภาพ
@@ -166,7 +164,6 @@ import com.groupdocs.signature.Signature;
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample_signed_document.pdf";
 Signature signature = new Signature(filePath);
 ```
-```
 
 ## การตรวจสอบลายเซ็นดิจิทัล: พื้นฐาน
 
@@ -186,7 +183,6 @@ import com.groupdocs.signature.Signature;
 import com.groupdocs.signature.domain.VerificationResult;
 import com.groupdocs.signature.options.verify.DigitalVerifyOptions;
 ```
-```
 
 ### ขั้นตอนที่ 2: กำหนดค่า Verification Options
 
@@ -197,7 +193,6 @@ import com.groupdocs.signature.options.verify.DigitalVerifyOptions;
 ```java
 DigitalVerifyOptions options = new DigitalVerifyOptions();
 options.setComments("Approved");  // Tracks verification context
-```
 ```
 
 ทำไมต้องเพิ่มคอมเมนต์? มันมีประโยชน์อย่างมากสำหรับการตรวจสอบย้อนหลัง เมื่อคุณดูบันทึกหกเดือนต่อมา จะรู้ได้ว่าทำไมเอกสารถูกตรวจสอบและด้วยเกณฑ์อะไร
@@ -215,7 +210,6 @@ if (result.isValid()) {
 } else {
     System.out.println("The document failed the verification process.");
 }
-```
 ```
 
 `VerificationResult` เป็นอ็อบเจกต์สั้น ๆ ที่บอกว่าลายเซ็นผ่านการตรวจสอบทั้งหมดหรือไม่ และให้เหตุผลของความล้มเหลวเมื่อไม่ผ่าน ไลบรารีตรวจสอบ:
@@ -247,7 +241,6 @@ Date verificationDate = dateFormat.parse("2024-06-15");
 
 options.setVerificationDate(verificationDate);
 ```
-```
 
 ### การตรวจสอบตามวันที่
 
@@ -262,7 +255,6 @@ if (result.isValid()) {
 } else {
     System.out.println("The document failed verification for that date.");
 }
-```
 ```
 
 **กรณีใช้งานจริง**: สถาบันการเงินใช้วิธีนี้เมื่อตรวจสอบธุรกรรมย้อนหลัง ต้องยืนยันว่าลายเซ็นถูกต้องในเวลาที่ทำรายการ ไม่ใช่แค่ตอนนี้
@@ -289,7 +281,6 @@ String filePath = "C:\\Users\\John\\Documents\\contract.pdf";
 String filePath = System.getProperty("user.dir") + "/documents/contract.pdf";
 // Or use proper configuration files
 ```
-```
 
 ### 3. ไม่สนใจรายละเอียดของผลลัพธ์การตรวจสอบ
 **ข้อผิดพลาด**: ตรวจสอบแค่ `isValid()` โดยไม่ดูเหตุผลที่ล้มเหลว  
@@ -306,7 +297,6 @@ if (!result.isValid()) {
         System.out.println("Error: " + signatureResult.getMessage());
     });
 }
-```
 ```
 
 ### 4. ใช้ Store ใบรับรองไม่ถูกต้อง
@@ -336,7 +326,6 @@ public boolean processDocument(String filePath) {
     return processVerifiedDocument(filePath);
 }
 ```
-```
 
 ### 2. อัปเดตไลบรารีอย่างสม่ำเสมอ
 ช่องโหว่ด้านความปลอดภัยมักได้รับการแก้ไขเป็นประจำ สมัครรับประกาศความปลอดภัยของ GroupDocs และอัปเดตทันทีเมื่อมีเวอร์ชันใหม่
@@ -353,7 +342,6 @@ public boolean processDocument(String filePath) {
 ```java
 options.setVerifyCertificateChain(true);  // Ensures full chain validation
 ```
-```
 
 ### 5. ตั้งค่า Timeout ที่เหมาะสม
 ในสภาพแวดล้อมการผลิต ควรเพิ่ม timeout เพื่อป้องกันการโจมตีแบบ DoS:
@@ -363,7 +351,6 @@ options.setVerifyCertificateChain(true);  // Ensures full chain validation
 ```java
 // Prevent hanging on corrupted or malicious files
 signature.setTimeoutMilliseconds(5000);  // 5-second timeout
-```
 ```
 
 ## เมื่อใดควรใช้ GroupDocs แทนโซลูชันในตัวของ Java
@@ -406,7 +393,6 @@ System.out.println("File exists: " + file.exists());
 System.out.println("Can read: " + file.canRead());
 System.out.println("Absolute path: " + file.getAbsolutePath());
 ```
-```
 
 ### ปัญหา: การตรวจสอบล้มเหลวแม้ลายเซ็นจะถูกต้อง
 **อาการ**: คุณรู้ว่าลายเซ็นถูกต้อง แต่การตรวจสอบคืนค่า false  
@@ -433,7 +419,6 @@ try (Signature signature = new Signature(filePath)) {
     VerificationResult result = signature.verify(options);
     // Process result
 } // Automatically closes and releases resources
-```
 ```
 
 ### ปัญหา: ประสิทธิภาพการตรวจสอบช้า
@@ -473,7 +458,6 @@ if (!result.isValid()) {
     );
 }
 ```
-```
 
 ### 2. ใช้การตรวจสอบแบบอะซิงโครนัสเพื่อเพิ่ม Throughput
 เมื่อประมวลผลหลายเอกสาร ใช้การประมวลผลแบบ async:
@@ -490,7 +474,6 @@ public CompletableFuture<VerificationResult> verifyAsync(String filePath) {
         }
     });
 }
-```
 ```
 
 ### 3. ใช้ Circuit Breaker สำหรับ Dependency ภายนอก
@@ -510,7 +493,6 @@ if (verificationCache.containsKey(cacheKey)) {
 // Verify and cache
 VerificationResult result = signature.verify(options);
 verificationCache.put(cacheKey, result, CACHE_TTL);
-```
 ```
 
 ### 5. ติดตามและแจ้งเตือนเมื่อการตรวจสอบล้มเหลว
@@ -548,7 +530,6 @@ public boolean processIncomingContract(String contractPath) {
         }
     }
 }
-```
 ```
 
 ### กรณีศึกษา 2: การตรวจสอบเอกสารทางการเงิน
@@ -592,7 +573,6 @@ Map<String, Boolean> results = filePaths.parallelStream()
             }
         }
     ));
-```
 ```
 
 ## คำถามที่พบบ่อย
