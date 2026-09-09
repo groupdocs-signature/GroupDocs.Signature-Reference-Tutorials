@@ -1,85 +1,160 @@
 ---
 categories:
 - Java PDF Processing
-date: '2026-01-08'
-description: Naučte se, jak programově v Javě vytvořit PDF s podpisem čárového kódu.
-  Tento krok‑za‑krokem průvodce pomocí GroupDocs.Signature ukazuje, jak efektivně
-  generovat PDF s čárovým kódem.
-keywords: add barcode to PDF Java, generate barcode in PDF programmatically, Java
-  PDF barcode library, sign PDF with barcode Java, create barcode signature PDF
-lastmod: '2026-01-08'
-linktitle: Add Barcode to PDF Java
+date: '2026-08-04'
+description: Zjistěte, jak přidat čárový kód do PDF souborů v Javě pomocí GroupDocs.Signature.
+  Tento krok‑za‑krokem tutoriál ukazuje, jak efektivně a spolehlivě generovat PDF
+  s čárovým kódem.
+keywords:
+- add barcode to pdf
+- how to add barcode
+- groupdocs signature java
+lastmod: '2026-08-04'
+linktitle: Přidat čárový kód do PDF Java
+og_description: Přidejte čárový kód do PDF pomocí GroupDocs.Signature pro Javu. Naučte
+  se krok‑za‑krokem, jak generovat PDF s čárovým kódem, řešit chyby a optimalizovat
+  výkon.
+og_image_alt: Guide showing Java code that adds a barcode to a PDF with GroupDocs.Signature
+og_title: Přidat čárový kód do PDF v Javě – Kompletní průvodce GroupDocs
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-04'
+  description: Learn how to add barcode to PDF files in Java using GroupDocs.Signature.
+    This step‑by‑step tutorial shows how to generate barcode PDFs efficiently and
+    reliably.
+  headline: How to Add Barcode to PDF in Java – GroupDocs Guide
+  type: TechArticle
+- description: Learn how to add barcode to PDF files in Java using GroupDocs.Signature.
+    This step‑by‑step tutorial shows how to generate barcode PDFs efficiently and
+    reliably.
+  name: How to Add Barcode to PDF in Java – GroupDocs Guide
+  steps:
+  - name: setting up document paths
+    text: 'First, tell Java where to find your PDF and where to save the signed version:
+      What’s happening: You’re defining the input file path and extracting just the
+      filename. This keeps your output organized (especially useful when batch‑processing
+      multiple files). **Real‑world tip**: In production, these pa'
+  - name: configuring output and barcode options
+    text: '`BarcodeSignOptions` defines the barcode signature parameters such as data,
+      type, size, and location. Breaking this down: - `outputFilePath` – Where your
+      finished PDF gets saved. Notice the subfolder structure? This helps keep different
+      signing methods organized. - `BarcodeSignOptions("12345678")` –'
+  - name: positioning the barcode with precision
+    text: '`BarcodeSignOptions` also lets you place the barcode with millimeter precision,
+      which is ideal for printed output. Why millimeters matter: When you’re printing
+      documents, millimeters give you consistent sizing across different paper sizes
+      and resolutions. (You can also use pixels or percentages if t'
+  - name: adding margins for polish
+    text: 'Margins prevent your barcode from crowding other content: What this does:
+      Creates a 5 mm buffer zone around your barcode. This breathing room improves
+      scannability and looks more professional. **When to increase margins**: If you’re
+      placing barcodes near the edge of a page, bump the margins to 10 mm'
+  - name: signing and saving the document
+    text: 'Now for the moment of truth—actually adding the barcode: What happens under
+      the hood: GroupDocs opens your PDF, renders the barcode based on your options,
+      embeds it at the specified position, and saves the modified file. The original
+      PDF stays untouched. **Return value**: The `SignResult` object con'
+  - name: handling errors gracefully
+    text: 'Things can go wrong (wrong file paths, corrupted PDFs, insufficient permissions).
+      Handle errors properly: Best practices for exception handling: - Log the full
+      stack trace for debugging (not just the message) - Provide user‑friendly error
+      messages (avoid technical jargon) - Clean up resources even w'
+  type: HowTo
+- questions:
+  - answer: Change the `setEncodeType()` parameter. For QR codes, use `BarcodeTypes.QR`.
+      For EAN‑13, use `BarcodeTypes.EAN13`. GroupDocs supports over 60 barcode types
+      out of the box.
+    question: How do I create barcode signature PDF in Java for different barcode
+      types?
+  - answer: Absolutely. Call `signature.sign()` multiple times with different `BarcodeSignOptions`,
+      or pass a list of signature options in a single call.
+    question: Can I add multiple barcodes to the same PDF?
+  - answer: GroupDocs is non‑destructive by default—it adds barcodes as a new layer
+      without modifying existing content. Your original text, images, and formatting
+      remain intact.
+    question: How do I add barcode to existing PDF without losing content?
+  - answer: It depends on the type. Code128 handles about 128 characters comfortably.
+      QR codes can store up to 4 000 characters. If you need more, consider encoding
+      a URL that points to your data instead.
+    question: What’s the maximum data I can encode in a barcode?
+  - answer: Yes. The free trial adds watermarks. For production deployments, you’ll
+      need either a temporary license (for extended testing) or a purchased license.
+      Check the [GroupDocs pricing page](https://purchase.groupdocs.com/buy) for current
+      options.
+    question: Do I need a license for production use?
+  type: FAQPage
 tags:
 - barcode-generation
 - pdf-signing
 - document-automation
 - groupdocs
-title: Vytvořte PDF s čárovým kódem jako podpis v Javě – Průvodce GroupDocs
+- add barcode to pdf
+title: Jak přidat čárový kód do PDF v Javě – Průvodce GroupDocs
 type: docs
 url: /cs/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/
 weight: 1
 ---
 
-# Jak přidat čárový kód do PDF dokumentů v Javě
+# Jak přidat čárový kód do PDF v Javě
 
-## Úvod
+Potřebovali jste někdy automaticky sledovat faktury, ověřovat pravost smluv nebo spravovat dokumenty zásob ve velkém? **Naučit se přidávat čárový kód** do PDF souborů programově řeší tyto problémy – a pokud pracujete v Javě, máte k dispozici osvědčenou, battle‑tested možnost.
 
-Už jste někdy potřebovali automaticky sledovat faktury, ověřovat pravost smluv nebo spravovat dokumenty zásob ve velkém měřítku? **Vytvoření PDF s čárovým kódem** v Javě programově řeší tyto problémy — a pokud pracujete v Javě, máte několik solidních možností.
+Přidávání čárových kódů ručně se nedá škálovat. Ať už zpracováváte deset faktur nebo deset tisíc, potřebujete spolehlivý způsob, jak **přidat čárový kód do PDF** souborů. Zde přichází vhodná Java PDF knihovna pro čárové kódy.
 
-Přidávat čárové kódy do PDF ručně se neškáluje. Ať už zpracováváte 10 faktur nebo 10 000, potřebujete spolehlivý způsob, jak **vytvořit PDF s čárovým kódem**. Zde přichází na řadu dobrá Java PDF knihovna pro čárové kódy.
-
-V tomto průvodci vás provedu tím, jak přidat čárový kód do PDF souborů v Javě pomocí GroupDocs.Signature — knihovny, která odlehčuje těžkou práci a zároveň vám dává jemnou kontrolu nad umístěním, velikostí a typy čárových kódů. Na konci budete vědět, jak podepsat PDF čárovým kódem v Javě, jak řešit okrajové případy a jak se vyhnout běžným úskalím, která vývojáře zaskočí.
+V tomto průvodci vás provedu tím, jak přidat čárový kód do PDF Java souborů pomocí GroupDocs.Signature – knihovny, která se postará o těžkou část a zároveň vám poskytne jemnou kontrolu nad umístěním, velikostí a typy čárových kódů. Na konci budete vědět, jak podepsat PDF čárovým kódem v Javě, jak řešit okrajové případy a jak se vyhnout běžným úskalím, která vývojáře zaskočí.
 
 **Co se naučíte:**
-- Proč jsou čárové kódy v PDF důležité pro váš workflow
-- Nastavení GroupDocs.Signature pro Javu (správně)
-- Vytváření a přesné umisťování čárových kódů
-- Řešení chyb a optimalizace výkonu
-- Reálné aplikace napříč různými odvětvími
+- Proč jsou čárové kódy v PDF důležité pro váš workflow  
+- Nastavení GroupDocs.Signature pro Java (správně)  
+- Vytváření a přesné umisťování čárových kódů  
+- Řešení chyb a optimalizace výkonu  
+- Reálné aplikace napříč různými odvětvími  
 
 ## Rychlé odpovědi
-- **Jakou knihovnu použít?** GroupDocs.Signature pro Javu
-- **Jak vytvořit PDF s čárovým kódem?** Použijte `BarcodeSignOptions` s `Signature.sign()`
-- **Který typ čárového kódu je nejlepší pro většinu případů?** Code128
-- **Mohu přidat více čárových kódů do jednoho PDF?** Ano, zavolejte `sign()` vícekrát nebo předávejte seznam
-- **Potřebuji licenci pro produkci?** Ano, platná licence GroupDocs odstraňuje vodoznaky
+- **Jakou knihovnu použít?** GroupDocs.Signature pro Java  
+- **Jak vytvořit čárový kód v PDF?** Použijte `BarcodeSignOptions` s `Signature.sign()`  
+- **Který typ čárového kódu je nejlepší pro většinu případů?** Code128  
+- **Mohu přidat více čárových kódů do jednoho PDF?** Ano, zavolejte `sign()` vícekrát nebo předáte seznam  
+- **Potřebuji licenci pro produkci?** Ano, platná licence GroupDocs odstraňuje vodoznaky  
 
 ## Proč přidávat čárové kódy do PDF?
 
-Než se pustíme do kódu, pojďme si říct, proč je to důležité. Čárové kódy v PDF nejsou jen o profesionálním vzhledu — řeší skutečné obchodní problémy:
+Čárové kódy vkládají strojově čitelná data přímo do PDF, což umožňuje okamžité ověření, automatické zachycení dat a bezproblémovou integraci s ERP nebo skladovými systémy. Přidáním čárového kódu proměníte statický dokument na akční aktivum, které lze naskenovat a získat ID, sledovat stav a splnit požadavky na shodu.
 
-**Ověřování dokumentů**: Čárové kódy mohou kódovat jedinečné identifikátory, které podvod téměř vylučují. Když někdo naskenuje čárový kód, váš systém může okamžitě ověřit, zda je dokument legitimní.
+Než se pustíme do kódu, pojďme si říct, proč je to důležité. Čárové kódy v PDF nejsou jen o profesionálním vzhledu – řeší skutečné obchodní problémy:
 
-**Automatizace workflow**: Místo ručního zadávání ID dokumentu nebo sledovacích čísel může personál (nebo zákazníci) naskenovat čárový kód. To snižuje lidskou chybu o cca 95 % oproti ručnímu zadávání dat.
+**Ověření dokumentu** – Čárové kódy mohou kódovat jedinečné identifikátory, které téměř vylučují padělání. Když někdo naskenuje čárový kód, váš systém může okamžitě ověřit, zda je dokument legitimní.
 
-**Integrace se stávajícími systémy**: Většina ERP, skladových a dokumentačních systémů už „mluví“ čárovým kódem. Přidáním kódu do PDF získáte bezproblémovou integraci bez nutnosti psát vlastní API.
+**Automatizace workflow** – Místo ručního zadávání ID dokumentů nebo sledovacích čísel mohou zaměstnanci (nebo zákazníci) naskenovat čárový kód. To snižuje lidskou chybu o cca 95 % oproti ručnímu zadávání.
 
-**Požadavky na soulad**: Mnohá odvětví (zdravotnictví, logistika, právo) vyžadují sledovatelnost dokumentů. Čárové kódy poskytují auditní stopu, která splňuje regulatorní požadavky.
+**Integrace se stávajícími systémy** – Většina ERP, skladových a systémů pro správu dokumentů již “mluví” čárovými kódy. Přidáním kódu do PDF získáte bezproblémovou integraci bez nutnosti psát vlastní API.
 
-Klíčová výhoda programového přidávání čárových kódů? **Konzistence a škálovatelnost**. Pravidla definujete jednou a každý dokument dostane stejnou úpravu — ať už zpracováváte 5 souborů nebo 50 000.
+**Požadavky na shodu** – Mnoho odvětví (zdravotnictví, logistika, právo) vyžaduje sledovatelnost dokumentů. Čárové kódy poskytují auditní stopu, která splňuje regulatorní požadavky.
 
-## Požadavky
+Klíčová výhoda programového přidávání čárových kódů? **Konzistence a škálovatelnost**. Definujete pravidla jednou a každý dokument dostane stejnou úpravu – ať už zpracováváte pět souborů nebo padesát tisíc.
 
-Než začnete kódovat, ujistěte se, že máte základní věci připravené:
+## Předpoklady
+
+Než začnete kódovat, ujistěte se, že máte základní věci pokryté:
 
 ### Požadovaný software a knihovny
-- **JDK 8 nebo vyšší** nainstalované na vašem počítači (doporučujeme JDK 11+ pro lepší výkon)
-- IDE jako IntelliJ IDEA, Eclipse nebo VS Code s rozšířeními pro Javu
-- **GroupDocs.Signature pro Javu verze 23.12** (ukážeme, jak ji přidat níže)
+- **JDK 8 nebo vyšší** nainstalované na vašem počítači (doporučeno JDK 11+ pro lepší výkon)  
+- IDE jako IntelliJ IDEA, Eclipse nebo VS Code s Java rozšířeními  
+- **GroupDocs.Signature pro Java verze 23.12** (ukážeme, jak ji přidat níže)
 
 ### Základní znalosti
-- Základy Javy (třídy, objekty, práce se soubory)
-- Pochopení struktury PDF dokumentu (užitečné, ale není podmínkou)
-- Zkušen se správou závislostí (Maven nebo Gradle)
+- Základy Javy (třídy, objekty, práce se soubory)  
+- Pochopení struktury PDF dokumentu (užitečné, ale ne nutné)  
+- Zkušenosti se správou závislostí (Maven nebo Gradle)
 
-**Tip**: Pokud jste v GroupDocs noví, nejprve si stáhněte bezplatnou zkušební verzi. Dostanete 30 dnů na experimentování bez nutnosti licence — ideální pro proof‑of‑concept.
+**Tip**: Pokud jste v GroupDocs noví, nejprve si stáhněte bezplatnou zkušební verzi. Dává vám 30 dnů na experimentování bez nutnosti licence – ideální pro proof‑of‑concept.
 
-## Nastavení GroupDocs.Signature pro Javu
+## Nastavení GroupDocs.Signature pro Java
 
-Získání GroupDocs.Signature do projektu je jednoduché. Vyberte správný systém správy závislostí:
+Získání GroupDocs.Signature do vašeho projektu je jednoduché. Vyberte systém správy závislostí, který odpovídá vašemu nastavení:
 
 ### Maven nastavení
-Přidejte do souboru `pom.xml` následující:
+Přidejte následující do souboru `pom.xml`:
 
 ```xml
 <dependency>
@@ -97,21 +172,25 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
 ### Přímé stažení
-Nechcete používat nástroje pro sestavení? Stáhněte JAR přímo ze [stránky vydání GroupDocs.Signature pro Javu](https://releases.groupdocs.com/signature/java/) a ručně jej přidejte do classpath projektu.
+Nechcete používat build nástroje? Stáhněte JAR přímo ze [stránky vydání GroupDocs.Signature pro Java](https://releases.groupdocs.com/signature/java/) a přidejte jej ručně do classpath vašeho projektu.
 
 ### Konfigurace licence
 
-Praktická cesta, kterou většina vývojářů volí:
+Zde je praktická cesta, kterou většina vývojářů volí:
 
-1. **Začněte s bezplatnou zkušební verzí** — žádná platební karta, žádný závazek. Ideální pro testování.
-2. **Získejte dočasnou licenci** — pokud 30 dnů nestačí, požádejte o prodlouženou vývojovou licenci.
-3. **Zakupte licenci pro produkci** — jakmile budete připraveni nasadit, pořiďte licenci odpovídající vašemu objemu.
+1. **Začněte s bezplatnou zkušební verzí** – Žádná karta, žádný závazek. Ideální pro testování.  
+2. **Získejte dočasnou licenci** – Pokud 30 dnů nestačí, požádejte o dočasnou licenci pro prodloužený vývoj.  
+3. **Zakupte pro produkci** – Jakmile budete připraveni nasadit, zakupte licenci odpovídající vašemu objemu.
 
-**Důležité**: Bezplatná zkušební verze přidává vodoznaky do výstupních dokumentů. Pro práci směrem ke klientům potřebujete alespoň dočasnou licenci.
+**Důležité**: Bezplatná zkušební verze přidává vodoznaky do výstupních dokumentů. Pro práci směrem ke klientům budete potřebovat alespoň dočasnou licenci.
 
-### Počáteční kód nastavení
+### Úvodní kód
 
-Po přidání závislostí inicializujte objekt `Signature` takto:
+`Signature` je hlavní třída v GroupDocs.Signature, která poskytuje metody pro načtení, podepsání a uložení PDF dokumentů.
+
+Co se zde děje: Třída `Signature` je váš hlavní vstupní bod. Předáte jí cestu k souboru a načte PDF do paměti pro další zpracování. Jednoduché, že?
+
+**Častá chyba, které se vyhnout**: Nezapomeňte uzavřít objekt `Signature`, když skončíte (nebo použijte try‑with‑resources). Otevřený objekt může způsobit úniky paměti v dlouho běžících aplikacích.
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -120,52 +199,52 @@ import com.groupdocs.signature.Signature;
 Signature signature = new Signature("YOUR_DOCUMENT_DIRECTORY/sample.pdf");
 ```
 
-**Co se zde děje**: Třída `Signature` je vstupní bod. Předáte jí cestu k souboru a načte PDF do paměti pro další zpracování. Jednoduché, že?
-
-**Častá chyba**: Nezapomeňte po dokončení uzavřít objekt `Signature` (nebo použijte try‑with‑resources). Otevřený objekt může způsobit úniky paměti v dlouho běžících aplikacích.
-
 ## Výběr správného typu čárového kódu
 
-Ne všechny čárové kódy jsou stejné. Výběr závisí na tom, co potřebujete kódovat a kde bude čárový kód skenován.
+Ne všechny čárové kódy jsou stejné. Výběr závisí na tom, co potřebujete kódovat a kde bude kód skenován.
 
-### Populární podporované typy
+### Populární typy čárových kódů, které jsou podporovány
 
-**Code128** (používáme v příkladu): Skvělý pro alfanumerická data. Často se používá na přepravních štítcích a obalech. Podporuje písmena, číslice i některé speciální znaky.
+- **Code128** – Skvělý pro alfanumerická data; běžný na přepravních štítcích.  
+- **QR kódy** – Ideální, když potřebujete uložit více dat (URL, JSON, až 4 000 znaků).  
+- **Code39** – Jednodušší než Code128, ale méně úsporný; vhodný pro interní sledování.  
+- **EAN/UPC** – Průmyslový standard pro maloobchodní produkty.  
 
-**QR kódy**: Ideální, když potřebujete uložit více dat (např. URL nebo JSON). Unese až 4 000 znaků a dobře funguje i při částečném poškození.
-
-**Code39**: Jednodušší než Code128, ale méně úsporný. Vhodný pro interní sledování, kde je důležitá jednoduchost více než hustota dat.
-
-**EAN/UPC**: Standard v maloobchodě. Pokud generujete faktury, které mají odpovídat maloobchodním systémům, je to vaše volba.
-
-**Kdy který použít?**
+**Kdy který použít?**  
 - Potřebujete kódovat více než 50 znaků? → QR kód  
 - Standardní identifikace produktu? → EAN/UPC  
 - Obecné sledování dokumentů? → Code128  
 - Maximální kompatibilita se staršími skenery? → Code39  
 
-**Tip**: Code128 je nejbezpečnější výchozí volba pro správu dokumentů. Kombinuje čitelnost, kapacitu a kompatibilitu se skenery.
+**Tip**: Code128 je nejbezpečnější výchozí volba pro správu dokumentů. Kombinuje čitelnost, kapacitu dat a kompatibilitu se skenery.
 
-## Praktický návod: Vytváření čárových kódů
+## Praktický návod: vytváření čárových kódů
 
-Nyní k podstatě — vytvoříme a přidáme čárový kód do PDF. Rozdělím to na přehledné kroky, abyste mohli snadno sledovat (nebo přeskočit jen to, co potřebujete).
+Teď k podstatě – vytvoříme a přidáme čárové kódy do vašich PDF. Rozdělím to na přehledné kroky, abyste mohli snadno sledovat (nebo přeskočit jen to, co potřebujete).
 
-### Krok 1: Nastavení cest k dokumentům
+### Krok 1: nastavení cest k dokumentům
 
-Nejprve řekněte Javě, kde najde vstupní PDF a kam uložit podepsanou verzi:
+Nejprve řekněte Javě, kde najde vstupní PDF a kam má uložit podepsanou verzi:
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 String fileName = new File(filePath).getName();
 ```
 
-**Co se děje**: Definujete cestu ke vstupnímu souboru a získáte jen název souboru. To pomáhá udržet výstupy přehledně (obzvláště při dávkovém zpracování).
+Co se děje: Definujete vstupní cestu a získáte jen název souboru. To pomáhá udržet výstup organizovaný (obzvláště užitečné při dávkovém zpracování více souborů).
 
-**Tip z praxe**: V produkci tyto cesty obvykle pocházejí z konfiguračních souborů nebo proměnných prostředí — ne ze statických řetězců. Zvažte `System.getenv()` nebo soubor `.properties`.
+**Tip z praxe**: V produkci tyto cesty obvykle pocházejí z konfiguračních souborů nebo proměnných prostředí – ne z hard‑coded řetězců. Zvažte `System.getenv()` nebo soubor `.properties` pro větší flexibilitu.
 
-### Krok 2: Konfigurace výstupu a možností čárového kódu
+### Krok 2: konfigurace výstupu a možností čárového kódu
 
-Definujte, kam se uloží výsledek a jaký čárový kód chcete vytvořit:
+`BarcodeSignOptions` definuje parametry čárového kódu, jako jsou data, typ, velikost a umístění.
+
+Rozklad:  
+- `outputFilePath` – Kam se uloží finální PDF. Všimněte si podadresářové struktury – pomáhá udržet různé metody podepisování organizované.  
+- `BarcodeSignOptions("12345678")` – Data zakódovaná v čárovém kódu. Může to být číslo faktury, sledovací ID, hash dokumentu – cokoliv potřebujete.  
+- `setEncodeType(BarcodeTypes.Code128)` – Říká GroupDocs, jaký formát čárového kódu použít.
+
+**Častá otázka**: „Mohu v datech čárového kódu použít speciální znaky?“ S Code128 ano – můžete zahrnout písmena, číslice i většinu interpunkce. QR kódy jsou ještě flexibilnější.
 
 ```java
 // Define output file path
@@ -175,40 +254,33 @@ BarcodeSignOptions options = new BarcodeSignOptions("12345678");
 options.setEncodeType(BarcodeTypes.Code128);
 ```
 
-**Rozbor:**
-- `outputFilePath`: Kam se uloží finální PDF. Všimněte si podadresáře — pomáhá organizovat různé metody podepisování.
-- `BarcodeSignOptions("12345678")`: Data zakódovaná v čárovém kódu. Může to být číslo faktury, sledovací ID, hash dokumentu — co potřebujete.
-- `setEncodeType(BarcodeTypes.Code128)`: Určuje formát čárového kódu.
+### Krok 3: přesné umístění čárového kódu
 
-**Často kladená otázka**: „Mohu v datech čárového kódu použít speciální znaky?“ — s Code128 ano, podporuje písmena, číslice i většinu interpunkce. QR kódy jsou ještě flexibilnější.
+`BarcodeSignOptions` vám také umožní umístit čárový kód s milimetrovou přesností, což je ideální pro tištěný výstup.
 
-### Krok 3: Přesné umístění čárového kódu
+Proč jsou milimetry důležité: Při tisku dokumentů poskytují milimetry konzistentní rozměry napříč různými formáty papíru a rozlišeními. (Můžete také použít pixely nebo procenta, pokud to lépe vyhovuje vašemu případu.)
 
-Zde se stává zajímavé. Můžete umisťovat čárové kódy s přesností na milimetry:
+Strategie umístění:  
+- **Horní‑pravý roh** (jako přepravní štítky): `setLeft(150)`, `setTop(10)`  
+- **Spodní‑střed** (jako vstupenky): vypočítejte střed podle šířky stránky  
+- **Vedle existujícího obsahu**: změřte rozvržení PDF a umístěte podle toho  
+
+**Tip**: Otestujte umístění na několika vzorových PDF před dávkovým zpracováním. Různá rozvržení mohou vyžadovat drobné úpravy.
 
 ```java
 // Set position and size in millimeters
 options.setLocationMeasureType(MeasureType.Millimeters);
-options.setLeft(40);  // X-coordinate from left edge
-options.setTop(50);   // Y-coordinate from top edge
+options.setLeft(40);  // X‑coordinate from left edge
+options.setTop(50);   // Y‑coordinate from top edge
 
 options.setSizeMeasureType(MeasureType.Millimeters);
 options.setWidth(20);  // Width of the barcode
 options.setHeight(10); // Height of the barcode
 ```
 
-**Proč milimetry**: Při tisku poskytují konzistentní velikost napříč různými formáty papíru a rozlišeními. (Můžete také použít pixely nebo procenta, pokud to lépe vyhovuje.)
+### Krok 4: přidání okrajů pro dokonalost
 
-**Strategie umístění**:
-- **Vpravo nahoře** (jako na přepravních štítcích): `setLeft(150)`, `Top(10)`
-- **Uprostřed dole** (jako na vstupenkách): Vypočítejte střed podle šířky stránky
-- **Vedle existujícího obsahu**: Změřte rozvržení PDF a umístěte podle toho
-
-**Tip**: Otestujte umístění na několika vzorových PDF před dávkovým zpracováním. Různá rozvržení mohou vyžadovat drobné úpravy.
-
-### Krok 4: Přidání okrajů pro lepší vzhled
-
-Okraje zabrání tomu, aby čárový kód kolidoval s ostatním obsahem:
+Okraje zabrání tomu, aby čárový kód rušil ostatní obsah:
 
 ```java
 // Define margin settings
@@ -220,26 +292,26 @@ padding.setBottom(5); // Bottom margin in mm
 options.setMargin(padding);
 ```
 
-**Co to dělá**: Vytvoří 5 mm buffer kolem čárového kódu. Tento „dech“ zlepšuje čitelnost a působí profesionálně.
+Co to dělá: Vytvoří 5 mm buffer kolem čárového kódu. Tento „dech“ zlepšuje čitelnost a působí profesionálně.
 
-**Kdy zvýšit okraje**: umisťujete kód blízko okraje stránky, zvyšte okraje na 10 mm. Tiskárny často mají problémy s obsahem příliš blízko okrajů.
+**Kdy zvýšit okraje**: Pokud umisťujete čárový kód blízko okraje stránky, zvyšte okraje na 10 mm. Tiskárny často mají problémy s obsahem příliš blízko okrajů.
 
-### Krok 5: Podepsání a uložení dokumentu
+### Krok 5: podepsání a uložení dokumentu
 
-Nyní skutečný okamžik — přidání čárového kódu:
+Nyní k okamžiku pravdy – skutečné přidání čárového kódu:
 
 ```java
 // Sign and save the document
 SignResult signResult = signature.sign(outputFilePath, options);
 ```
 
-**Co se děje pod kapotou**: GroupDocs otevře PDF, vykreslí čárový kód podle vašich nastavení, vloží jej na určenou pozici a uloží upravený soubor. Originální PDF zůstane nedotčený.
+Co se děje pod kapotou: GroupDocs otevře PDF, vykreslí čárový kód podle vašich možností, vloží jej na zadanou pozici a uloží upravený soubor. Originální PDF zůstane nedotčený.
 
-**Návratová hodnota**: Objekt `SignResult` obsahuje stav úspěchu/neúspěchu a metadata o tom, co bylo podepsno. Můžete jej prověřit, abyste se ujistili, že vše proběhlo v pořádku.
+**Návratová hodnota**: Objekt `SignResult` obsahuje stav úspěchu/neúspěchu a metadata o tom, co bylo podepsáno. Můžete jej zkontrolovat, abyste ověřili, že vše proběhlo v pořádku.
 
-### Krok 6: Elegantní zpracování chyb
+### Krok 6: elegantní zpracování chyb
 
-Může se stát, že něco selže (špatná cesta, poškozené PDF, nedostatečná oprávnění). Ošetřete chyby správně:
+Může se stát spousta věcí (špatné cesty, poškozené PDF, nedostatečná oprávnění). Zpracovávejte chyby správně:
 
 ```java
 try {
@@ -255,63 +327,65 @@ try {
 }
 ```
 
-**Nejlepší praktiky pro výjimky**:
-- Logujte celý stack trace pro ladění (ne jen zprávu)
-- Poskytněte uživateli srozumitelnou chybu (vyhněte se technickému žargonu)
-- Uvolněte zdroje i při chybě (použijte try‑with‑resources)
+Nejlepší postupy pro zachytávání výjimek:  
+- Logujte celý stack trace pro ladění (ne jen zprávu)  
+- Poskytněte uživatelsky přívětivé chybové zprávy (vyhněte se technickému žargonu)  
+- Uvolněte zdroje i při chybách (použijte try‑with‑resources)  
 - Zvažte retry logiku pro přechodné selhání (síťové problémy, zamčené soubory)
 
-**Časté chyby**:
-- `FileNotFoundException`: Šná cesta k vstupnímu PDF
-- `GroupDocsSignatureException`: Neplatná data čárového kódu nebo nepodporovaná verze PDF
-- `OutOfMemoryError`: Zpracováváte příliš mnoho velkých PDF najednou
+**Časté chyby, na které narazíte**:  
+- `FileNotFoundException` – Špatná cesta k vstupnímu PDF  
+- `GroupDocsSignatureException` – Neplatná data čárového kódu nebo nepodporovaná verze PDF  
+- `OutOfMemoryError` – Zpracováváte příliš mnoho velkých PDF najednou  
 
-## Jak vytvořit PDF s čárovým kódem v Javě
+## Jak vytvořit čárový kód v PDF v Javě
 
-Pokud preferujete stručný kontrolní seznam, zde je:
+Načtěte PDF pomocí `new Signature("source.pdf")`, nakonfigurujte objekt `BarcodeSignOptions` s požadovanými daty a typem čárového kódu, nastavte jeho pozici a velikost a poté zavolejte `sign(outputPath, options)`. Metoda vrátí `SignResult`, který vám řekne, zda operace uspěla, a poskytne podrobnosti o vytvořené signatuře.
+
+Pokud dáváte přednost stručnému kontrolnímu seznamu, zde je:
 
 1. **Přidejte závislost GroupDocs.Signature** (Maven, Gradle nebo ruční JAR).  
 2. **Inicializujte `Signature`** s cestou ke zdrojovému PDF.  
-3. **Nastavte `BarcodeSignOptions`** — zadejte data, typ, velikost a umístění.  
+3. **Nakonfigurujte `BarcodeSignOptions`** – nastavte data, typ, velikost a umístění.  
 4. **Volitelně nastavte okraje** pro lepší čitelnost.  
 5. **Zavolejte `signature.sign(outputPath, options)`** pro vložení čárového kódu.  
-6. **Ošetřete výjimky** a uzavřete zdroje.
+6. **Zpracujte výjimky** a uvolněte zdroje.
 
-Dodržením těchto šesti kroků budete schopni **spolehlivě vytvářet PDF s čárovým kódem** v jakékoli Java aplikaci.
+Dodržením těchto šesti kroků budete schopni **přidat čárový kód do PDF Java dokumentů** spolehlivě v jakékoli Java aplikaci.
 
 ## Časté problémy a řešení
 
-Pojďme si projít problémy, se kterými vývojáři skutečně bojují (protože dokumentace často chybí):
+Podíváme se na problémy, se kterými vývojáři skutečně bojují (protože dokumentace často chybí):
 
-### Problém 1: Čárový kód se neskenuje správně
+### Problém 1: čárový kód se neskenuje správně
 
-**Příznaky**: Scanner nedokáže přečíst kód nebo vrací špatná data.
+**Příznaky**: Scanner nedokáže přečíst čárový kód nebo vrátí špatná data.  
 
-**Řešení**:
-- Zvětšete velikost kódu (minimálně 15 mm šířka pro většinu scannerů)
-- Ověřte, že data neobsahují nepodporované znaky pro daný typ
-- Zajistěte dostatečný kontrast mezi kódem a pozadím
-- Testujte s různými aplikacemi scanneru — některé jsou lepší než jiné
+**Řešení**:  
+- Zvětšete velikost čárového kódu (minimální šířka 15 mm pro většinu scannerů)  
+- Ověřte, že data neobsahují nepodporované znaky pro daný typ  
+- Zajistěte dostatečný kontrast mezi čárovým kódem a pozadím  
+- Testujte s různými aplikacemi pro skenování – některé jsou lepší než jiné  
 
-### Problém 2: Pozice kódu se mezi dokumenty mění
+### Problém 2: pozice čárového kódu se mezi dokumenty mění
 
-**Příznaky**: Stejný kód umístěný pomocí stejného kódu vypadá jinak v různých PDF.
+**Příznaky**: Stejný kód pro umístění dává různé výsledky v PDF s různými velikostmi stránek.  
 
-**Řešení**:
-- PDF s různými velikostmi stránek vyžadují výpočty pozic, ne pevné hodnoty
-- Zkontrolujte, zda vstupní PDF nemají aplikovanou rotaci (to posune souřadnice)
-- Použijte procentuální umístění pro lepší konzistenci
-- Normalizujte vstupní PDF na standardní velikost stránek, pokud je to možné
+**Řešení**:  
+- PDF s různými velikostmi stránek vyžadují výpočty pozice, ne pevně zadané hodnoty  
+- Zkontrolujte, zda vstupní PDF nemají aplikovanou rotaci (to posune souřadnice)  
+- Použijte procentuální umístění pro lepší konzistenci  
+- Normalizujte všechny vstupní PDF na standardní velikost, pokud je to možné  
 
-### Problém 3: Pokles výkonu při velkých dávkách
+### Problém 3: degradace výkonu při velkých dávkách
 
-**Příznaky**: Prvních 100 PDF se zpracuje rychle, poté se to zpomaluje.
+**Příznaky**: Prvních 100 PDF se zpracuje rychle, pak se to zpomaluje.  
 
-**Řešení**:
-- Okamžitě uzavírejte objekty `Signature` (nebo použijte try‑with‑resources)
-- Zpracovávejte menší dávky a mezi nimi uvolňujte paměť
-- Zvažte paralelní zpracování pro CPU‑intenzivní úlohy
-- Sledujte využití heapu — možná bude potřeba ladit JVM parametry
+**Řešení**:  
+- Okamžitě uzavírejte objekty `Signature` (nebo používejte try‑with‑resources)  
+- Zpracovávejte menší dávky s úklidem paměti mezi nimi  
+- Zvažte paralelní zpracování pro CPU‑intenzivní úlohy  
+- Sledujte využití haldy – možná bude potřeba ladit JVM  
 
 ```java
 // Good: Process in chunks
@@ -325,49 +399,49 @@ for (int i = 0; i < allFiles.size(); i += batchSize) {
 }
 ```
 
-### Problém 4: Výstupní soubor je příliš velký
+### Problém 4: velikost výstupního souboru narůstá
 
-**Příznaky**: Podepsaná PDF jsou podstatně větší než originály.
+**Příznaky**: Podepsaná PDF jsou podstatně větší než originály.  
 
-**Řešení**:
-- GroupDocs automaticky nekomprimuje — pokud je potřeba, řešte kompresi zvlášť
-- Vyhněte se vkládání vysoce rozlišených bitmapových čárových kódů, pokud stačí vektorové
-- Zkontrolujte, zda neembedujete fonty nebo nadbytečná metadata
+**Řešení**:  
+- GroupDocs automaticky nekomprimuje – pokud je potřeba, řešte kompresi zvlášť  
+- Vyhněte se vkládání vysokého rozlišení bitmapových čárových kódů, pokud stačí vektorové  
+- Zkontrolujte, zda neembedujete fonty nebo nadbytečná metadata  
 
-**Kdy kontaktovat podporu**: Pokud jste vyzkoušeli výše uvedená řešení a problém přetrvává, navštivte [fórum GroupDocs](https://forum.groupdocs.com/c/signature/), kde je podpora aktivní.
+**Kdy kontaktovat podporu**: Pokud jste vyzkoušeli výše uvedená řešení a problémy přetrvávají, navštivte [GroupDocs fórum](https://forum.groupdocs.com/c/signature/), kde jsou k dispozici rychlé odpovědi.
 
 ## Reálné případy použití
 
 Jak různé odvětví skutečně využívají tuto funkci:
 
-### Právní oblast: Správa smluv
-Advokátní kanceláře používají čárové kódy na smlouvách k propojení fyzických dokumentů s případovým systémem. Když smlouva dorazí poštou, personál ji naskenuje a systém okamžitě načte kompletní historii případu. To zkracuje dobu zpracování dokumentu z minut na sekundy.
+### Právní sektor: správa smluv
+Právnické firmy přidávají čárové kódy ke smlouvám, aby je spojily s case‑management systémy. Naskenováním kódu se okamžitě načte kompletní historie případu, čímž se zkrátí doba zpracování z minut na sekundy.
 
 **Tip**: Zakódujte hash dokumentu, abyste mohli ověřit, že fyzický dokument nebyl pozměněn.
 
-### Zdravotnictví: Záznamy pacientů
-Nemocnice připevňují čárové kódy k výpisům a receptům ve formátu PDF. Při příchodu pacienta personál naskenuje kód a okamžitě doplní soubor o předchozí návštěvy.
+### Zdravotnictví: záznamy pacientů
+Nemocnice připevňují čárové kódy k výpisům a receptům. Při příchodu pacienta personál naskenuje kód a okamžitě doplní soubor o předchozí návštěvy.
 
-**Poznámka o souladu**: Ujistěte se, že implementace čárových kódů splňuje požadavky HIPAA na šifrování a ochranu dat.
+**Poznámka o shodě**: Ujistěte se, že implementace čárových kódů splňuje požadavky HIPAA na šifrování a ochranu dat.
 
-### Logistika: Přepravní štítky
-E‑commerce platformy automaticky přidávají sledovací čárové kódy na balicí listy. Skladový personál skenuje kód a okamžitě aktualizuje stav zásilky bez ručního zadávání.
+### Logistika: přepravní štítky
+E‑commerce platformy automaticky přidávají sledovací čárové kódy na balící listy. Skladníci skenují kód a aktualizují stav zásilky bez ručního zadávání.
 
-**Úvaha o výkonu**: Tyto systémy často zpracovávají tisíce dokumentů za hodinu — důležitá je dávková a paralelní zpracování.
+**Výkonová úvaha**: Tyto systémy často zpracovávají tisíce dokumentů za hodinu – dávkové zpracování a paralelní provádění jsou klíčové.
 
-### Finance: Zpracování faktur
-Účetní oddělení přidává čárové kódy na faktury, které kódují platební podmínky a ID dodavatele. Při přijetí faktury skenování automaticky směruje dokument do správného schvalovacího workflow.
+### Finance: zpracování faktur
+Účetní oddělení přidává čárové kódy na faktury, které kódují platební podmínky a ID dodavatele. Skenování automaticky směruje fakturu do správného schvalovacího workflow.
 
-**Tip**: Kombinujte čárové kódy s OCR pro maximální automatizaci — čárový kód poskytuje metadata, OCR zachytí položky faktury.
+**Tip**: Kombinujte čárové kódy s OCR pro maximální automatizaci – čárový kód poskytne metadata, OCR zachytí položky faktury.
 
 ## Nejlepší praktiky pro výkon
 
-Při zpracování dokumentů ve velkém měřítku mají následující optimalizace reálný dopad:
+Při zpracování dokumentů ve velkém měřítku tyto optimalizace opravdu pomáhají:
 
 ### Správa paměti
-- **Používejte try‑with‑resources**: Zajišťuje, že objekty `Signature` jsou řádně uzavřeny.  
-- **Zpracovávejte po dávkách**: Nenačítejte 10 000 PDF najednou do paměti.  
-- **Sledujte využití heapu**: Nastavte vhodné JVM parametry (`-Xmx`, `-Xms`).
+- **Používejte try‑with‑resources**: Zajišťuje správné uzavření objektů `Signature`.  
+- **Zpracovávejte v dávkách**: Nenačítejte 10 000 PDF najednou do paměti.  
+- **Sledujte využití haldy**: Nastavte vhodné JVM flagy (`-Xmx`, `-Xms`).
 
 ### Strategie dávkového zpracování
 ```java
@@ -383,8 +457,8 @@ files.parallelStream().forEach(file -> {
 
 **Upozornění**: Paralelní zpracování spotřebuje více paměti. Sledujte a laděte podle potřeby.
 
-### Cache konfigurace podpisu
-Pokud často zpracováváte podobné dokumenty, můžete opakovaně použít konfiguraci:
+### Cacheování objektů signatur
+Pokud často zpracováváte podobné dokumenty, můžete znovu použít konfiguraci:
 
 ```java
 // Create options once
@@ -400,59 +474,65 @@ for (String file : files) {
 
 ## Často kladené otázky
 
-**Q: Jak vytvořit PDF s čárovým kódem v Javě pro různé typy čárových kódů?**  
+**Q: Jak vytvořit čárový kód v PDF v Javě pro různé typy čárových kódů?**  
 A: Změňte parametr `setEncodeType()`. Pro QR kódy použijte `BarcodeTypes.QR`. Pro EAN‑13 použijte `BarcodeTypes.EAN13`. GroupDocs podporuje více než 60 typů čárových kódů.
 
-**Q: Můžu přidat více čárových kódů do jednoho PDF?**  
-A: Ano. Zavolejte `signature.sign()` vícekrát s různými `BarcodeSignOptions` nebo předávejte seznam možností v jednom volání.
+**Q: Mohu přidat více čárových kódů do stejného PDF?**  
+A: Ano. Zavolejte `signature.sign()` vícekrát s různými `BarcodeSignOptions` nebo předáte seznam možností v jednom volání.
 
 **Q: Jak přidat čárový kód do existujícího PDF bez ztráty obsahu?**  
-A: GroupDocs je ve výchozím nastavení nedestruktivní — přidá čárový kód jako novou vrstvu, aniž by měnil existující text, obrázky nebo formátování.
+A: GroupDocs je ve výchozím nastavení nedestruktivní – přidá čárový kód jako novou vrstvu, aniž by měnil existující text, obrázky nebo formátování.
 
 **Q: Jaká je maximální velikost dat, kterou mohu zakódovat do čárového kódu?**  
-A: Záleží na typu. Code128 pohodlně zvládne cca 128 znaků. QR kódy mohou uložit až 4 000 znaků. Pokud potřebujete více, zvažte zakódování URL, která odkazuje na externí data.
+A: Záleží na typu. Code128 pohodlně pojme cca 128 znaků. QR kódy až 4 000 znaků. Pokud potřebujete více, zvažte zakódování URL, která odkazuje na vaše data.
 
 **Q: Potřebuji licenci pro produkční nasazení?**  
-A: Ano. Bezplatná verze přidává vodoznaky. Pro produkci potřebujete buď dočasnou licenci (pro rozšířené testování) nebo zakoupenou licenci. Aktuální možnosti najdete na [stránce cen GroupDocs](https://purchase.groupdocs.com/buy).
+A: Ano. Bezplatná verze přidává vodoznaky. Pro produkci potřebujete buď dočasnou licenci (pro prodloužené testování) nebo zakoupenou licenci. Aktuální možnosti najdete na [stránce cen GroupDocs](https://purchase.groupdocs.com/buy).
 
-**Q: Jak zacházet s výjimkami při dávkovém zpracování?**  
-A: Každou operaci souboru obalte vlastním `try‑catch` blokem, aby selhání jednoho PDF neukončilo celou dávku. Logujte chyby s názvem souboru, abyste mohli později neúspěšné soubory znovu zpracovat.
+**Q: Jak zacházet s výjimkami během dávkového zpracování?**  
+A: Obalte operaci s každým souborem do vlastního try‑catch bloku, aby selhání jednoho PDF neukončilo celou dávku. Logujte chyby s názvy souborů, abyste mohli později neúspěšné soubory znovu zpracovat.
 
-**Q: Umí GroupDocs generovat 2D čárové kódy jako Data Matrix?**  
-A: Ano! Použijte `BarcodeTypes.DataMatrix`. Data Matrix je populární ve výrobě, protože je čitelný i při částečném poškození nebo pod neobvyklým úhlem.
+**Q: Dokáže GroupDocs generovat 2D čárové kódy jako Data Matrix?**  
+A: Ano! Použijte `BarcodeTypes.DataMatrix`. Data Matrix jsou populární ve výrobě, protože jsou čitelné i při částečném poškození nebo pod neobvyklým úhlem.
 
 **Q: Jaké verze PDF GroupDocs podporuje?**  
-A: GroupDocs.Signature pracuje s PDF od verze 1.3 až po 2.0 (pokryje 99 % PDF, se kterými se setkáte). Pokud máte starší PDF, zvažte jejich konverzi.
+A: GroupDocs.Signature pracuje s PDF od verze 1.3 až po 2.0 (pokryje 99 % PDF, se kterými se setkáte). Starší PDF můžete předem převést.
 
 ## Závěr
 
-Nyní víte, jak **přidat čárový kód do PDF dokumentů v Javě** programově pomocí GroupDocs.Signature. Probrali jsme vše od základního nastavení po produkčně připravené zpracování chyb a optimalizaci výkonu.
+Nyní víte, jak **přidat čárový kód do PDF Java dokumentů** programově pomocí GroupDocs.Signature. Probrali jsme vše od základního nastavení po produkčně připravené zpracování chyb a optimalizaci výkonu.
 
-**Klíčové body**
-- Čárové kódy řeší reálné problémy workflow (automatizace, ověřování, sledovatelnost)  
-- GroupDocs poskytuje přesnou kontrolu nad umístěním a typy čárových kódů  
-- Správné ošetření chyb a správa zdrojů předchází problémy v produkci  
-- Výkonová optimalizace je zásadní při zpracování velkého objemu dokumentů  
+**Klíčové body**  
+- Čárové kódy vkládají akční data, umožňují ověření, automatizaci a shodu.  
+- GroupDocs poskytuje přesnou kontrolu nad umístěním a typy čárových kódů.  
+- Správné zacházení s chybami a správou zdrojů zabraňuje problémům v produkci.  
+- Ladění výkonu je zásadní při zpracování velkého objemu dokumentů.  
 
-**Další kroky**: Začněte s malým proof‑of‑concept pomocí bezplatné zkušební verze. Otestujte různé typy čárových kódů na vašich skutečných dokumentech. Po ověření přejděte na dávkové zpracování a následně na produkční nasazení.
+**Další kroky**: Začněte s malým proof‑of‑concept pomocí bezplatné zkušební verze. Otestujte různé typy čárových kódů na vašich reálných dokumentech. Po ověření přejděte na dávkové zpracování a následně na produkční nasazení.
 
-Máte otázky nebo potíže? Napište je do [fóra podpory GroupDocs](https://forum.groupdocs.com/c/signature/) — komunita je nápomocná a reakční doba je solidní.
+Máte otázky nebo narazíte na problémy? Napište je do [fóra podpory GroupDocs](https://forum.groupdocs.com/c/signature/) – komunita je nápomocná a reakční doba je solidní.
 
 ## Zdroje
 
-### Dokumentace a stažení
-- [GroupDocs.Signature pro Java – Dokumentace](https://docs.groupdocs.com/signature/java/)
-- [Kompletní API reference](https://reference.groupdocs.com/signature/java/)
+### Dokumentace a ke stažení
+- [GroupDocs.Signature pro Java Documentation](https://docs.groupdocs.com/signature/java/)  
+- [Kompletní API reference](https://reference.groupdocs.com/signature/java/)  
 - [Stáhnout nejnovější verzi](https://releases.groupdocs.com/signature/java/)
 
 ### Licence a podpora
-- [Zakoupit licenci](https://purchase.groupdocs.com/buy)
-- [Spustit bezplatnou zkušební verzi](https://releases.groupdocs.com/signature/java/)
-- [Požádat o dočasnou licenci](https://purchase.groupdocs.com/temporary-license/)
+- [Zakoupit licenci](https://purchase.groupdocs.com/buy)  
+- [Spustit bezplatnou zkušební verzi](https://releases.groupdocs.com/signature/java/)  
+- [Požádat o dočasnou licenci](https://purchase.groupdocs.com/temporary-license/)  
 - [Komunitní fórum podpory](https://forum.groupdocs.com/c/signature/)
 
 ---
 
-**Poslední aktualizace:** 2026-01-08  
+**Poslední aktualizace:** 2026-08-04  
 **Testováno s:** GroupDocs.Signature 23.12 pro Java  
 **Autor:** GroupDocs
+
+## Související tutoriály
+
+- [Jak ověřit čárové kódy v Java pomocí GroupDocs.Signature](/signature/java/barcode-signatures/verify-barcode-signatures-groupdocs-signature-java/)  
+- [Vytvořit čárový kód v Java – aktualizovat PDF čárové kódy](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)  
+- [Přidat QR kód do PDF Java – kompletní průvodce s GroupDocs.Signature](/signature/java/qr-code-signatures/qr-code-signatures-java-groupdocs/)
