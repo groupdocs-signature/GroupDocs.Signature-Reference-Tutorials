@@ -116,13 +116,11 @@ GroupDocs.Signature は Maven または Gradle とスムーズに統合できま
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle 設定**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 手動で JAR を扱う場合は、最新リリースを [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) からダウンロードし、クラスパスに追加してください。
@@ -159,7 +157,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **説明:**  
 - `filePath` は署名したい元 PDF のパスを指します。  
@@ -190,7 +187,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **主要設定の内訳:**
@@ -257,7 +253,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### 手順 3: ドキュメントに署名する
 
@@ -269,7 +264,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **内部処理:**  
@@ -309,7 +303,6 @@ public class Feature3 {
     }
 }
 ```
-```
 パスはスラッシュ（`C:/Docs/sample.pdf`）を使用するか、バックスラッシュをエスケープ（`C:\\Docs\\sample.pdf`）してください。OS の権限を確認し、ファイルをロックしている可能性のあるプログラムを終了してください。
 
 ### 問題 2: 出力にバーコードが表示されない
@@ -348,7 +341,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### 問題 4: 無効なバーコードデータエラー
 **症状:** サポートされていない文字が含まれている旨の例外がスローされます。
@@ -367,7 +359,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## 本番環境でのベストプラクティス
 
@@ -382,7 +373,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. 高負荷ワークロードでは非同期処理を使用する
@@ -404,7 +394,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. 構造化ロギングを実装する
 各署名リクエストの入力パス、出力パス、バーコードデータ、例外をログに記録すると、事後分析が格段に速くなります。
@@ -424,7 +413,6 @@ try {
     logger.error("Failed to sign document: {}", filePath, e);
 }
 ```
-```
 
 ### 4. 速度向上のためにバーコード設定を最適化する
 - `setReturnContent(true)` は画像が別途必要でない限り無効にしてください。  
@@ -443,7 +431,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## バーコード署名を使用すべきタイミング
@@ -473,7 +460,6 @@ A: もちろんです。`BarcodeTypes` 列挙体を `QRCode` に切り替え、�
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **Q: 本番環境で推奨される Maven 設定は？**  
 A: `pom.xml` で正確なバージョン（例: `23.10.0`）を固定し、誤ってアップグレードしないようにします。また、Maven `shade` プラグインを有効にして単一実行可能 JAR を生成してください。
@@ -486,7 +472,6 @@ A: `pom.xml` で正確なバージョン（例: `23.10.0`）を固定し、誤�
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **Q: ライブラリはパスワード保護された PDF をサポートしていますか？**  
 A: はい。`Signature` オブジェクト作成時にパスワードを指定すれば、通常通り署名できます。
@@ -496,7 +481,6 @@ A: はい。`Signature` オブジェクト作成時にパスワードを指定�
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **Q: 1 回の操作で何ページまで署名できますか？**  

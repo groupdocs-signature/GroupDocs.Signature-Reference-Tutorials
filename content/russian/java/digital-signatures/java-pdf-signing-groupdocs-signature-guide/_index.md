@@ -118,13 +118,11 @@ GroupDocs.Signature легко интегрируется с Maven или Gradle
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Настройка Gradle**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Если вы предпочитаете ручное управление JAR‑файлами, скачайте последнюю версию с [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) и добавьте её в ваш classpath.
@@ -161,7 +159,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **Объяснение:**  
 - `filePath` указывает на исходный PDF, который вы хотите подписать.  
@@ -192,7 +189,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **Разбор ключевых настроек:**
@@ -259,7 +255,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### Шаг 3: Подписание документа
 
@@ -271,7 +266,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **Под капотом:**  
@@ -311,7 +305,6 @@ public class Feature3 {
         }
     }
 }
-```
 ```
 Убедитесь, что путь использует прямые слэши (`C:/Docs/sample.pdf`) или экранирует обратные слэши (`C:\\Docs\\sample.pdf`). Проверьте разрешения ОС и закройте любые программы, которые могут блокировать файл.
 
@@ -353,7 +346,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### Проблема 4: Ошибка неверных данных штрих‑кода
 
@@ -373,7 +365,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## Лучшие практики для продакшна
 
@@ -389,7 +380,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. Использование асинхронной обработки для высокообъёмных задач
@@ -412,7 +402,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. Реализация структурированного логирования
 
@@ -432,7 +421,6 @@ try {
 } catch (Exception e) {
     logger.error("Failed to sign document: {}", filePath, e);
 }
-```
 ```
 
 ### 4. Оптимизация настроек штрих‑кода для скорости
@@ -455,7 +443,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## Когда использовать подписи штрих‑кода
@@ -487,7 +474,6 @@ try {
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **Вопрос:** Какова рекомендуемая настройка Maven для продакшн‑использования?  
 **Ответ:** Зафиксируйте точную версию в `pom.xml` (например, `23.10.0`), чтобы избежать случайных обновлений, и включите плагин Maven `shade` для создания единого исполняемого JAR.
@@ -500,7 +486,6 @@ signOptions.setEncodeType(BarcodeTypes.QR);
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **Вопрос:** Поддерживает ли библиотека защищённые паролем PDF?  
 **Ответ:** Да. Укажите пароль при создании объекта `Signature`, затем продолжайте подпись как обычно.
@@ -510,7 +495,6 @@ signOptions.setEncodeType(BarcodeTypes.QR);
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **Вопрос:** Сколько страниц можно подписать за одну операцию?  

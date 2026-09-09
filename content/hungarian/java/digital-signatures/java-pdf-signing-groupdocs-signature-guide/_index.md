@@ -116,13 +116,11 @@ A GroupDocs.Signature zökkenőmentesen integrálódik Maven vagy Gradle haszná
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle beállítás**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Ha inkább manuálisan kezeli a JAR fájlokat, töltse le a legújabb kiadást a [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) oldalról, és adja hozzá az osztályútvonalához.
@@ -156,7 +154,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **Explanation:**  
 - `filePath` a forrás PDF-re mutat, amelyet alá szeretne írni.  
@@ -186,7 +183,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **Key settings breakdown:**
@@ -252,7 +248,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### 3. lépés: A dokumentum aláírása
 A `sign` metódus a konfigurált vonalkódot a PDF-re alkalmazza, és az eredményt a célútvonalra írja.
@@ -263,7 +258,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **Under the hood:**  
@@ -303,7 +297,6 @@ public class Feature3 {
     }
 }
 ```
-```
 Győződjön meg arról, hogy az útvonal előre‑perjező (forward) perjeleket használ (`C:/Docs/sample.pdf`) vagy a backslash‑eket escape‑eli (`C:\\Docs\\sample.pdf`). Ellenőrizze az operációs rendszer jogosultságait, és zárja be az esetlegesen a fájlt zároló programokat.
 
 ### 2. probléma: A vonalkód nem jelenik meg a kimenetben
@@ -342,7 +335,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### 4. probléma: Érvénytelen vonalkód adat hiba
 **Tünet:** A API `UnsupportedOperationException`-t dob, amely a nem támogatott karakterekre panaszkodik.
@@ -361,7 +353,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## Legjobb gyakorlatok éles környezetben
 
@@ -376,7 +367,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. Aszinkron feldolgozás használata nagy mennyiségű munkaterheléshez
@@ -398,7 +388,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. Strukturált naplózás bevezetése
 Naplózza minden aláírási kérést a bemeneti útvonallal, a kimeneti útvonallal, a vonalkód adatokkal és az esetleges kivételekkel. Ez drámaian felgyorsítja a post‑mortem elemzést.
@@ -417,7 +406,6 @@ try {
 } catch (Exception e) {
     logger.error("Failed to sign document: {}", filePath, e);
 }
-```
 ```
 
 ### 4. A vonalkód beállítások optimalizálása a sebesség érdekében
@@ -438,7 +426,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## Mikor használjunk vonalkód aláírásokat
@@ -468,7 +455,6 @@ A: Teljesen. Állítsa a `BarcodeTypes` enum‑t `QRCode`‑ra, és szükség sz
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **Q: Mi a javasolt Maven beállítás éles környezetben?**  
 A: Rögzítse a pontos verziót a `pom.xml`‑ben (pl. `23.10.0`), hogy elkerülje a véletlen frissítéseket, és engedélyezze a Maven `shade` plugint egyetlen futtatható JAR előállításához.
@@ -481,7 +467,6 @@ A: Rögzítse a pontos verziót a `pom.xml`‑ben (pl. `23.10.0`), hogy elkerül
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **Q: Támogatja a könyvtár a jelszóval védett PDF-eket?**  
 A: Igen. Adja meg a jelszót a `Signature` objektum konstruktorában, majd folytassa az aláírást a szokásos módon.
@@ -491,7 +476,6 @@ A: Igen. Adja meg a jelszót a `Signature` objektum konstruktorában, majd folyt
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **Q: Hány oldalt tudok egy műveletben aláírni?**  

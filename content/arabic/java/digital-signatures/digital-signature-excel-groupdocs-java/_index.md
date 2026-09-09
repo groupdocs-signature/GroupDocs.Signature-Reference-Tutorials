@@ -466,11 +466,6 @@ for (String file : filesToSign) {
 **تم الاختبار مع:** GroupDocs.Signature 23.12 for Java  
 **المؤلف:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## الدروس ذات الصلة
 
 - [التوقيع الرقمي في Java - دليل كامل لتحميل الشهادة وتوقيع المستند](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)

@@ -445,11 +445,6 @@ Nyní máte kompletní, připravený přístup pro **add digital signature excel
 **Testováno s:** GroupDocs.Signature 23.12 pro Java  
 **Autor:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Související tutoriály
 
 - [Digitální podpis v Javě – Kompletní průvodce načítáním certifikátů a podepisováním dokumentů](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)

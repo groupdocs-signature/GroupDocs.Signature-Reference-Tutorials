@@ -115,13 +115,11 @@ GroupDocs.Signature ผสานรวมได้อย่างราบรื
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle Setup**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 หากคุณต้องการจัดการ JAR ด้วยตนเอง, ดาวน์โหลดเวอร์ชันล่าสุดจาก [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) แล้วเพิ่มลงใน classpath ของคุณ.
@@ -154,7 +152,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **คำอธิบาย:**  
 - `filePath` ชี้ไปยัง PDF ต้นฉบับที่คุณต้องการเซ็น.  
@@ -184,7 +181,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **สรุปการตั้งค่าหลัก:**
@@ -249,7 +245,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### ขั้นตอนที่ 3: เซ็นเอกสาร
 เมธอด `sign` จะนำบาร์โค้ดที่กำหนดไว้ไปใส่ใน PDF และเขียนผลลัพธ์ไปยังเส้นทางเป้าหมาย.
@@ -260,7 +255,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **ภายใต้การทำงาน:**  
@@ -300,7 +294,6 @@ public class Feature3 {
     }
 }
 ```
-```
 ตรวจสอบให้แน่ใจว่าเส้นทางใช้เครื่องหมายทับหน้า (`C:/Docs/sample.pdf`) หรือหนีอักขระ backslash (`C:\\Docs\\sample.pdf`). ตรวจสอบสิทธิ์ของระบบปฏิบัติการและปิดโปรแกรมใด ๆ ที่อาจล็อกไฟล์.
 
 ### ปัญหา 2: บาร์โค้ดไม่ปรากฏในผลลัพธ์
@@ -339,7 +332,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### ปัญหา 4: Invalid Barcode Data Error
 **อาการ:** API โยนข้อยกเว้นที่บ่นเกี่ยวกับอักขระที่ไม่รองรับ.
@@ -358,7 +350,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## แนวทางปฏิบัติที่ดีที่สุดสำหรับการผลิต
 ### 1. ตรวจสอบ PDF ก่อนเซ็น
@@ -372,7 +363,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. ใช้การประมวลผลแบบอะซิงโครนัสสำหรับงานปริมาณสูง
@@ -394,7 +384,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. ใช้การบันทึกแบบโครงสร้าง
 บันทึกคำขอการเซ็นแต่ละรายการพร้อมเส้นทางอินพุต, เส้นทางเอาต์พุต, ข้อมูลบาร์โค้ด, และข้อยกเว้นใด ๆ. นี้ช่วยเร่งการวิเคราะห์หลังเหตุการณ์อย่างมาก.
@@ -414,7 +403,6 @@ try {
     logger.error("Failed to sign document: {}", filePath, e);
 }
 ```
-```
 
 ### 4. ปรับแต่งการตั้งค่าบาร์โค้ดเพื่อความเร็ว
 - ปิด `setReturnContent(true)` หากคุณไม่ต้องการภาพแยก.
@@ -433,7 +421,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## เมื่อใดควรใช้ลายเซ็นบาร์โค้ด
@@ -461,7 +448,6 @@ A: แน่นอน. เปลี่ยนค่า enum `BarcodeTypes` เป
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **Q: การตั้งค่า Maven ที่แนะนำสำหรับการใช้งานในสภาพแวดล้อมการผลิตคืออะไร?**  
 A: ระบุเวอร์ชันที่แน่นอนใน `pom.xml` (เช่น `23.10.0`) เพื่อหลีกเลี่ยงการอัปเกรดโดยบังเอิญ, และเปิดใช้งานปลั๊กอิน Maven `shade` เพื่อสร้าง JAR ที่ทำงานได้เป็นไฟล์เดียว.
@@ -474,7 +460,6 @@ A: ระบุเวอร์ชันที่แน่นอนใน `pom.xm
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **Q: ไลบรารีนี้รองรับ PDF ที่มีการป้องกันด้วยรหัสผ่านหรือไม่?**  
 A: ใช่. ให้รหัสผ่านเมื่อสร้างอ็อบเจ็กต์ `Signature`, จากนั้นดำเนินการเซ็นตามปกติ.
@@ -484,7 +469,6 @@ A: ใช่. ให้รหัสผ่านเมื่อสร้างอ
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **Q: ฉันสามารถเซ็นได้กี่หน้าภายในหนึ่งการดำเนินการ?**  

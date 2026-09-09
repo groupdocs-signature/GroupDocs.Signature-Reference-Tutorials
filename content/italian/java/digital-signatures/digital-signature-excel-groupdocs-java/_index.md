@@ -454,11 +454,6 @@ Ora disponi di un approccio completo e pronto per la produzione per **add digita
 **Testato con:** GroupDocs.Signature 23.12 per Java  
 **Autore:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Tutorial correlati
 
 - [Firma digitale in Java - Guida completa al caricamento del certificato e alla firma dei documenti](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)

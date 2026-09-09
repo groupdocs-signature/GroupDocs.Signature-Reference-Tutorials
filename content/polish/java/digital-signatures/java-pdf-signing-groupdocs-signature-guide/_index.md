@@ -119,13 +119,11 @@ GroupDocs.Signature integruje się płynnie z Maven lub Gradle. Wybierz narzędz
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Konfiguracja Gradle**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Jeśli wolisz ręczne obsługiwanie plików JAR, pobierz najnowsze wydanie z [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) i dodaj je do swojej ścieżki klas.
@@ -162,7 +160,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **Wyjaśnienie:**  
 - `filePath` wskazuje na źródłowy PDF, który chcesz podpisać.  
@@ -193,7 +190,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **Rozbiór kluczowych ustawień:**
@@ -260,7 +256,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### Krok 3: Podpisanie dokumentu
 
@@ -272,7 +267,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **Pod maską:**  
@@ -312,7 +306,6 @@ public class Feature3 {
         }
     }
 }
-```
 ```
 Upewnij się, że ścieżka używa ukośników (`C:/Docs/sample.pdf`) lub odpowiednio escapuje backslashe (`C:\\Docs\\sample.pdf`). Sprawdź uprawnienia systemu operacyjnego i zamknij wszelkie programy, które mogą blokować plik.
 
@@ -354,7 +347,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### Problem 4: Błąd nieprawidłowych danych kodu kreskowego
 
@@ -374,7 +366,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## Najlepsze praktyki dla produkcji
 
@@ -389,7 +380,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. Użycie przetwarzania asynchronicznego dla obciążeń o dużej skali
@@ -411,7 +401,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. Implementacja strukturalnego logowania
 Loguj każde żądanie podpisu z ścieżką wejściową, wyjściową, danymi kodu kreskowego i ewentualnymi wyjątkami. To znacznie przyspiesza analizę po zdarzeniu.
@@ -430,7 +419,6 @@ try {
 } catch (Exception e) {
     logger.error("Failed to sign document: {}", filePath, e);
 }
-```
 ```
 
 ### 4. Optymalizacja ustawień kodu kreskowego pod kątem szybkości
@@ -451,7 +439,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## Kiedy używać podpisów kodu kreskowego
@@ -481,7 +468,6 @@ A: Oczywiście. Przełącz enum `BarcodeTypes` na `QRCode` i dostosuj parametry 
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **Q: Jaka jest zalecana konfiguracja Maven do użytku produkcyjnego?**  
 A: Zablokuj dokładną wersję w `pom.xml` (np. `23.10.0`), aby uniknąć przypadkowych aktualizacji, i włącz wtyczkę Maven `shade`, aby wygenerować pojedynczy plik JAR wykonywalny.
@@ -494,7 +480,6 @@ A: Zablokuj dokładną wersję w `pom.xml` (np. `23.10.0`), aby uniknąć przypa
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **Q: Czy biblioteka obsługuje pliki PDF chronione hasłem?**  
 A: Tak. Podaj hasło przy tworzeniu obiektu `Signature`, a następnie kontynuuj podpisywanie jak zwykle.
@@ -504,7 +489,6 @@ A: Tak. Podaj hasło przy tworzeniu obiektu `Signature`, a następnie kontynuuj 
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **Q: Ile stron mogę podpisać w jednej operacji?**  

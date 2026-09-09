@@ -108,14 +108,12 @@ Obtener GroupDocs.Signature en tu proyecto es sencillo. Elige el método que coi
 
 Agrega esta **dependencia maven groupdocs** a tu archivo `pom.xml`:
 
-``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
     <artifactId>groupdocs-signature</artifactId>
     <version>23.12</version>
 </dependency>
-```
 ```
 
 Después de agregar esto, ejecuta `mvn clean install` para descargar la biblioteca.
@@ -124,10 +122,8 @@ Después de agregar esto, ejecuta `mvn clean install` para descargar la bibliote
 
 Para proyectos Gradle, agrega esta línea a tu `build.gradle`:
 
-``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Luego sincroniza tu proyecto con `gradle build`.
@@ -150,11 +146,9 @@ La versión de prueba agrega una marca de agua, así que planifica adecuadamente
 
 `Signature` es la clase principal de punto de entrada en GroupDocs.Signature for Java que carga y manipula documentos para firmar. Una vez que hayas instalado la biblioteca, inicializarla es tan simple como apuntarla a tu documento:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
-```
 ```
 
 Eso crea un objeto `Signature` listo para trabajar.
@@ -184,12 +178,10 @@ Un posicionamiento adecuado asegura que el código QR sea fácilmente escaneable
 
 Define dónde se encuentra tu documento fuente y dónde deseas guardar la versión firmada:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" + fileName).getPath();
-```
 ```
 
 **Consejo profesional:** Usa `Paths.get()` en lugar de concatenación de cadenas para rutas de archivo — maneja automáticamente los separadores específicos del SO.
@@ -198,7 +190,6 @@ String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" +
 
 Envuelve tu inicialización en un bloque try‑catch para manejar posibles problemas de acceso a archivos:
 
-``` 
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -207,7 +198,6 @@ try {
     throw new RuntimeException("Error initializing signature: " + e.getMessage(), e);
 }
 ```
-```
 
 `RuntimeException` agrega contexto al depurar, lo que ahorra tiempo en producción.
 
@@ -215,7 +205,6 @@ try {
 
 `QrCodeSignOptions` configura la imagen QR que se colocará en el documento. Permite establecer tamaño, márgenes y alineación.
 
-``` 
 ```java
 int qrWidth = 100;
 int qrHeight = 100;
@@ -235,13 +224,11 @@ for (int horizontalAlignment : HorizontalAlignment.getValues()) {
     }
 }
 ```
-```
 
 El bucle crea opciones de código QR para cada alineación horizontal (Left, Center, Right) y vertical (Top, Center, Bottom), añadiendo un margen de 5 píxeles para que el código nunca toque el borde de la página.
 
 Para la mayoría de los escenarios de producción elegirás una única posición, como inferior‑derecha para contratos:
 
-``` 
 ```java
 QrCodeSignOptions options = new QrCodeSignOptions("Signature");
 options.setWidth(100);
@@ -250,16 +237,13 @@ options.setHorizontalAlignment(HorizontalAlignment.Right);
 options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
-```
 
 #### 4. Firma el documento
 
 Ahora aplicamos todas las firmas configuradas en una sola operación:
 
-``` 
 ```java
 SignResult signResult = signature.sign(outputFilePath, listOptions);
-```
 ```
 
 El método `sign()` procesa cada código QR de la lista y guarda el resultado en tu ruta de salida. Devuelve un objeto `SignResult` que indica cuántas firmas se añadieron con éxito —perfecto para registro.
@@ -278,12 +262,10 @@ El método `sign()` procesa cada código QR de la lista y guarda el resultado en
 2. Confirma permisos de lectura para la fuente y permisos de escritura para la carpeta de salida.  
 3. Escapa cualquier carácter especial en la ruta.
 
-``` 
 ```java
 // Better approach: Use absolute paths
 String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
-```
 ```
 
 ### Problema 2: Los códigos QR se superponen al contenido del documento
@@ -292,10 +274,8 @@ Signature signature = new Signature(absolutePath);
 
 **Solución:** Incrementa los valores de margen y elige alineaciones que mantengan el código en regiones vacías:
 
-``` 
 ```java
 options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
-```
 ```
 
 ### Problema 3: Problemas de memoria con documentos grandes
@@ -304,12 +284,10 @@ options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
 
 **Solución:** Desecha los objetos `Signature` rápidamente y procesa archivos grandes en lotes:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your signing code
 } // Automatically closes and releases resources
-```
 ```
 
 La instrucción try‑with‑resources garantiza la limpieza incluso si ocurre una excepción.
@@ -320,7 +298,6 @@ La instrucción try‑with‑resources garantiza la limpieza incluso si ocurre u
 
 **Solución:** Crea una **nueva** instancia de `QrCodeSignOptions` para cada posición en lugar de reutilizar el mismo objeto:
 
-``` 
 ```java
 // Wrong - reuses same object
 QrCodeSignOptions options = new QrCodeSignOptions("Text");
@@ -332,7 +309,6 @@ listOptions.add(options);
 // Correct - creates new object each time
 listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
-```
 ```
 
 ## Aplicaciones prácticas
@@ -359,12 +335,10 @@ Durante aprobaciones de múltiples etapas, incrusta un código QR después de ca
 
 Siempre cierra los objetos `Signature` para evitar fugas de memoria:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your code
 } // Auto‑closes
-```
 ```
 
 Considera un pool de procesamiento para aplicaciones web para limitar operaciones concurrentes.
@@ -373,7 +347,6 @@ Considera un pool de procesamiento para aplicaciones web para limitar operacione
 
 Proporciona información de error accionable en lugar de capturas silenciosas:
 
-``` 
 ```java
 try {
     SignResult result = signature.sign(outputFilePath, listOptions);
@@ -386,7 +359,6 @@ try {
     logger.error("Signature failed for document: {}", filePath, e);
     // Implement retry logic or alert mechanism
 }
-```
 ```
 
 ### Optimización del rendimiento
@@ -456,10 +428,8 @@ Para entornos de alto rendimiento:
 **Q:** *¿Puedo agregar códigos QR a páginas específicas en un documento multipágina?*  
 **A:** Absolutamente. Establece el número de página con `options.setPageNumber(pageNumber);`. Ejemplo:
 
-``` 
 ```java
 options.setPageNumber(1); // Add to first page only
-```
 ```
 
 **Q:** *¿Qué datos puedo codificar en el código QR?*  
@@ -468,13 +438,11 @@ options.setPageNumber(1); // Add to first page only
 **Q:** *¿Cómo verifico firmas de código QR programáticamente?*  
 **A:** GroupDocs.Signature proporciona un método `verify`. Ejemplo:
 
-``` 
 ```java
 VerificationResult result = signature.verify(verifyOptions);
 if (result.isValid()) {
     // Signature is authentic
 }
-```
 ```
 
 La clase `Signature` es el punto de entrada principal para aplicar firmas a documentos.

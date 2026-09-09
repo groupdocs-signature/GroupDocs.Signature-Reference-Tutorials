@@ -116,13 +116,11 @@ GroupDocs.Signature se hladce integruje s Maven nebo Gradle. Vyberte si nástroj
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Nastavení Gradle**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Pokud dáváte přednost ručnímu zpracování JAR souborů, stáhněte si nejnovější vydání z [GroupDocs.Signature pro Java vydání](https://releases.groupdocs.com/signature/java/) a přidejte jej do své classpath.
@@ -156,7 +154,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **Vysvětlení:**  
 - `filePath` ukazuje na zdrojový PDF, který chcete podepsat.  
@@ -186,7 +183,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **Rozpis klíčových nastavení:**
@@ -252,7 +248,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### Krok 3: Podepsání dokumentu
 Metoda `sign` aplikuje nakonfigurovaný čárový kód na PDF a zapíše výsledek do cílové cesty.
@@ -263,7 +258,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **Pod povrchem:**  
@@ -303,7 +297,6 @@ public class Feature3 {
     }
 }
 ```
-```
 Ujistěte se, že cesta používá lomítka (`C:/Docs/sample.pdf`) nebo escapované zpětné lomítka (`C:\\Docs\\sample.pdf`). Ověřte oprávnění OS a zavřete jakýkoli program, který by mohl soubor uzamknout.
 
 ### Problém 2: Čárový kód se neobjevuje ve výstupu
@@ -342,7 +335,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### Problém 4: Chyba neplatných dat čárového kódu
 **Příznak:** API vyhodí výjimku s výčtem nepodporovaných znaků.
@@ -361,7 +353,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## Nejlepší postupy pro produkci
 
@@ -376,7 +367,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. Použití asynchronního zpracování pro vysokozátěžové úlohy
@@ -398,7 +388,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. Implementace strukturovaného logování
 Logujte každý požadavek na podepsání s cestou vstupu, cestou výstupu, daty čárového kódu a případnými výjimkami. To výrazně urychlí analýzu po události.
@@ -417,7 +406,6 @@ try {
 } catch (Exception e) {
     logger.error("Failed to sign document: {}", filePath, e);
 }
-```
 ```
 
 ### 4. Optimalizace nastavení čárového kódu pro rychlost
@@ -438,7 +426,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## Kdy použít čárové kódy jako podpisy
@@ -468,7 +455,6 @@ A: Rozhodně. Přepněte enum `BarcodeTypes` na `QRCode` a podle potřeby upravt
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **Q: Jaké je doporučené nastavení Maven pro produkční použití?**  
 A: Připevněte přesnou verzi v `pom.xml` (např. `23.10.0`), aby se předešlo nechtěným aktualizacím, a povolte Maven plugin `shade` pro vytvoření jediného spustitelného JAR.
@@ -481,7 +467,6 @@ A: Připevněte přesnou verzi v `pom.xml` (např. `23.10.0`), aby se předešlo
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **Q: Podporuje knihovna PDF chráněné heslem?**  
 A: Ano. Poskytněte heslo při vytváření objektu `Signature` a poté pokračujte v podepisování jako obvykle.
@@ -491,7 +476,6 @@ A: Ano. Poskytněte heslo při vytváření objektu `Signature` a poté pokraču
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **Q: Kolik stránek mohu podepsat v jedné operaci?**  

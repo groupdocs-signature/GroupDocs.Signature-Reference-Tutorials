@@ -82,9 +82,9 @@ url: /it/java/advanced-options/sign-document-gradient-brush-java-groupdocs/
 weight: 1
 ---
 
-# Crea firma digitale a gradiente in Java con GroupDocs
+# Come personalizzare l'aspetto della firma con gradiente in Java
 
-Se hai bisogno di **creare firme digitali a gradiente** che appaiano rifinite, corrispondano ai colori del brand e rispettino comunque gli standard crittografici, sei nel posto giusto. In questo tutorial vedremo tutto ciò di cui hai bisogno—dall'aggiunta della libreria GroupDocs.Signature al tuo progetto, alla configurazione di un pennello a gradiente lineare, al posizionamento della firma e alla gestione dei problemi più comuni. Alla fine sarai in grado di incorporare firme a gradiente visivamente accattivanti in PDF, file Word o immagini con poche righe di codice Java.
+Ti sei mai accorto di come alcuni documenti firmati digitalmente appaiano, beh… noiosi? Solo testo semplice su sfondo bianco? Se stai costruendo un'applicazione che richiede firme di documento dall'aspetto professionale—pensa a contratti, fatture o certificati—vorrai qualcosa che risalti pur rimanendo funzionale. **In questo tutorial imparerai a personalizzare l'aspetto della firma applicando un pennello a gradiente in Java.** Creare una firma digitale a gradiente non solo aggiunge una rifinitura visiva, ma rafforza anche l'identità del brand e migliora l'autenticità percepita.
 
 ## Risposte rapide
 - **Che cos'è una firma digitale a gradiente?** Un elemento visivo firmato digitalmente che utilizza un gradiente di colore per lo sfondo o il riempimento del testo.  

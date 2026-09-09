@@ -20,20 +20,6 @@ url: /zh-hant/java/advanced-options/download-files-amazon-s3-aws-sdk-java-groupd
 weight: 1
 ---
 
- as translation.
-
-Will translate each heading.
-
-Proceed.
-
-Will keep markdown formatting.
-
-Also translate bullet points etc.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's produce final content.
-
 # Java S3 檔案下載教學 - 使用 AWS SDK 的逐步指南
 
 歡迎！在本教學中，你將掌握使用 AWS SDK for Java 進行 **java s3 file download** 的完整流程。

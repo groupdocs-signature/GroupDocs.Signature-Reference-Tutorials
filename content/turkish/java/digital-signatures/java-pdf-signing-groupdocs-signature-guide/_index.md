@@ -116,13 +116,11 @@ GroupDocs.Signature Maven veya Gradle ile sorunsuz entegre olur. Şu anda kullan
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle Kurulumu**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Manuel JAR yönetimini tercih ediyorsanız, en son sürümü [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) adresinden indirin ve sınıf yolunuza ekleyin.
@@ -156,7 +154,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **Açıklama:**  
 - `filePath` imzalamak istediğiniz kaynak PDF'ye işaret eder.  
@@ -186,7 +183,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **Ana ayarların açıklaması:**
@@ -252,7 +248,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### Adım 3: Belgeyi İmzalama
 `sign` metodu yapılandırılmış barkodu PDF'ye uygular ve sonucu hedef yola yazar.
@@ -263,7 +258,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **Arka planda:**  
@@ -303,7 +297,6 @@ public class Feature3 {
     }
 }
 ```
-```
 Yolun ileri eğik çizgi (`C:/Docs/sample.pdf`) kullandığından veya ters eğik çizgileri kaçırdığından (`C:\\Docs\\sample.pdf`) emin olun. OS izinlerini doğrulayın ve dosyayı kilitleyebilecek programları kapatın.
 
 ### Sorun 2: Çıktıda Barkod Görünmüyor
@@ -342,7 +335,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### Sorun 4: Geçersiz Barkod Verisi Hatası
 **Semptom:** API, desteklenmeyen karakterler hakkında bir istisna fırlatıyor.
@@ -361,7 +353,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## Üretim İçin En İyi Uygulamalar
 
@@ -376,7 +367,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. Yüksek Hacimli İş Yükleri İçin Asenkron İşleme Kullanın
@@ -398,7 +388,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. Yapılandırılmış Günlükleme Uygulayın
 Her imzalama isteğini giriş yolu, çıkış yolu, barkod verisi ve oluşan istisnalarla günlüğe kaydedin. Bu, sonradan analiz sürecini büyük ölçüde hızlandırır.
@@ -417,7 +406,6 @@ try {
 } catch (Exception e) {
     logger.error("Failed to sign document: {}", filePath, e);
 }
-```
 ```
 
 ### 4. Hız İçin Barkod Ayarlarını Optimize Edin
@@ -438,7 +426,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## Barkod İmzalarını Ne Zaman Kullanmalı
@@ -468,7 +455,6 @@ C: Kesinlikle. `BarcodeTypes` enumunu `QRCode` olarak değiştirin ve gerektiği
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **S: Üretim kullanımı için önerilen Maven kurulumu nedir?**  
 C: `pom.xml` içinde kesin sürümü sabitleyin (ör. `23.10.0`) yanlışlıkla yükseltmeleri önlemek için ve tek bir çalıştırılabilir JAR üretmek üzere Maven `shade` eklentisini etkinleştirin.
@@ -481,7 +467,6 @@ C: `pom.xml` içinde kesin sürümü sabitleyin (ör. `23.10.0`) yanlışlıkla 
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **S: Kütüphane şifre korumalı PDF'leri destekliyor mu?**  
 C: Evet. `Signature` nesnesini oluştururken şifreyi sağlayın, ardından normal şekilde imzalamaya devam edin.
@@ -491,7 +476,6 @@ C: Evet. `Signature` nesnesini oluştururken şifreyi sağlayın, ardından norm
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **S: Tek bir işlemde kaç sayfa imzalayabilirim?**  

@@ -454,11 +454,6 @@ for (String file : filesToSign) {
 **Δοκιμασμένο Με:** GroupDocs.Signature 23.12 for Java  
 **Συγγραφέας:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Σχετικά Tutorials
 
 - [Digital Signature in Java - Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)

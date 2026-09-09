@@ -455,11 +455,6 @@ Masz teraz kompletną, gotową do produkcji metodę **add digital signature exce
 **Testowano z:** GroupDocs.Signature 23.12 dla Java  
 **Autor:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Powiązane samouczki
 
 - [Cyfrowy podpis w Javie – Kompletny przewodnik po ładowaniu certyfikatów i podpisywaniu dokumentów](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)

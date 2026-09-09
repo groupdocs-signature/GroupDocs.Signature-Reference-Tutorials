@@ -114,13 +114,11 @@ GroupDocs.Signature는 Maven 또는 Gradle과 원활하게 통합됩니다. 현�
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle 설정**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 수동으로 JAR를 다루는 것을 선호한다면, 최신 릴리스를 [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/)에서 다운로드하고 클래스패스에 추가하세요.
@@ -154,7 +152,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **Explanation:**  
 - `filePath`는 서명하려는 원본 PDF의 경로를 가리킵니다.  
@@ -184,7 +181,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **핵심 설정 설명:**
@@ -250,7 +246,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### 3단계: 문서 서명
 `sign` 메서드는 구성된 바코드를 PDF에 적용하고 결과를 대상 경로에 기록합니다.
@@ -261,7 +256,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **내부 동작:**  
@@ -301,7 +295,6 @@ public class Feature3 {
     }
 }
 ```
-```
 경로에 슬래시(`/`)를 사용하거나(`C:/Docs/sample.pdf`) 백슬래시를 이스케이프(`C:\\Docs\\sample.pdf`)했는지 확인하세요. OS 권한을 검증하고 파일을 잠글 수 있는 프로그램을 종료하십시오.
 
 ### 문제 2: 출력에 바코드가 표시되지 않음
@@ -340,7 +333,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### 문제 4: 잘못된 바코드 데이터 오류
 **Symptom:** API가 지원되지 않는 문자를 포함했다는 예외를 발생시킵니다.
@@ -359,7 +351,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## 프로덕션을 위한 모범 사례
 
@@ -374,7 +365,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. 대량 작업을 위한 비동기 처리 사용
@@ -396,7 +386,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. 구조화된 로깅 구현
 입력 경로, 출력 경로, 바코드 데이터 및 예외를 포함한 각 서명 요청을 기록하세요. 이는 사후 분석 속도를 크게 높입니다.
@@ -416,7 +405,6 @@ try {
     logger.error("Failed to sign document: {}", filePath, e);
 }
 ```
-```
 
 ### 4. 속도 향상을 위한 바코드 설정 최적화
 - 이미지가 별도로 필요하지 않은 경우 `setReturnContent(true)`를 비활성화합니다.  
@@ -435,7 +423,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## 바코드 서명을 사용해야 할 때
@@ -465,7 +452,6 @@ A: 물론 가능합니다. `BarcodeTypes` 열거형을 `QRCode`로 전환하고 
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **Q: 프로덕션 사용을 위한 권장 Maven 설정은 무엇인가요?**  
 A: `pom.xml`에 정확한 버전(`23.10.0` 등)을 고정하여 의도치 않은 업그레이드를 방지하고, Maven `shade` 플러그인을 활성화해 단일 실행 가능한 JAR을 생성합니다.
@@ -478,7 +464,6 @@ A: `pom.xml`에 정확한 버전(`23.10.0` 등)을 고정하여 의도치 않은
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **Q: 라이브러리가 비밀번호로 보호된 PDF를 지원하나요?**  
 A: 예. `Signature` 객체를 생성할 때 비밀번호를 제공하면 이후 일반적으로 서명할 수 있습니다.
@@ -488,7 +473,6 @@ A: 예. `Signature` 객체를 생성할 때 비밀번호를 제공하면 이후 
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **Q: 한 번에 몇 페이지를 서명할 수 있나요?**  

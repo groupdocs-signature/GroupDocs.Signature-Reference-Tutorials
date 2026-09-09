@@ -118,13 +118,11 @@ GroupDocs.Signature se integra sin problemas con Maven o Gradle. Elija la herram
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Configuración Gradle**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Si prefiere manejar los JAR manualmente, descargue la última versión desde [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) y agréguela a su classpath.
@@ -161,7 +159,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **Explicación:**  
 - `filePath` apunta al PDF de origen que desea firmar.  
@@ -192,7 +189,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **Desglose de configuraciones clave:**
@@ -259,7 +255,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### Paso 3: Firmar el documento
 
@@ -271,7 +266,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **Detrás de escena:**  
@@ -311,7 +305,6 @@ public class Feature3 {
         }
     }
 }
-```
 ```
 Asegúrese de que la ruta use barras diagonales (`C:/Docs/sample.pdf`) o escape las barras invertidas (`C:\\Docs\\sample.pdf`). Verifique los permisos del SO y cierre cualquier programa que pueda bloquear el archivo.
 
@@ -353,7 +346,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### Problema 4: Error de datos de código de barras inválidos
 
@@ -373,7 +365,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## Mejores prácticas para producción
 
@@ -388,7 +379,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. Utilizar procesamiento asíncrono para cargas de trabajo de alto volumen
@@ -410,7 +400,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. Implementar registro estructurado
 Registre cada solicitud de firma con la ruta de entrada, ruta de salida, datos del código de barras y cualquier excepción. Esto acelera drásticamente el análisis post‑mortem.
@@ -429,7 +418,6 @@ try {
 } catch (Exception e) {
     logger.error("Failed to sign document: {}", filePath, e);
 }
-```
 ```
 
 ### 4. Optimizar la configuración del código de barras para velocidad
@@ -450,7 +438,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## Cuándo usar firmas de código de barras
@@ -480,7 +467,6 @@ R: Por supuesto. Cambie el enum `BarcodeTypes` a `QRCode` y ajuste los parámetr
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **P: ¿Cuál es la configuración Maven recomendada para uso en producción?**  
 R: Fije la versión exacta en `pom.xml` (p.ej., `23.10.0`) para evitar actualizaciones accidentales, y habilite el plugin Maven `shade` para producir un único JAR ejecutable.
@@ -493,7 +479,6 @@ R: Fije la versión exacta en `pom.xml` (p.ej., `23.10.0`) para evitar actualiza
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **P: ¿La biblioteca admite PDFs protegidos con contraseña?**  
 R: Sí. Proporcione la contraseña al construir el objeto `Signature`, luego continúe con la firma como de costumbre.
@@ -503,7 +488,6 @@ R: Sí. Proporcione la contraseña al construir el objeto `Signature`, luego con
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **P: ¿Cuántas páginas puedo firmar en una sola operación?**  

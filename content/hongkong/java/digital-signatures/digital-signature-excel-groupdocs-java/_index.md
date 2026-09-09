@@ -453,11 +453,6 @@ A：不需要。已簽署的活頁簿可在 Microsoft Excel、LibreOffice 或 Go
 **測試環境：** GroupDocs.Signature 23.12 for Java  
 **作者：** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## 相關教學
 
 - [Java 數位簽章 - 憑證載入與文件簽署完整指南](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)

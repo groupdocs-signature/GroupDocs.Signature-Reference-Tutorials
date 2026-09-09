@@ -116,13 +116,11 @@ GroupDocs.Signature 可順利整合至 Maven 或 Gradle。請選擇您已在使�
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle 設定**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 如果您偏好手動處理 JAR，請從 [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) 下載最新版本，並將其加入 classpath。
@@ -159,7 +157,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **說明：**
 - `filePath` 指向您想簽署的來源 PDF。
@@ -190,7 +187,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **主要設定說明：**
@@ -257,7 +253,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### 步驟 3：簽署文件
 
@@ -269,7 +264,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **底層運作：**
@@ -310,7 +304,6 @@ public class Feature3 {
         }
     }
 }
-```
 ```
 
 確保路徑使用正斜線（`C:/Docs/sample.pdf`）或正確跳脫反斜線（`C:\\Docs\\sample.pdf`）。檢查作業系統權限，並關閉可能鎖定檔案的程式。
@@ -353,7 +346,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### 問題 4：條碼資料無效錯誤
 
@@ -373,7 +365,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## 生產環境最佳實踐
 
@@ -389,7 +380,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. 高量工作負載使用非同步處理
@@ -412,7 +402,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. 實作結構化日誌
 
@@ -432,7 +421,6 @@ try {
 } catch (Exception e) {
     logger.error("Failed to sign document: {}", filePath, e);
 }
-```
 ```
 
 ### 4. 為效能優化條碼設定
@@ -455,7 +443,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## 何時使用條碼簽章
@@ -487,7 +474,6 @@ A: 當然可以。將 `BarcodeTypes` 列舉切換為 `QRCode`，並依需求調�
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **Q: 在正式環境中，建議的 Maven 設定為何？**  
 A: 在 `pom.xml` 中鎖定確切版本（例如 `23.10.0`），以避免意外升級，並啟用 Maven `shade` 插件以產生單一可執行 JAR。
@@ -500,7 +486,6 @@ A: 在 `pom.xml` 中鎖定確切版本（例如 `23.10.0`），以避免意外�
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **Q: 此函式庫支援受密碼保護的 PDF 嗎？**  
 A: 支援。於建立 `Signature` 物件時提供密碼，即可照常簽署。
@@ -510,7 +495,6 @@ A: 支援。於建立 `Signature` 物件時提供密碼，即可照常簽署。
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **Q: 一次操作可以簽署多少頁？**  

@@ -113,13 +113,11 @@ weight: 1
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **إعداد Gradle**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 إذا كنت تفضّل التعامل اليدوي مع ملفات JAR، قم بتحميل أحدث إصدار من [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) وأضفه إلى مسار الفئة (classpath) الخاص بك.
@@ -153,7 +151,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **شرح:**  
 - `filePath` يشير إلى ملف PDF المصدر الذي تريد توقيعه.  
@@ -183,7 +180,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **تفصيل الإعدادات الرئيسية:**
@@ -249,7 +245,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### الخطوة 3: توقيع المستند
 طريقة `sign` تطبق الباركود المكوّن على ملف PDF وتكتب النتيجة إلى المسار المستهدف.
@@ -260,7 +255,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **ما يحدث في الخلفية:**  
@@ -300,7 +294,6 @@ public class Feature3 {
     }
 }
 ```
-```
 تأكد من أن المسار يستخدم الشرطات المائلة للأمام (`C:/Docs/sample.pdf`) أو يهرب الشرطات المائلة الخلفية (`C:\\Docs\\sample.pdf`). تحقق من أذونات نظام التشغيل وأغلق أي برنامج قد يقفل الملف.
 
 ### المشكلة 2: عدم ظهور الباركود في الناتج
@@ -339,7 +332,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### المشكلة 4: خطأ بيانات باركود غير صالحة
 **العَرَض:** تطرح الـ API استثناءً يشتكي من أحرف غير مدعومة.
@@ -358,7 +350,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## أفضل الممارسات للإنتاج
 
@@ -373,7 +364,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. استخدم المعالجة غير المتزامنة لأعباء العمل عالية الحجم
@@ -395,7 +385,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. تنفيذ تسجيل منظم
 سجّل كل طلب توقيع مع مسار الإدخال، مسار الإخراج، بيانات الباركود، وأي استثناءات. هذا يسرّع بشكل كبير تحليل ما بعد الحادث.
@@ -414,7 +403,6 @@ try {
 } catch (Exception e) {
     logger.error("Failed to sign document: {}", filePath, e);
 }
-```
 ```
 
 ### 4. تحسين إعدادات الباركود للسرعة
@@ -435,7 +423,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## متى نستخدم توقيعات الباركود
@@ -465,7 +452,6 @@ try {
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **س: ما هو إعداد Maven الموصى به للاستخدام في الإنتاج؟**  
 ج: حدد النسخة الدقيقة في `pom.xml` (مثلاً `23.10.0`) لتجنب التحديثات غير المقصودة، وفعل إضافة Maven `shade` لإنتاج JAR واحد قابل للتنفيذ.
@@ -478,7 +464,6 @@ signOptions.setEncodeType(BarcodeTypes.QR);
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **س: هل تدعم المكتبة ملفات PDF محمية بكلمة مرور؟**  
 ج: نعم. قدّم كلمة المرور عند إنشاء كائن `Signature`، ثم استمر في التوقيع كالمعتاد.
@@ -488,7 +473,6 @@ signOptions.setEncodeType(BarcodeTypes.QR);
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **س: كم عدد الصفحات التي يمكنني توقيعها في عملية واحدة؟**  

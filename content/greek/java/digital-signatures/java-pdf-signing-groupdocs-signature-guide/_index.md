@@ -116,13 +116,11 @@ GroupDocs.Signature ενσωματώνεται ομαλά με Maven ή Gradle. 
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Ρύθμιση Gradle**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Αν προτιμάτε χειροκίνητη διαχείριση JAR, κατεβάστε την τελευταία έκδοση από [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) και προσθέστε την στο classpath σας.
@@ -156,7 +154,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **Επεξήγηση:**  
 - `filePath` δείχνει στο πηγαίο PDF που θέλετε να υπογράψετε.  
@@ -186,7 +183,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **Ανάλυση βασικών ρυθμίσεων:**
@@ -252,7 +248,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### Βήμα 3: Υπογραφή του Εγγράφου
 Η μέθοδος `sign` εφαρμόζει το διαμορφωμένο barcode στο PDF και γράφει το αποτέλεσμα στη διαδρομή προορισμού.
@@ -263,7 +258,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **Πίσω από τη σκηνή:**  
@@ -303,7 +297,6 @@ public class Feature3 {
     }
 }
 ```
-```
 Βεβαιωθείτε ότι η διαδρομή χρησιμοποιεί μπροστιές κάθετες (`C:/Docs/sample.pdf`) ή διαφύγει τα backslashes (`C:\\Docs\\sample.pdf`). Ελέγξτε τα δικαιώματα του λειτουργικού συστήματος και κλείστε οποιοδήποτε πρόγραμμα που μπορεί να κλειδώνει το αρχείο.
 
 ### Πρόβλημα 2: Το Barcode Δεν Εμφανίζεται στην Έξοδο
@@ -342,7 +335,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### Πρόβλημα 4: Σφάλμα Μη Έγκυρων Δεδομένων Barcode
 **Σύμπτωμα:** Το API ρίχνει εξαίρεση που παραπονιέται για μη υποστηριζόμενους χαρακτήρες.
@@ -361,7 +353,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## Καλές Πρακτικές για Παραγωγή
 
@@ -376,7 +367,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. Χρήση Ασύγχρονης Επεξεργασίας για Φορτία Υψηλού Όγκου
@@ -398,7 +388,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. Υλοποίηση Δομημένου Logging
 Καταγράψτε κάθε αίτημα υπογραφής με τη διαδρομή εισόδου, τη διαδρομή εξόδου, τα δεδομένα barcode και τυχόν εξαιρέσεις. Αυτό επιταχύνει δραματικά την ανάλυση μετά το γεγονός.
@@ -417,7 +406,6 @@ try {
 } catch (Exception e) {
     logger.error("Failed to sign document: {}", filePath, e);
 }
-```
 ```
 
 ### 4. Βελτιστοποίηση Ρυθμίσεων Barcode για Ταχύτητα
@@ -438,7 +426,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## Πότε να Χρησιμοποιήσετε Υπογραφές Barcode
@@ -468,7 +455,6 @@ A: Απόλυτα. Αλλάξτε το enum `BarcodeTypes` σε `QRCode` και 
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **Q: Ποια είναι η προτεινόμενη ρύθμιση Maven για χρήση σε παραγωγή;**  
 A: Καθορίστε την ακριβή έκδοση στο `pom.xml` (π.χ., `23.10.0`) για να αποφύγετε τυχαίες αναβαθμίσεις, και ενεργοποιήστε το Maven `shade` plugin για να παραγάγετε ένα ενιαίο εκτελέσιμο JAR.
@@ -481,7 +467,6 @@ A: Καθορίστε την ακριβή έκδοση στο `pom.xml` (π.χ.,
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **Q: Υποστηρίζει η βιβλιοθήκη PDF με προστασία κωδικού;**  
 A: Ναι. Παρέχετε τον κωδικό όταν δημιουργείτε το αντικείμενο `Signature`, και συνεχίστε με την υπογραφή όπως συνήθως.
@@ -491,7 +476,6 @@ A: Ναι. Παρέχετε τον κωδικό όταν δημιουργείτ�
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **Q: Πόσες σελίδες μπορώ να υπογράψω σε μία λειτουργία;**  

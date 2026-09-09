@@ -551,11 +551,6 @@ Ahora dispone de una guía completa y lista para producción sobre **create barc
 **Tested With:** GroupDocs.Signature 23.10 for Java  
 **Author:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY" + "/sample.pdf";
 String fileName = new java.io.File(filePath).getName();

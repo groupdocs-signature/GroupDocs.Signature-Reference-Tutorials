@@ -118,13 +118,11 @@ GroupDocs.Signature terintegrasi dengan mulus dengan Maven atau Gradle. Pilih al
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Pengaturan Gradle**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Jika Anda lebih suka menangani JAR secara manual, unduh rilis terbaru dari [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) dan tambahkan ke classpath Anda.
@@ -161,7 +159,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **Explanation:**  
 - `filePath` menunjuk ke PDF sumber yang ingin Anda tandatangani.  
@@ -192,7 +189,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **Key settings breakdown:**
@@ -259,7 +255,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### Langkah 3: Tanda Tangani Dokumen
 
@@ -271,7 +266,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **Under the hood:**  
@@ -311,7 +305,6 @@ public class Feature3 {
         }
     }
 }
-```
 ```
 Pastikan jalur menggunakan garis miring maju (`C:/Docs/sample.pdf`) atau meng-escape backslashes (`C:\\Docs\\sample.pdf`). Verifikasi izin OS dan tutup program apa pun yang mungkin mengunci file.
 
@@ -353,7 +346,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### Masalah 4: Kesalahan Data Barcode Tidak Valid
 
@@ -373,7 +365,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## Praktik Terbaik untuk Produksi
 
@@ -389,7 +380,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. Gunakan Pemrosesan Asinkron untuk Beban Kerja Volume Tinggi
@@ -412,7 +402,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. Implementasikan Logging Terstruktur
 
@@ -432,7 +421,6 @@ try {
 } catch (Exception e) {
     logger.error("Failed to sign document: {}", filePath, e);
 }
-```
 ```
 
 ### 4. Optimalkan Pengaturan Barcode untuk Kecepatan
@@ -454,7 +442,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## Kapan Menggunakan Tanda Tangan Barcode
@@ -484,7 +471,6 @@ A: Tentu saja. Ganti enum `BarcodeTypes` menjadi `QRCode` dan sesuaikan paramete
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **Q: Apa pengaturan Maven yang disarankan untuk penggunaan produksi?**  
 A: Tetapkan versi tepat di `pom.xml` (mis., `23.10.0`) untuk menghindari upgrade tidak sengaja, dan aktifkan plugin Maven `shade` untuk menghasilkan satu JAR yang dapat dieksekusi.
@@ -497,7 +483,6 @@ A: Tetapkan versi tepat di `pom.xml` (mis., `23.10.0`) untuk menghindari upgrade
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **Q: Apakah pustaka mendukung PDF yang dilindungi kata sandi?**  
 A: Ya. Berikan kata sandi saat membuat objek `Signature`, lalu lanjutkan penandatanganan seperti biasa.
@@ -507,7 +492,6 @@ A: Ya. Berikan kata sandi saat membuat objek `Signature`, lalu lanjutkan penanda
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **Q: Berapa banyak halaman yang dapat saya tandatangani dalam satu operasi?**  

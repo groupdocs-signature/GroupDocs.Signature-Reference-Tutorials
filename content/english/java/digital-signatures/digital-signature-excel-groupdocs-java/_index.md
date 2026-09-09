@@ -58,9 +58,6 @@ schemas:
     answer: No. The signed workbook opens in Microsoft Excel, LibreOffice, or Google
       Sheets, and the built‑in signature viewer can validate the signature.
 ---
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
 # Add Digital Signature Excel Java
 
 ## Introduction
@@ -448,11 +445,6 @@ You now have a complete, production‑ready approach to **add digital signature 
 **Last Updated:** 2026-06-01  
 **Tested With:** GroupDocs.Signature 23.12 for Java  
 **Author:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
 
 ## Related Tutorials
 

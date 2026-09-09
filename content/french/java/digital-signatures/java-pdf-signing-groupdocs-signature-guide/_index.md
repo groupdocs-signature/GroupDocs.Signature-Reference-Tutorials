@@ -115,13 +115,11 @@ GroupDocs.Signature s’intègre facilement avec Maven ou Gradle. Choisissez l�
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Configuration Gradle**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Si vous préférez gérer les JAR manuellement, téléchargez la dernière version depuis [Versions de GroupDocs.Signature pour Java](https://releases.groupdocs.com/signature/java/) et ajoutez‑la à votre classpath.
@@ -154,7 +152,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **Explication :**  
 - `filePath` indique le PDF source que vous souhaitez signer.  
@@ -184,7 +181,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **Décomposition des paramètres clés :**
@@ -249,7 +245,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### Étape 3 : Signer le document
 La méthode `sign` applique le code‑barres configuré au PDF et écrit le résultat vers le chemin cible.
@@ -260,7 +255,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **Sous le capot :**  
@@ -300,7 +294,6 @@ public class Feature3 {
     }
 }
 ```
-```
 Assurez‑vous que le chemin utilise des barres obliques (`C:/Docs/sample.pdf`) ou échappe les barres obliques inverses (`C:\\Docs\\sample.pdf`). Vérifiez les permissions du système d’exploitation et fermez tout programme pouvant verrouiller le fichier.
 
 ### Problème 2 : Le code‑barres n’apparaît pas dans le résultat
@@ -339,7 +332,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### Problème 4 : Erreur de données de code‑barres invalides
 **Symptôme :** L’API lève une exception indiquant des caractères non pris en charge.
@@ -358,7 +350,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## Bonnes pratiques pour la production
 
@@ -373,7 +364,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. Utiliser le traitement asynchrone pour les charges de travail à haut volume
@@ -395,7 +385,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. Mettre en œuvre une journalisation structurée
 Enregistrez chaque requête de signature avec le chemin d’entrée, le chemin de sortie, les données du code‑barres et les éventuelles exceptions. Cela accélère considérablement l’analyse post‑mortem.
@@ -414,7 +403,6 @@ try {
 } catch (Exception e) {
     logger.error("Failed to sign document: {}", filePath, e);
 }
-```
 ```
 
 ### 4. Optimiser les paramètres du code‑barres pour la vitesse
@@ -435,7 +423,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## Quand utiliser les signatures de code‑barres
@@ -465,7 +452,6 @@ R : Absolument. Changez l’énumération `BarcodeTypes` en `QRCode` et ajuste
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **Q : Quelle est la configuration Maven recommandée pour la production ?**  
 R : Fixez la version exacte dans `pom.xml` (par ex., `23.10.0`) pour éviter les mises à jour accidentelles, et activez le plugin Maven `shade` pour produire un JAR exécutable unique.
@@ -478,7 +464,6 @@ R : Fixez la version exacte dans `pom.xml` (par ex., `23.10.0`) pour éviter l
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **Q : La bibliothèque prend‑elle en charge les PDF protégés par mot de passe ?**  
 R : Oui. Fournissez le mot de passe lors de la construction de l’objet `Signature`, puis procédez à la signature comme d’habitude.
@@ -488,7 +473,6 @@ R : Oui. Fournissez le mot de passe lors de la construction de l’objet `Sign
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **Q : Combien de pages puis‑je signer en une seule opération ?**  

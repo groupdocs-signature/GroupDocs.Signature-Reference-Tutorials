@@ -107,7 +107,6 @@ Získání GroupDocs.Signature do vašeho projektu je jednoduché. Vyberte metod
 ### Použití Maven
 Přidejte tuto **maven závislost groupdocs** do souboru `pom.xml`:
 
-``` 
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -115,17 +114,14 @@ Přidejte tuto **maven závislost groupdocs** do souboru `pom.xml`:
     <version>23.12</version>
 </dependency>
 ```
-```
 
 Po přidání tohoto spusťte `mvn clean install` pro stažení knihovny.
 
 ### Použití Gradle
 Pro projekty Gradle přidejte tento řádek do souboru `build.gradle`:
 
-``` 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Poté synchronizujte projekt pomocí `gradle build`.
@@ -145,11 +141,9 @@ Verze z trialu přidává vodoznak, takže to při ukázkách plánujte.
 ## Základní inicializace
 `Signature` je hlavní vstupní třída v GroupDocs.Signature pro Java, která načítá a manipuluje s dokumenty pro podepisování. Jakmile knihovnu nainstalujete, její inicializace je tak jednoduchá, že jen ukážete na váš dokument:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 Signature signature = new Signature(filePath);
-```
 ```
 
 Tím se vytvoří objekt `Signature` připravený k práci.
@@ -173,12 +167,10 @@ Správné umístění zajišťuje, že QR kód je snadno skenovatelný, splňuje
 #### 1. Nakonfigurujte cesty k souborům
 Definujte, kde se nachází zdrojový dokument a kam chcete uložit podepsanou verzi:
 
-``` 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 String fileName = Paths.get(filePath).getFileName().toString();
 String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" + fileName).getPath();
-```
 ```
 
 **Tip:** Používejte `Paths.get()` místo řetězcové konkatenace pro cesty k souborům – automaticky zpracuje oddělovače specifické pro OS.
@@ -186,7 +178,6 @@ String outputFilePath = new File("YOUR_OUTPUT_DIRECTORY", "SignWithAlignment/" +
 #### 2. Inicializujte objekt Signature
 Zabalte inicializaci do bloku try‑catch, aby se ošetřily možné problémy s přístupem k souborům:
 
-``` 
 ```java
 try {
     Signature signature = new Signature(filePath);
@@ -195,14 +186,12 @@ try {
     throw new RuntimeException("Error initializing signature: " + e.getMessage(), e);
 }
 ```
-```
 
 `RuntimeException` přidává kontext při ladění, což šetří čas v produkci.
 
 #### 3. Definujte velikost a pozice QR kódu
 `QrCodeSignOptions` konfiguruje QR obrázek, který bude umístěn do dokumentu. Umožňuje nastavit velikost, okraje a zarovnání.
 
-``` 
 ```java
 int qrWidth = 100;
 int qrHeight = 100;
@@ -222,13 +211,11 @@ for (int horizontalAlignment : HorizontalAlignment.getValues()) {
     }
 }
 ```
-```
 
 Smyčka vytváří QR kódové možnosti pro každé horizontální (Left, Center, Right) a vertikální (Top, Center, Bottom) zarovnání, přidává 5‑pixelový okraj, aby kód nikdy nedotýkal okraje stránky.
 
 Pro většinu produkčních scénářů vyberete jednu pozici, například pravý dolní pro smlouvy:
 
-``` 
 ```java
 QrCodeSignOptions options = new QrCodeSignOptions("Signature");
 options.setWidth(100);
@@ -237,15 +224,12 @@ options.setHorizontalAlignment(HorizontalAlignment.Right);
 options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setMargin(new Padding(10));
 ```
-```
 
 #### 4. Podepište dokument
 Nyní aplikujeme všechny nakonfigurované podpisy v jedné operaci:
 
-``` 
 ```java
 SignResult signResult = signature.sign(outputFilePath, listOptions);
-```
 ```
 
 Metoda `sign()` zpracuje každý QR kód v seznamu a uloží výsledek do výstupní cesty. Vrací objekt `SignResult`, který udává, kolik podpisů bylo úspěšně přidáno – ideální pro logování.
@@ -261,12 +245,10 @@ Metoda `sign()` zpracuje každý QR kód v seznamu a uloží výsledek do výstu
 2. Potvrďte oprávnění ke čtení pro zdroj a oprávnění k zápisu pro výstupní složku.  
 3. Escapujte (unikněte) všechny speciální znaky v cestě.
 
-``` 
 ```java
 // Better approach: Use absolute paths
 String absolutePath = new File(filePath).getAbsolutePath();
 Signature signature = new Signature(absolutePath);
-```
 ```
 
 ### Problém 2: QR kódy překrývají obsah dokumentu
@@ -274,10 +256,8 @@ Signature signature = new Signature(absolutePath);
 
 **Solution:** Zvyšte hodnoty okrajů a vyberte zarovnání, které udrží kód v prázdných oblastech:
 
-``` 
 ```java
 options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
-```
 ```
 
 ### Problém 3: Problémy s pamětí u velkých dokumentů
@@ -285,12 +265,10 @@ options.setMargin(new Padding(20)); // Increase from 5 to 20 pixels
 
 **Solution:** Okamžitě uvolňujte objekty `Signature` a zpracovávejte velké soubory po dávkách:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your signing code
 } // Automatically closes and releases resources
-```
 ```
 
 ### Problém 4: Obsah QR kódu se neaktualizuje
@@ -298,7 +276,6 @@ try (Signature signature = new Signature(filePath)) {
 
 **Solution:** Vytvořte **novou** instanci `QrCodeSignOptions` pro každou pozici místo opětovného používání stejného objektu:
 
-``` 
 ```java
 // Wrong - reuses same object
 QrCodeSignOptions options = new QrCodeSignOptions("Text");
@@ -310,7 +287,6 @@ listOptions.add(options);
 // Correct - creates new object each time
 listOptions.add(new QrCodeSignOptions("Left"));
 listOptions.add(new QrCodeSignOptions("Right"));
-```
 ```
 
 ## Praktické aplikace
@@ -330,12 +306,10 @@ Během vícefázových schválení vložte QR kód po každém podpisu, který o
 ### Správa zdrojů
 Vždy uzavírejte objekty `Signature`, aby nedocházelo k únikům paměti:
 
-``` 
 ```java
 try (Signature signature = new Signature(filePath)) {
     // Your code
 } // Auto‑closes
-```
 ```
 
 Zvažte použití zpracovatelského poolu pro webové aplikace, aby se omezil počet souběžných operací.
@@ -343,7 +317,6 @@ Zvažte použití zpracovatelského poolu pro webové aplikace, aby se omezil po
 ### Strategie zpracování chyb
 Poskytněte akční informace o chybách místo tichých zachycení:
 
-``` 
 ```java
 try {
     SignResult result = signature.sign(outputFilePath, listOptions);
@@ -356,7 +329,6 @@ try {
     logger.error("Signature failed for document: {}", filePath, e);
     // Implement retry logic or alert mechanism
 }
-```
 ```
 
 ### Optimalizace výkonu
@@ -416,10 +388,8 @@ try {
 **Q:** *Mohu přidat QR kódy na konkrétní stránky ve vícestránkovém dokumentu?*  
 **A:** Rozhodně. Nastavte číslo stránky pomocí `options.setPageNumber(pageNumber);`. Příklad:
 
-``` 
 ```java
 options.setPageNumber(1); // Add to first page only
-```
 ```
 
 **Q:** *Jaká data mohu kódovat do QR kódu?*  
@@ -428,13 +398,11 @@ options.setPageNumber(1); // Add to first page only
 **Q:** *Jak mohu programově ověřit QR kódové podpisy?*  
 **A:** GroupDocs.Signature poskytuje metodu `verify`. Příklad:
 
-``` 
 ```java
 VerificationResult result = signature.verify(verifyOptions);
 if (result.isValid()) {
     // Signature is authentic
 }
-```
 ```
 
 Třída `Signature` je hlavním vstupním bodem pro aplikaci podpisů na dokumenty.

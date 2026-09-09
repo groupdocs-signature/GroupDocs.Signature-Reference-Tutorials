@@ -553,11 +553,6 @@ Artık PDF belgeleri için **Java barcode imzası oluşturma** konusunda eksiksi
 **Test Edilen Versiyon:** GroupDocs.Signature 23.10 for Java  
 **Yazar:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY" + "/sample.pdf";
 String fileName = new java.io.File(filePath).getName();

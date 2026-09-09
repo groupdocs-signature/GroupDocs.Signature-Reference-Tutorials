@@ -118,13 +118,11 @@ GroupDocs.Signature tích hợp mượt mà với Maven hoặc Gradle. Chọn c�
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Cài đặt Gradle**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Nếu bạn muốn xử lý JAR thủ công, tải bản phát hành mới nhất từ [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) và thêm nó vào classpath của bạn.
@@ -161,7 +159,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **Giải thích:**  
 - `filePath` chỉ tới PDF nguồn mà bạn muốn ký.  
@@ -192,7 +189,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **Phân tích các cài đặt chính:**
@@ -259,7 +255,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### Bước 3: Ký tài liệu
 
@@ -271,7 +266,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **Bên trong:**  
@@ -311,7 +305,6 @@ public class Feature3 {
         }
     }
 }
-```
 ```
 Đảm bảo đường dẫn sử dụng dấu gạch chéo xuôi (`C:/Docs/sample.pdf`) hoặc escape dấu gạch chéo ngược (`C:\\Docs\\sample.pdf`). Kiểm tra quyền hệ điều hành và đóng bất kỳ chương trình nào có thể khóa tệp.
 
@@ -353,7 +346,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### Vấn đề 4: Lỗi dữ liệu mã vạch không hợp lệ
 
@@ -373,7 +365,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## Thực hành tốt cho môi trường sản xuất
 
@@ -389,7 +380,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. Sử dụng xử lý bất đồng bộ cho khối lượng công việc lớn
@@ -412,7 +402,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. Triển khai ghi log có cấu trúc
 
@@ -432,7 +421,6 @@ try {
 } catch (Exception e) {
     logger.error("Failed to sign document: {}", filePath, e);
 }
-```
 ```
 
 ### 4. Tối ưu cài đặt mã vạch để tăng tốc
@@ -455,7 +443,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## Khi nào nên sử dụng chữ ký mã vạch
@@ -487,7 +474,6 @@ A: Chắc chắn. Đổi enum `BarcodeTypes` thành `QRCode` và điều chỉnh
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **Q: Cài đặt Maven nào được khuyến nghị cho môi trường sản xuất?**  
 A: Đặt cố định phiên bản chính xác trong `pom.xml` (ví dụ, `23.10.0`) để tránh nâng cấp tình cờ, và bật plugin Maven `shade` để tạo một JAR thực thi duy nhất.
@@ -500,7 +486,6 @@ A: Đặt cố định phiên bản chính xác trong `pom.xml` (ví dụ, `23.1
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **Q: Thư viện có hỗ trợ PDF được bảo vệ bằng mật khẩu không?**  
 A: Có. Cung cấp mật khẩu khi tạo đối tượng `Signature`, sau đó tiếp tục ký như bình thường.
@@ -510,7 +495,6 @@ A: Có. Cung cấp mật khẩu khi tạo đối tượng `Signature`, sau đó 
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **Q: Tôi có thể ký bao nhiêu trang trong một thao tác?**  

@@ -118,13 +118,11 @@ GroupDocs.Signature integreras smidigt med Maven eller Gradle. Välj det byggver
     <version>23.12</version>
 </dependency>
 ```
-```
 
 **Gradle‑inställning**  
 ```markdown
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
-```
 ```
 
 Om du föredrar manuell JAR‑hantering, ladda ner den senaste versionen från [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) och lägg till den i din classpath.
@@ -161,7 +159,6 @@ public class InitializeSignature {
     }
 }
 ```
-```
 
 **Förklaring:**  
 - `filePath` pekar på käll‑PDF‑filen du vill signera.  
@@ -192,7 +189,6 @@ public class Feature1 {
         }
     }
 }
-```
 ```
 
 **Genomgång av nyckelinställningar:**
@@ -259,7 +255,6 @@ public class Feature2 {
     }
 }
 ```
-```
 
 ### Steg 3: Signera dokumentet
 
@@ -271,7 +266,6 @@ signOptions.setEncodeType(BarcodeTypes.QR); // QR codes for more data
 signOptions.setForeColor(Color.BLACK);
 signOptions.setBackgroundColor(Color.WHITE);
 // Remove border and fancy styling for professional appearance
-```
 ```
 
 **Bakom kulisserna:**  
@@ -312,7 +306,6 @@ public class Feature3 {
         }
     }
 }
-```
 ```
 
 Se till att sökvägen använder framåtsnedstreck (`C:/Docs/sample.pdf`) eller escape‑tecken för bakåtsnedstreck (`C:\\Docs\\sample.pdf`). Verifiera OS‑behörigheter och stäng eventuella program som kan låsa filen.
@@ -355,7 +348,6 @@ if (!Files.isReadable(filePath)) {
 // Now safe to initialize
 Signature signature = new Signature(filePath.toString());
 ```
-```
 
 ### Problem 4: Ogiltigt streckkodsdata‑fel
 
@@ -375,7 +367,6 @@ if (type == BarcodeTypes.EAN13 && !barcodeData.matches("\\d+")) {
     throw new IllegalArgumentException("EAN13 requires numeric data only");
 }
 ```
-```
 
 ## Bästa praxis för produktion
 
@@ -391,7 +382,6 @@ try (Signature signature = new Signature(filePath)) {
 } catch (Exception e) {
     // Handle invalid PDF
 }
-```
 ```
 
 ### 2. Använd asynkron bearbetning för högvolym‑arbetsbelastningar
@@ -414,7 +404,6 @@ pdfFiles.forEach(file -> {
 });
 executor.shutdown();
 ```
-```
 
 ### 3. Implementera strukturerad loggning
 
@@ -434,7 +423,6 @@ try {
 } catch (Exception e) {
     logger.error("Failed to sign document: {}", filePath, e);
 }
-```
 ```
 
 ### 4. Optimera streckkodinställningar för hastighet
@@ -457,7 +445,6 @@ try {
     logger.warn("License validation failed. Using trial mode.");
     // Continue with trial limitations
 }
-```
 ```
 
 ## När man bör använda streckkodssignaturer
@@ -489,7 +476,6 @@ A: Absolut. Byt `BarcodeTypes`‑enum till `QRCode` och justera storleksparametr
 ```java
 signOptions.setEncodeType(BarcodeTypes.QR);
 ```
-```
 
 **Q: Vad är den rekommenderade Maven‑inställningen för produktionsanvändning?**  
 A: Fäst den exakta versionen i `pom.xml` (t.ex. `23.10.0`) för att undvika oavsiktliga uppgraderingar, och aktivera Maven `shade`‑pluginet för att producera en enda körbara JAR.
@@ -502,7 +488,6 @@ A: Fäst den exakta versionen i `pom.xml` (t.ex. `23.10.0`) för att undvika oav
     <version>23.12</version> <!-- Don't use LATEST -->
 </dependency>
 ```
-```
 
 **Q: Stöder biblioteket lösenordsskyddade PDF-filer?**  
 A: Ja. Ange lösenordet när du konstruerar `Signature`‑objektet, och fortsätt sedan med signeringen som vanligt.
@@ -512,7 +497,6 @@ A: Ja. Ange lösenordet när du konstruerar `Signature`‑objektet, och fortsät
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("your_pdf_password");
 Signature signature = new Signature(filePath, loadOptions);
-```
 ```
 
 **Q: Hur många sidor kan jag signera i ett enda operation?**  
