@@ -1218,11 +1218,6 @@ public BarcodeSignOptions getOptimalOptions(String documentPath, String text) {
 **测试环境：** GroupDocs.Signature 23.9 for Java  
 **作者：** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## 相关教程
 
 - [如何使用 GroupDocs.Signature 在 Java 中验证条形码签名](/signature/java/search-verification/groupdocs-signature-java-document-verification/)

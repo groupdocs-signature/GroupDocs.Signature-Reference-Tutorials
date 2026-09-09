@@ -1220,11 +1220,6 @@ A: Yes – provide the password when creating the `Signature` object; the API wi
 **Tested With:** GroupDocs.Signature 23.9 for Java  
 **Author:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Related Tutorials
 
 - [How to Verify Barcode Signatures in Java with GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)

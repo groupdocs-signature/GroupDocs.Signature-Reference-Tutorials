@@ -1212,11 +1212,6 @@ A: 能 – 在建立 `Signature` 物件時提供密碼，API 會在內部解鎖�
 **測試環境：** GroupDocs.Signature 23.9 for Java  
 **作者：** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## 相關教學
 
 - [How to Verify Barcode Signatures in Java with GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)

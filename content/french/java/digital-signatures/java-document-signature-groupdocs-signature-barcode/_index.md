@@ -1145,11 +1145,6 @@ R : Oui – fournissez le mot de passe lors de la création de l’objet `Sign
 **Testé avec :** GroupDocs.Signature 23.9 pour Java  
 **Auteur :** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Tutoriels associés
 
 - [Comment vérifier les signatures de code‑barres en Java avec GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)

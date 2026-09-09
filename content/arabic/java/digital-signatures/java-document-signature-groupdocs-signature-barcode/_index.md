@@ -1136,11 +1136,6 @@ public BarcodeSignOptions getOptimalOptions(String documentPath, String text) {
 **تم الاختبار مع:** GroupDocs.Signature 23.9 لجافا  
 **المؤلف:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## دروس ذات صلة
 - [كيفية التحقق من توقيعات الباركود في جافا باستخدام GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)
 - [كيفية البحث عن التوقيعات الرقمية في مستندات جافا باستخدام GroupDocs](/signature/java/search-verification/groupdocs-signature-java-digital-search-tutorial/)

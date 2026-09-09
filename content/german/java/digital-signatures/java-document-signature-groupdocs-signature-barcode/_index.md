@@ -1218,11 +1218,6 @@ A: Ja – geben Sie das Passwort beim Erstellen des `Signature`‑Objekts an; di
 **Tested With:** GroupDocs.Signature 23.9 for Java  
 **Author:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Verwandte Tutorials
 
 - [How to Verify Barcode Signatures in Java with GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)

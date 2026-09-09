@@ -1212,11 +1212,6 @@ public BarcodeSignOptions getOptimalOptions(String documentPath, String text) {
 **Tested With:** GroupDocs.Signature 23.9 for Java  
 **Author:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Související tutoriály
 
 - [Jak ověřit čárové podpisy v Javě pomocí GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)

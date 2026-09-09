@@ -1218,11 +1218,6 @@ R: Sim – forneça a senha ao criar o objeto `Signature`; a API desbloqueará o
 **Testado com:** GroupDocs.Signature 23.9 for Java  
 **Autor:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Tutoriais Relacionados
 
 - [Como Verificar Assinaturas de Barcode em Java com GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)

@@ -1,68 +1,123 @@
 ---
 categories:
 - Document Processing
-date: '2026-03-14'
-description: Tìm hiểu cách tùy chỉnh giao diện chữ ký với hiệu ứng gradient trong
-  Java bằng GroupDocs.Signature. Bao gồm các ví dụ mã đầy đủ và hướng dẫn khắc phục
-  sự cố.
-keywords: java digital signature with gradient effect, customize document signature
-  appearance java, groupdocs signature gradient brush tutorial, java pdf signature
-  styling, gradient brush document signing java code
-lastmod: '2026-03-14'
-linktitle: Java Gradient Signature Tutorial
+date: '2026-07-25'
+description: Tạo chữ ký kỹ thuật số gradient trong Java bằng GroupDocs.Signature.
+  Tìm hiểu cách áp dụng gradient brushes, tùy chỉnh giao diện và khắc phục các vấn
+  đề thường gặp.
+keywords:
+- create gradient digital signature
+- gradient brush Java
+- GroupDocs signature styling
+- digital signature gradient
+lastmod: '2026-07-25'
+linktitle: Hướng dẫn Chữ ký Gradient Java
+og_description: Tạo chữ ký kỹ thuật số gradient trong Java với GroupDocs.Signature.
+  Hướng dẫn này trình bày chi tiết cách tạo kiểu cho chữ ký bằng gradient brushes,
+  cấu hình vị trí và xử lý các vấn đề thường gặp.
+og_image_alt: 'Guide: Create gradient digital signature in Java using GroupDocs.Signature'
+og_title: Tạo Chữ ký Kỹ thuật số Gradient trong Java – Hướng dẫn của GroupDocs
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-25'
+  description: Create gradient digital signature in Java using GroupDocs.Signature.
+    Learn how to apply gradient brushes, customize appearance, and troubleshoot common
+    issues.
+  headline: Create Gradient Digital Signature in Java with GroupDocs
+  type: TechArticle
+- description: Create gradient digital signature in Java using GroupDocs.Signature.
+    Learn how to apply gradient brushes, customize appearance, and troubleshoot common
+    issues.
+  name: Create Gradient Digital Signature in Java with GroupDocs
+  steps:
+  - name: Initialise Signature Options
+    text: 'First, we define what the signature will contain. The `TextSignOptions`
+      class handles text‑based signatures. **Definition anchor**: `TextSignOptions`
+      represents the configuration for a textual signature, including text content,
+      font, colour, and visual effects. The snippet creates a basic signature '
+  - name: Customise Background with Gradient Brush
+    text: 'Next, we apply a linear gradient brush to give the signature a polished
+      look. **Definition anchor**: `LinearGradientBrush` describes a colour transition
+      that fills a shape along a straight line, defined by start and end colours and
+      an angle. Key points: - `setColor(Color.GREEN)` provides a fallback '
+  - name: Set Signature Positioning
+    text: 'Now we tell the engine where to place the signature on the page. **Definition
+      anchor**: `SignatureOptions` (the base class for all option types) holds common
+      properties such as alignment, margins, and size. Understanding alignment vs.
+      margin: - **Alignment** anchors the signature (e.g., `HorizontalA'
+  - name: Apply Signature and Save
+    text: 'Finally, we sign the document and write the result to a new file. **Definition
+      anchor**: `SignResult` provides detailed information about the outcome of a
+      signing operation, including succeeded and failed signatures. The `sign()` method
+      takes the source file, applies the configured options, and crea'
+  type: HowTo
+- questions:
+  - answer: Yes. GroupDocs.Signature is pure Java and works in any Java‑based backend,
+      including Spring Boot, Jakarta EE, or microservice frameworks.
+    question: Can I use this in a web‑based Java service?
+  - answer: Only marginally. The gradient is stored as a visual appearance stream,
+      typically adding a few kilobytes to the file.
+    question: Does the gradient affect the size of the signed PDF?
+  - answer: 'Pass the password when creating the `Signature` object: `new Signature("file.pdf",
+      "password")`.'
+    question: How do I sign password‑protected PDFs?
+  - answer: Absolutely. Use `ImageSignOptions` and set its `Background` with a `LinearGradientBrush`
+      just like the text example.
+    question: Is it possible to apply the gradient to an image‑based signature instead
+      of text?
+  - answer: GroupDocs currently supports `LinearGradientBrush` only. For radial effects,
+      generate a radial‑gradient PNG and use it as a background image.
+    question: What if I need a radial gradient instead of linear?
+  type: FAQPage
 tags:
 - java
 - digital-signature
 - groupdocs
 - pdf-signing
 - document-styling
-title: Cách tùy chỉnh giao diện chữ ký với gradient trong Java
+- gradient signature
+title: Tạo Chữ ký Kỹ thuật số Gradient trong Java với GroupDocs
 type: docs
 url: /vi/java/advanced-options/sign-document-gradient-brush-java-groupdocs/
 weight: 1
 ---
 
-Now produce final output with the translated markdown.
+# Tạo chữ ký số gradient trong Java với GroupDocs
 
-# Cách tùy chỉnh giao diện chữ ký với gradient trong Java
-
-Bạn có bao giờ nhận thấy một số tài liệu được ký số trông, à… nhàm chán? Chỉ là văn bản đơn giản trên nền trắng? Nếu bạn đang xây dựng một ứng dụng cần chữ ký tài liệu chuyên nghiệp—như hợp đồng, hoá đơn hoặc chứng chỉ—bạn sẽ muốn một thứ gì đó nổi bật mà vẫn giữ được tính năng. **Trong hướng dẫn này, bạn sẽ học cách tùy chỉnh giao diện chữ ký bằng cách áp dụng brush gradient trong Java.** Tạo chữ ký số gradient không chỉ mang lại vẻ ngoài tinh tế mà còn củng cố nhận diện thương hiệu và cải thiện độ tin cậy cảm nhận.
+Nếu bạn cần **tạo chữ ký số gradient** các đối tượng trông tinh tế, phù hợp với màu sắc thương hiệu và vẫn đáp ứng các tiêu chuẩn mật mã, bạn đang ở đúng nơi. Trong hướng dẫn này, chúng tôi sẽ đi qua mọi thứ bạn cần—từ việc thêm thư viện GroupDocs.Signature vào dự án, cấu hình bút vẽ gradient tuyến tính, định vị chữ ký và xử lý các vấn đề phổ biến nhất. Khi kết thúc, bạn sẽ có thể nhúng các chữ ký gradient hấp dẫn vào PDF, tệp Word hoặc hình ảnh chỉ với vài dòng mã Java.
 
 ## Câu trả lời nhanh
-- **Gradient digital signature là gì?** Một yếu tố hình ảnh được ký số sử dụng gradient màu cho nền hoặc phần tô màu chữ.  
-- **Thư viện nào hỗ trợ điều này trong Java?** GroupDocs.Signature for Java cung cấp hỗ trợ brush gradient tích hợp.  
-- **Gradient có ảnh hưởng đến bảo mật mật mã không?** Không. Gradient chỉ là yếu tố hình ảnh; chữ ký số bên dưới vẫn không thay đổi.  
-- **Yêu cầu phiên bản Java nào?** JDK 8 trở lên (khuyến nghị JDK 11+).  
-- **Cần giấy phép cho môi trường sản xuất không?** Có—cần giấy phép GroupDocs.Signature hợp lệ cho việc sử dụng không phải thử nghiệm.  
+- **Chữ ký số gradient là gì?** Một yếu tố hình ảnh được ký số sử dụng gradient màu cho nền hoặc phần tô chữ.  
+- **Thư viện nào hỗ trợ điều này trong Java?** GroupDocs.Signature for Java cung cấp hỗ trợ bút vẽ gradient tích hợp.  
+- **Gradient có ảnh hưởng đến bảo mật mật mã không?** Không. Gradient chỉ là yếu tố hình ảnh; chữ ký số cơ bản vẫn không thay đổi.  
+- **Yêu cầu phiên bản Java nào?** JDK 8 hoặc cao hơn (khuyến nghị JDK 11+).  
+- **Cần giấy phép cho môi trường sản xuất không?** Có—cần giấy phép GroupDocs.Signature hợp lệ cho việc sử dụng không phải thử nghiệm.
 
-## Cách tùy chỉnh giao diện chữ ký với brush gradient trong Java
-Trong phần này, chúng ta sẽ đi qua toàn bộ quy trình—từ cài đặt thư viện đến áp dụng brush gradient tuyến tính cho chữ ký dạng văn bản. Khi kết thúc, bạn sẽ có thể **tạo các đối tượng chữ ký số gradient** trông tinh tế và phù hợp với màu sắc thương hiệu của bạn.
+## Tại sao nên sử dụng bút vẽ gradient cho chữ ký số?
 
-## Tại sao nên sử dụng brush gradient cho chữ ký số?
-Trước khi chúng ta đi vào mã, hãy nói về lý do tại sao bạn muốn hiệu ứng gradient ngay từ đầu.
-
-**Nhất quán thương hiệu**: Nếu công ty của bạn sử dụng bảng màu cụ thể, chữ ký gradient giúp duy trì tính nhất quán về hình ảnh trên mọi tài liệu. Một công ty dịch vụ tài chính có thể dùng gradient xanh‑đến‑trắng để tạo cảm giác tin cậy, trong khi một agency sáng tạo có thể táo bạo với các chuyển đổi màu sắc sống động.  
-**Cấu trúc tài liệu**: Hiệu ứng gradient có thể giúp phân biệt các loại chữ ký. Bạn có thể dùng gradient nhẹ cho các phê duyệt tiêu chuẩn và gradient nổi bật hơn cho chữ ký của giám đốc hoặc ủy quyền pháp lý.  
-**Thu hút thị giác mà không ảnh hưởng**: Điều thú vị là bạn có thể có phong cách chuyên nghiệp mà không làm giảm bảo mật mật mã của chữ ký số. Gradient chỉ là yếu tố hình ảnh; tính hợp lệ của chữ ký vẫn giữ nguyên.  
-**Giảm cảm giác giả mạo**: Các tài liệu có chữ ký được thiết kế thường trông xác thực hơn với người dùng cuối. Mặc dù điều này không tăng bảo mật thực tế, nhưng nó cải thiện cảm nhận về tính hợp pháp (điều quan trọng cho niềm tin của người dùng).  
+Bút vẽ gradient cho phép bạn thêm các chuyển màu nhất quán với thương hiệu vào nền của chữ ký, làm cho tài liệu ký trông chuyên nghiệp và đáng tin cậy hơn. Chữ ký gradient cải thiện thứ tự thị giác, giúp phân biệt các cấp phê duyệt và củng cố nhận diện thương hiệu mà không làm suy giảm tính toàn vẹn mật mã của chữ ký.
 
 ## Những gì bạn sẽ học
-- Cài đặt GroupDocs.Signature cho Java trong dự án của bạn (Maven, Gradle, hoặc thủ công)  
-- Tạo chữ ký dạng văn bản với hiệu ứng brush gradient tuyến tính  
-- **Tùy chỉnh giao diện chữ ký**, vị trí và độ trong suốt  
-- Khắc phục các vấn đề phổ biến mà các nhà phát triển gặp phải  
-- Tối ưu hiệu suất cho các ứng dụng sản xuất  
-- Áp dụng các thực hành tốt nhất để mã chữ ký dễ bảo trì  
+
+Trong hướng dẫn này bạn sẽ học cách cấu hình thư viện GroupDocs.Signature, tạo các chữ ký văn bản kiểu gradient, điều chỉnh các thuộc tính hình ảnh như màu sắc, độ trong suốt và vị trí, và giải quyết các vấn đề thường gặp trong quá trình triển khai. Hướng dẫn cũng bao gồm các mẹo về hiệu suất và các mẫu thực hành tốt nhất để viết mã ký sạch, tái sử dụng.
+
+- Thiết lập GroupDocs.Signature cho Java (Maven, Gradle hoặc thủ công)  
+- Tạo **chữ ký số gradient** với bút vẽ gradient tuyến tính  
+- Tùy chỉnh giao diện, vị trí và độ trong suốt  
+- Khắc phục các vấn đề thường gặp và tối ưu hiệu suất  
+- Áp dụng các mẫu thực hành tốt nhất cho mã ký có thể bảo trì  
 
 ## Yêu cầu trước
-Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-- **Java Development Kit (JDK)**: Phiên bản 8 trở lên (tôi khuyên dùng JDK 11+ để hiệu suất tốt hơn)  
-- **IDE**: IntelliJ IDEA, Eclipse, hoặc VS Code với các extension Java  
-- **Thư viện GroupDocs.Signature cho Java**: Chúng ta sẽ thêm thư viện này qua Maven hoặc Gradle  
-- **Kiến thức cơ bản về Java**: Bạn nên quen thuộc với các đối tượng, phương thức và xử lý ngoại lệ  
+Trước khi bắt đầu, hãy đảm bảo bạn có:
 
-### Thư viện yêu cầu
+- **Java Development Kit (JDK)** 8 hoặc cao hơn (khuyến nghị JDK 11+)  
+- **IDE** (IntelliJ IDEA, Eclipse hoặc VS Code với các extension Java)  
+- Thư viện **GroupDocs.Signature for Java** (được thêm qua Maven, Gradle hoặc JAR thủ công)  
+- Kiến thức cơ bản về các đối tượng Java, phương thức và xử lý ngoại lệ  
+
+### Thư viện cần thiết
+
 Thêm GroupDocs.Signature vào dự án của bạn bằng công cụ xây dựng ưa thích.
 
 **Đối với Maven** (thêm vào `pom.xml` của bạn):
@@ -79,24 +134,27 @@ Thêm GroupDocs.Signature vào dự án của bạn bằng công cụ xây dựn
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Cài đặt thủ công**: Nếu bạn không dùng công cụ xây dựng (mặc dù tôi khuyên bạn nên dùng), bạn có thể tải file JAR trực tiếp từ [GroupDocs Signatures releases](https://releases.groupdocs.com/signature/java/) và thêm vào classpath của dự án.
+**Cài đặt thủ công**: Nếu bạn không sử dụng công cụ xây dựng (mặc dù chúng tôi khuyên dùng), tải JAR từ [GroupDocs Signatures releases](https://releases.groupdocs.com/signature/java/) và thêm vào classpath của bạn.
 
-### Cách lấy giấy phép
-GroupDocs cung cấp bản dùng thử miễn phí rất phù hợp cho việc thử nghiệm và phát triển. Đối với môi trường sản xuất, bạn sẽ cần giấy phép. Dưới đây là cách bắt đầu:
+### Nhận giấy phép
 
-1. **Dùng thử miễn phí**: Truy cập [GroupDocs Free Trial](https://releases.groupdocs.com/) để tải về mà không cần cam kết  
-2. **Giấy phép tạm thời**: Nhận giấy phép tạm thời 30 ngày từ [GroupDocs Temporary License](https://purchase.groupdocs.com/temporary-license/) để thử nghiệm đầy đủ tính năng  
-3. **Giấy phép đầy đủ**: Khi bạn sẵn sàng cho sản xuất, xem các tùy chọn giá của họ  
+GroupDocs cung cấp bản dùng thử miễn phí cho phát triển, nhưng cần giấy phép sản xuất cho việc sử dụng thương mại.
 
-Phiên bản dùng thử có watermark đánh dấu đánh giá, vì vậy hãy lấy giấy phép tạm thời nếu bạn đang xây dựng bất kỳ sản phẩm nào hướng tới khách hàng.
+1. **Dùng thử miễn phí** – tải xuống từ [GroupDocs Free Trial](https://releases.groupdocs.com/)  
+2. **Giấy phép tạm thời** – nhận khóa 30‑ngày từ [GroupDocs Temporary License](https://purchase.groupdocs.com/temporary-license/) để thử đầy đủ tính năng  
+3. **Giấy phép đầy đủ** – mua qua cổng giá cho triển khai sản xuất  
+
+Bản dùng thử sẽ thêm watermark đánh dấu đánh giá, vì vậy hãy lấy giấy phép tạm thời hoặc đầy đủ trước khi phát hành ứng dụng cho khách hàng.
 
 ## Cài đặt GroupDocs.Signature cho Java
-Hãy chuẩn bị môi trường phát triển của bạn. Cài đặt này hoạt động dù bạn đang bắt đầu một dự án mới hay tích hợp vào ứng dụng hiện có.
+
+Hãy chuẩn bị môi trường. Điều này áp dụng cho dự án mới và cho việc tích hợp vào các codebase hiện có.
 
 ### Các bước cài đặt
-**1. Thêm phụ thuộc** (chúng ta đã đề cập ở trên—Maven hoặc Gradle)  
 
-**2. Xác minh cài đặt** bằng cách tạo một lớp kiểm tra đơn giản:
+1. **Thêm phụ thuộc** (đã đề cập ở trên).  
+2. **Xác minh cài đặt** bằng cách tạo một lớp kiểm tra đơn giản:
+
 ```java
 import com.groupdocs.signature.Signature;
 
@@ -107,7 +165,10 @@ public class SignatureTest {
 }
 ```
 
-**3. Thiết lập cấu trúc thư mục tài liệu**. Tôi thích sắp xếp như sau:
+Nếu lớp này biên dịch mà không có lỗi, bạn đã sẵn sàng tiếp tục.
+
+3. **Tổ chức các thư mục tài liệu** – cấu trúc sạch sẽ giúp khi xử lý nhiều tệp:
+
 ```
 project-root/
 ├── src/
@@ -117,7 +178,8 @@ project-root/
 └── pom.xml (or build.gradle)
 ```
 
-**4. Khởi tạo cơ bản** (đây là nơi phép thuật bắt đầu):
+4. **Khởi tạo cơ bản** – đối tượng `Signature` là điểm vào cho mọi thao tác ký:
+
 ```java
 import com.groupdocs.signature.Signature;
 import com.groupdocs.signature.exception.GroupDocsSignatureException;
@@ -142,13 +204,18 @@ public class BasicSignatureSetup {
 }
 ```
 
-**Mẹo chuyên nghiệp**: Luôn bao quanh đối tượng `Signature` bằng câu lệnh try‑with‑resources hoặc gọi `dispose()` thủ công. GroupDocs giữ các handle file, và nếu quên giải phóng sẽ gây lỗi "file in use" (hỏi tôi làm sao biết).
+**Mẹo chuyên nghiệp**: Đặt đối tượng `Signature` trong khối try‑with‑resources hoặc gọi `dispose()` thủ công. Quên giải phóng tài nguyên tệp sẽ gây lỗi “file in use”.
 
 ## Hướng dẫn triển khai: Tạo chữ ký gradient
-Bây giờ là phần thú vị—hãy xây dựng một chữ ký với hiệu ứng brush gradient. Chúng ta sẽ bắt đầu đơn giản và dần thêm độ phức tạp.
+
+Bây giờ chúng ta sẽ xây dựng **chữ ký số gradient** từng bước.
 
 ### Bước 1: Khởi tạo tùy chọn chữ ký
-Đầu tiên, chúng ta định nghĩa nội dung và hành vi của chữ ký. Lớp `TextSignOptions` xử lý các chữ ký dạng văn bản:
+
+Đầu tiên, chúng ta định nghĩa nội dung chữ ký. Lớp `TextSignOptions` xử lý các chữ ký dựa trên văn bản.
+
+**Định nghĩa**: `TextSignOptions` đại diện cho cấu hình của một chữ ký văn bản, bao gồm nội dung, phông chữ, màu và các hiệu ứng hình ảnh.
+
 ```java
 import com.groupdocs.signature.domain.enums.HorizontalAlignment;
 import com.groupdocs.signature.domain.enums.VerticalAlignment;
@@ -157,12 +224,14 @@ import com.groupdocs.signature.domain.signatures.TextSignOptions;
 TextSignOptions options = new TextSignOptions("John Smith");
 ```
 
-Điều này tạo một chữ ký cơ bản với văn bản "John Smith". Đơn giản đúng không? Nhưng nếu chỉ như vậy, nó sẽ chỉ là văn bản đen trên nền trong suốt—nhàm chán. Đó là lúc gradient xuất hiện.
+Đoạn mã tạo một chữ ký cơ bản có nội dung “John Smith”. Khi chỉ có nó, chữ ký sẽ xuất hiện dưới dạng văn bản đen trên nền trong suốt – không hấp dẫn lắm.
 
-**Tại sao tách các tùy chọn ra khỏi đối tượng chữ ký?** Mẫu thiết kế này cho phép bạn tái sử dụng cùng một cấu hình chữ ký cho nhiều tài liệu. Thiết lập một lần, áp dụng ở mọi nơi.
+### Bước 2: Tùy chỉnh nền với bút vẽ gradient
 
-### Bước 2: Tùy chỉnh nền với brush gradient
-Đây là nơi chữ ký của bạn bắt đầu trông chuyên nghiệp. Chúng ta sẽ tạo một gradient tuyến tính chuyển từ màu xanh lá sang trắng:
+Tiếp theo, chúng ta áp dụng bút vẽ gradient tuyến tính để tạo vẻ ngoài chuyên nghiệp cho chữ ký.
+
+**Định nghĩa**: `LinearGradientBrush` mô tả một chuyển màu lấp đầy hình dạng dọc theo một đường thẳng, được xác định bởi màu bắt đầu, màu kết thúc và góc.
+
 ```java
 import com.groupdocs.signature.domain.Background;
 import com.groupdocs.signature.domain.extensions.brushes.LinearGradientBrush;
@@ -185,15 +254,20 @@ background.setBrush(brush);
 options.setBackground(background);
 ```
 
-**Hãy phân tích các bước đang diễn ra:**
-- **Màu cơ bản**: `setColor(Color.GREEN)` đặt màu nền cố định. Nếu gradient thất bại (hiếm, nhưng có thể), màu này sẽ hiển thị.  
-- **Độ trong suốt**: `setTransparency(0.5f)` làm chữ ký bán trong suốt. Điều này quan trọng cho các tài liệu mà bạn không muốn che khuất văn bản nền. Giá trị gần 0 thì đậm hơn; gần 1 thì trong suốt hơn.  
-- **Góc gradient**: `45` nghĩa là gradient chảy chéo từ trên‑trái xuống dưới‑phải. Dùng `0` cho ngang (trái → phải), `90` cho dọc (trên → dưới), hoặc bất kỳ góc nào ở giữa.  
+Các điểm chính:
 
-**Lựa chọn màu sắc quan trọng**: Gradient xanh‑đến‑trắng gợi ý phê duyệt hoặc xác nhận (như tín hiệu “đi”). Gradient xanh‑đến‑trắng truyền cảm giác tin cậy và chuyên nghiệp. Gradient đỏ‑đến‑trắng có thể chỉ sự khẩn cấp hoặc quan trọng. Hãy chọn màu phù hợp với mục đích tài liệu và nhận diện thương hiệu.
+- `setColor(Color.GREEN)` cung cấp màu nền rắn dự phòng nếu gradient không thể vẽ.  
+- `setTransparency(0.5f)` làm chữ ký bán trong suốt, ngăn không che khuất văn bản bên dưới. Giá trị gần 0 là đục; gần 1 là gần như vô hình.  
+- Góc `45` tạo chuyển màu chéo từ trên‑trái sang dưới‑phải. Dùng `0` cho ngang, `90` cho dọc, hoặc bất kỳ góc nào ở giữa.
+
+Chọn các màu phù hợp với thương hiệu (ví dụ, xanh‑dương‑đến‑trắng cho sự tin cậy, xanh‑lục‑đến‑trắng cho phê duyệt) sẽ giúp chữ ký ngay lập tức nhận diện được.
 
 ### Bước 3: Đặt vị trí chữ ký
-Bây giờ chúng ta cần chỉ định *vị trí* chữ ký trên tài liệu. Đặt vị trí khó hơn so với vẻ ngoài vì bạn phải cân bằng giữa khả năng nhìn thấy và không che khuất nội dung quan trọng:
+
+Bây giờ chúng ta chỉ định nơi đặt chữ ký trên trang.
+
+**Định nghĩa**: `SignatureOptions` (lớp cơ sở cho tất cả các loại tùy chọn) chứa các thuộc tính chung như căn chỉnh, lề và kích thước.
+
 ```java
 import com.groupdocs.signature.domain.Padding;
 
@@ -212,17 +286,27 @@ padding.setRight(20);    // 20 units from the right edge
 options.setMargin(padding);
 ```
 
-**Hiểu sự khác nhau giữa alignment và margin**: Hãy xem alignment như điểm neo và margin như độ dịch. Nếu bạn đặt `HorizontalAlignment.Center`, chữ ký sẽ nằm ở trung tâm trang, sau đó margin sẽ dịch nó so với điểm trung tâm đó. Cách tiếp cận hai bước này cho phép bạn kiểm soát chính xác.
+Hiểu sự khác nhau giữa alignment và margin:
 
-**Các mẫu vị trí thường gặp**:  
-- **Góc dưới‑phải**: `HorizontalAlignment.Right`, `VerticalAlignment.Bottom`, kèm margin trên âm  
-- **Vùng tiêu đề**: `VerticalAlignment.Top`, `HorizontalAlignment.Right`, kèm padding  
-- **Giữa trang**: Cả hai alignment đều đặt `Center`, điều chỉnh margin theo ý muốn  
+- **Alignment** neo chữ ký (ví dụ, `HorizontalAlignment.Right`).  
+- **Margin** dịch chuyển điểm neo (ví dụ, `setMarginTop(-10)`).  
 
-**Xem xét kích thước**: Các giá trị `setWidth(100)` và `setHeight(80)` phù hợp với hầu hết tài liệu tiêu chuẩn, nhưng bạn có thể cần điều chỉnh dựa trên kích thước tài liệu và độ dài văn bản chữ ký. Nếu văn bản bị cắt, tăng chiều rộng. Nếu trông chật, tăng chiều cao hoặc giảm kích thước phông chữ.
+Các mẫu thường dùng:
+
+| Vị trí mong muốn | HorizontalAlignment | VerticalAlignment | Giá trị margin điển hình |
+|------------------|--------------------|-------------------|--------------------------|
+| Góc dưới‑phải     | Right              | Bottom            | `setMarginTop(-20)`      |
+| Vùng tiêu đề      | Right              | Top               | `setMarginTop(20)`       |
+| Giữa trang        | Center             | Center            | `setMarginLeft(0)`       |
+
+Điều chỉnh `setWidth` và `setHeight` dựa trên độ dài văn bản và kích thước trang của tài liệu.
 
 ### Bước 4: Áp dụng chữ ký và lưu
-Cuối cùng, hãy ký tài liệu và lưu kết quả. Đây là nơi tất cả cấu hình của bạn hội tụ lại:
+
+Cuối cùng, chúng ta ký tài liệu và ghi kết quả vào một tệp mới.
+
+**Định nghĩa**: `SignResult` cung cấp thông tin chi tiết về kết quả của một thao tác ký, bao gồm các chữ ký thành công và thất bại.
+
 ```java
 import com.groupdocs.signature.Signature;
 import com.groupdocs.signature.domain.SignResult;
@@ -251,12 +335,12 @@ try {
 }
 ```
 
-**Phương thức `sign()` đang làm gì?** Nó nhận tài liệu nguồn, áp dụng các tùy chọn chữ ký đã cấu hình và ghi một file mới với chữ ký được nhúng. File gốc không bị thay đổi (đây là thực hành tốt—không bao giờ sửa đổi trực tiếp tài liệu nguồn).
+Phương thức `sign()` nhận tệp nguồn, áp dụng các tùy chọn đã cấu hình và tạo một tệp mới chứa chữ ký hình ảnh trong khi giữ nguyên tệp gốc. Luôn kiểm tra `signResult.getSucceeded()` để xác nhận thành công.
 
-**Đối tượng `SignResult`** cho bạn biết những gì đã xảy ra. Kiểm tra `getSucceeded()` để xem chữ ký nào được áp dụng thành công và `getFailed()` để bắt các trường hợp không thành công.
+## Ví dụ làm việc đầy đủ
 
-## Ví dụ hoàn chỉnh hoạt động
-Dưới đây là toàn bộ mã được gộp lại trong một lớp có thể chạy được mà bạn có thể sao chép và thử ngay bây giờ:
+Dưới đây là toàn bộ mã kết hợp trong một lớp có thể chạy ngay:
+
 ```java
 import com.groupdocs.signature.Signature;
 import com.groupdocs.signature.domain.Background;
@@ -321,33 +405,30 @@ public class GradientSignatureExample {
 }
 ```
 
-Chạy đoạn mã này với một file PDF trong thư mục `resources/input/` của bạn, và bạn sẽ nhận được phiên bản đã ký với hiệu ứng gradient đẹp mắt.
+Chạy chương trình với một PDF đặt trong `resources/input/`; kết quả sẽ chứa một chữ ký gradient mượt mà.
 
 ## Các trường hợp sử dụng phổ biến
-Hãy xem khi nào và ở đâu chữ ký gradient thực sự hữu ích trong các ứng dụng thực tế.
 
-### 1. Hệ thống quản lý hợp đồng doanh nghiệp
-**Kịch bản**: Bạn đang xây dựng quy trình phê duyệt hợp đồng, trong đó nhiều bên liên quan ký tài liệu ở các giai đoạn khác nhau.  
-**Ứng dụng**: Sử dụng các màu gradient khác nhau để đại diện cho các cấp phê duyệt—giám đốc bộ phận nhận gradient xanh‑đến‑trắng, bộ phận pháp lý gradient vàng‑đến‑trắng, giám đốc điều hành gradient xanh đậm‑đến‑xanh nhạt. Cấu trúc hình ảnh này giúp người dùng ngay lập tức biết ai đã ký và ở cấp độ nào.
+### 1. Quản lý hợp đồng doanh nghiệp
+Các cấp phê duyệt khác nhau có thể được biểu thị bằng các màu gradient riêng—ví dụ, xanh‑dương‑đến‑trắng cho quản lý, vàng‑đến‑trắng cho pháp lý, xanh‑đậm‑đến‑xanh‑nhạt cho giám đốc. Thứ tự thị giác này giúp người xem nhanh chóng nhận biết ai đã ký.
 
-### 2. Xử lý hoá đơn tự động
-**Kịch bản**: Hệ thống kế toán của bạn tự động ký các hoá đơn được tạo trước khi gửi cho khách hàng.  
-**Ứng dụng**: Một gradient nhẹ màu thương hiệu (phù hợp với màu công ty) làm hoá đơn trông chuyên nghiệp hơn và khó giả mạo hơn. Giữ gradient ở mức vừa phải để hoá đơn vẫn dễ đọc.
+### 2. Xử lý hóa đơn tự động
+Áp dụng gradient màu thương hiệu nhẹ nhàng lên hóa đơn trước khi gửi email cho khách hàng. Hiệu ứng này trông chuyên nghiệp trong khi vẫn giữ tài liệu dễ đọc.
 
 ### 3. Tạo chứng chỉ
-**Kịch bản**: Bạn tạo chứng chỉ hoàn thành cho các khóa học trực tuyến hoặc chương trình đào tạo.  
-**Ứng dụng**: Gradient sống động, lễ hội (vàng‑đến‑vàng nhạt hoặc xanh‑đến‑tím) làm cho chứng chỉ cảm giác chính thức và đáng chia sẻ. Sự hấp dẫn về hình ảnh tăng giá trị cảm nhận và khuyến khích chia sẻ xã hội.
+Sử dụng gradient sống động (tím‑đến‑hồng, vàng‑đến‑vàng) trên chứng chỉ để chúng trông chính thức và đáng chia sẻ. Sự hấp dẫn về mặt hình ảnh tăng giá trị cảm nhận.
 
-### 4. Đánh dấu tài liệu (Watermarking)
-**Kịch bản**: Bạn cần đánh dấu tài liệu là “Bản nháp”, “Bảo mật”, hoặc “Đã phê duyệt”.  
-**Ứng dụng**: Mặc dù không phải là chữ ký, bạn có thể tái sử dụng kỹ thuật gradient với văn bản trong suốt để tạo watermark bắt mắt mà không che khuất nội dung nền. Đặt độ trong suốt ở mức 0.7‑0.8 để có hiệu ứng nhẹ.
+### 4. Đánh dấu tài liệu
+Tái sử dụng kỹ thuật gradient với văn bản trong suốt để tạo watermark “Draft”, “Confidential”, hoặc “Approved” mà không che khuất nội dung. Đặt độ trong suốt 0.7‑0.8 để có hiệu ứng nhẹ nhàng.
 
 ## Khắc phục các vấn đề thường gặp
-Dưới đây là những vấn đề tôi đã gặp (và giải quyết) khi làm việc với chữ ký gradient. Tiết kiệm thời gian gỡ lỗi của bạn.
 
-### Vấn đề 1: "File is being used by another process"
-**Triệu chứng**: Ứng dụng của bạn ném ngoại lệ báo không thể truy cập file, mặc dù không có chương trình nào khác mở nó.  
-**Nguyên nhân**: Bạn quên gọi `signature.dispose()` hoặc không đóng đúng cách đối tượng `Signature`. Java giữ handle file cho đến khi đối tượng bị thu gom bộ nhớ.  
+Dưới đây là các vấn đề tôi đã gặp (và giải quyết) khi làm việc với chữ ký gradient.
+
+### Vấn đề 1: “File is being used by another process”
+
+**Câu trả lời trực tiếp (40‑70 từ)**: Ngoại lệ xảy ra vì đối tượng `Signature` vẫn giữ một handle tệp mở. Luôn đóng hoặc giải phóng đối tượng `Signature` sau khi ký. Sử dụng khối try‑with‑resources sẽ tự động giải phóng tệp, ngăn lỗi “file in use” trong các thao tác tiếp theo.
+
 **Giải pháp**:
 ```java
 // Always use try‑with‑resources (Java 7+)
@@ -371,18 +452,23 @@ try {
 }
 ```
 
-### Vấn đề 2: Chữ ký hiển thị nhưng gradient không xuất hiện
-**Triệu chứng**: Bạn thấy văn bản chữ ký, nhưng chỉ là màu đồng nhất.  
-**Có thể nguyên nhân**:  
-1. **Trình xem PDF không hỗ trợ gradient** – thử với Adobe Acrobat, Foxit Reader, hoặc trình duyệt hiện đại.  
-2. **Độ trong suốt được đặt quá cao** – `setTransparency(1.0f)` làm gradient không hiển thị. Thử 0.3‑0.7.  
-3. **Brush chưa được áp dụng** – đảm bảo bạn đã gọi `background.setBrush(brush)` *và* `options.setBackground(background)`.  
+### Vấn đề 2: Chữ ký xuất hiện nhưng gradient không hiển thị
 
-**Mẹo gỡ lỗi**: Đầu tiên dùng màu tương phản cao (ví dụ `Color.RED` tới `Color.BLUE`). Nếu vẫn không thấy gradient, cấu hình sai chứ không phải màu.
+**Câu trả lời trực tiếp**: Gradient có thể không hiển thị nếu trình xem không hỗ trợ, độ trong suốt được đặt thành 1.0, hoặc bút vẽ chưa được gắn đúng. Kiểm tra trình xem PDF (Adobe Acrobat, Foxit hoặc trình duyệt hiện đại), đặt độ trong suốt trong khoảng 0.3‑0.7, và đảm bảo gọi `background.setBrush(brush)` và `options.setBackground(background)`.
+
+**Nguyên nhân có thể**:
+
+1. Trình xem không hỗ trợ gradient – thử với trình xem hiện đại.  
+2. Độ trong suốt quá cao – giảm xuống 0.3‑0.7.  
+3. Bút vẽ chưa được áp dụng – kiểm tra lại các lời gọi phương thức.
+
+**Mẹo gỡ lỗi**: Bắt đầu với các màu tương phản cao (ví dụ, đỏ‑đến‑xanh) để xác nhận gradient được vẽ trước khi tinh chỉnh.
 
 ### Vấn đề 3: Chữ ký chồng lên nội dung quan trọng của tài liệu
-**Triệu chứng**: Chữ ký gradient trông tuyệt vời nhưng che khuất văn bản quan trọng hoặc trường biểu mẫu.  
-**Giải pháp**: Điều chỉnh vị trí động dựa trên nội dung tài liệu. Đây là mẫu tôi dùng:
+
+**Câu trả lời trực tiếp**: Việc chồng lên xảy ra khi các giá trị vị trí đặt chữ ký lên trên văn bản hoặc trường biểu mẫu hiện có. Tính toán không gian trống động hoặc sử dụng phân tích mức trang để tự động di chuyển chữ ký.
+
+**Mẫu giải pháp**:
 ```java
 // For documents with content primarily at the top
 options.setVerticalAlignment(VerticalAlignment.Bottom);
@@ -397,18 +483,12 @@ padding.setTop(600);     // Absolute Y position
 padding.setLeft(400);    // Absolute X position
 options.setMargin(padding);
 ```
-**Cách tiếp cận tốt hơn**: Phân tích tài liệu trước để tìm khoảng trống, sau đó đặt chữ ký ở đó bằng lập trình.
 
 ### Vấn đề 4: Vấn đề hiệu suất với tài liệu lớn
-**Triệu chứng**: Việc ký mất nhiều thời gian đối với PDF có nhiều trang hoặc hình ảnh độ phân giải cao.  
-**Nguyên nhân**: GroupDocs xử lý toàn bộ tài liệu, và gradient phức tạp tăng tải render.  
-**Giải pháp**:  
-1. **Chỉ ký các trang cụ thể** thay vì toàn bộ file.  
-2. **Dùng gradient đơn giản hơn** – gradient tuyến tính hai màu nhanh hơn gradient radial hoặc đa điểm.  
-3. **Giảm kích thước chữ ký** – chiều rộng/chiều cao nhỏ hơn giảm công việc render.  
-4. **Xử lý bất đồng bộ** – không chặn luồng chính khi ký.  
 
-**Ví dụ về hiệu suất**:
+**Câu trả lời trực tiếp**: Ký các PDF lớn có thể chậm vì GroupDocs xử lý toàn bộ tệp và vẽ gradient cho mỗi trang. Hạn chế ký chỉ các trang cụ thể, dùng gradient hai màu đơn giản, giảm kích thước chữ ký, và chạy thao tác bất đồng bộ để giữ UI phản hồi nhanh.
+
+**Ví dụ hiệu suất**:
 ```java
 // Faster configuration
 TextSignOptions options = new TextSignOptions("Approved");
@@ -423,20 +503,21 @@ LinearGradientBrush brush = new LinearGradientBrush(
 );
 ```
 
-### Vấn đề 5: Màu sắc không khớp với mong đợi
-**Triệu chứng**: Gradient của bạn trông khác so với những gì bạn đã chỉ định trong mã.  
-**Nguyên nhân**:  
-1. **Khác biệt không gian màu RGB** – `Color` của Java dùng sRGB, nhưng PDF có thể render trong không gian khác.  
-2. **Tương tác độ trong suốt** – Gradient bán trong suốt hòa với nền tài liệu, làm thay đổi màu cảm nhận.  
-3. **Hiệu chuẩn màn hình** – Những gì bạn thấy trên màn hình có thể khác với người khác.  
+### Vấn đề 5: Màu sắc không như mong đợi
 
-**Giải pháp**: Kiểm tra tài liệu ký trên nhiều thiết bị và trình xem PDF. Nếu tính nhất quán thương hiệu quan trọng, dùng giá trị RGB chính xác và xác minh trên các nền tảng. Giữ độ trong suốt khoảng 0.3‑0.5 để giảm thay đổi màu.
+**Câu trả lời trực tiếp**: Sự chệch màu xuất phát từ chuyển đổi không gian màu RGB‑to‑PDF, pha trộn độ trong suốt, hoặc khác biệt hiệu chuẩn màn hình. Sử dụng giá trị sRGB chính xác, giữ độ trong suốt ở mức vừa (0.3‑0.5), và kiểm tra trên nhiều trình xem để đảm bảo màu sắc đồng nhất với thương hiệu.
 
-## Các thực hành tốt nhất cho ứng dụng sản xuất
-Đây là những gì tôi đã học được khi sử dụng chữ ký gradient trong các hệ thống thực tế.
+## Các thực tiễn tốt nhất cho ứng dụng sản xuất
 
-### 1. Trung tâm hoá cấu hình chữ ký
-Đừng rải rác kiểu dáng trong toàn bộ mã. Tạo một lớp trợ giúp:
+| Thực tiễn | Tại sao quan trọng |
+|-----------|--------------------|
+| Trung tâm hoá kiểu dáng trong lớp trợ giúp | Đảm bảo giao diện nhất quán trên mọi tài liệu |
+| Xác thực tài liệu nguồn trước khi ký | Ngăn các tệp hỏng phá vỡ quy trình ký |
+| Ghi lại mọi thao tác ký | Cung cấp nhật ký kiểm toán cho tuân thủ |
+| Xử lý ngoại lệ một cách nhẹ nhàng | Giữ dịch vụ ổn định khi gặp tình huống bất ngờ |
+| Kiểm tra với PDF thực tế (biểu mẫu, ảnh quét, chữ ký hiện có) | Đảm bảo gradient hiển thị đúng trong mọi kịch bản |
+
+**Ví dụ lớp trợ giúp**:
 ```java
 public class SignatureStyles {
     public static TextSignOptions getApprovalSignature(String signerName) {
@@ -464,10 +545,8 @@ public class SignatureStyles {
     // Add more style methods as needed
 }
 ```
-Bây giờ bạn có thể tái sử dụng kiểu một cách nhất quán: `SignatureStyles.getApprovalSignature("Jane Doe")`.
 
-### 2. Xác thực tài liệu trước khi ký
-Luôn kiểm tra tài liệu nguồn hợp lệ:
+**Đoạn mã xác thực tài liệu**:
 ```java
 try {
     Signature signature = new Signature("path/to/document.pdf");
@@ -489,8 +568,7 @@ try {
 }
 ```
 
-### 3. Ghi nhật ký hoạt động chữ ký
-Duy trì nhật ký kiểm toán:
+**Ví dụ ghi log**:
 ```java
 SignResult result = signature.sign(outputPath, options);
 logger.info("Document signed: " + outputPath);
@@ -503,8 +581,7 @@ if (!result.getFailed().isEmpty()) {
 }
 ```
 
-### 4. Xử lý ngoại lệ một cách nhẹ nhàng
-Không bao giờ để lỗi ký làm sập dịch vụ của bạn:
+**Mẫu xử lý ngoại lệ**:
 ```java
 try {
     SignResult result = signature.sign(outputPath, options);
@@ -521,20 +598,11 @@ try {
 }
 ```
 
-### 5. Kiểm tra với tài liệu thực tế
-Không chỉ dựa vào PDF mẫu. Sử dụng các file thực tế từ quy trình của bạn:
-- Mẫu có trường hiện có  
-- Hợp đồng đa trang  
-- Hình ảnh quét (PDF dựa trên hình ảnh)  
-- Tài liệu đã chứa chữ ký  
-
-Mỗi loại có thể hành xử khác nhau khi render gradient.
-
-## Mẹo chuyên nghiệp cho người dùng nâng cao
-Sẵn sàng nâng cấp? Dưới đây là một vài kỹ thuật nâng cao.
+## Mẹo chuyên sâu cho người dùng nâng cao
 
 ### Mẹo 1: Tạo bảng màu tùy chỉnh
 Định nghĩa bảng màu thương hiệu một lần và tái sử dụng:
+
 ```java
 public class BrandColors {
     public static final Color PRIMARY   = new Color(0, 102, 204);
@@ -557,7 +625,7 @@ public static float getOptimalTransparency(Signature signature) {
 }
 ```
 
-### Mẹo 3: Xử lý batch với Thread Pools
+### Mẹo 3: Xử lý hàng loạt với Thread Pools
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(4);
 List<String> files = getDocumentsToSign();
@@ -595,23 +663,30 @@ public static TextSignOptions getStyledSignature(String name, SignatureType type
 ```
 
 ## Câu hỏi thường gặp
-**H: Tôi có thể dùng điều này trong dịch vụ Java dựa trên web không?**  
-**Đ**: Có. GroupDocs.Signature là thuần Java và hoạt động trong bất kỳ backend Java nào, bao gồm dịch vụ Spring Boot hoặc Jakarta EE.
 
-**H: Gradient có ảnh hưởng đến kích thước PDF đã ký không?**  
-**Đ**: Chỉ ảnh hưởng nhẹ. Gradient được lưu như một phần của luồng hiển thị hình ảnh, thường chỉ tăng vài kilobyte.
+**Q: Có thể sử dụng điều này trong dịch vụ Java dựa trên web không?**  
+A: Có. GroupDocs.Signature là thuần Java và hoạt động trên bất kỳ backend Java nào, bao gồm Spring Boot, Jakarta EE hoặc các framework microservice.
 
-**H: Làm sao ký PDF được bảo vệ bằng mật khẩu?**  
-**Đ**: Cung cấp mật khẩu khi tạo đối tượng `Signature`: `new Signature("file.pdf", "password")`.
+**Q: Gradient có ảnh hưởng đến kích thước PDF đã ký không?**  
+A: Chỉ ảnh hưởng nhẹ. Gradient được lưu dưới dạng luồng hiển thị hình ảnh, thường chỉ tăng vài kilobyte cho tệp.
 
-**H: Có thể áp dụng gradient cho chữ ký dựa trên hình ảnh thay vì văn bản không?**  
-**Đ**: Chắc chắn. Dùng `ImageSignOptions` và đặt `Background` với `LinearGradientBrush` giống như ví dụ văn bản.
+**Q: Làm sao ký các PDF được bảo vệ bằng mật khẩu?**  
+A: Cung cấp mật khẩu khi tạo đối tượng `Signature`: `new Signature("file.pdf", "password")`.
 
-**H: Nếu tôi cần gradient dạng radial thay vì linear thì sao?**  
-**Đ**: GroupDocs hiện chỉ hỗ trợ `LinearGradientBrush`. Đối với hiệu ứng radial, bạn có thể tạo trước một hình ảnh gradient radial và dùng nó làm hình nền.
+**Q: Có thể áp dụng gradient cho chữ ký dựa trên hình ảnh thay vì văn bản không?**  
+A: Hoàn toàn có thể. Sử dụng `ImageSignOptions` và đặt `Background` với `LinearGradientBrush` giống như ví dụ văn bản.
+
+**Q: Nếu cần gradient dạng radial thay vì linear thì sao?**  
+A: Hiện tại GroupDocs chỉ hỗ trợ `LinearGradientBrush`. Để có hiệu ứng radial, tạo PNG gradient dạng radial và dùng làm hình nền.
 
 ---
 
-**Cập nhật lần cuối:** 2026-03-14  
-**Đã kiểm tra với:** GroupDocs.Signature 23.12 cho Java  
+**Cập nhật lần cuối:** 2026-07-25  
+**Kiểm tra với:** GroupDocs.Signature 23.12 for Java  
 **Tác giả:** GroupDocs
+
+## Hướng dẫn liên quan
+
+- [Tải và Lưu Tài liệu trong Java - Hướng dẫn đầy đủ GroupDocs.Signature](/signature/java/document-loading-saving/)
+- [Thêm Chữ ký Văn bản vào PDF trong Java - Hướng dẫn đầy đủ GroupDocs](/signature/java/text-signatures/implement-text-signatures-groupdocs-java/)
+- [Hướng dẫn Xác minh Chữ ký Java - Tìm kiếm & Xác thực Chữ ký Số](/signature/java/search-verification/)

@@ -1137,11 +1137,6 @@ A: Sì – fornisci la password quando crei l'oggetto `Signature`; l'API sblocch
 **Testato con:** GroupDocs.Signature 23.9 per Java  
 **Autore:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Tutorial correlati
 - [Come verificare le firme barcode in Java con GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)
 - [Come cercare firme digitali nei documenti Java con GroupDocs](/signature/java/search-verification/groupdocs-signature-java-digital-search-tutorial/)

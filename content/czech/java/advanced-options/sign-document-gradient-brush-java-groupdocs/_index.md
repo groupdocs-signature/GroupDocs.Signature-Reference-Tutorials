@@ -1,75 +1,125 @@
 ---
 categories:
 - Document Processing
-date: '2026-03-14'
-description: Naučte se, jak přizpůsobit vzhled podpisu s gradientním efektem v Javě
-  pomocí GroupDocs.Signature. Obsahuje kompletní příklady kódu a řešení problémů.
-keywords: java digital signature with gradient effect, customize document signature
-  appearance java, groupdocs signature gradient brush tutorial, java pdf signature
-  styling, gradient brush document signing java code
-lastmod: '2026-03-14'
-linktitle: Java Gradient Signature Tutorial
+date: '2026-07-25'
+description: Vytvořte Gradient Digital Signature v Javě pomocí GroupDocs.Signature.
+  Naučte se, jak použít gradient brushes, přizpůsobit vzhled a řešit běžné problémy.
+keywords:
+- create gradient digital signature
+- gradient brush Java
+- GroupDocs signature styling
+- digital signature gradient
+lastmod: '2026-07-25'
+linktitle: Java Gradient Signature Tutoriál
+og_description: Vytvořte Gradient Digital Signature v Javě s GroupDocs.Signature.
+  Tento průvodce krok za krokem ukazuje, jak stylovat podpisy pomocí gradient brushes,
+  nastavit jejich umístění a řešit běžné problémy.
+og_image_alt: 'Guide: Create gradient digital signature in Java using GroupDocs.Signature'
+og_title: Vytvořte Gradient Digital Signature v Javě – Průvodce GroupDocs
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-25'
+  description: Create gradient digital signature in Java using GroupDocs.Signature.
+    Learn how to apply gradient brushes, customize appearance, and troubleshoot common
+    issues.
+  headline: Create Gradient Digital Signature in Java with GroupDocs
+  type: TechArticle
+- description: Create gradient digital signature in Java using GroupDocs.Signature.
+    Learn how to apply gradient brushes, customize appearance, and troubleshoot common
+    issues.
+  name: Create Gradient Digital Signature in Java with GroupDocs
+  steps:
+  - name: Initialise Signature Options
+    text: 'First, we define what the signature will contain. The `TextSignOptions`
+      class handles text‑based signatures. **Definition anchor**: `TextSignOptions`
+      represents the configuration for a textual signature, including text content,
+      font, colour, and visual effects. The snippet creates a basic signature '
+  - name: Customise Background with Gradient Brush
+    text: 'Next, we apply a linear gradient brush to give the signature a polished
+      look. **Definition anchor**: `LinearGradientBrush` describes a colour transition
+      that fills a shape along a straight line, defined by start and end colours and
+      an angle. Key points: - `setColor(Color.GREEN)` provides a fallback '
+  - name: Set Signature Positioning
+    text: 'Now we tell the engine where to place the signature on the page. **Definition
+      anchor**: `SignatureOptions` (the base class for all option types) holds common
+      properties such as alignment, margins, and size. Understanding alignment vs.
+      margin: - **Alignment** anchors the signature (e.g., `HorizontalA'
+  - name: Apply Signature and Save
+    text: 'Finally, we sign the document and write the result to a new file. **Definition
+      anchor**: `SignResult` provides detailed information about the outcome of a
+      signing operation, including succeeded and failed signatures. The `sign()` method
+      takes the source file, applies the configured options, and crea'
+  type: HowTo
+- questions:
+  - answer: Yes. GroupDocs.Signature is pure Java and works in any Java‑based backend,
+      including Spring Boot, Jakarta EE, or microservice frameworks.
+    question: Can I use this in a web‑based Java service?
+  - answer: Only marginally. The gradient is stored as a visual appearance stream,
+      typically adding a few kilobytes to the file.
+    question: Does the gradient affect the size of the signed PDF?
+  - answer: 'Pass the password when creating the `Signature` object: `new Signature("file.pdf",
+      "password")`.'
+    question: How do I sign password‑protected PDFs?
+  - answer: Absolutely. Use `ImageSignOptions` and set its `Background` with a `LinearGradientBrush`
+      just like the text example.
+    question: Is it possible to apply the gradient to an image‑based signature instead
+      of text?
+  - answer: GroupDocs currently supports `LinearGradientBrush` only. For radial effects,
+      generate a radial‑gradient PNG and use it as a background image.
+    question: What if I need a radial gradient instead of linear?
+  type: FAQPage
 tags:
 - java
 - digital-signature
 - groupdocs
 - pdf-signing
 - document-styling
-title: Jak přizpůsobit vzhled podpisu pomocí gradientu v Javě
+- gradient signature
+title: Vytvořte Gradient Digital Signature v Javě s GroupDocs
 type: docs
 url: /cs/java/advanced-options/sign-document-gradient-brush-java-groupdocs/
 weight: 1
 ---
 
-# Jak přizpůsobit vzhled podpisu pomocí gradientu v Javě
+# Vytvořte gradientní digitální podpis v Javě s GroupDocs
 
-Všimli jste si někdy, že některé digitálně podepsané dokumenty vypadají, no… nudně? Jen prostý text na bílém pozadí? Pokud vytváříte aplikaci, která potřebuje profesionálně vypadající podpisy dokumentů – například smlouvy, faktury nebo certifikáty – budete chtít něco, co vynikne a zároveň bude funkční. **V tomto tutoriálu se naučíte, jak přizpůsobit vzhled podpisu pomocí gradientového štětce v Javě.** Vytvoření digitálního podpisu s gradientem nejenže přidává vizuální eleganci, ale také posiluje identitu značky a zlepšuje vnímanou autenticitu.
+Pokud potřebujete **vytvořit gradientní digitální podpis** objekty, které vypadají elegantně, ladí s barvami značky a stále splňují kryptografické standardy, jste na správném místě. V tomto tutoriálu vás provedeme vším, co potřebujete – od přidání knihovny GroupDocs.Signature do vašeho projektu, přes konfiguraci lineárního gradientního štětce, umístění podpisu až po řešení nejčastějších úskalí. Na konci budete schopni vložit vizuálně atraktivní gradientní podpisy do PDF, Word souborů nebo obrázků pomocí několika řádků Java kódu.
 
 ## Rychlé odpovědi
-- **Co je digitální podpis s gradientem?** Vizuelní prvek s digitálním podpisem, který používá barevný gradient pro pozadí nebo výplň textu.  
-- **Která knihovna to podporuje v Javě?** GroupDocs.Signature pro Java poskytuje vestavěnou podporu gradientových štětců.  
+- **Co je gradientní digitální podpis?** Digitálně podepsaný vizuální prvek, který používá barevný gradient pro pozadí nebo výplň textu.  
+- **Která knihovna to podporuje v Javě?** GroupDocs.Signature pro Javu poskytuje vestavěnou podporu gradientních štětců.  
 - **Ovlivňují gradienty kryptografickou bezpečnost?** Ne. Gradient je čistě vizuální; podkladový digitální podpis zůstává nezměněn.  
 - **Jaká verze Javy je vyžadována?** JDK 8 nebo vyšší (doporučeno JDK 11+).  
 - **Je pro produkci potřeba licence?** Ano – pro ne‑evaluační použití je vyžadována platná licence GroupDocs.Signature.
 
-## Jak přizpůsobit vzhled podpisu pomocí gradientového štětce v Javě
-V této sekci projdeme celý proces – od nastavení knihovny po aplikaci lineárního gradientového štětce na textový podpis. Na konci budete schopni **vytvořit objekty digitálního podpisu s gradientem**, které budou vypadat elegantně a budou ladit s barvami vaší značky.
+## Proč používat gradientní štětce pro digitální podpisy?
 
-## Proč používat gradientové štětce pro digitální podpisy?
-
-Než se ponoříme do kódu, pojďme si promluvit o tom, proč byste vůbec chtěli gradientové efekty.
-
-**Konzistence značky**: Pokud vaše společnost používá konkrétní barevná schémata, gradientové podpisy pomáhají udržet vizuální konzistenci napříč všemi dokumenty. Finanční služby mohou použít gradienty od modré k bílé pro důvěru, zatímco kreativní agentura může zvolit odvážné přechody s živými barvami.  
-
-**Hierarchie dokumentů**: Gradientové efekty mohou pomoci odlišit typy podpisů. Můžete použít jemné gradienty pro standardní schválení a výraznější pro výkonné podpisy nebo právní autorizace.  
-
-**Vizuální přitažlivost bez kompromisů**: Co je skvělé – získáte profesionální styl bez ohrožení kryptografické bezpečnosti vašeho digitálního podpisu. Gradient je čistě vizuální; platnost vašeho podpisu zůstává nedotčena.  
-
-**Snížené vnímání padělání**: Dokumenty se stylizovanými podpisy často působí uživatelům autentičtěji. I když to nezvyšuje skutečnou bezpečnost, zlepšuje vnímanou legitimitu (což je důležité pro důvěru uživatelů).
+Gradientní štětec vám umožní přidat do pozadí podpisu přechody barev v souladu se značkou, čímž dokument získá profesionálnější a důvěryhodnější vzhled. Gradientní podpisy zlepšují vizuální hierarchii, pomáhají rozlišovat úrovně schválení a posilují firemní identitu, aniž by ohrožovaly kryptografickou integritu podpisu.
 
 ## Co se naučíte
 
-- Nastavit GroupDocs.Signature pro Java ve vašem projektu (Maven, Gradle nebo ručně)  
-- Vytvořit textové podpisy s efekty lineárního gradientového štětce  
-- **Přizpůsobit vzhled podpisu**, umístění a průhlednost  
-- Řešit běžné problémy, které zaskočí vývojáře  
-- Optimalizovat výkon pro produkční aplikace  
-- Použít osvědčené postupy pro udržovatelný kód podpisů  
+V tomto tutoriálu se naučíte, jak nakonfigurovat knihovnu GroupDocs.Signature, vytvořit textové podpisy ve stylu gradientu, upravit vizuální vlastnosti jako barvy, průhlednost a umístění a vyřešit běžné problémy, které se při implementaci objeví. Průvodce také obsahuje tipy pro výkon a osvědčené vzory pro čistý, znovupoužitelný kód podpisu.
+
+- Nastavte GroupDocs.Signature pro Javu (Maven, Gradle nebo ručně)
+- Vytvořte **gradientní digitální podpis** objekty s lineárními gradientními štětci
+- Přizpůsobte vzhled, umístění a průhlednost
+- Řešte typické problémy a optimalizujte výkon
+- Použijte osvědčené vzory pro udržovatelný kód podpisu
 
 ## Předpoklady
 
-Než začnete, ujistěte se, že máte:
+Předtím, než začnete, ujistěte se, že máte:
 
-- **Java Development Kit (JDK)**: Verze 8 nebo vyšší (doporučuji JDK 11+ pro lepší výkon)  
-- **IDE**: IntelliJ IDEA, Eclipse nebo VS Code s rozšířeními pro Javu  
-- **Knihovna GroupDocs.Signature pro Java**: Přidáme ji pomocí Maven nebo Gradle  
-- **Základní znalost Javy**: Měli byste být obeznámeni s objekty, metodami a zpracováním výjimek  
+- **Java Development Kit (JDK)** 8 nebo vyšší (doporučeno JDK 11+)
+- **IDE** (IntelliJ IDEA, Eclipse nebo VS Code s rozšířeními pro Javu)
+- **GroupDocs.Signature for Java** knihovna (přidána přes Maven, Gradle nebo ručně jako JAR)
+- Základní znalost objektů Javy, metod a zpracování výjimek
 
 ### Požadované knihovny
 
 Přidejte GroupDocs.Signature do svého projektu pomocí preferovaného nástroje pro sestavení.
 
-**Pro Maven** (přidejte do svého `pom.xml`):
+**Pro Maven** (add to your `pom.xml`):
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -78,32 +128,32 @@ Přidejte GroupDocs.Signature do svého projektu pomocí preferovaného nástroj
 </dependency>
 ```
 
-**Pro Gradle** (přidejte do svého `build.gradle`):
+**Pro Gradle** (add to your `build.gradle`):
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Manuální instalace**: Pokud nepoužíváte nástroj pro sestavení (i když to doporučuji), můžete si stáhnout soubor JAR přímo z [GroupDocs Signatures releases](https://releases.groupdocs.com/signature/java/) a přidat jej do classpath vašeho projektu.
+**Manual installation**: If you’re not using a build tool (though we recommend one), download the JAR from [GroupDocs Signatures releases](https://releases.groupdocs.com/signature/java/) and add it to your classpath.
 
 ### Získání licence
 
-GroupDocs nabízí bezplatnou zkušební verzi, která je ideální pro testování a vývoj. Pro produkční použití budete potřebovat licenci. Zde je návod, jak začít:
+GroupDocs offers a free trial for development, but a production license is required for commercial use.
 
-1. **Bezplatná zkušební verze**: Navštivte [GroupDocs Free Trial](https://releases.groupdocs.com/) a stáhněte bez jakýchkoli závazků  
-2. **Dočasná licence**: Získejte 30‑denní dočasnou licenci na [GroupDocs Temporary License](https://purchase.groupdocs.com/temporary-license/) pro plnohodnotné testování  
-3. **Plná licence**: Až budete připraveni na produkci, podívejte se na jejich cenové možnosti  
+- **Bezplatná zkušební verze** – stáhněte z [GroupDocs Free Trial](https://releases.groupdocs.com/)  
+- **Dočasná licence** – získejte 30‑denní klíč z [GroupDocs Temporary License](https://purchase.groupdocs.com/temporary-license/) pro plnohodnotné testování  
+- **Plná licence** – zakupte přes portál s cenami pro produkční nasazení  
 
-Zkušební verze obsahuje vodoznaky pro hodnocení, takže si pořiďte dočasnou licenci, pokud vytváříte něco, co bude vidět klientům.
+The trial adds evaluation watermarks, so obtain a temporary or full license before releasing your app to customers.
 
-## Nastavení GroupDocs.Signature pro Java
+## Nastavení GroupDocs.Signature pro Javu
 
-Připravíme vaše vývojové prostředí. Toto nastavení funguje jak při zahájení nového projektu, tak při integraci do existující aplikace.
+Let’s get the environment ready. This works for new projects and for integrating into existing codebases.
 
 ### Kroky instalace
 
-**1. Přidejte závislost** (už jsme to výše pokryli – Maven nebo Gradle)
+1. **Přidejte závislost** (pokryto výše).  
+2. **Ověřte instalaci** by creating a simple test class:
 
-**2. Ověřte instalaci** vytvořením jednoduché testovací třídy:
 ```java
 import com.groupdocs.signature.Signature;
 
@@ -114,9 +164,10 @@ public class SignatureTest {
 }
 ```
 
-Pokud se to zkompiluje bez chyb, můžete pokračovat.
+If this compiles without errors, you’re ready to move on.
 
-**3. Nastavte strukturu adresářů pro dokumenty**. Rád organizuji věci takto:
+3. **Organise your document folders** – a clean structure helps when processing many files:
+
 ```
 project-root/
 ├── src/
@@ -126,7 +177,8 @@ project-root/
 └── pom.xml (or build.gradle)
 ```
 
-**4. Základní inicializace** (tady začíná kouzlo):
+4. **Basic initialization** – the `Signature` object is the entry point for all signing operations:
+
 ```java
 import com.groupdocs.signature.Signature;
 import com.groupdocs.signature.exception.GroupDocsSignatureException;
@@ -151,15 +203,18 @@ public class BasicSignatureSetup {
 }
 ```
 
-**Pro tip**: Vždy obalte objekt `Signature` do try‑with‑resources bloku nebo ručně zavolejte `dispose()`. GroupDocs drží souborové handly a zapomenutí jejich uvolnění způsobí chyby „soubor je používán“ (zeptáte se, jak to vím).
+**Pro tip**: Wrap the `Signature` instance in a try‑with‑resources block or call `dispose()` manually. Forgetting to release file handles leads to “file in use” errors.
 
-## Průvodce implementací: Vytvoření gradientových podpisů
+## Průvodce implementací: Vytvoření gradientních podpisů
 
-Teď přichází zábavná část – vytvoříme podpis s efektem gradientového štětce. Začneme jednoduše a postupně přidáme složitost.
+Now we’ll build a **gradientní digitální podpis** step by step.
 
 ### Krok 1: Inicializace možností podpisu
 
-Nejprve definujeme, co náš podpis bude obsahovat a jak se bude chovat. Třída `TextSignOptions` zpracovává textové podpisy:
+First, we define what the signature will contain. The `TextSignOptions` class handles text‑based signatures.
+
+**Definiční kotva**: `TextSignOptions` představuje konfiguraci textového podpisu, včetně textového obsahu, písma, barvy a vizuálních efektů.
+
 ```java
 import com.groupdocs.signature.domain.enums.HorizontalAlignment;
 import com.groupdocs.signature.domain.enums.VerticalAlignment;
@@ -168,13 +223,14 @@ import com.groupdocs.signature.domain.signatures.TextSignOptions;
 TextSignOptions options = new TextSignOptions("John Smith");
 ```
 
-Toto vytvoří základní podpis s textem „John Smith“. Jednoduché, že? Ale samotné by to byl jen černý text na průhledném pozadí – nudné. Zde přicházejí gradienty.
+The snippet creates a basic signature that says “John Smith”. On its own it would appear as plain black text on a transparent background – not very exciting.
 
-**Proč oddělit možnosti od objektu podpisu?** Tento návrhový vzor vám umožní znovu použít stejnou konfiguraci podpisu napříč více dokumenty. Nastavíte jednou, použijete všude.
+### Krok 2: Přizpůsobení pozadí pomocí gradientního štětce
 
-### Krok 2: Přizpůsobení pozadí pomocí gradientového štětce
+Next, we apply a linear gradient brush to give the signature a polished look.
 
-Zde váš podpis začne vypadat profesionálně. Vytvoříme lineární gradient, který přechází ze zelené na bílou:
+**Definiční kotva**: `LinearGradientBrush` describes a colour transition that fills a shape along a straight line, defined by start and end colours and an angle.
+
 ```java
 import com.groupdocs.signature.domain.Background;
 import com.groupdocs.signature.domain.extensions.brushes.LinearGradientBrush;
@@ -197,17 +253,20 @@ background.setBrush(brush);
 options.setBackground(background);
 ```
 
-**Rozbor toho, co se zde děje:**
+Key points:
 
-- **Základní barva**: `setColor(Color.GREEN)` nastaví pevnou náhradní barvu. Pokud gradient selže (vzácné, ale možné), tato barva se zobrazí místo něj.  
-- **Průhlednost**: `setTransparency(0.5f)` učiní váš podpis poloprůhledným. To je klíčové u dokumentů, kde nechcete zakrýt podkladový text. Hodnoty blíže k 0 jsou méně průhledné (více neprůhledné), blíže k 1 jsou více průhledné.  
-- **Úhel gradientu**: `45` znamená, že gradient teče diagonálně z levého horního rohu do pravého dolního. Použijte `0` pro horizontální (levý → pravý), `90` pro vertikální (horní → dolní) nebo libovolný úhel mezi nimi.  
+- `setColor(Color.GREEN)` poskytuje náhradní plnou barvu, pokud nelze gradient vykreslit.  
+- `setTransparency(0.5f)` makes the signature semi‑transparent, preventing it from obscuring underlying text. Values near 0 are opaque; near 1 are almost invisible.  
+- The angle `45` creates a diagonal transition from top‑left to bottom‑right. Use `0` for horizontal, `90` for vertical, or any angle in between.
 
-**Výběr barev má význam**: Zelená‑k‑bílé naznačuje schválení nebo potvrzení (myšlenka „jít“). Modrá‑k‑bílé vyjadřuje důvěru a profesionalitu. Červená‑k‑bílé může signalizovat naléhavost nebo důležitost. Vyberte barvy, které odpovídají účelu dokumentu a identitě vaší značky.
+Choosing colours that match your brand (e.g., blue‑to‑white for trust, green‑to‑white for approval) makes the signature instantly recognisable.
 
 ### Krok 3: Nastavení umístění podpisu
 
-Nyní musíme podpisu říct, *kde* se má v dokumentu objevit. Umístění je složitější, než vypadá, protože musíte vyvážit viditelnost a nezakrývání důležitého obsahu:
+Now we tell the engine where to place the signature on the page.
+
+**Definiční kotva**: `SignatureOptions` (the base class for all option types) holds common properties such as alignment, margins, and size.
+
 ```java
 import com.groupdocs.signature.domain.Padding;
 
@@ -226,19 +285,27 @@ padding.setRight(20);    // 20 units from the right edge
 options.setMargin(padding);
 ```
 
-**Porozumění zarovnání vs. okraji**: Představte si zarovnání jako kotevní bod a okraj jako posun. Pokud nastavíte `HorizontalAlignment.Center`, podpis se vycentruje na stránce a poté okraj posune relativně k tomuto středu. Tento dvoustupový přístup vám dává přesnou kontrolu.
+Understanding alignment vs. margin:
 
-**Běžné vzory umístění**:  
+- **Zarovnání** ukotvuje podpis (např. `HorizontalAlignment.Right`).  
+- **Okraj** posouvá ukotvený bod (např. `setMarginTop(-10)`).  
 
-- **Dolní pravý roh**: `HorizontalAlignment.Right`, `VerticalAlignment.Bottom`, s negativním horním okrajem  
-- **Záhlaví**: `VerticalAlignment.Top`, `HorizontalAlignment.Right`, s odsazením  
-- **Střed stránky**: Obě zarovnání nastavená na `Center`, upravte okraje podle potřeby  
+Common patterns:
 
-**Úvahy o velikosti**: Hodnoty `setWidth(100)` a `setHeight(80)` fungují pro většinu standardních dokumentů, ale můžete je upravit podle velikosti dokumentu a délky textu podpisu. Pokud se text ořízne, zvětšete šířku. Pokud vypadá příliš stísněně, zvětšete výšku nebo snižte velikost písma.
+| Požadované umístění | HorizontalAlignment | VerticalAlignment | Typické hodnoty okrajů |
+|----------------------|--------------------|-------------------|------------------------|
+| Bottom‑right         | Right              | Bottom            | `setMarginTop(-20)`    |
+| Header area          | Right              | Top               | `setMarginTop(20)`     |
+| Center of page       | Center             | Center            | `setMarginLeft(0)`     |
+
+Adjust `setWidth` and `setHeight` based on the length of your text and the document’s page size.
 
 ### Krok 4: Aplikace podpisu a uložení
 
-Nakonec podepíšeme dokument a uložíme výstup. Zde se spojí veškerá vaše konfigurace:
+Finally, we sign the document and write the result to a new file.
+
+**Definiční kotva**: `SignResult` provides detailed information about the outcome of a signing operation, including succeeded and failed signatures.
+
 ```java
 import com.groupdocs.signature.Signature;
 import com.groupdocs.signature.domain.SignResult;
@@ -267,13 +334,12 @@ try {
 }
 ```
 
-**Co se děje v metodě `sign()`?** Přijímá váš zdrojový dokument, aplikuje nakonfigurované možnosti podpisu a zapíše nový soubor s vloženým podpisem. Původní soubor zůstane nedotčen (což je dobrá praxe – nikdy přímo neupravujte zdrojové dokumenty).
-
-Objekt `SignResult` vám říká, co se stalo. Zkontrolujte `getSucceeded()`, abyste zjistili, které podpisy byly úspěšně aplikovány, a `getFailed()`, abyste zachytili ty, které nefungovaly.
+The `sign()` method takes the source file, applies the configured options, and creates a new file that contains the visual signature while leaving the original untouched. Always check `signResult.getSucceeded()` to confirm success.
 
 ## Kompletní funkční příklad
 
-Zde je vše spojeno v jedné spustitelné třídě, kterou můžete okamžitě zkopírovat a otestovat:
+Here’s everything combined into a single, runnable class you can copy and test right now:
+
 ```java
 import com.groupdocs.signature.Signature;
 import com.groupdocs.signature.domain.Background;
@@ -338,41 +404,35 @@ public class GradientSignatureExample {
 }
 ```
 
-Spusťte tento kód s PDF souborem ve vašem adresáři `resources/input/` a získáte podepsanou verzi s krásným gradientním efektem.
+Run the program with a PDF placed in `resources/input/`; the output will contain a sleek gradient signature.
 
 ## Běžné případy použití
 
-Podívejme se, kdy a kde mají gradientové podpisy největší smysl v reálných aplikacích.
+### 1. Podnikové řízení smluv
 
-### 1. Podnikové systémy správy smluv
-
-**Scénář**: Vytváříte workflow schvalování smluv, kde více zúčastněných stran podepisuje dokumenty v různých fázích.  
-**Aplikace**: Použijte různé barvy gradientu k reprezentaci různých úrovní schválení – vedoucí oddělení získají gradient od modré k bílé, právní revizoři gradient od zlaté k bílé, výkonný management gradient od tmavě modré k světle modré. Tato vizuální hierarchie pomáhá uživatelům okamžitě vidět, kdo podepsal a na jaké úrovni.
+Different approval levels can be visualised with distinct gradient colours—e.g., blue‑to‑white for managers, gold‑to‑white for legal, dark‑blue‑to‑light‑blue for executives. This visual hierarchy lets reviewers instantly recognise who has signed.
 
 ### 2. Automatizované zpracování faktur
 
-**Scénář**: Váš účetní systém automaticky podepisuje generované faktury před jejich odesláním klientům.  
-**Aplikace**: Jemný gradient v barvách značky (odpovídající barvám vaší společnosti) dodá fakturám profesionální vzhled a ztíží jejich padělání. Udržujte gradient decentní, aby faktura zůstala čitelná.
+Apply a subtle brand‑coloured gradient to invoices before emailing them to clients. The effect looks professional while keeping the document readable.
 
 ### 3. Generování certifikátů
 
-**Scénář**: Generujete certifikáty o dokončení online kurzů nebo školení.  
-**Aplikace**: Živé, slavnostní gradienty (zlatá‑k‑žluté nebo modrá‑k‑fialové) dodají certifikátům oficiální a sdíletelný vzhled. Vizuální přitažlivost zvyšuje vnímanou hodnotu a podporuje sdílení na sociálních sítích.
+Use vibrant gradients (purple‑to‑pink, gold‑to‑yellow) on certificates to make them feel official and share‑worthy. The visual appeal enhances perceived value.
 
 ### 4. Vodoznakování dokumentů
 
-**Scénář**: Potřebujete označit dokumenty jako „Návrh“, „Důvěrné“ nebo „Schválené“.  
-**Aplikace**: I když nejde přímo o podpis, můžete techniku gradientu znovu použít s průhledným textem k vytvoření poutavých vodoznaků, které nezakrývají podkladový obsah. Nastavte průhlednost na 0.7‑0.8 pro jemný efekt.
+Reuse the gradient technique with transparent text to create “Draft”, “Confidential”, or “Approved” watermarks that don’t obscure underlying content. Set transparency to 0.7‑0.8 for a subtle effect.
 
 ## Řešení běžných problémů
 
-Zde jsou problémy, na které jsem narazil (a vyřešil) při práci s gradientovými podpisy. Ušetříte si tak čas na ladění.
+Below are the problems I’ve encountered (and solved) when working with gradient signatures.
 
 ### Problém 1: „Soubor je používán jiným procesem“
 
-**Příznaky**: Vaše aplikace vyhodí výjimku, že nemůže přistupovat k souboru, i když žádný jiný program není otevřený.  
-**Příčina**: Zapomněli jste zavolat `signature.dispose()` nebo řádně uzavřít objekt `Signature`. Java drží souborový handle, dokud není objekt uvolněn garbage collectorem.  
-**Řešení**:
+**Direct answer (40‑70 words)**: The exception occurs because the `Signature` object still holds an open file handle. Always close or dispose the `Signature` instance after signing. Using a try‑with‑resources block ensures the file is released automatically, preventing “file in use” errors in subsequent operations.
+
+**Solution**:
 ```java
 // Always use try‑with‑resources (Java 7+)
 try (Signature signature = new Signature("path/to/document.pdf")) {
@@ -382,7 +442,7 @@ try (Signature signature = new Signature("path/to/document.pdf")) {
 }
 // File handle automatically released when try block exits
 ```
-Nebo ručně:
+Or manually:
 ```java
 Signature signature = null;
 try {
@@ -395,20 +455,23 @@ try {
 }
 ```
 
-### Problém 2: Podpis se zobrazí, ale gradient není vidět
+### Problém 2: Podpis se zobrazí, ale gradient se neukáže
 
-**Příznaky**: Vidíte text podpisu, ale je jen jednobarevný.  
-**Možné příčiny**:  
-1. **Prohlížeč PDF nepodporuje gradienty** – otestujte v Adobe Acrobat, Foxit Reader nebo moderním prohlížeči.  
-2. **Průhlednost nastavena příliš vysoká** – `setTransparency(1.0f)` učiní gradient neviditelným. Zkuste 0.3‑0.7.  
-3. **Štětec nebyl aplikován** – ujistěte se, že jste zavolali `background.setBrush(brush)` *a* `options.setBackground(background)`.  
+**Direct answer**: Gradients may be invisible if the viewer lacks support, the transparency is set to 1.0, or the brush wasn’t attached correctly. Verify the PDF viewer (Adobe Acrobat, Foxit, or a modern browser), set transparency between 0.3‑0.7, and ensure `background.setBrush(brush)` and `options.setBackground(background)` are called.
 
-**Tip pro ladění**: Nejprve použijte vysokokontrastní barvy (např. `Color.RED` na `Color.BLUE`). Pokud stále nevidíte gradient, je špatná konfigurace, ne barvy.
+**Possible causes**:
+
+1. Viewer doesn’t support gradients – test with a modern viewer.  
+2. Transparency set too high – lower it to 0.3‑0.7.  
+3. Brush not applied – double‑check the method calls.
+
+**Debugging tip**: Start with high‑contrast colours (e.g., red‑to‑blue) to confirm the gradient renders before fine‑tuning.
 
 ### Problém 3: Podpis překrývá důležitý obsah dokumentu
 
-**Příznaky**: Váš gradientní podpis vypadá skvěle, ale překrývá důležitý text nebo pole formuláře.  
-**Řešení**: Dynamicky upravte umístění na základě obsahu dokumentu. Zde je vzor, který používám:
+**Direct answer**: Overlap happens when the positioning values place the signature on top of existing text or form fields. Dynamically calculate empty space or use page‑level analysis to relocate the signature automatically.
+
+**Solution pattern**:
 ```java
 // For documents with content primarily at the top
 options.setVerticalAlignment(VerticalAlignment.Bottom);
@@ -424,19 +487,11 @@ padding.setLeft(400);    // Absolute X position
 options.setMargin(padding);
 ```
 
-**Lepší přístup**: Nejprve analyzujte dokument a najděte volná místa, poté programově umístěte podpisy tam.
-
 ### Problém 4: Problémy s výkonem u velkých dokumentů
 
-**Příznaky**: Podepisování trvá dlouho u PDF s mnoha stránkami nebo vysokým rozlišením obrázků.  
-**Příčina**: GroupDocs zpracovává celý dokument a složité gradienty přidávají renderovací zátěž.  
-**Řešení**:  
-1. **Podepisujte pouze konkrétní stránky** místo celého souboru.  
-2. **Používejte jednodušší gradienty** – dvoubarevné lineární gradienty jsou rychlejší než radiální nebo vícebarevné gradienty.  
-3. **Zmenšete velikost podpisu** – menší šířka/výška znamená méně renderovací práce.  
-4. **Zpracovávejte asynchronně** – neblokujte hlavní vlákno během podepisování.  
+**Direct answer**: Signing large PDFs can be slow because GroupDocs processes the entire file and renders the gradient for each page. Limit signing to specific pages, use simpler two‑color gradients, reduce signature dimensions, and run the operation asynchronously to keep the UI responsive.
 
-**Příklad výkonu**:
+**Performance example**:
 ```java
 // Faster configuration
 TextSignOptions options = new TextSignOptions("Approved");
@@ -453,21 +508,19 @@ LinearGradientBrush brush = new LinearGradientBrush(
 
 ### Problém 5: Barva neodpovídá očekáváním
 
-**Příznaky**: Gradient vypadá jinak, než jste v kódu specifikovali.  
-**Příčiny**:  
-1. **Rozdíly v barevném prostoru RGB** – `Color` v Javě používá sRGB, ale PDF může renderovat v jiném prostoru.  
-2. **Interakce průhlednosti** – Poloprůhledné gradienty se mísí s pozadím dokumentu, což mění vnímanou barvu.  
-3. **Kalibrace monitoru** – To, co vidíte na svém monitoru, se může lišit od ostatních.  
+**Direct answer**: Colour shifts arise from RGB‑to‑PDF colour‑space conversion, transparency blending, or monitor calibration differences. Use exact sRGB values, keep transparency moderate (0.3‑0.5), and test on multiple viewers to ensure brand‑consistent appearance.
 
-**Řešení**: Testujte podepsané dokumenty na různých zařízeních a PDF prohlížečích. Pokud je konzistence značky kritická, použijte přesné RGB hodnoty a ověřte napříč platformami. Udržujte průhlednost kolem 0.3‑0.5, aby se minimalizovaly posuny barev.
+## Nejlepší postupy pro produkční aplikace
 
-## Osvědčené postupy pro produkční aplikace
+| Postup | Proč je důležité |
+|--------|-------------------|
+| Centralizujte stylování v pomocné třídě | Zaručuje konzistentní vzhled napříč všemi dokumenty |
+| Ověřte zdrojové dokumenty před podpisem | Zabraňuje poškozeným souborům rozbít pipeline podpisu |
+| Logujte každou operaci podpisu | Poskytuje auditní stopu pro shodu |
+| Zpracovávejte výjimky elegantně | Udržuje službu stabilní za neočekávaných podmínek |
+| Testujte s reálnými PDF (formuláře, naskenované obrázky, existující podpisy) | Zaručuje, že renderování gradientu funguje ve všech scénářích |
 
-Zde je, co jsem se naučil při používání gradientových podpisů v reálných systémech.
-
-### 1. Centralizujte konfiguraci podpisu
-
-Nerostete stylování po celém kódu. Vytvořte pomocnou třídu:
+**Helper class example**:
 ```java
 public class SignatureStyles {
     public static TextSignOptions getApprovalSignature(String signerName) {
@@ -496,11 +549,7 @@ public class SignatureStyles {
 }
 ```
 
-Nyní můžete styly znovu použít konzistentně: `SignatureStyles.getApprovalSignature("Jane Doe")`.
-
-### 2. Ověřte dokumenty před podepsáním
-
-Vždy zkontrolujte, že zdrojový dokument je platný:
+**Document validation snippet**:
 ```java
 try {
     Signature signature = new Signature("path/to/document.pdf");
@@ -522,9 +571,7 @@ try {
 }
 ```
 
-### 3. Logujte operace podpisu
-
-Udržujte auditní stopu:
+**Logging example**:
 ```java
 SignResult result = signature.sign(outputPath, options);
 logger.info("Document signed: " + outputPath);
@@ -537,9 +584,7 @@ if (!result.getFailed().isEmpty()) {
 }
 ```
 
-### 4. Ošetřujte výjimky elegantně
-
-Nikdy nenechte selhání podepisování zhrouznout vaši službu:
+**Exception handling pattern**:
 ```java
 try {
     SignResult result = signature.sign(outputPath, options);
@@ -556,24 +601,12 @@ try {
 }
 ```
 
-### 5. Testujte s reálnými dokumenty
+## Profesionální tipy pro pokročilé uživatele
 
-Nespoléhejte se jen na ukázkové PDF. Používejte skutečné soubory z vašeho workflow:
+### Tip 1: Vytvořte vlastní barevná schémata
 
-- Formuláře s existujícími poli  
-- Vícestránkové smlouvy  
-- Naskenované obrázky (PDF založené na obrázcích)  
-- Dokumenty, které již obsahují podpisy  
+Define brand palettes once and reuse them:
 
-Každý typ se může chovat odlišně při renderování gradientu.
-
-## Pro tipy pro pokročilé uživatele
-
-Připraveni na další úroveň? Zde je několik pokročilých technik.
-
-### Tip 1: Vytvořte vlastní barevné schémata
-
-Definujte palety značky jednou a znovu je použijte:
 ```java
 public class BrandColors {
     public static final Color PRIMARY   = new Color(0, 102, 204);
@@ -587,6 +620,7 @@ public class BrandColors {
 ```
 
 ### Tip 2: Dynamická průhlednost podle typu dokumentu
+
 ```java
 public static float getOptimalTransparency(Signature signature) {
     if (hasComplexBackground(signature)) {
@@ -596,7 +630,8 @@ public static float getOptimalTransparency(Signature signature) {
 }
 ```
 
-### Tip 3: Dávkové zpracování s vlákny (Thread Pools)
+### Tip 3: Dávkové zpracování pomocí vláknových poolů
+
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(4);
 List<String> files = getDocumentsToSign();
@@ -615,6 +650,7 @@ executor.awaitTermination(5, TimeUnit.MINUTES);
 ```
 
 ### Tip 4: Podmíněné stylování podle typu podpisu
+
 ```java
 public static TextSignOptions getStyledSignature(String name, SignatureType type) {
     TextSignOptions options = new TextSignOptions(name);
@@ -635,21 +671,29 @@ public static TextSignOptions getStyledSignature(String name, SignatureType type
 
 ## Často kladené otázky
 
-**Q: Můžu to použít ve webové Java službě?**  
-A: Ano. GroupDocs.Signature je čistá Java a funguje v jakémkoli Java‑založeném backendu, včetně Spring Boot nebo Jakarta EE služeb.
+**Q: Can I use this in a web‑based Java service?**  
+A: Yes. GroupDocs.Signature is pure Java and works in any Java‑based backend, including Spring Boot, Jakarta EE, or microservice frameworks.
 
-**Q: Ovlivňuje gradient velikost podepsaného PDF?**  
-A: Pouze mírně. Gradient je uložen jako součást vizuálního proudu, typicky přidává několik kilobajtů.
+**Q: Does the gradient affect the size of the signed PDF?**  
+A: Only marginally. The gradient is stored as a visual appearance stream, typically adding a few kilobytes to the file.
 
-**Q: Jak podepíšu PDF chráněné heslem?**  
-A: Při vytváření objektu `Signature` předáte heslo: `new Signature("file.pdf", "password")`.
+**Q: How do I sign password‑protected PDFs?**  
+A: Pass the password when creating the `Signature` object: `new Signature("file.pdf", "password")`.
 
-**Q: Je možné aplikovat gradient na obrázkový podpis místo textového?**  
-A: Rozhodně. Použijte `ImageSignOptions` a nastavte jeho `Background` pomocí `LinearGradientBrush` stejně jako v textovém příkladu.
+**Q: Is it possible to apply the gradient to an image‑based signature instead of text?**  
+A: Absolutely. Use `ImageSignOptions` and set its `Background` with a `LinearGradientBrush` just like the text example.
 
-**Q: Co když potřebuji radiální gradient místo lineárního?**  
-A: GroupDocs v současnosti podporuje `LinearGradientBrush`. Pro radiální efekty můžete předem vytvořit obrázek s radiálním gradientem a použít jej jako obrázek pozadí.
+**Q: What if I need a radial gradient instead of linear?**  
+A: GroupDocs currently supports `LinearGradientBrush` only. For radial effects, generate a radial‑gradient PNG and use it as a background image.
 
-**Poslední aktualizace:** 2026-03-14  
-**Testováno s:** GroupDocs.Signature 23.12 pro Java  
+---
+
+**Poslední aktualizace:** 2026-07-25  
+**Testováno s:** GroupDocs.Signature 23.12 for Java  
 **Autor:** GroupDocs
+
+## Související tutoriály
+
+- [Načtení a uložení dokumentů v Javě – kompletní tutoriál GroupDocs.Signature](/signature/java/document-loading-saving/)
+- [Přidání textového podpisu do PDF v Javě – kompletní tutoriál GroupDocs](/signature/java/text-signatures/implement-text-signatures-groupdocs-java/)
+- [Tutoriál ověřování podpisu v Javě – vyhledávání a ověřování digitálních podpisů](/signature/java/search-verification/)

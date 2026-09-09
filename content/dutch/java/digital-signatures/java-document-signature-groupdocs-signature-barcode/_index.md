@@ -1220,11 +1220,6 @@ A: Ja – geef het wachtwoord door bij het aanmaken van het `Signature`‑object
 **Getest met:** GroupDocs.Signature 23.9 voor Java  
 **Auteur:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Gerelateerde tutorials
 
 - [How to Verify Barcode Signatures in Java with GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)

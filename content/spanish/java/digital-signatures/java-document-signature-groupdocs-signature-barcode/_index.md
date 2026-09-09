@@ -1157,11 +1157,6 @@ A: Sí – proporcione la contraseña al crear el objeto `Signature`; la API des
 **Probado con:** GroupDocs.Signature 23.9 para Java  
 **Autor:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Tutoriales relacionados
 - [Cómo verificar firmas de códigos de barras en Java con GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)
 - [Cómo buscar firmas digitales en documentos Java con GroupDocs](/signature/java/search-verification/groupdocs-signature-java-digital-search-tutorial/)

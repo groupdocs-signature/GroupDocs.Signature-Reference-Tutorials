@@ -1212,11 +1212,6 @@ public BarcodeSignOptions getOptimalOptions(String documentPath, String text) {
 **Diuji Dengan:** GroupDocs.Signature 23.9 untuk Java  
 **Penulis:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Tutorial Terkait
 
 - [Cara Memverifikasi Tanda Barcode di Java dengan GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)

@@ -1220,11 +1220,6 @@ public BarcodeSignOptions getOptimalOptions(String documentPath, String text) {
 **Тестировано с:** GroupDocs.Signature 23.9 for Java  
 **Автор:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Связанные учебники
 
 - [How to Verify Barcode Signatures in Java with GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)

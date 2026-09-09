@@ -1220,11 +1220,6 @@ A: Có – cung cấp mật khẩu khi tạo đối tượng `Signature`; API s�
 **Kiểm thử với:** GroupDocs.Signature 23.9 cho Java  
 **Tác giả:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Hướng dẫn liên quan
 
 - [How to Verify Barcode Signatures in Java with GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)
