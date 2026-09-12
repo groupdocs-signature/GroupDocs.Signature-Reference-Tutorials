@@ -1,50 +1,53 @@
 ---
-categories:
-- Java Development
-date: '2026-06-11'
-description: Leer hoe je PDF ondertekent met Java met behulp van GroupDocs.Signature,
-  voeg digital signature en timestamp toe. Stapsgewijze handleiding met codevoorbeelden
-  en best practices.
+date: '2026-09-05'
+description: Leer hoe u PDF kunt ondertekenen met Java met behulp van GroupDocs.Signature,
+  een digital signature en timestamp kunt toevoegen. Stapsgewijze handleiding met
+  code‑voorbeelden en best practices.
 keywords:
 - how to sign pdf
 - add digital signature pdf
-- timestamp pdf signature
-- java pdf signature library
+- digital signature pdf java
+- sign pdf java
 - groupdocs signature java
-lastmod: '2026-06-11'
-linktitle: Digital Signature toevoegen aan PDF Java
+lastmod: '2026-09-05'
+linktitle: Digital signature toevoegen aan PDF met Java
+og_description: Leer hoe u PDF kunt ondertekenen met Java met behulp van GroupDocs.Signature,
+  een digital signature en een vertrouwde timestamp kunt toevoegen in een paar regels
+  code. Volg stapsgewijze instructies, best practices en tips voor probleemoplossing.
+og_image_alt: Guide showing Java code to add digital signature and timestamp to PDF
+  with GroupDocs.Signature
+og_title: Hoe PDF te ondertekenen met Java met GroupDocs.Signature
 schemas:
 - author: GroupDocs
-  dateModified: '2026-06-11'
+  dateModified: '2026-09-05'
   description: Learn how to sign PDF with Java using GroupDocs.Signature, add digital
     signature and timestamp. Step-by-step guide with code examples and best practices.
-  headline: 'How to Sign PDF with Java: Add Digital Signature and Timestamp'
+  headline: How to sign PDF with Java and timestamp
   type: TechArticle
 - description: Learn how to sign PDF with Java using GroupDocs.Signature, add digital
     signature and timestamp. Step-by-step guide with code examples and best practices.
-  name: 'How to Sign PDF with Java: Add Digital Signature and Timestamp'
+  name: How to sign PDF with Java and timestamp
   steps:
-  - name: Import Required Classes
+  - name: import required classes
     text: The following imports give you access to signature configuration, positioning,
       and timestamp functionality.
-  - name: Define Your File Paths
-    text: Set up paths for your input PDF, certificate, and where you want the signed
-      PDF saved. Keep the certificate file secure; it contains your private key.
-  - name: Initialize the Signature Object
-    text: Create a `Signature` instance pointing to the PDF you want to sign. This
-      loads the PDF into memory and prepares it for signing.
-  - name: Configure Signature Properties and Timestamp
-    text: The `DigitalSignature` class represents the cryptographic seal that will
-      be embedded in the PDF. You can also attach a timestamp from a trusted authority.
-      * **ContactInfo** – e.g., `john.doe@company.com` * **Location** – e.g., `New
-      York Office` * **Reason** – e.g., `Contract Approval` We use FreeTSA
-  - name: Configure Digital Sign Options
-    text: The `SignOptions` class ties together the certificate, signature properties,
-      and visual placement. Alignment enums control where the signature appears.
-  - name: Sign and Save the Document
-    text: Execute the signing process and write the signed PDF to disk. The returned
-      `SignResult` object tells you whether the operation succeeded and lists any
-      warnings.
+  - name: define your file paths
+    text: Set up paths for the input PDF, the certificate (PFX), and the output location.
+      Keep the certificate file secure; it contains your private key.
+  - name: initialize the Signature object
+    text: '`Signature` is the entry point for all signing actions. Creating it loads
+      the PDF into memory and prepares the API for further operations.'
+  - name: configure signature properties and timestamp
+    text: '`DigitalSignature` is the cryptographic seal that will be embedded in the
+      PDF. You can also attach a timestamp from a trusted authority. * **ContactInfo**
+      – e.g., `john.doe@company.com` * **Location** – e.g., `New York Office` * **Reason**
+      – e.g., `Contract Approval` We use FreeTSA (a free timestamp'
+  - name: configure digital sign options
+    text: '`SignOptions` aggregates the certificate, visual appearance, and placement
+      settings for the digital signature.'
+  - name: sign and save the document
+    text: '`SignResult` provides the outcome of the signing operation, including success
+      status and any warnings.'
   type: HowTo
 - questions:
   - answer: A digital signature uses cryptographic algorithms to verify identity and
@@ -66,43 +69,44 @@ schemas:
     question: What happens if my certificate expires after I've signed documents?
   type: FAQPage
 tags:
-- pdf-signing
-- digital-signatures
-- java-security
+- pdf signing
+- digital signatures
+- java security
 - groupdocs
-title: 'Hoe PDF ondertekenen met Java: Digital Signature en Timestamp toevoegen'
-type: docs
-url: /nl/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/
-weight: 1
+- java pdf signature
+title: Hoe PDF te ondertekenen met Java en timestamp
 ---
 
-# Hoe PDF te ondertekenen met Java en Tijdstempel
+# Hoe PDF te ondertekenen met Java en tijdstempel
 
-Heb je ooit een belangrijk document verzonden en je zorgen gemaakt of iemand het later zou kunnen wijzigen? Je bent niet alleen. Of je nu een enterprise document management systeem bouwt, een contractondertekeningsplatform creëert, of gewoon je PDF‑bestanden programmatisch moet beveiligen, **how to sign PDF** met een vertrouwde tijdstempel is het antwoord. Het toevoegen van een digitale handtekening bewijst niet alleen wie het bestand heeft ondertekend, maar creëert ook een onveranderlijk record van *exact* wanneer de ondertekening plaatsvond.
+Wanneer u een contract, factuur of een ander kritisch document moet beschermen tegen manipulatie, wordt **hoe PDF te ondertekenen** op een veilige manier een topprioriteit. In deze gids ontdekt u hoe u een digitale handtekening en een vertrouwde tijdstempel aan een PDF kunt toevoegen met GroupDocs.Signature voor Java. De aanpak werkt offline, schaalt tot bestanden van 500 MB en vereist slechts een paar regels code.
 
-## Snelle Antwoorden
-- **Welke bibliotheek vereenvoudigt PDF-ondertekening in Java?** GroupDocs.Signature for Java.  
-- **Heb ik een internetverbinding nodig?** Alleen voor de tijdstempelautoriteit; de ondertekening zelf is offline.  
+## Snelle antwoorden
+- **Welke bibliotheek vereenvoudigt het ondertekenen van PDF in Java?** GroupDocs.Signature for Java.  
+- **Heb ik een internetverbinding nodig?** Alleen voor de tijdstempelautoriteit; het cryptografische ondertekenen gebeurt lokaal.  
 - **Kan ik een zelfondertekend certificaat gebruiken voor testen?** Ja, genereer er één met `keytool`.  
-- **Is er een grootte‑limiet?** De bibliotheek kan PDF’s tot 500 MB ondertekenen zonder het hele bestand in het geheugen te laden.  
+- **Is er een grootte‑limiet?** De bibliotheek kan PDF‑s bestanden tot 500 MB ondertekenen zonder het hele bestand in het geheugen te laden.  
 - **Hoeveel formaten ondersteunt GroupDocs?** Meer dan 50 invoer‑ en uitvoerformaten, waaronder DOCX, XLSX, PPTX, HTML en afbeeldingen.
-
-## Waarom Digitale Handtekeningen Belangrijk Zijn (En Waarom Je Tijdstempels Nodig Hebt)
-
-Laad je PDF, pas een cryptografische zegel toe en voeg een vertrouwde tijdstempel toe — dit twee‑stappenproces garandeert authenticatie, integriteit en niet‑ontkenning. De tijdstempel bewijst dat de handtekening op een specifiek moment bestond, zelfs als het ondertekeningscertificaat later verloopt of wordt ingetrokken.
 
 ## Hoe PDF te ondertekenen met Java?
 
-Laad je PDF met `new Signature("input.pdf")`, configureer een `DigitalSignature`‑object, voeg een tijdstempel van een vertrouwde autoriteit toe, en roep `sign()` aan — de volledige bewerking wordt voltooid in een paar regels code. GroupDocs.Signature verwerkt automatisch certificaatparsing, hash‑berekening en tijdstempel‑ophaling, zodat je je kunt concentreren op de bedrijfslogica in plaats van cryptografie.
+Laad de PDF, configureer een `DigitalSignature` met uw certificaat, voeg eventueel een tijdstempel toe van een RFC 3161‑conforme TSA, en roep `sign()` aan. Het `Signature`‑object schrijft het ondertekende bestand naar schijf en retourneert een `SignResult` die aangeeft of de bewerking geslaagd is en eventuele waarschuwingen vermeldt. Deze end‑to‑end workflow vereist slechts een paar regels Java‑code en handelt hashing, certificaatvalidatie en tijdstempel‑ophaling automatisch af.
 
-## GroupDocs.Signature voor Java Instellen
+## Waarom digitale handtekeningen belangrijk zijn (en waarom u tijdstempels nodig heeft)
+
+Een digitale handtekening garandeert **authenticiteit** (wie heeft ondertekend) en **integriteit** (het document is niet gewijzigd). Het toevoegen van een tijdstempel bewijst dat de handtekening op een specifiek moment bestond, waardoor u beschermd bent zelfs als het ondertekeningscertificaat later verloopt of wordt ingetrokken. Samen bieden ze non‑repudiatie — cruciaal voor juridische, financiële en regelgevende werkstromen.
+
+## GroupDocs.Signature voor Java instellen
 
 ### Integratiemethoden
 
-Kies de build‑tool die je gebruikt:
+Kies de build‑tool die u prefereert:
 
-**Voor Maven‑gebruikers:**  
-Add this dependency to your `pom.xml`:
+**Voor Maven‑gebruikers**  
+Voeg de afhankelijkheid toe aan uw `pom.xml`:
+
+De volgende Maven‑coördinaten halen de nieuwste stabiele release van GroupDocs.Signature voor Java.
+
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -111,30 +115,33 @@ Add this dependency to your `pom.xml`:
 </dependency>
 ```
 
-**Voor Gradle‑gebruikers:**  
-Add this to your `build.gradle`:
+**Voor Gradle‑gebruikers**  
+Voeg de regel toe aan uw `build.gradle`:
+
+Gradle zal de bibliotheek ophalen van Maven Central.
+
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Directe Download (Als Je Liever Wilt):**  
-Ga naar [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) en download het JAR‑bestand. Voeg het handmatig toe aan de classpath van je project. Zie de [GroupDocs.Signature Documentation](https://docs.groupdocs.com/signature/java/) voor een gedetailleerde API‑referentie. Voor de meest recente build, zie de [Latest Version & Releases](https://releases.groupdocs.com/signature/java/).
+**Direct downloaden (als u dat prefereert)**  
+Ga naar [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) en download het JAR‑bestand. Voeg het handmatig toe aan de classpath van uw project. Zie de [GroupDocs.Signature Documentation](https://docs.groupdocs.com/signature/java/) voor een volledige API‑referentie. Voor de meest recente build, zie de [Latest Version & Releases](https://releases.groupdocs.com/signature/java/).
 
-Pro tip: Gebruik Maven of Gradle indien mogelijk — het maakt afhankelijkheidsbeheer en updates veel eenvoudiger op de lange termijn.
+*Pro tip:* Maven of Gradle automatiseert versie‑upgrades en transitieve afhankelijkheden, waardoor u tijd bespaart wanneer nieuwe beveiligingspatches worden uitgebracht.
 
-### Je Licentie Regelen
+### Uw licentie regelen
 
-GroupDocs biedt hier een paar opties, afhankelijk van waar je in je project staat:
+GroupDocs biedt drie licentie‑opties:
 
-1. **Free Trial** – Perfect voor evaluatie. [Download Trial Version](https://releases.groupdocs.com/signature/java/) and test drive all features.  
-2. **Temporary License** – Volledige toegang nodig voor ontwikkeling zonder het trial‑watermerk? Verkrijg een tijdelijke licentie van 30 dagen.  
-3. **Commercial License** – Voor productiegebruik, [Buy License](https://purchase.groupdocs.com/buy). De prijzen variëren afhankelijk van het type implementatie.
+1. **Gratis proefversie** – evalueer alle functies zonder watermerk. [Download Trial Version](https://releases.groupdocs.com/signature/java/)  
+2. **Tijdelijke licentie** – 30‑daagse volledige toegangssleutel voor ontwikkeling.  
+3. **Commerciële licentie** – productie‑klaar, onbeperkt gebruik. [Buy License](https://purchase.groupdocs.com/buy)
 
-Hulp nodig? Bezoek het [GroupDocs Forum](https://forum.groupdocs.com/c/signature/).
+Als u vragen heeft, is de community actief op het [GroupDocs Forum](https://forum.groupdocs.com/c/signature/).
 
 ### Basisinitialisatie
 
-De `Signature`‑klasse is het top‑level object van GroupDocs.Signature dat een enkel PDF‑bestand in het geheugen vertegenwoordigt. Na instantiering verlopen alle lees‑ en schrijf‑operaties via dit object.
+`Signature` is het top‑level object van GroupDocs.Signature dat een enkel PDF‑bestand in het geheugen vertegenwoordigt. Nadat u een instantie maakt, verlopen alle lees‑/schrijf‑bewerkingen via dit object.
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -143,15 +150,13 @@ String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 final Signature signature = new Signature(filePath);
 ```
 
-Eenvoudig, toch? Je wijst het simpelweg op je PDF‑bestand, en je bent klaar om te gaan. Het `Signature`‑object is je belangrijkste interface voor alle ondertekeningsoperaties.
+## Hoe digitale handtekening toe te voegen aan PDF Java: stap‑voor‑stap
 
-## Hoe Digitale Handtekening Toevoegen aan PDF Java: Stap‑voor‑Stap
+Het proces is lineair: importeer klassen, stel bestands‑paden in, maak een `Signature`‑object, configureer een `DigitalSignature` met optionele tijdstempel, definieer `SignOptions`, en onderteken en sla vervolgens op.
 
-Laad je PDF, configureer handtekeningdetails, voeg een tijdstempel toe, en sla het ondertekende document op — alles in een duidelijke, lineaire stroom.
+### Stap 1: vereiste klassen importeren
 
-### Stap 1: Vereiste Klassen Importeren
-
-De volgende imports geven je toegang tot handtekeningconfiguratie, positionering en tijdstempel‑functionaliteit.
+De volgende imports geven u toegang tot handtekeningconfiguratie, positionering en tijdstempel‑functionaliteit.
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -162,9 +167,9 @@ import com.groupdocs.signature.domain.structs.TimeStamp;
 import com.groupdocs.signature.options.sign.DigitalSignOptions;
 ```
 
-### Stap 2: Definieer Je Bestandspaden
+### Stap 2: definieer uw bestands‑paden
 
-Stel paden in voor je invoer‑PDF, certificaat, en waar je de ondertekende PDF wilt opslaan. Houd het certificaatbestand veilig; het bevat je privésleutel.
+Stel paden in voor de invoer‑PDF, het certificaat (PFX) en de uitvoerlocatie. Houd het certificaatbestand veilig; het bevat uw privésleutel.
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
@@ -172,17 +177,17 @@ String certificatePath = "YOUR_DOCUMENT_DIRECTORY/certificate.pfx";
 String outputFilePath = "YOUR_OUTPUT_DIRECTORY/digitallySignedTimeStamp.pdf";
 ```
 
-### Stap 3: Initialiseer het Signature‑Object
+### Stap 3: initialiseert het Signature‑object
 
-Maak een `Signature`‑instantie die naar de PDF wijst die je wilt ondertekenen. Dit laadt de PDF in het geheugen en maakt deze klaar voor ondertekening.
+`Signature` is het toegangspunt voor alle ondertekeningsacties. Het aanmaken laadt de PDF in het geheugen en bereidt de API voor verdere bewerkingen voor.
 
 ```java
 final Signature signature = new Signature(filePath);
 ```
 
-### Stap 4: Handtekeningeigenschappen en Tijdstempel Configureren
+### Stap 4: configureer handtekening‑eigenschappen en tijdstempel
 
-De `DigitalSignature`‑klasse vertegenwoordigt de cryptografische zegel die in de PDF wordt ingebed. Je kunt ook een tijdstempel van een vertrouwde autoriteit toevoegen.
+`DigitalSignature` is het cryptografische zegel dat in de PDF wordt ingebed. U kunt ook een tijdstempel van een vertrouwde autoriteit toevoegen.
 
 ```java
 PdfDigitalSignature pdfDigitalSignature = new PdfDigitalSignature();
@@ -199,11 +204,11 @@ pdfDigitalSignature.setTimeStamp(timeStamp);
 * **Location** – bijv. `New York Office`  
 * **Reason** – bijv. `Contract Approval`  
 
-We gebruiken FreeTSA (een gratis tijdstempel‑autoriteit) voor demonstratie. In productie kies je een commerciële TSA voor gegarandeerde uptime en juridische geldigheid.
+We gebruiken FreeTSA (een gratis tijdstempel‑autoriteit) voor demonstratie. In productie kiest u een commerciële TSA voor gegarandeerde uptime en juridische status.
 
-### Stap 5: Digitale Handtekeningopties Configureren
+### Stap 5: configureer digitale ondertekeningsopties
 
-De `SignOptions`‑klasse verbindt het certificaat, de handtekeningeigenschappen en de visuele plaatsing. Alignement‑enums bepalen waar de handtekening verschijnt.
+`SignOptions` bundelt het certificaat, de visuele weergave en de plaatsingsinstellingen voor de digitale handtekening.
 
 ```java
 DigitalSignOptions options = new DigitalSignOptions(certificatePath);
@@ -215,9 +220,9 @@ options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setHorizontalAlignment(HorizontalAlignment.Right);
 ```
 
-### Stap 6: Onderteken en Sla het Document Op
+### Stap 6: onderteken en sla het document op
 
-Voer het ondertekeningsproces uit en schrijf de ondertekende PDF naar schijf. Het geretourneerde `SignResult`‑object vertelt je of de bewerking geslaagd is en geeft eventuele waarschuwingen weer.
+`SignResult` geeft het resultaat van de ondertekeningsbewerking, inclusief successtatus en eventuele waarschuwingen.
 
 ```java
 try {
@@ -229,76 +234,66 @@ try {
 }
 ```
 
-## Veelvoorkomende Valkuilen om te Vermijden
+## Veelvoorkomende valkuilen om te vermijden
 
-### 1. Certificaatproblemen
-
-**Problem:** “Invalid certificate” fouten.  
-**Fix:** Verifieer het wachtwoord met `keytool -list -v -keystore your.pfx`.
+### 1. certificaatproblemen
+**Probleem:** “Invalid certificate” fouten.  
+**Oplossing:** Controleer het wachtwoord met `keytool -list -v -keystore your.pfx`.
 
 ```bash
 keytool -list -v -keystore certificate.pfx -storetype PKCS12
 ```
 
-### 2. Tijdstempelservice Time‑outs
-
-**Problem:** Netwerktime‑outs bij het contacteren van de TSA.  
-**Fix:** Test de connectiviteit (`curl -I https://freetsa.org/tsr`), voeg retry‑logica toe, of configureer een fallback‑TSA.
+### 2. tijdstempelservice‑time‑outs
+**Probleem:** Netwerk‑time‑outs bij het benaderen van de TSA.  
+**Oplossing:** Test de connectiviteit (`curl -I https://freetsa.org/tsr`), voeg retry‑logica toe, of configureer een fallback‑TSA.
 
 ```java
 new File(outputFilePath).getParentFile().mkdirs();
 ```
 
-### 3. Bestandsmachtigingsproblemen
-
-**Problem:** “Access denied” tijdens het opslaan.  
-**Fix:** Zorg ervoor dat de uitvoermap bestaat en de applicatie schrijfrechten heeft.
+### 3. bestands‑toegangsproblemen
+**Probleem:** “Access denied” bij het opslaan.  
+**Oplossing:** Zorg ervoor dat de uitvoermap bestaat en dat de applicatie schrijfrechten heeft.
 
 ```bash
 keytool -genkeypair -alias mykey -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore certificate.pfx -validity 365
 ```
 
-### 4. Geheugenproblemen met Grote PDF’s
+### 4. geheugenproblemen met grote PDF‑s
+**Probleem:** `OutOfMemoryError` voor grote bestanden.  
+**Oplossing:** Verhoog de JVM‑heap (`-Xmx4g`) of verwerk bestanden in batches.
 
-**Problem:** `OutOfMemoryError` voor grote bestanden.  
-**Fix:** Verhoog de JVM‑heap (`-Xmx4g`) of verwerk bestanden in batches.
+### 5. verkeerde handtekeningplaatsing
+**Probleem:** Handtekening overlapt bestaande inhoud.  
+**Oplossing:** Test eerst de uitlijningsinstellingen; voor pixel‑perfecte plaatsing, gebruik coördinaat‑gebaseerde opties.
 
-### 5. Verkeerde Handtekeningplaatsing
+## Tips voor certificaatbeheer
 
-**Problem:** Handtekening overlapt bestaande inhoud.  
-**Fix:** Test eerst de uitlijningsinstellingen; voor pixel‑perfecte plaatsing, gebruik coördinaat‑gebaseerde opties.
-
-## Tips voor Certificaatbeheer
-
-### Een Certificaat Krijgen voor Ontwikkeling
-
+### Een certificaat verkrijgen voor ontwikkeling
 Genereer een zelfondertekend certificaat met Java’s `keytool` voor testdoeleinden.
 
 ```java
    String certPassword = System.getenv("CERT_PASSWORD");
    ```
 
-### Beste Praktijken voor Certificaten
+### Beste praktijken voor certificaten
+1. **Nooit wachtwoorden hard‑coderen** – gebruik omgevingsvariabelen.  
+2. **Roteer certificaten** voordat ze verlopen.  
+3. **Bewaar privésleutels** in veilige hardware (HSM) voor high‑security applicaties.  
+4. **Maak back‑ups van certificaten** op een beveiligde locatie.  
+5. **Valideer certificaten** vóór het ondertekenen om verlopen of ingetrokken certificaten te detecteren.
 
-1. **Never hard‑code passwords** – gebruik omgevingsvariabelen.  
-2. **Rotate certificates** vóór ze verlopen.  
-3. **Store private keys** in veilige hardware (HSM) voor high‑security apps.  
-4. **Back up certificates** op een beveiligde locatie.  
-5. **Validate certificates** vóór ondertekening om verlopen of ingetrokken certificaten te detecteren.
+## Beveiligings‑beste praktijken
 
-## Beveiligingsbeste Praktijken
+### 1. bescherm privésleutels
+Bewaar certificaten buiten de projectdirectory, gebruik omgevingsspecifieke configuraties, en overweeg HSM‑s voor enterprise‑implementaties.
 
-### 1. Bescherm Privésleutels
+### 2. valideer invoer‑PDF‑s
+Controleer op corruptie, bestaande handtekeningen, grootte‑limieten en inhouds‑compliance vóór het ondertekenen.
 
-Bewaar certificaten buiten de projectmap, gebruik omgeving‑specifieke configuraties, en overweeg HSM’s voor enterprise‑implementaties.
-
-### 2. Valideer Invoer‑PDF’s
-
-Controleer op corruptie, bestaande handtekeningen, grootte‑limieten en inhouds‑conformiteit vóór ondertekening.
-
-### 3. Implementeer Audit‑Logging
-
-Log elke ondertekeningsoperatie met tijdstempel, gebruiker, documentnaam en status.
+### 3. implementeer audit‑logging
+Log elke ondertekeningsactie met tijdstempel, gebruiker, documentnaam en status.
 
 ```java
 try {
@@ -310,12 +305,10 @@ try {
 }
 ```
 
-### 4. Gebruik Vertrouwde Tijdstempelautoriteiten
+### 4. gebruik vertrouwde tijdstempel‑autoriteiten
+Vertrouw nooit op de lokale systeemtijd; vraag altijd een tijdstempel aan bij een RFC 3161‑conforme TSA.
 
-Vertrouw nooit op de lokale systeemtijd; vraag altijd een tijdstempel aan bij een RFC 3161‑compliant TSA.
-
-### 5. Implementeer Foutafhandeling
-
+### 5. implementeer foutafhandeling
 Vang uitzonderingen op zonder gevoelige details bloot te stellen.
 
 ```java
@@ -329,54 +322,35 @@ try {
 }
 ```
 
-## Praktijkvoorbeelden en Toepassingen
+## Praktijkvoorbeelden en toepassingen
 
-### 1. Contractmanagementsystemen
+1. **Contractbeheersystemen** – medewerkers ondertekenen NDA’s en overeenkomsten elektronisch; tijdstempels bewijzen precies wanneer elk contract is geaccepteerd.  
+2. **Financiële documentverwerking** – batch‑onderteken facturen en inkooporders, waardoor een onveranderlijk audit‑pad voor toezichthouders ontstaat.  
+3. **Onderwijs‑credential verificatie** – universiteiten geven manipulatie‑veilige transcripties uit die direct gevalideerd kunnen worden via een QR‑code link.  
+4. **Software‑licentiebeheer** – genereer licentiecertificaten met een digitale handtekening en tijdstempel om vervalsing te voorkomen.  
+5. **Regelgevende compliance (FDA 21 CFR Part 11, etc.)** – medische apparaatbedrijven ondertekenen SOP’s en validatierapporten; tijdstempels voldoen aan non‑repudiatie‑eisen.
 
-Werknemers ondertekenen NDA’s en overeenkomsten elektronisch; tijdstempels bewijzen exact wanneer elk contract is geaccepteerd.
-
-### 2. Financiële Documentverwerking
-
-Batch‑onderteken facturen en inkooporders, waardoor een onveranderlijk audit‑pad voor toezichthouders ontstaat.
-
-### 3. Verificatie van Onderwijscredentialen
-
-Universiteiten geven manipulatie‑veilige transcripties uit die direct gevalideerd kunnen worden via een QR‑code‑link.
-
-### 4. Softwarelicentiebeheer
-
-Genereer licentiecertificaten met een digitale handtekening en tijdstempel om vervalsing te voorkomen.
-
-### 5. Regelgevende Naleving (FDA 21 CFR Part 11, enz.)
-
-Medische apparaatbedrijven ondertekenen SOP’s en validatierapporten; tijdstempels voldoen aan de eisen voor niet‑ontkenning.
-
-## Prestatieoverwegingen en Optimalisatie
+## Prestatie‑overwegingen en optimalisatie
 
 ### Geheugenbeheer
+Verwerk grote PDF‑s in batches, sluit `Signature`‑objecten snel, en vergroot de heap‑grootte wanneer nodig.
 
-Verwerk grote PDF’s in batches, sluit `Signature`‑objecten tijdig, en vergroot de heap‑grootte indien nodig.
-
-### Netwerkoptimalisatie voor Tijdstempels
-
+### Netwerkoptimalisatie voor tijdstempels
 Pool HTTP‑verbindingen, implementeer exponentiële backoff‑retries, en cache tijdstempels voor snelle opeenvolgende ondertekeningen.
 
-### Batchverwerking Beste Praktijken
-
+### Beste praktijken voor batch‑verwerking
 ```java
 // Pseudo‑code: process a list of PDFs in parallel, limiting to 5 concurrent TSA calls
-```
-*Vermijd het starten van te veel threads; 5‑10 gelijktijdige ondertekeningen balanceren doorvoer en TSA‑belasting.*
+```  
+*Vermijd het spawnen van te veel threads; 5‑10 gelijktijdige ondertekeningen balanceren doorvoersnelheid en TSA‑belasting.*
 
-### Schijf‑I/O‑optimalisatie
-
-Gebruik SSD’s voor tijdelijke bestanden, minimaliseer lees‑/schrijfcycli, en ruim tijdelijke artefacten op na elke ondertekeningsrun.
+### Schijf‑I/O optimalisatie
+Gebruik SSD‑s voor tijdelijke bestanden, minimaliseer lees‑/schrijfcycli, en maak tijdelijke artefacten schoon na elke ondertekeningsrun.
 
 ## Probleemoplossingsgids
 
-### Fout: “Invalid Certificate Password”
-
-**Solution:** Verifieer het wachtwoord met `keytool -list -keystore your.pfx`.
+### Fout: “Invalid certificate password”
+**Oplossing:** Controleer het wachtwoord met `keytool -list -keystore your.pfx`.
 
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(5);
@@ -399,21 +373,18 @@ for (Future<SignResult> future : futures) {
 executor.shutdown();
 ```
 
-### Fout: “Timestamp Authority Not Responding”
-
-**Solution:** Test de TSA‑URL, controleer firewall‑regels, en voeg fallback‑TSA‑logica toe.
+### Fout: “Timestamp authority not responding”
+**Oplossing:** Test de TSA‑URL, controleer firewall‑regels, en voeg fallback‑TSA‑logica toe.
 
 ```bash
 keytool -list -v -keystore certificate.pfx -storetype PKCS12
 ```
 
-### Fout: “PDF is Already Signed”
+### Fout: “PDF is already signed”
+**Oplossing:** Detecteer eerst bestaande handtekeningen; voeg een tegen‑handtekening toe of onderteken een verse kopie.
 
-**Solution:** Detecteer eerst bestaande handtekeningen; voeg een tegenhandtekening toe of onderteken een verse kopie.
-
-### Fout: “Access Denied” Bij Opslaan
-
-**Solution:** Zorg dat de uitvoermap bestaat, de app schrijfrechten heeft, en geen ander proces het bestand vergrendelt.
+### Fout: “Access denied” bij het opslaan
+**Oplossing:** Zorg dat de uitvoermap bestaat, de app schrijfrechten heeft, en dat geen ander proces het bestand vergrendelt.
 
 ```java
 TimeStamp timeStamp;
@@ -426,50 +397,55 @@ try {
 ```
 
 ### Fout: OutOfMemoryError
+**Oplossing:** Verhoog de JVM‑heap, verwerk PDF‑s in kleinere batches, of schakel over op streaming‑API‑s voor zeer grote bestanden.
 
-**Solution:** Verhoog de JVM‑heap, verwerk PDF’s in kleinere batches, of schakel over naar streaming‑API’s voor zeer grote bestanden.
+## Conclusie en volgende stappen
 
-## Conclusie en Volgende Stappen
+U weet nu **hoe PDF‑s te ondertekenen** met Java, een vertrouwde tijdstempel toe te voegen, en veelvoorkomende valkuilen te vermijden. Vervolgens kunt u:
 
-Je hebt geleerd **how to sign PDF** bestanden met Java, een vertrouwde tijdstempel toe te voegen, en veelvoorkomende valkuilen te behandelen. Volgende, verken:
-
-1. Meerdere handtekeningvelden toevoegen voor multi‑party overeenkomsten.  
+1. Meerdere handtekeningvelden toevoegen voor multi‑partij overeenkomsten.  
 2. Handtekeningen programmatisch verifiëren met GroupDocs.Signature.  
-3. Handtekeningweergave aanpassen (afbeeldingen, tekst, positionering).  
-4. Een robuuste batch‑ondertekeningsservice bouwen met wachtrijen en monitoring.
+3. Het visuele uiterlijk van handtekeningen aanpassen (afbeeldingen, tekst, positionering).  
+4. Een robuuste batch‑ondertekeningsservice bouwen met queueing en monitoring.
 
-## Veelgestelde Vragen
+## Veelgestelde vragen
 
 **Q: Wat is het verschil tussen een digitale handtekening en een elektronische handtekening?**  
 A: Een digitale handtekening gebruikt cryptografische algoritmen om identiteit te verifiëren en manipulatie te detecteren, terwijl een elektronische handtekening zo simpel kan zijn als een getypte naam.
 
-**Q: Heb ik internetconnectiviteit nodig om PDF’s te ondertekenen?**  
-A: Alleen voor de tijdstempelservice; de cryptografische ondertekening zelf draait lokaal.
+**Q: Heb ik internetconnectiviteit nodig om PDF‑s te ondertekenen?**  
+A: Alleen voor de tijdstempelservice; het cryptografisch ondertekenen zelf gebeurt lokaal.
 
-**Q: Kunnen ondertekende PDF’s later worden bewerkt?**  
+**Q: Kunnen ondertekende PDF‑s later bewerkt worden?**  
 A: Elke wijziging breekt de handtekening, en PDF‑viewers tonen een waarschuwing dat het document is aangepast.
 
 **Q: Hoe verifieer ik een ondertekende PDF?**  
-A: De meeste PDF‑readers verifiëren automatisch; programmatisch kun je de verificatie‑API van GroupDocs.Signature gebruiken om status, ondertekenaargegevens en tijdstempelgeldigheid te controleren.
+A: De meeste PDF‑readers verifiëren automatisch; programmatisch kunt u de verificatie‑API van GroupDocs.Signature gebruiken om status, ondertekenaar‑details en tijdstempel‑geldigheid te controleren.
 
 **Q: Wat gebeurt er als mijn certificaat verloopt nadat ik documenten heb ondertekend?**  
 A: De ingebedde tijdstempel bewijst dat de handtekening is gemaakt terwijl het certificaat nog geldig was, waardoor de juridische status behouden blijft.
 
 **Q: Kan ik dit gebruiken met cloudopslag (S3, Azure Blob, enz.)?**  
-A: Ja — download de PDF naar een tijdelijke locatie, onderteken deze, en upload vervolgens de ondertekende versie terug naar de cloud.
+A: Ja—download de PDF naar een tijdelijke locatie, onderteken deze, en upload vervolgens de ondertekende versie terug naar de cloud.
 
-**Q: Zijn er limieten voor de bestandsgrootte?**  
-A: De bibliotheek verwerkt PDF’s tot 500 MB zonder het hele bestand in het geheugen te laden; grotere bestanden kunnen streaming vereisen.
+**Q: Zijn er limieten voor bestandsgrootte?**  
+A: De bibliotheek verwerkt PDF‑s tot 500 MB zonder het volledige bestand in het geheugen te laden; grotere bestanden kunnen streaming vereisen.
 
 **Q: Hoeveel kost GroupDocs.Signature voor commercieel gebruik?**  
-A: De prijzen variëren per implementatietype; neem contact op met de verkoop van GroupDocs voor de laatste tarieven. Gratis proefversies en tijdelijke licenties zijn beschikbaar voor evaluatie.
+A: De prijs varieert per implementatietype; neem contact op met de salesafdeling van GroupDocs voor de laatste tarieven. Gratis proefversies en tijdelijke licenties zijn beschikbaar voor evaluatie.
 
 **Q: Werkt dit op Linux‑servers?**  
 A: Absoluut. GroupDocs.Signature voor Java is platform‑onafhankelijk en draait op elk OS met een JRE.
 
-**Laatst Bijgewerkt:** 2026-06-11  
-**Getest Met:** GroupDocs.Signature 23.9 for Java  
+**Laatst bijgewerkt:** 2026-09-05  
+**Getest met:** GroupDocs.Signature 23.9 for Java  
 **Auteur:** GroupDocs
+
+## Gerelateerde tutorials
+
+- [Hoe digitale certificaten te verifiëren in Java - Complete gids met code‑voorbeelden](/signature/java/digital-signatures/java-certificate-verification-groupdocs-signature/)
+- [Hoe PDF programmatisch te ondertekenen in Java met GroupDocs.Signature](/signature/java/digital-signatures/sign-pdfs-groupdocs-signature-java/)
+- [Afbeeldingshandtekening toevoegen aan PDF Java met GroupDocs](/signature/java/image-signatures/sign-pdf-image-signature-groupdocs-java/)
 
 ```java
 File outputFile = new File(outputFilePath);
@@ -479,9 +455,3 @@ if (!outputFile.canWrite() && outputFile.exists()) {
     throw new IOException("Cannot write to " + outputFilePath);
 }
 ```
-
-## Gerelateerde Tutorials
-
-- [Hoe Digitale Certificaten in Java te Verifiëren - Complete Gids met Codevoorbeelden](/signature/java/digital-signatures/java-certificate-verification-groupdocs-signature/)
-- [Hoe PDF Programmatically in Java te Ondertekenen met GroupDocs.Signature](/signature/java/digital-signatures/sign-pdfs-groupdocs-signature-java/)
-- [Afbeelding Handtekening Toevoegen aan PDF Java met GroupDocs](/signature/java/image-signatures/sign-pdf-image-signature-groupdocs-java/)

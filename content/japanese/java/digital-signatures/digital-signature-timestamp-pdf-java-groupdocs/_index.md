@@ -1,49 +1,52 @@
 ---
-categories:
-- Java Development
-date: '2026-06-11'
-description: GroupDocs.Signature を使用して Java で PDF に署名する方法を学び、digital signature と timestamp
-  を追加します。コード例とベストプラクティスを含むステップバイステップガイドです。
+date: '2026-09-05'
+description: Java と GroupDocs.Signature を使用して PDF に署名し、digital signature と timestamp
+  を追加する方法を学びます。コード例と best practices を含む step‑by‑step ガイドです。
 keywords:
 - how to sign pdf
 - add digital signature pdf
-- timestamp pdf signature
-- java pdf signature library
+- digital signature pdf java
+- sign pdf java
 - groupdocs signature java
-lastmod: '2026-06-11'
-linktitle: JavaでPDFにDigital Signatureを追加
+lastmod: '2026-09-05'
+linktitle: Java で PDF に digital signature を追加
+og_description: Java と GroupDocs.Signature を使用して PDF に署名し、digital signature と trusted
+  timestamp を数行のコードで追加する方法を学びます。step‑by‑step の手順、best practices、troubleshooting tips
+  に従ってください。
+og_image_alt: Guide showing Java code to add digital signature and timestamp to PDF
+  with GroupDocs.Signature
+og_title: Java と GroupDocs.Signature を使用した PDF の署名方法
 schemas:
 - author: GroupDocs
-  dateModified: '2026-06-11'
+  dateModified: '2026-09-05'
   description: Learn how to sign PDF with Java using GroupDocs.Signature, add digital
     signature and timestamp. Step-by-step guide with code examples and best practices.
-  headline: 'How to Sign PDF with Java: Add Digital Signature and Timestamp'
+  headline: How to sign PDF with Java and timestamp
   type: TechArticle
 - description: Learn how to sign PDF with Java using GroupDocs.Signature, add digital
     signature and timestamp. Step-by-step guide with code examples and best practices.
-  name: 'How to Sign PDF with Java: Add Digital Signature and Timestamp'
+  name: How to sign PDF with Java and timestamp
   steps:
-  - name: Import Required Classes
+  - name: import required classes
     text: The following imports give you access to signature configuration, positioning,
       and timestamp functionality.
-  - name: Define Your File Paths
-    text: Set up paths for your input PDF, certificate, and where you want the signed
-      PDF saved. Keep the certificate file secure; it contains your private key.
-  - name: Initialize the Signature Object
-    text: Create a `Signature` instance pointing to the PDF you want to sign. This
-      loads the PDF into memory and prepares it for signing.
-  - name: Configure Signature Properties and Timestamp
-    text: The `DigitalSignature` class represents the cryptographic seal that will
-      be embedded in the PDF. You can also attach a timestamp from a trusted authority.
-      * **ContactInfo** – e.g., `john.doe@company.com` * **Location** – e.g., `New
-      York Office` * **Reason** – e.g., `Contract Approval` We use FreeTSA
-  - name: Configure Digital Sign Options
-    text: The `SignOptions` class ties together the certificate, signature properties,
-      and visual placement. Alignment enums control where the signature appears.
-  - name: Sign and Save the Document
-    text: Execute the signing process and write the signed PDF to disk. The returned
-      `SignResult` object tells you whether the operation succeeded and lists any
-      warnings.
+  - name: define your file paths
+    text: Set up paths for the input PDF, the certificate (PFX), and the output location.
+      Keep the certificate file secure; it contains your private key.
+  - name: initialize the Signature object
+    text: '`Signature` is the entry point for all signing actions. Creating it loads
+      the PDF into memory and prepares the API for further operations.'
+  - name: configure signature properties and timestamp
+    text: '`DigitalSignature` is the cryptographic seal that will be embedded in the
+      PDF. You can also attach a timestamp from a trusted authority. * **ContactInfo**
+      – e.g., `john.doe@company.com` * **Location** – e.g., `New York Office` * **Reason**
+      – e.g., `Contract Approval` We use FreeTSA (a free timestamp'
+  - name: configure digital sign options
+    text: '`SignOptions` aggregates the certificate, visual appearance, and placement
+      settings for the digital signature.'
+  - name: sign and save the document
+    text: '`SignResult` provides the outcome of the signing operation, including success
+      status and any warnings.'
   type: HowTo
 - questions:
   - answer: A digital signature uses cryptographic algorithms to verify identity and
@@ -65,43 +68,44 @@ schemas:
     question: What happens if my certificate expires after I've signed documents?
   type: FAQPage
 tags:
-- pdf-signing
-- digital-signatures
-- java-security
+- pdf signing
+- digital signatures
+- java security
 - groupdocs
-title: JavaでPDFに署名する方法：Digital Signature と Timestamp を追加
-type: docs
-url: /ja/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/
-weight: 1
+- java pdf signature
+title: Java と GroupDocs.Signature と timestamp を使用した PDF の署名方法
 ---
 
 # Java とタイムスタンプで PDF に署名する方法
 
-重要な文書を送った後に、後から改ざんされる可能性を心配したことはありませんか？ あなたは一人ではありません。エンタープライズ文書管理システムを構築する場合でも、契約署名プラットフォームを作成する場合でも、プログラムで PDF ファイルを保護する必要がある場合でも、**how to sign PDF** に信頼できるタイムスタンプを付与することが解決策です。デジタル署名を追加すると、誰がファイルに署名したかを証明できるだけでなく、署名が行われた*正確な*時刻の不変の記録が作成されます。
+契約書や請求書、重要な文書を改ざんから保護する必要があるとき、**PDF に署名**する方法は最優先課題となります。このガイドでは、GroupDocs.Signature for Java を使用して PDF にデジタル署名と信頼できるタイムスタンプを追加する方法を紹介します。オフラインで動作し、最大 500 MB のファイルに対応し、数行のコードで実装できます。
 
 ## クイック回答
-- **Java で PDF 署名を簡素化するライブラリは何ですか？** GroupDocs.Signature for Java.  
-- **インターネット接続は必要ですか？** タイムスタンプ認証局のためだけに必要です；署名自体はオフラインで行われます。  
+- **Java で PDF 署名を簡素化するライブラリは何ですか？** GroupDocs.Signature for Java。  
+- **インターネット接続は必要ですか？** タイムスタンプ機関のためだけです；暗号署名はローカルで実行されます。  
 - **テスト用に自己署名証明書を使用できますか？** はい、`keytool` で生成できます。  
-- **サイズ制限はありますか？** ライブラリはメモリに全体を読み込まずに 500 MB までの PDF に署名できます。  
-- **GroupDocs がサポートするフォーマットは何種類ですか？** DOCX、XLSX、PPTX、HTML、画像など、50 以上の入力・出力フォーマットに対応しています。
-
-## デジタル署名が重要な理由（タイムスタンプが必要な理由）
-
-PDF を読み込み、暗号的なシールを適用し、信頼できるタイムスタンプを埋め込む—この二段階プロセスにより、認証、完全性、否認防止が保証されます。タイムスタンプは、署名証明書が後で失効または取り消された場合でも、署名が特定の瞬間に存在したことを証明します。
+- **サイズ制限はありますか？** ライブラリはメモリに全体を読み込まずに最大 500 MB の PDF に署名できます。  
+- **GroupDocs がサポートするフォーマットは何ですか？** DOCX、XLSX、PPTX、HTML、画像など、50 以上の入力・出力フォーマットをサポートしています。
 
 ## Java で PDF に署名する方法は？
 
-`new Signature("input.pdf")` で PDF を読み込み、`DigitalSignature` オブジェクトを構成し、信頼できる認証局からタイムスタンプを付与し、`sign()` を呼び出すだけで、数行のコードで完了します。GroupDocs.Signature は証明書の解析、ハッシュ計算、タイムスタンプ取得を自動で処理するため、暗号化の詳細に時間を取らずにビジネスロジックに集中できます。
+PDF を読み込み、証明書で `DigitalSignature` を構成し、必要に応じて RFC 3161 準拠の TSA からタイムスタンプを添付し、`sign()` を呼び出します。`Signature` オブジェクトは署名済みファイルをディスクに書き込み、`SignResult` を返して操作の成功可否と警告を一覧で示します。このエンドツーエンドのフローは数行の Java コードで実現でき、ハッシュ計算、証明書検証、タイムスタンプ取得を自動で処理します。
+
+## デジタル署名が重要な理由（タイムスタンプが必要な理由）
+
+デジタル署名は **真正性**（誰が署名したか）と **完全性**（文書が変更されていないこと）を保証します。タイムスタンプを追加すると、署名が特定の時点で存在したことが証明され、後で署名証明書が失効または取り消されても保護されます。これにより、法的、金融、規制ワークフローに不可欠な **否認防止** が実現します。
 
 ## GroupDocs.Signature for Java のセットアップ
 
 ### 統合方法
 
-使用しているビルドツールを選んでください：
+使用したいビルドツールを選択してください：
 
-**Maven ユーザー向け:**  
-`pom.xml` に次の依存関係を追加します:
+**Maven ユーザー向け**  
+`pom.xml` に依存関係を追加します：
+
+以下の Maven 座標は GroupDocs.Signature for Java の最新安定版を取得します。
+
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -110,30 +114,33 @@ PDF を読み込み、暗号的なシールを適用し、信頼できるタイ�
 </dependency>
 ```
 
-**Gradle ユーザー向け:**  
-`build.gradle` に次を追加します:
+**Gradle ユーザー向け**  
+`build.gradle` に行を追加します：
+
+Gradle は Maven Central からライブラリを解決します。
+
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**直接ダウンロード (希望する場合):**  
-[GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) にアクセスして JAR ファイルをダウンロードします。プロジェクトのクラスパスに手動で追加してください。詳細な API リファレンスは [GroupDocs.Signature Documentation](https://docs.groupdocs.com/signature/java/) を参照してください。最新ビルドは [Latest Version & Releases](https://releases.groupdocs.com/signature/java/) で確認できます。
+**直接ダウンロード（希望する場合）**  
+[GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) にアクセスして JAR ファイルをダウンロードしてください。プロジェクトのクラスパスに手動で追加します。完全な API リファレンスは [GroupDocs.Signature Documentation](https://docs.groupdocs.com/signature/java/) を参照してください。最新ビルドについては [Latest Version & Releases](https://releases.groupdocs.com/signature/java/) をご覧ください。
 
-プロのヒント: 可能であれば Maven または Gradle を使用してください。依存関係の管理とアップデートが格段に楽になります。
+*プロのヒント:* Maven または Gradle はバージョンアップとトランジティブ依存関係を自動化し、新しいセキュリティパッチがリリースされたときに時間を節約します。
 
-### ライセンス取得方法
+### ライセンス取得
 
-GroupDocs ではプロジェクトの段階に応じていくつかのオプションがあります:
+GroupDocs は 3 つのライセンスオプションを提供しています：
 
-1. **Free Trial** – 評価に最適です。[Download Trial Version](https://releases.groupdocs.com/signature/java/) で全機能をテストできます。  
-2. **Temporary License** – 試用版の透かしなしで開発にフルアクセスしたいですか？ 30 日間の一時ライセンスを取得してください。  
-3. **Commercial License** – 本番環境で使用する場合は、[Buy License](https://purchase.groupdocs.com/buy) から購入してください。価格は導入形態により変わります。
+1. **無料トライアル** – ウォーターマークなしで全機能を評価できます。 [Download Trial Version](https://releases.groupdocs.com/signature/java/)  
+2. **一時ライセンス** – 開発用の 30 日間フルアクセスキー。  
+3. **商用ライセンス** – 本番環境対応、無制限使用。 [Buy License](https://purchase.groupdocs.com/buy)
 
-サポートが必要ですか？ [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) をご利用ください。
+質問がある場合は、[GroupDocs Forum](https://forum.groupdocs.com/c/signature/) のコミュニティが活発です。
 
 ### 基本的な初期化
 
-`Signature` クラスは GroupDocs.Signature の最上位オブジェクトで、メモリ内の単一 PDF ファイルを表します。インスタンス化後、すべての読み書き操作はこのオブジェクトを通じて行われます。
+`Signature` は GroupDocs.Signature の最上位オブジェクトで、メモリ内の単一 PDF ファイルを表します。インスタンスを作成すると、すべての読み書き操作がそれを通じて行われます。
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -142,15 +149,13 @@ String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 final Signature signature = new Signature(filePath);
 ```
 
-シンプルですね。PDF ファイルを指すだけで、すぐに使用できます。`Signature` オブジェクトはすべての署名操作の主要インターフェイスです。
-
 ## PDF にデジタル署名を追加する Java 手順：ステップバイステップ
 
-PDF を読み込み、署名の詳細を設定し、タイムスタンプを付与し、署名済み文書を保存するまでの流れが明確に示されています。
+プロセスは直線的です：クラスをインポートし、ファイルパスを設定し、`Signature` オブジェクトを作成し、オプションのタイムスタンプ付きで `DigitalSignature` を構成し、`SignOptions` を定義してから署名して保存します。
 
 ### ステップ 1: 必要なクラスをインポート
 
-署名設定、位置指定、タイムスタンプ機能にアクセスするためのインポートです。
+以下のインポートにより、署名設定、位置指定、タイムスタンプ機能にアクセスできます。
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -163,7 +168,7 @@ import com.groupdocs.signature.options.sign.DigitalSignOptions;
 
 ### ステップ 2: ファイルパスを定義
 
-入力 PDF、証明書、および署名済み PDF の保存先パスを設定します。証明書ファイルはプライベートキーを含むため、必ず安全に保管してください。
+入力 PDF、証明書（PFX）、出力先のパスを設定します。証明書ファイルはプライベートキーを含むため、安全に保管してください。
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
@@ -173,7 +178,7 @@ String outputFilePath = "YOUR_OUTPUT_DIRECTORY/digitallySignedTimeStamp.pdf";
 
 ### ステップ 3: Signature オブジェクトを初期化
 
-署名したい PDF を指す `Signature` インスタンスを作成します。これにより PDF がメモリに読み込まれ、署名の準備が整います。
+`Signature` はすべての署名操作のエントリーポイントです。作成すると PDF がメモリにロードされ、API がさらに操作できるようになります。
 
 ```java
 final Signature signature = new Signature(filePath);
@@ -181,7 +186,7 @@ final Signature signature = new Signature(filePath);
 
 ### ステップ 4: 署名プロパティとタイムスタンプを設定
 
-`DigitalSignature` クラスは PDF に埋め込まれる暗号的シールを表します。信頼できる認証局からタイムスタンプを付与することもできます。
+`DigitalSignature` は PDF に埋め込まれる暗号シールです。信頼できる機関からタイムスタンプを添付することもできます。
 
 ```java
 PdfDigitalSignature pdfDigitalSignature = new PdfDigitalSignature();
@@ -198,11 +203,11 @@ pdfDigitalSignature.setTimeStamp(timeStamp);
 * **Location** – 例: `New York Office`  
 * **Reason** – 例: `Contract Approval`  
 
-デモ用に FreeTSA（無料のタイムスタンプ認証局）を使用しています。実運用では、稼働率と法的効力が保証された商用 TSA を選択してください。
+デモ用に FreeTSA（無料タイムスタンプ機関）を使用します。本番環境では、稼働率と法的効力が保証された商用 TSA を選択してください。
 
 ### ステップ 5: デジタル署名オプションを設定
 
-`SignOptions` クラスは証明書、署名プロパティ、視覚的配置を結び付けます。Alignment 列挙型で署名の表示位置を制御します。
+`SignOptions` は証明書、視覚的外観、配置設定をまとめたものです。
 
 ```java
 DigitalSignOptions options = new DigitalSignOptions(certificatePath);
@@ -214,9 +219,9 @@ options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setHorizontalAlignment(HorizontalAlignment.Right);
 ```
 
-### ステップ 6: 文書に署名して保存
+### ステップ 6: ドキュメントに署名して保存
 
-署名プロセスを実行し、署名済み PDF をディスクに書き出します。返される `SignResult` オブジェクトは操作の成功可否と警告情報を提供します。
+`SignResult` は署名操作の結果を提供し、成功ステータスと警告を一覧で示します。
 
 ```java
 try {
@@ -231,63 +236,73 @@ try {
 ## 避けるべき一般的な落とし穴
 
 ### 1. 証明書の問題
-**Problem:** “Invalid certificate” エラー。  
-**Fix:** `keytool -list -v -keystore your.pfx` でパスワードを確認してください。
+
+**問題:** “Invalid certificate” エラー。  
+**解決策:** `keytool -list -v -keystore your.pfx` でパスワードを確認してください。
 
 ```bash
 keytool -list -v -keystore certificate.pfx -storetype PKCS12
 ```
 
 ### 2. タイムスタンプサービスのタイムアウト
-**Problem:** TSA への接続でネットワークタイムアウトが発生。  
-**Fix:** 接続性をテスト (`curl -I https://freetsa.org/tsr`) し、リトライロジックを追加するか、フォールバック TSA を設定してください。
+
+**問題:** TSA への接続時にネットワークタイムアウトが発生。  
+**解決策:** 接続性をテスト（`curl -I https://freetsa.org/tsr`）、リトライロジックを追加、またはフォールバック TSA を設定してください。
 
 ```java
 new File(outputFilePath).getParentFile().mkdirs();
 ```
 
 ### 3. ファイル権限の問題
-**Problem:** 保存時に “Access denied”。  
-**Fix:** 出力ディレクトリが存在し、アプリケーションに書き込み権限があることを確認してください。
+
+**問題:** 保存時に “Access denied”。  
+**解決策:** 出力ディレクトリが存在し、アプリが書き込み権限を持っていることを確認してください。
 
 ```bash
 keytool -genkeypair -alias mykey -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore certificate.pfx -validity 365
 ```
 
 ### 4. 大きな PDF のメモリ問題
-**Problem:** 大容量ファイルで `OutOfMemoryError` が発生。  
-**Fix:** JVM ヒープを増やす (`-Xmx4g`) か、ファイルをバッチ処理してください。
 
-### 5. 署名位置が間違っている
-**Problem:** 署名が既存コンテンツと重なる。  
-**Fix:** まず配置設定をテストし、ピクセル単位で正確に配置したい場合は座標ベースのオプションを使用してください。
+**問題:** 大きなファイルで `OutOfMemoryError` が発生。  
+**解決策:** JVM ヒープを増やす（`-Xmx4g`）か、ファイルをバッチ処理してください。
+
+### 5. 署名位置の誤り
+
+**問題:** 署名が既存のコンテンツと重なる。  
+**解決策:** まず配置設定をテストし、ピクセル単位の正確な配置には座標ベースのオプションを使用してください。
 
 ## 証明書管理のヒント
 
 ### 開発用証明書の取得
-テスト目的で Java の `keytool` を使用して自己署名証明書を生成します。
+
+テスト用に Java の `keytool` で自己署名証明書を生成します。
 
 ```java
    String certPassword = System.getenv("CERT_PASSWORD");
    ```
 
 ### 証明書のベストプラクティス
-1. **パスワードをハードコードしない** – 環境変数を使用してください。  
-2. **証明書は期限切れ前にローテーション** してください。  
-3. **高セキュリティアプリでは HSM に秘密鍵を保管** してください。  
-4. **証明書は保護された場所にバックアップ** してください。  
-5. **署名前に証明書を検証** し、期限切れや失効を検出してください。
+
+1. **パスワードをハードコードしない** – 環境変数を使用。  
+2. **証明書を期限前にローテーション** する。  
+3. **プライベートキーを安全なハードウェア（HSM）に保管** して高セキュリティアプリに対応。  
+4. **証明書を保護された場所にバックアップ** する。  
+5. **署名前に証明書を検証** し、期限切れや失効を検出する。
 
 ## セキュリティのベストプラクティス
 
-### 1. 秘密鍵を保護
-証明書はプロジェクトディレクトリ外に保存し、環境固有の設定を使用し、エンタープライズ導入では HSM の利用を検討してください。
+### 1. プライベートキーを保護
+
+証明書はプロジェクトディレクトリ外に保管し、環境固有の設定を使用し、エンタープライズ展開では HSM の導入を検討してください。
 
 ### 2. 入力 PDF を検証
-破損、既存署名、サイズ上限、コンテンツの適合性をチェックしてから署名してください。
+
+署名前に破損、既存の署名、サイズ制限、コンテンツの準拠をチェックしてください。
 
 ### 3. 監査ログを実装
-署名操作ごとにタイムスタンプ、ユーザー、文書名、ステータスを記録します。
+
+タイムスタンプ、ユーザー、ドキュメント名、ステータスを含めて、すべての署名操作を記録します。
 
 ```java
 try {
@@ -299,11 +314,13 @@ try {
 }
 ```
 
-### 4. 信頼できるタイムスタンプ認証局を使用
-ローカルのシステム時刻に依存せず、RFC 3161 準拠の TSA から必ずタイムスタンプを取得してください。
+### 4. 信頼できるタイムスタンプ機関を使用
+
+ローカルシステム時刻に依存せず、常に RFC 3161 準拠の TSA からタイムスタンプを取得してください。
 
 ### 5. エラーハンドリングを実装
-例外を捕捉し、機密情報を漏らさないように処理してください。
+
+機密情報を漏らさないように例外を捕捉してください。
 
 ```java
 try {
@@ -318,42 +335,38 @@ try {
 
 ## 実際のユースケースとアプリケーション
 
-### 1. 契約管理システム
-従業員が NDA や契約書に電子署名し、タイムスタンプで正確な受諾時刻を証明します。
+1. **契約管理システム** – 従業員が NDA や契約書に電子署名し、タイムスタンプで各契約が受諾された正確な時刻を証明します。  
+2. **金融文書処理** – 請求書や発注書をバッチ署名し、規制当局向けに改ざん不可能な監査証跡を提供します。  
+3. **教育資格検証** – 大学が改ざん防止の成績証明書を発行し、QR コードリンクで即座に検証可能にします。  
+4. **ソフトウェアライセンス管理** – デジタル署名とタイムスタンプ付きのライセンス証明書を生成し、偽造を防止します。  
+5. **規制コンプライアンス（FDA 21 CFR Part 11 など）** – 医療機器企業が SOP や検証レポートに署名し、タイムスタンプで否認防止要件を満たします。
 
-### 2. 金融文書処理
-請求書や発注書をバッチ署名し、規制当局向けに不変の監査トレイルを提供します。
-
-### 3. 教育資格の検証
-大学が改ざん防止の成績証明書を発行し、QR コードリンクで即時検証が可能です。
-
-### 4. ソフトウェアライセンス管理
-デジタル署名とタイムスタンプ付きのライセンス証明書を生成し、偽造を防止します。
-
-### 5. 規制コンプライアンス（FDA 21 CFR Part 11 など）
-医療機器メーカーが SOP や検証レポートに署名し、タイムスタンプで否認防止要件を満たします。
-
-## パフォーマンスの考慮事項と最適化
+## パフォーマンス考慮事項と最適化
 
 ### メモリ管理
-大容量 PDF はバッチで処理し、`Signature` オブジェクトは速やかにクローズし、必要に応じてヒープサイズを増やしてください。
+
+大容量 PDF はバッチで処理し、`Signature` オブジェクトは速やかにクローズし、必要に応じてヒープサイズを増やします。
 
 ### タイムスタンプのネットワーク最適化
-HTTP 接続をプールし、指数バックオフリトライを実装し、連続署名時にはタイムスタンプをキャッシュしてください。
+
+HTTP 接続をプールし、指数バックオフのリトライを実装し、連続署名時にはタイムスタンプをキャッシュします。
 
 ### バッチ処理のベストプラクティス
+
 ```java
 // Pseudo‑code: process a list of PDFs in parallel, limiting to 5 concurrent TSA calls
-```
+```  
 *スレッドを過剰に生成しないでください；5〜10 の同時署名がスループットと TSA の負荷のバランスを取ります。*
 
 ### ディスク I/O の最適化
-一時ファイルは SSD に保存し、読み書き回数を最小限に抑え、署名実行後は一時アーティファクトをクリーンアップしてください。
+
+一時ファイルには SSD を使用し、読み書きサイクルを最小限に抑え、署名実行後は一時アーティファクトをクリーンアップします。
 
 ## トラブルシューティングガイド
 
-### エラー: “Invalid Certificate Password”
-**Solution:** `keytool -list -keystore your.pfx` でパスワードを確認してください。
+### エラー: “Invalid certificate password”
+
+**解決策:** `keytool -list -keystore your.pfx` でパスワードを確認してください。
 
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(5);
@@ -376,18 +389,21 @@ for (Future<SignResult> future : futures) {
 executor.shutdown();
 ```
 
-### エラー: “Timestamp Authority Not Responding”
-**Solution:** TSA の URL をテストし、ファイアウォール規則を確認し、フォールバック TSA ロジックを追加してください。
+### エラー: “Timestamp authority not responding”
+
+**解決策:** TSA の URL をテストし、ファイアウォール設定を確認し、フォールバック TSA ロジックを追加してください。
 
 ```bash
 keytool -list -v -keystore certificate.pfx -storetype PKCS12
 ```
 
-### エラー: “PDF is Already Signed”
-既に署名された PDF を検出したら、カウンター署名を追加するか、未署名のコピーで再度署名してください。
+### エラー: “PDF is already signed”
 
-### エラー: “Access Denied” When Saving
-出力ディレクトリが存在し、アプリに書き込み権限があり、他プロセスがファイルをロックしていないことを確認してください。
+**解決策:** まず既存の署名を検出し、カウンター署名を追加するか、新しいコピーに署名してください。
+
+### エラー: 保存時の “Access denied”
+
+**解決策:** 出力ディレクトリが存在し、アプリに書き込み権限があり、他のプロセスがファイルをロックしていないことを確認してください。
 
 ```java
 TimeStamp timeStamp;
@@ -400,49 +416,8 @@ try {
 ```
 
 ### エラー: OutOfMemoryError
-JVM ヒープを増やすか、PDF を小さなバッチに分割して処理するか、非常に大きなファイル向けにストリーミング API に切り替えてください。
 
-## 結論と次のステップ
-
-**how to sign PDF** の方法、信頼できるタイムスタンプの付与、一般的な落とし穴への対処を学びました。次のステップとして、以下を検討してください：
-
-1. 複数署名フィールドを追加し、マルチパーティ合意に対応。  
-2. GroupDocs.Signature の検証 API を使用してプログラムで署名を検証。  
-3. 署名の外観（画像、テキスト、配置）をカスタマイズ。  
-4. キューイングとモニタリングを組み込んだ堅牢なバッチ署名サービスを構築。
-
-## よくある質問
-
-**Q: デジタル署名と電子署名の違いは何ですか？**  
-A: デジタル署名は暗号アルゴリズムを使用して本人確認と改ざん検出を行うのに対し、電子署名は単に名前を入力するなどシンプルな形式でも構いません。
-
-**Q: PDF に署名するためにインターネット接続は必要ですか？**  
-A: タイムスタンプサービスのためだけに必要です；暗号署名自体はローカルで実行されます。
-
-**Q: 署名済み PDF は後で編集できますか？**  
-A: いかなる変更も署名を破壊し、PDF ビューアは文書が変更されたことを警告します。
-
-**Q: 署名済み PDF をどうやって検証しますか？**  
-A: 多くの PDF リーダーは自動的に検証します。プログラムで検証する場合は、GroupDocs.Signature の検証 API を使用してステータス、署名者情報、タイムスタンプの有効性を確認してください。
-
-**Q: 証明書が期限切れになった後に署名した文書はどうなりますか？**  
-A: 埋め込まれたタイムスタンプにより、署名が証明書の有効期間内に作成されたことが証明され、法的効力が保たれます。
-
-**Q: これをクラウドストレージ（S3、Azure Blob など）で使用できますか？**  
-A: はい。PDF を一時的にダウンロードし、署名後に再度クラウドへアップロードしてください。
-
-**Q: ファイルサイズの上限はありますか？**  
-A: ライブラリはメモリに全体を読み込まずに最大 500 MB の PDF を処理できます。より大きなファイルはストリーミングが必要になる場合があります。
-
-**Q: 商用利用時の GroupDocs.Signature の費用はどれくらいですか？**  
-A: 導入形態により価格が変動します。最新の料金は GroupDocs の営業担当までお問い合わせください。評価版や一時ライセンスも利用可能です。
-
-**Q: Linux サーバーでも動作しますか？**  
-A: 完全にプラットフォームに依存せず、JRE があればどの OS でも動作します。
-
-**最終更新日:** 2026-06-11  
-**テスト環境:** GroupDocs.Signature 23.9 for Java  
-**作者:** GroupDocs
+**解決策:** JVM ヒープを増やす、PDF を小さなバッチで処理する、または非常に大きなファイルの場合はストリーミング API に切り替えてください。
 
 ```java
 File outputFile = new File(outputFilePath);
@@ -453,8 +428,59 @@ if (!outputFile.canWrite() && outputFile.exists()) {
 }
 ```
 
+## 結論と次のステップ
+
+あなたは **PDF に署名** し、信頼できるタイムスタンプを追加し、一般的な落とし穴を回避する方法を学びました。次に取り組むべきことは：
+
+1. 複数の署名フィールドを追加して、複数当事者の合意に対応する。  
+2. GroupDocs.Signature を使用してプログラムで署名を検証する。  
+3. 署名の視覚的外観（画像、テキスト、位置）をカスタマイズする。  
+4. キューイングと監視を備えた堅牢なバッチ署名サービスを構築する。
+
+## よくある質問
+
+**Q: デジタル署名と電子署名の違いは何ですか？**  
+A: デジタル署名は暗号アルゴリズムを使用して本人確認と改ざん検出を行うのに対し、電子署名は単に名前を入力したり画像を貼り付けたりするだけの簡易的なものです。
+
+**Q: PDF に署名するためにインターネット接続は必要ですか？**  
+A: タイムスタンプサービスのためだけに必要です；暗号署名自体はローカルで実行されます。
+
+**Q: 署名済み PDF は後で編集できますか？**  
+A: 変更が加わると署名が破損し、PDF ビューアは文書が変更された旨の警告を表示します。
+
+**Q: 署名済み PDF をどのように検証しますか？**  
+A: 多くの PDF リーダーは自動で検証します。プログラムで検証する場合は、GroupDocs.Signature の検証 API を使用してステータス、署名者情報、タイムスタンプの有効性を確認できます。
+
+**Q: 署名後に証明書が期限切れになった場合はどうなりますか？**  
+A: 埋め込まれたタイムスタンプが署名が有効だった時点を証明するため、証明書が失効しても法的効力が保たれます。
+
+**Q: これをクラウドストレージ（S3、Azure Blob など）で使用できますか？**  
+A: はい。PDF を一時的にダウンロードして署名し、署名後にクラウドに再アップロードします。
+
+**Q: ファイルサイズの制限はありますか？**  
+A: ライブラリはメモリに全体を読み込まずに最大 500 MB の PDF を処理できます。より大きなファイルはストリーミング方式が必要です。
+
+**Q: 商用利用の場合、GroupDocs.Signature の費用はいくらですか？**  
+A: 料金は導入形態により異なります。最新の価格は GroupDocs の営業担当にお問い合わせください。評価版や一時ライセンスも利用可能です。
+
+**Q: Linux サーバーでも動作しますか？**  
+A: 完全に対応しています。GroupDocs.Signature for Java はプラットフォームに依存せず、JRE があればどの OS でも実行できます。
+
+**最終更新日:** 2026-09-05  
+**テスト環境:** GroupDocs.Signature 23.9 for Java  
+**作者:** GroupDocs
+
 ## 関連チュートリアル
 
-- [Java でデジタル証明書を検証する方法 - コード例付き完全ガイド](/signature/java/digital-signatures/java-certificate-verification-groupdocs-signature/)
-- [Java で GroupDocs.Signature を使用してプログラム的に PDF に署名する方法](/signature/java/digital-signatures/sign-pdfs-groupdocs-signature-java/)
-- [GroupDocs を使用した Java の PDF への画像署名の追加](/signature/java/image-signatures/sign-pdf-image-signature-groupdocs-java/)
+- [How to Verify Digital Certificates in Java - Complete Guide with Code Examples](/signature/java/digital-signatures/java-certificate-verification-groupdocs-signature/)
+- [How to Sign PDF Programmatically in Java with GroupDocs.Signature](/signature/java/digital-signatures/sign-pdfs-groupdocs-signature-java/)
+- [Add Image Signature to PDF Java with GroupDocs](/signature/java/image-signatures/sign-pdf-image-signature-groupdocs-java/)
+
+```java
+File outputFile = new File(outputFilePath);
+outputFile.getParentFile().mkdirs(); // Create directories if needed
+
+if (!outputFile.canWrite() && outputFile.exists()) {
+    throw new IOException("Cannot write to " + outputFilePath);
+}
+```

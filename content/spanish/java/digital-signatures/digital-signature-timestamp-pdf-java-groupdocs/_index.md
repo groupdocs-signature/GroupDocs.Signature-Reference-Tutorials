@@ -1,49 +1,52 @@
 ---
-categories:
-- Java Development
-date: '2026-06-11'
-description: Aprenda a firmar PDF con Java usando GroupDocs.Signature, agregue firma
-  digital y sello de tiempo. Guía paso a paso con ejemplos de código y mejores prácticas.
+date: '2026-09-05'
+description: Aprenda cómo firmar PDF con Java usando GroupDocs.Signature, añada digital
+  signature y timestamp. Guía paso a paso con code examples y best practices.
 keywords:
 - how to sign pdf
 - add digital signature pdf
-- timestamp pdf signature
-- java pdf signature library
+- digital signature pdf java
+- sign pdf java
 - groupdocs signature java
-lastmod: '2026-06-11'
-linktitle: Agregar firma digital a PDF Java
+lastmod: '2026-09-05'
+linktitle: Añadir digital signature a PDF Java
+og_description: Aprenda cómo firmar PDF con Java usando GroupDocs.Signature, añada
+  digital signature y trusted timestamp en unas pocas líneas de code. Siga step‑by‑step
+  instructions, best practices y troubleshooting tips.
+og_image_alt: Guide showing Java code to add digital signature and timestamp to PDF
+  with GroupDocs.Signature
+og_title: Cómo firmar PDF con Java usando GroupDocs.Signature
 schemas:
 - author: GroupDocs
-  dateModified: '2026-06-11'
+  dateModified: '2026-09-05'
   description: Learn how to sign PDF with Java using GroupDocs.Signature, add digital
     signature and timestamp. Step-by-step guide with code examples and best practices.
-  headline: 'How to Sign PDF with Java: Add Digital Signature and Timestamp'
+  headline: How to sign PDF with Java and timestamp
   type: TechArticle
 - description: Learn how to sign PDF with Java using GroupDocs.Signature, add digital
     signature and timestamp. Step-by-step guide with code examples and best practices.
-  name: 'How to Sign PDF with Java: Add Digital Signature and Timestamp'
+  name: How to sign PDF with Java and timestamp
   steps:
-  - name: Import Required Classes
+  - name: import required classes
     text: The following imports give you access to signature configuration, positioning,
       and timestamp functionality.
-  - name: Define Your File Paths
-    text: Set up paths for your input PDF, certificate, and where you want the signed
-      PDF saved. Keep the certificate file secure; it contains your private key.
-  - name: Initialize the Signature Object
-    text: Create a `Signature` instance pointing to the PDF you want to sign. This
-      loads the PDF into memory and prepares it for signing.
-  - name: Configure Signature Properties and Timestamp
-    text: The `DigitalSignature` class represents the cryptographic seal that will
-      be embedded in the PDF. You can also attach a timestamp from a trusted authority.
-      * **ContactInfo** – e.g., `john.doe@company.com` * **Location** – e.g., `New
-      York Office` * **Reason** – e.g., `Contract Approval` We use FreeTSA
-  - name: Configure Digital Sign Options
-    text: The `SignOptions` class ties together the certificate, signature properties,
-      and visual placement. Alignment enums control where the signature appears.
-  - name: Sign and Save the Document
-    text: Execute the signing process and write the signed PDF to disk. The returned
-      `SignResult` object tells you whether the operation succeeded and lists any
-      warnings.
+  - name: define your file paths
+    text: Set up paths for the input PDF, the certificate (PFX), and the output location.
+      Keep the certificate file secure; it contains your private key.
+  - name: initialize the Signature object
+    text: '`Signature` is the entry point for all signing actions. Creating it loads
+      the PDF into memory and prepares the API for further operations.'
+  - name: configure signature properties and timestamp
+    text: '`DigitalSignature` is the cryptographic seal that will be embedded in the
+      PDF. You can also attach a timestamp from a trusted authority. * **ContactInfo**
+      – e.g., `john.doe@company.com` * **Location** – e.g., `New York Office` * **Reason**
+      – e.g., `Contract Approval` We use FreeTSA (a free timestamp'
+  - name: configure digital sign options
+    text: '`SignOptions` aggregates the certificate, visual appearance, and placement
+      settings for the digital signature.'
+  - name: sign and save the document
+    text: '`SignResult` provides the outcome of the signing operation, including success
+      status and any warnings.'
   type: HowTo
 - questions:
   - answer: A digital signature uses cryptographic algorithms to verify identity and
@@ -65,43 +68,44 @@ schemas:
     question: What happens if my certificate expires after I've signed documents?
   type: FAQPage
 tags:
-- pdf-signing
-- digital-signatures
-- java-security
+- pdf signing
+- digital signatures
+- java security
 - groupdocs
-title: 'Cómo firmar PDF con Java: agregar firma digital y sello de tiempo'
-type: docs
-url: /es/java/digital-signatures/digital-signature-timestamp-pdf-java-groupdocs/
-weight: 1
+- java pdf signature
+title: Cómo firmar PDF con Java y timestamp
 ---
 
-# Cómo firmar PDF con Java y marca de tiempo
+# Cómo firmar PDF con Java y sello de tiempo
 
-¿Alguna vez enviaste un documento importante y te preocupó que alguien pudiera manipularlo después? No estás solo. Ya sea que estés construyendo un sistema de gestión documental empresarial, creando una plataforma de firma de contratos, o simplemente necesites asegurar tus archivos PDF de forma programática, **how to sign PDF** con una marca de tiempo confiable es la solución. Añadir una firma digital no solo demuestra quién firmó el archivo, sino que también crea un registro inmutable de *exactamente* cuándo se realizó la firma.
+Cuando necesitas proteger un contrato, factura o cualquier documento crítico contra la manipulación, **cómo firmar PDF** de forma segura se vuelve una prioridad principal. En esta guía descubrirás cómo agregar una firma digital y un sello de tiempo confiable a un PDF usando GroupDocs.Signature for Java. El enfoque funciona sin conexión, escala a archivos de hasta 500 MB y requiere solo unas pocas líneas de código.
 
 ## Respuestas rápidas
 - **¿Qué biblioteca simplifica la firma de PDF en Java?** GroupDocs.Signature for Java.  
-- **¿Necesito una conexión a internet?** Solo para la autoridad de marca de tiempo; la firma en sí es offline.  
+- **¿Necesito una conexión a internet?** Solo para la autoridad de sello de tiempo; la firma criptográfica se ejecuta localmente.  
 - **¿Puedo usar un certificado autofirmado para pruebas?** Sí, genera uno con `keytool`.  
-- **¿Hay un límite de tamaño?** La biblioteca puede firmar PDFs de hasta 500 MB sin cargar todo el archivo en memoria.  
+- **¿Existe un límite de tamaño?** La biblioteca puede firmar PDFs de hasta 500 MB sin cargar todo el archivo en memoria.  
 - **¿Cuántos formatos admite GroupDocs?** Más de 50 formatos de entrada y salida, incluidos DOCX, XLSX, PPTX, HTML e imágenes.
 
-## Por qué las firmas digitales son importantes (Y por qué necesitas marcas de tiempo)
+## Cómo firmar PDF con Java?
 
-Carga tu PDF, aplica un sello criptográfico e incrusta una marca de tiempo confiable; este proceso de dos pasos garantiza la autenticación, integridad y no repudio. La marca de tiempo demuestra que la firma existía en un momento específico, incluso si el certificado de firma expira o es revocado más adelante.
+Carga el PDF, configura un `DigitalSignature` con tu certificado, opcionalmente adjunta un sello de tiempo de una TSA compatible con RFC 3161 y llama a `sign()`. El objeto `Signature` escribe el archivo firmado en disco, devolviendo un `SignResult` que indica si la operación tuvo éxito y enumera cualquier advertencia. Este flujo de extremo a extremo requiere solo unas pocas líneas de código Java y maneja automáticamente el hash, la validación del certificado y la obtención del sello de tiempo.
 
-## ¿Cómo firmar PDF con Java?
+## Por qué las firmas digitales son importantes (y por qué necesitas sellos de tiempo)
 
-Carga tu PDF con `new Signature("input.pdf")`, configura un objeto `DigitalSignature`, adjunta una marca de tiempo de una autoridad confiable y llama a `sign()`; toda la operación se completa en unas pocas líneas de código. GroupDocs.Signature maneja el análisis del certificado, el cálculo del hash y la obtención de la marca de tiempo automáticamente, para que puedas centrarte en la lógica de negocio en lugar de la criptografía.
+Una firma digital garantiza **autenticidad** (quién firmó) y **integridad** (el documento no ha cambiado). Añadir un sello de tiempo demuestra que la firma existía en un momento específico, protegiéndote incluso si el certificado de firma expira o es revocado más adelante. Juntas proporcionan no‑repudio—crítico para flujos de trabajo legales, financieros y regulatorios.
 
 ## Configuración de GroupDocs.Signature para Java
 
 ### Métodos de integración
 
-Elige la herramienta de compilación que estés usando:
+Elige la herramienta de compilación que prefieras:
 
-**Para usuarios de Maven:**  
-Añade esta dependencia a tu `pom.xml`:
+**Para usuarios de Maven**  
+Agrega la dependencia a tu `pom.xml`:
+
+Las siguientes coordenadas Maven obtienen la última versión estable de GroupDocs.Signature para Java.
+
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -110,30 +114,33 @@ Añade esta dependencia a tu `pom.xml`:
 </dependency>
 ```
 
-**Para usuarios de Gradle:**  
-Añade esto a tu `build.gradle`:
+**Para usuarios de Gradle**  
+Agrega la línea a tu `build.gradle`:
+
+Gradle resolverá la biblioteca desde Maven Central.
+
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Descarga directa (si lo prefieres):**  
-Visita [Versiones de GroupDocs.Signature para Java](https://releases.groupdocs.com/signature/java/) y descarga el archivo JAR. Agrégalo manualmente al classpath de tu proyecto. Consulta la [Documentación de GroupDocs.Signature](https://docs.groupdocs.com/signature/java/) para obtener una referencia detallada de la API. Para la compilación más reciente, consulta la [Última versión y lanzamientos](https://releases.groupdocs.com/signature/java/).
+**Descarga directa (si lo prefieres)**  
+Visita [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) y descarga el archivo JAR. Agrégalo manualmente al classpath de tu proyecto. Consulta la [GroupDocs.Signature Documentation](https://docs.groupdocs.com/signature/java/) para una referencia completa de la API. Para la compilación más reciente, ve a [Latest Version & Releases](https://releases.groupdocs.com/signature/java/).
 
-Consejo: usa Maven o Gradle si es posible; facilita la gestión de dependencias y actualizaciones en el futuro.
+*Consejo profesional:* Maven o Gradle automatizan las actualizaciones de versión y las dependencias transitivas, ahorrándote tiempo cuando se publican nuevos parches de seguridad.
 
-### Obteniendo tu licencia
+### Obtención de tu licencia
 
-GroupDocs ofrece algunas opciones aquí, según el estado de tu proyecto:
+GroupDocs ofrece tres opciones de licencia:
 
-1. **Free Trial** – Perfecto para evaluación. [Descargar versión de prueba](https://releases.groupdocs.com/signature/java/) y prueba todas las funciones.  
-2. **Temporary License** – ¿Necesitas acceso completo para desarrollo sin la marca de agua de prueba? Obtén una licencia temporal de 30 días.  
-3. **Commercial License** – Para uso en producción, [Buy License](https://purchase.groupdocs.com/buy). Los precios varían según el tipo de implementación.
+1. **Prueba gratuita** – evalúa todas las funciones sin marca de agua. [Download Trial Version](https://releases.groupdocs.com/signature/java/)  
+2. **Licencia temporal** – clave de acceso completo de 30 días para desarrollo.  
+3. **Licencia comercial** – lista para producción, uso ilimitado. [Buy License](https://purchase.groupdocs.com/buy)
 
-¿Necesitas ayuda? Visita el [Foro de GroupDocs](https://forum.groupdocs.com/c/signature/).
+Si tienes preguntas, la comunidad está activa en el [GroupDocs Forum](https://forum.groupdocs.com/c/signature/).
 
 ### Inicialización básica
 
-La clase `Signature` es el objeto de nivel superior de GroupDocs.Signature que representa un único archivo PDF en memoria. Después de la instanciación, todas las operaciones de lectura y escritura fluyen a través de este objeto.
+`Signature` es el objeto de nivel superior de GroupDocs.Signature que representa un único archivo PDF en memoria. Después de crear una instancia, todas las operaciones de lectura/escritura fluyen a través de él.
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -142,15 +149,13 @@ String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
 final Signature signature = new Signature(filePath);
 ```
 
-Simple, ¿verdad? Solo lo apuntas a tu archivo PDF y estás listo para comenzar. El objeto `Signature` es tu interfaz principal para todas las operaciones de firma.
+## Cómo agregar una firma digital a PDF Java: paso a paso
 
-## Cómo agregar firma digital a PDF Java: paso a paso
+El proceso es lineal: importar clases, establecer rutas de archivo, crear un objeto `Signature`, configurar un `DigitalSignature` con sello de tiempo opcional, definir `SignOptions`, y luego firmar y guardar.
 
-Carga tu PDF, configura los detalles de la firma, adjunta una marca de tiempo y guarda el documento firmado, todo en un flujo claro y lineal.
+### Paso 1: importar clases requeridas
 
-### Paso 1: Importar clases requeridas
-
-Las siguientes importaciones te dan acceso a la configuración de la firma, posicionamiento y funcionalidad de marca de tiempo.
+Las siguientes importaciones te dan acceso a la configuración de la firma, posicionamiento y funcionalidad de sello de tiempo.
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -161,9 +166,9 @@ import com.groupdocs.signature.domain.structs.TimeStamp;
 import com.groupdocs.signature.options.sign.DigitalSignOptions;
 ```
 
-### Paso 2: Definir rutas de archivos
+### Paso 2: definir tus rutas de archivo
 
-Configura las rutas para tu PDF de entrada, certificado y dónde deseas guardar el PDF firmado. Mantén el archivo del certificado seguro; contiene tu clave privada.
+Configura las rutas para el PDF de entrada, el certificado (PFX) y la ubicación de salida. Mantén el archivo del certificado seguro; contiene tu clave privada.
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/sample.pdf";
@@ -171,17 +176,17 @@ String certificatePath = "YOUR_DOCUMENT_DIRECTORY/certificate.pfx";
 String outputFilePath = "YOUR_OUTPUT_DIRECTORY/digitallySignedTimeStamp.pdf";
 ```
 
-### Paso 3: Inicializar el objeto Signature
+### Paso 3: inicializar el objeto Signature
 
-Crea una instancia de `Signature` apuntando al PDF que deseas firmar. Esto carga el PDF en memoria y lo prepara para la firma.
+`Signature` es el punto de entrada para todas las acciones de firma. Crearlo carga el PDF en memoria y prepara la API para operaciones posteriores.
 
 ```java
 final Signature signature = new Signature(filePath);
 ```
 
-### Paso 4: Configurar propiedades de la firma y marca de tiempo
+### Paso 4: configurar propiedades de la firma y sello de tiempo
 
-La clase `DigitalSignature` representa el sello criptográfico que se incrustará en el PDF. También puedes adjuntar una marca de tiempo de una autoridad confiable.
+`DigitalSignature` es el sello criptográfico que se incrustará en el PDF. También puedes adjuntar un sello de tiempo de una autoridad confiable.
 
 ```java
 PdfDigitalSignature pdfDigitalSignature = new PdfDigitalSignature();
@@ -198,11 +203,11 @@ pdfDigitalSignature.setTimeStamp(timeStamp);
 * **Location** – p.ej., `New York Office`  
 * **Reason** – p.ej., `Contract Approval`  
 
-Usamos FreeTSA (una autoridad de marca de tiempo gratuita) para la demostración. En producción, elige una TSA comercial para garantizar disponibilidad y validez legal.
+Usamos FreeTSA (una autoridad de sello de tiempo gratuita) para la demostración. En producción, elige una TSA comercial para garantizar disponibilidad y validez legal.
 
-### Paso 5: Configurar opciones de firma digital
+### Paso 5: configurar opciones de firma digital
 
-La clase `SignOptions` une el certificado, las propiedades de la firma y la ubicación visual. Los enums de alineación controlan dónde aparece la firma.
+`SignOptions` agrupa el certificado, la apariencia visual y la configuración de ubicación para la firma digital.
 
 ```java
 DigitalSignOptions options = new DigitalSignOptions(certificatePath);
@@ -214,9 +219,9 @@ options.setVerticalAlignment(VerticalAlignment.Bottom);
 options.setHorizontalAlignment(HorizontalAlignment.Right);
 ```
 
-### Paso 6: Firmar y guardar el documento
+### Paso 6: firmar y guardar el documento
 
-Ejecuta el proceso de firma y escribe el PDF firmado en disco. El objeto `SignResult` devuelto indica si la operación tuvo éxito y enumera cualquier advertencia.
+`SignResult` proporciona el resultado de la operación de firma, incluyendo el estado de éxito y cualquier advertencia.
 
 ```java
 try {
@@ -230,47 +235,41 @@ try {
 
 ## Errores comunes a evitar
 
-### 1. Problemas con el certificado
-
-**Problem:** errores de “Invalid certificate”.  
-**Fix:** Verifica la contraseña con `keytool -list -v -keystore your.pfx`.
+### 1. problemas de certificado
+**Problema:** errores “Invalid certificate”.  
+**Solución:** Verifica la contraseña con `keytool -list -v -keystore your.pfx`.
 
 ```bash
 keytool -list -v -keystore certificate.pfx -storetype PKCS12
 ```
 
-### 2. Tiempo de espera del servicio de marca de tiempo
-
-**Problem:** tiempos de espera de red al contactar el TSA.  
-**Fix:** Prueba la conectividad (`curl -I https://freetsa.org/tsr`), añade lógica de reintento o configura un TSA de respaldo.
+### 2. tiempos de espera del servicio de sello de tiempo
+**Problema:** tiempos de espera de red al contactar la TSA.  
+**Solución:** Prueba la conectividad (`curl -I https://freetsa.org/tsr`), agrega lógica de reintento o configura una TSA de respaldo.
 
 ```java
 new File(outputFilePath).getParentFile().mkdirs();
 ```
 
-### 3. Problemas de permisos de archivo
-
-**Problem:** “Access denied” al guardar.  
-**Fix:** Asegúrate de que el directorio de salida exista y la aplicación tenga permisos de escritura.
+### 3. problemas de permisos de archivo
+**Problema:** “Access denied” al guardar.  
+**Solución:** Asegúrate de que el directorio de salida exista y la aplicación tenga permisos de escritura.
 
 ```bash
 keytool -genkeypair -alias mykey -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore certificate.pfx -validity 365
 ```
 
-### 4. Problemas de memoria con PDFs grandes
+### 4. problemas de memoria con PDFs grandes
+**Problema:** `OutOfMemoryError` para archivos grandes.  
+**Solución:** Incrementa el heap de JVM (`-Xmx4g`) o procesa los archivos en lotes.
 
-**Problem:** `OutOfMemoryError` para archivos grandes.  
-**Fix:** Incrementa el heap de JVM (`-Xmx4g`) o procesa los archivos por lotes.
+### 5. ubicación incorrecta de la firma
+**Problema:** La firma se superpone al contenido existente.  
+**Solución:** Prueba primero la configuración de alineación; para una colocación pixel‑perfecta, usa opciones basadas en coordenadas.
 
-### 5. Ubicación incorrecta de la firma
+## Consejos de gestión de certificados
 
-**Problem:** La firma se superpone al contenido existente.  
-**Fix:** Prueba primero la configuración de alineación; para una colocación pixel‑perfecta, usa opciones basadas en coordenadas.
-
-## Consejos para la gestión de certificados
-
-### Obtener un certificado para desarrollo
-
+### Obtención de un certificado para desarrollo
 Genera un certificado autofirmado con `keytool` de Java para propósitos de prueba.
 
 ```java
@@ -278,26 +277,22 @@ Genera un certificado autofirmado con `keytool` de Java para propósitos de prue
    ```
 
 ### Mejores prácticas de certificados
-
-1. **Never hard‑code passwords** – usa variables de entorno.  
-2. **Rotate certificates** antes de que expiren.  
-3. **Store private keys** en hardware seguro (HSM) para aplicaciones de alta seguridad.  
-4. **Back up certificates** en una ubicación protegida.  
-5. **Validate certificates** antes de firmar para detectar certificados expirados o revocados.
+1. **Nunca codifiques contraseñas** – usa variables de entorno.  
+2. **Rota los certificados** antes de que expiren.  
+3. **Almacena claves privadas** en hardware seguro (HSM) para aplicaciones de alta seguridad.  
+4. **Haz copias de seguridad de los certificados** en una ubicación protegida.  
+5. **Valida los certificados** antes de firmar para detectar los que estén expirados o revocados.
 
 ## Mejores prácticas de seguridad
 
-### 1. Proteger claves privadas
+### 1. proteger claves privadas
+Almacena los certificados fuera del directorio del proyecto, usa configuraciones específicas por entorno y considera HSMs para despliegues empresariales.
 
-Almacena los certificados fuera del directorio del proyecto, usa configuraciones específicas por entorno y considera HSMs para implementaciones empresariales.
-
-### 2. Validar PDFs de entrada
-
+### 2. validar PDFs de entrada
 Verifica corrupción, firmas existentes, límites de tamaño y cumplimiento de contenido antes de firmar.
 
-### 3. Implementar registro de auditoría
-
-Registra cada operación de firma con marca de tiempo, usuario, nombre del documento y estado.
+### 3. implementar registro de auditoría
+Registra cada operación de firma con sello de tiempo, usuario, nombre del documento y estado.
 
 ```java
 try {
@@ -309,12 +304,10 @@ try {
 }
 ```
 
-### 4. Usar autoridades de marca de tiempo confiables
+### 4. usar autoridades de sello de tiempo confiables
+Nunca confíes en la hora del sistema local; siempre solicita un sello de tiempo de una TSA compatible con RFC 3161.
 
-Nunca confíes en la hora del sistema local; siempre solicita una marca de tiempo a un TSA compatible con RFC 3161.
-
-### 5. Implementar manejo de errores
-
+### 5. implementar manejo de errores
 Captura excepciones sin exponer detalles sensibles.
 
 ```java
@@ -329,52 +322,33 @@ try {
 ```
 
 ## Casos de uso y aplicaciones del mundo real
-
-### 1. Sistemas de gestión de contratos
-
-Los empleados firman NDAs y acuerdos electrónicamente; las marcas de tiempo prueban exactamente cuándo se aceptó cada contrato.
-
-### 2. Procesamiento de documentos financieros
-
-Firma por lotes facturas y órdenes de compra, proporcionando una cadena de auditoría inmutable para los reguladores.
-
-### 3. Verificación de credenciales educativas
-
-Las universidades emiten transcripciones a prueba de manipulaciones que pueden validarse instantáneamente mediante un enlace con código QR.
-
-### 4. Gestión de licencias de software
-
-Genera certificados de licencia con firma digital y marca de tiempo para evitar falsificaciones.
-
-### 5. Cumplimiento regulatorio (FDA 21 CFR Part 11, etc.)
-
-Las empresas de dispositivos médicos firman SOPs e informes de validación; las marcas de tiempo satisfacen los requisitos de no repudio.
+1. **Sistemas de gestión de contratos** – los empleados firman NDAs y acuerdos electrónicamente; los sellos de tiempo demuestran exactamente cuándo se aceptó cada contrato.  
+2. **Procesamiento de documentos financieros** – firma en lote facturas y órdenes de compra, proporcionando una pista de auditoría inmutable para los reguladores.  
+3. **Verificación de credenciales educativas** – las universidades emiten transcripciones a prueba de manipulaciones que pueden validarse instantáneamente mediante un enlace con código QR.  
+4. **Gestión de licencias de software** – genera certificados de licencia con firma digital y sello de tiempo para prevenir falsificaciones.  
+5. **Cumplimiento regulatorio (FDA 21 CFR Part 11, etc.)** – las empresas de dispositivos médicos firman SOPs e informes de validación; los sellos de tiempo satisfacen los requisitos de no‑repudio.
 
 ## Consideraciones de rendimiento y optimización
 
 ### Gestión de memoria
+Procesa PDFs grandes en lotes, cierra los objetos `Signature` rápidamente y aumenta el tamaño del heap cuando sea necesario.
 
-Procesa PDFs grandes por lotes, cierra los objetos `Signature` rápidamente y aumenta el tamaño del heap cuando sea necesario.
-
-### Optimización de red para marcas de tiempo
-
-Agrupa conexiones HTTP, implementa reintentos con retroceso exponencial y almacena en caché las marcas de tiempo para firmas sucesivas rápidas.
+### Optimización de red para sellos de tiempo
+Agrupa conexiones HTTP, implementa reintentos con retroceso exponencial y almacena en caché los sellos de tiempo para firmas sucesivas rápidas.
 
 ### Mejores prácticas de procesamiento por lotes
 ```java
 // Pseudo‑code: process a list of PDFs in parallel, limiting to 5 concurrent TSA calls
-```
-*Evita crear demasiados hilos; 5‑10 firmas concurrentes equilibran el rendimiento y la carga del TSA.*
+```  
+*Evita crear demasiados hilos; 5‑10 firmas concurrentes equilibran el rendimiento y la carga de la TSA.*
 
 ### Optimización de E/S de disco
-
 Utiliza SSDs para archivos temporales, minimiza los ciclos de lectura/escritura y elimina los artefactos temporales después de cada ejecución de firma.
 
 ## Guía de solución de problemas
 
-### Error: “Invalid Certificate Password”
-
-**Solution:** Verifica la contraseña con `keytool -list -keystore your.pfx`.
+### Error: “Invalid certificate password”
+**Solución:** Verifica la contraseña con `keytool -list -keystore your.pfx`.
 
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(5);
@@ -397,21 +371,18 @@ for (Future<SignResult> future : futures) {
 executor.shutdown();
 ```
 
-### Error: “Timestamp Authority Not Responding”
-
-**Solution:** Prueba la URL del TSA, revisa las reglas del firewall y añade lógica de TSA de respaldo.
+### Error: “Timestamp authority not responding”
+**Solución:** Prueba la URL de la TSA, verifica las reglas del firewall y agrega lógica de TSA de respaldo.
 
 ```bash
 keytool -list -v -keystore certificate.pfx -storetype PKCS12
 ```
 
-### Error: “PDF is Already Signed”
+### Error: “PDF is already signed”
+**Solución:** Detecta primero firmas existentes; o bien agrega una contra‑firma o firma una copia nueva.
 
-**Solution:** Detecta firmas existentes primero; ya sea agrega una contra‑firma o firma una copia nueva.
-
-### Error: “Access Denied” When Saving
-
-**Solution:** Asegúrate de que el directorio de salida exista, la aplicación tenga derechos de escritura y que ningún otro proceso bloquee el archivo.
+### Error: “Access denied” when saving
+**Solución:** Asegúrate de que el directorio de salida exista, la aplicación tenga derechos de escritura y ningún otro proceso bloquee el archivo.
 
 ```java
 TimeStamp timeStamp;
@@ -424,16 +395,14 @@ try {
 ```
 
 ### Error: OutOfMemoryError
-
-**Solution:** Incrementa el heap de JVM, procesa los PDFs en lotes más pequeños o cambia a APIs de streaming para archivos muy grandes.
+**Solución:** Incrementa el heap de JVM, procesa los PDFs en lotes más pequeños o cambia a APIs de streaming para archivos muy grandes.
 
 ## Conclusión y próximos pasos
 
-Has aprendido **how to sign PDF** con Java, agregar una marca de tiempo confiable y manejar errores comunes. A continuación, explora:
-
+Ahora sabes **cómo firmar PDF** con Java, agregar un sello de tiempo confiable y evitar errores comunes. A continuación podrías:
 1. Añadir múltiples campos de firma para acuerdos de múltiples partes.  
 2. Verificar firmas programáticamente con GroupDocs.Signature.  
-3. Personalizar la apariencia de la firma (imágenes, texto, posicionamiento).  
+3. Personalizar la apariencia visual de las firmas (imágenes, texto, posicionamiento).  
 4. Construir un servicio robusto de firma por lotes con colas y monitoreo.
 
 ## Preguntas frecuentes
@@ -442,34 +411,39 @@ Has aprendido **how to sign PDF** con Java, agregar una marca de tiempo confiabl
 A: Una firma digital utiliza algoritmos criptográficos para verificar la identidad y detectar manipulaciones, mientras que una firma electrónica puede ser tan simple como un nombre escrito.
 
 **Q: ¿Necesito conectividad a internet para firmar PDFs?**  
-A: Solo para el servicio de marca de tiempo; la firma criptográfica se realiza localmente.
+A: Solo para el servicio de sello de tiempo; la firma criptográfica en sí se ejecuta localmente.
 
-**Q: ¿Pueden editarse los PDFs firmados más tarde?**  
+**Q: ¿Pueden editarse los PDFs firmados después?**  
 A: Cualquier modificación rompe la firma, y los lectores de PDF mostrarán una advertencia indicando que el documento ha sido alterado.
 
 **Q: ¿Cómo verifico un PDF firmado?**  
-A: La mayoría de los lectores de PDF verifican automáticamente; programáticamente, usa la API de verificación de GroupDocs.Signature para comprobar el estado, los datos del firmante y la validez de la marca de tiempo.
+A: La mayoría de los lectores de PDF verifican automáticamente; programáticamente, usa la API de verificación de GroupDocs.Signature para comprobar el estado, los detalles del firmante y la validez del sello de tiempo.
 
 **Q: ¿Qué ocurre si mi certificado expira después de haber firmado documentos?**  
-A: La marca de tiempo incrustada demuestra que la firma se creó mientras el certificado aún era válido, preservando la validez legal.
+A: El sello de tiempo incrustado demuestra que la firma se creó mientras el certificado aún era válido, preservando la validez legal.
 
 **Q: ¿Puedo usar esto con almacenamiento en la nube (S3, Azure Blob, etc.)?**  
 A: Sí—descarga el PDF a una ubicación temporal, fírmalo y luego sube la versión firmada de nuevo a la nube.
 
 **Q: ¿Existen límites de tamaño de archivo?**  
-A: La biblioteca maneja PDFs de hasta 500 MB sin cargar todo el archivo en memoria; los archivos más grandes pueden requerir streaming.
+A: La biblioteca maneja PDFs de hasta 500 MB sin cargar todo el archivo en memoria; archivos más grandes pueden requerir streaming.
 
 **Q: ¿Cuánto cuesta GroupDocs.Signature para uso comercial?**  
-A: Los precios varían según el tipo de implementación; contacta al equipo de ventas de GroupDocs para obtener las tarifas más recientes. Las pruebas gratuitas y licencias temporales están disponibles para evaluación.
+A: Los precios varían según el tipo de despliegue; contacta al equipo de ventas de GroupDocs para obtener las tarifas más recientes. Las pruebas gratuitas y licencias temporales están disponibles para evaluación.
 
 **Q: ¿Esto funciona en servidores Linux?**  
-A: Absolutamente. GroupDocs.Signature for Java es independiente de la plataforma y se ejecuta en cualquier OS con JRE.
+A: Absolutamente. GroupDocs.Signature for Java es independiente de la plataforma y se ejecuta en cualquier SO con JRE.
 
 ---
 
-**Last Updated:** 2026-06-11  
-**Tested With:** GroupDocs.Signature 23.9 for Java  
-**Author:** GroupDocs
+**Última actualización:** 2026-09-05  
+**Probado con:** GroupDocs.Signature 23.9 for Java  
+**Autor:** GroupDocs
+
+## Tutoriales relacionados
+- [Cómo verificar certificados digitales en Java - Guía completa con ejemplos de código](/signature/java/digital-signatures/java-certificate-verification-groupdocs-signature/)
+- [Cómo firmar PDF programáticamente en Java con GroupDocs.Signature](/signature/java/digital-signatures/sign-pdfs-groupdocs-signature-java/)
+- [Agregar firma de imagen a PDF Java con GroupDocs](/signature/java/image-signatures/sign-pdf-image-signature-groupdocs-java/)
 
 ```java
 File outputFile = new File(outputFilePath);
@@ -479,9 +453,3 @@ if (!outputFile.canWrite() && outputFile.exists()) {
     throw new IOException("Cannot write to " + outputFilePath);
 }
 ```
-
-## Tutoriales relacionados
-
-- [Cómo verificar certificados digitales en Java - Guía completa con ejemplos de código](/signature/java/digital-signatures/java-certificate-verification-groupdocs-signature/)  
-- [Cómo firmar PDF programáticamente en Java con GroupDocs.Signature](/signature/java/digital-signatures/sign-pdfs-groupdocs-signature-java/)  
-- [Agregar firma de imagen a PDF Java con GroupDocs](/signature/java/image-signatures/sign-pdf-image-signature-groupdocs-java/)
