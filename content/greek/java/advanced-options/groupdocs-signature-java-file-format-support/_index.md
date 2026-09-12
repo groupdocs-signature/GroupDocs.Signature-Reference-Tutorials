@@ -1,24 +1,30 @@
 ---
 categories:
 - Java Document Processing
-date: '2026-05-11'
-description: Learn how to check file extension java and validate document formats
-  using GroupDocs.Signature. Complete guide with code examples, troubleshooting tips,
-  and best practices for document type checking.
+date: '2026-08-19'
+description: Java check file extension tutorial που δείχνει πώς να detect file format
+  java, validate file type java, και verify file content χρησιμοποιώντας το GroupDocs.Signature.
+  Περιλαμβάνει code snippets, troubleshooting tips, και best practices.
 keywords:
-- check file extension java
-- validate document type java
-- java upload file validation
-- how to detect file format java
-lastmod: '2025-01-02'
-linktitle: Java File Format Detection Guide
+- java check file extension
+- detect file format java
+- java verify file content
+- how to validate file type java
+- java file format validation
+lastmod: '2026-08-19'
+linktitle: Java File Format Detection Οδηγός
+og_description: Java check file extension tutorial δείχνει πώς να detect file format
+  java, validate file type java, και verify file content με το GroupDocs.Signature.
+  Μάθετε best practices και λάβετε ready-to-use code.
+og_image_alt: Guide to detecting and validating file formats in Java using GroupDocs.Signature
+og_title: Java έλεγχος file extension – detect και validate τύπων εγγράφων
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-11'
+  dateModified: '2026-08-19'
   description: Learn how to check file extension java and validate document formats
     using GroupDocs.Signature. Complete guide with code examples, troubleshooting
     tips, and best practices for document type checking.
-  headline: Java File Format Detection - Validate and Check Document Types
+  headline: Java file format detection – validate and check document types
   type: TechArticle
 - questions:
   - answer: Change the `<version>` tag in your `pom.xml` to the desired version, then
@@ -50,62 +56,64 @@ tags:
 - java-libraries
 - document-management
 - format-detection
-title: Java File Format Detection - Validate and Check Document Types
+- java check file extension
+title: Java έλεγχος file extension – detect και validate τύπων εγγράφων
 type: docs
 url: /el/java/advanced-options/groupdocs-signature-java-file-format-support/
 weight: 1
 ---
 
-# ελέγξτε την επέκταση αρχείου java – Ανίχνευση μορφής αρχείου Java: Επικύρωση και Έλεγχος Τύπων Εγγράφων
+# java έλεγχος επέκτασης αρχείου – ανίχνευση και επικύρωση τύπων εγγράφων
 
-Ένα από τα πιο συνηθισμένα καθήκοντα είναι να **ελέγξετε την επέκταση αρχείου java** πριν επεξεργαστείτε ένα έγγραφο.  
+Ένα από τα πιο συχνά καθήκοντα είναι να **java check file extension** πριν την επεξεργασία ενός εγγράφου.  
 
-Έχετε ποτέ ανεβάσει ένα αρχείο μόνο και η εφαρμογή σας να καταρρεύσει επειδή δεν ήταν η αναμενόμενη μορφή; Δεν είστε μόνοι. Η ανίχνευση και η επικύρωση μορφών αρχείων σε Java είναι κρίσιμη για την κατασκευή αξιόπιστων εφαρμογών επεξεργασίας εγγράφων—αλλά είναι πιο δύσκολη από τον απλό έλεγχο των επεκτάσεων (που μπορούν εύκολα να πλαστογραφηθούν ή να είναι λανθασμένες).
+Έχετε ανεβάσει ποτέ ένα αρχείο μόνο για να καταρρεύσει η εφαρμογή σας επειδή δεν ήταν η αναμενόμενη μορφή; Δεν είστε μόνοι. Η ανίχνευση και η επικύρωση μορφών αρχείων σε Java είναι κρίσιμη για την κατασκευή αξιόπιστων εφαρμογών επεξεργασίας εγγράφων—αλλά είναι πιο δύσκολη από τον απλό έλεγχο των επεκτάσεων (που μπορούν εύκολα να παραποιηθούν ή να είναι λανθασμένες).
 
-Σε αυτόν τον οδηγό, θα μάθετε πώς να ανιχνεύετε αξιόπιστα μορφές αρχείων σε Java χρησιμοποιώντας το GroupDocs.Signature, μια ισχυρή βιβλιοθήκη που πηγαίνει πέρα από τον απλό έλεγχο επεκτάσεων. Είτε δημιουργείτε σύστημα διαχείρισης εγγράφων, είτε επικυρώνετε μεταφορτώσεις χρηστών, είτε ενσωματώνετε υπηρεσίες αποθήκευσης στο cloud, θα ανακαλύψετε πρακτικές τεχνικές για να χειρίζεστε με σιγουριά διάφορους τύπους εγγράφων.
+Σε αυτόν τον οδηγό, θα μάθετε πώς να ανιχνεύετε αξιόπιστα τις μορφές αρχείων σε Java χρησιμοποιώντας το GroupDocs.Signature, μια ισχυρή βιβλιοθήκη που υπερβαίνει τον απλό έλεγχο επεκτάσεων. Είτε χτίζετε ένα σύστημα διαχείρισης εγγράφων, είτε επικυρώνετε ανεβάσματα χρηστών, είτε ενσωματώνετε υπηρεσίες αποθήκευσης στο cloud, θα ανακαλύψετε πρακτικές τεχνικές για να διαχειρίζεστε με σιγουριά διάφορους τύπους εγγράφων.
 
-**Τι θα μάθετε:**
+**What you'll learn:**
 - Πώς να ανακτήσετε προγραμματιστικά τις υποστηριζόμενες μορφές αρχείων σε Java
-- Πότε να χρησιμοποιήσετε ανίχνευση με βάση τη βιβλιοθήκη έναντι ενσωματωμένων προσεγγίσεων της Java
-- Συνηθισμένες παγίδες κατά την επικύρωση τύπων αρχείων (και πώς να τις αποφύγετε)
+- Πότε να χρησιμοποιήσετε ανίχνευση βάσει βιβλιοθήκης έναντι ενσωματωμένων προσεγγίσεων της Java
+- Συνηθισμένα λάθη κατά την επικύρωση τύπων αρχείων (και πώς να τα αποφύγετε)
 - Σενάρια πραγματικής ενσωμάτωσης και συμβουλές βελτιστοποίησης απόδοσης
-- Στρατηγικές αντιμετώπισης προβλημάτων για ζητήματα ανίχνευσης μορφών
+- Στρατηγικές αντιμετώπισης προβλημάτων εντοπισμού μορφής
 
 Στο τέλος, θα έχετε μια λειτουργική υλοποίηση που μπορείτε να ενσωματώσετε άμεσα στις εφαρμογές Java σας. Ας ξεκινήσουμε βεβαιώνοντας ότι έχετε όλα όσα χρειάζεστε.
 
-## Γρήγορες Απαντήσεις
-- **Ποιος είναι ο πιο γρήγορος τρόπος για να ελέγξετε την επέκταση αρχείου java;** Χρησιμοποιήστε `Signature.getSupportedFileTypes()` για να ανακτήσετε τη πλήρη λίστα και να συγκρίνετε την επέκταση του αρχείου με αυτήν.
-- **Χρειάζομαι άδεια χρήσης για το GroupDocs.Signature;** Μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη· μια μόνιμη άδεια αφαιρεί όλους τους περιορισμούς αξιολόγησης.
-- **Μπορώ να επικυρώσω μεταφορτώσεις χωρίς να διαβάσω ολόκληρο το αρχείο;** Ναι—το GroupDocs.Signature εξετάζει την κεφαλίδα του αρχείου, κάτι πολύ φθηνότερο από τη φόρτωση ολόκληρου του εγγράφου.
-- **Πόσες μορφές υποστηρίζει το GroupDocs.Signature;** Πάνω από 50 μορφές εισόδου και εξόδου, συμπεριλαμβανομένων PDF, DOCX, XLSX, PPTX, JPG, PNG και πολλών άλλων.
-- **Είναι απαραίτητο το caching της λίστας μορφών;** Το caching εξαλείφει το επαναλαμβανόμενο κόστος reflection και βελτιώνει το throughput για υπηρεσίες υψηλού όγκου.
+## Γρήγορες απαντήσεις
+- **What is the fastest way to java check file extension?** Use `Signature.getSupportedFileTypes()` to retrieve the full list and compare the file’s extension against it.
+- **Do I need a license to use GroupDocs.Signature?** A free trial works for development; a permanent license removes all evaluation limits.
+- **Can I validate uploads without reading the whole file?** Yes—GroupDocs.Signature inspects the file header, which is far cheaper than loading the entire document.
+- **How many formats does GroupDocs.Signature support?** Over 50 input and output formats, including PDF, DOCX, XLSX, PPTX, JPG, PNG, and many more.
+- **Is caching the format list necessary?** Caching eliminates repeated reflection overhead and improves throughput for high‑volume services.
+
+## What is java check file extension?
+`java check file extension` refers to the process of confirming a file’s true type by examining its header and metadata rather than relying solely on its filename suffix. This ensures that maliciously renamed files are caught early, prevents security breaches caused by spoofed extensions, and guarantees that only supported document types are processed by your application.
 
 ## Προαπαιτούμενα
 
-Πριν βυθιστείτε στην ανίχνευση μορφών αρχείων, βεβαιωθείτε ότι έχετε τα εξής έτοιμα:
+Before diving into file format detection, make sure you have these essentials ready:
 
-### Απαιτούμενες Βιβλιοθήκες και Εκδόσεις
-- **GroupDocs.Signature Library**: Έκδοση 23.12 ή νεότερη (θα χρησιμοποιήσουμε την πιο πρόσφατη σταθερή έκδοση)
-- **Java Development Kit**: JDK 1.8 ή νεότερο (συνιστάται JDK 11+ για καλύτερη απόδοση)
-- **Εργαλείο Κατασκευής**: Maven 3.x ή Gradle 6.x για διαχείριση εξαρτήσεων
+### Required libraries and versions
+- **GroupDocs.Signature Library**: Version 23.12 or later (we'll use the latest stable release)
+- **Java Development Kit**: JDK 1.8 or higher (JDK 11+ recommended for better performance)
+- **Build tool**: Maven 3.x or Gradle 6.x for dependency management
 
-### Απαιτήσεις Ρύθμισης Περιβάλλοντος
-Θα πρέπει να είστε άνετοι με:
-- Βασικές έννοιες προγραμματισμού Java (κλάσεις, βρόχοι, imports)
-- Χρήση Maven ή Gradle για διαχείριση εξαρτήσεων
-- Εκτέλεση εφαρμογών Java από το IDE ή τη γραμμή εντολών
+### Environment setup requirements
+You should be comfortable with:
+- Basic Java programming concepts (classes, loops, imports)
+- Using Maven or Gradle to manage dependencies
+- Running Java applications from your IDE or command line
 
-**Γρήγορη συμβουλή:** Αν εργάζεστε με μεγάλα έγγραφα ή σχεδιάζετε ταυτόχρονη επεξεργασία αρχείων, διαθέστε επαρκή μνήμη heap στο JVM (θα καλύψουμε βελτιστοποίηση αργότερα).
+**Quick tip:** If you're working with large documents or planning to process files concurrently, allocate sufficient heap memory to your JVM (we'll cover optimisation later).
 
-Με το περιβάλλον έτοιμο, ας προχωρήσουμε στη ρύθμιση του GroupDocs.Signature στο έργο σας.
+## Setting up GroupDocs.Signature for Java
 
-## Ρύθμιση GroupDocs.Signature για Java
+Getting GroupDocs.Signature into your project is straightforward—choose your preferred build tool and follow along.
 
-Η προσθήκη του GroupDocs.Signature στο έργο σας είναι απλή—επιλέξτε το εργαλείο κατασκευής που προτιμάτε και ακολουθήστε τις οδηγίες.
+### Using Maven
 
-### Χρήση Maven
-
-Προσθέστε αυτήν την εξάρτηση στο αρχείο `pom.xml`:
+Add this dependency to your `pom.xml` file:
 
 ```xml
 <dependency>
@@ -115,37 +123,36 @@ weight: 1
 </dependency>
 ```
 
-Μετά την προσθήκη, εκτελέστε `mvn clean install` για να κατεβάσετε τη βιβλιοθήκη.
+After adding the dependency, run `mvn clean install` to download the library.
 
-### Χρήση Gradle
+### Using Gradle
 
-Συμπεριλάβετε αυτή τη γραμμή στο αρχείο `build.gradle`:
+Include this line in your `build.gradle` file:
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-Στη συνέχεια συγχρονίστε το έργο Gradle ή εκτελέστε `gradle build`.
+Then sync your Gradle project or run `gradle build`.
 
-### Εναλλακτική Άμεση Λήψη
+### Direct download alternative
 
-Δεν χρησιμοποιείτε εργαλείο κατασκευής; Μπορείτε να κατεβάσετε το JAR απευθείας από [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) και να το προσθέσετε στο classpath χειροκίνητα. (Ωστόσο, η χρήση Maven ή Gradle θα σας εξοικονομήσει πολύ κόπο.)
+Not using a build tool? You can download the JAR directly from [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) and add it to your classpath manually. (Although Maven or Gradle will save you headaches down the road.)
 
-### Βήματα Απόκτησης Άδειας
+### License acquisition steps
 
-Το GroupDocs.Signature προσφέρει ευέλικτες επιλογές αδειοδότησης:
+GroupDocs.Signature offers flexible licensing options:
 
-- **Δωρεάν Δοκιμή**: Ιδανική για δοκιμές—ξεκινήστε αμέσως χωρίς [χρέωση κάρτας](https://releases.groupdocs.com/signature/java/)
-- **Προσωρινή Άδεια**: Χρειάζεστε περισσότερο χρόνο για αξιολόγηση; Ζητήστε άδεια 30 ημερών για απεριόριστη πρόσβαση
-- **Αγορά**: Όταν είστε έτοιμοι για παραγωγή, αποκτήστε μόνιμη άδεια από τη [σελίδα αγοράς GroupDocs](https://purchase.groupdocs.com/buy)
+- **Free trial**: Perfect for testing—get started immediately with [no credit card required](https://releases.groupdocs.com/signature/java/)
+- **Temporary license**: Need more time to evaluate? Request a 30‑day temporary license for unrestricted access
+- **Purchase**: Once you're ready for production, grab a permanent license from the [GroupDocs Purchase Page](https://purchase.groupdocs.com/buy)
 
-**Συμβουλή επαγγελματία:** Ξεκινήστε με τη δωρεάν δοκιμή για να εξερευνήσετε όλες τις δυνατότητες. Η προσωρινή άδεια αφαιρεί τα υδατογραφήματα και τους περιορισμούς αν χρειαστείτε εκτεταμένη αξιολόγηση.
+**Pro tip:** Start with the free trial to explore all features. The temporary license removes watermarks and limitations if you need extended evaluation time.
 
-### Βασική Αρχικοποίηση και Ρύθμιση
+## What is the Signature class?
+`Signature` is the core entry point for all operations in GroupDocs.Signature. It encapsulates document loading, format handling, and signature processing. The class provides methods for opening documents, retrieving supported formats, and applying or verifying signatures across many file types.
 
-`Signature` είναι το κεντρικό σημείο εισόδου για όλες τις λειτουργίες του GroupDocs.Signature. Περιλαμβάνει τη φόρτωση εγγράφων, τη διαχείριση μορφών και την επεξεργασία υπογραφών.
-
-Ακολουθεί πώς να αρχικοποιήσετε το GroupDocs.Signature στην εφαρμογή Java:
+Here’s how to initialise GroupDocs.Signature in your Java application:
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -154,37 +161,33 @@ import com.groupdocs.signature.Signature;
 Signature signature = new Signature("sample.pdf");
 ```
 
-Αυτό δημιουργεί ένα αντικείμενο signature για το καθορισμένο έγγραφο. Θα χρησιμοποιήσετε αυτό το μοτίβο όταν δουλεύετε με πραγματικά έγγραφα, αλλά για την ανάκτηση υποστηριζόμενων μορφών δεν χρειάζεται συγκεκριμένο αρχείο (θα το δούμε στην επόμενη ενότητα).
+This creates a signature object for the specified document. You’ll use this pattern when working with actual documents, but for retrieving supported formats, you won’t need a specific file (we’ll show you in the next section).
 
-Τώρα που η ρύθμιση ολοκληρώθηκε, ας υλοποιήσουμε τη βασική λειτουργικότητα για την ανίχνευση και ανάκτηση υποστηριζόμενων μορφών αρχείων.
+## Implementation guide
 
-## Οδηγός Υλοποίησης
+Here’s where things get practical. We’ll build a simple utility that retrieves all supported file formats—think of it as creating a “compatibility checker” for your document processing pipeline.
 
-Εδώ γίνεται πρακτικό. Θα δημιουργήσουμε ένα απλό εργαλείο που ανακτά όλες τις υποστηριζόμενες μορφές αρχείων—σαν «ελεγκτής συμβατότητας» για τη γραμμή επεξεργασίας εγγράφων σας.
+### Why this matters
 
-### Γιατί Είναι Σημαντικό
+Before you spend time implementing document processing features, you need to know what file types your library supports. This implementation gives you that information dynamically, which means:
+- No hard‑coding file extension lists that become outdated
+- Easy validation of user uploads against supported formats
+- Quick reference for building file‑type filters in your UI
 
-Πριν αφιερώσετε χρόνο στην υλοποίηση λειτουργιών επεξεργασίας εγγράφων, πρέπει να ξέρετε ποιους τύπους αρχείων υποστηρίζει η βιβλιοθήκη σας. Αυτή η υλοποίηση σας παρέχει τις πληροφορίες δυναμικά, πράγμα που σημαίνει:
-- Δεν χρειάζεται να κωδικοποιείτε σκληρά λίστες επεκτάσεων που γίνονται παρωχημένες
-- Εύκολη επικύρωση μεταφορτώσεων χρηστών έναντι των υποστηριζόμενων μορφών
-- Γρήγορη αναφορά για τη δημιουργία φίλτρων τύπων αρχείων στο UI σας
+### Step‑by‑step implementation
 
-### Βήμα‑Βήμα Υλοποίηση
+**1. Import necessary classes**
 
-**1. Εισαγωγή Απαραίτητων Κλάσεων**
-
-`FileType` είναι η πύλη για την ανίχνευση μορφών—περιέχει όλα τα μεταδεδομένα για τις υποστηριζόμενες μορφές εγγράφων.
+`FileType` is the gateway to format detection—it contains all the metadata about supported document types. The method `Signature.getSupportedFileTypes()` returns a collection of `FileType` objects representing every format the library can handle.
 
 ```java
 import com.groupdocs.signature.domain.documentpreview.FileType;
 import java.util.List;
 ```
 
-Η κλάση `FileType` είναι ο περιγραφέας του GroupDocs.Signature για κάθε μορφή, εκθέτοντας ιδιότητες όπως επέκταση, MIME type και περιγραφή.
+**2. Create the retrieval class**
 
-**2. Δημιουργία της Κλάσης Ανάκτησης**
-
-Ακολουθεί η πλήρης υλοποίηση:
+Here’s the complete implementation:
 
 ```java
 public class GetSupportedFileFormats {
@@ -200,14 +203,14 @@ public class GetSupportedFileFormats {
 }
 ```
 
-**Τι συμβαίνει εδώ:**
-- `getSupportedFileTypes()`: Αυτή η στατική μέθοδος ερωτά το εσωτερικό μητρώο της βιβλιοθήκης και επιστρέφει πλήρη λίστα υποστηριζόμενων μορφών ως αντικείμενα `FileType`.
-- Ο βρόχος διατρέχει κάθε μορφή και εκτυπώνει την επέκτασή της (π.χ. `.pdf`, `.docx`, `.xlsx`).
-- Κάθε αντικείμενο `FileType` περιέχει επίσης πρόσθετα μεταδεδομένα που μπορείτε να αξιοποιήσετε (θα τα δούμε παρακάτω).
+**What’s happening here:**  
+- `Signature.getSupportedFileTypes()` queries the library’s internal registry and returns a complete list of supported formats as `FileType` objects.  
+- The loop iterates through each format and outputs its extension (like `.pdf`, `.docx`, `.xlsx`).  
+- Each `FileType` object also contains additional metadata you can access (we’ll explore that below).
 
-### Πέρα από τις Βασικές Επεκτάσεις
+### Beyond basic extensions
 
-Το αντικείμενο `FileType` παρέχει περισσότερα από τις επεκτάσεις. Δείτε τι άλλο μπορείτε να ανακτήσετε:
+The `FileType` object gives you more than just extensions. Here’s what else you can retrieve:
 
 ```java
 for (FileType fileType : supportedFileTypes) {
@@ -217,49 +220,65 @@ for (FileType fileType : supportedFileTypes) {
 }
 ```
 
-Χρήσιμο όταν χρειάζεται να εμφανίσετε φιλικά ονόματα μορφών ή να ομαδοποιήσετε μορφές ανά τύπο (έγγραφα vs. λογιστικά φύλλα vs. εικόνες).
+This is useful when you need to display user‑friendly format names or group formats by type (documents vs. spreadsheets vs. images).
 
-## Πότε να Χρησιμοποιήσετε Αυτή τη Προσέγγιση
+## How to java check file extension?
 
-Δεν κάθε κατάσταση απαιτεί λύση με βιβλιοθήκη. Εδώ είναι πότε η ανίχνευση του GroupDocs.Signature ξεχωρίζει:
+Load the file name, extract its suffix, and compare it against the cached list returned by `Signature.getSupportedFileTypes()`. This two‑step approach guarantees you are checking against an up‑to‑date catalog rather than a hard‑coded array. It also prevents spoofed extensions because GroupDocs.Signature validates the file header before any further processing, ensuring that the content truly matches the claimed type.
 
-### Ιδανικές Περιπτώσεις Χρήσης
+## What is GroupDocs.Signature?
+GroupDocs.Signature is a Java library that enables developers to add, verify, and manage digital signatures across more than 50 document formats. It provides a unified API for PDF, Office, images, and many other types, handling complex validation scenarios such as encrypted files, password‑protected documents, and multi‑page signatures. The library also offers content‑based format detection, which helps prevent processing of maliciously renamed files.
 
-**1. Επικύρωση Μεταφορτώσεων Εγγράφων**  
-Όταν οι χρήστες ανεβάζουν αρχεία, θέλετε να επικυρώνετε τις μορφές στο server‑side (μην βασίζεστε μόνο στην επικύρωση client‑side). Αυτή η προσέγγιση σας επιτρέπει να ελέγχετε έναν ολοκληρωμένο κατάλογο υποστηριζόμενων μορών πριν την επεξεργασία.
+## Why use library‑based detection instead of Java built‑in methods?
 
-**2. Δημιουργία Δυναμικών Φίλτρων Τύπων Αρχείων**  
-Κατασκευάζετε έναν επιλογέα αρχείων ή διεπαφή ανεβάσματος; Δημιουργήστε τη λίστα επιτρεπόμενων μορών δυναμικά αντί για στατικό πίνακα που μπορεί να ξεπεραστεί.
+Library‑based detection inspects the actual file header and internal structure, ensuring that the content truly matches the claimed format. Built‑in methods like `Files.probeContentType` or simple string suffix checks can be fooled by renaming malicious executables to `.pdf`. GroupDocs.Signature eliminates this risk by performing deep content analysis before any further processing, providing a higher security guarantee for your application.
 
-**3. Πίπλες Επεξεργασίας Πολυμορφικών Εγγράφων**  
-Αν επεξεργάζεστε έγγραφα από διάφορες πηγές (συνημμένα email, αποθήκευση cloud, ανεβάσματα χρηστών), χρειάζεστε αξιόπιστη ανίχνευση μορφής για να κατευθύνετε τα αρχεία στους κατάλληλους χειριστές.
+## When should I cache supported file formats?
 
-**4. Ενσωμάτωση με Υπηρεσίες Αποθήκευσης Cloud**  
-Κατά το συγχρονισμό με AWS S3, Google Drive ή Azure Blob Storage, επικυρώστε τη συμβατότητα του εγγράφου πριν το κατεβάσετε και το επεξεργαστείτε—εξοικονομεί εύρος ζώνης και χρόνο επεξεργασίας.
+Cache the format list at application startup or the first time you need it, and reuse the immutable collection for the lifetime of the JVM. Caching is especially beneficial in high‑throughput web services where each request might otherwise trigger reflection‑heavy library initialisation, adding milliseconds of latency per call. By storing the list once, you reduce CPU overhead and improve overall response times.
 
-### Όταν οι Ενσωματωμένες Μέθοδοι της Java Αρκούν
+## How to handle unsupported file formats in Java?
 
-Για πιο απλές περιπτώσεις, οι ενσωματωμένες μεθόδους της Java μπορεί να είναι επαρκείς:
-- **Έλεγχος μόνο επέκτασης**: `file.getName().endsWith(".pdf")`
-- **Ανίχνευση MIME type**: `Files.probeContentType(path)`
-- **Βασική επικύρωση**: Όταν ελέγχετε την πηγή ανεβάσματος και εμπιστεύεστε τις επεκτάσεις
+Detect the unsupported format early, log the attempt for audit purposes, and return a clear error message to the user that lists the allowed extensions. This approach improves user experience and reduces unnecessary processing load on your backend, while also providing security teams with visibility into potential misuse attempts.
 
-**Σημαντική προειδοποίηση:** Οι ενσωματωμένες μέθοδοι μπορούν να εξαπατηθούν. Ένα αρχείο που μετονομάστηκε από `malicious.exe` σε `document.pdf` θα περάσει τον έλεγχο επέκτασης αλλά θα αποτύχει στην πραγματική επικύρωση. Το GroupDocs.Signature εκτελεί βαθύτερη ανάλυση περιεχομένου.
+## When to use this approach
 
-## Συνηθισμένα Προβλήματα και Αντιμετώπιση
+### Perfect use cases
 
-Ακολουθούν τα προβλήματα που πιθανότατα θα συναντήσετε και πώς να τα λύσετε γρήγορα.
+**1. Building document upload validators**  
+When users upload files to your application, you want to validate formats server‑side (never trust client‑side validation alone). This approach lets you check against a comprehensive list of supported formats before processing.
 
-### Πρόβλημα 1: Κενή ή Null Λίστα Επιστρέφεται
+**2. Creating dynamic file‑type filters**  
+Building a file picker or upload interface? Generate your allowed formats list dynamically instead of maintaining a static array that falls out of sync with your library’s capabilities.
 
-**Σύμπτωμα:** `getSupportedFileTypes()` επιστρέφει κενή λίστα ή null.
+**3. Multi‑format document processing pipelines**  
+If you’re processing documents from various sources (email attachments, cloud storage, user uploads), you need reliable format detection to route files to the appropriate handlers.
 
-**Αιτίες & Λύσεις:**
-- **Μη σωστή αρχικοποίηση βιβλιοθήκης**: Ελέγξτε ότι η εξάρτηση Maven/Gradle έχει προστεθεί και συγχρονιστεί σωστά
-- **Ασυμβατότητα έκδοσης**: Βεβαιωθείτε ότι χρησιμοποιείτε έκδοση 23.12 ή νεότερη (παλαιότερες εκδόσεις μπορεί να έχουν διαφορετικό API)
-- **Προβλήματα classpath**: Αν χρησιμοποιείτε χειροκίνητα JAR, βεβαιωθείτε ότι έχουν προστεθεί σωστά στο classpath
+**4. Integration with cloud storage services**  
+When syncing with AWS S3, Google Drive, or Azure Blob Storage, validate document compatibility before downloading and processing files—saves bandwidth and processing time.
 
-**Γρήγορη διόρθωση:**
+### When built‑in Java might be enough
+
+For simpler scenarios, Java’s built‑in approaches might suffice:
+- **File extension checking only**: `file.getName().endsWith(".pdf")`
+- **MIME type detection**: `Files.probeContentType(path)`
+- **Basic validation**: When you control the upload source and trust the file extensions
+
+**Important caveat:** Built‑in methods can be fooled. A file renamed from `malicious.exe` to `document.pdf` will pass extension checks but fail proper validation. GroupDocs.Signature performs deeper inspection.
+
+## Common issues and troubleshooting
+
+### Issue 1: Empty or null list returned
+
+**Symptom:** `Signature.getSupportedFileTypes()` returns an empty list or null.
+
+**Causes & solutions:**  
+- **Library not properly initialised** – verify your Maven/Gradle dependency is correctly added and synced.  
+- **Version compatibility** – ensure you’re using version 23.12 or later (earlier versions may have different APIs).  
+- **Classpath issues** – if using manual JAR files, confirm they’re properly added to your classpath.
+
+**Quick fix:**
+
 ```java
 List<FileType> formats = FileType.getSupportedFileTypes();
 if (formats == null || formats.isEmpty()) {
@@ -268,16 +287,17 @@ if (formats == null || formats.isEmpty()) {
 }
 ```
 
-### Πρόβλημα 2: Λείπει Η Αναμενόμενη Μορφή
+### Issue 2: Missing expected format
 
-**Σύμπτωμα:** Μια μορφή που περιμένετε να λειτουργεί δεν εμφανίζεται στη λίστα υποστηριζόμενων.
+**Symptom:** A format you expect to work isn’t in the supported list.
 
-**Πιθανές αιτίες:**
-- Χρησιμοποιείτε εξειδικευμένη μορφή που απαιτεί πρόσθετα plugins (ορισμένες μορφές CAD ή ιατρικής απεικόνισης χρειάζονται ξεχωριστά modules)
-- Η μορφή προστέθηκε σε νεότερη έκδοση—ελέγξτε τις σημειώσεις κυκλοφορίας
-- Η μορφή υποστηρίζεται μόνο για ανάγνωση, όχι για λειτουργίες υπογραφής (το GroupDocs.Signature εστιάζει στην προσθήκη υπογραφών)
+**Possible reasons:**  
+- You’re using a specialised format that requires additional plugins (some CAD or medical imaging formats need separate modules).  
+- The format was added in a newer version – check the release notes.  
+- The format is supported for reading but not for signature operations (GroupDocs.Signature is primarily for adding signatures; not all operations support all formats equally).
 
-**Πρόσβαση εντοπισμού σφαλμάτων:**
+**Debugging approach:**
+
 ```java
 // Check for specific format
 boolean hasPDF = supportedFileTypes.stream()
@@ -285,11 +305,11 @@ boolean hasPDF = supportedFileTypes.stream()
 System.out.println("PDF supported: " + hasPDF);
 ```
 
-### Πρόβλημα 3: Υποβάθμιση Απόδοσης με Μεγάλες Λίστες Μορφών
+### Issue 3: Performance degradation with large format lists
 
-**Σύμπτωμα:** Η επαναλαμβανόμενη κλήση `getSupportedFileTypes()` επιβραδύνει την εφαρμογή.
+**Symptom:** Calling `Signature.getSupportedFileTypes()` repeatedly slows down your application.
 
-**Λύση:** Cache τα αποτελέσματα! Η λίστα δεν αλλάζει κατά τη διάρκεια εκτέλεσης:
+**Solution:** Cache the results! This list doesn’t change during runtime:
 
 ```java
 public class FormatCache {
@@ -304,16 +324,14 @@ public class FormatCache {
 }
 ```
 
-Αυτό το μοτίβο εξασφαλίζει ότι ερωτάτε τη βιβλιοθήκη μόνο μία φορά ανά κύκλο ζωής της εφαρμογής.
+### Issue 4: License‑related limitations
 
-### Πρόβλημα 4: Περιορισμοί Σχετικοί με Άδεια
+**Symptom:** Getting evaluation warnings or limited format support.
 
-**Σύμπτωμα:** Λαμβάνετε προειδοποιήσεις αξιολόγησης ή περιορισμένη υποστήριξη μορφών.
-
-**Λύση:** 
-- Εφαρμόστε την άδειά σας πριν καλέσετε οποιαδήποτε μέθοδο του GroupDocs
-- Επαληθεύστε ότι το μονοπάτι του αρχείου άδειας είναι σωστό
-- Ελέγξτε την ημερομηνία λήξης αν χρησιμοποιείτε άδεια περιορισμένου χρόνου
+**Solution:**  
+- Apply your license before calling any GroupDocs methods.  
+- Verify your license file path is correct.  
+- Check license expiration date if using a time‑limited licence.
 
 ```java
 try {
@@ -324,13 +342,11 @@ try {
 }
 ```
 
-## Καλές Πρακτικές για Ανίχνευση Μορφών Αρχείων
+## Best practices for file format detection
 
-Ακολουθήστε αυτές τις οδηγίες για να δημιουργήσετε αξιόπιστη, συντηρήσιμη ανίχνευση μορφών στις εφαρμογές σας.
+### 1. Validate early, fail fast
 
-### 1. Επικύρωση Νωρίς, Αποτυχία Γρήγορα
-
-Ελέγχετε τις μορφές όσο το δυνατόν νωρίτερα στην αλυσίδα επεξεργασίας:
+Check file formats as early as possible in your processing pipeline:
 
 ```java
 public boolean validateFileFormat(String filePath) {
@@ -349,11 +365,9 @@ public boolean validateFileFormat(String filePath) {
 }
 ```
 
-Αυτό αποτρέπει την άσκοπη επεξεργασία μη υποστηριζόμενων τύπων.
+### 2. Provide clear user feedback
 
-### 2. Παρέχετε Σαφή Ανατροφοδότηση στον Χρήστη
-
-Όταν απορρίπτετε αρχεία, ενημερώστε τους ακριβώς ποιες μορφές υποστηρίζονται:
+When rejecting files, tell users exactly which formats ARE supported:
 
 ```java
 public String getSupportedFormatsMessage() {
@@ -366,9 +380,9 @@ public String getSupportedFormatsMessage() {
 }
 ```
 
-### 3. Μην Εμπιστεύεστε Μόνο τις Επεκτάσεις
+### 3. Don't trust file extensions alone
 
-Ένα αρχείο που μετονομάστηκε από `.exe` σε `.pdf` θα έχει επέκταση `.pdf` αλλά δεν θα είναι έγκυρο PDF. Το GroupDocs.Signature επικυρώνει το πραγματικό περιεχόμενο· όμως μπορείτε να συνδυάσετε προσεγγίσεις:
+A file renamed from `.exe` to `.pdf` will have a `.pdf` extension but won’t be a valid PDF. GroupDocs.Signature validates actual content, not just extensions – but you should still combine approaches:
 
 ```java
 // First check extension (fast)
@@ -385,9 +399,9 @@ try (Signature signature = new Signature(file)) {
 }
 ```
 
-### 4. Διαχειριστείτε τις Εξαιρέσεις με Ευγένεια
+### 4. Handle exceptions gracefully
 
-Η επικύρωση αρχείων μπορεί να αποτύχει για πολλούς λόγους πέρα από μη υποστηριζόμενες μορφές:
+File validation can fail for many reasons beyond unsupported formats:
 
 ```java
 public ValidationResult validateDocument(String path) {
@@ -404,14 +418,14 @@ public ValidationResult validateDocument(String path) {
 }
 ```
 
-### 5. Παρακολουθείτε Αλλαγές Υποστήριξης Μορφών
+### 5. Monitor format‑support changes
 
-Κατά την αναβάθμιση της βιβλιοθήκης GroupDocs.Signature, ελέγξτε τις σημειώσεις κυκλοφορίας για:
-- Νέες υποστηριζόμενες μορφές
-- Καταργημένες μορφές
-- Αλλαγές στη συμπεριφορά ανίχνευσης
+When updating the GroupDocs.Signature library, check release notes for:
+- New supported formats  
+- Deprecated format support  
+- Changed behaviour in format detection  
 
-Σκεφτείτε να προσθέσετε unit tests που επαληθεύουν ότι οι αναμενόμενες μορφές είναι διαθέσιμες:
+Consider adding unit tests that verify expected formats are supported:
 
 ```java
 @Test
@@ -428,13 +442,13 @@ public void testEssentialFormatsSupported() {
 }
 ```
 
-## Σκέψεις Απόδοσης
+## Performance considerations
 
-Η βελτιστοποίηση της ανίχνευσης μορφών μπορεί να φαίνεται μικρή, αλλά έχει σημασία όταν επεξεργάζεστε χιλιάδες έγγραφα ή χειρίζεστε ταυτόχρονες ανεβάσεις.
+Optimising file format detection might seem minor, but it matters when processing thousands of documents or handling concurrent uploads.
 
-### Διαχείριση Μνήμης
+### Memory management
 
-**Στρατηγική caching:** Όπως αναφέρθηκε, cache τη λίστα υποστηριζόμενων μορών:
+**Caching strategy:** As mentioned earlier, cache the supported formats list:
 
 ```java
 // Good: Load once, reuse many times
@@ -448,14 +462,14 @@ public boolean isSupported(String ext) {
 }
 ```
 
-**Γιατί είναι σημαντικό:** Η φόρτωση της λίστας μορφών περιλαμβάνει reflection και εσωτερική αρχικοποίηση της βιβλιοθήκης. Η εκτέλεση μιας φοράς εξοικονομεί CPU cycles και κατανομές μνήμης.
+**Why it matters:** Loading the format list involves reflection and internal library initialisation. Doing this once saves CPU cycles and memory allocations.
 
-### Οδηγίες Χρήσης Πόρων
+### Resource usage guidelines
 
-**Για σενάρια υψηλού όγκου:**
-- Χρησιμοποιήστε thread‑safe cache για τις λίστες μορφών (το παραπάνω παράδειγμα είναι αμετάβλητο, άρα ασφαλές)
-- Σκεφτείτε lazy initialization αν η εφαρμογή σας δεν χρειάζεται πάντα ανίχνευση μορφών
-- Κατά την επεξεργασία εγγράφων, κλείνετε άμεσα τα αντικείμενα `Signature` για απελευθέρωση πόρων
+**For high‑volume scenarios:**  
+- Use a thread‑safe cache for format lists (the example above is thread‑safe since it’s immutable).  
+- Consider lazy initialisation if your application doesn’t always need format detection.  
+- When processing documents, close `Signature` objects promptly to free resources.
 
 ```java
 try (Signature signature = new Signature(filePath)) {
@@ -463,9 +477,9 @@ try (Signature signature = new Signature(filePath)) {
 } // Automatically closed, resources freed
 ```
 
-### Βελτιστοποίηση Παρτίδας Επεξεργασίας
+### Batch processing optimisation
 
-Αν επικυρώνετε πολλά αρχεία, σκεφτείτε παραλληλοποίηση:
+If validating multiple files, consider parallelisation:
 
 ```java
 List<String> files = Arrays.asList("doc1.pdf", "doc2.docx", "doc3.xlsx");
@@ -479,24 +493,25 @@ files.parallelStream()
     });
 ```
 
-**Προσοχή:** Μην υπερ‑παραλληλοποιήσετε. Αν η εργασία είναι I/O‑bound (ανάγνωση από δίσκο), οι επιπλέον νήματα δεν βοηθούν. Δοκιμάστε για να βρείτε το βέλτιστο αριθμό νημάτων.
+**Caution:** Don’t over‑parallelise. If you’re I/O‑bound (reading from disk), excessive threads won’t help. Test to find your optimal thread count.
 
-### Συμβουλές Tuning JVM
+### JVM tuning tips
 
-Για εφαρμογές με βαριά επεξεργασία εγγράφων:
-- Αυξήστε το μέγεθος heap: `-Xmx2g` (προσαρμόστε ανάλογα)
-- Παρακολουθήστε το garbage collection: `-XX:+PrintGCDetails` για εντοπισμό προβλημάτων
-- Σκεφτείτε G1GC για μικρότερες παύσεις: `-XX:+UseG1GC`
+For document‑heavy applications:  
+- Increase heap size: `-Xmx2g` (adjust based on your needs).  
+- Monitor garbage collection: Use `-XX:+PrintGCDetails` to identify issues.  
+- Consider G1GC for better pause times: `-XX:+UseG1GC`.
 
-## Πρακτικές Εφαρμογές και Ενσωμάτωση
+## Practical applications and integration
 
-Ας δούμε πραγματικά σενάρια όπου η ανίχνευση μορφών είναι κρίσιμη.
+Let’s look at real‑world scenarios where file format detection becomes essential.
 
-### 1. Συστήματα Διαχείρισης Εγγράφων
+### 1. Document management systems
 
-**Σενάριο:** Οι χρήστες ανεβάζουν έγγραφα που πρέπει να ευρετηριαστούν, επεξεργαστούν και αποθηκευτούν.
+**Scenario:** Users upload documents that need to be indexed, processed, and stored.
 
-**Μοτίβο υλοποίησης:**
+**Implementation pattern:**
+
 ```java
 public class DocumentUploadHandler {
     public void handleUpload(MultipartFile file) {
@@ -519,11 +534,11 @@ public class DocumentUploadHandler {
 }
 ```
 
-### 2. Ενσωμάτωση Cloud Storage
+### 2. Cloud storage integration
 
-**Σενάριο:** Συγχρονισμός εγγράφων από AWS S3 ή Google Drive και επεξεργασία μόνο των υποστηριζόμενων μορών.
+**Scenario:** Syncing documents from AWS S3 or Google Drive and processing only supported formats.
 
-**Γιατί είναι χρήσιμο:** Αποφεύγετε το κατέβασμα και την προσπάθεια επεξεργασίας αρχείων που δεν υποστηρίζονται, εξοικονομώντας εύρος ζώνης και χρόνο.
+**Why it’s useful:** Avoid downloading and attempting to process unsupported files, saving bandwidth and processing time.
 
 ```java
 public void syncFromS3(String bucketName) {
@@ -545,11 +560,11 @@ public void syncFromS3(String bucketName) {
 }
 ```
 
-### 3. Αυτοματοποίηση Επιχειρησιακών Ροών Εργασίας
+### 3. Enterprise workflow automation
 
-**Σενάριο:** Δρομολόγηση εγγράφων σε διαφορετικές γραμμές επεξεργασίας βάσει τύπου.
+**Scenario:** Routing documents through different processing pipelines based on type.
 
-**Παράδειγμα:** PDFs πηγαίνουν σε ροή υπογραφής, λογιστικά φύλλα σε εξαγωγή δεδομένων, εικόνες σε OCR.
+**Example:** PDFs go to signature workflow, spreadsheets to data extraction, images to OCR processing.
 
 ```java
 public void routeDocument(String filePath) {
@@ -576,11 +591,12 @@ public void routeDocument(String filePath) {
 }
 ```
 
-### 4. Δημιουργία Επιλογέων Τύπων Αρχείων
+### 4. Building file‑type pickers
 
-**Σενάριο:** Δημιουργία UI components με δυναμική υποστήριξη μορφών.
+**Scenario:** Creating UI components with dynamic format support.
 
-**Παράδειγμα ενσωμάτωσης frontend:**
+**Frontend integration example:**
+
 ```java
 @RestController
 public class FormatController {
@@ -596,7 +612,8 @@ public class FormatController {
 }
 ```
 
-Το frontend σας μπορεί στη συνέχεια να χρησιμοποιήσει αυτό για να ρυθμίσει τα components ανεβάσματος:
+Your frontend can then use this to configure file‑upload components:
+
 ```javascript
 // Frontend code (for context, not part of Java implementation)
 fetch('/api/supported-formats')
@@ -606,65 +623,45 @@ fetch('/api/supported-formats')
     });
 ```
 
-## Πώς να ελέγξετε την επέκταση αρχείου java;
+## Frequently asked questions
 
-Φορτώστε το όνομα του αρχείου, εξάγετε το επίθημα και συγκρίνετε το με τη cached λίστα που επιστρέφει `Signature.getSupportedFileTypes()`. Αυτή η διπλή προσέγγιση εγγυάται ότι ελέγχετε έναν ενημερωμένο κατάλογο αντί για σκληροκωδικοποιημένο array, και αποτρέπει τις πλαστογραφημένες επεκτάσεις επειδή το GroupDocs.Signature επικυρώνει την κεφαλίδα του αρχείου πριν από οποιαδήποτε περαιτέρω επεξεργασία.
+**Q: How do I update my GroupDocs.Signature library version in Maven?**  
+A: Change the `<version>` tag in your `pom.xml` to the desired version, then run `mvn clean install`. Always review the [release notes](https://releases.groupdocs.com/signature/java/) for breaking changes.
 
-## Τι είναι το GroupDocs.Signature;
+**Q: Can GroupDocs.Signature detect file formats even if the extension is wrong?**  
+A: Yes. The library performs content‑based validation, so a file renamed from `.exe` to `.pdf` will be rejected as not a valid PDF during processing. `getSupportedFileTypes()` only lists formats the library can handle; you still need to attempt opening the file to verify its true type.
 
-Το GroupDocs.Signature είναι μια βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να προσθέτουν, να επαληθεύουν και να διαχειρίζονται ψηφιακές υπογραφές σε πάνω από 50 μορφές εγγράφων. Παρέχει ενιαίο API για PDF, Office, εικόνες και πολλούς άλλους τύπους, διαχειριζόμενο σύνθετα σενάρια επικύρωσης όπως κρυπτογραφημένα αρχεία, έγγραφα με κωδικό πρόσβασης και υπογραφές πολλαπλών σελίδων.
+**Q: What’s the difference between a free trial and temporary license?**  
+A: The free trial gives immediate access but includes evaluation watermarks and some feature limits. A temporary license provides full feature access for 30 days without watermarks, ideal for thorough testing in a production‑like environment.
 
-## Γιατί να χρησιμοποιήσετε ανίχνευση με βάση τη βιβλιοθήκη αντί για ενσωματωμένες μεθόδους Java;
+**Q: How should I handle unsupported file formats in my application?**  
+A: Return a concise error like “Unsupported format. Supported extensions are: .pdf, .docx, .xlsx, .png, .jpg.” Log the incident for security monitoring and consider notifying the user with a UI tooltip that lists allowed types.
 
-Η ανίχνευση με βάση τη βιβλιοθήκη εξετάζει την πραγματική κεφαλίδα του αρχείου και την εσωτερική του δομή, διασφαλίζοντας ότι το περιεχόμενο ταιριάζει πραγματικά με τη δηλωμένη μορφή. Οι ενσωματωμένες μεθόδους όπως `Files.probeContentType` ή οι απλοί έλεγχοι επιθήματος μπορούν να εξαπατηθούν με μετονομασία κακόβουλων εκτελέσιμων σε `.pdf`. Το GroupDocs.Signature εξαλείφει αυτόν τον κίνδυνο εκτελώντας βαθιά ανάλυση περιεχομένου πριν από οποιαδήποτε περαιτέρω επεξεργασία.
+**Q: Does GroupDocs.Signature work with encrypted or password‑protected files?**  
+A: Yes, but you must supply the password when creating the `Signature` instance. Format detection itself does not require the password, but any subsequent processing (e.g., adding a signature) will.
 
-## Πότε πρέπει να κάνω caching της λίστας υποστηριζόμενων μορφών αρχείων;
+**Q: Is there a community or support forum for GroupDocs.Signature?**  
+A: Absolutely! Visit the [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) for community discussions, code examples, and direct answers from the GroupDocs team.
 
-Cache τη λίστα μορφών κατά την εκκίνηση της εφαρμογής ή την πρώτη φορά που τη χρειάζεστε, και επαναχρησιμοποιήστε τη αμετάβλητη συλλογή για όλη τη διάρκεια του JVM. Το caching είναι ιδιαίτερα ωφέλιμο σε web services υψηλού throughput όπου κάθε αίτημα διαφορετικά θα προκαλούσε βαρύ reflection initialization, προσθέτοντας χιλιοστά του δευτερολέπτου καθυστέρηση ανά κλήση.
+## Resources
 
-## Πώς να διαχειριστείτε μη υποστηριζόμενες μορφές αρχείων σε Java;
+**Documentation:**  
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) – Comprehensive guides and tutorials  
+- [API Reference](https://reference.groupdocs.com/signature/java/) – Complete API documentation with all classes and methods  
 
-Εντοπίστε τη μη υποστηριζόμενη μορφή νωρίς, καταγράψτε την προσπάθεια για λόγους ελέγχου, και επιστρέψτε ένα σαφές μήνυμα σφάλματος στον χρήστη που να παραθέτει τις επιτρεπόμενες επεκτάσεις. Αυτή η προσέγγιση βελτιώνει την εμπειρία χρήστη και μειώνει το περιττό φορτίο επεξεργασίας στο backend σας.
+**Downloads and licensing:**  
+- [Download Library](https://releases.groupdocs.com/signature/java/) – Latest releases and version history  
+- [Purchase Licenses](https://purchase.groupdocs.com/buy) – Pricing and licensing options  
+- [Free Trial](https://releases.groupdocs.com/signature/java/) – Start testing immediately  
 
-## Συχνές Ερωτήσεις
-
-**Ε: Πώς ενημερώνω την έκδοση της βιβλιοθήκης GroupDocs.Signature στο Maven;**  
-Α: Αλλάξτε το `<version>` στο `pom.xml` στην επιθυμητή έκδοση, στη συνέχεια τρέξτε `mvn clean install`. Πάντα ελέγχετε τις [σημειώσεις κυκλοφορίας](https://releases.groupdocs.com/signature/java/) για αλλαγές που μπορεί να σπάσουν την συμβατότητα.
-
-**Ε: Μπορεί το GroupDocs.Signature να ανιχνεύσει μορφές αρχείων ακόμα και αν η επέκταση είναι λανθασμένη;**  
-Α: Ναι. Η βιβλιοθήκη εκτελεί επικύρωση βάσει περιεχομένου, έτσι ένα αρχείο που μετονομάστηκε από `.exe` σε `.pdf` θα απορριφθεί ως μη έγκυρο PDF κατά την επεξεργασία. Η `getSupportedFileTypes()` εμφανίζει μόνο τις μορφές που η βιβλιοθήκη μπορεί να χειριστεί· πρέπει όμως να προσπαθήσετε να ανοίξετε το αρχείο για να επαληθεύσετε τον πραγματικό τύπο.
-
-**Ε: Ποια είναι η διαφορά μεταξύ δωρεάν δοκιμής και προσωρινής άδειας;**  
-Α: Η δωρεάν δοκιμή δίνει άμεση πρόσβαση αλλά περιλαμβάνει υδατογραφήματα αξιολόγησης και περιορισμούς σε ορισμένες λειτουργίες. Η προσωρινή άδεια παρέχει πλήρη πρόσβαση για 30 ημέρες χωρίς υδατογραφήματα, ιδανική για εκτενή δοκιμή σε περιβάλλον που προσομοιώνει παραγωγή.
-
-**Ε: Πώς πρέπει να χειριστώ μη υποστηριζόμενες μορφές αρχείων στην εφαρμογή μου;**  
-Α: Επιστρέψτε ένα σύντομο σφάλμα όπως “Μη υποστηριζόμενη μορφή. Οι υποστηριζόμενες επεκτάσεις είναι: .pdf, .docx, .xlsx, .png, .jpg.” Καταγράψτε το περιστατικό για παρακολούθηση ασφαλείας και σκεφτείτε να προσθέσετε tooltip UI που να παραθέτει τους επιτρεπόμενους τύπους.
-
-**Ε: Λειτουργεί το GroupDocs.Signature με κρυπτογραφημένα ή προστατευμένα με κωδικό αρχεία;**  
-Α: Ναι, αλλά πρέπει να παρέχετε τον κωδικό όταν δημιουργείτε το αντικείμενο `Signature`. Η ανίχνευση μορφής δεν απαιτεί τον κωδικό, αλλά οποιαδήποτε επόμενη επεξεργασία (π.χ. προσθήκη υπογραφής) θα το χρειαστεί.
-
-**Ε: Υπάρχει κοινότητα ή φόρουμ υποστήριξης για το GroupDocs.Signature;**  
-Α: Φυσικά! Επισκεφθείτε το [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) για συζητήσεις, παραδείγματα κώδικα και απαντήσεις από την ομάδα του GroupDocs.
-
-## Πόροι
-
-**Τεκμηρίωση:**
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) – Αναλυτικοί οδηγοί και tutorials
-- [API Reference](https://reference.groupdocs.com/signature/java/) – Πλήρης τεκμηρίωση API με όλες τις κλάσεις και μεθόδους
-
-**Λήψεις και Αδειοδότηση:**
-- [Download Library](https://releases.groupdocs.com/signature/java/) – Τελευταίες εκδόσεις και ιστορικό
-- [Purchase Licenses](https://purchase.groupdocs.com/buy) – Τιμολόγηση και επιλογές αδειοδότησης
-- [Free Trial](https://releases.groupdocs.com/signature/java/) – Ξεκινήστε τη δοκιμή αμέσως
-
-**Υποστήριξη και Κοινότητα:**
-- [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) – Συζητήσεις, υποστήριξη και παραδείγματα
+**Support and community:**  
+- [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) – Community discussions and support  
 
 ---
 
-**Τελευταία Ενημέρωση:** 2026-05-11  
-**Δοκιμασμένο Με:** GroupDocs.Signature 23.12 for Java  
-**Συγγραφέας:** GroupDocs
+**Last Updated:** 2026-08-19  
+**Tested With:** GroupDocs.Signature 23.12 for Java  
+**Author:** GroupDocs  
 
 ```xml
 <version>24.1</version>  <!-- Update to newer version -->
@@ -686,7 +683,7 @@ loadOptions.setPassword("your-password");
 Signature signature = new Signature("protected.pdf", loadOptions);
 ```
 
-## Σχετικά Tutorials
+## Related tutorials
 
 - [Add QR Code to PDF Java - Complete Guide with GroupDocs.Signature](/signature/java/qr-code-signatures/qr-code-signatures-java-groupdocs/)
 - [Java Text Signature Search - A Complete Guide to Document Verification with GroupDocs.Signature](/signature/java/search-verification/java-text-signature-search-groupdocs-signature/)

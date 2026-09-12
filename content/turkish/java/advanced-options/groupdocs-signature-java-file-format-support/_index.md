@@ -1,24 +1,32 @@
 ---
 categories:
 - Java Document Processing
-date: '2026-05-11'
-description: Learn how to check file extension java and validate document formats
-  using GroupDocs.Signature. Complete guide with code examples, troubleshooting tips,
-  and best practices for document type checking.
+date: '2026-08-19'
+description: Java check file extension öğreticisi, file format java nasıl detect edileceğini,
+  file type java nasıl validate edileceğini ve GroupDocs.Signature kullanarak file
+  content nasıl verify edileceğini gösterir. İçerir code snippets, troubleshooting
+  tips ve best practices.
 keywords:
-- check file extension java
-- validate document type java
-- java upload file validation
-- how to detect file format java
-lastmod: '2025-01-02'
-linktitle: Java File Format Detection Guide
+- java check file extension
+- detect file format java
+- java verify file content
+- how to validate file type java
+- java file format validation
+lastmod: '2026-08-19'
+linktitle: Java File Format Detection Kılavuzu
+og_description: Java check file extension öğreticisi, file format java nasıl detect
+  edileceğini, file type java nasıl validate edileceğini ve GroupDocs.Signature ile
+  file content nasıl verify edileceğini gösterir. Best practices öğrenin ve ready-to-use
+  code alın.
+og_image_alt: Guide to detecting and validating file formats in Java using GroupDocs.Signature
+og_title: Java check file extension – detect ve validate document types
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-11'
+  dateModified: '2026-08-19'
   description: Learn how to check file extension java and validate document formats
     using GroupDocs.Signature. Complete guide with code examples, troubleshooting
     tips, and best practices for document type checking.
-  headline: Java File Format Detection - Validate and Check Document Types
+  headline: Java file format detection – validate and check document types
   type: TechArticle
 - questions:
   - answer: Change the `<version>` tag in your `pom.xml` to the desired version, then
@@ -50,60 +58,62 @@ tags:
 - java-libraries
 - document-management
 - format-detection
-title: Java File Format Detection - Validate and Check Document Types
+- java check file extension
+title: Java check file extension – detect ve validate document types
 type: docs
 url: /tr/java/advanced-options/groupdocs-signature-java-file-format-support/
 weight: 1
 ---
 
-# java dosya uzantısını kontrol et – Java Dosya Formatı Tespiti: Belge Türlerini Doğrula ve Kontrol Et
+# java dosya uzantısını kontrol et – belge türlerini algıla ve doğrula
 
-En yaygın görevlerden biri, bir belgeyi işlemeye başlamadan önce **java dosya uzantısını kontrol et**.  
+En yaygın görevlerden biri, bir belgeyi işlemeye başlamadan önce **java dosya uzantısını kontrol etmektir**.  
 
-Hiç bir dosya yükleyip uygulamanızın beklenen formatta olmadığı için çökmesini gördünüz mü? Yalnız değilsiniz. Java’da dosya formatlarını tespit etmek ve doğrulamak, sağlam belge işleme uygulamaları oluşturmak için kritik öneme sahiptir—ancak bu, kolayca taklit edilebilen veya hatalı olabilen dosya uzantılarını kontrol etmekten daha zordur.
+Hiç dosya yükleyip uygulamanızın beklenen formatta olmadığı için çökmesiyle karşılaştınız mı? Yalnız değilsiniz. Java’da dosya formatlarını algılamak ve doğrulamak, sağlam belge işleme uygulamaları oluşturmak için kritik öneme sahiptir—ancak sadece dosya uzantılarını kontrol etmekten (kolayca taklit edilebilen veya hatalı olabilen) daha zordur.
 
-Bu rehberde, basit uzantı kontrolünün ötesine geçen güçlü bir kütüphane olan GroupDocs.Signature kullanarak Java’da dosya formatlarını güvenilir bir şekilde nasıl tespit edeceğinizi öğreneceksiniz. İster bir belge yönetim sistemi, kullanıcı yüklemelerini doğrulama ya da bulut depolama hizmetleriyle entegrasyon yapıyor olun, çeşitli belge türlerini güvenle ele almanız için pratik teknikler keşfedeceksiniz.
+Bu rehberde, basit uzantı kontrolünün ötesine geçen güçlü bir kütüphane olan GroupDocs.Signature kullanarak Java’da dosya formatlarını güvenilir bir şekilde nasıl algılayacağınızı öğreneceksiniz. İster bir belge yönetim sistemi, kullanıcı yüklemelerinin doğrulanması ya da bulut depolama hizmetleriyle entegrasyon geliştirin, çeşitli belge türlerini güvenle ele almanız için pratik teknikler keşfedeceksiniz.
 
 **Öğrenecekleriniz:**
-- Java’da desteklenen dosya formatlarını programlı olarak nasıl alacağınız
-- Kütüphane tabanlı tespiti yerleşik Java yaklaşımlarıyla ne zaman kullanmanız gerektiği
-- Dosya türlerini doğrularken sıkça yapılan hatalar (ve bunlardan nasıl kaçınılacağı)
-- Gerçek dünya entegrasyon senaryoları ve performans optimizasyon ipuçları
-- Format tespiti sorunları için sorun giderme stratejileri
+- Java’da desteklenen dosya formatlarını programatik olarak nasıl alacağınız
+- Kütüphane‑tabanlı algılamayı yerleşik Java yaklaşımlarıyla ne zaman kullanmanız gerektiği
+- Dosya türlerini doğrularken sık yapılan hatalar (ve bunlardan nasıl kaçınılacağı)
+- Gerçek dünya entegrasyon senaryoları ve performans iyileştirme ipuçları
+- Format algılama sorunları için sorun giderme stratejileri
 
-Sonunda, Java uygulamalarınıza hemen ekleyebileceğiniz çalışan bir uygulama elde edeceksiniz. Başlamadan önce her şeyin hazır olduğundan emin olun.
+Sonunda, Java uygulamalarınıza hemen ekleyebileceğiniz çalışan bir uygulama elde edeceksiniz. Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olun.
 
-## Hızlı Yanıtlar
-- **Java dosya uzantısını kontrol etmenin en hızlı yolu nedir?** `Signature.getSupportedFileTypes()` kullanarak tam listeyi alın ve dosyanın uzantısını buna karşılaştırın.
-- **GroupDocs.Signature’ı kullanmak için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü yeterlidir; kalıcı lisans tüm değerlendirme sınırlamalarını kaldırır.
+## Hızlı cevaplar
+- **Dosya uzantısını java kontrol etmenin en hızlı yolu nedir?** `Signature.getSupportedFileTypes()` kullanarak tam listeyi alın ve dosyanın uzantısını bununla karşılaştırın.
+- **GroupDocs.Signature’ı kullanmak için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü yeterlidir; kalıcı bir lisans tüm değerlendirme sınırlamalarını kaldırır.
 - **Dosyayı tamamen okumadan yüklemeleri doğrulayabilir miyim?** Evet—GroupDocs.Signature dosya başlığını inceler, bu da tüm belgeyi yüklemekten çok daha ucuzdur.
 - **GroupDocs.Signature kaç formatı destekliyor?** PDF, DOCX, XLSX, PPTX, JPG, PNG ve daha fazlası dahil olmak üzere 50’den fazla giriş ve çıkış formatı.
-- **Format listesini önbelleğe almak gerekli mi?** Önbellekleme, tekrar eden yansıma (reflection) yükünü ortadan kaldırır ve yüksek hacimli hizmetlerde verimliliği artırır.
+- **Format listesini önbelleğe almak gerekli mi?** Önbellekleme, tekrar eden yansıma (reflection) yükünü ortadan kaldırır ve yüksek hacimli hizmetlerde iş hacmini artırır.
+
+## java dosya uzantısını kontrol et nedir?
+`java dosya uzantısını kontrol et`, bir dosyanın gerçek tipini yalnızca dosya adı uzantısına dayanmak yerine başlık ve meta verilerini inceleyerek doğrulama sürecine denir. Bu, kötü niyetle yeniden adlandırılmış dosyaların erken yakalanmasını, taklit uzantıların neden olduğu güvenlik açıklarının önlenmesini ve yalnızca desteklenen belge türlerinin uygulamanız tarafından işlenmesini sağlar.
 
 ## Önkoşullar
 
-Dosya formatı tespitine başlamadan önce aşağıdaki temel gereksinimlerin hazır olduğundan emin olun:
+Dosya formatı algılamasına başlamadan önce aşağıdaki gereksinimlerin hazır olduğundan emin olun:
 
-### Gerekli Kütüphaneler ve Sürümler
-- **GroupDocs.Signature Library**: Sürüm 23.12 veya üzeri (en son kararlı sürümü kullanacağız)
-- **Java Development Kit**: JDK 1.8 veya üzeri (daha iyi performans için JDK 11+ önerilir)
-- **Build Tool**: Maven 3.x veya Gradle 6.x bağımlılık yönetimi için
+### Gerekli kütüphaneler ve sürümler
+- **GroupDocs.Signature Library**: Sürüm 23.12 veya daha yeni (en son kararlı sürümü kullanacağız)
+- **Java Development Kit**: JDK 1.8 veya üstü (daha iyi performans için JDK 11+ önerilir)
+- **Derleme aracı**: Maven 3.x veya Gradle 6.x bağımlılık yönetimi için
 
-### Ortam Kurulum Gereksinimleri
+### Ortam kurulum gereksinimleri
 Aşağıdaki konularda rahat olmalısınız:
 - Temel Java programlama kavramları (sınıflar, döngüler, importlar)
 - Maven veya Gradle ile bağımlılık yönetimi
-- IDE ya da komut satırından Java uygulamaları çalıştırma
+- IDE’nizden veya komut satırından Java uygulamaları çalıştırma
 
-**Hızlı ipucu:** Büyük belgelerle çalışıyorsanız ya da dosyaları eşzamanlı işliyorsanız, JVM’nize yeterli yığın belleği ayırın (optimizasyona daha sonra değineceğiz).
+**Hızlı ipucu:** Büyük belgelerle çalışıyorsanız veya dosyaları eşzamanlı olarak işlemek istiyorsanız, JVM’nize yeterli yığın belleği ayırın (optimizasyona daha sonra değineceğiz).
 
-Ortamınız hazır olduğuna göre, GroupDocs.Signature’ı projenize eklemeye geçelim.
+## GroupDocs.Signature’ı Java için kurma
 
-## GroupDocs.Signature'ı Java için Kurma
+GroupDocs.Signature’ı projenize eklemek oldukça basit—tercih ettiğiniz derleme aracını seçin ve adımları izleyin.
 
-GroupDocs.Signature’ı projenize eklemek oldukça basittir—tercih ettiğiniz yapı aracını seçin ve adımları izleyin.
-
-### Maven Kullanarak
+### Maven kullanarak
 
 `pom.xml` dosyanıza şu bağımlılığı ekleyin:
 
@@ -115,9 +125,9 @@ GroupDocs.Signature’ı projenize eklemek oldukça basittir—tercih ettiğiniz
 </dependency>
 ```
 
-Bağımlılığı ekledikten sonra kütüphaneyi indirmek için `mvn clean install` komutunu çalıştırın.
+Bağımlılığı ekledikten sonra `mvn clean install` komutunu çalıştırarak kütüphaneyi indirin.
 
-### Gradle Kullanarak
+### Gradle kullanarak
 
 `build.gradle` dosyanıza şu satırı ekleyin:
 
@@ -125,27 +135,26 @@ Bağımlılığı ekledikten sonra kütüphaneyi indirmek için `mvn clean insta
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-Ardından Gradle projenizi senkronize edin ya da `gradle build` komutunu çalıştırın.
+Ardından Gradle projenizi senkronize edin veya `gradle build` komutunu çalıştırın.
 
-### Doğrudan İndirme Alternatifi
+### Doğrudan indirme alternatifi
 
-Bir yapı aracı kullanmıyor musunuz? JAR dosyasını doğrudan [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) adresinden indirebilir ve sınıf yolunuza manuel olarak ekleyebilirsiniz. (Dürüst olmak gerekirse, Maven ya da Gradle kullanmak ileride baş ağrısını önleyecektir.)
+Derleme aracı kullanmıyor musunuz? JAR dosyasını doğrudan [GroupDocs.Signature for Java sürümleri](https://releases.groupdocs.com/signature/java/) adresinden indirip sınıf yolunuza manuel ekleyebilirsiniz. (Maven veya Gradle ileride baş ağrısını önleyecektir.)
 
-### Lisans Edinme Adımları
+### Lisans edinme adımları
 
 GroupDocs.Signature esnek lisans seçenekleri sunar:
 
-- **Free Trial**: Test için mükemmel—[kredi kartı gerektirmeden](https://releases.groupdocs.com/signature/java/) hemen başlayabilirsiniz
-- **Temporary License**: Daha fazla değerlendirme süresine mi ihtiyacınız var? Sınırsız erişim için 30 günlük geçici lisans isteyin
-- **Purchase**: Üretim ortamına geçmeye hazır olduğunuzda, kalıcı lisansı [GroupDocs Purchase Page](https://purchase.groupdocs.com/buy) üzerinden alın
+- **Ücretsiz deneme**: Test için mükemmel—[kredi kartı gerektirmeden](https://releases.groupdocs.com/signature/java/) hemen başlayabilirsiniz
+- **Geçici lisans**: Daha fazla değerlendirme süresine mi ihtiyacınız var? Sınırsız erişim için 30‑günlük geçici lisans isteyin
+- **Satın alma**: Üretim ortamına geçmeye hazır olduğunuzda, [GroupDocs Satın Alma Sayfası](https://purchase.groupdocs.com/buy) üzerinden kalıcı lisans alın
 
-**Pro ipucu:** Tüm özellikleri keşfetmek için önce ücretsiz deneme sürümünü kullanın. Geçici lisans, su işaretlerini ve sınırlamaları kaldırır, böylece daha uzun bir değerlendirme süresi elde edersiniz.
+**Profesyonel ipucu:** Tüm özellikleri keşfetmek için önce ücretsiz denemeyi kullanın. Geçici lisans, su işaretlerini ve sınırlamaları kaldırır, böylece daha uzun bir değerlendirme süresi elde edersiniz.
 
-### Temel Başlatma ve Kurulum
+## Signature sınıfı nedir?
+`Signature`, GroupDocs.Signature içindeki tüm işlemler için temel giriş noktasıdır. Belge yükleme, format işleme ve imza işlemlerini kapsar. Sınıf, belgeleri açma, desteklenen formatları alma ve birçok dosya türünde imza ekleme veya doğrulama yöntemleri sağlar.
 
-`Signature` GroupDocs.Signature’ın tüm işlemler için çekirdek giriş noktasıdır. Belge yükleme, format işleme ve imza işlemlerini kapsar.
-
-Java uygulamanızda GroupDocs.Signature’ı başlatmanın yolu aşağıdadır:
+Java uygulamanızda GroupDocs.Signature’ı başlatma örneği:
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -154,37 +163,33 @@ import com.groupdocs.signature.Signature;
 Signature signature = new Signature("sample.pdf");
 ```
 
-Bu, belirtilen belge için bir signature nesnesi oluşturur. Gerçek belgelerle çalışırken bu deseni kullanacaksınız, ancak desteklenen formatları almak için belirli bir dosyaya ihtiyacınız olmayacak (bunu bir sonraki bölümde göstereceğiz).
+Bu, belirtilen belge için bir signature nesnesi oluşturur. Gerçek belgelerle çalışırken bu deseni kullanacaksınız, ancak desteklenen formatları alırken belirli bir dosyaya ihtiyacınız olmayacak (sonraki bölümde göstereceğiz).
 
-Kurulum tamamlandığına göre, desteklenen dosya formatlarını tespit edip alacak temel işlevi uygulamaya başlayalım.
+## Uygulama rehberi
 
-## Uygulama Kılavuzu
+Şimdi pratik kısmı ele alalım. Tüm desteklenen dosya formatlarını alan basit bir yardımcı sınıf oluşturacağız—belge işleme hattınız için bir “uyumluluk denetleyicisi” gibi düşünebilirsiniz.
 
-Şimdi pratik kısmı ele alıyoruz. Belge işleme hattınız için bir “uyumluluk denetleyicisi” oluşturacak basit bir yardımcı program inşa edeceğiz.
+### Neden önemli
 
-### Bunun Önemi
-
-Belge işleme özellikleri geliştirmeye başlamadan önce kütüphanenizin hangi dosya türlerini desteklediğini bilmeniz gerekir. Bu uygulama, bilgiyi dinamik olarak sağlar; yani:
+Belge işleme özellikleri geliştirmeye başlamadan önce kütüphanenizin hangi dosya türlerini desteklediğini bilmeniz gerekir. Bu uygulama, bilgiyi dinamik olarak sağlar, yani:
 - Güncelliğini yitiren sabit uzantı listeleri yok
 - Kullanıcı yüklemelerini desteklenen formatlarla kolayca doğrulayabilirsiniz
-- UI’nizde dosya türü filtreleri oluşturmak için hızlı bir referans elde edersiniz
+- UI’nizde dosya‑tipi filtreleri oluşturmak için hızlı bir referans elde edersiniz
 
-### Adım Adım Uygulama
+### Adım‑adım uygulama
 
-**1. Gerekli Sınıfları İçe Aktarın**
+**1. Gerekli sınıfları içe aktarın**
 
-`FileType`, format tespiti için geçiş noktasıdır; desteklenen belge türleriyle ilgili tüm meta verileri içerir.
+`FileType`, format algılamanın kapısıdır—desteklenen belge türleriyle ilgili tüm meta verileri içerir. `Signature.getSupportedFileTypes()` metodu, kütüphanenin işleyebileceği her formatı temsil eden `FileType` nesnelerinin bir koleksiyonunu döndürür.
 
 ```java
 import com.groupdocs.signature.domain.documentpreview.FileType;
 import java.util.List;
 ```
 
-`FileType` sınıfı, uzantı, MIME tipi ve açıklama gibi özellikleri ortaya çıkaran GroupDocs.Signature’ın her desteklenen format tanımlayıcısıdır.
+**2. Alım sınıfını oluşturun**
 
-**2. Getirme Sınıfını Oluşturun**
-
-Tam uygulama aşağıdadır:
+Tam uygulama aşağıdaki gibidir:
 
 ```java
 public class GetSupportedFileFormats {
@@ -200,14 +205,14 @@ public class GetSupportedFileFormats {
 }
 ```
 
-**Ne oluyor?**
-- `getSupportedFileTypes()`: Bu statik metod, kütüphanenin iç kayıtlarını sorgular ve `FileType` nesneleri olarak tam bir format listesi döndürür
-- Döngü, her formatın uzantısını (ör. `.pdf`, `.docx`, `.xlsx`) çıktılar
-- Her `FileType` nesnesi ayrıca erişebileceğiniz ek meta verilere sahiptir (aşağıda inceleyeceğiz)
+**Burada neler oluyor:**  
+- `Signature.getSupportedFileTypes()` kütüphanenin iç kayıt defterini sorgular ve desteklenen formatların tam listesini `FileType` nesneleri olarak döndürür.  
+- Döngü, her formatı gezerek uzantısını (ör. `.pdf`, `.docx`, `.xlsx`) çıktılar.  
+- Her `FileType` nesnesi ayrıca erişebileceğiniz ek meta veriler de içerir (aşağıda inceleyeceğiz).
 
-### Temel Uzantıların Ötesinde
+### Temel uzantıların ötesinde
 
-`FileType` nesnesi sadece uzantıları değil, daha fazlasını da sunar. İşte alabileceğiniz diğer bilgiler:
+`FileType` nesnesi sadece uzantı değil, daha fazlasını sunar. Şu bilgileri de alabilirsiniz:
 
 ```java
 for (FileType fileType : supportedFileTypes) {
@@ -217,49 +222,65 @@ for (FileType fileType : supportedFileTypes) {
 }
 ```
 
-Bu, kullanıcı dostu format adları göstermeniz ya da formatları türlerine göre gruplamanız gerektiğinde (belgeler vs. elektronik tablolar vs. görseller) faydalıdır.
+Bu, kullanıcı‑dostu format adları göstermek veya formatları türlerine göre gruplamak (belgeler vs. elektronik tablolar vs. görseller) istediğinizde faydalıdır.
 
-## Bu Yaklaşımı Ne Zaman Kullanmalı
+## java dosya uzantısını nasıl kontrol ederim?
 
-Her durum kütüphane tabanlı bir çözüme ihtiyaç duymaz. GroupDocs.Signature’ın format tespiti parladığı zamanlar şunlardır:
+Dosya adını yükleyin, uzantısını çıkarın ve `Signature.getSupportedFileTypes()` tarafından döndürülen önbelleğe alınmış listeyle karşılaştırın. Bu iki adımlı yaklaşım, sabit bir dizi yerine güncel bir katalogla kontrol ettiğinizden emin olur. Ayrıca, GroupDocs.Signature dosya başlığını doğruladığı için taklit uzantıların önüne geçilir; içerik gerçekten iddia edilen tipteyse işlem devam eder.
 
-### Mükemmel Kullanım Durumları
+## GroupDocs.Signature nedir?
+GroupDocs.Signature, geliştiricilerin 50’den fazla belge formatı üzerinde dijital imzalar eklemesini, doğrulamasını ve yönetmesini sağlayan bir Java kütüphanesidir. PDF, Office, görseller ve daha birçok tür için birleşik bir API sunar; şifreli dosyalar, parola‑korumalı belgeler ve çok‑sayfalı imzalar gibi karmaşık doğrulama senaryolarını da ele alır. Kütüphane ayrıca içerik‑tabanlı format algılaması sunarak kötü niyetle yeniden adlandırılmış dosyaların işlenmesini önler.
 
-**1. Belge Yükleme Doğrulayıcıları Oluşturma**  
-Kullanıcılar dosya yüklediğinde, formatları sunucu tarafında doğrulamak istersiniz (tek başına istemci doğrulamasına asla güvenmeyin). Bu yaklaşım, işleme başlamadan önce kapsamlı bir desteklenen format listesine karşı kontrol etmenizi sağlar.
+## Neden kütüphane‑tabanlı algılama, Java’nın yerleşik yöntemlerinden daha iyi?
 
-**2. Dinamik Dosya Türü Filtreleri Oluşturma**  
-Bir dosya seçici ya da yükleme arayüzü mi yapıyorsunuz? Statik bir dizi tutmak yerine izin verilen formatları dinamik olarak oluşturun; böylece kütüphanenizin yetenekleriyle senkronize kalırsınız.
+Kütüphane‑tabanlı algılama, gerçek dosya başlığını ve iç yapıyı inceler; böylece içerik gerçekten iddia edilen formatla eşleşir. `Files.probeContentType` gibi yerleşik yöntemler veya basit uzantı kontrolleri, `.exe` dosyasını `.pdf` olarak yeniden adlandırarak kandırılabilir. GroupDocs.Signature, herhangi bir sonraki işlemden önce derin içerik analizi yaparak bu riski ortadan kaldırır ve uygulamanız için daha yüksek bir güvenlik garantisi sağlar.
 
-**3. Çok‑Formatlı Belge İşleme Hatları**  
-E‑posta ekleri, bulut depolama veya kullanıcı yüklemeleri gibi çeşitli kaynaklardan belgeler işliyorsanız, dosyaları uygun işleyicilere yönlendirmek için güvenilir format tespiti gerekir.
+## Desteklenen dosya formatlarını ne zaman önbelleğe almalıyım?
 
-**4. Bulut Depolama Hizmetleriyle Entegrasyon**  
-AWS S3, Google Drive veya Azure Blob Storage ile senkronize olurken, dosyaları indirmeden ve işlemeye başlamadan önce belge uyumluluğunu doğrulayın—böylece bant genişliği ve işlem süresi tasarrufu sağlarsınız.
+Uygulama başlangıcında ya da ilk ihtiyaç anında format listesini önbelleğe alın ve JVM’nin ömrü boyunca değişmez koleksiyonu yeniden kullanın. Özellikle her istek bir yansıma‑ağır kütüphane başlatması tetikleyebilen yüksek hacimli web hizmetlerinde önbellekleme, milisaniyeler seviyesinde gecikme tasarrufu sağlar. Listeyi bir kez saklayarak CPU yükünü azaltır ve yanıt sürelerini iyileştirirsiniz.
 
-### Yerleşik Java Yöntemleri Yeterli Olabilir
+## Java’da desteklenmeyen dosya formatları nasıl ele alınır?
+
+Desteklenmeyen formatı erken tespit edin, denetim amaçlı girişimi kaydedin ve kullanıcıya izin verilen uzantıların bir listesini içeren net bir hata mesajı döndürün. Bu yaklaşım, kullanıcı deneyimini artırır, arka uçta gereksiz iş yükünü azaltır ve güvenlik ekiplerine olası kötüye kullanım girişimlerini izleme imkanı verir.
+
+## Bu yaklaşımı ne zaman kullanmalıyım
+
+### Mükemmel kullanım senaryoları
+
+**1. Belge yükleme doğrulayıcıları**  
+Kullanıcılar dosya yüklediğinde, yalnızca istemci‑tarafı doğrulamaya güvenmeyin. Bu yaklaşım, işlemden önce desteklenen formatların kapsamlı bir listesiyle kontrol etmenizi sağlar.
+
+**2. Dinamik dosya‑tipi filtreleri oluşturma**  
+Bir dosya seçici veya yükleme arayüzü mi yapıyorsunuz? Statik bir dizi tutmak yerine, kütüphanenizin yetenekleriyle senkronize bir izin verilen format listesi üretin.
+
+**3. Çok‑formatlı belge işleme hatları**  
+E‑posta ekleri, bulut depolama veya kullanıcı yüklemeleri gibi çeşitli kaynaklardan gelen belgeleri işliyorsanız, dosyaları uygun işleyicilere yönlendirmek için güvenilir format algılamasına ihtiyacınız olur.
+
+**4. Bulut depolama hizmetleriyle entegrasyon**  
+AWS S3, Google Drive veya Azure Blob Storage ile senkronizasyon yaparken, indirme ve işleme öncesi belge uyumluluğunu doğrulayın—böylece bant genişliği ve işlem süresi tasarrufu sağlarsınız.
+
+### Yerleşik Java yeterli olabilecek durumlar
 
 Daha basit senaryolar için Java’nın yerleşik yaklaşımları yeterli olabilir:
 - **Sadece uzantı kontrolü**: `file.getName().endsWith(".pdf")`
-- **MIME tipi tespiti**: `Files.probeContentType(path)`
-- **Temel doğrulama**: Yükleme kaynağını kontrol edebildiğiniz ve uzantılara güvenebildiğiniz durumlar
+- **MIME tipi algılama**: `Files.probeContentType(path)`
+- **Temel doğrulama**: Yükleme kaynağını kontrol edebiliyor ve uzantılara güvenebiliyorsanız
 
-**Önemli uyarı:** Yerleşik yöntemler kandırılabilir. `.exe` dosyasını `.pdf` olarak yeniden adlandırmak uzantı kontrolünü geçebilir ancak gerçek doğrulama başarısız olur. GroupDocs.Signature, daha derin bir içerik incelemesi yaparak bu riski ortadan kaldırır.
+**Önemli uyarı:** Yerleşik yöntemler kandırılabilir. `malicious.exe` dosyasını `document.pdf` olarak yeniden adlandırmak uzantı kontrolünü geçebilir ancak gerçek doğrulama başarısız olur. GroupDocs.Signature daha derin bir inceleme yapar.
 
-## Yaygın Sorunlar ve Sorun Giderme
+## Yaygın sorunlar ve sorun giderme
 
-Karşılaşabileceğiniz problemler ve hızlı çözümleri aşağıdadır.
+### Sorun 1: Boş veya null liste döndürüyor
 
-### Sorun 1: Boş veya Null Liste Döndürüldü
+**Belirti:** `Signature.getSupportedFileTypes()` boş bir liste ya da null döndürüyor.
 
-**Belirti:** `getSupportedFileTypes()` boş bir liste ya da null döndürüyor.
-
-**Nedenler ve Çözümler:**
-- **Kütüphane düzgün başlatılmadı**: Maven/Gradle bağımlılığınızın doğru eklendiğini ve senkronize edildiğini kontrol edin
-- **Sürüm uyumsuzluğu**: 23.12 veya üzeri bir sürüm kullandığınızdan emin olun (eski sürümlerde API farklı olabilir)
-- **Sınıf yolu sorunları**: Manuel JAR dosyaları kullanıyorsanız, sınıf yoluna doğru eklendiğini doğrulayın
+**Nedenler ve çözümler:**  
+- **Kütüphane düzgün başlatılmamış** – Maven/Gradle bağımlılığınızın doğru eklendiğini ve senkronize edildiğini kontrol edin.  
+- **Sürüm uyumsuzluğu** – 23.12 veya daha yeni bir sürüm kullandığınızdan emin olun (eski sürümlerde API farklı olabilir).  
+- **Sınıf yolu sorunları** – Manuel JAR dosyaları kullanıyorsanız, sınıf yoluna doğru eklendiğini doğrulayın.
 
 **Hızlı düzeltme:**
+
 ```java
 List<FileType> formats = FileType.getSupportedFileTypes();
 if (formats == null || formats.isEmpty()) {
@@ -268,16 +289,17 @@ if (formats == null || formats.isEmpty()) {
 }
 ```
 
-### Sorun 2: Beklenen Format Eksik
+### Sorun 2: Beklenen format eksik
 
-**Belirti:** Kullanmak istediğiniz bir format desteklenen listede yok.
+**Belirti:** Kullanmak istediğiniz bir format desteklenen listede yer almıyor.
 
-**Olası nedenler:**
-- Ek plugin gerektiren özel bir format kullanıyorsunuz (bazı CAD veya tıbbi görüntü formatları ayrı modüller ister)
-- Format daha yeni bir sürümde eklenmiş—sürüm notlarını kontrol edin
-- Format okuma için destekleniyor ancak imza işlemleri için değil (GroupDocs.Signature esas olarak imza eklemek içindir, tüm işlemler tüm formatları eşit desteklemez)
+**Olası nedenler:**  
+- Ek plugin gerektiren özel bir format (bazı CAD veya tıbbi görüntü formatları ayrı modüller ister).  
+- Format, daha yeni bir sürümde eklenmiş – sürüm notlarını kontrol edin.  
+- Format okuma için destekleniyor ancak imza işlemleri için değil (GroupDocs.Signature esas olarak imza eklemek içindir; tüm işlemler her formatı desteklemeyebilir).
 
 **Hata ayıklama yaklaşımı:**
+
 ```java
 // Check for specific format
 boolean hasPDF = supportedFileTypes.stream()
@@ -285,9 +307,9 @@ boolean hasPDF = supportedFileTypes.stream()
 System.out.println("PDF supported: " + hasPDF);
 ```
 
-### Sorun 3: Büyük Format Listelerinde Performans Düşüşü
+### Sorun 3: Büyük format listesiyle performans düşüşü
 
-**Belirti:** `getSupportedFileTypes()` tekrar tekrar çağrıldığında uygulama yavaşlıyor.
+**Belirti:** `Signature.getSupportedFileTypes()` tekrar tekrar çağrıldığında uygulama yavaşlıyor.
 
 **Çözüm:** Sonuçları önbelleğe alın! Bu liste çalışma zamanında değişmez:
 
@@ -304,16 +326,14 @@ public class FormatCache {
 }
 ```
 
-Bu desen, uygulama yaşam döngüsü boyunca kütüphaneyi yalnızca bir kez sorgulamanızı sağlar.
+### Sorun 4: Lisans‑ile ilgili sınırlamalar
 
-### Sorun 4: Lisansla İlgili Kısıtlamalar
+**Belirti:** Değerlendirme uyarıları alıyor veya format desteği kısıtlı.
 
-**Belirti:** Değerlendirme uyarıları alıyor ya da format desteği sınırlı.
-
-**Çözüm:** 
-- Her GroupDocs metodundan önce lisansınızı uygulayın
-- Lisans dosyası yolunun doğru olduğundan emin olun
-- Zaman sınırlı bir lisans kullanıyorsanız son tarihini kontrol edin
+**Çözüm:**  
+- Her GroupDocs metodunu çağırmadan önce lisansınızı uygulayın.  
+- Lisans dosyası yolunun doğru olduğundan emin olun.  
+- Zaman sınırlı bir lisans kullanıyorsanız, son kullanma tarihini kontrol edin.
 
 ```java
 try {
@@ -324,11 +344,9 @@ try {
 }
 ```
 
-## Dosya Formatı Tespiti İçin En İyi Uygulamalar
+## Dosya formatı algılamada en iyi uygulamalar
 
-Uygulamalarınızı sağlam ve sürdürülebilir kılmak için bu yönergeleri izleyin.
-
-### 1. Erken Doğrula, Hızlı Başarısız Ol
+### 1. Erken doğrula, hızlı başar
 
 İşleme hattınızın mümkün olan en erken aşamasında dosya formatlarını kontrol edin:
 
@@ -349,11 +367,9 @@ public boolean validateFileFormat(String filePath) {
 }
 ```
 
-Bu, desteklenmeyen formatlarda boşa işlem yapılmasını önler.
+### 2. Kullanıcıya net geri bildirim ver
 
-### 2. Kullanıcıya Açık Geri Bildirim Sağla
-
-Dosyaları reddederken, hangi formatların **desteklendiğini** kullanıcıya net bir şekilde söyleyin:
+Dosyaları reddederken, hangi formatların **DESTEKLENDİĞİ**ni açıkça belirtin:
 
 ```java
 public String getSupportedFormatsMessage() {
@@ -366,9 +382,9 @@ public String getSupportedFormatsMessage() {
 }
 ```
 
-### 3. Dosya Uzantılarına Tek Başına Güvenme
+### 3. Uzantılara yalnızca güvenmeyin
 
-`.exe` dosyasını `.pdf` olarak yeniden adlandırmak uzantıyı `.pdf` yapar ama geçerli bir PDF değildir. GroupDocs.Signature gerçek içeriği doğrular; yine de iki yaklaşımı birleştirin:
+`.exe` dosyasını `.pdf` olarak yeniden adlandırmak uzantıyı `.pdf` yapar ama geçerli bir PDF olmaz. GroupDocs.Signature gerçek içeriği doğrular, yine de iki yaklaşımı birleştirin:
 
 ```java
 // First check extension (fast)
@@ -385,9 +401,9 @@ try (Signature signature = new Signature(file)) {
 }
 ```
 
-### 4. İstisnaları Zarifçe Ele Al
+### 4. İstisnaları nazikçe yönetin
 
-Doğrulama sırasında pek çok farklı hata ortaya çıkabilir:
+Dosya doğrulama birçok nedenden dolayı başarısız olabilir; istisnaları yakalayarak anlamlı bir şekilde ele alın:
 
 ```java
 public ValidationResult validateDocument(String path) {
@@ -404,12 +420,12 @@ public ValidationResult validateDocument(String path) {
 }
 ```
 
-### 5. Format Desteği Değişikliklerini İzle
+### 5. Format‑destek değişikliklerini izleyin
 
-GroupDocs.Signature kütüphanesini güncellediğinizde, sürüm notlarını kontrol edin:
-- Yeni eklenen formatlar
-- Kullanımdan kaldırılan formatlar
-- Format tespitindeki davranış değişiklikleri
+GroupDocs.Signature kütüphanesini güncellediğinizde sürüm notlarını kontrol edin:
+- Yeni desteklenen formatlar  
+- Kullanımdan kaldırılan formatlar  
+- Algılama davranışındaki değişiklikler  
 
 Beklenen formatların desteklendiğini doğrulayan birim testleri eklemeyi düşünün:
 
@@ -428,13 +444,13 @@ public void testEssentialFormatsSupported() {
 }
 ```
 
-## Performans Düşünceleri
+## Performans düşünceleri
 
-Dosya formatı tespiti küçük bir detay gibi görünebilir, ancak binlerce belge işleyen ya da eşzamanlı yüklemeler yapan sistemlerde önem kazanır.
+Dosya formatı algılamayı optimize etmek önemsiz gibi görünebilir, ancak binlerce belge işleyen ya da eşzamanlı yüklemeler yapan sistemlerde kritik bir fark yaratır.
 
-### Bellek Yönetimi
+### Bellek yönetimi
 
-**Önbellekleme stratejisi:** Daha önce bahsedildiği gibi, desteklenen format listesini önbelleğe alın:
+**Önbellekleme stratejisi:** Daha önce belirtildiği gibi, desteklenen formatlar listesini önbelleğe alın:
 
 ```java
 // Good: Load once, reuse many times
@@ -448,14 +464,14 @@ public boolean isSupported(String ext) {
 }
 ```
 
-**Neden önemli:** Listeyi yüklemek yansıma (reflection) ve iç kütüphane başlatma gerektirir. Bunu bir kez yapmak CPU döngülerini ve bellek tahsislerini tasarruf ettirir.
+**Neden önemli:** Format listesinin yüklenmesi yansıma (reflection) ve iç kütüphane başlatması gerektirir. Bunu bir kez yapmak CPU döngülerini ve bellek tahsislerini tasarruf ettirir.
 
-### Kaynak Kullanım Kılavuzları
+### Kaynak kullanım yönergeleri
 
-**Yüksek hacimli senaryolar için:**
-- Format listesi için iş parçacığı‑güvenli bir önbellek kullanın (yukarıdaki örnek değiştirilemez olduğu için iş parçacığı‑güvenlidir)
-- Format tespiti her zaman gerekli değilse tembel (lazy) başlatmayı düşünün
-- Belgeleri işlerken `Signature` nesnelerini zamanında kapatın, böylece kaynaklar serbest kalır
+**Yüksek hacimli senaryolar için:**  
+- Format listeleri için iş parçacığı‑güvenli bir önbellek kullanın (yukarıdaki örnek değişmez olduğundan iş parçacığı‑güvenlidir).  
+- Uygulamanız her zaman format algılamaya ihtiyaç duymuyorsa tembel (lazy) başlatmayı düşünün.  
+- Belgeleri işlerken `Signature` nesnelerini zamanında kapatarak kaynakları serbest bırakın.
 
 ```java
 try (Signature signature = new Signature(filePath)) {
@@ -463,9 +479,9 @@ try (Signature signature = new Signature(filePath)) {
 } // Automatically closed, resources freed
 ```
 
-### Toplu İşleme Optimizasyonu
+### Toplu işleme optimizasyonu
 
-Birden çok dosyayı doğruluyorsanız paralelleştirmeyi değerlendirin:
+Birden fazla dosyayı doğruluyorsanız paralelleştirmeyi değerlendirin:
 
 ```java
 List<String> files = Arrays.asList("doc1.pdf", "doc2.docx", "doc3.xlsx");
@@ -479,24 +495,25 @@ files.parallelStream()
     });
 ```
 
-**Uyarı:** Aşırı paralelleştirmeyin. Girdi/çıktı (I/O) sınırlıysa fazla iş parçacığı fayda sağlamaz. En uygun iş parçacığı sayısını test ederek bulun.
+**Uyarı:** Aşırı paralelleştirmeyin. Giriş/çıkış (I/O) ağırlıklıysanız fazla iş parçacığı fayda sağlamaz. En uygun iş parçacığı sayısını test ederek bulun.
 
-### JVM Ayarlama İpuçları
+### JVM ayar ipuçları
 
-Belge‑ağır uygulamalar için:
-- Yığın boyutunu artırın: `-Xmx2g` (gereksinimlerinize göre ayarlayın)
-- Çöp toplama (garbage collection) izleyin: `-XX:+PrintGCDetails` ile sorunları tespit edin
-- Daha iyi duraklama süreleri için G1GC kullanın: `-XX:+UseG1GC`
+Belge‑ağır uygulamalar için:  
+- Yığın boyutunu artırın: `-Xmx2g` (gereksinimlerinize göre ayarlayın).  
+- Çöp toplama izleme: `-XX:+PrintGCDetails` ile sorunları tespit edin.  
+- Daha iyi duraklama süreleri için G1GC kullanın: `-XX:+UseG1GC`.
 
-## Pratik Uygulamalar ve Entegrasyon
+## Pratik uygulamalar ve entegrasyon
 
-Dosya formatı tespitinin kritik olduğu gerçek dünya senaryolarına bir göz atalım.
+Gerçek dünyada dosya formatı algılamanın kritik olduğu senaryolara bir göz atalım.
 
-### 1. Belge Yönetim Sistemleri
+### 1. Belge yönetim sistemleri
 
 **Senaryo:** Kullanıcılar belgeler yükler, indekslenir, işlenir ve depolanır.
 
 **Uygulama deseni:**
+
 ```java
 public class DocumentUploadHandler {
     public void handleUpload(MultipartFile file) {
@@ -519,7 +536,7 @@ public class DocumentUploadHandler {
 }
 ```
 
-### 2. Bulut Depolama Entegrasyonu
+### 2. Bulut depolama entegrasyonu
 
 **Senaryo:** AWS S3 veya Google Drive’dan belgeler senkronize edilir ve yalnızca desteklenen formatlar işlenir.
 
@@ -545,11 +562,11 @@ public void syncFromS3(String bucketName) {
 }
 ```
 
-### 3. Kurumsal İş Akışı Otomasyonu
+### 3. Kurumsal iş akışı otomasyonu
 
 **Senaryo:** Belgeler türlerine göre farklı iş akışlarına yönlendirilir.
 
-**Örnek:** PDF’ler imza akışına, elektronik tablolar veri çıkarımına, görseller OCR işlemine gider.
+**Örnek:** PDF’ler imza iş akışına, elektronik tablolar veri çıkarımına, görseller OCR işlemine gider.
 
 ```java
 public void routeDocument(String filePath) {
@@ -576,11 +593,12 @@ public void routeDocument(String filePath) {
 }
 ```
 
-### 4. Dosya Türü Seçicileri Oluşturma
+### 4. Dosya‑tipi seçiciler oluşturma
 
-**Senaryo:** Dinamik format desteğiyle UI bileşenleri oluşturun.
+**Senaryo:** Dinamik format desteğiyle UI bileşenleri geliştirin.
 
 **Frontend entegrasyon örneği:**
+
 ```java
 @RestController
 public class FormatController {
@@ -596,7 +614,8 @@ public class FormatController {
 }
 ```
 
-Frontend’iniz bu verileri dosya yükleme bileşenlerini yapılandırmak için kullanabilir:
+Ön uç, bu veriyi kullanarak dosya‑yükleme bileşenlerini şu şekilde yapılandırabilir:
+
 ```javascript
 // Frontend code (for context, not part of Java implementation)
 fetch('/api/supported-formats')
@@ -606,65 +625,45 @@ fetch('/api/supported-formats')
     });
 ```
 
-## Java dosya uzantısını nasıl kontrol ederim?
+## Sık sorulan sorular
 
-Dosya adını yükleyin, uzantısını çıkarın ve `Signature.getSupportedFileTypes()` tarafından döndürülen önbelleklenmiş listeyle karşılaştırın. Bu iki adımlı yaklaşım, sabit bir diziye göre değil güncel bir kataloğa karşı kontrol ettiğinizden emin olmanızı sağlar ve taklit edilmiş uzantıları da engeller; çünkü GroupDocs.Signature dosya başlığını doğruladıktan sonra diğer işlemlere devam eder.
+**S: GroupDocs.Signature kütüphane sürümünü Maven’da nasıl güncellerim?**  
+C: `pom.xml` içindeki `<version>` etiketini istediğiniz sürüme değiştirin, ardından `mvn clean install` çalıştırın. Her zaman [sürüm notlarını](https://releases.groupdocs.com/signature/java/) inceleyin.
 
-## GroupDocs.Signature Nedir?
-
-GroupDocs.Signature, geliştiricilerin 50’den fazla belge formatı üzerinde dijital imzalar eklemesini, doğrulamasını ve yönetmesini sağlayan bir Java kütüphanesidir. PDF, Office, görseller ve daha birçok tür için birleşik bir API sunar; şifreli dosyalar, parola korumalı belgeler ve çok sayfalı imzalar gibi karmaşık doğrulama senaryolarını da ele alır.
-
-## Neden kütüphane tabanlı tespit, Java yerleşik yöntemleri yerine kullanılmalı?
-
-Kütüphane tabanlı tespit, gerçek dosya başlığını ve iç yapıyı inceler; böylece içeriğin iddia edilen formatla gerçekten eşleştiğinden emin olur. `Files.probeContentType` gibi yerleşik yöntemler ya da basit uzantı kontrolleri, dosyaların uzantısını değiştirerek kandırılabilir. GroupDocs.Signature, herhangi bir ek işleme başlamadan önce derin içerik analizi yaparak bu riski ortadan kaldırır.
-
-## Desteklenen dosya formatlarını ne zaman önbelleğe almalıyım?
-
-Uygulama başlangıcında ya da ilk ihtiyaç anında format listesini önbelleğe alın ve JVM ömrü boyunca değişmez koleksiyonu yeniden kullanın. Özellikle her istekte yansıma‑ağır kütüphane başlatması yapan yüksek‑throughput web servislerinde önbellekleme, çağrı başına milisaniyelerlik gecikmeyi ortadan kaldırır.
-
-## Java'da desteklenmeyen dosya formatları nasıl ele alınır?
-
-Desteklenmeyen formatı erken tespit edin, deneme amacıyla kaydı tutun ve kullanıcıya izin verilen uzantıların bir listesini içeren net bir hata mesajı döndürün. Bu yaklaşım, kullanıcı deneyimini iyileştirir ve arka uçta gereksiz işlem yükünü azaltır.
-
-## Sıkça Sorulan Sorular
-
-**S: Maven’da GroupDocs.Signature kütüphane sürümümü nasıl güncellerim?**  
-C: `pom.xml` içindeki `<version>` etiketini istediğiniz sürüme değiştirin, ardından `mvn clean install` çalıştırın. Her zaman [release notes](https://releases.groupdocs.com/signature/java/) kısmını kırılma değişiklikleri için inceleyin.
-
-**S: GroupDocs.Signature, uzantı yanlış olsa bile dosya formatlarını tespit edebilir mi?**  
-C: Evet. Kütüphane içerik‑tabanlı doğrulama yapar; bu yüzden `.exe` dosyasını `.pdf` olarak yeniden adlandırmak, işlem sırasında geçerli bir PDF olmadığı için reddedilir. `getSupportedFileTypes()` yalnızca kütüphanenin işleyebileceği formatları listeler; gerçek tipin doğrulanması için dosyayı açmanız gerekir.
+**S: GroupDocs.Signature, uzantı yanlış olsa bile dosya formatını algılayabilir mi?**  
+C: Evet. Kütüphane içerik‑tabanlı doğrulama yapar; `.exe` dosyasını `.pdf` olarak yeniden adlandırmak, geçerli bir PDF olarak kabul edilmez. `getSupportedFileTypes()` yalnızca kütüphanenin işleyebileceği formatları listeler; gerçek tipin doğrulanması için dosyayı açmanız gerekir.
 
 **S: Ücretsiz deneme ile geçici lisans arasındaki fark nedir?**  
-C: Ücretsiz deneme anında erişim sağlar ancak değerlendirme su işaretleri ve bazı özellik sınırlamaları içerir. Geçici lisans, 30 gün boyunca su işareti olmadan tam özellik erişimi sunar; üretim‑benzeri bir ortamda kapsamlı testler için idealdir.
+C: Ücretsiz deneme hemen erişim sağlar ancak değerlendirme su işaretleri ve bazı özellik sınırlamaları içerir. Geçici lisans, 30 gün boyunca su işareti ve sınırlama olmadan tam özellik erişimi sunar; üretim‑benzeri testler için idealdir.
 
 **S: Uygulamamda desteklenmeyen dosya formatlarını nasıl ele almalı?**  
-C: “Desteklenmeyen format. Desteklenen uzantılar: .pdf, .docx, .xlsx, .png, .jpg.” gibi kısa bir hata döndürün. Olayı güvenlik izleme için loglayın ve kullanıcıya izin verilen türleri gösteren bir UI tooltip’i sunmayı düşünün.
+C: “Desteklenmeyen format. Desteklenen uzantılar: .pdf, .docx, .xlsx, .png, .jpg.” gibi kısa bir hata döndürün. Olayı güvenlik izleme için kaydedin ve kullanıcı arayüzünde izin verilen tipleri gösteren bir ipucu ekleyin.
 
-**S: GroupDocs.Signature şifreli veya parola korumalı dosyalarla çalışıyor mu?**  
-C: Evet, ancak `Signature` örneği oluştururken parolayı sağlamalısınız. Format tespiti için parola gerekli değildir, ancak sonraki işlemler (ör. imza ekleme) için gereklidir.
+**S: GroupDocs.Signature şifreli veya parola‑korumalı dosyalarla çalışır mı?**  
+C: Evet, ancak `Signature` örneği oluştururken parolayı sağlamalısınız. Format algılaması parolayı gerektirmez; ancak imza ekleme gibi sonraki işlemler için parola gerekir.
 
 **S: GroupDocs.Signature için bir topluluk veya destek forumu var mı?**  
 C: Kesinlikle! [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) adresinde topluluk tartışmaları, kod örnekleri ve GroupDocs ekibinden doğrudan yanıtlar bulabilirsiniz.
 
 ## Kaynaklar
 
-**Documentation:**  
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) – Kapsamlı kılavuzlar ve öğreticiler  
-- [API Reference](https://reference.groupdocs.com/signature/java/) – Tüm sınıflar ve metodlar için eksiksiz API dokümantasyonu  
+**Dokümantasyon:**  
+- [GroupDocs.Signature for Java Dokümantasyonu](https://docs.groupdocs.com/signature/java/) – Kapsamlı rehberler ve öğreticiler  
+- [API Referansı](https://reference.groupdocs.com/signature/java/) – Tüm sınıflar ve metodlar için eksiksiz API belgeleri  
 
-**Downloads and Licensing:**  
-- [Download Library](https://releases.groupdocs.com/signature/java/) – En son sürümler ve sürüm geçmişi  
-- [Purchase Licenses](https://purchase.groupdocs.com/buy) – Fiyatlandırma ve lisans seçenekleri  
-- [Free Trial](https://releases.groupdocs.com/signature/java/) – Hemen test etmeye başlayın  
+**İndirme ve lisanslama:**  
+- [Kütüphane İndir](https://releases.groupdocs.com/signature/java/) – En son sürümler ve sürüm geçmişi  
+- [Lisans Satın Al](https://purchase.groupdocs.com/buy) – Fiyatlandırma ve lisans seçenekleri  
+- [Ücretsiz Deneme](https://releases.groupdocs.com/signature/java/) – Hemen test etmeye başlayın  
 
-**Support and Community:**  
+**Destek ve topluluk:**  
 - [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) – Topluluk tartışmaları ve destek  
 
 ---
 
-**Son Güncelleme:** 2026-05-11  
-**Tested With:** GroupDocs.Signature 23.12 for Java  
-**Author:** GroupDocs
+**Son Güncelleme:** 2026-08-19  
+**Test Edilen Versiyon:** GroupDocs.Signature 23.12 for Java  
+**Yazar:** GroupDocs  
 
 ```xml
 <version>24.1</version>  <!-- Update to newer version -->
@@ -686,7 +685,7 @@ loadOptions.setPassword("your-password");
 Signature signature = new Signature("protected.pdf", loadOptions);
 ```
 
-## İlgili Eğitimler
+## İlgili öğreticiler
 
 - [Add QR Code to PDF Java - Complete Guide with GroupDocs.Signature](/signature/java/qr-code-signatures/qr-code-signatures-java-groupdocs/)
 - [Java Text Signature Search - A Complete Guide to Document Verification with GroupDocs.Signature](/signature/java/search-verification/java-text-signature-search-groupdocs-signature/)

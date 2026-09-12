@@ -1,24 +1,30 @@
 ---
 categories:
 - Java Document Processing
-date: '2026-05-11'
-description: Learn how to check file extension java and validate document formats
-  using GroupDocs.Signature. Complete guide with code examples, troubleshooting tips,
-  and best practices for document type checking.
+date: '2026-08-19'
+description: Java file extension ellenőrzési útmutató, amely bemutatja, hogyan lehet
+  detect file format java, validate file type java, és verify file content a GroupDocs.Signature
+  használatával. Tartalmaz code snippets, troubleshooting tips és best practices.
 keywords:
-- check file extension java
-- validate document type java
-- java upload file validation
-- how to detect file format java
-lastmod: '2025-01-02'
-linktitle: Java File Format Detection Guide
+- java check file extension
+- detect file format java
+- java verify file content
+- how to validate file type java
+- java file format validation
+lastmod: '2026-08-19'
+linktitle: Java File Format Detection útmutató
+og_description: Java file extension ellenőrzési útmutató bemutatja, hogyan lehet detect
+  file format java, validate file type java, és verify file content a GroupDocs.Signature
+  segítségével. Tanulja meg a best practices-t és szerezze meg a ready-to-use code-ot.
+og_image_alt: Guide to detecting and validating file formats in Java using GroupDocs.Signature
+og_title: Java file extension ellenőrzése – dokumentumtípusok felismerése és érvényesítése
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-11'
+  dateModified: '2026-08-19'
   description: Learn how to check file extension java and validate document formats
     using GroupDocs.Signature. Complete guide with code examples, troubleshooting
     tips, and best practices for document type checking.
-  headline: Java File Format Detection - Validate and Check Document Types
+  headline: Java file format detection – validate and check document types
   type: TechArticle
 - questions:
   - answer: Change the `<version>` tag in your `pom.xml` to the desired version, then
@@ -50,58 +56,60 @@ tags:
 - java-libraries
 - document-management
 - format-detection
-title: Java File Format Detection - Validate and Check Document Types
+- java check file extension
+title: Java file extension ellenőrzése – dokumentumtípusok felismerése és érvényesítése
 type: docs
 url: /hu/java/advanced-options/groupdocs-signature-java-file-format-support/
 weight: 1
 ---
 
-# fájl kiterjesztés ellenőrzése java – Java fájlformátum felismerés: Dokumentumtípusok érvényesítése és ellenőrzése
+# java fájlkiterjesztés ellenőrzése – dokumentumtípusok felismerése és érvényesítése
 
-Az egyik leggyakoribb feladat a **check file extension java** ellenőrzése a dokumentum feldolgozása előtt.  
+Az egyik leggyakoribb feladat, hogy **java check file extension** a dokumentum feldolgozása előtt.  
 
-Feltöltöttél már egy fájlt, és az alkalmazásod összeomlott, mert nem a várt formátum volt? Nem vagy egyedül. A fájlformátumok felismerése és validálása Java-ban elengedhetetlen a robusztus dokumentumfeldolgozó alkalmazások építéséhez – de trükkösebb, mint a puszta kiterjesztés ellenőrzése (amely könnyen hamisítható vagy helytelen).
+Feltöltöttél már egy fájlt, csak hogy az alkalmazásod összeomlott, mert nem a várt formátum volt? Nem vagy egyedül. A fájlformátumok felismerése és érvényesítése Java-ban elengedhetetlen a robusztus dokumentumfeldolgozó alkalmazások építéséhez – de bonyolultabb, mint a fájlkiterjesztések ellenőrzése (amelyek könnyen hamisíthatók vagy helytelenek).
 
-Ebben az útmutatóban megtanulod, hogyan lehet megbízhatóan felismerni a fájlformátumokat Java-ban a GroupDocs.Signature segítségével, egy olyan erőteljes könyvtárral, amely túlmutat az egyszerű kiterjesztés ellenőrzésen. Akár dokumentumkezelő rendszert építesz, felhasználói feltöltéseket validálsz, vagy felhő tároló szolgáltatásokkal integrálsz, gyakorlati technikákat ismerhetsz meg a különféle dokumentumtípusok magabiztos kezeléséhez.
+Ebben az útmutatóban megtanulod, hogyan lehet megbízhatóan felismerni a fájlformátumokat Java-ban a GroupDocs.Signature használatával, egy olyan erőteljes könyvtárral, amely túlmutat az egyszerű kiterjesztés-ellenőrzésen. Akár dokumentumkezelő rendszert építesz, felhasználói feltöltéseket validálsz, vagy felhőalapú tárolási szolgáltatásokkal integrálsz, gyakorlati technikákat fedezhetsz fel a különféle dokumentumtípusok magabiztos kezeléséhez.
 
-**Amit megtanulsz:**
+**Mit fogsz megtanulni:**
 - Hogyan lehet programozottan lekérni a Java-ban támogatott fájlformátumokat
-- Mikor érdemes könyvtár‑alapú felismerést használni a beépített Java megoldások helyett
-- Gyakori buktatók a fájltípusok validálásakor (és hogyan kerüld el őket)
-- Valós integrációs forgatókönyvek és teljesítmény‑optimalizálási tippek
-- Hibaelhárítási stratégiák formátum felismerési problémákra
+- Mikor érdemes könyvtár‑alapú felismerést használni a beépített Java megközelítések helyett
+- Gyakori buktatók a fájltípusok validálásakor (és hogyan kerülhetők el)
+- Valós integrációs forgatókönyvek és teljesítményoptimalizálási tippek
+- Formátumfelismerési problémák hibaelhárítási stratégiái
 
-A végére egy működő implementációt kapsz, amelyet azonnal beilleszthetsz a Java‑alkalmazásaidba. Kezdjünk azzal, hogy megbizonyosodunk róla, minden szükséges eszköz a rendelkezésedre áll.
+A végére egy működő megvalósítást kapsz, amelyet azonnal beilleszthetsz a Java‑alkalmazásaidba. Kezdjünk azzal, hogy megbizonyosodunk róla, minden szükséges dolog megvan.
 
 ## Gyors válaszok
-- **Mi a leggyorsabb módja a check file extension java ellenőrzésének?** Használd a `Signature.getSupportedFileTypes()` metódust a teljes lista lekéréséhez, majd hasonlítsd össze a fájl kiterjesztését a listával.
-- **Szükségem van licencre a GroupDocs.Signature használatához?** Egy ingyenes próba elegendő fejlesztéshez; egy állandó licenc eltávolítja az összes értékelési korlátot.
-- **Validálhatom a feltöltéseket anélkül, hogy az egész fájlt beolvasnám?** Igen – a GroupDocs.Signature a fájl fejlécét vizsgálja, ami jóval olcsóbb, mint a teljes dokumentum betöltése.
+- **Mi a leggyorsabb módja a java check file extension‑nek?** Használd a `Signature.getSupportedFileTypes()` metódust a teljes lista lekéréséhez, majd hasonlítsd össze a fájl kiterjesztését a listával.
+- **Szükségem van licencre a GroupDocs.Signature használatához?** Egy ingyenes próba verzió elegendő fejlesztéshez; egy állandó licenc eltávolítja az összes értékelési korlátot.
+- **Validálhatom a feltöltéseket anélkül, hogy a teljes fájlt beolvasnám?** Igen – a GroupDocs.Signature a fájl fejlécre néz, ami jóval olcsóbb, mint a teljes dokumentum betöltése.
 - **Hány formátumot támogat a GroupDocs.Signature?** Több mint 50 bemeneti és kimeneti formátum, köztük PDF, DOCX, XLSX, PPTX, JPG, PNG és még sok más.
-- **Szükséges a formátumlista cache‑elése?** A cache‑elés megszünteti az ismétlődő reflexiós terhelést és javítja a nagy‑forgalmú szolgáltatások áteresztőképességét.
+- **Szükséges-e a formátumlista gyorsítótárazása?** A gyorsítótárazás megszünteti az ismétlődő reflexiós terhelést és javítja a nagy mennyiségű szolgáltatások áteresztőképességét.
+
+## Mi az a java check file extension?
+A `java check file extension` a folyamatot jelenti, amikor egy fájl valódi típusát a fejlécek és metaadatok alapján ellenőrizzük, nem csak a fájlnév utótagjára hagyatkozva. Ez biztosítja, hogy a rosszul átnevezett fájlok időben el legyenek kapva, megakadályozza a hamisított kiterjesztések által okozott biztonsági rések kialakulását, és garantálja, hogy csak a támogatott dokumentumtípusok kerüljenek feldolgozásra az alkalmazásban.
 
 ## Előfeltételek
 
-Mielőtt a fájlformátum felismerésbe merülnél, győződj meg róla, hogy a következő alapok rendben vannak:
+Mielőtt a fájlformátum‑felismerésbe merülnél, győződj meg arról, hogy a következő alapok rendelkezésre állnak:
 
 ### Szükséges könyvtárak és verziók
-- **GroupDocs.Signature Library**: 23.12 vagy újabb verzió (a legfrissebb stabil kiadást használjuk)
-- **Java Development Kit**: JDK 1.8 vagy újabb (JDK 11+ ajánlott a jobb teljesítményért)
-- **Build Tool**: Maven 3.x vagy Gradle 6.x a függőségkezeléshez
+- **GroupDocs.Signature Library**: 23.12 vagy újabb verzió (a legújabb stabil kiadást használjuk)
+- **Java Development Kit**: JDK 1.8 vagy újabb (JDK 11+ ajánlott a jobb teljesítményért)
+- **Build tool**: Maven 3.x vagy Gradle 6.x a függőségkezeléshez
 
 ### Környezet beállítási követelmények
-Jól kell tudnod:
-- Alap Java programozási koncepciók (osztályok, ciklusok, importok)
-- Maven vagy Gradle használata a függőségek kezelésére
+Legyen kényelmes számodra:
+- Alapvető Java programozási koncepciók (osztályok, ciklusok, importok)
+- Maven vagy Gradle használata a függőségek kezeléséhez
 - Java alkalmazások futtatása IDE‑ből vagy parancssorból
 
-**Gyors tipp:** Ha nagy dokumentumokkal dolgozol, vagy párhuzamosan szeretnél fájlokat feldolgozni, biztosíts elegendő heap memóriát a JVM‑nek (a későbbiekben részletes optimalizációt is bemutatunk).
+**Gyors tipp:** Ha nagy dokumentumokkal dolgozol, vagy párhuzamosan szeretnél fájlokat feldolgozni, biztosíts elegendő heap memóriát a JVM‑nek (a későbbiekben részletezzük a optimalizálást).
 
-A környezet készen áll? Akkor lépjünk tovább a GroupDocs.Signature projektbe való integrálásra.
+## GroupDocs.Signature beállítása Java‑hoz
 
-## A GroupDocs.Signature beállítása Java-hoz
-
-A GroupDocs.Signature projektbe való felvétele egyszerű – válaszd ki a kedvenc build eszközödet, és kövesd az alábbi lépéseket.
+A GroupDocs.Signature projektedbe való beillesztése egyszerű – válaszd ki a kedvenc build eszközödet és kövesd az alábbiakat.
 
 ### Maven használata
 
@@ -127,25 +135,24 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 
 Ezután szinkronizáld a Gradle projektet vagy futtasd a `gradle build` parancsot.
 
-### Közvetlen letöltési alternatíva
+### Közvetlen letöltés alternatíva
 
-Nem használsz build eszközt? Letöltheted a JAR‑t közvetlenül a [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) oldalról, és manuálisan hozzáadhatod a classpath‑hoz. (Bár őszintén, a Maven vagy Gradle használata sok fejfájást megspórol a későbbiekben.)
+Nem használsz build eszközt? Letöltheted a JAR‑t közvetlenül a [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) oldalról, és manuálisan hozzáadhatod a classpath‑hoz. (Bár a Maven vagy Gradle hosszú távon sokkal kevesebb fejfájást okoz.)
 
 ### Licenc beszerzési lépések
 
 A GroupDocs.Signature rugalmas licencelési lehetőségeket kínál:
 
-- **Ingyenes próba**: Tökéletes a teszteléshez – kezdj el azonnal [kártya nélkül](https://releases.groupdocs.com/signature/java/)
+- **Ingyenes próba**: Tökéletes a teszteléshez – kezdj el azonnal [kártya nélkül is](https://releases.groupdocs.com/signature/java/)
 - **Ideiglenes licenc**: Több időre van szükséged a kiértékeléshez? Kérj 30‑napos ideiglenes licencet korlátlan hozzáféréssel
-- **Vásárlás**: Amikor már éles környezetben használod, szerezd be az állandó licencet a [GroupDocs Purchase Page](https://purchase.groupdocs.com/buy) oldalon
+- **Vásárlás**: Amikor már éles környezetben használod, szerezz állandó licencet a [GroupDocs Purchase Page](https://purchase.groupdocs.com/buy) oldalon
 
 **Pro tipp:** Kezdd az ingyenes próbával, hogy felfedezd az összes funkciót. Az ideiglenes licenc eltávolítja a vízjeleket és a korlátozásokat, ha hosszabb kiértékelési időre van szükséged.
 
-### Alapvető inicializálás és beállítás
+## Mi a Signature osztály?
+A `Signature` a GroupDocs.Signature minden műveletének központi belépési pontja. Összevonja a dokumentum betöltését, a formátumkezelést és az aláírási folyamatot. Az osztály metódusai lehetővé teszik dokumentumok megnyitását, a támogatott formátumok lekérdezését, valamint aláírások alkalmazását vagy ellenőrzését számos fájltípuson.
 
-A `Signature` a GroupDocs.Signature minden műveletének központi belépési pontja. Dokumentum betöltést, formátumkezelést és aláírási folyamatot is magába foglal.
-
-Íme, hogyan inicializálhatod a GroupDocs.Signature‑t a Java alkalmazásodban:
+Így inicializálhatod a GroupDocs.Signature‑t a Java alkalmazásodban:
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -154,37 +161,33 @@ import com.groupdocs.signature.Signature;
 Signature signature = new Signature("sample.pdf");
 ```
 
-Ez létrehozza a signature objektumot a megadott dokumentumhoz. Ezt a mintát használni fogod a tényleges dokumentumokkal, de a támogatott formátumok lekéréséhez nem lesz szükség konkrét fájlra (a következő szekcióban megmutatjuk).
-
-Most, hogy a beállítás kész, lépjünk tovább a fő funkció megvalósítására – a támogatott fájlformátumok felismerésére és lekérésére.
+Ez létrehoz egy aláírás‑objektumot a megadott dokumentumhoz. Ezt a mintát használod a tényleges dokumentumokkal, de a támogatott formátumok lekérdezéséhez nincs szükség konkrét fájlra (a következő szakaszban megmutatjuk).
 
 ## Implementációs útmutató
 
-Itt válik gyakorlattá a dolog. Egy egyszerű segédeszközt építünk, amely lekéri az összes támogatott fájlformátumot – mintha egy „kompatibilitás‑ellenőrzőt” hoznál létre a dokumentumfeldolgozó csővezetékedhez.
+Itt válik a dolog gyakorlattá. Egy egyszerű segédeszközt építünk, amely lekéri az összes támogatott fájlformátumot – mintegy „kompatibilitás‑ellenőrzőt” a dokumentumfeldolgozó csővezetékedhez.
 
-### Miért fontos ez
+### Miért fontos
 
-Mielőtt elkezdenél dokumentumfeldolgozó funkciókat implementálni, tudnod kell, milyen fájltípusokat támogat a könyvtár. Ez az implementáció dinamikusan adja meg ezt az információt, ami azt jelenti, hogy:
-- Nem kell kézzel karbantartani elavult kiterjesztéslistákat
+Mielőtt időt fektetnél a dokumentumfeldolgozó funkciókba, tudnod kell, milyen fájltípusokat támogat a könyvtár. Ez a megvalósítás dinamikusan adja meg ezt az információt, ami azt jelenti, hogy:
+- Nincsenek hard‑kódolt kiterjesztéslisták, amelyek elavulhatnak
 - Egyszerűen validálhatod a felhasználói feltöltéseket a támogatott formátumok ellen
-- Gyors referencia áll rendelkezésre a UI‑ban használandó fájltípus‑szűrők építéséhez
+- Gyors referencia áll rendelkezésre a fájltípus‑szűrők UI‑ban történő felépítéséhez
 
-### Lépésről lépésre implementáció
+### Lépés‑ről‑lépésre megvalósítás
 
 **1. Szükséges osztályok importálása**
 
-A `FileType` a formátum felismerés kapuja – minden támogatott dokumentumtípus metaadatait tartalmazza.
+A `FileType` a formátum‑felismerés kapuja – tartalmazza a támogatott dokumentumtípusok összes metaadatait. A `Signature.getSupportedFileTypes()` metódus egy `FileType` objektumok gyűjteményét adja vissza, amely minden kezelhető formátumot reprezentál.
 
 ```java
 import com.groupdocs.signature.domain.documentpreview.FileType;
 import java.util.List;
 ```
 
-A `FileType` osztály a GroupDocs.Signature leírója minden egyes támogatott formátumra, és elérhetővé teszi például a kiterjesztést, MIME‑típust és leírást.
+**2. A lekérdező osztály létrehozása**
 
-**2. A lekérő osztály létrehozása**
-
-Íme a teljes megvalósítás:
+A teljes megvalósítás:
 
 ```java
 public class GetSupportedFileFormats {
@@ -200,14 +203,14 @@ public class GetSupportedFileFormats {
 }
 ```
 
-**Mi történik itt:**
-- `getSupportedFileTypes()`: Ez a statikus metódus lekérdezi a könyvtár belső regisztrációját, és `FileType` objektumok listáját adja vissza
-- A ciklus minden formátumot bejár, és kiírja a kiterjesztését (pl. `.pdf`, `.docx`, `.xlsx`)
-- Minden `FileType` objektum további metaadatokat is tartalmaz, amelyeket később is felhasználhatsz (az alábbiakban részletezzük)
+**Mi történik itt:**  
+- A `Signature.getSupportedFileTypes()` lekérdezi a könyvtár belső regisztrációját, és visszaad egy teljes listát a támogatott formátumokról `FileType` objektumokként.  
+- A ciklus minden formátumon végigmegy, és kiírja a kiterjesztését (pl. `.pdf`, `.docx`, `.xlsx`).  
+- Minden `FileType` objektum további metaadatokat is tartalmaz, amelyeket később felhasználhatunk (lásd alább).
 
-### Az alap kiterjesztéseken túl
+### Alapvető kiterjesztéseken túl
 
-A `FileType` objektum több információt is nyújt, mint csak a kiterjesztés. Íme, mit kérdezhetsz le még:
+A `FileType` objektum több információt is nyújt, nem csak a kiterjesztést. Itt van, mit kérhetsz le még:
 
 ```java
 for (FileType fileType : supportedFileTypes) {
@@ -219,47 +222,63 @@ for (FileType fileType : supportedFileTypes) {
 
 Ez akkor hasznos, ha felhasználóbarát formátumnév megjelenítésére vagy a formátumok típusonkénti csoportosítására (dokumentumok vs. táblázatok vs. képek) van szükség.
 
-## Mikor használjuk ezt a megközelítést
+## Hogyan java check file extension?
 
-Nem minden helyzet igényli a könyvtár‑alapú megoldást. Íme, mikor ragyog a GroupDocs.Signature formátum felismerése:
+Töltsd be a fájl nevét, vedd ki a végződését, és hasonlítsd össze a `Signature.getSupportedFileTypes()` által visszaadott gyorsítótárazott listával. Ez a kétlépéses megközelítés garantálja, hogy egy naprakész katalógus ellen ellenőrzöd, nem pedig egy hard‑kódolt tömböt. Emellett megakadályozza a hamisított kiterjesztéseket, mivel a GroupDocs.Signature a fájl fejlécre támaszkodik, mielőtt bármilyen további feldolgozást végezne, biztosítva, hogy a tartalom valóban a feltételezett típusnak felel meg.
+
+## Mi a GroupDocs.Signature?
+A GroupDocs.Signature egy Java könyvtár, amely lehetővé teszi a fejlesztők számára digitális aláírások hozzáadását, ellenőrzését és kezelését több mint 50 dokumentumformátumban. Egységes API‑t biztosít PDF, Office, képek és sok más típushoz, kezelve összetett validációs forgatókönyveket, például titkosított fájlokat, jelszóval védett dokumentumokat és többoldalas aláírásokat. A könyvtár tartalom‑alapú formátumfelismerést is kínál, amely segít megelőzni a rosszul átnevezett fájlok feldolgozását.
+
+## Miért használjunk könyvtár‑alapú felismerést a Java beépített módszerei helyett?
+
+A könyvtár‑alapú felismerés a tényleges fájlfejlécet és a belső struktúrát vizsgálja, biztosítva, hogy a tartalom valóban a feltételezett formátumnak feleljen meg. A beépített módszerek, mint a `Files.probeContentType` vagy az egyszerű karakterlánc‑végződés‑ellenőrzés könnyen megtéveszthetők, ha például egy rosszindulatú .exe fájlt .pdf‑re neveznek át. A GroupDocs.Signature ezt a kockázatot kiküszöböli, mély tartalomelemzést végez, mielőtt bármilyen további feldolgozásra sor kerülne, így magasabb biztonsági garanciát nyújt az alkalmazásodnak.
+
+## Mikor érdemes gyorsítótárazni a támogatott fájlformátumokat?
+
+A formátumlistát cache‑eld az alkalmazás indításakor vagy az első használatkor, majd használd újra a JVM teljes élettartama alatt. A gyorsítótárazás különösen előnyös nagy forgalmú webszolgáltatásoknál, ahol minden kérés egyébként reflexiós‑nehezített könyvtár‑inicializációt indítana, ami több milliszekundumos késleltetést jelent. A lista egyszeri tárolásával csökkented a CPU‑terhelést és javítod a válaszidőket.
+
+## Hogyan kezeljük a nem támogatott fájlformátumokat Java‑ban?
+
+Észleld a nem támogatott formátumot korán, naplózd a kísérletet audit célokra, és adj egyértelmű hibajelzést a felhasználónak, amely felsorolja a megengedett kiterjesztéseket. Ez a megközelítés javítja a felhasználói élményt és csökkenti a felesleges feldolgozási terhelést a backend‑en, miközben a biztonsági csapatnak láthatóságot biztosít a lehetséges visszaélési kísérletekről.
+
+## Mikor használjuk ezt a megközelítést
 
 ### Ideális felhasználási esetek
 
-**1. Dokumentum feltöltés validátorok építése**  
-Amikor a felhasználók fájlokat töltenek fel, szerveroldali validációra van szükség (soha ne bízz csak a kliens‑oldali ellenőrzésben). Ez a megközelítés lehetővé teszi, hogy a támogatott formátumok teljes listájával ellenőrizd a fájlt, mielőtt feldolgoznád.
+**1. Dokumentum‑feltöltés validátorok építése**  
+Amikor a felhasználók fájlokat töltenek fel az alkalmazásba, szerver‑oldalon kell validálni a formátumot (soha ne bízz csak a kliens‑oldali ellenőrzésben). Ez a megközelítés lehetővé teszi, hogy a támogatott formátumok teljes listájával ellenőrizd a fájlokat, mielőtt feldolgoznád őket.
 
 **2. Dinamikus fájltípus‑szűrők létrehozása**  
-Fájlválasztó vagy feltöltő felület építése? Generáld a megengedett formátumok listáját dinamikusan ahelyett, hogy egy statikus tömböt tartanál karban, amely elavulhat.
+Fájlválasztó vagy feltöltő felületet építesz? Generáld a megengedett formátumok listáját dinamikusan, ahelyett, hogy egy statikus tömböt tartanál karban, amely könnyen elavulhat a könyvtár képességeihez képest.
 
-**3. Több‑formátumú dokumentumfeldolgozó csővezetékek**  
-Ha különböző forrásokból (email mellékletek, felhő tárolók, felhasználói feltöltések) érkező dokumentumokat dolgozol fel, megbízható formátum felismerésre van szükség a fájlok megfelelő kezelőkhöz irányításához.
+**3. Többformátumú dokumentumfeldolgozó csővezetékek**  
+Ha különböző forrásokból (e‑mail mellékletek, felhőtárolók, felhasználói feltöltések) érkező dokumentumokat dolgozol fel, megbízható formátumfelismerésre van szükség a fájlok megfelelő kezelőkhöz irányításához.
 
-**4. Integráció felhő tároló szolgáltatásokkal**  
-AWS S3, Google Drive vagy Azure Blob szinkronizálásakor ellenőrizd a dokumentum kompatibilitását a letöltés és feldolgozás előtt – ez sávszélességet és feldolgozási időt takarít meg.
+**4. Integráció felhőalapú tárolási szolgáltatásokkal**  
+AWS S3, Google Drive vagy Azure Blob Storage szinkronizálásakor ellenőrizd a dokumentum kompatibilitását a letöltés és feldolgozás előtt – ez sávszélességet és feldolgozási időt takarít meg.
 
 ### Mikor elegendő a beépített Java
 
-Egyszerűbb esetekben a Java beépített megoldásai is megfelelhetnek:
-- **Csak kiterjesztés ellenőrzése**: `file.getName().endsWith(".pdf")`
+Egyszerűbb esetekben a Java beépített megközelítései is elegendőek lehetnek:
+- **Csak fájlkiterjesztés ellenőrzése**: `file.getName().endsWith(".pdf")`
 - **MIME‑típus felismerés**: `Files.probeContentType(path)`
-- **Alap validáció**: Ha a feltöltési forrást te irányítod, és megbízol a kiterjesztésben
+- **Alapvető validálás**: Ha te irányítod a feltöltési forrást és megbízol a kiterjesztésekben
 
-**Fontos megjegyzés:** A beépített módszerek könnyen megtéveszthetők. Egy `malicious.exe` fájl átnevezése `document.pdf`‑re átmegy a kiterjesztés ellenőrzésen, de a megfelelő validáció el fogja vetni. A GroupDocs.Signature mélyebb vizsgálatot végez.
+**Fontos megjegyzés:** A beépített módszerek megtéveszthetők. Egy `malicious.exe` fájl `.pdf`‑re átnevezése átmegy a kiterjesztés‑ellenőrzésen, de nem fog átmenni a megfelelő validáláson. A GroupDocs.Signature mélyebb vizsgálatot végez.
 
 ## Gyakori problémák és hibaelhárítás
 
-Az alábbiakban a leggyakoribb akadályokat és gyors megoldásaikat mutatjuk be.
-
 ### Probléma 1: Üres vagy null lista visszatér
 
-**Tünet:** A `getSupportedFileTypes()` üres listát vagy null‑t ad vissza.
+**Tünet:** A `Signature.getSupportedFileTypes()` üres listát vagy null‑t ad vissza.
 
-**Okok és megoldások:**
-- **Könyvtár nincs megfelelően inicializálva**: Ellenőrizd, hogy a Maven/Gradle függőség helyesen fel van-e véve és szinkronizálva
-- **Verzió kompatibilitás**: Győződj meg róla, hogy 23.12 vagy újabb verziót használsz (korábbi verziók más API‑t tartalmazhatnak)
-- **Classpath problémák**: Ha manuális JAR‑okat használsz, ellenőrizd, hogy valóban a classpath‑ban vannak
+**Okok és megoldások:**  
+- **A könyvtár nincs megfelelően inicializálva** – ellenőrizd, hogy a Maven/Gradle függőség helyesen hozzá lett-e adva és szinkronizálva.  
+- **Verzió‑kompatibilitás** – győződj meg róla, hogy a 23.12 vagy újabb verziót használod (korábbi verziók más API‑t tartalmazhatnak).  
+- **Classpath problémák** – ha manuális JAR‑okat használsz, ellenőrizd, hogy megfelelően fel vannak-e véve a classpath‑ba.
 
 **Gyors javítás:**
+
 ```java
 List<FileType> formats = FileType.getSupportedFileTypes();
 if (formats == null || formats.isEmpty()) {
@@ -270,14 +289,15 @@ if (formats == null || formats.isEmpty()) {
 
 ### Probléma 2: Hiányzó várt formátum
 
-**Tünet:** Egy általad várt formátum nem szerepel a támogatott listában.
+**Tünet:** Egy olyan formátum, amelyet elvárnál, nincs a támogatott listában.
 
-**Lehetséges okok:**
-- Olyan speciális formátumot használsz, amelyhez külön plug‑in szükséges (néhány CAD vagy orvosi képformátum külön modulokat igényel)
-- A formátum egy újabb verzióban került bevezetésre – nézd meg a kiadási jegyzeteket
-- A formátum olvasásra támogatott, de az aláírási műveletekhez nem (a GroupDocs.Signature elsősorban aláírások hozzáadására fókuszál)
+**Lehetséges okok:**  
+- Speciális formátumot használsz, amelyhez külön plug‑inek szükségesek (néhány CAD vagy orvosi képformátum külön modulokat igényel).  
+- A formátum egy újabb verzióban került hozzáadásra – ellenőrizd a kiadási megjegyzéseket.  
+- A formátum olvasásra támogatott, de aláírási műveletekre nem (a GroupDocs.Signature elsősorban aláírások hozzáadására szolgál; nem minden művelet támogat minden formátumot egyformán).
 
-**Hibakeresési lépés:**
+**Hibakeresési megközelítés:**
+
 ```java
 // Check for specific format
 boolean hasPDF = supportedFileTypes.stream()
@@ -287,9 +307,9 @@ System.out.println("PDF supported: " + hasPDF);
 
 ### Probléma 3: Teljesítménycsökkenés nagy formátumlistákkal
 
-**Tünet:** A `getSupportedFileTypes()` ismételt hívása lelassítja az alkalmazást.
+**Tünet:** A `Signature.getSupportedFileTypes()` ismételt hívása lelassítja az alkalmazást.
 
-**Megoldás:** Cache‑eld az eredményt! Ez a lista futásidőben nem változik:
+**Megoldás:** Cache‑eld az eredményt! Ez a lista a futásidő alatt nem változik:
 
 ```java
 public class FormatCache {
@@ -304,16 +324,14 @@ public class FormatCache {
 }
 ```
 
-Ez a minta biztosítja, hogy csak egyszer kérdezd le a könyvtárat az alkalmazás életciklusa alatt.
-
-### Probléma 4: Licenchez kapcsolódó korlátozások
+### Probléma 4: Licenc‑kapcsolódó korlátozások
 
 **Tünet:** Értékelési figyelmeztetések vagy korlátozott formátumtámogatás jelenik meg.
 
-**Megoldás:** 
-- Alkalmazd a licencet a GroupDocs metódusok bármelyik hívása előtt
-- Ellenőrizd, hogy a licencfájl útvonala helyes‑e
-- Nézd meg a licenc lejárati dátumát, ha időkorlátos licencet használsz
+**Megoldás:**  
+- Alkalmazd a licencet a GroupDocs metódusok bármelyikének meghívása előtt.  
+- Ellenőrizd, hogy a licencfájl útvonala helyes‑e.  
+- Nézd meg a licenc lejárati dátumát, ha időkorlátos licencet használsz.
 
 ```java
 try {
@@ -324,13 +342,11 @@ try {
 }
 ```
 
-## Legjobb gyakorlatok fájlformátum felismeréshez
+## Legjobb gyakorlatok a fájlformátum‑felismeréshez
 
-Kövesd ezeket az irányelveket, hogy robusztus és karbantartható formátum felismerést építs be az alkalmazásaidba.
+### 1. Validálj korán, hibázz gyorsan
 
-### 1. Ellenőrzés korán, gyors hiba
-
-A fájlformátumot már a feldolgozási csővezeték elején ellenőrizd:
+Ellenőrizd a fájlformátumokat a feldolgozási csővezeték lehető legkorábbi szakaszában:
 
 ```java
 public boolean validateFileFormat(String filePath) {
@@ -349,11 +365,9 @@ public boolean validateFileFormat(String filePath) {
 }
 ```
 
-Ez megakadályozza a felesleges erőforrás‑pazarlást a nem támogatott formátumok esetén.
+### 2. Adj egyértelmű felhasználói visszajelzést
 
-### 2. Egyértelmű felhasználói visszajelzés
-
-Amikor elutasítasz egy fájlt, pontosan tájékoztasd a felhasználót, hogy mely formátumok **támogatottak**:
+Ha elutasítasz fájlokat, pontosan tájékoztasd a felhasználót, mely formátumok **támogatottak**:
 
 ```java
 public String getSupportedFormatsMessage() {
@@ -366,9 +380,9 @@ public String getSupportedFormatsMessage() {
 }
 ```
 
-### 3. Ne bízz csak a fájl kiterjesztésben
+### 3. Ne bízz kizárólag a kiterjesztésben
 
-Egy `.exe` fájl átnevezése `.pdf`‑re még mindig `.pdf`‑nek tűnik, de nem lesz érvényes PDF. A GroupDocs.Signature a tényleges tartalmat ellenőrzi, de érdemes kombinálni a megközelítéseket:
+Egy `.exe` fájl `.pdf`‑re átnevezése `.pdf` kiterjesztést kap, de nem lesz érvényes PDF. A GroupDocs.Signature a tényleges tartalmat ellenőrzi, nem csak a kiterjesztést – de érdemes kombinálni a megközelítéseket:
 
 ```java
 // First check extension (fast)
@@ -385,9 +399,9 @@ try (Signature signature = new Signature(file)) {
 }
 ```
 
-### 4. Kivételek kezelése elegánsan
+### 4. Kezeld a kivételeket elegánsan
 
-A fájlvalidáció sokféle okból meghiúsulhat:
+A fájlvalidálás sokféle okból meghiúsulhat a nem támogatott formátumokon túl:
 
 ```java
 public ValidationResult validateDocument(String path) {
@@ -404,14 +418,14 @@ public ValidationResult validateDocument(String path) {
 }
 ```
 
-### 5. Formátumtámogatás változásainak monitorozása
+### 5. Figyeld a formátumtámogatás változásait
 
-Amikor frissíted a GroupDocs.Signature könyvtárat, ellenőrizd a kiadási jegyzeteket a következőkre:
-- Új támogatott formátumok
-- Elavult formátumok
-- A formátum felismerés viselkedésének változásai
+Amikor frissíted a GroupDocs.Signature könyvtárat, ellenőrizd a kiadási megjegyzéseket a következőkért:
+- Új támogatott formátumok  
+- Elavult formátumtámogatás  
+- A formátumfelismerés viselkedésének változásai  
 
-Fontold meg olyan egységtesztek hozzáadását, amelyek ellenőrzik, hogy a várt formátumok támogatottak:
+Érdemes unit‑teszteket hozzáadni, amelyek ellenőrzik, hogy a várt formátumok támogatottak‑e:
 
 ```java
 @Test
@@ -428,13 +442,13 @@ public void testEssentialFormatsSupported() {
 }
 ```
 
-## Teljesítmény szempontok
+## Teljesítménybeli szempontok
 
-A fájlformátum felismerés optimalizálása apró részletnek tűnhet, de fontos, ha több ezer dokumentumot vagy párhuzamos feltöltéseket kell kezelni.
+A fájlformátum‑felismerés optimalizálása apróságnak tűnhet, de fontos, ha több ezer dokumentumot vagy párhuzamos feltöltéseket kell kezelni.
 
 ### Memóriakezelés
 
-**Cache‑elési stratégia:** Ahogy már említettük, cache‑eld a támogatott formátumok listáját:
+**Gyorsítótárazási stratégia:** Ahogy korábban említettük, cache‑eld a támogatott formátumok listáját:
 
 ```java
 // Good: Load once, reuse many times
@@ -448,14 +462,14 @@ public boolean isSupported(String ext) {
 }
 ```
 
-**Miért fontos:** A formátumlista betöltése reflexiót és belső könyvtár‑inicializálást igényel. Egyszeri betöltés jelentősen csökkenti a CPU‑ciklusokat és a memória‑allokációt.
+**Miért fontos:** A formátumlista betöltése reflexiót és a könyvtár belső inicializációját vonja maga után. Egyszeri betöltéssel CPU‑ciklusok és memóriafoglalások spórolhatók.
 
-### Erőforrás használati irányelvek
+### Erőforrás‑használati irányelvek
 
-**Nagy‑forgalmú esetekben:**
-- Használj szál‑biztos cache‑t a formátumlistákhoz (a fenti példa szál‑biztos, mivel immutábilis)
-- Fontold meg a lusta inicializálást, ha az alkalmazásod nem mindig igényli a formátum felismerést
-- Dokumentumok feldolgozásakor zárd le a `Signature` objektumokat gyorsan, hogy felszabaduljanak az erőforrások
+**Nagy mennyiségű forgatókönyvekhez:**  
+- Használj szál‑biztos cache‑t a formátumlistákhoz (a fenti példa szál‑biztos, mivel immutábilis).  
+- Fontold meg a lusta inicializálást, ha az alkalmazásod nem mindig igényli a formátumfelismerést.  
+- Dokumentumok feldolgozásakor zárd le a `Signature` objektumokat időben, hogy felszabaduljanak az erőforrások.
 
 ```java
 try (Signature signature = new Signature(filePath)) {
@@ -465,7 +479,7 @@ try (Signature signature = new Signature(filePath)) {
 
 ### Kötetes feldolgozás optimalizálása
 
-Ha egyszerre több fájlt validálsz, gondold át a párhuzamosítást:
+Ha több fájlt validálsz egyszerre, fontold meg a párhuzamosítást:
 
 ```java
 List<String> files = Arrays.asList("doc1.pdf", "doc2.docx", "doc3.xlsx");
@@ -479,24 +493,25 @@ files.parallelStream()
     });
 ```
 
-**Figyelmeztetés:** Ne párhuzamosíts túl sokat. Ha I/O‑korlátos vagy (lemezről olvasás), a túl sok szál nem segít. Teszteld, hogy megtaláld az optimális szál‑számot.
+**Figyelmeztetés:** Ne párhuzamosíts túl sokat. Ha I/O‑központú (lemezről olvasol), a túl sok szál nem segít. Teszteld, hogy megtaláld az optimális szál‑számot.
 
-### JVM hangolási tippek
+### JVM‑hangolási tippek
 
-Nagy dokumentummennyiséggel dolgozó alkalmazásokhoz:
-- Növeld a heap méretét: `-Xmx2g` (állítsd be a szükségleteid szerint)
-- Figyeld a garbage collection‑t: `-XX:+PrintGCDetails` a problémák azonosításához
-- Fontold meg a G1GC használatát a jobb szünetidőért: `-XX:+UseG1GC`
+Dokumentum‑intenzív alkalmazásokhoz:  
+- Növeld a heap méretét: `-Xmx2g` (állítsd be a szükségleteidnek megfelelően).  
+- Figyeld a garbage collection‑t: `-XX:+PrintGCDetails` a problémák azonosításához.  
+- Fontold meg a G1GC használatát a jobb szünetidőkért: `-XX:+UseG1GC`.
 
 ## Gyakorlati alkalmazások és integráció
 
-Nézzünk meg néhány valós forgatókönyvet, ahol a fájlformátum felismerés elengedhetetlen.
+Nézzünk meg valós forgatókönyveket, ahol a fájlformátum‑felismerés elengedhetetlen.
 
 ### 1. Dokumentumkezelő rendszerek
 
 **Forgatókönyv:** A felhasználók dokumentumokat töltenek fel, amelyeket indexelni, feldolgozni és tárolni kell.
 
 **Implementációs minta:**
+
 ```java
 public class DocumentUploadHandler {
     public void handleUpload(MultipartFile file) {
@@ -519,11 +534,11 @@ public class DocumentUploadHandler {
 }
 ```
 
-### 2. Felhő tároló integráció
+### 2. Felhőalapú tárolási integráció
 
-**Forgatókönyv:** Dokumentumok szinkronizálása AWS S3‑ról vagy Google Drive‑ról, és csak a támogatott formátumok feldolgozása.
+**Forgatókönyv:** Dokumentumok szinkronizálása AWS S3‑ról vagy Google Drive‑ról, és csak a támogatott formátumok feldolgozása.
 
-**Miért hasznos:** Elkerülheted a nem támogatott fájlok letöltését és feldolgozását, ezzel sávszélességet és CPU‑időt takarítva meg.
+**Miért hasznos:** Elkerülhető a nem támogatott fájlok letöltése és feldolgozása, ami sávszélességet és feldolgozási időt takarít meg.
 
 ```java
 public void syncFromS3(String bucketName) {
@@ -545,11 +560,11 @@ public void syncFromS3(String bucketName) {
 }
 ```
 
-### 3. Vállalati munkafolyamat automatizálás
+### 3. Vállalati munkafolyamat‑automatizálás
 
-**Forgatókönyv:** Dokumentumok útvonalának irányítása különböző feldolgozó csővezetékekhez a típusuk alapján.
+**Forgatókönyv:** Dokumentumok irányítása különböző feldolgozó csővezetékekbe típus szerint.
 
-**Példa:** PDF‑ek aláírási folyamatba, táblázatok adatkinyerésbe, képek OCR‑ba kerülnek.
+**Példa:** PDF‑k aláírási folyamatba, táblázatok adatkinyerésbe, képek OCR‑feldolgozásba kerülnek.
 
 ```java
 public void routeDocument(String filePath) {
@@ -576,11 +591,12 @@ public void routeDocument(String filePath) {
 }
 ```
 
-### 4. Fájltípus választók építése
+### 4. Fájltípus‑választók építése
 
-**Forgatókönyv:** Dinamikus UI komponens létrehozása, amely a támogatott formátumok alapján korlátozza a felhasználói feltöltéseket.
+**Forgatókönyv:** Dinamikus formátumtámogatással rendelkező UI‑komponensek létrehozása.
 
 **Frontend integrációs példa:**
+
 ```java
 @RestController
 public class FormatController {
@@ -597,6 +613,7 @@ public class FormatController {
 ```
 
 A frontend ezután ezt használhatja a fájlfeltöltő komponensek konfigurálásához:
+
 ```javascript
 // Frontend code (for context, not part of Java implementation)
 fetch('/api/supported-formats')
@@ -606,65 +623,45 @@ fetch('/api/supported-formats')
     });
 ```
 
-## Hogyan ellenőrizze a fájl kiterjesztését java-ban?
-
-Töltsd be a fájl nevét, vedd ki a kiterjesztést, és hasonlítsd össze a `Signature.getSupportedFileTypes()` által visszaadott cache‑elt listával. Ez a kétlépéses megközelítés garantálja, hogy egy naprakész katalógus ellenőrzöd, nem egy hard‑coded tömböt. Emellett megakadályozza a hamisított kiterjesztéseket, mivel a GroupDocs.Signature a fájl fejlécét ellenőrzi, mielőtt további feldolgozásra kerülne.
-
-## Mi az a GroupDocs.Signature?
-
-A GroupDocs.Signature egy Java könyvtár, amely lehetővé teszi a fejlesztők számára digitális aláírások hozzáadását, ellenőrzését és kezelését több mint 50 dokumentumtípuson. Egységes API‑t biztosít PDF, Office, képek és sok más típushoz, kezelve összetett validációs helyzeteket, például titkosított fájlokat, jelszó‑védett dokumentumokat és többoldalas aláírásokat.
-
-## Miért használjunk könyvtár‑alapú felismerést a beépített Java módszerek helyett?
-
-A könyvtár‑alapú felismerés a tényleges fájlfejlécet és belső struktúrát vizsgálja, biztosítva, hogy a tartalom valóban megfeleljen a feltételezett formátumnak. A beépített módszerek, mint a `Files.probeContentType` vagy az egyszerű karakterlánc‑ellenőrzés könnyen megtéveszthetők, ha egy rosszindulatú végrehajtható fájlt átneveznek `.pdf`‑re. A GroupDocs.Signature ezzel a kockázattal szemben mély tartalomelemzést végez, mielőtt bármilyen további feldolgozásra sor kerülne.
-
-## Mikor kell cache‑elni a támogatott fájlformátumokat?
-
-Cache‑eld a formátumlistát az alkalmazás indításakor vagy az első használatkor, és használd újra az immutable gyűjteményt a JVM teljes élettartama alatt. A cache‑elés különösen előnyös nagy‑átfolyású webszolgáltatásoknál, ahol minden kérés egyébként reflexiós‑nehezített könyvtár‑inicializálást indítana, ami minden hívásnál néhány ezredmásodperc késleltetést jelent.
-
-## Hogyan kezeljük a nem támogatott fájlformátumokat Java-ban?
-
-Észleld a nem támogatott formátumot korán, naplózd a kísérletet audit célokra, és adj egyértelmű hibaüzenetet a felhasználónak, amely felsorolja a megengedett kiterjesztéseket. Ez javítja a felhasználói élményt és csökkenti a felesleges feldolgozási terhelést a backend-en.
-
-## Gyakran feltett kérdések
+## Gyakran ismételt kérdések
 
 **Q: Hogyan frissíthetem a GroupDocs.Signature könyvtár verzióját Maven‑ben?**  
-A: Módosítsd a `<version>` címkét a `pom.xml`‑ben a kívánt verzióra, majd futtasd a `mvn clean install` parancsot. Mindig tekintsd át a [release notes](https://releases.groupdocs.com/signature/java/)‑t a töréspontokért.
+A: Módosítsd a `<version>` elemet a `pom.xml`‑ben a kívánt verzióra, majd futtasd a `mvn clean install` parancsot. Mindig tekintsd át a [release notes](https://releases.groupdocs.com/signature/java/)‑t a töréspontokért.
 
 **Q: A GroupDocs.Signature képes felismerni a fájlformátumot, ha a kiterjesztés hibás?**  
-A: Igen. A könyvtár tartalom‑alapú validációt végez, így egy `.exe`‑ről `.pdf`‑re átnevezett fájl elutasításra kerül, mivel nem érvényes PDF. A `getSupportedFileTypes()` csak a könyvtár által kezelhető formátumokat listázza; a tényleges típus ellenőrzéséhez meg kell próbálni megnyitni a fájlt.
+A: Igen. A könyvtár tartalom‑alapú validációt végez, így egy `.exe`‑ről `.pdf`‑re átnevezett fájl elutasításra kerül, mivel nem érvényes PDF. A `getSupportedFileTypes()` csak a könyvtár által kezelhető formátumok listáját adja vissza; a tényleges típus ellenőrzéséhez a fájlt meg kell próbálni megnyitni.
 
 **Q: Mi a különbség az ingyenes próba és az ideiglenes licenc között?**  
-A: Az ingyenes próba azonnali hozzáférést biztosít, de vízjeleket és bizonyos funkciókorlátokat tartalmaz. Az ideiglenes licenc teljes funkcióhozzáférést ad 30 napra vízjelek nélkül, ideális alapos teszteléshez egy éles környezethez hasonlóan.
+A: Az ingyenes próba azonnali hozzáférést biztosít, de tartalmaz értékelési vízjeleket és bizonyos funkciókorlátokat. Az ideiglenes licenc teljes funkcióhozzáférést ad 30 napra vízjel és korlátozás nélkül, ideális alapos teszteléshez egy éles környezethez hasonlóan.
 
 **Q: Hogyan kezeljem a nem támogatott fájlformátumokat az alkalmazásomban?**  
-A: Visszaadott hiba legyen például: “Unsupported format. Supported extensions are: .pdf, .docx, .xlsx, .png, .jpg.” Naplózd az esetet biztonsági megfigyelés céljából, és fontold meg egy UI‑tooltip megjelenítését, amely felsorolja a megengedett típusokat.
+A: Adj egy tömör hibát, például „Nem támogatott formátum. Támogatott kiterjesztések: .pdf, .docx, .xlsx, .png, .jpg.” Naplózd az esetet biztonsági audit céljából, és fontold meg egy UI‑tooltip megjelenítését, amely felsorolja a megengedett típusokat.
 
-**Q: A GroupDocs.Signature működik titkosított vagy jelszó‑védett fájlokkal?**  
-A: Igen, de a jelszót meg kell adni a `Signature` példány létrehozásakor. Maga a formátum felismerésnek nincs szüksége a jelszóra, de a további feldolgozáshoz (pl. aláírás hozzáadása) szükséges.
+**Q: A GroupDocs.Signature működik titkosított vagy jelszóval védett fájlokkal?**  
+A: Igen, de a jelszót meg kell adni a `Signature` példány létrehozásakor. Maga a formátumfelismerés nem igényli a jelszót, de a további feldolgozáshoz (pl. aláírás hozzáadása) szükséges.
 
-**Q: Van közösségi vagy támogatási fórum a GroupDocs.Signature‑hez?**  
-A: Természetesen! Látogasd meg a [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) oldalt közösségi beszélgetésekért, kódpéldákért és a GroupDocs csapat közvetlen válaszaiért.
+**Q: Van közösségi vagy támogatási fórum a GroupDocs.Signature‑hoz?**  
+A: Természetesen! Látogasd meg a [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) oldalt közösségi beszélgetések, kódpéldák és a GroupDocs csapat közvetlen válaszaiért.
 
-## Erőforrások
+## Források
 
-**Dokumentáció:**
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) – Átfogó útmutatók és oktatóanyagok
-- [API Reference](https://reference.groupdocs.com/signature/java/) – Teljes API dokumentáció minden osztállyal és metódussal
+**Dokumentáció:**  
+- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) – Átfogó útmutatók és tutorialok  
+- [API Reference](https://reference.groupdocs.com/signature/java/) – Teljes API dokumentáció minden osztállyal és metódussal  
 
-**Letöltések és licencelés:**
-- [Download Library](https://releases.groupdocs.com/signature/java/) – Legújabb kiadások és verziótörténet
-- [Purchase Licenses](https://purchase.groupdocs.com/buy) – Árképzés és licencelési opciók
-- [Free Trial](https://releases.groupdocs.com/signature/java/) – Kezdj el azonnal tesztelni
+**Letöltések és licencelés:**  
+- [Download Library](https://releases.groupdocs.com/signature/java/) – Legújabb kiadások és verziótörténet  
+- [Purchase Licenses](https://purchase.groupdocs.com/buy) – Árazás és licencelési lehetőségek  
+- [Free Trial](https://releases.groupdocs.com/signature/java/) – Kezdj el azonnal tesztelni  
 
-**Támogatás és közösség:**
-- [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) – Közösségi beszélgetések és támogatás
+**Támogatás és közösség:**  
+- [GroupDocs Forum](https://forum.groupdocs.com/c/signature/) – Közösségi beszélgetések és támogatás  
 
 ---
 
-**Utoljára frissítve:** 2026-05-11  
-**Tesztelve a következővel:** GroupDocs.Signature 23.12 for Java  
-**Szerző:** GroupDocs
+**Utoljára frissítve:** 2026-08-19  
+**Tesztelve a következővel:** GroupDocs.Signature 23.12 for Java  
+**Szerző:** GroupDocs  
 
 ```xml
 <version>24.1</version>  <!-- Update to newer version -->
@@ -686,7 +683,7 @@ loadOptions.setPassword("your-password");
 Signature signature = new Signature("protected.pdf", loadOptions);
 ```
 
-## Kapcsolódó oktatóanyagok
+## Kapcsolódó tutorialok
 
 - [Add QR Code to PDF Java - Complete Guide with GroupDocs.Signature](/signature/java/qr-code-signatures/qr-code-signatures-java-groupdocs/)
 - [Java Text Signature Search - A Complete Guide to Document Verification with GroupDocs.Signature](/signature/java/search-verification/java-text-signature-search-groupdocs-signature/)
