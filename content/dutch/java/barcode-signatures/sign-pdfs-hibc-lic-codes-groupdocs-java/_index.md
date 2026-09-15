@@ -2,26 +2,33 @@
 categories:
 - Document Signing
 - Healthcare Integration
-date: '2026-05-16'
-description: Leer hoe u een data matrix PDF maakt en een QR‑code PDF toevoegt met
-  GroupDocs.Signature voor Java. Stapsgewijze handleiding voor het ondertekenen van
-  zorgdocumenten.
+date: '2026-09-15'
+description: Leer hoe u PDF kunt ondertekenen met een barcode met GroupDocs.Signature
+  voor Java. Stapsgewijze handleiding voor het toevoegen van Data Matrix- en QR-codes
+  in zorgdocumenten.
 keywords:
-- create data matrix pdf
+- sign pdf with barcode
 - add qr code pdf
-- HIBC barcode Java
-lastmod: '2026-05-16'
+- hibc barcode java
+- pdf signing java
+- healthcare barcode signing
+lastmod: '2026-09-15'
 linktitle: HIBC PDF-ondertekeningsgids voor Java
+og_description: PDF ondertekenen met barcode met GroupDocs.Signature voor Java. Leer
+  hoe u Data Matrix- en QR-codes in zorgdocumenten kunt insluiten in enkele stappen.
+og_image_alt: 'Developer tutorial: sign PDF with HIBC barcode using GroupDocs.Signature
+  for Java'
+og_title: PDF ondertekenen met barcode met HIBC in Java – GroupDocs-gids
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-16'
-  description: Learn how to create data matrix PDF and add QR code PDF using GroupDocs.Signature
-    for Java. Step‑by‑step guide for healthcare document signing.
-  headline: Create Data Matrix PDF with HIBC Barcode in Java
+  dateModified: '2026-09-15'
+  description: Learn how to sign PDF with barcode using GroupDocs.Signature for Java.
+    Step‑by‑step guide for adding Data Matrix and QR codes in healthcare documents.
+  headline: Sign PDF with barcode using HIBC in Java
   type: TechArticle
-- description: Learn how to create data matrix PDF and add QR code PDF using GroupDocs.Signature
-    for Java. Step‑by‑step guide for healthcare document signing.
-  name: Create Data Matrix PDF with HIBC Barcode in Java
+- description: Learn how to sign PDF with barcode using GroupDocs.Signature for Java.
+    Step‑by‑step guide for adding Data Matrix and QR codes in healthcare documents.
+  name: Sign PDF with barcode using HIBC in Java
   steps:
   - name: '**Import the required classes** – these give you access to the signature
       engine and Data Matrix options.'
@@ -68,34 +75,33 @@ schemas:
     question: Do I need an internet connection for signing at runtime?
   type: FAQPage
 tags:
-- java
-- pdf-signing
-- hibc
-- healthcare
+- sign pdf
 - barcode
-- pharmaceutical
-title: Maak Data Matrix PDF met HIBC-barcode in Java
+- java
+- healthcare
+- groupdocs
+title: Hoe PDF ondertekenen met barcode met HIBC in Java
 type: docs
 url: /nl/java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/
 weight: 1
 ---
 
-# Maak Data Matrix PDF met HIBC Barcode in Java
+# PDF ondertekenen met barcode met HIBC in Java
 
-Als je farmaceutische of gezondheidslogistieke software bouwt, ben je waarschijnlijk tegen het probleem van papieren tracking, verloren handtekeningen en audit‑nachtmerries aangelopen. **Een Data Matrix PDF maken** die een HIBC LIC‑barcode bevat, lost die problemen op door je een sabotage‑bewijs, machinaal‑leesbare spoor te geven dat bestand is tegen afdrukken, scannen en regelgevende beoordeling. In deze tutorial zie je precies hoe je **QR‑code‑PDF**‑ondersteuning kunt **toevoegen**, evenals Aztec‑ en Data Matrix‑formaten, met behulp van GroupDocs.Signature voor Java.
+Als je software voor farmaceutische of zorglogistiek bouwt, ben je waarschijnlijk al tegen papieren tracking, verloren handtekeningen en audit‑nachtmerries aangelopen. **Een PDF ondertekenen met barcode**—met name een HIBC Data Matrix of QR‑code—creëert een manipulatie‑evidente, machinaal leesbare spoor die bestand is tegen afdrukken, scannen en regelgevende controle. In deze tutorial zie je precies hoe je zowel Data Matrix‑ als QR‑barcodes aan een PDF toevoegt met GroupDocs.Signature voor Java.
 
-## Snelle Antwoorden
+## Snelle antwoorden
 - **Welke bibliotheek verwerkt HIBC‑barcodes in Java?** GroupDocs.Signature for Java.  
 - **Welk barcode‑formaat is het meest compact?** Data Matrix – ideaal voor kleine labels.  
 - **Kan ik zowel QR als Data Matrix aan dezelfde PDF toevoegen?** Ja, maak gewoon aparte `QrCodeSignOptions`.  
 - **Heb ik een internetverbinding nodig tijdens runtime?** Nee, de bibliotheek werkt volledig offline na installatie.  
 - **Welke Java‑versie wordt aanbevolen?** Java 11+ voor productie‑prestaties.
 
-## Wat is HIBC‑barcode PDF‑ondertekening?
-De `Signature`‑klasse in GroupDocs.Signature voor Java vertegenwoordigt een PDF‑document en biedt methoden om HIBC‑barcodes in te sluiten als digitale handtekeningen. Door een PDF te ondertekenen met een HIBC‑barcode maak je een verifieerbaar, sabotage‑bewijs record dat op elk punt in de toeleveringsketen kan worden gescand.
+## Wat is HIBC barcode PDF ondertekening?
+`Signature` is de kernklasse van GroupDocs.Signature die een PDF‑document vertegenwoordigt en het insluiten van digitale handtekeningen mogelijk maakt. De `Signature`‑klasse in GroupDocs.Signature voor Java biedt methoden om HIBC‑barcodes als digitale handtekeningen in te sluiten. Door een PDF te ondertekenen met een HIBC‑barcode creëer je een verifieerbaar, manipulatie‑evident record dat op elk punt in de toeleveringsketen kan worden gescand.
 
-## Waarom Data Matrix en QR‑codes samen gebruiken?
-GroupDocs.Signature ondersteunt **meer dan 50 invoer‑ en uitvoerformaten** en kan PDF‑bestanden van honderden pagina's verwerken zonder het volledige bestand in het geheugen te laden. Het gebruik van Data Matrix voor dichte, kleine labels en QR voor ruimere documenten geeft je de beste balans tussen leesbaarheid, gegevenscapaciteit (tot 4.296 tekens voor QR) en efficiëntie van de afdrukruimte.
+## Waarom Data Matrix‑ en QR‑codes samen gebruiken?
+Data Matrix biedt de kleinste voetafdruk terwijl het tot 2.335 alfanumerieke tekens kan bevatten, waardoor het perfect is voor dichte labelgebieden. QR‑codes daarentegen ondersteunen tot 4.296 tekens en zijn universeel leesbaar door smartphones. Door beide te combineren krijg je de beste balans tussen ruimte‑efficiëntie en gegevenscapaciteit, zodat elke stakeholder—van magazijnscanners tot mobiele apps—de benodigde informatie kan lezen.
 
 ## Vereisten
 - **JDK 11 of hoger** (Java 8 werkt, maar Java 11+ wordt aanbevolen voor optimale prestaties).  
@@ -107,7 +113,7 @@ GroupDocs.Signature ondersteunt **meer dan 50 invoer‑ en uitvoerformaten** en 
 ## GroupDocs.Signature voor Java instellen
 
 ### Maven‑configuratie
-Add the dependency to your `pom.xml`:
+Voeg de afhankelijkheid toe aan je `pom.xml`:
 
 ```xml
 <dependency>
@@ -118,20 +124,20 @@ Add the dependency to your `pom.xml`:
 ```
 
 ### Gradle‑configuratie
-For Gradle projects, add this to your `build.gradle`:
+Voor Gradle‑projecten, voeg dit toe aan je `build.gradle`:
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
 ### Directe downloadoptie
-Je kunt het JAR‑bestand ook rechtstreeks downloaden van [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) en handmatig toevoegen aan de classpath van je project. Deze aanpak werkt goed in netwerken met beperkte toegang.
+Je kunt het JAR‑bestand ook direct downloaden van [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) en handmatig toevoegen aan de classpath van je project. Deze aanpak werkt goed in netwerken met beperkte toegang.
 
 ### Een licentie verkrijgen
-Vraag een gratis proefversie of tijdelijke licentie aan bij GroupDocs om watermerken te verwijderen en alle functies te ontgrendelen. Voor productie‑implementaties is een aangeschafte licentie vereist.
+Vraag een gratis proefversie of tijdelijke licentie aan bij GroupDocs om watermerken te verwijderen en alle functies te ontgrendelen. Productie‑implementaties vereisen een aangeschafte licentie.
 
 ### Basisinitialisatie
-De `Signature`‑klasse is het toegangspunt voor alle ondertekeningsbewerkingen. Hij laadt de PDF, past de barcode toe en schrijft het ondertekende bestand.
+`Signature` is het toegangspunt voor alle ondertekeningsbewerkingen. Het laadt de PDF, past de barcode toe en schrijft het ondertekende bestand weg.
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -144,10 +150,12 @@ class InitializeSignature {
 }
 ```
 
-## Hoe maak je een Data Matrix PDF met HIBC‑barcode?
-Laad je bron‑PDF, configureer een `QrCodeSignOptions`‑object voor het Data Matrix‑formaat, en roep `sign()` aan – dat is alles wat je nodig hebt om een conforme HIBC Data Matrix‑barcode in te sluiten. De volgende stappen leiden je door de exacte benodigde code. `QrCodeSignOptions` definieert de instellingen voor een barcode‑handtekening, zoals type, inhoud, grootte en positie.
+## Hoe maak je een Data Matrix‑PDF met HIBC‑barcode?
+Instantieer `Signature` met je bron‑PDF, stel `QrCodeSignOptions` in op het **Data Matrix**‑formaat, geef een correct geformatteerde HIBC‑string op en roep `sign()` aan. De bibliotheek schrijft de ondertekende PDF naar de bestemming, behoudt de lay‑out en voegt de barcode in als een manipulatie‑evidente handtekening.
 
-1. **Importeer de vereiste klassen** – deze geven je toegang tot de ondertekeningsengine en Data Matrix‑opties.  
+`QrCodeSignOptions` specificeert het barcode‑type, de inhoud, grootte en plaatsing voor een handtekening.
+
+1. **Import de vereiste klassen** – hiermee krijg je toegang tot de ondertekeningsengine en Data Matrix‑opties.  
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -164,7 +172,7 @@ String destinFilePath = "YOUR_OUTPUT_DIRECTORY/SignWithHIBCLICQR.pdf";
 final Signature signature = new Signature(sourceFilePath);
 ```
 
-3. **Configureer de Data Matrix‑opties** – stel de HIBC‑string in, kies `QrCodeTypes.HIBCLICDataMatrix`, en definieer de plaatsingscoördinaten. `QrCodeTypes` somt de ondersteunde barcode‑formaten voor HIBC‑handtekeningen op.  
+3. **Configureer de Data Matrix‑opties** – stel de HIBC‑string in, kies `QrCodeTypes.HIBCLICDataMatrix` en definieer de plaatsingscoördinaten. `QrCodeTypes` somt de ondersteunde barcode‑formaten voor HIBC‑handtekeningen op.  
 
 ```java
 QrCodeSignOptions hibcLic_QR = new QrCodeSignOptions("A123PROD30917/75#422011907#GP293", QrCodeTypes.HIBCLICQR);
@@ -174,13 +182,13 @@ hibcLic_QR.setReturnContent(true); // Return content after signing
 hibcLic_QR.setReturnContentType(FileType.PNG); // Specify return content type as PNG
 ```
 
-4. **Pas de handtekening toe** op de PDF.  
+4. **Pas de handtekening** toe op de PDF.  
 
 ```java
 signature.sign(destinFilePath, hibcLic_QR);
 ```
 
-5. **Maak de bronnen vrij** om bestands‑handles vrij te geven en geheugenlekken te voorkomen.  
+5. **Maak resources vrij** om bestands‑handles te sluiten en geheugenlekken te voorkomen.  
 
 ```java
 finally {
@@ -228,12 +236,14 @@ public class HibcQrSigning {
 ```
 
 #### Direct antwoord (40–70 woorden)
-Om **een Data Matrix PDF te maken**, instantieer je `Signature` met je bron‑PDF, stel je `QrCodeSignOptions` in op `QrCodeTypes.HIBCLICDataMatrix` en geef je een correct geformatteerde HIBC‑string op, vervolgens roep je `signature.sign(outputPath, options)` aan. De bibliotheek schrijft de ondertekende PDF naar de bestemming, behoudt de lay‑out en voegt de barcode toe als een sabotage‑bewijs handtekening.
+Om **een Data Matrix‑PDF te maken**, instantieer je `Signature` met je bron‑PDF, stel je `QrCodeSignOptions` in op `QrCodeTypes.HIBCLICDataMatrix` en geef je een correct geformatteerde HIBC‑string op, waarna je `signature.sign(outputPath, options)` aanroept. De bibliotheek schrijft de ondertekende PDF naar de bestemming, behoudt de lay‑out en voegt de barcode in als een manipulatie‑evidente handtekening.
 
-## Hoe QR‑code PDF toevoegen met GroupDocs.Signature?
-Laad de PDF, configureer `QrCodeSignOptions` voor het QR‑formaat, en roep `sign()` aan. Dit tweeregel‑patroon werkt voor elke PDF‑grootte en schaalt de QR‑afbeelding automatisch voor optimale leesbaarheid. `QrCodeSignOptions` configureert de QR‑barcode‑handtekening, inclusief inhoud en visuele eigenschappen. Het positioneert de code op basis van de door jou ingestelde coördinaten, zodat deze niet overlapt met bestaande inhoud en scanbaar blijft na het afdrukken.
+## Hoe een QR‑code‑PDF toevoegen met GroupDocs.Signature?
+Laad de PDF, configureer `QrCodeSignOptions` voor het QR‑formaat en roep `sign()` aan. De bibliotheek schaalt de QR‑afbeelding voor leesbaarheid en positioneert deze op basis van de door jou ingestelde coördinaten, zodat overlapping met bestaande inhoud wordt vermeden. Dit zorgt ervoor dat de barcode scanbaar blijft na het afdrukken en voldoet aan de HIBC‑normen.
 
-1. **Importeer QR‑specifieke klassen**  
+`QrCodeSignOptions` definieert de inhoud, grootte en positie van de QR‑barcode.
+
+1. **Import QR‑specifieke klassen**  
 
 ```java
 QrCodeSignOptions hibcLic_AZ = new QrCodeSignOptions("A123PROD30917/75#422011907#GP293", QrCodeTypes.HIBCLICAztec);
@@ -271,10 +281,10 @@ signature.sign(destinFilePath, options);
 // Oops, no dispose() call
 ```  
 
-**Fix:** Plaats het gebruik van `Signature` in een try‑with‑resources‑blok of roep expliciet `close()` aan in een finally‑clausule.
+**Fix:** Wrap het gebruik van `Signature` in een try‑with‑resources‑blok of roep expliciet `close()` aan in een finally‑clausule.
 
 ### 2. Onjuiste HIBC‑formaatstrings gebruiken
-**Wrong:** Het gebruiken van generieke strings zoals “12345”.  
+**Wrong:** Using generic strings like “12345”.  
 **Fix:** Volg de HIBCC‑standaard (bijv. `A123PROD30917/75#422011907#GP293`). Valideer met de [HIBCC online validator](https://www.hibcc.org/).
 
 ### 3. Hard‑coded bestands‑paden
@@ -283,22 +293,22 @@ signature.sign(destinFilePath, options);
 String sourceFilePath = "C:/Users/John/Documents/test.pdf";
 ```  
 
-**Fix:** Sla paden op in een configuratiebestand of omgevingsvariabele en lees ze tijdens runtime.
+**Fix:** Sla paden op in een configuratie‑bestand of omgevingsvariabele en lees ze tijdens runtime.
 
-### 4. Barcode‑positieconflicten negeren
-Plaats barcodes weg van bestaande tekst of handtekeningen. Gebruik PDF‑coördinaten (origine is linksonder) en test met een afgedrukt monster.
+### 4. Het negeren van barcode‑positieconflicten
+Plaats barcodes weg van bestaande tekst of handtekeningen. Gebruik PDF‑coördinaten (origine is linksonder) en test met een geprinte monster.
 
 ### 5. Niet testen met echte scanners
-Print de ondertekende PDF en scan deze met de exacte hardware die in je workflow wordt gebruikt. Verifieer de leesbaarheid bij verschillende afdrukkwaliteiten.
+Print de ondertekende PDF en scan deze met de exacte hardware die in je workflow wordt gebruikt. Controleer de leesbaarheid bij verschillende afdrukkwaliteiten.
 
 ## Praktische toepassingen in de gezondheidszorg
 
 | Scenario | Aanbevolen barcode | Waarom het past |
 |----------|--------------------|-----------------|
-| **Farmaceutische distributie** | QR‑code | Hoge gegevenscapaciteit, breed gescand door smartphones. |
-| **Voorraadbeheer** | Data Matrix | Kleine voetafdruk, ideaal voor dichte schap‑labels. |
-| **Regelgevende naleving (FDA 21 CFR Part 11)** | QR + Data Matrix | Dual‑formaat biedt redundantie en auditbaarheid. |
-| **Tracking van medische apparaten** | Aztec Code | Compact formaat werkt op verpakking met beperkte ruimte. |
+| **Farmaceutische distributie** | QR Code | Hoge gegevenscapaciteit, breed gescand door smartphones. |
+| **Voorraadbeheer** | Data Matrix | Klein formaat, ideaal voor dichte schaplabels. |
+| **Regelgeving naleving (FDA 21 CFR Part 11)** | QR + Data Matrix | Dubbel formaat biedt redundantie en controleerbaarheid. |
+| **Volgen van medische apparaten** | Aztec Code | Compact formaat werkt op verpakking met beperkte ruimte. |
 
 ## Prestatie‑overwegingen en best practices
 
@@ -316,14 +326,14 @@ for (String filePath : filesToSign) {
 }
 ```
 
-- Maak per bestand een nieuwe `Signature`‑instantie om het geheugenverbruik laag te houden.  
+- Maak voor elk bestand een nieuwe `Signature`‑instantie om het geheugenverbruik laag te houden.  
 - Gebruik een vaste thread‑pool (`Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)`) voor parallelle verwerking, maar houd de heap‑grootte in de gaten omdat elke `Signature` de volledige PDF in het geheugen houdt.  
 
-### Houd bibliotheken up‑to‑date
+### Bibliotheken up‑to‑date houden
 GroupDocs‑releases verbeteren de verwerkingssnelheid tot **20 %** en voegen nieuwe HIBC‑compliance‑functies toe. Plan elk kwartaal een controle van afhankelijkheden.
 
-### Sjablonen cachen
-Laad een PDF‑sjabloon één keer, kloon het voor elke barcode‑variant, en onderteken de klonen. Dit vermindert I/O en versnelt workflows met hoog volume.
+### Templates cachen
+Laad een PDF‑template één keer, kloon deze voor elke barcode‑variant en onderteken de klonen. Dit vermindert I/O en versnelt workflows met hoog volume.
 
 ## Veelgestelde vragen
 
@@ -331,39 +341,48 @@ Laad een PDF‑sjabloon één keer, kloon het voor elke barcode‑variant, en on
 A: Ja, het ondersteunt ook DOCX, XLSX, PPTX, PNG, JPEG en TIFF met dezelfde barcode‑ondertekenings‑API.
 
 **Q: Hoe los ik “Invalid barcode content”‑fouten op?**  
-A: Controleer of je HIBC‑string exact de HIBCC‑syntaxis volgt, gebruik de online validator, en zorg dat je de juiste `QrCodeTypes`‑constante voor het gekozen formaat gebruikt.
+A: Controleer of je HIBC‑string exact de HIBCC‑syntaxis volgt, gebruik de online validator en zorg ervoor dat je de juiste `QrCodeTypes`‑constante voor het gekozen formaat gebruikt.
 
 **Q: Wat is de maximale gegevenscapaciteit voor elk HIBC‑formaat?**  
-A: QR ≈ 4.296 alfanumerieke tekens, Aztec ≈ 3.832 numeriek / 3.067 alfanumeriek, Data Matrix ≈ 3.116 numeriek / 2.335 alfanumeriek. Houd codes onder de 200 tekens voor optimale scanbetrouwbaarheid.
+A: QR ≈ 4.296 alfanumerieke tekens, Aztec ≈ 3.832 numeriek / 3.067 alfanumeriek, Data Matrix ≈ 3.116 numeriek / 2.335 alfanumeriek. Houd codes onder 200 tekens voor optimale scan‑betrouwbaarheid.
 
-**Q: Is het mogelijk om meerdere barcode‑typen in één PDF in te sluiten?**  
+**Q: Is het mogelijk meerdere barcode‑typen in één PDF in te sluiten?**  
 A: Absoluut. Maak aparte `QrCodeSignOptions`‑objecten met verschillende posities en roep `signature.sign()` voor elk aan. Zorg er alleen voor dat ze niet overlappen.
 
 **Q: Heb ik een internetverbinding nodig voor ondertekenen tijdens runtime?**  
-A: Nee. Nadat het JAR‑bestand in de classpath staat en de licentie geactiveerd is, worden alle bewerkingen lokaal uitgevoerd.
+A: Nee. Nadat de JAR op de classpath staat en de licentie geactiveerd is, worden alle bewerkingen lokaal uitgevoerd.
 
 ## Aanvullende bronnen
 
-- [GroupDocs.Signature voor Java Documentatie](https://docs.groupdocs.com/signature/java/)  
+- [GroupDocs.Signature for Java Documentatie](https://docs.groupdocs.com/signature/java/)  
 - [API‑referentiegids](https://reference.groupdocs.com/signature/java/)  
 - [Laatste release‑downloads](https://releases.groupdocs.com/signature/java/)  
-- [Licentie aanschaffen](https://purchase.groupdocs.com/buy)  
+- [Licentie kopen](https://purchase.groupdocs.com/buy)  
 - [Gratis proefversie krijgen](https://releases.groupdocs.com/signature/java/)  
 - [Tijdelijke licentie aanvragen](https://purchase.groupdocs.com/temporary-license/)  
-- [GroupDocs‑forum](https://forum.groupdocs.com/c/signature/)
+- [GroupDocs‑forum](https://forum.groupdocs.com/c/signature/)  
 
 ---
 
-**Laatst bijgewerkt:** 2026-05-16  
+**Laatst bijgewerkt:** 2026-09-15  
 **Getest met:** GroupDocs.Signature 23.12 voor Java  
 **Auteur:** GroupDocs  
 
-```java
-signature.sign(destinFilePath, hibcLic_DM);
-```
+---
 
 ## Gerelateerde tutorials
 
 - [Barcode‑handtekening PDF maken in Java – GroupDocs‑gids](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
 - [Barcode‑handtekening maken in Java – PDF‑barcodes bijwerken](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
-- [Hoe QR‑code PDF lezen met Java en GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+- [Hoe QR‑code‑PDF lezen met Java en GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+
+```java
+signature.sign(destinFilePath, hibcLic_DM);
+```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

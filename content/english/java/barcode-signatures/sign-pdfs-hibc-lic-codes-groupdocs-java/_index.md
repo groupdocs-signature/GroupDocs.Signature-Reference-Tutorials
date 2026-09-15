@@ -1,29 +1,35 @@
 ---
-title: "Create Data Matrix PDF with HIBC Barcode in Java"
-linktitle: "HIBC PDF Signing Java Guide"
-description: "Learn how to create data matrix PDF and add QR code PDF using GroupDocs.Signature for Java. Step‑by‑step guide for healthcare document signing."
+categories:
+- Document Signing
+- Healthcare Integration
+date: '2026-09-15'
+description: Learn how to sign PDF with barcode using GroupDocs.Signature for Java.
+  Step‑by‑step guide for adding Data Matrix and QR codes in healthcare documents.
+images:
+- /java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/og-image.png
 keywords:
-- create data matrix pdf
+- sign pdf with barcode
 - add qr code pdf
-- HIBC barcode Java
-date: "2026-05-16"
-lastmod: "2026-05-16"
-weight: 1
-url: "/java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/"
-categories: ["Document Signing", "Healthcare Integration"]
-tags: ["java", "pdf-signing", "hibc", "healthcare", "barcode", "pharmaceutical"]
-type: docs
+- hibc barcode java
+- pdf signing java
+- healthcare barcode signing
+lastmod: '2026-09-15'
+linktitle: HIBC PDF Signing Java Guide
+og_description: Sign PDF with barcode using GroupDocs.Signature for Java. Learn to
+  embed Data Matrix and QR codes for healthcare documents in a few steps.
+og_image_alt: 'Developer tutorial: sign PDF with HIBC barcode using GroupDocs.Signature
+  for Java'
+og_title: Sign PDF with barcode using HIBC in Java – GroupDocs guide
 schemas:
-- type: TechArticle
-  headline: Create Data Matrix PDF with HIBC Barcode in Java
-  description: Learn how to create data matrix PDF and add QR code PDF using GroupDocs.Signature
-    for Java. Step‑by‑step guide for healthcare document signing.
-  dateModified: '2026-05-16'
-  author: GroupDocs
-- type: HowTo
-  name: Create Data Matrix PDF with HIBC Barcode in Java
-  description: Learn how to create data matrix PDF and add QR code PDF using GroupDocs.Signature
-    for Java. Step‑by‑step guide for healthcare document signing.
+- author: GroupDocs
+  dateModified: '2026-09-15'
+  description: Learn how to sign PDF with barcode using GroupDocs.Signature for Java.
+    Step‑by‑step guide for adding Data Matrix and QR codes in healthcare documents.
+  headline: Sign PDF with barcode using HIBC in Java
+  type: TechArticle
+- description: Learn how to sign PDF with barcode using GroupDocs.Signature for Java.
+    Step‑by‑step guide for adding Data Matrix and QR codes in healthcare documents.
+  name: Sign PDF with barcode using HIBC in Java
   steps:
   - name: '**Import the required classes** – these give you access to the signature
       engine and Data Matrix options.'
@@ -49,31 +55,43 @@ schemas:
     text: '**Create and configure QR options** – note the use of `QrCodeTypes.HIBCLICQR`.'
   - name: '**Sign the document**'
     text: '**Sign the document**'
-- type: FAQPage
-  questions:
-  - question: Can GroupDocs.Signature sign file types other than PDF?
-    answer: Yes, it also supports DOCX, XLSX, PPTX, PNG, JPEG, and TIFF with the same
+  type: HowTo
+- questions:
+  - answer: Yes, it also supports DOCX, XLSX, PPTX, PNG, JPEG, and TIFF with the same
       barcode‑signing API.
-  - question: How do I troubleshoot “Invalid barcode content” errors?
-    answer: Verify that your HIBC string follows the exact HIBCC syntax, use the online
+    question: Can GroupDocs.Signature sign file types other than PDF?
+  - answer: Verify that your HIBC string follows the exact HIBCC syntax, use the online
       validator, and ensure you’re using the correct `QrCodeTypes` constant for the
       chosen format.
-  - question: What is the maximum data capacity for each HIBC format?
-    answer: QR ≈ 4,296 alphanumeric characters, Aztec ≈ 3,832 numeric / 3,067 alphanumeric,
+    question: How do I troubleshoot “Invalid barcode content” errors?
+  - answer: QR ≈ 4,296 alphanumeric characters, Aztec ≈ 3,832 numeric / 3,067 alphanumeric,
       Data Matrix ≈ 3,116 numeric / 2,335 alphanumeric. Keep codes under 200 characters
       for optimal scan reliability.
-  - question: Is it possible to embed multiple barcode types in one PDF?
-    answer: Absolutely. Create separate `QrCodeSignOptions` objects with different
+    question: What is the maximum data capacity for each HIBC format?
+  - answer: Absolutely. Create separate `QrCodeSignOptions` objects with different
       positions and call `signature.sign()` for each. Just ensure they don’t overlap.
-  - question: Do I need an internet connection for signing at runtime?
-    answer: No. After the JAR is on the classpath and the license is activated, all
+    question: Is it possible to embed multiple barcode types in one PDF?
+  - answer: No. After the JAR is on the classpath and the license is activated, all
       operations are performed locally.
+    question: Do I need an internet connection for signing at runtime?
+  type: FAQPage
+tags:
+- sign pdf
+- barcode
+- java
+- healthcare
+- groupdocs
+title: How to sign PDF with barcode using HIBC in Java
+type: docs
+url: /java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/
+weight: 1
 ---
-# Create Data Matrix PDF with HIBC Barcode in Java
 
-If you’re building pharmaceutical or healthcare logistics software, you’ve probably hit the wall of paper‑based tracking, lost signatures, and audit nightmares. **Creating a Data Matrix PDF** that embeds a HIBC LIC barcode solves those problems by giving you a tamper‑evident, machine‑readable trail that survives printing, scanning, and regulatory review. In this tutorial you’ll see exactly how to **add QR code PDF** support, as well as Aztec and Data Matrix formats, using GroupDocs.Signature for Java.
+# Sign PDF with barcode using HIBC in Java
 
-## Quick Answers
+If you’re building pharmaceutical or healthcare logistics software, you’ve probably hit the wall of paper‑based tracking, lost signatures, and audit nightmares. **Signing a PDF with barcode**—especially a HIBC Data Matrix or QR code—creates a tamper‑evident, machine‑readable trail that survives printing, scanning, and regulatory review. In this tutorial you’ll see exactly how to add both Data Matrix and QR barcodes to a PDF using GroupDocs.Signature for Java.
+
+## Quick answers
 - **What library handles HIBC barcodes in Java?** GroupDocs.Signature for Java.  
 - **Which barcode format is most compact?** Data Matrix – ideal for small labels.  
 - **Can I add both QR and Data Matrix to the same PDF?** Yes, just create separate `QrCodeSignOptions`.  
@@ -81,10 +99,10 @@ If you’re building pharmaceutical or healthcare logistics software, you’ve p
 - **What Java version is recommended?** Java 11+ for production‑grade performance.
 
 ## What is HIBC barcode PDF signing?
-The `Signature` class in GroupDocs.Signature for Java represents a PDF document and provides methods to embed HIBC barcodes as digital signatures. By signing a PDF with an HIBC barcode you create a verifiable, tamper‑evident record that can be scanned at any point in the supply chain.
+`Signature` is GroupDocs.Signature's core class that represents a PDF document and enables embedding of digital signatures. The `Signature` class in GroupDocs.Signature for Java provides methods to embed HIBC barcodes as digital signatures. By signing a PDF with an HIBC barcode you create a verifiable, tamper‑evident record that can be scanned at any point in the supply chain.
 
 ## Why use Data Matrix and QR codes together?
-GroupDocs.Signature supports **50+ input and output formats** and can process multi‑hundred‑page PDFs without loading the entire file into memory. Using Data Matrix for dense, small‑area labels and QR for more spacious documents gives you the best balance of readability, data capacity (up to 4,296 characters for QR), and print‑space efficiency.
+Data Matrix offers the smallest footprint while still holding up to 2,335 alphanumeric characters, making it perfect for dense label areas. QR codes, on the other hand, support up to 4,296 characters and are universally readable by smartphones. Combining both gives you the best balance of space efficiency and data capacity, ensuring every stakeholder—from warehouse scanners to mobile apps—can read the information they need.
 
 ## Prerequisites
 - **JDK 11 or higher** (Java 8 works but Java 11+ is recommended for optimal performance).  
@@ -93,9 +111,9 @@ GroupDocs.Signature supports **50+ input and output formats** and can process mu
 - **Sample PDF** (e.g., `sample.pdf`) to test the implementation.  
 - **Valid GroupDocs.Signature license** (free trial for development, paid license for production).
 
-## Setting Up GroupDocs.Signature for Java
+## Setting up GroupDocs.Signature for Java
 
-### Maven Configuration
+### Maven configuration
 Add the dependency to your `pom.xml`:
 
 ```xml
@@ -106,21 +124,21 @@ Add the dependency to your `pom.xml`:
 </dependency>
 ```
 
-### Gradle Configuration
+### Gradle configuration
 For Gradle projects, add this to your `build.gradle`:
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-### Direct Download Option
+### Direct download option
 You can also download the JAR file directly from [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) and add it to your project’s classpath manually. This approach works well in restricted‑network environments.
 
-### Getting a License
+### Getting a license
 Request a free trial or temporary license from GroupDocs to remove watermarks and unlock all features. Production deployments require a purchased license.
 
-### Basic Initialization
-The `Signature` class is the entry point for all signing operations. It loads the PDF, applies the barcode, and writes the signed file.
+### Basic initialization
+`Signature` is the entry point for all signing operations. It loads the PDF, applies the barcode, and writes the signed file.
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -134,7 +152,9 @@ class InitializeSignature {
 ```
 
 ## How to create a Data Matrix PDF with HIBC barcode?
-Load your source PDF, configure a `QrCodeSignOptions` object for the Data Matrix format, and call `sign()` – that’s all you need to embed a compliant HIBC Data Matrix barcode. The following steps walk you through the exact code required. `QrCodeSignOptions` defines the settings for a barcode signature, such as type, content, size, and position.
+Instantiate `Signature` with your source PDF, set `QrCodeSignOptions` to the **Data Matrix** format, provide a correctly formatted HIBC string, and call `sign()`. The library writes the signed PDF to the destination, preserving layout and embedding the barcode as a tamper‑evident signature.
+
+`QrCodeSignOptions` specifies the barcode type, content, size, and placement for a signature.
 
 1. **Import the required classes** – these give you access to the signature engine and Data Matrix options.  
 
@@ -220,7 +240,9 @@ public class HibcQrSigning {
 To **create a Data Matrix PDF**, instantiate `Signature` with your source PDF, set `QrCodeSignOptions` to `QrCodeTypes.HIBCLICDataMatrix` and provide a correctly formatted HIBC string, then call `signature.sign(outputPath, options)`. The library writes the signed PDF to the destination, preserving layout and embedding the barcode as a tamper‑evident signature.
 
 ## How to add QR code PDF using GroupDocs.Signature?
-Load the PDF, configure `QrCodeSignOptions` for the QR format, and invoke `sign()`. This two‑line pattern works for any PDF size and automatically scales the QR image for optimal readability. `QrCodeSignOptions` configures the QR barcode signature, including its content and visual properties. It positions the code based on the coordinates you set, ensuring it does not overlap existing content and remains scannable after printing.
+Load the PDF, configure `QrCodeSignOptions` for the QR format, and call `sign()`. The library scales the QR image for readability and positions it based on the coordinates you set, avoiding overlap with existing content. This ensures the barcode remains scannable after printing and complies with HIBC standards.
+
+`QrCodeSignOptions` defines the QR barcode’s content, size, and position.
 
 1. **Import QR‑specific classes**  
 
@@ -250,9 +272,9 @@ hibcLic_DM.setReturnContentType(FileType.PNG); // Specify return content type as
 
 > **Direct answer:** Use `QrCodeTypes.HIBCLICQR` in `QrCodeSignOptions`, set the HIBC content string, position the code with `setLeft()` and `setTop()`, then call `signature.sign(outputPath, options)`. The QR barcode is embedded instantly, ready for smartphone or scanner capture.
 
-## Common Mistakes to Avoid
+## Common mistakes to avoid
 
-### 1. Forgetting Resource Disposal
+### 1. Forgetting resource disposal
 **Wrong:**  
 ```java
 Signature signature = new Signature("sample.pdf");
@@ -262,11 +284,11 @@ signature.sign(destinFilePath, options);
 
 **Fix:** Wrap the `Signature` usage in a try‑with‑resources block or explicitly call `close()` in a finally clause.
 
-### 2. Using Incorrect HIBC Format Strings
+### 2. Using incorrect HIBC format strings
 **Wrong:** Using generic strings like “12345”.  
 **Fix:** Follow the HIBCC standard (e.g., `A123PROD30917/75#422011907#GP293`). Validate with the [HIBCC online validator](https://www.hibcc.org/).
 
-### 3. Hard‑coding File Paths
+### 3. Hard‑coding file paths
 **Wrong:**  
 ```java
 String sourceFilePath = "C:/Users/John/Documents/test.pdf";
@@ -274,24 +296,24 @@ String sourceFilePath = "C:/Users/John/Documents/test.pdf";
 
 **Fix:** Store paths in a configuration file or environment variable and read them at runtime.
 
-### 4. Ignoring Barcode Position Conflicts
+### 4. Ignoring barcode position conflicts
 Place barcodes away from existing text or signatures. Use PDF coordinates (origin is bottom‑left) and test with a printed sample.
 
-### 5. Not Testing with Real Scanners
+### 5. Not testing with real scanners
 Print the signed PDF and scan it with the exact hardware used in your workflow. Verify readability at different print qualities.
 
-## Practical Applications in Healthcare
+## Practical applications in healthcare
 
-| Scenario | Recommended Barcode | Why it fits |
+| Scenario | Recommended barcode | Why it fits |
 |----------|--------------------|--------------|
 | **Pharmaceutical distribution** | QR Code | High data capacity, widely scanned by smartphones. |
 | **Inventory management** | Data Matrix | Small footprint, ideal for dense shelf labels. |
 | **Regulatory compliance (FDA 21 CFR Part 11)** | QR + Data Matrix | Dual‑format provides redundancy and auditability. |
 | **Medical device tracking** | Aztec Code | Compact size works on limited‑space packaging. |
 
-## Performance Considerations and Best Practices
+## Performance considerations and best practices
 
-### Batch Processing Pattern
+### Batch processing pattern
 ```java
 List<String> filesToSign = getFileList();
 for (String filePath : filesToSign) {
@@ -308,13 +330,13 @@ for (String filePath : filesToSign) {
 - Create a new `Signature` instance per file to keep memory usage low.  
 - Use a fixed thread pool (`Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)`) for parallel processing, but monitor heap size because each `Signature` holds the full PDF in memory.  
 
-### Keep Libraries Updated
+### Keep libraries updated
 GroupDocs releases improve processing speed by up to **20 %** and add new HIBC compliance features. Schedule quarterly dependency checks.
 
-### Caching Templates
+### Caching templates
 Load a PDF template once, clone it for each barcode variant, and sign the clones. This reduces I/O and speeds up high‑volume workflows.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can GroupDocs.Signature sign file types other than PDF?**  
 A: Yes, it also supports DOCX, XLSX, PPTX, PNG, JPEG, and TIFF with the same barcode‑signing API.
@@ -323,7 +345,7 @@ A: Yes, it also supports DOCX, XLSX, PPTX, PNG, JPEG, and TIFF with the same bar
 A: Verify that your HIBC string follows the exact HIBCC syntax, use the online validator, and ensure you’re using the correct `QrCodeTypes` constant for the chosen format.
 
 **Q: What is the maximum data capacity for each HIBC format?**  
-A: QR ≈ 4,296 alphanumeric characters, Aztec ≈ 3,832 numeric / 3,067 alphanumeric, Data Matrix ≈ 3,116 numeric / 2,335 alphanumeric. Keep codes under 200 characters for optimal scan reliability.
+A: QR ≈ 4,296 alphanumeric characters, Aztec ≈ 3,832 numeric / 3,067 alphanumeric, Data Matrix ≈ 3,116 numeric / 2,335 alphanumeric. Keep codes under 200 characters for optimal scan reliability.
 
 **Q: Is it possible to embed multiple barcode types in one PDF?**  
 A: Absolutely. Create separate `QrCodeSignOptions` objects with different positions and call `signature.sign()` for each. Just ensure they don’t overlap.
@@ -331,7 +353,7 @@ A: Absolutely. Create separate `QrCodeSignOptions` objects with different positi
 **Q: Do I need an internet connection for signing at runtime?**  
 A: No. After the JAR is on the classpath and the license is activated, all operations are performed locally.
 
-## Additional Resources
+## Additional resources
 
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)  
 - [API Reference Guide](https://reference.groupdocs.com/signature/java/)  
@@ -339,22 +361,34 @@ A: No. After the JAR is on the classpath and the license is activated, all opera
 - [Purchase License](https://purchase.groupdocs.com/buy)  
 - [Get Free Trial](https://releases.groupdocs.com/signature/java/)  
 - [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)  
-- [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)
+- [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)  
 
 ---
 
-**Last Updated:** 2026-05-16  
+**Last Updated:** 2026-09-15  
 **Tested With:** GroupDocs.Signature 23.12 for Java  
 **Author:** GroupDocs  
 
 ---
 
-```java
-signature.sign(destinFilePath, hibcLic_DM);
-```
-
-## Related Tutorials
+## Related tutorials
 
 - [Create Barcode Signature PDF in Java – GroupDocs Guide](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
 - [Create Barcode Signature in Java – Update PDF Barcodes](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
 - [How to read QR code PDF using Java and GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+
+
+
+
+
+
+```java
+signature.sign(destinFilePath, hibcLic_DM);
+```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
