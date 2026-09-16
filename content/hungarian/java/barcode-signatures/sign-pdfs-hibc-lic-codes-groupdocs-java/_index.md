@@ -2,26 +2,34 @@
 categories:
 - Document Signing
 - Healthcare Integration
-date: '2026-05-16'
-description: Ismerje meg, hogyan hozhat létre Data Matrix PDF-et, és adhat hozzá QR
-  code PDF-et a GroupDocs.Signature for Java segítségével. Lépésről‑lépésre útmutató
-  az egészségügyi dokumentumok aláírásához.
+date: '2026-09-15'
+description: Ismerje meg, hogyan lehet aláírni PDF-et vonalkóddal a GroupDocs.Signature
+  for Java segítségével. Lépésről‑lépésre útmutató a Data Matrix és QR kódok hozzáadásához
+  egészségügyi dokumentumokban.
 keywords:
-- create data matrix pdf
+- sign pdf with barcode
 - add qr code pdf
-- HIBC barcode Java
-lastmod: '2026-05-16'
+- hibc barcode java
+- pdf signing java
+- healthcare barcode signing
+lastmod: '2026-09-15'
 linktitle: HIBC PDF aláírás Java útmutató
+og_description: PDF aláírás vonalkóddal a GroupDocs.Signature for Java segítségével.
+  Tanulja meg, hogyan ágyazhat be Data Matrix és QR kódokat egészségügyi dokumentumokba
+  néhány lépésben.
+og_image_alt: 'Developer tutorial: sign PDF with HIBC barcode using GroupDocs.Signature
+  for Java'
+og_title: PDF aláírás vonalkóddal HIBC használatával Java-ban – GroupDocs útmutató
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-16'
-  description: Learn how to create data matrix PDF and add QR code PDF using GroupDocs.Signature
-    for Java. Step‑by‑step guide for healthcare document signing.
-  headline: Create Data Matrix PDF with HIBC Barcode in Java
+  dateModified: '2026-09-15'
+  description: Learn how to sign PDF with barcode using GroupDocs.Signature for Java.
+    Step‑by‑step guide for adding Data Matrix and QR codes in healthcare documents.
+  headline: Sign PDF with barcode using HIBC in Java
   type: TechArticle
-- description: Learn how to create data matrix PDF and add QR code PDF using GroupDocs.Signature
-    for Java. Step‑by‑step guide for healthcare document signing.
-  name: Create Data Matrix PDF with HIBC Barcode in Java
+- description: Learn how to sign PDF with barcode using GroupDocs.Signature for Java.
+    Step‑by‑step guide for adding Data Matrix and QR codes in healthcare documents.
+  name: Sign PDF with barcode using HIBC in Java
   steps:
   - name: '**Import the required classes** – these give you access to the signature
       engine and Data Matrix options.'
@@ -68,43 +76,42 @@ schemas:
     question: Do I need an internet connection for signing at runtime?
   type: FAQPage
 tags:
-- java
-- pdf-signing
-- hibc
-- healthcare
+- sign pdf
 - barcode
-- pharmaceutical
-title: Data Matrix PDF létrehozása HIBC Barcode használatával Java-ban
+- java
+- healthcare
+- groupdocs
+title: Hogyan lehet aláírni PDF-et vonalkóddal HIBC használatával Java-ban
 type: docs
 url: /hu/java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/
 weight: 1
 ---
 
-# Data Matrix PDF létrehozása HIBC vonalkóddal Java-ban
+# PDF aláírása vonalkóddal HIBC használatával Java-ban
 
-Ha gyógyszeripari vagy egészségügyi logisztikai szoftvert fejlesztesz, valószínűleg már szembesültél a papír alapú nyomon követés, elveszett aláírások és audit rémtámák problémáival. **Data Matrix PDF létrehozása**, amely HIBC LIC vonalkódot ágyaz be, megoldja ezeket a problémákat azáltal, hogy egy manipulációra érzékeny, géppel olvasható nyomot biztosít, amely túlél a nyomtatást, szkennelést és a szabályozói felülvizsgálatot. Ebben az útmutatóban pontosan megmutatjuk, hogyan **add hozzá a QR kód PDF** támogatást, valamint az Aztec és Data Matrix formátumokat a GroupDocs.Signature for Java használatával.
+Ha gyógyszeripari vagy egészségügyi logisztikai szoftvert fejlesztesz, valószínűleg már szembesültél a papír alapú nyomon követés, elveszett aláírások és audit rémtörténetek problémájával. **PDF aláírása vonalkóddal**—különösen egy HIBC Data Matrix vagy QR kóddal—egy manipulációra ellenálló, géppel olvasható nyomot hoz létre, amely túlél a nyomtatást, szkennelést és a szabályozói felülvizsgálatot. Ebben az útmutatóban pontosan megmutatjuk, hogyan adhatod hozzá a Data Matrix és QR vonalkódokat egy PDF-hez a GroupDocs.Signature for Java használatával.
 
 ## Gyors válaszok
 - **Melyik könyvtár kezeli a HIBC vonalkódokat Java-ban?** GroupDocs.Signature for Java.  
-- **Melyik vonalkód formátum a legkisebb?** Data Matrix – ideális kis címkékhez.  
-- **Hozzáadhatok mind QR, mind Data Matrix kódot ugyanahhoz a PDF-hez?** Igen, csak hozz létre külön `QrCodeSignOptions`-t.  
-- **Szükség van internetkapcsolatra futásidőben?** Nem, a könyvtár teljesen offline működik a telepítés után.  
+- **Melyik vonalkód formátum a legkompaktabb?** Data Matrix – ideális kis címkékhez.  
+- **Hozzáadhatok QR és Data Matrix kódot is ugyanahhoz a PDF-hez?** Igen, csak hozz létre külön `QrCodeSignOptions`.  
+- **Szükség van internetkapcsolatra futás közben?** Nem, a könyvtár teljesen offline működik a telepítés után.  
 - **Melyik Java verzió ajánlott?** Java 11+ a termelési szintű teljesítményhez.
 
 ## Mi az a HIBC vonalkód PDF aláírás?
-`Signature` osztály a GroupDocs.Signature for Java-ban PDF dokumentumot képvisel, és módszereket biztosít a HIBC vonalkódok digitális aláírásként történő beágyazásához. Egy PDF aláírásával HIBC vonalkóddal ellenőrizhető, manipulációra érzékeny rekordot hozol létre, amely a szállítási lánc bármely pontján szkennelhető.
+`Signature` a GroupDocs.Signature központi osztálya, amely PDF dokumentumot képvisel és lehetővé teszi digitális aláírások beágyazását. A `Signature` osztály a GroupDocs.Signature for Java-ban módszereket biztosít a HIBC vonalkódok digitális aláírásként történő beágyazásához. Egy PDF HIBC vonalkóddal való aláírásával ellenőrizhető, manipulációra ellenálló rekordot hozol létre, amely a szállít lánc bármely pontján szkennelt lehet.
 
-## Miért használjunk egyszerre Data Matrix és QR kódokat?
-A GroupDocs.Signature támogatja a **50+ bemeneti és kimeneti formátumot**, és képes több száz oldalas PDF-eket feldolgozni anélkül, hogy az egész fájlt a memóriába töltené. A Data Matrix használata sűrű, kis területű címkékhez és a QR a tágasabb dokumentumokhoz a legjobb egyensúlyt biztosítja az olvashatóság, az adatkapacitás (akár 4 296 karakter QR esetén) és a nyomtatási hely hatékonysága között.
+## Miért használjunk Data Matrix és QR kódokat együtt?
+A Data Matrix a legkisebb helyigényt biztosítja, miközben akár 2 335 alfanumerikus karaktert is tárolhat, így tökéletes a sűrű címketerületeken. A QR kódok ezzel szemben akár 4 296 karaktert támogatnak, és okostelefonok által univerzálisan olvashatók. Mindkettő kombinálása a legjobb egyensúlyt nyújtja a helyhatékonyság és az adatkapacitás között, biztosítva, hogy minden érintett – a raktári szkennerektől a mobilalkalmazásokig – el tudja olvasni a szükséges információkat.
 
-## Előkövetelmények
-- **JDK 11 vagy újabb** (Java 8 működik, de a Java 11+ ajánlott az optimális teljesítményhez).  
+## Előfeltételek
+- **JDK 11 vagy újabb** (Java 8 is működik, de a Java 11+ ajánlott a legjobb teljesítményhez).  
 - **IDE**, például IntelliJ IDEA, Eclipse vagy VS Code Java kiegészítőkkel.  
 - **Maven vagy Gradle** a függőségkezeléshez (példák alább).  
-- **Minta PDF** (például `sample.pdf`) a megvalósítás teszteléséhez.  
+- **Minta PDF** (pl. `sample.pdf`) a megvalósítás teszteléséhez.  
 - **Érvényes GroupDocs.Signature licenc** (ingyenes próba a fejlesztéshez, fizetett licenc a termeléshez).
 
-## A GroupDocs.Signature beállítása Java-hoz
+## A GroupDocs.Signature for Java beállítása
 
 ### Maven konfiguráció
 Add the dependency to your `pom.xml`:
@@ -118,20 +125,20 @@ Add the dependency to your `pom.xml`:
 ```
 
 ### Gradle konfiguráció
-Gradle projektekhez add ezt a `build.gradle`-hoz:
+For Gradle projects, add this to your `build.gradle`:
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
 ### Közvetlen letöltési lehetőség
-A JAR fájlt közvetlenül letöltheted a [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) oldalról, és manuálisan hozzáadhatod a projekt osztályútvonalához. Ez a megközelítés jól működik korlátozott hálózati környezetben.
+Letöltheted a JAR fájlt közvetlenül a [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) oldalról, és manuálisan hozzáadhatod a projekted osztályútvonalához. Ez a megközelítés jól működik korlátozott hálózati környezetekben.
 
 ### Licenc beszerzése
-Kérj ingyenes próba vagy ideiglenes licencet a GroupDocs-tól a vízjelek eltávolításához és az összes funkció feloldásához. A termelési telepítésekhez megvásárolt licenc szükséges.
+Kérj ingyenes próba vagy ideiglenes licencet a GroupDocs-tól a vízjelek eltávolításához és az összes funkció feloldásához. A termelési környezetekhez megvásárolt licenc szükséges.
 
-### Alap inicializálás
-A `Signature` osztály az összes aláírási művelet belépési pontja. Betölti a PDF-et, alkalmazza a vonalkódot, és kiírja az aláírt fájlt.
+### Alapvető inicializálás
+`Signature` is the entry point for all signing operations. It loads the PDF, applies the barcode, and writes the signed file.
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -145,9 +152,11 @@ class InitializeSignature {
 ```
 
 ## Hogyan hozzunk létre Data Matrix PDF-et HIBC vonalkóddal?
-Töltsd be a forrás PDF-et, konfigurálj egy `QrCodeSignOptions` objektumot a Data Matrix formátumhoz, és hívd meg a `sign()`‑t – ennyi szükséges a megfelelő HIBC Data Matrix vonalkód beágyazásához. A következő lépések pontosan végigvezetnek a szükséges kódon. A `QrCodeSignOptions` határozza meg a vonalkód aláírás beállításait, például a típust, a tartalmat, a méretet és a pozíciót.
+Példányosítsd a `Signature`-t a forrás PDF-eddel, állítsd be a `QrCodeSignOptions`-t **Data Matrix** formátumra, add meg a helyesen formázott HIBC karakterláncot, majd hívd meg a `sign()` metódust. A könyvtár a aláírt PDF-et a célhelyre írja, megőrizve a elrendezést és a vonalkódot manipulációra ellenálló aláírásként ágyazva.
 
-1. **Importáld a szükséges osztályokat** – ezek biztosítják a hozzáférést az aláírási motorhoz és a Data Matrix beállításokhoz.  
+`QrCodeSignOptions` határozza meg a vonalkód típusát, tartalmát, méretét és elhelyezését egy aláíráshoz.
+
+1. **Importáld a szükséges osztályokat** – ezek hozzáférést biztosítanak az aláírás motorhoz és a Data Matrix beállításokhoz.  
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -155,7 +164,7 @@ import com.groupdocs.signature.options.sign.QrCodeSignOptions;
 import com.groupdocs.signature.domain.qrcodes.QrCodeTypes;
 ```
 
-2. **Példányosítsd a `Signature` objektumot** abszolút útvonalakkal a forrás és a cél fájlokhoz.  
+2. **Példányosítsd a `Signature` objektumot** abszolút útvonalakkal a forrás és cél fájlokhoz.  
 
 ```java
 String sourceFilePath = "YOUR_DOCUMENT_DIRECTORY";
@@ -164,7 +173,7 @@ String destinFilePath = "YOUR_OUTPUT_DIRECTORY/SignWithHIBCLICQR.pdf";
 final Signature signature = new Signature(sourceFilePath);
 ```
 
-3. **Konfiguráld a Data Matrix beállításokat** – állítsd be a HIBC karakterláncot, válaszd a `QrCodeTypes.HIBCLICDataMatrix`‑t, és definiáld a elhelyezési koordinátákat. A `QrCodeTypes` felsorolja a HIBC aláírásokhoz támogatott vonalkód formátumokat.  
+3. **Állítsd be a Data Matrix opciókat** – add meg a HIBC karakterláncot, válaszd a `QrCodeTypes.HIBCLICDataMatrix`-t, és definiáld a pozíció koordinátákat. A `QrCodeTypes` felsorolja a HIBC aláírásokhoz támogatott vonalkód formátumokat.  
 
 ```java
 QrCodeSignOptions hibcLic_QR = new QrCodeSignOptions("A123PROD30917/75#422011907#GP293", QrCodeTypes.HIBCLICQR);
@@ -180,7 +189,7 @@ hibcLic_QR.setReturnContentType(FileType.PNG); // Specify return content type as
 signature.sign(destinFilePath, hibcLic_QR);
 ```
 
-5. **Szabadítsd fel az erőforrásokat** a fájlkezelők és a memória szivárgások elkerülése érdekében.  
+5. **Szabadítsd fel az erőforrásokat** a fájlkezelők és a memória szivárgás elkerülése érdekében.  
 
 ```java
 finally {
@@ -189,7 +198,7 @@ finally {
 ```
 
 ### Teljes működő példa
-Itt a teljes folyamat egyetlen blokkban (a helyőrzők a korábbi részletekből másolt pontos kódot jelölik):
+Here’s the full flow in a single block (the placeholders represent the exact code you’ll paste from the earlier snippets):
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -228,10 +237,12 @@ public class HibcQrSigning {
 ```
 
 #### Közvetlen válasz (40–70 szó)
-A **Data Matrix PDF létrehozásához** példányosítsd a `Signature`‑t a forrás PDF‑eddel, állítsd be a `QrCodeSignOptions`‑t `QrCodeTypes.HIBCLICDataMatrix`‑re, és adj meg egy helyesen formázott HIBC karakterláncot, majd hívd meg a `signature.sign(outputPath, options)`‑t. A könyvtár a aláírt PDF‑et a célhelyre írja, megőrizve a elrendezést és a vonalkódot manipulációra érzékeny aláírásként ágyazva be.
+A **Data Matrix PDF létrehozásához** példányosítsd a `Signature`-t a forrás PDF-eddel, állítsd be a `QrCodeSignOptions`-t `QrCodeTypes.HIBCLICDataMatrix`-re, és add meg a helyesen formázott HIBC karakterláncot, majd hívd meg a `signature.sign(outputPath, options)` metódust. A könyvtár a aláírt PDF-et a célhelyre írja, megőrizve az elrendezést és a vonalkódot manipulációra ellenálló aláírásként ágyazva.
 
-## Hogyan adjunk hozzá QR kód PDF-et a GroupDocs.Signature használatával?
-Töltsd be a PDF-et, konfiguráld a `QrCodeSignOptions`‑t a QR formátumhoz, és hívd meg a `sign()`‑t. Ez a két soros minta bármilyen PDF méretnél működik, és automatikusan méretezi a QR képet az optimális olvashatóság érdekében. A `QrCodeSignOptions` beállítja a QR vonalkód aláírást, beleértve a tartalmát és a vizuális tulajdonságait. A kódot a megadott koordináták alapján helyezi el, biztosítva, hogy ne fedje át a meglévő tartalmat, és nyomtatás után is beolvasható maradjon.
+## Hogyan adjunk hozzá QR kódot PDF-hez a GroupDocs.Signature használatával?
+Töltsd be a PDF-et, konfiguráld a `QrCodeSignOptions`-t a QR formátumra, és hívd meg a `sign()` metódust. A könyvtár a QR képet a olvashatóság érdekében méretezi, és a megadott koordináták alapján helyezi el, elkerülve a meglévő tartalommal való átfedést. Ez biztosítja, hogy a vonalkód nyomtatás után is szkennelt marad, és megfelel a HIBC szabványoknak.
+
+`QrCodeSignOptions` meghatározza a QR vonalkód tartalmát, méretét és pozícióját.
 
 1. **Importáld a QR‑specifikus osztályokat**  
 
@@ -243,7 +254,7 @@ hibcLic_AZ.setReturnContent(true); // Return content after signing
 hibcLic_AZ.setReturnContentType(FileType.PNG); // Specify return content type as PNG
 ```
 
-2. **Hozd létre és konfiguráld a QR beállításokat** – vedd figyelembe a `QrCodeTypes.HIBCLICQR` használatát.  
+2. **Hozd létre és konfiguráld a QR opciókat** – vedd figyelembe a `QrCodeTypes.HIBCLICQR` használatát.  
 
 ```java
 signature.sign(destinFilePath, hibcLic_AZ);
@@ -259,32 +270,34 @@ hibcLic_DM.setReturnContent(true); // Return content after signing
 hibcLic_DM.setReturnContentType(FileType.PNG); // Specify return content type as PNG
 ```
 
-> **Közvetlen válasz:** Használd a `QrCodeTypes.HIBCLICQR`‑t a `QrCodeSignOptions`‑ban, állítsd be a HIBC tartalom karakterláncot, helyezd el a kódot a `setLeft()` és `setTop()`‑al, majd hívd meg a `signature.sign(outputPath, options)`‑t. A QR vonalkód azonnal beágyazódik, készen áll a okostelefon vagy szkenner általi olvasásra.
+> **Közvetlen válasz:** Használd a `QrCodeTypes.HIBCLICQR`-t a `QrCodeSignOptions`-ban, állítsd be a HIBC tartalom karakterláncot, pozicionáld a kódot a `setLeft()` és `setTop()` metódusokkal, majd hívd meg a `signature.sign(outputPath, options)` metódust. A QR vonalkód azonnal beágyazódik, készen áll a okostelefon vagy szkenner általi olvasásra.
 
-## Gyakori hibák, amelyeket kerüljünk
+## Gyakori hibák, amelyeket el kell kerülni
 
 ### 1. Erőforrások felszabadításának elfelejtése
-**Helytelen:**  
+**Rossz:**  
 ```java
 Signature signature = new Signature("sample.pdf");
 signature.sign(destinFilePath, options);
 // Oops, no dispose() call
 ```  
-**Javítás:** Tedd a `Signature` használatát try‑with‑resources blokkba, vagy explicit módon hívd meg a `close()`‑t egy finally ágazatban.
+
+**Javítás:** Tedd a `Signature` használatát try‑with‑resources blokkba, vagy explicit módon hívd meg a `close()`-t egy finally ágon.
 
 ### 2. Helytelen HIBC formátumú karakterláncok használata
-**Helytelen:** Általános karakterláncok használata, mint például “12345”.  
-**Javítás:** Kövesd a HIBCC szabványt (például `A123PROD30917/75#422011907#GP293`). Ellenőrizd a [HIBCC online validator](https://www.hibcc.org/) segítségével.
+**Rossz:** Általános karakterláncok használata, mint például “12345”.  
+**Javítás:** Kövesd a HIBCC szabványt (pl. `A123PROD30917/75#422011907#GP293`). Ellenőrizd a [HIBCC online validator](https://www.hibcc.org/) segítségével.
 
-### 3. Fájlútvonalak hard‑kódolása
-**Helytelen:**  
+### 3. Fájlutak keménykódolása
+**Rossz:**  
 ```java
 String sourceFilePath = "C:/Users/John/Documents/test.pdf";
 ```  
-**Javítás:** Tárold az útvonalakat egy konfigurációs fájlban vagy környezeti változóban, és olvasd be futásidőben.
+
+**Javítás:** Tárold az útvonalakat egy konfigurációs fájlban vagy környezeti változóban, és olvasd be futás közben.
 
 ### 4. A vonalkód pozícióütközések figyelmen kívül hagyása
-Helyezd a vonalkódokat a meglévő szövegtől vagy aláírásoktól távol. Használj PDF koordinátákat (a kiindulópont bal alsó), és tesztelj egy nyomtatott mintával.
+Helyezd a vonalkódokat a meglévő szövegtől vagy aláírásoktól távolra. Használd a PDF koordinátákat (origó a bal alsó sarok), és teszteld nyomtatott mintával.
 
 ### 5. Valódi szkennerekkel való tesztelés hiánya
 Nyomtasd ki az aláírt PDF-et, és szkenneld le a munkafolyamatodban használt pontos hardverrel. Ellenőrizd az olvashatóságot különböző nyomtatási minőségeknél.
@@ -293,10 +306,10 @@ Nyomtasd ki az aláírt PDF-et, és szkenneld le a munkafolyamatodban használt 
 
 | Forgatókönyv | Ajánlott vonalkód | Miért megfelelő |
 |--------------|-------------------|------------------|
-| **Gyógyszerelosztás** | QR Code | Nagy adatkapacitás, széles körben szkennelhető okostelefonokkal. |
-| **Készletkezelés** | Data Matrix | Kis helyigény, ideális sűrű polc címkékhez. |
+| **Gyógyszeripari elosztás** | QR kód | Nagy adatkapacitás, okostelefonok által széles körben szkennelt. |
+| **Készletkezelés** | Data Matrix | Kicsi helyigény, ideális sűrű polc címkékhez. |
 | **Szabályozási megfelelés (FDA 21 CFR Part 11)** | QR + Data Matrix | A kettős formátum redundanciát és auditálhatóságot biztosít. |
-| **Orvosi eszköz nyomon követése** | Aztec Code | Kompakt méret működik a korlátozott helyű csomagoláson. |
+| **Orvosi eszköz nyomon követése** | Aztec kód | Kompakt méret, amely korlátozott helyű csomagoláson működik. |
 
 ## Teljesítménybeli megfontolások és legjobb gyakorlatok
 
@@ -315,55 +328,60 @@ for (String filePath : filesToSign) {
 ```
 
 - Hozz létre egy új `Signature` példányt fájlonként a memóriahasználat alacsonyan tartásához.  
-- Használj fix szálkészletet (`Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)`) a párhuzamos feldolgozáshoz, de figyeld a heap méretét, mivel minden `Signature` a teljes PDF-et a memóriában tartja.
+- Használj fix szálkészletet (`Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)`) a párhuzamos feldolgozáshoz, de figyeld a heap méretet, mivel minden `Signature` a teljes PDF-et memóriában tartja.
 
-### Könyvtárak naprakészen tartása
-A GroupDocs kiadások a feldolgozási sebességet akár **20 %**‑kal is javítják, és új HIBC megfelelőségi funkciókat adnak hozzá. Ütemezz negyedéves függőség-ellenőrzéseket.
+### Tartsd naprakészen a könyvtárakat
+A GroupDocs kiadások a feldolgozási sebességet akár **20 %**-kal is növelik, és új HIBC megfelelőségi funkciókat adnak hozzá. Ütemezz negyedéves függőség-ellenőrzéseket.
 
 ### Sablonok gyorsítótárazása
-Tölts be egy PDF sablont egyszer, klónozd minden vonalkód változathoz, és írd alá a klónokat. Ez csökkenti az I/O-t és felgyorsítja a nagy mennyiségű munkafolyamatokat.
+Tölts be egy PDF sablont egyszer, klónozd minden vonalkód variánshoz, és írd alá a klónokat. Ez csökkenti az I/O-t és felgyorsítja a nagy mennyiségű munkafolyamatokat.
 
-## Gyakran feltett kérdések
+## Gyakran ismételt kérdések
 
-**Q: Alá tudja-e írni a GroupDocs.Signature a PDF-en kívül más fájltípusokat?**  
-A: Igen, támogatja a DOCX, XLSX, PPTX, PNG, JPEG és TIFF formátumokat is ugyanazzal a vonalkód‑aláírási API‑val.
+**Q: Alá tudja írni a GroupDocs.Signature a PDF-en kívül más fájltípusokat is?**  
+A: Igen, támogatja a DOCX, XLSX, PPTX, PNG, JPEG és TIFF formátumokat is ugyanazzal a vonalkód‑aláírási API-val.
 
-**Q: Hogyan háríthatom el a “Invalid barcode content” hibákat?**  
-A: Ellenőrizd, hogy a HIBC karakterláncod pontosan követi-e a HIBCC szintaxist, használd az online validátort, és győződj meg róla, hogy a megfelelő `QrCodeTypes` konstans van használatban a választott formátumhoz.
+**Q: Hogyan hárítsam el a “Invalid barcode content” (Érvénytelen vonalkód tartalom) hibákat?**  
+A: Ellenőrizd, hogy a HIBC karakterláncod pontosan a HIBCC szintaxisnak megfelel, használd az online validátort, és győződj meg róla, hogy a megfelelő `QrCodeTypes` konstanst használod a kiválasztott formátumhoz.
 
 **Q: Mi a maximális adatkapacitás minden HIBC formátum esetén?**  
-A: QR ≈ 4 296 alfanumerikus karakter, Aztec ≈ 3 832 numerikus / 3 067 alfanumerikus, Data Matrix ≈ 3 116 numerikus / 2 335 alfanumerikus. A megbízható beolvasás érdekében tartsd a kódokat 200 karakter alatt.
+A: QR ≈ 4 296 alfanumerikus karakter, Aztec ≈ 3 832 numerikus / 3 067 alfanumerikus, Data Matrix ≈ 3 116 numerikus / 2 335 alfanumerikus. A kódokat 200 karakter alatt tartsd a legjobb szkennelési megbízhatóság érdekében.
 
-**Q: Lehet-e egy PDF-be több vonalkód típust beágyazni?**  
-A: Teljesen lehetséges. Hozz létre külön `QrCodeSignOptions` objektumokat különböző pozíciókkal, és minden egyeshez hívd meg a `signature.sign()`‑t. Csak ügyelj arra, hogy ne fedjék egymást.
+**Q: Lehetséges több vonalkódtípust beágyazni egy PDF-be?**  
+A: Természetesen. Hozz létre külön `QrCodeSignOptions` objektumokat különböző pozíciókkal, és hívd meg a `signature.sign()`-t minden egyeshez. Csak ügyelj arra, hogy ne fedjék egymást.
 
-**Q: Szükség van internetkapcsolatra aláíráskor futásidőben?**  
-A: Nem. Miután a JAR a classpath‑on van és a licenc aktiválva, minden művelet helyben, offline történik.
+**Q: Szükség van internetkapcsolatra a futás közbeni aláíráshoz?**  
+A: Nem. Miután a JAR a classpath-on van és a licenc aktiválva, minden művelet helyben történik.
 
 ## További források
 
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)  
-- [API Reference Guide](https://reference.groupdocs.com/signature/java/)  
-- [Latest Release Downloads](https://releases.groupdocs.com/signature/java/)  
-- [Purchase License](https://purchase.groupdocs.com/buy)  
-- [Get Free Trial](https://releases.groupdocs.com/signature/java/)  
-- [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)  
-- [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)
+- [GroupDocs.Signature for Java Dokumentáció](https://docs.groupdocs.com/signature/java/)  
+- [API Referencia útmutató](https://reference.groupdocs.com/signature/java/)  
+- [Legújabb kiadások letöltése](https://releases.groupdocs.com/signature/java/)  
+- [Licenc vásárlása](https://purchase.groupdocs.com/buy)  
+- [Ingyenes próba letöltése](https://releases.groupdocs.com/signature/java/)  
+- [Ideiglenes licenc kérése](https://purchase.groupdocs.com/temporary-license/)  
+- [GroupDocs Fórum](https://forum.groupdocs.com/c/signature/)  
 
 ---
 
-**Utolsó frissítés:** 2026-05-16  
-**Tesztelve ezzel:** GroupDocs.Signature 23.12 for Java  
+**Legutóbb frissítve:** 2026-09-15  
+**Tesztelve:** GroupDocs.Signature 23.12 for Java  
 **Szerző:** GroupDocs  
 
----
+## Kapcsolódó oktatóanyagok
+
+- [Barcode aláírás PDF létrehozása Java-ban – GroupDocs útmutató](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
+- [Barcode aláírás létrehozása Java-ban – PDF vonalkódok frissítése](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
+- [Hogyan olvassunk QR kódot PDF-ből Java és GroupDocs.Signature használatával](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
 
 ```java
 signature.sign(destinFilePath, hibcLic_DM);
 ```
 
-## Kapcsolódó oktatóanyagok
+{{< /blocks/products/pf/tutorial-page-section >}}
 
-- [Create Barcode Signature PDF in Java – GroupDocs Guide](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)  
-- [Create Barcode Signature in Java – Update PDF Barcodes](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)  
-- [How to read QR code PDF using Java and GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

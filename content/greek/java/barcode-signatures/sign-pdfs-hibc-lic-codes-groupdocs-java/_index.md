@@ -2,26 +2,34 @@
 categories:
 - Document Signing
 - Healthcare Integration
-date: '2026-05-16'
-description: Μάθετε πώς να δημιουργήσετε PDF Data Matrix και να προσθέσετε PDF QR
-  code χρησιμοποιώντας το GroupDocs.Signature για Java. Οδηγός βήμα‑βήμα για την υπογραφή
-  εγγράφων υγειονομικής περίθαλψης.
+date: '2026-09-15'
+description: Μάθετε πώς να υπογράψετε PDF με barcode χρησιμοποιώντας GroupDocs.Signature
+  για Java. Οδηγός βήμα προς βήμα για την προσθήκη Data Matrix και QR codes σε έγγραφα
+  υγειονομικής περίθαλψης.
 keywords:
-- create data matrix pdf
+- sign pdf with barcode
 - add qr code pdf
-- HIBC barcode Java
-lastmod: '2026-05-16'
-linktitle: Οδηγός Υπογραφής HIBC PDF σε Java
+- hibc barcode java
+- pdf signing java
+- healthcare barcode signing
+lastmod: '2026-09-15'
+linktitle: Οδηγός Υπογραφής PDF με HIBC σε Java
+og_description: Υπογράψτε PDF με barcode χρησιμοποιώντας GroupDocs.Signature για Java.
+  Μάθετε πώς να ενσωματώσετε Data Matrix και QR codes σε έγγραφα υγειονομικής περίθαλψης
+  σε λίγα βήματα.
+og_image_alt: 'Developer tutorial: sign PDF with HIBC barcode using GroupDocs.Signature
+  for Java'
+og_title: Υπογραφή PDF με barcode χρησιμοποιώντας HIBC σε Java – Οδηγός GroupDocs
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-16'
-  description: Learn how to create data matrix PDF and add QR code PDF using GroupDocs.Signature
-    for Java. Step‑by‑step guide for healthcare document signing.
-  headline: Create Data Matrix PDF with HIBC Barcode in Java
+  dateModified: '2026-09-15'
+  description: Learn how to sign PDF with barcode using GroupDocs.Signature for Java.
+    Step‑by‑step guide for adding Data Matrix and QR codes in healthcare documents.
+  headline: Sign PDF with barcode using HIBC in Java
   type: TechArticle
-- description: Learn how to create data matrix PDF and add QR code PDF using GroupDocs.Signature
-    for Java. Step‑by‑step guide for healthcare document signing.
-  name: Create Data Matrix PDF with HIBC Barcode in Java
+- description: Learn how to sign PDF with barcode using GroupDocs.Signature for Java.
+    Step‑by‑step guide for adding Data Matrix and QR codes in healthcare documents.
+  name: Sign PDF with barcode using HIBC in Java
   steps:
   - name: '**Import the required classes** – these give you access to the signature
       engine and Data Matrix options.'
@@ -68,46 +76,45 @@ schemas:
     question: Do I need an internet connection for signing at runtime?
   type: FAQPage
 tags:
-- java
-- pdf-signing
-- hibc
-- healthcare
+- sign pdf
 - barcode
-- pharmaceutical
-title: Δημιουργία PDF Data Matrix με HIBC Barcode σε Java
+- java
+- healthcare
+- groupdocs
+title: Πώς να υπογράψετε PDF με barcode χρησιμοποιώντας HIBC σε Java
 type: docs
 url: /el/java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/
 weight: 1
 ---
 
-# Δημιουργία Data Matrix PDF με HIBC Barcode σε Java
+# Υπογραφή PDF με barcode χρησιμοποιώντας HIBC σε Java
 
-Αν δημιουργείτε λογισμικό φαρμακευτικής ή υγειονομικής εφοδιαστικής αλυσίδας, πιθανότατα έχετε αντιμετωπίσει το πρόβλημα της παρακολούθησης με χαρτί, χαμένων υπογραφών και εφιάλτες ελέγχων. **Δημιουργώντας ένα Data Matrix PDF** που ενσωματώνει έναν κωδικό HIBC LIC λύνει αυτά τα προβλήματα παρέχοντας ένα αδιάβλητο, μηχανικά αναγνώσιμο ίχνος που αντέχει στην εκτύπωση, τη σάρωση και την κανονιστική ανασκόπηση. Σε αυτό το σεμινάριο θα δείτε ακριβώς πώς να **προσθέσετε υποστήριξη QR code PDF**, καθώς και μορφές Aztec και Data Matrix, χρησιμοποιώντας το GroupDocs.Signature for Java.
+Αν αναπτύσσετε λογισμικό φαρμακευτικής ή υγειονομικής εφοδιαστικής αλυσίδας, πιθανότατα έχετε αντιμετωπίσει το πρόβλημα της παρακολούθησης με χαρτί, χαμένων υπογραφών και εφιάλτες ελέγχων. **Η υπογραφή ενός PDF με barcode**—ιδιαίτερα με HIBC Data Matrix ή QR code—δημιουργεί ένα ανιχνεύσιμο, μηχανικά αναγνώσιμο ίχνος που αντέχει στην εκτύπωση, τη σάρωση και την κανονιστική ανασκόπηση. Σε αυτό το tutorial θα δείτε ακριβώς πώς να προσθέσετε τόσο Data Matrix όσο και QR barcodes σε ένα PDF χρησιμοποιώντας το GroupDocs.Signature for Java.
 
-## Γρήγορες Απαντήσεις
-- **Ποια βιβλιοθήκη διαχειρίζεται τους κωδικούς HIBC σε Java;** GroupDocs.Signature for Java.  
-- **Ποια μορφή κωδικού είναι η πιο συμπαγής;** Data Matrix – ιδανική για μικρές ετικέτες.  
+## Γρήγορες απαντήσεις
+- **Ποια βιβλιοθήκη διαχειρίζεται τα HIBC barcodes σε Java;** GroupDocs.Signature for Java.  
+- **Ποια μορφή barcode είναι η πιο συμπαγής;** Data Matrix – ιδανική για μικρές ετικέτες.  
 - **Μπορώ να προσθέσω τόσο QR όσο και Data Matrix στο ίδιο PDF;** Ναι, απλώς δημιουργήστε ξεχωριστά `QrCodeSignOptions`.  
 - **Χρειάζεται σύνδεση στο διαδίκτυο κατά την εκτέλεση;** Όχι, η βιβλιοθήκη λειτουργεί πλήρως offline μετά την εγκατάσταση.  
 - **Ποια έκδοση Java συνιστάται;** Java 11+ για απόδοση παραγωγικού επιπέδου.
 
-## Τι είναι η υπογραφή PDF με κωδικό HIBC;
-Η κλάση `Signature` στο GroupDocs.Signature for Java αντιπροσωπεύει ένα έγγραφο PDF και παρέχει μεθόδους για ενσωμάτωση κωδικών HIBC ως ψηφιακές υπογραφές. Με την υπογραφή ενός PDF με κωδικό HIBC δημιουργείτε ένα επαληθεύσιμο, αδιάβλητο αρχείο που μπορεί να σαρωθεί σε οποιοδήποτε σημείο της εφοδιαστικής αλυσίδας.
+## Τι είναι η υπογραφή PDF με HIBC barcode;
+`Signature` είναι η βασική κλάση του GroupDocs.Signature που αντιπροσωπεύει ένα PDF έγγραφο και επιτρέπει την ενσωμάτωση ψηφιακών υπογραφών. Η κλάση `Signature` στο GroupDocs.Signature for Java παρέχει μεθόδους για την ενσωμάτωση HIBC barcode ως ψηφιακές υπογραφές. Υπογράφοντας ένα PDF με HIBC barcode δημιουργείτε ένα επαληθεύσιμο, ανιχνεύσιμο αρχείο που μπορεί να σαρωθεί σε οποιοδήποτε σημείο της εφοδιαστικής αλυσίδας.
 
-## Γιατί να χρησιμοποιήσετε Data Matrix και QR codes μαζί;
-Το GroupDocs.Signature υποστηρίζει **50+ μορφές εισόδου και εξόδου** και μπορεί να επεξεργαστεί PDF πολλών εκατοντάδων σελίδων χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη. Η χρήση Data Matrix για πυκνές, μικρής περιοχής ετικέτες και QR για πιο ευρύχωρα έγγραφα προσφέρει την καλύτερη ισορροπία μεταξύ αναγνωσιμότητας, χωρητικότητας δεδομένων (έως 4.296 χαρακτήρες για QR) και αποδοτικότητας χώρου εκτύπωσης.
+## Γιατί να χρησιμοποιήσετε μαζί Data Matrix και QR codes;
+Data Matrix προσφέρει το μικρότερο αποτύπωμα ενώ μπορεί να περιέχει έως 2.335 αλφαριθμητικούς χαρακτήρες, καθιστώντας το τέλειο για πυκνά περιοχές ετικετών. QR codes, από την άλλη, υποστηρίζουν έως 4.296 χαρακτήρες και είναι καθολικά αναγνώσιμα από smartphones. Ο συνδυασμός και των δύο παρέχει την καλύτερη ισορροπία μεταξύ αποδοτικότητας χώρου και χωρητικότητας δεδομένων, εξασφαλίζοντας ότι κάθε ενδιαφερόμενος—από σαρωτές αποθήκης μέχρι κινητές εφαρμογές—μπορεί να διαβάσει τις πληροφορίες που χρειάζεται.
 
 ## Προαπαιτούμενα
-- **JDK 11 ή νεότερο** (Java 8 λειτουργεί αλλά συνιστάται Java 11+ για βέλτιστη απόδοση).  
+- **JDK 11 ή νεότερο** (Java 8 λειτουργεί αλλά το Java 11+ συνιστάται για βέλτιστη απόδοση).  
 - **IDE** όπως IntelliJ IDEA, Eclipse ή VS Code με επεκτάσεις Java.  
 - **Maven ή Gradle** για διαχείριση εξαρτήσεων (παραδείγματα παρακάτω).  
 - **Δείγμα PDF** (π.χ., `sample.pdf`) για δοκιμή της υλοποίησης.  
-- **Έγκυρη άδεια GroupDocs.Signature** (δωρεάν δοκιμή για ανάπτυξη, επί πληρωμή για παραγωγή).
+- **Έγκυρη άδεια GroupDocs.Signature** (δωρεάν δοκιμή για ανάπτυξη, επί πληρωμή άδεια για παραγωγή).
 
-## Ρύθμιση GroupDocs.Signature για Java
+## Ρύθμιση του GroupDocs.Signature για Java
 
 ### Διαμόρφωση Maven
-Προσθέστε την εξάρτηση στο `pom.xml` σας:
+Add the dependency to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -118,20 +125,20 @@ weight: 1
 ```
 
 ### Διαμόρφωση Gradle
-Για έργα Gradle, προσθέστε αυτό στο `build.gradle`:
+For Gradle projects, add this to your `build.gradle`:
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-### Επιλογή Άμεσης Λήψης
-Μπορείτε επίσης να κατεβάσετε το αρχείο JAR απευθείας από [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) και να το προσθέσετε στο classpath του έργου σας χειροκίνητα. Αυτή η προσέγγιση λειτουργεί καλά σε περιβάλλοντα με περιορισμένο δίκτυο.
+### Επιλογή άμεσης λήψης
+You can also download the JAR file directly from [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) and add it to your project’s classpath manually. This approach works well in restricted‑network environments.
 
-### Απόκτηση Άδειας
-Ζητήστε δωρεάν δοκιμή ή προσωρινή άδεια από το GroupDocs για να αφαιρέσετε τα υδατογραφήματα και να ξεκλειδώσετε όλες τις λειτουργίες. Οι παραγωγικές εγκαταστάσεις απαιτούν αγορασμένη άδεια.
+### Απόκτηση άδειας
+Request a free trial or temporary license from GroupDocs to remove watermarks and unlock all features. Production deployments require a purchased license.
 
-### Βασική Αρχικοποίηση
-Η κλάση `Signature` είναι το σημείο εισόδου για όλες τις λειτουργίες υπογραφής. Φορτώνει το PDF, εφαρμόζει τον κωδικό και γράφει το υπογεγραμμένο αρχείο.
+### Βασική αρχικοποίηση
+`Signature` is the entry point for all signing operations. It loads the PDF, applies the barcode, and writes the signed file.
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -144,10 +151,12 @@ class InitializeSignature {
 }
 ```
 
-## Πώς να δημιουργήσετε Data Matrix PDF με κωδικό HIBC;
-Φορτώστε το πηγαίο PDF, διαμορφώστε ένα αντικείμενο `QrCodeSignOptions` για τη μορφή Data Matrix και καλέστε `sign()` – αυτό είναι ό,τι χρειάζεστε για την ενσωμάτωση ενός συμβατού κωδικού HIBC Data Matrix. Τα παρακάτω βήματα σας καθοδηγούν μέσα από τον ακριβή κώδικα που απαιτείται. Το `QrCodeSignOptions` ορίζει τις ρυθμίσεις για μια υπογραφή κωδικού, όπως τύπο, περιεχόμενο, μέγεθος και θέση.
+## Πώς να δημιουργήσετε PDF Data Matrix με HIBC barcode;
+Instantiate `Signature` with your source PDF, set `QrCodeSignOptions` to the **Data Matrix** format, provide a correctly formatted HIBC string, and call `sign()`. The library writes the signed PDF to the destination, preserving layout and embedding the barcode as a tamper‑evident signature.
 
-1. **Εισαγωγή των απαιτούμενων κλάσεων** – αυτές σας δίνουν πρόσβαση στη μηχανή υπογραφής και στις επιλογές Data Matrix.  
+`QrCodeSignOptions` specifies the barcode type, content, size, and placement for a signature.
+
+1. **Import the required classes** – these give you access to the signature engine and Data Matrix options.  
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -155,7 +164,7 @@ import com.groupdocs.signature.options.sign.QrCodeSignOptions;
 import com.groupdocs.signature.domain.qrcodes.QrCodeTypes;
 ```
 
-2. **Δημιουργία του αντικειμένου `Signature`** με απόλυτες διαδρομές για τα αρχεία προέλευσης και προορισμού.  
+2. **Instantiate the `Signature` object** with absolute paths for source and destination files.  
 
 ```java
 String sourceFilePath = "YOUR_DOCUMENT_DIRECTORY";
@@ -164,7 +173,7 @@ String destinFilePath = "YOUR_OUTPUT_DIRECTORY/SignWithHIBCLICQR.pdf";
 final Signature signature = new Signature(sourceFilePath);
 ```
 
-3. **Διαμόρφωση των επιλογών Data Matrix** – ορίστε τη συμβολοσειρά HIBC, επιλέξτε `QrCodeTypes.HIBCLICDataMatrix` και καθορίστε τις συντεταγμένες τοποθέτησης. Το `QrCodeTypes` απαριθμεί τις υποστηριζόμενες μορφές κωδικού για υπογραφές HIBC.  
+3. **Configure the Data Matrix options** – set the HIBC string, choose `QrCodeTypes.HIBCLICDataMatrix`, and define placement coordinates. `QrCodeTypes` enumerates the supported barcode formats for HIBC signatures.  
 
 ```java
 QrCodeSignOptions hibcLic_QR = new QrCodeSignOptions("A123PROD30917/75#422011907#GP293", QrCodeTypes.HIBCLICQR);
@@ -174,13 +183,13 @@ hibcLic_QR.setReturnContent(true); // Return content after signing
 hibcLic_QR.setReturnContentType(FileType.PNG); // Specify return content type as PNG
 ```
 
-4. **Εφαρμογή της υπογραφής** στο PDF.  
+4. **Apply the signature** to the PDF.  
 
 ```java
 signature.sign(destinFilePath, hibcLic_QR);
 ```
 
-5. **Απελευθέρωση πόρων** για να κλείσετε τα αρχεία και να αποφύγετε διαρροές μνήμης.  
+5. **Dispose of resources** to free file handles and avoid memory leaks.  
 
 ```java
 finally {
@@ -189,7 +198,7 @@ finally {
 ```
 
 ### Πλήρες λειτουργικό παράδειγμα
-Ακολουθεί η πλήρης ροή σε ένα ενιαίο μπλοκ (οι θέσεις κράτησης αντιπροσωπεύουν τον ακριβή κώδικα που θα επικολλήσετε από τα προηγούμενα αποσπάσματα):
+Here’s the full flow in a single block (the placeholders represent the exact code you’ll paste from the earlier snippets):
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -228,12 +237,14 @@ public class HibcQrSigning {
 ```
 
 #### Άμεση απάντηση (40–70 λέξεις)
-Για **δημιουργία Data Matrix PDF**, δημιουργήστε ένα `Signature` με το πηγαίο PDF, ορίστε `QrCodeSignOptions` σε `QrCodeTypes.HIBCLICDataMatrix` και παρέχετε μια σωστά μορφοποιημένη συμβολοσειρά HIBC, στη συνέχεια καλέστε `signature.sign(outputPath, options)`. Η βιβλιοθήκη γράφει το υπογεγραμμένο PDF στον προορισμό, διατηρώντας τη διάταξη και ενσωματώνοντας τον κωδικό ως αδιάβλητη υπογραφή.
+To **create a Data Matrix PDF**, instantiate `Signature` with your source PDF, set `QrCodeSignOptions` to `QrCodeTypes.HIBCLICDataMatrix` and provide a correctly formatted HIBC string, then call `signature.sign(outputPath, options)`. The library writes the signed PDF to the destination, preserving layout and embedding the barcode as a tamper‑evident signature.
 
 ## Πώς να προσθέσετε QR code PDF χρησιμοποιώντας το GroupDocs.Signature;
-Φορτώστε το PDF, διαμορφώστε `QrCodeSignOptions` για τη μορφή QR και καλέστε `sign()`. Αυτό το μοτίβο δύο γραμμών λειτουργεί για οποιοδήποτε μέγεθος PDF και κλιμακώνει αυτόματα την εικόνα QR για βέλτιστη αναγνωσιμότητα. Το `QrCodeSignOptions` διαμορφώνει την υπογραφή κωδικού QR, συμπεριλαμβανομένου του περιεχομένου και των οπτικών ιδιοτήτων του. Τοποθετεί τον κωδικό βάσει των συντεταγμένων που ορίζετε, εξασφαλίζοντας ότι δεν επικαλύπτεται με υπάρχον περιεχόμενο και παραμένει σαρώσιμο μετά την εκτύπωση.
+Load the PDF, configure `QrCodeSignOptions` for the QR format, and call `sign()`. The library scales the QR image for readability and positions it based on the coordinates you set, avoiding overlap with existing content. This ensures the barcode remains scannable after printing and complies with HIBC standards.
 
-1. **Εισαγωγή κλάσεων ειδικών για QR**  
+`QrCodeSignOptions` defines the QR barcode’s content, size, and position.
+
+1. **Import QR‑specific classes**  
 
 ```java
 QrCodeSignOptions hibcLic_AZ = new QrCodeSignOptions("A123PROD30917/75#422011907#GP293", QrCodeTypes.HIBCLICAztec);
@@ -243,13 +254,13 @@ hibcLic_AZ.setReturnContent(true); // Return content after signing
 hibcLic_AZ.setReturnContentType(FileType.PNG); // Specify return content type as PNG
 ```
 
-2. **Δημιουργία και διαμόρφωση επιλογών QR** – σημειώστε τη χρήση του `QrCodeTypes.HIBCLICQR`.  
+2. **Create and configure QR options** – note the use of `QrCodeTypes.HIBCLICQR`.  
 
 ```java
 signature.sign(destinFilePath, hibcLic_AZ);
 ```
 
-3. **Υπογραφή του εγγράφου**  
+3. **Sign the document**  
 
 ```java
 QrCodeSignOptions hibcLic_DM = new QrCodeSignOptions("A123PROD30917/75#422011907#GP293", QrCodeTypes.HIBCLICDataMatrix);
@@ -259,50 +270,50 @@ hibcLic_DM.setReturnContent(true); // Return content after signing
 hibcLic_DM.setReturnContentType(FileType.PNG); // Specify return content type as PNG
 ```
 
-> **Άμεση απάντηση:** Χρησιμοποιήστε `QrCodeTypes.HIBCLICQR` στο `QrCodeSignOptions`, ορίστε τη συμβολοσειρά περιεχομένου HIBC, τοποθετήστε τον κωδικό με `setLeft()` και `setTop()`, στη συνέχεια καλέστε `signature.sign(outputPath, options)`. Ο κωδικός QR ενσωματώνεται άμεσα, έτοιμος για λήψη από smartphone ή σαρωτή.
+> **Direct answer:** Use `QrCodeTypes.HIBCLICQR` in `QrCodeSignOptions`, set the HIBC content string, position the code with `setLeft()` and `setTop()`, then call `signature.sign(outputPath, options)`. The QR barcode is embedded instantly, ready for smartphone or scanner capture.
 
-## Συνηθισμένα Λάθη που Πρέπει να Αποφύγετε
+## Συνηθισμένα λάθη προς αποφυγή
 
-### 1. Παράλειψη Απελευθέρωσης Πόρων
-**Λάθος:**  
+### 1. Παράλειψη απελευθέρωσης πόρων
+**Wrong:**  
 ```java
 Signature signature = new Signature("sample.pdf");
 signature.sign(destinFilePath, options);
 // Oops, no dispose() call
 ```  
 
-**Διόρθωση:** Τυλίξτε τη χρήση του `Signature` σε μπλοκ try‑with‑resources ή καλέστε ρητά `close()` σε τελικό τμήμα.
+**Fix:** Wrap the `Signature` usage in a try‑with‑resources block or explicitly call `close()` in a finally clause.
 
-### 2. Χρήση Λανθασμένων Συμβολοσειρών HIBC
-**Λάθος:** Χρήση γενικών συμβολοσειρών όπως “12345”.  
-**Διόρθωση:** Ακολουθήστε το πρότυπο HIBCC (π.χ., `A123PROD30917/75#422011907#GP293`). Επαληθεύστε με τον [HIBCC online validator](https://www.hibcc.org/).
+### 2. Χρήση λανθασμένων συμβολοσειρών μορφής HIBC
+**Wrong:** Using generic strings like “12345”.  
+**Fix:** Follow the HIBCC standard (e.g., `A123PROD30917/75#422011907#GP293`). Validate with the [HIBCC online validator](https://www.hibcc.org/).
 
-### 3. Σκληρή Κωδικοποίηση Διαδρομών Αρχείων
-**Λάθος:**  
+### 3. Σκληρή κωδικοποίηση διαδρομών αρχείων
+**Wrong:**  
 ```java
 String sourceFilePath = "C:/Users/John/Documents/test.pdf";
 ```  
 
-**Διόρθωση:** Αποθηκεύστε τις διαδρομές σε αρχείο ρυθμίσεων ή μεταβλητή περιβάλλοντος και διαβάστε τις κατά την εκτέλεση.
+**Fix:** Store paths in a configuration file or environment variable and read them at runtime.
 
-### 4. Παράβλεψη Συγκρούσεων Θέσης Κωδικού
-Τοποθετήστε τους κωδικούς μακριά από υπάρχον κείμενο ή υπογραφές. Χρησιμοποιήστε συντεταγμένες PDF (η αρχή είναι κάτω‑αριστερά) και δοκιμάστε με τυπωμένο δείγμα.
+### 4. Αγνόηση συγκρούσεων θέσης barcode
+Place barcodes away from existing text or signatures. Use PDF coordinates (origin is bottom‑left) and test with a printed sample.
 
-### 5. Μη Δοκιμή με Πραγματικούς Σαρωτές
-Τυπώστε το υπογεγραμμένο PDF και σαρώστε το με το ακριβές υλικό που χρησιμοποιείται στη ροή εργασίας σας. Επαληθεύστε την αναγνωσιμότητα σε διαφορετικές ποιότητες εκτύπωσης.
+### 5. Μη δοκιμή με πραγματικούς σαρωτές
+Print the signed PDF and scan it with the exact hardware used in your workflow. Verify readability at different print qualities.
 
-## Πρακτικές Εφαρμογές στην Υγεία
+## Πρακτικές εφαρμογές στην υγειονομική περίθαλψη
 
-| Σενάριο | Προτεινόμενος Κωδικός | Γιατί ταιριάζει |
-|----------|--------------------|--------------|
-| **Διανομή φαρμακευτικών προϊόντων** | QR Code | Υψηλή χωρητικότητα δεδομένων, ευρέως σαρωμένο από smartphones. |
+| Σενάριο | Συνιστώμενο barcode | Γιατί ταιριάζει |
+|----------|--------------------|-------------------|
+| **Φαρμακευτική διανομή** | QR Code | Υψηλή χωρητικότητα δεδομένων, ευρέως σαρωμένο από smartphones. |
 | **Διαχείριση αποθεμάτων** | Data Matrix | Μικρό αποτύπωμα, ιδανικό για πυκνές ετικέτες ραφιών. |
 | **Κανονιστική συμμόρφωση (FDA 21 CFR Part 11)** | QR + Data Matrix | Διπλή μορφή παρέχει εφεδρεία και δυνατότητα ελέγχου. |
-| **Παρακολούθηση ιατρικών συσκευών** | Aztec Code | Συμπαγές μέγεθος λειτουργεί σε περιορισμένο χώρο συσκευασίας. |
+| **Παρακολούθηση ιατρικών συσκευών** | Aztec Code | Συμπαγές μέγεθος λειτουργεί σε συσκευασία περιορισμένου χώρου. |
 
-## Σκέψεις Απόδοσης και Καλές Πρακτικές
+## Σκέψεις απόδοσης και βέλτιστες πρακτικές
 
-### Μοτίβο Μαζικής Επεξεργασίας
+### Μοτίβο επεξεργασίας παρτίδας
 ```java
 List<String> filesToSign = getFileList();
 for (String filePath : filesToSign) {
@@ -316,56 +327,61 @@ for (String filePath : filesToSign) {
 }
 ```
 
-- Δημιουργήστε νέο αντικείμενο `Signature` ανά αρχείο για να κρατήσετε τη χρήση μνήμης χαμηλή.  
-- Χρησιμοποιήστε σταθερό thread pool (`Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)`) για παράλληλη επεξεργασία, αλλά παρακολουθείτε το μέγεθος heap επειδή κάθε `Signature` κρατά ολόκληρο το PDF στη μνήμη.  
+- Create a new `Signature` instance per file to keep memory usage low.  
+- Use a fixed thread pool (`Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)`) for parallel processing, but monitor heap size because each `Signature` holds the full PDF in memory.  
+- Keep libraries updated  
+GroupDocs releases improve processing speed by up to **20 %** and add new HIBC compliance features. Schedule quarterly dependency checks.  
+- Caching templates  
+Load a PDF template once, clone it for each barcode variant, and sign the clones. This reduces I/O and speeds up high‑volume workflows.
 
-### Διατήρηση Ενημερωμένων Βιβλιοθηκών
-Οι εκδόσεις του GroupDocs βελτιώνουν την ταχύτητα επεξεργασίας έως **20 %** και προσθέτουν νέες λειτουργίες συμμόρφωσης HIBC. Προγραμματίστε τριμηνιαίους ελέγχους εξαρτήσεων.
+## Συχνές ερωτήσεις
 
-### Caching Προτύπων
-Φορτώστε ένα πρότυπο PDF μία φορά, κλωνοποιήστε το για κάθε παραλλαγή κωδικού και υπογράψτε τα κλώνα. Αυτό μειώνει το I/O και επιταχύνει τις εργασίες υψηλού όγκου.
+**Q: Μπορεί το GroupDocs.Signature να υπογράψει τύπους αρχείων εκτός του PDF;**  
+A: Ναι, υποστηρίζει επίσης DOCX, XLSX, PPTX, PNG, JPEG και TIFF με το ίδιο API υπογραφής barcode.
 
-## Συχνές Ερωτήσεις
+**Q: Πώς αντιμετωπίζω τα σφάλματα “Invalid barcode content”;**  
+A: Επαληθεύστε ότι η HIBC συμβολοσειρά ακολουθεί ακριβώς τη σύνταξη HIBCC, χρησιμοποιήστε τον online validator και βεβαιωθείτε ότι χρησιμοποιείτε τη σωστή σταθερά `QrCodeTypes` για τη μορφή που έχετε επιλέξει.
 
-**Ε: Μπορεί το GroupDocs.Signature να υπογράψει τύπους αρχείων εκτός του PDF;**  
-Α: Ναι, υποστηρίζει επίσης DOCX, XLSX, PPTX, PNG, JPEG και TIFF με το ίδιο API υπογραφής κωδικού.
+**Q: Ποια είναι η μέγιστη χωρητικότητα δεδομένων για κάθε μορφή HIBC;**  
+A: QR ≈ 4.296 αλφαριθμητικούς χαρακτήρες, Aztec ≈ 3.832 αριθμητικούς / 3.067 αλφαριθμητικούς, Data Matrix ≈ 3.116 αριθμητικούς / 2.335 αλφαριθμητικούς. Κρατήστε τους κώδικες κάτω από 200 χαρακτήρες για βέλτιστη αξιοπιστία σάρωσης.
 
-**Ε: Πώς αντιμετωπίζω σφάλματα “Invalid barcode content”;**  
-Α: Επαληθεύστε ότι η συμβολοσειρά HIBC ακολουθεί ακριβώς τη σύνταξη HIBCC, χρησιμοποιήστε τον online validator και βεβαιωθείτε ότι χρησιμοποιείτε τη σωστή σταθερά `QrCodeTypes` για τη μορφή που επιλέξατε.
+**Q: Είναι δυνατόν να ενσωματωθούν πολλαπλοί τύποι barcode σε ένα PDF;**  
+A: Απόλυτα. Δημιουργήστε ξεχωριστά αντικείμενα `QrCodeSignOptions` με διαφορετικές θέσεις και καλέστε `signature.sign()` για το καθένα. Απλώς βεβαιωθείτε ότι δεν επικαλύπτονται.
 
-**Ε: Ποια είναι η μέγιστη χωρητικότητα δεδομένων για κάθε μορφή HIBC;**  
-Α: QR ≈ 4.296 αλφαριθμητικούς χαρακτήρες, Aztec ≈ 3.832 αριθμητικούς / 3.067 αλφαριθμητικούς, Data Matrix ≈ 3.116 αριθμητικούς / 2.335 αλφαριθμητικούς. Κρατήστε τους κωδικούς κάτω από 200 χαρακτήρες για βέλτιστη αξιοπιστία σάρωσης.
+**Q: Χρειάζεται σύνδεση στο διαδίκτυο για υπογραφή κατά την εκτέλεση;**  
+A: Όχι. Αφού το JAR βρίσκεται στο classpath και η άδεια ενεργοποιηθεί, όλες οι λειτουργίες εκτελούνται τοπικά.
 
-**Ε: Είναι δυνατόν να ενσωματώσω πολλαπλούς τύπους κωδικού σε ένα PDF;**  
-Α: Απόλυτα. Δημιουργήστε ξεχωριστά αντικείμενα `QrCodeSignOptions` με διαφορετικές θέσεις και καλέστε `signature.sign()` για το καθένα. Απλώς βεβαιωθείτε ότι δεν επικαλύπτονται.
+## Πρόσθετοι πόροι
 
-**Ε: Χρειάζεται σύνδεση στο διαδίκτυο για υπογραφή κατά την εκτέλεση;**  
-Α: Όχι. Μόλις το JAR είναι στο classpath και η άδεια ενεργοποιηθεί, όλες οι λειτουργίες εκτελούνται τοπικά.
-
-## Πρόσθετοι Πόροι
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)  
-- [API Reference Guide](https://reference.groupdocs.com/signature/java/)  
-- [Latest Release Downloads](https://releases.groupdocs.com/signature/java/)  
-- [Purchase License](https://purchase.groupdocs.com/buy)  
-- [Get Free Trial](https://releases.groupdocs.com/signature/java/)  
-- [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)  
-- [GroupDocs Forum](https://forum.groupdocs.com/c/signature/)
+- [Τεκμηρίωση GroupDocs.Signature για Java](https://docs.groupdocs.com/signature/java/)  
+- [Οδηγός Αναφοράς API](https://reference.groupdocs.com/signature/java/)  
+- [Τελευταίες Εκδόσεις για Λήψη](https://releases.groupdocs.com/signature/java/)  
+- [Αγορά Άδειας](https://purchase.groupdocs.com/buy)  
+- [Λήψη Δωρεάν Δοκιμής](https://releases.groupdocs.com/signature/java/)  
+- [Αίτηση Προσωρινής Άδειας](https://purchase.groupdocs.com/temporary-license/)  
+- [Φόρουμ GroupDocs](https://forum.groupdocs.com/c/signature/)  
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-05-16  
+**Τελευταία ενημέρωση:** 2026-09-15  
 **Δοκιμασμένο με:** GroupDocs.Signature 23.12 for Java  
 **Συγγραφέας:** GroupDocs  
 
 ---
 
+## Σχετικά μαθήματα
+
+- [Δημιουργία Barcode Υπογραφής PDF σε Java – Οδηγός GroupDocs](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
+- [Δημιουργία Barcode Υπογραφής σε Java – Ενημέρωση Barcode PDF](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
+- [Πώς να διαβάσετε QR code PDF χρησιμοποιώντας Java και GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+
 ```java
 signature.sign(destinFilePath, hibcLic_DM);
 ```
 
-## Σχετικά Μαθήματα
+{{< /blocks/products/pf/tutorial-page-section >}}
 
-- [Create Barcode Signature PDF in Java – GroupDocs Guide](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
-- [Create Barcode Signature in Java – Update PDF Barcodes](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
-- [How to read QR code PDF using Java and GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

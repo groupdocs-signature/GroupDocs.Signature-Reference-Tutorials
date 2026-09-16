@@ -2,24 +2,32 @@
 categories:
 - Document Signing
 - Healthcare Integration
-date: '2026-05-16'
-description: 了解如何使用 GroupDocs.Signature for Java 創建 Data Matrix PDF 並添加 QR code PDF。一步一步的醫療文件簽署指南。
+date: '2026-09-15'
+description: 了解如何使用 GroupDocs.Signature for Java 以條碼簽署 PDF。一步一步的指南，教您在醫療文件中加入 Data
+  Matrix 與 QR 代碼。
 keywords:
-- create data matrix pdf
+- sign pdf with barcode
 - add qr code pdf
-- HIBC barcode Java
-lastmod: '2026-05-16'
+- hibc barcode java
+- pdf signing java
+- healthcare barcode signing
+lastmod: '2026-09-15'
 linktitle: HIBC PDF 簽署 Java 指南
+og_description: 使用 GroupDocs.Signature for Java 以條碼簽署 PDF。了解如何在幾個步驟內於醫療文件中嵌入 Data
+  Matrix 與 QR 代碼。
+og_image_alt: 'Developer tutorial: sign PDF with HIBC barcode using GroupDocs.Signature
+  for Java'
+og_title: 使用 HIBC 於 Java 中以條碼簽署 PDF – GroupDocs 指南
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-16'
-  description: Learn how to create data matrix PDF and add QR code PDF using GroupDocs.Signature
-    for Java. Step‑by‑step guide for healthcare document signing.
-  headline: Create Data Matrix PDF with HIBC Barcode in Java
+  dateModified: '2026-09-15'
+  description: Learn how to sign PDF with barcode using GroupDocs.Signature for Java.
+    Step‑by‑step guide for adding Data Matrix and QR codes in healthcare documents.
+  headline: Sign PDF with barcode using HIBC in Java
   type: TechArticle
-- description: Learn how to create data matrix PDF and add QR code PDF using GroupDocs.Signature
-    for Java. Step‑by‑step guide for healthcare document signing.
-  name: Create Data Matrix PDF with HIBC Barcode in Java
+- description: Learn how to sign PDF with barcode using GroupDocs.Signature for Java.
+    Step‑by‑step guide for adding Data Matrix and QR codes in healthcare documents.
+  name: Sign PDF with barcode using HIBC in Java
   steps:
   - name: '**Import the required classes** – these give you access to the signature
       engine and Data Matrix options.'
@@ -66,46 +74,45 @@ schemas:
     question: Do I need an internet connection for signing at runtime?
   type: FAQPage
 tags:
-- java
-- pdf-signing
-- hibc
-- healthcare
+- sign pdf
 - barcode
-- pharmaceutical
-title: 使用 Java 創建帶 HIBC 條碼的 Data Matrix PDF
+- java
+- healthcare
+- groupdocs
+title: 如何在 Java 中使用 HIBC 條碼簽署 PDF
 type: docs
 url: /zh-hant/java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/
 weight: 1
 ---
 
-# 建立含 HIBC 條碼的 Data Matrix PDF（Java）
+# 使用 HIBC 在 Java 中以條碼簽署 PDF
 
-如果您正在開發製藥或醫療保健物流軟件，可能已經遇到紙本追蹤、簽名遺失以及稽核噩夢的問題。**建立 Data Matrix PDF** 嵌入 HIBC LIC 條碼可透過提供防篡改、機器可讀的追蹤，解決印刷、掃描及法規審查等挑戰。在本教學中，您將會看到如何 **加入 QR code PDF** 支援，以及 Aztec 與 Data Matrix 格式，使用 GroupDocs.Signature for Java。
+如果您正在開發製藥或醫療保健物流軟件，可能已經遇到紙本追蹤、簽名遺失以及稽核噩夢的問題。**以條碼簽署 PDF**——尤其是 HIBC Data Matrix 或 QR 代碼——可建立防篡改、機器可讀的痕跡，能在列印、掃描和法規審查中存活。於本教學中，您將看到如何使用 GroupDocs.Signature for Java 為 PDF 添加 Data Matrix 與 QR 條碼。
 
-## 快速解答
+## 快速回答
 - **什麼程式庫在 Java 中處理 HIBC 條碼？** GroupDocs.Signature for Java。  
 - **哪種條碼格式最緊湊？** Data Matrix – 適用於小尺寸標籤。  
-- **我可以在同一個 PDF 中同時加入 QR 與 Data Matrix 嗎？** 可以，只需建立不同的 `QrCodeSignOptions`。  
+- **我可以在同一 PDF 中同時加入 QR 與 Data Matrix 嗎？** 可以，只需建立分別的 `QrCodeSignOptions`。  
 - **執行時需要網際網路連線嗎？** 不需要，程式庫安裝後即可完全離線運作。  
-- **建議使用哪個 Java 版本？** Java 11+ 以獲得正式環境的效能。
+- **建議使用哪個 Java 版本？** Java 11+ 以獲得生產等級的效能。
 
 ## 什麼是 HIBC 條碼 PDF 簽署？
-`Signature` 類別（屬於 GroupDocs.Signature for Java）代表 PDF 文件，並提供將 HIBC 條碼嵌入為數位簽章的方法。透過以 HIBC 條碼簽署 PDF，您可建立可驗證且防篡改的紀錄，供供應鏈任何階段掃描使用。
+`Signature` 是 GroupDocs.Signature 的核心類別，代表 PDF 文件並允許嵌入數位簽章。GroupDocs.Signature for Java 中的 `Signature` 類別提供將 HIBC 條碼作為數位簽章嵌入的方法。透過以 HIBC 條碼簽署 PDF，您可建立可驗證、防篡改的記錄，供供應鏈任何階段掃描。
 
-## 為何同時使用 Data Matrix 與 QR 條碼？
-GroupDocs.Signature 支援 **超過 50 種輸入與輸出格式**，且能在不將整個檔案載入記憶體的情況下處理數百頁的 PDF。將 Data Matrix 用於密集且面積小的標籤，並使用 QR 於較大空間的文件，可在可讀性、資料容量（QR 最多可容納 4,296 個字元）以及列印空間效率之間取得最佳平衡。
+## 為何同時使用 Data Matrix 與 QR 代碼？
+Data Matrix 具最小的佔位空間，同時可容納多達 2,335 個字母數字字元，適合密集標籤區域。相較之下，QR 代碼支援最高 4,296 個字元，且可被智慧手機普遍讀取。結合兩者可在空間效率與資料容量之間取得最佳平衡，確保所有利害關係人——從倉庫掃描器到行動應用程式——皆能讀取所需資訊。
 
 ## 前置條件
-- **JDK 11 或以上**（Java 8 仍可使用，但建議使用 Java 11+ 以獲得最佳效能）。  
+- **JDK 11 或更高**（Java 8 亦可使用，但建議使用 Java 11+ 以獲得最佳效能）。  
 - **IDE** 如 IntelliJ IDEA、Eclipse 或具 Java 擴充功能的 VS Code。  
-- **Maven 或 Gradle** 用於相依性管理（以下範例）。  
+- **Maven 或 Gradle** 用於相依管理（以下示例）。  
 - **範例 PDF**（例如 `sample.pdf`）以測試實作。  
 - **有效的 GroupDocs.Signature 授權**（開發可使用免費試用，正式環境需購買授權）。
 
 ## 設定 GroupDocs.Signature for Java
 
 ### Maven 設定
-Add the dependency to your `pom.xml`:
+將相依加入您的 `pom.xml`：
 
 ```xml
 <dependency>
@@ -116,20 +123,20 @@ Add the dependency to your `pom.xml`:
 ```
 
 ### Gradle 設定
-For Gradle projects, add this to your `build.gradle`:
+對於 Gradle 專案，將以下內容加入您的 `build.gradle`：
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-### 直接下載方式
-您也可以直接從 [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) 下載 JAR 檔，並手動加入專案的 classpath。此方式在受限網路環境下運作良好。
+### 直接下載選項
+您亦可直接從 [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) 下載 JAR 檔，手動加入專案的 classpath。此方式在受限網路環境中表現良好。
 
 ### 取得授權
-向 GroupDocs 申請免費試用或臨時授權，以移除浮水印並解鎖全部功能。正式上線需購買授權。
+向 GroupDocs 申請免費試用或臨時授權，以移除浮水印並解鎖全部功能。正式部署需購買授權。
 
 ### 基本初始化
-The `Signature` class is the entry point for all signing operations. It loads the PDF, applies the barcode, and writes the signed file.
+`Signature` 為所有簽署操作的入口點。它會載入 PDF、套用條碼，並寫入已簽署的檔案。
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -142,11 +149,11 @@ class InitializeSignature {
 }
 ```
 
-## 如何建立含 HIBC 條碼的 Data Matrix PDF？
+## 如何使用 HIBC 條碼建立 Data Matrix PDF？
+實例化 `Signature` 並傳入來源 PDF，將 `QrCodeSignOptions` 設為 **Data Matrix** 格式，提供正確格式的 HIBC 字串，然後呼叫 `sign()`。程式庫會將已簽署的 PDF 寫入目標位置，保留版面配置，並將條碼嵌入為防篡改簽章。  
+`QrCodeSignOptions` 指定條碼類型、內容、大小與簽章的放置位置。
 
-載入來源 PDF，為 Data Matrix 格式配置 `QrCodeSignOptions` 物件，然後呼叫 `sign()`——這就是嵌入符合 HIBC 標準的 Data Matrix 條碼所需的全部步驟。以下步驟將逐步說明所需的程式碼。`QrCodeSignOptions` 定義條碼簽章的設定，例如類型、內容、尺寸與位置。
-
-1. **匯入所需的類別** – 取得簽章引擎與 Data Matrix 設定的存取權。
+1. **匯入所需類別** – 取得簽章引擎與 Data Matrix 選項的存取權。  
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -154,7 +161,7 @@ import com.groupdocs.signature.options.sign.QrCodeSignOptions;
 import com.groupdocs.signature.domain.qrcodes.QrCodeTypes;
 ```
 
-2. **建立 `Signature` 物件**，使用來源與目標檔案的絕對路徑。
+2. **實例化 `Signature` 物件**，使用來源與目標檔案的絕對路徑。  
 
 ```java
 String sourceFilePath = "YOUR_DOCUMENT_DIRECTORY";
@@ -163,7 +170,7 @@ String destinFilePath = "YOUR_OUTPUT_DIRECTORY/SignWithHIBCLICQR.pdf";
 final Signature signature = new Signature(sourceFilePath);
 ```
 
-3. **設定 Data Matrix 選項** – 設定 HIBC 字串、選擇 `QrCodeTypes.HIBCLICDataMatrix`，並定義放置座標。`QrCodeTypes` 列舉了 HIBC 簽章支援的條碼格式。
+3. **設定 Data Matrix 選項** – 設定 HIBC 字串、選擇 `QrCodeTypes.HIBCLICDataMatrix`，並定義放置座標。`QrCodeTypes` 列舉了 HIBC 簽章支援的條碼格式。  
 
 ```java
 QrCodeSignOptions hibcLic_QR = new QrCodeSignOptions("A123PROD30917/75#422011907#GP293", QrCodeTypes.HIBCLICQR);
@@ -173,13 +180,13 @@ hibcLic_QR.setReturnContent(true); // Return content after signing
 hibcLic_QR.setReturnContentType(FileType.PNG); // Specify return content type as PNG
 ```
 
-4. **將簽章套用** 至 PDF。
+4. **套用簽章** 至 PDF。  
 
 ```java
 signature.sign(destinFilePath, hibcLic_QR);
 ```
 
-5. **釋放資源**，以關閉檔案句柄並避免記憶體洩漏。
+5. **釋放資源**，以釋放檔案句柄並避免記憶體洩漏。  
 
 ```java
 finally {
@@ -188,7 +195,7 @@ finally {
 ```
 
 ### 完整範例
-Here’s the full flow in a single block (the placeholders represent the exact code you’ll paste from the earlier snippets):
+以下是一個完整流程的單一程式碼區塊（占位符代表您先前片段中的實際程式碼）：
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -226,12 +233,12 @@ public class HibcQrSigning {
 }
 ```
 
-#### 直接答案（40–70 字）
-要 **建立 Data Matrix PDF**，先以來源 PDF 建立 `Signature`，將 `QrCodeSignOptions` 設為 `QrCodeTypes.HIBCLICDataMatrix` 並提供正確格式的 HIBC 字串，最後呼叫 `signature.sign(outputPath, options)`。程式庫會將簽署後的 PDF 寫入目標位置，保留版面配置並將條碼嵌入為防篡改簽章。
+#### 直接回答（40–70 字）
+要 **建立 Data Matrix PDF**，先以來源 PDF 實例化 `Signature`，將 `QrCodeSignOptions` 設為 `QrCodeTypes.HIBCLICDataMatrix` 並提供正確格式的 HIBC 字串，然後呼叫 `signature.sign(outputPath, options)`。程式庫會將已簽署的 PDF 寫入目標位置，保留版面配置，並將條碼嵌入為防篡改簽章。
 
-## 如何使用 GroupDocs.Signature 在 PDF 中加入 QR 條碼？
-
-載入 PDF，為 QR 格式配置 `QrCodeSignOptions`，然後呼叫 `sign()`。此兩行程式碼模式適用於任何尺寸的 PDF，且會自動縮放 QR 圖片以達到最佳可讀性。`QrCodeSignOptions` 設定 QR 條碼簽章，包括內容與視覺屬性。它會根據您設定的座標定位條碼，確保不與現有內容重疊，且列印後仍可掃描。
+## 如何使用 GroupDocs.Signature 為 PDF 加入 QR 代碼？
+載入 PDF，為 QR 格式設定 `QrCodeSignOptions`，然後呼叫 `sign()`。程式庫會調整 QR 圖片大小以確保可讀性，並根據您設定的座標定位，避免與現有內容重疊。此方式確保條碼在列印後仍可掃描，且符合 HIBC 標準。  
+`QrCodeSignOptions` 定義 QR 條碼的內容、大小與位置。
 
 1. **匯入 QR 專屬類別**  
 
@@ -259,47 +266,47 @@ hibcLic_DM.setReturnContent(true); // Return content after signing
 hibcLic_DM.setReturnContentType(FileType.PNG); // Specify return content type as PNG
 ```
 
-> **直接答案：** 在 `QrCodeSignOptions` 中使用 `QrCodeTypes.HIBCLICQR`，設定 HIBC 內容字串，使用 `setLeft()` 與 `setTop()` 位置條碼，最後呼叫 `signature.sign(outputPath, options)`。QR 條碼即時嵌入，可供手機或掃描器捕捉。
+> **直接回答：** 在 `QrCodeSignOptions` 中使用 `QrCodeTypes.HIBCLICQR`，設定 HIBC 內容字串，使用 `setLeft()` 與 `setTop()` 位置條碼，然後呼叫 `signature.sign(outputPath, options)`。QR 條碼會即時嵌入，隨時可供智慧手機或掃描器捕捉。
 
 ## 常見錯誤須避免
 
 ### 1. 忘記釋放資源
-**錯誤範例：**  
-
+**錯誤：**  
 ```java
 Signature signature = new Signature("sample.pdf");
 signature.sign(destinFilePath, options);
 // Oops, no dispose() call
 ```  
 
-**修正方式：** 將 `Signature` 的使用包在 try‑with‑resources 區塊，或在 finally 中明確呼叫 `close()`。
+**修正：**  
+將 `Signature` 的使用包在 try‑with‑resources 區塊，或在 finally 子句中明確呼叫 `close()`。
 
 ### 2. 使用不正確的 HIBC 格式字串
-**錯誤範例：** 使用像 “12345” 這樣的通用字串。  
-**修正方式：** 依照 HIBCC 標準（例如 `A123PROD30917/75#422011907#GP293`），並使用 [HIBCC online validator](https://www.hibcc.org/) 進行驗證。
+**錯誤：** 使用類似 “12345” 的通用字串。  
+**修正：** 依照 HIBCC 標準（例如 `A123PROD30917/75#422011907#GP293`）。可使用 [HIBCC online validator](https://www.hibcc.org/) 進行驗證。
 
 ### 3. 硬編碼檔案路徑
-**錯誤範例：**  
+**錯誤：**  
 ```java
 String sourceFilePath = "C:/Users/John/Documents/test.pdf";
 ```  
 
-**修正方式：** 將路徑存於設定檔或環境變數，於執行時讀取。
+**修正：** 將路徑存於設定檔或環境變數，於執行時讀取。
 
 ### 4. 忽視條碼位置衝突
-將條碼放置於現有文字或簽章之外。使用 PDF 座標系統（原點位於左下角），並以列印樣本測試。
+將條碼放置於現有文字或簽章之外。使用 PDF 座標系統（原點在左下角），並以列印樣本測試。
 
 ### 5. 未使用實體掃描器測試
-列印簽署後的 PDF，並使用工作流程中相同的硬體掃描。驗證不同列印品質下的可讀性。
+列印已簽署的 PDF，並使用工作流程中相同的硬體掃描。驗證在不同列印品質下的可讀性。
 
-## 醫療保健領域的實務應用
+## 醫療保健的實務應用
 
 | 情境 | 建議條碼 | 適用原因 |
 |----------|--------------------|--------------|
-| **藥品分銷** | QR 條碼 | 資料容量大，手機普遍可掃描。 |
+| **藥品分銷** | QR Code | 高資料容量，智慧手機廣泛掃描。 |
 | **庫存管理** | Data Matrix | 佔位小，適合密集貨架標籤。 |
 | **法規遵循（FDA 21 CFR Part 11）** | QR + Data Matrix | 雙格式提供冗餘與稽核能力。 |
-| **醫療器材追蹤** | Aztec 條碼 | 尺寸緊湊，適用於空間受限的包裝。 |
+| **醫療器材追蹤** | Aztec Code | 尺寸緊湊，適用於有限空間的包裝。 |
 
 ## 效能考量與最佳實踐
 
@@ -318,53 +325,60 @@ for (String filePath : filesToSign) {
 ```
 
 - 為每個檔案建立新的 `Signature` 實例，以降低記憶體使用量。  
-- 使用固定執行緒池（`Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)`）進行平行處理，但需監控堆積大小，因為每個 `Signature` 會將整個 PDF 載入記憶體。
+- 使用固定執行緒池（`Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)`）進行平行處理，但需監控堆積大小，因每個 `Signature` 會將整個 PDF 載入記憶體。
 
 ### 保持函式庫更新
-GroupDocs 的新版本可提升處理速度最高 **20 %**，並加入新的 HIBC 合規功能。建議每季檢查相依性更新。
+GroupDocs 的新版本可提升處理速度最高 **20 %**，並加入新的 HIBC 合規功能。建議每季檢查相依性。
 
-### 快取模板
-先載入 PDF 模板一次，為每種條碼變體複製一份，再對複製件簽署。此方式減少 I/O 並加速大量工作流程。
+### 快取範本
+一次載入 PDF 範本，為每種條碼變體克隆後再簽署。此方式減少 I/O，提升大量工作流程的速度。
 
-## 常見問題
+## 常見問答
 
 **Q: GroupDocs.Signature 能簽署除 PDF 之外的檔案類型嗎？**  
-A: 可以，它亦支援 DOCX、XLSX、PPTX、PNG、JPEG 與 TIFF，使用相同的條碼簽章 API。
+A: 可以，它同樣支援 DOCX、XLSX、PPTX、PNG、JPEG 與 TIFF，使用相同的條碼簽署 API。
 
 **Q: 如何排除 “Invalid barcode content” 錯誤？**  
 A: 確認您的 HIBC 字串符合 HIBCC 語法，使用線上驗證工具，並確保使用正確的 `QrCodeTypes` 常數對應所選格式。
 
 **Q: 各 HIBC 格式的最大資料容量為何？**  
-A: QR ≈ 4,296 個英數字元，Aztec ≈ 3,832 個數字 / 3,067 個英數字元，Data Matrix ≈ 3,116 個數字 / 2,335 個英數字元。建議將條碼長度控制在 200 個字元以確保掃描可靠性。
+A: QR ≈ 4,296 個字母數字字元，Aztec ≈ 3,832 個數字 / 3,067 個字母數字，Data Matrix ≈ 3,116 個數字 / 2,335 個字母數字。為確保掃描可靠性，建議將碼長度控制在 200 個字元以內。
 
-**Q: 能在同一個 PDF 中嵌入多種條碼類型嗎？**  
-A: 完全可以。為不同位置建立獨立的 `QrCodeSignOptions` 物件，分別呼叫 `signature.sign()`。只要確保條碼不重疊即可。
+**Q: 能在同一 PDF 中嵌入多種條碼類型嗎？**  
+A: 完全可以。建立不同位置的 `QrCodeSignOptions` 物件，分別呼叫 `signature.sign()`。只要確保它們不重疊即可。
 
-**Q: 執行時簽署需要網路連線嗎？**  
-A: 不需要。只要 JAR 放在 classpath 並啟用授權，所有操作皆在本機完成。
+**Q: 執行時簽署需要網際網路連線嗎？**  
+A: 不需要。只要 JAR 在 classpath 且授權已啟用，所有操作皆在本機完成。
 
 ## 其他資源
 
-- [GroupDocs.Signature for Java 文件說明](https://docs.groupdocs.com/signature/java/)  
+- [GroupDocs.Signature for Java 文件](https://docs.groupdocs.com/signature/java/)  
 - [API 參考指南](https://reference.groupdocs.com/signature/java/)  
 - [最新發行下載](https://releases.groupdocs.com/signature/java/)  
 - [購買授權](https://purchase.groupdocs.com/buy)  
 - [取得免費試用](https://releases.groupdocs.com/signature/java/)  
 - [申請臨時授權](https://purchase.groupdocs.com/temporary-license/)  
-- [GroupDocs 論壇](https://forum.groupdocs.com/c/signature/)
+- [GroupDocs 論壇](https://forum.groupdocs.com/c/signature/)  
 
 ---
 
-**最後更新：** 2026-05-16  
+**最後更新：** 2026-09-15  
 **測試環境：** GroupDocs.Signature 23.12 for Java  
 **作者：** GroupDocs  
-
-```java
-signature.sign(destinFilePath, hibcLic_DM);
-```
 
 ## 相關教學
 
 - [在 Java 中建立條碼簽章 PDF – GroupDocs 指南](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
 - [在 Java 中建立條碼簽章 – 更新 PDF 條碼](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
-- [如何使用 Java 與 GroupDocs.Signature 讀取 QR 條碼 PDF](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+- [如何使用 Java 與 GroupDocs.Signature 讀取 QR 代碼 PDF](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+
+```java
+signature.sign(destinFilePath, hibcLic_DM);
+```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -2,26 +2,33 @@
 categories:
 - Document Signing
 - Healthcare Integration
-date: '2026-05-16'
-description: Aprenda como criar PDF Data Matrix e adicionar PDF de código QR usando
-  GroupDocs.Signature para Java. Guia passo a passo para assinatura de documentos
+date: '2026-09-15'
+description: Aprenda a assinar PDF com código de barras usando GroupDocs.Signature
+  para Java. Guia passo a passo para adicionar Data Matrix e códigos QR em documentos
   de saúde.
 keywords:
-- create data matrix pdf
+- sign pdf with barcode
 - add qr code pdf
-- HIBC barcode Java
-lastmod: '2026-05-16'
-linktitle: Guia de Assinatura de PDF HIBC em Java
+- hibc barcode java
+- pdf signing java
+- healthcare barcode signing
+lastmod: '2026-09-15'
+linktitle: Guia de assinatura de PDF HIBC em Java
+og_description: Assine PDF com código de barras usando GroupDocs.Signature para Java.
+  Aprenda a incorporar Data Matrix e códigos QR em documentos de saúde em poucos passos.
+og_image_alt: 'Developer tutorial: sign PDF with HIBC barcode using GroupDocs.Signature
+  for Java'
+og_title: Assine PDF com código de barras usando HIBC em Java – Guia GroupDocs
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-16'
-  description: Learn how to create data matrix PDF and add QR code PDF using GroupDocs.Signature
-    for Java. Step‑by‑step guide for healthcare document signing.
-  headline: Create Data Matrix PDF with HIBC Barcode in Java
+  dateModified: '2026-09-15'
+  description: Learn how to sign PDF with barcode using GroupDocs.Signature for Java.
+    Step‑by‑step guide for adding Data Matrix and QR codes in healthcare documents.
+  headline: Sign PDF with barcode using HIBC in Java
   type: TechArticle
-- description: Learn how to create data matrix PDF and add QR code PDF using GroupDocs.Signature
-    for Java. Step‑by‑step guide for healthcare document signing.
-  name: Create Data Matrix PDF with HIBC Barcode in Java
+- description: Learn how to sign PDF with barcode using GroupDocs.Signature for Java.
+    Step‑by‑step guide for adding Data Matrix and QR codes in healthcare documents.
+  name: Sign PDF with barcode using HIBC in Java
   steps:
   - name: '**Import the required classes** – these give you access to the signature
       engine and Data Matrix options.'
@@ -68,36 +75,35 @@ schemas:
     question: Do I need an internet connection for signing at runtime?
   type: FAQPage
 tags:
-- java
-- pdf-signing
-- hibc
-- healthcare
+- sign pdf
 - barcode
-- pharmaceutical
-title: Criar PDF Data Matrix com Código de Barras HIBC em Java
+- java
+- healthcare
+- groupdocs
+title: Como assinar PDF com código de barras usando HIBC em Java
 type: docs
 url: /pt/java/barcode-signatures/sign-pdfs-hibc-lic-codes-groupdocs-java/
 weight: 1
 ---
 
-# Criar PDF Data Matrix com Código de Barras HIBC em Java
+# Assinar PDF com código de barras usando HIBC em Java
 
-Se você está desenvolvendo software de logística farmacêutica ou de saúde, provavelmente já se deparou com o problema de rastreamento baseado em papel, assinaturas perdidas e pesadelos de auditoria. **Criar um PDF Data Matrix** que incorpora um código de barras HIBC LIC resolve esses problemas ao fornecer um rastro à prova de violação, legível por máquina, que resiste à impressão, digitalização e revisão regulatória. Neste tutorial você verá exatamente como **adicionar suporte a PDF com código QR**, bem como aos formatos Aztec e Data Matrix, usando o GroupDocs.Signature para Java.
+Se você está desenvolvendo software de logística farmacêutica ou de saúde, provavelmente já se deparou com o problema de rastreamento baseado em papel, assinaturas perdidas e pesadelos de auditoria. **Assinar um PDF com código de barras** — especialmente um Data Matrix ou QR code HIBC — cria um rastro à prova de violação, legível por máquina, que sobrevive à impressão, digitalização e revisão regulatória. Neste tutorial você verá exatamente como adicionar códigos Data Matrix e QR a um PDF usando GroupDocs.Signature para Java.
 
-## Respostas Rápidas
-- **Qual biblioteca manipula códigos de barras HIBC em Java?** GroupDocs.Signature para Java.  
-- **Qual formato de código de barras é o mais compacto?** Data Matrix – ideal para rótulos pequenos.  
+## Respostas rápidas
+- **Qual biblioteca manipula códigos de barras HIBC em Java?** GroupDocs.Signature for Java.  
+- **Qual formato de código de barras é mais compacto?** Data Matrix – ideal para rótulos pequenos.  
 - **Posso adicionar QR e Data Matrix ao mesmo PDF?** Sim, basta criar `QrCodeSignOptions` separados.  
-- **Preciso de conexão com a internet em tempo de execução?** Não, a biblioteca funciona totalmente offline após a instalação.  
+- **Preciso de conexão à internet em tempo de execução?** Não, a biblioteca funciona totalmente offline após a instalação.  
 - **Qual versão do Java é recomendada?** Java 11+ para desempenho de nível de produção.
 
 ## O que é assinatura de PDF com código de barras HIBC?
-A classe `Signature` no GroupDocs.Signature para Java representa um documento PDF e fornece métodos para incorporar códigos de barras HIBC como assinaturas digitais. Ao assinar um PDF com um código de barras HIBC, você cria um registro verificável e à prova de violação que pode ser escaneado em qualquer ponto da cadeia de suprimentos.
+`Signature` é a classe central do GroupDocs.Signature que representa um documento PDF e permite a incorporação de assinaturas digitais. A classe `Signature` no GroupDocs.Signature para Java fornece métodos para incorporar códigos de barras HIBC como assinaturas digitais. Ao assinar um PDF com um código de barras HIBC, você cria um registro verificável e à prova de violação que pode ser escaneado em qualquer ponto da cadeia de suprimentos.
 
 ## Por que usar Data Matrix e códigos QR juntos?
-O GroupDocs.Signature suporta **mais de 50 formatos de entrada e saída** e pode processar PDFs com centenas de páginas sem carregar o arquivo inteiro na memória. Usar Data Matrix para rótulos densos e de área pequena e QR para documentos mais espaçosos oferece o melhor equilíbrio entre legibilidade, capacidade de dados (até 4.296 caracteres para QR) e eficiência de espaço de impressão.
+Data Matrix oferece a menor área ocupada enquanto ainda suporta até 2.335 caracteres alfanuméricos, tornando‑o perfeito para áreas de rótulos densos. Os códigos QR, por outro lado, suportam até 4.296 caracteres e são universalmente legíveis por smartphones. Combinar ambos oferece o melhor equilíbrio entre eficiência de espaço e capacidade de dados, garantindo que todas as partes interessadas — de scanners de armazém a aplicativos móveis — possam ler as informações necessárias.
 
-## Pré‑requisitos
+## Pré-requisitos
 - **JDK 11 ou superior** (Java 8 funciona, mas Java 11+ é recomendado para desempenho ideal).  
 - **IDE** como IntelliJ IDEA, Eclipse ou VS Code com extensões Java.  
 - **Maven ou Gradle** para gerenciamento de dependências (exemplos abaixo).  
@@ -107,7 +113,7 @@ O GroupDocs.Signature suporta **mais de 50 formatos de entrada e saída** e pode
 ## Configurando GroupDocs.Signature para Java
 
 ### Configuração Maven
-Adicione a dependência ao seu `pom.xml`:
+Add the dependency to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -118,20 +124,20 @@ Adicione a dependência ao seu `pom.xml`:
 ```
 
 ### Configuração Gradle
-Para projetos Gradle, adicione isto ao seu `build.gradle`:
+For Gradle projects, add this to your `build.gradle`:
 
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-### Opção de Download Direto
-Você também pode baixar o arquivo JAR diretamente em [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) e adicioná‑lo ao classpath do seu projeto manualmente. Essa abordagem funciona bem em ambientes com rede restrita.
+### Opção de download direto
+Você também pode baixar o arquivo JAR diretamente de [GroupDocs.Signature for Java releases](https://releases.groupdocs.com/signature/java/) e adicioná‑lo ao classpath do seu projeto manualmente. Esta abordagem funciona bem em ambientes de rede restrita.
 
-### Obtendo uma Licença
-Solicite um teste gratuito ou licença temporária ao GroupDocs para remover marcas d'água e desbloquear todos os recursos. Implantações em produção exigem licença adquirida.
+### Obtendo uma licença
+Solicite um teste gratuito ou licença temporária da GroupDocs para remover marcas d'água e desbloquear todos os recursos. Implantações em produção exigem uma licença adquirida.
 
-### Inicialização Básica
-A classe `Signature` é o ponto de entrada para todas as operações de assinatura. Ela carrega o PDF, aplica o código de barras e grava o arquivo assinado.
+### Inicialização básica
+`Signature` é o ponto de entrada para todas as operações de assinatura. Ele carrega o PDF, aplica o código de barras e grava o arquivo assinado.
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -145,9 +151,11 @@ class InitializeSignature {
 ```
 
 ## Como criar um PDF Data Matrix com código de barras HIBC?
-Carregue seu PDF de origem, configure um objeto `QrCodeSignOptions` para o formato Data Matrix e chame `sign()` – isso é tudo que você precisa para incorporar um código de barras HIBC Data Matrix compatível. As etapas a seguir mostram o código exato necessário. `QrCodeSignOptions` define as configurações para uma assinatura de código de barras, como tipo, conteúdo, tamanho e posição.
+Instancie `Signature` com seu PDF de origem, configure `QrCodeSignOptions` para o formato **Data Matrix**, forneça uma string HIBC formatada corretamente e chame `sign()`. A biblioteca grava o PDF assinado no destino, preservando o layout e incorporando o código de barras como uma assinatura à prova de violação.
 
-1. **Importe as classes necessárias** – elas dão acesso ao motor de assinatura e às opções de Data Matrix.  
+`QrCodeSignOptions` especifica o tipo de código de barras, conteúdo, tamanho e posicionamento para uma assinatura.
+
+1. **Importe as classes necessárias** – elas dão acesso ao mecanismo de assinatura e às opções de Data Matrix.  
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -164,7 +172,7 @@ String destinFilePath = "YOUR_OUTPUT_DIRECTORY/SignWithHIBCLICQR.pdf";
 final Signature signature = new Signature(sourceFilePath);
 ```
 
-3. **Configure as opções de Data Matrix** – defina a string HIBC, escolha `QrCodeTypes.HIBCLICDataMatrix` e defina as coordenadas de posicionamento. `QrCodeTypes` enumera os formatos de código de barras suportados para assinaturas HIBC.  
+3. **Configure as opções de Data Matrix** – defina a string HIBC, escolha `QrCodeTypes.HIBCLICDataMatrix` e estabeleça as coordenadas de posicionamento. `QrCodeTypes` enumera os formatos de código de barras suportados para assinaturas HIBC.  
 
 ```java
 QrCodeSignOptions hibcLic_QR = new QrCodeSignOptions("A123PROD30917/75#422011907#GP293", QrCodeTypes.HIBCLICQR);
@@ -189,7 +197,7 @@ finally {
 ```
 
 ### Exemplo completo em funcionamento
-Aqui está o fluxo completo em um único bloco (os marcadores representam o código exato que você colará dos trechos anteriores):
+Aqui está o fluxo completo em um único bloco (os placeholders representam o código exato que você colará dos trechos anteriores):
 
 ```java
 import com.groupdocs.signature.Signature;
@@ -228,12 +236,14 @@ public class HibcQrSigning {
 ```
 
 #### Resposta direta (40–70 palavras)
-Para **criar um PDF Data Matrix**, instancie `Signature` com seu PDF de origem, configure `QrCodeSignOptions` para `QrCodeTypes.HIBCLICDataMatrix` e forneça uma string HIBC formatada corretamente, então chame `signature.sign(outputPath, options)`. A biblioteca grava o PDF assinado no destino, preservando o layout e incorporando o código de barras como assinatura à prova de violação.
+Para **criar um PDF Data Matrix**, instancie `Signature` com seu PDF de origem, configure `QrCodeSignOptions` para `QrCodeTypes.HIBCLICDataMatrix` e forneça uma string HIBC formatada corretamente, então chame `signature.sign(outputPath, options)`. A biblioteca grava o PDF assinado no destino, preservando o layout e incorporando o código de barras como uma assinatura à prova de violação.
 
-## Como adicionar QR code PDF usando GroupDocs.Signature?
-Carregue o PDF, configure `QrCodeSignOptions` para o formato QR e invoque `sign()`. Esse padrão de duas linhas funciona para qualquer tamanho de PDF e dimensiona automaticamente a imagem QR para legibilidade ótima. `QrCodeSignOptions` configura a assinatura do código QR, incluindo seu conteúdo e propriedades visuais. Ele posiciona o código com base nas coordenadas definidas, garantindo que não sobreponha conteúdo existente e permaneça escaneável após a impressão.
+## Como adicionar QR code a PDF usando GroupDocs.Signature?
+Carregue o PDF, configure `QrCodeSignOptions` para o formato QR e chame `sign()`. A biblioteca dimensiona a imagem QR para legibilidade e a posiciona com base nas coordenadas definidas, evitando sobreposição com conteúdo existente. Isso garante que o código de barras permaneça escaneável após a impressão e esteja em conformidade com os padrões HIBC.
 
-1. **Importe classes específicas de QR**  
+`QrCodeSignOptions` define o conteúdo, tamanho e posição do código QR.
+
+1. **Importe as classes específicas de QR**  
 
 ```java
 QrCodeSignOptions hibcLic_AZ = new QrCodeSignOptions("A123PROD30917/75#422011907#GP293", QrCodeTypes.HIBCLICAztec);
@@ -261,9 +271,9 @@ hibcLic_DM.setReturnContentType(FileType.PNG); // Specify return content type as
 
 > **Resposta direta:** Use `QrCodeTypes.HIBCLICQR` em `QrCodeSignOptions`, defina a string de conteúdo HIBC, posicione o código com `setLeft()` e `setTop()`, então chame `signature.sign(outputPath, options)`. O código QR é incorporado instantaneamente, pronto para captura por smartphone ou scanner.
 
-## Erros Comuns a Evitar
+## Erros comuns a evitar
 
-### 1. Esquecer de Liberar Recursos
+### 1. Esquecer de liberar recursos
 **Errado:**  
 ```java
 Signature signature = new Signature("sample.pdf");
@@ -273,11 +283,11 @@ signature.sign(destinFilePath, options);
 
 **Correção:** Envolva o uso de `Signature` em um bloco try‑with‑resources ou chame explicitamente `close()` em um bloco finally.
 
-### 2. Usar Strings de Formato HIBC Incorretas
+### 2. Usar strings de formato HIBC incorretas
 **Errado:** Usar strings genéricas como “12345”.  
 **Correção:** Siga o padrão HIBCC (por exemplo, `A123PROD30917/75#422011907#GP293`). Valide com o [validador online HIBCC](https://www.hibcc.org/).
 
-### 3. Codificar Caminhos de Arquivo
+### 3. Codificar caminhos de arquivos diretamente
 **Errado:**  
 ```java
 String sourceFilePath = "C:/Users/John/Documents/test.pdf";
@@ -285,24 +295,24 @@ String sourceFilePath = "C:/Users/John/Documents/test.pdf";
 
 **Correção:** Armazene caminhos em um arquivo de configuração ou variável de ambiente e leia‑os em tempo de execução.
 
-### 4. Ignorar Conflitos de Posicionamento de Código de Barras
-Coloque os códigos de barras longe de texto ou assinaturas existentes. Use coordenadas PDF (origem no canto inferior esquerdo) e teste com uma amostra impressa.
+### 4. Ignorar conflitos de posicionamento de código de barras
+Posicione os códigos de barras longe de texto ou assinaturas existentes. Use coordenadas PDF (origem é canto inferior esquerdo) e teste com uma amostra impressa.
 
-### 5. Não Testar com Scanners Reais
-Imprima o PDF assinado e escaneie‑o com o hardware exato usado no seu fluxo de trabalho. Verifique a legibilidade em diferentes qualidades de impressão.
+### 5. Não testar com scanners reais
+Imprima o PDF assinado e escaneie‑o com o hardware exato usado em seu fluxo de trabalho. Verifique a legibilidade em diferentes qualidades de impressão.
 
-## Aplicações Práticas na Saúde
+## Aplicações práticas na área de saúde
 
-| Cenário | Código de Barras Recomendado | Por que se adequa |
-|----------|------------------------------|-------------------|
-| **Distribuição farmacêutica** | QR Code | Alta capacidade de dados, amplamente escaneado por smartphones. |
-| **Gestão de inventário** | Data Matrix | Pequena pegada, ideal para rótulos de prateleira densos. |
+| Cenário | Código de barras recomendado | Por que se adequa |
+|----------|-----------------------------|-------------------|
+| **Distribuição farmacêutica** | Código QR | Alta capacidade de dados, amplamente escaneado por smartphones. |
+| **Gestão de inventário** | Data Matrix | Pequena área ocupada, ideal para etiquetas de prateleira densas. |
 | **Conformidade regulatória (FDA 21 CFR Part 11)** | QR + Data Matrix | Formato duplo fornece redundância e auditabilidade. |
 | **Rastreamento de dispositivos médicos** | Aztec Code | Tamanho compacto funciona em embalagens com espaço limitado. |
 
-## Considerações de Desempenho e Melhores Práticas
+## Considerações de desempenho e boas práticas
 
-### Padrão de Processamento em Lote
+### Padrão de processamento em lote
 ```java
 List<String> filesToSign = getFileList();
 for (String filePath : filesToSign) {
@@ -316,33 +326,33 @@ for (String filePath : filesToSign) {
 }
 ```
 
-- Crie uma nova instância `Signature` por arquivo para manter o uso de memória baixo.  
+- Crie uma nova instância de `Signature` por arquivo para manter o uso de memória baixo.  
 - Use um pool de threads fixo (`Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)`) para processamento paralelo, mas monitore o tamanho do heap, pois cada `Signature` mantém o PDF completo na memória.  
 
-### Mantenha as Bibliotecas Atualizadas
+### Mantenha as bibliotecas atualizadas
 As versões do GroupDocs melhoram a velocidade de processamento em até **20 %** e adicionam novos recursos de conformidade HIBC. Agende verificações de dependências trimestrais.
 
-### Cache de Modelos
-Carregue um modelo PDF uma única vez, clone‑o para cada variante de código de barras e assine os clones. Isso reduz I/O e acelera fluxos de trabalho de alto volume.
+### Cache de modelos
+Carregue um modelo PDF uma vez, clone‑o para cada variante de código de barras e assine os clones. Isso reduz I/O e acelera fluxos de trabalho de alto volume.
 
-## Perguntas Frequentes
+## Perguntas frequentes
 
-**P: O GroupDocs.Signature pode assinar tipos de arquivo além de PDF?**  
-R: Sim, também suporta DOCX, XLSX, PPTX, PNG, JPEG e TIFF com a mesma API de assinatura de código de barras.
+**Q: O GroupDocs.Signature pode assinar tipos de arquivo além de PDF?**  
+A: Sim, também suporta DOCX, XLSX, PPTX, PNG, JPEG e TIFF com a mesma API de assinatura de código de barras.
 
-**P: Como solucionar erros “Conteúdo de código de barras inválido”?**  
-R: Verifique se sua string HIBC segue exatamente a sintaxe HIBCC, use o validador online e assegure‑se de estar usando a constante `QrCodeTypes` correta para o formato escolhido.
+**Q: Como solucionar erros “Invalid barcode content”?**  
+A: Verifique se sua string HIBC segue exatamente a sintaxe HIBCC, use o validador online e assegure‑se de usar a constante `QrCodeTypes` correta para o formato escolhido.
 
-**P: Qual é a capacidade máxima de dados para cada formato HIBC?**  
-R: QR ≈ 4.296 caracteres alfanuméricos, Aztec ≈ 3.832 numéricos / 3.067 alfanuméricos, Data Matrix ≈ 3.116 numéricos / 2.335 alfanuméricos. Mantenha os códigos abaixo de 200 caracteres para confiabilidade de escaneamento ideal.
+**Q: Qual é a capacidade máxima de dados para cada formato HIBC?**  
+A: QR ≈ 4.296 caracteres alfanuméricos, Aztec ≈ 3.832 numéricos / 3.067 alfanuméricos, Data Matrix ≈ 3.116 numéricos / 2.335 alfanuméricos. Mantenha os códigos com menos de 200 caracteres para confiabilidade de escaneamento ideal.
 
-**P: É possível incorporar vários tipos de código de barras em um único PDF?**  
-R: Absolutamente. Crie objetos `QrCodeSignOptions` separados com posições diferentes e chame `signature.sign()` para cada um. Apenas garanta que não se sobreponham.
+**Q: É possível incorporar múltiplos tipos de código de barras em um PDF?**  
+A: Absolutamente. Crie objetos `QrCodeSignOptions` separados com posições diferentes e chame `signature.sign()` para cada um. Apenas garanta que não se sobreponham.
 
-**P: Preciso de conexão com a internet para assinar em tempo de execução?**  
-R: Não. Após o JAR estar no classpath e a licença ativada, todas as operações são realizadas localmente.
+**Q: Preciso de conexão à internet para assinar em tempo de execução?**  
+A: Não. Depois que o JAR está no classpath e a licença está ativada, todas as operações são realizadas localmente.
 
-## Recursos Adicionais
+## Recursos adicionais
 
 - [Documentação do GroupDocs.Signature para Java](https://docs.groupdocs.com/signature/java/)  
 - [Guia de Referência da API](https://reference.groupdocs.com/signature/java/)  
@@ -350,22 +360,27 @@ R: Não. Após o JAR estar no classpath e a licença ativada, todas as operaçõ
 - [Comprar Licença](https://purchase.groupdocs.com/buy)  
 - [Obter Teste Gratuito](https://releases.groupdocs.com/signature/java/)  
 - [Solicitar Licença Temporária](https://purchase.groupdocs.com/temporary-license/)  
-- [Fórum do GroupDocs](https://forum.groupdocs.com/c/signature/)
+- [Fórum GroupDocs](https://forum.groupdocs.com/c/signature/)  
 
 ---
 
-**Última Atualização:** 2026-05-16  
-**Testado Com:** GroupDocs.Signature 23.12 para Java  
+**Última atualização:** 2026-09-15  
+**Testado com:** GroupDocs.Signature 23.12 para Java  
 **Autor:** GroupDocs  
 
----
+## Tutoriais relacionados
+
+- [Criar assinatura de código de barras PDF em Java – Guia GroupDocs](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
+- [Criar assinatura de código de barras em Java – Atualizar códigos de barras PDF](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
+- [Como ler PDF com código QR usando Java e GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
 
 ```java
 signature.sign(destinFilePath, hibcLic_DM);
 ```
 
-## Tutoriais Relacionados
+{{< /blocks/products/pf/tutorial-page-section >}}
 
-- [Criar Assinatura de Código de Barras PDF em Java – Guia GroupDocs](/signature/java/barcode-signatures/create-sign-pdfs-groupdocs-barcode-java/)
-- [Criar Assinatura de Código de Barras em Java – Atualizar Códigos de Barras PDF](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
-- [Como ler QR code PDF usando Java e GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
