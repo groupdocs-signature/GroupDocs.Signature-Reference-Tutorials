@@ -1326,11 +1326,6 @@ A: Igen – adja meg a jelszót a `Signature` objektum létrehozásakor; az API 
 **Tesztelve a következővel:** GroupDocs.Signature 23.9 for Java  
 **Szerző:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Kapcsolódó oktatóanyagok
 
 - [How to Verify Barcode Signatures in Java with GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)

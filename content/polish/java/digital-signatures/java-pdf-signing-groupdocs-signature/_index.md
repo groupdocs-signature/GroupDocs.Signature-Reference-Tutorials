@@ -407,11 +407,6 @@ Explore the [GroupDocs.Signature documentation](https://docs.groupdocs.com/signa
 **Testowano z:** GroupDocs.Signature 23.12 dla Javy  
 **Autor:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Powiązane tutoriale
 
 - [Podpis cyfrowy w Javie - Kompletny przewodnik po ładowaniu certyfikatów i podpisywaniu dokumentów](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)

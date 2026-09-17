@@ -407,11 +407,6 @@ Fedezd fel a [GroupDocs.Signature documentation](https://docs.groupdocs.com/sign
 **Tesztelt verzió:** GroupDocs.Signature 23.12 for Java  
 **Szerző:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Kapcsolódó oktatóanyagok
 
 - [Digital Signature in Java - Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)

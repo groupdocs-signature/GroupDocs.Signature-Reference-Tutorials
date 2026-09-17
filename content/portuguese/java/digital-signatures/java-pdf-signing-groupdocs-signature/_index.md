@@ -406,11 +406,6 @@ Explore a [documentação do GroupDocs.Signature](https://docs.groupdocs.com/sig
 **Testado com:** GroupDocs.Signature 23.12 for Java  
 **Autor:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Tutoriais Relacionados
 
 - [Assinatura Digital em Java - Guia Completo de Carregamento de Certificado e Assinatura de Documentos](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)

@@ -405,11 +405,6 @@ try (Signature signature = new Signature(filePath)) {
 **测试环境：** GroupDocs.Signature 23.12 for Java  
 **作者：** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## 相关教程
 
 - [Digital Signature in Java - Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
