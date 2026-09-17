@@ -391,11 +391,6 @@ Utforska [GroupDocs.Signature‑dokumentationen](https://docs.groupdocs.com/sign
 **Testat med:** GroupDocs.Signature 23.12 för Java  
 **Författare:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Relaterade handledningar
 
 - [Digital signatur i Java – Komplett guide för certifikatladdning och dokumentsignering](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)

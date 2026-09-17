@@ -368,11 +368,6 @@ try (Signature signature = new Signature(filePath)) {
 **تم الاختبار مع:** GroupDocs.Signature 23.12 for Java  
 **المؤلف:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## دروس ذات صلة
 
 - [التوقيع الرقمي في Java - دليل كامل لتحميل الشهادة وتوقيع المستند](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)

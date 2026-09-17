@@ -1324,11 +1324,6 @@ O: Tak – podaj hasło przy tworzeniu obiektu `Signature`; API odblokuje plik w
 **Testowane z:** GroupDocs.Signature 23.9 for Java  
 **Autor:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Powiązane samouczki
 
 - [How to Verify Barcode Signatures in Java with GroupDocs.Signature](/signature/java/search-verification/groupdocs-signature-java-document-verification/)

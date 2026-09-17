@@ -394,11 +394,6 @@ A: Вы не сможете создавать новые подписи с эт
 **Тестировано с:** GroupDocs.Signature 23.12 for Java  
 **Автор:** GroupDocs  
 
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}
-
 ## Связанные руководства
 
 - [Цифровая подпись в Java — Полное руководство по загрузке сертификата и подписанию документов](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
