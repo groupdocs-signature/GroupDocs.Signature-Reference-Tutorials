@@ -1,29 +1,31 @@
 ---
 categories:
 - Java Development
-date: '2026-05-21'
-description: تعلم كيفية تنفيذ digital signature java باستخدام الباركود ورموز QR. دليل
-  خطوة بخطوة مع GroupDocs.Signature لتأمين أرشيف TAR وغيرها من المستندات.
+date: '2026-10-06'
+description: تعلم كيفية توقيع ملفات Java باستخدام barcodes و QR codes، مع توفير فحص
+  بسيط لسلامة ملفات java باستخدام GroupDocs.Signature.
 keywords:
-- digital signature java
 - how to sign java
-- java document signing
+- digital signature java
 - java file integrity check
 - add barcode to file
-lastmod: '2026-05-21'
+- java document signing
+lastmod: '2026-10-06'
 linktitle: دليل Java Digital Signature
+og_description: تعلم كيفية توقيع ملفات Java باستخدام barcodes و QR codes، مع توفير
+  فحص بسيط لسلامة ملفات java باستخدام GroupDocs.Signature.
+og_image_alt: Guide showing barcode and QR code signatures added to Java files
+og_title: كيفية توقيع ملفات Java باستخدام barcodes & QR codes
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-21'
-  description: Learn how to implement digital signature java using barcodes and QR
-    codes. Step‑by‑step guide with GroupDocs.Signature for securing TAR archives and
-    other documents.
-  headline: 'Digital Signature Java: Sign Files with Barcodes & QR Codes'
+  dateModified: '2026-10-06'
+  description: Learn how to sign Java files with barcodes and QR codes, providing
+    a simple java file integrity check using GroupDocs.Signature.
+  headline: How to sign Java files with barcodes and QR codes
   type: TechArticle
-- description: Learn how to implement digital signature java using barcodes and QR
-    codes. Step‑by‑step guide with GroupDocs.Signature for securing TAR archives and
-    other documents.
-  name: 'Digital Signature Java: Sign Files with Barcodes & QR Codes'
+- description: Learn how to sign Java files with barcodes and QR codes, providing
+    a simple java file integrity check using GroupDocs.Signature.
+  name: How to sign Java files with barcodes and QR codes
   steps:
   - name: Test new versions in staging.
     text: Test new versions in staging.
@@ -72,22 +74,23 @@ tags:
 - document-security
 - java-tutorial
 - groupdocs
-title: 'Digital Signature Java: توقيع الملفات باستخدام الباركود ورموز QR'
+- java file integrity check
+title: كيفية توقيع ملفات Java باستخدام barcodes و QR codes
 type: docs
 url: /ar/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/
 weight: 1
 ---
 
-# كيفية إضافة التوقيعات الرقمية إلى الملفات في جافا باستخدام الباركود ورموز QR
+# كيفية توقيع ملفات Java باستخدام الباركود ورموز QR
 
-## المقدمة
+## مقدمة
 
-هل تساءلت يومًا كيف تُثبت أن ملفاتك لم يتم العبث بها باستخدام **digital signature java**؟ أو هل احتجت إلى طريقة لمصادقة المستندات برمجيًا دون إعدادات تشفير معقدة؟ قد تكون التوقيعات الرقمية التقليدية مبالغًا فيها لبعض الحالات. أحيانًا تحتاج فقط إلى طريقة خفيفة وقابلة للمسح للتحقق من سلامة الملف—خاصةً عند التعامل مع الأرشيفات، النسخ الاحتياطية، أو سير العمل الآلي. هنا يأتي دور توقيعات الباركود ورموز QR.
+هل تساءلت يومًا كيف تثبت أن ملفاتك لم يتم العبث بها باستخدام **how to sign java**؟ أو احتجت إلى طريقة لمصادقة المستندات برمجيًا دون إعدادات تشفير معقدة؟ قد تكون التوقيعات الرقمية التقليدية مفرطة لبعض الحالات. أحيانًا تحتاج فقط إلى طريقة خفيفة الوزن وقابلة للمسح للتحقق من سلامة الملف—خاصة عند التعامل مع الأرشيفات، النسخ الاحتياطية، أو سير العمل الآلي. هنا يأتي دور توقيعات الباركود ورموز QR.
 
-في هذا الدرس، ستتعلم كيفية تنفيذ توقيعات رقمية في جافا باستخدام GroupDocs.Signature. سنركز على توقيع أرشيفات TAR (مثالية لأنظمة النسخ الاحتياطي وتوزيع البرمجيات)، لكن هذه التقنيات تعمل مع صيغ مستندات متعددة. سواءً كنت تبني نظام إدارة مستندات أو تريد فقط إضافة طبقة أمان إضافية لملفاتك، فأنت في المكان الصحيح.
+في هذا الدرس، ستتعلم كيفية تنفيذ **how to sign java** باستخدام GroupDocs.Signature. سنركز على توقيع أرشيفات TAR (مثالية لأنظمة النسخ الاحتياطي وتوزيع البرمجيات)، لكن هذه التقنيات تعمل مع صيغ مستندات مختلفة. سواء كنت تبني نظام إدارة مستندات أو تريد فقط إضافة طبقة أمان إضافية لملفاتك، فأنت في المكان الصحيح.
 
 **ما ستحصل عليه:**
-- تنفيذ عملي لتوقيعات الباركود ورموز QR في جافا  
+- تنفيذ عملي لتوقيعات الباركود ورموز QR في Java  
 - فهم متى تستخدم كل نوع من التوقيعات (ولماذا يهم)  
 - حلول عملية لتحديات التوقيع الشائعة  
 - أنماط دمج واقعية يمكنك استخدامها اليوم  
@@ -96,32 +99,45 @@ weight: 1
 لنبدأ—لا تحتاج إلى شهادة في التشفير.
 
 ## إجابات سريعة
-- **ما المكتبة التي تتعامل مع توقيعات الباركود في جافا؟** GroupDocs.Signature for Java.  
-- **أي نوع من التوقيعات يخزن بيانات أكثر؟** رموز QR (حتى 4,296 حرف أبجدي رقمي).  
-- **هل يمكنني توقيع ملفات TAR الكبيرة (>100 MB)؟** نعم—استخدم خيوط خلفية وزد حجم heap في JVM.  
-- **هل أحتاج إلى اتصال إنترنت؟** لا، المكتبة تعمل بالكامل دون اتصال.  
+- **ما المكتبة التي تتعامل مع توقيعات الباركود في Java؟** GroupDocs.Signature for Java.  
+- **أي نوع من التوقيعات يخزن بيانات أكثر؟** رموز QR (حتى 4,296 حرفًا أبجديًا رقميًا).  
+- **هل يمكنني توقيع ملفات TAR الكبيرة (>100 ميغابايت)؟** نعم—استخدم خيوط خلفية وزد حجم ذاكرة JVM.  
+- **هل أحتاج إلى اتصال بالإنترنت؟** لا، المكتبة تعمل بالكامل دون اتصال.  
 - **هل يلزم ترخيص للإنتاج؟** نعم، ترخيص GroupDocs.Signature صالح ضروري.
 
-## ما هو Digital Signature Java؟
+## ما هو التوقيع الرقمي Java؟
 
-**digital signature java** هو عملية تضمين رمز بصري قابل للتحقق—مثل الباركود أو رمز QR—مباشرةً داخل ملف يُنشأ بجافا لإثبات أصالته وسلامته. من خلال إرفاق هذا الرمز البصري، يمكن للمطورين توفير طريقة سريعة قابلة للقراءة البشرية لتأكيد أن الملف لم يتغير منذ توقيعه، مع إمكانية التحقق البرمجي عبر واجهة GroupDocs.Signature API.
+التوقيع الرقمي Java هو عملية دمج رمز بصري قابل للتحقق—مثل الباركود أو رمز QR—مباشرةً في ملف تم إنشاؤه بواسطة Java لإثبات أصالته وسلامته، مما يوفر دليلًا سريعًا قابلًا للقراءة البشرية على أن الملف لم يتغير منذ توقيعه مع تمكين التحقق البرمجي عبر واجهة GroupDocs.Signature API.
 
-## لماذا نستخدم توقيعات الباركود أو QR Code؟
+## لماذا نستخدم توقيعات الباركود أو رموز QR؟
 
-GroupDocs.Signature يدعم **50+ صيغ إدخال وإخراج** (بما فيها PDF، DOCX، XLSX، HTML، PNG، وTAR) ويمكنه معالجة مستندات مئات الصفحات دون تحميل الملف بالكامل في الذاكرة. توفر الباركودات ورموز QR دليلًا قابلًا للمسح ومتكاملًا ذاتيًا على الأصالة، مما يلغي الحاجة إلى سلطات شهادات خارجية في العديد من سير العمل الداخلي.
+GroupDocs.Signature يدعم **أكثر من 50 صيغة إدخال وإخراج** (بما في ذلك PDF، DOCX، XLSX، HTML، PNG، وTAR) ويمكنه معالجة مستندات مئات الصفحات دون تحميل الملف بالكامل في الذاكرة. توفر الباركودات ورموز QR دليلًا قابلًا للمسح ومتكاملًا ذاتيًا على الأصالة، مما يلغي الحاجة إلى سلطات شهادات خارجية في العديد من سير العمل الداخلي.
+
+| العامل | الباركود (Code128) | رمز QR |
+|--------|-------------------|---------|
+| **سعة البيانات** | ~80 حرفًا | حتى 4,296 حرفًا أبجديًا رقميًا |
+| **قابلية القراءة** | يتطلب ماسح باركود | يعمل مع كاميرات الهواتف الذكية |
+| **كفاءة المساحة** | أكثر تجميعًا أفقيًا | يتطلب مساحة مربعة |
+| **الأفضل لـ** | معرفات بسيطة، طوابع زمنية، رموز قصيرة | عناوين URL، بيانات JSON، بيانات وصفية مفصلة |
+| **تصحيح الأخطاء** | قليل | مدمج (يمكنه الاستعادة من الضرر) |
+
+**قاعدة عامة**:  
+- استخدم **الباركودات** للمعرفات أو الطوابع الزمنية القابلة للمسح بسرعة.  
+- استخدم **رموز QR** عندما تحتاج إلى تضمين بيانات أغنى أو تريد توافقًا مع الهواتف الذكية.  
+- اجمع بينهما لتحقيق أقصى قدر من التكرار وقابلية التدقيق.
 
 ## المتطلبات المسبقة
 
 - **مكتبة GroupDocs.Signature for Java** – الإصدار 23.12 أو أحدث  
-- **مجموعة تطوير جافا (JDK)** – الإصدار 8 أو أعلى  
-- **بيئة تطوير متكاملة (IDE)** – IntelliJ IDEA، Eclipse، أو أي محرر يدعم جافا  
-- **معرفة أساسية بجافا** – يجب أن تكون مرتاحًا مع الفئات والاستيرادات  
+- **مجموعة تطوير Java (JDK)** – الإصدار 8 أو أعلى  
+- **بيئة تطوير متكاملة (IDE)** – IntelliJ IDEA، Eclipse، أو أي محرر يدعم Java  
+- **معرفة أساسية بـ Java** – يجب أن تكون مرتاحًا مع الفئات والاستيرادات  
 
 ### إعداد البيئة
 
-إدراج GroupDocs.Signature في مشروعك سهل. اختر أداة البناء التي تستخدمها:
+إدراج GroupDocs.Signature في مشروعك سهل. اختر أداة البناء التي تفضلها:
 
-**Maven** (أضف هذا إلى ملف `pom.xml`):
+**Maven** (أضف هذا إلى ملف `pom.xml` الخاص بك):
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -135,33 +151,33 @@ GroupDocs.Signature يدعم **50+ صيغ إدخال وإخراج** (بما في
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**تحميل يدوي**: لا تستخدم Maven أو Gradle؟ احصل على ملف JAR مباشرةً من [GroupDocs.Signature releases](https://releases.groupdocs.com/signature/java/) وأضفه إلى مسار الفئات (classpath).
+**تحميل يدوي**: لا تستخدم Maven أو Gradle؟ احصل على ملف JAR مباشرةً من [إصدارات GroupDocs.Signature](https://releases.groupdocs.com/signature/java/) وأضفه إلى مسار الفئات الخاص بك.
 
 ### الحصول على الترخيص
 
-GroupDocs يقدم تراخيص مرنة:
+تقدم GroupDocs تراخيص مرنة:
 
-- **تجربة مجانية**: مثالية للاختبار—لا تحتاج إلى بطاقة ائتمان. [ابدأ هنا](https://releases.groupdocs.com/signature/java/)  
-- **ترخيص مؤقت**: تحتاج وقتًا أطول للتقييم؟ [اطلب ترخيصًا مؤقتًا](https://purchase.groupdocs.com/temporary-license/) للوصول إلى جميع المميزات أثناء التطوير  
+- **تجربة مجانية**: مثالية للاختبار—بدون بطاقة ائتمان. [ابدأ هنا](https://releases.groupdocs.com/signature/java/)  
+- **ترخيص مؤقت**: تحتاج وقتًا أطول للتقييم؟ [اطلب ترخيصًا مؤقتًا](https://purchase.groupdocs.com/temporary-license/) للوصول الكامل للميزات أثناء التطوير  
 - **ترخيص إنتاج**: عندما تكون جاهزًا للنشر، [اشترِ ترخيصًا](https://purchase.groupdocs.com/buy) وفقًا لاحتياجاتك  
 
 **روابط مفيدة إضافية**
 
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)  
-- [API Reference Guide](https://reference.groupdocs.com/signature/java/)  
-- [Community Support Forum](https://forum.groupdocs.com/c/signature/)  
-- [Latest Library Releases](https://releases.groupdocs.com/signature/java/)  
-- [Free Trial Download](https://releases.groupdocs.com/signature/java/)  
-- [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)  
-- [Purchase Full License](https://purchase.groupdocs.com/buy)
+- [توثيق GroupDocs.Signature for Java](https://docs.groupdocs.com/signature/java/)  
+- [دليل مرجع API](https://reference.groupdocs.com/signature/java/)  
+- [منتدى الدعم المجتمعي](https://forum.groupdocs.com/c/signature/)  
+- [أحدث إصدارات المكتبة](https://releases.groupdocs.com/signature/java/)  
+- [تحميل التجربة المجانية](https://releases.groupdocs.com/signature/java/)  
+- [طلب ترخيص مؤقت](https://purchase.groupdocs.com/temporary-license/)  
+- [شراء ترخيص كامل](https://purchase.groupdocs.com/buy)
 
-نصيحة: ابدأ بالتجربة المجانية لتصميم النموذج الأولي، ثم احصل على ترخيص مؤقت إذا احتجت وقتًا إضافيًا قبل الالتزام.
+نصيحة احترافية: ابدأ بالتجربة المجانية لتصميم النموذج الأولي لحلك، ثم احصل على ترخيص مؤقت إذا احتجت وقتًا إضافيًا قبل الالتزام.
 
 ## إعداد GroupDocs.Signature for Java
 
-الفئة `Signature` هي نقطة الدخول لجميع عمليات التوقيع في GroupDocs.Signature. تمثل ملفًا واحدًا محملاً في الذاكرة وتوفر طرقًا لإضافة، بحث، أو حذف توقيعات بصرية.
+فئة `Signature` هي نقطة الدخول لجميع عمليات التوقيع في GroupDocs.Signature. تمثل ملفًا واحدًا يتم تحميله في الذاكرة وتوفر طرقًا لإضافة، بحث، أو حذف التوقيعات البصرية.
 
-أنشئ كائن `Signature` يشير إلى ملف TAR الخاص بك. سيحمّل الملف في الذاكرة للمعالجة:
+أنشئ كائن `Signature` يشير إلى ملف TAR الخاص بك. سيقوم هذا بتحميل الملف في الذاكرة للمعالجة:
 ```java
 import com.groupdocs.signature.Signature;
 
@@ -173,46 +189,47 @@ public class InitializeSignature {
 }
 ```
 
-**مهم**: أغلق كائن `Signature` دائمًا عند الانتهاء (أو استخدم try‑with‑resources) لتجنب تسرب الذاكرة مع الملفات الكبيرة.
+**مهم**: احرص دائمًا على إغلاق كائن `Signature` عند الانتهاء (أو استخدم try‑with‑resources) لتفادي تسرب الذاكرة مع الملفات الكبيرة.
 
-## اختيار بين توقيعات الباركود ورمز QR
+## الاختيار بين توقيعات الباركود ورموز QR
 
-لست متأكدًا أي نوع توقيع تستخدم؟ إليك دليل اتخاذ القرار السريع:
+لست متأكدًا أي نوع من التوقيعات تستخدم؟ إليك دليل اتخاذ القرار السريع:
 
-| العامل | Barcode (Code128) | QR Code |
+| العامل | الباركود (Code128) | رمز QR |
 |--------|-------------------|---------|
-| **سعة البيانات** | ~80 حرف | حتى 4,296 حرف أبجدي رقمي |
+| **سعة البيانات** | ~80 حرفًا | حتى 4,296 حرفًا أبجديًا رقميًا |
 | **قابلية القراءة** | يتطلب ماسح باركود | يعمل مع كاميرات الهواتف الذكية |
-| **كفاءة المساحة** | أكثر إحكامًا أفقياً | يتطلب مساحة مربعة |
+| **كفاءة المساحة** | أكثر تجميعًا أفقيًا | يتطلب مساحة مربعة |
 | **الأفضل لـ** | معرفات بسيطة، طوابع زمنية، رموز قصيرة | عناوين URL، بيانات JSON، بيانات وصفية مفصلة |
 | **تصحيح الأخطاء** | قليل | مدمج (يمكنه الاستعادة من الضرر) |
 
 **قاعدة عامة**:  
-- استخدم **الباركود** للمعرفات السريعة القابلة للمسح أو الطوابع الزمنية.  
+- استخدم **الباركودات** للمعرفات أو الطوابع الزمنية القابلة للمسح بسرعة.  
 - استخدم **رموز QR** عندما تحتاج إلى تضمين بيانات أغنى أو تريد توافقًا مع الهواتف الذكية.  
-- اجمع بينهما لأقصى درجة من الت redundancy والقدرة على التدقيق.
+- اجمع بينهما لتحقيق أقصى قدر من التكرار وقابلية التدقيق.
 
 ## دليل التنفيذ
 
-### توقيع أرشيف TAR بالباركود
+### توقيع أرشيف TAR باستخدام الباركود
 
-#### لماذا نستخدم الباركود؟
-الباركود مثالي لأرشيفات TAR لأنه مدمج وقابل للمسح. يمكنك تضمين طوابع زمنية، أرقام إصدارات، معرفات مستخدمين، أو قيم تجزئة للتحقق السريع.
+#### لماذا نوقع باستخدام الباركود؟
+
+الباركودات مثالية لأرشيفات TAR لأنها مدمجة وقابلة للمسح. يمكنك دمج طوابع زمنية، أرقام إصدارات، معرفات مستخدمين، أو قيم تجزئة للتحقق السريع.
 
 #### الخطوات
 
-**1. تهيئة Signature**  
-أولًا، أنشئ كائن `Signature` لملف TAR:
+**1. تهيئة التوقيع**  
+أولاً، أنشئ كائن `Signature` لملف TAR:
 ```java
 import com.groupdocs.signature.Signature;
 
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
-**نصيحة**: للملفات الكبيرة (>100 MB)، نفّذ عملية التوقيع في خيط خلفي للحفاظ على استجابة الواجهة.
+**نصيحة احترافية**: للملفات الكبيرة (>100 ميغابايت)، نفّذ عملية التوقيع في خيط خلفي للحفاظ على استجابة الواجهة.
 
 **2. تكوين خيارات الباركود**  
-الفئة `BarcodeSignature` تحدد محتوى الباركود، النوع، والموقع. كائن `BarcodeOptions` يحمل هذه الإعدادات:
+فئة `BarcodeSignature` تحدد محتوى الباركود، النوع، والموقع. كائن `BarcodeOptions` يحمل هذه الإعدادات:
 ```java
 import com.groupdocs.signature.options.sign.BarcodeSignOptions;
 import com.groupdocs.signature.domain.barcodes.BarcodeTypes;
@@ -223,14 +240,14 @@ bcOptions.setTop(100);   // Y position in pixels
 ```
 
 `BarcodeOptions` يتيح لك تحديد المظهر البصري وموقع الباركود.  
-`BarcodeTypes` هو تعداد يضم رموز الباركود المدعومة مثل `Code128`، `Code39`، إلخ.
+`BarcodeTypes` هو تعداد يسرد الأنواع المدعومة مثل `Code128`، `Code39`، إلخ.
 
 **ما يحدث هنا؟**  
-- `"12345678"` هو البيانات المشفرة في الباركود—استبدلها بالمعرف أو الطابع الزمني الخاص بك.  
+- `"12345678"` هو البيانات المشفرة في الباركود—استبدله بالمعرف الفعلي أو الطابع الزمني أو رمز التحقق الخاص بك.  
 - `BarcodeTypes.Code128` يوازن بين سعة البيانات وموثوقية المسح.  
-- قيم الموقع (100, 100) تضع الباركود على بعد 100 بكسل من الزاوية العليا اليسرى.
+- قيم الموقع (100, 100) تضع الباركود على بعد 100 بكسل من الزاوية العلوية اليسرى.
 
-**خيارات تخصيص قد ترغب فيها:**  
+**خيارات تخصيص قد تحتاجها:**  
 ```java
 bcOptions.setWidth(200);        // Barcode width in pixels
 bcOptions.setHeight(50);        // Barcode height in pixels
@@ -238,7 +255,7 @@ bcOptions.setForeColor(Color.BLACK);  // Barcode color
 bcOptions.setBackgroundColor(Color.WHITE);  // Background color
 ```
 
-**3. التوقيع وحفظ المستند**  
+**3. توقيع وحفظ المستند**  
 نفّذ عملية التوقيع واحفظ الأرشيف الموقّع:
 ```java
 import com.groupdocs.signature.domain.SignResult;
@@ -250,21 +267,22 @@ SignResult signResult = signature.sign(outputFilePath, bcOptions);
 كائن `SignResult` المرتجع يخبرك ما إذا كانت العملية ناجحة وأين وُضع التوقيع.  
 **خطأ شائع**: تأكد من وجود دليل الإخراج قبل استدعاء `sign()`. المكتبة لا تنشئ الأدلة الأب تلقائيًا.
 
-### توقيع أرشيف TAR برمز QR
+### توقيع أرشيف TAR باستخدام رمز QR
 
-#### متى نستخدم رموز QR؟
-تتفوق رموز QR عندما تحتاج إلى تخزين بيانات منظمة (JSON، XML)، تضمين عناوين URL للتحقق، أو تمكين المسح عبر الهواتف الذكية.
+#### متى نستخدم رموز QR
+
+تتفوق رموز QR عندما تحتاج إلى تخزين بيانات منظمة (JSON، XML)، دمج عناوين URL للتحقق، أو تمكين المسح عبر الهواتف الذكية.
 
 #### الخطوات
 
-**1. تهيئة Signature**  
+**1. تهيئة التوقيع**  
 نفس الخطوة السابقة—أنشئ كائن `Signature`:
 ```java
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
 **2. تكوين خيارات رمز QR**  
-اضبط رمز QR بالبيانات التي تريد تضمينها:
+اضبط رمز QR بالبيانات التي تريد دمجها:
 ```java
 import com.groupdocs.signature.options.sign.QrCodeSignOptions;
 import com.groupdocs.signature.domain.qrcodes.QrCodeTypes;
@@ -274,9 +292,9 @@ qrOptions.setLeft(400);  // X position
 qrOptions.setTop(400);   // Y position
 ```
 
-`QrCodeTypes` هو تعداد يحدد نوع رمز QR الذي سيتم إنشاؤه (QR قياسي، DataMatrix، Aztec، إلخ).  
+`QrCodeTypes` هو تعداد يحدد نوع رمز QR الذي سيُولد (QR قياسي، DataMatrix، Aztec، إلخ).
 
-**مثال واقعي** – تضمين حمولة JSON مع بيانات التحقق:
+**مثال واقعي** – دمج حمولة JSON تحتوي على بيانات التحقق:
 ```java
 String verificationData = "{\"version\":\"1.0\",\"timestamp\":\"2025-01-02T10:30:00Z\",\"user\":\"john.doe\"}";
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(verificationData, QrCodeTypes.QR);
@@ -284,10 +302,10 @@ QrCodeSignOptions qrOptions = new QrCodeSignOptions(verificationData, QrCodeType
 
 **خيارات نوع رمز QR:**  
 - `QrCodeTypes.QR` – رمز QR قياسي (الأكثر شيوعًا)  
-- `QrCodeTypes.DataMatrix` – أكثر إحكامًا للبيانات الصغيرة  
+- `QrCodeTypes.DataMatrix` – أكثر تجميعًا للبيانات الصغيرة  
 - `QrCodeTypes.Aztec` – مناسب للأسطح المنحنية  
 
-**3. التوقيع وحفظ المستند**  
+**3. توقيع وحفظ المستند**  
 أكمل عملية التوقيع كما فعلت مع الباركود:
 ```java
 String outputFilePath = "output/path/SignWithQRCode/archive_signed.tar";
@@ -296,24 +314,25 @@ SignResult signResult = signature.sign(outputFilePath, qrOptions);
 
 **ملاحظة أداء**: توليد رمز QR أبطأ قليلًا من الباركود بسبب حسابات تصحيح الأخطاء، لكن الفرق ضئيل في معظم الحالات (عادةً بضع مللي ثانية).
 
-### توقيع أرشيف TAR بتوقيعات متعددة
+### توقيع أرشيف TAR باستخدام توقيعات متعددة
 
 #### لماذا نستخدم توقيعات متعددة؟
-- **ال redundancy** – إذا تضرر توقيع واحد، يظل الآخر صالحًا.  
-- **جماهير مختلفة** – الباركود للمسح الضوئي، رموز QR للهواتف.  
+
+- **التكرار** – إذا تضرر توقيع واحد، يظل الآخر صالحًا.  
+- **جماهير مختلفة** – باركودات للمسح الضوئي، رموز QR للهواتف الذكية.  
 - **بيانات طبقية** – معرف سريع في الباركود، بيانات وصفية مفصلة في رمز QR.  
 - **الامتثال** – بعض اللوائح تتطلب طرق تحقق متعددة.
 
 #### الخطوات
 
-**1. تهيئة Signature**  
+**1. تهيئة التوقيع**  
 نفس التهيئة السابقة:
 ```java
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
 **2. تكوين خيارات متعددة**  
-أنشئ كلا النوعين وادمجهما في قائمة:
+أنشئ كلا النوعين من التوقيعات وادمجهما في قائمة:
 ```java
 import java.util.ArrayList;
 import java.util.List;
@@ -334,16 +353,16 @@ listOptions.add(bcOptions);
 listOptions.add(qrOptions);
 ```
 
-**نصيحة**: ضع التوقيعات في زوايا أو مناطق لا تتداخل مع محتوى الأرشيف.
+**نصيحة احترافية**: ضع التوقيعات في زوايا أو مناطق لا تتداخل مع محتوى الأرشيف للحصول على أفضل نتيجة.
 
-**3. التوقيع وحفظ المستند**  
+**3. توقيع وحفظ المستند**  
 مرّر قائمة الخيارات إلى طريقة `sign()`:
 ```java
 String outputFilePath = "output/path/SignWithMultipleSignatures/archive_signed.tar";
 SignResult signResult = signature.sign(outputFilePath, listOptions);
 ```
 
-GroupDocs يعالج كل توقيع بالتتابع، ويضمّنه في بيانات المستند. ترتيب العناصر في القائمة لا يؤثر على عملية التحقق.
+GroupDocs يعالج كل توقيع بالتتابع، ويضمّنه في بيانات المستند الوصفية. ترتيب العناصر في القائمة لا يؤثر على عملية التحقق.
 
 ## حالات استخدام واقعية
 
@@ -359,8 +378,8 @@ String releaseData = String.format(
 **لماذا يعمل**: يمكن للمستخدمين مسح رمز QR للتحقق من سلامة الحزمة قبل التثبيت—دون الحاجة لإدارة مفاتيح GPG.
 
 ### 2. أنظمة النسخ الاحتياطي الآلية
-**السيناريو**: أرشيفات TAR اليومية تحتاج إلى سجلات تدقيق.  
-**الحل**: إضافة باركود يحتوي على طابع زمني ومعرف الخادم:
+**السيناريو**: تحتاج أرشيفات TAR اليومية إلى سجلات تدقيق.  
+**الحل**: إضافة باركود يحتوي على طابع زمن النسخ ومعرف الخادم:
 ```java
 String backupId = String.format("SRV01-%s", LocalDateTime.now().format(formatter));
 BarcodeSignOptions bcOptions = new BarcodeSignOptions(backupId, BarcodeTypes.Code128);
@@ -368,22 +387,22 @@ BarcodeSignOptions bcOptions = new BarcodeSignOptions(backupId, BarcodeTypes.Cod
 **لماذا يعمل**: تحقق بصري سريع من أصالة النسخة الاحتياطية دون فتح الأرشيف.
 
 ### 3. أنظمة إدارة المستندات
-**السيناريو**: مستندات قانونية مخزنة كأرشيفات تحتاج إلى تحقق ضد العبث.  
-**الحل**: استخدام كل من الباركود (مسح سريع) ورمز QR (بيانات وصفية مفصلة) على نفس الأرشيف.  
+**السيناريو**: مستندات قانونية مخزنة كأرشيفات تتطلب تحققًا من عدم العبث.  
+**الحل**: استخدام كل من الباركود (مسح سريع) ورمز QR (بيانات وصفية مفصلة) على نفس الأرشيف.
 
-### 4. تتبع سلسلة الإمداد
-**السيناريو**: تتبع حزم ملفات عبر عدة مؤسسات.  
-**الحل**: تضمين رموز QR بروابط تتبع إلى واجهة برمجة تطبيقات للتحقق:
+### 4. تتبع سلسلة التوريد
+**السيناريو**: تتبع حزم الملفات عبر عدة مؤسسات.  
+**الحل**: دمج رموز QR تحتوي على عناوين URL لتتبع يربط بواجهة API للتحقق:
 ```java
 String trackingUrl = "https://verify.yourcompany.com/track/" + uniqueId;
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(trackingUrl, QrCodeTypes.QR);
-```  
+```
 
 ## المشكلات الشائعة والحلول
 
-### المشكلة 1: “Signature Not Found” بعد التوقيع
-**العَرَض**: `sign()` ينجح، لكن التوقيع غير مرئي.  
-**الأسباب**: موقع غير صحيح، كتابة فوق الملف الأصلي، قيود عارض TAR.  
+### المشكلة 1: “التوقيع غير موجود” بعد التوقيع
+**الأعراض**: `sign()` ينجح، لكن التوقيع غير مرئي.  
+**الأسباب**: موقع غير صحيح، الكتابة فوق الملف الأصلي، قيود عارض TAR.  
 **الحل**:  
 ```java
 // Always verify the signing succeeded
@@ -396,24 +415,24 @@ if (result.getSucceeded().size() > 0) {
 
 // Use absolute paths to avoid confusion
 String absolutePath = new File(outputFilePath).getAbsolutePath();
-```  
+```
 
 ### المشكلة 2: OutOfMemoryError مع ملفات TAR الكبيرة
-**العَرَض**: تعطل JVM لأرشيفات > 500 MB.  
-**الحل**: زيادة حجم heap (`-Xmx`) وتفريغ كائنات `Signature` فورًا:
+**الأعراض**: تعطل JVM للملفات > 500 ميغابايت.  
+**الحل**: زيادة حجم الذاكرة (`-Xmx`) وإغلاق كائنات `Signature` فور الانتهاء:
 ```bash
 java -Xmx2G -jar your-application.jar
-```  
+```
 
 أو تنفيذ معالجة مقطعية:
 ```java
 // For very large files, consider signing metadata separately
 // rather than embedding in the TAR itself
-```  
+```
 
-### المشكلة 3: تقليم بيانات التوقيع
-**العَرَض**: سلاسل طويلة تُقطع.  
-**السبب**: تجاوز سعة Code128 (≈ 80 حرف).  
+### المشكلة 3: تقصير بيانات التوقيع
+**الأعراض**: سلاسل طويلة تُقطع.  
+**السبب**: تجاوز سعة Code128 (≈ 80 حرفًا).  
 **الحل**: التحول إلى رموز QR للحمولات الأطول:
 ```java
 // Bad: Too much data for Code128
@@ -421,10 +440,10 @@ BarcodeSignOptions bcOptions = new BarcodeSignOptions(veryLongString, BarcodeTyp
 
 // Good: Use QR code instead
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(veryLongString, QrCodeTypes.QR);
-```  
+```
 
 ### المشكلة 4: أخطاء التحقق من الترخيص
-**العَرَض**: `LicenseException` أو تحذيرات “Trial version” في بيئة الإنتاج.  
+**الأعراض**: `LicenseException` أو تحذيرات “نسخة تجريبية” في الإنتاج.  
 **الحل**: تحميل الترخيص قبل إنشاء أي كائن `Signature`:
 ```java
 import com.groupdocs.signature.License;
@@ -434,14 +453,14 @@ license.setLicense("path/to/GroupDocs.Signature.lic");
 
 // Now create signatures
 Signature signature = new Signature("document.tar");
-```  
+```
 
-**نصيحة**: حمّل الترخيص مرة واحدة عند بدء التطبيق، لا قبل كل عملية توقيع.
+**نصيحة احترافية**: حمّل الترخيص مرة واحدة عند بدء تشغيل التطبيق، لا قبل كل عملية توقيع.
 
 ### المشكلة 5: قيم الموقع لا تعمل كما هو متوقع
-**العَرَض**: التوقيعات تظهر في مواقع غير متوقعة.  
+**الأعراض**: تظهر التوقيعات في مواقع غير متوقعة.  
 **السبب**: خلط بين البكسل والنقطة.  
-**الحل**: GroupDocs يستخدم البكسل افتراضيًا. لتحديد موقع دقيق:
+**الحل**: GroupDocs يستخدم البكسل افتراضيًا. لتحديد موضع دقيق:
 ```java
 bcOptions.setLeft(100);  // 100 pixels from left edge
 bcOptions.setTop(100);   // 100 pixels from top edge
@@ -449,12 +468,12 @@ bcOptions.setTop(100);   // 100 pixels from top edge
 // If you need percentage-based positioning:
 bcOptions.setHorizontalAlignment(HorizontalAlignment.Center);
 bcOptions.setVerticalAlignment(VerticalAlignment.Center);
-```  
+```
 
 ## أنماط الدمج
 
 ### النمط 1: خدمة REST API
-عرض التوقيع كميكرو خدمة:
+عرض التوقيع كخدمة مصغرة:
 ```java
 @RestController
 @RequestMapping("/api/signature")
@@ -488,7 +507,7 @@ public class SignatureController {
         }
     }
 }
-```  
+```
 
 ### النمط 2: خط أنابيب معالجة دفعات
 توقيع عدة أرشيفات في خط أنابيب:
@@ -517,9 +536,9 @@ public class BatchSigner {
         // ... signing logic
     }
 }
-```  
+```
 
-### النمط 3: بنية معتمدة على الأحداث
+### النمط 3: بنية مدفوعة بالأحداث
 تشغيل التوقيع عند إنشاء الأرشيفات:
 ```java
 @Component
@@ -536,7 +555,7 @@ public class ArchiveCreatedListener {
         // ... signing logic
     }
 }
-```  
+```
 
 ## اعتبارات الأداء
 
@@ -553,31 +572,31 @@ try (Signature signature = new Signature("file.tar")) {
     signature.sign(output1, options1);
     signature.sign(output2, options2);  // Same instance, different outputs
 }
-```  
+```
 
 ### تحسين حجم الملف
-- **الملفات الصغيرة (< 10 MB)** – توقيع متزامن.  
-- **الملفات المتوسطة (10‑100 MB)** – استخدم خيوط خلفية.  
-- **الملفات الكبيرة (> 100 MB)** – فكر في توقيع البيانات الوصفية منفصلًا أو استخدم واجهات تدفق.
+- **الملفات الصغيرة (< 10 ميغابايت)** – توقيع متزامن.  
+- **الملفات المتوسطة (10‑100 ميغابايت)** – استخدم خيوط خلفية.  
+- **الملفات الكبيرة (> 100 ميغابايت)** – فكر في توقيع البيانات الوصفية منفصلًا أو استخدام واجهات البث.
 
 ### تعقيد التوقيع (أوقات تقريبية على خادم قياسي)
 
 | نوع التوقيع | الوقت لكل مستند |
 |-------------|-------------------|
-| باركود واحد | 50‑100 ms |
-| رمز QR واحد | 100‑200 ms |
-| توقيعات متعددة | 150‑300 ms |
+| باركود واحد | 50‑100 مللي ثانية |
+| رمز QR واحد | 100‑200 مللي ثانية |
+| توقيعات متعددة | 150‑300 مللي ثانية |
 
-**نصيحة تحسين**: للآلاف من الملفات، اجمعها في دفعات واستخدم مجموعة خيوط (انظر نمط المعالجة الدفعية أعلاه).
+**نصيحة تحسين**: للآلاف من الملفات، اجمعها في دفعات واستخدم مجموعة خيوط (انظر نمط معالجة الدفعات أعلاه).
 
 ### تحديثات المكتبة
-GroupDocs يصدر تحسينات أداء دورية. تحقق دائمًا من [changelog](https://releases.groupdocs.com/signature/java/) قبل النشر الضخم.
+تُصدر GroupDocs تحسينات أداء دورية. تحقق دائمًا من [سجل التغييرات](https://releases.groupdocs.com/signature/java/) قبل عمليات النشر الكبيرة.
 
 **استراتيجية التحديث**:  
 1. اختبار الإصدارات الجديدة في بيئة تجريبية.  
 2. مراجعة التغييرات المكسورة.  
-3. قياس الأداء مع ملفات حقيقية.  
-4. النشر التدريجي.
+3. إجراء قياس أداء باستخدام ملفات حقيقية.  
+4. النشر تدريجيًا.
 
 ## أفضل الممارسات للإنتاج
 
@@ -587,7 +606,7 @@ License license = new License();
 if (!license.isLicensed()) {
     logger.warn("Running in trial mode - features may be limited");
 }
-```  
+```
 
 **2. تنفيذ معالجة أخطاء قوية**  
 ```java
@@ -598,7 +617,7 @@ try {
     // Don't just swallow exceptions - log or re-throw
     throw new SignatureException("Failed to sign document", e);
 }
-```  
+```
 
 **3. استخدام بيانات توقيع وصفية**  
 ```java
@@ -611,56 +630,56 @@ String signatureData = String.format("DOC-%s-%s",
     LocalDateTime.now().format(DateTimeFormatter.ISO_DATE_TIME)
 );
 new BarcodeSignOptions(signatureData, BarcodeTypes.Code128);
-```  
+```
 
-**4. إصدار صيغة التوقيع**  
-ضمن JSON المضمّن رقم إصدار لتأمين المستقبلية:
+**4. إصدار تنسيق التوقيع**  
+ضمن JSON المدمج رقم إصدار لتأمين المستقبلية:
 ```java
 String qrData = String.format(
     "{\"v\":\"1.0\",\"type\":\"archive\",\"timestamp\":\"%s\"}", 
     timestamp
 );
-```  
+```
 
-**5. اختبار مع ملفات واقعية** – دائمًا تحقق باستخدام أرشيفات بحجم الإنتاج لاكتشاف مشاكل الذاكرة والأداء مبكرًا.
+**5. الاختبار بملفات واقعية** – دائمًا تحقق باستخدام أرشيفات بحجم الإنتاج لاكتشاف مشكلات الذاكرة والأداء مبكرًا.
 
 ## الخاتمة
 
-أصبحت الآن تمتلك أساسًا قويًا لتطبيق **digital signature java** باستخدام الباركود ورموز QR. ما تعلمته:
+أصبحت الآن تمتلك أساسًا قويًا لتطبيق **how to sign java** باستخدام الباركود ورموز QR. إليك ما تعلمته:
 
-- كيفية توقيع أرشيفات TAR (وغيرها) بالباركود ورموز QR  
-- متى تختار كل نوع توقيع بناءً على الاحتياجات  
+- كيفية توقيع أرشيفات TAR (وغيرها) باستخدام كل من توقيعات الباركود ورموز QR  
+- متى تختار كل نوع بناءً على الاحتياجات المحددة  
 - كيفية معالجة المشكلات الشائعة قبل وصولها إلى الإنتاج  
-- أنماط دمج واقعية لواجهات REST، معالجة دفعات، وبنى معتمدة على الأحداث  
+- أنماط دمج واقعية لخدمات REST، معالجة دفعات، وبنى مدفوعة بالأحداث  
 - تقنيات تحسين الأداء للتعامل مع ملفات بأي حجم  
 
 **الخطوات التالية**:  
-1. استكشف التحقق من التوقيعات باستخدام طريقة `search()`.  
-2. جرّب صيغ مستندات أخرى—GroupDocs.Signature يدعم PDF، DOCX، XLSX، PNG، وغيرها.  
-3. خصّص مظهر التوقيع (الألوان، الأحجام، الحدود).  
-4. أنشئ واجهة API للتحقق من التوقيعات برمجيًا.
+1. استكشاف التحقق من التوقيع باستخدام طريقة `search()`.  
+2. تجربة صيغ مستندات أخرى—GroupDocs.Signature يدعم PDF، DOCX، XLSX، PNG، وغيرها.  
+3. تخصيص مظهر التوقيع (الألوان، الأحجام، الحدود).  
+4. بناء واجهة API للتحقق من التوقيعات برمجيًا.
 
-قوة GroupDocs.Signature تتجاوز هذا الدليل. اطلع على [الوثائق الكاملة](https://docs.groupdocs.com/signature/java/) لاكتشاف ميزات متقدمة مثل توقيعات النص، توقيعات الصورة، واستخراج البيانات الوصفية.
+قوة GroupDocs.Signature تتجاوز هذا الدليل. اطلع على [توثيق GroupDocs.Signature for Java](https://docs.groupdocs.com/signature/java/) لاكتشاف ميزات متقدمة مثل توقيعات النص، توقيعات الصورة، واستخراج البيانات الوصفية.
 
-هل لديك أسئلة أو تريد مشاركة تطبيقك؟ انضم إلى منتديات مجتمع GroupDocs للحصول على مساعدة من مطورين آخرين.
+هل لديك أسئلة أو تريد مشاركة تطبيقك؟ انضم إلى منتديات مجتمع GroupDocs للحصول على مساعدة من المطورين الآخرين.
 
 ## الأسئلة المتكررة
 
 **س: هل يمكنني توقيع مستندات غير أرشيفات TAR؟**  
-ج: بالتأكيد! يدعم GroupDocs.Signature أكثر من 50 صيغة ملف، بما فيها PDF، DOCX، XLSX، PNG، وغيرها. فقط غيّر امتداد الملف في مُنشئ `Signature` للعمل مع أي صيغة مدعومة.
+ج: بالتأكيد! يدعم GroupDocs.Signature أكثر من 50 صيغة ملف، بما في ذلك PDF، DOCX، XLSX، PNG، وغيرها. ما عليك سوى تغيير امتداد الملف في مُنشئ `Signature` للعمل مع أي نوع مدعوم.
 
 **س: كيف أتحقق من التوقيعات بعد التوقيع؟**  
-ج: استخدم طريقة `search()` لتحديد والتحقق من التوقيعات:  
+ج: استخدم طريقة `search()` لتحديد وتحقق من التوقيعات:  
 ```java
 Signature signature = new Signature("signed-document.tar");
 BarcodeSearchOptions searchOptions = new BarcodeSearchOptions();
 List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, searchOptions);
-```  
+```
 
 **س: هل التوقيعات آمنة ضد العبث؟**  
 ج: توفر توقيعات الباركود ورموز QR تحققًا بصريًا لكنها ليست قوية تشفيرياً مثل الشهادات الرقمية. للحصول على أقصى أمان، اجمعها مع PKI التقليدي أو خزن تجزئات التوقيع في قاعدة بيانات خارجية.
 
-**س: ما الحد الأقصى للبيانات التي يمكن تخزينها في توقيع؟**  
+**س: ما هي الحد الأقصى للبيانات التي يمكن تخزينها في توقيع؟**  
 - باركود Code128: ~80 حرفًا أبجديًا رقميًا  
 - رمز QR (الإصدار 40): حتى 4,296 حرفًا أبجديًا رقميًا أو 7,089 حرفًا رقميًا  
 
@@ -672,25 +691,25 @@ bcOptions.setBackgroundColor(Color.YELLOW);
 bcOptions.setBorder(new Border());
 bcOptions.getBorder().setColor(Color.RED);
 bcOptions.getBorder().setWeight(2);
-```  
+```
 
 **س: ماذا يحدث إذا وقعت الملف مرتين؟**  
 ج: كل استدعاء `sign()` يضيف توقيعًا جديدًا. لاستبدال توقيع موجود، احذفه أولًا باستخدام طريقة `delete()`.
 
 **س: كيف أتعامل مع الملفات الكبيرة دون نفاد الذاكرة؟**  
-ج: زد حجم heap في JVM (`-Xmx`)، حرّر كائنات `Signature` بسرعة، وفكّر في توقيع البيانات الوصفية منفصلًا للأرشيفات متعددة الجيجابايت.
+ج: زد حجم heap للـ JVM (`-Xmx`)، حرّر كائنات `Signature` بسرعة، وفكّر في توقيع البيانات الوصفية منفصلًا للأرشيفات متعددة الجيجابايت.
 
-**س: هل أحتاج إلى اتصال إنترنت لتوقيع المستندات؟**  
+**س: هل أحتاج إلى اتصال بالإنترنت لتوقيع المستندات؟**  
 ج: لا. يعمل GroupDocs.Signature بالكامل دون اتصال بمجرد تثبيت المكتبة.
 
 ---
 
-**آخر تحديث:** 2026-05-21  
+**آخر تحديث:** 2026-10-06  
 **تم الاختبار مع:** GroupDocs.Signature 23.12 for Java  
 **المؤلف:** GroupDocs
 
 ## دروس ذات صلة
 
-- [Digital Signature in Java - Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
-- [Java Signature Verification Tutorial - Validate Documents with Text, Barcode & QR Codes](/signature/java/search-verification/groupdocs-signature-java-document-verification-guide/)
+- [Digital Signature in Java - Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)  
+- [Java Signature Verification Tutorial - Validate Documents with Text, Barcode & QR Codes](/signature/java/search-verification/groupdocs-signature-java-document-verification-guide/)  
 - [Sign ZIP Files in Java with Barcodes & QR Codes](/signature/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/)

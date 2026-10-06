@@ -1,30 +1,31 @@
 ---
 categories:
 - Java Development
-date: '2026-05-21'
-description: Tanulja meg, hogyan valósíthatja meg a digital signature java-t barcodes
-  és QR codes használatával. Lépésről‑lépésre útmutató a GroupDocs.Signature-hez a
-  TAR archives és egyéb dokumentumok védelméhez.
+date: '2026-10-06'
+description: Ismerje meg, hogyan írhat alá Java fájlokat vonalkódokkal és QR-kódokkal,
+  egyszerű Java fájl integritás-ellenőrzést biztosítva a GroupDocs.Signature használatával.
 keywords:
-- digital signature java
 - how to sign java
-- java document signing
+- digital signature java
 - java file integrity check
 - add barcode to file
-lastmod: '2026-05-21'
-linktitle: Java Digital Signature Bemutató
+- java document signing
+lastmod: '2026-10-06'
+linktitle: Java Digitális Aláírás Bemutató
+og_description: Ismerje meg, hogyan írhat alá Java fájlokat vonalkódokkal és QR-kódokkal,
+  egyszerű Java fájl integritás-ellenőrzést biztosítva a GroupDocs.Signature használatával.
+og_image_alt: Guide showing barcode and QR code signatures added to Java files
+og_title: Hogyan aláírjunk Java fájlokat vonalkódokkal és QR-kódokkal
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-21'
-  description: Learn how to implement digital signature java using barcodes and QR
-    codes. Step‑by‑step guide with GroupDocs.Signature for securing TAR archives and
-    other documents.
-  headline: 'Digital Signature Java: Sign Files with Barcodes & QR Codes'
+  dateModified: '2026-10-06'
+  description: Learn how to sign Java files with barcodes and QR codes, providing
+    a simple java file integrity check using GroupDocs.Signature.
+  headline: How to sign Java files with barcodes and QR codes
   type: TechArticle
-- description: Learn how to implement digital signature java using barcodes and QR
-    codes. Step‑by‑step guide with GroupDocs.Signature for securing TAR archives and
-    other documents.
-  name: 'Digital Signature Java: Sign Files with Barcodes & QR Codes'
+- description: Learn how to sign Java files with barcodes and QR codes, providing
+    a simple java file integrity check using GroupDocs.Signature.
+  name: How to sign Java files with barcodes and QR codes
   steps:
   - name: Test new versions in staging.
     text: Test new versions in staging.
@@ -73,54 +74,68 @@ tags:
 - document-security
 - java-tutorial
 - groupdocs
-title: 'Digital Signature Java: Fájlok aláírása barcodes és QR codes használatával'
+- java file integrity check
+title: Hogyan aláírjunk Java fájlokat vonalkódokkal és QR-kódokkal
 type: docs
 url: /hu/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/
 weight: 1
 ---
 
-# Hogyan adhatunk digitális aláírásokat fájlokhoz Java-ban vonalkódok és QR‑kódok segítségével
+# Hogyan lehet aláírni Java fájlokat vonalkódokkal és QR‑kódokkal
 
 ## Bevezetés
 
-Gondolkodtál már azon, hogyan bizonyíthatod, hogy a fájljaid nem lettek módosítva **digital signature java** használatával? Vagy szükséged van egy programozott módra a dokumentumok hitelesítésére anélkül, hogy bonyolult kriptográfiai beállításokba bonyolódnál? A hagyományos digitális aláírások bizonyos esetekben túlzottak lehetnek. Néha csak egy könnyű, beolvastható módszerre van szükség a fájl integritásának ellenőrzéséhez – különösen archivumok, mentések vagy automatizált munkafolyamatok esetén. Itt jönnek a vonalkód és QR‑kód aláírások.
+Gondolkodtál már azon, hogyan bizonyíthatod, hogy a fájljaid nem lettek manipulálva a **how to sign java** technikákkal? Vagy szükséged van egy módra, hogy programozottan hitelesítsd a dokumentumokat anélkül, hogy bonyolult kriptográfiai beállításokba bonyolódnál? A hagyományos digitális aláírások bizonyos esetekben túlzottak lehetnek. Néha csak egy könnyű, beolvastható módszerre van szükség a fájl integritásának ellenőrzéséhez – különösen archivumok, biztonsági mentések vagy automatizált munkafolyamatok esetén. Itt jönnek a vonalkód és QR‑kód aláírások.
 
-Ebben az útmutatóban megtanulod, hogyan valósítsd meg a digitális aláírásokat Java-ban a GroupDocs.Signature segítségével. A fókusz a TAR archívumok aláírásán lesz (tökéletes biztonsági mentési rendszerekhez és szoftverszétosztáshoz), de ezek a technikák különböző dokumentumformátumokkal is működnek. Akár dokumentumkezelő rendszert építesz, akár csak egy extra biztonsági réteget szeretnél a fájljaidhoz, jó helyen jársz.
+Ebben az útmutatóban megtanulod, hogyan valósítható meg a **how to sign java** a GroupDocs.Signature segítségével. A fókusz a TAR archívumok aláírásán lesz (tökéletes biztonsági mentési rendszerekhez és szoftverdisztribúcióhoz), de ezek a technikák különböző dokumentumformátumokkal is működnek. Akár dokumentumkezelő rendszert építesz, akár csak egy extra biztonsági réteget szeretnél a fájljaidhoz, jó helyen jársz.
 
-**Amit megtanulsz:**
-- Működő megoldás vonalkód és QR‑kód aláírásokra Java-ban  
+**Mit fogsz megtanulni:**
+- Működő megoldás vonalkód és QR‑kód aláírásokra Java‑ban  
 - Mikor melyik aláírási típust érdemes használni (és miért fontos)  
-- Gyakorlati megoldások a tipikus aláírási kihívásokra  
+- Gyakorlati megoldások a gyakori aláírási kihívásokra  
 - Valós integrációs minták, amelyeket már ma használhatsz  
-- Teljesítményoptimalizálási tippek termelési rendszerekhez  
+- Teljesítmény‑optimalizálási tippek termelési rendszerekhez  
 
-Vágjunk bele – nincs szükség kriptográfiai diplomára.
+Vágjunk bele – kriptográfiai diplomára nincs szükség.
 
 ## Gyors válaszok
-- **Melyik könyvtár kezeli a vonalkód aláírásokat Java-ban?** GroupDocs.Signature for Java.  
+- **Melyik könyvtár kezeli a vonalkód aláírásokat Java‑ban?** GroupDocs.Signature for Java.  
 - **Melyik aláírási típus tárol több adatot?** QR‑kódok (akár 4 296 alfanumerikus karakter).  
-- **Aláírhatok nagy TAR fájlokat (> 100 MB)?** Igen – használj háttérszálakat és növeld a JVM heap‑et.  
+- **Aláírhatok nagy TAR fájlokat (> 100 MB‑t)?** Igen – használj háttérszálakat és növeld a JVM heap‑et.  
 - **Szükség van internetkapcsolatra?** Nem, a könyvtár teljesen offline működik.  
-- **Kell licenc a termeléshez?** Igen, érvényes GroupDocs.Signature licenc kötelező.
+- **Licenc szükséges a termeléshez?** Igen, érvényes GroupDocs.Signature licenc kötelező.
 
-## Mi az a Digital Signature Java?
+## Mi az a digitális aláírás Java‑ban?
 
-**Digital signature java** a folyamat, amelynek során egy vizuálisan ellenőrizhető token – például vonalkód vagy QR‑kód – kerül közvetlenül egy Java‑generált fájlba, hogy bizonyítsa annak hitelességét és integritását. Ezzel a vizuális tokennel a fejlesztők gyors, ember által olvasható módot biztosítanak arra, hogy a fájlt nem módosították aláírás óta, miközben a GroupDocs.Signature API-n keresztül programozott ellenőrzés is lehetséges.
+A digitális aláírás Java‑ban egy ellenőrizhető vizuális token – például vonalkód vagy QR‑kód – közvetlen beágyazása egy Java‑val generált fájlba, amely bizonyítja annak hitelességét és integritását, gyors, ember által olvasható bizonyítékot nyújtva arra, hogy a fájlt az aláírás óta nem módosították, miközben a GroupDocs.Signature API‑val programozott ellenőrzést is lehetővé tesz.
 
 ## Miért használjunk vonalkód vagy QR‑kód aláírásokat?
 
-A GroupDocs.Signature **50+ bemeneti és kimeneti formátumot** támogat (köztük PDF, DOCX, XLSX, HTML, PNG és TAR), és képes több száz oldalas dokumentumok feldolgozására anélkül, hogy az egész fájlt a memóriába töltené. A vonalkódok és QR‑kódok beolvasható, önmagukban álló hitelesítési bizonyítékot nyújtanak, így sok belső munkafolyamatban elkerülhető a külső tanúsítványhatóságok használata.
+A GroupDocs.Signature **50+ bemeneti és kimeneti formátumot** támogat (köztük PDF, DOCX, XLSX, HTML, PNG és TAR), és több száz oldalas dokumentumokat is feldolgozhat anélkül, hogy a teljes fájlt a memóriába töltené. A vonalkódok és QR‑kódok beolvastható, önálló hitelesítési bizonyítékot nyújtanak, így sok belső munkafolyamatban nincs szükség külső tanúsítványkiadókra.
+
+| Szempont | Vonalkód (Code128) | QR kód |
+|----------|-------------------|--------|
+| **Adatkapacitás** | ~80 karakter | Akár 4 296 alfanumerikus karakter |
+| **Olvashatóság** | Vonalkódolvasó szükséges | Okostelefon kamerával működik |
+| **Helyhatékonyság** | Vízszintesen kompaktabb | Négyzet alakú terület szükséges |
+| **Legalkalmasabb** | Egyszerű azonosítók, időbélyegek, rövid kódok | URL‑ek, JSON adatok, részletes metaadatok |
+| **Hibajavítás** | Minimális | Beépített (kár esetén is helyreállítható) |
+
+**Általános szabály**:  
+- Használj **vonalkódot** gyors, beolvastható azonosítókhoz vagy időbélyegekhez.  
+- Használj **QR‑kódot**, ha gazdagabb adatot kell beágyazni vagy okostelefon-kompatibilitásra van szükség.  
+- Kombináld mindkettőt a maximális redundancia és auditálhatóság érdekében.
 
 ## Előfeltételek
 
 - **GroupDocs.Signature for Java Library** – 23.12 vagy újabb verzió  
 - **Java Development Kit (JDK)** – 8 vagy újabb verzió  
 - **IDE** – IntelliJ IDEA, Eclipse vagy bármely Java‑kompatibilis szerkesztő  
-- **Alapvető Java ismeretek** – osztályok és importok kezelése
+- **Alapvető Java ismeretek** – osztályok és importok kezelése  
 
 ### Környezet beállítása
 
-A GroupDocs.Signature beillesztése a projektbe egyszerű. Válaszd ki a build‑eszközöd:
+A GroupDocs.Signature beillesztése a projektbe egyszerű. Válaszd ki a build‑eszközt:
 
 **Maven** (add hozzá a `pom.xml`‑hez):
 ```xml
@@ -136,7 +151,7 @@ A GroupDocs.Signature beillesztése a projektbe egyszerű. Válaszd ki a build�
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Manuális letöltés**: Nem Maven vagy Gradle? Szerezd be a JAR‑t közvetlenül a [GroupDocs.Signature releases](https://releases.groupdocs.com/signature/java/) oldalról, és add hozzá a classpath‑hoz.
+**Manuális letöltés**: Nem Maven vagy Gradle? Töltsd le a JAR‑t közvetlenül a [GroupDocs.Signature releases](https://releases.groupdocs.com/signature/java/) oldalról, és add hozzá a classpath‑hoz.
 
 ### Licenc beszerzése
 
@@ -144,9 +159,9 @@ A GroupDocs rugalmas licencelést kínál:
 
 - **Ingyenes próba**: Ideális teszteléshez – nincs szükség hitelkártyára. [Kezdje itt](https://releases.groupdocs.com/signature/java/)  
 - **Ideiglenes licenc**: Több időre van szükséged a kiértékeléshez? [Kérj ideiglenes licencet](https://purchase.groupdocs.com/temporary-license/) a fejlesztés alatti teljes funkcionalitáshoz  
-- **Termelési licenc**: Amikor készen állsz a bevetésre, [vásárolj licencet](https://purchase.groupdocs.com/buy) igényeid szerint  
+- **Termelési licenc**: Amikor készen állsz a bevezetésre, [vásárolj licencet](https://purchase.groupdocs.com/buy) az igényeidnek megfelelően  
 
-**További hasznos linkek**
+**További hasznos hivatkozások**
 
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)  
 - [API Reference Guide](https://reference.groupdocs.com/signature/java/)  
@@ -156,11 +171,11 @@ A GroupDocs rugalmas licencelést kínál:
 - [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)  
 - [Purchase Full License](https://purchase.groupdocs.com/buy)
 
-Pro tipp: Kezdd az ingyenes próbával a megoldás prototípusához, majd ha több időre van szükséged, válaszd az ideiglenes licencet, mielőtt véglegesítenéd.
+Pro tipp: Kezdd az ingyenes próbával a megoldás prototípusához, majd ha több időre van szükséged, szerezz ideiglenes licencet, mielőtt véglegesítenéd.
 
 ## A GroupDocs.Signature for Java beállítása
 
-A `Signature` osztály a belépési pont minden aláírási művelethez a GroupDocs.Signature‑ben. Egyetlen fájlt tölt be a memóriába, és metódusokat biztosít a vizuális aláírások hozzáadásához, kereséséhez vagy törléséhez.
+A `Signature` osztály a belépési pont minden aláírási művelethez a GroupDocs.Signature‑ben. Egyetlen fájlt reprezentál a memóriában, és metódusokat biztosít a vizuális aláírások hozzáadásához, kereséséhez vagy törléséhez.
 
 Hozz létre egy `Signature` példányt, amely a TAR fájlodra mutat. Ez betölti a fájlt a memóriába a feldolgozáshoz:
 ```java
@@ -174,46 +189,47 @@ public class InitializeSignature {
 }
 ```
 
-**Fontos**: Mindig zárd le a `Signature` objektumot, amikor befejezted (vagy használj try‑with‑resources‑t), hogy elkerüld a memória‑szivárgást nagy fájlok esetén.
+**Fontos**: Mindig zárd le a `Signature` objektumot, amikor befejezted (vagy használd a try‑with‑resources‑t), hogy elkerüld a nagy fájlok memória‑szivárgását.
 
 ## Vonalkód és QR‑kód aláírások közötti választás
 
-Nem vagy biztos, melyik aláírási típust válaszd? Íme egy gyors döntési útmutató:
+Nem vagy biztos benne, melyik aláírási típust válaszd? Íme egy gyors döntési útmutató:
 
-| Szempont | Vonalkód (Code128) | QR‑kód |
+| Szempont | Vonalkód (Code128) | QR kód |
 |----------|-------------------|--------|
 | **Adatkapacitás** | ~80 karakter | Akár 4 296 alfanumerikus karakter |
-| **Olvashatóság** | Vonalkód‑olvasó szükséges | Okostelefon‑kamerával működik |
+| **Olvashatóság** | Vonalkódolvasó szükséges | Okostelefon kamerával működik |
 | **Helyhatékonyság** | Vízszintesen kompaktabb | Négyzet alakú terület szükséges |
 | **Legalkalmasabb** | Egyszerű azonosítók, időbélyegek, rövid kódok | URL‑ek, JSON adatok, részletes metaadatok |
 | **Hibajavítás** | Minimális | Beépített (kár esetén is helyreállítható) |
 
 **Általános szabály**:  
-- Használd a **vonalkódot** gyors, beolvasható azonosítókhoz vagy időbélyegekhez.  
-- Használd a **QR‑kódot**, ha gazdagabb adatot kell beágyazni vagy okostelefon‑kompatibilitásra van szükség.  
+- Használj **vonalkódot** gyors, beolvastható azonosítókhoz vagy időbélyegekhez.  
+- Használj **QR‑kódot**, ha gazdagabb adatot kell beágyazni vagy okostelefon‑kompatibilitásra van szükség.  
 - Kombináld mindkettőt a maximális redundancia és auditálhatóság érdekében.
 
 ## Implementációs útmutató
 
 ### TAR archívum aláírása vonalkóddal
 
-#### Miért vonalkódok?
-A vonalkódok tökéletesek a TAR archívumokhoz, mivel kompaktak és könnyen beolvashatók. Beágyazhatod bennük az időbélyeget, verziószámot, felhasználói azonosítót vagy ellenőrzőösszeg értékét a gyors ellenőrzéshez.
+#### Miért vonalkódot használjunk?
+
+A vonalkódok tökéletesek a TAR archívumokhoz, mivel kompaktak és beolvasthatók. Beágyazhatod bennük időbélyegeket, verziószámokat, felhasználói azonosítókat vagy ellenőrzőösszeg‑értékeket a gyors ellenőrzéshez.
 
 #### Lépések
 
 **1. Aláírás inicializálása**  
-Először hozz létre egy `Signature` példányt a TAR fájlhoz:
+Először hozz egy `Signature` példányt a TAR fájlhoz:
 ```java
 import com.groupdocs.signature.Signature;
 
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
-**Pro tipp**: Nagy TAR fájlok (100 MB felett) esetén futtasd az aláírási műveletet háttérszálon, hogy a UI ne akadjon.
+**Pro tipp**: Nagy TAR fájlok (100 MB‑nál nagyobb) esetén futtasd az aláírási műveletet háttérszálon, hogy a UI ne fagyjon.
 
 **2. Vonalkód beállítások konfigurálása**  
-A `BarcodeSignature` osztály definiálja a vonalkód tartalmát, típusát és elhelyezését. A `BarcodeOptions` objektum tárolja ezeket a beállításokat:
+A `BarcodeSignature` osztály határozza meg a vonalkód tartalmát, típusát és elhelyezését. A `BarcodeOptions` objektum tárolja ezeket a beállításokat:
 ```java
 import com.groupdocs.signature.options.sign.BarcodeSignOptions;
 import com.groupdocs.signature.domain.barcodes.BarcodeTypes;
@@ -223,15 +239,15 @@ bcOptions.setLeft(100);  // X position in pixels
 bcOptions.setTop(100);   // Y position in pixels
 ```
 
-A `BarcodeOptions` segítségével megadhatod a vizuális megjelenést és a pozíciót.  
-A `BarcodeTypes` egy enum, amely felsorolja a támogatott vonalkód‑szimbólumokat, például `Code128`, `Code39` stb.
+`BarcodeOptions` lehetővé teszi a vizuális megjelenés és a pozíció megadását.  
+`BarcodeTypes` egy enum, amely a támogatott szimbólumokat sorolja fel, például `Code128`, `Code39` stb.
 
-**Mi történik?**  
+**Mi történik itt?**  
 - `"12345678"` a vonalkódban kódolt adat – cseréld le a saját azonosítódra, időbélyegedre vagy ellenőrző kódodra.  
-- `BarcodeTypes.Code128` egyensúlyt teremt az adatkapacitás és a beolvasási megbízhatóság között.  
-- A pozícióértékek (100, 100) a vonalkódot 100 px-re helyezik a bal‑felső saroktól.
+- `BarcodeTypes.Code128` jó egyensúlyt biztosít az adatkapacitás és a beolvasási megbízhatóság között.  
+- A pozícióértékek (100, 100) a vonalkódot 100 px‑re helyezik a bal‑felső saroktól.
 
-**Testreszabható beállítások, amiket érdemes megfontolni:**  
+**Testreszabási lehetőségek, amiket érdemes megfontolni:**  
 ```java
 bcOptions.setWidth(200);        // Barcode width in pixels
 bcOptions.setHeight(50);        // Barcode height in pixels
@@ -240,7 +256,7 @@ bcOptions.setBackgroundColor(Color.WHITE);  // Background color
 ```
 
 **3. Aláírás és mentés**  
-Hajtsd végre az aláírási műveletet, és tárold a aláírt archívumot:
+Végrehajtod az aláírási műveletet, és elmented a aláírt archívumot:
 ```java
 import com.groupdocs.signature.domain.SignResult;
 
@@ -248,13 +264,14 @@ String outputFilePath = "output/path/SignWithBarcode/archive_signed.tar";
 SignResult signResult = signature.sign(outputFilePath, bcOptions);
 ```
 
-A visszakapott `SignResult` objektum jelzi, hogy a művelet sikeres volt-e, és hol helyezkedik el az aláírás.  
+A visszakapott `SignResult` objektum megmutatja, hogy a művelet sikeres volt‑e, és hol helyezkedik el az aláírás.  
 **Gyakori hiba**: Győződj meg róla, hogy a kimeneti könyvtár létezik, mielőtt a `sign()`‑t meghívod. A könyvtár nem hoz létre szülőkönyvtárakat automatikusan.
 
 ### TAR archívum aláírása QR‑kóddal
 
 #### Mikor használjunk QR‑kódot?
-A QR‑kódok akkor jönnek jól, ha strukturált adatot (JSON, XML) kell tárolni, ellenőrző URL‑t kell beágyazni, vagy okostelefon‑beolvasást szeretnél biztosítani.
+
+A QR‑kódok akkor jönnek jól, ha strukturált adatot (JSON, XML) kell tárolni, ellenőrző URL‑t kell beágyazni, vagy okostelefon‑olvasást szeretnél biztosítani.
 
 #### Lépések
 
@@ -275,9 +292,9 @@ qrOptions.setLeft(400);  // X position
 qrOptions.setTop(400);   // Y position
 ```
 
-A `QrCodeTypes` egy enum, amely meghatározza a generálandó QR‑kód típusát (standard QR, DataMatrix, Aztec stb.).
+`QrCodeTypes` egy enum, amely meghatározza a generálandó QR‑kód típusát (standard QR, DataMatrix, Aztec stb.).
 
-**Valós példa** – JSON payload beágyazása ellenőrzési adatokkal:
+**Valós példa** – JSON terhelés beágyazása ellenőrzési adatokkal:
 ```java
 String verificationData = "{\"version\":\"1.0\",\"timestamp\":\"2025-01-02T10:30:00Z\",\"user\":\"john.doe\"}";
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(verificationData, QrCodeTypes.QR);
@@ -285,25 +302,26 @@ QrCodeSignOptions qrOptions = new QrCodeSignOptions(verificationData, QrCodeType
 
 **QR‑kód típusok:**  
 - `QrCodeTypes.QR` – standard QR‑kód (leggyakoribb)  
-- `QrCodeTypes.DataMatrix` – kisebb adatokhoz kompaktabb  
-- `QrCodeTypes.Aztec` – görbült felületekhez alkalmas  
+- `QrCodeTypes.DataMatrix` – kompaktabb kis adatmennyiséghez  
+- `QrCodeTypes.Aztec` – jó görbült felületekhez  
 
 **3. Aláírás és mentés**  
-Fejezd be a folyamatot ugyanúgy, mint a vonalkódoknál:
+A vonalkódokhoz hasonlóan fejezd be a folyamatot:
 ```java
 String outputFilePath = "output/path/SignWithQRCode/archive_signed.tar";
 SignResult signResult = signature.sign(outputFilePath, qrOptions);
 ```
 
-**Teljesítményjegyzet**: A QR‑kód generálás kissé lassabb, mint a vonalkód, a hibajavítási számítások miatt, de a különbség a legtöbb esetben elhanyagolható (általában néhány ezredmásodperc).
+**Teljesítmény‑jegyzet**: A QR‑kód generálás kissé lassabb, mint a vonalkód, a hibajavítási számítások miatt, de a különbség a legtöbb esetben elhanyagolható (általában néhány ezredmásodperc).
 
 ### Több aláírás egy TAR archívumban
 
 #### Miért használjunk több aláírást?
+
 - **Redundancia** – ha az egyik aláírás megsérül, a másik még mindig ellenőrizhető.  
-- **Különböző célcsoportok** – vonalkódok a szkennereknek, QR‑kódok a telefonoknak.  
+- **Különböző célcsoportok** – vonalkódok a szkennereknek, QR‑kódok a mobiltelefonoknak.  
 - **Rétegezett adatok** – gyors azonosító a vonalkódban, részletes metaadat a QR‑kódban.  
-- **Megfelelőség** – egyes szabályozások több ellenőrzési módszert igényelnek.
+- **Megfelelőség** – egyes szabályozások több ellenőrzési módszert is előírnak.
 
 #### Lépések
 
@@ -313,8 +331,8 @@ Ugyanaz, mint korábban:
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
-**2. Több opció konfigurálása**  
-Hozd létre mindkét aláírást, és helyezd őket egy listába:
+**2. Több beállítás konfigurálása**  
+Hozd létre mindkét aláírási típust, és helyezd őket egy listába:
 ```java
 import java.util.ArrayList;
 import java.util.List;
@@ -335,20 +353,20 @@ listOptions.add(bcOptions);
 listOptions.add(qrOptions);
 ```
 
-**Pro tipp**: Az aláírások elhelyezését stratégiailag válaszd – a sarkok vagy a nem zavaró területek a legalkalmasabbak TAR archívumoknál.
+**Pro tipp**: Az aláírásokat stratégiailag helyezd el – a sarkok vagy a nem zavaró területek a legalkalmasabbak TAR archívumoknál.
 
 **3. Aláírás és mentés**  
-Add át az opciók listáját a `sign()` metódusnak:
+Add át a beállítások listáját a `sign()` metódusnak:
 ```java
 String outputFilePath = "output/path/SignWithMultipleSignatures/archive_signed.tar";
 SignResult signResult = signature.sign(outputFilePath, listOptions);
 ```
 
-A GroupDocs sorban dolgozza fel az egyes aláírásokat, és a dokumentum metaadataiba ágyazza be őket. A lista sorrendje nem befolyásolja az ellenőrzést.
+A GroupDocs sorban dolgozza fel az egyes aláírásokat, és beágyazza őket a dokumentum metaadataiba. A lista sorrendje nem befolyásolja a verifikációt.
 
 ## Valós példák
 
-### 1. Szoftverszétosztási csővezetékek
+### 1. Szoftverdisztribúciós csővezetékek
 **Szituáció**: Szoftvercsomagok terjesztése TAR archívumként, és annak bizonyítása, hogy nem módosultak.  
 **Megoldás**: Minden kiadás aláírása QR‑kóddal, amely JSON payload‑ot tartalmaz:
 ```java
@@ -359,9 +377,9 @@ String releaseData = String.format(
 ```  
 **Miért működik**: A felhasználók beolvashatják a QR‑kódot a csomag integritásának ellenőrzéséhez – nincs szükség GPG kulcskezelésre.
 
-### 2. Automatizált mentési rendszerek
-**Szituáció**: Napi mentési TAR archívumok auditnyomra van szükség.  
-**Megoldás**: Vonalkód hozzáadása a mentés időbélyegével és a szerver‑azonosítóval:
+### 2. Automatizált biztonsági mentési rendszerek
+**Szituáció**: Napi TAR mentéseknek audit‑nyomot kell biztosítaniuk.  
+**Megoldás**: Vonalkód hozzáadása a mentés időbélyegével és a szerver azonosítójával:
 ```java
 String backupId = String.format("SRV01-%s", LocalDateTime.now().format(formatter));
 BarcodeSignOptions bcOptions = new BarcodeSignOptions(backupId, BarcodeTypes.Code128);
@@ -369,12 +387,12 @@ BarcodeSignOptions bcOptions = new BarcodeSignOptions(backupId, BarcodeTypes.Cod
 **Miért működik**: Gyors vizuális ellenőrzés a mentés hitelességéről anélkül, hogy meg kellene nyitni az archívumot.
 
 ### 3. Dokumentumkezelő rendszerek
-**Szituáció**: Jogilag kötelező dokumentumok archiválása, amelyeknek meg kell bizonyítaniuk a manipulációmentességet.  
-**Megoldás**: Mind vonalkód (gyors beolvasás), mind QR‑kód (részletes metaadat) egyazon archívumban.
+**Szituáció**: Jogilag kötelező dokumentumok archiválása, amelyeknek manipuláció‑álló ellenőrzése szükséges.  
+**Megoldás**: Mind vonalkód (gyors beolvasás), mind QR‑kód (részletes metaadat) egyaránt a archívumban.
 
 ### 4. Ellátási lánc nyomon követése
 **Szituáció**: Fájlcsomagok nyomon követése több szervezet között.  
-**Megoldás**: QR‑kód beágyazása nyomkövető URL‑lel, amely egy ellenőrző API‑ra mutat:
+**Megoldás**: QR‑kód beágyazása nyomkövető URL‑ekkel, amelyek egy ellenőrző API‑hoz kapcsolódnak:
 ```java
 String trackingUrl = "https://verify.yourcompany.com/track/" + uniqueId;
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(trackingUrl, QrCodeTypes.QR);
@@ -382,9 +400,9 @@ QrCodeSignOptions qrOptions = new QrCodeSignOptions(trackingUrl, QrCodeTypes.QR)
 
 ## Gyakori problémák és megoldások
 
-### Probléma 1: „Signature Not Found” az aláírás után
+### Probléma 1: „Aláírás nem található” az aláírás után
 **Tünet**: A `sign()` sikeres, de az aláírás nem látható.  
-**Okok**: Rossz pozicionálás, eredeti fájl felülírása, TAR megjelenítő korlátai.  
+**Okok**: Rossz pozicionálás, eredeti fájl felülírása, TAR néző korlátai.  
 **Megoldás**:  
 ```java
 // Always verify the signing succeeded
@@ -412,9 +430,9 @@ Vagy alkalmazz darabolt feldolgozást:
 // rather than embedding in the TAR itself
 ```  
 
-### Probléma 3: Az aláírás adatai levágódnak
+### Probléma 3: Az aláírás adatának levágása
 **Tünet**: Hosszú karakterláncok levágódnak.  
-**Ok**: A Code128 kapacitása (~80 karakter) túllépve.  
+**Ok**: A Code128 kapacitása meghaladva (≈ 80 karakter).  
 **Megoldás**: Válts QR‑kódra a hosszabb payloadokhoz:
 ```java
 // Bad: Too much data for Code128
@@ -439,7 +457,7 @@ Signature signature = new Signature("document.tar");
 
 **Pro tipp**: A licencet egyszer töltsd be az alkalmazás indításakor, ne minden aláírási művelet előtt.
 
-### Probléma 5: Pozícióértékek nem úgy működnek, ahogy várnád
+### Probléma 5: Pozícióértékek nem a várt helyen jelennek meg
 **Tünet**: Az aláírások váratlan helyen jelennek meg.  
 **Ok**: Pixel és pont keverése.  
 **Megoldás**: A GroupDocs alapértelmezés szerint pixeleket használ. Pontos elhelyezéshez:
@@ -455,7 +473,7 @@ bcOptions.setVerticalAlignment(VerticalAlignment.Center);
 ## Integrációs minták
 
 ### Minta 1: REST API szolgáltatás
-Aláírás kitettsége mikro‑szolgáltatásként:
+Aláírás kitetítése mikroszolgáltatásként:
 ```java
 @RestController
 @RequestMapping("/api/signature")
@@ -539,7 +557,7 @@ public class ArchiveCreatedListener {
 }
 ```  
 
-## Teljesítményfontosságú szempontok
+## Teljesítmény‑szempontok
 
 ### Memóriakezelés
 **A probléma**: Minden `Signature` példány betölti a teljes fájlt a memóriába.  
@@ -561,23 +579,23 @@ try (Signature signature = new Signature("file.tar")) {
 - **Közepes fájlok (10‑100 MB)** – háttérszálak használata.  
 - **Nagy fájlok (> 100 MB)** – fontold meg a metaadatok külön aláírását vagy a streaming API‑k használatát.
 
-### Aláírási komplexitás (közelítő időtartam egy tipikus szerveren)
+### Aláírási komplexitás (becsült idő egy standard szerveren)
 
-| Aláírás típusa | Idő/dokumentum |
-|----------------|----------------|
+| Aláírás típusa | Idő dokumentumonként |
+|----------------|----------------------|
 | Egyetlen vonalkód | 50‑100 ms |
 | Egyetlen QR‑kód | 100‑200 ms |
 | Több aláírás | 150‑300 ms |
 
-**Optimalizációs tipp**: Több ezer fájl esetén csoportosítsd őket, és használj szálpools‑t (lásd a fenti kötegelt feldolgozási mintát).
+**Optimalizációs tipp**: Több ezer fájl esetén csoportosítsd őket, és használj szálkészletet (lásd a fenti kötegelt feldolgozási mintát).
 
-### Könyvtár frissítések
-A GroupDocs rendszeresen kiad teljesítményjavításokat. Mindig ellenőrizd a [changelog](https://releases.groupdocs.com/signature/java/)‑t a nagyobb bevetések előtt.
+### Könyvtárfrissítések
+A GroupDocs rendszeresen kiad teljesítmény‑javító frissítéseket. Mindig ellenőrizd a [changelog](https://releases.groupdocs.com/signature/java/)‑t a nagyobb bevezetés előtt.
 
 **Frissítési stratégia**:  
 1. Teszteld az új verziókat staging környezetben.  
-2. Tekintsd át a törékeny változásokat.  
-3. Mérj valós fájlokkal.  
+2. Tekintsd át a töréspontokat.  
+3. Benchmarkolj valós fájlokkal.  
 4. Fokozatosan telepítsd.
 
 ## Legjobb gyakorlatok termeléshez
@@ -601,7 +619,7 @@ try {
 }
 ```  
 
-**3. Leíró aláírási adatok használata**  
+**3. Kifejező aláírási adatok használata**  
 ```java
 // Bad: Meaningless ID
 new BarcodeSignOptions("12345678", BarcodeTypes.Code128);
@@ -615,7 +633,7 @@ new BarcodeSignOptions(signatureData, BarcodeTypes.Code128);
 ```  
 
 **4. Aláírás formátum verziózása**  
-Tegyél verziószámot a beágyazott JSON‑ba, hogy a jövőbeli ellenőrzés is működjön:
+Tegyél egy verziószámot a beágyazott JSON‑ba, hogy a jövőbeli ellenőrzés is működjön:
 ```java
 String qrData = String.format(
     "{\"v\":\"1.0\",\"type\":\"archive\",\"timestamp\":\"%s\"}", 
@@ -623,32 +641,32 @@ String qrData = String.format(
 );
 ```  
 
-**5. Valós fájlokkal tesztelj** – mindig validáld a termelési méretű archívumokkal, hogy időben felfedezd a memória‑ és teljesítményproblémákat.
+**5. Valós fájlokkal tesztelj** – mindig ellenőrizd a termelési méretű archívumokkal, hogy időben felfedezd a memória‑ és teljesítmény‑problémákat.
 
 ## Összegzés
 
-Most már szilárd alapokkal rendelkezel a **digital signature java** megvalósításához vonalkódok és QR‑kódok segítségével. Amit megtanultál:
+Most már szilárd alapokkal rendelkezel a **how to sign java** megvalósításához vonalkód és QR‑kód aláírásokkal. Amit megtanultál:
 
-- Hogyan aláírj TAR archívumokat (és más dokumentumformátumokat) vonalkód és QR‑kód aláírásokkal  
+- Hogyan aláírj TAR archívumokat (és más dokumentumokat) vonalkód és QR‑kód aláírásokkal  
 - Mikor melyik aláírási típust válaszd a konkrét igények alapján  
 - Hogyan oldj meg gyakori problémákat, mielőtt a termelésbe kerülnének  
 - Valós integrációs minták REST API‑khoz, kötegelt feldolgozáshoz és esemény‑vezérelt rendszerekhez  
-- Teljesítményoptimalizálási technikák bármilyen méretű fájl kezeléséhez  
+- Teljesítmény‑optimalizálási technikák bármilyen méretű fájl kezeléséhez  
 
 **Következő lépések**:  
 1. Fedezd fel az aláírás ellenőrzését a `search()` metódussal.  
-2. Próbáld ki a többi dokumentumformátumot – a GroupDocs.Signature támogatja a PDF‑et, DOCX‑et, XLSX‑et, PNG‑t és még sok mást.  
-3. Testreszabhatod az aláírás megjelenését (színek, méretek, szegélyek).  
+2. Próbálj ki más dokumentumformátumokat – a GroupDocs.Signature támogatja a PDF, DOCX, XLSX, PNG és még sok más formátumot.  
+3. Testreszabhatod az aláírás megjelenését (színek, méretek, keretek).  
 4. Építs egy ellenőrző API‑t, amely programozottan validálja az aláírásokat.
 
-A GroupDocs.Signature ereje messze túlmutat ebben az útmutatóban. Tekintsd meg a [full documentation](https://docs.groupdocs.com/signature/java/)‑t, hogy felfedezd a fejlett funkciókat, mint a szöveges aláírások, képaláírások és metaadat‑kivonás.
+A GroupDocs.Signature ereje messze túlmutat ebben az útmutatóban. Tekintsd meg a [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) oldalt, hogy felfedezd a fejlett funkciókat, például szöveges aláírások, kép‑aláírások és metaadat‑kinyerés.
 
-Van kérdésed vagy szeretnéd megosztani a megoldásodat? Csatlakozz a GroupDocs közösségi fórumokhoz, ahol más fejlesztők segítenek.
+Van kérdésed vagy szeretnéd megosztani a megoldásod? Csatlakozz a GroupDocs közösségi fórumokhoz, ahol más fejlesztők segítenek.
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
-**K: Aláírhatok más típusú dokumentumokat is a TAR‑on kívül?**  
-A: Természetesen! A GroupDocs.Signature több mint 50 fájlformátumot támogat, köztük PDF, DOCX, XLSX, PNG és még sok mást. Csak a `Signature` konstruktorban a fájlkiterjesztést cseréld le a kívánt típusra.
+**K: Aláírhatok más típusú fájlokat is, mint a TAR archívumok?**  
+A: Természetesen! A GroupDocs.Signature több mint 50 fájlformátumot támogat, köztük PDF, DOCX, XLSX, PNG és még sok mást. Csak a `Signature` konstruktorban cseréld ki a fájlkiterjesztést a kívánt típusra.
 
 **K: Hogyan ellenőrzöm az aláírásokat aláírás után?**  
 A: Használd a `search()` metódust az aláírások megtalálásához és validálásához:  
@@ -659,14 +677,14 @@ List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, sea
 ```  
 
 **K: Biztonságosak-e az aláírások a manipulációval szemben?**  
-A: A vonalkód és QR‑kód aláírások vizuális ellenőrzést biztosítanak, de nem kriptográfiailag erősek, mint a digitális tanúsítványok. Maximális biztonságért kombináld őket hagyományos PKI‑val vagy tárold az aláírás hash‑eit egy külső adatbázisban.
+A: A vonalkód és QR‑kód aláírások vizuális ellenőrzést biztosítanak, de nem olyan kriptográfiailag erősek, mint a digitális tanúsítványok. Maximális biztonság érdekében kombináld őket hagyományos PKI‑val vagy tárold az aláírás hash‑eit egy külső adatbázisban.
 
 **K: Mekkora adatot tárolhatok egy aláírásban?**  
 - Code128 vonalkód: ~80 alfanumerikus karakter  
 - QR‑kód (Version 40): akár 4 296 alfanumerikus vagy 7 089 numerikus karakter  
 
 **K: Testreszabhatom az aláírás megjelenését?**  
-A: Igen! Színeket, méreteket, szegélyeket és egyebeket szabályozhatsz:  
+A: Igen! Színeket, méreteket, kereteket és egyebeket szabályozhatsz:  
 ```java
 bcOptions.setForeColor(Color.BLUE);
 bcOptions.setBackgroundColor(Color.YELLOW);
@@ -676,22 +694,22 @@ bcOptions.getBorder().setWeight(2);
 ```  
 
 **K: Mi történik, ha kétszer írom alá ugyanazt a fájlt?**  
-A: Minden `sign()` hívás új aláírást ad hozzá. Egy meglévő aláírás cseréjéhez előbb töröld a `delete()` metódussal.
+A: Minden `sign()` hívás egy új aláírást ad hozzá. Egy meglévő aláírás cseréjéhez előbb töröld a `delete()` metódussal.
 
-**K: Hogyan kezeljem a nagy fájlokat memória‑kimerülés nélkül?**  
-A: Növeld a JVM heap‑et (`-Xmx`), gyorsan szabadítsd fel a `Signature` objektumokat, és nagy, több gigabájtos archívumok esetén fontold meg a metaadatok külön aláírását.
+**K: Hogyan kezeljem a nagy fájlokat memória‑kihasználás nélkül?**  
+A: Növeld a JVM heap‑et (`-Xmx`), gyorsan szabadítsd fel a `Signature` objektumokat, és fontold meg a metaadatok külön aláírását több gigabájtos archívumok esetén.
 
 **K: Szükség van internetkapcsolatra az aláíráshoz?**  
 A: Nem. A GroupDocs.Signature teljesen offline működik, miután a könyvtár telepítve van.
 
 ---
 
-**Utolsó frissítés:** 2026-05-21  
+**Utolsó frissítés:** 2026-10-06  
 **Tesztelt verzió:** GroupDocs.Signature 23.12 for Java  
 **Szerző:** GroupDocs
 
 ## Kapcsolódó útmutatók
 
-- [Digital Signature in Java - Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
-- [Java Signature Verification Tutorial - Validate Documents with Text, Barcode & QR Codes](/signature/java/search-verification/groupdocs-signature-java-document-verification-guide/)
+- [Digital Signature in Java – Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)  
+- [Java Signature Verification Tutorial – Validate Documents with Text, Barcode & QR Codes](/signature/java/search-verification/groupdocs-signature-java-document-verification-guide/)  
 - [Sign ZIP Files in Java with Barcodes & QR Codes](/signature/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/)

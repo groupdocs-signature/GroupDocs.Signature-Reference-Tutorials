@@ -1,30 +1,33 @@
 ---
 categories:
 - Java Development
-date: '2026-05-21'
-description: Erfahren Sie, wie Sie digitale Signatur Java mit Barcodes und QR-Codes
-  implementieren. Schritt‑für‑Schritt-Anleitung mit GroupDocs.Signature zum Sichern
-  von TAR-Archiven und anderen Dokumenten.
+date: '2026-10-06'
+description: Erfahren Sie, wie Sie Java-Dateien mit Barcodes und QR-Codes signieren
+  und dabei eine einfache Integritätsprüfung von Java-Dateien mit GroupDocs.Signature
+  durchführen.
 keywords:
-- digital signature java
 - how to sign java
-- java document signing
+- digital signature java
 - java file integrity check
 - add barcode to file
-lastmod: '2026-05-21'
+- java document signing
+lastmod: '2026-10-06'
 linktitle: Java Digital Signature Tutorial
+og_description: Erfahren Sie, wie Sie Java-Dateien mit Barcodes und QR-Codes signieren
+  und dabei eine einfache Integritätsprüfung von Java-Dateien mit GroupDocs.Signature
+  durchführen.
+og_image_alt: Guide showing barcode and QR code signatures added to Java files
+og_title: Wie man Java-Dateien mit Barcodes & QR-Codes signiert
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-21'
-  description: Learn how to implement digital signature java using barcodes and QR
-    codes. Step‑by‑step guide with GroupDocs.Signature for securing TAR archives and
-    other documents.
-  headline: 'Digital Signature Java: Sign Files with Barcodes & QR Codes'
+  dateModified: '2026-10-06'
+  description: Learn how to sign Java files with barcodes and QR codes, providing
+    a simple java file integrity check using GroupDocs.Signature.
+  headline: How to sign Java files with barcodes and QR codes
   type: TechArticle
-- description: Learn how to implement digital signature java using barcodes and QR
-    codes. Step‑by‑step guide with GroupDocs.Signature for securing TAR archives and
-    other documents.
-  name: 'Digital Signature Java: Sign Files with Barcodes & QR Codes'
+- description: Learn how to sign Java files with barcodes and QR codes, providing
+    a simple java file integrity check using GroupDocs.Signature.
+  name: How to sign Java files with barcodes and QR codes
   steps:
   - name: Test new versions in staging.
     text: Test new versions in staging.
@@ -73,56 +76,70 @@ tags:
 - document-security
 - java-tutorial
 - groupdocs
-title: 'Digitale Signatur Java: Dateien mit Barcodes & QR-Codes signieren'
+- java file integrity check
+title: Wie man Java-Dateien mit Barcodes und QR-Codes signiert
 type: docs
 url: /de/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/
 weight: 1
 ---
 
-# Wie man digitale Signaturen zu Dateien in Java mit Barcodes und QR-Codes hinzufügt
+# Wie man Java-Dateien mit Barcodes und QR-Codes signiert
 
 ## Einführung
 
-Haben Sie sich jemals gefragt, wie Sie mit **digital signature java** nachweisen können, dass Ihre Dateien nicht manipuliert wurden? Oder benötigen Sie eine Möglichkeit, Dokumente programmgesteuert zu authentifizieren, ohne komplexe kryptografische Setups? Traditionelle digitale Signaturen können für bestimmte Anwendungsfälle überdimensioniert sein. Manchmal benötigen Sie nur eine leichte, scannbare Methode, um die Dateiintegrität zu überprüfen – insbesondere bei Archiven, Backups oder automatisierten Workflows. Genau hier kommen Barcode‑ und QR‑Code‑Signaturen ins Spiel.
+Haben Sie sich jemals gefragt, wie Sie mit **how to sign java**‑Techniken nachweisen können, dass Ihre Dateien nicht manipuliert wurden? Oder benötigen Sie eine Möglichkeit, Dokumente programmgesteuert zu authentifizieren, ohne komplexe kryptografische Setups? Traditionelle digitale Signaturen können für bestimmte Anwendungsfälle übertrieben sein. Manchmal benötigen Sie nur eine leichte, scanbare Methode, um die Dateiintegrität zu überprüfen – besonders beim Umgang mit Archiven, Backups oder automatisierten Workflows. Genau hier kommen Barcode‑ und QR‑Code‑Signaturen ins Spiel.
 
-In diesem Tutorial lernen Sie, wie Sie digitale Signaturen in Java mit GroupDocs.Signature implementieren. Wir konzentrieren uns auf das Signieren von TAR‑Archiven (ideal für Backup‑Systeme und Software‑Distribution), aber diese Techniken funktionieren mit verschiedenen Dokumentformaten. Egal, ob Sie ein Dokumenten‑Management‑System bauen oder einfach eine zusätzliche Sicherheitsebene zu Ihren Dateien hinzufügen möchten, Sie sind hier genau richtig.
+In diesem Tutorial lernen Sie, wie Sie **how to sign java** mit GroupDocs.Signature implementieren. Wir konzentrieren uns auf das Signieren von TAR‑Archiven (ideal für Backup‑Systeme und Software‑Distribution), aber diese Techniken funktionieren mit verschiedenen Dokumentformaten. Egal, ob Sie ein Dokumenten‑Management‑System bauen oder einfach eine zusätzliche Sicherheitsebene zu Ihren Dateien hinzufügen möchten – Sie sind hier genau richtig.
 
-**Was Sie mitnehmen:**
-- Eine funktionierende Implementierung von Barcode‑ und QR‑Code‑Signaturen in Java
-- Verständnis, wann welcher Signaturtyp verwendet wird (und warum das wichtig ist)
-- Praktische Lösungen für gängige Signatur‑Herausforderungen
-- Echte Integrations‑Muster, die Sie sofort einsetzen können
-- Leistungsoptimierungstipps für Produktionssysteme
+**Was Sie am Ende haben werden:**
+- Eine funktionierende Implementierung von Barcode‑ und QR‑Code‑Signaturen in Java  
+- Verständnis, wann welcher Signaturtyp zu verwenden ist (und warum das wichtig ist)  
+- Praktische Lösungen für gängige Signatur‑Herausforderungen  
+- Real‑World‑Integrationsmuster, die Sie noch heute einsetzen können  
+- Performance‑Optimierungstipps für Produktionssysteme  
 
-Legen wir los – ein Abschluss in Kryptografie ist nicht nötig.
+Legen wir los – kein Kryptografie‑Abschluss nötig.
 
 ## Schnelle Antworten
-- **Welche Bibliothek verarbeitet Barcode‑Signaturen in Java?** GroupDocs.Signature für Java.  
-- **Welcher Signaturtyp speichert mehr Daten?** QR‑Codes (bis zu 4.296 alphanumerische Zeichen).  
-- **Kann ich große TAR‑Dateien (> 100 MB) signieren?** Ja – verwenden Sie Hintergrund‑Threads und erhöhen Sie den JVM‑Heap.  
+- **Welche Bibliothek verarbeitet Barcode‑Signaturen in Java?** GroupDocs.Signature for Java.  
+- **Welcher Signaturtyp speichert mehr Daten?** QR‑Codes (bis zu 4 296 alphanumerische Zeichen).  
+- **Kann ich große TAR‑Dateien (> 100 MB) signieren?** Ja – nutzen Sie Hintergrund‑Threads und erhöhen Sie den JVM‑Heap.  
 - **Benötige ich eine Internetverbindung?** Nein, die Bibliothek funktioniert vollständig offline.  
-- **Ist für die Produktion eine Lizenz erforderlich?** Ja, eine gültige GroupDocs.Signature‑Lizenz ist zwingend erforderlich.
+- **Ist für die Produktion eine Lizenz erforderlich?** Ja, eine gültige GroupDocs.Signature‑Lizenz ist zwingend nötig.
 
-## Was ist Digital Signature Java?
+## Was ist digitale Signatur Java?
 
-**Digital signature java** ist der Prozess, ein überprüfbares visuelles Token – wie einen Barcode oder QR‑Code – direkt in eine von Java erzeugte Datei einzubetten, um deren Authentizität und Integrität zu beweisen. Durch das Anfügen dieses visuellen Tokens können Entwickler eine schnelle, menschenlesbare Möglichkeit bieten, zu bestätigen, dass die Datei seit dem Signieren nicht verändert wurde, während gleichzeitig eine programmgesteuerte Überprüfung über die GroupDocs.Signature‑API ermöglicht wird.
+Digitale Signatur Java ist der Prozess, ein verifizierbares visuelles Token – wie einen Barcode oder QR‑Code – direkt in eine von Java erzeugte Datei einzubetten, um deren Authentizität und Integrität nachzuweisen. Sie bietet einen schnellen, menschenlesbaren Beweis, dass die Datei seit dem Signieren nicht verändert wurde, und ermöglicht gleichzeitig die programmgesteuerte Überprüfung über die GroupDocs.Signature‑API.
 
 ## Warum Barcode‑ oder QR‑Code‑Signaturen verwenden?
 
-GroupDocs.Signature unterstützt **über 50 Eingabe‑ und Ausgabeformate** (einschließlich PDF, DOCX, XLSX, HTML, PNG und TAR) und kann mehrseitige Dokumente verarbeiten, ohne die gesamte Datei in den Speicher zu laden. Barcodes und QR‑Codes bieten Ihnen einen scannbaren, eigenständigen Nachweis der Authentizität und eliminieren in vielen internen Workflows die Notwendigkeit externer Zertifizierungsstellen.
+GroupDocs.Signature unterstützt **50+ Eingabe‑ und Ausgabeformate** (inkl. PDF, DOCX, XLSX, HTML, PNG und TAR) und kann Dokumente mit mehreren hundert Seiten verarbeiten, ohne die gesamte Datei in den Speicher zu laden. Barcodes und QR‑Codes liefern einen scanbaren, eigenständigen Authentizitätsnachweis und eliminieren in vielen internen Workflows die Notwendigkeit externer Zertifizierungsstellen.
+
+| Faktor | Barcode (Code128) | QR‑Code |
+|--------|-------------------|---------|
+| **Datenkapazität** | ~80 Zeichen | Bis zu 4 296 alphanumerische Zeichen |
+| **Lesbarkeit** | Benötigt Barcode‑Scanner | Funktioniert mit Smartphone‑Kameras |
+| **Platzbedarf** | Horizontal kompakter | Benötigt quadratischen Bereich |
+| **Am besten für** | Einfache IDs, Zeitstempel, kurze Codes | URLs, JSON‑Daten, detaillierte Metadaten |
+| **Fehlerkorrektur** | Minimal | Eingebaut (kann Schäden ausgleichen) |
+
+**Daumenregel**:  
+- Verwenden Sie **Barcodes** für schnelle, scanbare IDs oder Zeitstempel.  
+- Verwenden Sie **QR‑Codes**, wenn Sie reichhaltigere Daten einbetten oder Smartphone‑Kompatibilität benötigen.  
+- Kombinieren Sie beide für maximale Redundanz und Auditierbarkeit.
 
 ## Voraussetzungen
 
-- **GroupDocs.Signature for Java Library** – Version 23.12 oder neuer
-- **Java Development Kit (JDK)** – Version 8 oder höher
-- **IDE** – IntelliJ IDEA, Eclipse oder ein beliebiger Java‑kompatibler Editor
-- **Grundlegende Java‑Kenntnisse** – Sie sollten mit Klassen und Imports vertraut sein
+- **GroupDocs.Signature for Java Library** – Version 23.12 oder höher  
+- **Java Development Kit (JDK)** – Version 8 oder höher  
+- **IDE** – IntelliJ IDEA, Eclipse oder ein beliebiger Java‑kompatibler Editor  
+- **Grundlegende Java‑Kenntnisse** – Sie sollten mit Klassen und Imports vertraut sein  
 
 ### Umgebung einrichten
 
-Das Einbinden von GroupDocs.Signature in Ihr Projekt ist unkompliziert. Wählen Sie Ihr Build‑Tool:
+GroupDocs.Signature in Ihr Projekt zu integrieren ist unkompliziert. Wählen Sie Ihr Build‑Tool:
 
-**Maven** (add this to your `pom.xml`):
+**Maven** (fügen Sie dies zu Ihrer `pom.xml` hinzu):
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -131,7 +148,7 @@ Das Einbinden von GroupDocs.Signature in Ihr Projekt ist unkompliziert. Wählen 
 </dependency>
 ```
 
-**Gradle** (add to your `build.gradle`):
+**Gradle** (fügen Sie dies zu Ihrer `build.gradle` hinzu):
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
@@ -140,28 +157,29 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 
 ### Lizenzbeschaffung
 
-GroupDocs offers flexible licensing:
+GroupDocs bietet flexible Lizenzmodelle:
 
-- **Kostenlose Testversion**: Perfekt zum Testen – keine Kreditkarte erforderlich. [Hier starten](https://releases.groupdocs.com/signature/java/)
-- **Temporäre Lizenz**: Benötigen Sie mehr Zeit für die Evaluierung? [Fordern Sie eine temporäre Lizenz an](https://purchase.groupdocs.com/temporary-license/) für den vollen Funktionsumfang während der Entwicklung
-- **Produktionslizenz**: Wenn Sie bereit für den Einsatz sind, [kaufen Sie eine Lizenz](https://purchase.groupdocs.com/buy) basierend auf Ihren Bedürfnissen
+- **Kostenlose Testversion**: Perfekt zum Testen – keine Kreditkarte nötig. [Hier starten](https://releases.groupdocs.com/signature/java/)  
+- **Temporäre Lizenz**: Brauchen Sie mehr Zeit für die Evaluierung? [Temporäre Lizenz anfordern](https://purchase.groupdocs.com/temporary-license/) für vollen Funktionsumfang während der Entwicklung  
+- **Produktionslizenz**: Wenn Sie bereit für den Rollout sind, [Lizenz erwerben](https://purchase.groupdocs.com/buy) nach Ihren Bedürfnissen  
 
-**Zusätzliche nützliche Links**
-- [GroupDocs.Signature für Java Dokumentation](https://docs.groupdocs.com/signature/java/)
-- [API‑Referenzhandbuch](https://reference.groupdocs.com/signature/java/)
-- [Community‑Support‑Forum](https://forum.groupdocs.com/c/signature/)
-- [Neueste Bibliotheks‑Releases](https://releases.groupdocs.com/signature/java/)
-- [Kostenloser Test‑Download](https://releases.groupdocs.com/signature/java/)
-- [Temporäre Lizenz anfordern](https://purchase.groupdocs.com/temporary-license/)
+**Weitere nützliche Links**
+
+- [GroupDocs.Signature für Java Dokumentation](https://docs.groupdocs.com/signature/java/)  
+- [API‑Referenzhandbuch](https://reference.groupdocs.com/signature/java/)  
+- [Community‑Support‑Forum](https://forum.groupdocs.com/c/signature/)  
+- [Neueste Bibliotheks‑Releases](https://releases.groupdocs.com/signature/java/)  
+- [Kostenlose Test‑Download](https://releases.groupdocs.com/signature/java/)  
+- [Temporäre Lizenz anfordern](https://purchase.groupdocs.com/temporary-license/)  
 - [Vollständige Lizenz kaufen](https://purchase.groupdocs.com/buy)
 
-Pro‑Tipp: Beginnen Sie mit der kostenlosen Testversion, um Ihre Lösung zu prototypisieren, und holen Sie sich anschließend eine temporäre Lizenz, falls Sie mehr Zeit benötigen, bevor Sie sich festlegen.
+Pro‑Tipp: Beginnen Sie mit der kostenlosen Testversion, um Ihren Prototyp zu erstellen, und holen Sie sich bei Bedarf eine temporäre Lizenz, bevor Sie sich festlegen.
 
 ## Einrichtung von GroupDocs.Signature für Java
 
-Die Klasse `Signature` ist der Einstiegspunkt für alle Signatur‑Operationen in GroupDocs.Signature. Sie repräsentiert eine einzelne Datei, die in den Speicher geladen wird, und bietet Methoden zum Hinzufügen, Suchen oder Löschen visueller Signaturen.
+Die `Signature`‑Klasse ist der Einstiegspunkt für alle Signatur‑Operationen in GroupDocs.Signature. Sie repräsentiert eine einzelne Datei, die in den Speicher geladen wird, und bietet Methoden zum Hinzufügen, Suchen oder Entfernen visueller Signaturen.
 
-Erstellen Sie eine `Signature`‑Instanz, die auf Ihre TAR‑Datei zeigt. Dadurch wird die Datei für die Verarbeitung in den Speicher geladen:
+Erzeugen Sie eine `Signature`‑Instanz, die auf Ihre TAR‑Datei zeigt. Dadurch wird die Datei für die Verarbeitung in den Speicher geladen:
 ```java
 import com.groupdocs.signature.Signature;
 
@@ -177,20 +195,20 @@ public class InitializeSignature {
 
 ## Auswahl zwischen Barcode‑ und QR‑Code‑Signaturen
 
-Sie sind sich nicht sicher, welchen Signaturtyp Sie verwenden sollen? Hier ist ein kurzer Entscheidungsleitfaden:
+Unsicher, welchen Signaturtyp Sie wählen sollen? Hier ein schneller Entscheidungs‑Guide:
 
 | Faktor | Barcode (Code128) | QR‑Code |
 |--------|-------------------|---------|
-| Datenkapazität | ~80 Zeichen | Bis zu 4.296 alphanumerische Zeichen |
-| Lesbarkeit | Benötigt Barcode‑Scanner | Funktioniert mit Smartphone‑Kameras |
-| Platzbedarf | Horizontal kompakter | Benötigt quadratischen Bereich |
-| Am besten geeignet für | Einfache IDs, Zeitstempel, kurze Codes | URLs, JSON‑Daten, detaillierte Metadaten |
-| Fehlerkorrektur | Minimal | Integriert (kann Schäden ausgleichen) |
+| **Datenkapazität** | ~80 Zeichen | Bis zu 4 296 alphanumerische Zeichen |
+| **Lesbarkeit** | Benötigt Barcode‑Scanner | Funktioniert mit Smartphone‑Kameras |
+| **Platzbedarf** | Horizontal kompakter | Benötigt quadratischen Bereich |
+| **Am besten für** | Einfache IDs, Zeitstempel, kurze Codes | URLs, JSON‑Daten, detaillierte Metadaten |
+| **Fehlerkorrektur** | Minimal | Eingebaut (kann Schäden ausgleichen) |
 
-**Faustregel**:
-- Verwenden Sie **Barcodes** für schnelle, scannbare IDs oder Zeitstempel.  
-- Verwenden Sie **QR‑Codes**, wenn Sie reichhaltigere Daten einbetten oder Smartphone‑Kompatibilität wünschen.  
-- Kombinieren Sie beide für maximale Redundanz und Prüfbarkeit.
+**Daumenregel**:  
+- Verwenden Sie **Barcodes** für schnelle, scanbare IDs oder Zeitstempel.  
+- Verwenden Sie **QR‑Codes**, wenn Sie reichhaltigere Daten einbetten oder Smartphone‑Kompatibilität benötigen.  
+- Kombinieren Sie beide für maximale Redundanz und Auditierbarkeit.
 
 ## Implementierungs‑Leitfaden
 
@@ -198,12 +216,12 @@ Sie sind sich nicht sicher, welchen Signaturtyp Sie verwenden sollen? Hier ist e
 
 #### Warum mit Barcodes signieren?
 
-Barcodes sind ideal für TAR‑Archive, da sie kompakt und scannbar sind. Sie können Zeitstempel, Versionsnummern, Benutzer‑IDs oder Prüfsummenwerte für eine schnelle Verifizierung einbetten.
+Barcodes eignen sich perfekt für TAR‑Archive, weil sie kompakt und scanbar sind. Sie können Zeitstempel, Versionsnummern, Benutzer‑IDs oder Prüfsummen für eine schnelle Verifizierung einbetten.
 
 #### Schritte
 
 **1. Signatur initialisieren**  
-Zuerst erstellen Sie eine `Signature`‑Instanz für die TAR‑Datei:
+Erzeugen Sie zunächst eine `Signature`‑Instanz für die TAR‑Datei:
 ```java
 import com.groupdocs.signature.Signature;
 
@@ -213,7 +231,7 @@ final Signature signature = new Signature("path/to/your/archive.tar");
 Pro‑Tipp: Für große TAR‑Dateien (über 100 MB) führen Sie die Signatur‑Operation in einem Hintergrund‑Thread aus, um die UI reaktionsfähig zu halten.
 
 **2. Barcode‑Optionen konfigurieren**  
-Die Klasse `BarcodeSignature` definiert den Barcode‑Inhalt, -Typ und die Platzierung. Das Objekt `BarcodeOptions` enthält diese Einstellungen:
+Die Klasse `BarcodeSignature` definiert den Barcode‑Inhalt, Typ und die Platzierung. Das Objekt `BarcodeOptions` hält diese Einstellungen:
 ```java
 import com.groupdocs.signature.options.sign.BarcodeSignOptions;
 import com.groupdocs.signature.domain.barcodes.BarcodeTypes;
@@ -223,15 +241,15 @@ bcOptions.setLeft(100);  // X position in pixels
 bcOptions.setTop(100);   // Y position in pixels
 ```
 
-`BarcodeOptions` ermöglicht es Ihnen, das visuelle Erscheinungsbild und die Position des Barcodes festzulegen.  
+`BarcodeOptions` ermöglicht die Angabe von Aussehen und Position des Barcodes.  
 `BarcodeTypes` ist ein Enum, das unterstützte Barcode‑Symbologien wie `Code128`, `Code39` usw. auflistet.
 
-**Was passiert hier?**
-- `"12345678"` ist die im Barcode codierten Daten – ersetzen Sie sie durch Ihre tatsächliche ID, Zeitstempel oder Verifizierungscode.
-- `BarcodeTypes.Code128` bietet ein ausgewogenes Verhältnis zwischen Datenkapazität und Scan‑Zuverlässigkeit.
+**Was passiert hier?**  
+- `"12345678"` ist der im Barcode codierte Datenwert – ersetzen Sie ihn durch Ihre tatsächliche ID, Zeitstempel oder Verifizierungscode.  
+- `BarcodeTypes.Code128` bietet ein gutes Gleichgewicht zwischen Datenkapazität und Scan‑Zuverlässigkeit.  
 - Positionswerte (100, 100) platzieren den Barcode 100 px vom oberen linken Rand.
 
-**Anpassungsoptionen, die Sie möglicherweise benötigen:**
+**Anpassungsoptionen, die Sie eventuell benötigen:**  
 ```java
 bcOptions.setWidth(200);        // Barcode width in pixels
 bcOptions.setHeight(50);        // Barcode height in pixels
@@ -249,7 +267,7 @@ SignResult signResult = signature.sign(outputFilePath, bcOptions);
 ```
 
 Das zurückgegebene `SignResult`‑Objekt gibt an, ob die Operation erfolgreich war und wo die Signatur platziert wurde.  
-**Häufiges Problem**: Stellen Sie sicher, dass das Ausgabeverzeichnis existiert, bevor Sie `sign()` aufrufen. Die Bibliothek erstellt übergeordnete Verzeichnisse nicht automatisch.
+**Häufiges Stolper‑Problem**: Stellen Sie sicher, dass das Ausgabeverzeichnis existiert, bevor Sie `sign()` aufrufen. Die Bibliothek erstellt keine übergeordneten Verzeichnisse automatisch.
 
 ### TAR‑Archiv mit QR‑Code signieren
 
@@ -260,13 +278,13 @@ QR‑Codes glänzen, wenn Sie strukturierte Daten (JSON, XML) speichern, Verifiz
 #### Schritte
 
 **1. Signatur initialisieren**  
-Same as before—create your `Signature` instance:
+Wie zuvor – erzeugen Sie Ihre `Signature`‑Instanz:
 ```java
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
 **2. QR‑Code‑Optionen konfigurieren**  
-Richten Sie Ihren QR‑Code mit den zu embedden Daten ein:
+Richten Sie Ihren QR‑Code mit den gewünschten Daten ein:
 ```java
 import com.groupdocs.signature.options.sign.QrCodeSignOptions;
 import com.groupdocs.signature.domain.qrcodes.QrCodeTypes;
@@ -276,46 +294,47 @@ qrOptions.setLeft(400);  // X position
 qrOptions.setTop(400);   // Y position
 ```
 
-`QrCodeTypes` ist ein Enum, das den zu erzeugenden QR‑Code‑Typ angibt (Standard‑QR, DataMatrix, Aztec usw.).
+`QrCodeTypes` ist ein Enum, das den zu erzeugenden QR‑Code‑Typ angibt (Standard‑QR, DataMatrix, Aztec usw.).  
 
-**Real‑world example – embed a JSON payload with verification data:**
+**Praxisbeispiel** – JSON‑Payload mit Verifizierungsdaten einbetten:
 ```java
 String verificationData = "{\"version\":\"1.0\",\"timestamp\":\"2025-01-02T10:30:00Z\",\"user\":\"john.doe\"}";
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(verificationData, QrCodeTypes.QR);
 ```
 
-**QR‑Code‑Typ‑Optionen:**
-- `QrCodeTypes.QR` – Standard‑QR‑Code (am häufigsten)
-- `QrCodeTypes.DataMatrix` – kompakter für kleine Daten
-- `QrCodeTypes.Aztec` – gut für gekrümmte Oberflächen
+**QR‑Code‑Typ‑Optionen:**  
+- `QrCodeTypes.QR` – Standard‑QR‑Code (am häufigsten)  
+- `QrCodeTypes.DataMatrix` – kompakter für kleine Datenmengen  
+- `QrCodeTypes.Aztec` – gut für gekrümmte Oberflächen  
 
 **3. Dokument signieren und speichern**  
-Complete the signing process just like with barcodes:
+Den Signatur‑Vorgang genauso abschließen wie bei Barcodes:
 ```java
 String outputFilePath = "output/path/SignWithQRCode/archive_signed.tar";
 SignResult signResult = signature.sign(outputFilePath, qrOptions);
 ```
 
-Leistungshinweis: Die QR‑Code‑Erzeugung ist aufgrund der Fehlerkorrekturberechnungen etwas langsamer als bei Barcodes, aber der Unterschied ist für die meisten Anwendungsfälle vernachlässigbar (typischerweise ein paar Millisekunden).
+**Performance‑Hinweis**: Die QR‑Code‑Erzeugung ist leicht langsamer als bei Barcodes wegen der Fehlerkorrektur‑Berechnungen, aber der Unterschied ist für die meisten Anwendungsfälle vernachlässigbar (typischerweise ein paar Millisekunden).
 
 ### TAR‑Archiv mit mehreren Signaturen signieren
 
 #### Warum mehrere Signaturen verwenden?
 
-- **Redundanz** – wenn eine Signatur beschädigt ist, kann die andere noch verifizieren.
-- **Verschiedene Zielgruppen** – Barcodes für Scanner, QR‑Codes für Smartphones.
-- **Gestapelte Daten** – schnelle ID im Barcode, detaillierte Metadaten im QR‑Code.
-- **Compliance** – einige Vorschriften verlangen mehrere Verifizierungsmethoden.
+- **Redundanz** – falls eine Signatur beschädigt ist, kann die andere noch verifizieren.  
+- **Unterschiedliche Zielgruppen** – Barcodes für Scanner, QR‑Codes für Smartphones.  
+- **Gestapelte Daten** – schnelle ID im Barcode, detaillierte Metadaten im QR‑Code.  
+- **Compliance** – manche Vorschriften verlangen mehrere Verifikationsmethoden.
 
 #### Schritte
 
 **1. Signatur initialisieren**  
+Wie bereits beschrieben:
 ```java
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
 **2. Mehrere Optionen konfigurieren**  
-Erstellen Sie beide Signaturtypen und kombinieren Sie sie in einer Liste:
+Erzeugen Sie beide Signaturtypen und kombinieren Sie sie in einer Liste:
 ```java
 import java.util.ArrayList;
 import java.util.List;
@@ -336,64 +355,57 @@ listOptions.add(bcOptions);
 listOptions.add(qrOptions);
 ```
 
-Pro‑Tipp: Positionieren Sie Signaturen strategisch – Ecken oder nicht störende Bereiche funktionieren am besten für TAR‑Archive.
+Pro‑Tipp: Positionieren Sie Signaturen strategisch – Ecken oder nicht störende Bereiche eignen sich am besten für TAR‑Archive.
 
 **3. Dokument signieren und speichern**  
-Pass the list of options to the `sign()` method:
+Übergeben Sie die Options‑Liste an die `sign()`‑Methode:
 ```java
 String outputFilePath = "output/path/SignWithMultipleSignatures/archive_signed.tar";
 SignResult signResult = signature.sign(outputFilePath, listOptions);
 ```
 
-GroupDocs verarbeitet jede Signatur nacheinander und bettet sie in die Dokument‑Metadaten ein. Die Reihenfolge in Ihrer Liste hat keinen Einfluss auf die Verifizierung.
+GroupDocs verarbeitet jede Signatur nacheinander und bettet sie in die Dokument‑Metadaten ein. Die Reihenfolge in Ihrer Liste beeinflusst die Verifikation nicht.
 
 ## Praxisbeispiele
 
 ### 1. Software‑Verteilungspipelines
-
-**Szenario**: Verteilung von Softwarepaketen als TAR‑Archive und Nachweis, dass sie nicht verändert wurden.  
-**Lösung**: Signieren Sie jede Release mit einem QR‑Code, der ein JSON‑Payload enthält:
+**Szenario**: Software‑Pakete als TAR‑Archive verteilen und nachweisen, dass sie nicht verändert wurden.  
+**Lösung**: Jede Release mit einem QR‑Code signieren, der ein JSON‑Payload enthält:
 ```java
 String releaseData = String.format(
     "{\"version\":\"%s\",\"buildDate\":\"%s\",\"sha256\":\"%s\"}",
     version, buildDate, checksum
 );
-```
-
-**Warum es funktioniert**: Benutzer können den QR‑Code scannen, um die Paketintegrität vor der Installation zu prüfen – keine GPG‑Schlüsselverwaltung nötig.
+```  
+**Warum es funktioniert**: Nutzer können den QR‑Code scannen, um die Paket‑Integrität vor der Installation zu prüfen – ohne GPG‑Schlüsselverwaltung.
 
 ### 2. Automatisierte Backup‑Systeme
-
-**Szenario**: Tägliche Backup‑TAR‑Archive benötigen Prüfpfade.  
-**Lösung**: Fügen Sie einen Barcode mit dem Backup‑Zeitstempel und der Server‑ID hinzu:
+**Szenario**: Tägliche Backup‑TAR‑Archive benötigen Audit‑Spuren.  
+**Lösung**: Einen Barcode mit dem Backup‑Zeitstempel und Server‑ID hinzufügen:
 ```java
 String backupId = String.format("SRV01-%s", LocalDateTime.now().format(formatter));
 BarcodeSignOptions bcOptions = new BarcodeSignOptions(backupId, BarcodeTypes.Code128);
-```
-
+```  
 **Warum es funktioniert**: Schnelle visuelle Überprüfung der Backup‑Authentizität, ohne das Archiv zu öffnen.
 
 ### 3. Dokumenten‑Management‑Systeme
+**Szenario**: Rechtliche Dokumente in Archiven müssen manipulationssicher verifiziert werden.  
+**Lösung**: Sowohl Barcode (schnelles Scannen) als auch QR‑Code (detaillierte Metadaten) im selben Archiv verwenden.  
 
-**Szenario**: Rechtsdokumente, die als Archive gespeichert werden, benötigen manipulationssichere Verifizierung.  
-**Lösung**: Verwenden Sie sowohl Barcode (schnelles Scannen) als auch QR‑Code (detaillierte Metadaten) im selben Archiv.
-
-### 4. Lieferketten‑Verfolgung
-
-**Szenario**: Verfolgung von Dateipaketen durch mehrere Organisationen.  
-**Lösung**: Embed QR codes with tracking URLs that link to a verification API:
+### 4. Lieferketten‑Tracking
+**Szenario**: Dateien durch mehrere Organisationen verfolgen.  
+**Lösung**: QR‑Codes mit Tracking‑URLs einbetten, die zu einer Verifikations‑API führen:
 ```java
 String trackingUrl = "https://verify.yourcompany.com/track/" + uniqueId;
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(trackingUrl, QrCodeTypes.QR);
-```
+```  
 
 ## Häufige Probleme und Lösungen
 
-### Problem 1: „Signature Not Found“ nach dem Signieren
-
-**Symptom**: `sign()` ist erfolgreich, aber die Signatur ist nicht sichtbar.  
-**Ursachen**: Falsche Platzierung, Überschreiben der Originaldatei, Einschränkungen des TAR‑Viewers.  
-**Lösung:**
+### Problem 1: „Signature not found“ nach dem Signieren
+**Symptom**: `sign()` schlägt erfolgreich, aber die Signatur ist nicht sichtbar.  
+**Ursachen**: Falsche Platzierung, Überschreiben der Originaldatei, Beschränkungen des TAR‑Viewers.  
+**Lösung**:  
 ```java
 // Always verify the signing succeeded
 SignResult result = signature.sign(outputFilePath, bcOptions);
@@ -405,39 +417,36 @@ if (result.getSucceeded().size() > 0) {
 
 // Use absolute paths to avoid confusion
 String absolutePath = new File(outputFilePath).getAbsolutePath();
-```
+```  
 
 ### Problem 2: OutOfMemoryError bei großen TAR‑Dateien
-
 **Symptom**: JVM stürzt bei Archiven > 500 MB ab.  
-**Lösung**: Increase heap size (`-Xmx`) and dispose of `Signature` objects promptly:
+**Lösung**: Heap‑Größe erhöhen (`-Xmx`) und `Signature`‑Objekte sofort freigeben:
 ```bash
 java -Xmx2G -jar your-application.jar
-```
+```  
 
-Or implement chunked processing:
+Oder chunk‑basiertes Verarbeiten implementieren:
 ```java
 // For very large files, consider signing metadata separately
 // rather than embedding in the TAR itself
-```
+```  
 
-### Problem 3: Signaturdaten werden abgeschnitten
-
-**Symptom**: Lange Zeichenketten werden abgeschnitten.  
-**Ursache**: Überschreitung der Kapazität von Code128 (≈ 80 Zeichen).  
-**Lösung**: Switch to QR codes for longer payloads:
+### Problem 3: Signatur‑Daten werden abgeschnitten
+**Symptom**: Lange Zeichenketten werden gekürzt.  
+**Ursache**: Kapazitätsgrenze von Code128 (≈ 80 Zeichen) überschritten.  
+**Lösung**: Für längere Payloads zu QR‑Codes wechseln:
 ```java
 // Bad: Too much data for Code128
 BarcodeSignOptions bcOptions = new BarcodeSignOptions(veryLongString, BarcodeTypes.Code128);
 
 // Good: Use QR code instead
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(veryLongString, QrCodeTypes.QR);
-```
+```  
 
-### Problem 4: Lizenzvalidierungsfehler
-
+### Problem 4: Lizenz‑Validierungsfehler
 **Symptom**: `LicenseException` oder „Trial version“-Warnungen in der Produktion.  
-**Lösung**: Load the license before creating any `Signature` instances:
+**Lösung**: Lizenz vor dem Erzeugen von `Signature`‑Instanzen laden:
 ```java
 import com.groupdocs.signature.License;
 
@@ -446,15 +455,14 @@ license.setLicense("path/to/GroupDocs.Signature.lic");
 
 // Now create signatures
 Signature signature = new Signature("document.tar");
-```
+```  
 
-**Pro‑Tipp**: Laden Sie die Lizenz einmal beim Anwendungsstart, nicht vor jeder Signatur‑Operation.
+Pro‑Tipp: Lizenz einmal beim Anwendungsstart laden, nicht vor jeder Signatur‑Operation.
 
 ### Problem 5: Positionswerte funktionieren nicht wie erwartet
-
-**Symptom**: Signaturen erscheinen an unerwarteten Positionen.  
+**Symptom**: Signaturen erscheinen an unerwarteten Stellen.  
 **Ursache**: Verwechslung zwischen Pixeln und Punkten.  
-**Lösung**: GroupDocs uses pixels by default. For precise placement:
+**Lösung**: GroupDocs verwendet standardmäßig Pixel. Für präzise Platzierung:
 ```java
 bcOptions.setLeft(100);  // 100 pixels from left edge
 bcOptions.setTop(100);   // 100 pixels from top edge
@@ -462,13 +470,12 @@ bcOptions.setTop(100);   // 100 pixels from top edge
 // If you need percentage-based positioning:
 bcOptions.setHorizontalAlignment(HorizontalAlignment.Center);
 bcOptions.setVerticalAlignment(VerticalAlignment.Center);
-```
+```  
 
-## Integrations‑Muster
+## Integrationsmuster
 
-### Muster 1: REST‑API‑Dienst
-
-Expose signing as a microservice:
+### Muster 1: REST‑API‑Service
+Signieren als Microservice bereitstellen:  
 ```java
 @RestController
 @RequestMapping("/api/signature")
@@ -502,11 +509,10 @@ public class SignatureController {
         }
     }
 }
-```
+```  
 
 ### Muster 2: Batch‑Verarbeitungspipeline
-
-Sign multiple archives in a pipeline:
+Mehrere Archive in einer Pipeline signieren:  
 ```java
 public class BatchSigner {
     
@@ -532,11 +538,10 @@ public class BatchSigner {
         // ... signing logic
     }
 }
-```
+```  
 
 ### Muster 3: Ereignisgesteuerte Architektur
-
-Trigger signing when archives are created:
+Signatur auslösen, wenn Archive erstellt werden:  
 ```java
 @Component
 public class ArchiveCreatedListener {
@@ -552,14 +557,13 @@ public class ArchiveCreatedListener {
         // ... signing logic
     }
 }
-```
+```  
 
 ## Leistungsüberlegungen
 
 ### Speicherverwaltung
-
-**Das Problem**: Jede `Signature`‑Instanz lädt die gesamte Datei in den Speicher.  
-**Best Practices**:
+**Problem**: Jede `Signature`‑Instanz lädt die gesamte Datei in den Speicher.  
+**Best Practices**:  
 ```java
 // Bad: Creating multiple instances for same file
 Signature sig1 = new Signature("file.tar");
@@ -570,15 +574,14 @@ try (Signature signature = new Signature("file.tar")) {
     signature.sign(output1, options1);
     signature.sign(output2, options2);  // Same instance, different outputs
 }
-```
+```  
 
 ### Dateigrößen‑Optimierung
-
 - **Kleine Dateien (< 10 MB)** – synchron signieren.  
-- **Mittlere Dateien (10‑100 MB)** – Hintergrund‑Threads verwenden.  
-- **Große Dateien (> 100 MB)** – erwägen Sie, Metadaten separat zu signieren oder Streaming‑APIs zu nutzen.
+- **Mittlere Dateien (10‑100 MB)** – Hintergrund‑Threads nutzen.  
+- **Große Dateien (> 100 MB)** – Signatur‑Metadaten separat signieren oder Streaming‑APIs verwenden.
 
-### Signaturkomplexität (ungefähre Zeiten auf einem Standard‑Server)
+### Signatur‑Komplexität (ungefähre Zeiten auf einem Standard‑Server)
 
 | Signaturtyp | Zeit pro Dokument |
 |-------------|-------------------|
@@ -586,29 +589,28 @@ try (Signature signature = new Signature("file.tar")) {
 | Einzelner QR‑Code | 100‑200 ms |
 | Mehrere Signaturen | 150‑300 ms |
 
-**Optimierungstipp**: Für tausende Dateien stapeln Sie sie und verwenden Sie einen Thread‑Pool (siehe das Batch‑Verarbeitung‑Muster oben).
+**Optimierungstipp**: Für Tausende von Dateien stapeln Sie sie und nutzen Sie einen Thread‑Pool (siehe Batch‑Verarbeitung‑Muster oben).
 
 ### Bibliotheks‑Updates
+GroupDocs veröffentlicht regelmäßig Performance‑Verbesserungen. Prüfen Sie stets das [Changelog](https://releases.groupdocs.com/signature/java/) vor größeren Deployments.
 
-GroupDocs veröffentlicht regelmäßig Leistungsverbesserungen. Prüfen Sie stets das [Changelog](https://releases.groupdocs.com/signature/java/) vor größeren Deployments.
-
-**Update‑Strategie**:
-1. Testen Sie neue Versionen in der Staging‑Umgebung.  
-2. Überprüfen Sie breaking changes.  
-3. Führen Sie Benchmarks mit realen Dateien durch.  
-4. Rollout schrittweise.
+**Update‑Strategie**:  
+1. Neue Versionen in Staging testen.  
+2. Breaking Changes prüfen.  
+3. Mit realen Dateien benchmarken.  
+4. Schrittweise ausrollen.
 
 ## Best Practices für die Produktion
 
-**1. Lizenzstatus validieren**
+**1. Lizenz‑Status prüfen**  
 ```java
 License license = new License();
 if (!license.isLicensed()) {
     logger.warn("Running in trial mode - features may be limited");
 }
-```
+```  
 
-**2. Robuste Fehlerbehandlung implementieren**
+**2. Robuste Fehlerbehandlung implementieren**  
 ```java
 try {
     signature.sign(outputPath, options);
@@ -617,9 +619,9 @@ try {
     // Don't just swallow exceptions - log or re-throw
     throw new SignatureException("Failed to sign document", e);
 }
-```
+```  
 
-**3. Beschreibende Signaturdaten verwenden**
+**3. Beschreibende Signatur‑Daten verwenden**  
 ```java
 // Bad: Meaningless ID
 new BarcodeSignOptions("12345678", BarcodeTypes.Code128);
@@ -630,85 +632,86 @@ String signatureData = String.format("DOC-%s-%s",
     LocalDateTime.now().format(DateTimeFormatter.ISO_DATE_TIME)
 );
 new BarcodeSignOptions(signatureData, BarcodeTypes.Code128);
-```
+```  
 
-**4. Signaturformat versionieren**
-Fügen Sie eine Versionsnummer in das eingebettete JSON ein, um Ihre Verifizierungslogik zukunftssicher zu machen:
+**4. Signatur‑Format versionieren**  
+Fügen Sie eine Versionsnummer in das eingebettete JSON ein, um zukünftige Verifikations‑Logik abzusichern:  
 ```java
 String qrData = String.format(
     "{\"v\":\"1.0\",\"type\":\"archive\",\"timestamp\":\"%s\"}", 
     timestamp
 );
-```
+```  
 
-**5. Mit realen Dateien testen** – validieren Sie stets mit produktionsgroßen Archiven, um Speicher‑ und Leistungsprobleme frühzeitig zu erkennen.
+**5. Mit realen Dateien testen** – immer mit produktionsgroßen Archiven validieren, um Speicher‑ und Performance‑Probleme früh zu erkennen.
 
 ## Fazit
 
-Sie haben nun eine solide Grundlage, um **digital signature java** mit Barcodes und QR‑Codes zu implementieren. Das haben Sie gelernt:
-- Wie man TAR‑Archive (und andere Dokumente) mit Barcode‑ und QR‑Code‑Signaturen signiert
-- Wann man je nach Bedarf den jeweiligen Signaturtyp wählt
-- Wie man gängige Probleme behebt, bevor sie die Produktion erreichen
-- Praxisnahe Integrations‑Muster für REST‑APIs, Batch‑Verarbeitung und ereignisgesteuerte Systeme
-- Leistungsoptimierungstechniken für die Verarbeitung von Dateien jeder Größe
+Sie haben nun ein solides Fundament, um **how to sign java** mit Barcodes und QR‑Codes zu implementieren. Sie haben gelernt:
 
-**Nächste Schritte**:
-1. Untersuchen Sie die Signaturverifizierung mit der Methode `search()`.  
-2. Probieren Sie andere Dokumentformate aus – GroupDocs.Signature unterstützt PDF, DOCX, XLSX, PNG und mehr.  
-3. Passen Sie das Aussehen der Signatur an (Farben, Größen, Rahmen).  
-4. Erstellen Sie eine Verifizierungs‑API, um Signaturen programmgesteuert zu validieren.
+- Wie man TAR‑Archive (und andere Dokumente) mit Barcode‑ und QR‑Code‑Signaturen signiert  
+- Wann welcher Signaturtyp basierend auf konkreten Anforderungen zu wählen ist  
+- Wie man gängige Probleme bereits vor dem Produktiveinsatz löst  
+- Praxisnahe Integrationsmuster für REST‑APIs, Batch‑Verarbeitung und ereignisgesteuerte Systeme  
+- Performance‑Optimierungstechniken für Dateien jeder Größe  
 
-Die Leistungsfähigkeit von GroupDocs.Signature geht weit über diesen Leitfaden hinaus. Werfen Sie einen Blick auf die [vollständige Dokumentation](https://docs.groupdocs.com/signature/java/), um erweiterte Funktionen wie Text‑Signaturen, Bild‑Signaturen und Metadaten‑Extraktion zu entdecken.
+**Nächste Schritte**:  
+1. Signatur‑Verifikation mit der `search()`‑Methode erkunden.  
+2. Weitere Dokumentformate testen – GroupDocs.Signature unterstützt PDF, DOCX, XLSX, PNG und mehr.  
+3. Aussehen der Signatur anpassen (Farben, Größen, Rahmen).  
+4. Eine Verifikations‑API bauen, um Signaturen programmgesteuert zu prüfen.
 
-Haben Sie Fragen oder möchten Sie Ihre Implementierung teilen? Treten Sie den GroupDocs‑Community‑Foren bei, um Hilfe von anderen Entwicklern zu erhalten.
+Die Möglichkeiten von GroupDocs.Signature gehen weit über diesen Leitfaden hinaus. Schauen Sie in die [GroupDocs.Signature für Java Dokumentation](https://docs.groupdocs.com/signature/java/), um erweiterte Features wie Text‑Signaturen, Bild‑Signaturen und Metadaten‑Extraktion zu entdecken.
+
+Fragen oder eigene Implementierungen? Treten Sie den GroupDocs‑Community‑Foren bei und tauschen Sie sich mit anderen Entwicklern aus.
 
 ## Häufig gestellte Fragen
 
-**F: Kann ich Dokumente außer TAR‑Archiven signieren?**  
-A: Auf jeden Fall! GroupDocs.Signature unterstützt über 50 Dateiformate, einschließlich PDF, DOCX, XLSX, PNG und mehr. Ändern Sie einfach die Dateierweiterung im `Signature`‑Konstruktor, um mit jedem unterstützten Typ zu arbeiten.
+**Q: Kann ich neben TAR‑Archiven auch andere Dokumente signieren?**  
+A: Absolut! GroupDocs.Signature unterstützt über 50 Dateiformate, darunter PDF, DOCX, XLSX, PNG und mehr. Ändern Sie einfach die Dateierweiterung im `Signature`‑Konstruktor, um mit jedem unterstützten Typ zu arbeiten.
 
-**F: Wie verifiziere ich Signaturen nach dem Signieren?**  
-A: Use the `search()` method to locate and validate signatures:
+**Q: Wie verifiziere ich Signaturen nach dem Signieren?**  
+A: Nutzen Sie die `search()`‑Methode, um Signaturen zu finden und zu validieren:  
 ```java
 Signature signature = new Signature("signed-document.tar");
 BarcodeSearchOptions searchOptions = new BarcodeSearchOptions();
 List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, searchOptions);
-```
+```  
 
-**F: Sind die Signaturen gegen Manipulationen gesichert?**  
-A: Barcode and QR code signatures provide visual verification but are not cryptographically strong like digital certificates. For maximum security, combine them with traditional PKI or store signature hashes in an external database.
+**Q: Sind die Signaturen gegen Manipulation sicher?**  
+A: Barcode‑ und QR‑Code‑Signaturen bieten visuelle Verifikation, sind jedoch nicht kryptografisch stark wie digitale Zertifikate. Für maximale Sicherheit kombinieren Sie sie mit herkömmlichen PKI‑Lösungen oder speichern Sie Signatur‑Hashes in einer externen Datenbank.
 
-**F: Wie viel Daten kann ich maximal in einer Signatur speichern?**  
+**Q: Wie viel Daten kann ich maximal in einer Signatur speichern?**  
 - Code128‑Barcode: ~80 alphanumerische Zeichen  
-- QR‑Code (Version 40): bis zu 4.296 alphanumerische Zeichen oder 7.089 numerische Zeichen
+- QR‑Code (Version 40): bis zu 4 296 alphanumerische Zeichen oder 7 089 numerische Zeichen  
 
-**F: Kann ich das Aussehen der Signatur anpassen?**  
-A: Yes! Control colours, sizes, borders, and more:
+**Q: Kann ich das Aussehen der Signatur anpassen?**  
+A: Ja! Farben, Größen, Rahmen und mehr lassen sich steuern:  
 ```java
 bcOptions.setForeColor(Color.BLUE);
 bcOptions.setBackgroundColor(Color.YELLOW);
 bcOptions.setBorder(new Border());
 bcOptions.getBorder().setColor(Color.RED);
 bcOptions.getBorder().setWeight(2);
-```
+```  
 
-**F: Was passiert, wenn ich eine Datei zweimal signiere?**  
-A: Each `sign()` call adds a new signature. To replace an existing one, delete it first with the `delete()` method.
+**Q: Was passiert, wenn ich eine Datei zweimal signiere?**  
+A: Jeder Aufruf von `sign()` fügt eine neue Signatur hinzu. Um eine bestehende zu ersetzen, löschen Sie sie zuerst mit der `delete()`‑Methode.
 
-**F: Wie gehe ich mit großen Dateien um, ohne dass der Speicher ausgeht?**  
-A: Increase JVM heap (`-Xmx`), dispose of `Signature` objects promptly, and consider signing metadata separately for multi‑gigabyte archives.
+**Q: Wie gehe ich mit großen Dateien um, ohne den Speicher zu überlasten?**  
+A: Heap‑Größe erhöhen (`-Xmx`), `Signature`‑Objekte sofort freigeben und ggf. Metadaten separat signieren, wenn Archive mehrere Gigabyte groß sind.
 
-**F: Benötige ich eine Internetverbindung, um Dokumente zu signieren?**  
-A: No. GroupDocs.Signature works entirely offline once the library is installed.
+**Q: Benötige ich eine Internetverbindung zum Signieren von Dokumenten?**  
+A: Nein. GroupDocs.Signature arbeitet vollständig offline, sobald die Bibliothek installiert ist.
 
 ---
 
-**Last Updated:** 2026-05-21  
-**Tested With:** GroupDocs.Signature 23.12 for Java  
-**Author:** GroupDocs
+**Zuletzt aktualisiert:** 2026-10-06  
+**Getestet mit:** GroupDocs.Signature 23.12 für Java  
+**Autor:** GroupDocs
 
 ## Verwandte Tutorials
 
-- [Digitale Signatur in Java – Vollständiger Leitfaden zum Laden von Zertifikaten und Dokumenten‑Signatur](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
-- [Java‑Signatur‑Verifizierungs‑Tutorial – Dokumente mit Text, Barcode & QR‑Codes validieren](/signature/java/search-verification/groupdocs-signature-java-document-verification-guide/)
+- [Digital Signature in Java – Komplett‑Guide zum Laden von Zertifikaten und Dokumenten‑Signatur](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
+- [Java Signature Verification Tutorial – Dokumente mit Text, Barcode & QR‑Codes validieren](/signature/java/search-verification/groupdocs-signature-java-document-verification-guide/)
 - [ZIP‑Dateien in Java mit Barcodes & QR‑Codes signieren](/signature/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/)

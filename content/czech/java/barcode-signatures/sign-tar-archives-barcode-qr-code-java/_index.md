@@ -1,30 +1,31 @@
 ---
 categories:
 - Java Development
-date: '2026-05-21'
-description: Naučte se, jak implementovat digitální podpis v Javě pomocí čárových
-  kódů a QR kódů. Podrobný návod s GroupDocs.Signature pro zabezpečení TAR archivů
-  a dalších dokumentů.
+date: '2026-10-06'
+description: Naučte se, jak podepsat soubory Java pomocí čárových kódů a QR kódů,
+  což poskytuje jednoduchou kontrolu integrity souborů Java pomocí GroupDocs.Signature.
 keywords:
-- digital signature java
 - how to sign java
-- java document signing
+- digital signature java
 - java file integrity check
 - add barcode to file
-lastmod: '2026-05-21'
-linktitle: Tutoriál digitálního podpisu v Javě
+- java document signing
+lastmod: '2026-10-06'
+linktitle: Kurz digitálního podpisu v Java
+og_description: Naučte se, jak podepsat soubory Java pomocí čárových kódů a QR kódů,
+  což poskytuje jednoduchou kontrolu integrity souborů Java pomocí GroupDocs.Signature.
+og_image_alt: Guide showing barcode and QR code signatures added to Java files
+og_title: Jak podepsat soubory Java pomocí čárových kódů & QR kódů
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-21'
-  description: Learn how to implement digital signature java using barcodes and QR
-    codes. Step‑by‑step guide with GroupDocs.Signature for securing TAR archives and
-    other documents.
-  headline: 'Digital Signature Java: Sign Files with Barcodes & QR Codes'
+  dateModified: '2026-10-06'
+  description: Learn how to sign Java files with barcodes and QR codes, providing
+    a simple java file integrity check using GroupDocs.Signature.
+  headline: How to sign Java files with barcodes and QR codes
   type: TechArticle
-- description: Learn how to implement digital signature java using barcodes and QR
-    codes. Step‑by‑step guide with GroupDocs.Signature for securing TAR archives and
-    other documents.
-  name: 'Digital Signature Java: Sign Files with Barcodes & QR Codes'
+- description: Learn how to sign Java files with barcodes and QR codes, providing
+    a simple java file integrity check using GroupDocs.Signature.
+  name: How to sign Java files with barcodes and QR codes
   steps:
   - name: Test new versions in staging.
     text: Test new versions in staging.
@@ -73,19 +74,20 @@ tags:
 - document-security
 - java-tutorial
 - groupdocs
-title: 'Digitální podpis Java: Podepisování souborů pomocí čárových kódů a QR kódů'
+- java file integrity check
+title: Jak podepsat soubory Java pomocí čárových kódů a QR kódů
 type: docs
 url: /cs/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/
 weight: 1
 ---
 
-# Jak přidat digitální podpisy do souborů v Javě pomocí čárových kódů a QR kódů
+# Jak podepsat soubory Java pomocí čárových kódů a QR kódů
 
 ## Úvod
 
-Už jste se někdy zamýšleli, jak dokázat, že vaše soubory nebyly pozměněny pomocí **digital signature java**? Nebo potřebujete způsob, jak programově ověřovat dokumenty bez složitých kryptografických nastavení? Tradiční digitální podpisy mohou být pro některé případy zbytečně složité. Někdy stačí lehká, skenovatelná metoda pro ověření integrity souboru — zejména při práci s archivy, zálohami nebo automatizovanými workflowy. Právě zde přicházejí do hry podpisy pomocí čárových kódů a QR kódů.
+Už jste se někdy zamýšleli, jak dokázat, že vaše soubory nebyly pozměněny pomocí **how to sign java** technik? Nebo jste potřebovali způsob, jak autentizovat dokumenty programově bez složitých kryptografických nastavení? Tradiční digitální podpisy mohou být pro určité případy zbytečně těžkopádné. Někdy stačí lehká, skenovatelná metoda pro ověření integrity souboru — zejména při práci s archivy, zálohami nebo automatizovanými workflowy. Právě zde přicházejí do hry podpisy pomocí čárových kódů a QR kódů.
 
-V tomto tutoriálu se naučíte, jak implementovat digitální podpisy v Javě pomocí GroupDocs.Signature. Zaměříme se na podepisování TAR archivů (ideální pro zálohovací systémy a distribuci softwaru), ale tyto techniky fungují s různými formáty dokumentů. Ať už budujete systém správy dokumentů nebo jen chcete přidat další vrstvu zabezpečení svým souborům, jste na správném místě.
+V tomto tutoriálu se naučíte, jak implementovat **how to sign java** pomocí GroupDocs.Signature. Zaměříme se na podepisování TAR archivů (ideální pro zálohovací systémy a distribuci softwaru), ale tyto techniky fungují s různými formáty dokumentů. Ať už budujete systém pro správu dokumentů nebo jen chcete přidat další vrstvu zabezpečení svým souborům, jste na správném místě.
 
 **Co si odnesete:**
 - Fungující implementaci podpisů pomocí čárových kódů a QR kódů v Javě  
@@ -94,26 +96,39 @@ V tomto tutoriálu se naučíte, jak implementovat digitální podpisy v Javě p
 - Reálné integrační vzory, které můžete použít ještě dnes  
 - Tipy na optimalizaci výkonu pro produkční systémy  
 
-Ponořme se — není potřeba mít titul z kryptografie.
+Ponořme se do toho — není potřeba mít titul z kryptografie.
 
 ## Rychlé odpovědi
-- **Jaká knihovna zpracovává podpisy čárových kódů v Javě?** GroupDocs.Signature for Java.  
+- **Jaká knihovna zpracovává podpisy čárových kódů v Javě?** GroupDocs.Signature pro Java.  
 - **Který typ podpisu ukládá více dat?** QR kódy (až 4 296 alfanumerických znaků).  
 - **Mohu podepisovat velké TAR soubory (> 100 MB)?** Ano — použijte vlákna na pozadí a zvětšete heap JVM.  
 - **Potřebuji internetové připojení?** Ne, knihovna funguje zcela offline.  
-- **Je licence vyžadována pro produkci?** Ano, platná licence GroupDocs.Signature je povinná.
+- **Je pro produkci licence povinná?** Ano, platná licence GroupDocs.Signature je nutná.
 
-## Co je Digital Signature Java?
+## Co je digitální podpis v Javě?
 
-**Digital signature java** je proces vložení ověřitelného vizuálního tokenu — jako je čárový kód nebo QR kód — přímo do souboru generovaného v Javě, aby se prokázala jeho pravost a integrita. Připojením tohoto vizuálního tokenu mohou vývojáři poskytnout rychlý, lidsky čitelný způsob, jak potvrdit, že soubor nebyl od podpisu změněn, a zároveň umožnit programové ověření pomocí API GroupDocs.Signature.
+Digitální podpis v Javě je proces vložení ověřitelného vizuálního tokenu — například čárového kódu nebo QR kódu — přímo do souboru generovaného v Javě, aby se prokázala jeho pravost a integrita. Poskytuje rychlý, lidsky čitelný důkaz, že soubor nebyl od podpisu změněn, a zároveň umožňuje programové ověření přes API GroupDocs.Signature.
 
 ## Proč používat podpisy pomocí čárových kódů nebo QR kódů?
 
-GroupDocs.Signature podporuje **50+ vstupních a výstupních formátů** (včetně PDF, DOCX, XLSX, HTML, PNG a TAR) a dokáže zpracovat dokumenty s mnoha stovkami stránek, aniž by načítala celý soubor do paměti. Čárové kódy a QR kódy poskytují skenovatelný, samostatný důkaz pravosti, čímž odstraňují potřebu externích certifikačních autorit v mnoha interních workflowech.
+GroupDocs.Signature podporuje **více než 50 vstupních a výstupních formátů** (včetně PDF, DOCX, XLSX, HTML, PNG a TAR) a dokáže zpracovat dokumenty o stovkách stránek, aniž by načítala celý soubor do paměti. Čárové kódy a QR kódy vám poskytují skenovatelný, samostatný důkaz pravosti, čímž odstraňují potřebu externích certifikačních autorit v mnoha interních workflowech.
+
+| Faktor | Čárový kód (Code128) | QR kód |
+|--------|----------------------|--------|
+| **Kapacita dat** | ~80 znaků | Až 4 296 alfanumerických znaků |
+| **Čitelnost** | Vyžaduje skener čárových kódů | Funguje s fotoaparáty chytrých telefonů |
+| **Úspornost místa** | Kompaktnější vodorovně | Vyžaduje čtvercovou oblast |
+| **Nejlepší pro** | Jednoduché ID, časové značky, krátké kódy | URL, JSON data, podrobné metadata |
+| **Oprava chyb** | Minimální | Vestavěná (umožňuje obnovu po poškození) |
+
+**Pravidlo**:  
+- Používejte **čárové kódy** pro rychlé, skenovatelné ID nebo časové značky.  
+- Používejte **QR kódy**, když potřebujete vložit bohatší data nebo chcete kompatibilitu se smartphony.  
+- Kombinujte oba pro maximální redundanci a auditovatelnost.
 
 ## Předpoklady
 
-- **GroupDocs.Signature for Java Library** — verze 23.12 nebo novější  
+- **GroupDocs.Signature pro Java** — verze 23.12 nebo novější  
 - **Java Development Kit (JDK)** — verze 8 nebo vyšší  
 - **IDE** — IntelliJ IDEA, Eclipse nebo jakýkoli Java‑kompatibilní editor  
 - **Základní znalost Javy** — měli byste být obeznámeni s třídami a importy  
@@ -122,7 +137,7 @@ GroupDocs.Signature podporuje **50+ vstupních a výstupních formátů** (včet
 
 Získání GroupDocs.Signature do vašeho projektu je jednoduché. Vyberte si nástroj pro sestavení:
 
-**Maven** (přidejte do souboru `pom.xml`):
+**Maven** (přidejte do `pom.xml`):
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -131,7 +146,7 @@ Získání GroupDocs.Signature do vašeho projektu je jednoduché. Vyberte si n�
 </dependency>
 ```
 
-**Gradle** (přidejte do souboru `build.gradle`):
+**Gradle** (přidejte do `build.gradle`):
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
@@ -142,27 +157,27 @@ implementation 'com.groupdocs:groupdocs-signature:23.12'
 
 GroupDocs nabízí flexibilní licencování:
 
-- **Free Trial**: Ideální pro testování — žádná kreditní karta není potřeba. [Začněte zde](https://releases.groupdocs.com/signature/java/)  
-- **Temporary License**: Potřebujete více času na vyhodnocení? [Požádejte o dočasnou licenci](https://purchase.groupdocs.com/temporary-license/) pro plný přístup během vývoje  
-- **Production License**: Když jste připraveni nasadit, [zakupte licenci](https://purchase.groupdocs.com/buy) podle svých potřeb  
+- **Bezplatná zkušební verze**: Ideální pro testování — žádná kreditní karta. [Začít zde](https://releases.groupdocs.com/signature/java/)  
+- **Dočasná licence**: Potřebujete více času na vyhodnocení? [Požádejte o dočasnou licenci](https://purchase.groupdocs.com/temporary-license/) pro plný přístup během vývoje  
+- **Produkční licence**: Když jste připraveni nasadit, [zakupte licenci](https://purchase.groupdocs.com/buy) podle svých potřeb  
 
 **Další užitečné odkazy**
 
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)  
+- [GroupDocs.Signature pro Java – Dokumentace](https://docs.groupdocs.com/signature/java/)  
 - [API Reference Guide](https://reference.groupdocs.com/signature/java/)  
 - [Community Support Forum](https://forum.groupdocs.com/c/signature/)  
-- [Latest Library Releases](https://releases.groupdocs.com/signature/java/)  
-- [Free Trial Download](https://releases.groupdocs.com/signature/java/)  
-- [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)  
-- [Purchase Full License](https://purchase.groupdocs.com/buy)
+- [Nejnovější verze knihovny](https://releases.groupdocs.com/signature/java/)  
+- [Stáhnout bezplatnou zkušební verzi](https://releases.groupdocs.com/signature/java/)  
+- [Požádat o dočasnou licenci](https://purchase.groupdocs.com/temporary-license/)  
+- [Koupit plnou licenci](https://purchase.groupdocs.com/buy)
 
-Tip: Začněte s bezplatnou zkušební verzí, abyste prototypovali řešení, a pokud potřebujete více času, pořiďte si dočasnou licenci před závazným nákupem.
+Tip: Začněte s bezplatnou zkušební verzí, abyste prototypovali řešení, a poté si pořiďte dočasnou licenci, pokud potřebujete více času před závazným nákupem.
 
 ## Nastavení GroupDocs.Signature pro Java
 
 Třída `Signature` je vstupním bodem pro všechny operace podepisování v GroupDocs.Signature. Reprezentuje jeden soubor načtený do paměti a poskytuje metody pro přidání, vyhledání nebo odstranění vizuálních podpisů.
 
-Vytvořte instanci `Signature`, která ukazuje na váš TAR soubor. Tím se soubor načte do paměti pro zpracování:
+Vytvořte instanci `Signature` ukazující na váš TAR soubor. Tím se soubor načte do paměti pro zpracování:
 ```java
 import com.groupdocs.signature.Signature;
 
@@ -176,7 +191,7 @@ public class InitializeSignature {
 
 **Důležité**: Vždy uzavřete objekt `Signature`, když skončíte (nebo použijte try‑with‑resources), aby nedocházelo k únikům paměti u velkých souborů.
 
-## Volba mezi čárovým kódem a QR kódem
+## Výběr mezi čárovým kódem a QR kódem
 
 Nejste si jisti, který typ podpisu použít? Zde je rychlý rozhodovací průvodce:
 
@@ -184,25 +199,26 @@ Nejste si jisti, který typ podpisu použít? Zde je rychlý rozhodovací průvo
 |--------|----------------------|--------|
 | **Kapacita dat** | ~80 znaků | Až 4 296 alfanumerických znaků |
 | **Čitelnost** | Vyžaduje skener čárových kódů | Funguje s fotoaparáty chytrých telefonů |
-| **Úspornost prostoru** | Kompaktnější horizontálně | Vyžaduje čtvercovou oblast |
-| **Nejvhodnější pro** | Jednoduchá ID, časové razítka, krátké kódy | URL, JSON data, podrobné metadata |
+| **Úspornost místa** | Kompaktnější vodorovně | Vyžaduje čtvercovou oblast |
+| **Nejlepší pro** | Jednoduché ID, časové značky, krátké kódy | URL, JSON data, podrobné metadata |
 | **Oprava chyb** | Minimální | Vestavěná (umožňuje obnovu po poškození) |
 
-**Obecné pravidlo**:  
-- Používejte **čárové kódy** pro rychlé, skenovatelné ID nebo časová razítka.  
+**Pravidlo**:  
+- Používejte **čárové kódy** pro rychlé, skenovatelné ID nebo časové značky.  
 - Používejte **QR kódy**, když potřebujete vložit bohatší data nebo chcete kompatibilitu se smartphony.  
 - Kombinujte oba pro maximální redundanci a auditovatelnost.
 
-## Průvodce implementací
+## Praktický návod
 
-### Podepsání TAR archivu pomocí čárového kódu
+### Podepsání TAR archivu čárovým kódem
 
 #### Proč podepisovat čárovými kódy?
-Čárové kódy jsou ideální pro TAR archivy, protože jsou kompaktní a skenovatelné. Můžete do nich vložit časová razítka, čísla verzí, ID uživatelů nebo kontrolní součty pro rychlé ověření.
+
+Čárové kódy jsou ideální pro TAR archivy, protože jsou kompaktní a skenovatelné. Můžete do nich vložit časové značky, čísla verzí, ID uživatelů nebo kontrolní součty pro rychlé ověření.
 
 #### Kroky
 
-**1. Inicializace Signature**  
+**1. Inicializace podpisu**  
 Nejprve vytvořte instanci `Signature` pro TAR soubor:
 ```java
 import com.groupdocs.signature.Signature;
@@ -212,8 +228,8 @@ final Signature signature = new Signature("path/to/your/archive.tar");
 
 **Tip**: Pro velké TAR soubory (nad 100 MB) spusťte operaci podepisování ve vlákně na pozadí, aby UI zůstalo responzivní.
 
-**2. Konfigurace možností čárového kódu**  
-Třída `BarcodeSignature` definuje obsah, typ a umístění čárového kódu. Objekt `BarcodeOptions` obsahuje tato nastavení:
+**2. Nastavení možností čárového kódu**  
+Třída `BarcodeSignature` definuje obsah, typ a umístění čárového kódu. Objekt `BarcodeOptions` uchovává tato nastavení:
 ```java
 import com.groupdocs.signature.options.sign.BarcodeSignOptions;
 import com.groupdocs.signature.domain.barcodes.BarcodeTypes;
@@ -224,10 +240,10 @@ bcOptions.setTop(100);   // Y position in pixels
 ```
 
 `BarcodeOptions` vám umožňuje specifikovat vizuální vzhled a pozici čárového kódu.  
-`BarcodeTypes` je výčet, který uvádí podporované symbologie, jako `Code128`, `Code39` atd.
+`BarcodeTypes` je výčtová třída, která uvádí podporované symbologie, např. `Code128`, `Code39` atd.
 
 **Co se zde děje?**  
-- `"12345678"` je data zakódovaná v čárovém kódu — nahraďte je svým skutečným ID, časovým razítkem nebo ověřovacím kódem.  
+- `"12345678"` je data kódovaná v čárovém kódu — nahraďte je svým skutečným ID, časovou značkou nebo ověřovacím kódem.  
 - `BarcodeTypes.Code128` poskytuje dobrý poměr kapacity a spolehlivosti skenování.  
 - Hodnoty pozice (100, 100) umístí čárový kód 100 px od levého horního rohu.
 
@@ -240,7 +256,7 @@ bcOptions.setBackgroundColor(Color.WHITE);  // Background color
 ```
 
 **3. Podepsání a uložení dokumentu**  
-Proveďte operaci podepisování a uložte podepsaný archiv:
+Spusťte operaci podepisování a uložte podepsaný archiv:
 ```java
 import com.groupdocs.signature.domain.SignResult;
 
@@ -248,23 +264,24 @@ String outputFilePath = "output/path/SignWithBarcode/archive_signed.tar";
 SignResult signResult = signature.sign(outputFilePath, bcOptions);
 ```
 
-Objekt `SignResult` vám sdělí, zda operace uspěla a kde byl podpis umístěn.  
-**Častý problém**: Ujistěte se, že výstupní adresář existuje před voláním `sign()`. Knihovna nevytvoří nadřazené adresáře automaticky.
+Objekt `SignResult` vám řekne, zda operace uspěla a kde byl podpis umístěn.  
+**Častý úskalí**: Ujistěte se, že výstupní adresář existuje před voláním `sign()`. Knihovna nevytvoří nadřazené složky automaticky.
 
-### Podepsání TAR archivu pomocí QR kódu
+### Podepsání TAR archivu QR kódem
 
 #### Kdy použít QR kódy
+
 QR kódy vynikají, když potřebujete uložit strukturovaná data (JSON, XML), vložit ověřovací URL nebo umožnit skenování chytrým telefonem.
 
 #### Kroky
 
-**1. Inicializace Signature**  
+**1. Inicializace podpisu**  
 Stejně jako dříve — vytvořte instanci `Signature`:
 ```java
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
-**2. Konfigurace možností QR kódu**  
+**2. Nastavení možností QR kódu**  
 Nastavte QR kód s daty, která chcete vložit:
 ```java
 import com.groupdocs.signature.options.sign.QrCodeSignOptions;
@@ -275,18 +292,18 @@ qrOptions.setLeft(400);  // X position
 qrOptions.setTop(400);   // Y position
 ```
 
-`QrCodeTypes` je výčet, který určuje typ generovaného QR kódu (standardní QR, DataMatrix, Aztec atd.).  
+`QrCodeTypes` je výčtová třída, která určuje typ generovaného QR kódu (standardní QR, DataMatrix, Aztec atd.).
 
-**Reálný příklad** — vložit JSON payload s ověřovacími údaji:
+**Reálný příklad** – vložení JSON payloadu s ověřovacími údaji:
 ```java
 String verificationData = "{\"version\":\"1.0\",\"timestamp\":\"2025-01-02T10:30:00Z\",\"user\":\"john.doe\"}";
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(verificationData, QrCodeTypes.QR);
 ```
 
 **Možnosti typu QR kódu:**  
-- `QrCodeTypes.QR` — standardní QR kód (nejčastější)  
-- `QrCodeTypes.DataMatrix` — kompaktnější pro malá data  
-- `QrCodeTypes.Aztec` — vhodné pro zakřivené povrchy  
+- `QrCodeTypes.QR` – standardní QR kód (nejčastější)  
+- `QrCodeTypes.DataMatrix` – kompaktnější pro malá data  
+- `QrCodeTypes.Aztec` – vhodné pro zakřivené povrchy  
 
 **3. Podepsání a uložení dokumentu**  
 Dokončete proces podepisování stejně jako u čárových kódů:
@@ -297,9 +314,10 @@ SignResult signResult = signature.sign(outputFilePath, qrOptions);
 
 **Poznámka k výkonu**: Generování QR kódu je mírně pomalejší než čárových kódů kvůli výpočtům opravy chyb, ale rozdíl je pro většinu případů zanedbatelný (obvykle jen několik milisekund).
 
-### Podepsání TAR archivu s více podpisy
+### Podepsání TAR archivu více podpisy
 
-#### Proč použít více podpisů?
+#### Proč používat více podpisů?
+
 - **Redundance** — pokud je jeden podpis poškozen, druhý stále může ověřit.  
 - **Různé publikum** — čárové kódy pro skenery, QR kódy pro smartphony.  
 - **Vrstvená data** — rychlé ID v čárovém kódu, podrobná metadata v QR kódu.  
@@ -307,13 +325,13 @@ SignResult signResult = signature.sign(outputFilePath, qrOptions);
 
 #### Kroky
 
-**1. Inicializace Signature**  
+**1. Inicializace podpisu**  
 Stejné jako dříve:
 ```java
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
-**2. Konfigurace více možností**  
+**2. Nastavení více možností**  
 Vytvořte oba typy podpisů a spojte je do seznamu:
 ```java
 import java.util.ArrayList;
@@ -344,11 +362,11 @@ String outputFilePath = "output/path/SignWithMultipleSignatures/archive_signed.t
 SignResult signResult = signature.sign(outputFilePath, listOptions);
 ```
 
-GroupDocs zpracuje každý podpis sekvenčně a vloží jej do metadat dokumentu. Pořadí v seznamu nemá vliv na ověření.
+GroupDocs zpracuje každý podpis postupně a vloží jej do metadat dokumentu. Pořadí v seznamu nemá vliv na ověření.
 
 ## Reálné případy použití
 
-### 1. Distribuční pipeline softwaru
+### 1. Pipeline pro distribuci softwaru
 **Scénář**: Distribuce softwarových balíčků jako TAR archivů a prokázání, že nebyly pozměněny.  
 **Řešení**: Podepsat každé vydání QR kódem obsahujícím JSON payload:
 ```java
@@ -360,21 +378,21 @@ String releaseData = String.format(
 **Proč to funguje**: Uživatelé mohou naskenovat QR kód a ověřit integritu balíčku před instalací — není potřeba spravovat GPG klíče.
 
 ### 2. Automatizované zálohovací systémy
-**Scénář**: Denní zálohy TAR archivů potřebují auditní stopu.  
-**Řešení**: Přidat čárový kód s časovým razítkem zálohy a ID serveru:
+**Scénář**: Denní zálohy ve formátu TAR potřebují auditní stopu.  
+**Řešení**: Přidat čárový kód s časovou značkou a ID serveru:
 ```java
 String backupId = String.format("SRV01-%s", LocalDateTime.now().format(formatter));
 BarcodeSignOptions bcOptions = new BarcodeSignOptions(backupId, BarcodeTypes.Code128);
 ```  
-**Proč to funguje**: Rychlá vizuální kontrola pravosti zálohy bez nutnosti otevírat archiv.
+**Proč to funguje**: Rychlé vizuální ověření pravosti zálohy bez nutnosti otevírat archiv.
 
-### 3. Systémy správy dokumentů
-**Scénář**: Právní dokumenty uložené v archivech vyžadují neporušené ověření.  
+### 3. Systémy pro správu dokumentů
+**Scénář**: Právní dokumenty uložené v archivech vyžadují neporušenou verifikaci.  
 **Řešení**: Použít jak čárový kód (rychlé skenování), tak QR kód (detailní metadata) na stejném archivu.  
 
 ### 4. Sledování v dodavatelském řetězci
 **Scénář**: Sledování souborových balíčků napříč organizacemi.  
-**Řešení**: Vložit QR kódy s URL pro sledovací API:
+**Řešení**: Vložit QR kódy s URL odkazujícími na ověřovací API:
 ```java
 String trackingUrl = "https://verify.yourcompany.com/track/" + uniqueId;
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(trackingUrl, QrCodeTypes.QR);
@@ -382,8 +400,8 @@ QrCodeSignOptions qrOptions = new QrCodeSignOptions(trackingUrl, QrCodeTypes.QR)
 
 ## Časté problémy a řešení
 
-### Problém 1: „Signature Not Found“ po podepsání
-**Příznak**: `sign()` úspěšně proběhne, ale podpis není viditelný.  
+### Problém 1: „Signature not found“ po podepsání
+**Příznak**: `sign()` uspěje, ale podpis není viditelný.  
 **Příčiny**: Špatné umístění, přepsání původního souboru, omezení prohlížeče TAR.  
 **Řešení**:  
 ```java
@@ -412,7 +430,7 @@ Nebo implementujte zpracování po částech:
 // rather than embedding in the TAR itself
 ```  
 
-### Problém 3: Data podpisu jsou oříznuta
+### Problém 3: Data v podpisu jsou oříznuta
 **Příznak**: Dlouhé řetězce jsou zkráceny.  
 **Příčina**: Překročena kapacita Code128 (≈ 80 znaků).  
 **Řešení**: Přepněte na QR kódy pro delší payloady:
@@ -437,12 +455,12 @@ license.setLicense("path/to/GroupDocs.Signature.lic");
 Signature signature = new Signature("document.tar");
 ```  
 
-**Tip**: Načtěte licenci jednou při startu aplikace, ne před každým podepisováním.
+**Tip**: Načtěte licenci jednou při startu aplikace, ne před každou operací podepisování.
 
 ### Problém 5: Hodnoty pozice nefungují podle očekávání
 **Příznak**: Podpisy se zobrazují na neočekávaných místech.  
-**Příčina**: Záměna mezi pixely a body.  
-**Řešení**: GroupDocs používá pixely jako výchozí. Pro přesné umístění:
+**Příčina**: Záměna pixelů a bodů.  
+**Řešení**: GroupDocs používá výchozí jednotku pixelů. Pro přesné umístění:
 ```java
 bcOptions.setLeft(100);  // 100 pixels from left edge
 bcOptions.setTop(100);   // 100 pixels from top edge
@@ -492,7 +510,7 @@ public class SignatureController {
 ```  
 
 ### Vzor 2: Dávkové zpracování
-Podepsat více archivů v pipeline:
+Podepisování více archivů v pipeline:
 ```java
 public class BatchSigner {
     
@@ -521,7 +539,7 @@ public class BatchSigner {
 ```  
 
 ### Vzor 3: Architektura řízená událostmi
-Spustit podepisování při vytvoření archivu:
+Spouštění podepisování při vytvoření archivů:
 ```java
 @Component
 public class ArchiveCreatedListener {
@@ -543,7 +561,7 @@ public class ArchiveCreatedListener {
 
 ### Správa paměti
 **Problém**: Každá instance `Signature` načte celý soubor do paměti.  
-**Nejlepší postupy**:
+**Best practices**:  
 ```java
 // Bad: Creating multiple instances for same file
 Signature sig1 = new Signature("file.tar");
@@ -559,7 +577,7 @@ try (Signature signature = new Signature("file.tar")) {
 ### Optimalizace velikosti souboru
 - **Malé soubory (< 10 MB)** — podepisujte synchronně.  
 - **Střední soubory (10‑100 MB)** — použijte vlákna na pozadí.  
-- **Velké soubory (> 100 MB)** — zvažte podepisování pouze metadat nebo využití streamovacích API.
+- **Velké soubory (> 100 MB)** — zvažte podepisování pouze metadat nebo využití streaming API.
 
 ### Složitost podpisu (přibližné časy na standardním serveru)
 
@@ -569,18 +587,18 @@ try (Signature signature = new Signature("file.tar")) {
 | Jeden QR kód | 100‑200 ms |
 | Více podpisů | 150‑300 ms |
 
-**Tip na optimalizaci**: Pro tisíce souborů je vhodné je seskupit a použít thread pool (viz výše uvedený dávkový vzor).
+**Tip na optimalizaci**: Pro tisíce souborů je vhodné je seskupit a použít thread pool (viz výše uvedený vzor dávkového zpracování).
 
 ### Aktualizace knihovny
-GroupDocs pravidelně vydává vylepšení výkonu. Před hlavními nasazeními vždy zkontrolujte [changelog](https://releases.groupdocs.com/signature/java/).
+GroupDocs pravidelně vydává vylepšení výkonu. Před velkými nasazeními vždy zkontrolujte [changelog](https://releases.groupdocs.com/signature/java/).
 
 **Strategie aktualizace**:  
-1. Testujte novou verzi ve stagingu.  
+1. Otestujte novou verzi ve stagingu.  
 2. Projděte breaking changes.  
-3. Benchmarkujte s reálnými soubory.  
+3. Proveďte benchmark s reálnými soubory.  
 4. Nasazujte postupně.
 
-## Nejlepší praktiky pro produkci
+## Nejlepší postupy pro produkci
 
 **1. Ověřte stav licence**  
 ```java
@@ -615,7 +633,7 @@ new BarcodeSignOptions(signatureData, BarcodeTypes.Code128);
 ```  
 
 **4. Verzujte formát podpisu**  
-Do vloženého JSON zahrňte číslo verze, aby bylo ověření připravené na budoucí změny:
+Do vloženého JSON zahrňte číslo verze, aby bylo možné budoucí ověřování rozšířit:
 ```java
 String qrData = String.format(
     "{\"v\":\"1.0\",\"type\":\"archive\",\"timestamp\":\"%s\"}", 
@@ -623,15 +641,15 @@ String qrData = String.format(
 );
 ```  
 
-**5. Testujte s reálnými soubory** — vždy ověřujte na archivních souborech produkční velikosti, abyste odhalili problémy s pamětí a výkonem včas.
+**5. Testujte s reálnými soubory** — vždy ověřujte s archivem velikosti produkce, abyste odhalili problémy s pamětí a výkonem včas.
 
 ## Závěr
 
-Nyní máte pevný základ pro implementaci **digital signature java** pomocí čárových kódů a QR kódů. Co jste se naučili:
+Nyní máte pevný základ pro implementaci **how to sign java** pomocí čárových kódů a QR kódů. Naučili jste se:
 
-- Jak podepisovat TAR archivy (a další dokumenty) pomocí čárových a QR kódů  
+- Jak podepisovat TAR archivy (a další dokumenty) pomocí čárových i QR kódů  
 - Kdy zvolit který typ podpisu podle konkrétních potřeb  
-- Jak řešit běžné problémy před nasazením do produkce  
+- Jak řešit běžné problémy ještě před nasazením do produkce  
 - Reálné integrační vzory pro REST API, dávkové zpracování a architekturu řízenou událostmi  
 - Techniky optimalizace výkonu pro soubory jakékoli velikosti  
 
@@ -639,16 +657,16 @@ Nyní máte pevný základ pro implementaci **digital signature java** pomocí �
 1. Prozkoumejte ověřování podpisů pomocí metody `search()`.  
 2. Vyzkoušejte další formáty dokumentů — GroupDocs.Signature podporuje PDF, DOCX, XLSX, PNG a další.  
 3. Přizpůsobte vzhled podpisu (barvy, velikosti, okraje).  
-4. Vytvořte ověřovací API pro programové ověřování podpisů.
+4. Vytvořte ověřovací API, které bude programově validovat podpisy.
 
-Možnosti GroupDocs.Signature sahají daleko za tento průvodce. Prozkoumejte [úplnou dokumentaci](https://docs.groupdocs.com/signature/java/) a objevte pokročilé funkce jako textové podpisy, obrázkové podpisy a extrakci metadat.
+Možnosti GroupDocs.Signature sahají daleko za tento průvodce. Navštivte [GroupDocs.Signature pro Java Documentation](https://docs.groupdocs.com/signature/java/) a objevte pokročilé funkce jako textové podpisy, obrázkové podpisy a extrakci metadat.
 
-Máte otázky nebo chcete sdílet své řešení? Připojte se k fóru komunity GroupDocs a získejte pomoc od ostatních vývojářů.
+Máte otázky nebo chcete sdílet svou implementaci? Připojte se k fóru komunity GroupDocs a získejte pomoc od ostatních vývojářů.
 
 ## Často kladené otázky
 
 **Q: Mohu podepisovat i jiné soubory než TAR archivy?**  
-A: Rozhodně! GroupDocs.Signature podporuje více než 50 formátů, včetně PDF, DOCX, XLSX, PNG a dalších. Stačí změnit příponu v konstruktoru `Signature` a můžete pracovat s libovolným podporovaným typem.
+A: Rozhodně! GroupDocs.Signature podporuje více než 50 formátů, včetně PDF, DOCX, XLSX, PNG a dalších. Stačí změnit příponu souboru v konstruktoru `Signature`.
 
 **Q: Jak ověřím podpisy po podepsání?**  
 A: Použijte metodu `search()` k vyhledání a validaci podpisů:  
@@ -659,14 +677,14 @@ List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, sea
 ```  
 
 **Q: Jsou podpisy bezpečné proti manipulaci?**  
-A: Čárové a QR kódy poskytují vizuální ověření, ale nejsou kryptograficky silné jako digitální certifikáty. Pro maximální bezpečnost je kombinujte s tradiční PKI nebo ukládejte hash podpisu v externí databázi.
+A: Čárové a QR kódy poskytují vizuální ověření, ale nejsou kryptograficky silné jako digitální certifikáty. Pro maximální zabezpečení je kombinujte s tradiční PKI nebo ukládejte hash podpisu v externí databázi.
 
 **Q: Jaká je maximální velikost dat, kterou mohu uložit do podpisu?**  
-- Čárový kód Code128: ~80 alfanumerických znaků  
+- Code128 čárový kód: ~80 alfanumerických znaků  
 - QR kód (Verze 40): až 4 296 alfanumerických znaků nebo 7 089 číselných znaků  
 
 **Q: Můžu přizpůsobit vzhled podpisu?**  
-A: Ano! Ovládejte barvy, velikosti, okraje a další:  
+A: Ano! Ovládejte barvy, velikosti, okraje a další:
 ```java
 bcOptions.setForeColor(Color.BLUE);
 bcOptions.setBackgroundColor(Color.YELLOW);
@@ -675,23 +693,23 @@ bcOptions.getBorder().setColor(Color.RED);
 bcOptions.getBorder().setWeight(2);
 ```  
 
-**Q: Co se stane, když podepíšu soubor dvakrát?**  
-A: Každé volání `sign()` přidá nový podpis. Pro nahrazení existujícího podpisu jej nejprve odstraňte metodou `delete()`.
+**Q: Co se stane, když soubor podepíšu dvakrát?**  
+A: Každé volání `sign()` přidá nový podpis. Pro nahrazení existujícího jej nejprve odstraňte metodou `delete()`.
 
 **Q: Jak zacházet s velkými soubory, aby nedošlo k vyčerpání paměti?**  
-A: Zvyšte heap JVM (`-Xmx`), rychle uvolňujte objekty `Signature` a zvažte podepisování pouze metadat pro archivy v řádu gigabajtů.
+A: Zvyšte heap JVM (`-Xmx`), okamžitě uvolňujte objekty `Signature` a zvažte podepisování pouze metadat pro archivy v řádu gigabajtů.
 
-**Q: Potřebuji internetové připojení pro podepisování dokumentů?**  
+**Q: Potřebuji internetové připojení k podepisování dokumentů?**  
 A: Ne. GroupDocs.Signature funguje zcela offline po instalaci knihovny.
 
 ---
 
-**Poslední aktualizace:** 2026-05-21  
+**Poslední aktualizace:** 2026-10-06  
 **Testováno s:** GroupDocs.Signature 23.12 pro Java  
 **Autor:** GroupDocs
 
 ## Související tutoriály
 
-- [Digital Signature in Java - Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
-- [Java Signature Verification Tutorial - Validate Documents with Text, Barcode & QR Codes](/signature/java/search-verification/groupdocs-signature-java-document-verification-guide/)
+- [Digital Signature in Java - Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)  
+- [Java Signature Verification Tutorial - Validate Documents with Text, Barcode & QR Codes](/signature/java/search-verification/groupdocs-signature-java-document-verification-guide/)  
 - [Sign ZIP Files in Java with Barcodes & QR Codes](/signature/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/)

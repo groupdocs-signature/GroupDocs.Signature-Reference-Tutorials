@@ -1,30 +1,31 @@
 ---
 categories:
 - Java Development
-date: '2026-05-21'
-description: Pelajari cara mengimplementasikan digital signature java menggunakan
-  barcodes dan QR codes. Panduan langkah demi langkah dengan GroupDocs.Signature untuk
-  mengamankan TAR archives dan dokumen lainnya.
+date: '2026-10-06'
+description: Pelajari cara menandatangani file Java dengan barcode dan kode QR, menyediakan
+  pemeriksaan integritas file java sederhana menggunakan GroupDocs.Signature.
 keywords:
-- digital signature java
 - how to sign java
-- java document signing
+- digital signature java
 - java file integrity check
 - add barcode to file
-lastmod: '2026-05-21'
-linktitle: Tutorial Digital Signature Java
+- java document signing
+lastmod: '2026-10-06'
+linktitle: Tutorial Tanda Tangan Digital Java
+og_description: Pelajari cara menandatangani file Java dengan barcode dan kode QR,
+  menyediakan pemeriksaan integritas file java sederhana menggunakan GroupDocs.Signature.
+og_image_alt: Guide showing barcode and QR code signatures added to Java files
+og_title: Cara menandatangani file Java dengan barcode & kode QR
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-21'
-  description: Learn how to implement digital signature java using barcodes and QR
-    codes. Step‑by‑step guide with GroupDocs.Signature for securing TAR archives and
-    other documents.
-  headline: 'Digital Signature Java: Sign Files with Barcodes & QR Codes'
+  dateModified: '2026-10-06'
+  description: Learn how to sign Java files with barcodes and QR codes, providing
+    a simple java file integrity check using GroupDocs.Signature.
+  headline: How to sign Java files with barcodes and QR codes
   type: TechArticle
-- description: Learn how to implement digital signature java using barcodes and QR
-    codes. Step‑by‑step guide with GroupDocs.Signature for securing TAR archives and
-    other documents.
-  name: 'Digital Signature Java: Sign Files with Barcodes & QR Codes'
+- description: Learn how to sign Java files with barcodes and QR codes, providing
+    a simple java file integrity check using GroupDocs.Signature.
+  name: How to sign Java files with barcodes and QR codes
   steps:
   - name: Test new versions in staging.
     text: Test new versions in staging.
@@ -73,26 +74,27 @@ tags:
 - document-security
 - java-tutorial
 - groupdocs
-title: 'Digital Signature Java: Menandatangani File dengan Barcodes & QR Codes'
+- java file integrity check
+title: Cara menandatangani file Java dengan barcode dan kode QR
 type: docs
 url: /id/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/
 weight: 1
 ---
 
-# Cara Menambahkan Tanda Tangan Digital ke File di Java Menggunakan Barcode dan Kode QR
+# Cara menandatangani file Java dengan barcode dan kode QR
 
 ## Pendahuluan
 
-Pernah bertanya-tanya bagaimana membuktikan file Anda tidak diubah menggunakan **digital signature java**? Atau membutuhkan cara mengautentikasi dokumen secara programatis tanpa pengaturan kriptografi yang rumit? Tanda tangan digital tradisional bisa berlebihan untuk beberapa kasus penggunaan. Terkadang Anda hanya membutuhkan metode ringan yang dapat dipindai untuk memverifikasi integritas file—terutama saat berurusan dengan arsip, cadangan, atau alur kerja otomatis. Di sinilah tanda tangan barcode dan kode QR berperan.
+Pernah bertanya-tanya bagaimana membuktikan file Anda tidak diubah menggunakan teknik **how to sign java**? Atau membutuhkan cara mengotentikasi dokumen secara programatis tanpa pengaturan kriptografi yang rumit? Tanda tangan digital tradisional dapat berlebihan untuk beberapa kasus penggunaan. Terkadang Anda hanya membutuhkan metode ringan yang dapat dipindai untuk memverifikasi integritas file—terutama saat menangani arsip, cadangan, atau alur kerja otomatis. Di sinilah tanda tangan barcode dan kode QR berperan.
 
-Dalam tutorial ini, Anda akan belajar cara mengimplementasikan tanda tangan digital di Java menggunakan GroupDocs.Signature. Kami akan fokus pada penandatanganan arsip TAR (sempurna untuk sistem cadangan dan distribusi perangkat lunak), tetapi teknik ini berlaku untuk berbagai format dokumen. Baik Anda membangun sistem manajemen dokumen atau hanya ingin menambahkan lapisan keamanan ekstra ke file Anda, Anda berada di tempat yang tepat.
+Dalam tutorial ini, Anda akan belajar cara mengimplementasikan **how to sign java** menggunakan GroupDocs.Signature. Kami akan fokus pada penandatanganan arsip TAR (sempurna untuk sistem cadangan dan distribusi perangkat lunak), tetapi teknik ini bekerja dengan berbagai format dokumen. Baik Anda sedang membangun sistem manajemen dokumen atau hanya ingin menambahkan lapisan keamanan ekstra pada file Anda, Anda berada di tempat yang tepat.
 
 **Apa yang akan Anda dapatkan:**
 - Implementasi kerja tanda tangan barcode dan kode QR di Java  
-- Pemahaman kapan menggunakan masing‑masing tipe tanda tangan (dan mengapa penting)  
+- Pemahaman kapan menggunakan tiap tipe tanda tangan (dan mengapa itu penting)  
 - Solusi praktis untuk tantangan penandatanganan umum  
 - Pola integrasi dunia nyata yang dapat Anda gunakan hari ini  
-- Tips optimasi kinerja untuk sistem produksi  
+- Tips optimasi performa untuk sistem produksi  
 
 Mari kita mulai—tidak perlu gelar kriptografi.
 
@@ -103,24 +105,37 @@ Mari kita mulai—tidak perlu gelar kriptografi.
 - **Apakah saya memerlukan koneksi internet?** Tidak, perpustakaan berfungsi sepenuhnya offline.  
 - **Apakah lisensi diperlukan untuk produksi?** Ya, lisensi GroupDocs.Signature yang valid wajib dimiliki.
 
-## Apa itu Digital Signature Java?
+## Apa itu digital signature java?
 
-**Digital signature java** adalah proses menyematkan token visual yang dapat diverifikasi—seperti barcode atau kode QR—langsung ke dalam file yang dihasilkan Java untuk membuktikan keaslian dan integritasnya. Dengan menambahkan token visual ini, pengembang dapat menyediakan cara cepat yang dapat dibaca manusia untuk memastikan file tidak diubah sejak ditandatangani, sambil tetap memungkinkan verifikasi programatis melalui API GroupDocs.Signature.
+Digital signature java adalah proses menyematkan token visual yang dapat diverifikasi—seperti barcode atau kode QR—langsung ke dalam file yang dihasilkan Java untuk membuktikan keaslian dan integritasnya, memberikan bukti cepat yang dapat dibaca manusia bahwa file tidak diubah sejak ditandatangani sekaligus memungkinkan verifikasi programatis melalui API GroupDocs.Signature.
 
-## Mengapa Menggunakan Tanda Tangan Barcode atau Kode QR?
+## Mengapa menggunakan tanda tangan barcode atau kode QR?
 
-GroupDocs.Signature mendukung **50+ format input dan output** (termasuk PDF, DOCX, XLSX, HTML, PNG, dan TAR) dan dapat memproses dokumen ratusan halaman tanpa memuat seluruh file ke memori. Barcode dan kode QR memberikan bukti keaslian yang dapat dipindai dan mandiri, menghilangkan kebutuhan otoritas sertifikat eksternal dalam banyak alur kerja internal.
+GroupDocs.Signature mendukung **50+ format input dan output** (termasuk PDF, DOCX, XLSX, HTML, PNG, dan TAR) dan dapat memproses dokumen ratusan halaman tanpa memuat seluruh file ke memori. Barcode dan kode QR memberi Anda bukti keaslian yang dapat dipindai dan mandiri, menghilangkan kebutuhan otoritas sertifikat eksternal dalam banyak alur kerja internal.
+
+| Faktor | Barcode (Code128) | QR Code |
+|--------|-------------------|---------|
+| **Kapasitas data** | ~80 karakter | Hingga 4.296 karakter alfanumerik |
+| **Keterbacaan** | Membutuhkan pemindai barcode | Berfungsi dengan kamera smartphone |
+| **Efisiensi ruang** | Lebih kompak secara horizontal | Membutuhkan area berbentuk kotak |
+| **Terbaik untuk** | ID sederhana, cap waktu, kode pendek | URL, data JSON, metadata detail |
+| **Koreksi kesalahan** | Minimal | Terintegrasi (dapat pulih dari kerusakan) |
+
+**Pedoman umum**:  
+- Gunakan **barcode** untuk ID atau cap waktu yang cepat dan dapat dipindai.  
+- Gunakan **kode QR** ketika Anda perlu menyematkan data yang lebih kaya atau menginginkan kompatibilitas smartphone.  
+- Gabungkan keduanya untuk redundansi maksimum dan auditabilitas.
 
 ## Prasyarat
 
-- **GroupDocs.Signature untuk Java Library** – versi 23.12 atau lebih baru  
+- **GroupDocs.Signature for Java Library** – versi 23.12 atau lebih baru  
 - **Java Development Kit (JDK)** – versi 8 atau lebih tinggi  
-- **IDE** – IntelliJ IDEA, Eclipse, atau editor Java lain apa saja  
+- **IDE** – IntelliJ IDEA, Eclipse, atau editor Java lainnya  
 - **Pengetahuan dasar Java** – Anda harus nyaman dengan kelas dan impor  
 
-### Penyiapan Lingkungan
+### Pengaturan Lingkungan
 
-Menambahkan GroupDocs.Signature ke proyek Anda sangat mudah. Pilih alat build Anda:
+Mendapatkan GroupDocs.Signature ke dalam proyek Anda cukup mudah. Pilih alat build Anda:
 
 **Maven** (tambahkan ini ke `pom.xml` Anda):
 ```xml
@@ -136,27 +151,27 @@ Menambahkan GroupDocs.Signature ke proyek Anda sangat mudah. Pilih alat build An
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Unduhan Manual**: Tidak menggunakan Maven atau Gradle? Unduh JAR langsung dari [GroupDocs.Signature releases](https://releases.groupdocs.com/signature/java/) dan tambahkan ke classpath Anda.
+**Unduhan manual**: Tidak menggunakan Maven atau Gradle? Unduh JAR langsung dari [GroupDocs.Signature releases](https://releases.groupdocs.com/signature/java/) dan tambahkan ke classpath Anda.
 
 ### Akuisisi Lisensi
 
 GroupDocs menawarkan lisensi yang fleksibel:
 
-- **Free Trial**: Ideal untuk pengujian—tanpa kartu kredit. [Mulai di sini](https://releases.groupdocs.com/signature/java/)  
-- **Temporary License**: Butuh lebih banyak waktu untuk evaluasi? [Minta lisensi sementara](https://purchase.groupdocs.com/temporary-license/) untuk akses penuh selama pengembangan  
-- **Production License**: Saat Anda siap deploy, [beli lisensi](https://purchase.groupdocs.com/buy) sesuai kebutuhan  
+- **Free trial**: Sempurna untuk pengujian—tidak memerlukan kartu kredit. [Start here](https://releases.groupdocs.com/signature/java/)  
+- **Temporary license**: Butuh lebih banyak waktu untuk evaluasi? [Request a temporary license](https://purchase.groupdocs.com/temporary-license/) untuk akses fitur penuh selama pengembangan  
+- **Production license**: Saat Anda siap untuk menerapkan, [purchase a license](https://purchase.groupdocs.com/buy) sesuai kebutuhan Anda  
 
 **Tautan berguna tambahan**
 
-- [GroupDocs.Signature untuk Java Documentation](https://docs.groupdocs.com/signature/java/)  
-- [API Reference Guide](https://reference.groupdocs.com/signature/java/)  
-- [Community Support Forum](https://forum.groupdocs.com/c/signature/)  
-- [Latest Library Releases](https://releases.groupdocs.com/signature/java/)  
-- [Free Trial Download](https://releases.groupdocs.com/signature/java/)  
-- [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)  
-- [Purchase Full License](https://purchase.groupdocs.com/buy)
+- [Dokumentasi GroupDocs.Signature untuk Java](https://docs.groupdocs.com/signature/java/)  
+- [Panduan Referensi API](https://reference.groupdocs.com/signature/java/)  
+- [Forum Dukungan Komunitas](https://forum.groupdocs.com/c/signature/)  
+- [Rilis Perpustakaan Terbaru](https://releases.groupdocs.com/signature/java/)  
+- [Unduhan Uji Coba Gratis](https://releases.groupdocs.com/signature/java/)  
+- [Minta Lisensi Sementara](https://purchase.groupdocs.com/temporary-license/)  
+- [Beli Lisensi Penuh](https://purchase.groupdocs.com/buy)
 
-Tip pro: Mulailah dengan trial gratis untuk membuat prototipe, lalu dapatkan lisensi sementara jika Anda butuh lebih banyak waktu sebelum berkomitmen.
+Pro tip: Mulailah dengan uji coba gratis untuk membuat prototipe solusi Anda, lalu dapatkan lisensi sementara jika Anda membutuhkan lebih banyak waktu sebelum berkomitmen.
 
 ## Menyiapkan GroupDocs.Signature untuk Java
 
@@ -176,33 +191,34 @@ public class InitializeSignature {
 
 **Penting**: Selalu tutup objek `Signature` setelah selesai (atau gunakan try‑with‑resources) untuk menghindari kebocoran memori pada file besar.
 
-## Memilih Antara Tanda Tangan Barcode dan Kode QR
+## Memilih antara tanda tangan barcode dan kode QR
 
-Tidak yakin tipe tanda tangan mana yang dipakai? Berikut panduan keputusan cepat:
+Tidak yakin tipe tanda tangan mana yang dipilih? Berikut panduan keputusan cepat:
 
-| Faktor | Barcode (Code128) | Kode QR |
+| Faktor | Barcode (Code128) | QR Code |
 |--------|-------------------|---------|
-| **Kapasitas Data** | ~80 karakter | Hingga 4.296 karakter alfanumerik |
+| **Kapasitas data** | ~80 karakter | Hingga 4.296 karakter alfanumerik |
 | **Keterbacaan** | Membutuhkan pemindai barcode | Berfungsi dengan kamera smartphone |
-| **Efisiensi Ruang** | Lebih kompak secara horizontal | Membutuhkan area persegi |
-| **Terbaik Untuk** | ID sederhana, cap waktu, kode pendek | URL, data JSON, metadata detail |
-| **Koreksi Kesalahan** | Minimal | Terintegrasi (dapat pulih dari kerusakan) |
+| **Efisiensi ruang** | Lebih kompak secara horizontal | Membutuhkan area berbentuk kotak |
+| **Terbaik untuk** | ID sederhana, cap waktu, kode pendek | URL, data JSON, metadata detail |
+| **Koreksi kesalahan** | Minimal | Terintegrasi (dapat pulih dari kerusakan) |
 
-**Aturan praktis**:  
-- Gunakan **barcode** untuk ID cepat yang dapat dipindai atau cap waktu.  
-- Gunakan **kode QR** ketika Anda perlu menyematkan data lebih kaya atau menginginkan kompatibilitas smartphone.  
-- Gabungkan keduanya untuk redundansi dan auditabilitas maksimal.
+**Pedoman umum**:  
+- Gunakan **barcode** untuk ID atau cap waktu yang cepat dan dapat dipindai.  
+- Gunakan **kode QR** ketika Anda perlu menyematkan data yang lebih kaya atau menginginkan kompatibilitas smartphone.  
+- Gabungkan keduanya untuk redundansi maksimum dan auditabilitas.
 
 ## Panduan Implementasi
 
-### Menandatangani Arsip TAR dengan Barcode
+### Menandatangani arsip TAR dengan barcode
 
-#### Mengapa Menandatangani dengan Barcode?
-Barcode cocok untuk arsip TAR karena kompak dan dapat dipindai. Anda dapat menyematkan cap waktu, nomor versi, ID pengguna, atau nilai checksum untuk verifikasi cepat.
+#### Mengapa menandatangani dengan barcode?
 
-#### Langkah‑langkah
+Barcode sangat cocok untuk arsip TAR karena kompak dan dapat dipindai. Anda dapat menyematkan cap waktu, nomor versi, ID pengguna, atau nilai checksum untuk verifikasi cepat.
 
-**1. Inisialisasi Signature**  
+#### Langkah-langkah
+
+**1. Inisialisasi tanda tangan**  
 Pertama, buat instance `Signature` untuk file TAR:
 ```java
 import com.groupdocs.signature.Signature;
@@ -210,9 +226,9 @@ import com.groupdocs.signature.Signature;
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
-**Tip pro**: Untuk file TAR besar (lebih dari 100 MB), jalankan operasi penandatanganan di thread latar belakang agar UI tetap responsif.
+**Pro tip**: Untuk file TAR besar (lebih dari 100 MB), jalankan operasi penandatanganan di thread latar belakang agar UI tetap responsif.
 
-**2. Konfigurasi Opsi Barcode**  
+**2. Konfigurasikan opsi barcode**  
 Kelas `BarcodeSignature` menentukan konten, tipe, dan penempatan barcode. Objek `BarcodeOptions` menyimpan pengaturan ini:
 ```java
 import com.groupdocs.signature.options.sign.BarcodeSignOptions;
@@ -224,14 +240,14 @@ bcOptions.setTop(100);   // Y position in pixels
 ```
 
 `BarcodeOptions` memungkinkan Anda menentukan tampilan visual dan posisi barcode.  
-`BarcodeTypes` adalah enum yang berisi simbol barcode yang didukung seperti `Code128`, `Code39`, dll.
+`BarcodeTypes` adalah enum yang mencantumkan simbol barcode yang didukung seperti `Code128`, `Code39`, dll.
 
 **Apa yang terjadi di sini?**  
-- `"12345678"` adalah data yang dikodekan dalam barcode—ganti dengan ID, cap waktu, atau kode verifikasi Anda.  
+- `"12345678"` adalah data yang dienkode dalam barcode—ganti dengan ID, cap waktu, atau kode verifikasi Anda yang sebenarnya.  
 - `BarcodeTypes.Code128` menyeimbangkan kapasitas data dengan keandalan pemindaian.  
 - Nilai posisi (100, 100) menempatkan barcode 100 px dari sudut kiri‑atas.
 
-**Opsi kustomisasi yang mungkin Anda inginkan:**  
+**Opsi kustomisasi yang mungkin Anda inginkan:**
 ```java
 bcOptions.setWidth(200);        // Barcode width in pixels
 bcOptions.setHeight(50);        // Barcode height in pixels
@@ -239,7 +255,7 @@ bcOptions.setForeColor(Color.BLACK);  // Barcode color
 bcOptions.setBackgroundColor(Color.WHITE);  // Background color
 ```
 
-**3. Tandatangani dan Simpan Dokumen**  
+**3. Tanda tangani dan simpan dokumen**  
 Jalankan operasi penandatanganan dan simpan arsip yang telah ditandatangani:
 ```java
 import com.groupdocs.signature.domain.SignResult;
@@ -251,20 +267,21 @@ SignResult signResult = signature.sign(outputFilePath, bcOptions);
 Objek `SignResult` yang dikembalikan memberi tahu apakah operasi berhasil dan di mana tanda tangan ditempatkan.  
 **Kesalahan umum**: Pastikan direktori output ada sebelum memanggil `sign()`. Perpustakaan tidak akan membuat direktori induk secara otomatis.
 
-### Menandatangani Arsip TAR dengan Kode QR
+### Menandatangani arsip TAR dengan kode QR
 
-#### Kapan Menggunakan Kode QR
+#### Kapan menggunakan kode QR
+
 Kode QR bersinar ketika Anda perlu menyimpan data terstruktur (JSON, XML), menyematkan URL verifikasi, atau memungkinkan pemindaian smartphone.
 
-#### Langkah‑langkah
+#### Langkah-langkah
 
-**1. Inisialisasi Signature**  
+**1. Inisialisasi tanda tangan**  
 Sama seperti sebelumnya—buat instance `Signature` Anda:
 ```java
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
-**2. Konfigurasi Opsi Kode QR**  
+**2. Konfigurasikan opsi kode QR**  
 Siapkan kode QR dengan data yang ingin Anda sematkan:
 ```java
 import com.groupdocs.signature.options.sign.QrCodeSignOptions;
@@ -275,7 +292,7 @@ qrOptions.setLeft(400);  // X position
 qrOptions.setTop(400);   // Y position
 ```
 
-`QrCodeTypes` adalah enum yang menentukan tipe kode QR yang dihasilkan (QR standar, DataMatrix, Aztec, dll.).  
+`QrCodeTypes` adalah enum yang menentukan tipe kode QR yang akan dihasilkan (QR standar, DataMatrix, Aztec, dll.).
 
 **Contoh dunia nyata** – sematkan payload JSON dengan data verifikasi:
 ```java
@@ -283,37 +300,38 @@ String verificationData = "{\"version\":\"1.0\",\"timestamp\":\"2025-01-02T10:30
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(verificationData, QrCodeTypes.QR);
 ```
 
-**Opsi tipe Kode QR:**  
+**Opsi tipe kode QR:**  
 - `QrCodeTypes.QR` – kode QR standar (paling umum)  
 - `QrCodeTypes.DataMatrix` – lebih kompak untuk data kecil  
-- `QrCodeTypes.Aztec` – cocok untuk permukaan melengkung  
+- `QrCodeTypes.Aztec` – baik untuk permukaan melengkung  
 
-**3. Tandatangani dan Simpan Dokumen**  
+**3. Tanda tangani dan simpan dokumen**  
 Selesaikan proses penandatanganan seperti pada barcode:
 ```java
 String outputFilePath = "output/path/SignWithQRCode/archive_signed.tar";
 SignResult signResult = signature.sign(outputFilePath, qrOptions);
 ```
 
-**Catatan kinerja**: Pembuatan kode QR sedikit lebih lambat daripada barcode karena perhitungan koreksi kesalahan, tetapi perbedaannya tidak signifikan untuk kebanyakan kasus (biasanya beberapa milidetik).
+**Catatan performa**: Generasi kode QR sedikit lebih lambat daripada barcode karena perhitungan koreksi kesalahan, tetapi perbedaannya tidak signifikan untuk kebanyakan kasus penggunaan (biasanya beberapa milidetik).
 
-### Menandatangani Arsip TAR dengan Beberapa Tanda Tangan
+### Menandatangani arsip TAR dengan beberapa tanda tangan
 
-#### Mengapa Menggunakan Beberapa Tanda Tangan?
-- **Redundansi** – jika satu tanda tangan rusak, yang lain masih dapat memverifikasi.  
+#### Mengapa menggunakan beberapa tanda tangan?
+
+- **Redundansi** – jika satu tanda tangan rusak, yang lain masih dapat diverifikasi.  
 - **Audiens berbeda** – barcode untuk pemindai, kode QR untuk smartphone.  
-- **Data berlapis** – ID cepat di barcode, metadata detail di kode QR.  
-- **Kepatuhan** – beberapa regulasi mengharuskan metode verifikasi ganda.
+- **Data berlapis** – ID cepat dalam barcode, metadata detail dalam kode QR.  
+- **Kepatuhan** – beberapa regulasi mengharuskan beberapa metode verifikasi.
 
-#### Langkah‑langkah
+#### Langkah-langkah
 
-**1. Inisialisasi Signature**  
+**1. Inisialisasi tanda tangan**  
 Sama seperti sebelumnya:
 ```java
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
-**2. Konfigurasi Beberapa Opsi**  
+**2. Konfigurasikan beberapa opsi**  
 Buat kedua tipe tanda tangan dan gabungkan dalam sebuah daftar:
 ```java
 import java.util.ArrayList;
@@ -335,9 +353,9 @@ listOptions.add(bcOptions);
 listOptions.add(qrOptions);
 ```
 
-**Tip pro**: Tempatkan tanda tangan secara strategis—pintu sudut atau area yang tidak mengganggu paling cocok untuk arsip TAR.
+**Pro tip**: Tempatkan tanda tangan secara strategis—pintu sudut atau area yang tidak mengganggu bekerja paling baik untuk arsip TAR.
 
-**3. Tandatangani dan Simpan Dokumen**  
+**3. Tanda tangani dan simpan dokumen**  
 Berikan daftar opsi ke metode `sign()`:
 ```java
 String outputFilePath = "output/path/SignWithMultipleSignatures/archive_signed.tar";
@@ -346,20 +364,20 @@ SignResult signResult = signature.sign(outputFilePath, listOptions);
 
 GroupDocs memproses setiap tanda tangan secara berurutan, menyematkannya ke metadata dokumen. Urutan dalam daftar tidak memengaruhi verifikasi.
 
-## Kasus Penggunaan Dunia Nyata
+## Kasus penggunaan dunia nyata
 
-### 1. Pipeline Distribusi Perangkat Lunak
+### 1. Pipeline distribusi perangkat lunak
 **Skenario**: Mendistribusikan paket perangkat lunak sebagai arsip TAR dan membuktikan bahwa paket tidak dimodifikasi.  
-**Solusi**: Tandatangani setiap rilis dengan kode QR yang berisi payload JSON:
+**Solusi**: Tanda tangani setiap rilis dengan kode QR yang berisi payload JSON:
 ```java
 String releaseData = String.format(
     "{\"version\":\"%s\",\"buildDate\":\"%s\",\"sha256\":\"%s\"}",
     version, buildDate, checksum
 );
 ```  
-**Mengapa berhasil**: Pengguna dapat memindai kode QR untuk memverifikasi integritas paket sebelum instalasi—tanpa perlu manajemen kunci GPG.
+**Mengapa berhasil**: Pengguna dapat memindai kode QR untuk memverifikasi integritas paket sebelum instalasi—tanpa perlu mengelola kunci GPG.
 
-### 2. Sistem Cadangan Otomatis
+### 2. Sistem cadangan otomatis
 **Skenario**: Arsip TAR cadangan harian memerlukan jejak audit.  
 **Solusi**: Tambahkan barcode dengan cap waktu cadangan dan ID server:
 ```java
@@ -368,21 +386,21 @@ BarcodeSignOptions bcOptions = new BarcodeSignOptions(backupId, BarcodeTypes.Cod
 ```  
 **Mengapa berhasil**: Verifikasi visual cepat atas keaslian cadangan tanpa membuka arsip.
 
-### 3. Sistem Manajemen Dokumen
+### 3. Sistem manajemen dokumen
 **Skenario**: Dokumen hukum yang disimpan sebagai arsip memerlukan verifikasi anti‑tamper.  
-**Solusi**: Gunakan barcode (pemindaian cepat) dan kode QR (metadata detail) pada arsip yang sama.  
+**Solusi**: Gunakan kedua barcode (pemindaian cepat) dan kode QR (metadata detail) pada arsip yang sama.  
 
-### 4. Pelacakan Rantai Pasokan
+### 4. Pelacakan rantai pasokan
 **Skenario**: Melacak paket file melalui banyak organisasi.  
-**Solusi**: Sematkan kode QR dengan URL pelacakan yang mengarah ke API verifikasi:
+**Solusi**: Sematkan kode QR dengan URL pelacakan yang menghubungkan ke API verifikasi:
 ```java
 String trackingUrl = "https://verify.yourcompany.com/track/" + uniqueId;
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(trackingUrl, QrCodeTypes.QR);
 ```  
 
-## Masalah Umum dan Solusinya
+## Masalah umum dan solusi
 
-### Masalah 1: “Signature Not Found” Setelah Menandatangani
+### Masalah 1: “Signature not found” setelah menandatangani
 **Gejala**: `sign()` berhasil, tetapi tanda tangan tidak terlihat.  
 **Penyebab**: Penempatan salah, menimpa file asli, atau keterbatasan penampil TAR.  
 **Solusi**:  
@@ -399,23 +417,23 @@ if (result.getSucceeded().size() > 0) {
 String absolutePath = new File(outputFilePath).getAbsolutePath();
 ```  
 
-### Masalah 2: OutOfMemoryError dengan Arsip TAR Besar
+### Masalah 2: OutOfMemoryError dengan file TAR besar
 **Gejala**: JVM crash untuk arsip > 500 MB.  
-**Solusi**: Tingkatkan ukuran heap (`-Xmx`) dan segera dispose objek `Signature`:  
+**Solusi**: Tingkatkan ukuran heap (`-Xmx`) dan segera dispose objek `Signature`:
 ```bash
 java -Xmx2G -jar your-application.jar
 ```  
 
-Atau terapkan pemrosesan berbasis potongan:  
+Atau terapkan pemrosesan berbasis potongan:
 ```java
 // For very large files, consider signing metadata separately
 // rather than embedding in the TAR itself
 ```  
 
-### Masalah 3: Data Tanda Tangan Terpotong
+### Masalah 3: Data tanda tangan terpotong
 **Gejala**: String panjang terpotong.  
-**Penyebab**: Kapasitas Code128 terlampaui (≈ 80 karakter).  
-**Solusi**: Beralih ke kode QR untuk payload lebih panjang:  
+**Penyebab**: Melebihi kapasitas Code128 (≈ 80 karakter).  
+**Solusi**: Beralih ke kode QR untuk payload yang lebih panjang:
 ```java
 // Bad: Too much data for Code128
 BarcodeSignOptions bcOptions = new BarcodeSignOptions(veryLongString, BarcodeTypes.Code128);
@@ -424,9 +442,9 @@ BarcodeSignOptions bcOptions = new BarcodeSignOptions(veryLongString, BarcodeTyp
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(veryLongString, QrCodeTypes.QR);
 ```  
 
-### Masalah 4: Kesalahan Validasi Lisensi
+### Masalah 4: Kesalahan validasi lisensi
 **Gejala**: `LicenseException` atau peringatan “Trial version” di produksi.  
-**Solusi**: Muat lisensi sebelum membuat instance `Signature` apa pun:  
+**Solusi**: Muat lisensi sebelum membuat instance `Signature` apa pun:
 ```java
 import com.groupdocs.signature.License;
 
@@ -437,12 +455,12 @@ license.setLicense("path/to/GroupDocs.Signature.lic");
 Signature signature = new Signature("document.tar");
 ```  
 
-**Tip pro**: Muat lisensi sekali saat aplikasi mulai, bukan sebelum setiap operasi penandatanganan.
+**Pro tip**: Muat lisensi sekali saat aplikasi mulai, bukan sebelum setiap operasi penandatanganan.
 
-### Masalah 5: Nilai Posisi Tidak Berfungsi Seperti Diharapkan
+### Masalah 5: Nilai posisi tidak berfungsi seperti yang diharapkan
 **Gejala**: Tanda tangan muncul di lokasi tak terduga.  
 **Penyebab**: Kebingungan antara piksel dan poin.  
-**Solusi**: GroupDocs menggunakan piksel secara default. Untuk penempatan presisi:  
+**Solusi**: GroupDocs menggunakan piksel secara default. Untuk penempatan presisi:
 ```java
 bcOptions.setLeft(100);  // 100 pixels from left edge
 bcOptions.setTop(100);   // 100 pixels from top edge
@@ -452,10 +470,9 @@ bcOptions.setHorizontalAlignment(HorizontalAlignment.Center);
 bcOptions.setVerticalAlignment(VerticalAlignment.Center);
 ```  
 
-## Pola Integrasi
+## Pola integrasi
 
-### Pola 1: Layanan REST API
-Ekspos penandatanganan sebagai microservice:  
+### Pola 1: Layanan API REST
 ```java
 @RestController
 @RequestMapping("/api/signature")
@@ -491,8 +508,7 @@ public class SignatureController {
 }
 ```  
 
-### Pola 2: Pipeline Pemrosesan Batch
-Tandatangani banyak arsip dalam pipeline:  
+### Pola 2: Pipeline pemrosesan batch
 ```java
 public class BatchSigner {
     
@@ -520,8 +536,7 @@ public class BatchSigner {
 }
 ```  
 
-### Pola 3: Arsitektur Berbasis Event
-Trigger penandatanganan saat arsip dibuat:  
+### Pola 3: Arsitektur berbasis peristiwa
 ```java
 @Component
 public class ArchiveCreatedListener {
@@ -539,9 +554,9 @@ public class ArchiveCreatedListener {
 }
 ```  
 
-## Pertimbangan Kinerja
+## Pertimbangan kinerja
 
-### Manajemen Memori
+### Manajemen memori
 **Masalah**: Setiap instance `Signature` memuat seluruh file ke memori.  
 **Praktik terbaik**:  
 ```java
@@ -556,33 +571,33 @@ try (Signature signature = new Signature("file.tar")) {
 }
 ```  
 
-### Optimasi Ukuran File
-- **File kecil (< 10 MB)** – tandatangani secara sinkron.  
+### Optimisasi ukuran file
+- **File kecil (< 10 MB)** – tanda tangani secara sinkron.  
 - **File menengah (10‑100 MB)** – gunakan thread latar belakang.  
-- **File besar (> 100 MB)** – pertimbangkan menandatangani metadata terpisah atau menggunakan API streaming.
+- **File besar (> 100 MB)** – pertimbangkan menandatangani metadata secara terpisah atau menggunakan API streaming.
 
-### Kompleksitas Tanda Tangan (perkiraan waktu pada server standar)
+### Kompleksitas tanda tangan (perkiraan waktu pada server standar)
 
-| Tipe Tanda Tangan | Waktu per Dokumen |
+| Tipe tanda tangan | Waktu per dokumen |
 |-------------------|-------------------|
-| Barcode tunggal | 50‑100 ms |
-| Kode QR tunggal | 100‑200 ms |
+| Barcode tunggal   | 50‑100 ms |
+| Kode QR tunggal   | 100‑200 ms |
 | Beberapa tanda tangan | 150‑300 ms |
 
-**Tip optimasi**: Untuk ribuan file, batch mereka dan gunakan thread pool (lihat pola pemrosesan batch di atas).
+**Tips optimasi**: Untuk ribuan file, batch mereka dan gunakan thread pool (lihat pola pemrosesan batch di atas).
 
-### Pembaruan Perpustakaan
-GroupDocs secara rutin merilis perbaikan kinerja. Selalu periksa [changelog](https://releases.groupdocs.com/signature/java/) sebelum melakukan deployment besar.
+### Pembaruan perpustakaan
+GroupDocs merilis perbaikan performa secara reguler. Selalu periksa [changelog](https://releases.groupdocs.com/signature/java/) sebelum melakukan deployment besar.
 
 **Strategi pembaruan**:  
 1. Uji versi baru di staging.  
-2. Tinjau perubahan yang dapat memecah kompatibilitas.  
-3. Benchmark dengan file nyata.  
-4. Roll out secara bertahap.
+2. Tinjau perubahan yang memecah.  
+3. Lakukan benchmark dengan file nyata.  
+4. Luncurkan secara bertahap.
 
-## Praktik Terbaik untuk Produksi
+## Praktik terbaik untuk produksi
 
-**1. Validasi Status Lisensi**  
+**1. Validasi status lisensi**
 ```java
 License license = new License();
 if (!license.isLicensed()) {
@@ -590,7 +605,7 @@ if (!license.isLicensed()) {
 }
 ```  
 
-**2. Implementasikan Penanganan Error yang Kuat**  
+**2. Terapkan penanganan error yang kuat**
 ```java
 try {
     signature.sign(outputPath, options);
@@ -601,7 +616,7 @@ try {
 }
 ```  
 
-**3. Gunakan Data Tanda Tangan yang Deskriptif**  
+**3. Gunakan data tanda tangan yang deskriptif**
 ```java
 // Bad: Meaningless ID
 new BarcodeSignOptions("12345678", BarcodeTypes.Code128);
@@ -614,8 +629,8 @@ String signatureData = String.format("DOC-%s-%s",
 new BarcodeSignOptions(signatureData, BarcodeTypes.Code128);
 ```  
 
-**4. Versi Format Tanda Tangan Anda**  
-Sertakan nomor versi dalam JSON yang disematkan untuk mempersiapkan verifikasi di masa depan:  
+**4. Versi format tanda tangan Anda**
+Sertakan nomor versi dalam JSON yang disematkan untuk memfuture‑proof logika verifikasi Anda:  
 ```java
 String qrData = String.format(
     "{\"v\":\"1.0\",\"type\":\"archive\",\"timestamp\":\"%s\"}", 
@@ -623,50 +638,50 @@ String qrData = String.format(
 );
 ```  
 
-**5. Uji dengan File Dunia Nyata** – selalu validasi dengan arsip berukuran produksi untuk menemukan masalah memori dan kinerja lebih awal.
+**5. Uji dengan file dunia nyata** – selalu validasi dengan arsip berukuran produksi untuk menangkap masalah memori dan kinerja sejak dini.
 
 ## Kesimpulan
 
-Anda kini memiliki fondasi kuat untuk mengimplementasikan **digital signature java** menggunakan barcode dan kode QR. Berikut yang telah Anda pelajari:
+Anda kini memiliki dasar yang kuat untuk mengimplementasikan **how to sign java** menggunakan barcode dan kode QR. Berikut yang telah Anda pelajari:
 
-- Cara menandatangani arsip TAR (dan dokumen lain) dengan barcode serta kode QR  
+- Cara menandatangani arsip TAR (dan dokumen lain) dengan tanda tangan barcode dan kode QR  
 - Kapan memilih tiap tipe tanda tangan berdasarkan kebutuhan spesifik  
 - Cara mengatasi masalah umum sebelum masuk produksi  
-- Pola integrasi dunia nyata untuk REST API, pemrosesan batch, dan arsitektur berbasis event  
-- Teknik optimasi kinerja untuk menangani file berukuran apa pun  
+- Pola integrasi dunia nyata untuk API REST, pemrosesan batch, dan arsitektur berbasis peristiwa  
+- Teknik optimasi performa untuk menangani file berukuran apa pun  
 
 **Langkah selanjutnya**:  
 1. Jelajahi verifikasi tanda tangan dengan metode `search()`.  
 2. Coba format dokumen lain—GroupDocs.Signature mendukung PDF, DOCX, XLSX, PNG, dan lainnya.  
-3. Kustomisasi tampilan tanda tangan (warna, ukuran, border).  
+3. Sesuaikan tampilan tanda tangan (warna, ukuran, batas).  
 4. Bangun API verifikasi untuk memvalidasi tanda tangan secara programatis.
 
-Kekuatan GroupDocs.Signature jauh melampaui panduan ini. Kunjungi [dokumentasi lengkap](https://docs.groupdocs.com/signature/java/) untuk menemukan fitur lanjutan seperti tanda tangan teks, gambar, dan ekstraksi metadata.
+Kekuatan GroupDocs.Signature jauh melampaui panduan ini. Lihat [Dokumentasi GroupDocs.Signature untuk Java](https://docs.groupdocs.com/signature/java/) untuk menemukan fitur lanjutan seperti tanda tangan teks, gambar, dan ekstraksi metadata.
 
 Punya pertanyaan atau ingin berbagi implementasi? Bergabunglah dengan forum komunitas GroupDocs untuk bantuan dari pengembang lain.
 
-## Pertanyaan yang Sering Diajukan
+## Pertanyaan yang sering diajukan
 
 **T: Bisakah saya menandatangani dokumen selain arsip TAR?**  
-J: Tentu! GroupDocs.Signature mendukung lebih dari 50 format file, termasuk PDF, DOCX, XLSX, PNG, dan lainnya. Ganti saja ekstensi file pada konstruktor `Signature` untuk bekerja dengan tipe yang didukung.
+A: Tentu saja! GroupDocs.Signature mendukung lebih dari 50 format file, termasuk PDF, DOCX, XLSX, PNG, dan lainnya. Ubah saja ekstensi file pada konstruktor `Signature` untuk bekerja dengan tipe yang didukung.
 
 **T: Bagaimana cara memverifikasi tanda tangan setelah menandatangani?**  
-J: Gunakan metode `search()` untuk menemukan dan memvalidasi tanda tangan:  
+A: Gunakan metode `search()` untuk menemukan dan memvalidasi tanda tangan:  
 ```java
 Signature signature = new Signature("signed-document.tar");
 BarcodeSearchOptions searchOptions = new BarcodeSearchOptions();
 List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, searchOptions);
 ```  
 
-**T: Apakah tanda tangan ini aman dari manipulasi?**  
-J: Tanda tangan barcode dan kode QR memberikan verifikasi visual tetapi tidak sekuat sertifikat digital kriptografis. Untuk keamanan maksimal, gabungkan dengan PKI tradisional atau simpan hash tanda tangan di basis data eksternal.
+**T: Apakah tanda tangan aman dari manipulasi?**  
+A: Tanda tangan barcode dan kode QR memberikan verifikasi visual tetapi tidak sekuat kriptografi seperti sertifikat digital. Untuk keamanan maksimal, gabungkan dengan PKI tradisional atau simpan hash tanda tangan di basis data eksternal.
 
-**T: Berapa data maksimum yang dapat disimpan dalam tanda tangan?**  
+**T: Berapa data maksimum yang dapat saya simpan dalam sebuah tanda tangan?**  
 - Barcode Code128: ~80 karakter alfanumerik  
 - Kode QR (Versi 40): hingga 4.296 karakter alfanumerik atau 7.089 karakter numerik  
 
 **T: Bisakah saya menyesuaikan tampilan tanda tangan?**  
-J: Ya! Kendalikan warna, ukuran, border, dan lainnya:  
+A: Ya! Kendalikan warna, ukuran, batas, dan lainnya:  
 ```java
 bcOptions.setForeColor(Color.BLUE);
 bcOptions.setBackgroundColor(Color.YELLOW);
@@ -676,22 +691,20 @@ bcOptions.getBorder().setWeight(2);
 ```  
 
 **T: Apa yang terjadi jika saya menandatangani file dua kali?**  
-J: Setiap pemanggilan `sign()` menambahkan tanda tangan baru. Untuk mengganti yang lama, hapus terlebih dahulu dengan metode `delete()`.
+A: Setiap pemanggilan `sign()` menambahkan tanda tangan baru. Untuk mengganti yang sudah ada, hapus dulu dengan metode `delete()`.
 
-**T: Bagaimana menangani file besar tanpa kehabisan memori?**  
-J: Tingkatkan heap JVM (`-Xmx`), segera dispose objek `Signature`, dan pertimbangkan menandatangani metadata terpisah untuk arsip multi‑gigabyte.
+**T: Bagaimana cara menangani file besar tanpa kehabisan memori?**  
+A: Tingkatkan heap JVM (`-Xmx`), segera dispose objek `Signature`, dan pertimbangkan menandatangani metadata secara terpisah untuk arsip multi‑gigabyte.
 
 **T: Apakah saya memerlukan koneksi internet untuk menandatangani dokumen?**  
-J: Tidak. GroupDocs.Signature berfungsi sepenuhnya offline setelah perpustakaan terinstal.
+A: Tidak. GroupDocs.Signature berfungsi sepenuhnya offline setelah perpustakaan terpasang.
 
----
+**Last Updated:** 2026-10-06  
+**Tested With:** GroupDocs.Signature 23.12 for Java  
+**Author:** GroupDocs
 
-**Terakhir Diperbarui:** 2026-05-21  
-**Diuji Dengan:** GroupDocs.Signature 23.12 untuk Java  
-**Penulis:** GroupDocs
+## Tutorial terkait
 
-## Tutorial Terkait
-
-- [Digital Signature in Java - Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
-- [Java Signature Verification Tutorial - Validate Documents with Text, Barcode & QR Codes](/signature/java/search-verification/groupdocs-signature-java-document-verification-guide/)
-- [Sign ZIP Files in Java with Barcodes & QR Codes](/signature/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/)
+- [Tanda Tangan Digital di Java - Panduan Lengkap Memuat Sertifikat dan Menandatangani Dokumen](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)  
+- [Tutorial Verifikasi Tanda Tangan Java - Validasi Dokumen dengan Teks, Barcode & Kode QR](/signature/java/search-verification/groupdocs-signature-java-document-verification-guide/)  
+- [Menandatangani File ZIP di Java dengan Barcode & Kode QR](/signature/java/multiple-signatures/sign-zip-files-barcode-qr-code-java/)

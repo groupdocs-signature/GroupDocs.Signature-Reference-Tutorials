@@ -1,30 +1,31 @@
 ---
 categories:
 - Java Development
-date: '2026-05-21'
-description: digital signature java'yı barkodlar ve QR kodları kullanarak nasıl uygulayacağınızı
-  öğrenin. GroupDocs.Signature ile TAR arşivlerini ve diğer belgeleri güvence altına
-  almak için adım adım rehber.
+date: '2026-10-06'
+description: Java dosyalarını barkod ve QR kodlarıyla imzalamayı öğrenin, GroupDocs.Signature
+  kullanarak basit bir java dosya bütünlüğü kontrolü sağlayın.
 keywords:
-- digital signature java
 - how to sign java
-- java document signing
+- digital signature java
 - java file integrity check
 - add barcode to file
-lastmod: '2026-05-21'
-linktitle: Java Digital Signature Eğitimi
+- java document signing
+lastmod: '2026-10-06'
+linktitle: Java Dijital İmza Eğitimi
+og_description: Java dosyalarını barkod ve QR kodlarıyla imzalamayı öğrenin, GroupDocs.Signature
+  kullanarak basit bir java dosya bütünlüğü kontrolü sağlayın.
+og_image_alt: Guide showing barcode and QR code signatures added to Java files
+og_title: Java dosyalarını barkod & QR kodlarıyla nasıl imzalarsınız
 schemas:
 - author: GroupDocs
-  dateModified: '2026-05-21'
-  description: Learn how to implement digital signature java using barcodes and QR
-    codes. Step‑by‑step guide with GroupDocs.Signature for securing TAR archives and
-    other documents.
-  headline: 'Digital Signature Java: Sign Files with Barcodes & QR Codes'
+  dateModified: '2026-10-06'
+  description: Learn how to sign Java files with barcodes and QR codes, providing
+    a simple java file integrity check using GroupDocs.Signature.
+  headline: How to sign Java files with barcodes and QR codes
   type: TechArticle
-- description: Learn how to implement digital signature java using barcodes and QR
-    codes. Step‑by‑step guide with GroupDocs.Signature for securing TAR archives and
-    other documents.
-  name: 'Digital Signature Java: Sign Files with Barcodes & QR Codes'
+- description: Learn how to sign Java files with barcodes and QR codes, providing
+    a simple java file integrity check using GroupDocs.Signature.
+  name: How to sign Java files with barcodes and QR codes
   steps:
   - name: Test new versions in staging.
     text: Test new versions in staging.
@@ -73,56 +74,70 @@ tags:
 - document-security
 - java-tutorial
 - groupdocs
-title: 'Digital Signature Java: Dosyaları Barkod ve QR Kodlarıyla İmzala'
+- java file integrity check
+title: Java dosyalarını barkod ve QR kodlarıyla nasıl imzalarsınız
 type: docs
 url: /tr/java/barcode-signatures/sign-tar-archives-barcode-qr-code-java/
 weight: 1
 ---
 
-# Java'da Dosyalara Barkod ve QR Kodları Kullanarak Dijital İmzalar Ekleme
+# Java dosyalarını barkod ve QR kodlarıyla nasıl imzalarsınız
 
 ## Giriş
 
-Dosyalarınızın **digital signature java** kullanarak değiştirilmediğini kanıtlamayı hiç merak ettiniz mi? Ya da karmaşık kriptografik kurulumlar olmadan belgeleri programlı olarak kimlik doğrulamanın bir yoluna mı ihtiyacınız var? Geleneksel dijital imzalar bazı kullanım durumları için aşırı olabilir. Bazen sadece hafif, taranabilir bir yöntemle dosya bütünlüğünü doğrulamanız yeterlidir—özellikle arşivler, yedeklemeler veya otomatik iş akışlarıyla uğraşırken. İşte barkod ve QR kod imzalarının devreye girdiği yer burası.
+Dosyalarınızın **how to sign java** teknikleriyle değiştirilmediğini kanıtlamayı hiç merak ettiniz mi? Ya da karmaşık kriptografik kurulumlar olmadan belgeleri programlı olarak kimlik doğrulamanın bir yoluna mı ihtiyacınız var? Geleneksel dijital imzalar bazı kullanım senaryoları için aşırı olabilir. Bazen sadece dosya bütünlüğünü doğrulamak için hafif, taranabilir bir yöntem yeterlidir—özellikle arşivler, yedeklemeler veya otomatik iş akışlarıyla çalışırken. İşte barkod ve QR kod imzalarının devreye girdiği yer burası.
 
-Bu öğreticide, GroupDocs.Signature kullanarak Java’da dijital imzaları nasıl uygulayacağınızı öğreneceksiniz. TAR arşivlerini imzalamaya odaklanacağız (yedekleme sistemleri ve yazılım dağıtımı için mükemmel), ancak bu teknikler çeşitli belge formatlarıyla da çalışır. Bir belge yönetim sistemi geliştiriyor olun ya da dosyalarınıza ekstra bir güvenlik katmanı eklemek isteyin, doğru yerdesiniz.
+Bu öğreticide **how to sign java** yöntemini GroupDocs.Signature kullanarak nasıl uygulayacağınızı öğreneceksiniz. TAR arşivlerini imzalamaya odaklanacağız (yedekleme sistemleri ve yazılım dağıtımı için mükemmel), ancak bu teknikler çeşitli belge formatlarıyla da çalışır. Bir belge yönetim sistemi mi inşa ediyorsunuz yoksa dosyalarınıza ekstra bir güvenlik katmanı mı eklemek istiyorsunuz, doğru yerdesiniz.
 
 **Edineceğiniz bilgiler:**
 - Java’da barkod ve QR kod imzalarının çalışan bir uygulaması  
 - Hangi imza tipinin ne zaman kullanılacağı (ve neden önemli olduğu)  
 - Yaygın imzalama sorunlarına pratik çözümler  
 - Bugün kullanabileceğiniz gerçek‑dünya entegrasyon desenleri  
-- Üretim sistemleri için performans optimizasyon ipuçları  
+- Üretim sistemleri için performans iyileştirme ipuçları  
 
-Haydi başlayalım—kriptografi derecesi gerektirmiyor.
+Haydi başlayalım—kriptografi derecesi gerekmiyor.
 
-## Hızlı Cevaplar
-- **Java'da barkod imzalarını hangi kütüphane yönetir?** GroupDocs.Signature for Java.  
+## Hızlı yanıtlar
+- **Java’da barkod imzalarını hangi kütüphane yönetir?** GroupDocs.Signature for Java.  
 - **Hangi imza tipi daha fazla veri depolar?** QR kodlar (en fazla 4.296 alfanümerik karakter).  
-- **100 MB'den büyük TAR dosyalarını imzalayabilir miyim?** Evet—arka plan iş parçacıkları kullanın ve JVM yığınını artırın.  
-- **İnternet bağlantısına ihtiyacım var mı?** Hayır, kütüphane tamamen çevrim dışı çalışır.  
+- **Büyük TAR dosyalarını (>100 MB) imzalayabilir miyim?** Evet—arka plan iş parçacıkları kullanın ve JVM yığınını artırın.  
+- **İnternet bağlantısı gerekli mi?** Hayır, kütüphane tamamen çevrim dışı çalışır.  
 - **Üretim için lisans gerekli mi?** Evet, geçerli bir GroupDocs.Signature lisansı zorunludur.
 
-## Digital Signature Java Nedir?
+## Dijital imza java nedir?
 
-**Digital signature java**, bir Java‑oluşturulmuş dosyaya doğrulanabilir görsel bir belirteç—barkod veya QR kod gibi—gömme sürecidir; bu sayede dosyanın özgünlüğü ve bütünlüğü kanıtlanır. Bu görsel belirteç eklenerek geliştiriciler, dosyanın imzalandığı andan itibaren değiştirilmediğini hızlı, insan‑okunur bir şekilde doğrulama imkanı sunar; aynı zamanda GroupDocs.Signature API'si aracılığıyla programlı doğrulama da yapılabilir.
+Dijital imza java, bir Java‑oluşturulmuş dosyaya doğrudan bir barkod veya QR kod gibi doğrulanabilir görsel bir token yerleştirerek dosyanın özgünlüğünü ve bütünlüğünü kanıtlamaktır; bu, dosyanın imzalandığı andan itibaren değiştirilmediğine dair hızlı, insan‑okunur bir kanıt sunar ve aynı zamanda GroupDocs.Signature API’si üzerinden programlı doğrulamayı da mümkün kılar.
 
-## Neden Barkod veya QR Kod İmzaları Kullanılır?
+## Neden barkod veya QR kod imzaları kullanmalı?
 
-GroupDocs.Signature **50+ giriş ve çıkış formatını** (PDF, DOCX, XLSX, HTML, PNG ve TAR dahil) destekler ve çok sayfalı belgeleri tüm dosyayı belleğe yüklemeden işleyebilir. Barkod ve QR kodlar, dış sertifika otoritelerine ihtiyaç duymadan birçok iç iş akışında kullanılabilecek taranabilir, kendi içinde bütünleşik bir doğrulama kanıtı sağlar.
+GroupDocs.Signature **50+ giriş ve çıkış formatını** (PDF, DOCX, XLSX, HTML, PNG ve TAR dahil) destekler ve çok sayfalı belgeleri tüm dosyayı belleğe yüklemeden işleyebilir. Barkod ve QR kodlar, dış sertifika otoritelerine ihtiyaç duymadan taranabilir, kendi içinde bütün bir kimlik doğrulama kanıtı sağlar.
+
+| Faktör | Barkod (Code128) | QR Kodu |
+|--------|-------------------|---------|
+| **Veri kapasitesi** | ~80 karakter | 4.296 alfanümerik karaktere kadar |
+| **Okunabilirlik** | Barkod tarayıcı gerektirir | Akıllı telefon kameralarıyla çalışır |
+| **Alan verimliliği** | Yatayda daha kompakt | Kare alan gerekir |
+| **En uygun kullanım** | Basit kimlikler, zaman damgaları, kısa kodlar | URL’ler, JSON verisi, detaylı meta veri |
+| **Hata düzeltme** | Minimal | Dahili (hasardan kurtulabilir) |
+
+**Genel kural**:  
+- Hızlı, taranabilir kimlikler veya zaman damgaları için **barkod** kullanın.  
+- Daha zengin veri eklemeniz gerektiğinde veya akıllı telefon uyumluluğu istediğinizde **QR kod** kullanın.  
+- Maksimum yedeklilik ve denetlenebilirlik için ikisini birleştirin.
 
 ## Önkoşullar
 
-- **GroupDocs.Signature for Java Library** – sürüm 23.12 veya daha yeni  
+- **GroupDocs.Signature for Java Kütüphanesi** – sürüm 23.12 veya üzeri  
 - **Java Development Kit (JDK)** – sürüm 8 veya üzeri  
 - **IDE** – IntelliJ IDEA, Eclipse veya herhangi bir Java‑uyumlu editör  
-- **Temel Java bilgisi** – sınıflar ve importlarla rahat olmalısınız  
+- **Temel Java bilgisi** – sınıflar ve import’larla rahat olmalısınız  
 
-### Ortam Kurulumu
+### Ortam kurulumu
 
-GroupDocs.Signature'ı projenize eklemek oldukça basittir. Derleme aracınızı seçin:
+GroupDocs.Signature’ı projenize eklemek oldukça basittir. Build aracınızı seçin:
 
-**Maven** (bu satırı `pom.xml` dosyanıza ekleyin):
+**Maven** (`pom.xml` dosyanıza ekleyin):
 ```xml
 <dependency>
     <groupId>com.groupdocs</groupId>
@@ -131,22 +146,22 @@ GroupDocs.Signature'ı projenize eklemek oldukça basittir. Derleme aracınızı
 </dependency>
 ```
 
-**Gradle** (bu satırı `build.gradle` dosyanıza ekleyin):
+**Gradle** (`build.gradle` dosyanıza ekleyin):
 ```gradle
 implementation 'com.groupdocs:groupdocs-signature:23.12'
 ```
 
-**Manuel İndirme**: Maven ya da Gradle kullanmıyor musunuz? JAR dosyasını doğrudan [GroupDocs.Signature releases](https://releases.groupdocs.com/signature/java/) adresinden indirin ve sınıf yolunuza ekleyin.
+**Manuel indirme**: Maven ya da Gradle kullanmıyor musunuz? JAR dosyasını doğrudan [GroupDocs.Signature releases](https://releases.groupdocs.com/signature/java/) adresinden indirin ve sınıf yolunuza ekleyin.
 
-### Lisans Edinme
+### Lisans temini
 
-GroupDocs esnek lisanslama seçenekleri sunar:
+GroupDocs esnek lisans seçenekleri sunar:
 
-- **Ücretsiz Deneme**: Test için mükemmel—kredi kartı gerekmez. [Buradan başlayın](https://releases.groupdocs.com/signature/java/)  
-- **Geçici Lisans**: Daha fazla değerlendirme süresine mi ihtiyacınız var? Geliştirme sırasında tam özellik erişimi için [geçici bir lisans isteyin](https://purchase.groupdocs.com/temporary-license/)  
-- **Üretim Lisansı**: Dağıtıma hazır olduğunuzda, ihtiyaçlarınıza göre [bir lisans satın alın](https://purchase.groupdocs.com/buy)  
+- **Ücretsiz deneme**: Test için ideal—kredi kartı gerekmez. [Buradan başlayın](https://releases.groupdocs.com/signature/java/)  
+- **Geçici lisans**: Daha uzun bir değerlendirme süresi mi lazım? Geliştirme sırasında tam özellik erişimi için [geçici lisans isteyin](https://purchase.groupdocs.com/temporary-license/)  
+- **Üretim lisansı**: Dağıtıma hazır olduğunuzda, ihtiyaçlarınıza göre [lisans satın alın](https://purchase.groupdocs.com/buy)  
 
-**Ek yararlı bağlantılar**
+**Ek faydalı bağlantılar**
 
 - [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)  
 - [API Reference Guide](https://reference.groupdocs.com/signature/java/)  
@@ -156,11 +171,11 @@ GroupDocs esnek lisanslama seçenekleri sunar:
 - [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)  
 - [Purchase Full License](https://purchase.groupdocs.com/buy)
 
-İpucu: Çözümünüzü prototiplemek için ücretsiz deneme sürümüyle başlayın, ardından tam sürüme geçmeden önce daha fazla zamana ihtiyacınız olursa geçici bir lisans alın.
+İpucu: Çözümünüzü prototiplemek için ücretsiz denemeyi kullanın, ardından tam lisans almadan önce daha fazla zamana ihtiyaç duyarsanız geçici lisansı alın.
 
-## GroupDocs.Signature for Java'ı Kurma
+## GroupDocs.Signature for Java kurulumu
 
-`Signature` sınıfı, GroupDocs.Signature'daki tüm imzalama işlemlerinin giriş noktasıdır. Belleğe yüklenmiş tek bir dosyayı temsil eder ve görsel imzalar ekleme, arama veya silme yöntemleri sunar.
+`Signature` sınıfı, GroupDocs.Signature’daki tüm imzalama işlemlerinin giriş noktasıdır. Tek bir dosyayı belleğe yükler ve görsel imzalar ekleme, arama ya da silme metodlarını sunar.
 
 TAR dosyanıza işaret eden bir `Signature` örneği oluşturun. Bu, dosyayı işleme için belleğe yükler:
 ```java
@@ -174,35 +189,36 @@ public class InitializeSignature {
 }
 ```
 
-**Önemli**: İşiniz bittiğinde `Signature` nesnesini her zaman kapatın (veya try‑with‑resources kullanın) aksi takdirde büyük dosyalarda bellek sızıntısı oluşur.
+**Önemli**: `Signature` nesnesini işiniz bittiğinde her zaman kapatın (ya da try‑with‑resources kullanın) aksi takdirde büyük dosyalarda bellek sızıntısı oluşur.
 
-## Barkod ve QR Kod İmzaları Arasındaki Seçim
+## Barkod ve QR kod imzaları arasında seçim
 
-Hangi imza tipini kullanacağınıza emin değil misiniz? İşte hızlı bir karar rehberi:
+Hangi imza tipini seçeceğinizden emin değil misiniz? İşte hızlı bir karar rehberi:
 
 | Faktör | Barkod (Code128) | QR Kodu |
 |--------|-------------------|---------|
-| **Veri Kapasitesi** | ~80 karakter | 4.296 alfanümerik karaktere kadar |
-| **Okunabilirlik** | Barkod tarayıcı gerekir | Akıllı telefon kameralarıyla çalışır |
-| **Alan Verimliliği** | Yatayda daha kompakt | Kare alan gerekir |
-| **En İyi Kullanım** | Basit kimlikler, zaman damgaları, kısa kodlar | URL'ler, JSON verileri, detaylı meta veri |
-| **Hata Düzeltme** | Minimum | Dahili (hasardan kurtulabilir) |
+| **Veri kapasitesi** | ~80 karakter | 4.296 alfanümerik karaktere kadar |
+| **Okunabilirlik** | Barkod tarayıcı gerektirir | Akıllı telefon kameralarıyla çalışır |
+| **Alan verimliliği** | Yatayda daha kompakt | Kare alan gerekir |
+| **En uygun kullanım** | Basit kimlikler, zaman damgaları, kısa kodlar | URL’ler, JSON verisi, detaylı meta veri |
+| **Hata düzeltme** | Minimal | Dahili (hasardan kurtulabilir) |
 
 **Genel kural**:  
 - Hızlı, taranabilir kimlikler veya zaman damgaları için **barkod** kullanın.  
-- Daha zengin veri gömmek veya akıllı telefon uyumluluğu istiyorsanız **QR kod** tercih edin.  
-- En yüksek yedeklilik ve denetlenebilirlik için ikisini birleştirin.
+- Daha zengin veri eklemeniz gerektiğinde veya akıllı telefon uyumluluğu istediğinizde **QR kod** kullanın.  
+- Maksimum yedeklilik ve denetlenebilirlik için ikisini birleştirin.
 
-## Uygulama Kılavuzu
+## Uygulama rehberi
 
-### TAR Arşivini Barkod ile İmzalama
+### Barkod ile TAR arşivi imzalama
 
-#### Neden Barkod ile İmzalanır?
-Barkodlar, kompakt ve taranabilir oldukları için TAR arşivleri için idealdir. Hızlı doğrulama amacıyla zaman damgaları, sürüm numaraları, kullanıcı kimlikleri veya kontrol toplamı değerleri ekleyebilirsiniz.
+#### Neden barkod ile imzalanmalı?
+
+Barkodlar, TAR arşivleri için kompakt ve taranabilir oldukları için idealdir. Zaman damgaları, sürüm numaraları, kullanıcı kimlikleri veya kontrol toplamı gibi bilgileri hızlı doğrulama amacıyla ekleyebilirsiniz.
 
 #### Adımlar
 
-**1. Initialise Signature**  
+**1. İmzayı başlat**  
 İlk olarak TAR dosyası için bir `Signature` örneği oluşturun:
 ```java
 import com.groupdocs.signature.Signature;
@@ -210,9 +226,9 @@ import com.groupdocs.signature.Signature;
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
-**İpucu**: 100 MB'den büyük TAR dosyaları için imzalama işlemini arka plan iş parçacığında çalıştırarak UI'nin yanıt vermesini sağlayın.
+**İpucu**: 100 MB üzerindeki büyük TAR dosyaları için imzalama işlemini arka plan iş parçacığında çalıştırarak UI’nın yanıt vermesini sağlayın.
 
-**2. Configure Barcode Options**  
+**2. Barkod seçeneklerini yapılandır**  
 `BarcodeSignature` sınıfı barkod içeriğini, tipini ve konumunu tanımlar. `BarcodeOptions` nesnesi bu ayarları tutar:
 ```java
 import com.groupdocs.signature.options.sign.BarcodeSignOptions;
@@ -223,7 +239,7 @@ bcOptions.setLeft(100);  // X position in pixels
 bcOptions.setTop(100);   // Y position in pixels
 ```
 
-`BarcodeOptions` görsel görünümü ve barkodun konumunu belirlemenizi sağlar.  
+`BarcodeOptions` barkodun görsel görünümünü ve konumunu belirlemenizi sağlar.  
 `BarcodeTypes` ise `Code128`, `Code39` gibi desteklenen barkod simgelerini listeleyen bir enum’dur.
 
 **Ne oluyor?**  
@@ -239,8 +255,8 @@ bcOptions.setForeColor(Color.BLACK);  // Barcode color
 bcOptions.setBackgroundColor(Color.WHITE);  // Background color
 ```
 
-**3. Sign and Save the Document**  
-İmzalama işlemini yürütün ve imzalı arşivi kaydedin:
+**3. İmzala ve belgeyi kaydet**  
+İmzalama işlemini yürütün ve imzalı arşivi saklayın:
 ```java
 import com.groupdocs.signature.domain.SignResult;
 
@@ -249,23 +265,24 @@ SignResult signResult = signature.sign(outputFilePath, bcOptions);
 ```
 
 Dönen `SignResult` nesnesi işlemin başarılı olup olmadığını ve imzanın nerede yer aldığını bildirir.  
-**Yaygın tuzak**: `sign()` çağrısı öncesinde çıktı klasörünün var olduğundan emin olun. Kütüphane otomatik olarak üst klasörleri oluşturmaz.
+**Yaygın tuzak**: `sign()` çağırmadan önce çıktı dizininin var olduğundan emin olun. Kütüphane otomatik olarak üst dizinleri oluşturmaz.
 
-### TAR Arşivini QR Kod ile İmzalama
+### QR kod ile TAR arşivi imzalama
 
-#### QR Kodları Ne Zaman Kullanılır
-QR kodlar, yapılandırılmış veri (JSON, XML) depolamanız, doğrulama URL’leri eklemeniz veya akıllı telefon taraması sağlamanız gerektiğinde öne çıkar.
+#### QR kod ne zaman tercih edilmeli?
+
+QR kodlar, yapılandırılmış veri (JSON, XML) depolamanız, doğrulama URL’leri eklemeniz veya akıllı telefon taraması gerektiren senaryolar için idealdir.
 
 #### Adımlar
 
-**1. Initialise Signature**  
-Önceki adımla aynı—`Signature` örneğinizi oluşturun:
+**1. İmzayı başlat**  
+Önceki adımda olduğu gibi `Signature` örneğinizi oluşturun:
 ```java
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
-**2. Configure QR Code Options**  
-Gömmek istediğiniz veriyi içeren QR kodunu ayarlayın:
+**2. QR kod seçeneklerini yapılandır**  
+Eklemek istediğiniz veriyi içeren QR kodunuzu ayarlayın:
 ```java
 import com.groupdocs.signature.options.sign.QrCodeSignOptions;
 import com.groupdocs.signature.domain.qrcodes.QrCodeTypes;
@@ -277,43 +294,44 @@ qrOptions.setTop(400);   // Y position
 
 `QrCodeTypes` oluşturulacak QR kod tipini belirten bir enum’dur (standart QR, DataMatrix, Aztec vb.).
 
-**Gerçek‑dünya örnek** – doğrulama verileri içeren bir JSON yükü gömün:
+**Gerçek dünya örneği** – doğrulama verileri içeren bir JSON yüklemesi:
 ```java
 String verificationData = "{\"version\":\"1.0\",\"timestamp\":\"2025-01-02T10:30:00Z\",\"user\":\"john.doe\"}";
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(verificationData, QrCodeTypes.QR);
 ```
 
-**QR Kod tip seçenekleri:**  
+**QR kod tip seçenekleri:**  
 - `QrCodeTypes.QR` – standart QR kod (en yaygın)  
 - `QrCodeTypes.DataMatrix` – küçük veri için daha kompakt  
 - `QrCodeTypes.Aztec` – eğimli yüzeyler için uygun  
 
-**3. Sign and Save the Document**  
-Barkod adımına benzer şekilde imzalama sürecini tamamlayın:
+**3. İmzala ve belgeyi kaydet**  
+Barkodla aynı şekilde imzalama sürecini tamamlayın:
 ```java
 String outputFilePath = "output/path/SignWithQRCode/archive_signed.tar";
 SignResult signResult = signature.sign(outputFilePath, qrOptions);
 ```
 
-**Performans notu**: QR kod üretimi, hata düzeltme hesaplamaları nedeniyle barkoddan biraz daha yavaştır, fakat çoğu senaryo için fark birkaç milisaniyedir.
+**Performans notu**: QR kod üretimi, hata‑düzeltme hesaplamaları nedeniyle barkoddan biraz daha yavaştır, ancak çoğu senaryo için fark birkaç milisaniyedir.
 
-### TAR Arşivini Çoklu İmzalarla İmzalama
+### Çoklu imzalarla TAR arşivi imzalama
 
-#### Çoklu İmzalar Neden Kullanılır?
+#### Neden birden fazla imza kullanılmalı?
+
 - **Yedeklilik** – bir imza hasar görürse diğeri hâlâ doğrulanabilir.  
-- **Farklı izleyiciler** – barkodlar tarayıcılar için, QR kodlar akıllı telefonlar için.  
+- **Farklı hedef kitleler** – barkodlar tarayıcılar için, QR kodlar akıllı telefonlar için.  
 - **Katmanlı veri** – barkodda hızlı kimlik, QR kodda detaylı meta veri.  
 - **Uyumluluk** – bazı düzenlemeler birden fazla doğrulama yöntemi gerektirir.
 
 #### Adımlar
 
-**1. Initialise Signature**  
-Önceki örneklerdeki gibi başlatın:
+**1. İmzayı başlat**  
+Önceki adımlardaki gibi:
 ```java
 final Signature signature = new Signature("path/to/your/archive.tar");
 ```
 
-**2. Configure Multiple Options**  
+**2. Çoklu seçenekleri yapılandır**  
 Her iki imza tipini oluşturun ve bir listeye ekleyin:
 ```java
 import java.util.ArrayList;
@@ -335,54 +353,54 @@ listOptions.add(bcOptions);
 listOptions.add(qrOptions);
 ```
 
-**İpucu**: İmzaları stratejik olarak konumlandırın—köşeler veya arşivde çakışmayan alanlar en iyisidir.
+**İpucu**: İmzaları stratejik konumlandırın—köşeler ya da arşivde çakışmayan alanlar en iyisidir.
 
-**3. Sign and Save the Document**  
+**3. İmzala ve belgeyi kaydet**  
 Seçenek listesini `sign()` metoduna gönderin:
 ```java
 String outputFilePath = "output/path/SignWithMultipleSignatures/archive_signed.tar";
 SignResult signResult = signature.sign(outputFilePath, listOptions);
 ```
 
-GroupDocs her imzayı sırayla işler ve belge meta verisine gömer. Listedeki sıralama doğrulama sonucunu etkilemez.
+GroupDocs her imzayı sırasıyla işler ve belge meta verisine ekler. Listedeki sıra doğrulama sürecini etkilemez.
 
-## Gerçek Dünya Kullanım Senaryoları
+## Gerçek‑dünya kullanım senaryoları
 
-### 1. Yazılım Dağıtım Boru Hatları
+### 1. Yazılım dağıtım hatları
 **Senaryo**: Yazılım paketlerini TAR arşivi olarak dağıtmak ve değiştirilmediğini kanıtlamak.  
-**Çözüm**: JSON payload içeren bir QR kodla her sürümü imzalayın:
+**Çözüm**: Her sürümü, JSON payload içeren bir QR kodla imzalayın:
 ```java
 String releaseData = String.format(
     "{\"version\":\"%s\",\"buildDate\":\"%s\",\"sha256\":\"%s\"}",
     version, buildDate, checksum
 );
 ```  
-**Neden işe yarar**: Kullanıcılar QR kodu tarayarak paket bütünlüğünü kurulumdan önce doğrular—GPG anahtarı yönetimine gerek kalmaz.
+**Neden işe yarar**: Kullanıcılar QR kodu tarayarak paket bütünlüğünü kurulumdan önce doğrulayabilir—GPG anahtar yönetimine gerek kalmaz.
 
-### 2. Otomatik Yedekleme Sistemleri
+### 2. Otomatik yedekleme sistemleri
 **Senaryo**: Günlük yedek TAR arşivlerinin denetim izlerine ihtiyacı var.  
 **Çözüm**: Yedek zaman damgası ve sunucu kimliği içeren bir barkod ekleyin:
 ```java
 String backupId = String.format("SRV01-%s", LocalDateTime.now().format(formatter));
 BarcodeSignOptions bcOptions = new BarcodeSignOptions(backupId, BarcodeTypes.Code128);
 ```  
-**Neden işe yarar**: Arşivin otantikliği, arşivi açmadan görsel olarak hızlıca doğrulanabilir.
+**Neden işe yarar**: Arşivin kimliği, arşivi açmadan hızlı görsel doğrulama sağlar.
 
-### 3. Belge Yönetim Sistemleri
-**Senaryo**: Arşiv olarak saklanan yasal belgelerin tahrifattan korunması gerekiyor.  
+### 3. Belge yönetim sistemleri
+**Senaryo**: Arşivlerde saklanan hukuki belgelerin tahrif edilmezliğini kanıtlamak.  
 **Çözüm**: Aynı arşivde hem barkod (hızlı tarama) hem QR kod (detaylı meta veri) kullanın.
 
-### 4. Tedarik Zinciri Takibi
-**Senaryo**: Dosya paketlerinin birden çok organizasyon arasında izlenmesi.  
-**Çözüm**: Takip URL’si içeren QR kodları gömün; bu URL bir doğrulama API'sine bağlanır:
+### 4. Tedarik zinciri takibi
+**Senaryo**: Dosya paketlerini birden çok organizasyon arasında izlemek.  
+**Çözüm**: Takip URL’lerine bağlanan QR kodları ekleyin; bu URL’ler bir doğrulama API’sine yönlendirir:
 ```java
 String trackingUrl = "https://verify.yourcompany.com/track/" + uniqueId;
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(trackingUrl, QrCodeTypes.QR);
 ```  
 
-## Yaygın Sorunlar ve Çözümler
+## Yaygın sorunlar ve çözümler
 
-### Sorun 1: İmzalama Sonrası “Signature Not Found”
+### Sorun 1: İmza “bulunamadı” hatası
 **Belirti**: `sign()` başarılı, ancak imza görünmüyor.  
 **Nedenler**: Yanlış konum, orijinal dosyanın üzerine yazma, TAR görüntüleyici sınırlamaları.  
 **Çözüm**:  
@@ -399,9 +417,9 @@ if (result.getSucceeded().size() > 0) {
 String absolutePath = new File(outputFilePath).getAbsolutePath();
 ```  
 
-### Sorun 2: Büyük TAR Dosyalarında OutOfMemoryError
+### Sorun 2: Büyük TAR dosyalarında OutOfMemoryError
 **Belirti**: 500 MB üzerindeki arşivlerde JVM çöküyor.  
-**Çözüm**: Yığın boyutunu artırın (`-Xmx`) ve `Signature` nesnelerini hızlıca serbest bırakın:  
+**Çözüm**: Yığın boyutunu artırın (`-Xmx`) ve `Signature` nesnelerini hemen serbest bırakın:  
 ```bash
 java -Xmx2G -jar your-application.jar
 ```  
@@ -412,9 +430,9 @@ Veya parçalı işleme uygulayın:
 // rather than embedding in the TAR itself
 ```  
 
-### Sorun 3: İmza Verisi Kesiliyor
-**Belirti**: Uzun stringler kesiliyor.  
-**Neden**: Code128 kapasitesini (≈ 80 karakter) aştığınız için.  
+### Sorun 3: İmza verisi kesiliyor
+**Belirti**: Uzun metinler kesiliyor.  
+**Neden**: Code128 kapasitesini (≈ 80 karakter) aştı.  
 **Çözüm**: Daha uzun yükler için QR kodlara geçin:  
 ```java
 // Bad: Too much data for Code128
@@ -424,8 +442,8 @@ BarcodeSignOptions bcOptions = new BarcodeSignOptions(veryLongString, BarcodeTyp
 QrCodeSignOptions qrOptions = new QrCodeSignOptions(veryLongString, QrCodeTypes.QR);
 ```  
 
-### Sorun 4: Lisans Doğrulama Hataları
-**Belirti**: `LicenseException` veya üretimde “Trial version” uyarıları.  
+### Sorun 4: Lisans doğrulama hataları
+**Belirti**: `LicenseException` veya üretimde “Trial version” uyarısı.  
 **Çözüm**: Herhangi bir `Signature` nesnesi oluşturmadan önce lisansı yükleyin:  
 ```java
 import com.groupdocs.signature.License;
@@ -437,12 +455,12 @@ license.setLicense("path/to/GroupDocs.Signature.lic");
 Signature signature = new Signature("document.tar");
 ```  
 
-**İpucu**: Lisansı uygulama başlangıcında bir kez yükleyin, her imzalama işleminden önce değil.
+**İpucu**: Lisansı uygulama başlangıcında bir kez yükleyin, her imzalama işleminde değil.
 
-### Sorun 5: Konum Değerleri Beklenildiği Gibi Çalışmıyor
+### Sorun 5: Konum değerleri beklenildiği gibi çalışmıyor
 **Belirti**: İmzalar beklenmedik yerlere yerleşiyor.  
-**Neden**: Piksel ile nokta birimi karışıklığı.  
-**Çözüm**: GroupDocs varsayılan olarak piksel kullanır. Kesin yerleşim için:  
+**Neden**: Piksel ve nokta birimlerinin karışması.  
+**Çözüm**: GroupDocs varsayılan olarak piksel kullanır. Kesin konum için:  
 ```java
 bcOptions.setLeft(100);  // 100 pixels from left edge
 bcOptions.setTop(100);   // 100 pixels from top edge
@@ -452,9 +470,9 @@ bcOptions.setHorizontalAlignment(HorizontalAlignment.Center);
 bcOptions.setVerticalAlignment(VerticalAlignment.Center);
 ```  
 
-## Entegrasyon Desenleri
+## Entegrasyon desenleri
 
-### Desen 1: REST API Servisi
+### Desen 1: REST API servisi
 İmzalamayı bir mikro hizmet olarak sunun:  
 ```java
 @RestController
@@ -491,8 +509,8 @@ public class SignatureController {
 }
 ```  
 
-### Desen 2: Toplu İşleme Boru Hattı
-Birden fazla arşivi bir hat içinde imzalayın:  
+### Desen 2: Toplu işleme hattı
+Birden çok arşivi toplu olarak imzalayın:  
 ```java
 public class BatchSigner {
     
@@ -520,7 +538,7 @@ public class BatchSigner {
 }
 ```  
 
-### Desen 3: Olay‑Yönelimli Mimari
+### Desen 3: Olay‑tabanlı mimari
 Arşiv oluşturulduğunda imzalamayı tetikleyin:  
 ```java
 @Component
@@ -539,10 +557,10 @@ public class ArchiveCreatedListener {
 }
 ```  
 
-## Performans Düşünceleri
+## Performans değerlendirmeleri
 
-### Bellek Yönetimi
-**Sorun**: Her `Signature` örneği dosyanın tamamını belleğe yükler.  
+### Bellek yönetimi
+**Sorun**: Her `Signature` örneği tüm dosyayı belleğe yükler.  
 **En iyi uygulamalar**:  
 ```java
 // Bad: Creating multiple instances for same file
@@ -556,33 +574,33 @@ try (Signature signature = new Signature("file.tar")) {
 }
 ```  
 
-### Dosya Boyutu Optimizasyonu
+### Dosya boyutu optimizasyonu
 - **Küçük dosyalar (< 10 MB)** – senkron olarak imzalayın.  
 - **Orta dosyalar (10‑100 MB)** – arka plan iş parçacıkları kullanın.  
-- **Büyük dosyalar (> 100 MB)** – meta veriyi ayrı olarak imzalamayı veya akış API'lerini kullanmayı düşünün.
+- **Büyük dosyalar (> 100 MB)** – meta veriyi ayrı imzalayın veya akış API’lerini değerlendirin.
 
-### İmza Karmaşıklığı (standart bir sunucuda yaklaşık süreler)
+### İmza karmaşıklığı (standart bir sunucuda yaklaşık süreler)
 
-| İmza Tipi | Belge Başına Süre |
+| İmza tipi | Belge başına süre |
 |-----------|-------------------|
 | Tek barkod | 50‑100 ms |
 | Tek QR kod | 100‑200 ms |
 | Çoklu imzalar | 150‑300 ms |
 
-**Optimizasyon ipucu**: Binlerce dosya için bir iş havuzu (thread pool) kullanarak toplu işlem yapın (yukarıdaki toplu işleme desenine bakın).
+**Optimizasyon ipucu**: Binlerce dosya için toplu işleyin ve bir iş parçacığı havuzu kullanın (yukarıdaki toplu işleme desenine bakın).
 
-### Kütüphane Güncellemeleri
+### Kütüphane güncellemeleri
 GroupDocs düzenli performans iyileştirmeleri yayınlar. Büyük dağıtımlardan önce her zaman [changelog](https://releases.groupdocs.com/signature/java/) kontrol edin.
 
 **Güncelleme stratejisi**:  
-1. Yeni sürümleri test ortamında deneyin.  
-2. Kırıcı değişiklikleri inceleyin.  
+1. Yeni sürümleri sahnede test edin.  
+2. Kırılma değişikliklerini inceleyin.  
 3. Gerçek dosyalarla benchmark yapın.  
 4. Kademeli olarak dağıtın.
 
-## Üretim İçin En İyi Uygulamalar
+## Üretim için en iyi uygulamalar
 
-**1. Lisans Durumunu Doğrulayın**  
+**1. Lisans durumunu doğrula**  
 ```java
 License license = new License();
 if (!license.isLicensed()) {
@@ -590,7 +608,7 @@ if (!license.isLicensed()) {
 }
 ```  
 
-**2. Sağlam Hata Yönetimi Uygulayın**  
+**2. Sağlam hata yönetimi uygula**  
 ```java
 try {
     signature.sign(outputPath, options);
@@ -601,7 +619,7 @@ try {
 }
 ```  
 
-**3. Açıklayıcı İmza Verileri Kullanın**  
+**3. Açıklayıcı imza verileri kullan**  
 ```java
 // Bad: Meaningless ID
 new BarcodeSignOptions("12345678", BarcodeTypes.Code128);
@@ -614,8 +632,8 @@ String signatureData = String.format("DOC-%s-%s",
 new BarcodeSignOptions(signatureData, BarcodeTypes.Code128);
 ```  
 
-**4. İmza Formatınızı Versiyonlayın**  
-Gömülü JSON içinde bir sürüm numarası ekleyerek gelecekteki doğrulama mantığınızı koruyun:  
+**4. İmza formatını sürümle**  
+Gömülü JSON’da bir sürüm numarası ekleyerek gelecekteki doğrulama mantığını koruyun:  
 ```java
 String qrData = String.format(
     "{\"v\":\"1.0\",\"type\":\"archive\",\"timestamp\":\"%s\"}", 
@@ -623,50 +641,50 @@ String qrData = String.format(
 );
 ```  
 
-**5. Gerçek‑Dünya Dosyalarla Test Edin** – üretim‑boyutlu arşivlerle her zaman doğrulama yapın; bellek ve performans sorunlarını erken yakalayın.
+**5. Gerçek‑dünya dosyalarla test et** – üretim‑boyutlu arşivlerle her zaman doğrulama yapın; bellek ve performans sorunlarını erken yakalayın.
 
 ## Sonuç
 
-Artık **digital signature java**'yı barkod ve QR kodlarla nasıl uygulayacağınızı sağlam bir temelle öğrendiniz. Şimdi neler öğrendiniz:
+Artık **how to sign java** yöntemini barkod ve QR kodlarla uygulamak için sağlam bir temele sahipsiniz. Öğrendikleriniz:
 
 - TAR arşivlerini (ve diğer belgeleri) barkod ve QR kod imzalarıyla nasıl imzalayacağınız  
-- Belirli ihtiyaçlara göre hangi imza tipinin ne zaman seçileceği  
+- İhtiyaca göre hangi imza tipinin ne zaman seçileceği  
 - Üretime geçmeden önce yaygın sorunların nasıl giderileceği  
-- REST API'leri, toplu işleme ve olay‑tabanlı sistemler için gerçek‑dünya entegrasyon desenleri  
-- Her boyuttaki dosya için performans optimizasyon teknikleri  
+- REST API’ler, toplu işleme ve olay‑tabanlı sistemler için gerçek‑dünya entegrasyon desenleri  
+- Her boyuttaki dosya için performans iyileştirme teknikleri  
 
 **Sonraki adımlar**:  
 1. `search()` metodu ile imza doğrulamayı keşfedin.  
 2. Diğer belge formatlarını deneyin—GroupDocs.Signature PDF, DOCX, XLSX, PNG ve daha fazlasını destekler.  
-3. İmza görünümünü (renkler, boyutlar, kenarlıklar) özelleştirin.  
+3. İmza görünümünü (renk, boyut, kenarlık) özelleştirin.  
 4. İmzaları programlı olarak doğrulayan bir API oluşturun.
 
-GroupDocs.Signature’ın gücü bu kılavuzun çok ötesindedir. Gelişmiş özellikler (metin imzaları, görüntü imzaları, meta veri çıkarma vb.) için [tam dokümantasyonu](https://docs.groupdocs.com/signature/java/) inceleyin.
+GroupDocs.Signature’ın gücü bu kılavuzun çok ötesine geçer. Gelişmiş özellikler (metin imzaları, görüntü imzaları, meta veri çıkarma vb.) için [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/) sayfasına göz atın.
 
 Sorularınız mı var ya da uygulamanızı paylaşmak mı istiyorsunuz? Diğer geliştiricilerden yardım almak için GroupDocs topluluk forumlarına katılın.
 
-## Sık Sorulan Sorular
+## Sıkça sorulan sorular
 
 **S: TAR arşivleri dışındaki belgeleri imzalayabilir miyim?**  
-C: Kesinlikle! GroupDocs.Signature 50'den fazla dosya formatını destekler; PDF, DOCX, XLSX, PNG ve daha fazlası. `Signature` yapıcısındaki dosya uzantısını değiştirerek istediğiniz formatı kullanabilirsiniz.
+C: Kesinlikle! GroupDocs.Signature 50+ dosya formatını destekler; PDF, DOCX, XLSX, PNG ve daha fazlası. `Signature` yapıcısındaki dosya uzantısını değiştirerek istediğiniz formatı kullanabilirsiniz.
 
-**S: İmzalama sonrası imzaları nasıl doğrularım?**  
-C: İmzaları bulmak ve doğrulamak için `search()` metodunu kullanın:  
+**S: İmzalamadan sonra imzaları nasıl doğrularım?**  
+C: `search()` metodunu kullanarak imzaları bulup doğrulayabilirsiniz:  
 ```java
 Signature signature = new Signature("signed-document.tar");
 BarcodeSearchOptions searchOptions = new BarcodeSearchOptions();
 List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, searchOptions);
 ```  
 
-**S: İmzalar sahtecilik karşısında ne kadar güvenli?**  
-C: Barkod ve QR kod imzaları görsel doğrulama sağlar ancak geleneksel dijital sertifikalar kadar kriptografik olarak güçlü değildir. En yüksek güvenlik için bunları geleneksel PKI ile birleştirin veya imza hash'lerini harici bir veritabanında saklayın.
+**S: İmzalar sahte müdahalelere karşı güvenli mi?**  
+C: Barkod ve QR kod imzaları görsel doğrulama sağlar ancak kriptografik sertifikalar kadar güçlü değildir. Maksimum güvenlik için bunları geleneksel PKI ile birleştirin veya imza hash’lerini harici bir veritabanında saklayın.
 
 **S: Bir imzada saklayabileceğim maksimum veri nedir?**  
 - Code128 barkod: ~80 alfanümerik karakter  
 - QR kod (Version 40): 4.296 alfanümerik karakter veya 7.089 sayısal karakter  
 
 **S: İmza görünümünü özelleştirebilir miyim?**  
-C: Evet! Renkler, boyutlar, kenarlıklar ve daha fazlasını kontrol edebilirsiniz:  
+C: Evet! Renk, boyut, kenarlık ve daha fazlasını kontrol edebilirsiniz:  
 ```java
 bcOptions.setForeColor(Color.BLUE);
 bcOptions.setBackgroundColor(Color.YELLOW);
@@ -675,22 +693,22 @@ bcOptions.getBorder().setColor(Color.RED);
 bcOptions.getBorder().setWeight(2);
 ```  
 
-**S: Bir dosyayı iki kez imzalamak ne olur?**  
-C: Her `sign()` çağrısı yeni bir imza ekler. Mevcut bir imzayı değiştirmek istiyorsanız önce `delete()` metodu ile silin.
+**S: Bir dosyayı iki kez imzalarım ne olur?**  
+C: Her `sign()` çağrısı yeni bir imza ekler. Mevcut bir imzayı değiştirmek isterseniz önce `delete()` metodu ile silin.
 
 **S: Büyük dosyalarla bellek sorunu yaşamadan nasıl başa çıkabilirim?**  
-C: JVM yığınını artırın (`-Xmx`), `Signature` nesnelerini hızlıca serbest bırakın ve çok‑gigabaytlık arşivler için meta veriyi ayrı olarak imzalamayı düşünün.
+C: JVM yığınını (`-Xmx`) artırın, `Signature` nesnelerini hızlıca serbest bırakın ve çok‑gigabaytlık arşivler için meta veriyi ayrı imzalamayı düşünün.
 
-**S: Belgeleri imzalamak için internet bağlantısına ihtiyacım var mı?**  
+**S: Belgeleri imzalamak için internet bağlantısı gerekli mi?**  
 C: Hayır. Kütüphane kurulduktan sonra tamamen çevrim dışı çalışır.
 
 ---
 
-**Son Güncelleme:** 2026-05-21  
+**Son Güncelleme:** 2026-10-06  
 **Test Edilen Versiyon:** GroupDocs.Signature 23.12 for Java  
 **Yazar:** GroupDocs
 
-## İlgili Eğitimler
+## İlgili öğreticiler
 
 - [Digital Signature in Java - Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
 - [Java Signature Verification Tutorial - Validate Documents with Text, Barcode & QR Codes](/signature/java/search-verification/groupdocs-signature-java-document-verification-guide/)
