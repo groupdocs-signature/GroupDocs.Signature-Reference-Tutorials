@@ -509,12 +509,6 @@ A: Tanda tangan digital yang memenuhi standar seperti X.509 diakui secara hukum 
 **Tested With:** GroupDocs.Signature 23.10 for Java  
 **Author:** GroupDocs
 
-```java
-DigitalVerifyOptions verifyOptions = new DigitalVerifyOptions();
-VerificationResult result = signature.verify(verifyOptions);
-System.out.println("Valid: " + result.isValid());
-```
-
 ## Tutorial Terkait
 
 - [How to Add Digital Signature in Java - Complete GroupDocs Tutorial](/signature/java/getting-started/groupdocs-signature-java-digital-setup-guide/)  

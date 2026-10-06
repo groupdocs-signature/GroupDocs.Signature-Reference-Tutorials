@@ -416,27 +416,8 @@ A: Digital signatures that comply with X.509 standards are recognized in most ju
 **Tested With:** GroupDocs.Signature 23.10 for Java  
 **Author:** GroupDocs  
 
-
-
-
-
-
-```java
-DigitalVerifyOptions verifyOptions = new DigitalVerifyOptions();
-VerificationResult result = signature.verify(verifyOptions);
-System.out.println("Valid: " + result.isValid());
-```
-
 ## Related Tutorials
 
 - [Add Digital Signature PDF in Java with GroupDocs](/signature/java/digital-signatures/implement-digital-signing-groupdocs-signature-java/)
 - [How to Sign PDF in Java with GroupDocs.Signature – Complete Guide to Certificate Loading and Document Signing](/signature/java/digital-signatures/digital-signature-loading-signing-groupdocs-java/)
 - [How to Create PDF Digital Signature in Java with GroupDocs.Signature](/signature/java/digital-signatures/digitally-sign-pdfs-groupdocs-signature-java/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

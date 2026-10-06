@@ -498,12 +498,6 @@ A: X.509 등 표준을 충족하는 디지털 서명은 대부분의 관할구�
 **Tested With:** GroupDocs.Signature 23.10 for Java  
 **Author:** GroupDocs
 
-```java
-DigitalVerifyOptions verifyOptions = new DigitalVerifyOptions();
-VerificationResult result = signature.verify(verifyOptions);
-System.out.println("Valid: " + result.isValid());
-```
-
 ## Related Tutorials
 
 - [How to Add Digital Signature in Java - Complete GroupDocs Tutorial](/signature/java/getting-started/groupdocs-signature-java-digital-setup-guide/)  
