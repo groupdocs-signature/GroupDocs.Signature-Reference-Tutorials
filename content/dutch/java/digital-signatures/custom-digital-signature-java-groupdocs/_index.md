@@ -510,12 +510,6 @@ A: Digital signatures that meet standards like X.509 are legally recognized in m
 **Tested With:** GroupDocs.Signature 23.10 for Java  
 **Author:** GroupDocs
 
-```java
-DigitalVerifyOptions verifyOptions = new DigitalVerifyOptions();
-VerificationResult result = signature.verify(verifyOptions);
-System.out.println("Valid: " + result.isValid());
-```
-
 ## Gerelateerde tutorials
 
 - [How to Add Digital Signature in Java - Complete GroupDocs Tutorial](/signature/java/getting-started/groupdocs-signature-java-digital-setup-guide/)

@@ -467,12 +467,6 @@ A: ลายเซ็นดิจิทัลที่ตรงตามมา�
 **Tested With:** GroupDocs.Signature 23.10 for Java  
 **Author:** GroupDocs
 
-```java
-DigitalVerifyOptions verifyOptions = new DigitalVerifyOptions();
-VerificationResult result = signature.verify(verifyOptions);
-System.out.println("Valid: " + result.isValid());
-```
-
 ## บทเรียนที่เกี่ยวข้อง
 - [How to Add Digital Signature in Java - Complete GroupDocs Tutorial](/signature/java/getting-started/groupdocs-signature-java-digital-setup-guide/)
 - [Add Digital Signature to PDF Java](/signature/java/digital-signatures/implement-digital-signatures-pdf-groupdocs-java/)
