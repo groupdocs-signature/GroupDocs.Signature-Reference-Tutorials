@@ -1,29 +1,32 @@
 ---
 categories:
 - Document Signatures
-date: '2026-06-21'
-description: Lär dig hur du skapar QR-kod signatur, lägger till, verifierar och hanterar
-  streckkodssignaturer i PDF-filer med GroupDocs.Signature för Java.
+date: '2026-11-01'
+description: Lär dig hur du lägger till barcode i PDF, skapar QR code‑signatur, verifierar
+  och hanterar barcode‑signaturer i PDF‑filer med GroupDocs.Signature for Java.
 keywords:
-- create qr code signature
-- how to add barcode
-- barcode document verification
 - add barcode to pdf
+- how to add qr code to pdf
+- barcode signature java
 - groupdocs signature java
-lastmod: '2026-06-21'
-linktitle: Streckkodssignaturer
+- pdf barcode signing
+lastmod: '2026-11-01'
+linktitle: Barcode‑signaturer
+og_description: Lär dig hur du lägger till barcode i PDF, skapar QR code‑signatur,
+  verifierar och hanterar barcode‑signaturer i PDF‑filer med GroupDocs.Signature for
+  Java.
+og_image_alt: 'Guide: add barcode to pdf using GroupDocs.Signature Java API'
+og_title: Hur man lägger till barcode i PDF med GroupDocs.Signature for Java
 schemas:
 - author: GroupDocs
-  dateModified: '2026-06-21'
+  dateModified: '2026-11-01'
   description: Learn how to create QR code signature, add, verify and manage barcode
     signatures in PDFs using GroupDocs.Signature for Java.
-  headline: Java create qr code signature Tutorial – Add, Verify & Manage Barcodes
-    in PDFs
+  headline: Java Document Signature Tutorial – Add, Verify & Manage Barcodes in PDFs
   type: TechArticle
 - description: Learn how to create QR code signature, add, verify and manage barcode
     signatures in PDFs using GroupDocs.Signature for Java.
-  name: Java create qr code signature Tutorial – Add, Verify & Manage Barcodes in
-    PDFs
+  name: Java Document Signature Tutorial – Add, Verify & Manage Barcodes in PDFs
   steps:
   - name: Initialise the Signature handler
     text: '`Signature` is the entry point for all signing, searching and verification
@@ -33,7 +36,7 @@ schemas:
     text: '`BarcodeSignOptions` is the configuration class that defines barcode type,
       content, dimensions, colors, and placement on the page. > **Definition anchor:**
       `BarcodeSignOptions` is the options class used to specify every visual and data
-      attribute of a barcode signature before it is applied to a docum'
+      attribute of a barcode signature before it is applied to a document.'
   - name: Sign and save the document
     text: Calling `sign` writes the barcode onto the document and returns a result
       object that tells you whether the operation succeeded and where the barcode
@@ -63,160 +66,141 @@ tags:
 - pdf-signing
 - java-tutorial
 - document-security
-title: Java skapa QR-kod signaturhandledning – Lägg till, verifiera och hantera streckkoder
-  i PDF-filer
+- add barcode to pdf
+title: Hur man lägger till barcode i PDF med GroupDocs.Signature for Java
 type: docs
 url: /sv/java/barcode-signatures/
 weight: 4
 ---
 
-# Java skapa QR‑kod signaturhandledning: Lägg till, verifiera & hantera streckkoder i PDF‑filer
+# Hur man lägger till streckkod till pdf med GroupDocs.Signature för Java
 
-Att bädda in maskinläsbara data direkt i dina dokument är ett kraftfullt sätt att automatisera arbetsflöden och garantera integritet. I den här **Java create QR code signature**‑handledningen kommer du att upptäcka hur du på ett säkert sätt kodar produkt‑ID:n, spårningsnummer eller verifieringskoder i PDF‑filer, Word‑filer, bilder och till och med arkivformat. GroupDocs.Signature for Java förvandlar en flerstegsprocess till bara några rader kod, samtidigt som originaldokumentet förblir oförändrat.
+Inbäddning av maskinläsbara data direkt i dina PDF-filer (eller något annat stöddokument) låter dig automatisera verifiering, förenkla datainsamling och upprätthålla en manipulationssäker revisionsspår. I den här handledningen kommer du att lära dig hur du **lägger till streckkod till pdf**-filer med GroupDocs.Signature för Java, och täcker allt från QR‑kodskapande till verifiering och hantering. Biblioteket stöder mer än 55 filformat, så samma kod fungerar för Word, bilder, arkiv och mer.
 
 ## Snabba svar
-- **Vilket bibliotek krävs?** GroupDocs.Signature for Java (Maven eller direkt nedladdning).  
-- **Vilken Java‑version stöds?** Java 8 eller nyare.  
-- **Kan jag signera PDF‑, Word‑ och bildfiler?** Ja, API‑et fungerar med över **55** format.  
-- **Stöder streckkodssignaturer QR, Data Matrix och GS1?** Alla ovanstående samt Code128, Code39, HIBC osv.  
-- **Behövs en licens för produktion?** En giltig GroupDocs.Signature‑licens krävs för kommersiell användning.  
-- **Hur många kodrader behövs?** Vanligtvis 5‑10 rader för en fullständig QR‑kod‑signaturskapelse.  
+- **Vilket bibliotek behöver jag?** GroupDocs.Signature för Java (tillgängligt via Maven Central).  
+- **Vilken Java-version krävs?** Java 8 eller nyare.  
+- **Kan jag lägga till streckkod till pdf och andra format?** Ja – API:et fungerar med 55+ format, inklusive PDF, DOCX, XLSX, PNG, TAR, ZIP och mer.  
+- **Vilka streckkodstyper stöds?** QR Code, Data Matrix, Code128, Code39, HIBC, GS1 Composite och många fler.  
+- **Behöver jag en licens för produktion?** En giltig GroupDocs.Signature‑licens är obligatorisk för kommersiell användning; en gratis provperiod finns tillgänglig för testning.  
+- **Hur många kodrader krävs?** Vanligtvis 5‑10 rader för att skapa och bädda in en QR‑kod‑streckkod.
+
+## Hur man lägger till streckkod till pdf med GroupDocs.Signature för Java?
+
+Läs in mål‑PDF‑filen, konfigurera streckkodsalternativen och anropa `sign`‑metoden – det är allt du behöver. API:et skriver streckkoden direkt på dokumentet samtidigt som det bevarar den ursprungliga filstrukturen, så du får ett signerat PDF‑dokument redo för skanning eller automatiserad verifiering.
+
+Du kan lägga till en streckkod i en PDF på bara tre enkla steg: initiera `Signature`‑hanteraren, konfigurera `BarcodeSignOptions` med önskad streckkodstyp och visuella inställningar, och slutligen anropa `sign` för att bädda in streckkoden och spara utdatafilen.
 
 ## Vad är en QR‑kod‑signatur?
-En **QR code signature** är en streckkod‑baserad digital signatur som lagrar anpassade data i ett QR‑kod‑visuellt element som fästs på ett dokument. QR‑koden kan skannas för att hämta den inbäddade informationen, vilket möjliggör automatisk verifiering och datautvinning utan att ändra filens originalinnehåll.
+
+En QR‑kod‑signatur är en streckkod‑baserad digital signatur som lagrar anpassad data i ett QR‑kod‑visuellt element som är fäst vid ett dokument. QR‑koden kan skannas för att hämta den inbäddade informationen, vilket möjliggör automatiserad verifiering och dataextraktion utan att ändra filens ursprungliga innehåll.
 
 ## Varför använda streckkodssignaturer i dokument?
-Streckkodssignaturer löser ett vanligt problem: att säkert fästa maskinläsbara metadata på dokument utan att ändra deras innehåll. De möjliggör automatiserad datainsamling, förbättrar verifiering och effektiviserar arbetsflöden, vilket gör det enklare för företag att integrera dokumenthantering med befintliga system samtidigt som integritet och efterlevnad upprätthålls.
 
-- **Automatisk datainsamling** – Skanna en streckkod istället för att skriva in information manuellt. Perfekt för lager, fraktavdelningar eller någon högkapacitetsmiljö.  
-- **Dokumentverifiering** – Koda unika identifierare eller kontrollsummor för att verifiera dokumentets äkthet. Om någon manipulerar filen kommer streckkoden inte att matcha.  
-- **Arbetsflödesautomatisering** – Utlösa automatiska processer när dokument skannas. Tänk på automatisk routing av fakturor, uppdatering av lagersystem eller loggning av efterlevnadsregister.  
-- **Platsbesparing** – Streckkoder packar stora mängder data i ett litet visuellt utrymme—ofta bara en kvadrat på 1 tum.  
-- **Stöd för branschstandarder** – Arbeta med sjukvård (HIBC), detaljhandel (GS1), logistik (Code128) eller generella behov (QR Code, Data Matrix). Rätt streckkodstyp håller dig i enlighet med branschkrav.  
+Streckkodssignaturer löser ett vanligt problem: att säkert fästa maskinläsbar metadata till dokument utan att ändra deras innehåll. De möjliggör automatiserad datainsamling, förbättrar verifiering och förenklar arbetsflöden, vilket gör det enklare för företag att integrera dokumenthantering med befintliga system samtidigt som integritet och efterlevnad upprätthålls.
 
-## Komma igång med Java create QR code signature
+## Komma igång med Java för att skapa QR‑kod‑signatur
 
-Innan du dyker ner i koden, låt oss gå igenom grunderna. GroupDocs.Signature for Java stöder **55+** dokumentformat (PDF, DOCX, XLSX, bilder, TAR, ZIP och mer) och erbjuder dussintals streckkodstyper. Det typiska arbetsflödet är:
+Innan du skriver någon kod, se till att du har:
 
-1. **Initiera `Signature`‑objektet** med sökvägen till ditt källdokument.  
-2. **Konfigurera `BarcodeSignOptions`** – välj streckkodstyp, ange dess innehåll, storlek, färg och placering.  
-3. **Applicera signaturen** och spara det signerade dokumentet.  
-4. **Sök eller verifiera** streckkoder senare när du behöver extrahera eller validera data.  
+- Java 8 eller nyare installerat.  
+- GroupDocs.Signature för Java tillagt i ditt projekt (Maven‑beroende eller manuell JAR).  
+- En giltig GroupDocs.Signature‑licensfil (eller provnyckel) placerad där SDK:n kan läsa den.
 
-Du behöver Java 8 eller nyare och GroupDocs.Signature‑biblioteket (tillgängligt via Maven Central eller direkt nedladdning). Alla operationer utförs i minnet, så originalfilen förblir orörd.
+Det typiska arbetsflödet är:
+
+1. Initiera `Signature`‑objektet med källfilens sökväg.  
+2. Konfigurera `BarcodeSignOptions` – välj streckkodstyp, ange datasträngen, storlek, färger och placering.  
+3. Anropa `sign` för att bädda in streckkoden och skriva det signerade dokumentet till disk.
 
 ## Välja rätt streckkodstyp
 
 Osäker på vilken streckkod du ska använda? Här är en snabb beslutsguide:
 
-- **För URL:er eller lång text (upp till ~4 000 tecken)**: **QR Code** – det mest flexibla och smartphone‑läsbara alternativet.  
-- **För sjukvård/farmaceutisk spårning**: **HIBC LIC**‑streckkoder (QR, Aztec eller Data Matrix‑varianter).  
-- **För detaljhandel/försörjningskedja (GS1‑standarder)**: **GS1 Composite** eller **GS1‑128**.  
-- **För kompakt numerisk data**: **Code128** eller **Code39** – utmärkta för spårningsnummer, serienummer eller korta identifierare.  
-- **För stora dataset med felkorrigering**: **Data Matrix** eller **Aztec** – de packar mer data än traditionella 1D‑streckkoder och fungerar även när de är delvis skadade.  
+- **För URL:er eller lång text (upp till ~4 000 tecken)** – **QR Code** är den mest flexibla och fungerar med vilken smartphone‑kamera som helst.  
+- **För vård‑ eller läkemedelsspårning** – **HIBC LIC**‑streckkoder (QR, Aztec eller Data Matrix‑varianter) uppfyller branschregler.  
+- **För detaljhandel eller leveranskedja (GS1‑standarder)** – **GS1 Composite** eller **GS1‑128** ger den nödvändiga datastrukturen.  
+- **För kompakt numerisk data** – **Code128** eller **Code39** är idealiska för spårningsnummer eller serienummer.  
+- **För stora datamängder med felkorrigering** – **Data Matrix** eller **Aztec** packar mer data i ett mindre område och förblir läsbara även när de är delvis skadade.
 
-**Proffstips:** Om du är osäker, börja med en QR Code—den hanterar de flesta användningsfall och kräver inga specialiserade skannrar.
+**Proffstips:** Börja med en QR Code om du är osäker; den erbjuder högsta kompatibilitet och felkorrigeringsalternativ.
 
-## Så skapar du QR‑kod‑signatur i Java
-Att skapa en QR‑kod‑signatur i Java innebär att ladda mål­dokumentet, konfigurera streckkodsalternativen med önskat innehåll och visuella egenskaper, och sedan applicera signaturen. GroupDocs.Signature‑API:n hanterar alla lågnivådetaljer, vilket säkerställer att streckkoden bäddas in korrekt samtidigt som originalfilens struktur bevaras och senare verifiering möjliggörs.
+## Hur man skapar QR‑kod‑signatur i Java
 
-```text
-Initialize a `Signature` instance with the source file, create a `BarcodeSignOptions` object set to QR code type, assign the data you want to embed, specify position and size, then call `sign` to produce the output file.
-```
+För att skapa en QR‑kod‑signatur, läs först in PDF‑filen i en `Signature`‑instans, skapa sedan `BarcodeSignOptions` och ange `BarcodeTypes.QR` samt den data du vill bädda in (t.ex. en URL eller JSON‑payload). Justera storlek, färger och placering efter behov, och anropa slutligen `sign`‑metoden, som renderar QR‑koden på dokumentet och returnerar ett resultat som indikerar framgång och signaturens placering.
 
-### Steg 1: Initiera Signature‑hanteraren
-`Signature` är ingångspunkten för alla signerings-, sök‑ och verifieringsåtgärder. Den abstraherar filhantering för PDF‑, Word‑dokument, bilder och arkivformat.
+## Steg 1: initiera Signature‑hanteraren
 
-### Steg 2: Konfigurera `BarcodeSignOptions`
-`BarcodeSignOptions` är konfigurationsklassen som definierar streckkodstyp, innehåll, dimensioner, färger och placering på sidan.  
+`Signature` är ingångspunkten för alla signerings-, sök‑ och verifieringsåtgärder. Det abstraherar filhantering för PDF‑, Word‑dokument, bilder och arkivformat.
 
-> **Definition anchor:** `BarcodeSignOptions` är alternativklassen som används för att specificera varje visuell och data‑attribut för en streckkodssignatur innan den appliceras på ett dokument.
+## Steg 2: konfigurera `BarcodeSignOptions`
+
+`BarcodeSignOptions` är optionsklassen som används för att specificera varje visuell och data‑attribut för en streckkodssignatur innan den appliceras på ett dokument.
 
 Typiska inställningar inkluderar:
-- **Streckkodstyp** – `BarcodeTypes.QR`
-- **Data att bädda in** – vilken UTF‑8‑sträng som helst, t.ex. en URL eller JSON‑payload
-- **Storlek** – bredd och höjd i punkter (t.ex. 120 × 120)
-- **Position** – sidnummer, X/Y‑koordinater eller justeringsflaggor
-- **Visuell stil** – förgrunds‑/bakgrundsfärger, opacitet, rotation
 
-### Steg 3: Signera och spara dokumentet
-Att anropa `sign` skriver streckkoden på dokumentet och returnerar ett resultatobjekt som berättar om operationen lyckades och var streckkoden placerades.
+- **Streckkodstyp** – `BarcodeTypes.QR`  
+- **Data att bädda in** – vilken UTF‑8‑sträng som helst, t.ex. en URL eller JSON‑payload  
+- **Storlek** – bredd och höjd i punkter (t.ex. 120 × 120)  
+- **Position** – sidnummer, X/Y‑koordinater eller justeringsflaggor  
+- **Visuell stil** – förgrunds‑/bakgrundsfärger, opacitet, rotation  
+
+## Steg 3: signera och spara dokumentet
+
+Genom att anropa `sign` skrivs streckkoden på dokumentet och ett resultatobjekt returneras som visar om operationen lyckades och var streckkoden placerades.
 
 ## Vanliga användningsfall
 
-Så här använder utvecklare faktiskt QR‑kod‑signaturer:
+Utvecklare använder QR‑kod‑signaturer för:
 
-- **Fakturahantering** – Koda fakturanummer och belopp som QR‑koder. Bokföringsprogram skannar dem för att automatiskt fylla i betalningssystem.  
-- **Dokumentspårning** – Lägg till unika streckkoder på kontrakt eller juridiska dokument. Skanna för att omedelbart hämta filhistorik och godkännandestatus.  
-- **Lagerhantering** – Signera fraktetiketter med produkt‑SKU:er och kvantiteter. Skannrar uppdaterar lagret i realtid.  
+- **Fakturahantering** – Koda fakturanummer och belopp; bokföringsprogram skannar dem för att automatiskt fylla i betalningssystem.  
+- **Dokumentspårning** – Lägg till unika streckkoder på kontrakt; skanning hämtar omedelbart versionshistorik och godkännandestatus.  
+- **Lagerhantering** – Signera fraktetiketter med produkt‑SKU:er; skannrar uppdaterar lager i realtid.  
 - **Efterlevnad & revisionsspår** – Bädda in verifieringskoder som bevisar att ett dokument inte har ändrats sedan signering.  
-- **Sjukvårdsjournaler** – Använd HIBC‑kompatibla streckkoder på patientfiler för att säkerställa korrekt spårning och regulatorisk efterlevnad.  
+- **Hälso‑ och sjukvårdsjournaler** – Använd HIBC‑kompatibla streckkoder på patientfiler för att säkerställa korrekt spårning och regulatorisk efterlevnad.
 
 ## Tillgängliga handledningar
 
 Nedan hittar du steg‑för‑steg‑guider för varje streckkodssignatur‑operation. Varje handledning innehåller komplett, fungerande Java‑kod som du kan anpassa för ditt projekt.
 
-### [Effektiv Java‑streckkodssignaturhantering med GroupDocs.Signature](./java-barcode-signature-management-groupdocs-signature/)
-Starta här om du behöver hela livscykeln: hur du initierar signatur‑hanteraren, söker efter befintliga streckkoder i dokument och tar bort signaturer när de inte längre behövs. Perfekt för att bygga dokumenthanteringssystem där streckkodssignaturer måste vara dynamiska.
-
-### [Hur man skapar och signerar PDF‑filer med streckkoder med GroupDocs.Signature för Java](./create-sign-pdfs-groupdocs-barcode-java/)
-Din guide för att signera helt nya PDF‑filer med streckkodssignaturer. Lär dig hur du genererar dokument programmässigt och bäddar in streckkoder under skapandet—idealiskt för automatiserad fakturagenerering eller certifikatutskrift.
-
-### [Hur man implementerar sökning av streckkodssignaturer i Java med GroupDocs.Signature](./implement-barcode-signature-search-groupdocs-signature-java/)
-Behöver du hitta alla streckkoder i en batch av dokument? Denna handledning visar hur du söker efter streckkodstyp, innehåll eller position. Avgörande för revision av stora dokumentarkiv eller extraktion av data från skannade filer.
-
-### [Hur man initierar och uppdaterar streckkodssignaturer i Java med GroupDocs.Signature](./java-groupdocs-signature-barcode-initialize-update/)
-Har du redan streckkoder i dina PDF‑filer men behöver ändra innehåll eller utseende? Denna guide täcker uppdatering av befintliga streckkodssignaturer utan att återskapa hela dokumentet—sparar behandlingstid och bevarar dokumenthistorik.
-
-### [Hur man signerar PDF‑filer med HIBC LIC‑koder med GroupDocs.Signature för Java: En omfattande guide](./sign-pdfs-hibc-lic-codes-groupdocs-java/)
-Sjukvårds- och läkemedelsindustrin kräver HIBC (Health Industry Bar Code)‑standarder. Lär dig implementera HIBC LIC QR, Aztec och Data Matrix‑koder för regulatorisk efterlevnad, inklusive setup, validering och bästa praxis.
-
-### [Hur man verifierar streckkodssignaturer i Java med GroupDocs.Signature](./verify-barcode-signatures-groupdocs-signature-java/)
-Förtroende är allt. Denna handledning lär dig hur du verifierar att streckkodssignaturer är autentiska och inte har manipulerats. Du lär dig validera streckkodsinnehåll, kontrollera kodningstyper och säkerställa dokumentintegritet—kritisk för juridiska eller finansiella dokument.
-
-### [Java PDF‑streckkodssökning med GroupDocs.Signature API: En omfattande guide](./java-pdf-barcode-search-groupdocs-signature-api/)
-Djupdykning i PDF‑specifik streckkodssökning. Täcker avancerat filtrering (efter sida, efter region, efter streckkodformat) och hur du extraherar streckkodsmetadata för efterföljande bearbetning. Perfekt för att bygga anpassade dokumentindexeringssystem.
-
-### [Java PDF‑signering med streckkod med GroupDocs: En omfattande guide](./java-pdf-signing-barcode-groupdocs/)
-Omfattande end‑to‑end‑guide för att lägga till streckkodssignaturer i PDF‑filer. Inkluderar anpassningsalternativ (färger, typsnitt, positionering), felhantering och prestandaoptimeringstips för högvolym‑dokumentbehandling.
-
-### [Signera PDF‑dokument med streckkod med GroupDocs.Signature för Java: En omfattande guide](./sign-pdf-barcode-groupdocs-signature-java/)
-En annan variant av PDF‑streckkodssignering med extra fokus på säkerhet och professionella arbetsflöden. Lär dig ställa in transparens, aligna streckkoder till specifika koordinater och integrera med digitala signaturkedjor.
-
-### [Signera PDF‑filer med GS1 Composite‑streckkoder med GroupDocs.Signature för Java](./sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/)
-Behöver du följa GS1‑standarder för försörjningskedja eller detaljhandel? Denna guide täcker GS1 Composite‑streckkoder specifikt—kombinerar linjära och 2D‑komponenter för produktautentisering och spårbarhet. Avgörande för fraktetiketter och internationell logistik.
-
-### [Signera TAR‑arkiv med streckkoder & QR‑koder i Java med GroupDocs.Signature](./sign-tar-archives-barcode-qr-code-java/)
-Ja, du kan signera komprimerade arkiv också! Lär dig lägga till streckkodssignaturer i TAR‑filer för säker distribution av dokumentpaket. Perfekt för programvarusläpp, datapaket eller säkra filöverföringar.
-
-### [Verifiera streckkodssignaturer i ZIP‑filer med GroupDocs.Signature för Java](./verify-barcode-signatures-zip-groupdocs-signature-java/)
-Säkerställ integriteten i arkiverade dokument genom att verifiera streckkodssignaturer i ZIP‑filer. Denna handledning täcker batch‑verifieringsarbetsflöden och hur du validerar komprimerade dokumentpaket—användbart för regelefterlevnadsrevisioner eller automatiserade kvalitetstester.
+- [Efficient java barcode signature management using GroupDocs.Signature]({{< relref "./java-barcode-signature-management-groupdocs-signature/" >}})
+- [How to Create and Sign PDFs with Barcodes using GroupDocs.Signature for Java]({{< relref "./create-sign-pdfs-groupdocs-barcode-java/" >}})
+- [How to Implement Barcode Signature Search in Java with GroupDocs.Signature]({{< relref "./implement-barcode-signature-search-groupdocs-signature-java/" >}})
+- [How to Initialize and Update Barcode Signatures in Java Using GroupDocs.Signature]({{< relref "./java-groupdocs-signature-barcode-initialize-update/" >}})
+- [How to Sign PDFs with HIBC LIC Codes Using GroupDocs.Signature for Java: A Comprehensive Guide]({{< relref "./sign-pdfs-hibc-lic-codes-groupdocs-java/" >}})
+- [How to Verify Barcode Signatures in Java Using GroupDocs.Signature]({{< relref "./verify-barcode-signatures-groupdocs-signature-java/" >}})
+- [Java PDF barcode search using GroupDocs.Signature API: a comprehensive guide]({{< relref "./java-pdf-barcode-search-groupdocs-signature-api/" >}})
+- [Java PDF signing with barcode using groupDocs: a comprehensive guide]({{< relref "./java-pdf-signing-barcode-groupdocs/" >}})
+- [Sign PDF documents with barcode using GroupDocs.Signature for java: a comprehensive guide]({{< relref "./sign-pdf-barcode-groupdocs-signature-java/" >}})
+- [Sign pDFs with GS1 composite barcodes using GroupDocs.Signature for java]({{< relref "./sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/" >}})
+- [Sign TAR archives with barcodes & QR codes in java using GroupDocs.Signature]({{< relref "./sign-tar-archives-barcode-qr-code-java/" >}})
+- [Verify barcode signatures in ZIP files using GroupDocs.Signature for java]({{< relref "./verify-barcode-signatures-zip-groupdocs-signature-java/" >}})
 
 ## Bästa praxis för streckkodssignaturer
 
-- **Håll streckkodsinnehållet kort** – Även om QR‑koder kan innehålla tusentals tecken, skannar mindre streckkoder snabbare och återges tydligare vid lägre upplösning. Sikta på under 500 tecken om du inte specifikt behöver större dataset.  
-- **Testa skanning innan produktion** – Alla streckkodsläsare hanterar inte varje format lika bra. Testa dina streckkoder med de faktiska skannrarna dina användare kommer att ha (smartphone‑kameror, dedikerade läsare osv.).  
-- **Placering är viktig** – Placera streckkoder på konsekventa ställen (t.ex. nedre högra hörnet) i alla dokument. Detta gör automatisk skanning mycket mer pålitlig.  
-- **Använd felkorrigering** – QR‑koder och Data Matrix‑streckkoder stödjer felkorrigeringsnivåer. Högre nivåer (som QR:s “H”-nivå) låter streckkoder fungera även om 30 % är skadade eller dolda.  
-- **Kombinera med visuella signaturer** – För dokument som behöver både mänsklig och maskinell validering, lägg till en streckkod tillsammans med en traditionell digital signatur. Du får automatiseringsfördelar plus juridisk verkställbarhet.  
-- **Hantera verifieringsfel på ett smidigt sätt** – Kontrollera alltid om streckkodverifiering lyckas innan du behandlar dokument. Ogiltiga streckkoder kan indikera manipulation—logga dessa händelser för säkerhetsgranskningar.  
+- **Håll streckkodsinnehållet kort** – Sikta på under 500 tecken; mindre streckkoder skannas snabbare och renderas tydligare vid låg upplösning.  
+- **Testa skanning innan produktion** – Verifiera att de faktiska skannrarna dina användare kommer att använda kan läsa det valda formatet.  
+- **Placera streckkoder konsekvent** – Nedre högra hörnet eller en annan fast plats förbättrar automatiserad skanningspålitlighet.  
+- **Aktivera felkorrigering** – Använd QR Code‑nivån “H” eller Data Matrix hög‑ECC‑läge för motståndskraft mot skador.  
+- **Kombinera med visuella signaturer** – Para en streckkod med en traditionell digital signatur för både maskin‑ och mänsklig verifiering.  
+- **Hantera verifieringsfel på ett smidigt sätt** – Logga eventuella avvikelser; de kan indikera manipulation och bör utlösa säkerhetslarm.
 
-## Vanliga frågor
+## Vanliga frågor och svar
 
 **Q: Kan jag använda streckkodssignaturer i en kommersiell applikation?**  
 A: Ja, så länge du har en giltig GroupDocs.Signature‑licens. En gratis provperiod finns tillgänglig för utvärdering.
 
 **Q: Fungerar streckkodssignaturer med lösenordsskyddade PDF‑filer?**  
-A: Absolut. Ange dokumentets lösenord när du skapar `Signature`‑instansen, så kommer API:n att dekryptera, signera och återkryptera filen automatiskt.
+A: Absolut. Ange dokumentets lösenord när du skapar `Signature`‑instansen, så kommer API:et att dekryptera, signera och återkryptera filen automatiskt.
 
 **Q: Vilka streckkodformat rekommenderas för mobil skanning?**  
 A: QR Code och Data Matrix har bästa smartphone‑kompatibiliteten och inbyggd felkorrigering, vilket gör dem idealiska för fältarbetare.
 
 **Q: Hur uppdaterar jag en befintlig streckkod utan att signera om hela dokumentet?**  
-A: Använd `BarcodeSignOptions`‑uppdateringsmetoderna som visas i handledningen ”Initiera och uppdatera” – du kan ändra innehåll, storlek eller position på plats, och bevara resten av filen.
+A: Använd `BarcodeSignOptions`‑uppdateringsmetoderna som visas i handledningen “Initialize and Update” – du kan ändra innehåll, storlek eller position på plats, och bevara resten av filen.
 
-**Q: Påverkar prestandan när man signerar tusentals PDF‑filer?**  
-A: API:n är optimerad för batch‑operationer; återanvänd en enda `Signature`‑instans och inaktivera utförlig loggning för att maximera genomströmning. Typisk genomströmning överstiger 200 dokument per minut på en standard 8‑kärnig server.
+**Q: Finns det någon prestandapåverkan när man signerar tusentals PDF‑filer?**  
+A: API:et är optimerat för batch‑operationer; återanvänd en enda `Signature`‑instans och inaktivera detaljerad loggning för att maximera genomströmning. Typisk genomströmning överstiger 200 dokument per minut på en standard 8‑kärnig server.
 
 ## Resurser
 
@@ -229,16 +213,20 @@ A: API:n är optimerad för batch‑operationer; återanvänd en enda `Signature
 
 ## Slutsats
 
-Att skapa en QR‑kod‑signatur i Java är enkelt med GroupDocs.Signature. Genom att följa stegen ovan kan du bädda in säker, maskinläsbar data i vilken stödjande dokumenttyp som helst, automatisera datainsamling och garantera dokumentintegritet. Utforska de länkade handledningarna för djupare insikter—oavsett om du behöver hantera streckkoder i stor skala, verifiera dem i arkiv eller följa branschspecifika standarder som HIBC eller GS1.
+Att lägga till en QR‑kod eller någon annan streckkod i en PDF är enkelt med GroupDocs.Signature för Java. Genom att följa stegen ovan kan du bädda in säker, maskinläsbar data i vilken stödd dokumenttyp som helst, automatisera datainsamling och garantera dokumentets integritet. Utforska de länkade handledningarna för djupare insikter – oavsett om du behöver hantera streckkoder i stor skala, verifiera dem i arkiv eller följa branschspecifika standarder som HIBC eller GS1.
 
 ---
 
-**Last Updated:** 2026-06-21  
-**Tested With:** GroupDocs.Signature for Java 23.12 (latest at time of writing)  
-**Author:** GroupDocs  
+**Senast uppdaterad:** 2026-11-01  
+**Testad med:** GroupDocs.Signature för Java 23.12 (senaste vid skrivande)  
+**Författare:** GroupDocs  
 
 ## Relaterade handledningar
 
-- [Java-dokument QR‑kod‑verifiering – En omfattande GroupDocs.Signature](/signature/java/search-verification/java-qr-code-signature-verification-groupdocs/)
+- [Java‑dokument QR‑kod‑verifiering – En omfattande GroupDocs.Signature](/signature/java/search-verification/java-qr-code-signature-verification-groupdocs/)
 - [Hur man läser QR‑kod‑PDF med Java och GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
 - [Skapa streckkodssignatur i Java – Uppdatera PDF‑streckkoder](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
+
+```text
+Initialize a `Signature` instance with the source file, create a `BarcodeSignOptions` object set to QR code type, assign the data you want to embed, specify position and size, then call `sign` to produce the output file.
+```
