@@ -1,30 +1,33 @@
 ---
 categories:
 - Document Signatures
-date: '2026-06-21'
-description: Pelajari cara membuat tanda tangan QR code, menambahkan, memverifikasi,
-  dan mengelola tanda tangan barcode di PDF menggunakan GroupDocs.Signature untuk
-  Java.
+date: '2026-11-01'
+description: Pelajari cara menambahkan barcode ke PDF, membuat tanda tangan kode QR,
+  memverifikasi, dan mengelola tanda tangan barcode dalam PDF menggunakan GroupDocs.Signature
+  untuk Java.
 keywords:
-- create qr code signature
-- how to add barcode
-- barcode document verification
 - add barcode to pdf
+- how to add qr code to pdf
+- barcode signature java
 - groupdocs signature java
-lastmod: '2026-06-21'
+- pdf barcode signing
+lastmod: '2026-11-01'
 linktitle: Tanda Tangan Barcode
+og_description: Pelajari cara menambahkan barcode ke PDF, membuat tanda tangan kode
+  QR, dan mengelola tanda tangan barcode dalam PDF menggunakan GroupDocs.Signature
+  untuk Java.
+og_image_alt: 'Guide: add barcode to pdf using GroupDocs.Signature Java API'
+og_title: Cara menambahkan barcode ke PDF dengan GroupDocs.Signature untuk Java
 schemas:
 - author: GroupDocs
-  dateModified: '2026-06-21'
+  dateModified: '2026-11-01'
   description: Learn how to create QR code signature, add, verify and manage barcode
     signatures in PDFs using GroupDocs.Signature for Java.
-  headline: Java create qr code signature Tutorial – Add, Verify & Manage Barcodes
-    in PDFs
+  headline: Java Document Signature Tutorial – Add, Verify & Manage Barcodes in PDFs
   type: TechArticle
 - description: Learn how to create QR code signature, add, verify and manage barcode
     signatures in PDFs using GroupDocs.Signature for Java.
-  name: Java create qr code signature Tutorial – Add, Verify & Manage Barcodes in
-    PDFs
+  name: Java Document Signature Tutorial – Add, Verify & Manage Barcodes in PDFs
   steps:
   - name: Initialise the Signature handler
     text: '`Signature` is the entry point for all signing, searching and verification
@@ -34,7 +37,7 @@ schemas:
     text: '`BarcodeSignOptions` is the configuration class that defines barcode type,
       content, dimensions, colors, and placement on the page. > **Definition anchor:**
       `BarcodeSignOptions` is the options class used to specify every visual and data
-      attribute of a barcode signature before it is applied to a docum'
+      attribute of a barcode signature before it is applied to a document.'
   - name: Sign and save the document
     text: Calling `sign` writes the barcode onto the document and returns a result
       object that tells you whether the operation succeeded and where the barcode
@@ -64,139 +67,135 @@ tags:
 - pdf-signing
 - java-tutorial
 - document-security
-title: Tutorial Membuat Tanda Tangan QR Code di Java – Tambah, Verifikasi & Kelola
-  Barcode di PDF
+- add barcode to pdf
+title: Cara menambahkan barcode ke PDF dengan GroupDocs.Signature untuk Java
 type: docs
 url: /id/java/barcode-signatures/
 weight: 4
 ---
 
-# Tutorial Java Membuat Tanda Tangan Kode QR: Tambah, Verifikasi & Kelola Barcode dalam PDF
+# Cara menambahkan barcode ke pdf dengan GroupDocs.Signature untuk Java
 
-Menanamkan data yang dapat dibaca mesin secara langsung ke dalam dokumen Anda adalah cara yang kuat untuk mengotomatiskan alur kerja dan menjamin integritas. Dalam tutorial **Java create QR code signature** ini Anda akan menemukan cara mengkodekan ID produk, nomor pelacakan, atau kode verifikasi secara aman di dalam PDF, file Word, gambar, dan bahkan format arsip. GroupDocs.Signature untuk Java mengubah proses multi‑langkah menjadi hanya beberapa baris kode, sambil menjaga dokumen asli tidak berubah.
+Menyematkan data yang dapat dibaca mesin secara langsung ke dalam PDF Anda (atau dokumen apa pun yang didukung) memungkinkan Anda mengotomatisasi verifikasi, menyederhanakan pengambilan data, dan menjaga jejak audit yang tidak dapat diubah. Dalam tutorial ini Anda akan belajar cara **menambahkan barcode ke pdf** menggunakan GroupDocs.Signature untuk Java, mencakup semua hal mulai dari pembuatan QR code hingga verifikasi dan manajemen. Perpustakaan ini mendukung lebih dari 55 format file, sehingga kode yang sama dapat digunakan untuk Word, gambar, arsip, dan lainnya.
 
 ## Jawaban Cepat
-- **What library is required?** GroupDocs.Signature for Java (Maven atau unduhan langsung).  
-- **Which Java version is supported?** Java 8 atau lebih baru.  
-- **Can I sign PDFs, Word, and images?** Ya, API bekerja dengan lebih dari **55** format.  
-- **Do barcode signatures support QR, Data Matrix, and GS1?** Semua di atas plus Code128, Code39, HIBC, dll.  
-- **Is a license needed for production?** Lisensi GroupDocs.Signature yang valid diperlukan untuk penggunaan komersial.  
-- **How many lines of code are needed?** Biasanya 5‑10 baris untuk pembuatan tanda tangan kode QR lengkap.  
+- **Library apa yang saya perlukan?** GroupDocs.Signature untuk Java (tersedia melalui Maven Central).  
+- **Versi Java apa yang dibutuhkan?** Java 8 atau lebih baru.  
+- **Apakah saya dapat menambahkan barcode ke pdf dan format lain?** Ya – API bekerja dengan lebih dari 55 format, termasuk PDF, DOCX, XLSX, PNG, TAR, ZIP, dan lainnya.  
+- **Jenis barcode apa yang didukung?** QR Code, Data Matrix, Code128, Code39, HIBC, GS1 Composite, dan banyak lainnya.  
+- **Apakah saya membutuhkan lisensi untuk produksi?** Lisensi GroupDocs.Signature yang valid wajib untuk penggunaan komersial; percobaan gratis tersedia untuk pengujian.  
+- **Berapa baris kode yang diperlukan?** Biasanya 5‑10 baris untuk membuat dan menyematkan barcode QR code.
 
-## Apa itu QR code signature?
-**QR code signature** adalah tanda tangan digital berbasis barcode yang menyimpan data khusus di dalam elemen visual QR code yang terlampir pada dokumen. QR code dapat dipindai untuk mengambil informasi yang tertanam, memungkinkan verifikasi otomatis dan ekstraksi data tanpa mengubah konten asli file.
+## Cara menambahkan barcode ke pdf dengan GroupDocs.Signature untuk Java?
+
+Muat PDF target, konfigurasikan opsi barcode, dan panggil metode `sign` – itu saja yang Anda perlukan. API menulis barcode langsung ke dokumen sambil mempertahankan struktur file asli, sehingga Anda mendapatkan PDF yang ditandatangani siap untuk pemindaian atau verifikasi otomatis.
+
+Anda dapat menambahkan barcode ke PDF dalam tiga langkah sederhana: menginisialisasi handler `Signature`, mengkonfigurasi `BarcodeSignOptions` dengan tipe barcode yang diinginkan dan pengaturan visual, dan akhirnya memanggil `sign` untuk menyematkan barcode dan menyimpan file output.
+
+## Apa itu tanda tangan QR code?
+
+Tanda tangan QR code adalah tanda tangan digital berbasis barcode yang menyimpan data khusus di dalam elemen visual QR code yang terlampir pada dokumen. QR code dapat dipindai untuk mengambil informasi yang disematkan, memungkinkan verifikasi otomatis dan ekstraksi data tanpa mengubah konten asli file.
 
 ## Mengapa menggunakan tanda tangan barcode dalam dokumen?
-Barcode signatures menyelesaikan masalah umum: menempelkan metadata yang dapat dibaca mesin ke dokumen secara aman tanpa mengubah kontennya. Mereka memungkinkan pengambilan data otomatis, meningkatkan verifikasi, dan menyederhanakan alur kerja, memudahkan bisnis mengintegrasikan pemrosesan dokumen dengan sistem yang ada sambil mempertahankan integritas dan kepatuhan.
 
-- **Pengambilan Data Otomatis** – Pindai barcode alih-alih mengetik informasi secara manual. Sempurna untuk gudang, departemen pengiriman, atau lingkungan dengan throughput tinggi.  
-- **Verifikasi Dokumen** – Enkode pengidentifikasi unik atau checksum untuk memverifikasi keaslian dokumen. Jika seseorang memodifikasi file, barcode tidak akan cocok.  
-- **Otomatisasi Alur Kerja** – Memicu proses otomatis ketika dokumen dipindai. Misalnya auto‑routing faktur, memperbarui sistem inventaris, atau mencatat catatan kepatuhan.  
-- **Efisiensi Ruang** – Barcode memuat banyak data dalam jejak visual yang kecil—biasanya hanya kotak 1‑inci.  
-- **Dukungan Standar Industri** – Bekerja dengan kesehatan (HIBC), ritel (GS1), logistik (Code128), atau kebutuhan umum (QR Code, Data Matrix). Jenis barcode yang tepat menjaga kepatuhan Anda terhadap persyaratan industri.  
+Tanda tangan barcode menyelesaikan masalah umum: menempelkan metadata yang dapat dibaca mesin secara aman ke dokumen tanpa mengubah kontennya. Mereka memungkinkan pengambilan data otomatis, meningkatkan verifikasi, dan menyederhanakan alur kerja, memudahkan bisnis mengintegrasikan pemrosesan dokumen dengan sistem yang ada sambil mempertahankan integritas dan kepatuhan.
 
-## Memulai dengan Java create QR code signature
-Sebelum menyelami kode, mari bahas hal-hal penting. GroupDocs.Signature untuk Java mendukung **55+** format dokumen (PDF, DOCX, XLSX, gambar, TAR, ZIP, dan lainnya) dan menyediakan puluhan jenis barcode. Alur kerja tipikal adalah:
+## Memulai dengan Java membuat tanda tangan QR code
 
-1. **Inisialisasi objek `Signature`** dengan path ke dokumen sumber Anda.  
-2. **Konfigurasikan `BarcodeSignOptions`** – pilih jenis barcode, atur kontennya, ukuran, warna, dan penempatan.  
-3. **Terapkan tanda tangan** dan simpan dokumen yang ditandatangani.  
-4. **Cari atau verifikasi** barcode nanti ketika Anda perlu mengekstrak atau memvalidasi data.
+Sebelum Anda menulis kode apa pun, pastikan Anda memiliki:
+- Java 8 atau lebih baru terinstal.  
+- GroupDocs.Signature untuk Java ditambahkan ke proyek Anda (dependensi Maven atau JAR manual).  
+- File lisensi GroupDocs.Signature yang valid (atau kunci percobaan) ditempatkan di lokasi yang dapat dibaca SDK.
 
-Anda memerlukan Java 8 atau lebih baru dan pustaka GroupDocs.Signature (tersedia melalui Maven Central atau unduhan langsung). Semua operasi dilakukan di memori, sehingga file asli tetap tidak tersentuh.
+Alur kerja tipikal adalah:
+1. Inisialisasi objek `Signature` dengan path file sumber.  
+2. Konfigurasikan `BarcodeSignOptions` – pilih tipe barcode, tetapkan string data, ukuran, warna, dan penempatan.  
+3. Panggil `sign` untuk menyematkan barcode dan menulis dokumen yang ditandatangani ke disk.
 
-## Memilih Jenis Barcode yang Tepat
+## Memilih tipe barcode yang tepat
 
 Tidak yakin barcode mana yang harus digunakan? Berikut panduan keputusan cepat:
+- **Untuk URL atau teks panjang (hingga ~4.000 karakter)** – **QR Code** adalah yang paling fleksibel dan bekerja dengan kamera smartphone apa pun.  
+- **Untuk pelacakan kesehatan atau farmasi** – barcode **HIBC LIC** (varian QR, Aztec, atau Data Matrix) memenuhi regulasi industri.  
+- **Untuk ritel atau rantai pasokan (standar GS1)** – **GS1 Composite** atau **GS1‑128** menyediakan struktur data yang diperlukan.  
+- **Untuk data numerik yang kompak** – **Code128** atau **Code39** ideal untuk nomor pelacakan atau kode seri.  
+- **Untuk dataset besar dengan koreksi kesalahan** – **Data Matrix** atau **Aztec** memuat lebih banyak data dalam area yang lebih kecil dan tetap dapat dibaca meskipun sebagian rusak.
 
-- **Untuk URL atau teks panjang (hingga ~4.000 karakter)**: **QR Code** – opsi paling fleksibel dan dapat dibaca oleh smartphone.  
-- **Untuk pelacakan kesehatan/farmasi**: barcode **HIBC LIC** (varian QR, Aztec, atau Data Matrix).  
-- **Untuk ritel/rantai pasokan (standar GS1)**: **GS1 Composite** atau **GS1‑128**.  
-- **Untuk data numerik kompak**: **Code128** atau **Code39** – cocok untuk nomor pelacakan, kode seri, atau pengidentifikasi singkat.  
-- **Untuk dataset besar dengan koreksi kesalahan**: **Data Matrix** atau **Aztec** – mereka memuat lebih banyak data daripada barcode 1D tradisional dan tetap berfungsi meskipun sebagian rusak.
+**Tips profesional:** Mulailah dengan QR Code jika Anda belum yakin; ia menawarkan kompatibilitas tertinggi dan opsi koreksi kesalahan.
 
-**Tips Pro:** Jika Anda ragu, mulailah dengan QR Code—ia menangani sebagian besar kasus penggunaan dan tidak memerlukan pemindai khusus.
+## Cara membuat tanda tangan QR code di Java
 
-## Cara membuat tanda tangan kode QR di Java
-Membuat tanda tangan kode QR di Java melibatkan memuat dokumen target, mengkonfigurasi opsi barcode dengan konten dan properti visual yang diinginkan, lalu menerapkan tanda tangan. API GroupDocs.Signature menangani semua detail tingkat rendah, memastikan barcode tertanam dengan benar sambil mempertahankan struktur file asli dan memungkinkan verifikasi di kemudian hari.
+Untuk membuat tanda tangan QR code, pertama muat file PDF ke dalam instance `Signature`, kemudian buat `BarcodeSignOptions` dengan menentukan `BarcodeTypes.QR` dan data yang ingin Anda sematkan (mis., URL atau payload JSON). Sesuaikan ukuran, warna, dan penempatan sesuai kebutuhan, dan akhirnya panggil metode `sign`, yang merender QR code ke dokumen dan mengembalikan hasil yang menunjukkan keberhasilan serta lokasi tanda tangan.
 
-```text
-Initialize a `Signature` instance with the source file, create a `BarcodeSignOptions` object set to QR code type, assign the data you want to embed, specify position and size, then call `sign` to produce the output file.
-```
+## Langkah 1: inisialisasi handler Signature
 
-### Langkah 1: Inisialisasi handler Signature
-`Signature` adalah titik masuk untuk semua tindakan menandatangani, mencari, dan memverifikasi. Ia mengabstraksi penanganan file untuk PDF, dokumen Word, gambar, dan format arsip.
+`Signature` adalah titik masuk untuk semua tindakan penandatanganan, pencarian, dan verifikasi. Ia mengabstraksi penanganan file untuk PDF, dokumen Word, gambar, dan format arsip.
 
-### Langkah 2: Konfigurasikan `BarcodeSignOptions`
-`BarcodeSignOptions` adalah kelas konfigurasi yang menentukan jenis barcode, konten, dimensi, warna, dan penempatan pada halaman.  
+## Langkah 2: konfigurasikan `BarcodeSignOptions`
 
-> **Definition anchor:** `BarcodeSignOptions` adalah kelas opsi yang digunakan untuk menentukan setiap atribut visual dan data dari tanda tangan barcode sebelum diterapkan ke dokumen.
+`BarcodeSignOptions` adalah kelas opsi yang digunakan untuk menentukan setiap atribut visual dan data dari tanda tangan barcode sebelum diterapkan ke dokumen.
 
 Pengaturan tipikal meliputi:
-- **Jenis barcode** – `BarcodeTypes.QR`
-- **Data yang akan ditanam** – string UTF‑8 apa pun, seperti URL atau payload JSON
-- **Ukuran** – lebar dan tinggi dalam poin (mis., 120 × 120)
-- **Posisi** – nomor halaman, koordinat X/Y, atau flag perataan
-- **Gaya visual** – warna latar depan/latar belakang, opasitas, rotasi
+- **Tipe barcode** – `BarcodeTypes.QR`  
+- **Data yang disematkan** – string UTF‑8 apa pun, seperti URL atau payload JSON  
+- **Ukuran** – lebar dan tinggi dalam poin (mis., 120 × 120)  
+- **Posisi** – nomor halaman, koordinat X/Y, atau flag perataan  
+- **Gaya visual** – warna latar depan/latar belakang, opasitas, rotasi  
 
-### Langkah 3: Tanda tangani dan simpan dokumen
+## Langkah 3: tanda tangani dan simpan dokumen
+
 Memanggil `sign` menulis barcode ke dokumen dan mengembalikan objek hasil yang memberi tahu Anda apakah operasi berhasil dan di mana barcode ditempatkan.
 
-## Kasus Penggunaan Umum
+## Kasus penggunaan umum
 
-Berikut cara pengembang sebenarnya menggunakan tanda tangan kode QR:
+Pengembang menggunakan tanda tangan QR code untuk:
+- **Pemrosesan faktur** – Enkode nomor faktur dan jumlah; perangkat lunak akuntansi memindainya untuk mengisi otomatis sistem pembayaran.  
+- **Pelacakan dokumen** – Tambahkan barcode unik ke kontrak; pemindaian langsung menampilkan riwayat versi dan status persetujuan.  
+- **Manajemen gudang** – Tandatangani label pengiriman dengan SKU produk; pemindai memperbarui inventaris secara real time.  
+- **Kepatuhan & jejak audit** – Sematkan kode verifikasi yang membuktikan dokumen tidak diubah sejak penandatanganan.  
+- **Rekam medis** – Gunakan barcode yang sesuai dengan HIBC pada berkas pasien untuk memastikan pelacakan yang tepat dan kepatuhan regulasi.
 
-- **Pemrosesan Faktur** – Enkode nomor faktur dan jumlah sebagai QR code. Perangkat lunak akuntansi memindainya untuk mengisi otomatis sistem pembayaran.  
-- **Pelacakan Dokumen** – Tambahkan barcode unik ke kontrak atau dokumen hukum. Pindai untuk langsung menampilkan riwayat file dan status persetujuan.  
-- **Manajemen Gudang** – Tandai label pengiriman dengan SKU produk dan kuantitas. Pemindai memperbarui inventaris secara real‑time.  
-- **Kepatuhan & Jejak Audit** – Tanamkan kode verifikasi yang membuktikan dokumen tidak diubah sejak penandatanganan.  
-- **Rekam Medis** – Gunakan barcode yang sesuai HIBC pada berkas pasien untuk memastikan pelacakan yang tepat dan kepatuhan regulasi.  
+## Tutorial yang tersedia
 
-## Tutorial yang Tersedia
+Di bawah ini Anda akan menemukan panduan langkah demi langkah untuk setiap operasi tanda tangan barcode. Setiap tutorial mencakup kode Java lengkap yang berfungsi dan dapat Anda sesuaikan untuk proyek Anda.
+- [Manajemen tanda tangan barcode java yang efisien menggunakan GroupDocs.Signature]({{< relref "./java-barcode-signature-management-groupdocs-signature/" >}})
+- [Cara Membuat dan Menandatangani PDF dengan Barcode menggunakan GroupDocs.Signature untuk Java]({{< relref "./create-sign-pdfs-groupdocs-barcode-java/" >}})
+- [Cara Mengimplementasikan Pencarian Tanda Tangan Barcode di Java dengan GroupDocs.Signature]({{< relref "./implement-barcode-signature-search-groupdocs-signature-java/" >}})
+- [Cara Menginisialisasi dan Memperbarui Tanda Tangan Barcode di Java Menggunakan GroupDocs.Signature]({{< relref "./java-groupdocs-signature-barcode-initialize-update/" >}})
+- [Cara Menandatangani PDF dengan Kode HIBC LIC Menggunakan GroupDocs.Signature untuk Java: Panduan Komprehensif]({{< relref "./sign-pdfs-hibc-lic-codes-groupdocs-java/" >}})
+- [Cara Memverifikasi Tanda Tangan Barcode di Java Menggunakan GroupDocs.Signature]({{< relref "./verify-barcode-signatures-groupdocs-signature-java/" >}})
+- [Pencarian barcode PDF Java menggunakan API GroupDocs.Signature: panduan komprehensif]({{< relref "./java-pdf-barcode-search-groupdocs-signature-api/" >}})
+- [Penandatanganan PDF Java dengan barcode menggunakan GroupDocs: panduan komprehensif]({{< relref "./java-pdf-signing-barcode-groupdocs/" >}})
+- [Menandatangani dokumen PDF dengan barcode menggunakan GroupDocs.Signature untuk java: panduan komprehensif]({{< relref "./sign-pdf-barcode-groupdocs-signature-java/" >}})
+- [Menandatangani PDF dengan barcode GS1 composite menggunakan GroupDocs.Signature untuk java]({{< relref "./sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/" >}})
+- [Menandatangani arsip TAR dengan barcode & QR code di java menggunakan GroupDocs.Signature]({{< relref "./sign-tar-archives-barcode-qr-code-java/" >}})
+- [Memverifikasi tanda tangan barcode dalam file ZIP menggunakan GroupDocs.Signature untuk java]({{< relref "./verify-barcode-signatures-zip-groupdocs-signature-java/" >}})
 
-Di bawah ini Anda akan menemukan panduan langkah‑demi‑langkah untuk setiap operasi tanda tangan barcode. Setiap tutorial mencakup kode Java lengkap yang dapat Anda sesuaikan untuk proyek Anda.
+## Praktik terbaik untuk tanda tangan barcode
+- **Jaga konten barcode tetap pendek** – Targetkan kurang dari 500 karakter; barcode yang lebih kecil dipindai lebih cepat dan tampil lebih jelas pada resolusi rendah.  
+- **Uji pemindaian sebelum produksi** – Pastikan pemindai yang sebenarnya akan digunakan pengguna dapat membaca format yang dipilih.  
+- **Tempatkan barcode secara konsisten** – Sudut kanan bawah atau lokasi tetap lainnya meningkatkan keandalan pemindaian otomatis.  
+- **Aktifkan koreksi kesalahan** – Gunakan level “H” QR Code atau mode ECC tinggi Data Matrix untuk ketahanan terhadap kerusakan.  
+- **Gabungkan dengan tanda tangan visual** – Padukan barcode dengan tanda tangan digital tradisional untuk verifikasi mesin dan manusia.  
+- **Tangani kegagalan verifikasi dengan elegan** – Catat setiap ketidaksesuaian; mereka mungkin menunjukkan pemalsuan dan harus memicu peringatan keamanan.  
 
-### [Manajemen Tanda Tangan Barcode Java Efisien Menggunakan GroupDocs.Signature](./java-barcode-signature-management-groupdocs-signature/)
-### [Cara Membuat dan Menandatangani PDF dengan Barcode menggunakan GroupDocs.Signature untuk Java](./create-sign-pdfs-groupdocs-barcode-java/)
-### [Cara Mengimplementasikan Pencarian Tanda Tangan Barcode di Java dengan GroupDocs.Signature](./implement-barcode-signature-search-groupdocs-signature-java/)
-### [Cara Menginisialisasi dan Memperbarui Tanda Tangan Barcode di Java Menggunakan GroupDocs.Signature](./java-groupdocs-signature-barcode-initialize-update/)
-### [Cara Menandatangani PDF dengan Kode HIBC LIC Menggunakan GroupDocs.Signature untuk Java: Panduan Komprehensif](./sign-pdfs-hibc-lic-codes-groupdocs-java/)
-### [Cara Memverifikasi Tanda Tangan Barcode di Java Menggunakan GroupDocs.Signature](./verify-barcode-signatures-groupdocs-signature-java/)
-### [Pencarian Barcode PDF Java menggunakan API GroupDocs.Signature: Panduan Komprehensif](./java-pdf-barcode-search-groupdocs-signature-api/)
-### [Penandatanganan PDF Java dengan Barcode Menggunakan GroupDocs: Panduan Komprehensif](./java-pdf-signing-barcode-groupdocs/)
-### [Menandatangani Dokumen PDF dengan Barcode Menggunakan GroupDocs.Signature untuk Java: Panduan Komprehensif](./sign-pdf-barcode-groupdocs-signature-java/)
-### [Menandatangani PDF dengan Barcode GS1 Composite Menggunakan GroupDocs.Signature untuk Java](./sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/)
-### [Menandatangani Arsip TAR dengan Barcode & QR Code di Java Menggunakan GroupDocs.Signature](./sign-tar-archives-barcode-qr-code-java/)
-### [Memverifikasi Tanda Tangan Barcode dalam File ZIP Menggunakan GroupDocs.Signature untuk Java](./verify-barcode-signatures-zip-groupdocs-signature-java/)
-
-## Praktik Terbaik untuk Tanda Tangan Barcode
-
-- **Jaga Konten Barcode Pendek** – Meskipun QR code dapat menampung ribuan karakter, barcode yang lebih kecil dipindai lebih cepat dan tampil lebih jelas pada resolusi rendah. Targetkan di bawah 500 karakter kecuali Anda memang membutuhkan dataset yang lebih besar.  
-- **Uji Pemindaian Sebelum Produksi** – Tidak semua pembaca barcode menangani setiap format dengan baik. Uji barcode Anda dengan pemindai sebenarnya yang akan digunakan pengguna (kamera smartphone, pembaca khusus, dll.).  
-- **Posisi Penting** – Tempatkan barcode di lokasi konsisten (mis., pojok kanan bawah) di semua dokumen. Ini membuat pemindaian otomatis jauh lebih dapat diandalkan.  
-- **Gunakan Koreksi Kesalahan** – QR code dan barcode Data Matrix mendukung tingkat koreksi kesalahan. Tingkat yang lebih tinggi (seperti level “H” pada QR) memungkinkan barcode berfungsi meskipun 30 % rusak atau tertutup.  
-- **Kombinasikan dengan Tanda Tangan Visual** – Untuk dokumen yang memerlukan validasi manusia dan mesin, tambahkan barcode bersama tanda tangan digital tradisional. Anda mendapatkan manfaat otomatisasi plus keberlakuan hukum.  
-- **Tangani Kegagalan Verifikasi dengan Baik** – Selalu periksa apakah verifikasi barcode berhasil sebelum memproses dokumen. Barcode tidak valid dapat menunjukkan manipulasi—catat peristiwa ini untuk audit keamanan.  
-
-## Pertanyaan yang Sering Diajukan
-
-**Q: Apakah saya dapat menggunakan tanda tangan barcode dalam aplikasi komersial?**  
-A: Ya, selama Anda memiliki lisensi GroupDocs.Signature yang valid. Versi percobaan gratis tersedia untuk evaluasi.
+## Pertanyaan yang sering diajukan
+**Q: Bisakah saya menggunakan tanda tangan barcode dalam aplikasi komersial?**  
+A: Ya, selama Anda memiliki lisensi GroupDocs.Signature yang valid. Percobaan gratis tersedia untuk evaluasi.
 
 **Q: Apakah tanda tangan barcode bekerja dengan PDF yang dilindungi kata sandi?**  
 A: Tentu saja. Berikan kata sandi dokumen saat membuat instance `Signature`, dan API akan mendekripsi, menandatangani, dan mengenkripsi kembali file secara otomatis.
 
-**Q: Format barcode mana yang direkomendasikan untuk pemindaian seluler?**  
+**Q: Format barcode apa yang direkomendasikan untuk pemindaian seluler?**  
 A: QR Code dan Data Matrix memiliki kompatibilitas smartphone terbaik dan koreksi kesalahan bawaan, menjadikannya ideal untuk pekerja lapangan.
 
 **Q: Bagaimana cara memperbarui barcode yang ada tanpa menandatangani ulang seluruh dokumen?**  
-A: Gunakan metode pembaruan `BarcodeSignOptions` yang ditunjukkan dalam tutorial “Initialize and Update” – Anda dapat memodifikasi konten, ukuran, atau posisi secara langsung, menjaga sisa file tetap.
+A: Gunakan metode pembaruan `BarcodeSignOptions` yang ditunjukkan dalam tutorial “Initialize and Update” – Anda dapat memodifikasi konten, ukuran, atau posisi secara langsung, mempertahankan sisanya file.
 
 **Q: Apakah ada dampak kinerja saat menandatangani ribuan PDF?**  
 A: API dioptimalkan untuk operasi batch; gunakan kembali satu instance `Signature` dan nonaktifkan logging yang berlebihan untuk memaksimalkan throughput. Throughput tipikal melebihi 200 dokumen per menit pada server standar 8‑core.
 
-## Sumber Daya
-
+## Sumber daya
 - [Dokumentasi GroupDocs.Signature untuk Java](https://docs.groupdocs.com/signature/java/)
 - [Referensi API GroupDocs.Signature untuk Java](https://reference.groupdocs.com/signature/java/)
 - [Unduh GroupDocs.Signature untuk Java](https://releases.groupdocs.com/signature/java/)
@@ -206,14 +205,19 @@ A: API dioptimalkan untuk operasi batch; gunakan kembali satu instance `Signatur
 
 ## Kesimpulan
 
-Membuat tanda tangan kode QR di Java menjadi mudah dengan GroupDocs.Signature. Dengan mengikuti langkah-langkah di atas Anda dapat menanamkan data aman yang dapat dibaca mesin ke dalam jenis dokumen apa pun yang didukung, mengotomatiskan pengambilan data, dan menjamin integritas dokumen. Jelajahi tutorial yang ditautkan untuk pendalaman lebih lanjut—apakah Anda perlu mengelola barcode secara skala besar, memverifikasinya dalam arsip, atau mematuhi standar industri khusus seperti HIBC atau GS1.
+Menambahkan QR code atau barcode lain ke PDF sangat mudah dengan GroupDocs.Signature untuk Java. Dengan mengikuti langkah-langkah di atas Anda dapat menyematkan data yang aman dan dapat dibaca mesin ke jenis dokumen apa pun yang didukung, mengotomatisasi pengambilan data, dan menjamin integritas dokumen. Jelajahi tutorial yang ditautkan untuk penjelasan lebih mendalam—apakah Anda perlu mengelola barcode secara skala besar, memverifikasinya dalam arsip, atau mematuhi standar industri khusus seperti HIBC atau GS1.
 
-**Terakhir Diperbarui:** 2026-06-21  
-**Diuji Dengan:** GroupDocs.Signature untuk Java 23.12 (latest at time of writing)  
+---
+
+**Terakhir Diperbarui:** 2026-11-01  
+**Diuji Dengan:** GroupDocs.Signature for Java 23.12 (terbaru pada saat penulisan)  
 **Penulis:** GroupDocs  
 
-## Tutorial Terkait
-
+## Tutorial terkait
 - [Verifikasi QR Code Dokumen Java - Panduan Komprehensif GroupDocs.Signature](/signature/java/search-verification/java-qr-code-signature-verification-groupdocs/)
-- [Cara Membaca QR Code PDF menggunakan Java dan GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+- [Cara membaca QR code PDF menggunakan Java dan GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
 - [Buat Tanda Tangan Barcode di Java – Perbarui Barcode PDF](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
+
+```text
+Initialize a `Signature` instance with the source file, create a `BarcodeSignOptions` object set to QR code type, assign the data you want to embed, specify position and size, then call `sign` to produce the output file.
+```

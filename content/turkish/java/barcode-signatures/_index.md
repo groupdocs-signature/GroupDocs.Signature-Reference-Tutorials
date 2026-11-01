@@ -1,29 +1,31 @@
 ---
 categories:
 - Document Signatures
-date: '2026-06-21'
-description: GroupDocs.Signature for Java kullanarak PDF'lerde QR kod imzası oluşturmayı,
-  barkod imzalarını eklemeyi, doğrulamayı ve yönetmeyi öğrenin.
+date: '2026-11-01'
+description: GroupDocs.Signature for Java kullanarak pdf'ye barcode eklemeyi, QR code
+  imzası oluşturmayı, barcode imzalarını doğrulamayı ve yönetmeyi öğrenin.
 keywords:
-- create qr code signature
-- how to add barcode
-- barcode document verification
 - add barcode to pdf
+- how to add qr code to pdf
+- barcode signature java
 - groupdocs signature java
-lastmod: '2026-06-21'
-linktitle: Barcode Signatures
+- pdf barcode signing
+lastmod: '2026-11-01'
+linktitle: Barcode İmzaları
+og_description: GroupDocs.Signature for Java kullanarak pdf'ye barcode eklemeyi, QR
+  code imzası oluşturmayı, barcode imzalarını doğrulamayı ve yönetmeyi öğrenin.
+og_image_alt: 'Guide: add barcode to pdf using GroupDocs.Signature Java API'
+og_title: GroupDocs.Signature for Java ile pdf'ye barcode ekleme
 schemas:
 - author: GroupDocs
-  dateModified: '2026-06-21'
+  dateModified: '2026-11-01'
   description: Learn how to create QR code signature, add, verify and manage barcode
     signatures in PDFs using GroupDocs.Signature for Java.
-  headline: Java create qr code signature Tutorial – Add, Verify & Manage Barcodes
-    in PDFs
+  headline: Java Document Signature Tutorial – Add, Verify & Manage Barcodes in PDFs
   type: TechArticle
 - description: Learn how to create QR code signature, add, verify and manage barcode
     signatures in PDFs using GroupDocs.Signature for Java.
-  name: Java create qr code signature Tutorial – Add, Verify & Manage Barcodes in
-    PDFs
+  name: Java Document Signature Tutorial – Add, Verify & Manage Barcodes in PDFs
   steps:
   - name: Initialise the Signature handler
     text: '`Signature` is the entry point for all signing, searching and verification
@@ -33,7 +35,7 @@ schemas:
     text: '`BarcodeSignOptions` is the configuration class that defines barcode type,
       content, dimensions, colors, and placement on the page. > **Definition anchor:**
       `BarcodeSignOptions` is the options class used to specify every visual and data
-      attribute of a barcode signature before it is applied to a docum'
+      attribute of a barcode signature before it is applied to a document.'
   - name: Sign and save the document
     text: Calling `sign` writes the barcode onto the document and returns a result
       object that tells you whether the operation succeeded and where the barcode
@@ -63,180 +65,151 @@ tags:
 - pdf-signing
 - java-tutorial
 - document-security
-title: Java QR kod imzası oluşturma Eğitimi – PDF'lerde Barkodları Ekle, Doğrula ve
-  Yönet
+- add barcode to pdf
+title: GroupDocs.Signature for Java ile pdf'ye barcode ekleme
 type: docs
 url: /tr/java/barcode-signatures/
 weight: 4
 ---
 
-# Java QR kod imzası oluşturma Eğitimi: PDF'lerde Barkodları Ekleyin, Doğrulayın ve Yönetin
+# GroupDocs.Signature for Java ile PDF'ye barkod ekleme
 
-Makine tarafından okunabilir verileri doğrudan belgelerinize yerleştirmek, iş akışlarını otomatikleştirmenin ve bütünlüğü garanti etmenin güçlü bir yoludur. Bu **Java QR kod imzası oluşturma** eğitiminde, ürün kimliklerini, izleme numaralarını veya doğrulama kodlarını PDF'ler, Word dosyaları, görüntüler ve hatta arşiv formatları içinde güvenli bir şekilde nasıl kodlayacağınızı keşfedeceksiniz. GroupDocs.Signature for Java, çok adımlı bir süreci sadece birkaç kod satırına indirgerken, orijinal belgeyi değiştirmeden tutar.
+Makine tarafından okunabilir verileri doğrudan PDF'lerinize (veya desteklenen herhangi bir belgeye) yerleştirerek doğrulamayı otomatikleştirebilir, veri toplama süreçlerini hızlandırabilir ve müdahale kanıtlı bir denetim izi oluşturabilirsiniz. Bu öğreticide, GroupDocs.Signature for Java kullanarak **PDF'ye barkod ekleme** işlemini öğrenecek, QR kod oluşturulmasından doğrulama ve yönetimine kadar her şeyi kapsayacaksınız. Kütüphane 55'ten fazla dosya formatını destekler, bu yüzden aynı kod Word, görüntüler, arşivler ve daha fazlası için çalışır.
 
-## Hızlı Yanıtlar
-- **Gerekli kütüphane nedir?** GroupDocs.Signature for Java (Maven veya doğrudan indirme).  
-- **Hangi Java sürümü destekleniyor?** Java 8 veya daha yenisi.  
-- **PDF, Word ve görüntüler imzalayabilir miyim?** Evet, API **55**'ten fazla formatta çalışır.  
-- **Barkod imzaları QR, Data Matrix ve GS1'i destekliyor mu?** Yukarıdakilerin tümü ve ayrıca Code128, Code39, HIBC vb.  
-- **Üretim için lisans gerekli mi?** Ticari kullanım için geçerli bir GroupDocs.Signature lisansı gereklidir.  
-- **Kaç satır kod gerekir?** Tam bir QR kod imzası oluşturmak için tipik olarak 5‑10 satır gerekir.  
+## Hızlı cevaplar
+- **Hangi kütüphane gerekiyor?** GroupDocs.Signature for Java (available via Maven Central).  
+- **Hangi Java sürümü gerekiyor?** Java 8 or newer.  
+- **PDF ve diğer formatlara barkod ekleyebilir miyim?** Yes – the API works with 55+ formats, including PDF, DOCX, XLSX, PNG, TAR, ZIP, and more.  
+- **Hangi barkod tipleri destekleniyor?** QR Code, Data Matrix, Code128, Code39, HIBC, GS1 Composite, and many others.  
+- **Üretim için lisans gerekli mi?** A valid GroupDocs.Signature license is mandatory for commercial use; a free trial is available for testing.  
+- **Kaç satır kod gerekir?** Typically 5‑10 lines to create and embed a QR code barcode.
+
+## GroupDocs.Signature for Java ile PDF'ye barkod ekleme nasıl yapılır?
+Hedef PDF'yi yükleyin, barkod seçeneklerini yapılandırın ve `sign` metodunu çağırın – ihtiyacınız olan tek şey bu. API, barkodu belgeye doğrudan yazarak orijinal dosya yapısını korur, böylece taramaya veya otomatik doğrulamaya hazır imzalı bir PDF elde edersiniz.
+
+Bir PDF'ye barkod eklemek sadece üç basit adımda yapılabilir: `Signature` işleyicisini başlatın, istediğiniz barkod tipi ve görsel ayarlarla `BarcodeSignOptions`'ı yapılandırın ve son olarak barkodu gömmek ve çıktı dosyasını kaydetmek için `sign` metodunu çağırın.
 
 ## QR kod imzası nedir?
-Bir **QR kod imzası**, belgeye eklenen bir QR kod görsel öğesi içinde özel veri depolayan barkod tabanlı bir dijital imzadır. QR kod tarandığında gömülü bilgi elde edilir, bu da dosyanın orijinal içeriğini değiştirmeden otomatik doğrulama ve veri çıkarımını sağlar.
+QR kod imzası, bir belgeye eklenen QR kod görsel öğesi içinde özel veri depolayan barkod tabanlı bir dijital imzadır. QR kod tarandığında gömülü bilgi elde edilir, bu da dosyanın orijinal içeriğini değiştirmeden otomatik doğrulama ve veri çıkarımını mümkün kılar.
 
-## Belgelerde barkod imzaları neden kullanılmalı?
-Barkod imzaları yaygın bir sorunu çözer: içeriği değiştirmeden belgelere makine tarafından okunabilir meta verileri güvenli bir şekilde eklemek. Otomatik veri yakalamayı sağlar, doğrulamayı iyileştirir ve iş akışlarını sadeleştirir, böylece işletmelerin belge işleme süreçlerini mevcut sistemlerle bütünleştirmesi, bütünlüğü ve uyumu koruması daha kolay olur.
+## Belgelerde barkod imzaları neden kullanılır?
+Barkod imzaları yaygın bir sorunu çözer: belgelerin içeriğini değiştirmeden makine tarafından okunabilir meta verileri güvenli bir şekilde eklemek. Otomatik veri toplama, doğrulamayı iyileştirme ve iş akışlarını hızlandırma imkanı sağlar, böylece işletmeler belge işleme süreçlerini mevcut sistemlerle bütünleştirirken bütünlüğü ve uyumu korur.
 
-- **Otomatik Veri Yakalama** – Bilgiyi manuel olarak yazmak yerine barkodu tarayın. Depolar, sevkiyat bölümleri veya yüksek hacimli ortamlar için mükemmeldir.  
-- **Belge Doğrulama** – Belge özgünlüğünü doğrulamak için benzersiz tanımlayıcılar veya kontrol toplamları kodlayın. Birisi dosyayı değiştirirse, barkod eşleşmez.  
-- **İş Akışı Otomasyonu** – Belgeler tarandığında otomatik süreçleri tetikleyin. Faturaların otomatik yönlendirilmesi, envanter sistemlerinin güncellenmesi veya uyum kayıtlarının kaydedilmesi gibi.  
-- **Alan Verimliliği** – Barkodlar büyük miktarda veriyi çok küçük bir görsel alana (genellikle sadece 1 inç kare) sığdırır.  
-- **Sektör Standardı Desteği** – Sağlık (HIBC), perakende (GS1), lojistik (Code128) veya genel ihtiyaçlar (QR Code, Data Matrix) ile çalışın. Doğru barkod türü, sektör gereksinimlerine uyum sağlamanızı sağlar.  
+## Java ile QR kod imzası oluşturma başlangıcı
+Before you write any code, make sure you have:
 
-## Java QR kod imzası oluşturma ile Başlarken
+- Java 8 veya daha yeni bir sürüm yüklü.  
+- GroupDocs.Signature for Java projenize eklenmiş (Maven bağımlılığı veya manuel JAR).  
+- SDK'nin okuyabileceği bir konuma yerleştirilmiş geçerli bir GroupDocs.Signature lisans dosyası (veya deneme anahtarı).
 
-Koda dalmadan önce temel konuları ele alalım. GroupDocs.Signature for Java **55+** belge formatını (PDF, DOCX, XLSX, görüntüler, TAR, ZIP ve daha fazlası) destekler ve onlarca barkod türü sunar. Tipik iş akışı şu şekildedir:
+The typical workflow is:
 
-1. **`Signature` nesnesini** kaynak belgenizin yolu ile başlatın.  
-2. **`BarcodeSignOptions`** yapılandırın – barkod türünü seçin, içeriğini, boyutunu, rengini ve konumunu ayarlayın.  
-3. **İmzayı uygulayın** ve imzalı belgeyi kaydedin.  
-4. **Barkodları ara veya doğrula** daha sonra veri çıkarmak veya doğrulamak istediğinizde.
+1. `Signature` nesnesini kaynak dosya yolu ile başlatın.  
+2. `BarcodeSignOptions`'ı yapılandırın – barkod tipini seçin, veri dizesini, boyutu, renkleri ve konumu ayarlayın.  
+3. Barkodu gömmek ve imzalı belgeyi diske yazmak için `sign` metodunu çağırın.
 
-Java 8 veya daha yenisine ve GroupDocs.Signature kütüphanesine (Maven Central üzerinden veya doğrudan indirme ile) ihtiyacınız olacak. Tüm işlemler bellek içinde gerçekleşir, bu yüzden orijinal dosya dokunulmaz kalır.
-
-## Doğru Barkod Türünü Seçmek
-
+## Doğru barkod tipini seçme
 Hangi barkodu kullanacağınızdan emin değil misiniz? İşte hızlı bir karar rehberi:
 
-- **URL'ler veya uzun metinler (≈4.000 karaktere kadar)**: **QR Code** – en esnek ve akıllı telefonlarla okunabilen seçenek.  
-- **Sağlık/ilaç takibi için**: **HIBC LIC** barkodları (QR, Aztec veya Data Matrix varyantları).  
-- **Perakende/tedarik zinciri (GS1 standartları) için**: **GS1 Composite** veya **GS1‑128**.  
-- **Kompakt sayısal veri için**: **Code128** veya **Code39** – izleme numaraları, seri kodları veya kısa tanımlayıcılar için harika.  
-- **Hata düzeltmeli büyük veri setleri için**: **Data Matrix** veya **Aztec** – geleneksel 1D barkodlardan daha fazla veri depolar ve kısmen hasar görmüş olsa bile çalışır.
+- **URL'ler veya uzun metinler (yaklaşık 4.000 karaktere kadar)** – **QR Code** en esnek olanıdır ve herhangi bir akıllı telefon kamerasıyla çalışır.  
+- **Sağlık hizmetleri veya ilaç takibi için** – **HIBC LIC** barkodları (QR, Aztec veya Data Matrix varyantları) sektör düzenlemelerini karşılar.  
+- **Perakende veya tedarik zinciri (GS1 standartları) için** – **GS1 Composite** veya **GS1‑128** gerekli veri yapısını sağlar.  
+- **Kompakt sayısal veri için** – **Code128** veya **Code39** izleme numaraları veya seri kodları için idealdir.  
+- **Hata düzeltmeli büyük veri setleri için** – **Data Matrix** veya **Aztec** daha fazla veriyi daha küçük bir alana sığdırır ve kısmen hasar gördüğünde bile okunabilir kalır.
 
-**Pro ipucu:** Emin değilseniz, QR Code ile başlayın—çoğu kullanım senaryosunu karşılar ve özel tarayıcılara ihtiyaç duymaz.
+**Pro ipucu:** Eğer emin değilseniz QR Code ile başlayın; en yüksek uyumluluk ve hata düzeltme seçeneklerini sunar.
 
 ## Java'da QR kod imzası nasıl oluşturulur
-Java'da QR kod imzası oluşturmak, hedef belgeyi yüklemeyi, istenen içerik ve görsel özelliklerle barkod seçeneklerini yapılandırmayı ve ardından imzayı uygulamayı içerir. GroupDocs.Signature API, tüm düşük seviyeli detayları yönetir, barkodun doğru şekilde gömülmesini sağlarken orijinal dosya yapısını korur ve daha sonraki doğrulamaya izin verir.
+QR kod imzası oluşturmak için önce PDF dosyasını bir `Signature` örneğine yükleyin, ardından `BarcodeTypes.QR` belirterek ve gömmek istediğiniz veriyi (ör. bir URL veya JSON yükü) belirterek `BarcodeSignOptions` nesnesini oluşturun. Gerekli olduğunda boyut, renk ve konumu ayarlayın ve son olarak `sign` metodunu çağırın; bu metod QR kodu belgeye yerleştirir ve başarı durumunu ve imzanın konumunu gösteren bir sonuç döndürür.
 
-```text
-Initialize a `Signature` instance with the source file, create a `BarcodeSignOptions` object set to QR code type, assign the data you want to embed, specify position and size, then call `sign` to produce the output file.
-```
+## Adım 1: Signature işleyicisini başlatma
+`Signature`, tüm imzalama, arama ve doğrulama işlemleri için giriş noktasıdır. PDF'ler, Word belgeleri, görüntüler ve arşiv formatları için dosya işlemlerini soyutlar.
 
-### Adım 1: Signature işleyicisini başlatma
-`Signature`, tüm imzalama, arama ve doğrulama işlemleri için giriş noktasıdır. PDF, Word belgeleri, görüntüler ve arşiv formatları için dosya işlemlerini soyutlar.
+## Adım 2: `BarcodeSignOptions`'ı yapılandırma
+`BarcodeSignOptions`, bir belgeye uygulanmadan önce barkod imzasının tüm görsel ve veri özelliklerini belirlemek için kullanılan seçenek sınıfıdır.
 
-### Adım 2: `BarcodeSignOptions` yapılandırması
-`BarcodeSignOptions`, sayfada barkod türünü, içeriğini, boyutlarını, renklerini ve konumunu tanımlayan yapılandırma sınıfıdır.  
+Typical settings include:
 
-> **Tanım bağlantısı:** `BarcodeSignOptions`, bir barkod imzasının belgeye uygulanmadan önce tüm görsel ve veri özelliklerini belirtmek için kullanılan seçenek sınıfıdır.
+- **Barkod tipi** – `BarcodeTypes.QR`  
+- **Gömülecek veri** – bir URL veya JSON yükü gibi herhangi bir UTF‑8 dizesi  
+- **Boyut** – nokta cinsinden genişlik ve yükseklik (ör. 120 × 120)  
+- **Konum** – sayfa numarası, X/Y koordinatları veya hizalama bayrakları  
+- **Görsel stil** – ön plan/arka plan renkleri, opaklık, döndürme  
 
-Tipik ayarlar şunları içerir:
-- **Barkod türü** – `BarcodeTypes.QR`
-- **Gömülecek veri** – bir URL veya JSON yükü gibi herhangi bir UTF‑8 dizesi
-- **Boyut** – genişlik ve yükseklik puan cinsinden (ör. 120 × 120)
-- **Pozisyon** – sayfa numarası, X/Y koordinatları veya hizalama bayrakları
-- **Görsel stil** – ön plan/arka plan renkleri, opaklık, döndürme
+## Adım 3: belgeyi imzala ve kaydet
+`sign` metodunu çağırmak, barkodu belgeye yazar ve işlemin başarılı olup olmadığını ve barkodun nerede yerleştirildiğini belirten bir sonuç nesnesi döndürür.
 
-### Adım 3: Belgeyi imzala ve kaydet
-`sign` çağrısı, barkodu belgeye yazar ve işlemin başarılı olup olmadığını ve barkodun nerede yerleştirildiğini belirten bir sonuç nesnesi döndürür.
+## Yaygın kullanım senaryoları
+Developers use QR code signatures for:
 
-## Yaygın Kullanım Senaryoları
+- **Fatura işleme** – Fatura numaralarını ve tutarlarını kodlayın; muhasebe yazılımı bunları tarayarak ödeme sistemlerini otomatik doldurur.  
+- **Belge takibi** – Sözleşmelere benzersiz barkodlar ekleyin; tarama anında sürüm geçmişi ve onay durumunu getirir.  
+- **Depo yönetimi** – Gönderi etiketlerini ürün SKU'larıyla imzalayın; tarayıcılar envanteri gerçek zamanlı günceller.  
+- **Uyumluluk ve denetim izleri** – Bir belgenin imzalandıktan sonra değiştirilmediğini kanıtlayan doğrulama kodları ekleyin.  
+- **Sağlık kayıtları** – Hasta dosyalarında uygun takibi ve yasal uyumu sağlamak için HIBC uyumlu barkodlar kullanın.
 
-İşte geliştiricilerin QR kod imzalarını nasıl kullandığı:
+## Mevcut öğreticiler
+Aşağıda her barkod imza işlemi için adım adım rehberler bulacaksınız. Her öğretici, projenize uyarlayabileceğiniz tam ve çalışan Java kodu içerir.
 
-- **Fatura İşleme** – Fatura numaralarını ve tutarlarını QR kod olarak kodlayın. Muhasebe yazılımı bunları tarar ve ödeme sistemlerini otomatik doldurur.  
-- **Belge Takibi** – Sözleşmelere veya yasal belgelere benzersiz barkodlar ekleyin. Tarayarak dosya geçmişini ve onay durumunu anında görüntüleyin.  
-- **Depo Yönetimi** – Gönderi etiketlerini ürün SKU'ları ve miktarlarıyla imzalayın. Tarayıcılar envanteri gerçek zamanlı günceller.  
-- **Uyum ve Denetim İzleri** – İmzalandıktan beri belgenin değiştirilmediğini kanıtlayan doğrulama kodları ekleyin.  
-- **Sağlık Kayıtları** – Hasta dosyalarında HIBC uyumlu barkodlar kullanarak doğru izleme ve düzenleyici uyumu sağlayın.
+- [GroupDocs.Signature kullanarak verimli java barkod imza yönetimi]({{< relref "./java-barcode-signature-management-groupdocs-signature/" >}})
+- [GroupDocs.Signature for Java kullanarak Barkodlu PDF'ler Nasıl Oluşturulur ve İmzalanır]({{< relref "./create-sign-pdfs-groupdocs-barcode-java/" >}})
+- [GroupDocs.Signature ile Java'da Barkod İmza Araması Nasıl Uygulanır]({{< relref "./implement-barcode-signature-search-groupdocs-signature-java/" >}})
+- [GroupDocs.Signature kullanarak Java'da Barkod İmzalarını Başlatma ve Güncelleme]({{< relref "./java-groupdocs-signature-barcode-initialize-update/" >}})
+- [GroupDocs.Signature for Java ile HIBC LIC Kodlu PDF'ler Nasıl İmzalanır: Kapsamlı Rehber]({{< relref "./sign-pdfs-hibc-lic-codes-groupdocs-java/" >}})
+- [GroupDocs.Signature kullanarak Java'da Barkod İmzalarını Doğrulama]({{< relref "./verify-barcode-signatures-groupdocs-signature-java/" >}})
+- [GroupDocs.Signature API kullanarak Java PDF barkod araması: kapsamlı rehber]({{< relref "./java-pdf-barcode-search-groupdocs-signature-api/" >}})
+- [GroupDocs kullanarak Java PDF imzalama ve barkod: kapsamlı rehber]({{< relref "./java-pdf-signing-barcode-groupdocs/" >}})
+- [GroupDocs.Signature for java kullanarak barkodlu PDF belgeleri imzalama: kapsamlı rehber]({{< relref "./sign-pdf-barcode-groupdocs-signature-java/" >}})
+- [GroupDocs.Signature for java kullanarak GS1 bileşik barkodlu PDF'ler imzalama]({{< relref "./sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/" >}})
+- [GroupDocs.Signature kullanarak java'da TAR arşivlerini barkod ve QR kodlarıyla imzalama]({{< relref "./sign-tar-archives-barcode-qr-code-java/" >}})
+- [GroupDocs.Signature for java kullanarak ZIP dosyalarındaki barkod imzalarını doğrulama]({{< relref "./verify-barcode-signatures-zip-groupdocs-signature-java/" >}})
 
-## Mevcut Eğitimler
+## Barkod imzaları için en iyi uygulamalar
+- **Barkod içeriğini kısa tutun** – 500 karakterin altında hedefleyin; daha küçük barkodlar daha hızlı taranır ve düşük çözünürlükte daha net görünür.  
+- **Üretim öncesi taramayı test edin** – Kullanıcılarınızın kullanacağı gerçek tarayıcıların seçilen formatı okuyabildiğini doğrulayın.  
+- **Barkodları tutarlı bir şekilde yerleştirin** – Sağ alt köşe veya başka sabit bir konum, otomatik tarama güvenilirliğini artırır.  
+- **Hata düzeltmeyi etkinleştirin** – Hasara karşı dayanıklılık için QR Code’un “H” seviyesi veya Data Matrix’in yüksek ECC modunu kullanın.  
+- **Görsel imzalarla birleştirin** – Barkodu, hem makine hem de insan doğrulaması için geleneksel bir dijital imza ile eşleştirin.  
+- **Doğrulama hatalarını nazikçe yönetin** – Uyumsuzlukları kaydedin; bunlar müdahaleyi gösterebilir ve güvenlik uyarılarını tetiklemelidir.  
 
-Aşağıda her barkod imza işlemi için adım adım rehberler bulacaksınız. Her eğitim, projenize uyarlayabileceğiniz tam ve çalışan Java kodu içerir.
+## Sıkça sorulan sorular
+**S: Barkod imzalarını ticari bir uygulamada kullanabilir miyim?**  
+C: Evet, geçerli bir GroupDocs.Signature lisansınız olduğu sürece. Değerlendirme için ücretsiz bir deneme mevcuttur.
 
-### [Verimli Java Barkod İmza Yönetimi GroupDocs.Signature Kullanarak](./java-barcode-signature-management-groupdocs-signature/)
-Tam yaşam döngüsü için buradan başlayın: imza işleyicisini başlatma, belgelerde mevcut barkodları arama ve imzalar artık ihtiyaç duyulmadığında silme. Dinamik barkod imzalarına ihtiyaç duyan belge yönetim sistemleri için mükemmeldir.
+**S: Barkod imzaları şifre korumalı PDF'lerde çalışır mı?**  
+C: Kesinlikle. `Signature` örneğini oluştururken belge şifresini sağlayın, API otomatik olarak dosyayı çözer, imzalar ve yeniden şifreler.
 
-### [Java için GroupDocs.Signature ile PDF'leri Barkodlarla Oluşturma ve İmzalama](./create-sign-pdfs-groupdocs-barcode-java/)
-Yeni PDF'leri barkod imzalarıyla imzalamak için başvuru rehberiniz. Belgeleri programlı olarak oluşturmayı ve oluşturma sırasında barkod eklemeyi öğrenin—otomatik fatura üretimi veya sertifika baskı iş akışları için idealdir.
+**S: Mobil tarama için hangi barkod formatları önerilir?**  
+C: QR Code ve Data Matrix, en iyi akıllı telefon uyumluluğu ve yerleşik hata düzeltme özelliklerine sahiptir, bu da onları saha çalışanları için ideal kılar.
 
-### [Java'da GroupDocs.Signature ile Barkod İmza Aramasını Uygulama](./implement-barcode-signature-search-groupdocs-signature-java/)
-Bir belge topluluğundaki tüm barkodları bulmanız mı gerekiyor? Bu eğitim, barkod türüne, içeriğine veya konumuna göre nasıl arama yapacağınızı gösterir. Büyük belge depolarını denetlemek veya taranmış dosyalardan veri çıkarmak için gereklidir.
+**S: Tüm belgeyi yeniden imzalamadan mevcut bir barkodu nasıl güncellerim?**  
+C: “Başlatma ve Güncelleme” öğreticisinde gösterilen `BarcodeSignOptions` güncelleme yöntemlerini kullanın – içeriği, boyutu veya konumu yerinde değiştirebilir, dosyanın geri kalanını koruyabilirsiniz.
 
-### [Java'da GroupDocs.Signature Kullanarak Barkod İmzalarını Başlatma ve Güncelleme](./java-groupdocs-signature-barcode-initialize-update/)
-PDF'lerinizde zaten barkodlar var ancak içeriği veya görünümü değiştirmek mi istiyorsunuz? Bu rehber, tüm belgeyi yeniden oluşturmanıza gerek kalmadan mevcut barkod imzalarını güncellemeyi kapsar—işlem süresini tasarruf eder ve belge geçmişini korur.
-
-### [Java için GroupDocs.Signature ile HIBC LIC Kodlu PDF'leri İmzalama: Kapsamlı Rehber](./sign-pdfs-hibc-lic-codes-groupdocs-java/)
-Sağlık ve ilaç sektörleri HIBC (Health Industry Bar Code) standartlarını gerektirir. Regülasyon uyumu için HIBC LIC QR, Aztec ve Data Matrix kodlarını nasıl uygulayacağınızı, doğrulamayı ve en iyi uygulamaları öğrenin.
-
-### [Java'da GroupDocs.Signature ile Barkod İmzalarını Doğrulama](./verify-barcode-signatures-groupdocs-signature-java/)
-Güven her şeydir. Bu eğitim, barkod imzalarının otantik ve değiştirilmemiş olduğunu nasıl doğrulayacağınızı öğretir. Barkod içeriğini doğrulamayı, kodlama türlerini kontrol etmeyi ve belge bütünlüğünü sağlamayı öğreneceksiniz—hukuki veya finansal belgeler için kritik.
-
-### [Java PDF Barkod Araması GroupDocs.Signature API ile: Kapsamlı Rehber](./java-pdf-barcode-search-groupdocs-signature-api/)
-PDF‑özel barkod aramasına derinlemesine bakış. Sayfa, bölge ve barkod formatına göre gelişmiş filtreleme ve barkod meta verilerini sonraki işleme için çıkarma konularını kapsar. Özel belge indeksleme sistemleri oluşturmak için harikadır.
-
-### [Java PDF'yi Barkod ile İmzalama GroupDocs Kullanarak: Kapsamlı Rehber](./java-pdf-signing-barcode-groupdocs/)
-PDF'lere barkod imzaları eklemek için kapsamlı uçtan uca rehber. Özelleştirme seçenekleri (renkler, yazı tipleri, konumlandırma), hata yönetimi ve yüksek hacimli belge işleme için performans iyileştirme ipuçları içerir.
-
-### [Java için GroupDocs.Signature ile Barkodlu PDF Belgelerini İmzalama: Kapsamlı Rehber](./sign-pdf-barcode-groupdocs-signature-java/)
-Güvenlik ve profesyonel iş akışlarına ekstra odaklı bir PDF barkod imzalama rehberi. Şeffaflık ayarlamayı, barkodları belirli koordinatlara hizalamayı ve dijital imza zincirleriyle bütünleştirmeyi öğrenin.
-
-### [Java için GroupDocs.Signature ile GS1 Composite Barkodlu PDF'leri İmzalama](./sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/)
-Tedarik zinciri veya perakende için GS1 standartlarına uymanız mı gerekiyor? Bu rehber, ürün doğrulama ve izlenebilirlik için lineer ve 2D bileşenleri birleştiren GS1 Composite Barkodları üzerine odaklanır. Nakliye etiketleri ve uluslararası lojistik için gereklidir.
-
-### [Java'da GroupDocs.Signature Kullanarak TAR Arşivlerini Barkod ve QR Kodlarıyla İmzalama](./sign-tar-archives-barcode-qr-code-java/)
-Evet, sıkıştırılmış arşivleri de imzalayabilirsiniz! Belge paketlerinin güvenli dağıtımı için TAR dosyalarına barkod imzaları eklemeyi öğrenin. Yazılım sürümleri, veri paketleri veya güvenli dosya transferleri için mükemmeldir.
-
-### [Java için GroupDocs.Signature ile ZIP Dosyalarındaki Barkod İmzalarını Doğrulama](./verify-barcode-signatures-zip-groupdocs-signature-java/)
-ZIP dosyaları içindeki barkod imzalarını doğrulayarak arşivlenmiş belgelerin bütünlüğünü sağlayın. Bu eğitim, toplu doğrulama iş akışlarını ve sıkıştırılmış belge paketlerini nasıl doğrulayacağınızı kapsar—uyum denetimleri veya otomatik kalite kontrolleri için faydalıdır.
-
-## Barkod İmzaları için En İyi Uygulamalar
-
-- **Barkod İçeriğini Kısa Tutun** – QR kodlar binlerce karakter tutabilir, ancak daha küçük barkodlar daha hızlı taranır ve düşük çözünürlükte daha net görünür. Özellikle daha büyük veri setlerine ihtiyacınız yoksa 500 karakterin altında tutun.  
-- **Üretim Öncesi Tarama Testi** – Tüm barkod okuyucular her formatı aynı derecede iyi işlemez. Barkodlarınızı kullanıcıların sahip olacağı gerçek tarayıcılarla (akıllı telefon kameraları, özel okuyucular vb.) test edin.  
-- **Konum Önemlidir** – Tüm belgelerde barkodları tutarlı bir konuma (ör. sağ alt köşe) yerleştirin. Bu, otomatik taramayı çok daha güvenilir kılar.  
-- **Hata Düzeltme Kullanın** – QR kodlar ve Data Matrix barkodları hata düzeltme seviyelerini destekler. Daha yüksek seviyeler (ör. QR’nin “H” seviyesi) barkodların %30’a kadar hasar görmüş veya gizlenmiş olsa bile çalışmasını sağlar.  
-- **Görsel İmzalarla Birleştirin** – Hem insan hem de makine doğrulaması gerektiren belgeler için barkodu geleneksel bir dijital imzanın yanına ekleyin. Otomasyon faydaları ve yasal geçerlilik elde edersiniz.  
-- **Doğrulama Hatalarını Nazikçe Ele Alın** – Belgeleri işlemeye başlamadan önce barkod doğrulamasının başarılı olup olmadığını her zaman kontrol edin. Geçersiz barkodlar müdahaleyi gösterebilir—bu olayları güvenlik denetimleri için kaydedin.  
-
-## Sık Sorulan Sorular
-
-**S:** Barkod imzalarını ticari bir uygulamada kullanabilir miyim?  
-**C:** Evet, geçerli bir GroupDocs.Signature lisansınız olduğu sürece. Değerlendirme için ücretsiz bir deneme mevcuttur.
-
-**S:** Barkod imzaları şifre korumalı PDF'lerde çalışır mı?  
-**C:** Kesinlikle. `Signature` örneğini oluştururken belge şifresini sağlayın, API dosyayı otomatik olarak çözer, imzalar ve yeniden şifreler.
-
-**S:** Mobil tarama için hangi barkod formatları önerilir?  
-**C:** QR Code ve Data Matrix, en iyi akıllı telefon uyumluluğuna ve yerleşik hata düzeltmeye sahiptir, bu da saha çalışanları için idealdir.
-
-**S:** Mevcut bir barkodu tüm belgeyi yeniden imzalamadan nasıl güncellerim?  
-**C:** “Başlatma ve Güncelleme” eğitiminde gösterilen `BarcodeSignOptions` güncelleme yöntemlerini kullanın – içeriği, boyutu veya konumu yerinde değiştirebilir, dosyanın geri kalanını koruyabilirsiniz.
-
-**S:** Binlerce PDF imzalarken performans etkisi var mı?  
-**C:** API toplu işlemler için optimize edilmiştir; tek bir `Signature` örneğini yeniden kullanın ve verimliliği artırmak için ayrıntılı günlük kaydını devre dışı bırakın. Tipik throughput, standart 8 çekirdekli bir sunucuda dakikada 200'den fazla belgeyi aşar.
+**S: Binlerce PDF imzalanırken performans etkisi var mı?**  
+C: API toplu işlemler için optimize edilmiştir; tek bir `Signature` örneğini yeniden kullanın ve verimliliği artırmak için ayrıntılı günlük kaydını devre dışı bırakın. Tipik işlem hızı, standart 8 çekirdekli bir sunucuda dakikada 200'ün üzerinde belgeyi aşar.
 
 ## Kaynaklar
-
 - [GroupDocs.Signature for Java Dokümantasyonu](https://docs.groupdocs.com/signature/java/)
 - [GroupDocs.Signature for Java API Referansı](https://reference.groupdocs.com/signature/java/)
-- [GroupDocs.Signature for Java İndir](https://releases.groupdocs.com/signature/java/)
-- [GroupDocs.Signature Forumu](https://forum.groupdocs.com/c/signature)
+- [GroupDocs.Signature for Java'ı İndir](https://releases.groupdocs.com/signature/java/)
+- [GroupDocs.Signature Forum](https://forum.groupdocs.com/c/signature)
 - [Ücretsiz Destek](https://forum.groupdocs.com/)
 - [Geçici Lisans](https://purchase.groupdocs.com/temporary-license/)
 
 ## Sonuç
+GroupDocs.Signature for Java ile bir PDF'ye QR kodu veya başka bir barkod eklemek oldukça basittir. Yukarıdaki adımları izleyerek, desteklenen herhangi bir belge türüne güvenli, makine tarafından okunabilir veri gömebilir, veri toplama süreçlerini otomatikleştirebilir ve belge bütünlüğünü garanti edebilirsiniz. Bağlantılı öğreticileri daha derinlemesine inceleyin—barkodları büyük ölçekte yönetmeniz, arşivlerde doğrulamanız veya HIBC veya GS1 gibi sektöre özgü standartlara uymanız gerektiğinde.
 
-Java'da QR kod imzası oluşturmak, GroupDocs.Signature ile oldukça basittir. Yukarıdaki adımları izleyerek, desteklenen herhangi bir belge türüne güvenli, makine tarafından okunabilir veri ekleyebilir, veri yakalamayı otomatikleştirebilir ve belge bütünlüğünü garanti edebilirsiniz. Bağlantılı eğitimleri daha derinlemesine inceleyin—barkodları ölçekli yönetmeniz, arşivlerde doğrulamanız veya HIBC veya GS1 gibi sektör‑spesifik standartlara uymanız gerektiğinde.
+---
 
-**Last Updated:** 2026-06-21  
-**Test Edilen Versiyon:** GroupDocs.Signature for Java 23.12 (yazım sırasında en son sürüm)  
+**Son Güncelleme:** 2026-11-01  
+**Test Edilen Versiyon:** GroupDocs.Signature for Java 23.12 (latest at time of writing)  
 **Yazar:** GroupDocs  
 
-## İlgili Eğitimler
-
+## İlgili öğreticiler
 - [Java Belge QR Kod Doğrulama - Kapsamlı GroupDocs.Signature](/signature/java/search-verification/java-qr-code-signature-verification-groupdocs/)
-- [Java ve GroupDocs.Signature Kullanarak QR Kodlu PDF Okuma](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+- [Java ve GroupDocs.Signature kullanarak QR kodlu PDF nasıl okunur](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
 - [Java'da Barkod İmzası Oluşturma – PDF Barkodlarını Güncelleme](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
+
+```text
+Initialize a `Signature` instance with the source file, create a `BarcodeSignOptions` object set to QR code type, assign the data you want to embed, specify position and size, then call `sign` to produce the output file.
+```

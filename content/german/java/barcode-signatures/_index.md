@@ -1,30 +1,33 @@
 ---
 categories:
 - Document Signatures
-date: '2026-06-21'
-description: Erfahren Sie, wie Sie QR-Code-Signaturen erstellen, Barcode-Signaturen
-  in PDFs hinzufügen, verifizieren und verwalten, indem Sie GroupDocs.Signature für
-  Java verwenden.
+date: '2026-11-01'
+description: Erfahren Sie, wie Sie einen Barcode zu PDF hinzufügen, QR-Code-Signaturen
+  erstellen, Barcode-Signaturen überprüfen und verwalten, und zwar mit GroupDocs.Signature
+  für Java.
 keywords:
-- create qr code signature
-- how to add barcode
-- barcode document verification
 - add barcode to pdf
+- how to add qr code to pdf
+- barcode signature java
 - groupdocs signature java
-lastmod: '2026-06-21'
+- pdf barcode signing
+lastmod: '2026-11-01'
 linktitle: Barcode-Signaturen
+og_description: Erfahren Sie, wie Sie einen Barcode zu PDF hinzufügen, QR-Code-Signaturen
+  erstellen und Barcode-Signaturen in PDFs verwalten, mit GroupDocs.Signature für
+  Java.
+og_image_alt: 'Guide: add barcode to pdf using GroupDocs.Signature Java API'
+og_title: Wie man einen Barcode zu PDF hinzufügt mit GroupDocs.Signature für Java
 schemas:
 - author: GroupDocs
-  dateModified: '2026-06-21'
+  dateModified: '2026-11-01'
   description: Learn how to create QR code signature, add, verify and manage barcode
     signatures in PDFs using GroupDocs.Signature for Java.
-  headline: Java create qr code signature Tutorial – Add, Verify & Manage Barcodes
-    in PDFs
+  headline: Java Document Signature Tutorial – Add, Verify & Manage Barcodes in PDFs
   type: TechArticle
 - description: Learn how to create QR code signature, add, verify and manage barcode
     signatures in PDFs using GroupDocs.Signature for Java.
-  name: Java create qr code signature Tutorial – Add, Verify & Manage Barcodes in
-    PDFs
+  name: Java Document Signature Tutorial – Add, Verify & Manage Barcodes in PDFs
   steps:
   - name: Initialise the Signature handler
     text: '`Signature` is the entry point for all signing, searching and verification
@@ -34,7 +37,7 @@ schemas:
     text: '`BarcodeSignOptions` is the configuration class that defines barcode type,
       content, dimensions, colors, and placement on the page. > **Definition anchor:**
       `BarcodeSignOptions` is the options class used to specify every visual and data
-      attribute of a barcode signature before it is applied to a docum'
+      attribute of a barcode signature before it is applied to a document.'
   - name: Sign and save the document
     text: Calling `sign` writes the barcode onto the document and returns a result
       object that tells you whether the operation succeeded and where the barcode
@@ -64,184 +67,167 @@ tags:
 - pdf-signing
 - java-tutorial
 - document-security
-title: Java QR-Code-Signatur erstellen Tutorial – Hinzufügen, Verifizieren & Verwalten
-  von Barcodes in PDFs
+- add barcode to pdf
+title: Wie man einen Barcode zu PDF hinzufügt mit GroupDocs.Signature für Java
 type: docs
 url: /de/java/barcode-signatures/
 weight: 4
 ---
 
-# Java QR-Code-Signatur Tutorial: Hinzufügen, Verifizieren & Verwalten von Barcodes in PDFs
+# Wie man Barcode zu PDF mit GroupDocs.Signature für Java hinzufügt
 
-Embedding machine‑readable data directly into your documents is a powerful way to automate workflows and guarantee integrity. In this **Java create QR code signature** tutorial you’ll discover how to securely encode product IDs, tracking numbers, or verification codes inside PDFs, Word files, images, and even archive formats. GroupDocs.Signature for Java turns a multi‑step process into just a few lines of code, while keeping the original document unchanged.
+Maschinenlesbare Daten direkt in Ihre PDFs (oder jedes unterstützte Dokument) einzubetten, ermöglicht die Automatisierung der Verifizierung, die Optimierung der Datenerfassung und die Aufrechterhaltung einer manipulationssicheren Prüfspur. In diesem Tutorial lernen Sie, wie Sie **Barcode zu PDF**-Dateien mit GroupDocs.Signature für Java hinzufügen, wobei alles von der QR‑Code-Erstellung bis zur Verifizierung und Verwaltung abgedeckt wird. Die Bibliothek unterstützt mehr als 55 Dateiformate, sodass derselbe Code für Word, Bilder, Archive und mehr funktioniert.
 
 ## Schnelle Antworten
-- **Welche Bibliothek wird benötigt?** GroupDocs.Signature for Java (Maven or direct download).  
-- **Welche Java‑Version wird unterstützt?** Java 8 or newer.  
-- **Kann ich PDFs, Word und Bilder signieren?** Yes, the API works with over **55** formats.  
-- **Unterstützen Barcode‑Signaturen QR, Data Matrix und GS1?** All of the above plus Code128, Code39, HIBC, etc.  
-- **Wird für die Produktion eine Lizenz benötigt?** A valid GroupDocs.Signature license is required for commercial use.  
-- **Wie viele Codezeilen werden benötigt?** Typically 5‑10 lines for a full QR code signature creation.  
+- **Welche Bibliothek benötige ich?** GroupDocs.Signature für Java (verfügbar über Maven Central).  
+- **Welche Java-Version wird benötigt?** Java 8 oder neuer.  
+- **Kann ich Barcode zu PDF und anderen Formaten hinzufügen?** Ja – die API funktioniert mit mehr als 55 Formaten, einschließlich PDF, DOCX, XLSX, PNG, TAR, ZIP und mehr.  
+- **Welche Barcode-Typen werden unterstützt?** QR Code, Data Matrix, Code128, Code39, HIBC, GS1 Composite und viele weitere.  
+- **Benötige ich eine Lizenz für die Produktion?** Eine gültige GroupDocs.Signature-Lizenz ist für die kommerzielle Nutzung obligatorisch; ein kostenloser Testzeitraum ist zum Testen verfügbar.  
+- **Wie viele Codezeilen werden benötigt?** In der Regel 5‑10 Zeilen, um einen QR‑Code‑Barcode zu erstellen und einzubetten.
+
+## Wie man Barcode zu PDF mit GroupDocs.Signature für Java hinzufügt?
+
+Laden Sie das Ziel‑PDF, konfigurieren Sie die Barcode‑Optionen und rufen Sie die `sign`‑Methode auf – das ist alles, was Sie benötigen. Die API schreibt den Barcode direkt in das Dokument, wobei die ursprüngliche Dateistruktur erhalten bleibt, sodass Sie ein signiertes PDF erhalten, das zum Scannen oder zur automatischen Verifizierung bereit ist.
+
+Sie können einem PDF in nur drei einfachen Schritten einen Barcode hinzufügen: Initialisieren Sie den `Signature`‑Handler, konfigurieren Sie `BarcodeSignOptions` mit dem gewünschten Barcode‑Typ und den visuellen Einstellungen und rufen Sie schließlich `sign` auf, um den Barcode einzubetten und die Ausgabedatei zu speichern.
 
 ## Was ist eine QR‑Code‑Signatur?
-Eine **QR‑Code‑Signatur** ist eine barcode‑basierte digitale Signatur, die benutzerdefinierte Daten in einem QR‑Code‑ visuellen Element, das an ein Dokument angehängt ist, speichert. Der QR‑Code kann gescannt werden, um die eingebetteten Informationen abzurufen, wodurch eine automatisierte Verifizierung und Datenerfassung ermöglicht wird, ohne den ursprünglichen Inhalt der Datei zu verändern.
+
+Eine QR‑Code‑Signatur ist eine barcode‑basierte digitale Signatur, die benutzerdefinierte Daten in einem QR‑Code‑Visuellen Element speichert, das an ein Dokument angehängt ist. Der QR‑Code kann gescannt werden, um die eingebetteten Informationen abzurufen, wodurch eine automatische Verifizierung und Datenerfassung ermöglicht wird, ohne den ursprünglichen Inhalt der Datei zu verändern.
 
 ## Warum Barcode‑Signaturen in Dokumenten verwenden?
-Barcode signatures solve a common problem: securely attaching machine‑readable metadata to documents without altering their content. They enable automated data capture, improve verification, and streamline workflows, making it easier for businesses to integrate document processing with existing systems while maintaining integrity and compliance.
 
-- **Automatische Datenerfassung** – Scannen Sie einen Barcode anstatt Informationen manuell einzugeben. Perfekt für Lager, Versandabteilungen oder jede Hochdurchsatz‑Umgebung.  
-- **Dokumenten‑Verifizierung** – Kodieren Sie eindeutige Kennungen oder Prüfsummen, um die Authentizität des Dokuments zu prüfen. Wenn jemand die Datei manipuliert, stimmt der Barcode nicht überein.  
-- **Workflow‑Automatisierung** – Lösen Sie automatisierte Prozesse aus, wenn Dokumente gescannt werden. Denken Sie an automatisches Weiterleiten von Rechnungen, Aktualisieren von Bestandsystemen oder Protokollieren von Compliance‑Einträgen.  
-- **Platzersparnis** – Barcodes packen große Datenmengen in einen winzigen visuellen Fußabdruck – oft nur ein 1‑Zoll‑Quadrat.  
-- **Unterstützung von Industriestandards** – Arbeiten Sie mit Gesundheitswesen (HIBC), Einzelhandel (GS1), Logistik (Code128) oder generischen Anforderungen (QR‑Code, Data Matrix). Der richtige Barcode‑Typ hält Sie konform mit den Branchenanforderungen.  
+Barcode‑Signaturen lösen ein häufiges Problem: Sie ermöglichen das sichere Anfügen maschinenlesbarer Metadaten an Dokumente, ohne deren Inhalt zu verändern. Sie ermöglichen automatisierte Datenerfassung, verbessern die Verifizierung und optimieren Arbeitsabläufe, wodurch Unternehmen die Dokumentenverarbeitung leichter in bestehende Systeme integrieren können, während Integrität und Konformität erhalten bleiben.
 
-## Erste Schritte mit Java QR‑Code‑Signatur
+## Erste Schritte mit Java zur Erstellung einer QR‑Code‑Signatur
 
-Before diving into the code, let’s cover the essentials. GroupDocs.Signature for Java supports **55+** document formats (PDF, DOCX, XLSX, images, TAR, ZIP, and more) and provides dozens of barcode types. The typical workflow is:
+Bevor Sie Code schreiben, stellen Sie sicher, dass Sie Folgendes haben:
 
-1. **Initialisieren Sie das `Signature`‑Objekt** mit dem Pfad zu Ihrem Quelldokument.  
-2. **Konfigurieren Sie `BarcodeSignOptions`** – wählen Sie den Barcode‑Typ, setzen Sie dessen Inhalt, Größe, Farbe und Position.  
-3. **Wenden Sie die Signatur an** und speichern Sie das signierte Dokument.  
-4. **Suchen oder verifizieren Sie** später Barcodes, wenn Sie die Daten extrahieren oder validieren müssen.  
+- Java 8 oder neuer installiert.  
+- GroupDocs.Signature für Java zu Ihrem Projekt hinzugefügt (Maven‑Abhängigkeit oder manuelles JAR).  
+- Eine gültige GroupDocs.Signature‑Lizenzdatei (oder Testschlüssel) an einem Ort, an dem das SDK sie lesen kann.
 
-You’ll need Java 8 or newer and the GroupDocs.Signature library (available via Maven Central or direct download). All operations are performed in memory, so the original file remains untouched.
+Der typische Arbeitsablauf ist:
+
+1. Initialisieren Sie das `Signature`‑Objekt mit dem Quelldateipfad.  
+2. Konfigurieren Sie `BarcodeSignOptions` – wählen Sie den Barcode‑Typ, setzen Sie die Datenzeichenfolge, Größe, Farben und Position.  
+3. Rufen Sie `sign` auf, um den Barcode einzubetten und das signierte Dokument auf die Festplatte zu schreiben.
 
 ## Auswahl des richtigen Barcode‑Typs
 
-Not sure which barcode to use? Here’s a quick decision guide:
+Sie sind sich nicht sicher, welchen Barcode Sie verwenden sollen? Hier ist ein schneller Entscheidungsleitfaden:
 
-- **Für URLs oder langen Text (bis ~4.000 Zeichen)**: **QR‑Code** – die flexibelste und smartphone‑lesbare Option.  
-- **Für Gesundheits‑/Pharma‑Tracking**: **HIBC LIC**‑Barcodes (QR, Aztec oder Data‑Matrix‑Varianten).  
-- **Für Einzelhandel/Logistik (GS1‑Standards)**: **GS1 Composite** oder **GS1‑128**.  
-- **Für kompakte numerische Daten**: **Code128** oder **Code39** – ideal für Sendungsnummern, Seriencodes oder kurze Kennungen.  
-- **Für große Datensätze mit Fehlerkorrektur**: **Data Matrix** oder **Aztec** – sie speichern mehr Daten als traditionelle 1D‑Barcodes und funktionieren sogar bei teilweiser Beschädigung.  
+- **Für URLs oder langen Text (bis zu ~4.000 Zeichen)** – **QR Code** ist am flexibelsten und funktioniert mit jeder Smartphone‑Kamera.  
+- **Für das Gesundheitswesen oder die pharmazeutische Nachverfolgung** – **HIBC LIC**‑Barcodes (QR, Aztec oder Data Matrix‑Varianten) erfüllen die Branchenvorschriften.  
+- **Für Einzelhandel oder Lieferkette (GS1‑Standards)** – **GS1 Composite** oder **GS1‑128** bieten die erforderliche Datenstruktur.  
+- **Für kompakte numerische Daten** – **Code128** oder **Code39** sind ideal für Tracking‑Nummern oder Seriencodes.  
+- **Für große Datensätze mit Fehlerkorrektur** – **Data Matrix** oder **Aztec** packen mehr Daten in einen kleineren Bereich und bleiben lesbar, selbst wenn sie teilweise beschädigt sind.
 
-**Pro tip:** If you’re unsure, start with a QR Code—it handles most use cases and doesn’t require specialized scanners.
+**Pro‑Tipp:** Beginnen Sie mit einem QR‑Code, wenn Sie unsicher sind; er bietet die höchste Kompatibilität und Optionen zur Fehlerkorrektur.
 
 ## Wie man eine QR‑Code‑Signatur in Java erstellt
-Creating a QR code signature in Java involves loading the target document, configuring the barcode options with the desired content and visual properties, and then applying the signature. The GroupDocs.Signature API handles all low‑level details, ensuring the barcode is embedded correctly while preserving the original file structure and allowing later verification.
+
+Um eine QR‑Code‑Signatur zu erstellen, laden Sie zunächst die PDF‑Datei in eine `Signature`‑Instanz, dann instanziieren Sie `BarcodeSignOptions` und geben `BarcodeTypes.QR` sowie die Daten an, die Sie einbetten möchten (z. B. eine URL oder ein JSON‑Payload). Passen Sie Größe, Farben und Position nach Bedarf an und rufen Sie schließlich die `sign`‑Methode auf, die den QR‑Code auf das Dokument rendert und ein Ergebnis zurückgibt, das Erfolg und den Ort der Signatur angibt.
+
+## Schritt 1: Initialisieren des Signature‑Handlers
+
+`Signature` ist der Einstiegspunkt für alle Signatur‑, Such‑ und Verifizierungsaktionen. Es abstrahiert die Dateiverwaltung für PDFs, Word‑Dokumente, Bilder und Archivformate.
+
+## Schritt 2: Konfigurieren von `BarcodeSignOptions`
+
+`BarcodeSignOptions` ist die Optionsklasse, die verwendet wird, um jedes visuelle und datenbezogene Attribut einer Barcode‑Signatur festzulegen, bevor sie auf ein Dokument angewendet wird.
+
+Typische Einstellungen umfassen:
+
+- **Barcode‑Typ** – `BarcodeTypes.QR`  
+- **Einzubettende Daten** – jede UTF‑8‑Zeichenkette, z. B. eine URL oder ein JSON‑Payload  
+- **Größe** – Breite und Höhe in Punkten (z. B. 120 × 120)  
+- **Position** – Seitenzahl, X/Y‑Koordinaten oder Ausrichtungs‑Flags  
+- **Visueller Stil** – Vorder‑/Hintergrundfarben, Transparenz, Drehung  
+
+## Schritt 3: Signieren und Dokument speichern
+
+Der Aufruf von `sign` schreibt den Barcode auf das Dokument und gibt ein Ergebnisobjekt zurück, das Ihnen mitteilt, ob die Operation erfolgreich war und wo der Barcode platziert wurde.
+
+## Häufige Anwendungsfälle
+
+Entwickler verwenden QR‑Code‑Signaturen für:
+
+- **Rechnungsverarbeitung** – Rechnungsnummern und Beträge codieren; Buchhaltungssoftware scannt sie, um Zahlungssysteme automatisch zu füllen.  
+- **Dokumentennachverfolgung** – Einzigartige Barcodes zu Verträgen hinzufügen; das Scannen ruft sofort Versionshistorie und Genehmigungsstatus ab.  
+- **Lagerverwaltung** – Versandetiketten mit Produkt‑SKUs signieren; Scanner aktualisieren den Bestand in Echtzeit.  
+- **Compliance & Prüfspuren** – Verifizierungscodes einbetten, die beweisen, dass ein Dokument seit der Signatur nicht verändert wurde.  
+- **Gesundheitsakten** – HIBC‑konforme Barcodes auf Patientenakten verwenden, um eine ordnungsgemäße Nachverfolgung und regulatorische Konformität sicherzustellen.
+
+## Verfügbare Tutorials
+
+Unten finden Sie Schritt‑für‑Schritt‑Anleitungen für jede Barcode‑Signatur‑Operation. Jedes Tutorial enthält vollständigen, funktionierenden Java‑Code, den Sie für Ihr Projekt anpassen können.
+
+- [Effizientes Java Barcode‑Signatur‑Management mit GroupDocs.Signature]({{< relref "./java-barcode-signature-management-groupdocs-signature/" >}})
+- [Wie man PDFs mit Barcodes erstellt und signiert mit GroupDocs.Signature für Java]({{< relref "./create-sign-pdfs-groupdocs-barcode-java/" >}})
+- [Wie man die Barcode‑Signatur‑Suche in Java mit GroupDocs.Signature implementiert]({{< relref "./implement-barcode-signature-search-groupdocs-signature-java/" >}})
+- [Wie man Barcode‑Signaturen in Java mit GroupDocs.Signature initialisiert und aktualisiert]({{< relref "./java-groupdocs-signature-barcode-initialize-update/" >}})
+- [Wie man PDFs mit HIBC‑LIC‑Codes mit GroupDocs.Signature für Java signiert: Ein umfassender Leitfaden]({{< relref "./sign-pdfs-hibc-lic-codes-groupdocs-java/" >}})
+- [Wie man Barcode‑Signaturen in Java mit GroupDocs.Signature verifiziert]({{< relref "./verify-barcode-signatures-groupdocs-signature-java/" >}})
+- [Java PDF Barcode‑Suche mit GroupDocs.Signature API: ein umfassender Leitfaden]({{< relref "./java-pdf-barcode-search-groupdocs-signature-api/" >}})
+- [Java PDF Signierung mit Barcode unter Verwendung von GroupDocs: ein umfassender Leitfaden]({{< relref "./java-pdf-signing-barcode-groupdocs/" >}})
+- [PDF‑Dokumente mit Barcode signieren mit GroupDocs.Signature für Java: ein umfassender Leitfaden]({{< relref "./sign-pdf-barcode-groupdocs-signature-java/" >}})
+- [PDFs mit GS1‑Composite‑Barcodes signieren mit GroupDocs.Signature für Java]({{< relref "./sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/" >}})
+- [TAR‑Archive mit Barcodes & QR‑Codes in Java mit GroupDocs.Signature signieren]({{< relref "./sign-tar-archives-barcode-qr-code-java/" >}})
+- [Barcode‑Signaturen in ZIP‑Dateien mit GroupDocs.Signature für Java verifizieren]({{< relref "./verify-barcode-signatures-zip-groupdocs-signature-java/" >}})
+
+## Best Practices für Barcode‑Signaturen
+
+- **Barcode‑Inhalt kurz halten** – Zielwert unter 500 Zeichen; kleinere Barcodes scannen schneller und rendern bei niedriger Auflösung klarer.  
+- **Scannen vor der Produktion testen** – Vergewissern Sie sich, dass die tatsächlichen Scanner Ihrer Nutzer das gewählte Format lesen können.  
+- **Barcodes konsistent platzieren** – Die untere rechte Ecke oder ein anderer fester Ort verbessert die Zuverlässigkeit des automatischen Scannens.  
+- **Fehlerkorrektur aktivieren** – Verwenden Sie das „H“-Level des QR‑Codes oder den High‑ECC‑Modus von Data Matrix für Widerstandsfähigkeit gegen Beschädigungen.  
+- **Mit visuellen Signaturen kombinieren** – Kombinieren Sie einen Barcode mit einer traditionellen digitalen Signatur für sowohl maschinelle als auch menschliche Verifizierung.  
+- **Verifizierungsfehler elegant behandeln** – Protokollieren Sie alle Abweichungen; sie können auf Manipulation hinweisen und sollten Sicherheitsalarme auslösen.
+
+## Häufig gestellte Fragen
+
+**F: Kann ich Barcode‑Signaturen in einer kommerziellen Anwendung verwenden?**  
+A: Ja, solange Sie eine gültige GroupDocs.Signature‑Lizenz besitzen. Ein kostenloser Testzeitraum steht für die Evaluierung zur Verfügung.
+
+**F: Funktionieren Barcode‑Signaturen mit passwortgeschützten PDFs?**  
+A: Absolut. Geben Sie das Dokumentenpasswort beim Erstellen der `Signature`‑Instanz an, und die API entschlüsselt, signiert und verschlüsselt die Datei automatisch erneut.
+
+**F: Welche Barcode‑Formate werden für mobiles Scannen empfohlen?**  
+A: QR Code und Data Matrix haben die beste Smartphone‑Kompatibilität und eingebaute Fehlerkorrektur, wodurch sie ideal für Feldarbeiter sind.
+
+**F: Wie aktualisiere ich einen bestehenden Barcode, ohne das gesamte Dokument neu zu signieren?**  
+A: Verwenden Sie die Update‑Methoden von `BarcodeSignOptions`, die im Tutorial „Initialisieren und Aktualisieren“ gezeigt werden – Sie können Inhalt, Größe oder Position vor Ort ändern und den Rest der Datei beibehalten.
+
+**F: Gibt es einen Performance‑Einfluss beim Signieren von Tausenden PDFs?**  
+A: Die API ist für Batch‑Operationen optimiert; verwenden Sie eine einzelne `Signature`‑Instanz erneut und deaktivieren Sie ausführliches Logging, um den Durchsatz zu maximieren. Der typische Durchsatz übersteigt 200 Dokumente pro Minute auf einem Standard‑8‑Kern‑Server.
+
+## Ressourcen
+
+- [GroupDocs.Signature für Java Dokumentation](https://docs.groupdocs.com/signature/java/)
+- [GroupDocs.Signature für Java API‑Referenz](https://reference.groupdocs.com/signature/java/)
+- [GroupDocs.Signature für Java herunterladen](https://releases.groupdocs.com/signature/java/)
+- [GroupDocs.Signature Forum](https://forum.groupdocs.com/c/signature)
+- [Kostenloser Support](https://forum.groupdocs.com/)
+- [Temporäre Lizenz](https://purchase.groupdocs.com/temporary-license/)
+
+## Fazit
+
+Das Hinzufügen eines QR‑Codes oder eines anderen Barcodes zu einem PDF ist mit GroupDocs.Signature für Java unkompliziert. Wenn Sie die obigen Schritte befolgen, können Sie sichere, maschinenlesbare Daten in jeden unterstützten Dokumenttyp einbetten, die Datenerfassung automatisieren und die Dokumentenintegrität garantieren. Erkunden Sie die verlinkten Tutorials für vertiefende Einblicke – egal, ob Sie Barcodes im großen Maßstab verwalten, sie in Archiven verifizieren oder branchenspezifische Standards wie HIBC oder GS1 einhalten müssen.
+
+---
+
+**Letzte Aktualisierung:** 2026-11-01  
+**Getestet mit:** GroupDocs.Signature für Java 23.12 (aktuell zum Zeitpunkt der Erstellung)  
+**Autor:** GroupDocs  
+
+## Verwandte Tutorials
+
+- [Java Dokument QR‑Code Verifizierung – Ein umfassender GroupDocs.Signature](/signature/java/search-verification/java-qr-code-signature-verification-groupdocs/)
+- [Wie man QR‑Code‑PDF mit Java und GroupDocs.Signature liest](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+- [Barcode‑Signatur in Java erstellen – PDF‑Barcodes aktualisieren](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
 
 ```text
 Initialize a `Signature` instance with the source file, create a `BarcodeSignOptions` object set to QR code type, assign the data you want to embed, specify position and size, then call `sign` to produce the output file.
 ```
-
-### Schritt 1: Initialisieren des Signature‑Handlers
-`Signature` is the entry point for all signing, searching and verification actions. It abstracts file handling for PDFs, Word documents, images, and archive formats.
-
-### Schritt 2: Konfigurieren von `BarcodeSignOptions`
-`BarcodeSignOptions` is the configuration class that defines barcode type, content, dimensions, colors, and placement on the page.  
-
-> **Definition anchor:** `BarcodeSignOptions` is the options class used to specify every visual and data attribute of a barcode signature before it is applied to a document.
-
-Typical settings include:
-- **Barcode‑Typ** – `BarcodeTypes.QR`
-- **Zu embedende Daten** – jede UTF‑8‑Zeichenkette, z. B. eine URL oder ein JSON‑Payload
-- **Größe** – Breite und Höhe in Punkten (z. B. 120 × 120)
-- **Position** – Seitennummer, X/Y‑Koordinaten oder Ausrichtungs‑Flags
-- **Visueller Stil** – Vorder‑/Hintergrundfarben, Transparenz, Drehung
-
-### Schritt 3: Signieren und Dokument speichern
-Calling `sign` writes the barcode onto the document and returns a result object that tells you whether the operation succeeded and where the barcode was placed.
-
-## Häufige Anwendungsfälle
-
-Here’s how developers are actually using QR code signatures:
-
-- **Rechnungsverarbeitung** – Kodieren Sie Rechnungsnummern und Beträge als QR‑Codes. Buchhaltungssoftware scannt sie, um Zahlungssysteme automatisch zu füllen.  
-- **Dokumenten‑Tracking** – Fügen Sie eindeutige Barcodes zu Verträgen oder Rechtsdokumenten hinzu. Scannen Sie, um sofort die Dateihistorie und den Genehmigungsstatus abzurufen.  
-- **Lagerverwaltung** – Signieren Sie Versandetiketten mit Produkt‑SKUs und Mengen. Scanner aktualisieren den Bestand in Echtzeit.  
-- **Compliance & Prüfpfade** – Betten Sie Verifizierungscodes ein, die beweisen, dass ein Dokument seit der Signatur nicht verändert wurde.  
-- **Gesundheits‑Aufzeichnungen** – Verwenden Sie HIBC‑konforme Barcodes in Patientendateien, um ordnungsgemäße Nachverfolgung und regulatorische Konformität sicherzustellen.  
-
-## Verfügbare Tutorials
-
-Below you’ll find step‑by‑step guides for every barcode signature operation. Each tutorial includes complete, working Java code you can adapt for your project.
-
-### [Effizientes Java Barcode‑Signatur‑Management mit GroupDocs.Signature](./java-barcode-signature-management-groupdocs-signature/)
-Start here if you need the full lifecycle: how to initialise the signature handler, search for existing barcodes in documents, and delete signatures when they're no longer needed. Perfect for building document management systems where barcode signatures need to be dynamic.
-
-### [Wie man PDFs mit Barcodes erstellt und signiert mit GroupDocs.Signature für Java](./create-sign-pdfs-groupdocs-barcode-java/)
-Your go‑to guide for signing brand‑new PDFs with barcode signatures. Learn how to generate documents programmatically and embed barcodes during creation—ideal for automated invoice generation or certificate printing workflows.
-
-### [Wie man die Barcode‑Signatur‑Suche in Java mit GroupDocs.Signature implementiert](./implement-barcode-signature-search-groupdocs-signature-java/)
-Need to find all barcodes in a batch of documents? This tutorial shows you how to search by barcode type, content, or position. Essential for auditing large document repositories or extracting data from scanned files.
-
-### [Wie man Barcode‑Signaturen in Java initialisiert und aktualisiert mit GroupDocs.Signature](./java-groupdocs-signature-barcode-initialize-update/)
-Already have barcodes in your PDFs but need to change the content or appearance? This guide covers updating existing barcode signatures without recreating the entire document—saves processing time and maintains document history.
-
-### [Wie man PDFs mit HIBC‑LIC‑Codes signiert mit GroupDocs.Signature für Java: Ein umfassender Leitfaden](./sign-pdfs-hibc-lic-codes-groupdocs-java/)
-Healthcare and pharmaceutical industries require HIBC (Health Industry Bar Code) standards. Learn how to implement HIBC LIC QR, Aztec, and Data Matrix codes for regulatory compliance, including setup, validation, and best practices.
-
-### [Wie man Barcode‑Signaturen in Java verifiziert mit GroupDocs.Signature](./verify-barcode-signatures-groupdocs-signature-java/)
-Trust is everything. This tutorial teaches you how to verify that barcode signatures are authentic and haven't been tampered with. You'll learn to validate barcode content, check encoding types, and ensure document integrity—critical for legal or financial documents.
-
-### [Java PDF Barcode‑Suche mit GroupDocs.Signature API: Ein umfassender Leitfaden](./java-pdf-barcode-search-groupdocs-signature-api/)
-Deep dive into PDF‑specific barcode searching. Covers advanced filtering (by page, by region, by barcode format) and how to extract barcode metadata for downstream processing. Great for building custom document indexing systems.
-
-### [Java PDF Signierung mit Barcode mit GroupDocs: Ein umfassender Leitfaden](./java-pdf-signing-barcode-groupdocs/)
-Comprehensive end‑to‑end guide for adding barcode signatures to PDFs. Includes customization options (colors, fonts, positioning), error handling, and performance optimisation tips for high‑volume document processing.
-
-### [PDF‑Dokumente mit Barcode signieren mit GroupDocs.Signature für Java: Ein umfassender Leitfaden](./sign-pdf-barcode-groupdocs-signature-java/)
-Another take on PDF barcode signing with extra focus on security and professional workflows. Learn how to set transparency, align barcodes to specific coordinates, and integrate with digital signature chains.
-
-### [PDFs mit GS1 Composite Barcodes signieren mit GroupDocs.Signature für Java](./sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/)
-Need to comply with GS1 standards for supply chain or retail? This guide covers GS1 Composite Barcodes specifically—combining linear and 2D components for product authentication and traceability. Essential for shipping labels and international logistics.
-
-### [TAR‑Archive mit Barcodes & QR‑Codes in Java signieren mit GroupDocs.Signature](./sign-tar-archives-barcode-qr-code-java/)
-Yes, you can sign compressed archives too! Learn how to add barcode signatures to TAR files for secure distribution of document bundles. Perfect for software releases, data packages, or secure file transfers.
-
-### [Barcode‑Signaturen in ZIP‑Dateien verifizieren mit GroupDocs.Signature für Java](./verify-barcode-signatures-zip-groupdocs-signature-java/)
-Ensure integrity of archived documents by verifying barcode signatures inside ZIP files. This tutorial covers batch verification workflows and how to validate compressed document packages—useful for compliance audits or automated quality checks.
-
-## Best Practices für Barcode‑Signaturen
-
-- **Halten Sie den Barcode‑Inhalt kurz** – Obwohl QR‑Codes tausende Zeichen speichern können, scannen kleinere Barcodes schneller und rendern bei niedriger Auflösung klarer. Zielwert: unter 500 Zeichen, es sei denn, Sie benötigen größere Datensätze.  
-- **Scannen vor der Produktion testen** – Nicht alle Barcode‑Leser verarbeiten jedes Format gleich gut. Testen Sie Ihre Barcodes mit den tatsächlichen Scannern Ihrer Nutzer (Smartphone‑Kameras, dedizierte Leser usw.).  
-- **Position ist wichtig** – Platzieren Sie Barcodes an konsistenten Stellen (z. B. unten rechts) in allen Dokumenten. Das macht automatisches Scannen viel zuverlässiger.  
-- **Fehlerkorrektur verwenden** – QR‑Codes und Data‑Matrix‑Barcodes unterstützen Fehlerkorrektur‑Stufen. Höhere Stufen (wie QR‑„H“) lassen Barcodes auch bei 30 % Beschädigung funktionieren.  
-- **Mit visuellen Signaturen kombinieren** – Für Dokumente, die sowohl menschliche als auch maschinelle Validierung benötigen, fügen Sie einen Barcode neben einer traditionellen digitalen Signatur hinzu. Sie erhalten Automatisierungsvorteile plus rechtliche Durchsetzbarkeit.  
-- **Verifizierungsfehler elegant behandeln** – Prüfen Sie stets, ob die Barcode‑Verifizierung erfolgreich ist, bevor Sie Dokumente verarbeiten. Ungültige Barcodes können auf Manipulation hinweisen – protokollieren Sie diese Ereignisse für Sicherheits‑Audits.  
-
-## Häufig gestellte Fragen
-
-**Q: Kann ich Barcode‑Signaturen in einer kommerziellen Anwendung verwenden?**  
-A: Ja, solange Sie eine gültige GroupDocs.Signature‑Lizenz besitzen. Eine kostenlose Testversion ist für Evaluierungszwecke verfügbar.
-
-**Q: Funktionieren Barcode‑Signaturen mit passwortgeschützten PDFs?**  
-A: Absolut. Geben Sie das Dokumenten‑Passwort beim Erstellen der `Signature`‑Instanz an, und die API entschlüsselt, signiert und verschlüsselt die Datei automatisch wieder.
-
-**Q: Welche Barcode‑Formate werden für mobiles Scannen empfohlen?**  
-A: QR‑Code und Data‑Matrix haben die beste Smartphone‑Kompatibilität und eingebaute Fehlerkorrektur, wodurch sie ideal für Feldarbeiter sind.
-
-**Q: Wie aktualisiere ich einen bestehenden Barcode, ohne das gesamte Dokument neu zu signieren?**  
-A: Verwenden Sie die Update‑Methoden von `BarcodeSignOptions`, die im „Initialize and Update“-Tutorial gezeigt werden – Sie können Inhalt, Größe oder Position direkt ändern und den Rest der Datei unverändert lassen.
-
-**Q: Gibt es Leistungseinbußen beim Signieren von Tausenden PDFs?**  
-A: Die API ist für Batch‑Operationen optimiert; verwenden Sie eine einzelne `Signature`‑Instanz wieder und deaktivieren Sie ausführliches Logging, um den Durchsatz zu maximieren. Der typische Durchsatz übertrifft 200 Dokumente pro Minute auf einem Standard‑8‑Core‑Server.
-
-## Ressourcen
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com/signature/java/)
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com/signature/java/)
-- [GroupDocs.Signature Forum](https://forum.groupdocs.com/c/signature)
-- [Free Support](https://forum.groupdocs.com/)
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
-## Fazit
-
-Creating a QR code signature in Java is straightforward with GroupDocs.Signature. By following the steps above you can embed secure, machine‑readable data into any supported document type, automate data capture, and guarantee document integrity. Explore the linked tutorials for deeper dives—whether you need to manage barcodes at scale, verify them in archives, or comply with industry‑specific standards like HIBC or GS1.
-
----
-
-**Last Updated:** 2026-06-21  
-**Tested With:** GroupDocs.Signature for Java 23.12 (latest at time of writing)  
-**Author:** GroupDocs  
-
----
-
-## Verwandte Tutorials
-
-- [Java Dokument QR‑Code‑Verifizierung – Ein umfassender GroupDocs.Signature](/signature/java/search-verification/java-qr-code-signature-verification-groupdocs/)
-- [Wie man QR‑Code‑PDF mit Java und GroupDocs.Signature liest](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
-- [Barcode‑Signatur in Java erstellen – PDF‑Barcodes aktualisieren](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)

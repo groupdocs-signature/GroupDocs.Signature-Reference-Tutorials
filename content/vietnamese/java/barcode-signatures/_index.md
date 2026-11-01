@@ -1,29 +1,31 @@
 ---
 categories:
 - Document Signatures
-date: '2026-06-21'
-description: Tìm hiểu cách tạo chữ ký mã QR, thêm, xác minh và quản lý chữ ký mã vạch
-  trong PDF bằng GroupDocs.Signature cho Java.
+date: '2026-11-01'
+description: Tìm hiểu cách thêm barcode vào pdf, tạo chữ ký QR code, xác minh và quản
+  lý chữ ký barcode trong PDF bằng GroupDocs.Signature for Java.
 keywords:
-- create qr code signature
-- how to add barcode
-- barcode document verification
 - add barcode to pdf
+- how to add qr code to pdf
+- barcode signature java
 - groupdocs signature java
-lastmod: '2026-06-21'
-linktitle: Chữ ký Mã vạch
+- pdf barcode signing
+lastmod: '2026-11-01'
+linktitle: Chữ ký barcode
+og_description: Tìm hiểu cách thêm barcode vào pdf, tạo chữ ký QR code và quản lý
+  chữ ký barcode trong PDF bằng GroupDocs.Signature for Java.
+og_image_alt: 'Guide: add barcode to pdf using GroupDocs.Signature Java API'
+og_title: Cách thêm barcode vào pdf với GroupDocs.Signature for Java
 schemas:
 - author: GroupDocs
-  dateModified: '2026-06-21'
+  dateModified: '2026-11-01'
   description: Learn how to create QR code signature, add, verify and manage barcode
     signatures in PDFs using GroupDocs.Signature for Java.
-  headline: Java create qr code signature Tutorial – Add, Verify & Manage Barcodes
-    in PDFs
+  headline: Java Document Signature Tutorial – Add, Verify & Manage Barcodes in PDFs
   type: TechArticle
 - description: Learn how to create QR code signature, add, verify and manage barcode
     signatures in PDFs using GroupDocs.Signature for Java.
-  name: Java create qr code signature Tutorial – Add, Verify & Manage Barcodes in
-    PDFs
+  name: Java Document Signature Tutorial – Add, Verify & Manage Barcodes in PDFs
   steps:
   - name: Initialise the Signature handler
     text: '`Signature` is the entry point for all signing, searching and verification
@@ -33,7 +35,7 @@ schemas:
     text: '`BarcodeSignOptions` is the configuration class that defines barcode type,
       content, dimensions, colors, and placement on the page. > **Definition anchor:**
       `BarcodeSignOptions` is the options class used to specify every visual and data
-      attribute of a barcode signature before it is applied to a docum'
+      attribute of a barcode signature before it is applied to a document.'
   - name: Sign and save the document
     text: Calling `sign` writes the barcode onto the document and returns a result
       object that tells you whether the operation succeeded and where the barcode
@@ -63,155 +65,142 @@ tags:
 - pdf-signing
 - java-tutorial
 - document-security
-title: Java tạo chữ ký mã QR – Thêm, Xác minh & Quản lý Mã vạch trong PDF
+- add barcode to pdf
+title: Cách thêm barcode vào pdf với GroupDocs.Signature for Java
 type: docs
 url: /vi/java/barcode-signatures/
 weight: 4
 ---
 
-# Java tạo chữ ký mã QR Tutorial: Thêm, Xác minh & Quản lý Mã vạch trong PDF
+# Cách thêm mã vạch vào pdf với GroupDocs.Signature cho Java
 
-Embedding machine‑readable data directly into your documents is a powerful way to automate workflows and guarantee integrity. In this **Java create QR code signature** tutorial you’ll discover how to securely encode product IDs, tracking numbers, or verification codes inside PDFs, Word files, images, and even archive formats. GroupDocs.Signature for Java turns a multi‑step process into just a few lines of code, while keeping the original document unchanged.
+Nhúng dữ liệu có thể đọc được bằng máy trực tiếp vào các tệp PDF của bạn (hoặc bất kỳ tài liệu nào được hỗ trợ) cho phép bạn tự động hoá việc xác minh, tối ưu hoá việc thu thập dữ liệu và duy trì một chuỗi kiểm toán không thể bị giả mạo. Trong hướng dẫn này, bạn sẽ học cách **thêm mã vạch vào pdf** bằng GroupDocs.Signature cho Java, bao gồm mọi thứ từ việc tạo mã QR đến xác minh và quản lý. Thư viện hỗ trợ hơn 55 định dạng tệp, vì vậy cùng một đoạn mã có thể hoạt động cho Word, hình ảnh, tệp nén và hơn nữa.
 
 ## Câu trả lời nhanh
-- **Thư viện nào được yêu cầu?** GroupDocs.Signature for Java (Maven or direct download).  
-- **Phiên bản Java nào được hỗ trợ?** Java 8 or newer.  
-- **Tôi có thể ký PDF, Word và hình ảnh không?** Yes, the API works with over **55** formats.  
-- **Chữ ký mã vạch có hỗ trợ QR, Data Matrix và GS1 không?** All of the above plus Code128, Code39, HIBC, etc.  
-- **Cần giấy phép cho môi trường sản xuất không?** A valid GroupDocs.Signature license is required for commercial use.  
-- **Cần bao nhiêu dòng mã?** Typically 5‑10 lines for a full QR code signature creation.  
+- **Thư viện nào tôi cần?** GroupDocs.Signature cho Java (có sẵn qua Maven Central).  
+- **Phiên bản Java nào được yêu cầu?** Java 8 hoặc mới hơn.  
+- **Tôi có thể thêm mã vạch vào pdf và các định dạng khác không?** Có – API hoạt động với hơn 55 định dạng, bao gồm PDF, DOCX, XLSX, PNG, TAR, ZIP và hơn nữa.  
+- **Các loại mã vạch nào được hỗ trợ?** QR Code, Data Matrix, Code128, Code39, HIBC, GS1 Composite và nhiều loại khác.  
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Giấy phép GroupDocs.Signature hợp lệ là bắt buộc cho việc sử dụng thương mại; bản dùng thử miễn phí có sẵn để thử nghiệm.  
+- **Cần bao nhiêu dòng mã?** Thông thường 5‑10 dòng để tạo và nhúng mã vạch QR.
+
+## Cách thêm mã vạch vào pdf với GroupDocs.Signature cho Java?
+
+Tải PDF mục tiêu, cấu hình các tùy chọn mã vạch, và gọi phương thức `sign` – đó là tất cả những gì bạn cần. API ghi mã vạch trực tiếp lên tài liệu trong khi giữ nguyên cấu trúc tệp gốc, vì vậy bạn sẽ có một PDF đã ký sẵn sàng để quét hoặc xác minh tự động.
+
+Bạn có thể thêm một mã vạch vào PDF chỉ trong ba bước đơn giản: khởi tạo trình xử lý `Signature`, cấu hình `BarcodeSignOptions` với loại mã vạch và cài đặt hiển thị mong muốn, và cuối cùng gọi `sign` để nhúng mã vạch và lưu tệp đầu ra.
 
 ## Chữ ký mã QR là gì?
-Một **QR code signature** là một chữ ký kỹ thuật số dựa trên mã vạch, lưu trữ dữ liệu tùy chỉnh bên trong một yếu tố hình ảnh mã QR được gắn vào tài liệu. Mã QR có thể được quét để lấy thông tin nhúng, cho phép xác minh tự động và trích xuất dữ liệu mà không thay đổi nội dung gốc của tệp.
+
+Chữ ký mã QR là một chữ ký kỹ thuật số dựa trên mã vạch, lưu trữ dữ liệu tùy chỉnh bên trong một yếu tố hình ảnh mã QR được gắn vào tài liệu. Mã QR có thể được quét để truy xuất thông tin nhúng, cho phép xác minh tự động và trích xuất dữ liệu mà không làm thay đổi nội dung gốc của tệp.
 
 ## Tại sao sử dụng chữ ký mã vạch trong tài liệu?
-Chữ ký mã vạch giải quyết một vấn đề phổ biến: gắn metadata có thể đọc bằng máy một cách an toàn vào tài liệu mà không thay đổi nội dung của chúng. Chúng cho phép thu thập dữ liệu tự động, cải thiện việc xác minh và tinh giản quy trình làm việc, giúp doanh nghiệp dễ dàng tích hợp xử lý tài liệu với các hệ thống hiện có đồng thời duy trì tính toàn vẹn và tuân thủ.
 
-- **Thu thập dữ liệu tự động** – Quét mã vạch thay vì nhập thông tin thủ công. Hoàn hảo cho kho hàng, bộ phận vận chuyển, hoặc bất kỳ môi trường xử lý khối lượng lớn nào.  
-- **Xác minh tài liệu** – Mã hoá các định danh duy nhất hoặc checksum để xác minh tính xác thực của tài liệu. Nếu ai đó can thiệp vào tệp, mã vạch sẽ không khớp.  
-- **Tự động hoá quy trình làm việc** – Kích hoạt các quy trình tự động khi tài liệu được quét. Hãy nghĩ đến việc tự động định tuyến hoá đơn, cập nhật hệ thống tồn kho, hoặc ghi lại hồ sơ tuân thủ.  
-- **Tiết kiệm không gian** – Mã vạch chứa lượng lớn dữ liệu trong một dấu vết hình ảnh rất nhỏ—thường chỉ một ô vuông 1 inch.  
-- **Hỗ trợ tiêu chuẩn ngành** – Làm việc với lĩnh vực y tế (HIBC), bán lẻ (GS1), logistics (Code128), hoặc nhu cầu chung (QR Code, Data Matrix). Loại mã vạch phù hợp giúp bạn tuân thủ các yêu cầu của ngành.  
+Chữ ký mã vạch giải quyết một vấn đề phổ biến: gắn siêu dữ liệu có thể đọc được bằng máy vào tài liệu một cách an toàn mà không thay đổi nội dung của chúng. Chúng cho phép thu thập dữ liệu tự động, cải thiện quá trình xác minh và tối ưu hoá quy trình làm việc, giúp doanh nghiệp dễ dàng tích hợp xử lý tài liệu với các hệ thống hiện có đồng thời duy trì tính toàn vẹn và tuân thủ.
 
-## Bắt đầu với Java create QR code signature
-Trước khi đi sâu vào mã, hãy xem qua các yếu tố cần thiết. GroupDocs.Signature for Java hỗ trợ **55+** định dạng tài liệu (PDF, DOCX, XLSX, hình ảnh, TAR, ZIP và hơn nữa) và cung cấp hàng chục loại mã vạch. Quy trình làm việc điển hình là:
+## Bắt đầu với Java tạo chữ ký mã QR
 
-1. **Khởi tạo đối tượng `Signature`** with the path to your source document.  
-2. **Cấu hình `BarcodeSignOptions`** – choose the barcode type, set its content, size, color, and placement.  
-3. **Áp dụng chữ ký** and save the signed document.  
-4. **Tìm kiếm hoặc xác minh** barcodes later when you need to extract or validate the data.  
+Trước khi viết bất kỳ đoạn mã nào, hãy chắc chắn rằng bạn đã có:
 
-Bạn sẽ cần Java 8 hoặc mới hơn và thư viện GroupDocs.Signature (có sẵn qua Maven Central hoặc tải trực tiếp). Tất cả các thao tác được thực hiện trong bộ nhớ, vì vậy tệp gốc vẫn không bị thay đổi.
+- Java 8 hoặc mới hơn được cài đặt.  
+- GroupDocs.Signature cho Java đã được thêm vào dự án của bạn (phụ thuộc Maven hoặc JAR thủ công).  
+- Tệp giấy phép GroupDocs.Signature hợp lệ (hoặc khóa dùng thử) được đặt ở vị trí SDK có thể đọc được.
 
-## Lựa chọn loại mã vạch phù hợp
+Quy trình làm việc điển hình là:
+
+1. Khởi tạo đối tượng `Signature` với đường dẫn tệp nguồn.  
+2. Cấu hình `BarcodeSignOptions` – chọn loại mã vạch, đặt chuỗi dữ liệu, kích thước, màu sắc và vị trí.  
+3. Gọi `sign` để nhúng mã vạch và ghi tài liệu đã ký ra đĩa.
+
+## Chọn loại mã vạch phù hợp
+
 Không chắc loại mã vạch nào nên dùng? Dưới đây là hướng dẫn quyết định nhanh:
 
-- **Cho URL hoặc văn bản dài (tối đa ~4.000 ký tự)**: **QR Code** – là tùy chọn linh hoạt nhất và có thể đọc bằng smartphone.  
-- **Cho việc theo dõi y tế/dược phẩm**: **HIBC LIC** barcodes (QR, Aztec, or Data Matrix variants).  
-- **Cho bán lẻ/chuỗi cung ứng (tiêu chuẩn GS1)**: **GS1 Composite** or **GS1‑128**.  
-- **Cho dữ liệu số gọn gàng**: **Code128** or **Code39** – great for tracking numbers, serial codes, or short identifiers.  
-- **Cho bộ dữ liệu lớn với khả năng sửa lỗi**: **Data Matrix** or **Aztec** – they pack more data than traditional 1D barcodes and work even when partially damaged.  
+- **Đối với URL hoặc văn bản dài (tối đa ~4.000 ký tự)** – **QR Code** là linh hoạt nhất và hoạt động với bất kỳ camera smartphone nào.  
+- **Đối với theo dõi y tế hoặc dược phẩm** – các mã **HIBC LIC** (QR, Aztec hoặc Data Matrix) đáp ứng các quy định ngành.  
+- **Đối với bán lẻ hoặc chuỗi cung ứng (tiêu chuẩn GS1)** – **GS1 Composite** hoặc **GS1‑128** cung cấp cấu trúc dữ liệu cần thiết.  
+- **Đối với dữ liệu số dạng ngắn** – **Code128** hoặc **Code39** là lý tưởng cho số theo dõi hoặc mã sê-ri.  
+- **Đối với bộ dữ liệu lớn có khả năng sửa lỗi** – **Data Matrix** hoặc **Aztec** chứa nhiều dữ liệu trong khu vực nhỏ hơn và vẫn đọc được ngay cả khi bị hư hỏng một phần.
 
-**Mẹo chuyên nghiệp:** Nếu bạn không chắc, hãy bắt đầu với QR Code—nó đáp ứng hầu hết các trường hợp sử dụng và không yêu cầu máy quét chuyên dụng.
+**Mẹo chuyên nghiệp:** Bắt đầu với QR Code nếu bạn chưa chắc; nó cung cấp mức độ tương thích và tùy chọn sửa lỗi cao nhất.
 
 ## Cách tạo chữ ký mã QR trong Java
-Tạo chữ ký mã QR trong Java bao gồm tải tài liệu mục tiêu, cấu hình các tùy chọn mã vạch với nội dung và thuộc tính hình ảnh mong muốn, sau đó áp dụng chữ ký. API GroupDocs.Signature xử lý tất cả các chi tiết cấp thấp, đảm bảo mã vạch được nhúng đúng cách đồng thời giữ nguyên cấu trúc tệp gốc và cho phép xác minh sau này.
 
-```text
-Initialize a `Signature` instance with the source file, create a `BarcodeSignOptions` object set to QR code type, assign the data you want to embed, specify position and size, then call `sign` to produce the output file.
-```
+Để tạo chữ ký mã QR, đầu tiên tải tệp PDF vào một thể hiện `Signature`, sau đó khởi tạo `BarcodeSignOptions` chỉ định `BarcodeTypes.QR` và dữ liệu bạn muốn nhúng (ví dụ: một URL hoặc payload JSON). Điều chỉnh kích thước, màu sắc và vị trí theo nhu cầu, cuối cùng gọi phương thức `sign`, phương thức này sẽ vẽ mã QR lên tài liệu và trả về kết quả cho biết thành công và vị trí của chữ ký.
 
-### Bước 1: Khởi tạo trình xử lý Signature
+## Bước 1: khởi tạo trình xử lý Signature
+
 `Signature` là điểm vào cho tất cả các hành động ký, tìm kiếm và xác minh. Nó trừu tượng hoá việc xử lý tệp cho PDF, tài liệu Word, hình ảnh và các định dạng lưu trữ.
 
-### Bước 2: Cấu hình `BarcodeSignOptions`
-`BarcodeSignOptions` là lớp cấu hình định nghĩa loại mã vạch, nội dung, kích thước, màu sắc và vị trí trên trang.  
+## Bước 2: cấu hình `BarcodeSignOptions`
 
-> **Definition anchor:** `BarcodeSignOptions` là lớp tùy chọn được sử dụng để chỉ định mọi thuộc tính hình ảnh và dữ liệu của một chữ ký mã vạch trước khi nó được áp dụng vào tài liệu.
+`BarcodeSignOptions` là lớp tùy chọn dùng để chỉ định mọi thuộc tính hình ảnh và dữ liệu của chữ ký mã vạch trước khi áp dụng vào tài liệu.
 
-Các thiết lập điển hình bao gồm:
-- **Loại mã vạch** – `BarcodeTypes.QR`
-- **Dữ liệu cần nhúng** – any UTF‑8 string, such as a URL or JSON payload
-- **Kích thước** – width and height in points (e.g., 120 × 120)
-- **Vị trí** – page number, X/Y coordinates, or alignment flags
-- **Kiểu hiển thị** – foreground/background colors, opacity, rotation
+Các cài đặt điển hình bao gồm:
 
-### Bước 3: Ký và lưu tài liệu
-Gọi `sign` sẽ ghi mã vạch lên tài liệu và trả về một đối tượng kết quả cho biết thao tác có thành công hay không và mã vạch được đặt ở đâu.
+- **Loại mã vạch** – `BarcodeTypes.QR`  
+- **Dữ liệu cần nhúng** – bất kỳ chuỗi UTF‑8 nào, chẳng hạn URL hoặc payload JSON  
+- **Kích thước** – chiều rộng và chiều cao tính bằng point (ví dụ: 120 × 120)  
+- **Vị trí** – số trang, tọa độ X/Y, hoặc cờ căn chỉnh  
+- **Kiểu hiển thị** – màu nền/màu chữ, độ trong suốt, góc quay  
+
+## Bước 3: ký và lưu tài liệu
+
+Gọi `sign` sẽ ghi mã vạch lên tài liệu và trả về một đối tượng kết quả cho biết thao tác có thành công hay không và mã vạch đã được đặt ở đâu.
 
 ## Các trường hợp sử dụng phổ biến
-Dưới đây là cách các nhà phát triển thực tế sử dụng chữ ký mã QR:
 
-- **Xử lý hoá đơn** – Encode invoice numbers and amounts as QR codes. Accounting software scans them to auto‑populate payment systems.  
-- **Theo dõi tài liệu** – Add unique barcodes to contracts or legal docs. Scan to instantly pull up file history and approval status.  
-- **Quản lý kho** – Sign shipping labels with product SKUs and quantities. Scanners update inventory in real‑time.  
-- **Tuân thủ & Dấu vết kiểm toán** – Embed verification codes that prove a document hasn’t been altered since signing.  
-- **Hồ sơ y tế** – Use HIBC‑compliant barcodes on patient files to ensure proper tracking and regulatory compliance.  
+Các nhà phát triển sử dụng chữ ký mã QR cho:
+
+- **Xử lý hoá đơn** – Mã hoá số hoá đơn và số tiền; phần mềm kế toán quét chúng để tự động điền vào hệ thống thanh toán.  
+- **Theo dõi tài liệu** – Thêm mã vạch duy nhất vào hợp đồng; việc quét ngay lập tức hiển thị lịch sử phiên bản và trạng thái phê duyệt.  
+- **Quản lý kho** – Ký nhãn vận chuyển với SKU sản phẩm; máy quét cập nhật tồn kho trong thời gian thực.  
+- **Tuân thủ & chuỗi kiểm toán** – Nhúng mã xác minh chứng minh tài liệu không bị thay đổi kể từ khi ký.  
+- **Hồ sơ y tế** – Sử dụng mã vạch tuân thủ HIBC trên hồ sơ bệnh nhân để đảm bảo theo dõi đúng và tuân thủ quy định.
 
 ## Các hướng dẫn có sẵn
-Dưới đây bạn sẽ tìm thấy các hướng dẫn từng bước cho mọi thao tác chữ ký mã vạch. Mỗi tutorial bao gồm mã Java đầy đủ, hoạt động mà bạn có thể điều chỉnh cho dự án của mình.
 
-### [Quản lý chữ ký mã vạch Java hiệu quả bằng GroupDocs.Signature](./java-barcode-signature-management-groupdocs-signature/)
-Bắt đầu ở đây nếu bạn cần vòng đời đầy đủ: cách khởi tạo trình xử lý chữ ký, tìm kiếm các mã vạch hiện có trong tài liệu, và xóa chữ ký khi không còn cần thiết. Hoàn hảo cho việc xây dựng hệ thống quản lý tài liệu nơi chữ ký mã vạch cần linh hoạt.
+- [Quản lý chữ ký mã vạch Java hiệu quả bằng GroupDocs.Signature]({{< relref "./java-barcode-signature-management-groupdocs-signature/" >}})
+- [Cách tạo và ký PDF với mã vạch bằng GroupDocs.Signature cho Java]({{< relref "./create-sign-pdfs-groupdocs-barcode-java/" >}})
+- [Cách triển khai tìm kiếm chữ ký mã vạch trong Java với GroupDocs.Signature]({{< relref "./implement-barcode-signature-search-groupdocs-signature-java/" >}})
+- [Cách khởi tạo và cập nhật chữ ký mã vạch trong Java sử dụng GroupDocs.Signature]({{< relref "./java-groupdocs-signature-barcode-initialize-update/" >}})
+- [Cách ký PDF với mã HIBC LIC bằng GroupDocs.Signature cho Java: Hướng dẫn toàn diện]({{< relref "./sign-pdfs-hibc-lic-codes-groupdocs-java/" >}})
+- [Cách xác minh chữ ký mã vạch trong Java sử dụng GroupDocs.Signature]({{< relref "./verify-barcode-signatures-groupdocs-signature-java/" >}})
+- [Hướng dẫn tìm kiếm mã vạch PDF trong Java bằng API GroupDocs.Signature: một hướng dẫn toàn diện]({{< relref "./java-pdf-barcode-search-groupdocs-signature-api/" >}})
+- [Hướng dẫn ký PDF với mã vạch bằng groupDocs trong Java: một hướng dẫn toàn diện]({{< relref "./java-pdf-signing-barcode-groupdocs/" >}})
+- [Ký tài liệu PDF với mã vạch bằng GroupDocs.Signature cho java: một hướng dẫn toàn diện]({{< relref "./sign-pdf-barcode-groupdocs-signature-java/" >}})
+- [Ký PDF với mã vạch GS1 composite bằng GroupDocs.Signature cho java]({{< relref "./sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/" >}})
+- [Ký tệp TAR với mã vạch & mã QR trong java bằng GroupDocs.Signature]({{< relref "./sign-tar-archives-barcode-qr-code-java/" >}})
+- [Xác minh chữ ký mã vạch trong tệp ZIP bằng GroupDocs.Signature cho java]({{< relref "./verify-barcode-signatures-zip-groupdocs-signature-java/" >}})
 
-### [Cách tạo và ký PDF với mã vạch bằng GroupDocs.Signature cho Java](./create-sign-pdfs-groupdocs-barcode-java/)
-Hướng dẫn của bạn để ký các PDF mới hoàn toàn với chữ ký mã vạch. Học cách tạo tài liệu một cách lập trình và nhúng mã vạch trong quá trình tạo—lý tưởng cho quy trình tạo hoá đơn tự động hoặc in chứng chỉ.
+## Thực hành tốt cho chữ ký mã vạch
 
-### [Cách triển khai tìm kiếm chữ ký mã vạch trong Java với GroupDocs.Signature](./implement-barcode-signature-search-groupdocs-signature-java/)
-Cần tìm tất cả các mã vạch trong một lô tài liệu? Tutorial này chỉ cho bạn cách tìm kiếm theo loại mã vạch, nội dung hoặc vị trí. Cần thiết cho việc kiểm toán các kho tài liệu lớn hoặc trích xuất dữ liệu từ các tệp đã quét.
-
-### [Cách khởi tạo và cập nhật chữ ký mã vạch trong Java bằng GroupDocs.Signature](./java-groupdocs-signature-barcode-initialize-update/)
-Đã có mã vạch trong PDF nhưng cần thay đổi nội dung hoặc giao diện? Hướng dẫn này bao gồm việc cập nhật chữ ký mã vạch hiện có mà không cần tạo lại toàn bộ tài liệu—tiết kiệm thời gian xử lý và duy trì lịch sử tài liệu.
-
-### [Cách ký PDF với mã HIBC LIC bằng GroupDocs.Signature cho Java: Hướng dẫn toàn diện](./sign-pdfs-hibc-lic-codes-groupdocs-java/)
-Ngành y tế và dược phẩm yêu cầu tiêu chuẩn HIBC (Health Industry Bar Code). Học cách triển khai các mã HIBC LIC QR, Aztec và Data Matrix để tuân thủ quy định, bao gồm cài đặt, xác thực và các thực tiễn tốt nhất.
-
-### [Cách xác minh chữ ký mã vạch trong Java bằng GroupDocs.Signature](./verify-barcode-signatures-groupdocs-signature-java/)
-Tin cậy là tất cả. Tutorial này dạy bạn cách xác minh rằng chữ ký mã vạch là xác thực và không bị can thiệp. Bạn sẽ học cách xác thực nội dung mã vạch, kiểm tra loại mã hoá, và đảm bảo tính toàn vẹn của tài liệu—cực kỳ quan trọng cho tài liệu pháp lý hoặc tài chính.
-
-### [Tìm kiếm mã vạch PDF Java bằng API GroupDocs.Signature: Hướng dẫn toàn diện](./java-pdf-barcode-search-groupdocs-signature-api/)
-Đi sâu vào việc tìm kiếm mã vạch đặc thù cho PDF. Bao gồm lọc nâng cao (theo trang, theo vùng, theo định dạng mã vạch) và cách trích xuất metadata mã vạch cho xử lý tiếp theo. Tuyệt vời cho việc xây dựng hệ thống lập chỉ mục tài liệu tùy chỉnh.
-
-### [Ký PDF Java với mã vạch bằng GroupDocs: Hướng dẫn toàn diện](./java-pdf-signing-barcode-groupdocs/)
-Hướng dẫn toàn diện từ đầu đến cuối để thêm chữ ký mã vạch vào PDF. Bao gồm các tùy chọn tùy biến (màu sắc, phông chữ, vị trí), xử lý lỗi, và mẹo tối ưu hoá hiệu suất cho việc xử lý tài liệu khối lượng lớn.
-
-### [Ký tài liệu PDF với mã vạch bằng GroupDocs.Signature cho Java: Hướng dẫn toàn diện](./sign-pdf-barcode-groupdocs-signature-java/)
-Một góc nhìn khác về việc ký PDF bằng mã vạch với trọng tâm bổ sung vào bảo mật và quy trình chuyên nghiệp. Học cách đặt độ trong suốt, căn chỉnh mã vạch tới tọa độ cụ thể, và tích hợp với chuỗi chữ ký kỹ thuật số.
-
-### [Ký PDF với mã GS1 Composite bằng GroupDocs.Signature cho Java](./sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/)
-Cần tuân thủ tiêu chuẩn GS1 cho chuỗi cung ứng hoặc bán lẻ? Hướng dẫn này tập trung vào mã GS1 Composite—kết hợp thành phần tuyến tính và 2D cho việc xác thực và truy xuất nguồn gốc sản phẩm. Cần thiết cho nhãn vận chuyển và logistics quốc tế.
-
-### [Ký lưu trữ TAR với mã vạch & QR Code trong Java bằng GroupDocs.Signature](./sign-tar-archives-barcode-qr-code-java/)
-Có, bạn cũng có thể ký các tệp lưu trữ nén! Học cách thêm chữ ký mã vạch vào tệp TAR để phân phối an toàn các gói tài liệu. Hoàn hảo cho các bản phát hành phần mềm, gói dữ liệu, hoặc chuyển tệp an toàn.
-
-### [Xác minh chữ ký mã vạch trong tệp ZIP bằng GroupDocs.Signature cho Java](./verify-barcode-signatures-zip-groupdocs-signature-java/)
-Đảm bảo tính toàn vẹn của tài liệu lưu trữ bằng cách xác minh chữ ký mã vạch trong các tệp ZIP. Tutorial này bao gồm quy trình xác minh hàng loạt và cách xác thực các gói tài liệu nén—hữu ích cho kiểm toán tuân thủ hoặc kiểm tra chất lượng tự động.
-
-## Các thực tiễn tốt nhất cho chữ ký mã vạch
-- **Giữ nội dung mã vạch ngắn** – While QR codes can hold thousands of characters, smaller barcodes scan faster and render clearer at lower resolutions. Aim for under 500 characters unless you specifically need larger datasets.  
-- **Kiểm tra quét trước khi sản xuất** – Not all barcode readers handle every format equally well. Test your barcodes with the actual scanners your users will have (smartphone cameras, dedicated readers, etc.).  
-- **Vị trí quan trọng** – Place barcodes in consistent locations (e.g., bottom‑right corner) across all documents. This makes automated scanning much more reliable.  
-- **Sử dụng sửa lỗi** – QR codes and Data Matrix barcodes support error‑correction levels. Higher levels (like QR’s “H” level) let barcodes work even if 30 % is damaged or obscured.  
-- **Kết hợp với chữ ký hình ảnh** – For documents that need both human and machine validation, add a barcode alongside a traditional digital signature. You get automation benefits plus legal enforceability.  
-- **Xử lý thất bại xác minh một cách nhẹ nhàng** – Always check if barcode verification succeeds before processing documents. Invalid barcodes might indicate tampering—log these events for security audits.  
+- **Giữ nội dung mã vạch ngắn** – Nên dưới 500 ký tự; mã vạch nhỏ hơn quét nhanh hơn và hiển thị rõ hơn ở độ phân giải thấp.  
+- **Kiểm tra quét trước khi đưa vào sản xuất** – Đảm bảo các máy quét thực tế của người dùng có thể đọc định dạng đã chọn.  
+- **Đặt mã vạch ở vị trí cố định** – Góc dưới‑phải hoặc vị trí cố định khác giúp tăng độ tin cậy khi quét tự động.  
+- **Bật sửa lỗi** – Sử dụng mức “H” của QR Code hoặc chế độ ECC cao của Data Matrix để tăng khả năng chịu hư hỏng.  
+- **Kết hợp với chữ ký trực quan** – Ghép mã vạch với chữ ký kỹ thuật số truyền thống để cả máy và con người đều có thể xác minh.  
+- **Xử lý lỗi xác minh một cách nhẹ nhàng** – Ghi log mọi sự không khớp; chúng có thể là dấu hiệu của việc giả mạo và nên kích hoạt cảnh báo bảo mật.
 
 ## Câu hỏi thường gặp
-**Q: Tôi có thể sử dụng chữ ký mã vạch trong ứng dụng thương mại không?**  
-A: Có, miễn là bạn có giấy phép GroupDocs.Signature hợp lệ. Một bản dùng thử miễn phí có sẵn để đánh giá.
 
-**Q: Chữ ký mã vạch có hoạt động với PDF được bảo mật bằng mật khẩu không?**  
-A: Hoàn toàn có. Cung cấp mật khẩu tài liệu khi tạo instance `Signature`, và API sẽ tự động giải mã, ký và mã hoá lại tệp.
+**H: Tôi có thể sử dụng chữ ký mã vạch trong ứng dụng thương mại không?**  
+Đ: Có, miễn là bạn có giấy phép GroupDocs.Signature hợp lệ. Bản dùng thử miễn phí có sẵn để đánh giá.
 
-**Q: Định dạng mã vạch nào được khuyến nghị cho việc quét trên điện thoại di động?**  
-A: QR Code và Data Matrix có khả năng tương thích với smartphone tốt nhất và có tính năng sửa lỗi tích hợp, làm cho chúng lý tưởng cho nhân viên hiện trường.
+**H: Chữ ký mã vạch có hoạt động với PDF được bảo vệ bằng mật khẩu không?**  
+Đ: Hoàn toàn có thể. Cung cấp mật khẩu tài liệu khi tạo thể hiện `Signature`, API sẽ tự động giải mã, ký và mã hoá lại tệp.
 
-**Q: Làm sao tôi có thể cập nhật mã vạch hiện có mà không cần ký lại toàn bộ tài liệu?**  
-A: Sử dụng các phương thức cập nhật `BarcodeSignOptions` được trình bày trong tutorial “Initialize and Update” – bạn có thể sửa đổi nội dung, kích thước hoặc vị trí tại chỗ, giữ nguyên phần còn lại của tệp.
+**H: Định dạng mã vạch nào được khuyến nghị cho việc quét bằng điện thoại di động?**  
+Đ: QR Code và Data Matrix có độ tương thích cao nhất với smartphone và tích hợp sẵn khả năng sửa lỗi, rất phù hợp cho nhân viên hiện trường.
 
-**Q: Có ảnh hưởng đến hiệu năng khi ký hàng ngàn PDF không?**  
-A: API được tối ưu cho các thao tác batch; tái sử dụng một instance `Signature` duy nhất và tắt logging chi tiết để tối đa hoá tốc độ. Tốc độ thông thường vượt quá 200 tài liệu mỗi phút trên máy chủ tiêu chuẩn 8‑core.
+**H: Làm sao cập nhật một mã vạch đã tồn tại mà không phải ký lại toàn bộ tài liệu?**  
+Đ: Sử dụng các phương thức cập nhật `BarcodeSignOptions` được trình bày trong hướng dẫn “Khởi tạo và Cập nhật” – bạn có thể thay đổi nội dung, kích thước hoặc vị trí ngay tại chỗ, giữ nguyên phần còn lại của tệp.
+
+**H: Có ảnh hưởng đến hiệu năng khi ký hàng ngàn PDF không?**  
+Đ: API được tối ưu hoá cho các thao tác batch; tái sử dụng một thể hiện `Signature` duy nhất và tắt log chi tiết để tối đa hoá tốc độ. Thông thường, tốc độ vượt quá 200 tài liệu mỗi phút trên máy chủ 8‑core tiêu chuẩn.
 
 ## Tài nguyên
+
 - [Tài liệu GroupDocs.Signature cho Java](https://docs.groupdocs.com/signature/java/)
 - [Tham chiếu API GroupDocs.Signature cho Java](https://reference.groupdocs.com/signature/java/)
 - [Tải xuống GroupDocs.Signature cho Java](https://releases.groupdocs.com/signature/java/)
@@ -220,15 +209,19 @@ A: API được tối ưu cho các thao tác batch; tái sử dụng một insta
 - [Giấy phép tạm thời](https://purchase.groupdocs.com/temporary-license/)
 
 ## Kết luận
-Tạo chữ ký mã QR trong Java rất đơn giản với GroupDocs.Signature. Bằng cách làm theo các bước trên, bạn có thể nhúng dữ liệu an toàn, có thể đọc bằng máy vào bất kỳ loại tài liệu nào được hỗ trợ, tự động thu thập dữ liệu và đảm bảo tính toàn vẹn của tài liệu. Khám phá các tutorial được liên kết để tìm hiểu sâu hơn—cho dù bạn cần quản lý mã vạch ở quy mô lớn, xác minh chúng trong các lưu trữ, hoặc tuân thủ các tiêu chuẩn ngành như HIBC hoặc GS1.
 
----
+Thêm một mã QR hoặc bất kỳ mã vạch nào khác vào PDF là rất đơn giản với GroupDocs.Signature cho Java. Bằng cách làm theo các bước ở trên, bạn có thể nhúng dữ liệu an toàn, có thể đọc bằng máy vào bất kỳ loại tài liệu nào được hỗ trợ, tự động hoá việc thu thập dữ liệu và đảm bảo tính toàn vẹn của tài liệu. Khám phá các hướng dẫn liên kết để tìm hiểu sâu hơn—cho dù bạn cần quản lý mã vạch ở quy mô lớn, xác minh chúng trong các tệp lưu trữ, hoặc tuân thủ các tiêu chuẩn ngành như HIBC hoặc GS1.
 
-**Cập nhật lần cuối:** 2026-06-21  
-**Được kiểm tra với:** GroupDocs.Signature for Java 23.12 (phiên bản mới nhất tại thời điểm viết)  
+**Cập nhật lần cuối:** 2026-11-01  
+**Được kiểm tra với:** GroupDocs.Signature cho Java 23.12 (phiên bản mới nhất tại thời điểm viết)  
 **Tác giả:** GroupDocs  
 
-## Các tutorial liên quan
-- [Xác minh QR Code tài liệu Java - Hướng dẫn toàn diện GroupDocs.Signature](/signature/java/search-verification/java-qr-code-signature-verification-groupdocs/)
-- [Cách đọc QR code PDF bằng Java và GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+## Các hướng dẫn liên quan
+
+- [Xác minh mã QR tài liệu Java - Hướng dẫn toàn diện GroupDocs.Signature](/signature/java/search-verification/java-qr-code-signature-verification-groupdocs/)
+- [Cách đọc PDF mã QR bằng Java và GroupDocs.Signature](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
 - [Tạo chữ ký mã vạch trong Java – Cập nhật mã vạch PDF](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
+
+```text
+Initialize a `Signature` instance with the source file, create a `BarcodeSignOptions` object set to QR code type, assign the data you want to embed, specify position and size, then call `sign` to produce the output file.
+```

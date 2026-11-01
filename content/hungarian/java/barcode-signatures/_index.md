@@ -1,29 +1,33 @@
 ---
 categories:
 - Document Signatures
-date: '2026-06-21'
-description: Ismerje meg, hogyan hozhat létre QR-kód aláírást, adhat hozzá, ellenőrizhet
-  és kezelhet barcode aláírásokat PDF-ekben a GroupDocs.Signature for Java használatával.
+date: '2026-11-01'
+description: Ismerje meg, hogyan adhat hozzá vonalkódot a PDF-hez, hozhat létre QR-kód
+  aláírást, ellenőrizheti és kezelheti a vonalkód aláírásokat PDF-ekben a GroupDocs.Signature
+  for Java használatával.
 keywords:
-- create qr code signature
-- how to add barcode
-- barcode document verification
 - add barcode to pdf
+- how to add qr code to pdf
+- barcode signature java
 - groupdocs signature java
-lastmod: '2026-06-21'
-linktitle: Barcode aláírások
+- pdf barcode signing
+lastmod: '2026-11-01'
+linktitle: Vonalkód aláírások
+og_description: Ismerje meg, hogyan adhat hozzá vonalkódot a PDF-hez, hozhat létre
+  QR-kód aláírásokat, és kezelheti a vonalkód aláírásokat PDF-ekben a GroupDocs.Signature
+  for Java segítségével.
+og_image_alt: 'Guide: add barcode to pdf using GroupDocs.Signature Java API'
+og_title: Hogyan adjon hozzá vonalkódot a PDF-hez a GroupDocs.Signature for Java segítségével
 schemas:
 - author: GroupDocs
-  dateModified: '2026-06-21'
+  dateModified: '2026-11-01'
   description: Learn how to create QR code signature, add, verify and manage barcode
     signatures in PDFs using GroupDocs.Signature for Java.
-  headline: Java create qr code signature Tutorial – Add, Verify & Manage Barcodes
-    in PDFs
+  headline: Java Document Signature Tutorial – Add, Verify & Manage Barcodes in PDFs
   type: TechArticle
 - description: Learn how to create QR code signature, add, verify and manage barcode
     signatures in PDFs using GroupDocs.Signature for Java.
-  name: Java create qr code signature Tutorial – Add, Verify & Manage Barcodes in
-    PDFs
+  name: Java Document Signature Tutorial – Add, Verify & Manage Barcodes in PDFs
   steps:
   - name: Initialise the Signature handler
     text: '`Signature` is the entry point for all signing, searching and verification
@@ -33,7 +37,7 @@ schemas:
     text: '`BarcodeSignOptions` is the configuration class that defines barcode type,
       content, dimensions, colors, and placement on the page. > **Definition anchor:**
       `BarcodeSignOptions` is the options class used to specify every visual and data
-      attribute of a barcode signature before it is applied to a docum'
+      attribute of a barcode signature before it is applied to a document.'
   - name: Sign and save the document
     text: Calling `sign` writes the barcode onto the document and returns a result
       object that tells you whether the operation succeeded and where the barcode
@@ -63,156 +67,167 @@ tags:
 - pdf-signing
 - java-tutorial
 - document-security
-title: Java QR-kód aláírás létrehozása – Barcode hozzáadása, ellenőrzése és kezelése
-  PDF-ekben
+- add barcode to pdf
+title: Hogyan adjon hozzá vonalkódot a PDF-hez a GroupDocs.Signature for Java segítségével
 type: docs
 url: /hu/java/barcode-signatures/
 weight: 4
 ---
 
-# Java vonalkód aláírási útmutató: Vonalkódok hozzáadása, ellenőrzése és kezelése PDF‑ekben
+# Hogyan adjon hozzá vonalkódot PDF-hez a GroupDocs.Signature for Java segítségével
 
-Géppel olvasható információt szeretne közvetlenül a dokumentumaiba ágyazni? Ebben a **java barcode signature tutorial**‑ban megtudja, hogyan kódolhat biztonságosan adatokat – például termék‑azonosítókat, nyomkövetési számokat vagy ellenőrző kódokat – PDF‑ekbe, Word‑fájlokba és számos más formátumba. A vonalkód aláírások lehetővé teszik metaadatok csatolását anélkül, hogy az eredeti tartalmat módosítanák, és a GroupDocs.Signature for Java néhány sor kóddal megoldja ezt a feladatot.
+A gép által olvasható adatok közvetlen beágyazása a PDF-fájlokba (vagy bármely támogatott dokumentumba) lehetővé teszi a hitelesítés automatizálását, az adatgyűjtés egyszerűsítését, és egy manipulációra érzékeny audit nyomvonal fenntartását. Ebben az útmutatóban megtanulja, hogyan **adjon hozzá vonalkódot PDF** fájlokhoz a GroupDocs.Signature for Java használatával, lefedve mindent a QR-kód létrehozásától a hitelesítésig és a kezelésig. A könyvtár több mint 55 fájlformátumot támogat, így ugyanaz a kód működik Word, képek, archívumok és egyéb formátumok esetén is.
 
 ## Gyors válaszok
-- **Milyen könyvtár szükséges?** GroupDocs.Signature for Java (Maven vagy közvetlen letöltés).  
-- **Mely Java verzió támogatott?** Java 8 vagy újabb.  
-- **Alá tudok írni PDF-ekre, Word-re és képekre?** Igen, az API több mint **55** formátummal működik.  
-- **Támogatja a vonalkód aláírás a QR, Data Matrix és GS1 formátumokat?** Mind a fentiek, valamint Code128, Code39, HIBC stb.  
-- **Szükséges licenc a termeléshez?** Érvényes GroupDocs.Signature licenc szükséges kereskedelmi felhasználáshoz.  
-- **Hány kódsorra van szükség?** Általában 5‑10 sor egy teljes QR kód aláírás létrehozásához.  
+- **Milyen könyvtárra van szükségem?** GroupDocs.Signature for Java (available via Maven Central).  
+- **Mely Java verzió szükséges?** Java 8 vagy újabb.  
+- **Hozzáadhatok vonalkódot PDF-hez és más formátumokhoz?** Igen – az API 55+ formátummal működik, beleértve a PDF, DOCX, XLSX, PNG, TAR, ZIP és egyebeket.  
+- **Milyen vonalkód típusok támogatottak?** QR Code, Data Matrix, Code128, Code39, HIBC, GS1 Composite, és még sok más.  
+- **Szükségem van licencre a termeléshez?** Érvényes GroupDocs.Signature licenc kötelező a kereskedelmi használathoz; ingyenes próbaverzió elérhető teszteléshez.  
+- **Hány kódsorra van szükség?** Általában 5‑10 sor a QR-kód vonalkód létrehozásához és beágyazásához.
 
-## Mi az a QR kód aláírás?
-A **QR code signature** egy vonalkód‑alapú digitális aláírás, amely egyedi adatokat tárol egy QR kód vizuális elemében, amely a dokumentumhoz van csatolva. A QR kód beolvasásával kinyerhető a beágyazott információ, lehetővé téve az automatikus ellenőrzést és adatkinyerést a fájl eredeti tartalmának módosítása nélkül.
+## Hogyan adjon hozzá vonalkódot PDF-hez a GroupDocs.Signature for Java segítségével?
+
+Töltse be a cél PDF-et, konfigurálja a vonalkód beállításait, és hívja meg a `sign` metódust – ennyi szükséges. Az API közvetlenül a dokumentumra írja a vonalkódot, miközben megőrzi az eredeti fájlstruktúrát, így egy aláírt PDF-et kap, amely készen áll a szkennelésre vagy az automatizált ellenőrzésre.
+
+Vonalkódot PDF-hez három egyszerű lépésben adhat hozzá: inicializálja a `Signature` kezelőt, konfigurálja a `BarcodeSignOptions`-t a kívánt vonalkód típussal és vizuális beállításokkal, majd végül hívja meg a `sign` metódust a vonalkód beágyazásához és a kimeneti fájl mentéséhez.
+
+## Mi az a QR-kód aláírás?
+
+A QR-kód aláírás egy vonalkód alapú digitális aláírás, amely egy QR-kód vizuális elembe ágyazott egyedi adatokat tárol a dokumentumhoz csatolva. A QR-kód beolvasásával visszanyerhető a beágyazott információ, lehetővé téve az automatizált ellenőrzést és adatkinyerést anélkül, hogy a fájl eredeti tartalma megváltozna.
 
 ## Miért használjunk vonalkód aláírásokat a dokumentumokban?
-A vonalkód aláírások egy gyakori problémát oldanak meg: biztonságosan csatolják a gép által olvasható metaadatokat a dokumentumokhoz anélkül, hogy azok tartalmát megváltoztatnák. Lehetővé teszik az automatikus adatgyűjtést, javítják az ellenőrzést, és egyszerűsítik a munkafolyamatokat, így a vállalkozások könnyebben integrálhatják a dokumentumfeldolgozást a meglévő rendszerekkel, miközben megőrzik az integritást és a megfelelőséget.
 
-- **Automatikus adatgyűjtés** – Olvass be egy vonalkódot ahelyett, hogy manuálisan gépelnéd be az információt. Tökéletes raktárak, szállítási osztályok vagy bármely nagy áteresztőképességű környezet számára.  
-- **Dokumentum ellenőrzés** – Kódolj egyedi azonosítókat vagy ellenőrzőösszegeket a dokumentum hitelességének ellenőrzéséhez. Ha valaki manipulálja a fájlt, a vonalkód nem egyezik.  
-- **Munkafolyamat automatizálás** – Indíts automatikus folyamatokat a dokumentumok beolvasásakor. Gondolj a számlák automatikus útvonalra helyezésére, a készletrendszerek frissítésére vagy a megfelelőségi nyilvántartások naplózására.  
-- **Helytakarékosság** – A vonalkódok nagy mennyiségű adatot csomagolnak egy kis vizuális lábnyomba – gyakran csak egy 1‑hüvelykes négyzetbe.  
-- **Iparági szabványok támogatása** – Dolgozz egészségügyben (HIBC), kiskereskedelemben (GS1), logisztikában (Code128) vagy általános igényekre (QR Code, Data Matrix). A megfelelő vonalkód típus segít megfelelni az iparági követelményeknek.  
+A vonalkód aláírások egy gyakori problémát oldanak meg: biztonságosan csatolják a gép által olvasható metaadatokat a dokumentumokhoz anélkül, hogy azok tartalmát megváltoztatnák. Lehetővé teszik az automatizált adatgyűjtést, javítják a hitelesítést, és egyszerűsítik a munkafolyamatokat, megkönnyítve a vállalkozások számára a dokumentumfeldolgozás integrálását a meglévő rendszerekkel, miközben megőrzik a hitelességet és a megfelelőséget.
 
-## Kezdő lépések a Java QR kód aláírás létrehozásához
+## Első lépések a Java QR-kód aláírás létrehozásához
 
-Mielőtt a kódba merülnél, nézzük meg az alapvetőket. A GroupDocs.Signature for Java **55+** dokumentumformátumot támogat (PDF, DOCX, XLSX, képek, TAR, ZIP és még sok más) és tucatnyi vonalkód típust biztosít. A tipikus munkafolyamat:
+Mielőtt kódot írna, győződjön meg róla, hogy rendelkezik:
 
-1. **Inicializáld a `Signature` objektumot** a forrásdokumentum elérési útjával.  
-2. **Konfiguráld a `BarcodeSignOptions`‑t** – válaszd ki a vonalkód típusát, állítsd be a tartalmat, méretet, színt és elhelyezést.  
-3. **Alkalmazd az aláírást** és mentsd el a aláírt dokumentumot.  
-4. **Keresd vagy ellenőrizd** a vonalkódokat később, amikor ki szeretnéd nyerni vagy validálni az adatokat.
+- Telepítve legyen a Java 8 vagy újabb.  
+- A GroupDocs.Signature for Java hozzá legyen adva a projekthez (Maven függőség vagy manuális JAR).  
+- Érvényes GroupDocs.Signature licencfájl (vagy próbaverzió kulcs) legyen elhelyezve, ahol az SDK el tudja olvasni.
 
-Java 8 vagy újabb, valamint a GroupDocs.Signature könyvtár (elérhető Maven Central‑on vagy közvetlen letöltéssel) szükséges. Minden művelet memóriában történik, így az eredeti fájl érintetlen marad.
+A tipikus munkafolyamat:
+
+1. Inicializálja a `Signature` objektumot a forrásfájl útvonalával.  
+2. Konfigurálja a `BarcodeSignOptions`-t – válassza ki a vonalkód típusát, állítsa be az adatkarakterláncot, méretet, színeket és elhelyezést.  
+3. Hívja meg a `sign` metódust a vonalkód beágyazásához és az aláírt dokumentum lemezre írásához.
 
 ## A megfelelő vonalkód típus kiválasztása
 
-Nem vagy biztos benne, melyik vonalkódot válaszd? Íme egy gyors döntési útmutató:
+Nem biztos benne, melyik vonalkódot használja? Íme egy gyors döntési útmutató:
 
-- **URL-ekhez vagy hosszú szöveghez (max. ~4 000 karakter)**: **QR Code** – a legflexibilisebb és okostelefon‑olvasóval is kompatibilis opció.  
-- **Egészségügyi/farmakológiai nyomkövetéshez**: **HIBC LIC** vonalkódok (QR, Aztec vagy Data Matrix változatok).  
-- **Kiskereskedelem/ellátási lánc (GS1 szabványok)**: **GS1 Composite** vagy **GS1‑128**.  
-- **Kompakt numerikus adatokhoz**: **Code128** vagy **Code39** – ideális nyomkövetési számokhoz, sorozatszámokhoz vagy rövid azonosítókhoz.  
-- **Nagy adatállományok hibajavítással**: **Data Matrix** vagy **Aztec** – több adatot csomagolnak, mint a hagyományos 1D vonalkódok, és még részlegesen sérült állapotban is működnek.
+- **URL-ekhez vagy hosszú szöveghez (kb. 4 000 karakterig)** – **QR Code** a legflexibilisebb, és bármely okostelefon kamerájával működik.  
+- **Egészségügyi vagy gyógyszerkövetéshez** – **HIBC LIC** vonalkódok (QR, Aztec vagy Data Matrix változatok) megfelelnek az iparági előírásoknak.  
+- **Kiskereskedelemhez vagy ellátási lánchoz (GS1 szabványok)** – **GS1 Composite** vagy **GS1‑128** biztosítja a szükséges adatstruktúrát.  
+- **Kompakt numerikus adatokhoz** – **Code128** vagy **Code39** ideális a számlák vagy sorozatszámok számára.  
+- **Nagy adathalmazokhoz hibajavítással** – **Data Matrix** vagy **Aztec** több adatot helyez el kisebb területen, és részlegesen sérült állapotban is olvasható marad.
 
-**Pro tipp:** Ha bizonytalan vagy, kezdj QR Code‑dal – ez a legtöbb felhasználási esetet lefedi, és nem igényel speciális olvasókat.
+**Pro tipp:** Ha bizonytalan, kezdje QR Code-dal; ez a legmagasabb kompatibilitást és hibajavítási lehetőségeket kínálja.
 
-## Hogyan hozzunk létre QR kód aláírást Java-ban
-A QR kód aláírás létrehozása Java-ban magában foglalja a cél dokumentum betöltését, a vonalkód beállításainak konfigurálását a kívánt tartalommal és vizuális tulajdonságokkal, majd az aláírás alkalmazását. A GroupDocs.Signature API kezeli az összes alacsony szintű részletet, biztosítva, hogy a vonalkód helyesen legyen beágyazva, miközben megőrzi az eredeti fájl struktúráját és lehetővé teszi a későbbi ellenőrzést.
+## Hogyan hozzunk létre QR-kód aláírást Java-ban
+
+QR-kód aláírás létrehozásához először töltse be a PDF-fájlt egy `Signature` példányba, majd hozza létre a `BarcodeSignOptions`-t, megadva a `BarcodeTypes.QR` típust és a beágyazni kívánt adatot (pl. URL vagy JSON payload). Szükség szerint állítsa be a méretet, színeket és elhelyezést, végül hívja meg a `sign` metódust, amely a QR-kódot a dokumentumra rajzolja, és egy eredményt ad vissza, amely jelzi a sikerességet és az aláírás helyét.
+
+## 1. lépés: a Signature kezelő inicializálása
+
+`Signature` a belépési pont minden aláírási, keresési és hitelesítési művelethez. Absztrahálja a fájlkezelést PDF-ek, Word dokumentumok, képek és archívum formátumok esetén.
+
+## 2. lépés: a `BarcodeSignOptions` konfigurálása
+
+`BarcodeSignOptions` az opciókat tartalmazó osztály, amely a vonalkód aláírás minden vizuális és adat attribútumát határozza meg, mielőtt a dokumentumra alkalmaznák.
+
+Tipikus beállítások:
+
+- **Vonalkód típusa** – `BarcodeTypes.QR`  
+- **Beágyazandó adat** – bármilyen UTF‑8 karakterlánc, például URL vagy JSON payload  
+- **Méret** – szélesség és magasság pontban (pl. 120 × 120)  
+- **Pozíció** – oldalszám, X/Y koordináták vagy igazítási jelzők  
+- **Vizuális stílus** – előtér/háttér színek, átlátszóság, forgatás  
+
+## 3. lépés: aláírás és a dokumentum mentése
+
+A `sign` meghívása a vonalkódot a dokumentumra írja, és egy eredményobjektust ad vissza, amely megmutatja, hogy a művelet sikeres volt-e, és hol helyezkedett el a vonalkód.
+
+## Gyakori felhasználási esetek
+
+Fejlesztők a QR-kód aláírásokat a következőkre használják:
+
+- **Számlafeldolgozás** – Számlaszámok és összegek kódolása; a könyvelő szoftver beolvassa őket a fizetési rendszerek automatikus feltöltéséhez.  
+- **Dokumentum nyomon követése** – Egyedi vonalkódok hozzáadása szerződésekhez; a beolvasás azonnal megjeleníti a verziótörténetet és az jóváhagyási állapotot.  
+- **Raktárkezelés** – Szállítási címkék aláírása termék SKU-kkal; a szkennerek valós időben frissítik a készletet.  
+- **Megfelelőség és audit nyomvonalak** – Hitelesítő kódok beágyazása, amelyek bizonyítják, hogy a dokumentum aláírás óta nem változott meg.  
+- **Egészségügyi nyilvántartások** – HIBC‑kompatibilis vonalkódok használata a betegfájlokon a megfelelő nyomon követés és szabályozási megfelelés biztosításához.
+
+## Elérhető útmutatók
+
+Alább megtalálja a lépésről‑lépésre útmutatókat minden vonalkód aláírási művelethez. Minden útmutató tartalmaz teljes, működő Java kódot, amelyet a projektjéhez adaptálhat.
+
+- [Hatékony Java vonalkód aláírás kezelése a GroupDocs.Signature használatával]({{< relref "./java-barcode-signature-management-groupdocs-signature/" >}})
+- [PDF-ek létrehozása és aláírása vonalkódokkal a GroupDocs.Signature for Java használatával]({{< relref "./create-sign-pdfs-groupdocs-barcode-java/" >}})
+- [Hogyan valósítsa meg a vonalkód aláírás keresését Java-ban a GroupDocs.Signature segítségével]({{< relref "./implement-barcode-signature-search-groupdocs-signature-java/" >}})
+- [Hogyan inicializálja és frissítse a vonalkód aláírásokat Java-ban a GroupDocs.Signature használatával]({{< relref "./java-groupdocs-signature-barcode-initialize-update/" >}})
+- [PDF-ek aláírása HIBC LIC kódokkal a GroupDocs.Signature for Java használatával: Átfogó útmutató]({{< relref "./sign-pdfs-hibc-lic-codes-groupdocs-java/" >}})
+- [Hogyan ellenőrizze a vonalkód aláírásokat Java-ban a GroupDocs.Signature használatával]({{< relref "./verify-barcode-signatures-groupdocs-signature-java/" >}})
+- [Java PDF vonalkód keresés a GroupDocs.Signature API használatával: átfogó útmutató]({{< relref "./java-pdf-barcode-search-groupdocs-signature-api/" >}})
+- [Java PDF aláírás vonalkóddal a groupDocs használatával: átfogó útmutató]({{< relref "./java-pdf-signing-barcode-groupdocs/" >}})
+- [PDF dokumentumok aláírása vonalkóddal a GroupDocs.Signature for java használatával: átfogó útmutató]({{< relref "./sign-pdf-barcode-groupdocs-signature-java/" >}})
+- [PDF-ek aláírása GS1 összetett vonalkódokkal a GroupDocs.Signature for java használatával]({{< relref "./sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/" >}})
+- [TAR archívumok aláírása vonalkódokkal és QR-kódokkal Java-ban a GroupDocs.Signature használatával]({{< relref "./sign-tar-archives-barcode-qr-code-java/" >}})
+- [Vonalkód aláírások ellenőrzése ZIP fájlokban a GroupDocs.Signature for java használatával]({{< relref "./verify-barcode-signatures-zip-groupdocs-signature-java/" >}})
+
+## Legjobb gyakorlatok vonalkód aláírásokhoz
+
+- **Tartsa röviden a vonalkód tartalmát** – Törekedjen 500 karakter alá; a kisebb vonalkódok gyorsabban beolvashatók és alacsony felbontásnál tisztábban jelennek meg.  
+- **Tesztelje a beolvasást a termelés előtt** – Ellenőrizze, hogy a felhasználók által használt szkennerek képesek-e olvasni a kiválasztott formátumot.  
+- **Helyezze el a vonalkódokat konzisztensen** – A jobb alsó sarok vagy egy másik rögzített hely javítja az automatizált beolvasás megbízhatóságát.  
+- **Engedélyezze a hibajavítást** – Használja a QR Code “H” szintjét vagy a Data Matrix magas ECC módját a sérülés elleni ellenálló képességhez.  
+- **Kombinálja vizuális aláírásokkal** – Párosítsa a vonalkódot egy hagyományos digitális aláírással a gépi és emberi ellenőrzés egyidejű biztosításához.  
+- **Kezelje az ellenőrzési hibákat megfelelően** – Naplózza az eltéréseket; ezek manipulációra utalhatnak, és biztonsági riasztásokat kell kiváltaniuk.
+
+## Gyakran feltett kérdések
+
+**K: Használhatok vonalkód aláírásokat kereskedelmi alkalmazásban?**  
+A: Igen, amennyiben érvényes GroupDocs.Signature licencet rendelkezik. Ingyenes próbaverzió elérhető értékeléshez.
+
+**K: A vonalkód aláírások működnek jelszóval védett PDF-ekkel?**  
+A: Teljesen. Adja meg a dokumentum jelszavát a `Signature` példány létrehozásakor, és az API automatikusan dekódolja, aláírja és újrakódolja a fájlt.
+
+**K: Mely vonalkód formátumok ajánlottak mobil beolvasáshoz?**  
+A: A QR Code és a Data Matrix a legjobb okostelefon kompatibilitással és beépített hibajavítással rendelkeznek, így ideálisak terepi munkatársak számára.
+
+**K: Hogyan frissíthetek egy meglévő vonalkódot anélkül, hogy újra aláírnám az egész dokumentumot?**  
+A: Használja a `BarcodeSignOptions` frissítési metódusait, amelyek a „Inicializálás és frissítés” útmutatóban szerepelnek – módosíthatja a tartalmat, méretet vagy pozíciót a helyén, miközben a fájl többi részét megőrzi.
+
+**K: Van teljesítménybeli hatása, ha több ezer PDF-et aláírunk?**  
+A: Az API a kötegelt műveletekre van optimalizálva; használjon egyetlen `Signature` példányt újra, és kapcsolja ki a részletes naplózást a teljesítmény maximalizálásához. A tipikus áteresztőképesség meghaladja a 200 dokumentumot percenként egy standard 8‑magos szerveren.
+
+## Erőforrások
+
+- [GroupDocs.Signature for Java dokumentáció](https://docs.groupdocs.com/signature/java/)
+- [GroupDocs.Signature for Java API referencia](https://reference.groupdocs.com/signature/java/)
+- [GroupDocs.Signature for Java letöltése](https://releases.groupdocs.com/signature/java/)
+- [GroupDocs.Signature fórum](https://forum.groupdocs.com/c/signature)
+- [Ingyenes támogatás](https://forum.groupdocs.com/)
+- [Ideiglenes licenc](https://purchase.groupdocs.com/temporary-license/)
+
+## Összegzés
+
+QR-kód vagy bármely más vonalkód PDF-hez való hozzáadása egyszerű a GroupDocs.Signature for Java segítségével. A fenti lépések követésével biztonságos, gép által olvasható adatokat ágyazhat be bármely támogatott dokumentumtípusba, automatizálhatja az adatgyűjtést, és garantálhatja a dokumentum integritását. Tekintse meg a kapcsolódó útmutatókat a mélyebb ismeretekhez – legyen szó nagyméretű vonalkód kezelésről, archivumban történő ellenőrzésről vagy iparágspecifikus szabványok, például HIBC vagy GS1 betartásáról.
+
+---
+
+**Utoljára frissítve:** 2026-11-01  
+**Tesztelve:** GroupDocs.Signature for Java 23.12 (a legújabb a írás időpontjában)  
+**Szerző:** GroupDocs  
+
+## Kapcsolódó útmutatók
+
+- [Java dokumentum QR-kód ellenőrzés – átfogó GroupDocs.Signature](/signature/java/search-verification/java-qr-code-signature-verification-groupdocs/)
+- [Hogyan olvassunk QR-kód PDF-et Java és GroupDocs.Signature használatával](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
+- [Vonalkód aláírás létrehozása Java-ban – PDF vonalkódok frissítése](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
 
 ```text
 Initialize a `Signature` instance with the source file, create a `BarcodeSignOptions` object set to QR code type, assign the data you want to embed, specify position and size, then call `sign` to produce the output file.
 ```
-
-### 1. lépés: A Signature kezelő inicializálása
-`Signature` az összes aláírási, keresési és ellenőrzési művelet belépési pontja. Absztrahálja a fájlkezelést PDF-ek, Word dokumentumok, képek és archívum formátumok esetén.
-
-### 2. lépés: `BarcodeSignOptions` konfigurálása
-`BarcodeSignOptions` a konfigurációs osztály, amely meghatározza a vonalkód típusát, tartalmát, méreteit, színeit és elhelyezését az oldalon.  
-
-> **Definition anchor:** `BarcodeSignOptions` az a beállítási osztály, amely minden vizuális és adat attribútumot meghatároz a vonalkód aláírásra, mielőtt az dokumentumba kerül.
-
-A tipikus beállítások közé tartozik:
-- **Vonalkód típusa** – `BarcodeTypes.QR`
-- **Beágyazandó adat** – bármely UTF‑8 karakterlánc, például URL vagy JSON payload
-- **Méret** – szélesség és magasság pontban (pl. 120 × 120)
-- **Pozíció** – oldalszám, X/Y koordináták vagy igazítási zászlók
-- **Vizuális stílus** – előtér/háttér színek, átlátszóság, forgatás
-
-### 3. lépés: Aláírás és a dokumentum mentése
-A `sign` hívás a vonalkódot a dokumentumra írja, és egy eredményobjektumot ad vissza, amely tájékoztat arról, hogy a művelet sikeres volt-e, és hol helyezkedik el a vonalkód.
-
-## Gyakori felhasználási esetek
-
-Íme, hogyan használják a fejlesztők a QR kód aláírásokat a gyakorlatban:
-
-- **Számlafeldolgozás** – Számlaszámok és összegek kódolása QR kóddá. A könyvelő szoftver beolvassa őket, és automatikusan feltölti a fizetési rendszert.  
-- **Dokumentum nyomkövetés** – Egyedi vonalkódok hozzáadása szerződésekhez vagy jogi dokumentumokhoz. Beolvasáskor azonnal megjelenik a fájl előzménye és az approbáció állapota.  
-- **Raktárkezelés** – Szállítási címkék aláírása termék SKU‑kkal és mennyiségekkel. A szkennerek valós időben frissítik a készletet.  
-- **Megfelelőség és audit nyomvonalak** – Ellenőrző kódok beágyazása, amelyek bizonyítják, hogy a dokumentum aláírás óta nem változott.  
-- **Egészségügyi nyilvántartások** – HIBC‑kompatibilis vonalkódok használata a betegfájlokon a megfelelő nyomon követés és szabályozási megfelelés érdekében.
-
-## Elérhető útmutatók
-
-Az alábbiakban lépésről‑lépésre útmutatókat találsz minden vonalkód aláírás művelethez. Minden tutorial tartalmaz teljes, működő Java kódot, amelyet a projektedhez adaptálhatsz.
-
-### [Hatékony Java vonalkód aláírás kezelése a GroupDocs.Signature segítségével](./java-barcode-signature-management-groupdocs-signature/)
-Kezdd itt, ha a teljes életciklust szeretnéd: hogyan inicializáld a signature kezelőt, keresd meg a meglévő vonalkódokat a dokumentumokban, és töröld az aláírásokat, ha már nincs rájuk szükség. Ideális dokumentumkezelő rendszerekhez, ahol a vonalkód aláírások dinamikusak.
-
-### [PDF-ek aláírása vonalkódokkal a GroupDocs.Signature for Java használatával](./create-sign-pdfs-groupdocs-barcode-java/)
-Az útmutató, amely megmutatja, hogyan aláírj újszerű PDF-eket vonalkód aláírásokkal. Tanuld meg, hogyan generálj dokumentumokat programozottan, és ágyazz be vonalkódokat a létrehozás során – tökéletes automatizált számlageneráláshoz vagy tanúsítványnyomtatáshoz.
-
-### [Vonalkód aláírás keresésének megvalósítása Java-ban a GroupDocs.Signature‑val](./implement-barcode-signature-search-groupdocs-signature-java/)
-Szükséged van arra, hogy megtaláld az összes vonalkódot egy dokumentumkészletben? Ez a tutorial megmutatja, hogyan keress vonalkód típus, tartalom vagy pozíció alapján. Elengedhetetlen nagy dokumentumtárak auditálásához vagy beolvasott fájlok adatkinyeréséhez.
-
-### [Vonalkód aláírások inicializálása és frissítése Java-ban a GroupDocs.Signature‑val](./java-groupdocs-signature-barcode-initialize-update/)
-Már vannak vonalkódok a PDF-jeidben, de módosítani kell a tartalmat vagy a megjelenést? Ez az útmutató bemutatja a meglévő vonalkód aláírások frissítését a dokumentum újraalkotása nélkül – időt takarít meg és megőrzi a dokumentum történetét.
-
-### [PDF-ek aláírása HIBC LIC kódokkal a GroupDocs.Signature for Java‑val: Átfogó útmutató](./sign-pdfs-hibc-lic-codes-groupdocs-java/)
-Az egészségügyi és gyógyszeripari szektorok HIBC (Health Industry Bar Code) szabványt igényelnek. Tanuld meg, hogyan valósítsd meg a HIBC LIC QR, Aztec és Data Matrix kódokat a szabályozási megfeleléshez, beleértve a beállítást, validálást és a legjobb gyakorlatokat.
-
-### [Vonalkód aláírások ellenőrzése Java-ban a GroupDocs.Signature‑val](./verify-barcode-signatures-groupdocs-signature-java/)
-A bizalom minden. Ez a tutorial megtanítja, hogyan ellenőrizd, hogy a vonalkód aláírások hitelesek és nem manipuláltak. Megtanulod a vonalkód tartalom validálását, a kódolási típusok ellenőrzését és a dokumentum integritás biztosítását – kritikus jogi vagy pénzügyi dokumentumok esetén.
-
-### [Java PDF vonalkód keresés a GroupDocs.Signature API‑val: Átfogó útmutató](./java-pdf-barcode-search-groupdocs-signature-api/)
-Mélyreható útmutató a PDF‑specifikus vonalkód kereséshez. Tartalmaz fejlett szűrést (oldal, régió, vonalkód formátum) és azt, hogyan nyerj ki vonalkód metaadatokat a további feldolgozáshoz. Ideális egyedi dokumentum indexelő rendszerek építéséhez.
-
-### [Java PDF aláírás vonalkóddal a GroupDocs‑szal: Átfogó útmutató](./java-pdf-signing-barcode-groupdocs/)
-Átfogó vég‑től‑végig útmutató a vonalkód aláírások hozzáadásához PDF-ekhez. Tartalmaz testreszabási lehetőségeket (színek, betűtípusok, pozicionálás), hibakezelést és teljesítményoptimalizálási tippeket nagy mennyiségű dokumentum feldolgozásához.
-
-### [PDF dokumentumok aláírása vonalkóddal a GroupDocs.Signature for Java‑val: Átfogó útmutató](./sign-pdf-barcode-groupdocs-signature-java/)
-Egy másik megközelítés a PDF vonalkód aláíráshoz, különös hangsúlyt fektetve a biztonságra és a professzionális munkafolyamatokra. Tanuld meg, hogyan állíts be átlátszóságot, igazíts vonalkódokat konkrét koordinátákhoz, és integráld a digitális aláírás láncokkal.
-
-### [PDF-ek aláírása GS1 Composite vonalkódokkal a GroupDocs.Signature for Java‑val](./sign-pdf-gs1compositebar-barcode-groupdocs-signature-java/)
-GS1 szabványoknak kell megfelelned a szállítói lánc vagy kiskereskedelem terén? Ez az útmutató kifejezetten a GS1 Composite vonalkódokra fókuszál – lineáris és 2D komponensek kombinációja a termék hitelesítéséhez és nyomon követéséhez. Elengedhetetlen szállítási címkékhez és nemzetközi logisztikához.
-
-### [TAR archívumok aláírása vonalkódokkal és QR kódokkal Java-ban a GroupDocs.Signature‑val](./sign-tar-archives-barcode-qr-code-java/)
-Igen, tömörített archívumokat is aláírhatsz! Tanuld meg, hogyan adj hozzá vonalkód aláírásokat TAR fájlokhoz a dokumentumcsomagok biztonságos terjesztéséhez. Tökéletes szoftverkiadásokhoz, adatcsomagokhoz vagy biztonságos fájlátvitelekhez.
-
-### [Vonalkód aláírások ellenőrzése ZIP fájlokban a GroupDocs.Signature for Java‑val](./verify-barcode-signatures-zip-groupdocs-signature-java/)
-Biztosítsd a tömörített dokumentumok integritását a ZIP fájlokban lévő vonalkód aláírások ellenőrzésével. Ez a tutorial kötegelt ellenőrzési munkafolyamatokat és a tömörített dokumentumcsomagok validálását mutatja be – hasznos megfelelőségi auditokhoz vagy automatizált minőség-ellenőrzésekhez.
-
-## Erőforrások
-
-- [GroupDocs.Signature for Java Documentation](https://docs.groupdocs.com/signature/java/)
-- [GroupDocs.Signature for Java API Reference](https://reference.groupdocs.com/signature/java/)
-- [Download GroupDocs.Signature for Java](https://releases.groupdocs.com/signature/java/)
-- [GroupDocs.Signature Forum](https://forum.groupdocs.com/c/signature)
-- [Free Support](https://forum.groupdocs.com/)
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
-## Következtetés
-
-A QR kód aláírás létrehozása Java-ban egyszerű a GroupDocs.Signature segítségével. A fenti lépések követésével biztonságos, gép által olvasható adatokat ágyazhatsz be bármely támogatott dokumentumtípusba, automatizálhatod az adatgyűjtést, és garantálhatod a dokumentum integritását. Fedezd fel a kapcsolódó útmutatókat a mélyebb ismeretekhez – legyen szó a vonalkódok nagyléptékű kezeléséről, archivumokban való ellenőrzésről vagy iparági szabványok, például HIBC vagy GS1 betartásáról.
-
----
-
-**Last Updated:** 2026-06-21  
-**Tested With:** GroupDocs.Signature for Java 23.12 (legújabb a kiadás időpontjában)  
-**Author:** GroupDocs  
-
-## Kapcsolódó útmutatók
-
-- [Java dokumentum QR kód ellenőrzés – Átfogó GroupDocs.Signature](/signature/java/search-verification/java-qr-code-signature-verification-groupdocs/)
-- [QR kód PDF olvasása Java-val és GroupDocs.Signature‑val](/signature/java/barcode-signatures/java-pdf-barcode-search-groupdocs-signature-api/)
-- [Vonalkód aláírás létrehozása Java‑ban – PDF vonalkódok frissítése](/signature/java/barcode-signatures/java-groupdocs-signature-barcode-initialize-update/)
