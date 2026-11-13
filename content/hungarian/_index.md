@@ -1,31 +1,31 @@
 ---
 additionalTitle: GroupDocs Official API References
-date: 2026-08-14
-description: Fedezze fel a GroupDocs.Signature API oktatót a .NET és Java környezetben
-  történő biztonságos digitális dokumentum aláíráshoz. Ismerje meg, hogyan valósíthatja
-  meg, ellenőrizheti és védheti a PDF, Word, Excel, PowerPoint és képfájlokat.
+date: 2026-11-13
+description: Ismerje meg, hogyan valósítható meg a biztonságos digitális dokumentum-aláírás
+  a GroupDocs.Signature API-val .NET és Java környezetben – PDF-ek, Word, Excel, PowerPoint,
+  képek és több mint 50 formátum támogatásával.
 is_root: true
 keywords:
-- groupdocs signature api tutorial
-- digital document signing .net
-- digital document signing java
-lastmod: 2026-08-14
-linktitle: GroupDocs.Signature API oktatók és dokumentáció
-og_description: A GroupDocs.Signature API oktató bemutatja, hogyan valósítható meg
-  a biztonságos digitális dokumentum aláírás .NET és Java környezetben, a PDF, Word,
-  Excel, PowerPoint és képek kezelése mellett.
-og_image_alt: GroupDocs.Signature banner illustrating digital document signing across
-  .NET and Java
-og_title: GroupDocs.Signature API oktató – biztonságos digitális dokumentum aláírás
-  .NET és Java számára
+- groupdocs signature digital document signing
+- groupdocs signature .net
+- groupdocs signature java
+- electronic signature api
+- document signing tutorial
+lastmod: 2026-11-13
+linktitle: GroupDocs.Signature API oktatóanyagok és dokumentáció
+og_description: A GroupDocs.Signature digitális dokumentum-aláírási útmutató bemutatja,
+  hogyan valósítható meg a biztonságos aláírás .NET és Java környezetben, 50+ formátum
+  és akár 2 GB méretű fájlok támogatásával.
+og_image_alt: 'Developer guide: GroupDocs.Signature digital document signing across
+  .NET and Java'
+og_title: GroupDocs.Signature digitális dokumentum-aláírási útmutató – .NET & Java
+  (58 karakter)
 schemas:
 - author: GroupDocs
-  dateModified: '2026-08-14'
-  description: Explore the GroupDocs.Signature API tutorial for secure digital document
-    signing in .NET and Java. Learn how to implement, verify, and protect PDFs, Word,
-    Excel, PowerPoint, and image files.
-  headline: GroupDocs.Signature API tutorial – secure digital document signing for
-    .NET and Java
+  dateModified: '2026-11-13'
+  description: Learn how to implement secure digital document signing with the GroupDocs.Signature
+    API in .NET and Java—covering PDFs, Word, Excel, PowerPoint, and images.
+  headline: GroupDocs.Signature digital document signing tutorial – .NET & Java
   type: TechArticle
 - questions:
   - answer: Yes, the API is stateless and works with Docker, Kubernetes, and serverless
@@ -38,7 +38,7 @@ schemas:
       supported out of the box.
     question: What .NET versions are officially supported?
   - answer: Use the streaming API (`Signature.Load(Stream)`) which processes pages
-      on‑the‑fly and keeps memory usage below 100 MB even for 500‑page files.
+      on‑the‑fly and keeps memory usage below 100 MB even for 500‑page files.
     question: How do I handle large documents (hundreds of pages) efficiently?
   - answer: Yes, enable the built‑in logging module; it records every signing and
       verification event with timestamps, user IDs, and operation results.
@@ -50,56 +50,57 @@ tags:
 - .net document signing
 - java document signing
 - api tutorial
-title: GroupDocs.Signature API oktató – biztonságos digitális dokumentum aláírás .NET
-  és Java számára
+title: GroupDocs.Signature digitális dokumentum-aláírási útmutató .NET és Java számára
 type: docs
 url: /hu/
 weight: 11
 ---
 
-# GroupDocs.Signature API bemutató – biztonságos digitális dokumentum aláírás .NET és Java számára
+# GroupDocs.Signature digitális dokumentum aláírási útmutató .NET és Java
 
-![GroupDocs.Signature banner](./groupdocs-signature-net.svg)
+![GroupDocs.Signature Banner](./groupdocs-signature-net.svg)
 
-[GroupDocs.Signature banner](./groupdocs-signature-net.svg)
+[GroupDocs.Signature Banner](./groupdocs-signature-net.svg)
 
-## Miért fontos egy GroupDocs.Signature API bemutató
+## Miért fontos egy GroupDocs.Signature API útmutató
 
-A mai gyorsan változó vállalkozásokban a **digitális dokumentum aláírás** nem csak kényelem – ez megfelelőségi követelmény. Ez a **GroupDocs.Signature API bemutató** megmutatja, hogyan ágyazhatsz be megbízható, manipulációra érzékeny aláírásokat közvetlenül .NET vagy Java alkalmazásaidba, teljes irányítást biztosítva a biztonság, a megjelenés és a munkafolyamat-automatizálás felett.
+A mai gyorsan változó vállalkozásokban a **digitális dokumentum aláírás** nem csak kényelmi funkció – megfelelőségi követelmény. Ez a **GroupDocs.Signature API útmutató** megmutatja, hogyan ágyazhatsz be megbízható, manipulációra érzékeny aláírásokat közvetlenül .NET vagy Java alkalmazásaidba, teljes irányítást biztosítva a biztonság, megjelenés és munkafolyamat‑automatizálás felett.
 
-Meg fogod tudni, miért választják a fejlesztők a GroupDocs.Signature‑t a következők miatt:
+Felfedezheted, miért választják a fejlesztők a GroupDocs.Signature‑t:
 
-* **Regulatory compliance** – megfelelni az e‑aláírási törvényeknek és iparági szabványoknak.  
+* **Regulatory compliance** – megfelel az e‑aláírási törvényeknek és iparági szabványoknak.  
 * **Cross‑format flexibility** – PDF‑ek, DOCX, XLSX, PPTX, képek és több mint 50 egyéb formátum aláírása.  
-* **Scalable automation** – kötegelt feldolgozás több ezer dokumentumot egyetlen kódsorral.  
+* **Scalable automation** – ezrek dokumentumának kötegelt feldolgozása egyetlen kódsorral.  
 
-Alább megtalálod a gondosan összeállított lépésről‑lépésre útmutatók listáját, amelyek a aláírás életciklusának minden szakaszát lefedik.
+Alább megtalálod a gondosan összeállított lépésről‑lépésre útmutatók listáját, amelyek a digitális aláírás életciklusának minden szakaszát lefedik.
 
 ## Gyors válaszok
-- **Mi a GroupDocs.Signature funkciója?** Látható és láthatatlan aláírásokat ad hozzá több mint 50 dokumentumtípushoz, miközben megőrzi a fájl integritását.  
-- **Mely platformok támogatottak?** A .NET (Framework, Core, .NET 5/6/7) és a Java (beleértve az Androidot) teljes körűen támogatott.  
+- **Mi a GroupDocs.Signature funkciója?** Látható és láthatatlan aláírásokat ad több mint 50 dokumentumtípushoz, miközben megőrzi a fájl integritását.  
+- **Mely platformok támogatottak?** Mind a .NET (Framework, Core, .NET 5/6/7), mind a Java (beleértve az Androidot) teljes körűen támogatott.  
 - **Aláírhatok PDF‑eket vizuális pecsét nélkül?** Igen, kriptográfiai aláírásokat alkalmazhatsz, amelyek nem változtatják meg a dokumentum megjelenését.  
 - **Lehetséges a kötegelt aláírás?** Teljesen – az API egyetlen feladatban 10 000+ dokumentumot képes feldolgozni streaming használatával.  
-- **Szükségem van licencre a fejlesztéshez?** Elérhető egy ingyenes 30‑napos próba; a termeléshez kereskedelmi licenc szükséges.
+- **Szükség van licencre fejlesztéshez?** Egy ingyenes 30‑napos próba elérhető; a termeléshez kereskedelmi licenc szükséges.
 
-## Mi a GroupDocs.Signature API bemutató?
-A **GroupDocs.Signature API bemutató** gyakorlati útmutatók gyűjteménye, amelyek bemutatják, hogyan hozhatsz létre, alkalmazhatsz, ellenőrizhetsz és kezelhetsz digitális aláírásokat .NET és Java alkalmazásokban. Valós példákon keresztül vezet végig, egyoldalas szerződéstől a vállalati szintű kötegelt munkafolyamatokig.
+## Mi az a GroupDocs.Signature API útmutató?
+
+A GroupDocs.Signature API útmutató gyakorlati útmutatók gyűjteménye, amelyek bemutatják, hogyan hozhatsz létre, alkalmazhatsz, ellenőrizhetsz és kezelhetsz digitális aláírásokat .NET és Java alkalmazásokban. Valós példákon keresztül vezet végig egy egyoldalas szerződéstől a vállalati szintű kötegelt munkafolyamatokig, és kész‑kód mintákat biztosít minden felhasználási esethez.
 
 ## Miért használjuk a GroupDocs.Signature‑t digitális dokumentum aláírásra?
-A GroupDocs.Signature **50+ bemeneti és kimeneti formátumot** dolgoz fel, és akár **2 GB** méretű dokumentumokat is kezel anélkül, hogy a teljes fájlt a memóriába töltené, alulmásodperces késleltetést biztosítva a tipikus 10 oldalas szerződések esetén. Beépített megfelelőségi ellenőrzései akár **40 %**‑kal csökkentik az audit időt, és esemény‑vezérelt architektúrája lehetővé teszi egyedi üzleti szabályok beillesztését egyetlen kódsorral.
 
-## Előkövetelmények
-- .NET 4.6+ **or** .NET 5/6/7 runtime, **or** Java 8+ (including Android).  
-- Érvényes GroupDocs.Signature licenc (a próba értékeléshez használható).  
-- Alapvető ismeretek a C# vagy Java szintaxisról és a projekt struktúrájáról.
+A GroupDocs.Signature **50+ bemeneti és kimeneti formátumot** dolgoz fel, és akár **2 GB**‑os dokumentumokat is kezel anélkül, hogy a teljes fájlt a memóriába töltené, így tipikus 10‑oldalas szerződések esetén alulmásodperces késleltetést biztosít. Beépített megfelelőségi ellenőrzései akár **40 %**‑kal csökkentik az audit időt, és esemény‑vezérelt architektúrája lehetővé teszi egyedi üzleti szabályok beillesztését egyetlen kódsorral.
 
-## .NET útmutatók – digitális dokumentum aláírás, amit a .NET fejlesztők szeretnek
+## Előfeltételek
+- .NET 4.6+ **vagy** .NET 5/6/7 futtatókörnyezet, **vagy** Java 8+ (beleértve az Androidot).  
+- Érvényes GroupDocs.Signature licenc (a próba verzió értékelésre használható).  
+- Alapvető ismeretek a C# vagy Java szintaxisról és a projektstruktúráról.  
+
+## .NET oktatóanyagok – digitális dokumentum aláírás, amit a .NET fejlesztők szeretnek
 
 {{% alert color="primary" %}}
-Mesteri szintre emelheted a GroupDocs.Signature‑t .NET‑hez átfogó lépésről‑lépésre útmutatóinkkal és azonnal használható kódpéldáinkkal. Az alapvető megvalósítástól a fejlett biztonsági munkafolyamatokig, útmutatóink lefedik az aláírás teljes életciklusát, beleértve a létrehozást, alkalmazást, ellenőrzést és a digitális aláírások kezelését C# alkalmazásokban.
+Mesterségesítsd a GroupDocs.Signature‑t .NET‑hez átfogó lépésről‑lépésre útmutatóinkkal és kész‑használatra szánt kódpéldáinkkal. Az egyszerű megvalósítástól a fejlett biztonsági munkafolyamatokig, oktatóanyagaink lefedik az aláírás teljes életciklusát, beleértve a létrehozást, alkalmazást, ellenőrzést és a digitális aláírások kezelését C# alkalmazásokban.
 {{% /alert %}}
 
-- [Első lépések a GroupDocs.Signature .NET használatával](./net/getting-started/)
+- [Első lépések a GroupDocs.Signature .NET‑hez](./net/getting-started/)
 - [Dokumentum betöltése és mentése .NET‑ben](./net/document-loading-saving/)
 - [Digitális tanúsítvány aláírások .NET‑ben](./net/digital-signatures/)
 - [Vonalkód aláírás megvalósítása .NET‑ben](./net/barcode-signatures/)
@@ -108,15 +109,15 @@ Mesteri szintre emelheted a GroupDocs.Signature‑t .NET‑hez átfogó lépésr
 - [Szöveg‑ és tipográfiai aláírások .NET‑ben](./net/text-signatures/)
 - [Interaktív űrlapmező aláírások .NET‑ben](./net/form-field-signatures/)
 - [Rejtett metaadat aláírások .NET‑ben](./net/metadata-signatures/)
-- [Több‑aláírás feldolgozása .NET‑ben](./net/multiple-signatures/)
-- [Aláírás ellenőrzés és hitelesítés .NET‑ben](./net/search-verification/)
-- [Aláírás életciklus kezelése .NET‑ben](./net/signature-management/)
+- [Több‑aláírási feldolgozás .NET‑ben](./net/multiple-signatures/)
+- [Aláírás ellenőrzése és hitelesítése .NET‑ben](./net/search-verification/)
+- [Aláírás életciklus‑kezelés .NET‑ben](./net/signature-management/)
 - [Dokumentum előnézet és információkinyerés .NET‑ben](./net/preview-info/)
 - [Fejlett aláírás testreszabás .NET‑ben](./net/advanced-options/)
 - [Esemény‑vezérelt aláírás feldolgozás .NET‑ben](./net/event-handling/)
 - [Dokumentum biztonság és védelem .NET‑ben](./net/document-protection/)
 - [Aláírás diagnosztika .NET‑ben](./net/logging-debugging/)
-- [Törlési művelet munkafolyamatok .NET‑ben](./net/delete-operations/)
+- [Törlés műveleti munkafolyamatok .NET‑ben](./net/delete-operations/)
 - [Dokumentum előnézet testreszabása .NET‑ben](./net/document-preview-operations/)
 - [Metaadat kinyerés és kezelése .NET‑ben](./net/document-metadata-extraction/)
 - [Fejlett keresési képességek .NET‑ben](./net/signature-searching/)
@@ -125,13 +126,13 @@ Mesteri szintre emelheted a GroupDocs.Signature‑t .NET‑hez átfogó lépésr
 - [Aláírás frissítési műveletek .NET‑ben](./net/update-operations/)
 - [Átfogó aláírás ellenőrzés .NET‑ben](./net/verify-operations/)
 
-## Java útmutatók – digitális dokumentum aláírás, amire a Java fejlesztők támaszkodnak
+## Java oktatóanyagok – digitális dokumentum aláírás, amire a Java fejlesztők támaszkodnak
 
 {{% alert color="primary" %}}
-Fedezd fel átfogó Java útmutatóinkat a biztonságos digitális aláírások megvalósításához az alkalmazásaidban. Útmutatóink részletes megvalósítási lépéseket, gyakorlati példákat és bevált gyakorlatokat nyújtanak robusztus dokumentumaláírási megoldások létrehozásához minden fő platformon, beleértve az Androidot is.
+Fedezd fel átfogó Java útmutatóinkat a biztonságos digitális aláírások megvalósításához alkalmazásaidban. Oktatóanyagaink részletes lépéseket, gyakorlati példákat és legjobb gyakorlatokat nyújtanak a robusztus dokumentumaláírási megoldások létrehozásához minden fő platformon, beleértve az Androidot is.
 {{% /alert %}}
 
-- [Első lépések a GroupDocs.Signature Java használatával](./java/getting-started/)
+- [Első lépések a GroupDocs.Signature Java‑hoz](./java/getting-started/)
 - [Dokumentum betöltése és mentése Java‑ban](./java/document-loading-saving/)
 - [Digitális tanúsítvány aláírások Java‑ban](./java/digital-signatures/)
 - [Vonalkód aláírás megvalósítása Java‑ban](./java/barcode-signatures/)
@@ -140,69 +141,62 @@ Fedezd fel átfogó Java útmutatóinkat a biztonságos digitális aláírások 
 - [Szöveg‑ és tipográfiai aláírások Java‑ban](./java/text-signatures/)
 - [Űrlapmező aláírás integráció Java‑ban](./java/form-field-signatures/)
 - [Rejtett metaadat aláírások Java‑ban](./java/metadata-signatures/)
-- [Több‑aláírás munkafolyamatok Java‑ban](./java/multiple-signatures/)
-- [Aláírás ellenőrzés és biztonság Java‑ban](./java/search-verification/)
-- [Aláírás életciklus kezelése Java‑ban](./java/signature-management/)
-- [Dokumentum előnézet és információ elemzés Java‑ban](./java/preview-info/)
+- [Több‑aláírási munkafolyamatok Java‑ban](./java/multiple-signatures/)
+- [Aláírás ellenőrzése és biztonság Java‑ban](./java/search-verification/)
+- [Aláírás életciklus‑kezelés Java‑ban](./java/signature-management/)
+- [Dokumentum előnézet és információelemzés Java‑ban](./java/preview-info/)
 - [Fejlett aláírás testreszabás Java‑ban](./java/advanced-options/)
 - [Esemény‑vezérelt aláírás feldolgozás Java‑ban](./java/event-handling/)
 - [Dokumentum biztonság és védelem Java‑ban](./java/document-protection/)
 - [Aláírás diagnosztika Java‑ban](./java/logging-debugging/)
 
 ## Hogyan biztosítja a GroupDocs.Signature az aláírás integritását?
-A GroupDocs.Signature a eredeti dokumentum kriptográfiai hash‑ét ágyazza be az aláírás mezőbe, majd ezt a hash‑t X.509 tanúsítvánnyal aláírja, garantálva, hogy a aláírás utáni bármilyen módosítás észlelhető az ellenőrzés során. A hash‑t SHA‑256 használatával számítja ki, erős ütközés‑ellenállást biztosítva. Az ellenőrzés során az API újraszámolja a hash‑t és összehasonlítja a tárolt értékkel, biztosítva, hogy a dokumentumot az aláírás után nem manipulálták.
+
+A GroupDocs.Signature az eredeti dokumentum kriptográfiai SHA‑256 hash‑ét ágyazza be az aláírásmezőbe, majd ezt a hash‑t X.509 tanúsítvánnyal írja alá. Bármilyen aláírás utáni módosítás megváltoztatja a hash‑t, ami az ellenőrzés sikertelenségét eredményezi. Ez a megközelítés manipulációra érzékeny bizonyítékot nyújt, amely automatikusan ellenőrzésre kerül a `Signature.Verify()` hívás során.
 
 ## Melyek a támogatott aláírások fő típusai?
-A GroupDocs.Signature támogatja a **látható aláírásokat** (szöveg, kép, vonalkód, QR kód), amelyek a dokumentum elrendezésében jelennek meg, valamint a **láthatatlan aláírásokat** (digitális tanúsítványok, metaadat pecsétek), amelyek manipulációra utaló bizonyítékot nyújtanak a vizuális megjelenés megváltoztatása nélkül. A látható aláírások testreszabhatók betűtípusokkal, színekkel és pozicionálással, míg a láthatatlan aláírások a dokumentum metaadatában vagy kriptográfiai konténerekben tárolódnak. Mindkét típus megfelel az e‑aláírási szabályozásoknak, és önállóan ellenőrizhető.
 
-## Mely fájlformátumokat aláírhatom a GroupDocs.Signature‑val?
-Aláírhatsz **PDF, DOCX, XLSX, PPTX, JPG, PNG, BMP, TIFF, GIF és több mint 50 további formátumot**, például SVG, TXT és HTML. Az API automatikusan kiválasztja az optimális megjelenítési stratégiát minden formátumhoz, 100 % vizuális hűséget biztosítva. Minden formátum esetén a könyvtár kezeli az oldalszámozást, rétegeket és beágyazott erőforrásokat, megőrizve az eredeti tartalmat. Támogatja a ZIP archívumokat és az e‑mail üzeneteket (EML) is, az egyes csatolt dokumentumok kicsomagolásával és aláírásával.
+A GroupDocs.Signature támogatja a **látható aláírásokat** (szöveg, kép, vonalkód, QR kód), amelyek a dokumentum elrendezésében jelennek meg, valamint a **láthatatlan aláírásokat** (digitális tanúsítványok, metaadat pecsétek), amelyek manipulációra érzékeny bizonyítékot nyújtanak anélkül, hogy megváltoztatnák a vizuális megjelenést. A látható aláírások testreszabhatók betűtípusokkal, színekkel és pozicionálással, míg a láthatatlan aláírások a dokumentum metaadataiban vagy kriptográfiai konténerekben tárolódnak. Mindkét típus megfelel az e‑aláírási szabályozásoknak, és önállóan validálható.
+
+## Mely fájlformátumokat tudom aláírni a GroupDocs.Signature‑val?
+
+Aláírhatsz **PDF, DOCX, XLSX, PPTX, JPG, PNG, BMP, TIFF, GIF** és több mint 50 egyéb formátumot, például SVG, TXT és HTML. Az API automatikusan a legoptimálisabb megjelenítési stratégiát választja minden formátumhoz, biztosítva a 100 % vizuális hűséget. Minden formátum esetén a könyvtár kezeli a lapozást, rétegeket és beágyazott erőforrásokat, megőrizve az eredeti tartalmat. Támogatja továbbá az archiv formátumokat, mint a ZIP, valamint az e‑mail üzeneteket (EML) az egyes csatolt dokumentumok kinyerésével és aláírásával.
 
 ## Hogyan ellenőrizhetem programozottan egy aláírást?
-Töltsd be az aláírt dokumentumot az API‑val, hívd meg a `Signature.Verify()` metódust, és vizsgáld meg a visszaadott `VerificationResult` objektumot. Az eredmény tartalmazza az aláíró személyazonosságát, az aláírás időpontját, valamint egy logikai értéket, amely jelzi, hogy a dokumentumot az aláírás óta módosították-e. A `Signature.Verify()` metódus ellenőrzi az aláírt dokumentumot, és egy `VerificationResult`‑et ad vissza, amely az aláírás érvényességét és esetleges dokumentummódosítást jelzi.
+
+A `Signature.Verify()` metódus ellenőrzi a aláírt dokumentumot. Töltsd be az aláírt fájlt a `new Signature("signed.docx")` segítségével, hívd meg a `signature.Verify()`‑t, és vizsgáld meg a visszaadott `VerificationResult`‑ot. Az eredmény megmutatja, hogy a dokumentumot módosították‑e, ki írta alá, és mikor történt az aláírás. Ez az egyetlen soros hívás automatikusan kezeli a kriptográfiai ellenőrzéseket, a tanúsítvány validálást és a hash‑összehasonlítást.
 
 ## Iparágak és felhasználási esetek
-A GroupDocs.Signature különböző iparágak számára készült, amelyek biztonságos dokumentumfeldolgozást igényelnek:
 
-* **Legal & compliance** – Biztosíts jogilag kötelező érvényű aláírásokat manipulációra érzékeny védelemmel.  
-* **Healthcare** – Biztonságos betegnyilvántartás és HIPAA‑szerű szabályozások betartása.  
-* **Financial services** – Szerződések, hiteldokumentumok és kimutatások védelme kriptográfiai aláírásokkal.  
-* **Government & public sector** – Biztonságos munkafolyamatok megvalósítása engedélyek, licencek és hivatalos űrlapok esetén.  
-* **Human resources** – Az onboarding és a szabályzatok elfogadása egyszerűsítése elektronikus aláírásokkal.  
-* **Education** – Bizonyítványok, diplomák és tanulmányi bizonyítványok kezelése ellenőrizhető aláírásokkal.
+A GroupDocs.Signature különböző iparágak számára készült, ahol biztonságos dokumentumfeldolgozásra van szükség:
+
+* **Jog és megfelelőség** – Jogilag kötelező érvényű aláírások biztosítása manipulációra érzékeny védelemmel.  
+* **Egészségügy** – Betegnyilvántartások védelme és HIPAA‑szerű szabályozások betartása.  
+* **Pénzügyi szolgáltatások** – Szerződések, hitelnyilatkozatok és kimutatások védelme kriptográfiai aláírásokkal.  
+* **Kormány és közszféra** – Engedélyek, licencek és hivatalos űrlapok biztonságos munkafolyamatainak megvalósítása.  
+* **Humánerőforrás** – On‑boarding és szabályzat‑elfogadás egyszerűsítése elektronikus aláírásokkal.  
+* **Oktatás** – Bizonyítványok, diplomák és átiratok kezelése ellenőrizhető aláírásokkal.
 
 ## Technikai erőforrások
 
 - [API hivatkozások](https://reference.groupdocs.com/)
 - [GitHub tárolók](https://github.com/groupdocs)
 - [Fejlesztői demók](https://products.groupdocs.app/signature)
-- [Első lépések dokumentációja](https://docs.groupdocs.com/signature/)
+- [Első lépések dokumentáció](https://docs.groupdocs.com/signature/)
 - [Ingyenes támogatási fórum](https://forum.groupdocs.com/c/signature)
 - [Blog](https://blog.groupdocs.com/category/signature/)
 
-## Kezdj el még ma
+## Kezdje el még ma
 
-[Töltsd le a GroupDocs.Signature‑t](https://releases.groupdocs.com/signature/) a biztonságos dokumentumaláírás megvalósításához az alkalmazásaidban, vagy [kérj ingyenes 30‑napos próbát](https://purchase.groupdocs.com/temporary-license/) az API teljes képességeinek kiértékeléséhez.
+[Download GroupDocs.Signature](https://releases.groupdocs.com/signature/) a biztonságos dokumentumaláírás alkalmazásodba történő bevezetéséhez, vagy [request a free 30‑day trial](https://purchase.groupdocs.com/temporary-license/) a teljes API‑képességek kiértékeléséhez.
 
 ---
 
-**Utolsó frissítés:** 2026-08-14  
-**Tesztelve a következővel:** GroupDocs.Signature 24.1 (legújabb)  
-**Szerző:** GroupDocs  
+**Last Updated:** 2026-11-13  
+**Tested With:** GroupDocs.Signature 24.1 (latest)  
+**Author:** GroupDocs  
 
 ## Gyakran ismételt kérdések
 
-**Q: Használhatom a GroupDocs.Signature‑t felhő‑natív mikroszolgáltatásban?**  
-A: Igen, az API állapotmentes és működik Docker, Kubernetes és serverless környezetekkel UI nélkül.
-
-**Q: Támogatja a könyvtár a jelszóval védett PDF‑eket?**  
-A: Teljesen – a dokumentum betöltésekor megadod a jelszót, és az API a felhasználás vagy ellenőrzés előtt visszafejti.
-
-**Q: Mely .NET verziók támogatottak hivatalosan?**  
-A: A .NET Framework 4.6+, .NET Core 3.1+, .NET 5, .NET 6 és .NET 7 mind támogatottak alapértelmezés szerint.
-
-**Q: Hogyan kezeljem hatékonyan a nagy dokumentumokat (százak oldalakat)?**  
-A: Használd a streaming API‑t (`Signature.Load(Stream)`), amely oldalanként dolgozza fel a dokumentumot, és 100 MB alatti memóriahasználatot tart 500 oldalas fájlok esetén is.
-
-**Q: Van mód az aláírási műveletek auditálására?**  
-A: Igen, engedélyezd a beépített naplózási modult; minden aláírási és ellenőrzési eseményt rögzít időbélyeggel, felhasználó‑azonosítóval és a művelet eredményével.
+**Q: Használhatom a GroupDocs.Signature‑t egy felhő‑natív mikroszolgáltatásban?**  
+A: Igen, az API

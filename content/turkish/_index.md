@@ -1,31 +1,31 @@
 ---
 additionalTitle: GroupDocs Official API References
-date: 2026-08-14
-description: GroupDocs.Signature API öğreticisini keşfedin ve .NET ve Java'da güvenli
-  dijital belge imzalama hakkında bilgi edinin. PDFs, Word, Excel, PowerPoint ve görüntü
-  dosyalarını nasıl uygulayacağınızı, doğrulayacağınızı ve koruyacağınızı öğrenin.
+date: 2026-11-13
+description: GroupDocs.Signature API ile .NET ve Java’da güvenli dijital belge imzalama
+  nasıl uygulanır öğrenin—PDF'ler, Word, Excel, PowerPoint, görüntüler ve 50'den fazla
+  formatı kapsar.
 is_root: true
 keywords:
-- groupdocs signature api tutorial
-- digital document signing .net
-- digital document signing java
-lastmod: 2026-08-14
+- groupdocs signature digital document signing
+- groupdocs signature .net
+- groupdocs signature java
+- electronic signature api
+- document signing tutorial
+lastmod: 2026-11-13
 linktitle: GroupDocs.Signature API Öğreticileri ve Belgeleri
-og_description: GroupDocs.Signature API öğreticisi, .NET ve Java'da güvenli dijital
-  belge imzalama nasıl uygulanır gösterir ve PDFs, Word, Excel, PowerPoint ve görüntüleri
-  kapsar.
-og_image_alt: GroupDocs.Signature banner illustrating digital document signing across
-  .NET and Java
-og_title: GroupDocs.Signature API öğreticisi – .NET ve Java için güvenli dijital belge
-  imzalama
+og_description: GroupDocs.Signature dijital belge imzalama öğreticisi, .NET ve Java’da
+  güvenli imzaların nasıl uygulanacağını gösterir, 50+ formatı ve 2 GB’a kadar dosyaları
+  destekler.
+og_image_alt: 'Developer guide: GroupDocs.Signature digital document signing across
+  .NET and Java'
+og_title: GroupDocs.Signature dijital belge imzalama öğreticisi – .NET & Java (58
+  karakter)
 schemas:
 - author: GroupDocs
-  dateModified: '2026-08-14'
-  description: Explore the GroupDocs.Signature API tutorial for secure digital document
-    signing in .NET and Java. Learn how to implement, verify, and protect PDFs, Word,
-    Excel, PowerPoint, and image files.
-  headline: GroupDocs.Signature API tutorial – secure digital document signing for
-    .NET and Java
+  dateModified: '2026-11-13'
+  description: Learn how to implement secure digital document signing with the GroupDocs.Signature
+    API in .NET and Java—covering PDFs, Word, Excel, PowerPoint, and images.
+  headline: GroupDocs.Signature digital document signing tutorial – .NET & Java
   type: TechArticle
 - questions:
   - answer: Yes, the API is stateless and works with Docker, Kubernetes, and serverless
@@ -38,7 +38,7 @@ schemas:
       supported out of the box.
     question: What .NET versions are officially supported?
   - answer: Use the streaming API (`Signature.Load(Stream)`) which processes pages
-      on‑the‑fly and keeps memory usage below 100 MB even for 500‑page files.
+      on‑the‑fly and keeps memory usage below 100 MB even for 500‑page files.
     question: How do I handle large documents (hundreds of pages) efficiently?
   - answer: Yes, enable the built‑in logging module; it records every signing and
       verification event with timestamps, user IDs, and operation results.
@@ -50,22 +50,21 @@ tags:
 - .net document signing
 - java document signing
 - api tutorial
-title: GroupDocs.Signature API öğreticisi – .NET ve Java için güvenli dijital belge
-  imzalama
+title: GroupDocs.Signature dijital belge imzalama öğreticisi .NET ve Java için
 type: docs
 url: /tr/
 weight: 11
 ---
 
-# GroupDocs.Signature API öğreticisi – .NET ve Java için güvenli dijital belge imzalama
+# GroupDocs.Signature dijital belge imzalama öğreticisi .NET ve Java için
 
 ![GroupDocs.Signature Afişi](./groupdocs-signature-net.svg)
 
 [GroupDocs.Signature Afişi](./groupdocs-signature-net.svg)
 
-## Neden bir GroupDocs.Signature API öğreticisi önemlidir
+## GroupDocs.Signature API öğreticisinin önemi
 
-Günümüzün hızlı hareket eden işletmelerinde, **dijital belge imzalama** sadece bir kolaylık değil—uygulama gereksinimidir. Bu **GroupDocs.Signature API öğreticisi**, .NET veya Java uygulamalarınıza doğrudan güvenilir, müdahale kanıtlı imzalar eklemenizi gösterir ve güvenlik, görünüm ve iş akışı otomasyonu üzerinde tam kontrol sağlar.
+Bugünün hızlı hareket eden işletmelerinde, **dijital belge imzalama** sadece bir rahatlık değil—uygulama gereksinimidir. Bu **GroupDocs.Signature API öğreticisi**, .NET veya Java uygulamalarınıza doğrudan güvenilir, müdahale kanıtlı imzalar eklemenizi gösterir ve güvenlik, görünüm ve iş akışı otomasyonu üzerinde tam kontrol sağlar.
 
 Geliştiricilerin GroupDocs.Signature'ı tercih etme nedenlerini keşfedeceksiniz:
 
@@ -76,29 +75,34 @@ Geliştiricilerin GroupDocs.Signature'ı tercih etme nedenlerini keşfedeceksini
 Aşağıda, imzalama yaşam döngüsünün her aşamasını kapsayan adım adım öğreticilerin özenle hazırlanmış bir listesini bulacaksınız.
 
 ## Hızlı cevaplar
+
 - **GroupDocs.Signature ne yapar?** 50'den fazla belge türüne görünür ve görünmez imzalar ekler ve dosya bütünlüğünü korur.  
 - **Hangi platformlar destekleniyor?** .NET (Framework, Core, .NET 5/6/7) ve Java (Android dahil) tamamen kapsanmıştır.  
 - **PDF'leri görsel bir damga olmadan imzalayabilir miyim?** Evet, belge görünümünü değiştirmeyen kriptografik imzalar uygulayabilirsiniz.  
-- **Toplu imzalama mümkün mü?** Kesinlikle – API, akış (streaming) kullanarak tek bir işte 10.000'den fazla belgeyi işleyebilir.  
+- **Toplu imzalama mümkün mü?** Kesinlikle – API, akış kullanarak tek bir işte 10.000+ belge işleyebilir.  
 - **Geliştirme için lisansa ihtiyacım var mı?** Ücretsiz 30‑günlük deneme mevcuttur; üretim kullanımı için ticari lisans gereklidir.
 
 ## GroupDocs.Signature API öğreticisi nedir?
-**GroupDocs.Signature API öğreticisi**, .NET ve Java uygulamalarında dijital imzalar oluşturma, uygulama, doğrulama ve yönetme konularını gösteren uygulamalı kılavuzların bir koleksiyonudur. Tek sayfalık bir sözleşmeden kurumsal çapta toplu iş akışlarına kadar gerçek dünya senaryolarını adım adım anlatır.
 
-## Dijital belge imzalama için neden GroupDocs.Signature kullanmalısınız?
-GroupDocs.Signature, **50+ giriş ve çıkış formatını** işleyebilir ve dosyanın tamamını belleğe yüklemeden **2 GB**'a kadar belgeleri yönetebilir, tipik 10 sayfalık sözleşmelerde alt saniyelik gecikme sağlar. Yerleşik uyumluluk kontrolleri, denetim süresini **%40**'a kadar azaltır ve olay‑tabanlı mimarisi, tek bir kod satırıyla özel iş kurallarını eklemenize olanak tanır.
+GroupDocs.Signature API öğreticisi, .NET ve Java uygulamalarında dijital imzalar oluşturma, uygulama, doğrulama ve yönetme konularını gösteren uygulamalı kılavuzların bir koleksiyonudur. Tek sayfalık sözleşmeden kurumsal çapta toplu iş akışlarına kadar gerçek dünya senaryolarını adım adım anlatır ve her kullanım durumu için çalıştırmaya hazır kod örnekleri sunar.
+
+## Dijital belge imzalama için neden GroupDocs.Signature kullanmalı?
+
+GroupDocs.Signature **50+ giriş ve çıkış formatını** işler ve dosyanın tamamını belleğe yüklemeden **2 GB**'a kadar belgeleri yönetebilir, tipik 10‑sayfalık sözleşmelerde alt‑saniye gecikme sağlar. Yerleşik uyumluluk kontrolleri denetim süresini **%40**'a kadar azaltır ve olay‑tabanlı mimarisi, tek bir kod satırıyla özel iş kurallarını eklemenize olanak tanır.
 
 ## Önkoşullar
+
 - .NET 4.6+ **veya** .NET 5/6/7 çalışma zamanı, **veya** Java 8+ (Android dahil).  
-- Geçerli bir GroupDocs.Signature lisansı (deneme sürümü değerlendirme için çalışır).  
+- Geçerli bir GroupDocs.Signature lisansı (deneme değerlendirme için çalışır).  
 - C# veya Java sözdizimi ve proje yapısı hakkında temel bilgi.
 
-## .NET öğreticileri – .NET geliştiricilerinin sevdiği dijital belge imzalama
+## .NET öğreticileri – dijital belge imzalama .NET geliştiricilerinin sevdiği
+
 {{% alert color="primary" %}}
-GroupDocs.Signature'ı .NET için kapsamlı adım adım rehberlerimiz ve kullanıma hazır kod örneklerimizle öğrenin. Temel uygulamadan gelişmiş güvenlik iş akışlarına kadar öğreticilerimiz, C# uygulamalarında dijital imzaların oluşturulması, uygulanması, doğrulanması ve yönetilmesini içeren tam imza yaşam döngüsünü kapsar.
+GroupDocs.Signature'ı .NET için kapsamlı adım‑adım kılavuzlarımız ve kullanıma hazır kod örneklerimizle öğrenin. Temel uygulamadan gelişmiş güvenlik iş akışlarına kadar öğreticilerimiz, C# uygulamalarında dijital imzalar oluşturma, uygulama, doğrulama ve yönetmeyi içeren tam imza yaşam döngüsünü kapsar.
 {{% /alert %}}
 
-- [GroupDocs.Signature ile .NET için Başlarken](./net/getting-started/)
+- [GroupDocs.Signature ile .NET'e Başlangıç](./net/getting-started/)
 - [.NET'te Belge Yükleme ve Kaydetme](./net/document-loading-saving/)
 - [.NET'te Dijital Sertifika İmzaları](./net/digital-signatures/)
 - [.NET'te Barkod İmza Uygulaması](./net/barcode-signatures/)
@@ -112,8 +116,8 @@ GroupDocs.Signature'ı .NET için kapsamlı adım adım rehberlerimiz ve kullan�
 - [.NET'te İmza Yaşam Döngüsü Yönetimi](./net/signature-management/)
 - [.NET'te Belge Önizleme ve Bilgi Çıkarma](./net/preview-info/)
 - [.NET'te Gelişmiş İmza Özelleştirme](./net/advanced-options/)
-- [.NET'te Olay Tabanlı İmza İşleme](./net/event-handling/)
-- [.NET'te Belge Güvenliği ve Koruma](./net/document-protection/)
+- [.NET'te Olay‑Tabanlı İmza İşleme](./net/event-handling/)
+- [.NET'te Belge Güvenliği ve Koruması](./net/document-protection/)
 - [.NET'te İmza Tanılamaları](./net/logging-debugging/)
 - [.NET'te Silme İşlem İş Akışları](./net/delete-operations/)
 - [.NET'te Belge Önizleme Özelleştirme](./net/document-preview-operations/)
@@ -124,12 +128,13 @@ GroupDocs.Signature'ı .NET için kapsamlı adım adım rehberlerimiz ve kullan�
 - [.NET'te İmza Güncelleme İşlemleri](./net/update-operations/)
 - [.NET'te Kapsamlı İmza Doğrulama](./net/verify-operations/)
 
-## Java öğreticileri – Java geliştiricilerinin güvendiği dijital belge imzalama
+## Java öğreticileri – dijital belge imzalama Java geliştiricilerinin güvendiği
+
 {{% alert color="primary" %}}
 Uygulamalarınızda güvenli dijital imzalar uygulamak için kapsamlı Java rehberlerimizi keşfedin. Öğreticilerimiz, ayrıntılı uygulama adımları, pratik örnekler ve Android dahil tüm büyük platformlarda sağlam belge imzalama çözümleri oluşturmak için en iyi uygulamaları sunar.
 {{% /alert %}}
 
-- [GroupDocs.Signature ile Java için Başlarken](./java/getting-started/)
+- [GroupDocs.Signature ile Java'ya Başlangıç](./java/getting-started/)
 - [Java'da Belge Yükleme ve Kaydetme](./java/document-loading-saving/)
 - [Java'da Dijital Sertifika İmzaları](./java/digital-signatures/)
 - [Java'da Barkod İmza Uygulaması](./java/barcode-signatures/)
@@ -143,33 +148,39 @@ Uygulamalarınızda güvenli dijital imzalar uygulamak için kapsamlı Java rehb
 - [Java'da İmza Yaşam Döngüsü Yönetimi](./java/signature-management/)
 - [Java'da Belge Önizleme ve Bilgi Analizi](./java/preview-info/)
 - [Java'da Gelişmiş İmza Özelleştirme](./java/advanced-options/)
-- [Java'da Olay Tabanlı İmza İşleme](./java/event-handling/)
-- [Java'da Belge Güvenliği ve Koruma](./java/document-protection/)
+- [Java'da Olay‑Tabanlı İmza İşleme](./java/event-handling/)
+- [Java'da Belge Güvenliği ve Koruması](./java/document-protection/)
 - [Java'da İmza Tanılamaları](./java/logging-debugging/)
 
 ## GroupDocs.Signature imza bütünlüğünü nasıl sağlar?
-GroupDocs.Signature, orijinal belgenin kriptografik bir özetini imza alanına gömer, ardından bu özeti bir X.509 sertifikasıyla imzalar; bu sayede imzadan sonraki herhangi bir değişiklik doğrulama sırasında tespit edilir. Özet, SHA‑256 kullanılarak hesaplanır ve güçlü çakışma direnci sağlar. Doğrulama sırasında API, özeti yeniden hesaplar ve saklanan değerle karşılaştırır, böylece belge imzalandıktan sonra değiştirilmemiş olur.
+
+GroupDocs.Signature, orijinal belgenin kriptografik SHA‑256 özetini imza alanına gömerek ve ardından bu özeti bir X.509 sertifikasıyla imzalayarak imza bütünlüğünü garanti eder. İmza sonrası herhangi bir değişiklik özeti değiştirir ve doğrulamanın başarısız olmasına neden olur. Bu yaklaşım, `Signature.Verify()` çağrısı sırasında otomatik olarak kontrol edilen bir müdahale kanıtı sağlar.
 
 ## Desteklenen ana imza türleri nelerdir?
-GroupDocs.Signature, belge düzeninde görünen **görünür imzalar** (metin, görüntü, barkod, QR kod) ve görsel görünümü değiştirmeden müdahale kanıtı sağlayan **görünmez imzalar** (dijital sertifikalar, meta veri damgaları) destekler. Görünür imzalar font, renk ve konumlandırma ile özelleştirilebilirken, görünmez imzalar belge meta verisinde veya kriptografik kapsayıcılarda saklanır. Her iki tür de e‑imza düzenlemelerine uygundur ve bağımsız olarak doğrulanabilir.
+
+GroupDocs.Signature, belge düzeninde görünen **görünür imzalar** (metin, görüntü, barkod, QR kod) ve görsel görünümü değiştirmeden müdahale kanıtı sağlayan **görünmez imzalar** (dijital sertifikalar, meta veri damgaları) destekler. Görünür imzalar yazı tipleri, renkler ve konumlandırma ile özelleştirilebilirken, görünmez imzalar belge meta verisinde veya kriptografik kapsayıcılarda depolanır. Her iki tür de e‑imza düzenlemelerine uygundur ve bağımsız olarak doğrulanabilir.
 
 ## GroupDocs.Signature ile hangi dosya formatlarını imzalayabilirim?
-**PDF, DOCX, XLSX, PPTX, JPG, PNG, BMP, TIFF, GIF** ve SVG, TXT, HTML gibi 50'den fazla ek format dahil olmak üzere birçok formatı imzalayabilirsiniz. API, her format için optimal render stratejisini otomatik olarak seçer ve %100 görsel doğruluk sağlar. Her formatta kütüphane sayfalama, katmanlar ve gömülü kaynakları yönetir, orijinal içeriği korur. Ayrıca ZIP gibi arşiv formatlarını ve e‑posta mesajlarını (EML) çıkarıp her ekli belgeyi imzalayarak destekler.
 
-## Bir imzayı programlı olarak nasıl doğrularım?
-API ile imzalı belgeyi yükleyin, `Signature.Verify()` metodunu çağırın ve dönen `VerificationResult` nesnesini inceleyin. Sonuç, imzalayanın kimliği, imzalama zamanı ve belgenin imzalandıktan sonra değiştirilip değiştirilmediğini gösteren bir boolean içerir. `Signature.Verify()` metodu, imzalı belgeyi kontrol eder ve imzanın geçerliliği ile olası belge değişikliklerini belirten bir `VerificationResult` döndürür.
+**PDF, DOCX, XLSX, PPTX, JPG, PNG, BMP, TIFF, GIF** ve SVG, TXT, HTML gibi 50'den fazla format dahil olmak üzere **50'den fazla formatı** imzalayabilirsiniz. API, her format için optimal render stratejisini otomatik olarak seçer ve %100 görsel doğruluk sağlar. Her formatta kütüphane sayfalama, katmanlar ve gömülü kaynakları yönetir, orijinal içeriği korur. Ayrıca ZIP gibi arşiv formatlarını ve e‑posta mesajlarını (EML) çıkarıp her ekli belgeyi imzalayarak destekler.
+
+## Bir imzayı programlı olarak nasıl doğrulayabilirim?
+
+`Signature.Verify()` imzalı bir belgeyi doğrulayan metottur. `new Signature("signed.docx")` ile imzalı dosyayı yükleyin, `signature.Verify()` çağırın ve dönen `VerificationResult`'ı inceleyin. Sonuç, belgenin değiştirilip değiştirilmediğini, kim tarafından imzalandığını ve imzanın ne zaman yapıldığını gösterir. Bu tek satırlık çağrı, kriptografik kontrolleri, sertifika doğrulamasını ve özet karşılaştırmasını otomatik olarak gerçekleştirir.
 
 ## Endüstriler ve kullanım senaryoları
+
 GroupDocs.Signature, güvenli belge işleme gerektiren çeşitli endüstriler için tasarlanmıştır:
 
 * **Legal & compliance** – Müdahale kanıtlı koruma ile yasal bağlayıcı imzalar sağlayın.  
 * **Healthcare** – Hasta kayıtlarını güvence altına alın ve HIPAA benzeri düzenlemelere uyun.  
-* **Financial services** – Sözleşmeleri, kredi belgelerini ve beyanları kriptografik imzalarla koruyun.  
+* **Financial services** – Sözleşmeleri, kredi belgelerini ve ekstreleri kriptografik imzalarla koruyun.  
 * **Government & public sector** – İzinler, lisanslar ve resmi formlar için güvenli iş akışları uygulayın.  
-* **Human resources** – İşe alım ve politika onaylarını elektronik imzalarla hızlandırın.  
+* **Human resources** – Elektronik imzalarla işe alım ve politika onaylarını hızlandırın.  
 * **Education** – Transkriptleri, diplomaları ve sertifikaları doğrulanabilir imzalarla yönetin.
 
 ## Teknik kaynaklar
+
 - [API Referansları](https://reference.groupdocs.com/)
 - [GitHub Depoları](https://github.com/groupdocs)
 - [Geliştirici Demo'ları](https://products.groupdocs.app/signature)
@@ -178,27 +189,16 @@ GroupDocs.Signature, güvenli belge işleme gerektiren çeşitli endüstriler i�
 - [Blog](https://blog.groupdocs.com/category/signature/)
 
 ## Bugün başlayın
-[GroupDocs.Signature'ı İndirin](https://releases.groupdocs.com/signature/) uygulamalarınızda güvenli belge imzalamaya başlamak için, ya da [ücretsiz 30‑günlük deneme isteyin](https://purchase.groupdocs.com/temporary-license/) API'mizin tam yeteneklerini değerlendirmek için.
+
+[GroupDocs.Signature'ı İndir](https://releases.groupdocs.com/signature/) uygulamalarınızda güvenli belge imzalama uygulamaya başlamak için, ya da [ücretsiz 30‑günlük deneme isteyin](https://purchase.groupdocs.com/temporary-license/) API'mizin tam yeteneklerini değerlendirmek için.
 
 ---
 
-**Son Güncelleme:** 2026-08-14  
+**Son Güncelleme:** 2026-11-13  
 **Test Edilen Versiyon:** GroupDocs.Signature 24.1 (latest)  
 **Yazar:** GroupDocs  
 
 ## Sıkça Sorulan Sorular
 
-**Q:** GroupDocs.Signature'ı bulut‑yerel bir mikro hizmette kullanabilir miyim?  
-**A:** Evet, API durum bilgisizdir ve UI gerektirmeden Docker, Kubernetes ve sunucusuz ortamlarla çalışır.
-
-**Q:** Kütüphane şifre korumalı PDF'leri destekliyor mu?  
-**A:** Kesinlikle – belgeyi yüklerken şifreyi sağlarsınız ve API, imzaları uygulamadan veya doğrulamadan önce şifreyi çözer.
-
-**Q:** Hangi .NET sürümleri resmi olarak destekleniyor?  
-**A:** .NET Framework 4.6+, .NET Core 3.1+, .NET 5, .NET 6 ve .NET 7 kutudan çıkar çıkmaz desteklenir.
-
-**Q:** Büyük belgeleri (yüzlerce sayfa) verimli bir şekilde nasıl yönetirim?  
-**A:** Sayfaları anlık işleyen ve 500 sayfalık dosyalarda bile bellek kullanımını 100 MB'ın altında tutan akış API'sini (`Signature.Load(Stream)`) kullanın.
-
-**Q:** İmza işlemlerini denetlemenin bir yolu var mı?  
-**A:** Evet, yerleşik günlükleme modülünü etkinleştirin; her imzalama ve doğrulama olayını zaman damgaları, kullanıcı kimlikleri ve işlem sonuçlarıyla kaydeder.
+**Q:** GroupDocs.Signature'ı bulut‑yerel bir mikroserviste kullanabilir miyim?  
+**A:** Evet, API

@@ -1,31 +1,31 @@
 ---
 additionalTitle: GroupDocs Official API References
-date: 2026-08-14
-description: Ontdek de GroupDocs.Signature API tutorial voor veilige digitale ondertekening
-  van documenten in .NET en Java. Leer hoe u PDFs, Word, Excel, PowerPoint en afbeeldingsbestanden
-  kunt implementeren, verifiëren en beschermen.
+date: 2026-11-13
+description: Leer hoe u veilige digitale documentondertekening implementeert met de
+  GroupDocs.Signature API in .NET en Java—ondersteuning voor PDF's, Word, Excel, PowerPoint,
+  afbeeldingen en meer dan 50 formaten.
 is_root: true
 keywords:
-- groupdocs signature api tutorial
-- digital document signing .net
-- digital document signing java
-lastmod: 2026-08-14
-linktitle: GroupDocs.Signature API Tutorials & Documentatie
-og_description: GroupDocs.Signature API tutorial laat zien hoe u veilige digitale
-  ondertekening van documenten kunt implementeren in .NET en Java, met PDFs, Word,
-  Excel, PowerPoint en afbeeldingen.
-og_image_alt: GroupDocs.Signature banner illustrating digital document signing across
-  .NET and Java
-og_title: GroupDocs.Signature API tutorial – veilige digitale ondertekening van documenten
-  voor .NET en Java
+- groupdocs signature digital document signing
+- groupdocs signature .net
+- groupdocs signature java
+- electronic signature api
+- document signing tutorial
+lastmod: 2026-11-13
+linktitle: GroupDocs.Signature API handleidingen en documentatie
+og_description: GroupDocs.Signature digitale documentondertekening handleiding laat
+  zien hoe u veilige handtekeningen implementeert in .NET en Java, met ondersteuning
+  voor meer dan 50 formaten en bestanden tot 2 GB.
+og_image_alt: 'Developer guide: GroupDocs.Signature digital document signing across
+  .NET and Java'
+og_title: GroupDocs.Signature digitale documentondertekening handleiding – .NET &
+  Java (58 tekens)
 schemas:
 - author: GroupDocs
-  dateModified: '2026-08-14'
-  description: Explore the GroupDocs.Signature API tutorial for secure digital document
-    signing in .NET and Java. Learn how to implement, verify, and protect PDFs, Word,
-    Excel, PowerPoint, and image files.
-  headline: GroupDocs.Signature API tutorial – secure digital document signing for
-    .NET and Java
+  dateModified: '2026-11-13'
+  description: Learn how to implement secure digital document signing with the GroupDocs.Signature
+    API in .NET and Java—covering PDFs, Word, Excel, PowerPoint, and images.
+  headline: GroupDocs.Signature digital document signing tutorial – .NET & Java
   type: TechArticle
 - questions:
   - answer: Yes, the API is stateless and works with Docker, Kubernetes, and serverless
@@ -38,7 +38,7 @@ schemas:
       supported out of the box.
     question: What .NET versions are officially supported?
   - answer: Use the streaming API (`Signature.Load(Stream)`) which processes pages
-      on‑the‑fly and keeps memory usage below 100 MB even for 500‑page files.
+      on‑the‑fly and keeps memory usage below 100 MB even for 500‑page files.
     question: How do I handle large documents (hundreds of pages) efficiently?
   - answer: Yes, enable the built‑in logging module; it records every signing and
       verification event with timestamps, user IDs, and operation results.
@@ -50,28 +50,28 @@ tags:
 - .net document signing
 - java document signing
 - api tutorial
-title: GroupDocs.Signature API tutorial – veilige digitale ondertekening van documenten
-  voor .NET en Java
+title: GroupDocs.Signature digitale documentondertekening handleiding voor .NET en
+  Java
 type: docs
 url: /nl/
 weight: 11
 ---
 
-# GroupDocs.Signature API-tutorial – veilige digitale ondertekening van documenten voor .NET en Java
+# GroupDocs.Signature digitale documentondertekening tutorial voor .NET en Java
 
-![GroupDocs.Signature-banner](./groupdocs-signature-net.svg)
+![GroupDocs.Signature Banner](./groupdocs-signature-net.svg)
 
-[GroupDocs.Signature-banner](./groupdocs-signature-net.svg)
+[GroupDocs.Signature Banner](./groupdocs-signature-net.svg)
 
-## Waarom een GroupDocs.Signature API-tutorial belangrijk is
+## Waarom een GroupDocs.Signature API‑tutorial belangrijk is
 
-In de hedendaagse snelbewegende ondernemingen is **digitale documentondertekening** niet alleen een gemak—het is een nalevingsvereiste. Deze **GroupDocs.Signature API-tutorial** laat zien hoe je vertrouwde, manipulatie‑detecterende handtekeningen direct in je .NET- of Java‑toepassingen kunt integreren, waardoor je volledige controle krijgt over beveiliging, weergave en workflow‑automatisering.
+In de hedendaagse snelgroeiende ondernemingen is **digitale documentondertekening** niet alleen een gemak—het is een nalevingsvereiste. Deze **GroupDocs.Signature API‑tutorial** laat zien hoe je vertrouwde, manipulatie‑detecterende handtekeningen direct in je .NET‑ of Java‑toepassingen kunt integreren, waardoor je volledige controle krijgt over beveiliging, weergave en workflow‑automatisering.
 
 Je ontdekt waarom ontwikkelaars kiezen voor GroupDocs.Signature voor:
 
-* **Regulatory compliance** – voldoe aan e‑sign-wetgeving en industrienormen.  
+* **Regulatory compliance** – voldoe aan e‑sign wetgeving en industrienormen.  
 * **Cross‑format flexibility** – onderteken PDF's, DOCX, XLSX, PPTX, afbeeldingen en meer dan 50 andere formaten.  
-* **Scalable automation** – verwerk duizenden documenten in batches met één regel code.  
+* **Scalable automation** – verwerk duizenden documenten in batch met één regel code.  
 
 Hieronder vind je een samengestelde lijst met stap‑voor‑stap‑tutorials die elke fase van de ondertekeningslevenscyclus behandelen.
 
@@ -79,23 +79,23 @@ Hieronder vind je een samengestelde lijst met stap‑voor‑stap‑tutorials die
 - **Wat doet GroupDocs.Signature?** Het voegt zichtbare en onzichtbare handtekeningen toe aan meer dan 50 documenttypen, terwijl de bestandsintegriteit behouden blijft.  
 - **Welke platforms worden ondersteund?** Zowel .NET (Framework, Core, .NET 5/6/7) als Java (inclusief Android) worden volledig ondersteund.  
 - **Kan ik PDF's ondertekenen zonder een visueel stempel?** Ja, je kunt cryptografische handtekeningen toepassen die de weergave van het document ongewijzigd laten.  
-- **Is batchondertekening mogelijk?** Absoluut – de API kan meer dan 10.000 documenten in één taak verwerken met streaming.  
+- **Is batchondertekening mogelijk?** Absoluut – de API kan meer dan 10.000 documenten in één taak verwerken via streaming.  
 - **Heb ik een licentie nodig voor ontwikkeling?** Er is een gratis proefperiode van 30 dagen beschikbaar; een commerciële licentie is vereist voor productiegebruik.
 
-## Wat is de GroupDocs.Signature API-tutorial?
+## Wat is de GroupDocs.Signature API‑tutorial?
 
-De **GroupDocs.Signature API-tutorial** is een verzameling praktische gidsen die laten zien hoe je digitale handtekeningen maakt, toepast, verifieert en beheert in .NET- en Java‑toepassingen. Het leidt je door real‑world‑scenario's, van een één‑pagina contract tot enterprise‑brede batch‑workflows.
+De GroupDocs.Signature API‑tutorial is een verzameling praktische gidsen die laten zien hoe je digitale handtekeningen maakt, toepast, verifieert en beheert in .NET‑ en Java‑toepassingen. Het leidt je door real‑world scenario's, van een één‑pagina contract tot enterprise‑brede batch‑workflows, en biedt kant‑klaar code‑voorbeelden voor elk gebruiksgeval.
 
 ## Waarom GroupDocs.Signature gebruiken voor digitale documentondertekening?
 
-GroupDocs.Signature verwerkt **50+ invoer- en uitvoerformaten** en kan documenten tot **2 GB** aan zonder het volledige bestand in het geheugen te laden, waardoor sub‑second latency wordt geleverd voor typische 10‑pagina contracten. De ingebouwde compliance‑controles verkorten de audit‑tijd tot **40 %**, en de event‑gedreven architectuur stelt je in staat om aangepaste bedrijfsregels in te pluggen met één regel code.
+GroupDocs.Signature verwerkt **meer dan 50 invoer‑ en uitvoerformaten** en kan documenten tot **2 GB** aan zonder het volledige bestand in het geheugen te laden, waardoor sub‑seconde latentie wordt geleverd voor typische 10‑pagina contracten. De ingebouwde nalevingscontroles verkorten de audit‑tijd tot **40 %**, en de event‑gedreven architectuur stelt je in staat om aangepaste bedrijfsregels toe te voegen met één regel code.
 
-## Voorvereisten
+## Voorwaarden
 - .NET 4.6+ **of** .NET 5/6/7 runtime, **of** Java 8+ (inclusief Android).  
-- Een geldige GroupDocs.Signature-licentie (proefversie werkt voor evaluatie).  
-- Basiskennis van C# of Java syntaxis en projectstructuur.
+- Een geldige GroupDocs.Signature‑licentie (de proefversie werkt voor evaluatie).  
+- Basiskennis van C#‑ of Java‑syntaxis en projectstructuur.  
 
-## .NET-tutorials – digitale documentondertekening die .NET‑ontwikkelaars liefhebben
+## .NET‑tutorials – digitale documentondertekening die .NET‑ontwikkelaars geweldig vinden
 
 {{% alert color="primary" %}}
 Beheers GroupDocs.Signature voor .NET met onze uitgebreide stap‑voor‑stap‑gidsen en kant‑klaar code‑voorbeelden. Van basisimplementatie tot geavanceerde beveiligingsworkflows, onze tutorials behandelen de volledige handtekeninglevenscyclus, inclusief het maken, toepassen, verifiëren en beheren van digitale handtekeningen in C#‑toepassingen.
@@ -104,22 +104,22 @@ Beheers GroupDocs.Signature voor .NET met onze uitgebreide stap‑voor‑stap‑
 - [Aan de slag met GroupDocs.Signature voor .NET](./net/getting-started/)
 - [Document laden & opslaan in .NET](./net/document-loading-saving/)
 - [Digitale certificaathandtekeningen in .NET](./net/digital-signatures/)
-- [Barcode-handtekeningimplementatie in .NET](./net/barcode-signatures/)
+- [Barcode‑handtekeningimplementatie in .NET](./net/barcode-signatures/)
 - [QR‑code‑handtekeningen & aangepaste objecten in .NET](./net/qr-code-signatures/)
 - [Afbeeldings‑gebaseerde handtekeningen & watermerken in .NET](./net/image-signatures/)
 - [Tekst‑ & typografie‑handtekeningen in .NET](./net/text-signatures/)
 - [Interactieve formulier‑veld‑handtekeningen in .NET](./net/form-field-signatures/)
 - [Verborgen metadata‑handtekeningen in .NET](./net/metadata-signatures/)
-- [Meervoudige‑handtekeningverwerking in .NET](./net/multiple-signatures/)
+- [Meervoudige handtekeningverwerking in .NET](./net/multiple-signatures/)
 - [Handtekeningverificatie & authenticatie in .NET](./net/search-verification/)
-- [Beheer van handtekeninglevenscyclus in .NET](./net/signature-management/)
-- [Document‑preview & informatie‑extractie in .NET](./net/preview-info/)
+- [Handtekeninglevenscyclusbeheer in .NET](./net/signature-management/)
+- [Documentpreview & informatie‑extractie in .NET](./net/preview-info/)
 - [Geavanceerde handtekeningaanpassing in .NET](./net/advanced-options/)
 - [Event‑gedreven handtekeningverwerking in .NET](./net/event-handling/)
 - [Documentbeveiliging & bescherming in .NET](./net/document-protection/)
 - [Handtekeningdiagnostiek in .NET](./net/logging-debugging/)
-- [Verwijder‑operatie‑workflows in .NET](./net/delete-operations/)
-- [Document‑preview‑aanpassing in .NET](./net/document-preview-operations/)
+- [Verwijderings‑workflow in .NET](./net/delete-operations/)
+- [Documentpreview‑aanpassing in .NET](./net/document-preview-operations/)
 - [Metadata‑extractie & beheer in .NET](./net/document-metadata-extraction/)
 - [Geavanceerde zoekmogelijkheden in .NET](./net/signature-searching/)
 - [Fundamenten van documentondertekening in .NET](./net/document-signing/)
@@ -142,10 +142,10 @@ Ontdek onze uitgebreide Java‑gidsen voor het implementeren van veilige digital
 - [Tekst‑ & typografie‑handtekeningen in Java](./java/text-signatures/)
 - [Formulierveld‑handtekeningintegratie in Java](./java/form-field-signatures/)
 - [Verborgen metadata‑handtekeningen in Java](./java/metadata-signatures/)
-- [Meervoudige‑handtekening‑workflows in Java](./java/multiple-signatures/)
+- [Meervoudige handtekeningworkflows in Java](./java/multiple-signatures/)
 - [Handtekeningverificatie & beveiliging in Java](./java/search-verification/)
-- [Beheer van handtekeninglevenscyclus in Java](./java/signature-management/)
-- [Document‑preview & informatie‑analyse in Java](./java/preview-info/)
+- [Handtekeninglevenscyclusbeheer in Java](./java/signature-management/)
+- [Documentpreview & informatie‑analyse in Java](./java/preview-info/)
 - [Geavanceerde handtekeningaanpassing in Java](./java/advanced-options/)
 - [Event‑gedreven handtekeningverwerking in Java](./java/event-handling/)
 - [Documentbeveiliging & bescherming in Java](./java/document-protection/)
@@ -153,21 +153,21 @@ Ontdek onze uitgebreide Java‑gidsen voor het implementeren van veilige digital
 
 ## Hoe zorgt GroupDocs.Signature voor handtekeningintegriteit?
 
-GroupDocs.Signature embed een cryptografische hash van het originele document in het handtekeningveld, en ondertekent die hash vervolgens met een X.509‑certificaat, waardoor wordt gegarandeerd dat elke wijziging na ondertekening wordt gedetecteerd tijdens verificatie. De hash wordt berekend met SHA‑256, wat sterke botsingsweerstand biedt. Tijdens verificatie berekent de API de hash opnieuw en vergelijkt deze met de opgeslagen waarde, zodat wordt gegarandeerd dat het document niet is gemanipuleerd na ondertekening.
+GroupDocs.Signature garandeert handtekeningintegriteit door een cryptografische SHA‑256‑hash van het originele document in het handtekeningsveld te embedden en vervolgens die hash te ondertekenen met een X.509‑certificaat. Elke wijziging na ondertekening verandert de hash, waardoor verificatie mislukt. Deze aanpak biedt manipulatie‑detectie die automatisch wordt gecontroleerd tijdens de `Signature.Verify()`‑aanroep.
 
 ## Wat zijn de belangrijkste ondersteunde handtekeningtypen?
 
-GroupDocs.Signature ondersteunt **zichtbare handtekeningen** (tekst, afbeelding, barcode, QR‑code) die in de documentlay-out verschijnen, en **onzichtbare handtekeningen** (digitale certificaten, metadata‑stempels) die manipulatie‑bewijs leveren zonder de visuele weergave te wijzigen. Zichtbare handtekeningen kunnen worden aangepast met lettertypen, kleuren en positionering, terwijl onzichtbare handtekeningen worden opgeslagen in documentmetadata of als cryptografische containers. Beide typen voldoen aan e‑sign‑regelgeving en kunnen onafhankelijk worden gevalideerd.
+GroupDocs.Signature ondersteunt **zichtbare handtekeningen** (tekst, afbeelding, barcode, QR‑code) die in de documentlay-out verschijnen, en **onzichtbare handtekeningen** (digitale certificaten, metadata‑stempels) die manipulatie‑detectie bieden zonder de visuele weergave te wijzigen. Zichtbare handtekeningen kunnen worden aangepast met lettertypen, kleuren en positionering, terwijl onzichtbare handtekeningen worden opgeslagen in documentmetadata of als cryptografische containers. Beide typen voldoen aan e‑handtekening‑regelgeving en kunnen onafhankelijk worden gevalideerd.
 
 ## Welke bestandsformaten kan ik ondertekenen met GroupDocs.Signature?
 
-Je kunt **PDF, DOCX, XLSX, PPTX, JPG, PNG, BMP, TIFF, GIF en meer dan 50 extra formaten** ondertekenen, zoals SVG, TXT en HTML. De API selecteert automatisch de optimale renderstrategie voor elk formaat, waardoor 100 % visuele getrouwheid wordt gegarandeerd. Voor elk formaat behandelt de bibliotheek paginering, lagen en ingesloten bronnen, en behoudt de originele inhoud. Het ondersteunt ook archiefformaten zoals ZIP en e‑mailberichten (EML) door elk bijgevoegd document te extraheren en te ondertekenen.
+Je kunt **PDF, DOCX, XLSX, PPTX, JPG, PNG, BMP, TIFF, GIF en meer dan 50 formaten** ondertekenen, zoals SVG, TXT en HTML. De API selecteert automatisch de optimale renderstrategie voor elk formaat, waardoor 100 % visuele getrouwheid wordt gegarandeerd. Voor elk formaat behandelt de bibliotheek paginering, lagen en ingesloten bronnen, en behoudt de originele inhoud. Het ondersteunt ook archiefformaten zoals ZIP en e‑mailberichten (EML) door elk bijgevoegd document te extraheren en te ondertekenen.
 
 ## Hoe kan ik een handtekening programmatisch verifiëren?
 
-Laad het ondertekende document met de API, roep de `Signature.Verify()`‑methode aan en inspecteer het geretourneerde `VerificationResult`. Het resultaat bevat de identiteit van de ondertekenaar, ondertekeningsdatum en een boolean die aangeeft of het document sinds ondertekening is gewijzigd. De `Signature.Verify()`‑methode controleert een ondertekend document en retourneert een `VerificationResult` dat de geldigheid van de handtekening en eventuele documentwijzigingen aangeeft.
+`Signature.Verify()` is de methode die een ondertekend document valideert. Laad het ondertekende bestand met `new Signature("signed.docx")`, roep `signature.Verify()` aan, en inspecteer het geretourneerde `VerificationResult`. Het resultaat geeft aan of het document is gewijzigd, wie het heeft ondertekend, en wanneer de ondertekening heeft plaatsgevonden. Deze één‑regelige aanroep verwerkt automatisch cryptografische controles, certificaatvalidatie en hash‑vergelijking.
 
-## Industrieën & toepassingsgevallen
+## Industrieën & use‑cases
 
 GroupDocs.Signature is ontworpen voor diverse industrieën die veilige documentverwerking vereisen:
 
@@ -180,36 +180,24 @@ GroupDocs.Signature is ontworpen voor diverse industrieën die veilige documentv
 
 ## Technische bronnen
 
-- [API-referenties](https://reference.groupdocs.com/)
+- [API‑referenties](https://reference.groupdocs.com/)
 - [GitHub‑repositories](https://github.com/groupdocs)
 - [Developer‑demo's](https://products.groupdocs.app/signature)
-- [Aan de slag-documentatie](https://docs.groupdocs.com/signature/)
+- [Aan de slag‑documentatie](https://docs.groupdocs.com/signature/)
 - [Gratis ondersteuningsforum](https://forum.groupdocs.com/c/signature)
 - [Blog](https://blog.groupdocs.com/category/signature/)
 
 ## Begin vandaag nog
 
-[Download GroupDocs.Signature](https://releases.groupdocs.com/signature/) om te beginnen met het implementeren van veilige documentondertekening in je toepassingen, of [vraag een gratis proefperiode van 30 dagen aan](https://purchase.groupdocs.com/temporary-license/) om de volledige mogelijkheden van onze API te evalueren.
+[Download GroupDocs.Signature](https://releases.groupdocs.com/signature/) om te beginnen met het implementeren van veilige documentondertekening in je toepassingen, of [vraag een gratis 30‑daagse proefversie aan](https://purchase.groupdocs.com/temporary-license/) om de volledige mogelijkheden van onze API te evalueren.
 
 ---
 
-**Laatst bijgewerkt:** 2026-08-14  
+**Laatste update:** 2026-11-13  
 **Getest met:** GroupDocs.Signature 24.1 (latest)  
 **Auteur:** GroupDocs  
 
 ## Veelgestelde vragen
 
 **Q: Kan ik GroupDocs.Signature gebruiken in een cloud‑native microservice?**  
-A: Ja, de API is stateless en werkt met Docker, Kubernetes en serverless‑omgevingen zonder een UI te vereisen.
-
-**Q: Ondersteunt de bibliotheek wachtwoord‑beveiligde PDF's?**  
-A: Absoluut – je geeft het wachtwoord op bij het laden van het document, en de API zal het ontsleutelen voordat handtekeningen worden toegepast of geverifieerd.
-
-**Q: Welke .NET‑versies worden officieel ondersteund?**  
-A: .NET Framework 4.6+, .NET Core 3.1+, .NET 5, .NET 6 en .NET 7 worden allemaal direct ondersteund.
-
-**Q: Hoe ga ik efficiënt om met grote documenten (honderden pagina's)?**  
-A: Gebruik de streaming‑API (`Signature.Load(Stream)`) die pagina's on‑the‑fly verwerkt en het geheugenverbruik onder 100 MB houdt, zelfs voor bestanden van 500 pagina's.
-
-**Q: Is er een manier om handtekeningoperaties te auditen?**  
-A: Ja, schakel de ingebouwde logging‑module in; deze registreert elke ondertekenings‑ en verificatie‑gebeurtenis met tijdstempels, gebruikers‑ID's en operationele resultaten.
+A: Ja, de API

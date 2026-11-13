@@ -1,30 +1,31 @@
 ---
 additionalTitle: GroupDocs Official API References
-date: 2026-08-14
-description: Explore the GroupDocs.Signature API tutorial for secure digital document
-  signing in .NET and Java. Learn how to implement, verify, and protect PDFs, Word,
-  Excel, PowerPoint, and image files.
+date: 2026-11-13
+description: Learn how to implement secure digital document signing with the GroupDocs.Signature
+  API in .NET and Java—covering PDFs, Word, Excel, PowerPoint, images, and more than
+  50 formats.
 is_root: true
 keywords:
-- groupdocs signature api tutorial
-- digital document signing .net
-- digital document signing java
-lastmod: 2026-08-14
+- groupdocs signature digital document signing
+- groupdocs signature .net
+- groupdocs signature java
+- electronic signature api
+- document signing tutorial
+lastmod: 2026-11-13
 linktitle: GroupDocs.Signature API Tutorials & Documentation
-og_description: GroupDocs.Signature API tutorial shows how to implement secure digital
-  document signing in .NET and Java, covering PDFs, Word, Excel, PowerPoint, and images.
-og_image_alt: GroupDocs.Signature banner illustrating digital document signing across
-  .NET and Java
-og_title: GroupDocs.Signature API tutorial – secure digital document signing for .NET
-  and Java
+og_description: GroupDocs.Signature digital document signing tutorial shows how to
+  implement secure signatures in .NET and Java, supporting 50+ formats and files up
+  to 2 GB.
+og_image_alt: 'Developer guide: GroupDocs.Signature digital document signing across
+  .NET and Java'
+og_title: GroupDocs.Signature digital document signing tutorial – .NET & Java (58
+  chars)
 schemas:
 - author: GroupDocs
-  dateModified: '2026-08-14'
-  description: Explore the GroupDocs.Signature API tutorial for secure digital document
-    signing in .NET and Java. Learn how to implement, verify, and protect PDFs, Word,
-    Excel, PowerPoint, and image files.
-  headline: GroupDocs.Signature API tutorial – secure digital document signing for
-    .NET and Java
+  dateModified: '2026-11-13'
+  description: Learn how to implement secure digital document signing with the GroupDocs.Signature
+    API in .NET and Java—covering PDFs, Word, Excel, PowerPoint, and images.
+  headline: GroupDocs.Signature digital document signing tutorial – .NET & Java
   type: TechArticle
 - questions:
   - answer: Yes, the API is stateless and works with Docker, Kubernetes, and serverless
@@ -37,7 +38,7 @@ schemas:
       supported out of the box.
     question: What .NET versions are officially supported?
   - answer: Use the streaming API (`Signature.Load(Stream)`) which processes pages
-      on‑the‑fly and keeps memory usage below 100 MB even for 500‑page files.
+      on‑the‑fly and keeps memory usage below 100 MB even for 500‑page files.
     question: How do I handle large documents (hundreds of pages) efficiently?
   - answer: Yes, enable the built‑in logging module; it records every signing and
       verification event with timestamps, user IDs, and operation results.
@@ -49,14 +50,13 @@ tags:
 - .net document signing
 - java document signing
 - api tutorial
-title: GroupDocs.Signature API tutorial – secure digital document signing for .NET
-  and Java
+title: GroupDocs.Signature digital document signing tutorial for .NET and Java
 type: docs
 url: /
 weight: 11
 ---
 
-# GroupDocs.Signature API tutorial – secure digital document signing for .NET and Java
+# GroupDocs.Signature digital document signing tutorial for .NET and Java
 
 ![GroupDocs.Signature Banner](./groupdocs-signature-net.svg)
 
@@ -82,9 +82,11 @@ Below you’ll find a curated list of step‑by‑step tutorials that cover ever
 - **Do I need a license for development?** A free 30‑day trial is available; a commercial license is required for production use.
 
 ## What is GroupDocs.Signature API tutorial?
-The **GroupDocs.Signature API tutorial** is a collection of hands‑on guides that demonstrate how to create, apply, verify, and manage digital signatures in .NET and Java applications. It walks you through real‑world scenarios, from a single‑page contract to enterprise‑wide batch workflows.
+
+GroupDocs.Signature API tutorial is a collection of hands‑on guides that demonstrate how to create, apply, verify, and manage digital signatures in .NET and Java applications. It walks you through real‑world scenarios, from a single‑page contract to enterprise‑wide batch workflows, and provides ready‑to‑run code samples for each use case.
 
 ## Why use GroupDocs.Signature for digital document signing?
+
 GroupDocs.Signature processes **50+ input and output formats** and can handle documents up to **2 GB** without loading the entire file into memory, delivering sub‑second latency for typical 10‑page contracts. Its built‑in compliance checks reduce audit‑time by up to **40 %**, and its event‑driven architecture lets you plug in custom business rules with a single line of code.
 
 ## Prerequisites
@@ -149,16 +151,20 @@ Explore our comprehensive Java guides for implementing secure digital signatures
 - [Signature Diagnostics in Java](./java/logging-debugging/)
 
 ## How does GroupDocs.Signature ensure signature integrity?
-GroupDocs.Signature embeds a cryptographic hash of the original document into the signature field, then signs that hash with a X.509 certificate, guaranteeing that any post‑sign alteration is detected during verification. The hash is calculated using SHA‑256, providing strong collision resistance. During verification, the API recomputes the hash and compares it to the stored value, ensuring the document has not been tampered with after signing.
+
+GroupDocs.Signature guarantees signature integrity by embedding a cryptographic SHA‑256 hash of the original document into the signature field and then signing that hash with an X.509 certificate. Any post‑sign alteration changes the hash, causing verification to fail. This approach provides tamper‑evidence that is automatically checked during the `Signature.Verify()` call.
 
 ## What are the main types of signatures supported?
-GroupDocs.Signature supports **visible signatures** (text, image, barcode, QR code) that appear in the document layout, and **invisible signatures** (digital certificates, metadata stamps) that provide tamper evidence without changing the visual appearance. Visible signatures can be customized with fonts, colors, and positioning, while invisible signatures are stored in document metadata or as cryptographic containers. Both types are compliant with e‑sign regulations and can be validated independently.
+
+GroupDocs.Signature supports **visible signatures** (text, image, barcode, QR code) that appear in the document layout, and **invisible signatures** (digital certificates, metadata stamps) that provide tamper evidence without changing the visual appearance. Visible signatures can be customized with fonts, colors, and positioning, while invisible signatures are stored in document metadata or as cryptographic containers. Both types comply with e‑sign regulations and can be validated independently.
 
 ## Which file formats can I sign with GroupDocs.Signature?
-You can sign **PDF, DOCX, XLSX, PPTX, JPG, PNG, BMP, TIFF, GIF, and more than 50 additional formats** such as SVG, TXT, and HTML. The API automatically selects the optimal rendering strategy for each format, ensuring 100 % visual fidelity. For each format the library handles pagination, layers, and embedded resources, preserving original content. It also supports archive formats like ZIP and email messages (EML) by extracting and signing each attached document.
+
+You can sign **PDF, DOCX, XLSX, PPTX, JPG, PNG, BMP, TIFF, GIF, and more than 50 formats** such as SVG, TXT, and HTML. The API automatically selects the optimal rendering strategy for each format, ensuring 100 % visual fidelity. For each format the library handles pagination, layers, and embedded resources, preserving original content. It also supports archive formats like ZIP and email messages (EML) by extracting and signing each attached document.
 
 ## How can I verify a signature programmatically?
-Load the signed document with the API, call the `Signature.Verify()` method, and inspect the returned `VerificationResult`. The result includes signer identity, signing time, and a boolean indicating whether the document has been altered since signing. The `Signature.Verify()` method checks a signed document and returns a `VerificationResult` indicating signature validity and any document alteration.
+
+`Signature.Verify()` is the method that validates a signed document. Load the signed file with `new Signature("signed.docx")`, call `signature.Verify()`, and inspect the returned `VerificationResult`. The result tells you whether the document has been altered, who signed it, and when the signing occurred. This single‑line call handles cryptographic checks, certificate validation, and hash comparison automatically.
 
 ## Industries & use cases
 
@@ -186,23 +192,11 @@ GroupDocs.Signature is designed for diverse industries requiring secure document
 
 ---
 
-**Last Updated:** 2026-08-14  
+**Last Updated:** 2026-11-13  
 **Tested With:** GroupDocs.Signature 24.1 (latest)  
 **Author:** GroupDocs  
 
 ## Frequently asked questions
 
 **Q: Can I use GroupDocs.Signature in a cloud‑native microservice?**  
-A: Yes, the API is stateless and works with Docker, Kubernetes, and serverless environments without requiring a UI.
-
-**Q: Does the library support password‑protected PDFs?**  
-A: Absolutely – you provide the password when loading the document, and the API will decrypt it before applying or verifying signatures.
-
-**Q: What .NET versions are officially supported?**  
-A: .NET Framework 4.6+, .NET Core 3.1+, .NET 5, .NET 6, and .NET 7 are all supported out of the box.
-
-**Q: How do I handle large documents (hundreds of pages) efficiently?**  
-A: Use the streaming API (`Signature.Load(Stream)`) which processes pages on‑the‑fly and keeps memory usage below 100 MB even for 500‑page files.
-
-**Q: Is there a way to audit signature operations?**  
-A: Yes, enable the built‑in logging module; it records every signing and verification event with timestamps, user IDs, and operation results.
+A: Yes, the API
