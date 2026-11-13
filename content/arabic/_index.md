@@ -1,29 +1,30 @@
 ---
 additionalTitle: GroupDocs Official API References
-date: 2026-08-14
-description: استكشف دورة GroupDocs.Signature API لتوقيع المستندات الرقمية الآمن في
-  .NET و Java. تعلم كيفية التنفيذ، والتحقق، وحماية ملفات PDF، Word، Excel، PowerPoint،
-  والصور.
+date: 2026-11-13
+description: تعلم كيفية تنفيذ توقيع المستندات الرقمية الآمن باستخدام GroupDocs.Signature
+  API في .NET و Java — يشمل ملفات PDF و Word و Excel و PowerPoint والصور وأكثر من
+  50 تنسيقًا.
 is_root: true
 keywords:
-- groupdocs signature api tutorial
-- digital document signing .net
-- digital document signing java
-lastmod: 2026-08-14
+- groupdocs signature digital document signing
+- groupdocs signature .net
+- groupdocs signature java
+- electronic signature api
+- document signing tutorial
+lastmod: 2026-11-13
 linktitle: دروس ووثائق GroupDocs.Signature API
-og_description: توضح دورة GroupDocs.Signature API كيفية تنفيذ توقيع المستندات الرقمية
-  الآمن في .NET و Java، مع تغطية ملفات PDF، Word، Excel، PowerPoint، والصور.
-og_image_alt: GroupDocs.Signature banner illustrating digital document signing across
-  .NET and Java
-og_title: دورة GroupDocs.Signature API – توقيع المستندات الرقمية الآمن لـ .NET و Java
+og_description: يظهر دليل توقيع المستندات الرقمية باستخدام GroupDocs.Signature كيفية
+  تنفيذ توقيعات آمنة في .NET و Java، مع دعم أكثر من 50 تنسيقًا وملفات تصل إلى 2 GB.
+og_image_alt: 'Developer guide: GroupDocs.Signature digital document signing across
+  .NET and Java'
+og_title: دليل توقيع المستندات الرقمية باستخدام GroupDocs.Signature – .NET & Java
+  (58 حرفًا)
 schemas:
 - author: GroupDocs
-  dateModified: '2026-08-14'
-  description: Explore the GroupDocs.Signature API tutorial for secure digital document
-    signing in .NET and Java. Learn how to implement, verify, and protect PDFs, Word,
-    Excel, PowerPoint, and image files.
-  headline: GroupDocs.Signature API tutorial – secure digital document signing for
-    .NET and Java
+  dateModified: '2026-11-13'
+  description: Learn how to implement secure digital document signing with the GroupDocs.Signature
+    API in .NET and Java—covering PDFs, Word, Excel, PowerPoint, and images.
+  headline: GroupDocs.Signature digital document signing tutorial – .NET & Java
   type: TechArticle
 - questions:
   - answer: Yes, the API is stateless and works with Docker, Kubernetes, and serverless
@@ -36,7 +37,7 @@ schemas:
       supported out of the box.
     question: What .NET versions are officially supported?
   - answer: Use the streaming API (`Signature.Load(Stream)`) which processes pages
-      on‑the‑fly and keeps memory usage below 100 MB even for 500‑page files.
+      on‑the‑fly and keeps memory usage below 100 MB even for 500‑page files.
     question: How do I handle large documents (hundreds of pages) efficiently?
   - answer: Yes, enable the built‑in logging module; it records every signing and
       verification event with timestamps, user IDs, and operation results.
@@ -48,52 +49,51 @@ tags:
 - .net document signing
 - java document signing
 - api tutorial
-title: دورة GroupDocs.Signature API – توقيع المستندات الرقمية الآمن لـ .NET و Java
+title: دليل توقيع المستندات الرقمية باستخدام GroupDocs.Signature لـ .NET و Java
 type: docs
 url: /ar/
 weight: 11
 ---
 
-# دورة تعليمية لواجهة برمجة تطبيقات GroupDocs.Signature – توقيع المستندات الرقمية الآمن لـ .NET و Java
+# دليل توقيع المستندات الرقمية باستخدام GroupDocs.Signature لـ .NET و Java
 
 ![شعار GroupDocs.Signature](./groupdocs-signature-net.svg)
 
 [شعار GroupDocs.Signature](./groupdocs-signature-net.svg)
 
-## لماذا تعتبر دورة تعليمية لواجهة برمجة تطبيقات GroupDocs.Signature مهمة
+## لماذا يعتبر دليل API الخاص بـ GroupDocs.Signature مهمًا
 
-في مؤسسات اليوم سريعة الحركة، **digital document signing** ليس مجرد وسيلة راحة—إنه متطلب امتثال. تُظهر لك هذه **GroupDocs.Signature API tutorial** كيفية دمج توقيعات موثوقة ومُظهرّة للتلاعب مباشرةً في تطبيقات .NET أو Java الخاصة بك، مما يمنحك تحكمًا كاملاً في الأمان والمظهر وأتمتة سير العمل.
+في مؤسسات اليوم سريعة الحركة، **توقيع المستندات الرقمية** ليس مجرد وسيلة راحة—إنه متطلب امتثال. يوضح لك هذا **دليل API الخاص بـ GroupDocs.Signature** كيفية تضمين توقيعات موثوقة ومضادة للتلاعب مباشرةً في تطبيقات .NET أو Java الخاصة بك، مما يمنحك سيطرة كاملة على الأمان والمظهر وأتمتة سير العمل.
 
 ستكتشف لماذا يختار المطورون GroupDocs.Signature لـ:
 
-* **Regulatory compliance** – تلبية قوانين التوقيع الإلكتروني والمعايير الصناعية.  
-* **Cross‑format flexibility** – توقيع ملفات PDF، DOCX، XLSX، PPTX، الصور، وأكثر من 50 تنسيقًا آخر.  
-* **Scalable automation** – معالجة دفعة من آلاف المستندات بسطر واحد من الشيفرة.  
+* **الامتثال التنظيمي** – الالتزام بقوانين التوقيع الإلكتروني والمعايير الصناعية.  
+* **المرونة عبر الصيغ** – توقيع ملفات PDF، DOCX، XLSX، PPTX، الصور، وأكثر من 50 صيغة أخرى.  
+* **الأتمتة القابلة للتوسع** – معالجة دفعات من آلاف المستندات بسطر واحد من الشيفرة.  
 
 فيما يلي ستجد قائمة مختارة من الدروس خطوة بخطوة التي تغطي كل مرحلة من دورة حياة التوقيع.
 
 ## إجابات سريعة
-- **What does GroupDocs.Signature do?** يضيف توقيعات مرئية وغير مرئية لأكثر من 50 نوعًا من المستندات مع الحفاظ على سلامة الملف.  
-- **Which platforms are supported?** يدعم كل من .NET (Framework, Core, .NET 5/6/7) و Java (بما في ذلك Android) بالكامل.  
-- **Can I sign PDFs without a visual stamp?** نعم، يمكنك تطبيق توقيعات تشفيرية لا تغير مظهر المستند.  
-- **Is batch signing possible?** بالتأكيد – يمكن للواجهة معالجة أكثر من 10,000 مستند في مهمة واحدة باستخدام البث.  
-- **Do I need a license for development?** تتوفر نسخة تجريبية مجانية لمدة 30 يومًا؛ يلزم الحصول على ترخيص تجاري للاستخدام في الإنتاج.
+- **ما الذي يفعله GroupDocs.Signature؟** يضيف توقيعات مرئية وغير مرئية لأكثر من 50 نوعًا من المستندات مع الحفاظ على سلامة الملف.  
+- **ما المنصات المدعومة؟** كل من .NET (Framework, Core, .NET 5/6/7) و Java (بما في ذلك Android) مدعومة بالكامل.  
+- **هل يمكنني توقيع ملفات PDF دون ختم مرئي؟** نعم، يمكنك تطبيق توقيعات تشفيرية لا تغير مظهر المستند.  
+- **هل التوقيع الدفعي ممكن؟** بالتأكيد – يمكن للـ API معالجة أكثر من 10,000 مستند في مهمة واحدة باستخدام البث.  
+- **هل أحتاج إلى ترخيص للتطوير؟** يتوفر تجربة مجانية لمدة 30 يومًا؛ يلزم ترخيص تجاري للاستخدام في الإنتاج.
 
-## ما هي دورة تعليمية لواجهة برمجة تطبيقات GroupDocs.Signature؟
-The **GroupDocs.Signature API tutorial** هي مجموعة من الأدلة العملية التي توضح كيفية إنشاء وتطبيق والتحقق وإدارة التوقيعات الرقمية في تطبيقات .NET و Java. تقودك عبر سيناريوهات واقعية، من عقد صفحة واحدة إلى سير عمل دفعي على مستوى المؤسسة.
+## ما هو دليل API الخاص بـ GroupDocs.Signature؟
+دليل API الخاص بـ GroupDocs.Signature هو مجموعة من الأدلة العملية التي توضح كيفية إنشاء وتطبيق والتحقق وإدارة التوقيعات الرقمية في تطبيقات .NET و Java. يرافقك عبر سيناريوهات واقعية، من عقد صفحة واحدة إلى تدفقات عمل دفعية على مستوى المؤسسة، ويقدم عينات شيفرة جاهزة للتنفيذ لكل حالة استخدام.
 
 ## لماذا تستخدم GroupDocs.Signature لتوقيع المستندات الرقمية؟
-يعالج GroupDocs.Signature **أكثر من 50 تنسيقًا للمدخلات والمخرجات** ويمكنه التعامل مع مستندات تصل إلى **2 GB** دون تحميل الملف بالكامل في الذاكرة، مما يوفر زمن استجابة أقل من الثانية لعقود من 10 صفحات عادةً. تقلل فحوصات الامتثال المدمجة من وقت التدقيق بنسبة تصل إلى **40 %**، وتتيح لك الهندسة المعتمدة على الأحداث إدخال قواعد عمل مخصصة بسطر واحد من الشيفرة.
+يعالج GroupDocs.Signature **أكثر من 50 صيغة إدخال وإخراج** ويمكنه التعامل مع مستندات تصل إلى **2 جيجابايت** دون تحميل الملف بالكامل في الذاكرة، مما يوفر زمن استجابة أقل من الثانية لعقود من 10 صفحات عادةً. تقلل فحوصات الامتثال المدمجة من وقت التدقيق بنسبة تصل إلى **40 %**، وتتيح لك الهندسة المعتمدة على الأحداث إدخال قواعد أعمال مخصصة بسطر واحد من الشيفرة.
 
 ## المتطلبات المسبقة
-- .NET 4.6+ **or** .NET 5/6/7 runtime، **or** Java 8+ (بما في ذلك Android).  
+- .NET 4.6+ **أو** .NET 5/6/7 runtime، **أو** Java 8+ (بما في ذلك Android).  
 - ترخيص GroupDocs.Signature صالح (التجربة تعمل للتقييم).  
-- إلمام أساسي بصيغة C# أو Java وبنية المشروع.
+- إلمام أساسي بصياغة C# أو Java وبنية المشروع.  
 
 ## دروس .NET – توقيع المستندات الرقمية التي يحبها مطورو .NET
-
 {{% alert color="primary" %}}
-اتقن GroupDocs.Signature لـ .NET من خلال أدلتنا الشاملة خطوة بخطوة وأمثلة الشيفرة الجاهزة للاستخدام. من التنفيذ الأساسي إلى سير عمل الأمان المتقدم، تغطي دروسنا دورة حياة التوقيع بالكامل بما في ذلك الإنشاء، التطبيق، التحقق، وإدارة التوقيعات الرقمية في تطبيقات C#.
+اتقن GroupDocs.Signature لـ .NET من خلال أدلتنا الشاملة خطوة بخطوة وأمثلة الشيفرة الجاهزة للاستخدام. من التنفيذ الأساسي إلى تدفقات العمل الأمنية المتقدمة، تغطي دروسنا دورة حياة التوقيع بالكامل بما في ذلك الإنشاء، التطبيق، التحقق، وإدارة التوقيعات الرقمية في تطبيقات C#.
 {{% /alert %}}
 
 - [البدء مع GroupDocs.Signature لـ .NET](./net/getting-started/)
@@ -101,7 +101,7 @@ The **GroupDocs.Signature API tutorial** هي مجموعة من الأدلة ا�
 - [توقيعات الشهادات الرقمية في .NET](./net/digital-signatures/)
 - [تنفيذ توقيع الباركود في .NET](./net/barcode-signatures/)
 - [توقيعات QR Code والكائنات المخصصة في .NET](./net/qr-code-signatures/)
-- [توقيعات قائمة على الصورة والعلامات المائية في .NET](./net/image-signatures/)
+- [توقيعات قائمة على الصور وعلامات مائية في .NET](./net/image-signatures/)
 - [توقيعات النص والطباعة في .NET](./net/text-signatures/)
 - [توقيعات حقول النماذج التفاعلية في .NET](./net/form-field-signatures/)
 - [توقيعات البيانات الوصفية المخفية في .NET](./net/metadata-signatures/)
@@ -113,19 +113,18 @@ The **GroupDocs.Signature API tutorial** هي مجموعة من الأدلة ا�
 - [معالجة توقيع مدفوعة بالأحداث في .NET](./net/event-handling/)
 - [أمان وحماية المستند في .NET](./net/document-protection/)
 - [تشخيص التوقيع في .NET](./net/logging-debugging/)
-- [سير عمل حذف العمليات في .NET](./net/delete-operations/)
+- [تدفقات عمل حذف في .NET](./net/delete-operations/)
 - [تخصيص معاينة المستند في .NET](./net/document-preview-operations/)
 - [استخراج وإدارة البيانات الوصفية في .NET](./net/document-metadata-extraction/)
-- [قدرات بحث متقدمة في .NET](./net/signature-searching/)
+- [إمكانيات البحث المتقدم في .NET](./net/signature-searching/)
 - [أساسيات توقيع المستند في .NET](./net/document-signing/)
 - [تقنيات توقيع على مستوى المؤسسة في .NET](./net/advanced-signature-techniques/)
 - [عمليات تحديث التوقيع في .NET](./net/update-operations/)
-- [تحقق شامل من التوقيع في .NET](./net/verify-operations/)
+- [التحقق الشامل من التوقيع في .NET](./net/verify-operations/)
 
 ## دروس Java – توقيع المستندات الرقمية التي يعتمد عليها مطورو Java
-
 {{% alert color="primary" %}}
-استكشف أدلتنا الشاملة لـ Java لتنفيذ توقيعات رقمية آمنة في تطبيقاتك. توفر دروسنا خطوات تنفيذ مفصلة، أمثلة عملية، وأفضل الممارسات لإنشاء حلول توقيع مستندات قوية عبر جميع المنصات الرئيسية بما في ذلك Android.
+استكشف أدلتنا الشاملة للـ Java لتطبيق توقيعات رقمية آمنة في تطبيقاتك. توفر دروسنا خطوات تنفيذ مفصلة، أمثلة عملية، وأفضل الممارسات لإنشاء حلول توقيع مستندات قوية عبر جميع المنصات الرئيسية بما في ذلك Android.
 {{% /alert %}}
 
 - [البدء مع GroupDocs.Signature لـ Java](./java/getting-started/)
@@ -133,11 +132,11 @@ The **GroupDocs.Signature API tutorial** هي مجموعة من الأدلة ا�
 - [توقيعات الشهادات الرقمية في Java](./java/digital-signatures/)
 - [تنفيذ توقيع الباركود في Java](./java/barcode-signatures/)
 - [توقيعات QR Code وكائنات البيانات في Java](./java/qr-code-signatures/)
-- [توقيعات قائمة على الصورة والعلامات المائية في Java](./java/image-signatures/)
+- [توقيعات قائمة على الصور وعلامات مائية في Java](./java/image-signatures/)
 - [توقيعات النص والطباعة في Java](./java/text-signatures/)
 - [دمج توقيع حقول النماذج في Java](./java/form-field-signatures/)
 - [توقيعات البيانات الوصفية المخفية في Java](./java/metadata-signatures/)
-- [سير عمل متعدد التوقيعات في Java](./java/multiple-signatures/)
+- [تدفقات عمل متعددة التوقيعات في Java](./java/multiple-signatures/)
 - [التحقق من التوقيع والأمان في Java](./java/search-verification/)
 - [إدارة دورة حياة التوقيع في Java](./java/signature-management/)
 - [معاينة المستند وتحليل المعلومات في Java](./java/preview-info/)
@@ -147,26 +146,26 @@ The **GroupDocs.Signature API tutorial** هي مجموعة من الأدلة ا�
 - [تشخيص التوقيع في Java](./java/logging-debugging/)
 
 ## كيف يضمن GroupDocs.Signature سلامة التوقيع؟
-يقوم GroupDocs.Signature بدمج تجزئة تشفيرية للمستند الأصلي داخل حقل التوقيع، ثم يوقع تلك التجزئة بشهادة X.509، مما يضمن اكتشاف أي تعديل بعد التوقيع أثناء التحقق. تُحسب التجزئة باستخدام SHA‑256، مما يوفر مقاومة قوية للتصادم. أثناء التحقق، تعيد الواجهة حساب التجزئة وتقارنها بالقيمة المخزنة، لضمان عدم تعديل المستند بعد التوقيع.
+يضمن GroupDocs.Signature سلامة التوقيع عن طريق تضمين تجزئة SHA‑256 تشفيرية للمستند الأصلي داخل حقل التوقيع ثم توقيع تلك التجزئة بشهادة X.509. أي تعديل بعد التوقيع يغيّر التجزئة، مما يؤدي إلى فشل التحقق. توفر هذه الطريقة دليلًا على التلاعب يتم فحصه تلقائيًا أثناء استدعاء `Signature.Verify()`.
 
 ## ما هي الأنواع الرئيسية للتوقيعات المدعومة؟
-يدعم GroupDocs.Signature **التوقيعات المرئية** (نص، صورة، باركود، QR code) التي تظهر في تخطيط المستند، و**التوقيعات غير المرئية** (شهادات رقمية، طوابع البيانات الوصفية) التي توفر دليلًا على التلاعب دون تغيير المظهر البصري. يمكن تخصيص التوقيعات المرئية باستخدام الخطوط والألوان والموضع، بينما تُخزن التوقيعات غير المرئية في بيانات المستند الوصفية أو كحاويات تشفيرية. كلا النوعين متوافقان مع لوائح التوقيع الإلكتروني ويمكن التحقق منهما بشكل مستقل.
+يدعم GroupDocs.Signature **التوقيعات المرئية** (نص، صورة، باركود، QR code) التي تظهر في تخطيط المستند، و**التوقيعات غير المرئية** (شهادات رقمية، طوابع بيانات وصفية) التي توفر دليلًا على التلاعب دون تغيير المظهر البصري. يمكن تخصيص التوقيعات المرئية بالخطوط والألوان والموضع، بينما تُخزن التوقيعات غير المرئية في بيانات المستند الوصفية أو كحاويات تشفيرية. كلا النوعين يتوافقان مع لوائح التوقيع الإلكتروني ويمكن التحقق منهما بشكل مستقل.
 
 ## ما هي صيغ الملفات التي يمكنني توقيعها باستخدام GroupDocs.Signature؟
-يمكنك توقيع **PDF، DOCX، XLSX، PPTX، JPG، PNG، BMP، TIFF، GIF، وأكثر من 50 صيغة إضافية** مثل SVG، TXT، وHTML. يختار الواجهة تلقائيًا استراتيجية العرض المثلى لكل صيغة، مما يضمن دقة بصرية بنسبة 100 %. لكل صيغة تتعامل المكتبة مع ترقيم الصفحات، الطبقات، والموارد المدمجة، مع الحفاظ على المحتوى الأصلي. كما تدعم صيغ الأرشيف مثل ZIP ورسائل البريد الإلكتروني (EML) عن طريق استخراج وتوقيع كل مستند مرفق.
+يمكنك توقيع **PDF، DOCX، XLSX، PPTX، JPG، PNG، BMP، TIFF، GIF، وأكثر من 50 صيغة** مثل SVG، TXT، وHTML. يختار الـ API تلقائيًا استراتيجية العرض المثلى لكل صيغة، مما يضمن دقة بصرية بنسبة 100 %. لكل صيغة تتعامل المكتبة مع الترقيم، الطبقات، والموارد المدمجة، مع الحفاظ على المحتوى الأصلي. كما يدعم صيغ الأرشيف مثل ZIP ورسائل البريد الإلكتروني (EML) عن طريق استخراج وتوقيع كل مستند مرفق.
 
 ## كيف يمكنني التحقق من توقيع برمجيًا؟
-حمّل المستند الموقع باستخدام الواجهة، استدعِ الدالة `Signature.Verify()`، وتفحص الكائن `VerificationResult` المُرجع. يتضمن النتيجة هوية المُوقع، وقت التوقيع، وقيمة منطقية تُظهر ما إذا تم تعديل المستند منذ التوقيع. تقوم الدالة `Signature.Verify()` بفحص المستند الموقع وتعيد كائن `VerificationResult` يُشير إلى صحة التوقيع وأي تعديل في المستند.
+`Signature.Verify()` هي الطريقة التي تتحقق من صحة المستند الموقّع. حمّل الملف الموقّع باستخدام `new Signature("signed.docx")`، استدعِ `signature.Verify()`، وتفحص `VerificationResult` المُرجعة. تُظهر النتيجة ما إذا كان المستند قد تم تغييره، من قام بالتوقيع، ومتى تم التوقيع. هذا الاستدعاء بسطر واحد يتعامل تلقائيًا مع الفحوصات التشفيرية، والتحقق من الشهادة، ومقارنة التجزئة.
 
 ## الصناعات وحالات الاستخدام
 تم تصميم GroupDocs.Signature لمجموعة متنوعة من الصناعات التي تتطلب معالجة مستندات آمنة:
 
-* **Legal & compliance** – ضمان توقيعات ملزمة قانونيًا مع حماية تُظهر التلاعب.  
-* **Healthcare** – تأمين سجلات المرضى والامتثال للوائح على نمط HIPAA.  
-* **Financial services** – حماية العقود، وثائق القروض، والبيانات باستخدام توقيعات تشفيرية.  
-* **Government & public sector** – تنفيذ سير عمل آمن للتصاريح، الرخص، والنماذج الرسمية.  
-* **Human resources** – تبسيط عمليات التوظيف وإقرار السياسات باستخدام التوقيعات الإلكترونية.  
-* **Education** – إدارة السجلات الأكاديمية، الشهادات، والشهادات مع توقيعات قابلة للتحقق.
+* **القانونية والامتثال** – ضمان توقيعات ملزمة قانونيًا مع حماية مضادة للتلاعب.  
+* **الرعاية الصحية** – تأمين سجلات المرضى والامتثال للوائح على نمط HIPAA.  
+* **الخدمات المالية** – حماية العقود، وثائق القروض، والبيانات بتوقيعات تشفيرية.  
+* **الحكومة والقطاع العام** – تنفيذ تدفقات عمل آمنة للتصاريح، الرخص، والنماذج الرسمية.  
+* **الموارد البشرية** – تبسيط عمليات الانضمام وتأكيد السياسات باستخدام التوقيعات الإلكترونية.  
+* **التعليم** – إدارة السجلات الأكاديمية، الشهادات، والوثائق مع توقيعات قابلة للتحقق.
 
 ## الموارد التقنية
 - [مراجع API](https://reference.groupdocs.com/)
@@ -177,27 +176,15 @@ The **GroupDocs.Signature API tutorial** هي مجموعة من الأدلة ا�
 - [المدونة](https://blog.groupdocs.com/category/signature/)
 
 ## ابدأ اليوم
-[تحميل GroupDocs.Signature](https://releases.groupdocs.com/signature/) للبدء في تنفيذ توقيع المستندات الآمن في تطبيقاتك، أو [اطلب نسخة تجريبية مجانية لمدة 30 يومًا](https://purchase.groupdocs.com/temporary-license/) لتقييم القدرات الكاملة لواجهة برمجة التطبيقات الخاصة بنا.
+[حمّل GroupDocs.Signature](https://releases.groupdocs.com/signature/) للبدء في تنفيذ توقيع مستندات آمن في تطبيقاتك، أو [اطلب تجربة مجانية لمدة 30 يومًا](https://purchase.groupdocs.com/temporary-license/) لتقييم القدرات الكاملة لواجهة برمجة التطبيقات الخاصة بنا.
 
 ---
 
-**آخر تحديث:** 2026-08-14  
+**آخر تحديث:** 2026-11-13  
 **تم الاختبار مع:** GroupDocs.Signature 24.1 (latest)  
 **المؤلف:** GroupDocs  
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني استخدام GroupDocs.Signature في خدمة سحابية أصلية (cloud‑native microservice)؟**  
-A: نعم، الواجهة لا تحتفظ بحالة وتعمل مع Docker و Kubernetes وبيئات الخوادم بدون الحاجة إلى واجهة مستخدم.
-
-**س: هل تدعم المكتبة ملفات PDF محمية بكلمة مرور؟**  
-A: بالتأكيد – تقوم بتوفير كلمة المرور عند تحميل المستند، وستقوم الواجهة بفك تشفيره قبل تطبيق أو التحقق من التوقيعات.
-
-**س: ما إصدارات .NET المدعومة رسميًا؟**  
-A: .NET Framework 4.6+، .NET Core 3.1+، .NET 5، .NET 6، و .NET 7 كلها مدعومة مباشرةً.
-
-**س: كيف أتعامل مع مستندات كبيرة (مئات الصفحات) بكفاءة؟**  
-A: استخدم واجهة البث (`Signature.Load(Stream)`) التي تعالج الصفحات أثناء التشغيل وتبقي استهلاك الذاكرة أقل من 100 MB حتى لملفات من 500 صفحة.
-
-**س: هل هناك طريقة لتدقيق عمليات التوقيع؟**  
-A: نعم، فعّل وحدة التسجيل المدمجة؛ فهي تسجل كل حدث توقيع وتحقق مع طوابع زمنية، معرفات المستخدم، ونتائج العملية.
+**س: هل يمكنني استخدام GroupDocs.Signature في خدمة سحابية أصلية؟**  
+**ج:** نعم، الـ API
